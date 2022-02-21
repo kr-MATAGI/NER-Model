@@ -3,7 +3,7 @@ import os
 import numpy as np
 
 from transformers import AutoTokenizer
-from data_def import EXO_NE, EXO_NE_Json
+from data_def import EXO_NE, EXO_NE_Json, TTA_NE_tags
 from typing import Dict
 from dataclasses import field
 
@@ -19,6 +19,22 @@ class EXO_Input_Maker:
         self.pkl_path = pkl_path
         self.tokenizer = AutoTokenizer.from_pretrained(tokenizer_name)
         print("[EXO_Input_Maker][__init__]----End Init")
+
+    def _convert_simple_NE_tag(self, ne_tag: str=""):
+        ret_ne_tag = ne_tag
+
+        if ("LCP" in ret_ne_tag) or ("LCG" in ret_ne_tag): # location
+            ret_ne_tag = "LC"
+        elif "OGG" in ret_ne_tag: # organization
+            ret_ne_tag = "OG"
+        elif "AFW" in ret_ne_tag: # artifacts
+            ret_ne_tag = "AF"
+        elif ("TMM" in ret_ne_tag) or ("TMI" in ret_ne_tag) or \
+            ("TMIG" in ret_ne_tag): # term
+            ret_ne_tag = "TM"
+
+        return ret_ne_tag
+
 
     def make_input_labels(self):
         print("[EXO_Input_Maker][make_input_labels] Ready...")
@@ -65,6 +81,8 @@ class EXO_Input_Maker:
 
                     if cmp_word == ne_data.text:
                         ne_tag = ne_data.type.split("_")[0]
+                        ne_tag = self._convert_simple_NE_tag(ne_tag=ne_tag)
+
                         end_idx = t_idx
                         for ne_idx in range(begin_idx, end_idx+1):
                             if begin_idx == ne_idx:
@@ -77,7 +95,7 @@ class EXO_Input_Maker:
                 # end, input_ids
             # end, src_data.ne_list
             ne_dict_format["tokens"].append(input_ids)
-            ne_dict_format["labels"].append(bio_tagging)
+            ne_dict_format["labels"].append([TTA_NE_tags[bio] for bio in bio_tagging])
             ne_dict_format["input_ids"].append(self.tokenizer.convert_tokens_to_ids(input_ids))
             ne_dict_format["token_type_ids"].append([0 for _ in range(512)])
             ne_dict_format["attention_mask"].append([0 for _ in range(512)])
