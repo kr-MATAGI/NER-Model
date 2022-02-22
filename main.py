@@ -32,6 +32,7 @@ class Argment:
     train_batch_size: int = 32
     eval_batch_size: int = 32
     learning_rate: float = 5e-5
+    weight_decay: float = 0.0
     logging_steps: int = 1000
     save_steps: int = 1000
     save_optimizer: bool = False
@@ -80,7 +81,7 @@ def train(args, model, train_dataset, dev_dataset, test_dataset):
     no_decay = ['bias', 'LayerNorm.weight']
     optimizer_grouped_parameters = [
         {'params': [p for n, p in model.named_parameters() if not any(nd in n for nd in no_decay)],
-         'weight_decay': 0.0},
+         'weight_decay': args.weight_decay},
         {'params': [p for n, p in model.named_parameters() if any(nd in n for nd in no_decay)], 'weight_decay': 0.0}
     ]
     optimizer = torch.optim.AdamW(optimizer_grouped_parameters, lr=args.learning_rate)
