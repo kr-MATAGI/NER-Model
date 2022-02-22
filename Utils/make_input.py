@@ -8,17 +8,17 @@ from typing import Dict
 from dataclasses import field
 
 
-class EXO_Input_Maker:
+class Npy_Input_Maker:
     def __init__(self, pkl_path: str="", tokenizer_name: str="klue/roberta-base"):
-        print("[EXO_Input_Maker][__init__]----Init")
+        print("[Npy_Input_Maker][__init__]----Init")
         if not os.path.exists(pkl_path):
-            print(f"f[EXO_Input_Maker][__init__] ERR - Not Exist: {pkl_path}")
+            print(f"f[Npy_Input_Maker][__init__] ERR - Not Exist: {pkl_path}")
             return
 
         # set path
         self.pkl_path = pkl_path
         self.tokenizer = ElectraTokenizer.from_pretrained(tokenizer_name)
-        print("[EXO_Input_Maker][__init__]----End Init")
+        print("[Npy_Input_Maker][__init__]----End Init")
 
     def _convert_simple_NE_tag(self, ne_tag: str=""):
         ret_ne_tag = ne_tag
@@ -27,7 +27,7 @@ class EXO_Input_Maker:
             ret_ne_tag = "LC"
         elif "OGG" in ret_ne_tag: # organization
             ret_ne_tag = "OG"
-        elif "AFW" in ret_ne_tag: # artifacts
+        elif ("AFW" in ret_ne_tag) or ("AFA" in ret_ne_tag): # artifacts
             ret_ne_tag = "AF"
         elif ("TMM" in ret_ne_tag) or ("TMI" in ret_ne_tag) or \
             ("TMIG" in ret_ne_tag): # term
@@ -37,11 +37,11 @@ class EXO_Input_Maker:
 
 
     def make_input_labels(self):
-        print("[EXO_Input_Maker][make_input_labels] Ready...")
+        print("[Npy_Input_Maker][make_input_labels] Ready...")
         pkl_datasets = []
         with open(self.pkl_path, mode="rb") as pkl_file:
             pkl_datasets = pickle.load(pkl_file)
-            print(f"[EXO_Input_Maker][make_input_labels] ne_dataset.len: {len(pkl_datasets)}")
+            print(f"[Npy_Input_Maker][make_input_labels] ne_dataset.len: {len(pkl_datasets)}")
 
         ne_dict_format = {
             "tokens": [],
@@ -51,7 +51,8 @@ class EXO_Input_Maker:
             "attention_mask": []
         }
 
-        for src_data in pkl_datasets:
+        for data_idx, src_data in enumerate(pkl_datasets):
+            if 0 == data_idx % 5000: print(f"[Npy_Input_Maker][make_input_labels] {data_idx} Processing...")
             # text - add [CLS], [SEP]
             text = "[CLS]"
             text += src_data.text
@@ -118,7 +119,7 @@ class EXO_Input_Maker:
         input_ids = np.array(input_ids)
         token_type_ids = np.array(token_type_ids)
         attention_mask = np.array(attention_mask)
-        print(f"[EXO_Input_Maker][make_npy_files] Shape - [token: {tokens.shape}, "
+        print(f"[Npy_Input_Maker][make_npy_files] Shape - [token: {tokens.shape}, "
               f"labels: {labels.shape}, input_ids: {input_ids.shape}, "
               f"token_type_ids: {token_type_ids.shape}, attention_mask: {attention_mask.shape}]")
 
@@ -127,13 +128,22 @@ class EXO_Input_Maker:
         np.save(save_path + "/input_ids", input_ids)
         np.save(save_path + "/token_type_ids", token_type_ids)
         np.save(save_path + "/attention_mask", attention_mask)
-        print(f"[EXO_Input_Maker][make_npy_files] Save Complete - {save_path}")
+        print(f"[Npy_Input_Maker][make_npy_files] Save Complete - {save_path}")
 
 ### MAIN ###
 if "__main__" == __name__:
     print("[make_input.py][MAIN]")
 
-    exo_maker = EXO_Input_Maker(pkl_path="../datasets/exobrain/res_extract_ne/exo_ne_datasets.pkl",
-                                tokenizer_name="monologg/koelectra-base-v3-discriminator")
-    res_dict = exo_maker.make_input_labels()
-    exo_maker.make_npy_files(src_dict=res_dict, save_path="../datasets/exobrain/npy")
+    is_make_exo = False
+    if is_make_exo:
+        exo_maker = Npy_Input_Maker(pkl_path="../datasets/exobrain/res_extract_ne/exo_ne_datasets.pkl",
+                                    tokenizer_name="monologg/koelectra-base-v3-discriminator")
+        res_dict = exo_maker.make_input_labels()
+        exo_maker.make_npy_files(src_dict=res_dict, save_path="../datasets/exobrain/npy")
+
+    is_make_nikl = True
+    if is_make_nikl:
+        exo_maker = Npy_Input_Maker(pkl_path="../datasets/NIKL/res_nikl_ne/nikl_ne_datasets.pkl",
+                                    tokenizer_name="monologg/koelectra-base-v3-discriminator")
+        res_dict = exo_maker.make_input_labels()
+        exo_maker.make_npy_files(src_dict=res_dict, save_path="../datasets/NIKL/npy")
