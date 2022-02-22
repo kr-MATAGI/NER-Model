@@ -11,7 +11,7 @@ class ExoBrain_Datasets(Dataset):
 
         self.attention_mask = torch.tensor(self.attention_mask)
         self.input_ids = torch.tensor(self.input_ids)
-        self.labels = torch.tensor(self.input_ids)
+        self.labels = torch.tensor(self.labels)
         self.token_type_ids = torch.tensor(self.token_type_ids)
 
     def __len__(self):
