@@ -1,11 +1,16 @@
+import copy
 import os
 import logging
+import numpy as np
 import torch.cuda
 from dataclasses import dataclass
 
 from torch.utils.data import RandomSampler, SequentialSampler, DataLoader
-from transformers import ElectraForPreTraining, AdamW, get_linear_schedule_with_warmup
+from transformers import ElectraForTokenClassification, ElectraConfig, get_linear_schedule_with_warmup
 from fastprogress.fastprogress import master_bar, progress_bar
+
+from seqeval import metrics as seqeval_metrics
+from sklearn import metrics as sklearn_metrics
 
 from Utils.data_def import TTA_NE_tags
 from Utils.dataloder import ExoBrain_Datasets
@@ -18,12 +23,14 @@ class Argment:
     do_lower_case: bool = False
     do_train: bool = False
     do_eval: bool = False
+    evaluate_test_during_training: bool = False
     max_steps: int = -1
     gradient_accumulation_steps: int = 1
     num_train_epochs: int = 20
     warmup_proportion: int = 0
     max_grad_norm: float = 1.0
     train_batch_size: int = 32
+    eval_batch_size: int = 32
     logging_steps: int = 1000
     save_steps: int = 1000
     save_optimizer: bool = False
@@ -36,6 +43,24 @@ log_formatter = logging.Formatter('%(asctime)s - %(message)s')
 stream_handler = logging.StreamHandler()
 stream_handler.setFormatter(log_formatter)
 logger.addHandler(stream_handler)
+
+
+def f1_pre_rec(labels, preds, is_ner=True):
+    if is_ner:
+        return {
+            "precision": seqeval_metrics.precision_score(labels, preds, suffix=True),
+            "recall": seqeval_metrics.recall_score(labels, preds, suffix=True),
+            "f1": seqeval_metrics.f1_score(labels, preds, suffix=True),
+        }
+    else:
+        return {
+            "precision": sklearn_metrics.precision_score(labels, preds, average="macro"),
+            "recall": sklearn_metrics.recall_score(labels, preds, average="macro"),
+            "f1": sklearn_metrics.f1_score(labels, preds, average="macro"),
+        }
+
+def show_ner_report(labels, preds):
+    return seqeval_metrics.classification_report(labels, preds, suffix=True)
 
 ####### train
 def train(args, model, train_dataset, dev_dataset,
@@ -93,9 +118,9 @@ def train(args, model, train_dataset, dev_dataset,
                 "token_type_ids": batch["token_type_ids"].to(args.device),
                 "labels": batch["labels"].to(args.device)
             }
+
             outputs = model(**inputs)
             loss = outputs[0]
-
             if args.gradient_accumulation_steps > 1:
                 loss = loss / args.gradient_accumulation_steps
 
@@ -110,13 +135,13 @@ def train(args, model, train_dataset, dev_dataset,
                 optimizer.step()
                 scheduler.step()
                 model.zero_grad()
-                global_step +=1
+                global_step += 1
 
-                # if args.logging_steps > 0 and global_step % args.logging_steps == 0:
-                #     if args.evaluate_test_during_training:
-                #         evaluate(args, model, test_dataset, "test", global_step)
-                #     else:
-                #         evaluate(args, model, dev_dataset, "dev", global_step)
+                if args.logging_steps > 0 and global_step % args.logging_steps == 0:
+                    if args.evaluate_test_during_training:
+                        evaluate(args, model, test_dataset, "test", global_step)
+                    else:
+                        evaluate(args, model, dev_dataset, "dev", global_step)
 
                 if args.save_steps > 0 and global_step % args.save_steps == 0:
                     # Save model checkpoint
@@ -146,30 +171,114 @@ def train(args, model, train_dataset, dev_dataset,
 def evaluate(args, model, eval_dataset, mode, global_step=None):
     results = {}
     eval_sampler = SequentialSampler(eval_dataset)
-    eval_dataloader = DataLoader(eval_dataset)
+    eval_dataloader = DataLoader(eval_dataset, sampler=eval_sampler, batch_size=args.eval_batch_size)
+
+    # Eval
+    if None != global_step:
+        logger.info("***** Running evaluation on {} dataset ({} step) *****".format(mode, global_step))
+    else:
+        logger.info("***** Running evaluation on {} dataset *****".format(mode))
+
+    logger.info("  Num examples = {}".format(len(eval_dataset)))
+    logger.info("  Eval Batch size = {}".format(args.eval_batch_size))
+    eval_loss = 0.0
+    nb_eval_steps = 0
+    preds = None
+    out_label_ids = None
+
+    for batch in progress_bar(eval_dataloader):
+        model.eval()
+        with torch.no_grad():
+            inputs = {
+                "input_ids": batch["input_ids"].to(args.device),
+                "attention_mask": batch["attention_mask"].to(args.device),
+                "token_type_ids": batch["token_type_ids"].to(args.device),
+                "labels": batch["labels"].to(args.device)
+            }
+            outputs = model(**inputs)
+            tmp_eval_loss, logits = outputs[:2]
+
+            eval_loss += tmp_eval_loss.mean().item()
+        nb_eval_steps += 1
+
+        if preds is None:
+            preds = logits.detach().cpu().numpy()
+            out_label_ids = inputs["labels"].detach().cpu().numpy()
+        else:
+            preds = np.append(preds, logits.detach().cpu().numpy(), axis=0)
+            out_label_ids = np.append(out_label_ids, inputs["labels"].detach().cpu().numpy(), axis=0)
+
+    eval_loss = eval_loss / nb_eval_steps
+    results = {
+        "loss": eval_loss
+    }
+    preds = np.argmax(preds, axis=2)
+    labels = TTA_NE_tags.keys()
+    label_map = {i: label for i, label in enumerate(labels)}
+
+    out_label_list = [[] for _ in range(out_label_ids.shape[0])]
+    preds_list = [[] for _ in range(out_label_ids.shape[0])]
+
+    pad_token_label_id = torch.nn.CrossEntropyLoss().ignore_index
+
+    for i in range(out_label_ids.shape[0]):
+        for j in range(out_label_ids.shape[1]):
+            if out_label_ids[i, j] != pad_token_label_id:
+                out_label_list[i].append(label_map[out_label_ids[i][j]])
+                preds_list[i].append(label_map[preds[i][j]])
+
+    result = f1_pre_rec(out_label_list, preds_list)
+    results.update(result)
+
+    output_dir = os.path.join(args.output_dir, mode)
+    if not os.path.exists(output_dir):
+        os.makedirs(output_dir)
+
+    output_eval_file = os.path.join(output_dir,
+                                    "{}-{}.txt".format(mode, global_step) if global_step else "{}.txt".format(mode))
+    with open(output_eval_file, "w") as f_w:
+        logger.info("***** Eval results on {} dataset *****".format(mode))
+        for key in sorted(results.keys()):
+            logger.info("  {} = {}".format(key, str(results[key])))
+            f_w.write("  {} = {}\n".format(key, str(results[key])))
+        logger.info("\n" + show_ner_report(out_label_list, preds_list))  # Show report for each tag result
+        f_w.write("\n" + show_ner_report(out_label_list, preds_list))
+
+    return results
 
 ### MAIN ###
 if "__main__" == __name__:
     print("[main.py][MAIN] -----MAIN")
 
-    # Model
-    arg = Argment()
-    arg.device = "cuda" if torch.cuda.is_available() else "cpu"
-    arg.model_name_or_path = "monologg/koelectra-base-v3-discriminator"
-    arg.num_labels = len(TTA_NE_tags.keys())
-    arg.do_train = True
-    arg.train_batch_size = 8
-    # arg.do_eval = True
+    # arg
+    args = Argment()
+    args.device = "cuda" if torch.cuda.is_available() else "cpu"
+    args.model_name_or_path = "monologg/koelectra-base-v3-discriminator"
+    args.num_labels = len(TTA_NE_tags.keys())
+    args.do_train = True
+    args.do_eval = True
 
-    model = ElectraForPreTraining.from_pretrained(arg.model_name_or_path)
-    model.to(arg.device)
+    args.num_train_epochs = 20
+    args.train_batch_size = 4
+    args.eval_batch_size = 4
+
+    # config
+    config = ElectraConfig.from_pretrained(args.model_name_or_path,
+                                           num_labels=len(TTA_NE_tags.keys()),
+                                           id2label={str(i): label for i, label in enumerate(TTA_NE_tags.keys())},
+                                           label2id={label: i for i, label in enumerate(TTA_NE_tags.keys())})
+
+    # model
+    model = ElectraForTokenClassification.from_pretrained(args.model_name_or_path,
+                                                          config=config)
+    model.to(args.device)
 
     # load train dataset
     train_dataset = ExoBrain_Datasets(path="./datasets/exobrain/npy/ko-electra-base")
-    dev_dataset = []
+    dev_dataset = ExoBrain_Datasets(path="./datasets/exobrain/npy/ko-electra-base")
     test_dataset = []
 
     # do train
-    if arg.do_train:
-        global_step, tr_loss = train(arg, model, train_dataset, dev_dataset)
+    if args.do_train:
+        global_step, tr_loss = train(args, model, train_dataset, dev_dataset)
         logger.info(f"global_step = {global_step}, average loss = {tr_loss}")

@@ -21,7 +21,7 @@ TTA_NE_tags = {
 }
 
 @dataclass
-class EXO_NE:
+class NE:
     id: int = -1
     text: str = ""
     type: str = ""
@@ -31,7 +31,7 @@ class EXO_NE:
     common_noun: int = -1
 
 @dataclass
-class EXO_NE_Json:
-    sent_id: int = -1
+class NE_Json:
+    sent_id: str = ""
     text: str = ""
-    ne_list: List[EXO_NE] = field(default_factory=list)
+    ne_list: List[NE] = field(default_factory=list)

@@ -2,8 +2,8 @@ import pickle
 import os
 import numpy as np
 
-from transformers import AutoTokenizer
-from data_def import EXO_NE, EXO_NE_Json, TTA_NE_tags
+from transformers import ElectraTokenizer
+from data_def import NE, NE_Json, TTA_NE_tags
 from typing import Dict
 from dataclasses import field
 
@@ -17,7 +17,7 @@ class EXO_Input_Maker:
 
         # set path
         self.pkl_path = pkl_path
-        self.tokenizer = AutoTokenizer.from_pretrained(tokenizer_name)
+        self.tokenizer = ElectraTokenizer.from_pretrained(tokenizer_name)
         print("[EXO_Input_Maker][__init__]----End Init")
 
     def _convert_simple_NE_tag(self, ne_tag: str=""):
@@ -58,6 +58,7 @@ class EXO_Input_Maker:
             text += "[SEP]"
 
             input_ids = self.tokenizer.tokenize(text)
+            attention_size = len(input_ids)
             if 512 < len(input_ids):
                 input_ids = input_ids[:511]
                 input_ids.append("[SEP]")
@@ -98,7 +99,7 @@ class EXO_Input_Maker:
             ne_dict_format["labels"].append([TTA_NE_tags[bio] for bio in bio_tagging])
             ne_dict_format["input_ids"].append(self.tokenizer.convert_tokens_to_ids(input_ids))
             ne_dict_format["token_type_ids"].append([0 for _ in range(512)])
-            ne_dict_format["attention_mask"].append([0 for _ in range(512)])
+            ne_dict_format["attention_mask"].append([1 if i < attention_size else 0 for i in range(512)])
         # end, pkl_datasets
 
         return ne_dict_format
