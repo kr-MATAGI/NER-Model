@@ -31,6 +31,7 @@ class Argment:
     max_grad_norm: float = 1.0
     train_batch_size: int = 32
     eval_batch_size: int = 32
+    learning_rate: float = 5e-5
     logging_steps: int = 1000
     save_steps: int = 1000
     save_optimizer: bool = False
@@ -63,8 +64,7 @@ def show_ner_report(labels, preds):
     return seqeval_metrics.classification_report(labels, preds, suffix=True)
 
 ####### train
-def train(args, model, train_dataset, dev_dataset,
-          learning_rate: int=0.01, ):
+def train(args, model, train_dataset, dev_dataset, test_dataset):
     train_sampler = RandomSampler(train_dataset)
     train_dataloader = DataLoader(train_dataset, sampler=train_sampler,
                                   batch_size=args.train_batch_size)
@@ -83,7 +83,8 @@ def train(args, model, train_dataset, dev_dataset,
          'weight_decay': 0.0},
         {'params': [p for n, p in model.named_parameters() if any(nd in n for nd in no_decay)], 'weight_decay': 0.0}
     ]
-    optimizer = torch.optim.AdamW(optimizer_grouped_parameters, lr=learning_rate)
+    optimizer = torch.optim.AdamW(optimizer_grouped_parameters, lr=args.learning_rate)
+    # @NOTE: optimizer에 설정된 learning_rate까지 선형으로 감소시킨다. (스케줄러)
     scheduler = get_linear_schedule_with_warmup(optimizer, num_warmup_steps=int(t_total * args.warmup_proportion),
                                                 num_training_steps=t_total)
     if os.path.isfile(os.path.join(args.model_name_or_path, "optimizer.pt")) and os.path.isfile(
@@ -259,8 +260,11 @@ if "__main__" == __name__:
     args.do_eval = True
 
     args.num_train_epochs = 20
-    args.train_batch_size = 4
-    args.eval_batch_size = 4
+    args.train_batch_size = 8
+    args.eval_batch_size = 8
+    args.learning_rate = 5e-5
+
+    args.evaluate_test_during_training = False
 
     # config
     config = ElectraConfig.from_pretrained(args.model_name_or_path,
@@ -274,11 +278,11 @@ if "__main__" == __name__:
     model.to(args.device)
 
     # load train dataset
-    train_dataset = ExoBrain_Datasets(path="./datasets/exobrain/npy/ko-electra-base")
-    dev_dataset = ExoBrain_Datasets(path="./datasets/exobrain/npy/ko-electra-base")
-    test_dataset = []
+    train_dataset = ExoBrain_Datasets(path="./datasets/NIKL/npy/train")
+    dev_dataset = ExoBrain_Datasets(path="./datasets/NIKL/npy/eval")
+    test_dataset = ExoBrain_Datasets(path="./datasets/NIKL/npy/test")
 
     # do train
     if args.do_train:
-        global_step, tr_loss = train(args, model, train_dataset, dev_dataset)
+        global_step, tr_loss = train(args, model, train_dataset, dev_dataset, test_dataset)
         logger.info(f"global_step = {global_step}, average loss = {tr_loss}")
