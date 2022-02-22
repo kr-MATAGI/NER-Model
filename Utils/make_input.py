@@ -108,22 +108,22 @@ class Npy_Input_Maker:
     def make_npy_files(self, src_dict: Dict[str, list]=field(default_factory=dict),
                        save_path: str=""):
         # token
-        tokens = src_dict["tokens"]
+        #tokens = src_dict["tokens"]
         labels = src_dict["labels"]
         input_ids = src_dict["input_ids"]
         token_type_ids = src_dict["token_type_ids"]
         attention_mask = src_dict["attention_mask"]
 
-        tokens = np.array(tokens)
+        #tokens = np.array(tokens)
         labels = np.array(labels)
         input_ids = np.array(input_ids)
         token_type_ids = np.array(token_type_ids)
         attention_mask = np.array(attention_mask)
-        print(f"[Npy_Input_Maker][make_npy_files] Shape - [token: {tokens.shape}, "
+        print(f"[Npy_Input_Maker][make_npy_files] Shape - ["
               f"labels: {labels.shape}, input_ids: {input_ids.shape}, "
               f"token_type_ids: {token_type_ids.shape}, attention_mask: {attention_mask.shape}]")
 
-        np.save(save_path + "/tokens", tokens)
+        #np.save(save_path + "/tokens", tokens)
         np.save(save_path + "/labels", labels)
         np.save(save_path + "/input_ids", input_ids)
         np.save(save_path + "/token_type_ids", token_type_ids)
@@ -143,7 +143,43 @@ if "__main__" == __name__:
 
     is_make_nikl = True
     if is_make_nikl:
-        exo_maker = Npy_Input_Maker(pkl_path="../datasets/NIKL/res_nikl_ne/nikl_ne_datasets.pkl",
-                                    tokenizer_name="monologg/koelectra-base-v3-discriminator")
-        res_dict = exo_maker.make_input_labels()
-        exo_maker.make_npy_files(src_dict=res_dict, save_path="../datasets/NIKL/npy")
+
+
+        ## Split npy
+        # train: 939,701
+        # eval:  134,243
+        # test:  268,487
+        is_split_pkl = False
+        if is_split_pkl:
+            with open("../datasets/NIKL/res_nikl_ne/nikl_ne_datasets.pkl", mode="rb") as origin_file:
+                train_size = 939701
+                eval_size = 134243
+                test_size = 268486
+                origin_list = pickle.load(origin_file)
+                train_data_list = origin_list[:train_size]
+                eval_data_list = origin_list[train_size:train_size+eval_size]
+                test_data_list = origin_list[train_size+eval_size:]
+                print(f"train_size: {len(train_data_list)}, eval_size: {len(eval_data_list)}, test_size: {len(test_data_list)}")
+
+                with open("../datasets/NIKL/res_nikl_ne/nikl_ne_train.pkl", mode="wb") as train_file:
+                    pickle.dump(train_data_list, train_file)
+                with open("../datasets/NIKL/res_nikl_ne/nikl_ne_eval.pkl", mode="wb") as eval_file:
+                    pickle.dump(eval_data_list, eval_file)
+                with open("../datasets/NIKL/res_nikl_ne/nikl_ne_test.pkl", mode="wb") as test_file:
+                    pickle.dump(test_data_list, test_file)
+
+        # make npy
+        train_maker = Npy_Input_Maker(pkl_path="../datasets/NIKL/res_nikl_ne/nikl_ne_train.pkl",
+                                      tokenizer_name="monologg/koelectra-base-v3-discriminator")
+        train_dict = train_maker.make_input_labels()
+        train_maker.make_npy_files(src_dict=train_dict, save_path="../datasets/NIKL/npy/train")
+
+        eval_maker = Npy_Input_Maker(pkl_path="../datasets/NIKL/res_nikl_ne/nikl_ne_eval.pkl",
+                                     tokenizer_name="monologg/koelectra-base-v3-discriminator")
+        eval_dict = eval_maker.make_input_labels()
+        eval_maker.make_npy_files(src_dict=eval_dict, save_path="../datasets/NIKL/npy/eval")
+
+        test_maker = Npy_Input_Maker(pkl_path="../datasets/NIKL/res_nikl_ne/nikl_ne_test.pkl",
+                                     tokenizer_name="monologg/koelectra-base-v3-discriminator")
+        test_dict = test_maker.make_input_labels()
+        test_maker.make_npy_files(src_dict=test_dict, save_path="../datasets/NIKL/npy/test")
