@@ -51,9 +51,9 @@ logger.addHandler(stream_handler)
 def f1_pre_rec(labels, preds, is_ner=True):
     if is_ner:
         return {
-            "precision": seqeval_metrics.precision_score(labels, preds, suffix=True),
-            "recall": seqeval_metrics.recall_score(labels, preds, suffix=True),
-            "f1": seqeval_metrics.f1_score(labels, preds, suffix=True),
+            "precision": seqeval_metrics.precision_score(labels, preds),
+            "recall": seqeval_metrics.recall_score(labels, preds),
+            "f1": seqeval_metrics.f1_score(labels, preds),
         }
     else:
         return {
@@ -63,7 +63,7 @@ def f1_pre_rec(labels, preds, is_ner=True):
         }
 
 def show_ner_report(labels, preds):
-    return seqeval_metrics.classification_report(labels, preds, suffix=True)
+    return seqeval_metrics.classification_report(labels, preds)
 
 ####### train
 def train(args, model, train_dataset, dev_dataset, test_dataset):
@@ -144,12 +144,6 @@ def train(args, model, train_dataset, dev_dataset, test_dataset):
                 model.zero_grad()
                 global_step += 1
 
-                if args.logging_steps > 0 and global_step % args.logging_steps == 0:
-                    if args.evaluate_test_during_training:
-                        evaluate(args, model, test_dataset, "test", global_step)
-                    else:
-                        evaluate(args, model, dev_dataset, "dev", global_step)
-
                 if args.save_steps > 0 and global_step % args.save_steps == 0:
                     # Save model checkpoint
                     output_dir = os.path.join(args.output_dir, "checkpoint-{}".format(global_step))
@@ -170,6 +164,13 @@ def train(args, model, train_dataset, dev_dataset, test_dataset):
 
             if args.max_steps > 0 and global_step > args.max_steps:
                 break
+
+        evaluate(args, model, dev_dataset, "dev", global_step)
+
+        # save model
+        if not os.path.exists("./model"):
+            os.mkdir("./model")
+        torch.save(model, "./model/epoch_{}.pt".format(epoch))
 
         mb.write("Epoch {} done".format(epoch + 1))
 
@@ -266,8 +267,8 @@ if "__main__" == __name__:
     args.do_eval = True
 
     args.num_train_epochs = 5
-    args.train_batch_size = 16
-    args.eval_batch_size = 16
+    args.train_batch_size = 8
+    args.eval_batch_size = 8
     args.learning_rate = 5e-5
 
     args.evaluate_test_during_training = False
@@ -293,8 +294,6 @@ if "__main__" == __name__:
     train_dataset = ExoBrain_Datasets(path="./datasets/exobrain/npy/ko-electra-base")
     dev_dataset = ExoBrain_Datasets(path="./datasets/exobrain/npy/ko-electra-base")
     test_dataset = ExoBrain_Datasets(path="./datasets/NIKL/npy/test")
-
-    args.logging_steps = len(train_dataset) / args.train_batch_size + 1
 
     # do train
     if args.do_train:
