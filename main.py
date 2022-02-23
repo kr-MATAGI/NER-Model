@@ -277,7 +277,9 @@ if "__main__" == __name__:
     # model
     model = ElectraForTokenClassification.from_pretrained(args.model_name_or_path,
                                                           config=config)
+    model = torch.nn.DataParallel(model)
     model.to(args.device)
+    model.cuda()
 
     # load train dataset
     train_dataset = ExoBrain_Datasets(path="./datasets/NIKL/npy/train")
