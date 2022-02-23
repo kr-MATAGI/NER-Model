@@ -229,9 +229,6 @@ def evaluate(args, model, eval_dataset, mode, global_step=None):
                 out_label_list[i].append(label_map[out_label_ids[i][j]])
                 preds_list[i].append(label_map[preds[i][j]])
 
-    print(out_label_list)
-    print(preds_list)
-    exit()
     result = f1_pre_rec(out_label_list, preds_list)
     results.update(result)
 
