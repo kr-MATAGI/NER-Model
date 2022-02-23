@@ -37,6 +37,7 @@ class Argment:
     save_steps: int = 1000
     save_optimizer: bool = False
     output_dir: str = "./"
+    n_gpu: int = 1
 
 ####### logger
 logger = logging.getLogger()
@@ -123,6 +124,10 @@ def train(args, model, train_dataset, dev_dataset, test_dataset):
 
             outputs = model(**inputs)
             loss = outputs[0]
+
+            if 1 < args.n_gpu:
+                loss = loss.mean()
+
             if args.gradient_accumulation_steps > 1:
                 loss = loss / args.gradient_accumulation_steps
 
@@ -260,7 +265,7 @@ if "__main__" == __name__:
     args.do_train = True
     args.do_eval = True
 
-    args.num_train_epochs = 20
+    args.num_train_epochs = 5
     args.train_batch_size = 16
     args.eval_batch_size = 16
     args.learning_rate = 5e-5
@@ -276,12 +281,17 @@ if "__main__" == __name__:
     # model
     model = ElectraForTokenClassification.from_pretrained(args.model_name_or_path,
                                                           config=config)
+
+    if 1 < torch.cuda.device_count():
+        logging.info(f"Let's use {torch.cuda.device_count()} GPUs!")
+        args.n_gpu = torch.cuda.device_count()
+        model = torch.nn.DataParallel(model)
+
     model.to(args.device)
-    model.cuda()
 
     # load train dataset
-    train_dataset = ExoBrain_Datasets(path="./datasets/NIKL/npy/train")
-    dev_dataset = ExoBrain_Datasets(path="./datasets/NIKL/npy/eval")
+    train_dataset = ExoBrain_Datasets(path="./datasets/exobrain/npy")
+    dev_dataset = ExoBrain_Datasets(path="./datasets/exobrain/npy")
     test_dataset = ExoBrain_Datasets(path="./datasets/NIKL/npy/test")
 
     args.logging_steps = len(train_dataset) / args.train_batch_size + 1
