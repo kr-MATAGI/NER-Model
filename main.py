@@ -34,7 +34,7 @@ class Argment:
     learning_rate: float = 5e-5
     weight_decay: float = 0.0
     logging_steps: int = 1000
-    save_steps: int = 100000
+    save_steps: int = 20000
     save_optimizer: bool = False
     output_dir: str = "./"
     n_gpu: int = 1
