@@ -284,7 +284,7 @@ if "__main__" == __name__:
     dev_dataset = ExoBrain_Datasets(path="./datasets/NIKL/npy/eval")
     test_dataset = ExoBrain_Datasets(path="./datasets/NIKL/npy/test")
 
-    args.logging_steps = len(train_dataset)
+    args.logging_steps = len(train_dataset) / args.train_batch_size + 1
 
     # do train
     if args.do_train:
