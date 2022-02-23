@@ -272,6 +272,7 @@ if "__main__" == __name__:
     args.learning_rate = 5e-5
 
     args.evaluate_test_during_training = False
+    args.save_optimizer = True
 
     # config
     config = ElectraConfig.from_pretrained(args.model_name_or_path,
