@@ -262,8 +262,8 @@ if "__main__" == __name__:
     args.logging_steps = 1000
 
     args.num_train_epochs = 20
-    args.train_batch_size = 16
-    args.eval_batch_size = 16
+    args.train_batch_size = 32
+    args.eval_batch_size = 32
     args.learning_rate = 5e-5
 
     args.evaluate_test_during_training = False
@@ -277,7 +277,9 @@ if "__main__" == __name__:
     # model
     model = ElectraForTokenClassification.from_pretrained(args.model_name_or_path,
                                                           config=config)
-    model = torch.nn.DataParallel(model)
+    os.environ["CUDA_VISIBLE_DEVICES"] = '0, 1, 2, 3'
+    model = torch.nn.DataParallel(model, output_device=1)
+
     model.to(args.device)
     model.cuda()
 
