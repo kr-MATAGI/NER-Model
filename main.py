@@ -259,11 +259,11 @@ if "__main__" == __name__:
     args.num_labels = len(TTA_NE_tags.keys())
     args.do_train = True
     args.do_eval = True
-    args.logging_steps = 100
+    args.logging_steps = 1000
 
     args.num_train_epochs = 20
-    args.train_batch_size = 16
-    args.eval_batch_size = 16
+    args.train_batch_size = 32
+    args.eval_batch_size = 32
     args.learning_rate = 5e-5
 
     args.evaluate_test_during_training = False
@@ -280,8 +280,8 @@ if "__main__" == __name__:
     model.to(args.device)
 
     # load train dataset
-    train_dataset = ExoBrain_Datasets(path="./datasets/exobrain/npy/ko-electra-base")
-    dev_dataset = ExoBrain_Datasets(path="./datasets/exobrain/npy/ko-electra-base")
+    train_dataset = ExoBrain_Datasets(path="./datasets/NIKL/npy/train")
+    dev_dataset = ExoBrain_Datasets(path="./datasets/NIKL/npy/eval")
     test_dataset = ExoBrain_Datasets(path="./datasets/NIKL/npy/test")
 
     # do train
