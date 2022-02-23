@@ -267,8 +267,8 @@ if "__main__" == __name__:
     args.do_eval = True
 
     args.num_train_epochs = 5
-    args.train_batch_size = 8
-    args.eval_batch_size = 8
+    args.train_batch_size = 32
+    args.eval_batch_size = 32
     args.learning_rate = 5e-5
 
     args.evaluate_test_during_training = False
@@ -292,8 +292,8 @@ if "__main__" == __name__:
     model.to(args.device)
 
     # load train dataset
-    train_dataset = ExoBrain_Datasets(path="./datasets/exobrain/npy/ko-electra-base")
-    dev_dataset = ExoBrain_Datasets(path="./datasets/exobrain/npy/ko-electra-base")
+    train_dataset = ExoBrain_Datasets(path="./datasets/NIKL/npy/train")
+    dev_dataset = ExoBrain_Datasets(path="./datasets/NIKL/npy/eval")
     test_dataset = ExoBrain_Datasets(path="./datasets/NIKL/npy/test")
 
     # do train
