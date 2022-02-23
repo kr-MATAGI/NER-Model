@@ -20,7 +20,7 @@ class Npy_Input_Maker:
         self.tokenizer = ElectraTokenizer.from_pretrained(tokenizer_name)
         print("[Npy_Input_Maker][__init__]----End Init")
 
-    def _convert_simple_NE_tag(self, ne_tag: str=""):
+    def convert_simple_NE_tag(self, ne_tag: str= ""):
         ret_ne_tag = ne_tag
 
         if ("LCP" in ret_ne_tag) or ("LCG" in ret_ne_tag): # location
@@ -83,7 +83,7 @@ class Npy_Input_Maker:
 
                     if cmp_word == ne_data.text:
                         ne_tag = ne_data.type.split("_")[0]
-                        ne_tag = self._convert_simple_NE_tag(ne_tag=ne_tag)
+                        ne_tag = self.convert_simple_NE_tag(ne_tag=ne_tag)
 
                         end_idx = t_idx
                         for ne_idx in range(begin_idx, end_idx+1):
