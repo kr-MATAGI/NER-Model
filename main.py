@@ -290,8 +290,8 @@ if "__main__" == __name__:
     model.to(args.device)
 
     # load train dataset
-    train_dataset = ExoBrain_Datasets(path="./datasets/exobrain/npy")
-    dev_dataset = ExoBrain_Datasets(path="./datasets/exobrain/npy")
+    train_dataset = ExoBrain_Datasets(path="./datasets/exobrain/npy/ko-electra-base")
+    dev_dataset = ExoBrain_Datasets(path="./datasets/exobrain/npy/ko-electra-base")
     test_dataset = ExoBrain_Datasets(path="./datasets/NIKL/npy/test")
 
     args.logging_steps = len(train_dataset) / args.train_batch_size + 1
