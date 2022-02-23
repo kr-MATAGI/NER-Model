@@ -262,8 +262,8 @@ if "__main__" == __name__:
     args.logging_steps = 1000
 
     args.num_train_epochs = 20
-    args.train_batch_size = 32
-    args.eval_batch_size = 32
+    args.train_batch_size = 16
+    args.eval_batch_size = 16
     args.learning_rate = 5e-5
 
     args.evaluate_test_during_training = False
