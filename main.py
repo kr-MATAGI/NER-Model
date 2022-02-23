@@ -262,10 +262,11 @@ if "__main__" == __name__:
     args.num_labels = len(TTA_NE_tags.keys())
     args.do_train = True
     args.do_eval = True
+    args.logging_steps = 100
 
     args.num_train_epochs = 20
-    args.train_batch_size = 8
-    args.eval_batch_size = 8
+    args.train_batch_size = 16
+    args.eval_batch_size = 16
     args.learning_rate = 5e-5
 
     args.evaluate_test_during_training = False
