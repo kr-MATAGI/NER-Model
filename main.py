@@ -282,8 +282,8 @@ if "__main__" == __name__:
     model.to(args.device)
 
     # load train dataset
-    train_dataset = ExoBrain_Datasets(path="./datasets/NIKL/npy/train")
-    dev_dataset = ExoBrain_Datasets(path="./datasets/NIKL/npy/eval")
+    train_dataset = ExoBrain_Datasets(path="./datasets/exobrain/npy/ko-electra-base")
+    dev_dataset = ExoBrain_Datasets(path="./datasets/exobrain/npy/ko-electra-base")
     test_dataset = ExoBrain_Datasets(path="./datasets/NIKL/npy/test")
 
     # do train
