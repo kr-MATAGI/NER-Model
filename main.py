@@ -171,7 +171,7 @@ def train(args, model, train_dataset, dev_dataset, test_dataset):
         # save samples
         if not os.path.exists("samples"):
             os.mkdir("samples")
-        torch.save(model, "./samples/epoch_{}.pt".format(epoch))
+        torch.save(model, "./model/epoch_{}.pt".format(epoch))
 
         mb.write("Epoch {} done".format(epoch + 1))
 
@@ -303,5 +303,5 @@ if "__main__" == __name__:
 
     args.do_test = True
     if args.do_test:
-        test_model = torch.load("./samples/epoch_5.pt")
+        test_model = torch.load("./model/epoch_4.pt")
         results = evaluate(args, test_model, test_dataset, mode="test")
