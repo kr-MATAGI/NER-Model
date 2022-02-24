@@ -304,3 +304,5 @@ if "__main__" == __name__:
     if args.do_test:
         test_model = torch.load("./model/epoch_4.pt")
         results = evaluate(args, test_model, test_dataset, mode="test")
+
+    # TODO: learning curve plt
