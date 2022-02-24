@@ -13,7 +13,7 @@ from seqeval import metrics as seqeval_metrics
 from sklearn import metrics as sklearn_metrics
 
 from Utils.data_def import TTA_NE_tags
-from Utils.dataloder import ExoBrain_Datasets
+from Utils.dataloder import NE_Datasets
 
 @dataclass
 class Argment:
@@ -290,9 +290,9 @@ if "__main__" == __name__:
     model.to(args.device)
 
     # load train dataset
-    train_dataset = ExoBrain_Datasets(path="./datasets/NIKL/npy/train")
-    dev_dataset = ExoBrain_Datasets(path="./datasets/NIKL/npy/eval")
-    test_dataset = ExoBrain_Datasets(path="./datasets/NIKL/npy/test")
+    train_dataset = NE_Datasets(path="./datasets/NIKL/npy/train")
+    dev_dataset = NE_Datasets(path="./datasets/NIKL/npy/eval")
+    test_dataset = NE_Datasets(path="./datasets/NIKL/npy/test")
 
     # do train
     args.do_train = False

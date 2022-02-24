@@ -2,7 +2,7 @@ import torch
 from torch.utils.data import Dataset
 import numpy as np
 
-class ExoBrain_Datasets(Dataset):
+class NE_Datasets(Dataset):
     def __init__(self, path: str=""):
         self.attention_mask = np.load(path+"/attention_mask.npy")
         self.input_ids = np.load(path+"/input_ids.npy")
