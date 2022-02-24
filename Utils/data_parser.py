@@ -113,12 +113,12 @@ if "__main__" == __name__:
 
         # save_all ne_dataset
         save_path = "../datasets/exobrain/res_extract_ne/exo_ne_datasets.pkl"
-        is_write_pkl = False
+        is_write_pkl = True
         if is_write_pkl:
             with open(save_path, mode="wb") as pk_file:
                 pickle.dump(exo_ne_list, pk_file)
 
-        is_load_pkl = True
+        is_load_pkl = False
         if is_load_pkl:
             with open(save_path, mode="rb") as pk_file:
                 load_list = pickle.load(pk_file)
@@ -132,7 +132,7 @@ if "__main__" == __name__:
         print(len(nikl_ne_list)) # 1,342,431
 
         save_path = "../datasets/NIKL/res_nikl_ne/nikl_ne_datasets.pkl"
-        is_write_pkl = False
+        is_write_pkl = True
         if is_write_pkl:
             with open(save_path, mode="wb") as pk_file:
                 pickle.dump(nikl_ne_list, pk_file)

@@ -23,6 +23,7 @@ class Argment:
     do_lower_case: bool = False
     do_train: bool = False
     do_eval: bool = False
+    do_test: bool = False
     evaluate_test_during_training: bool = False
     max_steps: int = -1
     gradient_accumulation_steps: int = 1
@@ -263,8 +264,6 @@ if "__main__" == __name__:
     args.device = "cuda" if torch.cuda.is_available() else "cpu"
     args.model_name_or_path = "monologg/koelectra-base-v3-discriminator"
     args.num_labels = len(TTA_NE_tags.keys())
-    args.do_train = True
-    args.do_eval = True
 
     args.num_train_epochs = 5
     args.train_batch_size = 32
@@ -297,6 +296,12 @@ if "__main__" == __name__:
     test_dataset = ExoBrain_Datasets(path="./datasets/NIKL/npy/test")
 
     # do train
+    args.do_train = False
     if args.do_train:
         global_step, tr_loss = train(args, model, train_dataset, dev_dataset, test_dataset)
         logger.info(f"global_step = {global_step}, average loss = {tr_loss}")
+
+    args.do_test = True
+    if args.do_test:
+        test_model = torch.load("./samples/epoch_5.pt")
+        results = evaluate(args, test_model, test_dataset, mode="test")

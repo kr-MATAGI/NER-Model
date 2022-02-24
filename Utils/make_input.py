@@ -73,15 +73,17 @@ class Npy_Input_Maker:
                 is_ne = False
                 begin_idx = 0
                 end_idx = 0
+
+                concat_ne_text = ne_data.text.replace(" ", "")
                 for t_idx, input_token in enumerate(input_ids):
                     if is_ne:
                         cmp_word += input_token.replace("##", "")
-                    elif input_token in ne_data.text:
+                    elif input_token in concat_ne_text:
                         begin_idx = t_idx
                         cmp_word = input_token
                         is_ne = True
 
-                    if cmp_word == ne_data.text:
+                    if cmp_word == concat_ne_text:
                         ne_tag = ne_data.type.split("_")[0]
                         ne_tag = self.convert_simple_NE_tag(ne_tag=ne_tag)
 
@@ -143,8 +145,6 @@ if "__main__" == __name__:
 
     is_make_nikl = True
     if is_make_nikl:
-
-
         ## Split npy
         # train: 939,701
         # eval:  134,243
@@ -154,12 +154,12 @@ if "__main__" == __name__:
             with open("../datasets/NIKL/res_nikl_ne/nikl_ne_datasets.pkl", mode="rb") as origin_file:
                 train_size = 939701
                 eval_size = 134243
-                test_size = 268486
                 origin_list = pickle.load(origin_file)
                 train_data_list = origin_list[:train_size]
                 eval_data_list = origin_list[train_size:train_size+eval_size]
                 test_data_list = origin_list[train_size+eval_size:]
-                print(f"train_size: {len(train_data_list)}, eval_size: {len(eval_data_list)}, test_size: {len(test_data_list)}")
+                print(f"train_size: {len(train_data_list)}, eval_size: {len(eval_data_list)}, "
+                      f"test_size: {len(test_data_list)}")
 
                 with open("../datasets/NIKL/res_nikl_ne/nikl_ne_train.pkl", mode="wb") as train_file:
                     pickle.dump(train_data_list, train_file)
