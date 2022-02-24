@@ -145,7 +145,7 @@ def train(args, model, train_dataset, dev_dataset, test_dataset):
                 global_step += 1
 
                 if args.save_steps > 0 and global_step % args.save_steps == 0:
-                    # Save model checkpoint
+                    # Save samples checkpoint
                     output_dir = os.path.join(args.output_dir, "checkpoint-{}".format(global_step))
                     if not os.path.exists(output_dir):
                         os.makedirs(output_dir)
@@ -155,7 +155,7 @@ def train(args, model, train_dataset, dev_dataset, test_dataset):
                     model_to_save.save_pretrained(output_dir)
 
                     torch.save(args, os.path.join(output_dir, "training_args.bin"))
-                    logger.info("Saving model checkpoint to {}".format(output_dir))
+                    logger.info("Saving samples checkpoint to {}".format(output_dir))
 
                     if args.save_optimizer:
                         torch.save(optimizer.state_dict(), os.path.join(output_dir, "optimizer.pt"))
@@ -167,10 +167,10 @@ def train(args, model, train_dataset, dev_dataset, test_dataset):
 
         evaluate(args, model, dev_dataset, "dev", global_step)
 
-        # save model
-        if not os.path.exists("./model"):
-            os.mkdir("./model")
-        torch.save(model, "./model/epoch_{}.pt".format(epoch))
+        # save samples
+        if not os.path.exists("samples"):
+            os.mkdir("samples")
+        torch.save(model, "./samples/epoch_{}.pt".format(epoch))
 
         mb.write("Epoch {} done".format(epoch + 1))
 
@@ -280,7 +280,7 @@ if "__main__" == __name__:
                                            id2label={str(i): label for i, label in enumerate(TTA_NE_tags.keys())},
                                            label2id={label: i for i, label in enumerate(TTA_NE_tags.keys())})
 
-    # model
+    # samples
     model = ElectraForTokenClassification.from_pretrained(args.model_name_or_path,
                                                           config=config)
 

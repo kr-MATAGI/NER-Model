@@ -9,7 +9,7 @@ from dataclasses import field
 
 
 class Npy_Input_Maker:
-    def __init__(self, pkl_path: str="", tokenizer_name: str="klue/roberta-base"):
+    def __init__(self, pkl_path: str="", tokenizer_name: str=""):
         print("[Npy_Input_Maker][__init__]----Init")
         if not os.path.exists(pkl_path):
             print(f"f[Npy_Input_Maker][__init__] ERR - Not Exist: {pkl_path}")

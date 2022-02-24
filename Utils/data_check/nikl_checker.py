@@ -45,7 +45,7 @@ if "__main__" == __name__:
                 ne_tag = convert_NE_tag(ne.type.split("_")[0])
                 count_dict[ne_tag] += 1
 
-    print(f"result: \n{count_dict}")
+    print(f"result: \n{sorted(count_dict.items(), key=lambda item: item[1], reverse=True), }")
 
     # plot
     tag_name = count_dict.keys()
