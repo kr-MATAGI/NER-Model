@@ -6,6 +6,7 @@ import torch.cuda
 from dataclasses import dataclass
 
 from torch.utils.data import RandomSampler, SequentialSampler, DataLoader
+from torch.utils.tensorboard import SummaryWriter
 from transformers import ElectraForTokenClassification, ElectraConfig, get_linear_schedule_with_warmup
 from fastprogress.fastprogress import master_bar, progress_bar
 
@@ -48,6 +49,10 @@ stream_handler = logging.StreamHandler()
 stream_handler.setFormatter(log_formatter)
 logger.addHandler(stream_handler)
 
+####### tensorboard
+if not os.path.exists("./logs"):
+    os.mkdir("./logs")
+tb_writer = SummaryWriter("./logs")
 
 def f1_pre_rec(labels, preds, is_ner=True):
     if is_ner:
@@ -128,12 +133,14 @@ def train(args, model, train_dataset, dev_dataset, test_dataset):
 
             if 1 < args.n_gpu:
                 loss = loss.mean()
+            tb_writer.add_scalar("Loss/train", loss, global_step)
 
             if args.gradient_accumulation_steps > 1:
                 loss = loss / args.gradient_accumulation_steps
 
             loss.backward()
             tr_loss += loss.item()
+
             if (step + 1) % args.gradient_accumulation_steps == 0 or \
                 (len(train_dataloader) <= args.gradient_accumulation_steps and \
                  (step + 1) == len(train_dataloader)
@@ -208,6 +215,8 @@ def evaluate(args, model, eval_dataset, mode, global_step=None):
             tmp_eval_loss, logits = outputs[:2]
 
             eval_loss += tmp_eval_loss.mean().item()
+            tb_writer.add_scalar("Loss/val", eval_loss, global_step)
+
         nb_eval_steps += 1
 
         if preds is None:
@@ -266,8 +275,8 @@ if "__main__" == __name__:
     args.num_labels = len(TTA_NE_tags.keys())
 
     args.num_train_epochs = 5
-    args.train_batch_size = 32
-    args.eval_batch_size = 32
+    args.train_batch_size = 4
+    args.eval_batch_size = 4
     args.learning_rate = 5e-5
 
     args.evaluate_test_during_training = False
@@ -295,14 +304,15 @@ if "__main__" == __name__:
     test_dataset = NE_Datasets(path="./datasets/NIKL/npy/test")
 
     # do train
-    args.do_train = False
+    args.do_train = True
     if args.do_train:
         global_step, tr_loss = train(args, model, train_dataset, dev_dataset, test_dataset)
         logger.info(f"global_step = {global_step}, average loss = {tr_loss}")
 
-    args.do_test = True
+    args.do_test = False
     if args.do_test:
         test_model = torch.load("./model/epoch_4.pt")
         results = evaluate(args, test_model, test_dataset, mode="test")
 
-    # TODO: learning curve plt
+    # tensorboard close
+    tb_writer.close()

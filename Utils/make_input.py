@@ -51,6 +51,13 @@ class Npy_Input_Maker:
             "attention_mask": []
         }
 
+        '''
+            [PAD] = 0
+            [UNK] = 1
+            [CLS] = 2
+            [SEP] = 3
+            [MASK] = 4
+        '''
         for data_idx, src_data in enumerate(pkl_datasets):
             if 0 == data_idx % 5000: print(f"[Npy_Input_Maker][make_input_labels] {data_idx} Processing...")
             # text - add [CLS], [SEP]
