@@ -156,7 +156,7 @@ if "__main__" == __name__:
         # train: 939,701
         # eval:  134,243
         # test:  268,487
-        is_split_pkl = False
+        is_split_pkl = True
         if is_split_pkl:
             with open("../datasets/NIKL/res_nikl_ne/nikl_ne_datasets.pkl", mode="rb") as origin_file:
                 train_size = 939701

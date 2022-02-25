@@ -2,7 +2,7 @@ from dataclasses import dataclass, field
 from typing import List
 
 TTA_NE_tags = {
-    "O": 0,
+    "O": -100,
     "B-PS": 1, "I-PS": 2, # person
     "B-LC": 3, "I-LC": 4, # location
     "B-OG": 5, "I-OG": 6, # organization

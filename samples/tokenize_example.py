@@ -6,4 +6,5 @@ if "__main__" == __name__:
 
     tokenizer = ElectraTokenizer.from_pretrained("monologg/koelectra-base-v3-discriminator")
     res = tokenizer.convert_tokens_to_ids(test_str)
+
     print(res)
