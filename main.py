@@ -133,13 +133,13 @@ def train(args, model, train_dataset, dev_dataset, test_dataset):
 
             if 1 < args.n_gpu:
                 loss = loss.mean()
-            tb_writer.add_scalar("Loss/train", loss, global_step)
 
             if args.gradient_accumulation_steps > 1:
                 loss = loss / args.gradient_accumulation_steps
 
             loss.backward()
             tr_loss += loss.item()
+            tb_writer.add_scalar("Loss/train", tr_loss /global_step, global_step)
 
             if (step + 1) % args.gradient_accumulation_steps == 0 or \
                 (len(train_dataloader) <= args.gradient_accumulation_steps and \

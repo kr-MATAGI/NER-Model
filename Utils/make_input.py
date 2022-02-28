@@ -66,16 +66,16 @@ class Npy_Input_Maker:
 
             token_ids = self.tokenizer.tokenize(text)
             token_ids_len = len(token_ids)
-
             if 512 < len(token_ids):
                 token_ids = token_ids[:511]
                 token_ids.append("[SEP]")
+                token_ids_len = 512
             else:
                 token_len = len(token_ids)
                 token_ids.extend(["[PAD]" for _ in range(512 - token_len)])
 
             # label
-            labels = ["O" for _ in range(token_ids_len)]
+            bio_tagging = ["O" for _ in range(token_ids_len)]
 
             prev_end_idx = 0
             for ne_data in src_data.ne_list:
@@ -93,16 +93,17 @@ class Npy_Input_Maker:
                             ne_type = ne_data.type.split("_")[0]
                             for bi_idx in range(tdx, tdx+ne_tokens_len):
                                 if bi_idx == tdx:
-                                    labels[bi_idx] = "B-" + self.convert_simple_NE_tag(ne_type)
+                                    bio_tagging[bi_idx] = "B-" + self.convert_simple_NE_tag(ne_type)
                                 else:
-                                    labels[bi_idx] = "I-" + self.convert_simple_NE_tag(ne_type)
+                                    bio_tagging[bi_idx] = "I-" + self.convert_simple_NE_tag(ne_type)
                             prev_end_idx = tdx+ne_tokens_len
                             break
                 # end loop, token_ids
 
             # label
-            labels = [TTA_NE_tags[bio] for bio in labels]  # convert to ids
-            labels.extend([-100 for _ in range(512 - token_ids_len)])
+            labels = [-100 for _ in range(512)]
+            for i in range(token_ids_len):
+                labels[i] = TTA_NE_tags[bio_tagging[i]]
 
             # result
             ret_ne_dit["input_ids"].append(self.tokenizer.convert_tokens_to_ids(token_ids))
@@ -144,20 +145,20 @@ class Npy_Input_Maker:
 if "__main__" == __name__:
     print("[make_input.py][MAIN]")
 
-    is_make_exo = True
+    is_make_exo = False
     if is_make_exo:
         exo_maker = Npy_Input_Maker(pkl_path="../datasets/exobrain/res_extract_ne/exo_ne_datasets.pkl",
                                     tokenizer_name="monologg/koelectra-base-v3-discriminator")
         res_dict = exo_maker.make_input_labels()
         exo_maker.make_npy_files(src_dict=res_dict, save_path="../datasets/exobrain/npy")
 
-    is_make_nikl = False
+    is_make_nikl = True
     if is_make_nikl:
         ## Split npy
         # train: 939,701
         # eval:  134,243
         # test:  268,487
-        is_split_pkl = True
+        is_split_pkl = False
         if is_split_pkl:
             with open("../datasets/NIKL/res_nikl_ne/nikl_ne_datasets.pkl", mode="rb") as origin_file:
                 train_size = 939701
@@ -187,7 +188,9 @@ if "__main__" == __name__:
         eval_dict = eval_maker.make_input_labels()
         eval_maker.make_npy_files(src_dict=eval_dict, save_path="../datasets/NIKL/npy/eval")
 
+        '''
         test_maker = Npy_Input_Maker(pkl_path="../datasets/NIKL/res_nikl_ne/nikl_ne_test.pkl",
                                      tokenizer_name="monologg/koelectra-base-v3-discriminator")
         test_dict = test_maker.make_input_labels()
         test_maker.make_npy_files(src_dict=test_dict, save_path="../datasets/NIKL/npy/test")
+        '''
