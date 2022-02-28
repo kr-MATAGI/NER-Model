@@ -72,7 +72,7 @@ class Npy_Input_Maker:
             else:
                 token_len = len(token_ids)
                 token_ids.extend(["[PAD]" for _ in range(512 - token_len)])
-            bio_tagging = [-100 if i < attention_size else -100 for i in range(len(token_ids))]
+            bio_tagging = ["O" for _ in range(len(token_ids))]
 
             prev_end_idx = 0
             for ne_data in src_data.ne_list:
@@ -112,7 +112,8 @@ class Npy_Input_Maker:
                 # end, input_ids
             # end, src_data.ne_list
             #ne_dict_format["tokens"].append(input_ids)
-            ne_dict_format["labels"].append([TTA_NE_tags[bio] for bio in range(512 - attention_size)])
+            ne_dict_format["labels"].append([TTA_NE_tags[bio] if idx < attention_size else -100
+                                             for idx, bio in enumerate(bio_tagging)])
             ne_dict_format["input_ids"].append(self.tokenizer.convert_tokens_to_ids(token_ids))
             ne_dict_format["token_type_ids"].append([0 for _ in range(512)])
             ne_dict_format["attention_mask"].append([1 if i < attention_size else 0 for i in range(512)])
@@ -149,14 +150,14 @@ class Npy_Input_Maker:
 if "__main__" == __name__:
     print("[make_input.py][MAIN]")
 
-    is_make_exo = False
+    is_make_exo = True
     if is_make_exo:
         exo_maker = Npy_Input_Maker(pkl_path="../datasets/exobrain/res_extract_ne/exo_ne_datasets.pkl",
                                     tokenizer_name="monologg/koelectra-base-v3-discriminator")
         res_dict = exo_maker.make_input_labels()
         exo_maker.make_npy_files(src_dict=res_dict, save_path="../datasets/exobrain/npy")
 
-    is_make_nikl = True
+    is_make_nikl = False
     if is_make_nikl:
         ## Split npy
         # train: 939,701
