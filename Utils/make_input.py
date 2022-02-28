@@ -35,7 +35,6 @@ class Npy_Input_Maker:
 
         return ret_ne_tag
 
-
     def make_input_labels(self):
         print("[Npy_Input_Maker][make_input_labels] Ready...")
         pkl_datasets = []
@@ -44,7 +43,7 @@ class Npy_Input_Maker:
             print(f"[Npy_Input_Maker][make_input_labels] ne_dataset.len: {len(pkl_datasets)}")
 
         ne_dict_format = {
-            "tokens": [],
+            #"tokens": [],
             "labels": [],
             "input_ids": [],
             "token_type_ids": [],
@@ -65,16 +64,17 @@ class Npy_Input_Maker:
             text += src_data.text
             text += "[SEP]"
 
-            input_ids = self.tokenizer.tokenize(text)
-            attention_size = len(input_ids)
-            if 512 < len(input_ids):
-                input_ids = input_ids[:511]
-                input_ids.append("[SEP]")
+            token_ids = self.tokenizer.tokenize(text)
+            attention_size = len(token_ids)
+            if 512 < len(token_ids):
+                token_ids = token_ids[:511]
+                token_ids.append("[SEP]")
             else:
-                input_len = len(input_ids)
-                input_ids.extend(["[PAD]" for _ in range(512 - input_len)])
-            bio_tagging = ["O" for _ in range(len(input_ids))]
+                token_len = len(token_ids)
+                token_ids.extend(["[PAD]" for _ in range(512 - token_len)])
+            bio_tagging = [-100 if i < attention_size else -100 for i in range(len(token_ids))]
 
+            prev_end_idx = 0
             for ne_data in src_data.ne_list:
                 cmp_word = ""
                 is_ne = False
@@ -82,7 +82,10 @@ class Npy_Input_Maker:
                 end_idx = 0
 
                 concat_ne_text = ne_data.text.replace(" ", "")
-                for t_idx, input_token in enumerate(input_ids):
+                for t_idx, input_token in enumerate(token_ids):
+                    if t_idx < prev_end_idx:
+                        continue
+
                     if is_ne:
                         cmp_word += input_token.replace("##", "")
                     elif input_token in concat_ne_text:
@@ -95,6 +98,7 @@ class Npy_Input_Maker:
                         ne_tag = self.convert_simple_NE_tag(ne_tag=ne_tag)
 
                         end_idx = t_idx
+                        prev_end_idx = end_idx
                         for ne_idx in range(begin_idx, end_idx+1):
                             if begin_idx == ne_idx:
                                 bio_tagging[ne_idx] = "B-"+ne_tag
@@ -103,11 +107,13 @@ class Npy_Input_Maker:
                         begin_idx = end_idx = 0
                         is_ne = False
                         cmp_word = ""
+                        break
+
                 # end, input_ids
             # end, src_data.ne_list
-            ne_dict_format["tokens"].append(input_ids)
-            ne_dict_format["labels"].append([TTA_NE_tags[bio] for bio in bio_tagging])
-            ne_dict_format["input_ids"].append(self.tokenizer.convert_tokens_to_ids(input_ids))
+            #ne_dict_format["tokens"].append(input_ids)
+            ne_dict_format["labels"].append([TTA_NE_tags[bio] for bio in range(512 - attention_size)])
+            ne_dict_format["input_ids"].append(self.tokenizer.convert_tokens_to_ids(token_ids))
             ne_dict_format["token_type_ids"].append([0 for _ in range(512)])
             ne_dict_format["attention_mask"].append([1 if i < attention_size else 0 for i in range(512)])
         # end, pkl_datasets

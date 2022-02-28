@@ -10,8 +10,8 @@ from Utils.data_def import TTA_NE_tags
 if "__main__" == __name__:
     tokenizer = ElectraTokenizer.from_pretrained("monologg/koelectra-base-v3-discriminator")
 
-    #target_path = "../../datasets/NIKL/npy/train"
-    target_path = "../../datasets/exobrain/npy/ko-electra-base"
+    target_path = "../../datasets/NIKL/npy/train"
+    #target_path = "../../datasets/exobrain/npy/ko-electra-base"
 
     input_ids_path = target_path+"/input_ids.npy"
     labels_path = target_path+"/labels.npy"
