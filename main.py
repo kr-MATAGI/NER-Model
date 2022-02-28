@@ -139,7 +139,6 @@ def train(args, model, train_dataset, dev_dataset, test_dataset):
 
             loss.backward()
             tr_loss += loss.item()
-            tb_writer.add_scalar("Loss/train", tr_loss /global_step, global_step)
 
             if (step + 1) % args.gradient_accumulation_steps == 0 or \
                 (len(train_dataloader) <= args.gradient_accumulation_steps and \
@@ -151,6 +150,8 @@ def train(args, model, train_dataset, dev_dataset, test_dataset):
                 scheduler.step()
                 model.zero_grad()
                 global_step += 1
+
+                tb_writer.add_scalar("Loss/train", tr_loss / global_step, global_step)
 
                 if args.save_steps > 0 and global_step % args.save_steps == 0:
                     # Save samples checkpoint
@@ -215,9 +216,9 @@ def evaluate(args, model, eval_dataset, mode, global_step=None):
             tmp_eval_loss, logits = outputs[:2]
 
             eval_loss += tmp_eval_loss.mean().item()
-            tb_writer.add_scalar("Loss/val", eval_loss, global_step)
 
         nb_eval_steps += 1
+        tb_writer.add_scalar("Loss/val", eval_loss / nb_eval_steps, nb_eval_steps)
 
         if preds is None:
             preds = logits.detach().cpu().numpy()
@@ -280,7 +281,8 @@ if "__main__" == __name__:
     args.learning_rate = 5e-5
 
     args.evaluate_test_during_training = False
-    args.save_optimizer = True
+    args.save_optimizer = False
+    args.save_steps = 50000
 
     # config
     config = ElectraConfig.from_pretrained(args.model_name_or_path,
