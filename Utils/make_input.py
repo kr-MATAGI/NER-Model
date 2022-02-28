@@ -42,7 +42,7 @@ class Npy_Input_Maker:
             pkl_datasets = pickle.load(pkl_file)
             print(f"[Npy_Input_Maker][make_input_labels] ne_dataset.len: {len(pkl_datasets)}")
 
-        ne_dict_format = {
+        ret_ne_dit = {
             #"tokens": [],
             "labels": [],
             "input_ids": [],
@@ -65,61 +65,55 @@ class Npy_Input_Maker:
             text += "[SEP]"
 
             token_ids = self.tokenizer.tokenize(text)
-            attention_size = len(token_ids)
+            token_ids_len = len(token_ids)
+
             if 512 < len(token_ids):
                 token_ids = token_ids[:511]
                 token_ids.append("[SEP]")
             else:
                 token_len = len(token_ids)
                 token_ids.extend(["[PAD]" for _ in range(512 - token_len)])
-            bio_tagging = ["O" for _ in range(len(token_ids))]
+
+            # label
+            labels = ["O" for _ in range(token_ids_len)]
 
             prev_end_idx = 0
             for ne_data in src_data.ne_list:
-                cmp_word = ""
-                is_ne = False
-                begin_idx = 0
-                end_idx = 0
+                ne_tokens = self.tokenizer.tokenize(ne_data.text)
 
-                concat_ne_text = ne_data.text.replace(" ", "")
-                for t_idx, input_token in enumerate(token_ids):
-                    if t_idx < prev_end_idx:
+                ne_tokens_len = len(ne_tokens)
+                concat_ne_tokens = "".join(ne_tokens)
+                for tdx, tok in enumerate(token_ids):
+                    if tdx < prev_end_idx:
                         continue
 
-                    if is_ne:
-                        cmp_word += input_token.replace("##", "")
-                    elif input_token in concat_ne_text:
-                        begin_idx = t_idx
-                        cmp_word = input_token
-                        is_ne = True
+                    if ne_tokens[0] == tok:
+                        concat_tokens = "".join(token_ids[tdx:tdx+ne_tokens_len])
+                        if concat_tokens == concat_ne_tokens:
+                            ne_type = ne_data.type.split("_")[0]
+                            for bi_idx in range(tdx, tdx+ne_tokens_len):
+                                if bi_idx == tdx:
+                                    labels[bi_idx] = "B-" + self.convert_simple_NE_tag(ne_type)
+                                else:
+                                    labels[bi_idx] = "I-" + self.convert_simple_NE_tag(ne_type)
+                            prev_end_idx = tdx+ne_tokens_len
+                            break
+                # end loop, token_ids
 
-                    if cmp_word == concat_ne_text:
-                        ne_tag = ne_data.type.split("_")[0]
-                        ne_tag = self.convert_simple_NE_tag(ne_tag=ne_tag)
+            # label
+            labels = [TTA_NE_tags[bio] for bio in labels]  # convert to ids
+            labels.extend([-100 for _ in range(512 - token_ids_len)])
 
-                        end_idx = t_idx
-                        prev_end_idx = end_idx
-                        for ne_idx in range(begin_idx, end_idx+1):
-                            if begin_idx == ne_idx:
-                                bio_tagging[ne_idx] = "B-"+ne_tag
-                            else:
-                                bio_tagging[ne_idx] = "I-"+ne_tag
-                        begin_idx = end_idx = 0
-                        is_ne = False
-                        cmp_word = ""
-                        break
+            # result
+            ret_ne_dit["input_ids"].append(self.tokenizer.convert_tokens_to_ids(token_ids))
+            ret_ne_dit["labels"].append(labels)
+            ret_ne_dit["token_type_ids"].append([0 for _ in range(512)])
+            ret_ne_dit["attention_mask"].append([1 if i < token_ids_len else 0 for i in range(512)])
 
-                # end, input_ids
-            # end, src_data.ne_list
-            #ne_dict_format["tokens"].append(input_ids)
-            ne_dict_format["labels"].append([TTA_NE_tags[bio] if idx < attention_size else -100
-                                             for idx, bio in enumerate(bio_tagging)])
-            ne_dict_format["input_ids"].append(self.tokenizer.convert_tokens_to_ids(token_ids))
-            ne_dict_format["token_type_ids"].append([0 for _ in range(512)])
-            ne_dict_format["attention_mask"].append([1 if i < attention_size else 0 for i in range(512)])
-        # end, pkl_datasets
+            # end loop, src_data.ne_list
+        # end loop, pkl_datasets
 
-        return ne_dict_format
+        return ret_ne_dit
 
     def make_npy_files(self, src_dict: Dict[str, list]=field(default_factory=dict),
                        save_path: str=""):

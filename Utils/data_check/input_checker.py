@@ -37,7 +37,8 @@ if "__main__" == __name__:
             try:
                 print(f"{token_list[idx]} : {id2label[label[idx]]}-{label[idx]} : {at_mask[idx]} : {tt_ids[idx]}")
             except:
-                continue
+                print(f"{token_list[idx]} : {label[idx]} : {at_mask[idx]} : {tt_ids[idx]}")
+                break
 
         input()
 

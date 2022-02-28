@@ -3,11 +3,10 @@ from transformers import ElectraTokenizer
 if "__main__" == __name__:
     tokenizer = ElectraTokenizer.from_pretrained("monologg/koelectra-base-v3-discriminator")
 
-    test = "며칠전 고다(고양이라서 다행이야) 카페에 들어갔다가 재밌는 사진을 발견했다."
+    test = "맞춤형 원천징수제도에 따라 원천징수세액을 80%로 선택한 근로자는 그간 낸 세금이 적어 연말정산 때 세금을 더 낼 가능성이 크다."
     tokens = tokenizer.tokenize(test)
     print(tokens)
-
-    ne_list = ["고다", "고양이라서 다행이야"]
+    ne_list = ["맞춤형 원천징수제도", "원천징수세액", "80%", "근로자", "연말"]
 
     prev_end_idx = 0
     for ne in ne_list:
