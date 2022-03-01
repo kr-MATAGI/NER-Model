@@ -309,8 +309,8 @@ if "__main__" == __name__:
     model.to(args.device)
 
     # load train dataset
-    train_dataset = NE_Datasets(path="./datasets/NIKL/npy/test")
-    dev_dataset = NE_Datasets(path="./datasets/NIKL/npy/test")
+    train_dataset = NE_Datasets(path="./datasets/NIKL/npy/train")
+    dev_dataset = NE_Datasets(path="./datasets/NIKL/npy/eval")
     test_dataset = NE_Datasets(path="./datasets/NIKL/npy/test")
 
     # do train
