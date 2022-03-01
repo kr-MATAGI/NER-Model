@@ -8,7 +8,9 @@ from dataclasses import dataclass
 from torch.utils.data import RandomSampler, SequentialSampler, DataLoader
 from torch.utils.tensorboard import SummaryWriter
 from transformers import ElectraForTokenClassification, ElectraConfig, get_linear_schedule_with_warmup
+
 from fastprogress.fastprogress import master_bar, progress_bar
+from tqdm import tqdm
 
 from seqeval import metrics as seqeval_metrics
 from sklearn import metrics as sklearn_metrics
@@ -116,10 +118,9 @@ def train(args, model, train_dataset, dev_dataset, test_dataset):
     tr_loss = 0.0
 
     model.zero_grad()
-    mb = master_bar(range(int(args.num_train_epochs)))
-    for epoch in mb:
-        epoch_iterator = progress_bar(train_dataloader, parent=mb)
-        for step, batch in enumerate(epoch_iterator):
+    for epoch in range(args.num_train_epochs):
+        pbar = tqdm(train_dataloader)
+        for step, batch in enumerate(pbar):
             model.train()
             inputs = {
                 "input_ids": batch["input_ids"].to(args.device),
@@ -152,6 +153,7 @@ def train(args, model, train_dataset, dev_dataset, test_dataset):
                 global_step += 1
 
                 tb_writer.add_scalar("Loss/train", tr_loss / global_step, global_step)
+                pbar.set_description("Train Loss - %.04f" % (tr_loss / global_step))
 
                 if args.save_steps > 0 and global_step % args.save_steps == 0:
                     # Save samples checkpoint
@@ -174,14 +176,15 @@ def train(args, model, train_dataset, dev_dataset, test_dataset):
             if args.max_steps > 0 and global_step > args.max_steps:
                 break
 
+        logger.info("  Epoch Done= %d", epoch)
+        pbar.close()
+
         evaluate(args, model, dev_dataset, "dev", global_step)
 
         # save samples
         if not os.path.exists("samples"):
             os.mkdir("samples")
         torch.save(model, "./model/epoch_{}.pt".format(epoch))
-
-        mb.write("Epoch {} done".format(epoch + 1))
 
     return global_step, tr_loss / global_step
 
@@ -203,7 +206,8 @@ def evaluate(args, model, eval_dataset, mode, global_step=None):
     preds = None
     out_label_ids = None
 
-    for batch in progress_bar(eval_dataloader):
+    eval_pbar = tqdm(eval_dataloader)
+    for batch in eval_pbar:
         model.eval()
         with torch.no_grad():
             inputs = {
@@ -219,6 +223,7 @@ def evaluate(args, model, eval_dataset, mode, global_step=None):
 
         nb_eval_steps += 1
         tb_writer.add_scalar("Loss/val", eval_loss / nb_eval_steps, nb_eval_steps)
+        eval_pbar.set_description("Eval Loss - %.04f" % (eval_loss / nb_eval_steps))
 
         if preds is None:
             preds = logits.detach().cpu().numpy()
@@ -226,6 +231,9 @@ def evaluate(args, model, eval_dataset, mode, global_step=None):
         else:
             preds = np.append(preds, logits.detach().cpu().numpy(), axis=0)
             out_label_ids = np.append(out_label_ids, inputs["labels"].detach().cpu().numpy(), axis=0)
+
+    logger.info("  Eval End !")
+    eval_pbar.close()
 
     eval_loss = eval_loss / nb_eval_steps
     results = {
@@ -301,8 +309,8 @@ if "__main__" == __name__:
     model.to(args.device)
 
     # load train dataset
-    train_dataset = NE_Datasets(path="./datasets/NIKL/npy/train")
-    dev_dataset = NE_Datasets(path="./datasets/NIKL/npy/eval")
+    train_dataset = NE_Datasets(path="./datasets/exobrain/npy/ko-electra-base")
+    dev_dataset = NE_Datasets(path="./datasets/exobrain/npy/ko-electra-base")
     test_dataset = NE_Datasets(path="./datasets/NIKL/npy/test")
 
     # do train
