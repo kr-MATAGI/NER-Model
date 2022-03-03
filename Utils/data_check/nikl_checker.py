@@ -141,6 +141,8 @@ def check_NIKL_ne_empty_sent_len(data_path: str) -> None:
         for ne_json in ne_data_list:
             is_ne_empty = False
             if 0 >= len(ne_json.ne_list):
+                # print(ne_json.text) # check manual
+                # input()
                 filter_ne_empty_size += 1
                 is_ne_empty = True
 

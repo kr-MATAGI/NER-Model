@@ -9,7 +9,6 @@ from torch.utils.data import RandomSampler, SequentialSampler, DataLoader
 from torch.utils.tensorboard import SummaryWriter
 from transformers import ElectraForTokenClassification, ElectraConfig, get_linear_schedule_with_warmup
 
-from fastprogress.fastprogress import master_bar, progress_bar
 from tqdm import tqdm
 
 from seqeval import metrics as seqeval_metrics
@@ -310,9 +309,9 @@ if "__main__" == __name__:
     model.to(args.device)
 
     # load train dataset
-    train_dataset = NE_Datasets(path="./datasets/NIKL/npy/train")
-    dev_dataset = NE_Datasets(path="./datasets/NIKL/npy/eval")
-    test_dataset = NE_Datasets(path="./datasets/NIKL/npy/test")
+    train_dataset = NE_Datasets(path="./datasets/NIKL/npy/filtered/train")
+    dev_dataset = NE_Datasets(path="./datasets/NIKL/npy/filtered/eval")
+    test_dataset = NE_Datasets(path="./datasets/NIKL/npy/filtered/test")
 
     # do train
     args.do_train = True
