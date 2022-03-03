@@ -291,6 +291,7 @@ if "__main__" == __name__:
     args.evaluate_test_during_training = False
     args.save_optimizer = False
     args.save_steps = 50000
+    args.weight_decay = 0.01
 
     # config
     config = ElectraConfig.from_pretrained(args.model_name_or_path,
