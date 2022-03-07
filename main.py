@@ -19,6 +19,7 @@ from Utils.dataloder import NE_Datasets
 
 @dataclass
 class Argment:
+    is_load_model: bool = False
     device: str = "cpu"
     model_name_or_path: str ="monologg/koelectra-base-v3-discriminator"
     num_labels: int = 0
@@ -282,14 +283,14 @@ if "__main__" == __name__:
     args.model_name_or_path = "monologg/koelectra-base-v3-discriminator"
     args.num_labels = len(TTA_NE_tags.keys())
 
-    args.num_train_epochs = 5
+    args.num_train_epochs = 15
     args.train_batch_size = 8
     args.eval_batch_size = 8
     args.learning_rate = 5e-5
 
     args.evaluate_test_during_training = False
-    args.save_optimizer = False
-    args.save_steps = 50000
+    args.save_optimizer = True
+    args.save_steps = 100000
     args.weight_decay = 0.01
 
     # config
@@ -298,9 +299,13 @@ if "__main__" == __name__:
                                            id2label={str(i): label for i, label in enumerate(TTA_NE_tags.keys())},
                                            label2id={label: i for i, label in enumerate(TTA_NE_tags.keys())})
 
-    # samples
-    model = ElectraForTokenClassification.from_pretrained(args.model_name_or_path,
-                                                          config=config)
+    # models
+    args.is_load_model = True
+    if args.is_load_model:
+        model = torch.load("./filtered_model.pt")
+    else:
+        model = ElectraForTokenClassification.from_pretrained(args.model_name_or_path,
+                                                              config=config)
 
     if 1 < torch.cuda.device_count():
         logging.info(f"Let's use {torch.cuda.device_count()} GPUs!")
