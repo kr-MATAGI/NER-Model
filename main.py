@@ -178,7 +178,7 @@ def train(args, model, train_dataset, dev_dataset, test_dataset):
         logger.info("  Epoch Done= %d", epoch)
         pbar.close()
 
-        evaluate(args, model, dev_dataset, "dev", global_step, train_epoch)
+        evaluate(args, model, dev_dataset, "dev", global_step, epoch)
 
         # save samples
         if not os.path.exists("samples"):
