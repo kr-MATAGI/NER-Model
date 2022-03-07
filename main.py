@@ -178,7 +178,7 @@ def train(args, model, train_dataset, dev_dataset, test_dataset):
         logger.info("  Epoch Done= %d", epoch)
         pbar.close()
 
-        evaluate(args, model, dev_dataset, "dev", global_step)
+        evaluate(args, model, dev_dataset, "dev", global_step, train_epoch)
 
         # save samples
         if not os.path.exists("samples"):
@@ -187,7 +187,7 @@ def train(args, model, train_dataset, dev_dataset, test_dataset):
 
     return global_step, tr_loss / global_step
 
-def evaluate(args, model, eval_dataset, mode, global_step=None):
+def evaluate(args, model, eval_dataset, mode, global_step=None, train_epoch=0):
     results = {}
     eval_sampler = SequentialSampler(eval_dataset)
     eval_dataloader = DataLoader(eval_dataset, sampler=eval_sampler, batch_size=args.eval_batch_size)
@@ -221,7 +221,7 @@ def evaluate(args, model, eval_dataset, mode, global_step=None):
             eval_loss += tmp_eval_loss.mean().item()
 
         nb_eval_steps += 1
-        tb_writer.add_scalar("Loss/val", eval_loss / nb_eval_steps, nb_eval_steps)
+        tb_writer.add_scalar("Loss/val_" + str(train_epoch), eval_loss / nb_eval_steps, nb_eval_steps)
         eval_pbar.set_description("Eval Loss - %.04f" % (eval_loss / nb_eval_steps))
 
         if preds is None:
