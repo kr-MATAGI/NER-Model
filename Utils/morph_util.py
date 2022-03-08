@@ -83,7 +83,7 @@ if "__main__" == __name__:
     print("[morph_util.py][main] - start")
 
     src_path = "../datasets/NIKL/res_nikl_ne/filtered_nikl_ne_datasets.pkl"
-    save_path = "../datasets/NIKL/res_nikl_ne/remove_jk_nikl_datasets.pkl"
+    save_path = "../datasets/NIKL/res_nikl_ne/mecab_jk_nikl_datasets.pkl"
 
     # check method
     is_check_jk_method = False
