@@ -7,6 +7,6 @@ if "__main__" == __name__:
     mecab = Mecab()
     mac_macb = MeCab.Tagger()
 
-    test_word = "20~30"
+    test_word = "2019.07.05"
     print(mecab.pos(test_word))
     print(mac_macb.parse(test_word))

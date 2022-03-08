@@ -17,6 +17,7 @@ from sklearn import metrics as sklearn_metrics
 from Utils.data_def import TTA_NE_tags
 from Utils.dataloder import NE_Datasets
 
+
 @dataclass
 class Argment:
     is_load_model: bool = False
@@ -283,9 +284,9 @@ if "__main__" == __name__:
     args.model_name_or_path = "monologg/koelectra-base-v3-discriminator"
     args.num_labels = len(TTA_NE_tags.keys())
 
-    args.num_train_epochs = 15
-    args.train_batch_size = 8
-    args.eval_batch_size = 8
+    args.num_train_epochs = 20
+    args.train_batch_size = 4
+    args.eval_batch_size = 4
     args.learning_rate = 5e-5
 
     args.evaluate_test_during_training = False
@@ -300,7 +301,7 @@ if "__main__" == __name__:
                                            label2id={label: i for i, label in enumerate(TTA_NE_tags.keys())})
 
     # models
-    args.is_load_model = True
+    args.is_load_model = False
     if args.is_load_model:
         model = torch.load("./filtered_model.pt")
     else:
@@ -314,9 +315,9 @@ if "__main__" == __name__:
     model.to(args.device)
 
     # load train dataset
-    train_dataset = NE_Datasets(path="./datasets/NIKL/npy/filtered/train")
-    dev_dataset = NE_Datasets(path="./datasets/NIKL/npy/filtered/eval")
-    test_dataset = NE_Datasets(path="./datasets/NIKL/npy/filtered/test")
+    train_dataset = NE_Datasets(path="./datasets/NIKL/npy/mecab/train")
+    dev_dataset = NE_Datasets(path="./datasets/NIKL/npy/mecab/eval")
+    test_dataset = NE_Datasets(path="./datasets/NIKL/npy/mecab/test")
 
     # do train
     args.do_train = True
