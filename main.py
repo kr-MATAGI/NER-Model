@@ -17,6 +17,7 @@ from sklearn import metrics as sklearn_metrics
 from Utils.data_def import TTA_NE_tags
 from Utils.dataloder import NE_Datasets
 
+from electra_crf_ner import ElectraCRF_NER
 
 @dataclass
 class Argment:
@@ -133,12 +134,13 @@ def train(args, model, train_dataset, dev_dataset, test_dataset):
             outputs = model(**inputs)
             loss = outputs[0]
 
-            if 1 < args.n_gpu:
-                loss = loss.mean()
+            #if 1 < args.n_gpu:
+                #loss = loss.mean()
 
             if args.gradient_accumulation_steps > 1:
                 loss = loss / args.gradient_accumulation_steps
 
+            loss = loss.mean()
             loss.backward()
             tr_loss += loss.item()
 
@@ -285,8 +287,8 @@ if "__main__" == __name__:
     args.num_labels = len(TTA_NE_tags.keys())
 
     args.num_train_epochs = 20
-    args.train_batch_size = 4
-    args.eval_batch_size = 4
+    args.train_batch_size = 8
+    args.eval_batch_size = 8
     args.learning_rate = 5e-5
 
     args.evaluate_test_during_training = False
@@ -305,8 +307,7 @@ if "__main__" == __name__:
     if args.is_load_model:
         model = torch.load("./filtered_model.pt")
     else:
-        model = ElectraForTokenClassification.from_pretrained(args.model_name_or_path,
-                                                              config=config)
+        model = ElectraCRF_NER.from_pretrained(args.model_name_or_path, config=config)
 
     if 1 < torch.cuda.device_count():
         logging.info(f"Let's use {torch.cuda.device_count()} GPUs!")
