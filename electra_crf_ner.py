@@ -1,6 +1,6 @@
 import torch
 import torch.nn as nn
-from torchcrf import CRF
+from crf_layer import CRF
 
 from transformers import ElectraPreTrainedModel, ElectraModel
 from transformers.modeling_outputs import TokenClassifierOutput

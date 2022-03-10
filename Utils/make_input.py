@@ -101,8 +101,8 @@ class Npy_Input_Maker:
                 # end loop, token_ids
 
             # label
-            labels = [TTA_NE_tags["O"] for _ in range(512)]
-            for i in range(token_ids_len):
+            labels = [-100 for _ in range(512)]
+            for i in range(1, token_ids_len-1): # [CLS], [SEP] are -100
                 labels[i] = TTA_NE_tags[bio_tagging[i]]
 
             # result

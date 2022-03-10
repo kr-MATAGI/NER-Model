@@ -19,11 +19,12 @@ from Utils.dataloder import NE_Datasets
 
 from electra_crf_ner import ElectraCRF_NER
 
+
 @dataclass
 class Argment:
     is_load_model: bool = False
     device: str = "cpu"
-    model_name_or_path: str ="monologg/koelectra-base-v3-discriminator"
+    model_name_or_path: str = "monologg/koelectra-base-v3-discriminator"
     num_labels: int = 0
     do_lower_case: bool = False
     do_train: bool = False
@@ -45,6 +46,7 @@ class Argment:
     output_dir: str = "./"
     n_gpu: int = 1
 
+
 ####### logger
 logger = logging.getLogger()
 logger.setLevel(logging.INFO)
@@ -57,6 +59,7 @@ logger.addHandler(stream_handler)
 if not os.path.exists("./logs"):
     os.mkdir("./logs")
 tb_writer = SummaryWriter("./logs")
+
 
 def f1_pre_rec(labels, preds, is_ner=True):
     if is_ner:
@@ -72,8 +75,10 @@ def f1_pre_rec(labels, preds, is_ner=True):
             "f1": sklearn_metrics.f1_score(labels, preds, average="macro"),
         }
 
+
 def show_ner_report(labels, preds):
     return seqeval_metrics.classification_report(labels, preds)
+
 
 ####### train
 def train(args, model, train_dataset, dev_dataset, test_dataset):
@@ -134,8 +139,8 @@ def train(args, model, train_dataset, dev_dataset, test_dataset):
             outputs = model(**inputs)
             loss = outputs[0]
 
-            #if 1 < args.n_gpu:
-                #loss = loss.mean()
+            # if 1 < args.n_gpu:
+            # loss = loss.mean()
 
             if args.gradient_accumulation_steps > 1:
                 loss = loss / args.gradient_accumulation_steps
@@ -145,9 +150,9 @@ def train(args, model, train_dataset, dev_dataset, test_dataset):
             tr_loss += loss.item()
 
             if (step + 1) % args.gradient_accumulation_steps == 0 or \
-                (len(train_dataloader) <= args.gradient_accumulation_steps and \
-                 (step + 1) == len(train_dataloader)
-            ):
+                    (len(train_dataloader) <= args.gradient_accumulation_steps and \
+                     (step + 1) == len(train_dataloader)
+                    ):
                 torch.nn.utils.clip_grad_norm_(model.parameters(), args.max_grad_norm)
 
                 optimizer.step()
@@ -190,6 +195,7 @@ def train(args, model, train_dataset, dev_dataset, test_dataset):
         torch.save(model, "./model/epoch_{}.pt".format(epoch))
 
     return global_step, tr_loss / global_step
+
 
 def evaluate(args, model, eval_dataset, mode, global_step=None, train_epoch=0):
     results = {}
@@ -276,6 +282,7 @@ def evaluate(args, model, eval_dataset, mode, global_step=None, train_epoch=0):
 
     return results
 
+
 ### MAIN ###
 if "__main__" == __name__:
     print("[main.py][MAIN] -----MAIN")
@@ -316,9 +323,9 @@ if "__main__" == __name__:
     model.to(args.device)
 
     # load train dataset
-    train_dataset = NE_Datasets(path="./datasets/NIKL/npy/mecab/train")
-    dev_dataset = NE_Datasets(path="./datasets/NIKL/npy/mecab/eval")
-    test_dataset = NE_Datasets(path="./datasets/NIKL/npy/mecab/test")
+    train_dataset = NE_Datasets(path="./datasets/exobrain/npy")
+    dev_dataset = NE_Datasets(path="./datasets/exobrain/npy")
+    test_dataset = NE_Datasets(path="./datasets/exobrain/npy")
 
     # do train
     args.do_train = True
@@ -328,8 +335,7 @@ if "__main__" == __name__:
 
     args.do_test = False
     if args.do_test:
-        test_model = torch.load("./model/epoch_4.pt")
-        results = evaluate(args, test_model, test_dataset, mode="test")
+        results = evaluate(args, model, test_dataset, mode="test")
 
     # tensorboard close
     tb_writer.close()

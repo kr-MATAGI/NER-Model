@@ -17,7 +17,8 @@ TTA_NE_tags = {
     "B-TR": 23, "I-TR": 24, # theory
     "B-EV": 25, "I-EV": 26, # event
     "B-MT": 27, "I-MT": 28, # material
-    "B-TM": 29, "I-TM": 30 # term
+    "B-TM": 29, "I-TM": 30, # term
+    "X": 31 # special token
 }
 
 @dataclass
