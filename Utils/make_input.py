@@ -3,7 +3,7 @@ import os
 import numpy as np
 
 from transformers import ElectraTokenizer
-from data_def import NE, NE_Json, TTA_NE_tags
+from Utils.datasets_maker.nikl.data_def import TTA_NE_tags
 from typing import Dict
 from dataclasses import field
 

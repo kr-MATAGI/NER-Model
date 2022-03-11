@@ -4,7 +4,7 @@ import sys
 sys.path.append("C:/Users/MATAGI/Desktop/Git/De-identification-with-NER/Utils")
 
 from transformers import ElectraTokenizer
-from Utils.data_def import TTA_NE_tags
+from Utils.datasets_maker.nikl.data_def import TTA_NE_tags
 
 ### MAIN ###
 if "__main__" == __name__:

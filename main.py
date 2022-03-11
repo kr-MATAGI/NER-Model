@@ -1,4 +1,3 @@
-import copy
 import os
 import logging
 import numpy as np
@@ -7,14 +6,14 @@ from dataclasses import dataclass
 
 from torch.utils.data import RandomSampler, SequentialSampler, DataLoader
 from torch.utils.tensorboard import SummaryWriter
-from transformers import ElectraForTokenClassification, ElectraConfig, get_linear_schedule_with_warmup
+from transformers import ElectraConfig, get_linear_schedule_with_warmup
 
 from tqdm import tqdm
 
 from seqeval import metrics as seqeval_metrics
 from sklearn import metrics as sklearn_metrics
 
-from Utils.data_def import TTA_NE_tags
+from Utils.datasets_maker.nikl.data_def import TTA_NE_tags
 from Utils.dataloder import NE_Datasets
 
 from electra_crf_ner import ElectraCRF_NER

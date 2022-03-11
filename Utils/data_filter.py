@@ -1,7 +1,6 @@
 import pickle
 import logging
 
-from Utils.data_def import NE_Json, NE
 
 def init_logger() -> logging.Logger:
     logger = logging.getLogger("[data_filter.py]")

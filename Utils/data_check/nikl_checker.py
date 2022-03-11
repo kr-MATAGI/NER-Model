@@ -2,8 +2,6 @@ import pickle
 import matplotlib.pyplot as plt
 import numpy as np
 
-from typing import Dict
-
 import platform
 import sys
 
@@ -12,7 +10,6 @@ if "Darwin" == platform.system():
 else:
     sys.path.append("C:/Users/MATAGI/Desktop/Git/De-identification-with-NER/Utils")
 
-from Utils.data_def import TTA_NE_tags
 
 def convert_NE_tag(ne_tag: str = ""):
     ret_ne_tag = ne_tag

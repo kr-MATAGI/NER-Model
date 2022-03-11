@@ -1,7 +1,7 @@
 import json
 import os
 import copy
-from data_def import TTA_NE_tags, NE_Json, NE
+from Utils.datasets_maker.nikl.data_def import NE_Json, NE
 import pickle
 from typing import List
 
@@ -108,11 +108,11 @@ if "__main__" == __name__:
     # EXO Parser
     is_use_EXO_parser = False
     if is_use_EXO_parser:
-        exo_parser = EXO_Parser(dir_path="../datasets/exobrain/news")
+        exo_parser = EXO_Parser(dir_path="../../../datasets/exobrain/news")
         exo_ne_list = exo_parser.parse_NE_data()
 
         # save_all ne_dataset
-        save_path = "../datasets/exobrain/res_extract_ne/exo_ne_datasets.pkl"
+        save_path = "../../../datasets/exobrain/res_extract_ne/exo_ne_datasets.pkl"
         is_write_pkl = True
         if is_write_pkl:
             with open(save_path, mode="wb") as pk_file:
@@ -127,11 +127,11 @@ if "__main__" == __name__:
     # NIKL Parser
     is_use_NIKL_Parser = True
     if is_use_NIKL_Parser:
-        nikl_parser = NIKL_Parser(dir_path="../datasets/NIKL/json")
+        nikl_parser = NIKL_Parser(dir_path="../../../datasets/NIKL/json")
         nikl_ne_list = nikl_parser.parse_NE_data()
         print(len(nikl_ne_list)) # 1,342,431
 
-        save_path = "../datasets/NIKL/res_nikl_ne/nikl_ne_datasets.pkl"
+        save_path = "../../../datasets/NIKL/res_nikl_ne/nikl_ne_datasets.pkl"
         is_write_pkl = True
         if is_write_pkl:
             with open(save_path, mode="wb") as pk_file:

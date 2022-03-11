@@ -4,7 +4,7 @@ sys.path.append("C:/Users/MATAGI/Desktop/Git/De-identification-with-NER/Utils")
 import numpy as np
 import torch
 from transformers import ElectraTokenizer
-from Utils.data_def import TTA_NE_tags
+from Utils.datasets_maker.nikl.data_def import TTA_NE_tags
 
 def make_input_by_sentence(tokenizer, input_str: str=""):
     ret_dict = {
