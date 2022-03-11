@@ -20,7 +20,11 @@
   - [HuggingFace_KoELECTRA](https://huggingface.co/monologg)  
   - Model Size
   <img width="729" alt="image" src="https://user-images.githubusercontent.com/30927066/157815012-577599e6-faab-488c-b0f5-25a30c9e67e5.png">  
-  
+
+  - Data  
+    \- v1, v2의 경우 약 14G Corpus (2.6B tokens)를 사용. (뉴스, 위키, 나무위키)
+    \- v3의 경우 약 20G의 모두의 말뭉치를 추가적으로 사용. (신문, 문어, 구어, 메신저, 웹)
+
   - Vocab  
   <img width="814" alt="image" src="https://user-images.githubusercontent.com/30927066/157815081-5cccca53-cb8b-41e8-93c6-4e161b65bc04.png">  
 
