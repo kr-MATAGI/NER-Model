@@ -30,14 +30,20 @@ def extractor_naver_ner_sent(raw_file_path: str) -> List:
 def make_npy(src_list: List[NAVER_NE], save_path: str, mode: str, model_name: str, max_len: int = 512) -> None:
     print(f"mode: {mode}, src_list.len: {len(src_list)}")
 
-    make_list= []
+    input_ids = []
+    label_ids = []
+    token_type_ids = []
+    attention_mask = []
     tokenizer = ElectraTokenizer.from_pretrained(model_name)
     for src_data in src_list:
         sentence = " ".join(src_data.sent_list)
+        tokens = tokenizer.tokenize(sentence)
+
         print(sentence)
         print(tokenizer.tokenize(sentence))
         print(src_data.sent_list)
         print(src_data.tag_list)
+
         break
 
 
