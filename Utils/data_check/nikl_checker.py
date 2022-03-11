@@ -154,6 +154,7 @@ def check_NIKL_ne_empty_sent_len(data_path: str) -> None:
             if any([is_ne_empty, is_filter_sent_len]):
                 filter_all_cond_size += 1
 
+    print(f"origin_size: {total_size}")
     print(f"ne_empty: {filter_ne_empty_size}, diff: {total_size - filter_ne_empty_size}")
     print(f"sent_len: {filter_sent_len}, diff: {total_size - filter_sent_len}")
     print(f"all_cond: {filter_all_cond_size}, diff: {total_size - filter_all_cond_size}")
