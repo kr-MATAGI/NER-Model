@@ -22,4 +22,5 @@ NAVER_NE_MAP = {
     "B-PLT": 23, "I-PLT": 24, # 식물
     "B-MAT": 25, "I-MAT": 26, # 금속/암석/화학물질
     "B-TRM": 27, "I-TRM": 28, # 의학용어/IT관련 용어
+    "X": 29, # special token
 }
