@@ -256,9 +256,7 @@ def evaluate(args, model, eval_dataset, mode, global_step=None, train_epoch=0):
     #labels = TTA_NE_tags.keys()
 
     # naver
-    naver_label_map = copy.deepcopy(NAVER_NE_MAP)
-    del naver_label_map["X"]
-    labels = naver_label_map.keys()
+    labels = NAVER_NE_MAP.keys()
 
     label_map = {i: label for i, label in enumerate(labels)}
 
@@ -266,10 +264,11 @@ def evaluate(args, model, eval_dataset, mode, global_step=None, train_epoch=0):
     preds_list = [[] for _ in range(out_label_ids.shape[0])]
 
     pad_token_label_id = torch.nn.CrossEntropyLoss().ignore_index
-
+    x_token_label_id = NAVER_NE_MAP["X"]
     for i in range(out_label_ids.shape[0]):
         for j in range(out_label_ids.shape[1]):
-            if out_label_ids[i, j] != pad_token_label_id:
+            if out_label_ids[i, j] != pad_token_label_id or \
+                    out_label_ids[i, j] != x_token_label_id:
                 out_label_list[i].append(label_map[out_label_ids[i][j]])
                 preds_list[i].append(label_map[preds[i][j]])
 
@@ -350,12 +349,12 @@ if "__main__" == __name__:
     test_dataset = NE_Datasets(path="./datasets/Naver_NLP/npy/mecab/test")
 
     # do train
-    args.do_train = True
+    args.do_train = False
     if args.do_train:
         global_step, tr_loss = train(args, model, train_dataset, dev_dataset, test_dataset)
         logger.info(f"global_step = {global_step}, average loss = {tr_loss}")
 
-    args.do_test = False
+    args.do_test = True
     if args.do_test:
         results = evaluate(args, model, test_dataset, mode="test")
 

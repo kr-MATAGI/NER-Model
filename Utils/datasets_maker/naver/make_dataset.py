@@ -63,7 +63,7 @@ def make_npy(src_list: List[NAVER_NE], save_path: str, mode: str, model_name: st
             tokens.extend(["[PAD]" for _ in range(max_len - tokens_len)])
 
         # convert tagging
-        bio_tagging = ["X" for _ in range(tokens_len)]
+        bio_tagging = [-100 for _ in range(tokens_len)]
 
         tag_list_len = len(src_data.tag_list)
         prev_token_end_idx = 0
@@ -99,8 +99,8 @@ def make_npy(src_list: List[NAVER_NE], save_path: str, mode: str, model_name: st
         # make input_ids, labels, attention mask, token_type_ids
         input_ids = tokenizer.convert_tokens_to_ids(tokens)
 
-        bio_tagging.extend("X" for _ in range(max_len - tokens_len))
-        labels = [NAVER_NE_MAP[tag] for tag in bio_tagging]
+        bio_tagging.extend(-100 for _ in range(max_len - tokens_len))
+        labels = [NAVER_NE_MAP[tag] if tag in NAVER_NE_MAP.keys() else -100 for tag in bio_tagging]
         attention_mask = [1 if i < tokens_len else 0 for i in range(max_len)]
         token_type_ids = [0 for _ in range(max_len)]
 
