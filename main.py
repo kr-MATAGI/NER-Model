@@ -349,12 +349,12 @@ if "__main__" == __name__:
     test_dataset = NE_Datasets(path="./datasets/Naver_NLP/npy/mecab/test")
 
     # do train
-    args.do_train = False
+    args.do_train = True
     if args.do_train:
         global_step, tr_loss = train(args, model, train_dataset, dev_dataset, test_dataset)
         logger.info(f"global_step = {global_step}, average loss = {tr_loss}")
 
-    args.do_test = True
+    args.do_test = False
     if args.do_test:
         results = evaluate(args, model, test_dataset, mode="test")
 
