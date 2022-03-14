@@ -187,9 +187,10 @@ def train(args, model, train_dataset, dev_dataset, test_dataset):
 
             if args.max_steps > 0 and global_step > args.max_steps:
                 break
-
         logger.info("  Epoch Done= %d", epoch)
         pbar.close()
+        if "cuda" in str(args.device):
+            torch.cuda.empty_cache()
 
         evaluate(args, model, dev_dataset, "dev", global_step, epoch)
 
