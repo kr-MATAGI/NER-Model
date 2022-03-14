@@ -256,7 +256,7 @@ def evaluate(args, model, eval_dataset, mode, global_step=None, train_epoch=0):
     #labels = TTA_NE_tags.keys()
 
     # naver
-    naver_label_map = copy.deepcopy(NAVER_NE_MAP.keys())
+    naver_label_map = copy.deepcopy(NAVER_NE_MAP)
     del naver_label_map["X"]
     labels = naver_label_map.keys()
 
