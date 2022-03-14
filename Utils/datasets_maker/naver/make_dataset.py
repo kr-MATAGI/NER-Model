@@ -18,11 +18,12 @@ def extractor_naver_ner_sent(raw_file_path: str) -> List:
             if 0 == (idx % 10000):
                 print(f"{idx} Processing...")
             if 1 == len(line):
+                naver_ne.sentence = " ".join(naver_ne.word_list)
                 ret_list.append(copy.deepcopy(naver_ne))
                 naver_ne = NAVER_NE()
             else:
                 line_sp = line.split("\t")
-                naver_ne.sent_list.append(line_sp[1])
+                naver_ne.word_list.append(line_sp[1])
                 naver_ne.tag_list.append(line_sp[-1].replace("\n", ""))
 
     print(f"result.len: {len(ret_list)}")
@@ -49,8 +50,8 @@ def make_npy(src_list: List[NAVER_NE], save_path: str, mode: str, model_name: st
     for src_idx, src_data in enumerate(src_list):
         if 0 == (src_idx % 1000):
             print(f"{src_idx} Processing...")
-        sentence = " ".join(src_data.sent_list)
-        tokens = tokenizer.tokenize(sentence)
+
+        tokens = tokenizer.tokenize(src_data.sentence)
         tokens.insert(0, "[CLS]")
         tokens.append("[SEP]")
         tokens_len = len(tokens)
@@ -67,7 +68,7 @@ def make_npy(src_list: List[NAVER_NE], save_path: str, mode: str, model_name: st
         tag_list_len = len(src_data.tag_list)
         prev_token_end_idx = 0
         for idx in range(tag_list_len):
-            target_word_tokens = tokenizer.tokenize(src_data.sent_list[idx])
+            target_word_tokens = tokenizer.tokenize(src_data.word_list[idx])
             target_ne = src_data.tag_list[idx].split("_")[0]
 
             for tk_idx, tok in enumerate(tokens):
@@ -77,6 +78,7 @@ def make_npy(src_list: List[NAVER_NE], save_path: str, mode: str, model_name: st
                 if prev_token_end_idx >= tk_idx:
                     continue
 
+                print(target_word_tokens, "\n", src_data, "\n")
                 if target_word_tokens[0] == tok:
                     tg_word_tokens_len = len(target_word_tokens)
                     concat_tokens = tokens[tk_idx:(tk_idx+tg_word_tokens_len)]
@@ -136,15 +138,15 @@ if "__main__" == __name__:
     is_make_npy = True
     if is_make_npy:
         load_list = []
-        with open("../../../datasets/Naver_NLP/raw_data.pkl", mode="rb") as load_pkl:
+        with open("../../../datasets/Naver_NLP/mecab_data.pkl", mode="rb") as load_pkl:
             load_list = pickle.load(load_pkl)
         total_size = len(load_list)
         train_list = load_list[:int(total_size*0.9)]
         dev_list = load_list[int(total_size*0.9):]
         print(f"train.len: {len(train_list)}, dev.len: {len(dev_list)}")
 
-        make_npy(src_list=train_list, save_path="../../../datasets/Naver_NLP/npy/train", mode="train",
+        make_npy(src_list=train_list, save_path="../../../datasets/Naver_NLP/npy/mecab/train", mode="train",
                  model_name="monologg/koelectra-base-v3-discriminator")
-        make_npy(src_list=dev_list, save_path="../../../datasets/Naver_NLP/npy/test", mode="test",
+        make_npy(src_list=dev_list, save_path="../../../datasets/Naver_NLP/npy/mecab/test", mode="test",
                  model_name="monologg/koelectra-base-v3-discriminator")
 

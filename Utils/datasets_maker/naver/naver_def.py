@@ -3,7 +3,8 @@ from typing import List
 
 @dataclass
 class NAVER_NE:
-    sent_list: List[str] = field(default_factory=list)
+    sentence: str = ""
+    word_list: List[str] = field(default_factory=list)
     tag_list: List[str] = field(default_factory=list)
 
 NAVER_NE_MAP = {

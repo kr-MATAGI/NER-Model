@@ -1,3 +1,4 @@
+import copy
 import os
 import logging
 import numpy as np
@@ -255,7 +256,9 @@ def evaluate(args, model, eval_dataset, mode, global_step=None, train_epoch=0):
     #labels = TTA_NE_tags.keys()
 
     # naver
-    labels = NAVER_NE_MAP.keys()
+    naver_label_map = copy.deepcopy(NAVER_NE_MAP.keys())
+    del naver_label_map["X"]
+    labels = naver_label_map.keys()
 
     label_map = {i: label for i, label in enumerate(labels)}
 
@@ -303,7 +306,7 @@ if "__main__" == __name__:
     #args.num_labels = len(TTA_NE_tags.keys())
 
     # naver
-    args.num_labels = len(NAVER_NE_MAP.keys())
+    args.num_labels = len(NAVER_NE_MAP.keys()) - 1 # except "X"
 
     args.num_train_epochs = 20
     args.train_batch_size = 32
@@ -342,9 +345,9 @@ if "__main__" == __name__:
     model.to(args.device)
 
     # load train dataset
-    train_dataset = NE_Datasets(path="./datasets/Naver_NLP/npy/train")
-    dev_dataset = NE_Datasets(path="./datasets/Naver_NLP/npy/test")
-    test_dataset = NE_Datasets(path="./datasets/Naver_NLP/npy/test")
+    train_dataset = NE_Datasets(path="./datasets/Naver_NLP/npy/mecab/train")
+    dev_dataset = NE_Datasets(path="./datasets/Naver_NLP/npy/mecab/test")
+    test_dataset = NE_Datasets(path="./datasets/Naver_NLP/npy/mecab/test")
 
     # do train
     args.do_train = True
