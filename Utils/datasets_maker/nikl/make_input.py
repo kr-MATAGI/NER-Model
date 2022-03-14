@@ -147,10 +147,10 @@ if "__main__" == __name__:
 
     is_make_exo = False
     if is_make_exo:
-        exo_maker = Npy_Input_Maker(pkl_path="../datasets/exobrain/res_extract_ne/exo_ne_datasets.pkl",
+        exo_maker = Npy_Input_Maker(pkl_path="../../../datasets/exobrain/res_extract_ne/exo_ne_datasets.pkl",
                                     tokenizer_name="monologg/koelectra-base-v3-discriminator")
         res_dict = exo_maker.make_input_labels()
-        exo_maker.make_npy_files(src_dict=res_dict, save_path="../datasets/exobrain/npy")
+        exo_maker.make_npy_files(src_dict=res_dict, save_path="../../../datasets/exobrain/npy")
 
     is_make_nikl = True
     if is_make_nikl:
@@ -160,7 +160,7 @@ if "__main__" == __name__:
         # test:  268,487 // filtered: 111,289
         is_split_pkl = True
         if is_split_pkl:
-            with open("../datasets/NIKL/res_nikl_ne/mecab_jk_nikl_datasets.pkl", mode="rb") as origin_file:
+            with open("../../../datasets/NIKL/res_nikl_ne/mecab_jk_nikl_datasets.pkl", mode="rb") as origin_file:
                 origin_list = pickle.load(origin_file)
                 train_size = int(len(origin_list) * 0.7)
                 eval_size = int(len(origin_list) * 0.1)
@@ -170,25 +170,25 @@ if "__main__" == __name__:
                 print(f"train_size: {len(train_data_list)}, eval_size: {len(eval_data_list)}, "
                       f"test_size: {len(test_data_list)}")
 
-                with open("../datasets/NIKL/res_nikl_ne/mecab_jk_nikl_ne_train.pkl", mode="wb") as train_file:
+                with open("../../../datasets/NIKL/res_nikl_ne/mecab_jk_nikl_ne_train.pkl", mode="wb") as train_file:
                     pickle.dump(train_data_list, train_file)
-                with open("../datasets/NIKL/res_nikl_ne/mecab_jk_nikl_ne_eval.pkl", mode="wb") as eval_file:
+                with open("../../../datasets/NIKL/res_nikl_ne/mecab_jk_nikl_ne_eval.pkl", mode="wb") as eval_file:
                     pickle.dump(eval_data_list, eval_file)
-                with open("../datasets/NIKL/res_nikl_ne/mecab_jk_nikl_ne_test.pkl", mode="wb") as test_file:
+                with open("../../../datasets/NIKL/res_nikl_ne/mecab_jk_nikl_ne_test.pkl", mode="wb") as test_file:
                     pickle.dump(test_data_list, test_file)
 
         # make npy
-        train_maker = Npy_Input_Maker(pkl_path="../datasets/NIKL/res_nikl_ne/mecab_jk_nikl_ne_train.pkl",
+        train_maker = Npy_Input_Maker(pkl_path="../../../datasets/NIKL/res_nikl_ne/mecab_jk_nikl_ne_train.pkl",
                                       tokenizer_name="monologg/koelectra-base-v3-discriminator")
         train_dict = train_maker.make_input_labels()
-        train_maker.make_npy_files(src_dict=train_dict, save_path="../datasets/NIKL/npy/mecab/train")
+        train_maker.make_npy_files(src_dict=train_dict, save_path="../../../datasets/NIKL/npy/mecab/train")
 
-        eval_maker = Npy_Input_Maker(pkl_path="../datasets/NIKL/res_nikl_ne/mecab_jk_nikl_ne_eval.pkl",
+        eval_maker = Npy_Input_Maker(pkl_path="../../../datasets/NIKL/res_nikl_ne/mecab_jk_nikl_ne_eval.pkl",
                                      tokenizer_name="monologg/koelectra-base-v3-discriminator")
         eval_dict = eval_maker.make_input_labels()
-        eval_maker.make_npy_files(src_dict=eval_dict, save_path="../datasets/NIKL/npy/mecab/eval")
+        eval_maker.make_npy_files(src_dict=eval_dict, save_path="../../../datasets/NIKL/npy/mecab/eval")
 
-        test_maker = Npy_Input_Maker(pkl_path="../datasets/NIKL/res_nikl_ne/mecab_jk_nikl_ne_test.pkl",
+        test_maker = Npy_Input_Maker(pkl_path="../../../datasets/NIKL/res_nikl_ne/mecab_jk_nikl_ne_test.pkl",
                                      tokenizer_name="monologg/koelectra-base-v3-discriminator")
         test_dict = test_maker.make_input_labels()
-        test_maker.make_npy_files(src_dict=test_dict, save_path="../datasets/NIKL/npy/mecab/test")
+        test_maker.make_npy_files(src_dict=test_dict, save_path="../../../datasets/NIKL/npy/mecab/test")

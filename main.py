@@ -16,6 +16,8 @@ from sklearn import metrics as sklearn_metrics
 from Utils.datasets_maker.nikl.data_def import TTA_NE_tags
 from Utils.dataloder import NE_Datasets
 
+from Utils.datasets_maker.naver.naver_def import NAVER_NE_MAP
+
 from electra_crf_ner import ElectraCRF_NER
 
 
@@ -248,7 +250,13 @@ def evaluate(args, model, eval_dataset, mode, global_step=None, train_epoch=0):
         "loss": eval_loss
     }
     preds = np.argmax(preds, axis=2)
+
+    # nikl
     labels = TTA_NE_tags.keys()
+
+    # naver
+    labels = NAVER_NE_MAP.keys()
+
     label_map = {i: label for i, label in enumerate(labels)}
 
     out_label_list = [[] for _ in range(out_label_ids.shape[0])]
@@ -289,8 +297,13 @@ if "__main__" == __name__:
     # arg
     args = Argment()
     args.device = "cuda" if torch.cuda.is_available() else "cpu"
-    args.model_name_or_path = "monologg/koelectra-base-v3-discriminator"
-    args.num_labels = len(TTA_NE_tags.keys())
+    args.model_name_or_path = "monologg/koelectra-small-v3-discriminator"
+
+    # nikl
+    #args.num_labels = len(TTA_NE_tags.keys())
+
+    # naver
+    args.num_labels = len(NAVER_NE_MAP.keys())
 
     args.num_train_epochs = 20
     args.train_batch_size = 8
@@ -303,10 +316,17 @@ if "__main__" == __name__:
     args.weight_decay = 0.01
 
     # config
+    # nikl
+    # config = ElectraConfig.from_pretrained(args.model_name_or_path,
+    #                                        num_labels=len(TTA_NE_tags.keys()),
+    #                                        id2label={str(i): label for i, label in enumerate(TTA_NE_tags.keys())},
+    #                                        label2id={label: i for i, label in enumerate(TTA_NE_tags.keys())})
+
+    # naver
     config = ElectraConfig.from_pretrained(args.model_name_or_path,
-                                           num_labels=len(TTA_NE_tags.keys()),
-                                           id2label={str(i): label for i, label in enumerate(TTA_NE_tags.keys())},
-                                           label2id={label: i for i, label in enumerate(TTA_NE_tags.keys())})
+                                           num_labels=len(NAVER_NE_MAP.keys()),
+                                           id2label={str(i): label for i, label in enumerate(NAVER_NE_MAP.keys())},
+                                           label2id={label: i for i, label in enumerate(NAVER_NE_MAP.keys())})
 
     # models
     args.is_load_model = False
