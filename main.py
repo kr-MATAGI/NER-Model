@@ -252,7 +252,7 @@ def evaluate(args, model, eval_dataset, mode, global_step=None, train_epoch=0):
     preds = np.argmax(preds, axis=2)
 
     # nikl
-    labels = TTA_NE_tags.keys()
+    #labels = TTA_NE_tags.keys()
 
     # naver
     labels = NAVER_NE_MAP.keys()
@@ -306,13 +306,13 @@ if "__main__" == __name__:
     args.num_labels = len(NAVER_NE_MAP.keys())
 
     args.num_train_epochs = 20
-    args.train_batch_size = 8
-    args.eval_batch_size = 8
+    args.train_batch_size = 32
+    args.eval_batch_size = 32
     args.learning_rate = 5e-5
 
     args.evaluate_test_during_training = False
     args.save_optimizer = True
-    args.save_steps = 100000
+    args.save_steps = 2500
     args.weight_decay = 0.01
 
     # config
@@ -342,9 +342,9 @@ if "__main__" == __name__:
     model.to(args.device)
 
     # load train dataset
-    train_dataset = NE_Datasets(path="./datasets/exobrain/npy")
-    dev_dataset = NE_Datasets(path="./datasets/exobrain/npy")
-    test_dataset = NE_Datasets(path="./datasets/exobrain/npy")
+    train_dataset = NE_Datasets(path="./datasets/Naver_NLP/npy/train")
+    dev_dataset = NE_Datasets(path="./datasets/Naver_NLP/npy/test")
+    test_dataset = NE_Datasets(path="./datasets/Naver_NLP/npy/test")
 
     # do train
     args.do_train = True
