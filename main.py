@@ -2,6 +2,8 @@ import copy
 import os
 import logging
 import numpy as np
+import random
+
 import torch.cuda
 from dataclasses import dataclass
 
@@ -47,7 +49,7 @@ class Argment:
     save_optimizer: bool = False
     output_dir: str = "./"
     n_gpu: int = 1
-
+    seed: int = 42
 
 ####### logger
 logger = logging.getLogger()
@@ -291,6 +293,12 @@ def evaluate(args, model, eval_dataset, mode, global_step=None, train_epoch=0):
 
     return results
 
+def set_seed(args: Argment):
+    random.seed(args.seed)
+    np.random.seed(args.seed)
+    torch.manual_seed(args.seed)
+    if "cuda" == args.device:
+        torch.cuda.manual_seed_all(args.seed)
 
 ### MAIN ###
 if "__main__" == __name__:
@@ -316,6 +324,9 @@ if "__main__" == __name__:
     args.save_optimizer = True
     args.save_steps = 2500
     args.weight_decay = 0.01
+
+    # set seed
+    set_seed(args)
 
     # config
     # nikl
