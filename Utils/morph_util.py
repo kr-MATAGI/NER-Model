@@ -5,6 +5,9 @@ import copy
 # tagger
 from konlpy.tag import Mecab
 
+from Utils.datasets_maker.nikl.data_def import TTA_NE_tags
+from Utils.datasets_maker.naver.naver_def import NAVER_NE_MAP
+
 nn_list = ["NNG", "NNP", "NNB", "NNBC", "NR", "NP"]
 jk_list = ["JKS", "JKC", "JKG", "JKO", "JKB", "JKV", "JKQ", "JX", "JC"]
 def find_jk(pos_pair):

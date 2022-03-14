@@ -151,9 +151,9 @@ def train(args, model, train_dataset, dev_dataset, test_dataset):
             tr_loss += loss.item()
 
             if (step + 1) % args.gradient_accumulation_steps == 0 or \
-                    (len(train_dataloader) <= args.gradient_accumulation_steps and \
-                     (step + 1) == len(train_dataloader)
-                    ):
+                (len(train_dataloader) <= args.gradient_accumulation_steps and \
+                 (step + 1) == len(train_dataloader)
+                ):
                 torch.nn.utils.clip_grad_norm_(model.parameters(), args.max_grad_norm)
 
                 optimizer.step()
