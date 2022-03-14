@@ -267,10 +267,10 @@ def evaluate(args, model, eval_dataset, mode, global_step=None, train_epoch=0):
     x_token_label_id = NAVER_NE_MAP["X"]
     for i in range(out_label_ids.shape[0]):
         for j in range(out_label_ids.shape[1]):
-            if out_label_ids[i, j] != pad_token_label_id or \
-                    out_label_ids[i, j] != x_token_label_id:
-                out_label_list[i].append(label_map[out_label_ids[i][j]])
-                preds_list[i].append(label_map[preds[i][j]])
+            if (out_label_ids[i, j] != pad_token_label_id) and \
+                    (out_label_ids[i, j] != x_token_label_id):
+                    out_label_list[i].append(label_map[out_label_ids[i][j]])
+                    preds_list[i].append(label_map[preds[i][j]])
 
     result = f1_pre_rec(out_label_list, preds_list)
     results.update(result)
@@ -309,7 +309,7 @@ if "__main__" == __name__:
 
     args.num_train_epochs = 20
     args.train_batch_size = 32
-    args.eval_batch_size = 32
+    args.eval_batch_size = 128
     args.learning_rate = 5e-5
 
     args.evaluate_test_during_training = False
