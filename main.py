@@ -1,11 +1,16 @@
 import copy
+import json
 import os
 import logging
 import numpy as np
 import random
-
-import torch.cuda
+import torch
 from dataclasses import dataclass
+
+import glob
+import re
+import argparse
+from attrdict import AttrDict
 
 from torch.utils.data import RandomSampler, SequentialSampler, DataLoader
 from torch.utils.tensorboard import SummaryWriter
@@ -23,41 +28,18 @@ from Utils.datasets_maker.naver.naver_def import NAVER_NE_MAP
 
 from electra_crf_ner import ElectraCRF_NER
 
+def init_logger():
+    logger = logging.getLogger(__name__)
+    logger.setLevel(logging.INFO)
+    log_formatter = logging.Formatter('%(asctime)s - %(message)s')
+    stream_handler = logging.StreamHandler()
+    stream_handler.setFormatter(log_formatter)
+    logger.addHandler(stream_handler)
 
-@dataclass
-class Argment:
-    is_load_model: bool = False
-    device: str = "cpu"
-    model_name_or_path: str = "monologg/koelectra-base-v3-discriminator"
-    num_labels: int = 0
-    do_lower_case: bool = False
-    do_train: bool = False
-    do_eval: bool = False
-    do_test: bool = False
-    evaluate_test_during_training: bool = False
-    max_steps: int = -1
-    gradient_accumulation_steps: int = 1
-    num_train_epochs: int = 20
-    warmup_proportion: int = 0
-    max_grad_norm: float = 1.0
-    train_batch_size: int = 32
-    eval_batch_size: int = 32
-    learning_rate: float = 5e-5
-    weight_decay: float = 0.0
-    logging_steps: int = 1000
-    save_steps: int = 20000
-    save_optimizer: bool = False
-    output_dir: str = "./"
-    n_gpu: int = 1
-    seed: int = 42
+    return logger
 
-####### logger
-logger = logging.getLogger()
-logger.setLevel(logging.INFO)
-log_formatter = logging.Formatter('%(asctime)s - %(message)s')
-stream_handler = logging.StreamHandler()
-stream_handler.setFormatter(log_formatter)
-logger.addHandler(stream_handler)
+####### Logger
+logger = init_logger()
 
 ####### tensorboard
 if not os.path.exists("./logs"):
@@ -79,23 +61,20 @@ def f1_pre_rec(labels, preds, is_ner=True):
             "f1": sklearn_metrics.f1_score(labels, preds, average="macro"),
         }
 
-
 def show_ner_report(labels, preds):
     return seqeval_metrics.classification_report(labels, preds)
-
 
 ####### train
 def train(args, model, train_dataset, dev_dataset, test_dataset):
     train_sampler = RandomSampler(train_dataset)
     train_dataloader = DataLoader(train_dataset, sampler=train_sampler,
                                   batch_size=args.train_batch_size)
-    t_total = 0
+
     if args.max_steps > 0:
         t_total = args.max_steps
         args.num_train_epochs = args.max_steps // (len(train_dataloader) // args.gradient_accumulation_steps) + 1
     else:
         t_total = len(train_dataloader) // args.gradient_accumulation_steps * args.num_train_epochs
-    logger.info(f"t_total: {t_total}")
 
     # Prepare optimizer and schedule (linear warmup and decay)
     no_decay = ['bias', 'LayerNorm.weight']
@@ -104,10 +83,13 @@ def train(args, model, train_dataset, dev_dataset, test_dataset):
          'weight_decay': args.weight_decay},
         {'params': [p for n, p in model.named_parameters() if any(nd in n for nd in no_decay)], 'weight_decay': 0.0}
     ]
-    optimizer = torch.optim.AdamW(optimizer_grouped_parameters, lr=args.learning_rate)
+
+    # eps : 줄이기 전/후의 lr차이가 eps보다 작으면 무시한다.
+    optimizer = torch.optim.AdamW(optimizer_grouped_parameters, lr=args.learning_rate, eps=args.adam_epsilon)
     # @NOTE: optimizer에 설정된 learning_rate까지 선형으로 감소시킨다. (스케줄러)
     scheduler = get_linear_schedule_with_warmup(optimizer, num_warmup_steps=int(t_total * args.warmup_proportion),
                                                 num_training_steps=t_total)
+
     if os.path.isfile(os.path.join(args.model_name_or_path, "optimizer.pt")) and os.path.isfile(
             os.path.join(args.model_name_or_path, "scheduler.pt")
     ):
@@ -115,7 +97,7 @@ def train(args, model, train_dataset, dev_dataset, test_dataset):
         optimizer.load_state_dict(torch.load(os.path.join(args.model_name_or_path, "optimizer.pt")))
         scheduler.load_state_dict(torch.load(os.path.join(args.model_name_or_path, "scheduler.pt")))
 
-    # Train9!
+    # Train!
     logger.info("***** Running training *****")
     logger.info("  Num examples = %d", len(train_dataset))
     logger.info("  Num Epochs = %d", args.num_train_epochs)
@@ -167,6 +149,12 @@ def train(args, model, train_dataset, dev_dataset, test_dataset):
                 tb_writer.add_scalar("Loss/train", tr_loss / global_step, global_step)
                 pbar.set_description("Train Loss - %.04f" % (tr_loss / global_step))
 
+                if args.logging_steps > 0 and global_step % args.logging_steps == 0:
+                    if args.evaluate_test_during_training:
+                        evaluate(args, model, test_dataset, "test", global_step)
+                    else:
+                        evaluate(args, model, dev_dataset, "dev", global_step)
+
                 if args.save_steps > 0 and global_step % args.save_steps == 0:
                     # Save samples checkpoint
                     output_dir = os.path.join(args.output_dir, "checkpoint-{}".format(global_step))
@@ -187,16 +175,13 @@ def train(args, model, train_dataset, dev_dataset, test_dataset):
 
             if args.max_steps > 0 and global_step > args.max_steps:
                 break
+
         logger.info("  Epoch Done= %d", epoch)
         pbar.close()
-        if "cuda" in str(args.device):
-            torch.cuda.empty_cache()
-
-        evaluate(args, model, dev_dataset, "dev", global_step, epoch)
 
         # save samples
-        if not os.path.exists("samples"):
-            os.mkdir("samples")
+        if not os.path.exists("./model"):
+            os.mkdir("./model")
         torch.save(model, "./model/epoch_{}.pt".format(epoch))
 
     return global_step, tr_loss / global_step
@@ -294,7 +279,7 @@ def evaluate(args, model, eval_dataset, mode, global_step=None, train_epoch=0):
 
     return results
 
-def set_seed(args: Argment):
+def set_seed(args):
     random.seed(args.seed)
     np.random.seed(args.seed)
     torch.manual_seed(args.seed)
@@ -302,73 +287,82 @@ def set_seed(args: Argment):
         torch.cuda.manual_seed_all(args.seed)
 
 ### MAIN ###
-if "__main__" == __name__:
-    print("[main.py][MAIN] -----MAIN")
-
-    # arg
-    args = Argment()
-    args.device = "cuda" if torch.cuda.is_available() else "cpu"
-    args.model_name_or_path = "monologg/koelectra-small-v3-discriminator"
-
-    # nikl
-    #args.num_labels = len(TTA_NE_tags.keys())
-
-    # naver
-    args.num_labels = len(NAVER_NE_MAP.keys()) - 1 # except "X"
-
-    args.num_train_epochs = 20
-    args.train_batch_size = 32
-    args.eval_batch_size = 128
-    args.learning_rate = 5e-5
-
-    args.evaluate_test_during_training = False
-    args.save_optimizer = True
-    args.save_steps = 2500
-    args.weight_decay = 0.01
-
-    # set seed
+def main(cli_args):
+    # Read config.json file and make args
+    with open(cli_args.config_file) as config_file:
+        args = AttrDict(json.load(config_file))
+    args.device = "cuda" if torch.cuda.is_available() and not args.no_cuda else "cpu"
     set_seed(args)
 
-    # config
-    # nikl
-    # config = ElectraConfig.from_pretrained(args.model_name_or_path,
-    #                                        num_labels=len(TTA_NE_tags.keys()),
-    #                                        id2label={str(i): label for i, label in enumerate(TTA_NE_tags.keys())},
-    #                                        label2id={label: i for i, label in enumerate(TTA_NE_tags.keys())})
+    logger.info(f"Training/Evaluation parameters {args}")
+    args.output_dir = os.path.join(args.ckpt_dir, args.output_dir)
 
-    # naver
+    # Config - naver ner labels
     config = ElectraConfig.from_pretrained(args.model_name_or_path,
                                            num_labels=len(NAVER_NE_MAP.keys()),
                                            id2label={str(i): label for i, label in enumerate(NAVER_NE_MAP.keys())},
                                            label2id={label: i for i, label in enumerate(NAVER_NE_MAP.keys())})
+    # Model
+    model = ElectraCRF_NER.from_pretrained(args.model_name_or_path, config=config)
 
-    # models
-    args.is_load_model = False
-    if args.is_load_model:
-        model = torch.load("./filtered_model.pt")
-    else:
-        model = ElectraCRF_NER.from_pretrained(args.model_name_or_path, config=config)
-
+    # GPU or CPU
     if 1 < torch.cuda.device_count():
         logging.info(f"Let's use {torch.cuda.device_count()} GPUs!")
         args.n_gpu = torch.cuda.device_count()
         model = torch.nn.DataParallel(model)
     model.to(args.device)
 
-    # load train dataset
-    train_dataset = NE_Datasets(path="./datasets/Naver_NLP/npy/mecab/train")
-    dev_dataset = NE_Datasets(path="./datasets/Naver_NLP/npy/mecab/test")
-    test_dataset = NE_Datasets(path="./datasets/Naver_NLP/npy/mecab/test")
+    # Load datasets
+    train_dataset = NE_Datasets(path=args.train_dir) if args.train_dir else None
+    dev_dataset = NE_Datasets(path=args.dev_dir) if args.dev_dir else None
+    test_dataset = NE_Datasets(path=args.test_dir) if args.test_dir else None
 
-    # do train
-    args.do_train = True
     if args.do_train:
         global_step, tr_loss = train(args, model, train_dataset, dev_dataset, test_dataset)
         logger.info(f"global_step = {global_step}, average loss = {tr_loss}")
 
-    args.do_test = False
-    if args.do_test:
-        results = evaluate(args, model, test_dataset, mode="test")
+    results = {}
+    if args.do_eval:
+        checkpoints = list(os.path.dirname(c) for c in
+                           sorted(glob.glob(args.output_dir + "/**/" + "pytorch_model.bin", recursive=True),
+                                  key=lambda path_with_step: list(map(int, re.findall(r"\d+", path_with_step)))[-1]))
+
+        if not args.eval_all_checkpoints:
+            checkpoints = checkpoints[-1:]
+        else:
+            logging.getLogger("transformers.configuration_utils").setLevel(logging.WARN)  # Reduce logging
+            logging.getLogger("transformers.modeling_utils").setLevel(logging.WARN)  # Reduce logging
+        logger.info("Evaluate the following checkpoints: %s", checkpoints)
+
+        for checkpoint in checkpoints:
+            global_step = checkpoint.split("-")[-1]
+            model = ElectraCRF_NER.from_pretrained(checkpoint)
+            model.to(args.device)
+            result = evaluate(args, model, test_dataset, mode="test", global_step=global_step)
+            result = dict((k + "_{}".format(global_step), v) for k, v in result.items())
+            results.update(result)
+
+        output_eval_file = os.path.join(args.output_dir, "eval_results.txt")
+        with open(output_eval_file, "w") as f_w:
+            if len(checkpoints) > 1:
+                for key in sorted(results.keys(), key=lambda key_with_step: (
+                        "".join(re.findall(r'[^_]+_', key_with_step)),
+                        int(re.findall(r"_\d+", key_with_step)[-1][1:])
+                )):
+                    f_w.write("{} = {}\n".format(key, str(results[key])))
+            else:
+                for key in sorted(results.keys()):
+                    f_w.write("{} = {}\n".format(key, str(results[key])))
+
+    exit()
+
+if "__main__" == __name__:
+    cli_parser = argparse.ArgumentParser()
+
+    cli_parser.add_argument("--config_file", type=str, required=True)
+    cli_args = cli_parser.parse_args()
+
+    main(cli_args)
 
     # tensorboard close
     tb_writer.close()

@@ -12,7 +12,7 @@ if "__main__" == __name__:
     tokenizer = ElectraTokenizer.from_pretrained("monologg/koelectra-base-v3-discriminator")
 
     #target_path = "../../datasets/NIKL/npy/mecab/train"
-    target_path = "../../datasets/Naver_NLP/npy/mecab/train"
+    target_path = "../../datasets/Naver_NLP/npy/raw/train"
 
     input_ids_path = target_path+"/input_ids.npy"
     labels_path = target_path+"/labels.npy"
