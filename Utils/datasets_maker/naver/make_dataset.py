@@ -70,6 +70,7 @@ def make_npy(src_list: List[NAVER_NE], save_path: str, mode: str, model_name: st
         for idx in range(tag_list_len):
             target_word_tokens = tokenizer.tokenize(src_data.word_list[idx])
             target_ne = src_data.tag_list[idx].split("_")[0]
+            BI_type = src_data.tag_list[idx].split("_")[-1]
 
             for tk_idx, tok in enumerate(tokens):
                 if (0 == tk_idx) or ((tokens_len - 1) == tk_idx): # ignore [CLS], [SEP]
@@ -88,7 +89,7 @@ def make_npy(src_list: List[NAVER_NE], save_path: str, mode: str, model_name: st
                         for bio_idx in range(tk_idx, (tk_idx+tg_word_tokens_len)):
                             if "-" == target_ne:
                                 bio_tagging[bio_idx] = "O"
-                            elif bio_idx == tk_idx:
+                            elif (bio_idx == tk_idx) and ("I" != BI_type):
                                 bio_tagging[bio_idx] = "B-" + target_ne
                             else:
                                 bio_tagging[bio_idx] = "I-" + target_ne
