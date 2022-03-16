@@ -146,7 +146,7 @@ if "__main__" == __name__:
         print(f"train.len: {len(train_list)}, dev.len: {len(dev_list)}")
 
         make_npy(src_list=train_list, save_path="../../../datasets/Naver_NLP/npy/raw/train", mode="train",
-                 model_name="monologg/koelectra-base-v3-discriminator")
+                 model_name="monologg/koelectra-base-v3-discriminator", max_len=128)
         make_npy(src_list=dev_list, save_path="../../../datasets/Naver_NLP/npy/raw/test", mode="test",
-                 model_name="monologg/koelectra-base-v3-discriminator")
+                 model_name="monologg/koelectra-base-v3-discriminator", max_len=128)
 
