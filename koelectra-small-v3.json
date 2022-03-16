@@ -28,5 +28,6 @@
   "eval_batch_size": 128,
   "logging_steps": 1000,
   "save_steps": 1000,
-  "learning_rate": 3e-5
+  "learning_rate": 1e-5,
+  "n_gpu": 1
 }
