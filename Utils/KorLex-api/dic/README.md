@@ -1,0 +1,1 @@
+# 연구실 NAS 임시-최재훈-KorLex-data-Back 에 있는 pkl 파일 사용하면 됩니다.

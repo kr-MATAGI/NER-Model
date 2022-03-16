@@ -22,6 +22,6 @@ class ElectraCRF_NER(ElectraPreTrainedModel):
         logits = self.classifier(sequence_output)
         outputs = (logits, )
         if labels is not None:
-            loss = self.crf(emissions=logits, tags=labels, mask=attention_mask.byte(), reduction="mean")
+            loss = self.crf(emissions=logits, tags=labels, mask=attention_mask.byte())
             outputs = (-1*loss,)+outputs
         return outputs

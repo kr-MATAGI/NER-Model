@@ -131,7 +131,7 @@ def train(args, model, train_dataset, dev_dataset, test_dataset):
             if args.gradient_accumulation_steps > 1:
                 loss = loss / args.gradient_accumulation_steps
 
-            loss = loss.mean()
+            #loss = loss.mean()
             loss.backward()
             tr_loss += loss.item()
 
@@ -260,7 +260,7 @@ def evaluate(args, model, eval_dataset, mode, global_step=None, train_epoch=0):
                     out_label_list[i].append(label_map[out_label_ids[i][j]])
                     preds_list[i].append(label_map[preds[i][j]])
 
-    result = f1_pre_rec(out_label_list, preds_list)
+    result = f1_pre_rec(out_label_list, preds_list, is_ner=True)
     results.update(result)
 
     output_dir = os.path.join(args.output_dir, mode)
@@ -303,7 +303,8 @@ def main(cli_args):
                                            id2label={str(i): label for i, label in enumerate(NAVER_NE_MAP.keys())},
                                            label2id={label: i for i, label in enumerate(NAVER_NE_MAP.keys())})
     # Model
-    model = ElectraCRF_NER.from_pretrained(args.model_name_or_path, config=config)
+    from transformers import ElectraForTokenClassification
+    model = ElectraForTokenClassification.from_pretrained(args.model_name_or_path, config=config)
 
     # GPU or CPU
     if 1 < torch.cuda.device_count():
@@ -353,8 +354,6 @@ def main(cli_args):
             else:
                 for key in sorted(results.keys()):
                     f_w.write("{} = {}\n".format(key, str(results[key])))
-
-    exit()
 
 if "__main__" == __name__:
     cli_parser = argparse.ArgumentParser()

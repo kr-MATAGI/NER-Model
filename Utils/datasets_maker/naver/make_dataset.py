@@ -47,6 +47,11 @@ def make_npy(src_list: List[NAVER_NE], save_path: str, mode: str, model_name: st
     [MASK] = 4
     '''
     tokenizer = ElectraTokenizer.from_pretrained(model_name)
+
+    test_data = NAVER_NE(sentence="이 층은 살아 있는 뿌리줄기, 죽은 뿌리줄기 퇴적물로 이루어져 있습니다 .",
+                         word_list=['이', '층은', '살아', '있는', '뿌리줄기,', '죽은', '뿌리줄기', '퇴적물로', '이루어져', '있습니다', '.'],
+                         tag_list=['-', '-', '-', '-', 'PLT_B', '-', 'PLT_B', '-', '-', '-', '-'])
+    src_list = [test_data]
     for src_idx, src_data in enumerate(src_list):
         if 0 == (src_idx % 1000):
             print(f"{src_idx} Processing...")
@@ -79,7 +84,6 @@ def make_npy(src_list: List[NAVER_NE], save_path: str, mode: str, model_name: st
                 if prev_token_end_idx >= tk_idx:
                     continue
 
-                #print(target_word_tokens, "\n", src_data, "\n")
                 if target_word_tokens[0] == tok:
                     tg_word_tokens_len = len(target_word_tokens)
                     concat_tokens = tokens[tk_idx:(tk_idx+tg_word_tokens_len)]
