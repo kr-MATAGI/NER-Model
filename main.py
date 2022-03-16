@@ -125,8 +125,8 @@ def train(args, model, train_dataset, dev_dataset, test_dataset):
             outputs = model(**inputs)
             loss = outputs[0]
 
-            # if 1 < args.n_gpu:
-            # loss = loss.mean()
+            if 1 < args.n_gpu:
+                loss = loss.mean()
 
             if args.gradient_accumulation_steps > 1:
                 loss = loss / args.gradient_accumulation_steps
@@ -178,11 +178,6 @@ def train(args, model, train_dataset, dev_dataset, test_dataset):
 
         logger.info("  Epoch Done= %d", epoch)
         pbar.close()
-
-        # save samples
-        if not os.path.exists("./model"):
-            os.mkdir("./model")
-        torch.save(model, "./model/epoch_{}.pt".format(epoch))
 
     return global_step, tr_loss / global_step
 
@@ -303,8 +298,7 @@ def main(cli_args):
                                            id2label={str(i): label for i, label in enumerate(NAVER_NE_MAP.keys())},
                                            label2id={label: i for i, label in enumerate(NAVER_NE_MAP.keys())})
     # Model
-    from transformers import ElectraForTokenClassification
-    model = ElectraForTokenClassification.from_pretrained(args.model_name_or_path, config=config)
+    model = ElectraCRF_NER.from_pretrained(args.model_name_or_path, config=config)
 
     # GPU or CPU
     if 1 < torch.cuda.device_count():

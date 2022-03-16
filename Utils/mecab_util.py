@@ -6,7 +6,8 @@ import sys
 sys.path.append("/Users/matagi/Desktop/Git/De-identification-with-NER/Utils/datasets_maker/naver") # mac
 
 # tagger
-from konlpy.tag import Mecab
+#from konlpy.tag import Mecab # mac/linux
+from eunjeon import Mecab # windows
 from Utils.datasets_maker.naver.naver_def import NAVER_NE
 
 nn_list = ["NNG", "NNP", "NNB", "NNBC", "NR", "NP"] # 명사
@@ -111,7 +112,7 @@ def convert_mecab_naver(src_path: str, save_path: str) -> None:
     # use mecab
     new_ne_datasets = []
     NN_target_type = ["PER", "DATE", "TIME", "NUM"] # remove - jk_list, ef_list
-    uniq_NN_target_type = ["LOC", "ORG", "AFW", "CVL", "TRM", "EVT", "ANM", "PLT", "MAT"] # remove - jk_list, xs_list
+    uniq_NN_target_type = ["LOC", "ORG", "AFW", "CVL", "TRM", "EVT", "ANM", "PLT", "MAT", "FLD"] # remove - jk_list, xs_list
 
     mecab = Mecab()
     for naver_ne in src_datasets:
