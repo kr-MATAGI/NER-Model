@@ -180,7 +180,6 @@ def convert_mecab_naver(src_path: str, save_path: str) -> None:
         pickle.dump(new_ne_datasets, save_pkl)
         print("save complete !")
 
-
 ### MAIN ###
 if "__main__" == __name__:
     print("[mecab_util.py][main] - start")

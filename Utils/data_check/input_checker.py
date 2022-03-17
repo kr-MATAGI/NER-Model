@@ -77,13 +77,13 @@ def check_data_by_NE_tag(tokenizer, target_path: str, target_ne: str):
 if "__main__" == __name__:
     tokenizer = ElectraTokenizer.from_pretrained("monologg/koelectra-base-v3-discriminator")
 
-    is_check_per_sent = False
+    is_check_per_sent = True
     if is_check_per_sent:
         # target_path = "../../datasets/NIKL/npy/mecab/train"
-        target_path = "../../datasets/Naver_NLP/npy/raw/train"
+        target_path = "../../datasets/Naver_NLP/npy/xtag/mecab/test"
         check_per_pkl_sentence(tokenizer=tokenizer, target_path=target_path)
 
-    is_check_by_ne_tag = True
+    is_check_by_ne_tag = False
     if is_check_by_ne_tag:
-        target_path = "../../datasets/Naver_NLP/npy/raw/test"
+        target_path = "../../datasets/Naver_NLP/npy/xtag/raw/train"
         check_data_by_NE_tag(tokenizer=tokenizer, target_path=target_path, target_ne="PLT")

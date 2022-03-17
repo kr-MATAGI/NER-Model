@@ -14,7 +14,7 @@ from attrdict import AttrDict
 
 from torch.utils.data import RandomSampler, SequentialSampler, DataLoader
 from torch.utils.tensorboard import SummaryWriter
-from transformers import ElectraConfig, get_linear_schedule_with_warmup
+from transformers import ElectraConfig, get_linear_schedule_with_warmup, ElectraForTokenClassification
 
 from tqdm import tqdm
 
@@ -122,8 +122,12 @@ def train(args, model, train_dataset, dev_dataset, test_dataset):
                 "labels": batch["labels"].to(args.device)
             }
 
-            outputs = model(**inputs)
-            loss = outputs[0]
+            if args.is_crf:
+                log_likelihood, outputs = model(**inputs)
+                loss = -1 * log_likelihood
+            else:
+                outputs = model(**inputs)
+                loss = outputs[0]
 
             if 1 < args.n_gpu:
                 loss = loss.mean()
@@ -210,21 +214,34 @@ def evaluate(args, model, eval_dataset, mode, global_step=None, train_epoch=0):
                 "token_type_ids": batch["token_type_ids"].to(args.device),
                 "labels": batch["labels"].to(args.device)
             }
-            outputs = model(**inputs)
-            tmp_eval_loss, logits = outputs[:2]
 
-            eval_loss += tmp_eval_loss.mean().item()
+            if args.is_crf:
+                log_likelihood, outputs = model(**inputs)
+                loss = -1 * log_likelihood
+                eval_loss += loss.mean().item()
+            else:
+                outputs = model(**inputs)
+                tmp_eval_loss, logits = outputs[:2]
+                eval_loss += tmp_eval_loss.mean().item()
 
         nb_eval_steps += 1
         tb_writer.add_scalar("Loss/val_" + str(train_epoch), eval_loss / nb_eval_steps, nb_eval_steps)
         eval_pbar.set_description("Eval Loss - %.04f" % (eval_loss / nb_eval_steps))
 
         if preds is None:
-            preds = logits.detach().cpu().numpy()
-            out_label_ids = inputs["labels"].detach().cpu().numpy()
+            if args.is_crf:
+                preds = np.array(outputs)
+                out_label_ids = inputs["labels"].detach().cpu().numpy() # 128, 128
+            else:
+                preds = logits.detach().cpu().numpy()
+                out_label_ids = inputs["labels"].detach().cpu().numpy()
         else:
-            preds = np.append(preds, logits.detach().cpu().numpy(), axis=0)
-            out_label_ids = np.append(out_label_ids, inputs["labels"].detach().cpu().numpy(), axis=0)
+            if args.is_crf:
+                preds = np.append(preds, np.array(outputs), axis=0)
+                out_label_ids = np.append(out_label_ids, inputs["labels"].detach().cpu().numpy(), axis=0)
+            else:
+                preds = np.append(preds, logits.detach().cpu().numpy(), axis=0)
+                out_label_ids = np.append(out_label_ids, inputs["labels"].detach().cpu().numpy(), axis=0)
 
     logger.info("  Eval End !")
     eval_pbar.close()
@@ -233,7 +250,9 @@ def evaluate(args, model, eval_dataset, mode, global_step=None, train_epoch=0):
     results = {
         "loss": eval_loss
     }
-    preds = np.argmax(preds, axis=2)
+
+    if not args.is_crf:
+        preds = np.argmax(preds, axis=2)
 
     # nikl
     #labels = TTA_NE_tags.keys()
@@ -298,7 +317,10 @@ def main(cli_args):
                                            id2label={str(i): label for i, label in enumerate(NAVER_NE_MAP.keys())},
                                            label2id={label: i for i, label in enumerate(NAVER_NE_MAP.keys())})
     # Model
-    model = ElectraCRF_NER.from_pretrained(args.model_name_or_path, config=config)
+    if args.is_crf:
+        model = ElectraCRF_NER.from_pretrained(args.model_name_or_path, config=config)
+    else:
+        model = ElectraForTokenClassification.from_pretrained(args.model_name_or_path, config=config)
 
     # GPU or CPU
     if 1 < torch.cuda.device_count():
@@ -331,7 +353,10 @@ def main(cli_args):
 
         for checkpoint in checkpoints:
             global_step = checkpoint.split("-")[-1]
-            model = ElectraCRF_NER.from_pretrained(checkpoint)
+            if args.is_crf:
+                model = ElectraCRF_NER.from_pretrained(checkpoint)
+            else:
+                model = ElectraForTokenClassification.from_pretrained(checkpoint)
             model.to(args.device)
             result = evaluate(args, model, test_dataset, mode="test", global_step=global_step)
             result = dict((k + "_{}".format(global_step), v) for k, v in result.items())
