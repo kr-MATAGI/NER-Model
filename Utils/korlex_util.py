@@ -164,7 +164,7 @@ def remove_back_jk_by_krx(krx_api, src_data: NAVER_NE) -> NAVER_NE:
                 except_case = list(filter(lambda x: x[-1] not in except_target_pos, res_mecab))
                 if 1 <= len(except_case):
                     ret_naver_ne.word_list[idx] = "".join([x[0] for x in except_case])
-                    print(res_mecab, "->", ret_naver_ne.word_list[idx]) # for TEST
+                    #print(res_mecab, "->", ret_naver_ne.word_list[idx]) # for TEST
             else:
                 ret_naver_ne.word_list[idx] = select_word
 
