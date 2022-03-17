@@ -8,16 +8,62 @@ from eunjeon import Mecab # windows
 
 import pickle
 import copy
+from typing import List
 
 from Utils.KorLex_api.krx_api import KorLexAPI
-from Utils.datasets_maker.naver import naver_def
+from Utils.datasets_maker.naver.naver_def import NAVER_NE
 
 ## MeCab.pos.tags
 nn_list = ["NNG", "NNP", "NNB", "NNBC", "NR", "NP"] # 명사
 jk_list = ["JKS", "JKC", "JKG", "JKO", "JKB", "JKV", "JKQ", "JX", "JC"] # 조사
 ef_list = ["VCP+EF"] # 종결 어미
 xs_list = ["XSN"] # 접미사
-sx_list = ["SF", "SE", "SSO", "SSC", "SC"] # 마침표, 물음표, 느낌표, 줄임표, 여는/닫는 괄호, 구분자, 기타 기호
+sx_list = ["SF", "SE", "SSO", "SSC", "SC"] # 마침표, 물음표, 느낌표, 줄임표, 여는/닫는 괄호, 구분자
+
+### Method
+def remove_sx_pos(src_data: NAVER_NE) -> NAVER_NE:
+    ret_naver_ne = copy.deepcopy(src_data)
+
+    # Init - Mecab
+    mecab = Mecab()
+
+    while True:
+        assert len(ret_naver_ne.word_list) == len(ret_naver_ne.tag_list)
+        list_len = len(ret_naver_ne.word_list)
+
+        is_change = False
+        for idx in range(list_len):
+            split_tag = ret_naver_ne.tag_list[idx].split("_") # e.g. ORG_B -> ORG, I
+
+            if "-" == split_tag[-1]:
+                if idx == (list_len - 1):
+                    is_break = True
+                else:
+                    continue
+
+            # ignore B - I
+            if "B" == split_tag[0] and idx != (list_len-1) and "I" == ret_naver_ne.tag_list[idx+1].split("_")[0]:
+                continue
+
+            res_mecab = mecab.pos(ret_naver_ne.word_list[idx])
+            sx_filter = list(filter(lambda x: x[-1] in sx_list, res_mecab))
+
+            if (1 <= len(sx_filter)) and (2 <= len(res_mecab)) and \
+                    ((res_mecab[0][-1] in sx_list) or (res_mecab[-1][-1] in sx_list)):
+                if res_mecab[0][-1] in sx_list:
+                    # front character
+                    del_ch = ret_naver_ne.word_list[idx][0]
+                    ret_naver_ne.word_list[idx] = ret_naver_ne.word_list[idx].replace(del_ch, "")
+                    is_change = True
+                elif res_mecab[-1][-1] in sx_list:
+                    # back character
+                    del_ch = ret_naver_ne.word_list[idx][-1]
+                    ret_naver_ne.word_list[idx] = ret_naver_ne.word_list[idx].replace(del_ch, "")
+                    is_change = True
+        if not is_change:
+            break
+
+    return ret_naver_ne
 
 def convert_korlex_naver_ner(src_path: str, save_path: str) -> None:
     mecab_target_tag = ["PER", "DATE", "TIME", "NUM"] # 조사/접미사/종결 어미
@@ -33,9 +79,6 @@ def convert_korlex_naver_ner(src_path: str, save_path: str) -> None:
                              reIdx_path="../Utils/KorLex_api/dic/korlex_reIdx.pkl")
     krx_json_api.load_synset_data()
 
-    # Init - Mecab
-    mecab = Mecab()
-
     # load raw_data.pkl
     if not os.path.exists(src_path):
         print(f"[convert_korlex_naver_ner] ERR - Check src_path: {src_path}")
@@ -47,31 +90,10 @@ def convert_korlex_naver_ner(src_path: str, save_path: str) -> None:
     print(f"[convert_korlex_naver_ner] src_pkl_data.len: {len(src_pkl_data)}")
 
     for pkl_idx, src_data in enumerate(src_pkl_data):
-        src_sent = src_data.sentence
-        src_word_list = src_data.word_list
-        src_tag_list = src_data.tag_list
+        if 0 == ((pkl_idx+1) % 1000):
+            print(f"{pkl_idx+1} Processing...")
+        res_sx_remove = remove_sx_pos(src_data)
 
-        assert len(src_word_list) == len(src_tag_list)
-
-        del_idx_list = []
-        src_iter = iter(zip(src_word_list, src_tag_list))
-        for src_word, src_tag in src_iter:
-            if "-" == src_tag:
-                continue
-            # 양 끝에 있는 특수기호 제거
-            while True:
-                res_mecab = mecab.pos(src_word)
-                extract_sx_pos = list(filter(lambda x: x[-1] in sx_list, res_mecab))
-                if (1 >= len(res_mecab)) or (0 >= len(extract_sx_pos)) or \
-                        (len(extract_sx_pos) == len(res_mecab)):
-                    break
-
-                if res_mecab[0][-1] in sx_list:
-                    del src_word_list[0]
-                    del src_tag_list[0]
-                elif res_mecab[-1][-1] in sx_list:
-                    del src_word_list[-1]
-                    del src_tag_list[-1]
 
 
 ### MAIN ###
