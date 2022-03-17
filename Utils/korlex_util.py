@@ -1,10 +1,14 @@
 import os
 import sys
+
+sys.path.append("/Users/matagi/Desktop/Git/De-identification-with-NER/Utils/KorLex_api") # mac
+sys.path.append("/Users/matagi/Desktop/Git/De-identification-with-NER/Utils/datasets_maker/naver") # mac
+
 sys.path.append("C:/Users/MATAGI/Desktop/Git/De-identification-with-NER/Utils/KorLex_api") # windows
 sys.path.append("C:/Users/MATAGI/Desktop/Git/De-identification-with-NER/Utils/datasets_maker/naver") # windows
 
-#from konlpy.tag import Mecab # mac/linux
-from eunjeon import Mecab # windows
+from konlpy.tag import Mecab # mac/linux
+#from eunjeon import Mecab # windows
 
 import pickle
 import copy
