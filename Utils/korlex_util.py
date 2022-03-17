@@ -187,6 +187,8 @@ def convert_korlex_naver_ner(src_path: str, save_path: str) -> None:
         src_pkl_data = pickle.load(src_pkl_file)
     print(f"[convert_korlex_naver_ner] src_pkl_data.len: {len(src_pkl_data)}")
 
+    # Do Filter
+    new_pkl_data = []
     for pkl_idx, src_data in enumerate(src_pkl_data):
         if 0 == ((pkl_idx+1) % 1000):
             print(f"{pkl_idx+1} Processing...")
@@ -195,7 +197,13 @@ def convert_korlex_naver_ner(src_path: str, save_path: str) -> None:
         res_sx_remove = remove_sx_pos(src_data)
         res_back_jk = remove_back_jk_pos(res_sx_remove)
         res_korlex = remove_back_jk_by_krx(krx_json_api, src_data=res_back_jk)
+        new_pkl_data.append(res_korlex)
+    print(f"results.size : {len(new_pkl_data)}")
 
+    # save
+    with open(save_path, mode="wb") as save_pkl:
+        pickle.dump(new_pkl_data, save_pkl)
+        print(f"Complete Save - {save_path}")
 
 ### MAIN ###
 if "__main__" == __name__:
