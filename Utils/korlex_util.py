@@ -168,9 +168,6 @@ def remove_back_jk_by_krx(krx_api, src_data: NAVER_NE) -> NAVER_NE:
             else:
                 ret_naver_ne.word_list[idx] = select_word
 
-
-
-
     return ret_naver_ne
 
 
