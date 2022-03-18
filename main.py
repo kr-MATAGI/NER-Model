@@ -26,7 +26,7 @@ from Utils.dataloder import NE_Datasets
 
 from Utils.datasets_maker.naver.naver_def import NAVER_NE_MAP
 
-from electra_crf_ner import ElectraCRF_NER
+from electra_crf import ElectraCRF_NER
 
 def init_logger():
     logger = logging.getLogger(__name__)
