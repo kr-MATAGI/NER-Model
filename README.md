@@ -9,5 +9,5 @@
   - [HuggingFace](https://huggingface.co/docs/transformers/custom_datasets#tok-ner)
   - [StackExchange](https://datascience.stackexchange.com/questions/69640/what-should-be-the-labels-for-subword-tokens-in-bert-for-ner-task)
   - [git/huggingface/issues](https://github.com/huggingface/transformers/issues/323)
-   
+  - [discuss Huggingface](https://discuss.huggingface.co/t/converting-word-level-labels-to-wordpiece-level-for-token-classification/2118/6)   
    
