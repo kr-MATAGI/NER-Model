@@ -3,7 +3,7 @@
   - [HuggingFace Transformers](https://huggingface.co/docs/transformers/custom_datasets#tok-ner)
   - [ELECTRA+CRF](https://github.com/Hanlard/Electra_CRF_NER)
   - [BERT+CRF](https://github.com/eagle705/pytorch-bert-crf-ner)
-  - [torchCRF](https://towardsdatascience.com/implementing-a-linear-chain-conditional-random-field-crf-in-pytorch-16b0b9c4b4ea)
+  - [linear-chin CRF in pytorch](https://towardsdatascience.com/implementing-a-linear-chain-conditional-random-field-crf-in-pytorch-16b0b9c4b4ea)
   
  ## WordPiece를 이용해 Dataset의 Label을 만들기 참조
   - [HuggingFace](https://huggingface.co/docs/transformers/custom_datasets#tok-ner)
