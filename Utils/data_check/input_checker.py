@@ -80,7 +80,7 @@ if "__main__" == __name__:
     is_check_per_sent = True
     if is_check_per_sent:
         # target_path = "../../datasets/NIKL/npy/mecab/train"
-        target_path = "../../datasets/Naver_NLP/npy/xtag/mecab/test"
+        target_path = "../../datasets/Naver_NLP/npy/xtag/krx/test"
         check_per_pkl_sentence(tokenizer=tokenizer, target_path=target_path)
 
     is_check_by_ne_tag = False

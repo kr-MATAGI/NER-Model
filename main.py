@@ -259,7 +259,6 @@ def evaluate(args, model, eval_dataset, mode, global_step=None, train_epoch=0):
 
     # naver
     labels = NAVER_NE_MAP.keys()
-
     label_map = {i: label for i, label in enumerate(labels)}
 
     out_label_list = [[] for _ in range(out_label_ids.shape[0])]

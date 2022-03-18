@@ -177,6 +177,8 @@ def make_X_tag_npy(src_list: List[NAVER_NE], save_path: str, mode: str, model_na
 
         for idx in range(tag_list_len):
             target_word_tokens = tokenizer.tokenize(src_data.word_list[idx])
+            if 0 >= len(target_word_tokens):
+                continue
             target_ne = src_data.tag_list[idx].split("_")[0]
             BI_type = src_data.tag_list[idx].split("_")[-1]
 
@@ -260,14 +262,14 @@ if "__main__" == __name__:
     is_make_X_tag_npy = True
     if is_make_X_tag_npy:
         load_list = []
-        with open("../../../datasets/Naver_NLP/raw_data.pkl", mode="rb") as load_pkl:
+        with open("../../../datasets/Naver_NLP/korlex_data.pkl", mode="rb") as load_pkl:
             load_list = pickle.load(load_pkl)
         total_size = len(load_list)
         train_list = load_list[:int(total_size*0.9)]
         dev_list = load_list[int(total_size*0.9):]
         print(f"train.len: {len(train_list)}, dev.len: {len(dev_list)}")
 
-        make_X_tag_npy(src_list=train_list, save_path="../../../datasets/Naver_NLP/npy/xtag/raw/train", mode="train",
+        make_X_tag_npy(src_list=train_list, save_path="../../../datasets/Naver_NLP/npy/xtag/krx/train", mode="train",
                        model_name="monologg/koelectra-base-v3-discriminator", max_len=128)
-        make_X_tag_npy(src_list=dev_list, save_path="../../../datasets/Naver_NLP/npy/xtag/raw/test", mode="test",
+        make_X_tag_npy(src_list=dev_list, save_path="../../../datasets/Naver_NLP/npy/xtag/krx/test", mode="test",
                        model_name="monologg/koelectra-base-v3-discriminator", max_len=128)
