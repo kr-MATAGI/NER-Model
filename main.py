@@ -135,7 +135,6 @@ def train(args, model, train_dataset, dev_dataset, test_dataset):
             if args.gradient_accumulation_steps > 1:
                 loss = loss / args.gradient_accumulation_steps
 
-            #loss = loss.mean()
             loss.backward()
             tr_loss += loss.item()
 
