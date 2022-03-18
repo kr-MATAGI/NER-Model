@@ -27,6 +27,7 @@ from Utils.dataloder import NE_Datasets
 from Utils.datasets_maker.naver.naver_def import NAVER_NE_MAP
 
 from electra_crf import ElectraCRF_NER
+from electra_lstm import Electra_BiLSTM
 
 def init_logger():
     logger = logging.getLogger(__name__)
@@ -316,7 +317,7 @@ def main(cli_args):
                                            label2id={label: i for i, label in enumerate(NAVER_NE_MAP.keys())})
     # Model
     if args.is_crf:
-        model = ElectraCRF_NER.from_pretrained(args.model_name_or_path, config=config)
+        model = Electra_BiLSTM(config=config)
     else:
         model = ElectraForTokenClassification.from_pretrained(args.model_name_or_path, config=config)
 
@@ -352,7 +353,7 @@ def main(cli_args):
         for checkpoint in checkpoints:
             global_step = checkpoint.split("-")[-1]
             if args.is_crf:
-                model = ElectraCRF_NER.from_pretrained(checkpoint)
+                model = Electra_BiLSTM.from_pretrained(checkpoint)
             else:
                 model = ElectraForTokenClassification.from_pretrained(checkpoint)
             model.to(args.device)
