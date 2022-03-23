@@ -1,25 +1,29 @@
 # datasets
 /datasets
 *.pkl
+*.npy
 
 # ide
 /.idea
-
 
 # pycmache
 *.pyc
 
 # tensorboard
 /logs
+klue_model/logs
 
-# metrics
-/dev
+# results
+config.json
+test-*.txt
+
 
 # model
 /ckpt
 /model
 /checkpoint-*
 *.pt
+*.bin
 
 # Mac
 .DS_Store

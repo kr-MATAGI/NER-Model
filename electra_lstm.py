@@ -10,7 +10,7 @@ class Electra_BiLSTM(ElectraPreTrainedModel):
 
         self.electra = ElectraModel(config)
         self.rnn = nn.LSTM(config.hidden_size, output_dim, num_layers=num_layers, batch_first=True, bidirectional=True)
-        self.droout = nn.Dropout(config.hidden_dropout_prob)
+        self.dropout = nn.Dropout(config.hidden_dropout_prob)
         self.linear = nn.Linear(output_dim * 2, config.num_labels)
         self.crf = CRF(num_tags=config.num_labels, batch_first=True)
         self.init_weights()
@@ -19,6 +19,7 @@ class Electra_BiLSTM(ElectraPreTrainedModel):
         electra_outputs = self.electra(input_ids=input_ids, token_type_ids=token_type_ids,
                                        attention_mask=attention_mask)
         lstm_outputs, _ = self.rnn(electra_outputs[0])
+        dropout_outputs = self.dropout(lstm_outputs)
         emissions = self.linear(lstm_outputs)
         if labels is not None:
             log_likelihood, sequence_of_tags = self.crf(emissions=emissions, tags=labels, mask=attention_mask.bool(),

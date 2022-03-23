@@ -182,6 +182,10 @@ def convert_mecab_naver(src_path: str, save_path: str) -> None:
 
 ### MAIN ###
 if "__main__" == __name__:
+    mecab = Mecab()
+    print(mecab.pos("12.6m의"))
+    exit()
+
     print("[mecab_util.py][main] - start")
 
     src_path = "../datasets/Naver_NLP/raw_data.pkl"

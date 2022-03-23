@@ -7,8 +7,8 @@ sys.path.append("/Users/matagi/Desktop/Git/De-identification-with-NER/Utils/data
 sys.path.append("C:/Users/MATAGI/Desktop/Git/De-identification-with-NER/Utils/KorLex_api") # windows
 sys.path.append("C:/Users/MATAGI/Desktop/Git/De-identification-with-NER/Utils/datasets_maker/naver") # windows
 
-from konlpy.tag import Mecab # mac/linux
-#from eunjeon import Mecab # windows
+#from konlpy.tag import Mecab # mac/linux
+from eunjeon import Mecab # windows
 
 import pickle
 import copy
@@ -157,6 +157,8 @@ def remove_back_jk_by_krx(krx_api, src_data: NAVER_NE) -> NAVER_NE:
 
             # 4) 위의 2와 3의 단어 길이로 점수 비교하여 긴 것을 사용
             select_word = nn_word if len(nn_word) >= len(krx_word) else krx_word
+            if len(krx_word) > len(nn_word):
+                print(f"{nn_word} vs {krx_word} -> selected : {select_word}")
             
             # 5) empty한 단어가 선택되었을 경우, 조사와 접미사 제거
             if 0 >= len(select_word):
