@@ -147,7 +147,7 @@ if "__main__" == __name__:
 
     is_make_exo = False
     if is_make_exo:
-        exo_maker = Npy_Input_Maker(pkl_path="../../../datasets/exobrain/res_extract_ne/exo_ne_datasets.pkl",
+        exo_maker = Npy_Input_Maker(pkl_path="../../../datasets/exobrain/pkl/exo_ne_datasets.pkl",
                                     tokenizer_name="monologg/koelectra-base-v3-discriminator")
         res_dict = exo_maker.make_input_labels()
         exo_maker.make_npy_files(src_dict=res_dict, save_path="../../../datasets/exobrain/npy")

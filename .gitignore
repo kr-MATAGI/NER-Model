@@ -1,5 +1,5 @@
 # datasets
-/datasets
+old_version/datasets
 *.pkl
 *.npy
 
@@ -10,8 +10,8 @@
 *.pyc
 
 # tensorboard
-/logs
-klue_model/logs
+old_version/logs
+old_versionklue_model/logs
 
 # results
 config.json
@@ -19,9 +19,9 @@ test-*.txt
 
 
 # model
-/ckpt
-/model
-/checkpoint-*
+old_version/ckpt
+old_version/model
+old_version/checkpoint-*
 *.pt
 *.bin
 
@@ -29,4 +29,4 @@ test-*.txt
 .DS_Store
 
 # KorLex
-/Utils/KorLex_api
+old_version/Utils/KorLex_api
