@@ -66,20 +66,18 @@ def make_npy(mode: str, tokenizer_name: str, sent_list: List[Sentence]):
 
     tokenizer = AutoTokenizer.from_pretrained(tokenizer_name)
     for sent_item in sent_list:
-        print(sent_item.ne_list)
-
         ret_dict = {
-            "tokens": [],
-            "labels": []
+            "input_ids": [],
+            "labels": [],
+            "attention_mask": [],
+            "token_type_ids": []
         }
 
         # ref morp
         token_id_pair_list = []
         for morp_item in sent_item.morp_list:
-            token = tokenizer.tokenize(morp_item.lemma)
+            token = [tok.replace("##", "") for tok in tokenizer.tokenize(morp_item.lemma)]
             token_id_pair_list.append((token, morp_item.id, ["O" for _ in range(len(token))]))
-        print(token_id_pair_list)
-        print(tokenizer.tokenize(sent_item.text))
 
         # ref ne
         for ne_item in sent_item.ne_list:
@@ -107,14 +105,20 @@ def make_npy(mode: str, tokenizer_name: str, sent_list: List[Sentence]):
                             token_id_pair_list[id_item][-1][tag_idx] = "I-" + ne_item.type
                     #print(id_list, id_idx, token_id_pair_list[id_item])
 
+        # make dict
         # 개체명이 있는 단어만 남겨둠 - morp만으로 text를 생성할 경우, raw text와 다름
         filter_token_ne_pair = list(filter(lambda x: True if "O" not in x[-1] else False, token_id_pair_list))
+        tokens = tokenizer.tokenize(sent_item.text)
 
-        # make dict
-
-
-
-
+        pair_idx = 0
+        for tok in tokens:
+            conv_tok = tok.replace("##", "")
+            if conv_tok in filter_token_ne_pair[pair_idx][0]:
+                target_idx = filter_token_ne_pair[pair_idx][0].index(conv_tok)
+                print(target_idx, conv_tok, filter_token_ne_pair[pair_idx], pair_idx)
+                if target_idx == (len(filter_token_ne_pair[pair_idx][0]) - 1):
+                    pair_idx += 1
+        print(filter_token_ne_pair)
         break
 
 
