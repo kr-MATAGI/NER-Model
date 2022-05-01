@@ -77,7 +77,7 @@ def make_npy(mode: str, tokenizer_name: str, sent_list: List[Sentence]):
         token_id_pair_list = []
         for morp_item in sent_item.morp_list:
             token = tokenizer.tokenize(morp_item.lemma)
-            token_id_pair_list.append((token, morp_item.id, "O"))
+            token_id_pair_list.append((token, morp_item.id, ["O" for _ in range(len(token))]))
         print(token_id_pair_list)
         print(tokenizer.tokenize(sent_item.text))
 
@@ -86,10 +86,33 @@ def make_npy(mode: str, tokenizer_name: str, sent_list: List[Sentence]):
             id_list = [x for x in range(ne_item.begin, ne_item.end+1)]
 
             if 1 == len(id_list):
-                print(id_list, token_id_pair_list[id_list[0]])
-
+                #print(id_list, token_id_pair_list[id_list[0]])
+                for tag_idx in range(len((token_id_pair_list[id_list[0]][-1]))):
+                    if 0 == tag_idx:
+                        token_id_pair_list[id_list[0]][-1][tag_idx] = "B-" + ne_item.type
+                    else:
+                        token_id_pair_list[id_list[0]][-1][tag_idx] = "I-" + ne_item.type
+                #print(id_list, token_id_pair_list[id_list[0]])
             else:
-                pass
+                for id_idx, id_item in enumerate(id_list):
+                    #print(id_list, id_idx, token_id_pair_list[id_item])
+                    if 0 == id_idx:
+                        for tag_idx in range(len(token_id_pair_list[id_item][-1])):
+                            if 0 == tag_idx:
+                                token_id_pair_list[id_item][-1][tag_idx] = "B-" + ne_item.type
+                            else:
+                                token_id_pair_list[id_item][-1][tag_idx] = "I-" + ne_item.type
+                    else:
+                        for tag_idx in range(len(token_id_pair_list[id_item][-1])):
+                            token_id_pair_list[id_item][-1][tag_idx] = "I-" + ne_item.type
+                    #print(id_list, id_idx, token_id_pair_list[id_item])
+
+        # 개체명이 있는 단어만 남겨둠 - morp만으로 text를 생성할 경우, raw text와 다름
+        filter_token_ne_pair = list(filter(lambda x: True if "O" not in x[-1] else False, token_id_pair_list))
+
+        # make dict
+
+
 
 
         break
