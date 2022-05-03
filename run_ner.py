@@ -133,33 +133,20 @@ def evaluate(args, model, eval_dataset, mode, global_step=None, train_epoch=0):
                 "labels": batch["labels"].to(args.device)
             }
 
-            if args.is_crf:
-                log_likelihood, outputs = model(**inputs)
-                loss = -1 * log_likelihood
-                eval_loss += loss.mean().item()
-            else:
-                outputs = model(**inputs)
-                tmp_eval_loss, logits = outputs[:2]
-                eval_loss += tmp_eval_loss.mean().item()
+            outputs = model(**inputs)
+            tmp_eval_loss, logits = outputs[:2]
+            eval_loss += tmp_eval_loss.mean().item()
 
         nb_eval_steps += 1
         tb_writer.add_scalar("Loss/val_" + str(train_epoch), eval_loss / nb_eval_steps, nb_eval_steps)
         eval_pbar.set_description("Eval Loss - %.04f" % (eval_loss / nb_eval_steps))
 
         if preds is None:
-            if args.is_crf:
-                preds = np.array(outputs)
-                out_label_ids = inputs["labels"].detach().cpu().numpy() # 128, 128
-            else:
-                preds = logits.detach().cpu().numpy()
-                out_label_ids = inputs["labels"].detach().cpu().numpy()
+            preds = logits.detach().cpu().numpy()
+            out_label_ids = inputs["labels"].detach().cpu().numpy()
         else:
-            if args.is_crf:
-                preds = np.append(preds, np.array(outputs), axis=0)
-                out_label_ids = np.append(out_label_ids, inputs["labels"].detach().cpu().numpy(), axis=0)
-            else:
-                preds = np.append(preds, logits.detach().cpu().numpy(), axis=0)
-                out_label_ids = np.append(out_label_ids, inputs["labels"].detach().cpu().numpy(), axis=0)
+            preds = np.append(preds, logits.detach().cpu().numpy(), axis=0)
+            out_label_ids = np.append(out_label_ids, inputs["labels"].detach().cpu().numpy(), axis=0)
 
     logger.info("  Eval End !")
     eval_pbar.close()
@@ -169,24 +156,20 @@ def evaluate(args, model, eval_dataset, mode, global_step=None, train_epoch=0):
         "loss": eval_loss
     }
 
-    if not args.is_crf:
-        preds = np.argmax(preds, axis=2)
+    preds = np.argmax(preds, axis=2)
 
-    # nikl
-    #labels = TTA_NE_tags.keys()
-
-    # naver
     labels = ETRI_TAG.keys()
     label_map = {i: label for i, label in enumerate(labels)}
 
     out_label_list = [[] for _ in range(out_label_ids.shape[0])]
     preds_list = [[] for _ in range(out_label_ids.shape[0])]
 
-    pad_token_label_id = torch.nn.CrossEntropyLoss().ignore_index
+    ignore_index = torch.nn.CrossEntropyLoss().ignore_index
     x_token_label_id = ETRI_TAG["X"]
+    print(f"ignore_index: {ignore_index}, x_token_label_id: {ETRI_TAG['X']}")
     for i in range(out_label_ids.shape[0]):
         for j in range(out_label_ids.shape[1]):
-            if (out_label_ids[i, j] != pad_token_label_id) and \
+            if (out_label_ids[i, j] != ignore_index) and \
                     (out_label_ids[i, j] != x_token_label_id):
                     out_label_list[i].append(label_map[out_label_ids[i][j]])
                     preds_list[i].append(label_map[preds[i][j]])
@@ -269,12 +252,8 @@ def train(args, model, train_dataset, dev_dataset):
                 "labels": batch["labels"].to(args.device)
             }
 
-            if args.is_crf:
-                log_likelihood, outputs = model(**inputs)
-                loss = -1 * log_likelihood
-            else:
-                outputs = model(**inputs)
-                loss = outputs[0]
+            outputs = model(**inputs)
+            loss = outputs[0]
 
             if 1 < args.n_gpu:
                 loss = loss.mean()
