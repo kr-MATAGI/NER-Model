@@ -64,7 +64,20 @@ def make_npy(mode: str, tokenizer_name: str, sent_list: List[Sentence]):
 
     print(f"[npy_maker][make_npy] Mode: {mode}, Sentence List Size: {len(sent_list)}")
 
+    tokenizer = AutoTokenizer.from_pretrained(tokenizer_name)
+    for sent in sent_list:
+        print(sent.text)
+        print(sent.ne_list)
 
+        word_tokens = tokenizer.tokenize(sent.text)
+        ne_idx = 0
+        concat_word = ""
+        for tok in word_tokens:
+            if 0 >= len(concat_word):
+
+
+
+        break
 
 
 ### MAIN ###
