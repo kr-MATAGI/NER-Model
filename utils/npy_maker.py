@@ -54,7 +54,7 @@ def conv_TTA_ne_category(sent_list: List[Sentence]):
             ne_item.type = conv_type
     return sent_list
 
-def make_npy(mode: str, tokenizer_name: str, sent_list: List[Sentence]):
+def make_npy(mode: str, tokenizer_name: str, sent_list: List[Sentence], max_len: int=512):
     '''
     Args:
         mode: "etri" / ...
@@ -70,14 +70,61 @@ def make_npy(mode: str, tokenizer_name: str, sent_list: List[Sentence]):
         print(sent.ne_list)
 
         word_tokens = tokenizer.tokenize(sent.text)
-        ne_idx = 0
-        concat_word = ""
-        for tok in word_tokens:
-            if 0 >= len(concat_word):
+        labels = ["O"] * len(word_tokens)
 
+        start_idx = 0
+        for ne_item in sent.ne_list:
+            ne_tokens = tokenizer.tokenize(ne_item.text)
 
+            is_find = False
+            while True:
+                concat_tokens = []
+                for target_idx in range(start_idx, len(word_tokens)):
+                    if target_idx >= len(word_tokens):
+                        break
+                    if word_tokens[target_idx] in ne_tokens:
+                        concat_tokens.append(word_tokens[target_idx])
+                    else:
+                        start_idx += 1
+                        break
 
-        break
+                    if "".join(concat_tokens) == "".join(ne_tokens):
+                        for label_idx in range(start_idx, target_idx+1):
+                            if label_idx == start_idx:
+                                labels[label_idx] = "B-" + ne_item.type
+                            else:
+                                labels[label_idx] = "I-" + ne_item.type
+                        start_idx = target_idx
+                        is_find = True
+                        break
+                    if is_find:
+                        break
+                if is_find:
+                    break
+        ## end, ne_item loop
+
+        #
+        word_tokens.insert(0, "[CLS]")
+        labels.insert(0, "X")
+
+        for t, l in zip(word_tokens, labels):
+            print(t, l)
+        input()
+
+        valid_len = 0
+        if max_len <= len(word_tokens):
+            word_tokens = word_tokens[:max_len-1]
+            labels = labels[:max_len-1]
+            valid_len = 512
+        else:
+            word_tokens.append("[SEP]")
+            labels.append("X")
+            valid_len = len(word_tokens)
+            word_tokens = word_tokens + ["[PAD]"] * (max_len - valid_len)
+            labels = labels + ["X"] * (max_len - valid_len)
+
+        attention_mask = ([1] * valid_len) + ([0] * (max_len - valid_len))
+        token_type_ids = [0] * max_len
 
 
 ### MAIN ###

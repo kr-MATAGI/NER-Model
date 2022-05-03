@@ -62,7 +62,7 @@ if "__main__" == __name__:
     etri_parser = ETRI_Parser(src_dir="../data/etri")
 
     # Save - ETRI 언어분석 말뭉치 (Morp, NE)
-    is_save_etri = False
+    is_save_etri = True
     if is_save_etri:
         all_sent_data = []
         for path in etri_parser.data_list:
@@ -73,4 +73,3 @@ if "__main__" == __name__:
         # save
         with open("../data/pkl/etri.pkl", mode="wb") as save_file:
             pickle.dump(all_sent_data, save_file)
-
