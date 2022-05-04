@@ -126,6 +126,7 @@ def evaluate(args, model, eval_dataset, mode, global_step=None, train_epoch=0):
     preds = None
     out_label_ids = None
 
+    criterion = torch.nn.CrossEntropyLoss(ignore_index=-100)
     eval_pbar = tqdm(eval_dataloader)
     for batch in eval_pbar:
         model.eval()
@@ -137,9 +138,11 @@ def evaluate(args, model, eval_dataset, mode, global_step=None, train_epoch=0):
                 "labels": batch["labels"].to(args.device)
             }
 
-            outputs = model(**inputs)
-            tmp_eval_loss, logits = outputs[:2]
-            eval_loss += tmp_eval_loss.mean().item()
+            outputs = model(input_ids=inputs["input_ids"], attention_mask=inputs["attention_mask"],
+                            token_type_ids=inputs["token_type_ids"])
+            tmp_eval_loss = criterion(outputs.float(), inputs["labels"].float())
+            logits = outputs
+            eval_loss += tmp_eval_loss
 
         nb_eval_steps += 1
         tb_writer.add_scalar("Loss/val_" + str(train_epoch), eval_loss / nb_eval_steps, nb_eval_steps)
@@ -261,7 +264,6 @@ def train(args, model, train_dataset, dev_dataset):
 
             loss = -1 * criterion(outputs.float(), inputs["labels"].float())
             loss.requires_grad = True
-            print(loss)
 
             if 1 < args.n_gpu:
                 loss = loss.mean()
