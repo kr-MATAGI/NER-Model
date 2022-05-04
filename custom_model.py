@@ -1,11 +1,11 @@
 import torch
 import torch.nn as nn
-from transformers import AutoModel, AutoConfig
+from transformers import AutoModel, AutoConfig, BertPreTrainedModel
 
 
-class BERT_LSTM(nn.Module):
+class BERT_LSTM(BertPreTrainedModel):
     def __init__(self, config):
-        super(BERT_LSTM, self).__init__()
+        super(BERT_LSTM, self).__init__(config)
         self.bert = AutoModel.from_pretrained("klue/bert-base", config=config)
         self.lstm_hidden = 512
 
@@ -17,7 +17,7 @@ class BERT_LSTM(nn.Module):
         # Loss Function
         self.criterion = nn.CrossEntropyLoss()
 
-    def forward(self, input_ids, token_type_ids, attention_mask):
+    def forward(self, input_ids, token_type_ids, attention_mask, labels=None):
         bert_outputs = self.bert(
             input_ids=input_ids,
             token_type_ids=token_type_ids,
@@ -26,9 +26,13 @@ class BERT_LSTM(nn.Module):
         sequence_output, pooled_output = bert_outputs.last_hidden_state, bert_outputs.pooler_output
         lstm_output, hidden = self.lstm(sequence_output)
         output = self.linear(lstm_output)
-        output = torch.argmax(output, dim=-1)
+        sequence_of_tags = torch.argmax(output, dim=-1)
 
-        return output
+        if labels is not None:
+            loss = self.criterion(sequence_of_tags.float(), labels.float())
+            loss.requires_grad = True
+
+        return loss, sequence_of_tags
 
 ### TEST ###
 if "__main__" == __name__:

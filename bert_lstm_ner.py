@@ -138,21 +138,20 @@ def evaluate(args, model, eval_dataset, mode, global_step=None, train_epoch=0):
                 "labels": batch["labels"].to(args.device)
             }
 
-            outputs = model(input_ids=inputs["input_ids"], attention_mask=inputs["attention_mask"],
-                            token_type_ids=inputs["token_type_ids"])
-            tmp_eval_loss = -1 * criterion(outputs.float(), inputs["labels"].float())
-            logits = outputs
-            eval_loss += tmp_eval_loss
+            log_likelihood, outputs = model(**inputs)
+            loss = -1 * log_likelihood
+            eval_loss += loss.mean().item()
+
 
         nb_eval_steps += 1
         tb_writer.add_scalar("Loss/val_" + str(train_epoch), eval_loss / nb_eval_steps, nb_eval_steps)
         eval_pbar.set_description("Eval Loss - %.04f" % (eval_loss / nb_eval_steps))
 
         if preds is None:
-            preds = logits.detach().cpu().numpy()
+            preds = np.array(outputs)
             out_label_ids = inputs["labels"].detach().cpu().numpy()
         else:
-            preds = np.append(preds, logits.detach().cpu().numpy(), axis=0)
+            preds = np.append(preds, np.array(outputs), axis=0)
             out_label_ids = np.append(out_label_ids, inputs["labels"].detach().cpu().numpy(), axis=0)
 
     logger.info("  Eval End !")
@@ -259,11 +258,8 @@ def train(args, model, train_dataset, dev_dataset):
                 "labels": batch["labels"].to(args.device)
             }
 
-            outputs = model(input_ids=inputs["input_ids"], token_type_ids=inputs["token_type_ids"],
-                            attention_mask=inputs["attention_mask"])
-
-            loss = -1 * criterion(outputs.float(), inputs["labels"].float())
-            loss.requires_grad = True
+            log_likelihood, outputs = model(**inputs)
+            loss = -1 * log_likelihood
 
             if 1 < args.n_gpu:
                 loss = loss.mean()
