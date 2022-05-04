@@ -256,7 +256,8 @@ def train(args, model, train_dataset, dev_dataset):
                 "labels": batch["labels"].to(args.device)
             }
 
-            outputs = model(**inputs)
+            outputs = model(input_ids=inputs["input_ids"], token_type_ids=inputs["token_type_ids"],
+                            attention_mask=inputs["attention_mask"], labels=inputs["labels"])
             loss = outputs[0]
 
             if 1 < args.n_gpu:
