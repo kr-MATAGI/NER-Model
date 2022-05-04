@@ -140,8 +140,8 @@ def evaluate(args, model, eval_dataset, mode, global_step=None, train_epoch=0):
 
             outputs = model(input_ids=inputs["input_ids"], attention_mask=inputs["attention_mask"],
                             token_type_ids=inputs["token_type_ids"])
-            tmp_eval_loss = criterion(outputs.float(), inputs["labels"].float())
-            logits = outputs[0]
+            tmp_eval_loss = -1 * criterion(outputs.float(), inputs["labels"].float())
+            logits = outputs
             eval_loss += tmp_eval_loss
 
         nb_eval_steps += 1
@@ -163,7 +163,7 @@ def evaluate(args, model, eval_dataset, mode, global_step=None, train_epoch=0):
         "loss": eval_loss
     }
 
-    preds = np.argmax(preds, axis=2)
+    #preds = np.argmax(preds, axis=-1)
 
     labels = ETRI_TAG.keys()
     label_map = {i: label for i, label in enumerate(labels)}
