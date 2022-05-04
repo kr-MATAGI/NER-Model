@@ -14,16 +14,19 @@ class BERT_LSTM(nn.Module):
                             batch_first=True, bidirectional=True)
         self.linear = nn.Linear(self.lstm_hidden, config.num_labels)
 
-    def forward(self, input_ids, token_type_ids, attention_mask, labels=None):
+        # Loss Function
+        self.criterion = nn.CrossEntropyLoss()
+
+    def forward(self, input_ids, token_type_ids, attention_mask):
         bert_outputs = self.bert(
             input_ids=input_ids,
             token_type_ids=token_type_ids,
-            attention_mask=attention_mask,
-            labels=labels
+            attention_mask=attention_mask
         )
         sequence_output, pooled_output = bert_outputs.last_hidden_state, bert_outputs.pooler_output
         lstm_output, hidden = self.lstm(sequence_output)
         output = self.linear(lstm_output)
+        output = torch.argmax(output, dim=-1)
 
         return output
 

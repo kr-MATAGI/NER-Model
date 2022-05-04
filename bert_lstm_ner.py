@@ -242,8 +242,8 @@ def train(args, model, train_dataset, dev_dataset):
     tr_loss = 0.0
 
     train_sampler = RandomSampler(train_dataset)
-
     model.zero_grad()
+    criterion = torch.nn.CrossEntropyLoss(ignore_index=-100)
     for epoch in range(args.num_train_epochs):
         train_dataloader = DataLoader(train_dataset, sampler=train_sampler, batch_size=args.train_batch_size)
         pbar = tqdm(train_dataloader)
@@ -257,8 +257,11 @@ def train(args, model, train_dataset, dev_dataset):
             }
 
             outputs = model(input_ids=inputs["input_ids"], token_type_ids=inputs["token_type_ids"],
-                            attention_mask=inputs["attention_mask"], labels=inputs["labels"])
-            loss = outputs[0]
+                            attention_mask=inputs["attention_mask"])
+
+            loss = -1 * criterion(outputs.float(), inputs["labels"].float())
+            loss.requires_grad = True
+            print(loss)
 
             if 1 < args.n_gpu:
                 loss = loss.mean()
