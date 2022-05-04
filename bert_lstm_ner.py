@@ -141,7 +141,7 @@ def evaluate(args, model, eval_dataset, mode, global_step=None, train_epoch=0):
             outputs = model(input_ids=inputs["input_ids"], attention_mask=inputs["attention_mask"],
                             token_type_ids=inputs["token_type_ids"])
             tmp_eval_loss = criterion(outputs.float(), inputs["labels"].float())
-            logits = outputs
+            logits = outputs[0]
             eval_loss += tmp_eval_loss
 
         nb_eval_steps += 1
