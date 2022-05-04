@@ -14,11 +14,12 @@ class BERT_LSTM(nn.Module):
                             batch_first=True, bidirectional=True)
         self.linear = nn.Linear(self.lstm_hidden, config.num_labels)
 
-    def forward(self, input_ids, token_type_ids, attention_mask):
+    def forward(self, input_ids, token_type_ids, attention_mask, labels=None):
         bert_outputs = self.bert(
             input_ids=input_ids,
             token_type_ids=token_type_ids,
-            attention_mask=attention_mask
+            attention_mask=attention_mask,
+            labels=labels
         )
         sequence_output, pooled_output = bert_outputs.last_hidden_state, bert_outputs.pooler_output
         lstm_output, hidden = self.lstm(sequence_output)
