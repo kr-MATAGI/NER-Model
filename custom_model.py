@@ -2,18 +2,17 @@ import torch
 import torch.nn as nn
 from transformers import AutoModel, AutoConfig
 
-LSTM_HIDDEN_SIZE = 512
+
 class BERT_LSTM(nn.Module):
     def __init__(self, config):
         super(BERT_LSTM, self).__init__()
-        self.hidd
-
         self.bert = AutoModel.from_pretrained("klue/bert-base", config=config)
+        self.lstm_hidden = 512
 
         ## New Layers
-        self.lstm = nn.LSTM(input_size=config.hidden_size, hidden_size=LSTM_HIDDEN_SIZE//2, num_layers=1,
+        self.lstm = nn.LSTM(input_size=config.hidden_size, hidden_size=self.lstm_hidden//2, num_layers=1,
                             batch_first=True, bidirectional=True)
-        self.linear = nn.Linear(LSTM_HIDDEN_SIZE, config.num_labels)
+        self.linear = nn.Linear(self.lstm_hidden, config.num_labels)
 
     def forward(self, input_ids, token_type_ids, attention_mask):
         bert_outputs = self.bert(
