@@ -340,6 +340,8 @@ class CRF(nn.Module):
 
 class BERT_LSTM(BertPreTrainedModel):
     def __init__(self, config):
+        config.output_attention = True
+
         super(BERT_LSTM, self).__init__(config)
         self.bert = AutoModel.from_pretrained("klue/bert-base", config=config)
         self.lstm_hidden = 512
@@ -376,5 +378,5 @@ class BERT_LSTM(BertPreTrainedModel):
 if "__main__" == __name__:
     config = AutoConfig.from_pretrained("klue/bert-base",
                                         num_labels=30)
-
+    config.output_attention = True
     print(config)
