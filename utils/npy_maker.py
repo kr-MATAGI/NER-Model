@@ -183,19 +183,19 @@ def make_npy(mode: str, tokenizer_name: str, sent_list: List[Sentence], max_len:
     print(f"test_np.shape: {test_np.shape}")
 
     # save
-    np.save("../data/npy/etri/train", train_np)
-    np.save("../data/npy/etri/dev", valid_np)
-    np.save("../data/npy/etri/test", test_np)
+    np.save("../data/npy/"+mode+"/train", train_np)
+    np.save("../data/npy/"+mode+"/dev", valid_np)
+    np.save("../data/npy/"+mode+"/test", test_np)
 
 ### MAIN ###
 if "__main__" == __name__:
     print(f"[npy_maker][__main__] NPY MAKER !")
 
     all_sent_list = []
-    with open("../data/pkl/etri.pkl", mode="rb") as pkl_file:
+    with open("../data/pkl/nikl.pkl", mode="rb") as pkl_file:
         all_sent_list = pickle.load(pkl_file)
         print(f"[npy_maker][__main__] all_sent_list size: {len(all_sent_list)}")
     all_sent_list = conv_TTA_ne_category(all_sent_list)
 
     # make npy
-    make_npy(mode="etri", tokenizer_name="klue/bert-base", sent_list=all_sent_list, max_len=30)
+    make_npy(mode="nikl", tokenizer_name="klue/bert-base", sent_list=all_sent_list, max_len=30)
