@@ -126,7 +126,6 @@ def evaluate(args, model, eval_dataset, mode, global_step=None, train_epoch=0):
     preds = None
     out_label_ids = None
 
-    criterion = torch.nn.CrossEntropyLoss(ignore_index=-100)
     eval_pbar = tqdm(eval_dataloader)
     for batch in eval_pbar:
         model.eval()
@@ -171,14 +170,12 @@ def evaluate(args, model, eval_dataset, mode, global_step=None, train_epoch=0):
     preds_list = [[] for _ in range(out_label_ids.shape[0])]
 
     ignore_index = torch.nn.CrossEntropyLoss().ignore_index
-    x_token_label_id = "X"
-    print(f"ignore_index: {ignore_index}, x_token_label_id: {x_token_label_id}")
+    ignore_list = [ignore_index, ETRI_TAG["X"], ETRI_TAG["O"]]
     for i in range(out_label_ids.shape[0]):
         for j in range(out_label_ids.shape[1]):
-            if (out_label_ids[i, j] != ignore_index) and \
-                    (out_label_ids[i, j] != x_token_label_id):
-                    out_label_list[i].append(label_map[out_label_ids[i][j]])
-                    preds_list[i].append(label_map[preds[i][j]])
+            if (out_label_ids[i, j] not in ignore_list):
+                out_label_list[i].append(label_map[out_label_ids[i][j]])
+                preds_list[i].append(label_map[preds[i][j]])
 
     result = f1_pre_rec(out_label_list, preds_list, is_ner=True)
     results.update(result)
