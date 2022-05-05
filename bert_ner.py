@@ -165,8 +165,8 @@ def evaluate(args, model, eval_dataset, mode, global_step=None, train_epoch=0):
     preds_list = [[] for _ in range(out_label_ids.shape[0])]
 
     ignore_index = torch.nn.CrossEntropyLoss().ignore_index
-    x_token_label_id = ETRI_TAG["O"]
-    print(f"ignore_index: {ignore_index}, x_token_label_id: {ETRI_TAG['O']}")
+    x_token_label_id = ETRI_TAG["X"]
+    print(f"ignore_index: {ignore_index}, x_token_label_id: {ETRI_TAG['X']}")
     for i in range(out_label_ids.shape[0]):
         for j in range(out_label_ids.shape[1]):
             if (out_label_ids[i, j] != ignore_index) and \
