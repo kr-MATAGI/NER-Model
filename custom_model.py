@@ -360,9 +360,6 @@ class BERT_LSTM(BertPreTrainedModel):
         lstm_output, hidden = self.lstm(sequence_output)
         output = self.linear(lstm_output)
 
-        print(output.shape)
-        exit()
-
         if labels is not None:
             log_likelihood, sequence_of_tags = self.crf(emissions=output, tags=labels, mask=attention_mask.bool(),
                                                         reduction="mean"), self.crf.decode(output,
