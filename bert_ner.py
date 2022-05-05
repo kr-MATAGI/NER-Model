@@ -22,7 +22,7 @@ from sklearn import metrics as sklearn_metrics
 
 ## TAG SET
 ETRI_TAG = {
-    "X": -100, "O": 0,
+    "X": 31, "O": 0,
     "B-PS": 1, "I-PS": 2,
     "B-LC": 3, "I-LC": 4,
     "B-OG": 5, "I-OG": 6,

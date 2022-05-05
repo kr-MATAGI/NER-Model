@@ -14,16 +14,13 @@ import copy
 
 class CRF(nn.Module):
     """Conditional random field.
-
     This module implements a conditional random field [LMP01]_. The forward computation
     of this class computes the log likelihood of the given sequence of tags and
     emission score tensor. This class also has `~CRF.decode` method which finds
     the best tag sequence given an emission score tensor using `Viterbi algorithm`_.
-
     Args:
         num_tags: Number of tags.
         batch_first: Whether the first dimension corresponds to the size of a minibatch.
-
     Attributes:
         start_transitions (`~torch.nn.Parameter`): Start transition score tensor of size
             ``(num_tags,)``.
@@ -31,13 +28,10 @@ class CRF(nn.Module):
             ``(num_tags,)``.
         transitions (`~torch.nn.Parameter`): Transition score tensor of size
             ``(num_tags, num_tags)``.
-
-
     .. [LMP01] Lafferty, J., McCallum, A., Pereira, F. (2001).
        "Conditional random fields: Probabilistic models for segmenting and
        labeling sequence data". *Proc. 18th International Conf. on Machine
        Learning*. Morgan Kaufmann. pp. 282–289.
-
     .. _Viterbi algorithm: https://en.wikipedia.org/wiki/Viterbi_algorithm
     """
 
@@ -55,7 +49,6 @@ class CRF(nn.Module):
 
     def reset_parameters(self) -> None:
         """Initialize the transition parameters.
-
         The parameters will be initialized randomly from a uniform distribution
         between -0.1 and 0.1.
         """
@@ -74,7 +67,6 @@ class CRF(nn.Module):
             reduction: str = 'sum',
     ) -> torch.Tensor:
         """Compute the conditional log likelihood of a sequence of tags given emission scores.
-
         Args:
             emissions (`~torch.Tensor`): Emission score tensor of size
                 ``(seq_length, batch_size, num_tags)`` if ``batch_first`` is ``False``,
@@ -88,16 +80,18 @@ class CRF(nn.Module):
                 ``none|sum|mean|token_mean``. ``none``: no reduction will be applied.
                 ``sum``: the output will be summed over batches. ``mean``: the output will be
                 averaged over batches. ``token_mean``: the output will be averaged over tokens.
-
         Returns:
             `~torch.Tensor`: The log likelihood. This will have size ``(batch_size,)`` if
             reduction is ``none``, ``()`` otherwise.
         """
 
-        # jaehoon custom
-        # replace -100 to 0
-        copy_tags = copy.deepcopy(tags)
-        tags = torch.where(-100 == copy_tags, 0, copy_tags)
+        print(tags.shape)
+        print(emissions.shape)
+        print(tags)
+        print(emissions)
+
+
+        exit()
 
         self._validate(emissions, tags=tags, mask=mask)
         if reduction not in ('none', 'sum', 'mean', 'token_mean'):
@@ -129,14 +123,12 @@ class CRF(nn.Module):
     def decode(self, emissions: torch.Tensor,
                mask: Optional[torch.ByteTensor] = None) -> List[List[int]]:
         """Find the most likely tag sequence using Viterbi algorithm.
-
         Args:
             emissions (`~torch.Tensor`): Emission score tensor of size
                 ``(seq_length, batch_size, num_tags)`` if ``batch_first`` is ``False``,
                 ``(batch_size, seq_length, num_tags)`` otherwise.
             mask (`~torch.ByteTensor`): Mask tensor of size ``(seq_length, batch_size)``
                 if ``batch_first`` is ``False``, ``(batch_size, seq_length)`` otherwise.
-
         Returns:
             List of list containing the best tag sequence for each batch.
         """
@@ -353,10 +345,10 @@ class BERT_LSTM(BertPreTrainedModel):
         self.lstm_hidden = 512
 
         ## New Layers
-        self.lstm = nn.LSTM(input_size=config.hidden_size, hidden_size=self.lstm_hidden//2, num_layers=1,
+        self.lstm = nn.LSTM(input_size=config.hidden_size, hidden_size=self.lstm_hidden // 2, num_layers=1,
                             batch_first=True, bidirectional=True)
         self.linear = nn.Linear(self.lstm_hidden, config.num_labels)
-        self.crf = CRF(num_tags=config.num_labels, batch_first=True)
+        self.crf = CRF(num_tags=self.tagset_size, batch_first=True)
 
     def forward(self, input_ids, token_type_ids, attention_mask, labels=None):
         bert_outputs = self.bert(
@@ -368,11 +360,20 @@ class BERT_LSTM(BertPreTrainedModel):
         lstm_output, hidden = self.lstm(sequence_output)
         output = self.linear(lstm_output)
 
+        print(output.shape)
+        exit()
+
         if labels is not None:
             log_likelihood, sequence_of_tags = self.crf(emissions=output, tags=labels, mask=attention_mask.bool(),
-                                                        reduction="mean"), self.crf.decode(output, mask=attention_mask.bool())
+                                                        reduction="mean"), self.crf.decode(output,
+                                                                                           mask=attention_mask.bool())
+            return log_likelihood, sequence_of_tags
+        else:
+            sequence_of_tags = self.crf.decode(output)
+            return sequence_of_tags
 
-        return log_likelihood, sequence_of_tags
+
+
 
 ### TEST ###
 if "__main__" == __name__:
