@@ -7,7 +7,7 @@ from transformers import AutoTokenizer
 from data_def import *
 
 ETRI_TAG = {
-    "O": 0,
+    "O": 0, "X": 31,
     "B-PS": 1, "I-PS": 2,
     "B-LC": 3, "I-LC": 4,
     "B-OG": 5, "I-OG": 6,
@@ -106,7 +106,7 @@ def make_npy(mode: str, tokenizer_name: str, sent_list: List[Sentence], max_len:
                         if l_idx == s_idx:
                             labels[l_idx] = "B-" + ne_item.type
                         else:
-                            labels[l_idx] = "I-" + ne_item.type
+                            labels[l_idx] = "X"
                     start_idx = s_idx
                     break
         ## end, ne_item loop
@@ -128,10 +128,10 @@ def make_npy(mode: str, tokenizer_name: str, sent_list: List[Sentence], max_len:
             valid_len = 512
         else:
             text_tokens.append("[SEP]")
-            labels.append("O")
+            labels.append("X")
             valid_len = len(text_tokens)
             text_tokens = text_tokens + ["[PAD]"] * (max_len - valid_len)
-            labels = labels + ["O"] * (max_len - valid_len)
+            labels = labels + ["X"] * (max_len - valid_len)
 
         attention_mask = ([1] * valid_len) + ([0] * (max_len - valid_len))
         token_type_ids = [0] * max_len
