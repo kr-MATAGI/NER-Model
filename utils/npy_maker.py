@@ -112,12 +112,12 @@ def make_npy(mode: str, tokenizer_name: str, sent_list: List[Sentence], max_len:
         ## end, ne_item loop
 
         # TEST
-        test_ne_print = [(x.text, x.type) for x in sent.ne_list]
-        id2la = {v: k for k, v in ETRI_TAG.items()}
-        print(test_ne_print)
-        for t, l in zip(text_tokens, labels):
-            print(t, "\t", l)
-        input()
+        # test_ne_print = [(x.text, x.type) for x in sent.ne_list]
+        # id2la = {v: k for k, v in ETRI_TAG.items()}
+        # print(test_ne_print)
+        # for t, l in zip(text_tokens, labels):
+        #     print(t, "\t", l)
+        #input()
 
         text_tokens.insert(0, "[CLS]")
         labels.insert(0, "O")
@@ -126,6 +126,10 @@ def make_npy(mode: str, tokenizer_name: str, sent_list: List[Sentence], max_len:
         if max_len <= len(text_tokens):
             text_tokens = text_tokens[:max_len-1]
             labels = labels[:max_len-1]
+
+            text_tokens.append("[SEP]")
+            labels.append("O")
+
             valid_len = max_len
         else:
             text_tokens.append("[SEP]")
@@ -138,6 +142,11 @@ def make_npy(mode: str, tokenizer_name: str, sent_list: List[Sentence], max_len:
         token_type_ids = [0] * max_len
         input_ids = tokenizer.convert_tokens_to_ids(text_tokens)
         labels = [ETRI_TAG[x] for x in labels]
+
+        assert len(input_ids) == max_len, f"{input_ids} + {len(input_ids)}"
+        assert len(labels) == max_len, f"{labels} + {len(labels)}"
+        assert len(attention_mask) == max_len, f"{attention_mask} + {len(attention_mask)}"
+        assert len(token_type_ids) == max_len, f"{token_type_ids} + {len(token_type_ids)}"
 
         npy_dict["input_ids"].append(input_ids)
         npy_dict["labels"].append(labels)
