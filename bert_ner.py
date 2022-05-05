@@ -22,7 +22,7 @@ from sklearn import metrics as sklearn_metrics
 
 ## TAG SET
 ETRI_TAG = {
-    "O": 0, "X": 31,
+    "O": 0,
     "B-PS": 1, "I-PS": 2,
     "B-LC": 3, "I-LC": 4,
     "B-OG": 5, "I-OG": 6,
@@ -165,7 +165,7 @@ def evaluate(args, model, eval_dataset, mode, global_step=None, train_epoch=0):
     preds_list = [[] for _ in range(out_label_ids.shape[0])]
 
     ignore_index = torch.nn.CrossEntropyLoss().ignore_index
-    ignore_list = [ignore_index, ETRI_TAG["O"], ETRI_TAG["X"]]
+    ignore_list = [ignore_index, ETRI_TAG["O"]]
     for i in range(out_label_ids.shape[0]):
         for j in range(out_label_ids.shape[1]):
             if out_label_ids[i, j] not in ignore_list:

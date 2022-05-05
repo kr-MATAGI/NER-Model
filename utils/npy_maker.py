@@ -7,7 +7,7 @@ from transformers import AutoTokenizer
 from data_def import *
 
 ETRI_TAG = {
-    "O": 0, "X": 31,
+    "O": 0,
     "B-PS": 1, "I-PS": 2,
     "B-LC": 3, "I-LC": 4,
     "B-OG": 5, "I-OG": 6,
@@ -106,17 +106,18 @@ def make_npy(mode: str, tokenizer_name: str, sent_list: List[Sentence], max_len:
                         if l_idx == s_idx:
                             labels[l_idx] = "B-" + ne_item.type
                         else:
-                            labels[l_idx] = "X"
+                            labels[l_idx] = "I-" + ne_item.type
                     start_idx = s_idx
                     break
         ## end, ne_item loop
 
         # TEST
-        # test_ne_print = [(x.text, x.type) for x in sent.ne_list]
-        # print(test_ne_print)
-        # for t, l in zip(text_tokens, labels):
-        #     print(t, l)
-        # input()
+        test_ne_print = [(x.text, x.type) for x in sent.ne_list]
+        id2la = {v: k for k, v in ETRI_TAG.items()}
+        print(test_ne_print)
+        for t, l in zip(text_tokens, labels):
+            print(t, "\t", l)
+        input()
 
         text_tokens.insert(0, "[CLS]")
         labels.insert(0, "O")
@@ -125,13 +126,13 @@ def make_npy(mode: str, tokenizer_name: str, sent_list: List[Sentence], max_len:
         if max_len <= len(text_tokens):
             text_tokens = text_tokens[:max_len-1]
             labels = labels[:max_len-1]
-            valid_len = 512
+            valid_len = max_len
         else:
             text_tokens.append("[SEP]")
-            labels.append("X")
+            labels.append("O")
             valid_len = len(text_tokens)
             text_tokens = text_tokens + ["[PAD]"] * (max_len - valid_len)
-            labels = labels + ["X"] * (max_len - valid_len)
+            labels = labels + ["O"] * (max_len - valid_len)
 
         attention_mask = ([1] * valid_len) + ([0] * (max_len - valid_len))
         token_type_ids = [0] * max_len
@@ -188,4 +189,4 @@ if "__main__" == __name__:
     all_sent_list = conv_TTA_ne_category(all_sent_list)
 
     # make npy
-    make_npy(mode="etri", tokenizer_name="klue/bert-base", sent_list=all_sent_list)
+    make_npy(mode="etri", tokenizer_name="klue/bert-base", sent_list=all_sent_list, max_len=30)
