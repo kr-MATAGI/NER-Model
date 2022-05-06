@@ -26,7 +26,7 @@ from custom_model import BERT_LSTM
 
 ## TAG SET
 ETRI_TAG = {
-    "X": 31, "O": 0,
+    "O": 0,
     "B-PS": 1, "I-PS": 2,
     "B-LC": 3, "I-LC": 4,
     "B-OG": 5, "I-OG": 6,

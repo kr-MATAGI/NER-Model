@@ -76,7 +76,7 @@ class ETRI_Parser:
                                          text=sent_obj["form"])
 
                     # NE
-                    ne_arr = sent_obj["ne"]
+                    ne_arr = sent_obj["NE"]
                     for ne_obj in ne_arr:
                         ne_data = NE(id=ne_obj["id"],
                                      text=ne_obj["form"],
@@ -90,7 +90,7 @@ class ETRI_Parser:
 
 ### MAIN ###
 if "__main__" == __name__:
-    etri_parser = ETRI_Parser(src_dir="../data/모두의말뭉치")
+    etri_parser = ETRI_Parser(src_dir="../data/old_모두의말뭉치")
 
     # Save - ETRI 언어분석 말뭉치 (NE)
     is_save_etri = False
@@ -105,7 +105,7 @@ if "__main__" == __name__:
         with open("../data/pkl/etri.pkl", mode="wb") as save_file:
             pickle.dump(all_sent_data, save_file)
 
-    # Save - 모두의 말뭉치 (NE)
+    # Save - 모두의 말뭉치 (NE): old_version이랑 같이 쓰는데 "NE", "ne" 바꿔줘야함
     is_save_nikl = True
     if is_save_nikl:
         all_sent_data = []
@@ -115,5 +115,5 @@ if "__main__" == __name__:
         print(f"[data_maker][__main__] All sent data size : {len(all_sent_data)}")
 
         # save
-        with open("../data/pkl/nikl.pkl", mode="wb") as save_file:
+        with open("../data/pkl/old_nikl.pkl", mode="wb") as save_file:
             pickle.dump(all_sent_data, save_file)

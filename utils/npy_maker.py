@@ -192,10 +192,10 @@ if "__main__" == __name__:
     print(f"[npy_maker][__main__] NPY MAKER !")
 
     all_sent_list = []
-    with open("../data/pkl/nikl.pkl", mode="rb") as pkl_file:
+    with open("../data/pkl/old_nikl.pkl", mode="rb") as pkl_file:
         all_sent_list = pickle.load(pkl_file)
         print(f"[npy_maker][__main__] all_sent_list size: {len(all_sent_list)}")
     all_sent_list = conv_TTA_ne_category(all_sent_list)
 
     # make npy
-    make_npy(mode="nikl", tokenizer_name="klue/bert-base", sent_list=all_sent_list, max_len=30)
+    make_npy(mode="old_nikl", tokenizer_name="klue/bert-base", sent_list=all_sent_list, max_len=30)
