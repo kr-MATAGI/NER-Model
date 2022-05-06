@@ -337,10 +337,12 @@ class BERT_LSTM(BertPreTrainedModel):
         super(BERT_LSTM, self).__init__(config)
         self.bert = AutoModel.from_pretrained("klue/bert-base", config=config)
         self.lstm_hidden = 512
+        self.dropout = 0.1
 
         ## New Layers
+        self.dropout = nn.Dropout(self.dropout)
         self.lstm = nn.LSTM(input_size=config.hidden_size, hidden_size=self.lstm_hidden // 2, num_layers=1,
-                            batch_first=True, bidirectional=True)
+                            dropout=self.dropout, batch_first=True, bidirectional=True)
         self.linear = nn.Linear(self.lstm_hidden, config.num_labels)
         self.crf = CRF(num_tags=config.num_labels, batch_first=True)
 
