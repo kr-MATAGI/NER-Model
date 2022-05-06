@@ -85,14 +85,6 @@ class CRF(nn.Module):
             reduction is ``none``, ``()`` otherwise.
         """
 
-        print(tags.shape)
-        print(emissions.shape)
-        print(tags)
-        print(emissions)
-
-
-        exit()
-
         self._validate(emissions, tags=tags, mask=mask)
         if reduction not in ('none', 'sum', 'mean', 'token_mean'):
             raise ValueError(f'invalid reduction: {reduction}')
@@ -370,9 +362,6 @@ class BERT_LSTM(BertPreTrainedModel):
         else:
             sequence_of_tags = self.crf.decode(output)
             return sequence_of_tags
-
-
-
 
 ### TEST ###
 if "__main__" == __name__:
