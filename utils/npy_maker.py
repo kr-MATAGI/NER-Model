@@ -117,7 +117,7 @@ def make_npy(mode: str, tokenizer_name: str, sent_list: List[Sentence], max_len:
         # print(test_ne_print)
         # for t, l in zip(text_tokens, labels):
         #     print(t, "\t", l)
-        #input()
+        # input()
 
         text_tokens.insert(0, "[CLS]")
         labels.insert(0, "O")
