@@ -350,7 +350,7 @@ class BERT_LSTM(BertPreTrainedModel):
         self.lstm = nn.LSTM(input_size=config.hidden_size, hidden_size=self.lstm_hidden // 2, num_layers=1,
                             batch_first=True, bidirectional=True)
         self.linear = nn.Linear(self.lstm_hidden, config.num_labels)
-        self.crf = CRF(num_tags=self.tagset_size, batch_first=True)
+        self.crf = CRF(num_tags=config.num_labels, batch_first=True)
 
     def forward(self, input_ids, token_type_ids, attention_mask, labels=None):
         bert_outputs = self.bert(
