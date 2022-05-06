@@ -349,7 +349,7 @@ class BERT_LSTM(BertPreTrainedModel):
 
     def forward(self, input_ids, token_type_ids, attention_mask, labels=None,
                 pad_id=0, using_pack_sequence=True):
-        seq_len = torch.where(attention_mask == pad_id, 1, 0).tolist()[1].index(True)
+        seq_len = [torch.where(attention_mask == pad_id, 1, 0).tolist()[1].index(True)]
 
         bert_outputs = self.bert(
             input_ids=input_ids,
