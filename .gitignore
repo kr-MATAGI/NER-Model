@@ -34,8 +34,5 @@ old_version/Utils/KorLex_api
 
 # new ner model
 /data
-/bert_ckpt_30
-/bert_ckpt_128
-/bert_lstm_crf_ckpt*
-bert_lstm_crf_ckpt_not_pad_packed
+/ckpt-*
 /logs
