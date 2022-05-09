@@ -183,9 +183,9 @@ def make_npy(mode: str, tokenizer_name: str, sent_list: List[Sentence], max_len:
     print(f"test_np.shape: {test_np.shape}")
 
     # save
-    np.save("../data/npy/"+mode+"/train", train_np)
-    np.save("../data/npy/"+mode+"/dev", valid_np)
-    np.save("../data/npy/"+mode+"/test", test_np)
+    np.save("../data/npy/"+mode+"/128/train", train_np)
+    np.save("../data/npy/"+mode+"/128/dev", valid_np)
+    np.save("../data/npy/"+mode+"/128/test", test_np)
 
 ### MAIN ###
 if "__main__" == __name__:
@@ -198,4 +198,4 @@ if "__main__" == __name__:
     all_sent_list = conv_TTA_ne_category(all_sent_list)
 
     # make npy
-    make_npy(mode="old_nikl", tokenizer_name="klue/bert-base", sent_list=all_sent_list, max_len=30)
+    make_npy(mode="old_nikl", tokenizer_name="klue/bert-base", sent_list=all_sent_list, max_len=128)
