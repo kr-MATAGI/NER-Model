@@ -1,10 +1,10 @@
 {
   "task": "custom",
   "data_dir": "data",
-  "ckpt_dir": "bert_ckpt",
-  "train_npy": "./data/npy/old_nikl/train.npy",
-  "dev_npy": "./data/npy/old_nikl/dev.npy",
-  "test_npy": "./data/npy/old_nikl/test.npy",
+  "ckpt_dir": "bert_ckpt_128",
+  "train_npy": "./data/npy/old_nikl/128/train.npy",
+  "dev_npy": "./data/npy/old_nikl/128/dev.npy",
+  "test_npy": "./data/npy/old_nikl/128/test.npy",
   "evaluate_test_during_training": false,
   "eval_all_checkpoints": true,
   "save_optimizer": false,
@@ -24,10 +24,10 @@
   "model_name_or_path": "klue/bert-base",
   "output_dir": "klue-bert-base-ckpt",
   "seed": 42,
-  "train_batch_size": 8,
+  "train_batch_size": 64,
   "eval_batch_size": 128,
-  "logging_steps": 32729,
-  "save_steps": 32729,
+  "logging_steps": 4092,
+  "save_steps": 4092,
   "learning_rate": 5e-5,
   "n_gpu": 1
 }

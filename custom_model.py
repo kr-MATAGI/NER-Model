@@ -334,6 +334,7 @@ class CRF(nn.Module):
 class BERT_LSTM(BertPreTrainedModel):
     def __init__(self, config):
         config.output_attention = True
+        self.max_seq_len = 128
 
         super(BERT_LSTM, self).__init__(config)
         self.bert = AutoModel.from_pretrained("klue/bert-base", config=config)
@@ -349,9 +350,8 @@ class BERT_LSTM(BertPreTrainedModel):
 
     def forward(self, input_ids, token_type_ids, attention_mask, labels=None,
                 pad_id=0, using_pack_sequence=True):
-        seq_len = torch.LongTensor([torch.max(attention_mask[i, :].data.nonzero()) + 1
-                                    for i in range(attention_mask.size(0))])
-        print(seq_len)
+        seq_len = torch.LongTensor([torch.max(input_ids[i, :].data.nonzero()) + 1
+                                    for i in range(input_ids.size(0))])
 
         bert_outputs = self.bert(
             input_ids=input_ids,
@@ -365,7 +365,8 @@ class BERT_LSTM(BertPreTrainedModel):
             pack_padded_output = pack_padded_sequence(sequence_output, seq_len.tolist(),
                                                       batch_first=True, enforce_sorted=False)
             lstm_output, hidden = self.lstm(pack_padded_output)
-            lstm_output = pad_packed_sequence(lstm_output, batch_first=True, padding_value=pad_id)[0]
+            lstm_output = pad_packed_sequence(lstm_output, batch_first=True, padding_value=pad_id,
+                                              total_length=self.max_seq_len)[0]
         else:
             lstm_output, hidden = self.lstm(sequence_output)
         emissions = self.linear(lstm_output)
@@ -382,6 +383,6 @@ class BERT_LSTM(BertPreTrainedModel):
 ### TEST ###
 if "__main__" == __name__:
     config = AutoConfig.from_pretrained("klue/bert-base",
-                                        num_labels=30)
+                                        num_labels=128)
     config.output_attention = True
     print(config)

@@ -27,7 +27,6 @@ class ETRI_Parser:
         with open(src_path, mode="r", encoding="utf-8") as src_file:
             src_json = json.load(src_file)
 
-
             sent_arr = src_json["sentence"]
             for sent_obj in sent_arr:
                 sent_data = Sentence(id=sent_obj["id"],
@@ -90,7 +89,7 @@ class ETRI_Parser:
 
 ### MAIN ###
 if "__main__" == __name__:
-    etri_parser = ETRI_Parser(src_dir="../data/old_모두의말뭉치")
+    etri_parser = ETRI_Parser(src_dir="../data/old_nikl")
 
     # Save - ETRI 언어분석 말뭉치 (NE)
     is_save_etri = False
