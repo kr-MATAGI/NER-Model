@@ -198,8 +198,4 @@ if "__main__" == __name__:
     all_sent_list = conv_TTA_ne_category(all_sent_list)
 
     # make npy
-<<<<<<< HEAD
-    make_npy(mode="old_nikl", tokenizer_name="klue/bert-base", sent_list=all_sent_list, max_len=32)
-=======
     make_npy(mode="old_nikl", tokenizer_name="klue/bert-base", sent_list=all_sent_list, max_len=128)
->>>>>>> b7d26495fa2e1abaa1c96e11874fedfe0a6ca077
