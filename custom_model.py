@@ -334,7 +334,7 @@ class CRF(nn.Module):
 class BERT_LSTM(BertPreTrainedModel):
     def __init__(self, config):
         config.output_attention = True
-        self.max_seq_len = 32
+        self.max_seq_len = 128
 
         super(BERT_LSTM, self).__init__(config)
         self.bert = AutoModel.from_pretrained("klue/bert-base", config=config)
