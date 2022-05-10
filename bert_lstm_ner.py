@@ -22,7 +22,7 @@ from sklearn import metrics as sklearn_metrics
 
 
 ## MODEL
-from custom_model import BERT_LSTM
+from bert_custom_model import BERT_LSTM
 
 ## TAG SET
 ETRI_TAG = {

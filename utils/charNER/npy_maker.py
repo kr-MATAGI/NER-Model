@@ -49,7 +49,8 @@ def make_char_npy(mode: str, tokenizer_name: str, src_item_list: List[Sentence],
         "input_ids": [],
         "labels": [],
         "attention_mask": [],
-        "token_type_ids": []
+        "token_type_ids": [],
+        "seq_len": []
     }
 
     for src_idx, src_item in enumerate(src_item_list):
@@ -99,7 +100,7 @@ def make_char_npy(mode: str, tokenizer_name: str, src_item_list: List[Sentence],
 
             valid_len = len(text_tokens)
             text_tokens += ["[PAD]"] * (max_len - valid_len)
-            labels += ["O"] * (max_len -  valid_len)
+            labels += ["O"] * (max_len - valid_len)
 
         attention_mask = ([1] * valid_len) + ([0] * (max_len - valid_len))
         token_type_ids = [0] * max_len
@@ -115,16 +116,20 @@ def make_char_npy(mode: str, tokenizer_name: str, src_item_list: List[Sentence],
         npy_dict["labels"].append(labels)
         npy_dict["attention_mask"].append(attention_mask)
         npy_dict["token_type_ids"].append(token_type_ids)
+        # for pack_padded_sequence
+        npy_dict["seq_len"].append(valid_len)
 
     # convert list to numpy
     npy_dict["input_ids"] = np.array(npy_dict["input_ids"])
     npy_dict["labels"] = np.array(npy_dict["labels"])
     npy_dict["attention_mask"] = np.array(npy_dict["attention_mask"])
     npy_dict["token_type_ids"] = np.array(npy_dict["token_type_ids"])
+    npy_dict["seq_len"] = np.array(npy_dict["seq_len"])
     print(f"input_ids.shape: {npy_dict['input_ids'].shape}")
     print(f"labels.shape: {npy_dict['labels'].shape}")
     print(f"attention_mask.shape: {npy_dict['attention_mask'].shape}")
     print(f"token_type_ids.shape: {npy_dict['token_type_ids'].shape}")
+    print(f"seq.shape: {npy_dict['seq_len'].shape}")
 
     split_size = int(len(src_item_list) * 0.1)
     train_size = split_size * 7
@@ -133,25 +138,33 @@ def make_char_npy(mode: str, tokenizer_name: str, src_item_list: List[Sentence],
     train_np = [npy_dict["input_ids"][:train_size], npy_dict["labels"][:train_size],
                 npy_dict["attention_mask"][:train_size], npy_dict["token_type_ids"][:train_size]]
     train_np = np.stack(train_np, axis=-1)
+    train_seq_len_np = npy_dict["seq_len"][:train_size]
     print(f"train_np.shape: {train_np.shape}")
+    print(f"train_seq_len_np.shape: {train_seq_len_np.shape}")
 
     valid_np = [npy_dict["input_ids"][train_size:valid_size], npy_dict["labels"][train_size:valid_size],
                 npy_dict["attention_mask"][train_size:valid_size], npy_dict["token_type_ids"][train_size:valid_size]]
     valid_np = np.stack(valid_np, axis=-1)
+    valid_seq_len_np = npy_dict["seq_len"][train_size:valid_size]
     print(f"valid_np.shape: {valid_np.shape}")
+    print(f"valid_seq_len_np.shape: {valid_seq_len_np.shape}")
 
     test_np = [npy_dict["input_ids"][valid_size:], npy_dict["labels"][valid_size:],
                npy_dict["attention_mask"][valid_size:], npy_dict["token_type_ids"][valid_size:]]
     test_np = np.stack(test_np, axis=-1)
+    test_seq_len_np = npy_dict["seq_len"][valid_size:]
     print(f"test_np.shape: {test_np.shape}")
+    print(f"test_seq_len_np.shape: {test_seq_len_np.shape}")
 
     # save
     np.save("../../data/npy/" + mode + "/char_ner/train", train_np)
     np.save("../../data/npy/" + mode + "/char_ner/dev", valid_np)
     np.save("../../data/npy/" + mode + "/char_ner/test", test_np)
 
-
-
+    # save seq_len
+    np.save("../../data/npy/" + mode + "/char_ner/train_seq_len", train_seq_len_np)
+    np.save("../../data/npy/" + mode + "/char_ner/valid_seq_len", valid_seq_len_np)
+    np.save("../../data/npy/" + mode + "/char_ner/test_seq_len", test_seq_len_np)
 
 #================================================
 # Main

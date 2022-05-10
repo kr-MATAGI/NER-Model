@@ -14,7 +14,7 @@ import torch
 from torch.utils.data import RandomSampler, SequentialSampler, DataLoader, Dataset
 from torch.utils.tensorboard import SummaryWriter
 from transformers import AutoConfig, get_linear_schedule_with_warmup
-from custom_model import ELECTRA_LSTM_LAN
+from electra_custom_model import ELECTRA_LSTM_LAN
 
 from tqdm import tqdm
 
@@ -78,17 +78,19 @@ def show_ner_report(labels, preds):
     return seqeval_metrics.classification_report(labels, preds)
 
 #===============================================================
-class NER_Dataset(Dataset):
-    def __init__(self, data: np.ndarray):
+class Char_NER_Dataset(Dataset):
+    def __init__(self, data: np.ndarray, seq_len: np.ndarray):
         self.input_ids = data[:][:, :, 0]
         self.labels = data[:][:, :, 1]
         self.attention_mask = data[:][:, :, 2]
         self.token_type_ids = data[:][:, :, 3]
+        self.input_seq_len = seq_len
 
         self.input_ids = torch.tensor(self.input_ids, dtype=torch.long)
         self.attention_mask = torch.tensor(self.attention_mask, dtype=torch.long)
         self.token_type_ids = torch.tensor(self.token_type_ids, dtype=torch.long)
         self.labels = torch.tensor(self.labels, dtype=torch.long)
+        self.input_seq_len = torch.tensor(self.input_seq_len, dtype=torch.long)
 
     def __len__(self):
         return len(self.input_ids)
@@ -98,7 +100,8 @@ class NER_Dataset(Dataset):
             "attention_mask": self.attention_mask[idx],
             "input_ids": self.input_ids[idx],
             "labels": self.labels[idx],
-            "token_type_ids": self.token_type_ids[idx]
+            "token_type_ids": self.token_type_ids[idx],
+            "input_seq_len": self.input_seq_len[idx]
         }
 
         return items
@@ -247,11 +250,11 @@ def train(args, model, train_dataset, dev_dataset):
             inputs = {
                 "input_ids": batch["input_ids"].to(args.device),
                 "attention_mask": batch["attention_mask"].to(args.device),
-                "token_type_ids": batch["token_type_ids"].to(args.device)
+                "token_type_ids": batch["token_type_ids"].to(args.device),
+                "input_seq_len": batch["input_seq_len"].to(args.device)
             }
 
             outputs = model(**inputs)
-            print(outputs.last_hidden_state.shape)
             loss = outputs[0]
 
             if 1 < args.n_gpu:
@@ -346,9 +349,17 @@ def main(cli_args):
     print(f"dev_dataset.shape: {dev_dataset.shape}")
     print(f"test_dataset.shape: {test_dataset.shape}")
 
-    train_dataset = NER_Dataset(data=train_dataset)
-    dev_dataset = NER_Dataset(data=dev_dataset)
-    test_dataset = NER_Dataset(data=test_dataset)
+
+    train_seq_len = np.load("/".join(args.train_npy.split("/")[:-1]) + "/train_seq_len.npy")
+    valid_seq_len = np.load("/".join(args.train_npy.split("/")[:-1]) + "/valid_seq_len.npy")
+    test_seq_len = np.load("/".join(args.train_npy.split("/")[:-1]) + "/test_seq_len.npy")
+    print(f"train_seq_len.shape: {train_seq_len.shape}")
+    print(f"valid_seq_len.shape: {valid_seq_len.shape}")
+    print(f"test_seq_len.shape: {test_seq_len.shape}")
+
+    train_dataset = Char_NER_Dataset(data=train_dataset, seq_len=train_seq_len)
+    dev_dataset = Char_NER_Dataset(data=dev_dataset, seq_len=valid_seq_len)
+    test_dataset = Char_NER_Dataset(data=test_dataset, seq_len=test_seq_len)
 
     if args.do_train:
         global_step, tr_loss = train(args, model, train_dataset, dev_dataset)
