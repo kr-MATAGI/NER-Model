@@ -1,6 +1,9 @@
 import torch
 import torch.nn as nn
-from transformers import AutoModel, AutoConfig, BertPreTrainedModel
+from transformers import (
+    AutoModel, AutoConfig, BertPreTrainedModel,
+    ElectraModel, ElectraPreTrainedModel
+)
 from torch.nn.utils.rnn import pack_padded_sequence, pad_packed_sequence
 
 __version__ = '0.7.2'
@@ -380,9 +383,79 @@ class BERT_LSTM(BertPreTrainedModel):
             sequence_of_tags = self.crf.decode(emissions)
             return sequence_of_tags
 
+
+
+
+
+#====================================================================================
+class Multihaed_Attention(nn.Module):
+    def __init__(self, num_units, num_heads=1, dropout_rate=0.0, gpu=True, causality=False):
+        '''Applies multihead attention.
+            Args:
+                num_units: A scalar. Attention size.
+                dropout_rate: A floating point number.
+                causality: Boolean. If true, units that reference the future are masked.
+                num_heads: An int. Number of heads.
+        '''
+        super(Multihaed_Attention, self).__init__()
+        self.num_units = num_units
+        self.num_heads = num_heads
+        self.dropout_rate = dropout_rate
+        self.causality = causality
+
+        self.Q_proj = nn.Sequential(nn.Linear(self.num_units, self.num_units), nn.ReLU())
+        self.K_proj = nn.Sequential(nn.Linear(self.num_units, self.num_units), nn.ReLU())
+        self.V_proj = nn.Sequential(nn.Linear(self.num_units, self.num_units), nn.ReLU())
+
+        self.output_dropout = nn.Dropout(p=self.dropout_rate)
+
+class ELECTRA_LSTM_LAN(ElectraPreTrainedModel):
+    def __init__(self, config):
+        super(ELECTRA_LSTM_LAN, self).__init__(config)
+
+        # config
+        self.max_seq_len = 128
+        self.dropout_rate = 0.1
+
+        hidden_dim = 128
+        lstm_hidden = hidden_dim // 2 # bidirectional
+
+        # PLM model
+        self.electra = ElectraModel.from_pretrained("monologg/kocharelectra-base-discriminator")
+
+        # label embedding
+        self.label_dim = hidden_dim
+        # @What: What is label_alphabet_size
+        self.label_embedding = nn.Embedding(config.num_labels, self.label_dim)
+
+        # LSTM-LAN
+        self.lstm_first = nn.LSTM(config.hidden_size, lstm_hidden, num_layers=1,
+                                  batch_first=True, bidirectional=True)
+        self.lstm_last = nn.LSTM(lstm_hidden * 4, lstm_hidden, num_layers=1,
+                                 batch_first=True, bidirectional=True)
+
+        self.self_attention_first = Multihaed_Attention(lstm_hidden, num_heads=5, dropout_rate=0.5)
+        # DO NOT Add dropout at last layer
+        self.self_attention_last = Multihaed_Attention(lstm_hidden, num_heads=1)
+
+    def forward(self, input_ids, token_type_ids, attention_mask, labels=None,
+                using_pack_sequence: bool=True):
+        electra_output = self.electra(
+            input_ids=input_ids,
+            token_type_ids=token_type_ids,
+            attention_mask=attention_mask
+        )
+        electra_output = self.dropout(electra_output.last_hidden_state)
+
+        if using_pack_sequence:
+            pass
+        else:
+            lstm_output, hidden = self.lstm(electra_output)
+        emissions = self.linear(lstm_output)
+
 ### TEST ###
 if "__main__" == __name__:
     config = AutoConfig.from_pretrained("klue/bert-base",
-                                        num_labels=128)
+                                        num_labels=31)
     config.output_attention = True
     print(config)
