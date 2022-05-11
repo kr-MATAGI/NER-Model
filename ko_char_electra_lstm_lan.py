@@ -11,6 +11,7 @@ import argparse
 from attrdict import AttrDict
 
 import torch
+import torch.autograd as autograd
 from torch.utils.data import RandomSampler, SequentialSampler, DataLoader, Dataset
 from torch.utils.tensorboard import SummaryWriter
 from transformers import AutoConfig, get_linear_schedule_with_warmup
@@ -79,7 +80,9 @@ def show_ner_report(labels, preds):
 
 #===============================================================
 class Char_NER_Dataset(Dataset):
-    def __init__(self, data: np.ndarray, seq_len: np.ndarray):
+    def __init__(self, data: np.ndarray, seq_len: np.ndarray, num_labels: int):
+        self.num_labels = num_labels
+
         self.input_ids = data[:][:, :, 0]
         self.labels = data[:][:, :, 1]
         self.attention_mask = data[:][:, :, 2]
@@ -96,12 +99,15 @@ class Char_NER_Dataset(Dataset):
         return len(self.input_ids)
 
     def __getitem__(self, idx):
+        input_label_seq_tensor = autograd.Variable(torch.zeros(self.num_labels), volatile=False).long()
+        input_label_seq_tensor[:self.num_labels] = torch.LongTensor([i for i in range(self.num_labels)])
         items = {
             "attention_mask": self.attention_mask[idx],
             "input_ids": self.input_ids[idx],
             "labels": self.labels[idx],
             "token_type_ids": self.token_type_ids[idx],
-            "input_seq_len": self.input_seq_len[idx]
+            "input_seq_len": self.input_seq_len[idx],
+            "input_label_seq_tensor": input_label_seq_tensor
         }
 
         return items
@@ -134,22 +140,23 @@ def evaluate(args, model, eval_dataset, mode, global_step=None, train_epoch=0):
                 "input_ids": batch["input_ids"].to(args.device),
                 "attention_mask": batch["attention_mask"].to(args.device),
                 "token_type_ids": batch["token_type_ids"].to(args.device),
-                "labels": batch["labels"].to(args.device)
+                "input_seq_len": batch["input_seq_len"].to(args.device),
+                "labels": batch["labels"].to(args.device),
+                "input_label_seq_tensor": batch["input_label_seq_tensor"].to(args.device) # [batch_size, num_labels]
             }
 
-            outputs = model(**inputs)
-            tmp_eval_loss, logits = outputs[:2]
-            eval_loss += tmp_eval_loss.mean().item()
+            loss, seq_tag = model(**inputs)
+            eval_loss += loss
 
         nb_eval_steps += 1
         tb_writer.add_scalar("Loss/val_" + str(train_epoch), eval_loss / nb_eval_steps, nb_eval_steps)
         eval_pbar.set_description("Eval Loss - %.04f" % (eval_loss / nb_eval_steps))
 
         if preds is None:
-            preds = logits.detach().cpu().numpy()
+            preds = seq_tag.detach().cpu().numpy()
             out_label_ids = inputs["labels"].detach().cpu().numpy()
         else:
-            preds = np.append(preds, logits.detach().cpu().numpy(), axis=0)
+            preds = np.append(preds, seq_tag.detach().cpu().numpy(), axis=0)
             out_label_ids = np.append(out_label_ids, inputs["labels"].detach().cpu().numpy(), axis=0)
 
     logger.info("  Eval End !")
@@ -159,8 +166,6 @@ def evaluate(args, model, eval_dataset, mode, global_step=None, train_epoch=0):
     results = {
         "loss": eval_loss
     }
-
-    preds = np.argmax(preds, axis=2)
 
     labels = ETRI_TAG.keys()
     label_map = {i: label for i, label in enumerate(labels)}
@@ -251,7 +256,9 @@ def train(args, model, train_dataset, dev_dataset):
                 "input_ids": batch["input_ids"].to(args.device),
                 "attention_mask": batch["attention_mask"].to(args.device),
                 "token_type_ids": batch["token_type_ids"].to(args.device),
-                "input_seq_len": batch["input_seq_len"].to(args.device)
+                "input_seq_len": batch["input_seq_len"].to(args.device),
+                "labels": batch["labels"].to(args.device),
+                "input_label_seq_tensor": batch["input_label_seq_tensor"].to(args.device) # [batch_size, num_labels]
             }
 
             outputs = model(**inputs)
@@ -332,6 +339,7 @@ def main(cli_args):
                                         num_labels=len(ETRI_TAG.keys()),
                                         id2label={str(i): label for i, label in enumerate(ETRI_TAG.keys())},
                                         label2id={label: i for i, label in enumerate(ETRI_TAG.keys())})
+    config.max_seq_len = 128 # for label_embedding
 
     model = ELECTRA_LSTM_LAN.from_pretrained(args.model_name_or_path, config=config)
 
@@ -351,15 +359,15 @@ def main(cli_args):
 
 
     train_seq_len = np.load("/".join(args.train_npy.split("/")[:-1]) + "/train_seq_len.npy")
-    valid_seq_len = np.load("/".join(args.train_npy.split("/")[:-1]) + "/valid_seq_len.npy")
+    valid_seq_len = np.load("/".join(args.train_npy.split("/")[:-1]) + "/dev_seq_len.npy")
     test_seq_len = np.load("/".join(args.train_npy.split("/")[:-1]) + "/test_seq_len.npy")
     print(f"train_seq_len.shape: {train_seq_len.shape}")
     print(f"valid_seq_len.shape: {valid_seq_len.shape}")
     print(f"test_seq_len.shape: {test_seq_len.shape}")
 
-    train_dataset = Char_NER_Dataset(data=train_dataset, seq_len=train_seq_len)
-    dev_dataset = Char_NER_Dataset(data=dev_dataset, seq_len=valid_seq_len)
-    test_dataset = Char_NER_Dataset(data=test_dataset, seq_len=test_seq_len)
+    train_dataset = Char_NER_Dataset(data=train_dataset, seq_len=train_seq_len, num_labels=config.num_labels)
+    dev_dataset = Char_NER_Dataset(data=dev_dataset, seq_len=valid_seq_len, num_labels=config.num_labels)
+    test_dataset = Char_NER_Dataset(data=test_dataset, seq_len=test_seq_len, num_labels=config.num_labels)
 
     if args.do_train:
         global_step, tr_loss = train(args, model, train_dataset, dev_dataset)

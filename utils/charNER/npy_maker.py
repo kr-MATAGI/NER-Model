@@ -129,7 +129,7 @@ def make_char_npy(mode: str, tokenizer_name: str, src_item_list: List[Sentence],
     print(f"labels.shape: {npy_dict['labels'].shape}")
     print(f"attention_mask.shape: {npy_dict['attention_mask'].shape}")
     print(f"token_type_ids.shape: {npy_dict['token_type_ids'].shape}")
-    print(f"seq.shape: {npy_dict['seq_len'].shape}")
+    print(f"seq_len.shape: {npy_dict['seq_len'].shape}")
 
     split_size = int(len(src_item_list) * 0.1)
     train_size = split_size * 7

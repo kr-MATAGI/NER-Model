@@ -87,7 +87,8 @@ def make_npy(mode: str, tokenizer_name: str, sent_list: List[Sentence], max_len:
         "input_ids": [],
         "labels": [],
         "attention_mask": [],
-        "token_type_ids": []
+        "token_type_ids": [],
+        "seq_len": []
     }
     tokenizer = AutoTokenizer.from_pretrained(tokenizer_name)
     for sent in sent_list:
@@ -153,15 +154,20 @@ def make_npy(mode: str, tokenizer_name: str, sent_list: List[Sentence], max_len:
         npy_dict["attention_mask"].append(attention_mask)
         npy_dict["token_type_ids"].append(token_type_ids)
 
+        # for pack_padded_sequence
+        npy_dict["seq_len"].append(valid_len)
+
     # convert list to numpy
     npy_dict["input_ids"] = np.array(npy_dict["input_ids"])
     npy_dict["labels"] = np.array(npy_dict["labels"])
     npy_dict["attention_mask"] = np.array(npy_dict["attention_mask"])
     npy_dict["token_type_ids"] = np.array(npy_dict["token_type_ids"])
+    npy_dict["seq_len"] = np.array(npy_dict["seq_len"])
     print(f"input_ids.shape: {npy_dict['input_ids'].shape}")
     print(f"labels.shape: {npy_dict['labels'].shape}")
     print(f"attention_mask.shape: {npy_dict['attention_mask'].shape}")
     print(f"token_type_ids.shape: {npy_dict['token_type_ids'].shape}")
+    print(f"seq_len.shape: {npy_dict['seq_len'].shape}")
 
     split_size = int(len(sent_list) * 0.1)
     train_size = split_size * 7
@@ -170,22 +176,33 @@ def make_npy(mode: str, tokenizer_name: str, sent_list: List[Sentence], max_len:
     train_np = [npy_dict["input_ids"][:train_size], npy_dict["labels"][:train_size],
                 npy_dict["attention_mask"][:train_size], npy_dict["token_type_ids"][:train_size]]
     train_np = np.stack(train_np, axis=-1)
+    train_seq_len_np = npy_dict["seq_len"][:train_size]
     print(f"train_np.shape: {train_np.shape}")
+    print(f"train_seq_len_np.shape: {train_seq_len_np.shape}")
 
     valid_np = [npy_dict["input_ids"][train_size:valid_size], npy_dict["labels"][train_size:valid_size],
                 npy_dict["attention_mask"][train_size:valid_size], npy_dict["token_type_ids"][train_size:valid_size]]
     valid_np = np.stack(valid_np, axis=-1)
+    dev_seq_len_np = npy_dict["seq_len"][train_size:valid_size]
     print(f"valid_np.shape: {valid_np.shape}")
+    print(f"valid_seq_len_np.shape: {dev_seq_len_np.shape}")
 
     test_np = [npy_dict["input_ids"][valid_size:], npy_dict["labels"][valid_size:],
                npy_dict["attention_mask"][valid_size:], npy_dict["token_type_ids"][valid_size:]]
     test_np = np.stack(test_np, axis=-1)
+    test_seq_len_np = npy_dict["seq_len"][valid_size:]
     print(f"test_np.shape: {test_np.shape}")
+    print(f"test_seq_len_np.shape: {test_seq_len_np.shape}")
 
     # save
     np.save("../data/npy/"+mode+"/128/train", train_np)
     np.save("../data/npy/"+mode+"/128/dev", valid_np)
     np.save("../data/npy/"+mode+"/128/test", test_np)
+
+    # save seq_len
+    np.save("../data/npy/" + mode + "/128/train_seq_len", train_seq_len_np)
+    np.save("../data/npy/" + mode + "/128/dev_seq_len", dev_seq_len_np)
+    np.save("../data/npy/" + mode + "/128/test_seq_len", test_seq_len_np)
 
 ### MAIN ###
 if "__main__" == __name__:
@@ -198,4 +215,4 @@ if "__main__" == __name__:
     all_sent_list = conv_TTA_ne_category(all_sent_list)
 
     # make npy
-    make_npy(mode="old_nikl", tokenizer_name="klue/bert-base", sent_list=all_sent_list, max_len=128)
+    make_npy(mode="old_nikl", tokenizer_name="monologg/koelectra-base-discriminator", sent_list=all_sent_list, max_len=128)
