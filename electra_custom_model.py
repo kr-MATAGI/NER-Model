@@ -89,23 +89,30 @@ class Multihead_Attention(nn.Module):
 
 #================================================================================================================
 class LSTM_Attention(nn.Module):
-    def __init__(self, lstm_hidden, bilstm_flg):
+    def __init__(self, input_size, lstm_hidden, num_heads, max_len,
+                 bilstm_flg, dropout_rate, is_last_layer=False, pad_id=0):
         super(LSTM_Attention, self).__init__()
+        self.is_last_layer = is_last_layer
+        self.max_len = max_len
+        self.pad_id = pad_id
 
-        self.lstm = nn.LSTM(lstm_hidden * 4, lstm_hidden, num_layers=1, batch_first=True, bidirectional=bilstm_flg)
-        self.label_attn = Multihead_Attention(lstm_hidden * 2, num_heads=5, dropout_rate=0.1)
-        self.drop_lstm = nn.Dropout(0.1)
+        self.lstm = nn.LSTM(input_size, lstm_hidden, num_layers=1, batch_first=True, bidirectional=bilstm_flg)
+        self.label_attn = Multihead_Attention(lstm_hidden * 2, num_heads=num_heads, dropout_rate=dropout_rate)
+        self.drop_lstm = nn.Dropout(dropout_rate)
 
     def forward(self, lstm_out, label_embs, word_seq_lengths, hidden):
         lstm_out = pack_padded_sequence(input=lstm_out, lengths=word_seq_lengths.cpu().numpy(),
                                         enforce_sorted=False, batch_first=True)
         lstm_out, hidden = self.lstm(lstm_out, hidden)
-        lstm_out = pad_packed_sequence(lstm_out)[0]
+        lstm_out = pad_packed_sequence(lstm_out, total_length=self.max_len, padding_value=self.pad_id)[0]
         lstm_out = self.drop_lstm(lstm_out.transpose(1, 0))
 
-        label_attention_output = self.label_attn(lstm_out, label_embs, label_embs)
-        lstm_out = torch.cat([lstm_out, label_attention_output], -1)
-        return lstm_out
+        label_attention_output = self.label_attn(lstm_out, label_embs, label_embs, last_layer=self.is_last_layer)
+        if self.is_last_layer:
+           return label_attention_output
+        else:
+            lstm_out = torch.cat([lstm_out, label_attention_output], -1)
+            return lstm_out
 
 #================================================================================================================
 class ELECTRA_LSTM_LAN(ElectraPreTrainedModel):
@@ -114,31 +121,27 @@ class ELECTRA_LSTM_LAN(ElectraPreTrainedModel):
         self.pad_id = config.pad_token_id
         self.max_seq_len = config.max_seq_len
 
-        hidden_dim = 200
+        hidden_dim = 400
         dropout_rate = 0.1
         lstm_hidden = hidden_dim // 2
         label_embedding_scale = 0.0025
         num_attention_head = 5
-        self.num_of_lstm_layers = 1 # @TODO: up to 2
-
-        # PLM model
-        self.electra = ElectraModel.from_pretrained("monologg/koelectra-base-discriminator")
 
         # label embedding
         self.label_embedding = Label_Embedding(num_labels=config.num_labels, label_dim=hidden_dim,
                                                label_embedding_scale=label_embedding_scale)
+        # PLM model
+        self.electra = ElectraModel.from_pretrained("monologg/kocharelectra-base-discriminator")
 
-        self.lstm_first = nn.LSTM(config.hidden_size, lstm_hidden,
-                                  num_layers=1, batch_first=True, bidirectional=True)
-        self.lstm_last = nn.LSTM(lstm_hidden * 4, lstm_hidden, num_layers=1,
-                                 batch_first=True, bidirectional=True)
-        self.dropout_lstm = nn.Dropout(dropout_rate)
+        # LAN
+        self.lstm_attn_1 = LSTM_Attention(input_size=config.hidden_size, lstm_hidden=lstm_hidden, bilstm_flg=True,
+                                          dropout_rate=dropout_rate, num_heads=num_attention_head, max_len=self.max_seq_len)
+        self.lstm_attn_2 = LSTM_Attention(input_size=lstm_hidden * 4, lstm_hidden=lstm_hidden, bilstm_flg=True,
+                                          dropout_rate=dropout_rate, num_heads=num_attention_head, max_len=self.max_seq_len)
 
-        self.self_attention_first = Multihead_Attention(hidden_dim, num_heads=num_attention_head, dropout_rate=dropout_rate)
         # DO NOT Add dropout at last layer
-        self.self_attention_last = Multihead_Attention(hidden_dim, num_heads=1, dropout_rate=0.0)
-
-        self.lstm_attention_stack = nn.ModuleList([LSTM_Attention(lstm_hidden, True) for _ in range(self.num_of_lstm_layers)])
+        self.lstm_attn_last = LSTM_Attention(input_size=lstm_hidden * 4, lstm_hidden=lstm_hidden, bilstm_flg=True,
+                                             dropout_rate=0.0, num_heads=1, is_last_layer=True, max_len=self.max_seq_len)
 
     def forward(self, input_ids, token_type_ids, attention_mask, input_seq_len, input_label_seq_tensor, labels=None):
         '''
@@ -156,36 +159,13 @@ class ELECTRA_LSTM_LAN(ElectraPreTrainedModel):
         )
         electra_output = electra_output.last_hidden_state # [batch_size, seq_len, config.hidden_size]
 
-        """
-            First LSTM layer (input word only)
-        """
-        lstm_out = pack_padded_sequence(input=electra_output, lengths=input_seq_len.cpu().numpy(),
-                                        batch_first=True, enforce_sorted=False)
-        hidden = None
-        lstm_out, hidden = self.lstm_first(lstm_out, hidden)
-        lstm_out, _ = pad_packed_sequence(lstm_out, batch_first=True)
-        lstm_out = self.dropout_lstm(lstm_out)
-        # [batch_size, seq_len, hidden_size]
-        attention_label = self.self_attention_first(lstm_out, label_embs, label_embs)
-        # shape [batch_size, seq_length, embedding_dim + label_embeeding_dim]
-        lstm_out = torch.cat([lstm_out, attention_label], -1)
-
         # LAN layer
-        for idx, layer in enumerate(self.lstm_attention_stack):
-            lstm_out = layer(lstm_out, label_embs, input_seq_len, hidden)
-
-        """
-            Last Layer 
-            Attention weight calculate loss
-        """
-        lstm_out = pack_padded_sequence(input=lstm_out, lengths=input_seq_len.cpu().numpy(),
-                                        batch_first=True, enforce_sorted=False)
-        lstm_out, hidden = self.lstm_last(lstm_out, hidden)
-        lstm_out, _ = pad_packed_sequence(lstm_out, batch_first=True, padding_value=self.pad_id,
-                                        total_length=self.max_seq_len)
-        lstm_out = self.dropout_lstm(lstm_out)
-        # [batch_size, seq_len, labels_nums]
-        lstm_out = self.self_attention_last(lstm_out, label_embs, label_embs, True)
+        hidden = None
+        # [ batch_size, seq_len, hidden_dim * 2]
+        lstm_out = self.lstm_attn_1(electra_output, label_embs, input_seq_len, hidden)
+        lstm_out = self.lstm_attn_2(lstm_out, label_embs, input_seq_len, hidden)
+        # [ batch_size, seq_len, num_labels]
+        lstm_out = self.lstm_attn_last(lstm_out, label_embs, input_seq_len, hidden)
 
         if labels is None:
             batch_size = input_ids.size(0)

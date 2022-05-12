@@ -163,7 +163,7 @@ def make_char_npy(mode: str, tokenizer_name: str, src_item_list: List[Sentence],
 
     # save seq_len
     np.save("../../data/npy/" + mode + "/char_ner/train_seq_len", train_seq_len_np)
-    np.save("../../data/npy/" + mode + "/char_ner/valid_seq_len", valid_seq_len_np)
+    np.save("../../data/npy/" + mode + "/char_ner/dev_seq_len", valid_seq_len_np)
     np.save("../../data/npy/" + mode + "/char_ner/test_seq_len", test_seq_len_np)
 
 #================================================

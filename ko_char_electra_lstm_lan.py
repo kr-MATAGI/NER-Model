@@ -357,9 +357,8 @@ def main(cli_args):
     print(f"dev_dataset.shape: {dev_dataset.shape}")
     print(f"test_dataset.shape: {test_dataset.shape}")
 
-
     train_seq_len = np.load("/".join(args.train_npy.split("/")[:-1]) + "/train_seq_len.npy")
-    valid_seq_len = np.load("/".join(args.train_npy.split("/")[:-1]) + "/dev_seq_len.npy")
+    valid_seq_len = np.load("/".join(args.dev_npy.split("/")[:-1]) + "/dev_seq_len.npy")
     test_seq_len = np.load("/".join(args.train_npy.split("/")[:-1]) + "/test_seq_len.npy")
     print(f"train_seq_len.shape: {train_seq_len.shape}")
     print(f"valid_seq_len.shape: {valid_seq_len.shape}")
