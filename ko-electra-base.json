@@ -3,7 +3,7 @@
 {
   "task": "old_nikl",
   "data_dir": "data",
-  "ckpt_dir": "ckpt_ko_char_electra",
+  "ckpt_dir": "ckpt_ko_electra",
   "train_npy": "./data/npy/old_nikl/char_ner/train.npy",
   "dev_npy": "./data/npy/old_nikl/char_ner/dev.npy",
   "test_npy": "./data/npy/old_nikl/char_ner/test.npy",
@@ -24,7 +24,7 @@
   "no_cuda": false,
   "model_type": "koelectra-base-v3",
   "model_name_or_path": "monologg/kocharelectra-base-discriminator",
-  "output_dir": "ko-char-electra-base-ckpt",
+  "output_dir": "ko-electra-base-ckpt",
   "seed": 42,
   "train_batch_size": 32,
   "eval_batch_size": 128,

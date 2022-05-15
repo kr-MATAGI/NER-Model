@@ -131,7 +131,7 @@ class ELECTRA_LSTM_LAN(ElectraPreTrainedModel):
         self.label_embedding = Label_Embedding(num_labels=config.num_labels, label_dim=hidden_dim,
                                                label_embedding_scale=label_embedding_scale)
         # PLM model
-        self.electra = ElectraModel.from_pretrained("monologg/kocharelectra-base-discriminator")
+        self.electra = ElectraModel.from_pretrained("monologg/koelectra-base-v3-discriminator")
 
         # LAN
         self.lstm_attn_1 = LSTM_Attention(input_size=config.hidden_size, lstm_hidden=lstm_hidden, bilstm_flg=True,
