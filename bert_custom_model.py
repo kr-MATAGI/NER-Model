@@ -1,19 +1,15 @@
 import torch
 import torch.nn as nn
+import torch.nn.functional as F
 from transformers import (
     AutoModel, AutoConfig, BertPreTrainedModel,
 )
 from torch.nn.utils.rnn import pack_padded_sequence, pad_packed_sequence
-
-__version__ = '0.7.2'
-
+from collections import OrderedDict
 from typing import List, Optional
-
-import torch
-import torch.nn as nn
-
 import copy
 
+__version__ = '0.7.2'
 
 class CRF(nn.Module):
     """Conditional random field.
@@ -333,13 +329,15 @@ class CRF(nn.Module):
         return best_tags_list
 
 
+#==========================================================================================
+
 class BERT_LSTM(BertPreTrainedModel):
     def __init__(self, config):
         config.output_attention = True
         self.max_seq_len = 128
 
         super(BERT_LSTM, self).__init__(config)
-        self.bert = AutoModel.from_pretrained("klue/bert-base", config=config)
+        self.bert = AutoModel.from_pretrained(config._name_or_path, config=config)
         self.lstm_hidden = 512
         self.dropout_rate = 0.1
 
@@ -382,31 +380,7 @@ class BERT_LSTM(BertPreTrainedModel):
             sequence_of_tags = self.crf.decode(emissions)
             return sequence_of_tags
 
-
-
-
-
 #====================================================================================
-class Multihaed_Attention(nn.Module):
-    def __init__(self, num_units, num_heads=1, dropout_rate=0.0, gpu=True, causality=False):
-        '''Applies multihead attention.
-            Args:
-                num_units: A scalar. Attention size.
-                dropout_rate: A floating point number.
-                causality: Boolean. If true, units that reference the future are masked.
-                num_heads: An int. Number of heads.
-        '''
-        super(Multihaed_Attention, self).__init__()
-        self.num_units = num_units
-        self.num_heads = num_heads
-        self.dropout_rate = dropout_rate
-        self.causality = causality
-
-        self.Q_proj = nn.Sequential(nn.Linear(self.num_units, self.num_units), nn.ReLU())
-        self.K_proj = nn.Sequential(nn.Linear(self.num_units, self.num_units), nn.ReLU())
-        self.V_proj = nn.Sequential(nn.Linear(self.num_units, self.num_units), nn.ReLU())
-
-        self.output_dropout = nn.Dropout(p=self.dropout_rate)
 
 ### TEST ###
 if "__main__" == __name__:
