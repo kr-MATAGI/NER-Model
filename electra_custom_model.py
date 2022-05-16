@@ -88,9 +88,40 @@ class Multihead_Attention(nn.Module):
         return outputs
 
 #================================================================================================================
+class Highway_Module(nn.Module):
+    def __init__(self, input_size, num_layers, f=torch.nn.functional.relu):
+        super(Highway_Module, self).__init__()
+        self.num_layers = num_layers
+
+        self.non_linear = nn.ModuleList([nn.Linear(input_size, input_size) for _ in range(num_layers)])
+        self.linear = nn.ModuleList([nn.Linear(input_size, input_size) for _ in range(num_layers)])
+        self.gate = nn.ModuleList([nn.Linear(input_size, input_size) for _ in range(num_layers)])
+
+        self.f = f
+
+    def forward(self, x):
+        """
+          :param x: tensor with shape of [batch_size, size]
+          :return: tensor with shape of [batch_size, size]
+          applies σ(x) ⨀ (f(G(x))) + (1 - σ(x)) ⨀ (Q(x)) transformation | G and Q is affine transformation,
+          f is non-linear transformation, σ(x) is affine transformation with sigmoid non-linearition
+          and ⨀ is element-wise multiplication
+        """
+
+        for layer in range(self.num_layers):
+            gate = F.sigmoid(self.gate[layer](x))
+
+            non_linear = self.f(self.non_linear[layer](x))
+            linear = self.linear[layer](x)
+
+            x = gate * non_linear + (1 - gate) * linear
+
+        return x
+
+#================================================================================================================
 class LSTM_Attention(nn.Module):
     def __init__(self, input_size, lstm_hidden, num_heads, max_len,
-                 bilstm_flg, dropout_rate, is_gru=False, is_last_layer=False, pad_id=0):
+                 bilstm_flg, dropout_rate, is_gru=False, is_highway=False, is_last_layer=False, pad_id=0):
         super(LSTM_Attention, self).__init__()
         self.is_last_layer = is_last_layer
         self.max_len = max_len
@@ -101,6 +132,11 @@ class LSTM_Attention(nn.Module):
             self.lstm = nn.GRU(input_size, lstm_hidden, num_layers=1, batch_first=True, bidirectional=bilstm_flg)
         else:
             self.lstm = nn.LSTM(input_size, lstm_hidden, num_layers=1, batch_first=True, bidirectional=bilstm_flg)
+
+        if is_highway:
+            print("USE - Highway Module Layer !!!!!\n")
+            self.highway = Highway_Module(input_size=lstm_hidden * 2, num_layers=1)
+
         self.label_attn = Multihead_Attention(lstm_hidden * 2, num_heads=num_heads, dropout_rate=dropout_rate)
         self.drop_lstm = nn.Dropout(dropout_rate)
 
@@ -111,6 +147,8 @@ class LSTM_Attention(nn.Module):
         lstm_out = pad_packed_sequence(lstm_out, total_length=self.max_len, padding_value=self.pad_id)[0]
         lstm_out = self.drop_lstm(lstm_out.transpose(1, 0))
 
+        lstm_out = self.highway(lstm_out)
+
         label_attention_output = self.label_attn(lstm_out, label_embs, label_embs, last_layer=self.is_last_layer)
         if self.is_last_layer:
            return label_attention_output
@@ -120,11 +158,10 @@ class LSTM_Attention(nn.Module):
 
 #================================================================================================================
 class ELECTRA_LSTM_LAN(ElectraPreTrainedModel):
-    def __init__(self, model_name: str, config, is_use_gru=False):
+    def __init__(self, model_name: str, config, is_use_gru=False, is_use_high_way=False):
         super(ELECTRA_LSTM_LAN, self).__init__(config)
         self.pad_id = config.pad_token_id
         self.max_seq_len = config.max_seq_len
-        self.is_use_gru = is_use_gru
 
         hidden_dim = 400
         dropout_rate = 0.1
@@ -140,15 +177,15 @@ class ELECTRA_LSTM_LAN(ElectraPreTrainedModel):
 
         # LAN
         self.lstm_attn_1 = LSTM_Attention(input_size=config.hidden_size, lstm_hidden=lstm_hidden, bilstm_flg=True,
-                                          is_gru=self.is_use_gru, dropout_rate=dropout_rate,
+                                          is_gru=is_use_gru, is_highway=is_use_high_way, dropout_rate=dropout_rate,
                                           num_heads=num_attention_head, max_len=self.max_seq_len)
         self.lstm_attn_2 = LSTM_Attention(input_size=lstm_hidden * 4, lstm_hidden=lstm_hidden, bilstm_flg=True,
-                                          is_gru=self.is_use_gru, dropout_rate=dropout_rate,
+                                          is_gru=is_use_gru, is_highway=is_use_high_way, dropout_rate=dropout_rate,
                                           num_heads=num_attention_head, max_len=self.max_seq_len)
 
         # DO NOT Add dropout at last layer
         self.lstm_attn_last = LSTM_Attention(input_size=lstm_hidden * 4, lstm_hidden=lstm_hidden, bilstm_flg=True,
-                                             is_gru=self.is_use_gru, dropout_rate=0.0, num_heads=1,
+                                             is_gru=is_use_gru, is_highway=is_use_high_way, dropout_rate=0.0, num_heads=1,
                                              is_last_layer=True, max_len=self.max_seq_len)
 
     def forward(self, input_ids, token_type_ids, attention_mask, input_seq_len, input_label_seq_tensor, labels=None):
