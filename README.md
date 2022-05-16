@@ -11,3 +11,14 @@
   - [git/huggingface/issues](https://github.com/huggingface/transformers/issues/323)
   - [discuss Huggingface](https://discuss.huggingface.co/t/converting-word-level-labels-to-wordpiece-level-for-token-classification/2118/6)   
    
+
+## baseline 기록
+  - 데이터 : 모두의 말뭉치 2019 (신문/구어 도메인)
+  - max_len : 128
+  - f1 score
+  1. KLUE/BERT-base : 0.9137281805015626
+  2. KLUE/BERT-base-LSTM-CRF : 0.9190899917438767
+  3. KLUE/RoBERTa-base : ?
+  4. KLUE/RoBERTa-base-LSTM-CRF : ?
+  5. monologg/charKoELECTRA-LAN : 0.9162957815203087
+ 
