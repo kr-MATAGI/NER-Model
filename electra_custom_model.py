@@ -160,7 +160,7 @@ class LSTM_Attention(nn.Module):
 
 #================================================================================================================
 class ELECTRA_LSTM_LAN(ElectraPreTrainedModel):
-    def __init__(self, model_name: str, config, is_use_gru=False, is_use_high_way=False):
+    def __init__(self, config, model_name: str, is_use_gru=False, is_use_high_way=False):
         super(ELECTRA_LSTM_LAN, self).__init__(config)
         self.pad_id = config.pad_token_id
         self.max_seq_len = config.max_seq_len
