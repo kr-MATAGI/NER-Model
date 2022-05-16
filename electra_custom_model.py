@@ -124,6 +124,7 @@ class LSTM_Attention(nn.Module):
                  bilstm_flg, dropout_rate, is_gru=False, is_highway=False, is_last_layer=False, pad_id=0):
         super(LSTM_Attention, self).__init__()
         self.is_last_layer = is_last_layer
+        self.is_highway = is_highway
         self.max_len = max_len
         self.pad_id = pad_id
 
@@ -147,7 +148,8 @@ class LSTM_Attention(nn.Module):
         lstm_out = pad_packed_sequence(lstm_out, total_length=self.max_len, padding_value=self.pad_id)[0]
         lstm_out = self.drop_lstm(lstm_out.transpose(1, 0))
 
-        lstm_out = self.highway(lstm_out)
+        if self.highway:
+            lstm_out = self.highway(lstm_out)
 
         label_attention_output = self.label_attn(lstm_out, label_embs, label_embs, last_layer=self.is_last_layer)
         if self.is_last_layer:
