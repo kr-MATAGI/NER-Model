@@ -346,7 +346,7 @@ def main(cli_args):
     config.max_seq_len = 128 # for label_embedding
 
     model = ELECTRA_LSTM_LAN.from_pretrained(args.model_name_or_path, config=config,
-                             is_use_gru=args.is_gru, is_use_high_way=args.is_highway)
+                                             is_use_gru=args.is_gru, is_use_high_way=args.is_highway)
 
     # GPU or CPU
     if 1 < torch.cuda.device_count():

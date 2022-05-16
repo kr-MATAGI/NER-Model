@@ -160,7 +160,7 @@ class LSTM_Attention(nn.Module):
 
 #================================================================================================================
 class ELECTRA_LSTM_LAN(ElectraPreTrainedModel):
-    def __init__(self, config, model_name: str, is_use_gru=False, is_use_high_way=False):
+    def __init__(self, config, is_use_gru=False, is_use_high_way=False):
         super(ELECTRA_LSTM_LAN, self).__init__(config)
         self.pad_id = config.pad_token_id
         self.max_seq_len = config.max_seq_len
@@ -175,7 +175,7 @@ class ELECTRA_LSTM_LAN(ElectraPreTrainedModel):
         self.label_embedding = Label_Embedding(num_labels=config.num_labels, label_dim=hidden_dim,
                                                label_embedding_scale=label_embedding_scale)
         # PLM model
-        self.electra = ElectraModel.from_pretrained(model_name, config=config)
+        self.electra = ElectraModel.from_pretrained(config._name_or_path, config=config)
 
         # LAN
         self.lstm_attn_1 = LSTM_Attention(input_size=config.hidden_size, lstm_hidden=lstm_hidden, bilstm_flg=True,
