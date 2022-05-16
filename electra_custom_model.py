@@ -97,6 +97,7 @@ class LSTM_Attention(nn.Module):
         self.pad_id = pad_id
 
         if is_gru:
+            print("USE - nn.GRU Layer !!!!!\n")
             self.lstm = nn.GRU(input_size, lstm_hidden, num_layers=1, batch_first=True, bidirectional=bilstm_flg)
         else:
             self.lstm = nn.LSTM(input_size, lstm_hidden, num_layers=1, batch_first=True, bidirectional=bilstm_flg)
@@ -119,7 +120,7 @@ class LSTM_Attention(nn.Module):
 
 #================================================================================================================
 class ELECTRA_LSTM_LAN(ElectraPreTrainedModel):
-    def __init__(self, model_name: str, config, is_use_gru: bool=False):
+    def __init__(self, model_name: str, config, is_use_gru=False):
         super(ELECTRA_LSTM_LAN, self).__init__(config)
         self.pad_id = config.pad_token_id
         self.max_seq_len = config.max_seq_len
@@ -135,7 +136,7 @@ class ELECTRA_LSTM_LAN(ElectraPreTrainedModel):
         self.label_embedding = Label_Embedding(num_labels=config.num_labels, label_dim=hidden_dim,
                                                label_embedding_scale=label_embedding_scale)
         # PLM model
-        self.electra = ElectraModel.from_pretrained("monologg/koelectra-base-v3-discriminator")
+        self.electra = ElectraModel.from_pretrained(model_name)
 
         # LAN
         self.lstm_attn_1 = LSTM_Attention(input_size=config.hidden_size, lstm_hidden=lstm_hidden, bilstm_flg=True,
