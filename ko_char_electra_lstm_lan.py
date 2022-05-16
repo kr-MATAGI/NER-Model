@@ -392,7 +392,7 @@ def main(cli_args):
 
         for checkpoint in checkpoints:
             global_step = checkpoint.split("-")[-1]
-            print(model_name=args.model_name_or_path)
+            print(args.model_name_or_path)
             model = ELECTRA_LSTM_LAN.from_pretrained(checkpoint, model_name=args.model_name_or_path, config=config,
                                                      is_use_gru=args.is_gru, is_use_high_way=args.is_highway)
             model.to(args.device)
