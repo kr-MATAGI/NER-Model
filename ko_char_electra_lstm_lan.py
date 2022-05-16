@@ -146,6 +146,8 @@ def evaluate(args, model, eval_dataset, mode, global_step=None, train_epoch=0):
             }
 
             loss, seq_tag = model(**inputs)
+            if 2 <= args.n_gpu:
+                loss = loss.mean()
             eval_loss += loss
 
         nb_eval_steps += 1
@@ -264,7 +266,7 @@ def train(args, model, train_dataset, dev_dataset):
             outputs = model(**inputs)
             loss = outputs[0]
 
-            if 1 < args.n_gpu:
+            if 2 <= args.n_gpu:
                 loss = loss.mean()
 
             if args.gradient_accumulation_steps > 1:
@@ -329,6 +331,8 @@ def main(cli_args):
     with open(cli_args.config_file) as config_file:
         args = AttrDict(json.load(config_file))
     args.device = "cuda" if torch.cuda.is_available() else "cpu"
+    args.n_gpu = torch.cuda.device_count() # check gpu count
+
     set_seed(args)
 
     logger.info(f"Training/Evaluation parameters {args}")
