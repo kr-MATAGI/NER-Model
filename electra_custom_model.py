@@ -178,14 +178,14 @@ class ELECTRA_LSTM_LAN(ElectraPreTrainedModel):
         self.electra = ElectraModel.from_pretrained(config._name_or_path, config=config)
 
         # LAN
+        # DO NOT Add dropout at last layer
         self.lstm_attn_1 = LSTM_Attention(input_size=config.hidden_size, lstm_hidden=lstm_hidden, bilstm_flg=True,
                                           is_gru=is_use_gru, is_highway=is_use_high_way, dropout_rate=dropout_rate,
                                           num_heads=num_attention_head, max_len=self.max_seq_len)
-        self.lstm_attn_2 = LSTM_Attention(input_size=lstm_hidden * 4, lstm_hidden=lstm_hidden, bilstm_flg=True,
-                                          is_gru=is_use_gru, is_highway=is_use_high_way, dropout_rate=dropout_rate,
-                                          num_heads=num_attention_head, max_len=self.max_seq_len)
+        # self.lstm_attn_2 = LSTM_Attention(input_size=lstm_hidden * 4, lstm_hidden=lstm_hidden, bilstm_flg=True,
+        #                                   is_gru=is_use_gru, is_highway=is_use_high_way, dropout_rate=dropout_rate,
+        #                                   num_heads=num_attention_head, max_len=self.max_seq_len)
 
-        # DO NOT Add dropout at last layer
         self.lstm_attn_last = LSTM_Attention(input_size=lstm_hidden * 4, lstm_hidden=lstm_hidden, bilstm_flg=True,
                                              is_gru=is_use_gru, is_highway=is_use_high_way, dropout_rate=0.0, num_heads=1,
                                              is_last_layer=True, max_len=self.max_seq_len)
@@ -210,7 +210,7 @@ class ELECTRA_LSTM_LAN(ElectraPreTrainedModel):
         hidden = None
         # [ batch_size, seq_len, hidden_dim * 2]
         lstm_out = self.lstm_attn_1(electra_output, label_embs, input_seq_len, hidden)
-        lstm_out = self.lstm_attn_2(lstm_out, label_embs, input_seq_len, hidden)
+        # lstm_out = self.lstm_attn_2(lstm_out, label_embs, input_seq_len, hidden)
         # [ batch_size, seq_len, num_labels]
         lstm_out = self.lstm_attn_last(lstm_out, label_embs, input_seq_len, hidden)
 
