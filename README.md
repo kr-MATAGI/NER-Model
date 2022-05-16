@@ -23,4 +23,5 @@
   5. monologg/KoCharELECTRA-LAN(Bi_LSTM) : 0.9162957815203087
   6. monologg/KoCharELECTRA-LAN(Bi_GRU) : ?
   7. monologg/KoCharELECTRA-LAN(HW-Bi_LSTM) : ?
+  8. monologg/KoCharELECTRA-LAN(HW-Bi_GRU) : ?
  
