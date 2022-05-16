@@ -148,7 +148,7 @@ class LSTM_Attention(nn.Module):
         lstm_out = pad_packed_sequence(lstm_out, total_length=self.max_len, padding_value=self.pad_id)[0]
         lstm_out = self.drop_lstm(lstm_out.transpose(1, 0))
 
-        if self.highway:
+        if self.is_highway:
             lstm_out = self.highway(lstm_out)
 
         label_attention_output = self.label_attn(lstm_out, label_embs, label_embs, last_layer=self.is_last_layer)
