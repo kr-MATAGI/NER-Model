@@ -90,13 +90,16 @@ class Multihead_Attention(nn.Module):
 #================================================================================================================
 class LSTM_Attention(nn.Module):
     def __init__(self, input_size, lstm_hidden, num_heads, max_len,
-                 bilstm_flg, dropout_rate, is_last_layer=False, pad_id=0):
+                 bilstm_flg, dropout_rate, is_gru=False, is_last_layer=False, pad_id=0):
         super(LSTM_Attention, self).__init__()
         self.is_last_layer = is_last_layer
         self.max_len = max_len
         self.pad_id = pad_id
 
-        self.lstm = nn.LSTM(input_size, lstm_hidden, num_layers=1, batch_first=True, bidirectional=bilstm_flg)
+        if is_gru:
+            self.lstm = nn.GRU(input_size, lstm_hidden, num_layers=1, batch_first=True, bidirectional=bilstm_flg)
+        else:
+            self.lstm = nn.LSTM(input_size, lstm_hidden, num_layers=1, batch_first=True, bidirectional=bilstm_flg)
         self.label_attn = Multihead_Attention(lstm_hidden * 2, num_heads=num_heads, dropout_rate=dropout_rate)
         self.drop_lstm = nn.Dropout(dropout_rate)
 
@@ -116,10 +119,11 @@ class LSTM_Attention(nn.Module):
 
 #================================================================================================================
 class ELECTRA_LSTM_LAN(ElectraPreTrainedModel):
-    def __init__(self, config):
+    def __init__(self, model_name: str, config, is_use_gru: bool=False):
         super(ELECTRA_LSTM_LAN, self).__init__(config)
         self.pad_id = config.pad_token_id
         self.max_seq_len = config.max_seq_len
+        self.is_use_gru = is_use_gru
 
         hidden_dim = 400
         dropout_rate = 0.1
@@ -135,13 +139,16 @@ class ELECTRA_LSTM_LAN(ElectraPreTrainedModel):
 
         # LAN
         self.lstm_attn_1 = LSTM_Attention(input_size=config.hidden_size, lstm_hidden=lstm_hidden, bilstm_flg=True,
-                                          dropout_rate=dropout_rate, num_heads=num_attention_head, max_len=self.max_seq_len)
+                                          is_gru=self.is_use_gru, dropout_rate=dropout_rate,
+                                          num_heads=num_attention_head, max_len=self.max_seq_len)
         self.lstm_attn_2 = LSTM_Attention(input_size=lstm_hidden * 4, lstm_hidden=lstm_hidden, bilstm_flg=True,
-                                          dropout_rate=dropout_rate, num_heads=num_attention_head, max_len=self.max_seq_len)
+                                          is_gru=self.is_use_gru, dropout_rate=dropout_rate,
+                                          num_heads=num_attention_head, max_len=self.max_seq_len)
 
         # DO NOT Add dropout at last layer
         self.lstm_attn_last = LSTM_Attention(input_size=lstm_hidden * 4, lstm_hidden=lstm_hidden, bilstm_flg=True,
-                                             dropout_rate=0.0, num_heads=1, is_last_layer=True, max_len=self.max_seq_len)
+                                             is_gru=self.is_use_gru, dropout_rate=0.0, num_heads=1,
+                                             is_last_layer=True, max_len=self.max_seq_len)
 
     def forward(self, input_ids, token_type_ids, attention_mask, input_seq_len, input_label_seq_tensor, labels=None):
         '''

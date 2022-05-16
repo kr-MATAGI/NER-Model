@@ -75,12 +75,12 @@ def make_char_npy(mode: str, tokenizer_name: str, src_item_list: List[Sentence],
         #end, ne_item loop
 
         # # TEST
-        # test_ne_print = [(x.text, x.type) for x in src_item.ne_list]
-        # id2la = {v: k for k, v in ETRI_TAG.items()}
-        # print(test_ne_print)
-        # for t, l in zip(text_tokens, labels):
-        #     print(t, "\t", l)
-        # input()
+        test_ne_print = [(x.text, x.type) for x in src_item.ne_list]
+        id2la = {v: k for k, v in ETRI_TAG.items()}
+        print(test_ne_print)
+        for t, l in zip(text_tokens, labels):
+            print(t, "\t", l)
+        input()
 
         text_tokens.insert(0, "[CLS]")
         labels.insert(0, "O")
