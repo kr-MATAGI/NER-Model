@@ -21,7 +21,6 @@
   3. KLUE/RoBERTa-base : 0.9183453182723446
   4. KLUE/RoBERTa-base-LSTM-CRF : ?
   5. monologg/KoCharELECTRA-LAN(Bi_LSTM) : 0.9162957815203087
-  6. monologg/KoCharELECTRA-LAN(Bi_GRU) : ?
-  7. monologg/KoCharELECTRA-LAN(HW-Bi_LSTM) : ?
-  8. monologg/KoCharELECTRA-LAN(HW-Bi_GRU) : ?
+  6. KLUE/BERT-IDCNN-CRF : 0.9166425426233754
+  
  

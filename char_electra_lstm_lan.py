@@ -155,10 +155,16 @@ def evaluate(args, model, eval_dataset, mode, global_step=None, train_epoch=0):
         eval_pbar.set_description("Eval Loss - %.04f" % (eval_loss / nb_eval_steps))
 
         if preds is None:
-            preds = seq_tag.detach().cpu().numpy()
+            if args.is_crf:
+                preds = np.array(seq_tag)
+            else:
+                preds = seq_tag.detach().cpu().numpy()
             out_label_ids = inputs["labels"].detach().cpu().numpy()
         else:
-            preds = np.append(preds, seq_tag.detach().cpu().numpy(), axis=0)
+            if args.is_crf:
+                preds = np.append(preds, np.array(seq_tag), axis=0)
+            else:
+                preds = np.append(preds, seq_tag.detach().cpu().numpy(), axis=0)
             out_label_ids = np.append(out_label_ids, inputs["labels"].detach().cpu().numpy(), axis=0)
 
     logger.info("  Eval End !")
