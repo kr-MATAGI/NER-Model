@@ -345,7 +345,7 @@ def main(cli_args):
     config.idcnn_nums = 4
     config.max_len = 128
 
-    model = BERT_IDCNN_CRF(config=config)
+    model = BERT_IDCNN_CRF.from_pretrained("klue/bert-base", config=config)
 
     # GPU or CPU
     if 1 < torch.cuda.device_count():
