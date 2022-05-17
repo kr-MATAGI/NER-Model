@@ -22,7 +22,7 @@ from sklearn import metrics as sklearn_metrics
 
 
 ## MODEL
-from bert_custom_model import BERT_LSTM
+from bert_custom_model import BERT_IDCNN_CRF
 
 ## TAG SET
 ETRI_TAG = {
@@ -333,8 +333,12 @@ def main(cli_args):
                                         num_labels=len(ETRI_TAG.keys()),
                                         id2label={str(i): label for i, label in enumerate(ETRI_TAG.keys())},
                                         label2id={label: i for i, label in enumerate(ETRI_TAG.keys())})
+    # idcnn
+    config.filter_nums = 64
+    config.idcnn_nums = 4
+    config.max_len = 128
 
-    model = BERT_LSTM(config=config)
+    model = BERT_IDCNN_CRF(config=config)
 
     # GPU or CPU
     if 1 < torch.cuda.device_count():
@@ -373,7 +377,7 @@ def main(cli_args):
 
         for checkpoint in checkpoints:
             global_step = checkpoint.split("-")[-1]
-            model = BERT_LSTM.from_pretrained(checkpoint)
+            model = BERT_IDCNN_CRF.from_pretrained(checkpoint)
             model.to(args.device)
             result = evaluate(args, model, test_dataset, mode="test", global_step=global_step)
             result = dict((k + "_{}".format(global_step), v) for k, v in result.items())

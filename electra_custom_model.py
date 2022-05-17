@@ -6,6 +6,8 @@ import torch.nn.functional as F
 from torch.nn.utils.rnn import pack_padded_sequence, pad_packed_sequence
 
 from transformers import ElectraModel, ElectraPreTrainedModel, AutoConfig
+from idcnn_layer import IDCNN
+from crf_layer import CRF
 
 #================================================================================================================
 class Label_Embedding(nn.Module):
@@ -238,6 +240,8 @@ class ELECTRA_LSTM_LAN(ElectraPreTrainedModel):
 
         return lstm_out
 
+#==============================================================
+    
 ### TEST ###
 if "__main__" == __name__:
     config = AutoConfig.from_pretrained("monologg/kocharelectra-base-discriminator",
