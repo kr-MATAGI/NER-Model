@@ -343,7 +343,9 @@ def main(cli_args):
                                         num_labels=len(ETRI_TAG.keys()),
                                         id2label={str(i): label for i, label in enumerate(ETRI_TAG.keys())},
                                         label2id={label: i for i, label in enumerate(ETRI_TAG.keys())})
-    config.max_seq_len = 128 # for label_embedding
+    # for label_embedding
+    config.max_seq_len = 128
+    config.is_crf = args.is_crf
 
     model = ELECTRA_LSTM_LAN.from_pretrained(args.model_name_or_path, config=config,
                                              is_use_gru=args.is_gru, is_use_high_way=args.is_highway)

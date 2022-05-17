@@ -138,10 +138,7 @@ def evaluate(args, model, eval_dataset, mode, global_step=None, train_epoch=0):
             }
 
             # input_ids, token_type_ids, attention_mask, labels=None
-            log_likelihood, outputs = model(input_ids=inputs["input_ids"],
-                                            attention_mask=inputs["attention_mask"],
-                                            token_type_ids=inputs["token_type_ids"],
-                                            labels=inputs["labels"])
+            log_likelihood, outputs = model(**inputs)
             loss = -1 * log_likelihood
             eval_loss += loss.mean().item()
 
@@ -259,10 +256,7 @@ def train(args, model, train_dataset, dev_dataset):
                 "labels": batch["labels"].to(args.device)
             }
             # input_ids, token_type_ids, attention_mask, labels=None
-            log_likelihood, outputs = model(input_ids=inputs["input_ids"],
-                                            attention_mask=inputs["attention_mask"],
-                                            token_type_ids=inputs["token_type_ids"],
-                                            labels=inputs["labels"])
+            log_likelihood, outputs = model(**inputs)
             loss = -1 * log_likelihood
 
             if 1 < args.n_gpu:

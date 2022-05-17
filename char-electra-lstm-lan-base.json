@@ -1,7 +1,7 @@
 {
   "task": "old_nikl",
   "data_dir": "data",
-  "ckpt_dir": "ckpt-ko-char-electra-lstm-2layer-lan",
+  "ckpt_dir": "ckpt-ko-char-electra-lstm-lan",
   "train_npy": "./data/npy/old_nikl/char_ner/train.npy",
   "dev_npy": "./data/npy/old_nikl/char_ner/dev.npy",
   "test_npy": "./data/npy/old_nikl/char_ner/test.npy",
@@ -22,7 +22,7 @@
   "no_cuda": false,
   "model_type": "kocharelectra-base-discriminator",
   "model_name_or_path": "monologg/kocharelectra-base-discriminator",
-  "output_dir": "ko-char-electra-lstm-lan-base-2layer-ckpt",
+  "output_dir": "ko-char-electra-lstm-lan-base-ckpt",
   "seed": 42,
   "train_batch_size": 64,
   "eval_batch_size": 128,
@@ -31,5 +31,6 @@
   "learning_rate": 5e-5,
   "n_gpu": 1,
   "is_gru": false,
-  "is_highway": false
+  "is_highway": false,
+  "is_crf": false
 }

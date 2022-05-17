@@ -165,6 +165,7 @@ class ELECTRA_LSTM_LAN(ElectraPreTrainedModel):
         super(ELECTRA_LSTM_LAN, self).__init__(config)
         self.pad_id = config.pad_token_id
         self.max_seq_len = config.max_seq_len
+        self.is_use_crf = config.is_crf
 
         hidden_dim = 400
         dropout_rate = 0.1
@@ -183,13 +184,16 @@ class ELECTRA_LSTM_LAN(ElectraPreTrainedModel):
         self.lstm_attn_1 = LSTM_Attention(input_size=config.hidden_size, lstm_hidden=lstm_hidden, bilstm_flg=True,
                                           is_gru=is_use_gru, is_highway=is_use_high_way, dropout_rate=dropout_rate,
                                           num_heads=num_attention_head, max_len=self.max_seq_len)
-        # self.lstm_attn_2 = LSTM_Attention(input_size=lstm_hidden * 4, lstm_hidden=lstm_hidden, bilstm_flg=True,
-        #                                   is_gru=is_use_gru, is_highway=is_use_high_way, dropout_rate=dropout_rate,
-        #                                   num_heads=num_attention_head, max_len=self.max_seq_len)
+        self.lstm_attn_2 = LSTM_Attention(input_size=lstm_hidden * 4, lstm_hidden=lstm_hidden, bilstm_flg=True,
+                                          is_gru=is_use_gru, is_highway=is_use_high_way, dropout_rate=dropout_rate,
+                                          num_heads=num_attention_head, max_len=self.max_seq_len)
 
         self.lstm_attn_last = LSTM_Attention(input_size=lstm_hidden * 4, lstm_hidden=lstm_hidden, bilstm_flg=True,
                                              is_gru=is_use_gru, is_highway=is_use_high_way, dropout_rate=0.0, num_heads=1,
                                              is_last_layer=True, max_len=self.max_seq_len)
+
+        if self.is_use_crf:
+            self.crf = CRF(config.num_labels, batch_first=True)
 
     def forward(self, input_ids, token_type_ids, attention_mask, input_seq_len, input_label_seq_tensor, labels=None):
         '''
@@ -211,33 +215,41 @@ class ELECTRA_LSTM_LAN(ElectraPreTrainedModel):
         hidden = None
         # [ batch_size, seq_len, hidden_dim * 2]
         lstm_out = self.lstm_attn_1(electra_output, label_embs, input_seq_len, hidden)
-        # lstm_out = self.lstm_attn_2(lstm_out, label_embs, input_seq_len, hidden)
+        lstm_out = self.lstm_attn_2(lstm_out, label_embs, input_seq_len, hidden)
         # [ batch_size, seq_len, num_labels]
         lstm_out = self.lstm_attn_last(lstm_out, label_embs, input_seq_len, hidden)
 
-        if labels is None:
-            batch_size = input_ids.size(0)
-            seq_len = input_ids.size(1)
-
-            outs = lstm_out.view(batch_size * seq_len, -1)
-            _, tag_seq = torch.max(outs, 1)
-            tag_seq = tag_seq.view(batch_size, seq_len)
-            return tag_seq
+        if self.is_use_crf:
+            if labels is not None:
+                log_likelihood, sequence_of_tags = self.crf(emissions=lstm_out, tags=labels, mask=attention_mask.bool(),
+                                                            reduction="mean"), self.crf.decode(lstm_out, mask=attention_mask.bool())
+                log_likelihood = -1 * log_likelihood
+                return log_likelihood, sequence_of_tags
+            else:
+                sequence_of_tags = self.crf.decode(lstm_out)
+                return sequence_of_tags
         else:
-            batch_size = input_ids.size(0)
-            seq_len = input_ids.size(1)
+            if labels is None:
+                batch_size = input_ids.size(0)
+                seq_len = input_ids.size(1)
 
-            loss_func = nn.NLLLoss()
-            outs = lstm_out.view(batch_size * seq_len, -1)
-            score = F.log_softmax(outs, 1)
-            total_loss = loss_func(score, labels.view(batch_size * seq_len))
-            _, tag_seq = torch.max(score, 1)
-            tag_seq = tag_seq.view(batch_size, seq_len)
-            total_loss = total_loss / batch_size
+                outs = lstm_out.view(batch_size * seq_len, -1)
+                _, tag_seq = torch.max(outs, 1)
+                tag_seq = tag_seq.view(batch_size, seq_len)
+                return tag_seq
+            else:
+                batch_size = input_ids.size(0)
+                seq_len = input_ids.size(1)
 
-            return total_loss, tag_seq
+                loss_func = nn.NLLLoss()
+                outs = lstm_out.view(batch_size * seq_len, -1)
+                score = F.log_softmax(outs, 1)
+                total_loss = loss_func(score, labels.view(batch_size * seq_len))
+                _, tag_seq = torch.max(score, 1)
+                tag_seq = tag_seq.view(batch_size, seq_len)
+                total_loss = total_loss / batch_size
 
-        return lstm_out
+                return total_loss, tag_seq
 
 #==============================================================
     
