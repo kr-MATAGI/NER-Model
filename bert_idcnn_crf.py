@@ -345,13 +345,13 @@ def main(cli_args):
     config.idcnn_nums = 4
     config.max_len = 128
 
-    model = BERT_IDCNN_CRF.from_pretrained("klue/bert-base", config=config)
+    model = BERT_IDCNN_CRF(config=config)
 
     # GPU or CPU
     if 1 < torch.cuda.device_count():
         logging.info(f"Let's use {torch.cuda.device_count()} GPUs!")
         args.n_gpu = torch.cuda.device_count()
-        model = torch.nn.DataParallel(model)
+        #model = torch.nn.DataParallel(model)
     model.to(args.device)
 
     train_dataset = np.load(args.train_npy)
