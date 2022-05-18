@@ -68,7 +68,7 @@ class BERT_IDCNN_CRF(BertPreTrainedModel):
         kernel_size = 3
         dropout_rate = 0.1
 
-        self.bert = AutoModel.from_pretrained(config._name_or_path, config=config)
+        self.bert = AutoModel(config=config)
 
         self.cnn = nn.Sequential(
             nn.Conv1d(in_channels=self.filter_num, out_channels=self.filter_num,
@@ -116,7 +116,8 @@ class BERT_IDCNN_CRF(BertPreTrainedModel):
 
 ### TEST ###
 if "__main__" == __name__:
-    config = AutoConfig.from_pretrained("klue/bert-base",
+    config = AutoConfig.from_pretrained("klue/roberta-base",
                                         num_labels=31)
-    config.output_attention = True
+    bert_config = AutoConfig.from_pretrained("klue/bert-base")
     print(config)
+    print(bert_config)
