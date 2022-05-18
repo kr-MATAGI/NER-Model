@@ -373,7 +373,7 @@ def main(cli_args):
 
         for checkpoint in checkpoints:
             global_step = checkpoint.split("-")[-1]
-            model = torch.load(checkpoint)
+            model = BERT_LSTM_CRF.from_pretrained(checkpoint)
             model.to(args.device)
             result = evaluate(args, model, test_dataset, mode="test", global_step=global_step)
             result = dict((k + "_{}".format(global_step), v) for k, v in result.items())
