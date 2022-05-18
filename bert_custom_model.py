@@ -14,11 +14,9 @@ from crf_layer import CRF
 class BERT_LSTM_CRF(BertPreTrainedModel):
     def __init__(self, config):
         super(BERT_LSTM_CRF, self).__init__(config)
-
-        config.output_attention = True
         self.max_seq_len = 128
 
-        self.bert = AutoModel.from_pretrained(config._name_or_path, config=config)
+        self.bert = AutoModel.from_pretrained("klue/roberta-base", config=config)
         self.lstm_hidden = 512
         self.dropout_rate = 0.1
 
