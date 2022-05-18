@@ -16,7 +16,7 @@ class BERT_LSTM_CRF(BertPreTrainedModel):
         super(BERT_LSTM_CRF, self).__init__(config)
         self.max_seq_len = 128
 
-        self.bert = AutoModel.from_pretrained(config._name_or_path, config=config)
+        self.bert = AutoModel(config=config)
         self.lstm_hidden = 512
         self.dropout_rate = 0.1
 
@@ -68,7 +68,7 @@ class BERT_IDCNN_CRF(BertPreTrainedModel):
         kernel_size = 3
         dropout_rate = 0.1
 
-        self.bert = AutoModel(config=config)
+        self.bert = AutoModel.from_pretrained(config._name_or_path, config=config)
 
         self.cnn = nn.Sequential(
             nn.Conv1d(in_channels=self.filter_num, out_channels=self.filter_num,
