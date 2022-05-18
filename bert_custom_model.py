@@ -2,7 +2,7 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 from transformers import (
-    AutoModel, AutoConfig, BertPreTrainedModel,
+    AutoModel, AutoConfig, BertPreTrainedModel
 )
 from torch.nn.utils.rnn import pack_padded_sequence, pad_packed_sequence
 import copy
