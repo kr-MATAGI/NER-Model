@@ -16,7 +16,7 @@ class BERT_LSTM_CRF(BertPreTrainedModel):
         super(BERT_LSTM_CRF, self).__init__(config)
         self.max_seq_len = 128
 
-        self.bert = AutoModel.from_pretrained("klue/roberta-base", config=config)
+        self.bert = AutoModel.from_pretrained(config._name_or_path, config=config)
         self.lstm_hidden = 512
         self.dropout_rate = 0.1
 
