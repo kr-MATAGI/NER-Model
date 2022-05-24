@@ -36,7 +36,8 @@ ETRI_TAG = {
 
 #================================================
 # Method
-def make_char_npy(mode: str, tokenizer_name: str, src_item_list: List[Sentence], max_len: int=128):
+def make_char_npy(mode: str, tokenizer_name: str, src_item_list: List[Sentence],
+                  max_len: int=128, use_pos=False):
     '''
         Args:
             mode: "etri" / ...
@@ -179,4 +180,4 @@ if "__main__" == __name__:
             print(f"[charNER][npy_makery.py] LOAD - {len(src_sent_list)}")
 
         make_char_npy(mode="old_nikl", tokenizer_name=MODEL_NAME,
-                      src_item_list=src_sent_list, max_len=128)
+                      src_item_list=src_sent_list, max_len=128, use_pos=True)

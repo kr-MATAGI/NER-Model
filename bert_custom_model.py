@@ -114,6 +114,62 @@ class BERT_IDCNN_CRF(BertPreTrainedModel):
             sequence_of_tags = self.crf.decode(emissions)
             return sequence_of_tags
 
+#====================================================================================
+class BERT_POS_LSTM(BertPreTrainedModel):
+    def __init__(self, config):
+        super(BERT_POS_LSTM, self).__init__(config)
+        self.max_seq_len = 128
+        self.num_labels = config.num_labels
+        self.num_pos_labels = config.num_pos_labels
+        #self.pos_embed_out_dim = 256
+
+        # pos tagging
+        # self.pos_embedding = nn.Linear(self.num_pos_labels, self.pos_embed_out_dim)
+
+        # bert + lstm
+        self.bert = AutoModel.from_config(config=config)
+        self.dropout = nn.Dropout(config.hidden_dropout_prob)
+        self.lstm = nn.LSTM(input_size=config.hidden_size + self.num_pos_labels,
+                            hidden_size=config.hidden_size, num_layers=1, batch_first=True, dropout=0.3)
+        self.classifier = nn.Linear(config.hidden_size, config.num_labels)
+
+        self.init_weights()
+
+    def forward(self, input_ids, attention_mask, token_type_ids, pos_tag_ids, input_seq_len, labels=None):
+        # pos embedding
+        # pos_tag_ids : [batch_size, seq_len, num_pos_tags]
+        # pos_embed = self.pos_embedding(pos_tag_ids).float() # [batch_size, pos_embed]
+
+        outputs = self.bert(input_ids=input_ids,
+                            attention_mask=attention_mask,
+                            token_type_ids=token_type_ids)
+
+        sequence_output = outputs[0] # [batch_size, seq_len, hidden_size]
+        sequence_output = self.dropout(sequence_output)
+        concat_output = torch.concat([sequence_output, pos_tag_ids], dim=-1)
+        lstm_out, _ = self.lstm(concat_output) # [batch_size, seq_len, hidden_size]
+        logits = self.classifier(lstm_out)
+
+        # add hidden states and attention if they are here
+        outputs = (logits,) + outputs[2:]
+        if labels is not None:
+            loss_fct = nn.CrossEntropyLoss()
+            # Only keep active parts of the loss
+            if attention_mask is not None:
+                active_loss = attention_mask.view(-1) == 1
+                active_logits = logits.view(-1, self.num_labels)
+                active_labels = torch.where(
+                    active_loss, labels.view(-1), torch.tensor(loss_fct.ignore_index).type_as(labels)
+                )
+                loss = loss_fct(active_logits, active_labels)
+            else:
+                loss = loss_fct(logits.view(-1, self.num_labels), labels.view(-1))
+            outputs = (loss,) + outputs
+
+        return outputs  # (loss), scores, (hidden_states), (attentions)
+
+
+
 ### TEST ###
 if "__main__" == __name__:
     config = AutoConfig.from_pretrained("klue/roberta-base",

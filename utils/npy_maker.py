@@ -1,10 +1,15 @@
+import copy
 import pickle
+from builtins import enumerate, str
+
 import numpy as np
 import torch
 from typing import List
+from eunjeon import Mecab
 
 from transformers import AutoTokenizer
 from data_def import *
+from mecab_pos_def import MECAB_POS_TAG
 
 ETRI_TAG = {
     "O": 0,
@@ -73,7 +78,8 @@ def conv_TTA_ne_category(sent_list: List[Sentence]):
             ne_item.type = conv_type
     return sent_list
 
-def make_npy(mode: str, tokenizer_name: str, sent_list: List[Sentence], max_len: int=512):
+def make_npy(mode: str, tokenizer_name: str, sent_list: List[Sentence], max_len: int=512,
+             use_pos: bool=False):
     '''
     Args:
         mode: "etri" / ...
@@ -88,12 +94,50 @@ def make_npy(mode: str, tokenizer_name: str, sent_list: List[Sentence], max_len:
         "labels": [],
         "attention_mask": [],
         "token_type_ids": [],
-        "seq_len": []
+        "seq_len": [],
+        "pos_tag": [],
     }
     tokenizer = AutoTokenizer.from_pretrained(tokenizer_name)
-    for sent in sent_list:
+    if use_pos:
+        mecab = Mecab()
+        mecab_pos2ids = {v: k for k, v in MECAB_POS_TAG.items()}
+    for proc_idx, sent in enumerate(sent_list):
+        if 0 == (proc_idx % 1000):
+            print(f"{proc_idx} Processing... {sent.text}")
         text_tokens = tokenizer.tokenize(sent.text)
         labels = ["O"] * len(text_tokens)
+
+        if use_pos:
+            # additional pos tag info
+            # target_ne_type_set = ["FD", "AF", "TM", "AM"] # f1: 0.84, 0.73, 0.83, 0.87
+            # [seq_len, num_pos_labels]
+            one_hot_vec = [[0 for _ in range(len(mecab_pos2ids.keys()))] for _ in range(max_len)] # 128, 43
+            sent_pos_res = mecab.pos(sent.text)
+            start_idx = 0
+
+            prev_rhs = ""
+            for lhs, rhs in sent_pos_res: # [형태소, pos]
+                prev_rhs += lhs
+                concat_word = ""
+                for s_idx in range(start_idx, len(text_tokens)):
+                    concat_word += text_tokens[s_idx].replace("##", "")
+                    if concat_word == prev_rhs:
+                        one_hot = [0 for _ in range(len(mecab_pos2ids.keys()))]
+                        sp_rhs = rhs.split("+")
+                        for sp_item in sp_rhs:
+                            if sp_item not in mecab_pos2ids.keys():
+                                continue
+                            conv_ids = mecab_pos2ids[sp_item]
+                            one_hot[conv_ids] = 1
+                        for vec_idx in range(start_idx, s_idx+1):
+                            if max_len <= vec_idx:
+                                break
+                            one_hot_vec[vec_idx] = copy.deepcopy(one_hot)
+                        concat_word = ""
+                        prev_rhs = ""
+                        start_idx = s_idx + 1
+                        break
+            npy_dict["pos_tag"].append(one_hot_vec)
 
         start_idx = 0
         for ne_item in sent.ne_list:
@@ -118,7 +162,7 @@ def make_npy(mode: str, tokenizer_name: str, sent_list: List[Sentence], max_len:
         # print(test_ne_print)
         # for t, l in zip(text_tokens, labels):
         #     print(t, "\t", l)
-        # input()
+        # input(11111111)
 
         text_tokens.insert(0, "[CLS]")
         labels.insert(0, "O")
@@ -163,11 +207,13 @@ def make_npy(mode: str, tokenizer_name: str, sent_list: List[Sentence], max_len:
     npy_dict["attention_mask"] = np.array(npy_dict["attention_mask"])
     npy_dict["token_type_ids"] = np.array(npy_dict["token_type_ids"])
     npy_dict["seq_len"] = np.array(npy_dict["seq_len"])
+    npy_dict["pos_tag"] = np.array(npy_dict["pos_tag"])
     print(f"input_ids.shape: {npy_dict['input_ids'].shape}")
     print(f"labels.shape: {npy_dict['labels'].shape}")
     print(f"attention_mask.shape: {npy_dict['attention_mask'].shape}")
     print(f"token_type_ids.shape: {npy_dict['token_type_ids'].shape}")
     print(f"seq_len.shape: {npy_dict['seq_len'].shape}")
+    print(f"pos_tag.shape: {npy_dict['pos_tag'].shape}")
 
     split_size = int(len(sent_list) * 0.1)
     train_size = split_size * 7
@@ -177,32 +223,43 @@ def make_npy(mode: str, tokenizer_name: str, sent_list: List[Sentence], max_len:
                 npy_dict["attention_mask"][:train_size], npy_dict["token_type_ids"][:train_size]]
     train_np = np.stack(train_np, axis=-1)
     train_seq_len_np = npy_dict["seq_len"][:train_size]
+    train_pos_tag_np = npy_dict["pos_tag"][:train_size]
     print(f"train_np.shape: {train_np.shape}")
     print(f"train_seq_len_np.shape: {train_seq_len_np.shape}")
+    print(f"train_pos_tag_np.shape: {train_pos_tag_np.shape}")
 
-    valid_np = [npy_dict["input_ids"][train_size:valid_size], npy_dict["labels"][train_size:valid_size],
-                npy_dict["attention_mask"][train_size:valid_size], npy_dict["token_type_ids"][train_size:valid_size]]
-    valid_np = np.stack(valid_np, axis=-1)
+    dev_np = [npy_dict["input_ids"][train_size:valid_size], npy_dict["labels"][train_size:valid_size],
+              npy_dict["attention_mask"][train_size:valid_size], npy_dict["token_type_ids"][train_size:valid_size]]
+    dev_np = np.stack(dev_np, axis=-1)
     dev_seq_len_np = npy_dict["seq_len"][train_size:valid_size]
-    print(f"valid_np.shape: {valid_np.shape}")
-    print(f"valid_seq_len_np.shape: {dev_seq_len_np.shape}")
+    dev_pos_tag_np = npy_dict["pos_tag"][train_size:valid_size]
+    print(f"dev_np.shape: {dev_np.shape}")
+    print(f"dev_seq_len_np.shape: {dev_seq_len_np.shape}")
+    print(f"dev_pos_tag_np.shape: {dev_pos_tag_np.shape}")
 
     test_np = [npy_dict["input_ids"][valid_size:], npy_dict["labels"][valid_size:],
                npy_dict["attention_mask"][valid_size:], npy_dict["token_type_ids"][valid_size:]]
     test_np = np.stack(test_np, axis=-1)
     test_seq_len_np = npy_dict["seq_len"][valid_size:]
+    test_pos_tag_np = npy_dict["pos_tag"][valid_size:]
     print(f"test_np.shape: {test_np.shape}")
     print(f"test_seq_len_np.shape: {test_seq_len_np.shape}")
+    print(f"test_pos_tag_np.shape: {test_pos_tag_np.shape}")
 
     # save
     np.save("../data/npy/"+mode+"/128/train", train_np)
-    np.save("../data/npy/"+mode+"/128/dev", valid_np)
+    np.save("../data/npy/"+mode+"/128/dev", dev_np)
     np.save("../data/npy/"+mode+"/128/test", test_np)
 
     # save seq_len
     np.save("../data/npy/" + mode + "/128/train_seq_len", train_seq_len_np)
     np.save("../data/npy/" + mode + "/128/dev_seq_len", dev_seq_len_np)
     np.save("../data/npy/" + mode + "/128/test_seq_len", test_seq_len_np)
+
+    # save pos_tag
+    np.save("../data/npy/" + mode + "/128/train_pos_tag", train_pos_tag_np)
+    np.save("../data/npy/" + mode + "/128/dev_pos_tag", dev_pos_tag_np)
+    np.save("../data/npy/" + mode + "/128/test_pos_tag", test_pos_tag_np)
 
 ### MAIN ###
 if "__main__" == __name__:
@@ -215,4 +272,5 @@ if "__main__" == __name__:
     all_sent_list = conv_TTA_ne_category(all_sent_list)
 
     # make npy
-    make_npy(mode="old_nikl", tokenizer_name="klue/roberta-base", sent_list=all_sent_list, max_len=128)
+    make_npy(mode="old_nikl", tokenizer_name="klue/bert-base", sent_list=all_sent_list,
+             max_len=128, use_pos=True)
