@@ -5,10 +5,10 @@ from typing import List
 @dataclass
 class Morp:
     id: int = -1
-    lemma: str = "" # 형태소
-    type: str = ""
+    form: str = ""
+    label: str = "" # 형태소
+    word_id: int = -1
     position: int = -1 # 문장에서의 byte position
-    weight: float = -1.0 # 형태소 분석 결과 신뢰도
 
 @dataclass
 class NE:
@@ -21,8 +21,16 @@ class NE:
     common_noun: int = -1 # 고유명사일 경우 0, 일반 명사일 경우 1
 
 @dataclass
+class Word:
+    id: int = -1
+    form: str = ""
+    begin: int = -1
+    end: int = -1
+
+@dataclass
 class Sentence:
     id: int = -1
     text: str = ""
+    word_list: List[Word] = field(default_factory=list)
     morp_list: List[Morp] = field(default_factory=list)
     ne_list: List[NE] = field(default_factory=list)

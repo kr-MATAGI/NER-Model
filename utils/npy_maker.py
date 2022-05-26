@@ -110,8 +110,7 @@ def make_npy(mode: str, tokenizer_name: str, sent_list: List[Sentence], max_len:
         if use_pos:
             # additional pos tag info
             # target_ne_type_set = ["FD", "AF", "TM", "AM"] # f1: 0.84, 0.73, 0.83, 0.87
-            # [seq_len, num_pos_labels]
-            one_hot_vec = [[0 for _ in range(len(mecab_pos2ids.keys()))] for _ in range(max_len)] # 128, 43
+            pos_tag_vec = [[0 for _ in range(3)] for _ in range(max_len)] # [seq_len, 3]
             sent_pos_res = mecab.pos(sent.text)
             start_idx = 0
 
@@ -122,22 +121,24 @@ def make_npy(mode: str, tokenizer_name: str, sent_list: List[Sentence], max_len:
                 for s_idx in range(start_idx, len(text_tokens)):
                     concat_word += text_tokens[s_idx].replace("##", "")
                     if concat_word == prev_rhs:
-                        one_hot = [0 for _ in range(len(mecab_pos2ids.keys()))]
                         sp_rhs = rhs.split("+")
-                        for sp_item in sp_rhs:
+                        pos_tag_elem = [0 for _ in range(3)]
+                        for sp_idx, sp_item in enumerate(sp_rhs):
+                            if 3 <= sp_idx:
+                                break
                             if sp_item not in mecab_pos2ids.keys():
                                 continue
                             conv_ids = mecab_pos2ids[sp_item]
-                            one_hot[conv_ids] = 1
+                            pos_tag_elem[sp_idx] = conv_ids
                         for vec_idx in range(start_idx, s_idx+1):
                             if max_len <= vec_idx:
                                 break
-                            one_hot_vec[vec_idx] = copy.deepcopy(one_hot)
+                            pos_tag_vec[vec_idx] = copy.deepcopy(pos_tag_elem)
                         concat_word = ""
                         prev_rhs = ""
                         start_idx = s_idx + 1
                         break
-            npy_dict["pos_tag"].append(one_hot_vec)
+            npy_dict["pos_tag"].append(pos_tag_vec)
 
         start_idx = 0
         for ne_item in sent.ne_list:

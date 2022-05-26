@@ -340,7 +340,7 @@ def main(cli_args):
                                         num_labels=len(ETRI_TAG.keys()),
                                         id2label={str(i): label for i, label in enumerate(ETRI_TAG.keys())},
                                         label2id={label: i for i, label in enumerate(ETRI_TAG.keys())})
-    config.num_pos_labels = 43
+    config.num_pos_labels = 44
 
     model = BERT_POS_LSTM(config=config)
 

@@ -121,24 +121,32 @@ class BERT_POS_LSTM(BertPreTrainedModel):
         self.max_seq_len = 128
         self.num_labels = config.num_labels
         self.num_pos_labels = config.num_pos_labels
-        #self.pos_embed_out_dim = 256
+        self.pos_embed_out_dim = 100
 
-        # pos tagging
-        # self.pos_embedding = nn.Linear(self.num_pos_labels, self.pos_embed_out_dim)
+        # pos tag embedding
+        self.pos_embedding_1 = nn.Embedding(self.num_pos_labels, self.pos_embed_out_dim)
+        #self.pos_embedding_2 = nn.Embedding(self.num_pos_labels, self.pos_embed_out_dim)
+        #self.pos_embedding_3 = nn.Embedding(self.num_pos_labels, self.pos_embed_out_dim)
 
         # bert + lstm
         self.bert = AutoModel.from_config(config=config)
         self.dropout = nn.Dropout(config.hidden_dropout_prob)
-        self.lstm = nn.LSTM(input_size=config.hidden_size + self.num_pos_labels,
-                            hidden_size=config.hidden_size, num_layers=1, batch_first=True, dropout=0.3)
-        self.classifier = nn.Linear(config.hidden_size, config.num_labels)
+        self.lstm = nn.LSTM(input_size=config.hidden_size + (self.pos_embed_out_dim * 1),
+                            hidden_size=512, num_layers=1, batch_first=True, dropout=0.3)
+        self.classifier = nn.Linear(512, config.num_labels)
 
         self.init_weights()
 
     def forward(self, input_ids, attention_mask, token_type_ids, pos_tag_ids, input_seq_len, labels=None):
         # pos embedding
         # pos_tag_ids : [batch_size, seq_len, num_pos_tags]
-        # pos_embed = self.pos_embedding(pos_tag_ids).float() # [batch_size, pos_embed]
+        pos_tag_1 = pos_tag_ids[:, :, 0] # [batch_size, seq_len]
+        pos_tag_2 = pos_tag_ids[:, :, 1] # [batch_size, seq_len]
+        pos_tag_3 = pos_tag_ids[:, :, 2] # [batch_size, seq_len]
+
+        pos_embed_1 = self.pos_embedding_1(pos_tag_1) # [batch_size, seq_len, pos_tag_embed]
+        #pos_embed_2 = self.pos_embedding_2(pos_tag_2)  # [batch_size, seq_len, pos_tag_embed]
+        #pos_embed_3 = self.pos_embedding_3(pos_tag_3)  # [batch_size, seq_len, pos_tag_embed]
 
         outputs = self.bert(input_ids=input_ids,
                             attention_mask=attention_mask,
@@ -146,7 +154,7 @@ class BERT_POS_LSTM(BertPreTrainedModel):
 
         sequence_output = outputs[0] # [batch_size, seq_len, hidden_size]
         sequence_output = self.dropout(sequence_output)
-        concat_output = torch.concat([sequence_output, pos_tag_ids], dim=-1)
+        concat_output = torch.concat([sequence_output, pos_embed_1], dim=-1)
         lstm_out, _ = self.lstm(concat_output) # [batch_size, seq_len, hidden_size]
         logits = self.classifier(lstm_out)
 
