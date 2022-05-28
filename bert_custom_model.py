@@ -140,9 +140,9 @@ class BERT_POS_LSTM(BertPreTrainedModel):
     def forward(self, input_ids, attention_mask, token_type_ids, pos_tag_ids, input_seq_len, labels=None):
         # pos embedding
         # pos_tag_ids : [batch_size, seq_len, num_pos_tags]
-        pos_tag_1 = pos_tag_ids[:, :, 0] # [batch_size, seq_len]
-        pos_tag_2 = pos_tag_ids[:, :, 1] # [batch_size, seq_len]
-        pos_tag_3 = pos_tag_ids[:, :, 2] # [batch_size, seq_len]
+        pos_tag_1 = pos_tag_ids[:, :] # [batch_size, seq_len]
+        #pos_tag_2 = pos_tag_ids[:, :, 1] # [batch_size, seq_len]
+        #pos_tag_3 = pos_tag_ids[:, :, 2] # [batch_size, seq_len]
 
         pos_embed_1 = self.pos_embedding_1(pos_tag_1) # [batch_size, seq_len, pos_tag_embed]
         #pos_embed_2 = self.pos_embedding_2(pos_tag_2)  # [batch_size, seq_len, pos_tag_embed]
