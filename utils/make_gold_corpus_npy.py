@@ -167,7 +167,7 @@ def make_npy(tokenizer_name: str, src_list: List[Sentence], max_len: int=512):
         token_type_ids = [0] * max_len
         input_ids = tokenizer.convert_tokens_to_ids(text_tokens)
         labels = [ETRI_TAG[x] for x in labels]
-        for i in range(valid_len):
+        for i in range(max_len):
             pos_tag_ids[i] = [pos_tag2ids[x] for x in pos_tag_ids[i]]
 
         assert len(input_ids) == max_len, f"{input_ids} + {len(input_ids)}"
