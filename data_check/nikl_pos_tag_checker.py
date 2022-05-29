@@ -8,7 +8,7 @@ from transformers import AutoTokenizer
 ### MAIN ##
 if "__main__" == __name__:
     src_file_path = "../data/pkl/ne_mp_old_nikl.pkl"
-    tokenizer = AutoTokenizer.from_pretrained("monologg/koelectra-small-v3-discriminator")
+    tokenizer = AutoTokenizer.from_pretrained("klue/bert-base")
     results = { # tag: (word_item, morp_item_list) pair
         "JX": [],
         "EP": [],
