@@ -88,6 +88,7 @@ class NER_pos_Dataset(Dataset):
         self.pos_tag = pos_data
         self.input_seq_len = seq_len
 
+        print(self.pos_tag)
         self.input_ids = torch.tensor(self.input_ids, dtype=torch.long)
         self.attention_mask = torch.tensor(self.attention_mask, dtype=torch.long)
         self.token_type_ids = torch.tensor(self.token_type_ids, dtype=torch.long)
