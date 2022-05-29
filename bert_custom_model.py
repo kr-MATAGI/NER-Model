@@ -154,7 +154,7 @@ class BERT_POS_LSTM(BertPreTrainedModel):
 
         sequence_output = outputs[0] # [batch_size, seq_len, hidden_size]
         sequence_output = self.dropout(sequence_output)
-        concat_output = torch.concat([sequence_output, pos_embed_1], dim=-1)
+        concat_output = torch.concat([sequence_output, pos_embed_1, pos_embed_2, pos_embed_3], dim=-1)
         lstm_out, _ = self.lstm(concat_output) # [batch_size, seq_len, hidden_size]
         logits = self.classifier(lstm_out)
 

@@ -76,7 +76,7 @@ def make_npy(tokenizer_name: str, src_list: List[Sentence], max_len: int=512):
         "seq_len": [],
         "pos_tag_ids": [],
     }
-    pos_tag2ids = {v: k for k, v in NIKL_POS_TAG.items()}
+    pos_tag2ids = {v: int(k) for k, v in NIKL_POS_TAG.items()}
 
     tokenizer = AutoTokenizer.from_pretrained(tokenizer_name)
     for proc_idx, sent in enumerate(src_list):
