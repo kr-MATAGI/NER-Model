@@ -11,8 +11,6 @@ from data_def import Sentence, NE, Morp
 
 from transformers import AutoTokenizer
 
-from jamo import h2j, j2hcj
-
 def conv_TTA_ne_category(sent_list: List[Sentence]):
     '''
     NE Type : 세분류 -> 대분류
@@ -296,6 +294,14 @@ def make_npy(tokenizer_name: str, src_list: List[Sentence], max_len: int=512):
 ### MAIN ###
 if "__main__" == __name__:
     print("NPY MAKER !")
+
+    # TEST
+    tokenizer = AutoTokenizer.from_pretrained("monologg/koelectra-small-v3-discriminator")
+    a = "고인의 삼남 최만립(81)씨는 법정에서 \"64년간 통한의 세월을 보냈는데 아버지 명예를 회복해 기쁘기 한량없다\"고 말했다."
+    print(tokenizer.tokenize(a))
+
+
+    exit()
 
     all_sent_list = []
     with open("../data/pkl/ne_mp_old_nikl.pkl", mode="rb") as pkl_file:

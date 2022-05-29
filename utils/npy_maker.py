@@ -9,7 +9,7 @@ from eunjeon import Mecab
 
 from transformers import AutoTokenizer
 from data_def import *
-from mecab_pos_def import MECAB_POS_TAG
+from pos_tag_def import MECAB_POS_TAG
 
 ETRI_TAG = {
     "O": 0,
