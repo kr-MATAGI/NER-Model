@@ -184,7 +184,6 @@ def make_wordpiece_npy(tokenizer_name:str, src_list: List[Sentence], max_len: in
 
         # TEST and Print
         #test_ne_print = [(x.text, x.type) for x in sent.ne_list]
-        #id2la = {v: k for k, v in ETRI_TAG.items()}
         #print(test_ne_print)
         #for t, l in zip(text_tokens, labels):
         #    print(t, "\t", l)
@@ -192,9 +191,12 @@ def make_wordpiece_npy(tokenizer_name:str, src_list: List[Sentence], max_len: in
 
         # Morp
         start_idx = 0
+        # Test
+        test_str = "▷잘못된 체제에다 무능하고 부패한 지도자를 만나 허덕이는 북한 주민도 해외에서 외화벌이에 나서고 있다."
+        if test_str != sent.text:
+            continue
         for morp_item in sent.morp_list:
             is_find = False
-            mp_tokens = tokenizer.tokenize(morp_item.form)
             split_morp_label_item = morp_item.label.split("+")
 
             for s_idx in range(start_idx, len(text_tokens)):
@@ -206,9 +208,11 @@ def make_wordpiece_npy(tokenizer_name:str, src_list: List[Sentence], max_len: in
                     concat_str = "".join(concat_text_tokens)
                     if len(concat_str) > len(morp_item.form):
                         break
-
+                    if pos_tag_ids[s_idx][0] != "O":
+                        continue
+                    # print(concat_str, morp_item.form, morp_item.label)
                     if concat_str == morp_item.form:
-                        # print("A:", concat_str, morp_item.form, morp_item.label)
+                        print("A:", concat_str, morp_item.form, morp_item.label)
                         for p_idx in range(s_idx, s_idx+word_size):
                             for sp_idx, sp_item in enumerate(split_morp_label_item):
                                 if 2 < sp_idx:
@@ -217,8 +221,16 @@ def make_wordpiece_npy(tokenizer_name:str, src_list: List[Sentence], max_len: in
                                 if "" == sp_item: # Exception
                                     pos_tag_ids[p_idx][sp_idx] = "O"
                         is_find = True
-                        start_idx = s_idx
+                        #start_idx = s_idx + word_size
                         break
+        # TEST and Print
+        test_ne_print = [(x.form, x.label) for x in sent.morp_list]
+        id2pos = {v: k for k, v in NIKL_POS_TAG.items()}
+        print(test_ne_print)
+        for t, l in zip(text_tokens, pos_tag_ids):
+           print(t, "\t", l)
+        input()
+
         text_tokens.insert(0, "[CLS]")
         labels.insert(0, "O")
         pos_tag_ids.insert(0, (["O"] * 3))
