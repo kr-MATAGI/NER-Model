@@ -131,9 +131,9 @@ class BERT_POS_LSTM(BertPreTrainedModel):
 
         # bert + lstm
         self.bert = AutoModel.from_config(config=config)
-        self.dropout = nn.Dropout(0.3)
         self.lstm = nn.LSTM(input_size=config.hidden_size + (self.pos_embed_out_dim * 3),
                             hidden_size=config.hidden_size, num_layers=1, batch_first=False, dropout=0.3)
+        self.dropout = nn.Dropout(0.3)
         self.classifier = nn.Linear(config.hidden_size, config.num_labels)
 
         self.post_init()
@@ -166,7 +166,6 @@ class BERT_POS_LSTM(BertPreTrainedModel):
             loss = loss_fct(logits.view(-1, self.num_labels), labels.view(-1))
 
         output = (logits,) + outputs[2:]
-        print(outputs[2:])
         return ((loss,) + output) if loss is not None else output
 
 ### TEST ###
