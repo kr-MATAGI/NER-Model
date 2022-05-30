@@ -134,8 +134,10 @@ class BERT_POS_LSTM(BertPreTrainedModel):
         self.lstm = nn.LSTM(input_size=config.hidden_size + (self.pos_embed_out_dim * 3),
                             hidden_size=config.hidden_size, num_layers=1, batch_first=True, dropout=0.3)
         self.classifier = nn.Linear(config.hidden_size, config.num_labels)
+        self.crf = CRF(num_tags=config.num_labels, batch_first=True)
 
-        self.init_weights()
+
+        self.post_init()
 
     def forward(self, input_ids, attention_mask, token_type_ids, pos_tag_ids, input_seq_len, labels=None):
         # pos embedding
@@ -158,23 +160,15 @@ class BERT_POS_LSTM(BertPreTrainedModel):
         lstm_out, _ = self.lstm(concat_output) # [batch_size, seq_len, hidden_size]
         logits = self.classifier(lstm_out)
 
-        # add hidden states and attention if they are here
-        outputs = (logits,) + outputs[2:]
         if labels is not None:
-            loss_fct = nn.CrossEntropyLoss()
-            # Only keep active parts of the loss
-            if attention_mask is not None:
-                active_loss = attention_mask.view(-1) == 1
-                active_logits = logits.view(-1, self.num_labels)
-                active_labels = torch.where(
-                    active_loss, labels.view(-1), torch.tensor(loss_fct.ignore_index).type_as(labels)
-                )
-                loss = loss_fct(active_logits, active_labels)
-            else:
-                loss = loss_fct(logits.view(-1, self.num_labels), labels.view(-1))
-            outputs = (loss,) + outputs
+            log_likelihood, sequence_of_tags = self.crf(emissions=logits, tags=labels, mask=attention_mask.bool(),
+                                                        reduction="mean"), self.crf.decode(logits,
+                                                                                           mask=attention_mask.bool())
+            return log_likelihood, sequence_of_tags
+        else:
+            sequence_of_tags = self.crf.decode(logits)
+            return sequence_of_tags
 
-        return outputs  # (loss), scores, (hidden_states), (attentions)
 
 
 
