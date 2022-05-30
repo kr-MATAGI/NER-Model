@@ -25,3 +25,6 @@
   6. KLUE/BERT-IDCNN-CRF : 0.9166425426233754
   
  
+## Feature Embedding 참고
+https://jeonghyeokpark.netlify.app/pytorch/2020/12/17/pytorch5.html
+

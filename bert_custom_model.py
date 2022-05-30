@@ -6,6 +6,7 @@ from transformers import (
 )
 from torch.nn.utils.rnn import pack_padded_sequence, pad_packed_sequence
 import copy
+from transformers.modeling_outputs import TokenClassifierOutput
 
 from crf_layer import CRF
 
@@ -56,7 +57,7 @@ class BERT_LSTM_CRF(BertPreTrainedModel):
                                                                                            mask=attention_mask.bool())
             return log_likelihood, sequence_of_tags
         else:
-            sequence_of_tags = self.crf.decode(emissions)
+            sequence_of_tags = self.crf.decode(emissions, mask=attention_mask.bool())
             return sequence_of_tags
 
 #====================================================================================
@@ -136,7 +137,6 @@ class BERT_POS_LSTM(BertPreTrainedModel):
         self.classifier = nn.Linear(config.hidden_size, config.num_labels)
         self.crf = CRF(num_tags=config.num_labels, batch_first=True)
 
-
         self.post_init()
 
     def forward(self, input_ids, attention_mask, token_type_ids, pos_tag_ids, input_seq_len, labels=None):
@@ -159,6 +159,16 @@ class BERT_POS_LSTM(BertPreTrainedModel):
         concat_output = torch.concat([sequence_output, pos_embed_1, pos_embed_2, pos_embed_3], dim=-1)
         lstm_out, _ = self.lstm(concat_output) # [batch_size, seq_len, hidden_size]
         logits = self.classifier(lstm_out)
+
+        loss = None
+        if labels is not None:
+            loss_fct = nn.CrossEntropyLoss()
+            loss = loss_fct(logits.view(-1, labels), labels.view(-1))
+
+        return TokenClassifierOutput(
+            loss=loss, logits=logits, attentions=attention_mask
+        )
+
 
         if labels is not None:
             log_likelihood, sequence_of_tags = self.crf(emissions=logits, tags=labels, mask=attention_mask.bool(),
