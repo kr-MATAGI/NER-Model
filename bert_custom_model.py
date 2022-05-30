@@ -133,7 +133,7 @@ class BERT_POS_LSTM(BertPreTrainedModel):
         self.bert = AutoModel.from_config(config=config)
         self.dropout = nn.Dropout(0.3)
         self.lstm = nn.LSTM(input_size=config.hidden_size + (self.pos_embed_out_dim * 3),
-                            hidden_size=config.hidden_size, num_layers=1, batch_first=True, dropout=0.3)
+                            hidden_size=config.hidden_size, num_layers=1, batch_first=False, dropout=0.3)
         self.classifier = nn.Linear(config.hidden_size, config.num_labels)
 
         self.post_init()
@@ -154,7 +154,8 @@ class BERT_POS_LSTM(BertPreTrainedModel):
                             token_type_ids=token_type_ids)
 
         sequence_output = outputs[0] # [batch_size, seq_len, hidden_size]
-        concat_embed = torch.concat([sequence_output, pos_embed_1, pos_embed_2, pos_embed_3], dim=-1)
+        concat_embed = torch.concat([pos_embed_1, pos_embed_2, pos_embed_3], dim=-1)
+        concat_embed = torch.concat([sequence_output, concat_embed], dim=-1)
         lstm_out, _ = self.lstm(concat_embed) # [batch_size, seq_len, hidden_size]
         lstm_out = self.dropout(lstm_out)
         logits = self.classifier(lstm_out)
@@ -164,12 +165,9 @@ class BERT_POS_LSTM(BertPreTrainedModel):
             loss_fct = nn.CrossEntropyLoss()
             loss = loss_fct(logits.view(-1, self.num_labels), labels.view(-1))
 
-        return TokenClassifierOutput(
-            loss=loss,
-            logits=logits,
-            # hidden_states=outputs.hidden_states,
-            attentions=outputs.attentions,
-        )
+        output = (logits,) + outputs[2:]
+        print(outputs[2:])
+        return ((loss,) + output) if loss is not None else output
 
 ### TEST ###
 if "__main__" == __name__:

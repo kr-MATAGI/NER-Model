@@ -212,7 +212,7 @@ def make_wordpiece_npy(tokenizer_name:str, src_list: List[Sentence], max_len: in
                         continue
                     # print(concat_str, morp_item.form, morp_item.label)
                     if concat_str == morp_item.form:
-                        print("A:", concat_str, morp_item.form, morp_item.label)
+                        #print("A:", concat_str, morp_item.form, morp_item.label)
                         for p_idx in range(s_idx, s_idx+word_size):
                             for sp_idx, sp_item in enumerate(split_morp_label_item):
                                 if 2 < sp_idx:
