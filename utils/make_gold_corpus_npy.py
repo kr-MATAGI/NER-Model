@@ -153,6 +153,11 @@ def make_wordpiece_npy(tokenizer_name:str, src_list: List[Sentence], max_len: in
 
         # NE
         start_idx = 0
+        # Testing
+        #text_tokens = tokenizer.tokenize("잘 안 쓰드라고 그냥 안경이 더 편하다고 안경")
+        #a = NE(id=1, text="안경", type="CV")
+        #b = NE(id=2, text="안경", type="CV")
+        #sent.ne_list = [a, b]
         for ne_item in sent.ne_list:
             is_find = False
             for s_idx in range(start_idx, len(text_tokens)):
@@ -163,7 +168,7 @@ def make_wordpiece_npy(tokenizer_name:str, src_list: List[Sentence], max_len: in
                     concat_text_tokens = [x.replace("##", "") for x in concat_text_tokens]
 
                     if "".join(concat_text_tokens) == ne_item.text.replace(" ", ""):
-                        # print("A : ", concat_text_tokens, ne_item.text)
+                        #print("A : ", concat_text_tokens, ne_item.text, s_idx)
 
                         # BIO Tagging
                         for bio_idx in range(s_idx, s_idx + word_cnt):
@@ -173,17 +178,17 @@ def make_wordpiece_npy(tokenizer_name:str, src_list: List[Sentence], max_len: in
                                 labels[bio_idx] = "I-" + ne_item.type
 
                         is_find = True
-                        start_idx = s_idx
+                        start_idx = s_idx + word_cnt
                         break
         ## end, ne_item loop
 
         # TEST and Print
-        # test_ne_print = [(x.text, x.type) for x in sent.ne_list]
-        # id2la = {v: k for k, v in ETRI_TAG.items()}
-        # print(test_ne_print)
-        # for t, l in zip(text_tokens, labels):
-        #     print(t, "\t", l)
-        # input()
+        #test_ne_print = [(x.text, x.type) for x in sent.ne_list]
+        #id2la = {v: k for k, v in ETRI_TAG.items()}
+        #print(test_ne_print)
+        #for t, l in zip(text_tokens, labels):
+        #    print(t, "\t", l)
+        #input()
 
         # Morp
         start_idx = 0

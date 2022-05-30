@@ -131,11 +131,10 @@ class BERT_POS_LSTM(BertPreTrainedModel):
 
         # bert + lstm
         self.bert = AutoModel.from_config(config=config)
-        self.dropout = nn.Dropout(config.hidden_dropout_prob)
+        self.dropout = nn.Dropout(0.3)
         self.lstm = nn.LSTM(input_size=config.hidden_size + (self.pos_embed_out_dim * 3),
                             hidden_size=config.hidden_size, num_layers=1, batch_first=True, dropout=0.3)
         self.classifier = nn.Linear(config.hidden_size, config.num_labels)
-        self.crf = CRF(num_tags=config.num_labels, batch_first=True)
 
         self.post_init()
 
@@ -155,32 +154,22 @@ class BERT_POS_LSTM(BertPreTrainedModel):
                             token_type_ids=token_type_ids)
 
         sequence_output = outputs[0] # [batch_size, seq_len, hidden_size]
-        sequence_output = self.dropout(sequence_output)
-        concat_output = torch.concat([sequence_output, pos_embed_1, pos_embed_2, pos_embed_3], dim=-1)
-        lstm_out, _ = self.lstm(concat_output) # [batch_size, seq_len, hidden_size]
+        concat_embed = torch.concat([sequence_output, pos_embed_1, pos_embed_2, pos_embed_3], dim=-1)
+        lstm_out, _ = self.lstm(concat_embed) # [batch_size, seq_len, hidden_size]
+        lstm_out = self.dropout(lstm_out)
         logits = self.classifier(lstm_out)
 
         loss = None
         if labels is not None:
             loss_fct = nn.CrossEntropyLoss()
-            loss = loss_fct(logits.view(-1, labels), labels.view(-1))
+            loss = loss_fct(logits.view(-1, self.num_labels), labels.view(-1))
 
         return TokenClassifierOutput(
-            loss=loss, logits=logits, attentions=attention_mask
+            loss=loss,
+            logits=logits,
+            # hidden_states=outputs.hidden_states,
+            attentions=outputs.attentions,
         )
-
-
-        if labels is not None:
-            log_likelihood, sequence_of_tags = self.crf(emissions=logits, tags=labels, mask=attention_mask.bool(),
-                                                        reduction="mean"), self.crf.decode(logits,
-                                                                                           mask=attention_mask.bool())
-            return log_likelihood, sequence_of_tags
-        else:
-            sequence_of_tags = self.crf.decode(logits)
-            return sequence_of_tags
-
-
-
 
 ### TEST ###
 if "__main__" == __name__:

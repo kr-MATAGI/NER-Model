@@ -143,8 +143,8 @@ def evaluate(args, model, eval_dataset, mode, global_step=None, train_epoch=0):
                 "pos_tag_ids": batch["pos_tag_ids"].to(args.device)
             }
 
-            log_likelihood, outputs = model(**inputs)
-            loss = -1 * log_likelihood
+            outputs = model(**inputs)
+            loss, logits = outputs[:2]
             eval_loss += loss.mean().item()
 
         nb_eval_steps += 1
@@ -152,10 +152,10 @@ def evaluate(args, model, eval_dataset, mode, global_step=None, train_epoch=0):
         eval_pbar.set_description("Eval Loss - %.04f" % (eval_loss / nb_eval_steps))
 
         if preds is None:
-            preds = np.array(outputs)
+            preds = logits.detach().cpu().numpy()
             out_label_ids = inputs["labels"].detach().cpu().numpy()
         else:
-            preds = np.append(preds, np.array(outputs), axis=0)
+            preds = np.append(preds, logits.detach().cpu().numpy(), axis=0)
             out_label_ids = np.append(out_label_ids, inputs["labels"].detach().cpu().numpy(), axis=0)
 
     logger.info("  Eval End !")
@@ -166,7 +166,7 @@ def evaluate(args, model, eval_dataset, mode, global_step=None, train_epoch=0):
         "loss": eval_loss
     }
 
-    #preds = np.argmax(preds, axis=2)
+    preds = np.argmax(preds, axis=2)
 
     labels = ETRI_TAG.keys()
     label_map = {i: label for i, label in enumerate(labels)}
@@ -262,8 +262,7 @@ def train(args, model, train_dataset, dev_dataset):
                 "pos_tag_ids": batch["pos_tag_ids"].to(args.device)
             }
 
-            log_likelihood, outputs = model(**inputs)
-            loss = -1 * log_likelihood
+            loss = model(**inputs)[0]
 
             if 1 < args.n_gpu:
                 loss = loss.mean()

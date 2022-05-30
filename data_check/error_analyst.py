@@ -11,8 +11,7 @@ from bert_custom_model import BERT_LSTM_CRF
 from utils.ne_tag_def import ETRI_TAG
 
 
-### MAIN ###
-if "__main__" == __name__:
+def classify_tag_err():
     start_time = time.time()
 
     model_path = "./model/klue-bert-base-lstm-crf"
@@ -27,13 +26,13 @@ if "__main__" == __name__:
 
     ERROR_COUNT = 0
     labels_list = [x.replace("B-", "").replace("I-", "") for x in ETRI_TAG.keys()]
-    ERROR_DICT = {k:[] for k in labels_list}
+    ERROR_DICT = {k: [] for k in labels_list}
 
     model.eval()
-    ids_to_tag = {v:k for k, v in ETRI_TAG.items()}
+    ids_to_tag = {v: k for k, v in ETRI_TAG.items()}
     for data_idx in range(total_data_size):
         if 0 == (data_idx % 100):
-            print(f"{data_idx} is Processing... {(data_idx+1)/total_data_size * 100}")
+            print(f"{data_idx} is Processing... {(data_idx + 1) / total_data_size * 100}")
         inputs = {
             "input_ids": torch.LongTensor([target_ids_data[data_idx, :, 0]]),
             # "labels": torch.LongTensor([target_ids_data[data_idx, :, 1]]),
@@ -66,16 +65,43 @@ if "__main__" == __name__:
             for err_label in err_label_list:
                 err_key = err_label
                 ERROR_DICT[err_key].append(pd_df)
-            #print(pd_df)
+            # print(pd_df)
 
     # end
     print(f"ERR_COUNT = {ERROR_COUNT}")
-    print(f"Total Time = {time.time()-start_time}")
+    print(f"Total Time = {time.time() - start_time}")
 
     # write
     for label_key in ERROR_DICT.keys():
-        if not os.path.exists("./err_dir/"+label_key):
-            os.mkdir("./err_dir/"+label_key)
+        if not os.path.exists("./err_dir/" + label_key):
+            os.mkdir("./err_dir/" + label_key)
 
         for err_idx, err_df in enumerate(ERROR_DICT[label_key]):
-            err_df.to_csv("./err_dir/"+label_key+"/"+str(err_idx), sep="\t", encoding="utf-8")
+            err_df.to_csv("./err_dir/" + label_key + "/" + str(err_idx), sep="\t", encoding="utf-8")
+
+def check_classify_tag_size(path: str):
+    '''
+        @NOTE
+            {'O': 1517,
+            'PS': 122, 'LC': 118,
+            'OG': 165, 'AF': 128,
+            'DT': 101, 'TI': 23,
+            'CV': 520, 'AM': 48,
+            'PT': 45, 'QT': 261,
+            'FD': 78, 'TR': 25,
+            'EV': 41, 'MT': 17,
+            'TM': 183}
+    '''
+    labels_list = [x.replace("B-", "").replace("I-", "") for x in ETRI_TAG.keys()]
+    SIZE_DICT = {k: 0 for k in labels_list}
+
+    list_file = os.listdir(path)
+    for tag_name in list_file:
+        SIZE_DICT[tag_name] = len(os.listdir(path+"/"+tag_name))
+    print(SIZE_DICT)
+
+
+### MAIN ###
+if "__main__" == __name__:
+    # classify_tag_err()
+    check_classify_tag_size("./err_dir")
