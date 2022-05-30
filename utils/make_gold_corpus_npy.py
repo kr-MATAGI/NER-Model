@@ -193,8 +193,8 @@ def make_wordpiece_npy(tokenizer_name:str, src_list: List[Sentence], max_len: in
         start_idx = 0
         # Test
         test_str = "▷잘못된 체제에다 무능하고 부패한 지도자를 만나 허덕이는 북한 주민도 해외에서 외화벌이에 나서고 있다."
-        if test_str != sent.text:
-            continue
+        # if test_str != sent.text:
+        #     continue
         for morp_item in sent.morp_list:
             is_find = False
             split_morp_label_item = morp_item.label.split("+")
@@ -224,12 +224,12 @@ def make_wordpiece_npy(tokenizer_name:str, src_list: List[Sentence], max_len: in
                         #start_idx = s_idx + word_size
                         break
         # TEST and Print
-        test_ne_print = [(x.form, x.label) for x in sent.morp_list]
-        id2pos = {v: k for k, v in NIKL_POS_TAG.items()}
-        print(test_ne_print)
-        for t, l in zip(text_tokens, pos_tag_ids):
-           print(t, "\t", l)
-        input()
+        # test_ne_print = [(x.form, x.label) for x in sent.morp_list]
+        # id2pos = {v: k for k, v in NIKL_POS_TAG.items()}
+        # print(test_ne_print)
+        # for t, l in zip(text_tokens, pos_tag_ids):
+        #    print(t, "\t", l)
+        # input()
 
         text_tokens.insert(0, "[CLS]")
         labels.insert(0, "O")
