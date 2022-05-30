@@ -132,9 +132,10 @@ class BERT_POS_LSTM(BertPreTrainedModel):
         # bert + lstm
         self.bert = AutoModel.from_config(config=config)
         self.lstm = nn.LSTM(input_size=config.hidden_size + (self.pos_embed_out_dim * 3),
-                            hidden_size=config.hidden_size, num_layers=1, batch_first=False, dropout=0.3)
+                            hidden_size=config.hidden_size + (self.pos_embed_out_dim * 3),
+                            num_layers=1, batch_first=True, dropout=0.3)
         self.dropout = nn.Dropout(0.3)
-        self.classifier = nn.Linear(config.hidden_size, config.num_labels)
+        self.classifier = nn.Linear(config.hidden_size + (self.pos_embed_out_dim * 3), config.num_labels)
 
         self.post_init()
 
