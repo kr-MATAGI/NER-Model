@@ -83,10 +83,6 @@ def make_npy(tokenizer_name: str, src_list: List[Sentence], max_len: int=512):
         if 0 == (proc_idx % 1000):
             print(f"{proc_idx} Processing... {sent.text}")
 
-        # if 321000 >= proc_idx: # [ 그, 근처, ##라드, ##라고] , [라, 드라, 고]
-        #     continue
-
-
         text_tokens = []
         for mp_item in sent.morp_list:
             mp_tokens = tokenizer.tokenize(mp_item.form)
@@ -99,28 +95,35 @@ def make_npy(tokenizer_name: str, src_list: List[Sentence], max_len: int=512):
         # NE
         start_idx = 0
         for ne_item in sent.ne_list:
-            ne_tokens = tokenizer.tokenize(ne_item.text)
-
+            is_find = False
             for s_idx in range(start_idx, len(text_tokens)):
-                concat_token = text_tokens[s_idx:s_idx + len(ne_tokens)]
-
-                if "".join(concat_token) == "".join(ne_tokens):
-                    for l_idx in range(s_idx, s_idx + len(ne_tokens)):
-                        if l_idx == s_idx:
-                            labels[l_idx] = "B-" + ne_item.type
-                        else:
-                            labels[l_idx] = "I-" + ne_item.type
-                    start_idx = s_idx
+                if is_find:
                     break
+                for word_cnt in range(0, len(text_tokens) - s_idx + 1):
+                    concat_text_tokens = text_tokens[s_idx:s_idx+word_cnt]
+                    concat_text_tokens = [x.replace("##", "") for x in concat_text_tokens]
+
+                    if "".join(concat_text_tokens) == ne_item.text.replace(" ", ""):
+                        print("A : ", concat_text_tokens, ne_item.text)
+
+                        # BIO Tagging
+                        for bio_idx in range(s_idx, s_idx+word_cnt):
+                            if bio_idx == s_idx:
+                                labels[bio_idx] = "B-" + ne_item.type
+                            else:
+                                labels[bio_idx] = "I-" + ne_item.type
+
+                        is_find = True
+                        start_idx = s_idx
+                        break
         ## end, ne_item loop
 
-        # TEST
-        # test_ne_print = [(x.text, x.type) for x in sent.ne_list]
-        # id2la = {v: k for k, v in ETRI_TAG.items()}
-        # print(test_ne_print)
-        # for t, l in zip(text_tokens, labels):
-        #     print(t, "\t", l)
-        # input()
+        # TEST and Print
+        test_ne_print = [(x.text, x.type) for x in sent.ne_list]
+        id2la = {v: k for k, v in ETRI_TAG.items()}
+        print(test_ne_print)
+        for t, l in zip(text_tokens, labels):
+            print(t, "\t", l)
 
         # Morp
         pos_idx = 0

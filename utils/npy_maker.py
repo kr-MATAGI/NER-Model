@@ -5,7 +5,8 @@ from builtins import enumerate, str
 import numpy as np
 import torch
 from typing import List
-from eunjeon import Mecab
+from eunjeon import Mecab # window
+from konlpy.tag import Mecab # mac
 
 from transformers import AutoTokenizer
 from data_def import *
