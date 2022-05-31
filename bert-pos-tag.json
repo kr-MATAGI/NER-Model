@@ -1,7 +1,7 @@
 {
   "task": "custom",
   "data_dir": "data",
-  "ckpt_dir": "ckpt-bert-base-pos-128",
+  "ckpt_dir": "ckpt-bert-base-pos-bi-128",
   "train_npy": "./data/npy/old_nikl/128/train.npy",
   "dev_npy": "./data/npy/old_nikl/128/dev.npy",
   "test_npy": "./data/npy/old_nikl/128/test.npy",
@@ -22,7 +22,7 @@
   "no_cuda": false,
   "model_type": "klue-bert-base",
   "model_name_or_path": "klue/bert-base",
-  "output_dir": "klue-bert-base-pos-ckpt",
+  "output_dir": "klue-bert-base-pos-bi-ckpt",
   "seed": 42,
   "train_batch_size": 64,
   "eval_batch_size": 128,
