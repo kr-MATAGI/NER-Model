@@ -6,7 +6,7 @@ import pandas as pd
 import os
 
 from transformers import AutoModel, AutoTokenizer
-from bert_custom_model import BERT_LSTM_CRF
+from bert_custom_model import BERT_LSTM_CRF, BERT_POS_LSTM
 
 from utils.ne_tag_def import ETRI_TAG
 
@@ -14,15 +14,17 @@ from utils.ne_tag_def import ETRI_TAG
 def classify_tag_err():
     start_time = time.time()
 
-    model_path = "./model/klue-bert-base-lstm-crf"
-    model = BERT_LSTM_CRF.from_pretrained(model_path)
+    model_path = "./model/klue-bert-base-pos"
+    model = BERT_POS_LSTM.from_pretrained(model_path)
     tokenizer = AutoTokenizer.from_pretrained("klue/bert-base")
 
     target_ids_data = np.load("./target_data/dev.npy")
     target_seq_len_data = np.load("./target_data/dev_seq_len.npy")
+    target_pos_tag_data = np.load("./target_data/dev_pos_tag.npy")
     total_data_size = target_ids_data.shape[0]
     print(f"target_ids_data.shape: {target_ids_data.shape}")
     print(f"target_seq_len_data.shape: {target_seq_len_data.shape}")
+    print(f"target_pos_tag_data.shape: {target_pos_tag_data.shape}")
 
     ERROR_COUNT = 0
     labels_list = [x.replace("B-", "").replace("I-", "") for x in ETRI_TAG.keys()]
@@ -35,14 +37,17 @@ def classify_tag_err():
             print(f"{data_idx} is Processing... {(data_idx + 1) / total_data_size * 100}")
         inputs = {
             "input_ids": torch.LongTensor([target_ids_data[data_idx, :, 0]]),
-            # "labels": torch.LongTensor([target_ids_data[data_idx, :, 1]]),
+            "labels": torch.LongTensor([target_ids_data[data_idx, :, 1]]),
             "attention_mask": torch.LongTensor([target_ids_data[data_idx, :, 2]]),
             "token_type_ids": torch.LongTensor([target_ids_data[data_idx, :, 3]]),
-            # "seq_len": [target_seq_len_data[data_idx]]
+            "input_seq_len": torch.LongTensor(target_seq_len_data[data_idx]),
+            "pos_tag_ids": torch.LongTensor([target_pos_tag_data[data_idx, :]])
         }
 
         outputs = model(**inputs)
-        preds = outputs[0]
+        loss, logits = outputs[:2]
+        preds = logits.detach().cpu().numpy()
+        preds = np.argmax(preds, axis=2)[0].tolist()
         labels = target_ids_data[data_idx, :, 1]
         text = tokenizer.convert_ids_to_tokens(inputs["input_ids"][0])
 
@@ -103,5 +108,5 @@ def check_classify_tag_size(path: str):
 
 ### MAIN ###
 if "__main__" == __name__:
-    # classify_tag_err()
-    check_classify_tag_size("./err_dir")
+    classify_tag_err()
+    # check_classify_tag_size("./err_dir")
