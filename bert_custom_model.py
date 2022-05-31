@@ -130,7 +130,7 @@ class BERT_POS_LSTM(BertPreTrainedModel):
         self.pos_embedding_3 = nn.Embedding(self.num_pos_labels, self.pos_embed_out_dim)
 
         # bert + lstm
-        self.bert = AutoModel.from_config(config=config)
+        self.bert = AutoModel.from_pretrained(config._name_or_path, config=config)
         self.lstm = nn.LSTM(input_size=config.hidden_size + (self.pos_embed_out_dim * 3),
                             hidden_size=(config.hidden_size + (self.pos_embed_out_dim * 3)) // 2,
                             num_layers=1, batch_first=True, dropout=0.3, bidirectional=True)
