@@ -1,0 +1,16 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-EV
+1	중기	O	O	O, B-OG, B-CV, B-TM, B-PS
+2	##육	O	O	O, I-OG, I-CV, I-TM, I-AF
+3	##성	O	O	O, I-OG, I-CV, I-TM, I-AF
+4	·	O	O	O, I-OG, I-CV, I-AF, B-PS
+5	4	B-QT	B-EV	B-EV, B-QT, B-TR, B-TM, O
+6	##차	I-QT	I-EV	I-EV, I-QT, I-TR, I-TM, O
+7	##산업	B-EV	I-EV	I-EV, I-QT, I-TR, I-TM, O
+8	##혁명	I-EV	I-EV	I-EV, I-QT, I-TR, I-TM, O
+9	·	O	O	O, I-EV, I-QT, I-TM, I-AF
+10	규제	O	O	O, B-CV, B-TM, B-TR, B-OG
+11	##완	O	O	O, I-CV, I-TM, I-TR, I-AF
+12	##화	O	O	O, I-CV, I-TM, I-TR, I-OG
+13	등	O	O	O, I-CV, I-OG, I-AF, B-PS
+14	[SEP]	O	O	O, B-CV, B-LC, I-CV, B-PS

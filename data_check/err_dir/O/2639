@@ -1,0 +1,14 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
+1	원본	O	O	O, B-AF, B-LC, B-CV, B-PS
+2	##은	O	O	O, B-CV, I-AF, B-OG, B-LC
+3	미국	B-LC	B-LC	B-LC, B-OG, O, B-AF, B-PS
+4	의회	O	B-OG	B-OG, I-OG, O, B-AF, I-AF
+5	##도	O	I-OG	I-OG, O, I-AF, I-LC, B-OG
+6	##서관	O	I-OG	I-OG, O, I-AF, I-LC, I-PS
+7	##이	O	O	O, I-OG, B-PS, I-AF, B-CV
+8	소장	O	O	O, B-CV, B-LC, B-TM, B-OG
+9	중	O	O	O, I-OG, B-PS, I-AF, I-CV
+10	##이다	O	O	O, B-CV, I-OG, B-LC, B-OG
+11	.	O	O	O, B-OG, B-LC, B-CV, B-PS
+12	[SEP]	O	O	O, B-CV, B-OG, B-LC, I-OG

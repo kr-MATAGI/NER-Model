@@ -1,0 +1,26 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-EV, I-CV
+1	1964	B-DT	B-DT	B-DT, O, B-QT, I-DT, B-EV
+2	##년	I-DT	I-DT	I-DT, O, I-QT, B-DT, I-PS
+3	세워진	O	O	O, B-AF, I-DT, B-CV, I-AF
+4	화	B-OG	B-AF	B-AF, O, B-PS, B-LC, I-AF
+5	##양	I-OG	I-AF	I-AF, O, I-LC, I-PS, I-OG
+6	##극장	I-OG	I-AF	I-AF, O, I-LC, I-PS, I-OG
+7	##을	O	O	O, I-AF, I-OG, B-CV, I-EV
+8	2008	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-LC
+9	##년	I-DT	I-DT	I-DT, O, I-QT, B-DT, I-PS
+10	노인	O	O	O, B-AF, B-FD, B-TM, B-CV
+11	##전	O	O	O, I-AF, I-LC, I-CV, I-FD
+12	##용	O	O	O, I-AF, I-LC, I-CV, I-OG
+13	##극장	O	O	O, I-AF, I-LC, I-OG, I-CV
+14	·	O	O	O, I-AF, I-LC, I-OG, I-CV
+15	공연장	O	O	O, I-AF, B-AF, I-LC, B-LC
+16	##으로	O	O	O, B-CV, B-PS, B-LC, I-AF
+17	탈바꿈	O	O	O, B-CV, B-LC, B-TM, B-QT
+18	##시	O	O	O, B-CV, B-LC, B-PS, I-OG
+19	##킨	O	O	O, B-CV, B-PS, B-LC, B-OG
+20	결과	O	O	O, B-CV, B-TM, B-PS, B-QT
+21	##였	O	O	O, B-CV, B-PS, I-CV, I-OG
+22	##다	O	O	O, B-CV, I-OG, B-TM, B-LC
+23	.	O	O	O, B-LC, B-AF, B-CV, B-PS
+24	[SEP]	O	O	O, B-CV, I-AF, B-AF, B-LC

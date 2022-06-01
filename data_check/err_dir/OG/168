@@ -1,0 +1,27 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
+1	프로야구	B-CV	B-CV	B-CV, O, B-OG, I-CV, B-AF
+2	제	B-OG	B-QT	B-QT, I-QT, O, I-CV, B-DT
+3	##9	I-OG	I-QT	I-QT, O, B-QT, I-OG, I-EV
+4	##구	I-OG	I-QT	I-QT, O, I-OG, I-EV, B-QT
+5	##단	I-OG	I-QT	I-QT, O, I-OG, I-EV, I-LC
+6	##인	O	O	O, I-QT, B-PS, I-OG, B-OG
+7	신생	O	O	O, B-OG, B-CV, B-LC, B-PS
+8	##팀	O	O	O, I-OG, B-OG, I-CV, B-CV
+9	엔	B-OG	B-OG	B-OG, I-OG, O, B-LC, B-PS
+10	##씨	I-OG	I-OG	I-OG, O, B-OG, I-LC, I-CV
+11	##소	I-OG	I-OG	I-OG, O, I-LC, I-CV, I-AF
+12	##프트	I-OG	I-OG	I-OG, O, I-LC, I-CV, I-AF
+13	##가	O	O	O, I-OG, I-AF, I-EV, I-CV
+14	2013	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
+15	##년	I-DT	I-DT	I-DT, O, I-QT, B-DT, I-PS
+16	1	B-QT	B-QT	B-QT, B-EV, I-QT, B-OG, I-DT
+17	##군	I-QT	I-QT	I-QT, I-EV, O, I-OG, I-DT
+18	리그	O	O	O, I-EV, I-QT, B-EV, I-OG
+19	참가	O	O	O, I-EV, B-CV, I-QT, I-OG
+20	##를	O	O	O, B-CV, B-OG, B-LC, I-EV
+21	선언	O	O	O, B-CV, B-LC, B-OG, B-TM
+22	##했	O	O	O, B-CV, B-LC, B-OG, B-PS
+23	##다	O	O	O, B-CV, B-LC, B-OG, I-OG
+24	.	O	O	O, B-OG, B-LC, B-CV, I-OG
+25	[SEP]	O	O	O, B-OG, B-CV, I-OG, B-LC

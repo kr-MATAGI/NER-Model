@@ -1,0 +1,22 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
+1	버스	B-AF	B-AF	B-AF, O, B-OG, I-AF, B-TM
+2	##에	O	O	O, I-AF, B-CV, I-OG, I-EV
+3	탔	O	O	O, B-CV, B-QT, B-OG, B-TM
+4	##던	O	O	O, B-TM, B-CV, B-QT, B-PS
+5	사람	O	O	O, B-CV, B-QT, B-TM, B-AM
+6	가운데	O	O	O, B-TM, B-QT, B-LC, B-CV
+7	한	O	B-QT	B-QT, O, I-QT, B-PS, B-TM
+8	사람	O	I-QT	I-QT, O, I-LC, I-TM, I-CV
+9	##은	O	O	O, I-QT, B-CV, B-PS, B-TM
+10	살아남	O	O	O, B-CV, B-TM, B-QT, B-OG
+11	##았	O	O	O, B-CV, I-CV, B-PS, I-OG
+12	##으나	O	O	O, B-CV, B-TM, B-QT, B-LC
+13	,	O	O	O, B-CV, B-LC, B-TM, B-PS
+14	중상	O	O	O, B-TM, B-CV, B-QT, B-TR
+15	##을	O	O	O, I-CV, I-TM, B-CV, I-AF
+16	입	O	O	O, B-CV, B-TM, B-LC, I-CV
+17	##었	O	O	O, B-CV, I-CV, I-OG, I-AF
+18	##다	O	O	O, B-CV, B-LC, B-TM, B-QT
+19	.	O	O	O, B-CV, B-TM, B-LC, B-PS
+20	[SEP]	O	O	O, B-CV, B-TM, B-LC, I-AF

@@ -1,0 +1,27 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
+1	트로	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
+2	##뇌	I-PS	I-PS	I-PS, O, I-OG, I-LC, B-PS
+3	##는	O	O	O, I-PS, I-OG, B-CV, I-AF
+4	가업	O	O	O, B-CV, B-FD, B-OG, B-LC
+5	##에	O	O	O, B-CV, I-CV, I-OG, I-EV
+6	참여	O	O	O, B-CV, B-OG, B-TM, B-LC
+7	##하	O	O	O, B-PS, B-CV, B-LC, B-OG
+8	##는	O	O	O, B-LC, B-CV, B-PS, B-OG
+9	대신	O	O	O, B-CV, B-QT, B-FD, B-LC
+10	프랑스	B-LC	B-FD	B-FD, B-LC, O, I-FD, B-AF
+11	문학	B-FD	I-FD	I-FD, O, B-FD, I-AF, I-LC
+12	##과	O	O	O, I-FD, B-CV, I-AF, I-OG
+13	라틴어	B-CV	B-CV	B-CV, B-FD, B-LC, B-AF, O
+14	,	O	O	O, I-CV, B-CV, I-AF, I-OG
+15	희곡	B-FD	B-FD	B-FD, O, I-FD, B-AF, B-CV
+16	##을	O	O	O, I-FD, B-CV, I-AF, I-CV
+17	가르치	O	O	O, B-CV, B-LC, B-TM, B-QT
+18	##는	O	O	O, B-CV, B-QT, B-LC, I-QT
+19	직업	O	O	O, B-CV, I-QT, B-FD, B-QT
+20	##을	O	O	O, B-CV, B-PS, I-CV, B-OG
+21	선택	O	O	O, B-CV, B-LC, B-PS, B-OG
+22	##했	O	O	O, B-PS, I-CV, B-CV, I-OG
+23	##다	O	O	O, I-OG, B-CV, I-CV, B-PS
+24	.	O	O	O, B-CV, B-LC, B-FD, B-PS
+25	[SEP]	O	O	O, B-CV, B-FD, B-LC, I-OG

@@ -1,0 +1,21 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
+1	복지	O	O	O, B-CV, B-TM, B-FD, B-OG
+2	##관	O	O	O, I-CV, I-OG, I-AF, B-CV
+3	##이	O	O	O, B-PS, B-CV, I-AF, B-OG
+4	##든	O	O	O, B-LC, B-PS, B-CV, B-OG
+5	상담	O	O	O, B-CV, B-TM, B-FD, B-AF
+6	##센터	O	O	O, I-CV, I-AF, I-OG, B-CV
+7	##든	O	O	O, B-PS, B-LC, B-TM, B-CV
+8	소아	B-FD	B-FD	B-FD, B-TM, B-TR, B-CV, B-AF
+9	##정신	I-FD	I-FD	I-FD, I-TM, I-TR, I-CV, I-QT
+10	##과	I-FD	I-TM	I-TM, I-FD, I-TR, I-CV, O
+11	##든	O	O	O, I-TM, I-QT, I-OG, I-CV
+12	가까이	O	O	O, B-CV, B-TM, B-LC, B-QT
+13	있	O	O	O, B-CV, B-TM, B-PS, B-LC
+14	##는	O	O	O, B-CV, B-TM, B-LC, B-PS
+15	데	O	O	O, B-PS, B-CV, B-LC, B-TM
+16	##서	O	O	O, B-CV, B-PS, B-TM, B-LC
+17	도움	O	O	O, B-CV, B-TM, B-QT, B-LC
+18	##을	O	O	O, B-CV, I-CV, I-AF, B-PS
+19	[SEP]	O	O	O, B-CV, B-LC, B-TM, B-PS

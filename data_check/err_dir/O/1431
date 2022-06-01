@@ -1,0 +1,25 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-AF
+1	그러나	O	O	O, B-CV, B-OG, B-PS, B-LC
+2	솔직히	O	O	O, B-CV, B-PS, B-LC, B-OG
+3	,	O	O	O, B-LC, B-PS, B-CV, B-OG
+4	한국	B-LC	B-LC	B-LC, B-OG, O, B-PS, B-AF
+5	##의	O	O	O, I-LC, I-OG, I-AF, B-LC
+6	정부	B-OG	B-OG	B-OG, O, B-AF, I-OG, B-CV
+7	##기	O	O	O, I-OG, I-CV, I-AF, B-OG
+8	##관	O	O	O, I-OG, I-CV, I-AF, B-OG
+9	##이	O	O	O, B-PS, I-OG, B-LC, B-OG
+10	싸이	O	B-PS	B-PS, O, I-PS, B-LC, B-AF
+11	##를	O	O	O, I-PS, I-AF, I-OG, B-CV
+12	대하	O	O	O, B-LC, B-OG, B-CV, B-TM
+13	##는	O	O	O, B-LC, B-CV, B-PS, B-OG
+14	태도	O	O	O, B-CV, B-LC, B-PS, B-TM
+15	##는	O	O	O, B-CV, B-LC, B-OG, B-PS
+16	너무	O	O	O, B-CV, B-PS, B-LC, B-OG
+17	호들갑	O	O	O, B-CV, B-PS, B-LC, B-TM
+18	##스러운	O	O	O, B-PS, I-PS, I-AF, B-LC
+19	것	O	O	O, B-CV, B-OG, B-PS, B-LC
+20	같	O	O	O, B-CV, I-OG, I-CV, B-LC
+21	##다	O	O	O, B-CV, I-OG, B-LC, I-CV
+22	.	O	O	O, B-LC, B-CV, B-PS, B-OG
+23	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-PS

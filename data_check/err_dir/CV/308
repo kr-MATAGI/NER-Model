@@ -1,0 +1,21 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
+1	청소년	B-CV	B-CV	B-CV, O, B-OG, B-TM, I-CV
+2	같	O	O	O, I-CV, I-OG, B-CV, I-EV
+3	##은	O	O	O, I-CV, I-OG, I-AF, B-LC
+4	경우	O	O	O, B-CV, B-OG, B-LC, B-PS
+5	##는	O	O	O, B-CV, B-OG, B-LC, B-PS
+6	별도	O	O	O, B-CV, B-TM, B-LC, B-OG
+7	##의	O	O	O, B-PS, B-OG, I-OG, I-AF
+8	형사	B-CV	B-CV	B-CV, O, B-FD, B-OG, I-CV
+9	##법	I-CV	O	O, I-CV, B-CV, I-OG, I-FD
+10	##체	O	O	O, I-CV, I-OG, B-CV, I-AF
+11	##계	O	O	O, I-CV, I-OG, I-AF, I-FD
+12	##를	O	O	O, I-CV, I-OG, I-AF, B-CV
+13	가지	O	O	O, B-CV, B-OG, B-AF, B-TM
+14	##고	O	O	O, I-OG, B-CV, I-AF, I-CV
+15	있	O	O	O, B-CV, B-OG, B-LC, B-PS
+16	##습	O	O	O, B-CV, B-OG, B-LC, I-OG
+17	##니다	O	O	O, B-CV, B-OG, B-LC, I-OG
+18	.	O	O	O, B-CV, B-LC, B-OG, I-OG
+19	[SEP]	O	O	O, B-CV, B-LC, B-OG, I-OG

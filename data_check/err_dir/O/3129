@@ -1,0 +1,25 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-CV, B-CV, I-OG, I-EV
+1	이	O	O	O, B-PS, B-QT, B-CV, B-OG
+2	한	O	B-QT	B-QT, O, I-QT, B-TM, B-EV
+3	글자	O	I-QT	I-QT, O, I-EV, I-TM, I-LC
+4	말	O	O	O, I-QT, B-PS, I-EV, I-DT
+5	##고	O	O	O, B-PS, I-QT, B-LC, B-QT
+6	시인	O	B-CV	B-CV, O, B-FD, I-CV, B-TM
+7	##의	O	O	O, I-CV, B-PS, B-CV, I-EV
+8	심사	O	O	O, B-CV, B-PS, B-FD, B-LC
+9	##를	O	O	O, B-CV, B-PS, B-OG, B-LC
+10	집약	O	O	O, B-CV, B-LC, B-PS, B-TM
+11	##할	O	O	O, B-PS, B-LC, B-CV, B-OG
+12	수	O	O	O, B-LC, B-PS, B-CV, B-QT
+13	있	O	O	O, B-LC, B-PS, B-CV, B-QT
+14	##는	O	O	O, B-PS, B-LC, B-CV, B-QT
+15	시공간	O	O	O, B-LC, B-CV, B-TM, B-PS
+16	##이	O	O	O, B-PS, B-LC, B-OG, B-CV
+17	어디	O	O	O, B-LC, B-CV, B-PS, B-TM
+18	##에	O	O	O, B-LC, B-PS, I-AF, B-CV
+19	또	O	O	O, B-LC, B-CV, B-TM, B-QT
+20	있	O	O	O, B-LC, B-PS, B-CV, B-QT
+21	##을까	O	O	O, B-LC, B-QT, I-AF, B-TM
+22	.	O	O	O, B-CV, B-TM, B-LC, I-QT
+23	[SEP]	O	O	O, B-LC, B-CV, B-PS, B-FD

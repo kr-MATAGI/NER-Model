@@ -1,0 +1,25 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
+1	일제	O	B-OG	B-OG, O, B-LC, B-DT, B-CV
+2	##는	O	O	O, I-OG, I-DT, I-EV, B-OG
+3	1913	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
+4	##년	I-DT	I-DT	I-DT, O, I-QT, B-DT, I-PS
+5	환	B-AF	B-AF	B-AF, B-LC, O, B-OG, I-AF
+6	##구	I-AF	I-AF	I-AF, O, I-LC, I-OG, I-PS
+7	##단	I-AF	I-AF	I-AF, I-LC, O, I-OG, I-PS
+8	##을	O	O	O, I-AF, I-LC, I-OG, I-EV
+9	허물	O	O	O, B-CV, B-TM, B-LC, B-OG
+10	##고	O	O	O, B-LC, B-PS, B-CV, I-AF
+11	,	O	O	O, B-CV, B-LC, B-TM, B-OG
+12	그	O	O	O, B-CV, B-TM, B-LC, B-AF
+13	자리	O	O	O, B-TM, B-CV, B-AF, B-LC
+14	##에	O	O	O, B-CV, B-AF, B-TM, B-PS
+15	조선총독부	B-OG	B-AF	B-AF, B-OG, O, B-LC, B-PS
+16	철도	O	B-AF	B-AF, I-AF, O, I-OG, B-OG
+17	##호텔	O	I-AF	I-AF, O, I-OG, I-LC, I-CV
+18	##을	O	O	O, I-AF, I-OG, I-EV, I-CV
+19	지	O	O	O, B-CV, B-OG, B-LC, B-AF
+20	##었	O	O	O, B-CV, I-AF, I-OG, B-LC
+21	##다	O	O	O, B-CV, B-LC, B-TM, I-OG
+22	.	O	O	O, B-LC, B-CV, B-OG, B-AF
+23	[SEP]	O	O	O, B-CV, B-LC, B-OG, I-AF

@@ -1,0 +1,25 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
+1	이	O	O	O, B-AF, B-PS, B-LC, B-CV
+2	곤충	O	B-AF	B-AF, O, I-AF, B-TM, B-CV
+3	##기	O	I-AF	I-AF, O, I-TM, I-CV, I-PS
+4	##하고	O	O	O, I-AF, I-EV, B-AF, B-PS
+5	조	B-AF	B-AF	B-AF, B-LC, B-PS, O, I-AF
+6	##복	I-AF	I-AF	I-AF, I-PS, O, I-LC, I-TM
+7	##성	I-AF	I-AF	I-AF, O, I-PS, I-LC, I-TM
+8	곤충	I-AF	I-AF	I-AF, O, B-AF, I-LC, I-PS
+9	##채	I-AF	I-AF	I-AF, O, I-TM, I-LC, I-PS
+10	##집	I-AF	I-AF	I-AF, O, I-TM, I-LC, I-CV
+11	여행기	I-AF	I-AF	I-AF, O, I-TM, I-CV, I-LC
+12	두	B-QT	B-QT	B-QT, I-AF, I-QT, B-DT, O
+13	책	I-QT	I-QT	I-QT, I-AF, O, I-TM, I-EV
+14	##을	O	O	O, I-QT, I-AF, I-EV, I-CV
+15	엮	O	O	O, B-CV, B-OG, B-TM, B-LC
+16	##어	O	O	O, B-CV, B-PS, B-OG, B-LC
+17	##서	O	O	O, B-CV, B-OG, B-LC, B-PS
+18	xx	O	O	O, B-CV, B-OG, I-OG, B-PS
+19	##을	O	O	O, B-CV, B-OG, I-OG, B-PS
+20	하	O	O	O, B-CV, B-OG, B-LC, B-TM
+21	##셨	O	O	O, B-CV, B-OG, B-LC, B-PS
+22	##는데	O	O	O, B-CV, B-LC, B-OG, I-AF
+23	[SEP]	O	O	O, B-CV, I-AF, B-AF, B-PS

@@ -1,0 +1,20 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, I-CV, I-EV, I-AF
+1	•	O	O	O, B-LC, B-OG, B-PS, B-AF
+2	한	B-PS	B-PS	B-PS, B-OG, O, B-LC, I-PS
+3	##덕	I-PS	I-PS	I-PS, O, I-OG, I-LC, B-PS
+4	##수	I-PS	I-PS	I-PS, O, I-OG, I-LC, I-QT
+5	주미	B-CV	O	O, B-CV, B-LC, B-EV, B-AF
+6	##대사	I-CV	B-CV	B-CV, I-CV, O, I-EV, B-OG
+7	,	O	O	O, I-CV, I-EV, I-DT, B-CV
+8	9	B-EV	B-EV	B-EV, B-DT, B-LC, B-AF, B-QT
+9	·	I-EV	I-EV	I-EV, I-DT, I-QT, I-LC, I-AF
+10	11	I-EV	I-EV	I-EV, I-LC, I-AF, I-QT, I-DT
+11	추도	O	O	O, I-EV, I-AF, I-LC, I-OG
+12	무대	O	O	O, I-EV, B-LC, I-AF, I-LC
+13	##서	O	O	O, B-LC, B-CV, I-EV, B-PS
+14	기타	B-AF	B-AF	B-AF, O, I-AF, B-PS, B-LC
+15	치	O	O	O, I-AF, I-PS, B-CV, I-CV
+16	##며	O	O	O, I-AF, B-LC, B-PS, B-CV
+17	노래	O	O	O, B-LC, B-CV, B-PS, B-FD
+18	[SEP]	O	O	O, B-LC, B-CV, B-PS, B-FD

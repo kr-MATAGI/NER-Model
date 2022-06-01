@@ -1,0 +1,23 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-QT
+1	근데	O	O	O, B-CV, B-OG, B-TM, B-PS
+2	선생	B-CV	B-CV	B-CV, O, I-CV, B-QT, B-OG
+3	##님	I-CV	I-CV	I-CV, O, B-CV, I-QT, I-OG
+4	##과	O	O	O, I-CV, I-OG, I-QT, I-AF
+5	같	O	O	O, B-PS, B-OG, B-CV, B-LC
+6	##은	O	O	O, B-PS, B-OG, I-PS, I-OG
+7	반	O	O	O, B-PS, B-CV, B-OG, B-QT
+8	선생	B-CV	B-CV	B-CV, I-CV, O, I-QT, B-QT
+9	##님	I-CV	I-CV	I-CV, O, I-QT, I-OG, I-PS
+10	##과	O	O	O, I-CV, I-QT, I-OG, B-CV
+11	같	O	O	O, B-PS, B-OG, B-QT, B-CV
+12	##은	O	O	O, B-PS, I-PS, I-QT, B-OG
+13	반	O	O	O, B-PS, B-CV, B-QT, B-OG
+14	베	B-CV	O	O, B-CV, I-CV, I-PS, I-QT
+15	##프	I-CV	O	O, I-CV, I-PS, I-QT, I-OG
+16	베스트	O	O	O, B-CV, B-QT, I-CV, I-QT
+17	베스트	O	O	O, B-CV, I-CV, I-QT, B-QT
+18	프렌	B-CV	O	O, I-CV, B-CV, I-QT, B-QT
+19	##드	I-CV	I-CV	I-CV, O, I-QT, I-OG, B-CV
+20	.	O	O	O, I-CV, I-QT, I-OG, B-CV
+21	[SEP]	O	O	O, B-CV, B-PS, B-OG, I-CV

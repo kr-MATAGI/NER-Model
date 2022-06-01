@@ -1,0 +1,26 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
+1	정부	B-OG	B-OG	B-OG, O, B-PS, B-AF, B-LC
+2	##도	O	O	O, I-OG, I-EV, I-AF, B-CV
+3	다음	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-QT
+4	달	I-DT	I-DT	I-DT, O, I-EV, B-DT, I-QT
+5	G	B-EV	B-EV	B-EV, O, I-EV, B-OG, B-LC
+6	##20	I-EV	I-EV	I-EV, O, I-OG, I-DT, B-EV
+7	정상회의	I-EV	I-EV	I-EV, O, I-OG, I-LC, I-DT
+8	##에서	O	O	O, I-EV, I-OG, I-DT, I-AF
+9	금융	O	O	O, B-LC, B-OG, B-PS, B-CV
+10	##위	O	O	O, B-PS, B-LC, B-CV, B-OG
+11	##기에	O	O	O, B-PS, B-LC, I-PS, B-CV
+12	대한	O	O	O, B-LC, B-PS, B-OG, B-AF
+13	안전	O	O	O, B-LC, B-PS, B-CV, B-AF
+14	##판	O	O	O, B-PS, I-LC, I-CV, B-CV
+15	##인	O	O	O, B-PS, B-LC, B-CV, B-AF
+16	GS	B-TM	B-AF	B-AF, B-OG, O, B-CV, B-LC
+17	##M	I-TM	I-AF	I-AF, I-OG, O, I-CV, I-TM
+18	##을	O	O	O, I-AF, I-OG, I-CV, I-EV
+19	재추진	O	O	O, B-CV, B-LC, B-TM, B-OG
+20	##할	O	O	O, B-LC, B-PS, B-CV, B-OG
+21	방침	O	O	O, B-CV, B-LC, B-OG, B-TM
+22	##이다	O	O	O, B-CV, I-OG, B-TM, B-QT
+23	.	O	O	O, B-LC, B-PS, B-CV, B-OG
+24	[SEP]	O	O	O, B-LC, B-CV, B-PS, I-EV

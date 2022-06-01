@@ -1,0 +1,27 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
+1	왜	O	O	O, B-CV, B-OG, B-PS, B-LC
+2	그	O	O	O, B-CV, B-OG, B-LC, B-PS
+3	소장	B-FD	B-CV	B-CV, O, B-OG, I-CV, B-FD
+4	##문	I-FD	I-CV	I-CV, B-CV, O, I-OG, I-FD
+5	##법	I-FD	I-CV	I-CV, O, B-CV, I-OG, I-FD
+6	##학자	B-CV	I-CV	I-CV, O, B-CV, I-OG, I-QT
+7	##들	O	O	O, I-CV, I-OG, B-CV, I-AF
+8	##의	O	O	O, B-CV, B-LC, B-PS, B-OG
+9	시기	O	O	O, B-CV, B-PS, B-LC, B-OG
+10	##에	O	O	O, B-CV, B-PS, B-LC, I-AF
+11	##는	O	O	O, B-LC, B-OG, B-CV, B-PS
+12	산업	B-TR	O	O, B-TR, B-FD, B-CV, B-LC
+13	##화	I-TR	O	O, I-TR, I-FD, B-TR, I-CV
+14	##된	O	O	O, I-TR, I-PS, B-PS, B-LC
+15	사회	O	O	O, B-CV, B-LC, B-FD, B-PS
+16	##의	O	O	O, B-PS, B-CV, B-LC, B-OG
+17	인식	O	O	O, B-CV, B-LC, B-PS, B-OG
+18	##방	O	O	O, B-PS, B-CV, B-LC, I-CV
+19	##법	O	O	O, B-PS, B-LC, B-CV, I-CV
+20	##이	O	O	O, B-PS, B-OG, B-CV, B-LC
+21	두드	O	O	O, B-CV, B-OG, B-TM, B-LC
+22	##러	O	O	O, I-OG, I-CV, B-PS, B-LC
+23	##집니다	O	O	O, B-CV, I-OG, B-LC, I-CV
+24	.	O	O	O, B-LC, B-CV, B-PS, B-OG
+25	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG

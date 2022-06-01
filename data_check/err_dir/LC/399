@@ -1,0 +1,25 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-EV, B-CV, I-CV, I-OG
+1	부임	O	O	O, B-CV, B-OG, B-PS, B-LC
+2	5	B-DT	B-DT	B-DT, I-DT, O, B-QT, B-EV
+3	##개	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
+4	##월	I-DT	I-DT	I-DT, O, B-DT, I-EV, I-QT
+5	만	I-DT	I-DT	I-DT, O, I-EV, I-QT, B-DT
+6	##에	O	O	O, I-DT, I-EV, I-QT, B-PS
+7	한국	B-LC	B-LC	B-LC, B-OG, O, B-CV, B-PS
+8	축구	B-CV	B-CV	B-CV, I-CV, O, I-OG, B-OG
+9	##를	O	O	O, I-CV, I-OG, I-EV, B-CV
+10	호주	B-LC	B-LC	B-LC, O, B-OG, B-AF, B-PS
+11	시드니	B-LC	I-LC	I-LC, B-LC, O, I-AF, I-OG
+12	##에서	O	O	O, I-LC, I-AF, B-LC, I-EV
+13	열리	O	O	O, B-EV, B-CV, B-PS, B-LC
+14	##는	O	O	O, B-EV, B-PS, I-EV, B-CV
+15	아시안	B-EV	B-EV	B-EV, O, I-EV, B-OG, B-LC
+16	##컵	I-EV	I-EV	I-EV, O, B-EV, I-AF, I-OG
+17	결승	B-EV	B-EV	B-EV, I-EV, O, B-CV, B-QT
+18	##에	O	O	O, I-EV, I-AF, I-QT, I-OG
+19	올려놓	O	O	O, B-CV, B-OG, B-LC, B-QT
+20	##았	O	O	O, I-EV, B-CV, B-PS, I-OG
+21	##다	O	O	O, B-CV, B-PS, I-EV, I-OG
+22	.	O	O	O, B-LC, B-PS, B-CV, I-EV
+23	[SEP]	O	O	O, B-LC, B-CV, I-EV, B-PS

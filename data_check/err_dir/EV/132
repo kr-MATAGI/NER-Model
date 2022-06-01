@@ -1,0 +1,15 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
+1	경선	B-EV	O	O, B-EV, B-CV, B-LC, I-EV
+2	후보	B-CV	B-CV	B-CV, O, I-CV, I-EV, B-EV
+3	결정	O	O	O, I-CV, I-EV, B-CV, I-OG
+4	##은	O	O	O, B-CV, I-EV, B-OG, B-LC
+5	11	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
+6	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
+7	제주도	B-LC	B-LC	B-LC, O, B-OG, B-DT, I-DT
+8	##부터	O	O	O, I-DT, I-LC, I-OG, I-QT
+9	시작	O	O	O, B-CV, I-DT, I-OG, B-LC
+10	##된	O	O	O, B-CV, B-LC, B-OG, I-OG
+11	##다	O	O	O, B-CV, B-LC, B-OG, I-OG
+12	.	O	O	O, B-LC, B-CV, B-OG, I-EV
+13	[SEP]	O	O	O, B-CV, B-LC, B-OG, I-EV

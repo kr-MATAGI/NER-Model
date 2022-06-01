@@ -1,0 +1,12 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
+1	지금	O	O	O, B-OG, B-CV, B-TM, B-LC
+2	유네스코	B-OG	B-OG	B-OG, B-AF, B-PS, O, I-OG
+3	##에서	O	O	O, I-OG, I-AF, I-DT, B-CV
+4	##는	O	O	O, B-TM, B-OG, B-LC, B-PS
+5	크로스	O	B-TR	B-TR, B-TM, O, B-CV, B-AF
+6	##보드	O	I-TR	I-TR, I-TM, O, I-CV, I-AF
+7	에듀	O	I-TR	I-TR, O, I-TM, B-TR, I-CV
+8	##케이션	O	I-TR	I-TR, O, I-TM, I-QT, I-CV
+9	해서	O	O	O, I-TM, I-TR, I-CV, I-QT
+10	[SEP]	O	O	O, B-CV, B-OG, B-LC, I-OG

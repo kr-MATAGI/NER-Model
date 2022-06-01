@@ -1,0 +1,20 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
+1	수정	O	O	O, B-OG, B-CV, B-PS, B-LC
+2	##이	O	O	O, B-PS, B-OG, B-LC, B-AF
+3	이뤄지면	O	O	O, B-OG, B-PS, B-LC, B-CV
+4	올해	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
+5	이학	B-DT	O	O, B-EV, B-DT, B-AF, B-QT
+6	##기	I-DT	O	O, I-DT, I-QT, I-EV, I-AF
+7	##와	O	O	O, I-DT, I-EV, I-QT, I-AF
+8	내년도	O	B-DT	B-DT, O, I-DT, B-QT, B-EV
+9	교과	O	O	O, B-OG, B-AF, B-EV, B-TM
+10	##선	O	O	O, I-OG, I-AF, I-EV, I-TM
+11	새로운	O	O	O, I-OG, I-AF, I-EV, I-DT
+12	내용	O	O	O, B-CV, B-OG, B-PS, B-QT
+13	##으로	O	O	O, B-CV, B-OG, B-PS, B-LC
+14	인쇄	O	O	O, B-OG, B-TM, B-CV, B-AF
+15	##가	O	O	O, I-OG, B-OG, B-PS, I-AF
+16	되	O	O	O, B-CV, B-OG, B-LC, B-TM
+17	##고	O	O	O, B-OG, B-CV, I-OG, I-AF
+18	[SEP]	O	O	O, B-OG, B-CV, B-LC, I-OG

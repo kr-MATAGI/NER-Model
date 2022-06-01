@@ -1,0 +1,23 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
+1	“	O	O	O, B-CV, B-LC, B-PS, B-OG
+2	정부	B-OG	B-OG	B-OG, O, B-AF, B-LC, B-PS
+3	-	O	O	O, I-OG, B-PS, I-DT, I-PS
+4	여당	O	O	O, B-OG, I-OG, B-CV, B-PS
+5	-	O	O	O, I-OG, B-PS, B-LC, I-DT
+6	보수	O	O	O, B-OG, B-TR, B-CV, B-FD
+7	##언	O	O	O, I-OG, I-CV, I-TR, I-AF
+8	##론	O	O	O, I-OG, I-CV, I-AF, I-TR
+9	##의	O	O	O, B-PS, I-OG, B-LC, B-QT
+10	삼	B-QT	O	O, B-QT, B-PS, B-TR, B-OG
+11	##박자	I-QT	O	O, I-QT, I-PS, I-OG, B-QT
+12	##가	O	O	O, I-QT, B-PS, I-PS, B-OG
+13	기가	O	O	O, B-TM, B-PS, B-OG, B-CV
+14	막히	O	O	O, B-PS, B-QT, I-QT, I-OG
+15	##게	O	O	O, B-PS, I-QT, B-QT, B-LC
+16	맞아	O	O	O, B-QT, B-PS, B-LC, B-OG
+17	돌아갔	O	O	O, B-PS, B-CV, I-QT, B-QT
+18	##다	O	O	O, B-CV, I-OG, I-QT, I-CV
+19	.	O	O	O, B-PS, B-LC, B-OG, B-CV
+20	”	O	O	O, B-CV, B-LC, B-PS, B-OG
+21	[SEP]	O	O	O, B-CV, B-PS, B-OG, B-LC

@@ -1,0 +1,15 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-EV, I-OG
+1	소방	B-CV	B-CV	B-CV, O, B-OG, B-FD, B-AF
+2	대원	I-CV	B-CV	B-CV, I-CV, O, I-OG, B-OG
+3	한	B-QT	B-QT	B-QT, I-QT, O, I-CV, B-DT
+4	명	I-QT	I-QT	I-QT, O, I-CV, I-EV, I-LC
+5	##이	O	O	O, I-QT, B-PS, B-CV, I-EV
+6	목숨	O	O	O, B-TM, B-CV, B-AM, B-QT
+7	##을	O	O	O, B-CV, I-CV, I-AF, I-TM
+8	잃	O	O	O, B-CV, B-TM, B-QT, I-CV
+9	##었	O	O	O, B-CV, I-CV, I-EV, I-AF
+10	##습	O	O	O, B-CV, B-LC, B-OG, B-QT
+11	##니다	O	O	O, B-CV, B-OG, B-LC, B-QT
+12	.	O	O	O, B-CV, B-PS, B-LC, B-TM
+13	[SEP]	O	O	O, B-CV, B-TM, B-PS, B-LC

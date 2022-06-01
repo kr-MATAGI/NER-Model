@@ -1,0 +1,10 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
+1	그리고	O	O	O, B-DT, B-CV, B-LC, B-PS
+2	시월	B-DT	B-DT	B-DT, O, B-EV, I-DT, B-QT
+3	##의	O	I-DT	I-DT, O, B-DT, I-EV, I-AF
+4	첫째	B-DT	I-DT	I-DT, B-DT, O, B-QT, B-TI
+5	날	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
+6	##입니다	O	O	O, I-DT, I-QT, B-CV, I-AF
+7	.	O	O	O, B-CV, B-LC, I-DT, B-DT
+8	[SEP]	O	O	O, B-CV, B-LC, B-DT, I-DT

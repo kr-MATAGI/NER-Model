@@ -1,0 +1,14 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-EV, I-CV
+1	또	O	O	O, B-OG, B-CV, B-LC, B-TM
+2	감사원	B-OG	B-OG	B-OG, O, B-AF, B-LC, B-CV
+3	##에	O	O	O, I-OG, I-EV, B-CV, I-AF
+4	주민	O	B-CV	B-CV, O, B-TR, B-EV, B-FD
+5	##감사	O	O	O, I-CV, B-CV, I-EV, I-TR
+6	##도	O	O	O, I-CV, I-EV, I-OG, I-QT
+7	청구	O	O	O, B-CV, B-TM, B-EV, B-LC
+8	##할	O	O	O, I-CV, B-PS, B-CV, I-OG
+9	방침	O	O	O, B-CV, B-TM, B-OG, B-QT
+10	##이다	O	O	O, B-CV, I-OG, B-OG, B-TM
+11	.	O	O	O, B-CV, B-OG, B-LC, B-PS
+12	[SEP]	O	O	O, B-CV, B-OG, B-LC, I-OG

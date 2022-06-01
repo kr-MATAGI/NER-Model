@@ -1,0 +1,20 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
+1	아니	O	O	O, B-CV, B-PS, B-QT, B-LC
+2	당신	O	O	O, B-CV, B-PS, B-LC, B-AF
+3	배우자	B-CV	B-CV	B-CV, O, B-AF, B-PS, I-CV
+4	##는	O	O	O, I-CV, I-AF, B-PS, B-CV
+5	심리학자	O	B-CV	B-CV, O, B-FD, B-OG, B-PS
+6	##도	O	O	O, I-CV, B-PS, I-QT, B-CV
+7	아니	O	O	O, B-PS, B-QT, B-CV, B-LC
+8	##고	O	O	O, B-PS, B-LC, B-QT, I-QT
+9	이	O	O	O, B-PS, B-QT, B-CV, B-OG
+10	독	O	B-CV	B-CV, O, B-AF, B-TM, B-OG
+11	##심	O	I-CV	I-CV, O, B-CV, I-AF, I-PS
+12	##술	O	I-CV	I-CV, O, B-CV, I-AF, I-OG
+13	##사	O	I-CV	I-CV, O, I-OG, I-AF, I-TM
+14	##도	O	O	O, I-CV, I-OG, I-AF, I-QT
+15	아니	O	O	O, B-PS, B-CV, B-QT, B-TM
+16	##에	O	O	O, B-CV, B-PS, B-OG, I-AF
+17	##요	O	O	O, B-CV, B-PS, B-OG, B-QT
+18	[SEP]	O	O	O, B-CV, B-PS, B-LC, B-TM

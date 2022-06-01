@@ -1,0 +1,13 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
+1	농업	O	B-FD	B-FD, O, B-OG, B-TR, B-TM
+2	##하면	O	O	O, I-OG, I-FD, I-CV, I-AF
+3	지금	O	O	O, B-CV, B-OG, B-TM, B-LC
+4	##까	O	O	O, B-PS, B-CV, B-LC, I-CV
+5	##지	O	O	O, B-PS, B-CV, B-LC, I-DT
+6	##는	O	O	O, B-CV, B-PS, B-LC, B-OG
+7	먹	O	O	O, B-CV, B-TM, B-QT, I-CV
+8	##는	O	O	O, B-CV, I-CV, B-PS, I-AF
+9	거	O	O	O, B-CV, I-AF, B-PS, I-CV
+10	.	O	O	O, B-CV, B-OG, B-TM, I-AF
+11	[SEP]	O	O	O, B-CV, B-LC, I-AF, B-OG

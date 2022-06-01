@@ -1,0 +1,27 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
+1	과장	O	B-CV	B-CV, O, B-QT, B-TM, B-OG
+2	##급	O	O	O, I-CV, I-QT, I-OG, I-TM
+3	이상	O	O	O, I-QT, I-CV, B-QT, I-OG
+4	간부	B-CV	B-CV	B-CV, O, I-CV, I-QT, B-OG
+5	중	O	O	O, I-CV, B-TM, B-QT, B-OG
+6	##에서	O	O	O, B-CV, B-OG, B-PS, B-LC
+7	전문대	O	O	O, B-OG, B-FD, B-LC, B-QT
+8	##학	O	O	O, I-OG, I-FD, I-QT, B-OG
+9	##에서	O	O	O, B-CV, I-OG, B-PS, B-LC
+10	근무	O	O	O, B-CV, B-LC, B-FD, B-PS
+11	##한	O	O	O, B-PS, B-LC, B-CV, B-QT
+12	경험	O	O	O, B-CV, B-PS, B-TM, B-LC
+13	##이	O	O	O, B-PS, B-LC, B-CV, B-QT
+14	있	O	O	O, B-PS, B-CV, B-QT, B-LC
+15	##는	O	O	O, B-PS, B-CV, B-QT, B-LC
+16	사람	O	O	O, B-CV, B-PS, B-QT, B-TM
+17	한	B-QT	B-QT	B-QT, O, I-QT, B-PS, B-DT
+18	사람	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
+19	##밖	O	O	O, I-QT, B-PS, I-OG, B-CV
+20	##에	O	O	O, I-QT, B-QT, I-OG, I-AF
+21	없	O	O	O, B-CV, B-QT, I-QT, B-LC
+22	##습	O	O	O, B-CV, I-OG, I-QT, B-OG
+23	##니다	O	O	O, B-CV, I-OG, B-LC, B-OG
+24	.	O	O	O, B-CV, B-LC, B-PS, I-OG
+25	[SEP]	O	O	O, B-CV, B-LC, B-PS, I-OG

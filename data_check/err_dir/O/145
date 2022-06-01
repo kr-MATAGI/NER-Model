@@ -1,0 +1,15 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
+1	부품	O	O	O, B-TM, B-MT, B-CV, B-AF
+2	부문	O	O	O, I-TM, B-TM, I-OG, B-CV
+3	##은	O	O	O, B-CV, B-TM, B-OG, B-LC
+4	유지	O	O	O, B-CV, B-TM, B-OG, B-LC
+5	‘	O	O	O, B-OG, B-CV, B-LC, B-PS
+6	3	B-QT	B-QT	B-QT, O, B-EV, B-DT, B-TM
+7	##개	I-QT	I-QT	I-QT, O, I-EV, I-TM, I-OG
+8	##축	O	I-QT	I-QT, O, I-EV, I-TM, I-OG
+9	조직	O	O	O, I-QT, B-CV, I-EV, I-OG
+10	##개	O	O	O, B-CV, I-OG, I-CV, I-EV
+11	##편	O	O	O, I-OG, I-EV, I-CV, I-QT
+12	’	O	O	O, B-CV, B-OG, I-OG, B-PS
+13	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-TM

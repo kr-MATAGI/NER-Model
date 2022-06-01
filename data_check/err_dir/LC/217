@@ -1,0 +1,26 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-EV, I-CV
+1	아랍에미리트	B-LC	B-TM	B-TM, B-LC, I-TM, O, B-AF
+2	(	O	I-TM	I-TM, O, B-TM, I-LC, I-TR
+3	UAE	B-LC	I-TM	I-TM, O, B-TM, I-LC, I-TR
+4	)	O	I-TM	I-TM, O, B-TM, I-TR, I-LC
+5	원자력	B-TM	I-TM	I-TM, O, B-TM, I-TR, I-LC
+6	##발전	I-TM	I-TM	I-TM, O, I-TR, I-QT, I-LC
+7	##사업	I-TM	I-TM	I-TM, O, I-TR, I-QT, I-AF
+8	프로젝트	I-TM	I-TM	I-TM, O, B-TM, I-TR, I-AF
+9	##에	O	O	O, I-TM, I-AF, I-OG, I-EV
+10	한전	B-OG	B-OG	B-OG, O, B-LC, B-PS, I-OG
+11	컨소시엄	O	I-OG	I-OG, O, B-OG, B-CV, I-CV
+12	##이	O	O	O, I-OG, B-PS, I-CV, I-AF
+13	최종	B-CV	B-CV	B-CV, O, B-QT, I-CV, B-TM
+14	##사업	I-CV	I-CV	I-CV, O, B-CV, I-QT, I-OG
+15	##자	I-CV	I-CV	I-CV, O, B-CV, I-QT, I-OG
+16	##로	O	O	O, I-CV, B-CV, I-OG, I-QT
+17	선정	O	O	O, B-CV, B-OG, B-TM, B-LC
+18	##됐	O	O	O, B-CV, B-PS, B-OG, B-LC
+19	##다는	O	O	O, B-CV, B-PS, B-TM, B-OG
+20	전화	O	O	O, B-TM, B-CV, B-AF, B-QT
+21	##였	O	O	O, B-CV, I-EV, B-PS, B-TM
+22	##다	O	O	O, B-CV, B-TM, I-EV, B-LC
+23	.	O	O	O, B-TM, B-OG, B-LC, B-CV
+24	[SEP]	O	O	O, B-TM, B-CV, B-OG, B-LC

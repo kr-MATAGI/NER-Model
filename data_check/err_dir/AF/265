@@ -1,0 +1,26 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, I-CV, I-AF, B-CV
+1	[	O	O	O, B-OG, B-LC, B-CV, B-AF
+2	Mon	B-AF	O	O, B-AF, B-LC, B-OG, B-PS
+3	##ey	I-AF	O	O, I-AF, I-OG, I-LC, I-PS
+4	&	I-AF	O	O, I-AF, I-OG, I-PS, B-PS
+5	life	I-AF	O	O, I-AF, I-OG, I-PS, B-LC
+6	]	O	O	O, I-AF, B-LC, B-PS, I-OG
+7	[UNK]	O	O	O, B-LC, B-PS, B-CV, B-OG
+8	6	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-TI
+9	##∼	I-QT	I-QT	I-QT, O, B-QT, I-DT, I-LC
+10	##7	I-QT	I-QT	I-QT, B-QT, O, I-LC, I-DT
+11	%	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-DT
+12	대	I-QT	I-QT	I-QT, O, I-LC, I-DT, I-PS
+13	수익	O	O	O, I-QT, B-CV, B-TM, B-LC
+14	기대	O	O	O, B-CV, B-PS, I-CV, I-QT
+15	…	O	O	O, B-CV, B-LC, B-PS, B-TM
+16	분산	O	O	O, B-CV, B-TM, B-TR, B-FD
+17	##투자	O	O	O, I-CV, I-AF, I-TM, I-TR
+18	##로	O	O	O, I-CV, I-AF, B-PS, B-CV
+19	주식	O	O	O, B-CV, B-FD, B-TM, B-AF
+20	##보	O	O	O, I-CV, B-CV, I-AF, I-TM
+21	##다	O	O	O, B-CV, B-LC, I-CV, B-TM
+22	안정	O	O	O, B-CV, B-TM, B-LC, B-OG
+23	##적	O	O	O, I-CV, B-LC, I-OG, B-PS
+24	[SEP]	O	O	O, B-LC, B-CV, B-PS, B-AF

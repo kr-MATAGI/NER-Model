@@ -1,0 +1,24 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-QT
+1	팔레스타인	B-OG	B-OG	B-OG, B-LC, O, B-PS, I-OG
+2	##과	O	O	O, I-OG, I-LC, B-PS, B-CV
+3	이스라엘	B-OG	B-OG	B-OG, B-LC, O, I-OG, B-PS
+4	##에	O	O	O, I-OG, I-LC, B-CV, I-DT
+5	1	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-LC
+6	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
+7	시한	O	O	O, I-DT, B-DT, I-QT, B-PS
+8	##의	O	O	O, I-DT, B-PS, B-LC, B-QT
+9	평화	O	B-EV	B-EV, O, B-OG, B-CV, B-LC
+10	##협	O	O	O, I-EV, I-OG, I-CV, I-AF
+11	##상	O	O	O, I-EV, I-OG, I-CV, I-AF
+12	##을	O	O	O, I-EV, I-OG, I-CV, I-AF
+13	중재	O	O	O, B-CV, B-EV, B-LC, B-OG
+14	##했	O	O	O, B-PS, I-OG, B-CV, I-EV
+15	##던	O	O	O, B-CV, B-PS, B-OG, B-LC
+16	미국	B-OG	B-OG	B-OG, B-LC, O, B-PS, I-OG
+17	##은	O	O	O, I-OG, I-LC, B-CV, I-CV
+18	난감	O	O	O, B-CV, B-OG, B-TM, B-QT
+19	##해졌	O	O	O, I-OG, B-CV, I-CV, I-QT
+20	##다	O	O	O, B-CV, I-OG, I-CV, B-QT
+21	.	O	O	O, B-CV, B-LC, B-OG, B-PS
+22	[SEP]	O	O	O, B-CV, B-OG, B-LC, I-OG

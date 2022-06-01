@@ -1,0 +1,12 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-EV, I-OG, B-CV, I-CV
+1	최정	B-EV	B-PS	B-PS, O, B-EV, B-OG, B-AF
+2	##화	I-EV	I-PS	I-PS, O, I-EV, I-OG, I-AF
+3	기획	I-EV	O	O, I-EV, I-PS, I-OG, I-AF
+4	##전	I-EV	O	O, I-EV, I-OG, I-AF, I-PS
+5	‘	O	O	O, I-EV, I-OG, B-LC, B-OG
+6	총	B-EV	O	O, B-EV, B-OG, B-PS, B-LC
+7	##천연	I-EV	O	O, I-EV, I-OG, I-AF, I-TM
+8	##색	I-EV	O	O, I-EV, I-OG, I-TM, I-AF
+9	’	O	O	O, I-EV, I-OG, B-CV, B-OG
+10	[SEP]	O	O	O, I-EV, B-CV, B-EV, B-LC

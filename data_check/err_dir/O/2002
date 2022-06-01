@@ -1,0 +1,20 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
+1	삶	O	O	O, B-CV, B-PS, B-LC, I-EV
+2	##과	O	O	O, B-PS, B-LC, I-AF, B-CV
+3	죽음	O	O	O, B-CV, B-LC, B-PS, I-AF
+4	##에	O	O	O, B-PS, B-CV, I-AF, B-LC
+5	대한	O	O	O, B-LC, B-PS, B-OG, B-EV
+6	고	O	B-PS	B-PS, O, B-CV, I-PS, B-LC
+7	##갱	O	I-PS	I-PS, O, I-CV, B-PS, I-OG
+8	##의	O	O	O, I-PS, B-PS, I-OG, I-AF
+9	처절	O	O	O, B-LC, B-CV, B-PS, B-FD
+10	##한	O	O	O, B-PS, B-LC, I-PS, B-OG
+11	고뇌	O	O	O, B-PS, B-CV, B-FD, B-LC
+12	##가	O	O	O, B-PS, B-CV, B-LC, B-OG
+13	전해	O	O	O, B-PS, B-CV, B-LC, B-OG
+14	##지기	O	O	O, B-PS, B-CV, I-CV, I-OG
+15	때문	O	O	O, B-CV, B-PS, I-CV, B-LC
+16	##이다	O	O	O, B-CV, I-CV, I-OG, I-EV
+17	.	O	O	O, B-PS, B-CV, B-LC, B-FD
+18	[SEP]	O	O	O, B-CV, B-PS, B-FD, B-LC

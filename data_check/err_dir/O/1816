@@ -1,0 +1,15 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
+1	한나라당	B-OG	B-OG	B-OG, O, B-LC, B-PS, B-AF
+2	영남	B-LC	B-LC	B-LC, O, I-LC, I-OG, B-OG
+3	##권	O	I-LC	I-LC, O, I-OG, B-LC, I-AF
+4	의원	B-CV	B-CV	B-CV, O, I-CV, I-LC, B-AF
+5	##들	O	O	O, I-CV, I-AF, B-CV, I-OG
+6	##의	O	O	O, B-CV, B-TM, B-PS, B-LC
+7	반응	O	O	O, B-CV, B-TM, B-LC, B-OG
+8	##은	O	O	O, B-CV, B-OG, B-LC, B-PS
+9	싸늘	O	O	O, B-CV, B-PS, B-TM, B-OG
+10	##했	O	O	O, B-CV, I-CV, I-OG, I-AF
+11	##다	O	O	O, B-CV, I-CV, I-OG, I-AF
+12	.	O	O	O, B-LC, B-CV, B-OG, B-PS
+13	[SEP]	O	O	O, B-CV, B-LC, B-OG, I-OG

@@ -1,0 +1,22 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-EV, I-OG
+1	문제	O	B-OG	B-OG, O, B-AF, B-CV, B-EV
+2	##은행	O	I-OG	I-OG, O, I-AF, I-CV, I-EV
+3	##은	O	O	O, I-OG, I-EV, I-AF, I-CV
+4	지난해	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-CV
+5	말	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
+6	장교	B-CV	B-CV	B-CV, O, B-OG, B-EV, I-DT
+7	임관	O	O	O, I-CV, I-OG, I-EV, I-DT
+8	종합	O	O	O, B-DT, B-OG, B-EV, B-QT
+9	##평가	O	O	O, I-DT, I-OG, I-EV, I-QT
+10	##부터	O	O	O, I-DT, I-OG, I-EV, I-QT
+11	시작	O	O	O, I-OG, B-CV, B-OG, I-EV
+12	##됐	O	O	O, B-CV, B-OG, B-PS, I-OG
+13	##다	O	O	O, B-CV, I-OG, B-PS, I-EV
+14	”	O	O	O, B-CV, I-OG, B-LC, B-PS
+15	고	O	O	O, B-CV, I-OG, B-LC, I-EV
+16	말	O	O	O, B-CV, I-CV, B-TM, I-OG
+17	##했	O	O	O, B-CV, I-OG, B-PS, B-OG
+18	##다	O	O	O, B-CV, I-OG, B-LC, I-EV
+19	.	O	O	O, B-CV, B-OG, B-LC, I-OG
+20	[SEP]	O	O	O, B-CV, I-OG, I-EV, B-OG

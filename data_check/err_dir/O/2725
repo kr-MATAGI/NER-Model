@@ -1,0 +1,24 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-AF
+1	아랫	O	O	O, B-AM, B-TM, B-CV, B-PT
+2	##목	O	O	O, I-AM, I-TM, I-CV, I-PT
+3	##엔	O	O	O, I-TM, I-CV, I-AF, B-TM
+4	사기	O	O	O, B-CV, B-PT, B-AF, B-PS
+5	##그릇	O	O	O, I-AF, I-CV, I-LC, I-PT
+6	##에	O	O	O, I-AF, B-PS, B-CV, B-LC
+7	담긴	O	O	O, B-PS, B-LC, B-CV, B-AF
+8	아버지	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-EV
+9	##의	O	O	O, I-CV, I-AF, B-CV, I-OG
+10	고	O	B-CV	B-CV, O, B-PT, B-AF, B-AM
+11	##봉	O	I-CV	I-CV, O, I-AF, I-PT, B-CV
+12	##밥	O	I-CV	I-CV, O, I-AF, I-PT, B-CV
+13	##도	O	O	O, I-CV, I-AF, B-PS, I-QT
+14	꽃	O	O	O, B-PT, B-CV, B-MT, B-AF
+15	##보	O	O	O, I-PT, B-PT, I-CV, I-AF
+16	##자기	O	O	O, I-PT, I-AF, I-CV, I-LC
+17	##에	O	O	O, B-CV, B-TM, B-PS, I-AF
+18	덮여	O	O	O, B-LC, B-PS, B-TM, B-CV
+19	있	O	O	O, B-CV, B-PS, I-AF, B-LC
+20	##다	O	O	O, B-CV, I-AF, B-LC, B-TM
+21	.	O	O	O, B-CV, B-PS, B-LC, I-AF
+22	[SEP]	O	O	O, B-CV, I-AF, B-PS, B-LC

@@ -1,0 +1,16 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-CV, I-OG, B-CV, I-AF
+1	이런	O	O	O, B-CV, B-LC, B-OG, B-PS
+2	농부	B-CV	B-CV	B-CV, O, B-OG, B-TM, B-AF
+3	##들이	O	O	O, I-CV, I-OG, B-CV, I-AF
+4	대한민국	B-LC	B-LC	B-LC, O, B-OG, B-AF, I-LC
+5	##의	O	O	O, I-LC, I-OG, I-AF, B-LC
+6	많이	O	O	O, B-OG, B-LC, B-CV, I-OG
+7	만들	O	O	O, B-LC, B-CV, B-OG, B-PS
+8	##어졌	O	O	O, B-CV, I-OG, B-LC, B-PS
+9	##을	O	O	O, B-CV, B-OG, B-LC, B-PS
+10	때	O	O	O, B-CV, B-OG, B-PS, B-LC
+11	우리	O	O	O, B-CV, B-OG, B-LC, B-FD
+12	농업	O	B-FD	B-FD, O, B-OG, I-FD, B-CV
+13	##은	O	O	O, I-OG, I-AF, I-FD, I-CV
+14	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-PS

@@ -1,0 +1,20 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
+1	이것	O	O	O, B-CV, B-OG, B-TM, B-LC
+2	##이	O	O	O, B-PS, B-OG, B-CV, B-LC
+3	20	B-DT	B-DT	B-DT, O, I-DT, B-LC, B-EV
+4	##세기	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
+5	##와	O	O	O, I-DT, B-CV, I-AF, I-OG
+6	현재	O	O	O, B-LC, B-OG, B-PS, B-CV
+7	일본	B-OG	B-LC	B-LC, B-OG, O, B-PS, B-AF
+8	##과	O	O	O, I-OG, I-LC, I-AF, I-PS
+9	한국	B-OG	B-LC	B-LC, B-OG, O, I-OG, B-PS
+10	##이	O	O	O, I-OG, I-LC, B-PS, I-AF
+11	겪	O	O	O, B-CV, I-OG, B-OG, B-TM
+12	##은	O	O	O, B-CV, B-OG, B-LC, B-PS
+13	차이	O	O	O, B-CV, B-TM, B-OG, B-LC
+14	##를	O	O	O, B-CV, B-OG, B-TM, B-PS
+15	설명	O	O	O, B-CV, B-TM, B-LC, B-QT
+16	##한다	O	O	O, B-CV, B-LC, B-OG, B-PS
+17	.	O	O	O, B-LC, B-CV, B-OG, B-PS
+18	[SEP]	O	O	O, B-CV, B-LC, B-OG, I-OG

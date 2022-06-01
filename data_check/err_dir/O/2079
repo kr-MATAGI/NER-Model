@@ -1,0 +1,22 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
+1	잡초	O	B-PT	B-PT, O, B-CV, I-PT, B-EV
+2	##의	O	O	O, I-CV, I-OG, B-CV, I-EV
+3	맛	O	O	O, B-CV, B-TM, B-LC, B-QT
+4	##과	O	O	O, B-PS, B-LC, I-OG, B-CV
+5	효능	O	O	O, B-CV, B-TM, B-LC, B-PS
+6	되찾	O	O	O, B-CV, B-PS, B-LC, B-TM
+7	##기	O	O	O, B-PS, I-OG, B-LC, I-LC
+8	##는	O	O	O, B-CV, B-LC, B-PS, B-OG
+9	세계	O	O	O, B-CV, B-LC, B-OG, B-PS
+10	##적	O	O	O, B-PS, B-LC, B-CV, B-TR
+11	미식	O	O	O, B-CV, B-FD, B-OG, B-TM
+12	트렌드	O	O	O, I-CV, I-FD, B-FD, I-TR
+13	##와	O	O	O, B-CV, B-OG, B-PS, I-CV
+14	##도	O	O	O, B-LC, B-CV, B-OG, B-TM
+15	맞닿	O	O	O, B-LC, B-TM, B-OG, B-EV
+16	##아	O	O	O, B-PS, I-OG, B-LC, I-LC
+17	있	O	O	O, B-CV, B-OG, I-OG, B-LC
+18	##다	O	O	O, B-CV, I-OG, B-OG, B-TM
+19	.	O	O	O, B-LC, B-CV, B-PS, B-FD
+20	[SEP]	O	O	O, B-CV, B-LC, B-FD, I-OG

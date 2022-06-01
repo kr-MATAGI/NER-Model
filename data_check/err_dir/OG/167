@@ -1,0 +1,20 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
+1	어	O	O	O, B-CV, B-OG, B-LC, B-TM
+2	~	O	O	O, B-LC, B-PS, I-OG, B-OG
+3	국방부	B-OG	B-OG	B-OG, O, B-LC, B-AF, B-EV
+4	조사	I-OG	O	O, I-OG, B-OG, B-CV, B-LC
+5	##본부	I-OG	O	O, I-OG, B-OG, I-LC, I-EV
+6	##에도	O	O	O, I-OG, B-CV, I-EV, I-AF
+7	제	O	O	O, B-CV, B-PS, B-OG, B-LC
+8	##가	O	O	O, B-PS, B-CV, B-LC, B-OG
+9	강의	O	O	O, B-CV, B-LC, B-TM, B-EV
+10	##를	O	O	O, B-CV, I-CV, B-OG, B-PS
+11	몇	O	O	O, B-LC, B-PS, B-CV, B-OG
+12	번	O	O	O, B-QT, B-PS, B-LC, B-CV
+13	나갔	O	O	O, B-CV, B-LC, B-OG, B-PS
+14	##다	O	O	O, B-CV, B-LC, B-OG, B-PS
+15	그랬	O	O	O, B-CV, B-LC, B-OG, B-TM
+16	##잖아요	O	O	O, B-CV, B-OG, B-LC, B-TM
+17	?	O	O	O, B-CV, B-LC, B-OG, B-PS
+18	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-PS

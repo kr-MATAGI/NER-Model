@@ -1,0 +1,11 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
+1	영웅	B-CV	O	O, B-CV, B-AF, B-PS, B-OG
+2	##이	O	O	O, I-CV, B-PS, I-AF, I-OG
+3	되	O	O	O, B-CV, B-PS, B-QT, I-AF
+4	##라는	O	O	O, B-PS, B-CV, I-AF, B-TM
+5	메시지	O	O	O, B-CV, B-PS, B-TM, B-QT
+6	##를	O	O	O, B-CV, I-CV, I-AF, B-PS
+7	담	O	O	O, B-CV, B-OG, B-LC, B-PS
+8	##은	O	O	O, B-CV, B-OG, B-LC, B-PS
+9	[SEP]	O	O	O, B-CV, B-PS, I-OG, B-LC

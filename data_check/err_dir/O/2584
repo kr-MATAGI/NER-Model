@@ -1,0 +1,26 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
+1	저	O	O	O, B-CV, B-OG, B-LC, B-TM
+2	##는	O	O	O, B-CV, B-OG, B-PS, B-LC
+3	정확히	O	O	O, B-CV, B-LC, B-TM, B-OG
+4	얘기	O	O	O, B-CV, B-PS, I-CV, B-LC
+5	##하면	O	O	O, B-CV, B-LC, B-PS, B-OG
+6	소년	B-CV	B-CV	B-CV, O, B-OG, I-CV, B-AF
+7	##법	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-AF
+8	개정	O	O	O, I-CV, B-CV, I-OG, I-EV
+9	##이	O	O	O, B-PS, B-CV, I-CV, B-OG
+10	##라기	O	O	O, B-CV, B-OG, B-PS, B-LC
+11	보다	O	O	O, B-CV, B-PS, B-OG, B-LC
+12	##는	O	O	O, B-CV, B-OG, B-LC, B-PS
+13	형사	O	B-CV	B-CV, O, B-OG, B-TM, B-AF
+14	##미	O	I-CV	I-CV, B-CV, O, I-QT, I-OG
+15	##성	O	I-CV	I-CV, O, B-CV, I-OG, I-QT
+16	##년	O	I-CV	I-CV, O, B-CV, I-OG, I-QT
+17	##자	O	I-CV	I-CV, O, B-CV, I-OG, I-QT
+18	인하	O	O	O, I-CV, B-CV, I-OG, I-QT
+19	어	O	O	O, B-CV, B-TM, B-OG, I-CV
+20	연령	O	O	O, B-CV, B-LC, B-TM, B-OG
+21	낮추	O	O	O, B-CV, I-CV, B-PS, B-OG
+22	##는	O	O	O, B-CV, B-PS, B-OG, B-LC
+23	거	O	O	O, B-CV, B-OG, B-LC, B-PS
+24	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG

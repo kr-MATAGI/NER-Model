@@ -1,0 +1,22 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
+1	통신	O	O	O, B-TM, B-CV, B-LC, B-AF
+2	환경	O	O	O, I-TM, B-TM, B-CV, I-CV
+3	구축	O	O	O, B-CV, B-TM, B-LC, I-CV
+4	##을	O	O	O, B-CV, B-PS, B-LC, B-TM
+5	위한	O	O	O, B-LC, B-TM, B-PS, B-CV
+6	각종	O	O	O, B-TM, B-CV, B-LC, B-PS
+7	아이디어	O	O	O, B-CV, B-TM, B-LC, B-PS
+8	##를	O	O	O, B-CV, B-PS, B-LC, B-TM
+9	내고	O	O	O, B-CV, B-TM, B-LC, B-OG
+10	새로운	O	O	O, B-TM, B-CV, B-LC, B-AF
+11	IT	O	B-FD	B-FD, O, B-TR, B-TM, I-FD
+12	##기	O	O	O, I-TM, I-AF, B-TM, I-FD
+13	##기	O	O	O, I-TM, I-AF, I-CV, B-TM
+14	##들	O	O	O, I-TM, I-AF, I-CV, B-PS
+15	##도	O	O	O, B-CV, B-LC, B-TM, B-OG
+16	개발	O	O	O, B-CV, B-TM, B-LC, B-AF
+17	중	O	O	O, B-PS, B-LC, B-CV, B-TM
+18	##이다	O	O	O, B-CV, B-TM, B-PS, B-LC
+19	.	O	O	O, B-CV, B-LC, B-TM, B-PS
+20	[SEP]	O	O	O, B-CV, B-TM, B-LC, B-AF

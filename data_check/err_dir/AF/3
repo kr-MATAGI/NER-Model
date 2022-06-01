@@ -1,0 +1,21 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-EV
+1	“	O	O	O, B-CV, B-OG, B-LC, B-PS
+2	‘	O	O	O, B-OG, B-LC, B-CV, B-PS
+3	세월	B-AF	B-AF	B-AF, B-PS, O, B-LC, B-EV
+4	##호	I-AF	I-AF	I-AF, O, I-PS, I-EV, I-LC
+5	식당	O	O	O, I-AF, B-CV, I-EV, I-OG
+6	##칸	O	O	O, I-AF, I-CV, I-LC, B-QT
+7	공기	O	O	O, B-MT, B-TM, B-CV, B-TR
+8	##주	O	O	O, I-CV, B-CV, I-TR, I-TM
+9	##입	O	O	O, I-CV, B-CV, I-TR, B-PS
+10	성공	O	O	O, B-OG, I-OG, B-PS, B-LC
+11	’	O	O	O, B-PS, B-OG, B-CV, B-LC
+12	은	O	O	O, B-PS, B-LC, B-OG, B-CV
+13	청와대	B-AF	B-OG	B-OG, B-AF, B-PS, O, B-LC
+14	위한	O	O	O, I-OG, I-AF, I-PS, I-EV
+15	거짓	O	O	O, B-CV, B-TR, B-TM, B-PS
+16	##보	O	O	O, B-CV, I-CV, B-TR, I-TR
+17	##고	O	O	O, I-CV, B-CV, I-TR, I-QT
+18	”	O	O	O, I-CV, B-CV, B-PS, I-OG
+19	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-PS

@@ -1,0 +1,27 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-AF
+1	물론	O	O	O, B-CV, B-TM, B-AF, B-PS
+2	렌즈	O	O	O, B-TM, B-CV, B-AF, B-AM
+3	##는	O	O	O, I-AF, I-CV, I-TM, B-CV
+4	폴	B-CV	O	O, B-AF, B-AM, B-CV, B-TM
+5	##에	O	O	O, I-AF, I-EV, I-TM, I-OG
+6	맞아	O	O	O, B-TM, B-LC, B-QT, B-PS
+7	##도	O	O	O, B-TM, B-LC, B-CV, B-PS
+8	쉽	O	O	O, B-TM, B-LC, B-CV, B-OG
+9	##게	O	O	O, B-LC, B-OG, B-TM, B-PS
+10	깨지	O	O	O, B-TM, B-LC, B-CV, B-PS
+11	##지	O	O	O, B-CV, B-PS, B-LC, B-OG
+12	않	O	O	O, B-CV, B-LC, B-PS, B-TM
+13	##을	O	O	O, B-CV, B-PS, B-LC, B-TM
+14	정도	O	O	O, B-CV, B-PS, B-LC, B-OG
+15	##로	O	O	O, B-PS, B-OG, B-CV, B-LC
+16	충격	O	O	O, B-TM, B-PS, B-LC, B-CV
+17	##에	O	O	O, B-CV, B-LC, B-OG, B-PS
+18	강한	O	O	O, B-LC, B-CV, B-OG, B-TM
+19	것	O	O	O, B-CV, B-PS, B-AF, B-LC
+20	##을	O	O	O, B-CV, I-AF, B-PS, B-AF
+21	선택	O	O	O, B-CV, B-LC, B-OG, B-PS
+22	##해야	O	O	O, B-CV, I-AF, B-PS, I-OG
+23	한다	O	O	O, B-CV, B-TM, I-OG, B-LC
+24	.	O	O	O, B-LC, B-CV, B-PS, B-OG
+25	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-TM

@@ -1,0 +1,21 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-CV, B-CV, I-OG, I-AF
+1	일단	O	O	O, B-QT, B-CV, B-TM, B-OG
+2	이	O	B-QT	B-QT, O, I-QT, B-DT, B-CV
+3	위	O	I-QT	I-QT, O, I-OG, I-DT, I-LC
+4	##를	O	O	O, I-QT, I-OG, I-CV, I-EV
+5	하고	O	O	O, B-CV, I-QT, B-OG, B-QT
+6	그런	O	O	O, B-CV, B-OG, B-TM, B-LC
+7	다음	O	O	O, B-CV, B-PS, B-TM, B-QT
+8	##에	O	O	O, B-CV, B-OG, B-PS, B-LC
+9	문재인	B-PS	B-PS	B-PS, B-OG, O, B-LC, B-AF
+10	일	B-QT	B-QT	B-QT, I-QT, I-PS, O, I-LC
+11	대	I-QT	I-QT	I-QT, O, I-PS, I-EV, B-QT
+12	일	I-QT	I-QT	I-QT, O, B-QT, I-PS, I-LC
+13	얘기	O	O	O, I-QT, B-CV, I-CV, I-OG
+14	계속	O	O	O, B-CV, I-QT, B-TM, B-OG
+15	하	O	O	O, B-CV, B-OG, B-TM, B-LC
+16	##잖	O	O	O, B-CV, B-LC, B-TM, B-OG
+17	##습니까	O	O	O, B-CV, I-AF, I-OG, B-LC
+18	?	O	O	O, B-CV, I-AF, I-OG, B-PS
+19	[SEP]	O	O	O, B-CV, B-LC, B-OG, I-AF

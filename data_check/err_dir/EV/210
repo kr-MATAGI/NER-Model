@@ -1,0 +1,19 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
+1	아웅	B-EV	B-LC	B-LC, B-EV, O, B-AF, B-OG
+2	##산	I-EV	I-LC	I-LC, I-EV, O, I-AF, I-OG
+3	테러	I-EV	O	O, I-EV, B-EV, I-LC, B-CV
+4	##로	O	O	O, I-EV, I-AF, I-OG, I-LC
+5	숨진	O	O	O, B-CV, B-LC, B-PS, B-AF
+6	故	O	O	O, B-PS, B-CV, B-LC, B-AF
+7	김재	B-PS	B-PS	B-PS, O, I-PS, B-OG, B-LC
+8	##익	I-PS	I-PS	I-PS, O, I-LC, I-OG, B-PS
+9	경제	B-CV	B-CV	B-CV, O, B-TM, B-AF, B-OG
+10	##수	I-CV	I-CV	I-CV, B-CV, O, I-AF, I-TM
+11	##석	I-CV	I-CV	I-CV, O, B-CV, I-TM, I-OG
+12	##의	O	O	O, I-CV, I-AF, I-OG, I-EV
+13	아들	B-CV	B-CV	B-CV, O, B-TM, B-PS, I-CV
+14	김한	B-PS	B-PS	B-PS, O, I-PS, B-OG, B-CV
+15	##회	I-PS	I-PS	I-PS, O, I-OG, I-LC, I-QT
+16	변호사	B-CV	B-CV	B-CV, O, I-PS, I-CV, B-OG
+17	[SEP]	O	O	O, I-CV, I-EV, I-AF, B-CV

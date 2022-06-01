@@ -1,0 +1,22 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-EV, I-CV
+1	이	O	O	O, B-PS, B-DT, B-QT, B-OG
+2	~	O	O	O, I-DT, B-PS, B-CV, I-QT
+3	구	B-DT	B-DT	B-DT, I-DT, O, B-EV, B-QT
+4	##십	I-DT	I-DT	I-DT, O, I-EV, B-DT, I-QT
+5	##칠	I-DT	I-DT	I-DT, O, I-EV, B-DT, I-QT
+6	년	I-DT	I-DT	I-DT, O, I-EV, I-QT, B-DT
+7	##에	O	O	O, I-DT, I-EV, B-CV, B-OG
+8	아이	B-EV	B-EV	B-EV, B-OG, B-LC, O, B-AF
+9	##엠	I-EV	I-EV	I-EV, I-LC, I-OG, O, I-PS
+10	##에프	I-EV	I-EV	I-EV, I-LC, I-OG, O, I-AF
+11	외환	I-EV	B-EV	B-EV, I-EV, O, B-LC, B-OG
+12	##위	I-EV	I-EV	I-EV, O, B-EV, I-LC, I-OG
+13	##기	I-EV	I-EV	I-EV, O, I-LC, I-QT, I-OG
+14	##를	O	O	O, I-EV, I-OG, I-AF, I-QT
+15	맞이	O	O	O, B-OG, B-CV, I-EV, B-EV
+16	하	O	O	O, B-OG, B-CV, B-LC, B-PS
+17	##게	O	O	O, B-CV, B-OG, B-LC, I-OG
+18	됐	O	O	O, B-CV, B-OG, B-LC, B-DT
+19	##죠	O	O	O, B-CV, B-LC, B-OG, I-EV
+20	[SEP]	O	O	O, B-CV, B-EV, I-EV, B-LC

@@ -1,0 +1,27 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
+1	그러나	O	O	O, B-OG, B-LC, B-CV, B-PS
+2	서울시	B-OG	B-OG	B-OG, B-LC, O, I-OG, B-AF
+3	##교육	I-OG	I-OG	I-OG, B-OG, O, I-LC, I-EV
+4	##청	I-OG	I-OG	I-OG, O, I-LC, B-OG, I-AF
+5	등	O	O	O, I-OG, B-OG, B-PS, I-EV
+6	5	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-EV
+7	##개	I-QT	I-QT	I-QT, O, I-EV, I-OG, I-LC
+8	교육청	O	B-OG	B-OG, O, I-OG, I-QT, B-CV
+9	##은	O	O	O, I-OG, B-CV, I-EV, I-QT
+10	올해	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
+11	민간	O	O	O, B-CV, B-OG, I-DT, I-OG
+12	##업체	O	O	O, B-CV, I-CV, I-OG, B-OG
+13	##인	O	O	O, I-CV, I-OG, B-CV, B-OG
+14	참	O	B-OG	B-OG, O, I-OG, B-AF, B-CV
+15	##교육	O	I-OG	I-OG, O, I-CV, I-AF, B-OG
+16	##연수원	O	I-OG	I-OG, O, I-CV, I-AF, I-QT
+17	##과	O	O	O, I-OG, I-CV, B-CV, I-AF
+18	수의	O	O	O, B-CV, B-TM, B-OG, B-LC
+19	##계약	O	O	O, I-CV, I-OG, B-CV, I-TM
+20	##을	O	O	O, I-OG, B-CV, I-CV, B-OG
+21	체결	O	O	O, B-CV, B-OG, B-LC, B-TM
+22	##했	O	O	O, B-OG, B-CV, B-LC, I-OG
+23	##다	O	O	O, B-CV, B-OG, B-LC, I-OG
+24	.	O	O	O, B-OG, B-LC, I-OG, B-CV
+25	[SEP]	O	O	O, B-OG, I-OG, B-CV, B-LC

@@ -1,0 +1,22 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-AF, I-CV
+1	주방	O	O	O, B-TM, B-CV, B-LC, B-AF
+2	옆	B-TM	O	O, B-TM, B-CV, I-TM, B-LC
+3	다	O	O	O, B-TM, I-TM, B-CV, B-QT
+4	##용	O	O	O, I-TM, I-CV, I-AF, I-LC
+5	##도	O	O	O, I-TM, I-LC, I-CV, I-AF
+6	##실	O	O	O, I-LC, I-TM, I-AF, I-CV
+7	##엔	O	O	O, B-TM, B-CV, I-AF, B-PS
+8	세탁기	B-TM	B-TM	B-TM, O, I-TM, B-CV, B-TR
+9	##가	O	O	O, I-TM, I-AF, I-OG, I-CV
+10	놓여	O	O	O, B-LC, B-TM, B-CV, B-OG
+11	있	O	O	O, B-CV, B-TM, B-PS, B-LC
+12	##고	O	O	O, I-AF, B-CV, I-OG, B-TM
+13	,	O	O	O, B-CV, B-TM, B-LC, B-OG
+14	샤워	O	O	O, B-TM, B-CV, B-LC, B-AF
+15	##실	O	O	O, I-AF, I-CV, I-TM, I-LC
+16	##도	O	O	O, B-CV, B-LC, B-OG, B-PS
+17	있	O	O	O, B-CV, B-TM, B-QT, B-OG
+18	##다	O	O	O, B-CV, I-AF, I-OG, B-TM
+19	.	O	O	O, B-LC, B-CV, B-TM, B-OG
+20	[SEP]	O	O	O, B-CV, B-TM, B-LC, I-AF

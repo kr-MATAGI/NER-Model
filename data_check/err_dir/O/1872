@@ -1,0 +1,22 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
+1	영화	O	O	O, B-FD, B-CV, B-TM, B-LC
+2	##여	O	O	O, B-CV, B-PS, B-LC, B-OG
+3	##서	O	O	O, B-LC, B-PS, B-CV, B-OG
+4	약간	O	O	O, B-TM, B-CV, B-AF, B-OG
+5	그	O	O	O, B-CV, B-OG, B-LC, B-AF
+6	뭐	O	O	O, B-PS, B-TM, B-CV, B-OG
+7	##랄	O	O	O, B-PS, B-LC, B-CV, B-OG
+8	##까	O	O	O, I-AF, B-PS, B-LC, I-PS
+9	아이	O	B-AF	B-AF, B-EV, O, B-LC, B-FD
+10	##애	O	I-AF	I-AF, O, I-EV, I-TM, I-PS
+11	아이	B-AF	I-AF	I-AF, I-EV, B-AF, I-PS, O
+12	캔	I-AF	I-AF	I-AF, I-EV, I-PS, O, I-LC
+13	스피	I-AF	I-AF	I-AF, I-EV, I-PS, I-LC, O
+14	##크	I-AF	I-AF	I-AF, I-EV, I-LC, I-PS, O
+15	##를	O	O	O, I-AF, I-EV, B-CV, I-QT
+16	연출	O	O	O, B-CV, B-FD, B-LC, B-TM
+17	##한	O	O	O, B-PS, B-LC, B-CV, B-OG
+18	것	O	O	O, B-CV, B-LC, B-PS, B-OG
+19	##과	O	O	O, B-CV, B-LC, B-OG, B-PS
+20	[SEP]	O	O	O, B-CV, B-LC, I-AF, B-AF

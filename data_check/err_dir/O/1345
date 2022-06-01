@@ -1,0 +1,21 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
+1	[	O	O	O, B-LC, B-PS, B-QT, B-OG
+2	다윈	O	B-PS	B-PS, O, I-PS, B-AF, B-LC
+3	##은	O	O	O, I-PS, I-AF, B-PS, I-LC
+4	살아	O	O	O, I-AF, B-TM, B-LC, B-CV
+5	##있	O	O	O, I-AF, I-PS, I-LC, B-PS
+6	##다	O	O	O, I-AF, B-LC, B-PS, I-PS
+7	]	O	O	O, B-LC, B-PS, B-QT, B-OG
+8	<	O	O	O, B-QT, B-LC, B-DT, B-OG
+9	3	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-TM
+10	>	O	O	O, I-QT, I-DT, I-LC, B-PS
+11	신자	B-TR	B-TR	B-TR, O, I-TR, B-TM, B-PS
+12	##유	I-TR	I-TR	I-TR, B-TR, O, I-QT, I-TM
+13	##주의	I-TR	I-TR	I-TR, O, B-TR, I-TM, I-QT
+14	,	O	O	O, I-TR, I-QT, B-LC, I-AF
+15	진화	O	O	O, B-TR, B-TM, B-CV, B-FD
+16	##냐	O	O	O, B-PS, B-LC, I-AF, I-PS
+17	도태	O	O	O, B-CV, B-TM, B-LC, B-AF
+18	##냐	O	O	O, B-PS, B-LC, I-LC, I-PS
+19	[SEP]	O	O	O, B-LC, B-CV, B-PS, B-AF

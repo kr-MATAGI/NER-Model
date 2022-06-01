@@ -1,0 +1,23 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
+1	주택	O	O	O, B-CV, B-AF, B-QT, B-LC
+2	##이	O	O	O, B-PS, I-AF, I-CV, I-OG
+3	아니	O	O	O, B-PS, B-LC, B-CV, B-QT
+4	##어	O	O	O, B-PS, B-LC, I-AF, B-CV
+5	##서	O	O	O, B-LC, B-CV, B-PS, B-OG
+6	새로	O	O	O, B-CV, B-AF, B-PS, B-QT
+7	지	O	O	O, B-CV, B-PS, B-AF, B-LC
+8	##을	O	O	O, B-CV, I-AF, I-CV, B-PS
+9	때	O	O	O, B-CV, B-PS, B-QT, B-OG
+10	국민	B-CV	B-CV	B-CV, B-OG, O, B-AF, I-CV
+11	##주택	I-CV	I-CV	I-CV, O, I-OG, I-AF, B-CV
+12	##기금	I-CV	I-CV	I-CV, O, I-OG, I-AF, I-QT
+13	대출	O	I-CV	I-CV, O, I-AF, I-OG, B-CV
+14	##도	O	O	O, I-CV, I-AF, I-OG, I-QT
+15	불가	O	O	O, B-CV, B-TM, B-QT, B-OG
+16	##능	O	O	O, I-QT, I-CV, I-OG, I-TM
+17	##했	O	O	O, B-CV, I-OG, B-OG, I-CV
+18	##습	O	O	O, B-CV, B-OG, B-LC, B-QT
+19	##니다	O	O	O, B-CV, B-OG, B-LC, B-QT
+20	.	O	O	O, B-CV, B-LC, I-OG, I-AF
+21	[SEP]	O	O	O, B-CV, I-AF, I-OG, B-LC

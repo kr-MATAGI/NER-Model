@@ -1,0 +1,27 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-EV, I-OG, I-CV
+1	실제로	O	O	O, B-CV, B-OG, B-TM, B-LC
+2	지난달	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-QT
+3	29	I-DT	I-DT	I-DT, B-DT, O, I-QT, I-PS
+4	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
+5	찾	O	O	O, I-DT, B-CV, B-LC, B-OG
+6	##은	O	O	O, B-AF, B-LC, I-AF, B-OG
+7	조선소	O	O	O, B-AF, I-AF, B-OG, B-LC
+8	곳곳	O	O	O, I-AF, B-CV, B-AF, I-OG
+9	##에	O	O	O, B-CV, I-AF, B-TM, B-PS
+10	##선	O	O	O, B-CV, B-TM, B-AF, B-LC
+11	'	O	O	O, B-CV, B-LC, B-TM, B-OG
+12	공중	B-TM	B-TM	B-TM, O, B-CV, B-AF, I-TM
+13	##전	I-TM	I-TM	I-TM, O, I-CV, I-AF, B-TM
+14	##화	I-TM	O	O, I-TM, I-CV, I-AF, I-TR
+15	'	O	O	O, I-TM, I-CV, B-CV, I-AF
+16	철거	O	O	O, B-CV, B-LC, B-TM, B-PS
+17	##작	O	O	O, I-CV, B-LC, B-CV, B-PS
+18	##업	O	O	O, B-LC, B-CV, I-LC, I-CV
+19	##이	O	O	O, B-PS, B-CV, B-OG, B-LC
+20	한창	O	O	O, B-CV, B-LC, B-TM, B-OG
+21	##이	O	O	O, B-PS, B-CV, B-LC, B-OG
+22	##었	O	O	O, B-CV, B-LC, B-OG, B-PS
+23	##다	O	O	O, B-CV, B-LC, I-OG, B-TM
+24	.	O	O	O, B-LC, B-CV, B-PS, B-AF
+25	[SEP]	O	O	O, B-CV, B-LC, B-AF, I-AF

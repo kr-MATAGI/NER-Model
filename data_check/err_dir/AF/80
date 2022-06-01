@@ -1,0 +1,12 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
+1	일단	O	O	O, B-CV, B-DT, B-OG, B-LC
+2	삼	B-DT	B-DT	B-DT, I-DT, B-LC, O, B-EV
+3	##한	I-DT	I-DT	I-DT, O, B-DT, I-PS, I-LC
+4	##시대	I-DT	I-DT	I-DT, O, B-DT, I-AF, I-LC
+5	##에	O	O	O, I-DT, I-AF, I-EV, I-OG
+6	가야	B-AF	B-DT	B-DT, B-LC, O, B-FD, B-AF
+7	토기	I-AF	O	O, I-AF, B-AF, B-CV, I-DT
+8	##에	O	O	O, I-AF, I-CV, I-DT, B-CV
+9	##는	O	O	O, B-CV, I-AF, B-OG, B-LC
+10	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-DT

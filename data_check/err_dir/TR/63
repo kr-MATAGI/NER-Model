@@ -1,0 +1,16 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
+1	野	O	B-OG	B-OG, O, B-LC, B-CV, B-EV
+2	의원	B-CV	B-CV	B-CV, I-CV, O, I-OG, B-OG
+3	,	O	O	O, I-CV, I-OG, B-CV, I-EV
+4	보수	B-TR	O	O, B-TR, I-TR, B-TM, B-FD
+5	성향	O	O	O, I-TR, B-PS, B-TR, I-OG
+6	韓	O	B-FD	B-FD, O, I-FD, B-LC, B-AF
+7	國	O	I-FD	I-FD, O, B-FD, I-OG, I-AF
+8	史	O	I-FD	I-FD, O, B-FD, I-OG, I-AF
+9	교과서	O	O	O, I-FD, I-OG, I-AF, B-CV
+10	[UNK]	O	O	O, B-CV, B-PS, B-LC, B-TM
+11	者	O	O	O, I-CV, B-CV, I-QT, I-LC
+12	조사	O	O	O, B-CV, I-CV, B-PS, B-LC
+13	논란	O	O	O, B-CV, B-LC, B-OG, B-TM
+14	[SEP]	O	O	O, B-CV, B-LC, B-FD, B-OG

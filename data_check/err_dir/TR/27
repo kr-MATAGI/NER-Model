@@ -1,0 +1,23 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-EV
+1	제방	O	O	O, B-TM, B-LC, B-AF, B-CV
+2	##을	O	O	O, B-CV, B-PS, I-AF, B-LC
+3	만들	O	O	O, B-CV, B-LC, B-PS, B-OG
+4	##어	O	O	O, B-PS, B-CV, B-LC, I-LC
+5	##주	O	O	O, B-CV, B-PS, I-DT, I-LC
+6	##니까	O	O	O, B-PS, B-LC, I-DT, I-OG
+7	일	B-TR	B-TR	B-TR, B-QT, B-TM, B-EV, B-LC
+8	##모	I-TR	I-TR	I-TR, I-QT, I-TM, O, I-EV
+9	##작	I-TR	I-QT	I-QT, I-TR, I-TM, O, I-LC
+10	지역	O	O	O, I-QT, I-TM, I-LC, I-TR
+11	##이	O	O	O, B-PS, B-LC, B-OG, B-CV
+12	삼	B-TR	B-QT	B-QT, B-TR, B-TM, B-EV, B-LC
+13	##모	I-TR	I-QT	I-QT, I-TR, I-TM, O, I-EV
+14	##작	I-TR	I-QT	I-QT, I-TM, I-TR, O, I-LC
+15	##으로	O	O	O, I-QT, I-TM, I-TR, I-EV
+16	바뀌	O	O	O, B-LC, B-QT, B-TM, I-QT
+17	##어	O	O	O, B-LC, I-QT, B-PS, B-QT
+18	'	O	O	O, B-CV, B-TM, B-LC, B-QT
+19	버린	O	O	O, B-CV, B-TM, B-QT, B-LC
+20	겁니다	O	O	O, B-CV, I-QT, B-LC, I-OG
+21	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-TM

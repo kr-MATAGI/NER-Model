@@ -1,0 +1,25 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
+1	4	B-QT	B-QT	B-QT, B-TM, B-AF, B-EV, B-TI
+2	##차	I-QT	I-QT	I-QT, I-AF, I-TM, I-EV, O
+3	##선	I-QT	I-QT	I-QT, O, I-AF, I-TM, I-EV
+4	도로	O	O	O, I-QT, I-AF, B-AF, I-TM
+5	위쪽	O	B-TM	B-TM, O, B-CV, B-QT, I-TM
+6	##엔	O	O	O, I-TM, I-QT, I-AF, B-CV
+7	잘	O	O	O, B-LC, B-CV, B-OG, B-TM
+8	정비	O	O	O, B-CV, B-LC, B-PS, B-OG
+9	##된	O	O	O, B-LC, B-PS, B-CV, I-AF
+10	아파트	O	O	O, B-CV, B-AF, B-LC, B-TM
+11	단지	O	O	O, I-AF, I-CV, B-AF, B-CV
+12	##가	O	O	O, B-CV, B-LC, B-PS, I-AF
+13	들어서	O	O	O, B-CV, B-LC, B-TM, B-QT
+14	있	O	O	O, B-CV, B-LC, B-PS, I-AF
+15	##고	O	O	O, B-CV, B-TM, B-LC, I-AF
+16	,	O	O	O, B-CV, B-LC, B-TM, B-OG
+17	아래쪽	O	B-TM	B-TM, O, B-QT, B-CV, B-LC
+18	##은	O	O	O, I-TM, I-QT, I-AF, B-CV
+19	서민	B-CV	B-CV	B-CV, O, B-OG, I-CV, B-FD
+20	주택가	O	O	O, I-CV, B-CV, B-LC, B-QT
+21	##다	O	O	O, I-CV, I-AF, B-CV, I-QT
+22	.	O	O	O, B-LC, B-CV, B-TM, B-AF
+23	[SEP]	O	O	O, B-CV, B-LC, B-TM, I-AF

@@ -1,0 +1,12 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
+1	공여	B-CV	B-CV	B-CV, O, I-CV, B-QT, B-AM
+2	##자	I-CV	O	O, I-CV, B-CV, I-QT, I-AM
+3	##가	O	O	O, I-CV, B-PS, I-QT, I-OG
+4	아니	O	O	O, B-CV, B-PS, B-LC, B-OG
+5	##다	O	O	O, I-OG, I-CV, B-PS, I-AF
+6	피해자	B-CV	B-CV	B-CV, O, B-OG, B-PS, B-TM
+7	##다	O	O	O, I-CV, I-OG, I-QT, I-AF
+8	삼성	B-OG	B-OG	B-OG, B-LC, O, B-PS, B-AF
+9	##은	O	O	O, I-OG, I-AF, I-CV, B-CV
+10	[SEP]	O	O	O, B-CV, I-OG, I-AF, B-LC

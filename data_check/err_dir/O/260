@@ -1,0 +1,15 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, I-CV, I-AF, B-CV
+1	[	O	O	O, B-LC, B-OG, B-AF, B-CV
+2	문학	O	B-FD	B-FD, O, B-AF, B-OG, I-FD
+3	##예술	O	O	O, I-FD, B-FD, I-OG, I-AF
+4	]	O	O	O, I-AF, I-OG, I-FD, B-PS
+5	110	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
+6	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
+7	전	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-AF
+8	##의	O	O	O, I-DT, I-AF, B-LC, I-EV
+9	비엔나	B-LC	B-LC	B-LC, O, B-AF, B-OG, B-PS
+10	##로	O	O	O, I-LC, I-AF, I-OG, I-PS
+11	시간	O	O	O, B-TM, B-TI, B-LC, B-TR
+12	##여행	O	O	O, I-AF, I-TM, I-LC, I-TR
+13	[SEP]	O	O	O, B-LC, I-AF, B-AF, B-CV

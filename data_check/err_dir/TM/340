@@ -1,0 +1,27 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
+1	서울	B-LC	B-LC	B-LC, O, B-OG, B-PS, B-AF
+2	##에	O	O	O, I-LC, B-PS, B-CV, I-PS
+3	사	O	O	O, B-PS, B-CV, B-AM, I-PS
+4	##는	O	O	O, B-CV, B-PS, I-CV, I-PS
+5	이모	O	O	O, B-CV, B-PS, I-CV, B-AM
+6	(	O	O	O, I-CV, B-PS, B-CV, I-PS
+7	17	B-QT	B-QT	B-QT, O, B-PS, I-QT, B-DT
+8	)	O	O	O, I-QT, B-PS, I-PS, B-CV
+9	양	O	O	O, B-PS, B-CV, B-AM, I-PS
+10	##은	O	O	O, B-PS, B-CV, B-AM, I-PS
+11	임신	B-TM	O	O, B-TM, B-CV, I-TM, B-AM
+12	##하	O	O	O, B-PS, I-TM, B-CV, I-CV
+13	##자	O	O	O, B-PS, B-CV, I-TM, I-PS
+14	의료비	O	O	O, B-CV, B-TM, B-AF, B-MT
+15	카드	O	O	O, B-TM, B-CV, I-TM, I-CV
+16	##를	O	O	O, B-CV, B-PS, I-CV, I-TM
+17	2	B-QT	B-QT	B-QT, O, B-PS, I-QT, B-DT
+18	##개	I-QT	I-QT	I-QT, O, I-PS, I-LC, I-TM
+19	##나	O	O	O, I-QT, B-PS, B-CV, I-CV
+20	지원	O	O	O, B-CV, B-TM, B-LC, B-QT
+21	##받	O	O	O, B-PS, I-CV, B-CV, I-TM
+22	##았	O	O	O, B-CV, B-PS, I-CV, B-LC
+23	##다	O	O	O, B-CV, B-PS, I-CV, B-TM
+24	.	O	O	O, B-PS, B-CV, B-TM, B-LC
+25	[SEP]	O	O	O, B-CV, B-PS, B-TM, I-CV

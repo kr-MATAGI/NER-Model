@@ -1,0 +1,9 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, I-CV, I-EV, B-CV
+1	팔	B-EV	B-DT	B-DT, B-EV, O, B-QT, I-DT
+2	##십	I-EV	I-DT	I-DT, I-EV, O, I-QT, B-DT
+3	칠	I-EV	I-DT	I-DT, I-EV, B-DT, O, I-QT
+4	##년	I-EV	I-DT	I-DT, I-EV, O, I-QT, B-DT
+5	유월	I-EV	I-DT	I-DT, B-DT, O, B-EV, I-EV
+6	항쟁	I-EV	O	O, I-EV, I-DT, B-EV, I-QT
+7	[SEP]	O	O	O, I-EV, I-DT, I-OG, I-AF

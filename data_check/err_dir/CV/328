@@ -1,0 +1,27 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
+1	그	O	O	O, B-CV, B-OG, B-TM, B-LC
+2	다음	O	O	O, B-CV, B-PS, B-TM, I-CV
+3	##에	O	O	O, B-CV, B-PS, B-OG, B-LC
+4	##는	O	O	O, B-CV, B-OG, B-PS, B-LC
+5	내	O	O	O, B-CV, B-PS, B-LC, B-OG
+6	##가	O	O	O, B-PS, B-CV, B-OG, I-CV
+7	낸	O	O	O, B-CV, I-CV, B-PS, B-QT
+8	세금	B-CV	O	O, B-CV, I-CV, B-QT, B-TM
+9	##이	O	O	O, B-PS, I-CV, B-LC, B-CV
+10	제때	O	O	O, B-LC, B-CV, B-PS, B-DT
+11	제대로	O	O	O, B-LC, B-PS, B-CV, B-QT
+12	잘	O	O	O, B-LC, B-PS, B-CV, B-QT
+13	쓰여	O	O	O, B-LC, B-CV, B-PS, B-TM
+14	##지	O	O	O, B-PS, B-LC, B-CV, I-LC
+15	##고	O	O	O, B-PS, B-LC, B-CV, B-QT
+16	있	O	O	O, B-PS, B-LC, B-CV, B-TM
+17	##는	O	O	O, B-PS, B-LC, B-CV, B-TM
+18	가를	O	O	O, B-LC, B-PS, B-TM, B-CV
+19	좀	O	O	O, B-LC, B-PS, B-CV, B-OG
+20	체계	O	O	O, B-CV, B-LC, B-PS, B-TM
+21	##적으로	O	O	O, B-PS, B-LC, I-LC, I-PS
+22	감시	O	O	O, B-CV, B-LC, B-PS, B-TM
+23	##하	O	O	O, B-PS, B-CV, I-CV, B-LC
+24	##겠다	O	O	O, B-CV, B-OG, I-CV, B-TM
+25	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG

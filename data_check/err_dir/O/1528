@@ -1,0 +1,17 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-AF
+1	싸	B-AF	B-AF	B-AF, O, B-OG, I-AF, B-LC
+2	##드	I-AF	I-AF	I-AF, O, I-EV, B-AF, I-OG
+3	##자	O	O	O, I-AF, I-EV, I-DT, I-QT
+4	##체	O	O	O, I-DT, I-QT, I-AF, I-TM
+5	##가	O	O	O, B-PS, B-OG, B-LC, B-CV
+6	엘지	B-OG	B-OG	B-OG, B-AF, B-LC, B-EV, O
+7	골프장	O	I-OG	I-OG, I-AF, O, I-EV, I-CV
+8	##하고	O	O	O, I-OG, I-AF, I-EV, I-CV
+9	관계	O	O	O, B-CV, B-TM, B-OG, B-LC
+10	##가	O	O	O, B-OG, B-PS, B-CV, I-OG
+11	돼	O	O	O, B-CV, B-OG, B-TM, B-LC
+12	있	O	O	O, B-CV, I-AF, I-OG, B-OG
+13	##잖아요	O	O	O, B-CV, I-OG, I-AF, B-TM
+14	.	O	O	O, B-CV, B-OG, B-LC, I-OG
+15	[SEP]	O	O	O, B-CV, I-OG, B-OG, I-AF

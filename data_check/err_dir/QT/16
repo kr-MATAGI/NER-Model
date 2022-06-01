@@ -1,0 +1,20 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-CV, B-CV, I-OG, I-AF
+1	죽여	O	O	O, B-CV, B-TM, B-LC, B-PS
+2	버리	O	O	O, B-PS, B-CV, B-LC, B-AM
+3	##겠다	O	O	O, B-CV, I-AF, I-CV, B-PS
+4	’	O	O	O, B-CV, B-PS, B-LC, B-OG
+5	며	O	O	O, B-LC, B-PS, B-CV, B-TM
+6	손바닥	B-AM	B-AM	B-AM, O, B-TR, B-PS, B-TM
+7	##으로	O	O	O, I-AF, B-PS, I-PS, I-QT
+8	가슴	B-AM	B-AM	B-AM, O, B-TR, B-TM, B-PS
+9	##을	O	O	O, I-AF, B-AM, B-CV, B-PS
+10	3	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-LC
+11	,	O	I-QT	I-QT, O, B-QT, I-LC, I-DT
+12	4	B-QT	I-QT	I-QT, B-QT, O, I-LC, I-PS
+13	##차례	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
+14	밀	O	O	O, I-QT, B-TM, B-CV, B-LC
+15	##었	O	O	O, B-CV, I-QT, B-LC, I-AF
+16	##다	O	O	O, B-CV, B-LC, B-PS, B-TM
+17	.	O	O	O, B-LC, B-CV, B-PS, B-TM
+18	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-TM

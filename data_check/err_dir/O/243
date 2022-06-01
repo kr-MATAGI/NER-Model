@@ -1,0 +1,20 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
+1	대통령	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-AF
+2	##직	O	I-CV	I-CV, O, B-CV, I-TM, I-OG
+3	##에	O	O	O, I-CV, I-EV, I-OG, I-QT
+4	잘	O	O	O, B-CV, B-PS, B-LC, B-OG
+5	했	O	O	O, B-PS, B-CV, B-LC, I-CV
+6	##느	O	O	O, B-PS, B-LC, I-PS, I-LC
+7	##냐	O	O	O, B-PS, B-LC, I-PS, I-LC
+8	잘못	O	O	O, B-CV, B-LC, B-PS, B-OG
+9	##했	O	O	O, B-PS, B-LC, B-CV, I-PS
+10	##느	O	O	O, B-PS, B-LC, I-PS, I-LC
+11	##냐	O	O	O, B-PS, B-LC, I-PS, I-LC
+12	라는	O	O	O, B-LC, B-PS, B-OG, B-CV
+13	지금	O	O	O, B-CV, B-OG, B-LC, B-PS
+14	징계	O	O	O, B-CV, B-PS, B-EV, B-LC
+15	##절	O	O	O, B-CV, I-CV, B-PS, I-EV
+16	##차	O	O	O, B-CV, I-CV, B-PS, B-LC
+17	##가	O	O	O, B-OG, B-CV, B-PS, B-LC
+18	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG

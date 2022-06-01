@@ -1,0 +1,11 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
+1	이	O	O	O, B-PS, B-DT, B-CV, B-OG
+2	식민	O	O	O, B-DT, B-CV, B-TR, B-EV
+3	지배	O	O	O, I-CV, I-DT, I-TR, I-EV
+4	##를	O	O	O, I-CV, I-DT, I-EV, I-OG
+5	한	B-QT	O	O, B-QT, B-DT, B-LC, B-OG
+6	나라	I-QT	O	O, I-QT, I-LC, I-DT, B-LC
+7	##들인	O	O	O, I-QT, I-OG, I-CV, I-DT
+8	##데	O	O	O, B-CV, B-OG, I-QT, B-TM
+9	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-QT

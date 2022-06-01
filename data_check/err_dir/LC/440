@@ -1,0 +1,27 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, I-AF, I-CV, I-EV
+1	철도	O	O	O, B-LC, B-AF, B-OG, B-TM
+2	##역	O	O	O, I-LC, I-AF, I-OG, B-LC
+3	5	B-QT	B-QT	B-QT, O, I-QT, I-LC, I-AF
+4	##개	I-QT	I-QT	I-QT, O, I-LC, I-AF, I-TM
+5	·	O	O	O, I-QT, I-AF, I-LC, I-OG
+6	쇼핑몰	O	O	O, B-LC, I-LC, I-AF, B-CV
+7	들어서	O	O	O, B-AF, I-AF, B-LC, B-PS
+8	##는	O	O	O, I-AF, B-LC, I-LC, I-OG
+9	복합	B-LC	O	O, B-AF, B-TM, B-CV, B-LC
+10	##환	I-LC	O	O, I-AF, B-AF, I-OG, I-TM
+11	##승	I-LC	O	O, I-AF, B-AF, I-OG, I-CV
+12	##센터	I-LC	O	O, I-AF, I-OG, I-EV, I-CV
+13	2023	B-DT	B-DT	B-DT, I-AF, O, I-DT, B-QT
+14	##년	I-DT	I-DT	I-DT, O, I-AF, I-QT, B-DT
+15	완공	O	O	O, B-LC, I-DT, I-AF, B-TM
+16	,	O	O	O, I-AF, B-LC, B-PS, B-CV
+17	광장	O	O	O, B-LC, I-LC, B-AF, B-CV
+18	##은	O	O	O, I-AF, I-LC, B-LC, B-PS
+19	서울	B-LC	B-LC	B-LC, O, B-AF, B-PS, B-OG
+20	##광장	I-LC	I-LC	I-LC, O, I-AF, B-LC, I-PS
+21	##의	O	O	O, I-LC, I-AF, I-OG, I-PS
+22	2	B-QT	B-QT	B-QT, O, I-QT, B-TM, B-LC
+23	##배	I-QT	I-QT	I-QT, O, I-LC, I-TM, I-AF
+24	크기	O	O	O, I-QT, B-TM, B-CV, I-TM
+25	[SEP]	O	O	O, B-LC, B-AF, B-CV, I-AF

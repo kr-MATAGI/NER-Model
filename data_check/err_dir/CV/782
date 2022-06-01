@@ -1,0 +1,24 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
+1	예	O	O	O, B-CV, B-OG, B-FD, B-LC
+2	.	O	O	O, B-CV, B-LC, B-PS, I-CV
+3	그	O	O	O, B-CV, B-LC, B-FD, B-OG
+4	인제	O	O	O, B-CV, B-FD, B-LC, B-PS
+5	교원	B-CV	O	O, B-CV, I-CV, B-FD, B-TR
+6	평가	O	O	O, I-CV, B-CV, I-EV, I-TR
+7	같	O	O	O, I-CV, B-CV, I-EV, I-OG
+8	##은	O	O	O, I-CV, B-CV, I-OG, B-PS
+9	경우	O	O	O, B-CV, B-FD, B-PS, B-OG
+10	##도	O	O	O, B-CV, I-CV, B-PS, B-LC
+11	이제	O	O	O, B-CV, B-OG, B-TM, B-LC
+12	좋	O	O	O, B-CV, B-LC, B-TM, B-FD
+13	##은	O	O	O, B-CV, I-CV, B-PS, B-LC
+14	예	O	O	O, B-CV, B-FD, B-LC, B-PS
+15	사례	O	O	O, B-CV, B-FD, B-LC, B-PS
+16	##라고	O	O	O, I-CV, B-CV, B-PS, B-OG
+17	생각	O	O	O, B-CV, B-TM, B-OG, B-LC
+18	##하	O	O	O, B-CV, B-PS, I-CV, B-OG
+19	##는데	O	O	O, B-CV, B-LC, B-OG, B-QT
+20	##요	O	O	O, B-CV, B-LC, B-OG, B-QT
+21	.	O	O	O, B-CV, B-LC, B-PS, I-CV
+22	[SEP]	O	O	O, B-CV, B-FD, B-LC, B-PS

@@ -1,0 +1,15 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
+1	말썽	O	O	O, B-CV, B-OG, B-TM, B-PS
+2	학생	B-CV	B-CV	B-CV, O, B-OG, B-AF, B-TM
+3	교실	O	O	O, B-TM, I-CV, B-LC, B-CV
+4	##밖	O	O	O, B-TM, I-TM, B-LC, B-QT
+5	‘	O	O	O, B-CV, B-LC, B-OG, I-TM
+6	긴급	O	B-CV	B-CV, O, B-TM, B-QT, I-CV
+7	지도	O	I-CV	I-CV, O, B-CV, I-QT, I-TM
+8	##권	O	I-CV	I-CV, O, I-OG, I-TM, I-QT
+9	’	O	O	O, I-CV, I-OG, I-QT, B-CV
+10	등	O	O	O, B-CV, B-PS, B-OG, B-LC
+11	공약	O	O	O, B-CV, B-PS, I-CV, B-OG
+12	눈길	O	O	O, I-CV, B-CV, B-OG, B-PS
+13	[SEP]	O	O	O, B-CV, B-TM, B-LC, B-OG

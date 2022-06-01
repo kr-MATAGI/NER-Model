@@ -1,0 +1,19 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-EV, I-CV
+1	하나	O	B-QT	B-QT, O, B-TM, B-LC, I-QT
+2	##의	O	O	O, I-QT, I-LC, B-PS, I-EV
+3	경제	O	O	O, B-FD, B-CV, B-LC, B-TR
+4	벨트	O	O	O, I-LC, B-LC, I-CV, I-FD
+5	##로	O	O	O, I-LC, B-LC, B-PS, I-AF
+6	뭐	O	O	O, B-CV, B-FD, B-TM, B-LC
+7	무역	O	O	O, B-FD, B-CV, B-LC, B-TM
+8	금융	O	O	O, B-FD, I-FD, B-CV, B-TR
+9	정치	O	O	O, B-FD, I-FD, B-CV, B-TR
+10	문화	O	O	O, B-FD, I-FD, B-CV, B-TR
+11	이런	O	O	O, B-CV, B-LC, I-CV, B-FD
+12	교류	O	O	O, B-CV, B-LC, B-TM, B-EV
+13	##를	O	O	O, I-EV, B-CV, I-CV, B-PS
+14	하	O	O	O, B-CV, B-OG, B-LC, B-PS
+15	##겠다	O	O	O, B-CV, B-OG, B-LC, B-PS
+16	##는	O	O	O, B-CV, B-OG, B-LC, B-TM
+17	[SEP]	O	O	O, B-CV, B-FD, B-LC, B-TM

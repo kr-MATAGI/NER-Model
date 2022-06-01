@@ -1,0 +1,22 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-EV, I-CV
+1	야당	O	O	O, B-OG, B-CV, B-LC, B-EV
+2	##이	O	O	O, B-PS, I-OG, B-CV, B-LC
+3	참전	O	B-CV	B-CV, O, I-CV, B-OG, B-AF
+4	##법	O	I-CV	I-CV, O, B-CV, I-OG, I-TM
+5	##을	O	O	O, I-CV, I-OG, B-CV, B-PS
+6	찾	O	O	O, B-CV, B-LC, B-PS, B-OG
+7	##지	O	O	O, B-LC, B-PS, B-OG, B-CV
+8	못한다면	O	O	O, B-LC, B-EV, B-PS, B-OG
+9	이번	O	O	O, B-EV, B-CV, I-EV, B-PS
+10	선거	O	O	O, B-EV, B-CV, I-EV, B-PS
+11	##에서	O	O	O, I-EV, B-CV, B-PS, B-LC
+12	존재	O	O	O, B-CV, B-TM, B-OG, B-LC
+13	자체	O	O	O, B-PS, B-CV, B-QT, B-TM
+14	##를	O	O	O, B-CV, B-PS, B-TM, B-OG
+15	위협	O	O	O, B-CV, B-TM, B-LC, B-PS
+16	##받	O	O	O, B-PS, I-EV, B-CV, I-OG
+17	##을지도	O	O	O, B-CV, B-TM, I-OG, B-QT
+18	모른다	O	O	O, B-CV, B-QT, B-EV, B-TM
+19	.	O	O	O, B-LC, B-CV, B-PS, I-EV
+20	[SEP]	O	O	O, B-CV, B-LC, I-EV, B-PS

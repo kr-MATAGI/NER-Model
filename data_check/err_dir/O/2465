@@ -1,0 +1,16 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-EV, I-OG
+1	하지만	O	O	O, B-OG, B-FD, B-CV, B-LC
+2	현대	O	O	O, B-FD, B-OG, B-TR, B-CV
+3	육상	O	B-CV	B-CV, O, I-CV, B-FD, B-OG
+4	##은	O	O	O, I-CV, I-OG, I-EV, B-PS
+5	자신	O	O	O, B-CV, B-PS, B-TM, B-LC
+6	##과	O	O	O, B-CV, B-PS, B-TM, B-LC
+7	##의	O	O	O, B-PS, B-CV, B-LC, B-TM
+8	피	O	O	O, B-TM, B-AM, B-TR, B-MT
+9	말리	O	O	O, I-TM, B-PS, B-CV, B-LC
+10	##는	O	O	O, B-PS, B-LC, B-CV, B-TM
+11	싸움	O	O	O, B-CV, B-PS, B-LC, B-EV
+12	##이다	O	O	O, B-CV, I-EV, I-CV, B-PS
+13	.	O	O	O, B-CV, B-PS, B-LC, B-OG
+14	[SEP]	O	O	O, B-CV, B-PS, B-LC, I-EV

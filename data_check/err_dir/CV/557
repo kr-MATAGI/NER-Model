@@ -1,0 +1,23 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, I-EV, I-AF, B-CV
+1	매년	O	O	O, B-DT, B-LC, B-OG, B-PS
+2	각국	O	O	O, B-LC, B-OG, B-PS, B-CV
+3	##의	O	O	O, B-PS, B-LC, B-OG, B-CV
+4	축구	B-CV	B-CV	B-CV, O, B-PS, B-OG, B-AF
+5	스타	I-CV	B-CV	B-CV, I-CV, O, I-EV, I-AF
+6	##와	O	O	O, I-CV, I-OG, I-AF, I-EV
+7	유망주	B-CV	B-CV	B-CV, O, I-CV, B-PS, B-AF
+8	##는	O	O	O, I-CV, I-EV, I-AF, I-OG
+9	부	O	O	O, B-PS, B-CV, B-LC, B-OG
+10	##와	O	O	O, B-PS, I-AF, I-OG, B-LC
+11	명예	O	O	O, B-CV, B-PS, B-LC, I-AF
+12	##를	O	O	O, B-PS, B-CV, B-LC, I-AF
+13	좇	O	O	O, B-PS, B-LC, B-CV, B-OG
+14	##아	O	O	O, B-LC, B-PS, B-OG, B-CV
+15	잉글랜드	B-LC	B-LC	B-LC, B-OG, O, B-AF, B-PS
+16	무대	O	O	O, I-LC, I-OG, I-AF, B-CV
+17	##를	O	O	O, B-LC, B-CV, I-AF, B-PS
+18	노크	O	O	O, B-CV, B-LC, B-PS, B-EV
+19	##한다	O	O	O, I-OG, I-AF, I-EV, B-CV
+20	.	O	O	O, B-LC, B-PS, B-CV, B-OG
+21	[SEP]	O	O	O, B-LC, B-CV, B-PS, I-AF

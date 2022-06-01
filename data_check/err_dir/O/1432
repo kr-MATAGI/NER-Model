@@ -1,0 +1,23 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
+1	클래식	B-FD	B-FD	B-FD, O, B-CV, B-TR, B-AF
+2	초보	B-CV	B-CV	B-CV, O, I-CV, B-PS, B-FD
+3	##자	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-FD
+4	##는	O	O	O, I-CV, B-CV, I-QT, I-OG
+5	'	O	O	O, B-LC, B-CV, B-OG, B-DT
+6	라	B-PS	B-PS	B-PS, B-OG, B-AF, O, B-LC
+7	##흐	I-PS	I-PS	I-PS, I-OG, B-PS, O, I-AF
+8	##마니	I-PS	I-PS	I-PS, I-OG, O, B-PS, I-AF
+9	##노프	I-PS	I-PS	I-PS, I-OG, O, I-LC, I-AF
+10	'	O	O	O, I-PS, I-OG, I-AF, B-CV
+11	마니아	B-CV	B-CV	B-CV, O, B-OG, B-AF, B-PS
+12	(	O	O	O, I-CV, B-CV, I-OG, I-AF
+13	man	O	O	O, B-LC, B-PS, B-TM, B-OG
+14	##ia	O	O	O, I-LC, I-OG, B-PS, I-PS
+15	)	O	O	O, B-CV, B-LC, B-OG, I-OG
+16	는	O	O	O, B-LC, B-CV, B-OG, B-PS
+17	'	O	O	O, B-LC, B-CV, B-OG, B-PS
+18	조르	O	B-OG	B-OG, B-PS, B-AF, O, B-LC
+19	##바	O	I-OG	I-OG, I-PS, I-AF, O, I-LC
+20	'	O	O	O, I-OG, I-AF, I-PS, B-CV
+21	[SEP]	O	O	O, B-LC, B-CV, B-OG, I-OG

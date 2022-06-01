@@ -1,0 +1,9 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, I-AF, I-CV, B-CV
+1	근까	O	O	O, B-CV, B-AF, B-LC, B-OG
+2	건물	O	O	O, B-AF, B-CV, B-TM, B-LC
+3	앞	O	B-TM	B-TM, O, I-TM, B-CV, B-QT
+4	##을	O	O	O, I-TM, I-AF, I-CV, I-QT
+5	지나갈	O	O	O, B-CV, B-AF, B-TM, I-AF
+6	때	O	O	O, B-CV, I-AF, B-OG, B-AF
+7	[SEP]	O	O	O, B-CV, B-AF, I-AF, B-LC

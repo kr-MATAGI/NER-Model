@@ -1,0 +1,14 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-EV
+1	평창	B-EV	B-EV	B-EV, B-LC, B-AF, B-DT, B-PS
+2	스페셜	I-EV	I-EV	I-EV, B-EV, O, I-LC, I-AF
+3	##올	I-EV	I-EV	I-EV, O, I-AF, I-LC, I-TM
+4	##림픽	I-EV	I-EV	I-EV, O, I-AF, I-LC, I-TM
+5	출전	O	O	O, I-EV, I-AF, B-CV, I-OG
+6	##한	O	O	O, B-OG, B-LC, B-PS, I-EV
+7	아프간	B-LC	B-LC	B-LC, B-OG, O, B-CV, B-PS
+8	플로	B-CV	B-CV	B-CV, B-OG, O, I-OG, I-CV
+9	##어	I-CV	I-OG	I-OG, I-CV, O, B-CV, I-LC
+10	##하키	I-CV	I-CV	I-CV, I-OG, O, B-CV, I-FD
+11	##팀	O	I-OG	I-OG, O, I-CV, I-AF, I-QT
+12	[SEP]	O	O	O, I-OG, I-CV, I-EV, I-AF

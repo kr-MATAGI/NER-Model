@@ -1,0 +1,26 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
+1	중국	B-OG	B-LC	B-LC, B-OG, O, B-PS, B-AF
+2	##의	O	O	O, I-OG, I-LC, B-OG, B-CV
+3	내년도	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-TI
+4	GDP	O	O	O, B-TM, B-TR, B-FD, B-OG
+5	성장률	O	O	O, B-TM, B-CV, B-OG, B-PS
+6	목표	O	O	O, B-CV, B-OG, B-TM, B-QT
+7	##가	O	O	O, B-PS, B-OG, B-CV, B-LC
+8	7	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-EV
+9	%	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-EV
+10	로	O	O	O, I-QT, I-OG, I-EV, B-CV
+11	하향	O	O	O, B-TM, B-CV, B-QT, B-PS
+12	조정	O	O	O, B-CV, I-QT, B-PS, I-CV
+13	##될	O	O	O, B-PS, B-CV, B-LC, B-OG
+14	것	O	O	O, B-PS, B-CV, B-QT, B-OG
+15	##이	O	O	O, B-PS, B-CV, B-OG, B-QT
+16	##란	O	O	O, B-CV, B-PS, B-QT, B-TM
+17	분석	O	O	O, B-CV, B-PS, B-TR, B-OG
+18	##은	O	O	O, B-CV, I-CV, B-OG, B-PS
+19	이런	O	O	O, B-CV, B-TM, B-OG, B-LC
+20	맥락	O	O	O, B-CV, B-TM, B-PS, B-QT
+21	##에서	O	O	O, B-PS, B-CV, I-QT, B-TM
+22	나온다	O	O	O, B-CV, B-TM, B-PS, B-OG
+23	.	O	O	O, B-CV, B-LC, B-OG, B-PS
+24	[SEP]	O	O	O, B-CV, B-OG, B-LC, B-PS

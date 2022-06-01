@@ -1,0 +1,24 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
+1	개발	O	B-OG	B-OG, O, B-LC, B-CV, I-OG
+2	##도	O	I-OG	I-OG, O, B-OG, I-LC, I-CV
+3	##상	O	I-OG	I-OG, O, B-OG, I-LC, I-CV
+4	##국	O	I-OG	I-OG, O, I-LC, B-OG, I-CV
+5	##에	O	O	O, I-OG, I-LC, I-CV, B-CV
+6	이제	O	O	O, B-CV, B-OG, I-OG, B-PS
+7	공유	O	O	O, B-CV, B-LC, B-TM, B-OG
+8	##를	O	O	O, B-CV, B-PS, B-OG, B-LC
+9	하	O	O	O, B-CV, B-LC, B-PS, B-OG
+10	##면서	O	O	O, B-CV, B-LC, B-PS, B-OG
+11	이제	O	O	O, B-CV, B-OG, B-TM, B-LC
+12	자꾸	O	O	O, B-CV, B-LC, B-TM, B-PS
+13	전파	O	O	O, B-CV, B-TM, B-LC, B-OG
+14	##를	O	O	O, I-CV, B-CV, I-OG, I-AF
+15	시키	O	O	O, B-CV, B-LC, B-PS, B-OG
+16	##고	O	O	O, B-CV, B-PS, B-LC, I-OG
+17	있	O	O	O, B-CV, B-LC, B-OG, B-PS
+18	##거	O	O	O, B-CV, B-LC, B-OG, B-PS
+19	##든	O	O	O, B-CV, I-OG, B-OG, B-LC
+20	##요	O	O	O, B-CV, I-OG, B-LC, B-OG
+21	.	O	O	O, B-CV, B-LC, B-OG, I-OG
+22	[SEP]	O	O	O, B-CV, B-LC, B-OG, I-OG

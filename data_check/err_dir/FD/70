@@ -1,0 +1,15 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
+1	선발	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-AM
+2	유병	B-PS	B-PS	B-PS, O, I-PS, B-OG, B-CV
+3	##수	I-PS	I-PS	I-PS, O, I-OG, I-QT, B-PS
+4	(	O	O	O, I-PS, B-CV, I-OG, I-CV
+5	경영	B-FD	B-QT	B-QT, O, B-FD, B-OG, B-TM
+6	##4	B-QT	I-QT	I-QT, B-QT, O, I-OG, I-LC
+7	)	O	O	O, I-QT, I-OG, B-CV, I-EV
+8	가	O	O	O, B-PS, B-CV, B-OG, B-TM
+9	호투	O	O	O, B-TM, B-CV, B-TR, B-QT
+10	##했	O	O	O, I-TM, I-CV, B-CV, I-OG
+11	##다	O	O	O, B-CV, I-OG, B-OG, B-TM
+12	.	O	O	O, B-CV, B-LC, B-PS, B-TM
+13	[SEP]	O	O	O, B-CV, B-TM, B-LC, B-OG

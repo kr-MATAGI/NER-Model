@@ -1,0 +1,12 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-EV, I-OG, I-AF, I-QT
+1	현장	O	O	O, B-LC, B-EV, I-EV, B-CV
+2	l	O	O	O, B-EV, B-LC, B-PS, I-EV
+3	‘	B-EV	O	O, B-EV, B-LC, I-EV, B-DT
+4	이	I-EV	B-EV	B-EV, B-LC, I-EV, O, B-OG
+5	살	I-EV	I-EV	I-EV, I-LC, I-OG, O, B-LC
+6	##로니	I-EV	I-EV	I-EV, I-LC, I-OG, O, I-AF
+7	’	I-EV	O	O, I-EV, I-OG, I-LC, B-EV
+8	가구	I-EV	O	O, B-EV, I-EV, B-LC, B-CV
+9	박람회	I-EV	O	O, I-EV, B-EV, I-OG, I-LC
+10	[SEP]	O	O	O, I-EV, B-LC, B-EV, I-OG

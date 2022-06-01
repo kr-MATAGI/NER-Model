@@ -1,0 +1,17 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-EV, I-OG, B-CV, I-CV
+1	피자	B-EV	B-OG	B-OG, B-EV, O, B-AF, B-PS
+2	##헛	I-EV	I-OG	I-OG, I-EV, O, I-AF, I-PS
+3	사건	I-EV	O	O, I-EV, I-OG, B-EV, B-CV
+4	##은	O	O	O, I-EV, I-OG, B-CV, I-AF
+5	20	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
+6	##개	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
+7	##월	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
+8	##만	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
+9	##에	O	O	O, I-DT, I-EV, B-CV, I-QT
+10	과징금	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-AF
+11	##이	O	O	O, I-CV, B-PS, I-EV, B-CV
+12	내려졌	O	O	O, B-CV, B-OG, B-LC, B-PS
+13	##다	O	O	O, B-CV, I-EV, I-OG, I-CV
+14	.	O	O	O, B-OG, B-CV, B-LC, I-EV
+15	[SEP]	O	O	O, B-CV, I-EV, B-OG, I-OG

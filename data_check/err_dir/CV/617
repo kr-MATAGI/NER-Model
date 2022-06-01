@@ -1,0 +1,20 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
+1	“	O	O	O, B-CV, B-PS, B-LC, B-TM
+2	10	B-QT	B-QT	B-QT, O, B-EV, I-QT, B-TM
+3	##승	I-QT	I-QT	I-QT, O, I-EV, I-TM, I-PS
+4	##은	O	O	O, I-QT, I-EV, I-OG, I-AF
+5	내	O	O	O, B-PS, B-CV, B-LC, B-QT
+6	야구	B-CV	O	O, B-CV, B-FD, B-EV, B-PS
+7	##인	O	O	O, I-CV, I-EV, I-FD, I-AF
+8	##생	O	O	O, I-CV, I-EV, I-FD, I-DT
+9	##의	O	O	O, B-PS, B-LC, B-CV, B-OG
+10	목표	O	O	O, B-CV, B-PS, B-QT, B-LC
+11	”	O	O	O, B-CV, B-PS, I-CV, I-EV
+12	라며	O	O	O, B-PS, B-LC, B-CV, B-OG
+13	의지	O	O	O, B-PS, B-CV, B-LC, B-TM
+14	##도	O	O	O, B-PS, I-CV, I-OG, B-CV
+15	강하	O	O	O, B-CV, B-PS, B-AF, B-LC
+16	##다	O	O	O, B-PS, B-CV, I-CV, I-OG
+17	.	O	O	O, B-PS, B-CV, B-LC, I-PS
+18	[SEP]	O	O	O, B-CV, B-PS, B-LC, I-EV

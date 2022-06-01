@@ -1,0 +1,11 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, I-CV, I-EV, B-CV
+1	말	O	O	O, B-AM, B-TM, B-LC, B-PS
+2	##잔치	O	O	O, B-AM, B-PS, I-AF, I-EV
+3	##로	O	O	O, B-CV, B-PS, B-QT, B-LC
+4	끝난	O	O	O, B-EV, B-CV, B-LC, B-QT
+5	‘	O	O	O, B-CV, B-LC, B-AF, B-OG
+6	버핏	O	B-CV	B-CV, B-AF, O, B-OG, B-TM
+7	##세	O	I-CV	I-CV, I-AF, O, I-OG, I-EV
+8	’	O	O	O, I-CV, I-AF, I-EV, I-OG
+9	[SEP]	O	O	O, B-CV, I-EV, B-LC, I-AF

@@ -1,0 +1,26 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
+1	두	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-EV
+2	기관	I-QT	I-QT	I-QT, O, I-EV, I-DT, I-OG
+3	##은	O	O	O, I-QT, B-CV, I-EV, I-OG
+4	환승	O	O	O, B-CV, B-TM, B-QT, B-LC
+5	##손실	O	O	O, I-CV, I-TM, B-CV, I-LC
+6	##금	O	O	O, I-CV, I-TM, I-QT, B-CV
+7	가운데	O	O	O, B-TM, B-QT, B-LC, B-CV
+8	30	B-QT	B-QT	B-QT, I-QT, O, B-DT, B-LC
+9	%	I-QT	I-QT	I-QT, O, I-LC, I-TM, B-QT
+10	를	O	O	O, I-QT, B-CV, B-PS, B-LC
+11	경기도	B-OG	B-OG	B-OG, B-LC, O, B-PS, B-TM
+12	##가	O	O	O, I-OG, I-LC, B-PS, I-PS
+13	부담	O	O	O, B-CV, B-TM, B-QT, B-LC
+14	##하고	O	O	O, B-CV, B-PS, I-QT, B-LC
+15	나머지	O	O	O, B-CV, B-QT, B-TM, B-LC
+16	##는	O	O	O, B-CV, B-TM, B-LC, B-QT
+17	반반	B-QT	O	O, B-QT, B-TM, B-LC, B-CV
+18	##씩	I-QT	O	O, I-QT, B-QT, I-LC, B-PS
+19	내기	O	O	O, B-CV, I-QT, B-QT, B-TM
+20	##로	O	O	O, B-CV, I-QT, B-PS, B-OG
+21	했	O	O	O, B-CV, B-OG, B-LC, B-PS
+22	##다	O	O	O, B-CV, B-TM, I-OG, I-CV
+23	.	O	O	O, B-CV, B-LC, B-TM, B-QT
+24	[SEP]	O	O	O, B-CV, B-TM, B-LC, B-QT

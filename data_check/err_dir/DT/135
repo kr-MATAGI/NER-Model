@@ -1,0 +1,19 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
+1	[	O	O	O, B-OG, B-LC, B-AF, B-DT
+2	월	B-DT	O	O, B-AF, B-CV, B-LC, B-PS
+3	##요	I-DT	O	O, I-AF, I-CV, I-PS, I-LC
+4	##바	B-CV	B-CV	B-CV, O, I-CV, I-AF, I-PS
+5	##둑	I-CV	I-CV	I-CV, O, I-AF, I-TM, B-CV
+6	]	O	O	O, I-CV, I-AF, I-OG, I-EV
+7	""""	O	O	O, B-LC, B-CV, B-OG, B-TM
+8	여성	O	O	O, B-CV, B-LC, B-OG, B-TM
+9	바둑	B-CV	B-CV	B-CV, O, B-TM, I-CV, B-AF
+10	첫	O	O	O, I-CV, I-AF, B-QT, B-PS
+11	500	O	O	O, B-QT, B-PS, B-OG, B-LC
+12	[UNK]	O	O	O, B-CV, B-OG, B-PS, B-LC
+13	절대	O	O	O, B-LC, B-CV, B-TM, B-OG
+14	양보	O	O	O, B-CV, B-TM, B-LC, B-OG
+15	못해	O	O	O, B-CV, B-LC, B-PS, B-TM
+16	""""	O	O	O, B-CV, B-LC, B-OG, B-PS
+17	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG

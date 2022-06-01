@@ -1,0 +1,19 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-QT
+1	피안	B-TM	O	O, B-TM, B-QT, B-TR, B-AF
+2	##타	I-TM	O	O, I-TM, I-QT, I-TR, B-TM
+3	##율	I-TM	O	O, I-TM, I-QT, I-TR, B-TM
+4	##도	O	O	O, I-TM, I-QT, I-OG, I-TR
+5	1	B-QT	B-QT	B-QT, B-EV, B-TI, B-DT, B-AF
+6	##회	I-QT	I-QT	I-QT, I-EV, I-AF, I-TI, I-TM
+7	##에	O	O	O, I-QT, I-EV, I-AF, I-OG
+8	0	B-QT	B-QT	B-QT, I-QT, O, B-TM, B-EV
+9	.	I-QT	I-QT	I-QT, O, I-EV, B-QT, I-TM
+10	302	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-TM
+11	##로	O	O	O, I-QT, B-CV, I-EV, I-OG
+12	가장	O	O	O, B-CV, B-QT, I-QT, B-TM
+13	높	O	O	O, B-CV, B-QT, B-TM, I-QT
+14	##았	O	O	O, B-CV, B-QT, B-TM, I-QT
+15	##다	O	O	O, B-CV, B-TM, B-QT, I-QT
+16	.	O	O	O, B-CV, B-QT, B-PS, B-TM
+17	[SEP]	O	O	O, B-CV, B-TM, B-QT, I-QT

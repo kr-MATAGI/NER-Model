@@ -1,0 +1,23 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, I-EV, I-CV, I-QT
+1	모임	O	O	O, B-PS, B-CV, I-EV, I-OG
+2	운영	O	O	O, B-CV, B-OG, B-LC, B-TM
+3	과정	O	O	O, B-PS, B-OG, B-LC, B-CV
+4	##의	O	O	O, B-PS, B-LC, B-OG, B-CV
+5	배타	O	O	O, B-LC, B-TM, B-PS, B-AM
+6	##성이	O	O	O, I-LC, I-PS, B-PS, I-TM
+7	입	O	O	O, B-AM, B-LC, B-PS, B-CV
+8	##길	O	O	O, I-LC, I-AM, I-PS, I-AF
+9	##에	O	O	O, I-LC, I-PS, B-PS, I-AF
+10	오르	O	O	O, B-PS, B-LC, B-OG, B-CV
+11	##며	O	O	O, B-LC, I-LC, I-PS, B-PS
+12	‘	O	O	O, B-LC, B-OG, B-PS, B-CV
+13	사법부	B-OG	B-OG	B-OG, B-EV, O, B-CV, B-DT
+14	하나	B-OG	O	O, B-OG, B-QT, I-OG, B-EV
+15	##회	I-OG	I-OG	I-OG, O, I-QT, I-EV, I-PS
+16	’	O	O	O, I-OG, I-EV, I-QT, I-DT
+17	로	O	O	O, B-PS, B-LC, B-OG, B-QT
+18	불렸	O	O	O, B-OG, B-LC, B-PS, B-CV
+19	##다	O	O	O, I-OG, B-CV, I-EV, B-OG
+20	.	O	O	O, B-LC, B-PS, B-OG, B-CV
+21	[SEP]	O	O	O, B-LC, B-CV, B-PS, B-OG

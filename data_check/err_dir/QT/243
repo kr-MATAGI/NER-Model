@@ -1,0 +1,13 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-EV, I-OG
+1	무려	O	O	O, B-CV, B-TM, B-LC, B-QT
+2	오	B-QT	O	O, B-PS, B-TM, B-LC, B-CV
+3	##천	I-QT	O	O, B-PS, B-LC, B-TM, B-AM
+4	만	I-QT	O	O, B-PS, B-TM, B-LC, B-CV
+5	명의	I-QT	O	O, B-TM, B-CV, B-PS, B-LC
+6	생명	O	O	O, B-TM, B-CV, B-AM, B-QT
+7	##을	O	O	O, B-CV, I-TM, I-CV, B-PS
+8	앗	O	O	O, B-CV, B-TM, B-LC, B-QT
+9	##아	O	O	O, B-CV, B-LC, B-PS, I-CV
+10	##간	O	O	O, B-CV, B-LC, B-PS, B-QT
+11	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-TM

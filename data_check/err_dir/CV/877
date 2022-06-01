@@ -1,0 +1,15 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
+1	어	O	O	O, B-CV, B-TM, I-CV, I-OG
+2	~	O	O	O, B-CV, I-CV, I-OG, B-LC
+3	그것	O	O	O, B-CV, B-PS, B-LC, B-OG
+4	##을	O	O	O, B-CV, B-PS, I-CV, B-OG
+5	정치가	B-CV	O	O, B-CV, B-FD, B-OG, B-PS
+6	잘	O	O	O, I-CV, B-CV, B-PS, I-OG
+7	받들	O	O	O, B-CV, B-PS, B-LC, I-CV
+8	##어야	O	O	O, I-CV, I-OG, B-PS, B-CV
+9	한다고	O	O	O, B-CV, B-PS, B-LC, B-OG
+10	생각	O	O	O, B-CV, B-OG, B-PS, B-TM
+11	##합니다	O	O	O, B-CV, I-CV, I-OG, B-PS
+12	.	O	O	O, B-CV, B-PS, B-LC, B-OG
+13	[SEP]	O	O	O, B-CV, B-PS, I-CV, B-LC

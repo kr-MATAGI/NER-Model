@@ -1,0 +1,8 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, I-CV, I-AF, B-CV
+1	보약	O	B-TM	B-TM, O, B-TR, B-AF, B-CV
+2	##이	O	O	O, I-TM, I-AF, B-PS, I-CV
+3	필요	O	O	O, B-CV, B-TM, I-AF, B-LC
+4	없	O	O	O, B-CV, I-AF, I-CV, I-OG
+5	##는	O	O	O, B-CV, I-AF, B-TM, B-OG
+6	[SEP]	O	O	O, B-CV, B-LC, B-TM, I-AF

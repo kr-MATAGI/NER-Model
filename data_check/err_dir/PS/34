@@ -1,0 +1,21 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, I-CV, I-AF, B-CV
+1	[	O	O	O, B-OG, B-LC, B-AF, B-CV
+2	he	O	O	O, B-AF, B-FD, B-PS, B-OG
+3	-	O	O	O, I-AF, I-OG, I-TM, I-PS
+4	스토리	O	O	O, I-AF, I-OG, I-TM, I-FD
+5	]	O	O	O, I-OG, I-AF, I-TM, I-EV
+6	한국	B-LC	B-LC	B-LC, O, B-OG, B-AF, B-PS
+7	온	O	O	O, I-LC, I-AF, B-AF, B-CV
+8	##지	O	O	O, I-AF, B-CV, B-PS, B-LC
+9	17	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-PS
+10	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
+11	…	O	O	O, I-DT, I-OG, I-AF, B-CV
+12	구로	B-LC	B-LC	B-LC, O, B-OG, B-AF, B-PS
+13	##동	I-LC	I-LC	I-LC, O, I-AF, B-LC, I-OG
+14	##의	O	O	O, I-LC, I-AF, B-PS, I-PS
+15	'	O	O	O, B-CV, B-LC, B-OG, B-AF
+16	김치	B-CV	B-CV	B-CV, O, B-AF, B-PT, B-PS
+17	산타	B-PS	B-CV	B-CV, I-CV, O, I-AF, B-OG
+18	'	O	O	O, I-CV, I-OG, I-AF, I-EV
+19	[SEP]	O	O	O, B-LC, B-CV, B-AF, B-OG

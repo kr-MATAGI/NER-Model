@@ -1,0 +1,26 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, I-AF, I-EV, I-CV
+1	[UNK]	O	O	O, B-LC, B-OG, B-AF, B-PS
+2	콘서트	O	O	O, B-EV, B-AF, B-FD, B-LC
+3	무대	O	O	O, I-EV, B-LC, I-AF, B-AF
+4	=	O	O	O, I-AF, I-EV, B-PS, B-LC
+5	콘서트홀	O	O	O, B-AF, B-OG, B-EV, B-FD
+6	로비	O	O	O, B-TM, B-LC, B-AF, I-AF
+7	외부	O	O	O, B-TM, B-LC, B-CV, I-TM
+8	##에	O	O	O, I-TM, I-AF, B-CV, B-PS
+9	##는	O	O	O, B-LC, B-TM, B-AF, B-CV
+10	석	O	B-LC	B-LC, B-AF, B-PS, O, B-EV
+11	##촌	O	I-LC	I-LC, I-AF, I-PS, O, I-PT
+12	##호	O	I-LC	I-LC, I-AF, I-PS, O, B-LC
+13	##수	O	I-LC	I-LC, I-AF, O, I-PS, I-QT
+14	##를	O	O	O, I-LC, I-AF, I-QT, I-PS
+15	볼	O	O	O, B-TM, B-LC, B-CV, B-PS
+16	수	O	O	O, B-PS, B-LC, B-QT, B-TM
+17	있	O	O	O, B-LC, B-PS, B-QT, B-TM
+18	##는	O	O	O, B-LC, B-TM, B-CV, B-QT
+19	테라스	O	O	O, B-LC, B-TM, B-AF, B-CV
+20	##가	O	O	O, I-AF, B-PS, I-LC, B-LC
+21	있	O	O	O, B-LC, B-CV, B-OG, B-TM
+22	##다	O	O	O, I-AF, B-LC, B-CV, I-OG
+23	.	O	O	O, B-LC, B-PS, B-AF, B-CV
+24	[SEP]	O	O	O, B-LC, B-CV, I-AF, B-AF

@@ -1,0 +1,15 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
+1	그리고	O	O	O, B-CV, B-TM, B-OG, B-QT
+2	한시	O	B-TI	B-TI, O, B-QT, B-EV, I-TI
+3	##간	O	I-TI	I-TI, O, I-QT, I-TR, B-TI
+4	##마다	O	I-TI	I-TI, O, I-QT, I-TR, B-TI
+5	체크	O	O	O, I-TI, I-QT, B-CV, I-EV
+6	##를	O	O	O, B-CV, B-OG, B-LC, B-TM
+7	해서	O	O	O, B-CV, B-OG, B-LC, B-TM
+8	그걸	O	O	O, B-CV, B-TM, B-LC, B-OG
+9	다	O	O	O, B-CV, B-OG, B-QT, B-TM
+10	빼	O	O	O, B-CV, B-OG, B-LC, B-PS
+11	##고	O	O	O, B-CV, B-LC, B-PS, I-AF
+12	.	O	O	O, B-CV, B-OG, B-LC, B-TM
+13	[SEP]	O	O	O, B-CV, B-LC, B-OG, I-AF

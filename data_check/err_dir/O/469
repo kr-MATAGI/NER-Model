@@ -1,0 +1,18 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-EV
+1	무임	O	O	O, B-AF, B-CV, B-TM, B-LC
+2	##승차	O	O	O, I-AF, I-CV, B-AF, B-CV
+3	##권	O	O	O, I-AF, I-CV, B-AF, I-LC
+4	##에	O	O	O, I-AF, I-CV, B-CV, I-QT
+5	2000	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-LC
+6	##원	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
+7	보태	O	O	O, I-QT, I-DT, B-DT, B-QT
+8	##면	O	O	O, I-QT, I-DT, B-PS, B-OG
+9	주말	O	B-DT	B-DT, O, I-DT, B-CV, B-QT
+10	하루	B-DT	B-DT	B-DT, I-DT, O, B-EV, B-TI
+11	##가	O	O	O, I-DT, I-QT, I-EV, B-CV
+12	거뜬	O	O	O, B-OG, B-CV, B-QT, B-LC
+13	##했	O	O	O, B-CV, I-OG, B-OG, B-QT
+14	##다	O	O	O, B-CV, I-OG, I-AF, B-TM
+15	.	O	O	O, B-CV, B-LC, B-OG, B-PS
+16	[SEP]	O	O	O, B-CV, B-LC, I-OG, B-QT

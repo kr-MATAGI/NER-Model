@@ -1,0 +1,25 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-AF
+1	31	B-DT	B-DT	B-DT, I-DT, O, B-QT, B-LC
+2	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
+3	##∼	I-DT	I-DT	I-DT, O, B-DT, B-LC, I-QT
+4	##4	I-DT	I-DT	I-DT, B-DT, O, I-PS, B-LC
+5	##월	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
+6	1	I-DT	I-DT	I-DT, B-DT, O, I-QT, I-PS
+7	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
+8	경남	B-LC	B-LC	B-LC, O, B-OG, I-DT, I-LC
+9	통영시	B-LC	B-LC	B-LC, I-LC, O, B-OG, B-PS
+10	통영시	B-AF	B-AF	B-AF, O, B-LC, I-AF, B-OG
+11	##민	I-AF	I-AF	I-AF, O, I-LC, B-AF, I-OG
+12	##문화회관	I-AF	I-AF	I-AF, O, I-LC, I-OG, I-PS
+13	대	I-AF	O	O, I-AF, B-LC, B-TM, I-LC
+14	##극장	I-AF	O	O, I-AF, I-LC, B-LC, I-OG
+15	,	O	O	O, B-CV, I-AF, B-OG, B-LC
+16	2	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-LC
+17	##만	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
+18	##∼	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-DT
+19	##8	I-QT	I-QT	I-QT, B-QT, O, I-LC, I-DT
+20	##만	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
+21	원	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-DT
+22	.	O	O	O, I-QT, I-OG, I-CV, B-CV
+23	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-AF

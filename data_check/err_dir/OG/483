@@ -1,0 +1,12 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-AF
+1	[UNK]	O	O	O, B-LC, B-OG, B-CV, B-TM
+2	뉴질랜드	B-LC	B-LC	B-LC, O, B-OG, B-AF, B-PS
+3	17	B-OG	B-QT	B-QT, O, I-QT, I-LC, B-LC
+4	##개	I-OG	I-QT	I-QT, O, I-LC, I-PS, I-OG
+5	법인	I-OG	O	O, B-CV, I-QT, B-OG, I-OG
+6	모두	O	O	O, I-OG, I-CV, B-CV, B-TM
+7	페이퍼	O	O	O, B-CV, B-TM, B-AF, B-OG
+8	##컴	O	O	O, I-CV, I-OG, I-TM, I-AF
+9	##퍼니	O	O	O, I-CV, I-OG, I-AF, I-TM
+10	[SEP]	O	O	O, B-CV, I-CV, I-OG, B-LC

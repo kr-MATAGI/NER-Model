@@ -1,0 +1,27 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-AF
+1	지난	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-LC
+2	2	I-DT	I-DT	I-DT, B-DT, O, I-QT, I-PS
+3	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
+4	오전	B-TI	B-TI	B-TI, I-TI, B-EV, I-DT, O
+5	11	I-TI	I-TI	I-TI, B-TI, I-QT, I-DT, I-EV
+6	##시	I-TI	I-TI	I-TI, O, I-QT, I-LC, I-TR
+7	광주	B-LC	B-LC	B-LC, B-OG, O, I-TI, I-LC
+8	##광역시	I-LC	I-LC	I-LC, B-LC, O, I-OG, I-AF
+9	광산구	B-LC	B-LC	B-LC, I-LC, O, B-OG, B-AF
+10	평	B-AF	B-LC	B-LC, B-AF, O, I-LC, B-OG
+11	##동산	I-AF	I-LC	I-LC, I-AF, O, B-LC, I-OG
+12	##업	I-AF	I-LC	I-LC, I-AF, O, B-LC, I-OG
+13	##단지	I-AF	I-LC	I-LC, I-AF, O, I-OG, I-PS
+14	6	B-QT	B-QT	B-QT, I-LC, B-AF, O, I-AF
+15	##번	I-QT	I-QT	I-QT, I-LC, I-AF, O, B-QT
+16	##로	I-QT	I-QT	I-QT, O, I-LC, I-AF, I-TM
+17	우리	B-OG	B-OG	B-OG, O, B-AF, B-CV, B-LC
+18	##밀	I-OG	I-OG	I-OG, O, I-AF, I-CV, I-LC
+19	##식	I-OG	I-OG	I-OG, O, I-CV, I-AF, I-LC
+20	##품	I-OG	I-OG	I-OG, O, I-CV, I-AF, I-LC
+21	가공	O	O	O, I-OG, I-AF, I-LC, I-CV
+22	##공	O	O	O, I-OG, I-AF, I-LC, I-CV
+23	##장	O	O	O, I-OG, I-AF, I-LC, I-CV
+24	.	O	O	O, I-OG, I-AF, I-LC, I-CV
+25	[SEP]	O	O	O, B-LC, B-OG, B-AF, I-OG

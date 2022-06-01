@@ -1,0 +1,27 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-EV, I-CV, I-OG
+1	검찰	B-OG	B-OG	B-OG, B-AF, O, B-PS, B-CV
+2	관계자	B-CV	B-CV	B-CV, I-CV, O, I-OG, B-OG
+3	##는	O	O	O, I-CV, I-OG, I-EV, B-CV
+4	“	O	O	O, B-CV, B-LC, B-TM, B-PS
+5	구속	O	O	O, B-CV, B-PS, B-TM, B-OG
+6	##된	O	O	O, B-PS, I-CV, B-CV, I-PS
+7	형	O	B-CV	B-CV, O, B-PS, I-CV, B-AM
+8	선	B-PS	B-PS	B-PS, O, I-PS, B-LC, B-OG
+9	씨	O	O	O, I-PS, B-CV, I-CV, I-EV
+10	##가	O	O	O, B-PS, B-CV, B-LC, I-PS
+11	동영상	O	O	O, B-TM, B-CV, B-EV, B-LC
+12	촬영	O	O	O, I-TR, I-TM, I-EV, I-CV
+13	##을	O	O	O, B-CV, B-PS, B-OG, I-EV
+14	주도	O	O	O, B-CV, B-TM, B-PS, B-LC
+15	##한	O	O	O, B-PS, B-CV, B-LC, B-OG
+16	것	O	O	O, B-CV, B-PS, B-LC, B-TM
+17	##으로	O	O	O, B-CV, B-PS, B-TM, B-LC
+18	보인다	O	O	O, B-CV, B-TM, B-PS, B-OG
+19	”	O	O	O, B-CV, B-TM, B-PS, I-OG
+20	고	O	O	O, B-CV, B-QT, B-TM, B-PS
+21	말	O	O	O, B-CV, B-TM, B-QT, I-QT
+22	##했	O	O	O, B-CV, B-PS, I-QT, I-OG
+23	##다	O	O	O, B-CV, B-TM, B-PS, B-LC
+24	.	O	O	O, B-CV, B-PS, B-LC, B-OG
+25	[SEP]	O	O	O, B-CV, B-PS, B-LC, B-TM

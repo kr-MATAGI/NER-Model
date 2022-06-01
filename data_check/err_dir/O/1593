@@ -1,0 +1,22 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
+1	퇴직금	B-CV	B-CV	B-CV, O, I-CV, B-AF, B-TM
+2	##이나	O	O	O, I-CV, I-AF, B-PS, B-CV
+3	연금	O	B-CV	B-CV, O, I-CV, B-AF, B-TM
+4	##만	O	O	O, I-CV, B-PS, B-QT, I-QT
+5	##으로	O	O	O, B-PS, B-LC, B-TM, B-CV
+6	노후	O	O	O, B-LC, B-CV, B-PS, B-DT
+7	##를	O	O	O, B-PS, B-CV, I-EV, B-LC
+8	보낼	O	O	O, B-LC, B-DT, B-PS, B-OG
+9	수	O	O	O, B-PS, B-CV, B-TM, B-LC
+10	없	O	O	O, B-CV, B-PS, B-TM, I-AF
+11	##어	O	O	O, B-LC, B-PS, B-CV, B-TM
+12	고령	O	O	O, B-CV, B-LC, B-TM, B-PS
+13	##에도	O	O	O, B-CV, B-PS, I-CV, I-OG
+14	일	O	O	O, B-CV, B-LC, B-TM, B-OG
+15	##을	O	O	O, B-CV, B-PS, I-OG, B-OG
+16	한다는	O	O	O, B-PS, B-CV, B-LC, B-OG
+17	것	O	O	O, B-CV, B-PS, B-OG, B-TM
+18	##이다	O	O	O, B-CV, I-CV, I-OG, B-TM
+19	.	O	O	O, B-PS, B-CV, B-LC, B-OG
+20	[SEP]	O	O	O, B-CV, B-PS, B-LC, I-AF

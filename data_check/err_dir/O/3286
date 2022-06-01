@@ -1,0 +1,16 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
+1	고심	O	O	O, B-CV, B-TM, B-OG, B-LC
+2	끝	O	O	O, B-PS, B-CV, B-OG, I-OG
+3	##에	O	O	O, B-CV, B-PS, B-QT, B-OG
+4	2009	B-DT	B-DT	B-DT, O, B-QT, I-DT, B-EV
+5	시즌	I-DT	I-DT	I-DT, O, I-QT, B-DT, I-EV
+6	뒤	O	I-DT	I-DT, O, I-QT, B-DT, I-EV
+7	육군	B-OG	B-OG	B-OG, O, B-CV, B-AF, I-OG
+8	현역	O	O	O, B-CV, I-CV, I-OG, B-OG
+9	##으로	O	O	O, I-CV, I-OG, B-CV, I-QT
+10	입대	O	O	O, B-CV, B-OG, I-CV, B-FD
+11	##했	O	O	O, I-CV, I-OG, B-CV, B-PS
+12	##다	O	O	O, B-CV, B-TM, I-OG, I-CV
+13	.	O	O	O, B-CV, B-PS, B-OG, B-LC
+14	[SEP]	O	O	O, B-CV, B-PS, B-OG, I-OG

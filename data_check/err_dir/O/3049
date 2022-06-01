@@ -1,0 +1,24 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-AF
+1	[	O	O	O, B-OG, B-PS, B-LC, B-AF
+2	CEO	B-CV	B-CV	B-CV, O, B-OG, B-PS, B-AF
+3	&	O	O	O, I-CV, I-OG, I-AF, I-PS
+4	]	O	O	O, I-OG, B-PS, B-OG, B-LC
+5	㈜	B-OG	B-OG	B-OG, O, B-LC, B-AF, B-CV
+6	##도	I-OG	I-OG	I-OG, O, B-OG, I-LC, I-AF
+7	##스코	I-OG	I-OG	I-OG, O, I-LC, I-CV, I-AF
+8	,	O	O	O, I-OG, I-AF, B-LC, B-OG
+9	35	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-OG
+10	##년	I-DT	I-DT	I-DT, O, I-QT, B-DT, I-OG
+11	외	O	O	O, B-LC, B-TM, B-AF, B-OG
+12	##길	O	O	O, I-AF, I-LC, I-OG, I-PS
+13	…	O	O	O, B-LC, I-AF, I-OG, B-OG
+14	고품질	O	O	O, B-LC, B-MT, B-TM, B-AF
+15	특수강	O	B-MT	B-MT, O, I-MT, B-TM, B-LC
+16	·	O	O	O, I-OG, I-AF, I-LC, I-TM
+17	열	O	O	O, B-TR, B-MT, B-TM, B-PS
+18	##처리	O	O	O, I-TR, I-TM, I-FD, I-MT
+19	‘	O	O	O, B-LC, B-CV, B-OG, I-OG
+20	메카	O	O	O, B-LC, B-OG, B-AF, B-PS
+21	’	O	O	O, I-OG, I-AF, B-LC, I-LC
+22	[SEP]	O	O	O, B-LC, B-OG, B-CV, B-AF

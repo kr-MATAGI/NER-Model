@@ -1,0 +1,16 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-AF
+1	사각형	B-TM	B-TM	B-TM, O, B-CV, B-AF, B-LC
+2	뿔	O	B-CV	B-CV, O, I-CV, B-AM, I-TM
+3	##테	O	I-CV	I-CV, O, I-TM, I-AM, I-AF
+4	##가	O	O	O, I-CV, I-AF, B-CV, I-OG
+5	유행	O	O	O, B-CV, B-OG, B-LC, B-PS
+6	##하면	O	O	O, B-CV, I-CV, B-PS, B-OG
+7	너도나도	O	O	O, B-CV, B-TM, B-PS, B-OG
+8	뿔	O	B-CV	B-CV, O, B-AM, B-AF, B-TM
+9	##테	O	I-CV	I-CV, O, I-AM, I-TM, I-AF
+10	안경	O	O	O, I-CV, B-CV, I-AF, I-TM
+11	##을	O	O	O, I-CV, I-AF, B-CV, I-EV
+12	쓴다	O	O	O, B-CV, B-TM, I-CV, B-LC
+13	.	O	O	O, B-CV, B-LC, B-PS, B-OG
+14	[SEP]	O	O	O, B-CV, B-LC, I-AF, B-PS

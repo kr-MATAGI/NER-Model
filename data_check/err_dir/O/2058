@@ -1,0 +1,12 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-EV, I-OG, B-CV, I-CV
+1	여자	O	O	O, B-CV, B-EV, B-LC, B-OG
+2	##배	O	B-CV	B-CV, I-CV, O, I-EV, B-EV
+3	##구	O	I-CV	I-CV, O, B-CV, I-EV, I-OG
+4	2	B-DT	B-DT	B-DT, O, I-DT, I-CV, B-QT
+5	##년	I-DT	I-DT	I-DT, B-DT, O, I-QT, I-CV
+6	##만	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
+7	##에	O	O	O, I-DT, I-EV, I-QT, B-CV
+8	챔피언	B-CV	B-CV	B-CV, O, I-CV, B-AF, B-OG
+9	탈환	O	O	O, I-CV, I-EV, B-CV, I-OG
+10	[SEP]	O	O	O, B-CV, B-LC, B-OG, I-EV

@@ -1,0 +1,15 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, B-CV, I-AF, I-CV
+1	하루	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-LC
+2	##에	O	O	O, I-DT, I-QT, I-OG, I-EV
+3	3	B-QT	B-QT	B-QT, O, B-DT, I-QT, B-TI
+4	##팀	I-QT	I-QT	I-QT, O, I-DT, I-EV, I-OG
+5	##까	O	I-QT	I-QT, O, B-QT, I-DT, I-TI
+6	##지만	O	I-QT	I-QT, O, I-DT, I-TI, B-QT
+7	예약	O	O	O, I-QT, B-CV, B-TM, B-OG
+8	##을	O	O	O, B-CV, B-OG, B-TM, B-PS
+9	받	O	O	O, B-CV, B-OG, B-TM, B-LC
+10	##는	O	O	O, B-CV, B-OG, B-TM, B-AF
+11	##다	O	O	O, B-CV, B-OG, I-OG, B-TM
+12	.	O	O	O, B-CV, B-OG, B-LC, I-OG
+13	[SEP]	O	O	O, B-CV, B-OG, I-OG, B-LC

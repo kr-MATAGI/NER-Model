@@ -1,0 +1,16 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-AF
+1	연말	O	B-DT	B-DT, O, I-DT, B-EV, B-CV
+2	극장	O	O	O, B-EV, B-FD, I-EV, B-LC
+3	##대	O	O	O, I-EV, I-AF, I-FD, I-LC
+4	##전	O	O	O, I-EV, I-AF, I-FD, I-LC
+5	…	O	O	O, I-EV, I-AF, B-LC, I-OG
+6	‘	O	O	O, B-LC, B-OG, B-CV, B-QT
+7	빅	B-QT	B-QT	B-QT, O, I-QT, B-EV, B-AF
+8	##3	I-QT	I-QT	I-QT, B-QT, O, I-AF, I-LC
+9	’	O	O	O, I-QT, I-OG, I-AF, I-EV
+10	중	O	O	O, B-LC, B-PS, B-OG, B-TM
+11	승자	O	B-CV	B-CV, O, B-PS, I-CV, B-AF
+12	##는	O	O	O, I-CV, I-AF, B-TM, I-OG
+13	?	O	O	O, B-LC, B-OG, B-TM, B-CV
+14	[SEP]	O	O	O, B-LC, B-CV, B-AF, B-TM

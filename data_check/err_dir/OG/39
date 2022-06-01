@@ -1,0 +1,26 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
+1	시스템	O	O	O, B-TM, B-CV, B-EV, B-AF
+2	오류	O	O	O, B-CV, B-TM, I-TM, I-CV
+3	##라면	O	O	O, I-TM, I-CV, I-EV, I-AF
+4	3	B-QT	B-QT	B-QT, O, B-EV, B-DT, I-QT
+5	##개	I-QT	I-QT	I-QT, O, I-EV, I-DT, I-PS
+6	소위원회	B-OG	O	O, B-OG, B-CV, B-EV, I-QT
+7	관리자	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-TM
+8	페이지	O	O	O, I-CV, B-TM, I-TM, I-EV
+9	##들	O	O	O, B-CV, I-CV, I-AF, I-TM
+10	##도	O	O	O, B-CV, B-LC, B-TM, B-OG
+11	열리	O	O	O, B-TM, B-CV, B-QT, B-OG
+12	##지	O	O	O, B-CV, B-TM, B-OG, B-LC
+13	않	O	O	O, B-CV, B-TM, B-LC, B-OG
+14	##아	O	O	O, B-CV, B-LC, B-OG, B-TM
+15	##야	O	O	O, B-CV, B-TM, B-QT, B-LC
+16	하	O	O	O, B-CV, B-TM, B-OG, B-QT
+17	##는데	O	O	O, B-CV, B-TM, B-OG, B-QT
+18	그렇	O	O	O, B-CV, B-TM, B-OG, B-QT
+19	##지	O	O	O, B-CV, B-LC, B-OG, B-TM
+20	않	O	O	O, B-CV, I-OG, I-EV, B-TM
+21	##았	O	O	O, B-CV, B-TM, B-QT, B-OG
+22	##다	O	O	O, B-CV, B-TM, I-OG, B-OG
+23	.	O	O	O, B-CV, B-LC, B-TM, B-OG
+24	[SEP]	O	O	O, B-CV, B-TM, B-LC, I-EV

@@ -1,0 +1,16 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-CV, I-OG, B-CV, I-EV
+1	전재	B-PS	B-PS	B-PS, B-OG, O, B-LC, I-PS
+2	##희	I-PS	I-PS	I-PS, I-OG, O, I-LC, I-DT
+3	복지부	B-OG	B-OG	B-OG, O, I-OG, B-CV, I-PS
+4	장관	B-CV	B-CV	B-CV, O, I-CV, B-OG, I-OG
+5	""""	O	O	O, I-CV, I-OG, B-CV, I-EV
+6	바우처	O	B-CV	B-CV, O, I-CV, B-OG, B-TM
+7	制	O	I-CV	I-CV, O, I-OG, B-CV, I-TM
+8	통해	O	O	O, I-CV, I-OG, I-AF, I-QT
+9	서비스	O	O	O, B-CV, B-TM, I-CV, B-LC
+10	일자리	O	O	O, B-TM, B-CV, B-AF, B-LC
+11	늘릴	O	O	O, I-CV, B-CV, I-TM, B-TM
+12	것	O	O	O, B-PS, B-CV, B-LC, B-OG
+13	""""	O	O	O, B-CV, B-LC, I-OG, B-TM
+14	[SEP]	O	O	O, B-CV, B-LC, B-TM, B-OG

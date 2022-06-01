@@ -1,0 +1,10 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-CV, B-CV, I-OG, I-AF
+1	디자이너	O	B-CV	B-CV, O, I-CV, B-TM, B-FD
+2	스케치	O	O	O, I-CV, B-CV, B-FD, B-TM
+3	##를	O	O	O, I-CV, B-CV, I-AF, I-TM
+4	하나	B-QT	B-QT	B-QT, O, B-PS, I-QT, B-TM
+5	해	O	O	O, I-QT, B-CV, I-CV, B-OG
+6	##달	O	O	O, I-QT, B-LC, B-CV, I-LC
+7	##라	O	O	O, I-QT, I-AF, I-OG, B-PS
+8	[SEP]	O	O	O, B-CV, B-LC, B-TM, I-AF

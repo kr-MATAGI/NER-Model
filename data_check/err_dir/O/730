@@ -1,0 +1,19 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
+1	농	B-OG	B-OG	B-OG, O, B-EV, B-LC, B-CV
+2	##식	I-OG	I-OG	I-OG, O, I-EV, B-OG, I-CV
+3	##품	I-OG	I-OG	I-OG, O, I-EV, I-CV, B-OG
+4	##부	I-OG	I-OG	I-OG, O, I-EV, I-CV, I-QT
+5	,	O	O	O, I-OG, I-EV, B-CV, I-QT
+6	전국	O	O	O, B-LC, B-OG, B-CV, B-EV
+7	어린이집	O	O	O, B-OG, B-CV, B-AF, I-OG
+8	등	O	O	O, B-CV, B-PS, B-LC, I-EV
+9	대상	O	O	O, B-EV, B-CV, B-LC, I-EV
+10	식생활	O	B-EV	B-EV, O, I-EV, B-CV, B-OG
+11	##교육	O	I-EV	I-EV, O, B-EV, I-OG, I-CV
+12	우수	O	I-EV	I-EV, O, B-EV, I-OG, I-CV
+13	사례	O	I-EV	I-EV, O, I-CV, I-OG, I-TM
+14	경진	O	I-EV	I-EV, O, B-EV, I-OG, I-CV
+15	##대	O	I-EV	I-EV, O, I-OG, I-CV, I-AF
+16	##회	O	I-EV	I-EV, O, I-OG, B-EV, I-AF
+17	[SEP]	O	O	O, I-EV, I-OG, B-CV, B-LC

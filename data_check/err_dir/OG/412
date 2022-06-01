@@ -1,0 +1,18 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-EV, I-CV, I-OG, B-CV
+1	‘	O	O	O, B-OG, B-EV, B-LC, B-DT
+2	아시아	B-LC	B-LC	B-LC, B-OG, O, B-EV, I-OG
+3	가톨릭	B-OG	I-OG	I-OG, B-OG, O, I-EV, B-LC
+4	##대	I-OG	I-OG	I-OG, O, I-EV, I-LC, B-OG
+5	##학	I-OG	I-OG	I-OG, O, I-EV, I-LC, B-OG
+6	협의	O	I-OG	I-OG, O, B-OG, I-EV, B-EV
+7	##체	O	I-OG	I-OG, O, I-EV, I-LC, B-OG
+8	’	O	O	O, I-OG, I-EV, B-OG, B-EV
+9	총회	O	O	O, B-EV, I-EV, B-OG, I-OG
+10	개최	O	O	O, I-EV, I-OG, B-LC, B-CV
+11	박영	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
+12	##식	I-PS	I-PS	I-PS, O, I-OG, I-LC, I-DT
+13	가톨릭	B-OG	B-OG	B-OG, I-OG, O, B-LC, I-PS
+14	##대	I-OG	I-OG	I-OG, O, I-PS, I-LC, I-AF
+15	총장	B-CV	B-CV	B-CV, O, I-CV, I-OG, B-TM
+16	[SEP]	O	O	O, I-OG, I-CV, I-EV, B-OG

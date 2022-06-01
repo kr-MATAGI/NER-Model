@@ -1,0 +1,26 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
+1	저출산	O	B-TR	B-TR, O, B-FD, B-TM, B-EV
+2	고령화	O	O	O, B-TR, I-TR, B-TM, I-TM
+3	##로	O	O	O, I-TR, I-TM, B-PS, I-EV
+4	건강	O	O	O, B-CV, B-TR, B-TM, B-OG
+5	##보험	O	O	O, I-CV, I-TR, I-TM, I-OG
+6	##과	O	O	O, I-CV, I-OG, I-AF, B-CV
+7	장기	B-CV	O	O, B-CV, I-CV, B-TR, B-AF
+8	##요	I-CV	O	O, I-CV, B-CV, I-TR, I-OG
+9	##양	I-CV	O	O, I-CV, I-OG, B-CV, I-TM
+10	##보험	I-CV	O	O, I-CV, I-OG, I-TM, B-CV
+11	등	O	O	O, I-CV, B-PS, B-CV, B-LC
+12	사회	O	O	O, B-CV, I-CV, B-TR, B-FD
+13	##보험	O	O	O, I-CV, B-CV, I-TR, I-TM
+14	##료	O	O	O, I-CV, I-TR, I-TM, I-FD
+15	지출	O	O	O, I-CV, B-CV, B-TM, B-OG
+16	##이	O	O	O, B-PS, B-OG, B-LC, B-CV
+17	급증	O	O	O, B-CV, B-TM, B-LC, B-OG
+18	##한	O	O	O, B-CV, B-OG, B-PS, B-LC
+19	영향	O	O	O, B-CV, B-TM, B-LC, I-OG
+20	##이	O	O	O, B-CV, B-PS, B-OG, B-LC
+21	컸	O	O	O, B-CV, I-OG, B-QT, B-TM
+22	##다	O	O	O, B-CV, I-OG, B-TM, I-QT
+23	.	O	O	O, B-LC, I-OG, B-CV, B-PS
+24	[SEP]	O	O	O, I-OG, B-CV, B-LC, I-AF

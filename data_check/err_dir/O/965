@@ -1,0 +1,17 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
+1	지체	O	O	O, B-AF, B-TM, B-LC, B-CV
+2	##없이	O	O	O, I-AF, B-TM, B-PS, B-LC
+3	심폐	O	B-TR	B-TR, O, B-TM, I-TR, B-AM
+4	##소	O	I-TR	I-TR, O, B-TR, I-TM, I-FD
+5	##생	O	I-TR	I-TR, O, I-TM, B-TR, I-FD
+6	##술	O	I-TR	I-TR, O, I-TM, B-TR, I-QT
+7	##을	O	O	O, I-TR, I-TM, I-QT, I-EV
+8	30	B-QT	B-QT	B-QT, B-DT, O, B-EV, I-QT
+9	##여	I-QT	I-QT	I-QT, O, I-EV, I-DT, B-QT
+10	##차례	I-QT	I-QT	I-QT, O, I-EV, I-DT, B-QT
+11	시도	O	O	O, I-QT, I-EV, B-CV, I-OG
+12	##했	O	O	O, B-CV, I-QT, I-EV, B-OG
+13	##다	O	O	O, B-CV, B-LC, B-TM, I-OG
+14	.	O	O	O, B-CV, B-LC, B-OG, B-TM
+15	[SEP]	O	O	O, B-CV, B-LC, B-TM, I-EV

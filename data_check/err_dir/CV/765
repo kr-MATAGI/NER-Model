@@ -1,0 +1,20 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
+1	가수	B-CV	B-CV	B-CV, O, I-CV, B-PS, B-AF
+2	서태지	B-PS	B-PS	B-PS, O, I-PS, B-OG, B-AF
+3	##가	O	O	O, I-PS, B-CV, I-OG, I-AF
+4	연예인	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-TM
+5	가운데	O	O	O, B-TM, I-CV, B-QT, B-CV
+6	최고	O	O	O, B-PS, B-QT, B-TM, B-CV
+7	‘	O	O	O, B-CV, B-LC, B-PS, B-OG
+8	빌딩	O	O	O, B-PS, B-AF, B-CV, B-LC
+9	부자	B-CV	O	O, B-CV, I-CV, B-PS, I-PS
+10	’	O	O	O, I-CV, B-CV, B-PS, I-AF
+11	라는	O	O	O, B-PS, B-CV, B-OG, B-TM
+12	조사	O	O	O, B-CV, B-PS, B-TM, B-FD
+13	결과	O	O	O, I-CV, B-CV, I-TM, B-PS
+14	##가	O	O	O, B-CV, B-PS, I-CV, B-OG
+15	나왔	O	O	O, B-CV, B-OG, B-TM, B-LC
+16	##다	O	O	O, B-CV, B-TM, I-CV, B-OG
+17	.	O	O	O, B-PS, B-CV, B-OG, B-LC
+18	[SEP]	O	O	O, B-CV, B-PS, B-OG, B-LC

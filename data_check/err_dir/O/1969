@@ -1,0 +1,22 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-AF
+1	[	O	O	O, B-LC, B-OG, B-AF, B-PS
+2	김지	B-PS	B-PS	B-PS, B-AF, O, B-LC, B-OG
+3	##영	I-PS	I-PS	I-PS, O, I-AF, I-OG, I-LC
+4	기자	B-CV	B-CV	B-CV, O, I-PS, I-AF, I-CV
+5	##의	O	O	O, I-AF, I-CV, I-PS, I-OG
+6	문학	O	B-FD	B-FD, O, I-FD, B-CV, B-AF
+7	##뜨	O	O	O, I-AF, I-FD, B-PS, I-OG
+8	##락	O	O	O, I-AF, I-PS, I-OG, I-LC
+9	]	O	O	O, I-AF, B-LC, B-PS, B-OG
+10	인터넷	O	O	O, B-TM, B-LC, B-CV, B-PS
+11	##세대	O	O	O, B-PS, B-CV, B-LC, I-CV
+12	당기	O	O	O, B-PS, B-LC, B-OG, B-CV
+13	##는	O	O	O, B-PS, B-LC, I-PS, B-CV
+14	복	O	O	O, B-CV, B-EV, B-AF, B-FD
+15	##간	O	O	O, I-CV, I-AF, I-QT, I-FD
+16	##본	O	O	O, I-CV, I-AF, I-QT, I-TR
+17	시집	O	O	O, B-CV, B-FD, B-AF, I-AF
+18	##의	O	O	O, I-AF, I-CV, B-PS, I-OG
+19	마력	O	O	O, B-LC, B-PS, B-AF, B-CV
+20	[SEP]	O	O	O, B-CV, B-LC, I-AF, B-PS

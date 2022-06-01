@@ -1,0 +1,14 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-AF
+1	이때	O	O	O, B-CV, B-OG, B-TM, B-LC
+2	변호인	O	B-CV	B-CV, O, B-OG, I-CV, B-AF
+3	##단	O	O	O, I-CV, I-OG, I-EV, I-AF
+4	##이	O	O	O, B-PS, I-OG, I-CV, I-AF
+5	제출	O	O	O, B-CV, B-LC, B-PS, B-TM
+6	##한	O	O	O, B-PS, B-LC, B-OG, B-CV
+7	자료	O	O	O, B-CV, B-LC, B-PS, B-AF
+8	##가	O	O	O, B-CV, B-OG, B-LC, I-AF
+9	있	O	O	O, B-CV, B-OG, B-LC, B-TM
+10	##다	O	O	O, B-CV, B-LC, I-OG, B-OG
+11	.	O	O	O, B-LC, B-OG, B-PS, B-CV
+12	[SEP]	O	O	O, B-CV, B-LC, B-OG, I-OG

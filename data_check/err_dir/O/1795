@@ -1,0 +1,19 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
+1	경기	O	B-CV	B-CV, O, I-CV, B-AF, B-OG
+2	##복	O	I-CV	I-CV, O, B-CV, I-AF, I-OG
+3	앞쪽	B-TM	B-TM	B-TM, O, I-TM, B-QT, B-AF
+4	##에	O	O	O, I-TM, I-CV, I-AF, B-CV
+5	달린	O	O	O, B-CV, B-TM, B-OG, B-LC
+6	지퍼	O	O	O, B-TM, B-CV, B-AM, B-AF
+7	##를	O	O	O, B-CV, I-AF, I-TM, B-PS
+8	배꼽	B-AM	B-AM	B-AM, O, B-TM, B-TR, B-PS
+9	##까	O	O	O, I-AM, B-AM, I-DT, I-PS
+10	##지	O	O	O, B-AM, B-LC, I-DT, B-PS
+11	죽	O	O	O, B-LC, B-CV, B-PS, B-TM
+12	내리	O	O	O, B-CV, B-PS, B-LC, B-OG
+13	##는	O	O	O, B-CV, B-PS, B-LC, B-TM
+14	것	O	O	O, B-CV, B-TM, B-OG, B-LC
+15	##이다	O	O	O, B-CV, B-TM, I-CV, I-OG
+16	.	O	O	O, B-CV, B-PS, B-LC, B-TM
+17	[SEP]	O	O	O, B-CV, B-TM, B-LC, B-PS

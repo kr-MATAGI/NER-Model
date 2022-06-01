@@ -1,0 +1,24 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
+1	파스텔	B-TM	B-TM	B-TM, O, B-AF, B-LC, B-QT
+2	핑크	I-TM	B-TM	B-TM, I-TM, O, B-CV, B-LC
+3	풍선	O	O	O, I-TM, B-TM, B-CV, B-AF
+4	장식	O	O	O, I-TM, I-AF, I-OG, B-CV
+5	##과	O	O	O, B-OG, B-CV, I-OG, B-LC
+6	초콜릿	B-CV	B-CV	B-CV, O, B-PT, B-AF, B-OG
+7	,	O	O	O, I-CV, I-OG, I-AF, B-CV
+8	레드	B-CV	B-TM	B-TM, O, B-CV, B-AF, B-AM
+9	##와	I-CV	O	O, I-CV, B-CV, I-TM, I-OG
+10	##인	I-CV	I-CV	I-CV, O, I-OG, I-TM, B-CV
+11	및	O	O	O, I-CV, I-OG, I-AF, I-TM
+12	테라스	O	O	O, B-CV, B-AF, B-TM, B-LC
+13	##의	O	O	O, I-AF, I-OG, B-CV, B-LC
+14	2	B-QT	B-QT	B-QT, O, B-DT, B-EV, B-CV
+15	##인	I-QT	I-QT	I-QT, O, I-EV, I-DT, I-LC
+16	조식	O	O	O, B-CV, I-QT, B-TM, B-DT
+17	##도	O	O	O, I-QT, I-CV, B-CV, B-OG
+18	포함	O	O	O, B-CV, B-TM, B-OG, B-QT
+19	##된	O	O	O, I-OG, B-OG, B-CV, I-AF
+20	##다	O	O	O, B-CV, I-OG, B-OG, B-TM
+21	.	O	O	O, B-LC, B-OG, I-OG, B-CV
+22	[SEP]	O	O	O, B-LC, B-CV, B-TM, B-OG

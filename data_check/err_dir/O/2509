@@ -1,0 +1,25 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
+1	우연히	O	O	O, B-CV, B-PS, B-OG, B-TM
+2	밴드	O	B-CV	B-CV, O, B-PS, B-OG, B-AF
+3	##스타	O	I-CV	I-CV, O, B-CV, I-PS, I-OG
+4	##킹	O	I-CV	I-CV, O, I-PS, I-OG, B-CV
+5	##을	O	O	O, I-CV, B-PS, I-OG, I-AF
+6	발견	O	O	O, B-CV, B-TM, B-QT, B-PS
+7	##해	O	O	O, B-PS, I-CV, I-QT, B-LC
+8	입	O	O	O, B-CV, B-PS, B-AM, I-CV
+9	##어	O	O	O, I-CV, B-CV, B-PS, I-QT
+10	##본	O	O	O, B-PS, I-QT, B-CV, I-PS
+11	그	O	O	O, B-CV, B-PS, I-CV, I-AF
+12	##는	O	O	O, B-CV, B-PS, I-AF, I-CV
+13	여자	O	O	O, B-CV, B-AM, B-PS, B-TM
+14	##로	O	O	O, B-PS, B-CV, B-QT, I-AF
+15	##서	O	O	O, B-CV, B-PS, B-LC, B-QT
+16	살아	O	O	O, B-CV, B-QT, B-PS, B-LC
+17	##보기	O	O	O, B-PS, I-QT, B-CV, B-QT
+18	##로	O	O	O, B-CV, B-PS, I-QT, I-CV
+19	결심	O	O	O, B-CV, B-TM, B-QT, B-PS
+20	##했	O	O	O, B-CV, B-PS, I-CV, B-LC
+21	##다	O	O	O, B-CV, I-CV, I-OG, I-AF
+22	.	O	O	O, B-CV, B-PS, B-LC, I-AF
+23	[SEP]	O	O	O, B-CV, B-PS, I-CV, I-AF

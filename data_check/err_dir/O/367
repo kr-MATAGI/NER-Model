@@ -1,0 +1,11 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-EV, B-CV, I-OG, I-CV
+1	국기	O	B-EV	B-EV, O, B-CV, B-AF, I-EV
+2	파괴	O	I-EV	I-EV, O, I-AF, I-CV, I-TM
+3	사건	O	I-EV	I-EV, O, I-AF, I-CV, I-OG
+4	##뿐	O	O	O, I-EV, I-AF, I-OG, I-CV
+5	##만	O	O	O, I-EV, B-LC, B-PS, B-QT
+6	##이	O	O	O, B-CV, B-OG, B-PS, B-LC
+7	아니	O	O	O, B-CV, B-OG, B-EV, B-PS
+8	##라	O	O	O, I-EV, B-CV, B-OG, I-OG
+9	[SEP]	O	O	O, B-CV, I-EV, B-EV, B-LC

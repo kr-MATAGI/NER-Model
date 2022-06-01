@@ -1,0 +1,13 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
+1	어	O	O	O, B-CV, B-LC, B-OG, B-TM
+2	~	O	O	O, B-LC, B-CV, B-PS, I-CV
+3	월요일	B-DT	B-DT	B-DT, O, I-DT, B-CV, B-LC
+4	월요일	B-DT	I-DT	I-DT, B-DT, O, B-CV, B-TI
+5	날	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-CV
+6	어	O	O	O, I-DT, B-CV, B-OG, B-LC
+7	와이	B-OG	O	O, B-OG, B-CV, B-LC, B-AF
+8	##티	I-OG	O	O, I-OG, I-CV, I-LC, I-PS
+9	##엔	I-OG	O	O, I-OG, I-CV, I-LC, I-AF
+10	##에	O	O	O, I-OG, I-CV, I-AF, I-LC
+11	[SEP]	O	O	O, B-CV, B-LC, I-OG, B-OG

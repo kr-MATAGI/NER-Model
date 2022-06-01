@@ -1,0 +1,23 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, I-CV, I-EV, B-CV
+1	“	O	O	O, B-CV, B-LC, B-PS, B-TM
+2	다른	O	O	O, B-CV, B-LC, B-TM, B-PS
+3	일	O	O	O, B-CV, I-EV, B-TM, B-PS
+4	##도	O	O	O, B-CV, B-PS, B-LC, I-EV
+5	마찬가지	O	O	O, B-CV, B-TM, B-LC, B-QT
+6	##겠	O	O	O, B-PS, B-CV, B-OG, B-LC
+7	##지만	O	O	O, B-PS, B-CV, B-LC, I-OG
+8	축구	B-CV	B-CV	B-CV, O, B-FD, B-AF, B-EV
+9	##도	O	O	O, I-CV, I-EV, I-OG, I-AF
+10	하루	B-TI	B-DT	B-DT, O, B-TI, B-QT, B-LC
+11	##아	I-TI	B-TI	B-TI, O, I-TI, I-DT, I-QT
+12	##침	I-TI	I-TI	I-TI, O, B-TI, I-DT, I-QT
+13	##에	O	O	O, I-TI, I-QT, I-EV, I-DT
+14	되	O	O	O, B-CV, B-TM, B-OG, B-LC
+15	##는	O	O	O, B-CV, B-TM, B-LC, B-OG
+16	것	O	O	O, B-CV, B-LC, B-TM, B-OG
+17	##이	O	O	O, B-CV, B-PS, B-OG, B-LC
+18	아니	O	O	O, B-CV, B-LC, B-TM, B-OG
+19	##다	O	O	O, B-CV, I-OG, B-LC, B-TM
+20	.	O	O	O, B-CV, B-LC, B-PS, B-OG
+21	[SEP]	O	O	O, B-CV, B-LC, I-EV, B-TM

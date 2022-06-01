@@ -1,0 +1,21 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
+1	회로	O	O	O, B-CV, B-TM, B-PS, B-QT
+2	먹	O	O	O, B-CV, I-CV, B-PS, I-QT
+3	##기	O	O	O, I-CV, B-CV, B-PS, I-QT
+4	##도	O	O	O, B-CV, I-CV, B-PS, I-QT
+5	하고	O	O	O, B-CV, B-TM, B-PS, I-CV
+6	각종	O	O	O, B-CV, B-TM, B-PS, B-AF
+7	채소	O	B-CV	B-CV, O, I-CV, B-PT, B-TM
+8	##와	O	O	O, I-CV, B-CV, B-PS, I-OG
+9	버무	O	O	O, B-CV, I-CV, B-PS, B-TM
+10	##린	O	O	O, I-CV, B-CV, B-PS, I-OG
+11	회	B-CV	B-CV	B-CV, O, I-CV, B-AF, B-OG
+12	##무	O	I-CV	I-CV, O, B-CV, I-AF, I-OG
+13	##침	O	I-CV	I-CV, O, B-CV, I-AF, I-OG
+14	##도	O	O	O, I-CV, I-OG, I-AF, I-QT
+15	인기	O	O	O, B-CV, I-CV, B-TM, B-LC
+16	있	O	O	O, B-CV, I-CV, I-AF, I-OG
+17	##다	O	O	O, B-CV, I-CV, I-OG, B-TM
+18	.	O	O	O, B-CV, I-CV, B-PS, B-LC
+19	[SEP]	O	O	O, B-CV, I-CV, B-PS, B-TM

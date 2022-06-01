@@ -1,0 +1,24 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
+1	포스코	B-OG	B-OG	B-OG, O, B-LC, I-OG, B-AF
+2	##에너지	I-OG	I-OG	I-OG, O, B-OG, I-LC, I-AF
+3	##는	O	O	O, I-OG, I-AF, B-CV, I-EV
+4	22	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-OG
+5	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-OG
+6	“	O	O	O, I-DT, B-CV, I-OG, I-QT
+7	물의	O	O	O, B-CV, B-PS, B-TM, B-LC
+8	##를	O	O	O, B-CV, B-PS, I-CV, B-OG
+9	일으킨	O	O	O, B-CV, B-PS, B-LC, B-OG
+10	당사자	B-CV	B-CV	B-CV, O, I-CV, B-PS, B-OG
+11	##에	O	O	O, I-CV, B-CV, I-OG, I-EV
+12	대해	O	O	O, B-DT, B-LC, B-OG, B-CV
+13	금	O	B-DT	B-DT, O, I-DT, B-OG, B-CV
+14	##일	O	I-DT	I-DT, O, B-DT, I-OG, I-QT
+15	보직	O	O	O, B-CV, I-DT, B-TM, I-CV
+16	##해	O	O	O, I-CV, B-CV, B-PS, B-TM
+17	##임	O	O	O, I-CV, B-CV, B-PS, I-OG
+18	##을	O	O	O, I-CV, B-OG, B-CV, B-PS
+19	했	O	O	O, B-OG, B-CV, B-LC, B-DT
+20	##다	O	O	O, B-CV, I-OG, B-OG, B-LC
+21	.	O	O	O, B-CV, B-LC, B-OG, B-PS
+22	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-PS

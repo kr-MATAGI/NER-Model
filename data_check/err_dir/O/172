@@ -1,0 +1,23 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-CV, B-CV, I-OG, I-AF
+1	최근	O	O	O, B-LC, B-DT, B-OG, B-PS
+2	청담동	B-LC	B-LC	B-LC, O, I-LC, B-OG, B-AF
+3	유행어	O	O	O, I-LC, B-CV, I-AF, B-PS
+4	중	O	O	O, B-PS, B-TM, B-LC, B-QT
+5	하나	O	B-QT	B-QT, O, I-QT, B-PS, B-LC
+6	##는	O	O	O, I-QT, I-CV, I-AF, I-OG
+7	""""	O	O	O, B-CV, B-LC, B-TM, B-PS
+8	난	O	O	O, B-PS, B-CV, B-LC, B-TM
+9	커서	O	O	O, B-PS, B-CV, B-LC, B-TM
+10	마르	B-PS	B-PS	B-PS, O, I-PS, B-LC, B-OG
+11	##니	I-PS	I-PS	I-PS, O, I-OG, I-LC, B-PS
+12	할머니	B-CV	B-CV	B-CV, O, I-PS, I-CV, I-AF
+13	##가	O	O	O, I-CV, B-PS, I-PS, I-AF
+14	될	O	O	O, B-CV, B-PS, B-QT, B-LC
+15	거	O	O	O, B-PS, B-CV, I-AF, I-CV
+16	##야	O	O	O, I-AF, I-CV, I-OG, I-QT
+17	""""	O	O	O, B-CV, B-TM, I-CV, B-LC
+18	라고	O	O	O, B-CV, I-CV, B-PS, B-TM
+19	한다	O	O	O, B-CV, B-TM, B-PS, B-LC
+20	.	O	O	O, B-PS, B-CV, B-LC, B-AF
+21	[SEP]	O	O	O, B-CV, B-PS, B-LC, B-TM

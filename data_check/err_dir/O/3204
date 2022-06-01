@@ -1,0 +1,14 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
+1	'	O	O	O, B-LC, B-CV, B-EV, B-DT
+2	청와대	B-OG	B-OG	B-OG, B-AF, B-EV, O, B-LC
+3	문건	O	O	O, I-EV, I-AF, I-OG, B-EV
+4	유출	O	O	O, I-EV, I-AF, I-TM, I-CV
+5	'	O	O	O, I-EV, B-PS, B-LC, B-CV
+6	출구	O	O	O, B-LC, B-TM, B-CV, B-PS
+7	##전	O	O	O, B-LC, B-CV, B-PS, I-LC
+8	##략	O	O	O, B-LC, I-LC, B-PS, I-CV
+9	찾	O	O	O, B-CV, B-LC, B-TM, B-OG
+10	##는	O	O	O, B-LC, B-OG, B-PS, B-TM
+11	검찰	O	B-OG	B-OG, B-AF, O, B-CV, B-EV
+12	[SEP]	O	O	O, I-OG, I-EV, I-AF, B-CV

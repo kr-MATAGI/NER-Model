@@ -1,0 +1,12 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, B-CV, I-EV, I-CV
+1	[	O	O	O, B-OG, B-LC, B-CV, B-PS
+2	한겨레	B-OG	B-OG	B-OG, O, B-LC, B-AF, B-PS
+3	]	O	O	O, I-OG, I-AF, I-EV, I-DT
+4	오바마	B-PS	B-PS	B-PS, B-OG, O, I-PS, B-LC
+5	,	O	O	O, I-PS, I-OG, B-CV, I-EV
+6	말레이	B-LC	B-LC	B-LC, O, B-OG, I-LC, B-PS
+7	·	O	I-LC	I-LC, O, B-LC, I-EV, I-PS
+8	필리핀	B-LC	I-LC	I-LC, B-LC, O, I-PS, B-OG
+9	방문	O	O	O, I-LC, B-LC, I-OG, B-CV
+10	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-AF

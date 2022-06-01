@@ -1,0 +1,13 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-EV, I-AF
+1	농구	B-CV	O	O, B-CV, B-AF, B-OG, B-LC
+2	##대	O	O	O, I-AF, I-OG, I-CV, I-LC
+3	##가	O	O	O, I-AF, I-OG, I-EV, B-PS
+4	있	O	O	O, B-CV, B-LC, B-AF, I-AF
+5	##어	O	O	O, B-CV, I-AF, B-LC, B-TM
+6	##서	O	O	O, B-CV, B-LC, B-OG, I-AF
+7	농구	O	B-CV	B-CV, O, B-AF, B-EV, B-OG
+8	시합	O	O	O, I-EV, I-CV, I-AF, B-CV
+9	##을	O	O	O, I-EV, I-AF, I-CV, B-CV
+10	해서	O	O	O, B-CV, B-OG, B-LC, B-TM
+11	[SEP]	O	O	O, B-CV, B-LC, I-AF, B-AF

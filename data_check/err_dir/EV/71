@@ -1,0 +1,16 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
+1	왜냐하면	O	O	O, B-CV, B-LC, B-PS, B-OG
+2	그	O	O	O, B-CV, B-OG, B-LC, B-PS
+3	당시	O	O	O, B-CV, B-PS, B-OG, B-LC
+4	##에	O	O	O, B-CV, B-OG, B-PS, B-LC
+5	이	O	O	O, B-PS, B-OG, B-CV, B-EV
+6	~	O	O	O, B-CV, I-EV, I-QT, B-PS
+7	주총	B-EV	O	O, B-EV, B-CV, B-OG, B-FD
+8	##에	O	O	O, I-EV, I-OG, I-CV, B-PS
+9	합병	O	O	O, B-CV, B-EV, B-OG, B-PS
+10	합의	O	O	O, I-EV, B-CV, B-PS, I-OG
+11	##가	O	O	O, B-PS, B-OG, B-CV, B-LC
+12	되	O	O	O, B-CV, B-OG, B-LC, B-PS
+13	##려면	O	O	O, B-CV, B-OG, B-LC, I-OG
+14	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-PS

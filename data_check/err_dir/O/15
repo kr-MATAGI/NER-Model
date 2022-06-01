@@ -1,0 +1,27 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
+1	김	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
+2	##씨	O	O	O, I-PS, B-CV, I-OG, I-AF
+3	##처럼	O	O	O, B-CV, B-TM, B-LC, B-QT
+4	60	B-QT	B-QT	B-QT, B-DT, O, I-QT, B-EV
+5	##세	I-QT	I-QT	I-QT, O, I-DT, I-EV, I-OG
+6	##가	O	O	O, I-QT, I-OG, I-EV, I-AF
+7	넘	O	O	O, B-CV, I-QT, I-OG, I-AF
+8	##으면	O	O	O, B-CV, B-TM, I-CV, I-OG
+9	손발	O	B-TM	B-TM, O, B-CV, I-TM, B-TR
+10	##저	O	I-TM	I-TM, O, B-TM, I-CV, I-QT
+11	##림	O	I-TM	I-TM, O, I-CV, I-QT, I-AF
+12	·	O	O	O, I-TM, I-CV, I-AF, I-OG
+13	가슴	O	B-TM	B-TM, O, I-TM, B-CV, B-AF
+14	##답	O	I-TM	I-TM, O, B-TM, I-CV, I-QT
+15	##답	O	I-TM	I-TM, O, I-CV, I-QT, B-TM
+16	##증	O	I-TM	I-TM, O, I-CV, I-QT, I-AF
+17	·	O	O	O, I-TM, I-AF, I-CV, I-OG
+18	어지럼증	B-TM	B-TM	B-TM, O, I-TM, B-CV, B-LC
+19	·	O	O	O, I-TM, I-CV, I-AF, B-CV
+20	두통	B-TM	B-TM	B-TM, O, B-CV, I-TM, B-LC
+21	##을	O	O	O, I-TM, I-CV, B-CV, I-AF
+22	많이	O	O	O, B-CV, B-TM, B-OG, B-LC
+23	느낀다	O	O	O, B-CV, B-TM, I-OG, B-OG
+24	.	O	O	O, B-TM, B-CV, B-LC, B-PS
+25	[SEP]	O	O	O, B-TM, B-CV, I-TM, B-LC

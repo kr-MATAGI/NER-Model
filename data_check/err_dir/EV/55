@@ -1,0 +1,13 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
+1	세계	B-EV	B-EV	B-EV, O, B-CV, B-TM, B-LC
+2	##육	I-EV	I-EV	I-EV, B-CV, I-CV, O, B-EV
+3	##상	I-EV	I-CV	I-CV, I-EV, O, I-TM, B-CV
+4	·	O	O	O, I-EV, B-EV, I-CV, I-DT
+5	리우	B-EV	B-EV	B-EV, I-EV, B-LC, O, B-AF
+6	##올	I-EV	I-EV	I-EV, B-EV, O, I-QT, I-LC
+7	##림픽	I-EV	I-EV	I-EV, B-EV, O, I-QT, I-AF
+8	출전	O	O	O, I-EV, B-LC, B-CV, B-TM
+9	##권	O	O	O, I-LC, I-CV, B-LC, B-PS
+10	획득	O	O	O, B-CV, B-LC, B-TM, B-PS
+11	[SEP]	O	O	O, B-CV, B-LC, B-TM, B-EV

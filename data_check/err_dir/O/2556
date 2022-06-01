@@ -1,0 +1,19 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
+1	또	O	O	O, B-CV, B-PS, B-QT, B-LC
+2	다른	O	O	O, B-PS, B-CV, B-QT, B-LC
+3	이	O	O	O, B-PS, B-CV, B-QT, B-TR
+4	~	O	O	O, I-CV, B-CV, I-QT, B-PS
+5	표현	O	O	O, B-PS, B-CV, I-CV, B-LC
+6	##으로	O	O	O, B-PS, B-CV, B-LC, I-CV
+7	##는	O	O	O, B-CV, B-PS, B-LC, B-TM
+8	만성	O	B-TM	B-TM, O, B-TR, B-CV, I-TM
+9	##퇴	O	I-TM	I-TM, O, B-TM, I-TR, I-MT
+10	##행	O	I-TM	I-TM, O, B-TM, I-MT, I-TR
+11	##성	O	I-TM	I-TM, O, I-AF, I-MT, I-CV
+12	질병	O	I-TM	I-TM, O, I-CV, B-TM, I-MT
+13	이렇게	O	O	O, I-TM, I-CV, I-OG, I-AF
+14	인제	O	O	O, B-CV, B-OG, B-LC, B-PS
+15	부릅니다	O	O	O, B-CV, B-OG, B-PS, B-LC
+16	.	O	O	O, B-CV, B-LC, B-PS, I-CV
+17	[SEP]	O	O	O, B-CV, I-CV, B-LC, B-PS

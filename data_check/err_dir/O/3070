@@ -1,0 +1,18 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-AF
+1	1	B-QT	B-QT	B-QT, O, I-QT, B-CV, B-DT
+2	,	I-QT	I-QT	I-QT, O, B-QT, I-EV, I-CV
+3	2	I-QT	I-QT	I-QT, B-QT, O, I-LC, I-EV
+4	##위	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-EV
+5	지지율	O	O	O, I-QT, B-CV, B-TM, B-OG
+6	격차	O	O	O, B-CV, B-TM, B-OG, B-QT
+7	10	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-TM
+8	%	I-QT	I-QT	I-QT, O, I-LC, I-TM, I-OG
+9	P	I-QT	I-QT	I-QT, O, I-LC, I-TM, I-OG
+10	이내	I-QT	I-QT	I-QT, O, I-LC, I-TM, I-OG
+11	##일	O	O	O, I-QT, B-PS, B-CV, I-OG
+12	때	O	O	O, I-QT, I-OG, B-PS, I-CV
+13	결선	O	B-EV	B-EV, O, B-CV, I-EV, B-LC
+14	##투	O	I-EV	I-EV, O, B-EV, I-OG, I-CV
+15	##표	O	I-EV	I-EV, O, I-OG, I-AF, I-CV
+16	[SEP]	O	O	O, I-EV, I-OG, I-AF, I-QT

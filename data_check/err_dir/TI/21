@@ -1,0 +1,11 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-CV, I-OG, B-CV, I-AF
+1	왜	O	O	O, B-CV, B-OG, B-TM, B-QT
+2	열	B-TI	B-TI	B-TI, O, B-QT, B-EV, B-DT
+3	##두	I-TI	I-TI	I-TI, O, I-QT, B-TI, I-DT
+4	##시	I-TI	I-TI	I-TI, O, I-QT, B-TI, I-TR
+5	##서	I-TI	O	O, I-TI, I-QT, I-DT, I-TR
+6	##부터	I-TI	O	O, I-TI, I-QT, I-DT, B-TI
+7	##야	O	O	O, I-TI, I-QT, I-OG, I-DT
+8	?	O	O	O, B-CV, I-OG, I-AF, B-TM
+9	[SEP]	O	O	O, B-CV, B-LC, B-OG, I-OG

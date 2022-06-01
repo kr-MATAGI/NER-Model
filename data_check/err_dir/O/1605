@@ -1,0 +1,25 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
+1	15	B-QT	B-QT	B-QT, O, B-EV, B-DT, B-TM
+2	##경기	I-QT	I-QT	I-QT, O, I-EV, I-TM, I-DT
+3	34	B-QT	B-QT	B-QT, I-QT, O, B-EV, B-DT
+4	##타	I-QT	I-QT	I-QT, O, I-EV, I-TM, B-QT
+5	##석	I-QT	I-QT	I-QT, O, I-EV, I-TM, I-TI
+6	만	O	O	O, I-QT, I-TM, I-EV, I-TI
+7	##에	O	O	O, I-QT, I-EV, I-TM, B-CV
+8	기록	O	O	O, B-CV, B-LC, B-TM, B-QT
+9	##한	O	O	O, B-PS, B-LC, B-CV, B-OG
+10	비거리	O	B-TM	B-TM, O, B-AF, B-QT, I-TM
+11	127	B-QT	B-QT	B-QT, I-QT, I-TM, O, B-TM
+12	##m	I-QT	I-QT	I-QT, O, I-TM, I-LC, B-QT
+13	##짜	I-QT	I-QT	I-QT, O, I-LC, I-TM, B-QT
+14	##리	I-QT	I-QT	I-QT, O, I-LC, I-TM, I-PS
+15	대형	O	O	O, B-TM, I-QT, B-AF, B-QT
+16	대포	O	B-AF	B-AF, O, I-AF, B-TM, B-LC
+17	##이	O	O	O, I-AF, I-EV, I-OG, I-TM
+18	##기	O	O	O, B-PS, B-LC, I-AF, B-TM
+19	##도	O	O	O, I-QT, B-LC, B-CV, B-TM
+20	했	O	O	O, B-LC, B-CV, B-PS, B-TM
+21	##다	O	O	O, B-CV, B-TM, I-AF, I-EV
+22	.	O	O	O, B-TM, B-LC, B-PS, B-CV
+23	[SEP]	O	O	O, B-TM, B-CV, B-LC, B-QT

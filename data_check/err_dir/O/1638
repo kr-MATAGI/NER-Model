@@ -1,0 +1,25 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
+1	데이비드	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
+2	캐머	I-PS	I-PS	I-PS, B-PS, O, I-OG, I-LC
+3	##론	I-PS	I-PS	I-PS, O, I-OG, I-LC, B-PS
+4	(	O	O	O, I-PS, B-CV, I-OG, B-LC
+5	가운데	O	B-TM	B-TM, O, B-QT, B-LC, B-AM
+6	)	O	O	O, I-TM, B-CV, I-OG, I-QT
+7	영국	B-LC	B-LC	B-LC, B-OG, O, B-AF, B-TM
+8	총리	B-CV	B-CV	B-CV, O, I-CV, B-AF, B-TM
+9	##가	O	O	O, I-CV, I-EV, B-CV, I-AF
+10	가장	O	O	O, B-CV, B-QT, B-LC, B-TM
+11	큰	O	O	O, B-CV, B-PS, B-LC, B-QT
+12	안도	O	O	O, B-PS, B-TM, B-CV, B-LC
+13	##의	O	O	O, B-PS, I-AF, B-LC, I-EV
+14	한숨	O	O	O, B-PS, B-TM, B-LC, B-CV
+15	##을	O	O	O, B-CV, I-AF, B-OG, B-PS
+16	내쉬	O	O	O, B-CV, B-TM, B-LC, B-PS
+17	##었	O	O	O, B-CV, B-OG, B-PS, I-OG
+18	##을	O	O	O, B-CV, B-TM, B-PS, B-OG
+19	것	O	O	O, B-CV, B-TM, B-OG, B-PS
+20	##으로	O	O	O, B-CV, B-TM, B-OG, B-QT
+21	보인다	O	O	O, B-CV, B-TM, B-QT, B-LC
+22	.	O	O	O, B-CV, B-LC, B-PS, B-OG
+23	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-TM

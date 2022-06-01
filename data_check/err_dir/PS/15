@@ -1,0 +1,17 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
+1	안녕	O	O	O, B-CV, B-TM, B-LC, B-OG
+2	##하	O	O	O, B-PS, I-AF, B-LC, I-OG
+3	##세요	O	O	O, I-AF, I-OG, B-LC, I-QT
+4	서늘	B-AF	B-AF	B-AF, O, B-OG, B-LC, B-PS
+5	##한	I-AF	I-AF	I-AF, O, I-PS, I-OG, I-EV
+6	마음	I-AF	I-AF	I-AF, O, I-PS, I-EV, I-OG
+7	##썰	I-AF	I-AF	I-AF, O, I-EV, I-PS, I-OG
+8	##의	O	O	O, I-AF, I-EV, I-OG, I-CV
+9	서늘	B-PS	B-AF	B-AF, B-PS, I-AF, O, B-LC
+10	##한	I-PS	I-AF	I-AF, I-PS, O, I-LC, I-QT
+11	여름	I-PS	I-AF	I-AF, I-PS, B-AF, I-QT, B-AM
+12	##밤	I-PS	I-AF	I-AF, I-PS, I-QT, I-CV, I-TM
+13	##입니다	O	O	O, I-AF, I-PS, I-QT, I-CV
+14	.	O	O	O, I-AF, B-CV, B-LC, B-PS
+15	[SEP]	O	O	O, B-CV, I-AF, B-LC, B-FD

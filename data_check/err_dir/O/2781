@@ -1,0 +1,26 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-AF
+1	도쿄	B-LC	B-LC	B-LC, O, B-OG, B-AF, B-PS
+2	##권	O	I-LC	I-LC, O, B-LC, I-AF, I-OG
+3	시내	O	O	O, I-LC, B-LC, B-AF, I-AF
+4	##외	O	O	O, I-LC, B-LC, I-AF, B-TM
+5	##를	O	O	O, I-LC, B-LC, I-AF, B-PS
+6	가로지르	O	O	O, B-LC, B-AF, B-TM, B-CV
+7	##는	O	O	O, B-LC, I-AF, B-AF, B-CV
+8	수도권	B-LC	B-LC	B-LC, O, B-OG, B-AF, B-TM
+9	고속도로	O	O	O, B-AF, I-AF, I-LC, B-CV
+10	##의	O	O	O, I-AF, I-CV, B-CV, I-OG
+11	경우	O	O	O, B-CV, B-OG, B-LC, B-TM
+12	30	B-QT	B-QT	B-QT, O, I-QT, B-OG, B-DT
+13	%	I-QT	I-QT	I-QT, O, I-LC, I-OG, I-PS
+14	가	O	O	O, I-QT, I-OG, I-EV, B-OG
+15	건설	O	O	O, B-CV, B-AF, B-LC, B-OG
+16	##된	O	O	O, B-LC, B-CV, I-AF, B-PS
+17	지	O	O	O, B-CV, B-LC, B-PS, B-OG
+18	40	B-DT	B-DT	B-DT, O, I-DT, B-LC, B-EV
+19	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
+20	##이	O	O	O, I-DT, B-PS, B-CV, B-OG
+21	지났	O	O	O, B-CV, B-LC, B-OG, I-OG
+22	##다	O	O	O, B-CV, B-LC, I-OG, B-TM
+23	.	O	O	O, B-LC, B-CV, B-AF, B-OG
+24	[SEP]	O	O	O, B-LC, B-CV, I-AF, B-AF

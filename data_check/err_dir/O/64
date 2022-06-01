@@ -1,0 +1,25 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
+1	A	O	O	O, B-QT, B-TM, B-CV, B-LC
+2	##제품	O	O	O, I-QT, I-TM, I-CV, B-CV
+3	##은	O	O	O, B-CV, I-CV, I-QT, I-TM
+4	2008	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-PS
+5	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
+6	##까	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
+7	##지만	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
+8	해도	O	O	O, I-DT, B-CV, I-QT, B-TM
+9	사업	O	O	O, B-CV, B-TM, B-LC, B-OG
+10	철수	O	O	O, B-CV, B-TM, I-CV, I-TM
+11	##를	O	O	O, B-CV, B-OG, B-PS, B-TM
+12	검토	O	O	O, B-CV, B-TM, B-OG, B-PS
+13	##했	O	O	O, B-PS, B-CV, B-OG, B-LC
+14	##던	O	O	O, B-PS, B-CV, B-OG, B-LC
+15	‘	O	O	O, B-CV, B-OG, B-LC, B-PS
+16	미운	O	O	O, B-PS, B-AM, B-LC, B-AF
+17	오리	O	B-AM	B-AM, O, I-AM, B-PS, I-PS
+18	새끼	O	O	O, B-AM, I-AM, I-PS, B-PS
+19	’	O	O	O, B-CV, B-OG, B-PS, B-TM
+20	였	O	O	O, B-OG, B-PS, B-CV, B-LC
+21	##다	O	O	O, B-CV, B-TM, B-LC, I-OG
+22	.	O	O	O, B-CV, B-LC, B-TM, B-OG
+23	[SEP]	O	O	O, B-CV, B-TM, B-LC, B-OG

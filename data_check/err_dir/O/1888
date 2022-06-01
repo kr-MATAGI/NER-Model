@@ -1,0 +1,26 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
+1	육아	O	O	O, B-CV, B-TM, B-DT, B-EV
+2	##휴	O	O	O, I-CV, I-TM, B-CV, I-TR
+3	##직	O	O	O, I-CV, I-TM, I-TR, B-CV
+4	정착	O	O	O, I-CV, I-TM, I-AF, I-TR
+5	,	O	O	O, I-CV, B-PS, B-LC, B-CV
+6	금	O	O	O, B-DT, B-CV, B-AF, B-TI
+7	##요	O	O	O, I-DT, I-CV, B-DT, B-CV
+8	조기	O	O	O, I-CV, B-CV, I-DT, B-DT
+9	##퇴근	O	I-CV	I-CV, O, I-DT, B-CV, I-TM
+10	##제	O	O	O, I-CV, I-DT, I-TM, I-TR
+11	등	O	O	O, I-CV, I-DT, B-CV, B-PS
+12	##도	O	O	O, B-LC, B-CV, B-PS, B-OG
+13	공공	O	O	O, B-CV, B-TM, B-OG, B-AF
+14	##기	O	O	O, I-OG, I-AF, I-CV, I-LC
+15	##관	O	O	O, I-OG, I-AF, I-LC, I-CV
+16	밖	O	O	O, B-TM, B-LC, B-QT, B-CV
+17	##으로	O	O	O, I-TM, B-TM, B-LC, I-QT
+18	좀처럼	O	O	O, B-TM, B-CV, B-LC, B-OG
+19	퍼지	O	O	O, B-TM, B-CV, B-LC, B-QT
+20	##지	O	O	O, B-LC, I-QT, I-OG, B-OG
+21	못했	O	O	O, B-CV, B-LC, B-OG, B-TM
+22	##다	O	O	O, B-CV, I-OG, B-LC, B-TM
+23	.	O	O	O, B-LC, B-CV, B-TM, B-OG
+24	[SEP]	O	O	O, B-CV, B-LC, B-TM, I-OG

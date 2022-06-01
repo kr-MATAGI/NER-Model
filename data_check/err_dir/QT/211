@@ -1,0 +1,15 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-EV, I-QT
+1	1	B-QT	B-EV	B-EV, B-QT, O, B-TM, B-LC
+2	##회전	I-QT	I-EV	I-EV, I-QT, O, I-TM, I-AF
+3	##에	O	O	O, I-EV, I-QT, I-AF, I-OG
+4	##선	O	O	O, B-LC, B-CV, B-OG, B-PS
+5	세계	O	O	O, B-CV, B-LC, B-OG, B-FD
+6	2	B-QT	B-QT	B-QT, I-QT, O, B-DT, B-EV
+7	##위	I-QT	I-QT	I-QT, O, I-EV, I-LC, I-PS
+8	시모	B-PS	B-PS	B-PS, O, I-PS, I-QT, B-LC
+9	##나	I-PS	I-PS	I-PS, O, I-QT, I-LC, I-OG
+10	할	I-PS	I-PS	I-PS, B-PS, O, I-LC, B-LC
+11	##렙	I-PS	I-PS	I-PS, O, I-LC, I-QT, I-OG
+12	제압	O	O	O, I-PS, B-CV, B-LC, I-QT
+13	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-TM

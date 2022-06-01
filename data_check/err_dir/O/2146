@@ -1,0 +1,18 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
+1	모두	O	O	O, B-CV, B-QT, B-PS, B-TM
+2	과학	B-FD	B-FD	B-FD, O, I-FD, B-CV, B-OG
+3	및	O	I-FD	I-FD, O, B-FD, I-OG, I-AF
+4	공학	B-FD	I-FD	I-FD, B-FD, O, I-OG, I-AF
+5	박사	B-CV	B-CV	B-CV, O, I-CV, I-FD, B-FD
+6	##인	O	O	O, I-CV, B-CV, B-PS, I-QT
+7	동시	O	O	O, B-CV, B-PS, B-QT, B-TM
+8	##에	O	O	O, B-PS, I-CV, B-CV, I-QT
+9	트리	B-TR	B-TR	B-TR, B-FD, O, I-TR, B-PS
+10	##즈	I-TR	I-TR	I-TR, I-FD, O, B-TR, I-QT
+11	최고	O	O	O, B-CV, I-TR, I-CV, B-QT
+12	##수	O	O	O, I-CV, B-CV, I-QT, B-QT
+13	##들이	O	O	O, I-CV, I-QT, B-CV, B-QT
+14	##다	O	O	O, B-CV, B-TM, I-CV, B-QT
+15	.	O	O	O, B-CV, B-PS, B-FD, I-CV
+16	[SEP]	O	O	O, B-CV, B-PS, I-CV, B-FD

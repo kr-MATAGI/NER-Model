@@ -1,0 +1,15 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
+1	‘	O	O	O, B-LC, B-TM, B-CV, B-OG
+2	에너지	O	O	O, B-TR, B-TM, B-FD, B-CV
+3	사채	O	O	O, B-CV, I-CV, B-AF, I-AF
+4	<	O	O	O, I-CV, I-AF, B-AF, B-LC
+5	私	B-AF	O	O, B-AF, I-AF, B-PS, B-CV
+6	債	I-AF	O	O, I-AF, I-CV, I-PS, B-PS
+7	>	O	O	O, I-AF, I-CV, I-PS, I-LC
+8	’	O	O	O, B-LC, B-PS, B-CV, B-TM
+9	에	O	O	O, B-LC, B-PS, B-TM, B-CV
+10	빠진	O	O	O, B-LC, B-TM, B-CV, B-PS
+11	10	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-EV
+12	##대	I-QT	I-QT	I-QT, O, I-PS, I-LC, I-EV
+13	[SEP]	O	O	O, I-QT, B-CV, I-AF, B-LC

@@ -1,0 +1,20 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-QT
+1	나란히	O	O	O, B-QT, B-OG, B-LC, B-CV
+2	1	B-QT	B-QT	B-QT, O, B-EV, I-QT, B-AF
+3	##집	I-QT	I-QT	I-QT, O, I-EV, I-OG, I-LC
+4	낸	O	O	O, I-QT, B-CV, B-PS, I-EV
+5	컨트리	B-FD	B-FD	B-FD, O, B-TR, B-TM, B-AF
+6	포크	B-FD	I-FD	I-FD, B-FD, O, I-TR, I-TM
+7	블루스	B-FD	I-FD	I-FD, B-FD, O, I-TR, I-TM
+8	싱어	B-CV	B-CV	B-CV, O, B-FD, B-TM, I-FD
+9	##송	I-CV	I-CV	I-CV, O, B-CV, I-FD, I-TM
+10	##라이터	I-CV	I-CV	I-CV, O, B-CV, I-FD, I-TM
+11	김대중	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
+12	-	O	O	O, I-PS, B-CV, B-PS, I-OG
+13	일	B-PS	B-PS	B-PS, O, B-LC, B-OG, I-PS
+14	##두	I-PS	I-PS	I-PS, O, I-LC, I-OG, I-QT
+15	-	O	O	O, I-PS, B-CV, B-LC, I-OG
+16	태	B-PS	B-PS	B-PS, O, I-PS, B-LC, B-OG
+17	##춘	I-PS	I-PS	I-PS, O, I-LC, I-OG, I-QT
+18	[SEP]	O	O	O, I-PS, B-LC, I-OG, B-CV

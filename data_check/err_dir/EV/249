@@ -1,0 +1,21 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
+1	이집트	B-EV	B-LC	B-LC, B-EV, O, B-OG, B-AF
+2	사태	I-EV	O	O, I-EV, B-EV, I-LC, I-AF
+3	##를	O	O	O, I-EV, B-CV, B-PS, B-LC
+4	쿠데타	O	O	O, B-EV, I-EV, B-CV, B-OG
+5	##로	O	O	O, I-EV, B-PS, I-OG, I-CV
+6	규정	O	O	O, B-OG, B-CV, B-LC, B-PS
+7	##할	O	O	O, B-PS, B-LC, B-OG, I-OG
+8	경우	O	O	O, B-OG, B-CV, B-LC, I-OG
+9	미국	B-LC	B-LC	B-LC, B-OG, B-CV, O, B-AF
+10	법	O	O	O, I-CV, B-CV, I-OG, I-LC
+11	##에	O	O	O, I-CV, I-OG, I-AF, B-CV
+12	따라	O	O	O, B-LC, B-OG, B-CV, B-TM
+13	원조	O	O	O, B-CV, B-LC, B-TM, B-OG
+14	##를	O	O	O, B-CV, B-OG, B-LC, B-TM
+15	중단	O	O	O, B-CV, B-TM, B-LC, B-QT
+16	##해야	O	O	O, B-LC, I-OG, B-OG, B-CV
+17	한다	O	O	O, B-CV, B-LC, I-OG, B-OG
+18	.	O	O	O, B-LC, B-CV, B-OG, B-PS
+19	[SEP]	O	O	O, B-CV, B-LC, B-OG, I-OG

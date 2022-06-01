@@ -1,0 +1,26 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, B-CV, I-EV, I-CV
+1	국회	B-OG	B-OG	B-OG, O, B-AF, B-LC, B-EV
+2	##는	O	O	O, I-OG, I-EV, B-OG, B-CV
+3	6	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-QT
+4	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
+5	4	B-DT	B-DT	B-DT, I-DT, O, B-EV, B-LC
+6	##월	I-DT	I-DT	I-DT, O, B-DT, I-EV, I-QT
+7	임시	O	B-EV	B-EV, O, B-OG, I-EV, B-LC
+8	##국	O	O	O, I-EV, B-EV, I-OG, B-OG
+9	##회의	O	O	O, I-EV, I-OG, B-EV, I-LC
+10	마지막	O	O	O, I-EV, B-EV, B-QT, I-OG
+11	본회의	O	O	O, B-EV, B-OG, I-EV, B-LC
+12	##를	O	O	O, I-EV, I-OG, B-OG, B-CV
+13	열	O	O	O, B-OG, B-LC, B-EV, B-CV
+14	##어	O	O	O, B-LC, B-OG, B-CV, B-PS
+15	공무원	B-CV	B-CV	B-CV, O, B-OG, B-AF, I-CV
+16	##연금	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-AF
+17	##법	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-AF
+18	개정안	O	O	O, I-CV, B-CV, I-OG, I-EV
+19	처리	O	O	O, B-LC, B-CV, I-CV, B-OG
+20	##를	O	O	O, B-OG, B-CV, B-LC, B-PS
+21	시도	O	O	O, B-CV, B-LC, B-OG, B-TM
+22	##한다	O	O	O, B-LC, B-OG, B-CV, I-EV
+23	.	O	O	O, B-OG, B-LC, I-EV, B-PS
+24	[SEP]	O	O	O, B-OG, B-LC, I-EV, I-OG

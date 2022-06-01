@@ -1,0 +1,18 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
+1	작가	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-PS
+2	##의	O	O	O, I-CV, B-CV, B-PS, I-AF
+3	뉴저지	B-LC	B-LC	B-LC, O, B-AF, B-OG, B-PS
+4	자택	O	O	O, I-LC, B-CV, I-AF, B-LC
+5	##에도	O	O	O, I-AF, B-CV, I-CV, I-LC
+6	이끼	O	B-PT	B-PT, O, B-MT, B-CV, B-AM
+7	정원	O	O	O, I-PT, B-PT, I-AF, I-LC
+8	##이	O	O	O, B-PS, I-AF, I-CV, I-OG
+9	잘	O	O	O, B-CV, B-OG, B-LC, B-TM
+10	꾸며	O	O	O, B-CV, B-LC, B-PS, B-OG
+11	##져	O	O	O, B-LC, I-OG, B-PS, B-CV
+12	있	O	O	O, B-CV, B-PS, B-LC, I-OG
+13	##다고	O	O	O, B-CV, B-PS, B-LC, I-OG
+14	한다	O	O	O, B-CV, B-LC, B-OG, B-PS
+15	.	O	O	O, B-PS, B-CV, B-LC, I-OG
+16	[SEP]	O	O	O, B-CV, B-LC, B-PS, I-AF

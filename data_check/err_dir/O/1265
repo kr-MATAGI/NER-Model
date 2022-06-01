@@ -1,0 +1,22 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-AF
+1	옷	O	O	O, B-CV, I-CV, B-AF, B-FD
+2	##이나	O	O	O, I-CV, B-CV, B-PS, I-AF
+3	구두	O	O	O, B-CV, B-FD, B-AF, I-CV
+4	장신구	O	O	O, B-CV, I-CV, B-FD, B-AF
+5	##가	O	O	O, B-PS, I-CV, B-LC, B-CV
+6	유명	O	O	O, B-CV, B-LC, B-OG, B-AF
+7	디자이너	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-PT
+8	무형	O	O	O, I-CV, B-CV, B-FD, B-TM
+9	문화재	O	O	O, I-CV, I-FD, I-AF, B-CV
+10	구두	O	B-CV	B-CV, O, I-CV, B-FD, B-AF
+11	##장	B-CV	B-CV	B-CV, I-CV, O, B-PT, I-OG
+12	##인	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-TM
+13	등	O	O	O, I-CV, B-PS, B-CV, B-LC
+14	##이	O	O	O, B-PS, B-CV, B-LC, B-OG
+15	만든	O	O	O, B-CV, B-PS, B-LC, B-OG
+16	제품	O	O	O, B-CV, B-AF, B-TM, B-LC
+17	##이	O	O	O, B-CV, B-PS, I-CV, B-OG
+18	##라	O	O	O, B-CV, B-LC, B-OG, B-PS
+19	##서	O	O	O, B-CV, I-AF, B-LC, I-OG
+20	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-AF

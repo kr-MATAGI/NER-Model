@@ -1,0 +1,19 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
+1	이	O	O	O, B-LC, B-PS, B-DT, B-QT
+2	땅	O	O	O, I-LC, B-LC, I-PS, B-CV
+3	##의	O	O	O, I-LC, B-PS, B-LC, B-AM
+4	곤충	O	B-AM	B-AM, O, B-TM, I-AM, B-PS
+5	##을	O	O	O, B-CV, B-PS, I-AF, I-CV
+6	연구	O	O	O, B-CV, B-PS, B-LC, B-QT
+7	##한	O	O	O, B-PS, B-CV, B-LC, B-QT
+8	큰	O	O	O, B-CV, B-PS, B-QT, B-AM
+9	학자	B-CV	B-CV	B-CV, O, I-CV, I-QT, B-QT
+10	##가	O	O	O, I-CV, I-QT, B-PS, B-CV
+11	한	B-QT	B-QT	B-QT, O, I-QT, B-PS, B-TI
+12	분	I-QT	I-QT	I-QT, O, I-PS, I-LC, I-TI
+13	계셨	O	O	O, I-QT, B-CV, I-CV, B-PS
+14	##습	O	O	O, B-CV, I-QT, B-LC, I-AF
+15	##니다	O	O	O, B-CV, B-LC, B-PS, B-OG
+16	.	O	O	O, B-CV, B-PS, B-LC, I-AF
+17	[SEP]	O	O	O, B-CV, B-PS, B-LC, I-AF

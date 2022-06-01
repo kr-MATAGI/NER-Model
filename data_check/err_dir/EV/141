@@ -1,0 +1,11 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, I-EV, B-CV, I-CV
+1	◆	O	O	O, B-CV, B-LC, B-OG, B-PS
+2	##영	B-EV	B-LC	B-LC, B-EV, O, B-OG, B-AF
+3	##동	I-EV	I-LC	I-LC, I-EV, O, I-AF, I-OG
+4	난	I-EV	B-EV	B-EV, I-EV, B-LC, I-LC, O
+5	##계	I-EV	I-EV	I-EV, I-LC, I-AF, I-PS, O
+6	##국	I-EV	I-EV	I-EV, I-LC, O, I-AF, I-TM
+7	##악	I-EV	I-EV	I-EV, I-LC, O, I-AF, I-TM
+8	##축제	I-EV	I-EV	I-EV, I-LC, O, I-AF, I-TM
+9	[SEP]	O	O	O, I-EV, I-LC, I-OG, I-AF

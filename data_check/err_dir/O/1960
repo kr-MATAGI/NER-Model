@@ -1,0 +1,17 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-AF
+1	호주	B-LC	B-LC	B-LC, B-OG, O, B-PS, I-LC
+2	‘	O	O	O, I-LC, I-OG, I-AF, B-CV
+3	여고생	O	B-CV	B-CV, O, B-OG, B-TM, B-AF
+4	목	B-AM	B-AM	B-AM, O, B-TM, I-AM, B-PS
+5	’	O	O	O, I-CV, I-AF, I-TM, I-EV
+6	에	O	O	O, B-PS, B-TM, B-AF, B-LC
+7	폭탄	O	B-AF	B-AF, O, I-AF, B-MT, B-LC
+8	,	O	O	O, I-AF, I-OG, B-CV, I-CV
+9	알고	O	O	O, B-CV, I-AF, B-TM, B-LC
+10	##보	O	O	O, I-AF, B-PS, B-CV, B-LC
+11	##니	O	O	O, B-LC, I-AF, B-PS, B-OG
+12	‘	O	O	O, B-CV, B-LC, B-OG, B-TM
+13	가짜	O	O	O, B-CV, B-AF, B-QT, B-TM
+14	’	O	O	O, I-AF, I-CV, B-CV, I-QT
+15	[SEP]	O	O	O, B-LC, B-CV, B-AF, B-OG

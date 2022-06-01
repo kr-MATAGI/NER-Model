@@ -1,0 +1,24 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
+1	과학자	B-CV	B-CV	B-CV, O, B-OG, B-FD, I-CV
+2	##들	O	O	O, I-CV, I-OG, B-CV, I-AF
+3	##은	O	O	O, B-CV, B-TM, B-LC, B-OG
+4	지구	B-LC	B-LC	B-LC, O, B-OG, B-DT, B-CV
+5	##의	O	O	O, I-LC, I-AF, I-OG, I-QT
+6	1300	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-TI
+7	##배	I-QT	I-QT	I-QT, O, I-LC, I-DT, I-PS
+8	크기	O	O	O, I-QT, B-TM, I-LC, I-TM
+9	##인	O	O	O, B-LC, B-PS, I-QT, B-OG
+10	목	O	O	O, B-LC, B-AM, B-TM, B-AF
+11	##성이	O	O	O, I-LC, B-LC, I-AF, I-PS
+12	태양계	O	B-LC	B-LC, O, I-LC, B-OG, B-TM
+13	최초	O	O	O, I-LC, B-LC, B-CV, I-AF
+14	##의	O	O	O, B-LC, B-PS, I-LC, I-AF
+15	행성	O	O	O, B-LC, I-LC, B-PS, B-TM
+16	##이	O	O	O, B-LC, I-LC, B-PS, I-AF
+17	##라고	O	O	O, B-LC, B-CV, I-AF, B-OG
+18	보고	O	O	O, B-CV, B-LC, B-TM, B-OG
+19	있	O	O	O, B-CV, B-TM, B-LC, B-OG
+20	##다	O	O	O, B-CV, B-TM, I-OG, B-LC
+21	.	O	O	O, B-LC, B-CV, B-PS, B-OG
+22	[SEP]	O	O	O, B-LC, B-CV, B-TM, B-OG

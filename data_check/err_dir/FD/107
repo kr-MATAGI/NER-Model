@@ -1,0 +1,10 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
+1	국어	B-FD	B-FD	B-FD, O, B-AF, B-CV, B-TR
+2	해부학	B-FD	I-FD	I-FD, B-FD, O, I-AF, I-TR
+3	##을	O	O	O, I-FD, I-AF, I-OG, I-CV
+4	얘기	O	O	O, B-CV, B-OG, B-TM, I-OG
+5	##해	O	O	O, B-CV, B-LC, B-PS, B-OG
+6	##요	O	O	O, B-CV, I-AF, I-OG, B-LC
+7	.	O	O	O, B-CV, B-LC, B-OG, I-AF
+8	[SEP]	O	O	O, B-CV, I-AF, I-OG, B-LC

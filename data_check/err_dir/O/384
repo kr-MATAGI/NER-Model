@@ -1,0 +1,19 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-AF
+1	[	O	O	O, B-OG, B-PS, B-CV, B-LC
+2	CEO	O	B-CV	B-CV, O, B-OG, B-PS, B-AF
+3	&	O	O	O, I-CV, I-OG, I-AF, I-PS
+4	]	O	O	O, I-OG, B-PS, I-AF, B-OG
+5	63	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
+6	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
+7	물류	O	O	O, I-DT, B-LC, B-TM, I-AF
+8	외	O	O	O, B-LC, B-AF, B-TM, B-PS
+9	##길	O	O	O, I-LC, I-AF, B-LC, B-PS
+10	‘	O	O	O, B-CV, B-LC, B-OG, I-AF
+11	경제	O	O	O, B-FD, B-LC, B-CV, B-AF
+12	##의	O	O	O, I-AF, B-PS, I-OG, I-LC
+13	핏줄	B-TM	B-TM	B-TM, O, B-AM, B-LC, B-TR
+14	’	O	O	O, I-TM, B-CV, I-CV, I-AF
+15	책임	O	O	O, B-CV, B-LC, B-OG, B-PS
+16	##진다	O	O	O, B-LC, B-PS, I-OG, B-OG
+17	[SEP]	O	O	O, B-LC, B-CV, B-AF, B-PS

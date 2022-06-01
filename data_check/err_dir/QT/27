@@ -1,0 +1,14 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-QT
+1	주당	O	O	O, B-DT, B-CV, B-LC, B-OG
+2	근로	O	O	O, B-LC, B-CV, B-TM, I-DT
+3	50	B-QT	B-QT	B-QT, B-TI, I-QT, B-EV, B-DT
+4	.	I-QT	I-QT	I-QT, I-TI, I-LC, I-EV, B-TI
+5	4	I-QT	I-QT	I-QT, I-TI, I-LC, I-PS, I-EV
+6	##→	I-QT	O	O, I-QT, I-TI, B-QT, I-DT
+7	##43	I-QT	B-TI	B-TI, B-QT, I-TI, I-QT, B-EV
+8	.	I-QT	I-TI	I-TI, I-QT, B-TI, I-TR, O
+9	9	I-QT	I-TI	I-TI, I-QT, B-TI, I-TR, I-LC
+10	##시간	I-QT	I-TI	I-TI, I-QT, B-TI, I-TR, O
+11	줄어	O	O	O, I-QT, I-TI, I-EV, I-AF
+12	[SEP]	O	O	O, B-LC, B-CV, B-TM, I-QT

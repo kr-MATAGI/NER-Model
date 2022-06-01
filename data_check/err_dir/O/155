@@ -1,0 +1,23 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-EV, I-CV
+1	또	O	O	O, B-CV, B-TM, B-OG, B-LC
+2	새벽	O	B-TI	B-TI, O, B-EV, I-TI, B-QT
+3	##이나	O	O	O, I-TI, I-EV, I-AF, I-QT
+4	늦	O	O	O, B-LC, B-OG, B-TI, B-CV
+5	##은	O	O	O, B-TI, B-LC, I-TI, B-OG
+6	오후	B-TI	B-TI	B-TI, O, I-TI, B-EV, B-QT
+7	##에	O	O	O, I-TI, I-EV, I-QT, I-AF
+8	운전자	B-CV	B-CV	B-CV, O, B-AF, B-OG, I-CV
+9	##가	O	O	O, I-CV, I-AF, B-PS, B-CV
+10	피해자	B-CV	B-CV	B-CV, O, I-CV, B-AF, B-TM
+11	##를	O	O	O, I-CV, I-AF, B-CV, I-EV
+12	미처	O	O	O, B-TM, B-QT, B-CV, B-LC
+13	보	O	O	O, B-TM, B-CV, B-QT, B-PS
+14	##지	O	O	O, B-CV, I-QT, B-TM, B-PS
+15	못해	O	O	O, B-CV, B-LC, B-TM, B-PS
+16	일어난	O	O	O, B-CV, B-OG, B-TM, B-LC
+17	사고	O	O	O, B-CV, B-TM, I-EV, B-EV
+18	##였	O	O	O, I-EV, B-CV, I-OG, I-CV
+19	##다	O	O	O, B-CV, B-TM, I-EV, B-OG
+20	.	O	O	O, B-LC, B-CV, B-OG, B-PS
+21	[SEP]	O	O	O, B-CV, B-LC, B-OG, I-EV

@@ -1,0 +1,24 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
+1	▷	O	O	O, B-LC, B-PS, B-CV, B-OG
+2	##지	O	O	O, B-LC, B-DT, B-CV, B-PS
+3	##금	O	O	O, I-LC, I-DT, I-CV, I-PS
+4	##이	O	O	O, B-PS, B-LC, I-PS, I-LC
+5	##라면	O	O	O, B-PS, I-PS, B-LC, B-OG
+6	스	B-PS	B-PS	B-PS, O, B-LC, I-PS, B-CV
+7	##턴	I-PS	I-PS	I-PS, O, I-LC, I-OG, I-AF
+8	부부	B-CV	B-CV	B-CV, O, I-CV, I-PS, I-AF
+9	##는	O	O	O, I-CV, I-OG, I-AF, I-EV
+10	망설이	O	O	O, B-LC, B-CV, B-TM, B-OG
+11	##지	O	O	O, I-OG, B-LC, B-CV, I-AF
+12	않	O	O	O, B-LC, B-PS, B-CV, B-OG
+13	##고	O	O	O, B-LC, B-PS, B-CV, B-OG
+14	인도	B-LC	O	O, B-LC, B-OG, B-CV, I-LC
+15	##행	O	O	O, I-LC, I-AF, I-OG, I-EV
+16	##을	O	O	O, B-CV, I-AF, I-OG, B-LC
+17	택했	O	O	O, B-CV, B-LC, B-OG, B-TM
+18	##을	O	O	O, B-CV, B-PS, I-AF, I-OG
+19	것	O	O	O, B-CV, B-PS, B-LC, B-OG
+20	##이다	O	O	O, B-CV, I-OG, I-CV, I-AF
+21	.	O	O	O, B-LC, B-CV, B-PS, B-OG
+22	[SEP]	O	O	O, B-LC, B-CV, B-PS, I-OG

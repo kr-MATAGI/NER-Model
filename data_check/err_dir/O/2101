@@ -1,0 +1,26 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
+1	사	O	O	O, B-LC, B-QT, B-PS, B-AF
+2	##통	O	O	O, I-LC, I-QT, I-PS, I-AF
+3	##팔	O	O	O, I-LC, B-QT, B-LC, I-QT
+4	##달	O	O	O, I-LC, I-QT, I-PS, B-LC
+5	##로	O	O	O, I-LC, I-AF, B-LC, B-AF
+6	연결	O	O	O, B-AF, I-AF, B-TM, B-LC
+7	##된	O	O	O, I-AF, B-AF, B-PS, B-LC
+8	도로는	O	O	O, B-AF, I-AF, B-PS, B-LC
+9	세종	B-AF	B-AF	B-AF, O, I-AF, B-LC, B-OG
+10	##청사	I-AF	I-AF	I-AF, O, I-OG, I-LC, I-EV
+11	공무원	B-CV	B-CV	B-CV, I-AF, O, I-CV, I-EV
+12	##들	O	O	O, I-CV, I-AF, I-EV, B-CV
+13	##의	O	O	O, B-CV, B-TM, B-QT, I-AF
+14	가장	O	O	O, B-CV, B-QT, B-TM, B-LC
+15	큰	O	O	O, B-QT, B-CV, B-TM, I-QT
+16	걱정거리	O	O	O, B-CV, B-TM, B-QT, I-QT
+17	##를	O	O	O, B-CV, B-TM, I-QT, B-OG
+18	하나	O	B-QT	B-QT, O, B-PS, I-QT, B-CV
+19	덜	O	O	O, I-QT, B-CV, I-CV, I-OG
+20	##어	O	O	O, I-QT, B-CV, I-CV, B-QT
+21	##줬	O	O	O, I-QT, B-CV, I-CV, B-PS
+22	##다	O	O	O, B-CV, I-QT, I-CV, B-TM
+23	.	O	O	O, B-CV, B-LC, B-PS, I-AF
+24	[SEP]	O	O	O, B-CV, I-AF, I-QT, B-TM

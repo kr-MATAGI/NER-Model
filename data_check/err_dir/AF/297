@@ -1,0 +1,21 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
+1	베토벤	B-AF	B-PS	B-PS, O, B-AF, B-LC, B-OG
+2	바이올린	I-AF	B-AF	B-AF, I-AF, B-FD, O, I-PS
+3	소나타	I-AF	I-AF	I-AF, B-AF, B-FD, O, I-FD
+4	모두	O	O	O, I-AF, I-EV, I-QT, B-CV
+5	##를	O	O	O, B-CV, I-AF, B-QT, B-TM
+6	녹음	O	O	O, B-CV, B-TM, B-LC, B-QT
+7	##하	O	O	O, B-CV, B-LC, B-PS, B-TM
+8	##는	O	O	O, B-CV, B-LC, B-PS, B-TM
+9	작업	O	O	O, B-CV, B-LC, B-TM, B-OG
+10	##을	O	O	O, B-CV, B-OG, B-LC, B-PS
+11	아직	O	O	O, B-CV, B-TM, B-OG, B-LC
+12	끝내	O	O	O, B-CV, B-LC, B-TM, B-OG
+13	##지	O	O	O, B-CV, B-LC, B-PS, B-OG
+14	##는	O	O	O, B-CV, B-LC, B-OG, B-TM
+15	않	O	O	O, B-CV, B-LC, I-EV, B-PS
+16	##았	O	O	O, B-CV, B-LC, I-EV, I-OG
+17	##어요	O	O	O, B-CV, I-OG, B-LC, B-OG
+18	.	O	O	O, B-CV, B-LC, B-PS, B-OG
+19	[SEP]	O	O	O, B-CV, B-LC, B-TM, I-EV

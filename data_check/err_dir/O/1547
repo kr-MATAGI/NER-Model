@@ -1,0 +1,20 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-AF
+1	국내	O	O	O, B-CV, B-LC, B-FD, B-QT
+2	##총	O	O	O, I-AF, I-LC, I-CV, B-QT
+3	##생산	O	O	O, I-AF, I-LC, I-CV, I-TM
+4	(	O	O	O, B-CV, B-OG, B-PS, I-AF
+5	원화	O	B-CV	B-CV, O, B-AF, B-MT, I-CV
+6	기준	O	O	O, I-CV, I-DT, I-AF, I-OG
+7	)	O	O	O, B-CV, I-CV, B-OG, B-LC
+8	은	O	O	O, B-CV, B-OG, B-LC, B-TM
+9	2	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-EV
+10	.	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
+11	7	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
+12	##배	I-QT	I-QT	I-QT, O, I-LC, I-PS, I-EV
+13	##로	O	O	O, I-QT, I-OG, I-EV, I-AF
+14	늘	O	O	O, B-CV, I-QT, B-OG, B-TM
+15	##었	O	O	O, B-CV, I-OG, I-QT, I-AF
+16	##다	O	O	O, B-CV, I-OG, B-TM, B-LC
+17	.	O	O	O, B-LC, B-CV, B-OG, I-OG
+18	[SEP]	O	O	O, B-CV, B-LC, B-OG, I-OG

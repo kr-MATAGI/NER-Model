@@ -1,0 +1,27 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
+1	차남	B-CV	B-CV	B-CV, O, B-PS, B-QT, I-CV
+2	안드레아	B-PS	B-PS	B-PS, O, I-PS, B-OG, B-LC
+3	##스	I-PS	I-PS	I-PS, O, I-OG, I-LC, B-PS
+4	(	O	O	O, I-PS, B-CV, I-OG, I-QT
+5	24	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-LC
+6	)	O	O	O, I-QT, I-OG, I-DT, I-EV
+7	도	O	O	O, B-CV, B-PS, I-QT, B-LC
+8	2011	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-PS
+9	##년	I-DT	I-DT	I-DT, O, I-QT, I-PS, B-DT
+10	스물	B-QT	B-QT	B-QT, I-QT, O, I-DT, B-DT
+11	##둘	I-QT	I-QT	I-QT, O, I-DT, I-LC, I-PS
+12	나이	O	O	O, I-QT, I-DT, I-EV, I-OG
+13	##에	O	O	O, I-QT, B-OG, B-PS, B-CV
+14	베를린	B-OG	B-OG	B-OG, B-LC, B-EV, O, B-PS
+15	필	I-OG	I-OG	I-OG, I-EV, O, I-LC, B-OG
+16	##의	O	O	O, I-OG, I-EV, I-AF, I-CV
+17	클라	B-AF	B-AF	B-AF, O, B-TM, B-FD, I-AF
+18	##리	I-AF	I-AF	I-AF, O, I-TM, I-FD, I-OG
+19	##넷	I-AF	I-AF	I-AF, O, I-TM, I-FD, I-CV
+20	수석	O	B-CV	B-CV, O, I-CV, I-AF, I-QT
+21	##으로	O	O	O, I-CV, B-CV, I-AF, I-QT
+22	뽑혔	O	O	O, B-CV, I-CV, B-PS, B-OG
+23	##다	O	O	O, B-CV, I-CV, I-OG, B-PS
+24	.	O	O	O, B-CV, B-PS, B-OG, B-LC
+25	[SEP]	O	O	O, B-CV, B-PS, B-OG, B-LC

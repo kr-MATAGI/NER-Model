@@ -1,0 +1,10 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-CV, I-OG, B-CV, I-AF
+1	이순신	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
+2	장군	B-CV	B-CV	B-CV, O, I-PS, I-CV, B-PS
+3	##도	O	O	O, I-CV, I-AF, I-EV, B-CV
+4	한번	O	B-QT	B-QT, O, I-QT, B-CV, B-TM
+5	얘기	O	O	O, I-QT, I-CV, I-OG, I-EV
+6	##해야	O	O	O, B-CV, B-OG, I-QT, B-PS
+7	됩니다	O	O	O, B-CV, B-OG, I-OG, B-LC
+8	[SEP]	O	O	O, B-CV, B-LC, B-OG, I-OG

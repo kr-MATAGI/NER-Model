@@ -1,0 +1,21 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
+1	경남	B-OG	B-OG	B-OG, B-LC, O, I-OG, B-PS
+2	##교육	I-OG	I-OG	I-OG, O, B-OG, I-LC, I-EV
+3	##청	I-OG	I-OG	I-OG, O, I-LC, I-EV, I-AF
+4	##도	O	O	O, I-OG, I-AF, I-QT, B-CV
+5	상	O	B-CV	B-CV, O, I-CV, B-OG, B-TM
+6	##벌	O	I-CV	I-CV, O, B-CV, I-OG, I-QT
+7	##점	O	I-CV	I-CV, O, B-CV, I-OG, I-QT
+8	##제	O	I-CV	I-CV, O, B-CV, I-OG, I-QT
+9	##를	O	O	O, I-CV, I-OG, I-QT, B-CV
+10	내년	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-OG
+11	##부터	I-DT	I-DT	I-DT, O, I-QT, B-DT, I-CV
+12	전면	O	O	O, I-DT, B-QT, B-CV, B-LC
+13	폐지	O	O	O, B-CV, I-QT, I-CV, I-DT
+14	##하기	O	O	O, B-PS, B-CV, B-LC, B-OG
+15	##로	O	O	O, B-CV, B-OG, B-PS, B-QT
+16	했	O	O	O, B-CV, B-OG, B-LC, B-QT
+17	##다	O	O	O, B-CV, I-OG, B-OG, B-LC
+18	.	O	O	O, B-LC, B-OG, B-CV, I-OG
+19	[SEP]	O	O	O, B-CV, B-LC, B-OG, I-OG

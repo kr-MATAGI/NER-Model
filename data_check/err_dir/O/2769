@@ -1,0 +1,26 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-EV, B-CV, I-OG, I-CV
+1	하지만	O	O	O, B-EV, B-OG, B-DT, B-CV
+2	이번	O	O	O, B-DT, B-EV, I-DT, B-PS
+3	평창	B-LC	B-EV	B-EV, B-LC, I-EV, O, B-AF
+4	대회	O	I-EV	I-EV, O, B-EV, I-DT, I-OG
+5	##에	O	O	O, I-EV, I-DT, B-CV, I-OG
+6	##선	O	O	O, B-EV, B-DT, B-LC, B-OG
+7	스페셜	B-EV	B-EV	B-EV, B-CV, O, I-EV, B-TM
+8	##올	I-EV	I-EV	I-EV, I-CV, O, B-EV, I-TM
+9	##림픽	I-EV	I-EV	I-EV, I-CV, O, I-OG, I-TM
+10	사상	O	O	O, I-EV, I-OG, I-AF, B-LC
+11	처음	O	O	O, B-QT, B-LC, B-OG, I-EV
+12	##으로	O	O	O, B-OG, B-PS, B-CV, B-LC
+13	거의	O	O	O, B-CV, B-LC, B-OG, B-PS
+14	전	O	O	O, B-PS, B-QT, B-LC, B-EV
+15	종목	O	O	O, B-CV, B-FD, I-EV, B-LC
+16	##에	O	O	O, B-CV, I-EV, B-PS, B-OG
+17	걸쳐	O	O	O, B-LC, B-OG, B-PS, B-CV
+18	통합	O	O	O, B-FD, B-CV, B-EV, B-TM
+19	스포츠	O	O	O, B-FD, I-FD, B-CV, I-EV
+20	경기	O	O	O, I-EV, I-CV, B-CV, I-FD
+21	##가	O	O	O, I-EV, B-PS, B-CV, B-OG
+22	열린다	O	O	O, B-CV, B-OG, B-EV, B-QT
+23	.	O	O	O, B-CV, I-EV, B-LC, B-EV
+24	[SEP]	O	O	O, B-CV, I-EV, B-EV, B-LC

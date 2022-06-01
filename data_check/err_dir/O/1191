@@ -1,0 +1,23 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
+1	중국	B-LC	B-LC	B-LC, B-OG, O, B-EV, B-PS
+2	양회	O	O	O, B-OG, I-OG, B-EV, I-EV
+3	<	O	O	O, I-OG, B-OG, I-EV, B-PS
+4	정	B-AF	B-OG	B-OG, O, I-OG, B-PS, B-AF
+5	##협	I-AF	I-OG	I-OG, O, I-EV, I-AF, I-PS
+6	·	I-AF	O	O, I-OG, B-OG, I-EV, I-AF
+7	전인	I-AF	B-OG	B-OG, I-OG, O, B-PS, B-AF
+8	##대	I-AF	I-OG	I-OG, O, I-EV, I-AF, I-LC
+9	>	O	O	O, I-OG, I-EV, I-AF, B-PS
+10	최대	O	B-PS	B-PS, O, B-CV, B-AF, B-AM
+11	##화	O	I-PS	I-PS, O, B-PS, B-CV, I-CV
+12	##두	O	I-PS	I-PS, O, I-CV, B-PS, I-AF
+13	/	O	O	O, I-PS, B-PS, I-CV, I-AF
+14	“	O	O	O, B-LC, B-CV, B-PS, B-OG
+15	사회	O	O	O, B-CV, B-TM, B-PS, B-LC
+16	불안	O	O	O, B-TM, B-PS, I-TM, B-CV
+17	##을	O	O	O, I-AF, B-PS, I-CV, I-TM
+18	막아	O	O	O, B-CV, B-PS, I-AF, B-LC
+19	##라	O	O	O, B-PS, I-PS, I-AF, B-CV
+20	”	O	O	O, B-CV, B-PS, B-LC, I-CV
+21	[SEP]	O	O	O, B-LC, B-OG, B-PS, B-CV

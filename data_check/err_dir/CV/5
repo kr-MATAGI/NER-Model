@@ -1,0 +1,20 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
+1	그	O	O	O, B-CV, B-OG, B-LC, B-TM
+2	때	O	O	O, B-CV, B-PS, B-OG, B-DT
+3	##는	O	O	O, B-OG, B-CV, B-PS, B-LC
+4	유엔	B-OG	B-OG	B-OG, O, B-CV, B-AF, B-EV
+5	사무	B-CV	O	O, B-CV, I-CV, I-OG, I-EV
+6	부총장	I-CV	B-CV	B-CV, I-CV, O, I-QT, I-OG
+7	겸	O	O	O, I-CV, I-QT, I-OG, B-CV
+8	비서실	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-OG
+9	##장	I-CV	I-CV	I-CV, O, B-CV, I-QT, I-TM
+10	역할	O	O	O, I-CV, B-CV, I-QT, I-OG
+11	##을	O	O	O, B-CV, B-PS, B-OG, I-CV
+12	하	O	O	O, B-CV, B-PS, B-DT, B-TM
+13	##던	O	O	O, B-CV, B-PS, B-OG, B-LC
+14	김원	B-PS	B-PS	B-PS, B-OG, O, I-PS, B-LC
+15	##수	I-PS	I-PS	I-PS, I-OG, O, I-QT, B-PS
+16	씨	O	O	O, I-PS, I-OG, B-CV, I-QT
+17	.	O	O	O, B-CV, B-OG, B-LC, B-TM
+18	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG

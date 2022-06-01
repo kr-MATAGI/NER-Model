@@ -1,0 +1,18 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-AF
+1	4	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-TM
+2	##급	I-QT	I-QT	I-QT, O, I-DT, I-OG, I-TM
+3	이상	I-QT	I-QT	I-QT, O, I-LC, I-OG, I-TM
+4	공직자	B-CV	B-CV	B-CV, O, I-QT, I-CV, B-OG
+5	10	B-QT	B-QT	B-QT, I-QT, O, B-DT, I-CV
+6	%	I-QT	I-QT	I-QT, O, I-OG, I-CV, I-DT
+7	,	O	O	O, I-QT, I-OG, B-CV, I-CV
+8	아들	B-CV	B-CV	B-CV, O, B-TM, B-AF, B-OG
+9	4	B-QT	B-QT	B-QT, I-QT, O, B-DT, I-CV
+10	.	I-QT	I-QT	I-QT, O, B-QT, I-OG, I-CV
+11	4	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
+12	%	I-QT	I-QT	I-QT, O, I-LC, I-PS, I-OG
+13	군대	O	B-OG	B-OG, O, B-AF, B-LC, B-CV
+14	안	O	O	O, I-OG, I-AF, I-CV, I-QT
+15	##가	O	O	O, I-OG, I-AF, B-CV, I-QT
+16	[SEP]	O	O	O, B-CV, B-LC, B-QT, I-AF

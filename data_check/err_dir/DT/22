@@ -1,0 +1,27 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
+1	""""	O	O	O, B-CV, B-LC, B-TM, B-OG
+2	9	B-EV	B-DT	B-DT, B-EV, O, I-DT, B-QT
+3	·	I-EV	I-DT	I-DT, I-EV, O, I-QT, B-DT
+4	11	I-EV	I-DT	I-DT, I-EV, O, B-DT, I-QT
+5	다음	B-DT	I-DT	I-DT, B-DT, I-EV, O, I-AF
+6	##날	I-DT	I-DT	I-DT, O, I-EV, B-DT, I-QT
+7	한국	B-OG	B-OG	B-OG, B-LC, O, I-DT, I-OG
+8	##이	O	O	O, I-OG, B-PS, I-LC, I-EV
+9	도와	O	O	O, B-OG, B-CV, B-LC, B-TM
+10	##주	O	O	O, B-CV, I-OG, B-PS, I-CV
+11	##겠다	O	O	O, B-CV, B-PS, I-CV, B-OG
+12	했	O	O	O, B-CV, B-OG, B-PS, B-TM
+13	##지만	O	O	O, B-LC, B-PS, B-OG, B-CV
+14	美	B-LC	B-LC	B-LC, B-OG, O, B-TM, B-CV
+15	뿌리	O	O	O, B-PT, I-OG, I-LC, I-PT
+16	깊	O	O	O, I-OG, I-AF, B-CV, I-LC
+17	##은	O	O	O, B-LC, B-TM, B-PS, B-OG
+18	관료	B-TR	B-TR	B-TR, O, B-TM, I-TR, B-FD
+19	##주의	I-TR	I-TR	I-TR, O, I-TM, I-CV, B-TR
+20	때문	O	O	O, I-TR, I-TM, I-AF, I-CV
+21	##에	O	O	O, B-CV, B-LC, B-TM, B-OG
+22	시간	O	O	O, B-LC, B-TM, B-OG, B-TI
+23	걸려	O	O	O, B-CV, B-LC, B-OG, B-TM
+24	""""	O	O	O, B-CV, B-LC, B-TM, B-OG
+25	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-PS

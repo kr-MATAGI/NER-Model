@@ -1,0 +1,25 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, I-CV, I-EV, B-CV
+1	―	O	O	O, B-LC, B-EV, B-CV, B-OG
+2	가야	O	B-FD	B-FD, O, I-FD, B-TR, B-DT
+3	##사	O	I-FD	I-FD, O, B-FD, I-TR, I-EV
+4	재조명	O	O	O, I-FD, I-EV, I-OG, B-FD
+5	##은	O	O	O, I-EV, I-OG, B-CV, B-OG
+6	2000	B-DT	B-DT	B-DT, I-DT, O, B-QT, B-LC
+7	~	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
+8	2004	I-DT	I-DT	I-DT, B-DT, O, I-QT, I-PS
+9	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
+10	129	B-QT	B-QT	B-QT, I-QT, O, I-DT, B-DT
+11	##0	I-QT	I-QT	I-QT, O, B-QT, I-DT, I-LC
+12	##억	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
+13	##원	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
+14	##이	O	O	O, I-QT, B-OG, B-CV, B-PS
+15	투입	O	O	O, B-CV, B-OG, B-TM, B-LC
+16	##돼	O	O	O, B-LC, B-OG, B-PS, B-CV
+17	한	O	B-QT	B-QT, O, I-QT, B-DT, B-EV
+18	차례	O	I-QT	I-QT, O, I-EV, I-LC, B-QT
+19	이뤄졌	O	O	O, I-QT, I-OG, I-EV, B-CV
+20	##지	O	O	O, B-LC, B-CV, I-QT, B-OG
+21	##요	O	O	O, B-LC, B-CV, I-OG, I-EV
+22	.	O	O	O, B-LC, B-OG, B-CV, B-PS
+23	[SEP]	O	O	O, B-LC, B-CV, B-OG, I-EV

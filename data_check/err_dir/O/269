@@ -1,0 +1,21 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
+1	여자	O	O	O, B-CV, B-OG, B-LC, B-PS
+2	하키	O	B-CV	B-CV, O, I-CV, B-OG, B-FD
+3	대표	B-CV	B-CV	B-CV, O, I-CV, B-OG, I-EV
+4	한	O	B-PS	B-PS, O, B-OG, I-PS, B-LC
+5	##혜	O	I-PS	I-PS, O, I-OG, B-PS, I-LC
+6	##령	O	I-PS	I-PS, O, I-OG, I-LC, B-PS
+7	(	O	O	O, I-PS, I-OG, B-CV, I-QT
+8	30	B-QT	B-QT	B-QT, O, I-QT, B-OG, B-DT
+9	·	O	O	O, I-QT, I-OG, I-DT, B-CV
+10	kt	O	B-OG	B-OG, O, B-LC, B-CV, B-QT
+11	)	O	O	O, I-OG, I-QT, I-CV, B-CV
+12	도	O	O	O, B-CV, B-LC, B-PS, B-TM
+13	선전	O	O	O, B-CV, B-LC, B-TM, B-EV
+14	##을	O	O	O, B-PS, B-CV, B-OG, I-OG
+15	다짐	O	O	O, B-CV, B-OG, B-PS, B-LC
+16	##했	O	O	O, B-CV, B-PS, B-LC, B-OG
+17	##다	O	O	O, B-CV, I-OG, B-PS, B-OG
+18	.	O	O	O, B-CV, B-PS, B-LC, B-OG
+19	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG

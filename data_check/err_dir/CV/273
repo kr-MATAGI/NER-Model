@@ -1,0 +1,13 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
+1	'	O	O	O, B-CV, B-LC, B-DT, B-OG
+2	콜럼버스	B-PS	B-PS	B-PS, B-AF, B-EV, B-AM, B-LC
+3	##의	O	I-AF	I-AF, I-PS, I-EV, O, I-TR
+4	달걀	B-CV	I-AF	I-AF, I-PS, I-EV, I-TR, I-CV
+5	'	O	O	O, I-AF, I-CV, I-EV, B-CV
+6	처럼	O	O	O, B-CV, B-TM, B-PS, I-AF
+7	말	O	O	O, B-CV, B-AM, B-PS, B-TM
+8	##이	O	O	O, B-PS, B-CV, I-CV, B-LC
+9	##죠	O	O	O, I-CV, B-CV, I-OG, I-AF
+10	.	O	O	O, B-CV, B-LC, B-PS, B-AF
+11	[SEP]	O	O	O, B-CV, B-LC, B-TM, B-FD

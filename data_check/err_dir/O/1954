@@ -1,0 +1,19 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
+1	‘	O	O	O, B-CV, B-LC, B-OG, B-PS
+2	서민	B-CV	B-CV	B-CV, O, B-OG, B-AF, I-CV
+3	세금	O	O	O, I-CV, B-CV, B-TR, B-TM
+4	##감	O	O	O, I-CV, B-CV, I-TR, I-TM
+5	##면	O	O	O, I-CV, I-TR, I-TM, I-QT
+6	’	O	O	O, I-CV, B-PS, B-CV, I-QT
+7	이라	O	O	O, B-CV, B-PS, B-QT, I-CV
+8	##더니	O	O	O, I-CV, B-CV, I-QT, B-PS
+9	…	O	O	O, B-PS, B-CV, B-LC, B-OG
+10	수혜자	B-CV	B-CV	B-CV, O, I-CV, B-PS, B-OG
+11	##에	O	O	O, I-CV, I-OG, I-AF, B-CV
+12	고소득	O	B-CV	B-CV, O, I-CV, B-TM, B-OG
+13	##층	O	I-CV	I-CV, O, B-CV, I-TM, I-OG
+14	‘	O	O	O, I-CV, I-OG, I-QT, B-CV
+15	수두룩	O	O	O, B-CV, B-TM, B-OG, B-LC
+16	’	O	O	O, B-CV, B-OG, B-LC, B-PS
+17	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-PS

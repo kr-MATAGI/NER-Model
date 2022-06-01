@@ -1,0 +1,19 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
+1	지금	O	O	O, B-CV, B-PS, B-OG, B-LC
+2	이거	O	O	O, B-CV, B-PS, B-LC, B-OG
+3	어	O	O	O, B-PS, B-CV, B-LC, B-FD
+4	대선	B-EV	B-EV	B-EV, O, B-CV, B-LC, B-AF
+5	##에	O	O	O, I-EV, I-AF, I-CV, B-CV
+6	나와야	O	O	O, B-CV, B-PS, B-LC, B-OG
+7	된다는	O	O	O, B-PS, B-LC, B-CV, B-OG
+8	황	O	B-PS	B-PS, O, B-CV, B-OG, I-PS
+9	황교안	B-PS	B-PS	B-PS, I-PS, O, B-OG, B-LC
+10	권한	O	B-CV	B-CV, O, I-CV, I-PS, B-TM
+11	##대	O	I-CV	I-CV, O, B-CV, I-PS, I-TM
+12	##행	O	I-CV	I-CV, O, B-CV, I-TM, I-OG
+13	##은	O	O	O, I-CV, B-CV, I-EV, I-OG
+14	그건	O	O	O, B-CV, B-LC, B-TM, B-PS
+15	##요	O	O	O, B-CV, B-LC, B-OG, B-PS
+16	.	O	O	O, B-CV, B-PS, B-LC, B-OG
+17	[SEP]	O	O	O, B-CV, B-PS, B-LC, B-FD

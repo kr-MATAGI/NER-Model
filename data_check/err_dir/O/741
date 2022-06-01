@@ -1,0 +1,21 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-CV, I-OG, B-CV, I-AF
+1	속옷	O	B-CV	B-CV, O, I-CV, B-AM, B-TM
+2	##만	O	O	O, I-CV, B-PS, I-QT, I-AF
+3	입	O	O	O, B-CV, I-CV, B-AM, B-TM
+4	##고	O	O	O, I-CV, B-CV, B-PS, I-AF
+5	침대	O	O	O, B-TM, B-CV, B-AF, B-LC
+6	##에	O	O	O, B-CV, I-AF, B-PS, I-CV
+7	다리	B-AM	B-AM	B-AM, O, B-TM, B-TR, I-AM
+8	##를	O	O	O, I-CV, I-AF, B-CV, I-QT
+9	세우	O	O	O, B-CV, B-TM, B-LC, B-PS
+10	##고	O	O	O, B-CV, B-PS, B-LC, I-AF
+11	표정	O	O	O, B-CV, B-TM, B-LC, I-AF
+12	##없이	O	O	O, B-CV, I-AF, B-LC, B-QT
+13	앉	O	O	O, B-CV, B-TM, B-LC, B-QT
+14	##아	O	O	O, B-CV, I-CV, I-AF, B-PS
+15	있	O	O	O, B-CV, B-LC, B-PS, B-QT
+16	##는	O	O	O, B-CV, I-AF, I-CV, B-PS
+17	여자	O	O	O, B-CV, I-CV, B-TM, I-AF
+18	.	O	O	O, B-CV, I-AF, I-CV, B-LC
+19	[SEP]	O	O	O, B-CV, B-LC, I-AF, B-PS

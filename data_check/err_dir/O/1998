@@ -1,0 +1,17 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
+1	그렇게	O	O	O, B-CV, B-TM, B-LC, B-OG
+2	고인	O	B-CV	B-CV, O, I-CV, B-PS, B-FD
+3	##은	O	O	O, I-CV, B-CV, I-EV, B-PS
+4	10	B-DT	B-DT	B-DT, O, B-QT, I-DT, B-PS
+5	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
+6	동안	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
+7	의학	B-FD	B-FD	B-FD, O, I-FD, I-DT, B-CV
+8	수업	O	O	O, I-FD, I-EV, I-CV, I-DT
+9	##을	O	O	O, B-CV, B-OG, I-OG, I-AF
+10	청	O	O	O, B-CV, B-FD, B-LC, B-OG
+11	##강	O	O	O, I-CV, I-OG, I-LC, I-FD
+12	##했	O	O	O, I-OG, B-CV, I-CV, B-LC
+13	##다	O	O	O, B-CV, I-OG, B-LC, B-TM
+14	.	O	O	O, B-CV, B-LC, B-OG, B-PS
+15	[SEP]	O	O	O, B-CV, B-LC, B-OG, I-OG

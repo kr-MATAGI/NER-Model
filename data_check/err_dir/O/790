@@ -1,0 +1,16 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
+1	교육청	O	B-OG	B-OG, O, I-OG, B-CV, B-EV
+2	##은	O	O	O, I-OG, B-CV, I-EV, I-CV
+3	이날	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
+4	윤	B-PS	B-PS	B-PS, O, I-PS, B-OG, I-DT
+5	교장	B-CV	B-CV	B-CV, O, I-PS, I-CV, B-OG
+6	##에	O	O	O, I-CV, B-CV, I-EV, I-OG
+7	대한	O	O	O, B-LC, B-CV, B-OG, B-TM
+8	감사	O	O	O, B-CV, B-FD, B-OG, B-LC
+9	##에	O	O	O, I-CV, B-CV, I-OG, B-OG
+10	착수	O	O	O, B-CV, B-OG, B-LC, B-TM
+11	##했	O	O	O, B-CV, B-OG, B-LC, I-OG
+12	##다	O	O	O, B-CV, B-OG, B-LC, I-OG
+13	.	O	O	O, B-OG, B-LC, B-CV, B-PS
+14	[SEP]	O	O	O, B-CV, B-OG, B-LC, I-OG

@@ -1,0 +1,23 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-AF
+1	[	O	O	O, B-OG, B-LC, B-CV, B-PS
+2	융합	O	O	O, B-AF, B-OG, B-PS, B-EV
+3	##의	O	O	O, I-AF, I-OG, I-PS, I-EV
+4	공대	O	B-QT	B-QT, O, B-FD, I-AF, B-OG
+5	##3	B-QT	B-QT	B-QT, I-QT, O, I-AF, I-TM
+6	.	I-QT	I-QT	I-QT, B-QT, O, I-TM, I-OG
+7	0	I-QT	I-QT	I-QT, B-QT, O, I-OG, I-TM
+8	]	O	O	O, I-QT, I-OG, I-EV, I-TM
+9	여성	O	O	O, B-CV, B-TM, B-LC, B-OG
+10	친화	O	O	O, B-CV, B-LC, B-PS, B-OG
+11	##적	O	O	O, B-LC, B-PS, B-CV, B-OG
+12	공학	O	B-FD	B-FD, O, I-FD, B-TR, B-CV
+13	##교육	O	O	O, I-FD, I-CV, I-TR, B-CV
+14	시스템	O	O	O, I-CV, B-CV, I-FD, I-TR
+15	##으로	O	O	O, B-CV, B-PS, B-LC, B-OG
+16	섬세	O	O	O, B-TM, B-LC, B-PS, B-CV
+17	##함	O	O	O, B-PS, I-PS, I-AF, I-TM
+18	##과	O	O	O, B-CV, B-PS, B-LC, B-TM
+19	창의력	O	O	O, B-TM, B-CV, B-FD, B-LC
+20	키워	O	O	O, B-PS, B-CV, B-LC, I-AF
+21	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-FD

@@ -1,0 +1,16 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
+1	서양	B-LC	B-FD	B-FD, B-LC, O, B-CV, B-DT
+2	음악	O	O	O, I-FD, B-FD, I-LC, I-AF
+3	##을	O	O	O, I-AF, I-FD, I-OG, I-CV
+4	많이	O	O	O, B-CV, B-LC, B-TM, B-OG
+5	배우	O	O	O, B-CV, B-LC, B-PS, B-TM
+6	##지만	O	O	O, B-LC, B-CV, B-OG, B-PS
+7	우리	O	O	O, B-LC, B-OG, B-FD, B-CV
+8	국악	B-FD	B-FD	B-FD, O, I-FD, B-TR, B-AF
+9	##을	O	O	O, I-FD, I-AF, I-OG, I-CV
+10	많이	O	O	O, B-CV, B-TM, B-LC, B-OG
+11	안	O	O	O, B-CV, B-LC, B-TM, B-PS
+12	배우	O	O	O, B-CV, B-LC, B-TM, B-PS
+13	##고	O	O	O, B-CV, B-LC, B-OG, I-AF
+14	[SEP]	O	O	O, B-CV, B-LC, B-PS, I-AF

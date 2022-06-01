@@ -1,0 +1,27 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-QT
+1	시진핑	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
+2	##의	O	O	O, I-PS, B-CV, I-OG, I-AF
+3	아버지	B-CV	B-CV	B-CV, O, B-OG, B-PS, B-AF
+4	시중	B-PS	B-PS	B-PS, O, I-PS, B-OG, B-LC
+5	##쉰	I-PS	I-PS	I-PS, O, I-OG, B-PS, I-LC
+6	##은	O	O	O, I-PS, I-OG, B-CV, I-AF
+7	공산	B-EV	O	O, B-EV, B-TR, B-CV, B-OG
+8	##혁명	I-EV	O	O, I-EV, I-TR, I-OG, I-FD
+9	세력	O	O	O, I-EV, I-OG, B-OG, B-PS
+10	##의	O	O	O, B-PS, I-OG, B-CV, B-OG
+11	일원	B-CV	O	O, B-CV, B-PS, B-QT, B-OG
+12	##이	O	O	O, B-PS, I-CV, B-CV, B-OG
+13	##었	O	O	O, B-PS, B-CV, B-OG, B-LC
+14	##으나	O	O	O, B-PS, B-CV, B-LC, B-QT
+15	반	B-CV	B-CV	B-CV, O, I-CV, B-PS, B-OG
+16	(	I-CV	O	O, I-CV, B-CV, I-OG, I-QT
+17	反	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-QT
+18	)	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-QT
+19	혁명	I-CV	I-CV	I-CV, O, B-CV, I-QT, I-OG
+20	##분자	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-QT
+21	##로	O	O	O, I-CV, I-OG, I-QT, B-CV
+22	몰렸	O	O	O, B-CV, B-OG, B-PS, B-LC
+23	##다	O	O	O, B-CV, I-OG, I-CV, I-QT
+24	.	O	O	O, B-PS, B-CV, B-LC, B-OG
+25	[SEP]	O	O	O, B-PS, B-CV, B-LC, B-OG

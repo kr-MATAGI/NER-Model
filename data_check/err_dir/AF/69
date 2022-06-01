@@ -1,0 +1,27 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
+1	2009	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
+2	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
+3	범죄자	B-CV	B-CV	B-CV, O, B-OG, I-CV, B-AF
+4	중	O	O	O, B-TM, I-CV, B-QT, B-CV
+5	60	B-QT	B-QT	B-QT, I-QT, O, B-DT, B-LC
+6	##세	I-QT	I-QT	I-QT, O, I-LC, I-EV, I-DT
+7	이상	I-QT	I-QT	I-QT, O, I-LC, I-PS, I-EV
+8	노인	O	O	O, I-QT, B-CV, I-CV, B-FD
+9	##은	O	O	O, B-CV, I-QT, B-OG, I-CV
+10	5	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-LC
+11	.	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
+12	0	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
+13	%	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
+14	를	O	O	O, I-QT, B-CV, I-OG, I-EV
+15	차지	O	O	O, B-CV, B-TM, I-QT, B-OG
+16	##했	O	O	O, B-CV, I-CV, I-OG, I-QT
+17	##다	O	O	O, B-CV, I-CV, I-OG, B-TM
+18	(	O	O	O, B-CV, B-OG, B-LC, B-QT
+19	대검찰청	B-AF	B-OG	B-OG, O, B-AF, B-EV, B-LC
+20	2010	I-AF	B-DT	B-DT, I-DT, O, B-QT, I-OG
+21	범죄	I-AF	O	O, B-FD, B-CV, B-OG, B-AF
+22	##분석	I-AF	O	O, I-FD, I-OG, I-AF, I-CV
+23	)	O	O	O, I-OG, I-AF, I-CV, B-CV
+24	.	O	O	O, B-LC, B-OG, B-CV, I-OG
+25	[SEP]	O	O	O, B-CV, B-LC, B-OG, I-OG

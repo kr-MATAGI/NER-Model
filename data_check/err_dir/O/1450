@@ -1,0 +1,25 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
+1	노르웨이	B-LC	B-LC	B-LC, B-OG, O, B-PS, B-AF
+2	테러	O	B-CV	B-CV, O, B-OG, I-CV, B-AF
+3	##범	O	I-CV	I-CV, O, I-OG, B-CV, I-PS
+4	##이	O	O	O, I-CV, B-PS, I-OG, B-CV
+5	구입	O	O	O, B-CV, B-TM, B-LC, B-OG
+6	##한	O	O	O, B-LC, B-OG, B-PS, B-CV
+7	질	B-MT	B-MT	B-MT, O, I-MT, B-TM, B-LC
+8	##산	I-MT	I-MT	I-MT, B-MT, O, I-TM, I-PT
+9	##암	I-MT	I-MT	I-MT, B-MT, O, I-TM, I-PT
+10	##모	I-MT	I-MT	I-MT, B-MT, O, I-TM, I-PT
+11	##늄	I-MT	I-MT	I-MT, B-MT, O, I-TM, I-PT
+12	,	O	O	O, I-MT, I-TM, I-OG, I-AF
+13	국내	O	O	O, B-CV, B-LC, B-OG, B-TM
+14	##서	O	O	O, B-LC, B-CV, B-OG, B-PS
+15	##도	O	O	O, B-LC, B-CV, B-PS, B-OG
+16	""""	O	O	O, B-CV, B-LC, B-TM, B-OG
+17	1	B-QT	B-QT	B-QT, O, B-DT, B-EV, B-AF
+18	##병	I-QT	I-QT	I-QT, O, I-EV, I-AF, I-LC
+19	1	B-QT	B-QT	B-QT, I-QT, O, B-DT, B-EV
+20	##만	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-EV
+21	##원	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-AF
+22	""""	O	O	O, I-QT, B-CV, I-OG, I-CV
+23	[SEP]	O	O	O, B-LC, B-CV, B-OG, I-QT

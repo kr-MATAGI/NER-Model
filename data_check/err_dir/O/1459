@@ -1,0 +1,21 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-EV, I-CV
+1	반군	O	B-OG	B-OG, O, B-CV, I-OG, B-EV
+2	##은	O	O	O, I-OG, I-CV, I-EV, B-CV
+3	이를	O	O	O, B-CV, B-OG, B-PS, B-LC
+4	비웃	O	O	O, B-PS, B-CV, B-LC, B-OG
+5	##기	O	O	O, B-PS, B-LC, I-AF, B-OG
+6	##라도	O	O	O, B-PS, B-LC, I-EV, B-QT
+7	하	O	O	O, B-PS, B-LC, B-OG, B-DT
+8	##듯	O	O	O, B-LC, B-PS, B-OG, B-CV
+9	정부	B-OG	B-OG	B-OG, B-AF, O, B-LC, B-PS
+10	##에	O	O	O, I-OG, I-AF, I-EV, B-CV
+11	가장	O	O	O, B-CV, B-QT, B-LC, B-OG
+12	수치	O	O	O, B-CV, B-LC, B-TM, B-QT
+13	##스러운	O	O	O, B-LC, B-PS, B-QT, B-OG
+14	패배	O	O	O, B-CV, B-TM, B-LC, B-OG
+15	##를	O	O	O, B-CV, B-OG, B-LC, I-OG
+16	안겼	O	O	O, B-CV, B-QT, B-LC, B-EV
+17	##다	O	O	O, B-CV, I-QT, I-EV, I-CV
+18	.	O	O	O, B-CV, B-LC, B-PS, B-OG
+19	[SEP]	O	O	O, B-CV, B-LC, I-EV, B-OG

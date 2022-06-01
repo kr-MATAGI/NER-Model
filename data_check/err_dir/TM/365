@@ -1,0 +1,26 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
+1	강정호	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
+2	##의	O	O	O, I-PS, I-AF, I-OG, B-CV
+3	부상	O	O	O, B-TM, B-CV, B-LC, B-AF
+4	동영상	O	O	O, B-TM, B-LC, B-CV, B-PS
+5	##을	O	O	O, B-CV, B-PS, B-LC, B-OG
+6	본	O	O	O, B-CV, B-PS, B-LC, B-OG
+7	은	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
+8	원장	B-CV	B-CV	B-CV, O, I-PS, I-CV, B-OG
+9	##은	O	O	O, I-CV, B-CV, I-OG, I-AF
+10	“	O	O	O, B-TM, B-CV, B-LC, B-QT
+11	정강	B-TM	B-TM	B-TM, B-TR, O, B-AM, B-CV
+12	##이	I-TM	I-TM	I-TM, I-TR, O, B-TM, I-AM
+13	##뼈	I-TM	I-TM	I-TM, I-TR, O, B-TM, I-QT
+14	가장	O	O	O, I-TM, I-QT, I-CV, I-AF
+15	위쪽	B-TM	O	O, B-TM, B-QT, I-TM, B-CV
+16	부분	O	O	O, I-TM, I-QT, B-TM, B-CV
+17	##이	O	O	O, B-PS, B-CV, B-OG, B-LC
+18	내려앉	O	O	O, B-CV, B-TM, B-PS, B-OG
+19	##은	O	O	O, B-CV, B-PS, B-TM, I-AF
+20	것	O	O	O, B-CV, B-PS, B-TM, I-AF
+21	##으로	O	O	O, B-CV, I-OG, I-AF, B-TM
+22	보인다	O	O	O, B-CV, B-TM, B-LC, B-OG
+23	.	O	O	O, B-CV, B-LC, B-PS, B-TM
+24	[SEP]	O	O	O, B-CV, B-TM, B-LC, B-PS

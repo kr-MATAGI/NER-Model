@@ -1,0 +1,19 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
+1	[	O	O	O, B-OG, B-LC, B-AF, B-PS
+2	크로스	O	O	O, B-AF, B-FD, B-TM, B-PS
+3	미디어	O	O	O, I-AF, I-FD, I-TM, I-OG
+4	/	O	O	O, I-AF, B-PS, B-AF, I-OG
+5	다윈	O	B-PS	B-PS, O, B-AF, I-PS, B-LC
+6	##을	O	O	O, I-AF, I-PS, I-LC, I-OG
+7	따라서	O	O	O, I-AF, I-PS, B-PS, B-AF
+8	]	O	O	O, B-LC, I-AF, B-OG, B-PS
+9	‘	O	O	O, B-LC, B-CV, B-OG, B-EV
+10	지구	O	B-LC	B-LC, O, B-EV, B-DT, B-OG
+11	##온	O	O	O, I-EV, B-EV, B-LC, I-LC
+12	##난	O	O	O, I-EV, I-LC, B-EV, I-TR
+13	##화	O	O	O, I-EV, I-LC, I-TR, I-OG
+14	충격	O	O	O, I-EV, B-LC, I-TR, B-EV
+15	’	O	O	O, I-EV, B-CV, B-OG, B-LC
+16	생생	O	O	O, B-LC, B-OG, B-CV, B-TM
+17	[SEP]	O	O	O, B-LC, B-CV, B-PS, B-AF

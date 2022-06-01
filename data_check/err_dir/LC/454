@@ -1,0 +1,24 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, B-CV, I-EV, I-CV
+1	중국	B-LC	B-LC	B-LC, O, B-OG, I-LC, B-AF
+2	시장	O	O	O, I-LC, B-LC, B-CV, I-CV
+3	도입	O	O	O, B-LC, B-CV, I-LC, B-OG
+4	##에	O	O	O, B-OG, B-LC, B-CV, B-PS
+5	앞서	O	O	O, B-OG, B-LC, B-CV, B-TM
+6	작년	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
+7	6	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
+8	##월	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
+9	홍콩	B-LC	B-LC	B-LC, B-OG, O, B-AF, B-EV
+10	플래그	B-LC	O	O, B-CV, I-LC, B-LC, I-AF
+11	##십	I-LC	O	O, I-LC, I-CV, I-AF, I-OG
+12	매장	I-LC	O	O, B-LC, I-LC, I-AF, I-CV
+13	##에	O	O	O, B-LC, B-CV, I-AF, B-OG
+14	설화	B-OG	B-OG	B-OG, B-AF, O, B-PS, B-LC
+15	##수	I-OG	I-OG	I-OG, I-AF, O, I-EV, I-LC
+16	스파	O	I-OG	I-OG, I-AF, O, B-AF, B-OG
+17	##를	O	O	O, I-OG, I-AF, I-EV, I-CV
+18	열	O	O	O, B-OG, B-CV, B-LC, B-TM
+19	##었	O	O	O, B-CV, B-OG, B-LC, I-OG
+20	##다	O	O	O, B-CV, B-OG, B-LC, I-OG
+21	.	O	O	O, B-LC, B-OG, B-CV, B-PS
+22	[SEP]	O	O	O, B-LC, B-OG, B-CV, I-OG

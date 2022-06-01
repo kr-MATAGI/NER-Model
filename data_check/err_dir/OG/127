@@ -1,0 +1,12 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
+1	북	B-OG	B-LC	B-LC, B-OG, O, B-TM, B-PS
+2	“	O	O	O, I-OG, I-LC, B-CV, B-LC
+3	불	O	O	O, B-LC, B-TM, B-AF, B-CV
+4	##바다	O	O	O, I-LC, I-TM, I-AF, I-CV
+5	직면	O	O	O, B-LC, I-LC, B-PS, B-AF
+6	##할	O	O	O, I-LC, B-LC, B-PS, I-AF
+7	##수도	O	O	O, I-LC, B-LC, I-AF, I-PS
+8	”	O	O	O, B-CV, I-LC, I-OG, I-AF
+9	위협	O	O	O, B-LC, B-TM, B-CV, B-PS
+10	[SEP]	O	O	O, B-LC, B-CV, I-LC, B-OG

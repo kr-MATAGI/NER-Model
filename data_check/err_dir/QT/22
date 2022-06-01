@@ -1,0 +1,18 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-AF
+1	15	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-TI
+2	##만	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-OG
+3	##→	I-QT	O	O, I-QT, B-QT, I-DT, I-OG
+4	##22	I-QT	B-QT	B-QT, I-QT, O, B-DT, B-LC
+5	##만	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
+6	##원	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-OG
+7	…	O	O	O, I-QT, I-OG, B-OG, B-CV
+8	삼성	B-OG	B-OG	B-OG, O, B-LC, B-AF, I-OG
+9	##S	I-OG	I-OG	I-OG, O, B-OG, I-LC, I-AF
+10	##DS	I-OG	I-OG	I-OG, O, I-LC, I-AF, I-CV
+11	주가	O	O	O, I-OG, B-CV, I-AF, I-EV
+12	장외	O	O	O, B-CV, B-TM, B-LC, B-OG
+13	##거래	O	O	O, I-CV, I-TM, I-OG, I-LC
+14	##서	O	O	O, I-CV, I-OG, I-QT, I-TM
+15	급등	O	O	O, B-CV, B-TM, B-OG, B-LC
+16	[SEP]	O	O	O, B-LC, B-OG, B-CV, B-TM

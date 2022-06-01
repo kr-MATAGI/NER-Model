@@ -1,0 +1,12 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
+1	근데	O	O	O, B-CV, B-LC, B-TM, B-PS
+2	문제	O	O	O, B-CV, B-PS, I-CV, B-LC
+3	##는	O	O	O, B-CV, B-PS, I-CV, B-LC
+4	아마	O	O	O, B-CV, B-PS, B-LC, B-OG
+5	이제	O	O	O, B-CV, B-LC, B-TM, B-PS
+6	어	O	O	O, B-CV, B-PS, B-LC, B-FD
+7	~	O	O	O, I-CV, B-CV, B-PS, B-LC
+8	설	O	B-DT	B-DT, O, B-CV, B-EV, I-DT
+9	민심	O	O	O, B-CV, I-DT, B-PS, I-CV
+10	[SEP]	O	O	O, B-CV, I-CV, I-EV, B-FD

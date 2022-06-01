@@ -1,0 +1,12 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
+1	북한	B-LC	B-LC	B-LC, B-OG, O, B-PS, B-CV
+2	##처럼	O	O	O, I-OG, I-LC, I-EV, B-CV
+3	그런	O	O	O, B-CV, B-LC, B-OG, I-OG
+4	어떤	O	O	O, B-CV, B-OG, B-LC, B-PS
+5	그니까	O	O	O, B-CV, B-LC, B-OG, B-PS
+6	그	O	O	O, B-CV, B-OG, B-LC, B-PS
+7	~	O	O	O, B-LC, I-CV, B-CV, B-PS
+8	방법론	O	B-TR	B-TR, O, B-FD, I-TR, B-PS
+9	##에서	O	O	O, I-TR, I-QT, I-EV, I-CV
+10	[SEP]	O	O	O, B-CV, B-LC, B-OG, I-EV

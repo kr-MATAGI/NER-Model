@@ -1,0 +1,12 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-AF
+1	대법	O	B-OG	B-OG, O, B-CV, I-OG, B-PS
+2	“	O	O	O, I-OG, I-CV, B-CV, I-EV
+3	대형	O	O	O, B-CV, B-OG, B-TM, B-AF
+4	##마트	O	O	O, I-CV, I-OG, I-TM, B-CV
+5	의무	O	O	O, B-CV, I-CV, I-OG, B-TM
+6	##휴	O	O	O, I-CV, B-CV, I-TM, I-OG
+7	##업	O	O	O, I-CV, I-OG, I-TM, B-CV
+8	정당	O	O	O, I-CV, B-CV, B-OG, I-OG
+9	”	O	O	O, I-OG, I-CV, B-CV, B-PS
+10	[SEP]	O	O	O, B-CV, B-OG, B-LC, I-OG

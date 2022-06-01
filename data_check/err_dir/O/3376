@@ -1,0 +1,24 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
+1	성급	O	O	O, B-CV, B-LC, B-TM, B-PS
+2	##하	O	O	O, B-LC, B-PS, B-OG, B-CV
+3	##게	O	O	O, B-LC, B-PS, B-OG, B-CV
+4	말리	O	O	O, B-CV, B-LC, B-OG, B-TM
+5	##려고	O	O	O, B-TM, B-PS, B-LC, B-CV
+6	드라이	O	B-TM	B-TM, O, B-CV, B-AF, I-TM
+7	##기	O	I-TM	I-TM, O, I-CV, I-AF, B-TM
+8	##나	O	O	O, I-TM, I-OG, I-AF, I-QT
+9	온열	O	B-TM	B-TM, O, B-CV, B-AF, I-TM
+10	##기	O	I-TM	I-TM, O, I-CV, I-AF, B-TM
+11	등	O	O	O, I-TM, I-OG, I-AF, I-CV
+12	화기	O	O	O, B-CV, B-TM, B-LC, B-MT
+13	##에	O	O	O, B-CV, B-LC, B-PS, I-AF
+14	노출	O	O	O, B-CV, B-LC, B-TM, B-OG
+15	##하	O	O	O, B-LC, B-PS, B-CV, B-OG
+16	##는	O	O	O, B-LC, B-CV, B-PS, B-TM
+17	것	O	O	O, B-CV, B-LC, B-TM, B-OG
+18	##은	O	O	O, B-CV, B-LC, B-TM, B-OG
+19	금물	O	O	O, B-CV, B-TM, B-LC, B-OG
+20	##이다	O	O	O, I-CV, I-OG, B-CV, I-TM
+21	.	O	O	O, B-LC, B-TM, B-CV, B-OG
+22	[SEP]	O	O	O, B-CV, B-TM, B-LC, B-OG

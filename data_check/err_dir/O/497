@@ -1,0 +1,13 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-AF
+1	중도	O	B-TR	B-TR, O, I-TR, B-TM, B-PS
+2	,	O	O	O, I-TR, B-PS, I-QT, B-TR
+3	진보	O	B-TR	B-TR, O, I-TR, B-TM, B-PS
+4	성향	O	O	O, I-TR, B-PS, B-TR, B-CV
+5	##의	O	O	O, B-PS, B-CV, I-OG, B-LC
+6	후보	B-CV	B-CV	B-CV, O, I-CV, B-PS, B-TM
+7	##는	O	O	O, I-CV, B-CV, I-AF, I-OG
+8	극소수	O	O	O, B-QT, B-CV, B-PS, B-TM
+9	##다	O	O	O, I-QT, I-OG, I-CV, B-CV
+10	.	O	O	O, B-CV, B-PS, B-OG, B-LC
+11	[SEP]	O	O	O, B-CV, B-TM, B-OG, B-PS

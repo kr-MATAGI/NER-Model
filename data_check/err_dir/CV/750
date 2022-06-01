@@ -1,0 +1,26 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-EV, I-CV, I-OG, B-CV
+1	문	B-EV	B-EV	B-EV, O, B-AF, B-DT, B-OG
+2	##혁	I-EV	I-EV	I-EV, O, I-AF, I-DT, I-QT
+3	##이	O	O	O, I-EV, B-PS, I-DT, I-PS
+4	끝난	O	O	O, I-EV, B-PS, B-EV, B-LC
+5	뒤	O	O	O, I-EV, B-PS, I-DT, B-EV
+6	그	O	O	O, B-CV, B-PS, I-EV, B-OG
+7	##는	O	O	O, B-PS, B-CV, I-EV, B-LC
+8	이	O	O	O, B-PS, B-CV, B-OG, B-AF
+9	범죄	O	O	O, B-CV, B-PS, I-EV, I-CV
+10	##로	O	O	O, B-PS, B-CV, I-CV, I-EV
+11	조사	O	O	O, B-CV, B-LC, B-TM, B-PS
+12	##를	O	O	O, B-PS, B-CV, I-CV, I-EV
+13	받	O	O	O, B-CV, B-PS, B-LC, B-OG
+14	##았	O	O	O, B-CV, B-PS, B-LC, B-OG
+15	##으나	O	O	O, B-PS, B-LC, B-CV, B-TM
+16	수배	B-CV	O	O, B-CV, B-LC, B-OG, B-AF
+17	##령	I-CV	O	O, I-CV, I-LC, I-AF, I-OG
+18	##을	O	O	O, I-CV, B-PS, I-AF, I-OG
+19	피해	O	O	O, B-LC, B-PS, B-TM, B-CV
+20	도주	O	O	O, B-CV, B-LC, B-TM, B-AF
+21	##했	O	O	O, B-PS, I-CV, I-AF, I-LC
+22	##다	O	O	O, B-CV, B-PS, B-LC, I-EV
+23	.	O	O	O, B-PS, B-CV, B-LC, I-EV
+24	[SEP]	O	O	O, B-CV, B-PS, B-LC, I-EV

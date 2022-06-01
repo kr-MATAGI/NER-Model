@@ -1,0 +1,27 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-AF
+1	혼인	O	O	O, B-CV, B-TM, B-LC, B-OG
+2	9	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-PS
+3	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
+4	만	I-DT	I-DT	I-DT, O, I-QT, B-DT, I-PS
+5	##에	O	O	O, I-DT, B-PS, B-CV, I-EV
+6	남편	B-CV	B-CV	B-CV, O, B-OG, I-CV, B-AF
+7	##과	O	O	O, I-CV, I-OG, B-CV, I-EV
+8	사별	O	O	O, B-CV, B-TM, B-LC, B-FD
+9	##하고	O	O	O, I-CV, I-TM, I-EV, I-OG
+10	농사	O	O	O, B-CV, B-LC, B-TM, B-FD
+11	##와	O	O	O, B-CV, B-PS, B-LC, B-TM
+12	허드	O	O	O, B-CV, B-TM, B-LC, B-FD
+13	##렛	O	O	O, I-CV, B-CV, I-TM, B-LC
+14	##일	O	O	O, I-CV, B-CV, I-TM, B-LC
+15	##로	O	O	O, B-CV, B-PS, B-LC, B-TM
+16	1	B-QT	B-QT	B-QT, O, I-QT, B-CV, B-TM
+17	##남	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-TM
+18	##3	B-QT	I-QT	I-QT, B-QT, O, I-LC, I-AF
+19	##녀	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-AF
+20	##를	O	O	O, I-QT, B-CV, I-CV, I-AF
+21	홀로	B-QT	O	O, B-CV, B-TM, B-LC, B-QT
+22	키웠	O	O	O, B-CV, I-QT, B-LC, B-PS
+23	##다	O	O	O, B-CV, B-LC, B-PS, I-CV
+24	.	O	O	O, B-CV, B-LC, B-PS, B-TM
+25	[SEP]	O	O	O, B-CV, B-LC, B-TM, B-PS

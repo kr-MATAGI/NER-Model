@@ -1,0 +1,27 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
+1	과연	O	O	O, B-OG, B-LC, B-PS, B-TM
+2	페이스북	B-OG	B-OG	B-OG, B-LC, B-AF, B-TM, B-PS
+3	앱	O	O	O, B-TM, I-TM, I-OG, B-CV
+4	경제	O	O	O, I-TM, I-CV, I-OG, B-TM
+5	##가	O	O	O, B-PS, I-TM, B-CV, B-LC
+6	앞	O	O	O, B-LC, B-CV, B-TM, B-PS
+7	##으로	O	O	O, B-PS, B-CV, I-AF, I-DT
+8	##도	O	O	O, B-PS, B-LC, B-CV, B-DT
+9	계속	O	O	O, B-PS, B-LC, B-TM, B-CV
+10	희망	O	O	O, B-TM, B-AF, B-PS, B-CV
+11	##을	O	O	O, B-PS, I-AF, B-CV, B-AF
+12	줄지	O	O	O, B-PS, B-LC, B-TM, B-CV
+13	,	O	O	O, B-CV, I-AF, B-PS, B-LC
+14	아니면	O	O	O, B-CV, B-PS, B-LC, B-TM
+15	중세	O	B-DT	B-DT, O, B-LC, B-TI, B-OG
+16	기독교	B-OG	B-OG	B-OG, O, B-FD, I-OG, B-CV
+17	##처럼	O	O	O, I-OG, I-DT, I-CV, I-AF
+18	타락	O	O	O, B-CV, B-TM, B-LC, B-OG
+19	##하	O	O	O, B-PS, B-LC, B-OG, B-DT
+20	##게	O	O	O, B-CV, B-LC, B-TM, B-PS
+21	될지	O	O	O, B-LC, B-PS, B-CV, B-TM
+22	궁금	O	O	O, B-CV, B-TM, B-OG, B-PS
+23	##합니다	O	O	O, B-CV, I-OG, I-CV, I-AF
+24	.	O	O	O, B-LC, B-CV, B-PS, B-TM
+25	[SEP]	O	O	O, B-CV, B-LC, B-TM, B-PS

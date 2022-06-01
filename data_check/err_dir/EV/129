@@ -1,0 +1,11 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-EV, B-CV, I-OG, I-CV
+1	◆	O	O	O, B-LC, B-CV, B-OG, B-PS
+2	##법	B-OG	B-OG	B-OG, O, B-EV, I-OG, B-LC
+3	##무	I-OG	I-OG	I-OG, I-EV, O, B-OG, I-LC
+4	##부	I-OG	I-OG	I-OG, I-EV, O, I-LC, I-AF
+5	공청회	B-EV	O	O, B-EV, I-EV, I-OG, B-CV
+6	,	O	O	O, I-EV, I-OG, I-AF, B-CV
+7	논란	O	O	O, B-CV, B-TM, B-LC, I-EV
+8	촉발	O	O	O, B-CV, B-LC, I-EV, B-TM
+9	[SEP]	O	O	O, B-CV, B-LC, B-OG, I-EV

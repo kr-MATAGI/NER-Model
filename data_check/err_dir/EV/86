@@ -1,0 +1,17 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, I-CV, I-EV, B-CV
+1	•	O	O	O, B-LC, B-OG, B-PS, B-EV
+2	첫	O	O	O, B-QT, B-LC, B-EV, B-PS
+3	세계	B-EV	O	O, B-EV, B-LC, I-EV, B-OG
+4	수협	I-EV	B-EV	B-EV, I-EV, O, B-OG, B-CV
+5	##인	I-EV	I-EV	I-EV, O, I-OG, B-EV, I-CV
+6	##대	I-EV	I-EV	I-EV, O, I-OG, B-EV, I-AF
+7	##회	I-EV	I-EV	I-EV, O, I-OG, B-EV, I-AF
+8	연	O	O	O, I-EV, I-OG, B-PS, B-CV
+9	이종	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
+10	##구	I-PS	I-PS	I-PS, O, I-OG, I-LC, I-QT
+11	수협	B-CV	B-CV	B-CV, B-OG, B-EV, B-AF, O
+12	##중	I-CV	I-CV	I-CV, I-EV, B-CV, I-OG, O
+13	##앙	I-CV	I-CV	I-CV, I-OG, I-EV, B-CV, O
+14	##회장	I-CV	I-CV	I-CV, I-EV, B-CV, I-OG, O
+15	[SEP]	O	O	O, I-CV, I-EV, I-OG, I-QT

@@ -1,0 +1,18 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, I-CV, I-AF, B-CV
+1	이탈리아	B-LC	B-LC	B-LC, B-OG, O, B-PS, B-AF
+2	스포츠카	B-AF	B-AF	B-AF, O, B-OG, I-AF, I-OG
+3	브랜드	O	O	O, B-CV, I-OG, I-AF, I-CV
+4	##인	O	O	O, I-CV, I-OG, B-CV, B-PS
+5	페라리	B-AF	B-OG	B-OG, B-AF, O, B-PS, B-LC
+6	##는	O	O	O, I-OG, I-AF, I-CV, I-PS
+7	전문	O	O	O, B-OG, B-CV, B-LC, B-PS
+8	레이싱	O	O	O, B-CV, B-OG, B-FD, B-AF
+9	##팀	O	O	O, I-OG, I-CV, I-EV, B-OG
+10	##으로	O	O	O, I-OG, B-PS, I-AF, I-CV
+11	혼동	O	O	O, B-CV, B-OG, B-TM, B-PS
+12	##될	O	O	O, B-PS, B-CV, I-OG, I-AF
+13	정도	O	O	O, B-CV, I-OG, B-PS, B-OG
+14	##다	O	O	O, I-OG, B-CV, I-AF, B-OG
+15	.	O	O	O, B-OG, B-CV, B-LC, B-PS
+16	[SEP]	O	O	O, B-CV, B-OG, I-OG, B-LC

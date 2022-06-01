@@ -1,0 +1,19 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-AF
+1	일본	B-LC	B-LC	B-LC, B-OG, O, I-LC, B-AF
+2	##에서	O	O	O, I-LC, I-OG, I-AF, B-LC
+3	외국인	O	B-CV	B-CV, O, B-QT, B-DT, B-TM
+4	최초	O	O	O, B-QT, I-QT, I-CV, B-CV
+5	##로	O	O	O, I-QT, B-PS, B-QT, I-OG
+6	특급	O	O	O, B-OG, B-AF, B-CV, B-FD
+7	##호텔	O	O	O, I-OG, I-AF, B-OG, I-CV
+8	##에	O	O	O, I-OG, I-AF, B-CV, B-PS
+9	제과	B-CV	B-CV	B-CV, O, B-OG, B-TM, I-CV
+10	##장	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-QT
+11	##으로	O	O	O, I-CV, I-QT, I-OG, B-CV
+12	계셨	O	O	O, B-CV, B-QT, B-PS, B-OG
+13	##던	O	O	O, B-CV, B-PS, B-QT, B-OG
+14	분	O	O	O, B-CV, B-PS, B-QT, B-OG
+15	##입니다	O	O	O, B-CV, B-PS, I-AF, I-OG
+16	.	O	O	O, B-CV, B-LC, B-PS, B-OG
+17	[SEP]	O	O	O, B-CV, B-LC, B-PS, I-OG

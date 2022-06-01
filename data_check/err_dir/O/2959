@@ -1,0 +1,9 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
+1	시댁	O	O	O, B-CV, B-OG, B-LC, B-AF
+2	##이	O	O	O, B-PS, I-CV, I-OG, I-AF
+3	##든	O	O	O, B-PS, B-CV, B-LC, B-OG
+4	친정	O	B-CV	B-CV, O, B-OG, B-AF, B-LC
+5	##이	O	O	O, I-CV, B-PS, I-OG, I-EV
+6	##든	O	O	O, B-CV, B-PS, B-LC, B-OG
+7	[SEP]	O	O	O, B-CV, B-PS, B-TM, B-LC

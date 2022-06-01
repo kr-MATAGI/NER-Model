@@ -1,0 +1,26 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-EV, I-OG, I-CV
+1	글로벌	O	O	O, B-EV, B-LC, B-OG, B-DT
+2	금융	B-EV	O	O, B-EV, I-EV, B-LC, B-OG
+3	##위	I-EV	O	O, I-EV, B-EV, I-OG, I-LC
+4	##기	I-EV	O	O, I-EV, I-OG, B-EV, I-LC
+5	##와	O	O	O, I-EV, I-OG, B-PS, B-LC
+6	선진국	O	O	O, B-LC, B-OG, B-EV, B-CV
+7	재정	O	O	O, I-EV, B-EV, B-LC, B-OG
+8	##위	O	O	O, I-EV, I-OG, I-LC, B-EV
+9	##기	O	O	O, I-EV, I-OG, I-LC, I-TM
+10	##가	O	O	O, I-EV, B-PS, B-LC, I-OG
+11	불거지	O	O	O, B-CV, B-EV, B-LC, B-OG
+12	##면서	O	O	O, B-LC, B-PS, I-EV, B-CV
+13	정책	O	O	O, B-CV, B-PS, B-FD, B-LC
+14	초점	O	O	O, B-CV, B-PS, B-LC, B-TM
+15	##은	O	O	O, B-CV, B-PS, B-LC, B-OG
+16	건전	O	O	O, B-CV, B-LC, B-TM, B-FD
+17	##재	O	O	O, I-CV, I-TM, B-CV, I-TR
+18	##정	O	O	O, I-CV, I-TM, I-LC, I-TR
+19	##으로	O	O	O, B-PS, B-LC, B-CV, B-OG
+20	바뀌	O	O	O, B-CV, B-LC, B-PS, B-OG
+21	##었	O	O	O, B-CV, I-EV, I-OG, B-PS
+22	##다	O	O	O, B-CV, I-EV, B-LC, I-OG
+23	.	O	O	O, B-LC, B-PS, B-CV, I-EV
+24	[SEP]	O	O	O, B-LC, B-CV, I-EV, B-PS

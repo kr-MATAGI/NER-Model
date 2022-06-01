@@ -1,0 +1,23 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-QT
+1	그녀	O	O	O, B-CV, B-PS, B-OG, B-LC
+2	##는	O	O	O, B-CV, B-PS, B-LC, I-OG
+3	야간	O	B-TI	B-TI, O, B-DT, B-QT, B-EV
+4	##학교	O	O	O, I-OG, I-TI, I-QT, I-LC
+5	##에	O	O	O, B-CV, I-OG, B-PS, I-QT
+6	다니	O	O	O, B-CV, B-PS, B-LC, B-OG
+7	##며	O	O	O, B-PS, B-LC, B-CV, B-QT
+8	회계	B-FD	O	O, B-FD, B-CV, I-FD, B-OG
+9	·	O	O	O, I-CV, I-FD, I-OG, I-QT
+10	컴퓨터	B-FD	B-TM	B-TM, O, B-CV, B-AF, I-TM
+11	·	O	O	O, I-TM, I-CV, I-QT, I-OG
+12	세관	B-FD	O	O, B-FD, B-CV, B-OG, B-TM
+13	관련	O	O	O, I-CV, B-CV, B-PS, I-OG
+14	자격증	O	O	O, B-CV, B-PS, B-TM, B-LC
+15	##을	O	O	O, B-CV, B-PS, I-CV, B-LC
+16	차례	O	O	O, B-QT, B-TM, B-DT, B-CV
+17	##로	O	O	O, I-QT, B-PS, B-QT, I-DT
+18	땄	O	O	O, B-CV, B-PS, B-TM, I-QT
+19	##다	O	O	O, B-CV, B-PS, I-CV, I-QT
+20	.	O	O	O, B-CV, B-PS, B-LC, B-FD
+21	[SEP]	O	O	O, B-CV, B-PS, B-FD, B-LC

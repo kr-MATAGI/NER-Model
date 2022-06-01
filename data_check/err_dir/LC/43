@@ -1,0 +1,9 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
+1	지금	O	O	O, B-LC, B-PS, B-OG, B-CV
+2	민주주의	B-TR	B-TR	B-TR, O, I-TR, B-PS, B-FD
+3	서민	O	O	O, B-CV, I-CV, B-OG, I-TR
+4	##경제	O	O	O, I-CV, B-CV, I-TR, I-EV
+5	남북	B-LC	B-OG	B-OG, B-LC, O, B-EV, B-CV
+6	##관계	O	O	O, I-OG, B-CV, I-LC, I-CV
+7	[SEP]	O	O	O, I-OG, B-CV, I-CV, B-LC

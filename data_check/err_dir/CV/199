@@ -1,0 +1,8 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-AF
+1	매년	O	O	O, B-DT, B-QT, B-CV, B-OG
+2	의료진	B-CV	O	O, B-CV, B-OG, B-FD, I-CV
+3	##을	O	O	O, I-CV, I-OG, I-AF, B-CV
+4	선두	O	O	O, B-CV, B-TM, B-QT, B-LC
+5	##로	O	O	O, I-CV, I-QT, I-TM, B-PS
+6	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-PS

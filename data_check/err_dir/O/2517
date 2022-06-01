@@ -1,0 +1,9 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
+1	○	O	O	O, B-LC, B-CV, B-OG, B-PS
+2	포토	O	B-TM	B-TM, O, B-TR, B-CV, B-AF
+3	##샵	O	I-TM	I-TM, O, I-TR, I-AF, I-CV
+4	,	O	O	O, I-TM, I-AF, I-CV, I-OG
+5	그	O	O	O, B-CV, B-LC, B-AF, B-OG
+6	딜레마	O	O	O, B-AF, B-CV, B-PS, B-TM
+7	[SEP]	O	O	O, B-CV, I-AF, I-CV, I-EV

@@ -1,0 +1,12 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-CV, B-CV, I-OG, I-EV
+1	""""	O	O	O, B-CV, B-LC, B-TM, B-OG
+2	난	O	O	O, B-CV, B-PS, B-LC, B-TM
+3	바둑	B-CV	B-CV	B-CV, O, B-AF, B-TM, B-EV
+4	배우	O	O	O, I-CV, I-EV, I-AF, I-TM
+5	##러	O	O	O, I-CV, I-EV, I-AF, I-LC
+6	템플	B-EV	O	O, B-EV, B-LC, B-CV, B-TM
+7	##스테이	I-EV	O	O, I-EV, I-LC, I-CV, I-TM
+8	간다	O	O	O, I-EV, I-AF, I-OG, B-CV
+9	""""	O	O	O, B-CV, I-EV, B-LC, I-OG
+10	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG

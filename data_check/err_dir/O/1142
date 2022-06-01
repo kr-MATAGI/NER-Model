@@ -1,0 +1,19 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
+1	[	O	O	O, B-LC, B-OG, B-CV, B-DT
+2	서울	B-LC	B-LC	B-LC, B-OG, O, B-AF, I-LC
+3	]	O	O	O, I-LC, I-OG, I-AF, B-LC
+4	해	O	B-LC	B-LC, O, B-PS, B-AF, B-DT
+5	##님	O	O	O, I-LC, I-PS, I-AF, I-OG
+6	·	O	O	O, I-LC, I-PS, I-AF, I-OG
+7	달	O	B-LC	B-LC, O, B-PS, I-LC, I-PS
+8	##님	O	O	O, I-PS, I-LC, I-AF, B-PS
+9	자매	B-CV	B-CV	B-CV, O, I-CV, B-AF, I-PS
+10	세상	O	O	O, I-CV, I-AF, B-CV, I-EV
+11	##에	O	O	O, B-CV, B-LC, I-AF, I-CV
+12	첫	O	O	O, B-LC, B-PS, B-QT, B-CV
+13	'	O	O	O, B-LC, B-CV, B-OG, B-PS
+14	어	O	O	O, B-EV, B-CV, B-LC, B-AF
+15	##흥	O	O	O, I-EV, I-AF, I-LC, I-PS
+16	'	O	O	O, I-EV, I-AF, I-OG, I-CV
+17	[SEP]	O	O	O, B-LC, B-CV, B-PS, B-OG

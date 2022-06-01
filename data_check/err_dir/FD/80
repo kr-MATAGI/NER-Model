@@ -1,0 +1,14 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
+1	이런	O	O	O, B-CV, B-OG, B-LC, B-TM
+2	윤리	B-FD	O	O, B-FD, B-CV, B-TR, I-FD
+3	교육	O	O	O, I-FD, I-CV, B-FD, B-CV
+4	##을	O	O	O, I-CV, B-CV, I-AF, I-FD
+5	하	O	O	O, B-CV, B-OG, B-TM, I-CV
+6	##게	O	O	O, B-CV, B-OG, I-CV, B-PS
+7	돼	O	O	O, B-CV, B-LC, B-OG, B-TM
+8	있	O	O	O, B-CV, I-CV, B-OG, I-OG
+9	##습	O	O	O, B-CV, B-OG, B-LC, I-CV
+10	##니다	O	O	O, B-CV, B-OG, B-LC, I-OG
+11	.	O	O	O, B-CV, B-OG, B-LC, B-PS
+12	[SEP]	O	O	O, B-CV, B-OG, B-LC, I-CV

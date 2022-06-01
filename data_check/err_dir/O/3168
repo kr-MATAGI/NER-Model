@@ -1,0 +1,21 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
+1	그렇	O	O	O, B-CV, B-TM, B-OG, B-LC
+2	##다면	O	O	O, B-CV, B-TM, B-OG, B-LC
+3	박테리아	O	B-AM	B-AM, O, B-TM, B-TR, B-MT
+4	##가	O	O	O, I-TM, I-AF, B-PS, I-QT
+5	입	B-AM	B-AM	B-AM, O, B-TM, B-TR, I-AM
+6	안	O	O	O, B-TM, I-TM, B-AM, B-LC
+7	##에서	O	O	O, I-TM, B-CV, B-LC, I-AF
+8	가장	O	O	O, B-LC, B-CV, B-QT, B-TM
+9	많이	O	O	O, B-LC, B-QT, B-TM, B-CV
+10	서식	O	O	O, B-LC, B-TM, B-AM, B-PS
+11	##하	O	O	O, B-LC, B-PS, I-LC, B-CV
+12	##는	O	O	O, B-LC, B-CV, I-LC, I-AF
+13	곳	O	O	O, B-LC, I-LC, B-CV, B-AF
+14	##이	O	O	O, B-LC, B-PS, I-LC, I-AF
+15	어디	O	O	O, B-LC, B-CV, I-LC, B-OG
+16	##일	O	O	O, B-LC, I-LC, B-PS, I-AF
+17	##까요	O	O	O, B-LC, I-LC, B-CV, B-TM
+18	?	O	O	O, B-CV, B-LC, B-OG, I-AF
+19	[SEP]	O	O	O, B-LC, B-CV, I-AF, B-TM

@@ -1,0 +1,25 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
+1	과거	O	O	O, B-CV, B-LC, B-OG, B-DT
+2	##에도	O	O	O, B-CV, B-LC, B-PS, B-OG
+3	알	B-AF	B-OG	B-OG, B-LC, B-PS, B-CV, B-AF
+4	##하	I-AF	I-OG	I-OG, I-LC, I-CV, I-PS, I-AF
+5	##람	I-AF	I-OG	I-OG, I-LC, I-CV, I-AF, I-PS
+6	사원	I-AF	B-CV	B-CV, I-CV, O, I-OG, I-AF
+7	##에	O	O	O, I-CV, I-OG, I-AF, I-EV
+8	##선	O	O	O, B-CV, B-TM, B-LC, I-CV
+9	수백	O	O	O, B-PS, B-TM, B-CV, B-QT
+10	##명	O	O	O, B-QT, B-PS, B-TM, B-CV
+11	##씩	O	O	O, B-PS, I-QT, B-QT, B-LC
+12	숨지	O	O	O, B-CV, B-TM, B-QT, B-LC
+13	##는	O	O	O, B-CV, B-TM, B-PS, B-LC
+14	대형	O	O	O, B-CV, B-TM, B-QT, B-AF
+15	인명	O	O	O, B-CV, B-TM, I-CV, B-QT
+16	피해	O	O	O, I-CV, B-CV, I-TM, I-QT
+17	##가	O	O	O, B-PS, B-CV, B-OG, B-LC
+18	종종	O	O	O, B-CV, B-QT, B-TM, B-OG
+19	발생	O	O	O, B-CV, B-OG, B-TM, B-FD
+20	##했	O	O	O, B-CV, B-PS, I-CV, I-OG
+21	##다	O	O	O, B-CV, I-OG, B-LC, B-OG
+22	.	O	O	O, B-CV, B-LC, B-PS, B-AF
+23	[SEP]	O	O	O, B-CV, B-LC, B-PS, I-AF

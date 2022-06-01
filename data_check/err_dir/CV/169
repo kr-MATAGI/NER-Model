@@ -1,0 +1,22 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
+1	이	O	O	O, B-PS, B-CV, B-QT, B-OG
+2	여자	O	O	O, B-CV, I-QT, I-CV, I-PS
+3	독거	B-CV	O	O, B-CV, B-TM, I-CV, B-QT
+4	##노	I-CV	O	O, I-CV, B-CV, I-TM, I-QT
+5	##인	I-CV	O	O, I-CV, B-CV, I-TM, I-QT
+6	##들이	O	O	O, I-CV, B-CV, I-QT, I-AF
+7	많	O	O	O, B-CV, B-PS, B-OG, I-CV
+8	##습	O	O	O, B-CV, B-PS, I-CV, I-AF
+9	##니다	O	O	O, B-CV, B-PS, B-OG, B-LC
+10	.	O	O	O, B-CV, B-PS, B-LC, I-AF
+11	근데	O	O	O, B-CV, B-PS, B-OG, B-LC
+12	이제	O	O	O, B-CV, B-PS, B-TM, B-OG
+13	그	O	O	O, B-CV, B-PS, B-TM, B-LC
+14	그	O	O	O, B-CV, B-LC, B-PS, B-TM
+15	집	O	O	O, B-CV, B-AF, B-PS, B-LC
+16	##에	O	O	O, B-CV, B-PS, I-AF, B-TM
+17	텃밭	O	O	O, B-CV, B-TM, B-LC, B-PT
+18	있	O	O	O, I-CV, I-AF, B-CV, I-TM
+19	##고	O	O	O, B-CV, B-PS, I-AF, B-OG
+20	[SEP]	O	O	O, B-CV, I-AF, B-PS, B-LC

@@ -1,0 +1,10 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, I-EV, I-CV, B-CV
+1	우성	B-PS	B-PS	B-PS, O, B-OG, B-LC, B-CV
+2	김종	I-PS	B-PS	B-PS, I-PS, O, B-OG, B-LC
+3	##영	I-PS	I-PS	I-PS, O, I-OG, I-LC, I-QT
+4	‘	O	O	O, B-EV, I-EV, B-LC, B-DT
+5	통찰	O	O	O, B-EV, I-EV, B-CV, B-TM
+6	’	O	O	O, I-EV, I-OG, B-EV, I-DT
+7	전	O	O	O, I-EV, I-OG, B-EV, I-DT
+8	[SEP]	O	O	O, I-EV, I-OG, B-EV, B-CV

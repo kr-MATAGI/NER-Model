@@ -1,0 +1,13 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
+1	군대	O	B-OG	B-OG, O, B-AF, B-CV, I-OG
+2	위안부	B-CV	B-CV	B-CV, O, I-CV, I-OG, B-OG
+3	##에	O	O	O, I-CV, I-OG, I-AF, I-EV
+4	관한	O	O	O, B-LC, B-TM, B-QT, B-OG
+5	내용	O	O	O, B-CV, B-LC, B-OG, B-PS
+6	##은	O	O	O, B-CV, B-OG, B-LC, B-TM
+7	아예	O	O	O, B-QT, B-CV, B-OG, B-TM
+8	없	O	O	O, B-CV, B-LC, B-QT, B-TM
+9	##다	O	O	O, B-CV, B-OG, B-TM, B-LC
+10	.	O	O	O, B-OG, B-LC, B-CV, B-AF
+11	[SEP]	O	O	O, B-CV, B-OG, B-LC, I-OG

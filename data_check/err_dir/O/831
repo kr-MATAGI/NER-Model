@@ -1,0 +1,16 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
+1	이거	O	O	O, B-CV, B-OG, B-PS, B-FD
+2	##는	O	O	O, B-CV, B-OG, B-PS, B-LC
+3	진화	O	O	O, B-FD, B-TR, B-CV, B-OG
+4	##에	O	O	O, I-AF, I-OG, B-PS, I-CV
+5	역사	O	B-FD	B-FD, O, B-TR, I-FD, B-AF
+6	없이	O	O	O, I-FD, I-AF, I-OG, I-EV
+7	##는	O	O	O, B-CV, B-OG, B-LC, B-TM
+8	생겨날	O	O	O, B-CV, B-TM, B-OG, B-QT
+9	수	O	O	O, B-CV, B-PS, B-OG, B-LC
+10	없	O	O	O, B-CV, B-TM, B-OG, I-OG
+11	##는	O	O	O, B-CV, B-OG, B-PS, B-LC
+12	[UNK]	O	O	O, B-CV, B-OG, B-PS, B-TM
+13	.	O	O	O, B-CV, B-OG, B-TM, B-LC
+14	[SEP]	O	O	O, B-CV, B-LC, B-OG, I-OG

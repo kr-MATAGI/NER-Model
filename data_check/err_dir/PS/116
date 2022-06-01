@@ -1,0 +1,17 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, I-EV, B-CV, I-CV
+1	미	B-LC	B-LC	B-LC, B-OG, O, B-PS, B-AF
+2	국방부	B-OG	B-OG	B-OG, I-OG, O, B-CV, B-AF
+3	##는	O	O	O, I-OG, B-CV, I-EV, I-AF
+4	플	B-PS	B-AF	B-AF, B-PS, O, B-OG, B-TM
+5	##린	I-PS	I-AF	I-AF, I-PS, O, I-OG, I-EV
+6	보고서	O	O	O, I-AF, I-PS, I-EV, B-AF
+7	##에	O	O	O, I-AF, I-EV, B-CV, I-OG
+8	당혹감	O	O	O, B-CV, B-TM, B-LC, B-OG
+9	##을	O	O	O, B-CV, I-AF, B-OG, I-OG
+10	감추	O	O	O, B-CV, B-TM, B-OG, B-LC
+11	##지	O	O	O, I-OG, B-LC, I-AF, B-PS
+12	못했	O	O	O, B-LC, B-CV, I-OG, B-PS
+13	##다	O	O	O, B-CV, B-LC, I-EV, I-OG
+14	.	O	O	O, B-LC, B-CV, B-OG, B-PS
+15	[SEP]	O	O	O, B-CV, B-LC, B-OG, I-OG

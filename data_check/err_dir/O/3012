@@ -1,0 +1,24 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
+1	집안	O	O	O, B-CV, B-TM, B-OG, B-LC
+2	##에	O	O	O, B-CV, B-PS, B-TM, B-OG
+3	가사	B-CV	B-CV	B-CV, O, B-OG, B-TM, B-FD
+4	##도	I-CV	I-CV	I-CV, B-CV, O, I-OG, I-QT
+5	##우	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-QT
+6	##미	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-TM
+7	##를	O	O	O, I-CV, I-OG, I-AF, I-QT
+8	여럿	O	O	O, B-QT, B-TM, B-CV, B-LC
+9	두고	O	O	O, B-CV, B-LC, B-PS, B-OG
+10	,	O	O	O, B-CV, B-OG, B-PS, B-LC
+11	시어머니	B-CV	B-CV	B-CV, O, B-OG, B-PS, I-CV
+12	##와	O	O	O, I-CV, I-OG, I-AF, B-CV
+13	함께	O	O	O, B-CV, B-TM, B-PS, B-OG
+14	셋째	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-EV
+15	며느리	B-CV	B-CV	B-CV, I-QT, O, I-CV, B-PS
+16	남상	O	B-PS	B-PS, O, B-OG, I-PS, B-CV
+17	##미	O	I-PS	I-PS, O, I-OG, I-QT, I-LC
+18	##를	O	O	O, I-PS, I-OG, B-CV, I-AF
+19	구박	O	O	O, B-CV, B-LC, B-TM, B-OG
+20	##한다	O	O	O, B-CV, B-PS, B-LC, I-OG
+21	.	O	O	O, B-CV, B-LC, B-PS, B-OG
+22	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-TM

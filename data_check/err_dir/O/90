@@ -1,0 +1,26 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
+1	박병호	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
+2	##가	O	O	O, I-PS, I-OG, B-CV, I-AF
+3	한	O	B-QT	B-QT, O, B-EV, B-TM, B-TI
+4	경기	O	I-QT	I-QT, O, I-EV, I-TM, I-AF
+5	##에	O	O	O, I-QT, I-EV, B-QT, I-AF
+6	안타	B-TM	B-TM	B-TM, O, B-AF, B-CV, I-TM
+7	##를	O	O	O, I-TM, I-QT, I-AF, I-EV
+8	3	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-TM
+9	##개	I-QT	I-QT	I-QT, O, I-EV, I-TM, I-LC
+10	때려	O	O	O, I-QT, I-EV, B-CV, I-TM
+11	##낸	O	O	O, B-LC, I-QT, B-QT, B-CV
+12	건	O	O	O, B-OG, B-CV, B-LC, B-PS
+13	메이저	B-OG	B-OG	B-OG, B-EV, O, B-LC, I-OG
+14	##리그	I-OG	I-OG	I-OG, I-EV, O, I-CV, I-AF
+15	데뷔	O	O	O, I-OG, I-EV, B-CV, I-AF
+16	후	O	O	O, I-EV, I-OG, I-QT, I-DT
+17	45	B-QT	B-QT	B-QT, O, B-EV, I-QT, B-DT
+18	##경기	I-QT	I-QT	I-QT, O, I-EV, I-DT, I-TM
+19	만	I-QT	I-QT	I-QT, O, I-DT, I-EV, I-TI
+20	##에	O	O	O, I-QT, I-EV, I-OG, I-TM
+21	처음	O	O	O, B-QT, I-QT, B-CV, B-TM
+22	##이다	O	O	O, I-QT, B-CV, B-TM, B-QT
+23	.	O	O	O, B-QT, B-CV, B-PS, B-OG
+24	[SEP]	O	O	O, B-CV, B-QT, I-QT, B-TM

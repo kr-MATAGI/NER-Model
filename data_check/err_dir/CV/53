@@ -1,0 +1,25 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
+1	미국	B-LC	B-LC	B-LC, B-OG, O, B-PS, B-AF
+2	통계청	B-OG	B-OG	B-OG, I-OG, O, B-AF, B-LC
+3	##은	O	O	O, I-OG, B-CV, I-AF, I-CV
+4	베이비	B-CV	O	O, B-CV, B-PS, B-OG, B-TR
+5	부	I-CV	O	O, I-CV, B-CV, I-PS, B-PS
+6	##머	I-CV	O	O, I-CV, B-CV, I-PS, I-TR
+7	##를	O	O	O, I-CV, B-PS, I-PS, I-OG
+8	‘	O	O	O, B-CV, B-LC, B-OG, B-PS
+9	합계	O	O	O, B-TM, B-QT, B-TR, B-CV
+10	##출산	O	O	O, B-TR, B-QT, B-TM, I-TR
+11	##율	O	O	O, B-QT, I-QT, B-PS, I-TR
+12	3	B-QT	B-QT	B-QT, I-QT, O, B-PS, B-LC
+13	.	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
+14	0	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
+15	이상	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
+16	##인	O	O	O, I-QT, B-PS, I-CV, I-PS
+17	세대	O	O	O, B-CV, I-CV, I-QT, B-PS
+18	’	O	O	O, B-CV, I-CV, B-PS, B-OG
+19	로	O	O	O, B-CV, B-PS, B-LC, B-OG
+20	규정	O	O	O, B-CV, B-PS, B-OG, B-LC
+21	##한다	O	O	O, B-CV, B-PS, I-CV, B-LC
+22	.	O	O	O, B-CV, B-LC, B-PS, B-OG
+23	[SEP]	O	O	O, B-CV, B-LC, B-PS, I-CV

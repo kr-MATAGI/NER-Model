@@ -1,0 +1,17 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
+1	미	B-LC	B-OG	B-OG, B-LC, O, B-PS, B-AF
+2	,	O	O	O, I-OG, I-LC, B-OG, I-AF
+3	대만	B-LC	B-LC	B-LC, B-OG, O, I-OG, B-AF
+4	무기	O	O	O, B-CV, B-OG, I-OG, I-CV
+5	##판	O	O	O, I-CV, I-OG, I-TM, B-CV
+6	##매	O	O	O, I-CV, I-OG, I-TM, I-AF
+7	계약	O	O	O, I-CV, I-OG, I-TM, I-AF
+8	…	O	O	O, I-OG, I-CV, I-AF, B-PS
+9	중	O	B-OG	B-OG, B-LC, O, B-PS, B-CV
+10	,	O	O	O, I-OG, I-LC, I-CV, I-PS
+11	미	B-LC	B-LC	B-LC, B-OG, O, B-PS, B-CV
+12	대사	B-CV	B-CV	B-CV, O, I-CV, I-LC, I-OG
+13	소환	O	O	O, B-CV, I-CV, B-TM, B-QT
+14	항의	O	O	O, B-CV, B-LC, B-PS, I-CV
+15	[SEP]	O	O	O, B-LC, B-OG, B-CV, I-CV

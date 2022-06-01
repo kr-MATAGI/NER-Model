@@ -1,0 +1,27 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
+1	1990	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
+2	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
+3	##대	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
+4	‘	O	O	O, I-DT, B-LC, B-EV, B-DT
+5	닷컴	O	B-EV	B-EV, O, B-DT, B-PS, B-LC
+6	시대	O	I-EV	I-EV, O, I-DT, I-PS, I-AF
+7	’	O	O	O, I-EV, I-DT, I-OG, B-PS
+8	를	O	O	O, B-PS, B-CV, B-EV, B-OG
+9	연	O	O	O, B-PS, B-CV, B-EV, B-LC
+10	스타	B-CV	B-CV	B-CV, O, I-CV, B-PS, B-AF
+11	##였	O	O	O, I-CV, B-PS, I-EV, B-CV
+12	##던	O	O	O, B-PS, B-LC, B-CV, B-OG
+13	야후	B-OG	B-OG	B-OG, O, B-AF, B-PS, B-LC
+14	##가	O	O	O, I-OG, I-PS, I-AF, I-CV
+15	22	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
+16	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
+17	##만	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
+18	##에	O	O	O, I-DT, B-CV, I-QT, I-OG
+19	사실상	O	O	O, B-CV, B-LC, B-QT, B-OG
+20	종말	O	O	O, B-CV, B-QT, B-LC, I-QT
+21	##을	O	O	O, B-CV, B-OG, I-OG, B-PS
+22	맞이	O	O	O, B-CV, B-OG, B-LC, I-OG
+23	##한다	O	O	O, B-CV, B-LC, B-OG, I-OG
+24	.	O	O	O, B-CV, B-LC, B-PS, B-OG
+25	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG

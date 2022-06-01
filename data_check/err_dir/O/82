@@ -1,0 +1,23 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
+1	나경원	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
+2	‘	O	O	O, I-PS, I-OG, B-CV, I-AF
+3	초록	B-TM	B-TM	B-TM, O, B-LC, B-CV, B-OG
+4	##동	O	I-TM	I-TM, B-TM, O, I-LC, I-OG
+5	##색	O	I-TM	I-TM, O, B-TM, I-QT, I-OG
+6	’	O	O	O, I-TM, I-OG, B-CV, I-QT
+7	단일	O	O	O, B-TM, B-CV, B-TR, B-EV
+8	##화	O	O	O, I-TR, I-TM, I-CV, I-EV
+9	전략	O	O	O, B-PS, B-LC, B-CV, B-OG
+10	##박	B-PS	B-PS	B-PS, O, I-PS, B-OG, B-LC
+11	##영	I-PS	I-PS	I-PS, B-PS, O, I-LC, I-OG
+12	##선	I-PS	I-PS	I-PS, O, B-PS, I-LC, B-LC
+13	‘	O	O	O, I-PS, B-CV, I-OG, B-LC
+14	정면	O	O	O, B-TM, B-LC, B-CV, B-EV
+15	##돌	O	O	O, B-PS, B-LC, I-EV, B-CV
+16	##파	O	O	O, B-PS, I-LC, I-EV, I-TM
+17	’	O	O	O, B-CV, B-PS, B-LC, B-OG
+18	차별	O	O	O, B-CV, B-LC, B-TM, B-PS
+19	##화	O	O	O, B-PS, I-LC, I-CV, I-OG
+20	승부	O	O	O, B-CV, B-LC, B-TM, B-PS
+21	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-TM

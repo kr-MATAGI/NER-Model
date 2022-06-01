@@ -1,0 +1,13 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-QT
+1	지금	O	O	O, B-QT, B-CV, B-TM, B-OG
+2	서울	B-LC	B-LC	B-LC, O, B-OG, B-PS, B-AF
+3	기온	O	O	O, B-QT, I-QT, I-LC, B-CV
+4	영하	B-QT	B-QT	B-QT, I-QT, O, I-LC, B-DT
+5	팔	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-TI
+6	쩜	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-TI
+7	구	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-TI
+8	##돕	O	I-QT	I-QT, O, B-QT, I-TI, I-OG
+9	##니다	O	O	O, I-QT, I-OG, B-QT, I-TI
+10	.	O	O	O, I-QT, B-QT, B-CV, B-LC
+11	[SEP]	O	O	O, B-QT, I-QT, B-CV, B-TM

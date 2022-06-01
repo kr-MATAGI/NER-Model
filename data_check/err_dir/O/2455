@@ -1,0 +1,21 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, B-CV, I-AF, I-CV
+1	버스	B-AF	B-AF	B-AF, O, B-OG, I-AF, B-CV
+2	-	O	O	O, I-AF, I-OG, B-LC, B-AF
+3	지하철	B-AF	B-AF	B-AF, O, I-AF, B-OG, B-LC
+4	새벽	B-TI	B-TI	B-TI, I-AF, I-TI, O, B-QT
+5	2	I-TI	I-TI	I-TI, B-TI, I-AF, I-QT, I-TR
+6	##시	I-TI	I-TI	I-TI, I-QT, B-TI, O, I-TR
+7	##까	I-TI	I-TI	I-TI, O, I-QT, B-TI, I-TR
+8	##지	I-TI	I-TI	I-TI, O, I-QT, B-TI, I-TR
+9	연장	O	O	O, I-TI, B-LC, I-QT, B-AF
+10	…	O	O	O, B-LC, B-OG, B-PS, B-AF
+11	시립	O	O	O, B-LC, B-AF, B-CV, B-OG
+12	##묘	O	I-LC	I-LC, O, I-AF, B-LC, I-CV
+13	##지	O	I-LC	I-LC, O, I-AF, I-CV, B-LC
+14	경유	O	O	O, B-AF, B-LC, I-LC, B-MT
+15	버스	B-AF	B-AF	B-AF, O, I-AF, B-OG, B-CV
+16	운행	O	O	O, I-AF, I-OG, B-CV, B-AF
+17	##도	O	O	O, I-AF, B-LC, B-CV, B-TM
+18	늘려	O	O	O, B-LC, B-OG, B-CV, B-TM
+19	[SEP]	O	O	O, B-LC, B-AF, B-OG, I-AF

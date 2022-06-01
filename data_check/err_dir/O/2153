@@ -1,0 +1,25 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
+1	이어	O	O	O, B-TM, B-QT, B-CV, B-OG
+2	들어온	O	O	O, B-CV, B-PS, B-OG, B-TM
+3	손	B-PS	B-PS	B-PS, O, I-PS, B-OG, B-LC
+4	##시	I-PS	I-PS	I-PS, B-PS, O, I-OG, I-LC
+5	##헌	I-PS	I-PS	I-PS, O, B-PS, I-OG, I-LC
+6	##이	O	O	O, I-PS, I-OG, I-AF, B-PS
+7	끝내	O	O	O, B-TM, B-CV, B-QT, B-EV
+8	##기	O	O	O, B-QT, B-TM, I-TM, B-PS
+9	역전	O	O	O, B-TM, B-EV, B-CV, B-AF
+10	결승	B-TM	B-TM	B-TM, B-AF, O, I-TM, B-EV
+11	##타	I-TM	I-TM	I-TM, I-AF, O, I-QT, I-EV
+12	##를	O	O	O, I-TM, I-AF, I-QT, I-EV
+13	때려	O	O	O, B-TM, B-CV, B-LC, B-OG
+14	##내	O	O	O, B-LC, B-CV, I-QT, I-TM
+15	##며	O	O	O, B-OG, B-CV, B-QT, B-LC
+16	두산	B-OG	B-OG	B-OG, B-LC, O, B-PS, B-AF
+17	##이	O	O	O, I-OG, I-AF, B-PS, I-PS
+18	한발	O	B-QT	B-QT, O, B-TM, I-QT, B-CV
+19	앞서	O	O	O, I-QT, B-CV, B-TM, I-OG
+20	##갔	O	O	O, B-CV, I-QT, I-OG, B-TM
+21	##다	O	O	O, B-CV, B-TM, B-QT, I-OG
+22	.	O	O	O, B-CV, B-TM, B-PS, B-LC
+23	[SEP]	O	O	O, B-CV, B-TM, B-PS, I-EV

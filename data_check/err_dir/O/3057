@@ -1,0 +1,15 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
+1	창립	O	O	O, B-CV, B-EV, B-FD, B-OG
+2	기념	O	O	O, I-EV, I-OG, I-AF, B-PS
+3	횟수	O	O	O, I-OG, I-EV, B-PS, I-AF
+4	##만큼	O	O	O, B-CV, B-PS, B-TM, B-OG
+5	장학생	O	B-CV	B-CV, O, B-OG, I-CV, B-TM
+6	##을	O	O	O, I-CV, I-OG, B-CV, I-AF
+7	선발	O	O	O, B-CV, B-TM, B-OG, B-QT
+8	##하	O	O	O, B-PS, B-CV, B-OG, B-LC
+9	##는	O	O	O, B-CV, B-OG, B-PS, B-TM
+10	셈	O	O	O, B-CV, B-OG, B-TM, B-PS
+11	##이다	O	O	O, B-CV, I-OG, I-CV, I-EV
+12	.	O	O	O, B-CV, B-OG, B-PS, I-OG
+13	[SEP]	O	O	O, B-CV, I-OG, B-OG, I-AF

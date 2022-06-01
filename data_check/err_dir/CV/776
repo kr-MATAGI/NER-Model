@@ -1,0 +1,20 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-AF
+1	까다로운	O	O	O, B-CV, B-LC, B-OG, B-PS
+2	자체	O	O	O, B-CV, B-LC, B-OG, B-PS
+3	품질	O	O	O, B-CV, B-PS, B-OG, B-LC
+4	관리	O	O	O, B-CV, B-PS, I-CV, B-LC
+5	기준	O	O	O, B-CV, I-CV, B-PS, B-LC
+6	##인	O	O	O, I-CV, B-CV, B-PS, B-LC
+7	‘	O	O	O, B-CV, B-LC, B-PS, B-OG
+8	바리스타	B-CV	B-CV	B-CV, B-QT, O, B-TR, B-EV
+9	프리미엄	I-CV	O	O, I-TR, I-QT, B-TR, B-QT
+10	3	I-CV	B-QT	B-QT, I-QT, I-TR, O, B-TR
+11	법칙	I-CV	I-QT	I-QT, O, I-TR, I-CV, B-QT
+12	’	O	O	O, I-QT, I-CV, B-CV, I-TR
+13	도	O	O	O, B-CV, B-OG, B-LC, B-PS
+14	적용	O	O	O, B-CV, B-OG, B-LC, B-TM
+15	##했	O	O	O, B-CV, B-OG, B-LC, I-OG
+16	##다	O	O	O, B-CV, B-OG, B-LC, I-OG
+17	.	O	O	O, B-CV, B-LC, B-OG, B-PS
+18	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-PS

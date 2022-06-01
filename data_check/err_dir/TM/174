@@ -1,0 +1,27 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, B-CV, I-EV, I-CV
+1	고스	B-AF	B-AF	B-AF, B-OG, B-LC, O, B-PS
+2	##즈	I-AF	I-AF	I-AF, I-OG, I-LC, O, I-PS
+3	##메	I-AF	I-AF	I-AF, I-OG, I-LC, O, I-PS
+4	정수장	I-AF	I-AF	I-AF, I-OG, O, I-LC, B-AF
+5	##이	O	O	O, I-AF, I-OG, B-PS, I-LC
+6	여과	O	O	O, B-TM, B-LC, B-AF, B-MT
+7	##지	O	O	O, I-LC, I-AF, I-TM, I-CV
+8	위	O	O	O, B-TM, B-CV, B-MT, B-LC
+9	##에	O	O	O, B-TM, I-TM, B-CV, B-OG
+10	태양광	B-TM	B-TM	B-TM, O, B-TR, B-QT, B-CV
+11	패널	I-TM	O	O, I-TM, B-TM, B-MT, I-CV
+12	##을	O	O	O, I-TM, B-CV, I-CV, I-AF
+13	덮	O	O	O, B-CV, B-TM, B-LC, B-OG
+14	##게	O	O	O, B-CV, B-OG, B-LC, B-TM
+15	된	O	O	O, B-CV, B-TM, B-LC, B-QT
+16	것	O	O	O, B-CV, B-OG, B-LC, B-TM
+17	##은	O	O	O, B-CV, B-OG, B-LC, B-PS
+18	정수장	O	O	O, B-OG, B-AF, B-CV, B-LC
+19	직원	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-TM
+20	##의	O	O	O, I-CV, I-OG, I-EV, I-AF
+21	아이디어	O	O	O, B-CV, B-TM, B-QT, B-LC
+22	##였	O	O	O, B-PS, B-CV, I-EV, I-QT
+23	##다	O	O	O, B-CV, I-OG, B-LC, B-TM
+24	.	O	O	O, B-LC, B-CV, B-OG, B-TM
+25	[SEP]	O	O	O, B-CV, B-LC, B-TM, B-OG

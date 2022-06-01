@@ -1,0 +1,11 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-AF
+1	[	O	O	O, B-OG, B-LC, B-CV, B-PS
+2	한겨레	B-OG	B-OG	B-OG, B-LC, O, B-AF, B-PS
+3	]	O	O	O, I-OG, I-AF, I-DT, B-CV
+4	삐	B-PS	B-TM	B-TM, B-PS, B-OG, O, B-AF
+5	##삐	I-PS	I-TM	I-TM, I-PS, I-OG, O, I-AF
+6	##야	O	O	O, I-TM, I-OG, I-AF, I-PS
+7	미안	O	O	O, B-CV, B-TM, B-PS, B-OG
+8	##해	O	O	O, B-PS, I-AF, I-CV, I-PS
+9	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-PS

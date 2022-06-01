@@ -1,0 +1,16 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
+1	그리고	O	O	O, B-CV, B-OG, B-LC, B-PS
+2	예전	O	O	O, B-CV, B-PS, B-LC, B-TM
+3	##에	O	O	O, B-CV, B-PS, B-OG, I-CV
+4	그	O	O	O, B-CV, B-PS, B-LC, B-TM
+5	~	O	O	O, B-CV, I-CV, B-PS, B-LC
+6	이	O	O	O, B-PS, B-CV, B-QT, B-AM
+7	~	O	O	O, I-CV, B-CV, I-QT, I-LC
+8	궁금	B-AF	O	O, B-CV, B-LC, B-PS, B-TM
+9	##한	I-AF	O	O, B-PS, I-CV, I-AF, I-LC
+10	이야기	I-AF	O	O, B-PS, B-CV, I-AF, B-AM
+11	와이	I-AF	O	O, B-AM, B-CV, B-QT, B-TM
+12	인가요	O	O	O, I-CV, I-QT, I-AF, I-PS
+13	?	O	O	O, B-CV, I-QT, B-LC, B-OG
+14	[SEP]	O	O	O, B-CV, B-LC, B-FD, B-PS

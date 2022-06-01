@@ -1,0 +1,13 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
+1	월경	B-TM	O	O, B-TM, B-TR, I-TM, B-AM
+2	전	I-TM	O	O, I-TM, I-TR, I-CV, B-TM
+3	불쾌	I-TM	O	O, I-TM, B-TM, I-TR, I-QT
+4	##장	I-TM	I-TM	I-TM, O, B-TM, I-TR, I-CV
+5	##애	I-TM	I-TM	I-TM, O, B-TM, I-CV, I-TR
+6	##라는	O	O	O, I-TM, I-CV, I-OG, I-AF
+7	진단	O	O	O, B-TM, B-CV, B-TR, I-TM
+8	##이	O	O	O, B-PS, B-CV, I-CV, I-TM
+9	있	O	O	O, B-CV, B-OG, B-TM, B-PS
+10	##어요	O	O	O, B-CV, I-OG, I-AF, B-OG
+11	[SEP]	O	O	O, B-CV, B-TM, B-LC, B-OG

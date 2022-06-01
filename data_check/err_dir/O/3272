@@ -1,0 +1,19 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-AF
+1	[	O	O	O, B-OG, B-LC, B-CV, B-PS
+2	한겨레	B-OG	B-OG	B-OG, B-LC, B-AF, O, B-PS
+3	]	O	O	O, I-OG, I-AF, I-EV, B-CV
+4	수출	O	O	O, B-TM, B-LC, B-AF, B-CV
+5	·	O	O	O, I-AF, I-OG, I-TM, I-LC
+6	조선	O	B-AF	B-AF, O, B-LC, B-OG, B-MT
+7	부진	O	O	O, I-AF, I-OG, B-CV, I-TM
+8	4	B-DT	B-DT	B-DT, O, B-QT, I-DT, B-EV
+9	##월	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
+10	산업	O	O	O, I-DT, B-TM, B-FD, B-CV
+11	##생산	O	O	O, I-TM, I-FD, I-AF, I-EV
+12	-	B-QT	B-QT	B-QT, I-QT, O, B-DT, B-TI
+13	0	I-QT	I-QT	I-QT, B-QT, O, I-LC, I-PS
+14	.	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
+15	8	I-QT	I-QT	I-QT, B-QT, O, I-LC, I-PS
+16	%	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
+17	[SEP]	O	O	O, I-QT, B-LC, B-CV, B-OG

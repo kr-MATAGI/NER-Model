@@ -1,0 +1,16 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
+1	세계	O	O	O, B-CV, B-LC, B-OG, B-PS
+2	최고	O	O	O, B-CV, B-PS, B-LC, B-QT
+3	수준	O	O	O, B-PS, B-CV, B-LC, B-OG
+4	##의	O	O	O, B-PS, B-LC, B-OG, B-CV
+5	‘	O	O	O, B-CV, B-LC, B-OG, B-PS
+6	선박	B-AF	O	O, B-AF, B-CV, B-AM, B-TM
+7	##보	O	O	O, I-CV, I-AF, B-CV, I-TM
+8	##안	O	O	O, I-CV, I-TM, I-AF, I-TR
+9	법제	O	O	O, I-CV, B-CV, I-TR, I-TM
+10	##화	O	O	O, I-CV, I-TR, I-TM, I-FD
+11	’	O	O	O, I-CV, I-OG, B-PS, I-EV
+12	다	O	O	O, B-PS, B-LC, B-OG, B-CV
+13	.	O	O	O, B-CV, B-LC, B-PS, B-OG
+14	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG

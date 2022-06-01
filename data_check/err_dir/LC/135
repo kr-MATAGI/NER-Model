@@ -1,0 +1,24 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
+1	하이브리드	B-AF	B-AF	B-AF, O, B-TM, I-AF, B-LC
+2	고급	O	O	O, I-AF, B-AF, B-LC, B-CV
+3	승용차	B-AF	B-AF	B-AF, I-AF, O, B-OG, B-LC
+4	메이커	O	O	O, B-CV, B-OG, I-OG, I-AF
+5	##인	O	O	O, B-OG, I-OG, B-CV, I-CV
+6	피스	B-OG	B-OG	B-OG, O, I-OG, B-PS, B-LC
+7	##커	I-OG	I-OG	I-OG, O, I-LC, I-PS, I-AF
+8	##는	O	O	O, I-OG, I-AF, I-LC, I-CV
+9	최근	O	O	O, B-AF, B-LC, B-OG, B-DT
+10	팰	B-LC	B-AF	B-AF, B-OG, B-LC, O, B-TM
+11	##러	I-LC	I-AF	I-AF, I-OG, O, I-LC, I-TM
+12	##앨	I-LC	I-AF	I-AF, I-OG, O, I-LC, B-AF
+13	##토	I-LC	I-AF	I-AF, I-OG, O, I-LC, I-TM
+14	##에	O	O	O, I-AF, I-OG, I-LC, I-TM
+15	신규	O	O	O, B-LC, B-CV, B-OG, B-AF
+16	매장	O	O	O, B-CV, B-LC, B-OG, B-AF
+17	##을	O	O	O, B-OG, I-OG, B-CV, I-AF
+18	열	O	O	O, B-OG, B-LC, B-CV, B-AF
+19	##었	O	O	O, B-OG, B-LC, I-OG, B-CV
+20	##다	O	O	O, I-OG, B-OG, B-CV, B-LC
+21	.	O	O	O, B-OG, B-LC, B-AF, I-OG
+22	[SEP]	O	O	O, B-OG, I-OG, B-LC, B-AF

@@ -1,0 +1,27 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-EV, I-CV
+1	그러나	O	O	O, B-CV, B-TM, B-PS, B-OG
+2	이	O	O	O, B-PS, B-OG, B-CV, B-AF
+3	헌혈	O	O	O, B-TM, B-CV, B-TR, B-AM
+4	##용	O	O	O, I-TM, B-TM, I-AF, B-PS
+5	혈액	B-TM	B-TM	B-TM, O, B-TR, I-TM, B-MT
+6	##과	O	O	O, I-TM, B-PS, I-AF, B-CV
+7	팸	B-TM	B-PS	B-PS, O, B-LC, B-CV, B-EV
+8	##의	O	O	O, I-PS, I-EV, I-AF, I-LC
+9	감염	B-TM	O	O, B-TM, I-TM, B-CV, B-TR
+10	##과	O	O	O, I-TM, B-CV, I-CV, I-EV
+11	##의	O	O	O, B-LC, B-PS, B-OG, B-CV
+12	역학	O	O	O, B-FD, B-TM, B-TR, B-CV
+13	##적	O	O	O, I-TR, B-LC, B-PS, I-QT
+14	연관	O	O	O, B-TM, B-LC, B-CV, B-PS
+15	##성	O	O	O, B-LC, B-PS, I-LC, B-TM
+16	##은	O	O	O, B-CV, B-LC, B-OG, B-TM
+17	아직	O	O	O, B-TM, B-LC, B-CV, B-OG
+18	확인	O	O	O, B-TM, B-CV, B-LC, B-OG
+19	##되	O	O	O, B-LC, B-PS, I-LC, B-CV
+20	##지	O	O	O, B-LC, I-LC, I-DT, B-PS
+21	않	O	O	O, B-LC, I-LC, I-DT, B-PS
+22	##았	O	O	O, B-CV, B-LC, B-PS, I-EV
+23	##다	O	O	O, B-CV, B-TM, B-LC, I-EV
+24	.	O	O	O, B-LC, B-CV, B-PS, B-TM
+25	[SEP]	O	O	O, B-CV, B-LC, B-TM, B-PS

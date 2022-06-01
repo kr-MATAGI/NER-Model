@@ -1,0 +1,21 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, I-CV, I-EV, B-CV
+1	폐수	O	O	O, B-MT, B-TM, B-AF, B-LC
+2	##통	O	O	O, I-AF, I-TM, B-AF, B-TM
+3	##에	O	O	O, B-LC, I-AF, B-PS, B-CV
+4	빨리	O	O	O, B-LC, B-PS, B-TM, B-AF
+5	물	O	O	O, B-MT, B-LC, B-AF, B-PS
+6	섞	O	O	O, B-PS, B-LC, I-AF, B-CV
+7	##자	O	O	O, I-AF, B-PS, I-CV, B-CV
+8	.	O	O	O, B-LC, B-PS, B-CV, I-AF
+9	”	O	O	O, B-CV, B-LC, B-OG, B-TM
+10	(	O	O	O, B-LC, B-OG, B-CV, B-PS
+11	중구	B-LC	B-LC	B-LC, O, B-OG, B-AF, I-LC
+12	,	O	O	O, I-LC, B-LC, I-AF, I-OG
+13	종로구	B-LC	B-LC	B-LC, O, I-LC, B-OG, B-AF
+14	일대	O	O	O, I-LC, B-LC, I-AF, I-DT
+15	염색	O	O	O, B-CV, B-TM, B-FD, B-MT
+16	##업체	O	O	O, I-CV, B-CV, I-OG, I-TM
+17	업주	O	B-CV	B-CV, O, I-CV, B-OG, B-FD
+18	)	O	O	O, I-CV, I-OG, B-CV, B-PS
+19	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-AF

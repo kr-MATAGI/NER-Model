@@ -1,0 +1,20 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
+1	문제	O	O	O, B-CV, B-TM, B-LC, B-AF
+2	##의	O	O	O, B-LC, I-AF, B-PS, B-OG
+3	광구	O	O	O, B-LC, B-TM, B-CV, B-AF
+4	##는	O	O	O, B-LC, I-AF, I-LC, B-CV
+5	나이지리아	B-LC	B-LC	B-LC, B-OG, O, B-AF, B-PS
+6	심해	O	O	O, I-LC, B-LC, I-AF, I-OG
+7	##의	O	O	O, B-LC, I-LC, I-AF, I-OG
+8	OP	B-LC	B-LC	B-LC, B-TM, O, B-QT, B-AF
+9	##L	I-LC	I-LC	I-LC, O, I-TM, I-QT, I-AF
+10	##32	I-LC	I-LC	I-LC, I-TM, I-QT, O, I-AF
+11	##1	I-LC	I-LC	I-LC, I-QT, I-TM, O, I-AF
+12	,	O	O	O, I-LC, I-QT, I-TM, I-AF
+13	32	B-LC	B-QT	B-QT, I-QT, I-LC, O, I-TM
+14	##3	I-LC	I-QT	I-QT, I-LC, O, I-TM, I-AF
+15	광구	I-LC	O	O, I-QT, I-LC, I-TM, I-AF
+16	##다	O	O	O, I-QT, I-LC, I-AF, I-TM
+17	.	O	O	O, B-LC, B-CV, B-AF, B-TM
+18	[SEP]	O	O	O, B-LC, B-CV, B-TM, B-AF

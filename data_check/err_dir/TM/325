@@ -1,0 +1,27 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-TM
+1	임신	O	O	O, B-TM, B-TR, I-TM, B-CV
+2	중	O	O	O, I-TM, B-TM, I-TR, I-LC
+3	##에	O	O	O, I-TM, B-TM, B-CV, B-PS
+4	엽	B-MT	B-MT	B-MT, O, B-TM, B-CV, I-MT
+5	##산	I-MT	I-MT	I-MT, I-TM, O, B-MT, I-PT
+6	##이	O	O	O, I-TM, I-MT, B-PS, I-AF
+7	부족	O	O	O, B-TM, B-CV, I-TM, B-LC
+8	##하면	O	O	O, I-TM, B-TM, B-LC, I-LC
+9	피곤	B-TM	O	O, B-TM, I-TM, B-CV, B-LC
+10	,	O	O	O, I-TM, B-TM, B-LC, I-CV
+11	무기력	B-TM	O	O, B-TM, I-TM, B-CV, B-LC
+12	,	O	O	O, I-TM, B-TM, B-CV, B-LC
+13	신경	B-TM	B-TM	B-TM, O, I-TM, B-CV, B-TR
+14	##과	I-TM	I-TM	I-TM, O, B-TM, I-MT, I-QT
+15	##민	I-TM	I-TM	I-TM, O, I-MT, B-TM, I-QT
+16	등	O	O	O, I-TM, B-TM, I-OG, I-QT
+17	##의	O	O	O, B-TM, B-CV, B-LC, B-PS
+18	증상	O	O	O, B-TM, B-CV, B-LC, I-TM
+19	##이	O	O	O, B-PS, B-CV, B-LC, B-OG
+20	나타날	O	O	O, B-TM, B-CV, B-LC, B-OG
+21	수	O	O	O, B-TM, B-LC, B-CV, B-OG
+22	있	O	O	O, B-TM, B-CV, I-TM, I-OG
+23	##다	O	O	O, B-CV, B-TM, B-LC, I-TM
+24	.	O	O	O, B-TM, B-LC, I-TM, B-CV
+25	[SEP]	O	O	O, B-TM, I-TM, B-CV, B-LC

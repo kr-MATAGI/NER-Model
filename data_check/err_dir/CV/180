@@ -1,0 +1,25 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
+1	민	B-OG	B-OG	B-OG, O, B-AF, B-PS, I-OG
+2	##평	I-OG	I-OG	I-OG, O, I-AF, I-LC, I-EV
+3	##련	I-OG	I-OG	I-OG, O, I-AF, I-LC, I-EV
+4	##은	O	O	O, I-OG, B-CV, I-AF, I-CV
+5	고	O	O	O, B-CV, B-PS, B-LC, B-QT
+6	김근	B-PS	B-PS	B-PS, O, I-PS, B-OG, B-LC
+7	##태	I-PS	I-PS	I-PS, O, I-OG, I-LC, B-PS
+8	상임	B-CV	B-CV	B-CV, O, B-TM, I-CV, I-PS
+9	##고	I-CV	I-CV	I-CV, O, B-CV, I-TM, I-PS
+10	##문	I-CV	I-CV	I-CV, O, B-CV, I-TM, I-QT
+11	##을	O	O	O, I-CV, B-CV, B-PS, I-EV
+12	지지	O	O	O, B-CV, B-PS, B-TM, B-OG
+13	##하	O	O	O, B-PS, B-LC, B-CV, B-OG
+14	##던	O	O	O, B-CV, B-PS, B-LC, B-OG
+15	정치	O	O	O, B-CV, B-PS, B-LC, B-FD
+16	##권	O	O	O, I-CV, B-PS, B-CV, I-OG
+17	인사	B-CV	O	O, B-CV, I-CV, B-PS, B-QT
+18	##들	O	O	O, I-CV, B-PS, I-OG, B-CV
+19	##의	O	O	O, B-PS, B-CV, B-OG, B-LC
+20	모임	O	O	O, B-OG, B-CV, B-PS, I-OG
+21	##이다	O	O	O, B-CV, I-OG, B-OG, B-PS
+22	.	O	O	O, B-PS, B-CV, B-OG, B-LC
+23	[SEP]	O	O	O, B-CV, B-PS, B-OG, B-LC

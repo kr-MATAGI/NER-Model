@@ -1,0 +1,20 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-EV, I-CV
+1	청와대	B-AF	B-OG	B-OG, B-AF, O, B-LC, B-PS
+2	##가	O	O	O, I-OG, I-AF, I-EV, B-CV
+3	이	O	O	O, B-CV, B-PS, B-OG, B-TM
+4	문제	O	O	O, B-CV, I-EV, B-PS, B-TM
+5	##를	O	O	O, B-CV, I-EV, B-PS, B-OG
+6	제대로	O	O	O, B-CV, B-LC, B-TM, B-QT
+7	검증	O	O	O, B-CV, B-LC, B-EV, B-TM
+8	##하	O	O	O, B-LC, B-CV, B-PS, I-EV
+9	##지	O	O	O, B-CV, B-LC, I-EV, B-TM
+10	않	O	O	O, B-CV, B-LC, B-TM, I-EV
+11	##은	O	O	O, B-CV, B-LC, B-PS, B-OG
+12	사실	O	O	O, B-CV, B-TM, B-LC, B-PS
+13	##도	O	O	O, B-CV, B-PS, B-LC, I-CV
+14	이날	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-CV
+15	드러났	O	O	O, I-DT, I-QT, B-CV, I-EV
+16	##다	O	O	O, B-CV, I-EV, I-OG, B-TM
+17	.	O	O	O, B-CV, B-LC, B-PS, B-OG
+18	[SEP]	O	O	O, B-CV, B-LC, I-EV, B-OG

@@ -1,0 +1,20 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-EV, I-OG, I-CV
+1	그리고	O	O	O, B-CV, B-QT, B-PS, B-LC
+2	또	O	O	O, B-QT, B-CV, B-PS, B-DT
+3	한가	B-QT	B-QT	B-QT, O, I-QT, B-EV, B-DT
+4	##지	I-QT	I-QT	I-QT, O, I-EV, I-DT, I-LC
+5	##는	O	O	O, I-QT, I-EV, B-LC, I-DT
+6	대구	B-LC	B-LC	B-LC, O, B-OG, B-EV, B-PS
+7	##에	O	O	O, I-LC, I-EV, I-AF, I-OG
+8	있	O	O	O, B-CV, B-LC, B-PS, B-OG
+9	##는	O	O	O, B-LC, B-PS, B-CV, B-OG
+10	또	O	O	O, B-EV, B-CV, B-LC, B-PS
+11	주부	B-EV	B-CV	B-CV, B-EV, O, I-EV, B-AF
+12	살인	I-EV	I-EV	I-EV, O, B-CV, I-CV, B-EV
+13	##사건	I-EV	O	O, I-EV, I-CV, B-CV, B-EV
+14	있	O	O	O, I-EV, I-CV, I-OG, I-AF
+15	##는데	O	O	O, B-CV, B-LC, B-OG, I-EV
+16	##요	O	O	O, B-CV, B-LC, B-OG, B-EV
+17	.	O	O	O, B-CV, B-LC, I-EV, B-PS
+18	[SEP]	O	O	O, B-CV, B-LC, I-EV, B-EV

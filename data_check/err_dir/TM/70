@@ -1,0 +1,19 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-EV, I-OG, B-CV, I-CV
+1	이튿날	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
+2	콘서트	O	O	O, I-EV, B-EV, I-DT, B-CV
+3	##가	O	O	O, I-EV, B-PS, B-LC, B-CV
+4	시작	O	O	O, B-CV, B-OG, B-LC, I-EV
+5	##되	O	O	O, B-PS, I-AF, B-CV, I-OG
+6	##자	O	O	O, B-PS, B-CV, B-LC, I-OG
+7	무대	O	O	O, B-CV, B-TM, B-LC, I-EV
+8	아래	B-TM	O	O, B-TM, B-CV, B-LC, B-TR
+9	청중	B-CV	B-CV	B-CV, O, I-CV, B-TM, I-TM
+10	##의	O	O	O, I-CV, B-CV, I-AF, I-OG
+11	얼굴	B-AM	B-AM	B-AM, O, B-TR, B-TM, B-PS
+12	##이	O	O	O, B-PS, I-AF, I-CV, I-PS
+13	어렴풋이	O	O	O, B-TM, B-QT, B-LC, B-CV
+14	보였	O	O	O, B-CV, B-TM, B-LC, I-TM
+15	##다	O	O	O, B-CV, B-LC, I-OG, I-EV
+16	.	O	O	O, B-LC, B-CV, B-PS, B-OG
+17	[SEP]	O	O	O, B-CV, B-LC, B-PS, I-EV

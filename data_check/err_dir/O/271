@@ -1,0 +1,24 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
+1	실제	O	O	O, B-CV, B-FD, B-OG, B-LC
+2	역사	O	O	O, B-FD, B-CV, B-OG, B-AF
+3	속	O	O	O, B-CV, B-LC, B-FD, B-PS
+4	양	B-AM	O	O, B-DT, B-LC, B-PS, B-AM
+5	##의	O	O	O, I-DT, I-LC, I-AM, I-PS
+6	해	O	O	O, I-LC, I-DT, I-QT, B-LC
+7	출생	O	O	O, B-CV, I-CV, I-LC, I-DT
+8	##자	O	O	O, I-CV, I-LC, I-DT, I-QT
+9	##들	O	O	O, I-CV, I-AF, I-OG, I-QT
+10	##은	O	O	O, B-CV, B-LC, B-PS, B-TM
+11	천재	O	O	O, B-CV, B-PS, B-FD, I-CV
+12	##나	O	O	O, I-CV, B-PS, I-AF, I-OG
+13	예술가	B-CV	B-CV	B-CV, O, I-CV, B-FD, B-TM
+14	,	O	O	O, I-CV, B-CV, I-OG, I-AF
+15	혁신	O	B-CV	B-CV, O, I-CV, B-TM, B-PS
+16	##가	O	I-CV	I-CV, O, B-CV, I-TM, I-QT
+17	##가	O	O	O, I-CV, B-PS, B-CV, I-OG
+18	많	O	O	O, B-CV, B-OG, B-TM, I-CV
+19	##았	O	O	O, B-CV, I-CV, B-OG, I-OG
+20	##다	O	O	O, B-CV, I-OG, I-CV, I-AF
+21	.	O	O	O, B-CV, B-LC, B-PS, I-CV
+22	[SEP]	O	O	O, B-CV, I-CV, I-AF, B-FD

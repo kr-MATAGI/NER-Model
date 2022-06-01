@@ -1,0 +1,11 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-AF
+1	근데	O	O	O, B-CV, B-OG, B-TM, B-LC
+2	우리	O	O	O, B-CV, B-OG, B-AF, B-PS
+3	##는	O	O	O, B-CV, I-OG, I-AF, I-CV
+4	되게	O	O	O, B-CV, B-QT, B-OG, B-LC
+5	한	O	B-QT	B-QT, O, I-QT, B-PS, B-TM
+6	번	O	I-QT	I-QT, O, B-QT, I-LC, I-TM
+7	당했	O	O	O, I-QT, B-CV, I-OG, B-OG
+8	##고	O	O	O, B-CV, I-OG, I-QT, B-OG
+9	[SEP]	O	O	O, B-CV, B-OG, B-LC, I-OG

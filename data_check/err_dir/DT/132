@@ -1,0 +1,22 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-CV, I-OG, B-CV, I-AF
+1	칠월	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
+2	팔월	B-DT	I-DT	I-DT, B-DT, O, I-QT, B-CV
+3	두	B-DT	B-DT	B-DT, I-DT, O, B-QT, B-EV
+4	달	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
+5	동안	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
+6	##은	O	O	O, I-DT, B-CV, B-LC, B-OG
+7	우리나라	O	O	O, B-LC, B-OG, B-FD, B-CV
+8	##의	O	O	O, I-OG, I-AF, B-LC, B-PS
+9	신문	O	O	O, B-OG, B-FD, B-AF, B-TM
+10	##에	O	O	O, I-AF, B-CV, I-OG, B-PS
+11	탑	O	O	O, B-CV, B-AF, B-QT, B-PS
+12	기사	O	O	O, B-CV, I-CV, I-AF, B-QT
+13	##가	O	O	O, I-CV, I-AF, B-PS, I-QT
+14	일본	B-FD	B-LC	B-LC, B-AF, B-OG, O, B-FD
+15	역사	I-FD	B-FD	B-FD, O, I-FD, B-AF, I-AF
+16	교과서	O	O	O, I-AF, I-OG, I-FD, B-FD
+17	문제	O	O	O, B-CV, I-AF, B-FD, I-EV
+18	##였	O	O	O, I-AF, B-CV, I-CV, I-EV
+19	##어요	O	O	O, B-CV, B-LC, B-OG, I-AF
+20	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-AF

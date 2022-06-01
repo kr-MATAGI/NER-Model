@@ -1,0 +1,8 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, I-CV, I-AF, B-CV
+1	오늘	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-CV
+2	하루	B-DT	O	O, B-DT, I-DT, B-TI, B-QT
+3	안	O	O	O, I-DT, I-QT, B-CV, I-EV
+4	가져왔	O	O	O, B-CV, B-OG, B-PS, B-LC
+5	##으면	O	O	O, I-OG, I-TM, I-AF, I-CV
+6	[SEP]	O	O	O, B-CV, I-OG, B-LC, I-AF

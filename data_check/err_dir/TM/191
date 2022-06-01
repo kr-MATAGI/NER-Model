@@ -1,0 +1,27 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, B-CV, I-AF, I-CV
+1	전기	B-TM	O	O, B-TM, B-CV, B-AF, B-MT
+2	##난로	I-TM	O	O, I-TM, I-CV, I-AF, I-MT
+3	·	O	O	O, I-TM, I-CV, I-AF, I-OG
+4	전기	B-TM	B-TM	B-TM, O, B-CV, B-AF, B-MT
+5	##장	I-TM	I-TM	I-TM, O, I-CV, I-AF, B-TM
+6	##판	I-TM	I-TM	I-TM, O, I-CV, I-AF, I-MT
+7	·	O	O	O, I-TM, I-AF, I-CV, I-OG
+8	온	B-TM	B-TM	B-TM, O, B-AF, B-CV, I-TM
+9	##풍	I-TM	I-TM	I-TM, O, I-CV, I-AF, B-TM
+10	##기	I-TM	I-TM	I-TM, O, I-CV, I-AF, I-OG
+11	등	O	O	O, I-TM, B-TM, I-AF, B-LC
+12	전열	B-TM	B-TM	B-TM, O, B-AF, B-CV, I-TM
+13	##기	I-TM	I-TM	I-TM, O, I-AF, I-CV, I-OG
+14	사용	O	O	O, I-TM, B-CV, I-OG, I-AF
+15	##이	O	O	O, B-PS, B-OG, B-CV, B-LC
+16	늘어나	O	O	O, B-CV, B-LC, B-PS, B-TM
+17	##면서	O	O	O, B-LC, B-TM, B-CV, B-PS
+18	전기	O	O	O, B-FD, B-TM, B-TR, B-CV
+19	사고	O	O	O, I-TM, I-FD, I-AF, I-OG
+20	##도	O	O	O, B-PS, I-AF, B-LC, I-OG
+21	증가	O	O	O, B-TM, B-CV, B-QT, B-OG
+22	추세	O	O	O, B-TM, B-QT, B-CV, B-LC
+23	##다	O	O	O, B-CV, B-TM, I-OG, I-QT
+24	.	O	O	O, B-TM, B-LC, B-AF, B-OG
+25	[SEP]	O	O	O, B-TM, B-CV, B-LC, B-AF

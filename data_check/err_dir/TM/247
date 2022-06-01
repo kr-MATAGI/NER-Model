@@ -1,0 +1,22 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
+1	원	B-TM	O	O, B-TM, B-CV, B-AM, B-QT
+2	##투	I-TM	O	O, I-TM, B-TM, I-AF, I-CV
+3	펀치	I-TM	O	O, I-TM, B-TM, B-AM, B-AF
+4	내고	O	O	O, I-TM, I-AF, I-CV, I-QT
+5	##도	O	O	O, B-CV, B-TM, B-PS, I-QT
+6	2	B-QT	B-QT	B-QT, O, I-QT, B-EV, B-TM
+7	##연	I-QT	I-QT	I-QT, O, B-QT, I-TM, I-EV
+8	##패	I-QT	I-QT	I-QT, O, I-LC, I-TM, B-QT
+9	…	O	O	O, I-QT, I-OG, I-AF, I-EV
+10	위기	O	O	O, B-CV, B-TM, B-OG, B-QT
+11	##의	O	O	O, B-PS, I-AF, B-LC, B-OG
+12	다저스	B-OG	B-OG	B-OG, O, B-LC, B-AF, B-PS
+13	,	O	O	O, I-OG, I-AF, B-CV, I-CV
+14	R	B-PS	B-PS	B-PS, B-OG, O, B-LC, B-CV
+15	##y	I-PS	I-PS	I-PS, I-OG, O, I-LC, I-CV
+16	##u	I-PS	I-PS	I-PS, I-OG, O, I-LC, I-CV
+17	##가	O	O	O, I-PS, I-OG, I-AF, I-CV
+18	구할	O	O	O, B-CV, B-TM, B-OG, B-LC
+19	##까	O	O	O, B-PS, B-OG, B-CV, B-LC
+20	[SEP]	O	O	O, B-CV, B-TM, B-PS, B-LC

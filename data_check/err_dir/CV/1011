@@ -1,0 +1,26 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-AF
+1	은행	O	O	O, B-LC, B-CV, B-TM, B-FD
+2	##권	O	O	O, I-LC, I-CV, I-OG, I-AF
+3	예금	O	O	O, B-CV, I-CV, I-AF, B-AF
+4	상품	O	O	O, I-CV, I-AF, B-CV, I-OG
+5	중	O	O	O, B-CV, B-LC, B-PS, B-TM
+6	##에서	O	O	O, B-CV, B-PS, B-LC, B-OG
+7	복리	O	O	O, B-PS, B-CV, B-TR, B-AM
+8	##식	O	O	O, I-CV, I-PS, I-TR, I-AF
+9	##의	O	O	O, I-PS, I-CV, B-PS, I-AF
+10	대표	B-CV	O	O, B-CV, B-PS, B-LC, B-QT
+11	##격	O	O	O, I-CV, B-PS, I-PS, I-LC
+12	##은	O	O	O, B-CV, B-LC, B-PS, B-OG
+13	신한은행	B-OG	B-OG	B-OG, B-AF, O, B-PS, B-LC
+14	##의	O	O	O, I-OG, I-AF, I-EV, I-CV
+15	‘	O	O	O, B-CV, B-LC, B-OG, B-AF
+16	신한	O	B-AF	B-AF, B-OG, B-CV, O, B-PS
+17	월	O	I-AF	I-AF, B-AF, O, B-CV, I-CV
+18	##복	O	I-AF	I-AF, I-CV, O, I-OG, I-TM
+19	##리	O	I-AF	I-AF, I-CV, O, I-TM, I-OG
+20	정기예금	O	I-AF	I-AF, O, I-CV, I-TM, I-OG
+21	’	O	O	O, I-AF, I-CV, I-OG, I-TM
+22	이다	O	O	O, I-AF, B-CV, B-OG, B-LC
+23	.	O	O	O, B-LC, B-CV, B-AF, I-AF
+24	[SEP]	O	O	O, B-CV, B-LC, I-AF, B-AF

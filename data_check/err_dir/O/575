@@ -1,0 +1,27 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
+1	주	O	B-CV	B-CV, O, I-CV, B-DT, B-AF
+2	5	B-CV	I-CV	I-CV, B-CV, O, I-DT, I-AF
+3	##일	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-DT
+4	수업	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-TM
+5	##제	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-TM
+6	,	O	O	O, I-CV, I-OG, I-AF, I-QT
+7	재량	O	O	O, B-CV, B-DT, I-CV, B-OG
+8	##휴일	O	O	O, I-CV, B-CV, I-DT, I-OG
+9	등	O	O	O, I-CV, I-OG, I-AF, B-PS
+10	##으로	O	O	O, B-CV, B-OG, B-PS, B-LC
+11	연간	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-CV
+12	수업	O	O	O, I-DT, B-CV, B-LC, I-QT
+13	##일	O	O	O, B-LC, B-DT, B-CV, B-QT
+14	##수	O	O	O, B-PS, I-DT, B-LC, B-DT
+15	가운데	O	O	O, B-TM, B-QT, B-LC, B-OG
+16	15	B-DT	B-DT	B-DT, I-DT, O, B-QT, B-LC
+17	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-TI
+18	정도	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-CV
+19	##가	O	O	O, I-DT, B-PS, B-CV, B-OG
+20	이미	O	O	O, B-TM, B-OG, B-QT, B-LC
+21	줄어든	O	O	O, B-CV, B-TM, B-OG, B-QT
+22	상태	O	O	O, B-CV, B-TM, I-OG, B-OG
+23	##다	O	O	O, B-CV, I-OG, B-TM, B-OG
+24	.	O	O	O, B-LC, B-OG, I-OG, B-CV
+25	[SEP]	O	O	O, B-LC, B-CV, I-OG, B-OG

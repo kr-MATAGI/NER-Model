@@ -1,0 +1,14 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
+1	아동	O	O	O, B-CV, B-TM, B-AF, B-MT
+2	##음	O	O	O, I-CV, I-AF, B-CV, I-TM
+3	##란	O	O	O, I-CV, I-AF, I-TM, I-MT
+4	##물	O	O	O, I-CV, I-AF, I-TM, I-MT
+5	단순	O	O	O, I-CV, B-CV, I-AF, B-PS
+6	소지	O	O	O, B-CV, I-CV, B-AM, B-PS
+7	성범죄	O	B-CV	B-CV, O, I-CV, B-FD, B-TM
+8	전력	O	O	O, B-CV, I-CV, B-PS, B-QT
+9	##자	O	O	O, I-CV, B-CV, I-QT, I-TM
+10	첫	O	O	O, I-CV, B-QT, B-CV, B-PS
+11	기소	O	O	O, B-CV, I-CV, B-OG, B-TM
+12	[SEP]	O	O	O, I-CV, B-CV, B-TM, I-OG

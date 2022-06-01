@@ -1,0 +1,25 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
+1	내	O	O	O, B-CV, B-PS, B-LC, B-OG
+2	##가	O	O	O, B-PS, B-CV, B-LC, B-OG
+3	대통령	B-CV	B-CV	B-CV, O, B-OG, I-CV, B-EV
+4	##이	O	O	O, I-CV, B-PS, B-CV, I-EV
+5	되	O	O	O, B-CV, B-PS, B-LC, B-QT
+6	##고	O	O	O, B-PS, B-LC, B-OG, B-CV
+7	당신	O	O	O, B-CV, B-PS, B-LC, B-OG
+8	##은	O	O	O, B-PS, B-CV, B-LC, I-CV
+9	개헌	O	O	O, B-CV, B-EV, B-LC, B-TR
+10	##을	O	O	O, B-PS, I-EV, I-CV, I-OG
+11	한	O	O	O, B-LC, B-PS, B-OG, B-CV
+12	다음	O	O	O, B-PS, B-CV, B-LC, I-EV
+13	##에	O	O	O, B-PS, B-CV, B-OG, B-LC
+14	총리	B-CV	B-CV	B-CV, O, B-OG, I-CV, B-AF
+15	##를	O	O	O, I-CV, I-EV, I-OG, I-AF
+16	하시	O	O	O, B-CV, B-PS, B-LC, B-OG
+17	##오	O	O	O, B-PS, B-CV, B-LC, I-CV
+18	.	O	O	O, B-PS, B-LC, I-OG, I-AF
+19	의원	B-CV	B-CV	B-CV, O, B-PS, B-TM, I-CV
+20	##내	I-CV	O	O, I-CV, B-CV, B-QT, B-PS
+21	##각	I-CV	O	O, I-CV, I-QT, I-TR, I-TM
+22	.	O	O	O, B-PS, I-CV, B-LC, I-QT
+23	[SEP]	O	O	O, B-CV, B-PS, B-LC, B-OG

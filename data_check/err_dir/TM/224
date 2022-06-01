@@ -1,0 +1,14 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
+1	저소득층	O	O	O, B-CV, B-TM, B-OG, B-TR
+2	소녀	O	O	O, B-CV, I-CV, B-PS, I-TM
+3	##들이	O	O	O, I-CV, B-CV, B-PS, I-AF
+4	겪	O	O	O, B-CV, B-PS, B-TM, B-LC
+5	##어	O	O	O, B-CV, B-LC, B-PS, B-TM
+6	##온	O	O	O, B-LC, B-CV, B-PS, B-TM
+7	생리	B-TM	O	O, B-TM, I-TM, B-TR, B-CV
+8	##기	O	O	O, I-TM, I-CV, I-TR, B-CV
+9	##간	O	O	O, I-TM, I-CV, I-TR, B-CV
+10	##의	O	O	O, I-CV, B-PS, I-TM, B-LC
+11	빈곤	O	O	O, B-CV, B-TM, B-LC, B-PS
+12	[SEP]	O	O	O, B-CV, I-CV, I-TM, B-LC

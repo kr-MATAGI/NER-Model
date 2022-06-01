@@ -1,0 +1,16 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-AF
+1	막걸리	B-CV	B-CV	B-CV, O, B-PT, B-AF, B-OG
+2	##가	O	O	O, I-CV, I-OG, I-AF, B-CV
+3	이달	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-OG
+4	중	O	I-DT	I-DT, O, B-DT, I-QT, I-TI
+5	중소기업	O	O	O, B-OG, B-TM, B-LC, B-CV
+6	적합	O	O	O, I-OG, B-OG, B-TM, B-LC
+7	##업	O	O	O, I-OG, B-CV, B-TM, B-LC
+8	##종	O	O	O, I-OG, B-OG, B-LC, B-TM
+9	##에서	O	O	O, B-CV, B-LC, B-TM, B-OG
+10	제외	O	O	O, B-TM, B-CV, B-OG, B-QT
+11	##된	O	O	O, I-OG, B-LC, I-CV, B-PS
+12	##다	O	O	O, I-OG, B-CV, B-LC, B-OG
+13	.	O	O	O, B-LC, B-OG, I-OG, B-CV
+14	[SEP]	O	O	O, I-OG, B-LC, B-CV, B-OG

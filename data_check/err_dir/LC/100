@@ -1,0 +1,9 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-AF
+1	맥도날드	B-OG	B-OG	B-OG, B-AF, O, B-LC, B-TM
+2	반대편	O	O	O, B-TM, I-TM, B-CV, I-OG
+3	##은	O	O	O, I-TM, I-AF, I-OG, I-CV
+4	연신	B-LC	B-CV	B-CV, B-LC, O, B-AF, B-MT
+5	##내	I-LC	I-LC	I-LC, I-CV, I-AF, I-OG, I-TM
+6	아니야	O	O	O, I-AF, I-OG, I-CV, I-TM
+7	[SEP]	O	O	O, B-CV, B-TM, I-AF, I-OG

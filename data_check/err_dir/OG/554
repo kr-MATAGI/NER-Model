@@ -1,0 +1,27 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-CV, I-OG, B-CV, I-EV
+1	그러나	O	O	O, B-OG, B-CV, B-LC, B-PS
+2	박근혜	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
+3	당선인	B-CV	B-CV	B-CV, O, I-PS, B-OG, I-CV
+4	##은	O	O	O, I-CV, I-EV, I-OG, B-CV
+5	인수위	B-OG	B-OG	B-OG, O, B-EV, B-AF, I-OG
+6	법질서	B-OG	O	O, B-OG, I-OG, B-FD, B-EV
+7	·	I-OG	O	O, I-OG, I-EV, I-FD, I-CV
+8	사회	I-OG	O	O, I-OG, I-FD, I-EV, B-OG
+9	##안전	I-OG	O	O, I-OG, I-FD, I-EV, I-LC
+10	##분	I-OG	O	O, I-OG, I-FD, I-EV, I-LC
+11	##과	I-OG	O	O, I-OG, I-EV, I-FD, B-OG
+12	국정	O	O	O, B-EV, I-EV, B-CV, B-FD
+13	##과	O	O	O, I-EV, I-OG, I-FD, I-TM
+14	##제	O	O	O, I-EV, I-OG, I-FD, I-LC
+15	토론회	O	O	O, I-EV, B-EV, I-OG, B-LC
+16	##에서	O	O	O, I-EV, I-OG, I-DT, B-CV
+17	“	O	O	O, B-CV, B-LC, I-EV, B-OG
+18	법	O	O	O, B-CV, B-PS, B-FD, B-LC
+19	적용	O	O	O, B-CV, I-CV, B-LC, B-PS
+20	##이	O	O	O, B-PS, B-LC, B-OG, B-CV
+21	공정	O	O	O, B-CV, B-PS, B-OG, B-LC
+22	##해야	O	O	O, I-PS, B-PS, I-OG, B-LC
+23	한다	O	O	O, B-CV, I-OG, B-LC, B-OG
+24	.	O	O	O, B-LC, B-OG, B-CV, B-PS
+25	[SEP]	O	O	O, B-CV, B-LC, B-OG, I-EV

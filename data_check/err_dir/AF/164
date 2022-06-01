@@ -1,0 +1,16 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
+1	알바	B-CV	B-CV	B-CV, O, I-CV, B-AF, B-TM
+2	##생	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-TM
+3	##들	O	O	O, I-CV, I-AF, I-OG, I-QT
+4	!	O	O	O, B-CV, B-PS, B-LC, B-AF
+5	아직	O	O	O, B-CV, B-TM, B-PS, B-LC
+6	##도	O	O	O, B-PS, I-AF, B-LC, I-LC
+7	‘	O	O	O, B-CV, B-LC, B-PS, B-AF
+8	알바	B-AF	O	O, B-CV, B-AF, B-PS, B-TM
+9	##수	I-AF	O	O, I-AF, B-AF, B-CV, I-CV
+10	##첩	I-AF	O	O, I-AF, I-CV, I-PS, B-AF
+11	’	O	O	O, I-AF, I-CV, B-CV, B-LC
+12	몰라요	O	O	O, B-CV, B-LC, B-TM, I-AF
+13	?	O	O	O, I-AF, B-CV, B-LC, B-PS
+14	[SEP]	O	O	O, B-CV, B-LC, B-AF, I-AF

@@ -1,0 +1,11 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
+1	외부	O	O	O, B-CV, B-TM, B-EV, B-LC
+2	전문가	B-CV	B-CV	B-CV, I-CV, O, I-QT, B-QT
+3	등	O	O	O, I-CV, B-CV, I-OG, I-QT
+4	선정	O	O	O, B-CV, B-PS, B-OG, B-LC
+5	##단	O	O	O, B-CV, I-CV, B-PS, B-OG
+6	##서	O	O	O, B-CV, I-CV, B-LC, B-PS
+7	대상	B-CV	O	O, B-CV, I-CV, B-TM, B-EV
+8	선정	O	O	O, I-CV, B-CV, I-EV, I-OG
+9	[SEP]	O	O	O, B-CV, I-CV, B-LC, B-TM

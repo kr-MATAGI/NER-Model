@@ -1,0 +1,13 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-EV, I-CV
+1	우리투자증권	B-OG	B-OG	B-OG, O, B-AF, B-LC, B-PS
+2	,	O	O	O, I-OG, I-AF, B-CV, I-EV
+3	1000	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-EV
+4	##억	I-QT	I-QT	I-QT, O, I-DT, I-LC, I-OG
+5	##원	I-QT	I-QT	I-QT, O, I-LC, I-PS, I-OG
+6	규모	O	O	O, I-QT, B-TM, B-CV, I-OG
+7	ELS	B-CV	B-AF	B-AF, O, B-TM, B-CV, B-MT
+8	5	B-QT	B-QT	B-QT, I-AF, I-QT, I-TM, O
+9	##종	I-QT	I-QT	I-QT, I-AF, O, I-TM, I-LC
+10	공모	O	O	O, I-QT, B-TM, I-AF, I-TM
+11	[SEP]	O	O	O, B-CV, B-OG, B-LC, B-TM

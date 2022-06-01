@@ -1,0 +1,21 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
+1	1993	B-DT	B-DT	B-DT, O, B-QT, I-DT, B-EV
+2	##년	I-DT	I-DT	I-DT, O, I-QT, B-DT, I-PS
+3	베를린	B-LC	B-OG	B-OG, B-AF, B-LC, B-EV, B-PS
+4	국립	B-OG	I-AF	I-AF, I-OG, I-EV, B-AF, O
+5	##오	I-OG	I-AF	I-AF, I-OG, I-EV, O, I-LC
+6	##페	I-OG	I-AF	I-AF, I-OG, I-EV, O, I-LC
+7	##라	I-OG	I-AF	I-AF, I-OG, I-EV, O, I-LC
+8	##극장	I-OG	I-AF	I-AF, I-OG, I-EV, O, I-LC
+9	##에	O	O	O, I-AF, I-OG, I-EV, I-QT
+10	입단	O	O	O, B-CV, B-PS, B-LC, B-OG
+11	##해	O	O	O, B-PS, B-LC, I-CV, B-CV
+12	단	O	O	O, B-CV, B-LC, B-PS, B-AM
+13	##역	O	O	O, I-CV, I-LC, I-PS, I-AM
+14	##부터	O	O	O, I-CV, I-PS, I-LC, I-DT
+15	시작	O	O	O, B-CV, I-CV, B-OG, B-PS
+16	##했	O	O	O, B-CV, B-OG, B-PS, B-LC
+17	##다	O	O	O, B-CV, I-OG, B-OG, B-LC
+18	.	O	O	O, B-CV, B-PS, B-OG, B-LC
+19	[SEP]	O	O	O, B-CV, I-OG, B-PS, B-OG

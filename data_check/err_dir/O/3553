@@ -1,0 +1,25 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
+1	한	B-PS	B-PS	B-PS, O, B-LC, B-OG, B-QT
+2	원장	B-CV	B-CV	B-CV, O, I-PS, I-CV, I-QT
+3	##은	O	O	O, I-CV, I-QT, B-CV, I-EV
+4	“	O	O	O, B-CV, B-LC, B-PS, B-TM
+5	한국	O	O	O, B-PS, B-LC, B-AF, B-OG
+6	##형	O	O	O, I-LC, I-PS, I-AF, B-PS
+7	원자로	O	B-TM	B-TM, O, B-AF, B-MT, I-TM
+8	(	O	O	O, I-TM, I-AF, I-CV, B-CV
+9	경수	O	O	O, B-AF, B-LC, B-CV, B-MT
+10	##로	O	O	O, I-AF, I-LC, I-CV, I-TM
+11	)	O	O	O, I-AF, B-CV, I-CV, B-LC
+12	의	O	O	O, B-PS, B-LC, B-CV, B-OG
+13	탄생	O	O	O, B-LC, B-CV, B-OG, B-PS
+14	##은	O	O	O, B-PS, B-LC, B-CV, B-OG
+15	전적	O	O	O, B-PS, B-LC, B-QT, B-CV
+16	##으로	O	O	O, B-PS, B-LC, I-PS, B-CV
+17	여러분	O	O	O, B-CV, B-PS, B-LC, B-QT
+18	손	B-AM	B-AM	B-AM, O, I-AM, B-PS, B-TR
+19	##에	O	O	O, I-PS, B-PS, I-QT, I-CV
+20	달렸	O	O	O, B-CV, B-PS, B-LC, B-TM
+21	##다	O	O	O, B-CV, I-CV, I-OG, B-PS
+22	.	O	O	O, B-LC, B-CV, B-PS, B-OG
+23	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-AF

@@ -1,0 +1,7 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-EV
+1	파워	O	B-TM	B-TM, O, B-AF, B-CV, B-TR
+2	##청	O	I-TM	I-TM, O, B-TM, I-AF, B-CV
+3	##순	O	I-TM	I-TM, O, I-AF, I-CV, I-TR
+4	.	O	O	O, I-TM, I-AF, I-CV, I-OG
+5	[SEP]	O	O	O, B-CV, B-LC, B-OG, I-AF

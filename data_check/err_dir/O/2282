@@ -1,0 +1,19 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
+1	대통령	B-CV	B-CV	B-CV, O, B-OG, B-PS, B-AF
+2	##이	O	O	O, I-CV, B-CV, I-OG, I-EV
+3	감당	O	O	O, B-CV, B-TM, B-QT, B-OG
+4	##해야	O	O	O, B-CV, B-PS, B-LC, B-OG
+5	할	O	O	O, B-LC, B-CV, B-PS, B-TM
+6	책임	O	O	O, B-CV, B-PS, B-TM, B-LC
+7	##의	O	O	O, B-CV, B-PS, B-OG, B-TM
+8	상당	O	O	O, B-QT, B-TM, B-LC, B-PS
+9	부분	O	O	O, I-QT, I-LC, B-PS, B-LC
+10	##은	O	O	O, B-CV, I-QT, B-LC, B-OG
+11	청와대	B-OG	B-OG	B-OG, B-AF, O, B-LC, B-PS
+12	참모	O	B-CV	B-CV, O, I-CV, I-OG, I-AF
+13	##진	O	I-CV	I-CV, O, B-CV, I-OG, I-TM
+14	몫	O	O	O, I-CV, B-CV, I-OG, I-QT
+15	##이다	O	O	O, B-CV, I-CV, I-QT, I-OG
+16	.	O	O	O, B-CV, B-PS, B-OG, B-LC
+17	[SEP]	O	O	O, B-CV, B-PS, B-OG, B-LC

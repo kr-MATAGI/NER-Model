@@ -1,0 +1,18 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
+1	문화재청	B-OG	B-OG	B-OG, O, B-LC, B-AF, I-OG
+2	##은	O	O	O, I-OG, I-AF, B-CV, I-EV
+3	내년	B-DT	B-DT	B-DT, I-DT, O, B-EV, B-QT
+4	상반기	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-TI
+5	##에	O	O	O, I-DT, B-CV, I-EV, I-OG
+6	석가	B-AF	O	O, B-AF, B-EV, B-LC, B-PS
+7	##탑	I-AF	O	O, I-AF, I-EV, I-LC, I-PS
+8	수리	O	O	O, I-EV, I-AF, I-LC, B-LC
+9	##복	O	O	O, I-EV, I-TR, I-LC, I-AF
+10	##원	O	O	O, I-EV, I-TR, I-CV, I-LC
+11	##을	O	O	O, I-EV, B-OG, B-CV, B-LC
+12	끝낼	O	O	O, B-CV, B-OG, B-LC, B-TM
+13	계획	O	O	O, B-CV, B-OG, B-TM, B-LC
+14	##이다	O	O	O, B-CV, B-TM, I-OG, B-OG
+15	.	O	O	O, B-LC, B-CV, B-OG, I-OG
+16	[SEP]	O	O	O, B-CV, B-LC, B-OG, I-OG

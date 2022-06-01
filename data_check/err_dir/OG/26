@@ -1,0 +1,26 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-EV, I-CV
+1	한국	B-OG	B-OG	B-OG, B-LC, B-EV, I-OG, B-PS
+2	여자	I-OG	I-OG	I-OG, B-OG, O, I-EV, I-LC
+3	농구	I-OG	I-OG	I-OG, B-OG, B-CV, I-EV, O
+4	대표	I-OG	I-OG	I-OG, O, I-EV, B-OG, I-CV
+5	##팀	I-OG	I-OG	I-OG, O, I-EV, I-CV, I-AF
+6	##은	O	O	O, I-OG, I-EV, I-AF, I-CV
+7	2	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
+8	##일	I-DT	I-DT	I-DT, O, I-QT, B-DT, I-PS
+9	중국	B-OG	B-LC	B-LC, B-OG, O, I-DT, B-EV
+10	##을	O	O	O, I-OG, I-LC, I-EV, I-AF
+11	넘어	O	O	O, B-LC, B-CV, B-OG, B-TM
+12	20	B-DT	B-DT	B-DT, O, B-QT, I-DT, B-EV
+13	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
+14	만	I-DT	I-DT	I-DT, O, I-QT, B-DT, I-EV
+15	##에	O	O	O, I-DT, I-EV, I-QT, B-CV
+16	아시아	B-EV	B-EV	B-EV, B-LC, O, B-OG, B-AF
+17	##경기	I-EV	I-EV	I-EV, O, I-LC, I-OG, I-AF
+18	금메달	B-CV	B-CV	B-CV, O, I-EV, I-CV, B-AF
+19	##을	O	O	O, I-CV, I-EV, I-AF, I-OG
+20	차지	O	O	O, B-CV, B-TM, B-OG, I-EV
+21	##했	O	O	O, B-CV, B-LC, B-OG, I-EV
+22	##다	O	O	O, B-CV, B-LC, B-OG, I-OG
+23	.	O	O	O, B-LC, B-OG, B-CV, I-EV
+24	[SEP]	O	O	O, B-LC, B-CV, I-EV, I-OG

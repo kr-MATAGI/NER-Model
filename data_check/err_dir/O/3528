@@ -1,0 +1,23 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
+1	그	O	O	O, B-CV, B-TM, B-OG, B-LC
+2	시너지	O	O	O, B-TM, B-CV, B-PS, B-LC
+3	효과	O	O	O, B-PS, I-EV, B-LC, I-TM
+4	##가	O	O	O, B-PS, B-LC, B-OG, B-CV
+5	기록	O	O	O, B-TM, B-CV, B-AM, B-AF
+6	향상	O	O	O, I-TM, I-CV, I-AF, B-TM
+7	##으로	O	O	O, B-PS, B-TM, B-QT, B-CV
+8	이어지	O	O	O, B-TM, B-LC, B-QT, B-PS
+9	##는	O	O	O, B-CV, B-PS, B-TM, I-QT
+10	경우	O	O	O, B-CV, B-TM, B-PS, B-QT
+11	##가	O	O	O, B-PS, B-CV, B-OG, B-LC
+12	많	O	O	O, B-CV, B-QT, B-OG, B-LC
+13	##다는	O	O	O, B-PS, B-LC, B-QT, I-OG
+14	게	O	O	O, B-PS, B-LC, B-OG, B-CV
+15	육상	O	B-CV	B-CV, O, I-CV, B-OG, B-TM
+16	##인	O	I-CV	I-CV, O, B-CV, I-OG, I-QT
+17	##들	O	O	O, I-CV, I-OG, I-QT, I-AF
+18	##의	O	O	O, B-CV, B-QT, B-PS, B-TM
+19	전언	O	O	O, B-CV, B-QT, B-TM, B-LC
+20	.	O	O	O, I-QT, I-CV, I-OG, B-CV
+21	[SEP]	O	O	O, B-CV, B-LC, B-TM, B-PS

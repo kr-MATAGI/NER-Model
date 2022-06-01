@@ -1,0 +1,16 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, I-EV, I-CV, I-QT
+1	○	O	O	O, B-LC, B-CV, B-PS, B-OG
+2	최대	O	O	O, B-CV, B-PS, B-QT, B-LC
+3	화제	O	O	O, B-CV, B-FD, B-TM, B-PS
+4	##작	O	O	O, B-FD, B-CV, I-CV, I-FD
+5	‘	O	O	O, B-CV, B-LC, B-OG, B-TM
+6	1987	B-AF	B-AF	B-AF, B-EV, B-LC, O, B-PS
+7	’	O	O	O, I-AF, I-EV, I-OG, B-CV
+8	개봉	O	O	O, B-CV, B-LC, B-TM, B-OG
+9	,	O	O	O, I-EV, B-PS, I-OG, B-LC
+10	흥행	O	O	O, B-CV, B-LC, B-EV, B-OG
+11	삼	O	B-EV	B-EV, O, B-DT, I-EV, B-LC
+12	##파	O	I-EV	I-EV, O, I-AF, I-LC, I-QT
+13	##전	O	I-EV	I-EV, O, I-LC, I-AF, I-QT
+14	[SEP]	O	O	O, I-EV, I-AF, I-OG, I-QT

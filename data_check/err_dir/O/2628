@@ -1,0 +1,17 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-CV, I-OG, B-CV, I-EV
+1	우리	O	O	O, B-CV, B-OG, B-LC, B-TM
+2	##는	O	O	O, B-CV, I-AF, I-OG, B-TM
+3	토론	O	O	O, B-TM, B-CV, B-QT, B-FD
+4	한	O	O	O, B-QT, B-DT, B-TM, B-TI
+5	마디	O	O	O, I-QT, I-LC, I-TM, I-AM
+6	없이	O	O	O, I-QT, I-DT, B-PS, B-CV
+7	유학	B-FD	B-FD	B-FD, O, B-CV, B-LC, B-EV
+8	##을	O	O	O, I-FD, I-AF, I-OG, I-EV
+9	일제	B-DT	B-DT	B-DT, O, B-EV, B-TI, B-LC
+10	해방	O	I-DT	I-DT, O, I-EV, B-DT, B-EV
+11	저	O	O	O, I-DT, I-EV, B-DT, B-CV
+12	~	O	O	O, I-DT, B-DT, B-LC, B-PS
+13	일제	B-DT	B-DT	B-DT, O, B-EV, I-DT, B-QT
+14	때	I-DT	I-DT	I-DT, O, I-EV, I-QT, B-DT
+15	[SEP]	O	O	O, I-DT, B-CV, I-EV, B-LC

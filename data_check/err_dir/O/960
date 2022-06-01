@@ -1,0 +1,8 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-AF
+1	인천공항공사	B-OG	B-OG	B-OG, O, I-OG, B-LC, B-AF
+2	국민	O	B-CV	B-CV, O, B-OG, I-OG, B-AM
+3	##주	O	O	O, I-CV, I-OG, B-CV, I-QT
+4	매각	O	O	O, I-CV, I-QT, B-CV, I-OG
+5	추진	O	O	O, I-CV, I-OG, I-QT, B-PS
+6	[SEP]	O	O	O, B-CV, B-OG, B-LC, B-TM

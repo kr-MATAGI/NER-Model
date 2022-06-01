@@ -1,0 +1,12 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-AF
+1	우리나라	O	O	O, B-LC, B-CV, B-FD, B-OG
+2	##에	O	O	O, B-LC, I-LC, B-PS, I-OG
+3	과학	B-FD	B-FD	B-FD, O, I-FD, B-TR, B-CV
+4	##과	O	O	O, I-FD, I-OG, I-AF, B-PS
+5	인류	O	O	O, B-LC, B-FD, B-OG, B-CV
+6	##에	O	O	O, I-OG, I-AF, B-PS, I-LC
+7	현대	O	B-FD	B-FD, O, B-TR, B-DT, B-AF
+8	과학	B-FD	B-FD	B-FD, I-FD, O, B-TR, I-TR
+9	##이	O	O	O, I-FD, I-OG, I-AF, B-PS
+10	[SEP]	O	O	O, B-CV, B-LC, B-OG, I-OG

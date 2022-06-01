@@ -1,0 +1,26 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
+1	최근	O	O	O, B-LC, B-OG, B-PS, B-DT
+2	중국	B-OG	B-LC	B-LC, B-OG, O, I-LC, B-PS
+3	##이나	O	O	O, I-OG, I-LC, I-AF, B-LC
+4	일본	B-OG	B-LC	B-LC, B-OG, O, B-PS, B-AF
+5	##을	O	O	O, I-OG, I-LC, I-AF, B-LC
+6	비롯	O	O	O, B-LC, B-OG, I-OG, B-CV
+7	##한	O	O	O, B-LC, B-OG, B-PS, I-OG
+8	주요	O	O	O, B-OG, B-LC, B-CV, B-PS
+9	##국	O	O	O, B-OG, I-OG, B-LC, I-LC
+10	##들	O	O	O, I-OG, I-LC, B-LC, B-OG
+11	##은	O	O	O, B-LC, B-OG, B-CV, B-PS
+12	해외	O	O	O, B-TM, B-CV, B-LC, B-FD
+13	##자원	O	O	O, I-CV, I-TM, I-LC, B-CV
+14	##개발	O	O	O, I-CV, I-TM, I-LC, I-AF
+15	##에	O	O	O, B-CV, B-LC, I-CV, B-OG
+16	민간	O	O	O, B-CV, B-OG, B-TM, B-FD
+17	참여	O	O	O, I-CV, I-OG, B-CV, I-TM
+18	##를	O	O	O, B-CV, B-OG, B-LC, B-PS
+19	확대	O	O	O, B-CV, B-LC, B-OG, B-PS
+20	##하고	O	O	O, B-LC, B-CV, B-PS, B-OG
+21	있	O	O	O, B-LC, B-CV, B-OG, B-PS
+22	##다	O	O	O, B-CV, I-OG, B-LC, B-OG
+23	.	O	O	O, B-LC, B-OG, B-CV, B-PS
+24	[SEP]	O	O	O, B-LC, B-CV, B-OG, I-OG

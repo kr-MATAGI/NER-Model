@@ -1,0 +1,20 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-EV
+1	""""	O	O	O, B-LC, B-CV, B-OG, B-TM
+2	보험	O	O	O, B-CV, B-TM, I-CV, B-FD
+3	·	O	O	O, I-CV, I-AF, I-OG, I-TM
+4	사채	O	O	O, B-CV, I-CV, B-FD, I-AF
+5	등	O	O	O, B-LC, B-PS, I-CV, B-OG
+6	中	O	B-LC	B-LC, B-OG, O, B-AF, B-CV
+7	그림자	O	O	O, B-CV, I-OG, B-AF, I-LC
+8	금융	O	O	O, I-CV, I-OG, I-TM, I-AF
+9	,	O	O	O, I-OG, I-AF, I-CV, B-PS
+10	글로벌	O	B-DT	B-DT, O, B-LC, B-EV, B-QT
+11	금융	B-DT	I-DT	I-DT, B-DT, O, I-EV, B-EV
+12	##위	I-DT	I-DT	I-DT, O, B-DT, I-EV, I-QT
+13	##기	I-DT	I-DT	I-DT, O, B-DT, I-EV, I-QT
+14	때	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
+15	##와	O	O	O, I-DT, B-CV, B-LC, B-PS
+16	유사	O	O	O, B-LC, B-OG, B-TM, B-CV
+17	""""	O	O	O, I-OG, B-LC, B-OG, B-PS
+18	[SEP]	O	O	O, B-LC, B-OG, B-CV, B-PS

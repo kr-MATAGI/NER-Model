@@ -1,0 +1,25 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
+1	올해	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
+2	여름	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
+3	이적	O	O	O, B-CV, I-DT, B-LC, B-EV
+4	##시장	O	O	O, I-CV, I-LC, I-EV, B-LC
+5	##에서	O	O	O, B-PS, B-CV, I-CV, B-LC
+6	##는	O	O	O, B-LC, B-OG, B-CV, B-PS
+7	잉글랜드	B-OG	B-LC	B-LC, B-OG, O, B-AF, B-EV
+8	프리미어	I-OG	B-OG	B-OG, I-OG, O, B-LC, B-CV
+9	##리그	I-OG	I-OG	I-OG, O, I-EV, I-LC, I-CV
+10	(	O	O	O, I-OG, I-EV, I-CV, B-CV
+11	EPL	B-OG	B-OG	B-OG, O, B-AF, I-OG, B-LC
+12	)	O	O	O, I-OG, I-EV, I-CV, I-DT
+13	첼시	B-OG	B-OG	B-OG, B-LC, O, B-AF, I-OG
+14	이적	O	O	O, I-OG, I-EV, B-CV, I-AF
+15	##을	O	O	O, I-OG, B-CV, B-PS, B-LC
+16	추진	O	O	O, B-CV, B-TM, B-LC, B-OG
+17	##했	O	O	O, B-LC, B-PS, B-CV, B-OG
+18	##지만	O	O	O, B-LC, B-PS, B-OG, B-QT
+19	무산	O	O	O, B-LC, B-CV, B-TM, B-QT
+20	##됐	O	O	O, I-OG, B-CV, B-LC, B-PS
+21	##다	O	O	O, B-CV, I-OG, B-PS, B-LC
+22	.	O	O	O, B-LC, B-OG, B-CV, B-PS
+23	[SEP]	O	O	O, B-LC, B-CV, B-OG, I-OG

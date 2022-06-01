@@ -1,0 +1,27 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
+1	지난달	B-DT	B-DT	B-DT, O, I-DT, B-OG, B-QT
+2	말	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
+3	코웨이	B-OG	B-OG	B-OG, O, I-OG, B-LC, B-AF
+4	##에	O	O	O, I-OG, B-CV, I-DT, B-OG
+5	손해배상	B-CV	O	O, B-CV, I-CV, B-TM, B-OG
+6	##을	O	O	O, I-CV, B-CV, I-OG, B-PS
+7	청구	O	O	O, B-CV, B-OG, B-TM, I-CV
+8	##한	O	O	O, B-CV, I-CV, B-PS, B-OG
+9	1500	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-PS
+10	##여	I-QT	I-QT	I-QT, O, I-PS, I-EV, I-LC
+11	명	I-QT	I-QT	I-QT, O, I-PS, I-LC, B-QT
+12	중	O	O	O, I-QT, B-CV, I-OG, B-TM
+13	상당수	O	O	O, B-QT, B-CV, B-LC, B-TM
+14	##는	O	O	O, B-CV, B-LC, B-OG, B-PS
+15	이미	O	O	O, B-CV, B-TM, B-OG, B-LC
+16	검사	O	O	O, B-CV, B-TM, B-LC, B-PS
+17	##를	O	O	O, B-CV, B-OG, B-PS, B-LC
+18	받	O	O	O, B-CV, B-LC, B-OG, B-TM
+19	##은	O	O	O, B-CV, B-PS, B-LC, B-OG
+20	것	O	O	O, B-CV, B-LC, B-OG, B-PS
+21	##으로	O	O	O, B-CV, B-TM, B-LC, B-OG
+22	알려졌	O	O	O, B-CV, B-TM, B-OG, B-LC
+23	##다	O	O	O, B-CV, B-TM, B-OG, I-OG
+24	.	O	O	O, B-CV, B-OG, B-LC, B-PS
+25	[SEP]	O	O	O, B-CV, B-OG, B-LC, I-OG

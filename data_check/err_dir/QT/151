@@ -1,0 +1,27 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-QT
+1	현재	O	O	O, B-QT, B-TM, B-CV, B-OG
+2	9	B-QT	B-QT	B-QT, B-TM, O, B-EV, B-AF
+3	##개	I-QT	I-QT	I-QT, I-TM, O, I-EV, I-AF
+4	홈런	B-TM	B-TM	B-TM, O, I-TM, I-QT, B-CV
+5	##으로	O	O	O, I-TM, I-QT, I-AF, B-TM
+6	2	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-CV
+7	##위	I-QT	I-QT	I-QT, O, I-TM, I-LC, I-OG
+8	##권	I-QT	O	O, I-QT, I-LC, I-TM, I-CV
+9	(	O	O	O, I-QT, B-CV, B-OG, B-LC
+10	두산	B-OG	B-OG	B-OG, B-LC, O, B-PS, B-AF
+11	민병	B-PS	B-PS	B-PS, I-PS, O, B-OG, I-OG
+12	##헌	I-PS	I-PS	I-PS, I-OG, O, I-LC, B-PS
+13	등	O	O	O, I-PS, I-OG, B-CV, I-AF
+14	5	B-QT	B-QT	B-QT, O, I-QT, B-TM, B-EV
+15	##개	I-QT	I-QT	I-QT, O, I-LC, I-TM, I-EV
+16	)	O	O	O, I-QT, B-CV, I-OG, I-EV
+17	과	O	O	O, B-CV, B-OG, B-TM, B-LC
+18	격차	O	O	O, B-CV, B-TM, B-QT, B-OG
+19	##를	O	O	O, B-CV, B-OG, B-TM, I-OG
+20	벌리	O	O	O, B-CV, B-TM, B-QT, B-LC
+21	##고	O	O	O, B-QT, B-CV, B-TM, B-PS
+22	있	O	O	O, B-CV, B-TM, B-QT, I-QT
+23	##다	O	O	O, B-CV, B-TM, B-QT, I-QT
+24	.	O	O	O, B-LC, B-CV, B-OG, B-PS
+25	[SEP]	O	O	O, B-CV, B-LC, B-TM, B-OG

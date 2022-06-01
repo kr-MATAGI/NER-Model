@@ -1,0 +1,25 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
+1	또	O	O	O, B-CV, B-OG, B-LC, B-TM
+2	""""	O	O	O, B-LC, B-CV, B-TM, B-OG
+3	부산	B-LC	B-LC	B-LC, O, B-OG, B-AF, B-PS
+4	##과	O	O	O, I-LC, B-LC, I-AF, I-OG
+5	일본	B-LC	B-LC	B-LC, O, B-OG, B-AF, B-PS
+6	니	O	B-LC	B-LC, O, I-LC, B-AF, B-OG
+7	##가	O	I-LC	I-LC, O, I-AF, B-LC, I-OG
+8	##타	O	I-LC	I-LC, O, I-AF, I-OG, I-PS
+9	등	O	O	O, I-LC, B-LC, I-AF, I-OG
+10	##과	O	O	O, B-LC, B-AF, B-TM, B-CV
+11	교통	O	O	O, B-AF, B-LC, B-TM, I-AF
+12	운수	O	O	O, I-AF, B-AF, I-LC, B-LC
+13	통로	O	O	O, I-AF, B-AF, B-LC, I-LC
+14	##도	O	O	O, I-AF, B-LC, I-LC, I-OG
+15	필요	O	O	O, B-AF, B-OG, B-TM, B-CV
+16	##하	O	O	O, I-AF, B-OG, B-PS, B-LC
+17	##다	O	O	O, I-OG, B-CV, I-AF, B-OG
+18	""""	O	O	O, B-CV, B-TM, B-LC, B-OG
+19	고	O	O	O, B-CV, B-OG, I-OG, B-LC
+20	했	O	O	O, B-CV, B-OG, B-LC, B-TM
+21	##다	O	O	O, B-CV, I-OG, B-OG, I-CV
+22	.	O	O	O, B-LC, B-OG, B-CV, B-AF
+23	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-AF

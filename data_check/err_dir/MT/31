@@ -1,0 +1,22 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
+1	이를	O	O	O, B-CV, B-TM, B-LC, B-OG
+2	페인트	B-MT	O	O, B-MT, B-CV, B-TM, B-FD
+3	##에	O	O	O, I-CV, B-CV, I-TM, I-EV
+4	응용	O	O	O, B-CV, B-LC, B-TM, B-FD
+5	##하	O	O	O, B-PS, B-LC, B-CV, B-TM
+6	##는	O	O	O, B-CV, B-LC, B-PS, B-TM
+7	기술	O	O	O, B-CV, B-TM, B-LC, B-PS
+8	##만	O	O	O, B-PS, B-LC, I-TM, I-LC
+9	갖추	O	O	O, B-CV, B-PS, B-LC, B-TM
+10	##면	O	O	O, B-PS, B-LC, I-AF, I-OG
+11	자동차	B-AF	B-AF	B-AF, O, B-OG, I-AF, B-LC
+12	칠	O	O	O, I-AF, B-CV, B-MT, B-TM
+13	##로	O	O	O, I-AF, I-CV, I-TM, I-EV
+14	쓸	O	O	O, B-CV, B-TM, B-LC, B-OG
+15	수	O	O	O, B-PS, B-CV, B-TM, B-LC
+16	있	O	O	O, B-CV, B-TM, B-OG, B-PS
+17	##다고	O	O	O, B-CV, I-OG, B-OG, B-TM
+18	한다	O	O	O, B-CV, B-TM, B-OG, B-LC
+19	.	O	O	O, B-CV, B-LC, B-PS, B-TM
+20	[SEP]	O	O	O, B-CV, B-LC, B-TM, B-PS

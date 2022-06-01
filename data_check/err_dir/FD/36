@@ -1,0 +1,12 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
+1	국제법	B-CV	B-CV	B-CV, O, B-OG, I-CV, B-FD
+2	##이	O	O	O, I-CV, I-AF, I-OG, B-PS
+3	##랄	O	O	O, I-AF, B-PS, I-CV, I-OG
+4	##지	O	O	O, B-PS, I-AF, B-LC, I-QT
+5	국제	B-FD	O	O, B-LC, B-FD, B-CV, B-EV
+6	##정	I-FD	O	O, I-FD, B-FD, I-LC, I-OG
+7	##치	I-FD	O	O, I-FD, I-LC, I-OG, B-FD
+8	##랄	O	O	O, I-OG, I-AF, I-LC, I-FD
+9	##지	O	O	O, I-LC, I-AF, I-QT, B-PS
+10	[SEP]	O	O	O, B-CV, I-AF, B-LC, I-LC

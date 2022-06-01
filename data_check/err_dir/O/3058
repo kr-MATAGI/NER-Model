@@ -1,0 +1,18 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
+1	연예인	O	B-CV	B-CV, O, I-CV, B-OG, B-PS
+2	##들이	O	O	O, I-CV, B-CV, I-OG, I-AF
+3	빌딩	O	O	O, B-AF, B-CV, B-LC, B-TM
+4	##을	O	O	O, I-AF, I-CV, B-PS, B-CV
+5	뭐	O	O	O, B-PS, B-CV, I-AF, B-LC
+6	샀	O	O	O, B-CV, B-PS, B-LC, B-QT
+7	##니	O	O	O, B-PS, I-PS, I-CV, I-AF
+8	가졌	O	O	O, B-CV, B-PS, B-LC, B-TM
+9	##니	O	O	O, B-PS, I-CV, I-PS, I-LC
+10	이런	O	O	O, B-CV, B-TM, B-PS, B-LC
+11	이야기	O	O	O, B-CV, B-TM, B-PS, I-CV
+12	##들	O	O	O, B-CV, B-PS, I-CV, B-OG
+13	많이	O	O	O, B-CV, B-OG, B-TM, B-QT
+14	나오	O	O	O, B-CV, B-TM, B-OG, B-LC
+15	##잖아요	O	O	O, B-CV, B-OG, B-TM, B-LC
+16	[SEP]	O	O	O, B-CV, B-PS, B-LC, I-AF

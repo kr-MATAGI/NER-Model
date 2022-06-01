@@ -1,0 +1,22 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
+1	이날	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
+2	팬	B-CV	B-CV	B-CV, O, I-CV, I-DT, B-OG
+3	##들	O	O	O, I-CV, B-CV, I-OG, I-AF
+4	##의	O	O	O, B-CV, B-PS, B-TM, B-OG
+5	시선	O	O	O, B-CV, B-TM, B-PS, B-OG
+6	##을	O	O	O, B-CV, B-PS, B-OG, B-TM
+7	사로잡	O	O	O, B-CV, B-LC, B-PS, B-TM
+8	##은	O	O	O, B-CV, B-PS, B-OG, B-LC
+9	이	O	O	O, B-PS, B-CV, B-OG, B-AF
+10	##는	O	O	O, B-CV, B-PS, I-AF, B-OG
+11	‘	O	O	O, B-CV, B-PS, B-LC, B-OG
+12	코리안	B-LC	B-PS	B-PS, B-CV, B-LC, B-AF, B-AM
+13	3	B-DT	B-DT	B-DT, B-QT, I-PS, I-AF, B-AF
+14	##박	I-DT	I-PS	I-PS, I-DT, I-AF, I-QT, O
+15	’	O	O	O, I-AF, I-DT, I-QT, I-PS
+16	이	O	O	O, B-PS, B-CV, B-LC, B-OG
+17	##었	O	O	O, B-CV, B-PS, B-OG, B-LC
+18	##다	O	O	O, B-CV, B-OG, B-LC, I-OG
+19	.	O	O	O, B-CV, B-PS, B-LC, B-OG
+20	[SEP]	O	O	O, B-CV, B-PS, B-LC, B-OG

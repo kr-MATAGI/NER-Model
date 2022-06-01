@@ -1,0 +1,25 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
+1	미국	B-LC	B-LC	B-LC, O, B-OG, B-PS, B-AF
+2	전역	O	O	O, I-LC, B-LC, I-OG, B-TM
+3	##에	O	O	O, B-LC, B-CV, B-OG, I-LC
+4	##는	O	O	O, B-LC, B-OG, B-CV, B-QT
+5	1	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-EV
+6	##천	I-QT	I-QT	I-QT, O, I-LC, I-EV, I-PS
+7	##여	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
+8	##개	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
+9	##의	O	O	O, I-QT, B-PS, B-OG, B-LC
+10	남부	O	B-OG	B-OG, O, B-CV, B-EV, B-LC
+11	##연합	O	I-OG	I-OG, O, I-EV, I-LC, I-CV
+12	기념	O	O	O, I-OG, I-AF, I-EV, I-LC
+13	##물	O	O	O, I-OG, I-AF, I-LC, I-EV
+14	##이	O	O	O, B-PS, I-AF, B-LC, I-OG
+15	설치	O	O	O, B-CV, B-LC, B-TM, B-OG
+16	##된	O	O	O, B-PS, B-CV, B-LC, B-OG
+17	것	O	O	O, B-CV, B-PS, B-OG, B-TM
+18	##으로	O	O	O, B-CV, B-PS, I-OG, B-TM
+19	추산	O	O	O, B-OG, B-CV, B-PS, B-TM
+20	##된	O	O	O, I-OG, B-PS, I-AF, I-PS
+21	##다	O	O	O, I-OG, B-CV, B-LC, I-AF
+22	.	O	O	O, B-LC, B-PS, B-OG, B-CV
+23	[SEP]	O	O	O, B-LC, B-CV, I-OG, B-PS

@@ -1,0 +1,26 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-EV, B-CV, I-OG, I-CV
+1	교육	O	O	O, B-LC, B-CV, B-EV, B-TM
+2	##센터	O	O	O, I-LC, I-AF, I-EV, I-OG
+3	##에서	O	O	O, B-CV, B-LC, B-PS, B-TM
+4	##는	O	O	O, B-CV, B-LC, B-TM, B-EV
+5	소프트웨어	O	O	O, B-FD, B-CV, B-TR, B-TM
+6	코딩	B-TM	O	O, B-FD, B-CV, I-FD, I-TR
+7	교육	O	O	O, I-CV, I-FD, I-TR, I-EV
+8	##을	O	O	O, I-EV, I-CV, B-CV, B-PS
+9	받	O	O	O, B-CV, B-LC, B-PS, I-EV
+10	##고	O	O	O, B-LC, B-PS, B-CV, I-EV
+11	,	O	O	O, B-CV, B-LC, B-EV, B-TM
+12	VR	B-TM	B-TM	B-TM, O, B-TR, B-EV, B-AF
+13	(	O	O	O, I-EV, I-TM, I-TR, I-QT
+14	가상현실	B-TM	B-TM	B-TM, O, B-TR, I-TM, B-QT
+15	)	O	O	O, I-EV, I-TM, I-TR, I-QT
+16	체험	O	O	O, I-EV, B-EV, B-CV, I-TM
+17	##을	O	O	O, I-EV, B-CV, I-AF, B-PS
+18	해	O	O	O, B-CV, B-LC, B-PS, I-EV
+19	##볼	O	O	O, I-EV, I-LC, B-PS, B-CV
+20	수	O	O	O, B-PS, B-LC, B-CV, I-EV
+21	있	O	O	O, B-CV, I-EV, B-LC, B-EV
+22	##다	O	O	O, B-CV, I-EV, B-LC, B-TM
+23	.	O	O	O, B-LC, I-EV, B-CV, B-PS
+24	[SEP]	O	O	O, B-CV, I-EV, B-LC, I-LC

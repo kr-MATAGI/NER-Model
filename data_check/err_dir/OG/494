@@ -1,0 +1,20 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-EV, I-OG, I-CV
+1	숭실대	B-OG	B-OG	B-OG, O, B-AF, B-LC, I-OG
+2	출신	O	O	O, I-OG, B-CV, I-EV, B-PS
+3	##으로	O	O	O, B-PS, B-LC, B-OG, B-CV
+4	2006	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
+5	##년	I-DT	I-DT	I-DT, O, I-QT, I-PS, I-EV
+6	내셔널	B-OG	B-EV	B-EV, O, B-OG, B-CV, I-EV
+7	##리그	I-OG	I-EV	I-EV, I-OG, O, I-CV, I-AF
+8	신인	B-CV	B-CV	B-CV, O, I-CV, I-EV, B-TM
+9	##상	I-CV	I-CV	I-CV, O, B-CV, I-EV, I-TM
+10	·	O	O	O, I-CV, I-EV, I-OG, I-QT
+11	득점	B-CV	B-CV	B-CV, O, B-TM, I-CV, B-AF
+12	##왕	I-CV	I-CV	I-CV, O, B-CV, I-TM, I-QT
+13	등	O	O	O, I-CV, I-QT, I-EV, B-PS
+14	##을	O	O	O, B-CV, B-PS, B-OG, B-LC
+15	거쳤	O	O	O, B-CV, B-PS, B-OG, B-LC
+16	##다	O	O	O, B-CV, B-PS, B-LC, B-OG
+17	.	O	O	O, B-PS, B-LC, B-CV, B-OG
+18	[SEP]	O	O	O, B-CV, B-PS, B-LC, B-OG

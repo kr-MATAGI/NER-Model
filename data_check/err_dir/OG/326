@@ -1,0 +1,13 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
+1	이제	O	O	O, B-CV, B-OG, B-TM, B-PS
+2	산림청	B-OG	B-OG	B-OG, O, B-AF, B-CV, B-EV
+3	직원	B-CV	B-CV	B-CV, O, I-CV, I-OG, B-OG
+4	지방	B-OG	B-CV	B-CV, I-CV, B-OG, O, B-FD
+5	##자치단체	I-OG	I-CV	I-CV, O, I-OG, B-CV, I-QT
+6	##공	B-CV	I-CV	I-CV, B-CV, I-OG, O, I-QT
+7	##무원	I-CV	I-CV	I-CV, O, I-OG, B-CV, I-QT
+8	전	O	O	O, B-QT, I-CV, B-CV, B-DT
+9	직원	B-CV	B-CV	B-CV, I-CV, O, I-QT, B-OG
+10	##이	O	O	O, I-CV, I-QT, B-CV, I-OG
+11	[SEP]	O	O	O, B-CV, B-OG, I-CV, B-LC

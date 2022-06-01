@@ -1,0 +1,15 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
+1	근데	O	O	O, B-CV, B-OG, B-TM, B-LC
+2	수양	B-PS	B-PS	B-PS, O, B-LC, B-EV, B-AF
+3	##대군	I-PS	B-CV	B-CV, I-PS, I-CV, O, I-EV
+4	##은	O	O	O, I-CV, I-EV, I-PS, I-AF
+5	그걸	O	O	O, B-CV, B-TM, B-OG, B-LC
+6	한자	B-CV	B-CV	B-CV, O, B-FD, B-TM, B-AF
+7	##를	O	O	O, I-CV, I-AF, B-CV, I-QT
+8	앞	O	O	O, B-TM, B-QT, B-LC, B-AM
+9	##으로	O	O	O, I-TM, I-QT, B-CV, B-TM
+10	보냈	O	O	O, B-CV, B-OG, B-LC, B-QT
+11	##잖아요	O	O	O, B-CV, I-OG, B-OG, I-CV
+12	.	O	O	O, B-CV, B-LC, B-OG, B-TM
+13	[SEP]	O	O	O, B-CV, B-LC, B-TM, B-OG

@@ -1,0 +1,20 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
+1	일시	O	O	O, B-CV, B-PS, B-TM, B-QT
+2	##적으로	O	O	O, I-CV, I-QT, B-PS, I-PS
+3	어	O	O	O, B-CV, B-LC, B-TM, B-PS
+4	~	O	O	O, B-CV, B-PS, B-LC, I-CV
+5	하루	B-DT	B-DT	B-DT, O, I-DT, B-LC, B-TI
+6	##동안	I-DT	I-DT	I-DT, O, B-DT, I-TI, I-QT
+7	혈압	B-TM	O	O, B-TM, B-TR, B-CV, B-QT
+8	수치	O	O	O, I-TM, I-TR, B-TM, I-QT
+9	##를	O	O	O, B-CV, I-TM, I-AF, B-TM
+10	내리	O	O	O, B-CV, B-TM, B-OG, B-PS
+11	##는	O	O	O, B-CV, B-PS, B-OG, B-TM
+12	거	O	O	O, B-CV, B-OG, B-PS, B-QT
+13	##에	O	O	O, B-CV, I-AF, I-CV, B-PS
+14	불과	O	O	O, B-CV, B-LC, B-PS, B-OG
+15	##하	O	O	O, B-CV, B-OG, B-PS, B-LC
+16	##죠	O	O	O, B-CV, I-OG, B-OG, I-AF
+17	.	O	O	O, B-CV, B-LC, B-PS, B-OG
+18	[SEP]	O	O	O, B-CV, B-LC, I-CV, B-OG

@@ -1,0 +1,27 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-CV, I-OG, B-CV, I-AF
+1	한국	B-LC	B-LC	B-LC, O, B-OG, B-FD, B-AF
+2	##의	O	O	O, I-LC, I-AF, I-FD, I-OG
+3	전설	O	O	O, B-FD, I-AF, I-FD, B-CV
+4	한국	B-LC	B-LC	B-LC, O, B-FD, B-OG, B-AF
+5	##의	O	O	O, I-LC, I-AF, I-FD, B-FD
+6	민속	B-FD	O	O, B-FD, I-FD, B-CV, I-AF
+7	음악	I-FD	O	O, I-FD, B-FD, I-CV, I-AF
+8	한국	B-LC	B-LC	B-LC, O, B-OG, B-FD, B-AF
+9	##의	O	O	O, I-LC, I-AF, I-OG, I-FD
+10	어	O	O	O, B-CV, B-LC, I-AF, B-FD
+11	~	O	O	O, B-CV, B-LC, I-CV, I-AF
+12	모든	O	O	O, B-CV, B-LC, B-PS, B-OG
+13	이런	O	O	O, B-CV, B-LC, B-PS, B-OG
+14	전통	O	O	O, B-CV, B-FD, B-LC, B-PS
+15	##을	O	O	O, I-CV, B-CV, B-PS, I-AF
+16	가지	O	O	O, B-CV, B-LC, B-PS, B-TM
+17	##고	O	O	O, B-LC, B-PS, B-CV, I-CV
+18	평생	O	O	O, B-DT, B-CV, B-LC, B-QT
+19	##을	O	O	O, B-CV, I-CV, B-PS, B-OG
+20	노력	O	O	O, B-CV, B-LC, B-PS, B-FD
+21	##하	O	O	O, B-PS, B-LC, B-CV, B-OG
+22	##다	O	O	O, B-CV, B-LC, B-PS, B-OG
+23	보	O	O	O, B-CV, B-LC, B-PS, B-OG
+24	##면	O	O	O, B-LC, B-CV, B-PS, B-OG
+25	[SEP]	O	O	O, B-CV, B-LC, B-FD, B-PS

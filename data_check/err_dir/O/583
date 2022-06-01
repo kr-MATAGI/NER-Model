@@ -1,0 +1,25 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
+1	그래서	O	O	O, B-CV, B-OG, B-TM, B-LC
+2	일반인	O	B-CV	B-CV, O, B-OG, B-QT, B-FD
+3	##들	O	O	O, I-CV, B-CV, I-OG, I-AF
+4	입장	O	O	O, B-CV, B-TM, B-QT, B-PS
+5	##에서	O	O	O, B-CV, B-PS, B-TM, I-CV
+6	##는	O	O	O, B-CV, B-TM, B-PS, B-OG
+7	그럼	O	O	O, B-CV, B-LC, B-OG, B-TM
+8	도대체	O	O	O, B-CV, B-PS, B-LC, B-TM
+9	뭐	O	O	O, B-PS, B-CV, B-OG, B-LC
+10	##가	O	O	O, B-PS, B-OG, B-LC, B-CV
+11	불교	B-OG	B-OG	B-OG, O, B-CV, I-OG, B-LC
+12	##인	O	O	O, I-OG, I-CV, B-PS, I-AF
+13	거	O	O	O, B-PS, I-OG, B-CV, I-AF
+14	##야	O	O	O, B-CV, I-OG, B-PS, I-QT
+15	이렇게	O	O	O, B-CV, B-TM, B-QT, B-LC
+16	또	O	O	O, B-CV, B-TM, B-QT, B-PS
+17	질문	O	O	O, B-CV, B-TM, B-FD, B-LC
+18	##할	O	O	O, B-CV, B-PS, I-CV, I-AF
+19	수도	O	O	O, B-CV, B-TM, B-QT, B-PS
+20	있	O	O	O, B-CV, B-TM, B-QT, B-PS
+21	##잖아요	O	O	O, B-CV, B-TM, I-CV, B-OG
+22	.	O	O	O, B-CV, B-PS, B-LC, B-OG
+23	[SEP]	O	O	O, B-CV, B-TM, I-AF, B-PS

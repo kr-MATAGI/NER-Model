@@ -1,0 +1,27 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
+1	여기	O	O	O, B-QT, B-CV, B-OG, B-PS
+2	##는	O	O	O, B-CV, B-OG, B-PS, I-QT
+3	이제	O	O	O, B-CV, B-QT, B-PS, B-OG
+4	일곱	B-QT	B-QT	B-QT, O, B-DT, I-QT, B-EV
+5	살	I-QT	I-QT	I-QT, O, I-DT, I-LC, I-EV
+6	다섯	B-QT	O	O, B-QT, I-QT, B-PS, B-DT
+7	살	I-QT	I-QT	I-QT, O, I-LC, I-PS, I-DT
+8	세	O	O	O, I-QT, B-PS, B-QT, B-CV
+9	살인	O	O	O, B-PS, I-QT, B-CV, B-QT
+10	저	O	O	O, B-PS, B-CV, B-OG, B-LC
+11	##의	O	O	O, B-PS, B-CV, I-AF, B-OG
+12	자녀	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-PS
+13	##들이	O	O	O, I-CV, B-CV, I-QT, I-AF
+14	앞	O	O	O, B-DT, B-PS, B-QT, B-CV
+15	##으로	O	O	O, I-DT, B-PS, B-DT, B-CV
+16	육	B-DT	B-DT	B-DT, I-DT, O, B-QT, B-EV
+17	년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
+18	##간	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
+19	공부	O	O	O, B-CV, I-DT, I-EV, B-LC
+20	##할	O	O	O, B-PS, B-LC, B-CV, I-AF
+21	교실	O	O	O, B-AF, B-OG, B-LC, B-CV
+22	##이	O	O	O, I-AF, B-PS, B-CV, I-OG
+23	##죠	O	O	O, B-CV, I-AF, I-OG, B-OG
+24	.	O	O	O, B-CV, B-PS, B-LC, B-QT
+25	[SEP]	O	O	O, B-CV, B-PS, B-QT, B-LC

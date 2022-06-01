@@ -1,0 +1,20 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
+1	매우	O	O	O, B-CV, B-OG, B-TM, I-OG
+2	소중	O	O	O, B-CV, B-OG, B-LC, B-TM
+3	##하	O	O	O, I-OG, B-PS, B-OG, I-AF
+4	##대요	O	O	O, B-CV, I-OG, I-AF, B-OG
+5	.	O	O	O, I-OG, B-CV, I-AF, B-LC
+6	농업	B-FD	O	O, B-FD, B-OG, I-FD, B-CV
+7	##이	O	O	O, B-PS, I-OG, I-FD, I-AF
+8	앞	O	O	O, B-CV, B-OG, B-TM, B-FD
+9	##으로	O	O	O, B-CV, B-PS, B-OG, I-AF
+10	정말	O	O	O, B-CV, B-OG, B-TM, I-OG
+11	중요	O	O	O, B-CV, B-OG, B-TM, B-LC
+12	##하기	O	O	O, B-CV, B-OG, I-OG, B-PS
+13	때문	O	O	O, B-CV, B-OG, B-LC, B-TM
+14	##에	O	O	O, B-CV, B-OG, I-OG, I-AF
+15	앞	O	O	O, B-CV, B-TM, B-OG, B-PS
+16	##으로	O	O	O, B-CV, B-PS, B-OG, B-LC
+17	##도	O	O	O, B-CV, B-OG, B-PS, I-OG
+18	[SEP]	O	O	O, B-CV, I-OG, B-OG, B-LC

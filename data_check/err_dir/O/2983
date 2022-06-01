@@ -1,0 +1,27 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-EV, I-OG
+1	25	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-QT
+2	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
+3	오후	B-TI	B-TI	B-TI, B-EV, O, I-TI, I-DT
+4	2	I-TI	I-TI	I-TI, B-TI, I-EV, O, I-DT
+5	##시	I-TI	I-TI	I-TI, O, I-QT, I-EV, I-TR
+6	우	B-PS	B-PS	B-PS, O, I-PS, B-OG, B-LC
+7	##진	I-PS	I-PS	I-PS, O, B-PS, I-OG, I-LC
+8	##국	I-PS	I-PS	I-PS, O, I-OG, I-LC, B-PS
+9	(	O	O	O, I-PS, I-OG, B-CV, I-AF
+10	73	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-TI
+11	)	O	O	O, I-QT, I-OG, I-EV, I-DT
+12	씨	O	O	O, B-CV, B-PS, B-TM, B-OG
+13	##가	O	O	O, B-CV, B-PS, B-LC, B-OG
+14	서울	B-LC	B-LC	B-LC, O, B-OG, B-AF, B-PS
+15	영등포	B-LC	B-LC	B-LC, I-LC, O, B-AF, B-OG
+16	##역	I-LC	I-LC	I-LC, O, I-AF, B-LC, I-PS
+17	앞	O	B-TM	B-TM, O, I-TM, I-LC, B-LC
+18	요셉	B-OG	B-OG	B-OG, B-AF, B-PS, O, B-CV
+19	##의원	I-OG	I-OG	I-OG, I-AF, O, I-LC, I-PS
+20	##을	O	O	O, I-OG, I-AF, I-CV, I-EV
+21	찾	O	O	O, B-CV, B-TM, I-AF, I-OG
+22	##았	O	O	O, B-CV, B-OG, B-LC, B-PS
+23	##다	O	O	O, B-CV, B-LC, B-TM, B-OG
+24	.	O	O	O, B-LC, B-CV, B-PS, B-OG
+25	[SEP]	O	O	O, B-CV, B-LC, B-OG, I-EV

@@ -1,0 +1,26 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
+1	하지만	O	O	O, B-CV, B-LC, B-OG, B-EV
+2	대한민국	B-LC	B-LC	B-LC, B-OG, O, B-AF, B-PS
+3	##은	O	O	O, I-LC, I-OG, I-AF, I-EV
+4	그	O	O	O, B-EV, B-LC, B-OG, B-DT
+5	글로벌	O	O	O, B-EV, B-LC, I-EV, B-OG
+6	금융	O	O	O, B-EV, I-EV, B-LC, B-OG
+7	##위	O	I-EV	I-EV, O, B-EV, I-OG, I-LC
+8	##기	O	O	O, I-EV, B-EV, I-OG, I-LC
+9	##를	O	O	O, I-EV, I-OG, I-AF, B-CV
+10	가장	O	O	O, B-LC, B-CV, B-OG, B-TM
+11	빠른	O	O	O, B-LC, B-TI, B-TM, B-OG
+12	시간	O	O	O, B-LC, B-TI, I-TI, B-CV
+13	##에	O	O	O, B-CV, B-LC, B-OG, B-PS
+14	성공	O	O	O, B-CV, B-LC, B-TM, B-OG
+15	##적으로	O	O	O, B-LC, B-CV, B-PS, B-OG
+16	극복	O	O	O, B-LC, B-CV, B-OG, B-EV
+17	##한	O	O	O, B-LC, B-OG, B-PS, B-CV
+18	나라	O	O	O, B-LC, B-CV, B-OG, B-PS
+19	##로	O	O	O, B-CV, B-LC, B-OG, B-PS
+20	인정받	O	O	O, B-CV, B-LC, I-OG, B-OG
+21	##는	O	O	O, I-OG, B-CV, I-CV, I-AF
+22	##다	O	O	O, B-CV, I-OG, B-LC, I-AF
+23	.	O	O	O, B-LC, B-CV, B-OG, B-PS
+24	[SEP]	O	O	O, B-LC, B-CV, I-EV, B-OG

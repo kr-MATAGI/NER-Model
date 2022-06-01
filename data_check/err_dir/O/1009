@@ -1,0 +1,19 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, B-CV, I-AF, I-CV
+1	[	O	O	O, B-OG, B-LC, B-CV, B-PS
+2	커튼	O	O	O, B-AF, B-TM, B-CV, B-PS
+3	뒤	O	O	O, I-AF, I-TM, I-TR, I-FD
+4	정치	O	O	O, B-FD, I-AF, I-FD, B-CV
+5	]	O	O	O, I-AF, I-OG, I-CV, I-EV
+6	울	O	O	O, B-AF, B-LC, B-PS, B-OG
+7	##고	O	O	O, I-AF, I-PS, I-LC, I-OG
+8	##싶	O	O	O, I-AF, I-PS, I-LC, I-OG
+9	##은	O	O	O, I-AF, I-PS, I-LC, I-OG
+10	박지원	B-PS	B-PS	B-PS, I-PS, O, B-OG, B-AF
+11	,	O	O	O, I-PS, I-AF, B-CV, I-OG
+12	뺨	B-AM	B-AM	B-AM, O, B-TR, B-TM, B-PS
+13	때려	O	O	O, I-AF, B-CV, B-LC, I-QT
+14	##준	O	O	O, B-LC, B-PS, B-CV, B-OG
+15	동	O	B-LC	B-LC, O, B-OG, B-AF, B-PS
+16	##교동	O	I-LC	I-LC, O, I-OG, I-AF, B-LC
+17	[SEP]	O	O	O, I-LC, I-AF, I-OG, B-LC

@@ -1,0 +1,27 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-EV, B-CV, I-OG, I-CV
+1	대우건설	B-OG	B-OG	B-OG, O, B-PS, B-LC, B-AF
+2	##은	O	O	O, I-OG, B-CV, I-EV, I-AF
+3	6	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-QT
+4	##월	I-DT	I-DT	I-DT, O, I-QT, B-DT, I-EV
+5	기흥	B-LC	B-LC	B-LC, O, B-AF, B-OG, I-LC
+6	##역	O	I-LC	I-LC, O, B-LC, I-AF, I-OG
+7	##세	O	I-LC	I-LC, O, B-LC, I-AF, I-QT
+8	##권	O	I-LC	I-LC, O, I-AF, B-LC, I-QT
+9	3	B-QT	B-QT	B-QT, I-LC, B-LC, B-AF, B-TM
+10	-	I-QT	I-LC	I-LC, I-QT, B-QT, I-AF, O
+11	2	I-QT	I-QT	I-QT, I-LC, B-QT, I-AF, O
+12	##블	O	I-LC	I-LC, I-QT, O, I-AF, B-QT
+13	##록	O	I-LC	I-LC, I-QT, O, I-AF, I-TM
+14	일대	O	O	O, I-QT, I-LC, B-LC, I-AF
+15	‘	O	O	O, B-LC, B-CV, B-TM, B-OG
+16	기흥	B-LC	B-LC	B-LC, B-AF, O, B-OG, B-PS
+17	##역	I-LC	I-LC	I-LC, I-AF, O, B-LC, I-PS
+18	센트럴	B-AF	I-AF	I-AF, B-AF, I-LC, B-LC, O
+19	푸르지오	I-AF	I-AF	I-AF, I-LC, B-AF, O, I-TM
+20	’	O	O	O, I-AF, I-LC, B-LC, I-OG
+21	를	O	O	O, B-LC, B-CV, B-TM, B-OG
+22	분양	O	O	O, B-LC, B-CV, B-TM, B-AF
+23	##한다	O	O	O, B-LC, B-OG, B-CV, B-TM
+24	.	O	O	O, B-LC, B-OG, B-TM, I-LC
+25	[SEP]	O	O	O, B-LC, I-LC, B-OG, B-CV

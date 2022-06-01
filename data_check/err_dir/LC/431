@@ -1,0 +1,20 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-QT
+1	중소기업	B-OG	B-OG	B-OG, O, B-LC, I-OG, B-AF
+2	##중	I-OG	I-OG	I-OG, O, I-CV, I-EV, B-OG
+3	##앙	I-OG	I-OG	I-OG, O, I-CV, I-EV, I-QT
+4	##회	I-OG	I-OG	I-OG, O, I-CV, I-QT, I-EV
+5	##가	O	O	O, I-OG, I-QT, B-CV, I-EV
+6	‘	O	O	O, B-OG, B-AF, B-LC, B-CV
+7	제	B-QT	B-QT	B-QT, B-OG, I-OG, B-AF, I-QT
+8	##2	I-QT	I-QT	I-QT, I-OG, I-AF, B-QT, I-LC
+9	##개	B-LC	I-OG	I-OG, I-QT, B-OG, O, I-AF
+10	##성	I-LC	I-OG	I-OG, I-QT, O, B-OG, I-AF
+11	##공단	I-LC	I-OG	I-OG, I-QT, O, I-AF, I-LC
+12	’	O	O	O, I-OG, I-QT, I-AF, B-CV
+13	설립	O	O	O, B-CV, B-OG, B-TM, B-AF
+14	추진	O	O	O, B-CV, B-TM, B-OG, B-LC
+15	##에	O	O	O, B-CV, B-OG, B-LC, B-TM
+16	나선다	O	O	O, B-OG, B-LC, B-CV, B-TM
+17	.	O	O	O, B-OG, B-LC, B-CV, I-OG
+18	[SEP]	O	O	O, B-OG, B-LC, B-CV, I-OG

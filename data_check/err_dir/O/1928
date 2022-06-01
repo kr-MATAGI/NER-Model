@@ -1,0 +1,27 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
+1	2	B-TM	B-TM	B-TM, O, B-CV, B-AF, B-QT
+2	##사	I-TM	I-TM	I-TM, O, I-CV, I-AF, I-QT
+3	2	B-TM	B-TM	B-TM, I-TM, O, B-CV, B-AF
+4	##루	I-TM	I-TM	I-TM, O, I-CV, I-QT, I-AF
+5	##에서	O	O	O, I-TM, I-AF, I-CV, B-CV
+6	우	B-TM	B-TM	B-TM, O, I-TM, B-QT, B-AF
+7	##전	I-TM	I-TM	I-TM, O, B-TM, I-QT, I-AF
+8	안타	I-TM	I-TM	I-TM, B-TM, O, I-QT, B-CV
+9	##가	O	O	O, I-TM, I-AF, I-QT, I-CV
+10	터졌	O	O	O, B-CV, B-OG, B-LC, B-TM
+11	##고	O	O	O, B-CV, B-TM, B-PS, B-LC
+12	,	O	O	O, B-CV, B-PS, B-LC, B-OG
+13	2	B-TM	B-TM	B-TM, B-CV, O, B-AF, B-QT
+14	##루	I-TM	I-TM	I-TM, I-CV, O, I-QT, I-AF
+15	주자	B-CV	B-CV	B-CV, I-CV, O, I-TM, I-QT
+16	저스틴	B-PS	B-PS	B-PS, O, I-PS, B-OG, B-LC
+17	모어	I-PS	I-PS	I-PS, O, B-PS, I-LC, I-OG
+18	##노	I-PS	I-PS	I-PS, O, I-LC, I-OG, I-QT
+19	##가	O	O	O, I-PS, B-LC, B-PS, B-TM
+20	홈	O	B-TM	B-TM, O, B-LC, B-CV, B-AF
+21	##으로	O	O	O, I-TM, I-LC, I-AF, B-TM
+22	달렸	O	O	O, B-TM, B-LC, B-CV, B-AF
+23	##다	O	O	O, B-CV, B-TM, I-TM, I-AF
+24	.	O	O	O, B-TM, B-CV, B-LC, B-PS
+25	[SEP]	O	O	O, B-TM, B-CV, I-TM, B-LC

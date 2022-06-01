@@ -1,0 +1,10 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-CV, I-OG, B-CV, I-EV
+1	뭐	O	O	O, B-CV, I-CV, I-EV, I-OG
+2	~	O	O	O, B-LC, B-CV, I-CV, I-EV
+3	민주	B-EV	O	O, B-TR, B-EV, B-CV, B-FD
+4	##화	I-EV	O	O, I-TR, I-EV, I-CV, I-FD
+5	투쟁	I-EV	O	O, I-EV, I-TR, I-CV, I-AF
+6	뭐	O	O	O, I-EV, I-CV, I-AF, I-OG
+7	~	O	O	O, B-CV, B-LC, I-EV, I-CV
+8	[SEP]	O	O	O, B-CV, B-LC, I-EV, B-FD

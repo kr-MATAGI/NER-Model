@@ -1,0 +1,12 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, I-EV, B-CV, I-CV
+1	○	O	O	O, B-CV, B-LC, B-OG, B-TM
+2	재개	B-TM	O	O, B-TM, B-AF, B-TR, I-TM
+3	##발	I-TM	O	O, I-TM, I-AF, I-TR, I-CV
+4	·	I-TM	O	O, I-TM, I-AF, I-TR, I-OG
+5	재건축	I-TM	O	O, I-TM, I-AF, I-TR, I-OG
+6	사업	I-TM	O	O, I-TM, I-AF, I-TR, I-OG
+7	수익	O	O	O, I-TM, B-CV, B-LC, B-TM
+8	##성	O	O	O, B-LC, I-TM, B-TM, B-PS
+9	개선	O	O	O, B-CV, B-LC, I-TM, B-TM
+10	[SEP]	O	O	O, B-TM, B-LC, B-CV, B-OG

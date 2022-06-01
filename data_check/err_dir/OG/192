@@ -1,0 +1,17 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-AF
+1	[	O	O	O, B-LC, B-OG, B-CV, B-PS
+2	수도권	B-LC	B-LC	B-LC, O, B-OG, I-LC, B-AF
+3	]	O	O	O, I-LC, B-LC, I-OG, B-PS
+4	[UNK]	O	O	O, B-PS, B-LC, B-CV, B-OG
+5	시장	B-CV	B-CV	B-CV, O, I-CV, B-PS, B-LC
+6	캠프	O	O	O, I-CV, B-PS, I-OG, B-CV
+7	##에	O	O	O, B-PS, B-LC, I-OG, I-CV
+8	市	B-OG	O	O, B-OG, B-LC, B-PS, B-CV
+9	정무	O	O	O, B-CV, I-CV, I-OG, B-QT
+10	##직	O	O	O, I-CV, B-CV, I-OG, I-QT
+11	핵심	O	O	O, B-CV, I-CV, B-PS, B-QT
+12	##간	O	O	O, I-CV, B-CV, B-AM, B-QT
+13	##부들	O	O	O, I-CV, B-CV, I-OG, I-QT
+14	합류	O	O	O, I-CV, B-CV, B-PS, B-LC
+15	[SEP]	O	O	O, B-LC, B-CV, B-PS, B-OG

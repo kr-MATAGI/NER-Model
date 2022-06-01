@@ -1,0 +1,12 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
+1	대학	O	B-AF	B-AF, B-LC, B-EV, O, B-OG
+2	##로	O	I-AF	I-AF, I-LC, I-EV, O, I-OG
+3	뮤지컬	B-FD	B-FD	B-FD, O, I-AF, I-FD, I-EV
+4	史	O	O	O, I-FD, B-FD, I-EV, B-LC
+5	風	O	O	O, B-LC, I-FD, I-OG, I-LC
+6	이	O	O	O, B-PS, I-OG, I-PS, B-OG
+7	휩	O	O	O, B-CV, B-PS, B-LC, B-EV
+8	##쓴	O	O	O, B-CV, I-OG, I-EV, B-PS
+9	##다	O	O	O, B-CV, I-OG, B-LC, I-EV
+10	[SEP]	O	O	O, B-CV, B-LC, B-PS, I-EV

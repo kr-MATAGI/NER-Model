@@ -1,0 +1,17 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-CV, B-CV, I-OG, I-EV
+1	시민	B-EV	O	O, B-EV, B-CV, B-TR, B-FD
+2	##혁명	I-EV	O	O, I-EV, B-EV, I-TR, I-OG
+3	##이	O	O	O, I-EV, B-PS, I-OG, I-AF
+4	시작	O	O	O, B-CV, I-EV, B-PS, B-LC
+5	##된	O	O	O, B-PS, B-CV, B-LC, I-EV
+6	정국	O	O	O, B-CV, B-EV, B-PS, B-LC
+7	##인	O	O	O, I-EV, B-PS, I-CV, I-OG
+8	##데	O	O	O, B-OG, B-LC, B-CV, B-PS
+9	뭐	O	O	O, B-CV, B-LC, B-TM, B-PS
+10	과거	O	O	O, B-DT, B-CV, B-QT, B-EV
+11	##의	O	O	O, I-DT, I-QT, B-PS, I-EV
+12	일	O	O	O, B-QT, B-DT, B-CV, B-EV
+13	가지	O	O	O, I-QT, I-DT, B-PS, I-EV
+14	##고	O	O	O, I-QT, I-DT, B-PS, B-LC
+15	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG

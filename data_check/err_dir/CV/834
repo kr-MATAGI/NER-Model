@@ -1,0 +1,26 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-AF
+1	그러나	O	O	O, B-CV, B-QT, B-TM, B-OG
+2	일부	O	O	O, B-QT, B-PS, B-LC, B-CV
+3	중국인	B-CV	B-CV	B-CV, O, I-CV, B-LC, B-OG
+4	##에	O	O	O, I-CV, I-QT, B-CV, I-OG
+5	##게	O	O	O, B-CV, B-TM, B-LC, I-CV
+6	##는	O	O	O, B-CV, B-LC, I-QT, B-TM
+7	'	O	O	O, B-CV, B-LC, B-PS, B-QT
+8	한	B-CV	B-FD	B-FD, O, B-CV, B-LC, B-AF
+9	##어	I-CV	I-FD	I-FD, O, I-CV, I-LC, B-FD
+10	##에	O	O	O, I-CV, I-OG, I-AF, I-QT
+11	능통	O	O	O, B-CV, B-LC, B-PS, B-TM
+12	##한	O	O	O, B-PS, B-LC, B-CV, B-QT
+13	소수	O	O	O, B-CV, B-PS, B-QT, I-CV
+14	##민	O	O	O, I-CV, B-CV, B-PS, I-QT
+15	##족	O	O	O, I-CV, I-QT, I-PS, I-LC
+16	'	O	O	O, I-CV, B-PS, B-CV, I-QT
+17	쯤	O	O	O, B-PS, B-QT, B-LC, B-CV
+18	##으로	O	O	O, B-PS, I-QT, I-CV, I-OG
+19	보이	O	O	O, B-QT, B-CV, B-PS, B-TM
+20	##지	O	O	O, I-QT, I-OG, B-PS, B-QT
+21	않	O	O	O, B-CV, I-QT, B-QT, I-OG
+22	##을까	O	O	O, I-OG, I-QT, B-CV, I-CV
+23	.	O	O	O, B-CV, B-TM, I-OG, B-OG
+24	[SEP]	O	O	O, B-CV, B-LC, B-PS, I-OG

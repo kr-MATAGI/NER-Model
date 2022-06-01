@@ -1,0 +1,17 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, I-CV, I-EV, B-CV
+1	한국	B-LC	B-LC	B-LC, B-OG, O, I-LC, B-PS
+2	##에서	O	O	O, I-LC, B-LC, I-OG, B-CV
+3	치맥	O	B-CV	B-CV, O, B-AF, B-OG, B-EV
+4	##이	O	O	O, I-CV, I-AF, B-PS, I-OG
+5	인기	O	O	O, B-CV, B-LC, B-PS, B-OG
+6	##라	O	O	O, B-PS, B-OG, B-CV, B-LC
+7	##죠	O	O	O, I-OG, B-LC, I-AF, B-PS
+8	?	O	O	O, B-PS, B-LC, I-OG, B-CV
+9	""""	O	O	O, B-CV, B-LC, B-PS, B-OG
+10	(	O	O	O, B-CV, B-OG, B-LC, B-PS
+11	아인	B-PS	B-OG	B-OG, B-CV, B-PS, O, B-AF
+12	##리	I-PS	I-OG	I-OG, I-CV, O, I-PS, I-AF
+13	##슈	I-PS	I-OG	I-OG, I-CV, O, I-PS, I-AF
+14	)	O	O	O, I-OG, I-CV, I-AF, I-QT
+15	[SEP]	O	O	O, B-LC, B-CV, I-OG, B-PS

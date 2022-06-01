@@ -1,0 +1,22 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
+1	어	O	O	O, B-CV, B-PS, B-OG, B-LC
+2	유죄	B-CV	O	O, B-CV, I-CV, B-PS, B-OG
+3	##가	O	O	O, I-CV, B-PS, B-CV, I-OG
+4	인정	O	O	O, B-CV, B-PS, I-CV, B-OG
+5	##이	O	O	O, B-PS, B-CV, B-OG, B-LC
+6	되	O	O	O, B-CV, B-PS, B-LC, I-CV
+7	##더라	O	O	O, B-PS, B-CV, I-CV, I-OG
+8	##도	O	O	O, B-CV, B-PS, I-CV, B-LC
+9	내지	O	O	O, B-CV, B-PS, B-OG, B-LC
+10	##는	O	O	O, B-CV, B-PS, B-OG, B-LC
+11	이제	O	O	O, B-CV, B-OG, B-TM, B-PS
+12	이것	O	O	O, B-CV, B-PS, B-LC, B-OG
+13	때문	O	O	O, B-CV, B-PS, B-LC, B-OG
+14	##에	O	O	O, B-CV, B-PS, B-OG, B-LC
+15	탄핵	O	O	O, B-CV, B-EV, B-PS, B-OG
+16	##이	O	O	O, I-EV, B-PS, I-CV, B-CV
+17	되	O	O	O, B-CV, B-PS, B-OG, I-EV
+18	##더라	O	O	O, B-CV, B-PS, I-EV, B-LC
+19	##도	O	O	O, B-CV, B-PS, B-OG, B-LC
+20	[SEP]	O	O	O, B-CV, B-PS, B-LC, B-OG

@@ -1,0 +1,26 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
+1	유심	B-TM	O	O, B-TM, B-CV, B-AF, I-TM
+2	방식	O	O	O, I-TM, I-TR, I-CV, I-AF
+3	##의	O	O	O, I-TM, B-CV, B-PS, I-AF
+4	모바일	B-TM	B-TM	B-TM, O, I-TM, B-CV, B-AF
+5	##카드	I-TM	I-TM	I-TM, O, B-TM, I-AF, I-CV
+6	##는	O	O	O, I-TM, I-AF, I-CV, I-OG
+7	통신사	O	O	O, B-OG, B-LC, B-CV, B-TM
+8	##를	O	O	O, I-OG, B-CV, I-AF, B-PS
+9	변경	O	O	O, B-CV, B-TM, B-PS, B-LC
+10	##해서	O	O	O, B-PS, B-LC, B-AF, B-TM
+11	휴대	B-TM	B-TM	B-TM, O, B-CV, B-AF, I-TM
+12	##전	I-TM	I-TM	I-TM, O, I-CV, I-AF, B-TM
+13	##화	I-TM	I-TM	I-TM, O, I-CV, I-AF, I-OG
+14	##를	O	O	O, I-TM, I-AF, I-CV, I-OG
+15	바꿀	O	O	O, B-CV, B-AF, B-TM, B-OG
+16	경우	O	O	O, B-CV, B-TM, B-OG, B-LC
+17	재발	O	O	O, B-CV, B-TM, B-LC, B-OG
+18	##급	O	O	O, I-CV, B-CV, I-OG, I-AF
+19	절차	O	O	O, B-CV, B-LC, B-TM, I-EV
+20	##를	O	O	O, B-CV, B-OG, B-TM, B-LC
+21	거쳐야	O	O	O, B-CV, B-OG, B-TM, B-LC
+22	한다	O	O	O, B-CV, B-TM, B-OG, B-LC
+23	.	O	O	O, B-CV, B-LC, B-TM, B-OG
+24	[SEP]	O	O	O, B-CV, B-TM, B-LC, I-AF

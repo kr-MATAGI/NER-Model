@@ -1,0 +1,26 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
+1	그	O	O	O, B-OG, B-CV, B-LC, B-AF
+2	여행사	O	O	O, B-OG, B-CV, B-AF, I-OG
+3	##에서	O	O	O, I-OG, B-CV, I-CV, B-PS
+4	이제	O	O	O, B-CV, B-OG, B-TM, B-PS
+5	팀장	O	B-CV	B-CV, O, I-CV, B-QT, B-TM
+6	##급	O	O	O, I-CV, B-CV, I-QT, I-OG
+7	##들	O	O	O, I-CV, I-QT, I-OG, I-DT
+8	##로	O	O	O, B-CV, B-PS, I-CV, I-QT
+9	해	O	O	O, B-CV, B-OG, B-TM, B-QT
+10	가지	O	O	O, B-CV, B-OG, B-PS, B-LC
+11	##고	O	O	O, B-PS, B-LC, B-OG, B-CV
+12	이제	O	O	O, B-CV, B-OG, B-TM, B-LC
+13	그	O	O	O, B-OG, B-CV, B-LC, B-AF
+14	항공사	O	O	O, B-OG, B-CV, B-AF, I-OG
+15	직원	B-CV	B-CV	B-CV, O, I-CV, B-OG, I-OG
+16	##하고	O	O	O, I-CV, I-OG, B-CV, I-QT
+17	시모	O	O	O, B-OG, B-CV, B-QT, B-LC
+18	##사	O	O	O, I-OG, I-CV, I-QT, I-AF
+19	직원	B-CV	B-CV	B-CV, O, I-CV, I-OG, I-QT
+20	##하고	O	O	O, I-CV, I-OG, I-QT, B-CV
+21	해	O	O	O, B-CV, B-TM, B-OG, B-QT
+22	가지	O	O	O, B-CV, B-OG, B-TM, B-QT
+23	##고	O	O	O, B-CV, B-OG, B-LC, B-PS
+24	[SEP]	O	O	O, B-CV, B-OG, B-LC, I-OG

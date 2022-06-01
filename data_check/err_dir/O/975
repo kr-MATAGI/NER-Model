@@ -1,0 +1,23 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
+1	치과	O	B-FD	B-FD, O, B-TR, I-FD, B-TM
+2	##용	O	O	O, I-FD, I-TR, I-AF, I-QT
+3	임	B-TR	B-TR	B-TR, O, I-TR, B-FD, B-TM
+4	##플	I-TR	I-TR	I-TR, O, B-TR, I-FD, I-TM
+5	##란트	I-TR	I-TR	I-TR, O, B-TR, I-FD, I-TM
+6	##가	O	O	O, I-TR, I-AF, I-QT, I-TM
+7	구	B-QT	B-QT	B-QT, I-QT, O, B-DT, B-LC
+8	##십	I-QT	I-QT	I-QT, B-QT, O, I-LC, I-DT
+9	##오	I-QT	I-QT	I-QT, B-QT, O, I-LC, I-PS
+10	프로	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
+11	##가	O	O	O, I-QT, I-OG, I-EV, I-AF
+12	전부	O	O	O, B-QT, B-OG, I-QT, B-LC
+13	외국	O	O	O, B-LC, B-CV, B-OG, B-TM
+14	##에서	O	O	O, B-PS, B-LC, B-CV, B-OG
+15	이렇게	O	O	O, B-CV, B-OG, B-QT, B-LC
+16	수입	O	O	O, B-CV, B-LC, B-TM, B-OG
+17	##을	O	O	O, B-CV, B-PS, I-OG, I-CV
+18	해왔	O	O	O, B-CV, B-PS, B-OG, B-LC
+19	##어요	O	O	O, B-CV, B-OG, I-AF, I-OG
+20	.	O	O	O, B-CV, B-LC, B-PS, B-OG
+21	[SEP]	O	O	O, B-CV, B-LC, I-AF, B-QT

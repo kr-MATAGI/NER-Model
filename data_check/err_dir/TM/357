@@ -1,0 +1,17 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
+1	딸기	B-PT	B-PT	B-PT, B-CV, O, I-PT, B-EV
+2	재배	O	O	O, I-PT, B-PT, I-CV, I-OG
+3	,	O	O	O, I-OG, B-CV, I-CV, B-OG
+4	산림	O	O	O, B-OG, B-TM, B-PT, B-LC
+5	협력	O	O	O, I-OG, I-TM, I-LC, I-CV
+6	,	O	O	O, I-OG, I-TM, I-AF, B-CV
+7	한옥	B-TM	B-TM	B-TM, O, B-CV, I-TM, B-TR
+8	##보	I-TM	I-TM	I-TM, O, I-CV, I-TR, I-AF
+9	##존	I-TM	O	O, I-TM, I-CV, I-OG, I-TR
+10	##사업	I-TM	O	O, I-TM, I-CV, I-OG, I-TR
+11	##도	O	O	O, I-TM, I-OG, I-CV, I-AF
+12	잇따른	O	O	O, B-LC, B-OG, B-CV, I-OG
+13	##다	O	O	O, B-CV, I-OG, B-OG, B-LC
+14	.	O	O	O, B-LC, I-OG, B-OG, B-TM
+15	[SEP]	O	O	O, I-OG, B-TM, B-LC, B-OG

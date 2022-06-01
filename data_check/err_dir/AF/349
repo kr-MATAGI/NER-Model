@@ -1,0 +1,24 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-EV
+1	매일	O	O	O, B-DT, B-CV, B-LC, B-PS
+2	밤	B-TI	B-TI	B-TI, O, B-EV, I-TI, B-LC
+3	진실	O	O	O, I-AF, B-PS, B-AF, I-TI
+4	##의	O	O	O, I-AF, B-PS, I-PS, I-LC
+5	촛불	O	O	O, B-AF, B-CV, I-AF, B-MT
+6	##을	O	O	O, I-AF, B-PS, I-CV, B-CV
+7	밝히	O	O	O, B-CV, B-PS, B-LC, B-AF
+8	##는	O	O	O, B-PS, B-LC, B-CV, B-OG
+9	성숙	O	O	O, B-PS, B-CV, B-LC, B-OG
+10	##한	O	O	O, B-PS, I-PS, B-LC, B-OG
+11	국민	B-CV	B-CV	B-CV, O, B-OG, B-PS, I-CV
+12	##들이	O	O	O, I-CV, I-OG, B-PS, I-AF
+13	국정원	B-AF	B-OG	B-OG, B-AF, O, B-FD, B-TM
+14	##을	O	O	O, I-OG, I-AF, I-EV, I-CV
+15	개혁	O	O	O, B-CV, B-PS, B-TR, B-LC
+16	##하고	O	O	O, B-CV, B-PS, I-CV, I-EV
+17	##야	O	O	O, B-CV, B-PS, B-LC, I-OG
+18	말	O	O	O, B-CV, B-PS, B-LC, B-OG
+19	것	O	O	O, B-CV, B-PS, I-OG, B-OG
+20	##이다	O	O	O, B-CV, I-OG, B-PS, I-CV
+21	.	O	O	O, B-PS, B-CV, B-LC, B-OG
+22	[SEP]	O	O	O, B-CV, B-PS, B-LC, I-AF

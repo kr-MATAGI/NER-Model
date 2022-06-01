@@ -1,0 +1,24 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
+1	하	O	O	O, B-CV, B-OG, B-TM, B-LC
+2	.	O	O	O, B-CV, B-LC, B-PS, I-OG
+3	옛날	O	O	O, B-DT, B-CV, B-LC, B-AF
+4	##에	O	O	O, B-PS, B-CV, I-DT, B-OG
+5	티비	B-TM	B-EV	B-EV, B-TM, B-AF, O, B-LC
+6	시사	O	I-EV	I-EV, O, I-AF, B-EV, B-FD
+7	##토	O	I-EV	I-EV, O, I-AF, I-OG, I-FD
+8	##론	O	I-EV	I-EV, O, I-AF, I-OG, I-CV
+9	뭐	O	O	O, I-EV, I-AF, I-OG, I-CV
+10	이런	O	O	O, B-CV, I-EV, B-OG, B-LC
+11	데	O	O	O, B-CV, B-OG, B-LC, B-PS
+12	나왔	O	O	O, B-CV, B-PS, B-OG, B-LC
+13	##을	O	O	O, B-CV, B-PS, B-LC, B-OG
+14	때	O	O	O, B-CV, B-PS, B-QT, B-DT
+15	##보	O	O	O, B-CV, B-PS, B-DT, I-DT
+16	##다	O	O	O, B-CV, B-PS, B-DT, I-DT
+17	더	O	O	O, B-CV, B-LC, B-QT, B-OG
+18	긴장	O	O	O, B-CV, B-EV, B-AF, B-TM
+19	##돼	O	O	O, I-CV, I-AF, I-EV, B-CV
+20	##요	O	O	O, B-CV, B-OG, I-OG, I-AF
+21	.	O	O	O, B-CV, B-LC, B-PS, B-OG
+22	[SEP]	O	O	O, B-CV, B-LC, B-PS, I-AF

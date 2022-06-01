@@ -1,0 +1,19 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-EV, I-OG, B-CV, I-AF
+1	30	B-TI	B-TI	B-TI, O, B-QT, B-EV, I-TI
+2	##분	I-TI	I-TI	I-TI, O, I-QT, I-EV, B-TI
+3	##의	O	O	O, I-TI, I-EV, I-QT, I-TR
+4	교전	O	O	O, I-EV, I-QT, B-LC, B-EV
+5	##이	O	O	O, B-PS, I-EV, B-LC, B-OG
+6	끝난	O	O	O, B-LC, B-AF, B-CV, B-QT
+7	참	B-AF	B-AF	B-AF, O, B-TM, B-QT, I-AF
+8	##수리	I-AF	I-AF	I-AF, O, I-TM, I-QT, I-EV
+9	35	I-AF	I-AF	I-AF, B-QT, I-QT, I-TM, B-AF
+10	##7	I-AF	I-QT	I-QT, I-AF, I-TM, B-QT, O
+11	##호	I-AF	I-QT	I-QT, I-AF, O, I-TM, I-LC
+12	##는	O	O	O, I-AF, I-QT, I-EV, I-TM
+13	참혹	O	O	O, B-TM, B-LC, B-CV, B-OG
+14	##했	O	O	O, B-LC, I-AF, B-PS, I-OG
+15	##다	O	O	O, B-CV, B-LC, I-AF, I-OG
+16	.	O	O	O, B-LC, B-PS, B-AF, B-CV
+17	[SEP]	O	O	O, B-LC, I-AF, B-CV, B-AF

@@ -1,0 +1,22 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
+1	군	B-CV	B-CV	B-CV, B-OG, O, B-AF, B-LC
+2	가산점	I-CV	I-CV	I-CV, B-CV, O, I-OG, I-AF
+3	##제	I-CV	I-CV	I-CV, O, I-OG, B-CV, I-AF
+4	##도	I-CV	I-CV	I-CV, O, I-OG, B-CV, I-AF
+5	##는	O	O	O, I-CV, I-OG, I-AF, I-EV
+6	이미	O	O	O, B-OG, B-PS, B-LC, B-CV
+7	헌재	B-OG	B-OG	B-OG, O, I-OG, B-AF, B-CV
+8	##에서	O	O	O, I-OG, B-CV, I-AF, I-CV
+9	한	O	B-QT	B-QT, O, I-QT, B-PS, B-CV
+10	번	O	I-QT	I-QT, O, B-QT, I-LC, I-PS
+11	위헌	O	O	O, B-CV, I-QT, I-CV, B-TM
+12	##이	O	O	O, I-CV, B-PS, I-QT, I-PS
+13	##라고	O	O	O, B-PS, B-OG, B-CV, I-CV
+14	판단	O	O	O, B-CV, B-PS, B-OG, B-QT
+15	##을	O	O	O, B-CV, B-OG, I-CV, I-OG
+16	내렸	O	O	O, B-CV, B-OG, B-PS, B-LC
+17	##습	O	O	O, B-CV, B-OG, B-LC, B-QT
+18	##니다	O	O	O, B-CV, B-OG, B-LC, B-QT
+19	.	O	O	O, B-CV, B-OG, B-LC, B-PS
+20	[SEP]	O	O	O, B-CV, B-OG, B-LC, I-OG

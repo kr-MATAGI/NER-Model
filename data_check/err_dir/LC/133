@@ -1,0 +1,19 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
+1	도시	O	O	O, B-LC, B-CV, B-AF, B-TM
+2	숲	O	O	O, I-LC, I-AF, I-CV, B-LC
+3	서울	B-LC	B-LC	B-LC, O, B-AF, B-OG, B-PS
+4	숲	I-LC	O	O, I-LC, I-AF, B-LC, I-PS
+5	같	O	O	O, I-LC, I-AF, I-OG, I-CV
+6	##은	O	O	O, B-LC, B-PS, B-OG, I-LC
+7	걸	O	O	O, B-PS, B-LC, B-CV, B-OG
+8	또	O	O	O, B-CV, B-LC, B-OG, B-PS
+9	해	O	O	O, B-LC, B-OG, B-CV, B-PS
+10	##달	O	O	O, B-LC, I-LC, B-OG, B-PS
+11	##란	O	O	O, I-OG, B-LC, I-LC, B-PS
+12	나라	O	O	O, B-LC, B-OG, B-CV, I-OG
+13	##도	O	O	O, I-OG, B-CV, I-LC, I-CV
+14	있	O	O	O, B-CV, B-OG, B-LC, B-QT
+15	##어요	O	O	O, B-CV, I-OG, I-CV, B-OG
+16	.	O	O	O, B-LC, B-CV, B-OG, B-PS
+17	[SEP]	O	O	O, B-CV, B-LC, B-OG, I-OG

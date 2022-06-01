@@ -1,0 +1,27 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
+1	쇼트트랙	B-CV	B-CV	B-CV, O, B-FD, I-CV, B-EV
+2	##과	O	O	O, I-CV, B-CV, I-OG, I-AF
+3	스피드	B-CV	B-CV	B-CV, B-FD, O, B-EV, I-CV
+4	##스케	I-CV	I-CV	I-CV, O, B-CV, I-FD, I-OG
+5	##이팅	I-CV	I-CV	I-CV, O, I-OG, I-FD, B-CV
+6	##의	O	O	O, I-CV, B-CV, I-AF, I-OG
+7	프로	O	O	O, B-CV, B-FD, B-TR, B-QT
+8	##화	O	O	O, I-CV, I-TR, I-FD, I-TM
+9	##인	O	O	O, I-CV, I-TR, I-QT, I-FD
+10	경	B-CV	B-CV	B-CV, O, B-PS, B-AF, I-CV
+11	##빙	I-CV	O	O, I-CV, I-AF, I-TM, I-PS
+12	##에	O	O	O, I-CV, I-AF, I-OG, I-TM
+13	가장	O	O	O, B-CV, B-OG, B-TM, B-QT
+14	관심	O	O	O, B-CV, B-LC, B-TM, B-OG
+15	##을	O	O	O, B-CV, B-OG, B-LC, B-PS
+16	갖	O	O	O, B-CV, B-OG, B-LC, B-TM
+17	##고	O	O	O, B-CV, B-LC, B-TM, B-OG
+18	있	O	O	O, B-CV, B-LC, B-OG, B-TM
+19	##는	O	O	O, B-CV, B-LC, B-OG, B-TM
+20	나라	O	O	O, B-CV, B-LC, B-OG, B-PS
+21	##는	O	O	O, B-CV, B-LC, B-OG, B-TM
+22	러시아	B-LC	B-LC	B-LC, B-OG, O, B-CV, B-PS
+23	##다	O	O	O, I-OG, I-LC, I-AF, I-CV
+24	.	O	O	O, B-LC, I-OG, B-CV, B-OG
+25	[SEP]	O	O	O, B-CV, B-LC, I-OG, B-OG

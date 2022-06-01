@@ -1,0 +1,10 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-AF
+1	행위	O	B-TM	B-TM, O, B-CV, B-AF, B-TR
+2	##자	O	I-TM	I-TM, O, I-CV, I-AF, I-TR
+3	열전	O	I-TM	I-TM, O, I-AF, B-TM, I-CV
+4	편찬	O	I-TM	I-TM, O, I-AF, I-TR, I-CV
+5	사업	O	I-TM	I-TM, O, I-AF, I-TR, B-TM
+6	##이	O	O	O, I-TM, B-TM, I-CV, I-QT
+7	##라는	O	O	O, I-TM, B-TM, B-CV, B-OG
+8	[SEP]	O	O	O, B-TM, I-TM, B-CV, B-LC

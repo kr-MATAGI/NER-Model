@@ -1,0 +1,23 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-QT
+1	시즌	O	O	O, B-DT, B-CV, I-DT, B-OG
+2	타율	O	B-TM	B-TM, O, B-AF, B-CV, B-QT
+3	##은	O	O	O, I-TM, I-QT, I-OG, I-CV
+4	0	B-QT	B-QT	B-QT, I-QT, O, B-LC, B-TM
+5	.	I-QT	I-QT	I-QT, O, I-TM, I-LC, B-QT
+6	25	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-TM
+7	##8	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-TM
+8	(	O	O	O, I-QT, B-CV, I-OG, I-EV
+9	163	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-EV
+10	##타	I-QT	I-QT	I-QT, O, I-EV, B-QT, I-TM
+11	##수	I-QT	I-QT	I-QT, O, I-EV, I-TM, I-LC
+12	42	B-QT	B-QT	B-QT, I-QT, O, B-TM, B-DT
+13	##안	I-QT	I-QT	I-QT, O, B-QT, I-TM, I-EV
+14	##타	I-QT	I-QT	I-QT, O, I-TM, I-LC, B-QT
+15	)	O	O	O, I-QT, I-OG, I-EV, B-CV
+16	을	O	O	O, B-CV, B-OG, B-PS, B-LC
+17	유지	O	O	O, B-CV, B-OG, B-LC, B-TM
+18	##했	O	O	O, B-CV, B-PS, B-OG, B-LC
+19	##다	O	O	O, B-CV, B-OG, B-LC, I-OG
+20	.	O	O	O, B-LC, B-CV, B-OG, B-PS
+21	[SEP]	O	O	O, B-CV, B-LC, B-OG, I-OG

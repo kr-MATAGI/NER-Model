@@ -1,0 +1,12 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, I-EV, I-CV, B-CV
+1	■	O	O	O, B-LC, B-PS, B-CV, B-OG
+2	10	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-QT
+3	##일	I-DT	I-DT	I-DT, O, I-EV, B-DT, I-QT
+4	크로아티아	B-EV	B-EV	B-EV, O, B-LC, I-EV, B-CV
+5	##전	I-EV	I-EV	I-EV, O, B-EV, I-AF, I-LC
+6	‘	O	O	O, I-EV, I-AF, I-OG, I-DT
+7	키	O	O	O, B-CV, B-AM, B-PS, B-TM
+8	플레이어	B-CV	O	O, B-CV, I-CV, I-PS, B-AM
+9	’	O	O	O, I-CV, B-CV, I-QT, B-PS
+10	[SEP]	O	O	O, B-CV, B-LC, B-PS, I-CV

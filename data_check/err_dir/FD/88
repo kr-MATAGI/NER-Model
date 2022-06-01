@@ -1,0 +1,23 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
+1	메이저	O	O	O, B-CV, B-OG, B-LC, B-FD
+2	투자	O	O	O, B-CV, I-OG, I-CV, B-OG
+3	·	O	O	O, I-OG, I-CV, B-CV, B-OG
+4	배급사	O	O	O, I-OG, I-CV, B-CV, B-OG
+5	##의	O	O	O, I-OG, I-CV, B-PS, B-CV
+6	작품	O	O	O, B-FD, B-CV, B-AF, B-LC
+7	##들	O	O	O, I-AF, B-CV, I-CV, I-OG
+8	##만	O	O	O, B-LC, B-QT, B-PS, B-OG
+9	극장	O	O	O, B-LC, B-AF, B-OG, B-TM
+10	##에서	O	O	O, I-AF, I-LC, I-OG, I-QT
+11	살아남	O	O	O, B-CV, B-TM, B-LC, B-OG
+12	##으면	O	O	O, B-LC, B-PS, B-OG, B-TM
+13	한국	B-FD	B-LC	B-LC, B-FD, O, B-OG, B-AF
+14	##영화	I-FD	O	O, I-FD, B-FD, I-LC, I-OG
+15	다양	O	O	O, I-FD, I-OG, B-CV, I-CV
+16	##성	O	O	O, B-LC, B-PS, I-OG, I-LC
+17	##은	O	O	O, B-CV, B-TM, B-PS, B-LC
+18	사라	O	O	O, B-CV, B-QT, B-TM, B-PS
+19	##집니다	O	O	O, B-CV, I-OG, I-QT, I-CV
+20	.	O	O	O, B-LC, B-CV, B-OG, I-OG
+21	[SEP]	O	O	O, B-CV, B-LC, I-OG, B-OG

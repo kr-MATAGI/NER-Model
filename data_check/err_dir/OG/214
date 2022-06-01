@@ -1,0 +1,19 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, I-AF, I-EV, I-CV
+1	폴로	B-OG	B-AF	B-AF, B-PS, B-OG, O, B-LC
+2	##저	I-OG	I-AF	I-AF, I-PS, I-OG, O, I-LC
+3	##는	O	O	O, I-AF, I-OG, I-PS, I-EV
+4	184	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-LC
+5	##9	I-DT	I-DT	I-DT, O, B-DT, I-PS, I-QT
+6	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
+7	프랑스	B-LC	B-LC	B-LC, O, B-OG, I-DT, I-LC
+8	샹	B-LC	B-LC	B-LC, O, I-LC, B-OG, B-AF
+9	##파	I-LC	I-LC	I-LC, O, B-LC, I-OG, I-AF
+10	##뉴	I-LC	I-LC	I-LC, O, B-LC, I-OG, I-AF
+11	지방	I-LC	I-LC	I-LC, O, B-LC, I-OG, I-AF
+12	##에서	O	O	O, I-LC, I-OG, I-AF, B-LC
+13	설립	O	O	O, B-CV, B-OG, I-OG, I-AF
+14	##됐	O	O	O, I-OG, I-AF, B-OG, B-CV
+15	##다	O	O	O, I-OG, B-CV, I-AF, B-OG
+16	.	O	O	O, B-LC, I-OG, B-OG, B-PS
+17	[SEP]	O	O	O, B-LC, I-OG, B-OG, I-AF

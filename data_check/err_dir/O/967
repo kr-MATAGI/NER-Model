@@ -1,0 +1,21 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
+1	산업	O	B-OG	B-OG, O, I-OG, B-LC, B-CV
+2	##부	O	I-OG	I-OG, O, I-CV, I-EV, B-OG
+3	##는	O	O	O, I-OG, B-CV, I-EV, I-CV
+4	국내	O	O	O, B-LC, B-OG, B-TM, B-FD
+5	원전	O	O	O, B-AF, B-FD, B-TM, B-LC
+6	해체	O	O	O, I-AF, B-CV, I-OG, B-LC
+7	기술	O	O	O, B-LC, B-CV, B-PS, B-OG
+8	##을	O	O	O, B-CV, B-OG, B-LC, I-OG
+9	선진국	O	O	O, B-OG, B-LC, B-CV, B-EV
+10	대비	O	O	O, I-OG, B-QT, B-TM, B-CV
+11	70	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-LC
+12	%	I-QT	I-QT	I-QT, O, I-LC, I-OG, I-PS
+13	수준	O	O	O, I-QT, I-OG, B-QT, I-EV
+14	##으로	O	O	O, I-QT, B-QT, B-OG, B-PS
+15	평가	O	O	O, B-CV, I-QT, B-OG, I-OG
+16	##했	O	O	O, B-OG, B-CV, B-LC, B-PS
+17	##다	O	O	O, B-CV, B-LC, I-OG, B-OG
+18	.	O	O	O, B-LC, B-OG, B-CV, B-PS
+19	[SEP]	O	O	O, B-LC, B-OG, B-CV, I-OG

@@ -1,0 +1,16 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
+1	인간	O	O	O, B-CV, B-AM, B-PS, B-AF
+2	대신	O	O	O, B-CV, B-PS, B-QT, B-TM
+3	올	B-AM	B-AM	B-AM, B-CV, B-TM, O, B-PS
+4	##빼	I-AM	I-AM	I-AM, I-CV, I-TM, O, I-PT
+5	##미	I-AM	I-AM	I-AM, I-CV, I-TM, O, I-PT
+6	##를	O	O	O, I-CV, B-CV, I-TM, I-QT
+7	주인공	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-AM
+8	##으로	O	O	O, I-CV, B-CV, B-QT, B-TM
+9	내세운	O	O	O, B-LC, B-TM, B-OG, B-CV
+10	판타지	B-FD	B-FD	B-FD, O, B-TR, I-FD, B-AF
+11	소설	B-FD	I-FD	I-FD, B-FD, O, I-AF, I-TR
+12	##이다	O	O	O, I-FD, I-AF, I-OG, I-CV
+13	.	O	O	O, B-CV, B-LC, B-TM, B-PS
+14	[SEP]	O	O	O, B-CV, B-TM, B-LC, B-FD

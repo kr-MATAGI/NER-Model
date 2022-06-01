@@ -1,0 +1,14 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, I-AF, I-CV, I-EV
+1	낮	B-TI	B-TI	B-TI, O, I-TI, B-LC, B-EV
+2	##과	O	O	O, I-TI, I-AF, I-QT, I-EV
+3	심야	B-TI	O	O, B-TI, I-TI, B-LC, B-CV
+4	##시간	O	O	O, I-TI, B-TI, I-AF, I-LC
+5	##대로	O	O	O, I-TI, B-TI, B-PS, B-LC
+6	밀리	O	O	O, B-LC, B-TI, B-OG, B-AF
+7	##기	O	O	O, I-AF, B-LC, I-OG, B-PS
+8	##도	O	O	O, I-OG, I-AF, B-LC, I-LC
+9	했	O	O	O, B-CV, B-LC, B-PS, B-OG
+10	##다	O	O	O, B-CV, I-AF, I-OG, B-LC
+11	.	O	O	O, B-LC, B-OG, B-CV, B-PS
+12	[SEP]	O	O	O, B-LC, B-CV, I-AF, B-OG

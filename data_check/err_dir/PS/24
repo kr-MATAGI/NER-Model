@@ -1,0 +1,11 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, I-EV, I-CV, B-CV
+1	○	B-PS	O	O, B-CV, B-OG, B-PS, B-LC
+2	예산안	O	O	O, B-CV, B-FD, B-OG, B-AF
+3	처리	O	O	O, I-OG, I-CV, I-AF, I-EV
+4	##는	O	O	O, B-LC, B-PS, B-CV, B-OG
+5	가시	O	O	O, B-AM, B-PT, B-PS, B-AF
+6	##밭	O	O	O, I-AF, I-LC, I-PS, B-PS
+7	##길	O	O	O, I-AF, I-LC, B-PS, I-PS
+8	?	O	O	O, I-AF, B-CV, B-LC, B-PS
+9	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-PS

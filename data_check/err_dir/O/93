@@ -1,0 +1,16 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
+1	‘	O	O	O, B-CV, B-LC, B-OG, B-TM
+2	도가니	B-AF	B-AF	B-AF, B-PS, B-LC, O, B-EV
+3	’	O	O	O, I-AF, I-EV, B-CV, I-OG
+4	재수사	O	O	O, B-CV, B-OG, B-TM, B-LC
+5	14	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-PS
+6	##명	I-QT	I-QT	I-QT, O, I-LC, I-PS, I-EV
+7	입건	O	O	O, I-QT, B-CV, I-CV, B-TM
+8	…	O	O	O, B-CV, B-OG, B-PS, I-CV
+9	성폭행	O	B-CV	B-CV, O, I-CV, B-TM, B-FD
+10	후유증	O	O	O, I-CV, B-CV, B-TM, B-PS
+11	근거	O	O	O, B-CV, B-PS, I-CV, B-LC
+12	##로	O	O	O, B-CV, B-PS, B-LC, B-OG
+13	처벌	O	O	O, B-CV, B-TM, B-OG, B-PS
+14	[SEP]	O	O	O, B-CV, B-LC, I-CV, B-PS

@@ -1,0 +1,27 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
+1	엠	B-OG	B-PS	B-PS, B-OG, B-AF, O, B-TM
+2	##바로	I-OG	I-PS	I-PS, I-OG, I-AF, O, I-TM
+3	##는	O	O	O, I-OG, I-PS, I-AF, I-TM
+4	SK	B-OG	B-OG	B-OG, B-LC, B-TM, B-AF, B-PS
+5	##텔	I-OG	I-OG	I-OG, B-OG, I-PS, I-TM, I-LC
+6	##레	I-OG	I-OG	I-OG, B-OG, I-TM, I-PS, I-LC
+7	##콤	I-OG	I-OG	I-OG, I-TM, I-PS, I-LC, I-QT
+8	·	O	O	O, I-OG, I-AF, I-QT, I-LC
+9	다음	B-OG	B-OG	B-OG, B-TM, B-AF, B-LC, I-OG
+10	·	O	O	O, I-OG, I-AF, I-LC, I-QT
+11	곰	B-OG	B-OG	B-OG, B-TM, B-AF, B-LC, I-OG
+12	##TV	I-OG	I-OG	I-OG, I-TM, I-AF, O, I-QT
+13	·	O	O	O, I-OG, I-AF, I-TM, I-QT
+14	벅스	B-OG	B-TM	B-TM, B-OG, O, B-AF, B-LC
+15	등	O	O	O, I-OG, I-TM, I-AF, B-CV
+16	##과	O	O	O, B-CV, B-OG, B-LC, B-TM
+17	##도	O	O	O, B-LC, B-OG, B-CV, B-TM
+18	영화	O	O	O, B-FD, B-CV, B-LC, B-TM
+19	공급	O	O	O, B-CV, B-OG, B-LC, B-TM
+20	##을	O	O	O, B-OG, B-LC, B-CV, B-PS
+21	협의	O	O	O, B-OG, B-TM, B-CV, B-LC
+22	중	O	O	O, B-OG, B-LC, I-OG, B-PS
+23	##이다	O	O	O, I-OG, B-CV, B-OG, I-QT
+24	.	O	O	O, B-OG, B-LC, I-OG, B-TM
+25	[SEP]	O	O	O, B-OG, I-OG, B-LC, B-CV

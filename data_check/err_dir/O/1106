@@ -1,0 +1,25 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-EV, I-OG, I-CV
+1	공청회	O	B-EV	B-EV, O, B-CV, B-OG, I-EV
+2	##에	O	O	O, I-EV, I-OG, I-CV, I-AF
+3	참석	O	O	O, B-CV, B-OG, B-PS, B-LC
+4	##한	O	O	O, B-PS, B-CV, I-CV, B-OG
+5	토론자	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-AF
+6	##들	O	O	O, I-CV, I-OG, I-EV, I-QT
+7	##도	O	O	O, B-CV, B-LC, B-PS, B-OG
+8	출제	O	O	O, B-CV, B-LC, B-PS, B-FD
+9	##범	O	O	O, I-CV, B-CV, B-PS, B-LC
+10	##위	O	O	O, B-LC, B-CV, B-PS, I-CV
+11	##에	O	O	O, B-CV, B-LC, B-PS, I-CV
+12	대한	O	O	O, B-LC, B-OG, B-PS, B-TM
+13	이견	O	O	O, B-CV, B-LC, B-TM, B-PS
+14	##을	O	O	O, B-CV, I-CV, B-OG, I-OG
+15	보이	O	O	O, B-CV, B-LC, B-OG, B-TM
+16	##며	O	O	O, B-LC, B-CV, B-OG, B-TM
+17	팽팽	O	O	O, B-CV, B-LC, B-TM, B-OG
+18	##히	O	O	O, B-LC, B-OG, B-CV, B-PS
+19	맞섰	O	O	O, B-CV, B-LC, B-OG, B-TM
+20	##습	O	O	O, B-CV, B-LC, B-OG, I-EV
+21	##니다	O	O	O, B-CV, B-LC, B-EV, B-OG
+22	.	O	O	O, B-CV, B-LC, B-OG, B-PS
+23	[SEP]	O	O	O, B-CV, B-LC, B-OG, I-EV

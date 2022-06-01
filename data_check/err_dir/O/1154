@@ -1,0 +1,20 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-AF
+1	50	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-EV
+2	##세	I-QT	I-QT	I-QT, O, I-EV, I-LC, I-DT
+3	이상	I-QT	I-QT	I-QT, O, I-LC, I-EV, I-PS
+4	인구	O	O	O, I-QT, B-CV, I-CV, I-AF
+5	비율	O	O	O, B-TM, B-OG, I-OG, I-QT
+6	##은	O	O	O, B-CV, B-OG, B-TM, B-PS
+7	2020	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-LC
+8	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
+9	##엔	O	O	O, I-DT, I-QT, B-CV, I-AF
+10	46	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-LC
+11	%	I-QT	I-QT	I-QT, O, I-LC, I-DT, I-EV
+12	로	O	O	O, I-QT, I-OG, I-EV, I-AF
+13	절반	O	B-QT	B-QT, O, I-QT, B-DT, B-EV
+14	##에	O	O	O, I-QT, I-OG, I-CV, I-EV
+15	육박	O	O	O, B-CV, I-QT, B-TM, B-OG
+16	##한다	O	O	O, B-CV, I-OG, B-OG, B-TM
+17	.	O	O	O, B-CV, B-OG, B-LC, I-OG
+18	[SEP]	O	O	O, B-CV, I-OG, B-OG, B-LC

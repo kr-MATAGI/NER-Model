@@ -1,0 +1,25 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
+1	지난	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-OG
+2	주말	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-CV
+3	서울	B-LC	B-LC	B-LC, O, B-OG, B-AF, B-EV
+4	지하철	B-AF	B-AF	B-AF, O, I-AF, B-LC, B-OG
+5	2	B-AF	B-AF	B-AF, I-AF, O, B-LC, B-OG
+6	##호	I-AF	I-AF	I-AF, O, I-OG, I-QT, I-LC
+7	##선	I-AF	I-AF	I-AF, O, I-QT, I-OG, I-EV
+8	강남역	B-LC	B-LC	B-LC, I-AF, O, I-LC, B-AF
+9	##의	O	O	O, I-AF, I-LC, I-OG, I-EV
+10	승강장	O	O	O, B-LC, B-AF, B-TM, B-CV
+11	##에서	O	O	O, I-AF, B-LC, B-CV, B-PS
+12	정진	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
+13	##규	I-PS	I-PS	I-PS, O, I-OG, I-LC, I-DT
+14	시인	O	B-CV	B-CV, O, I-CV, I-PS, B-FD
+15	##의	O	O	O, I-CV, I-AF, I-OG, I-EV
+16	‘	O	O	O, B-CV, B-LC, B-OG, B-AF
+17	별	O	O	O, B-AF, B-PS, B-AM, B-LC
+18	’	O	O	O, I-AF, I-CV, I-OG, I-EV
+19	과	O	O	O, B-CV, B-OG, B-PS, B-LC
+20	만났	O	O	O, B-CV, B-OG, I-EV, B-TM
+21	##다	O	O	O, B-CV, I-AF, I-EV, I-OG
+22	.	O	O	O, B-LC, B-AF, B-OG, B-CV
+23	[SEP]	O	O	O, B-LC, B-AF, I-AF, B-CV

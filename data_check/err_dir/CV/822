@@ -1,0 +1,16 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
+1	어	O	O	O, B-CV, B-OG, B-FD, B-TM
+2	식탁	O	O	O, B-CV, B-AF, B-FD, I-AF
+3	##에	O	O	O, B-CV, I-CV, I-AF, B-PS
+4	자주	O	O	O, B-CV, B-PS, B-TM, B-AF
+5	등장	O	O	O, B-CV, B-PS, B-AF, B-TM
+6	##하	O	O	O, B-CV, B-PS, B-LC, B-AF
+7	##는	O	O	O, B-CV, B-PS, B-OG, B-LC
+8	단골	B-CV	O	O, B-CV, B-AF, B-PS, B-QT
+9	재료	O	O	O, I-CV, B-CV, I-AF, B-PS
+10	##들이	O	O	O, I-CV, I-AF, B-CV, B-PS
+11	있	O	O	O, B-CV, B-PS, B-OG, B-TM
+12	##죠	O	O	O, B-CV, I-CV, B-OG, I-OG
+13	.	O	O	O, B-CV, B-PS, B-AF, B-FD
+14	[SEP]	O	O	O, B-CV, B-FD, I-AF, B-AF

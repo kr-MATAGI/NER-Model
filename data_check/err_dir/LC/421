@@ -1,0 +1,15 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
+1	[	O	O	O, B-LC, B-OG, B-CV, B-DT
+2	전북	B-LC	B-LC	B-LC, B-OG, O, B-PS, B-AF
+3	]	O	O	O, I-OG, I-LC, B-LC, I-EV
+4	익산	B-LC	B-OG	B-OG, B-LC, O, B-PS, B-AF
+5	##시	I-LC	I-LC	I-LC, I-OG, O, I-PS, I-AF
+6	,	O	O	O, I-OG, I-LC, I-AF, I-EV
+7	청사	O	O	O, B-AF, B-CV, B-EV, I-AF
+8	신축	O	O	O, B-CV, I-AF, I-EV, B-AF
+9	대신	O	O	O, B-CV, I-AF, B-LC, I-CV
+10	리모	O	O	O, B-CV, B-LC, B-TM, B-EV
+11	##델	O	O	O, B-CV, B-LC, I-CV, I-AF
+12	##링	O	O	O, B-CV, B-LC, I-EV, B-PS
+13	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-AF

@@ -1,0 +1,16 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-QT
+1	16	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-QT
+2	##일	I-DT	I-DT	I-DT, O, B-DT, I-EV, I-QT
+3	오전	B-TI	B-TI	B-TI, I-TI, I-DT, O, B-EV
+4	11	I-TI	I-TI	I-TI, B-TI, O, I-DT, I-EV
+5	##시	I-TI	I-TI	I-TI, O, B-TI, I-QT, I-TR
+6	##경	I-TI	I-TI	I-TI, O, I-TR, I-QT, B-TI
+7	전남	B-LC	B-LC	B-LC, O, B-OG, I-TI, I-LC
+8	여수	B-EV	B-EV	B-EV, B-LC, B-AF, O, I-EV
+9	##엑스	I-EV	I-EV	I-EV, I-LC, O, I-AF, B-EV
+10	##포	I-EV	I-EV	I-EV, I-LC, O, I-AF, I-OG
+11	크루즈	B-AF	B-AF	B-AF, O, I-AF, I-EV, B-OG
+12	부두	B-AF	O	O, I-AF, I-LC, B-LC, I-EV
+13	.	O	O	O, I-AF, I-LC, I-OG, B-LC
+14	[SEP]	O	O	O, B-LC, B-OG, B-AF, B-CV

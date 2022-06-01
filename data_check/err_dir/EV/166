@@ -1,0 +1,22 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
+1	포천	B-EV	B-LC	B-LC, B-EV, O, B-AF, B-OG
+2	군	I-EV	B-EV	B-EV, O, I-EV, B-LC, B-AF
+3	##시험	I-EV	I-EV	I-EV, O, I-LC, I-AF, I-OG
+4	##장	I-EV	I-EV	I-EV, O, I-LC, I-AF, I-OG
+5	폭발	I-EV	I-EV	I-EV, O, B-EV, I-AF, B-AF
+6	##사고	I-EV	I-EV	I-EV, O, I-AF, I-OG, I-LC
+7	/	O	O	O, I-EV, I-OG, B-OG, I-AF
+8	국과	B-OG	B-OG	B-OG, O, B-AF, B-LC, B-EV
+9	##연	I-OG	I-OG	I-OG, O, I-EV, I-AF, I-LC
+10	<	O	O	O, I-OG, I-AF, I-EV, B-OG
+11	국방	B-OG	B-OG	B-OG, O, B-AF, I-OG, B-EV
+12	##과학	I-OG	I-OG	I-OG, O, I-AF, I-EV, B-OG
+13	##연구소	I-OG	I-OG	I-OG, O, I-AF, I-EV, I-LC
+14	>	O	O	O, I-OG, I-AF, I-EV, I-CV
+15	직원	B-CV	B-CV	B-CV, O, B-TM, B-AF, B-EV
+16	등	O	O	O, I-CV, I-EV, B-CV, I-QT
+17	6	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-PS
+18	##명	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
+19	사상	O	O	O, I-QT, B-CV, B-TM, B-QT
+20	[SEP]	O	O	O, B-LC, B-OG, B-CV, I-EV

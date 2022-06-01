@@ -1,0 +1,20 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-EV, I-OG, I-CV
+1	수천	O	O	O, B-PS, B-CV, B-LC, B-QT
+2	관중	O	B-CV	B-CV, O, I-CV, B-PS, B-OG
+3	##의	O	O	O, I-CV, B-PS, B-CV, I-OG
+4	박수	O	O	O, B-TM, B-CV, B-LC, B-AF
+5	##와	O	O	O, B-PS, I-AF, B-OG, B-CV
+6	환호	O	O	O, B-CV, B-TM, B-AF, B-LC
+7	속	O	O	O, B-CV, B-TM, B-LC, B-PS
+8	##에	O	O	O, B-CV, B-OG, B-PS, I-AF
+9	한	O	O	O, B-QT, B-LC, B-PS, B-OG
+10	중년	O	O	O, B-CV, B-QT, I-QT, B-PS
+11	여성	O	O	O, I-CV, I-QT, B-CV, I-OG
+12	##이	O	O	O, B-PS, B-CV, B-OG, B-AF
+13	불	O	O	O, B-CV, B-AF, B-PS, B-MT
+14	##을	O	O	O, B-CV, I-AF, I-CV, B-PS
+15	붙였	O	O	O, B-CV, B-PS, B-AF, B-LC
+16	##다	O	O	O, B-CV, I-EV, I-AF, I-CV
+17	.	O	O	O, B-PS, B-CV, B-LC, B-OG
+18	[SEP]	O	O	O, B-CV, B-PS, B-AF, B-OG

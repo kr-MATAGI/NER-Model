@@ -1,0 +1,26 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
+1	그	O	O	O, B-CV, B-OG, B-LC, B-TM
+2	~	O	O	O, B-CV, I-CV, B-LC, B-PS
+3	남자	O	O	O, B-CV, I-CV, B-AM, B-PS
+4	##들	O	O	O, I-CV, B-CV, I-AF, B-PS
+5	이번	O	O	O, B-CV, B-DT, B-LC, B-PS
+6	##에	O	O	O, B-CV, I-CV, B-PS, I-EV
+7	그렇게	O	O	O, B-CV, B-LC, B-TM, B-DT
+8	더	O	O	O, B-CV, B-LC, B-EV, B-DT
+9	##웠	O	O	O, B-CV, I-EV, I-CV, B-LC
+10	##는데	O	O	O, B-CV, I-CV, I-EV, B-LC
+11	##두	O	O	O, B-CV, B-LC, B-TM, B-DT
+12	정장	B-CV	B-CV	B-CV, O, B-AF, B-TM, I-CV
+13	바지	O	B-CV	B-CV, I-CV, O, I-AF, B-TM
+14	반바지	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-AF
+15	입	O	O	O, I-CV, B-CV, I-AF, I-EV
+16	##고	O	O	O, B-CV, I-CV, B-PS, B-LC
+17	##도	O	O	O, B-CV, B-LC, B-PS, B-TM
+18	회사	O	O	O, B-CV, B-LC, B-TM, B-AF
+19	출근	O	O	O, B-CV, B-TM, B-LC, B-AF
+20	하	O	O	O, B-CV, I-CV, I-AF, B-PS
+21	##는	O	O	O, B-CV, B-LC, I-AF, B-TM
+22	거	O	O	O, B-CV, B-LC, B-TM, B-PS
+23	##는	O	O	O, B-CV, B-TM, B-LC, B-OG
+24	[SEP]	O	O	O, B-CV, B-LC, I-AF, I-EV

@@ -1,0 +1,12 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
+1	그니까	O	O	O, B-CV, B-OG, B-LC, B-TM
+2	섬유	O	B-MT	B-MT, O, B-CV, B-PT, B-TM
+3	산업	O	O	O, I-CV, I-MT, I-TM, I-OG
+4	##은	O	O	O, I-CV, B-CV, I-OG, I-TM
+5	지식	B-OG	B-OG	B-OG, O, B-LC, I-OG, B-AF
+6	##경제	I-OG	I-OG	I-OG, O, I-CV, I-EV, I-LC
+7	##부	I-OG	I-OG	I-OG, O, I-CV, I-LC, I-AF
+8	##에서	O	O	O, I-OG, I-AF, I-EV, I-CV
+9	하지만	O	O	O, B-CV, B-OG, I-OG, B-TM
+10	[SEP]	O	O	O, B-CV, B-OG, B-LC, I-OG

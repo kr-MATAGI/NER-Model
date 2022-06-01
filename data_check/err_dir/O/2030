@@ -1,0 +1,12 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
+1	지금	O	O	O, B-CV, B-OG, B-TM, B-QT
+2	##은	O	O	O, B-CV, B-PS, B-OG, B-LC
+3	기름	O	B-CV	B-CV, O, B-MT, I-CV, B-PT
+4	##의	O	O	O, I-CV, I-AF, I-OG, B-CV
+5	온도	O	O	O, B-QT, B-CV, B-LC, B-OG
+6	보	O	O	O, B-CV, B-OG, B-TM, B-LC
+7	##셨	O	O	O, B-CV, B-OG, B-LC, I-OG
+8	##죠	O	O	O, B-CV, B-OG, I-OG, B-LC
+9	?	O	O	O, B-CV, I-OG, B-PS, B-LC
+10	[SEP]	O	O	O, B-CV, B-LC, B-OG, I-OG

@@ -1,0 +1,16 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-AF
+1	노량진	B-LC	B-LC	B-LC, O, B-OG, B-AF, B-EV
+2	수산	B-LC	I-LC	I-LC, O, B-LC, I-AF, I-OG
+3	##시장	I-LC	I-LC	I-LC, O, I-AF, I-OG, B-LC
+4	옥상	O	O	O, B-TM, B-AF, I-LC, B-LC
+5	##은	O	O	O, I-AF, I-TM, B-CV, I-OG
+6	평소	O	O	O, B-CV, B-LC, B-PS, B-OG
+7	출입	O	O	O, B-LC, B-TM, B-CV, B-OG
+8	##이	O	O	O, B-PS, B-LC, B-OG, B-CV
+9	통제	O	O	O, B-CV, B-TM, B-LC, B-PS
+10	##된	O	O	O, B-LC, B-PS, B-OG, B-CV
+11	공간	O	O	O, B-LC, B-CV, B-TM, B-PS
+12	##이다	O	O	O, B-CV, B-TM, B-LC, I-AF
+13	.	O	O	O, B-LC, B-PS, B-CV, B-OG
+14	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-PS

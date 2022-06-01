@@ -1,0 +1,20 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-AF
+1	연극	B-FD	B-FD	B-FD, O, I-FD, B-TR, B-CV
+2	##을	O	O	O, I-FD, I-AF, I-EV, I-OG
+3	본	O	O	O, B-PS, B-LC, B-CV, B-TM
+4	뒤	O	O	O, B-TM, B-CV, B-LC, B-PS
+5	,	O	O	O, B-LC, B-CV, B-PS, B-OG
+6	주한	O	O	O, B-AF, B-OG, B-LC, B-CV
+7	일본	B-AF	B-AF	B-AF, I-AF, I-OG, B-OG, O
+8	##대사	I-AF	I-AF	I-AF, I-OG, O, B-AF, I-LC
+9	##관	I-AF	I-AF	I-AF, I-OG, O, I-LC, B-AF
+10	앞	O	B-TM	B-TM, O, I-AF, I-TM, B-CV
+11	소녀	B-AF	B-AF	B-AF, I-AF, O, B-LC, B-TM
+12	##상	I-AF	I-AF	I-AF, O, I-EV, I-LC, I-TM
+13	##이	O	O	O, I-AF, I-EV, B-CV, B-PS
+14	달라	O	O	O, B-CV, B-TM, B-OG, B-LC
+15	보일지	O	O	O, B-CV, B-OG, B-LC, I-OG
+16	모른다	O	O	O, B-CV, B-TM, B-LC, B-OG
+17	.	O	O	O, B-LC, B-CV, B-OG, B-PS
+18	[SEP]	O	O	O, B-CV, B-LC, I-AF, B-OG

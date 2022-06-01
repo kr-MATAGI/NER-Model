@@ -1,0 +1,12 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-AF
+1	오빠	B-CV	B-CV	B-CV, O, B-OG, B-AF, B-DT
+2	국	B-CV	O	O, I-CV, B-CV, B-OG, I-OG
+3	중	O	O	O, I-CV, I-OG, B-QT, I-QT
+4	##에	O	O	O, I-CV, B-CV, I-OG, I-AF
+5	뭐	O	O	O, B-CV, B-OG, B-TM, B-LC
+6	제일	O	O	O, B-CV, B-QT, B-LC, B-OG
+7	중요	O	O	O, B-CV, B-OG, B-TM, B-LC
+8	##해	O	O	O, B-LC, B-OG, I-OG, B-CV
+9	?	O	O	O, B-CV, I-OG, I-AF, B-OG
+10	[SEP]	O	O	O, B-CV, B-LC, B-OG, I-AF

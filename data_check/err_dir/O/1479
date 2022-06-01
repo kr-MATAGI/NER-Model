@@ -1,0 +1,23 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
+1	아시아	O	B-EV	B-EV, B-LC, O, B-OG, B-AF
+2	##경기	O	I-EV	I-EV, O, I-LC, I-OG, B-EV
+3	첫	O	O	O, I-EV, B-LC, B-QT, I-OG
+4	바둑	O	B-CV	B-CV, O, B-EV, B-TM, B-AF
+5	금메달	B-CV	B-CV	B-CV, O, I-CV, I-EV, B-AF
+6	(	O	O	O, I-CV, I-EV, B-CV, I-AF
+7	혼	O	O	O, B-CV, B-TM, B-LC, B-TR
+8	##성	O	O	O, I-CV, B-CV, I-TM, I-TR
+9	##복	O	O	O, I-CV, I-TM, B-CV, I-TR
+10	##식	O	O	O, I-CV, I-TM, I-TR, B-CV
+11	)	O	O	O, I-CV, B-CV, I-TM, B-OG
+12	의	O	O	O, B-PS, B-CV, B-OG, B-LC
+13	주인공	B-CV	B-CV	B-CV, O, I-CV, B-PS, B-TM
+14	이슬	O	O	O, B-PS, I-CV, B-AM, B-CV
+15	##아가	O	O	O, B-PS, I-PS, I-CV, B-CV
+16	양보	O	O	O, B-CV, B-PS, B-TM, B-OG
+17	##를	O	O	O, B-CV, B-PS, B-OG, I-OG
+18	했	O	O	O, B-CV, B-OG, B-PS, B-LC
+19	##다	O	O	O, B-CV, I-CV, I-OG, B-LC
+20	.	O	O	O, B-CV, B-PS, B-LC, B-OG
+21	[SEP]	O	O	O, B-CV, B-PS, B-LC, I-OG

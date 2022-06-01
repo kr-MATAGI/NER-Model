@@ -1,0 +1,24 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, B-CV, I-EV, I-CV
+1	장기	O	O	O, B-LC, B-CV, B-TM, B-PS
+2	##적으로	O	O	O, B-PS, B-LC, B-EV, I-EV
+3	월드컵	B-EV	B-EV	B-EV, O, B-CV, B-AF, B-LC
+4	우승	O	O	O, I-EV, B-CV, B-EV, B-TM
+5	##을	O	O	O, I-EV, B-PS, B-CV, B-OG
+6	목표	O	O	O, B-LC, B-CV, B-OG, B-TM
+7	##로	O	O	O, B-PS, B-OG, B-LC, I-OG
+8	하고	O	O	O, B-PS, B-LC, B-OG, B-CV
+9	있	O	O	O, B-OG, B-CV, B-PS, B-LC
+10	##는	O	O	O, B-OG, B-LC, B-CV, B-PS
+11	일본	B-LC	B-OG	B-OG, B-LC, O, B-PS, I-OG
+12	##은	O	O	O, I-OG, I-LC, B-CV, I-EV
+13	단독	O	O	O, B-TM, B-LC, B-QT, B-EV
+14	개최	O	O	O, I-EV, I-QT, B-CV, I-OG
+15	##에	O	O	O, B-CV, B-LC, B-OG, B-PS
+16	대한	O	O	O, B-LC, B-OG, B-PS, B-TM
+17	의지	O	O	O, B-CV, B-LC, B-OG, B-TM
+18	##가	O	O	O, B-PS, B-OG, B-CV, B-LC
+19	강하	O	O	O, B-CV, B-OG, B-LC, B-PS
+20	##다	O	O	O, I-OG, B-CV, I-CV, I-AF
+21	.	O	O	O, B-LC, B-CV, B-OG, B-PS
+22	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-PS

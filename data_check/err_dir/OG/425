@@ -1,0 +1,27 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
+1	이명박	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
+2	정부	B-OG	B-OG	B-OG, I-PS, I-OG, O, B-AF
+3	##는	O	O	O, I-OG, B-CV, I-AF, I-PS
+4	역사	O	O	O, B-FD, B-CV, B-TR, B-AF
+5	##인	O	O	O, I-CV, I-FD, I-TR, B-CV
+6	##식	O	O	O, I-CV, I-TR, I-FD, I-AF
+7	##과	O	O	O, B-PS, B-CV, B-LC, I-CV
+8	외교	O	O	O, B-FD, B-CV, B-TR, B-LC
+9	##안	O	O	O, I-FD, B-FD, I-CV, I-TR
+10	##보	O	O	O, I-FD, I-CV, I-TR, B-FD
+11	현안	O	O	O, B-CV, B-FD, B-LC, B-TM
+12	##을	O	O	O, B-CV, B-PS, B-OG, B-LC
+13	분리	O	O	O, B-LC, B-TM, B-CV, B-OG
+14	##하	O	O	O, B-PS, B-LC, B-OG, B-CV
+15	##는	O	O	O, B-PS, B-LC, B-OG, B-TM
+16	쪽	O	O	O, B-PS, B-TM, B-OG, B-QT
+17	##이	O	O	O, B-PS, B-OG, B-CV, B-LC
+18	##고	O	O	O, I-OG, B-CV, B-LC, B-OG
+19	,	O	O	O, B-CV, B-LC, B-OG, B-PS
+20	일본	B-OG	B-LC	B-LC, B-OG, O, B-PS, B-AF
+21	##도	O	O	O, I-LC, I-OG, I-AF, I-CV
+22	마찬가지	O	O	O, B-LC, B-CV, B-OG, B-TM
+23	##다	O	O	O, B-CV, I-OG, B-OG, I-AF
+24	.	O	O	O, B-LC, B-CV, B-PS, B-FD
+25	[SEP]	O	O	O, B-CV, B-LC, B-FD, B-PS

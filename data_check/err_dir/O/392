@@ -1,0 +1,12 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
+1	헌법	O	B-CV	B-CV, O, B-OG, I-CV, B-AF
+2	##상	O	O	O, I-CV, I-OG, I-AF, I-DT
+3	권한	O	O	O, B-CV, I-CV, B-PS, B-TM
+4	##은	O	O	O, B-CV, I-CV, B-PS, B-LC
+5	다	O	O	O, B-CV, B-PS, B-OG, B-LC
+6	행사	O	O	O, B-CV, B-PS, B-LC, B-TM
+7	##하	O	O	O, B-PS, B-CV, B-LC, I-OG
+8	##겠다	O	O	O, B-CV, I-OG, B-OG, I-AF
+9	.	O	O	O, B-CV, I-OG, B-LC, B-OG
+10	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG

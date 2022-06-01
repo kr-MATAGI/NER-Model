@@ -1,0 +1,26 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
+1	케냐	B-LC	B-LC	B-LC, O, B-OG, I-LC, B-CV
+2	출신	O	O	O, B-CV, I-LC, I-CV, B-PS
+3	마라	B-CV	B-CV	B-CV, O, B-PS, B-AF, B-TM
+4	##토	I-CV	I-CV	I-CV, O, B-CV, I-PS, I-AF
+5	##너	I-CV	I-CV	I-CV, O, B-CV, I-PS, I-AF
+6	윌슨	B-PS	B-PS	B-PS, O, I-PS, B-LC, B-OG
+7	로	I-PS	I-PS	I-PS, O, B-PS, I-LC, B-LC
+8	##야	I-PS	I-PS	I-PS, O, I-LC, B-LC, B-PS
+9	##나	I-PS	I-PS	I-PS, O, I-LC, B-LC, B-PS
+10	##에	I-PS	I-PS	I-PS, O, I-LC, B-LC, B-PS
+11	에	I-PS	B-PS	B-PS, I-PS, B-LC, O, I-LC
+12	##루	I-PS	I-PS	I-PS, O, I-LC, B-PS, B-LC
+13	##페	I-PS	I-PS	I-PS, O, I-LC, B-LC, B-PS
+14	(	O	O	O, I-PS, B-CV, B-LC, I-LC
+15	27	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-LC
+16	)	O	O	O, I-QT, I-OG, I-DT, B-CV
+17	가	O	O	O, B-PS, B-LC, B-OG, B-CV
+18	23	B-DT	B-DT	B-DT, O, I-DT, B-PS, B-QT
+19	##일	I-DT	I-DT	I-DT, O, I-PS, B-DT, I-QT
+20	입국	O	O	O, I-DT, B-CV, B-LC, B-PS
+21	##했	O	O	O, B-LC, B-PS, B-OG, B-CV
+22	##다	O	O	O, B-CV, B-LC, B-PS, B-OG
+23	.	O	O	O, B-LC, B-PS, B-CV, B-OG
+24	[SEP]	O	O	O, B-LC, B-CV, B-PS, B-OG

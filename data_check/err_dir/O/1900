@@ -1,0 +1,10 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-CV, I-OG, B-CV, I-EV
+1	발생	O	O	O, B-CV, B-OG, B-TM, B-DT
+2	두	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-LC
+3	##달	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
+4	지나	O	O	O, I-DT, I-OG, I-QT, B-CV
+5	##서	O	O	O, B-OG, B-PS, I-DT, B-LC
+6	교육청	O	B-OG	B-OG, O, I-OG, B-CV, B-EV
+7	보고	O	O	O, I-OG, I-CV, I-EV, I-AF
+8	[SEP]	O	O	O, B-CV, I-OG, B-OG, B-LC

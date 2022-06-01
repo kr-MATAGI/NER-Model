@@ -1,0 +1,16 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-EV
+1	[	O	O	O, B-OG, B-LC, B-DT, B-PS
+2	한겨레	B-OG	B-OG	B-OG, B-LC, O, B-AF, B-PS
+3	]	O	O	O, I-OG, I-AF, I-EV, I-DT
+4	권리	O	O	O, B-TM, B-AF, B-CV, B-AM
+5	##찾	O	O	O, I-TM, I-AF, I-TR, I-CV
+6	##기	O	O	O, I-TM, I-AF, I-TR, I-AM
+7	길	O	I-TM	I-TM, O, I-AF, B-TM, B-AF
+8	##라	O	I-TM	I-TM, O, I-AF, I-AM, I-CV
+9	##잡이	O	O	O, I-TM, I-AF, I-AM, I-CV
+10	개정	O	O	O, B-QT, I-TM, B-CV, I-AF
+11	##3	B-QT	B-QT	B-QT, I-QT, O, I-TM, I-AF
+12	##판	I-QT	I-QT	I-QT, O, B-QT, I-TM, I-LC
+13	나와	O	O	O, I-QT, B-CV, B-OG, I-TM
+14	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-TM

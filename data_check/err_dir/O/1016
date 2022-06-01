@@ -1,0 +1,26 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
+1	'	O	O	O, B-CV, B-LC, B-PS, B-OG
+2	양	O	O	O, B-PS, B-AM, B-LC, B-PT
+3	(	O	O	O, I-PS, B-PS, B-AM, I-AM
+4	[UNK]	O	O	O, B-PS, I-PS, B-AM, B-LC
+5	)	O	O	O, B-PS, I-PS, B-LC, B-AM
+6	김	O	B-PS	B-PS, O, I-PS, B-LC, B-OG
+7	##씨	O	O	O, I-PS, B-CV, I-LC, B-PS
+8	다음	O	O	O, B-PS, B-CV, I-PS, B-LC
+9	##에	O	O	O, B-PS, B-CV, I-PS, B-OG
+10	##는	O	O	O, B-PS, B-LC, B-CV, B-OG
+11	목화	O	B-OG	B-OG, O, B-CV, B-LC, B-EV
+12	##연합	O	I-OG	I-OG, O, I-CV, I-PS, I-EV
+13	(	O	O	O, I-OG, I-CV, B-PS, I-EV
+14	木	O	O	O, B-PS, B-LC, B-CV, B-AM
+15	火	O	O	O, B-PS, B-LC, B-CV, I-PS
+16	[UNK]	O	O	O, B-PS, B-LC, B-CV, I-PS
+17	合	O	O	O, B-PS, I-PS, B-LC, B-CV
+18	)	O	O	O, B-PS, B-LC, B-CV, I-PS
+19	정권	O	O	O, B-CV, B-OG, B-PS, I-CV
+20	##이	O	O	O, B-PS, I-CV, I-PS, B-CV
+21	들어선다	O	O	O, B-PS, B-CV, B-OG, B-LC
+22	'	O	O	O, B-CV, B-LC, I-OG, B-OG
+23	.	O	O	O, B-CV, B-LC, B-OG, B-PS
+24	[SEP]	O	O	O, B-PS, B-LC, B-CV, B-OG

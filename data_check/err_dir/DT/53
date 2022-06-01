@@ -1,0 +1,24 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-QT
+1	한국	B-EV	B-EV	B-EV, O, B-LC, B-OG, B-AF
+2	##시	I-EV	I-EV	I-EV, O, B-EV, I-OG, I-AF
+3	##리	I-EV	I-EV	I-EV, O, I-OG, B-EV, I-AF
+4	##즈	I-EV	I-EV	I-EV, O, B-EV, I-OG, I-AF
+5	3	B-QT	B-QT	B-QT, I-EV, I-QT, B-EV, B-DT
+6	##연	I-QT	I-QT	I-QT, I-EV, O, I-AF, I-DT
+7	##패	I-QT	I-QT	I-QT, I-EV, O, I-LC, I-TM
+8	##에	O	O	O, I-QT, I-EV, I-OG, I-AF
+9	도전	O	O	O, B-CV, B-OG, B-LC, B-TM
+10	##하	O	O	O, B-OG, B-LC, B-PS, B-CV
+11	##는	O	O	O, B-OG, B-LC, B-CV, B-PS
+12	SK	B-OG	B-OG	B-OG, O, B-LC, B-AF, I-OG
+13	##가	O	O	O, I-OG, I-AF, I-EV, I-CV
+14	전반기	B-DT	O	O, B-DT, B-TI, I-DT, B-EV
+15	##를	O	O	O, I-DT, I-EV, I-OG, B-CV
+16	1	B-QT	B-QT	B-QT, O, I-QT, B-EV, B-DT
+17	##위	I-QT	I-QT	I-QT, O, I-EV, I-OG, I-LC
+18	##로	O	O	O, I-QT, I-EV, I-OG, I-AF
+19	마쳤	O	O	O, B-CV, B-OG, I-QT, B-QT
+20	##다	O	O	O, B-CV, I-OG, B-OG, B-QT
+21	.	O	O	O, B-OG, B-CV, B-LC, B-PS
+22	[SEP]	O	O	O, B-CV, B-OG, I-EV, I-OG

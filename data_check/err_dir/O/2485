@@ -1,0 +1,23 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-EV, I-OG, I-CV
+1	친	O	O	O, B-PS, B-CV, B-TR, B-EV
+2	##박	O	B-PS	B-PS, O, I-PS, B-LC, B-CV
+3	의원	B-CV	B-CV	B-CV, O, I-CV, I-PS, B-PS
+4	##인	O	O	O, I-CV, B-PS, B-CV, I-EV
+5	권	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
+6	##성동	I-PS	I-PS	I-PS, O, B-PS, I-LC, I-OG
+7	법사	O	O	O, B-OG, B-CV, B-AF, B-LC
+8	##위원	O	O	O, I-OG, I-AF, I-LC, I-EV
+9	##장이	O	O	O, I-OG, I-AF, B-LC, B-PS
+10	안	O	O	O, B-OG, B-LC, B-CV, B-PS
+11	된다고	O	O	O, B-CV, B-PS, B-LC, B-OG
+12	제동	O	O	O, B-CV, B-OG, B-LC, B-AF
+13	##을	O	O	O, I-OG, B-CV, I-EV, I-CV
+14	걸	O	O	O, B-CV, B-OG, B-LC, B-EV
+15	##었	O	O	O, B-CV, B-LC, B-PS, B-OG
+16	##지	O	O	O, B-CV, B-LC, B-OG, I-OG
+17	않	O	O	O, B-LC, I-EV, I-OG, B-CV
+18	##았	O	O	O, B-CV, B-LC, I-EV, I-OG
+19	##습니까	O	O	O, B-LC, B-PS, I-OG, I-EV
+20	?	O	O	O, B-PS, B-LC, B-CV, I-EV
+21	[SEP]	O	O	O, B-CV, B-LC, B-PS, I-EV

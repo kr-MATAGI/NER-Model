@@ -1,0 +1,27 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
+1	우리	O	O	O, B-CV, B-OG, B-PS, B-LC
+2	운명	O	O	O, B-PS, B-CV, B-LC, B-OG
+3	우리	O	O	O, B-PS, B-OG, B-LC, B-CV
+4	##가	O	O	O, B-PS, B-OG, B-LC, I-OG
+5	헤쳐	O	O	O, B-CV, B-OG, B-PS, I-AF
+6	##가	O	O	O, B-CV, B-PS, B-LC, B-OG
+7	##야	O	O	O, B-CV, B-PS, B-LC, B-OG
+8	한다는	O	O	O, B-PS, B-LC, B-CV, B-AF
+9	의지	O	O	O, B-PS, B-CV, B-LC, B-TR
+10	##를	O	O	O, B-CV, B-PS, B-OG, I-AF
+11	절제	O	O	O, B-CV, B-PS, B-LC, B-TM
+12	##된	O	O	O, B-PS, B-LC, B-OG, B-CV
+13	형태	O	O	O, B-PS, B-QT, B-CV, B-LC
+14	##로	O	O	O, B-PS, B-LC, B-CV, B-OG
+15	표현	O	O	O, B-PS, B-LC, B-CV, B-QT
+16	##한	O	O	O, B-PS, B-LC, B-OG, B-CV
+17	게	O	O	O, B-PS, B-LC, B-OG, B-CV
+18	‘	O	O	O, B-CV, B-LC, B-OG, B-TM
+19	한반도	B-LC	B-LC	B-LC, B-AF, O, B-PS, B-CV
+20	운전자	O	B-CV	B-CV, O, I-AF, I-CV, B-AF
+21	##론	O	O	O, I-CV, I-AF, I-TR, I-FD
+22	’	O	O	O, I-AF, I-CV, B-CV, I-EV
+23	이다	O	O	O, B-CV, I-CV, B-TM, B-LC
+24	.	O	O	O, B-CV, B-LC, B-PS, B-OG
+25	[SEP]	O	O	O, B-CV, B-LC, B-PS, I-AF

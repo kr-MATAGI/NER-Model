@@ -1,0 +1,14 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
+1	특히	O	O	O, B-CV, B-QT, B-OG, B-TM
+2	호박	B-CV	B-CV	B-CV, O, B-PT, I-CV, B-OG
+3	고구마	I-CV	B-CV	B-CV, I-CV, O, B-PT, I-PT
+4	아주	O	O	O, I-CV, B-CV, I-OG, I-QT
+5	잘	O	O	O, B-CV, I-CV, B-LC, B-OG
+6	어울리	O	O	O, B-CV, B-LC, B-OG, I-OG
+7	##구	O	O	O, I-OG, I-CV, B-CV, I-QT
+8	그렇	O	O	O, B-CV, B-OG, B-TM, B-LC
+9	##습	O	O	O, B-CV, I-OG, I-CV, I-AF
+10	##니다	O	O	O, B-CV, I-CV, B-OG, I-OG
+11	.	O	O	O, B-CV, B-LC, B-OG, I-OG
+12	[SEP]	O	O	O, B-CV, I-OG, B-LC, B-OG

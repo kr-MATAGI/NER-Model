@@ -1,0 +1,18 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
+1	인하	B-OG	B-OG	B-OG, O, B-AF, B-LC, I-OG
+2	##대	I-OG	I-OG	I-OG, O, I-AF, I-EV, I-LC
+3	총장	O	O	O, B-CV, B-AF, I-OG, B-TM
+4	##실	O	O	O, I-AF, I-OG, I-CV, I-EV
+5	직원	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-OG
+6	##에	O	O	O, I-CV, I-EV, B-CV, I-OG
+7	전화	O	O	O, B-TM, B-LC, B-OG, B-PS
+8	“	O	O	O, B-LC, B-CV, B-OG, I-EV
+9	시국	O	B-EV	B-EV, O, B-CV, B-OG, I-EV
+10	##선언	O	I-EV	I-EV, O, I-OG, I-AF, I-CV
+11	등	O	O	O, I-EV, I-OG, I-AF, I-DT
+12	활동	O	O	O, B-LC, I-EV, B-OG, B-CV
+13	없	O	O	O, B-PS, B-LC, B-OG, B-CV
+14	##나	O	O	O, B-LC, I-OG, B-OG, B-PS
+15	”	O	O	O, B-CV, B-LC, B-OG, I-OG
+16	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-PS

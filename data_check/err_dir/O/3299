@@ -1,0 +1,16 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, I-EV, B-CV, I-CV
+1	◆	O	O	O, B-CV, B-OG, B-LC, B-TM
+2	##철	O	B-MT	B-MT, O, I-MT, B-FD, B-TR
+3	##강	O	I-MT	I-MT, O, B-MT, I-TM, I-TR
+4	기술	O	O	O, I-MT, I-TR, I-FD, I-AF
+5	##을	O	O	O, B-CV, I-OG, I-CV, I-AF
+6	선도	O	O	O, B-CV, B-OG, B-LC, B-PS
+7	##하	O	O	O, B-PS, B-LC, B-OG, I-OG
+8	##는	O	O	O, B-OG, B-LC, B-PS, B-CV
+9	글로벌	O	O	O, B-OG, B-LC, B-CV, B-TM
+10	철강	O	O	O, B-OG, B-MT, I-OG, B-AF
+11	##사	O	O	O, I-OG, I-CV, I-AF, B-OG
+12	비전	O	O	O, B-OG, B-AF, B-TM, B-CV
+13	가동	O	O	O, I-OG, B-OG, B-LC, B-CV
+14	[SEP]	O	O	O, B-LC, B-CV, B-OG, I-OG

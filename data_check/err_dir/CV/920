@@ -1,0 +1,25 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-AF
+1	이순신	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
+2	장군	B-CV	B-CV	B-CV, O, I-PS, I-CV, I-AF
+3	##과	O	O	O, I-CV, I-AF, I-OG, I-PS
+4	수군	B-CV	O	O, B-AF, B-CV, B-OG, I-AF
+5	,	O	O	O, I-AF, I-OG, B-CV, B-PS
+6	명량	B-EV	B-EV	B-EV, B-LC, B-AF, O, B-PS
+7	##해	I-EV	I-EV	I-EV, O, I-AF, B-EV, I-LC
+8	##전	I-EV	I-EV	I-EV, O, I-AF, I-LC, I-QT
+9	등	O	O	O, I-EV, I-AF, I-OG, I-QT
+10	##의	O	O	O, B-CV, B-OG, B-PS, I-AF
+11	내용	O	O	O, B-CV, B-LC, B-TM, B-OG
+12	##을	O	O	O, B-CV, B-PS, B-LC, B-OG
+13	담	O	O	O, B-LC, B-CV, B-PS, B-OG
+14	##은	O	O	O, B-LC, B-CV, B-PS, B-OG
+15	벽화	O	O	O, B-FD, B-CV, B-AF, B-TR
+16	##와	O	O	O, I-AF, I-OG, B-PS, B-CV
+17	조각	O	O	O, B-FD, B-CV, B-TR, B-AF
+18	작품	O	O	O, I-FD, I-OG, I-AF, B-FD
+19	##이	O	O	O, B-PS, B-LC, B-CV, I-OG
+20	많	O	O	O, B-CV, B-LC, B-OG, B-AF
+21	##다	O	O	O, B-CV, I-OG, B-LC, I-AF
+22	.	O	O	O, B-CV, B-LC, B-PS, B-FD
+23	[SEP]	O	O	O, B-CV, B-LC, B-FD, I-AF

@@ -1,0 +1,27 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-QT
+1	국내	O	O	O, B-LC, B-CV, B-OG, B-TM
+2	##에서	O	O	O, B-CV, B-LC, B-TM, B-QT
+3	산후	B-TM	B-TM	B-TM, O, B-CV, I-TM, B-QT
+4	##우	I-TM	I-TM	I-TM, O, B-TM, I-CV, I-QT
+5	##울	I-TM	I-TM	I-TM, O, B-TM, I-CV, I-QT
+6	##증	I-TM	I-TM	I-TM, O, I-CV, I-QT, B-TM
+7	##으로	O	O	O, I-TM, I-QT, I-CV, I-AF
+8	진료	O	O	O, B-CV, B-TM, B-OG, B-LC
+9	##를	O	O	O, B-CV, B-OG, I-AF, I-OG
+10	받	O	O	O, B-CV, B-OG, B-LC, B-TM
+11	##은	O	O	O, B-CV, B-LC, B-OG, B-TM
+12	산모	O	B-CV	B-CV, O, B-OG, B-TM, I-CV
+13	##는	O	O	O, I-CV, I-OG, I-AF, I-QT
+14	전체	O	O	O, B-QT, B-TM, B-CV, B-OG
+15	##의	O	O	O, B-QT, B-TM, B-OG, I-QT
+16	1	B-QT	B-QT	B-QT, I-QT, O, B-DT, B-TI
+17	%	I-QT	I-QT	I-QT, O, I-LC, I-OG, I-EV
+18	가	O	O	O, I-QT, I-OG, I-EV, B-OG
+19	되	O	O	O, B-QT, B-TM, B-CV, B-OG
+20	##지	O	O	O, I-QT, I-OG, B-QT, B-PS
+21	않	O	O	O, I-QT, I-OG, B-CV, B-QT
+22	##는	O	O	O, B-CV, I-QT, I-OG, B-TM
+23	##다	O	O	O, B-CV, I-OG, I-QT, B-TM
+24	.	O	O	O, B-LC, B-CV, B-OG, B-TM
+25	[SEP]	O	O	O, B-CV, B-TM, B-LC, B-OG

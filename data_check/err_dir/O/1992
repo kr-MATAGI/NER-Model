@@ -1,0 +1,23 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-EV
+1	롯데	B-OG	B-OG	B-OG, B-LC, O, B-PS, B-AF
+2	홍성흔	B-PS	B-PS	B-PS, I-PS, O, B-OG, I-OG
+3	(	O	O	O, I-PS, I-OG, B-CV, I-AF
+4	35	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-LC
+5	)	O	O	O, I-QT, I-OG, I-DT, I-EV
+6	은	O	O	O, B-CV, B-LC, B-PS, B-OG
+7	올	B-DT	B-DT	B-DT, O, B-QT, I-DT, B-EV
+8	시즌	I-DT	I-DT	I-DT, O, I-QT, I-EV, I-PS
+9	##을	O	O	O, I-DT, B-CV, I-EV, I-OG
+10	앞두	O	O	O, B-CV, B-LC, B-OG, B-PS
+11	##고	O	O	O, B-PS, B-OG, B-LC, I-OG
+12	롯데	B-OG	B-OG	B-OG, O, B-LC, I-OG, B-PS
+13	##의	O	O	O, I-OG, I-AF, I-CV, I-PS
+14	주장	O	B-CV	B-CV, O, I-CV, B-TM, B-AM
+15	완	O	O	O, B-AM, I-CV, B-TM, B-CV
+16	##장	O	O	O, I-CV, I-AM, I-TM, I-AF
+17	##을	O	O	O, I-CV, B-CV, I-AF, B-PS
+18	찼	O	O	O, B-CV, B-PS, B-OG, B-LC
+19	##다	O	O	O, B-CV, I-CV, I-OG, B-LC
+20	.	O	O	O, B-LC, B-PS, B-OG, B-CV
+21	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-PS

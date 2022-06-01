@@ -1,0 +1,13 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
+1	이대호	B-PS	B-PS	B-PS, O, B-OG, B-AF, I-PS
+2	역전	O	B-TM	B-TM, B-CV, O, B-AF, I-TM
+3	##타	O	I-TM	I-TM, O, I-AF, I-QT, I-CV
+4	…	O	O	O, I-TM, I-AF, I-QT, I-CV
+5	추락	O	O	O, B-TM, B-CV, B-AF, B-OG
+6	##하	O	O	O, B-AF, B-TM, B-CV, B-PS
+7	##는	O	O	O, B-TM, B-CV, B-AF, B-LC
+8	갈매기	B-AM	B-AM	B-AM, O, B-TM, B-PS, B-TR
+9	구하	O	O	O, B-CV, I-TM, I-AF, B-TM
+10	##다	O	O	O, I-QT, I-AF, I-TM, I-OG
+11	[SEP]	O	O	O, B-CV, B-TM, B-AF, B-LC

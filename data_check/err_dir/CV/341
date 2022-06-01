@@ -1,0 +1,12 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-CV, I-OG, B-CV, I-EV
+1	“	O	O	O, B-CV, B-PS, B-LC, B-OG
+2	질병관리본부	B-OG	B-OG	B-OG, O, B-AF, B-CV, B-EV
+3	,	O	O	O, I-OG, I-AF, I-EV, I-CV
+4	차관	B-CV	O	O, B-CV, B-QT, B-TM, B-OG
+5	##급	O	O	O, I-CV, I-QT, I-OG, B-QT
+6	##으로	O	O	O, I-QT, I-CV, B-PS, B-QT
+7	격상	O	O	O, B-CV, B-PS, B-QT, I-CV
+8	##해야	O	O	O, B-PS, I-CV, I-PS, I-OG
+9	”	O	O	O, B-CV, B-PS, B-LC, B-OG
+10	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG

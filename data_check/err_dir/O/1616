@@ -1,0 +1,22 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-EV, I-CV, I-OG
+1	이후	O	O	O, B-CV, B-LC, B-DT, B-OG
+2	##엔	O	O	O, B-CV, B-LC, B-OG, B-PS
+3	광주	B-LC	B-LC	B-LC, B-OG, O, B-PS, B-AF
+4	##의	O	O	O, I-LC, I-OG, I-AF, I-PS
+5	대표	O	O	O, B-LC, B-CV, B-PS, B-TM
+6	##적	O	O	O, B-LC, B-PS, I-LC, I-PS
+7	전통	O	O	O, B-LC, B-CV, I-LC, B-FD
+8	##시장	O	O	O, I-LC, I-CV, B-LC, B-CV
+9	##인	O	O	O, I-CV, I-LC, B-LC, B-CV
+10	양동	O	B-LC	B-LC, O, B-AF, B-OG, I-LC
+11	##시장	O	I-LC	I-LC, O, I-AF, B-LC, I-OG
+12	##을	O	O	O, I-LC, I-AF, B-LC, I-OG
+13	찾아	O	O	O, B-LC, B-CV, B-OG, B-EV
+14	추석	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-CV
+15	민심	O	O	O, I-DT, B-CV, I-EV, I-CV
+16	##을	O	O	O, B-CV, B-OG, B-LC, B-TM
+17	살폈	O	O	O, B-CV, B-LC, B-EV, B-OG
+18	##다	O	O	O, B-CV, B-LC, I-EV, B-OG
+19	.	O	O	O, B-LC, B-CV, B-PS, B-OG
+20	[SEP]	O	O	O, B-LC, B-CV, B-PS, I-LC

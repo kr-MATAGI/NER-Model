@@ -1,0 +1,22 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
+1	경찰	B-OG	B-OG	B-OG, O, B-CV, B-AF, B-LC
+2	##은	O	O	O, I-OG, I-CV, B-CV, I-EV
+3	소변	O	B-TR	B-TR, O, B-TM, B-AM, I-TR
+4	##검사	O	O	O, I-TR, I-TM, B-TR, I-CV
+5	##에	O	O	O, I-TR, I-TM, I-EV, I-CV
+6	이어	O	O	O, B-LC, B-OG, B-CV, B-TM
+7	가	O	O	O, B-TM, B-LC, B-TR, B-CV
+8	##택	O	O	O, I-TM, I-LC, I-TR, I-CV
+9	##수	O	O	O, I-TM, I-TR, I-LC, I-CV
+10	##색	O	O	O, I-TM, I-TR, I-LC, I-CV
+11	##까	O	O	O, I-LC, I-CV, I-TM, B-LC
+12	##지	O	O	O, B-LC, B-CV, B-OG, B-PS
+13	일사	O	O	O, B-CV, B-LC, B-OG, B-TM
+14	##천리	O	O	O, B-LC, B-CV, B-TM, B-OG
+15	##로	O	O	O, B-OG, B-CV, B-LC, I-OG
+16	진행	O	O	O, B-CV, B-OG, B-TM, B-LC
+17	##했	O	O	O, B-CV, B-OG, B-LC, I-OG
+18	##다	O	O	O, B-CV, B-LC, B-TM, I-OG
+19	.	O	O	O, B-LC, B-CV, B-OG, B-TM
+20	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-TM

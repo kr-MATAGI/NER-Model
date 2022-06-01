@@ -1,0 +1,9 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-CV, I-OG, B-CV, I-AF
+1	이	B-PS	B-PS	B-PS, O, B-QT, B-LC, B-OG
+2	##참	I-PS	O	O, I-PS, B-PS, I-QT, I-LC
+3	사장	B-CV	B-CV	B-CV, O, I-CV, I-PS, I-QT
+4	임기	O	O	O, I-CV, B-CV, B-PS, I-DT
+5	내	O	O	O, I-DT, I-PS, B-PS, I-CV
+6	##에	O	O	O, B-CV, B-OG, I-OG, I-QT
+7	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG

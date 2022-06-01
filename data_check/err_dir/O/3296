@@ -1,0 +1,10 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-CV, I-OG, B-CV, I-AF
+1	왼편	O	B-TM	B-TM, O, B-CV, B-LC, B-OG
+2	##에	O	O	O, I-TM, I-AF, I-OG, I-CV
+3	##는	O	O	O, B-CV, B-OG, I-AF, B-LC
+4	소망	B-OG	B-OG	B-OG, B-AF, O, B-PS, B-LC
+5	##교회	I-OG	I-OG	I-OG, I-AF, O, I-LC, I-PS
+6	xx	O	O	O, I-OG, I-AF, I-CV, I-EV
+7	##다	O	O	O, I-OG, I-AF, I-CV, B-OG
+8	[SEP]	O	O	O, B-CV, B-OG, I-OG, I-AF

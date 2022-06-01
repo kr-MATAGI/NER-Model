@@ -1,0 +1,13 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-AF
+1	저희	O	O	O, B-CV, B-OG, B-LC, B-PS
+2	##가	O	O	O, B-CV, B-OG, B-PS, I-AF
+3	두	B-TI	B-TI	B-TI, B-QT, O, B-EV, I-TI
+4	시간	I-TI	I-TI	I-TI, I-QT, O, I-TR, B-TI
+5	시간	O	I-TI	I-TI, O, I-QT, I-TR, B-TI
+6	##이	O	O	O, I-TI, B-PS, I-QT, I-AF
+7	여유	O	O	O, B-CV, B-LC, B-TM, B-TI
+8	##가	O	O	O, I-AF, I-OG, B-PS, I-CV
+9	있	O	O	O, B-CV, I-AF, B-LC, I-OG
+10	##는데	O	O	O, B-CV, B-OG, B-LC, I-AF
+11	[SEP]	O	O	O, B-CV, B-LC, B-OG, I-AF

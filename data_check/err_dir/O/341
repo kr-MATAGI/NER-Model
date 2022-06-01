@@ -1,0 +1,19 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-QT
+1	지	B-PS	B-PS	B-PS, O, B-OG, B-CV, I-PS
+2	##단	I-PS	I-PS	I-PS, O, I-OG, I-LC, I-CV
+3	##은	O	O	O, I-PS, I-OG, I-CV, I-AF
+4	현재	O	O	O, B-CV, B-OG, B-QT, B-PS
+5	레알	B-OG	B-OG	B-OG, O, B-LC, B-AF, I-OG
+6	마드리드	I-OG	I-OG	I-OG, O, I-LC, I-EV, I-AF
+7	##의	O	O	O, I-OG, I-AF, B-CV, I-EV
+8	기술	O	B-CV	B-CV, O, B-TM, B-AM, I-CV
+9	##고	O	I-CV	I-CV, O, B-CV, I-QT, I-TM
+10	##문	O	I-CV	I-CV, O, B-CV, I-TM, I-QT
+11	##을	O	O	O, I-CV, B-CV, B-PS, I-QT
+12	맡	O	O	O, B-CV, B-PS, B-LC, B-OG
+13	##고	O	O	O, B-PS, B-CV, B-LC, I-CV
+14	있	O	O	O, B-CV, B-PS, B-LC, I-CV
+15	##다	O	O	O, B-CV, I-OG, B-PS, B-OG
+16	.	O	O	O, B-PS, B-CV, B-LC, B-OG
+17	[SEP]	O	O	O, B-CV, B-PS, B-LC, B-OG

@@ -1,0 +1,24 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
+1	설	B-DT	B-DT	B-DT, O, I-DT, B-CV, B-PS
+2	다음	B-DT	I-DT	I-DT, B-DT, O, B-CV, I-CV
+3	날	I-DT	I-DT	I-DT, O, B-DT, I-CV, I-QT
+4	##인	O	O	O, I-DT, B-CV, B-PS, I-CV
+5	1	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-LC
+6	##월	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-AF
+7	24	I-DT	I-DT	I-DT, B-DT, O, I-QT, I-PS
+8	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-OG
+9	##부터	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-CV
+10	조	B-PS	B-PS	B-PS, O, I-PS, B-OG, I-DT
+11	군	O	O	O, B-CV, I-PS, B-OG, B-PS
+12	##의	O	O	O, B-CV, B-PS, I-CV, I-OG
+13	눈물	O	O	O, B-CV, B-TM, B-LC, B-PS
+14	##겨운	O	O	O, B-LC, B-TM, B-PS, B-CV
+15	감량	O	O	O, B-TM, B-CV, B-LC, B-EV
+16	행군	O	O	O, B-CV, I-TM, I-CV, B-TM
+17	##이	O	O	O, I-CV, B-PS, B-CV, I-EV
+18	시작	O	O	O, B-CV, B-OG, B-TM, B-LC
+19	##됐	O	O	O, B-CV, I-CV, B-LC, B-TM
+20	##다	O	O	O, B-CV, B-TM, B-LC, I-CV
+21	.	O	O	O, B-CV, B-LC, B-PS, B-OG
+22	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-PS

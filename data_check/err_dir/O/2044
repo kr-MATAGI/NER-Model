@@ -1,0 +1,12 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-CV, I-OG, B-CV, I-EV
+1	‘	O	O	O, B-CV, B-LC, B-OG, B-TM
+2	물량	O	O	O, B-CV, B-AF, B-LC, B-PS
+3	밀어내	O	O	O, B-PS, B-CV, I-EV, B-EV
+4	##기	O	O	O, I-EV, I-CV, I-PS, I-TM
+5	’	O	O	O, B-PS, B-CV, B-LC, B-OG
+6	남양유업	B-OG	B-OG	B-OG, O, B-LC, B-PS, B-AF
+7	대표	B-CV	B-CV	B-CV, O, I-CV, I-OG, B-TM
+8	집	O	B-CV	B-CV, O, I-CV, B-MT, B-AF
+9	##유	O	I-CV	I-CV, O, I-MT, I-AF, I-TM
+10	[SEP]	O	O	O, I-CV, I-AF, I-OG, I-EV

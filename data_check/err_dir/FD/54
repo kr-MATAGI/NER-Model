@@ -1,0 +1,15 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-AF
+1	청춘	O	O	O, B-FD, B-EV, B-TM, B-AF
+2	주제	O	O	O, I-FD, I-AF, I-OG, B-FD
+3	책	O	O	O, B-FD, B-CV, B-AF, I-FD
+4	고르	O	O	O, B-CV, I-AF, B-TM, I-OG
+5	##고	O	O	O, B-CV, I-AF, B-TM, I-OG
+6	대형	O	O	O, B-TM, B-CV, B-FD, B-AF
+7	그라	B-FD	B-CV	B-CV, B-FD, O, B-OG, B-AF
+8	##피	I-FD	I-CV	I-CV, I-FD, O, I-OG, I-TM
+9	##티	I-FD	I-CV	I-CV, I-FD, O, I-OG, I-TM
+10	함께	O	O	O, I-CV, I-OG, I-AF, I-TM
+11	만들	O	O	O, B-CV, B-OG, B-TM, I-OG
+12	##어요	O	O	O, B-CV, I-OG, B-OG, I-CV
+13	[SEP]	O	O	O, B-CV, B-TM, I-OG, B-OG

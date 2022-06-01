@@ -1,0 +1,26 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, I-EV, B-CV, I-CV
+1	올림픽	B-EV	B-EV	B-EV, O, B-LC, B-CV, I-EV
+2	##에서	O	O	O, I-EV, I-DT, B-EV, I-OG
+3	선수	B-CV	B-CV	B-CV, O, B-OG, I-CV, B-EV
+4	##들이	O	O	O, I-CV, I-EV, I-OG, I-AF
+5	입	O	O	O, B-CV, B-PS, B-TM, B-QT
+6	##는	O	O	O, B-CV, B-PS, B-OG, B-AF
+7	선수단	O	B-CV	B-CV, O, B-AF, B-OG, I-CV
+8	##복	O	I-CV	I-CV, O, I-AF, B-CV, I-OG
+9	##에	O	O	O, I-CV, I-AF, I-OG, I-EV
+10	##는	O	O	O, B-CV, B-OG, B-LC, B-TM
+11	자긍심	O	O	O, B-CV, B-PS, B-TM, B-LC
+12	##과	O	O	O, B-PS, B-CV, B-OG, B-LC
+13	사기	O	O	O, B-TM, B-CV, B-PS, B-AF
+14	##를	O	O	O, B-CV, B-PS, I-AF, I-OG
+15	드높	O	O	O, B-CV, B-PS, B-LC, B-OG
+16	##이	O	O	O, B-PS, B-CV, I-CV, B-LC
+17	##는	O	O	O, B-PS, B-CV, B-LC, B-OG
+18	의미	O	O	O, B-CV, B-PS, B-QT, B-LC
+19	##가	O	O	O, B-PS, B-CV, B-OG, B-LC
+20	담겨	O	O	O, B-CV, B-LC, B-PS, B-QT
+21	있	O	O	O, B-CV, B-PS, I-OG, I-QT
+22	##다	O	O	O, B-CV, I-OG, I-EV, B-PS
+23	.	O	O	O, B-PS, B-LC, B-CV, B-OG
+24	[SEP]	O	O	O, B-CV, B-PS, B-LC, I-EV

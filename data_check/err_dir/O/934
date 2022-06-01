@@ -1,0 +1,5 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-AF
+1	다리	B-AM	B-CV	B-CV, O, B-AM, B-TM, B-PT
+2	##살	O	I-CV	I-CV, O, I-AM, I-TM, I-PT
+3	[SEP]	O	O	O, I-CV, I-TM, I-AF, B-CV

@@ -1,0 +1,26 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-EV, I-OG, I-CV
+1	증권사	O	O	O, B-OG, B-CV, B-AF, B-LC
+2	##들이	O	O	O, I-OG, B-CV, B-LC, B-PS
+3	종합	B-AF	B-AF	B-AF, B-TM, O, B-OG, B-CV
+4	##자산	I-AF	I-AF	I-AF, I-TM, O, I-OG, B-AF
+5	##관리	I-AF	I-AF	I-AF, I-TM, O, I-CV, I-OG
+6	##계	I-AF	I-AF	I-AF, I-TM, O, I-CV, I-OG
+7	##좌	I-AF	I-AF	I-AF, O, I-TM, I-CV, I-OG
+8	(	O	O	O, I-AF, I-CV, I-TM, I-OG
+9	CMA	O	B-AF	B-AF, O, B-TM, B-OG, B-CV
+10	)	O	O	O, I-AF, I-TM, I-OG, B-CV
+11	시장	O	O	O, B-CV, B-LC, B-TM, B-PS
+12	##을	O	O	O, B-CV, B-LC, B-PS, B-TM
+13	놓	O	O	O, B-LC, B-CV, B-TM, B-PS
+14	##고	O	O	O, B-LC, B-PS, B-CV, B-OG
+15	치열	O	O	O, B-CV, B-LC, B-TM, B-EV
+16	##한	O	O	O, B-LC, B-PS, B-OG, B-TM
+17	경쟁	O	O	O, B-CV, B-LC, B-TM, B-EV
+18	##을	O	O	O, B-CV, I-EV, B-LC, B-PS
+19	벌이	O	O	O, B-CV, B-LC, B-TM, B-EV
+20	##고	O	O	O, B-LC, B-CV, B-PS, I-EV
+21	있	O	O	O, B-CV, B-LC, B-OG, B-PS
+22	##다	O	O	O, B-CV, B-LC, B-OG, B-TM
+23	.	O	O	O, B-LC, B-CV, B-OG, B-AF
+24	[SEP]	O	O	O, B-LC, B-CV, B-TM, B-AF

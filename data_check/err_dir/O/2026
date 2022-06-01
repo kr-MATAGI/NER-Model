@@ -1,0 +1,15 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
+1	그래서	O	O	O, B-CV, B-OG, B-TM, B-LC
+2	‘	O	O	O, B-CV, B-PS, B-LC, B-OG
+3	여행	O	B-CV	B-CV, O, B-FD, B-AF, B-OG
+4	전문가	B-CV	B-CV	B-CV, I-CV, O, I-QT, I-OG
+5	’	O	O	O, I-CV, B-CV, I-OG, I-QT
+6	에게	O	O	O, B-CV, B-TM, B-QT, B-PS
+7	직접	O	O	O, B-CV, B-TM, B-QT, B-LC
+8	물	O	O	O, B-CV, B-TM, B-LC, B-OG
+9	##었	O	O	O, B-CV, B-OG, B-LC, B-TM
+10	##습	O	O	O, B-CV, B-LC, B-OG, B-TM
+11	##니다	O	O	O, B-CV, B-TM, B-LC, B-OG
+12	.	O	O	O, B-CV, B-LC, B-PS, B-OG
+13	[SEP]	O	O	O, B-CV, B-LC, B-TM, B-OG

@@ -1,0 +1,16 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
+1	비밀	O	O	O, B-CV, B-TM, B-LC, B-PS
+2	물	B-TR	O	O, B-TR, B-PS, B-CV, B-AM
+3	##신	I-TR	O	O, I-TR, I-CV, I-PS, I-FD
+4	(	I-TR	O	O, I-TR, B-TR, I-CV, B-PS
+5	物	I-TR	O	O, I-TR, B-TR, B-PS, I-PS
+6	神	I-TR	O	O, I-TR, B-TR, B-PS, I-PS
+7	)	I-TR	O	O, I-TR, B-TR, I-PS, B-PS
+8	주의	I-TR	O	O, I-TR, B-TR, B-PS, I-PS
+9	##에서	O	O	O, I-TR, B-CV, B-LC, I-QT
+10	벗어나	O	O	O, B-CV, B-OG, B-LC, B-PS
+11	##야	O	O	O, I-OG, B-PS, I-AF, I-CV
+12	한다	O	O	O, B-CV, B-LC, B-OG, B-PS
+13	.	O	O	O, B-LC, B-PS, B-CV, B-TR
+14	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-TR

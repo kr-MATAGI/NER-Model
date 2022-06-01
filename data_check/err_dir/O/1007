@@ -1,0 +1,21 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, I-EV, I-CV, B-CV
+1	낭송	O	O	O, B-FD, B-CV, B-OG, B-LC
+2	(	O	O	O, I-OG, B-PS, I-CV, I-AF
+3	[UNK]	O	O	O, B-LC, B-CV, B-PS, B-OG
+4	[UNK]	O	O	O, B-LC, B-CV, B-PS, B-OG
+5	)	O	O	O, B-LC, B-PS, B-CV, B-OG
+6	문학	O	B-FD	B-FD, O, I-FD, B-OG, B-CV
+7	##이	O	O	O, I-FD, B-PS, I-OG, I-EV
+8	새	O	O	O, B-DT, B-EV, B-OG, B-PS
+9	##봄	O	O	O, I-DT, I-EV, B-DT, I-OG
+10	##을	O	O	O, I-DT, I-EV, I-OG, B-PS
+11	맞아	O	O	O, B-DT, B-LC, B-OG, B-PS
+12	활기	O	O	O, B-LC, B-OG, B-CV, B-AF
+13	##를	O	O	O, I-OG, B-CV, I-EV, I-AF
+14	띠	O	O	O, B-OG, B-LC, B-CV, B-PS
+15	##고	O	O	O, I-OG, I-EV, B-LC, I-AF
+16	있	O	O	O, B-CV, B-LC, B-OG, B-PS
+17	##다	O	O	O, B-CV, I-OG, I-EV, B-LC
+18	.	O	O	O, B-LC, B-CV, B-PS, B-OG
+19	[SEP]	O	O	O, B-CV, B-LC, I-EV, B-PS

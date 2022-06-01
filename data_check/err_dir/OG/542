@@ -1,0 +1,27 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
+1	13	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-PS
+2	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
+3	현재	O	O	O, I-DT, B-CV, B-PS, B-QT
+4	고	B-PS	B-PS	B-PS, O, I-PS, B-LC, B-OG
+5	##씨	O	O	O, I-PS, B-CV, I-CV, I-LC
+6	##를	O	O	O, B-CV, B-PS, I-CV, I-PS
+7	포함	O	O	O, B-CV, B-PS, B-QT, B-TM
+8	##해	O	O	O, B-PS, B-LC, B-QT, B-OG
+9	21	B-QT	B-QT	B-QT, O, I-QT, B-PS, B-DT
+10	##명	I-QT	I-QT	I-QT, O, I-PS, I-LC, I-DT
+11	##의	O	O	O, I-QT, B-PS, I-PS, B-CV
+12	젊은이	O	O	O, B-CV, B-PS, I-CV, B-TM
+13	##가	O	O	O, B-PS, I-CV, I-PS, B-CV
+14	'	O	O	O, B-LC, B-OG, B-CV, B-TM
+15	잡	B-OG	B-TM	B-TM, B-OG, O, B-AF, B-LC
+16	##월드	I-OG	I-TM	I-TM, I-OG, O, I-AF, I-LC
+17	'	O	O	O, I-TM, I-OG, I-AF, I-QT
+18	에서	O	O	O, B-CV, B-PS, B-LC, B-AF
+19	일자리	O	O	O, B-CV, B-TM, B-AF, B-LC
+20	##를	O	O	O, B-CV, B-PS, I-CV, I-AF
+21	찾	O	O	O, B-CV, B-PS, B-TM, B-OG
+22	##았	O	O	O, B-PS, B-CV, I-CV, I-AF
+23	##다	O	O	O, B-CV, B-PS, I-CV, B-TM
+24	.	O	O	O, B-CV, B-PS, B-LC, B-TM
+25	[SEP]	O	O	O, B-CV, B-PS, B-TM, I-CV

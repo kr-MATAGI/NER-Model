@@ -1,0 +1,22 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-AF
+1	마오	B-OG	B-PS	B-PS, O, B-LC, I-PS, B-OG
+2	##는	O	O	O, I-PS, I-OG, I-AF, B-CV
+3	중국	B-LC	B-LC	B-LC, O, B-OG, B-FD, B-CV
+4	음식점	O	O	O, B-CV, I-CV, I-OG, I-LC
+5	##으로	O	O	O, I-CV, I-OG, B-PS, I-AF
+6	,	O	O	O, B-CV, B-LC, B-TM, B-PS
+7	실내	O	O	O, B-TM, B-CV, B-AF, B-LC
+8	##에	O	O	O, B-PS, B-CV, B-TM, I-AF
+9	마오쩌둥	B-PS	B-PS	B-PS, O, I-PS, B-LC, B-OG
+10	##의	O	O	O, I-PS, B-CV, I-AF, B-PS
+11	초상화	O	O	O, B-TM, B-CV, B-AF, B-LC
+12	##가	O	O	O, B-PS, I-AF, B-CV, B-LC
+13	걸려	O	O	O, B-LC, B-CV, B-TM, B-PS
+14	있	O	O	O, B-PS, B-CV, B-LC, B-TM
+15	##어	O	O	O, B-LC, B-CV, B-OG, B-TM
+16	이색	O	O	O, B-CV, B-OG, B-TM, B-QT
+17	##적	O	O	O, I-QT, I-AF, B-LC, I-OG
+18	##이다	O	O	O, B-CV, I-OG, B-TM, I-QT
+19	.	O	O	O, B-CV, B-PS, B-LC, B-AF
+20	[SEP]	O	O	O, B-CV, B-PS, B-LC, B-TM

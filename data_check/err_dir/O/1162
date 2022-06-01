@@ -1,0 +1,9 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
+1	면역	O	B-TM	B-TM, O, B-TR, B-MT, B-AF
+2	##항	O	I-TM	I-TM, O, I-MT, I-TR, B-TM
+3	##암	O	I-TM	I-TM, O, I-MT, I-TR, I-AF
+4	##젠	O	O	O, I-TM, I-MT, I-TR, I-AF
+5	##가	O	O	O, I-TM, I-AF, I-MT, I-TR
+6	?	O	O	O, I-TM, I-AF, I-OG, B-CV
+7	[SEP]	O	O	O, B-TM, B-CV, B-AF, B-LC

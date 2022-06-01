@@ -1,0 +1,14 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-AF
+1	고등학교	O	O	O, B-CV, B-QT, B-OG, I-OG
+2	입학	B-CV	B-CV	B-CV, O, I-CV, B-QT, B-PS
+3	##생	I-CV	I-CV	I-CV, O, B-CV, I-QT, I-OG
+4	##의	O	O	O, I-CV, B-QT, I-QT, I-OG
+5	70	O	B-QT	B-QT, O, I-QT, B-PS, B-LC
+6	%	O	I-QT	I-QT, O, B-QT, I-LC, I-OG
+7	만이	O	O	O, I-QT, B-QT, I-LC, B-PS
+8	겨우	O	O	O, I-QT, B-QT, B-PS, B-CV
+9	졸업	O	O	O, B-CV, B-QT, I-QT, B-TM
+10	##한다	O	O	O, I-QT, B-CV, I-OG, I-AF
+11	.	O	O	O, B-QT, B-CV, I-QT, B-OG
+12	[SEP]	O	O	O, B-CV, B-QT, I-QT, I-OG

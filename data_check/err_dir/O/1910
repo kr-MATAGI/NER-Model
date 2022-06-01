@@ -1,0 +1,17 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
+1	그	O	O	O, B-CV, B-AF, B-LC, B-TM
+2	바늘	O	O	O, B-AM, B-AF, B-TM, B-PS
+3	##로	O	O	O, I-AF, I-CV, I-TM, B-PS
+4	자갈	O	O	O, B-MT, B-LC, B-CV, B-PT
+5	##밭	O	O	O, I-LC, I-AF, B-LC, I-CV
+6	##에서	O	O	O, B-LC, I-AF, I-LC, B-CV
+7	꽃	O	B-CV	B-CV, B-AM, O, B-PT, B-TM
+8	##우	O	I-CV	I-CV, I-AM, O, I-PT, B-AM
+9	##물	O	I-CV	I-CV, O, I-AM, I-PT, I-AF
+10	##을	O	O	O, I-CV, I-AF, I-EV, I-TM
+11	파	O	O	O, B-CV, B-LC, B-TM, B-OG
+12	##냈	O	O	O, B-CV, I-AF, B-LC, I-OG
+13	##다	O	O	O, B-CV, B-LC, I-AF, B-TM
+14	.	O	O	O, B-LC, B-CV, B-PS, I-AF
+15	[SEP]	O	O	O, B-CV, B-LC, I-AF, B-PS

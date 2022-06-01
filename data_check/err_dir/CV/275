@@ -1,0 +1,27 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-AF
+1	유희	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-AF
+2	##관	I-PS	I-PS	I-PS, O, B-PS, I-OG, I-LC
+3	,	O	O	O, I-PS, I-OG, I-AF, B-CV
+4	25	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
+5	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
+6	##만	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
+7	##에	O	O	O, I-DT, I-OG, I-AF, I-EV
+8	팀	O	O	O, B-OG, B-LC, B-TM, B-CV
+9	토종	O	O	O, B-CV, B-TM, B-AM, B-PS
+10	##좌	B-CV	O	O, B-TM, B-AM, B-CV, B-TR
+11	##완	I-CV	O	O, I-TM, I-CV, I-AM, I-TR
+12	10	B-QT	B-QT	B-QT, O, I-QT, I-TM, B-TM
+13	##승	I-QT	I-QT	I-QT, O, I-TM, I-LC, I-PS
+14	…	O	O	O, I-QT, I-TM, I-OG, I-CV
+15	29	B-DT	B-DT	B-DT, O, B-QT, I-DT, B-EV
+16	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
+17	##만	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
+18	##의	O	O	O, I-DT, I-QT, I-AF, B-PS
+19	신인왕	B-CV	B-CV	B-CV, O, B-EV, B-TM, B-DT
+20	배출	O	O	O, I-CV, I-EV, I-OG, I-TM
+21	겹	O	O	O, B-PS, B-CV, B-QT, B-EV
+22	##경	O	O	O, B-CV, B-PS, B-QT, I-CV
+23	##사	O	O	O, I-CV, I-QT, I-PS, I-EV
+24	기대	O	O	O, B-CV, I-CV, B-PS, I-OG
+25	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG

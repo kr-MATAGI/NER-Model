@@ -1,0 +1,19 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-AF
+1	대림	B-OG	B-OG	B-OG, O, B-PS, I-OG, B-LC
+2	,	O	O	O, I-OG, I-AF, B-CV, I-EV
+3	필리핀	B-LC	B-LC	B-LC, O, B-OG, B-AF, B-PS
+4	정유	O	B-MT	B-MT, O, B-AF, I-LC, I-MT
+5	##플랜	O	O	O, I-AF, I-LC, I-TM, I-OG
+6	##트	O	O	O, I-AF, B-AF, I-LC, I-TM
+7	20	B-QT	B-QT	B-QT, O, I-QT, I-AF, B-LC
+8	##억	I-QT	I-QT	I-QT, I-LC, I-AF, O, I-PS
+9	##달	I-QT	I-QT	I-QT, O, I-LC, I-AF, I-PS
+10	##러	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
+11	수주	O	O	O, I-QT, B-CV, B-TM, B-LC
+12	…	O	O	O, B-OG, B-CV, B-LC, I-AF
+13	동남아	B-LC	B-LC	B-LC, O, B-OG, B-AF, B-TM
+14	##지역	O	O	O, I-LC, I-AF, B-LC, I-OG
+15	최대	O	O	O, B-LC, B-TM, B-CV, B-OG
+16	##규모	O	O	O, B-LC, B-OG, B-TM, B-CV
+17	[SEP]	O	O	O, B-LC, B-OG, B-CV, B-AF

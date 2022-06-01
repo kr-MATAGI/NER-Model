@@ -1,0 +1,16 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
+1	7	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
+2	~	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
+3	8	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-OG
+4	##월	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-OG
+5	해외여행	O	O	O, B-LC, B-CV, I-DT, B-EV
+6	간다면	O	O	O, B-CV, B-LC, B-AF, B-OG
+7	지금	O	O	O, B-CV, B-TM, B-QT, B-LC
+8	예방	O	B-TR	B-TR, O, B-FD, B-TM, B-CV
+9	##주	O	I-TR	I-TR, O, I-FD, B-TR, I-TM
+10	##사	O	I-TR	I-TR, O, I-FD, I-TM, I-CV
+11	맞	O	O	O, I-TR, B-CV, I-CV, I-TM
+12	##으	O	O	O, B-CV, B-OG, B-LC, B-PS
+13	##세요	O	O	O, B-CV, B-OG, I-OG, I-AF
+14	[SEP]	O	O	O, B-CV, B-LC, B-TM, B-OG

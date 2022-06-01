@@ -1,0 +1,12 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
+1	고등어	B-CV	B-AM	B-AM, B-CV, O, B-PT, B-AF
+2	##가	O	O	O, I-CV, I-AF, B-PS, I-PS
+3	됐	O	O	O, B-LC, B-QT, B-PS, B-CV
+4	##든	O	O	O, B-PS, B-LC, I-AF, B-OG
+5	삼	B-CV	B-AM	B-AM, B-CV, B-PT, O, B-TM
+6	##치	I-CV	I-AM	I-AM, I-CV, I-PT, O, I-TM
+7	##가	O	O	O, I-CV, I-AF, I-QT, I-TM
+8	됐	O	O	O, B-LC, B-PS, B-CV, B-QT
+9	##든	O	O	O, B-PS, B-LC, I-AF, I-QT
+10	[SEP]	O	O	O, B-CV, B-PS, B-TM, B-LC

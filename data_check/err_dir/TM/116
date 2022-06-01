@@ -1,0 +1,12 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
+1	근데	O	O	O, B-CV, B-OG, B-TM, B-LC
+2	그	O	O	O, B-CV, B-TM, B-OG, B-LC
+3	흔히	O	O	O, B-CV, B-QT, B-TM, B-PS
+4	말	O	O	O, B-CV, I-AF, I-CV, B-TM
+5	##하	O	O	O, B-CV, B-TM, B-LC, B-PS
+6	##는	O	O	O, B-CV, B-TM, B-LC, B-OG
+7	케이블	O	B-TM	B-TM, O, B-OG, B-AF, B-TR
+8	티비	B-TM	I-TM	I-TM, O, B-TM, I-OG, I-QT
+9	##에서	O	O	O, I-TM, I-OG, I-QT, I-AF
+10	[SEP]	O	O	O, B-CV, B-OG, I-OG, B-LC

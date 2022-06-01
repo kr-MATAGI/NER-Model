@@ -1,0 +1,23 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
+1	채용	O	O	O, B-CV, B-TM, B-OG, B-LC
+2	규모	O	O	O, B-CV, B-TM, B-OG, B-LC
+3	역시	O	O	O, B-CV, B-TM, B-OG, B-LC
+4	중앙	B-CV	O	O, B-CV, B-QT, I-CV, B-OG
+5	##직	I-CV	O	O, I-CV, I-OG, B-CV, I-QT
+6	공무원	I-CV	B-CV	B-CV, I-CV, O, I-QT, B-QT
+7	4500	B-QT	B-QT	B-QT, I-QT, I-CV, O, B-DT
+8	##명	I-QT	I-QT	I-QT, O, B-QT, I-CV, I-PS
+9	##을	O	O	O, I-QT, B-CV, I-CV, I-OG
+10	28	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-TI
+11	##75	I-QT	I-QT	I-QT, B-QT, O, I-LC, I-PS
+12	##명	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
+13	##까	O	O	O, I-QT, I-OG, B-LC, I-DT
+14	##지	O	O	O, B-QT, I-QT, B-LC, B-OG
+15	줄이	O	O	O, B-CV, B-OG, B-TM, B-QT
+16	##기	O	O	O, B-OG, B-CV, B-LC, B-PS
+17	##로	O	O	O, B-CV, B-OG, I-OG, B-TM
+18	했	O	O	O, B-CV, B-OG, B-LC, B-TM
+19	##다	O	O	O, B-CV, B-TM, I-OG, B-OG
+20	.	O	O	O, B-LC, B-CV, B-OG, B-TM
+21	[SEP]	O	O	O, B-CV, B-LC, B-TM, B-OG

@@ -1,0 +1,20 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
+1	또	O	O	O, B-CV, B-OG, B-TM, B-LC
+2	성인	B-CV	O	O, B-CV, B-FD, B-AF, B-TM
+3	용품	O	O	O, I-CV, I-AF, B-CV, I-OG
+4	리뷰	O	O	O, B-CV, I-CV, I-AF, B-FD
+5	영상	O	O	O, B-CV, B-LC, B-TM, I-CV
+6	##x	O	O	O, B-PS, I-AF, I-CV, B-CV
+7	##x	O	O	O, B-CV, B-PS, B-LC, B-OG
+8	여성	O	O	O, B-CV, B-FD, B-TM, B-OG
+9	크리에이터	B-CV	B-CV	B-CV, I-CV, O, B-TM, B-PS
+10	##는	O	O	O, I-CV, B-CV, I-OG, I-AF
+11	경고	O	O	O, B-CV, B-TM, B-LC, B-FD
+12	없이	O	O	O, I-CV, B-CV, B-PS, I-AF
+13	채널	O	O	O, B-TM, B-LC, B-CV, B-AF
+14	##이	O	O	O, B-PS, B-CV, B-OG, I-AF
+15	삭제	O	O	O, B-TM, B-CV, B-LC, B-QT
+16	##되	O	O	O, I-CV, B-CV, I-TM, I-AF
+17	##는데	O	O	O, B-CV, B-OG, B-TM, B-LC
+18	[SEP]	O	O	O, B-CV, B-LC, B-TM, B-AF

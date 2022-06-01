@@ -1,0 +1,14 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
+1	하지만	O	O	O, B-CV, B-OG, B-TM, B-QT
+2	아르헨티나	B-OG	B-LC	B-LC, B-OG, O, B-PS, B-AF
+3	##와	O	O	O, I-OG, I-LC, I-AF, I-PS
+4	브라질	B-OG	B-LC	B-LC, B-OG, O, B-PS, I-OG
+5	##은	O	O	O, I-OG, I-LC, I-AF, B-CV
+6	일찍	O	O	O, B-CV, B-LC, B-TM, B-OG
+7	짐	O	O	O, B-CV, B-TM, B-LC, B-AF
+8	##을	O	O	O, B-CV, B-OG, B-LC, B-PS
+9	쌌	O	O	O, B-CV, B-OG, B-LC, I-OG
+10	##다	O	O	O, B-CV, I-OG, I-CV, B-TM
+11	.	O	O	O, B-CV, B-LC, B-OG, I-OG
+12	[SEP]	O	O	O, B-CV, I-OG, B-LC, B-OG

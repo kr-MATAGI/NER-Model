@@ -1,0 +1,24 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-EV
+1	워싱턴	B-OG	B-LC	B-LC, B-OG, B-PS, O, B-AF
+2	##은	O	O	O, I-OG, I-LC, I-PS, I-AF
+3	대작	O	O	O, B-CV, B-AF, B-LC, B-PS
+4	##인	O	O	O, B-PS, I-AF, B-CV, I-CV
+5	‘	O	O	O, B-CV, B-LC, B-AF, B-OG
+6	The	B-AF	B-AF	B-AF, O, I-AF, B-PS, B-LC
+7	E	I-AF	I-AF	I-AF, O, B-AF, I-PS, I-EV
+8	##p	I-AF	I-AF	I-AF, O, I-EV, I-PS, I-TM
+9	##ic	I-AF	I-AF	I-AF, O, I-EV, I-PS, I-TM
+10	’	O	O	O, I-AF, I-EV, I-CV, B-CV
+11	구상	O	O	O, B-CV, B-LC, B-OG, B-TM
+12	##에	O	O	O, B-PS, B-CV, B-OG, I-AF
+13	거의	O	O	O, B-DT, B-CV, B-PS, B-OG
+14	10	B-DT	B-DT	B-DT, I-DT, O, B-LC, B-QT
+15	##년	I-DT	I-DT	I-DT, O, B-DT, I-AF, I-QT
+16	##이	O	O	O, I-DT, B-PS, B-CV, I-EV
+17	걸렸	O	O	O, B-OG, B-LC, B-PS, B-CV
+18	##다고	O	O	O, I-OG, I-CV, I-EV, I-AF
+19	했	O	O	O, B-OG, B-CV, B-LC, B-PS
+20	##다	O	O	O, B-CV, I-OG, B-LC, B-PS
+21	.	O	O	O, B-LC, B-PS, B-CV, B-OG
+22	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG

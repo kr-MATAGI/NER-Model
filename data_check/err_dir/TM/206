@@ -1,0 +1,13 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, I-CV, I-AF, B-CV
+1	그	O	O	O, B-CV, B-TM, B-OG, I-AF
+2	~	O	O	O, B-CV, B-LC, B-PS, I-CV
+3	항암	B-TM	B-TR	B-TR, O, B-TM, I-TR, B-FD
+4	항암	B-TR	I-TR	I-TR, B-TR, O, I-QT, I-TM
+5	치료	I-TR	I-TR	I-TR, O, B-TR, I-TM, I-QT
+6	하	O	O	O, I-TR, I-TM, I-QT, B-CV
+7	##는	O	O	O, B-CV, B-LC, I-AF, B-TM
+8	##게	O	O	O, B-CV, B-PS, B-LC, I-AF
+9	무서워	O	O	O, B-CV, B-PS, B-OG, I-AF
+10	?	O	O	O, I-AF, B-CV, I-OG, I-CV
+11	[SEP]	O	O	O, B-CV, B-LC, I-AF, B-TM

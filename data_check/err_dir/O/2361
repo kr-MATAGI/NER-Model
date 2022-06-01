@@ -1,0 +1,15 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
+1	[	O	O	O, B-LC, B-OG, B-AF, B-CV
+2	태평	B-AF	B-AF	B-AF, B-LC, O, B-PS, I-AF
+3	##로	I-AF	I-AF	I-AF, I-LC, O, I-PS, I-OG
+4	]	O	O	O, I-AF, I-OG, I-EV, B-CV
+5	나영	O	B-PS	B-PS, O, B-LC, B-CV, B-OG
+6	##이	O	O	O, I-PS, B-PS, I-AF, I-EV
+7	사건	O	O	O, B-CV, I-EV, I-PS, I-AF
+8	현장	O	O	O, B-CV, B-LC, I-EV, I-AF
+9	##에	O	O	O, B-CV, B-LC, I-AF, B-OG
+10	가	O	O	O, B-CV, B-LC, B-TM, B-AF
+11	##보	O	O	O, B-CV, B-PS, I-AF, B-TM
+12	##니	O	O	O, B-PS, B-LC, I-AF, B-CV
+13	[SEP]	O	O	O, B-CV, B-LC, B-AF, B-PS

@@ -1,0 +1,26 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
+1	고맙	O	O	O, B-CV, B-OG, B-PS, B-LC
+2	##습	O	O	O, I-OG, I-CV, I-AF, B-PS
+3	##니다	O	O	O, I-OG, B-PS, I-AF, I-EV
+4	네	O	O	O, B-CV, B-EV, B-QT, B-LC
+5	.	O	O	O, B-PS, I-QT, I-CV, I-DT
+6	장관	B-CV	B-CV	B-CV, O, B-OG, B-PS, I-CV
+7	##님	O	O	O, I-CV, I-EV, I-AF, I-OG
+8	나오	O	O	O, B-CV, B-PS, I-CV, B-LC
+9	##시	O	O	O, B-CV, B-PS, I-AF, B-LC
+10	##는	O	O	O, B-CV, B-PS, B-LC, I-AF
+11	거	O	O	O, B-PS, B-CV, B-LC, B-OG
+12	서	B-AF	B-PS	B-PS, O, B-CV, B-TR, B-AF
+13	##편	I-AF	I-PS	I-PS, O, I-CV, I-TR, I-AF
+14	##제	I-AF	O	O, I-PS, I-CV, I-TR, I-AF
+15	##는	O	O	O, I-PS, I-CV, I-AF, I-QT
+16	제	O	O	O, B-CV, B-LC, B-PS, B-OG
+17	##가	O	O	O, B-PS, B-CV, B-LC, B-OG
+18	지금	O	O	O, B-CV, B-LC, B-OG, B-PS
+19	인제	O	O	O, B-CV, B-LC, B-OG, B-PS
+20	기억	O	O	O, B-CV, B-TM, B-LC, B-PS
+21	##이	O	O	O, B-PS, B-CV, B-LC, B-OG
+22	남	O	O	O, B-CV, B-LC, B-PS, B-TM
+23	##는데	O	O	O, B-CV, B-LC, I-AF, B-PS
+24	[SEP]	O	O	O, B-CV, B-LC, B-PS, I-AF

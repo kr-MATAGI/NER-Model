@@ -1,0 +1,12 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
+1	요새	O	O	O, B-CV, B-LC, B-PS, B-OG
+2	또	O	O	O, B-CV, B-QT, B-LC, B-OG
+3	일부	O	O	O, B-QT, B-CV, B-LC, I-QT
+4	일인	B-QT	O	O, B-QT, I-QT, B-CV, B-FD
+5	미디어	O	O	O, I-QT, B-QT, B-FD, B-CV
+6	개인	O	O	O, B-CV, B-TM, I-QT, B-FD
+7	방송	O	O	O, I-CV, B-CV, I-TM, I-OG
+8	##에서	O	O	O, I-CV, B-CV, I-OG, I-QT
+9	##는	O	O	O, B-CV, B-OG, B-TM, B-LC
+10	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-TM

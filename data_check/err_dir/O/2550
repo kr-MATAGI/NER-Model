@@ -1,0 +1,11 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-CV, B-CV, I-OG, I-AF
+1	이명박	B-PS	B-PS	B-PS, O, B-OG, B-LC, B-AF
+2	전	O	O	O, I-PS, I-AF, I-EV, I-OG
+3	대통령	B-CV	B-CV	B-CV, O, I-CV, B-EV, B-OG
+4	##의	O	O	O, I-CV, I-AF, I-EV, B-CV
+5	아바타	O	B-AF	B-AF, O, B-LC, B-TM, B-PS
+6	##라는	O	O	O, I-AF, I-EV, I-CV, B-CV
+7	건	O	O	O, B-CV, B-OG, B-LC, B-TM
+8	무슨	O	O	O, B-CV, B-OG, B-PS, B-LC
+9	[SEP]	O	O	O, B-CV, B-PS, B-LC, I-AF

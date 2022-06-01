@@ -1,0 +1,13 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-EV, I-OG
+1	이스라엘	B-OG	B-OG	B-OG, B-LC, O, I-OG, B-PS
+2	軍	I-OG	I-OG	I-OG, O, B-OG, I-LC, I-EV
+3	,	O	O	O, I-OG, I-EV, I-AF, B-LC
+4	유엔	B-OG	B-OG	B-OG, B-EV, B-AF, O, I-OG
+5	학교	I-OG	O	O, I-EV, I-OG, B-EV, B-CV
+6	포격	O	O	O, I-EV, B-CV, B-EV, I-CV
+7	최소	O	O	O, B-QT, B-TM, B-CV, I-QT
+8	##15	B-QT	B-QT	B-QT, I-QT, O, B-DT, B-PS
+9	##명	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
+10	사망	O	O	O, B-TM, B-CV, I-QT, B-QT
+11	[SEP]	O	O	O, I-QT, B-CV, B-LC, I-CV

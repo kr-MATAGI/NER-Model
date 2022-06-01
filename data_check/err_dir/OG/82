@@ -1,0 +1,18 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-AF
+1	한국	B-LC	B-LC	B-LC, B-OG, O, B-PS, B-AF
+2	창작	B-FD	B-FD	B-FD, O, B-AF, I-FD, B-OG
+3	뮤지컬	I-FD	I-FD	I-FD, B-FD, O, I-AF, I-OG
+4	##이	O	O	O, I-FD, I-AF, I-OG, B-CV
+5	주로	O	O	O, B-LC, B-OG, B-CV, B-TM
+6	수출	O	O	O, B-CV, B-LC, B-OG, B-TM
+7	##되	O	O	O, B-LC, B-PS, B-CV, I-AF
+8	##는	O	O	O, B-CV, B-LC, B-OG, B-TM
+9	국가	O	O	O, B-LC, B-CV, B-OG, B-PS
+10	##는	O	O	O, B-CV, B-LC, B-OG, I-OG
+11	일본	B-OG	B-LC	B-LC, B-OG, O, B-AF, B-PS
+12	##과	O	O	O, I-LC, I-OG, I-AF, B-LC
+13	중국	B-OG	B-LC	B-LC, B-OG, O, I-LC, B-AF
+14	##이다	O	O	O, I-LC, I-OG, I-AF, B-CV
+15	.	O	O	O, B-LC, B-OG, B-CV, I-OG
+16	[SEP]	O	O	O, B-LC, B-CV, B-OG, I-OG

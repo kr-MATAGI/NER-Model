@@ -1,0 +1,23 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, I-EV, B-CV, I-CV
+1	A	B-EV	B-OG	B-OG, B-EV, O, B-LC, B-AF
+2	##LC	I-EV	I-OG	I-OG, I-EV, O, B-OG, I-AF
+3	##에	O	O	O, I-OG, I-EV, I-AF, I-CV
+4	미국	B-LC	B-LC	B-LC, B-OG, O, I-LC, B-AF
+5	·	O	O	O, I-LC, I-OG, B-LC, I-EV
+6	영국	B-LC	B-LC	B-LC, B-OG, O, I-LC, B-PS
+7	·	O	O	O, I-LC, B-LC, I-OG, I-DT
+8	일본	B-LC	B-LC	B-LC, B-OG, I-LC, O, B-PS
+9	전직	O	O	O, B-CV, B-PS, I-LC, I-CV
+10	수반	B-CV	B-CV	B-CV, O, I-CV, B-PS, B-QT
+11	##이	O	O	O, I-CV, B-PS, B-CV, I-EV
+12	한꺼번에	O	O	O, B-QT, B-PS, B-LC, B-CV
+13	참석	O	O	O, B-CV, B-EV, B-PS, B-OG
+14	##하	O	O	O, B-PS, B-OG, B-LC, B-CV
+15	##는	O	O	O, B-CV, B-LC, B-OG, B-QT
+16	것	O	O	O, B-LC, B-CV, B-OG, B-PS
+17	##은	O	O	O, B-CV, B-LC, B-OG, I-OG
+18	처음	O	O	O, B-QT, B-CV, B-LC, B-PS
+19	##이다	O	O	O, B-CV, I-QT, I-EV, I-OG
+20	.	O	O	O, B-LC, B-OG, B-PS, B-CV
+21	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-PS

@@ -1,0 +1,24 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-AF
+1	3	B-EV	B-DT	B-DT, B-EV, B-QT, B-LC, O
+2	·	I-EV	I-DT	I-DT, I-EV, I-QT, O, I-LC
+3	1	I-EV	I-DT	I-DT, I-EV, I-QT, I-LC, O
+4	##운동	I-EV	I-DT	I-DT, I-EV, I-QT, O, I-LC
+5	즈음	O	O	O, I-DT, I-EV, I-QT, B-DT
+6	태어난	O	O	O, B-PS, B-CV, I-DT, B-AM
+7	사람	O	O	O, B-CV, B-PS, I-CV, B-AM
+8	##이	O	O	O, B-PS, B-CV, B-AF, I-AF
+9	쓴	O	O	O, B-CV, B-PS, B-AF, I-AF
+10	새	O	O	O, B-PS, B-CV, B-AF, B-QT
+11	책	O	O	O, B-CV, B-AF, B-TM, B-PS
+12	##을	O	O	O, B-CV, I-AF, B-PS, I-CV
+13	보	O	O	O, B-CV, B-QT, B-DT, B-PS
+14	##는	O	O	O, B-CV, B-QT, B-PS, B-TM
+15	것	O	O	O, B-CV, B-LC, B-OG, B-TM
+16	##은	O	O	O, B-CV, B-OG, B-LC, B-PS
+17	정말	O	O	O, B-CV, B-TM, B-OG, B-QT
+18	드문	O	O	O, B-CV, B-TM, B-QT, B-LC
+19	일	O	O	O, B-CV, B-PS, B-QT, B-OG
+20	##이다	O	O	O, B-CV, I-OG, I-CV, I-QT
+21	.	O	O	O, B-CV, B-PS, B-LC, B-FD
+22	[SEP]	O	O	O, B-CV, B-PS, B-FD, I-AF

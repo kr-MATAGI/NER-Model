@@ -1,0 +1,23 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
+1	명	B-AF	B-AF	B-AF, B-OG, O, B-PS, B-EV
+2	##월	I-AF	I-AF	I-AF, I-OG, O, I-PS, I-CV
+3	##관	I-AF	I-AF	I-AF, I-OG, O, I-PS, I-CV
+4	##은	O	O	O, I-AF, I-OG, I-EV, I-CV
+5	1909	B-DT	B-DT	B-DT, O, B-QT, I-DT, B-EV
+6	##년	I-DT	I-DT	I-DT, O, I-QT, B-DT, I-AF
+7	세종	B-LC	B-AF	B-AF, B-LC, B-OG, O, I-AF
+8	##로	I-LC	I-AF	I-AF, I-LC, I-OG, O, I-PS
+9	##4	I-LC	B-QT	B-QT, I-AF, I-LC, I-QT, O
+10	##거리	I-LC	I-QT	I-QT, I-AF, I-LC, O, I-OG
+11	일	B-AF	B-AF	B-AF, B-OG, I-AF, O, B-LC
+12	##민	I-AF	I-AF	I-AF, I-OG, O, I-LC, I-PS
+13	##미술	I-AF	I-AF	I-AF, I-OG, O, I-LC, I-PS
+14	##관	I-AF	I-AF	I-AF, I-OG, O, I-LC, I-PS
+15	자리	O	O	O, I-AF, I-OG, I-EV, B-CV
+16	##에	O	O	O, I-AF, B-CV, B-TM, B-OG
+17	개업	O	O	O, B-CV, B-TM, B-OG, B-LC
+18	##했	O	O	O, B-CV, B-OG, B-PS, B-LC
+19	##다	O	O	O, B-CV, B-LC, I-OG, B-OG
+20	.	O	O	O, B-AF, B-OG, B-CV, B-LC
+21	[SEP]	O	O	O, I-AF, B-CV, B-AF, I-OG

@@ -1,0 +1,15 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-CV, B-CV, I-OG, I-EV
+1	경찰관	B-CV	B-CV	B-CV, O, B-OG, I-CV, B-AF
+2	보	O	O	O, I-CV, B-TM, B-CV, I-OG
+3	##는	O	O	O, B-TM, B-LC, B-PS, I-TM
+4	앞	O	B-TM	B-TM, O, B-QT, B-LC, B-CV
+5	##에서	O	O	O, I-TM, I-QT, B-TM, I-AF
+6	112	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-TM
+7	##로	O	O	O, I-QT, I-DT, I-EV, I-OG
+8	허위	O	O	O, B-CV, B-TM, B-QT, B-PS
+9	신고	O	O	O, B-CV, I-CV, B-TM, B-QT
+10	##해	O	O	O, I-CV, B-PS, B-CV, I-QT
+11	연행	O	O	O, B-CV, B-TM, B-OG, B-LC
+12	”	O	O	O, I-CV, B-CV, I-OG, I-EV
+13	[SEP]	O	O	O, B-CV, B-TM, B-LC, B-PS

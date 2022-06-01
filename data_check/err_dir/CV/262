@@ -1,0 +1,19 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
+1	근데	O	O	O, B-CV, B-OG, B-TM, B-LC
+2	대북	B-CV	O	O, B-CV, B-OG, I-CV, B-LC
+3	##제	I-CV	O	O, I-CV, B-CV, I-OG, I-EV
+4	##재	I-CV	O	O, I-CV, B-CV, I-OG, I-TM
+5	##라기	O	O	O, I-CV, I-OG, I-QT, I-EV
+6	##보	O	O	O, B-PS, B-CV, B-OG, B-LC
+7	##다는	O	O	O, B-OG, B-LC, B-CV, B-PS
+8	중국	B-OG	B-OG	B-OG, B-LC, O, B-PS, B-TM
+9	##이	O	O	O, I-OG, I-LC, B-CV, B-PS
+10	영향력	O	O	O, B-CV, B-TM, B-LC, I-OG
+11	##을	O	O	O, B-CV, B-OG, B-LC, B-TM
+12	발휘	O	O	O, B-CV, B-TM, B-OG, B-LC
+13	##하	O	O	O, B-CV, B-LC, B-OG, B-PS
+14	##는	O	O	O, B-CV, B-OG, B-LC, B-TM
+15	방법	O	O	O, B-CV, B-TM, B-OG, B-LC
+16	##은	O	O	O, B-CV, B-OG, B-TM, B-LC
+17	[SEP]	O	O	O, B-CV, B-LC, B-OG, I-OG

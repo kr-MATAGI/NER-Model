@@ -1,0 +1,15 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-CV, I-OG, B-CV, I-AF
+1	교사	B-CV	B-CV	B-CV, O, B-OG, I-CV, B-AF
+2	·	O	O	O, I-CV, I-OG, I-AF, I-QT
+3	교육청	B-OG	O	O, B-OG, B-CV, B-AF, I-OG
+4	·	O	O	O, I-OG, I-CV, I-AF, B-PS
+5	주민	B-CV	B-CV	B-CV, O, B-OG, I-CV, B-TM
+6	밀	O	O	O, I-CV, B-TM, B-PS, B-CV
+7	##고	O	O	O, B-PS, B-LC, I-CV, B-TM
+8	끌	O	O	O, B-LC, B-TM, B-PS, B-CV
+9	##며	O	O	O, B-LC, B-PS, B-TM, B-OG
+10	힘	O	O	O, B-CV, B-LC, B-PS, B-OG
+11	##보	O	O	O, B-CV, B-PS, I-CV, B-OG
+12	##태	O	O	O, B-PS, I-CV, B-LC, I-OG
+13	[SEP]	O	O	O, B-LC, B-CV, B-PS, B-OG

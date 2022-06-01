@@ -1,0 +1,23 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
+1	또	O	O	O, B-CV, B-LC, B-OG, B-TM
+2	어	O	O	O, B-CV, B-LC, B-OG, B-PS
+3	전세	O	O	O, B-LC, B-CV, B-PS, B-OG
+4	##계	O	O	O, I-LC, B-LC, I-DT, I-QT
+5	지금	O	O	O, B-CV, B-OG, B-LC, B-QT
+6	사위	O	B-QT	B-QT, O, B-CV, B-DT, I-QT
+7	규모	O	O	O, I-QT, I-CV, I-DT, I-OG
+8	##인	O	O	O, B-PS, B-CV, I-QT, B-OG
+9	삼	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-CV
+10	##백	I-QT	I-QT	I-QT, B-QT, O, I-PS, I-DT
+11	##육	I-QT	I-QT	I-QT, B-QT, O, I-PS, I-DT
+12	##십	I-QT	I-QT	I-QT, B-QT, O, I-PS, I-LC
+13	##조	I-QT	I-QT	I-QT, O, I-PS, I-LC, B-QT
+14	##가	O	O	O, I-QT, I-OG, I-AF, B-CV
+15	넘	O	O	O, B-CV, I-QT, B-OG, B-LC
+16	##는	O	O	O, B-OG, B-CV, B-LC, B-PS
+17	기금	O	O	O, B-CV, B-TM, B-OG, B-PS
+18	##의	O	O	O, I-CV, B-CV, I-OG, B-PS
+19	규모	O	O	O, B-CV, B-OG, B-TM, B-LC
+20	##는	O	O	O, B-CV, B-OG, B-LC, B-TM
+21	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-PS

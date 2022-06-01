@@ -1,0 +1,13 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
+1	왜냐하면	O	O	O, B-CV, B-OG, B-TM, B-LC
+2	보수주의	O	B-TR	B-TR, O, B-FD, B-CV, I-TR
+3	##적	O	O	O, I-TR, B-TR, I-PS, I-QT
+4	사고	O	O	O, I-TR, B-TR, I-CV, B-CV
+5	##에	O	O	O, B-PS, B-CV, B-LC, B-OG
+6	특징	O	O	O, B-CV, B-LC, B-TM, B-PS
+7	##을	O	O	O, B-CV, B-LC, B-OG, B-PS
+8	얘기	O	O	O, B-CV, B-LC, B-TM, B-OG
+9	##하면	O	O	O, B-CV, B-LC, B-PS, B-OG
+10	##서	O	O	O, B-CV, B-OG, B-LC, B-TM
+11	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-PS

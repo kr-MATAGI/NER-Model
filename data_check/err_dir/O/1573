@@ -1,0 +1,16 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, I-CV, I-AF, B-CV
+1	혼	O	O	O, B-CV, B-TM, B-LC, B-OG
+2	##밥	O	O	O, I-CV, I-TM, B-CV, I-OG
+3	##의	O	O	O, I-CV, I-AF, B-PS, I-OG
+4	정신	O	O	O, I-CV, I-AF, B-CV, I-QT
+5	##으로	O	O	O, B-PS, I-AF, I-CV, B-CV
+6	어떻게	O	O	O, B-OG, B-PS, B-CV, B-LC
+7	국가	O	B-CV	B-CV, O, B-OG, B-FD, B-AF
+8	지도자	B-CV	B-CV	B-CV, I-CV, O, I-OG, I-EV
+9	##가	O	O	O, I-CV, I-OG, B-CV, I-EV
+10	되	O	O	O, B-CV, B-TM, B-OG, B-PS
+11	##겠	O	O	O, B-CV, I-CV, I-OG, I-AF
+12	##어요	O	O	O, B-CV, I-OG, I-AF, I-CV
+13	.	O	O	O, B-CV, B-PS, B-LC, I-OG
+14	[SEP]	O	O	O, B-CV, I-AF, I-OG, B-LC

@@ -1,0 +1,19 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-EV
+1	佛	O	B-LC	B-LC, B-OG, O, B-PS, B-CV
+2	경찰	B-OG	B-OG	B-OG, I-OG, O, B-CV, B-LC
+3	,	O	O	O, I-OG, I-AF, I-CV, I-EV
+4	15	B-TI	B-TI	B-TI, B-EV, O, B-QT, B-TR
+5	##분	I-TI	I-TI	I-TI, B-TI, O, I-EV, I-TR
+6	간격	O	O	O, I-TI, I-QT, B-LC, B-TM
+7	##으로	O	O	O, B-LC, B-PS, B-OG, B-CV
+8	형제	B-CV	B-CV	B-CV, O, B-AF, B-TM, B-PS
+9	테러	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-AF
+10	##범	I-CV	I-CV	I-CV, O, B-CV, I-TM, I-AM
+11	##과	O	O	O, I-CV, B-CV, I-OG, I-EV
+12	식품	O	O	O, B-CV, B-EV, B-LC, B-TM
+13	##점	O	O	O, I-CV, B-CV, I-EV, I-LC
+14	인질	B-CV	O	O, B-CV, B-EV, I-CV, B-LC
+15	##극	O	O	O, I-CV, I-EV, B-CV, B-EV
+16	진압	O	O	O, I-EV, B-LC, B-CV, B-OG
+17	[SEP]	O	O	O, B-LC, B-CV, I-EV, B-OG

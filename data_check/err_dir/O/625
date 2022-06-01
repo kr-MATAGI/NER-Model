@@ -1,0 +1,24 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
+1	중국	B-LC	B-LC	B-LC, B-OG, O, I-LC, B-AF
+2	##에	O	O	O, I-LC, I-AF, I-OG, B-CV
+3	가	O	O	O, B-CV, B-OG, B-LC, B-QT
+4	##보	O	O	O, B-CV, I-AF, B-OG, I-OG
+5	##면	O	O	O, B-CV, B-OG, B-LC, B-PS
+6	담배	B-CV	B-CV	B-CV, O, B-AF, B-TM, B-PT
+7	##가	O	O	O, I-CV, I-OG, B-QT, I-AF
+8	##게	O	O	O, I-OG, I-CV, I-QT, I-AF
+9	##에서	O	O	O, B-CV, B-PS, B-QT, I-AF
+10	담배	O	B-CV	B-CV, O, B-AF, B-PT, B-AM
+11	되	O	O	O, I-CV, I-AF, B-CV, I-OG
+12	산다는	O	O	O, B-QT, B-CV, B-OG, B-TM
+13	그	O	O	O, B-CV, B-OG, B-TM, B-AF
+14	게	O	O	O, B-CV, B-OG, B-PS, B-AF
+15	그런	O	O	O, B-CV, B-TM, B-OG, B-QT
+16	게	O	O	O, B-CV, B-OG, B-PS, B-LC
+17	붙	O	O	O, B-CV, B-TM, B-PS, B-QT
+18	##어	O	O	O, B-CV, I-AF, I-OG, B-LC
+19	있	O	O	O, B-CV, I-AF, B-PS, B-OG
+20	##어요	O	O	O, B-CV, B-OG, I-AF, I-OG
+21	.	O	O	O, B-CV, B-LC, B-OG, B-AF
+22	[SEP]	O	O	O, B-CV, I-AF, B-LC, B-OG

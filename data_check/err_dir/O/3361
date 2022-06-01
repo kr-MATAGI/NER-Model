@@ -1,0 +1,20 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-EV, B-CV, I-CV, I-OG
+1	미국	B-LC	B-LC	B-LC, O, B-OG, B-PS, B-AF
+2	라스베이거스	B-LC	B-LC	B-LC, I-LC, O, B-OG, B-AF
+3	##에	O	O	O, I-LC, I-AF, B-LC, I-OG
+4	##선	O	O	O, B-LC, B-CV, B-TM, B-EV
+5	한인	O	B-CV	B-CV, O, B-LC, I-CV, B-OG
+6	노인	O	O	O, I-CV, B-CV, I-OG, I-TM
+7	##들	O	O	O, I-CV, B-CV, B-PS, I-OG
+8	##을	O	O	O, B-CV, B-PS, I-CV, B-TM
+9	위한	O	O	O, B-CV, B-TM, B-LC, B-EV
+10	바자회	O	O	O, B-EV, B-CV, B-TM, B-QT
+11	등	O	O	O, I-EV, B-CV, B-PS, B-LC
+12	봉사	O	O	O, B-CV, B-EV, B-FD, B-TM
+13	활동	O	O	O, I-EV, B-CV, I-CV, B-LC
+14	##을	O	O	O, B-CV, I-EV, B-OG, B-PS
+15	벌였	O	O	O, B-CV, B-LC, B-OG, B-PS
+16	##다	O	O	O, B-CV, B-LC, I-EV, B-PS
+17	.	O	O	O, B-CV, B-LC, I-EV, B-PS
+18	[SEP]	O	O	O, B-CV, B-LC, I-EV, B-FD

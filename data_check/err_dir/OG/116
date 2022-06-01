@@ -1,0 +1,27 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
+1	신한은행	B-OG	B-OG	B-OG, B-PS, O, B-CV, B-AF
+2	##은	O	O	O, I-OG, I-AF, I-CV, B-CV
+3	작년	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-OG
+4	초	I-DT	I-DT	I-DT, O, I-QT, I-PS, I-OG
+5	환경	O	B-OG	B-OG, O, I-OG, B-CV, B-AF
+6	##재단	O	I-OG	I-OG, O, I-CV, I-EV, B-OG
+7	##의	O	O	O, I-OG, I-EV, B-OG, I-AF
+8	기후	B-OG	B-AF	B-AF, O, B-OG, B-LC, B-EV
+9	##변	I-OG	I-AF	I-AF, O, I-OG, I-LC, I-EV
+10	##화	I-OG	I-AF	I-AF, O, I-OG, I-EV, I-LC
+11	##센터	I-OG	I-AF	I-AF, O, I-OG, I-EV, I-LC
+12	설립	O	O	O, I-AF, I-EV, I-OG, I-TM
+13	##을	O	O	O, I-AF, B-PS, B-OG, I-OG
+14	후원	O	O	O, B-CV, B-OG, B-TM, B-LC
+15	##하면	O	O	O, B-CV, B-LC, B-PS, B-OG
+16	##서	O	O	O, B-CV, B-OG, B-LC, B-PS
+17	환경	O	B-OG	B-OG, O, I-OG, B-CV, B-AF
+18	##재단	O	I-OG	I-OG, O, I-CV, I-EV, B-OG
+19	##의	O	O	O, I-OG, I-AF, I-CV, I-EV
+20	회원	B-CV	B-CV	B-CV, O, B-OG, I-CV, B-AF
+21	##이	O	O	O, I-CV, I-OG, I-AF, I-QT
+22	됐	O	O	O, B-CV, I-OG, B-QT, B-OG
+23	##다	O	O	O, B-CV, I-OG, B-TM, B-OG
+24	.	O	O	O, B-OG, B-PS, B-LC, I-OG
+25	[SEP]	O	O	O, B-OG, I-OG, B-CV, B-PS

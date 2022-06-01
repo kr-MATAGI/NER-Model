@@ -1,0 +1,11 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
+1	뭐	O	O	O, B-CV, B-TM, B-OG, B-PS
+2	스타킹	B-AF	B-CV	B-CV, O, B-AF, B-OG, B-PS
+3	##에도	O	O	O, I-CV, I-AF, B-CV, I-OG
+4	나왔	O	O	O, B-CV, B-OG, B-LC, B-PS
+5	##대	O	O	O, B-CV, I-AF, I-CV, B-LC
+6	그	O	O	O, B-CV, B-OG, B-LC, B-TM
+7	여자	O	O	O, B-CV, I-CV, B-TM, B-AF
+8	##가	O	O	O, B-CV, I-AF, I-CV, B-PS
+9	[SEP]	O	O	O, B-CV, B-LC, B-PS, I-AF

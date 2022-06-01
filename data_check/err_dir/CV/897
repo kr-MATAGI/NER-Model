@@ -1,0 +1,20 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
+1	어린	O	O	O, B-CV, B-OG, B-LC, B-PS
+2	특히	O	O	O, B-CV, B-OG, B-PS, B-LC
+3	청소년	B-CV	B-CV	B-CV, O, B-OG, I-CV, B-FD
+4	##들	O	O	O, I-CV, I-OG, I-AF, B-CV
+5	남학생	B-CV	O	O, B-CV, B-OG, B-FD, B-QT
+6	##들이	O	O	O, I-CV, B-CV, I-OG, I-QT
+7	한	B-QT	B-QT	B-QT, O, B-DT, I-QT, B-LC
+8	열	I-QT	I-QT	I-QT, B-QT, O, I-LC, I-DT
+9	##여	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
+10	##덟	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
+11	열	B-QT	B-QT	B-QT, I-QT, O, B-DT, I-LC
+12	##아	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-DT
+13	##홉	I-QT	I-QT	I-QT, B-QT, O, I-LC, I-PS
+14	살	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-DT
+15	된	O	O	O, I-QT, B-CV, I-OG, B-TM
+16	애	O	O	O, B-CV, I-QT, I-CV, B-PS
+17	##들이	O	O	O, B-CV, I-CV, B-PS, I-AF
+18	[SEP]	O	O	O, B-CV, B-PS, B-LC, I-CV

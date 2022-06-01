@@ -1,0 +1,10 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
+1	근데	O	O	O, B-CV, B-OG, B-TM, B-PS
+2	이	O	O	O, B-PS, B-OG, B-CV, B-AF
+3	기업	O	O	O, B-CV, B-OG, B-FD, I-OG
+4	##들이	O	O	O, I-CV, I-OG, I-AF, B-PS
+5	또는	O	O	O, B-CV, B-PS, B-QT, B-LC
+6	시	B-OG	O	O, B-CV, B-FD, B-TR, B-PS
+7	시가	O	O	O, B-PS, B-CV, B-LC, B-FD
+8	[SEP]	O	O	O, B-CV, I-CV, B-PS, I-OG

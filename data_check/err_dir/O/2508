@@ -1,0 +1,17 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-AF
+1	“	O	O	O, B-CV, B-OG, B-LC, B-TM
+2	이제	O	O	O, B-CV, B-TM, B-OG, B-PS
+3	링	O	B-TM	B-TM, O, B-CV, B-TR, I-TM
+4	##거	O	I-TM	I-TM, O, B-TM, I-QT, I-TR
+5	빼	O	O	O, I-TM, I-OG, I-QT, I-CV
+6	##고	O	O	O, B-PS, I-OG, I-TM, I-AF
+7	재활	O	O	O, B-TM, B-CV, B-TR, B-PS
+8	…	O	O	O, B-PS, I-AF, I-OG, I-TM
+9	빚	O	O	O, B-CV, B-TM, B-AF, B-LC
+10	##더미	O	O	O, I-AF, B-AF, B-CV, I-CV
+11	병실	O	O	O, B-AF, B-CV, B-TM, B-LC
+12	곧	O	O	O, B-LC, I-AF, B-PS, B-TM
+13	탈출	O	O	O, B-CV, B-PS, B-LC, B-AF
+14	”	O	O	O, B-CV, I-AF, I-OG, B-LC
+15	[SEP]	O	O	O, B-CV, B-LC, B-TM, B-AF

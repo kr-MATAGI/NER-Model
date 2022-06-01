@@ -1,0 +1,27 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
+1	네	O	O	O, B-TM, B-QT, B-CV, B-LC
+2	손	B-AM	B-AM	B-AM, O, B-TR, B-TM, B-PS
+3	##을	O	O	O, I-AF, I-QT, I-CV, B-CV
+4	잡	O	O	O, B-CV, B-PS, B-TM, B-QT
+5	##은	O	O	O, B-PS, B-CV, B-QT, B-LC
+6	사람	O	O	O, B-CV, I-QT, B-PS, B-QT
+7	##과	O	O	O, B-PS, B-CV, B-LC, B-OG
+8	어	O	O	O, B-CV, B-TM, B-LC, B-OG
+9	~	O	O	O, I-CV, I-OG, I-AF, B-CV
+10	근까	O	O	O, B-LC, B-CV, B-PS, B-AF
+11	결국	O	O	O, B-CV, B-TM, B-LC, B-PS
+12	##은	O	O	O, B-CV, B-PS, B-OG, B-LC
+13	비닐봉	O	O	O, B-CV, B-AF, B-TM, B-LC
+14	##지	O	O	O, I-AF, I-CV, I-LC, I-TM
+15	##를	O	O	O, I-AF, B-CV, B-PS, I-CV
+16	씌	O	O	O, B-CV, B-PS, B-LC, B-OG
+17	##운	O	O	O, B-PS, B-CV, B-LC, I-CV
+18	사람	O	O	O, B-CV, B-PS, B-QT, B-AM
+19	##이	O	O	O, B-PS, B-CV, B-OG, B-AF
+20	싸이	B-CV	B-TM	B-TM, B-CV, O, B-EV, B-AF
+21	##코	I-CV	I-TM	I-TM, I-CV, O, I-AF, I-QT
+22	##패	I-CV	I-TM	I-TM, I-CV, O, I-AF, I-QT
+23	##쓰	I-CV	I-TM	I-TM, I-CV, O, I-AF, I-QT
+24	##고	O	O	O, I-TM, I-CV, I-AF, I-OG
+25	[SEP]	O	O	O, B-CV, B-LC, I-AF, B-PS

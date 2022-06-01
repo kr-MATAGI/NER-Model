@@ -1,0 +1,13 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, I-CV, I-AF, B-CV
+1	[UNK]	O	O	O, B-PS, B-LC, B-CV, B-OG
+2	는	O	O	O, B-PS, B-LC, B-OG, B-CV
+3	박정희	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
+4	生	O	O	O, B-CV, B-LC, I-PS, B-QT
+5	家	O	O	O, I-CV, I-LC, I-PS, I-OG
+6	,	O	O	O, B-PS, I-CV, I-AF, B-LC
+7	金	B-PS	O	O, B-PS, B-MT, B-LC, B-OG
+8	은	O	O	O, B-PS, I-PS, I-AF, B-LC
+9	현충원	B-LC	B-LC	B-LC, O, I-LC, B-AF, B-PS
+10	##으로	O	O	O, I-LC, I-AF, I-OG, I-PS
+11	[SEP]	O	O	O, B-LC, B-PS, B-CV, I-AF

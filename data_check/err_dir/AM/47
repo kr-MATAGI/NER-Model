@@ -1,0 +1,12 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
+1	[	O	O	O, B-OG, B-LC, B-CV, B-AF
+2	만물	O	O	O, B-AF, B-PS, B-CV, I-AF
+3	##상	O	O	O, I-AF, I-OG, I-PS, I-CV
+4	]	O	O	O, I-AF, B-PS, B-CV, I-OG
+5	닭	B-AM	B-CV	B-CV, O, B-AM, B-PT, B-AF
+6	##값	O	O	O, I-CV, I-AF, I-AM, I-TM
+7	##과	O	O	O, I-CV, I-AF, B-PS, B-CV
+8	치킨	O	B-CV	B-CV, O, B-AM, B-PT, B-AF
+9	##값	O	O	O, I-CV, I-AF, I-TM, B-CV
+10	[SEP]	O	O	O, B-CV, I-CV, I-AF, B-LC

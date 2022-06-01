@@ -1,0 +1,20 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-EV, B-CV, I-OG, I-CV
+1	이번	O	O	O, B-EV, B-OG, B-CV, B-PS
+2	임시	O	O	O, B-EV, B-OG, I-EV, B-CV
+3	##주	O	O	O, I-EV, B-EV, I-OG, B-OG
+4	##총	O	O	O, I-EV, I-OG, I-AF, B-EV
+5	##은	O	O	O, I-EV, I-OG, B-CV, B-LC
+6	롯데	B-OG	B-OG	B-OG, O, B-LC, B-PS, B-AF
+7	##그룹	I-OG	I-OG	I-OG, O, I-LC, I-PS, B-OG
+8	형제	O	B-CV	B-CV, O, I-CV, I-OG, I-EV
+9	##간	O	O	O, I-CV, I-EV, B-CV, B-PS
+10	경영	O	O	O, B-CV, B-LC, B-EV, B-PS
+11	##권	O	O	O, I-CV, B-PS, I-LC, B-LC
+12	분쟁	O	O	O, B-CV, B-LC, B-PS, B-EV
+13	##의	O	O	O, B-PS, B-LC, B-OG, B-CV
+14	분수령	O	O	O, B-EV, B-CV, B-QT, B-LC
+15	##으로	O	O	O, I-EV, B-CV, B-OG, B-PS
+16	꼽힌다	O	O	O, B-LC, B-OG, B-EV, B-CV
+17	.	O	O	O, B-LC, I-EV, B-PS, B-EV
+18	[SEP]	O	O	O, I-EV, B-LC, B-CV, B-EV

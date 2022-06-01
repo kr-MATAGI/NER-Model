@@ -1,0 +1,18 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
+1	그때	O	O	O, B-CV, B-LC, B-PS, B-OG
+2	그	O	O	O, B-CV, B-LC, B-OG, B-PS
+3	~	O	O	O, B-CV, B-LC, I-CV, B-PS
+4	프레스	B-AF	O	O, B-OG, B-AF, B-PS, B-LC
+5	##센	I-AF	O	O, I-OG, I-AF, I-PS, I-LC
+6	##타	I-AF	O	O, I-OG, I-AF, I-PS, I-LC
+7	지금	O	O	O, I-AF, I-OG, B-CV, I-PS
+8	##의	O	O	O, I-AF, B-PS, B-LC, B-CV
+9	xxx	O	O	O, B-CV, B-LC, B-AF, B-OG
+10	##센	O	O	O, I-OG, I-AF, I-LC, I-CV
+11	##타	O	O	O, I-OG, I-AF, I-LC, I-CV
+12	##에	O	O	O, I-OG, I-AF, I-CV, I-QT
+13	전	O	O	O, B-LC, B-CV, B-OG, B-PS
+14	옛날	O	O	O, B-CV, B-LC, B-DT, B-OG
+15	##에	O	O	O, B-CV, B-LC, B-PS, B-OG
+16	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-AF

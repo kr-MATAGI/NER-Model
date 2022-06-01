@@ -1,0 +1,22 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
+1	우리	O	O	O, B-OG, B-LC, B-CV, I-OG
+2	국제	O	B-OG	B-OG, O, I-OG, B-CV, B-EV
+3	협력	O	I-OG	I-OG, O, B-OG, I-CV, I-EV
+4	##단	O	I-OG	I-OG, O, I-CV, I-EV, B-OG
+5	##하고	O	O	O, I-OG, I-AF, I-EV, I-CV
+6	또	O	O	O, B-CV, B-OG, B-LC, I-OG
+7	이런	O	O	O, B-OG, B-LC, B-CV, B-PS
+8	그	O	O	O, B-OG, B-CV, B-LC, B-PS
+9	국제	O	O	O, B-CV, B-FD, B-LC, B-PS
+10	##적인	O	O	O, B-QT, I-QT, B-PS, I-CV
+11	역할	O	O	O, B-CV, B-LC, B-PS, B-OG
+12	##하	O	O	O, B-CV, B-OG, B-PS, B-LC
+13	##곤	O	O	O, B-CV, B-OG, B-PS, B-LC
+14	어떤	O	O	O, B-LC, B-OG, B-PS, B-CV
+15	관계	O	O	O, B-CV, B-OG, B-LC, B-PS
+16	##에	O	O	O, I-OG, B-CV, B-OG, I-CV
+17	있	O	O	O, B-CV, B-OG, B-LC, B-PS
+18	##습니까	O	O	O, B-CV, B-OG, I-OG, B-LC
+19	?	O	O	O, B-CV, B-LC, B-OG, B-PS
+20	[SEP]	O	O	O, B-CV, B-OG, B-LC, B-PS

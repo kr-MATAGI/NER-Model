@@ -1,0 +1,19 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-AF
+1	에어	B-TM	B-CV	B-CV, O, B-AF, B-TM, B-OG
+2	##스카	I-TM	I-CV	I-CV, O, B-CV, I-AF, I-TM
+3	##프	I-TM	I-CV	I-CV, O, I-AF, I-TM, I-OG
+4	바람	O	O	O, I-CV, I-AF, I-OG, B-PS
+5	##의	O	O	O, B-PS, I-AF, B-LC, B-OG
+6	세기	O	O	O, B-LC, B-OG, B-PS, B-TM
+7	##는	O	O	O, B-CV, B-OG, B-TM, I-OG
+8	3	B-QT	B-QT	B-QT, O, I-QT, B-EV, B-DT
+9	##단	I-QT	I-QT	I-QT, O, I-EV, B-QT, I-DT
+10	##계	I-QT	I-QT	I-QT, O, I-EV, B-QT, I-LC
+11	##로	O	O	O, I-QT, I-EV, I-OG, B-OG
+12	조절	O	O	O, B-CV, B-TM, B-OG, B-LC
+13	가능	O	O	O, B-CV, B-PS, B-TM, B-LC
+14	##하	O	O	O, B-CV, B-LC, B-OG, B-PS
+15	##다	O	O	O, B-CV, B-TM, B-LC, B-OG
+16	.	O	O	O, B-LC, B-PS, B-OG, B-CV
+17	[SEP]	O	O	O, B-CV, B-LC, B-OG, I-OG

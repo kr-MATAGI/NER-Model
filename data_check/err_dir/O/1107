@@ -1,0 +1,26 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-EV, I-CV
+1	당시	O	O	O, B-CV, B-OG, B-TM, B-LC
+2	미군	B-OG	B-OG	B-OG, O, B-CV, B-LC, I-OG
+3	##이	O	O	O, I-OG, B-PS, B-CV, I-EV
+4	수류	B-AF	B-AF	B-AF, O, I-AF, B-OG, B-TM
+5	##탄	I-AF	I-AF	I-AF, O, I-EV, I-TM, I-OG
+6	##을	O	O	O, I-AF, I-EV, B-CV, I-OG
+7	사과	O	B-TM	B-TM, O, B-CV, B-PT, B-AM
+8	##형	O	I-TM	I-TM, O, I-QT, B-TM, I-CV
+9	##으로	O	O	O, I-TM, I-QT, B-CV, B-PS
+10	교체	O	O	O, B-TM, B-CV, B-PS, B-LC
+11	중	O	O	O, B-PS, B-DT, B-LC, I-TM
+12	##이	O	O	O, B-PS, B-CV, B-OG, B-LC
+13	##었	O	O	O, B-CV, B-PS, I-EV, B-LC
+14	##다는	O	O	O, B-CV, B-PS, B-OG, B-LC
+15	사실	O	O	O, B-CV, B-PS, B-QT, B-LC
+16	##이	O	O	O, B-PS, B-CV, B-OG, B-LC
+17	나중	O	O	O, B-CV, B-TM, B-QT, B-PS
+18	##에	O	O	O, B-CV, B-OG, B-PS, I-EV
+19	밝혀졌	O	O	O, B-CV, B-TM, B-PS, B-QT
+20	##기	O	O	O, B-CV, I-CV, I-EV, B-PS
+21	때문	O	O	O, B-CV, B-PS, B-TM, B-QT
+22	##이다	O	O	O, B-CV, B-TM, I-EV, I-OG
+23	.	O	O	O, B-PS, B-CV, B-LC, B-OG
+24	[SEP]	O	O	O, B-CV, B-PS, B-TM, B-LC

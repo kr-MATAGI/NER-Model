@@ -1,0 +1,26 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
+1	오토	O	O	O, B-OG, B-AF, B-TR, B-TM
+2	##몬	O	O	O, I-OG, I-AF, I-TM, I-TR
+3	##스	O	O	O, I-OG, I-AF, I-TM, I-LC
+4	##는	O	O	O, I-OG, I-AF, I-TM, I-QT
+5	차	O	B-AF	B-AF, O, I-AF, B-OG, B-PS
+6	(	O	O	O, I-AF, I-OG, I-EV, I-CV
+7	a	O	O	O, B-LC, B-TM, B-AF, B-OG
+8	##ut	O	O	O, B-LC, B-AF, I-LC, I-AF
+9	##om	O	O	O, I-LC, B-LC, I-AF, I-OG
+10	##ob	O	O	O, I-LC, B-LC, I-OG, I-AF
+11	##ile	O	O	O, I-LC, I-OG, I-AF, B-LC
+12	)	O	O	O, I-OG, I-AF, I-LC, B-LC
+13	와	O	O	O, B-PS, B-CV, B-AF, B-QT
+14	괴물	O	O	O, B-AF, I-AF, B-PS, B-LC
+15	(	O	O	O, B-CV, I-AF, I-OG, I-QT
+16	m	O	O	O, B-LC, B-PS, B-AF, B-TM
+17	##ons	O	O	O, B-LC, B-PS, I-LC, B-AF
+18	##ter	O	O	O, I-LC, I-AF, I-OG, B-LC
+19	)	O	O	O, I-OG, B-CV, I-AF, I-QT
+20	의	O	O	O, B-PS, B-QT, B-OG, B-CV
+21	합성어	O	O	O, B-QT, B-CV, B-TM, I-QT
+22	##다	O	O	O, I-QT, B-CV, I-OG, I-CV
+23	.	O	O	O, B-LC, I-OG, B-OG, B-PS
+24	[SEP]	O	O	O, B-LC, I-OG, I-AF, B-OG

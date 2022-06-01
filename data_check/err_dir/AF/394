@@ -1,0 +1,9 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, B-CV, I-AF, I-CV
+1	우린	O	O	O, B-AF, B-CV, B-OG, B-LC
+2	공항	B-AF	O	O, B-AF, B-LC, B-OG, B-TM
+3	철도	I-AF	O	O, B-AF, I-AF, I-OG, B-CV
+4	##를	O	O	O, I-AF, I-OG, I-CV, B-CV
+5	안	O	O	O, B-CV, B-TM, B-LC, I-AF
+6	타고	O	O	O, B-CV, I-AF, B-OG, B-AF
+7	[SEP]	O	O	O, B-CV, B-AF, B-LC, I-AF

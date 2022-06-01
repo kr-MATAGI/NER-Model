@@ -1,0 +1,22 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-AF
+1	유대인	B-CV	B-CV	B-CV, O, B-OG, B-LC, B-PS
+2	##은	O	O	O, I-CV, I-OG, B-CV, I-AF
+3	돼지고기	B-CV	B-CV	B-CV, O, B-PT, B-AM, I-CV
+4	##와	O	O	O, I-CV, I-AF, B-CV, I-OG
+5	조개	B-AM	B-CV	B-CV, O, B-AM, B-PT, I-CV
+6	##를	O	O	O, I-CV, B-CV, I-AF, I-QT
+7	,	O	O	O, B-LC, B-CV, B-OG, B-TM
+8	북미	B-LC	B-LC	B-LC, O, B-OG, B-TM, B-AF
+9	나	B-CV	B-LC	B-LC, I-LC, O, B-OG, B-AF
+10	##바	I-CV	I-LC	I-LC, O, B-LC, I-AF, I-OG
+11	##호	I-CV	I-LC	I-LC, O, I-AF, I-OG, B-LC
+12	인디언	I-CV	B-CV	B-CV, O, I-LC, I-CV, B-OG
+13	##들	O	O	O, I-CV, I-OG, I-LC, I-AF
+14	##은	O	O	O, B-CV, B-LC, B-TM, B-OG
+15	물고기	B-AM	B-AM	B-AM, O, B-CV, B-TM, B-LC
+16	##를	O	O	O, I-AF, I-CV, B-CV, I-QT
+17	금	O	O	O, B-CV, B-PS, B-LC, B-MT
+18	##한다	O	O	O, I-CV, I-OG, I-PS, I-AF
+19	.	O	O	O, B-LC, B-CV, B-OG, B-PS
+20	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-AF

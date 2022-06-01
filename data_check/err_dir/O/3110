@@ -1,0 +1,24 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
+1	근로자	O	B-CV	B-CV, O, I-CV, B-PT, B-TM
+2	##녀	O	O	O, I-CV, B-CV, I-AF, I-TM
+3	##장	O	O	O, I-CV, B-CV, I-TM, I-AF
+4	##려	O	O	O, I-CV, B-CV, I-TM, I-OG
+5	##금	O	O	O, I-CV, B-CV, I-TM, I-AF
+6	##은	O	O	O, I-CV, B-CV, B-PS, I-OG
+7	일	O	O	O, B-CV, B-PS, B-LC, B-TM
+8	##하	O	O	O, B-PS, B-CV, B-OG, B-LC
+9	##는	O	O	O, B-CV, B-PS, B-OG, B-LC
+10	저소득층	O	O	O, B-CV, I-CV, B-PS, B-TM
+11	##에	O	O	O, I-CV, B-CV, I-OG, B-PS
+12	대해	O	O	O, B-CV, B-LC, B-QT, B-TM
+13	자녀	B-CV	B-CV	B-CV, O, I-CV, B-PS, B-TM
+14	양육비	O	O	O, I-CV, B-CV, B-QT, B-TM
+15	##를	O	O	O, I-CV, B-CV, B-PS, I-QT
+16	지원	O	O	O, B-CV, I-CV, B-PS, B-TM
+17	##하	O	O	O, B-PS, B-CV, I-CV, B-LC
+18	##는	O	O	O, B-CV, B-PS, I-CV, B-OG
+19	제도	O	O	O, B-CV, I-CV, B-PS, B-AM
+20	##다	O	O	O, I-CV, B-CV, B-PS, I-QT
+21	.	O	O	O, B-CV, I-CV, B-PS, B-LC
+22	[SEP]	O	O	O, B-CV, I-CV, B-PS, B-LC

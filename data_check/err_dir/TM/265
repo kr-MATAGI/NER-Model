@@ -1,0 +1,26 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
+1	지난	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-LC
+2	##겨울	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
+3	##엔	O	O	O, I-DT, B-CV, B-OG, I-QT
+4	AI	B-TM	B-FD	B-FD, B-TM, B-TR, O, B-OG
+5	##가	O	O	O, I-TM, I-OG, I-EV, I-TR
+6	전국	O	O	O, B-LC, B-CV, B-OG, B-PS
+7	##으로	O	O	O, B-LC, B-PS, B-CV, I-LC
+8	확산	O	O	O, B-LC, B-PS, B-CV, B-TM
+9	##돼	O	O	O, B-LC, B-PS, B-OG, B-CV
+10	3700	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-LC
+11	##만	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
+12	##마리	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
+13	##의	O	O	O, I-QT, B-PS, B-CV, I-AF
+14	닭	B-AM	B-AM	B-AM, O, B-CV, B-TM, B-PS
+15	·	O	O	O, I-CV, I-AF, I-AM, I-QT
+16	오리	B-AM	B-AM	B-AM, O, I-AM, B-TM, B-CV
+17	##를	O	O	O, I-CV, I-AF, B-CV, I-QT
+18	살	O	O	O, B-CV, B-TM, B-LC, B-QT
+19	##처분	O	O	O, I-TM, I-CV, I-QT, I-OG
+20	##했	O	O	O, B-CV, B-PS, B-LC, B-OG
+21	##었	O	O	O, B-CV, B-OG, B-LC, I-OG
+22	##다	O	O	O, B-CV, I-OG, B-LC, B-OG
+23	.	O	O	O, B-LC, B-CV, B-PS, B-OG
+24	[SEP]	O	O	O, B-CV, B-LC, B-PS, I-OG

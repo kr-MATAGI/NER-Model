@@ -1,0 +1,18 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
+1	‘	O	O	O, B-CV, B-LC, B-OG, B-PS
+2	골목	O	O	O, B-CV, B-LC, B-TM, B-AF
+3	##상	O	O	O, I-CV, B-CV, I-LC, I-AF
+4	##권	O	O	O, I-CV, I-LC, I-AF, I-TM
+5	보호	O	O	O, I-CV, B-CV, B-PS, I-LC
+6	##냐	O	O	O, I-CV, B-PS, B-LC, I-AF
+7	,	O	O	O, B-CV, B-LC, B-PS, B-OG
+8	소비자	B-CV	B-CV	B-CV, O, B-OG, B-PS, B-AF
+9	선택	O	I-CV	I-CV, O, B-CV, I-AF, I-TR
+10	##권	O	I-CV	I-CV, O, B-CV, I-TR, I-OG
+11	보장	O	O	O, I-CV, B-CV, I-QT, I-AF
+12	##이	O	O	O, B-PS, I-CV, B-CV, B-LC
+13	##냐	O	O	O, B-PS, B-LC, B-CV, I-CV
+14	.	O	O	O, B-CV, B-LC, B-OG, B-PS
+15	’	O	O	O, B-CV, B-LC, B-OG, B-TM
+16	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-FD

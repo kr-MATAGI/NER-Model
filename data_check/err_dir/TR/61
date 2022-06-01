@@ -1,0 +1,17 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
+1	저	O	O	O, B-CV, B-OG, B-PS, B-LC
+2	##는	O	O	O, B-CV, B-PS, B-OG, I-OG
+3	사실	O	O	O, B-PS, B-CV, B-OG, B-TR
+4	진보	B-TR	B-TR	B-TR, O, I-TR, B-FD, B-TM
+5	보수	B-TR	O	O, B-TR, I-TR, B-FD, B-CV
+6	논쟁	O	O	O, I-TR, I-EV, B-TR, I-CV
+7	##에	O	O	O, B-CV, I-EV, I-TR, I-CV
+8	별로	O	O	O, B-CV, B-OG, B-TM, B-QT
+9	관심	O	O	O, B-TM, B-QT, B-CV, B-LC
+10	##이	O	O	O, B-PS, B-CV, B-OG, B-LC
+11	없	O	O	O, B-CV, B-TM, B-PS, B-LC
+12	##습	O	O	O, B-CV, I-CV, I-OG, I-AF
+13	##니다	O	O	O, B-CV, B-OG, I-OG, B-LC
+14	.	O	O	O, B-CV, B-PS, B-LC, B-OG
+15	[SEP]	O	O	O, B-CV, B-PS, B-TM, B-LC

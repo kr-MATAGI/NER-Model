@@ -1,0 +1,24 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
+1	아웃	O	B-TM	B-TM, O, B-QT, B-CV, I-TM
+2	##될	O	O	O, I-TM, I-QT, I-CV, I-AF
+3	수도	O	O	O, B-TM, I-TM, B-QT, B-CV
+4	있	O	O	O, B-QT, B-TM, B-CV, B-PS
+5	##는	O	O	O, B-TM, B-PS, B-CV, B-QT
+6	타이밍	O	O	O, B-TM, B-CV, B-QT, I-TM
+7	##이	O	O	O, B-PS, B-CV, B-OG, I-EV
+8	##었	O	O	O, B-TM, B-CV, B-PS, B-OG
+9	##지만	O	O	O, B-TM, B-PS, B-CV, I-OG
+10	과감	O	O	O, B-CV, B-TM, B-PS, B-LC
+11	##한	O	O	O, B-PS, B-TM, B-LC, B-AF
+12	태	O	O	O, B-TM, B-CV, B-AF, B-QT
+13	##클로	O	O	O, I-TM, I-PS, I-AF, I-LC
+14	포수	B-CV	B-CV	B-CV, O, B-TM, I-CV, B-AF
+15	##의	O	O	O, I-CV, I-AF, B-CV, I-TM
+16	블로킹	O	B-TM	B-TM, O, B-CV, I-TM, B-AF
+17	##을	O	O	O, I-TM, I-CV, I-AF, I-QT
+18	무너	O	O	O, B-CV, B-TM, B-OG, B-QT
+19	##뜨렸	O	O	O, B-CV, B-LC, B-QT, B-TM
+20	##다	O	O	O, B-CV, B-TM, B-QT, B-LC
+21	.	O	O	O, B-CV, B-TM, B-PS, B-LC
+22	[SEP]	O	O	O, B-CV, B-TM, B-PS, I-EV

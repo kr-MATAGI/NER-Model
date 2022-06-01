@@ -1,0 +1,11 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
+1	LG	B-OG	B-OG	B-OG, O, B-LC, I-OG, B-EV
+2	##의	O	O	O, I-OG, I-EV, I-AF, I-DT
+3	9	B-DT	B-DT	B-DT, I-DT, O, B-EV, B-LC
+4	##월	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
+5	‘	O	O	O, I-DT, B-CV, I-EV, B-OG
+6	인디언	B-CV	B-EV	B-EV, B-AF, B-TM, B-DT, B-AM
+7	서머	B-DT	I-EV	I-EV, I-DT, I-AF, B-DT, I-TM
+8	’	O	O	O, I-EV, I-DT, I-AF, I-CV
+9	[SEP]	O	O	O, B-OG, B-CV, I-EV, B-LC

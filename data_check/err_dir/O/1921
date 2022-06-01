@@ -1,0 +1,15 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
+1	7	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-EV
+2	##살	I-QT	I-QT	I-QT, O, I-EV, I-PS, I-DT
+3	딸아이	O	B-CV	B-CV, O, I-QT, B-PS, B-AM
+4	##도	O	O	O, I-CV, I-QT, I-AF, I-EV
+5	아빠	B-CV	B-CV	B-CV, O, B-PS, I-CV, B-OG
+6	##는	O	O	O, I-CV, B-CV, I-AF, I-QT
+7	‘	O	O	O, B-CV, B-LC, B-PS, B-OG
+8	주말	B-DT	B-DT	B-DT, O, B-CV, B-EV, B-AF
+9	손님	B-CV	B-CV	B-CV, O, I-CV, I-DT, B-PS
+10	’	O	O	O, I-CV, I-OG, B-CV, I-EV
+11	이다	O	O	O, B-CV, B-PS, I-CV, B-QT
+12	.	O	O	O, B-CV, B-PS, B-LC, B-OG
+13	[SEP]	O	O	O, B-CV, B-PS, B-OG, B-LC

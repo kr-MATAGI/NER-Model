@@ -1,0 +1,16 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-AF
+1	[	O	O	O, B-LC, B-OG, B-AF, B-DT
+2	인천	B-LC	B-LC	B-LC, B-OG, O, B-AF, B-PS
+3	/	O	O	O, I-OG, I-LC, I-AF, B-LC
+4	부천	B-LC	B-LC	B-LC, O, B-OG, I-LC, B-PS
+5	]	O	O	O, I-LC, I-OG, B-LC, I-AF
+6	영종	B-LC	B-LC	B-LC, O, B-OG, B-AF, I-LC
+7	##하늘	O	I-LC	I-LC, O, I-OG, B-LC, I-AF
+8	##도	O	I-LC	I-LC, O, I-OG, I-AF, B-LC
+9	##시	O	I-LC	I-LC, O, I-OG, I-AF, I-PS
+10	사업	O	O	O, I-LC, I-OG, B-CV, B-TM
+11	##계약	O	O	O, I-AF, I-OG, I-LC, I-TM
+12	취소	O	O	O, B-CV, B-TM, I-AF, I-OG
+13	잇따라	O	O	O, B-LC, B-OG, B-CV, B-TM
+14	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-AF

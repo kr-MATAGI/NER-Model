@@ -1,0 +1,17 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, I-CV, I-AF, B-CV
+1	政	O	O	O, B-CV, B-OG, B-AF, B-PS
+2	府	O	O	O, I-CV, I-OG, B-CV, I-AF
+3	조직법	B-CV	O	O, I-CV, I-OG, I-AF, B-CV
+4	타결	O	O	O, I-CV, I-OG, I-AF, I-EV
+5	…	O	O	O, I-OG, B-PS, B-LC, I-AF
+6	47	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-OG
+7	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-OG
+8	헛	O	O	O, I-DT, B-LC, B-TM, B-CV
+9	##돌	O	O	O, B-LC, B-PS, I-LC, B-OG
+10	##다	O	O	O, B-PS, B-LC, I-OG, I-LC
+11	대통령	B-CV	B-CV	B-CV, O, B-OG, B-AF, B-EV
+12	原	O	O	O, I-CV, B-CV, B-LC, B-PS
+13	[UNK]	O	O	O, B-LC, B-PS, I-CV, B-OG
+14	대로	O	O	O, B-LC, B-PS, B-CV, B-OG
+15	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-PS

@@ -1,0 +1,27 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
+1	2005	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-OG
+2	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
+3	5	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
+4	##월	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-OG
+5	개관	O	O	O, I-DT, B-CV, B-EV, B-FD
+6	##한	O	O	O, I-AF, I-OG, I-EV, B-PS
+7	고래	B-AF	B-AF	B-AF, B-OG, O, B-EV, B-CV
+8	##박	I-AF	I-AF	I-AF, I-OG, O, I-EV, I-CV
+9	##물	I-AF	I-OG	I-OG, I-AF, O, I-EV, I-LC
+10	##관	I-AF	I-OG	I-OG, I-AF, O, I-EV, I-LC
+11	##의	O	O	O, I-AF, I-OG, I-EV, B-CV
+12	지난달	B-DT	B-DT	B-DT, I-DT, O, B-QT, B-CV
+13	말	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
+14	##까	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
+15	##지	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
+16	##의	O	O	O, I-DT, B-CV, B-LC, I-OG
+17	누적	O	O	O, B-LC, B-DT, B-QT, B-PS
+18	관광객	B-CV	B-CV	B-CV, O, B-OG, B-EV, B-TM
+19	##은	O	O	O, I-CV, B-CV, I-OG, I-QT
+20	126	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-LC
+21	##만	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
+22	##여	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
+23	명	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
+24	.	O	O	O, I-QT, I-OG, I-AF, B-CV
+25	[SEP]	O	O	O, B-OG, B-LC, B-CV, I-QT

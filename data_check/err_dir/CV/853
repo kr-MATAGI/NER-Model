@@ -1,0 +1,9 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
+1	안희정	B-PS	B-PS	B-PS, O, B-LC, B-OG, I-PS
+2	충남	B-CV	B-LC	B-LC, O, I-PS, I-LC, B-CV
+3	##지사	I-CV	B-CV	B-CV, O, I-CV, I-LC, I-PS
+4	##에	O	O	O, I-CV, B-CV, I-AF, I-EV
+5	대해서	O	O	O, B-CV, B-OG, B-LC, B-TM
+6	##는	O	O	O, B-CV, B-OG, B-LC, I-OG
+7	[SEP]	O	O	O, B-CV, B-LC, B-OG, I-OG

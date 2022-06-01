@@ -1,0 +1,27 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-CV, I-OG, B-CV, I-AF
+1	이명박	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
+2	대통령	B-CV	B-CV	B-CV, O, I-PS, I-CV, B-PS
+3	##과	O	O	O, I-CV, B-PS, I-PS, B-CV
+4	수	O	B-PS	B-PS, O, B-LC, B-OG, B-AF
+5	##실	O	I-PS	I-PS, O, I-LC, B-PS, I-OG
+6	##로	O	O	O, I-PS, I-LC, B-PS, I-AF
+7	밤	B-PS	B-TI	B-TI, O, B-LC, I-PS, B-PS
+8	##방	I-PS	O	O, I-PS, I-LC, B-PS, I-TI
+9	유도	I-PS	B-PS	B-PS, I-PS, O, B-LC, I-LC
+10	##요	I-PS	I-PS	I-PS, O, I-LC, B-PS, B-LC
+11	##노	I-PS	I-PS	I-PS, O, I-LC, B-PS, I-QT
+12	대통령	B-CV	B-CV	B-CV, O, I-PS, I-CV, B-LC
+13	##이	O	O	O, B-PS, I-PS, I-CV, B-LC
+14	서로	O	O	O, B-CV, B-PS, B-LC, B-TM
+15	##를	O	O	O, B-PS, I-PS, B-LC, B-CV
+16	형제	B-CV	B-CV	B-CV, O, B-PS, B-AM, B-AF
+17	##라고	O	O	O, I-CV, B-PS, I-PS, I-OG
+18	부를	O	O	O, B-PS, B-CV, B-LC, I-CV
+19	정도	O	O	O, B-PS, B-CV, B-LC, B-OG
+20	##로	O	O	O, B-PS, B-OG, I-PS, B-LC
+21	긴밀	O	O	O, B-CV, B-PS, B-OG, B-LC
+22	##한	O	O	O, B-PS, I-PS, B-LC, B-OG
+23	사이다	O	O	O, B-CV, B-PS, B-OG, B-LC
+24	.	O	O	O, B-PS, I-CV, I-PS, B-CV
+25	[SEP]	O	O	O, B-PS, B-CV, B-LC, I-CV

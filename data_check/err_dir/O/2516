@@ -1,0 +1,13 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-AF
+1	수요일	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-CV
+2	날	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-CV
+3	알바	O	B-CV	B-CV, O, I-CV, I-DT, B-EV
+4	##한다	O	O	O, I-CV, I-EV, B-PS, I-AF
+5	##고	O	O	O, B-PS, I-AF, B-CV, B-LC
+6	또	O	O	O, B-CV, B-LC, B-OG, B-PS
+7	오거	O	O	O, B-CV, B-AF, B-PS, B-LC
+8	##든	O	O	O, I-AF, I-CV, I-OG, I-EV
+9	##요	O	O	O, B-CV, I-AF, B-LC, I-OG
+10	?	O	O	O, B-CV, B-OG, B-LC, I-AF
+11	[SEP]	O	O	O, B-CV, B-LC, B-OG, I-AF

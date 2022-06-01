@@ -1,0 +1,27 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
+1	피아노	B-AF	B-AF	B-AF, B-FD, O, B-OG, B-TM
+2	옆	O	B-TM	B-TM, O, I-TM, B-CV, I-AF
+3	##에	O	O	O, I-TM, I-AF, I-OG, B-TM
+4	마련	O	O	O, B-CV, B-TM, B-OG, B-AF
+5	##한	O	O	O, B-PS, B-OG, B-CV, B-LC
+6	스크린	O	O	O, B-TM, B-CV, B-TR, I-TM
+7	##에	O	O	O, I-TM, I-CV, B-CV, I-QT
+8	##는	O	O	O, B-CV, B-OG, B-TM, B-LC
+9	신	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
+10	씨	O	O	O, I-PS, B-CV, I-OG, I-AF
+11	##가	O	O	O, B-PS, B-CV, B-LC, B-OG
+12	직접	O	O	O, B-CV, B-PS, B-QT, B-TM
+13	번역	O	O	O, B-CV, B-FD, I-CV, B-QT
+14	##한	O	O	O, B-CV, I-CV, B-PS, B-FD
+15	가사	O	O	O, B-CV, B-FD, I-CV, B-TM
+16	##를	O	O	O, I-CV, B-CV, I-AF, B-PS
+17	띄워	O	O	O, B-CV, B-OG, B-LC, B-PS
+18	관객	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-FD
+19	##의	O	O	O, I-CV, I-OG, B-CV, I-EV
+20	이해	O	O	O, B-CV, B-TM, B-OG, I-CV
+21	##를	O	O	O, B-CV, B-OG, B-TM, I-OG
+22	도왔	O	O	O, B-CV, B-OG, B-TM, I-OG
+23	##다	O	O	O, B-CV, B-TM, B-OG, I-OG
+24	.	O	O	O, B-CV, B-PS, B-OG, B-LC
+25	[SEP]	O	O	O, B-CV, B-TM, B-OG, B-PS

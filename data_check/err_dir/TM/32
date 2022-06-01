@@ -1,0 +1,26 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
+1	그런데	O	O	O, B-CV, B-TM, B-OG, B-LC
+2	성인	O	O	O, B-CV, B-TM, I-CV, B-QT
+3	##이	O	O	O, I-CV, B-PS, I-OG, I-EV
+4	돼서	O	O	O, I-CV, B-CV, B-PS, I-OG
+5	##도	O	O	O, B-CV, B-PS, B-TM, B-LC
+6	침	B-TM	B-TM	B-TM, O, B-TR, B-AM, I-TM
+7	##이	O	O	O, I-TM, B-PS, I-AF, I-CV
+8	비정	O	O	O, B-TM, B-QT, B-CV, B-LC
+9	##상	O	O	O, I-TM, I-LC, I-QT, I-TR
+10	##적으로	O	O	O, I-TM, I-QT, I-LC, I-TR
+11	많이	O	O	O, B-LC, B-TM, I-QT, B-QT
+12	나오	O	O	O, B-TM, B-LC, B-CV, B-PS
+13	##면	O	O	O, B-TM, I-OG, I-AF, I-TM
+14	자율	B-TM	O	O, B-TM, B-TR, B-OG, B-LC
+15	##신	I-TM	I-TM	I-TM, O, I-TR, I-OG, I-LC
+16	##경	I-TM	I-TM	I-TM, O, I-TR, I-OG, I-LC
+17	##계	I-TM	O	O, I-TM, I-TR, I-OG, I-LC
+18	이상	O	O	O, I-TM, B-TM, I-TR, B-CV
+19	##일	O	O	O, I-TM, I-CV, I-OG, I-TR
+20	수	O	O	O, I-OG, B-CV, B-OG, B-TM
+21	있	O	O	O, B-CV, I-OG, B-TM, I-AF
+22	##다	O	O	O, B-CV, B-TM, I-OG, I-AF
+23	.	O	O	O, B-TM, B-CV, B-PS, B-LC
+24	[SEP]	O	O	O, B-CV, B-TM, I-TM, B-LC

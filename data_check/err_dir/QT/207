@@ -1,0 +1,19 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
+1	바둑	B-CV	B-CV	B-CV, O, B-TM, B-AF, B-FD
+2	실력	O	O	O, I-CV, B-PS, B-CV, I-PS
+3	##은	O	O	O, B-PS, I-PS, B-CV, B-LC
+4	아마	B-CV	B-CV	B-CV, O, B-OG, B-FD, B-QT
+5	1	B-QT	B-QT	B-QT, I-CV, B-CV, I-QT, O
+6	,	I-QT	I-QT	I-QT, O, I-CV, B-QT, B-CV
+7	2	I-QT	I-QT	I-QT, I-CV, B-CV, B-QT, O
+8	##단	I-QT	I-QT	I-QT, I-CV, O, B-CV, I-TM
+9	정도	I-QT	O	O, I-QT, I-CV, I-DT, I-TM
+10	##라고	O	O	O, B-PS, I-QT, I-PS, I-CV
+11	이	B-PS	B-PS	B-PS, O, I-PS, B-OG, B-LC
+12	교수	B-CV	B-CV	B-CV, O, I-CV, I-PS, I-QT
+13	##는	O	O	O, I-CV, I-QT, B-CV, B-PS
+14	밝혔	O	O	O, B-PS, B-CV, B-OG, I-CV
+15	##다	O	O	O, B-CV, I-CV, I-OG, B-PS
+16	.	O	O	O, B-PS, B-CV, B-LC, B-OG
+17	[SEP]	O	O	O, B-PS, B-CV, I-CV, B-LC

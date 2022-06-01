@@ -1,0 +1,9 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
+1	서울	O	B-LC	B-LC, O, B-OG, B-AF, B-PS
+2	##형	O	O	O, I-LC, I-OG, I-AF, I-PS
+3	사회	O	O	O, B-CV, I-CV, B-OG, B-FD
+4	##적	O	O	O, I-CV, I-OG, B-CV, I-TM
+5	##기업	O	O	O, I-CV, I-OG, B-CV, I-TM
+6	##인	O	O	O, I-CV, I-OG, B-CV, I-QT
+7	[SEP]	O	O	O, I-CV, I-OG, B-CV, I-AF

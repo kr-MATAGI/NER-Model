@@ -1,0 +1,25 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-EV, I-OG
+1	""""	O	O	O, B-CV, B-LC, B-PS, B-OG
+2	정동	B-PS	B-PS	B-PS, B-EV, O, B-AF, B-LC
+3	##기	I-PS	I-PS	I-PS, O, I-EV, I-LC, I-AF
+4	파문	O	O	O, I-EV, B-CV, I-PS, B-EV
+5	책임	O	O	O, B-CV, B-PS, I-EV, B-LC
+6	""""	O	O	O, B-PS, B-LC, B-CV, B-OG
+7	靑	B-OG	B-OG	B-OG, O, B-AF, B-CV, B-EV
+8	참모	O	B-CV	B-CV, O, I-CV, I-OG, I-AF
+9	##진	O	I-CV	I-CV, O, B-CV, I-OG, I-TM
+10	사퇴	O	O	O, I-CV, B-CV, B-PS, I-EV
+11	움직임	O	O	O, B-LC, B-OG, B-PS, B-CV
+12	일자	O	O	O, B-PS, B-OG, B-LC, B-CV
+13	…	O	O	O, B-CV, B-LC, B-PS, B-OG
+14	李	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
+15	대통령	B-CV	B-CV	B-CV, O, I-PS, I-CV, B-EV
+16	""""	O	O	O, I-CV, I-EV, B-CV, I-OG
+17	일	O	O	O, B-PS, B-LC, B-EV, B-QT
+18	##로	O	O	O, I-PS, I-EV, I-AF, I-TR
+19	보여	O	O	O, B-PS, I-PS, I-EV, I-AF
+20	##주	O	O	O, I-PS, B-PS, I-AF, I-EV
+21	##자	O	O	O, I-PS, I-AF, B-PS, I-LC
+22	""""	O	O	O, B-CV, B-LC, B-OG, I-EV
+23	[SEP]	O	O	O, B-LC, B-CV, B-PS, B-OG

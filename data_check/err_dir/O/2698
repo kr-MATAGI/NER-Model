@@ -1,0 +1,26 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
+1	하지만	O	O	O, B-CV, B-OG, B-LC, B-TM
+2	미	B-LC	B-LC	B-LC, O, B-OG, B-PS, B-CV
+3	달러화	O	B-CV	B-CV, O, I-CV, B-AF, B-OG
+4	##로	O	O	O, I-CV, I-OG, I-AF, B-CV
+5	환산	O	O	O, B-OG, I-OG, B-CV, B-PS
+6	##한	O	O	O, B-LC, B-PS, B-OG, B-CV
+7	코스피	O	O	O, B-OG, B-LC, B-AF, B-FD
+8	##지수	O	O	O, I-OG, I-AF, I-FD, B-OG
+9	연중	O	O	O, B-DT, B-LC, B-QT, B-PS
+10	최고	O	O	O, B-PS, B-QT, B-CV, B-OG
+11	##치	O	O	O, B-OG, B-PS, I-OG, B-LC
+12	##는	O	O	O, B-CV, I-OG, B-LC, B-OG
+13	9	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-QT
+14	##월	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
+15	##이	O	O	O, I-DT, B-CV, B-PS, B-OG
+16	아닌	O	O	O, B-OG, B-CV, I-DT, B-LC
+17	지난	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
+18	14	I-DT	I-DT	I-DT, B-DT, O, I-QT, I-PS
+19	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
+20	##이	O	O	O, I-DT, B-PS, B-CV, B-OG
+21	##었	O	O	O, B-CV, B-OG, I-DT, I-OG
+22	##다	O	O	O, B-CV, I-OG, B-TM, I-CV
+23	.	O	O	O, B-LC, B-OG, B-CV, B-PS
+24	[SEP]	O	O	O, B-CV, B-LC, B-OG, I-OG

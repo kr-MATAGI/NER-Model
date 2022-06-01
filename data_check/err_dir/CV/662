@@ -1,0 +1,16 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
+1	고위	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-FD
+2	##공	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-TM
+3	##직	I-CV	O	O, I-CV, B-CV, I-OG, I-TM
+4	##과	O	O	O, I-CV, I-OG, B-PS, B-CV
+5	기업	O	O	O, B-CV, B-OG, B-TM, B-AF
+6	임원	B-CV	B-CV	B-CV, O, I-CV, B-FD, B-EV
+7	##에	O	O	O, I-CV, B-CV, I-OG, I-QT
+8	진출	O	O	O, B-CV, B-TM, B-OG, B-LC
+9	##한	O	O	O, B-PS, B-CV, B-LC, B-OG
+10	여성	O	O	O, B-CV, B-TM, B-OG, B-LC
+11	비율	O	O	O, B-TM, B-CV, B-OG, B-LC
+12	##이다	O	O	O, B-CV, B-TM, B-OG, I-OG
+13	.	O	O	O, B-CV, B-OG, B-PS, B-FD
+14	[SEP]	O	O	O, B-CV, B-OG, B-FD, I-OG

@@ -1,0 +1,10 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-AF
+1	외국인	B-CV	B-CV	B-CV, O, B-OG, B-LC, B-DT
+2	##노동	B-CV	B-CV	B-CV, I-CV, O, B-OG, B-FD
+3	##자	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-QT
+4	인권	B-CV	O	O, B-CV, I-CV, B-FD, B-TM
+5	##유	O	O	O, I-CV, B-CV, B-TM, I-OG
+6	##린	O	O	O, I-CV, I-OG, I-TM, I-LC
+7	심각	O	O	O, B-PS, B-LC, I-OG, B-CV
+8	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-TM

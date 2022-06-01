@@ -1,0 +1,16 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
+1	헌법	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-AF
+2	삼	I-CV	B-CV	B-CV, I-CV, O, B-QT, B-OG
+3	##십	I-CV	I-CV	I-CV, O, I-QT, I-OG, B-CV
+4	##일	I-CV	I-CV	I-CV, O, I-QT, I-OG, B-CV
+5	##조	I-CV	I-CV	I-CV, O, I-QT, I-OG, I-TM
+6	등	O	O	O, I-CV, I-QT, B-CV, B-LC
+7	교육	O	O	O, B-CV, I-CV, B-FD, B-TM
+8	조항	O	O	O, I-CV, B-CV, I-TM, I-FD
+9	##과	O	O	O, I-CV, B-CV, I-QT, I-OG
+10	관련	O	O	O, B-CV, B-TM, B-OG, B-LC
+11	##된	O	O	O, B-OG, B-LC, B-CV, B-PS
+12	논의	O	O	O, B-CV, B-OG, B-TM, B-LC
+13	##가	O	O	O, B-OG, I-OG, I-EV, B-PS
+14	[SEP]	O	O	O, B-CV, I-OG, B-LC, I-EV

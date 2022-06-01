@@ -1,0 +1,8 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
+1	식물	B-CV	O	O, B-CV, B-FD, B-MT, B-OG
+2	사회학	I-CV	B-CV	B-CV, I-CV, O, B-FD, I-QT
+3	##자	I-CV	I-CV	I-CV, O, B-CV, I-QT, I-OG
+4	##들	O	O	O, I-CV, I-OG, I-QT, I-AF
+5	##은	O	O	O, B-CV, B-OG, I-CV, B-TM
+6	[SEP]	O	O	O, B-CV, B-OG, B-LC, I-OG

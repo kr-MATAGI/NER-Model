@@ -1,0 +1,24 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-CV, I-OG, B-CV, I-EV
+1	“	O	O	O, B-CV, B-PS, B-LC, B-OG
+2	이사장	B-CV	B-CV	B-CV, O, B-OG, B-TM, I-CV
+3	맡	O	O	O, I-CV, B-CV, B-PS, B-TM
+4	##고	O	O	O, B-PS, B-CV, I-CV, B-OG
+5	##있	O	O	O, B-PS, B-CV, I-CV, B-LC
+6	##는	O	O	O, B-PS, B-CV, B-LC, B-OG
+7	한국학	O	B-OG	B-OG, O, B-LC, I-OG, B-PS
+8	##술	O	I-OG	I-OG, O, I-LC, B-OG, I-AF
+9	硏	O	I-OG	I-OG, O, I-LC, I-AF, I-EV
+10	통해	O	O	O, I-OG, B-CV, B-PS, I-AF
+11	朴	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
+12	,	O	O	O, I-PS, B-CV, I-OG, I-AF
+13	기업	O	O	O, B-CV, B-TM, B-QT, B-LC
+14	30	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-LC
+15	##곳	I-QT	I-QT	I-QT, O, I-LC, I-OG, B-QT
+16	##서	O	O	O, I-QT, B-CV, B-PS, B-TM
+17	수십억	O	O	O, B-CV, B-PS, B-QT, B-TM
+18	받	O	O	O, B-CV, I-CV, B-PS, I-QT
+19	##은	O	O	O, I-CV, B-PS, B-CV, I-QT
+20	정황	O	O	O, B-CV, B-PS, I-CV, B-TM
+21	”	O	O	O, B-CV, B-PS, I-CV, B-LC
+22	[SEP]	O	O	O, B-CV, B-PS, B-LC, B-OG

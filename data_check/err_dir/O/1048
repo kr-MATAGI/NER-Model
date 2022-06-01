@@ -1,0 +1,21 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, I-CV, I-EV, B-CV
+1	이번	O	O	O, B-DT, B-EV, B-QT, B-LC
+2	월드컵	B-EV	B-EV	B-EV, I-EV, O, B-CV, B-LC
+3	##에서	O	O	O, I-EV, I-AF, I-OG, I-DT
+4	사람	O	O	O, B-CV, B-AF, B-OG, B-TM
+5	##들	O	O	O, B-CV, I-AF, B-PS, I-OG
+6	##은	O	O	O, B-CV, B-LC, B-PS, B-AF
+7	어떤	O	O	O, B-AF, B-PS, B-LC, B-CV
+8	응원	O	O	O, B-CV, B-FD, B-AF, I-AF
+9	##가	O	O	O, I-AF, I-FD, I-CV, B-FD
+10	##를	O	O	O, I-AF, I-CV, B-PS, I-OG
+11	목	O	B-AM	B-AM, O, B-TM, B-PS, B-TR
+12	##이	O	O	O, B-PS, I-PS, I-AF, I-TM
+13	터져	O	O	O, B-PS, B-TM, B-LC, I-TM
+14	##라	O	O	O, I-AF, I-LC, B-PS, B-LC
+15	부르	O	O	O, B-CV, B-AF, B-LC, I-AF
+16	##게	O	O	O, I-AF, B-CV, B-LC, B-PS
+17	될까	O	O	O, B-CV, I-AF, B-LC, I-OG
+18	?	O	O	O, B-CV, B-LC, B-OG, B-TM
+19	[SEP]	O	O	O, B-CV, B-LC, B-AF, I-AF

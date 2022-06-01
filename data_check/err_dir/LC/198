@@ -1,0 +1,23 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
+1	돈	O	O	O, B-PS, B-CV, B-LC, B-AM
+2	##이	O	O	O, B-PS, B-LC, B-CV, B-OG
+3	풀리	O	O	O, B-PS, B-CV, B-LC, I-PS
+4	##면서	O	O	O, B-PS, B-LC, B-CV, I-AF
+5	잠깐	O	O	O, B-PS, B-LC, B-CV, B-TM
+6	온기	O	O	O, B-PS, B-LC, B-TM, B-CV
+7	##가	O	O	O, B-PS, B-LC, I-PS, B-OG
+8	도	O	O	O, B-PS, B-LC, B-CV, B-OG
+9	##는	O	O	O, B-PS, I-PS, B-LC, I-LC
+10	듯	O	O	O, B-PS, B-LC, B-OG, B-CV
+11	##하	O	O	O, B-LC, B-PS, B-OG, B-CV
+12	##던	O	O	O, B-LC, B-OG, B-PS, B-CV
+13	내수	O	O	O, B-LC, B-OG, B-TM, B-CV
+14	경기도	B-LC	O	O, B-LC, B-OG, B-PS, B-CV
+15	침체	O	O	O, B-CV, B-TM, B-LC, I-OG
+16	##되	O	O	O, B-LC, B-PS, I-OG, I-LC
+17	##고	O	O	O, I-OG, B-CV, B-LC, I-AF
+18	있	O	O	O, B-CV, B-LC, I-OG, B-PS
+19	##다	O	O	O, B-CV, I-OG, B-LC, I-EV
+20	.	O	O	O, B-LC, B-PS, B-CV, B-OG
+21	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG

@@ -1,0 +1,22 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-EV, I-OG
+1	겨울	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-TI
+2	훈련	O	O	O, I-DT, I-EV, B-CV, I-CV
+3	동안	O	O	O, I-DT, B-PS, I-EV, B-LC
+4	멘	O	B-PS	B-PS, O, B-CV, B-OG, I-PS
+5	##털	O	I-PS	I-PS, O, I-OG, I-CV, I-AF
+6	코치	B-CV	B-CV	B-CV, O, I-CV, I-PS, B-OG
+7	##와	O	O	O, I-CV, I-OG, B-CV, I-PS
+8	함께	O	O	O, B-CV, B-TM, B-LC, B-DT
+9	정신력	O	O	O, B-CV, B-TM, B-LC, B-PS
+10	##을	O	O	O, B-CV, B-PS, I-CV, B-TM
+11	보강	O	O	O, B-CV, B-TM, B-LC, B-PS
+12	##하	O	O	O, B-PS, B-CV, B-LC, I-CV
+13	##겠다	O	O	O, B-CV, B-PS, I-CV, B-LC
+14	”	O	O	O, B-CV, B-PS, I-CV, B-LC
+15	고	O	O	O, B-CV, B-PS, I-CV, B-LC
+16	말	O	O	O, B-CV, I-CV, B-PS, B-OG
+17	##했	O	O	O, B-PS, B-CV, I-CV, I-OG
+18	##다	O	O	O, B-CV, B-PS, B-LC, I-CV
+19	.	O	O	O, B-CV, B-PS, B-LC, I-EV
+20	[SEP]	O	O	O, B-CV, B-PS, B-LC, I-CV

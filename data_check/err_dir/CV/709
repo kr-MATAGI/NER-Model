@@ -1,0 +1,20 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, I-CV, I-EV, B-CV
+1	의료진	B-CV	O	O, B-CV, B-OG, B-FD, I-CV
+2	##에	O	O	O, I-CV, I-OG, B-CV, I-AF
+3	##게	O	O	O, B-CV, B-LC, B-PS, B-TM
+4	몸	B-AM	B-AM	B-AM, O, B-TR, B-TM, I-AM
+5	상태	O	O	O, I-QT, I-TM, I-DT, I-CV
+6	##를	O	O	O, B-CV, B-LC, B-PS, B-OG
+7	정확히	O	O	O, B-CV, B-LC, B-TM, B-QT
+8	전달	O	O	O, B-CV, B-LC, B-TM, B-PS
+9	##해	O	O	O, B-LC, B-PS, B-CV, B-OG
+10	올바른	O	O	O, B-CV, B-LC, B-QT, B-TM
+11	치료	O	O	O, B-CV, B-TM, B-LC, B-PS
+12	##를	O	O	O, B-CV, B-PS, I-EV, B-LC
+13	받	O	O	O, B-CV, B-LC, B-TM, B-PS
+14	##게	O	O	O, B-CV, B-QT, B-TM, B-PS
+15	한다는	O	O	O, B-CV, B-QT, B-PS, B-TM
+16	점	O	O	O, B-CV, B-TM, B-QT, I-QT
+17	##에서	O	O	O, B-CV, I-EV, B-OG, B-PS
+18	[SEP]	O	O	O, B-CV, B-LC, I-EV, I-OG

@@ -1,0 +1,15 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
+1	저	O	O	O, B-CV, B-PS, B-OG, B-DT
+2	##는	O	O	O, B-CV, B-PS, B-OG, B-TM
+3	이거	O	O	O, B-CV, B-PS, B-DT, B-QT
+4	하루	O	B-DT	B-DT, O, B-TI, I-DT, B-QT
+5	##종일	O	I-DT	I-DT, O, I-TI, B-TI, B-DT
+6	계속	O	O	O, I-DT, B-CV, I-QT, B-TM
+7	지켜	O	O	O, B-CV, B-LC, B-QT, B-OG
+8	##봤	O	O	O, B-CV, I-CV, I-QT, I-OG
+9	##거	O	O	O, B-CV, B-LC, B-OG, B-PS
+10	##든	O	O	O, B-CV, I-AF, I-CV, B-PS
+11	##요	O	O	O, B-CV, I-CV, I-OG, I-AF
+12	.	O	O	O, B-CV, B-LC, B-OG, B-TM
+13	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-TM

@@ -1,0 +1,14 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
+1	민주당	B-OG	B-OG	B-OG, B-LC, O, B-PS, B-AF
+2	‘	O	O	O, I-OG, B-CV, I-AF, I-CV
+3	48	B-QT	B-QT	B-QT, B-CV, B-OG, B-DT, O
+4	##6	I-QT	I-QT	I-QT, I-OG, I-PS, I-CV, I-DT
+5	##정	B-CV	B-CV	B-CV, I-QT, B-QT, O, I-CV
+6	##치	I-CV	I-QT	I-QT, I-CV, O, I-OG, B-CV
+7	##인	I-CV	I-QT	I-QT, I-CV, O, I-OG, I-PS
+8	’	O	O	O, I-QT, I-CV, I-OG, B-CV
+9	세력	O	O	O, B-CV, B-LC, B-PS, B-TM
+10	##화	O	O	O, B-PS, B-LC, I-OG, I-CV
+11	기지개	O	O	O, B-LC, B-CV, B-OG, B-PS
+12	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-PS

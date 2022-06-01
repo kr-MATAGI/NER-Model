@@ -1,0 +1,20 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, I-CV, I-EV, I-QT
+1	더	O	O	O, B-PS, B-LC, B-OG, B-QT
+2	돋보이	O	O	O, B-QT, B-OG, B-LC, I-QT
+3	##기	O	O	O, B-PS, I-OG, I-QT, B-LC
+4	위해	O	O	O, B-QT, B-PS, B-LC, B-CV
+5	‘	O	O	O, B-OG, B-LC, B-CV, B-AF
+6	하하하	O	B-AF	B-AF, O, B-PS, B-LC, B-OG
+7	…	O	I-AF	I-AF, O, I-PS, I-OG, I-LC
+8	’	O	O	O, I-AF, I-OG, I-EV, B-CV
+9	는	O	O	O, B-CV, B-LC, B-OG, B-PS
+10	예고편	O	O	O, B-CV, B-TM, B-LC, B-AF
+11	##을	O	O	O, B-CV, B-OG, B-PS, B-LC
+12	자체	O	O	O, B-OG, B-QT, B-LC, B-CV
+13	제작	O	O	O, B-LC, B-OG, B-CV, B-PS
+14	했	O	O	O, B-PS, B-LC, B-OG, B-CV
+15	##을	O	O	O, B-CV, I-OG, B-PS, B-LC
+16	정도	O	O	O, B-CV, B-PS, B-QT, B-OG
+17	.	O	O	O, I-OG, B-LC, B-CV, B-PS
+18	[SEP]	O	O	O, B-CV, B-LC, B-OG, I-OG

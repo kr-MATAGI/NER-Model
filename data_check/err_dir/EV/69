@@ -1,0 +1,26 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-EV, I-OG, I-CV
+1	경기도지사	B-EV	O	O, B-EV, B-LC, B-CV, B-PS
+2	선거전	I-EV	O	O, B-EV, I-EV, B-CV, B-LC
+3	##의	O	O	O, I-EV, B-PS, B-CV, B-LC
+4	관심사	O	O	O, B-EV, B-CV, B-LC, B-PS
+5	##는	O	O	O, I-EV, B-PS, B-LC, B-CV
+6	한나라당	B-OG	B-OG	B-OG, O, B-LC, B-PS, B-CV
+7	소속	O	O	O, B-CV, I-OG, I-EV, B-PS
+8	김문수	B-PS	B-PS	B-PS, O, I-PS, B-OG, B-LC
+9	지사	B-CV	B-CV	B-CV, O, I-CV, I-PS, B-EV
+10	##에	O	O	O, I-CV, I-EV, B-CV, B-PS
+11	맞설	O	O	O, B-OG, B-CV, B-LC, B-PS
+12	야권	O	O	O, B-CV, B-OG, B-PS, B-EV
+13	후보	B-CV	B-CV	B-CV, O, I-CV, B-PS, I-EV
+14	##가	O	O	O, I-CV, B-PS, B-CV, I-EV
+15	누구	O	O	O, B-CV, B-PS, B-LC, B-OG
+16	##냐	O	O	O, B-PS, B-LC, I-PS, I-EV
+17	##로	O	O	O, B-PS, B-LC, B-CV, B-OG
+18	모아	O	O	O, B-LC, B-CV, B-EV, B-PS
+19	##지	O	O	O, I-OG, B-CV, I-EV, I-LC
+20	##고	O	O	O, B-CV, I-EV, I-OG, B-QT
+21	있	O	O	O, B-CV, B-EV, B-LC, I-EV
+22	##다	O	O	O, B-CV, I-EV, I-OG, I-QT
+23	.	O	O	O, B-PS, B-LC, B-CV, B-OG
+24	[SEP]	O	O	O, B-CV, B-PS, B-LC, I-EV

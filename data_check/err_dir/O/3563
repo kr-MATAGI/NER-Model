@@ -1,0 +1,16 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
+1	무디스	B-OG	B-OG	B-OG, O, B-PS, I-OG, B-AF
+2	-	O	O	O, I-OG, I-CV, I-AF, I-PS
+3	S	O	B-OG	B-OG, O, I-OG, B-CV, B-PS
+4	&	O	I-OG	I-OG, O, I-CV, I-AF, I-QT
+5	P	O	I-OG	I-OG, O, I-CV, I-QT, I-AF
+6	##등	O	O	O, I-OG, I-CV, B-PS, I-PS
+7	국가	O	O	O, B-CV, B-QT, B-FD, B-LC
+8	##신	O	O	O, B-CV, I-CV, B-FD, B-PS
+9	##용	O	O	O, I-CV, I-OG, B-PS, I-QT
+10	##등	O	O	O, B-CV, I-CV, B-PS, B-QT
+11	##급	O	O	O, I-CV, I-OG, B-PS, B-CV
+12	하락	O	O	O, B-CV, B-TM, B-PS, B-LC
+13	경고	O	O	O, B-CV, B-PS, B-OG, B-TM
+14	[SEP]	O	O	O, B-CV, I-CV, I-OG, B-OG

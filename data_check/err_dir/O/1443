@@ -1,0 +1,26 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
+1	특히	O	O	O, B-TM, B-CV, B-OG, B-LC
+2	1960	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-LC
+3	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
+4	##대	I-DT	I-DT	I-DT, O, I-QT, B-DT, I-PS
+5	발광	B-TM	B-TM	B-TM, O, B-CV, B-TR, B-AF
+6	##소	I-TM	I-TM	I-TM, O, B-TM, I-MT, I-TR
+7	##자	I-TM	I-TM	I-TM, O, I-MT, I-CV, I-AF
+8	(	O	O	O, I-TM, I-CV, I-OG, I-AF
+9	LED	O	B-TM	B-TM, O, I-TM, B-AF, B-OG
+10	)	O	O	O, I-TM, I-OG, I-CV, I-AF
+11	등	O	O	O, B-CV, B-LC, B-TM, B-OG
+12	광	O	O	O, B-TM, B-CV, B-AM, B-MT
+13	##원	O	O	O, I-TM, I-CV, I-TR, I-AM
+14	개발	O	O	O, I-TM, B-TM, I-CV, B-CV
+15	##로	O	O	O, B-OG, B-CV, B-LC, B-TM
+16	응용	O	O	O, B-CV, B-TM, B-LC, B-OG
+17	##분	O	O	O, B-OG, B-LC, B-TM, B-CV
+18	##야	O	O	O, B-OG, B-TM, B-LC, B-CV
+19	##가	O	O	O, B-OG, B-PS, B-LC, B-CV
+20	확대	O	O	O, B-TM, B-CV, B-LC, B-OG
+21	##됐	O	O	O, B-CV, I-OG, I-CV, I-AF
+22	##다	O	O	O, B-CV, B-TM, B-LC, I-OG
+23	.	O	O	O, B-LC, B-CV, B-TM, B-OG
+24	[SEP]	O	O	O, B-CV, B-LC, B-TM, B-OG

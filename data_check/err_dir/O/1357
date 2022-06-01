@@ -1,0 +1,15 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
+1	근데	O	O	O, B-CV, B-OG, B-TM, B-LC
+2	그게	O	O	O, B-CV, B-OG, B-LC, B-PS
+3	경찰	O	B-OG	B-OG, O, B-CV, I-OG, B-AF
+4	##애	O	O	O, I-CV, I-OG, B-CV, I-AF
+5	##들이	O	O	O, I-CV, I-OG, B-CV, I-AF
+6	어떻게	O	O	O, B-CV, B-TM, B-OG, B-LC
+7	잘못	O	O	O, B-CV, B-TM, B-OG, B-QT
+8	쓸	O	O	O, B-CV, B-OG, B-TM, B-PS
+9	수도	O	O	O, B-CV, B-PS, B-TM, B-OG
+10	있	O	O	O, B-CV, B-PS, B-OG, B-TM
+11	##으니	O	O	O, B-CV, B-OG, B-LC, B-PS
+12	##까	O	O	O, B-CV, B-OG, B-LC, I-OG
+13	[SEP]	O	O	O, B-CV, B-LC, I-AF, B-PS

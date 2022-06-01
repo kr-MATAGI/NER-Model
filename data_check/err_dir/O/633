@@ -1,0 +1,11 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
+1	인간	O	O	O, B-CV, B-AM, B-PS, B-TM
+2	##은	O	O	O, B-CV, B-PS, B-TM, B-AM
+3	공기	O	B-MT	B-MT, O, I-MT, B-TM, B-AM
+4	##로	O	O	O, I-AF, I-CV, I-OG, I-MT
+5	이루어져	O	O	O, B-CV, B-TM, I-AF, B-LC
+6	있	O	O	O, I-AF, B-PS, B-CV, I-OG
+7	##다	O	O	O, B-CV, I-AF, B-PS, I-OG
+8	.	O	O	O, B-CV, B-PS, B-AF, I-AF
+9	[SEP]	O	O	O, B-CV, I-AF, B-PS, B-AF

@@ -1,0 +1,26 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
+1	지역	O	O	O, B-LC, B-PS, B-TR, B-OG
+2	##별	O	O	O, I-OG, I-LC, B-PS, I-PS
+3	·	O	O	O, B-PS, B-LC, B-OG, I-OG
+4	계층	O	O	O, B-PS, B-TR, B-LC, B-CV
+5	##별	O	O	O, B-PS, I-PS, B-LC, I-OG
+6	빈부	O	O	O, B-PS, B-TR, B-LC, B-CV
+7	양극	O	O	O, B-PS, B-TR, I-TR, B-CV
+8	##화	O	O	O, I-TR, B-PS, I-PS, I-CV
+9	##의	O	O	O, B-PS, B-LC, I-PS, B-CV
+10	간극	O	O	O, B-PS, B-LC, B-OG, B-CV
+11	##은	O	O	O, B-CV, B-LC, B-PS, B-OG
+12	더	O	O	O, B-CV, B-LC, B-PS, B-OG
+13	심해	O	O	O, B-PS, B-LC, B-CV, B-OG
+14	##져	O	O	O, B-PS, B-LC, B-CV, B-QT
+15	‘	O	O	O, B-LC, B-CV, B-OG, B-PS
+16	두	B-QT	B-QT	B-QT, O, I-QT, B-CV, B-DT
+17	국민	I-QT	I-QT	I-QT, O, B-CV, I-CV, I-EV
+18	##화	I-QT	O	O, I-QT, I-TR, I-CV, I-EV
+19	’	O	O	O, I-QT, I-EV, I-OG, B-CV
+20	가	O	O	O, B-PS, B-OG, B-LC, B-CV
+21	이뤄졌	O	O	O, B-CV, B-OG, B-PS, B-LC
+22	##다	O	O	O, B-CV, I-OG, I-EV, B-PS
+23	.	O	O	O, B-LC, B-PS, B-CV, B-OG
+24	[SEP]	O	O	O, B-LC, B-CV, B-PS, B-FD

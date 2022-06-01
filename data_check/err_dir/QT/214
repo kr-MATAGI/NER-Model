@@ -1,0 +1,27 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-AF
+1	미국	B-LC	B-LC	B-LC, O, B-OG, B-AF, B-FD
+2	브랜드	O	O	O, I-OG, I-LC, I-AF, B-OG
+3	키즈	O	O	O, I-OG, B-PS, B-OG, I-AF
+4	##의	O	O	O, I-OG, I-AF, I-PS, I-LC
+5	고객	O	B-CV	B-CV, O, B-OG, B-AF, B-TM
+6	##충	O	O	O, I-CV, I-OG, B-PS, I-AF
+7	##성	O	O	O, I-CV, I-OG, I-TR, B-PS
+8	##도	O	O	O, I-OG, I-TR, I-LC, I-PS
+9	조사	O	O	O, B-CV, B-OG, B-PS, I-OG
+10	##에서	O	O	O, B-CV, B-OG, B-LC, B-PS
+11	현대차	B-OG	B-OG	B-OG, O, B-AF, B-PS, B-LC
+12	##는	O	O	O, I-OG, I-AF, B-CV, I-CV
+13	지난해	B-DT	B-DT	B-DT, O, B-QT, I-DT, B-EV
+14	8	B-QT	B-QT	B-QT, I-QT, I-DT, B-EV, O
+15	##위	I-QT	I-QT	I-QT, O, I-EV, I-DT, I-LC
+16	##에서	O	O	O, I-QT, I-DT, I-AF, I-EV
+17	올해	B-DT	B-DT	B-DT, O, B-QT, I-DT, B-EV
+18	1	B-QT	B-QT	B-QT, I-QT, I-DT, B-EV, O
+19	##위	I-QT	I-QT	I-QT, O, I-EV, I-DT, I-LC
+20	##로	I-QT	O	O, I-QT, I-EV, I-OG, I-AF
+21	등극	O	O	O, B-CV, B-OG, B-TM, B-QT
+22	##했	O	O	O, B-CV, I-OG, B-OG, B-PS
+23	##다	O	O	O, B-CV, I-OG, B-OG, B-QT
+24	.	O	O	O, B-OG, B-LC, B-PS, B-CV
+25	[SEP]	O	O	O, B-OG, B-CV, B-LC, I-OG

@@ -1,0 +1,24 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
+1	주로	O	O	O, B-TM, B-LC, B-CV, B-OG
+2	가스	B-MT	O	O, B-MT, B-FD, B-TR, B-TM
+3	##사고	O	O	O, I-TM, I-CV, I-AF, I-EV
+4	예방	O	O	O, B-CV, I-TM, I-CV, I-AF
+5	##을	O	O	O, B-CV, B-PS, I-CV, B-TM
+6	위한	O	O	O, B-CV, B-LC, B-TM, B-PS
+7	기술	O	O	O, B-CV, B-TM, B-FD, B-LC
+8	봉사	O	O	O, I-CV, B-CV, I-TM, I-OG
+9	##로	O	O	O, I-CV, I-OG, B-PS, B-CV
+10	,	O	O	O, B-CV, B-LC, B-OG, B-PS
+11	대표	O	O	O, B-LC, B-CV, B-PS, B-TM
+12	##적인	O	O	O, B-PS, B-LC, I-QT, B-QT
+13	것	O	O	O, B-PS, B-LC, B-OG, B-CV
+14	##이	O	O	O, B-PS, B-LC, B-OG, B-AF
+15	가스	O	O	O, B-TM, B-MT, B-TR, B-CV
+16	##시설	O	O	O, I-TM, I-MT, I-CV, I-TR
+17	무료	O	I-TM	I-TM, O, B-TM, I-CV, I-TR
+18	개선	O	I-TM	I-TM, O, I-CV, I-TR, I-OG
+19	##사업	O	I-TM	I-TM, O, I-CV, I-TR, I-OG
+20	##이다	O	O	O, I-TM, I-CV, I-OG, I-QT
+21	.	O	O	O, B-CV, I-TM, B-TM, B-LC
+22	[SEP]	O	O	O, B-CV, B-TM, I-TM, I-CV

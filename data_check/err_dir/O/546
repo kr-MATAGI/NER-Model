@@ -1,0 +1,12 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
+1	사실	O	O	O, B-CV, B-TM, B-OG, B-QT
+2	뭐	O	O	O, B-CV, B-TM, B-PS, B-OG
+3	김광석	B-PS	B-CV	B-CV, O, B-PS, B-AF, I-CV
+4	##법	O	I-CV	I-CV, O, B-CV, I-OG, I-AF
+5	자체	O	O	O, I-CV, I-QT, I-OG, I-AF
+6	##는	O	O	O, B-CV, B-OG, I-CV, B-TM
+7	굉장히	O	O	O, B-CV, B-TM, B-OG, B-LC
+8	좋	O	O	O, B-CV, B-TM, B-OG, B-LC
+9	##잖아요	O	O	O, B-CV, B-OG, I-CV, B-TM
+10	[SEP]	O	O	O, B-CV, B-TM, B-OG, B-LC

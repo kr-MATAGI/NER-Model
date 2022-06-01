@@ -1,0 +1,20 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-EV, B-CV, I-OG, I-CV
+1	이번	O	O	O, B-DT, B-QT, B-EV, B-PS
+2	2	B-QT	B-QT	B-QT, I-QT, B-EV, O, B-DT
+3	##차	I-QT	I-QT	I-QT, O, I-EV, I-DT, I-OG
+4	공동	O	B-EV	B-EV, O, B-OG, I-EV, B-CV
+5	##위	O	I-EV	I-EV, O, I-OG, B-EV, B-OG
+6	회의	O	I-EV	I-EV, O, I-OG, B-EV, I-AF
+7	##의	O	O	O, I-EV, I-OG, B-PS, I-DT
+8	핵심	O	O	O, B-TM, B-LC, B-QT, B-CV
+9	현안	O	O	O, B-LC, B-CV, B-TM, B-PS
+10	##은	O	O	O, B-LC, B-CV, B-OG, B-PS
+11	공단	O	O	O, B-LC, B-TM, B-OG, B-EV
+12	재가동	O	O	O, B-LC, I-LC, I-OG, I-EV
+13	시점	O	O	O, B-LC, B-PS, I-LC, I-OG
+14	##이	O	O	O, B-PS, B-LC, B-OG, B-CV
+15	##었	O	O	O, B-CV, B-LC, B-OG, B-PS
+16	##다	O	O	O, B-CV, B-LC, I-EV, B-OG
+17	.	O	O	O, B-LC, B-OG, I-EV, B-PS
+18	[SEP]	O	O	O, B-LC, I-EV, B-OG, B-CV

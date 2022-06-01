@@ -1,0 +1,25 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, B-CV, I-EV, I-CV
+1	이달	B-DT	B-DT	B-DT, O, I-DT, B-CV, B-QT
+2	말	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
+3	##쯤	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
+4	##엔	O	O	O, I-DT, B-CV, I-OG, B-PS
+5	그런	O	O	O, B-PS, B-CV, B-OG, B-LC
+6	그	O	O	O, B-PS, B-CV, B-FD, B-OG
+7	##의	O	O	O, B-PS, I-PS, I-AF, B-FD
+8	노래	O	O	O, B-FD, B-PS, B-CV, I-PS
+9	##가	O	O	O, B-PS, B-CV, B-LC, B-OG
+10	한	O	B-QT	B-QT, O, I-QT, B-PS, B-TM
+11	장	O	I-QT	I-QT, O, I-LC, I-PS, I-EV
+12	##의	O	O	O, I-QT, I-EV, B-PS, I-OG
+13	CD	O	B-TM	B-TM, O, B-AF, B-CV, B-MT
+14	##에	O	O	O, I-TM, I-AF, I-EV, I-OG
+15	집약	O	O	O, B-PS, B-LC, B-CV, B-OG
+16	##된	O	O	O, B-PS, B-LC, B-CV, B-OG
+17	앨범	O	O	O, B-CV, B-PS, B-TM, B-LC
+18	##도	O	O	O, B-CV, B-PS, I-EV, B-LC
+19	발표	O	O	O, B-CV, B-TM, B-LC, B-AF
+20	##된	O	O	O, B-CV, B-PS, I-AF, B-LC
+21	##다	O	O	O, B-CV, I-OG, I-EV, B-PS
+22	.	O	O	O, B-PS, B-CV, B-LC, B-OG
+23	[SEP]	O	O	O, B-CV, B-PS, B-LC, B-OG

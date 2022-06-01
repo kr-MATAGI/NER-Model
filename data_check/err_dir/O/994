@@ -1,0 +1,26 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
+1	[	O	O	O, B-OG, B-LC, B-AF, B-CV
+2	F	O	B-AF	B-AF, O, B-OG, B-TM, B-CV
+3	##ood	O	I-AF	I-AF, O, I-OG, I-TM, I-CV
+4	&	O	I-AF	I-AF, O, I-TM, I-OG, I-CV
+5	D	O	I-AF	I-AF, O, I-TM, I-OG, B-AF
+6	##ning	O	I-AF	I-AF, I-TM, O, I-OG, I-QT
+7	##3	O	I-AF	I-AF, I-TM, O, I-QT, B-QT
+8	.	O	I-AF	I-AF, I-TM, I-QT, O, I-OG
+9	0	O	I-AF	I-AF, I-TM, I-QT, O, I-OG
+10	]	O	O	O, I-AF, I-TM, I-QT, I-OG
+11	국경	O	O	O, B-LC, B-CV, B-OG, B-PS
+12	초월	O	O	O, B-LC, B-CV, B-OG, I-OG
+13	##한	O	O	O, B-LC, B-PS, B-OG, B-AF
+14	한국	B-LC	B-LC	B-LC, O, B-OG, I-LC, B-AF
+15	##의	O	O	O, I-LC, I-AF, I-OG, B-LC
+16	매운맛	O	O	O, B-TM, B-CV, B-LC, B-AF
+17	,	O	O	O, I-AF, I-OG, B-LC, B-CV
+18	글로벌	O	O	O, B-LC, B-CV, B-AF, B-OG
+19	기내식	O	O	O, B-TM, B-CV, B-AF, B-LC
+20	‘	O	O	O, B-LC, B-CV, I-AF, I-CV
+21	[UNK]	O	O	O, B-CV, B-LC, B-PS, B-TM
+22	라면	O	O	O, B-CV, B-AF, B-AM, B-OG
+23	’	O	O	O, I-CV, B-CV, I-OG, I-AF
+24	[SEP]	O	O	O, B-LC, B-CV, B-AF, B-OG

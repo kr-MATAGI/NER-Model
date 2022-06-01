@@ -1,0 +1,25 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-QT
+1	10	B-DT	B-DT	B-DT, I-DT, O, B-QT, B-LC
+2	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-OG
+3	이상	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-OG
+4	##된	O	O	O, I-DT, I-OG, B-CV, B-LC
+5	도라지	B-CV	B-CV	B-CV, B-PT, O, B-OG, I-CV
+6	##로	O	O	O, I-CV, I-OG, I-AF, I-DT
+7	만든	O	O	O, I-CV, B-CV, I-AF, I-OG
+8	분말	O	O	O, B-CV, I-CV, B-TM, B-AF
+9	,	O	O	O, I-CV, I-AF, B-CV, I-OG
+10	홍	B-PT	B-CV	B-CV, B-PT, O, B-OG, B-AF
+11	##도	I-PT	I-CV	I-CV, O, I-PT, B-CV, I-OG
+12	##라지	I-PT	I-CV	I-CV, O, I-PT, I-OG, I-TM
+13	,	O	O	O, I-CV, I-OG, I-AF, B-CV
+14	산삼	B-PT	B-PT	B-PT, B-CV, O, B-TM, B-AM
+15	배양	O	I-PT	I-PT, I-CV, B-PT, O, I-MT
+16	##근	O	I-PT	I-PT, I-CV, O, I-MT, I-TM
+17	등	O	O	O, I-CV, I-TM, I-OG, B-CV
+18	##도	O	O	O, B-CV, B-OG, B-TM, B-LC
+19	함유	O	O	O, B-CV, B-OG, B-TM, B-LC
+20	##됐	O	O	O, B-CV, I-OG, B-OG, I-CV
+21	##다	O	O	O, B-CV, B-OG, I-OG, B-LC
+22	.	O	O	O, B-LC, B-CV, B-OG, I-OG
+23	[SEP]	O	O	O, B-CV, B-LC, I-OG, B-OG

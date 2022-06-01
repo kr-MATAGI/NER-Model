@@ -1,0 +1,10 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
+1	그	O	O	O, B-CV, B-OG, B-LC, B-TM
+2	다음	O	O	O, B-CV, B-TM, B-LC, I-CV
+3	##에	O	O	O, B-CV, B-OG, B-PS, B-LC
+4	어	O	O	O, B-CV, B-OG, B-LC, B-AF
+5	~	O	O	O, I-AF, I-CV, I-OG, I-FD
+6	앤	O	B-PS	B-PS, O, B-AF, B-OG, B-LC
+7	##지오	O	I-PS	I-PS, O, I-AF, I-OG, I-FD
+8	[SEP]	O	O	O, I-AF, I-OG, I-PS, B-CV

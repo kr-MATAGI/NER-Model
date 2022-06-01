@@ -1,0 +1,7 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
+1	엘리베이터	O	B-TM	B-TM, O, B-AF, B-CV, B-TR
+2	있	O	O	O, I-TM, I-AF, I-CV, B-CV
+3	##긴	O	O	O, B-CV, I-AF, I-TM, I-OG
+4	한데	O	O	O, B-CV, B-TM, B-OG, I-AF
+5	[SEP]	O	O	O, B-CV, B-TM, B-OG, I-AF

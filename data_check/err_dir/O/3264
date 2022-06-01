@@ -1,0 +1,23 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
+1	특성	O	B-CV	B-CV, O, I-CV, B-TM, B-OG
+2	##화	O	I-CV	I-CV, O, B-CV, I-TM, I-OG
+3	##고	O	I-CV	I-CV, O, B-CV, I-TM, I-OG
+4	##졸	O	I-CV	I-CV, O, B-CV, I-OG, I-TM
+5	##재	O	I-CV	I-CV, O, B-CV, I-OG, I-TM
+6	##직자	O	I-CV	I-CV, O, B-CV, I-OG, I-TM
+7	##특별	O	I-CV	I-CV, O, B-CV, I-OG, I-TM
+8	##전	O	I-CV	I-CV, O, B-CV, I-OG, I-TM
+9	##형	O	I-CV	I-CV, O, B-CV, I-OG, I-TM
+10	##의	O	O	O, I-CV, I-OG, I-AF, I-TM
+11	경우	O	O	O, B-CV, B-TM, B-OG, B-LC
+12	학생	O	O	O, B-CV, B-AF, B-TM, B-PS
+13	##부	O	O	O, I-AF, I-CV, I-TM, I-OG
+14	##만	O	O	O, I-AF, B-PS, I-LC, I-PS
+15	평가	O	O	O, B-CV, B-TM, B-LC, I-AF
+16	자료	O	O	O, B-CV, B-LC, B-TM, B-PS
+17	##로	O	O	O, B-CV, B-LC, B-PS, B-TM
+18	활용	O	O	O, B-CV, B-LC, B-TM, B-PS
+19	##한다	O	O	O, B-CV, B-LC, I-AF, I-OG
+20	.	O	O	O, B-LC, B-PS, B-OG, B-CV
+21	[SEP]	O	O	O, B-LC, I-AF, B-CV, I-OG

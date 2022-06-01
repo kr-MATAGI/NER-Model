@@ -1,0 +1,24 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
+1	그래서	O	O	O, B-CV, B-OG, B-TM, B-LC
+2	미국	B-LC	B-LC	B-LC, O, B-OG, B-AF, B-PS
+3	캐나다	B-LC	B-LC	B-LC, I-LC, O, B-OG, B-AF
+4	덴마크	B-LC	B-LC	B-LC, I-LC, O, B-OG, B-AF
+5	일본	B-LC	B-LC	B-LC, I-LC, O, B-OG, B-AF
+6	##을	O	O	O, I-LC, I-AF, I-OG, B-LC
+7	비롯	O	O	O, B-LC, B-OG, B-CV, B-TM
+8	##한	O	O	O, B-LC, B-OG, B-PS, B-TM
+9	여러	O	O	O, B-LC, B-OG, B-QT, B-PS
+10	나라	O	O	O, B-OG, B-LC, I-OG, B-QT
+11	##가	O	O	O, B-OG, B-PS, B-LC, B-CV
+12	아동	O	B-CV	B-CV, O, B-TM, B-FD, I-CV
+13	학대	O	I-CV	I-CV, O, B-CV, I-TM, I-TR
+14	신고	O	O	O, I-CV, B-CV, I-TM, I-AF
+15	의무	O	O	O, I-CV, B-CV, I-TM, I-OG
+16	##제	O	O	O, I-CV, B-CV, I-OG, I-TM
+17	##를	O	O	O, I-CV, I-OG, B-CV, I-AF
+18	두고	O	O	O, B-CV, B-LC, B-OG, I-CV
+19	있	O	O	O, B-CV, B-OG, B-LC, B-PS
+20	##다	O	O	O, B-CV, I-OG, I-CV, I-AF
+21	.	O	O	O, B-LC, B-CV, B-OG, B-PS
+22	[SEP]	O	O	O, B-LC, B-CV, B-OG, I-OG

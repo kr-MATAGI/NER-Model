@@ -1,0 +1,19 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, I-CV, I-EV, B-CV
+1	17	B-QT	B-QT	B-QT, O, B-EV, I-QT, B-DT
+2	##대	I-QT	I-QT	I-QT, O, I-EV, I-OG, I-DT
+3	대통령	B-EV	B-CV	B-CV, B-EV, O, I-EV, I-QT
+4	선거	I-EV	O	O, I-EV, B-EV, B-CV, I-CV
+5	##가	O	O	O, I-EV, B-PS, I-OG, I-AF
+6	치러진	O	O	O, B-CV, B-OG, B-LC, B-PS
+7	다음	B-DT	B-DT	B-DT, O, I-DT, B-CV, B-EV
+8	날	I-DT	I-DT	I-DT, O, B-DT, I-CV, I-EV
+9	##인	O	O	O, I-DT, B-CV, I-EV, B-OG
+10	2007	B-DT	B-DT	B-DT, I-DT, O, B-LC, B-EV
+11	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
+12	12	I-DT	I-DT	I-DT, O, B-DT, I-EV, I-QT
+13	##월	I-DT	I-DT	I-DT, O, B-DT, I-EV, I-CV
+14	20	I-DT	I-DT	I-DT, O, B-DT, I-CV, I-EV
+15	##일	I-DT	I-DT	I-DT, O, B-DT, I-CV, I-EV
+16	.	O	O	O, I-DT, B-CV, B-OG, I-EV
+17	[SEP]	O	O	O, B-LC, B-CV, I-DT, B-OG

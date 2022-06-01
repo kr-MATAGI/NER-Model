@@ -1,0 +1,27 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-AF
+1	북아	B-LC	B-LC	B-LC, O, B-OG, B-AF, B-PS
+2	##현동	I-LC	I-LC	I-LC, O, I-AF, B-LC, I-OG
+3	##은	O	O	O, I-LC, I-AF, I-OG, I-QT
+4	2006	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
+5	##년	I-DT	I-DT	I-DT, O, I-QT, B-DT, I-PS
+6	아	O	B-LC	B-LC, B-AF, O, B-OG, B-PS
+7	##현	O	I-LC	I-LC, I-AF, O, I-OG, I-PS
+8	##뉴	O	I-LC	I-LC, I-AF, O, I-OG, B-LC
+9	##타운	O	I-LC	I-LC, I-AF, O, I-OG, I-PS
+10	지구	O	O	O, I-LC, I-AF, B-LC, I-OG
+11	##로	O	O	O, I-LC, I-AF, I-OG, I-QT
+12	지정	O	O	O, B-LC, B-OG, I-LC, B-PS
+13	##돼	O	O	O, B-LC, I-LC, I-OG, B-PS
+14	2011	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-LC
+15	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
+16	##까	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
+17	##지	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
+18	철거	O	O	O, I-DT, B-CV, I-QT, B-OG
+19	##가	O	O	O, B-OG, B-LC, B-PS, B-CV
+20	완료	O	O	O, B-CV, B-OG, B-TM, B-LC
+21	##될	O	O	O, B-CV, B-LC, B-OG, I-OG
+22	예정	O	O	O, B-CV, B-TM, B-OG, I-OG
+23	##이다	O	O	O, B-CV, B-TM, I-OG, B-OG
+24	.	O	O	O, B-LC, B-OG, B-PS, B-CV
+25	[SEP]	O	O	O, B-LC, B-OG, I-OG, B-CV

@@ -1,0 +1,27 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
+1	그러나	O	O	O, B-OG, B-LC, B-CV, B-PS
+2	시	O	B-OG	B-OG, O, I-OG, B-EV, B-CV
+3	의회	O	I-OG	I-OG, O, B-OG, I-EV, I-CV
+4	##의	O	O	O, I-OG, B-PS, I-EV, B-OG
+5	조상	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
+6	##호	I-PS	I-PS	I-PS, O, I-OG, I-LC, I-QT
+7	기획	B-CV	B-CV	B-CV, O, B-FD, B-OG, I-CV
+8	##경제	I-CV	I-CV	I-CV, O, I-OG, B-CV, I-FD
+9	##위원	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-FD
+10	##장	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-TM
+11	##은	O	O	O, I-CV, I-OG, I-EV, I-QT
+12	“	O	O	O, B-CV, B-LC, B-OG, B-PS
+13	개방	O	O	O, B-CV, I-CV, B-PS, B-TM
+14	##형	O	O	O, I-CV, B-CV, I-OG, I-PS
+15	공무원	B-CV	B-CV	B-CV, I-CV, O, I-OG, B-OG
+16	##들	O	O	O, I-CV, I-OG, B-CV, I-QT
+17	활동	O	O	O, B-CV, B-LC, B-TM, B-OG
+18	##에	O	O	O, B-CV, B-LC, B-PS, B-OG
+19	대한	O	O	O, B-LC, B-OG, B-PS, B-TM
+20	비판	O	O	O, B-CV, B-PS, B-TM, B-LC
+21	##이	O	O	O, B-PS, B-CV, B-OG, B-LC
+22	있	O	O	O, B-CV, B-PS, I-OG, B-OG
+23	##다	O	O	O, B-CV, I-OG, I-EV, B-OG
+24	.	O	O	O, B-PS, B-LC, B-OG, B-CV
+25	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG

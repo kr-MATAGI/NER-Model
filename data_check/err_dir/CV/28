@@ -1,0 +1,13 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
+1	가로수길	B-AF	B-LC	B-LC, B-AF, O, B-OG, B-TM
+2	##에	O	O	O, I-AF, I-LC, I-OG, B-CV
+3	외국인	B-CV	O	O, B-CV, B-LC, B-DT, B-OG
+4	##들	O	O	O, I-CV, I-AF, I-OG, B-CV
+5	왜	O	O	O, B-CV, B-OG, I-AF, B-TM
+6	많	O	O	O, B-CV, I-AF, B-OG, B-AF
+7	##나	O	O	O, I-AF, I-OG, B-CV, B-TM
+8	했	O	O	O, B-CV, B-TM, B-OG, B-LC
+9	##더니	O	O	O, B-CV, B-TM, I-AF, B-LC
+10	…	O	O	O, B-CV, B-OG, B-TM, B-LC
+11	[SEP]	O	O	O, B-CV, B-LC, B-TM, I-AF

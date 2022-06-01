@@ -1,0 +1,10 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
+1	아니	O	O	O, B-CV, B-TM, B-OG, B-AF
+2	치	O	B-TR	B-TR, O, B-CV, B-FD, B-EV
+3	치료	O	I-TR	I-TR, O, B-TR, I-EV, I-CV
+4	##가	O	O	O, I-TR, I-EV, I-CV, I-AF
+5	끝났	O	O	O, B-CV, B-OG, B-TM, B-LC
+6	##으면	O	O	O, I-OG, B-CV, I-AF, B-TM
+7	##은	O	O	O, B-CV, B-OG, B-TM, B-LC
+8	[SEP]	O	O	O, B-CV, B-TM, B-LC, B-OG

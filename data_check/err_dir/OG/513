@@ -1,0 +1,26 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
+1	이와	O	O	O, B-CV, B-TM, B-OG, B-LC
+2	관련	O	O	O, B-CV, B-OG, B-TM, B-LC
+3	##해	O	O	O, B-OG, B-LC, B-PS, B-CV
+4	고용	B-OG	B-OG	B-OG, O, I-OG, B-LC, B-CV
+5	##노동	I-OG	I-OG	I-OG, O, B-OG, I-CV, I-EV
+6	##부	I-OG	I-OG	I-OG, O, I-CV, I-EV, I-AF
+7	성남	I-OG	B-OG	B-OG, I-OG, B-LC, O, B-AF
+8	##지	I-OG	I-OG	I-OG, O, B-OG, I-CV, I-LC
+9	##청	I-OG	I-OG	I-OG, O, I-CV, I-AF, I-EV
+10	관계자	B-CV	B-CV	B-CV, O, I-CV, I-OG, B-AF
+11	##는	O	O	O, I-CV, I-OG, I-EV, B-CV
+12	“	O	O	O, B-CV, B-LC, B-TM, B-QT
+13	임금	O	O	O, B-CV, I-CV, B-MT, B-PS
+14	##이	O	O	O, B-PS, I-CV, B-CV, B-LC
+15	체불	O	O	O, B-CV, I-CV, B-PS, B-TM
+16	##되	O	O	O, I-CV, B-PS, B-CV, B-LC
+17	##면	O	O	O, B-LC, B-CV, B-OG, B-PS
+18	곧바로	O	O	O, B-TM, B-LC, B-OG, B-CV
+19	형사	O	O	O, B-CV, B-FD, B-TM, B-OG
+20	사건	O	O	O, I-CV, I-EV, I-TM, I-OG
+21	##으로	O	O	O, I-CV, I-EV, I-OG, I-QT
+22	된다	O	O	O, B-CV, B-TM, B-OG, B-QT
+23	.	O	O	O, B-OG, B-CV, B-LC, B-PS
+24	[SEP]	O	O	O, B-CV, B-OG, B-LC, I-OG

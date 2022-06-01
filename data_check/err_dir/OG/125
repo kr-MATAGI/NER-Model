@@ -1,0 +1,20 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
+1	""""	O	O	O, B-CV, B-LC, B-PS, B-TM
+2	북한	B-OG	B-LC	B-LC, B-OG, O, B-PS, B-AF
+3	##에	O	O	O, I-LC, I-OG, I-AF, I-PS
+4	대한	O	O	O, B-LC, B-PS, B-OG, B-CV
+5	정보	O	O	O, B-CV, B-TM, B-LC, B-PS
+6	##를	O	O	O, B-CV, B-PS, B-OG, B-TM
+7	알리	O	O	O, B-CV, B-TM, B-PS, B-LC
+8	##는	O	O	O, B-CV, B-TM, B-PS, B-LC
+9	앱	O	O	O, B-TM, B-CV, I-TM, B-AF
+10	##이	O	O	O, I-TM, B-CV, B-PS, I-CV
+11	##니까	O	O	O, B-CV, B-LC, B-OG, B-TM
+12	당연히	O	O	O, B-CV, B-LC, B-TM, B-PS
+13	무료	O	O	O, B-QT, B-CV, B-TM, B-TR
+14	배포	O	O	O, I-TM, I-QT, I-CV, B-TM
+15	##해야	O	O	O, I-CV, B-CV, B-OG, B-PS
+16	##죠	O	O	O, B-CV, B-LC, I-OG, B-TM
+17	.	O	O	O, B-CV, B-LC, B-TM, B-PS
+18	[SEP]	O	O	O, B-CV, B-LC, B-TM, I-CV

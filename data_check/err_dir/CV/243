@@ -1,0 +1,18 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
+1	네	O	O	O, B-QT, B-CV, B-TM, B-LC
+2	찔러	O	O	O, B-CV, B-LC, B-QT, B-TM
+3	보시	O	O	O, B-CV, B-PS, I-QT, I-CV
+4	##고	O	O	O, B-CV, B-PS, B-LC, I-QT
+5	약간	O	O	O, B-CV, B-TM, B-QT, B-LC
+6	뭐	O	O	O, B-CV, B-TM, B-PS, I-CV
+7	생	O	B-CV	B-CV, O, B-OG, B-AF, B-TM
+8	##고	B-CV	I-CV	I-CV, B-CV, O, I-OG, I-AF
+9	##구	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-TM
+10	##마	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-TM
+11	##도	O	O	O, I-CV, I-OG, I-AF, I-QT
+12	많이	O	O	O, B-CV, I-CV, B-TM, B-QT
+13	드	O	O	O, B-CV, B-OG, B-TM, B-PS
+14	##시	O	O	O, B-CV, I-CV, B-PS, B-LC
+15	##니까	O	O	O, B-CV, B-LC, B-TM, I-CV
+16	[SEP]	O	O	O, B-CV, B-TM, B-LC, B-PS

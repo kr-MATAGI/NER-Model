@@ -1,0 +1,26 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
+1	현미	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-PT
+2	##밥	I-CV	I-CV	I-CV, O, B-CV, I-TM, I-OG
+3	채소	B-CV	O	O, B-CV, I-CV, B-TM, B-FD
+4	과일	O	O	O, B-CV, I-CV, B-FD, B-TM
+5	이	O	O	O, B-QT, B-CV, B-PS, B-DT
+6	세	B-QT	B-QT	B-QT, I-QT, O, B-DT, B-EV
+7	가지	I-QT	I-QT	I-QT, O, B-QT, I-DT, I-EV
+8	##를	O	O	O, I-QT, B-CV, I-EV, I-CV
+9	먹	O	O	O, B-CV, B-TM, B-OG, B-LC
+10	##으면서	O	O	O, B-CV, B-PS, B-LC, B-OG
+11	자주	O	O	O, B-CV, B-TM, B-PS, B-LC
+12	어	O	O	O, B-CV, B-TM, B-OG, B-LC
+13	~	O	O	O, B-CV, I-CV, B-PS, B-LC
+14	혈압	B-TM	O	O, B-TM, B-TR, B-MT, B-QT
+15	혹은	O	O	O, I-TM, I-CV, I-AF, I-QT
+16	혈당	B-TM	O	O, B-TM, B-TR, B-MT, B-QT
+17	##을	O	O	O, I-TM, B-CV, I-AF, I-CV
+18	측정	O	O	O, B-CV, B-TM, B-LC, B-PS
+19	##을	O	O	O, B-CV, B-OG, I-CV, I-OG
+20	해	O	O	O, B-CV, B-LC, B-OG, B-TM
+21	봐야	O	O	O, B-CV, B-LC, B-OG, B-PS
+22	됩니다	O	O	O, B-CV, B-OG, B-LC, B-TM
+23	.	O	O	O, B-CV, B-LC, B-PS, B-TM
+24	[SEP]	O	O	O, B-CV, B-TM, B-LC, I-CV

@@ -1,0 +1,17 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
+1	내년	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-LC
+2	중	B-LC	B-LC	B-LC, O, B-OG, I-LC, I-DT
+3	·	O	I-LC	I-LC, O, B-LC, I-DT, I-OG
+4	브라질	B-LC	I-LC	I-LC, B-LC, O, I-OG, I-PS
+5	등	O	O	O, I-LC, B-LC, I-OG, I-AF
+6	##서	O	O	O, B-LC, B-CV, I-LC, B-TM
+7	성장	O	O	O, B-CV, B-TM, B-OG, B-LC
+8	예상	O	O	O, B-CV, I-OG, B-OG, B-TM
+9	…	O	O	O, B-CV, I-OG, B-OG, B-LC
+10	“	O	O	O, B-CV, B-LC, B-OG, B-TM
+11	품질	O	O	O, B-CV, B-TM, B-LC, B-AF
+12	강화	O	O	O, I-CV, B-CV, I-OG, I-TM
+13	노력	O	O	O, B-CV, B-LC, B-TM, B-OG
+14	”	O	O	O, B-CV, B-OG, B-PS, B-LC
+15	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-TM

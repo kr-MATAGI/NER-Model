@@ -1,0 +1,27 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
+1	프로	O	B-CV	B-CV, O, B-EV, B-OG, B-PS
+2	초창기	O	O	O, I-CV, B-DT, I-DT, I-EV
+3	##에	O	O	O, I-DT, I-CV, I-EV, B-PS
+4	7	B-DT	B-DT	B-DT, O, B-EV, I-DT, B-QT
+5	##시	I-DT	I-DT	I-DT, B-DT, O, I-QT, I-EV
+6	##즌	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
+7	동안	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-TI
+8	코트	B-TM	B-TM	B-TM, B-CV, B-AM, O, B-AF
+9	##를	O	O	O, I-TM, I-AF, I-CV, I-EV
+10	[UNK]	O	O	O, B-PS, B-CV, B-LC, B-OG
+11	조니	B-PS	B-PS	B-PS, O, I-PS, B-LC, B-OG
+12	맥도	I-PS	I-PS	I-PS, B-PS, O, I-LC, I-OG
+13	##웰	I-PS	I-PS	I-PS, O, I-LC, B-PS, I-OG
+14	(	O	O	O, I-PS, B-CV, I-OG, I-AF
+15	전	O	O	O, B-OG, B-LC, B-PS, B-AF
+16	현대	B-OG	B-OG	B-OG, O, I-OG, B-LC, B-CV
+17	)	O	O	O, I-OG, I-CV, B-CV, I-AF
+18	이	O	O	O, B-PS, B-CV, B-LC, B-OG
+19	대표	O	O	O, B-CV, B-TM, B-LC, B-PS
+20	##적	O	O	O, B-PS, I-QT, I-PS, B-LC
+21	##이	O	O	O, B-PS, B-CV, B-LC, B-OG
+22	##었	O	O	O, B-CV, B-OG, I-CV, B-PS
+23	##다	O	O	O, B-CV, I-CV, B-LC, B-TM
+24	.	O	O	O, B-PS, B-LC, B-CV, B-OG
+25	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG

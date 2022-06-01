@@ -1,0 +1,27 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-EV, I-CV, I-OG, B-CV
+1	‘	O	O	O, B-EV, B-LC, B-OG, B-CV
+2	개	B-OG	B-EV	B-EV, B-AF, B-OG, B-CV, O
+3	##나	I-OG	I-EV	I-EV, I-AF, I-OG, O, I-CV
+4	##소	I-OG	I-EV	I-EV, I-AF, I-CV, I-OG, O
+5	##나	I-OG	I-EV	I-EV, I-AF, O, I-OG, I-CV
+6	##콘서트	I-OG	I-EV	I-EV, I-AF, O, I-OG, I-CV
+7	’	O	O	O, I-EV, I-OG, I-AF, I-CV
+8	예산	O	O	O, B-CV, B-LC, B-TM, I-EV
+9	##삭	O	O	O, B-CV, B-LC, B-PS, B-TM
+10	##감	O	O	O, B-PS, I-CV, B-CV, B-LC
+11	##에	O	O	O, B-PS, B-LC, I-OG, I-EV
+12	“	O	O	O, B-LC, B-CV, B-PS, B-OG
+13	이런	O	O	O, B-PS, B-LC, B-CV, B-OG
+14	건방	O	O	O, B-PS, B-CV, B-LC, B-AM
+15	##진	O	O	O, B-PS, I-PS, I-CV, B-CV
+16	…	O	O	O, B-PS, B-CV, B-LC, I-PS
+17	”	O	O	O, B-CV, B-PS, B-LC, B-OG
+18	“	O	O	O, B-CV, B-LC, B-PS, B-OG
+19	네	O	O	O, B-PS, B-CV, B-LC, B-OG
+20	##가	O	O	O, B-PS, I-PS, B-LC, I-AF
+21	잘	O	O	O, B-CV, B-PS, B-LC, B-OG
+22	##났	O	O	O, I-CV, I-PS, B-PS, B-CV
+23	##냐	O	O	O, B-PS, I-PS, I-CV, I-AF
+24	”	O	O	O, B-CV, B-PS, B-LC, I-CV
+25	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG

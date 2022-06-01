@@ -1,0 +1,22 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
+1	맞붙	O	O	O, B-CV, B-TM, B-LC, B-OG
+2	##인	O	O	O, B-PS, B-CV, B-LC, B-AF
+3	의자	O	O	O, B-CV, B-PS, B-AF, B-TM
+4	##를	O	O	O, B-CV, I-AF, I-CV, B-OG
+5	뒤집	O	O	O, B-CV, B-TM, B-PS, B-OG
+6	##으면	O	O	O, B-PS, I-AF, B-CV, B-LC
+7	등	O	O	O, B-AM, B-TM, B-CV, B-LC
+8	##받이	O	O	O, I-AM, I-TM, I-PS, I-CV
+9	##는	O	O	O, B-CV, B-LC, B-PS, I-AF
+10	안정	O	O	O, B-PS, B-LC, B-TM, B-CV
+11	##감	O	O	O, B-PS, I-PS, B-LC, I-LC
+12	있	O	O	O, B-PS, B-LC, I-PS, B-CV
+13	##으면서	O	O	O, B-PS, B-LC, B-CV, B-TM
+14	##도	O	O	O, B-PS, B-LC, B-CV, I-AF
+15	아름다운	O	O	O, B-LC, B-PS, B-AF, B-CV
+16	다리	O	B-AM	B-AM, O, B-TM, B-AF, B-TR
+17	##가	O	O	O, I-AF, I-CV, I-TM, B-PS
+18	된다	O	O	O, B-CV, B-TM, B-LC, B-PS
+19	.	O	O	O, B-CV, B-LC, B-PS, B-AF
+20	[SEP]	O	O	O, B-CV, B-LC, B-PS, I-AF

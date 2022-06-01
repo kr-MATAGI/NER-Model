@@ -1,0 +1,27 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
+1	어	O	O	O, B-CV, B-OG, B-TM, B-LC
+2	~	O	O	O, I-CV, B-CV, B-LC, B-PS
+3	부부	B-CV	B-CV	B-CV, O, B-DT, I-CV, B-TM
+4	출산	O	O	O, I-CV, B-CV, B-DT, B-FD
+5	휴가	O	O	O, I-CV, B-CV, I-DT, B-DT
+6	##는	O	O	O, I-CV, B-CV, B-PS, B-LC
+7	부부	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-QT
+8	##에	O	O	O, I-CV, I-QT, B-CV, I-AF
+9	##게	O	O	O, B-PS, B-CV, B-QT, B-LC
+10	공동	O	O	O, B-QT, B-CV, B-TM, B-PS
+11	##으로	O	O	O, B-PS, I-QT, B-QT, B-CV
+12	줘야	O	O	O, B-CV, B-PS, B-DT, B-QT
+13	되	O	O	O, B-CV, B-OG, B-LC, B-PS
+14	##고	O	O	O, B-CV, B-PS, B-LC, B-OG
+15	육아	B-CV	B-CV	B-CV, O, B-TM, B-DT, B-FD
+16	##휴	I-CV	O	O, I-CV, B-CV, I-TM, I-TR
+17	##직	I-CV	O	O, I-CV, I-TM, I-TR, I-DT
+18	##도	O	O	O, I-CV, I-AF, I-QT, I-DT
+19	더	O	O	O, B-QT, B-CV, B-TM, B-LC
+20	늘	O	O	O, B-CV, B-OG, B-LC, B-PS
+21	##여	O	O	O, B-PS, B-OG, B-LC, B-CV
+22	##야	O	O	O, I-OG, B-PS, B-OG, B-LC
+23	되	O	O	O, B-CV, B-OG, B-LC, I-OG
+24	##고	O	O	O, B-CV, I-OG, I-AF, B-OG
+25	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG

@@ -1,0 +1,23 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
+1	한	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
+2	전	O	O	O, I-PS, B-CV, I-OG, B-PS
+3	총리	B-CV	B-CV	B-CV, O, B-OG, I-CV, B-TM
+4	##의	O	O	O, I-CV, I-EV, I-OG, B-CV
+5	또	O	O	O, B-QT, B-LC, B-PS, B-CV
+6	다른	O	O	O, B-QT, B-PS, I-QT, B-CV
+7	역할	O	O	O, B-CV, I-QT, B-PS, B-QT
+8	##은	O	O	O, B-CV, B-PS, B-LC, B-OG
+9	경제	O	O	O, B-CV, B-LC, B-TM, B-FD
+10	##개발	O	O	O, I-CV, I-LC, B-LC, I-TR
+11	경험	O	O	O, B-LC, B-PS, B-CV, B-TR
+12	##을	O	O	O, B-CV, B-PS, B-LC, B-OG
+13	개도국	B-OG	O	O, B-OG, B-LC, B-CV, B-TM
+14	##에	O	O	O, I-OG, B-CV, I-CV, I-EV
+15	설명	O	O	O, B-CV, B-LC, B-TM, B-PS
+16	##하	O	O	O, B-PS, B-LC, B-CV, B-OG
+17	##는	O	O	O, B-PS, B-CV, B-LC, B-OG
+18	것	O	O	O, B-CV, B-PS, B-LC, B-EV
+19	##이다	O	O	O, B-CV, I-CV, I-EV, I-OG
+20	.	O	O	O, B-CV, B-LC, B-PS, B-FD
+21	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-FD

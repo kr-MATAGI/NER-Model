@@ -1,0 +1,25 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
+1	“	O	O	O, B-CV, B-LC, B-OG, B-TM
+2	한대	B-OG	B-OG	B-OG, O, B-PS, B-EV, B-LC
+3	##련	I-OG	I-OG	I-OG, O, I-LC, I-EV, I-PS
+4	비판	O	O	O, I-OG, B-CV, B-TM, I-EV
+5	##글	O	O	O, B-TM, B-CV, I-TM, I-CV
+6	##로	O	O	O, B-PS, B-CV, B-TM, B-OG
+7	유인	O	O	O, B-TM, B-CV, B-QT, B-AF
+8	##물	O	O	O, I-TM, I-CV, I-AF, I-OG
+9	”	O	O	O, B-PS, B-LC, B-OG, B-CV
+10	비운	O	B-PS	B-PS, O, B-LC, B-OG, B-EV
+11	##동	O	I-PS	I-PS, I-LC, O, I-OG, I-EV
+12	##권	O	I-PS	I-PS, O, I-LC, I-OG, I-TM
+13	후보	B-CV	B-CV	B-CV, O, I-PS, I-CV, B-AF
+14	##에	O	O	O, I-CV, I-EV, I-OG, I-AF
+15	메신저	O	O	O, B-TM, B-CV, B-QT, I-TM
+16	덕성	B-OG	B-OG	B-OG, B-LC, O, I-OG, B-PS
+17	##여대	I-OG	I-OG	I-OG, I-LC, O, I-PS, I-AF
+18	교직원	B-CV	B-CV	B-CV, O, I-OG, I-CV, B-OG
+19	,	O	O	O, I-CV, I-OG, B-CV, I-EV
+20	학생회	O	O	O, B-OG, I-OG, B-EV, B-CV
+21	투표	O	O	O, I-OG, I-EV, B-CV, B-PS
+22	개입	O	O	O, B-CV, B-LC, B-OG, B-TM
+23	[SEP]	O	O	O, B-CV, B-OG, B-LC, B-TM

@@ -1,0 +1,17 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, B-CV, I-EV, I-CV
+1	경마	O	B-OG	B-OG, O, B-CV, I-OG, B-EV
+2	##본부	O	I-OG	I-OG, O, I-CV, B-OG, I-EV
+3	##는	O	O	O, I-OG, B-OG, B-TM, I-EV
+4	버스	B-AF	B-AF	B-AF, O, B-OG, I-AF, B-TM
+5	##에	O	O	O, I-AF, I-OG, B-CV, I-EV
+6	파란색	B-TM	B-TM	B-TM, B-LC, O, B-OG, B-CV
+7	우체	O	O	O, I-TM, B-TM, B-CV, B-AF
+8	##통	O	O	O, I-TM, I-AF, I-CV, I-OG
+9	##도	O	O	O, I-AF, I-OG, I-TM, I-CV
+10	설치	O	O	O, B-OG, B-CV, B-TM, B-LC
+11	##할	O	O	O, B-OG, B-LC, B-PS, B-CV
+12	방침	O	O	O, B-OG, B-CV, B-TM, B-LC
+13	##이다	O	O	O, B-CV, I-OG, B-OG, B-TM
+14	.	O	O	O, B-OG, B-LC, B-TM, B-AF
+15	[SEP]	O	O	O, B-OG, B-LC, I-OG, B-TM

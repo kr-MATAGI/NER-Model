@@ -1,0 +1,11 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-AF
+1	나비	B-EV	B-EV	B-EV, O, B-CV, B-PS, B-OG
+2	##스코	I-EV	I-EV	I-EV, I-PS, I-OG, O, I-AF
+3	챔피언십	I-EV	I-EV	I-EV, O, B-EV, I-AF, I-CV
+4	1	B-QT	B-EV	B-EV, B-QT, I-EV, B-TM, B-TI
+5	##R	I-QT	I-EV	I-EV, I-QT, I-TM, I-AF, I-LC
+6	공동	O	O	O, B-CV, B-PS, I-EV, B-TM
+7	##선	O	O	O, B-CV, I-CV, B-PS, I-PS
+8	##두	O	O	O, I-CV, I-PS, B-CV, I-LC
+9	[SEP]	O	O	O, I-CV, B-CV, I-EV, B-PS

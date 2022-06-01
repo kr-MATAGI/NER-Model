@@ -1,0 +1,24 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
+1	야	O	O	O, B-CV, B-PS, B-LC, B-TR
+2	##합	O	O	O, I-PS, I-CV, B-PS, I-LC
+3	##이다	O	O	O, B-PS, I-PS, I-OG, I-CV
+4	”	O	O	O, B-CV, B-LC, B-OG, I-OG
+5	라며	O	O	O, B-LC, B-CV, B-PS, B-OG
+6	집행	B-OG	O	O, B-OG, B-CV, B-EV, B-AF
+7	##위	I-OG	O	O, I-OG, I-CV, I-EV, I-AF
+8	결정	O	O	O, I-OG, I-EV, I-CV, B-PS
+9	##을	O	O	O, B-CV, B-OG, B-PS, I-OG
+10	맹	O	O	O, B-CV, B-LC, B-PS, B-TM
+11	##비	O	O	O, B-LC, B-CV, B-PS, B-TM
+12	##난	O	O	O, B-LC, I-CV, B-CV, B-PS
+13	##하고	O	O	O, B-LC, B-CV, B-PS, B-OG
+14	나선	O	O	O, B-CV, B-LC, B-OG, B-TM
+15	것	O	O	O, B-CV, B-LC, B-OG, B-PS
+16	##도	O	O	O, B-LC, B-CV, B-PS, B-OG
+17	바로	O	O	O, B-TM, B-CV, B-OG, B-LC
+18	이	O	O	O, B-PS, B-TM, B-OG, B-LC
+19	때문	O	O	O, B-PS, B-CV, B-TM, B-LC
+20	##이다	O	O	O, B-CV, B-TM, I-CV, I-OG
+21	.	O	O	O, B-CV, B-LC, B-OG, B-PS
+22	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-PS

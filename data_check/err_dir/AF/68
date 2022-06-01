@@ -1,0 +1,25 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, B-CV, I-EV, I-CV
+1	소니	B-OG	B-OG	B-OG, O, B-LC, B-AF, B-PS
+2	##에	I-OG	I-OG	I-OG, O, B-OG, I-LC, I-AF
+3	##릭	I-OG	I-OG	I-OG, O, B-OG, I-LC, I-CV
+4	##슨	I-OG	I-OG	I-OG, O, I-LC, I-PS, I-AF
+5	또한	O	O	O, I-OG, I-AF, B-AF, B-TM
+6	뮤직	B-AF	B-AF	B-AF, B-TM, O, B-OG, B-EV
+7	##폰	I-AF	I-TM	I-TM, I-AF, O, I-TR, I-OG
+8	##의	O	O	O, I-AF, I-TM, I-OG, I-EV
+9	히트	O	O	O, B-CV, B-TM, B-LC, B-OG
+10	##로	O	O	O, B-LC, B-OG, B-PS, I-AF
+11	2007	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
+12	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
+13	처음	O	O	O, I-DT, B-QT, I-QT, B-CV
+14	##으로	O	O	O, B-QT, B-LC, B-OG, B-TM
+15	1	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-EV
+16	##억	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
+17	##대	I-QT	I-QT	I-QT, O, I-LC, I-PS, I-EV
+18	##를	O	O	O, I-QT, I-EV, I-OG, B-CV
+19	돌파	O	O	O, B-CV, B-TM, B-OG, B-QT
+20	##했	O	O	O, B-OG, B-CV, I-OG, B-LC
+21	##다	O	O	O, B-CV, I-OG, B-OG, B-TM
+22	.	O	O	O, B-OG, B-LC, I-OG, B-CV
+23	[SEP]	O	O	O, I-OG, B-OG, B-CV, B-LC

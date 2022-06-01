@@ -1,0 +1,19 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, B-CV, I-EV, I-CV
+1	상위	O	O	O, B-CV, B-TM, B-OG, B-QT
+2	##권	O	O	O, I-OG, I-CV, I-LC, I-QT
+3	팀	O	O	O, I-OG, B-OG, B-CV, B-PS
+4	감독	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-EV
+5	##들이	O	O	O, I-CV, B-CV, I-OG, I-EV
+6	복싱	O	B-EV	B-EV, B-CV, O, I-EV, B-TM
+7	데이	O	I-EV	I-EV, O, I-CV, B-EV, I-DT
+8	매치	O	O	O, I-EV, I-AF, I-DT, I-CV
+9	##를	O	O	O, I-EV, I-AF, B-CV, I-OG
+10	두려워하	O	O	O, B-CV, B-OG, B-LC, B-TM
+11	##는	O	O	O, B-CV, B-PS, B-OG, B-TM
+12	이유	O	O	O, B-CV, B-TM, B-OG, B-QT
+13	##가	O	O	O, B-PS, I-AF, B-OG, B-CV
+14	이것	O	O	O, B-PS, B-TM, B-LC, B-CV
+15	##이다	O	O	O, B-CV, I-CV, I-QT, I-AF
+16	.	O	O	O, B-CV, B-LC, B-OG, B-PS
+17	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-TM

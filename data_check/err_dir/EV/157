@@ -1,0 +1,23 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, I-CV, I-EV, B-CV
+1	두산	B-OG	B-OG	B-OG, B-LC, O, B-AF, B-PS
+2	,	O	O	O, I-OG, I-EV, I-AF, I-DT
+3	연장	B-EV	B-EV	B-EV, O, B-OG, B-AF, B-LC
+4	13	I-EV	B-EV	B-EV, I-EV, O, B-QT, B-AF
+5	##회	I-EV	I-EV	I-EV, O, I-QT, I-AF, I-OG
+6	오재	B-PS	B-PS	B-PS, I-EV, O, B-AF, I-PS
+7	##일	I-PS	I-PS	I-PS, I-EV, I-TM, O, I-AF
+8	홈런	B-TM	B-TM	B-TM, I-TM, O, B-CV, B-LC
+9	##으로	O	O	O, I-TM, I-AF, I-CV, I-EV
+10	삼성	B-OG	B-OG	B-OG, B-LC, O, B-AF, B-PS
+11	무너	O	O	O, I-OG, I-AF, B-CV, I-EV
+12	##뜨려	O	O	O, I-OG, B-LC, B-CV, I-EV
+13	…	O	O	O, B-LC, B-OG, B-PS, B-EV
+14	한국	B-EV	B-EV	B-EV, B-LC, O, B-OG, B-AF
+15	##시	I-EV	I-EV	I-EV, O, B-EV, I-OG, I-AF
+16	##리	I-EV	I-EV	I-EV, O, B-EV, I-OG, I-AF
+17	##즈	I-EV	I-EV	I-EV, O, B-EV, I-OG, I-AF
+18	2	B-QT	B-QT	B-QT, I-EV, I-QT, B-EV, O
+19	##연	I-QT	I-QT	I-QT, I-EV, O, B-QT, I-LC
+20	##승	I-QT	I-QT	I-QT, O, I-EV, I-LC, I-TM
+21	[SEP]	O	O	O, I-QT, I-EV, I-OG, B-CV

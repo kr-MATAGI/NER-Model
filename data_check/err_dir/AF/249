@@ -1,0 +1,22 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-CV, I-OG, B-CV, I-EV
+1	‘	O	O	O, B-PS, B-CV, B-LC, B-OG
+2	탱크	B-AF	B-PS	B-PS, B-AF, O, B-AM, B-CV
+3	’	O	O	O, I-PS, B-CV, B-PS, I-AF
+4	최경주	B-PS	B-PS	B-PS, O, I-PS, B-OG, B-LC
+5	(	O	O	O, I-PS, B-CV, I-OG, I-AF
+6	SK	B-OG	B-OG	B-OG, O, B-LC, B-AF, B-PS
+7	##텔	I-OG	I-OG	I-OG, O, I-LC, I-PS, I-AF
+8	##레	I-OG	I-OG	I-OG, O, I-LC, I-CV, I-AF
+9	##콤	I-OG	I-OG	I-OG, O, I-LC, I-PS, I-CV
+10	)	O	O	O, I-OG, I-CV, B-CV, I-AF
+11	에게	O	O	O, B-CV, B-PS, B-OG, B-LC
+12	2017	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
+13	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
+14	새해	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-TI
+15	##는	O	O	O, I-DT, I-EV, B-CV, B-OG
+16	남다르	O	O	O, B-OG, B-CV, B-LC, B-PS
+17	##게	O	O	O, I-OG, B-OG, B-PS, B-CV
+18	다가온다	O	O	O, B-CV, I-OG, B-PS, B-OG
+19	.	O	O	O, B-CV, B-OG, B-LC, B-PS
+20	[SEP]	O	O	O, B-CV, B-OG, B-LC, B-PS

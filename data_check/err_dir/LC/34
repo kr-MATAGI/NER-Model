@@ -1,0 +1,16 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
+1	탈	O	O	O, B-LC, B-TR, B-TM, B-PS
+2	##중국	B-LC	O	O, B-LC, I-LC, B-PS, I-PS
+3	현상	O	O	O, I-LC, I-TR, I-OG, I-PS
+4	##이	O	O	O, B-PS, B-CV, B-OG, B-LC
+5	가속	O	O	O, B-LC, B-PS, B-CV, B-TR
+6	##화	O	O	O, I-OG, I-TR, B-PS, I-LC
+7	##되	O	O	O, B-PS, B-LC, I-OG, B-CV
+8	##고	O	O	O, B-PS, B-CV, B-LC, I-OG
+9	있	O	O	O, B-CV, B-PS, B-LC, I-CV
+10	##는	O	O	O, B-CV, I-CV, B-PS, I-OG
+11	것	O	O	O, B-CV, B-LC, B-TM, B-OG
+12	##이다	O	O	O, B-CV, I-CV, I-OG, I-EV
+13	.	O	O	O, B-CV, B-LC, B-PS, B-TR
+14	[SEP]	O	O	O, B-CV, B-LC, B-TR, I-TR

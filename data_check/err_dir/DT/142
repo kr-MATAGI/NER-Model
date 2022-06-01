@@ -1,0 +1,27 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, I-CV, I-EV, B-CV
+1	신해	B-EV	B-EV	B-EV, O, B-LC, B-AF, B-DT
+2	##혁명	I-EV	I-EV	I-EV, O, I-AF, I-LC, I-QT
+3	(	O	O	O, I-EV, I-OG, I-DT, I-AF
+4	1911	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-LC
+5	##년	I-DT	I-DT	I-DT, O, I-QT, B-DT, I-EV
+6	)	O	O	O, I-DT, I-EV, B-CV, I-OG
+7	으로	O	O	O, B-PS, B-LC, B-OG, B-EV
+8	청나라	B-DT	B-LC	B-LC, B-OG, O, B-DT, B-AF
+9	##가	O	O	O, I-OG, I-LC, B-PS, I-PS
+10	멸망	O	O	O, B-CV, B-LC, B-OG, I-OG
+11	##한	O	O	O, B-LC, B-PS, B-OG, I-LC
+12	뒤	O	O	O, B-LC, B-CV, B-PS, B-OG
+13	티베트	B-LC	B-LC	B-LC, B-OG, O, B-CV, I-LC
+14	##는	O	O	O, I-LC, I-OG, I-AF, I-PS
+15	잠시	O	O	O, B-LC, B-QT, B-CV, B-DT
+16	##나	O	O	O, B-LC, B-PS, I-LC, B-QT
+17	##마	O	O	O, I-LC, I-PS, I-QT, B-PS
+18	독립	O	O	O, B-LC, B-EV, I-LC, B-CV
+19	##의	O	O	O, I-LC, I-EV, B-PS, B-LC
+20	봄	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-TI
+21	##을	O	O	O, I-DT, I-EV, I-QT, I-AF
+22	누렸	O	O	O, B-CV, B-LC, B-PS, I-EV
+23	##다	O	O	O, B-CV, I-EV, I-CV, B-LC
+24	.	O	O	O, B-LC, B-CV, B-PS, I-EV
+25	[SEP]	O	O	O, B-LC, B-CV, I-EV, B-PS

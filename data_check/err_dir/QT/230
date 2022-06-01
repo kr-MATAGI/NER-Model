@@ -1,0 +1,26 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
+1	KIA	B-OG	B-OG	B-OG, O, B-LC, B-AF, I-OG
+2	##는	O	O	O, I-OG, I-EV, B-CV, I-QT
+3	7	B-QT	B-EV	B-EV, B-QT, O, B-AF, B-DT
+4	##회	I-QT	I-EV	I-EV, I-QT, O, I-AF, I-OG
+5	##에도	O	O	O, I-EV, I-QT, I-OG, I-AF
+6	타자	B-CV	B-CV	B-CV, O, B-TM, B-AM, I-CV
+7	일	O	O	O, B-TM, B-QT, I-CV, B-PS
+8	##순	O	O	O, I-QT, I-TM, I-PS, I-LC
+9	##하	O	O	O, I-QT, B-PS, B-LC, B-TM
+10	##며	O	O	O, B-QT, B-TM, B-LC, I-QT
+11	5	B-QT	B-QT	B-QT, I-QT, O, B-TM, B-LC
+12	##점	I-QT	I-QT	I-QT, O, I-LC, I-TM, I-EV
+13	##을	O	O	O, I-QT, I-OG, I-EV, B-CV
+14	뽑아	O	O	O, B-QT, B-TM, B-CV, B-LC
+15	11	B-QT	B-QT	B-QT, I-QT, O, B-EV, B-TM
+16	-	I-QT	I-QT	I-QT, O, B-QT, I-EV, I-LC
+17	2	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
+18	##로	O	O	O, I-QT, I-EV, I-OG, B-CV
+19	대승	O	O	O, B-CV, B-TM, I-QT, B-QT
+20	##을	O	O	O, B-CV, I-OG, I-QT, I-EV
+21	거뒀	O	O	O, B-CV, B-OG, B-TM, I-OG
+22	##다	O	O	O, B-CV, B-QT, B-TM, I-OG
+23	.	O	O	O, B-CV, B-OG, B-LC, B-QT
+24	[SEP]	O	O	O, B-CV, B-OG, I-OG, B-TM

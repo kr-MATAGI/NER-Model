@@ -1,0 +1,23 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-AF
+1	자	O	O	O, B-CV, B-PS, B-QT, B-OG
+2	오늘	B-DT	B-DT	B-DT, O, I-DT, B-CV, B-QT
+3	두	B-QT	B-QT	B-QT, I-QT, I-DT, B-DT, B-EV
+4	가지	I-QT	I-QT	I-QT, O, I-DT, I-EV, I-AF
+5	요리	O	O	O, I-QT, B-CV, I-CV, I-AF
+6	.	O	O	O, B-PS, B-CV, I-CV, I-QT
+7	이	O	O	O, B-PS, B-OG, B-CV, B-LC
+8	이혜	B-PS	B-PS	B-PS, I-PS, O, B-OG, B-CV
+9	##정	I-PS	I-PS	I-PS, O, I-OG, B-PS, I-QT
+10	선생	B-CV	B-CV	B-CV, O, I-CV, I-PS, B-QT
+11	##님	I-CV	I-CV	I-CV, O, B-CV, I-QT, I-OG
+12	##표	O	O	O, I-CV, I-AF, I-QT, I-OG
+13	건강식	B-CV	O	O, B-CV, B-TM, B-FD, B-AF
+14	보약	B-TM	B-TM	B-TM, O, B-AF, I-TM, B-CV
+15	밥상	O	O	O, I-TM, I-AF, B-CV, I-CV
+16	##이	O	O	O, I-AF, I-CV, B-CV, I-OG
+17	##었	O	O	O, B-CV, B-OG, I-AF, I-OG
+18	##습	O	O	O, B-CV, B-OG, B-LC, I-AF
+19	##니다	O	O	O, B-CV, B-OG, B-LC, B-TM
+20	.	O	O	O, B-CV, B-LC, B-PS, B-OG
+21	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-PS

@@ -1,0 +1,21 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
+1	사실	O	O	O, B-CV, B-OG, B-PS, B-LC
+2	제	O	O	O, B-CV, B-PS, B-OG, B-LC
+3	##가	O	O	O, B-PS, B-LC, B-CV, B-OG
+4	최근	O	O	O, B-CV, B-LC, B-PS, B-DT
+5	##에	O	O	O, B-CV, B-PS, B-OG, B-LC
+6	느낀	O	O	O, B-CV, B-LC, B-PS, B-OG
+7	건데	O	O	O, B-PS, B-OG, B-CV, B-LC
+8	덕	B-LC	B-LC	B-LC, O, B-OG, B-PS, B-AF
+9	##산	I-LC	I-LC	I-LC, O, B-LC, I-PS, I-AF
+10	##이	O	O	O, I-LC, I-AF, B-PS, I-PS
+11	##라고	O	O	O, B-LC, B-CV, B-OG, I-AF
+12	이제	O	O	O, B-CV, B-LC, B-OG, B-TM
+13	덕	B-LC	B-LC	B-LC, O, B-PS, B-OG, B-AF
+14	##산	I-LC	I-LC	I-LC, O, B-LC, I-PS, I-AF
+15	온천	B-LC	O	O, I-LC, B-LC, I-AF, B-CV
+16	지구	I-LC	O	O, B-LC, I-LC, B-TM, B-CV
+17	##에	O	O	O, I-LC, I-AF, I-CV, I-OG
+18	[UNK]	O	O	O, B-CV, B-LC, B-OG, B-PS
+19	[SEP]	O	O	O, B-CV, B-LC, B-PS, I-LC

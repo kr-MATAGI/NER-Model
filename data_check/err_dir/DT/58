@@ -1,0 +1,26 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
+1	그건	O	O	O, B-CV, B-TM, B-LC, B-OG
+2	또	O	O	O, B-CV, B-TM, B-OG, B-LC
+3	재미	O	O	O, B-CV, B-TM, B-AF, B-LC
+4	없	O	O	O, I-AF, B-CV, I-CV, I-OG
+5	##다고	O	O	O, B-PS, B-LC, B-CV, I-AF
+6	안	O	O	O, B-CV, B-LC, B-TM, B-OG
+7	간다고	O	O	O, B-CV, B-OG, B-PS, B-AF
+8	그러면	O	O	O, B-CV, B-OG, B-LC, B-PS
+9	추석	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-CV
+10	때	I-DT	O	O, I-DT, I-QT, I-CV, B-DT
+11	추석	B-DT	B-DT	B-DT, I-DT, O, B-QT, B-TI
+12	때	I-DT	O	O, I-DT, I-QT, I-CV, B-DT
+13	여기	O	O	O, I-DT, B-CV, B-QT, B-PS
+14	복	O	O	O, B-LC, B-CV, B-TM, B-DT
+15	##내	O	O	O, I-LC, I-CV, I-DT, I-TM
+16	##를	O	O	O, I-LC, I-CV, I-DT, I-AF
+17	일	B-DT	B-DT	B-DT, O, B-QT, I-DT, B-TI
+18	박	I-DT	I-DT	I-DT, B-DT, O, I-QT, I-AF
+19	이	I-DT	I-DT	I-DT, B-DT, O, I-QT, I-AF
+20	일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
+21	##로	O	O	O, I-DT, B-CV, I-QT, I-EV
+22	가자	O	O	O, B-CV, B-OG, B-TM, B-LC
+23	##고	O	O	O, B-CV, I-CV, I-OG, I-AF
+24	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-TM

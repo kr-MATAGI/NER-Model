@@ -1,0 +1,26 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-AF
+1	인터넷	O	O	O, B-TM, B-CV, B-LC, B-QT
+2	소셜	O	O	O, B-TM, I-TM, B-CV, B-QT
+3	##커	O	O	O, I-TM, B-TM, I-CV, I-OG
+4	##머스	O	O	O, I-TM, I-CV, I-OG, I-LC
+5	1	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-CV
+6	##위	I-QT	I-QT	I-QT, O, I-LC, I-TM, I-OG
+7	업체	O	O	O, B-CV, I-QT, B-OG, B-LC
+8	쿠팡	O	B-OG	B-OG, B-TM, O, B-AF, B-LC
+9	(	O	O	O, I-OG, I-AF, I-CV, B-CV
+10	Co	O	O	O, B-LC, B-PS, B-OG, B-AF
+11	##up	O	O	O, I-LC, B-LC, I-PS, I-OG
+12	##ang	O	O	O, I-LC, B-LC, I-PS, I-AF
+13	)	O	O	O, I-LC, B-LC, I-AF, I-OG
+14	본사	O	O	O, B-CV, B-LC, B-AF, B-OG
+15	주소지	O	O	O, B-LC, B-CV, I-CV, B-AF
+16	##는	O	O	O, B-LC, I-AF, B-CV, I-CV
+17	미국	B-LC	B-LC	B-LC, O, B-OG, I-LC, B-PS
+18	델	O	B-LC	B-LC, O, I-LC, B-PS, B-OG
+19	##라	O	I-LC	I-LC, O, B-LC, I-PS, I-OG
+20	##웨어	O	I-LC	I-LC, O, B-LC, I-PS, I-OG
+21	##주	O	I-LC	I-LC, O, B-LC, I-PS, I-AF
+22	##다	O	O	O, I-LC, B-LC, I-AF, I-OG
+23	.	O	O	O, B-LC, I-LC, B-OG, B-AF
+24	[SEP]	O	O	O, B-LC, I-LC, B-CV, B-OG

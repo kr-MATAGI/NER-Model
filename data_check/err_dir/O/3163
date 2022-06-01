@@ -1,0 +1,21 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-AF, I-CV
+1	호프	B-AF	B-AF	B-AF, B-LC, O, B-PS, B-OG
+2	부르	I-AF	I-AF	I-AF, I-LC, O, I-PS, I-OG
+3	##고	I-AF	I-AF	I-AF, O, I-LC, I-PS, I-OG
+4	##라고	O	O	O, I-AF, I-LC, I-OG, I-EV
+5	하	O	O	O, I-AF, B-AF, B-LC, I-LC
+6	##는	O	O	O, I-AF, I-LC, B-AF, B-LC
+7	궁전	O	O	O, B-AF, I-AF, B-CV, B-LC
+8	##의	O	O	O, I-AF, I-CV, I-EV, I-OG
+9	뒤	O	B-TM	B-TM, O, B-CV, B-LC, B-AM
+10	뒤쪽	O	B-TM	B-TM, O, I-TM, B-CV, B-LC
+11	##에	O	O	O, I-TM, I-AF, B-CV, I-CV
+12	인제	O	O	O, B-LC, B-CV, B-TM, B-AF
+13	오피스	O	O	O, B-CV, B-TM, B-AF, B-QT
+14	빌딩	O	O	O, I-CV, I-AF, I-TM, B-CV
+15	##을	O	O	O, I-CV, I-AF, B-CV, I-OG
+16	하나	B-QT	B-QT	B-QT, O, I-QT, B-PS, B-TM
+17	세웠	O	O	O, I-QT, B-CV, I-AF, I-CV
+18	##는데	O	O	O, B-CV, B-LC, B-OG, B-TM
+19	[SEP]	O	O	O, B-CV, B-LC, B-AF, I-AF

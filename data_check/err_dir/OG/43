@@ -1,0 +1,24 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-QT
+1	장보고	B-OG	B-AF	B-AF, B-OG, O, B-LC, B-EV
+2	##기지	I-OG	I-AF	I-AF, I-OG, O, I-LC, I-EV
+3	##의	O	O	O, I-AF, I-OG, I-EV, I-PS
+4	안정	O	O	O, B-LC, B-TM, B-CV, B-OG
+5	##적인	O	O	O, B-LC, I-LC, I-TM, B-PS
+6	운영	O	O	O, B-CV, B-LC, B-TM, B-OG
+7	##을	O	O	O, B-PS, B-CV, B-LC, B-OG
+8	위해	O	O	O, B-LC, B-CV, B-TM, B-PS
+9	‘	O	O	O, B-CV, B-LC, B-OG, B-TM
+10	대원	B-CV	B-CV	B-CV, O, B-OG, I-CV, B-AF
+11	안전	O	O	O, I-CV, B-CV, B-TM, B-PS
+12	##관리	O	O	O, I-CV, I-TM, I-LC, I-OG
+13	’	O	O	O, B-CV, B-LC, I-CV, B-OG
+14	가	O	O	O, B-PS, B-LC, B-CV, B-OG
+15	가장	O	O	O, B-CV, B-QT, B-TM, B-LC
+16	중요	O	O	O, B-CV, B-TM, B-QT, B-LC
+17	##한	O	O	O, B-PS, B-LC, B-OG, B-CV
+18	문제	O	O	O, B-CV, B-TM, B-QT, B-OG
+19	##로	O	O	O, B-CV, B-QT, B-OG, B-TM
+20	꼽힌다	O	O	O, B-CV, B-TM, B-OG, B-QT
+21	.	O	O	O, B-LC, B-CV, B-PS, B-OG
+22	[SEP]	O	O	O, B-CV, B-LC, B-OG, I-OG

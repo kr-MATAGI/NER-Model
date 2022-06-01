@@ -1,0 +1,8 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
+1	'	O	O	O, B-CV, B-LC, B-OG, B-PS
+2	타격	O	O	O, B-CV, B-PS, B-TM, B-AF
+3	##왕	O	I-CV	I-CV, O, B-CV, I-PS, I-AF
+4	'	O	O	O, I-CV, B-CV, B-PS, I-AF
+5	이대호	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
+6	[SEP]	O	O	O, I-PS, B-CV, I-AF, I-OG

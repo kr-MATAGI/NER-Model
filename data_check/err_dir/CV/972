@@ -1,0 +1,19 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-CV, I-OG, B-CV, I-AF
+1	응급	B-CV	O	O, B-CV, B-FD, B-TM, B-EV
+2	##사	I-CV	O	O, I-CV, B-CV, I-FD, I-TM
+3	##직	O	O	O, I-CV, I-TM, I-FD, I-TR
+4	##의	O	O	O, I-CV, I-OG, I-AF, B-CV
+5	가장	O	O	O, B-CV, B-QT, B-OG, B-TM
+6	큰	O	O	O, B-CV, B-QT, B-PS, B-LC
+7	핵심	O	O	O, B-CV, B-QT, B-TM, B-FD
+8	##적인	O	O	O, I-QT, B-CV, I-CV, B-PS
+9	이유	O	O	O, B-CV, B-TM, B-PS, B-LC
+10	##는	O	O	O, B-CV, B-OG, B-TM, B-LC
+11	뭐	O	O	O, B-CV, B-PS, B-TM, B-OG
+12	##라고	O	O	O, B-PS, B-CV, I-AF, B-OG
+13	생각	O	O	O, B-CV, B-TM, B-PS, B-OG
+14	##하	O	O	O, B-PS, B-CV, I-OG, I-AF
+15	##세요	O	O	O, B-CV, I-OG, I-AF, I-CV
+16	?	O	O	O, B-CV, I-OG, I-AF, B-OG
+17	[SEP]	O	O	O, B-CV, I-AF, B-LC, I-OG

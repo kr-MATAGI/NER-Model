@@ -1,0 +1,12 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-CV, B-CV, I-OG, I-AF
+1	어	O	O	O, B-CV, I-CV, B-TM, B-LC
+2	~	O	O	O, I-CV, B-LC, B-CV, B-PS
+3	부모	B-CV	B-CV	B-CV, O, B-PS, B-OG, B-AF
+4	부자	B-CV	O	O, B-CV, I-CV, B-QT, B-PS
+5	##간	O	O	O, I-CV, I-QT, I-PS, I-LC
+6	부모	B-CV	B-CV	B-CV, O, I-CV, B-PS, B-TM
+7	자식	B-CV	B-CV	B-CV, O, I-CV, B-PS, B-TM
+8	##간	O	O	O, I-CV, I-PS, B-CV, I-QT
+9	##도	O	O	O, I-CV, I-PS, I-LC, I-QT
+10	[SEP]	O	O	O, B-CV, I-CV, B-LC, I-LC

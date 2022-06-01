@@ -1,0 +1,27 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
+1	만약	O	O	O, B-EV, B-OG, B-PS, B-LC
+2	미	B-LC	B-EV	B-EV, B-LC, B-OG, I-EV, B-PS
+3	·	O	I-EV	I-EV, O, I-OG, I-LC, I-DT
+4	북	B-LC	I-EV	I-EV, I-LC, B-LC, I-OG, B-EV
+5	고위급	O	I-EV	I-EV, O, B-EV, I-OG, I-LC
+6	회담	O	I-EV	I-EV, O, I-OG, B-EV, I-AF
+7	##이	O	O	O, I-EV, I-OG, B-PS, I-AF
+8	다시	O	O	O, I-EV, B-CV, B-LC, B-OG
+9	성사	O	O	O, B-CV, B-LC, B-OG, I-EV
+10	##될	O	O	O, B-LC, B-PS, B-OG, B-CV
+11	경우	O	O	O, B-LC, B-CV, B-OG, B-TM
+12	,	O	O	O, B-CV, B-OG, B-LC, B-PS
+13	한국	B-LC	B-LC	B-LC, B-OG, O, B-CV, B-PS
+14	##이	O	O	O, I-OG, I-LC, B-CV, B-PS
+15	소외	O	O	O, B-CV, B-TM, B-OG, B-LC
+16	##될	O	O	O, B-PS, I-OG, B-CV, B-LC
+17	가능	O	O	O, B-CV, B-TM, B-QT, B-PS
+18	##성이	O	O	O, B-CV, B-PS, B-OG, B-QT
+19	크다	O	O	O, B-CV, B-QT, B-TM, B-PS
+20	##는	O	O	O, B-CV, B-TM, I-CV, I-QT
+21	지적	O	O	O, B-CV, B-TM, B-PS, I-QT
+22	##이	O	O	O, B-PS, B-CV, B-OG, B-LC
+23	나온다	O	O	O, B-CV, B-TM, B-QT, B-PS
+24	.	O	O	O, B-PS, B-LC, B-CV, B-OG
+25	[SEP]	O	O	O, B-CV, B-PS, B-LC, I-EV

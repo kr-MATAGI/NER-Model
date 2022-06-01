@@ -1,0 +1,18 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-AF
+1	[	O	O	O, B-LC, B-OG, B-CV, B-TM
+2	아파트	O	O	O, B-CV, B-AF, B-TM, B-LC
+3	미리	O	O	O, B-TM, B-OG, B-LC, B-AF
+4	##보기	O	O	O, B-LC, I-AF, I-OG, B-OG
+5	]	O	O	O, B-LC, B-PS, B-OG, B-CV
+6	신영	B-OG	B-PS	B-PS, O, B-OG, B-LC, B-AF
+7	‘	O	O	O, I-PS, I-OG, B-LC, I-AF
+8	천안	B-LC	B-LC	B-LC, B-AF, O, B-EV, B-OG
+9	불	B-LC	B-LC	B-LC, B-AF, I-LC, I-AF, O
+10	##당	I-LC	I-LC	I-LC, I-AF, O, I-PS, B-LC
+11	지	B-AF	B-AF	B-AF, I-AF, I-LC, B-LC, O
+12	##웰	I-AF	I-AF	I-AF, I-LC, B-AF, O, I-PS
+13	##시티	I-AF	I-AF	I-AF, B-AF, O, I-LC, I-TM
+14	푸르지오	I-AF	I-AF	I-AF, B-AF, O, I-LC, I-TM
+15	’	O	O	O, I-AF, I-OG, I-EV, I-TM
+16	[SEP]	O	O	O, B-LC, I-AF, B-OG, B-AF

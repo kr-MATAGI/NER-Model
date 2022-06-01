@@ -1,0 +1,24 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-QT
+1	최근	O	O	O, B-PS, B-CV, B-OG, B-LC
+2	##엔	O	O	O, B-OG, B-PS, B-CV, B-LC
+3	학	B-OG	B-OG	B-OG, O, I-OG, B-PS, B-CV
+4	##재단	I-OG	I-OG	I-OG, O, B-OG, I-CV, I-PS
+5	##의	O	O	O, I-OG, I-CV, I-AF, B-CV
+6	이사	O	B-CV	B-CV, O, I-CV, B-QT, B-TM
+7	##직	O	I-CV	I-CV, O, B-CV, I-QT, I-TM
+8	##을	O	O	O, I-CV, B-CV, B-PS, I-QT
+9	수행	O	O	O, B-CV, B-TM, B-PS, I-CV
+10	##하면	O	O	O, B-CV, B-PS, I-CV, B-LC
+11	##서	O	O	O, B-LC, B-PS, B-CV, B-OG
+12	사회	O	O	O, B-CV, B-FD, B-TM, B-TR
+13	##활	O	O	O, I-CV, B-PS, B-CV, I-OG
+14	##동	O	O	O, B-LC, B-PS, B-TM, I-OG
+15	##의	O	O	O, B-PS, B-LC, B-OG, B-TM
+16	폭	O	O	O, B-PS, B-TM, B-OG, B-LC
+17	##을	O	O	O, I-OG, B-CV, B-PS, B-OG
+18	넓혀	O	O	O, B-PS, B-LC, B-OG, B-TM
+19	왔	O	O	O, B-PS, B-CV, B-LC, B-OG
+20	##다	O	O	O, B-CV, B-PS, I-OG, B-LC
+21	.	O	O	O, B-PS, B-CV, B-LC, B-OG
+22	[SEP]	O	O	O, B-CV, B-PS, I-OG, B-LC

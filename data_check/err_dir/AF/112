@@ -1,0 +1,18 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
+1	검찰	B-OG	B-OG	B-OG, B-AF, O, B-LC, B-PS
+2	##이	O	O	O, I-OG, I-AF, B-PS, I-CV
+3	무슨	O	O	O, B-PS, B-LC, B-OG, I-OG
+4	국정원	B-AF	B-OG	B-OG, B-AF, O, B-LC, B-TM
+5	외주	O	O	O, I-OG, B-CV, I-AF, B-PS
+6	기관	O	O	O, I-OG, B-CV, I-CV, I-QT
+7	##도	O	O	O, B-LC, B-OG, B-PS, B-CV
+8	아니	O	O	O, B-PS, B-CV, B-OG, B-LC
+9	##고	O	O	O, B-PS, B-CV, B-LC, I-OG
+10	…	O	O	O, B-CV, B-PS, B-OG, B-LC
+11	""""	O	O	O, B-CV, B-TM, B-LC, I-OG
+12	라고	O	O	O, B-CV, B-PS, B-OG, B-LC
+13	했	O	O	O, B-CV, B-OG, B-PS, B-LC
+14	##다	O	O	O, B-CV, B-LC, B-TM, B-PS
+15	.	O	O	O, B-CV, B-LC, B-PS, B-OG
+16	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-PS

@@ -1,0 +1,13 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
+1	거기	O	O	O, B-CV, B-TM, B-OG, B-LC
+2	##에	O	O	O, B-CV, B-OG, B-TM, I-AF
+3	독도	B-LC	B-LC	B-LC, O, B-AF, B-PS, B-OG
+4	##는	O	O	O, I-LC, I-AF, I-OG, I-CV
+5	원래	O	O	O, B-LC, B-CV, I-AF, B-TM
+6	일본	O	B-LC	B-LC, O, B-OG, B-CV, B-AF
+7	##땅	O	O	O, I-LC, I-CV, I-AF, I-OG
+8	##이다	O	O	O, I-LC, I-AF, I-CV, I-OG
+9	라던	O	O	O, B-CV, B-LC, B-PS, B-OG
+10	##지	O	O	O, I-LC, I-CV, I-AF, I-QT
+11	[SEP]	O	O	O, B-CV, B-LC, I-AF, B-TM

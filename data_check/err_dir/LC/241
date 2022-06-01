@@ -1,0 +1,11 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-AF
+1	레바논	B-LC	B-OG	B-OG, B-LC, O, B-PS, I-OG
+2	##은	O	O	O, I-OG, I-AF, I-LC, B-CV
+3	도깨비	O	O	O, B-AF, B-CV, B-TM, B-PS
+4	같	O	O	O, I-AF, I-OG, I-CV, B-PS
+5	##은	O	O	O, B-PS, B-CV, I-AF, I-OG
+6	팀	O	O	O, B-CV, B-OG, B-PS, I-OG
+7	##이다	O	O	O, I-OG, B-CV, I-CV, I-AF
+8	.	O	O	O, B-CV, B-OG, B-PS, B-LC
+9	[SEP]	O	O	O, B-CV, B-OG, I-OG, B-PS

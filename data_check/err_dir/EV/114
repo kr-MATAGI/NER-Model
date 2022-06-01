@@ -1,0 +1,22 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-CV, I-OG, B-CV, I-EV
+1	日	B-LC	B-LC	B-LC, B-OG, O, B-PS, B-AF
+2	자민	B-OG	B-OG	B-OG, I-OG, O, B-LC, B-AF
+3	##당	I-OG	I-OG	I-OG, O, I-LC, I-PS, I-AF
+4	내달	B-DT	B-DT	B-DT, O, I-DT, I-OG, B-LC
+5	참	B-EV	B-CV	B-CV, B-EV, O, B-FD, B-TM
+6	##의원	I-EV	I-CV	I-CV, I-EV, O, B-CV, I-OG
+7	선거	I-EV	O	O, I-EV, B-EV, I-CV, B-CV
+8	공약	O	O	O, I-EV, B-PS, B-CV, I-CV
+9	##에도	O	O	O, B-PS, B-CV, I-EV, B-OG
+10	""""	O	O	O, B-LC, B-CV, B-PS, B-OG
+11	교과서	O	O	O, B-AF, B-CV, B-OG, B-FD
+12	##의	O	O	O, B-PS, I-OG, B-CV, B-LC
+13	이웃	O	O	O, B-CV, B-LC, B-OG, I-CV
+14	##나라	O	O	O, I-CV, I-LC, B-CV, B-LC
+15	배려	O	O	O, I-CV, B-CV, I-LC, I-OG
+16	조항	O	O	O, I-CV, B-CV, I-LC, I-OG
+17	바꾸	O	O	O, I-CV, B-PS, B-CV, B-LC
+18	##겠다	O	O	O, B-CV, B-LC, B-PS, I-CV
+19	""""	O	O	O, B-CV, B-LC, B-PS, B-OG
+20	[SEP]	O	O	O, B-LC, B-CV, B-PS, B-OG

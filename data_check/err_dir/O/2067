@@ -1,0 +1,11 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
+1	걔	O	O	O, B-CV, B-PS, I-CV, B-TM
+2	##는	O	O	O, B-CV, I-CV, I-AF, B-PS
+3	학원	O	O	O, B-CV, B-OG, B-FD, B-AF
+4	친구	B-CV	B-CV	B-CV, O, I-CV, I-OG, B-OG
+5	중학생	O	B-CV	B-CV, I-CV, O, B-QT, B-DT
+6	때	O	O	O, I-CV, I-DT, I-QT, I-OG
+7	학원	O	O	O, B-CV, B-OG, B-FD, B-AF
+8	친구	B-CV	B-CV	B-CV, O, I-CV, I-OG, B-OG
+9	[SEP]	O	O	O, I-CV, B-CV, I-OG, I-AF

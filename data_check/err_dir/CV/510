@@ -1,0 +1,27 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-EV, I-OG, I-CV
+1	보르	B-CV	B-LC	B-LC, B-AF, O, B-OG, B-CV
+2	##도	I-CV	I-LC	I-LC, O, I-AF, I-OG, I-PS
+3	와인	I-CV	B-CV	B-CV, I-CV, I-LC, O, I-AF
+4	두	B-QT	B-QT	B-QT, I-QT, O, I-LC, I-CV
+5	병	I-QT	I-QT	I-QT, O, I-LC, I-AF, I-CV
+6	##을	O	O	O, I-QT, B-CV, I-CV, I-AF
+7	주고	O	O	O, B-CV, B-PS, B-LC, I-QT
+8	그림	O	O	O, B-CV, B-PS, B-LC, B-TM
+9	##을	O	O	O, B-CV, B-PS, B-LC, B-OG
+10	얻	O	O	O, B-CV, B-LC, B-PS, B-TM
+11	##은	O	O	O, B-PS, B-CV, B-LC, B-OG
+12	뒤	O	O	O, B-CV, B-TM, B-PS, B-LC
+13	작가	B-CV	B-CV	B-CV, O, I-CV, B-PS, B-FD
+14	##와	O	O	O, I-CV, B-CV, B-PS, I-EV
+15	마주	O	O	O, B-TM, B-QT, B-CV, B-LC
+16	앉	O	O	O, B-TM, B-LC, B-QT, I-QT
+17	##아	O	O	O, B-PS, B-LC, I-QT, B-QT
+18	와인	B-CV	B-CV	B-CV, O, I-CV, B-PT, B-AF
+19	##을	O	O	O, I-CV, B-CV, I-AF, I-OG
+20	다	O	O	O, B-CV, B-QT, B-TM, B-LC
+21	마셔	O	O	O, B-CV, B-LC, B-TM, I-QT
+22	버렸	O	O	O, B-CV, B-LC, B-TM, B-PS
+23	##다	O	O	O, B-CV, I-EV, B-LC, I-QT
+24	.	O	O	O, B-LC, B-CV, B-PS, I-EV
+25	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-TM

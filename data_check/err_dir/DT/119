@@ -1,0 +1,13 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
+1	왜	O	O	O, B-CV, B-LC, B-OG, B-PS
+2	그	O	O	O, B-CV, B-LC, B-OG, B-PS
+3	서양	B-LC	B-LC	B-LC, O, B-OG, B-TM, I-LC
+4	##에서	O	O	O, I-LC, I-OG, I-AF, B-CV
+5	##는	O	O	O, B-CV, B-LC, B-OG, B-PS
+6	왜	O	O	O, B-LC, B-OG, B-CV, B-AF
+7	그리스	B-DT	B-FD	B-FD, B-LC, B-AF, B-TR, B-PS
+8	로마	B-DT	I-FD	I-FD, I-AF, B-FD, I-PS, I-TR
+9	신화	B-FD	I-FD	I-FD, I-AF, B-FD, O, I-TR
+10	##에서	O	O	O, I-FD, I-AF, I-OG, I-TR
+11	[SEP]	O	O	O, B-CV, B-LC, B-OG, I-AF

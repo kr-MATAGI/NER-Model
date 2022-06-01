@@ -1,0 +1,16 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-QT
+1	사법연수원	B-CV	B-CV	B-CV, O, B-OG, I-CV, B-AF
+2	##장	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-QT
+3	##을	O	O	O, I-CV, B-PS, I-OG, B-CV
+4	하	O	O	O, B-CV, B-PS, B-TM, B-QT
+5	##다가	O	O	O, B-PS, I-QT, B-OG, B-LC
+6	헌재	B-OG	B-CV	B-CV, O, B-OG, B-AF, B-FD
+7	##재판	B-CV	I-CV	I-CV, B-CV, O, I-OG, I-EV
+8	##관	I-CV	I-CV	I-CV, O, I-OG, B-CV, I-EV
+9	##에	O	O	O, I-CV, I-OG, I-QT, I-EV
+10	임명	O	O	O, B-CV, B-OG, B-LC, B-TM
+11	##됐	O	O	O, B-CV, B-OG, B-PS, B-LC
+12	##다	O	O	O, B-CV, B-LC, B-PS, B-OG
+13	.	O	O	O, B-PS, B-CV, B-LC, B-OG
+14	[SEP]	O	O	O, B-CV, B-PS, B-LC, I-OG

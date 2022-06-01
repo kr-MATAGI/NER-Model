@@ -1,0 +1,17 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
+1	지난해	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
+2	연극	B-FD	O	O, B-FD, I-FD, I-DT, B-OG
+3	##계	O	O	O, I-FD, I-OG, B-FD, I-EV
+4	##의	O	O	O, B-PS, B-CV, B-LC, B-OG
+5	키워드	O	O	O, B-CV, B-TM, B-OG, B-PS
+6	##는	O	O	O, B-CV, B-OG, B-PS, B-LC
+7	‘	O	O	O, B-CV, B-LC, B-OG, B-PS
+8	셰익스피어	B-PS	B-PS	B-PS, B-EV, O, B-AF, B-LC
+9	탄생	O	O	O, I-EV, I-PS, B-CV, I-AF
+10	450	B-DT	B-DT	B-DT, I-DT, B-QT, O, B-EV
+11	##주	I-DT	I-DT	I-DT, B-DT, I-QT, I-EV, O
+12	##년	I-DT	I-DT	I-DT, I-QT, O, B-DT, I-EV
+13	’	O	O	O, I-DT, B-CV, I-QT, I-EV
+14	.	O	O	O, B-CV, B-OG, B-LC, B-TM
+15	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-FD

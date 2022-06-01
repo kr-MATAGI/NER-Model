@@ -1,0 +1,11 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
+1	문화	O	O	O, B-FD, B-TR, B-CV, B-EV
+2	예술	B-FD	O	O, I-FD, B-FD, I-TR, I-CV
+3	활동	O	O	O, I-FD, I-CV, I-EV, I-TR
+4	##을	O	O	O, B-CV, I-CV, I-EV, I-OG
+5	쪼끔	O	O	O, B-CV, B-QT, B-LC, B-OG
+6	소홀히	O	O	O, B-CV, B-LC, B-OG, B-PS
+7	했	O	O	O, B-CV, B-OG, B-LC, B-PS
+8	##지만	O	O	O, B-CV, B-OG, I-OG, B-TM
+9	[SEP]	O	O	O, B-CV, B-LC, I-OG, I-EV

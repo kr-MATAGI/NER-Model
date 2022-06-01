@@ -1,0 +1,16 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-AF
+1	일	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-TI
+2	년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-TI
+3	이하	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-TI
+4	##의	O	O	O, I-DT, B-PS, I-AF, I-QT
+5	징역	O	B-CV	B-CV, O, B-OG, I-CV, B-AF
+6	또는	O	O	O, I-CV, I-AF, I-QT, I-OG
+7	이	B-QT	B-QT	B-QT, I-QT, B-DT, O, B-CV
+8	##백	I-QT	I-QT	I-QT, I-DT, B-QT, O, I-LC
+9	##만	I-QT	I-QT	I-QT, O, I-LC, I-DT, I-PS
+10	원	I-QT	I-QT	I-QT, O, I-LC, I-DT, I-PS
+11	이하	I-QT	I-QT	I-QT, O, I-LC, I-DT, I-PS
+12	##의	O	O	O, I-QT, B-PS, I-AF, I-DT
+13	벌금	B-CV	B-CV	B-CV, O, B-OG, I-CV, B-AF
+14	[SEP]	O	O	O, I-CV, I-AF, I-QT, I-OG

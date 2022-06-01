@@ -1,0 +1,24 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-EV, I-OG, I-CV
+1	6	B-EV	B-EV	B-EV, O, B-QT, B-DT, B-LC
+2	·	I-EV	I-EV	I-EV, I-QT, O, I-DT, I-AF
+3	2	I-EV	I-EV	I-EV, I-QT, I-AF, I-LC, O
+4	지방	I-EV	I-EV	I-EV, O, B-EV, I-QT, I-AF
+5	##선거	I-EV	I-EV	I-EV, O, I-QT, I-AF, I-LC
+6	##의	O	O	O, I-EV, I-AF, I-OG, I-QT
+7	최대	O	O	O, B-CV, B-LC, B-PS, B-OG
+8	승부처	O	O	O, B-EV, B-LC, B-CV, B-PS
+9	##인	O	O	O, B-PS, B-CV, I-EV, B-LC
+10	수도권	B-LC	B-LC	B-LC, O, B-OG, B-TM, B-EV
+11	광역	O	B-CV	B-CV, O, I-CV, B-TM, B-AF
+12	##단체	B-CV	I-CV	I-CV, O, B-CV, I-EV, I-OG
+13	##장	I-CV	I-CV	I-CV, O, B-CV, I-EV, I-OG
+14	대결	O	O	O, I-CV, I-EV, B-PS, B-CV
+15	구도	O	O	O, B-CV, B-PS, B-LC, B-OG
+16	##가	O	O	O, B-PS, B-OG, B-CV, B-LC
+17	요동치	O	O	O, B-CV, B-TM, B-LC, B-EV
+18	##고	O	O	O, I-EV, B-PS, B-LC, I-OG
+19	있	O	O	O, B-CV, B-LC, B-PS, B-OG
+20	##다	O	O	O, B-CV, I-EV, B-LC, I-OG
+21	.	O	O	O, B-LC, B-PS, B-CV, I-EV
+22	[SEP]	O	O	O, B-LC, B-CV, I-EV, B-PS

@@ -1,0 +1,19 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
+1	다만	O	O	O, B-TM, B-CV, B-QT, B-OG
+2	무선	O	B-TM	B-TM, O, B-TR, B-CV, I-TM
+3	##인	O	I-TM	I-TM, O, B-TM, I-TR, I-OG
+4	##터	O	I-TM	I-TM, O, B-TM, I-TR, I-OG
+5	##넷	O	I-TM	I-TM, O, I-TR, I-OG, B-TM
+6	##과	O	O	O, I-TM, I-OG, I-AF, B-CV
+7	휴대	B-TM	B-TM	B-TM, O, B-CV, I-TM, B-OG
+8	##전	I-TM	I-TM	I-TM, O, B-TM, I-CV, I-QT
+9	##화	I-TM	I-TM	I-TM, O, I-CV, I-OG, I-QT
+10	##는	O	O	O, I-TM, I-CV, I-OG, I-AF
+11	가끔	O	O	O, B-TM, B-CV, B-QT, I-TM
+12	끊겨	O	O	O, B-TM, B-CV, B-LC, B-QT
+13	불편	O	O	O, B-CV, B-TM, I-TM, B-OG
+14	##했	O	O	O, B-CV, I-CV, I-OG, I-TM
+15	##다	O	O	O, B-CV, B-TM, I-OG, I-CV
+16	.	O	O	O, B-TM, B-CV, B-LC, I-TM
+17	[SEP]	O	O	O, B-TM, B-CV, I-TM, B-LC

@@ -1,0 +1,15 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-EV, I-OG, I-CV
+1	최순	B-EV	B-EV	B-EV, B-PS, B-AF, B-LC, I-EV
+2	##실	I-EV	I-PS	I-PS, I-EV, I-AF, I-LC, I-OG
+3	게이트	I-EV	I-EV	I-EV, O, B-EV, I-PS, I-AF
+4	##와	O	O	O, I-EV, I-AF, B-CV, I-OG
+5	관련	O	O	O, B-CV, B-TM, B-OG, B-LC
+6	##된	O	O	O, B-LC, B-CV, B-OG, B-PS
+7	것	O	O	O, B-CV, B-QT, B-OG, B-LC
+8	##은	O	O	O, B-CV, B-OG, B-LC, B-QT
+9	세	B-QT	B-QT	B-QT, O, I-QT, B-EV, B-DT
+10	건	I-QT	I-QT	I-QT, O, I-EV, I-LC, B-QT
+11	##이	O	O	O, I-QT, I-EV, B-CV, B-PS
+12	##고	O	O	O, B-OG, B-CV, I-QT, I-EV
+13	[SEP]	O	O	O, B-CV, B-LC, I-EV, B-OG

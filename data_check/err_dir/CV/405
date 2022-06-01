@@ -1,0 +1,25 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, I-AF, B-CV, I-CV
+1	인도	B-LC	B-LC	B-LC, O, B-OG, B-AF, B-PS
+2	북부	B-TM	B-TM	B-TM, O, B-LC, I-TM, B-CV
+3	뉴	O	O	O, I-TM, B-LC, I-LC, B-TM
+4	##델	O	O	O, B-LC, I-LC, I-TM, I-AF
+5	##리에	O	O	O, B-LC, I-LC, B-PS, I-AF
+6	세워진	O	O	O, B-AF, B-LC, B-PS, B-CV
+7	두	B-QT	B-QT	B-QT, O, I-QT, B-EV, B-DT
+8	번	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-EV
+9	##째	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-EV
+10	초코파이	B-CV	B-AF	B-AF, B-CV, B-OG, O, B-PS
+11	공장	O	O	O, I-AF, B-AF, I-CV, I-OG
+12	##은	O	O	O, I-AF, I-EV, I-OG, B-CV
+13	연간	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-CV
+14	생산	O	O	O, I-DT, B-OG, B-CV, B-LC
+15	능력	O	O	O, B-TM, I-OG, B-LC, B-QT
+16	##이	O	O	O, B-PS, B-OG, B-LC, B-CV
+17	600	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-PS
+18	##억	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
+19	원	I-QT	I-QT	I-QT, O, I-LC, I-PS, I-OG
+20	##에	O	O	O, I-QT, I-OG, B-CV, I-AF
+21	달한다	O	O	O, B-OG, B-CV, B-LC, B-TM
+22	.	O	O	O, B-LC, B-OG, B-AF, B-PS
+23	[SEP]	O	O	O, B-LC, I-AF, B-CV, B-AF

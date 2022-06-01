@@ -1,0 +1,13 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-AF
+1	제	B-QT	B-QT	B-QT, B-DT, O, B-CV, I-QT
+2	##2	I-QT	I-QT	I-QT, I-DT, I-EV, I-OG, B-QT
+3	##인	O	I-QT	I-QT, O, I-DT, B-QT, I-CV
+4	##생	O	I-QT	I-QT, O, I-DT, I-EV, I-CV
+5	종합	B-OG	O	O, B-OG, I-OG, I-QT, I-TM
+6	##설	I-OG	O	O, I-OG, B-OG, I-QT, I-TM
+7	##계	I-OG	O	O, I-OG, I-TM, B-OG, I-AF
+8	협동조합	I-OG	O	O, I-OG, B-OG, I-TM, I-AF
+9	##도	O	O	O, I-OG, I-AF, I-CV, I-TM
+10	출범	O	O	O, B-OG, B-CV, B-TM, I-OG
+11	[SEP]	O	O	O, I-OG, B-OG, B-CV, B-TM

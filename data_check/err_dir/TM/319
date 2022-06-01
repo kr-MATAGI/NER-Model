@@ -1,0 +1,19 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-CV, B-CV, I-OG, I-AF
+1	그럼	O	O	O, B-CV, B-PS, B-LC, B-OG
+2	지금	O	O	O, B-CV, B-PS, B-OG, B-QT
+3	물자	O	B-PS	B-PS, O, B-AM, B-CV, B-LC
+4	##라는	O	O	O, I-PS, I-CV, B-PS, I-QT
+5	수컷	O	O	O, B-AM, B-QT, B-CV, B-TM
+6	##의	O	O	O, I-CV, I-QT, B-PS, B-CV
+7	등	B-AM	B-AM	B-AM, O, B-TM, I-AM, B-TR
+8	위	B-TM	O	O, B-TM, I-TM, B-AM, I-AM
+9	##에서	O	O	O, B-PS, I-QT, I-TM, B-CV
+10	어른	O	O	O, B-CV, B-QT, B-PS, B-TM
+11	##이	O	O	O, B-PS, I-CV, B-CV, I-QT
+12	되	O	O	O, B-PS, B-CV, B-LC, B-QT
+13	##어가	O	O	O, B-CV, B-PS, I-QT, I-CV
+14	##는	O	O	O, B-CV, B-PS, B-OG, I-OG
+15	겁니까	O	O	O, B-CV, B-PS, B-OG, B-LC
+16	?	O	O	O, B-CV, B-OG, B-PS, I-OG
+17	[SEP]	O	O	O, B-CV, B-PS, B-LC, I-AF

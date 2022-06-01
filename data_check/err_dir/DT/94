@@ -1,0 +1,24 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
+1	역시	O	O	O, B-CV, B-DT, B-QT, B-LC
+2	2009	B-DT	B-DT	B-DT, I-DT, O, B-QT, B-LC
+3	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
+4	4	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
+5	##월	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-OG
+6	(	I-DT	I-DT	I-DT, O, B-DT, I-OG, I-QT
+7	86	I-DT	B-QT	B-QT, I-QT, I-DT, B-DT, O
+8	.	I-DT	I-QT	I-QT, I-DT, O, B-QT, I-LC
+9	7	I-DT	I-QT	I-QT, O, I-DT, I-LC, B-QT
+10	)	I-DT	O	O, I-QT, I-DT, B-DT, I-OG
+11	이후	I-DT	O	O, I-DT, B-DT, I-QT, I-OG
+12	2	B-DT	B-DT	B-DT, I-DT, O, B-QT, B-LC
+13	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
+14	##9	I-DT	I-DT	I-DT, B-DT, O, I-QT, I-PS
+15	##개	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
+16	##월	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
+17	만	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
+18	##의	O	O	O, I-DT, I-QT, I-AF, I-OG
+19	최저치	O	O	O, B-QT, B-CV, B-PS, B-TM
+20	##다	O	O	O, I-QT, I-CV, B-CV, I-OG
+21	.	O	O	O, B-DT, B-LC, B-OG, I-DT
+22	[SEP]	O	O	O, I-DT, B-DT, B-OG, B-LC

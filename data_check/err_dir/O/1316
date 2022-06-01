@@ -1,0 +1,14 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-AF
+1	점포	O	O	O, B-TM, B-CV, B-AF, B-LC
+2	휠체어	O	B-AF	B-AF, O, B-TM, B-CV, I-AF
+3	경사	O	O	O, I-AF, I-TM, I-LC, B-TM
+4	##로	O	O	O, I-AF, I-TM, I-LC, I-CV
+5	설치	O	O	O, B-CV, B-LC, B-TM, I-AF
+6	##에	O	O	O, B-CV, I-AF, B-LC, B-OG
+7	9	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-PS
+8	##개	I-DT	I-DT	I-DT, B-DT, O, I-QT, I-PS
+9	##월	I-DT	I-DT	I-DT, B-DT, O, I-QT, I-PS
+10	걸린	O	O	O, I-DT, B-CV, B-OG, B-LC
+11	까닭	O	O	O, B-CV, B-TM, B-LC, B-OG
+12	[SEP]	O	O	O, B-LC, B-CV, B-TM, B-OG

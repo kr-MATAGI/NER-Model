@@ -1,0 +1,14 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-CV, I-OG, B-CV, I-AF
+1	2004	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
+2	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
+3	8	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
+4	##월	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
+5	백두산	B-LC	B-LC	B-LC, O, B-OG, B-AF, B-TM
+6	천문	O	B-LC	B-LC, O, I-LC, B-AF, B-OG
+7	##봉	O	I-LC	I-LC, O, I-AF, B-LC, I-OG
+8	##까	O	O	O, I-LC, I-AF, I-OG, I-TM
+9	##지	O	O	O, I-AF, I-LC, B-LC, B-CV
+10	라이	O	O	O, B-CV, B-AF, B-LC, B-TM
+11	##딩	O	O	O, I-CV, I-AF, I-LC, I-TM
+12	[SEP]	O	O	O, B-LC, I-AF, I-CV, B-CV

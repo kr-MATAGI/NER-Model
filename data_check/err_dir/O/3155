@@ -1,0 +1,23 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
+1	천안	B-AF	B-AF	B-AF, B-LC, O, B-PS, B-EV
+2	##함	I-AF	I-AF	I-AF, O, I-LC, I-EV, I-PS
+3	##에	O	O	O, I-AF, I-EV, I-OG, I-QT
+4	가해	O	O	O, B-PS, B-LC, B-CV, B-TM
+5	##진	O	O	O, B-LC, B-PS, B-CV, I-QT
+6	충격	O	O	O, B-PS, B-LC, B-TM, B-OG
+7	##은	O	O	O, B-CV, B-LC, B-PS, B-OG
+8	일부	O	O	O, B-QT, B-LC, B-TM, B-PS
+9	중화	O	B-AF	B-AF, O, B-CV, B-TM, I-AF
+10	##기	O	I-AF	I-AF, O, I-CV, I-TM, I-OG
+11	##들	O	O	O, I-AF, I-OG, I-CV, I-TM
+12	##도	O	O	O, B-LC, B-CV, B-TM, I-AF
+13	바닷속	O	O	O, B-LC, B-TM, B-QT, I-LC
+14	##으로	O	O	O, B-LC, B-QT, B-TM, B-PS
+15	떨어	O	O	O, B-QT, B-LC, B-TM, B-PS
+16	##뜨릴	O	O	O, B-LC, B-QT, I-LC, B-PS
+17	만큼	O	O	O, B-PS, B-LC, B-QT, B-CV
+18	강했	O	O	O, B-LC, B-CV, B-OG, B-PS
+19	##다	O	O	O, B-CV, B-LC, I-QT, I-AF
+20	.	O	O	O, B-LC, B-PS, B-CV, B-AF
+21	[SEP]	O	O	O, B-LC, B-CV, I-AF, B-PS

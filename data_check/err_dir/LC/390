@@ -1,0 +1,12 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
+1	안보	O	O	O, B-LC, B-TM, B-OG, B-CV
+2	##관광	O	O	O, I-LC, I-TM, I-OG, I-CV
+3	##도	O	O	O, I-LC, I-OG, I-TM, I-CV
+4	##시	O	O	O, I-LC, I-OG, I-TM, I-CV
+5	부문	O	O	O, I-OG, I-LC, I-TM, B-LC
+6	/	O	O	O, I-OG, I-AF, B-OG, B-LC
+7	청춘	O	O	O, B-LC, B-AF, B-TM, B-OG
+8	##양	B-LC	I-LC	I-LC, O, B-LC, I-AF, I-TM
+9	##구	I-LC	I-LC	I-LC, O, I-AF, I-OG, I-PS
+10	[SEP]	O	O	O, I-LC, I-AF, I-OG, B-LC

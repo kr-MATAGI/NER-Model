@@ -1,0 +1,21 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-EV, I-CV
+1	16	B-DT	B-DT	B-DT, I-DT, O, B-QT, B-LC
+2	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
+3	##부터	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
+4	8	B-DT	B-DT	B-DT, I-DT, O, B-QT, B-LC
+5	##개	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
+6	##월	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-OG
+7	##간	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-OG
+8	팀	O	O	O, B-OG, I-DT, B-EV, B-CV
+9	##당	O	O	O, I-OG, I-QT, I-EV, B-QT
+10	35	B-QT	B-QT	B-QT, I-QT, O, B-DT, B-EV
+11	##경기	I-QT	I-QT	I-QT, O, B-QT, I-EV, I-LC
+12	##씩	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-EV
+13	총	B-QT	O	O, B-QT, I-QT, B-DT, B-TM
+14	140	I-QT	B-QT	B-QT, I-QT, O, B-DT, B-EV
+15	##경기	I-QT	I-QT	I-QT, O, I-EV, B-QT, I-LC
+16	##를	O	O	O, I-QT, I-EV, I-OG, B-CV
+17	벌인다	O	O	O, B-CV, B-TM, I-QT, B-QT
+18	.	O	O	O, B-LC, B-QT, B-OG, B-CV
+19	[SEP]	O	O	O, B-CV, B-QT, B-LC, B-OG

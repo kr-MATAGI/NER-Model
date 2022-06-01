@@ -1,0 +1,21 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
+1	월	O	O	O, B-PS, B-CV, B-LC, B-DT
+2	40	O	O	O, B-PS, B-QT, B-LC, B-OG
+3	##8	O	O	O, B-PS, B-LC, B-QT, I-QT
+4	##만	O	O	O, B-PS, B-LC, B-QT, B-OG
+5	원인	O	O	O, B-PS, B-CV, I-QT, B-LC
+6	보험료	B-CV	O	O, B-CV, B-AF, I-CV, B-TM
+7	부과	O	O	O, I-CV, B-CV, B-PS, B-QT
+8	소득	O	O	O, B-CV, I-CV, B-PS, B-LC
+9	상한선	O	O	O, B-QT, B-CV, I-CV, B-PS
+10	##을	O	O	O, B-CV, I-CV, I-QT, B-PS
+11	올리	O	O	O, B-LC, B-CV, B-PS, B-QT
+12	##는	O	O	O, B-LC, B-PS, B-CV, I-QT
+13	것	O	O	O, B-LC, I-QT, B-CV, B-PS
+14	##도	O	O	O, I-QT, B-PS, B-LC, B-QT
+15	한	O	O	O, B-QT, B-PS, B-LC, B-CV
+16	방법	O	O	O, I-QT, B-QT, B-CV, B-PS
+17	##이다	O	O	O, I-QT, B-CV, I-CV, B-QT
+18	.	O	O	O, B-LC, B-PS, B-CV, I-QT
+19	[SEP]	O	O	O, B-CV, B-LC, I-QT, B-PS

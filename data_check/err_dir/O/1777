@@ -1,0 +1,22 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
+1	미국	B-LC	B-LC	B-LC, B-FD, O, B-OG, B-AF
+2	영화	O	O	O, I-FD, B-FD, I-OG, I-LC
+3	매체	O	O	O, I-OG, I-FD, I-CV, B-CV
+4	##가	O	O	O, B-PS, B-CV, I-OG, B-OG
+5	‘	O	O	O, B-CV, B-PS, B-LC, B-OG
+6	유	O	O	O, B-CV, I-CV, B-OG, B-LC
+7	##색	O	O	O, I-CV, B-CV, I-OG, I-TM
+8	##인	O	I-CV	I-CV, O, B-CV, I-OG, I-TM
+9	##종	O	O	O, I-CV, I-OG, B-CV, I-TM
+10	##이	O	O	O, B-PS, I-CV, B-CV, I-OG
+11	주인공	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-AF
+12	’	O	O	O, I-CV, B-CV, I-OG, I-AF
+13	이라	O	O	O, B-CV, B-PS, B-OG, B-QT
+14	##고	O	O	O, B-CV, B-PS, B-OG, B-QT
+15	한	O	O	O, B-CV, B-QT, B-OG, B-PS
+16	게	O	O	O, B-PS, B-CV, I-QT, B-OG
+17	발단	O	O	O, B-CV, B-QT, B-TM, B-PS
+18	##이다	O	O	O, B-CV, I-CV, I-OG, I-QT
+19	.	O	O	O, B-CV, B-PS, B-OG, B-LC
+20	[SEP]	O	O	O, B-CV, B-PS, B-OG, I-CV

@@ -1,0 +1,16 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
+1	그건	O	O	O, B-CV, B-TM, B-OG, B-QT
+2	삼	B-OG	B-QT	B-QT, O, B-PS, B-TR, B-OG
+3	##보	I-OG	I-QT	I-QT, O, I-PS, I-TR, I-OG
+4	컴퓨터	I-OG	B-TM	B-TM, I-QT, I-TM, B-TR, I-TR
+5	팔	B-TM	B-QT	B-QT, B-AF, I-QT, I-AF, B-TM
+6	##팔	I-TM	I-QT	I-QT, I-AF, I-TM, I-TR, B-QT
+7	트라이	I-TM	I-QT	I-QT, I-AF, I-TM, I-TR, B-QT
+8	##젠	I-TM	I-QT	I-QT, I-AF, I-TM, I-TR, O
+9	투	I-TM	I-QT	I-QT, I-AF, I-TM, I-TR, I-EV
+10	라고	O	O	O, I-QT, I-AF, I-TM, I-EV
+11	하	O	O	O, B-CV, B-OG, B-TM, I-QT
+12	##는	O	O	O, B-CV, B-OG, I-OG, I-AF
+13	건데요	O	O	O, B-CV, B-OG, B-QT, B-TM
+14	[SEP]	O	O	O, B-CV, B-OG, I-QT, I-OG

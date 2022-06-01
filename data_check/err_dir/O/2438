@@ -1,0 +1,21 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
+1	•	O	O	O, B-OG, B-LC, B-PS, B-DT
+2	NYT	B-OG	B-OG	B-OG, B-AF, O, I-OG, B-LC
+3	여성	O	O	O, B-CV, I-CV, I-OG, B-TM
+4	##편	O	B-CV	B-CV, I-CV, O, B-AM, B-PT
+5	##집	O	I-CV	I-CV, O, B-CV, I-OG, I-TM
+6	##인	O	I-CV	I-CV, O, B-CV, I-OG, I-TM
+7	애	B-PS	B-PS	B-PS, O, I-PS, B-LC, B-OG
+8	##브	I-PS	I-PS	I-PS, O, I-LC, B-PS, I-OG
+9	##람	I-PS	I-PS	I-PS, O, I-LC, B-PS, I-OG
+10	##슨	I-PS	I-PS	I-PS, O, I-LC, B-LC, I-OG
+11	,	O	O	O, I-PS, B-LC, B-CV, I-AF
+12	애완	O	B-AM	B-AM, O, B-TM, B-CV, B-PS
+13	##견	O	I-AM	I-AM, O, B-AM, I-TM, I-CV
+14	양육	O	O	O, B-CV, I-CV, B-AM, B-LC
+15	##기	O	O	O, I-CV, I-LC, I-TM, I-AM
+16	##서	O	O	O, B-CV, B-LC, I-CV, B-PS
+17	삶	O	O	O, B-CV, B-LC, B-TM, B-PS
+18	다뤄	O	O	O, B-LC, B-OG, B-CV, B-TM
+19	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-TM

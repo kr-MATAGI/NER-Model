@@ -1,0 +1,25 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
+1	닉	B-PS	B-PS	B-PS, B-OG, O, B-LC, I-PS
+2	보스	I-PS	I-PS	I-PS, I-OG, O, B-PS, I-LC
+3	##트	I-PS	I-PS	I-PS, O, I-OG, I-LC, B-LC
+4	##롬	I-PS	I-PS	I-PS, O, I-OG, I-LC, B-LC
+5	영국	B-LC	B-LC	B-LC, O, B-OG, I-PS, I-LC
+6	옥스퍼드	B-OG	B-OG	B-OG, O, I-OG, B-AF, B-LC
+7	##대	I-OG	I-OG	I-OG, O, I-LC, I-AF, I-PS
+8	철학	O	B-FD	B-FD, O, I-OG, I-FD, I-AF
+9	교수	B-CV	B-CV	B-CV, O, I-CV, B-FD, B-AF
+10	##는	O	O	O, I-CV, B-CV, I-AF, I-EV
+11	인공지능	B-FD	B-FD	B-FD, O, B-TR, I-FD, B-TM
+12	##의	O	O	O, I-FD, I-CV, I-AF, I-OG
+13	문제점	O	O	O, B-CV, B-TM, I-CV, I-QT
+14	##을	O	O	O, B-CV, B-PS, B-OG, B-TM
+15	설파	O	O	O, B-CV, B-TM, B-FD, B-PS
+16	##하	O	O	O, B-CV, B-PS, I-CV, B-LC
+17	##는	O	O	O, B-CV, B-PS, B-LC, B-QT
+18	대표	O	O	O, B-CV, B-PS, B-QT, B-TM
+19	##적	O	O	O, I-QT, B-PS, I-CV, B-LC
+20	인물	O	O	O, B-CV, B-PS, B-QT, I-CV
+21	##이다	O	O	O, B-CV, I-CV, I-QT, B-TM
+22	.	O	O	O, B-CV, B-PS, B-LC, B-FD
+23	[SEP]	O	O	O, B-CV, B-PS, B-FD, B-LC

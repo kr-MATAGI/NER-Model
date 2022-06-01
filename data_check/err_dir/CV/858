@@ -1,0 +1,26 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-AF
+1	은행	O	O	O, B-OG, B-CV, B-TM, B-AF
+2	##에	O	O	O, B-CV, B-PS, I-OG, I-AF
+3	다니	O	O	O, B-PS, B-CV, B-AF, B-LC
+4	##는	O	O	O, B-PS, B-CV, B-TM, B-LC
+5	직장인	B-CV	B-CV	B-CV, O, B-OG, B-EV, I-CV
+6	##이	O	O	O, I-CV, B-PS, B-CV, I-AF
+7	##라면	O	O	O, B-CV, B-PS, B-TM, B-LC
+8	‘	O	O	O, B-CV, B-OG, B-LC, B-TM
+9	뱅	B-CV	O	O, B-AF, B-CV, B-TM, B-OG
+10	##커	I-CV	O	O, I-AF, I-CV, I-TM, I-OG
+11	##론	I-CV	O	O, I-AF, I-CV, I-TM, I-OG
+12	’	O	O	O, I-AF, I-CV, I-TM, I-OG
+13	을	O	O	O, B-CV, B-TM, B-OG, B-AF
+14	통해	O	O	O, B-OG, B-CV, B-TM, B-PS
+15	동일	O	O	O, B-CV, B-TM, B-LC, B-PS
+16	##한	O	O	O, B-LC, B-PS, B-OG, B-TM
+17	혜택	O	O	O, B-CV, B-TM, B-LC, B-OG
+18	##을	O	O	O, B-CV, B-OG, B-TM, B-LC
+19	누릴	O	O	O, B-CV, B-TM, B-OG, B-PS
+20	수	O	O	O, B-TM, B-CV, B-PS, B-OG
+21	있	O	O	O, B-CV, B-TM, B-OG, I-OG
+22	##다	O	O	O, B-CV, B-TM, B-OG, I-OG
+23	.	O	O	O, B-CV, B-LC, B-PS, B-OG
+24	[SEP]	O	O	O, B-CV, B-TM, B-LC, I-AF

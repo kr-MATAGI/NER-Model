@@ -1,0 +1,14 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
+1	기존	O	O	O, B-CV, B-LC, B-OG, B-TM
+2	재무	O	B-CV	B-CV, O, B-FD, I-CV, B-TM
+3	##관	O	I-CV	I-CV, B-CV, O, I-QT, I-TM
+4	##료	O	I-CV	I-CV, O, B-CV, I-OG, I-TM
+5	‘	O	O	O, I-CV, B-CV, I-OG, B-PS
+6	관	O	O	O, B-CV, B-OG, B-TM, B-AF
+7	##치	O	O	O, I-OG, I-CV, I-TM, I-AF
+8	##금융	O	O	O, I-OG, I-CV, I-TM, I-AF
+9	’	O	O	O, I-OG, I-CV, I-AF, I-TM
+10	과	O	O	O, B-CV, B-AF, B-PS, B-LC
+11	거리	O	O	O, B-CV, B-TM, B-AF, B-LC
+12	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-PS

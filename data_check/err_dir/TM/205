@@ -1,0 +1,7 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-AF
+1	독감	B-TM	B-TM	B-TM, O, B-MT, B-AM, B-AF
+2	##백	B-TM	B-MT	B-MT, I-MT, I-TM, O, B-TM
+3	##신	I-TM	I-MT	I-MT, I-TM, O, I-AF, I-AM
+4	.	O	O	O, I-TM, I-AF, I-MT, I-CV
+5	[SEP]	O	O	O, B-CV, B-LC, B-TM, B-OG

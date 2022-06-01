@@ -1,0 +1,22 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-EV, I-OG, B-CV, I-QT
+1	그러나	O	O	O, B-TM, B-OG, B-LC, B-CV
+2	대	O	O	O, B-EV, B-CV, B-TM, B-LC
+3	##질	O	O	O, I-EV, I-TM, I-OG, I-CV
+4	조사	O	O	O, I-EV, B-CV, B-PS, I-CV
+5	##는	O	O	O, B-CV, I-EV, B-OG, B-LC
+6	양쪽	B-TM	O	O, B-TM, B-QT, B-LC, B-OG
+7	모두	O	O	O, I-QT, B-QT, I-TM, B-TM
+8	동의	O	O	O, B-CV, B-LC, B-TM, B-OG
+9	##를	O	O	O, B-CV, B-OG, B-PS, I-OG
+10	해야	O	O	O, B-LC, B-OG, B-TM, B-PS
+11	해	O	O	O, B-LC, B-OG, B-TM, B-CV
+12	성사	O	O	O, B-CV, B-OG, B-TM, B-LC
+13	가능	O	O	O, B-OG, B-CV, B-TM, B-QT
+14	##성이	O	O	O, B-CV, B-OG, B-TM, I-OG
+15	높	O	O	O, B-CV, B-TM, B-OG, B-QT
+16	##지	O	O	O, I-OG, B-CV, B-QT, B-TM
+17	않	O	O	O, B-CV, B-TM, I-OG, B-LC
+18	##다	O	O	O, B-CV, B-TM, I-OG, I-EV
+19	.	O	O	O, B-LC, B-CV, B-OG, I-EV
+20	[SEP]	O	O	O, B-CV, I-EV, B-LC, B-OG

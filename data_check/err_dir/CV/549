@@ -1,0 +1,27 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-CV, I-OG, B-CV, I-EV
+1	'	O	O	O, B-CV, B-LC, B-PS, B-OG
+2	황제	B-CV	B-CV	B-CV, O, B-PS, B-AF, B-OG
+3	'	O	O	O, I-CV, I-PS, B-CV, B-PS
+4	로저	B-PS	B-PS	B-PS, O, I-PS, B-OG, B-LC
+5	페더	I-PS	I-PS	I-PS, B-PS, O, I-OG, I-LC
+6	##러	I-PS	I-PS	I-PS, O, I-OG, I-LC, B-LC
+7	(	O	O	O, I-PS, B-CV, I-OG, B-LC
+8	32	B-QT	B-QT	B-QT, O, I-QT, B-TM, B-DT
+9	·	O	O	O, I-QT, I-OG, I-DT, I-EV
+10	스위스	B-LC	B-LC	B-LC, B-OG, O, B-PS, B-EV
+11	)	O	O	O, I-LC, I-OG, B-CV, I-EV
+12	가	O	O	O, B-PS, B-LC, B-OG, B-CV
+13	프랑스	B-LC	B-EV	B-EV, B-LC, B-OG, O, B-AF
+14	오픈	O	I-EV	I-EV, O, B-EV, I-AF, B-CV
+15	테니스	B-CV	I-EV	I-EV, B-CV, B-EV, O, I-CV
+16	4	B-EV	B-EV	B-EV, I-EV, B-QT, O, B-LC
+17	##강	I-EV	I-EV	I-EV, I-QT, O, I-LC, B-EV
+18	문턱	O	O	O, I-EV, I-QT, I-AF, I-OG
+19	##을	O	O	O, B-CV, I-EV, B-OG, B-LC
+20	넘	O	O	O, B-CV, B-LC, B-OG, B-TM
+21	##지	O	O	O, B-CV, I-EV, B-PS, B-LC
+22	못했	O	O	O, B-CV, B-LC, I-EV, B-PS
+23	##다	O	O	O, B-CV, B-LC, B-OG, B-PS
+24	.	O	O	O, B-CV, B-LC, B-PS, B-OG
+25	[SEP]	O	O	O, B-CV, B-LC, B-PS, I-EV

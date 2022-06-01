@@ -1,0 +1,26 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-EV, I-OG, I-CV
+1	올해	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
+2	들어선	O	O	O, I-DT, B-OG, B-PS, B-CV
+3	메이저	B-EV	B-OG	B-OG, O, B-EV, B-AF, I-OG
+4	##리그	I-EV	I-OG	I-OG, I-EV, O, I-AF, I-CV
+5	스프링	I-EV	O	O, I-EV, I-OG, B-EV, B-LC
+6	##캠프	I-EV	O	O, I-EV, I-OG, I-LC, I-AF
+7	##에	O	O	O, I-EV, I-OG, I-AF, B-CV
+8	초청	O	O	O, B-LC, B-CV, B-EV, B-OG
+9	##받	O	O	O, I-EV, I-OG, I-LC, I-CV
+10	##지	O	O	O, I-EV, B-LC, B-PS, I-OG
+11	못했	O	O	O, B-CV, B-LC, B-PS, I-EV
+12	##고	O	O	O, B-PS, B-CV, I-OG, I-EV
+13	,	O	O	O, B-CV, B-LC, B-PS, B-TM
+14	시범	O	O	O, B-EV, B-LC, B-CV, I-EV
+15	##경기	O	O	O, I-EV, I-LC, I-CV, B-EV
+16	참가	O	O	O, I-EV, B-LC, B-CV, B-PS
+17	기회	O	O	O, B-CV, B-LC, I-EV, B-TM
+18	##도	O	O	O, B-LC, I-EV, B-CV, B-PS
+19	얻	O	O	O, B-CV, B-TM, B-EV, B-LC
+20	##지	O	O	O, B-QT, I-EV, B-PS, B-CV
+21	못했	O	O	O, B-CV, I-EV, I-QT, B-PS
+22	##다	O	O	O, B-CV, I-EV, B-LC, I-OG
+23	.	O	O	O, B-CV, B-LC, B-PS, I-EV
+24	[SEP]	O	O	O, B-CV, B-LC, I-EV, B-TM

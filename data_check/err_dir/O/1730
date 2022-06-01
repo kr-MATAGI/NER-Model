@@ -1,0 +1,17 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
+1	오늘	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
+2	아마추어	B-CV	B-CV	B-CV, O, I-DT, B-OG, I-CV
+3	곤충	O	B-AM	B-AM, O, B-TM, B-CV, B-PS
+4	애호가	B-CV	B-CV	B-CV, O, I-CV, B-AM, B-PS
+5	황	B-PS	B-PS	B-PS, O, I-PS, B-OG, B-CV
+6	##의	I-PS	I-PS	I-PS, O, B-PS, I-OG, I-QT
+7	##웅	I-PS	I-PS	I-PS, O, I-LC, I-QT, B-PS
+8	##씨	O	O	O, I-PS, B-CV, I-AF, I-QT
+9	초대	O	O	O, B-CV, B-TM, B-LC, B-OG
+10	##하	O	O	O, B-CV, B-LC, B-PS, I-OG
+11	##겠	O	O	O, B-CV, B-OG, B-LC, B-TM
+12	##습	O	O	O, B-CV, I-OG, B-OG, B-TM
+13	##니다	O	O	O, B-CV, B-OG, B-LC, I-OG
+14	.	O	O	O, B-CV, B-PS, B-LC, B-OG
+15	[SEP]	O	O	O, B-CV, B-OG, B-LC, B-PS

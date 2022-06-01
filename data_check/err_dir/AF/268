@@ -1,0 +1,26 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, I-EV, I-QT, I-CV
+1	'	O	O	O, B-LC, B-CV, B-AF, B-DT
+2	나	B-AF	B-AF	B-AF, B-PS, O, B-LC, I-AF
+3	##탈	I-AF	I-AF	I-AF, I-PS, O, I-LC, I-OG
+4	##리	I-AF	I-AF	I-AF, I-PS, O, I-LC, I-OG
+5	'	O	O	O, I-AF, I-EV, I-OG, I-PS
+6	는	O	O	O, B-CV, B-LC, B-OG, I-AF
+7	'	O	O	O, B-LC, B-CV, B-PS, B-DT
+8	현	B-AF	B-PS	B-PS, O, B-AF, B-EV, B-CV
+9	##의	I-AF	O	O, I-AF, I-PS, I-EV, I-OG
+10	노래	I-AF	O	O, I-AF, I-PS, I-EV, I-FD
+11	'	O	O	O, I-AF, I-EV, I-PS, I-OG
+12	를	O	O	O, B-PS, B-CV, B-OG, B-LC
+13	위한	O	O	O, B-LC, B-PS, B-CV, B-EV
+14	테스트	O	O	O, B-PS, B-EV, B-FD, B-CV
+15	작품	O	O	O, B-FD, B-CV, I-EV, B-EV
+16	##의	O	O	O, I-EV, I-CV, I-AF, I-OG
+17	성격	O	O	O, B-CV, B-OG, B-LC, B-TM
+18	##도	O	O	O, B-CV, I-OG, B-LC, I-QT
+19	띠	O	O	O, B-CV, B-OG, B-TM, B-PS
+20	##고	O	O	O, I-OG, B-PS, I-QT, I-AF
+21	있	O	O	O, B-CV, I-OG, B-FD, B-OG
+22	##다	O	O	O, B-CV, I-OG, B-OG, B-LC
+23	.	O	O	O, B-LC, B-FD, B-CV, B-PS
+24	[SEP]	O	O	O, B-CV, B-FD, B-LC, I-EV

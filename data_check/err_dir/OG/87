@@ -1,0 +1,26 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, I-CV, I-AF, B-CV
+1	11	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-PS
+2	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
+3	(	O	O	O, I-DT, I-OG, B-CV, I-AF
+4	현지	O	O	O, B-LC, B-CV, B-DT, I-DT
+5	시간	O	O	O, I-DT, B-CV, B-LC, B-OG
+6	)	O	O	O, B-LC, B-PS, B-OG, I-DT
+7	독일	B-LC	B-LC	B-LC, O, B-OG, B-AF, B-PS
+8	프랑크푸르트	B-LC	B-LC	B-LC, I-LC, O, B-OG, B-AF
+9	##를	O	O	O, I-LC, I-AF, I-OG, B-LC
+10	떠나	O	O	O, B-CV, B-OG, B-AF, B-LC
+11	인천	B-LC	B-LC	B-LC, O, B-OG, I-LC, B-AF
+12	##으로	O	O	O, I-LC, I-AF, I-OG, I-EV
+13	향하	O	O	O, B-AF, B-QT, B-LC, B-TM
+14	##는	O	O	O, B-AF, B-LC, I-AF, B-OG
+15	루프	B-OG	B-AF	B-AF, B-OG, B-LC, O, B-PS
+16	##트	I-OG	I-AF	I-AF, I-OG, I-LC, O, B-AF
+17	##한	I-OG	I-AF	I-AF, I-OG, B-AF, I-LC, O
+18	##자	I-OG	I-AF	I-AF, I-OG, I-LC, O, I-PS
+19	LH	B-QT	I-AF	I-AF, B-QT, B-AF, O, B-TM
+20	##71	I-QT	I-AF	I-AF, I-QT, I-TM, I-OG, I-LC
+21	##2	I-QT	I-QT	I-QT, I-AF, I-TM, O, I-LC
+22	##편	O	O	O, I-QT, I-AF, I-TM, I-LC
+23	.	O	O	O, I-QT, I-AF, I-OG, I-TM
+24	[SEP]	O	O	O, B-LC, B-AF, B-CV, B-OG

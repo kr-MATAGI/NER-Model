@@ -1,0 +1,23 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, I-AF, B-CV, I-CV
+1	위성	B-TM	B-TM	B-TM, O, B-TR, I-TM, B-AF
+2	전파	O	I-TM	I-TM, O, B-TM, I-TR, I-AF
+3	수신	O	I-TM	I-TM, O, B-TM, I-TR, I-AF
+4	안테나	O	I-TM	I-TM, O, B-TM, I-TR, I-AF
+5	##를	O	O	O, I-TM, I-AF, I-OG, I-CV
+6	들	O	O	O, B-LC, B-AF, B-PS, B-CV
+7	##고	O	O	O, B-LC, I-AF, I-LC, B-PS
+8	옥상	O	O	O, B-LC, B-TM, B-CV, B-AF
+9	##과	O	O	O, I-AF, I-LC, B-PS, B-LC
+10	들판	O	O	O, B-LC, B-CV, I-LC, B-TM
+11	##을	O	O	O, B-LC, I-LC, B-PS, I-AF
+12	헤매	O	O	O, B-LC, B-CV, B-AF, B-TM
+13	##면서	O	O	O, B-LC, B-PS, B-CV, B-AF
+14	위성	B-TM	B-TM	B-TM, O, B-OG, B-CV, B-AF
+15	##과	O	O	O, I-TM, I-OG, I-AF, I-CV
+16	교신	O	O	O, B-CV, B-TM, B-EV, B-LC
+17	##을	O	O	O, B-CV, I-EV, I-OG, I-AF
+18	시도	O	O	O, B-CV, B-LC, B-TM, B-OG
+19	##한다	O	O	O, B-CV, B-LC, B-PS, B-OG
+20	.	O	O	O, B-LC, B-CV, B-PS, I-AF
+21	[SEP]	O	O	O, B-LC, B-CV, I-AF, B-TM

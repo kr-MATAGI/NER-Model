@@ -1,0 +1,11 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-CV, I-OG, B-CV, I-AF
+1	누리꾼	B-CV	B-CV	B-CV, O, B-OG, B-TM, I-CV
+2	##들	O	O	O, I-CV, I-OG, I-AF, I-QT
+3	시진핑	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
+4	-	O	O	O, I-PS, B-PS, I-AF, B-CV
+5	푸	O	B-PS	B-PS, O, I-PS, B-LC, B-OG
+6	비유	O	O	O, I-PS, B-CV, I-TR, I-EV
+7	즐기	O	O	O, B-CV, I-CV, B-PS, B-LC
+8	##자	O	O	O, I-CV, B-PS, I-PS, I-OG
+9	[SEP]	O	O	O, B-CV, B-PS, B-LC, I-AF

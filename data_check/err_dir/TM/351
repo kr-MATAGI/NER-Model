@@ -1,0 +1,19 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-CV, B-CV, I-OG, I-EV
+1	•	O	O	O, B-LC, B-OG, B-CV, B-PS
+2	한국	B-LC	B-LC	B-LC, B-OG, O, B-PS, B-AF
+3	해병	B-OG	B-OG	B-OG, B-CV, I-OG, O, B-AF
+4	##도	O	O	O, I-OG, B-CV, I-CV, I-EV
+5	3	B-TM	B-QT	B-QT, B-TM, B-EV, O, B-TR
+6	##진	I-TM	I-QT	I-QT, I-TM, I-EV, I-TR, O
+7	##아웃	I-TM	I-QT	I-QT, I-TM, I-EV, O, I-TR
+8	등	O	O	O, I-QT, I-EV, I-TM, I-CV
+9	실시	O	O	O, B-CV, B-LC, B-OG, B-TM
+10	,	O	O	O, B-LC, B-CV, B-PS, B-OG
+11	후진	O	O	O, B-LC, B-CV, B-TR, B-TM
+12	##적	O	O	O, B-LC, B-PS, I-PS, I-LC
+13	군기	O	O	O, B-CV, B-OG, B-PS, B-AF
+14	문화	O	O	O, B-CV, I-CV, B-PS, B-FD
+15	없애	O	O	O, B-CV, I-CV, B-PS, B-LC
+16	##야	O	O	O, B-LC, B-PS, B-CV, B-OG
+17	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-PS

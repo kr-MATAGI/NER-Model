@@ -1,0 +1,22 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-EV
+1	지난해	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-QT
+2	9	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
+3	##월	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
+4	이산가족	B-EV	B-EV	B-EV, B-CV, O, I-EV, I-DT
+5	상봉	I-EV	I-EV	I-EV, O, B-EV, I-CV, I-DT
+6	행사	I-EV	O	O, I-EV, B-EV, I-DT, I-OG
+7	##를	O	O	O, I-EV, I-OG, I-DT, I-AF
+8	나흘	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-TI
+9	앞두	O	O	O, I-DT, I-EV, B-EV, I-QT
+10	##고	O	O	O, B-LC, I-DT, B-PS, I-EV
+11	돌연	O	O	O, B-LC, B-OG, B-TM, B-QT
+12	연기	O	O	O, B-LC, B-OG, B-EV, B-QT
+13	##된	O	O	O, B-LC, B-PS, B-OG, I-EV
+14	지	O	O	O, B-LC, B-PS, B-OG, B-CV
+15	넉	O	O	O, B-PS, B-QT, B-LC, B-TM
+16	##달	O	O	O, B-PS, B-LC, B-OG, B-TM
+17	만이	O	O	O, B-PS, B-CV, B-LC, B-OG
+18	##다	O	O	O, B-CV, B-TM, B-LC, B-OG
+19	.	O	O	O, B-LC, B-PS, B-CV, B-OG
+20	[SEP]	O	O	O, B-LC, B-CV, I-EV, B-OG

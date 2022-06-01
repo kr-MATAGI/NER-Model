@@ -1,0 +1,15 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-AF
+1	[	O	O	O, B-OG, B-LC, B-AF, B-DT
+2	횡	B-AF	B-AF	B-AF, O, B-PS, B-FD, B-OG
+3	##설	I-AF	I-AF	I-AF, O, I-PS, I-TR, I-OG
+4	##수	I-AF	I-AF	I-AF, O, I-TR, I-PS, I-FD
+5	##설	I-AF	I-AF	I-AF, O, I-TR, I-FD, I-PS
+6	/	O	O	O, I-AF, I-OG, B-AF, B-OG
+7	이진	O	B-PS	B-PS, O, B-AF, I-PS, B-OG
+8	]	O	O	O, I-PS, I-AF, I-OG, B-CV
+9	가짜	O	O	O, B-CV, B-TM, B-AF, B-FD
+10	뉴스	O	O	O, I-CV, B-CV, I-AF, I-TM
+11	경계	O	O	O, B-CV, I-CV, B-PS, I-AF
+12	##령	O	O	O, I-CV, I-AF, B-CV, I-OG
+13	[SEP]	O	O	O, B-CV, B-AF, B-LC, I-CV

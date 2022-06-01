@@ -1,0 +1,27 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-EV, I-CV, I-OG
+1	그	O	O	O, B-CV, B-LC, B-OG, B-TM
+2	##는	O	O	O, B-CV, B-PS, I-EV, I-CV
+3	2007	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-PS
+4	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
+5	훈련	O	O	O, B-CV, I-DT, I-EV, B-TM
+6	도중	O	O	O, B-CV, B-TM, B-PS, B-LC
+7	여자	O	O	O, B-CV, B-TM, B-PS, B-LC
+8	선수	B-CV	B-CV	B-CV, O, I-CV, B-PS, B-EV
+9	##가	O	O	O, I-CV, B-PS, I-AF, I-EV
+10	던진	O	O	O, B-AF, B-TM, B-CV, B-PS
+11	창	B-CV	O	O, B-AF, B-TM, B-AM, B-CV
+12	##이	O	O	O, I-AF, B-PS, I-TM, I-CV
+13	오른쪽	B-TM	B-TM	B-TM, O, B-LC, B-OG, B-CV
+14	어깨	B-AM	B-AM	B-AM, I-AM, O, I-TM, B-TM
+15	##를	O	O	O, I-TM, B-CV, I-AF, B-TM
+16	관통	O	O	O, B-TM, B-CV, B-LC, B-QT
+17	##하	O	O	O, B-PS, B-LC, B-CV, B-TM
+18	##는	O	O	O, B-LC, B-CV, B-TM, B-QT
+19	큰	O	O	O, B-CV, B-TM, B-LC, B-QT
+20	부상	O	O	O, B-TM, B-CV, B-LC, I-TM
+21	##을	O	O	O, B-CV, I-EV, B-PS, I-CV
+22	당했	O	O	O, B-CV, I-EV, B-TM, B-LC
+23	##다	O	O	O, B-CV, I-EV, B-TM, I-CV
+24	.	O	O	O, B-CV, B-PS, B-LC, B-TM
+25	[SEP]	O	O	O, B-CV, B-PS, B-TM, B-LC

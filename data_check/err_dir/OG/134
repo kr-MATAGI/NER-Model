@@ -1,0 +1,26 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
+1	(	O	O	O, B-CV, B-OG, B-LC, B-PS
+2	한국	B-OG	B-OG	B-OG, O, B-LC, B-AF, I-OG
+3	##방송	I-OG	I-OG	I-OG, O, I-AF, I-LC, I-EV
+4	2	I-OG	B-AF	B-AF, I-AF, I-OG, B-QT, B-OG
+5	##텔	B-TM	I-AF	I-AF, I-OG, I-QT, O, B-AF
+6	##레	I-TM	I-AF	I-AF, I-QT, I-OG, O, I-TM
+7	##비전	I-TM	I-AF	I-AF, I-QT, I-OG, O, I-TM
+8	)	O	O	O, I-AF, I-QT, I-OG, B-CV
+9	광고	O	O	O, B-CV, B-TM, B-FD, B-AF
+10	##를	O	O	O, B-CV, I-CV, B-PS, B-TM
+11	줄이	O	O	O, B-CV, B-OG, B-LC, B-PS
+12	##고	O	O	O, B-CV, B-LC, B-PS, B-OG
+13	수신료	O	O	O, B-CV, B-QT, B-TM, B-AF
+14	비중	O	O	O, I-CV, B-CV, B-TM, B-PS
+15	##을	O	O	O, B-CV, B-PS, B-OG, B-TM
+16	높여야	O	O	O, B-CV, B-LC, B-PS, B-OG
+17	한다	O	O	O, B-CV, B-PS, B-LC, B-OG
+18	”	O	O	O, B-CV, B-LC, B-OG, B-PS
+19	고	O	O	O, B-CV, B-PS, B-LC, B-OG
+20	말	O	O	O, B-CV, I-CV, B-PS, I-OG
+21	##했	O	O	O, B-CV, B-PS, I-CV, I-OG
+22	##다	O	O	O, B-CV, B-LC, B-PS, I-CV
+23	.	O	O	O, B-CV, B-LC, B-OG, B-PS
+24	[SEP]	O	O	O, B-CV, B-LC, I-OG, B-OG

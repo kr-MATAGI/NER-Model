@@ -1,0 +1,19 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-AF
+1	우리	O	O	O, B-AF, B-OG, B-LC, B-PS
+2	트로이	B-AF	B-AF	B-AF, B-FD, B-EV, B-LC, B-PS
+3	영화	O	I-AF	I-AF, I-FD, O, I-EV, I-TR
+4	##도	O	O	O, I-AF, I-EV, I-OG, I-FD
+5	나옵니다	O	O	O, B-CV, B-OG, B-LC, B-TM
+6	##만	O	O	O, B-PS, B-LC, B-CV, B-OG
+7	이	O	O	O, B-PS, B-OG, B-LC, B-AF
+8	하인	B-PS	B-PS	B-PS, I-PS, O, B-LC, B-OG
+9	##리히	I-PS	I-PS	I-PS, O, I-OG, I-LC, B-PS
+10	슐	I-PS	I-PS	I-PS, B-PS, O, B-LC, I-LC
+11	##리	I-PS	I-PS	I-PS, O, I-LC, I-OG, B-LC
+12	##만	I-PS	I-PS	I-PS, O, I-LC, I-OG, B-LC
+13	##이	O	O	O, I-PS, B-CV, I-OG, B-LC
+14	##라는	O	O	O, B-CV, B-QT, B-LC, B-PS
+15	학자	B-CV	B-CV	B-CV, O, B-QT, I-CV, B-TM
+16	##도	O	O	O, I-CV, I-QT, I-EV, B-CV
+17	[SEP]	O	O	O, B-CV, B-PS, B-LC, B-OG

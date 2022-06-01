@@ -1,0 +1,25 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-EV, I-OG
+1	한동안	O	O	O, B-DT, B-CV, B-QT, B-PS
+2	악역	B-CV	O	O, B-CV, B-FD, I-CV, B-EV
+3	##만	O	O	O, I-CV, B-PS, I-QT, I-EV
+4	계속	O	O	O, B-CV, B-TM, B-PS, B-QT
+5	맡	O	O	O, B-CV, B-PS, B-LC, B-TM
+6	##다	O	O	O, B-PS, B-CV, B-LC, I-CV
+7	보	O	O	O, B-PS, B-CV, B-LC, B-TM
+8	##니	O	O	O, B-LC, B-CV, B-PS, B-TM
+9	감정	O	O	O, B-CV, B-TM, B-LC, B-PS
+10	##의	O	O	O, B-PS, B-CV, B-LC, B-TM
+11	여파	O	O	O, B-TM, B-LC, B-CV, B-PS
+12	##가	O	O	O, B-PS, B-LC, B-CV, B-OG
+13	남아	O	O	O, B-TM, B-CV, B-LC, B-PS
+14	우울증	B-TM	B-TM	B-TM, O, I-TM, B-CV, B-LC
+15	##이	O	O	O, I-TM, B-PS, I-CV, B-CV
+16	왔	O	O	O, B-CV, B-LC, B-OG, B-PS
+17	##던	O	O	O, B-CV, B-LC, B-TM, B-PS
+18	적	O	O	O, B-CV, B-PS, B-LC, B-TM
+19	##이	O	O	O, B-PS, B-CV, B-LC, B-OG
+20	있	O	O	O, B-CV, B-PS, B-LC, I-EV
+21	##다	O	O	O, B-CV, B-LC, B-PS, I-CV
+22	.	O	O	O, B-LC, B-PS, B-CV, B-TM
+23	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-TM

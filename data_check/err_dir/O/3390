@@ -1,0 +1,25 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
+1	문재인	B-PS	B-PS	B-PS, B-OG, O, I-PS, B-LC
+2	대통령	B-CV	B-CV	B-CV, I-PS, O, B-OG, B-PS
+3	,	O	O	O, I-CV, B-CV, I-OG, I-AF
+4	문체	O	B-OG	B-OG, B-CV, O, B-QT, B-LC
+5	##2	O	I-OG	I-OG, I-CV, I-QT, B-QT, O
+6	##차	B-CV	B-CV	B-CV, I-CV, I-QT, I-OG, O
+7	##관	I-CV	I-CV	I-CV, I-QT, B-CV, I-OG, O
+8	##에	O	O	O, I-CV, I-QT, I-OG, B-CV
+9	임명	O	O	O, B-CV, B-OG, B-LC, B-PS
+10	뒤바	O	O	O, B-CV, B-TM, B-OG, B-LC
+11	##뀐	O	O	O, B-LC, I-OG, B-PS, B-CV
+12	운명	O	O	O, B-CV, B-OG, B-PS, B-LC
+13	…	O	O	O, B-CV, I-OG, B-OG, I-AF
+14	대하	O	B-FD	B-FD, O, B-AF, B-OG, B-CV
+15	##사	O	O	O, I-FD, B-FD, I-AF, I-OG
+16	##극	O	O	O, I-FD, B-FD, I-AF, I-OG
+17	같	O	O	O, I-FD, I-AF, I-OG, B-FD
+18	##은	O	O	O, I-AF, B-OG, I-OG, B-LC
+19	3	B-QT	B-QT	B-QT, O, I-QT, B-TM, B-EV
+20	##개	I-QT	I-QT	I-QT, O, I-LC, I-EV, I-PS
+21	##의	O	O	O, I-QT, I-AF, I-OG, I-EV
+22	장면	O	O	O, B-FD, B-AF, I-AF, B-CV
+23	[SEP]	O	O	O, B-CV, B-FD, I-AF, I-OG

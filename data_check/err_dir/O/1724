@@ -1,0 +1,25 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
+1	3	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-EV
+2	##보	O	I-QT	I-QT, O, B-QT, I-LC, I-EV
+3	##란	O	O	O, I-QT, B-QT, B-PS, I-LC
+4	보안	O	O	O, B-CV, I-QT, B-PS, B-LC
+5	(	O	O	O, B-PS, B-LC, I-CV, B-CV
+6	保	O	O	O, B-LC, B-PS, B-CV, B-OG
+7	安	O	O	O, B-PS, B-LC, I-LC, I-PS
+8	)	O	O	O, B-LC, B-PS, I-OG, I-LC
+9	,	O	O	O, B-PS, B-LC, B-CV, B-OG
+10	보고	O	O	O, B-CV, B-PS, B-LC, B-TM
+11	(	O	O	O, B-PS, B-LC, I-CV, B-CV
+12	報	O	O	O, B-LC, B-PS, B-CV, B-OG
+13	告	O	O	O, B-LC, B-PS, I-LC, I-OG
+14	)	O	O	O, B-LC, B-PS, B-CV, I-OG
+15	,	O	O	O, B-PS, B-LC, B-CV, B-OG
+16	보도	O	O	O, B-CV, B-LC, B-TM, B-PS
+17	(	O	O	O, B-LC, B-PS, I-CV, B-CV
+18	報	O	O	O, B-LC, B-PS, B-CV, B-TM
+19	道	O	O	O, B-LC, B-PS, I-LC, B-OG
+20	)	O	O	O, B-LC, B-PS, I-OG, I-LC
+21	다	O	O	O, B-LC, B-PS, B-OG, B-QT
+22	.	O	O	O, B-LC, B-CV, B-PS, B-OG
+23	[SEP]	O	O	O, B-LC, B-CV, B-PS, B-OG

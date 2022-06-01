@@ -1,0 +1,23 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
+1	아마	O	O	O, B-CV, B-PS, B-TM, B-OG
+2	나	O	O	O, B-CV, B-PS, B-LC, B-OG
+3	##였	O	O	O, B-CV, B-PS, B-OG, B-LC
+4	##다면	O	O	O, B-CV, B-PS, B-TM, I-CV
+5	“	O	O	O, B-CV, B-LC, B-PS, B-OG
+6	이성	O	B-TR	B-TR, O, B-TM, I-TR, B-CV
+7	##애	O	I-TR	I-TR, O, B-TR, I-CV, I-TM
+8	중심주의	O	I-TR	I-TR, O, B-TR, I-CV, I-TM
+9	사회	O	O	O, I-TR, B-CV, I-CV, B-TR
+10	##가	O	O	O, B-PS, B-CV, I-OG, I-CV
+11	만든	O	O	O, B-CV, B-PS, B-LC, B-OG
+12	편견	O	O	O, B-CV, B-TM, B-PS, B-TR
+13	”	O	O	O, B-CV, I-CV, B-PS, B-TM
+14	이라	O	O	O, B-CV, B-PS, B-TM, I-CV
+15	##며	O	O	O, B-CV, B-TM, I-CV, B-LC
+16	따졌	O	O	O, B-CV, B-TM, B-LC, B-PS
+17	##을	O	O	O, B-CV, I-CV, B-PS, B-TM
+18	거	O	O	O, B-CV, B-PS, B-OG, B-TM
+19	##다	O	O	O, B-CV, I-CV, I-OG, B-TM
+20	.	O	O	O, B-CV, B-PS, B-LC, B-TM
+21	[SEP]	O	O	O, B-CV, I-CV, B-TM, B-PS

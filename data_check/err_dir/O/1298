@@ -1,0 +1,20 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-EV, I-CV
+1	도요타	B-OG	B-OG	B-OG, O, B-LC, B-AF, I-OG
+2	##의	O	O	O, I-OG, I-EV, I-AF, I-CV
+3	위기	O	O	O, B-EV, I-EV, B-PS, B-CV
+4	##는	O	O	O, I-EV, I-OG, B-PS, B-LC
+5	2008	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-LC
+6	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
+7	말	I-DT	I-DT	I-DT, O, I-QT, B-DT, I-PS
+8	터진	O	O	O, I-DT, B-EV, B-LC, I-EV
+9	글로벌	O	B-EV	B-EV, O, B-LC, B-DT, B-OG
+10	금융	O	I-EV	I-EV, B-EV, O, B-LC, B-CV
+11	##위	O	I-EV	I-EV, O, B-EV, I-OG, I-DT
+12	##기	O	I-EV	I-EV, O, I-OG, B-EV, I-LC
+13	##와	O	O	O, I-EV, I-OG, I-DT, I-AF
+14	함께	O	O	O, B-LC, I-EV, B-TM, B-OG
+15	왔	O	O	O, B-PS, B-OG, B-LC, B-EV
+16	##다	O	O	O, I-EV, I-OG, B-CV, I-CV
+17	.	O	O	O, B-LC, B-CV, B-OG, I-EV
+18	[SEP]	O	O	O, B-CV, I-EV, B-LC, B-OG

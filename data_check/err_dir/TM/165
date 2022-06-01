@@ -1,0 +1,24 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
+1	휴대	B-TM	B-TM	B-TM, O, B-CV, B-TR, B-QT
+2	##전	I-TM	I-TM	I-TM, O, B-TM, I-CV, I-QT
+3	##화	I-TM	I-TM	I-TM, O, I-CV, I-QT, B-TM
+4	##를	O	O	O, I-TM, I-CV, I-OG, I-AF
+5	뒤	O	O	O, B-TM, B-CV, B-AF, B-AM
+6	##에	O	O	O, I-TM, I-AF, B-TM, B-CV
+7	테이프	O	B-TM	B-TM, O, B-MT, B-CV, B-TR
+8	##로	O	O	O, I-TM, I-AF, I-CV, B-CV
+9	붙여서	O	O	O, B-CV, B-TM, B-LC, B-OG
+10	도어	B-TM	O	O, B-TM, B-AF, B-CV, B-AM
+11	##록	I-TM	O	O, I-TM, I-AF, I-CV, B-TM
+12	비밀	O	O	O, B-CV, I-AF, I-CV, I-TM
+13	##번	O	O	O, I-CV, B-CV, I-AF, I-TM
+14	##호	O	O	O, I-CV, B-CV, I-AF, B-LC
+15	##를	O	O	O, B-CV, I-AF, I-CV, B-OG
+16	알아낼	O	O	O, B-CV, B-LC, B-TM, B-PS
+17	##려고	O	O	O, B-CV, B-PS, B-TM, B-LC
+18	저렇게	O	O	O, B-CV, B-TM, B-QT, B-OG
+19	했	O	O	O, B-CV, B-OG, B-TM, B-LC
+20	##대요	O	O	O, B-CV, I-OG, I-AF, B-TM
+21	.	O	O	O, B-CV, B-LC, B-TM, B-PS
+22	[SEP]	O	O	O, B-CV, B-TM, B-LC, I-AF

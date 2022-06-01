@@ -1,0 +1,8 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, I-CV, I-AF, B-CV
+1	오스트리아	B-OG	B-LC	B-LC, B-OG, O, B-PS, B-CV
+2	##는	O	O	O, I-OG, I-LC, I-AF, B-LC
+3	민주주의	B-TR	B-TR	B-TR, O, I-TR, B-PS, B-TM
+4	##와	O	O	O, I-TR, I-AF, I-OG, I-QT
+5	단결	O	O	O, B-OG, B-AF, B-LC, B-PS
+6	[SEP]	O	O	O, I-OG, I-AF, B-CV, B-LC

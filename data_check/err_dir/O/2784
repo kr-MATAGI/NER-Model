@@ -1,0 +1,12 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-AF
+1	한	B-TI	B-TI	B-TI, O, B-QT, B-EV, I-TI
+2	시간	I-TI	I-TI	I-TI, O, B-TI, I-QT, I-TR
+3	몇	O	I-TI	I-TI, O, B-TI, I-QT, I-TR
+4	분	O	O	O, I-TI, B-TI, I-QT, I-TR
+5	정도	O	O	O, I-TI, I-QT, B-TI, I-TR
+6	##로	O	O	O, I-TI, I-QT, I-OG, B-CV
+7	할려고	O	O	O, B-CV, B-OG, B-TM, B-QT
+8	합니다	O	O	O, B-CV, B-TM, B-OG, B-LC
+9	.	O	O	O, B-CV, B-OG, B-LC, B-QT
+10	[SEP]	O	O	O, B-CV, I-OG, B-QT, B-OG

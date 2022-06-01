@@ -1,0 +1,12 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
+1	그게	O	O	O, B-CV, B-LC, B-PS, B-TM
+2	바로	O	O	O, B-CV, B-PS, B-TM, B-LC
+3	이제	O	O	O, B-CV, B-PS, B-OG, B-AF
+4	위력	O	B-CV	B-CV, O, I-CV, B-PS, B-AF
+5	##에	O	O	O, I-CV, I-AF, I-TR, I-PS
+6	의한	O	O	O, I-CV, B-CV, B-PS, I-PS
+7	성폭력	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-FD
+8	##인	O	O	O, I-CV, I-AF, I-OG, I-EV
+9	건데	O	O	O, B-CV, B-OG, I-CV, B-LC
+10	[SEP]	O	O	O, B-CV, I-AF, B-LC, B-AF

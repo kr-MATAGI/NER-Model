@@ -1,0 +1,25 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
+1	서장훈	B-PS	B-PS	B-PS, O, B-OG, B-AF, I-PS
+2	##은	O	O	O, I-PS, B-CV, I-OG, I-AF
+3	이날	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-QT
+4	종료	O	O	O, I-DT, B-CV, I-EV, B-OG
+5	28	B-TI	B-TI	B-TI, B-QT, O, B-EV, I-TI
+6	##초	I-TI	I-TI	I-TI, I-QT, O, I-TR, I-EV
+7	전	I-TI	I-TI	I-TI, O, I-TR, I-QT, I-EV
+8	,	O	O	O, I-TI, I-QT, I-EV, B-LC
+9	2	B-QT	B-QT	B-QT, O, I-QT, B-TM, B-TI
+10	##점	I-QT	I-QT	I-QT, O, I-TM, I-LC, I-TI
+11	차	O	O	O, I-QT, B-QT, B-TM, B-CV
+12	앞선	O	O	O, B-TM, B-CV, B-OG, I-QT
+13	상황	O	O	O, B-TM, B-CV, I-QT, B-QT
+14	##에서	O	O	O, B-CV, B-TM, B-QT, B-PS
+15	쐐기	O	O	O, B-TM, B-QT, B-AF, B-CV
+16	2	B-QT	B-QT	B-QT, I-QT, B-TM, O, B-EV
+17	##점	I-QT	I-QT	I-QT, O, I-TM, I-EV, I-AF
+18	##포	O	I-QT	I-QT, O, I-TM, I-LC, I-EV
+19	##를	O	O	O, I-QT, I-EV, I-AF, B-CV
+20	터뜨렸	O	O	O, B-CV, B-TM, B-LC, B-OG
+21	##다	O	O	O, B-CV, B-TM, B-LC, I-OG
+22	.	O	O	O, B-CV, B-LC, B-TM, B-PS
+23	[SEP]	O	O	O, B-CV, B-TM, B-LC, B-PS

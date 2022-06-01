@@ -1,0 +1,13 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
+1	북한	O	B-LC	B-LC, O, B-OG, B-FD, B-PS
+2	##적	O	O	O, I-LC, I-OG, I-FD, B-LC
+3	요소	O	O	O, I-LC, I-OG, I-CV, I-PS
+4	##가	O	O	O, B-PS, B-CV, I-AF, I-OG
+5	반드시	O	O	O, B-CV, B-LC, B-OG, B-QT
+6	들어	O	O	O, B-CV, B-LC, B-OG, B-QT
+7	있	O	O	O, B-PS, I-AF, B-CV, I-QT
+8	##는	O	O	O, B-CV, I-AF, I-OG, B-OG
+9	겁니다	O	O	O, B-CV, B-OG, B-LC, B-PS
+10	.	O	O	O, B-CV, B-LC, B-PS, I-AF
+11	[SEP]	O	O	O, B-CV, B-LC, I-AF, B-FD

@@ -1,0 +1,15 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-QT
+1	졸지	O	O	O, B-CV, B-TM, B-PS, B-OG
+2	##에	O	O	O, B-PS, B-OG, B-CV, B-QT
+3	사업	O	O	O, B-TM, B-CV, B-LC, B-OG
+4	규모	O	O	O, B-TM, B-CV, B-OG, B-QT
+5	##가	O	O	O, B-PS, B-QT, B-OG, B-CV
+6	갑	O	O	O, B-QT, I-QT, B-PS, B-DT
+7	##절	O	I-QT	I-QT, O, B-QT, I-LC, I-PS
+8	##로	O	O	O, I-QT, B-QT, B-PS, I-PS
+9	커진	O	O	O, I-QT, B-CV, B-QT, B-OG
+10	셈	O	O	O, B-CV, B-TM, B-OG, I-QT
+11	##이다	O	O	O, B-CV, B-TM, I-OG, I-QT
+12	.	O	O	O, B-CV, B-TM, B-PS, B-QT
+13	[SEP]	O	O	O, B-CV, B-TM, B-QT, I-QT

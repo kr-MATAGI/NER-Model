@@ -1,0 +1,24 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-EV, I-OG, I-QT
+1	시	O	B-OG	B-OG, O, I-OG, B-CV, B-EV
+2	##교육	O	I-OG	I-OG, O, B-OG, I-EV, I-CV
+3	##청	O	I-OG	I-OG, O, B-OG, I-EV, I-CV
+4	##은	O	O	O, I-OG, I-EV, B-CV, I-AF
+5	지원	O	O	O, B-OG, B-TM, B-CV, B-LC
+6	##을	O	O	O, B-CV, I-OG, B-OG, B-TM
+7	받아	O	O	O, B-LC, B-TM, B-CV, B-OG
+8	학생	B-CV	B-CV	B-CV, O, B-TM, B-OG, I-CV
+9	##과	O	O	O, I-CV, I-EV, B-CV, I-OG
+10	부모	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-TM
+11	면접	O	O	O, I-CV, I-EV, B-TM, B-CV
+12	##을	O	O	O, B-CV, B-OG, I-EV, B-LC
+13	거쳐	O	O	O, B-OG, B-LC, B-CV, B-TM
+14	최종	O	O	O, B-CV, B-LC, B-TM, B-EV
+15	합격자	B-CV	B-CV	B-CV, O, I-CV, B-AF, B-QT
+16	##를	O	O	O, I-CV, B-CV, I-EV, I-OG
+17	뽑	O	O	O, B-CV, B-OG, B-TM, B-LC
+18	##을	O	O	O, B-CV, B-OG, B-LC, I-OG
+19	예정	O	O	O, B-CV, B-OG, B-TM, B-LC
+20	##이다	O	O	O, B-CV, B-OG, B-TM, I-EV
+21	.	O	O	O, B-OG, B-LC, B-CV, B-PS
+22	[SEP]	O	O	O, B-CV, B-OG, I-OG, B-LC

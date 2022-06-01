@@ -1,0 +1,22 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-EV, B-CV, I-OG, I-CV
+1	세계	B-EV	B-EV	B-EV, O, B-LC, B-CV, B-TM
+2	##음식	I-EV	I-EV	I-EV, O, I-LC, I-TM, B-EV
+3	##관광	I-EV	I-EV	I-EV, O, I-LC, I-OG, I-TM
+4	##축제	I-EV	I-EV	I-EV, O, I-LC, I-OG, I-TM
+5	##는	O	O	O, I-EV, I-OG, I-AF, I-DT
+6	일주일	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
+7	##간	I-DT	I-DT	I-DT, O, I-EV, I-QT, B-DT
+8	전주	B-LC	B-LC	B-LC, O, B-AF, I-LC, B-OG
+9	한옥마을	B-LC	B-LC	B-LC, I-LC, O, B-AF, I-AF
+10	##과	O	O	O, I-LC, I-AF, B-LC, B-CV
+11	월드컵	O	B-AF	B-AF, O, B-LC, B-CV, B-EV
+12	##경기	O	I-AF	I-AF, O, I-LC, I-EV, B-AF
+13	##장	O	I-AF	I-AF, O, I-LC, I-EV, I-CV
+14	등	O	O	O, I-AF, I-LC, I-EV, B-LC
+15	##에서	O	O	O, B-CV, B-LC, B-OG, B-PS
+16	열릴	O	O	O, B-CV, B-OG, B-LC, B-TM
+17	예정	O	O	O, B-CV, B-OG, B-TM, B-QT
+18	##이다	O	O	O, B-CV, I-EV, B-OG, B-QT
+19	.	O	O	O, B-LC, B-CV, I-EV, B-OG
+20	[SEP]	O	O	O, B-LC, B-CV, I-EV, B-OG

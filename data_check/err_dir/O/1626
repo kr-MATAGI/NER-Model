@@ -1,0 +1,18 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-QT
+1	경남	B-OG	B-OG	B-OG, B-LC, O, B-AF, B-EV
+2	##도	I-OG	I-OG	I-OG, O, I-EV, B-OG, I-LC
+3	##의회	I-OG	I-OG	I-OG, O, I-EV, I-LC, I-AF
+4	,	O	O	O, I-OG, I-EV, I-AF, B-CV
+5	전국	O	O	O, B-CV, B-LC, B-TM, B-OG
+6	첫	O	O	O, B-QT, B-CV, B-TM, B-LC
+7	발의	O	O	O, B-CV, B-OG, I-QT, B-TM
+8	…	O	O	O, I-OG, B-CV, B-OG, B-PS
+9	자손	O	B-CV	B-CV, O, B-TM, B-AM, I-CV
+10	포함	O	O	O, I-CV, B-CV, B-TM, I-QT
+11	복지	O	O	O, B-CV, B-TM, I-CV, B-FD
+12	·	O	O	O, I-CV, B-PS, I-OG, B-CV
+13	건강	O	O	O, B-CV, B-TM, I-CV, B-PS
+14	시책	O	O	O, B-CV, I-CV, B-TM, B-PS
+15	담아	O	O	O, B-CV, I-CV, B-OG, B-PS
+16	[SEP]	O	O	O, B-CV, B-OG, B-LC, B-TM

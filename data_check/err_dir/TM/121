@@ -1,0 +1,14 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-AF
+1	[	O	O	O, B-AF, B-OG, B-LC, B-PS
+2	만물	O	O	O, B-AF, B-PS, B-CV, B-TM
+3	##상	O	O	O, I-AF, I-OG, I-PS, I-CV
+4	]	O	O	O, I-AF, I-OG, B-PS, I-EV
+5	1918	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-LC
+6	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
+7	한국	B-LC	B-LC	B-LC, B-OG, O, I-DT, I-LC
+8	##의	O	O	O, I-LC, I-AF, I-OG, B-LC
+9	스페인	B-TM	B-LC	B-LC, O, B-CV, B-OG, B-PS
+10	##독	I-TM	O	O, B-CV, B-TM, I-LC, I-CV
+11	##감	I-TM	O	O, I-CV, I-TM, I-LC, I-TR
+12	[SEP]	O	O	O, I-CV, B-LC, I-AF, I-TM

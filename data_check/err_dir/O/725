@@ -1,0 +1,15 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-CV, B-CV, I-OG, I-AF
+1	우	O	O	O, B-PS, B-AM, B-LC, B-AF
+2	##탄	O	I-PS	I-PS, O, I-AM, I-LC, B-PS
+3	##이	O	O	O, I-PS, B-PS, B-AM, I-AM
+4	##는	O	O	O, I-PS, B-AM, B-PS, I-AM
+5	한때	O	O	O, B-CV, B-PS, B-TM, I-PS
+6	최고	O	O	O, B-PS, B-AM, B-CV, B-TM
+7	##의	O	O	O, B-PS, I-PS, B-AM, I-AM
+8	동물	O	O	O, B-AM, B-PS, I-PS, I-AM
+9	스타	B-CV	B-CV	B-CV, O, B-PS, I-CV, B-AM
+10	##였	O	O	O, I-CV, I-PS, I-AF, B-PS
+11	##다	O	O	O, B-CV, I-CV, B-PS, B-TM
+12	.	O	O	O, B-PS, B-AM, B-CV, B-LC
+13	[SEP]	O	O	O, B-PS, B-AM, B-CV, I-PS

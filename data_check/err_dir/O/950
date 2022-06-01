@@ -1,0 +1,24 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, B-CV, I-EV, I-CV
+1	또한	O	O	O, B-CV, B-TM, B-QT, B-OG
+2	구명	O	B-CV	B-CV, O, B-AF, B-AM, B-TM
+3	##조	O	I-CV	I-CV, O, I-AF, I-AM, I-TM
+4	##끼	O	I-CV	I-CV, O, I-AF, I-AM, I-TM
+5	##를	O	O	O, I-CV, I-AF, B-CV, I-TM
+6	입	O	O	O, B-CV, B-AM, B-PS, B-TM
+7	##은	O	O	O, B-PS, B-CV, B-LC, I-CV
+8	주검	O	O	O, B-PS, B-AM, B-CV, B-AF
+9	1	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-LC
+10	##구	I-QT	I-QT	I-QT, O, I-LC, I-PS, I-AF
+11	##도	O	O	O, I-QT, I-AF, I-EV, I-OG
+12	발견	O	O	O, B-CV, B-OG, B-TM, I-QT
+13	##했	O	O	O, B-OG, B-PS, B-LC, I-OG
+14	##다고	O	O	O, I-OG, B-OG, B-PS, I-AF
+15	수색	O	B-OG	B-OG, O, B-CV, I-OG, B-AF
+16	##구조	O	I-OG	I-OG, O, B-OG, I-CV, I-AF
+17	##청	O	I-OG	I-OG, O, I-CV, I-AF, B-OG
+18	##은	O	O	O, I-OG, B-OG, B-CV, I-AF
+19	밝혔	O	O	O, B-OG, I-OG, B-CV, B-LC
+20	##다	O	O	O, B-CV, I-OG, B-OG, B-LC
+21	.	O	O	O, B-OG, B-LC, B-CV, B-PS
+22	[SEP]	O	O	O, B-CV, B-OG, B-LC, I-OG

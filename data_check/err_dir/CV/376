@@ -1,0 +1,12 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
+1	가수	B-CV	B-CV	B-CV, O, I-CV, B-PS, B-OG
+2	박진영	B-PS	B-PS	B-PS, O, I-PS, B-OG, B-AF
+3	##씨	O	O	O, I-PS, I-CV, I-AF, B-CV
+4	##가	O	O	O, B-CV, B-PS, B-LC, B-TM
+5	5	B-CV	B-QT	B-QT, B-CV, B-DT, O, B-OG
+6	##촌	I-CV	I-QT	I-QT, I-CV, O, I-DT, I-OG
+7	조카	I-CV	B-CV	B-CV, I-CV, I-QT, O, I-DT
+8	##다	O	O	O, I-CV, I-QT, I-OG, I-AF
+9	.	O	O	O, B-CV, I-CV, B-PS, I-AF
+10	[SEP]	O	O	O, B-CV, I-CV, I-AF, B-PS

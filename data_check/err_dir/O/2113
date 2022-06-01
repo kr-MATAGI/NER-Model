@@ -1,0 +1,8 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-CV, I-OG, B-CV, I-AF
+1	동남아	B-LC	B-LC	B-LC, O, B-OG, B-CV, I-LC
+2	##나	O	O	O, I-LC, I-OG, I-AF, I-CV
+3	중국	O	B-LC	B-LC, O, B-OG, B-CV, I-LC
+4	##요	O	O	O, I-LC, I-CV, I-AF, B-CV
+5	##리에	O	O	O, I-CV, I-LC, B-LC, I-AF
+6	[SEP]	O	O	O, B-LC, B-CV, I-LC, I-CV

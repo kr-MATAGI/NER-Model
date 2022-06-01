@@ -1,0 +1,14 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
+1	물론	O	O	O, B-CV, B-TM, B-LC, B-QT
+2	판권	B-CV	O	O, B-CV, B-LC, B-TM, B-AF
+3	##도	O	O	O, B-LC, B-CV, B-OG, B-PS
+4	우리나라	O	O	O, B-LC, B-CV, B-OG, B-TM
+5	제작사	O	O	O, B-CV, B-OG, B-LC, I-OG
+6	##들	O	O	O, I-OG, I-CV, B-LC, B-PS
+7	##에	O	O	O, B-LC, B-CV, B-OG, I-OG
+8	##게	O	O	O, B-LC, B-CV, B-TM, B-OG
+9	있	O	O	O, B-CV, B-LC, B-PS, B-OG
+10	##다	O	O	O, B-CV, I-OG, B-LC, B-OG
+11	.	O	O	O, B-LC, B-CV, B-OG, B-AF
+12	[SEP]	O	O	O, B-CV, B-LC, B-OG, I-OG

@@ -1,0 +1,23 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-EV, I-OG, I-CV
+1	하지만	O	O	O, B-CV, B-TM, B-OG, B-LC
+2	고집	O	O	O, B-CV, B-LC, B-OG, B-TM
+3	##스럽	O	O	O, B-PS, B-LC, I-LC, I-OG
+4	##게	O	O	O, B-LC, B-PS, I-OG, B-TM
+5	중앙	O	O	O, B-TM, B-LC, B-CV, B-QT
+6	위주	O	O	O, I-TM, B-TM, I-LC, B-LC
+7	##의	O	O	O, B-PS, B-LC, B-TM, B-QT
+8	패스	B-TM	B-TM	B-TM, O, B-TR, B-CV, I-TM
+9	##플레이	I-TM	O	O, I-TM, I-TR, I-CV, I-QT
+10	##로	O	O	O, I-TM, I-CV, I-QT, B-CV
+11	일관	O	O	O, B-CV, B-LC, B-TM, B-OG
+12	##하	O	O	O, B-LC, B-CV, B-PS, B-OG
+13	##며	O	O	O, B-CV, B-LC, B-OG, B-TM
+14	답답	O	O	O, B-CV, B-TM, B-LC, B-EV
+15	##한	O	O	O, B-CV, B-LC, B-TM, I-EV
+16	경기	O	O	O, B-CV, B-LC, B-TM, I-EV
+17	##를	O	O	O, B-CV, I-CV, I-EV, I-OG
+18	펼쳤	O	O	O, B-CV, B-LC, B-TM, B-OG
+19	##다	O	O	O, B-CV, B-TM, B-LC, I-EV
+20	.	O	O	O, B-CV, B-LC, B-TM, B-PS
+21	[SEP]	O	O	O, B-CV, B-LC, B-TM, I-OG

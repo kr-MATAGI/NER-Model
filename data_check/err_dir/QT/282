@@ -1,0 +1,21 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-AF
+1	쿠웨이트	B-OG	B-LC	B-LC, B-OG, B-AF, O, B-PS
+2	##는	O	O	O, I-OG, I-AF, I-LC, I-EV
+3	배럴	O	O	O, B-MT, B-AF, B-CV, B-LC
+4	##달	O	O	O, I-MT, I-OG, I-AF, I-LC
+5	50	B-QT	O	O, B-QT, I-QT, I-OG, I-LC
+6	##달	I-QT	O	O, I-QT, B-QT, I-LC, I-OG
+7	##러	I-QT	O	O, I-QT, B-QT, I-LC, I-OG
+8	##까	O	O	O, I-QT, B-QT, B-PS, I-OG
+9	##지도	O	O	O, I-QT, B-QT, B-PS, I-OG
+10	균형	O	O	O, B-PS, B-LC, I-QT, B-TM
+11	##재	O	O	O, B-PS, B-LC, I-PS, I-LC
+12	##정	O	O	O, I-LC, I-PS, B-PS, B-LC
+13	##을	O	O	O, B-CV, B-LC, B-OG, B-PS
+14	맞출	O	O	O, B-LC, B-PS, B-CV, B-OG
+15	수	O	O	O, B-PS, B-LC, B-QT, B-TM
+16	있	O	O	O, B-CV, B-LC, B-PS, B-QT
+17	##다	O	O	O, B-CV, B-LC, B-QT, I-OG
+18	.	O	O	O, B-LC, B-PS, B-OG, I-OG
+19	[SEP]	O	O	O, B-LC, B-PS, I-QT, I-OG

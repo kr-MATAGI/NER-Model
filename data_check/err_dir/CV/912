@@ -1,0 +1,12 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
+1	키	B-CV	B-AF	B-AF, B-TM, B-OG, O, B-CV
+2	##노	I-CV	I-AF	I-AF, I-TM, I-OG, I-CV, O
+3	##트	I-CV	I-AF	I-AF, I-TM, I-CV, O, I-OG
+4	##스피	I-CV	I-AF	I-AF, I-TM, I-CV, O, I-OG
+5	##카	I-CV	I-AF	I-AF, I-CV, I-TM, O, I-OG
+6	##를	O	O	O, I-AF, I-CV, I-OG, I-EV
+7	전	O	O	O, B-LC, B-OG, B-PS, B-TM
+8	아시아	B-LC	B-LC	B-LC, O, B-OG, I-LC, B-PS
+9	##에서	O	O	O, I-LC, I-OG, I-AF, B-LC
+10	[SEP]	O	O	O, B-LC, B-CV, I-AF, B-AF

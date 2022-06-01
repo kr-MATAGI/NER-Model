@@ -1,0 +1,26 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
+1	시	O	B-OG	B-OG, O, B-LC, B-PS, B-CV
+2	주요	O	O	O, I-OG, B-TM, B-CV, B-LC
+3	현안	O	O	O, B-CV, B-OG, B-TM, B-LC
+4	##인	O	O	O, B-CV, B-OG, B-PS, B-LC
+5	도시	B-OG	B-OG	B-OG, O, B-AF, B-CV, B-EV
+6	##개발	I-OG	I-OG	I-OG, O, I-CV, I-AF, B-OG
+7	##공사	I-OG	I-OG	I-OG, O, I-AF, I-CV, B-OG
+8	설립	O	O	O, I-OG, I-AF, I-CV, B-CV
+9	##과	O	O	O, B-LC, B-PS, I-OG, B-OG
+10	정자	B-LC	B-LC	B-LC, B-AF, O, B-OG, B-PS
+11	##동	I-LC	I-LC	I-LC, I-AF, O, I-OG, B-LC
+12	공공	O	O	O, B-AF, I-AF, B-CV, I-LC
+13	##청사	O	O	O, I-AF, I-CV, I-LC, I-OG
+14	터	O	O	O, I-AF, I-CV, B-TM, B-CV
+15	매각	O	O	O, B-TM, B-CV, I-CV, B-AM
+16	등	O	O	O, B-CV, B-LC, B-TM, B-OG
+17	##을	O	O	O, B-CV, B-OG, B-LC, B-TM
+18	논의	O	O	O, B-CV, B-LC, B-OG, B-TM
+19	##하	O	O	O, B-LC, B-PS, B-CV, B-OG
+20	##자	O	O	O, B-CV, I-EV, B-PS, B-OG
+21	##는	O	O	O, B-OG, B-PS, I-OG, B-CV
+22	것	O	O	O, B-OG, B-CV, B-PS, B-LC
+23	.	O	O	O, I-OG, B-LC, I-EV, B-CV
+24	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-TM

@@ -1,0 +1,25 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-QT
+1	어머니	B-CV	B-CV	B-CV, O, B-PS, B-AF, B-OG
+2	역	O	O	O, I-CV, B-TM, I-QT, B-QT
+3	##의	O	O	O, B-PS, B-CV, I-AF, B-QT
+4	손	B-PS	B-PS	B-PS, B-OG, O, B-LC, I-PS
+5	##숙	I-PS	I-PS	I-PS, O, I-OG, I-LC, B-PS
+6	씨	O	O	O, I-PS, I-OG, I-QT, I-AF
+7	##와	O	O	O, B-CV, B-PS, B-LC, B-QT
+8	약사	B-CV	B-LC	B-LC, B-PS, O, B-CV, B-AF
+9	역	O	O	O, I-LC, B-TM, I-AF, I-PS
+10	##의	O	O	O, B-PS, B-CV, I-AF, B-QT
+11	이동	B-PS	B-PS	B-PS, B-OG, O, B-LC, I-PS
+12	##근	I-PS	I-PS	I-PS, O, I-OG, I-LC, B-PS
+13	씨	O	O	O, I-PS, I-OG, I-QT, B-CV
+14	##를	O	O	O, B-CV, B-LC, B-TM, B-PS
+15	빼	O	O	O, B-CV, B-PS, B-LC, B-TM
+16	##고	O	O	O, B-PS, B-LC, B-OG, I-QT
+17	모두	O	O	O, B-CV, B-QT, B-PS, B-TM
+18	새로	O	O	O, B-CV, B-OG, B-PS, B-TM
+19	합류	O	O	O, B-CV, B-TM, B-OG, I-OG
+20	##했	O	O	O, B-CV, B-OG, B-PS, I-OG
+21	##다	O	O	O, B-CV, I-OG, B-OG, B-TM
+22	.	O	O	O, B-CV, B-PS, B-LC, B-TM
+23	[SEP]	O	O	O, B-CV, B-PS, B-TM, B-LC

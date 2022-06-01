@@ -1,0 +1,20 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, I-EV, B-CV, I-CV
+1	미국	B-OG	B-OG	B-OG, B-LC, O, B-PS, B-EV
+2	##과	O	O	O, I-OG, B-OG, I-LC, I-EV
+3	인도네시아	B-OG	B-OG	B-OG, B-LC, O, I-OG, B-EV
+4	간	O	O	O, I-OG, I-LC, I-EV, B-CV
+5	교역	O	O	O, B-LC, B-OG, B-TM, B-CV
+6	##에서	O	O	O, B-CV, I-OG, I-EV, B-LC
+7	사상	O	O	O, B-OG, B-LC, B-CV, B-QT
+8	최대	O	O	O, B-QT, B-LC, B-OG, B-PS
+9	##의	O	O	O, B-PS, B-OG, B-LC, I-QT
+10	거래	O	O	O, B-CV, B-LC, B-OG, B-TM
+11	##라고	O	O	O, B-PS, B-OG, I-OG, B-LC
+12	백악관	B-AF	B-OG	B-OG, B-AF, B-PS, O, B-LC
+13	##은	O	O	O, I-OG, I-AF, I-EV, B-CV
+14	설명	O	O	O, I-OG, B-CV, B-OG, B-TM
+15	##했	O	O	O, I-OG, B-OG, B-LC, B-CV
+16	##다	O	O	O, B-CV, I-OG, B-OG, B-LC
+17	.	O	O	O, B-OG, B-LC, B-CV, B-PS
+18	[SEP]	O	O	O, B-OG, B-CV, B-LC, I-OG

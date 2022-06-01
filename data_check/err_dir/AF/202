@@ -1,0 +1,21 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
+1	마지막	O	O	O, B-CV, B-PS, B-TM, B-LC
+2	변수	O	O	O, B-CV, B-PS, B-TM, B-LC
+3	##는	O	O	O, B-CV, I-CV, B-PS, B-OG
+4	2019	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
+5	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
+6	상반기	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
+7	완공	O	O	O, B-LC, B-AF, I-DT, B-TM
+8	예정	O	O	O, I-AF, B-PS, B-LC, B-AF
+9	##인	O	O	O, B-LC, B-PS, B-AF, I-AF
+10	롯	B-AF	O	O, B-AF, B-LC, B-PS, B-OG
+11	##카	I-AF	O	O, I-AF, I-LC, I-PS, I-OG
+12	##쇼	I-AF	O	O, I-AF, I-LC, B-LC, B-AF
+13	##무라	I-AF	O	O, I-AF, I-LC, I-PS, B-LC
+14	재	O	O	O, I-AF, I-LC, B-LC, B-AF
+15	##처리	O	O	O, I-AF, I-LC, I-OG, I-TM
+16	시설	O	O	O, I-AF, B-LC, B-AF, I-LC
+17	##이다	O	O	O, I-AF, B-CV, B-TM, I-OG
+18	.	O	O	O, B-LC, B-PS, B-AF, B-OG
+19	[SEP]	O	O	O, B-LC, B-AF, I-AF, B-CV

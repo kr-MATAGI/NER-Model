@@ -1,0 +1,13 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
+1	충남	B-OG	B-OG	B-OG, B-LC, O, B-EV, B-PS
+2	##고	I-OG	I-OG	I-OG, I-LC, O, I-EV, I-QT
+3	동창	I-OG	B-OG	B-OG, I-OG, B-CV, O, B-AF
+4	##산	I-OG	I-OG	I-OG, O, I-EV, I-CV, I-LC
+5	##악	I-OG	I-OG	I-OG, O, I-CV, I-EV, I-LC
+6	##회	I-OG	I-OG	I-OG, O, I-CV, I-EV, I-QT
+7	송	B-PS	B-PS	B-PS, I-PS, O, I-OG, B-OG
+8	##원	I-PS	I-PS	I-PS, I-OG, O, B-PS, I-LC
+9	##빈	I-PS	I-PS	I-PS, O, I-OG, I-LC, I-QT
+10	##씨	O	O	O, I-PS, I-OG, I-QT, I-AF
+11	[SEP]	O	O	O, B-CV, B-OG, I-OG, B-LC

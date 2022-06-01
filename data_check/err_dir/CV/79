@@ -1,0 +1,26 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-AF
+1	삿포로	B-EV	B-EV	B-EV, B-LC, B-AF, O, B-PS
+2	아시안	I-EV	I-EV	I-EV, B-EV, I-AF, I-LC, O
+3	##게임	I-EV	I-EV	I-EV, O, I-AF, B-EV, I-LC
+4	이틀	B-DT	B-DT	B-DT, I-EV, I-DT, O, B-QT
+5	##째	I-DT	I-DT	I-DT, O, I-EV, I-QT, B-DT
+6	…	O	O	O, I-DT, I-EV, I-AF, B-CV
+7	쇼트트랙	B-CV	B-CV	B-CV, B-PS, O, B-FD, B-AF
+8	최민	B-PS	B-PS	B-PS, I-PS, O, B-OG, B-CV
+9	##정	I-PS	I-PS	I-PS, O, I-OG, I-LC, I-AF
+10	·	O	O	O, I-PS, I-OG, I-AF, B-LC
+11	박세	B-PS	B-PS	B-PS, B-OG, O, I-PS, B-LC
+12	##영	I-PS	I-PS	I-PS, O, I-OG, B-PS, I-LC
+13	우승	O	O	O, B-CV, I-PS, I-OG, I-AF
+14	,	O	O	O, B-CV, B-OG, B-PS, B-LC
+15	이상	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-AF
+16	##화	I-PS	I-PS	I-PS, O, I-OG, I-LC, B-PS
+17	##는	O	O	O, I-PS, I-OG, I-AF, B-CV
+18	빙	B-CV	O	O, B-TM, B-AF, B-LC, B-CV
+19	##속	I-CV	O	O, I-AF, I-TM, I-LC, I-CV
+20	1000	B-QT	B-QT	B-QT, I-QT, O, I-AF, I-LC
+21	##m	I-QT	I-QT	I-QT, O, I-LC, I-TM, I-AF
+22	4	B-QT	B-QT	B-QT, I-QT, O, B-DT, B-TM
+23	##위	I-QT	I-QT	I-QT, O, I-LC, I-TM, I-OG
+24	[SEP]	O	O	O, I-QT, B-CV, I-EV, I-AF

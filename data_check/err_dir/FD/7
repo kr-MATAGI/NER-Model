@@ -1,0 +1,10 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, I-CV, I-EV, B-CV
+1	조각	B-FD	O	O, B-FD, B-TR, B-EV, B-CV
+2	외	O	O	O, I-FD, I-EV, B-FD, B-PS
+3	드로잉	B-FD	B-FD	B-FD, O, B-TR, B-TM, B-CV
+4	·	O	O	O, I-FD, I-EV, I-AF, I-OG
+5	서예	B-FD	B-FD	B-FD, O, B-TR, B-CV, I-FD
+6	##도	O	O	O, I-FD, I-EV, I-AF, I-OG
+7	눈길	O	O	O, B-TM, B-LC, B-CV, B-OG
+8	[SEP]	O	O	O, B-CV, B-FD, B-TM, I-EV

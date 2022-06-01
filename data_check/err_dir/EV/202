@@ -1,0 +1,16 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-EV, I-OG, B-CV, I-CV
+1	성남	B-OG	B-OG	B-OG, B-LC, O, I-OG, B-PS
+2	##고	I-OG	I-OG	I-OG, O, I-LC, B-OG, I-AF
+3	·	O	O	O, I-OG, I-LC, I-EV, I-AF
+4	상원	B-OG	B-OG	B-OG, I-OG, B-LC, O, B-PS
+5	##고	I-OG	I-OG	I-OG, O, I-LC, B-OG, I-AF
+6	오늘	B-DT	B-DT	B-DT, O, I-OG, I-DT, B-QT
+7	고교	B-EV	B-EV	B-EV, B-CV, O, I-EV, B-TM
+8	##야구	I-EV	I-EV	I-EV, I-CV, O, B-EV, B-CV
+9	##선	I-EV	I-EV	I-EV, I-CV, O, B-CV, B-EV
+10	##수	I-EV	I-EV	I-EV, I-CV, O, I-TM, I-AF
+11	##권	I-EV	I-EV	I-EV, O, I-CV, I-AF, I-OG
+12	결승	I-EV	B-EV	B-EV, I-EV, O, B-CV, B-LC
+13	격돌	O	O	O, I-EV, B-EV, I-OG, I-AF
+14	[SEP]	O	O	O, I-EV, B-OG, B-LC, B-EV

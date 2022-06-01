@@ -1,0 +1,25 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-EV, I-CV
+1	57	B-QT	B-QT	B-QT, O, I-QT, B-EV, B-DT
+2	##개	I-QT	I-QT	I-QT, O, I-EV, I-LC, I-OG
+3	회원국	O	B-CV	B-CV, O, I-QT, I-CV, B-EV
+4	대표	B-CV	B-CV	B-CV, O, I-CV, I-EV, I-QT
+5	등	O	O	O, I-CV, I-EV, B-CV, B-PS
+6	##이	O	O	O, B-PS, B-CV, B-LC, B-OG
+7	참석	O	O	O, B-CV, B-EV, B-PS, B-OG
+8	##한	O	O	O, I-EV, B-EV, B-OG, B-PS
+9	연차	O	O	O, B-EV, B-OG, B-CV, I-EV
+10	##총	O	O	O, I-EV, I-OG, B-EV, B-OG
+11	##회	O	O	O, I-EV, I-OG, B-EV, I-AF
+12	##에	O	O	O, I-EV, I-OG, B-CV, I-AF
+13	부총재	B-CV	B-CV	B-CV, O, B-OG, I-CV, B-EV
+14	##가	O	O	O, I-CV, I-EV, I-OG, B-CV
+15	불참	O	O	O, B-CV, B-TM, B-LC, B-EV
+16	##한	O	O	O, B-OG, B-LC, B-CV, B-PS
+17	것	O	O	O, B-CV, B-OG, B-LC, B-TM
+18	##은	O	O	O, B-CV, B-LC, B-OG, B-TM
+19	이례	O	O	O, B-CV, B-OG, B-LC, B-TM
+20	##적	O	O	O, I-OG, I-EV, B-PS, I-QT
+21	##이다	O	O	O, B-CV, I-OG, B-OG, I-EV
+22	.	O	O	O, B-LC, B-OG, B-PS, B-CV
+23	[SEP]	O	O	O, B-CV, I-EV, B-LC, B-OG

@@ -1,0 +1,25 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-AF
+1	팬티	O	B-CV	B-CV, O, B-AM, B-TM, B-AF
+2	##의	O	O	O, I-CV, I-AF, B-CV, I-EV
+3	엉덩이	B-AM	B-AM	B-AM, O, B-TM, B-TR, B-PS
+4	쪽	O	O	O, B-TM, I-TM, I-AM, B-AM
+5	##과	O	O	O, I-TM, B-TM, B-PS, B-CV
+6	기타	O	B-AF	B-AF, O, B-LC, B-TM, B-AM
+7	정면	O	O	O, B-TM, I-TM, B-QT, B-LC
+8	##에	O	O	O, I-TM, I-AF, B-TM, I-QT
+9	##는	O	O	O, B-CV, B-TM, B-LC, B-OG
+10	‘	O	O	O, B-CV, B-LC, B-OG, B-TM
+11	트럼프	B-PS	B-PS	B-PS, O, B-AF, B-OG, B-LC
+12	’	O	O	O, I-PS, I-AF, I-OG, B-CV
+13	란	O	O	O, B-TM, B-CV, B-LC, B-PS
+14	글씨	O	O	O, B-TM, B-CV, I-TM, B-PS
+15	##가	O	O	O, B-PS, B-CV, B-LC, B-OG
+16	선명	O	O	O, B-TM, B-CV, B-LC, B-PS
+17	##하	O	O	O, B-PS, B-LC, B-TM, I-TM
+18	##게	O	O	O, B-LC, B-PS, B-TM, B-CV
+19	박혀	O	O	O, B-TM, B-CV, B-LC, B-QT
+20	있	O	O	O, B-CV, B-TM, I-AF, I-QT
+21	##다	O	O	O, B-CV, B-TM, I-AF, I-OG
+22	.	O	O	O, B-LC, B-CV, B-TM, B-OG
+23	[SEP]	O	O	O, B-CV, B-LC, B-TM, I-AF

@@ -1,0 +1,15 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
+1	이제	O	O	O, B-CV, B-TM, I-CV, I-AF
+2	그	O	O	O, B-CV, B-TM, B-LC, B-AF
+3	~	O	O	O, B-CV, I-CV, I-AF, B-LC
+4	운전	O	O	O, B-CV, B-TM, B-AF, B-LC
+5	아	O	O	O, B-CV, B-TM, B-AF, I-AF
+6	~	O	O	O, I-AF, I-CV, I-TM, B-CV
+7	마티	B-AF	B-TM	B-TM, B-AF, O, B-OG, B-CV
+8	##즈	I-AF	I-TM	I-TM, I-AF, O, I-OG, I-CV
+9	##였	O	O	O, I-AF, I-TM, I-OG, I-EV
+10	##다	O	O	O, I-AF, B-CV, B-LC, B-TM
+11	마티	B-AF	B-TM	B-TM, B-AF, O, B-OG, B-CV
+12	##즈	I-AF	I-TM	I-TM, I-AF, O, I-OG, I-CV
+13	[SEP]	O	O	O, I-AF, I-TM, I-OG, I-CV

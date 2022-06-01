@@ -1,0 +1,21 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
+1	백악관	B-AF	B-OG	B-OG, B-AF, O, B-PS, B-LC
+2	##은	O	O	O, I-OG, I-AF, B-CV, I-EV
+3	미국인	B-CV	B-CV	B-CV, O, B-TM, I-CV, B-OG
+4	일자리	O	O	O, B-TM, I-CV, B-CV, I-TM
+5	##를	O	O	O, B-CV, I-AF, I-CV, B-TM
+6	13	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-PS
+7	##만	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
+8	개	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
+9	창출	O	O	O, I-QT, B-CV, B-TM, I-EV
+10	##할	O	O	O, B-OG, B-CV, B-PS, B-LC
+11	수	O	O	O, B-PS, B-CV, B-QT, B-OG
+12	있	O	O	O, B-CV, B-QT, B-PS, B-TM
+13	##는	O	O	O, B-OG, B-CV, B-PS, B-LC
+14	규모	O	O	O, B-CV, B-OG, B-TM, B-PS
+15	##라고	O	O	O, B-OG, B-CV, I-OG, B-PS
+16	밝혔	O	O	O, B-CV, B-OG, B-TM, B-LC
+17	##다	O	O	O, B-CV, I-OG, B-TM, B-OG
+18	.	O	O	O, B-OG, B-CV, B-LC, B-PS
+19	[SEP]	O	O	O, B-CV, B-OG, I-OG, B-LC

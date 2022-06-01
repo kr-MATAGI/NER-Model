@@ -1,0 +1,21 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
+1	인격	O	O	O, B-CV, B-TM, B-AM, I-CV
+2	##이	O	O	O, I-CV, B-PS, B-CV, I-TR
+3	##라는	O	O	O, I-CV, B-PS, I-AF, B-CV
+4	게	O	O	O, B-PS, B-CV, B-LC, B-TM
+5	뭐	O	O	O, B-CV, B-PS, B-TM, I-CV
+6	##냐	O	O	O, B-PS, I-CV, I-AF, B-CV
+7	하	O	O	O, B-CV, B-TM, B-LC, B-PS
+8	##는	O	O	O, B-CV, B-PS, B-LC, B-TM
+9	문제	O	O	O, B-CV, B-EV, B-PS, B-TM
+10	라든가	O	O	O, B-CV, B-PS, B-QT, B-AF
+11	디	B-MT	B-TM	B-TM, O, B-TR, B-AF, B-CV
+12	##엔	I-MT	I-TM	I-TM, O, I-MT, I-TR, I-AF
+13	##에이	I-MT	I-TM	I-TM, O, I-MT, I-TR, I-AF
+14	##가	O	O	O, I-TM, I-AF, I-OG, I-EV
+15	전부	O	O	O, B-CV, B-QT, B-LC, B-OG
+16	작동	O	O	O, B-CV, B-LC, B-TM, B-PS
+17	##해서	O	O	O, B-CV, B-PS, B-LC, I-AF
+18	한다면	O	O	O, B-CV, B-TM, B-OG, B-LC
+19	[SEP]	O	O	O, B-CV, B-LC, B-TM, I-AF

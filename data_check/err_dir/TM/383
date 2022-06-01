@@ -1,0 +1,11 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
+1	홈페이지	O	O	O, B-TM, B-CV, B-QT, B-AF
+2	뭐	O	O	O, B-CV, B-TM, B-OG, I-CV
+3	이메일	B-TM	O	O, B-TM, B-CV, B-QT, B-TR
+4	전화	O	O	O, B-TM, I-TM, B-CV, B-QT
+5	##도	O	O	O, I-TM, I-CV, B-CV, I-QT
+6	안	O	O	O, B-CV, B-TM, B-OG, B-QT
+7	받	O	O	O, B-TM, B-CV, I-TM, B-LC
+8	##고	O	O	O, B-CV, I-TM, I-CV, I-OG
+9	[SEP]	O	O	O, B-CV, B-TM, B-LC, B-QT

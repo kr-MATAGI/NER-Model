@@ -1,0 +1,21 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
+1	메이	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
+2	##티	I-PS	I-PS	I-PS, O, I-OG, I-LC, B-PS
+3	##앙	I-PS	I-PS	I-PS, O, I-OG, I-LC, I-CV
+4	##은	O	O	O, I-PS, B-CV, I-OG, I-LC
+5	더듬	O	O	O, B-CV, B-LC, B-AM, B-FD
+6	##거리	O	O	O, I-CV, I-LC, B-PS, I-PS
+7	##는	O	O	O, B-CV, B-LC, B-PS, B-OG
+8	한국	B-LC	O	O, B-LC, B-CV, B-FD, B-PS
+9	##말로	O	O	O, I-CV, I-LC, B-CV, B-FD
+10	“	O	O	O, B-PS, B-LC, B-CV, I-CV
+11	한국	O	B-LC	B-LC, O, B-CV, B-OG, I-LC
+12	사람	O	O	O, I-CV, B-CV, I-LC, B-AM
+13	##들	O	O	O, I-CV, B-PS, I-AF, B-CV
+14	너무	O	O	O, B-CV, B-PS, I-CV, B-OG
+15	착하	O	O	O, B-CV, B-PS, B-LC, I-CV
+16	##고	O	O	O, B-PS, I-CV, B-CV, I-AF
+17	고마워요	O	O	O, B-CV, B-PS, I-CV, B-LC
+18	.	O	O	O, B-CV, B-PS, I-CV, B-LC
+19	[SEP]	O	O	O, B-CV, I-CV, B-LC, B-PS

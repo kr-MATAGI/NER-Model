@@ -1,0 +1,17 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, I-EV, I-CV, B-CV
+1	경남	B-OG	B-OG	B-OG, B-LC, O, B-PS, B-AF
+2	##고	I-OG	I-OG	I-OG, I-LC, O, I-EV, I-PS
+3	보물	O	O	O, B-PS, B-CV, B-AF, I-OG
+4	vs	O	O	O, I-AF, B-PS, I-OG, B-AF
+5	효	B-OG	B-OG	B-OG, B-LC, O, B-PS, B-AF
+6	##천	I-OG	I-OG	I-OG, I-LC, O, I-PS, I-AF
+7	##고	I-OG	I-OG	I-OG, I-LC, O, I-PS, I-AF
+8	괴물	O	O	O, B-AF, I-OG, B-PS, B-CV
+9	…	O	O	O, I-AF, I-OG, B-LC, B-PS
+10	좌우	O	B-TM	B-TM, O, B-CV, B-AM, B-TR
+11	에이스	B-CV	B-CV	B-CV, O, I-TM, B-TM, I-CV
+12	16	B-EV	B-EV	B-EV, O, I-EV, B-DT, B-QT
+13	##강	I-EV	I-EV	I-EV, I-QT, O, B-EV, I-TM
+14	맞대결	O	O	O, I-EV, B-CV, B-EV, B-LC
+15	[SEP]	O	O	O, B-LC, I-EV, B-CV, B-OG

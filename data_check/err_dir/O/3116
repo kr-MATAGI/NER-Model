@@ -1,0 +1,23 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
+1	짐	B-PS	B-PS	B-PS, B-OG, O, B-LC, I-PS
+2	콜린	I-PS	I-PS	I-PS, B-PS, I-OG, O, I-LC
+3	##스	I-PS	I-PS	I-PS, O, I-OG, I-LC, I-QT
+4	##를	O	O	O, I-PS, B-CV, I-OG, I-AF
+5	만난	O	O	O, B-CV, B-OG, B-EV, B-TM
+6	회의실	O	O	O, B-TM, B-AF, B-CV, B-FD
+7	앞	O	B-TM	B-TM, O, I-TM, B-CV, B-TR
+8	화이트	O	O	O, B-TM, I-TM, B-CV, B-AF
+9	##보드	O	O	O, I-TM, I-AF, I-CV, I-TR
+10	위	O	O	O, B-TM, B-CV, I-TM, B-AM
+11	##엔	O	O	O, I-TM, B-CV, B-TM, I-CV
+12	몇	O	O	O, B-TM, B-CV, B-OG, B-PS
+13	개의	O	O	O, B-TM, B-CV, B-OG, B-PS
+14	숫자	O	O	O, B-TM, B-FD, B-CV, B-MT
+15	##들이	O	O	O, B-CV, I-AF, I-CV, I-QT
+16	쓰여	O	O	O, B-CV, B-TM, B-LC, B-OG
+17	있	O	O	O, B-CV, B-TM, B-PS, I-AF
+18	##었	O	O	O, B-CV, B-TM, B-LC, B-OG
+19	##다	O	O	O, B-CV, B-TM, I-EV, B-LC
+20	.	O	O	O, B-CV, B-TM, B-PS, B-LC
+21	[SEP]	O	O	O, B-CV, B-TM, B-PS, B-LC

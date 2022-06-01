@@ -1,0 +1,21 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-CV, B-CV, I-OG, I-AF
+1	하지만	O	O	O, B-CV, B-OG, B-PS, B-QT
+2	챔피언	B-CV	B-CV	B-CV, O, B-PS, I-CV, B-AF
+3	##에	O	O	O, I-CV, B-CV, I-OG, I-AF
+4	##게	O	O	O, B-CV, B-PS, I-CV, B-OG
+5	주	O	O	O, B-CV, B-PS, I-CV, B-QT
+6	##는	O	O	O, B-CV, B-PS, I-CV, B-OG
+7	흰색	B-TM	B-TM	B-TM, O, B-CV, B-LC, B-AF
+8	재킷	O	B-CV	B-CV, O, I-CV, I-TM, B-AF
+9	##의	O	O	O, I-CV, I-AF, B-CV, I-OG
+10	주인공	B-CV	B-CV	B-CV, O, B-PS, I-CV, B-TM
+11	##은	O	O	O, I-CV, B-CV, I-AF, I-OG
+12	김	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
+13	##자	I-PS	I-PS	I-PS, O, B-PS, I-OG, I-LC
+14	##영	I-PS	I-PS	I-PS, O, I-LC, I-OG, I-QT
+15	##이	O	O	O, I-PS, I-AF, B-CV, I-OG
+16	##었	O	O	O, B-CV, B-PS, I-CV, I-AF
+17	##다	O	O	O, B-CV, I-CV, I-OG, B-PS
+18	.	O	O	O, B-PS, B-CV, B-OG, I-CV
+19	[SEP]	O	O	O, B-CV, B-PS, I-CV, I-AF

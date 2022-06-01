@@ -1,0 +1,18 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
+1	그렇	O	O	O, B-CV, B-OG, B-TM, B-LC
+2	##습	O	O	O, I-OG, B-CV, I-AF, I-CV
+3	##니다	O	O	O, B-CV, I-OG, B-LC, B-OG
+4	.	O	O	O, B-CV, B-LC, B-OG, B-DT
+5	이천	B-DT	B-DT	B-DT, I-DT, O, B-QT, B-EV
+6	##십	I-DT	I-DT	I-DT, B-DT, O, I-QT, I-EV
+7	##사	I-DT	I-DT	I-DT, B-DT, O, I-QT, I-EV
+8	년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
+9	사	I-DT	I-DT	I-DT, B-DT, O, I-QT, I-EV
+10	월	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
+11	##부터	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
+12	이천	I-DT	B-DT	B-DT, I-DT, O, B-QT, B-EV
+13	##십	I-DT	I-DT	I-DT, B-DT, O, I-QT, I-EV
+14	##오	I-DT	I-DT	I-DT, B-DT, O, I-QT, I-EV
+15	년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
+16	[SEP]	O	O	O, I-DT, B-CV, I-EV, I-QT

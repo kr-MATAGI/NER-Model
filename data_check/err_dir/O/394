@@ -1,0 +1,17 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, I-AF, I-CV, I-EV
+1	NE	O	B-OG	B-OG, O, B-AF, B-PS, B-TM
+2	##W	O	I-OG	I-OG, O, I-AF, I-TM, I-PS
+3	,	O	O	O, I-OG, I-AF, I-TM, I-CV
+4	영화관	O	O	O, B-TM, B-CV, I-OG, B-FD
+5	사업	O	O	O, B-LC, B-TM, I-TM, B-CV
+6	진출	O	O	O, B-CV, B-LC, B-OG, B-TM
+7	…	O	O	O, B-LC, B-OG, I-OG, I-AF
+8	1	B-QT	B-QT	B-QT, O, I-QT, B-LC, B-EV
+9	##호	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-EV
+10	##점	I-QT	I-QT	I-QT, O, I-LC, I-EV, B-QT
+11	경주	B-LC	B-LC	B-LC, O, B-AF, I-QT, I-LC
+12	보문	B-LC	B-LC	B-LC, O, I-LC, B-AF, B-OG
+13	##에	O	O	O, I-LC, I-AF, B-LC, I-OG
+14	개점	O	O	O, B-OG, B-CV, B-LC, B-TM
+15	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-TM

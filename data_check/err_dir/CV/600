@@ -1,0 +1,20 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
+1	혹시	O	O	O, B-CV, B-AF, B-TM, B-PS
+2	탈	O	O	O, B-CV, B-AF, B-AM, B-PS
+3	수도	O	O	O, I-CV, I-AF, B-PS, I-QT
+4	있	O	O	O, B-CV, B-PS, I-AF, B-TM
+5	##고	O	O	O, B-CV, B-PS, B-OG, B-LC
+6	돼지고기	B-CV	B-CV	B-CV, O, B-PT, I-CV, B-TM
+7	##는	O	O	O, I-CV, I-AF, B-CV, I-QT
+8	그	O	O	O, B-CV, B-LC, B-TM, B-OG
+9	완전히	O	O	O, B-CV, B-LC, B-PS, B-QT
+10	익혀	O	O	O, B-CV, B-LC, B-TM, B-PS
+11	##서	O	O	O, I-CV, B-PS, B-CV, I-AF
+12	드셔	O	O	O, B-CV, B-LC, B-PS, B-OG
+13	##야	O	O	O, B-CV, B-PS, B-LC, I-CV
+14	되	O	O	O, B-CV, B-OG, B-LC, B-PS
+15	##는	O	O	O, B-CV, B-PS, B-LC, B-OG
+16	육류	B-CV	O	O, B-CV, B-TM, B-MT, I-CV
+17	##니까	O	O	O, I-CV, I-QT, I-AF, I-OG
+18	[SEP]	O	O	O, B-CV, I-CV, B-LC, B-TM

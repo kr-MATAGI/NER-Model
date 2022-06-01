@@ -1,0 +1,17 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-CV, I-OG, B-CV, I-AF
+1	어차피	O	O	O, B-CV, B-OG, B-TM, B-PS
+2	공고	O	O	O, B-CV, B-OG, B-AF, B-FD
+3	기계	O	O	O, B-OG, B-CV, B-FD, B-AF
+4	##과	O	O	O, I-OG, I-CV, I-FD, I-AF
+5	나와도	O	O	O, I-OG, B-CV, B-PS, I-CV
+6	기술자	O	B-CV	B-CV, O, I-CV, B-FD, B-PS
+7	##x	O	O	O, I-CV, I-OG, I-QT, I-AF
+8	##부터	O	O	O, I-CV, B-PS, I-QT, I-DT
+9	시작	O	O	O, B-CV, B-TM, B-LC, B-PS
+10	##할	O	O	O, B-CV, B-PS, B-OG, B-LC
+11	거	O	O	O, B-CV, B-PS, B-OG, B-TM
+12	아닙니까	O	O	O, B-CV, B-PS, I-OG, I-CV
+13	연습	O	O	O, B-CV, B-LC, B-TM, B-FD
+14	##부터	O	O	O, I-AF, I-CV, I-OG, B-PS
+15	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-PS

@@ -1,0 +1,18 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
+1	가운	B-CV	B-CV	B-CV, O, B-AF, B-AM, B-TM
+2	속	O	O	O, B-TM, I-CV, B-CV, B-AM
+3	평상	O	O	O, B-CV, I-CV, B-AM, B-AF
+4	##복	O	O	O, I-CV, B-CV, I-AF, I-TM
+5	##도	O	O	O, I-CV, I-AF, B-PS, B-CV
+6	위생	B-CV	O	O, B-CV, I-CV, B-AF, B-TM
+7	##복	I-CV	O	O, I-CV, B-CV, I-AF, I-TM
+8	##으로	O	O	O, I-CV, I-OG, I-AF, I-TM
+9	…	O	O	O, B-OG, B-LC, B-CV, B-PS
+10	연세대	B-OG	B-OG	B-OG, B-LC, B-PS, B-AF, O
+11	세브	B-OG	B-OG	B-OG, I-OG, O, B-AF, B-LC
+12	##란	I-OG	I-OG	I-OG, O, I-AF, I-LC, B-OG
+13	##스	I-OG	I-OG	I-OG, O, I-AF, I-LC, B-OG
+14	##병원	I-OG	I-OG	I-OG, O, I-LC, I-AF, I-CV
+15	시행	O	O	O, I-OG, I-AF, B-CV, I-CV
+16	[SEP]	O	O	O, B-CV, I-OG, B-OG, B-TM

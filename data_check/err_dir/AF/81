@@ -1,0 +1,26 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
+1	'	O	O	O, B-CV, B-OG, B-LC, B-DT
+2	절망	B-AF	O	O, B-AF, B-EV, B-OG, B-CV
+3	##은	I-AF	O	O, I-AF, I-EV, I-OG, I-PS
+4	없	I-AF	O	O, I-AF, I-EV, I-OG, I-PS
+5	##다	I-AF	O	O, I-AF, I-EV, I-OG, I-PS
+6	'	O	O	O, I-AF, I-EV, I-OG, B-CV
+7	는	O	O	O, B-PS, I-AF, B-CV, B-OG
+8	제목	O	O	O, B-CV, B-PS, B-AF, B-FD
+9	##이	O	O	O, B-PS, B-CV, I-AF, I-EV
+10	##었	O	O	O, B-CV, B-OG, B-TM, I-AF
+11	##는데	O	O	O, B-OG, B-CV, B-PS, B-QT
+12	굉장히	O	O	O, B-CV, B-OG, B-TM, I-OG
+13	동정심	O	O	O, B-CV, B-TM, B-AF, B-TR
+14	##을	O	O	O, I-CV, B-CV, I-AF, B-PS
+15	유발	O	O	O, B-CV, B-TM, B-PS, B-FD
+16	##시	O	O	O, I-CV, B-PS, B-CV, I-AF
+17	##키	O	O	O, B-PS, B-CV, I-CV, B-LC
+18	##는	O	O	O, B-CV, B-PS, B-LC, B-QT
+19	내용	O	O	O, B-FD, B-CV, B-PS, B-QT
+20	##이	O	O	O, B-CV, B-PS, I-AF, B-OG
+21	##었	O	O	O, B-CV, B-OG, I-AF, I-OG
+22	##어요	O	O	O, B-CV, I-OG, B-OG, I-AF
+23	.	O	O	O, B-CV, B-PS, I-OG, I-AF
+24	[SEP]	O	O	O, B-CV, I-AF, I-EV, I-OG

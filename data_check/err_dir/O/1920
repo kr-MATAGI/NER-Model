@@ -1,0 +1,25 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-CV, I-OG, B-CV, I-AF
+1	여행	O	O	O, B-CV, B-LC, B-TM, B-AF
+2	가구	O	O	O, B-CV, I-CV, B-PS, B-LC
+3	막	O	O	O, B-CV, I-CV, I-AF, I-OG
+4	그랬	O	O	O, B-CV, B-TM, B-PS, B-OG
+5	##는데	O	O	O, B-CV, B-OG, B-PS, I-CV
+6	그것	O	O	O, B-CV, B-TM, B-PS, I-CV
+7	##도	O	O	O, B-PS, B-CV, I-CV, I-AF
+8	생각	O	O	O, B-CV, B-PS, B-TM, B-QT
+9	##해	O	O	O, B-PS, B-CV, B-OG, B-LC
+10	##보	O	O	O, B-CV, B-PS, I-OG, I-AF
+11	##니까	O	O	O, B-CV, B-PS, B-OG, B-LC
+12	내	O	O	O, B-CV, B-OG, B-LC, B-PS
+13	##가	O	O	O, B-CV, B-PS, B-OG, B-LC
+14	다음	O	B-DT	B-DT, O, I-DT, B-QT, B-EV
+15	년	O	I-DT	I-DT, O, B-DT, I-QT, I-EV
+16	##도	O	O	O, I-DT, B-DT, I-QT, I-EV
+17	##에	O	O	O, I-DT, B-CV, B-PS, I-OG
+18	복	O	O	O, B-CV, B-EV, B-OG, B-FD
+19	##학	O	O	O, I-CV, I-OG, I-EV, I-QT
+20	##할	O	O	O, I-CV, I-OG, B-PS, I-EV
+21	거니	O	O	O, B-CV, B-PS, I-CV, B-QT
+22	##까	O	O	O, B-CV, I-CV, I-OG, I-AF
+23	[SEP]	O	O	O, B-CV, B-LC, B-PS, I-AF

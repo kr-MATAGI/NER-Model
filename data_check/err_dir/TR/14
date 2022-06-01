@@ -1,0 +1,27 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
+1	주로	O	O	O, B-CV, B-LC, B-TM, B-PS
+2	새로운	O	O	O, B-CV, B-FD, B-PS, B-TM
+3	과제	O	O	O, B-CV, B-LC, B-FD, B-TM
+4	##들인	O	O	O, B-CV, B-LC, B-PS, B-QT
+5	고령화	B-TR	O	O, B-TR, B-TM, B-EV, B-FD
+6	사회	O	O	O, I-TR, B-TR, I-TM, I-EV
+7	다문화	B-TR	O	O, B-TR, I-TR, B-TM, B-FD
+8	사회	O	O	O, I-TR, B-TR, I-TM, I-FD
+9	등	O	O	O, B-CV, B-LC, I-TR, B-PS
+10	##의	O	O	O, B-CV, B-LC, B-OG, B-PS
+11	이른바	O	O	O, B-CV, B-LC, B-TM, B-QT
+12	소프트	O	O	O, B-FD, B-CV, B-TM, B-TR
+13	##한	O	O	O, I-FD, I-QT, I-TR, B-FD
+14	주제	O	O	O, B-FD, B-CV, I-QT, B-PS
+15	##를	O	O	O, B-CV, B-PS, B-LC, B-OG
+16	선	O	O	O, B-CV, B-LC, B-TR, B-FD
+17	선호	O	O	O, B-CV, B-PS, I-CV, B-LC
+18	##하	O	O	O, B-PS, B-CV, B-LC, I-CV
+19	##는	O	O	O, B-CV, B-PS, B-LC, I-CV
+20	것	O	O	O, B-CV, B-PS, B-OG, I-CV
+21	같	O	O	O, B-CV, B-PS, I-OG, I-CV
+22	##습	O	O	O, B-CV, B-LC, I-OG, B-OG
+23	##니다	O	O	O, B-CV, B-LC, B-OG, B-PS
+24	.	O	O	O, B-CV, B-LC, B-FD, B-PS
+25	[SEP]	O	O	O, B-CV, B-FD, B-LC, B-PS

@@ -1,0 +1,19 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-AF
+1	강자	O	O	O, B-CV, B-PS, B-OG, B-AF
+2	##가	O	O	O, B-PS, I-CV, I-PS, I-AF
+3	권위주의	O	B-TR	B-TR, O, I-TR, B-PS, B-TM
+4	##로	O	O	O, I-TR, I-PS, I-AF, B-PS
+5	사회	O	O	O, B-CV, B-PS, B-TR, B-FD
+6	##적	O	O	O, I-CV, B-CV, I-TR, B-PS
+7	약자	B-CV	O	O, B-CV, I-CV, B-PS, B-QT
+8	##를	O	O	O, I-CV, B-CV, B-PS, I-OG
+9	짓	O	O	O, B-PS, B-LC, B-CV, B-TM
+10	##누르	O	O	O, B-PS, B-LC, I-PS, B-CV
+11	##는	O	O	O, B-LC, B-PS, B-DT, B-OG
+12	후퇴	O	O	O, B-LC, B-PS, B-TR, B-OG
+13	##한	O	O	O, B-PS, I-PS, B-LC, I-DT
+14	민주주의	B-TR	B-TR	B-TR, O, I-TR, B-PS, B-TM
+15	시대	O	O	O, I-TR, I-DT, I-PS, I-AF
+16	.	O	O	O, B-CV, I-AF, I-OG, I-EV
+17	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG

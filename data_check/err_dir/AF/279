@@ -1,0 +1,24 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-EV, I-OG, I-CV
+1	청와대	B-AF	B-OG	B-OG, B-AF, B-EV, O, B-LC
+2	회담	O	O	O, I-EV, I-OG, B-EV, I-AF
+3	##이	O	O	O, I-EV, B-PS, B-OG, B-CV
+4	이뤄질	O	O	O, B-CV, B-OG, B-LC, I-EV
+5	경우	O	O	O, B-LC, B-CV, B-OG, I-EV
+6	서로	O	O	O, B-CV, B-TM, B-QT, B-LC
+7	주고받	O	O	O, B-PS, B-CV, B-TM, B-LC
+8	##기	O	O	O, B-PS, B-LC, B-CV, I-EV
+9	##를	O	O	O, B-CV, I-EV, B-LC, I-OG
+10	통해	O	O	O, B-LC, B-OG, B-CV, B-TM
+11	국면	O	O	O, B-EV, B-CV, B-TM, B-LC
+12	전환	O	O	O, I-EV, B-LC, B-PS, B-EV
+13	##을	O	O	O, B-CV, B-PS, I-EV, B-OG
+14	자연스레	O	O	O, B-TM, B-CV, B-QT, B-LC
+15	이룰	O	O	O, B-LC, B-OG, B-CV, B-PS
+16	수	O	O	O, B-PS, B-LC, B-QT, B-TM
+17	있	O	O	O, B-PS, B-LC, B-CV, B-QT
+18	##다는	O	O	O, B-LC, B-TM, B-PS, B-OG
+19	판단	O	O	O, B-CV, B-TM, B-PS, B-OG
+20	##이다	O	O	O, B-CV, I-EV, I-QT, B-TM
+21	.	O	O	O, B-LC, B-PS, B-CV, B-OG
+22	[SEP]	O	O	O, B-CV, I-EV, B-LC, B-PS

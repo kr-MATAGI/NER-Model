@@ -1,0 +1,22 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
+1	예컨대	O	O	O, B-QT, B-TM, B-CV, B-AF
+2	10	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-TI
+3	##만	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
+4	##원	I-QT	I-QT	I-QT, O, I-LC, I-AF, I-OG
+5	짜리	I-QT	O	O, I-QT, I-DT, I-LC, I-AF
+6	어린이	O	O	O, B-AF, B-TM, B-CV, B-FD
+7	원피스	B-CV	B-CV	B-CV, O, B-AF, I-CV, I-AF
+8	##를	O	O	O, I-CV, I-AF, B-CV, I-EV
+9	하나	B-QT	B-QT	B-QT, O, I-QT, B-TM, B-PS
+10	사면	O	O	O, I-QT, B-CV, B-QT, B-TM
+11	5	B-QT	B-QT	B-QT, I-QT, O, B-DT, B-LC
+12	##만	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
+13	##원	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
+14	##은	O	O	O, I-QT, B-CV, I-AF, I-OG
+15	수수료	O	O	O, B-CV, B-TM, B-QT, B-AF
+16	##인	O	O	O, B-PS, B-CV, I-AF, B-QT
+17	셈	O	O	O, B-CV, B-TM, B-OG, B-QT
+18	##이다	O	O	O, B-CV, B-TM, I-AF, I-CV
+19	.	O	O	O, B-CV, B-AF, B-QT, B-TM
+20	[SEP]	O	O	O, B-CV, B-AF, B-QT, B-TM

@@ -1,0 +1,23 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, I-EV, B-CV, I-QT
+1	리버풀	B-OG	B-OG	B-OG, B-LC, O, I-OG, B-AF
+2	##은	O	O	O, I-OG, I-EV, I-AF, B-CV
+3	안	B-LC	B-LC	B-LC, B-OG, O, B-AF, B-PS
+4	##필드	I-LC	I-LC	I-LC, O, I-OG, I-AF, B-LC
+5	##에서	O	O	O, I-LC, I-OG, I-AF, I-EV
+6	첼시	B-OG	B-OG	B-OG, B-LC, O, B-AF, I-OG
+7	##와	O	O	O, I-OG, I-EV, I-AF, B-CV
+8	최근	O	O	O, B-DT, B-QT, B-LC, B-PS
+9	5	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-PS
+10	##번	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-DT
+11	만나	O	O	O, I-QT, B-CV, B-EV, B-OG
+12	한번	O	B-QT	B-QT, O, I-QT, B-DT, B-EV
+13	##도	O	O	O, I-QT, I-EV, I-DT, B-CV
+14	패	O	O	O, B-TM, B-CV, B-EV, B-OG
+15	##하	O	O	O, B-LC, B-CV, B-OG, I-EV
+16	##지	O	O	O, B-QT, B-LC, B-OG, B-CV
+17	않	O	O	O, B-CV, B-LC, I-EV, B-QT
+18	##았	O	O	O, B-CV, B-LC, B-QT, B-OG
+19	##다	O	O	O, B-CV, B-QT, I-EV, B-OG
+20	.	O	O	O, B-LC, B-CV, B-OG, B-QT
+21	[SEP]	O	O	O, B-CV, B-LC, B-OG, I-EV

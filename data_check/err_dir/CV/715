@@ -1,0 +1,19 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
+1	그	O	O	O, B-CV, B-OG, B-LC, B-DT
+2	다음	O	O	O, B-CV, B-DT, B-LC, B-PS
+3	##에	O	O	O, B-DT, B-CV, B-PS, B-OG
+4	이천	B-DT	B-DT	B-DT, I-DT, O, B-EV, B-QT
+5	##이	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
+6	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
+7	##에	O	O	O, I-DT, I-EV, I-QT, B-DT
+8	일본	B-LC	B-LC	B-LC, B-OG, O, B-AF, B-PS
+9	##에	O	O	O, I-LC, I-OG, I-AF, I-EV
+10	에	O	O	O, B-OG, B-CV, B-LC, B-PS
+11	~	O	O	O, I-CV, B-CV, B-LC, I-OG
+12	노벨상	B-CV	B-CV	B-CV, O, B-AF, I-CV, B-PS
+13	화학	I-CV	B-CV	B-CV, O, I-CV, B-FD, B-TM
+14	##상	I-CV	I-CV	I-CV, O, B-CV, I-TM, I-QT
+15	수상자	B-CV	B-CV	B-CV, I-CV, O, B-FD, B-QT
+16	##는	O	O	O, I-CV, B-CV, I-QT, I-AF
+17	[SEP]	O	O	O, B-CV, B-LC, I-CV, B-OG

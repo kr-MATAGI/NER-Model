@@ -1,0 +1,19 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
+1	디지털	B-TM	B-TM	B-TM, O, B-TR, B-AF, B-EV
+2	카메라	I-TM	I-TM	I-TM, B-TM, O, I-TR, I-AF
+3	핵심	O	O	O, I-TM, B-CV, B-TM, I-QT
+4	기술	O	O	O, B-CV, B-LC, B-TM, I-CV
+5	개발	O	O	O, B-CV, B-LC, B-PS, B-TM
+6	##해	O	O	O, B-LC, B-PS, B-OG, I-OG
+7	…	O	O	O, B-LC, B-OG, B-PS, I-OG
+8	공학	O	B-FD	B-FD, O, B-CV, I-FD, B-OG
+9	##계	O	O	O, I-FD, I-OG, I-CV, I-TR
+10	##의	O	O	O, B-PS, I-OG, B-CV, I-EV
+11	노벨상	B-CV	B-CV	B-CV, O, B-AF, I-CV, B-PS
+12	,	O	O	O, I-CV, I-EV, I-AF, B-CV
+13	상금	O	O	O, B-CV, B-TM, B-QT, B-EV
+14	14	B-QT	B-QT	B-QT, I-QT, O, B-DT, B-PS
+15	##억	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
+16	##원	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
+17	[SEP]	O	O	O, I-QT, B-CV, I-AF, I-CV

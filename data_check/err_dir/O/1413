@@ -1,0 +1,27 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
+1	[	O	O	O, B-OG, B-LC, B-CV, B-TM
+2	대학교	O	O	O, B-OG, B-FD, B-AF, B-TM
+3	##육	O	O	O, I-OG, I-AF, I-FD, I-LC
+4	##의	O	O	O, I-OG, B-PS, I-AF, I-PS
+5	혁신	O	O	O, B-OG, B-CV, B-PS, B-AF
+6	,	O	O	O, I-OG, I-AF, B-PS, B-OG
+7	사이버	O	O	O, B-FD, B-OG, B-CV, B-AF
+8	##대	O	O	O, I-OG, I-FD, I-AF, I-EV
+9	]	O	O	O, I-OG, I-AF, I-EV, B-PS
+10	사이버	O	O	O, B-FD, B-OG, B-TM, B-CV
+11	##대	O	O	O, I-FD, I-OG, B-FD, I-TM
+12	##학	O	O	O, I-OG, I-FD, B-FD, I-TM
+13	최초	O	O	O, B-QT, B-CV, B-FD, B-OG
+14	‘	O	O	O, B-CV, B-OG, B-LC, I-QT
+15	학생	O	B-CV	B-CV, O, I-CV, B-DT, B-TM
+16	##맞춤	O	O	O, I-CV, I-TM, I-QT, I-AF
+17	1	B-DT	B-DT	B-DT, B-CV, O, B-QT, I-CV
+18	##년	I-DT	I-DT	I-DT, I-CV, O, I-QT, I-TM
+19	4	B-CV	B-DT	B-DT, B-CV, I-CV, I-DT, B-QT
+20	##학	I-CV	I-CV	I-CV, I-DT, O, I-QT, B-CV
+21	##기	I-CV	I-CV	I-CV, O, I-DT, I-QT, I-TM
+22	##제	I-CV	I-CV	I-CV, O, I-DT, I-QT, I-TM
+23	’	O	O	O, I-CV, I-DT, I-QT, B-CV
+24	운영	O	O	O, B-CV, B-TM, B-OG, B-LC
+25	[SEP]	O	O	O, B-OG, B-LC, B-CV, B-AF

@@ -1,0 +1,16 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
+1	[	O	O	O, B-OG, B-LC, B-PS, B-DT
+2	한겨레	B-OG	B-OG	B-OG, O, B-LC, I-OG, B-AF
+3	]	O	O	O, I-OG, B-OG, I-AF, I-EV
+4	시	O	B-OG	B-OG, O, I-OG, B-CV, B-EV
+5	,	O	O	O, I-OG, I-EV, B-OG, I-CV
+6	체육회	O	O	O, B-OG, I-OG, B-EV, B-CV
+7	부회장	B-CV	B-CV	B-CV, I-CV, O, I-OG, I-EV
+8	부활	O	O	O, I-CV, I-OG, I-EV, B-CV
+9	추진	O	O	O, B-CV, B-LC, B-OG, B-TM
+10	‘	O	O	O, B-CV, B-LC, B-OG, B-PS
+11	뭇	O	O	O, B-CV, B-TM, B-LC, B-AM
+12	##매	O	O	O, I-TM, I-CV, B-LC, B-TM
+13	’	O	O	O, B-CV, B-OG, B-LC, B-PS
+14	[SEP]	O	O	O, B-LC, B-OG, B-CV, B-PS

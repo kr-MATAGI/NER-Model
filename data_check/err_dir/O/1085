@@ -1,0 +1,14 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-EV
+1	입	B-AM	B-AM	B-AM, O, B-TM, B-TR, I-AM
+2	·	O	O	O, I-LC, I-AM, I-AF, I-CV
+3	항문	B-TM	B-TM	B-TM, O, I-TM, B-LC, B-AM
+4	등	O	O	O, I-TM, B-LC, I-LC, I-AF
+5	##을	O	O	O, B-LC, B-CV, B-TM, B-AF
+6	통한	O	O	O, B-LC, B-TM, B-CV, B-EV
+7	무	O	B-TR	B-TR, B-TM, O, B-AM, I-TR
+8	##흉	O	I-TR	I-TR, I-TM, O, B-TR, I-AM
+9	##터	O	I-TR	I-TR, I-TM, O, I-QT, I-AM
+10	수술	O	I-TR	I-TR, O, I-TM, I-CV, I-QT
+11	사례	O	O	O, I-TR, I-TM, B-CV, I-OG
+12	[SEP]	O	O	O, B-LC, B-CV, B-TM, B-OG

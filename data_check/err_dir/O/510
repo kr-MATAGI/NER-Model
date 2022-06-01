@@ -1,0 +1,20 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-EV
+1	저자	O	B-CV	B-CV, O, I-CV, B-PS, B-AF
+2	##는	O	O	O, I-CV, B-CV, I-EV, I-OG
+3	일본	B-EV	B-LC	B-LC, B-EV, O, B-AF, B-PS
+4	후쿠시마	I-EV	I-EV	I-EV, B-EV, B-LC, I-LC, O
+5	원전	I-EV	I-EV	I-EV, O, I-LC, B-EV, I-AF
+6	사고	I-EV	I-EV	I-EV, O, I-LC, I-AF, B-EV
+7	##에	O	O	O, I-EV, I-AF, I-OG, I-LC
+8	관해	O	O	O, B-LC, B-OG, B-TM, B-PS
+9	‘	O	O	O, B-LC, B-CV, B-PS, B-OG
+10	과학	O	B-FD	B-FD, O, B-TR, I-FD, B-CV
+11	##은	O	O	O, I-FD, I-AF, I-OG, I-TR
+12	완벽	O	O	O, B-PS, I-AF, B-CV, B-LC
+13	##하	O	O	O, I-AF, I-PS, B-PS, I-OG
+14	##지	O	O	O, I-AF, I-PS, I-OG, I-LC
+15	않	O	O	O, I-AF, I-PS, I-OG, I-LC
+16	##다	O	O	O, I-AF, I-OG, I-PS, B-LC
+17	.	O	O	O, B-LC, B-CV, B-PS, I-AF
+18	[SEP]	O	O	O, B-CV, B-LC, I-AF, B-FD

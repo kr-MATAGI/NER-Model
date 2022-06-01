@@ -1,0 +1,14 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
+1	이	B-TM	B-DT	B-DT, B-EV, B-QT, B-TM, B-TR
+2	##십	I-TM	I-DT	I-DT, I-TM, I-EV, I-QT, I-TR
+3	##일	I-TM	I-DT	I-DT, I-TM, I-EV, I-TR, I-QT
+4	세기	I-TM	I-TM	I-TM, I-DT, I-EV, I-TR, O
+5	세종	I-TM	I-TM	I-TM, O, I-EV, B-LC, I-AF
+6	계약	O	O	O, I-TM, I-EV, I-OG, I-AF
+7	##을	O	O	O, I-EV, I-OG, I-TM, I-AF
+8	계획	O	O	O, B-CV, B-LC, B-TM, B-OG
+9	##을	O	O	O, B-CV, B-OG, B-PS, B-LC
+10	입안	O	O	O, B-CV, B-LC, B-PS, B-OG
+11	##하고	O	O	O, B-CV, B-LC, B-PS, I-OG
+12	[SEP]	O	O	O, B-CV, B-LC, B-TM, B-OG

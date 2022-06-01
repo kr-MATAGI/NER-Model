@@ -1,0 +1,10 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, I-EV, I-CV, B-CV
+1	무한도전	B-AF	B-AF	B-AF, O, B-PS, B-OG, B-EV
+2	·	O	O	O, I-AF, I-OG, I-EV, I-DT
+3	동네	B-AF	B-AF	B-AF, O, B-EV, B-OG, B-TM
+4	예체능	I-AF	I-AF	I-AF, O, I-EV, I-OG, I-TM
+5	·	O	O	O, I-AF, I-EV, I-OG, I-TM
+6	힐링	B-AF	O	O, B-EV, B-AF, B-TM, B-OG
+7	##캠프	I-AF	O	O, I-AF, I-EV, I-TM, I-OG
+8	[SEP]	O	O	O, I-EV, I-AF, I-OG, I-TM

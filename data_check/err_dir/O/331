@@ -1,0 +1,16 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, I-AF, I-CV, I-QT
+1	소방서	O	O	O, B-OG, B-AF, I-OG, B-CV
+2	멀	O	O	O, I-OG, I-AF, I-CV, B-CV
+3	##었	O	O	O, I-AF, I-OG, B-PS, B-OG
+4	##다면	O	O	O, I-AF, B-OG, B-LC, B-PS
+5	…	O	O	O, B-OG, B-LC, B-AF, B-TM
+6	車	O	B-AF	B-AF, O, B-OG, I-AF, B-LC
+7	로	O	O	O, I-AF, I-OG, B-PS, B-AF
+8	2	B-TI	B-TI	B-TI, O, B-QT, B-EV, I-TI
+9	##분	I-TI	I-TI	I-TI, I-QT, I-TR, O, B-TI
+10	거리	O	O	O, I-TI, I-QT, I-AF, I-EV
+11	##라	O	O	O, B-LC, B-OG, B-CV, B-TM
+12	바로	O	O	O, B-CV, B-TM, B-LC, B-QT
+13	출동	O	O	O, B-TM, B-AF, B-LC, B-CV
+14	[SEP]	O	O	O, I-AF, B-LC, B-AF, B-CV

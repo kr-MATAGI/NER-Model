@@ -1,0 +1,26 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-EV, I-OG
+1	홈	O	O	O, B-LC, B-CV, B-EV, B-DT
+2	팀	O	O	O, I-EV, I-DT, I-CV, I-LC
+3	엘지	B-OG	B-OG	B-OG, O, I-OG, B-LC, B-PS
+4	##의	O	O	O, I-OG, I-AF, I-EV, B-CV
+5	줄	B-CV	B-TM	B-TM, O, B-AF, B-CV, B-LC
+6	##무늬	I-CV	I-TM	I-TM, O, B-TM, I-AF, I-CV
+7	유니폼	I-CV	B-CV	B-CV, I-TM, O, I-CV, I-AF
+8	##이	O	O	O, I-CV, I-AF, I-TM, B-CV
+9	아닌	O	O	O, B-CV, B-OG, B-LC, B-PS
+10	원정	O	O	O, B-LC, B-EV, B-CV, B-DT
+11	팀	O	O	O, I-EV, I-DT, I-LC, I-CV
+12	에스	B-OG	B-OG	B-OG, O, I-OG, B-LC, B-AF
+13	##케이	I-OG	I-OG	I-OG, O, I-LC, I-AF, I-EV
+14	##의	O	O	O, I-OG, I-AF, I-EV, I-CV
+15	빨간	O	O	O, B-TM, B-AF, B-LC, B-CV
+16	유니폼	B-CV	B-CV	B-CV, O, B-AF, I-CV, I-AF
+17	##을	O	O	O, I-CV, I-AF, B-CV, I-EV
+18	입	O	O	O, B-CV, B-TM, I-CV, B-LC
+19	##고	O	O	O, I-CV, B-CV, I-QT, I-AF
+20	있	O	O	O, B-CV, B-PS, B-LC, I-EV
+21	##었	O	O	O, B-CV, B-LC, I-OG, I-AF
+22	##다	O	O	O, B-CV, B-LC, I-OG, I-EV
+23	.	O	O	O, B-LC, B-CV, B-OG, B-PS
+24	[SEP]	O	O	O, B-CV, B-LC, B-OG, I-OG

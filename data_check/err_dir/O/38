@@ -1,0 +1,14 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, I-AF, I-CV, I-EV
+1	1995	B-DT	B-DT	B-DT, O, B-QT, I-DT, B-EV
+2	:	O	O	O, I-DT, I-OG, I-AF, I-QT
+3	연구	O	O	O, B-TM, B-AF, B-CV, I-AF
+4	##용	O	O	O, I-AF, I-TM, I-LC, I-CV
+5	원자로	O	B-TM	B-TM, O, I-TM, B-AF, B-MT
+6	‘	O	O	O, B-AF, I-TM, B-TM, I-AF
+7	하나	B-AF	B-AF	B-AF, B-TM, O, B-QT, B-OG
+8	##로	I-AF	I-TM	I-TM, I-AF, O, I-QT, I-OG
+9	’	O	O	O, I-AF, I-TM, I-OG, I-QT
+10	자력	O	O	O, B-LC, B-TM, B-OG, B-PS
+11	설계	O	O	O, I-TM, I-OG, B-CV, I-TR
+12	[SEP]	O	O	O, B-TM, B-CV, B-AF, B-LC

@@ -1,0 +1,26 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
+1	우리	O	O	O, B-LC, B-OG, B-CV, B-PS
+2	경제	O	O	O, B-FD, I-OG, I-LC, B-CV
+3	##의	O	O	O, B-PS, B-LC, I-OG, I-LC
+4	동맥	B-TM	O	O, B-TM, B-AF, B-LC, B-TR
+5	##을	O	O	O, I-TM, I-AF, B-CV, B-PS
+6	잇	O	O	O, B-LC, B-TM, B-CV, B-OG
+7	##고	O	O	O, B-TM, B-LC, B-PS, B-CV
+8	있	O	O	O, B-LC, B-TM, B-CV, B-OG
+9	##는	O	O	O, B-LC, B-TM, B-CV, B-OG
+10	물류	O	O	O, B-FD, B-TM, B-AF, B-LC
+11	##산업	O	O	O, I-TM, I-OG, I-LC, I-FD
+12	##의	O	O	O, I-OG, I-AF, B-CV, I-CV
+13	경쟁력	O	O	O, B-CV, B-LC, B-TM, B-OG
+14	강화	O	O	O, I-CV, I-TM, B-CV, I-OG
+15	##를	O	O	O, B-CV, B-LC, B-PS, I-OG
+16	위해	O	O	O, B-LC, B-PS, B-CV, B-TM
+17	헌신	O	O	O, B-CV, B-LC, B-OG, B-PS
+18	##하	O	O	O, B-PS, B-CV, B-LC, I-OG
+19	##겠	O	O	O, B-CV, B-PS, B-OG, I-OG
+20	##습	O	O	O, B-CV, I-CV, B-PS, I-OG
+21	##니다	O	O	O, B-CV, B-PS, B-LC, I-OG
+22	.	O	O	O, B-LC, B-CV, B-PS, B-TM
+23	”	O	O	O, B-CV, B-LC, B-OG, B-PS
+24	[SEP]	O	O	O, B-LC, B-CV, B-TM, B-PS

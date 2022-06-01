@@ -1,0 +1,24 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
+1	또	O	O	O, B-CV, B-TM, B-OG, B-QT
+2	탄소	B-MT	B-MT	B-MT, O, I-MT, B-TR, B-TM
+3	배출	O	O	O, I-MT, B-MT, I-TR, I-OG
+4	##을	O	O	O, B-PS, I-OG, I-AF, B-CV
+5	줄이	O	O	O, B-PS, B-OG, B-CV, B-LC
+6	##기	O	O	O, B-PS, B-LC, B-OG, B-CV
+7	위해	O	O	O, B-PS, B-LC, B-CV, B-TM
+8	포장	O	O	O, B-MT, B-CV, B-TM, B-LC
+9	##재	O	O	O, B-MT, I-MT, I-CV, I-TM
+10	##를	O	O	O, B-CV, B-OG, B-LC, B-PS
+11	줄인	O	O	O, B-CV, B-PS, B-QT, B-LC
+12	상품	O	O	O, B-CV, B-AF, B-LC, I-AF
+13	##을	O	O	O, B-CV, I-AF, B-AF, B-PS
+14	사도	O	O	O, B-CV, B-AF, B-OG, B-PS
+15	그린	B-TM	O	O, B-MT, B-AF, B-TM, B-CV
+16	마일리지	O	O	O, I-CV, I-AF, I-TM, I-MT
+17	##가	O	O	O, I-AF, I-CV, I-TM, I-OG
+18	적립	O	O	O, B-CV, B-TM, B-OG, B-PS
+19	##된	O	O	O, B-CV, I-AF, I-OG, I-CV
+20	##다	O	O	O, B-CV, B-TM, I-OG, B-OG
+21	.	O	O	O, B-LC, B-CV, B-PS, B-OG
+22	[SEP]	O	O	O, B-CV, B-LC, B-PS, I-OG

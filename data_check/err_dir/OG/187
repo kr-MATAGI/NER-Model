@@ -1,0 +1,16 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-CV, I-OG, B-CV, I-EV
+1	본회의	O	O	O, B-OG, B-EV, B-LC, B-CV
+2	통과	O	O	O, I-OG, I-EV, B-OG, B-LC
+3	##시	O	O	O, I-OG, B-PS, I-EV, B-LC
+4	박근혜	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
+5	공약	O	O	O, B-CV, I-PS, I-OG, I-EV
+6	##인	O	O	O, I-CV, B-PS, I-OG, I-PS
+7	상설	O	O	O, B-CV, B-OG, B-TM, B-EV
+8	##특	O	O	O, I-CV, B-CV, I-OG, I-TM
+9	##검	O	O	O, I-CV, B-CV, I-OG, I-TM
+10	##제	O	O	O, I-CV, I-OG, I-TM, B-CV
+11	1	B-QT	B-QT	B-QT, O, I-CV, I-QT, B-EV
+12	##호	I-QT	I-QT	I-QT, O, I-TM, I-CV, I-OG
+13	특검	B-OG	O	O, B-OG, B-CV, B-AF, B-EV
+14	[SEP]	O	O	O, I-OG, I-CV, I-EV, I-QT

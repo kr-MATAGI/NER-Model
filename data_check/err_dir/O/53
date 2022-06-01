@@ -1,0 +1,17 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
+1	존스	B-OG	B-OG	B-OG, B-LC, O, B-PS, I-OG
+2	##홉	I-OG	I-OG	I-OG, I-LC, O, B-OG, I-PS
+3	##킨스	I-OG	I-OG	I-OG, I-LC, O, B-OG, I-PS
+4	##대	I-OG	I-OG	I-OG, I-LC, O, I-PS, I-EV
+5	국제	O	O	O, B-OG, I-OG, B-FD, B-AF
+6	##대	O	O	O, I-OG, I-FD, I-AF, I-LC
+7	##학	O	O	O, I-OG, I-FD, I-AF, I-LC
+8	##원	O	O	O, I-OG, I-FD, I-AF, I-LC
+9	(	O	O	O, I-OG, I-AF, B-CV, I-EV
+10	SA	O	B-OG	B-OG, O, B-AF, B-LC, B-TR
+11	##IS	O	I-OG	I-OG, O, I-AF, I-LC, I-TR
+12	)	O	O	O, I-OG, I-AF, I-EV, B-CV
+13	박사	B-CV	B-CV	B-CV, O, B-TM, I-CV, B-EV
+14	.	O	O	O, I-CV, I-OG, I-QT, I-EV
+15	[SEP]	O	O	O, B-OG, B-LC, I-OG, B-CV

@@ -1,0 +1,25 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
+1	근데	O	O	O, B-CV, B-OG, B-QT, B-TM
+2	십	B-QT	B-QT	B-QT, O, B-DT, I-QT, B-PS
+3	##삼	I-QT	I-QT	I-QT, O, B-QT, I-DT, I-TI
+4	##만	I-QT	I-QT	I-QT, O, I-DT, B-QT, I-LC
+5	종류	O	O	O, I-QT, B-QT, I-DT, B-CV
+6	화학	O	B-FD	B-FD, O, I-QT, I-FD, B-CV
+7	##물	O	O	O, I-FD, I-QT, I-AF, I-CV
+8	##을	O	O	O, I-AF, I-QT, I-OG, I-CV
+9	찾	O	O	O, B-CV, B-LC, B-TM, B-OG
+10	##으	O	O	O, B-CV, B-PS, I-AF, B-LC
+11	##러	O	O	O, B-PS, B-CV, B-LC, I-AF
+12	딱	O	O	O, B-CV, B-OG, B-QT, B-TM
+13	갔	O	O	O, B-CV, B-OG, B-LC, B-TM
+14	##는데	O	O	O, B-CV, B-OG, B-LC, I-CV
+15	비슷	O	O	O, B-CV, B-TM, B-OG, B-QT
+16	##한	O	O	O, B-CV, B-PS, B-LC, B-OG
+17	게	O	O	O, B-CV, B-PS, B-OG, B-QT
+18	나오	O	O	O, B-CV, B-OG, B-QT, B-TM
+19	##는	O	O	O, B-CV, I-AF, I-OG, B-OG
+20	거	O	O	O, B-CV, B-OG, I-OG, B-LC
+21	##예	O	O	O, B-CV, B-OG, I-OG, I-AF
+22	##요	O	O	O, B-CV, I-OG, B-OG, I-AF
+23	[SEP]	O	O	O, B-CV, I-OG, B-LC, I-AF

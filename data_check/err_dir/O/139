@@ -1,0 +1,22 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
+1	그때	O	O	O, B-CV, B-OG, B-PS, B-LC
+2	##마다	O	O	O, B-PS, B-CV, B-OG, B-LC
+3	얘기	O	O	O, B-CV, B-OG, I-OG, B-TM
+4	##를	O	O	O, B-CV, B-OG, B-PS, B-LC
+5	하	O	O	O, B-CV, B-OG, B-PS, B-LC
+6	##는	O	O	O, B-CV, B-OG, B-PS, B-LC
+7	것	O	O	O, B-CV, B-OG, B-LC, B-PS
+8	##이	O	O	O, B-PS, B-OG, B-LC, B-CV
+9	사실	O	O	O, B-PS, B-LC, B-OG, B-CV
+10	리비아	B-LC	B-LC	B-LC, O, B-OG, B-PS, B-AF
+11	##의	O	O	O, I-LC, I-OG, B-PS, I-PS
+12	카다피	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
+13	정권	O	O	O, I-PS, B-CV, B-OG, I-OG
+14	##이	O	O	O, I-OG, B-PS, I-PS, B-OG
+15	이천	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
+16	##삼	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
+17	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
+18	##도	O	I-DT	I-DT, O, B-DT, I-QT, I-EV
+19	##에	O	O	O, I-DT, I-EV, B-CV, I-OG
+20	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-PS

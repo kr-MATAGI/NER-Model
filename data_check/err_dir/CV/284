@@ -1,0 +1,26 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-CV, B-CV, I-OG, I-AF
+1	그냥	O	O	O, B-CV, B-OG, B-LC, B-TM
+2	사실	O	O	O, B-CV, B-PS, B-LC, B-OG
+3	소환	B-CV	O	O, B-CV, B-TM, I-CV, B-LC
+4	##도	O	O	O, I-CV, B-PS, I-EV, I-OG
+5	안	O	O	O, B-CV, B-LC, B-PS, B-QT
+6	해고	O	O	O, B-CV, B-PS, B-LC, I-CV
+7	확인	O	O	O, B-CV, I-CV, B-LC, B-PS
+8	##만	O	O	O, B-PS, B-LC, I-CV, B-CV
+9	해서	O	O	O, B-LC, B-CV, B-PS, B-DT
+10	이	O	O	O, B-TI, B-DT, B-QT, B-LC
+11	시간	O	O	O, I-TI, B-TI, B-CV, I-DT
+12	보낸	O	O	O, I-TI, B-CV, I-DT, B-LC
+13	다음	O	O	O, B-CV, B-PS, B-LC, I-CV
+14	##에	O	O	O, B-CV, B-OG, B-PS, B-LC
+15	이제	O	O	O, B-CV, B-OG, B-TM, B-QT
+16	겨우	O	O	O, B-CV, B-QT, B-TM, B-LC
+17	불러	O	O	O, B-CV, B-LC, B-OG, B-TM
+18	##세	O	O	O, I-CV, B-CV, B-LC, B-PS
+19	##워서	O	O	O, B-CV, I-CV, B-LC, B-PS
+20	하	O	O	O, B-CV, B-OG, B-LC, B-TM
+21	##는	O	O	O, B-CV, B-OG, B-LC, I-CV
+22	거	O	O	O, B-CV, B-OG, B-LC, B-QT
+23	?	O	O	O, B-CV, B-OG, B-PS, B-LC
+24	[SEP]	O	O	O, B-CV, B-LC, B-PS, I-CV

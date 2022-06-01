@@ -1,0 +1,18 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-CV, I-OG, B-CV, I-EV
+1	민주	O	B-OG	B-OG, O, B-PS, B-LC, B-AF
+2	·	O	O	O, I-OG, I-LC, I-EV, I-PS
+3	안철수	B-PS	B-PS	B-PS, I-PS, B-OG, O, B-LC
+4	##쪽	O	O	O, I-PS, I-OG, I-LC, B-LC
+5	‘	O	O	O, B-LC, B-OG, B-EV, B-PS
+6	통합	B-OG	B-OG	B-OG, O, B-AF, B-EV, I-OG
+7	##신	I-OG	I-OG	I-OG, O, I-EV, B-OG, I-AF
+8	##당	I-OG	I-OG	I-OG, O, I-EV, I-AF, I-LC
+9	’	O	O	O, I-OG, I-EV, B-EV, B-CV
+10	발기인	O	O	O, B-EV, B-CV, I-EV, B-OG
+11	##대	O	O	O, I-EV, B-EV, I-OG, I-CV
+12	##회	O	O	O, I-EV, I-OG, I-DT, I-LC
+13	16	B-DT	B-DT	B-DT, O, I-DT, B-QT, I-EV
+14	##일	I-DT	I-DT	I-DT, O, B-DT, I-EV, I-QT
+15	##에	O	O	O, I-DT, I-EV, I-OG, I-AF
+16	[SEP]	O	O	O, B-OG, B-LC, I-EV, B-EV

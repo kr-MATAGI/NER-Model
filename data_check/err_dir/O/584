@@ -1,0 +1,19 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, I-EV, I-CV, B-CV
+1	‘	O	O	O, B-LC, B-OG, B-CV, B-PS
+2	마오	B-PS	B-PS	B-PS, B-LC, O, B-EV, B-OG
+3	추모	O	O	O, I-PS, I-EV, I-LC, I-OG
+4	’	O	O	O, I-EV, I-OG, I-PS, B-PS
+5	대	O	O	O, B-PS, B-EV, B-LC, B-OG
+6	‘	O	O	O, B-LC, B-EV, I-EV, B-OG
+7	문	B-EV	B-EV	B-EV, O, I-EV, B-PS, B-AF
+8	##혁	I-EV	I-EV	I-EV, O, I-AF, I-LC, I-PS
+9	반성	O	O	O, I-EV, I-OG, I-AF, I-DT
+10	’	O	O	O, I-EV, B-OG, B-PS, B-LC
+11	…	O	O	O, B-OG, B-LC, B-PS, B-CV
+12	중	O	B-LC	B-LC, B-OG, O, B-PS, B-CV
+13	좌우	O	O	O, B-OG, B-FD, B-TR, I-OG
+14	##파	O	O	O, I-OG, I-LC, I-FD, I-EV
+15	이념	O	O	O, B-LC, B-PS, I-OG, B-OG
+16	격돌	O	O	O, B-OG, B-LC, B-CV, B-EV
+17	[SEP]	O	O	O, B-LC, B-CV, I-EV, B-OG

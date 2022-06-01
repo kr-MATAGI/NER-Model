@@ -1,0 +1,22 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
+1	SKT	B-OG	B-OG	B-OG, O, B-AF, B-LC, I-OG
+2	‘	O	O	O, I-OG, B-CV, I-AF, I-EV
+3	불통	O	O	O, B-TM, B-CV, B-AF, B-EV
+4	쥐	B-AM	O	O, B-AM, B-PS, B-QT, B-CV
+5	##꼬리	B-AM	O	O, I-AM, B-AM, I-QT, I-PS
+6	보상	O	O	O, I-QT, I-CV, B-CV, I-TM
+7	’	O	O	O, B-CV, B-OG, B-LC, B-PS
+8	반발	O	O	O, B-CV, B-TM, B-LC, B-OG
+9	이용자	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-AF
+10	##들	O	O	O, I-CV, I-OG, I-AF, I-EV
+11	,	O	O	O, B-CV, B-OG, B-LC, B-TM
+12	집단	O	O	O, B-CV, B-TM, B-EV, B-LC
+13	##분	O	O	O, I-CV, B-CV, I-EV, B-LC
+14	##쟁	O	O	O, I-CV, B-CV, I-EV, B-LC
+15	##조	O	O	O, B-CV, I-CV, I-EV, B-LC
+16	##정	O	O	O, I-CV, I-EV, I-OG, I-LC
+17	신청	O	O	O, B-CV, B-LC, B-OG, B-TM
+18	##키	O	O	O, B-CV, B-LC, B-OG, B-PS
+19	##로	O	O	O, B-LC, B-PS, I-OG, B-CV
+20	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-TM

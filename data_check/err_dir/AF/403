@@ -1,0 +1,22 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-EV
+1	◆	O	O	O, B-LC, B-OG, B-CV, B-PS
+2	##매	O	O	O, B-CV, B-TM, B-MT, B-LC
+3	##출	O	O	O, I-CV, I-TM, I-LC, I-AF
+4	##액	O	O	O, I-CV, I-TM, I-LC, I-AF
+5	1	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-PS
+6	##위	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
+7	'	O	O	O, I-QT, B-OG, B-LC, I-OG
+8	해운대	B-AF	B-LC	B-LC, B-AF, O, B-OG, B-PS
+9	'	O	O	O, I-AF, I-OG, I-LC, I-EV
+10	,	O	O	O, B-CV, B-LC, B-OG, B-TM
+11	수익	O	O	O, B-CV, B-TM, B-AF, B-LC
+12	##률	O	O	O, B-QT, B-LC, B-TM, B-PS
+13	1	B-QT	B-QT	B-QT, I-QT, O, B-PS, B-DT
+14	##위	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
+15	'	O	O	O, I-QT, I-OG, B-CV, B-OG
+16	워	B-AF	O	O, B-AF, B-LC, B-OG, B-TM
+17	##낭	I-AF	O	O, I-AF, I-LC, I-OG, I-TM
+18	##소리	I-AF	O	O, I-AF, I-OG, I-LC, I-TM
+19	'	O	O	O, I-AF, I-OG, I-EV, I-LC
+20	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-AF

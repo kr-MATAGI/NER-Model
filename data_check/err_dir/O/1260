@@ -1,0 +1,11 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
+1	연극	O	B-FD	B-FD, O, I-FD, B-CV, B-OG
+2	##계	O	O	O, I-FD, I-OG, I-AF, I-QT
+3	사정	O	O	O, B-CV, B-TM, B-PS, I-OG
+4	##도	O	O	O, B-CV, B-PS, B-OG, B-LC
+5	비슷	O	O	O, B-CV, B-TM, B-OG, B-PS
+6	##하	O	O	O, B-OG, B-PS, B-CV, B-LC
+7	##다	O	O	O, B-CV, I-OG, B-OG, B-TM
+8	.	O	O	O, B-CV, B-OG, B-LC, B-FD
+9	[SEP]	O	O	O, B-CV, B-OG, B-FD, B-LC

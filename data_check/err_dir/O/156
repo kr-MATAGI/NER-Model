@@ -1,0 +1,24 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-EV, I-OG, I-CV
+1	칸	B-EV	B-EV	B-EV, B-LC, O, B-OG, B-AF
+2	##쿤	I-EV	I-EV	I-EV, I-LC, O, I-OG, I-AF
+3	총회	I-EV	I-EV	I-EV, O, B-EV, I-OG, I-LC
+4	##에	O	O	O, I-EV, I-OG, I-AF, B-CV
+5	참석	O	O	O, B-CV, B-OG, B-LC, B-PS
+6	##한	O	O	O, B-OG, B-LC, B-PS, I-OG
+7	한국	B-LC	B-LC	B-LC, B-OG, B-CV, O, B-EV
+8	##대표	O	I-OG	I-OG, O, B-CV, I-CV, I-EV
+9	##단	O	I-OG	I-OG, O, I-CV, I-EV, I-AF
+10	##도	O	O	O, I-OG, I-EV, I-CV, I-AF
+11	‘	O	O	O, B-CV, B-LC, B-OG, B-TM
+12	자발	O	O	O, B-LC, B-CV, B-PS, B-EV
+13	##적인	O	O	O, B-LC, I-EV, B-PS, B-CV
+14	온실가스	B-MT	B-MT	B-MT, O, B-TM, I-MT, B-TR
+15	감축	O	O	O, I-EV, I-TM, I-OG, I-AF
+16	’	O	O	O, B-CV, I-EV, B-OG, I-OG
+17	을	O	O	O, B-CV, B-OG, B-LC, B-PS
+18	홍보	O	O	O, B-CV, B-LC, B-TM, B-OG
+19	##했	O	O	O, B-CV, B-LC, B-OG, I-EV
+20	##다	O	O	O, B-CV, B-LC, B-OG, I-OG
+21	.	O	O	O, B-LC, B-CV, B-OG, I-EV
+22	[SEP]	O	O	O, B-CV, I-EV, B-LC, B-OG

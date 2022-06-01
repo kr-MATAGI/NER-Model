@@ -1,0 +1,18 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
+1	강남구	B-OG	B-OG	B-OG, B-LC, B-PS, O, B-AF
+2	##는	O	O	O, I-OG, B-CV, I-AF, B-OG
+3	대	B-LC	B-AF	B-AF, B-LC, B-PS, O, I-AF
+4	##모	I-LC	I-AF	I-AF, I-LC, O, I-PS, I-EV
+5	##산성	I-LC	I-AF	I-AF, I-LC, O, I-PS, I-EV
+6	##의	O	O	O, I-AF, I-EV, I-LC, B-CV
+7	문화재	O	O	O, B-TM, B-CV, B-FD, B-LC
+8	지정	O	O	O, I-TM, I-CV, I-AF, I-LC
+9	##도	O	O	O, I-OG, B-LC, B-CV, I-AF
+10	함께	O	O	O, B-TM, B-OG, B-LC, B-QT
+11	추진	O	O	O, B-OG, B-CV, B-TM, B-LC
+12	##할	O	O	O, B-CV, B-OG, B-LC, B-PS
+13	방침	O	O	O, B-CV, B-TM, B-OG, B-LC
+14	##이다	O	O	O, B-CV, B-TM, I-OG, B-OG
+15	.	O	O	O, B-LC, B-OG, B-TM, B-CV
+16	[SEP]	O	O	O, B-CV, B-TM, B-LC, B-OG

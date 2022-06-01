@@ -1,0 +1,21 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
+1	지방	O	O	O, B-LC, B-CV, B-OG, B-EV
+2	학생	O	B-CV	B-CV, I-CV, O, B-OG, B-AF
+3	,	O	O	O, I-CV, I-OG, B-CV, I-AF
+4	여성	O	O	O, B-CV, B-TM, B-FD, B-LC
+5	##인	O	O	O, I-CV, B-CV, B-TM, B-PS
+6	##력	O	O	O, I-CV, I-TM, I-OG, I-TR
+7	,	O	O	O, B-CV, B-LC, B-PS, I-CV
+8	장애인	O	B-CV	B-CV, O, I-CV, B-TM, B-OG
+9	등	O	O	O, I-CV, B-CV, B-TM, B-LC
+10	취약	O	O	O, B-CV, B-TM, B-PS, B-LC
+11	계층	O	O	O, I-CV, B-CV, B-PS, I-TM
+12	고용	O	O	O, B-CV, B-TM, I-CV, B-LC
+13	##을	O	O	O, B-CV, B-PS, B-OG, B-TM
+14	큰	O	O	O, B-OG, B-QT, B-CV, B-TM
+15	폭	O	O	O, I-QT, B-PS, B-TM, I-OG
+16	##으로	O	O	O, B-CV, B-PS, B-OG, I-QT
+17	늘린다	O	O	O, B-CV, B-OG, B-LC, B-PS
+18	.	O	O	O, B-CV, B-LC, B-PS, B-TM
+19	[SEP]	O	O	O, B-CV, B-LC, I-CV, B-TM

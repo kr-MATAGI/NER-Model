@@ -1,0 +1,12 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-QT
+1	25	B-QT	B-QT	B-QT, O, B-TM, I-QT, B-DT
+2	##승	I-QT	I-QT	I-QT, O, I-TM, B-QT, I-EV
+3	##10	I-QT	I-QT	I-QT, B-QT, O, I-TM, I-LC
+4	##무	I-QT	I-QT	I-QT, O, I-TM, I-LC, B-QT
+5	##9	I-QT	I-QT	I-QT, O, I-TM, I-LC, B-QT
+6	##패	I-QT	I-QT	I-QT, O, I-TM, I-LC, I-OG
+7	승점	O	O	O, B-TM, B-QT, I-QT, B-AF
+8	85	B-QT	I-QT	I-QT, B-QT, O, I-TM, I-LC
+9	.	O	O	O, I-QT, I-TM, I-OG, I-AF
+10	[SEP]	O	O	O, I-QT, B-CV, B-QT, B-TM

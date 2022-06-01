@@ -1,0 +1,15 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
+1	그러면	O	O	O, B-CV, B-OG, B-LC, B-TM
+2	내	O	O	O, B-CV, B-OG, B-LC, B-TM
+3	##가	O	O	O, B-PS, B-OG, B-CV, B-LC
+4	지금	O	O	O, B-CV, B-TM, B-OG, B-LC
+5	그거	O	O	O, B-CV, B-TM, B-OG, B-LC
+6	##에다	O	O	O, B-CV, B-PS, B-TM, B-OG
+7	##가	O	O	O, B-CV, B-PS, B-OG, B-LC
+8	건강	O	B-CV	B-CV, O, B-OG, B-AF, B-TM
+9	##보험	O	I-CV	I-CV, O, B-CV, I-OG, I-AF
+10	##료	O	I-CV	I-CV, O, I-OG, B-CV, I-AF
+11	있	O	O	O, I-CV, I-OG, B-CV, I-AF
+12	##잖아	O	O	O, B-CV, I-CV, B-OG, I-AF
+13	[SEP]	O	O	O, B-CV, B-LC, B-TM, B-OG

@@ -1,0 +1,19 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
+1	지난	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
+2	2	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
+3	##월	I-DT	I-DT	I-DT, O, B-DT, I-PS, I-QT
+4	유가증권	O	O	O, B-LC, I-DT, B-OG, B-CV
+5	##시장	O	O	O, B-LC, I-LC, I-OG, B-OG
+6	##에	O	O	O, I-OG, B-CV, B-PS, I-AF
+7	상장	O	O	O, B-CV, B-OG, B-PS, B-LC
+8	##한	O	O	O, B-PS, B-OG, I-OG, B-LC
+9	조선	O	B-OG	B-OG, O, B-PS, B-AF, B-LC
+10	##선	O	I-OG	I-OG, O, I-AF, B-OG, I-PS
+11	##재	O	I-OG	I-OG, O, I-AF, I-CV, I-PS
+12	##가	O	O	O, I-OG, I-AF, B-PS, I-PS
+13	대표	O	O	O, B-CV, B-LC, B-OG, B-PS
+14	##적	O	O	O, I-OG, I-AF, I-CV, B-PS
+15	##이다	O	O	O, B-CV, I-OG, B-OG, B-QT
+16	.	O	O	O, B-OG, B-LC, B-PS, B-CV
+17	[SEP]	O	O	O, B-CV, B-OG, B-LC, I-OG

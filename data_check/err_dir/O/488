@@ -1,0 +1,23 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
+1	수비	O	B-CV	B-CV, O, B-TM, I-CV, B-FD
+2	불안	O	O	O, B-TM, B-PS, I-CV, B-CV
+3	##은	O	O	O, B-PS, B-CV, I-CV, B-LC
+4	공격	O	O	O, B-TM, B-TR, B-CV, B-FD
+5	축구	B-CV	B-CV	B-CV, O, I-CV, B-FD, B-TM
+6	##를	O	O	O, I-CV, I-OG, I-AF, B-CV
+7	표방	O	O	O, B-CV, B-PS, B-OG, B-TM
+8	##하	O	O	O, B-PS, B-LC, B-OG, I-PS
+9	##는	O	O	O, B-PS, B-LC, I-PS, B-OG
+10	신태용	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
+11	감독	B-CV	B-CV	B-CV, O, I-PS, I-CV, B-OG
+12	스스로	O	O	O, I-CV, B-CV, I-OG, I-QT
+13	안	O	O	O, B-PS, B-TM, B-CV, B-QT
+14	##은	O	O	O, B-PS, B-CV, B-TM, B-LC
+15	문제	O	O	O, B-CV, B-TM, B-PS, B-OG
+16	##기	O	O	O, B-PS, I-CV, I-QT, I-PS
+17	##도	O	O	O, I-CV, B-PS, I-QT, B-CV
+18	하	O	O	O, B-PS, B-CV, B-LC, B-TM
+19	##다	O	O	O, B-CV, I-CV, I-OG, B-TM
+20	.	O	O	O, B-PS, B-CV, B-LC, B-TM
+21	[SEP]	O	O	O, B-CV, B-PS, B-TM, B-LC

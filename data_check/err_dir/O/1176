@@ -1,0 +1,19 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-CV, B-CV, I-OG, I-AF
+1	그	O	O	O, B-CV, B-LC, B-OG, B-TM
+2	중	O	O	O, B-CV, B-LC, B-PS, B-OG
+3	##에서	O	O	O, B-CV, B-PS, B-LC, B-QT
+4	신뢰	O	O	O, B-CV, B-PS, I-CV, B-MT
+5	##이	O	O	O, I-CV, I-LC, I-AF, B-CV
+6	##익	O	O	O, I-CV, I-LC, I-PS, I-AF
+7	##에	O	O	O, I-CV, I-AF, B-PS, I-PS
+8	대한	O	O	O, B-CV, B-PS, B-LC, B-OG
+9	손해배상	O	B-CV	B-CV, O, I-CV, B-FD, B-TM
+10	##이	O	O	O, I-CV, B-CV, B-PS, I-AF
+11	##라는	O	O	O, B-CV, B-PS, I-CV, B-LC
+12	개념	O	O	O, B-CV, I-CV, B-PS, I-AF
+13	##이	O	O	O, B-CV, B-PS, I-AF, I-CV
+14	있	O	O	O, B-CV, I-AF, B-OG, B-LC
+15	##어요	O	O	O, B-CV, I-AF, I-OG, B-OG
+16	.	O	O	O, B-CV, B-LC, B-PS, I-AF
+17	[SEP]	O	O	O, B-CV, I-AF, B-LC, I-CV

@@ -1,0 +1,16 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-AF
+1	[	O	O	O, B-LC, B-OG, B-PS, B-CV
+2	최재	B-PS	B-PS	B-PS, O, B-AF, B-OG, I-PS
+3	##봉	I-PS	I-PS	I-PS, O, I-AF, I-OG, I-LC
+4	##의	O	O	O, I-AF, I-PS, B-AF, I-OG
+5	문학	B-FD	O	O, B-FD, I-AF, I-FD, B-AF
+6	##으로	O	O	O, I-AF, I-FD, I-OG, I-TR
+7	]	O	O	O, I-AF, B-PS, B-LC, B-OG
+8	표절	O	O	O, B-CV, B-TM, B-FD, B-TR
+9	##과	O	O	O, I-AF, B-PS, I-CV, I-OG
+10	문학	B-FD	O	O, B-FD, B-CV, B-TR, B-AF
+11	##권력	O	O	O, I-CV, B-CV, I-FD, I-AF
+12	##을	O	O	O, I-CV, I-AF, B-CV, B-PS
+13	넘어서	O	O	O, B-CV, B-LC, B-OG, B-PS
+14	[SEP]	O	O	O, B-CV, B-LC, B-AF, B-PS

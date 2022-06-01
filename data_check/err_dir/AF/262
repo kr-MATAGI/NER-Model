@@ -1,0 +1,17 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-EV, I-CV
+1	국정원	B-AF	B-OG	B-OG, B-AF, B-EV, O, B-FD
+2	사건	O	O	O, I-EV, I-OG, I-AF, I-CV
+3	수사	O	O	O, B-OG, B-CV, I-EV, I-OG
+4	##팀	O	O	O, I-OG, I-CV, B-OG, I-EV
+5	##은	O	O	O, B-CV, I-OG, B-PS, B-LC
+6	항소	O	O	O, B-CV, B-LC, B-TM, B-OG
+7	##를	O	O	O, B-CV, B-PS, I-CV, B-OG
+8	강하	O	O	O, B-CV, B-LC, B-TM, B-OG
+9	##게	O	O	O, I-OG, B-PS, I-CV, I-LC
+10	주장	O	O	O, B-CV, B-LC, B-TM, B-OG
+11	##하고	O	O	O, B-CV, B-LC, B-PS, B-OG
+12	있	O	O	O, B-CV, B-LC, B-OG, B-TM
+13	##다	O	O	O, B-CV, B-LC, B-OG, I-EV
+14	.	O	O	O, B-CV, B-LC, B-OG, B-PS
+15	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-PS

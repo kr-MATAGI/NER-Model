@@ -1,0 +1,19 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
+1	여름	B-DT	B-DT	B-DT, O, I-DT, B-TI, B-LC
+2	한복	O	O	O, I-DT, B-CV, B-PS, B-QT
+3	##판	O	O	O, B-LC, I-LC, B-PS, I-QT
+4	인제	B-LC	B-LC	B-LC, B-OG, O, B-AF, B-PS
+5	##군	I-LC	I-LC	I-LC, O, I-OG, I-PS, I-AF
+6	만	B-LC	B-LC	B-LC, I-LC, O, B-OG, B-AF
+7	##해	I-LC	I-LC	I-LC, O, I-AF, I-OG, B-LC
+8	##마을	I-LC	I-LC	I-LC, O, I-AF, I-OG, B-LC
+9	,	O	O	O, I-LC, I-AF, I-OG, B-LC
+10	詩	O	B-FD	B-FD, O, B-AF, B-CV, B-EV
+11	·	O	O	O, I-FD, I-AF, I-LC, I-OG
+12	書	O	O	O, B-FD, I-FD, B-AF, B-LC
+13	·	O	O	O, I-FD, I-LC, I-AF, I-OG
+14	[UNK]	O	O	O, B-FD, B-LC, I-FD, B-PS
+15	향기	O	O	O, B-LC, B-PS, B-CV, B-AF
+16	가득	O	O	O, B-PS, B-LC, B-CV, B-OG
+17	[SEP]	O	O	O, B-LC, B-CV, I-LC, I-AF

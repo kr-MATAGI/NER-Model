@@ -1,0 +1,12 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, I-CV, I-AF, B-CV
+1	씨	B-PT	O	O, B-CV, B-AM, B-PT, B-TM
+2	마른	O	O	O, B-PT, B-CV, B-AM, B-TM
+3	##줄	O	O	O, I-CV, I-PS, I-PT, I-TM
+4	알	O	O	O, B-PS, B-CV, I-CV, I-OG
+5	##았	O	O	O, B-PS, B-CV, I-CV, I-OG
+6	##네	O	O	O, I-OG, I-PS, I-AF, I-TM
+7	두산	B-OG	B-OG	B-OG, B-LC, O, B-PS, B-AF
+8	왼손	B-AM	B-AM	B-AM, O, B-TM, B-TR, I-OG
+9	마운드	B-TM	B-TM	B-TM, I-TM, B-AM, B-TR, O
+10	[SEP]	O	O	O, I-TM, I-TR, I-AF, I-CV

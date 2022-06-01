@@ -1,0 +1,20 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
+1	데뷔	O	B-EV	B-EV, O, B-CV, B-AF, I-EV
+2	##전	O	I-EV	I-EV, O, I-AF, B-EV, I-CV
+3	##을	O	O	O, I-EV, I-AF, I-OG, B-CV
+4	치른	O	O	O, B-CV, B-OG, B-PS, I-EV
+5	이승기	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-AF
+6	##는	O	O	O, I-PS, I-OG, I-EV, I-AF
+7	나날이	O	O	O, B-LC, B-PS, B-TM, B-CV
+8	기량	O	O	O, B-CV, B-TM, B-PS, B-LC
+9	##이	O	O	O, B-PS, B-OG, B-CV, B-LC
+10	향상	O	O	O, B-CV, B-PS, B-LC, B-TM
+11	##되	O	O	O, B-PS, B-LC, B-CV, B-OG
+12	##는	O	O	O, B-PS, B-CV, B-LC, B-TM
+13	모습	O	O	O, B-CV, B-TM, B-LC, B-PS
+14	##을	O	O	O, B-CV, I-OG, I-CV, I-AF
+15	보였	O	O	O, B-CV, B-OG, B-LC, B-TM
+16	##다	O	O	O, B-CV, I-OG, I-EV, I-CV
+17	.	O	O	O, B-PS, B-CV, B-LC, B-OG
+18	[SEP]	O	O	O, B-CV, B-PS, I-OG, B-LC

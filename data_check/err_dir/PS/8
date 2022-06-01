@@ -1,0 +1,14 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
+1	네	O	O	O, B-CV, B-LC, B-EV, B-OG
+2	.	O	O	O, B-CV, B-PS, B-LC, I-OG
+3	시월	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
+4	칠	I-DT	I-DT	I-DT, B-DT, O, I-QT, I-EV
+5	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
+6	##에	O	O	O, I-DT, I-EV, I-AF, B-CV
+7	배고픈	O	O	O, B-PS, B-LC, B-CV, B-AF
+8	자화상	B-PS	O	O, B-FD, B-PS, B-CV, B-TR
+9	##님	O	O	O, I-CV, B-CV, I-PS, I-AF
+10	##께	O	O	O, I-CV, B-CV, B-PS, I-AF
+11	##서	O	O	O, B-PS, B-LC, I-CV, I-AF
+12	[SEP]	O	O	O, B-CV, B-LC, B-PS, I-EV

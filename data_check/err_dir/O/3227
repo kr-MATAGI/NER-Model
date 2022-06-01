@@ -1,0 +1,25 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-QT
+1	주요	O	O	O, B-TM, B-CV, B-QT, B-OG
+2	보직	O	O	O, B-CV, B-PS, B-OG, B-EV
+3	인사	O	B-CV	B-CV, O, I-CV, B-EV, B-FD
+4	##는	O	O	O, I-CV, B-CV, I-EV, I-OG
+5	천	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
+6	후보자	B-CV	B-CV	B-CV, O, I-PS, I-CV, B-EV
+7	##의	O	O	O, I-CV, I-EV, B-CV, I-OG
+8	사법	O	O	O, B-EV, B-CV, B-OG, B-FD
+9	##시험	O	O	O, I-EV, B-EV, I-OG, I-CV
+10	기수	O	O	O, B-CV, I-EV, I-CV, B-PS
+11	##와	O	O	O, I-CV, B-PS, I-EV, I-OG
+12	나이	O	O	O, B-CV, B-LC, B-TM, B-OG
+13	,	O	O	O, B-CV, B-PS, B-LC, B-OG
+14	지역	O	O	O, B-LC, B-CV, B-TM, B-OG
+15	##을	O	O	O, B-CV, B-PS, B-LC, B-TM
+16	고려	O	O	O, B-CV, B-OG, B-TM, B-LC
+17	##해	O	O	O, B-LC, B-OG, B-PS, B-CV
+18	안배	O	O	O, B-CV, B-OG, B-LC, B-TM
+19	##가	O	O	O, B-PS, B-OG, B-LC, B-CV
+20	이뤄졌	O	O	O, B-CV, B-OG, B-LC, I-OG
+21	##다	O	O	O, B-CV, I-OG, B-OG, B-LC
+22	.	O	O	O, B-LC, B-CV, B-OG, B-PS
+23	[SEP]	O	O	O, B-CV, B-LC, I-OG, B-OG

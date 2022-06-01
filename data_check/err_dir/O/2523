@@ -1,0 +1,16 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, I-EV, I-CV, B-CV
+1	""""	O	O	O, B-CV, B-LC, B-TM, B-OG
+2	대화	O	O	O, B-CV, B-LC, B-TM, B-PS
+3	매개체	O	O	O, B-CV, B-PS, B-LC, I-CV
+4	와인	O	B-CV	B-CV, O, I-CV, B-LC, B-AF
+5	##문화	O	O	O, I-CV, B-CV, I-AF, I-OG
+6	,	O	O	O, I-CV, B-CV, B-LC, B-PS
+7	한국	B-LC	B-LC	B-LC, B-OG, O, B-PS, B-AF
+8	##에	O	O	O, I-LC, I-OG, B-CV, B-LC
+9	소개	O	O	O, B-CV, B-LC, B-TM, B-OG
+10	##하고	O	O	O, B-CV, B-LC, I-CV, B-PS
+11	싶	O	O	O, B-CV, B-LC, B-PS, B-OG
+12	##어	O	O	O, B-CV, B-PS, I-CV, B-LC
+13	""""	O	O	O, B-CV, B-LC, B-OG, B-PS
+14	[SEP]	O	O	O, B-CV, B-LC, B-FD, B-PS

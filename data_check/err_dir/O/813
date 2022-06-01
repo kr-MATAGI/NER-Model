@@ -1,0 +1,26 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, I-CV, I-AF, B-CV
+1	시골	O	O	O, B-LC, B-CV, B-DT, B-FD
+2	##의	O	O	O, B-PS, I-AF, I-OG, B-LC
+3	여름날	O	B-DT	B-DT, O, B-TI, B-LC, B-QT
+4	친구	B-CV	B-CV	B-CV, O, I-CV, B-PS, I-DT
+5	기	B-PS	B-PS	B-PS, O, B-LC, I-PS, B-OG
+6	##남	I-PS	I-PS	I-PS, O, I-LC, I-OG, B-PS
+7	##이	O	I-PS	I-PS, O, B-PS, I-LC, I-OG
+8	아버지	B-CV	B-CV	B-CV, O, I-PS, I-CV, B-OG
+9	##가	O	O	O, I-CV, B-PS, I-PS, I-AF
+10	어미	B-CV	B-CV	B-CV, O, B-AM, B-PS, I-CV
+11	잃	O	O	O, I-CV, B-CV, I-AF, I-EV
+12	##은	O	O	O, B-PS, B-CV, B-LC, B-AF
+13	새끼	O	O	O, B-AM, B-CV, B-AF, B-TM
+14	궁	B-AM	B-AM	B-AM, B-TM, B-CV, O, B-AF
+15	##노	I-AM	I-AM	I-AM, I-TM, I-CV, O, I-AF
+16	##루	I-AM	I-AM	I-AM, I-TM, I-CV, O, I-AF
+17	4	B-QT	B-QT	B-QT, I-QT, I-AF, O, I-TM
+18	##마리	I-QT	I-QT	I-QT, O, I-TM, I-AF, I-PS
+19	##를	O	O	O, I-QT, I-AF, B-CV, I-OG
+20	학교	O	O	O, B-OG, B-CV, I-OG, I-QT
+21	##에	O	O	O, B-CV, I-OG, I-AF, I-QT
+22	가져온다	O	O	O, B-PS, B-CV, B-QT, B-LC
+23	.	O	O	O, B-PS, B-CV, I-AF, B-LC
+24	[SEP]	O	O	O, B-CV, B-PS, I-AF, B-LC

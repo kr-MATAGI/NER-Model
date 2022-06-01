@@ -1,0 +1,23 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-CV, I-OG, B-CV, I-EV
+1	‘	O	O	O, B-PS, B-LC, B-CV, B-OG
+2	천지	B-AF	B-PS	B-PS, B-AF, O, B-EV, B-LC
+3	##창	I-AF	I-AF	I-AF, I-PS, O, B-PS, I-LC
+4	##조	I-AF	I-AF	I-AF, I-PS, O, I-LC, I-OG
+5	’	O	O	O, I-AF, I-PS, I-EV, B-PS
+6	,	O	O	O, B-PS, B-LC, B-CV, B-OG
+7	‘	O	O	O, B-PS, B-LC, B-CV, B-OG
+8	최후	B-AF	B-AF	B-AF, O, B-PS, B-EV, B-CV
+9	##의	I-AF	I-AF	I-AF, O, I-PS, I-EV, I-OG
+10	심판	I-AF	I-AF	I-AF, O, I-PS, I-EV, B-PS
+11	’	O	O	O, I-AF, I-PS, I-EV, I-CV
+12	등	O	O	O, B-PS, B-LC, B-CV, B-OG
+13	##으로	O	O	O, B-PS, B-LC, I-PS, B-CV
+14	르네상스	O	B-DT	B-DT, O, B-LC, B-FD, B-EV
+15	전성기	O	O	O, I-DT, B-CV, B-PS, B-DT
+16	##를	O	O	O, B-PS, B-CV, I-DT, B-OG
+17	연	O	O	O, B-PS, B-CV, B-OG, B-LC
+18	천재	O	O	O, B-CV, B-PS, B-AF, I-CV
+19	##다	O	O	O, I-CV, I-PS, B-PS, B-CV
+20	.	O	O	O, B-PS, B-LC, B-CV, I-PS
+21	[SEP]	O	O	O, B-PS, B-CV, B-LC, I-PS

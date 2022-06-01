@@ -1,0 +1,18 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, I-EV, I-CV, B-CV
+1	野	B-OG	O	O, B-OG, B-LC, I-OG, B-EV
+2	,	O	O	O, I-OG, I-EV, B-PS, B-CV
+3	54	B-QT	B-QT	B-QT, O, B-EV, I-QT, B-TM
+4	##개	I-QT	I-QT	I-QT, O, I-EV, I-OG, I-PS
+5	법안	O	O	O, I-QT, I-EV, I-OG, B-CV
+6	처리	O	O	O, I-OG, B-OG, I-EV, B-LC
+7	##와	O	O	O, B-PS, B-LC, B-OG, I-OG
+8	연계	O	O	O, B-LC, B-OG, B-CV, B-PS
+9	…	O	O	O, I-OG, B-OG, B-LC, B-PS
+10	26	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
+11	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
+12	다시	O	O	O, I-DT, B-LC, B-CV, B-OG
+13	만나	O	O	O, B-LC, B-OG, B-EV, B-CV
+14	타협	O	O	O, B-LC, I-EV, B-OG, B-EV
+15	시도	O	O	O, B-OG, B-LC, I-EV, B-CV
+16	[SEP]	O	O	O, B-LC, B-OG, I-EV, B-CV

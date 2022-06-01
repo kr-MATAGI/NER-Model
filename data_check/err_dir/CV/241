@@ -1,0 +1,20 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
+1	평창	B-LC	B-LC	B-LC, B-EV, B-AF, B-PS, O
+2	썰매	B-CV	I-EV	I-EV, B-CV, O, I-CV, B-EV
+3	종목	O	O	O, I-EV, I-CV, I-OG, I-AF
+4	경기장	O	O	O, I-EV, I-AF, B-AF, I-LC
+5	##의	O	O	O, I-AF, I-EV, I-OG, B-CV
+6	조기	O	O	O, B-LC, B-TM, B-PS, B-CV
+7	완공	O	O	O, B-LC, B-CV, B-PS, B-TM
+8	##이	O	O	O, B-PS, B-LC, B-OG, B-CV
+9	시급	O	O	O, B-LC, B-TM, B-PS, B-CV
+10	##한	O	O	O, B-LC, B-PS, B-TM, B-CV
+11	이유	O	O	O, B-CV, B-TM, B-LC, B-PS
+12	##이	O	O	O, B-PS, B-CV, B-LC, I-CV
+13	##기	O	O	O, B-PS, B-LC, I-PS, B-CV
+14	##도	O	O	O, I-LC, B-LC, I-QT, I-PS
+15	하	O	O	O, B-LC, B-PS, B-CV, I-LC
+16	##다	O	O	O, B-CV, I-CV, I-QT, I-OG
+17	.	O	O	O, B-LC, B-PS, B-CV, B-OG
+18	[SEP]	O	O	O, B-LC, B-CV, B-PS, I-EV

@@ -1,0 +1,19 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-QT
+1	[UNK]	O	O	O, B-PS, B-LC, B-AM, B-OG
+2	폴리에	O	B-PS	B-PS, O, B-LC, I-PS, B-OG
+3	지음	O	O	O, B-CV, I-PS, B-LC, B-PS
+4	·	O	O	O, B-PS, B-LC, B-CV, B-OG
+5	안	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
+6	##수	I-PS	I-PS	I-PS, O, I-OG, I-DT, I-LC
+7	##연	I-PS	I-PS	I-PS, O, I-OG, I-LC, I-DT
+8	옮김	O	O	O, B-CV, I-PS, B-LC, B-OG
+9	/	O	O	O, B-LC, B-OG, B-CV, B-PS
+10	에코	B-OG	B-OG	B-OG, O, B-AF, B-CV, I-OG
+11	##리	I-OG	I-OG	I-OG, O, I-AF, I-CV, I-TM
+12	##브르	I-OG	I-OG	I-OG, O, I-AF, I-CV, I-QT
+13	·	O	O	O, I-OG, B-CV, I-AF, I-CV
+14	9000	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-TI
+15	##원	I-QT	I-QT	I-QT, O, I-LC, I-OG, I-DT
+16	.	O	O	O, I-QT, I-OG, B-CV, B-LC
+17	[SEP]	O	O	O, B-LC, B-PS, B-CV, B-OG

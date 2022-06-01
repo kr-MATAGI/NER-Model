@@ -1,0 +1,12 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
+1	저	O	O	O, B-CV, B-OG, B-PS, B-FD
+2	##는	O	O	O, B-CV, B-PS, I-OG, B-FD
+3	아동	B-FD	O	O, B-FD, B-CV, B-TR, B-OG
+4	##가족	I-FD	O	O, I-FD, I-CV, B-CV, B-FD
+5	##을	O	O	O, I-CV, I-FD, I-OG, I-QT
+6	전공	O	O	O, B-FD, B-CV, B-PS, B-OG
+7	##했	O	O	O, B-PS, B-CV, I-CV, I-OG
+8	##구요	O	O	O, B-CV, B-PS, B-LC, I-OG
+9	.	O	O	O, B-CV, B-OG, B-LC, B-TM
+10	[SEP]	O	O	O, B-CV, B-FD, I-OG, B-PS

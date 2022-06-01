@@ -1,0 +1,25 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
+1	2004	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
+2	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
+3	알카에다	B-OG	B-OG	B-OG, O, I-OG, I-DT, B-AF
+4	연계	O	O	O, I-OG, I-EV, B-CV, I-CV
+5	조직	O	O	O, B-OG, I-OG, B-PS, B-CV
+6	##이	O	O	O, B-PS, B-OG, B-LC, B-CV
+7	저지른	O	O	O, B-CV, B-EV, B-LC, B-PS
+8	마드리드	B-EV	B-LC	B-LC, B-EV, B-AF, O, B-DT
+9	기차역	I-EV	I-LC	I-LC, I-EV, O, I-AF, I-DT
+10	폭탄	I-EV	B-EV	B-EV, I-EV, B-CV, O, B-AF
+11	##테	I-EV	I-EV	I-EV, O, I-CV, I-AF, I-TM
+12	##러	I-EV	I-EV	I-EV, O, I-CV, I-AF, I-TM
+13	용의자	B-CV	B-CV	B-CV, O, I-CV, I-EV, I-AF
+14	##들	O	O	O, I-CV, I-EV, B-CV, I-AF
+15	##과	O	O	O, B-CV, B-TM, B-LC, B-PS
+16	접촉	O	O	O, B-CV, B-TM, B-LC, B-EV
+17	##한	O	O	O, B-LC, B-PS, B-CV, B-OG
+18	것	O	O	O, B-CV, B-LC, B-PS, B-OG
+19	##으로	O	O	O, B-CV, B-LC, B-PS, B-TM
+20	알려졌	O	O	O, B-CV, B-LC, B-TM, B-OG
+21	##다	O	O	O, B-CV, B-LC, I-OG, I-QT
+22	.	O	O	O, B-LC, B-PS, B-CV, B-OG
+23	[SEP]	O	O	O, B-LC, B-CV, B-PS, B-OG

@@ -1,0 +1,17 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
+1	경찰	B-OG	B-OG	B-OG, O, B-CV, B-AF, B-LC
+2	##은	O	O	O, I-OG, B-CV, I-EV, I-CV
+3	살해	B-CV	O	O, B-CV, B-AF, B-TM, I-CV
+4	장면	O	O	O, I-CV, I-AF, B-CV, I-EV
+5	##이	O	O	O, B-PS, B-CV, B-LC, B-OG
+6	담긴	O	O	O, B-LC, B-CV, B-TM, B-PS
+7	씨씨	B-TM	B-TM	B-TM, O, B-TR, B-OG, B-AF
+8	##티	I-TM	I-TM	I-TM, O, I-TR, I-OG, B-TM
+9	##비	I-TM	I-TM	I-TM, O, I-TR, I-OG, I-QT
+10	영상	O	O	O, I-TM, B-CV, I-TR, B-LC
+11	##을	O	O	O, B-CV, B-LC, B-OG, I-TM
+12	확보	O	O	O, B-CV, B-LC, B-OG, B-TM
+13	##하고	O	O	O, B-LC, B-OG, B-PS, B-CV
+14	##도	O	O	O, B-CV, B-LC, B-OG, B-TM
+15	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-TM

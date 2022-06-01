@@ -1,0 +1,12 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
+1	“	O	O	O, B-CV, B-LC, B-OG, B-TM
+2	유망주	B-CV	B-CV	B-CV, O, B-PS, B-AF, B-TM
+3	싹	B-PT	O	O, I-CV, B-TM, B-PS, B-QT
+4	죽일	O	O	O, B-QT, B-TM, I-QT, B-CV
+5	##것	O	O	O, I-QT, B-PS, I-TM, B-QT
+6	”	O	O	O, B-CV, B-OG, B-LC, B-PS
+7	찬반	O	O	O, B-CV, B-OG, B-PS, B-TM
+8	엇갈	O	O	O, B-OG, B-CV, B-TM, B-LC
+9	##려	O	O	O, B-OG, I-OG, B-LC, B-PS
+10	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG

@@ -1,0 +1,17 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
+1	춤	O	O	O, B-FD, B-CV, B-AF, I-FD
+2	음악	O	B-FD	B-FD, O, I-FD, B-CV, B-TR
+3	##극	O	I-FD	I-FD, O, B-FD, I-TR, I-AF
+4	‘	O	O	O, I-FD, B-CV, B-FD, B-DT
+5	思	O	O	O, B-PS, B-AF, B-LC, B-CV
+6	[UNK]	O	O	O, I-AF, B-PS, B-LC, I-PS
+7	-	O	O	O, B-LC, B-PS, I-AF, B-AF
+8	사도	B-PS	B-PS	B-PS, O, B-LC, B-AF, I-PS
+9	##세자	I-PS	I-PS	I-PS, O, I-AF, B-PS, I-LC
+10	이야기	O	O	O, I-AF, I-PS, I-LC, I-EV
+11	’	O	O	O, B-CV, I-AF, B-LC, I-EV
+12	★	O	O	O, B-CV, B-LC, B-TM, B-OG
+13	##★★	O	O	O, I-CV, I-TM, I-OG, I-LC
+14	##★	O	O	O, I-OG, I-CV, I-TM, I-LC
+15	[SEP]	O	O	O, B-CV, B-FD, B-LC, I-OG

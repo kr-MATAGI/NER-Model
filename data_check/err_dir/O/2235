@@ -1,0 +1,13 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
+1	자연	O	O	O, B-FD, B-LC, B-OG, B-TR
+2	##적으로	O	O	O, I-OG, B-PS, I-FD, I-LC
+3	식물	O	O	O, B-OG, B-LC, B-FD, B-CV
+4	사회	O	O	O, I-OG, B-CV, B-FD, I-FD
+5	##에	O	O	O, I-OG, I-CV, B-PS, I-AF
+6	멤버	O	B-CV	B-CV, O, I-CV, B-PS, B-OG
+7	구성	O	O	O, I-CV, I-OG, B-CV, B-PS
+8	##도	O	O	O, I-CV, I-OG, B-CV, B-PS
+9	있	O	O	O, B-CV, B-OG, B-PS, B-LC
+10	##고	O	O	O, B-CV, I-OG, I-AF, B-OG
+11	[SEP]	O	O	O, B-CV, I-OG, B-LC, B-OG

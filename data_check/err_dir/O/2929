@@ -1,0 +1,20 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
+1	진보	O	B-TR	B-TR, O, B-PS, I-TR, B-TM
+2	교육감	B-CV	B-CV	B-CV, I-CV, O, B-OG, I-TR
+3	6	B-QT	B-QT	B-QT, I-QT, B-DT, I-CV, O
+4	##명	I-QT	I-QT	I-QT, O, I-PS, B-QT, I-OG
+5	“	O	O	O, I-QT, I-OG, B-CV, B-OG
+6	자사	O	O	O, B-OG, B-CV, B-TM, B-LC
+7	##고	O	O	O, I-OG, B-OG, I-CV, I-LC
+8	<	O	O	O, I-OG, B-OG, B-LC, B-PS
+9	자율	O	O	O, B-OG, B-AF, B-LC, I-OG
+10	##형	O	I-OG	I-OG, O, I-AF, I-LC, B-OG
+11	##사	O	I-OG	I-OG, O, I-AF, I-LC, I-CV
+12	##립	O	O	O, I-OG, I-AF, I-LC, I-CV
+13	##고	O	O	O, I-OG, I-AF, I-LC, I-CV
+14	>	O	O	O, I-OG, I-AF, I-CV, B-CV
+15	신설	O	O	O, B-CV, B-OG, B-TM, B-LC
+16	거부	O	O	O, B-CV, B-LC, B-TM, B-OG
+17	”	O	O	O, B-CV, I-OG, B-LC, B-OG
+18	[SEP]	O	O	O, B-OG, B-LC, B-CV, I-OG

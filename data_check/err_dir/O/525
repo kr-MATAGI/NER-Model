@@ -1,0 +1,20 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-AF
+1	지금	O	O	O, B-LC, B-OG, B-DT, B-CV
+2	우리	O	O	O, B-LC, B-OG, B-CV, B-DT
+3	사회	O	O	O, B-CV, B-FD, I-OG, I-LC
+4	##를	O	O	O, B-FD, I-OG, B-PS, B-CV
+5	영화	O	O	O, B-FD, I-FD, B-CV, I-OG
+6	장르	O	O	O, B-FD, B-CV, I-FD, I-CV
+7	##로	O	O	O, B-PS, B-LC, B-CV, I-CV
+8	분류	O	O	O, B-OG, B-CV, B-LC, B-PS
+9	##하	O	O	O, B-PS, I-OG, I-CV, B-LC
+10	##자	O	O	O, I-OG, B-PS, B-CV, B-LC
+11	##면	O	O	O, I-OG, B-LC, B-OG, I-CV
+12	스릴러	B-FD	B-FD	B-FD, O, B-TR, B-AF, I-FD
+13	##나	O	O	O, I-FD, I-AF, I-OG, I-CV
+14	공포	O	B-FD	B-FD, O, B-AF, B-CV, B-OG
+15	##쯤	O	O	O, I-FD, I-AF, I-OG, I-CV
+16	될까	O	O	O, I-OG, B-CV, I-AF, I-QT
+17	.	O	O	O, B-CV, B-TM, B-LC, B-OG
+18	[SEP]	O	O	O, B-CV, B-FD, B-LC, I-OG

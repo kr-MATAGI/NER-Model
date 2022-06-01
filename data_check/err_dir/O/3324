@@ -1,0 +1,26 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
+1	다양	O	O	O, B-TM, B-CV, B-LC, B-OG
+2	##한	O	O	O, B-TM, B-LC, B-PS, B-OG
+3	색	O	O	O, B-TM, I-TM, B-CV, B-OG
+4	##의	O	O	O, B-PS, I-AF, I-OG, B-CV
+5	유리	O	B-MT	B-MT, O, B-CV, I-MT, B-TM
+6	덩어리	O	O	O, I-AF, I-CV, I-LC, I-TM
+7	##를	O	O	O, I-AF, B-CV, B-PS, I-OG
+8	김밥	B-CV	B-CV	B-CV, O, B-PT, B-AF, B-OG
+9	##처럼	O	O	O, I-CV, I-OG, I-AF, I-QT
+10	만	O	O	O, B-PS, B-QT, B-TM, B-LC
+11	후	O	O	O, I-QT, B-PS, I-OG, I-LC
+12	잘라	O	O	O, B-CV, B-TM, B-PS, B-OG
+13	단면	O	O	O, B-TM, B-CV, B-LC, B-AF
+14	##에	O	O	O, B-CV, B-PS, B-OG, I-OG
+15	나타난	O	O	O, B-CV, B-LC, B-TM, B-PS
+16	문양	O	O	O, B-TM, B-CV, B-LC, B-FD
+17	##을	O	O	O, B-CV, B-PS, I-AF, B-OG
+18	활용	O	O	O, B-CV, B-LC, B-OG, B-TM
+19	##하기	O	O	O, B-CV, B-PS, B-LC, I-OG
+20	##도	O	O	O, I-OG, B-CV, B-LC, I-QT
+21	했	O	O	O, B-CV, B-OG, B-LC, B-PS
+22	##다	O	O	O, B-CV, I-OG, B-LC, B-OG
+23	.	O	O	O, B-LC, B-PS, B-CV, B-OG
+24	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG

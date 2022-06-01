@@ -1,0 +1,20 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
+1	특히	O	O	O, B-TM, B-OG, B-CV, B-LC
+2	신장	B-TM	B-TM	B-TM, O, B-AM, B-LC, B-TR
+3	계통	O	O	O, I-TM, B-TM, I-LC, B-CV
+4	##에	O	O	O, B-PS, B-LC, B-CV, B-OG
+5	위암	B-TM	B-TM	B-TM, O, B-CV, I-TM, B-LC
+6	같	O	O	O, I-TM, I-AF, I-CV, I-EV
+7	##은	O	O	O, B-LC, B-OG, B-TM, B-PS
+8	것	O	O	O, B-CV, B-LC, B-OG, B-PS
+9	##을	O	O	O, B-CV, B-OG, B-TM, B-LC
+10	질	O	B-TM	B-TM, O, B-AM, B-LC, B-CV
+11	##방	O	I-TM	I-TM, O, I-AM, I-LC, B-TM
+12	##을	O	O	O, I-TM, I-OG, I-QT, I-CV
+13	유도	O	O	O, B-CV, B-LC, B-TM, B-OG
+14	유발	O	O	O, B-CV, B-LC, B-TM, B-PS
+15	##하기	O	O	O, B-CV, B-LC, B-OG, B-PS
+16	때문	O	O	O, B-CV, B-OG, B-LC, B-TM
+17	##에	O	O	O, B-CV, B-OG, B-TM, I-OG
+18	[SEP]	O	O	O, B-CV, B-LC, B-TM, B-OG

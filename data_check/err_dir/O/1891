@@ -1,0 +1,7 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
+1	그냥	O	O	O, B-CV, B-QT, B-OG, B-LC
+2	건국	O	B-EV	B-EV, O, B-CV, B-TR, B-OG
+3	##혁명	O	I-EV	I-EV, O, I-TR, I-OG, I-AF
+4	.	O	O	O, I-EV, I-OG, I-AF, I-CV
+5	[SEP]	O	O	O, B-CV, I-EV, B-LC, B-OG

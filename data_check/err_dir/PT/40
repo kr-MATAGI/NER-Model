@@ -1,0 +1,19 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-AF
+1	문	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
+2	대통령	B-CV	B-CV	B-CV, I-PS, O, I-CV, B-OG
+3	##은	O	O	O, I-CV, B-CV, I-OG, I-AF
+4	산	O	O	O, B-PT, B-LC, B-CV, B-AM
+5	##과	O	O	O, I-AF, I-LC, I-OG, I-CV
+6	나무	O	O	O, B-PT, I-PT, B-LC, B-CV
+7	,	O	O	O, I-AF, B-CV, B-LC, I-OG
+8	꽃	B-PT	O	O, B-PT, I-PT, B-LC, B-CV
+9	,	O	O	O, I-AF, I-OG, I-CV, B-CV
+10	동물	O	O	O, B-PT, B-AM, B-LC, B-CV
+11	등	O	O	O, B-CV, B-PS, I-AF, B-LC
+12	##을	O	O	O, B-CV, B-LC, B-PS, B-TM
+13	무척	O	O	O, B-CV, B-TM, B-OG, B-LC
+14	##이나	O	O	O, B-PS, B-LC, I-OG, B-OG
+15	좋아한다	O	O	O, B-CV, I-OG, B-PS, B-LC
+16	.	O	O	O, B-LC, B-CV, B-PS, I-OG
+17	[SEP]	O	O	O, B-CV, B-LC, I-AF, I-OG

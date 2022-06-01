@@ -1,0 +1,26 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, B-CV, I-EV, I-CV
+1	이런	O	O	O, B-CV, B-TM, B-OG, B-AF
+2	상황	O	O	O, B-CV, B-TM, B-OG, B-AF
+3	##에서	O	O	O, B-CV, B-PS, B-OG, B-LC
+4	11	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-OG
+5	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
+6	괴한	B-CV	O	O, B-CV, B-OG, I-CV, B-PS
+7	##이	O	O	O, B-PS, I-CV, I-OG, I-AF
+8	침입	O	O	O, B-CV, B-AF, B-PS, B-LC
+9	##해	O	O	O, I-AF, B-PS, B-LC, B-CV
+10	공장	O	O	O, B-AF, B-CV, I-AF, B-LC
+11	##을	O	O	O, B-CV, I-AF, B-PS, B-AF
+12	점거	O	O	O, B-CV, B-AF, B-LC, B-TM
+13	##하고	O	O	O, B-PS, B-CV, I-AF, B-LC
+14	기	O	O	O, B-AF, B-CV, B-LC, B-TM
+15	##물	O	O	O, I-AF, B-LC, B-AF, B-CV
+16	##을	O	O	O, B-PS, B-CV, B-LC, B-AF
+17	[UNK]	O	O	O, B-CV, B-OG, B-PS, B-LC
+18	회사	O	O	O, B-OG, B-CV, B-AF, B-PS
+19	측은	O	O	O, B-OG, I-OG, B-CV, B-TM
+20	설명	O	O	O, B-CV, B-OG, I-OG, B-TM
+21	##했	O	O	O, B-OG, B-CV, I-OG, B-LC
+22	##다	O	O	O, B-CV, I-OG, B-OG, B-LC
+23	.	O	O	O, B-CV, B-PS, B-LC, B-AF
+24	[SEP]	O	O	O, B-CV, B-AF, B-LC, B-OG

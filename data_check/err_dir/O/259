@@ -1,0 +1,22 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
+1	이	O	O	O, B-CV, B-PS, B-OG, B-TM
+2	##들이	O	O	O, B-CV, B-PS, B-OG, B-TM
+3	보	O	B-OG	B-OG, B-AF, O, B-PS, B-EV
+4	##카	O	I-OG	I-OG, O, I-AF, I-PS, I-TM
+5	##의	O	O	O, I-OG, I-AF, I-EV, I-PS
+6	발전	O	O	O, B-CV, B-TM, I-OG, B-LC
+7	##과	O	O	O, B-PS, B-OG, B-LC, B-CV
+8	아르헨티나	B-OG	B-OG	B-OG, B-LC, B-EV, B-AF, I-OG
+9	대표	I-OG	I-OG	I-OG, O, I-EV, B-OG, I-LC
+10	##팀	I-OG	I-OG	I-OG, O, I-EV, I-CV, I-AF
+11	##의	O	O	O, I-OG, I-EV, I-AF, I-CV
+12	엔진	O	O	O, B-TM, B-AF, B-MT, B-CV
+13	역할	O	O	O, I-TM, B-CV, I-CV, I-AF
+14	##을	O	O	O, B-CV, B-OG, B-PS, B-TM
+15	하	O	O	O, B-CV, B-OG, B-TM, B-LC
+16	##는	O	O	O, B-CV, I-OG, B-OG, B-TM
+17	것	O	O	O, B-CV, B-OG, B-TM, B-QT
+18	##이다	O	O	O, B-CV, I-OG, I-CV, B-TM
+19	.	O	O	O, B-CV, B-OG, B-PS, I-OG
+20	[SEP]	O	O	O, B-CV, I-OG, B-OG, B-PS

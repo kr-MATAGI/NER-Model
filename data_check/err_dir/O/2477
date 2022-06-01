@@ -1,0 +1,26 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
+1	체육	O	B-FD	B-FD, O, B-CV, I-FD, B-TR
+2	교육	O	O	O, I-FD, I-CV, B-FD, I-OG
+3	##과	O	O	O, I-CV, I-FD, I-OG, I-AF
+4	##정	O	O	O, B-CV, I-CV, B-LC, B-FD
+5	##을	O	O	O, B-CV, B-PS, B-LC, B-OG
+6	재	O	O	O, B-LC, B-CV, B-OG, B-TM
+7	##구	O	O	O, B-LC, I-LC, I-QT, B-PS
+8	##성	O	O	O, B-LC, I-LC, B-PS, I-QT
+9	##해	O	O	O, B-LC, B-PS, I-LC, B-OG
+10	3	B-QT	B-QT	B-QT, O, B-DT, B-EV, I-QT
+11	##학년	I-QT	I-QT	I-QT, O, I-EV, I-DT, I-LC
+12	##은	O	O	O, I-QT, I-EV, I-AF, I-OG
+13	수영	B-CV	B-CV	B-CV, O, B-AF, B-FD, B-TM
+14	자유형	O	B-CV	B-CV, O, I-CV, B-TM, B-AF
+15	##을	O	O	O, I-CV, I-AF, B-CV, I-EV
+16	,	O	O	O, B-CV, B-OG, B-TM, B-LC
+17	4	B-QT	B-QT	B-QT, O, B-DT, I-QT, B-EV
+18	##학년	I-QT	I-QT	I-QT, O, I-EV, I-DT, I-OG
+19	##은	O	O	O, I-QT, I-EV, I-AF, B-CV
+20	배영	B-CV	B-CV	B-CV, O, B-TM, B-AF, B-AM
+21	##을	O	O	O, I-CV, I-AF, B-CV, I-EV
+22	[UNK]	O	O	O, B-CV, B-OG, B-LC, B-TM
+23	.	O	O	O, B-LC, B-CV, B-PS, B-OG
+24	[SEP]	O	O	O, B-CV, B-LC, I-AF, B-PS

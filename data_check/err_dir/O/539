@@ -1,0 +1,17 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, I-EV, I-CV, B-CV
+1	손학규	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
+2	-	O	O	O, I-PS, I-OG, I-EV, B-PS
+3	박지원	B-PS	B-PS	B-PS, I-PS, O, B-OG, B-LC
+4	심야	O	B-TI	B-TI, O, I-PS, I-TI, B-LC
+5	##회	O	O	O, I-EV, B-EV, B-LC, I-TI
+6	##동	O	O	O, I-EV, I-OG, B-LC, I-LC
+7	…	O	O	O, B-LC, I-EV, I-OG, B-OG
+8	‘	O	O	O, B-LC, B-OG, B-CV, B-PS
+9	통합	O	O	O, B-EV, B-OG, B-PS, B-LC
+10	##뒤	O	O	O, I-EV, I-LC, I-PS, I-OG
+11	지도부	O	O	O, B-PS, B-OG, B-CV, B-EV
+12	선출	O	O	O, B-PS, I-EV, B-EV, B-LC
+13	’	O	O	O, I-EV, I-OG, B-PS, B-CV
+14	합의	O	O	O, B-OG, B-LC, B-CV, B-EV
+15	[SEP]	O	O	O, B-LC, B-CV, I-EV, B-OG

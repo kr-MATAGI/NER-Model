@@ -1,0 +1,23 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-QT
+1	1	B-QT	B-QT	B-QT, O, B-DT, I-QT, B-OG
+2	.	I-QT	O	O, I-QT, I-OG, I-LC, I-DT
+3	조개	B-CV	B-CV	B-CV, O, I-CV, B-AM, B-PT
+4	##는	O	O	O, I-CV, B-CV, I-QT, I-AF
+5	해	O	O	O, B-AM, B-LC, B-PT, B-TM
+6	##감	O	O	O, I-PT, I-AM, I-LC, I-TM
+7	##을	O	O	O, I-LC, I-CV, I-TM, I-PS
+8	뺀	O	O	O, B-CV, B-LC, B-OG, B-PS
+9	후	O	O	O, B-LC, I-LC, B-PS, B-TM
+10	물	O	O	O, B-LC, B-AM, B-CV, B-PS
+11	##에	O	O	O, B-LC, I-LC, B-PS, B-TM
+12	잠	O	O	O, B-LC, I-LC, B-AM, B-PS
+13	##길	O	O	O, I-LC, I-TM, I-PS, I-AM
+14	정도	O	O	O, I-LC, B-LC, B-CV, B-AM
+15	##로	O	O	O, B-PS, I-LC, B-CV, B-LC
+16	넣	O	O	O, B-CV, B-LC, B-OG, B-PS
+17	##고	O	O	O, B-CV, B-LC, B-PS, B-OG
+18	끓인	O	O	O, B-CV, B-LC, B-OG, B-TM
+19	##다	O	O	O, B-CV, B-LC, I-CV, I-OG
+20	.	O	O	O, B-LC, B-CV, B-PS, B-OG
+21	[SEP]	O	O	O, B-CV, B-LC, B-PS, I-LC

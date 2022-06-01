@@ -1,0 +1,9 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-CV, I-OG, B-CV, I-AF
+1	번역	O	B-TM	B-TM, O, B-AF, B-CV, B-TR
+2	##기	O	I-TM	I-TM, O, I-AF, B-TM, I-CV
+3	돌리	O	O	O, I-TM, B-CV, I-AF, I-CV
+4	##고	O	O	O, B-CV, I-TM, B-PS, I-AF
+5	있	O	O	O, B-CV, B-PS, B-TM, B-LC
+6	##어	O	O	O, I-AF, I-OG, I-CV, I-TM
+7	[SEP]	O	O	O, B-CV, B-TM, B-LC, B-PS

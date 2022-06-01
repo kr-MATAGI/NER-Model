@@ -1,0 +1,26 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
+1	대화	O	O	O, B-AM, B-CV, B-AF, B-TM
+2	기린	B-AM	B-AM	B-AM, O, I-AM, B-TM, B-AF
+3	##을	O	O	O, I-AF, I-CV, I-AM, B-CV
+4	상징	O	O	O, B-CV, B-TM, B-AF, B-AM
+5	##으로	O	O	O, B-PS, I-AF, B-LC, I-CV
+6	쓰	O	O	O, B-CV, B-LC, B-OG, B-AF
+7	##는	O	O	O, B-CV, B-PS, B-LC, I-AF
+8	이유	O	O	O, B-CV, I-AF, B-TM, I-CV
+9	##는	O	O	O, B-CV, B-OG, B-LC, B-TM
+10	육상	B-AM	O	O, B-AM, B-TM, B-CV, B-AF
+11	##동물	I-AM	O	O, I-AM, B-AM, I-TM, I-CV
+12	내	O	O	O, B-AM, B-TM, I-AM, B-CV
+13	##서	O	O	O, I-AM, B-AM, I-TM, I-CV
+14	중	O	O	O, I-AM, B-AM, I-AF, B-PS
+15	##에서	O	O	O, B-CV, B-LC, B-TM, B-PS
+16	기린	B-AM	B-AM	B-AM, O, B-TM, B-AF, B-PS
+17	##이	O	O	O, B-PS, I-AF, I-PS, I-AM
+18	심장	B-TM	B-TM	B-TM, O, B-TR, I-TM, B-AM
+19	##이	O	O	O, I-TM, I-AF, B-PS, I-CV
+20	제일	O	O	O, B-QT, B-CV, B-LC, B-TM
+21	크	O	O	O, B-CV, B-TM, B-PS, B-QT
+22	##대요	O	O	O, B-CV, I-AF, I-OG, I-CV
+23	.	O	O	O, B-CV, B-LC, B-PS, B-TM
+24	[SEP]	O	O	O, B-CV, I-AF, B-TM, B-LC

@@ -1,0 +1,24 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, I-CV, I-EV, B-CV
+1	'	O	O	O, B-LC, B-CV, B-PS, B-OG
+2	일곱	B-QT	B-QT	B-QT, B-PS, O, B-AF, B-AM
+3	##살	I-QT	I-QT	I-QT, O, I-PS, I-AF, I-LC
+4	지능	O	O	O, I-QT, I-PS, B-PS, B-QT
+5	'	O	O	O, I-QT, I-PS, B-PS, B-CV
+6	이	O	O	O, B-PS, B-LC, B-OG, B-CV
+7	돼	O	O	O, B-PS, B-LC, B-QT, B-DT
+8	##버린	O	O	O, B-PS, B-LC, B-CV, I-PS
+9	내	O	O	O, B-PS, B-CV, B-LC, B-AF
+10	아내	B-CV	B-CV	B-CV, O, B-PS, B-AF, B-AM
+11	;	O	O	O, I-CV, B-PS, I-AF, B-LC
+12	KBS	B-OG	B-AF	B-AF, B-OG, B-TM, B-LC, B-EV
+13	##1	I-OG	I-AF	I-AF, I-OG, I-LC, I-EV, I-QT
+14	'	O	O	O, I-AF, I-OG, I-EV, I-DT
+15	동행	B-AF	B-AF	B-AF, O, B-OG, I-AF, B-LC
+16	'	O	O	O, I-AF, I-EV, B-CV, I-OG
+17	밤	B-TI	B-TI	B-TI, B-QT, B-EV, O, B-TM
+18	11	I-TI	I-TI	I-TI, B-TI, I-QT, I-EV, I-TR
+19	##시	I-TI	I-TI	I-TI, I-QT, I-TR, I-EV, B-TI
+20	30	I-TI	I-TI	I-TI, I-QT, I-TR, B-TI, I-EV
+21	##분	I-TI	I-TI	I-TI, I-QT, I-TR, O, I-EV
+22	[SEP]	O	O	O, I-TI, I-QT, B-LC, I-EV

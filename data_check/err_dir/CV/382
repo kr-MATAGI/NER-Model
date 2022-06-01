@@ -1,0 +1,16 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
+1	빈민	B-CV	O	O, B-CV, B-LC, B-OG, B-FD
+2	지역	O	O	O, I-CV, B-CV, I-LC, B-LC
+3	##인	O	O	O, B-PS, B-CV, I-AF, I-CV
+4	##데	O	O	O, B-CV, B-OG, I-AF, B-PS
+5	빈민	B-CV	O	O, B-CV, B-LC, B-PS, B-TM
+6	##이	O	O	O, B-PS, I-CV, I-AF, B-CV
+7	한	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-LC
+8	십	I-QT	I-QT	I-QT, O, B-QT, I-PS, I-LC
+9	##만	I-QT	I-QT	I-QT, O, I-PS, B-QT, I-LC
+10	명	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
+11	##이	O	O	O, I-QT, B-PS, B-CV, I-AF
+12	살아	O	O	O, B-CV, B-QT, B-TM, I-QT
+13	##요	O	O	O, B-CV, I-QT, I-CV, I-AF
+14	[SEP]	O	O	O, B-CV, B-PS, B-LC, I-AF

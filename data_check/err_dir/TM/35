@@ -1,0 +1,21 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
+1	연구원	B-CV	B-CV	B-CV, O, B-OG, B-TM, I-CV
+2	컴퓨	B-TM	O	O, B-TM, B-CV, I-CV, B-AF
+3	##턴	I-TM	O	O, I-CV, I-TM, I-AF, I-MT
+4	##데	O	O	O, I-CV, I-TM, I-AF, I-OG
+5	전선	O	O	O, B-TM, B-LC, B-AF, I-TM
+6	##이	O	O	O, I-TM, I-AF, B-PS, I-CV
+7	없	O	O	O, B-CV, B-TM, B-OG, B-LC
+8	##어져	O	O	O, B-CV, B-TM, B-PS, I-AF
+9	##가	O	O	O, B-CV, B-PS, I-AF, I-OG
+10	찾	O	O	O, B-CV, B-TM, B-LC, B-OG
+11	##으	O	O	O, B-CV, B-LC, I-AF, B-OG
+12	##러	O	O	O, B-CV, B-LC, B-TM, B-OG
+13	갔	O	O	O, B-CV, B-TM, B-OG, B-LC
+14	##다는	O	O	O, B-CV, B-TM, B-LC, B-OG
+15	##데	O	O	O, B-CV, B-TM, B-LC, B-OG
+16	없	O	O	O, B-CV, B-TM, B-OG, B-LC
+17	##대요	O	O	O, B-CV, I-OG, I-AF, I-CV
+18	.	O	O	O, B-CV, B-TM, I-OG, B-LC
+19	[SEP]	O	O	O, B-CV, B-TM, B-LC, B-OG

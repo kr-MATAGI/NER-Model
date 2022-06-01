@@ -1,0 +1,26 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-EV, I-OG, I-CV
+1	스프링	B-EV	O	O, B-EV, B-DT, B-LC, B-CV
+2	##캠프	I-EV	O	O, I-EV, I-DT, I-LC, I-OG
+3	초반	O	O	O, B-TI, B-DT, I-TI, I-DT
+4	##은	O	O	O, I-DT, B-CV, I-EV, B-LC
+5	물론	O	O	O, B-CV, B-LC, B-TM, B-QT
+6	##이	O	O	O, B-PS, B-LC, B-CV, B-OG
+7	##고	O	O	O, B-PS, I-EV, B-CV, I-OG
+8	재판	O	O	O, B-CV, B-PS, B-OG, B-LC
+9	결과	O	O	O, B-PS, B-CV, B-LC, B-OG
+10	##에	O	O	O, B-LC, B-PS, B-CV, B-OG
+11	따라	O	O	O, B-LC, B-PS, B-TM, B-OG
+12	시범	O	O	O, B-EV, B-CV, B-LC, I-EV
+13	##경기	O	O	O, I-EV, B-EV, I-CV, I-LC
+14	출전	O	O	O, I-EV, B-LC, B-CV, B-PS
+15	##에도	O	O	O, B-TM, B-LC, B-CV, B-OG
+16	지장	O	O	O, B-TM, B-CV, B-LC, B-QT
+17	##을	O	O	O, B-CV, B-PS, I-CV, B-TM
+18	받	O	O	O, B-CV, B-LC, B-TM, B-PS
+19	##을	O	O	O, B-LC, B-CV, B-PS, B-TM
+20	수	O	O	O, B-PS, B-QT, B-LC, B-TM
+21	있	O	O	O, B-CV, B-TM, B-QT, I-QT
+22	##다	O	O	O, B-CV, B-TM, B-QT, B-LC
+23	.	O	O	O, B-LC, B-PS, B-CV, I-EV
+24	[SEP]	O	O	O, B-CV, B-LC, I-EV, B-PS

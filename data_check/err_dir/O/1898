@@ -1,0 +1,18 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
+1	요즘	O	O	O, B-PS, B-CV, B-OG, B-LC
+2	교수	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-PS
+3	##님	O	O	O, I-CV, I-OG, I-AF, B-CV
+4	##께	O	O	O, B-CV, B-PS, B-LC, B-OG
+5	##서	O	O	O, B-PS, B-CV, B-LC, B-OG
+6	##는	O	O	O, B-CV, B-OG, B-PS, B-LC
+7	이제	O	O	O, B-CV, B-OG, B-PS, B-TM
+8	방송	O	B-CV	B-CV, O, B-PS, B-TM, B-OG
+9	프로듀서	B-CV	I-CV	I-CV, B-CV, O, I-QT, I-PS
+10	##도	O	O	O, I-CV, I-OG, I-QT, I-AF
+11	하	O	O	O, B-CV, I-CV, B-TM, B-OG
+12	##셨	O	O	O, B-CV, B-PS, B-OG, B-LC
+13	##기	O	O	O, B-CV, B-PS, B-OG, B-LC
+14	때문	O	O	O, B-CV, B-OG, B-LC, B-PS
+15	##에	O	O	O, B-CV, B-OG, B-LC, B-PS
+16	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG

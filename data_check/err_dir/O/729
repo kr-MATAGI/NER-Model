@@ -1,0 +1,18 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-EV, B-CV, I-OG, I-CV
+1	신세계	B-OG	B-OG	B-OG, O, B-AF, B-PS, B-LC
+2	##는	O	O	O, I-OG, I-EV, I-AF, B-CV
+3	경기	O	O	O, B-EV, B-CV, B-LC, I-EV
+4	막판	O	O	O, B-TI, B-TM, B-EV, B-LC
+5	3	B-TI	B-TI	B-TI, I-TI, O, B-EV, B-QT
+6	##분	I-TI	I-TI	I-TI, O, I-EV, I-TR, I-QT
+7	사이	O	I-TI	I-TI, O, I-TR, I-QT, I-EV
+8	실책	O	O	O, B-TM, I-TM, B-CV, B-AF
+9	3	B-QT	B-QT	B-QT, I-QT, O, I-TM, B-TM
+10	##개	I-QT	I-QT	I-QT, O, I-TM, I-LC, B-QT
+11	##가	O	O	O, I-QT, I-AF, B-CV, I-TM
+12	뼈아	O	O	O, B-CV, B-TM, B-QT, B-LC
+13	##팠	O	O	O, B-CV, B-LC, I-CV, B-OG
+14	##다	O	O	O, B-CV, B-TM, B-OG, B-LC
+15	.	O	O	O, B-CV, B-TM, B-LC, B-OG
+16	[SEP]	O	O	O, B-CV, B-TM, I-EV, B-LC

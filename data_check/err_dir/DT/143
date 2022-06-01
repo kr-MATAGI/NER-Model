@@ -1,0 +1,9 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
+1	성수기	B-DT	O	O, B-DT, B-CV, B-EV, B-OG
+2	앞두	O	O	O, I-DT, B-CV, I-EV, B-OG
+3	##고	O	O	O, B-PS, B-LC, B-CV, B-OG
+4	수요자	B-CV	B-CV	B-CV, O, I-CV, B-PS, B-TM
+5	##들	O	O	O, I-CV, B-CV, I-OG, I-AF
+6	불안감	O	O	O, B-CV, B-TM, B-LC, B-PS
+7	[SEP]	O	O	O, B-CV, B-LC, I-CV, B-PS

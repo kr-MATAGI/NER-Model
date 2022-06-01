@@ -1,0 +1,23 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-AF
+1	'	O	O	O, B-LC, B-CV, B-OG, B-PS
+2	그림자	B-AF	B-AF	B-AF, O, B-TM, B-PS, B-OG
+3	밟	I-AF	I-AF	I-AF, O, I-OG, I-TM, I-PS
+4	##기	I-AF	I-AF	I-AF, O, I-OG, I-TM, I-PS
+5	'	O	O	O, I-AF, I-OG, I-TM, I-PS
+6	동영상	O	O	O, B-TM, B-LC, B-CV, B-AF
+7	속	O	O	O, B-PS, B-CV, B-LC, B-TM
+8	남자	O	O	O, B-CV, B-PS, I-PS, I-CV
+9	##는	O	O	O, B-PS, I-CV, B-CV, I-AF
+10	이	O	O	O, B-PS, B-OG, B-FD, B-AF
+11	장르	O	O	O, B-FD, B-CV, I-FD, B-AF
+12	##소설	O	B-FD	B-FD, O, I-FD, I-AF, B-CV
+13	##을	O	O	O, I-FD, B-CV, I-AF, B-PS
+14	펴낸	O	O	O, B-OG, B-PS, B-CV, B-LC
+15	출판사	O	O	O, B-OG, B-CV, B-PS, B-LC
+16	김홍	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-AF
+17	##민	I-PS	I-PS	I-PS, O, I-OG, I-LC, B-PS
+18	사장	B-CV	B-CV	B-CV, O, I-PS, I-CV, B-TM
+19	##이다	O	O	O, I-CV, B-CV, I-QT, I-OG
+20	.	O	O	O, B-PS, B-LC, B-CV, B-OG
+21	[SEP]	O	O	O, B-CV, B-PS, B-LC, B-OG

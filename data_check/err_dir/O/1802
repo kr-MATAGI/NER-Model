@@ -1,0 +1,22 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
+1	넥타이	O	B-CV	B-CV, O, B-AF, B-FD, B-OG
+2	##와	O	O	O, I-CV, I-AF, I-OG, I-EV
+3	셔츠	O	B-CV	B-CV, O, B-AF, I-CV, B-FD
+4	##의	O	O	O, I-CV, I-AF, I-EV, I-OG
+5	색깔	O	O	O, B-TM, B-CV, B-LC, B-OG
+6	대비	O	O	O, B-TM, B-CV, B-LC, B-OG
+7	등	O	O	O, B-LC, B-CV, B-OG, B-TM
+8	##까	O	O	O, B-CV, B-OG, B-PS, B-LC
+9	##지	O	O	O, B-PS, B-OG, B-CV, B-LC
+10	스타일	B-CV	B-CV	B-CV, O, B-OG, I-CV, B-TM
+11	##리스트	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-TM
+12	##의	O	O	O, I-CV, I-OG, I-QT, I-EV
+13	조언	O	O	O, B-CV, B-TM, B-LC, B-OG
+14	##을	O	O	O, B-CV, B-OG, B-PS, B-LC
+15	받	O	O	O, B-CV, B-OG, B-LC, B-PS
+16	##았	O	O	O, B-CV, B-OG, B-PS, B-LC
+17	##다고	O	O	O, B-CV, I-OG, B-OG, I-EV
+18	한다	O	O	O, B-CV, B-OG, B-TM, B-LC
+19	.	O	O	O, B-LC, B-CV, B-OG, B-PS
+20	[SEP]	O	O	O, B-CV, B-LC, B-OG, I-OG

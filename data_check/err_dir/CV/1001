@@ -1,0 +1,16 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-CV, I-OG, B-CV, I-EV
+1	계몽	O	B-CV	B-CV, O, B-OG, B-AF, B-PS
+2	##대장	B-CV	I-CV	I-CV, O, B-CV, I-OG, I-PS
+3	.	O	O	O, I-CV, I-OG, I-AF, I-QT
+4	나중	O	O	O, B-CV, B-PS, B-QT, B-DT
+5	##에	O	O	O, B-PS, B-CV, B-OG, I-CV
+6	그	O	O	O, B-CV, B-LC, B-OG, B-TM
+7	사람	O	O	O, B-CV, B-AM, B-PS, B-TM
+8	##이	O	O	O, B-PS, B-CV, B-OG, B-LC
+9	그렇게	O	O	O, B-CV, B-OG, B-LC, B-TM
+10	되	O	O	O, B-CV, B-OG, B-LC, B-PS
+11	##드라	O	O	O, B-PS, B-LC, B-CV, B-OG
+12	##구	O	O	O, I-OG, B-LC, I-EV, I-AF
+13	.	O	O	O, B-CV, B-LC, B-OG, I-OG
+14	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG

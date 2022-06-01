@@ -1,0 +1,18 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-CV, I-AF, I-OG, B-CV
+1	화학	B-TR	B-TR	B-TR, O, B-FD, I-TR, B-TM
+2	##요	I-TR	I-TR	I-TR, O, B-TR, I-FD, I-QT
+3	##법	I-TR	I-TR	I-TR, O, B-TR, I-FD, I-TM
+4	치료	O	I-TR	I-TR, O, B-TR, I-FD, I-QT
+5	##를	O	O	O, I-TR, I-QT, I-CV, I-AF
+6	받	O	O	O, B-CV, B-DT, B-LC, B-OG
+7	##을	O	O	O, B-CV, I-CV, I-AF, B-PS
+8	때	O	O	O, B-CV, B-PS, I-CV, B-DT
+9	##까	O	O	O, B-PS, B-DT, I-DT, B-CV
+10	##지	O	O	O, I-DT, B-DT, B-PS, I-AF
+11	##는	O	O	O, B-CV, B-TM, I-DT, B-LC
+12	살아	O	O	O, B-TM, B-QT, B-AM, B-TR
+13	##있	O	O	O, I-TM, I-AF, I-QT, I-LC
+14	##는	O	O	O, I-AF, I-TM, I-LC, I-QT
+15	대신	O	O	O, B-AM, I-AF, B-CV, B-PS
+16	[SEP]	O	O	O, B-CV, I-AF, B-AM, B-LC

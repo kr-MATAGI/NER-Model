@@ -1,0 +1,23 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-CV, I-OG, B-CV, I-AF
+1	“	O	O	O, B-CV, B-PS, B-LC, B-FD
+2	교육	B-CV	O	O, B-CV, B-FD, I-CV, B-TR
+3	##정책	I-CV	O	O, I-CV, B-CV, I-FD, I-TR
+4	##을	O	O	O, I-CV, B-PS, B-CV, I-OG
+5	집행	O	O	O, B-CV, B-PS, I-CV, B-LC
+6	##하	O	O	O, B-PS, B-CV, I-CV, B-LC
+7	##는	O	O	O, B-PS, B-CV, B-LC, B-OG
+8	사람	O	O	O, B-CV, B-PS, B-OG, I-CV
+9	##도	O	O	O, B-PS, B-CV, I-CV, B-LC
+10	주민	B-CV	B-CV	B-CV, O, B-OG, B-PS, I-CV
+11	##이	O	O	O, B-PS, I-CV, B-CV, I-PS
+12	뽑	O	O	O, B-CV, B-PS, B-OG, I-CV
+13	##고	O	O	O, B-PS, B-CV, I-OG, I-CV
+14	정당	O	O	O, B-OG, B-CV, I-OG, B-PS
+15	##도	O	O	O, I-OG, I-CV, B-CV, B-PS
+16	뽑	O	O	O, B-CV, B-PS, B-OG, B-TM
+17	##더라	O	O	O, B-PS, B-CV, I-CV, I-OG
+18	##고	O	O	O, B-PS, I-CV, I-OG, I-PS
+19	##요	O	O	O, B-PS, B-CV, I-CV, I-OG
+20	.	O	O	O, B-PS, B-CV, I-CV, I-OG
+21	[SEP]	O	O	O, B-CV, B-PS, I-CV, I-AF

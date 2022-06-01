@@ -1,0 +1,27 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-EV, I-OG, B-CV, I-CV
+1	이	O	O	O, B-CV, B-TM, B-PS, B-AF
+2	책	O	O	O, B-CV, B-AF, B-TM, B-EV
+3	##은	O	O	O, B-CV, I-AF, I-EV, B-LC
+4	7	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-QT
+5	##일	I-DT	I-DT	I-DT, O, I-EV, B-DT, I-QT
+6	만	B-PS	B-PS	B-PS, B-CV, O, B-LC, B-OG
+7	##공	I-PS	I-PS	I-PS, I-CV, O, I-OG, I-LC
+8	스님	B-CV	B-CV	B-CV, I-CV, I-PS, O, I-EV
+9	71	B-QT	B-QT	B-QT, B-DT, O, I-QT, B-EV
+10	##주	I-QT	I-QT	I-QT, O, I-DT, I-EV, I-OG
+11	##기	I-QT	O	O, I-QT, I-DT, I-EV, I-OG
+12	열	B-EV	B-EV	B-EV, O, B-DT, I-EV, B-OG
+13	##반	I-EV	I-EV	I-EV, O, I-DT, I-QT, B-EV
+14	##추	I-EV	I-EV	I-EV, O, I-DT, I-OG, I-AF
+15	##모	I-EV	I-EV	I-EV, O, I-DT, I-OG, I-AF
+16	##다	I-EV	I-EV	I-EV, O, I-DT, I-OG, I-AF
+17	##례	I-EV	I-EV	I-EV, O, I-DT, I-OG, I-AF
+18	##제	I-EV	I-EV	I-EV, O, I-DT, I-OG, I-AF
+19	##에	O	O	O, I-EV, I-DT, I-OG, I-QT
+20	봉	O	O	O, B-LC, B-CV, I-EV, B-OG
+21	##정	O	O	O, I-EV, I-OG, I-LC, I-AF
+22	##됐	O	O	O, I-OG, I-EV, B-CV, B-LC
+23	##다	O	O	O, B-CV, B-OG, B-LC, I-OG
+24	.	O	O	O, I-EV, B-LC, B-EV, B-CV
+25	[SEP]	O	O	O, I-EV, B-CV, I-OG, B-EV

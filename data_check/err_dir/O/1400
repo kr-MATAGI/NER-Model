@@ -1,0 +1,12 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
+1	오사카	B-LC	B-LC	B-LC, B-OG, O, B-EV, B-AF
+2	의회	O	I-OG	I-OG, O, B-OG, I-EV, I-LC
+3	“	O	O	O, I-OG, I-EV, I-AF, B-CV
+4	5	B-QT	B-QT	B-QT, O, I-QT, B-TM, B-LC
+5	##억	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
+6	##엔	I-QT	I-QT	I-QT, O, I-LC, I-PS, I-TM
+7	든다	O	O	O, I-QT, I-AF, I-TM, I-OG
+8	”	O	O	O, B-CV, I-QT, B-OG, B-TM
+9	부결	O	O	O, B-OG, B-TM, B-CV, B-LC
+10	[SEP]	O	O	O, B-OG, B-CV, B-LC, I-OG

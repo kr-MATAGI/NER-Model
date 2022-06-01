@@ -1,0 +1,11 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-AF
+1	멸치	B-CV	B-CV	B-CV, O, B-AF, B-PT, B-AM
+2	##다	I-CV	I-CV	I-CV, B-CV, O, I-AF, I-AM
+3	##시	I-CV	I-CV	I-CV, O, I-AF, B-CV, I-PT
+4	##육	O	I-CV	I-CV, O, I-AF, I-PT, I-MT
+5	##수	O	O	O, I-CV, I-AF, I-MT, I-PT
+6	##를	O	O	O, I-CV, I-AF, I-QT, I-DT
+7	사용	O	O	O, B-CV, B-OG, B-LC, B-TM
+8	##합니다	O	O	O, B-LC, B-PS, I-OG, B-OG
+9	[SEP]	O	O	O, B-CV, B-LC, B-OG, I-OG

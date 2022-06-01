@@ -1,0 +1,18 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
+1	이	O	O	O, B-PS, B-CV, B-LC, B-OG
+2	싸움	O	O	O, B-CV, B-PS, I-EV, B-LC
+3	##에	O	O	O, B-CV, B-PS, B-LC, I-AF
+4	누가	O	O	O, B-CV, B-PS, B-LC, B-QT
+5	승자	O	B-CV	B-CV, O, I-CV, B-PS, B-AM
+6	##가	O	O	O, I-CV, B-PS, I-AF, I-OG
+7	될	O	O	O, B-PS, B-LC, B-CV, B-OG
+8	것	O	O	O, B-PS, B-CV, B-LC, B-OG
+9	##인	O	O	O, B-PS, B-LC, B-CV, B-OG
+10	##가	O	O	O, B-PS, B-LC, I-PS, I-AF
+11	##가	O	O	O, B-PS, B-LC, B-OG, B-CV
+12	앞	O	O	O, B-TM, B-LC, B-CV, B-OG
+13	##으로	O	O	O, B-PS, B-LC, B-OG, B-CV
+14	한국	B-LC	B-LC	B-LC, B-OG, O, B-AF, B-PS
+15	##에서	O	O	O, I-LC, I-OG, I-AF, I-EV
+16	[SEP]	O	O	O, B-CV, B-LC, B-PS, I-AF

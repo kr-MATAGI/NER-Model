@@ -1,0 +1,22 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-QT
+1	한반도	B-LC	B-LC	B-LC, O, B-OG, B-AF, B-DT
+2	허리	O	B-AM	B-AM, O, B-TM, I-LC, I-AM
+3	##께	O	O	O, I-AM, I-TM, I-LC, B-AM
+4	##에	O	O	O, I-TM, B-TM, I-AF, B-CV
+5	##는	O	O	O, B-CV, B-OG, B-TM, B-LC
+6	‘	O	O	O, B-LC, B-CV, B-TM, B-OG
+7	부른다	O	O	O, B-AF, B-PS, B-LC, B-OG
+8	아리랑	B-AF	B-TM	B-TM, B-LC, B-AF, O, B-CV
+9	’	O	O	O, I-AF, I-TM, I-LC, I-EV
+10	이란	O	O	O, B-TM, B-PS, B-LC, B-CV
+11	필자	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-QT
+12	미상	O	O	O, I-CV, B-TM, I-TM, B-PS
+13	##의	O	O	O, B-PS, B-TM, B-LC, B-OG
+14	글씨	O	O	O, B-TM, B-CV, B-LC, B-OG
+15	##도	O	O	O, B-CV, B-OG, B-PS, B-LC
+16	적혀	O	O	O, B-CV, B-TM, B-LC, B-QT
+17	있	O	O	O, B-CV, B-TM, B-LC, B-OG
+18	##다	O	O	O, B-CV, B-TM, I-OG, B-OG
+19	.	O	O	O, B-LC, B-CV, B-TM, B-OG
+20	[SEP]	O	O	O, B-CV, B-LC, B-TM, B-OG

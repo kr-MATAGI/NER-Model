@@ -1,0 +1,25 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, I-EV, B-CV, I-CV
+1	중국	B-LC	B-LC	B-LC, B-OG, O, B-PS, B-AF
+2	##과	O	O	O, I-OG, I-LC, B-OG, B-LC
+3	미얀마	B-LC	B-LC	B-LC, B-OG, O, B-PS, I-LC
+4	해군	O	B-OG	B-OG, I-OG, O, B-CV, B-AF
+5	##은	O	O	O, I-OG, I-AF, I-EV, I-CV
+6	5	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-LC
+7	##월	I-DT	I-DT	I-DT, O, B-DT, I-OG, I-QT
+8	처음	O	O	O, I-DT, B-QT, B-LC, B-CV
+9	##으로	O	O	O, B-LC, B-OG, B-PS, B-QT
+10	[UNK]	O	O	O, B-LC, B-CV, B-OG, B-PS
+11	인도	B-LC	B-LC	B-LC, O, B-OG, I-LC, B-AF
+12	##양	I-LC	I-LC	I-LC, O, B-LC, I-AF, I-OG
+13	##에서	O	O	O, I-LC, B-LC, I-EV, I-AF
+14	연합	O	O	O, B-EV, B-LC, B-CV, I-EV
+15	##훈련	O	O	O, I-EV, B-EV, I-LC, B-LC
+16	##을	O	O	O, I-EV, I-OG, B-CV, I-AF
+17	벌이	O	O	O, B-CV, B-LC, I-EV, B-OG
+18	##기	O	O	O, B-LC, I-EV, B-OG, B-CV
+19	##도	O	O	O, B-LC, I-EV, I-OG, B-CV
+20	했	O	O	O, B-LC, B-OG, B-CV, I-EV
+21	##다	O	O	O, B-LC, B-CV, I-EV, I-OG
+22	.	O	O	O, B-LC, B-OG, B-CV, B-PS
+23	[SEP]	O	O	O, B-LC, B-CV, I-EV, B-OG

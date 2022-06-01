@@ -1,0 +1,15 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
+1	전	O	O	O, B-PS, B-CV, B-LC, B-OG
+2	노무현	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
+3	##의	O	O	O, I-PS, I-AF, B-CV, I-OG
+4	평화	B-LC	O	O, B-LC, B-AF, B-TM, B-QT
+5	##수	I-LC	O	O, I-LC, I-AF, B-LC, I-QT
+6	##역	I-LC	O	O, I-LC, I-AF, I-QT, I-TM
+7	##은	O	O	O, I-LC, I-AF, I-QT, B-LC
+8	엔	O	O	O, B-LC, B-TM, B-CV, B-QT
+9	##엘	O	O	O, I-LC, I-CV, I-TM, I-QT
+10	##엘	O	O	O, I-LC, I-QT, I-TM, I-CV
+11	##로	O	O	O, I-LC, I-QT, I-PS, I-TM
+12	##서	O	O	O, I-LC, B-LC, I-QT, B-OG
+13	[SEP]	O	O	O, B-LC, B-CV, B-PS, B-TM

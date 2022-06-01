@@ -1,0 +1,24 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-EV, I-OG, I-CV, B-CV
+1	어제	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-CV
+2	(	O	I-DT	I-DT, O, B-DT, I-QT, B-OG
+3	17	B-DT	I-DT	I-DT, B-DT, O, B-EV, B-LC
+4	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
+5	)	O	I-DT	I-DT, O, B-DT, I-EV, I-QT
+6	부터	O	I-DT	I-DT, O, B-DT, I-QT, B-LC
+7	이틀	B-DT	B-DT	B-DT, I-DT, O, B-TI, B-LC
+8	##간	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
+9	서울	B-LC	B-LC	B-LC, O, B-OG, I-DT, I-LC
+10	송파구	B-LC	B-LC	B-LC, I-LC, O, B-OG, B-AF
+11	올림픽	B-LC	B-LC	B-LC, B-AF, I-LC, O, I-AF
+12	##공원	I-LC	I-LC	I-LC, I-AF, O, I-PS, I-OG
+13	##에서	O	O	O, I-LC, I-AF, I-OG, I-EV
+14	열리	O	O	O, B-CV, B-OG, B-LC, I-AF
+15	##는	O	O	O, B-CV, B-EV, B-LC, B-OG
+16	서울	B-LC	B-EV	B-EV, B-LC, B-AF, O, B-OG
+17	##재	B-EV	I-EV	I-EV, O, B-EV, I-LC, I-AF
+18	##즈	I-EV	I-EV	I-EV, O, I-AF, I-LC, I-OG
+19	##페	I-EV	I-EV	I-EV, O, I-AF, I-LC, I-OG
+20	##스티벌	I-EV	I-EV	I-EV, O, I-AF, I-LC, I-OG
+21	.	O	O	O, I-EV, I-AF, I-OG, I-QT
+22	[SEP]	O	O	O, B-LC, I-EV, B-CV, B-DT

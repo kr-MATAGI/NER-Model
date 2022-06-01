@@ -1,0 +1,22 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-AF, I-CV
+1	러	B-DT	B-DT	B-DT, B-EV, B-LC, I-DT, O
+2	##일	I-DT	I-DT	I-DT, I-EV, I-QT, I-AF, I-LC
+3	전쟁	I-DT	I-DT	I-DT, I-EV, O, I-QT, I-AF
+4	이후	I-DT	I-DT	I-DT, I-EV, O, I-QT, I-AF
+5	##에	O	O	O, I-DT, I-EV, I-AF, B-PS
+6	을사	B-EV	B-EV	B-EV, B-OG, O, B-AF, B-CV
+7	##조	I-EV	I-EV	I-EV, O, I-OG, I-AF, I-DT
+8	##약	I-EV	I-EV	I-EV, O, I-OG, I-AF, I-CV
+9	##이	O	O	O, I-EV, I-AF, I-OG, B-PS
+10	든	O	O	O, B-PS, B-OG, B-LC, B-AF
+11	한국	B-OG	B-EV	B-EV, B-OG, B-AF, B-LC, B-CV
+12	##병	I-OG	I-EV	I-EV, I-OG, I-AF, O, I-CV
+13	##합	I-OG	I-EV	I-EV, I-OG, I-AF, O, I-CV
+14	##조	I-OG	I-EV	I-EV, I-OG, I-AF, O, I-CV
+15	##약	I-OG	I-EV	I-EV, I-OG, I-AF, O, I-CV
+16	##이	O	O	O, I-EV, I-AF, I-OG, B-PS
+17	##든	O	O	O, B-OG, B-PS, B-LC, B-CV
+18	문서	O	O	O, B-CV, B-TM, B-LC, B-AF
+19	##로	O	O	O, I-AF, B-OG, B-PS, I-OG
+20	[SEP]	O	O	O, B-LC, B-PS, B-CV, B-AF

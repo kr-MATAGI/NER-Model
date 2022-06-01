@@ -1,0 +1,17 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
+1	늦	B-TI	O	O, B-TI, B-LC, B-DT, B-OG
+2	##은	I-TI	O	O, B-TI, I-TI, B-LC, I-DT
+3	오후	I-TI	B-TI	B-TI, I-TI, O, B-EV, B-LC
+4	##엔	O	O	O, I-TI, I-QT, I-EV, I-AF
+5	암벽	O	O	O, B-CV, B-TM, B-LC, B-AF
+6	등반	O	O	O, I-CV, I-LC, I-TM, B-CV
+7	##을	O	O	O, I-CV, I-AF, I-EV, I-OG
+8	나가	O	O	O, B-CV, B-LC, B-AF, B-OG
+9	##거나	O	O	O, B-CV, I-AF, B-LC, I-OG
+10	장거리	O	O	O, B-CV, B-AF, B-TM, B-LC
+11	달리기	O	O	O, I-CV, B-CV, I-AF, I-TM
+12	##를	O	O	O, I-CV, I-AF, B-CV, I-EV
+13	한다	O	O	O, B-CV, B-TM, B-LC, B-OG
+14	.	O	O	O, B-CV, B-LC, B-AF, I-AF
+15	[SEP]	O	O	O, B-CV, B-LC, I-AF, B-AF

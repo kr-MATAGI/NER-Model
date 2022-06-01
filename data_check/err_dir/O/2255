@@ -1,0 +1,26 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
+1	애	O	O	O, B-CV, I-CV, B-PS, B-TM
+2	##들	O	O	O, B-CV, I-CV, I-AF, B-PS
+3	##을	O	O	O, B-CV, B-PS, B-TM, I-AF
+4	가르치	O	O	O, B-CV, B-LC, B-TM, B-PS
+5	##고	O	O	O, B-PS, I-CV, B-CV, I-AF
+6	배울	O	O	O, B-CV, B-TM, B-LC, B-PS
+7	수	O	O	O, B-CV, B-LC, B-PS, B-TM
+8	있	O	O	O, B-CV, B-LC, B-TM, B-QT
+9	##는	O	O	O, B-CV, B-LC, B-TM, B-PS
+10	데	O	O	O, B-TM, B-CV, B-LC, B-QT
+11	##가	O	O	O, B-PS, B-CV, B-LC, I-AF
+12	뭐	O	O	O, B-CV, B-LC, B-TM, B-OG
+13	없	O	O	O, B-CV, B-LC, B-QT, B-OG
+14	##을까	O	O	O, B-TM, B-CV, I-OG, I-QT
+15	싶	O	O	O, B-TM, B-CV, B-PS, B-LC
+16	##어	O	O	O, B-CV, I-CV, I-TM, I-AF
+17	##서	O	O	O, B-CV, B-TM, B-PS, I-CV
+18	알아	O	O	O, B-CV, B-TM, B-LC, B-OG
+19	##봤	O	O	O, I-TM, B-TM, B-CV, I-OG
+20	##지	O	O	O, I-TM, B-TM, I-AF, I-OG
+21	인터	O	B-TM	B-TM, O, B-QT, B-TR, B-AF
+22	##넸	O	I-TM	I-TM, O, B-TM, I-QT, I-TR
+23	##을	O	O	O, I-TM, I-AF, I-OG, I-QT
+24	[SEP]	O	O	O, B-CV, I-TM, I-AF, B-TM

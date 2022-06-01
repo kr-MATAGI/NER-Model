@@ -1,0 +1,27 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
+1	[	O	O	O, B-OG, B-LC, B-PS, B-DT
+2	한겨레	B-OG	B-OG	B-OG, B-LC, O, B-AF, B-PS
+3	]	O	O	O, I-OG, I-AF, I-EV, I-DT
+4	‘	O	O	O, B-LC, B-CV, B-PS, B-OG
+5	영	O	B-PS	B-PS, O, B-LC, B-OG, B-EV
+6	##포	O	I-PS	I-PS, O, I-LC, B-PS, B-LC
+7	##라인	O	O	O, I-PS, I-LC, B-PS, I-OG
+8	’	O	O	O, I-PS, B-PS, B-CV, B-LC
+9	김덕	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
+10	##수	I-PS	I-PS	I-PS, O, I-OG, I-LC, B-PS
+11	전	O	O	O, I-PS, I-OG, B-CV, I-EV
+12	행정관	B-CV	B-CV	B-CV, O, B-OG, B-AF, I-CV
+13	,	O	O	O, I-CV, I-OG, B-CV, B-PS
+14	울산시	B-OG	B-OG	B-OG, B-LC, O, B-PS, B-EV
+15	##에	O	O	O, I-OG, I-LC, B-CV, I-EV
+16	“	O	O	O, B-CV, B-LC, B-OG, B-PS
+17	허가	O	O	O, B-CV, B-LC, B-PS, B-AF
+18	##받	O	O	O, B-CV, B-PS, B-LC, B-OG
+19	##게	O	O	O, B-LC, B-PS, B-CV, B-TM
+20	해	O	O	O, B-LC, B-CV, B-PS, B-QT
+21	##달	O	O	O, B-PS, B-LC, B-CV, B-TM
+22	##라	O	O	O, B-CV, B-PS, B-LC, I-CV
+23	”	O	O	O, B-CV, B-LC, B-PS, B-OG
+24	청탁	O	O	O, B-CV, B-PS, B-LC, B-TM
+25	[SEP]	O	O	O, B-CV, B-LC, B-PS, I-CV

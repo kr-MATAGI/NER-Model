@@ -1,0 +1,25 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
+1	대항	O	B-OG	B-OG, O, B-CV, I-OG, B-AF
+2	##군	O	I-OG	I-OG, O, B-OG, I-CV, I-AF
+3	##은	O	O	O, I-OG, I-AF, I-CV, B-CV
+4	고도	O	O	O, B-EV, B-LC, B-CV, B-PS
+5	##의	O	O	O, I-EV, B-PS, I-LC, I-OG
+6	침투	O	O	O, B-LC, B-EV, B-CV, B-PS
+7	##훈련	O	O	O, I-EV, I-LC, B-LC, B-EV
+8	##을	O	O	O, I-EV, B-CV, B-OG, B-PS
+9	받	O	O	O, B-CV, B-OG, B-LC, B-PS
+10	##은	O	O	O, B-OG, B-LC, B-PS, B-CV
+11	최정	O	O	O, B-PS, B-OG, B-CV, B-LC
+12	##예	O	O	O, I-OG, B-PS, I-PS, I-QT
+13	특전	B-OG	B-OG	B-OG, O, B-CV, I-OG, B-AF
+14	##사	I-OG	I-OG	I-OG, O, I-CV, I-AF, I-EV
+15	대원	B-CV	B-CV	B-CV, O, I-CV, I-OG, B-QT
+16	20	B-QT	B-QT	B-QT, I-QT, O, I-CV, B-DT
+17	##명	I-QT	I-QT	I-QT, O, B-QT, I-PS, I-LC
+18	##으로	O	O	O, I-QT, B-CV, I-OG, I-AF
+19	구성	O	O	O, B-CV, B-OG, B-TM, I-OG
+20	##됐	O	O	O, I-OG, B-OG, B-CV, B-PS
+21	##다	O	O	O, B-CV, I-OG, B-OG, B-LC
+22	.	O	O	O, B-OG, B-PS, B-CV, B-LC
+23	[SEP]	O	O	O, B-CV, B-OG, I-OG, B-PS

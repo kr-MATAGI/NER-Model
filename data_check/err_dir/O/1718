@@ -1,0 +1,24 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-QT
+1	군	O	B-OG	B-OG, O, I-OG, B-LC, B-CV
+2	##에	O	O	O, I-OG, B-CV, I-DT, I-CV
+3	있	O	O	O, B-CV, B-PS, B-OG, I-OG
+4	##을	O	O	O, B-PS, B-OG, B-CV, I-OG
+5	때	O	O	O, B-PS, B-CV, B-OG, I-DT
+6	왔	O	O	O, B-OG, B-PS, B-CV, B-AF
+7	##던	O	O	O, B-OG, I-OG, B-PS, B-CV
+8	##데	O	O	O, B-CV, B-PS, B-OG, I-OG
+9	햄버거	B-CV	B-CV	B-CV, O, B-AF, B-OG, B-TM
+10	##에	O	O	O, I-CV, I-AF, I-OG, I-EV
+11	이	O	O	O, B-PS, B-CV, B-QT, B-OG
+12	소스	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-PT
+13	##를	O	O	O, I-CV, B-CV, I-AF, I-OG
+14	딸기	B-CV	B-CV	B-CV, O, B-OG, B-PT, I-CV
+15	##잼	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-AF
+16	##으로	O	O	O, I-CV, I-OG, I-QT, B-CV
+17	하	O	O	O, B-CV, B-OG, B-QT, B-PS
+18	##더라	O	O	O, B-PS, B-CV, B-OG, I-OG
+19	##고	O	O	O, I-OG, I-AF, I-CV, I-QT
+20	##요	O	O	O, B-CV, I-OG, B-LC, I-AF
+21	.	O	O	O, B-PS, B-CV, B-OG, B-LC
+22	[SEP]	O	O	O, B-CV, I-OG, B-OG, B-PS

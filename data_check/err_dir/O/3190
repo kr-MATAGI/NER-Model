@@ -1,0 +1,20 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-AF
+1	주말	O	B-DT	B-DT, O, I-DT, B-CV, B-OG
+2	##에도	O	O	O, I-DT, I-QT, I-CV, B-CV
+3	다	O	O	O, B-CV, B-PS, B-TM, B-LC
+4	##들	O	O	O, B-PS, B-CV, B-LC, I-AF
+5	그	O	O	O, B-CV, B-OG, B-PS, I-AF
+6	사진	O	O	O, B-CV, B-TM, B-PS, B-LC
+7	찍	O	O	O, B-CV, B-PS, I-CV, B-LC
+8	##으	O	O	O, B-CV, B-PS, B-LC, I-AF
+9	##러	O	O	O, B-PS, B-CV, B-LC, B-OG
+10	매주	O	O	O, B-DT, B-CV, B-PS, I-DT
+11	가	O	O	O, B-CV, B-OG, B-PS, B-AF
+12	##는	O	O	O, B-CV, I-AF, B-PS, I-OG
+13	거	O	O	O, B-CV, B-PS, B-OG, I-OG
+14	같	O	O	O, B-CV, I-OG, B-OG, B-TM
+15	##던	O	O	O, B-CV, I-OG, I-AF, I-CV
+16	##데	O	O	O, I-OG, B-CV, I-AF, B-OG
+17	?	O	O	O, B-CV, B-OG, B-LC, B-PS
+18	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG

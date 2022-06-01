@@ -1,0 +1,12 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-AF
+1	우리	O	O	O, B-CV, B-OG, B-PS, B-LC
+2	어머니	B-CV	B-CV	B-CV, O, B-OG, B-AF, B-TM
+3	##는	O	O	O, I-CV, I-OG, B-CV, I-AF
+4	국민	O	B-CV	B-CV, O, B-OG, I-CV, B-EV
+5	학교	O	O	O, I-OG, I-CV, I-EV, I-QT
+6	##도	O	O	O, I-OG, I-EV, I-AF, I-QT
+7	다니	O	O	O, B-CV, B-OG, B-QT, B-LC
+8	##지	O	O	O, B-CV, B-PS, B-LC, B-QT
+9	못한	O	O	O, B-CV, B-LC, B-PS, B-OG
+10	[SEP]	O	O	O, B-CV, B-LC, B-OG, I-OG

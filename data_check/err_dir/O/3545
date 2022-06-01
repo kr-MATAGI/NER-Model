@@ -1,0 +1,27 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-EV, I-OG, I-CV
+1	근데	O	O	O, B-DT, B-CV, B-LC, B-EV
+2	이천	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-QT
+3	##팔	I-DT	I-DT	I-DT, O, B-DT, I-EV, I-QT
+4	##년	I-DT	I-DT	I-DT, O, B-DT, I-EV, I-QT
+5	##도	I-DT	I-DT	I-DT, O, I-EV, B-DT, I-QT
+6	##에	O	O	O, I-DT, I-EV, B-DT, B-EV
+7	위	O	B-EV	B-EV, O, B-LC, B-PS, I-EV
+8	##먼	O	I-EV	I-EV, O, I-PS, I-LC, B-EV
+9	쇼크	O	I-EV	I-EV, O, B-EV, I-LC, I-AF
+10	##가	O	O	O, I-EV, I-AF, I-OG, I-DT
+11	있	O	O	O, I-EV, B-CV, B-OG, B-EV
+12	##었	O	O	O, B-CV, I-EV, B-LC, B-OG
+13	##고	O	O	O, B-LC, B-CV, B-OG, B-PS
+14	또	O	O	O, B-CV, B-LC, B-OG, B-PS
+15	최근	O	O	O, B-DT, B-LC, B-OG, B-CV
+16	##에	O	O	O, B-PS, B-LC, B-OG, I-DT
+17	월가	O	B-LC	B-LC, B-OG, O, B-AF, B-EV
+18	##에서	O	O	O, I-LC, I-OG, I-EV, I-AF
+19	여러	O	O	O, B-CV, B-OG, B-LC, B-QT
+20	##가지	O	O	O, B-PS, B-LC, I-OG, I-QT
+21	이런	O	O	O, B-CV, B-OG, B-TM, B-LC
+22	##게	O	O	O, B-CV, B-OG, B-PS, B-LC
+23	나오	O	O	O, B-CV, B-OG, B-LC, B-TM
+24	##면서	O	O	O, B-OG, B-LC, B-CV, B-PS
+25	[SEP]	O	O	O, B-CV, B-LC, I-EV, B-PS

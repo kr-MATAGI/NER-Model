@@ -1,0 +1,18 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
+1	그러나	O	O	O, B-CV, B-PS, B-LC, B-TM
+2	올해	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
+3	##는	O	O	O, I-DT, I-QT, B-CV, I-EV
+4	'	O	O	O, B-CV, B-LC, B-PS, B-OG
+5	완	O	B-TM	B-TM, O, B-QT, B-TR, B-AF
+6	##투	O	I-TM	I-TM, O, I-QT, B-TM, I-TR
+7	##형	O	I-TM	I-TM, O, I-QT, I-TR, I-AF
+8	선발투수	B-CV	B-CV	B-CV, O, I-TM, I-CV, B-TM
+9	'	O	O	O, I-CV, B-CV, I-TM, I-QT
+10	로	O	O	O, B-PS, B-CV, B-LC, B-QT
+11	변신	O	O	O, B-PS, B-CV, B-OG, B-LC
+12	##하고	O	O	O, B-PS, B-CV, B-LC, I-OG
+13	있	O	O	O, B-PS, B-CV, I-OG, B-LC
+14	##다	O	O	O, B-CV, B-PS, I-OG, I-CV
+15	.	O	O	O, B-PS, B-CV, B-LC, B-OG
+16	[SEP]	O	O	O, B-CV, B-PS, B-LC, B-TM

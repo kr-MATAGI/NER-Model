@@ -1,0 +1,24 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-EV
+1	14	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
+2	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
+3	점심	B-TI	B-TI	B-TI, O, I-DT, B-QT, B-CV
+4	##시간	I-TI	O	O, I-TI, B-TI, I-EV, I-QT
+5	##을	O	O	O, I-TI, I-AF, I-EV, B-LC
+6	10	B-TI	B-TI	B-TI, B-QT, O, I-TI, B-EV
+7	##여	I-TI	I-TI	I-TI, I-QT, O, B-TI, I-TR
+8	분	I-TI	I-TI	I-TI, O, I-QT, I-TR, B-TI
+9	남기	O	O	O, I-TI, I-QT, I-EV, I-TR
+10	##고	O	O	O, I-TI, B-LC, B-QT, B-PS
+11	도착	O	O	O, B-CV, B-LC, B-TM, B-AF
+12	##한	O	O	O, B-LC, B-AF, B-OG, B-PS
+13	서울시	B-AF	B-AF	B-AF, O, B-LC, B-OG, B-PS
+14	##립	I-AF	I-AF	I-AF, B-AF, O, I-LC, I-OG
+15	##미술	I-AF	I-AF	I-AF, O, B-AF, I-LC, I-PS
+16	##관	I-AF	I-AF	I-AF, O, I-LC, B-AF, I-OG
+17	로비	O	O	O, I-AF, B-TM, B-AF, B-LC
+18	황금	O	O	O, B-MT, B-TM, B-AF, B-CV
+19	소파	O	O	O, I-AF, I-CV, I-TM, I-LC
+20	앞	O	B-TM	B-TM, O, I-TM, B-CV, B-AM
+21	.	O	O	O, I-TM, I-AF, I-CV, I-OG
+22	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-AF

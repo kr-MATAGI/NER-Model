@@ -1,0 +1,18 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-CV, B-CV, I-OG, I-AF
+1	49	B-DT	B-DT	B-DT, O, B-QT, I-DT, B-EV
+2	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
+3	‘	O	O	O, I-DT, B-CV, B-LC, B-OG
+4	동네	O	O	O, B-PS, B-AM, B-LC, B-CV
+5	##의사	B-CV	O	O, B-CV, B-PS, I-PS, B-AM
+6	’	O	O	O, I-CV, I-PS, B-CV, B-PS
+7	안철수	B-PS	B-PS	B-PS, O, I-PS, B-LC, B-OG
+8	부친	B-CV	B-CV	B-CV, O, I-PS, B-OG, B-TM
+9	,	O	O	O, I-CV, B-CV, I-OG, I-QT
+10	사회	O	O	O, B-CV, B-FD, B-TR, B-TM
+11	##기	O	O	O, I-CV, B-CV, I-TR, I-FD
+12	##여	O	O	O, I-CV, I-TR, I-TM, I-FD
+13	중요	O	O	O, I-CV, B-CV, B-FD, B-LC
+14	##성	O	O	O, I-CV, B-CV, B-LC, B-PS
+15	가르쳐	O	O	O, B-CV, B-LC, I-CV, B-PS
+16	[SEP]	O	O	O, B-CV, B-LC, B-PS, I-CV

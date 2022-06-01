@@ -1,0 +1,26 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, B-CV, I-EV, I-CV
+1	[	O	O	O, B-OG, B-LC, B-PS, B-AF
+2	한겨레	B-OG	B-OG	B-OG, B-LC, B-AF, I-OG, O
+3	]	O	O	O, I-OG, I-AF, I-DT, I-EV
+4	6	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-TM
+5	##개	I-QT	I-QT	I-QT, O, I-EV, I-OG, B-QT
+6	##관	I-QT	I-QT	I-QT, O, I-EV, I-OG, I-TM
+7	·	O	O	O, I-QT, B-LC, B-PS, I-OG
+8	77	B-QT	B-QT	B-QT, I-QT, O, B-DT, B-PS
+9	##3	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
+10	##석	I-QT	I-QT	I-QT, O, I-LC, I-EV, I-PS
+11	‘	B-AF	O	O, I-QT, B-LC, B-OG, B-CV
+12	씨	I-AF	B-OG	B-OG, B-AF, O, B-TM, B-EV
+13	##네	I-AF	I-OG	I-OG, I-AF, O, I-TM, I-EV
+14	##큐	I-AF	I-OG	I-OG, I-AF, O, I-TM, I-LC
+15	’	I-AF	O	O, I-OG, I-AF, I-EV, B-CV
+16	1	I-AF	B-QT	B-QT, O, I-QT, B-AF, B-OG
+17	##호	I-AF	I-QT	I-QT, O, I-OG, I-AF, B-QT
+18	##점	I-AF	I-QT	I-QT, O, I-OG, I-AF, I-LC
+19	…	O	O	O, I-QT, I-OG, I-AF, B-OG
+20	경주	B-LC	B-LC	B-LC, O, B-OG, B-AF, B-PS
+21	최대	O	O	O, I-LC, B-QT, B-CV, B-PS
+22	멀티	O	O	O, B-TM, B-LC, B-AF, B-OG
+23	##플렉스	O	O	O, I-OG, I-LC, I-AF, I-TM
+24	[SEP]	O	O	O, B-LC, B-OG, B-AF, B-CV

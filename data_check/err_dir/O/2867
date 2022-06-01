@@ -1,0 +1,16 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
+1	화성	B-LC	B-LC	B-LC, O, B-MT, B-DT, B-AF
+2	크기	O	O	O, I-LC, I-TM, I-OG, I-AF
+3	##의	O	O	O, B-PS, I-AF, B-TM, I-OG
+4	행성	O	O	O, B-LC, B-AF, I-LC, B-MT
+5	##과	O	O	O, I-AF, B-CV, B-AF, B-TM
+6	부딪쳐	O	O	O, B-TM, B-LC, B-QT, B-CV
+7	한	O	B-QT	B-QT, O, B-DT, B-TM, B-AM
+8	몸	B-AM	I-QT	I-QT, B-AM, O, I-AM, I-DT
+9	##이	O	O	O, I-QT, I-AF, B-PS, I-EV
+10	된	O	O	O, B-QT, B-CV, B-TM, B-LC
+11	것	O	O	O, B-CV, B-PS, B-OG, B-TM
+12	##이다	O	O	O, B-CV, B-TM, I-EV, I-AF
+13	.	O	O	O, B-LC, B-CV, B-PS, B-AF
+14	[SEP]	O	O	O, B-CV, B-LC, B-AF, B-TM

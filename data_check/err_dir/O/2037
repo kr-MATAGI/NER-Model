@@ -1,0 +1,13 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
+1	1	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-EV
+2	.	I-QT	I-QT	I-QT, O, I-LC, I-EV, B-QT
+3	5	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
+4	##t	I-QT	I-QT	I-QT, O, I-LC, I-PS, I-OG
+5	화물차	O	B-AF	B-AF, O, I-AF, B-OG, I-QT
+6	3	B-QT	B-QT	B-QT, I-QT, I-AF, O, B-DT
+7	##대	I-QT	I-QT	I-QT, O, I-AF, I-LC, I-TM
+8	분량	O	O	O, I-QT, B-TM, I-DT, I-TM
+9	##이다	O	O	O, I-QT, B-CV, B-TM, I-AF
+10	.	O	O	O, B-QT, B-TM, B-OG, B-CV
+11	[SEP]	O	O	O, B-TM, B-CV, B-QT, I-QT

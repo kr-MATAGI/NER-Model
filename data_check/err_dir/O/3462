@@ -1,0 +1,24 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, I-AF, I-EV, I-CV
+1	호주	B-EV	B-EV	B-EV, O, B-LC, B-CV, B-OG
+2	##오	I-EV	I-EV	I-EV, O, I-CV, B-EV, B-CV
+3	##픈	I-EV	I-EV	I-EV, O, I-CV, I-OG, B-CV
+4	##테	I-EV	I-EV	I-EV, O, B-EV, B-CV, I-CV
+5	##니스	I-EV	I-EV	I-EV, O, I-CV, I-OG, B-CV
+6	男	O	I-EV	I-EV, O, B-EV, B-CV, I-OG
+7	단식	O	I-EV	I-EV, O, B-EV, B-CV, I-OG
+8	결승	B-EV	B-EV	B-EV, I-EV, O, B-CV, B-LC
+9	5	B-TI	B-TI	B-TI, I-EV, B-EV, I-TI, B-QT
+10	##시간	I-TI	I-TI	I-TI, I-EV, B-TI, I-TR, I-QT
+11	53	I-TI	I-TI	I-TI, I-EV, B-TI, I-QT, I-TR
+12	##분	I-TI	I-TI	I-TI, I-QT, I-EV, I-TR, O
+13	명	O	O	O, B-TM, B-CV, I-TI, B-LC
+14	##승부	O	O	O, I-CV, B-CV, I-TM, I-AF
+15	…	O	O	O, B-LC, I-AF, I-CV, B-PS
+16	프로	O	O	O, B-FD, B-CV, B-OG, B-EV
+17	##스포츠	O	O	O, I-FD, I-CV, B-FD, I-OG
+18	최장	O	O	O, I-CV, I-FD, B-CV, I-AF
+19	시간	O	O	O, B-TI, B-LC, B-CV, B-TM
+20	경기	O	O	O, B-CV, B-TM, B-LC, B-EV
+21	##들	O	O	O, I-CV, I-AF, I-EV, B-LC
+22	[SEP]	O	O	O, B-CV, B-EV, B-LC, I-EV

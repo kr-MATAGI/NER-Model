@@ -1,0 +1,17 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-EV, I-OG, I-CV, B-CV
+1	전시회	O	O	O, B-EV, B-CV, B-LC, I-EV
+2	이름	O	O	O, B-CV, I-EV, B-OG, B-LC
+3	##은	O	O	O, B-CV, I-EV, B-LC, B-OG
+4	<	O	O	O, B-EV, B-LC, B-DT, B-OG
+5	토르	B-AF	B-EV	B-EV, B-AF, B-OG, O, B-LC
+6	##소	I-AF	I-EV	I-EV, I-AF, O, I-OG, I-TM
+7	>	O	O	O, I-EV, I-OG, I-AF, I-DT
+8	(	O	O	O, I-EV, B-OG, B-CV, B-LC
+9	to	B-AF	O	O, B-LC, B-AF, B-EV, B-OG
+10	##r	I-AF	O	O, I-LC, I-AF, I-EV, I-PS
+11	##s	I-AF	O	O, I-LC, I-AF, I-EV, I-PS
+12	##o	I-AF	O	O, I-LC, I-AF, I-EV, I-PS
+13	)	O	O	O, I-EV, B-LC, I-LC, I-AF
+14	.	O	O	O, B-OG, B-LC, B-CV, I-EV
+15	[SEP]	O	O	O, B-LC, B-CV, I-EV, B-EV

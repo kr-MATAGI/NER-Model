@@ -1,0 +1,24 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-PS, B-CV, I-CV, I-EV
+1	통상	O	O	O, B-CV, B-PS, B-QT, I-CV
+2	두	B-QT	B-QT	B-QT, O, B-PS, I-QT, B-CV
+3	사람	I-QT	I-QT	I-QT, O, I-PS, I-CV, I-LC
+4	##이	B-PS	O	O, B-PS, B-CV, I-QT, I-PS
+5	함께	O	O	O, B-CV, B-PS, B-QT, B-TM
+6	입수	O	O	O, B-CV, B-PS, B-TM, B-LC
+7	##하	O	O	O, B-PS, B-CV, I-PS, I-CV
+8	##는	O	O	O, B-PS, B-CV, I-PS, I-CV
+9	것	O	O	O, B-PS, B-CV, I-PS, B-TM
+10	##과	O	O	O, B-PS, B-CV, I-CV, I-PS
+11	달리	O	O	O, B-PS, B-CV, I-PS, I-CV
+12	이씨	O	O	O, B-PS, B-CV, I-PS, I-CV
+13	##는	O	O	O, B-PS, B-CV, I-PS, I-CV
+14	혼자	O	O	O, B-PS, B-CV, B-QT, B-TM
+15	잠수	O	O	O, B-CV, B-TM, B-LC, B-AF
+16	##를	O	O	O, B-PS, B-CV, I-CV, I-PS
+17	한	O	O	O, B-PS, B-CV, I-PS, B-QT
+18	상태	O	O	O, B-PS, B-CV, I-PS, I-CV
+19	##였	O	O	O, B-PS, B-CV, I-PS, I-CV
+20	##다	O	O	O, B-PS, B-CV, I-PS, I-CV
+21	.	O	O	O, B-PS, B-CV, I-PS, B-TM
+22	[SEP]	O	O	O, B-PS, B-CV, B-TM, I-CV

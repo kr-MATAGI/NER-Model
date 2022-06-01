@@ -1,0 +1,22 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
+1	[	O	O	O, B-OG, B-LC, B-CV, B-PS
+2	한겨레	B-OG	B-OG	B-OG, B-LC, B-AF, B-PS, I-OG
+3	]	O	O	O, I-OG, I-AF, I-DT, B-CV
+4	법원	B-OG	B-OG	B-OG, B-AF, B-LC, I-OG, O
+5	,	O	O	O, I-OG, B-CV, I-AF, I-DT
+6	변	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-AF
+7	##희	I-PS	I-PS	I-PS, O, B-PS, I-OG, I-LC
+8	##재	I-PS	I-PS	I-PS, O, B-PS, I-OG, I-LC
+9	##씨	O	O	O, I-PS, B-CV, I-OG, I-AF
+10	##에	O	O	O, B-CV, B-LC, B-OG, B-TM
+11	‘	O	O	O, B-LC, B-CV, B-OG, B-PS
+12	징역	B-CV	B-CV	B-CV, O, B-OG, B-AF, B-PS
+13	6	B-DT	B-DT	B-DT, I-DT, I-CV, O, B-QT
+14	##월	I-DT	I-DT	I-DT, O, I-PS, I-CV, B-DT
+15	집	B-CV	O	O, B-CV, B-LC, I-DT, B-TM
+16	##유	I-CV	O	O, I-CV, I-LC, I-PS, I-AM
+17	1	B-DT	B-DT	B-DT, O, I-DT, B-PS, B-QT
+18	##년	I-DT	I-DT	I-DT, O, I-PS, B-DT, I-QT
+19	’	O	O	O, I-DT, B-CV, I-CV, I-AF
+20	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-PS

@@ -1,0 +1,21 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-CV, B-CV, I-OG, I-AF
+1	그	O	O	O, B-CV, B-OG, B-TM, B-LC
+2	사람	O	O	O, B-CV, B-PS, I-CV, B-LC
+3	##들이	O	O	O, B-CV, B-PS, B-LC, B-OG
+4	역사	B-FD	O	O, B-FD, B-CV, I-FD, B-TR
+5	흐름	O	O	O, I-FD, I-AF, I-CV, B-CV
+6	속	O	O	O, B-CV, B-PS, B-LC, B-OG
+7	##에	O	O	O, B-CV, B-PS, B-LC, B-OG
+8	서쪽	B-TM	B-TM	B-TM, B-LC, O, B-OG, B-CV
+9	##으로	O	O	O, I-TM, I-AF, I-QT, I-OG
+10	갔	O	O	O, B-CV, B-OG, B-LC, B-PS
+11	##던	O	O	O, B-CV, B-LC, B-PS, B-OG
+12	사람	O	O	O, B-CV, B-PS, I-CV, B-QT
+13	##들이	O	O	O, B-CV, B-PS, I-CV, I-AF
+14	오늘	O	B-DT	B-DT, O, I-DT, B-CV, B-QT
+15	날	O	I-DT	I-DT, O, B-DT, I-QT, I-CV
+16	터키	B-LC	B-LC	B-LC, B-OG, O, I-DT, B-CV
+17	##에	O	O	O, I-LC, I-OG, I-AF, I-CV
+18	##요	O	O	O, B-CV, I-AF, I-OG, B-OG
+19	[SEP]	O	O	O, B-CV, B-LC, I-AF, B-PS

@@ -1,0 +1,21 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
+1	드레싱	B-CV	B-CV	B-CV, O, I-CV, B-AF, B-TM
+2	##에	O	O	O, I-CV, B-CV, I-AF, I-OG
+3	들어가	O	O	O, B-CV, B-OG, B-TM, B-LC
+4	있	O	O	O, B-CV, B-OG, B-PS, B-LC
+5	##는	O	O	O, B-CV, B-OG, B-LC, B-PS
+6	마요	B-CV	B-CV	B-CV, O, B-OG, B-AF, B-TM
+7	##네즈	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-AF
+8	##에	O	O	O, I-CV, I-OG, I-AF, I-QT
+9	또	O	O	O, B-OG, B-CV, B-TM, B-LC
+10	어느	O	O	O, B-OG, B-LC, B-CV, B-TM
+11	정도	O	O	O, I-OG, B-PS, B-LC, B-OG
+12	##에	O	O	O, B-OG, B-CV, B-LC, I-OG
+13	기름	B-CV	B-MT	B-MT, O, B-CV, B-TM, B-AF
+14	성분	O	O	O, I-MT, I-CV, I-AF, I-LC
+15	##이	O	O	O, B-PS, B-LC, B-OG, B-CV
+16	있	O	O	O, B-CV, B-OG, B-LC, B-PS
+17	##어	O	O	O, B-LC, B-OG, B-CV, B-PS
+18	##서	O	O	O, B-OG, B-CV, B-LC, I-OG
+19	[SEP]	O	O	O, B-CV, B-LC, B-OG, I-OG

@@ -1,0 +1,16 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
+1	한	B-QT	B-CV	B-CV, O, B-QT, B-PS, I-CV
+2	##부모	I-QT	I-CV	I-CV, O, I-QT, B-CV, I-PS
+3	조	B-CV	B-CV	B-CV, O, I-CV, B-QT, B-TM
+4	##손	I-CV	I-CV	I-CV, O, I-QT, B-CV, I-TM
+5	가정	O	O	O, I-CV, B-CV, B-FD, I-QT
+6	##이나	O	O	O, I-CV, I-OG, I-AF, B-CV
+7	친	B-CV	B-CV	B-CV, O, B-QT, B-TM, I-CV
+8	##부모	I-CV	I-CV	I-CV, O, B-CV, I-QT, I-TM
+9	가정	O	O	O, I-CV, I-OG, B-CV, B-FD
+10	##의	O	O	O, I-CV, I-AF, I-OG, B-PS
+11	청소년	B-CV	B-CV	B-CV, O, B-OG, B-TM, B-FD
+12	##에	O	O	O, I-CV, I-OG, B-CV, I-AF
+13	비해	O	O	O, B-CV, B-TM, B-OG, B-LC
+14	[SEP]	O	O	O, B-CV, B-LC, B-OG, I-AF

@@ -1,0 +1,27 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-EV, I-AF
+1	그러나	O	O	O, B-PS, B-CV, B-QT, B-LC
+2	뻔한	O	O	O, B-PS, B-CV, B-QT, B-TR
+3	공무원	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-FD
+4	월급	O	O	O, I-CV, B-CV, B-PS, I-EV
+5	##을	O	O	O, B-PS, B-CV, I-CV, I-PS
+6	감안	O	O	O, B-PS, B-CV, B-QT, I-CV
+7	##하면	O	O	O, B-PS, I-PS, B-CV, B-LC
+8	결국	O	O	O, B-PS, B-CV, I-PS, B-QT
+9	전	O	B-PS	B-PS, O, I-PS, B-LC, B-CV
+10	원장	B-CV	B-CV	B-CV, O, I-CV, I-PS, B-PS
+11	##의	O	O	O, I-CV, B-PS, B-CV, I-PS
+12	재산	O	O	O, B-CV, I-CV, B-PS, B-TM
+13	형성	O	O	O, I-CV, B-PS, B-CV, I-PS
+14	##에	O	O	O, B-PS, B-CV, B-QT, I-CV
+15	실제	O	O	O, B-PS, B-CV, B-QT, I-PS
+16	기여	O	O	O, B-PS, B-CV, I-CV, I-PS
+17	##한	O	O	O, B-PS, B-CV, B-QT, I-PS
+18	사람	O	O	O, B-PS, B-CV, I-CV, I-PS
+19	##은	O	O	O, B-PS, B-CV, I-CV, I-PS
+20	남편	B-CV	B-CV	B-CV, O, I-CV, B-PS, B-TM
+21	이모	O	O	O, B-PS, B-CV, I-CV, B-QT
+22	##씨	O	O	O, I-CV, B-PS, I-PS, B-CV
+23	##이다	O	O	O, B-PS, B-CV, I-CV, I-PS
+24	.	O	O	O, B-PS, B-CV, I-CV, I-PS
+25	[SEP]	O	O	O, B-PS, B-CV, I-CV, I-PS

@@ -1,0 +1,25 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
+1	집회	O	B-CV	B-CV, O, I-CV, B-TM, B-AF
+2	·	O	I-CV	I-CV, O, B-CV, I-TM, I-AF
+3	시위	O	I-CV	I-CV, O, B-CV, I-TM, I-OG
+4	자유	O	I-CV	I-CV, O, B-CV, I-OG, I-TM
+5	보장	O	O	O, I-CV, I-OG, B-CV, I-TM
+6	##을	O	O	O, I-CV, B-PS, B-CV, I-OG
+7	위해	O	O	O, B-CV, B-PS, B-LC, B-TM
+8	집시	B-CV	B-CV	B-CV, O, B-OG, B-AF, I-CV
+9	##법	I-CV	I-CV	I-CV, O, I-OG, B-CV, I-AF
+10	외	O	O	O, I-CV, I-OG, I-AF, B-PS
+11	##에	O	O	O, B-CV, B-OG, B-PS, B-QT
+12	경찰관	B-CV	B-CV	B-CV, O, B-OG, B-AF, I-CV
+13	직무	B-CV	I-CV	I-CV, B-CV, O, I-OG, I-AF
+14	##집행	I-CV	I-CV	I-CV, O, I-OG, B-CV, I-AF
+15	##법	I-CV	I-CV	I-CV, O, I-OG, B-CV, I-AF
+16	##도	O	O	O, I-CV, I-OG, I-AF, I-QT
+17	고쳐야	O	O	O, B-CV, B-OG, I-CV, B-PS
+18	한다는	O	O	O, B-CV, B-OG, B-PS, B-LC
+19	지적	O	O	O, B-CV, B-TM, B-OG, B-PS
+20	##이	O	O	O, B-CV, B-PS, B-OG, B-LC
+21	나온다	O	O	O, B-CV, B-TM, B-OG, B-QT
+22	.	O	O	O, B-PS, B-CV, B-LC, B-OG
+23	[SEP]	O	O	O, B-CV, B-PS, B-LC, B-OG

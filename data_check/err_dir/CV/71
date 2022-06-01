@@ -1,0 +1,17 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, I-CV, I-EV, B-CV
+1	“	O	O	O, B-CV, B-LC, B-OG, B-PS
+2	남북	B-OG	B-OG	B-OG, B-LC, O, B-EV, B-PS
+3	고위급	O	O	O, I-EV, I-OG, B-EV, B-CV
+4	접촉	O	O	O, I-EV, I-OG, B-EV, I-DT
+5	성사	O	O	O, I-EV, I-OG, B-OG, B-PS
+6	##땐	O	O	O, I-EV, I-OG, B-LC, B-PS
+7	납	B-CV	B-CV	B-CV, O, B-OG, B-TM, B-AF
+8	##북자	I-CV	I-CV	I-CV, O, I-OG, B-CV, I-TM
+9	-	O	O	O, I-CV, I-OG, I-EV, I-QT
+10	국군	B-OG	B-CV	B-CV, B-OG, O, B-AF, B-LC
+11	##포로	B-CV	I-CV	I-CV, B-CV, O, I-OG, I-QT
+12	다룰	O	O	O, I-CV, I-OG, I-QT, I-EV
+13	것	O	O	O, B-PS, B-OG, B-LC, B-CV
+14	”	O	O	O, B-CV, I-OG, B-OG, B-PS
+15	[SEP]	O	O	O, B-LC, B-OG, B-CV, B-PS

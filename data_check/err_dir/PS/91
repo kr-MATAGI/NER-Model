@@ -1,0 +1,26 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
+1	또	O	O	O, B-CV, B-PS, B-TM, B-LC
+2	인수	B-PS	O	O, B-CV, B-PS, B-OG, B-AF
+3	##대	I-PS	O	O, I-CV, B-CV, I-PS, B-PS
+4	##비	I-PS	O	O, I-CV, B-CV, I-PS, I-EV
+5	##처럼	O	O	O, I-CV, B-PS, B-CV, I-EV
+6	카리스마	O	O	O, B-TM, B-CV, B-PS, B-AF
+7	있	O	O	O, I-CV, I-AF, I-PS, B-CV
+8	##는	O	O	O, B-PS, B-CV, I-CV, B-LC
+9	캐릭터	O	O	O, B-CV, B-PS, I-CV, B-FD
+10	##로	O	O	O, B-PS, B-CV, I-CV, B-LC
+11	변신	O	O	O, B-CV, B-PS, B-LC, B-TM
+12	##할	O	O	O, B-PS, B-CV, I-CV, B-LC
+13	수	O	O	O, B-CV, B-PS, B-LC, B-TM
+14	있	O	O	O, B-CV, B-PS, B-LC, B-TM
+15	##는	O	O	O, B-CV, B-PS, B-LC, B-OG
+16	기회	O	O	O, B-CV, B-EV, B-PS, B-TM
+17	##가	O	O	O, B-PS, I-EV, B-CV, I-CV
+18	있	O	O	O, B-CV, B-PS, B-EV, B-TM
+19	##으면	O	O	O, B-CV, B-PS, B-TM, B-OG
+20	좋	O	O	O, B-CV, I-CV, B-OG, B-TM
+21	##겠	O	O	O, B-CV, I-CV, I-OG, B-OG
+22	##어요	O	O	O, B-CV, I-CV, I-OG, B-PS
+23	.	O	O	O, B-CV, B-PS, B-LC, I-CV
+24	[SEP]	O	O	O, B-CV, B-PS, I-CV, B-FD

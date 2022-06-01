@@ -1,0 +1,12 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-AF
+1	김연아	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
+2	선수	B-CV	B-CV	B-CV, O, I-PS, I-CV, B-AF
+3	##가	O	O	O, I-CV, I-AF, B-CV, I-OG
+4	스케이팅	B-TM	B-CV	B-CV, O, B-FD, B-AF, I-CV
+5	하	O	O	O, I-CV, I-AF, B-CV, I-EV
+6	##는	O	O	O, B-CV, I-AF, I-CV, I-OG
+7	거	O	O	O, B-CV, B-OG, I-AF, B-PS
+8	##요	O	O	O, I-OG, I-AF, B-CV, I-CV
+9	.	O	O	O, B-CV, I-AF, B-PS, B-OG
+10	[SEP]	O	O	O, B-CV, I-AF, I-OG, B-OG

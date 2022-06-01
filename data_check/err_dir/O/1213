@@ -1,0 +1,11 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, I-EV, B-CV, I-CV
+1	절도	O	B-CV	B-CV, O, B-EV, B-TM, B-FD
+2	사건	O	O	O, I-EV, I-CV, B-CV, B-EV
+3	##을	O	O	O, I-EV, I-CV, I-OG, B-CV
+4	일으키	O	O	O, B-CV, B-EV, B-OG, B-LC
+5	##기	O	O	O, I-EV, B-CV, B-LC, B-PS
+6	##도	O	O	O, I-EV, B-CV, B-EV, B-LC
+7	했	O	O	O, B-CV, B-OG, B-LC, I-EV
+8	##는데	O	O	O, B-CV, B-LC, B-OG, I-EV
+9	[SEP]	O	O	O, B-CV, B-LC, I-EV, B-OG

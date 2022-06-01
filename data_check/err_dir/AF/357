@@ -1,0 +1,13 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-AF
+1	출시	O	O	O, B-CV, B-TM, B-LC, B-AF
+2	앞둔	O	O	O, B-OG, B-LC, B-PS, B-CV
+3	LG	B-OG	B-OG	B-OG, B-AF, O, B-EV, B-LC
+4	G	B-AF	I-AF	I-AF, B-AF, I-OG, B-OG, I-PS
+5	##프로	I-AF	I-AF	I-AF, B-AF, I-OG, I-TM, O
+6	##2	I-AF	I-AF	I-AF, O, I-TM, I-OG, B-AF
+7	##에	O	O	O, I-AF, I-OG, I-TM, I-EV
+8	선	O	O	O, B-TM, B-CV, B-MT, B-LC
+9	##탑	O	O	O, I-CV, I-TM, I-AF, I-LC
+10	##재	O	O	O, I-CV, I-TM, B-MT, I-AF
+11	[SEP]	O	O	O, B-LC, B-TM, B-CV, B-AF

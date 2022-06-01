@@ -1,0 +1,17 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
+1	그	O	O	O, B-CV, B-OG, B-TM, B-LC
+2	~	O	O	O, B-CV, B-LC, B-PS, I-CV
+3	중요	O	O	O, B-CV, B-TM, B-QT, B-LC
+4	##한	O	O	O, B-PS, B-LC, B-QT, B-OG
+5	변수	O	O	O, B-CV, B-PS, B-TM, B-QT
+6	중	O	O	O, B-QT, B-PS, B-LC, B-TM
+7	##에	O	O	O, B-CV, I-QT, B-PS, B-QT
+8	한	O	B-QT	B-QT, O, I-QT, B-PS, B-CV
+9	분	O	I-QT	I-QT, O, I-PS, I-LC, I-CV
+10	##인	O	O	O, I-QT, B-PS, B-CV, I-CV
+11	유승민	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
+12	의원	B-CV	B-CV	B-CV, O, I-PS, I-CV, B-TM
+13	##은	O	O	O, I-CV, B-CV, I-EV, I-QT
+14	인제	O	O	O, B-CV, B-LC, B-OG, B-TM
+15	[SEP]	O	O	O, B-CV, B-LC, B-FD, B-PS

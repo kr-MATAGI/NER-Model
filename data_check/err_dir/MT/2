@@ -1,0 +1,18 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-QT
+1	맥주	B-CV	B-CV	B-CV, O, B-AF, B-OG, I-CV
+2	##와	O	O	O, I-CV, B-TM, B-CV, I-AF
+3	공기	B-MT	O	O, B-MT, B-TM, I-MT, B-AM
+4	접촉	O	O	O, B-TM, I-TM, B-LC, I-MT
+5	##을	O	O	O, B-TM, B-PS, B-LC, B-CV
+6	차단	O	O	O, B-TM, B-LC, B-CV, B-PS
+7	##해	O	O	O, B-LC, B-PS, B-TM, I-QT
+8	맥주	B-CV	B-CV	B-CV, O, B-AF, B-PT, B-OG
+9	##의	O	O	O, I-CV, I-AF, I-EV, B-CV
+10	산화	O	O	O, B-TM, B-LC, B-CV, B-MT
+11	##를	O	O	O, B-LC, B-CV, B-OG, B-PS
+12	더디	O	O	O, B-LC, B-TM, B-OG, B-PS
+13	##게	O	O	O, B-LC, I-OG, B-PS, B-OG
+14	한다	O	O	O, B-LC, B-CV, B-TM, I-QT
+15	.	O	O	O, B-LC, B-OG, B-PS, B-MT
+16	[SEP]	O	O	O, B-LC, B-CV, I-OG, B-TM

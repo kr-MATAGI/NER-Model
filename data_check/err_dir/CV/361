@@ -1,0 +1,7 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
+1	마스크	B-CV	O	O, B-CV, B-TM, B-AM, B-AF
+2	포장	O	O	O, I-CV, I-TM, I-AF, B-CV
+3	##이	O	O	O, I-CV, I-AF, I-TM, B-PS
+4	##랑	O	O	O, B-CV, B-OG, I-AF, I-CV
+5	[SEP]	O	O	O, B-CV, B-TM, I-AF, I-OG

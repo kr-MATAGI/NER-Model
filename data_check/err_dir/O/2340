@@ -1,0 +1,26 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-EV, I-CV
+1	올해	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
+2	윤상	B-PS	B-PS	B-PS, O, I-PS, B-OG, I-DT
+3	등	O	O	O, I-PS, B-CV, I-DT, B-PS
+4	베테랑	O	B-CV	B-CV, O, B-OG, B-PS, B-QT
+5	싱어	B-CV	B-CV	B-CV, I-CV, O, B-FD, B-TM
+6	##송	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-QT
+7	##라이터	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-TM
+8	##들이	O	O	O, I-CV, B-CV, I-OG, B-PS
+9	복귀	O	O	O, B-CV, B-PS, B-AF, B-TM
+10	음반	O	O	O, B-PS, B-CV, B-TM, I-EV
+11	##을	O	O	O, B-CV, B-PS, B-OG, I-EV
+12	냈	O	O	O, B-CV, B-OG, B-LC, B-PS
+13	##지만	O	O	O, B-CV, B-PS, B-LC, I-AF
+14	전성기	O	O	O, B-PS, B-CV, B-LC, B-AF
+15	##만큼	O	O	O, B-CV, B-PS, B-LC, I-AF
+16	##의	O	O	O, B-PS, B-LC, B-CV, B-OG
+17	폭발	O	O	O, B-CV, B-TM, B-LC, B-AF
+18	##력	O	O	O, B-LC, I-AF, B-PS, I-OG
+19	##은	O	O	O, B-CV, B-LC, B-PS, B-TM
+20	없	O	O	O, B-CV, B-TM, B-QT, B-PS
+21	##었	O	O	O, B-CV, I-AF, I-OG, B-PS
+22	##다	O	O	O, B-CV, I-OG, B-TM, I-EV
+23	.	O	O	O, B-PS, B-CV, B-LC, B-OG
+24	[SEP]	O	O	O, B-CV, B-PS, I-AF, I-EV

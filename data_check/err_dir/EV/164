@@ -1,0 +1,19 @@
+	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-QT
+1	글로벌	B-EV	B-DT	B-DT, B-EV, O, B-LC, B-AF
+2	금융	I-EV	I-DT	I-DT, I-EV, B-DT, O, B-EV
+3	위기	I-EV	I-DT	I-DT, I-EV, O, B-DT, B-EV
+4	(	O	O	O, I-DT, I-EV, B-DT, I-OG
+5	2009	B-DT	B-DT	B-DT, I-DT, O, B-QT, B-LC
+6	##년	I-DT	I-DT	I-DT, O, B-DT, I-EV, I-QT
+7	)	O	O	O, I-DT, B-DT, I-EV, I-QT
+8	이후	O	O	O, I-DT, B-DT, I-EV, I-QT
+9	가장	O	O	O, I-DT, B-CV, B-QT, B-LC
+10	큰	O	O	O, B-CV, B-OG, B-LC, B-PS
+11	폭	O	O	O, B-OG, B-PS, B-CV, B-TM
+12	##의	O	O	O, B-PS, I-OG, B-OG, I-AF
+13	확대	O	O	O, B-CV, B-OG, B-PS, B-TM
+14	예산안	O	O	O, B-CV, B-OG, B-FD, B-PS
+15	##이다	O	O	O, I-CV, B-CV, I-OG, I-AF
+16	.	O	O	O, B-LC, B-OG, B-CV, B-PS
+17	[SEP]	O	O	O, B-CV, B-OG, B-LC, I-OG
