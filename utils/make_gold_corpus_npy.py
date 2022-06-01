@@ -1,4 +1,6 @@
 import copy
+import random
+random.seed(42)
 import pickle
 from builtins import enumerate
 
@@ -124,10 +126,9 @@ def save_npy_dict(npy_dict: Dict[str, List], src_list_len):
 
 def make_wordpiece_npy(tokenizer_name:str, src_list: List[Sentence], max_len: int=512):
     '''
-
     tokenization base is setence
-
     '''
+    random.shuffle(src_list)
 
     npy_dict = {
         "input_ids": [],
@@ -144,6 +145,9 @@ def make_wordpiece_npy(tokenizer_name:str, src_list: List[Sentence], max_len: in
         if 0 == (proc_idx % 1000):
             print(f"{proc_idx} Processing... {sent.text}")
 
+        if sent.text != "소비자원에서 어떤 일을 해 주면 정말 소비자들한테 필요한 사업이 될까에 대해서 이런 아이디어를 공모를 해서":
+            continue
+        
         text_tokens = tokenizer.tokenize(sent.text)
 
         labels = ["O"] * len(text_tokens)
@@ -154,10 +158,11 @@ def make_wordpiece_npy(tokenizer_name:str, src_list: List[Sentence], max_len: in
         # NE
         start_idx = 0
         # Testing
-        #text_tokens = tokenizer.tokenize("잘 안 쓰드라고 그냥 안경이 더 편하다고 안경")
-        #a = NE(id=1, text="안경", type="CV")
-        #b = NE(id=2, text="안경", type="CV")
-        #sent.ne_list = [a, b]
+        # text_tokens = tokenizer.tokenize("어 가필드 가필드 고양이 그래서 그게 두개 섞인 거 같은데 이제 나는 걔를 얘기")
+        # a = NE(id=1, text="가필드", type="AF")
+        # b = NE(id=2, text="가필드", type="AF")
+        # c = NE(id=3, text="고양이", type="AM")
+        # sent.ne_list = [a, b, c]
         for ne_item in sent.ne_list:
             is_find = False
             for s_idx in range(start_idx, len(text_tokens)):
@@ -168,7 +173,7 @@ def make_wordpiece_npy(tokenizer_name:str, src_list: List[Sentence], max_len: in
                     concat_text_tokens = [x.replace("##", "") for x in concat_text_tokens]
 
                     if "".join(concat_text_tokens) == ne_item.text.replace(" ", ""):
-                        #print("A : ", concat_text_tokens, ne_item.text, s_idx)
+                        print("A : ", concat_text_tokens, ne_item.text, s_idx)
 
                         # BIO Tagging
                         for bio_idx in range(s_idx, s_idx + word_cnt):
@@ -183,11 +188,11 @@ def make_wordpiece_npy(tokenizer_name:str, src_list: List[Sentence], max_len: in
         ## end, ne_item loop
 
         # TEST and Print
-        #test_ne_print = [(x.text, x.type) for x in sent.ne_list]
-        #print(test_ne_print)
-        #for t, l in zip(text_tokens, labels):
-        #    print(t, "\t", l)
-        #input()
+        test_ne_print = [(x.text, x.type) for x in sent.ne_list]
+        print(test_ne_print)
+        for t, l in zip(text_tokens, labels):
+           print(t, "\t", l)
+        input()
 
         # Morp
         start_idx = 0

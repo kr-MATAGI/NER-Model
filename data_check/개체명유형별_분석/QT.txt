@@ -1,0 +1,41 @@
+10. QT (Quantity) - 18개
+	- others: 기타 수량 표현
+	- age: 나이
+	- size: 크기/넓이
+	- length: 길이/거리/높이
+	- count: 개수/빈도
+	- man count: 인원수
+	- weight: 무게
+	- percentage: 백분율, 비율, 농도
+	- speed: 속도
+	- temperature: 온도
+	- volume: 부피
+	- order: 순서, 순차적 표현
+	- price: 금액
+	- phone: 전화번호
+	- sports: 스포츠 관련 수량 표현
+	- channel: TV/라디오 채널 번호
+	- album: 앨범 관련 수량 표현
+	- zipcode: 우편번호
+	
+#====================================================
+ERR CASE
+#====================================================
+
+
+1. labeling 오류로 보여지는 것
+	- CV.38
+		label: 한번(O)
+		
+	- CV.74
+		label: 세분화해서 (QT)
+		> 세명의 사람이 아님
+		
+2. 초과인식
+	- CV.301
+		label: 삼백만(QT) 관객(CV)
+		pred: 삼백만관객(QT)
+		
+	- CV.314
+		label: 다섯(QT) 가족(CV)
+		pred: 다섯(B-QT) 가족(I-QT)

@@ -55,7 +55,7 @@ def classify_tag_err():
         rows_list = []
         is_error = False
         err_label_list = []
-        for p_idx in range(len(preds)):
+        for p_idx in range(inputs["input_seq_len"]):
             conv_label = ids_to_tag[labels[p_idx]]
             conv_preds = ids_to_tag[preds[p_idx]]
             if conv_label != conv_preds:
@@ -87,6 +87,18 @@ def classify_tag_err():
 def check_classify_tag_size(path: str):
     '''
         @NOTE
+            BERT-base
+            {'O': 5296,
+            'PS': 139, 'LC': 177,
+            'OG': 143, 'AF': 146,
+            'DT': 108, 'TI': 31,
+            'CV': 506, 'AM': 46,
+            'PT': 59, 'QT': 276,
+            'FD': 88, 'TR': 24,
+            'EV': 41, 'MT': 20,
+            'TM': 208}
+
+            BERT-LSTM-CRF
             {'O': 1517,
             'PS': 122, 'LC': 118,
             'OG': 165, 'AF': 128,
@@ -96,6 +108,17 @@ def check_classify_tag_size(path: str):
             'FD': 78, 'TR': 25,
             'EV': 41, 'MT': 17,
             'TM': 183}
+
+            BERT-LSTM (POS)
+            {'O': 1822,
+            'PS': 121, 'LC': 130,
+            'OG': 141, 'AF': 126,
+            'DT': 105, 'TI': 35,
+            'CV': 397, 'AM': 39,
+            'PT': 55, 'QT': 226,
+            'FD': 62, 'TR': 22,
+            'EV': 40, 'MT': 19,
+            'TM': 228}
     '''
     labels_list = [x.replace("B-", "").replace("I-", "") for x in ETRI_TAG.keys()]
     SIZE_DICT = {k: 0 for k in labels_list}
@@ -108,5 +131,5 @@ def check_classify_tag_size(path: str):
 
 ### MAIN ###
 if "__main__" == __name__:
-    classify_tag_err()
-    # check_classify_tag_size("./err_dir")
+    #classify_tag_err()
+    check_classify_tag_size("./err_dir")

@@ -341,7 +341,7 @@ def main(cli_args):
                                         label2id={label: i for i, label in enumerate(ETRI_TAG.keys())})
     config.num_pos_labels = 49 # NIKL
 
-    model = BERT_POS_LSTM(config=config)
+    model = BERT_POS_LSTM.from_pretrained("klue/bert-base", config=config)
 
     # GPU or CPU
     if 1 < torch.cuda.device_count():

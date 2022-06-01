@@ -2,11 +2,10 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 from transformers import (
-    AutoModel, AutoConfig, BertPreTrainedModel
+    AutoModel, AutoConfig, BertPreTrainedModel, AutoModelForTokenClassification
 )
 from torch.nn.utils.rnn import pack_padded_sequence, pad_packed_sequence
 import copy
-from transformers.modeling_outputs import TokenClassifierOutput
 
 from crf_layer import CRF
 
@@ -17,7 +16,7 @@ class BERT_LSTM_CRF(BertPreTrainedModel):
         super(BERT_LSTM_CRF, self).__init__(config)
         self.max_seq_len = 128
 
-        self.bert = AutoModel.from_config(config=config)
+        self.bert = AutoModel.from_pretrained("klue/bert-base", config=config)
         self.lstm_hidden = 512
         self.dropout_rate = 0.1
 
@@ -130,7 +129,14 @@ class BERT_POS_LSTM(BertPreTrainedModel):
         self.pos_embedding_3 = nn.Embedding(self.num_pos_labels, self.pos_embed_out_dim)
 
         # bert + lstm
-        self.bert = AutoModel.from_pretrained(config._name_or_path, config=config)
+        '''
+            @ Note
+                AutoModel.from_config()
+                Loading a model from its configuration file does not load the model weights. 
+                It only affects the model’s configuration. 
+                Use from_pretrained() to load the model weights.
+        '''
+        self.bert = AutoModel.from_config(config=config)
         self.lstm = nn.LSTM(input_size=config.hidden_size + (self.pos_embed_out_dim * 3),
                             hidden_size=config.hidden_size + (self.pos_embed_out_dim * 3),
                             num_layers=1, batch_first=True, dropout=0.3)
@@ -171,7 +177,7 @@ class BERT_POS_LSTM(BertPreTrainedModel):
 
 ### TEST ###
 if "__main__" == __name__:
-    config = AutoConfig.from_pretrained("klue/roberta-base",
+    config = AutoConfig.from_pretrained("klue/bert-base",
                                         num_labels=31)
     bert_config = AutoConfig.from_pretrained("klue/bert-base")
     print(config)

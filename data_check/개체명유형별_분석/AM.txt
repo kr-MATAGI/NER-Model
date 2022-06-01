@@ -1,0 +1,137 @@
+8. AM (Animal) - 9개
+	- others: 기타 동물 명칭
+	- insect: 곤충
+	- bird: 조류
+	- fish: 어류
+	- mammalia: 포유류
+	- amphibia: 양서류
+	- reptilia: 파충류
+	- type: 동물 분류 명칭
+	- part: 동물 몸의 한 부분(신체 부위) 명칭
+
+
+#====================================================
+ERR CASE
+#====================================================
+
+* '코' 같은 한글자는 잘 인식 못 하는 건가?
+
+1. Labeling 오류?
+	- AF.13
+	> CV_FOOD에 보면
+	식물/동물 등의 다른 개체 유형과 중복되는 경우에는 다른 개체 유형으로
+	태깅해야 한다 되어있음.
+	
+	- CV.165
+		페르시안 이런 것도 유전병 있잖아
+		label: 페르시안(CV)
+
+2. 동음이의어
+	- 0
+		label: 배 (AM)
+		pred: 배 (AF)
+		
+	- 30
+		label: 배 (AM)
+		pred: 배 (AF)
+		
+3. 사전 지식의 부족? 혹은 개체명의 단어 길이
+	- 2
+		label: 알 (AM)
+		pred: 알 (O)
+	
+	- 3
+		label: 소라 (AM)
+		pred: 소라껍질 (CV)
+		
+	- 7
+		label: 태아 (AM)
+		pred: 태아 (O)
+	
+	- 9
+		label: 말 (AM)
+		pred: 말 (O)
+	
+	- 11
+		label: 동공 (AM)
+		pred: 동공 (O)
+	
+	- 12
+		label: 용 (AM)
+		pred: 용 (O)
+	
+	- 23
+		label: 털 (AM)
+		pred: 털 (O)
+	
+	- 16
+		label: 러시안 블루 (AM)
+		pred: 러시안 블루 (TM)
+		
+	- 18
+		label: 헤어 (AM)
+		pred: 헤어 (O)
+		
+	- 19
+		label: 아메리칸 쇼테어 (AM)
+		pred: 아메리칸 쇼테어 (AF)
+	
+	- 20
+		label: 엣조틱 (AM) - 고양이 품종
+		pred: 엣조틱 (O)
+	
+	- 21
+		label: 먼치킨 (AM)
+	
+	- 22
+		label: 스코티쉬폴드 (AM)
+	
+	- 26
+		label: 사랑니 (AM)
+	
+	- 28
+		label: 집거미 (AM)
+		> 29 에서는 pred가 tagging 했으나 label이 없음
+		(이건 npy_maker 문제)
+	
+4. 같은 부위지만 단어 표현에 따라 label이 달라짐
+	- 4
+		label: 녹각 (AM)
+		pred: 녹용 (CV)
+	
+		label: 녹용 (CV)
+		pred: 녹용 (CV)
+		
+5. 의미가 다른데 label이 틀린 것으로 보임
+	- 8
+		문장
+			이제 여성이 또 헤드라는 것 때문에
+		label: 헤드 (AM)
+		pred: 헤드 (O)
+		
+	- 13
+		그럼 짐 정리도 한참 했겠네 개 꺼 ? (걔?의 오타가 아니면 맞음)
+		label: 개 (AM)
+		pred: 개 (O)
+		
+	- 14
+		아니 언제 개 생각을 인제 하면서 (걔?의 오타가 아니면 맞음)
+		label: 개 (AM)
+		pred: 개 (O)
+		
+	- 36
+		귀향이라든지 눈길 같은 경우에는
+		label: 귀향 (AM) 눈길 (AM)
+		pred: 귀향 (O) 눈길 (O)
+		
+	
+6. 화자의 목적한 의미와 맞지 않는 것?
+	- 17
+		label: 근육(TM) 돼지(AM), 근육(TM) 돼지(AM)
+		pred: 근육(TM) 돼지(TM), 근육(TM) 돼지(AM)
+	
+7. 맞춤법
+	- 38
+		허 안에서 짬뽕 맛이 나?
+		label: 허 (AM) -> 혀
+		pred: 허 (O)
