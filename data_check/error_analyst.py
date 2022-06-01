@@ -137,8 +137,12 @@ def check_classify_tag_size(path: str):
         SIZE_DICT[tag_name] = len(os.listdir(path+"/"+tag_name))
     print(SIZE_DICT)
 
+    sum_val = 0
+    for k, v in SIZE_DICT.items():
+        sum_val += v
+    print(f"total Size: {sum_val}")
 
 ### MAIN ###
 if "__main__" == __name__:
-    classify_tag_err()
-    #check_classify_tag_size("./err_dir")
+    #classify_tag_err()
+    check_classify_tag_size("./err_dir")

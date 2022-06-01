@@ -8,6 +8,7 @@
 	- geoage: 지질시대
 	- dynasty: 왕조시대
 	
+>> 88 까지 봄
 
 #====================================================
 ERR CASE
@@ -26,7 +27,353 @@ ERR CASE
 		> QT_AGE에 55~60대 처럼 예제가 있는데
 		이게 DT로 분류되는 것은 오류로 보인다.
 		
+	- 1
+	7	내일	B-DT	B-DT	B-DT, O, I-DT, I-CV, B-CV
+	8	모레	I-DT	B-DT	B-DT, I-DT, O, B-CV, B-TI
+	>> 내일 모레에 대해 B-DT, B-DT하는 labeling 된 것도 있고 B-DT, I-DT로 연결한 것도 있다.
+	>> 아예 태깅되어 있지 않는 것도 있다.
+	>> DT_DAY에서의 예제에서는 내일, 모레로 나뉘어져 있다.	
+	
+	-6
+	4	이	B-DT	B-DT	B-DT, O, B-QT, I-DT, I-CV
+	5	##십	I-DT	I-DT	I-DT, O, I-QT, B-DT, I-CV
+	6	이	B-DT	I-DT	I-DT, B-DT, O, I-QT, B-QT
+	7	##십	I-DT	I-DT	I-DT, I-QT, B-DT, O, I-TI
+	8	년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-TI
+	9	##만	I-DT	I-DT	I-DT, O, I-QT, B-DT, I-TI
+	> 이십에 DT라고 태깅되면 안될 거 같고 문장자체가 오류인듯 보이는데
+	
+	- 11
+	1	이제	O	O	O, B-CV, B-QT, B-DT, B-OG
+	2	한	B-DT	B-TI	B-TI, B-QT, O, B-DT, B-EV
+	3	시	I-DT	I-TI	I-TI, O, I-QT, I-DT, I-TR
+	4	구	I-DT	I-TI	I-TI, I-DT, B-DT, I-QT, O
+	5	월	I-DT	I-DT	I-DT, I-TI, O, I-QT, I-TR	
+	
+	- 69
+		8	즐거운	O	O	O, B-EV, B-LC, B-DT, B-CV
+		9	체험	O	O	O, B-EV, I-EV, B-LC, B-CV
+		10	활동	O	O	O, I-EV, B-EV, B-LC, B-CV
+		11	##을	O	O	O, I-EV, B-CV, I-OG, B-PS
+		12	한	B-DT	O	O, B-DT, B-EV, B-LC, B-QT
+		13	오늘	I-DT	B-DT	B-DT, I-DT, O, B-QT, B-CV
+		14	하루	B-DT	B-DT	B-DT, I-DT, O, B-TI, B-QT
+	
+	- 88
+		49	2009	O	B-DT	B-DT, O, B-QT, I-DT, B-EV
+		50	##년	O	I-DT	I-DT, O, B-DT, I-QT, I-PS
+		51	공익	O	O	O, B-CV, B-OG, B-FD, B-TM
+		52	##광	O	O	O, I-CV, B-CV, I-OG, I-TM
+		53	##고	O	O	O, I-CV, I-OG, I-TM, B-CV
+		54	##부	O	O	O, I-CV, I-OG, I-TM, I-EV
+		55	##문	O	O	O, I-CV, I-OG, I-TM, I-EV
+		56	금상	B-CV	B-CV	B-CV, O, I-CV, B-EV, B-QT
+		
+		>>> 2009년에 labeling 안되있음
+	
 2. 과소인식
-	- 0
+	- 0 (old)
 		label: 이번 한 주 내내 (DT)
 		pred: 이번 한 주 (DT)
+		
+	- 10
+		7	이달	B-DT	B-DT	B-DT, O, I-DT, B-CV, B-QT
+		8	##들	I-DT	O	O, I-DT, I-OG, I-EV, B-LC
+		9	##어	I-DT	O	O, B-LC, I-DT, B-PS, I-EV
+	
+	> 이달을 들어가 수식(?)하고 후보에 I-DT가 있는걸 판단할 수 있나
+	
+	- 24
+		13	이천	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
+		14	##칠	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
+		15	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
+		16	##도	I-DT	O	O, I-DT, I-QT, B-DT, I-EV
+	
+	- 33
+		36	4	B-DT	B-DT	B-DT, I-DT, O, I-QT, B-QT
+		37	##년	I-DT	I-DT	I-DT, O, I-QT, B-DT, I-EV
+		38	##제	I-DT	O	O, I-DT, I-QT, I-CV, I-OG
+	
+	- 40
+		11	2002	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-LC
+		12	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
+		13	7	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
+		14	##월	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
+		15	7	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
+		16	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-CV
+		17	##자	I-DT	O	O, I-DT, I-CV, B-CV, I-QT
+	
+	- 44
+		24	하루	B-DT	B-DT	B-DT, O, B-TI, I-DT, B-QT
+		25	##종일	I-DT	O	O, I-DT, B-TI, B-DT, I-TI
+	
+	- 52
+		1	이달	B-DT	B-DT	B-DT, O, I-DT, B-OG, B-LC
+		2	중	I-DT	O	O, I-DT, B-LC, B-DT, B-OG
+		
+	- 54
+		13	추석	B-DT	B-DT	B-DT, O, B-EV, I-DT, B-CV
+		14	기간	I-DT	O	O, I-DT, I-EV, B-PS, I-QT
+		
+	- 55
+		18	1999	B-DT	B-DT	B-DT, O, I-DT, B-PS, B-CV
+		19	##년	I-DT	I-DT	I-DT, O, I-PS, I-CV, B-DT
+		20	6	I-DT	I-DT	I-DT, O, I-PS, B-DT, I-CV
+		21	##월	I-DT	I-DT	I-DT, O, I-PS, I-CV, B-DT
+		22	##부터	I-DT	I-DT	I-DT, O, I-PS, I-CV, B-DT
+		23	2001	I-DT	I-DT	I-DT, O, B-DT, I-PS, B-CV
+		24	##년	I-DT	I-DT	I-DT, O, I-PS, I-CV, B-DT
+		25	1	I-DT	I-DT	I-DT, O, I-PS, B-DT, I-CV
+		26	##월	I-DT	I-DT	I-DT, O, I-PS, I-CV, B-CV
+		27	##까	I-DT	O	O, I-DT, I-PS, I-CV, B-CV
+		28	##지	I-DT	O	O, I-DT, I-PS, I-CV, B-CV
+		
+		>>> 이런거 I-DT가 후보 2순위에 있고 까지가 조사(JX)면 I-DT 붙여도 ?
+	
+	- 58
+		9	추석	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-CV
+		10	때	I-DT	O	O, I-DT, I-QT, I-CV, B-DT
+		11	추석	B-DT	B-DT	B-DT, I-DT, O, B-QT, B-TI
+		12	때	I-DT	O	O, I-DT, I-QT, I-CV, B-DT
+		
+	- 63
+		7	전년도	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
+		8	시즌	I-DT	O	O, I-DT, I-QT, I-EV, B-DT
+	
+3. 분할 오류
+	- 3
+	9	이달	B-DT	B-DT	B-DT, I-DT, O, B-CV, B-QT
+	10	##부터	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
+	11	2010	B-DT	I-DT	I-DT, B-DT, O, B-QT, B-LC
+	12	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS	
+	
+	- 5
+	1	작년	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-CV
+	2	올해	B-DT	I-DT	I-DT, B-DT, O, I-QT, I-TI
+	3	연초	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-TI
+	4	##까	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-OG
+	5	##지	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-OG
+	
+	- 13
+	28	지난	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-OG
+	29	해	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
+	30	같	B-DT	I-DT	I-DT, B-DT, O, I-QT, I-EV
+	31	##은	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
+	32	달	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
+	
+	- 18
+	1	시월	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-QT
+	2	십일월	B-DT	I-DT	I-DT, B-DT, O, B-EV, I-QT
+
+	- 32
+		25	2009	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-LC
+		26	,	I-DT	O	O, I-DT, I-QT, B-DT, I-EV
+		27	2010	I-DT	B-DT	B-DT, I-DT, O, B-QT, B-LC
+		28	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
+	
+	- 57
+		93	2001	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-LC
+		94	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-AF
+		95	5	B-DT	I-DT	I-DT, B-DT, O, I-AF, I-QT
+		96	.	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-AF
+		97	3	I-DT	I-DT	I-DT, B-DT, O, I-AF, I-QT
+		98	##일	I-DT	I-DT	I-DT, O, B-DT, I-AF, I-QT
+		99	,	O	O	O, I-DT, I-AF, B-CV, B-LC
+		
+		100	2004	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
+		101	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-AF
+		102	8	B-DT	I-DT	I-DT, B-DT, O, B-TI, I-AF
+		103	.	I-DT	I-DT	I-DT, O, B-DT, I-AF, I-QT
+		104	67	I-DT	I-DT	I-DT, B-DT, O, I-AF, I-QT
+		105	##일	I-DT	I-DT	I-DT, O, B-DT, I-AF, I-QT	
+		
+		>> DT_OTHERS에서는 년/월/일 등이 묶여서 쓰일 경우
+		함께 묶어서 DT_OTHERS를 태깅한다고 했으나, 위 2예제에서는 그렇지 않음.
+		
+	- 71
+		5	십일	B-DT	B-DT	B-DT, I-DT, O, B-QT, B-EV
+		6	일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
+		7	전	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
+		8	일	B-DT	I-DT	I-DT, B-DT, O, B-QT, B-LC
+		9	월	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
+		10	이	I-DT	I-DT	I-DT, B-DT, O, I-QT, B-LC
+		11	##십	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-TI
+		12	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-OG
+		13	일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
+		
+	- 75
+		1	지난	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
+		2	일	I-DT	I-DT	I-DT, B-DT, O, I-QT, I-PS
+		3	년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
+		4	반	I-DT	B-DT	B-DT, I-DT, O, B-TI, B-QT
+		5	##여	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
+		6	년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-TI
+		7	동안	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-TI
+	
+	- 84
+		7	셋째	B-DT	B-DT	B-DT, I-DT, O, B-QT, B-TI
+		8	주	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-TI
+		9	목요일	B-DT	I-DT	I-DT, B-DT, O, I-QT, B-TI
+		10	##마다	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-TI
+		
+	- 85
+		18	작년	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
+		19	한	I-DT	B-DT	B-DT, I-DT, O, B-QT, B-EV
+		20	해	I-DT	I-DT	I-DT, O, I-QT, B-DT, I-EV
+		21	동안	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-TI
+	
+4. 2순위에 있음에 있음
+	-7
+		17	초가	B-DT	B-TI	B-TI, B-DT, O, B-CV, B-EV
+		18	##을	I-DT	I-AF	I-AF, O, I-TI, I-LC, I-EV
+		19	##밤	B-TI	I-AF	I-AF, I-TI, B-TI, O, I-CV
+		
+5. 초기 시작 부분 탐색 오류 (과인식 ?)
+	- 8
+		2	오늘날	B-DT	O	O, B-DT, I-DT, B-TI, B-LC
+		3	##까	I-DT	I-DT	I-DT, O, B-DT, I-TI, B-TI
+		4	##지	I-DT	I-DT	I-DT, O, B-DT, I-TI, I-QT
+		
+	- 9
+		1	시즌	B-DT	O	O, B-DT, I-DT, B-OG, B-CV
+		2	후반부	I-DT	O	O, B-DT, I-DT, B-TI, B-QT
+		3	##터	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-TI
+
+		
+6. 이전의 왕국들은 모두 다 DT로 분류
+	- 15
+		14	은	B-DT	B-LC	B-LC, O, B-OG, B-DT, B-CV
+		15	##나라	I-DT	I-LC	I-LC, O, I-OG, B-LC, I-PS
+		21	주	B-DT	O	O, B-LC, B-PS, B-DT, B-OG
+		22	##나라	I-DT	O	O, I-LC, B-LC, I-PS, I-DT
+		
+	- 21
+		22	구	B-DT	B-LC	B-LC, O, B-CV, B-OG, B-PS
+		23	##게	I-DT	I-LC	I-LC, O, I-CV, B-LC, I-PS
+		24	##왕	I-DT	I-LC	I-LC, O, I-CV, B-LC, I-PS
+		25	##국	I-DT	I-LC	I-LC, O, I-CV, B-LC, I-PS
+		
+	- 43
+		14	가야	B-DT	B-OG	B-OG, B-DT, B-LC, O, B-FD
+		15	##연맹	O	I-OG	I-OG, O, I-EV, I-DT, I-CV
+		
+	- 45
+		1	고대	B-DT	B-DT	B-DT, O, B-LC, I-DT, B-FD
+		2	희	I-DT	B-LC	B-LC, I-DT, B-DT, I-LC, O
+		3	##랍	I-DT	I-LC	I-LC, I-DT, O, B-LC, I-PS
+		
+	- 68
+		19	시간	O	O	O, B-LC, B-CV, B-FD, B-OG
+		20	##적으로	O	O	O, I-LC, B-LC, B-PS, I-CV
+		21	고조선	B-DT	B-LC	B-LC, B-DT, B-FD, O, B-AF
+		
+	- 83
+		2	로마	B-DT	B-LC	B-LC, B-DT, B-OG, B-EV, O
+		3	##제국	I-DT	I-LC	I-LC, I-DT, O, I-EV, I-CV
+	
+	- 86
+		7	조선	B-DT	B-LC	B-LC, O, B-OG, B-DT, B-AF
+	
+7. Event와 Date의 구분
+	- 19
+		23	한글	B-DT	B-EV	B-EV, O, B-DT, B-LC, I-EV
+		24	##날	I-DT	I-EV	I-EV, O, I-DT, I-AF, I-LC
+		
+	- 22
+		2	9	B-EV	B-DT	B-DT, B-EV, O, I-DT, B-QT
+		3	·	I-EV	I-DT	I-DT, I-EV, O, I-QT, B-DT
+		4	11	I-EV	I-DT	I-DT, I-EV, O, B-DT, I-QT
+		5	다음	B-DT	I-DT	I-DT, B-DT, I-EV, O, I-AF
+		6	##날	I-DT	I-DT	I-DT, O, I-EV, B-DT, I-QT
+		
+	- 26
+		20	G	B-DT	B-EV	B-EV, I-EV, B-DT, O, B-OG
+		21	-	I-DT	I-EV	I-EV, I-DT, O, I-OG, I-AF
+		22	100	I-DT	I-EV	I-EV, I-DT, O, B-DT, I-OG
+		
+	- 49
+		8	6	B-DT	B-EV	B-EV, B-DT, B-OG, B-LC, B-AF
+		9	·	I-DT	I-EV	I-EV, I-DT, I-OG, O, I-AF
+		10	25	I-DT	I-EV	I-EV, I-DT, I-OG, O, I-AF
+		11	국무	B-OG	B-OG	B-OG, I-EV, I-OG, O, B-EV
+		12	##회의	I-OG	I-OG	I-OG, I-EV, O, I-AF, I-DT
+		
+		21	11	B-DT	B-EV	B-EV, B-DT, B-OG, B-QT, O
+		22	·	I-DT	I-EV	I-EV, I-DT, I-OG, O, I-QT
+		23	10	I-DT	I-EV	I-EV, I-DT, I-OG, O, I-QT
+		24	국무	B-OG	B-OG	B-OG, I-EV, I-OG, O, B-EV
+		25	##회의	I-OG	I-OG	I-OG, I-EV, O, I-DT, I-AF
+		
+	- 62
+		17	광복	B-DT	B-EV	B-EV, B-DT, O, B-LC, I-DT
+		18	후	I-DT	I-DT	I-DT, O, I-EV, I-LC, I-AF
+		
+7-2. 어떤 용어와 섞여 있는 기간(?)
+	
+	- 28
+		7	광우병	B-DT	B-TM	B-TM, B-EV, B-DT, B-LC, B-TR
+		8	촛불	I-DT	B-DT	B-DT, I-DT, O, I-EV, B-EV
+		9	##사태	I-DT	I-DT	I-DT, O, I-EV, B-DT, I-CV
+		10	때	I-DT	I-DT	I-DT, O, B-DT, I-EV, I-QT
+	
+	- 29
+		10	황우	B-DT	B-PS	B-PS, O, B-EV, I-PS, B-OG
+		11	##석	I-DT	I-PS	I-PS, I-DT, O, I-EV, I-OG
+		12	논문	I-DT	O	O, B-EV, B-DT, I-EV, B-CV
+		13	##조작	I-DT	O	O, I-EV, I-DT, I-CV, I-TR
+		14	사건	I-DT	O	O, I-EV, I-DT, I-CV, I-TR
+		15	이후	I-DT	O	O, I-DT, I-EV, I-CV, I-TR
+		
+	- 34
+		32	4	B-DT	B-DT	B-DT, B-EV, B-QT, O, B-LC
+		33	·	I-DT	I-DT	I-DT, I-EV, I-QT, O, I-LC
+		34	27	I-DT	I-EV	I-EV, I-DT, I-QT, I-LC, O
+		35	재보	I-DT	I-EV	I-EV, I-DT, O, I-QT, B-DT
+		36	##궐	I-DT	I-EV	I-EV, I-DT, O, I-QT, I-LC
+		37	##선거	I-DT	I-DT	I-DT, I-EV, O, I-QT, I-LC
+		38	전후	I-DT	I-DT	I-DT, O, I-EV, B-DT, I-QT
+		
+	- 38	
+		41	후쿠시마	B-DT	B-EV	B-EV, B-LC, B-DT, B-AF, B-PS
+		42	원전	I-DT	I-EV	I-EV, I-DT, O, B-EV, I-AF
+		43	##사고	I-DT	I-EV	I-EV, I-DT, O, I-AF, I-LC
+		44	이전	I-DT	O	O, I-DT, I-EV, I-AF, I-LC
+		
+	>>> 이런건 DT보다 EV가 더 잘 어울리지 않나
+	>>> EV_OTHERS에는 페르시아만 사태, 태안 기름유출사고 등이 포함되어 있다.
+	>>> DT_OTHERS의 예제에 '제2차 세계대전 전', '임진왜란 때' 와 같이
+		'어떤 사건 + 시기를 나타내는 단어'라면 DT로 labeling하는 것으로 보이긴함
+
+	- 77
+		4	정조	B-PS	B-DT	B-DT, B-PS, I-DT, O, B-LC
+		5	##때	O	I-DT	I-DT, O, I-PS, I-OG, I-QT
+	>>> 사람 이름과 '때' 등 기간을 나타내는 단어가 붙으면 DT로 분류하지 않는 것으로 보임
+
+8. 과인식
+	- 64
+		28	마지막	O	B-DT	B-DT, O, I-DT, B-QT, B-EV
+		29	주말	B-DT	I-DT	I-DT, O, B-DT, B-EV, B-CV
+		
+		
+9. 미인식
+	- 65
+		6	1943	B-DT	O	O, B-DT, B-PS, B-LC, B-OG
+		7	##년	I-DT	O	O, I-DT, B-PS, B-DT, B-LC
+		8	8	I-DT	O	O, B-PS, B-DT, B-LC, I-DT
+		9	##월	I-DT	O	O, B-PS, I-DT, B-DT, B-LC
+		10	##5	I-DT	O	O, B-PS, B-DT, B-LC, B-OG
+		11	##일치	I-DT	O	O, I-DT, B-PS, B-DT, I-OG
+		
+10. EV와 DT의 기준선
+	- 79
+		2	9	B-DT	B-EV	B-EV, B-QT, B-DT, B-TI, B-AF
+		3	·	I-DT	I-EV	I-EV, I-QT, I-DT, I-TI, I-AF
+		4	15	I-DT	I-EV	I-EV, I-QT, I-DT, I-AF, I-TI
+		
+		>>> 여기서는 9.15 날짜를 가리키고
+		
+		14	9	B-EV	B-EV	B-EV, B-QT, B-DT, B-TI, B-AF
+		15	·	I-EV	I-EV	I-EV, I-QT, I-DT, I-TI, I-AF
+		16	11	I-EV	I-EV	I-EV, I-QT, I-DT, I-AF, I-TI
+		
+		>>> 여기서는 9.11 테러 사건을 가리킴

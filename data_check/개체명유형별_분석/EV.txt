@@ -1,0 +1,296 @@
+13. EV (Event) - 5개
+	- others: 기타 사건/사고 명칭, ~사태
+	- activity: 사회운동 및 선언
+	- war revolution: 전쟁/혁명
+	- sports: 스포츠/레저 관련 행사
+	- festival: 축제 명칭
+	
+#====================================================
+ERR CASE
+#====================================================
+
+1. 초과인식
+	- 1
+		8	시흥시	O	I-EV	I-EV, O, B-EV, I-LC, B-LC
+		9	##장	O	I-EV	I-EV, O, I-LC, I-AF, B-EV
+		10	보궐	B-EV	I-EV	I-EV, B-EV, O, B-LC, I-AF
+		11	##선거	I-EV	I-EV	I-EV, O, I-AF, B-EV, I-LC
+		
+	- 49
+		16	서울	B-LC	B-EV	B-EV, B-LC, B-AF, O, B-OG
+		17	##재	B-EV	I-EV	I-EV, O, B-EV, I-LC, I-AF
+		18	##즈	I-EV	I-EV	I-EV, O, I-AF, I-LC, I-OG
+		19	##페	I-EV	I-EV	I-EV, O, I-AF, I-LC, I-OG
+		20	##스티벌	I-EV	I-EV	I-EV, O, I-AF, I-LC, I-OG
+	
+	
+2. 개체명에 다른 부분과 혼동할 수 있는 부분이 많음
+
+	- 2
+		47	영	B-EV	B-PS	B-PS, O, B-LC, B-AF, B-EV
+		48	##운	I-EV	I-PS	I-PS, O, I-AF, I-LC, I-EV
+		49	모	I-EV	I-PS	I-PS, B-PS, O, I-AF, I-EV
+		50	##윤	I-EV	I-PS	I-PS, O, I-AF, I-LC, I-EV
+		51	##숙	I-EV	I-PS	I-PS, O, I-LC, I-AF, I-EV
+		52	탄생	I-EV	O	O, I-EV, I-PS, B-EV, I-AF
+		53	100	I-EV	B-DT	B-DT, I-DT, B-EV, O, B-QT
+		54	##주	I-EV	I-DT	I-DT, I-PS, I-EV, B-DT, I-QT
+		55	##년	I-EV	I-DT	I-DT, O, I-PS, I-QT, I-EV
+		
+	- 10
+		1	3	B-EV	B-DT	B-DT, B-EV, B-QT, B-LC, O
+		2	·	I-EV	I-DT	I-DT, I-EV, I-QT, O, I-LC
+		3	1	I-EV	I-DT	I-DT, I-EV, I-QT, I-LC, O
+		4	##운동	I-EV	I-DT	I-DT, I-EV, I-QT, O, I-LC
+		5	즈음	O	O	O, I-DT, I-EV, I-QT, B-DT
+		
+	-12
+		2	보령	B-EV	B-LC	B-LC, O, B-EV, I-LC, I-EV
+		3	##시장	I-EV	B-CV	B-CV, I-EV, O, B-EV, I-LC
+		4	선거	I-EV	I-EV	I-EV, O, B-EV, I-CV, I-LC
+		
+	- 14
+		3	대선	B-EV	B-EV	B-EV, O, B-CV, B-AF, I-EV
+		4	##후	I-EV	B-CV	B-CV, O, I-CV, I-EV, B-EV
+		5	##보	I-EV	I-CV	I-CV, O, I-EV, B-CV, I-OG
+		6	경선	I-EV	O	O, B-EV, I-EV, B-CV, I-CV
+	
+	- 16
+		87	한	B-EV	B-LC	B-LC, B-EV, B-OG, O, B-AF
+		88	-	I-EV	I-EV	I-EV, O, I-LC, I-OG, B-EV
+		89	미	I-EV	B-LC	B-LC, I-EV, I-LC, O, I-OG
+		90	연합	I-EV	O	O, I-EV, B-EV, I-LC, I-OG
+		91	##훈련	I-EV	O	O, I-EV, I-OG, I-LC, I-AF
+	
+	- 23
+		5	중	B-EV	B-LC	B-LC, B-OG, B-EV, O, I-DT
+		6	·	I-EV	O	O, I-LC, I-EV, I-OG, I-DT
+		7	러	I-EV	B-LC	B-LC, I-LC, B-OG, I-EV, I-OG
+		8	연합	I-EV	O	O, I-EV, I-OG, B-OG, I-LC
+		9	해상	I-EV	O	O, I-EV, I-OG, B-EV, B-LC
+		10	작전	I-EV	O	O, I-EV, I-OG, I-LC, I-AF
+	
+	- 24
+		1	팔	B-EV	B-DT	B-DT, B-EV, O, B-QT, I-DT
+		2	##십	I-EV	I-DT	I-DT, I-EV, O, I-QT, B-DT
+		3	칠	I-EV	I-DT	I-DT, I-EV, B-DT, O, I-QT
+		4	##년	I-EV	I-DT	I-DT, I-EV, O, I-QT, B-DT
+		5	유월	I-EV	I-DT	I-DT, B-DT, O, B-EV, I-EV
+		6	항쟁	I-EV	O	O, I-EV, I-DT, B-EV, I-QT
+		
+	- 28
+		12	성완종	B-EV	B-PS	B-PS, B-EV, O, B-AF, I-EV
+		13	리스트	I-EV	I-EV	I-EV, O, I-PS, I-AF, B-EV
+		
+	- 30
+		2	9	B-EV	B-DT	B-DT, B-EV, O, I-DT, B-QT
+		3	·	I-EV	I-DT	I-DT, I-EV, O, I-QT, B-DT
+		4	11	I-EV	I-DT	I-DT, I-EV, O, B-DT, I-QT
+		5	다음	B-DT	I-DT	I-DT, B-DT, I-EV, O, I-AF
+		6	##날	I-DT	I-DT	I-DT, O, I-EV, B-DT, I-QT
+		
+		>> 9.11 테러 사건이 아닌 날짜로 쭉 인식
+		
+	- 33
+		3	일본	B-EV	B-LC	B-LC, B-EV, O, B-AF, B-PS
+		4	후쿠시마	I-EV	I-EV	I-EV, B-EV, B-LC, I-LC, O
+		5	원전	I-EV	I-EV	I-EV, O, I-LC, B-EV, I-AF
+		6	사고	I-EV	I-EV	I-EV, O, I-LC, I-AF, B-EV
+
+	- 41
+		13	최순	B-EV	B-PS	B-PS, B-EV, I-EV, B-AF, B-LC
+		14	##실	I-EV	I-PS	I-PS, I-EV, I-AF, I-LC, O
+		15	게이트	I-EV	O	O, I-EV, I-PS, B-EV, I-AF
+		
+3. 과소인식
+	- 8
+		4	전국	B-EV	B-EV	B-EV, O, I-EV, B-CV, B-LC
+		5	##선	I-EV	I-EV	I-EV, O, B-EV, I-AF, I-DT
+		6	##수	I-EV	I-EV	I-EV, O, B-EV, I-AF, I-OG
+		7	##권	I-EV	I-EV	I-EV, O, I-AF, B-EV, I-OG
+		8	##대	I-EV	I-EV	I-EV, O, I-AF, B-EV, I-OG
+		9	##회	I-EV	I-EV	I-EV, O, I-AF, I-OG, B-EV
+		10	주니어	I-EV	O	O, B-CV, I-EV, B-TM, B-EV
+		11	남자	I-EV	O	O, I-EV, I-CV, I-TM, I-AF
+		12	싱글	I-EV	O	O, I-TM, I-CV, I-EV, I-AF
+	
+	- 25
+		36	연평도	B-EV	B-EV	B-EV, B-LC, B-AF, I-EV, O
+		37	포격	I-EV	I-EV	I-EV, O, I-AF, B-EV, I-LC
+		38	##도	I-EV	I-EV	I-EV, O, B-EV, I-AF, I-LC
+		39	##발	I-EV	O	O, I-EV, B-EV, I-LC, I-DT
+		
+	- 32
+		12	‘	B-EV	O	O, B-EV, I-EV, B-DT, B-LC
+		13	나	I-EV	B-EV	B-EV, I-EV, O, B-CV, B-AF
+		14	##의	I-EV	I-EV	I-EV, O, I-AF, B-EV, I-LC
+		15	샤	I-EV	I-EV	I-EV, I-AF, B-EV, I-PS, I-LC
+		16	##갈	I-EV	I-EV	I-EV, I-AF, I-PS, I-LC, O
+		17	,	I-EV	I-EV	I-EV, I-AF, O, I-PS, I-LC
+		18	당신	I-EV	I-EV	I-EV, I-AF, O, I-LC, I-TM
+		19	##의	I-EV	I-EV	I-EV, I-AF, O, I-TM, I-LC
+		20	피카소	I-EV	I-EV	I-EV, I-AF, I-PS, B-EV, I-LC
+		21	’	I-EV	O	O, I-EV, B-EV, I-DT, I-AF
+		22	전	I-EV	O	O, I-EV, B-EV, B-CV, B-PS
+		
+		>> 보통 '는 인식하지 않을 텐데
+		>> 밑의 '고난의 행군' 참조
+		
+	- 37
+		23	충남	B-EV	B-OG	B-OG, B-EV, B-AF, O, B-LC
+		24	##도	I-EV	I-OG	I-OG, I-EV, I-AF, O, B-OG
+		25	##청	I-EV	I-OG	I-OG, I-EV, I-AF, O, I-LC
+		26	신청	I-EV	O	O, I-EV, I-OG, B-EV, I-AF
+		27	##사	I-EV	O	O, I-EV, I-AF, I-OG, I-LC
+		28	개	I-EV	O	O, I-EV, B-EV, B-LC, B-PS
+		29	##청	I-EV	O	O, I-EV, B-EV, I-OG, I-AF
+		30	##식	I-EV	O	O, I-EV, B-EV, I-OG, I-LC
+		
+	- 38
+		11	한	B-EV	B-EV	B-EV, B-LC, B-OG, B-DT, O
+		12	-	I-EV	I-EV	I-EV, I-DT, O, I-LC, I-OG
+		13	미	I-EV	I-EV	I-EV, I-LC, B-LC, I-DT, I-OG
+		14	외교	I-EV	I-EV	I-EV, B-CV, I-DT, O, I-OG
+		15	·	I-EV	I-EV	I-EV, O, I-DT, I-OG, I-CV
+		16	국방	I-EV	I-EV	I-EV, I-DT, I-OG, I-CV, O
+		17	##장	I-EV	I-EV	I-EV, I-DT, I-CV, I-OG, O
+		18	##관	I-EV	I-EV	I-EV, I-DT, I-OG, I-CV, O
+		19	(	I-EV	O	O, I-EV, I-DT, B-DT, I-OG
+		20	2	I-EV	B-QT	B-QT, B-DT, B-EV, I-EV, I-DT
+		21	+	I-EV	I-QT	I-QT, I-EV, I-DT, O, I-OG
+		22	2	I-EV	I-QT	I-QT, I-EV, I-DT, I-OG, O
+		23	)	I-EV	O	O, I-EV, I-DT, I-QT, B-DT
+		24	회의	I-EV	O	O, I-EV, I-DT, B-EV, B-DT
+	
+	- 39
+		3	대통령	B-EV	B-CV	B-CV, B-EV, O, I-EV, I-QT
+		4	선거	I-EV	O	O, I-EV, B-EV, B-CV, I-CV
+		
+	- 40
+		1	최정	B-EV	B-PS	B-PS, O, B-EV, B-OG, B-AF
+		2	##화	I-EV	I-PS	I-PS, O, I-EV, I-OG, I-AF
+		3	기획	I-EV	O	O, I-EV, I-PS, I-OG, I-AF
+		4	##전	I-EV	O	O, I-EV, I-OG, I-AF, I-PS
+		
+	- 48
+		15	윤창	B-EV	B-PS	B-PS, B-EV, B-OG, B-AF, I-EV
+		16	##중	I-EV	I-PS	I-PS, I-EV, I-OG, I-AF, I-LC
+		17	사건	I-EV	O	O, I-EV, I-PS, I-OG, I-AF
+	
+4. 초과인식
+	- 9
+		2	글로벌	O	B-EV	B-EV, O, B-LC, I-EV, B-OG
+		3	금융	B-EV	I-EV	I-EV, B-EV, O, B-LC, B-OG
+		4	##위	I-EV	I-EV	I-EV, O, B-EV, I-OG, I-AF
+		5	##기	I-EV	I-EV	I-EV, O, B-EV, I-OG, I-AF
+		
+	- 16
+		30	한미	B-LC	B-EV	B-EV, B-OG, B-LC, B-AF, O
+		31	군사	B-EV	I-EV	I-EV, O, B-EV, I-OG, I-AF
+		32	##합	I-EV	I-EV	I-EV, O, I-OG, I-AF, I-LC
+		33	##동	I-EV	I-EV	I-EV, O, I-OG, I-AF, I-LC
+		34	##훈련	I-EV	I-EV	I-EV, O, I-OG, I-AF, I-LC
+	
+		68	키	B-EV	B-EV	B-EV, O, I-EV, B-AF, B-OG
+		69	##리	I-EV	I-EV	I-EV, O, I-AF, I-OG, I-LC
+		70	##졸	I-EV	I-EV	I-EV, O, I-AF, I-OG, I-LC
+		71	##브	I-EV	I-EV	I-EV, O, I-AF, I-OG, I-LC
+		72	및	O	O	O, I-EV, B-EV, I-AF, I-DT
+		73	독수리	B-EV	B-EV	B-EV, I-EV, O, B-AF, B-LC
+		74	연습	I-EV	I-EV	I-EV, O, I-AF, I-OG, B-EV
+	
+5. 미인식
+	- 20
+		47	포	B-EV	O	O, B-EV, B-OG, B-CV, B-AF
+		48	##레	I-EV	O	O, I-EV, I-OG, I-CV, I-AF
+		49	##포	I-EV	O	O, I-EV, I-OG, I-CV, I-AF
+		50	##레	I-EV	O	O, I-EV, I-OG, I-CV, I-AF
+		51	런	I-EV	O	O, I-EV, I-OG, I-CV, I-AF
+		
+		53	어린이	B-EV	O	O, B-AF, B-OG, B-TM, B-CV
+		54	아나	I-EV	O	O, B-OG, B-CV, B-AF, I-OG
+		55	##바다	I-EV	O	O, I-OG, I-AF, I-CV, I-EV
+		56	##숍	I-EV	O	O, I-OG, I-AF, I-EV, I-CV
+		
+		
+	- 21
+		6	주사	B-EV	O	O, B-AF, B-EV, B-TM, B-OG
+		7	##기	I-EV	O	O, I-AF, I-EV, I-TM, I-OG
+		8	테러	I-EV	O	O, I-EV, B-CV, I-AF, B-PS
+	
+	- 29
+		12	본보	B-EV	O	O, B-OG, B-CV, B-LC, B-PS
+		13	##가	I-EV	O	O, B-OG, I-OG, B-PS, B-LC
+		14	사건	I-EV	O	O, B-CV, B-OG, B-TM, B-LC
+		
+	- 31
+		9	'	O	O	O, B-CV, B-LC, B-PS, B-DT
+		10	고난	B-EV	O	O, B-EV, B-LC, B-PS, B-AF
+		11	##의	I-EV	O	O, I-EV, I-PS, I-DT, I-LC
+		12	행군	I-EV	O	O, I-EV, B-PS, B-EV, B-LC
+		13	'	O	O	O, I-EV, I-DT, B-PS, B-CV
+		
+	- 5
+		20	국민	B-EV	O	O, B-EV, B-CV, B-OG, B-TR
+		21	##경	I-EV	O	O, I-EV, B-EV, B-CV, I-CV
+		22	##선	I-EV	O	O, I-EV, B-EV, I-CV, B-CV
+	
+	- 34
+		16	청춘	B-EV	O	O, B-EV, B-LC, I-EV, B-TM
+		17	##의	I-EV	O	O, I-EV, I-AF, I-OG, I-LC
+		18	기억	I-EV	O	O, I-EV, I-AF, I-OG, B-LC
+		
+	- 35
+		14	창단	B-EV	O	O, B-EV, I-EV, B-CV, B-FD
+		15	##연	I-EV	O	O, I-EV, B-EV, B-FD, B-CV
+		16	##주	I-EV	O	O, I-EV, B-EV, I-OG, I-TR
+		17	##회	I-EV	O	O, I-EV, B-EV, I-OG, I-TR
+		
+	- 40
+		6	총	B-EV	O	O, B-EV, B-OG, B-PS, B-LC
+		7	##천연	I-EV	O	O, I-EV, I-OG, I-AF, I-TM
+		8	##색	I-EV	O	O, I-EV, I-OG, I-TM, I-AF
+		
+	- 47
+		8	대	B-EV	O	O, B-EV, B-LC, B-CV, B-OG
+		9	##약	I-EV	O	O, I-EV, B-EV, B-LC, B-CV
+		10	##진	I-EV	O	O, I-EV, I-LC, B-EV, I-OG
+		11	운동	I-EV	O	O, I-EV, I-LC, I-OG, B-EV
+		12	##과	O	O	O, I-EV, B-PS, I-OG, B-OG
+		13	문화	B-EV	O	O, B-EV, B-TR, B-LC, B-CV
+		14	##혁명	I-EV	O	O, I-EV, I-TR, I-LC, I-OG
+	
+	- 50
+		1	냉전	B-EV	O	O, B-EV, B-DT, B-FD, B-LC
+	
+6. 잘못 인식
+	- 22
+		1	세월	B-EV	B-AF	B-AF, B-PS, B-LC, O, B-OG
+		2	##호	I-EV	I-AF	I-AF, I-PS, I-LC, O, I-OG
+		
+		>> 세월호 사건을 말하나 인식기는 '배'로써 세월호를 분류한 것으로 보임
+		
+7. 분할 오류
+	- 26
+		13	천안	B-EV	B-EV	B-EV, B-AF, B-LC, B-PS, O
+		14	##함	I-EV	I-EV	I-EV, I-AF, I-LC, I-PS, O
+		15	##과	I-EV	O	O, I-EV, I-AF, I-DT, I-OG
+		16	연평도	I-EV	B-EV	B-EV, B-LC, I-EV, B-AF, O
+		17	도발	I-EV	I-EV	I-EV, O, I-AF, I-LC, I-DT
+		
+		>> 과를 통해 이어진 개체명인데 16 에서는 '및'이 I-EV가 아님
+		
+	- 43
+		8	신년	B-EV	B-EV	B-EV, O, B-CV, B-DT, I-EV
+		9	국정	I-EV	B-EV	B-EV, I-EV, O, B-CV, B-OG
+		10	##연설	I-EV	I-EV	I-EV, O, B-EV, I-OG, I-AF
+		
+		
+8. 복합적
+	- 44
+		13	K	B-OG	B-EV	B-EV, B-OG, O, B-CV, B-AF
+		14	##리그	I-OG	I-EV	I-EV, I-OG, O, I-AF, I-CV
+		15	40	B-EV	B-EV	B-EV, I-EV, B-QT, O, B-AF
+		16	##라	I-EV	I-EV	I-EV, I-QT, O, I-AF, I-OG
+		17	##운드	I-EV	I-EV	I-EV, O, I-QT, I-AF, I-OG
+		18	경기	I-EV	O	O, I-EV, B-EV, B-CV, I-AF
