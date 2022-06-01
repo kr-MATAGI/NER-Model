@@ -19,3 +19,14 @@ ERR CASE
 	- CV.251
 		label: 천구백팔십칠년(CV)
 		pred: 천구백팔십칠년(DT)
+		
+	- 2
+		label: 삼십 대 중반(DT)
+		pred: 삽십 대 중반(QT)
+		> QT_AGE에 55~60대 처럼 예제가 있는데
+		이게 DT로 분류되는 것은 오류로 보인다.
+		
+2. 과소인식
+	- 0
+		label: 이번 한 주 내내 (DT)
+		pred: 이번 한 주 (DT)
