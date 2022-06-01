@@ -1,3 +1,4 @@
+import numpy
 import torch
 import torch.nn as nn
 import time
@@ -40,28 +41,34 @@ def classify_tag_err():
             "labels": torch.LongTensor([target_ids_data[data_idx, :, 1]]),
             "attention_mask": torch.LongTensor([target_ids_data[data_idx, :, 2]]),
             "token_type_ids": torch.LongTensor([target_ids_data[data_idx, :, 3]]),
-            "input_seq_len": torch.LongTensor(target_seq_len_data[data_idx]),
+            "input_seq_len": target_seq_len_data[data_idx],
             "pos_tag_ids": torch.LongTensor([target_pos_tag_data[data_idx, :]])
         }
 
         outputs = model(**inputs)
         loss, logits = outputs[:2]
         preds = logits.detach().cpu().numpy()
+        candidate_list = np.argsort(-preds, axis=-1)
+        #sort_preds = [ids_to_tag[x] for x in sort_preds]
+        candidate_list = [[ids_to_tag[i] for i in x] for x in candidate_list[0]]
         preds = np.argmax(preds, axis=2)[0].tolist()
+
         labels = target_ids_data[data_idx, :, 1]
         text = tokenizer.convert_ids_to_tokens(inputs["input_ids"][0])
 
-        columns = ["text", "label", "preds"]
+        columns = ["text", "label", "preds", "candidate"]
         rows_list = []
         is_error = False
         err_label_list = []
+
         for p_idx in range(inputs["input_seq_len"]):
             conv_label = ids_to_tag[labels[p_idx]]
             conv_preds = ids_to_tag[preds[p_idx]]
+            concat_candidate = ", ".join(candidate_list[p_idx][:5])
             if conv_label != conv_preds:
                 err_label_list.append(conv_label.replace("B-", "").replace("I-", ""))
                 is_error = True
-            rows_list.append([text[p_idx], conv_label, conv_preds])
+            rows_list.append([text[p_idx], conv_label, conv_preds, concat_candidate])
         pd_df = pd.DataFrame(rows_list, columns=columns)
 
         if is_error:
@@ -70,7 +77,9 @@ def classify_tag_err():
             for err_label in err_label_list:
                 err_key = err_label
                 ERROR_DICT[err_key].append(pd_df)
+
             # print(pd_df)
+            # break
 
     # end
     print(f"ERR_COUNT = {ERROR_COUNT}")
@@ -131,5 +140,5 @@ def check_classify_tag_size(path: str):
 
 ### MAIN ###
 if "__main__" == __name__:
-    #classify_tag_err()
-    check_classify_tag_size("./err_dir")
+    classify_tag_err()
+    #check_classify_tag_size("./err_dir")
