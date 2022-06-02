@@ -1,0 +1,22 @@
+Unnamed: 0	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-AF
+1	[	O	O	O, B-OG, B-LC, B-AF, B-PS
+2	오늘	B-DT	B-DT	B-DT, O, I-DT, B-CV, B-EV
+3	##과	O	O	O, I-DT, I-AF, I-OG, I-EV
+4	내일	B-DT	B-DT	B-DT, I-DT, O, B-LC, B-EV
+5	/	O	O	O, I-DT, B-OG, I-AF, B-PS
+6	방	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
+7	##형	I-PS	I-PS	I-PS, O, I-OG, B-PS, I-LC
+8	##남	I-PS	I-PS	I-PS, O, I-OG, I-LC, B-PS
+9	]	O	O	O, I-PS, I-OG, B-LC, B-OG
+10	남북	B-OG	B-LC	B-LC, B-OG, B-AF, O, B-TM
+11	##가스	B-MT	B-MT	B-MT, O, I-AF, I-MT, B-AF
+12	##관	O	O	O, I-AF, I-MT, I-TM, I-OG
+13	추진	O	O	O, I-AF, I-TM, I-OG, B-AF
+14	전	O	O	O, B-PS, B-LC, I-AF, B-OG
+15	MB	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
+16	##가	O	O	O, I-PS, I-OG, I-AF, B-CV
+17	답	O	O	O, B-CV, B-LC, B-TM, B-QT
+18	##할	O	O	O, B-PS, B-LC, B-CV, B-TM
+19	일	O	O	O, B-CV, B-PS, B-QT, B-LC
+20	[SEP]	O	O	O, B-LC, B-CV, B-PS, B-OG

@@ -1,0 +1,20 @@
+Unnamed: 0	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
+1	인천	B-OG	B-LC	B-LC, B-OG, B-CV, O, B-AF
+2	주민	B-CV	B-CV	B-CV, I-CV, B-OG, I-OG, O
+3	##참	I-CV	I-CV	I-CV, I-OG, O, B-CV, I-AF
+4	##여	I-CV	I-CV	I-CV, O, I-OG, B-CV, I-TM
+5	##예산	I-CV	I-CV	I-CV, I-OG, O, B-CV, I-TM
+6	##제	I-CV	I-CV	I-CV, O, I-OG, I-TM, I-AF
+7	##가	O	O	O, I-CV, I-OG, B-PS, I-AF
+8	‘	O	O	O, B-LC, B-PS, B-CV, B-QT
+9	파산	O	O	O, B-CV, B-EV, B-LC, B-TM
+10	’	O	O	O, I-EV, B-PS, I-CV, I-OG
+11	위기	O	O	O, B-EV, B-PS, B-LC, B-QT
+12	##를	O	O	O, I-EV, I-OG, B-PS, B-CV
+13	맞	O	O	O, B-LC, B-OG, B-EV, B-PS
+14	##고	O	O	O, B-LC, B-PS, I-EV, B-QT
+15	있	O	O	O, B-LC, B-PS, B-CV, B-OG
+16	##다	O	O	O, B-LC, B-CV, I-OG, B-OG
+17	.	O	O	O, B-LC, B-OG, B-CV, B-PS
+18	[SEP]	O	O	O, B-LC, B-CV, B-OG, I-OG

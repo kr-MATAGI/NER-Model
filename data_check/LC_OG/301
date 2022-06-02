@@ -1,0 +1,26 @@
+Unnamed: 0	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
+1	한편	O	O	O, B-QT, B-TM, B-OG, B-CV
+2	박	B-PS	B-PS	B-PS, O, I-PS, B-OG, B-LC
+3	대통령	B-CV	B-CV	B-CV, I-PS, O, I-CV, B-OG
+4	##은	O	O	O, I-CV, B-CV, I-EV, I-AF
+5	10	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
+6	##일	I-DT	I-DT	I-DT, O, B-DT, I-PS, I-QT
+7	새벽	B-TI	B-TI	B-TI, O, I-TI, I-DT, B-EV
+8	##까	I-TI	I-TI	I-TI, O, B-TI, I-DT, I-TR
+9	##지	I-TI	I-TI	I-TI, O, B-TI, I-TR, I-QT
+10	관저	O	O	O, I-TI, B-LC, I-AF, B-AF
+11	##에서	O	O	O, B-LC, B-PS, B-CV, I-AF
+12	북한	B-OG	B-LC	B-LC, B-OG, O, B-PS, B-AF
+13	동향	O	O	O, I-LC, I-OG, B-LC, B-TM
+14	등	O	O	O, B-LC, B-CV, B-OG, B-TM
+15	##에	O	O	O, B-CV, B-LC, B-OG, B-TM
+16	대해	O	O	O, B-LC, B-OG, B-TM, B-CV
+17	실시간	O	O	O, B-LC, B-TM, B-CV, B-PS
+18	보고	O	O	O, B-LC, B-CV, B-TM, B-PS
+19	##를	O	O	O, B-CV, B-OG, B-LC, I-OG
+20	받	O	O	O, B-CV, B-LC, B-OG, B-PS
+21	##았	O	O	O, B-CV, B-OG, B-LC, B-PS
+22	##다	O	O	O, B-CV, B-LC, B-OG, B-TM
+23	.	O	O	O, B-LC, B-CV, B-OG, B-PS
+24	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-PS

@@ -1,0 +1,21 @@
+Unnamed: 0	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
+1	미국	B-LC	B-LC	B-LC, B-OG, O, B-PS, B-AF
+2	메이저	B-OG	B-OG	B-OG, I-OG, O, B-LC, B-EV
+3	##리그	I-OG	I-OG	I-OG, O, I-EV, I-LC, I-AF
+4	##의	O	O	O, I-OG, I-EV, I-AF, I-CV
+5	한	B-QT	O	O, B-DT, B-QT, B-EV, B-PS
+6	시즌	I-QT	O	O, I-DT, I-QT, I-EV, B-DT
+7	최다	O	O	O, B-QT, I-QT, I-DT, B-TM
+8	홀드	B-TM	B-TM	B-TM, O, B-CV, I-TM, B-AF
+9	##는	O	O	O, I-TM, I-AF, I-CV, I-QT
+10	40	B-QT	B-QT	B-QT, O, I-QT, B-EV, B-DT
+11	##개	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
+12	,	O	O	O, I-QT, I-OG, I-AF, B-CV
+13	일본	B-OG	B-LC	B-LC, B-OG, O, B-PS, B-CV
+14	##은	O	O	O, I-OG, I-LC, I-AF, I-EV
+15	47	B-QT	B-QT	B-QT, O, I-QT, B-LC, B-EV
+16	##개	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
+17	##다	O	O	O, I-QT, I-OG, I-AF, I-EV
+18	.	O	O	O, B-LC, B-OG, B-CV, I-QT
+19	[SEP]	O	O	O, B-LC, B-CV, B-OG, I-OG

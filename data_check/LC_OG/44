@@ -1,0 +1,23 @@
+Unnamed: 0	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
+1	박영	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
+2	##준	I-PS	I-PS	I-PS, I-OG, O, I-LC, B-PS
+3	등	O	O	O, I-PS, B-CV, I-OG, B-LC
+4	통	B-LC	B-OG	B-OG, B-PS, O, B-LC, B-AF
+5	##의	I-LC	I-OG	I-OG, I-PS, O, I-LC, I-AF
+6	##동	I-LC	I-OG	I-OG, I-PS, O, I-LC, I-AF
+7	멤버	B-CV	B-CV	B-CV, O, I-CV, I-PS, I-OG
+8	##들	O	O	O, I-CV, I-OG, I-PS, I-AF
+9	##은	O	O	O, B-CV, B-LC, B-PS, B-TM
+10	이명박	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
+11	정권	O	O	O, I-PS, B-OG, I-OG, B-CV
+12	출범	O	O	O, I-OG, B-OG, B-PS, B-CV
+13	##과	O	O	O, I-OG, B-PS, B-CV, I-EV
+14	함께	O	O	O, B-CV, B-LC, B-PS, B-OG
+15	대거	O	O	O, B-LC, B-QT, B-TM, B-CV
+16	청와대	B-OG	B-OG	B-OG, B-AF, B-LC, O, B-PS
+17	##에	O	O	O, I-OG, I-AF, I-EV, B-CV
+18	들어갔	O	O	O, B-CV, I-OG, B-OG, B-LC
+19	##다	O	O	O, B-CV, I-OG, B-TM, B-LC
+20	.	O	O	O, B-OG, B-LC, B-PS, B-CV
+21	[SEP]	O	O	O, B-CV, I-OG, B-OG, B-LC

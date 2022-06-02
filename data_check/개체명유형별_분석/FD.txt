@@ -1,0 +1,189 @@
+11. FD (Study Field) - 6개
+	- others: 학문 분야 및 학파
+	- science: 과학 학문 분야
+	- social_science: 사회과학 학문 분야 및 학파
+						정치/경제/사회와 관련된 분야
+	- medicine: 의학 관련 학문 분야 및 분과
+	- art: 예술관련 학문 분야 및 학파
+	- philosophy: 철학 관련 학문 분야 및 학파
+	
+
+
+#====================================================
+ERR CASE
+#====================================================
+	
+1. 미인식
+	- 0
+		13	소셜	B-FD	O	O, B-TR, B-FD, B-TM, B-CV
+		14	##링	I-FD	O	O, I-TR, I-FD, I-AF, B-TR
+		15	##귀	I-FD	O	O, I-TR, I-FD, I-AF, I-TM
+		16	##스틱	I-FD	O	O, I-TR, I-FD, I-AF, I-TM
+	
+	- 1
+		8	정치	B-FD	O	O, B-FD, B-CV, B-TR, B-PS
+		9	##하	O	O	O, I-CV, B-CV, B-PS, I-AF
+		10	##겠	O	O	O, B-CV, B-PS, I-CV, I-AF
+		11	##습	O	O	O, I-CV, I-AF, I-OG, B-CV
+		12	##니다	O	O	O, B-CV, I-AF, B-PS, I-CV
+		
+	- 2
+		1	역사	B-FD	O	O, B-FD, B-AF, B-TR, B-OG
+		2	##에	O	O	O, I-AF, B-PS, I-OG, I-FD
+		3	길이	O	O	O, B-PS, B-AF, B-CV, B-AM
+		
+	- 3
+		3	아동	B-FD	O	O, B-FD, B-CV, B-TR, B-OG
+		4	##가족	I-FD	O	O, I-FD, I-CV, B-CV, B-FD
+		5	##을	O	O	O, I-CV, I-FD, I-OG, I-QT
+		6	전공	O	O	O, B-FD, B-CV, B-PS, B-OG
+		
+	- 4
+		52	▲	O	O	O, B-LC, B-TM, B-CV, I-TM
+		53	##신	B-FD	O	O, B-FD, B-TM, B-TR, B-MT
+		54	##재	I-FD	O	O, I-FD, I-TM, I-TR, I-MT
+		55	##생	I-FD	O	O, I-FD, I-TM, I-TR, I-MT
+		56	##에너지	I-FD	O	O, I-FD, I-TM, I-TR, I-MT
+		57	▲	O	O	O, B-TM, B-LC, I-TM, I-OG
+		
+	- 7
+		1	조각	B-FD	O	O, B-FD, B-TR, B-EV, B-CV
+		2	외	O	O	O, I-FD, I-EV, B-FD, B-PS
+		3	드로잉	B-FD	B-FD	B-FD, O, B-TR, B-TM, B-CV
+		
+	- 9
+		53	설화	B-FD	O	O, B-FD, B-CV, I-FD, B-AF
+		54	##를	O	O	O, B-CV, I-AF, I-CV, I-FD
+		55	적극	O	O	O, B-LC, B-CV, B-TM, B-OG
+		56	기록	O	O	O, B-LC, B-CV, B-OG, B-AF
+		
+	- 15
+		12	농업	B-FD	O	O, B-FD, B-TR, B-OG, I-FD
+		13	##으로	O	O	O, I-FD, B-PS, I-OG, I-AF
+		14	가자	O	O	O, B-CV, B-OG, B-LC, B-QT
+		
+	- 16
+		4	역사	B-FD	O	O, B-FD, B-CV, I-FD, B-TR
+		5	흐름	O	O	O, I-FD, I-AF, I-CV, B-CV
+		6	속	O	O	O, B-CV, B-PS, B-LC, B-OG
+		7	##에	O	O	O, B-CV, B-PS, B-LC, B-OG
+		
+	- 17
+		8	관광	B-FD	O	O, B-CV, B-LC, B-TM, B-FD
+		9	##마	I-FD	O	O, B-CV, I-CV, B-TM, B-LC
+		10	##케	I-FD	O	O, I-CV, B-CV, I-TM, B-LC
+		11	##팅	I-FD	O	O, I-CV, I-TM, B-CV, I-LC
+		
+	- 22
+		10	민화	B-FD	O	O, B-FD, B-CV, B-AF, I-FD
+	
+	- 27
+		5	##된	O	O	O, B-LC, B-PS, B-OG, B-TM
+		6	고분	B-FD	O	O, B-FD, B-TR, B-MT, I-FD
+		7	##자	I-FD	O	O, I-FD, I-TR, B-FD, I-MT
+		8	##화학	I-FD	O	O, I-FD, I-TR, I-OG, B-FD
+		9	기술	O	O	O, I-TR, I-FD, B-FD, B-TR
+		10	##로	O	O	O, B-LC, B-PS, B-CV, B-OG
+	
+2. 다른 개체명 분류가 포함되어 있는 경우
+	1) LC와 함께
+	- 5
+		4	한국	B-FD	B-LC	B-LC, B-FD, O, B-OG, I-DT
+		5	##영화	I-FD	O	O, I-FD, I-LC, B-FD, I-OG
+		6	##의	O	O	O, I-FD, I-OG, I-LC, B-FD
+		7	르네상스	O	O	O, B-DT, B-QT, B-EV, B-FD
+		
+		>>> 위와 상반되는 예
+		
+		- 6
+			8	북한	B-LC	B-FD	B-FD, B-LC, B-AF, O, B-OG
+			9	##문학	B-FD	I-FD	I-FD, O, B-FD, I-AF, I-LC
+			10	##을	O	O	O, I-FD, I-AF, I-OG, I-QT
+			11	공부	O	O	O, B-CV, B-LC, B-PS, B-TM
+		
+		- 11
+			13	중국	B-LC	B-FD	B-FD, B-LC, O, B-AF, B-OG
+			14	철학	B-FD	I-FD	I-FD, O, B-FD, I-AF, I-LC
+			15	##을	O	O	O, I-FD, I-AF, I-OG, B-CV
+			16	좋아한다	O	O	O, B-PS, B-CV, B-LC, B-OG
+
+		- 23
+			1	아라비아	B-LC	B-FD	B-FD, B-LC, B-AF, O, B-DT
+			2	신화	B-FD	I-FD	I-FD, B-FD, O, I-AF, I-TR
+			
+		- 33
+			2	북한	B-LC	B-FD	B-FD, B-LC, O, B-AF, B-OG
+			3	##문학	B-FD	I-FD	I-FD, B-FD, O, I-AF, I-LC
+
+	2) TM과 함께
+		1	과학	B-FD	B-TM	B-TM, O, B-AF, B-TR, B-QT
+		2	##기술	I-FD	I-TM	I-TM, O, B-TM, I-AF, I-QT
+		3	##위성	O	I-TM	I-TM, O, B-TM, I-AF, I-QT
+		4	3	B-QT	B-QT	B-QT, I-TM, I-QT, I-AF, O
+		5	##호	I-QT	I-QT	I-QT, I-TM, O, I-AF, B-QT
+			
+3. labeling이 잘 못 되어있는 것으로 생각되는 것
+	- 8
+		21	포스코	B-OG	B-OG	B-OG, O, B-LC, B-AF, B-PS
+		22	##IC	B-FD	I-OG	I-OG, O, B-OG, I-LC, I-AF
+		23	##T	I-FD	I-OG	I-OG, O, I-LC, I-AF, I-CV
+		>>> 포스코ICT는 회사명임
+		
+	- 14
+		23	시가	O	O	O, B-OG, B-LC, B-PS, B-CV
+		24	걸려	O	O	O, B-LC, B-PS, B-CV, B-OG
+		25	있	O	O	O, B-PS, B-LC, B-OG, B-CV
+		26	##는데	O	O	O, B-OG, B-LC, B-PS, B-CV
+		27	,	O	O	O, B-LC, B-CV, B-OG, B-PS
+		28	되레	O	O	O, B-OG, B-LC, B-PS, B-QT
+		29	시	B-FD	B-OG	B-OG, O, I-OG, B-CV, B-LC
+		30	##와	O	O	O, I-OG, B-PS, B-CV, B-LC
+		31	시민	B-CV	B-CV	B-CV, O, B-OG, I-CV, B-AF
+		32	##을	O	O	O, I-CV, B-CV, I-OG, I-EV
+		33	멀	O	O	O, B-TM, B-LC, B-QT, B-PS
+		34	##어지	O	O	O, I-QT, I-LC, B-QT, B-LC
+		
+		>> 29 line의 '시'는 부산'시'와 같은 것을 가리키는 것이지
+		읊는 '시'가 아님
+		
+	- 32
+		18	두산	B-OG	B-OG	B-OG, O, B-PS, B-AF, I-OG
+		19	##동아	I-OG	I-OG	I-OG, O, I-PS, I-AF, I-LC
+		20	##의	O	O	O, I-OG, I-AF, B-PS, B-CV
+		21	교육	B-FD	O	O, B-FD, B-CV, B-TR, B-AF
+		22	##철	I-FD	O	O, I-FD, I-TR, B-FD, I-CV
+		23	##학	I-FD	O	O, I-FD, I-TR, I-CV, B-FD
+		24	##과	O	O	O, B-PS, B-CV, B-OG, B-FD
+		25	경영	O	O	O, B-FD, B-CV, B-TR, I-FD
+		26	##철	O	O	O, I-FD, I-TR, B-FD, I-CV
+		27	##학	O	O	O, I-FD, I-TR, I-CV, B-FD
+		28	##이	O	O	O, B-PS, B-CV, B-OG, B-FD
+		
+		>> 교육철학은 labeling 됬지만, 경영철학은 labeling 안됨
+		
+4. 초과인식
+	- 10
+		6	전통	O	B-FD	B-FD, O, B-CV, I-FD, B-AF
+		7	미술	B-FD	I-FD	I-FD, B-FD, O, I-AF, I-OG
+		
+	- 12
+		1	현대	O	B-FD	B-FD, O, B-TR, I-FD, B-OG
+		2	조각	B-FD	I-FD	I-FD, O, B-FD, I-TR, I-OG
+		3	##에서	O	O	O, I-FD, I-OG, I-EV, B-PS
+
+5. 과소인식
+	- 29
+		7	간호학	B-FD	B-FD	B-FD, O, I-FD, B-CV, B-AF
+		8	##과	I-FD	O	O, I-FD, I-OG, B-FD, I-AF
+		
+6. 분할오류
+	- 18
+		21	시	B-FD	B-FD	B-FD, O, I-FD, B-TR, B-CV
+		22	문학	B-FD	I-FD	I-FD, O, B-FD, I-TR, I-AF
+		23	##이	O	O	O, I-FD, B-PS, B-FD, I-TR
+		
+	- 21
+		51	양자	O	B-FD	B-FD, O, B-TR, B-TM, B-CV
+		52	물리학	B-FD	I-FD	I-FD, O, B-FD, I-TR, I-TM
+		53	##에	O	O	O, I-FD, I-TR, I-OG, I-AF
+		54	기초	O	O	O, B-LC, B-TM, B-CV, B-OG

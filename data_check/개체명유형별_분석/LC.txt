@@ -18,6 +18,22 @@
 ERR CASE
 #====================================================
 
+
+* 주의
+	-3
+		30	우크라이나	B-LC	B-LC	B-LC, O, B-OG, B-AF, B-PS
+		31	수도	B-LC	O	O, B-LC, I-LC, B-CV, I-DT
+		32	키	B-LC	B-LC	B-LC, O, I-LC, B-PS, B-AF
+		33	##예프	I-LC	I-LC	I-LC, O, B-LC, I-PS, I-AF
+	
+	>> 수도 그 자체로 LC이다.
+		
+	- 5
+		7	보름달	B-LC	O	O, B-LC, B-CV, B-AF, B-PS
+		8	##처럼	O	O	O, I-AF, I-LC, I-EV, I-CV
+		9	꽉	O	O	O, B-LC, B-PS, B-CV, B-AF
+	>> 항성/행성도 LC
+
 1. 달(DT)와 지구/달의 '달'과 구분?
 	- AF.81:
 		label: 앞으로 저희 풀문의 이 ~ 달(LC)을
@@ -37,3 +53,132 @@ ERR CASE
 		아니 두 시에 당산이 잡혀 있어서
 		label: 당산(LC)
 		pred: 당산(LC)
+		
+	- 8
+		2	신라	B-LC	B-DT	B-DT, B-LC, B-PS, O, I-DT
+		3	##랑	O	O	O, I-DT, I-LC, I-AF, I-PS
+		4	이	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
+		5	천	I-DT	I-DT	I-DT, B-DT, O, I-QT, B-QT
+		6	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
+		
+		>> DT 6번이랑 상충되는데, 이전 국가는 모두 DT로 labeling 하던데
+	
+	- 13
+		4	기원전	B-DT	B-DT	B-DT, O, I-DT, B-TI, B-LC
+		5	2	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-TI
+		6	##세기	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-TI
+		7	##경	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-TI
+		8	스리랑카	B-LC	B-LC	B-LC, O, B-OG, I-DT, I-LC
+		9	남부	B-TM	B-TM	B-TM, O, B-LC, B-CV, I-TM
+		10	루	B-LC	B-DT	B-DT, B-LC, I-DT, B-CV, O
+		11	##후	I-LC	I-DT	I-DT, I-LC, I-CV, O, I-PS
+		12	##누	I-LC	I-DT	I-DT, I-LC, I-CV, O, I-PS
+		13	왕국	I-LC	I-DT	I-DT, O, I-CV, I-LC, I-OG
+	
+		>> DT 6번이랑 상충되는데, 이전 국가는 모두 DT로 labeling 하던데
+	
+	- 29
+		7	경기	B-LC	O	O, B-TR, B-CV, B-PS, B-LC
+		8	바닥	O	O	O, I-TR, B-PS, I-EV, B-TR
+		9	##론	O	O	O, I-TR, I-EV, I-PS, B-PS
+		10	논쟁	O	O	O, I-EV, I-TR, B-PS, B-LC
+		
+		17	경기	B-LC	O	O, B-CV, B-TR, B-LC, B-PS
+		18	회복	O	O	O, B-PS, I-TR, I-EV, B-LC
+		19	기대감	O	O	O, B-PS, B-TR, B-LC, B-EV
+		
+4. 오인식
+	- 2
+		19	##는	O	O	O, B-PS, B-CV, B-LC, B-OG
+		20	두	B-LC	B-PS	B-PS, B-LC, O, B-OG, I-PS
+		21	##바이	I-LC	I-PS	I-PS, I-LC, O, I-OG, B-LC
+		22	##위	O	I-PS	I-PS, I-LC, O, I-OG, B-LC
+		23	신화	B-OG	B-OG	B-OG, I-OG, O, B-LC, I-PS
+		
+	- 24
+		30	한미	B-LC	B-EV	B-EV, B-OG, B-LC, B-AF, O
+		31	군사	B-EV	I-EV	I-EV, O, B-EV, I-OG, I-AF
+		
+	- 30
+		1	월스트리트	B-LC	B-OG	B-OG, B-LC, O, B-AF, B-EV
+		2	투자	B-OG	I-OG	I-OG, O, B-OG, I-AF, I-EV
+		3	##은행	I-OG	I-OG	I-OG, O, I-AF, I-EV, I-CV
+		
+5. LC <-> OG
+	- 9
+		27	마쓰	B-LC	B-OG	B-OG, B-AF, B-LC, I-LC, O
+		28	##모토	I-LC	I-OG	I-OG, I-LC, I-AF, O, I-PS
+		29	##시	I-LC	I-OG	I-OG, I-AF, I-LC, O, I-PS
+		
+	- 10
+		5	북한	B-LC	B-OG	B-OG, B-LC, O, I-DT, B-TM
+		6	##의	O	O	O, I-OG, I-LC, B-OG, I-AF
+		7	일방	O	O	O, B-LC, B-CV, B-OG, B-TM
+		8	##적인	O	O	O, B-LC, B-OG, B-PS, I-EV
+		
+	- 11
+		14	북한	B-LC	B-OG	B-OG, B-LC, O, B-PS, B-AF
+		15	##에	O	O	O, I-OG, I-LC, I-PS, B-CV
+		16	보고	O	O	O, B-LC, B-CV, B-TM, B-PS
+		17	##하	O	O	O, B-PS, B-LC, B-CV, B-OG
+		18	##는	O	O	O, B-PS, B-LC, B-CV, B-OG
+		
+	- 14
+		4	일본	B-LC	B-OG	B-OG, B-LC, O, I-DT, B-AF
+		5	##의	O	O	O, I-OG, I-LC, I-AF, I-EV
+		6	침략	O	O	O, I-OG, B-LC, B-CV, B-OG
+		7	##으로	O	O	O, B-LC, B-OG, B-CV, B-PS
+		
+	- 18
+		14	북한	B-LC	B-OG	B-OG, B-LC, O, B-PS, B-TM
+		15	##의	O	O	O, I-OG, I-LC, I-AF, B-CV
+		16	생각	O	O	O, B-CV, I-OG, B-TM, B-OG
+		17	##은	O	O	O, B-CV, B-OG, B-PS, B-LC
+		18	다르	O	O	O, B-CV, B-TM, B-OG, B-PS
+		19	##다	O	O	O, B-CV, I-OG, I-AF, I-CV
+
+	
+	>>> 북한은 LC, OG 분류 기준이?
+	
+	- 27
+		12	미국	B-LC	B-OG	B-OG, B-LC, O, B-PS, B-CV
+		13	##과	O	O	O, I-OG, I-LC, B-PS, I-AF
+		14	동맹국	O	O	O, B-CV, B-OG, B-LC, B-AF
+		15	##에	O	O	O, I-OG, B-PS, B-LC, I-CV
+
+6. LC <-> FD
+	- 15
+		8	북한	B-LC	B-FD	B-FD, B-LC, B-AF, O, B-OG
+		9	##문학	B-FD	I-FD	I-FD, O, B-FD, I-AF, I-LC
+		10	##을	O	O	O, I-FD, I-AF, I-OG, I-QT
+		
+	- 26
+		13	중국	B-LC	B-FD	B-FD, B-LC, O, B-AF, B-OG
+		14	철학	B-FD	I-FD	I-FD, O, B-FD, I-AF, I-LC
+
+		
+7. 미인식
+	- 12
+		25	코리아	B-LC	O	O, B-AF, B-LC, I-AF, B-CV
+		26	##파이	O	O	O, I-AF, I-LC, I-CV, B-AF
+		27	##팅	O	O	O, I-AF, I-CV, I-LC, I-EV
+		
+8. 분할오류
+	- 17
+		22	제주도	B-LC	B-LC	B-LC, O, B-OG, B-AF, B-PS
+		23	성산	B-LC	B-LC	B-LC, O, I-LC, B-AF, B-OG
+		24	일출	B-LC	I-LC	I-LC, B-LC, O, I-AF, B-AF
+		25	##봉	I-LC	I-LC	I-LC, O, I-AF, B-LC, I-PS
+		
+	- 21
+		12	韓	B-LC	B-LC	B-LC, B-OG, O, B-CV, I-LC
+		13	·	O	I-LC	I-LC, O, I-OG, B-LC, B-OG
+		14	日	B-LC	I-LC	I-LC, B-LC, B-OG, I-OG, O
+		
+		>> '·' 는 Morp.SP로 분류되어 있음
+	
+9. 과소인식
+	- 25
+		10	태릉	B-LC	B-LC	B-LC, B-AF, O, B-OG, B-PS
+		11	선수촌	I-LC	I-AF	I-AF, O, I-LC, I-OG, B-AF
+		12	근력	O	O	O, I-AF, B-AF, B-LC, I-LC

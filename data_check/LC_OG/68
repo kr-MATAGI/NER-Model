@@ -1,0 +1,13 @@
+Unnamed: 0	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, I-EV, I-CV, I-AF
+1	중국	B-LC	B-LC	B-LC, O, B-OG, B-PS, I-LC
+2	리커	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
+3	##창	I-PS	I-PS	I-PS, O, I-OG, I-LC, B-PS
+4	부총리	B-CV	B-CV	B-CV, O, I-PS, B-TM, B-OG
+5	23	B-DT	B-DT	B-DT, I-DT, O, B-QT, I-CV
+6	~	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
+7	27	I-DT	I-DT	I-DT, B-DT, O, I-QT, I-PS
+8	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
+9	남북	B-LC	B-OG	B-OG, B-LC, B-TM, O, B-AF
+10	방문	O	O	O, I-OG, I-EV, B-CV, I-AF
+11	[SEP]	O	O	O, B-LC, B-OG, B-CV, I-EV

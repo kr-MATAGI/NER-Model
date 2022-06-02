@@ -1,0 +1,15 @@
+Unnamed: 0	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-AF
+1	본부	O	O	O, B-CV, B-OG, B-AF, B-LC
+2	##가	O	O	O, I-OG, I-CV, I-AF, B-PS
+3	이제	O	O	O, B-CV, B-OG, B-PS, B-LC
+4	청해	B-OG	B-LC	B-LC, B-OG, B-AF, O, B-PS
+5	##진	I-OG	I-LC	I-LC, I-OG, O, I-AF, I-PS
+6	##에	O	O	O, I-OG, I-LC, I-AF, I-EV
+7	있	O	O	O, B-CV, B-OG, B-AF, I-OG
+8	##었	O	O	O, B-CV, B-OG, I-AF, I-OG
+9	##거	O	O	O, B-CV, B-OG, B-LC, I-AF
+10	##든	O	O	O, B-LC, I-AF, I-OG, B-OG
+11	완도	B-LC	B-LC	B-LC, B-OG, O, B-AF, B-PS
+12	##에	O	O	O, I-LC, I-OG, I-AF, I-EV
+13	[SEP]	O	O	O, B-CV, B-LC, I-OG, I-AF

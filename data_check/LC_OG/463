@@ -1,0 +1,26 @@
+Unnamed: 0	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
+1	첫	B-QT	B-QT	B-QT, O, I-QT, B-EV, B-DT
+2	번	I-QT	I-QT	I-QT, B-QT, O, I-EV, I-LC
+3	##째	I-QT	I-QT	I-QT, O, B-QT, I-EV, I-LC
+4	##는	O	O	O, I-QT, I-EV, B-CV, I-AF
+5	대한민국	B-OG	B-LC	B-LC, O, B-OG, B-AF, B-FD
+6	예술	I-OG	O	O, B-CV, B-FD, I-CV, I-FD
+7	회원	B-CV	B-CV	B-CV, I-CV, O, I-QT, I-OG
+8	##으로	O	O	O, I-CV, B-CV, I-QT, I-OG
+9	계시	O	O	O, B-CV, B-PS, B-QT, B-OG
+10	##는	O	O	O, B-PS, B-OG, B-LC, B-QT
+11	유정	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
+12	##오	I-PS	I-PS	I-PS, O, I-OG, I-QT, I-LC
+13	선생	B-CV	B-CV	B-CV, O, I-CV, I-PS, B-QT
+14	##님	I-CV	I-CV	I-CV, O, B-CV, I-QT, I-PS
+15	##께	O	O	O, I-CV, I-QT, I-OG, I-AF
+16	##서	O	O	O, B-OG, B-QT, B-CV, B-TM
+17	해	O	O	O, B-OG, B-CV, B-LC, B-TM
+18	##주	O	O	O, B-CV, B-OG, I-OG, B-PS
+19	##시	O	O	O, B-CV, B-OG, B-LC, B-PS
+20	##겠	O	O	O, B-CV, B-OG, B-LC, B-PS
+21	##습	O	O	O, B-CV, B-OG, B-LC, B-QT
+22	##니다	O	O	O, B-CV, B-OG, B-LC, B-TM
+23	.	O	O	O, B-CV, B-PS, B-LC, B-OG
+24	[SEP]	O	O	O, B-CV, B-OG, B-LC, B-PS

@@ -1,0 +1,13 @@
+Unnamed: 0	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
+1	그	O	O	O, B-CV, B-OG, B-PS, B-LC
+2	친구	B-CV	B-CV	B-CV, O, B-AF, B-PS, B-OG
+3	##가	O	O	O, I-CV, I-AF, B-CV, I-OG
+4	아직	O	O	O, B-LC, B-OG, B-CV, B-PS
+5	##까	O	O	O, B-PS, B-LC, B-OG, I-OG
+6	##지	O	O	O, B-LC, B-PS, B-OG, I-OG
+7	지금	O	O	O, B-OG, B-LC, B-CV, B-PS
+8	한국	B-LC	B-OG	B-OG, B-LC, O, I-OG, B-CV
+9	노총	B-OG	I-OG	I-OG, O, I-LC, B-OG, I-CV
+10	##에서	O	O	O, I-OG, I-AF, I-CV, I-EV
+11	[SEP]	O	O	O, B-CV, I-OG, B-LC, B-OG

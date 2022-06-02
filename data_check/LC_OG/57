@@ -1,0 +1,22 @@
+Unnamed: 0	text	label	preds	candidate
+0	[CLS]	O	O	O, I-CV, I-OG, B-CV, I-AF
+1	中	B-LC	B-OG	B-OG, B-LC, O, B-TM, B-CV
+2	“	O	O	O, I-OG, I-LC, B-CV, B-OG
+3	동부	B-LC	B-TM	B-TM, B-LC, O, B-AF, B-OG
+4	##연	I-LC	O	O, I-LC, B-LC, I-TM, I-AF
+5	##안	I-LC	I-LC	I-LC, O, I-TM, I-AF, I-OG
+6	원전	O	O	O, B-AF, B-TM, I-AF, I-TM
+7	28	B-QT	B-QT	B-QT, I-QT, I-AF, O, I-TM
+8	##기	I-QT	I-QT	I-QT, O, I-AF, I-LC, I-TM
+9	건설	O	O	O, I-QT, I-AF, I-TM, B-TM
+10	”	O	O	O, I-AF, B-CV, I-QT, I-OG
+11	…	O	O	O, B-CV, B-LC, B-OG, B-PS
+12	인천	B-LC	B-LC	B-LC, O, B-OG, B-AF, B-PS
+13	##서	O	O	O, I-LC, I-AF, B-LC, I-OG
+14	400	B-QT	B-QT	B-QT, O, I-QT, B-LC, B-DT
+15	##k	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
+16	##m	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
+17	떨어진	O	O	O, I-QT, B-CV, B-TM, I-AF
+18	곳	O	O	O, B-LC, B-CV, B-TM, B-AF
+19	##도	O	O	O, B-LC, B-CV, I-AF, B-OG
+20	[SEP]	O	O	O, B-LC, B-CV, B-TM, B-AF

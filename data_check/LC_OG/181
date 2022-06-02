@@ -1,0 +1,19 @@
+Unnamed: 0	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-AF
+1	美	B-LC	B-OG	B-OG, B-LC, O, B-CV, B-TM
+2	가	O	O	O, I-OG, I-LC, B-PS, I-AF
+3	한국	B-LC	B-OG	B-OG, B-LC, O, I-OG, B-PS
+4	참여	O	O	O, I-OG, I-LC, B-CV, I-AF
+5	바라	O	O	O, B-CV, B-LC, B-OG, B-PS
+6	##는	O	O	O, B-LC, B-CV, B-OG, B-AF
+7	미사일	B-AF	B-AF	B-AF, O, B-CV, B-LC, B-TM
+8	##방	I-AF	I-AF	I-AF, O, B-AF, I-CV, B-CV
+9	##어	I-AF	I-AF	I-AF, O, I-CV, I-TM, I-OG
+10	##체	I-AF	I-AF	I-AF, O, I-CV, I-TM, I-OG
+11	##제	I-AF	I-AF	I-AF, O, I-CV, I-TM, I-OG
+12	,	O	O	O, I-AF, I-CV, I-OG, I-TM
+13	中	B-LC	B-OG	B-OG, B-LC, O, I-OG, B-CV
+14	서	O	O	O, I-OG, B-LC, I-LC, B-OG
+15	강력	O	O	O, B-LC, B-OG, B-CV, B-TM
+16	반대	O	O	O, B-OG, B-LC, B-CV, B-TM
+17	[SEP]	O	O	O, B-LC, B-CV, B-OG, I-OG

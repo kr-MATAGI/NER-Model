@@ -1,0 +1,22 @@
+Unnamed: 0	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-AF
+1	中	B-OG	B-LC	B-LC, B-OG, O, B-AF, B-CV
+2	사드	B-AF	B-AF	B-AF, O, I-AF, B-OG, B-LC
+3	##보	O	O	O, I-AF, B-CV, I-EV, I-CV
+4	##복	O	O	O, I-CV, I-EV, I-AF, I-DT
+5	영향	O	O	O, B-LC, I-DT, B-PS, B-DT
+6	한	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-LC
+7	##달	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
+8	##반	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-OG
+9	앞당겨	O	O	O, I-DT, B-OG, B-LC, B-CV
+10	136	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-EV
+11	##개	I-QT	I-QT	I-QT, O, I-DT, I-EV, I-LC
+12	업체	O	O	O, I-QT, B-CV, B-OG, I-OG
+13	참여	O	O	O, B-CV, B-TM, B-OG, B-LC
+14	…	O	O	O, B-CV, I-OG, B-OG, B-PS
+15	기간	O	O	O, B-CV, B-TM, B-OG, B-LC
+16	##도	O	O	O, B-LC, B-CV, B-OG, B-TM
+17	70	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-LC
+18	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-OG
+19	##로	O	O	O, I-DT, I-OG, I-QT, B-OG
+20	[SEP]	O	O	O, B-LC, B-OG, B-CV, I-DT

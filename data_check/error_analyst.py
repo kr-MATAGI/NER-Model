@@ -142,7 +142,42 @@ def check_classify_tag_size(path: str):
         sum_val += v
     print(f"total Size: {sum_val}")
 
+def check_LC_OG_country():
+    lc_dir = "./err_dir/LC"
+    og_dir = "./err_dir/OG"
+    LC_file_list = os.listdir(lc_dir)
+    OG_file_list = os.listdir(og_dir)
+
+    extract_LC_OG_list = []
+    for lc_file in LC_file_list:
+        lc_pd_df = pd.read_csv(lc_dir+"/"+lc_file, sep="\t")
+        for idx, row in lc_pd_df.iterrows():
+            label_tag = row["label"].replace("B-", "").replace("I-", "")
+            pred_tag = row["preds"].replace("B-", "").replace("I-", "")
+            if ("LC" == label_tag) and ("OG" == pred_tag):
+                extract_LC_OG_list.append(lc_pd_df)
+                break
+    print(f"Extract From LC: {len(extract_LC_OG_list)}")
+
+    for og_file in OG_file_list:
+        og_pd_df = pd.read_csv(og_dir+"/"+og_file, sep="\t")
+        for idx, row in og_pd_df.iterrows():
+            label_tag = row["label"].replace("B-", "").replace("I-", "")
+            pred_tag = row["preds"].replace("B-", "").replace("I-", "")
+            if ("OG" == label_tag) and ("LC" == pred_tag):
+                extract_LC_OG_list.append(og_pd_df)
+                break
+    print(f"Extract From LC+OG: {len(extract_LC_OG_list)}")
+
+    ## save
+    for idx, lc_og_df in enumerate(extract_LC_OG_list):
+        lc_og_df.to_csv("./LC_OG/" + str(idx), sep="\t", encoding="utf-8", index=False)
+    print("SAVE_LC_OG_Data Frame !")
+
 ### MAIN ###
 if "__main__" == __name__:
     #classify_tag_err()
-    check_classify_tag_size("./err_dir")
+    #check_classify_tag_size("./err_dir")
+
+    # LC, OG (북한, 중국 나라명이 LC, OG) 오분류 되는 경우
+    check_LC_OG_country()

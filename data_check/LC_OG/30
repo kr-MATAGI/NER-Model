@@ -1,0 +1,17 @@
+Unnamed: 0	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-AF
+1	中	B-LC	B-OG	B-OG, B-LC, O, I-OG, B-TM
+2	,	O	O	O, I-OG, I-LC, I-AF, I-CV
+3	또	O	O	O, B-LC, B-CV, B-PS, B-AF
+4	사드	B-AF	B-AF	B-AF, O, I-AF, B-OG, B-TM
+5	보복	O	O	O, I-AF, B-CV, I-OG, I-CV
+6	…	O	O	O, I-AF, I-OG, I-CV, B-CV
+7	1	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-OG
+8	##월	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
+9	한국	O	B-LC	B-LC, O, B-AF, I-DT, I-LC
+10	##행	O	O	O, I-AF, I-LC, B-AF, I-OG
+11	부정	O	O	O, B-AF, B-LC, B-CV, I-AF
+12	##기	O	O	O, I-AF, I-LC, B-AF, I-CV
+13	항공편	O	O	O, B-AF, I-AF, B-LC, B-CV
+14	중단	O	O	O, I-AF, I-CV, B-CV, I-LC
+15	[SEP]	O	O	O, B-LC, B-AF, B-CV, I-AF

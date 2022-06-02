@@ -1,0 +1,21 @@
+Unnamed: 0	text	label	preds	candidate
+0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
+1	제재	O	O	O, B-CV, B-PS, I-CV, B-OG
+2	강화	O	O	O, I-CV, B-PS, B-LC, B-CV
+3	어느	O	O	O, B-LC, B-PS, B-OG, B-CV
+4	수위	O	O	O, B-LC, B-PS, B-CV, B-OG
+5	##까	O	O	O, B-PS, B-LC, B-OG, I-OG
+6	##지	O	O	O, B-LC, B-OG, B-PS, I-LC
+7	…	O	O	O, B-LC, B-OG, B-PS, I-LC
+8	한	B-OG	B-LC	B-LC, B-OG, O, B-PS, I-LC
+9	·	O	O	O, I-LC, I-OG, B-LC, I-PS
+10	미	B-OG	B-LC	B-LC, I-LC, O, B-OG, B-PS
+11	‘	O	O	O, I-LC, B-LC, I-OG, B-CV
+12	북	B-LC	B-LC	B-LC, O, B-OG, B-AF, B-CV
+13	##핵	B-AF	B-AF	B-AF, I-AF, O, B-MT, B-PS
+14	##대	O	O	O, I-AF, I-LC, I-EV, B-AF
+15	##응	O	O	O, I-AF, I-LC, B-LC, I-EV
+16	카드	O	O	O, B-AF, I-AF, B-LC, B-PS
+17	’	O	O	O, I-AF, B-LC, B-CV, B-OG
+18	촉각	O	O	O, B-LC, B-TM, B-OG, B-AF
+19	[SEP]	O	O	O, B-LC, I-LC, B-CV, B-OG

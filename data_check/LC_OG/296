@@ -1,0 +1,12 @@
+Unnamed: 0	text	label	preds	candidate
+0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-AF
+1	美	B-OG	B-LC	B-LC, B-OG, O, B-CV, B-PS
+2	GDP	O	O	O, I-OG, B-TM, B-CV, B-OG
+3	성장률	O	O	O, B-TM, B-OG, B-CV, B-LC
+4	26	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
+5	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-AF
+6	##만	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
+7	##에	O	O	O, I-DT, I-QT, I-AF, I-OG
+8	최악	O	O	O, B-CV, B-OG, B-TM, B-LC
+9	##기록	O	O	O, B-OG, B-LC, I-OG, B-CV
+10	[SEP]	O	O	O, B-LC, B-CV, I-OG, B-OG
