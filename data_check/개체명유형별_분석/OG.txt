@@ -77,7 +77,20 @@ ERR CASE
 		4	##에스	I-OG	I-AF	I-AF, I-PS, I-TR, I-FD, O
 		5	##아이	I-OG	I-AF	I-AF, I-TR, I-PS, I-FD, I-OG
 		6	##라고	O	O	O, I-AF, I-OG, I-EV, I-TR
-		
+	
+	- 43	
+		1	장보고	B-OG	B-AF	B-AF, B-OG, O, B-LC, B-EV
+		2	##기지	I-OG	I-AF	I-AF, I-OG, O, I-LC, I-EV
+		3	##의	O	O	O, I-AF, I-OG, I-EV, I-PS
+	
+	
+5. OG <-> EV
+	- 47
+		13	유엔	B-OG	B-EV	B-EV, B-OG, O, B-LC, B-AF
+		14	##총	I-OG	I-EV	I-EV, O, I-OG, B-EV, I-AF
+		15	##회	I-OG	I-EV	I-EV, O, I-OG, I-AF, I-LC
+	
+	
 5. 미인식
 	- 8
 		5	지	B-OG	O	O, B-OG, B-TR, B-FD, B-LC
@@ -105,6 +118,26 @@ ERR CASE
 		
 	- 39
 		6	소위원회	B-OG	O	O, B-OG, B-CV, B-EV, I-QT
+	
+	- 42
+		14	전화	B-OG	O	O, B-TM, B-CV, B-OG, B-LC
+		15	##국	I-OG	O	O, I-OG, I-CV, I-TM, I-LC
+		16	##에서	O	O	O, I-OG, B-PS, B-CV, I-CV
+		
+	- 44
+		2	코스피	B-OG	O	O, B-OG, B-CV, B-LC, B-AF
+		3	##20	I-OG	O	O, B-QT, I-OG, B-CV, I-CV
+		4	##0	I-OG	O	O, I-OG, I-QT, I-CV, I-LC
+	
+	- 52
+		16	성	B-OG	O	O, B-CV, B-TR, B-FD, B-TM
+		17	##평	I-OG	O	O, I-CV, I-TR, B-CV, I-FD
+		18	##등	I-OG	O	O, I-CV, I-TR, B-CV, I-FD
+		19	문화	I-OG	O	O, I-CV, I-TR, B-CV, I-TM
+		20	확산	I-OG	O	O, I-CV, B-CV, I-TM, I-TR
+		21	태	I-OG	O	O, I-CV, B-CV, B-TM, I-TM
+		22	##스크	I-OG	O	O, I-CV, I-OG, I-TM, I-LC
+		23	##포스	I-OG	O	O, I-OG, I-CV, I-TM, B-CV
 	
 6. labeling?
 	- 9

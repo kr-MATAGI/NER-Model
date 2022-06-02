@@ -28,3 +28,169 @@ ERR CASE
 		
 	* but AM.1에는 위가 TM으로 올라가 있음
 		위(TM)에 올라가져
+		
+		
+2. 미인식	
+	- 0
+		29	심리	O	O	O, B-LC, B-CV, B-PS, B-TM
+		30	##적	O	O	O, B-LC, B-PS, I-LC, I-PS
+		31	부담	O	O	O, B-LC, B-PS, I-LC, I-PS
+		32	·	O	O	O, B-PS, B-LC, I-OG, I-LC
+		33	부상	B-TM	O	O, B-CV, B-LC, B-TM, B-PS
+		34	후유증	I-TM	O	O, B-LC, B-PS, B-CV, B-TM
+		35	등	O	O	O, B-LC, B-PS, B-OG, B-CV
+		36	##이	O	O	O, B-PS, B-LC, B-OG, B-CV	
+	
+	- 2
+		23	광장	B-LC	B-LC	B-LC, O, B-AF, I-LC, B-CV
+		24	##시장	I-LC	I-LC	I-LC, O, I-AF, B-LC, I-CV
+		25	옆	B-TM	O	O, B-TM, I-TM, B-LC, I-LC
+		26	선거	O	O	O, B-CV, B-LC, B-EV, B-PS
+		27	캠프	O	O	O, I-LC, I-CV, I-OG, I-AF
+		28	##까	O	O	O, I-AF, I-OG, I-LC, I-EV
+		29	##지	O	O	O, B-LC, B-CV, B-PS, B-OG
+		
+	- 3
+		1	위	B-TM	O	O, B-TM, B-CV, B-AM, B-TR
+		2	##에다	O	O	O, I-TM, I-CV, I-QT, B-CV
+		3	얹	O	O	O, B-CV, B-QT, B-TM, I-CV
+		4	##어	O	O	O, B-CV, I-CV, I-OG, I-QT
+		5	##주	O	O	O, B-CV, I-CV, I-OG, I-QT
+		6	##세요	O	O	O, B-CV, I-CV, I-OG, I-QT
+		7	.	O	O	O, B-CV, B-LC, B-QT, B-TM
+	
+	- 4
+		16	한중일	B-LC	B-LC	B-LC, O, B-OG, B-AF, B-PS
+		17	학생	B-CV	B-CV	B-CV, O, I-CV, B-AF, B-OG
+		18	##들이	O	O	O, I-CV, I-AF, I-OG, I-EV
+		19	매년	O	O	O, B-DT, B-LC, B-QT, B-OG
+		20	캠퍼스	B-TM	O	O, B-LC, B-EV, B-AF, B-OG
+		21	아시아	I-TM	B-LC	B-LC, O, I-LC, B-OG, B-AF
+		22	##에	O	O	O, I-LC, I-AF, I-OG, I-EV
+		23	참여	O	O	O, B-CV, B-OG, B-LC, B-TM
+		24	##하	O	O	O, B-CV, B-OG, B-LC, B-PS
+		25	##게	O	O	O, B-CV, I-OG, B-OG, I-AF
+		26	된다	O	O	O, B-CV, B-OG, I-OG, B-LC
+		27	.	O	O	O, B-LC, B-PS, B-OG, B-CV
+		
+	- 5
+		1	빨간	B-TM	O	O, B-AF, B-TM, B-CV, B-PS
+		2	##불	I-TM	O	O, I-AF, I-OG, I-LC, I-PS
+		3	##에	O	O	O, I-AF, I-OG, I-CV, I-PS
+		4	어디	O	O	O, B-CV, I-AF, B-LC, B-OG
+		5	가	O	O	O, B-CV, I-AF, I-OG, B-OG
+		6	.	O	O	O, B-CV, I-AF, I-OG, B-LC
+	
+	- 7
+		57	▲	O	O	O, B-TM, B-LC, I-TM, I-OG
+		58	##녹	B-TM	O	O, B-TM, B-MT, B-TR, B-LC
+		59	##색	I-TM	O	O, I-TM, I-MT, I-FD, I-TR
+		60	신성	I-TM	O	O, I-TM, I-FD, I-LC, I-OG
+		61	##장사	I-TM	O	O, I-TM, I-FD, I-OG, I-LC
+		62	##업	I-TM	O	O, I-TM, I-FD, I-OG, I-LC
+		63	등	O	O	O, B-LC, B-OG, B-PS, B-CV
+		
+	- 8
+		5	가로	B-TM	O	O, B-TM, B-QT, B-AM, B-AF
+		6	##세	B-TM	O	O, I-TM, B-QT, B-TM, I-QT
+		7	##로	I-TM	O	O, I-TM, I-QT, B-QT, B-TM
+		8	2	B-QT	B-QT	B-QT, I-QT, O, I-TM, B-DT
+		9	##m	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-TM
+		
+	- 9
+		1	하	B-TM	O	O, B-TR, B-TM, B-AM, B-EV
+		2	##혈	I-TM	O	O, I-TR, I-TM, B-TR, I-EV
+		3	##을	O	O	O, I-TR, I-TM, I-EV, I-AF
+		4	경험	O	O	O, B-CV, B-TM, B-OG, B-LC
+	
+	- 10
+		2	촬영	O	O	O, B-LC, B-CV, B-FD, B-PS
+		3	##이	O	O	O, B-PS, B-LC, B-OG, B-CV
+		4	진행	O	O	O, B-LC, B-CV, B-TM, B-OG
+		5	##되	O	O	O, B-PS, B-LC, B-OG, B-CV
+		6	##면서	O	O	O, B-PS, B-LC, B-CV, B-OG
+		7	스크린	B-TM	O	O, B-TM, B-CV, B-TR, B-LC
+		8	밖	O	O	O, B-TM, I-TM, B-CV, B-LC
+		
+	- 12
+		10	카스	B-AF	B-AF	B-AF, B-CV, B-OG, B-PS, O
+		11	##에서	O	O	O, I-AF, I-OG, I-CV, I-EV
+		12	소독	B-TM	O	O, B-TM, B-TR, B-CV, B-AM
+		13	##약	I-TM	O	O, I-TM, I-TR, B-TM, I-EV
+		14	냄새	O	O	O, I-TM, B-TM, I-EV, I-TR
+		15	##가	O	O	O, B-PS, B-CV, B-OG, I-AF
+		16	난다	O	O	O, B-CV, B-OG, B-PS, B-LC
+	
+	- 13
+		1	눈	B-AM	B-AM	B-AM, O, B-TM, B-TR, B-PS
+		2	##에	O	O	O, I-AF, I-CV, I-TM, I-QT
+		3	띄	O	O	O, B-CV, B-OG, B-PS, B-TM
+		4	##는	O	O	O, B-PS, B-CV, B-OG, I-AF
+		5	건	O	O	O, B-CV, B-PS, B-LC, B-TM
+		6	핫	B-TM	O	O, B-TM, B-AF, B-PS, B-AM
+		7	##코	I-TM	O	O, I-TM, I-PS, I-AF, I-CV
+		8	##너	I-TM	O	O, I-TM, I-PS, I-AF, I-CV
+		9	##를	O	O	O, I-AF, I-TM, I-PS, B-CV
+		10	지키	O	O	O, B-CV, B-PS, B-AF, B-TM
+		11	##는	O	O	O, B-CV, B-PS, B-TM, B-LC
+		12	3	B-CV	B-CV	B-CV, B-TM, O, B-AF, B-EV
+		13	##루	I-CV	I-CV	I-CV, B-CV, O, I-TM, I-AF
+		14	##수	I-CV	I-CV	I-CV, O, I-TM, B-CV, I-OG
+	
+	- 14
+		27	5	B-QT	B-QT	B-QT, O, I-QT, I-CV, B-PS
+		28	##만	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
+		29	##91	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
+		30	##87	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
+		31	##명	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
+		32	가운데	B-TM	O	O, B-TM, I-QT, B-LC, B-QT
+		33	118	B-QT	B-QT	B-QT, I-QT, O, B-DT, B-LC
+		34	##3	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
+		35	##명	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
+		36	이상	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
+		37	##의	O	O	O, I-QT, B-CV, B-OG, I-EV
+		
+	- 17
+		12	상품	O	O	O, B-CV, B-AF, B-LC, I-AF
+		13	##을	O	O	O, B-CV, I-AF, B-AF, B-PS
+		14	사도	O	O	O, B-CV, B-AF, B-OG, B-PS
+		15	그린	B-TM	O	O, B-MT, B-AF, B-TM, B-CV
+		16	마일리지	O	O	O, I-CV, I-AF, I-TM, I-MT
+		17	##가	O	O	O, I-AF, I-CV, I-TM, I-OG
+		18	적립	O	O	O, B-CV, B-TM, B-OG, B-PS
+	
+3. 과대경계인식
+	- 1
+		7	역전	O	B-TM	B-TM, O, B-QT, B-EV, B-TR
+		8	골	B-TM	I-TM	I-TM, B-TM, O, I-QT, I-TR
+		9	##을	O	O	O, I-TM, I-QT, I-EV, I-AF
+		10	내줬	O	O	O, B-CV, B-OG, B-TM, B-LC
+		11	##지만	O	O	O, I-EV, B-OG, I-OG, B-CV
+		12	,	O	O	O, B-CV, B-LC, B-OG, B-PS
+		
+4. 오분류
+	- 6
+		62	##2	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-AF
+		63	##의	O	O	O, I-QT, B-QT, B-PS, I-AF
+		64	가습기	B-TM	B-EV	B-EV, B-AF, O, B-TM, B-LC
+		65	살균제	O	I-EV	I-EV, O, B-EV, I-AF, I-DT
+		66	사태	O	I-EV	I-EV, O, B-EV, I-AF, I-DT
+		67	##를	O	O	O, I-EV, I-AF, B-PS, B-CV
+		
+	- 11
+		4	‘	O	O	O, B-OG, B-LC, B-CV, B-AF
+		5	레미	B-TM	B-AF	B-AF, B-OG, B-TM, B-PS, B-TR
+		6	##케이드	I-TM	I-AF	I-AF, I-TM, I-OG, I-PS, O
+		7	’	O	O	O, I-AF, I-OG, I-TM, I-EV
+		
+		20	‘	O	O	O, B-OG, B-LC, B-CV, B-AF
+		21	에	B-TM	B-OG	B-OG, B-AF, O, B-TM, B-CV
+		22	##포	I-TM	I-OG	I-OG, O, I-AF, I-TM, I-CV
+		23	##젠	I-TM	I-OG	I-OG, I-AF, O, I-TM, I-CV
+		24	’	O	O	O, I-OG, I-AF, I-TM, I-CV
+		
+5. 초과경계인식
+	- 16
+		13	돼지	B-AM	B-TM	B-TM, B-AM, B-AF, O, B-CV
+		14	유전체	B-TM	I-TM	I-TM, B-TM, O, I-AF, I-TR
+		15	지도	O	I-TM	I-TM, O, I-AF, I-TR, B-TM

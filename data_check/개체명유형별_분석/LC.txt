@@ -145,6 +145,18 @@ ERR CASE
 		13	##과	O	O	O, I-OG, I-LC, B-PS, I-AF
 		14	동맹국	O	O	O, B-CV, B-OG, B-LC, B-AF
 		15	##에	O	O	O, I-OG, B-PS, B-LC, I-CV
+		
+	- LC.21
+		0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
+		1	한	B-LC	B-OG	B-OG, B-LC, O, B-EV, I-OG
+		2	·	O	I-OG	I-OG, O, B-OG, I-LC, I-EV
+		3	미	B-LC	I-OG	I-OG, B-OG, B-LC, I-LC, O
+		4	동맹	O	I-OG	I-OG, O, B-OG, I-EV, I-LC
+		5	60	B-DT	B-DT	B-DT, I-OG, I-DT, O, B-QT
+		6	##주	I-DT	I-DT	I-DT, B-DT, O, I-QT, I-EV
+		7	##년	I-DT	I-DT	I-DT, O, I-QT, B-DT, I-EV
+		8	##을	O	O	O, I-DT, B-CV, I-EV, I-OG
+		9	맞아	O	O	O, B-LC, B-OG, B-CV, B-PS
 
 6. LC <-> FD
 	- 15
