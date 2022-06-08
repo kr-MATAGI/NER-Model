@@ -13,9 +13,9 @@ from attrdict import AttrDict
 import torch
 from torch.utils.data import RandomSampler, SequentialSampler, DataLoader, Dataset
 from torch.utils.tensorboard import SummaryWriter
-from transformers import AutoConfig, get_linear_schedule_with_warmup
+from transformers import ElectraConfig, get_linear_schedule_with_warmup
 
-from bert_custom_model import BERT_POS_LSTM
+from electra_custom_model import ELECTRA_POS_LSTM
 
 from tqdm import tqdm
 
@@ -173,7 +173,7 @@ def evaluate(args, model, eval_dataset, mode, global_step=None, train_epoch=0):
         "loss": eval_loss
     }
 
-    # preds = np.argmax(preds, axis=2)
+    #preds = np.argmax(preds, axis=2)
 
     labels = ETRI_TAG.keys()
     label_map = {i: label for i, label in enumerate(labels)}
@@ -344,13 +344,13 @@ def main(cli_args):
     args.output_dir = os.path.join(args.ckpt_dir, args.output_dir)
 
     # Config
-    config = AutoConfig.from_pretrained(args.model_name_or_path,
-                                        num_labels=len(ETRI_TAG.keys()),
-                                        id2label={str(i): label for i, label in enumerate(ETRI_TAG.keys())},
-                                        label2id={label: i for i, label in enumerate(ETRI_TAG.keys())})
+    config = ElectraConfig.from_pretrained(args.model_name_or_path,
+                                           num_labels=len(ETRI_TAG.keys()),
+                                           id2label={str(i): label for i, label in enumerate(ETRI_TAG.keys())},
+                                           label2id={label: i for i, label in enumerate(ETRI_TAG.keys())})
     config.num_pos_labels = 49 # NIKL
 
-    model = BERT_POS_LSTM(config=config)
+    model = ELECTRA_POS_LSTM.from_pretrained("monologg/koelectra-base-v3-discriminator", config=config)
 
     # GPU or CPU
     if 1 < torch.cuda.device_count():
@@ -403,12 +403,7 @@ def main(cli_args):
 
         for checkpoint in checkpoints:
             global_step = checkpoint.split("-")[-1]
-            # BERT
-            #model = BERT_POS_LSTM.from_pretrained(checkpoint)
-            # RoBERTa
-            out_dict = torch.load(checkpoint + "/pytorch_model.bin")
-            model = BERT_POS_LSTM(config=config)
-            model.load_state_dict(out_dict)
+            model = ELECTRA_POS_LSTM.from_pretrained(checkpoint)
             model.to(args.device)
             result = evaluate(args, model, test_dataset, mode="test", global_step=global_step)
             result = dict((k + "_{}".format(global_step), v) for k, v in result.items())

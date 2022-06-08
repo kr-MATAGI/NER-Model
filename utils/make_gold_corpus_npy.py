@@ -145,8 +145,8 @@ def make_wordpiece_npy(tokenizer_name:str, src_list: List[Sentence], max_len: in
         if 0 == (proc_idx % 1000):
             print(f"{proc_idx} Processing... {sent.text}")
 
-        if sent.text != "소비자원에서 어떤 일을 해 주면 정말 소비자들한테 필요한 사업이 될까에 대해서 이런 아이디어를 공모를 해서":
-            continue
+        # if sent.text != "소비자원에서 어떤 일을 해 주면 정말 소비자들한테 필요한 사업이 될까에 대해서 이런 아이디어를 공모를 해서":
+        #     continue
         
         text_tokens = tokenizer.tokenize(sent.text)
 
@@ -173,7 +173,7 @@ def make_wordpiece_npy(tokenizer_name:str, src_list: List[Sentence], max_len: in
                     concat_text_tokens = [x.replace("##", "") for x in concat_text_tokens]
 
                     if "".join(concat_text_tokens) == ne_item.text.replace(" ", ""):
-                        print("A : ", concat_text_tokens, ne_item.text, s_idx)
+                        # print("A : ", concat_text_tokens, ne_item.text, s_idx)
 
                         # BIO Tagging
                         for bio_idx in range(s_idx, s_idx + word_cnt):
@@ -188,11 +188,11 @@ def make_wordpiece_npy(tokenizer_name:str, src_list: List[Sentence], max_len: in
         ## end, ne_item loop
 
         # TEST and Print
-        test_ne_print = [(x.text, x.type) for x in sent.ne_list]
-        print(test_ne_print)
-        for t, l in zip(text_tokens, labels):
-           print(t, "\t", l)
-        input()
+        # test_ne_print = [(x.text, x.type) for x in sent.ne_list]
+        # print(test_ne_print)
+        # for t, l in zip(text_tokens, labels):
+        #    print(t, "\t", l)
+        # input()
 
         # Morp
         start_idx = 0
@@ -437,4 +437,4 @@ if "__main__" == __name__:
 
     # make npy
     #make_pos_tag_npy(tokenizer_name="klue/bert-base", src_list=all_sent_list, max_len=128)
-    make_wordpiece_npy(tokenizer_name="klue/bert-base", src_list=all_sent_list, max_len=128)
+    make_wordpiece_npy(tokenizer_name="klue/roberta-base", src_list=all_sent_list, max_len=128)

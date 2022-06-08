@@ -1,7 +1,7 @@
 {
   "task": "custom",
   "data_dir": "data",
-  "ckpt_dir": "ckpt-roberta-base-pos-rand-128",
+  "ckpt_dir": "ckpt-electra-pos-rand-128",
   "train_npy": "./data/npy/old_nikl/128/train.npy",
   "dev_npy": "./data/npy/old_nikl/128/dev.npy",
   "test_npy": "./data/npy/old_nikl/128/test.npy",
@@ -20,14 +20,14 @@
   "max_steps": -1,
   "max_grad_norm": 1.0,
   "no_cuda": false,
-  "model_type": "klue-roberta-base",
-  "model_name_or_path": "klue/roberta-base",
-  "output_dir": "klue-roberta-base-pos-rand-ckpt",
+  "model_type": "monologg/koelectra-base-v3-discriminator",
+  "model_name_or_path": "monologg/koelectra-base-v3-discriminator",
+  "output_dir": "klue-electra-pos-rand-ckpt",
   "seed": 42,
   "train_batch_size": 64,
   "eval_batch_size": 128,
   "logging_steps": 4065,
   "save_steps": 4065,
-  "learning_rate": 5e-5,
+  "learning_rate": 3e-5,
   "n_gpu": 1
 }
