@@ -283,7 +283,7 @@ class ELECTRA_POS_LSTM(ElectraPreTrainedModel):
 
         self.post_init()
 
-    def forward(self, input_ids, attention_mask, token_type_ids, pos_tag_ids, input_seq_len, labels=None):
+    def forward(self, input_ids, attention_mask, token_type_ids, pos_tag_ids, input_seq_len=None, labels=None):
         # pos embedding
         # pos_tag_ids : [batch_size, seq_len, num_pos_tags]
         pos_tag_1 = pos_tag_ids[:, :, 0] # [batch_size, seq_len]
