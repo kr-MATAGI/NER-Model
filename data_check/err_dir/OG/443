@@ -1,47 +1,37 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	국회	B-OG	B-OG	B-OG, B-AF, B-LC, O, B-PS
-2	교육	O	B-OG	B-OG, O, I-OG, B-CV, B-AF
-3	##문화	O	I-OG	I-OG, O, I-EV, B-OG, I-CV
-4	##체육	O	I-OG	I-OG, O, I-EV, I-CV, I-AF
-5	##관광	O	I-OG	I-OG, O, I-EV, I-CV, I-AF
-6	##위원회	O	I-OG	I-OG, O, I-EV, I-CV, I-AF
-7	소속	O	O	O, I-OG, B-CV, B-PS, B-OG
-8	새	B-OG	B-OG	B-OG, O, I-OG, B-PS, B-AF
-9	##누리	I-OG	I-OG	I-OG, O, I-EV, I-LC, I-AF
-10	##당	I-OG	I-OG	I-OG, O, I-LC, I-EV, I-PS
-11	김희	B-PS	B-PS	B-PS, B-OG, I-PS, O, I-OG
-12	##정	I-PS	I-PS	I-PS, I-OG, O, I-LC, B-PS
-13	의원	B-CV	B-CV	B-CV, O, I-PS, B-OG, I-CV
-14	##은	O	O	O, I-CV, B-CV, I-EV, I-OG
-15	8	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-16	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-17	이	O	O	O, I-DT, B-PS, B-CV, B-OG
-18	같	O	O	O, B-CV, B-TM, B-OG, B-LC
-19	##은	O	O	O, B-PS, B-CV, B-LC, B-OG
-20	내용	O	O	O, B-CV, B-LC, B-PS, B-TM
-21	##을	O	O	O, B-CV, B-PS, B-TM, B-LC
-22	골자	O	O	O, B-TM, B-CV, B-LC, B-OG
-23	##로	O	O	O, B-PS, B-CV, B-LC, B-OG
-24	하	O	O	O, B-CV, B-PS, B-OG, B-LC
-25	##는	O	O	O, B-CV, B-PS, B-OG, B-LC
-26	한국	B-OG	B-CV	B-CV, B-OG, O, B-AF, B-LC
-27	##장	I-OG	I-CV	I-CV, I-OG, O, B-CV, I-AF
-28	##학	I-OG	I-CV	I-CV, I-OG, O, B-CV, I-AF
-29	##재단	I-OG	I-CV	I-CV, I-OG, O, B-CV, I-AF
-30	##법	O	I-CV	I-CV, O, I-OG, B-CV, I-AF
-31	##과	O	O	O, I-CV, I-OG, I-AF, B-CV
-32	취업	O	B-CV	B-CV, O, B-OG, I-CV, B-AF
-33	후	O	I-CV	I-CV, O, B-CV, I-OG, I-AF
-34	학자금	O	I-CV	I-CV, O, B-CV, I-OG, I-AF
-35	상환	O	I-CV	I-CV, O, I-OG, B-CV, I-AF
-36	특별법	O	I-CV	I-CV, O, I-OG, B-CV, I-AF
-37	개정안	O	O	O, I-CV, I-OG, B-CV, I-AF
-38	##을	O	O	O, B-CV, B-LC, B-OG, B-PS
-39	국회	B-OG	B-OG	B-OG, B-AF, B-LC, O, B-PS
-40	##에	O	O	O, I-OG, B-CV, I-AF, I-EV
-41	제출	O	O	O, B-CV, B-LC, B-OG, B-TM
-42	##했	O	O	O, B-CV, B-OG, B-PS, B-LC
-43	##다	O	O	O, B-CV, B-LC, B-OG, B-PS
-44	.	O	O	O, B-OG, B-LC, B-PS, B-CV
-45	[SEP]	O	O	O, B-OG, B-LC, B-CV, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	경북	B-LC	B-LC
+2	경주	B-LC	B-LC
+3	##시	I-LC	I-LC
+4	보문	B-LC	B-LC
+5	##관광	I-LC	I-LC
+6	##단지	I-LC	I-LC
+7	##에	O	O
+8	위치	O	O
+9	##한	O	O
+10	씨	B-OG	B-OG
+11	##네	I-OG	I-OG
+12	##큐	I-OG	I-OG
+13	경주	I-OG	B-LC
+14	보문	I-OG	B-LC
+15	##점	I-OG	O
+16	##은	O	O
+17	총	O	O
+18	6	B-QT	B-QT
+19	##개	I-QT	I-QT
+20	##관	O	I-QT
+21	,	O	O
+22	77	B-QT	B-QT
+23	##3	I-QT	I-QT
+24	##석	I-QT	I-QT
+25	규모	O	O
+26	##의	O	O
+27	경주	B-LC	B-LC
+28	지역	O	O
+29	최대	O	O
+30	규모	O	O
+31	멀티	O	O
+32	##플렉스	O	O
+33	##다	O	O
+34	.	O	O
+35	[SEP]	O	O

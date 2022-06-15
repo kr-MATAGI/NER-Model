@@ -1,88 +1,26 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-EV, I-CV, I-OG
-1	정기	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
-2	##남	I-PS	I-PS	I-PS, O, I-OG, I-LC, B-PS
-3	안철수	B-PS	B-PS	B-PS, I-PS, B-OG, O, B-LC
-4	캠프	O	O	O, I-OG, I-PS, B-OG, I-AF
-5	전	O	O	O, B-CV, B-PS, I-OG, I-EV
-6	부실	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-OG
-7	##장	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-EV
-8	##은	O	O	O, I-CV, I-EV, B-CV, I-QT
-9	7	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-10	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
-11	라디오	O	B-TM	B-TM, O, B-OG, B-TR, B-LC
-12	##에서	O	O	O, I-TM, I-EV, I-OG, I-DT
-13	""""	O	O	O, B-LC, B-CV, B-OG, B-PS
-14	조직	O	O	O, B-CV, B-PS, B-LC, B-OG
-15	##도	O	O	O, B-PS, B-LC, I-OG, I-PS
-16	세력	O	O	O, B-CV, B-PS, B-LC, B-TM
-17	##도	O	O	O, B-PS, B-LC, B-OG, I-OG
-18	없	O	O	O, B-PS, B-CV, B-LC, B-OG
-19	##는	O	O	O, B-PS, B-LC, B-CV, B-OG
-20	혈	O	O	O, B-LC, B-PS, B-TM, B-AM
-21	##혈	O	O	O, I-PS, B-PS, I-LC, B-LC
-22	##단	O	O	O, I-PS, B-PS, B-LC, I-LC
-23	##신	O	O	O, I-PS, I-LC, B-PS, B-LC
-24	무소	O	O	O, B-PS, B-LC, B-CV, B-OG
-25	##속	O	O	O, I-PS, I-LC, B-PS, I-OG
-26	후보	B-CV	B-CV	B-CV, O, I-CV, B-PS, B-TM
-27	##인	O	O	O, B-PS, I-CV, B-LC, B-CV
-28	##데	O	O	O, B-PS, B-LC, B-OG, B-CV
-29	당선	O	O	O, B-CV, B-LC, B-TM, B-PS
-30	##을	O	O	O, B-PS, B-CV, B-LC, B-OG
-31	장담	O	O	O, B-LC, B-CV, B-TM, B-PS
-32	##하	O	O	O, B-PS, B-LC, B-OG, B-CV
-33	##는	O	O	O, B-PS, B-LC, B-CV, B-OG
-34	것	O	O	O, B-LC, B-CV, B-PS, B-OG
-35	##은	O	O	O, B-CV, B-LC, B-PS, B-OG
-36	좀	O	O	O, B-LC, B-CV, B-PS, B-TM
-37	어려운	O	O	O, B-CV, B-PS, B-LC, B-TM
-38	상황	O	O	O, B-CV, B-LC, B-TM, B-QT
-39	""""	O	O	O, B-CV, B-LC, B-PS, B-OG
-40	이라	O	O	O, B-CV, B-OG, B-PS, B-LC
-41	##며	O	O	O, B-CV, B-LC, B-OG, B-PS
-42	""""	O	O	O, B-LC, B-CV, B-PS, B-OG
-43	노원	B-LC	B-LC	B-LC, O, B-OG, B-AF, B-PS
-44	##병	I-LC	I-LC	I-LC, O, B-LC, I-AF, I-PS
-45	지역	O	O	O, I-LC, B-LC, B-CV, I-AF
-46	자체	O	O	O, B-LC, B-PS, B-CV, B-OG
-47	##가	O	O	O, B-PS, B-LC, B-OG, B-CV
-48	전통	O	O	O, B-CV, B-LC, B-PS, B-OG
-49	##적으로	O	O	O, B-PS, B-LC, B-OG, I-OG
-50	민주당	B-OG	B-OG	B-OG, O, B-LC, B-PS, B-AF
-51	텃밭	O	O	O, I-OG, B-CV, I-EV, B-LC
-52	##이	O	O	O, B-PS, B-LC, B-CV, B-OG
-53	##고	O	O	O, B-PS, B-CV, B-LC, B-OG
-54	,	O	O	O, B-CV, B-LC, B-PS, B-OG
-55	'	O	O	O, B-LC, B-CV, B-PS, B-EV
-56	대선	B-EV	B-EV	B-EV, O, B-CV, B-AF, B-LC
-57	후보	B-CV	B-CV	B-CV, O, I-CV, I-EV, B-EV
-58	안철수	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-59	'	O	O	O, I-PS, I-EV, B-CV, I-OG
-60	가	O	O	O, B-LC, B-CV, B-PS, B-OG
-61	아니	O	O	O, B-LC, B-PS, B-CV, B-OG
-62	##라	O	O	O, B-PS, B-LC, B-OG, B-CV
-63	현실	O	O	O, B-LC, B-PS, B-CV, B-FD
-64	정치인	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-EV
-65	안철수	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-66	##로	O	O	O, I-PS, I-EV, I-AF, I-QT
-67	첫	O	O	O, B-QT, B-LC, B-TM, B-AM
-68	##걸음	O	O	O, I-QT, B-AM, I-LC, I-AM
-69	##을	O	O	O, B-CV, I-QT, B-PS, B-OG
-70	떼	O	O	O, B-CV, B-LC, B-PS, B-EV
-71	##는	O	O	O, B-CV, B-PS, B-LC, I-EV
-72	선거	O	O	O, B-EV, B-CV, I-EV, B-PS
-73	##이	O	O	O, I-EV, B-PS, B-CV, I-CV
-74	##기	O	O	O, B-PS, B-CV, B-LC, B-OG
-75	때문	O	O	O, B-LC, B-CV, B-PS, B-OG
-76	##에	O	O	O, B-CV, B-LC, B-OG, B-PS
-77	대단히	O	O	O, B-LC, B-CV, B-QT, B-TM
-78	조심	O	O	O, B-CV, B-LC, B-PS, B-EV
-79	##스럽	O	O	O, B-PS, B-LC, B-CV, I-EV
-80	##다	O	O	O, B-CV, B-LC, B-PS, B-OG
-81	""""	O	O	O, B-CV, B-LC, B-TM, B-OG
-82	고도	O	O	O, B-CV, B-LC, B-PS, B-OG
-83	했	O	O	O, B-CV, B-OG, B-LC, B-PS
-84	##다	O	O	O, B-CV, B-LC, I-EV, B-TM
-85	.	O	O	O, B-LC, B-PS, B-CV, B-OG
-86	[SEP]	O	O	O, B-LC, B-CV, B-PS, I-EV
+	text	label	preds
+0	[CLS]	O	O
+1	그	O	O
+2	##는	O	O
+3	이	O	O
+4	단체	O	O
+5	##에	O	O
+6	##서	O	O
+7	내	O	O
+8	##는	O	O
+9	국군	B-OG	B-AF
+10	포로	B-CV	I-AF
+11	백서	O	I-AF
+12	##를	O	O
+13	보고	O	O
+14	""""	O	O
+15	놀라	O	O
+16	##웠	O	O
+17	##다	O	O
+18	""""	O	O
+19	고	O	O
+20	말	O	O
+21	##했	O	O
+22	##다	O	O
+23	.	O	O
+24	[SEP]	O	O

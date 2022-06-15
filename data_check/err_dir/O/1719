@@ -1,43 +1,23 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	이어	O	O	O, B-CV, B-OG, B-LC, B-PS
-2	“	O	O	O, B-CV, B-LC, B-OG, B-PS
-3	중소기업	O	O	O, B-OG, B-CV, B-FD, I-OG
-4	·	O	O	O, I-CV, I-OG, B-PS, B-CV
-5	소상	O	B-CV	B-CV, O, I-CV, B-OG, B-TM
-6	##공	O	I-CV	I-CV, O, B-CV, I-OG, I-TM
-7	##인	O	I-CV	I-CV, O, I-OG, B-CV, I-TM
-8	정책	O	O	O, I-CV, B-CV, I-OG, B-PS
-9	##의	O	O	O, B-PS, I-CV, B-LC, B-OG
-10	효율	O	O	O, B-TM, B-PS, B-OG, B-LC
-11	##성	O	O	O, I-PS, B-PS, B-LC, I-LC
-12	제고	O	O	O, B-PS, B-CV, B-LC, I-PS
-13	##를	O	O	O, B-PS, B-LC, B-CV, B-OG
-14	위해	O	O	O, B-PS, B-LC, B-OG, B-CV
-15	중견	O	O	O, B-OG, B-CV, B-FD, B-TM
-16	##기업	O	O	O, I-OG, I-CV, I-TM, I-AF
-17	정책	O	O	O, I-CV, B-CV, B-PS, I-OG
-18	##을	O	O	O, B-PS, B-LC, B-CV, B-OG
-19	산업	B-OG	B-OG	B-OG, O, B-AF, B-LC, B-CV
-20	##통	I-OG	I-OG	I-OG, O, B-OG, I-AF, I-CV
-21	##상	I-OG	I-OG	I-OG, O, I-AF, I-CV, I-EV
-22	##자원	I-OG	I-OG	I-OG, O, I-AF, I-CV, B-OG
-23	##부	I-OG	I-OG	I-OG, O, I-AF, I-CV, I-LC
-24	##로	O	O	O, I-OG, B-PS, I-AF, I-EV
-25	이관	O	O	O, B-CV, B-OG, B-PS, B-TM
-26	##하고	O	O	O, B-PS, B-OG, B-LC, B-CV
-27	중소기업청	B-OG	B-OG	B-OG, O, B-AF, B-CV, B-LC
-28	##을	O	O	O, I-OG, B-PS, B-CV, I-AF
-29	중소기업	B-OG	B-OG	B-OG, O, B-AF, I-OG, B-CV
-30	##부	I-OG	I-OG	I-OG, O, I-AF, I-CV, I-LC
-31	##로	O	O	O, I-OG, I-AF, I-QT, I-CV
-32	승격	O	O	O, B-OG, B-CV, B-PS, B-LC
-33	##해야	O	O	O, B-PS, I-OG, B-LC, B-OG
-34	한다	O	O	O, B-CV, B-PS, B-OG, I-OG
-35	”	O	O	O, B-CV, I-OG, B-TM, B-LC
-36	고	O	O	O, B-CV, B-LC, B-OG, B-PS
-37	요구	O	O	O, B-CV, B-OG, B-LC, B-PS
-38	##했	O	O	O, B-PS, I-OG, B-CV, B-OG
-39	##다	O	O	O, B-CV, I-OG, B-PS, B-LC
-40	.	O	O	O, B-OG, B-LC, B-PS, B-CV
-41	[SEP]	O	O	O, B-CV, B-OG, B-LC, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	아마	O	O
+2	나	O	O
+3	##였	O	O
+4	##다면	O	O
+5	“	O	O
+6	이성	O	B-TR
+7	##애	O	I-TR
+8	중심주의	O	I-TR
+9	사회	O	O
+10	##가	O	O
+11	만든	O	O
+12	편견	O	O
+13	”	O	O
+14	이라	O	O
+15	##며	O	O
+16	따졌	O	O
+17	##을	O	O
+18	거	O	O
+19	##다	O	O
+20	.	O	O
+21	[SEP]	O	O

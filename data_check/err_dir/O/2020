@@ -1,77 +1,53 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-EV, I-OG
-1	손	B-PS	B-PS	B-PS, B-OG, O, B-LC, I-PS
-2	##씨	O	O	O, I-PS, I-OG, B-CV, I-AF
-3	##는	O	O	O, B-CV, B-TM, B-LC, B-OG
-4	""""	O	O	O, B-CV, B-LC, B-PS, B-OG
-5	태	B-CV	B-CV	B-CV, B-OG, B-PS, O, B-LC
-6	##왕	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-PS
-7	##의	O	O	O, I-CV, I-OG, B-PS, I-PS
-8	시대	O	O	O, B-PS, I-DT, B-CV, I-CV
-9	##는	O	O	O, B-PS, B-CV, B-LC, B-OG
-10	전쟁	O	O	O, B-CV, B-LC, B-PS, B-FD
-11	##의	O	O	O, B-PS, B-LC, B-CV, B-OG
-12	중심	O	O	O, B-TM, B-LC, B-PS, B-CV
-13	##이	O	O	O, B-PS, B-LC, B-OG, B-CV
-14	전차	O	B-AF	B-AF, O, B-CV, B-OG, I-AF
-15	##에서	O	O	O, I-AF, I-CV, I-OG, B-PS
-16	기병	B-CV	B-CV	B-CV, O, B-AF, B-OG, B-FD
-17	##으로	O	O	O, I-CV, I-OG, I-AF, B-PS
-18	바뀌	O	O	O, B-PS, B-CV, B-LC, B-TM
-19	##던	O	O	O, B-PS, B-CV, B-LC, B-OG
-20	때	O	O	O, B-PS, B-CV, I-DT, B-DT
-21	""""	O	O	O, B-CV, B-LC, B-PS, B-OG
-22	라며	O	O	O, B-PS, B-LC, B-OG, B-CV
-23	""""	O	O	O, B-CV, B-LC, B-PS, B-TM
-24	태	B-CV	B-CV	B-CV, B-OG, O, B-PS, B-LC
-25	##왕	I-CV	I-CV	I-CV, O, I-OG, B-CV, I-PS
-26	##은	O	O	O, I-CV, I-OG, B-CV, B-PS
-27	기병	B-CV	B-CV	B-CV, O, B-OG, B-AF, B-FD
-28	##뿐	O	O	O, I-CV, I-AF, I-OG, I-EV
-29	아니	O	O	O, B-PS, B-LC, B-TM, B-CV
-30	##라	O	O	O, B-PS, B-LC, B-OG, B-CV
-31	말	B-AM	B-AM	B-AM, O, B-AF, B-PS, B-CV
-32	##에	O	O	O, I-AF, I-CV, I-PS, I-DT
-33	##게	O	O	O, B-CV, B-TM, B-LC, B-PS
-34	##도	O	O	O, B-CV, B-PS, B-LC, B-DT
-35	갑옷	B-CV	B-CV	B-CV, O, B-AF, I-CV, B-AM
-36	##을	O	O	O, I-CV, I-AF, B-CV, B-PS
-37	씌	O	O	O, B-CV, B-LC, B-PS, B-OG
-38	##웠	O	O	O, B-LC, B-PS, B-CV, B-OG
-39	##는데	O	O	O, B-PS, B-LC, B-CV, B-OG
-40	,	O	O	O, B-CV, B-PS, B-LC, B-OG
-41	말	B-AM	B-AM	B-AM, O, B-AF, B-PS, B-CV
-42	##이	O	O	O, I-AF, B-PS, I-PS, B-AM
-43	그	O	O	O, B-CV, B-TM, B-LC, B-PS
-44	무게	O	O	O, B-TM, B-PS, B-LC, B-QT
-45	##를	O	O	O, B-PS, B-CV, B-TM, B-LC
-46	모두	O	O	O, B-LC, B-TM, B-PS, B-QT
-47	감당	O	O	O, B-LC, B-PS, B-TM, B-CV
-48	##하기	O	O	O, B-LC, B-PS, B-TM, B-CV
-49	위해	O	O	O, B-LC, B-PS, B-TM, B-OG
-50	초	O	O	O, B-LC, B-CV, B-TM, B-PS
-51	##경	O	O	O, B-CV, I-LC, I-CV, I-TM
-52	##량	O	O	O, I-CV, I-TM, I-LC, B-CV
-53	##화	O	O	O, B-PS, I-LC, I-TM, B-LC
-54	##된	O	O	O, B-LC, B-PS, B-CV, B-OG
-55	철	B-MT	B-MT	B-MT, O, I-MT, B-AF, B-CV
-56	##을	O	O	O, I-AF, B-CV, I-CV, I-TM
-57	제조	O	O	O, B-CV, B-LC, B-TM, B-OG
-58	##하	O	O	O, B-LC, B-CV, B-PS, B-OG
-59	##는	O	O	O, B-CV, B-LC, B-TM, B-PS
-60	데	O	O	O, B-LC, B-CV, B-PS, B-TM
-61	성공	O	O	O, B-CV, B-LC, B-OG, B-TM
-62	##했	O	O	O, B-PS, B-LC, B-CV, B-OG
-63	##다	O	O	O, B-CV, B-PS, B-LC, B-OG
-64	""""	O	O	O, B-CV, B-LC, B-PS, B-TM
-65	고	O	O	O, B-LC, B-CV, B-OG, B-PS
-66	고구려	B-OG	B-OG	B-OG, B-CV, B-LC, B-AF, O
-67	##군	I-OG	I-OG	I-OG, I-CV, O, I-AF, I-EV
-68	##의	O	O	O, I-OG, I-AF, I-CV, I-EV
-69	강점	O	O	O, B-CV, B-TM, B-LC, B-OG
-70	##을	O	O	O, B-CV, B-PS, B-TM, B-OG
-71	짚	O	O	O, B-CV, B-OG, B-TM, B-LC
-72	##어냈	O	O	O, B-CV, I-QT, I-CV, B-QT
-73	##다	O	O	O, B-CV, B-TM, I-QT, B-QT
-74	.	O	O	O, B-LC, B-PS, B-CV, B-OG
-75	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	한편	O	O
+2	농	B-OG	B-OG
+3	##식	I-OG	I-OG
+4	##품	I-OG	I-OG
+5	##부	I-OG	I-OG
+6	##는	O	O
+7	""""	O	O
+8	9	B-DT	B-DT
+9	##일	I-DT	I-DT
+10	하루	B-DT	B-DT
+11	강화군	B-LC	B-LC
+12	선원	B-LC	B-LC
+13	##면	I-LC	I-LC
+14	##의	O	O
+15	한우	O	B-AM
+16	농장	O	O
+17	2	B-QT	B-QT
+18	##곳	I-QT	I-QT
+19	##과	O	O
+20	강화군	B-LC	B-LC
+21	불	B-LC	B-LC
+22	##은	I-LC	I-LC
+23	##면	I-LC	I-LC
+24	##의	O	O
+25	돼지	B-AM	B-AM
+26	농장	O	O
+27	1	B-QT	B-QT
+28	##곳	I-QT	I-QT
+29	등	O	O
+30	모두	O	O
+31	3	B-QT	B-QT
+32	##개	I-QT	I-QT
+33	가축	O	O
+34	##농	O	O
+35	##장	O	O
+36	##에	O	O
+37	##서	O	O
+38	구제역	B-TM	B-TM
+39	의심	O	O
+40	신고	O	O
+41	##가	O	O
+42	추가	O	O
+43	##로	O	O
+44	들어왔	O	O
+45	##다	O	O
+46	""""	O	O
+47	고	O	O
+48	밝혔	O	O
+49	##다	O	O
+50	.	O	O
+51	[SEP]	O	O

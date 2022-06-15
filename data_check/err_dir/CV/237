@@ -1,21 +1,42 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	[	O	O	O, B-OG, B-LC, B-DT, B-PS
-2	한겨레	B-OG	B-OG	B-OG, O, I-OG, B-AF, B-LC
-3	]	O	O	O, I-OG, I-AF, I-DT, I-EV
-4	‘	O	O	O, B-LC, B-CV, B-OG, B-DT
-5	조종	B-PS	B-AF	B-AF, B-PS, B-LC, B-EV, B-OG
-6	##현	I-PS	I-AF	I-AF, I-PS, I-LC, I-EV, I-OG
-7	조정	B-PS	I-AF	I-AF, B-AF, I-PS, B-PS, B-LC
-8	##래	I-PS	I-AF	I-AF, I-PS, I-LC, I-EV, I-OG
-9	김	B-PS	I-AF	I-AF, B-AF, I-PS, B-PS, B-LC
-10	##초	I-PS	I-AF	I-AF, I-PS, I-LC, O, I-EV
-11	##혜	I-PS	I-AF	I-AF, I-PS, I-LC, I-OG, I-EV
-12	가족	B-CV	I-AF	I-AF, B-AF, O, B-CV, I-PS
-13	##문학	O	I-AF	I-AF, O, I-LC, I-EV, I-CV
-14	##관	O	I-AF	I-AF, O, I-LC, I-CV, I-EV
-15	’	O	O	O, I-AF, I-EV, I-OG, I-CV
-16	고흥	B-LC	B-LC	B-LC, O, B-OG, B-AF, I-LC
-17	##서	O	O	O, I-LC, I-AF, B-LC, I-EV
-18	개관	O	O	O, B-CV, B-EV, B-LC, B-AF
-19	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-AF
+	text	label	preds
+0	[CLS]	O	O
+1	광동	B-OG	B-OG
+2	##제	I-OG	I-OG
+3	##약	I-OG	I-OG
+4	##은	O	O
+5	“	O	O
+6	고인	B-CV	O
+7	##은	O	O
+8	소	O	O
+9	##학교	O	O
+10	중퇴	O	O
+11	학력	O	O
+12	##에도	O	O
+13	불구	O	O
+14	##하	O	O
+15	##고	O	O
+16	타고난	O	O
+17	추진력	O	O
+18	##으로	O	O
+19	연	O	O
+20	##매	O	O
+21	##출	O	O
+22	4	B-QT	B-QT
+23	##천	I-QT	I-QT
+24	##억	I-QT	I-QT
+25	##원	I-QT	I-QT
+26	##의	O	O
+27	중견	O	O
+28	제약	O	O
+29	##기업	O	O
+30	##을	O	O
+31	일궈	O	O
+32	##냈	O	O
+33	##다	O	O
+34	”	O	O
+35	고	O	O
+36	설명	O	O
+37	##했	O	O
+38	##다	O	O
+39	.	O	O
+40	[SEP]	O	O

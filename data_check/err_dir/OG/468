@@ -1,36 +1,22 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	용인	B-AF	B-AF	B-AF, B-LC, B-OG, O, B-EV
-2	##경	I-AF	I-AF	I-AF, B-AF, O, I-LC, I-OG
-3	##전	I-AF	I-AF	I-AF, O, B-AF, I-LC, I-OG
-4	##철	I-AF	I-AF	I-AF, O, B-AF, I-LC, I-EV
-5	개통	O	O	O, I-AF, I-EV, B-CV, I-TM
-6	##을	O	O	O, I-AF, B-PS, B-OG, B-CV
-7	둘러싼	O	O	O, B-LC, B-OG, B-PS, B-TM
-8	용인시	B-OG	B-OG	B-OG, B-LC, O, B-PS, I-OG
-9	##와	O	O	O, I-OG, I-LC, I-AF, I-PS
-10	민간	O	O	O, B-CV, B-OG, B-TM, B-AF
-11	시행	O	O	O, B-CV, B-OG, I-OG, B-TM
-12	##사	O	O	O, I-OG, I-CV, B-CV, B-OG
-13	용인	B-OG	B-OG	B-OG, I-OG, O, B-LC, B-AF
-14	##경	I-OG	I-OG	I-OG, O, B-OG, I-AF, I-LC
-15	##전	I-OG	I-OG	I-OG, O, I-AF, I-LC, B-OG
-16	##철	I-OG	I-OG	I-OG, O, I-AF, I-LC, I-CV
-17	(	I-OG	I-OG	I-OG, B-OG, O, I-CV, I-AF
-18	주	I-OG	I-OG	I-OG, O, B-OG, I-CV, I-QT
-19	)	I-OG	O	O, I-OG, I-CV, I-QT, B-CV
-20	의	O	O	O, B-OG, B-LC, B-CV, B-PS
-21	갈등	O	O	O, B-CV, B-OG, B-TM, B-LC
-22	문제	O	O	O, B-CV, B-PS, B-TM, B-OG
-23	##가	O	O	O, B-PS, B-OG, B-LC, B-CV
-24	결국	O	O	O, B-OG, B-CV, B-LC, B-TM
-25	국제	O	B-OG	B-OG, O, B-CV, B-LC, I-OG
-26	중재	O	I-OG	I-OG, O, B-OG, I-CV, I-EV
-27	기관	O	I-OG	I-OG, O, I-EV, I-CV, I-LC
-28	##으로	O	O	O, I-OG, I-EV, B-PS, I-QT
-29	넘어가	O	O	O, B-CV, B-OG, B-PS, B-LC
-30	##게	O	O	O, B-CV, B-OG, B-LC, B-TM
-31	됐	O	O	O, B-CV, B-OG, B-LC, B-QT
-32	##다	O	O	O, B-CV, B-TM, I-EV, B-LC
-33	.	O	O	O, B-OG, B-LC, B-CV, B-PS
-34	[SEP]	O	O	O, B-OG, B-CV, B-LC, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	25	B-DT	B-DT
+2	##일	I-DT	I-DT
+3	서울	B-LC	B-LC
+4	영등포구	B-LC	B-LC
+5	문	B-LC	B-LC
+6	##래	I-LC	I-LC
+7	##동	I-LC	I-LC
+8	##의	O	O
+9	열	O	O
+10	##처리	O	O
+11	##업체	O	O
+12	##인	O	O
+13	대한	B-OG	O
+14	##진	I-OG	O
+15	##공	I-OG	O
+16	##열	I-OG	O
+17	##처리	I-OG	O
+18	사무실	O	O
+19	.	O	O
+20	[SEP]	O	O

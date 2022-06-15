@@ -1,27 +1,32 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	정부	B-OG	B-OG	B-OG, B-LC, B-AF, O, B-PS
-2	##가	O	O	O, I-OG, B-CV, I-EV, I-AF
-3	국공립	O	O	O, B-FD, B-CV, B-OG, B-AF
-4	유치원	O	O	O, I-OG, B-FD, B-CV, I-CV
-5	취	O	O	O, B-CV, B-TM, I-OG, B-OG
-6	##원	O	O	O, I-OG, I-AF, B-LC, I-CV
-7	##율	O	O	O, B-LC, B-OG, B-PS, B-TM
-8	##을	O	O	O, B-CV, B-QT, B-TM, B-LC
-9	사	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-LC
-10	##십	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-11	##퍼	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-12	##센트	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-13	##까	I-QT	O	O, I-QT, B-QT, I-LC, I-OG
-14	##지	I-QT	O	O, I-QT, B-QT, I-LC, B-LC
-15	끌어올리	O	O	O, I-QT, B-CV, B-LC, B-TM
-16	##기	O	O	O, B-LC, B-CV, B-PS, B-TM
-17	위한	O	O	O, B-LC, B-CV, B-TM, B-QT
-18	방안	O	O	O, B-CV, B-LC, B-TM, B-QT
-19	##을	O	O	O, B-CV, B-OG, B-LC, B-TM
-20	본격	O	O	O, B-CV, B-LC, B-TM, B-DT
-21	##적으로	O	O	O, B-LC, B-CV, B-OG, B-PS
-22	추진	O	O	O, B-LC, B-CV, B-OG, B-TM
-23	##합니다	O	O	O, B-CV, B-LC, B-OG, I-OG
-24	.	O	O	O, B-LC, B-CV, B-OG, B-PS
-25	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	[	O	O
+2	뛰	O	O
+3	##자	O	O
+4	!	O	O
+5	한국	B-LC	B-LC
+6	##기업	O	O
+7	]	O	O
+8	금호	B-OG	B-OG
+9	##석	I-OG	I-OG
+10	##유	I-OG	I-OG
+11	##화학	I-OG	I-OG
+12	,	O	O
+13	‘	O	O
+14	S	B-MT	B-MT
+15	-	I-MT	I-MT
+16	S	I-MT	I-MT
+17	##B	I-MT	I-MT
+18	##R	I-MT	I-MT
+19	’	O	O
+20	핵심	O	O
+21	##제품	O	O
+22	육성	O	O
+23	…	O	O
+24	세계	O	O
+25	일등	B-QT	O
+26	20	B-QT	B-QT
+27	##개	I-QT	I-QT
+28	만들	O	O
+29	##기	O	O
+30	[SEP]	O	O

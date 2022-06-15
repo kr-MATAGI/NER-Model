@@ -1,13 +1,16 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-EV, I-CV, B-CV
-1	◇	O	O	O, B-LC, B-OG, B-CV, B-EV
-2	##기	O	B-PS	B-PS, B-OG, O, B-EV, B-LC
-3	##적	O	I-PS	I-PS, O, I-OG, I-LC, I-EV
-4	##의	O	O	O, I-OG, I-PS, I-EV, I-AF
-5	드라마	O	O	O, B-FD, I-AF, I-FD, I-OG
-6	##를	O	O	O, I-AF, I-OG, B-CV, I-EV
-7	완성	O	O	O, B-CV, B-LC, B-OG, B-PS
-8	##한	O	O	O, B-PS, B-LC, B-OG, B-CV
-9	이현	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-AF
-10	##승	I-PS	I-PS	I-PS, O, I-OG, I-LC, B-PS
-11	[SEP]	O	O	O, I-PS, I-OG, I-AF, I-EV
+	text	label	preds
+0	[CLS]	O	O
+1	식의	O	B-OG
+2	##약	O	I-OG
+3	리더	B-CV	I-OG
+4	##라는	O	O
+5	영	O	O
+6	리더	B-CV	B-CV
+7	.	O	O
+8	이런	O	O
+9	그	O	O
+10	프로그램	O	O
+11	##도	O	O
+12	만들	O	O
+13	##고	O	O
+14	[SEP]	O	O

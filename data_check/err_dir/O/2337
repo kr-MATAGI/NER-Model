@@ -1,19 +1,31 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-AF
-1	1	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-OG
-2	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-3	##새	I-DT	I-DT	I-DT, O, I-QT, B-DT, I-TI
-4	26	B-QT	B-QT	B-QT, I-QT, O, B-DT, I-DT
-5	##1	I-QT	I-QT	I-QT, B-QT, I-DT, O, I-LC
-6	%	I-QT	I-QT	I-QT, O, I-OG, I-LC, I-DT
-7	급등	O	O	O, I-QT, B-OG, B-CV, I-OG
-8	…	O	O	O, B-OG, I-OG, B-LC, B-PS
-9	신세계	B-OG	B-OG	B-OG, O, B-PS, B-AF, I-OG
-10	##건설	I-OG	I-OG	I-OG, O, B-OG, I-PS, I-AF
-11	株	O	O	O, I-OG, I-CV, B-PS, I-AF
-12	[UNK]	O	O	O, B-PS, B-OG, B-LC, I-OG
-13	연일	O	O	O, B-DT, B-LC, B-OG, B-PS
-14	'	O	O	O, B-LC, B-OG, B-PS, B-CV
-15	신세계	O	B-OG	B-OG, O, B-CV, B-AF, I-OG
-16	'	O	O	O, I-OG, I-CV, I-AF, I-EV
-17	[SEP]	O	O	O, B-OG, B-LC, I-OG, B-CV
+	text	label	preds
+0	[CLS]	O	O
+1	이	O	O
+2	##들	O	O
+3	##은	O	O
+4	이러	O	O
+5	##한	O	O
+6	요구	O	O
+7	##가	O	O
+8	받아들여	O	O
+9	##질	O	O
+10	때	O	O
+11	##까	O	O
+12	##지	O	O
+13	전대	O	B-OG
+14	##준	O	I-OG
+15	##비	O	I-OG
+16	##위	O	I-OG
+17	##에	O	O
+18	참여	O	O
+19	##하	O	O
+20	##지	O	O
+21	않	O	O
+22	##겠다	O	O
+23	##며	O	O
+24	거듭	O	O
+25	압박	O	O
+26	##했	O	O
+27	##다	O	O
+28	.	O	O
+29	[SEP]	O	O

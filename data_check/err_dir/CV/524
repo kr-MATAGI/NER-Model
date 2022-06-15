@@ -1,33 +1,25 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	지난	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-2	20	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-3	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-4	##에	O	O	O, I-DT, B-CV, I-AF, I-QT
-5	올라온	O	O	O, B-LC, B-CV, B-TM, B-PS
-6	한	O	O	O, B-QT, B-PS, B-LC, B-OG
-7	영상	O	O	O, B-CV, B-TM, B-LC, B-PS
-8	##에서	O	O	O, B-PS, B-CV, B-LC, I-CV
-9	##는	O	O	O, B-PS, B-CV, B-OG, B-LC
-10	중학생	B-CV	B-CV	B-CV, O, B-OG, B-QT, B-TM
-11	##으로	O	O	O, I-CV, B-PS, I-QT, B-CV
-12	추정	O	O	O, B-PS, B-TM, B-OG, B-QT
-13	##되	O	O	O, B-PS, I-PS, B-LC, B-OG
-14	##는	O	O	O, B-PS, B-CV, B-OG, B-QT
-15	남학생	O	O	O, B-CV, I-CV, B-QT, B-TM
-16	한	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-PS
-17	명	I-QT	I-QT	I-QT, O, I-PS, I-LC, B-QT
-18	##을	O	O	O, I-QT, B-CV, B-PS, I-CV
-19	차	B-AF	B-AF	B-AF, O, B-OG, I-AF, B-CV
-20	##에	O	O	O, I-AF, B-CV, I-CV, I-OG
-21	태운	O	O	O, B-CV, B-PS, B-AF, B-QT
-22	뒤	O	O	O, B-LC, B-TM, B-CV, B-DT
-23	“	O	O	O, B-CV, B-PS, B-LC, B-TM
-24	지금	O	O	O, B-PS, B-CV, B-LC, B-AF
-25	널	O	O	O, B-CV, B-PS, B-LC, I-AF
-26	납치	B-CV	O	O, B-CV, I-CV, B-TM, B-AF
-27	##하고	O	O	O, I-CV, B-PS, I-AF, B-CV
-28	있	O	O	O, B-PS, B-CV, B-LC, I-AF
-29	##다	O	O	O, B-PS, B-CV, I-AF, B-LC
-30	.	O	O	O, B-PS, B-CV, B-LC, B-AF
-31	[SEP]	O	O	O, B-CV, B-PS, B-LC, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	집회	O	B-CV
+2	·	O	I-CV
+3	시위	O	I-CV
+4	자유	O	I-CV
+5	보장	O	O
+6	##을	O	O
+7	위해	O	O
+8	집시	B-CV	B-CV
+9	##법	I-CV	I-CV
+10	외	O	O
+11	##에	O	O
+12	경찰관	B-CV	B-CV
+13	직무	B-CV	I-CV
+14	##집행	I-CV	I-CV
+15	##법	I-CV	I-CV
+16	##도	O	O
+17	고쳐야	O	O
+18	한다는	O	O
+19	지적	O	O
+20	##이	O	O
+21	나온다	O	O
+22	.	O	O
+23	[SEP]	O	O

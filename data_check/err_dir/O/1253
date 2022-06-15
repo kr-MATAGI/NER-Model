@@ -1,17 +1,38 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	근까	O	O	O, B-CV, B-PS, B-LC, B-QT
-2	한	O	B-QT	B-QT, O, B-PS, B-CV, I-QT
-3	마디	O	O	O, I-QT, I-CV, I-PS, I-DT
-4	##로	O	O	O, I-QT, B-PS, I-CV, I-DT
-5	어	O	O	O, B-CV, B-PS, B-LC, B-QT
-6	젖	B-AM	B-AM	B-AM, O, B-CV, B-TM, B-TR
-7	##꼭지	I-AM	I-AM	I-AM, O, I-CV, I-TM, B-AM
-8	##를	O	O	O, I-CV, I-TM, I-AF, I-QT
-9	자유	O	O	O, B-CV, B-TM, B-PS, B-QT
-10	##롭	O	O	O, I-CV, I-PS, I-LC, I-TR
-11	##게	O	O	O, I-CV, I-PS, I-QT, I-LC
-12	하	O	O	O, B-PS, B-CV, B-QT, B-LC
-13	##라	O	O	O, I-QT, I-CV, B-CV, B-PS
-14	.	O	O	O, B-CV, B-LC, B-OG, I-QT
-15	[SEP]	O	O	O, B-CV, B-PS, B-LC, B-QT
+	text	label	preds
+0	[CLS]	O	O
+1	컴퓨터	B-TM	B-TM
+2	옆	O	B-TM
+3	##에	O	O
+4	알람	O	O
+5	##을	O	O
+6	둬	O	O
+7	사용	O	O
+8	시간	O	O
+9	##을	O	O
+10	알	O	O
+11	수	O	O
+12	있	O	O
+13	##도록	O	O
+14	하고	O	O
+15	,	O	O
+16	아이	O	O
+17	##가	O	O
+18	스스로	O	O
+19	시간	O	O
+20	조절	O	O
+21	##을	O	O
+22	하	O	O
+23	##는	O	O
+24	것	O	O
+25	##을	O	O
+26	어려워	O	O
+27	##할	O	O
+28	경우	O	O
+29	시간	O	O
+30	관리	O	O
+31	소프트웨어	O	O
+32	##를	O	O
+33	활용	O	O
+34	##한다	O	O
+35	.	O	O
+36	[SEP]	O	O

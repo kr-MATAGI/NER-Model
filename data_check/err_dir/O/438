@@ -1,62 +1,19 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-EV, I-OG
-1	야당	O	O	O, B-OG, B-CV, B-LC, B-TM
-2	##에서	O	O	O, B-CV, B-PS, I-CV, I-OG
-3	주장	O	O	O, B-CV, B-LC, B-PS, B-TM
-4	##하고	O	O	O, B-PS, B-CV, B-LC, B-OG
-5	있	O	O	O, B-PS, B-CV, B-LC, B-OG
-6	##는	O	O	O, B-PS, B-LC, B-CV, B-OG
-7	법인세	B-CV	B-CV	B-CV, O, B-OG, I-CV, B-AF
-8	인상	O	O	O, I-CV, I-OG, B-CV, I-EV
-9	##에	O	O	O, B-PS, B-CV, B-LC, I-CV
-10	대해	O	O	O, B-LC, B-OG, B-PS, B-CV
-11	안	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-12	수석	B-CV	B-CV	B-CV, O, I-CV, I-PS, B-OG
-13	##은	O	O	O, I-CV, I-EV, B-CV, I-OG
-14	“	O	O	O, B-LC, B-CV, B-PS, B-OG
-15	현	O	O	O, B-PS, B-LC, B-OG, B-CV
-16	정부	B-OG	B-OG	B-OG, O, B-AF, B-PS, B-LC
-17	##로	O	O	O, I-OG, I-EV, I-AF, B-CV
-18	##서	O	O	O, B-LC, B-PS, B-CV, I-OG
-19	##는	O	O	O, B-LC, B-PS, B-CV, B-OG
-20	전혀	O	O	O, B-LC, B-PS, B-QT, B-OG
-21	고려	O	O	O, B-LC, B-CV, B-PS, B-TM
-22	##하	O	O	O, B-PS, B-LC, B-OG, B-CV
-23	##지	O	O	O, B-PS, B-LC, B-CV, B-OG
-24	않	O	O	O, B-LC, B-PS, B-CV, B-OG
-25	##고	O	O	O, B-PS, B-LC, B-CV, B-OG
-26	있	O	O	O, B-PS, B-LC, B-CV, B-OG
-27	##다	O	O	O, B-PS, B-LC, B-CV, B-OG
-28	”	O	O	O, B-CV, B-LC, B-PS, B-TM
-29	고	O	O	O, B-PS, B-LC, B-CV, B-OG
-30	선	O	O	O, B-CV, B-PS, B-LC, B-QT
-31	##을	O	O	O, B-PS, B-CV, I-CV, I-QT
-32	그	O	O	O, B-LC, B-PS, B-CV, B-QT
-33	##으며	O	O	O, B-LC, B-PS, B-CV, B-OG
-34	“	O	O	O, B-LC, B-CV, B-PS, B-OG
-35	법인세	O	B-CV	B-CV, O, I-CV, B-OG, B-TR
-36	##율	O	O	O, I-CV, B-PS, I-TR, I-PS
-37	인상	O	O	O, B-CV, I-CV, B-PS, B-LC
-38	##은	O	O	O, B-PS, B-LC, B-CV, B-OG
-39	투자	O	O	O, B-CV, B-TM, B-OG, B-LC
-40	##를	O	O	O, B-CV, B-PS, B-TM, I-CV
-41	위축	O	O	O, B-CV, B-TM, B-LC, B-PS
-42	##시	O	O	O, B-PS, B-LC, B-CV, B-TM
-43	##키	O	O	O, B-LC, B-PS, B-CV, B-TM
-44	##고	O	O	O, B-LC, B-PS, B-CV, B-TM
-45	경제	O	O	O, B-CV, B-TM, B-LC, B-FD
-46	##를	O	O	O, B-CV, B-PS, B-TM, B-LC
-47	악화	O	O	O, B-CV, B-LC, B-TM, B-PS
-48	##시	O	O	O, B-PS, B-LC, B-CV, B-TM
-49	##킬	O	O	O, B-LC, B-PS, B-CV, B-TM
-50	가능	O	O	O, B-CV, B-LC, B-PS, B-TM
-51	##성이	O	O	O, B-PS, B-CV, B-LC, B-TM
-52	크다	O	O	O, B-CV, B-PS, B-LC, I-QT
-53	”	O	O	O, B-CV, B-LC, B-TM, B-PS
-54	고	O	O	O, B-CV, B-LC, B-PS, B-TM
-55	잘라	O	O	O, B-PS, B-QT, B-LC, B-CV
-56	말	O	O	O, I-QT, I-CV, B-CV, B-PS
-57	##했	O	O	O, B-PS, B-CV, B-LC, I-QT
-58	##다	O	O	O, B-CV, B-LC, B-PS, B-TM
-59	.	O	O	O, B-LC, B-PS, B-CV, B-OG
-60	[SEP]	O	O	O, B-LC, B-CV, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	다른	O	O
+2	절도	B-CV	B-CV
+3	폭행	O	O
+4	흉악	O	B-CV
+5	##범죄	O	I-CV
+6	##는	O	O
+7	이런	O	O
+8	것	O	O
+9	##들	O	O
+10	##은	O	O
+11	오히려	O	O
+12	살짝	O	O
+13	감소	O	O
+14	##하	O	O
+15	##는데	O	O
+16	.	O	O
+17	[SEP]	O	O

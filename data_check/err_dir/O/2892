@@ -1,6 +1,42 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, B-CV, I-OG, I-AF
-1	한라	O	B-PT	B-PT, O, B-CV, B-AM, B-LC
-2	그렇	O	O	O, I-CV, B-CV, I-OG, I-EV
-3	##지	O	O	O, I-CV, I-OG, B-CV, I-QT
-4	[SEP]	O	O	O, B-CV, I-CV, I-OG, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	월드	B-EV	B-OG
+2	##미스	I-EV	I-OG
+3	##유	I-EV	I-OG
+4	##니	I-EV	I-OG
+5	##버시	I-EV	I-OG
+6	##티	I-EV	I-OG
+7	(	O	O
+8	이하	O	O
+9	W	B-EV	B-OG
+10	##M	I-EV	I-OG
+11	##U	I-EV	I-OG
+12	)	O	O
+13	한국	B-LC	B-LC
+14	##대	O	O
+15	##회	O	O
+16	준비	O	B-OG
+17	##위원회	O	I-OG
+18	##가	O	O
+19	31	B-DT	B-DT
+20	##일	I-DT	I-DT
+21	오전	B-TI	B-TI
+22	서울	B-LC	B-LC
+23	프레스센터	B-AF	B-AF
+24	##에	O	O
+25	##서	O	O
+26	세계	B-EV	B-OG
+27	##대	I-EV	I-OG
+28	##학생	I-EV	I-OG
+29	##평	I-EV	I-OG
+30	##화	I-EV	I-OG
+31	##봉사	I-EV	I-OG
+32	##사	I-EV	I-OG
+33	##절	I-EV	I-OG
+34	##단	I-EV	I-OG
+35	발대식	I-EV	I-EV
+36	##을	O	O
+37	가졌	O	O
+38	##다	O	O
+39	.	O	O
+40	[SEP]	O	O

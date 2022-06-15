@@ -1,29 +1,12 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	시간	O	O	O, B-CV, B-PS, B-LC, B-AF
-2	##강	O	O	O, B-PS, I-CV, B-CV, B-LC
-3	##사의	O	O	O, B-PS, B-CV, B-LC, I-CV
-4	임용	O	O	O, B-CV, B-PS, B-LC, B-TM
-5	기간	O	O	O, B-PS, B-LC, B-CV, I-CV
-6	##을	O	O	O, B-PS, B-CV, B-LC, B-OG
-7	1	O	B-DT	B-DT, O, I-DT, B-QT, B-LC
-8	##년	O	I-DT	I-DT, O, B-DT, I-QT, I-PS
-9	이상	O	I-DT	I-DT, O, B-DT, I-QT, I-PS
-10	##으로	O	O	O, I-DT, B-CV, B-LC, B-PS
-11	보장	O	O	O, B-CV, B-LC, B-PS, B-OG
-12	##하	O	O	O, B-PS, B-CV, B-LC, I-CV
-13	##는	O	O	O, B-CV, B-PS, B-LC, B-OG
-14	시간	B-CV	B-CV	B-CV, O, B-OG, I-CV, B-AF
-15	##강	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-AF
-16	##사	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-TM
-17	##법	O	I-CV	I-CV, O, B-CV, I-OG, I-TM
-18	##은	O	O	O, I-CV, I-OG, I-EV, I-QT
-19	시행	O	O	O, B-CV, B-LC, B-OG, I-CV
-20	##이	O	O	O, B-PS, B-LC, B-OG, B-CV
-21	1	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-LC
-22	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-23	유예	O	O	O, I-DT, B-CV, B-LC, B-OG
-24	##됐	O	O	O, B-LC, B-CV, B-OG, I-OG
-25	##다	O	O	O, B-CV, B-LC, B-OG, I-OG
-26	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-27	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	사실	O	O
+2	뭐	O	O
+3	김광석	B-PS	B-TR
+4	##법	O	I-TR
+5	자체	O	O
+6	##는	O	O
+7	굉장히	O	O
+8	좋	O	O
+9	##잖아요	O	O
+10	[SEP]	O	O

@@ -1,21 +1,15 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	지금	O	O	O, B-CV, B-OG, B-TM, B-LC
-2	짐	O	O	O, B-PS, B-CV, B-OG, B-LC
-3	현재	O	O	O, B-CV, B-AF, B-LC, B-OG
-4	중앙	O	O	O, B-AF, B-OG, B-TM, B-CV
-5	도서관	O	O	O, I-AF, I-OG, I-TM, I-CV
-6	##은	O	O	O, I-AF, I-OG, I-EV, I-CV
-7	또	O	O	O, B-OG, B-CV, B-LC, B-TM
-8	옆	B-TM	B-TM	B-TM, O, B-CV, B-LC, I-TM
-9	##에	O	O	O, I-TM, I-AF, I-OG, B-PS
-10	삼성	B-OG	B-OG	B-OG, B-AF, B-LC, O, B-PS
-11	학술	O	I-AF	I-AF, I-OG, O, B-AF, B-OG
-12	정보	O	I-AF	I-AF, I-OG, O, I-LC, I-EV
-13	##관	O	I-AF	I-AF, I-OG, O, I-LC, I-EV
-14	##이	O	O	O, I-AF, I-OG, I-EV, B-PS
-15	생겨	O	O	O, B-CV, B-OG, I-AF, B-AF
-16	가지	O	O	O, B-CV, B-PS, B-OG, B-LC
-17	##구	O	O	O, I-OG, B-LC, I-AF, I-EV
-18	.	O	O	O, B-CV, B-LC, B-OG, I-OG
-19	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-AF
+	text	label	preds
+0	[CLS]	O	O
+1	원통	B-TM	B-TM
+2	##형	I-TM	I-TM
+3	##의	O	O
+4	타이어	O	O
+5	대신	O	O
+6	공	O	B-CV
+7	##을	O	O
+8	장착	O	O
+9	##한	O	O
+10	덕	O	O
+11	##이다	O	O
+12	.	O	O
+13	[SEP]	O	O

@@ -1,38 +1,50 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	다만	O	O	O, B-CV, B-TM, B-OG, B-LC
-2	가계부	O	O	O, B-TM, B-CV, B-AF, B-OG
-3	##채	O	O	O, I-TM, I-CV, I-AF, I-OG
-4	##와	O	O	O, B-LC, B-PS, B-OG, B-CV
-5	지방	B-OG	O	O, B-OG, B-CV, B-EV, B-AF
-6	##자치단체	I-OG	O	O, I-OG, I-CV, B-OG, I-EV
-7	세수	O	O	O, I-OG, B-CV, B-TM, I-CV
-8	감소	O	O	O, I-CV, I-TM, I-OG, I-AF
-9	문제	O	O	O, B-CV, B-LC, B-PS, B-TM
-10	##를	O	O	O, B-CV, B-LC, B-OG, B-PS
-11	고려	O	O	O, B-CV, B-LC, B-PS, B-TM
-12	##해	O	O	O, B-LC, B-PS, B-OG, I-OG
-13	,	O	O	O, B-CV, B-LC, B-OG, B-PS
-14	총	O	O	O, B-CV, B-TR, B-QT, B-PS
-15	##부	O	O	O, I-CV, I-TR, I-TM, I-QT
-16	##채	O	O	O, I-CV, I-TR, I-TM, I-AF
-17	##상	O	O	O, I-CV, I-TR, I-TM, I-AF
-18	##환	O	O	O, I-CV, I-TR, I-TM, I-AF
-19	##비	O	O	O, I-CV, I-TR, I-TM, B-PS
-20	##율	O	O	O, I-TR, I-TM, I-CV, I-QT
-21	(	O	O	O, B-CV, B-LC, B-PS, I-CV
-22	DTI	O	O	O, B-TR, B-TM, B-QT, B-PS
-23	)	O	O	O, I-CV, B-CV, I-QT, I-TM
-24	완화	O	O	O, B-CV, I-CV, B-PS, B-TM
-25	##와	O	O	O, B-PS, B-CV, I-CV, B-LC
-26	취득세	B-CV	B-CV	B-CV, O, B-AF, B-OG, B-TM
-27	감면	O	O	O, I-CV, B-CV, I-AF, I-OG
-28	##은	O	O	O, B-LC, B-CV, B-OG, B-PS
-29	신중히	O	O	O, B-CV, B-TM, B-LC, B-QT
-30	검토	O	O	O, B-CV, B-OG, B-LC, B-TM
-31	##하기	O	O	O, B-PS, B-OG, B-CV, B-LC
-32	##로	O	O	O, B-CV, B-OG, I-OG, B-PS
-33	했	O	O	O, B-CV, B-OG, B-LC, B-PS
-34	##다	O	O	O, B-CV, B-OG, B-LC, I-OG
-35	.	O	O	O, B-LC, B-CV, B-OG, B-PS
-36	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	김종인	B-PS	B-PS
+2	·	O	O
+3	이상	B-PS	B-PS
+4	##돈	I-PS	I-PS
+5	위원	B-CV	B-CV
+6	등이	O	O
+7	이명박	B-PS	B-PS
+8	대통령	B-CV	B-CV
+9	##의	O	O
+10	‘	O	O
+11	747	B-QT	B-CV
+12	공약	O	O
+13	’	O	O
+14	과	O	O
+15	4	B-TM	B-TM
+16	##대	I-TM	I-TM
+17	##강	I-TM	I-TM
+18	사업	I-TM	I-TM
+19	등	O	O
+20	##을	O	O
+21	비판	O	O
+22	##하	O	O
+23	##는	O	O
+24	등	O	O
+25	비대위	O	O
+26	##가	O	O
+27	‘	O	O
+28	반	O	O
+29	##엠	B-PS	B-PS
+30	##비	I-PS	I-PS
+31	’	O	O
+32	색깔	O	O
+33	##을	O	O
+34	강화	O	O
+35	##할	O	O
+36	경우	O	O
+37	,	O	O
+38	청와대	B-OG	B-AF
+39	##와	O	O
+40	##의	O	O
+41	갈등	O	O
+42	##도	O	O
+43	불가피	O	O
+44	##할	O	O
+45	전망	O	O
+46	##이다	O	O
+47	.	O	O
+48	[SEP]	O	O

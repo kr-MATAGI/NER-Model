@@ -1,52 +1,19 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	저장	O	O	O, B-CV, B-TM, B-PS, B-LC
-2	기술	O	O	O, B-CV, I-CV, B-TM, B-PS
-3	##인	O	O	O, I-CV, B-CV, B-PS, B-TM
-4	‘	O	O	O, B-CV, B-TM, B-AF, B-LC
-5	메탈	B-TR	B-TM	B-TM, B-AF, O, B-TR, B-MT
-6	##그라	I-TR	I-TM	I-TM, I-AF, O, I-TR, I-MT
-7	##운드	I-TR	I-TM	I-TM, I-AF, O, I-TR, I-MT
-8	’	O	O	O, I-TM, I-AF, I-CV, I-OG
-9	는	O	O	O, B-CV, B-LC, B-OG, B-PS
-10	냉기	O	O	O, B-TM, B-LC, B-MT, B-CV
-11	전달	O	O	O, B-LC, B-PS, B-TM, B-CV
-12	##과	O	O	O, B-PS, B-LC, B-CV, B-OG
-13	보존	O	O	O, B-LC, B-TM, B-CV, B-PS
-14	능력	O	O	O, B-LC, B-PS, B-CV, B-TM
-15	##이	O	O	O, B-PS, B-LC, B-OG, B-CV
-16	뛰어난	O	O	O, B-LC, B-CV, B-TM, B-PS
-17	메탈	O	B-MT	B-MT, O, B-TM, I-MT, B-CV
-18	소재	O	O	O, I-MT, B-MT, I-CV, I-TM
-19	##를	O	O	O, B-CV, B-LC, I-CV, B-PS
-20	적용	O	O	O, B-CV, B-LC, B-TM, B-OG
-21	##해	O	O	O, B-LC, B-PS, B-CV, B-OG
-22	땅	O	O	O, B-LC, B-CV, B-PS, B-TM
-23	속	O	O	O, I-LC, B-LC, I-AF, B-PS
-24	##에	O	O	O, B-CV, B-LC, B-PS, I-AF
-25	보관	O	O	O, B-CV, B-LC, B-TM, B-PS
-26	##하	O	O	O, B-CV, B-PS, B-LC, B-OG
-27	##는	O	O	O, B-CV, B-LC, B-PS, B-OG
-28	것	O	O	O, B-CV, B-LC, B-PS, B-QT
-29	##과	O	O	O, B-CV, B-PS, B-LC, B-TM
-30	비슷	O	O	O, B-CV, B-TM, B-PS, B-LC
-31	##한	O	O	O, B-LC, B-PS, B-QT, B-CV
-32	[UNK]	O	O	O, B-QT, B-LC, B-PS, B-OG
-33	.	O	O	O, B-QT, I-QT, B-LC, B-PS
-34	3	O	O	O, B-QT, I-QT, B-PS, I-LC
-35	##℃	O	I-QT	I-QT, O, B-QT, I-LC, I-TI
-36	##의	O	O	O, I-QT, B-LC, B-PS, B-CV
-37	온도	O	O	O, B-LC, B-CV, B-TM, B-QT
-38	##를	O	O	O, B-CV, B-LC, B-TM, B-OG
-39	유지	O	O	O, B-CV, B-LC, B-TM, B-OG
-40	##하	O	O	O, B-LC, B-PS, B-CV, B-OG
-41	##는	O	O	O, B-CV, B-LC, B-PS, B-TM
-42	성능	O	O	O, B-CV, B-LC, B-TM, B-PS
-43	##으로	O	O	O, B-LC, B-PS, B-OG, B-CV
-44	삼성전자	B-OG	B-OG	B-OG, O, B-LC, B-PS, B-AF
-45	##만	O	O	O, I-OG, I-PS, I-LC, I-DT
-46	##의	O	O	O, B-LC, B-PS, I-OG, B-CV
-47	기술	O	O	O, B-CV, B-LC, B-PS, B-TM
-48	##이다	O	O	O, B-CV, B-TM, B-LC, I-CV
-49	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-50	[SEP]	O	O	O, B-CV, B-LC, B-PS, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	여기	O	O
+2	컨	B-TR	O
+3	##서	I-TR	O
+4	##버	I-TR	O
+5	##티	I-TR	O
+6	##비	I-TR	O
+7	##즘	I-TR	O
+8	##이	O	O
+9	##라는	O	O
+10	말	O	O
+11	##을	O	O
+12	안쓰	O	O
+13	##고	O	O
+14	있	O	O
+15	##어요	O	O
+16	.	O	O
+17	[SEP]	O	O

@@ -1,57 +1,48 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-EV, I-OG, B-CV, I-CV
-1	한편	O	O	O, B-QT, B-TM, B-OG, B-CV
-2	2	B-DT	B-DT	B-DT, I-DT, O, B-EV, B-QT
-3	##월	I-DT	I-DT	I-DT, B-DT, O, I-QT, I-EV
-4	26	I-DT	I-DT	I-DT, B-DT, O, I-QT, I-EV
-5	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
-6	국회	B-OG	B-OG	B-OG, B-AF, B-EV, O, B-LC
-7	본회의	O	O	O, I-OG, I-EV, I-AF, I-DT
-8	##에	O	O	O, I-EV, B-OG, B-CV, I-OG
-9	보고	O	O	O, B-OG, B-LC, B-CV, B-AF
-10	##된	O	O	O, B-LC, B-PS, B-OG, B-CV
-11	김	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
-12	의원	B-CV	B-CV	B-CV, O, I-PS, I-CV, I-EV
-13	체포	O	O	O, B-CV, I-CV, I-EV, B-LC
-14	##동	O	O	O, B-LC, B-CV, I-CV, B-PS
-15	##의	O	O	O, I-CV, I-OG, I-AF, B-PS
-16	##안	O	O	O, B-LC, B-PS, I-OG, I-CV
-17	##은	O	O	O, B-LC, B-CV, B-OG, B-PS
-18	‘	O	O	O, B-LC, B-OG, B-CV, B-PS
-19	보고	O	O	O, B-LC, B-CV, B-OG, B-AF
-20	이후	O	O	O, I-DT, I-EV, I-TI, B-PS
-21	72	B-TI	B-TI	B-TI, O, I-TI, B-EV, B-QT
-22	##시간	I-TI	I-TI	I-TI, O, B-TI, I-TR, I-QT
-23	이내	I-TI	I-TI	I-TI, O, I-TR, I-QT, I-EV
-24	표결	O	O	O, I-TI, B-LC, B-OG, I-EV
-25	’	O	O	O, B-OG, B-LC, B-CV, B-PS
-26	규정	O	O	O, B-CV, B-OG, B-LC, B-PS
-27	##에	O	O	O, B-CV, B-PS, B-OG, B-LC
-28	따라	O	O	O, B-LC, B-OG, B-PS, B-CV
-29	1	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-QT
-30	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
-31	##까	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
-32	##지	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
-33	표결	O	O	O, B-LC, I-DT, B-EV, B-OG
-34	##에	O	O	O, B-LC, I-EV, B-OG, B-CV
-35	부쳐	O	O	O, B-LC, B-OG, B-CV, B-EV
-36	##야	O	O	O, B-LC, B-CV, B-OG, B-TM
-37	하지만	O	O	O, B-CV, B-QT, B-LC, B-OG
-38	3	B-DT	B-QT	B-QT, B-EV, B-TM, B-DT, B-TI
-39	·	I-DT	I-QT	I-QT, I-EV, I-DT, I-TM, I-LC
-40	1	I-DT	I-QT	I-QT, I-EV, I-DT, I-TM, I-LC
-41	##절	I-DT	I-QT	I-QT, I-EV, I-TM, I-DT, I-LC
-42	##에	O	O	O, I-QT, I-EV, I-OG, I-AF
-43	본회의	O	O	O, B-LC, B-OG, B-EV, I-EV
-44	일정	O	O	O, B-LC, B-OG, B-CV, I-EV
-45	##을	O	O	O, B-CV, B-OG, B-LC, B-TM
-46	잡지	O	O	O, B-LC, B-CV, B-OG, B-TM
-47	않	O	O	O, B-LC, B-CV, B-OG, B-TM
-48	##아	O	O	O, B-LC, B-CV, B-OG, B-TM
-49	처리	O	O	O, B-LC, B-OG, B-CV, B-EV
-50	##가	O	O	O, B-LC, B-OG, B-PS, B-CV
-51	무산	O	O	O, B-CV, B-OG, B-QT, B-LC
-52	##됐	O	O	O, B-CV, B-OG, B-LC, I-EV
-53	##다	O	O	O, B-CV, B-LC, B-OG, I-EV
-54	.	O	O	O, B-LC, B-OG, B-CV, I-EV
-55	[SEP]	O	O	O, B-LC, B-CV, B-OG, I-EV
+	text	label	preds
+0	[CLS]	O	O
+1	조용	B-PS	B-PS
+2	##환	I-PS	I-PS
+3	헌법재판	B-OG	B-OG
+4	##소	I-OG	I-OG
+5	재판관	B-CV	B-CV
+6	선출	O	O
+7	##안	O	O
+8	##을	O	O
+9	놓	O	O
+10	##고	O	O
+11	추석	B-DT	B-DT
+12	연휴	I-DT	O
+13	직전	I-DT	O
+14	본회의	O	O
+15	파행	O	O
+16	##을	O	O
+17	빚	O	O
+18	##어	O	O
+19	여론	O	O
+20	##의	O	O
+21	질타	O	O
+22	##를	O	O
+23	받	O	O
+24	##았	O	O
+25	##던	O	O
+26	여야	O	O
+27	##가	O	O
+28	여전히	O	O
+29	국회	B-OG	B-OG
+30	일정	O	O
+31	##에	O	O
+32	합의	O	O
+33	##하	O	O
+34	##지	O	O
+35	못	O	O
+36	##한	O	O
+37	채	O	O
+38	대립	O	O
+39	##을	O	O
+40	계속	O	O
+41	##하	O	O
+42	##고	O	O
+43	있	O	O
+44	##다	O	O
+45	.	O	O
+46	[SEP]	O	O

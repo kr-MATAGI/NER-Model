@@ -1,44 +1,25 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-QT
-1	이런	O	O	O, B-TM, B-CV, B-LC, B-OG
-2	문제	O	O	O, B-TM, B-CV, B-LC, B-PS
-3	##를	O	O	O, B-CV, B-PS, B-TM, B-OG
-4	호소	O	O	O, B-CV, B-TM, B-LC, B-OG
-5	##하	O	O	O, B-CV, B-PS, B-LC, B-TM
-6	##는	O	O	O, B-CV, B-PS, B-TM, B-LC
-7	엄마	B-CV	B-CV	B-CV, O, B-TM, B-OG, I-CV
-8	##라면	O	O	O, I-CV, I-OG, B-TM, I-TM
-9	능률	B-OG	B-OG	B-OG, O, B-AF, B-TM, B-PS
-10	##교육	I-OG	I-OG	I-OG, O, I-AF, I-TM, I-LC
-11	##에서	O	O	O, I-OG, I-AF, I-TM, I-QT
-12	운영	O	O	O, B-TM, B-CV, I-OG, B-OG
-13	##하	O	O	O, B-OG, B-TM, B-PS, B-CV
-14	##는	O	O	O, B-TM, B-OG, B-CV, B-PS
-15	이	B-TM	B-OG	B-OG, B-TM, O, B-AF, B-QT
-16	##티	I-TM	I-OG	I-OG, I-TM, O, I-AF, I-QT
-17	##하우스	I-TM	I-OG	I-OG, I-TM, O, I-AF, I-QT
-18	(	O	O	O, I-OG, I-TM, I-AF, I-QT
-19	www	B-TM	B-TM	B-TM, O, B-QT, I-TM, B-OG
-20	.	I-TM	I-TM	I-TM, O, I-QT, B-TM, I-OG
-21	et	I-TM	I-TM	I-TM, O, I-QT, I-OG, B-TM
-22	-	I-TM	I-TM	I-TM, O, I-QT, I-OG, B-TM
-23	h	I-TM	I-TM	I-TM, O, I-QT, I-OG, B-TM
-24	##ouse	I-TM	I-TM	I-TM, O, I-QT, I-OG, I-AF
-25	.	I-TM	I-TM	I-TM, O, I-QT, I-OG, B-TM
-26	com	I-TM	I-TM	I-TM, O, I-QT, I-OG, I-AF
-27	)	O	O	O, I-TM, I-QT, I-OG, I-CV
-28	의	O	O	O, B-OG, B-CV, B-TM, B-LC
-29	‘	O	O	O, B-OG, B-CV, B-TM, B-LC
-30	능률	B-CV	B-TM	B-TM, O, B-AF, B-CV, B-TR
-31	##영	I-CV	I-TM	I-TM, B-CV, O, I-AF, I-CV
-32	##어	I-CV	I-TM	I-TM, O, I-AF, I-CV, B-CV
-33	##검	O	I-TM	I-TM, O, B-TM, I-AF, I-CV
-34	##색	O	I-TM	I-TM, O, I-AF, B-TM, I-CV
-35	창	O	I-TM	I-TM, O, B-TM, I-AF, I-CV
-36	’	O	O	O, I-TM, I-CV, I-AF, I-OG
-37	이	O	O	O, B-PS, B-OG, B-LC, B-CV
-38	도움	O	O	O, B-TM, B-CV, B-OG, B-LC
-39	##이	O	O	O, B-PS, B-LC, B-CV, B-OG
-40	된다	O	O	O, B-CV, B-TM, B-QT, B-LC
-41	.	O	O	O, B-TM, B-LC, B-OG, B-CV
-42	[SEP]	O	O	O, B-TM, B-CV, B-LC, I-TM
+	text	label	preds
+0	[CLS]	O	O
+1	하지	O	O
+2	##만	O	O
+3	겨울철	B-DT	B-DT
+4	누	O	O
+5	##런	O	O
+6	잔디	B-PT	B-PT
+7	##에	O	O
+8	##서는	O	O
+9	아무래도	O	O
+10	컬러	B-CV	B-AF
+11	##볼	I-CV	I-AF
+12	##이	O	O
+13	한층	O	O
+14	더	O	O
+15	눈	B-AM	B-AM
+16	##에	O	O
+17	잘	O	O
+18	띄	O	O
+19	##기	O	O
+20	마련	O	O
+21	##이다	O	O
+22	.	O	O
+23	[SEP]	O	O

@@ -1,36 +1,27 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	여자	O	O	O, B-OG, B-CV, B-LC, B-AF
-2	##농	B-OG	B-CV	B-CV, O, I-CV, I-OG, B-OG
-3	##구	I-OG	I-CV	I-CV, I-OG, O, B-CV, I-EV
-4	##대표	I-OG	O	O, I-CV, I-OG, B-CV, I-EV
-5	##팀	I-OG	O	O, I-OG, I-CV, I-AF, I-EV
-6	소집	O	O	O, I-OG, B-CV, I-CV, B-OG
-7	##에	O	O	O, B-CV, B-PS, I-OG, B-OG
-8	응하	O	O	O, B-LC, B-OG, B-CV, B-PS
-9	##지	O	O	O, B-LC, B-PS, B-CV, B-OG
-10	않	O	O	O, B-LC, B-CV, B-PS, B-OG
-11	##았	O	O	O, B-CV, B-LC, B-OG, B-PS
-12	##던	O	O	O, B-CV, B-PS, B-LC, B-OG
-13	김지	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-14	##윤	I-PS	I-PS	I-PS, O, I-OG, B-PS, I-LC
-15	(	O	O	O, I-PS, I-OG, B-CV, I-QT
-16	34	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-TM
-17	·	O	O	O, I-QT, I-OG, I-DT, B-CV
-18	신세계	B-OG	B-OG	B-OG, O, I-OG, B-AF, B-CV
-19	)	O	O	O, I-OG, I-CV, B-CV, I-AF
-20	이	O	O	O, B-PS, B-CV, B-LC, B-OG
-21	막판	O	O	O, B-CV, B-PS, B-TM, B-LC
-22	합류	O	O	O, B-CV, B-OG, B-LC, I-OG
-23	##하기	O	O	O, B-PS, B-OG, B-CV, B-LC
-24	##로	O	O	O, B-CV, B-OG, B-PS, I-OG
-25	해	O	O	O, B-LC, B-CV, B-OG, B-PS
-26	엔트리	O	O	O, B-CV, B-TM, B-LC, B-AF
-27	12	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-PS
-28	##명	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-29	##이	O	O	O, I-QT, B-CV, B-PS, I-OG
-30	채워	O	O	O, B-CV, B-OG, B-TM, B-LC
-31	##졌	O	O	O, B-CV, I-OG, B-OG, B-TM
-32	##다	O	O	O, B-CV, I-OG, B-LC, B-OG
-33	.	O	O	O, B-CV, B-LC, B-PS, B-OG
-34	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	중국	B-OG	B-LC
+2	##의	O	O
+3	내년도	B-DT	B-DT
+4	GDP	O	O
+5	성장률	O	O
+6	목표	O	O
+7	##가	O	O
+8	7	B-QT	B-QT
+9	%	I-QT	I-QT
+10	로	O	O
+11	하향	O	O
+12	조정	O	O
+13	##될	O	O
+14	것	O	O
+15	##이	O	O
+16	##란	O	O
+17	분석	O	O
+18	##은	O	O
+19	이런	O	O
+20	맥락	O	O
+21	##에	O	O
+22	##서	O	O
+23	나온다	O	O
+24	.	O	O
+25	[SEP]	O	O

@@ -1,37 +1,45 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	6	B-EV	B-EV	B-EV, O, B-OG, B-QT, B-AF
-2	##자	I-EV	I-EV	I-EV, O, B-EV, I-OG, I-QT
-3	##회	I-EV	I-EV	I-EV, O, I-OG, I-AF, I-QT
-4	##담	I-EV	I-EV	I-EV, O, I-OG, I-AF, I-QT
-5	참가국	O	O	O, B-CV, B-OG, B-LC, I-EV
-6	##이	O	O	O, B-PS, I-CV, I-OG, B-CV
-7	##자	O	O	O, B-CV, B-LC, B-PS, B-OG
-8	안보리	B-OG	B-OG	B-OG, O, B-EV, B-AF, B-CV
-9	상임	B-CV	B-CV	B-CV, O, I-CV, I-OG, B-OG
-10	##이	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-QT
-11	##사	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-QT
-12	##국	O	I-CV	I-CV, O, B-CV, I-OG, I-QT
-13	##인	O	O	O, I-CV, B-PS, B-CV, I-OG
-14	러시아	B-LC	B-OG	B-OG, B-LC, O, B-PS, B-CV
-15	##가	O	O	O, I-OG, I-LC, B-PS, I-CV
-16	‘	O	O	O, B-CV, B-LC, B-OG, B-PS
-17	우리	O	O	O, B-LC, B-OG, B-CV, B-PS
-18	##도	O	O	O, B-LC, B-PS, B-OG, B-CV
-19	한반도	B-LC	B-LC	B-LC, O, B-OG, B-EV, I-LC
-20	문제	O	O	O, I-LC, I-EV, I-OG, I-AF
-21	##의	O	O	O, B-CV, B-PS, B-LC, B-OG
-22	중요	O	O	O, B-CV, B-LC, B-OG, B-TM
-23	##한	O	O	O, B-LC, B-PS, B-OG, B-CV
-24	당사국	O	O	O, B-LC, B-CV, B-OG, B-PS
-25	’	O	O	O, B-CV, I-CV, B-PS, I-OG
-26	이란	O	O	O, B-PS, B-LC, B-CV, B-QT
-27	존재감	O	O	O, B-CV, B-TM, B-PS, B-LC
-28	##을	O	O	O, B-CV, B-OG, B-PS, I-CV
-29	드러내	O	O	O, B-CV, B-OG, B-PS, B-LC
-30	##려	O	O	O, B-CV, B-PS, B-QT, B-OG
-31	한	O	O	O, B-CV, B-OG, B-LC, B-PS
-32	것	O	O	O, B-CV, B-OG, B-PS, B-LC
-33	##이다	O	O	O, B-CV, B-TM, B-OG, I-CV
-34	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-35	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	오	B-PS	B-PS
+2	시장	B-CV	B-CV
+3	##의	O	O
+4	보좌관	B-CV	B-CV
+5	출신	O	O
+6	##인	O	O
+7	강철	B-PS	B-PS
+8	##원	I-PS	I-PS
+9	기획	B-CV	B-CV
+10	##관	I-CV	I-CV
+11	##은	O	O
+12	서울시	B-OG	B-OG
+13	##의	O	O
+14	전략	O	O
+15	##과	O	O
+16	대외	O	O
+17	홍보	O	O
+18	책임자	O	B-CV
+19	##로	O	O
+20	,	O	O
+21	도시	O	O
+22	##의	O	O
+23	대외	O	O
+24	이미지	O	O
+25	및	O	O
+26	경쟁력	O	O
+27	향상	O	O
+28	##을	O	O
+29	통해	O	O
+30	서울	B-LC	B-LC
+31	##을	O	O
+32	해외	O	O
+33	##에	O	O
+34	홍보	O	O
+35	##하	O	O
+36	##는	O	O
+37	역할	O	O
+38	##을	O	O
+39	맡	O	O
+40	##았	O	O
+41	##다	O	O
+42	.	O	O
+43	[SEP]	O	O

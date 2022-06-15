@@ -1,45 +1,18 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	대통령	B-CV	B-CV	B-CV, O, B-OG, B-AF, B-PS
-2	##정	I-CV	B-CV	B-CV, I-CV, O, I-OG, B-OG
-3	##무	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-QT
-4	##특	I-CV	I-CV	I-CV, B-CV, O, I-OG, I-QT
-5	##보	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-QT
-6	##인	O	O	O, I-CV, I-OG, B-PS, I-QT
-7	윤상현	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-8	의원	B-CV	B-CV	B-CV, O, I-CV, I-PS, B-OG
-9	##은	O	O	O, I-CV, B-CV, I-EV, I-OG
-10	“	O	O	O, B-CV, B-LC, B-OG, B-TM
-11	플랜	O	O	O, B-OG, B-QT, B-TM, B-TR
-12	##B	O	O	O, I-OG, I-TM, I-QT, I-TR
-13	(	O	O	O, I-OG, I-QT, I-TM, I-CV
-14	여론	O	O	O, B-CV, B-TR, B-PS, B-FD
-15	##조사	O	O	O, I-TR, I-CV, I-TM, I-FD
-16	방식	O	O	O, I-TR, I-CV, B-PS, I-TM
-17	##의	O	O	O, B-PS, I-AF, I-PS, B-LC
-18	국민	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-PT
-19	##공	I-CV	I-CV	I-CV, O, B-CV, I-TR, I-TM
-20	##천	I-CV	I-CV	I-CV, O, B-CV, I-TM, I-OG
-21	##제	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-TM
-22	)	O	O	O, I-CV, I-OG, I-QT, B-CV
-23	를	O	O	O, B-PS, B-CV, B-OG, B-QT
-24	오픈	O	B-CV	B-CV, O, B-TR, I-CV, B-TM
-25	##프라	O	I-CV	I-CV, O, B-CV, I-TR, I-TM
-26	##이	O	I-CV	I-CV, O, B-CV, I-TR, I-TM
-27	##머리	O	I-CV	I-CV, O, I-TR, B-CV, I-TM
-28	##라고	O	O	O, I-CV, B-PS, I-OG, I-QT
-29	하	O	O	O, B-CV, B-OG, B-TM, B-LC
-30	##는	O	O	O, B-CV, B-OG, B-LC, B-PS
-31	것	O	O	O, B-CV, B-OG, B-LC, B-TM
-32	##은	O	O	O, B-CV, B-LC, B-OG, B-TM
-33	어	O	O	O, B-CV, B-FD, B-TR, B-TM
-34	##불성	O	O	O, I-CV, I-TR, I-TM, I-QT
-35	##설	O	O	O, I-TR, I-CV, I-TM, I-QT
-36	”	O	O	O, I-CV, I-OG, I-QT, I-EV
-37	이라	O	O	O, B-CV, B-OG, B-PS, B-LC
-38	##고	O	O	O, B-CV, B-TM, B-LC, B-QT
-39	반박	O	O	O, B-CV, B-TM, B-LC, B-OG
-40	##했	O	O	O, B-CV, B-LC, B-OG, B-PS
-41	##다	O	O	O, B-CV, B-LC, B-TM, B-OG
-42	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-43	[SEP]	O	O	O, B-CV, B-LC, I-CV, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	춤	O	O
+2	음악	O	B-FD
+3	##극	O	I-FD
+4	‘	O	O
+5	思	O	O
+6	[UNK]	O	O
+7	-	O	O
+8	사도	B-PS	B-PS
+9	##세	I-PS	I-PS
+10	##자	I-PS	I-PS
+11	이야기	O	O
+12	’	O	O
+13	★	O	O
+14	##★★	O	O
+15	##★	O	O
+16	[SEP]	O	O

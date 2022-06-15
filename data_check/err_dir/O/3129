@@ -1,25 +1,38 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, B-CV, I-OG, I-EV
-1	이	O	O	O, B-PS, B-QT, B-CV, B-OG
-2	한	O	B-QT	B-QT, O, I-QT, B-TM, B-EV
-3	글자	O	I-QT	I-QT, O, I-EV, I-TM, I-LC
-4	말	O	O	O, I-QT, B-PS, I-EV, I-DT
-5	##고	O	O	O, B-PS, I-QT, B-LC, B-QT
-6	시인	O	B-CV	B-CV, O, B-FD, I-CV, B-TM
-7	##의	O	O	O, I-CV, B-PS, B-CV, I-EV
-8	심사	O	O	O, B-CV, B-PS, B-FD, B-LC
-9	##를	O	O	O, B-CV, B-PS, B-OG, B-LC
-10	집약	O	O	O, B-CV, B-LC, B-PS, B-TM
-11	##할	O	O	O, B-PS, B-LC, B-CV, B-OG
-12	수	O	O	O, B-LC, B-PS, B-CV, B-QT
-13	있	O	O	O, B-LC, B-PS, B-CV, B-QT
-14	##는	O	O	O, B-PS, B-LC, B-CV, B-QT
-15	시공간	O	O	O, B-LC, B-CV, B-TM, B-PS
-16	##이	O	O	O, B-PS, B-LC, B-OG, B-CV
-17	어디	O	O	O, B-LC, B-CV, B-PS, B-TM
-18	##에	O	O	O, B-LC, B-PS, I-AF, B-CV
-19	또	O	O	O, B-LC, B-CV, B-TM, B-QT
-20	있	O	O	O, B-LC, B-PS, B-CV, B-QT
-21	##을까	O	O	O, B-LC, B-QT, I-AF, B-TM
-22	.	O	O	O, B-CV, B-TM, B-LC, I-QT
-23	[SEP]	O	O	O, B-LC, B-CV, B-PS, B-FD
+	text	label	preds
+0	[CLS]	O	O
+1	어	O	O
+2	그렇	O	O
+3	##지	O	O
+4	그걸	O	O
+5	했	O	O
+6	##지	O	O
+7	어젠	O	O
+8	##가	O	O
+9	그	O	O
+10	##젠	O	O
+11	##가	O	O
+12	어젠	O	O
+13	##가	O	O
+14	어	O	O
+15	오늘	O	B-DT
+16	화요일	O	B-DT
+17	##이다	O	O
+18	어쨌든	O	O
+19	어제	B-DT	B-DT
+20	와	O	O
+21	가지	O	O
+22	##고	O	O
+23	어쨌든	O	O
+24	잉글	B-AF	B-MT
+25	##리	I-AF	I-MT
+26	##쉬	I-AF	I-PT
+27	##페	I-AF	I-PT
+28	##어	I-AF	I-PT
+29	##앤	I-AF	I-PT
+30	##프리	I-AF	I-MT
+31	##지	I-AF	I-MT
+32	##아	I-AF	I-MT
+33	향	O	O
+34	알아	O	O
+35	##요	O	O
+36	[SEP]	O	O

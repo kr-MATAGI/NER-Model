@@ -1,47 +1,20 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	잇	O	O	O, B-PS, B-CV, B-LC, B-AF
-2	##속	O	O	O, B-PS, I-PS, I-AF, I-LC
-3	앞	O	O	O, B-TM, B-LC, B-QT, B-AM
-4	##에	O	O	O, I-TM, B-PS, I-AF, I-TR
-5	##선	O	O	O, B-PS, B-LC, B-TM, B-CV
-6	의	O	O	O, B-PS, B-CV, B-LC, B-AF
-7	##로움	O	O	O, I-PS, B-PS, I-CV, I-LC
-8	##을	O	O	O, B-PS, I-PS, I-AF, B-LC
-9	생각	O	O	O, B-PS, B-CV, B-LC, B-QT
-10	##하고	O	O	O, B-PS, B-LC, B-CV, I-PS
-11	,	O	O	O, B-PS, B-CV, B-LC, B-OG
-12	국가	O	O	O, B-CV, B-PS, B-LC, B-OG
-13	(	O	O	O, B-CV, I-CV, B-PS, B-LC
-14	혹은	O	O	O, B-CV, B-PS, B-LC, B-QT
-15	이웃	O	B-CV	B-CV, O, I-CV, B-PS, B-OG
-16	)	O	O	O, I-CV, B-PS, I-OG, I-AF
-17	의	O	O	O, B-PS, B-LC, B-CV, B-OG
-18	위태	O	O	O, B-PS, B-CV, B-LC, B-OG
-19	##로움	O	O	O, I-PS, B-PS, I-LC, I-AF
-20	앞	O	O	O, B-TM, B-QT, B-LC, B-AM
-21	##에	O	O	O, I-TM, B-PS, I-QT, I-AF
-22	##선	O	O	O, B-LC, B-TM, B-PS, B-CV
-23	목숨	O	O	O, B-AM, B-QT, B-TM, B-LC
-24	##을	O	O	O, B-PS, B-CV, I-AF, I-QT
-25	던지	O	O	O, B-PS, B-QT, B-CV, B-LC
-26	##라는	O	O	O, B-PS, I-AF, I-PS, I-QT
-27	것	O	O	O, B-PS, B-CV, B-FD, B-LC
-28	##이	O	O	O, B-PS, B-CV, B-TR, B-FD
-29	##니	O	O	O, I-PS, B-PS, I-TR, I-CV
-30	,	O	O	O, B-CV, B-PS, B-LC, I-CV
-31	‘	O	O	O, B-PS, B-LC, B-CV, B-QT
-32	오로지	O	O	O, B-PS, B-LC, B-QT, B-CV
-33	의	O	O	O, B-PS, B-CV, I-PS, B-TR
-34	’	O	O	O, B-PS, I-PS, I-CV, I-AF
-35	뿐	O	O	O, B-PS, B-LC, B-QT, I-PS
-36	##이	O	O	O, B-PS, I-PS, B-CV, B-LC
-37	##라는	O	O	O, B-PS, I-PS, I-CV, B-CV
-38	맹자	B-PS	B-PS	B-PS, O, B-CV, B-OG, I-PS
-39	##의	O	O	O, I-PS, I-CV, B-CV, I-AF
-40	가르침	O	O	O, B-CV, B-FD, B-PS, B-TR
-41	##과	O	O	O, I-CV, B-PS, B-CV, I-TR
-42	정확히	O	O	O, B-LC, B-TM, B-OG, B-PS
-43	통한다	O	O	O, B-CV, B-LC, B-TM, B-PS
-44	.	O	O	O, B-PS, B-LC, B-CV, B-FD
-45	[SEP]	O	O	O, B-CV, B-PS, B-LC, B-FD
+	text	label	preds
+0	[CLS]	O	O
+1	단순	O	O
+2	##한	O	O
+3	음	O	O
+4	~	O	O
+5	그	O	O
+6	~	O	O
+7	중도	O	B-TR
+8	##로	O	O
+9	그	O	O
+10	~	O	O
+11	그	O	O
+12	~	O	O
+13	저	O	O
+14	~	O	O
+15	뭐	O	O
+16	##랄	O	O
+17	##까	O	O
+18	[SEP]	O	O

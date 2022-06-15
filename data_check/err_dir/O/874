@@ -1,34 +1,18 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	이날	B-DT	B-DT	B-DT, I-DT, O, B-EV, B-CV
-2	법정	O	O	O, I-DT, B-CV, B-OG, I-OG
-3	##에서	O	O	O, I-OG, B-CV, I-CV, B-PS
-4	##는	O	O	O, B-CV, B-OG, B-LC, B-PS
-5	지난달	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-OG
-6	25	I-DT	I-DT	I-DT, O, B-DT, I-PS, I-QT
-7	##일	I-DT	I-DT	I-DT, O, B-DT, I-PS, I-QT
-8	재판부	O	O	O, B-OG, B-CV, I-DT, I-OG
-9	##가	O	O	O, B-PS, I-OG, B-OG, I-CV
-10	직권	O	O	O, B-CV, B-OG, B-PS, B-LC
-11	##으로	O	O	O, B-PS, B-CV, B-OG, I-CV
-12	선정	O	O	O, B-OG, B-CV, B-PS, B-LC
-13	##한	O	O	O, B-PS, B-OG, B-LC, B-CV
-14	박	B-PS	B-PS	B-PS, O, I-PS, B-OG, B-AF
-15	전	O	O	O, I-PS, I-OG, I-AF, I-EV
-16	대통령	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-PS
-17	##의	O	O	O, I-CV, I-OG, B-CV, I-EV
-18	국	O	B-CV	B-CV, O, B-OG, B-AF, I-CV
-19	##선	O	I-CV	I-CV, O, B-CV, I-OG, I-AF
-20	##변	B-CV	I-CV	I-CV, O, B-CV, I-OG, I-QT
-21	##호	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-QT
-22	##인	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-QT
-23	5	B-QT	B-QT	B-QT, I-CV, I-QT, O, B-DT
-24	##명	I-QT	I-QT	I-QT, O, I-CV, B-QT, I-OG
-25	##이	O	O	O, I-QT, B-PS, I-CV, I-OG
-26	처음	O	O	O, B-CV, B-QT, B-TM, B-LC
-27	모습	O	O	O, B-CV, B-TM, B-LC, B-OG
-28	##을	O	O	O, B-CV, B-OG, B-PS, B-TM
-29	드러냈	O	O	O, B-CV, B-LC, B-TM, B-OG
-30	##다	O	O	O, B-CV, B-LC, B-OG, I-OG
-31	.	O	O	O, B-PS, B-CV, B-LC, B-OG
-32	[SEP]	O	O	O, B-CV, B-PS, B-LC, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	“	O	O
+2	10	B-DT	B-DT
+3	##년	I-DT	I-DT
+4	경주	O	B-LC
+5	##하면	O	O
+6	##서	O	O
+7	열	B-QT	B-QT
+8	##번	I-QT	I-QT
+9	정도	I-QT	I-QT
+10	말	O	B-AM
+11	##에	O	O
+12	##서	O	O
+13	떨어졌	O	O
+14	##어요	O	O
+15	.	O	O
+16	[SEP]	O	O

@@ -1,61 +1,55 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	경인	B-LC	B-AF	B-AF, B-LC, O, B-TM, B-OG
-2	아라	B-LC	I-AF	I-AF, B-AF, I-LC, B-LC, O
-3	##뱃	I-LC	I-AF	I-AF, I-LC, O, B-AF, I-TM
-4	##길	I-LC	I-AF	I-AF, I-LC, O, I-QT, I-TM
-5	(	O	O	O, I-AF, I-LC, B-CV, I-QT
-6	경인	B-LC	B-LC	B-LC, B-AF, O, B-OG, B-TM
-7	##운	I-LC	I-LC	I-LC, I-AF, O, B-LC, B-AF
-8	##하	I-LC	I-LC	I-LC, I-AF, O, I-OG, B-LC
-9	)	O	O	O, I-LC, I-AF, I-OG, B-LC
-10	이	O	O	O, B-PS, B-OG, B-LC, B-AF
-11	‘	O	O	O, B-CV, B-LC, B-OG, B-PS
-12	선박	B-AF	B-AF	B-AF, O, B-OG, B-PS, I-AF
-13	통행	O	O	O, I-AF, I-OG, I-TM, I-EV
-14	##이	O	O	O, B-PS, B-LC, B-OG, B-TM
-15	없	O	O	O, B-CV, B-TM, B-LC, B-QT
-16	##는	O	O	O, B-LC, B-CV, B-PS, B-TM
-17	거대	O	O	O, B-CV, B-TM, B-LC, B-PS
-18	##한	O	O	O, B-LC, B-PS, B-OG, B-AF
-19	수로	O	O	O, B-LC, B-AF, B-TM, I-AF
-20	’	O	O	O, B-CV, B-LC, B-OG, B-TM
-21	가	O	O	O, B-PS, B-LC, B-OG, B-CV
-22	될	O	O	O, B-CV, B-LC, B-PS, B-TM
-23	것	O	O	O, B-PS, B-CV, B-LC, B-QT
-24	##이	O	O	O, B-PS, B-CV, B-OG, B-LC
-25	##라는	O	O	O, B-PS, B-CV, B-QT, B-OG
-26	우려	O	O	O, B-CV, B-TM, B-PS, B-LC
-27	##가	O	O	O, B-PS, B-CV, B-OG, B-LC
-28	지속	O	O	O, B-CV, B-TM, B-OG, B-LC
-29	##되	O	O	O, B-PS, B-LC, B-CV, B-OG
-30	##자	O	O	O, B-LC, B-TM, B-OG, B-PS
-31	,	O	O	O, B-CV, B-LC, B-OG, B-TM
-32	이	O	O	O, B-PS, B-CV, B-OG, B-TM
-33	사업	O	O	O, B-TM, I-TM, B-LC, B-CV
-34	##을	O	O	O, B-CV, B-PS, B-OG, B-LC
-35	주관	O	O	O, B-CV, B-OG, B-TM, B-PS
-36	##하	O	O	O, B-PS, B-OG, B-LC, I-OG
-37	##는	O	O	O, B-CV, B-PS, B-OG, B-LC
-38	한국	B-OG	B-OG	B-OG, B-LC, O, I-OG, B-PS
-39	##수	I-OG	I-OG	I-OG, O, B-OG, I-LC, I-PS
-40	##자원	I-OG	I-OG	I-OG, O, I-LC, B-OG, I-CV
-41	##공사	I-OG	I-OG	I-OG, O, I-LC, I-PS, B-OG
-42	##가	O	O	O, I-OG, B-PS, B-CV, I-QT
-43	직접	O	O	O, B-LC, B-TM, B-CV, B-AF
-44	선박	B-AF	B-AF	B-AF, O, I-AF, B-CV, B-LC
-45	##을	O	O	O, I-AF, I-OG, B-CV, I-CV
-46	확보	O	O	O, B-CV, B-LC, B-TM, B-OG
-47	##하	O	O	O, B-LC, B-PS, B-OG, B-CV
-48	##는	O	O	O, B-LC, B-CV, B-PS, B-TM
-49	방안	O	O	O, B-LC, B-CV, B-TM, B-QT
-50	##을	O	O	O, B-CV, B-LC, B-OG, B-TM
-51	검토	O	O	O, B-LC, B-CV, B-TM, B-QT
-52	##중	O	O	O, B-PS, B-LC, I-QT, B-CV
-53	##인	O	O	O, B-PS, B-LC, B-CV, B-OG
-54	것	O	O	O, B-CV, B-PS, B-LC, B-TM
-55	##으로	O	O	O, B-CV, B-LC, B-TM, B-PS
-56	드러났	O	O	O, B-LC, B-CV, B-OG, B-PS
-57	##다	O	O	O, B-CV, B-LC, I-OG, I-QT
-58	.	O	O	O, B-LC, B-PS, B-CV, B-OG
-59	[SEP]	O	O	O, B-LC, B-CV, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	한국	B-LC	B-OG
+2	##이	O	O
+3	해외	O	O
+4	16	B-QT	B-QT
+5	##개	I-QT	I-QT
+6	##국	I-QT	I-QT
+7	##에	O	O
+8	농업	O	O
+9	##기술	O	O
+10	전문가	B-CV	B-CV
+11	##를	O	O
+12	보내	O	O
+13	##는	O	O
+14	등	O	O
+15	국제	O	O
+16	##사회	O	O
+17	기여	O	O
+18	##를	O	O
+19	늘려	O	O
+20	##온	O	O
+21	가운데	O	O
+22	그	O	O
+23	##가	O	O
+24	2011	B-DT	B-DT
+25	~	I-DT	I-DT
+26	2013	I-DT	I-DT
+27	##년	I-DT	I-DT
+28	케냐	B-LC	B-LC
+29	##에	O	O
+30	##서	O	O
+31	국제	B-OG	B-OG
+32	##축	I-OG	I-OG
+33	##산	I-OG	I-OG
+34	##연구소	I-OG	I-OG
+35	상주	O	O
+36	연구원	B-CV	B-CV
+37	##으로	O	O
+38	활동	O	O
+39	##한	O	O
+40	이력	O	O
+41	##도	O	O
+42	CG	B-OG	B-OG
+43	##R	I-OG	I-OG
+44	##FA	I-OG	I-OG
+45	의장	B-CV	B-CV
+46	당선	O	O
+47	##의	O	O
+48	배경	O	O
+49	##이	O	O
+50	됐	O	O
+51	##다	O	O
+52	.	O	O
+53	[SEP]	O	O

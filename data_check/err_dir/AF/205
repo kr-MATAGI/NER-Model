@@ -1,54 +1,30 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-EV, I-OG, I-CV
-1	이	O	O	O, B-EV, B-CV, B-LC, B-PS
-2	##운	O	O	O, I-EV, B-EV, B-PS, I-DT
-3	##식	O	O	O, I-EV, I-PS, I-LC, I-CV
-4	전날	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-TI
-5	밤	B-TI	B-TI	B-TI, O, I-TI, B-EV, B-LC
-6	대통령	O	B-AF	B-AF, B-CV, O, I-AF, B-PS
-7	##궁	O	I-AF	I-AF, O, I-CV, I-EV, I-OG
-8	옆	O	B-TM	B-TM, O, I-TM, B-CV, I-AF
-9	다르	B-AF	B-AF	B-AF, B-LC, I-AF, O, B-PS
-10	##마	I-AF	I-AF	I-AF, I-LC, O, I-OG, I-PS
-11	##키	I-AF	I-AF	I-AF, I-LC, O, I-OG, I-PS
-12	##트	I-AF	I-AF	I-AF, I-LC, O, I-OG, I-PS
-13	##야	I-AF	I-AF	I-AF, I-LC, O, I-OG, I-PS
-14	##라마	I-AF	I-AF	I-AF, I-LC, O, I-OG, I-PS
-15	##야	I-AF	I-AF	I-AF, I-LC, O, I-OG, I-PS
-16	사원	I-AF	I-AF	I-AF, O, I-LC, I-OG, I-CV
-17	##에	O	O	O, I-AF, B-CV, I-EV, I-CV
-18	진	B-AF	O	O, B-CV, B-AF, B-AM, B-PS
-19	##신	I-AF	O	O, I-CV, I-AF, I-AM, B-CV
-20	##사리	I-AF	O	O, I-CV, I-AF, I-PS, I-AM
-21	##가	O	O	O, B-PS, I-CV, B-LC, I-AF
-22	임시	O	O	O, B-LC, B-CV, B-QT, B-EV
-23	봉안	O	O	O, B-CV, B-PS, B-LC, B-EV
-24	##됐	O	O	O, B-PS, B-LC, I-CV, B-CV
-25	##을	O	O	O, B-CV, B-LC, B-PS, I-AF
-26	때	O	O	O, B-CV, B-PS, B-LC, I-EV
-27	##에	O	O	O, B-CV, B-PS, I-AF, I-EV
-28	##는	O	O	O, B-CV, B-LC, B-PS, B-OG
-29	진	B-AF	O	O, B-CV, B-PS, B-AF, B-AM
-30	##신	I-AF	O	O, I-CV, I-PS, I-AF, I-AM
-31	##사리	I-AF	O	O, I-CV, I-PS, I-AF, I-AM
-32	##를	O	O	O, I-CV, I-AF, B-PS, B-CV
-33	친	O	O	O, B-CV, B-LC, B-PS, B-EV
-34	##견	O	O	O, I-CV, I-PS, I-LC, I-EV
-35	##하	O	O	O, B-PS, B-LC, I-PS, I-LC
-36	##러	O	O	O, B-LC, B-PS, B-CV, I-LC
-37	온	O	O	O, B-CV, B-LC, B-PS, B-OG
-38	스리랑카	B-LC	B-LC	B-LC, B-OG, O, I-LC, B-PS
-39	불교	B-OG	B-OG	B-OG, B-CV, I-OG, O, B-AF
-40	신자	O	O	O, B-CV, I-CV, I-OG, I-AF
-41	##들	O	O	O, I-CV, I-OG, B-PS, B-CV
-42	##로	O	O	O, B-CV, B-TM, B-PS, B-LC
-43	사원	O	O	O, B-LC, B-CV, B-AF, B-TM
-44	##이	O	O	O, B-PS, B-CV, B-OG, B-LC
-45	인산	O	O	O, B-LC, B-CV, B-OG, B-TM
-46	##인	O	O	O, B-PS, I-LC, B-LC, I-AF
-47	##해	O	O	O, I-LC, B-LC, B-PS, I-AF
-48	##를	O	O	O, B-CV, B-OG, I-OG, I-AF
-49	이뤘	O	O	O, B-CV, B-LC, B-OG, B-TM
-50	##다	O	O	O, B-CV, I-EV, I-AF, I-CV
-51	.	O	O	O, B-LC, B-PS, B-CV, B-AF
-52	[SEP]	O	O	O, B-CV, B-LC, B-PS, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	세탁	O	O
+2	##소	O	O
+3	##와	O	O
+4	자전거	B-AF	O
+5	##포	O	O
+6	등도	O	O
+7	공방	O	O
+8	##거리	O	O
+9	##에	O	O
+10	맞	O	O
+11	##게	O	O
+12	새	O	O
+13	##단	O	O
+14	##장	O	O
+15	##을	O	O
+16	하	O	O
+17	##는	O	O
+18	등	O	O
+19	주민	B-CV	B-CV
+20	참여	O	O
+21	##형	O	O
+22	거리	O	O
+23	조성	O	O
+24	##이	O	O
+25	이뤄졌	O	O
+26	##다	O	O
+27	.	O	O
+28	[SEP]	O	O

@@ -1,44 +1,17 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	2015	B-DT	B-DT	B-DT, I-DT, O, B-QT, B-LC
-2	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-3	가을	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-4	##에	O	O	O, I-DT, B-CV, B-OG, I-OG
-5	나온	O	O	O, B-CV, B-LC, B-OG, B-PS
-6	책	O	O	O, B-CV, B-AF, B-TM, B-FD
-7	##이지	O	O	O, B-CV, B-OG, B-PS, I-AF
-8	##만	O	O	O, B-CV, B-LC, B-OG, B-TM
-9	중국	O	O	O, B-LC, B-CV, B-TM, B-FD
-10	##판	O	O	O, I-LC, I-CV, I-TM, I-DT
-11	아마존	B-OG	B-OG	B-OG, B-LC, B-TM, O, B-AF
-12	‘	O	O	O, I-OG, I-LC, B-OG, I-TM
-13	당당	B-OG	B-OG	B-OG, O, B-AF, B-TM, B-LC
-14	##왕	I-OG	I-OG	I-OG, I-AF, O, I-TM, I-LC
-15	(	O	O	O, I-OG, I-AF, I-TM, I-LC
-16	當	O	O	O, B-LC, B-OG, B-PS, B-TM
-17	當	O	O	O, B-LC, I-OG, I-LC, B-OG
-18	[UNK]	O	O	O, B-LC, B-OG, B-PS, I-OG
-19	)	O	O	O, B-LC, B-OG, B-PS, I-OG
-20	’	O	O	O, B-OG, B-LC, B-CV, B-TM
-21	에서	O	O	O, B-OG, B-LC, B-CV, B-PS
-22	올해	B-DT	B-DT	B-DT, I-DT, O, B-QT, B-EV
-23	7	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-24	##월	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-25	현재	O	O	O, I-DT, B-LC, B-QT, B-CV
-26	문학	B-FD	B-FD	B-FD, O, I-FD, B-CV, B-TR
-27	분야	O	O	O, I-FD, I-OG, I-DT, I-AF
-28	베스트셀러	O	O	O, B-CV, B-TM, B-FD, B-AF
-29	10	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-TM
-30	##위	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-EV
-31	##권	I-QT	O	O, I-QT, I-LC, I-CV, I-TM
-32	##을	O	O	O, I-QT, B-CV, B-OG, B-LC
-33	유지	O	O	O, B-CV, B-LC, B-TM, B-OG
-34	##할	O	O	O, B-PS, B-LC, B-OG, B-CV
-35	정도	O	O	O, B-LC, B-CV, B-OG, B-PS
-36	##로	O	O	O, B-OG, B-PS, B-LC, I-OG
-37	인기	O	O	O, B-CV, B-LC, B-OG, B-TM
-38	##가	O	O	O, B-PS, B-OG, B-LC, B-CV
-39	높	O	O	O, B-CV, I-OG, B-LC, B-OG
-40	##다	O	O	O, B-CV, B-LC, B-TM, B-OG
-41	.	O	O	O, B-LC, B-OG, B-CV, B-PS
-42	[SEP]	O	O	O, B-LC, B-CV, B-OG, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	지금	O	O
+2	세계	O	O
+3	경제	O	O
+4	##가	O	O
+5	한	B-QT	O
+6	마디	I-QT	O
+7	##로	O	O
+8	굉장히	O	O
+9	불	O	O
+10	##확	O	O
+11	##실	O	O
+12	##하	O	O
+13	##잖아요	O	O
+14	.	O	O
+15	[SEP]	O	O

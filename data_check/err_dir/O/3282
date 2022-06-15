@@ -1,30 +1,16 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	김중	B-PS	B-PS	B-PS, B-OG, O, B-LC, I-PS
-2	##수	I-PS	I-PS	I-PS, I-OG, O, I-LC, B-PS
-3	한국은행	B-OG	B-OG	B-OG, B-LC, B-AF, I-PS, B-CV
-4	총재	B-CV	B-CV	B-CV, I-CV, O, I-OG, B-OG
-5	##가	O	O	O, I-CV, I-OG, B-CV, I-EV
-6	우리나라	O	O	O, B-LC, B-CV, B-TM, B-OG
-7	가계부	O	O	O, B-CV, B-TM, B-AF, B-PS
-8	##채	O	O	O, I-AF, I-CV, I-TM, I-OG
-9	##는	O	O	O, B-PS, B-CV, B-LC, I-AF
-10	금융	O	B-EV	B-EV, O, B-CV, B-OG, B-LC
-11	##위	O	I-EV	I-EV, O, B-EV, I-OG, I-AF
-12	##기	O	I-EV	I-EV, O, I-OG, I-AF, I-LC
-13	##로	O	O	O, I-EV, I-OG, I-AF, I-QT
-14	이어질	O	O	O, B-LC, B-TM, B-OG, B-QT
-15	수	O	O	O, B-PS, B-QT, B-LC, B-CV
-16	있	O	O	O, B-QT, B-PS, B-LC, B-CV
-17	##는	O	O	O, B-LC, B-PS, B-QT, B-OG
-18	위험	O	O	O, B-CV, B-TM, B-QT, B-PS
-19	##한	O	O	O, B-PS, B-LC, B-OG, B-QT
-20	수준	O	O	O, B-CV, I-QT, B-QT, B-OG
-21	##은	O	O	O, B-CV, B-OG, B-PS, B-LC
-22	아니	O	O	O, B-PS, B-CV, B-LC, B-OG
-23	##라고	O	O	O, I-OG, B-CV, I-QT, B-PS
-24	진단	O	O	O, B-CV, B-LC, B-OG, B-TM
-25	##했	O	O	O, B-CV, B-PS, B-LC, I-CV
-26	##다	O	O	O, B-CV, I-OG, B-LC, B-TM
-27	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-28	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	참	O	O
+2	이	O	O
+3	~	O	O
+4	시	O	B-FD
+5	##창	O	O
+6	##작	O	O
+7	시간	O	O
+8	자기	O	O
+9	작품	O	O
+10	##을	O	O
+11	냈	O	O
+12	##는데	O	O
+13	.	O	O
+14	[SEP]	O	O

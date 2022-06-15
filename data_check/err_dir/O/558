@@ -1,70 +1,17 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-EV, I-CV, I-OG
-1	지난	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-QT
-2	10	I-DT	I-DT	I-DT, O, I-EV, B-DT, I-QT
-3	##월	I-DT	I-DT	I-DT, O, I-EV, I-QT, B-DT
-4	한국	B-EV	B-EV	B-EV, B-LC, O, B-OG, I-EV
-5	##시	I-EV	I-EV	I-EV, O, B-EV, I-AF, I-DT
-6	##리	I-EV	I-EV	I-EV, O, I-AF, I-OG, B-EV
-7	##즈	I-EV	I-EV	I-EV, O, I-AF, I-OG, I-DT
-8	미디어	O	B-EV	B-EV, I-EV, B-DT, O, B-AF
-9	데이	O	I-EV	I-EV, O, I-DT, I-AF, I-OG
-10	##에서	O	O	O, I-EV, I-DT, B-PS, I-AF
-11	류	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-12	감독	B-CV	B-CV	B-CV, I-PS, O, I-EV, I-CV
-13	##이	O	O	O, I-CV, B-PS, I-EV, B-CV
-14	""""	O	O	O, B-EV, B-LC, B-CV, B-PS
-15	한국	B-EV	B-EV	B-EV, B-LC, O, B-OG, B-AF
-16	##시	I-EV	I-EV	I-EV, O, B-EV, I-AF, I-OG
-17	##리	I-EV	I-EV	I-EV, O, I-AF, B-EV, I-OG
-18	##즈	I-EV	I-EV	I-EV, O, I-AF, I-OG, B-EV
-19	끝나	O	O	O, I-EV, I-AF, I-OG, B-CV
-20	##고	O	O	O, I-EV, B-PS, B-EV, B-LC
-21	야구	B-EV	B-EV	B-EV, B-CV, O, I-EV, B-LC
-22	##인	I-EV	I-EV	I-EV, O, I-CV, B-EV, I-AF
-23	##골	I-EV	I-EV	I-EV, O, I-CV, I-AF, I-OG
-24	##프	I-EV	I-EV	I-EV, O, I-CV, I-AF, I-OG
-25	##대	I-EV	I-EV	I-EV, O, I-AF, I-CV, I-OG
-26	##회	I-EV	I-EV	I-EV, O, I-AF, I-OG, I-LC
-27	##에서	O	O	O, I-EV, B-PS, B-CV, I-AF
-28	김	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
-29	감독	B-CV	B-CV	B-CV, I-EV, I-PS, O, I-CV
-30	##과	O	O	O, I-CV, I-EV, B-CV, I-QT
-31	한번	O	B-QT	B-QT, O, I-QT, B-EV, B-PS
-32	붙	O	O	O, I-QT, B-CV, B-EV, I-EV
-33	##어보	O	O	O, I-EV, I-QT, B-PS, I-CV
-34	##고	O	O	O, B-PS, B-LC, B-CV, I-EV
-35	싶	O	O	O, B-PS, B-CV, B-LC, I-PS
-36	##다	O	O	O, B-PS, B-CV, I-CV, I-EV
-37	""""	O	O	O, B-CV, B-PS, B-LC, B-TM
-38	고	O	O	O, B-PS, B-CV, B-OG, B-LC
-39	하자	O	O	O, B-PS, B-CV, B-QT, B-EV
-40	김	B-PS	B-PS	B-PS, O, I-PS, B-OG, B-LC
-41	감독	B-CV	B-CV	B-CV, O, I-PS, I-CV, I-EV
-42	##이	O	O	O, I-CV, B-PS, I-EV, B-CV
-43	""""	O	O	O, B-LC, B-CV, B-PS, B-EV
-44	야구	B-CV	B-CV	B-CV, B-EV, O, B-FD, B-TM
-45	(	O	O	O, I-CV, I-EV, B-CV, I-QT
-46	한국	B-EV	B-EV	B-EV, B-LC, O, B-OG, B-AF
-47	##시	I-EV	I-EV	I-EV, O, B-EV, I-AF, I-OG
-48	##리	I-EV	I-EV	I-EV, O, I-AF, I-OG, B-EV
-49	##즈	I-EV	I-EV	I-EV, O, I-AF, I-OG, B-EV
-50	)	O	O	O, I-EV, I-AF, I-OG, B-CV
-51	를	O	O	O, B-CV, B-PS, I-EV, B-LC
-52	이긴	O	O	O, B-CV, B-PS, B-LC, B-OG
-53	##다면	O	O	O, B-PS, B-LC, B-CV, I-EV
-54	골프	B-CV	B-CV	B-CV, B-EV, O, B-TM, B-FD
-55	##는	O	O	O, I-CV, I-EV, I-AF, B-CV
-56	져	O	O	O, B-CV, B-LC, B-PS, B-TM
-57	##도	O	O	O, B-PS, B-CV, B-LC, B-OG
-58	좋	O	O	O, B-CV, B-PS, B-LC, B-QT
-59	##다	O	O	O, B-PS, B-CV, B-LC, I-CV
-60	""""	O	O	O, B-CV, B-LC, B-PS, B-TM
-61	고	O	O	O, B-CV, B-PS, B-LC, B-TM
-62	말	O	O	O, B-CV, B-PS, B-TM, B-LC
-63	##한	O	O	O, B-PS, B-CV, B-LC, B-OG
-64	적도	O	O	O, B-PS, B-CV, B-LC, B-EV
-65	있	O	O	O, B-PS, B-CV, I-EV, B-EV
-66	##다	O	O	O, I-EV, B-CV, B-PS, I-QT
-67	.	O	O	O, B-PS, B-LC, I-EV, B-CV
-68	[SEP]	O	O	O, I-EV, B-CV, B-PS, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	손학규	B-PS	B-PS
+2	-	O	O
+3	박지원	B-PS	B-PS
+4	심야	O	B-TI
+5	##회	O	O
+6	##동	O	O
+7	…	O	O
+8	‘	O	O
+9	통합	O	O
+10	##뒤	O	O
+11	지도부	O	O
+12	선출	O	O
+13	’	O	O
+14	합의	O	O
+15	[SEP]	O	O

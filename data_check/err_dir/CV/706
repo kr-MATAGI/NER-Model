@@ -1,29 +1,24 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	관중	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-TM
-2	##의	O	O	O, I-CV, B-CV, I-OG, I-AF
-3	응원	O	O	O, B-CV, B-TM, B-PS, B-OG
-4	##을	O	O	O, B-CV, B-PS, B-OG, B-LC
-5	한	O	O	O, B-QT, B-AM, B-CV, B-PS
-6	##몸	O	O	O, I-QT, I-AM, B-AM, I-CV
-7	##에	O	O	O, I-QT, I-CV, B-PS, I-TM
-8	받	O	O	O, B-CV, B-PS, B-LC, B-OG
-9	##은	O	O	O, B-CV, B-LC, B-PS, B-OG
-10	주인공	B-CV	B-CV	B-CV, O, I-CV, B-PS, B-TM
-11	##은	O	O	O, I-CV, B-CV, I-AF, I-EV
-12	‘	O	O	O, B-CV, B-PS, B-LC, B-OG
-13	코리안	B-CV	B-PS	B-PS, B-AF, B-OG, B-EV, B-LC
-14	특급	O	I-PS	I-PS, I-AF, I-OG, I-EV, O
-15	’	O	O	O, I-PS, I-AF, B-CV, I-CV
-16	박찬호	B-PS	B-PS	B-PS, B-OG, O, B-AF, I-PS
-17	(	O	O	O, I-PS, I-OG, B-CV, I-AF
-18	39	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-TI
-19	·	O	O	O, I-QT, I-DT, I-OG, I-EV
-20	한화	B-OG	B-OG	B-OG, B-LC, O, B-PS, B-AF
-21	)	O	O	O, I-OG, I-QT, I-AF, I-CV
-22	가	O	O	O, B-CV, B-LC, B-OG, B-PS
-23	아니	O	O	O, B-CV, B-PS, B-OG, B-LC
-24	##었	O	O	O, B-CV, I-OG, B-PS, B-OG
-25	##다	O	O	O, B-CV, I-OG, B-LC, I-CV
-26	.	O	O	O, B-CV, B-LC, B-PS, B-OG
-27	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	자	O	O
+2	오늘	B-DT	B-DT
+3	두	B-QT	B-QT
+4	가지	I-QT	I-QT
+5	요리	O	O
+6	.	O	O
+7	이	O	O
+8	이혜	B-PS	B-PS
+9	##정	I-PS	I-PS
+10	선생	B-CV	B-CV
+11	##님	I-CV	I-CV
+12	##표	O	O
+13	건강	B-CV	O
+14	##식	I-CV	O
+15	보약	B-TM	B-TM
+16	밥상	O	O
+17	##이	O	O
+18	##었	O	O
+19	##습	O	O
+20	##니다	O	O
+21	.	O	O
+22	[SEP]	O	O

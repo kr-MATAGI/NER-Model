@@ -1,17 +1,58 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, I-OG, B-CV, I-EV
-1	우리	O	O	O, B-CV, B-OG, B-LC, B-TM
-2	##는	O	O	O, B-CV, I-AF, I-OG, B-TM
-3	토론	O	O	O, B-TM, B-CV, B-QT, B-FD
-4	한	O	O	O, B-QT, B-DT, B-TM, B-TI
-5	마디	O	O	O, I-QT, I-LC, I-TM, I-AM
-6	없이	O	O	O, I-QT, I-DT, B-PS, B-CV
-7	유학	B-FD	B-FD	B-FD, O, B-CV, B-LC, B-EV
-8	##을	O	O	O, I-FD, I-AF, I-OG, I-EV
-9	일제	B-DT	B-DT	B-DT, O, B-EV, B-TI, B-LC
-10	해방	O	I-DT	I-DT, O, I-EV, B-DT, B-EV
-11	저	O	O	O, I-DT, I-EV, B-DT, B-CV
-12	~	O	O	O, I-DT, B-DT, B-LC, B-PS
-13	일제	B-DT	B-DT	B-DT, O, B-EV, I-DT, B-QT
-14	때	I-DT	I-DT	I-DT, O, I-EV, I-QT, B-DT
-15	[SEP]	O	O	O, I-DT, B-CV, I-EV, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	문	B-PS	B-PS
+2	대통령	B-CV	B-CV
+3	##은	O	O
+4	회담	O	O
+5	후	O	O
+6	언론	O	O
+7	발표	O	O
+8	##에	O	O
+9	##서	O	O
+10	""""	O	O
+11	우리	O	O
+12	두	B-QT	B-QT
+13	정상	I-QT	I-QT
+14	##은	O	O
+15	북한	B-LC	B-OG
+16	##이	O	O
+17	6	B-QT	B-QT
+18	##차	I-QT	I-QT
+19	핵실험	O	O
+20	##을	O	O
+21	강행	O	O
+22	##한	O	O
+23	것	O	O
+24	##을	O	O
+25	강력히	O	O
+26	규탄	O	O
+27	##하	O	O
+28	##며	O	O
+29	북	O	B-LC
+30	##핵	B-AF	B-AF
+31	문제	O	O
+32	##를	O	O
+33	해결	O	O
+34	##하	O	O
+35	##는	O	O
+36	것	O	O
+37	##이	O	O
+38	무엇	O	O
+39	##보	O	O
+40	##다	O	O
+41	중요	O	O
+42	##하	O	O
+43	##다는	O	O
+44	데	O	O
+45	의견	O	O
+46	##을	O	O
+47	같이	O	O
+48	##했	O	O
+49	##다	O	O
+50	""""	O	O
+51	고	O	O
+52	말	O	O
+53	##했	O	O
+54	##다	O	O
+55	.	O	O
+56	[SEP]	O	O

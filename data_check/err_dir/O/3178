@@ -1,57 +1,37 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	유	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
-2	씨	O	O	O, I-PS, B-CV, I-OG, I-AF
-3	##는	O	O	O, B-CV, B-LC, B-TM, B-PS
-4	2006	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-LC
-5	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-6	8	I-DT	I-DT	I-DT, O, B-DT, I-PS, I-QT
-7	##월	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-8	중고	O	O	O, B-AF, B-TM, B-OG, B-CV
-9	도시바	B-OG	B-OG	B-OG, B-AF, O, B-TM, B-LC
-10	노트북	B-TM	B-TM	B-TM, I-TM, B-AF, I-OG, I-AF
-11	##을	O	O	O, I-TM, I-AF, I-OG, I-CV
-12	인터넷	O	O	O, B-CV, B-TM, B-LC, B-OG
-13	##으로	O	O	O, B-CV, B-LC, B-OG, B-PS
-14	구입	O	O	O, B-CV, B-LC, B-TM, B-OG
-15	##한	O	O	O, B-PS, B-LC, B-OG, B-CV
-16	뒤	O	O	O, B-CV, B-LC, B-TM, B-PS
-17	외	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-PS
-18	##당	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-QT
-19	##숙	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-QT
-20	##을	O	O	O, I-CV, I-OG, B-CV, I-QT
-21	통하	O	O	O, B-LC, B-TM, B-OG, B-PS
-22	##여	O	O	O, B-LC, B-PS, B-OG, I-LC
-23	국제	O	B-TM	B-TM, O, B-OG, B-AF, I-TM
-24	##특	O	I-TM	I-TM, O, I-OG, I-AF, B-TM
-25	##급	O	I-TM	I-TM, O, I-OG, I-AF, I-QT
-26	##우	O	I-TM	I-TM, O, I-OG, I-AF, I-QT
-27	##편	O	I-TM	I-TM, O, I-OG, I-AF, I-QT
-28	(	O	O	O, I-TM, I-OG, I-QT, I-AF
-29	EM	O	B-TM	B-TM, O, B-OG, B-AF, B-QT
-30	##S	O	I-TM	I-TM, O, I-OG, I-AF, I-QT
-31	)	O	O	O, I-TM, I-OG, I-QT, I-AF
-32	으로	O	O	O, B-CV, B-LC, B-TM, B-PS
-33	전달	O	O	O, B-CV, B-LC, B-TM, B-OG
-34	##해	O	O	O, B-PS, B-LC, I-LC, I-OG
-35	북한	B-LC	B-LC	B-LC, B-OG, O, B-PS, B-AF
-36	보위	B-OG	B-OG	B-OG, O, I-OG, B-CV, B-AF
-37	##부	I-OG	I-OG	I-OG, O, I-AF, I-CV, I-LC
-38	반	B-CV	B-CV	B-CV, O, I-CV, B-FD, I-OG
-39	##탐	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-QT
-40	##부	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-QT
-41	##부	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-QT
-42	##장	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-QT
-43	##에	O	O	O, I-CV, B-CV, I-OG, I-QT
-44	##게	O	O	O, B-CV, I-CV, B-TM, B-LC
-45	건넨	O	O	O, B-CV, B-TM, B-PS, B-LC
-46	혐의	O	O	O, B-CV, B-PS, B-LC, B-OG
-47	##로	O	O	O, B-PS, B-CV, B-LC, B-OG
-48	지난해	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-49	2	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-50	##월	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-51	기소	O	O	O, B-CV, I-DT, B-OG, I-CV
-52	##됐	O	O	O, I-OG, I-CV, B-PS, B-LC
-53	##다	O	O	O, B-CV, B-LC, B-OG, B-PS
-54	.	O	O	O, B-LC, B-CV, B-OG, B-PS
-55	[SEP]	O	O	O, B-LC, B-CV, B-TM, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	[	O	O
+2	美	B-LC	B-LC
+3	전략	O	B-OG
+4	##국	O	I-OG
+5	##제	O	I-OG
+6	##문제	O	I-OG
+7	연구소	O	I-OG
+8	한	B-LC	B-OG
+9	·	O	O
+10	중	B-LC	B-OG
+11	·	O	O
+12	일	B-LC	B-OG
+13	3	B-QT	B-QT
+14	##국	I-QT	I-QT
+15	실장	B-CV	B-CV
+16	좌	O	O
+17	##담	O	O
+18	]	O	O
+19	""""	O	O
+20	오바마	B-PS	B-PS
+21	,	O	O
+22	아프간	B-LC	B-LC
+23	정책	O	O
+24	##서	O	O
+25	지지층	O	O
+26	배신	O	O
+27	…	O	O
+28	한미	B-OG	B-OG
+29	FTA	I-OG	I-OG
+30	##도	O	O
+31	그렇게	O	O
+32	하	O	O
+33	##길	O	O
+34	""""	O	O
+35	[SEP]	O	O

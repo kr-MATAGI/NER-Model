@@ -1,25 +1,52 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-EV, I-OG, B-CV, I-CV
-1	22	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-QT
-2	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
-3	오후	B-TI	B-TI	B-TI, I-TI, B-EV, O, I-DT
-4	7	I-TI	I-TI	I-TI, B-TI, I-EV, I-DT, I-QT
-5	##시	I-TI	I-TI	I-TI, I-EV, O, I-QT, I-TR
-6	예술	B-AF	B-AF	B-AF, B-LC, O, I-AF, B-PS
-7	##의	I-AF	I-AF	I-AF, O, I-LC, B-AF, I-PS
-8	##전	I-AF	I-AF	I-AF, O, I-LC, I-PS, I-OG
-9	##당	I-AF	I-AF	I-AF, O, I-LC, I-OG, I-PS
-10	콘서트홀	O	I-AF	I-AF, O, B-AF, B-FD, B-QT
-11	##에서	O	O	O, I-AF, I-EV, B-CV, I-OG
-12	열리	O	O	O, B-CV, B-OG, B-LC, I-EV
-13	##는	O	O	O, B-CV, B-LC, B-OG, B-EV
-14	‘	O	O	O, B-EV, B-LC, B-CV, B-DT
-15	아시아	B-LC	B-EV	B-EV, B-LC, B-AF, B-PS, I-EV
-16	그랜드	O	I-EV	I-EV, B-EV, O, I-AF, I-LC
-17	피아노	B-AF	I-EV	I-EV, I-AF, B-EV, O, I-LC
-18	콘서트	O	I-EV	I-EV, O, I-AF, I-OG, I-LC
-19	’	O	O	O, I-EV, I-AF, I-OG, I-DT
-20	에서	O	O	O, B-CV, I-EV, B-LC, B-PS
-21	##다	O	O	O, B-CV, B-OG, B-LC, B-PS
-22	.	O	O	O, B-LC, B-CV, I-EV, B-EV
-23	[SEP]	O	O	O, I-EV, B-LC, B-CV, B-EV
+	text	label	preds
+0	[CLS]	O	O
+1	에반	B-PS	B-PS
+2	메	I-PS	I-PS
+3	##데이	I-PS	I-PS
+4	##로스	I-PS	I-PS
+5	백악관	B-OG	B-OG
+6	아시아	B-LC	B-LC
+7	##담	O	O
+8	##당	O	O
+9	선임	B-CV	B-CV
+10	##보	I-CV	I-CV
+11	##좌	I-CV	I-CV
+12	##관	I-CV	I-CV
+13	##은	O	O
+14	수행	O	O
+15	##기	O	O
+16	##자	O	O
+17	##단	O	O
+18	##과	O	O
+19	##의	O	O
+20	회견	O	O
+21	##에	O	O
+22	##서	O	O
+23	“	O	O
+24	우리	O	O
+25	##는	O	O
+26	중국	B-LC	B-OG
+27	때문	O	O
+28	##에	O	O
+29	이것	O	O
+30	##을	O	O
+31	하	O	O
+32	##는	O	O
+33	게	O	O
+34	아니	O	O
+35	##다	O	O
+36	”	O	O
+37	라며	O	O
+38	애써	O	O
+39	중국	B-LC	B-LC
+40	견제	O	O
+41	##를	O	O
+42	위한	O	O
+43	게	O	O
+44	아니	O	O
+45	##라고	O	O
+46	해명	O	O
+47	##했	O	O
+48	##다	O	O
+49	.	O	O
+50	[SEP]	O	O

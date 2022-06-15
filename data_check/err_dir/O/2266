@@ -1,35 +1,26 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	[	O	O	O, B-OG, B-LC, B-CV, B-PS
-2	제	B-QT	B-QT	B-QT, O, B-EV, I-QT, B-DT
-3	##15	I-QT	I-QT	I-QT, I-EV, B-QT, O, I-DT
-4	##회	I-QT	I-QT	I-QT, O, I-EV, B-QT, I-DT
-5	韓	B-CV	B-EV	B-EV, B-CV, B-LC, I-EV, O
-6	·	I-CV	I-EV	I-EV, I-CV, O, B-CV, I-LC
-7	日	I-CV	I-EV	I-EV, I-CV, O, I-LC, B-LC
-8	국제	I-CV	I-EV	I-EV, I-CV, O, B-CV, I-LC
-9	##환경	I-CV	I-CV	I-CV, I-EV, O, B-CV, I-OG
-10	##상	I-CV	I-CV	I-CV, I-EV, O, I-OG, B-CV
-11	]	O	O	O, I-EV, I-CV, I-OG, I-AF
-12	한일	O	B-LC	B-LC, O, B-OG, B-CV, B-EV
-13	국제	O	O	O, I-CV, B-CV, I-LC, I-EV
-14	##환경	O	O	O, I-CV, I-EV, B-CV, I-LC
-15	##상의	O	O	O, I-CV, I-EV, B-CV, I-PS
-16	위상	O	O	O, B-LC, B-CV, B-OG, B-PS
-17	##과	O	O	O, B-OG, B-PS, B-LC, B-CV
-18	역사	O	O	O, B-FD, B-LC, B-CV, B-OG
-19	;	O	O	O, B-PS, B-LC, I-OG, B-OG
-20	공정	O	O	O, B-LC, B-CV, B-OG, B-PS
-21	##한	O	O	O, B-LC, B-PS, B-OG, I-LC
-22	심사	O	O	O, B-LC, B-CV, B-PS, I-OG
-23	##로	O	O	O, B-LC, B-PS, B-OG, B-CV
-24	권위	O	O	O, B-CV, B-LC, B-OG, B-TM
-25	더해	O	O	O, B-LC, B-PS, B-OG, B-CV
-26	…	O	O	O, B-LC, B-PS, B-OG, B-CV
-27	국경	O	O	O, B-LC, B-OG, B-PS, B-CV
-28	초월	O	O	O, B-LC, B-OG, B-PS, B-CV
-29	##한	O	O	O, B-LC, B-PS, B-OG, B-CV
-30	수상자	B-CV	B-CV	B-CV, O, I-CV, B-EV, B-TM
-31	속속	O	O	O, I-CV, I-EV, B-LC, I-QT
-32	배출	O	O	O, B-LC, B-OG, B-TM, B-CV
-33	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	당시	O	O
+2	부산	B-OG	B-OG
+3	##일보	I-OG	I-OG
+4	노조	O	I-OG
+5	집행부	O	O
+6	##는	O	O
+7	기념식	O	O
+8	##이	O	O
+9	열린	O	O
+10	대강	O	O
+11	##당	O	O
+12	입구	O	O
+13	##에	O	O
+14	일	O	O
+15	##렬	O	O
+16	##로	O	O
+17	서서	O	O
+18	침묵	O	O
+19	##시위	O	O
+20	##를	O	O
+21	벌였	O	O
+22	##다	O	O
+23	.	O	O
+24	[SEP]	O	O

@@ -1,20 +1,19 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-EV
-1	그저	O	B-DT	B-DT, O, B-EV, B-QT, I-DT
-2	##께	O	I-DT	I-DT, O, I-EV, I-QT, B-DT
-3	개헌	O	O	O, B-EV, I-EV, B-CV, B-LC
-4	기자	O	O	O, I-EV, B-EV, B-CV, B-LC
-5	##회	O	O	O, I-EV, B-EV, B-CV, I-CV
-6	##견	O	O	O, I-EV, B-EV, I-AF, I-OG
-7	하	O	O	O, I-EV, B-CV, B-OG, I-AF
-8	##신	O	O	O, B-OG, B-LC, B-CV, B-PS
-9	건	O	O	O, B-CV, B-OG, B-LC, B-PS
-10	어떻게	O	O	O, B-CV, B-OG, B-PS, B-LC
-11	설명	O	O	O, B-CV, B-OG, B-PS, B-LC
-12	##하	O	O	O, B-PS, B-CV, B-OG, B-LC
-13	##실	O	O	O, B-CV, B-PS, B-OG, B-LC
-14	거	O	O	O, B-CV, B-OG, B-PS, B-LC
-15	##예	O	O	O, I-OG, I-AF, B-OG, B-CV
-16	##요	O	O	O, I-OG, B-CV, B-OG, B-LC
-17	?	O	O	O, B-CV, I-OG, I-EV, I-AF
-18	[SEP]	O	O	O, B-CV, B-LC, I-EV, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	[	O	O
+2	수도권	B-LC	B-LC
+3	##Ⅲ	B-QT	B-QT
+4	]	O	O
+5	주민	B-CV	B-CV
+6	81	B-QT	B-QT
+7	%	I-QT	I-QT
+8	""""	O	O
+9	우리	O	O
+10	##는	O	O
+11	주거	O	B-TM
+12	##환경	O	I-TM
+13	정비	O	I-TM
+14	##사업	O	I-TM
+15	찬성	O	O
+16	""""	O	O
+17	[SEP]	O	O

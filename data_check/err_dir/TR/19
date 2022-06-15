@@ -1,19 +1,81 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	왜냐면	O	O	O, B-CV, B-TM, B-OG, B-FD
-2	북한	B-LC	B-FD	B-FD, B-LC, O, B-AF, B-OG
-3	##문학	B-FD	I-FD	I-FD, B-FD, O, I-AF, I-LC
-4	##은	O	O	O, I-FD, I-AF, I-OG, B-CV
-5	듣	O	O	O, B-CV, B-TM, B-OG, B-AF
-6	##는	O	O	O, B-CV, B-TM, I-AF, B-OG
-7	걸	O	O	O, B-CV, B-TM, B-OG, B-PS
-8	보	O	O	O, B-CV, B-OG, B-TM, B-PS
-9	##면	O	O	O, B-OG, B-PS, I-OG, B-LC
-10	정말	O	O	O, B-CV, B-TM, B-LC, B-PS
-11	개인	B-TR	O	O, B-TR, B-CV, B-PS, B-LC
-12	##숭	I-TR	O	O, I-TR, I-CV, I-PS, I-FD
-13	##배	I-TR	O	O, I-TR, I-CV, I-PS, I-FD
-14	문학	B-FD	B-FD	B-FD, O, I-FD, B-TR, B-CV
-15	##인	O	O	O, I-FD, I-AF, I-CV, I-OG
-16	##데	O	O	O, B-CV, I-AF, I-OG, I-CV
-17	[SEP]	O	O	O, B-CV, I-AF, B-FD, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	폐막	O	O
+2	##식	O	O
+3	##에	O	O
+4	##선	O	O
+5	뉴	O	O
+6	##커	O	O
+7	##런	O	O
+8	##츠	O	O
+9	부문	O	O
+10	##에	O	O
+11	상영	O	O
+12	##된	O	O
+13	아시아	B-LC	B-LC
+14	신인	B-CV	B-CV
+15	감독	B-CV	I-CV
+16	##의	O	O
+17	장편	O	O
+18	영화	O	O
+19	중	O	O
+20	두	B-QT	B-QT
+21	편	I-QT	I-QT
+22	##을	O	O
+23	선정	O	O
+24	##해	O	O
+25	'	O	O
+26	뉴	B-AF	B-CV
+27	##커	I-AF	I-CV
+28	##런	I-AF	I-CV
+29	##츠	I-AF	I-CV
+30	##상	I-AF	I-CV
+31	'	O	O
+32	(	O	O
+33	상금	O	O
+34	3	B-QT	B-QT
+35	##만	I-QT	I-QT
+36	##달	I-QT	I-QT
+37	##러	I-QT	I-QT
+38	)	O	O
+39	을	O	O
+40	,	O	O
+41	'	O	O
+42	플래시	B-TR	B-CV
+43	포워드	I-TR	I-CV
+44	'	O	O
+45	부문	O	O
+46	##에	O	O
+47	상영	O	O
+48	##된	O	O
+49	비아	O	O
+50	##시아	O	O
+51	##권	O	O
+52	신인	B-CV	B-CV
+53	감독	B-CV	B-CV
+54	##의	O	O
+55	장편	O	O
+56	영화	O	O
+57	한	B-QT	B-QT
+58	편	I-QT	I-QT
+59	##을	O	O
+60	선정	O	O
+61	##해	O	O
+62	'	O	O
+63	플래시	B-CV	B-CV
+64	포워드	I-CV	I-CV
+65	##상	I-CV	I-CV
+66	'	O	O
+67	(	O	O
+68	상금	O	O
+69	3	B-QT	B-QT
+70	##만	I-QT	I-QT
+71	##달	I-QT	I-QT
+72	##러	I-QT	I-QT
+73	)	O	O
+74	을	O	O
+75	각각	O	O
+76	수여	O	O
+77	##한다	O	O
+78	.	O	O
+79	[SEP]	O	O

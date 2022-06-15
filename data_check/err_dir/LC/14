@@ -1,37 +1,42 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-EV, I-CV
-1	태평양	B-DT	B-DT	B-DT, B-LC, O, I-DT, B-EV
-2	##전쟁	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
-3	때	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
-4	일본	B-LC	B-OG	B-OG, B-LC, O, I-DT, B-AF
-5	##의	O	O	O, I-OG, I-LC, I-AF, I-EV
-6	침략	O	O	O, I-OG, B-LC, B-CV, B-OG
-7	##으로	O	O	O, B-LC, B-OG, B-CV, B-PS
-8	큰	O	O	O, B-LC, B-CV, B-OG, B-TM
-9	피해	O	O	O, B-CV, B-LC, B-TM, B-OG
-10	##를	O	O	O, B-CV, B-OG, B-LC, B-PS
-11	입	O	O	O, B-LC, B-CV, B-OG, B-TM
-12	##은	O	O	O, B-LC, B-OG, B-CV, B-PS
-13	동아시아	B-LC	B-LC	B-LC, O, B-OG, B-AF, B-TM
-14	지역	O	O	O, I-LC, B-LC, I-OG, B-CV
-15	##에서	O	O	O, B-LC, B-CV, B-PS, B-OG
-16	일본	B-LC	B-LC	B-LC, B-OG, O, B-PS, B-CV
-17	##의	O	O	O, I-OG, I-LC, B-PS, I-PS
-18	재무	O	B-CV	B-CV, O, I-CV, B-TM, B-FD
-19	##장	O	I-CV	I-CV, O, B-CV, I-OG, I-EV
-20	##을	O	O	O, I-CV, I-EV, I-OG, B-PS
-21	지지	O	O	O, B-CV, B-LC, B-OG, B-PS
-22	##한다	O	O	O, B-LC, B-PS, B-CV, B-OG
-23	##는	O	O	O, B-CV, B-LC, B-PS, B-OG
-24	목소리	O	O	O, B-CV, B-LC, B-TM, B-PS
-25	##가	O	O	O, B-CV, B-PS, B-OG, B-LC
-26	나온	O	O	O, B-CV, B-LC, B-QT, B-OG
-27	것	O	O	O, B-CV, B-LC, B-OG, B-PS
-28	##은	O	O	O, B-CV, B-OG, B-LC, B-PS
-29	매우	O	O	O, B-CV, B-LC, B-OG, B-QT
-30	이례	O	O	O, B-CV, B-LC, B-OG, B-FD
-31	##적인	O	O	O, I-OG, I-AF, B-QT, B-LC
-32	것	O	O	O, B-LC, B-CV, B-OG, B-PS
-33	##이다	O	O	O, B-CV, I-OG, B-TM, I-QT
-34	.	O	O	O, B-LC, B-CV, B-OG, B-PS
-35	[SEP]	O	O	O, B-LC, B-CV, B-OG, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	이	O	O
+2	사리	O	B-AF
+3	##는	O	O
+4	기원전	B-DT	B-DT
+5	2	I-DT	I-DT
+6	##세기	I-DT	I-DT
+7	##경	I-DT	I-DT
+8	스리랑카	B-LC	B-LC
+9	남부	B-TM	B-TM
+10	루	B-LC	B-LC
+11	##후	I-LC	I-LC
+12	##누	I-LC	I-LC
+13	왕국	I-LC	I-DT
+14	초기	O	B-DT
+15	##부터	O	I-DT
+16	전해	O	O
+17	##오	O	O
+18	##는	O	O
+19	것	O	O
+20	##으로	O	O
+21	암	B-LC	B-LC
+22	##바	I-LC	I-LC
+23	##란	I-LC	I-LC
+24	##토	I-LC	I-LC
+25	##타	I-LC	I-LC
+26	지역	O	I-LC
+27	테	B-OG	B-PS
+28	##네	I-OG	I-PS
+29	##콘	I-OG	I-PS
+30	가문	I-OG	O
+31	##에	O	O
+32	##서	O	O
+33	가보	O	O
+34	##로	O	O
+35	보관	O	O
+36	##해	O	O
+37	##왔	O	O
+38	##다	O	O
+39	.	O	O
+40	[SEP]	O	O

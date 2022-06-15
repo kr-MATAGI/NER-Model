@@ -1,6 +1,53 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, I-AF, B-CV
-1	시댁	B-CV	O	O, B-CV, B-OG, B-LC, B-EV
-2	##과	O	O	O, I-CV, I-OG, I-AF, B-PS
-3	처가	B-CV	O	O, B-CV, B-OG, B-LC, I-CV
-4	[SEP]	O	O	O, I-CV, I-OG, I-AF, B-CV
+	text	label	preds
+0	[CLS]	O	O
+1	현행	B-CV	O
+2	기부금	I-CV	B-CV
+3	##품	I-CV	I-CV
+4	모집	I-CV	I-CV
+5	및	I-CV	I-CV
+6	사용	I-CV	I-CV
+7	##에	I-CV	I-CV
+8	관한	I-CV	I-CV
+9	법률	I-CV	I-CV
+10	##은	O	O
+11	1000	B-QT	B-QT
+12	##만	I-QT	I-QT
+13	##원	I-QT	I-QT
+14	이상	I-QT	I-QT
+15	10	B-QT	B-QT
+16	##억	I-QT	I-QT
+17	##원	I-QT	I-QT
+18	이하	I-QT	I-QT
+19	##의	O	O
+20	기부금	O	O
+21	##품	O	O
+22	##을	O	O
+23	모집	O	O
+24	##할	O	O
+25	경우	O	O
+26	모집	O	O
+27	·	O	O
+28	사용	O	O
+29	##계	O	O
+30	##획	O	O
+31	##서	O	O
+32	##를	O	O
+33	작성	O	O
+34	##해	O	O
+35	모집	B-CV	O
+36	##자	I-CV	O
+37	주소지	O	O
+38	##의	O	O
+39	시	B-CV	B-CV
+40	·	I-CV	I-CV
+41	도지사	I-CV	I-CV
+42	##에	O	O
+43	##게	O	O
+44	등록	O	O
+45	##하	O	O
+46	##도록	O	O
+47	돼	O	O
+48	있	O	O
+49	##다	O	O
+50	.	O	O
+51	[SEP]	O	O

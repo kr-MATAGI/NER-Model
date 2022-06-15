@@ -1,10 +1,20 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	관중	O	B-CV	B-CV, O, I-CV, B-TM, B-OG
-2	##수도	O	O	O, I-CV, B-PS, B-QT, I-QT
-3	급락	O	O	O, B-TM, B-PS, B-LC, B-QT
-4	##하고	O	O	O, I-QT, B-PS, I-TM, I-OG
-5	있	O	O	O, B-CV, I-QT, B-PS, B-QT
-6	##다	O	O	O, B-CV, I-OG, I-QT, B-QT
-7	.	O	O	O, B-LC, B-PS, B-CV, B-OG
-8	[SEP]	O	O	O, B-CV, B-LC, I-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	두	O	O
+2	분이	O	O
+3	##서	O	O
+4	이제	O	O
+5	한	O	B-QT
+6	부부	B-CV	I-QT
+7	앞	O	O
+8	##에	O	O
+9	타	O	O
+10	##신	O	O
+11	분	O	O
+12	##들	O	O
+13	##은	O	O
+14	한	O	B-QT
+15	부부	B-CV	I-QT
+16	간이	O	O
+17	##시고	O	O
+18	[SEP]	O	O

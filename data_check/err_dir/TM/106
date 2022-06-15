@@ -1,40 +1,33 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-QT
-1	中	B-LC	B-LC	B-LC, B-OG, O, B-TM, B-CV
-2	,	O	O	O, I-OG, I-LC, B-CV, I-CV
-3	성장	O	O	O, B-TR, B-CV, B-PS, B-LC
-4	##보	O	O	O, B-PS, I-CV, I-AF, I-OG
-5	##다	O	O	O, B-PS, B-CV, B-LC, B-TM
-6	개혁	O	O	O, B-TR, B-CV, B-TM, B-PS
-7	우선	O	O	O, B-PS, B-LC, B-OG, B-CV
-8	(	O	O	O, B-CV, B-OG, B-LC, I-OG
-9	[UNK]	O	O	O, B-LC, B-PS, B-CV, B-OG
-10	化	O	O	O, B-PS, B-LC, B-CV, B-OG
-11	[UNK]	O	O	O, B-PS, B-LC, B-CV, B-OG
-12	長	O	O	O, B-PS, B-LC, B-CV, B-TM
-13	,	O	O	O, B-PS, B-LC, B-OG, B-CV
-14	[UNK]	O	O	O, B-LC, B-PS, B-CV, B-OG
-15	出	O	O	O, B-PS, B-LC, B-CV, B-OG
-16	[UNK]	O	O	O, B-PS, B-LC, B-CV, B-OG
-17	[UNK]	O	O	O, B-PS, B-LC, B-CV, B-OG
-18	:	O	O	O, B-PS, B-LC, B-CV, B-OG
-19	성장	O	O	O, B-PS, B-CV, B-LC, B-TM
-20	##은	O	O	O, B-PS, B-LC, I-PS, I-AF
-21	약하	O	O	O, B-LC, B-PS, B-TM, B-OG
-22	##게	O	O	O, B-PS, B-LC, I-PS, B-OG
-23	,	O	O	O, B-PS, B-LC, B-CV, I-OG
-24	개혁	O	O	O, B-CV, B-PS, B-TR, B-LC
-25	##은	O	O	O, B-PS, B-LC, I-CV, I-AF
-26	두드러지	O	O	O, B-LC, B-PS, B-TM, B-OG
-27	##게	O	O	O, B-LC, B-PS, B-OG, B-TM
-28	)	O	O	O, B-LC, B-CV, B-OG, B-PS
-29	…	O	O	O, B-LC, B-CV, B-OG, B-PS
-30	'	O	O	O, B-LC, B-CV, B-TM, B-PS
-31	GDP	B-TM	O	O, B-TR, B-OG, B-AF, B-PS
-32	영웅	O	O	O, I-TR, B-TR, I-AF, B-PS
-33	##론	O	O	O, I-TR, I-AF, B-TR, I-CV
-34	'	O	O	O, B-CV, I-TR, I-CV, B-LC
-35	접	O	O	O, B-CV, B-TM, B-OG, B-QT
-36	##는	O	O	O, B-CV, I-CV, B-QT, B-OG
-37	##다	O	O	O, B-CV, B-LC, B-OG, I-CV
-38	[SEP]	O	O	O, B-LC, B-CV, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	아기	O	O
+2	곰	B-AM	B-AM
+3	##들	O	O
+4	##은	O	O
+5	가슴	B-AM	B-AM
+6	##팍	O	I-AM
+7	##에	O	O
+8	선명	O	O
+9	##하	O	O
+10	##게	O	O
+11	찍힌	O	O
+12	흰색	B-TM	B-TM
+13	반달	B-TM	B-AM
+14	##을	O	O
+15	철	O	O
+16	##장	O	O
+17	##에	O	O
+18	바짝	O	O
+19	갖	O	O
+20	##다	O	O
+21	대	O	O
+22	##고	O	O
+23	##는	O	O
+24	구슬	O	O
+25	##픈	O	O
+26	소리	O	O
+27	##를	O	O
+28	냈	O	O
+29	##다	O	O
+30	.	O	O
+31	[SEP]	O	O

@@ -1,19 +1,13 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	이	O	O	O, B-PS, B-CV, B-OG, B-LC
-2	심신	O	B-TM	B-TM, O, B-CV, B-TR, I-TM
-3	##미	O	I-TM	I-TM, O, B-TM, I-CV, I-TR
-4	##약	O	I-TM	I-TM, O, I-CV, I-TR, B-TM
-5	규정	O	O	O, I-CV, I-TM, B-CV, I-TR
-6	강경	O	O	O, B-CV, I-CV, B-PS, B-OG
-7	규정	O	O	O, I-CV, B-CV, B-PS, I-OG
-8	##을	O	O	O, B-CV, I-CV, B-OG, B-PS
-9	적용	O	O	O, B-CV, B-LC, B-OG, B-TM
-10	하	O	O	O, B-LC, B-PS, B-OG, B-CV
-11	##지	O	O	O, B-CV, B-LC, B-OG, I-OG
-12	아니	O	O	O, B-CV, B-LC, B-OG, B-TM
-13	##할	O	O	O, B-CV, B-LC, B-PS, B-OG
-14	수	O	O	O, B-LC, B-PS, B-CV, B-QT
-15	있	O	O	O, B-CV, B-LC, I-OG, B-OG
-16	##다	O	O	O, B-CV, B-OG, B-LC, B-TM
-17	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	거기	O	O
+2	##에	O	O
+3	독도	B-LC	B-LC
+4	##는	O	O
+5	원래	O	O
+6	일본	O	B-LC
+7	##땅	O	O
+8	##이다	O	O
+9	라던	O	O
+10	##지	O	O
+11	[SEP]	O	O

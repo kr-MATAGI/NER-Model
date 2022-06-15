@@ -1,18 +1,67 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-AF
-1	[	O	O	O, B-OG, B-LC, B-CV, B-AF
-2	광화문	B-AF	B-AF	B-AF, B-PS, B-EV, B-OG, B-LC
-3	##에서	I-AF	I-AF	I-AF, O, I-EV, I-OG, I-PS
-4	/	O	I-AF	I-AF, O, I-OG, I-EV, I-PS
-5	김지	B-PS	I-AF	I-AF, B-AF, B-PS, O, I-EV
-6	##영	I-PS	I-AF	I-AF, I-PS, O, I-EV, I-OG
-7	]	O	O	O, I-AF, I-OG, I-EV, B-CV
-8	당신	O	O	O, B-AF, B-LC, B-CV, B-PS
-9	,	O	O	O, I-AF, I-PS, B-PS, B-AF
-10	울	O	O	O, B-AF, I-AF, B-LC, B-CV
-11	##고	O	O	O, I-AF, I-PS, I-LC, I-CV
-12	싶	O	O	O, I-AF, I-PS, I-LC, I-CV
-13	##나	O	O	O, I-AF, I-PS, I-LC, I-CV
-14	##요	O	O	O, I-AF, I-PS, I-LC, I-CV
-15	?	O	O	O, I-AF, I-PS, I-LC, I-CV
-16	[SEP]	O	O	O, I-AF, B-AF, B-CV, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	페	B-PS	B-PS
+2	##테르	I-PS	I-PS
+3	##센	I-PS	I-PS
+4	##은	O	O
+5	24	B-DT	B-DT
+6	##일	I-DT	I-DT
+7	대만	B-LC	B-LC
+8	타	B-PS	B-LC
+9	##오	I-PS	I-LC
+10	##유	I-PS	I-LC
+11	##안	I-PS	I-LC
+12	##의	O	O
+13	선	B-AF	B-AF
+14	##라이즈	I-AF	I-AF
+15	##골	I-AF	I-AF
+16	##프	I-AF	I-AF
+17	##장	I-AF	I-AF
+18	(	O	O
+19	파	B-QT	B-QT
+20	##72	I-QT	I-QT
+21	·	O	O
+22	63	B-QT	B-QT
+23	##90	I-QT	I-QT
+24	##달	I-QT	I-QT
+25	##러	I-QT	I-QT
+26	)	O	O
+27	에서	O	O
+28	열린	O	O
+29	선	B-EV	B-EV
+30	##라이즈	I-EV	I-EV
+31	타이완	I-EV	I-EV
+32	챔피언십	I-EV	I-EV
+33	(	O	O
+34	총상	O	O
+35	##금	O	O
+36	200	B-QT	B-QT
+37	##만	I-QT	I-QT
+38	##달	I-QT	I-QT
+39	##러	I-QT	I-QT
+40	)	O	O
+41	1	B-EV	B-EV
+42	##라	I-EV	I-EV
+43	##운드	I-EV	I-EV
+44	##에	O	O
+45	##서	O	O
+46	버디	B-TM	B-TM
+47	6	B-QT	B-QT
+48	##개	I-QT	I-QT
+49	,	O	O
+50	보	B-TM	B-TM
+51	##기	I-TM	I-TM
+52	2	B-QT	B-QT
+53	##개	I-QT	I-QT
+54	##로	O	O
+55	4	B-QT	B-QT
+56	##언	I-QT	I-QT
+57	##더	I-QT	I-QT
+58	##파	I-QT	I-QT
+59	68	B-QT	B-QT
+60	##타	I-QT	I-QT
+61	##를	O	O
+62	쳤	O	O
+63	##다	O	O
+64	.	O	O
+65	[SEP]	O	O

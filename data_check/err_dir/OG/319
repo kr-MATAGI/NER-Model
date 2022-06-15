@@ -1,41 +1,31 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	펠	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-2	##러	I-PS	I-PS	I-PS, O, I-OG, B-PS, I-LC
-3	##티	I-PS	I-PS	I-PS, O, I-OG, B-PS, I-LC
-4	##어	I-PS	I-PS	I-PS, O, B-PS, I-LC, I-OG
-5	중위	B-CV	B-CV	B-CV, O, I-PS, I-CV, B-OG
-6	##는	O	O	O, I-CV, I-OG, B-CV, I-AF
-7	20	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-EV
-8	##명	I-QT	I-QT	I-QT, O, I-LC, I-PS, I-EV
-9	##이	O	O	O, I-QT, B-PS, B-OG, I-OG
-10	넘	O	O	O, B-OG, B-CV, B-PS, B-LC
-11	##는	O	O	O, B-OG, B-PS, B-LC, I-OG
-12	반군	B-OG	O	O, B-OG, B-CV, I-OG, B-EV
-13	##과	O	O	O, I-OG, I-CV, B-CV, I-AF
-14	전투	O	O	O, B-CV, B-TM, B-EV, B-LC
-15	##를	O	O	O, B-CV, B-OG, B-PS, I-EV
-16	치르	O	O	O, B-CV, B-OG, B-LC, B-TM
-17	##는	O	O	O, B-CV, B-OG, B-PS, B-TM
-18	소	B-CV	B-CV	B-CV, O, B-OG, B-TM, B-AF
-19	##대원	I-CV	I-CV	I-CV, O, B-CV, I-QT, I-OG
-20	##들	O	O	O, I-CV, I-OG, I-QT, I-AF
-21	##의	O	O	O, B-TM, B-CV, B-OG, B-LC
-22	정확	O	O	O, B-CV, B-TM, B-LC, B-OG
-23	##한	O	O	O, B-LC, B-PS, B-TM, B-OG
-24	위치	O	O	O, B-TM, B-CV, B-LC, B-OG
-25	##를	O	O	O, B-CV, B-TM, B-LC, B-OG
-26	실시간	O	O	O, B-TM, B-CV, B-LC, B-QT
-27	##으로	O	O	O, B-OG, B-TM, B-LC, B-CV
-28	파악	O	O	O, B-TM, B-CV, B-LC, B-OG
-29	##하	O	O	O, B-PS, B-CV, B-LC, B-TM
-30	##는	O	O	O, B-CV, B-PS, B-TM, B-LC
-31	데	O	O	O, B-TM, B-LC, B-OG, B-CV
-32	이	O	O	O, B-PS, B-TM, B-CV, B-AF
-33	앱	O	O	O, B-TM, I-TM, B-CV, B-QT
-34	##을	O	O	O, I-TM, B-CV, I-CV, B-TM
-35	활용	O	O	O, B-TM, B-CV, B-LC, B-OG
-36	##했	O	O	O, B-CV, B-OG, B-TM, B-PS
-37	##다	O	O	O, B-CV, B-TM, B-OG, I-OG
-38	.	O	O	O, B-LC, B-CV, B-TM, B-OG
-39	[SEP]	O	O	O, B-CV, B-TM, B-LC, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	지난해	B-DT	B-DT
+2	##에	O	O
+3	##는	O	O
+4	서울시	B-OG	B-OG
+5	##와	O	O
+6	##의	O	O
+7	업무	O	O
+8	##협	O	O
+9	##력	O	O
+10	##을	O	O
+11	통해	O	O
+12	서울시	B-OG	B-LC
+13	문화유산	O	O
+14	100	B-QT	B-QT
+15	##점	I-QT	I-QT
+16	##의	O	O
+17	생생	O	O
+18	##한	O	O
+19	모습	O	O
+20	##을	O	O
+21	담	O	O
+22	##은	O	O
+23	콘텐츠	O	O
+24	##를	O	O
+25	개발	O	O
+26	##했	O	O
+27	##다	O	O
+28	.	O	O
+29	[SEP]	O	O

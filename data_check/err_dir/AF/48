@@ -1,48 +1,67 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, I-EV, B-CV
-1	오후	B-TI	B-TI	B-TI, B-EV, O, B-QT, I-TI
-2	2	I-TI	I-TI	I-TI, B-TI, I-TR, I-QT, I-EV
-3	##시	I-TI	I-TI	I-TI, I-QT, I-TR, B-TI, O
-4	45	I-TI	I-TI	I-TI, B-TI, I-QT, I-TR, O
-5	##분	I-TI	I-TI	I-TI, O, I-TR, I-QT, B-TI
-6	(	O	O	O, I-TI, I-QT, B-LC, I-EV
-7	현지	O	O	O, B-LC, B-DT, B-CV, B-OG
-8	시간	O	O	O, I-LC, I-TI, I-DT, I-OG
-9	)	O	O	O, B-LC, B-PS, B-OG, I-OG
-10	후진타오	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-11	(	O	O	O, I-PS, I-OG, I-AF, B-CV
-12	[UNK]	O	O	O, B-LC, B-PS, B-CV, B-OG
-13	[UNK]	O	O	O, B-LC, B-PS, B-OG, B-CV
-14	[UNK]	O	O	O, B-LC, B-PS, B-CV, B-OG
-15	)	O	O	O, B-LC, B-PS, B-CV, B-OG
-16	국가	B-CV	B-CV	B-CV, O, B-TM, B-AF, B-OG
-17	##주	I-CV	I-CV	I-CV, O, B-CV, I-EV, I-TM
-18	##석	I-CV	I-CV	I-CV, O, B-CV, I-TM, I-EV
-19	##의	O	O	O, I-CV, B-PS, B-LC, I-OG
-20	조화	O	O	O, B-PS, B-TR, B-FD, B-CV
-21	(	O	O	O, I-PS, I-CV, B-PS, I-OG
-22	和	O	O	O, B-PS, I-PS, B-LC, B-CV
-23	[UNK]	O	O	O, B-PS, I-PS, B-LC, I-LC
-24	·	O	O	O, B-LC, B-PS, B-OG, B-CV
-25	허	O	B-PS	B-PS, O, B-LC, B-OG, B-TR
-26	##셰	O	I-PS	I-PS, O, B-PS, I-LC, I-OG
-27	)	O	O	O, I-PS, B-LC, I-OG, I-AF
-28	사회	O	O	O, B-FD, B-TR, B-CV, B-PS
-29	철학	O	O	O, I-FD, B-FD, I-TR, B-TR
-30	##을	O	O	O, B-CV, I-CV, I-AF, B-PS
-31	담아	O	O	O, B-LC, B-PS, B-CV, B-OG
-32	명명	O	O	O, B-PS, B-CV, B-LC, B-OG
-33	##한	O	O	O, B-LC, B-PS, B-OG, B-DT
-34	G	B-AF	B-OG	B-OG, B-AF, O, B-PS, B-EV
-35	##10	I-AF	I-OG	I-OG, I-AF, O, I-TM, I-EV
-36	##43	I-AF	I-OG	I-OG, I-AF, O, I-TM, I-LC
-37	허	I-AF	B-AF	B-AF, I-AF, O, I-OG, B-OG
-38	##셰	I-AF	I-AF	I-AF, I-OG, O, I-TM, I-PS
-39	고속	B-AF	B-AF	B-AF, I-AF, O, I-OG, I-TM
-40	##열차	I-AF	I-AF	I-AF, O, B-AF, I-TM, I-OG
-41	##가	O	O	O, I-AF, I-OG, I-EV, I-TM
-42	출발	O	O	O, B-CV, I-AF, B-OG, B-LC
-43	##했	O	O	O, B-CV, B-OG, B-LC, I-AF
-44	##다	O	O	O, B-CV, B-LC, I-OG, B-OG
-45	.	O	O	O, B-LC, B-PS, B-CV, B-OG
-46	[SEP]	O	O	O, B-LC, B-CV, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	이란	B-OG	B-OG
+2	##은	O	O
+3	미국	B-OG	B-OG
+4	##의	O	O
+5	반대	O	O
+6	##에도	O	O
+7	불구	O	O
+8	##하	O	O
+9	##고	O	O
+10	지난달	B-DT	B-DT
+11	미사일	B-AF	B-AF
+12	발사	O	O
+13	시험	O	O
+14	##을	O	O
+15	강행	O	O
+16	##한	O	O
+17	데	O	O
+18	이어	O	O
+19	17	B-DT	B-DT
+20	##일	I-DT	I-DT
+21	테헤란	B-LC	B-LC
+22	남부	B-TM	B-TM
+23	이	B-PS	B-LC
+24	##맘	I-PS	I-LC
+25	호	I-PS	I-LC
+26	##메이	I-PS	I-LC
+27	##니	I-PS	I-LC
+28	묘역	O	I-LC
+29	##에	O	O
+30	##서	O	O
+31	열린	O	O
+32	열병식	B-EV	B-EV
+33	##에	O	O
+34	##서	O	O
+35	러시아	B-LC	B-LC
+36	##제	O	O
+37	S	B-AF	B-AF
+38	-	I-AF	I-AF
+39	300	I-AF	I-AF
+40	지대	I-AF	B-AF
+41	##공	I-AF	I-AF
+42	##미사	I-AF	I-AF
+43	##일	I-AF	I-AF
+44	##을	O	O
+45	공개	O	O
+46	##하	O	O
+47	##는	O	O
+48	등	O	O
+49	무력	O	O
+50	##시위	O	O
+51	##를	O	O
+52	벌여	O	O
+53	주변	O	O
+54	##국	O	O
+55	##과	O	O
+56	##의	O	O
+57	긴장	O	O
+58	수위	O	O
+59	##를	O	O
+60	높이	O	O
+61	##고	O	O
+62	있	O	O
+63	##다	O	O
+64	.	O	O
+65	[SEP]	O	O

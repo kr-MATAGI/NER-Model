@@ -1,24 +1,16 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	문	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-2	후보	B-CV	B-CV	B-CV, O, I-CV, I-PS, I-AF
-3	##처럼	O	O	O, I-CV, B-CV, I-AF, I-EV
-4	민주당	B-OG	B-OG	B-OG, O, B-LC, B-AF, B-PS
-5	##과	O	O	O, I-OG, I-AF, B-CV, I-EV
-6	통합진보당	B-OG	B-OG	B-OG, O, I-OG, B-PS, B-AF
-7	등	O	O	O, I-OG, B-CV, I-AF, I-CV
-8	야권	O	B-CV	B-CV, O, B-OG, B-AF, B-TM
-9	##후	B-CV	B-CV	B-CV, I-CV, O, I-AF, I-OG
-10	##보	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-TM
-11	##들	O	O	O, I-CV, I-OG, I-AF, I-QT
-12	##은	O	O	O, B-CV, B-TM, B-OG, B-LC
-13	전과	O	O	O, B-TM, B-CV, B-PS, B-LC
-14	이력	O	O	O, B-TM, B-PS, B-LC, B-CV
-15	##이	O	O	O, B-PS, B-CV, B-OG, B-LC
-16	상대	O	O	O, B-CV, B-TM, B-LC, B-OG
-17	##적으로	O	O	O, B-LC, B-TM, I-TM, I-QT
-18	많	O	O	O, B-CV, B-OG, B-TM, B-LC
-19	##았	O	O	O, B-CV, B-OG, B-TM, B-LC
-20	##다	O	O	O, B-CV, B-TM, I-OG, B-LC
-21	.	O	O	O, B-OG, B-PS, B-LC, B-CV
-22	[SEP]	O	O	O, B-CV, B-OG, B-LC, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	예	O	O
+2	몸통	O	B-AM
+3	##은	O	O
+4	한	B-QT	B-QT
+5	세네	I-QT	I-QT
+6	번만	I-QT	I-QT
+7	요렇게	O	O
+8	하	O	O
+9	##면	O	O
+10	훨씬	O	O
+11	더	O	O
+12	맛있	O	O
+13	##어요	O	O
+14	[SEP]	O	O

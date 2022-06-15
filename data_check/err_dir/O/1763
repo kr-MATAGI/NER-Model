@@ -1,42 +1,41 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	유럽연합	B-OG	B-OG	B-OG, O, B-LC, I-OG, B-PS
-2	(	O	O	O, I-OG, I-DT, I-CV, B-OG
-3	EU	B-OG	B-OG	B-OG, I-OG, O, B-LC, B-AF
-4	)	O	O	O, I-OG, I-EV, B-OG, I-DT
-5	은	O	O	O, B-OG, I-OG, B-PS, B-CV
-6	기본	O	B-CV	B-CV, O, B-AF, I-CV, B-PS
-7	##권	O	I-CV	I-CV, O, I-AF, I-OG, B-CV
-8	헌장	O	O	O, I-CV, I-AF, B-AF, B-CV
-9	##에	O	O	O, I-CV, I-AF, I-OG, B-CV
-10	“	O	O	O, B-OG, B-LC, B-CV, B-PS
-11	기업	O	O	O, B-CV, B-OG, B-PS, B-FD
-12	##의	O	O	O, B-PS, I-OG, B-OG, B-LC
-13	사회	O	O	O, B-TR, B-CV, B-FD, I-CV
-14	##적ㆍ	O	O	O, I-CV, I-TR, I-FD, B-TR
-15	##경제	O	O	O, I-TR, I-CV, B-TR, I-FD
-16	##적	O	O	O, I-TR, I-CV, B-PS, B-LC
-17	결정	O	O	O, B-CV, B-LC, B-PS, B-OG
-18	##에	O	O	O, B-LC, B-PS, B-CV, B-OG
-19	대해	O	O	O, B-LC, B-PS, B-OG, B-CV
-20	정보	O	O	O, B-LC, B-CV, B-TM, B-PS
-21	##를	O	O	O, B-CV, B-LC, B-PS, B-OG
-22	제공	O	O	O, B-CV, B-LC, B-PS, B-TM
-23	##받	O	O	O, B-PS, B-LC, B-CV, I-LC
-24	##고	O	O	O, B-PS, B-LC, B-CV, B-OG
-25	협의	O	O	O, B-LC, B-CV, B-PS, B-TM
-26	##할	O	O	O, B-PS, B-LC, B-CV, B-OG
-27	수	O	O	O, B-PS, B-CV, B-LC, B-QT
-28	있	O	O	O, B-CV, B-PS, B-LC, I-CV
-29	##는	O	O	O, B-PS, B-CV, B-LC, I-CV
-30	노동자	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-AF
-31	##의	O	O	O, I-CV, B-CV, B-PS, I-OG
-32	권리	O	O	O, B-CV, I-CV, B-PS, B-QT
-33	”	O	O	O, B-CV, I-CV, B-OG, B-PS
-34	를	O	O	O, B-CV, B-OG, B-LC, B-PS
-35	인정	O	O	O, B-CV, B-OG, B-PS, B-LC
-36	##하고	O	O	O, B-CV, B-PS, I-CV, I-OG
-37	있	O	O	O, B-CV, B-OG, B-LC, B-PS
-38	##다	O	O	O, B-CV, B-OG, B-LC, I-OG
-39	.	O	O	O, B-LC, B-CV, B-OG, B-PS
-40	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	공사	O	B-OG
+2	##가	O	O
+3	재	O	O
+4	##공	O	O
+5	##모	O	O
+6	##한	O	O
+7	결과	O	O
+8	2	B-QT	B-QT
+9	##개	I-QT	I-QT
+10	컨소시엄	O	O
+11	##이	O	O
+12	190	B-QT	B-QT
+13	##억	I-QT	I-QT
+14	##∼	I-QT	I-QT
+15	##19	I-QT	I-QT
+16	##8	I-QT	I-QT
+17	##억	I-QT	I-QT
+18	원	I-QT	I-QT
+19	##을	O	O
+20	들여	O	O
+21	월	B-AF	B-AF
+22	##미	I-AF	I-AF
+23	##은	I-AF	I-AF
+24	##하	I-AF	I-AF
+25	##레일	I-AF	I-AF
+26	##을	O	O
+27	레일	O	O
+28	##바이	O	O
+29	##크로	O	O
+30	재개	O	O
+31	##통	O	O
+32	##하	O	O
+33	##기	O	O
+34	##로	O	O
+35	제안	O	O
+36	##했	O	O
+37	##다	O	O
+38	.	O	O
+39	[SEP]	O	O

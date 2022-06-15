@@ -1,32 +1,8 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	일본	B-LC	B-LC	B-LC, O, B-OG, B-PS, B-AF
-2	정부	B-OG	B-OG	B-OG, I-OG, O, B-LC, B-AF
-3	##가	O	O	O, I-OG, B-PS, I-EV, B-CV
-4	11	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-5	##일	I-DT	I-DT	I-DT, O, B-DT, I-OG, I-PS
-6	출범	O	O	O, B-CV, B-OG, I-DT, I-OG
-7	##시	O	O	O, B-OG, B-PS, B-CV, I-OG
-8	##킨	O	O	O, B-OG, B-PS, B-CV, B-LC
-9	‘	O	O	O, B-OG, B-CV, B-LC, B-PS
-10	인생	O	O	O, B-OG, B-EV, B-AF, B-TM
-11	100	B-DT	B-DT	B-DT, I-OG, I-EV, I-DT, O
-12	##년	I-DT	I-OG	I-OG, I-DT, I-EV, O, I-AF
-13	시대	O	I-OG	I-OG, O, I-EV, I-AF, I-DT
-14	구상	O	O	O, I-OG, I-EV, I-AF, I-TM
-15	##회의	O	O	O, I-OG, I-EV, I-AF, I-TM
-16	’	O	O	O, I-OG, I-EV, I-AF, B-OG
-17	도	O	O	O, I-OG, B-PS, B-OG, B-CV
-18	장수	O	O	O, B-CV, B-TM, B-LC, B-PS
-19	##사회	O	O	O, I-CV, B-CV, B-PS, I-OG
-20	일본	B-LC	B-LC	B-LC, O, B-OG, B-PS, I-LC
-21	##의	O	O	O, I-LC, B-LC, B-PS, B-CV
-22	좌표	O	O	O, B-LC, B-TM, B-CV, B-PS
-23	##를	O	O	O, B-CV, B-PS, B-LC, B-OG
-24	찾	O	O	O, B-LC, B-CV, B-PS, B-OG
-25	##기	O	O	O, B-PS, B-LC, B-CV, B-OG
-26	위한	O	O	O, B-LC, B-PS, B-CV, B-TM
-27	시도	O	O	O, B-CV, B-EV, B-LC, B-OG
-28	##다	O	O	O, B-CV, I-EV, I-OG, B-PS
-29	.	O	O	O, B-LC, B-CV, B-OG, B-PS
-30	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	양	O	B-AM
+2	옆구리	B-AM	B-AM
+3	##에	O	O
+4	끼	O	O
+5	##고	O	O
+6	[SEP]	O	O

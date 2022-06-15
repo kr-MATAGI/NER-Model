@@ -1,34 +1,71 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	피에르	B-OG	B-PS	B-PS, B-OG, B-CV, O, B-LC
-2	가	I-OG	I-PS	I-PS, I-OG, B-PS, O, I-CV
-3	##니	I-OG	I-PS	I-PS, I-OG, O, I-CV, I-LC
-4	##에르	I-OG	I-PS	I-PS, I-OG, O, I-CV, I-LC
-5	##는	O	O	O, I-PS, I-OG, I-AF, I-CV
-6	세계	O	O	O, B-LC, B-CV, B-OG, B-PS
-7	최고	O	O	O, B-PS, B-CV, B-LC, B-OG
-8	##의	O	O	O, I-OG, B-PS, I-AF, B-OG
-9	레스토랑	O	O	O, B-CV, I-OG, B-OG, B-FD
-10	##에	O	O	O, B-PS, B-CV, I-OG, I-CV
-11	##만	O	O	O, B-PS, B-QT, B-CV, B-OG
-12	주어지	O	O	O, B-CV, B-PS, B-QT, B-OG
-13	##는	O	O	O, B-CV, B-PS, B-OG, B-QT
-14	미	B-OG	O	O, B-OG, B-PS, B-QT, B-AF
-15	##슐	I-OG	O	O, I-OG, I-AF, I-PS, I-QT
-16	##랭	I-OG	O	O, I-OG, I-AF, I-QT, I-PS
-17	3	B-QT	B-QT	B-QT, I-QT, I-AF, O, I-OG
-18	##스타	I-QT	I-QT	I-QT, O, I-AF, I-OG, I-TM
-19	##에	O	O	O, I-QT, I-AF, I-OG, I-CV
-20	빛나	O	O	O, B-LC, B-CV, B-OG, B-PS
-21	##는	O	O	O, B-PS, B-LC, B-CV, B-OG
-22	프랑스	B-LC	B-LC	B-LC, B-OG, O, B-PS, B-AF
-23	##의	O	O	O, I-LC, I-OG, I-AF, I-PS
-24	셰프	B-CV	B-CV	B-CV, O, B-PS, I-CV, B-OG
-25	(	O	O	O, I-CV, I-OG, B-CV, I-QT
-26	ch	O	O	O, B-FD, B-OG, B-PS, B-QT
-27	##e	O	O	O, I-OG, I-FD, B-FD, B-PS
-28	##f	O	O	O, I-OG, I-FD, I-PS, I-CV
-29	)	O	O	O, I-OG, B-CV, B-PS, B-LC
-30	다	O	O	O, B-CV, B-PS, B-LC, B-OG
-31	.	O	O	O, B-CV, B-PS, B-LC, B-OG
-32	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	한국	B-OG	B-OG
+2	##국	I-OG	I-OG
+3	##제	I-OG	I-OG
+4	##교	I-OG	I-OG
+5	##류	I-OG	I-OG
+6	##재단	I-OG	I-OG
+7	(	O	O
+8	이사장	B-CV	B-CV
+9	김병	B-PS	B-PS
+10	##국	I-PS	I-PS
+11	)	O	O
+12	초청	O	O
+13	##으로	O	O
+14	3	B-DT	B-DT
+15	##일	I-DT	I-DT
+16	방한	O	O
+17	##한	O	O
+18	그	O	O
+19	##는	O	O
+20	기자	B-CV	B-CV
+21	##의	O	O
+22	명함	O	O
+23	##을	O	O
+24	보고	O	O
+25	""""	O	O
+26	석	B-DT	B-DT
+27	달째	I-DT	I-DT
+28	한국어	B-CV	B-CV
+29	##를	O	O
+30	배우	O	O
+31	##고	O	O
+32	있	O	O
+33	##는데	O	O
+34	재미있	O	O
+35	##어요	O	O
+36	.	O	O
+37	이걸	O	O
+38	읽	O	O
+39	##어	O	O
+40	##볼	O	O
+41	##까요	O	O
+42	?	O	O
+43	조	B-OG	O
+44	…	I-OG	O
+45	선	I-OG	O
+46	…	I-OG	O
+47	일	I-OG	O
+48	…	I-OG	O
+49	보	I-OG	O
+50	,	O	O
+51	맞	O	O
+52	##죠	O	O
+53	?	O	O
+54	""""	O	O
+55	더듬	O	O
+56	##더	O	O
+57	##듬	O	O
+58	읽	O	O
+59	##더니	O	O
+60	큰	O	O
+61	소리	O	O
+62	##로	O	O
+63	껄	O	O
+64	##껄	O	O
+65	웃	O	O
+66	##었	O	O
+67	##다	O	O
+68	.	O	O
+69	[SEP]	O	O

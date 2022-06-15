@@ -1,17 +1,52 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-QT
-1	'	O	O	O, B-CV, B-LC, B-PS, B-OG
-2	리듬	B-PS	B-CV	B-CV, B-FD, O, B-EV, B-AF
-3	##체	I-PS	I-CV	I-CV, I-FD, O, I-EV, I-OG
-4	##조	I-PS	I-CV	I-CV, I-FD, O, I-OG, I-EV
-5	요정	I-PS	O	O, B-CV, I-CV, B-PS, I-OG
-6	'	O	O	O, I-CV, B-CV, B-PS, I-OG
-7	의	O	O	O, B-PS, B-CV, B-LC, B-OG
-8	주가	O	O	O, B-CV, B-PS, B-OG, B-LC
-9	##가	O	O	O, B-PS, B-CV, B-OG, I-OG
-10	치솟	O	O	O, B-CV, B-OG, B-PS, B-TM
-11	##고	O	O	O, B-PS, B-CV, I-OG, I-CV
-12	있	O	O	O, B-CV, B-PS, B-OG, B-LC
-13	##다	O	O	O, B-CV, B-PS, I-OG, B-OG
-14	.	O	O	O, B-PS, B-CV, B-LC, B-OG
-15	[SEP]	O	O	O, B-CV, B-PS, B-LC, B-FD
+	text	label	preds
+0	[CLS]	O	O
+1	그러나	O	O
+2	어업	O	O
+3	##보	O	O
+4	##상	O	O
+5	##은	O	O
+6	당초	O	O
+7	마스터	B-PS	O
+8	##플랜	O	O
+9	##에	O	O
+10	##서	O	O
+11	제시	O	O
+12	##한	O	O
+13	4	B-LC	B-TM
+14	##대	I-LC	I-TM
+15	##강	I-LC	I-TM
+16	살리	O	I-TM
+17	##기	O	I-TM
+18	사업	O	I-TM
+19	##의	O	O
+20	토지	O	O
+21	##보	O	O
+22	##상	O	O
+23	##비	O	O
+24	(	O	O
+25	1	B-QT	B-QT
+26	##조	I-QT	I-QT
+27	##50	I-QT	I-QT
+28	##00	I-QT	I-QT
+29	##억	I-QT	I-QT
+30	##원	I-QT	I-QT
+31	)	O	O
+32	에	O	O
+33	##는	O	O
+34	제외	O	O
+35	##된	O	O
+36	금액	O	O
+37	##이	O	O
+38	##어	O	O
+39	##서	O	O
+40	보상	O	O
+41	##비	O	O
+42	증가	O	O
+43	요인	O	O
+44	##으로	O	O
+45	작용	O	O
+46	##할	O	O
+47	전망	O	O
+48	##이다	O	O
+49	.	O	O
+50	[SEP]	O	O

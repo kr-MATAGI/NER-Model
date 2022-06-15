@@ -1,45 +1,65 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-EV, I-CV
-1	이시	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
-2	##종	I-PS	I-PS	I-PS, O, I-OG, I-LC, B-PS
-3	충북	B-LC	B-LC	B-LC, O, B-OG, I-PS, B-PS
-4	##지사	B-CV	B-CV	B-CV, O, I-CV, I-LC, B-LC
-5	##와	O	O	O, I-CV, B-LC, B-PS, B-CV
-6	장화	B-PS	B-PS	B-PS, O, B-LC, B-OG, I-PS
-7	##중	I-PS	I-PS	I-PS, O, I-LC, I-OG, B-PS
-8	주한	B-OG	B-OG	B-OG, B-AF, O, I-OG, B-LC
-9	##중국	I-OG	I-OG	I-OG, B-OG, I-AF, O, B-AF
-10	##대사	I-OG	I-OG	I-OG, I-AF, O, B-OG, I-LC
-11	##관	I-OG	I-OG	I-OG, I-AF, O, I-LC, I-EV
-12	공사	B-CV	B-CV	B-CV, O, I-CV, I-OG, I-AF
-13	,	O	O	O, I-CV, I-OG, I-AF, B-CV
-14	유학생	B-CV	B-CV	B-CV, O, B-OG, I-CV, B-EV
-15	,	O	O	O, I-CV, I-OG, B-CV, I-EV
-16	국내	O	O	O, B-LC, B-CV, B-TM, B-OG
-17	대학생	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-EV
-18	##들이	O	O	O, I-CV, B-CV, I-OG, I-EV
-19	양국	O	O	O, B-LC, B-CV, B-OG, B-PS
-20	##의	O	O	O, B-LC, I-LC, B-PS, B-CV
-21	전통	B-CV	B-CV	B-CV, O, B-AF, B-FD, I-CV
-22	##혼	I-CV	I-CV	I-CV, O, B-CV, I-AF, I-OG
-23	##례	I-CV	I-CV	I-CV, O, B-CV, I-AF, I-OG
-24	##복	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-AF
-25	,	O	O	O, I-CV, I-OG, I-AF, B-CV
-26	평상	O	B-CV	B-CV, O, I-CV, B-AF, B-FD
-27	##복	O	I-CV	I-CV, O, B-CV, I-OG, I-AF
-28	,	O	O	O, I-CV, I-OG, I-AF, B-CV
-29	특수	O	B-CV	B-CV, O, B-AF, B-OG, I-CV
-30	##복	O	I-CV	I-CV, O, B-CV, I-OG, I-AF
-31	등	O	O	O, I-CV, I-OG, B-CV, B-LC
-32	40	B-QT	B-QT	B-QT, O, I-QT, B-PS, B-EV
-33	##종	I-QT	I-QT	I-QT, O, I-LC, I-PS, I-OG
-34	##의	O	O	O, I-QT, I-OG, I-EV, B-CV
-35	의상	O	O	O, B-CV, B-FD, I-CV, B-PS
-36	##을	O	O	O, I-CV, B-CV, I-AF, I-OG
-37	입	O	O	O, B-CV, B-LC, B-TM, B-PS
-38	##고	O	O	O, B-LC, B-CV, B-PS, B-TM
-39	패션쇼	O	O	O, B-EV, B-CV, B-FD, B-AF
-40	##를	O	O	O, I-EV, I-OG, I-AF, B-CV
-41	펼친다	O	O	O, B-CV, B-EV, I-EV, B-LC
-42	.	O	O	O, B-LC, B-CV, B-OG, I-EV
-43	[SEP]	O	O	O, B-CV, B-LC, B-OG, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	사상	O	O
+2	최초	O	O
+3	##로	O	O
+4	중간	O	O
+5	물자	O	O
+6	지원	O	O
+7	없이	O	O
+8	북극	O	B-LC
+9	##점	O	I-LC
+10	##에	O	O
+11	도달	O	O
+12	##한	O	O
+13	기록	O	O
+14	(	O	O
+15	1990	B-DT	B-DT
+16	##년	I-DT	I-DT
+17	)	O	O
+18	,	O	O
+19	사상	O	O
+20	최초	O	O
+21	##로	O	O
+22	혼자	O	O
+23	걸어서	O	O
+24	남극	O	B-LC
+25	##점	O	I-LC
+26	##에	O	O
+27	도달	O	O
+28	##한	O	O
+29	기록	O	O
+30	(	O	O
+31	1993	B-DT	B-DT
+32	##년	I-DT	I-DT
+33	)	O	O
+34	,	O	O
+35	사상	O	O
+36	최초	O	O
+37	##로	O	O
+38	북극	O	B-LC
+39	##점	O	I-LC
+40	남극	O	B-LC
+41	##점	O	I-LC
+42	에베레스트	B-LC	B-LC
+43	‘	O	O
+44	세	O	B-QT
+45	극	O	I-QT
+46	##점	O	I-QT
+47	’	O	O
+48	에	O	O
+49	모두	O	O
+50	도달	O	O
+51	##한	O	O
+52	기록	O	O
+53	(	O	O
+54	1994	B-DT	B-DT
+55	##년	I-DT	I-DT
+56	)	O	O
+57	을	O	O
+58	갖	O	O
+59	##고	O	O
+60	있	O	O
+61	##다	O	O
+62	.	O	O
+63	[SEP]	O	O

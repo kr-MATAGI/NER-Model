@@ -1,31 +1,45 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	올해	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-2	들어	O	O	O, I-DT, I-QT, I-OG, B-CV
-3	공정위	B-OG	B-OG	B-OG, O, B-AF, B-LC, B-CV
-4	##는	O	O	O, I-OG, B-CV, I-CV, I-EV
-5	물가	O	O	O, B-CV, B-PS, I-CV, B-OG
-6	##안	O	O	O, I-CV, B-CV, I-OG, B-PS
-7	##정	O	O	O, I-CV, B-CV, I-OG, I-TM
-8	##을	O	O	O, I-CV, B-PS, B-CV, I-OG
-9	위해	O	O	O, B-CV, B-LC, B-PS, I-CV
-10	가공	O	O	O, B-CV, B-TM, I-CV, B-AF
-11	##식	O	O	O, I-CV, B-CV, I-TM, I-AF
-12	##품	O	O	O, I-CV, I-TM, B-CV, I-AF
-13	등	O	O	O, I-CV, B-LC, B-PS, B-CV
-14	서민	O	B-CV	B-CV, O, I-CV, B-OG, B-FD
-15	밀접	O	O	O, I-CV, B-PS, B-CV, I-OG
-16	품목	O	O	O, I-CV, B-CV, I-OG, B-PS
-17	##에	O	O	O, I-CV, B-CV, B-PS, B-LC
-18	대한	O	O	O, B-LC, B-OG, B-CV, B-PS
-19	담합	O	O	O, B-CV, B-TM, I-CV, B-PS
-20	조사	O	O	O, I-CV, B-CV, B-PS, I-OG
-21	##를	O	O	O, B-CV, I-CV, B-PS, B-LC
-22	집중	O	O	O, B-CV, B-LC, B-TM, B-OG
-23	##적으로	O	O	O, B-LC, B-PS, B-CV, B-OG
-24	벌이	O	O	O, B-CV, B-LC, B-OG, B-PS
-25	##고	O	O	O, B-CV, B-LC, B-OG, B-PS
-26	있	O	O	O, B-CV, B-LC, B-OG, B-PS
-27	##다	O	O	O, B-CV, I-OG, B-LC, B-OG
-28	.	O	O	O, B-LC, B-CV, B-OG, B-PS
-29	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	전북	B-LC	B-LC
+2	남원	B-LC	B-LC
+3	출신	O	O
+4	##인	O	O
+5	송	B-PS	B-PS
+6	총장	B-CV	B-CV
+7	##은	O	O
+8	1985	B-DT	B-DT
+9	##년	I-DT	I-DT
+10	사범	O	O
+11	##대	O	O
+12	수학	O	O
+13	##교육	O	O
+14	##과	O	O
+15	교수	B-CV	B-CV
+16	##로	O	O
+17	임용	O	O
+18	##된	O	O
+19	후	O	O
+20	전자	B-CV	B-CV
+21	##계	I-CV	I-CV
+22	##산	I-CV	I-CV
+23	##소	I-CV	I-CV
+24	##장	I-CV	I-CV
+25	,	O	O
+26	교무	B-CV	B-CV
+27	##처	I-CV	I-CV
+28	##장	I-CV	I-CV
+29	,	O	O
+30	과학	B-OG	B-OG
+31	##영	I-OG	I-OG
+32	##재	I-OG	I-OG
+33	##교육	I-OG	I-OG
+34	##원	I-OG	I-OG
+35	초대	O	B-CV
+36	##원	B-CV	I-CV
+37	##장	I-CV	I-CV
+38	등	O	O
+39	##을	O	O
+40	거쳤	O	O
+41	##다	O	O
+42	.	O	O
+43	[SEP]	O	O

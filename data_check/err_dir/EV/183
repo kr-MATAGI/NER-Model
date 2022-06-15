@@ -1,37 +1,34 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-EV, I-CV
-1	이러	O	O	O, B-CV, B-TM, B-OG, B-PS
-2	##다	O	O	O, B-PS, B-CV, B-LC, B-TM
-3	보	O	O	O, B-CV, B-LC, B-PS, B-TM
-4	##니	O	O	O, B-CV, B-LC, B-OG, B-PS
-5	여자	B-EV	O	O, B-EV, B-CV, I-EV, B-TM
-6	##골	I-EV	B-CV	B-CV, O, I-CV, I-EV, B-EV
-7	##프	I-EV	I-CV	I-CV, O, I-EV, B-CV, I-OG
-8	대회	I-EV	O	O, I-EV, I-CV, B-EV, B-CV
-9	##를	O	O	O, I-EV, B-CV, I-CV, B-PS
-10	후원	O	O	O, B-CV, B-OG, B-TM, B-FD
-11	##해	O	O	O, B-PS, I-CV, B-CV, B-OG
-12	##온	O	O	O, B-CV, B-PS, B-OG, B-TM
-13	기업	O	O	O, B-CV, B-OG, B-FD, B-TM
-14	##들	O	O	O, I-CV, I-OG, B-CV, B-PS
-15	##은	O	O	O, B-CV, B-LC, B-TM, B-PS
-16	""""	O	O	O, B-CV, B-LC, B-TM, B-PS
-17	도저히	O	O	O, B-CV, B-TM, B-LC, B-QT
-18	못	O	O	O, B-CV, B-TM, B-LC, B-QT
-19	봐	O	O	O, B-CV, B-TM, B-EV, B-LC
-20	##주	O	O	O, B-CV, I-CV, B-PS, I-OG
-21	##겠다	O	O	O, B-CV, B-TM, I-CV, I-OG
-22	""""	O	O	O, B-CV, B-LC, B-TM, B-PS
-23	며	O	O	O, B-LC, B-CV, B-PS, B-TM
-24	슬슬	O	O	O, B-LC, B-CV, B-PS, B-TM
-25	다른	O	O	O, B-FD, B-CV, B-LC, B-TM
-26	스포츠	O	O	O, B-FD, B-CV, I-FD, B-TM
-27	종목	O	O	O, B-CV, I-CV, B-FD, I-EV
-28	##을	O	O	O, B-CV, B-PS, B-TM, B-LC
-29	기웃	O	O	O, B-CV, B-LC, B-TM, B-OG
-30	##거리	O	O	O, B-CV, B-LC, B-QT, B-PS
-31	##고	O	O	O, B-CV, B-LC, B-PS, B-TM
-32	있	O	O	O, B-CV, B-TM, B-LC, B-QT
-33	##다	O	O	O, B-CV, B-TM, I-EV, B-QT
-34	.	O	O	O, B-CV, B-LC, B-PS, B-OG
-35	[SEP]	O	O	O, B-CV, B-LC, B-TM, B-FD
+	text	label	preds
+0	[CLS]	O	O
+1	하지	O	O
+2	##만	O	O
+3	내년	B-DT	B-DT
+4	중간	B-EV	O
+5	##선거	I-EV	O
+6	##와	O	O
+7	2016	B-DT	B-DT
+8	##년	I-DT	I-DT
+9	대선	B-EV	B-EV
+10	##을	O	O
+11	앞두	O	O
+12	##고	O	O
+13	서로	O	O
+14	기선	O	O
+15	##을	O	O
+16	제압	O	O
+17	##하	O	O
+18	##려	O	O
+19	##는	O	O
+20	‘	O	O
+21	대결	O	O
+22	##의	O	O
+23	정치	O	O
+24	’	O	O
+25	가	O	O
+26	발목	B-AM	B-AM
+27	##을	O	O
+28	잡	O	O
+29	##았	O	O
+30	##다	O	O
+31	.	O	O
+32	[SEP]	O	O

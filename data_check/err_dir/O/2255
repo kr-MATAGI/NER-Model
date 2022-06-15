@@ -1,26 +1,34 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	애	O	O	O, B-CV, I-CV, B-PS, B-TM
-2	##들	O	O	O, B-CV, I-CV, I-AF, B-PS
-3	##을	O	O	O, B-CV, B-PS, B-TM, I-AF
-4	가르치	O	O	O, B-CV, B-LC, B-TM, B-PS
-5	##고	O	O	O, B-PS, I-CV, B-CV, I-AF
-6	배울	O	O	O, B-CV, B-TM, B-LC, B-PS
-7	수	O	O	O, B-CV, B-LC, B-PS, B-TM
-8	있	O	O	O, B-CV, B-LC, B-TM, B-QT
-9	##는	O	O	O, B-CV, B-LC, B-TM, B-PS
-10	데	O	O	O, B-TM, B-CV, B-LC, B-QT
-11	##가	O	O	O, B-PS, B-CV, B-LC, I-AF
-12	뭐	O	O	O, B-CV, B-LC, B-TM, B-OG
-13	없	O	O	O, B-CV, B-LC, B-QT, B-OG
-14	##을까	O	O	O, B-TM, B-CV, I-OG, I-QT
-15	싶	O	O	O, B-TM, B-CV, B-PS, B-LC
-16	##어	O	O	O, B-CV, I-CV, I-TM, I-AF
-17	##서	O	O	O, B-CV, B-TM, B-PS, I-CV
-18	알아	O	O	O, B-CV, B-TM, B-LC, B-OG
-19	##봤	O	O	O, I-TM, B-TM, B-CV, I-OG
-20	##지	O	O	O, I-TM, B-TM, I-AF, I-OG
-21	인터	O	B-TM	B-TM, O, B-QT, B-TR, B-AF
-22	##넸	O	I-TM	I-TM, O, B-TM, I-QT, I-TR
-23	##을	O	O	O, I-TM, I-AF, I-OG, I-QT
-24	[SEP]	O	O	O, B-CV, I-TM, I-AF, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	작년	B-DT	B-DT
+2	주가	O	O
+3	##폭	O	O
+4	##락	O	O
+5	##으로	O	O
+6	투자자	B-CV	B-CV
+7	##들	O	O
+8	##에	O	O
+9	##게	O	O
+10	원금	O	O
+11	##손실	O	O
+12	피해	O	O
+13	##를	O	O
+14	입혔	O	O
+15	##던	O	O
+16	주가	O	B-OG
+17	##연	O	I-OG
+18	##계	O	I-OG
+19	##증권	O	I-OG
+20	(	O	O
+21	ELS	O	B-CV
+22	)	O	O
+23	은	O	O
+24	요즘	O	O
+25	인기	O	O
+26	상품	O	O
+27	##으로	O	O
+28	변신	O	O
+29	##했	O	O
+30	##다	O	O
+31	.	O	O
+32	[SEP]	O	O

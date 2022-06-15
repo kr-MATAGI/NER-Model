@@ -1,43 +1,36 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	인터넷	O	O	O, B-CV, B-TM, B-LC, B-QT
-2	##에서	O	O	O, B-CV, B-TM, B-LC, B-PS
-3	##는	O	O	O, B-CV, B-LC, B-TM, B-OG
-4	‘	O	O	O, B-CV, B-LC, B-OG, B-PS
-5	단말기	B-CV	B-CV	B-CV, O, B-OG, B-AF, I-CV
-6	##유	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-AF
-7	##통	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-AF
-8	##구조	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-AF
-9	##개	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-AF
-10	##선	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-AF
-11	##법	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-AF
-12	(	O	O	O, I-CV, I-OG, I-AF, I-EV
-13	아래	O	O	O, B-TM, B-OG, B-AF, B-CV
-14	단통	B-CV	B-CV	B-CV, I-CV, O, B-OG, B-AF
-15	##법	I-CV	I-CV	I-CV, O, I-OG, B-CV, I-AF
-16	)	O	O	O, I-CV, I-OG, I-AF, I-EV
-17	’	O	O	O, B-CV, B-OG, B-LC, B-PS
-18	에	O	O	O, B-CV, B-LC, B-OG, B-PS
-19	빗대	O	O	O, B-CV, B-LC, B-OG, B-TM
-20	‘	O	O	O, B-CV, B-LC, B-PS, B-OG
-21	맥	B-CV	O	O, B-CV, B-AF, B-PS, B-LC
-22	##통	I-CV	O	O, I-CV, B-CV, I-AF, I-AM
-23	##법	I-CV	O	O, I-CV, I-AF, B-CV, I-AM
-24	’	O	O	O, I-CV, I-AF, I-EV, I-OG
-25	(	O	O	O, B-CV, B-LC, B-OG, I-CV
-26	맥주	B-CV	B-CV	B-CV, O, B-AF, B-LC, B-AM
-27	##유	I-CV	O	O, I-CV, B-CV, I-AF, B-AM
-28	##통	I-CV	O	O, I-CV, I-AF, B-CV, I-AM
-29	##법	I-CV	O	O, I-CV, B-CV, I-AF, I-AM
-30	)	O	O	O, I-CV, I-AF, I-OG, I-QT
-31	이라	O	O	O, B-CV, B-PS, B-LC, I-CV
-32	##는	O	O	O, B-CV, B-LC, B-TM, B-PS
-33	신조어	O	O	O, B-CV, B-FD, B-QT, B-PS
-34	##가	O	O	O, B-PS, B-CV, I-CV, B-LC
-35	등장	O	O	O, B-CV, B-TM, B-LC, B-QT
-36	##하기	O	O	O, B-CV, I-CV, B-TM, I-QT
-37	##도	O	O	O, B-CV, I-OG, B-LC, I-QT
-38	했	O	O	O, B-CV, B-LC, B-TM, B-OG
-39	##다	O	O	O, B-CV, B-LC, B-TM, I-OG
-40	.	O	O	O, B-LC, B-CV, B-OG, B-PS
-41	[SEP]	O	O	O, B-CV, B-LC, B-OG, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	이채	B-PS	B-PS
+2	##원	I-PS	I-PS
+3	##은	O	O
+4	'	O	O
+5	눈	O	O
+6	위의	O	O
+7	마라톤	B-CV	B-CV
+8	'	O	O
+9	으로	O	O
+10	불리	O	O
+11	##는	O	O
+12	크로스	B-CV	B-CV
+13	##컨	I-CV	I-CV
+14	##트리	I-CV	I-CV
+15	스키	B-CV	I-CV
+16	##에	O	O
+17	##서	O	O
+18	20	B-DT	B-DT
+19	##년	I-DT	I-DT
+20	가까이	O	O
+21	국내	O	O
+22	1	B-CV	B-CV
+23	##인	I-CV	I-CV
+24	##자	I-CV	I-CV
+25	자리	O	O
+26	##를	O	O
+27	내주	O	O
+28	##지	O	O
+29	않	O	O
+30	##고	O	O
+31	있	O	O
+32	##다	O	O
+33	.	O	O
+34	[SEP]	O	O

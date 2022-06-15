@@ -1,65 +1,42 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-EV, I-OG
-1	서울대	B-OG	B-OG	B-OG, B-LC, O, B-AF, B-PS
-2	의과	O	O	O, B-FD, I-OG, B-OG, B-CV
-3	##대	O	O	O, I-OG, I-FD, I-AF, I-LC
-4	##학	O	O	O, I-OG, I-FD, I-LC, I-AF
-5	##을	O	O	O, B-CV, B-PS, B-LC, I-OG
-6	나와	O	O	O, B-PS, B-CV, B-LC, B-OG
-7	서울대	B-OG	B-OG	B-OG, O, B-AF, I-OG, B-LC
-8	##병원	I-OG	I-OG	I-OG, O, B-OG, I-AF, I-LC
-9	원장	B-CV	B-CV	B-CV, O, I-CV, I-OG, B-AF
-10	##을	O	O	O, I-CV, B-CV, B-PS, I-OG
-11	지낸	O	O	O, B-PS, B-CV, B-LC, B-OG
-12	의사	B-CV	B-CV	B-CV, O, B-OG, I-CV, B-AF
-13	출신	O	O	O, I-CV, B-PS, B-CV, I-EV
-14	경영자	B-CV	B-CV	B-CV, O, B-PS, I-CV, B-OG
-15	##인	O	O	O, I-CV, B-PS, B-CV, I-EV
-16	박	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-17	회장	B-CV	B-CV	B-CV, O, I-PS, I-CV, B-OG
-18	##은	O	O	O, I-CV, B-CV, I-EV, I-AF
-19	임원	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-AF
-20	##들이	O	O	O, I-CV, B-CV, I-EV, B-PS
-21	모인	O	O	O, B-CV, B-EV, B-LC, B-PS
-22	자리	O	O	O, B-CV, I-EV, B-EV, B-TM
-23	##에서	O	O	O, B-CV, B-PS, B-LC, I-EV
-24	""""	O	O	O, B-CV, B-LC, B-PS, B-TM
-25	넥타이	O	B-CV	B-CV, O, B-AF, B-OG, B-PS
-26	##를	O	O	O, I-CV, I-AF, B-CV, I-OG
-27	매	O	O	O, B-CV, B-PS, B-LC, B-OG
-28	##면	O	O	O, B-CV, B-PS, B-LC, B-OG
-29	혈액	O	B-TM	B-TM, O, B-TR, B-MT, B-AM
-30	##순환	O	O	O, I-TM, I-TR, I-MT, I-LC
-31	##에도	O	O	O, I-TM, B-LC, B-TM, B-PS
-32	좋	O	O	O, B-LC, B-TM, B-CV, B-OG
-33	##지	O	O	O, B-LC, B-PS, I-LC, I-OG
-34	않	O	O	O, B-LC, B-PS, B-CV, I-OG
-35	##다	O	O	O, B-LC, B-PS, B-CV, I-OG
-36	""""	O	O	O, B-CV, B-LC, B-PS, B-TM
-37	며	O	O	O, B-LC, B-CV, B-PS, B-TM
-38	""""	O	O	O, B-CV, B-LC, B-PS, B-TM
-39	사무실	O	O	O, B-LC, B-CV, B-TM, B-AF
-40	##에서	O	O	O, B-CV, B-PS, B-LC, I-AF
-41	근무	O	O	O, B-CV, B-LC, B-TM, B-PS
-42	##하	O	O	O, B-PS, B-CV, B-LC, B-OG
-43	##는	O	O	O, B-CV, B-PS, B-LC, B-TM
-44	임직원	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-OG
-45	##들이	O	O	O, I-CV, B-CV, I-AF, I-EV
-46	굳이	O	O	O, B-CV, B-TM, B-LC, B-OG
-47	넥타이	O	B-CV	B-CV, O, B-AF, B-OG, I-CV
-48	##를	O	O	O, I-CV, B-CV, I-AF, I-OG
-49	[UNK]	O	O	O, B-CV, B-LC, B-OG, B-PS
-50	필요	O	O	O, B-CV, B-PS, B-LC, B-TM
-51	##가	O	O	O, B-PS, B-CV, B-LC, B-OG
-52	없	O	O	O, B-CV, B-LC, B-PS, B-QT
-53	##다	O	O	O, B-CV, B-PS, B-LC, B-OG
-54	""""	O	O	O, B-CV, B-LC, B-TM, B-PS
-55	고	O	O	O, B-CV, B-LC, B-TM, B-PS
-56	몇	O	O	O, B-PS, B-LC, B-CV, B-TM
-57	차례	O	O	O, B-LC, B-PS, B-TM, B-CV
-58	말	O	O	O, B-CV, B-LC, B-TM, B-QT
-59	##했	O	O	O, B-PS, B-CV, B-LC, B-OG
-60	##다고	O	O	O, B-LC, B-CV, B-PS, B-TM
-61	한다	O	O	O, B-CV, B-TM, B-LC, B-PS
-62	.	O	O	O, B-LC, B-PS, B-CV, B-OG
-63	[SEP]	O	O	O, B-LC, B-CV, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	2011	B-DT	B-DT
+2	##년	I-DT	I-DT
+3	12	I-DT	I-DT
+4	##월	I-DT	I-DT
+5	검찰	B-OG	B-OG
+6	##에	O	O
+7	처음	O	O
+8	소환	O	O
+9	##된	O	O
+10	최재	B-PS	B-PS
+11	##원	I-PS	I-PS
+12	부회장	B-CV	B-CV
+13	##은	O	O
+14	""""	O	O
+15	펀드	O	O
+16	횡령	O	B-CV
+17	##과	O	O
+18	무관	O	O
+19	##하	O	O
+20	##다	O	O
+21	""""	O	O
+22	고	O	O
+23	진술	O	O
+24	##했	O	O
+25	##으나	O	O
+26	6	B-DT	B-DT
+27	##일	I-DT	I-DT
+28	만	I-DT	I-DT
+29	##에	O	O
+30	다시	O	O
+31	나와	O	O
+32	'	O	O
+33	자수	O	O
+34	##서	O	O
+35	'	O	O
+36	를	O	O
+37	냈	O	O
+38	##다	O	O
+39	.	O	O
+40	[SEP]	O	O

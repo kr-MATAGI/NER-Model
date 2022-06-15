@@ -1,40 +1,37 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-EV
-1	버락	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-2	오바마	I-PS	I-PS	I-PS, B-PS, O, I-OG, I-LC
-3	미국	B-LC	B-LC	B-LC, B-OG, I-PS, O, I-LC
-4	대통령	B-CV	B-CV	B-CV, O, B-EV, I-CV, B-OG
-5	##이	O	O	O, I-CV, I-EV, B-PS, B-CV
-6	20	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-QT
-7	##일	I-DT	I-DT	I-DT, O, B-DT, I-EV, I-PS
-8	신년	B-EV	B-EV	B-EV, O, B-CV, B-DT, I-EV
-9	국정	I-EV	B-EV	B-EV, I-EV, O, B-CV, B-OG
-10	##연설	I-EV	I-EV	I-EV, O, B-EV, I-OG, I-AF
-11	##에서	O	O	O, I-EV, I-OG, I-AF, B-CV
-12	내건	O	O	O, B-PS, B-CV, B-OG, B-LC
-13	총	O	B-QT	B-QT, O, I-QT, B-PS, B-CV
-14	3200	B-QT	I-QT	I-QT, B-QT, O, B-DT, I-DT
-15	##억	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-16	달러	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-17	(	O	O	O, I-QT, B-CV, I-CV, B-OG
-18	약	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-PS
-19	34	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-DT
-20	##5	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-21	##조	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-22	원	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-23	)	O	O	O, I-QT, B-CV, I-CV, B-OG
-24	규모	O	O	O, B-CV, B-OG, B-TM, B-PS
-25	##의	O	O	O, B-PS, B-LC, B-OG, B-CV
-26	‘	O	O	O, B-CV, B-LC, B-OG, B-PS
-27	부자	O	O	O, B-CV, B-TR, I-CV, B-TM
-28	증세	O	O	O, I-CV, B-CV, I-TR, I-TM
-29	’	O	O	O, I-CV, I-EV, B-CV, B-PS
-30	는	O	O	O, B-LC, B-OG, B-PS, B-CV
-31	과연	O	O	O, B-LC, B-OG, B-CV, B-TM
-32	실현	O	O	O, B-LC, B-CV, B-OG, B-TM
-33	##될	O	O	O, B-LC, B-PS, B-OG, I-OG
-34	수	O	O	O, B-LC, B-OG, B-CV, B-PS
-35	있	O	O	O, B-OG, B-LC, B-CV, B-TM
-36	##을까	O	O	O, B-LC, I-OG, B-TM, I-QT
-37	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-38	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	유	B-PS	B-PS
+2	원내대표	B-CV	B-CV
+3	##는	O	O
+4	11	B-DT	B-DT
+5	##일	I-DT	I-DT
+6	열리	O	O
+7	##는	O	O
+8	최고위	B-EV	O
+9	##원회	I-EV	O
+10	회의	I-EV	O
+11	##에	O	O
+12	##서	O	O
+13	서청원	B-PS	B-PS
+14	·	O	O
+15	김태호	B-PS	B-PS
+16	최고위	B-CV	B-CV
+17	##원	I-CV	I-CV
+18	등	O	O
+19	‘	O	O
+20	강경	O	O
+21	지도부	O	O
+22	’	O	O
+23	로부터	O	O
+24	향후	O	O
+25	대책	O	O
+26	##에	O	O
+27	대한	O	O
+28	의견	O	O
+29	##을	O	O
+30	들	O	O
+31	##을	O	O
+32	예정	O	O
+33	##이다	O	O
+34	.	O	O
+35	[SEP]	O	O

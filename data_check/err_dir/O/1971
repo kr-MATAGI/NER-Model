@@ -1,33 +1,14 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-EV, I-CV
-1	3	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-EV
-2	##학년	I-QT	I-QT	I-QT, O, I-EV, I-OG, I-DT
-3	교실	O	O	O, I-QT, I-AF, I-EV, B-CV
-4	##에서	O	O	O, B-CV, I-AF, B-LC, B-TM
-5	##는	O	O	O, B-CV, B-TM, B-OG, B-LC
-6	컴퓨터	B-TM	B-TM	B-TM, O, B-CV, I-TM, B-TR
-7	##를	O	O	O, I-TM, I-AF, I-OG, I-CV
-8	활용	O	O	O, B-TM, B-CV, B-LC, B-OG
-9	##한	O	O	O, B-OG, B-LC, B-PS, B-TM
-10	수학	O	B-FD	B-FD, O, I-FD, B-CV, B-OG
-11	##과	O	O	O, I-FD, I-OG, B-FD, I-CV
-12	학생	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-AF
-13	##들	O	O	O, I-CV, B-CV, I-AF, I-OG
-14	##끼리	O	O	O, B-CV, B-TM, B-PS, B-LC
-15	퀴즈	O	O	O, B-CV, B-FD, I-CV, B-TM
-16	##를	O	O	O, B-CV, I-CV, B-PS, I-AF
-17	내	O	O	O, B-CV, B-TM, B-LC, B-PS
-18	##며	O	O	O, B-CV, B-LC, B-PS, B-TM
-19	익히	O	O	O, B-CV, B-TM, B-FD, B-LC
-20	##는	O	O	O, B-CV, B-FD, B-TM, B-LC
-21	영어	B-CV	B-CV	B-CV, O, B-LC, B-FD, B-AF
-22	##단	O	O	O, I-CV, B-CV, B-FD, I-FD
-23	##어	O	O	O, I-CV, I-FD, B-CV, I-TM
-24	공부	O	O	O, I-CV, B-CV, I-AF, I-FD
-25	##가	O	O	O, B-PS, B-CV, B-LC, B-OG
-26	한창	O	O	O, B-CV, B-TM, B-OG, B-LC
-27	##이	O	O	O, B-PS, B-CV, B-OG, B-LC
-28	##었	O	O	O, B-CV, B-OG, B-LC, B-TM
-29	##다	O	O	O, B-CV, I-AF, I-EV, I-OG
-30	.	O	O	O, B-CV, B-LC, B-PS, B-FD
-31	[SEP]	O	O	O, B-CV, B-LC, B-FD, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	그니까	O	O
+2	저	O	O
+3	##도	O	O
+4	사실	O	O
+5	내각	B-CV	B-CV
+6	##제	I-CV	I-CV
+7	개헌	O	O
+8	지지자	O	B-CV
+9	##이	O	O
+10	##긴	O	O
+11	한데	O	O
+12	[SEP]	O	O

@@ -1,11 +1,60 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	그리고	O	O	O, B-CV, B-OG, B-LC, B-TM
-2	적	B-CV	B-CV	B-CV, O, I-CV, B-AF, B-AM
-3	##장자	I-CV	I-CV	I-CV, O, B-CV, I-TR, I-AM
-4	상속	I-CV	O	O, I-CV, B-CV, I-TR, I-AF
-5	##제	I-CV	I-CV	I-CV, O, I-TR, B-CV, I-AF
-6	이런	O	O	O, I-CV, B-CV, I-AF, I-QT
-7	것	O	O	O, B-CV, B-OG, B-LC, I-CV
-8	##도	O	O	O, B-CV, I-CV, B-OG, I-OG
-9	[SEP]	O	O	O, B-CV, I-CV, B-LC, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	공천	B-CV	B-CV
+2	##심	I-CV	I-CV
+3	##사	I-CV	I-CV
+4	##위원	I-CV	I-CV
+5	##으로	O	O
+6	##는	O	O
+7	김세	B-PS	B-PS
+8	##연	I-PS	I-PS
+9	제	B-QT	B-CV
+10	##1	I-QT	I-CV
+11	##사	B-CV	I-CV
+12	##무	I-CV	I-CV
+13	##부	I-CV	I-CV
+14	##총장	I-CV	I-CV
+15	##과	O	O
+16	전	B-PS	B-PS
+17	##희	I-PS	I-PS
+18	##재	I-PS	I-PS
+19	제	B-QT	B-CV
+20	##2	I-QT	I-CV
+21	##사	B-CV	I-CV
+22	##무	I-CV	I-CV
+23	##부	I-CV	I-CV
+24	##총장	I-CV	I-CV
+25	##이	O	O
+26	당연	O	O
+27	##직	O	O
+28	##으로	O	O
+29	참여	O	O
+30	##하	O	O
+31	##고	O	O
+32	김재원	B-PS	B-PS
+33	당	O	O
+34	전략	B-CV	B-CV
+35	##기획	I-CV	I-CV
+36	##본부	I-CV	I-CV
+37	##장	I-CV	I-CV
+38	,	O	O
+39	김정	B-PS	B-PS
+40	전	O	O
+41	의원	B-CV	B-CV
+42	,	O	O
+43	조	B-PS	B-PS
+44	##은희	I-PS	I-PS
+45	전	O	O
+46	서울시	B-LC	B-LC
+47	정무	B-OG	B-CV
+48	##부	I-OG	I-CV
+49	##시장	B-CV	I-CV
+50	등이	O	O
+51	참여	O	O
+52	##할	O	O
+53	것	O	O
+54	##으로	O	O
+55	알려졌	O	O
+56	##다	O	O
+57	.	O	O
+58	[SEP]	O	O

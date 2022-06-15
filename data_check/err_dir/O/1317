@@ -1,36 +1,29 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	기자	B-CV	B-CV	B-CV, O, B-OG, I-CV, B-AF
-2	##는	O	O	O, I-CV, B-CV, I-OG, I-AF
-3	1	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-OG
-4	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-OG
-5	내내	O	I-DT	I-DT, O, B-DT, I-QT, I-TI
-6	하루	B-DT	B-DT	B-DT, I-DT, O, B-QT, B-TI
-7	##도	O	O	O, I-DT, I-QT, B-CV, I-EV
-8	쉬	O	O	O, B-CV, I-DT, B-DT, B-TM
-9	##지	O	O	O, I-DT, B-DT, B-PS, B-LC
-10	않	O	O	O, I-DT, B-DT, B-PS, B-LC
-11	##고	O	O	O, I-DT, B-PS, B-LC, B-DT
-12	매일	O	O	O, B-DT, B-QT, B-LC, B-PS
-13	6	B-TI	B-TI	B-TI, O, B-QT, I-TI, B-EV
-14	##시간	I-TI	I-TI	I-TI, O, I-QT, I-TR, B-TI
-15	반	I-TI	I-TI	I-TI, O, I-TR, I-QT, I-DT
-16	##씩	I-TI	I-TI	I-TI, O, I-QT, I-TR, B-TI
-17	일	O	O	O, I-TI, I-QT, B-CV, I-TR
-18	##하	O	O	O, B-CV, B-PS, B-LC, B-OG
-19	##는	O	O	O, B-CV, B-PS, I-AF, B-OG
-20	셈	O	O	O, B-PS, B-CV, B-OG, B-LC
-21	##이	O	O	O, B-PS, B-CV, B-OG, B-LC
-22	##라	O	O	O, B-CV, B-OG, B-PS, I-OG
-23	##며	O	O	O, B-OG, B-LC, B-CV, I-OG
-24	OECD	B-OG	B-OG	B-OG, O, I-OG, B-EV, B-CV
-25	가입	O	O	O, I-OG, B-CV, B-OG, I-CV
-26	##국	O	O	O, I-OG, I-CV, I-LC, B-LC
-27	중	O	O	O, B-CV, B-LC, B-PS, B-OG
-28	최고	O	O	O, B-CV, B-QT, B-OG, B-LC
-29	##라고	O	O	O, B-OG, B-CV, I-OG, B-PS
-30	소개	O	O	O, B-CV, B-OG, B-TM, B-LC
-31	##했	O	O	O, B-CV, I-CV, I-OG, B-OG
-32	##다	O	O	O, B-CV, I-OG, I-CV, B-OG
-33	.	O	O	O, B-CV, B-LC, B-OG, B-PS
-34	[SEP]	O	O	O, B-CV, B-LC, B-OG, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	주간지	O	O
+2	타임	B-OG	B-OG
+3	등	O	O
+4	##은	O	O
+5	백악관	B-OG	B-AF
+6	브리핑	O	O
+7	##을	O	O
+8	보이콧	O	O
+9	##했	O	O
+10	##고	O	O
+11	,	O	O
+12	백악관	B-OG	B-OG
+13	기자단	O	I-OG
+14	##도	O	O
+15	""""	O	O
+16	공식	O	O
+17	대응	O	O
+18	##에	O	O
+19	나설	O	O
+20	것	O	O
+21	""""	O	O
+22	이라	O	O
+23	##고	O	O
+24	했	O	O
+25	##다	O	O
+26	.	O	O
+27	[SEP]	O	O

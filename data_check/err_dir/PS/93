@@ -1,32 +1,59 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	나리	B-PS	B-OG	B-OG, B-PS, B-LC, O, B-AF
-2	##스	I-PS	I-OG	I-OG, O, I-LC, I-PS, I-AF
-3	##는	O	O	O, I-OG, I-AF, I-PS, I-LC
-4	""""	O	O	O, B-CV, B-LC, I-OG, B-OG
-5	우리	O	O	O, B-OG, B-AF, B-CV, B-PS
-6	##는	O	O	O, I-OG, B-CV, I-AF, I-CV
-7	화장품	O	O	O, B-CV, B-LC, B-FD, B-AF
-8	##이	O	O	O, B-PS, B-CV, B-OG, B-LC
-9	아니	O	O	O, B-CV, B-LC, B-OG, B-PS
-10	##라	O	O	O, B-LC, B-CV, B-OG, B-PS
-11	자연	O	O	O, B-LC, B-CV, B-FD, B-TM
-12	친화	O	O	O, B-LC, B-CV, B-PS, I-OG
-13	##적인	O	O	O, B-LC, B-PS, B-CV, B-OG
-14	핀란드	O	B-LC	B-LC, O, B-OG, I-LC, B-PS
-15	##의	O	O	O, I-LC, B-LC, I-AF, I-OG
-16	헤	O	O	O, B-CV, B-LC, B-AF, B-FD
-17	##리티	O	O	O, I-AF, I-CV, I-LC, B-LC
-18	##지	O	O	O, I-AF, I-LC, I-CV, I-OG
-19	(	O	O	O, B-CV, I-AF, B-LC, I-CV
-20	유산	O	O	O, B-CV, B-LC, B-AF, B-FD
-21	)	O	O	O, B-CV, I-AF, I-CV, B-PS
-22	를	O	O	O, B-CV, B-LC, B-OG, B-PS
-23	판매	O	O	O, B-CV, B-LC, B-OG, B-TM
-24	##한다	O	O	O, B-OG, I-OG, B-LC, B-PS
-25	""""	O	O	O, B-CV, I-OG, B-OG, B-LC
-26	고	O	O	O, B-OG, B-CV, I-OG, B-PS
-27	했	O	O	O, B-OG, B-CV, B-PS, B-TM
-28	##다	O	O	O, I-OG, B-CV, B-OG, B-PS
-29	.	O	O	O, B-LC, B-CV, B-OG, B-PS
-30	[SEP]	O	O	O, B-LC, B-CV, B-OG, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	이날	B-DT	B-DT
+2	페	O	B-LC
+3	##셍	O	I-LC
+4	산업단지	O	I-LC
+5	##에	O	O
+6	##서는	O	O
+7	장	B-PS	B-PS
+8	회장	B-CV	B-CV
+9	외	O	O
+10	##에	O	O
+11	브라질	B-LC	B-LC
+12	##의	O	O
+13	첫	O	O
+14	여성	O	O
+15	대통령	B-CV	B-CV
+16	##인	O	O
+17	지우	B-PS	B-PS
+18	##마	I-PS	I-PS
+19	호세프	I-PS	I-PS
+20	대통령	B-CV	B-CV
+21	,	O	O
+22	무	B-PS	B-PS
+23	##릴	I-PS	I-PS
+24	##루	I-PS	I-PS
+25	페	I-PS	I-PS
+26	##헤이	I-PS	I-PS
+27	##라	I-PS	I-PS
+28	발레	I-PS	B-OG
+29	회장	B-CV	B-CV
+30	등이	O	O
+31	참석	O	O
+32	##한	O	O
+33	가운데	O	O
+34	동국제강	B-OG	B-OG
+35	##과	O	O
+36	포스코	B-OG	B-OG
+37	,	O	O
+38	발레	B-FD	B-OG
+39	##가	O	O
+40	합작	O	O
+41	##해	O	O
+42	설립	O	O
+43	##한	O	O
+44	CS	O	B-OG
+45	##P	O	I-OG
+46	##의	O	O
+47	고로	B-AF	B-AF
+48	제철소	I-AF	I-AF
+49	현황	O	O
+50	보고	O	O
+51	##식	O	O
+52	##이	O	O
+53	열	O	O
+54	##렀	O	O
+55	##다	O	O
+56	.	O	O
+57	[SEP]	O	O

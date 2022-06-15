@@ -1,19 +1,46 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	걔	O	O	O, B-CV, B-PS, B-LC, B-TM
-2	##는	O	O	O, B-CV, B-PS, I-CV, I-AF
-3	인제	O	O	O, B-CV, B-TM, B-OG, B-PS
-4	##는	O	O	O, B-CV, B-PS, I-AF, B-OG
-5	운동	O	O	O, B-CV, B-TM, B-FD, B-LC
-6	##을	O	O	O, I-CV, B-CV, B-PS, I-AF
-7	늦	O	O	O, B-CV, B-TM, B-LC, B-OG
-8	##게	O	O	O, I-CV, B-CV, B-LC, I-OG
-9	하	O	O	O, B-CV, B-PS, B-LC, B-OG
-10	##면서	O	O	O, B-CV, B-PS, B-LC, B-OG
-11	머리	O	B-AM	B-AM, O, B-PS, B-TR, B-CV
-12	##를	O	O	O, B-CV, I-CV, I-AF, I-QT
-13	밤	B-TI	B-TI	B-TI, O, B-LC, B-EV, B-QT
-14	##에	O	O	O, I-TI, I-CV, I-EV, I-AF
-15	감	O	O	O, B-CV, B-PS, B-LC, B-TM
-16	##아	O	O	O, B-CV, I-CV, B-PS, I-AF
-17	[SEP]	O	O	O, B-CV, B-LC, B-PS, I-CV
+	text	label	preds
+0	[CLS]	O	O
+1	교육부	B-OG	B-OG
+2	##는	O	O
+3	지난해	B-DT	B-DT
+4	전국	O	O
+5	초	O	O
+6	·	O	O
+7	중	O	O
+8	·	O	O
+9	고	O	O
+10	76	B-QT	B-QT
+11	##5	I-QT	I-QT
+12	##개	I-QT	I-QT
+13	##교	O	I-QT
+14	전교	O	O
+15	##생	O	O
+16	8	B-QT	B-QT
+17	##만	I-QT	I-QT
+18	##28	I-QT	I-QT
+19	##83	I-QT	I-QT
+20	##명	I-QT	I-QT
+21	##의	O	O
+22	신체	O	O
+23	발달	O	O
+24	상황	O	O
+25	##을	O	O
+26	조사	O	O
+27	##한	O	O
+28	'	O	O
+29	2016	B-DT	B-DT
+30	학생	B-CV	B-CV
+31	건강	O	O
+32	검사	O	O
+33	표본	O	O
+34	조사	O	O
+35	결과	O	O
+36	'	O	O
+37	를	O	O
+38	22	B-DT	B-DT
+39	##일	I-DT	I-DT
+40	발표	O	O
+41	##했	O	O
+42	##다	O	O
+43	.	O	O
+44	[SEP]	O	O

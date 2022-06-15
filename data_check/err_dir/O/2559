@@ -1,60 +1,54 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-EV, I-OG
-1	지난달	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-LC
-2	지역	O	B-EV	B-EV, O, B-CV, B-LC, I-EV
-3	예선	B-EV	I-EV	I-EV, B-EV, O, B-CV, B-LC
-4	##에서	O	O	O, I-EV, B-CV, I-CV, I-OG
-5	탈락	O	O	O, B-CV, B-LC, B-TM, B-OG
-6	##한	O	O	O, B-PS, B-LC, B-OG, B-CV
-7	한	O	O	O, B-PS, B-LC, B-OG, B-CV
-8	댄스	O	O	O, B-OG, B-FD, B-CV, B-PS
-9	##그룹	O	O	O, I-OG, I-PS, I-CV, I-FD
-10	리더	B-CV	B-CV	B-CV, O, B-PS, B-AF, I-PS
-11	##는	O	O	O, I-CV, B-CV, I-AF, I-OG
-12	""""	O	O	O, B-CV, B-LC, B-TM, B-PS
-13	내	O	O	O, B-CV, B-PS, B-LC, B-OG
-14	##가	O	O	O, B-PS, B-LC, B-OG, B-CV
-15	다른	O	O	O, B-CV, B-PS, B-LC, B-OG
-16	멤버	B-CV	B-CV	B-CV, O, B-PS, B-AF, I-CV
-17	##들	O	O	O, I-CV, I-PS, B-CV, I-AF
-18	##은	O	O	O, B-CV, B-PS, B-LC, B-TM
-19	배려	O	O	O, B-CV, B-LC, B-PS, B-TM
-20	##하	O	O	O, B-PS, B-LC, B-CV, B-DT
-21	##지	O	O	O, B-PS, B-LC, B-CV, B-OG
-22	않	O	O	O, B-PS, B-LC, B-CV, B-OG
-23	##은	O	O	O, B-PS, B-LC, B-CV, B-OG
-24	채	O	O	O, B-PS, B-LC, B-CV, B-QT
-25	이기	O	O	O, B-CV, B-LC, B-PS, B-TM
-26	##적인	O	O	O, B-PS, B-LC, B-CV, B-QT
-27	결정	O	O	O, B-CV, B-LC, B-PS, B-OG
-28	##을	O	O	O, B-PS, B-CV, B-LC, B-OG
-29	한	O	O	O, B-PS, B-CV, B-LC, B-OG
-30	것	O	O	O, B-PS, B-CV, B-LC, B-OG
-31	##처럼	O	O	O, B-LC, B-PS, B-CV, B-TM
-32	방송	O	O	O, B-CV, B-TM, B-LC, B-FD
-33	##에	O	O	O, B-CV, B-LC, B-PS, B-TM
-34	나가	O	O	O, B-CV, B-LC, B-PS, B-OG
-35	엄청난	O	O	O, B-LC, B-CV, B-TM, B-PS
-36	악	O	O	O, B-TM, B-CV, B-LC, B-PS
-37	##플	O	O	O, I-TM, I-CV, I-LC, I-PS
-38	##에	O	O	O, B-CV, I-CV, B-PS, B-LC
-39	시달려	O	O	O, B-LC, B-CV, B-TM, B-PS
-40	##야	O	O	O, B-CV, B-LC, B-PS, B-TM
-41	했	O	O	O, B-CV, B-PS, B-LC, B-OG
-42	##다	O	O	O, B-CV, B-PS, B-LC, B-OG
-43	""""	O	O	O, B-CV, B-TM, B-LC, B-PS
-44	며	O	O	O, B-CV, B-LC, B-TM, B-PS
-45	억울	O	O	O, B-CV, B-TM, B-LC, B-PS
-46	##함	O	O	O, B-PS, I-CV, B-LC, B-CV
-47	##을	O	O	O, B-CV, B-PS, B-LC, B-TM
-48	호소	O	O	O, B-CV, B-TM, B-LC, B-PS
-49	##하	O	O	O, B-PS, B-CV, B-LC, B-TM
-50	##는	O	O	O, B-CV, B-PS, B-LC, B-TM
-51	글	O	O	O, B-CV, B-TM, B-LC, B-PS
-52	##을	O	O	O, B-CV, B-LC, B-TM, B-PS
-53	인터넷	O	O	O, B-TM, B-CV, B-LC, B-OG
-54	##에	O	O	O, B-CV, B-TM, B-LC, B-OG
-55	올렸	O	O	O, B-CV, B-TM, B-LC, B-PS
-56	##다	O	O	O, B-CV, B-TM, B-LC, B-PS
-57	.	O	O	O, B-CV, B-LC, B-PS, B-TM
-58	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	또한	O	O
+2	이	O	O
+3	제품	O	O
+4	##은	O	O
+5	시스코	B-OG	B-OG
+6	##시스	I-OG	I-OG
+7	##템	I-OG	I-OG
+8	##스	I-OG	I-OG
+9	##의	O	O
+10	UP	B-TR	B-TM
+11	##O	I-TR	I-TM
+12	##E	I-TR	I-TM
+13	(	O	O
+14	Univers	O	O
+15	##al	O	O
+16	Power	O	O
+17	O	O	O
+18	##ver	O	O
+19	E	O	O
+20	##ther	O	O
+21	##net	O	O
+22	)	O	O
+23	라는	O	O
+24	기술	O	O
+25	##을	O	O
+26	도입	O	O
+27	##해	O	O
+28	따로	O	O
+29	전원	O	O
+30	##을	O	O
+31	연결	O	O
+32	##하	O	O
+33	##지	O	O
+34	않	O	O
+35	##아	O	O
+36	##도	O	O
+37	‘	O	O
+38	이서	B-TR	B-TM
+39	##넷	I-TR	I-TM
+40	’	O	O
+41	랜	O	B-TM
+42	케이블	O	I-TM
+43	##을	O	O
+44	통해	O	O
+45	전원	O	O
+46	공급	O	O
+47	##이	O	O
+48	가능	O	O
+49	##하	O	O
+50	##다	O	O
+51	.	O	O
+52	[SEP]	O	O

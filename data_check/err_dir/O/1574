@@ -1,49 +1,14 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	공정	O	O	O, B-CV, B-TR, B-OG, B-AF
-2	##보도	O	O	O, I-CV, I-TR, I-FD, I-OG
-3	##와	O	O	O, I-OG, I-CV, I-AF, B-PS
-4	낙하산	B-AF	B-AF	B-AF, O, B-TM, B-PS, B-LC
-5	사장	B-CV	B-CV	B-CV, O, I-CV, I-AF, B-AM
-6	퇴진	O	O	O, I-CV, I-AF, B-CV, I-EV
-7	##을	O	O	O, B-PS, B-CV, B-OG, B-LC
-8	걸	O	O	O, B-PS, B-CV, B-LC, B-OG
-9	##고	O	O	O, B-PS, B-LC, B-OG, B-CV
-10	51	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-11	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
-12	##째	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-OG
-13	파업	O	O	O, B-CV, I-DT, B-OG, B-EV
-14	##중	O	O	O, I-OG, I-CV, I-EV, B-PS
-15	##인	O	O	O, B-PS, B-LC, B-OG, B-CV
-16	한국	B-OG	B-OG	B-OG, O, B-LC, B-PS, I-OG
-17	##방송	I-OG	I-OG	I-OG, O, I-LC, B-OG, I-CV
-18	새	O	O	O, I-OG, B-OG, B-CV, B-AF
-19	##노조	O	O	O, I-OG, I-CV, I-EV, I-AF
-20	기자	B-CV	B-CV	B-CV, O, I-CV, I-OG, B-OG
-21	##들	O	O	O, I-CV, I-OG, I-EV, I-AF
-22	##은	O	O	O, B-CV, B-OG, B-LC, B-PS
-23	지상파	O	O	O, B-TM, B-OG, B-LC, B-FD
-24	방송	O	O	O, I-TM, I-OG, B-TM, I-AF
-25	##에서	O	O	O, B-PS, I-OG, B-CV, B-LC
-26	내려놓	O	O	O, B-TM, B-CV, B-PS, B-QT
-27	##은	O	O	O, B-PS, B-TM, B-CV, B-QT
-28	마이크	O	B-TM	B-TM, O, B-CV, I-TM, B-AF
-29	##와	O	O	O, I-TM, I-AF, I-CV, B-PS
-30	노트북	B-TM	B-TM	B-TM, O, B-CV, B-AF, I-TM
-31	##을	O	O	O, I-TM, I-AF, I-QT, I-CV
-32	다시	O	O	O, B-CV, B-QT, B-TM, B-OG
-33	열	O	O	O, B-PS, B-CV, B-QT, B-OG
-34	##고	O	O	O, B-PS, B-LC, B-CV, I-QT
-35	<	O	O	O, B-LC, B-OG, B-CV, B-AF
-36	리	B-AF	B-AF	B-AF, O, B-TM, B-OG, B-LC
-37	##셋	I-AF	I-AF	I-AF, O, I-TM, I-OG, I-LC
-38	>	O	O	O, I-AF, I-OG, I-EV, I-TM
-39	에서	O	O	O, B-CV, B-LC, B-PS, I-AF
-40	눈부신	O	O	O, B-LC, B-OG, B-TM, B-PS
-41	활약	O	O	O, B-CV, B-LC, B-OG, B-TM
-42	##을	O	O	O, B-CV, I-OG, B-OG, B-PS
-43	하고	O	O	O, B-CV, B-OG, B-LC, B-PS
-44	있	O	O	O, B-CV, B-LC, B-OG, B-PS
-45	##다	O	O	O, B-CV, B-LC, B-OG, I-OG
-46	.	O	O	O, B-LC, B-OG, B-PS, B-CV
-47	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	대부분	O	O
+2	##의	O	O
+3	학교	O	O
+4	##에	O	O
+5	##서	O	O
+6	이	O	O
+7	~	O	O
+8	경영학	O	B-FD
+9	##과	O	O
+10	법과	O	O
+11	의과	O	O
+12	[SEP]	O	O

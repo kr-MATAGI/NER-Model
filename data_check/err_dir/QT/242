@@ -1,20 +1,16 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	그니까	O	O	O, B-CV, B-LC, B-AF, B-OG
-2	어머니	B-CV	B-CV	B-CV, O, B-OG, B-DT, B-TM
-3	##네	O	O	O, I-CV, I-OG, I-AF, I-QT
-4	##는	O	O	O, I-AF, B-LC, B-AF, I-LC
-5	사거리	B-QT	O	O, B-QT, B-AF, B-TM, B-LC
-6	##에서	O	O	O, I-AF, I-QT, I-LC, I-DT
-7	그	O	O	O, B-LC, B-CV, I-AF, B-OG
-8	~	O	O	O, B-LC, I-LC, I-AF, B-PS
-9	북	O	O	O, B-LC, B-TM, B-AF, B-OG
-10	##가	O	O	O, I-LC, I-AF, B-LC, I-QT
-11	북	B-AF	B-AF	B-AF, B-LC, O, I-AF, B-OG
-12	##악	I-AF	I-AF	I-AF, I-LC, O, B-AF, I-OG
-13	##터	I-AF	I-AF	I-AF, I-LC, O, I-QT, I-OG
-14	##널	I-AF	I-AF	I-AF, I-LC, O, I-QT, I-OG
-15	##인	O	O	O, I-AF, I-LC, I-OG, I-QT
-16	##가	O	O	O, I-AF, B-LC, B-CV, B-QT
-17	?	O	O	O, B-CV, B-LC, I-AF, B-TM
-18	[SEP]	O	O	O, B-CV, B-LC, B-AF, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	삼	B-QT	B-QT
+2	##십	I-QT	I-QT
+3	윈	I-QT	O
+4	##가	O	O
+5	이	O	O
+6	##십	O	O
+7	위로	O	O
+8	뒤쳐	O	O
+9	##져	O	O
+10	##있	O	O
+11	##습	O	O
+12	##니다	O	O
+13	.	O	O
+14	[SEP]	O	O

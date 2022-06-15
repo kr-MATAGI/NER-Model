@@ -1,52 +1,22 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-EV, I-OG
-1	실제로	O	O	O, B-PS, B-CV, B-LC, B-QT
-2	이	B-PS	B-PS	B-PS, O, I-PS, B-LC, B-OG
-3	씨	O	O	O, I-PS, B-CV, I-AF, B-PS
-4	사무실	O	O	O, B-CV, B-TM, B-AF, B-LC
-5	주변	O	O	O, B-TM, B-PS, B-CV, B-LC
-6	##에	O	O	O, B-PS, B-CV, B-LC, B-TM
-7	##는	O	O	O, B-PS, B-LC, B-TM, B-CV
-8	‘	O	O	O, B-PS, B-LC, B-CV, B-OG
-9	미군	O	B-OG	B-OG, O, B-LC, B-CV, I-OG
-10	##특	O	O	O, B-CV, B-PS, I-CV, I-OG
-11	##수	O	O	O, I-CV, I-PS, I-QT, I-OG
-12	’	O	O	O, B-PS, I-CV, I-PS, I-QT
-13	를	O	O	O, B-PS, I-PS, B-CV, B-LC
-14	노리	O	O	O, B-PS, B-CV, B-LC, I-PS
-15	##고	O	O	O, B-PS, I-PS, B-LC, B-CV
-16	3	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-17	,	I-DT	I-DT	I-DT, O, I-QT, I-PS, B-DT
-18	4	I-DT	I-DT	I-DT, O, B-DT, I-PS, I-QT
-19	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-20	전	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-21	집중	O	O	O, B-PS, I-DT, B-LC, B-CV
-22	##적으로	O	O	O, B-PS, I-PS, B-LC, B-QT
-23	지어	O	O	O, B-PS, B-LC, B-QT, B-CV
-24	##진	O	O	O, B-PS, B-LC, B-QT, B-CV
-25	빌라	O	O	O, B-AF, B-TM, B-CV, I-AF
-26	##형	O	O	O, I-AF, I-TM, I-LC, I-CV
-27	임대	O	O	O, I-AF, B-CV, B-AF, B-TM
-28	##주택	O	O	O, I-AF, I-LC, I-CV, B-AF
-29	10	O	O	O, B-PS, B-LC, B-TM, B-QT
-30	##여	O	O	O, B-PS, B-QT, B-LC, B-TM
-31	동이	O	O	O, I-QT, B-LC, B-PS, B-TM
-32	있	O	O	O, B-PS, B-QT, B-LC, I-QT
-33	##었	O	O	O, B-PS, B-LC, B-CV, I-QT
-34	##지만	O	O	O, B-PS, B-LC, B-CV, B-TM
-35	거의	O	O	O, B-PS, B-LC, B-CV, B-TM
-36	입주	O	O	O, B-LC, B-TM, B-CV, B-PS
-37	##가	O	O	O, B-PS, B-LC, B-OG, B-CV
-38	이뤄지지	O	O	O, B-LC, B-CV, B-PS, B-TM
-39	않	O	O	O, B-LC, B-PS, B-CV, B-OG
-40	##아	O	O	O, B-LC, B-PS, B-TM, B-CV
-41	을	O	O	O, B-PS, B-CV, B-AF, B-LC
-42	##씨	O	O	O, I-PS, I-CV, B-CV, B-PS
-43	##년	O	O	O, I-CV, I-PS, B-CV, B-PS
-44	##스럽	O	O	O, I-CV, I-PS, I-QT, I-AF
-45	##기	O	O	O, B-PS, I-PS, I-CV, I-QT
-46	##만	O	O	O, I-QT, I-PS, B-PS, I-LC
-47	했	O	O	O, B-LC, B-CV, B-PS, B-TM
-48	##다	O	O	O, B-CV, B-TM, B-LC, B-PS
-49	.	O	O	O, B-LC, B-PS, B-CV, B-TM
-50	[SEP]	O	O	O, B-LC, B-CV, B-PS, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	‘	O	O
+2	유리	O	B-MT
+3	##관	O	O
+4	속	O	O
+5	시신	O	O
+6	’	O	O
+7	은	O	O
+8	죽	O	O
+9	##지	O	O
+10	않	O	O
+11	##고	O	O
+12	잠들	O	O
+13	##어	O	O
+14	있	O	O
+15	##는	O	O
+16	느낌	O	O
+17	##을	O	O
+18	준다	O	O
+19	.	O	O
+20	[SEP]	O	O

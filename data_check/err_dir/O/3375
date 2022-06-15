@@ -1,22 +1,25 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-QT
-1	우선	O	O	O, B-OG, B-CV, B-TM, B-LC
-2	오	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
-3	씨	O	O	O, I-PS, B-CV, I-OG, I-AF
-4	##의	O	O	O, B-CV, B-TM, B-LC, B-PS
-5	몸	B-AM	B-AM	B-AM, O, B-TM, B-TR, I-AM
-6	##에서	O	O	O, I-DT, I-AF, I-QT, I-CV
-7	##는	O	O	O, B-TM, B-CV, B-LC, B-OG
-8	니코틴	B-MT	B-MT	B-MT, O, B-TM, I-MT, B-CV
-9	##뿐	O	O	O, I-AF, I-TM, I-CV, B-CV
-10	##만	O	O	O, B-TM, B-LC, B-QT, B-PS
-11	아니	O	O	O, B-CV, B-TM, B-PS, B-LC
-12	##라	O	O	O, B-CV, B-OG, B-PS, B-LC
-13	수면제	O	B-TM	B-TM, O, B-CV, B-AF, B-TR
-14	성분	O	O	O, I-TM, I-CV, B-CV, I-AF
-15	##의	O	O	O, B-CV, B-PS, B-LC, B-OG
-16	[UNK]	O	O	O, B-CV, B-LC, B-OG, B-TM
-17	나왔	O	O	O, B-CV, B-OG, B-TM, B-LC
-18	##다	O	O	O, B-CV, B-OG, B-TM, B-LC
-19	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-20	[SEP]	O	O	O, B-CV, B-LC, B-TM, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	2008	B-DT	B-DT
+2	##년	I-DT	I-DT
+3	한국	B-LC	B-LC
+4	정부	B-OG	B-OG
+5	##의	O	O
+6	초대	O	O
+7	##로	O	O
+8	송도	B-LC	B-LC
+9	글로벌	O	B-OG
+10	##캠	O	I-OG
+11	##퍼스	O	I-OG
+12	개발	O	O
+13	##에	O	O
+14	참여	O	O
+15	##해	O	O
+16	내년	B-DT	B-DT
+17	##부터	I-DT	I-DT
+18	학교	O	O
+19	##를	O	O
+20	운영	O	O
+21	##한다	O	O
+22	.	O	O
+23	[SEP]	O	O

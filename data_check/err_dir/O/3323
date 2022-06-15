@@ -1,20 +1,22 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, B-CV, I-OG, I-AF
-1	조사	O	O	O, B-OG, B-CV, B-LC, B-FD
-2	통계	O	O	O, B-OG, I-OG, B-FD, B-CV
-3	##국	O	O	O, I-OG, B-OG, I-CV, I-LC
-4	뭐	O	O	O, I-OG, I-CV, I-AF, B-CV
-5	통계	O	O	O, B-FD, B-CV, B-TR, B-OG
-6	##x	O	O	O, I-OG, I-FD, I-CV, I-AF
-7	##x	O	O	O, I-CV, I-OG, I-AF, I-FD
-8	그렇	O	O	O, B-CV, B-OG, B-TM, B-LC
-9	##습	O	O	O, B-CV, I-CV, I-OG, I-AF
-10	##니다	O	O	O, B-CV, I-CV, I-OG, B-OG
-11	##만	O	O	O, B-CV, I-CV, B-PS, I-AF
-12	통계	O	O	O, B-FD, B-CV, B-TR, B-OG
-13	왜	O	O	O, I-CV, B-CV, I-AF, I-OG
-14	처음	O	O	O, B-CV, B-OG, B-PS, B-LC
-15	독립	O	B-OG	B-OG, O, B-CV, B-LC, B-EV
-16	##청	O	I-OG	I-OG, O, B-OG, I-CV, I-EV
-17	##으로	O	O	O, I-OG, I-CV, I-AF, I-EV
-18	[SEP]	O	O	O, B-CV, I-OG, B-LC, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	알루미늄	O	B-MT
+2	레일	O	O
+3	##을	O	O
+4	활용	O	O
+5	##해	O	O
+6	창	O	O
+7	##을	O	O
+8	열	O	O
+9	##고	O	O
+10	닫	O	O
+11	##을	O	O
+12	때	O	O
+13	사용	O	O
+14	##하	O	O
+15	##기	O	O
+16	##가	O	O
+17	쉽	O	O
+18	##다	O	O
+19	.	O	O
+20	[SEP]	O	O

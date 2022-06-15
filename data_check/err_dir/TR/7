@@ -1,16 +1,37 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	비밀	O	O	O, B-CV, B-TM, B-LC, B-PS
-2	물	B-TR	O	O, B-TR, B-PS, B-CV, B-AM
-3	##신	I-TR	O	O, I-TR, I-CV, I-PS, I-FD
-4	(	I-TR	O	O, I-TR, B-TR, I-CV, B-PS
-5	物	I-TR	O	O, I-TR, B-TR, B-PS, I-PS
-6	神	I-TR	O	O, I-TR, B-TR, B-PS, I-PS
-7	)	I-TR	O	O, I-TR, B-TR, I-PS, B-PS
-8	주의	I-TR	O	O, I-TR, B-TR, B-PS, I-PS
-9	##에서	O	O	O, I-TR, B-CV, B-LC, I-QT
-10	벗어나	O	O	O, B-CV, B-OG, B-LC, B-PS
-11	##야	O	O	O, I-OG, B-PS, I-AF, I-CV
-12	한다	O	O	O, B-CV, B-LC, B-OG, B-PS
-13	.	O	O	O, B-LC, B-PS, B-CV, B-TR
-14	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-TR
+	text	label	preds
+0	[CLS]	O	O
+1	수술	O	O
+2	환자	B-CV	B-CV
+3	##의	O	O
+4	절반	B-QT	B-QT
+5	##이	O	O
+6	넘	O	O
+7	##는	O	O
+8	34	B-QT	B-QT
+9	##3	I-QT	I-QT
+10	##명	I-QT	I-QT
+11	##이	O	O
+12	암세포	O	B-TM
+13	##가	O	O
+14	퍼져	O	O
+15	있	O	O
+16	##거나	O	O
+17	있	O	O
+18	##을	O	O
+19	가능	O	O
+20	##성이	O	O
+21	있	O	O
+22	##는	O	O
+23	조직	O	O
+24	##을	O	O
+25	완전히	O	O
+26	없애	O	O
+27	##는	O	O
+28	절제	B-TR	O
+29	수술	I-TR	O
+30	##을	O	O
+31	받	O	O
+32	##았	O	O
+33	##다	O	O
+34	.	O	O
+35	[SEP]	O	O

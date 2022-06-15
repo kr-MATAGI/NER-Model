@@ -1,20 +1,19 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-AF
-1	中	B-LC	B-LC	B-LC, B-OG, O, B-AF, B-TM
-2	시안	B-LC	B-LC	B-LC, I-LC, O, B-OG, B-AF
-3	##에	O	O	O, I-LC, I-AF, I-OG, B-LC
-4	광복	B-OG	B-OG	B-OG, B-CV, O, B-AF, B-EV
-5	##군	I-OG	I-OG	I-OG, I-EV, O, I-AF, I-CV
-6	표	O	O	O, I-OG, I-EV, I-AF, B-CV
-7	##석	O	O	O, I-AF, I-LC, I-EV, I-OG
-8	제막	O	O	O, B-LC, B-OG, B-CV, B-PS
-9	역사	O	O	O, B-FD, B-EV, B-LC, B-OG
-10	##공	O	O	O, I-EV, I-FD, B-EV, B-FD
-11	##조	O	O	O, I-EV, I-OG, I-LC, I-FD
-12	강화	O	O	O, B-OG, B-LC, B-CV, B-PS
-13	…	O	O	O, B-OG, B-LC, B-CV, I-OG
-14	日	O	B-LC	B-LC, B-OG, O, B-CV, B-TM
-15	언론	O	O	O, I-OG, B-CV, B-OG, I-LC
-16	##들	O	O	O, I-OG, I-CV, B-CV, B-LC
-17	민감	O	O	O, B-LC, B-OG, B-CV, B-TM
-18	[SEP]	O	O	O, B-LC, B-CV, B-OG, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	‘	O	O
+2	마오	B-PS	B-PS
+3	추모	O	O
+4	’	O	O
+5	대	O	O
+6	‘	O	O
+7	문	B-EV	B-EV
+8	##혁	I-EV	I-EV
+9	반성	O	O
+10	’	O	O
+11	…	O	O
+12	중	O	B-LC
+13	좌우	O	O
+14	##파	O	O
+15	이념	O	O
+16	격돌	O	O
+17	[SEP]	O	O

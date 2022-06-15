@@ -1,23 +1,71 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-QT
-1	그리고	O	O	O, B-CV, B-LC, B-TM, B-QT
-2	9	B-DT	B-DT	B-DT, I-DT, O, B-QT, B-OG
-3	##월	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-OG
-4	##부터	I-DT	I-DT	I-DT, O, B-DT, I-OG, I-QT
-5	##는	O	O	O, I-DT, B-CV, I-OG, B-OG
-6	전국	B-OG	B-OG	B-OG, O, B-AF, B-LC, B-EV
-7	##언	I-OG	I-OG	I-OG, O, B-OG, I-AF, I-LC
-8	##론	I-OG	I-OG	I-OG, O, I-AF, I-LC, I-EV
-9	##노조	I-OG	I-OG	I-OG, O, I-AF, I-LC, I-EV
-10	한국	B-LC	B-OG	B-OG, I-OG, B-AF, O, B-LC
-11	##방송	O	I-OG	I-OG, O, I-AF, I-LC, I-CV
-12	계약직	B-CV	B-CV	B-CV, O, I-CV, I-OG, B-OG
-13	##지부	I-CV	I-CV	I-CV, B-CV, O, I-OG, I-QT
-14	##장	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-QT
-15	##을	O	O	O, I-CV, I-OG, I-QT, B-CV
-16	맡	O	O	O, B-CV, B-TM, B-LC, B-OG
-17	##고	O	O	O, B-CV, B-PS, I-CV, I-OG
-18	있	O	O	O, B-CV, B-PS, I-OG, B-LC
-19	##다	O	O	O, B-CV, B-LC, I-OG, B-TM
-20	.	O	O	O, B-OG, B-LC, I-OG, B-CV
-21	[SEP]	O	O	O, I-OG, B-OG, B-CV, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	127	B-QT	B-QT
+2	##석	I-QT	I-QT
+3	##을	O	O
+4	가진	O	O
+5	제	B-QT	B-OG
+6	##1	I-QT	I-OG
+7	##야	O	I-OG
+8	##당	O	I-OG
+9	##이	O	O
+10	무소	O	O
+11	##속	O	O
+12	2	B-QT	B-QT
+13	##명	I-QT	I-QT
+14	(	O	O
+15	안철수	B-PS	B-PS
+16	+	O	O
+17	송호	B-PS	B-PS
+18	##창	I-PS	I-PS
+19	)	O	O
+20	보다	O	O
+21	##도	O	O
+22	존재감	O	O
+23	##을	O	O
+24	못	O	O
+25	보여	O	O
+26	##주	O	O
+27	##고	O	O
+28	있	O	O
+29	##는	O	O
+30	‘	O	O
+31	굴욕	O	O
+32	’	O	O
+33	은	O	O
+34	언제	O	O
+35	만들	O	O
+36	##어질	O	O
+37	##지	O	O
+38	알	O	O
+39	수도	O	O
+40	없	O	O
+41	##는	O	O
+42	‘	O	O
+43	안철수	B-PS	B-PS
+44	신당	O	O
+45	’	O	O
+46	지지율	O	O
+47	##의	O	O
+48	반	B-QT	B-QT
+49	토막	I-QT	I-QT
+50	,	O	O
+51	심지어	O	O
+52	3	B-QT	B-QT
+53	##분	I-QT	I-QT
+54	##의	I-QT	I-QT
+55	1	I-QT	I-QT
+56	##토	I-QT	I-QT
+57	##막	I-QT	I-QT
+58	##에	O	O
+59	불과	O	O
+60	##한	O	O
+61	당	O	O
+62	##지	O	O
+63	##지	O	O
+64	##율	O	O
+65	##에	O	O
+66	##서도	O	O
+67	나타난다	O	O
+68	.	O	O
+69	[SEP]	O	O

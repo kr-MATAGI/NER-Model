@@ -1,69 +1,38 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-EV, I-AF
-1	경찰	B-OG	B-OG	B-OG, B-AF, O, B-CV, B-LC
-2	조사	O	O	O, I-OG, I-CV, I-AF, I-EV
-3	##에서	O	O	O, B-CV, I-CV, B-PS, I-OG
-4	최	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-5	##씨	O	O	O, I-PS, B-CV, I-AF, I-OG
-6	##는	O	O	O, B-CV, I-CV, B-TM, B-PS
-7	""""	O	O	O, B-CV, B-LC, B-PS, B-TM
-8	범행	O	O	O, B-CV, B-PS, B-TM, B-LC
-9	##에	O	O	O, B-PS, B-CV, I-CV, B-LC
-10	실패	O	O	O, B-CV, B-LC, B-TM, B-PS
-11	##하	O	O	O, B-PS, B-LC, B-CV, B-OG
-12	##더라	O	O	O, B-PS, B-CV, B-LC, I-AF
-13	##도	O	O	O, B-PS, B-LC, B-CV, B-OG
-14	다른	O	O	O, B-CV, B-PS, B-LC, B-TM
-15	사람	O	O	O, B-CV, B-PS, I-CV, B-TM
-16	##을	O	O	O, B-CV, B-PS, I-CV, B-TM
-17	다치	O	O	O, B-CV, B-TM, B-LC, B-PS
-18	##게	O	O	O, B-CV, B-PS, B-LC, B-TM
-19	하고	O	O	O, B-CV, B-PS, B-QT, B-TM
-20	싶	O	O	O, B-CV, B-PS, B-TM, B-LC
-21	##지	O	O	O, B-PS, B-CV, I-CV, B-LC
-22	않	O	O	O, B-PS, B-CV, B-LC, B-TM
-23	##아	O	O	O, B-PS, B-CV, B-LC, B-TM
-24	장난감	O	O	O, B-CV, B-AF, B-TM, B-PS
-25	권총	B-AF	B-AF	B-AF, O, I-AF, B-CV, B-PS
-26	##을	O	O	O, I-AF, B-CV, I-CV, I-EV
-27	사용	O	O	O, B-CV, B-TM, B-LC, B-PS
-28	##했	O	O	O, B-PS, B-CV, B-LC, B-OG
-29	##다	O	O	O, B-CV, B-PS, B-LC, I-AF
-30	""""	O	O	O, B-CV, B-PS, B-LC, B-TM
-31	며	O	O	O, B-CV, B-PS, B-LC, B-TM
-32	""""	O	O	O, B-CV, B-LC, B-PS, B-TM
-33	생활비	O	O	O, B-CV, B-TM, I-CV, B-PS
-34	##가	O	O	O, B-PS, B-CV, B-LC, I-CV
-35	모자라	O	O	O, B-CV, B-PS, B-LC, B-TM
-36	지인	B-CV	O	O, B-CV, I-CV, B-PS, B-TM
-37	##에	O	O	O, I-CV, B-CV, B-PS, I-AF
-38	##게	O	O	O, B-LC, B-CV, I-CV, B-PS
-39	##서	O	O	O, B-CV, B-PS, B-LC, B-TM
-40	2000	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-PS
-41	##여	I-QT	I-QT	I-QT, O, I-LC, I-PS, I-DT
-42	##만	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-43	##원	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-44	##을	O	O	O, I-QT, B-CV, I-CV, I-AF
-45	,	O	O	O, B-CV, B-PS, B-LC, B-TM
-46	사채	O	O	O, B-CV, B-TM, B-AF, I-CV
-47	##로	O	O	O, I-CV, B-PS, B-CV, I-AF
-48	3000	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-PS
-49	##여	I-QT	I-QT	I-QT, O, I-LC, I-PS, I-DT
-50	##만	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-51	##원	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-52	##을	O	O	O, I-QT, B-CV, I-CV, I-AF
-53	빌렸	O	O	O, B-CV, B-LC, B-PS, B-TM
-54	##지만	O	O	O, B-PS, B-CV, B-LC, I-CV
-55	갚	O	O	O, B-CV, B-LC, B-PS, B-TM
-56	##을	O	O	O, B-CV, B-PS, B-LC, B-TM
-57	수	O	O	O, B-PS, B-CV, B-LC, B-TM
-58	없	O	O	O, B-CV, B-PS, B-TM, B-LC
-59	##었	O	O	O, B-CV, B-PS, B-LC, I-CV
-60	##다	O	O	O, B-CV, B-PS, B-LC, B-TM
-61	""""	O	O	O, B-CV, B-TM, B-LC, B-PS
-62	고	O	O	O, B-CV, B-TM, B-PS, B-LC
-63	진술	O	O	O, B-CV, B-TM, B-LC, I-CV
-64	##했	O	O	O, B-CV, B-PS, B-LC, I-CV
-65	##다	O	O	O, B-CV, B-PS, B-TM, I-CV
-66	.	O	O	O, B-CV, B-PS, B-LC, B-TM
-67	[SEP]	O	O	O, B-CV, B-PS, B-LC, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	인수위	B-OG	B-OG
+2	##는	O	O
+3	또	O	O
+4	대통령	B-CV	B-CV
+5	##이	O	O
+6	임명	O	O
+7	##하	O	O
+8	##는	O	O
+9	인사	B-CV	O
+10	##의	O	O
+11	공정성	O	O
+12	##을	O	O
+13	확보	O	O
+14	##하	O	O
+15	##기	O	O
+16	위해	O	O
+17	비서실	B-CV	B-CV
+18	##장	I-CV	I-CV
+19	##을	O	O
+20	위원장	B-CV	B-CV
+21	##으로	O	O
+22	하	O	O
+23	##는	O	O
+24	인사	O	B-OG
+25	##위원회	O	I-OG
+26	##를	O	O
+27	청와대	B-OG	B-OG
+28	##에	O	O
+29	설치	O	O
+30	##하	O	O
+31	##기	O	O
+32	##로	O	O
+33	했	O	O
+34	##다	O	O
+35	.	O	O
+36	[SEP]	O	O

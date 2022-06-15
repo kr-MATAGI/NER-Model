@@ -1,84 +1,39 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-EV, I-QT, I-OG
-1	대북	O	O	O, B-CV, B-LC, B-OG, B-TM
-2	군사	O	O	O, B-CV, I-CV, B-FD, B-PS
-3	##적	O	O	O, I-CV, I-LC, I-TR, I-QT
-4	조치	O	O	O, I-CV, B-LC, B-CV, B-PS
-5	##로	O	O	O, B-LC, B-PS, B-OG, B-CV
-6	##는	O	O	O, B-LC, B-OG, B-PS, B-DT
-7	한	B-LC	B-EV	B-EV, B-LC, B-OG, O, B-DT
-8	·	O	I-EV	I-EV, O, I-LC, I-OG, I-DT
-9	미	B-LC	I-EV	I-EV, B-LC, I-LC, B-EV, O
-10	연합	O	I-EV	I-EV, B-EV, O, B-LC, B-OG
-11	키	B-EV	I-EV	I-EV, B-EV, O, B-LC, I-LC
-12	리	I-EV	I-EV	I-EV, O, B-EV, I-LC, I-AF
-13	##졸	I-EV	I-EV	I-EV, O, B-EV, I-LC, I-AF
-14	##브	I-EV	I-EV	I-EV, O, I-LC, I-AF, I-OG
-15	·	O	O	O, I-EV, B-EV, I-DT, I-OG
-16	독수리	B-EV	B-EV	B-EV, I-EV, O, B-LC, B-DT
-17	연습	I-EV	I-EV	I-EV, O, B-EV, I-DT, I-LC
-18	강화	O	O	O, I-EV, B-LC, I-DT, B-CV
-19	등	O	O	O, B-LC, B-OG, B-PS, B-DT
-20	대	O	O	O, B-LC, B-OG, B-TM, B-EV
-21	##규모	O	O	O, B-LC, B-EV, I-EV, I-LC
-22	한	B-LC	B-EV	B-EV, B-LC, B-OG, O, I-EV
-23	·	O	I-EV	I-EV, O, I-LC, I-OG, B-EV
-24	미	B-LC	I-EV	I-EV, I-LC, B-LC, I-OG, B-EV
-25	연합	O	I-EV	I-EV, O, B-EV, I-OG, I-LC
-26	훈련	O	I-EV	I-EV, O, I-OG, I-LC, I-AF
-27	##의	O	O	O, I-EV, I-OG, B-LC, I-DT
-28	조기	O	O	O, B-LC, B-DT, B-TM, B-OG
-29	실시	O	O	O, B-LC, B-OG, I-LC, B-CV
-30	,	O	O	O, B-LC, B-OG, B-PS, B-CV
-31	괌	B-LC	B-LC	B-LC, O, B-OG, B-AF, I-LC
-32	##과	O	O	O, I-LC, B-LC, I-AF, B-PS
-33	오키나와	B-LC	B-LC	B-LC, O, B-OG, I-LC, B-AF
-34	등	O	O	O, I-LC, B-LC, I-AF, B-CV
-35	##에	O	O	O, B-LC, B-AF, B-OG, B-CV
-36	배치	O	O	O, B-LC, B-AF, B-CV, B-TM
-37	##돼	O	O	O, B-LC, I-AF, B-PS, B-AF
-38	있	O	O	O, B-LC, B-AF, B-TM, B-CV
-39	##는	O	O	O, B-AF, B-LC, B-OG, B-TM
-40	B	B-AF	B-AF	B-AF, O, B-OG, I-AF, B-LC
-41	-	I-AF	I-AF	I-AF, O, I-OG, I-TM, I-QT
-42	2	I-AF	I-AF	I-AF, O, I-OG, I-QT, I-TM
-43	스텔	B-AF	B-AF	B-AF, I-AF, O, B-OG, I-EV
-44	##스	I-AF	I-AF	I-AF, O, I-OG, I-EV, I-TM
-45	폭격기	I-AF	I-AF	I-AF, B-AF, O, I-EV, B-CV
-46	,	O	O	O, I-AF, I-EV, I-OG, B-LC
-47	F	B-AF	B-AF	B-AF, B-OG, O, I-AF, B-LC
-48	-	I-AF	I-AF	I-AF, O, I-OG, I-TM, I-EV
-49	22	I-AF	I-AF	I-AF, O, I-OG, I-QT, I-EV
-50	스텔	B-AF	B-AF	B-AF, I-AF, O, B-OG, B-TM
-51	##스	I-AF	I-AF	I-AF, O, I-OG, I-TM, I-EV
-52	전투기	I-AF	I-AF	I-AF, B-AF, O, B-CV, I-EV
-53	##의	O	O	O, I-AF, B-LC, I-EV, I-OG
-54	한반도	B-LC	B-LC	B-LC, O, B-OG, I-LC, B-AF
-55	출동	O	O	O, B-LC, I-LC, B-CV, B-TM
-56	등	O	O	O, B-LC, B-PS, B-OG, B-TM
-57	무력	O	O	O, B-LC, B-EV, B-CV, B-TM
-58	##시위	O	O	O, I-EV, I-LC, B-LC, I-CV
-59	,	O	O	O, B-LC, I-EV, B-PS, B-OG
-60	대북	O	O	O, B-TM, B-CV, B-LC, B-AF
-61	확성기	O	B-TM	B-TM, O, I-TM, B-AF, B-CV
-62	방송	O	O	O, I-TM, B-CV, I-CV, I-EV
-63	재개	O	O	O, B-LC, B-CV, I-CV, I-EV
-64	##를	O	O	O, B-LC, B-OG, B-PS, B-CV
-65	비롯	O	O	O, B-LC, B-OG, B-PS, B-CV
-66	##한	O	O	O, B-LC, B-OG, B-PS, B-TM
-67	심리전	O	O	O, B-CV, B-LC, B-TM, B-EV
-68	강화	O	O	O, B-LC, B-CV, I-CV, I-EV
-69	등	O	O	O, B-LC, B-PS, B-OG, B-CV
-70	##이	O	O	O, B-LC, B-PS, B-OG, B-CV
-71	우선	O	O	O, B-LC, B-QT, B-TM, B-DT
-72	거론	O	O	O, B-LC, B-CV, B-TM, B-QT
-73	##되	O	O	O, B-LC, B-PS, B-CV, B-QT
-74	##고	O	O	O, B-LC, B-PS, B-CV, B-QT
-75	있	O	O	O, B-LC, B-PS, B-CV, B-OG
-76	##는	O	O	O, B-LC, B-CV, B-PS, B-OG
-77	것	O	O	O, B-LC, B-CV, B-PS, B-QT
-78	##으로	O	O	O, B-LC, B-CV, I-QT, B-TM
-79	전해졌	O	O	O, B-LC, B-OG, B-TM, B-QT
-80	##다	O	O	O, I-QT, B-LC, B-CV, I-OG
-81	.	O	O	O, B-LC, B-OG, B-PS, B-CV
-82	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	靑	O	B-OG
+2	서	O	O
+3	언론사	O	O
+4	정치	B-CV	O
+5	##부	I-CV	O
+6	##장	I-CV	O
+7	##단	I-CV	O
+8	##과	O	O
+9	만찬	O	O
+10	“	O	O
+11	윤창중	B-PS	B-PS
+12	##이	O	O
+13	그런	O	O
+14	인물	O	O
+15	##이	O	O
+16	##었	O	O
+17	##나	O	O
+18	…	O	O
+19	실망	O	O
+20	수사	O	O
+21	##결	O	O
+22	##과	O	O
+23	봐서	O	O
+24	필요	O	O
+25	##하면	O	O
+26	추가	O	O
+27	조치	O	O
+28	”	O	O
+29	尹	O	B-PS
+30	직권	O	O
+31	##면	O	O
+32	##직	O	O
+33	…	O	O
+34	공무원	B-CV	B-CV
+35	신분	O	O
+36	박탈	O	O
+37	[SEP]	O	O

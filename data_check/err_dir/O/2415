@@ -1,51 +1,40 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-QT
-1	새	B-OG	B-OG	B-OG, O, B-EV, B-PS, B-AF
-2	##누리	I-OG	I-OG	I-OG, O, I-EV, B-OG, I-AF
-3	##당	I-OG	I-OG	I-OG, O, I-EV, I-AF, I-LC
-4	신청자	B-CV	B-CV	B-CV, O, I-CV, I-OG, B-AF
-5	가운데	O	O	O, B-TM, B-QT, I-CV, B-CV
-6	‘	O	O	O, B-PS, I-QT, B-QT, B-CV
-7	박근혜	B-PS	B-PS	B-PS, O, B-OG, B-AF, I-PS
-8	’	O	O	O, I-PS, B-CV, I-OG, I-AF
-9	라는	O	O	O, B-QT, B-PS, B-LC, B-TM
-10	단어	O	O	O, I-QT, B-PS, B-CV, B-QT
-11	##를	O	O	O, B-CV, B-PS, I-QT, B-QT
-12	쓴	O	O	O, B-QT, B-CV, B-PS, B-TM
-13	사람	O	O	O, B-CV, I-QT, B-PS, B-QT
-14	##이	O	O	O, B-PS, B-CV, B-OG, B-QT
-15	77	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-PS
-16	##명	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-17	##으로	O	O	O, I-QT, B-CV, I-OG, B-OG
-18	8	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-EV
-19	.	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-EV
-20	1	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-21	%	I-QT	I-QT	I-QT, O, I-LC, I-OG, I-PS
-22	를	O	O	O, I-QT, B-CV, I-OG, I-EV
-23	차지	O	O	O, B-CV, B-TM, B-QT, I-QT
-24	##했	O	O	O, B-CV, B-PS, B-OG, B-LC
-25	##으며	O	O	O, B-CV, B-PS, B-LC, B-OG
-26	,	O	O	O, B-CV, B-LC, B-OG, B-PS
-27	‘	O	O	O, B-PS, B-CV, B-LC, B-OG
-28	친	O	O	O, B-PS, B-CV, B-OG, B-LC
-29	##박	O	O	O, B-PS, I-PS, B-CV, B-LC
-30	’	O	O	O, I-PS, B-CV, I-OG, I-CV
-31	이나	O	O	O, B-PS, B-CV, B-QT, B-LC
-32	‘	O	O	O, B-CV, B-LC, B-OG, B-PS
-33	박사	O	B-PS	B-PS, B-OG, O, B-CV, B-LC
-34	##모	O	I-OG	I-OG, I-PS, O, I-CV, I-LC
-35	’	O	O	O, I-OG, I-PS, I-CV, B-CV
-36	등	O	O	O, B-CV, B-QT, B-PS, B-LC
-37	##까	O	O	O, B-CV, B-QT, B-PS, B-TM
-38	##지	O	O	O, B-QT, B-PS, B-CV, B-LC
-39	포함	O	O	O, B-QT, B-CV, B-TM, B-OG
-40	##하면	O	O	O, B-QT, B-PS, B-OG, B-CV
-41	90	B-QT	B-QT	B-QT, O, I-QT, B-PS, B-DT
-42	##여	I-QT	I-QT	I-QT, O, I-LC, I-EV, I-PS
-43	##명	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-44	##으로	O	O	O, I-QT, I-OG, B-CV, I-EV
-45	집계	O	O	O, B-CV, B-TM, I-QT, B-OG
-46	##됐	O	O	O, B-CV, I-OG, B-OG, I-QT
-47	##다	O	O	O, B-CV, B-TM, B-QT, B-OG
-48	.	O	O	O, B-CV, B-LC, B-PS, B-OG
-49	[SEP]	O	O	O, B-CV, B-LC, B-QT, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	③	B-QT	B-QT
+2	##21	B-DT	B-DT
+3	##00	I-DT	I-DT
+4	##년	I-DT	I-DT
+5	##까	I-DT	I-DT
+6	##지	I-DT	I-DT
+7	연기금	O	O
+8	##을	O	O
+9	안정	O	O
+10	##적	O	O
+11	##으로	O	O
+12	유지	O	O
+13	##하면	O	O
+14	##서	O	O
+15	소득	O	O
+16	##대	O	O
+17	##체	O	O
+18	##율	O	O
+19	40	B-QT	B-QT
+20	%	I-QT	I-QT
+21	를	O	O
+22	유지	O	O
+23	##하	O	O
+24	##려면	O	O
+25	보험료	O	B-CV
+26	##율	O	O
+27	##을	O	O
+28	올해	B-DT	B-DT
+29	##부터	I-DT	I-DT
+30	15	B-QT	B-QT
+31	.	I-QT	I-QT
+32	85	I-QT	I-QT
+33	%	I-QT	I-QT
+34	로	O	O
+35	올려야	O	O
+36	한다	O	O
+37	.	O	O
+38	[SEP]	O	O

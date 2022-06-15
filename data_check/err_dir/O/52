@@ -1,22 +1,88 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	왜냐	O	O	O, B-CV, B-PS, B-LC, B-FD
-2	##하	O	O	O, B-CV, B-LC, B-PS, B-FD
-3	##믄	O	O	O, I-AF, I-CV, B-LC, B-FD
-4	이게	O	O	O, B-CV, B-LC, B-PS, B-OG
-5	뭐	O	O	O, B-CV, B-FD, B-AF, B-LC
-6	로맨틱	B-FD	B-FD	B-FD, O, B-CV, B-AF, B-TR
-7	코	I-FD	I-FD	I-FD, O, B-FD, I-CV, I-AF
-8	##메	I-FD	I-FD	I-FD, O, I-CV, I-AF, B-FD
-9	##디	I-FD	I-FD	I-FD, O, I-CV, I-AF, B-FD
-10	##라	O	O	O, I-FD, I-AF, I-CV, I-QT
-11	##든가	O	O	O, B-LC, B-CV, B-PS, I-AF
-12	아님	O	O	O, B-CV, B-LC, B-AF, B-OG
-13	멜로	B-FD	B-FD	B-FD, O, B-CV, B-AF, B-TR
-14	##물	O	I-FD	I-FD, O, B-FD, I-CV, I-AF
-15	이런	O	O	O, I-FD, I-AF, I-CV, B-CV
-16	것	O	O	O, B-CV, B-QT, B-LC, B-OG
-17	##이	O	O	O, B-CV, B-PS, B-LC, B-OG
-18	아니	O	O	O, B-CV, B-LC, B-OG, B-PS
-19	##라	O	O	O, B-CV, B-OG, B-LC, B-PS
-20	[SEP]	O	O	O, B-CV, B-LC, B-FD, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	이용	B-PS	B-PS
+2	##호	I-PS	I-PS
+3	국민	B-OG	B-OG
+4	##의	I-OG	I-OG
+5	##당	I-OG	I-OG
+6	원내	O	B-CV
+7	##대	B-CV	I-CV
+8	##변	I-CV	I-CV
+9	##인	I-CV	I-CV
+10	##은	O	O
+11	“	O	O
+12	대기	O	O
+13	##업	O	O
+14	독과점	O	O
+15	##을	O	O
+16	막	O	O
+17	##는	O	O
+18	‘	O	O
+19	공정성	B-CV	B-CV
+20	##장	I-CV	I-CV
+21	##법	I-CV	I-CV
+22	’	O	O
+23	,	O	O
+24	정치인	B-CV	B-CV
+25	##의	O	O
+26	공공	O	O
+27	##기	O	O
+28	##관	O	O
+29	취업	O	O
+30	##을	O	O
+31	제한	O	O
+32	##하	O	O
+33	##는	O	O
+34	‘	O	O
+35	낙하산	B-CV	B-CV
+36	금지법	I-CV	I-CV
+37	’	O	O
+38	,	O	O
+39	청년	O	O
+40	##용	O	O
+41	임대	O	O
+42	##주택	O	O
+43	##을	O	O
+44	지원	O	O
+45	##하	O	O
+46	##는	O	O
+47	‘	O	O
+48	컴백	B-CV	B-CV
+49	##홈	I-CV	I-CV
+50	##법	I-CV	I-CV
+51	’	O	O
+52	등	O	O
+53	기존	O	O
+54	##에	O	O
+55	밝힌	O	O
+56	법안	O	O
+57	##들	O	O
+58	##을	O	O
+59	비롯	O	O
+60	##해	O	O
+61	제	B-QT	B-QT
+62	##2	I-QT	I-QT
+63	##의	O	O
+64	가습기	B-TM	B-EV
+65	살균제	O	I-EV
+66	사태	O	I-EV
+67	##를	O	O
+68	막	O	O
+69	##을	O	O
+70	‘	O	O
+71	제조	B-CV	B-CV
+72	##물	I-CV	I-CV
+73	##책	I-CV	I-CV
+74	##임	I-CV	I-CV
+75	##법	I-CV	I-CV
+76	’	O	O
+77	등이	O	O
+78	최우선	O	O
+79	입법	O	O
+80	과제	O	O
+81	”	O	O
+82	라고	O	O
+83	밝혔	O	O
+84	##다	O	O
+85	.	O	O
+86	[SEP]	O	O

@@ -1,13 +1,78 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	포도	B-CV	B-CV	B-CV, B-MT, B-PT, O, B-OG
-2	##씨	I-CV	I-MT	I-MT, I-CV, I-PT, O, I-TM
-3	##유	I-CV	I-MT	I-MT, I-CV, I-PT, O, I-OG
-4	##도	O	O	O, I-CV, I-OG, I-AF, I-TM
-5	좋	O	O	O, B-CV, B-TM, I-CV, B-OG
-6	##고	O	O	O, I-OG, I-CV, I-AF, B-CV
-7	괜찮	O	O	O, B-CV, B-OG, B-TM, I-OG
-8	##아	O	O	O, B-CV, I-CV, I-OG, B-OG
-9	##요	O	O	O, B-CV, I-OG, I-CV, B-OG
-10	.	O	O	O, B-CV, I-OG, B-LC, B-OG
-11	[SEP]	O	O	O, B-CV, I-OG, I-CV, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	강	B-PS	B-PS
+2	전	O	O
+3	행장	B-CV	B-CV
+4	##과	O	O
+5	같	O	O
+6	##은	O	O
+7	종	O	O
+8	##친	O	O
+9	##회	O	O
+10	소속	O	O
+11	##인	O	O
+12	W	O	O
+13	##사	O	O
+14	대표	B-CV	B-CV
+15	강모	O	O
+16	씨	O	O
+17	##에	O	O
+18	대해서	O	O
+19	##는	O	O
+20	“	O	O
+21	고향	O	O
+22	종	B-CV	B-CV
+23	##친	I-CV	I-CV
+24	##으로	O	O
+25	##서	O	O
+26	18	B-CV	B-CV
+27	##촌	I-CV	I-QT
+28	”	O	O
+29	이라	O	O
+30	##며	O	O
+31	“	O	O
+32	행장	B-CV	B-CV
+33	재직	O	O
+34	시	O	O
+35	대우	B-OG	B-OG
+36	##조선	I-OG	I-OG
+37	##해	I-OG	I-OG
+38	##양	I-OG	I-OG
+39	주변	O	O
+40	##에	O	O
+41	말썽	O	O
+42	##을	O	O
+43	일으킨다	O	O
+44	##는	O	O
+45	정보	O	O
+46	##보	O	O
+47	##고	O	O
+48	##를	O	O
+49	듣	O	O
+50	##고	O	O
+51	그	O	O
+52	##에	O	O
+53	##게	O	O
+54	즉시	O	O
+55	전화	O	O
+56	##해	O	O
+57	내	O	O
+58	이름	O	O
+59	##을	O	O
+60	팔	O	O
+61	##고	O	O
+62	다니	O	O
+63	##지	O	O
+64	말라	O	O
+65	##고	O	O
+66	호통	O	O
+67	##을	O	O
+68	쳤	O	O
+69	##다	O	O
+70	”	O	O
+71	고	O	O
+72	해명	O	O
+73	##했	O	O
+74	##다	O	O
+75	.	O	O
+76	[SEP]	O	O

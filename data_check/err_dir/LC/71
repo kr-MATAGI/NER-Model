@@ -1,28 +1,74 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	경찰	B-OG	B-OG	B-OG, B-CV, O, B-AF, B-EV
-2	##의	O	O	O, I-OG, I-AF, I-CV, I-EV
-3	물	O	O	O, B-AF, B-LC, B-TM, B-PS
-4	##대포	O	O	O, I-AF, I-EV, I-LC, B-AF
-5	##를	O	O	O, I-AF, B-CV, I-EV, B-LC
-6	맞	O	O	O, B-LC, B-CV, B-PS, B-TM
-7	##고	O	O	O, B-CV, B-PS, B-LC, I-AF
-8	숨진	O	O	O, B-CV, B-LC, B-TM, B-QT
-9	농민	B-CV	B-CV	B-CV, O, B-PS, B-OG, I-CV
-10	백남	B-PS	B-PS	B-PS, I-PS, O, B-OG, B-LC
-11	##기	I-PS	I-PS	I-PS, O, I-OG, I-QT, I-LC
-12	##씨	O	O	O, I-PS, I-AF, I-QT, I-OG
-13	##가	O	O	O, B-LC, B-CV, B-PS, B-OG
-14	광주	B-LC	B-LC	B-LC, O, B-OG, B-AF, B-PS
-15	5	I-LC	B-EV	B-EV, B-LC, I-LC, B-AF, I-EV
-16	·	I-LC	I-LC	I-LC, I-EV, I-AF, I-DT, I-QT
-17	18	I-LC	I-LC	I-LC, I-EV, I-AF, I-DT, I-QT
-18	옛	I-LC	O	O, I-LC, B-LC, I-EV, I-AF
-19	##묘	I-LC	I-LC	I-LC, O, B-LC, I-AF, I-QT
-20	##역	I-LC	I-LC	I-LC, O, I-AF, B-LC, I-QT
-21	##에	O	O	O, I-LC, I-AF, I-QT, B-LC
-22	잠들	O	O	O, B-LC, B-CV, I-AF, I-LC
-23	##었	O	O	O, I-AF, B-LC, B-CV, I-LC
-24	##다	O	O	O, B-CV, I-AF, B-LC, I-OG
-25	.	O	O	O, B-LC, B-CV, B-PS, I-AF
-26	[SEP]	O	O	O, B-LC, B-CV, I-AF, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	김	B-PS	B-PS
+2	목사	B-CV	B-CV
+3	##는	O	O
+4	“	O	O
+5	5	B-DT	B-DT
+6	##월	I-DT	I-DT
+7	##22	I-DT	I-DT
+8	##일	I-DT	I-DT
+9	##까	I-DT	I-DT
+10	##지	I-DT	I-DT
+11	미국	B-OG	B-OG
+12	##은	O	O
+13	광주	B-LC	B-EV
+14	##의	O	I-EV
+15	참사	O	I-EV
+16	##를	O	O
+17	은폐	O	O
+18	##했	O	O
+19	##다	O	O
+20	”	O	O
+21	며	O	O
+22	“	O	O
+23	이날	B-DT	B-DT
+24	국무부	B-OG	B-OG
+25	앞	B-TM	B-TM
+26	##에	O	O
+27	##서	O	O
+28	‘	O	O
+29	광주	B-LC	B-LC
+30	시민	B-CV	B-CV
+31	##을	O	O
+32	학살	O	O
+33	말라	O	O
+34	’	O	O
+35	고	O	O
+36	외치	O	O
+37	##던	O	O
+38	김재	B-PS	B-PS
+39	##준	I-PS	I-PS
+40	목사	B-CV	B-CV
+41	##를	O	O
+42	정치인	B-CV	B-CV
+43	김대중	B-PS	B-PS
+44	##씨	O	O
+45	##로	O	O
+46	착각	O	O
+47	##한	O	O
+48	보도	O	O
+49	##가	O	O
+50	나오	O	O
+51	##면	O	O
+52	##서	O	O
+53	5	B-EV	B-EV
+54	·	I-EV	I-EV
+55	18	I-EV	I-EV
+56	##이	O	O
+57	세계	O	O
+58	주요	O	O
+59	언론	O	O
+60	##의	O	O
+61	머리	O	O
+62	##기사	O	O
+63	##로	O	O
+64	올랐	O	O
+65	##다	O	O
+66	”	O	O
+67	고	O	O
+68	회고	O	O
+69	##했	O	O
+70	##다	O	O
+71	.	O	O
+72	[SEP]	O	O

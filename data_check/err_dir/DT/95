@@ -1,39 +1,39 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	지난	O	O	O, B-DT, B-PS, B-QT, B-LC
-2	네	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-EV
-3	번	I-QT	I-QT	I-QT, O, I-DT, I-EV, I-PS
-4	##의	O	O	O, I-QT, I-DT, B-PS, I-EV
-5	대선	B-DT	B-DT	B-DT, B-EV, O, B-AF, B-LC
-6	직전	I-DT	O	O, I-DT, I-EV, I-AF, I-PS
-7	##에	O	O	O, I-EV, I-DT, B-PS, B-OG
-8	네	O	O	O, B-PS, B-OG, B-LC, B-TM
-9	명의	O	O	O, B-PS, B-LC, B-CV, B-TM
-10	당시	O	O	O, B-PS, B-CV, B-LC, B-OG
-11	현직	O	O	O, B-CV, B-PS, B-EV, B-AF
-12	대통령	B-CV	B-CV	B-CV, O, I-CV, B-PS, B-EV
-13	##은	O	O	O, I-CV, I-EV, B-CV, I-OG
-14	모두	O	O	O, B-PS, B-OG, B-CV, B-LC
-15	10	O	O	O, B-PS, B-LC, B-OG, B-TM
-16	~	O	O	O, B-PS, B-LC, B-OG, B-TM
-17	20	O	O	O, B-PS, B-LC, B-OG, B-TM
-18	%	O	O	O, B-PS, B-LC, B-OG, B-TM
-19	대의	O	O	O, B-PS, B-LC, B-CV, B-TM
-20	낮	O	O	O, B-LC, B-TM, B-CV, B-PS
-21	##은	O	O	O, B-LC, B-PS, B-TM, B-OG
-22	지지율	O	O	O, B-CV, B-PS, B-LC, B-TM
-23	##에	O	O	O, B-CV, B-PS, I-CV, I-OG
-24	시달렸	O	O	O, B-LC, B-CV, B-OG, B-PS
-25	##고	O	O	O, B-PS, B-LC, B-CV, B-OG
-26	,	O	O	O, B-CV, B-PS, B-LC, B-OG
-27	국민	B-CV	B-CV	B-CV, O, B-OG, I-CV, B-PS
-28	다수	O	O	O, I-CV, B-CV, B-QT, B-PS
-29	##가	O	O	O, B-PS, I-CV, I-QT, B-LC
-30	정권	O	O	O, B-CV, B-TR, B-PS, B-OG
-31	교체	O	O	O, I-CV, B-CV, I-TR, B-PS
-32	##를	O	O	O, I-CV, B-PS, I-EV, B-CV
-33	희망	O	O	O, B-CV, B-PS, B-TR, B-LC
-34	##했	O	O	O, B-PS, B-CV, B-LC, I-CV
-35	##다	O	O	O, B-CV, B-LC, I-OG, B-PS
-36	.	O	O	O, B-PS, B-LC, B-CV, B-OG
-37	[SEP]	O	O	O, B-CV, B-PS, B-LC, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	C	O	O
+2	##의	O	O
+3	분	O	O
+4	##투	O	O
+5	##기	O	O
+6	##는	O	O
+7	‘	O	O
+8	울	B-AF	B-AF
+9	##고	I-AF	I-AF
+10	싶	I-AF	I-AF
+11	##은	I-AF	I-AF
+12	대학	I-AF	I-AF
+13	4	I-AF	I-AF
+14	##년	I-AF	I-AF
+15	##생	I-AF	I-AF
+16	’	O	O
+17	이라	O	O
+18	##는	O	O
+19	제목	O	O
+20	##으로	O	O
+21	그해	B-DT	B-DT
+22	10	I-DT	I-DT
+23	##월	I-DT	I-DT
+24	25	I-DT	I-DT
+25	##일	I-DT	I-DT
+26	##자	I-DT	O
+27	동아일보	B-OG	B-OG
+28	1	B-QT	B-QT
+29	##면	I-QT	I-QT
+30	##에	O	O
+31	큼지막	O	O
+32	##하	O	O
+33	##게	O	O
+34	실렸	O	O
+35	##다	O	O
+36	.	O	O
+37	[SEP]	O	O

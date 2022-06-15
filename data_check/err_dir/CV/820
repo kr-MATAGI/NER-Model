@@ -1,32 +1,48 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	한화	B-OG	B-OG	B-OG, B-LC, O, B-AF, B-PS
-2	##는	O	O	O, I-OG, I-AF, I-EV, B-CV
-3	프로야구	B-CV	B-CV	B-CV, O, B-OG, I-CV, B-AF
-4	10	B-QT	B-QT	B-QT, I-QT, B-DT, O, B-EV
-5	##개	I-QT	I-QT	I-QT, O, I-EV, I-DT, I-OG
-6	구단	O	O	O, I-QT, B-OG, I-OG, B-CV
-7	중	O	O	O, B-OG, B-LC, B-PS, I-OG
-8	유일	O	O	O, B-QT, B-LC, B-OG, B-TM
-9	##하	O	O	O, B-PS, B-LC, B-OG, I-OG
-10	##게	O	O	O, B-PS, B-LC, B-OG, I-OG
-11	구원	O	B-CV	B-CV, O, B-TM, B-PS, B-AF
-12	투수	B-CV	I-CV	I-CV, B-CV, O, I-TM, I-AF
-13	##가	O	O	O, I-CV, I-AF, I-OG, I-QT
-14	선발	B-CV	B-CV	B-CV, O, B-TM, B-AF, B-OG
-15	투수	I-CV	I-CV	I-CV, B-CV, O, I-TM, I-AF
-16	##보	O	O	O, I-CV, I-QT, B-CV, I-AF
-17	##다	O	O	O, B-QT, B-TM, B-CV, B-LC
-18	더	O	O	O, B-QT, B-TM, B-LC, B-CV
-19	많	O	O	O, B-QT, B-TM, I-QT, B-LC
-20	##은	O	O	O, B-QT, B-TM, I-QT, B-LC
-21	이닝	O	O	O, B-TM, B-QT, I-QT, I-TM
-22	##을	O	O	O, I-QT, B-CV, I-TM, I-OG
-23	소화	O	O	O, B-CV, B-TM, B-OG, B-QT
-24	##한	O	O	O, B-OG, B-CV, B-PS, B-LC
-25	팀	O	O	O, B-OG, B-CV, I-OG, B-LC
-26	##이	O	O	O, I-OG, B-PS, B-CV, B-OG
-27	##었	O	O	O, B-CV, I-OG, B-OG, B-TM
-28	##다	O	O	O, B-CV, B-TM, I-OG, B-QT
-29	.	O	O	O, B-OG, B-LC, B-CV, B-PS
-30	[SEP]	O	O	O, B-CV, B-OG, I-OG, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	의	B-CV	B-OG
+2	##열	I-CV	I-OG
+3	##단	I-CV	I-OG
+4	##원	I-CV	I-OG
+5	##은	O	O
+6	상하이	B-LC	B-LC
+7	##에	O	O
+8	##서	O	O
+9	경성	B-LC	B-LC
+10	##으로	O	O
+11	폭탄	B-AF	B-AF
+12	##을	O	O
+13	운반	O	O
+14	##하	O	O
+15	##는	O	O
+16	임무	O	O
+17	##를	O	O
+18	수행	O	O
+19	##하	O	O
+20	##게	O	O
+21	되	O	O
+22	##는데	O	O
+23	경무	B-OG	B-OG
+24	##국	I-OG	I-OG
+25	지시	O	O
+26	##를	O	O
+27	받	O	O
+28	##은	O	O
+29	이정	B-PS	B-PS
+30	##출	I-PS	I-PS
+31	(	O	O
+32	송강	B-PS	B-PS
+33	##호	I-PS	I-PS
+34	)	O	O
+35	이	O	O
+36	단원	B-CV	B-CV
+37	##들	O	O
+38	##에	O	O
+39	##게	O	O
+40	접근	O	O
+41	##한다	O	O
+42	##는	O	O
+43	설정	O	O
+44	##이다	O	O
+45	.	O	O
+46	[SEP]	O	O

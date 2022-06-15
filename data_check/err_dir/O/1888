@@ -1,26 +1,42 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	육아	O	O	O, B-CV, B-TM, B-DT, B-EV
-2	##휴	O	O	O, I-CV, I-TM, B-CV, I-TR
-3	##직	O	O	O, I-CV, I-TM, I-TR, B-CV
-4	정착	O	O	O, I-CV, I-TM, I-AF, I-TR
-5	,	O	O	O, I-CV, B-PS, B-LC, B-CV
-6	금	O	O	O, B-DT, B-CV, B-AF, B-TI
-7	##요	O	O	O, I-DT, I-CV, B-DT, B-CV
-8	조기	O	O	O, I-CV, B-CV, I-DT, B-DT
-9	##퇴근	O	I-CV	I-CV, O, I-DT, B-CV, I-TM
-10	##제	O	O	O, I-CV, I-DT, I-TM, I-TR
-11	등	O	O	O, I-CV, I-DT, B-CV, B-PS
-12	##도	O	O	O, B-LC, B-CV, B-PS, B-OG
-13	공공	O	O	O, B-CV, B-TM, B-OG, B-AF
-14	##기	O	O	O, I-OG, I-AF, I-CV, I-LC
-15	##관	O	O	O, I-OG, I-AF, I-LC, I-CV
-16	밖	O	O	O, B-TM, B-LC, B-QT, B-CV
-17	##으로	O	O	O, I-TM, B-TM, B-LC, I-QT
-18	좀처럼	O	O	O, B-TM, B-CV, B-LC, B-OG
-19	퍼지	O	O	O, B-TM, B-CV, B-LC, B-QT
-20	##지	O	O	O, B-LC, I-QT, I-OG, B-OG
-21	못했	O	O	O, B-CV, B-LC, B-OG, B-TM
-22	##다	O	O	O, B-CV, I-OG, B-LC, B-TM
-23	.	O	O	O, B-LC, B-CV, B-TM, B-OG
-24	[SEP]	O	O	O, B-CV, B-LC, B-TM, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	소득세	B-CV	B-CV
+2	##와	O	O
+3	법인세	B-CV	B-CV
+4	등	O	O
+5	부자	O	O
+6	##증	O	O
+7	##세	O	O
+8	##를	O	O
+9	요구	O	O
+10	##하	O	O
+11	##던	O	O
+12	기존	O	O
+13	태도	O	O
+14	##에	O	O
+15	##서도	O	O
+16	한발	B-QT	O
+17	물러서	O	O
+18	금융	O	B-CV
+19	##소득	O	I-CV
+20	##종	O	I-CV
+21	##합	O	I-CV
+22	##과	O	I-CV
+23	##세	O	I-CV
+24	기준	O	O
+25	##금	O	O
+26	##액	O	O
+27	##을	O	O
+28	낮추	O	O
+29	##는	O	O
+30	선	O	O
+31	##에	O	O
+32	##서	O	O
+33	세법	B-CV	B-CV
+34	개정안	O	O
+35	##에도	O	O
+36	동의	O	O
+37	##했	O	O
+38	##다	O	O
+39	.	O	O
+40	[SEP]	O	O

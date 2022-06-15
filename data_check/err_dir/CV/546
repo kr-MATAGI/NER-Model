@@ -1,22 +1,19 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	그나마	O	O	O, B-CV, B-QT, B-TM, B-OG
-2	이	O	O	O, B-PS, B-QT, B-CV, B-OG
-3	##는	O	O	O, B-CV, B-LC, B-OG, B-TM
-4	순환	B-CV	O	O, B-CV, B-TR, B-MT, B-FD
-5	##출	I-CV	O	O, I-CV, B-CV, I-TR, I-EV
-6	##자	I-CV	O	O, I-CV, B-CV, I-TR, I-TM
-7	##금	I-CV	O	O, I-CV, B-CV, I-TR, I-TM
-8	##지	I-CV	O	O, I-CV, I-TR, I-TM, B-CV
-9	·	O	O	O, I-CV, I-TR, I-OG, B-CV
-10	공시	B-CV	O	O, I-CV, B-CV, I-TR, I-OG
-11	제도	I-CV	O	O, I-CV, B-CV, I-TR, I-TM
-12	도입	O	O	O, I-CV, B-CV, I-OG, I-EV
-13	##에	O	O	O, B-CV, I-CV, B-OG, B-PS
-14	따라	O	O	O, B-OG, B-LC, B-CV, B-TM
-15	대폭	O	O	O, B-QT, B-TM, B-OG, B-CV
-16	줄어든	O	O	O, B-QT, B-TM, B-CV, B-OG
-17	수치	O	O	O, B-CV, B-QT, B-OG, B-TM
-18	##다	O	O	O, B-CV, I-OG, I-QT, B-TM
-19	.	O	O	O, B-CV, B-LC, B-OG, I-OG
-20	[SEP]	O	O	O, B-CV, I-OG, B-LC, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	가성	O	O
+2	##비	O	O
+3	타이어	O	O
+4	안전	O	O
+5	##운전	O	O
+6	##에	O	O
+7	동반자	B-CV	O
+8	비	B-OG	B-OG
+9	##투어	I-OG	I-OG
+10	타이어	I-OG	I-OG
+11	협찬	O	O
+12	##이	O	O
+13	##었	O	O
+14	##습	O	O
+15	##니다	O	O
+16	.	O	O
+17	[SEP]	O	O

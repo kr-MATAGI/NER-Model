@@ -1,73 +1,38 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	하지만	O	O	O, B-PS, B-CV, B-OG, B-LC
-2	이	B-PS	B-PS	B-PS, O, I-PS, B-OG, B-LC
-3	총리	B-CV	B-CV	B-CV, O, I-PS, I-CV, B-AF
-4	##는	O	O	O, I-CV, B-CV, I-EV, I-AF
-5	2012	B-DT	B-DT	B-DT, O, I-DT, B-LC, B-QT
-6	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-7	12	I-DT	I-DT	I-DT, O, B-DT, I-PS, I-QT
-8	##월	I-DT	I-DT	I-DT, O, B-DT, I-PS, I-QT
-9	##7	I-DT	I-DT	I-DT, O, B-DT, I-PS, I-QT
-10	##일	I-DT	I-DT	I-DT, O, B-DT, I-PS, I-QT
-11	충남	B-LC	B-LC	B-LC, O, B-OG, I-LC, B-AF
-12	천안시	B-LC	B-LC	B-LC, I-LC, O, B-OG, B-AF
-13	동남	B-LC	B-LC	B-LC, O, I-LC, B-OG, B-AF
-14	##구	I-LC	I-LC	I-LC, O, I-OG, I-AF, B-LC
-15	병	B-LC	B-LC	B-LC, O, I-LC, B-OG, B-AF
-16	##천면	I-LC	I-LC	I-LC, O, I-AF, I-OG, B-LC
-17	아우	B-LC	B-LC	B-LC, B-AF, I-LC, O, I-AF
-18	##내	I-LC	I-LC	I-LC, I-AF, O, B-LC, I-OG
-19	##장	I-LC	I-LC	I-LC, I-AF, O, I-OG, B-LC
-20	##터	I-LC	I-LC	I-LC, I-AF, O, I-OG, I-PS
-21	##에서	O	O	O, I-LC, I-AF, B-LC, I-OG
-22	박	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-23	후보	B-CV	B-CV	B-CV, O, I-PS, I-CV, I-AF
-24	지지	O	O	O, I-CV, B-CV, I-EV, I-AF
-25	##를	O	O	O, B-CV, B-PS, I-CV, B-LC
-26	호소	O	O	O, B-CV, B-LC, B-TM, B-PS
-27	##하	O	O	O, B-PS, B-LC, B-CV, B-OG
-28	##며	O	O	O, B-LC, B-PS, B-CV, B-OG
-29	“	O	O	O, B-PS, B-LC, B-CV, B-OG
-30	박	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-31	후보	B-CV	B-CV	B-CV, O, I-PS, I-CV, B-AF
-32	##는	O	O	O, I-CV, I-EV, I-AF, B-CV
-33	수도권	B-LC	B-LC	B-LC, O, B-OG, B-TM, B-AF
-34	2000	B-QT	B-QT	B-QT, I-QT, O, I-LC, B-LC
-35	##만	I-QT	I-QT	I-QT, O, I-LC, I-PS, I-EV
-36	##표	I-QT	I-QT	I-QT, O, I-LC, I-PS, I-EV
-37	##가	O	O	O, I-QT, B-PS, B-OG, B-LC
-38	날아가	O	O	O, B-CV, B-PS, B-OG, B-LC
-39	##는데	O	O	O, B-PS, B-LC, B-OG, B-CV
-40	##도	O	O	O, B-PS, B-LC, B-OG, B-CV
-41	500	B-QT	B-QT	B-QT, O, I-QT, B-LC, B-PS
-42	##만	I-QT	I-QT	I-QT, O, I-LC, I-PS, I-EV
-43	##표	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-44	##밖	O	O	O, I-QT, B-PS, B-QT, B-CV
-45	##에	O	O	O, I-QT, B-QT, B-PS, B-OG
-46	안	O	O	O, B-QT, B-PS, B-LC, B-OG
-47	되	O	O	O, B-PS, B-LC, B-CV, B-QT
-48	##는	O	O	O, B-PS, B-LC, B-CV, B-OG
-49	충청	B-LC	B-CV	B-CV, O, B-LC, B-OG, B-TM
-50	##인	O	I-CV	I-CV, O, I-LC, I-OG, B-CV
-51	##과	O	O	O, I-CV, I-OG, B-CV, B-PS
-52	##의	O	O	O, B-PS, B-CV, B-LC, B-OG
-53	약속	O	O	O, B-CV, B-LC, B-PS, B-EV
-54	##을	O	O	O, B-CV, B-PS, B-LC, B-OG
-55	지키	O	O	O, B-CV, B-LC, B-OG, B-PS
-56	##기	O	O	O, B-PS, B-LC, B-OG, B-CV
-57	위해	O	O	O, B-PS, B-LC, B-OG, B-CV
-58	정치	O	O	O, B-CV, B-LC, B-FD, B-PS
-59	##적	O	O	O, B-PS, I-PS, B-LC, I-CV
-60	생명	O	O	O, B-LC, B-PS, B-CV, B-TM
-61	##을	O	O	O, B-CV, B-LC, B-OG, B-PS
-62	걸	O	O	O, B-LC, B-PS, B-CV, B-OG
-63	##고	O	O	O, B-PS, B-LC, B-OG, B-CV
-64	세종	B-LC	B-LC	B-LC, B-OG, O, B-AF, B-PS
-65	##시	I-LC	I-LC	I-LC, I-OG, O, I-AF, I-PS
-66	약속	O	O	O, I-OG, I-LC, I-AF, I-EV
-67	##을	O	O	O, B-CV, I-AF, I-OG, B-OG
-68	지켰	O	O	O, B-CV, B-LC, B-OG, B-PS
-69	##다	O	O	O, B-CV, B-LC, B-OG, I-OG
-70	.	O	O	O, B-LC, B-PS, B-CV, B-OG
-71	[SEP]	O	O	O, B-LC, B-CV, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	23	B-DT	B-DT
+2	##일	I-DT	I-DT
+3	실무	O	O
+4	##부	O	O
+5	##서	O	O
+6	##의	O	O
+7	면접	O	O
+8	##평가	O	O
+9	후	O	O
+10	합격자	O	B-CV
+11	##가	O	O
+12	선정	O	O
+13	##되	O	O
+14	##면	O	O
+15	시	O	O
+16	인사	B-OG	B-OG
+17	##위	I-OG	I-OG
+18	승인	O	O
+19	##을	O	O
+20	거쳐	O	O
+21	다음	B-DT	B-DT
+22	##달	I-DT	I-DT
+23	11	I-DT	I-DT
+24	##일	I-DT	I-DT
+25	##께	I-DT	I-DT
+26	최종	O	O
+27	확정	O	O
+28	##된	O	O
+29	##다	O	O
+30	”	O	O
+31	고	O	O
+32	말	O	O
+33	##했	O	O
+34	##다	O	O
+35	.	O	O
+36	[SEP]	O	O

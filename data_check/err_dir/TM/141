@@ -1,34 +1,52 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	전기	B-TR	B-TR	B-TR, O, I-TR, B-FD, B-TM
-2	##자	I-TR	I-TR	I-TR, O, B-TR, I-FD, I-QT
-3	##극	I-TR	I-TR	I-TR, O, B-TR, I-QT, I-TM
-4	후	O	I-TR	I-TR, O, B-TR, I-TM, I-QT
-5	뇌	B-TM	B-TM	B-TM, O, B-TR, I-TM, I-TR
-6	##에서	O	O	O, I-TM, I-TR, I-AF, B-CV
-7	운동	O	O	O, B-TR, B-TM, I-TR, I-TM
-8	##과	O	O	O, B-PS, B-CV, B-LC, B-OG
-9	감각	O	O	O, B-TM, B-TR, B-CV, B-FD
-10	,	O	O	O, B-CV, B-PS, B-LC, B-OG
-11	의식	O	O	O, B-TM, B-TR, B-CV, B-PS
-12	##을	O	O	O, B-CV, B-PS, B-LC, B-OG
-13	담당	O	O	O, B-CV, B-TM, B-OG, B-LC
-14	##하	O	O	O, B-PS, B-LC, B-OG, B-CV
-15	##는	O	O	O, B-TM, B-CV, B-PS, B-LC
-16	영역	O	O	O, B-CV, B-TM, B-PS, B-LC
-17	##들	O	O	O, B-CV, B-PS, B-LC, I-OG
-18	##에서	O	O	O, B-CV, B-LC, B-PS, B-OG
-19	특히	O	O	O, B-TM, B-CV, B-LC, B-OG
-20	피	B-TM	B-TM	B-TM, O, B-TR, I-TM, B-AF
-21	##가	O	O	O, I-TM, B-PS, I-AF, I-OG
-22	많이	O	O	O, B-CV, B-LC, B-OG, B-TM
-23	돌	O	O	O, B-CV, B-LC, B-OG, B-TM
-24	##고	O	O	O, B-CV, I-OG, B-PS, I-AF
-25	뇌	B-TM	O	O, B-TR, B-TM, B-AM, I-TR
-26	##파	I-TM	O	O, I-TR, I-TM, B-TR, I-QT
-27	##도	O	O	O, I-TR, I-TM, I-OG, I-QT
-28	증가	O	O	O, B-CV, B-OG, B-LC, B-TM
-29	##했	O	O	O, B-CV, B-PS, B-LC, I-OG
-30	##다	O	O	O, B-CV, B-LC, B-OG, I-OG
-31	.	O	O	O, B-LC, B-CV, B-PS, B-TM
-32	[SEP]	O	O	O, B-CV, B-LC, B-TM, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	건설	O	O
+2	##회사	O	O
+3	##에	O	O
+4	입사	O	O
+5	##한	O	O
+6	뒤	O	O
+7	설계	O	O
+8	##회사	O	O
+9	컴퓨터	B-TM	B-TM
+10	지원	O	O
+11	##업	O	O
+12	##무	O	O
+13	##를	O	O
+14	거쳐	O	O
+15	신문	B-TM	O
+16	데이	I-TM	B-AF
+17	##타	I-TM	I-AF
+18	##베이스	I-TM	I-AF
+19	(	O	O
+20	KI	B-TM	B-AF
+21	##ND	I-TM	I-AF
+22	##S	I-TM	I-AF
+23	)	O	O
+24	개발	O	O
+25	##에	O	O
+26	참여	O	O
+27	##했	O	O
+28	##으며	O	O
+29	,	O	O
+30	컴퓨터	B-TM	B-TM
+31	##와	O	O
+32	관련	O	O
+33	##된	O	O
+34	인공지능	B-FD	B-FD
+35	·	O	O
+36	데이터베이스	B-FD	B-TM
+37	·	O	O
+38	프로그래밍	B-FD	B-FD
+39	##언	I-FD	I-FD
+40	##어	I-FD	I-FD
+41	·	O	O
+42	통계	B-FD	B-FD
+43	##학	I-FD	I-FD
+44	등의	O	O
+45	강의	O	O
+46	##를	O	O
+47	해왔	O	O
+48	##다	O	O
+49	.	O	O
+50	[SEP]	O	O

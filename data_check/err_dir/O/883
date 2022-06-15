@@ -1,54 +1,27 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-EV, I-OG
-1	차이	B-EV	B-EV	B-EV, B-LC, B-PS, I-EV, B-AF
-2	##콥	I-EV	I-EV	I-EV, I-LC, I-PS, I-AF, B-EV
-3	##스키	I-EV	I-EV	I-EV, I-LC, I-AF, I-PS, O
-4	콩쿠르	I-EV	I-EV	I-EV, O, I-AF, I-LC, B-EV
-5	2	B-QT	B-QT	B-QT, I-EV, I-QT, O, B-EV
-6	##위	I-QT	I-QT	I-QT, I-EV, O, I-LC, I-TM
-7	수상	O	O	O, B-CV, I-QT, I-EV, B-PS
-8	이후	O	O	O, I-EV, I-DT, B-PS, I-CV
-9	쏟아지	O	O	O, B-LC, B-PS, B-OG, B-CV
-10	##는	O	O	O, B-PS, B-LC, B-OG, B-TM
-11	연주회	O	O	O, B-EV, B-CV, B-FD, I-EV
-12	일정	O	O	O, I-EV, B-LC, B-CV, B-PS
-13	##으로	O	O	O, B-PS, B-LC, B-OG, B-CV
-14	바쁜	O	O	O, B-LC, B-TM, B-OG, B-PS
-15	나날	O	O	O, B-LC, B-DT, B-CV, B-PS
-16	##을	O	O	O, B-CV, B-PS, B-OG, B-LC
-17	보내	O	O	O, B-DT, B-CV, B-LC, B-OG
-18	##고	O	O	O, B-PS, I-DT, B-CV, B-LC
-19	있	O	O	O, B-CV, B-PS, B-LC, B-DT
-20	##는	O	O	O, B-PS, B-CV, B-LC, I-CV
-21	손	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-22	##열	I-PS	I-PS	I-PS, B-PS, O, I-OG, I-LC
-23	##음	I-PS	I-PS	I-PS, O, I-OG, I-LC, B-PS
-24	(	O	O	O, I-PS, B-CV, I-OG, B-LC
-25	25	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-TM
-26	)	O	O	O, I-QT, I-DT, I-EV, I-OG
-27	은	O	O	O, B-CV, B-PS, B-OG, B-LC
-28	'	O	O	O, B-LC, B-CV, B-PS, B-DT
-29	한	B-LC	B-LC	B-LC, B-EV, B-OG, O, B-PS
-30	·	O	I-EV	I-EV, I-LC, O, I-OG, B-LC
-31	일	B-LC	I-LC	I-LC, B-LC, I-EV, O, I-OG
-32	우정	O	O	O, I-EV, I-LC, B-CV, I-OG
-33	##이	O	O	O, B-PS, I-EV, I-OG, I-AF
-34	울려	O	O	O, B-EV, I-EV, B-PS, B-LC
-35	퍼지	O	O	O, I-EV, B-EV, I-AF, I-OG
-36	##는	O	O	O, I-EV, B-EV, I-AF, I-OG
-37	희망	O	B-EV	B-EV, O, I-EV, B-LC, B-AF
-38	##의	O	I-EV	I-EV, O, I-AF, B-EV, I-OG
-39	콘서트	O	I-EV	I-EV, O, B-EV, I-AF, I-OG
-40	'	O	O	O, I-EV, I-AF, I-OG, B-CV
-41	얘기	O	O	O, B-CV, B-TM, B-OG, I-EV
-42	##를	O	O	O, B-CV, B-PS, B-OG, B-LC
-43	꺼내	O	O	O, B-CV, B-OG, B-LC, B-DT
-44	##자	O	O	O, B-PS, B-OG, B-CV, B-LC
-45	까르	O	O	O, B-CV, B-PS, B-LC, B-TM
-46	##르	O	O	O, B-PS, B-LC, I-PS, I-LC
-47	웃음	O	O	O, B-TM, B-CV, B-QT, B-PS
-48	##부터	O	O	O, B-PS, I-AF, I-CV, I-QT
-49	터뜨렸	O	O	O, B-CV, B-OG, B-PS, B-LC
-50	##다	O	O	O, B-CV, I-OG, I-CV, I-EV
-51	.	O	O	O, B-LC, B-CV, B-PS, I-EV
-52	[SEP]	O	O	O, B-CV, B-LC, B-PS, I-EV
+	text	label	preds
+0	[CLS]	O	O
+1	막판	O	O
+2	##까	O	O
+3	##지	O	O
+4	결과	O	O
+5	##를	O	O
+6	예상	O	O
+7	##하	O	O
+8	##기	O	O
+9	힘든	O	O
+10	상황	O	O
+11	만큼	O	O
+12	,	O	O
+13	결선	O	B-EV
+14	투표	O	O
+15	##를	O	O
+16	고려	O	O
+17	##한	O	O
+18	전략	O	O
+19	##이	O	O
+20	##란	O	O
+21	얘기	O	O
+22	##가	O	O
+23	나온다	O	O
+24	.	O	O
+25	[SEP]	O	O

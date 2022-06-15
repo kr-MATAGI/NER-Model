@@ -1,73 +1,16 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-EV, I-OG
-1	특검	B-OG	B-OG	B-OG, O, B-CV, B-PS, B-AF
-2	관계자	B-CV	B-CV	B-CV, O, I-CV, I-OG, B-OG
-3	등	O	O	O, I-CV, I-OG, I-EV, B-CV
-4	##에	O	O	O, B-CV, B-PS, B-LC, I-CV
-5	따르	O	O	O, B-CV, B-PS, B-OG, B-LC
-6	##면	O	O	O, B-OG, B-PS, B-LC, B-CV
-7	특검	O	B-OG	B-OG, O, B-CV, I-OG, B-PS
-8	##팀	O	O	O, I-OG, B-OG, I-CV, I-EV
-9	##은	O	O	O, B-PS, I-OG, B-CV, B-LC
-10	당시	O	O	O, B-CV, B-PS, B-LC, B-TM
-11	최순	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-12	##실	I-PS	I-PS	I-PS, O, I-OG, B-PS, I-LC
-13	(	O	O	O, I-PS, B-CV, I-OG, I-AF
-14	61	B-QT	B-QT	B-QT, O, I-QT, B-PS, B-LC
-15	)	O	O	O, I-QT, I-CV, I-DT, I-PS
-16	씨	O	O	O, B-PS, B-CV, I-QT, B-LC
-17	##의	O	O	O, B-PS, B-CV, B-LC, B-TM
-18	조카	B-CV	B-CV	B-CV, O, B-PS, I-CV, B-TM
-19	장시	B-PS	B-PS	B-PS, O, I-PS, B-OG, B-LC
-20	##호	I-PS	I-PS	I-PS, O, I-OG, B-PS, I-LC
-21	(	O	O	O, I-PS, B-CV, I-OG, B-LC
-22	38	B-QT	B-QT	B-QT, O, I-QT, B-PS, B-LC
-23	)	O	O	O, I-QT, I-CV, I-DT, B-CV
-24	씨	O	O	O, B-PS, B-CV, I-QT, B-LC
-25	##에	O	O	O, B-CV, B-PS, B-LC, B-TM
-26	##게	O	O	O, B-PS, B-CV, B-LC, B-TM
-27	""""	O	O	O, B-PS, B-CV, B-LC, B-TM
-28	이모	B-CV	O	O, B-CV, B-PS, B-TM, B-TR
-29	(	O	O	O, I-CV, B-PS, B-CV, I-PS
-30	최	B-PS	B-PS	B-PS, O, I-PS, B-LC, B-OG
-31	##씨	O	O	O, I-PS, I-LC, I-AF, I-CV
-32	)	O	O	O, B-PS, B-CV, B-LC, I-PS
-33	가	O	O	O, B-PS, B-CV, B-LC, I-PS
-34	박	B-PS	B-PS	B-PS, O, I-PS, B-LC, B-CV
-35	전	O	O	O, I-PS, B-CV, I-AF, B-PS
-36	대통령	B-CV	B-CV	B-CV, O, I-CV, B-PS, I-PS
-37	##의	O	O	O, I-CV, B-PS, B-CV, I-AF
-38	삼성동	B-LC	B-LC	B-LC, B-AF, O, B-PS, B-OG
-39	집	O	O	O, I-AF, B-CV, B-AF, I-LC
-40	2	B-QT	B-QT	B-QT, O, I-AF, I-QT, B-PS
-41	##층	I-QT	I-QT	I-QT, O, I-AF, I-LC, I-PS
-42	##에	O	O	O, I-QT, B-PS, B-CV, I-AF
-43	돈	O	O	O, B-CV, B-PS, B-TM, B-LC
-44	##이	O	O	O, B-PS, B-CV, B-LC, B-AF
-45	있	O	O	O, B-PS, B-CV, I-PS, I-CV
-46	##다고	O	O	O, B-PS, B-CV, B-LC, I-PS
-47	했	O	O	O, B-PS, B-CV, B-LC, B-TM
-48	##다	O	O	O, B-PS, B-CV, B-LC, I-CV
-49	""""	O	O	O, B-CV, B-PS, B-LC, B-TM
-50	는	O	O	O, B-PS, B-CV, B-LC, B-TM
-51	진술	O	O	O, B-CV, B-PS, B-LC, I-CV
-52	##을	O	O	O, B-PS, B-CV, B-LC, I-CV
-53	확보	O	O	O, B-PS, B-CV, B-LC, B-TM
-54	##한	O	O	O, B-PS, B-LC, I-PS, B-CV
-55	뒤	O	O	O, B-PS, B-CV, B-LC, B-TM
-56	그	O	O	O, B-PS, B-CV, B-LC, B-TM
-57	진위	O	O	O, B-PS, B-CV, B-LC, B-TM
-58	##를	O	O	O, B-PS, B-CV, B-LC, B-TM
-59	확인	O	O	O, B-PS, B-CV, B-LC, B-TM
-60	##하기	O	O	O, B-PS, B-CV, B-LC, I-PS
-61	위해	O	O	O, B-PS, B-LC, B-CV, B-TM
-62	압수	O	O	O, B-LC, B-CV, B-TM, B-AF
-63	수색	O	O	O, B-LC, B-CV, B-PS, B-TM
-64	##을	O	O	O, B-CV, B-PS, B-LC, B-OG
-65	추진	O	O	O, B-CV, B-LC, B-OG, B-TM
-66	##했	O	O	O, B-PS, B-LC, B-CV, B-OG
-67	##다는	O	O	O, B-PS, B-LC, B-CV, B-OG
-68	것	O	O	O, B-CV, B-OG, B-PS, B-TM
-69	##이다	O	O	O, B-CV, I-CV, I-OG, B-PS
-70	.	O	O	O, B-LC, B-PS, B-CV, B-OG
-71	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	차관	B-CV	B-CV
+2	##도	O	O
+3	지내	O	O
+4	##시고	O	O
+5	지금	O	O
+6	이제	O	O
+7	장관	B-CV	O
+8	##급	O	O
+9	위원장	B-CV	B-CV
+10	##을	O	O
+11	하고	O	O
+12	계십니다	O	O
+13	.	O	O
+14	[SEP]	O	O

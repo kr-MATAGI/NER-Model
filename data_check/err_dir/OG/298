@@ -1,22 +1,53 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	우리	O	O	O, B-OG, B-LC, B-CV, B-PS
-2	##가	O	O	O, B-PS, B-LC, B-OG, I-OG
-3	대한민국	B-OG	B-LC	B-LC, B-OG, O, I-OG, B-PS
-4	##이	O	O	O, I-OG, I-LC, B-PS, I-AF
-5	할	O	O	O, B-QT, B-CV, B-LC, B-TM
-6	수	O	O	O, B-QT, B-LC, B-TM, B-CV
-7	있	O	O	O, B-QT, B-CV, I-QT, B-PS
-8	##는	O	O	O, B-PS, B-QT, B-OG, B-LC
-9	일	O	O	O, B-QT, B-CV, B-TM, B-OG
-10	##이	O	O	O, B-PS, B-OG, B-CV, I-QT
-11	거의	O	O	O, B-QT, B-CV, B-OG, B-PS
-12	없	O	O	O, B-CV, B-QT, I-QT, B-LC
-13	##습	O	O	O, B-CV, B-OG, B-LC, B-PS
-14	##니다	O	O	O, B-CV, B-PS, B-OG, B-LC
-15	지금	O	O	O, B-CV, B-TM, B-LC, B-OG
-16	상황	O	O	O, B-CV, B-TM, B-LC, B-OG
-17	##에서	O	O	O, B-CV, B-PS, B-LC, B-OG
-18	##는	O	O	O, B-CV, B-LC, B-OG, B-PS
-19	.	O	O	O, B-LC, B-CV, B-OG, B-PS
-20	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-QT
+	text	label	preds
+0	[CLS]	O	O
+1	김	B-PS	B-PS
+2	##씨	O	O
+3	##에	O	O
+4	##게	O	O
+5	샌드위치	B-CV	B-CV
+6	##를	O	O
+7	건넨	O	O
+8	정공	B-PS	B-PS
+9	##림	I-PS	I-PS
+10	(	O	O
+11	55	B-QT	B-QT
+12	·	O	O
+13	마포구	B-LC	B-LC
+14	서	B-LC	B-LC
+15	##교동	I-LC	I-LC
+16	)	O	O
+17	씨	O	O
+18	##는	O	O
+19	창	B-OG	B-OG
+20	##천	I-OG	I-OG
+21	##교회	I-OG	I-OG
+22	신도	B-CV	B-CV
+23	##들	O	O
+24	##로	O	O
+25	구성	O	O
+26	##된	O	O
+27	봉사	O	O
+28	##단체	O	O
+29	'	O	O
+30	달	B-OG	B-OG
+31	##사랑	I-OG	I-OG
+32	(	O	O
+33	달리	B-OG	B-OG
+34	##는	I-OG	I-OG
+35	사람	I-OG	I-OG
+36	##들	I-OG	I-OG
+37	##과	I-OG	I-OG
+38	함께	I-OG	I-OG
+39	하	I-OG	O
+40	##는	I-OG	O
+41	작	I-OG	O
+42	##은	I-OG	O
+43	사랑	I-OG	O
+44	나눔	I-OG	O
+45	캠페인	I-OG	O
+46	)	O	O
+47	'	O	O
+48	회원	B-CV	B-CV
+49	##이다	O	O
+50	.	O	O
+51	[SEP]	O	O

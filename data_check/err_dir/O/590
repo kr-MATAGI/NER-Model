@@ -1,33 +1,40 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-QT
-1	홍익	B-OG	B-OG	B-OG, B-LC, O, B-AF, B-PS
-2	##대	I-OG	I-OG	I-OG, I-LC, O, I-AF, I-EV
-3	목조	O	O	O, B-FD, B-CV, I-OG, B-TR
-4	##형	O	O	O, I-FD, I-CV, I-OG, I-TR
-5	가구	O	O	O, I-FD, B-FD, I-CV, I-OG
-6	##디	O	O	O, I-FD, B-FD, I-CV, I-OG
-7	##자	O	I-FD	I-FD, O, B-FD, I-CV, I-OG
-8	##인	O	I-FD	I-FD, O, I-CV, B-FD, I-OG
-9	##과	O	O	O, I-FD, B-FD, I-OG, I-CV
-10	99	B-QT	B-QT	B-QT, B-DT, O, I-QT, B-OG
-11	##학	I-QT	I-QT	I-QT, I-DT, O, B-QT, I-OG
-12	##번	I-QT	I-QT	I-QT, O, I-DT, I-OG, I-EV
-13	##으로	O	O	O, I-QT, B-CV, B-PS, I-OG
-14	4	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-15	##년	I-DT	I-DT	I-DT, O, I-QT, B-DT, I-PS
-16	전부	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-CV
-17	##터	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-CV
-18	본격	O	O	O, I-DT, B-CV, B-LC, I-QT
-19	##적으로	O	O	O, B-LC, B-PS, B-CV, I-QT
-20	가구	O	B-CV	B-CV, O, B-FD, B-OG, B-TM
-21	디자이너	B-CV	I-CV	I-CV, B-CV, O, I-QT, B-FD
-22	##의	O	O	O, I-CV, B-PS, I-QT, I-OG
-23	길	O	O	O, B-LC, B-PS, B-TM, B-QT
-24	##을	O	O	O, B-CV, I-QT, I-AF, B-PS
-25	걷	O	O	O, B-CV, B-LC, B-TM, B-PS
-26	##기	O	O	O, B-CV, B-PS, B-TM, B-LC
-27	시작	O	O	O, B-CV, B-TM, I-QT, I-CV
-28	##했	O	O	O, B-CV, B-LC, B-PS, B-TM
-29	##다	O	O	O, B-CV, B-TM, B-LC, B-PS
-30	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-31	[SEP]	O	O	O, B-CV, I-OG, B-LC, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	강	B-PS	B-PS
+2	감독	B-CV	B-CV
+3	##은	O	O
+4	‘	O	O
+5	새내기	O	B-CV
+6	감독	B-CV	B-CV
+7	’	O	O
+8	으로	O	O
+9	팀	O	O
+10	##을	O	O
+11	6	B-EV	B-EV
+12	##강	I-EV	I-EV
+13	플레이오프	B-EV	B-EV
+14	(	O	O
+15	정규	B-EV	O
+16	##리그	I-EV	O
+17	5	B-QT	B-QT
+18	##위	I-QT	I-QT
+19	)	O	O
+20	로	O	O
+21	이끌	O	O
+22	##고	O	O
+23	,	O	O
+24	창원	B-OG	B-OG
+25	엘지	I-OG	I-OG
+26	(	O	O
+27	LG	B-OG	B-OG
+28	)	O	O
+29	마저	O	O
+30	꺾	O	O
+31	##고	O	O
+32	4	B-EV	B-EV
+33	##강	I-EV	I-EV
+34	##에	O	O
+35	올랐	O	O
+36	##다	O	O
+37	.	O	O
+38	[SEP]	O	O

@@ -1,61 +1,67 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-EV, I-CV, I-OG
-1	그	O	O	O, B-CV, B-PS, B-LC, B-OG
-2	##가	O	O	O, B-PS, B-LC, B-OG, B-QT
-3	108	O	O	O, B-QT, B-PS, B-OG, B-LC
-4	##세이	O	O	O, I-QT, B-QT, B-PS, I-PS
-5	##던	O	O	O, I-QT, B-PS, B-LC, B-OG
-6	재작년	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-7	##에	O	O	O, I-DT, I-QT, B-CV, B-PS
-8	펴낸	O	O	O, B-CV, B-LC, B-PS, B-DT
-9	자서전	O	O	O, B-CV, B-FD, B-TM, B-LC
-10	'	O	O	O, B-CV, B-LC, B-PS, I-CV
-11	최후	B-AF	B-AF	B-AF, O, B-PS, B-LC, I-AF
-12	##의	I-AF	I-AF	I-AF, O, I-PS, I-LC, B-AF
-13	최후	I-AF	I-AF	I-AF, O, I-PS, I-LC, I-TM
-14	(	O	O	O, I-AF, I-EV, I-CV, B-CV
-15	The	O	O	O, B-LC, B-PS, B-OG, B-DT
-16	La	O	O	O, B-LC, B-PS, B-OG, B-CV
-17	##st	O	O	O, B-LC, B-PS, B-OG, I-LC
-18	of	O	O	O, B-LC, B-PS, B-OG, I-LC
-19	La	O	O	O, B-LC, B-PS, B-OG, I-LC
-20	##st	O	O	O, B-LC, B-PS, B-OG, I-LC
-21	)	O	O	O, B-LC, B-CV, B-OG, B-PS
-22	'	O	O	O, B-CV, B-LC, B-OG, B-PS
-23	에	O	O	O, B-CV, B-LC, B-OG, B-PS
-24	따르	O	O	O, B-OG, B-CV, B-LC, B-PS
-25	##면	O	O	O, B-OG, B-LC, B-PS, B-CV
-26	,	O	O	O, B-CV, B-LC, B-PS, B-OG
-27	그	O	O	O, B-CV, B-LC, B-PS, B-OG
-28	##는	O	O	O, B-CV, B-PS, B-LC, B-OG
-29	영국	B-LC	B-LC	B-LC, B-OG, O, B-AF, B-PS
-30	전함	B-AF	B-AF	B-AF, O, I-AF, B-LC, B-TM
-31	리	B-AF	I-AF	I-AF, B-AF, O, B-LC, I-LC
-32	##벤	I-AF	I-AF	I-AF, O, I-LC, I-QT, B-AF
-33	##지	I-AF	I-AF	I-AF, O, I-LC, I-QT, I-PS
-34	##호	I-AF	I-AF	I-AF, O, I-LC, I-QT, I-PS
-35	위	B-TM	B-TM	B-TM, O, B-LC, I-AF, B-CV
-36	##에서	O	O	O, I-AF, B-LC, I-TM, B-CV
-37	1918	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-LC
-38	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-39	독일	B-LC	B-LC	B-LC, B-OG, B-AF, O, B-EV
-40	대양	B-AF	B-OG	B-OG, B-AF, I-OG, O, I-AF
-41	##함	I-AF	I-OG	I-OG, I-AF, O, I-EV, I-LC
-42	##대	I-AF	I-OG	I-OG, I-AF, O, I-EV, I-CV
-43	##가	O	O	O, I-OG, I-AF, I-EV, B-PS
-44	항복	O	O	O, B-CV, B-LC, B-EV, B-OG
-45	##하	O	O	O, B-CV, B-LC, B-PS, B-OG
-46	##며	O	O	O, B-LC, B-CV, B-OG, B-QT
-47	전쟁	O	O	O, B-CV, B-EV, B-LC, I-EV
-48	##이	O	O	O, B-PS, B-OG, B-LC, B-CV
-49	막	O	O	O, B-CV, B-LC, I-EV, B-QT
-50	##을	O	O	O, B-CV, B-LC, B-OG, B-PS
-51	내리	O	O	O, B-CV, B-LC, B-OG, B-EV
-52	##는	O	O	O, B-CV, B-LC, B-PS, B-OG
-53	장면	O	O	O, B-CV, B-LC, B-TM, B-OG
-54	##을	O	O	O, B-CV, B-LC, B-PS, B-OG
-55	지켜	O	O	O, B-CV, B-LC, B-QT, B-TM
-56	##봤	O	O	O, B-CV, I-QT, B-PS, B-QT
-57	##다	O	O	O, B-CV, B-LC, B-PS, I-QT
-58	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-59	[SEP]	O	O	O, B-LC, B-CV, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	창문	O	O
+2	차	O	O
+3	##양	O	O
+4	##을	O	O
+5	여	O	O
+6	##닫	O	O
+7	##는	O	O
+8	장치	O	O
+9	##에	O	O
+10	아랍	B-LC	B-LC
+11	문화	O	O
+12	##권	O	O
+13	##의	O	O
+14	섬세	O	O
+15	##한	O	O
+16	전통	O	O
+17	문양	O	O
+18	##을	O	O
+19	응용	O	O
+20	##한	O	O
+21	아랍	B-AF	B-OG
+22	##문화	I-AF	I-OG
+23	##원	I-AF	I-LC
+24	,	O	O
+25	착시	O	O
+26	현상	O	O
+27	##을	O	O
+28	이용해	O	O
+29	동일	O	O
+30	평면	O	O
+31	##에	O	O
+32	##서	O	O
+33	실상	O	O
+34	##과	O	O
+35	허	O	O
+36	##상	O	O
+37	##을	O	O
+38	교차	O	O
+39	##시	O	O
+40	##킨	O	O
+41	카르	B-OG	B-OG
+42	##티	I-OG	I-OG
+43	##에	I-OG	I-OG
+44	재단	I-OG	I-OG
+45	건물	O	O
+46	등	O	O
+47	##으로	O	O
+48	파리	B-LC	B-LC
+49	##의	O	O
+50	스카이	O	O
+51	##라인	O	O
+52	##에	O	O
+53	미래	O	O
+54	##지	O	O
+55	##향	O	O
+56	##적	O	O
+57	이미지	O	O
+58	##를	O	O
+59	새겨	O	O
+60	넣	O	O
+61	##었	O	O
+62	##습	O	O
+63	##니다	O	O
+64	.	O	O
+65	[SEP]	O	O

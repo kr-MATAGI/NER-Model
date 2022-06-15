@@ -1,60 +1,24 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	국가	B-OG	B-OG	B-OG, O, B-PS, B-LC, I-OG
-2	##경	I-OG	I-OG	I-OG, O, B-OG, I-LC, I-CV
-3	##쟁	I-OG	I-OG	I-OG, O, B-OG, I-CV, I-LC
-4	##력	I-OG	I-OG	I-OG, O, B-OG, I-CV, I-LC
-5	##강	I-OG	I-OG	I-OG, O, B-OG, I-LC, I-CV
-6	##화	I-OG	I-OG	I-OG, O, I-LC, B-OG, I-CV
-7	##위	I-OG	I-OG	I-OG, O, I-LC, I-CV, I-PS
-8	##와	O	O	O, I-OG, I-AF, I-CV, I-QT
-9	중소기업	B-OG	B-OG	B-OG, O, B-CV, B-QT, B-LC
-10	##옴	I-OG	I-OG	I-OG, O, I-CV, B-CV, I-QT
-11	##부	I-OG	O	O, I-OG, I-CV, I-QT, B-CV
-12	##즈	I-OG	O	O, I-OG, I-CV, I-QT, B-CV
-13	##만	I-OG	O	O, I-OG, I-CV, I-QT, I-TM
-14	,	O	O	O, I-OG, I-CV, I-QT, B-PS
-15	조달청	B-OG	B-OG	B-OG, O, B-CV, B-AF, I-OG
-16	,	O	O	O, I-OG, I-CV, I-AF, B-CV
-17	기술	B-OG	B-OG	B-OG, O, B-CV, I-OG, B-AF
-18	##표	I-OG	I-OG	I-OG, O, I-CV, B-OG, I-AF
-19	##준	I-OG	I-OG	I-OG, O, I-CV, I-AF, B-OG
-20	##원	I-OG	I-OG	I-OG, O, I-CV, I-AF, I-QT
-21	등	O	O	O, I-OG, I-CV, B-PS, B-CV
-22	12	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-OG
-23	##개	I-QT	I-QT	I-QT, O, I-OG, I-LC, I-DT
-24	부처	O	O	O, I-QT, I-OG, B-CV, I-CV
-25	##는	O	O	O, B-CV, I-OG, I-QT, B-PS
-26	부처	O	O	O, B-CV, B-PS, B-OG, B-LC
-27	##별	O	O	O, I-CV, I-OG, I-AF, B-PS
-28	인증	O	O	O, B-CV, I-CV, I-AF, B-PS
-29	##제	O	O	O, I-CV, B-CV, I-AF, I-LC
-30	##도	O	O	O, I-CV, I-AF, B-CV, I-LC
-31	##를	O	O	O, B-CV, I-CV, I-AF, B-PS
-32	분석	O	O	O, B-CV, B-TM, B-OG, B-LC
-33	##해	O	O	O, B-LC, B-OG, B-PS, B-CV
-34	중복	O	O	O, B-CV, B-TM, B-QT, B-AF
-35	##되	O	O	O, B-PS, I-AF, B-CV, B-LC
-36	##거나	O	O	O, B-PS, B-LC, I-AF, I-QT
-37	불합	O	O	O, B-CV, B-PS, B-TM, B-QT
-38	##리	O	O	O, B-PS, I-AF, B-CV, I-CV
-39	##하	O	O	O, B-PS, B-LC, B-CV, B-QT
-40	##다고	O	O	O, B-PS, B-QT, B-CV, B-LC
-41	판단	O	O	O, B-CV, B-PS, B-QT, I-QT
-42	##되	O	O	O, B-PS, B-CV, B-LC, B-QT
-43	##는	O	O	O, B-PS, B-CV, B-LC, B-QT
-44	규제	O	O	O, B-CV, I-CV, B-FD, B-TM
-45	168	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-PS
-46	##건	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-47	##을	O	O	O, I-QT, B-CV, I-OG, I-AF
-48	통폐합	O	O	O, B-CV, B-TM, B-LC, B-OG
-49	##하	O	O	O, B-LC, B-PS, B-CV, B-OG
-50	##는	O	O	O, B-CV, B-LC, B-OG, B-PS
-51	등	O	O	O, B-LC, B-OG, B-CV, B-PS
-52	개선	O	O	O, B-CV, B-LC, B-OG, B-PS
-53	##하기	O	O	O, B-OG, B-PS, B-LC, B-CV
-54	##로	O	O	O, B-CV, B-OG, I-OG, B-PS
-55	했	O	O	O, B-OG, B-CV, B-LC, B-PS
-56	##다	O	O	O, B-CV, B-OG, I-OG, B-LC
-57	.	O	O	O, B-OG, B-LC, I-OG, B-PS
-58	[SEP]	O	O	O, I-OG, B-OG, B-CV, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	이미	O	O
+2	이	O	O
+3	~	O	O
+4	어느	O	O
+5	정당	O	O
+6	##도	O	O
+7	이제	O	O
+8	##는	O	O
+9	야당	B-OG	O
+10	##이	O	O
+11	될	O	O
+12	수	O	O
+13	있	O	O
+14	##다	O	O
+15	##라는	O	O
+16	그런	O	O
+17	가능	O	O
+18	##성이	O	O
+19	##었	O	O
+20	##구요	O	O
+21	.	O	O
+22	[SEP]	O	O

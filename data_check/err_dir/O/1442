@@ -1,28 +1,18 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-EV, I-OG, B-CV, I-CV
-1	안철수	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
-2	의원	B-CV	B-CV	B-CV, O, I-PS, I-CV, B-TM
-3	##의	O	O	O, I-CV, B-PS, I-OG, B-OG
-4	싱크탱크	O	O	O, B-OG, B-AF, I-OG, B-CV
-5	'	O	O	O, I-OG, B-OG, B-LC, B-PS
-6	내일	O	B-OG	B-OG, O, B-DT, B-AF, B-EV
-7	'	O	O	O, I-OG, I-EV, B-OG, I-DT
-8	이	O	O	O, B-PS, B-EV, B-OG, B-LC
-9	개최	O	O	O, I-EV, B-EV, B-CV, B-LC
-10	##한	O	O	O, B-EV, I-EV, B-LC, B-PS
-11	혁신	O	O	O, B-EV, I-EV, B-OG, B-LC
-12	관련	O	O	O, I-EV, I-OG, B-EV, I-LC
-13	토론회	O	O	O, I-EV, B-EV, B-CV, B-LC
-14	##에서	O	O	O, I-EV, B-CV, B-PS, B-LC
-15	##도	O	O	O, B-PS, B-LC, B-OG, I-EV
-16	지도부	O	O	O, B-PS, B-CV, B-OG, I-OG
-17	##를	O	O	O, B-PS, I-OG, B-OG, B-CV
-18	향한	O	O	O, B-LC, B-PS, B-OG, B-CV
-19	날	O	O	O, B-PS, B-TM, B-LC, B-AM
-20	선	O	O	O, B-PS, B-LC, B-TM, I-PS
-21	비판	O	O	O, B-CV, B-PS, B-LC, B-TM
-22	##이	O	O	O, B-PS, B-OG, B-CV, B-LC
-23	나왔	O	O	O, B-CV, B-OG, B-LC, B-TM
-24	##다	O	O	O, B-CV, I-EV, B-LC, B-EV
-25	.	O	O	O, B-LC, B-PS, B-OG, B-CV
-26	[SEP]	O	O	O, B-LC, B-CV, I-EV, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	하지	O	O
+2	##만	O	O
+3	막상	O	O
+4	우리	O	O
+5	##나라	O	O
+6	##는	O	O
+7	우리	O	O
+8	##의	O	O
+9	역사	O	B-FD
+10	##에	O	O
+11	대해서	O	O
+12	좀	O	O
+13	무지	O	O
+14	##하	O	O
+15	##고	O	O
+16	[SEP]	O	O

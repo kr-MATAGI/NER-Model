@@ -1,41 +1,40 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	NYT	B-OG	B-OG	B-OG, B-AF, O, B-TM, B-LC
-2	,	O	O	O, I-OG, I-AF, I-EV, B-CV
-3	피해	O	O	O, B-CV, B-TM, B-LC, B-AF
-4	##여	O	O	O, B-CV, I-CV, B-TM, B-LC
-5	##성	O	O	O, I-CV, B-CV, I-TM, I-QT
-6	2	B-QT	B-QT	B-QT, O, I-QT, B-PS, B-DT
-7	##명	I-QT	I-QT	I-QT, O, I-PS, B-QT, I-LC
-8	증언	O	O	O, I-QT, B-CV, B-TM, I-CV
-9	보도	O	O	O, B-OG, B-CV, B-LC, B-TM
-10	“	O	O	O, B-CV, B-LC, B-OG, B-TM
-11	비행기	B-AF	B-AF	B-AF, O, B-OG, B-LC, I-AF
-12	옆	O	O	O, B-TM, B-CV, B-AM, I-AF
-13	##좌석	O	O	O, I-CV, I-TM, I-AM, I-AF
-14	##서	O	O	O, B-AM, B-PS, I-CV, I-AF
-15	몸	B-AM	B-AM	B-AM, O, I-AM, B-TM, B-PS
-16	더듬	O	O	O, I-AM, B-AM, I-TM, I-AF
-17	##어	O	O	O, I-AM, B-AM, I-TM, I-PS
-18	”	O	O	O, B-CV, B-LC, B-PS, B-TM
-19	트럼프	B-PS	B-PS	B-PS, O, B-OG, B-AF, B-LC
-20	“	O	O	O, I-PS, B-CV, I-OG, I-AF
-21	절대	O	O	O, B-LC, B-CV, B-TM, B-OG
-22	사실	O	O	O, B-CV, B-LC, B-TM, B-OG
-23	아니	O	O	O, B-PS, B-LC, B-OG, B-CV
-24	##다	O	O	O, B-LC, B-PS, B-OG, B-CV
-25	”	O	O	O, B-CV, B-LC, B-OG, B-PS
-26	항의	O	O	O, B-LC, B-OG, B-CV, B-TM
-27	美	B-LC	B-LC	B-LC, B-OG, O, B-AF, I-OG
-28	신문	O	O	O, I-OG, B-OG, I-LC, I-AF
-29	-	O	O	O, I-OG, B-OG, I-AF, I-TM
-30	방송	O	O	O, I-OG, B-OG, B-TM, I-TM
-31	,	O	O	O, I-OG, B-CV, B-LC, B-PS
-32	성추	B-CV	O	O, B-CV, B-TM, B-EV, I-CV
-33	##문	I-CV	O	O, I-CV, I-TM, I-EV, B-CV
-34	기사	O	O	O, I-CV, B-CV, B-TM, I-TM
-35	##로	O	O	O, B-CV, B-TM, B-OG, B-LC
-36	‘	O	O	O, B-LC, B-OG, B-CV, B-TM
-37	도배	O	O	O, B-TM, B-CV, B-OG, B-LC
-38	’	O	O	O, B-CV, B-OG, B-LC, I-OG
-39	[SEP]	O	O	O, B-CV, B-LC, B-TM, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	2	B-QT	B-QT
+2	##부	I-QT	I-QT
+3	‘	O	O
+4	제주	B-LC	B-AF
+5	##를	O	I-AF
+6	…	O	I-AF
+7	’	O	O
+8	은	O	O
+9	두	B-QT	B-QT
+10	사람	I-QT	I-QT
+11	##의	O	O
+12	아들	B-CV	B-CV
+13	오레	B-PS	B-PS
+14	##스테	I-PS	I-PS
+15	##스	I-PS	I-PS
+16	##가	O	O
+17	아비	B-CV	B-CV
+18	##의	O	O
+19	복수	O	O
+20	##를	O	O
+21	위해	O	O
+22	어미	B-CV	B-CV
+23	##와	O	O
+24	그	O	O
+25	##의	O	O
+26	정부	B-CV	B-OG
+27	아이	B-PS	B-PS
+28	##기	I-PS	I-PS
+29	##스토	I-PS	I-PS
+30	##스	I-PS	I-PS
+31	##를	O	O
+32	처단	O	O
+33	##하	O	O
+34	##는	O	O
+35	내용	O	O
+36	##이다	O	O
+37	.	O	O
+38	[SEP]	O	O

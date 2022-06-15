@@ -1,62 +1,33 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	한편	O	O	O, B-QT, B-TM, B-OG, B-LC
-2	10	B-DT	B-DT	B-DT, I-DT, O, B-QT, B-OG
-3	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
-4	폭동	O	O	O, I-EV, I-DT, B-EV, B-CV
-5	##에	O	O	O, B-CV, I-EV, B-PS, B-OG
-6	가담	O	O	O, B-CV, B-PS, B-OG, B-LC
-7	##해	O	O	O, B-PS, B-LC, B-OG, B-CV
-8	체포	O	O	O, B-CV, B-OG, B-TM, B-LC
-9	##된	O	O	O, B-PS, B-CV, I-CV, B-LC
-10	피의자	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-PS
-11	##들	O	O	O, I-CV, B-CV, I-OG, I-EV
-12	##의	O	O	O, B-CV, B-LC, B-PS, B-OG
-13	법정	O	O	O, B-CV, B-OG, B-TR, B-FD
-14	심리	O	O	O, I-CV, I-OG, B-CV, I-TR
-15	##가	O	O	O, B-PS, I-OG, B-CV, I-EV
-16	시작	O	O	O, B-CV, B-OG, B-TM, B-LC
-17	##되	O	O	O, B-CV, B-PS, B-OG, B-LC
-18	##면서	O	O	O, B-CV, B-LC, B-OG, B-PS
-19	지금	O	O	O, B-CV, B-LC, B-OG, B-PS
-20	##까	O	O	O, B-LC, B-PS, B-CV, B-OG
-21	##지	O	O	O, B-LC, B-PS, B-CV, B-OG
-22	가난	O	O	O, B-CV, B-LC, B-TM, B-PS
-23	##하고	O	O	O, B-PS, B-LC, B-CV, B-OG
-24	소외	O	O	O, B-CV, B-LC, B-PS, B-TM
-25	##된	O	O	O, B-PS, B-LC, B-CV, B-OG
-26	10	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-PS
-27	,	I-QT	I-QT	I-QT, O, I-LC, I-PS, I-DT
-28	20	I-QT	I-QT	I-QT, B-QT, O, I-LC, I-PS
-29	##대	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-30	##가	O	O	O, I-QT, B-PS, B-LC, I-PS
-31	중심	O	O	O, B-QT, B-TM, B-CV, B-LC
-32	##이	O	O	O, B-PS, B-CV, B-OG, B-LC
-33	##었	O	O	O, B-CV, B-PS, B-LC, B-OG
-34	##을	O	O	O, B-CV, B-PS, B-LC, B-OG
-35	것	O	O	O, B-PS, B-CV, B-LC, B-OG
-36	##이	O	O	O, B-PS, B-CV, B-OG, B-LC
-37	##라는	O	O	O, B-CV, B-PS, B-QT, B-OG
-38	관측	O	O	O, B-CV, B-TR, B-PS, B-FD
-39	##과	O	O	O, B-CV, B-PS, I-CV, I-EV
-40	달리	O	O	O, B-CV, B-OG, B-LC, B-TM
-41	다양	O	O	O, B-LC, B-TM, B-OG, B-CV
-42	##한	O	O	O, B-LC, B-PS, B-OG, B-TM
-43	계층	O	O	O, B-CV, I-OG, B-OG, B-LC
-44	##과	O	O	O, B-PS, B-CV, B-OG, B-LC
-45	인종	O	O	O, B-CV, B-OG, B-LC, B-TM
-46	,	O	O	O, B-CV, B-PS, I-OG, B-LC
-47	연령	O	O	O, B-CV, B-LC, B-OG, B-TM
-48	##대	O	O	O, I-OG, B-OG, B-LC, B-PS
-49	##가	O	O	O, B-PS, B-LC, B-OG, B-CV
-50	폭	B-CV	O	O, B-LC, B-OG, B-CV, B-AF
-51	##도	I-CV	O	O, I-LC, I-OG, I-CV, I-AF
-52	##에	O	O	O, I-OG, I-AF, I-CV, I-EV
-53	포함	O	O	O, B-CV, B-TM, B-LC, B-OG
-54	##된	O	O	O, B-PS, B-CV, B-LC, B-OG
-55	것	O	O	O, B-CV, B-PS, B-LC, B-OG
-56	##으로	O	O	O, B-CV, I-OG, B-TM, B-LC
-57	나타났	O	O	O, B-CV, B-LC, B-OG, B-PS
-58	##다	O	O	O, B-CV, I-OG, I-EV, B-LC
-59	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-60	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	신규	O	O
+2	수주	O	O
+3	##를	O	O
+4	지원	O	O
+5	##하	O	O
+6	##기	O	O
+7	위해	O	O
+8	선수	B-CV	O
+9	##금	I-CV	O
+10	##환	I-CV	O
+11	##급	I-CV	O
+12	##보증	I-CV	O
+13	(	O	O
+14	R	O	O
+15	##G	O	O
+16	)	O	O
+17	한도	O	O
+18	##를	O	O
+19	늘려	O	O
+20	##주	O	O
+21	##는	O	O
+22	방안	O	O
+23	##도	O	O
+24	포함	O	O
+25	##될	O	O
+26	것	O	O
+27	##으로	O	O
+28	알려졌	O	O
+29	##다	O	O
+30	.	O	O
+31	[SEP]	O	O

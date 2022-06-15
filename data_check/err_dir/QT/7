@@ -1,44 +1,44 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	대한제국	B-LC	B-LC	B-LC, O, B-OG, B-DT, B-AF
-2	초대	B-QT	O	O, B-CV, B-QT, B-DT, I-DT
-3	황제	B-CV	B-CV	B-CV, I-CV, O, I-QT, I-DT
-4	##인	O	O	O, I-CV, B-CV, B-PS, I-QT
-5	고종	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
-6	##의	O	O	O, I-PS, B-CV, I-OG, I-AF
-7	손녀	B-CV	B-CV	B-CV, O, B-PS, I-CV, B-OG
-8	(	O	O	O, I-CV, B-CV, I-OG, B-PS
-9	옹	B-PS	B-CV	B-CV, O, B-PS, I-CV, B-OG
-10	##주	I-PS	I-CV	I-CV, O, B-CV, I-PS, I-AM
-11	)	O	O	O, I-CV, B-CV, B-PS, I-OG
-12	이해	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-13	##원	I-PS	I-PS	I-PS, O, I-OG, I-LC, I-QT
-14	(	O	O	O, I-PS, B-CV, I-OG, I-QT
-15	98	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-LC
-16	)	O	O	O, I-QT, I-OG, I-DT, I-EV
-17	씨	O	O	O, B-CV, B-LC, B-PS, B-OG
-18	##가	O	O	O, B-PS, B-CV, B-LC, B-OG
-19	과거	O	O	O, B-LC, B-CV, B-DT, B-PS
-20	남편	B-CV	B-CV	B-CV, O, I-CV, B-PS, B-OG
-21	##이	O	O	O, I-CV, B-PS, B-CV, I-EV
-22	가지	O	O	O, B-CV, B-TM, B-LC, B-QT
-23	##고	O	O	O, B-CV, B-TM, B-LC, B-PS
-24	있	O	O	O, B-CV, B-TM, B-LC, B-PS
-25	##었	O	O	O, B-CV, B-TM, B-LC, B-PS
-26	##던	O	O	O, B-CV, B-LC, B-PS, B-TM
-27	땅	O	O	O, B-CV, B-LC, B-TM, B-AF
-28	##의	O	O	O, B-CV, B-PS, B-LC, B-TM
-29	보상금	O	O	O, B-CV, B-TM, B-LC, B-QT
-30	##을	O	O	O, B-CV, I-CV, B-PS, B-TM
-31	돌려	O	O	O, B-CV, B-TM, B-LC, B-QT
-32	달라	O	O	O, B-CV, B-PS, B-LC, B-TM
-33	##며	O	O	O, B-CV, B-LC, I-CV, B-TM
-34	소송	O	O	O, B-CV, B-TM, B-LC, B-EV
-35	##을	O	O	O, B-CV, I-CV, I-EV, B-PS
-36	냈	O	O	O, B-CV, B-LC, B-OG, B-TM
-37	##다가	O	O	O, B-CV, B-LC, B-TM, B-PS
-38	패소	O	O	O, B-CV, B-TM, B-EV, B-LC
-39	##했	O	O	O, I-CV, I-OG, I-EV, B-CV
-40	##다	O	O	O, B-CV, B-LC, B-OG, B-TM
-41	.	O	O	O, B-CV, B-LC, B-PS, B-OG
-42	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	대한제국	B-LC	B-LC
+2	초대	B-QT	O
+3	황제	B-CV	B-CV
+4	##인	O	O
+5	고종	B-PS	B-PS
+6	##의	O	O
+7	손녀	B-CV	B-CV
+8	(	O	O
+9	옹	B-PS	B-CV
+10	##주	I-PS	I-CV
+11	)	O	O
+12	이해	B-PS	B-PS
+13	##원	I-PS	I-PS
+14	(	O	O
+15	98	B-QT	B-QT
+16	)	O	O
+17	씨	O	O
+18	##가	O	O
+19	과거	O	O
+20	남편	B-CV	B-CV
+21	##이	O	O
+22	가지	O	O
+23	##고	O	O
+24	있	O	O
+25	##었	O	O
+26	##던	O	O
+27	땅	O	O
+28	##의	O	O
+29	보상금	O	O
+30	##을	O	O
+31	돌려	O	O
+32	달라	O	O
+33	##며	O	O
+34	소송	O	O
+35	##을	O	O
+36	냈	O	O
+37	##다가	O	O
+38	패소	O	O
+39	##했	O	O
+40	##다	O	O
+41	.	O	O
+42	[SEP]	O	O

@@ -1,19 +1,46 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	이케	O	O	O, B-CV, B-PS, B-QT, B-TM
-2	자꾸	O	O	O, B-CV, B-PS, B-TM, B-QT
-3	해소	O	O	O, B-CV, B-TM, I-CV, B-PS
-4	##할	O	O	O, B-PS, I-CV, B-CV, B-LC
-5	##려고	O	O	O, B-PS, B-CV, I-CV, B-LC
-6	하	O	O	O, B-CV, B-PS, B-TM, B-LC
-7	##셨	O	O	O, B-CV, I-CV, B-PS, I-PS
-8	##어요	O	O	O, B-PS, B-CV, I-CV, B-LC
-9	이	O	O	O, B-PS, B-CV, B-QT, B-LC
-10	사연	B-CV	B-CV	B-CV, O, I-CV, B-PS, B-QT
-11	##자	I-CV	O	O, I-CV, B-CV, I-QT, I-TM
-12	같	O	O	O, I-CV, B-CV, I-QT, B-PS
-13	##은	O	O	O, I-CV, B-CV, B-PS, I-AF
-14	경우	O	O	O, B-CV, B-PS, I-DT, I-CV
-15	##에	O	O	O, B-CV, B-PS, I-CV, B-OG
-16	.	O	O	O, B-CV, B-LC, B-OG, B-PS
-17	[SEP]	O	O	O, B-CV, B-PS, B-LC, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	그	O	O
+2	##는	O	O
+3	또	O	O
+4	“	O	O
+5	(	O	O
+6	기존	O	O
+7	기능	B-CV	O
+8	##인	I-CV	O
+9	)	O	O
+10	행정	O	O
+11	##심판	O	O
+12	기능	O	O
+13	##은	O	O
+14	권익	O	B-OG
+15	##위	O	I-OG
+16	조직	O	O
+17	##과	O	O
+18	함께	O	O
+19	##하	O	O
+20	##긴	O	O
+21	어렵	O	O
+22	##지	O	O
+23	않	O	O
+24	##나	O	O
+25	생각	O	O
+26	##한다	O	O
+27	”	O	O
+28	며	O	O
+29	권익	O	B-OG
+30	##위	O	I-OG
+31	##가	O	O
+32	행정	O	O
+33	##심판	O	O
+34	기능	O	O
+35	##을	O	O
+36	내놓	O	O
+37	##겠다	O	O
+38	##는	O	O
+39	의지	O	O
+40	##를	O	O
+41	드러냈	O	O
+42	##다	O	O
+43	.	O	O
+44	[SEP]	O	O

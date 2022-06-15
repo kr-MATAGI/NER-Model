@@ -1,26 +1,15 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-EV
-1	■	O	O	O, B-LC, B-PS, B-OG, B-CV
-2	부산시	B-LC	B-LC	B-LC, O, B-OG, B-PS, B-CV
-3	##의원	B-CV	B-CV	B-CV, O, I-CV, I-LC, B-LC
-4	비례	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-TM
-5	##대표	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-EV
-6	이경	B-OG	B-PS	B-PS, O, B-OG, I-PS, B-LC
-7	##혜	I-OG	I-PS	I-PS, O, I-OG, I-LC, I-QT
-8	당선자	B-CV	B-CV	B-CV, O, B-OG, I-CV, I-PS
-9	,	O	O	O, I-CV, B-CV, I-OG, I-EV
-10	9	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-LC
-11	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-12	##전	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-CV
-13	시력	O	O	O, B-TM, I-DT, B-TR, B-AM
-14	상실	O	O	O, B-TM, I-TM, I-TR, B-CV
-15	…	O	O	O, B-LC, I-TM, B-PS, B-OG
-16	부산	B-CV	B-LC	B-LC, B-CV, O, B-OG, B-AF
-17	##점	I-CV	B-CV	B-CV, I-CV, O, I-LC, I-OG
-18	##자	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-QT
-19	##도	I-CV	I-CV	I-CV, B-CV, O, I-OG, I-QT
-20	##서관	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-QT
-21	##장	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-QT
-22	등	O	O	O, I-CV, B-CV, I-QT, B-PS
-23	지내	O	O	O, B-LC, B-CV, B-PS, I-CV
-24	[SEP]	O	O	O, B-LC, B-CV, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	인감	O	O
+2	도장	B-CV	O
+3	##을	O	O
+4	함부로	O	O
+5	그렇게	O	O
+6	맡기	O	O
+7	##실	O	O
+8	분	O	O
+9	##은	O	O
+10	아니	O	O
+11	##시	O	O
+12	##잖아요	O	O
+13	[SEP]	O	O

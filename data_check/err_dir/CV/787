@@ -1,16 +1,37 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-AF
-1	은	O	O	O, B-CV, B-AF, B-MT, B-LC
-2	##반	O	O	O, I-CV, I-AF, I-LC, I-AM
-3	‘	O	O	O, I-CV, I-AF, I-OG, I-LC
-4	러시아	B-LC	B-LC	B-LC, B-OG, O, B-AF, B-PS
-5	소녀	B-PS	B-PS	B-PS, I-PS, O, B-LC, B-AF
-6	##시대	I-PS	I-PS	I-PS, O, I-LC, I-AF, I-OG
-7	’	O	O	O, I-PS, I-AF, I-OG, B-CV
-8	…	O	O	O, B-OG, B-LC, B-CV, B-PS
-9	금	B-CV	B-MT	B-MT, B-CV, O, B-AF, B-PT
-10	은	B-CV	B-MT	B-MT, B-CV, O, B-PT, I-MT
-11	동	B-CV	B-MT	B-MT, B-CV, O, I-MT, B-PT
-12	싹쓸이	O	O	O, B-CV, I-CV, I-AF, B-LC
-13	?	O	O	O, B-LC, B-OG, B-CV, I-AF
-14	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	원전	O	O
+2	##을	O	O
+3	반대	O	O
+4	##하	O	O
+5	##는	O	O
+6	시민	O	O
+7	##단체	O	O
+8	등	O	O
+9	##은	O	O
+10	파이	B-TR	B-TR
+11	##로프	I-TR	I-TR
+12	##로	I-TR	I-TR
+13	##세	I-TR	I-TR
+14	##싱	I-TR	I-TR
+15	##이	O	O
+16	원전	O	O
+17	운영	O	O
+18	##을	O	O
+19	전제	O	O
+20	##로	O	O
+21	하	O	O
+22	##는	O	O
+23	기술인	B-CV	O
+24	만큼	O	O
+25	전면	O	O
+26	중단	O	O
+27	##해야	O	O
+28	한다고	O	O
+29	주장	O	O
+30	##하	O	O
+31	##고	O	O
+32	있	O	O
+33	##다	O	O
+34	.	O	O
+35	[SEP]	O	O

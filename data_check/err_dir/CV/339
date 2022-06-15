@@ -1,11 +1,32 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	만나	O	O	O, B-CV, B-LC, B-QT, B-EV
-2	만나	O	O	O, B-CV, B-LC, B-EV, B-OG
-3	##는	O	O	O, B-CV, B-LC, B-PS, B-QT
-4	[UNK]	O	O	O, B-CV, B-LC, B-OG, B-PS
-5	.	O	O	O, B-CV, B-OG, B-LC, B-PS
-6	그	O	O	O, B-CV, B-LC, B-OG, B-TM
-7	양반	B-CV	O	O, B-CV, I-CV, B-QT, B-AM
-8	##이	O	O	O, I-CV, B-PS, B-CV, I-QT
-9	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	생명	B-OG	B-OG
+2	##보험	I-OG	I-OG
+3	##사회	I-OG	I-OG
+4	##공	I-OG	I-OG
+5	##헌	I-OG	I-OG
+6	##재단	I-OG	I-OG
+7	##은	O	O
+8	서울시	B-OG	B-OG
+9	##교육	I-OG	I-OG
+10	##청	I-OG	I-OG
+11	,	O	O
+12	중앙	B-OG	B-OG
+13	##자	I-OG	I-OG
+14	##살	I-OG	I-OG
+15	##예	I-OG	I-OG
+16	##방	I-OG	I-OG
+17	##센터	I-OG	I-OG
+18	##와	O	O
+19	함께	O	O
+20	청소년	B-CV	B-TM
+21	예방	O	I-TM
+22	지원	O	I-TM
+23	사업	O	I-TM
+24	##을	O	O
+25	벌이	O	O
+26	##고	O	O
+27	있	O	O
+28	##다	O	O
+29	.	O	O
+30	[SEP]	O	O

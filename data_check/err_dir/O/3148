@@ -1,35 +1,42 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-AF
-1	증	O	B-TM	B-TM, O, B-AF, B-CV, I-TM
-2	##압	O	I-TM	I-TM, O, I-AF, B-TM, I-TR
-3	##기	O	I-TM	I-TM, O, I-AF, I-MT, I-CV
-4	##는	O	O	O, I-TM, I-AF, I-CV, I-OG
-5	민간	O	O	O, B-CV, B-FD, B-LC, B-OG
-6	사용	O	O	O, I-CV, I-AF, B-CV, B-PS
-7	물자	O	O	O, B-CV, B-PS, B-LC, I-CV
-8	##이지	O	O	O, B-CV, B-PS, B-LC, B-OG
-9	##만	O	O	O, B-LC, B-CV, B-TM, B-OG
-10	군사	O	O	O, B-CV, B-FD, B-LC, B-OG
-11	##용	O	O	O, I-CV, I-LC, I-AF, I-TM
-12	##으로	O	O	O, B-PS, B-LC, B-CV, B-TM
-13	전용	O	O	O, B-LC, B-TM, B-CV, B-PS
-14	##될	O	O	O, B-LC, B-PS, I-AF, B-CV
-15	수	O	O	O, B-PS, B-LC, B-QT, B-TM
-16	있	O	O	O, B-LC, B-PS, B-CV, B-TM
-17	##는	O	O	O, B-LC, B-CV, B-TM, B-PS
-18	이른바	O	O	O, B-QT, B-LC, B-TM, B-CV
-19	'	O	O	O, B-LC, B-CV, B-OG, B-PS
-20	이중	O	O	O, B-QT, B-TM, B-PS, B-CV
-21	용도	O	O	O, I-QT, I-TM, I-CV, I-LC
-22	(	O	O	O, I-QT, I-CV, B-CV, I-OG
-23	d	O	O	O, B-LC, B-PS, B-OG, B-QT
-24	##ual	O	O	O, I-LC, I-QT, I-OG, I-TM
-25	-	O	O	O, I-LC, I-QT, I-OG, I-TM
-26	us	O	O	O, I-LC, I-OG, I-QT, I-TM
-27	##e	O	O	O, I-LC, I-OG, I-QT, I-TM
-28	)	O	O	O, I-OG, B-PS, I-LC, B-LC
-29	'	O	O	O, B-PS, B-LC, B-CV, B-OG
-30	품목	O	O	O, B-CV, B-PS, B-LC, B-OG
-31	##이다	O	O	O, B-CV, I-CV, I-OG, B-TM
-32	.	O	O	O, B-LC, B-CV, B-TM, B-PS
-33	[SEP]	O	O	O, B-LC, B-CV, B-TM, B-AF
+	text	label	preds
+0	[CLS]	O	O
+1	""""	O	O
+2	대학	O	O
+3	##등	O	O
+4	##록	O	O
+5	##금	O	O
+6	문제	O	O
+7	같	O	O
+8	##은	O	O
+9	중요	O	O
+10	##한	O	O
+11	이슈	O	O
+12	##는	O	O
+13	관련	O	O
+14	수석	B-CV	B-CV
+15	##들	O	O
+16	##과	O	O
+17	장관	B-CV	B-CV
+18	##들이	O	O
+19	밤	O	B-TI
+20	##을	O	O
+21	새	O	O
+22	##워서	O	O
+23	##라도	O	O
+24	끝장	O	O
+25	토론	O	O
+26	##해서	O	O
+27	해결	O	O
+28	##해야	O	O
+29	하	O	O
+30	##는	O	O
+31	것	O	O
+32	아니	O	O
+33	##냐	O	O
+34	""""	O	O
+35	고도	O	O
+36	했	O	O
+37	##다고	O	O
+38	한다	O	O
+39	.	O	O
+40	[SEP]	O	O

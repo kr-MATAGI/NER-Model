@@ -1,24 +1,40 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-AF
-1	새	B-AF	B-AF	B-AF, O, B-CV, B-OG, B-PS
-2	##희	I-AF	I-AF	I-AF, I-CV, O, I-OG, I-TM
-3	##망	I-AF	I-AF	I-AF, I-CV, O, I-OG, I-TM
-4	##홀	I-AF	I-AF	I-AF, I-CV, O, I-TM, I-OG
-5	##씨	I-AF	I-AF	I-AF, O, I-CV, I-TM, I-OG
-6	대출	O	I-AF	I-AF, O, I-CV, I-TM, I-OG
-7	##을	O	O	O, I-AF, I-CV, I-OG, I-TM
-8	취급	O	O	O, B-OG, B-LC, B-CV, B-TM
-9	##하	O	O	O, B-OG, B-LC, B-CV, B-PS
-10	##는	O	O	O, B-CV, B-OG, B-LC, B-TM
-11	16	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-EV
-12	##개	I-QT	I-QT	I-QT, O, I-EV, I-LC, I-DT
-13	시중	O	O	O, I-QT, B-OG, B-TM, I-OG
-14	##은행	O	O	O, I-OG, I-AF, B-OG, I-CV
-15	영업	O	O	O, B-LC, I-OG, B-CV, B-OG
-16	##점	O	O	O, I-OG, I-AF, I-LC, I-CV
-17	##에서	O	O	O, B-CV, B-LC, B-TM, B-PS
-18	신청	O	O	O, B-CV, B-TM, B-OG, B-AF
-19	##하면	O	O	O, B-CV, B-OG, B-TM, B-LC
-20	된다	O	O	O, B-CV, B-TM, B-OG, B-LC
-21	.	O	O	O, B-LC, B-OG, B-CV, I-OG
-22	[SEP]	O	O	O, B-LC, B-OG, I-OG, B-CV
+	text	label	preds
+0	[CLS]	O	O
+1	이번	O	O
+2	연구	O	O
+3	결과	O	O
+4	##는	O	O
+5	알콜	B-MT	B-MT
+6	·	O	O
+7	장기	O	B-TM
+8	수면	O	I-TM
+9	부족	O	I-TM
+10	·	O	O
+11	백색	O	B-TM
+12	##소	O	I-TM
+13	##음	O	I-TM
+14	등	O	O
+15	인간	O	O
+16	##의	O	O
+17	인식	O	O
+18	능력	O	O
+19	##을	O	O
+20	떨어	O	O
+21	##뜨릴	O	O
+22	수	O	O
+23	있	O	O
+24	##는	O	O
+25	요인	O	O
+26	##들	O	O
+27	##을	O	O
+28	연구	O	O
+29	##하	O	O
+30	##는	O	O
+31	과정	O	O
+32	중	O	O
+33	##에	O	O
+34	나온	O	O
+35	것	O	O
+36	##이다	O	O
+37	.	O	O
+38	[SEP]	O	O

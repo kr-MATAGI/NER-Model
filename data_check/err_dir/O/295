@@ -1,53 +1,21 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	이웃	B-CV	O	O, B-CV, B-LC, B-OG, I-CV
-2	일본	B-LC	B-LC	B-LC, B-OG, O, I-LC, B-PS
-3	##은	O	O	O, I-LC, I-OG, B-LC, I-AF
-4	지방	O	B-OG	B-OG, O, B-CV, I-OG, B-AF
-5	##자치단체	O	I-OG	I-OG, O, I-CV, B-OG, I-AF
-6	##들	O	O	O, I-OG, I-AF, I-CV, I-EV
-7	##의	O	O	O, B-LC, B-CV, B-PS, B-OG
-8	경제	O	O	O, B-LC, B-FD, B-CV, B-TM
-9	사정	O	O	O, I-LC, I-OG, I-CV, I-TM
-10	##에	O	O	O, B-LC, B-PS, B-CV, B-OG
-11	따라	O	O	O, B-LC, B-OG, B-TM, B-PS
-12	A	B-QT	B-QT	B-QT, O, I-QT, B-LC, B-OG
-13	~	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-OG
-14	D	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-OG
-15	##의	O	O	O, I-QT, B-QT, I-LC, I-OG
-16	4	B-QT	B-QT	B-QT, I-QT, O, B-DT, B-PS
-17	##등	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-EV
-18	##급	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-EV
-19	##으로	O	O	O, I-QT, B-CV, B-OG, B-PS
-20	구분	O	O	O, B-CV, B-OG, B-LC, B-TM
-21	##해	O	O	O, B-LC, B-PS, B-OG, B-CV
-22	최저임금	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-AF
-23	편차	O	O	O, I-CV, B-CV, I-OG, I-AF
-24	##를	O	O	O, B-CV, B-OG, B-LC, I-CV
-25	두	O	O	O, B-OG, B-CV, B-LC, B-PS
-26	##는데	O	O	O, B-CV, B-LC, B-OG, B-PS
-27	가장	O	O	O, B-LC, B-CV, B-QT, B-PS
-28	비싼	O	O	O, B-LC, B-CV, B-QT, B-PS
-29	'	O	O	O, B-LC, B-CV, B-QT, B-PS
-30	A	B-QT	B-QT	B-QT, O, I-QT, B-TM, B-CV
-31	##급	I-QT	I-QT	I-QT, O, I-LC, I-TM, B-QT
-32	지역	O	O	O, I-QT, B-LC, I-LC, B-CV
-33	'	O	O	O, B-LC, B-CV, B-PS, I-LC
-34	으로	O	O	O, B-LC, B-PS, B-CV, B-OG
-35	분류	O	O	O, B-LC, B-PS, B-CV, B-OG
-36	##된	O	O	O, B-LC, B-PS, I-LC, B-CV
-37	수도	O	O	O, B-LC, B-CV, I-LC, B-PS
-38	도쿄	B-LC	B-LC	B-LC, O, B-OG, I-LC, B-AF
-39	##는	O	O	O, I-LC, B-LC, I-AF, I-OG
-40	88	B-QT	B-QT	B-QT, O, I-QT, B-LC, B-DT
-41	##8	I-QT	I-QT	I-QT, B-QT, I-LC, O, I-PS
-42	##엔	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-43	(	O	O	O, I-QT, B-CV, I-OG, I-CV
-44	약	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-CV
-45	82	I-QT	I-QT	I-QT, B-QT, O, I-LC, I-DT
-46	##00	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-47	##원	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-48	)	O	O	O, I-QT, I-CV, I-OG, B-CV
-49	이다	O	O	O, B-CV, I-QT, B-LC, B-TM
-50	.	O	O	O, B-LC, B-CV, B-OG, B-PS
-51	[SEP]	O	O	O, B-LC, B-CV, B-OG, I-LC
+	text	label	preds
+0	[CLS]	O	O
+1	일반	O	O
+2	##적	O	O
+3	##인	O	O
+4	살해	O	B-CV
+5	방식	O	O
+6	##은	O	O
+7	충분히	O	O
+8	아니	O	O
+9	##다	O	O
+10	##라는	O	O
+11	걸	O	O
+12	알	O	O
+13	수	O	O
+14	있	O	O
+15	##는	O	O
+16	##거	O	O
+17	##죠	O	O
+18	.	O	O
+19	[SEP]	O	O

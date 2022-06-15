@@ -1,27 +1,57 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	주로	O	O	O, B-CV, B-LC, B-TM, B-PS
-2	새로운	O	O	O, B-CV, B-FD, B-PS, B-TM
-3	과제	O	O	O, B-CV, B-LC, B-FD, B-TM
-4	##들인	O	O	O, B-CV, B-LC, B-PS, B-QT
-5	고령화	B-TR	O	O, B-TR, B-TM, B-EV, B-FD
-6	사회	O	O	O, I-TR, B-TR, I-TM, I-EV
-7	다문화	B-TR	O	O, B-TR, I-TR, B-TM, B-FD
-8	사회	O	O	O, I-TR, B-TR, I-TM, I-FD
-9	등	O	O	O, B-CV, B-LC, I-TR, B-PS
-10	##의	O	O	O, B-CV, B-LC, B-OG, B-PS
-11	이른바	O	O	O, B-CV, B-LC, B-TM, B-QT
-12	소프트	O	O	O, B-FD, B-CV, B-TM, B-TR
-13	##한	O	O	O, I-FD, I-QT, I-TR, B-FD
-14	주제	O	O	O, B-FD, B-CV, I-QT, B-PS
-15	##를	O	O	O, B-CV, B-PS, B-LC, B-OG
-16	선	O	O	O, B-CV, B-LC, B-TR, B-FD
-17	선호	O	O	O, B-CV, B-PS, I-CV, B-LC
-18	##하	O	O	O, B-PS, B-CV, B-LC, I-CV
-19	##는	O	O	O, B-CV, B-PS, B-LC, I-CV
-20	것	O	O	O, B-CV, B-PS, B-OG, I-CV
-21	같	O	O	O, B-CV, B-PS, I-OG, I-CV
-22	##습	O	O	O, B-CV, B-LC, I-OG, B-OG
-23	##니다	O	O	O, B-CV, B-LC, B-OG, B-PS
-24	.	O	O	O, B-CV, B-LC, B-FD, B-PS
-25	[SEP]	O	O	O, B-CV, B-FD, B-LC, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	중동	B-LC	B-LC
+2	##의	O	O
+3	종파	O	O
+4	##분	O	O
+5	##쟁	O	O
+6	##은	O	O
+7	갈수록	O	O
+8	격화	O	O
+9	##되	O	O
+10	##고	O	O
+11	있	O	O
+12	##고	O	O
+13	유럽	B-LC	B-LC
+14	##엔	O	O
+15	‘	O	O
+16	우리	O	O
+17	운명	O	O
+18	##은	O	O
+19	유럽	B-CV	B-CV
+20	##인	I-CV	I-CV
+21	스스로	O	O
+22	’	O	O
+23	독자	B-TR	O
+24	##주의	I-TR	O
+25	##가	O	O
+26	고개	B-AM	B-AM
+27	##를	O	O
+28	들	O	O
+29	##고	O	O
+30	있	O	O
+31	##으며	O	O
+32	아시아	B-LC	B-LC
+33	##는	O	O
+34	미	B-LC	B-LC
+35	##중	I-LC	I-LC
+36	##이	O	O
+37	포위	O	O
+38	##하	O	O
+39	##며	O	O
+40	각축	O	O
+41	##하	O	O
+42	##는	O	O
+43	변형	O	O
+44	##된	O	O
+45	냉전	O	O
+46	##구조	O	O
+47	##가	O	O
+48	온	O	O
+49	##존	O	O
+50	##되	O	O
+51	##고	O	O
+52	있	O	O
+53	##다	O	O
+54	.	O	O
+55	[SEP]	O	O

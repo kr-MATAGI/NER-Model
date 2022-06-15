@@ -1,28 +1,21 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-EV, B-CV, I-CV
-1	국내	O	O	O, B-LC, B-OG, B-PS, B-EV
-2	개신교	O	B-OG	B-OG, O, B-CV, I-OG, B-FD
-3	사상	O	O	O, I-OG, I-EV, I-CV, B-CV
-4	최대	O	O	O, B-LC, B-PS, B-CV, B-OG
-5	규모	O	O	O, B-OG, B-PS, B-CV, B-LC
-6	##의	O	O	O, B-PS, B-LC, B-OG, I-OG
-7	국제	O	O	O, B-EV, B-CV, B-FD, B-LC
-8	종교	O	O	O, I-EV, B-EV, B-CV, B-FD
-9	##행사	O	O	O, I-EV, I-CV, I-QT, I-OG
-10	##로	O	O	O, I-EV, B-PS, I-CV, B-CV
-11	해외	O	O	O, B-LC, B-CV, B-EV, B-PS
-12	공식	O	O	O, B-CV, B-PS, B-EV, B-LC
-13	##대표	O	B-CV	B-CV, O, I-CV, I-EV, B-EV
-14	2800	B-QT	B-QT	B-QT, O, I-QT, I-CV, B-DT
-15	##여	I-QT	I-QT	I-QT, O, I-PS, I-LC, B-QT
-16	명	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-17	,	O	O	O, I-QT, B-CV, B-LC, B-PS
-18	국내	O	O	O, B-LC, B-CV, B-PS, B-TM
-19	4600	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-PS
-20	##여	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-21	명	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-22	##이	O	O	O, I-QT, B-PS, B-CV, B-LC
-23	참석	O	O	O, B-CV, B-EV, B-PS, B-TM
-24	##한다	O	O	O, I-EV, I-CV, I-OG, B-CV
-25	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-26	[SEP]	O	O	O, B-CV, B-LC, B-PS, I-EV
+	text	label	preds
+0	[CLS]	O	O
+1	어른	O	O
+2	##들의	O	O
+3	안전	O	B-TM
+4	##불	O	I-TM
+5	##감	O	I-TM
+6	##증	O	I-TM
+7	##이	O	O
+8	또	O	O
+9	##다	O	O
+10	##시	O	O
+11	어린	O	O
+12	생명	O	O
+13	##을	O	O
+14	앗	O	O
+15	##아	O	O
+16	##갔	O	O
+17	##다	O	O
+18	.	O	O
+19	[SEP]	O	O

@@ -1,41 +1,42 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	유럽연합	B-OG	B-OG	B-OG, O, B-LC, I-OG, B-EV
-2	(	O	O	O, I-OG, B-OG, I-EV, I-DT
-3	EU	B-OG	I-OG	I-OG, B-OG, O, I-EV, B-LC
-4	)	O	O	O, I-OG, B-OG, I-EV, I-DT
-5	집행	O	O	O, B-OG, I-OG, I-EV, B-EV
-6	##위원회	O	I-OG	I-OG, O, I-EV, B-OG, I-CV
-7	##는	O	O	O, I-OG, B-OG, I-EV, I-DT
-8	5	B-DT	B-DT	B-DT, O, I-DT, B-LC, B-EV
-9	##일	I-DT	I-DT	I-DT, O, B-DT, I-OG, I-EV
-10	순회	O	O	O, B-CV, B-LC, B-EV, B-OG
-11	##의	O	O	O, B-CV, I-CV, B-LC, I-EV
-12	##장	O	O	O, I-CV, B-CV, B-LC, I-LC
-13	##국	O	O	O, I-CV, I-LC, B-LC, B-CV
-14	##인	O	O	O, B-LC, I-CV, B-PS, I-LC
-15	체코	B-LC	B-LC	B-LC, O, B-OG, I-LC, B-AF
-16	당국자	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-AF
-17	##와	O	O	O, I-CV, I-OG, B-CV, B-OG
-18	집행	B-OG	B-OG	B-OG, O, B-CV, B-EV, I-OG
-19	##위	I-OG	I-OG	I-OG, O, I-CV, I-EV, I-AF
-20	고위	B-CV	B-CV	B-CV, O, I-CV, I-OG, B-OG
-21	##관계	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-QT
-22	##자	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-QT
-23	##로	O	O	O, I-CV, I-OG, B-CV, I-QT
-24	구성	O	O	O, B-CV, B-LC, B-TM, B-OG
-25	##된	O	O	O, B-OG, B-LC, I-OG, B-PS
-26	진상	O	O	O, B-OG, B-CV, I-OG, B-PS
-27	##조사	O	O	O, I-OG, I-CV, B-OG, B-CV
-28	##단	O	O	O, I-OG, I-CV, I-AF, B-OG
-29	##을	O	O	O, I-OG, B-LC, B-PS, I-CV
-30	우크라이나	B-LC	B-LC	B-LC, O, B-OG, B-AF, B-PS
-31	수도	B-LC	O	O, B-LC, I-LC, B-CV, I-DT
-32	키	B-LC	B-LC	B-LC, O, I-LC, B-PS, B-AF
-33	##예프	I-LC	I-LC	I-LC, O, B-LC, I-PS, I-AF
-34	##에	O	O	O, I-LC, B-LC, I-AF, I-PS
-35	파견	O	O	O, B-LC, B-OG, B-CV, B-TM
-36	##했	O	O	O, B-LC, B-OG, I-OG, B-PS
-37	##다	O	O	O, I-OG, B-LC, B-CV, B-OG
-38	.	O	O	O, B-LC, B-OG, B-PS, I-OG
-39	[SEP]	O	O	O, B-LC, B-OG, I-OG, B-CV
+	text	label	preds
+0	[CLS]	O	O
+1	유럽	B-OG	B-OG
+2	##연합	I-OG	I-OG
+3	(	O	O
+4	EU	B-OG	B-OG
+5	)	O	O
+6	집행	O	B-OG
+7	##위원회	O	I-OG
+8	##는	O	O
+9	5	B-DT	B-DT
+10	##일	I-DT	I-DT
+11	순회	O	O
+12	##의	O	O
+13	##장	O	O
+14	##국	O	O
+15	##인	O	O
+16	체코	B-LC	B-LC
+17	당국자	B-CV	B-CV
+18	##와	O	O
+19	집행	B-OG	B-OG
+20	##위	I-OG	I-OG
+21	고위	B-CV	B-CV
+22	##관계	I-CV	I-CV
+23	##자	I-CV	I-CV
+24	##로	O	O
+25	구성	O	O
+26	##된	O	O
+27	진상	O	O
+28	##조사	O	O
+29	##단	O	O
+30	##을	O	O
+31	우크라이나	B-LC	B-LC
+32	수도	B-LC	O
+33	키	B-LC	B-LC
+34	##예프	I-LC	I-LC
+35	##에	O	O
+36	파견	O	O
+37	##했	O	O
+38	##다	O	O
+39	.	O	O
+40	[SEP]	O	O

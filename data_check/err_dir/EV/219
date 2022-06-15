@@ -1,12 +1,44 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-EV, I-OG, I-AF, I-QT
-1	현장	O	O	O, B-LC, B-EV, I-EV, B-CV
-2	l	O	O	O, B-EV, B-LC, B-PS, I-EV
-3	‘	B-EV	O	O, B-EV, B-LC, I-EV, B-DT
-4	이	I-EV	B-EV	B-EV, B-LC, I-EV, O, B-OG
-5	살	I-EV	I-EV	I-EV, I-LC, I-OG, O, B-LC
-6	##로니	I-EV	I-EV	I-EV, I-LC, I-OG, O, I-AF
-7	’	I-EV	O	O, I-EV, I-OG, I-LC, B-EV
-8	가구	I-EV	O	O, B-EV, I-EV, B-LC, B-CV
-9	박람회	I-EV	O	O, I-EV, B-EV, I-OG, I-LC
-10	[SEP]	O	O	O, I-EV, B-LC, B-EV, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	연중	O	O
+2	관광객	B-CV	B-CV
+3	##들	O	O
+4	##을	O	O
+5	위한	O	O
+6	산천	B-EV	B-AM
+7	##어	I-EV	I-AM
+8	맨	I-EV	O
+9	##손	I-EV	O
+10	##잡	I-EV	O
+11	##기	I-EV	O
+12	##를	O	O
+13	비롯	O	O
+14	공연장	O	O
+15	,	O	O
+16	물놀이	O	O
+17	시설	O	O
+18	,	O	O
+19	마을	O	O
+20	##에	O	O
+21	##서	O	O
+22	운영	O	O
+23	##하	O	O
+24	##는	O	O
+25	산천	B-CV	B-AM
+26	##어	I-CV	I-AM
+27	회	I-CV	I-CV
+28	등	O	O
+29	산천	B-LC	B-AM
+30	##어	I-LC	I-AM
+31	마을	I-LC	O
+32	##에	O	O
+33	걸맞	O	O
+34	##은	O	O
+35	것	O	O
+36	##들이	O	O
+37	망라	O	O
+38	돼	O	O
+39	있	O	O
+40	##다	O	O
+41	.	O	O
+42	[SEP]	O	O

@@ -1,27 +1,66 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-AF
-1	뉴질랜드	B-LC	B-LC	B-LC, O, B-OG, B-AF, I-LC
-2	##에서	O	O	O, I-LC, I-AF, I-OG, B-CV
-3	만난	O	O	O, B-CV, B-PS, B-OG, B-LC
-4	70	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-EV
-5	##대	I-QT	I-QT	I-QT, O, I-EV, I-PS, I-DT
-6	농부	B-CV	B-CV	B-CV, O, I-QT, I-CV, B-OG
-7	에릭	B-PS	B-PS	B-PS, O, I-PS, B-OG, B-LC
-8	레이	I-PS	I-PS	I-PS, O, I-OG, B-PS, I-LC
-9	##는	O	O	O, I-PS, I-OG, B-CV, I-QT
-10	평생	O	O	O, B-LC, B-CV, B-QT, B-TM
-11	소	O	B-AM	B-AM, B-CV, O, B-PT, B-TM
-12	##젖	O	I-CV	I-CV, I-AM, O, I-PT, B-AM
-13	짜	O	O	O, I-CV, I-TM, I-PT, I-AM
-14	##는	O	O	O, I-CV, B-CV, I-TM, B-TM
-15	일	O	O	O, B-CV, B-TM, I-CV, B-QT
-16	##로	O	O	O, B-PS, I-QT, B-CV, B-QT
-17	여섯	B-QT	B-QT	B-QT, O, I-QT, B-PS, B-DT
-18	자녀	B-CV	I-QT	I-QT, B-CV, O, I-CV, B-QT
-19	##를	O	O	O, I-QT, I-CV, B-CV, I-EV
-20	출가	O	O	O, B-CV, B-TM, B-LC, B-QT
-21	##시	O	O	O, I-CV, B-PS, B-CV, B-QT
-22	##켰	O	O	O, B-PS, I-QT, B-CV, B-LC
-23	##다	O	O	O, B-CV, I-OG, I-QT, B-LC
-24	.	O	O	O, B-LC, B-PS, B-CV, B-OG
-25	[SEP]	O	O	O, B-CV, B-LC, B-PS, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	‘	O	O
+2	아름다운	B-AF	B-OG
+3	행	I-AF	I-OG
+4	##궁	I-AF	I-OG
+5	##길	I-AF	I-OG
+6	’	O	O
+7	의	O	O
+8	박영	B-PS	B-PS
+9	##환	I-PS	I-PS
+10	(	O	O
+11	52	B-QT	B-QT
+12	)	O	O
+13	회장	B-CV	B-CV
+14	##은	O	O
+15	“	O	O
+16	서울	B-LC	B-LC
+17	인사동	B-LC	B-LC
+18	##은	O	O
+19	중국	O	O
+20	##산	O	O
+21	공예품	O	O
+22	##들이	O	O
+23	가득	O	O
+24	##한	O	O
+25	반면	O	O
+26	이곳	O	O
+27	##은	O	O
+28	작가	B-CV	B-CV
+29	##들이	O	O
+30	직접	O	O
+31	생산	O	O
+32	##한	O	O
+33	작품	O	O
+34	##만	O	O
+35	##을	O	O
+36	내놓	O	O
+37	##고	O	O
+38	값	O	O
+39	##도	O	O
+40	싸	O	O
+41	##다	O	O
+42	”	O	O
+43	며	O	O
+44	“	O	O
+45	지금	O	O
+46	##은	O	O
+47	입주	O	O
+48	희망	O	O
+49	작가	O	B-CV
+50	##들이	O	O
+51	많	O	O
+52	##지만	O	O
+53	받아들일	O	O
+54	틈	O	O
+55	##이	O	O
+56	없	O	O
+57	##다	O	O
+58	”	O	O
+59	고	O	O
+60	말	O	O
+61	##했	O	O
+62	##다	O	O
+63	.	O	O
+64	[SEP]	O	O

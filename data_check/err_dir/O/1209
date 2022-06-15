@@ -1,46 +1,9 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	그	O	O	O, B-CV, B-OG, B-PS, B-TM
-2	##는	O	O	O, B-CV, B-PS, B-LC, I-EV
-3	또	O	O	O, B-CV, B-LC, B-OG, B-PS
-4	“	O	O	O, B-CV, B-LC, B-PS, B-OG
-5	(	O	O	O, B-PS, B-CV, B-LC, B-OG
-6	기존	O	O	O, B-CV, B-PS, B-LC, B-TM
-7	기능	B-CV	O	O, B-CV, B-PS, B-TM, I-CV
-8	##인	I-CV	O	O, B-PS, B-CV, B-LC, B-OG
-9	)	O	O	O, B-CV, B-PS, B-LC, B-OG
-10	행정	O	B-CV	B-CV, O, B-OG, B-TM, B-FD
-11	##심판	O	I-CV	I-CV, O, B-CV, I-OG, I-TM
-12	기능	O	O	O, I-CV, I-OG, I-EV, I-QT
-13	##은	O	O	O, B-PS, B-OG, B-CV, B-LC
-14	권익	O	B-OG	B-OG, O, B-EV, B-CV, B-AF
-15	##위	O	I-OG	I-OG, O, I-CV, I-EV, I-AF
-16	조직	O	O	O, I-OG, I-EV, I-CV, I-AF
-17	##과	O	O	O, B-CV, B-PS, I-OG, B-LC
-18	함께	O	O	O, B-CV, B-TM, B-LC, B-PS
-19	##하	O	O	O, B-PS, B-OG, B-CV, B-LC
-20	##긴	O	O	O, B-PS, B-CV, B-LC, B-OG
-21	어렵	O	O	O, B-CV, B-PS, B-OG, B-LC
-22	##지	O	O	O, B-PS, I-OG, B-LC, B-OG
-23	않	O	O	O, B-PS, I-OG, B-LC, B-OG
-24	##나	O	O	O, I-OG, B-PS, B-OG, B-LC
-25	생각	O	O	O, B-CV, B-PS, B-OG, B-TM
-26	##한다	O	O	O, B-PS, B-CV, B-OG, I-OG
-27	”	O	O	O, B-CV, B-PS, B-OG, I-OG
-28	며	O	O	O, B-OG, B-LC, B-CV, B-PS
-29	권익	O	B-OG	B-OG, O, B-EV, I-OG, B-AF
-30	##위	O	I-OG	I-OG, O, I-EV, I-CV, I-AF
-31	##가	O	O	O, I-OG, B-PS, I-EV, B-CV
-32	행정	O	B-CV	B-CV, O, B-TM, B-FD, B-OG
-33	##심판	O	I-CV	I-CV, O, B-CV, I-OG, I-TM
-34	기능	O	O	O, I-CV, I-TM, I-QT, I-EV
-35	##을	O	O	O, B-CV, I-CV, B-PS, B-TM
-36	내놓	O	O	O, B-CV, B-TM, B-PS, B-OG
-37	##겠다	O	O	O, B-CV, B-PS, B-OG, B-LC
-38	##는	O	O	O, B-CV, B-PS, B-OG, B-TM
-39	의지	O	O	O, B-CV, B-PS, B-LC, B-TM
-40	##를	O	O	O, B-CV, I-CV, I-OG, I-EV
-41	드러냈	O	O	O, B-CV, B-LC, B-OG, B-TM
-42	##다	O	O	O, B-CV, B-LC, B-OG, B-TM
-43	.	O	O	O, B-PS, B-CV, B-LC, B-OG
-44	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	어	O	O
+2	~	O	O
+3	교육	O	B-CV
+4	경비	B-CV	I-CV
+5	보조금	O	I-CV
+6	##이	O	O
+7	[SEP]	O	O

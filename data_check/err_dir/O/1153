@@ -1,35 +1,19 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, B-CV, I-OG, I-QT
-1	이	O	O	O, B-PS, B-DT, B-CV, B-OG
-2	무렵	O	O	O, I-DT, B-DT, B-PS, B-CV
-3	##부터	O	O	O, I-DT, B-PS, B-DT, B-LC
-4	가족	B-CV	B-CV	B-CV, O, B-OG, B-AF, B-TM
-5	##이나	O	O	O, I-CV, I-OG, I-AF, B-CV
-6	주변	O	O	O, B-CV, B-TM, B-LC, B-PS
-7	##에	O	O	O, B-CV, B-PS, B-TM, I-CV
-8	“	O	O	O, B-CV, B-LC, B-PS, B-TM
-9	일	O	O	O, B-TM, B-CV, B-PS, B-LC
-10	##이	O	O	O, B-PS, B-CV, I-AF, B-LC
-11	많	O	O	O, B-PS, B-CV, I-AF, B-TM
-12	##아	O	O	O, B-PS, I-AF, B-LC, B-CV
-13	##서	O	O	O, B-PS, I-AF, B-LC, B-TM
-14	죽	O	O	O, B-TM, B-CV, B-PS, B-LC
-15	##을	O	O	O, B-PS, B-CV, I-AF, B-AF
-16	만큼	O	O	O, B-PS, I-PS, I-AF, B-LC
-17	힘들	O	O	O, B-TM, B-CV, B-LC, B-PS
-18	##다	O	O	O, B-PS, I-AF, I-CV, I-TM
-19	”	O	O	O, B-CV, B-PS, B-LC, B-TM
-20	는	O	O	O, B-CV, B-PS, B-TM, B-QT
-21	말	O	O	O, B-TM, B-AM, B-CV, I-QT
-22	##을	O	O	O, B-CV, B-PS, B-TM, I-CV
-23	자주	O	O	O, B-CV, B-PS, B-TM, B-LC
-24	했	O	O	O, B-CV, B-LC, B-PS, B-TM
-25	##고	O	O	O, B-CV, I-CV, B-PS, B-TM
-26	,	O	O	O, B-CV, B-LC, B-TM, B-PS
-27	우울증	O	B-TM	B-TM, O, B-TR, B-CV, B-QT
-28	##세	O	O	O, I-TM, I-CV, I-TR, I-QT
-29	##도	O	O	O, I-TM, I-QT, I-CV, I-AF
-30	나타났	O	O	O, B-CV, B-LC, B-OG, B-TM
-31	##다	O	O	O, B-CV, I-CV, B-TM, B-LC
-32	.	O	O	O, B-CV, B-LC, B-PS, B-TM
-33	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	〈	O	O
+2	자화상	B-AF	B-AF
+3	〉	O	O
+4	은	O	O
+5	회화	O	B-FD
+6	작품	O	O
+7	##으로	O	O
+8	##는	O	O
+9	드물	O	O
+10	##게	O	O
+11	문화재	O	O
+12	##로	O	O
+13	지정	O	O
+14	##됐	O	O
+15	##다	O	O
+16	.	O	O
+17	[SEP]	O	O

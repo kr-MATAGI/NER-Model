@@ -1,41 +1,60 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-EV
-1	이번	O	O	O, B-CV, B-TM, B-LC, B-OG
-2	대회	O	O	O, B-CV, B-EV, I-EV, B-PS
-3	##는	O	O	O, B-CV, I-EV, B-PS, B-OG
-4	19	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-LC
-5	##일	I-DT	I-DT	I-DT, O, B-DT, I-PS, I-QT
-6	유럽	B-LC	B-LC	B-LC, O, B-OG, B-AF, I-LC
-7	##의	O	O	O, I-LC, I-AF, B-LC, I-OG
-8	남쪽	B-TM	B-TM	B-TM, O, B-LC, B-OG, B-CV
-9	끝	O	O	O, I-TM, B-AM, I-CV, B-TM
-10	##인	O	O	O, I-CV, B-PS, I-TM, B-CV
-11	이탈리아	B-LC	B-LC	B-LC, O, B-OG, B-AF, B-PS
-12	바리	B-LC	B-LC	B-LC, O, I-LC, B-AF, B-OG
-13	##를	O	O	O, I-LC, I-AF, I-OG, B-LC
-14	출발	O	O	O, B-CV, B-LC, I-AF, B-OG
-15	##해	O	O	O, B-LC, B-PS, B-OG, B-CV
-16	오스트리아	B-LC	B-LC	B-LC, B-OG, O, B-AF, B-PS
-17	,	O	O	O, I-LC, I-AF, I-OG, B-LC
-18	독일	B-LC	B-LC	B-LC, B-OG, O, B-AF, I-LC
-19	,	O	O	O, I-LC, I-AF, I-OG, B-LC
-20	덴마크	B-LC	B-LC	B-LC, B-OG, O, B-AF, I-LC
-21	,	O	O	O, I-LC, I-AF, I-OG, B-LC
-22	스웨덴	B-LC	B-LC	B-LC, B-OG, O, B-AF, I-LC
-23	,	O	O	O, I-LC, I-AF, I-OG, B-LC
-24	핀란드	B-LC	B-LC	B-LC, O, B-OG, I-LC, B-AF
-25	##를	O	O	O, I-LC, I-AF, I-OG, B-LC
-26	거쳐	O	O	O, B-CV, B-LC, B-OG, B-TM
-27	6	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-LC
-28	##월	I-DT	I-DT	I-DT, O, B-DT, I-PS, I-QT
-29	21	I-DT	I-DT	I-DT, B-DT, O, I-PS, I-QT
-30	##일	I-DT	I-DT	I-DT, O, B-DT, I-PS, I-QT
-31	노르웨이	B-LC	B-LC	B-LC, O, B-OG, I-DT, I-LC
-32	노르	O	B-LC	B-LC, O, I-LC, B-AF, B-OG
-33	##카	O	I-LC	I-LC, O, I-AF, B-LC, I-OG
-34	##프	O	I-LC	I-LC, O, I-AF, B-LC, I-PS
-35	##에	O	O	O, I-LC, I-AF, B-LC, I-OG
-36	도착	O	O	O, B-CV, B-LC, B-OG, I-AF
-37	##한다	O	O	O, B-CV, B-LC, B-OG, B-PS
-38	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-39	[SEP]	O	O	O, B-LC, B-CV, I-LC, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	심지어	O	O
+2	캐머런	B-PS	B-PS
+3	총리	B-CV	B-CV
+4	##는	O	O
+5	지난	B-DT	B-DT
+6	14	I-DT	I-DT
+7	##일	I-DT	I-DT
+8	‘	O	O
+9	전화	B-EV	B-EV
+10	도청	I-EV	I-EV
+11	사건	I-EV	I-EV
+12	’	O	O
+13	을	O	O
+14	조사	O	O
+15	##중	O	O
+16	##인	O	O
+17	‘	O	O
+18	레비	B-OG	B-OG
+19	##슨	I-OG	I-OG
+20	조사	I-OG	I-OG
+21	##위원회	I-OG	I-OG
+22	’	O	O
+23	에	O	O
+24	나와	O	O
+25	세간	O	O
+26	##의	O	O
+27	의혹	O	O
+28	##을	O	O
+29	받	O	O
+30	##는	O	O
+31	루	B-PS	B-PS
+32	##퍼트	I-PS	I-PS
+33	머	I-PS	I-PS
+34	##독	I-PS	I-PS
+35	##과	O	O
+36	##의	O	O
+37	친분	O	O
+38	##과	O	O
+39	머	B-PS	B-PS
+40	##독	I-PS	I-PS
+41	##의	O	O
+42	비스	B-OG	B-OG
+43	##카이	I-OG	I-OG
+44	##비	I-OG	I-OG
+45	(	O	O
+46	BS	O	B-OG
+47	##ky	O	I-OG
+48	##B	O	I-OG
+49	)	O	O
+50	인수	O	O
+51	##에	O	O
+52	대해	O	O
+53	직접	O	O
+54	답변	O	O
+55	##했	O	O
+56	##다	O	O
+57	.	O	O
+58	[SEP]	O	O

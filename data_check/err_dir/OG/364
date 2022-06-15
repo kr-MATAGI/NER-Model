@@ -1,29 +1,79 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	심판	B-OG	O	O, B-CV, B-OG, B-PS, B-EV
-2	##원	I-OG	I-CV	I-CV, O, I-OG, B-CV, I-QT
-3	##은	O	O	O, I-OG, I-CV, I-QT, I-EV
-4	그러나	O	O	O, B-CV, B-OG, B-PS, B-QT
-5	조경	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-6	##태	I-PS	I-PS	I-PS, O, I-OG, B-PS, I-LC
-7	의원	B-CV	B-CV	B-CV, O, I-PS, I-CV, B-TM
-8	##에	O	O	O, I-CV, B-CV, I-EV, I-QT
-9	대해선	O	O	O, B-CV, B-QT, B-TM, B-LC
-10	위원	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-QT
-11	전원	O	O	O, B-QT, B-CV, I-CV, B-PS
-12	의견	O	O	O, I-QT, B-QT, B-PS, B-CV
-13	##으로	O	O	O, I-QT, B-CV, B-PS, B-OG
-14	""""	O	O	O, B-CV, B-LC, B-TM, B-PS
-15	징계	O	O	O, B-CV, B-PS, B-TM, B-QT
-16	##할	O	O	O, B-PS, B-CV, B-OG, B-LC
-17	필요	O	O	O, B-CV, B-OG, B-PS, B-TM
-18	##가	O	O	O, B-PS, B-OG, B-CV, B-LC
-19	있	O	O	O, B-CV, B-PS, B-OG, I-OG
-20	##다	O	O	O, B-CV, B-OG, B-PS, I-OG
-21	""""	O	O	O, B-CV, B-TM, B-LC, B-OG
-22	고	O	O	O, B-CV, B-OG, B-QT, B-TM
-23	결론	O	O	O, B-CV, B-QT, B-OG, B-TM
-24	##냈	O	O	O, B-CV, B-OG, B-TM, B-QT
-25	##다	O	O	O, B-CV, B-OG, I-OG, B-TM
-26	.	O	O	O, B-CV, B-OG, B-PS, B-LC
-27	[SEP]	O	O	O, B-CV, B-OG, B-LC, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	이에	O	O
+2	송	B-PS	B-PS
+3	장관	B-CV	B-CV
+4	##은	O	O
+5	“	O	O
+6	(	O	O
+7	북한	B-OG	B-LC
+8	미사일	B-AF	B-AF
+9	도발	O	O
+10	##의	O	O
+11	)	O	O
+12	진행	O	O
+13	상황	O	O
+14	##을	O	O
+15	다	O	O
+16	알고	O	O
+17	있	O	O
+18	##었	O	O
+19	##고	O	O
+20	대통령	B-CV	B-CV
+21	##에	O	O
+22	##게	O	O
+23	##도	O	O
+24	26	B-DT	B-DT
+25	,	I-DT	I-DT
+26	27	I-DT	I-DT
+27	##일	I-DT	I-DT
+28	보고	O	O
+29	##했	O	O
+30	##다	O	O
+31	”	O	O
+32	라며	O	O
+33	“	O	O
+34	환경부	B-OG	B-OG
+35	##와	O	O
+36	약	B-DT	B-DT
+37	2	I-DT	I-DT
+38	##주	I-DT	I-DT
+39	전	O	I-DT
+40	##에	O	O
+41	(	O	O
+42	일반	O	O
+43	환경영향평가	O	O
+44	실시	O	O
+45	계획	O	O
+46	##을	O	O
+47	)	O	O
+48	발표	O	O
+49	##하	O	O
+50	##기	O	O
+51	##로	O	O
+52	했	O	O
+53	##는데	O	O
+54	환경	O	O
+55	##단체	O	O
+56	##들이	O	O
+57	참여	O	O
+58	##를	O	O
+59	안	O	O
+60	한다고	O	O
+61	해서	O	O
+62	(	O	O
+63	발표	O	O
+64	##를	O	O
+65	)	O	O
+66	지연	O	O
+67	##시	O	O
+68	##킨	O	O
+69	것	O	O
+70	”	O	O
+71	이라	O	O
+72	##고	O	O
+73	설명	O	O
+74	##했	O	O
+75	##다	O	O
+76	.	O	O
+77	[SEP]	O	O

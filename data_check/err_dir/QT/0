@@ -1,31 +1,55 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	‘	O	O	O, B-OG, B-CV, B-LC, B-DT
-2	공교육	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-AF
-3	##정	I-CV	I-CV	I-CV, O, I-OG, B-CV, I-AF
-4	##상	I-CV	I-CV	I-CV, O, I-OG, B-CV, I-AF
-5	##화	I-CV	I-CV	I-CV, O, I-OG, B-CV, I-AF
-6	촉진	I-CV	I-CV	I-CV, O, I-OG, B-CV, I-AF
-7	및	I-CV	I-CV	I-CV, O, I-OG, B-CV, I-AF
-8	선행	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-AF
-9	##교육	I-CV	I-CV	I-CV, O, I-OG, B-CV, I-AF
-10	규제	I-CV	I-CV	I-CV, O, I-OG, B-CV, I-AF
-11	##에	I-CV	I-CV	I-CV, O, I-OG, B-CV, I-AF
-12	관한	I-CV	I-CV	I-CV, O, I-OG, B-CV, I-AF
-13	특별법	I-CV	I-CV	I-CV, O, I-OG, B-CV, I-AF
-14	’	O	O	O, I-CV, I-OG, I-AF, I-DT
-15	은	O	O	O, B-PS, B-OG, B-LC, B-CV
-16	초등	B-QT	O	O, B-QT, B-CV, B-OG, B-DT
-17	3	I-QT	B-QT	B-QT, I-QT, O, B-DT, I-DT
-18	##학년	I-QT	I-QT	I-QT, O, I-DT, B-QT, I-CV
-19	##부터	O	I-QT	I-QT, O, I-DT, I-OG, B-QT
-20	영어	B-CV	B-CV	B-CV, O, B-AF, B-OG, I-QT
-21	##를	O	O	O, I-CV, I-AF, B-CV, I-QT
-22	배우	O	O	O, B-CV, B-LC, B-TM, B-PS
-23	##도록	O	O	O, B-CV, B-LC, B-PS, B-TM
-24	규정	O	O	O, B-CV, B-LC, B-PS, B-TM
-25	##하고	O	O	O, B-PS, B-LC, B-CV, I-CV
-26	있	O	O	O, B-CV, B-LC, B-PS, B-OG
-27	##다	O	O	O, B-CV, B-LC, B-TM, B-PS
-28	.	O	O	O, B-LC, B-OG, B-PS, B-CV
-29	[SEP]	O	O	O, B-LC, B-CV, B-OG, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	미국	B-LC	B-LC
+2	공화	B-OG	B-OG
+3	##당	I-OG	I-OG
+4	전당	B-EV	B-EV
+5	##대	I-EV	I-EV
+6	##회	I-EV	I-EV
+7	(	O	O
+8	전대	O	O
+9	)	O	O
+10	를	O	O
+11	하루	B-DT	B-DT
+12	앞둔	O	O
+13	17	B-DT	B-DT
+14	##일	I-DT	I-DT
+15	,	O	O
+16	루이지애나	B-LC	B-LC
+17	##주	I-LC	I-LC
+18	배	B-LC	B-LC
+19	##턴	I-LC	I-LC
+20	루	I-LC	I-LC
+21	##지	I-LC	I-LC
+22	##에	O	O
+23	##서	O	O
+24	벌어진	O	O
+25	경찰관	B-CV	B-EV
+26	3	B-QT	I-EV
+27	##명	I-QT	I-EV
+28	피격	O	I-EV
+29	사건	O	I-EV
+30	##은	O	O
+31	‘	O	O
+32	총기	O	B-AF
+33	’	O	O
+34	와	O	O
+35	‘	O	O
+36	폭력	O	O
+37	’	O	O
+38	에	O	O
+39	가뜩이나	O	O
+40	예민	O	O
+41	##해	O	O
+42	있	O	O
+43	##던	O	O
+44	클리블랜드	B-LC	B-LC
+45	##를	O	O
+46	바짝	O	O
+47	얼어붙	O	O
+48	##게	O	O
+49	만들	O	O
+50	##었	O	O
+51	##다	O	O
+52	.	O	O
+53	[SEP]	O	O

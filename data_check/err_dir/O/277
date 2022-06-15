@@ -1,37 +1,12 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	그래서	O	O	O, B-CV, B-OG, B-LC, B-TM
-2	이거	O	O	O, B-CV, B-LC, B-PS, B-OG
-3	##를	O	O	O, B-PS, B-CV, B-LC, B-OG
-4	경부	O	B-TR	B-TR, O, B-TM, B-AM, B-CV
-5	압박	O	I-TR	I-TR, O, I-TM, B-TR, I-CV
-6	##이	O	O	O, I-TR, I-CV, B-PS, B-CV
-7	##라는	O	O	O, B-CV, B-PS, B-LC, B-OG
-8	건	O	O	O, B-LC, B-CV, B-PS, B-OG
-9	보통	O	O	O, B-CV, B-OG, B-PS, B-LC
-10	인제	O	O	O, B-CV, B-OG, B-LC, B-TM
-11	~	O	O	O, B-CV, B-LC, B-PS, I-CV
-12	뭐	O	O	O, B-CV, B-OG, B-TM, B-PS
-13	~	O	O	O, B-CV, B-LC, B-PS, I-CV
-14	손	B-AM	B-AM	B-AM, O, B-PS, B-TR, B-CV
-15	##이나	O	O	O, I-CV, I-AF, I-DT, I-QT
-16	아니면	O	O	O, B-CV, B-OG, B-PS, B-LC
-17	이런	O	O	O, B-CV, B-TM, B-LC, B-PS
-18	##데	O	O	O, B-PS, B-LC, B-CV, B-AM
-19	목	B-AM	B-AM	B-AM, O, B-PS, B-TM, B-CV
-20	##을	O	O	O, B-CV, I-CV, B-PS, B-AM
-21	[UNK]	O	O	O, B-CV, B-PS, B-LC, B-AM
-22	졸라	O	O	O, B-CV, B-PS, B-LC, B-OG
-23	갖	O	O	O, B-CV, B-PS, B-OG, B-LC
-24	##고	O	O	O, B-PS, B-CV, B-LC, B-OG
-25	[UNK]	O	O	O, B-CV, B-PS, B-LC, B-OG
-26	하	O	O	O, B-CV, B-PS, B-OG, B-LC
-27	##는	O	O	O, B-CV, B-PS, B-OG, B-LC
-28	건데	O	O	O, B-CV, B-PS, B-LC, B-OG
-29	끈	O	O	O, B-AM, B-TM, B-CV, B-PS
-30	##이	O	O	O, B-PS, I-AF, B-CV, I-CV
-31	일단	O	O	O, B-CV, B-LC, B-TM, B-PS
-32	없	O	O	O, B-CV, I-AF, B-TM, B-PS
-33	##어	O	O	O, B-CV, B-OG, B-LC, B-TM
-34	.	O	O	O, B-CV, B-LC, B-PS, I-AF
-35	[SEP]	O	O	O, B-CV, B-LC, B-PS, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	흘러가	O	O
+2	##길	O	O
+3	바라	O	O
+4	##는	O	O
+5	게	O	O
+6	원래	O	O
+7	보수	O	B-TR
+8	##잖아요	O	O
+9	.	O	O
+10	[SEP]	O	O

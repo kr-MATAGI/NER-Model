@@ -1,53 +1,32 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-EV, B-CV, I-OG, I-CV
-1	2000	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-2	##년	I-DT	I-DT	I-DT, O, I-QT, B-DT, I-EV
-3	아트	B-AF	B-AF	B-AF, B-OG, B-EV, O, B-LC
-4	##선	I-AF	I-AF	I-AF, I-OG, O, I-EV, I-LC
-5	##재	I-AF	I-AF	I-AF, I-OG, O, I-EV, I-LC
-6	##센터	I-AF	I-AF	I-AF, I-OG, I-LC, O, I-EV
-7	##의	O	O	O, I-EV, I-AF, I-OG, I-PS
-8	개인전	O	O	O, B-EV, I-EV, B-CV, B-PS
-9	‘	O	O	O, I-EV, B-EV, B-PS, B-LC
-10	이	B-EV	B-EV	B-EV, O, B-AF, B-PS, I-EV
-11	유쾌	I-EV	I-EV	I-EV, I-AF, O, B-EV, I-PS
-12	##한	I-EV	I-EV	I-EV, I-AF, O, I-PS, I-OG
-13	씨	I-EV	I-EV	I-EV, I-AF, O, B-EV, I-PS
-14	##를	I-EV	I-EV	I-EV, I-AF, O, I-PS, I-TM
-15	보라	I-EV	I-EV	I-EV, I-AF, O, I-TM, I-PS
-16	’	O	O	O, I-EV, I-AF, I-CV, I-OG
-17	를	O	O	O, I-EV, B-PS, B-EV, B-CV
-18	통해	O	O	O, B-LC, B-PS, B-CV, B-OG
-19	미술	O	B-FD	B-FD, O, I-FD, B-OG, B-CV
-20	##판	O	O	O, I-FD, I-EV, I-OG, B-FD
-21	##에	O	O	O, B-PS, B-CV, B-LC, B-OG
-22	널리	O	O	O, B-CV, B-PS, B-LC, B-OG
-23	알려진	O	O	O, B-PS, B-CV, B-LC, B-OG
-24	그	O	O	O, B-PS, B-CV, B-FD, B-EV
-25	##는	O	O	O, B-PS, I-EV, B-LC, B-CV
-26	도깨비	O	O	O, B-AF, B-CV, B-FD, I-AF
-27	##와	O	O	O, I-AF, B-PS, I-PS, I-OG
-28	무신	O	O	O, B-AF, B-CV, B-FD, I-AF
-29	##도	O	O	O, I-AF, I-CV, I-FD, I-OG
-30	등	O	O	O, I-AF, B-PS, B-LC, B-CV
-31	##을	O	O	O, B-PS, B-CV, B-LC, B-OG
-32	우르르	O	O	O, B-QT, B-LC, B-PS, B-CV
-33	쏟아	O	O	O, B-LC, B-PS, B-CV, B-EV
-34	##낸	O	O	O, B-LC, B-EV, B-PS, I-EV
-35	이번	O	O	O, B-EV, I-EV, B-PS, B-LC
-36	전시	O	O	O, B-EV, I-EV, B-CV, B-PS
-37	##에서	O	O	O, I-EV, B-PS, B-CV, B-LC
-38	##도	O	O	O, B-PS, B-LC, B-CV, B-OG
-39	녹	O	O	O, B-PS, B-CV, B-LC, B-OG
-40	##슬	O	O	O, B-PS, B-LC, B-CV, I-PS
-41	##지	O	O	O, B-PS, B-LC, I-PS, B-CV
-42	않	O	O	O, B-PS, B-LC, B-CV, B-OG
-43	##은	O	O	O, B-PS, B-LC, B-OG, B-CV
-44	노장	O	O	O, B-CV, B-FD, B-PS, B-OG
-45	##의	O	O	O, B-PS, I-CV, B-LC, B-CV
-46	현실	O	O	O, B-FD, B-CV, B-LC, B-PS
-47	감각	O	O	O, B-CV, B-PS, B-FD, B-LC
-48	##을	O	O	O, B-CV, B-PS, B-OG, B-LC
-49	보여준다	O	O	O, B-CV, B-PS, B-EV, B-OG
-50	.	O	O	O, B-PS, B-LC, B-CV, I-EV
-51	[SEP]	O	O	O, B-CV, B-PS, B-LC, I-EV
+	text	label	preds
+0	[CLS]	O	O
+1	여수	B-LC	B-LC
+2	##서	O	O
+3	원장	B-CV	B-CV
+4	##이	O	O
+5	몰	O	O
+6	##던	O	O
+7	통학	O	O
+8	##차	B-AF	O
+9	…	O	O
+10	후진	O	O
+11	##하	O	O
+12	##다	O	O
+13	두	B-QT	B-QT
+14	##살	I-QT	I-QT
+15	##배기	O	I-QT
+16	치	O	B-CV
+17	##어	O	I-CV
+18	‘	O	O
+19	세	B-CV	B-CV
+20	##림	I-CV	I-CV
+21	##이	I-CV	I-CV
+22	##법	I-CV	I-CV
+23	’	O	O
+24	시행	O	O
+25	##뒤	O	O
+26	6	B-QT	B-QT
+27	##번	I-QT	I-QT
+28	##째	I-QT	I-QT
+29	사망	O	O
+30	[SEP]	O	O

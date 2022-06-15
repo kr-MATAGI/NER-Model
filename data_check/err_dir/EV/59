@@ -1,63 +1,36 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-EV, I-CV
-1	월스트리트	B-OG	B-OG	B-OG, O, B-AF, B-LC, I-OG
-2	##저	I-OG	I-OG	I-OG, O, B-OG, I-AF, I-EV
-3	##널	I-OG	I-OG	I-OG, O, I-AF, B-OG, I-LC
-4	(	O	O	O, I-OG, I-AF, I-EV, B-CV
-5	WSJ	B-OG	B-OG	B-OG, B-AF, O, I-OG, B-LC
-6	)	O	O	O, I-OG, I-AF, I-EV, I-CV
-7	도	O	O	O, I-OG, B-CV, B-OG, B-LC
-8	이날	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-QT
-9	사설	O	O	O, B-CV, I-DT, B-FD, B-AF
-10	##에서	O	O	O, I-CV, I-EV, I-DT, I-AF
-11	""""	O	O	O, B-LC, B-CV, B-OG, B-PS
-12	2	B-EV	B-EV	B-EV, B-QT, B-AF, O, B-DT
-13	##차	I-EV	I-EV	I-EV, I-QT, O, I-AF, I-DT
-14	세계	I-EV	B-EV	B-EV, I-EV, O, I-QT, B-CV
-15	##대	I-EV	I-EV	I-EV, O, I-QT, B-EV, I-AF
-16	##전	I-EV	I-EV	I-EV, O, I-QT, I-AF, B-EV
-17	##을	O	O	O, I-EV, I-AF, I-QT, I-OG
-18	누가	O	O	O, B-PS, B-LC, B-OG, B-CV
-19	일으켰	O	O	O, B-CV, B-PS, B-OG, B-LC
-20	##는지	O	O	O, B-PS, B-LC, B-CV, B-OG
-21	##는	O	O	O, B-LC, B-PS, B-CV, B-OG
-22	'	O	O	O, B-LC, B-CV, B-PS, B-OG
-23	지구	B-LC	B-LC	B-LC, O, B-OG, B-TM, B-EV
-24	##가	O	O	O, B-PS, I-LC, I-AF, I-PS
-25	태양	B-LC	B-LC	B-LC, O, B-OG, B-TM, I-LC
-26	##을	O	O	O, I-LC, I-AF, B-PS, I-EV
-27	돈다	O	O	O, B-PS, B-CV, B-LC, B-AF
-28	'	O	O	O, B-CV, B-PS, B-LC, I-AF
-29	는	O	O	O, B-PS, B-CV, B-LC, B-AF
-30	것	O	O	O, B-CV, B-PS, B-LC, B-OG
-31	##과	O	O	O, B-CV, B-PS, B-LC, I-CV
-32	마찬가지	O	O	O, B-CV, B-LC, B-PS, B-FD
-33	##로	O	O	O, B-PS, B-LC, B-OG, I-CV
-34	이론	O	O	O, B-FD, B-CV, B-TR, B-LC
-35	##의	O	O	O, B-PS, B-LC, B-CV, I-PS
-36	여지	O	O	O, B-PS, B-LC, I-PS, B-FD
-37	##가	O	O	O, B-PS, B-LC, B-OG, I-PS
-38	없	O	O	O, B-PS, B-CV, B-LC, B-FD
-39	##는	O	O	O, B-PS, B-CV, B-LC, B-OG
-40	문제	O	O	O, B-CV, B-PS, B-FD, B-LC
-41	##인	O	O	O, B-PS, B-CV, B-OG, B-LC
-42	##데	O	O	O, B-LC, B-PS, B-OG, B-CV
-43	,	O	O	O, B-CV, B-LC, B-OG, B-PS
-44	유독	O	O	O, B-LC, B-PS, B-OG, B-CV
-45	아베	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-46	##만	O	O	O, I-PS, I-LC, I-QT, I-DT
-47	'	O	O	O, B-LC, B-CV, B-OG, B-PS
-48	새로운	O	O	O, B-PS, B-CV, B-LC, B-FD
-49	해석	O	O	O, B-CV, B-PS, B-FD, B-TR
-50	'	O	O	O, B-CV, B-LC, B-PS, I-CV
-51	을	O	O	O, B-CV, B-PS, B-LC, B-OG
-52	하고	O	O	O, B-CV, B-PS, B-LC, B-QT
-53	있	O	O	O, B-PS, B-CV, B-LC, B-OG
-54	##다	O	O	O, B-CV, B-LC, B-PS, B-OG
-55	""""	O	O	O, B-CV, B-LC, B-OG, B-TM
-56	고	O	O	O, B-CV, B-LC, B-OG, B-PS
-57	지적	O	O	O, B-CV, B-LC, B-TM, B-OG
-58	##했	O	O	O, B-CV, B-PS, B-LC, B-OG
-59	##다	O	O	O, B-CV, B-LC, B-OG, B-QT
-60	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-61	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	동아일보	B-OG	B-OG
+2	##가	O	O
+3	법원	B-OG	B-OG
+4	##과	O	O
+5	검찰	B-OG	B-OG
+6	,	O	O
+7	특검	B-OG	B-OG
+8	##의	O	O
+9	공식	O	O
+10	기록	O	O
+11	##을	O	O
+12	분석	O	O
+13	##한	O	O
+14	결과	O	O
+15	국정	B-EV	O
+16	농단	I-EV	O
+17	관련	O	O
+18	형사	O	O
+19	사건	O	O
+20	##에	O	O
+21	선임	O	O
+22	##계	O	O
+23	##를	O	O
+24	낸	O	O
+25	변호사	B-CV	B-CV
+26	##는	O	O
+27	23	B-DT	B-DT
+28	##일	I-DT	I-DT
+29	현재	O	O
+30	144	B-QT	B-QT
+31	##명	I-QT	I-QT
+32	##이다	O	O
+33	.	O	O
+34	[SEP]	O	O

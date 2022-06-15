@@ -1,8 +1,16 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, I-OG, B-CV, I-AF
-1	어	O	O	O, B-CV, B-TM, B-LC, B-OG
-2	~	O	O	O, I-CV, B-CV, B-LC, I-OG
-3	재벌	O	B-CV	B-CV, O, B-PS, B-AF, B-OG
-4	##총	B-CV	I-CV	I-CV, B-CV, O, I-PS, I-OG
-5	##수	I-CV	I-CV	I-CV, O, I-OG, B-CV, I-QT
-6	[SEP]	O	O	O, I-CV, I-OG, I-QT, B-CV
+	text	label	preds
+0	[CLS]	O	O
+1	너무	O	O
+2	우리	O	O
+3	##가	O	O
+4	느	O	O
+5	##그	O	O
+6	친정	O	B-CV
+7	##이	O	O
+8	그만큼	O	O
+9	잘	O	O
+10	살아	O	O
+11	##서	O	O
+12	우리	O	O
+13	##가	O	O
+14	[SEP]	O	O

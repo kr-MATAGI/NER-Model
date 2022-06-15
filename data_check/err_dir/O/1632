@@ -1,32 +1,56 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-QT
-1	광	B-AM	B-AM	B-AM, B-TM, B-PS, B-LC, O
-2	##릉	I-AM	I-AM	I-AM, I-TM, I-PS, I-AF, B-AM
-3	##왕	I-AM	I-AM	I-AM, I-TM, B-AM, O, I-AF
-4	##모	I-AM	I-AM	I-AM, I-TM, O, B-AM, I-TR
-5	##기	I-AM	I-AM	I-AM, I-TM, O, B-AM, I-PT
-6	사육	O	O	O, I-TM, I-AM, B-AM, B-TM
-7	기술	O	O	O, I-TM, B-CV, B-TM, I-CV
-8	첫	O	O	O, B-LC, B-TM, B-CV, B-OG
-9	개발	O	O	O, B-CV, B-TM, B-LC, B-OG
-10	…	O	O	O, B-LC, B-TM, B-CV, B-OG
-11	유	O	B-AM	B-AM, O, B-TM, B-CV, B-PS
-12	##충	O	I-AM	I-AM, O, I-TM, I-CV, B-AM
-13	때	O	O	O, I-AM, I-TM, I-DT, I-CV
-14	다른	O	B-AM	B-AM, O, B-TM, B-CV, B-PS
-15	##모	B-AM	I-AM	I-AM, B-AM, I-TM, O, I-CV
-16	##기	I-AM	I-AM	I-AM, I-TM, O, I-CV, B-AM
-17	유	O	B-AM	B-AM, O, I-AM, B-TM, B-CV
-18	##충	O	I-AM	I-AM, O, I-TM, I-CV, B-AM
-19	잡아먹	O	O	O, I-TM, I-AM, B-TM, B-AM
-20	##어	O	O	O, B-TM, I-TM, B-LC, B-PS
-21	전염병	B-TM	B-TM	B-TM, O, I-TM, B-CV, B-AM
-22	옮기	O	O	O, I-TM, B-CV, B-TM, I-QT
-23	##는	O	O	O, B-CV, B-TM, B-LC, B-OG
-24	흰	B-AM	B-AM	B-AM, B-TM, O, B-CV, B-TR
-25	##줄	I-AM	I-AM	I-AM, I-TM, O, B-AM, I-CV
-26	##숲	I-AM	I-AM	I-AM, I-TM, O, B-AM, I-CV
-27	##모	I-AM	I-AM	I-AM, I-TM, O, B-AM, I-CV
-28	##기	I-AM	I-AM	I-AM, I-TM, O, I-CV, I-PT
-29	퇴치	O	O	O, I-TM, I-AM, I-CV, B-CV
-30	[SEP]	O	O	O, B-AM, B-TM, I-TM, B-CV
+	text	label	preds
+0	[CLS]	O	O
+1	그	O	O
+2	##는	O	O
+3	이	O	O
+4	자리	O	O
+5	##에	O	O
+6	##서	O	O
+7	“	O	O
+8	학생	B-CV	B-CV
+9	##인	B-CV	I-CV
+10	##권	I-CV	I-CV
+11	##과	O	O
+12	체벌	O	O
+13	##을	O	O
+14	바라보	O	O
+15	##는	O	O
+16	근본	O	O
+17	##적	O	O
+18	##인	O	O
+19	인식	O	O
+20	##의	O	O
+21	전환	O	O
+22	##이	O	O
+23	필요	O	O
+24	##하	O	O
+25	##다	O	O
+26	”	O	O
+27	며	O	O
+28	“	O	O
+29	교육청	O	B-OG
+30	##과	O	O
+31	학교	O	O
+32	,	O	O
+33	교사	B-CV	B-CV
+34	모두	O	O
+35	##의	O	O
+36	노력	O	O
+37	##이	O	O
+38	미흡	O	O
+39	##한	O	O
+40	것	O	O
+41	##에	O	O
+42	대한	O	O
+43	성찰	O	O
+44	##이	O	O
+45	필요	O	O
+46	##하	O	O
+47	##다	O	O
+48	”	O	O
+49	고	O	O
+50	지적	O	O
+51	##했	O	O
+52	##다	O	O
+53	.	O	O
+54	[SEP]	O	O

@@ -1,41 +1,49 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-EV, I-CV
-1	교육	O	B-LC	B-LC, O, B-AF, B-OG, B-TM
-2	##동	O	I-LC	I-LC, O, I-AF, I-OG, B-LC
-3	##에	O	O	O, I-LC, I-AF, I-OG, I-QT
-4	##선	O	O	O, B-LC, B-CV, B-TM, B-OG
-5	'	O	O	O, B-LC, B-CV, B-OG, B-DT
-6	난	B-AF	B-EV	B-EV, B-AF, B-OG, B-TM, B-LC
-7	##중일	I-AF	I-EV	I-EV, I-AF, I-OG, I-TM, I-LC
-8	##기	I-AF	I-EV	I-EV, I-AF, I-OG, I-TM, I-LC
-9	##학교	I-AF	I-EV	I-EV, I-AF, I-OG, I-TM, O
-10	'	O	O	O, I-EV, I-AF, I-OG, I-TM
-11	,	O	O	O, B-LC, B-CV, B-OG, B-TM
-12	'	O	O	O, B-LC, B-CV, B-DT, B-OG
-13	유물	B-AF	B-EV	B-EV, B-AF, B-TM, O, B-OG
-14	##로	I-AF	I-EV	I-EV, I-AF, I-TM, O, I-OG
-15	보	I-AF	I-EV	I-EV, I-AF, I-TM, O, I-OG
-16	##는	I-AF	I-EV	I-EV, I-AF, I-TM, O, I-OG
-17	이순신	I-AF	I-EV	I-EV, I-AF, I-TM, I-PS, I-OG
-18	'	O	O	O, I-EV, I-AF, I-TM, I-OG
-19	,	O	O	O, B-LC, B-CV, B-OG, B-TM
-20	'	O	O	O, B-LC, B-CV, B-OG, B-DT
-21	충무	B-AF	B-EV	B-EV, B-AF, B-PS, B-OG, B-LC
-22	##공	I-AF	I-EV	I-EV, I-AF, I-PS, I-OG, I-LC
-23	찾아	I-AF	I-EV	I-EV, I-AF, I-TM, O, I-OG
-24	떠나	I-AF	I-EV	I-EV, I-AF, O, I-TM, I-OG
-25	##는	I-AF	I-EV	I-EV, I-AF, O, I-TM, I-OG
-26	여행	I-AF	I-EV	I-EV, I-AF, I-TM, O, I-OG
-27	'	O	O	O, I-EV, I-AF, I-TM, I-OG
-28	등	O	O	O, B-LC, B-CV, B-OG, B-TM
-29	다양	O	O	O, B-CV, B-TM, B-OG, B-LC
-30	##한	O	O	O, B-LC, B-OG, B-TM, B-CV
-31	교육	O	O	O, B-CV, B-TM, B-LC, B-EV
-32	##프로	O	O	O, I-EV, I-TM, I-CV, I-LC
-33	##그램	O	O	O, I-EV, I-TM, I-CV, I-LC
-34	##을	O	O	O, B-CV, B-OG, B-LC, B-TM
-35	진행할	O	O	O, B-CV, B-OG, B-TM, B-LC
-36	예정	O	O	O, B-OG, B-CV, B-LC, B-TM
-37	##이다	O	O	O, B-CV, B-OG, B-TM, I-OG
-38	.	O	O	O, B-LC, B-CV, B-TM, B-OG
-39	[SEP]	O	O	O, B-LC, B-CV, B-TM, I-EV
+	text	label	preds
+0	[CLS]	O	O
+1	이	O	O
+2	이야기	O	O
+3	##는	O	O
+4	지난	B-DT	B-DT
+5	2	I-DT	I-DT
+6	##일	I-DT	I-DT
+7	도쿄	B-LC	B-LC
+8	스미	B-LC	B-LC
+9	##다	I-LC	I-LC
+10	##구	I-LC	I-LC
+11	아라	B-AF	B-LC
+12	##카와	I-AF	I-LC
+13	##제	I-AF	O
+14	##방	I-AF	O
+15	##에	O	O
+16	##서	O	O
+17	시민	O	O
+18	##단체	O	O
+19	봉	O	O
+20	##선	O	O
+21	##화가	O	O
+22	연	O	O
+23	간	B-EV	B-EV
+24	##토	I-EV	I-EV
+25	##대	I-EV	I-EV
+26	##지	I-EV	I-EV
+27	##진	I-EV	I-EV
+28	조선인	I-EV	I-EV
+29	##학	I-EV	I-EV
+30	##살	I-EV	I-EV
+31	94	B-QT	B-QT
+32	##주	I-QT	I-QT
+33	##기	I-QT	I-QT
+34	추도	O	O
+35	##식	O	O
+36	##에	O	O
+37	##서	O	O
+38	소개	O	O
+39	##된	O	O
+40	신창	B-PS	B-PS
+41	##범	I-PS	I-PS
+42	##씨	O	O
+43	##의	O	O
+44	증언	O	O
+45	##이다	O	O
+46	.	O	O
+47	[SEP]	O	O

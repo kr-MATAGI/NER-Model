@@ -1,20 +1,51 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, I-OG, B-CV, I-EV
-1	6	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-2	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-3	오후	B-TI	B-TI	B-TI, O, I-TI, I-DT, B-EV
-4	하	O	O	O, B-CV, B-EV, B-TR, I-TI
-5	##관	O	O	O, I-EV, I-CV, I-TR, I-LC
-6	##의	O	O	O, I-EV, I-TR, I-CV, I-AF
-7	##례	O	O	O, I-EV, I-TR, I-CV, I-AF
-8	열	O	O	O, I-EV, B-CV, I-AF, I-CV
-9	##고	O	O	O, B-LC, B-CV, B-OG, B-PS
-10	5	B-EV	B-EV	B-EV, B-LC, B-AF, B-TM, B-QT
-11	·	I-EV	I-LC	I-LC, I-EV, I-AF, I-TM, I-QT
-12	18	I-EV	I-LC	I-LC, I-EV, I-AF, I-TM, I-QT
-13	옛	O	O	O, I-LC, I-AF, B-LC, I-EV
-14	##묘	O	O	O, I-LC, I-AF, B-LC, I-QT
-15	##지	O	O	O, I-LC, I-AF, B-LC, I-CV
-16	##에	O	O	O, I-LC, I-AF, B-CV, I-QT
-17	안장	O	O	O, B-CV, B-LC, B-TM, B-PS
-18	[SEP]	O	O	O, B-LC, B-CV, I-CV, I-LC
+	text	label	preds
+0	[CLS]	O	O
+1	일부	O	O
+2	검사	O	O
+3	업체	O	O
+4	##는	O	O
+5	홈페이지	O	O
+6	##에	O	O
+7	얼음	B-EV	B-TM
+8	##정	I-EV	I-TM
+9	##수기	I-EV	I-TM
+10	사건	I-EV	O
+11	##을	O	O
+12	알리	O	O
+13	##는	O	O
+14	팝업	O	O
+15	##창	O	O
+16	##을	O	O
+17	띄	O	O
+18	##운	O	O
+19	채	O	O
+20	손님	B-CV	B-CV
+21	##을	O	O
+22	모으	O	O
+23	##거나	O	O
+24	‘	O	O
+25	코웨이	B-OG	B-OG
+26	피해자	I-OG	B-CV
+27	모임	I-OG	O
+28	’	O	O
+29	카페	O	O
+30	회원	B-CV	B-CV
+31	##이	O	O
+32	##라고	O	O
+33	밝히	O	O
+34	##면	O	O
+35	할인	O	O
+36	##가	O	O
+37	##를	O	O
+38	적용	O	O
+39	##해	O	O
+40	##주	O	O
+41	##고	O	O
+42	있	O	O
+43	##는	O	O
+44	것	O	O
+45	##으로	O	O
+46	전해졌	O	O
+47	##다	O	O
+48	.	O	O
+49	[SEP]	O	O

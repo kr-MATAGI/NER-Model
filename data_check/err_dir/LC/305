@@ -1,42 +1,23 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	경북	B-LC	B-OG	B-OG, B-LC, O, B-PS, B-AF
-2	##도	I-LC	I-OG	I-OG, I-LC, B-OG, O, I-PS
-3	##와	O	O	O, I-OG, I-LC, B-OG, I-AF
-4	대구시	B-LC	B-OG	B-OG, B-LC, O, I-OG, B-AF
-5	,	O	O	O, I-OG, I-LC, B-OG, I-AF
-6	포항시	B-LC	B-OG	B-OG, B-LC, I-OG, O, B-AF
-7	등	O	O	O, I-OG, I-LC, B-OG, B-CV
-8	##이	O	O	O, B-PS, B-OG, B-LC, B-CV
-9	1	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-QT
-10	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-OG
-11	생활	O	O	O, I-DT, B-LC, B-CV, I-EV
-12	##권	O	O	O, I-LC, B-LC, I-CV, B-PS
-13	##인	O	O	O, B-LC, B-PS, I-LC, B-CV
-14	후쿠오카	B-LC	B-LC	B-LC, O, B-OG, B-AF, B-PS
-15	##∼	O	O	O, I-LC, B-LC, I-DT, I-PS
-16	##부산	B-LC	B-LC	B-LC, O, I-LC, B-OG, B-AF
-17	(	O	O	O, I-LC, B-LC, I-AF, I-OG
-18	208	B-QT	B-QT	B-QT, O, I-QT, B-LC, B-DT
-19	##k	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-20	##m	I-QT	I-QT	I-QT, O, I-LC, I-PS, I-OG
-21	)	O	O	O, I-QT, B-LC, I-OG, I-LC
-22	을	O	O	O, B-LC, B-PS, B-CV, B-AF
-23	오가	O	O	O, B-CV, B-LC, B-AF, B-PS
-24	##는	O	O	O, B-PS, B-AF, B-LC, B-CV
-25	일본인	B-CV	B-CV	B-CV, O, B-EV, B-TM, B-LC
-26	관광객	B-CV	B-CV	B-CV, I-CV, O, B-TM, I-EV
-27	##을	O	O	O, I-CV, B-CV, I-EV, I-AF
-28	유치	O	O	O, B-CV, B-OG, B-TM, B-LC
-29	##하기	O	O	O, B-LC, B-PS, B-CV, B-OG
-30	위해	O	O	O, B-LC, B-OG, B-PS, B-CV
-31	적극	O	O	O, B-LC, B-CV, B-TM, B-OG
-32	##적인	O	O	O, B-LC, B-TM, B-OG, I-LC
-33	홍보	O	O	O, B-CV, B-LC, B-TM, B-OG
-34	##에	O	O	O, B-CV, B-LC, B-OG, B-PS
-35	나서	O	O	O, B-LC, B-CV, B-OG, B-PS
-36	##고	O	O	O, B-LC, B-OG, B-PS, B-CV
-37	있	O	O	O, B-LC, B-CV, B-OG, I-OG
-38	##다	O	O	O, B-CV, B-LC, B-OG, I-OG
-39	.	O	O	O, B-LC, B-OG, B-CV, B-PS
-40	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	삼	B-DT	B-DT
+2	##일	I-DT	I-DT
+3	##운동	I-DT	I-DT
+4	때	I-DT	I-DT
+5	충청도	B-LC	B-LC
+6	##에	O	O
+7	##서는	O	O
+8	아니	O	O
+9	조선	B-DT	B-LC
+10	##이	O	O
+11	일본	B-LC	B-OG
+12	##한	O	O
+13	##테	O	O
+14	먹	O	O
+15	##혔	O	O
+16	##단	O	O
+17	말	O	O
+18	##이	O	O
+19	##여	O	O
+20	?	O	O
+21	[SEP]	O	O

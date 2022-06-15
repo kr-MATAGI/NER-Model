@@ -1,34 +1,22 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-EV, B-CV, I-CV
-1	▶	O	O	O, B-LC, B-OG, B-PS, B-CV
-2	##우	B-OG	B-LC	B-LC, B-OG, O, B-PS, I-OG
-3	##크라이나	I-OG	I-LC	I-LC, I-OG, B-LC, O, B-OG
-4	##와	O	O	O, I-OG, I-LC, B-CV, B-LC
-5	기술	O	O	O, B-LC, B-CV, B-OG, B-TM
-6	협력	O	O	O, B-CV, B-LC, B-OG, B-PS
-7	##을	O	O	O, B-CV, I-OG, B-LC, B-OG
-8	하	O	O	O, B-LC, B-OG, B-CV, B-AF
-9	##며	O	O	O, B-LC, B-AF, B-TM, B-OG
-10	우주	O	B-AF	B-AF, O, B-TM, I-AF, B-LC
-11	##발	O	I-AF	I-AF, O, B-AF, I-TM, I-LC
-12	##사	O	I-AF	I-AF, O, I-TM, B-AF, I-LC
-13	##체	O	I-AF	I-AF, O, I-TM, I-LC, I-OG
-14	##를	O	O	O, I-AF, I-TM, I-OG, I-EV
-15	개발	O	O	O, B-CV, B-LC, B-TM, B-OG
-16	##해	O	O	O, B-LC, B-PS, B-OG, B-CV
-17	##온	O	O	O, B-LC, B-PS, B-OG, B-TM
-18	브라질	B-OG	B-LC	B-LC, B-OG, O, B-PS, I-OG
-19	##은	O	O	O, I-OG, I-LC, B-OG, I-AF
-20	1997	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-LC
-21	##년	I-DT	I-DT	I-DT, O, I-QT, B-DT, I-PS
-22	##과	O	O	O, I-DT, B-CV, I-OG, I-AF
-23	1999	B-DT	B-DT	B-DT, I-DT, O, B-QT, B-LC
-24	##년	I-DT	I-DT	I-DT, O, I-QT, B-DT, I-PS
-25	로켓	B-AF	B-AF	B-AF, O, I-AF, B-TM, B-LC
-26	발사	O	O	O, I-AF, I-EV, B-CV, I-OG
-27	##에	O	O	O, I-AF, B-CV, B-LC, B-OG
-28	실패	O	O	O, B-CV, B-LC, B-OG, B-TM
-29	##했	O	O	O, B-LC, B-CV, B-OG, I-OG
-30	##다	O	O	O, B-CV, B-LC, I-OG, B-OG
-31	.	O	O	O, B-LC, B-OG, B-CV, B-AF
-32	[SEP]	O	O	O, B-LC, B-CV, B-OG, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	?	O	O
+2	홍	B-LC	B-LC
+3	##해	I-LC	I-LC
+4	휴양지	O	O
+5	피신	O	O
+6	##설	O	O
+7	확인	O	O
+8	안	O	O
+9	##돼	O	O
+10	국제	O	O
+11	##사회	O	O
+12	,	O	O
+13	下	O	B-OG
+14	野	O	I-OG
+15	직접	O	O
+16	##압	O	O
+17	##력	O	O
+18	없	O	O
+19	##어	O	O
+20	[SEP]	O	O

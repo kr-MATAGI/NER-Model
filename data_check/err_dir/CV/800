@@ -1,14 +1,20 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	완전히	O	O	O, B-LC, B-CV, B-DT, B-PS
-2	말리	O	O	O, B-LC, B-CV, B-OG, B-TM
-3	##지	O	O	O, B-CV, I-OG, B-LC, I-AF
-4	않	O	O	O, B-LC, B-CV, B-PS, B-OG
-5	##은	O	O	O, B-CV, B-LC, B-PS, B-OG
-6	건	B-CV	O	O, B-CV, B-AM, B-AF, B-TM
-7	##면	I-CV	O	O, I-CV, I-AM, I-AF, I-TM
-8	##이	O	O	O, I-CV, I-AF, B-PS, I-TM
-9	아닌	O	O	O, B-PS, I-AF, I-CV, B-CV
-10	거지	O	O	O, B-CV, B-LC, B-PS, B-OG
-11	##요	O	O	O, B-CV, I-CV, I-AF, I-OG
-12	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	가죽	B-AM	O
+2	구두	B-CV	O
+3	##를	O	O
+4	주	O	O
+5	##겠다	O	O
+6	##는	O	O
+7	일본인	B-CV	B-CV
+8	##에	O	O
+9	##게	O	O
+10	속아	O	O
+11	그녀	O	O
+12	##는	O	O
+13	기차	B-AF	B-AF
+14	##에	O	O
+15	올랐	O	O
+16	##다	O	O
+17	.	O	O
+18	[SEP]	O	O

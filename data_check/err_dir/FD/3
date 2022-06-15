@@ -1,12 +1,22 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	저	O	O	O, B-CV, B-OG, B-PS, B-FD
-2	##는	O	O	O, B-CV, B-PS, I-OG, B-FD
-3	아동	B-FD	O	O, B-FD, B-CV, B-TR, B-OG
-4	##가족	I-FD	O	O, I-FD, I-CV, B-CV, B-FD
-5	##을	O	O	O, I-CV, I-FD, I-OG, I-QT
-6	전공	O	O	O, B-FD, B-CV, B-PS, B-OG
-7	##했	O	O	O, B-PS, B-CV, I-CV, I-OG
-8	##구요	O	O	O, B-CV, B-PS, B-LC, I-OG
-9	.	O	O	O, B-CV, B-OG, B-LC, B-TM
-10	[SEP]	O	O	O, B-CV, B-FD, I-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	왜냐	O	O
+2	##하	O	O
+3	##믄	O	O
+4	이게	O	O
+5	뭐	O	O
+6	로맨틱	B-FD	B-FD
+7	코	I-FD	I-FD
+8	##메	I-FD	I-FD
+9	##디	I-FD	I-FD
+10	##라	O	O
+11	##든가	O	O
+12	아님	O	O
+13	멜로	B-FD	O
+14	##물	O	O
+15	이런	O	O
+16	것	O	O
+17	##이	O	O
+18	아니	O	O
+19	##라	O	O
+20	[SEP]	O	O

@@ -1,40 +1,43 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	일본	B-LC	B-LC	B-LC, B-OG, O, B-FD, B-AF
-2	방송	O	O	O, I-OG, B-CV, I-LC, B-OG
-3	##들	O	O	O, I-OG, I-CV, I-AF, I-LC
-4	##은	O	O	O, B-CV, B-LC, B-PS, B-OG
-5	그	O	O	O, B-CV, B-PS, B-OG, B-FD
-6	##의	O	O	O, B-CV, B-PS, B-LC, I-EV
-7	입국	O	O	O, B-CV, B-LC, B-TM, B-PS
-8	장면	O	O	O, B-CV, B-LC, B-PS, B-OG
-9	##을	O	O	O, B-LC, B-PS, B-CV, B-OG
-10	중계	O	O	O, B-CV, B-LC, B-TM, B-OG
-11	##하기	O	O	O, B-LC, B-CV, B-PS, B-OG
-12	위해	O	O	O, B-LC, B-CV, B-PS, B-OG
-13	공항	O	O	O, B-LC, I-LC, B-CV, B-AF
-14	##에서	O	O	O, B-LC, B-CV, I-LC, B-PS
-15	취재	O	O	O, B-LC, B-CV, B-TM, B-OG
-16	경쟁	O	O	O, B-LC, B-CV, B-TM, B-PS
-17	##을	O	O	O, B-CV, B-OG, B-LC, B-PS
-18	벌였	O	O	O, B-CV, B-LC, B-OG, B-PS
-19	##고	O	O	O, B-CV, B-PS, B-LC, B-OG
-20	,	O	O	O, B-CV, B-LC, B-PS, B-OG
-21	비운	O	O	O, B-CV, B-PS, B-FD, B-AF
-22	##의	O	O	O, I-CV, B-PS, B-CV, I-AF
-23	가족	B-CV	O	O, B-CV, I-CV, B-FD, B-TM
-24	##사	O	O	O, I-CV, I-FD, I-OG, I-TR
-25	##와	O	O	O, B-PS, I-CV, B-CV, B-LC
-26	옷차림	O	O	O, B-CV, B-LC, B-FD, B-TM
-27	등	O	O	O, B-CV, B-LC, B-PS, B-OG
-28	##을	O	O	O, B-CV, B-LC, B-PS, B-OG
-29	연일	O	O	O, B-CV, B-LC, B-PS, B-QT
-30	앞	O	O	O, B-TM, B-LC, B-CV, B-OG
-31	##다	O	O	O, B-LC, B-TM, B-CV, B-OG
-32	##퉈	O	O	O, B-LC, B-OG, B-TM, B-PS
-33	보도	O	O	O, B-CV, B-OG, B-LC, B-TM
-34	##하고	O	O	O, B-CV, B-LC, B-PS, B-OG
-35	있	O	O	O, B-CV, B-OG, B-LC, B-PS
-36	##다	O	O	O, B-CV, B-PS, I-OG, B-OG
-37	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-38	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	과거	O	O
+2	민주	O	O
+3	##화	O	O
+4	인사	B-CV	O
+5	##의	O	O
+6	피난처	O	O
+7	역할	O	O
+8	##을	O	O
+9	해온	O	O
+10	명동	B-AF	B-AF
+11	##성	I-AF	I-AF
+12	##당	I-AF	I-AF
+13	##은	O	O
+14	1990	B-DT	B-DT
+15	##년	I-DT	I-DT
+16	##대	I-DT	I-DT
+17	후반부	I-DT	I-DT
+18	##터	I-DT	I-DT
+19	농성	B-CV	B-CV
+20	##자	I-CV	I-CV
+21	퇴거	O	O
+22	(	O	O
+23	退	O	O
+24	去	O	O
+25	)	O	O
+26	를	O	O
+27	요구	O	O
+28	##하	O	O
+29	##고	O	O
+30	경찰	B-OG	B-OG
+31	##에	O	O
+32	시설	O	O
+33	##보호	O	O
+34	##를	O	O
+35	요청	O	O
+36	##하	O	O
+37	##고	O	O
+38	있	O	O
+39	##다	O	O
+40	.	O	O
+41	[SEP]	O	O

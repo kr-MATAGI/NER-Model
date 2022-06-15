@@ -1,36 +1,14 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-EV, I-QT, I-OG, I-CV
-1	한글	B-DT	B-DT	B-DT, O, B-EV, I-DT, B-LC
-2	##날	I-DT	I-DT	I-DT, O, I-EV, B-DT, I-CV
-3	서울	B-LC	B-LC	B-LC, O, B-AF, B-OG, I-LC
-4	광화문	B-LC	B-LC	B-LC, O, I-LC, B-AF, B-PS
-5	##광장	I-LC	I-LC	I-LC, O, I-AF, B-LC, I-PS
-6	##의	O	O	O, I-LC, I-EV, B-LC, I-AF
-7	세종	B-PS	B-PS	B-PS, B-EV, B-AF, O, B-LC
-8	##대왕	B-CV	I-EV	I-EV, I-PS, B-CV, I-AF, O
-9	동상	O	O	O, I-EV, B-CV, B-EV, I-AF
-10	제막	O	O	O, I-EV, B-EV, B-CV, I-AF
-11	##식	O	O	O, I-EV, B-EV, I-AF, I-CV
-12	##을	O	O	O, I-EV, I-AF, B-LC, B-PS
-13	하루	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-LC
-14	앞두	O	O	O, I-DT, I-EV, B-LC, B-EV
-15	##고	O	O	O, B-LC, B-PS, B-DT, B-EV
-16	세종문화회관	B-AF	B-AF	B-AF, B-OG, O, B-EV, B-LC
-17	앞	B-TM	B-TM	B-TM, O, I-TM, B-CV, I-AF
-18	계단	O	O	O, I-TM, B-TM, I-AF, B-LC
-19	특별	O	O	O, B-TM, I-TM, B-LC, B-CV
-20	무대	O	O	O, B-LC, I-LC, B-TM, I-TM
-21	##에서	O	O	O, B-LC, B-CV, B-DT, B-PS
-22	'	O	O	O, B-EV, B-LC, B-DT, B-CV
-23	한글	B-DT	B-EV	B-EV, O, B-DT, B-LC, I-EV
-24	##날	I-DT	I-EV	I-EV, O, I-DT, I-AF, I-LC
-25	기념	O	I-EV	I-EV, O, B-EV, I-AF, I-DT
-26	한글	O	I-EV	I-EV, O, B-EV, I-AF, B-CV
-27	낭독	O	I-EV	I-EV, O, I-AF, I-OG, I-CV
-28	##회	O	I-EV	I-EV, O, I-AF, I-OG, I-CV
-29	'	O	O	O, I-EV, I-DT, I-AF, I-OG
-30	가	O	O	O, I-EV, B-EV, B-LC, B-OG
-31	열렸	O	O	O, B-EV, I-EV, B-CV, B-LC
-32	##다	O	O	O, I-EV, B-EV, B-LC, B-CV
-33	.	O	O	O, B-LC, I-EV, B-EV, B-CV
-34	[SEP]	O	O	O, I-EV, B-LC, B-EV, B-CV
+	text	label	preds
+0	[CLS]	O	O
+1	근데	O	O
+2	사실	O	O
+3	##은	O	O
+4	그	O	O
+5	폭력	O	B-CV
+6	##가	B-CV	I-CV
+7	##해	I-CV	I-CV
+8	##자	I-CV	I-CV
+9	입장	O	O
+10	##에	O	O
+11	##서는	O	O
+12	[SEP]	O	O

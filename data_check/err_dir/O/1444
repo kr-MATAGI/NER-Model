@@ -1,15 +1,32 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-EV
-1	강원도	B-LC	B-LC	B-LC, B-OG, O, B-TM, B-AF
-2	##가	O	O	O, I-LC, I-OG, I-AF, I-PS
-3	특히	O	O	O, B-LC, B-CV, B-OG, B-TM
-4	날씨	O	O	O, B-LC, B-OG, B-TM, B-CV
-5	##가	O	O	O, B-PS, B-OG, B-LC, I-OG
-6	영동	B-LC	B-LC	B-LC, O, B-TM, B-OG, B-AF
-7	지방	O	I-LC	I-LC, O, I-TM, B-LC, I-OG
-8	##에	O	O	O, I-LC, I-OG, I-AF, I-EV
-9	비	O	O	O, B-LC, B-TM, B-CV, B-AF
-10	##가	O	O	O, I-AF, B-CV, B-PS, B-LC
-11	내렸	O	O	O, B-CV, B-OG, B-LC, I-AF
-12	##는데	O	O	O, B-CV, B-OG, B-LC, I-AF
-13	[SEP]	O	O	O, B-LC, B-CV, B-OG, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	일부	O	O
+2	언론	O	O
+3	“	O	O
+4	北	B-LC	B-LC
+5	당국자	B-CV	B-CV
+6	만나	O	O
+7	”	O	O
+8	…	O	O
+9	任	O	B-PS
+10	-	O	O
+11	靑	O	B-OG
+12	“	O	O
+13	사실	O	O
+14	아니	O	O
+15	##다	O	O
+16	”	O	O
+17	부인	O	O
+18	##일	O	B-OG
+19	##각	O	I-OG
+20	“	O	O
+21	물	O	O
+22	##밑	O	O
+23	##회	O	O
+24	##동	O	O
+25	전례	O	O
+26	##있	O	O
+27	##어	O	O
+28	의심	O	O
+29	”	O	O
+30	[SEP]	O	O

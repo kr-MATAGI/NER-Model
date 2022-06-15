@@ -1,37 +1,29 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	주말	B-DT	O	O, B-DT, B-CV, B-AF, B-EV
-2	##영	B-CV	B-CV	B-CV, O, B-FD, B-AF, B-EV
-3	##어	I-CV	O	O, I-CV, I-FD, I-AF, I-TM
-4	##교	O	O	O, I-AF, I-TM, I-CV, I-FD
-5	##실	O	O	O, I-TM, I-AF, I-OG, I-EV
-6	##과	O	O	O, B-PS, B-OG, B-LC, I-AF
-7	국영	O	B-FD	B-FD, O, B-CV, B-AF, B-EV
-8	##수	B-FD	I-FD	I-FD, O, B-FD, I-AF, I-CV
-9	수업	O	O	O, I-FD, I-AF, I-TM, I-EV
-10	,	O	O	O, B-CV, B-PS, I-AF, I-OG
-11	장학금	O	O	O, B-CV, B-TM, B-FD, B-OG
-12	지원	O	O	O, I-CV, I-TM, I-OG, B-TM
-13	등	O	O	O, B-PS, B-CV, B-TM, B-OG
-14	##이	B-PS	B-PS	B-PS, O, I-PS, B-CV, B-OG
-15	주요	O	O	O, B-CV, B-TM, B-PS, B-QT
-16	사업	O	O	O, B-CV, B-TM, I-TM, I-CV
-17	##인	O	B-PS	B-PS, O, I-PS, B-CV, B-QT
-18	##데	O	O	O, B-PS, I-PS, B-CV, B-QT
-19	,	O	O	O, B-PS, B-CV, B-OG, I-PS
-20	이	O	B-PS	B-PS, O, I-PS, B-OG, B-LC
-21	위원	B-CV	B-CV	B-CV, O, I-CV, I-PS, B-TM
-22	##의	O	O	O, B-PS, I-CV, I-PS, B-CV
-23	가족	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-OG
-24	전원	O	O	O, B-QT, B-PS, I-QT, I-CV
-25	##이	O	O	O, B-PS, I-QT, I-PS, B-QT
-26	'	O	O	O, B-PS, B-CV, I-PS, B-OG
-27	큰	B-OG	B-OG	B-OG, B-PS, O, B-CV, B-AF
-28	##샘	I-OG	I-OG	I-OG, O, I-PS, I-CV, I-AF
-29	'	O	O	O, I-OG, I-CV, I-PS, I-AF
-30	후원	O	O	O, B-CV, B-TM, B-PS, B-OG
-31	##에	O	O	O, B-PS, B-CV, I-CV, I-OG
-32	나섰	O	O	O, B-PS, B-CV, B-OG, B-LC
-33	##다	O	O	O, B-CV, I-OG, B-OG, I-CV
-34	.	O	O	O, B-PS, B-CV, B-LC, B-OG
-35	[SEP]	O	O	O, B-CV, B-PS, B-LC, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	그러	O	O
+2	##자	O	O
+3	북한	B-OG	B-OG
+4	##은	O	O
+5	인민군	B-CV	B-OG
+6	총사	B-CV	B-CV
+7	##령관	I-CV	I-CV
+8	명의	O	O
+9	##로	O	O
+10	유엔	B-OG	B-OG
+11	##군	I-OG	I-OG
+12	사령관	B-CV	B-CV
+13	##에	O	O
+14	##게	O	O
+15	사과	O	O
+16	메시지	O	O
+17	##를	O	O
+18	전달	O	O
+19	##하	O	O
+20	##며	O	O
+21	백기	O	O
+22	##를	O	O
+23	들	O	O
+24	##었	O	O
+25	##다	O	O
+26	.	O	O
+27	[SEP]	O	O

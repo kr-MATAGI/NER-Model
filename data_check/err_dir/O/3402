@@ -1,30 +1,11 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	수강	B-CV	B-CV	B-CV, O, B-TM, I-CV, B-PS
-2	##자	I-CV	I-CV	I-CV, O, B-CV, I-TM, I-QT
-3	가운데	O	O	O, B-TM, I-CV, B-QT, B-CV
-4	##는	O	O	O, B-CV, B-OG, I-CV, B-PS
-5	아카데미	O	O	O, B-CV, B-OG, B-AF, B-EV
-6	원장	B-CV	B-CV	B-CV, O, I-CV, B-PS, B-TM
-7	##보	O	O	O, I-CV, B-CV, I-OG, B-PS
-8	##다	O	O	O, B-CV, B-PS, B-TM, I-CV
-9	입사	O	O	O, B-CV, B-PS, B-OG, B-FD
-10	선배	B-CV	B-CV	B-CV, O, I-CV, B-PS, B-TM
-11	##인	O	O	O, I-CV, B-PS, B-CV, I-OG
-12	경력	O	O	O, B-CV, B-PS, B-OG, B-LC
-13	30	B-QT	B-QT	B-QT, O, B-DT, I-QT, B-PS
-14	##년	I-QT	I-QT	I-QT, O, B-QT, I-DT, I-LC
-15	##차	I-QT	I-QT	I-QT, O, I-DT, B-QT, I-PS
-16	##부터	I-QT	I-QT	I-QT, O, I-DT, I-TI, B-QT
-17	5	B-QT	B-QT	B-QT, I-QT, O, B-DT, I-DT
-18	~	I-QT	I-QT	I-QT, O, B-QT, I-DT, I-LC
-19	6	I-QT	I-QT	I-QT, B-QT, O, I-DT, B-DT
-20	##년	I-QT	I-QT	I-QT, O, B-QT, I-DT, I-LC
-21	##차	I-QT	I-QT	I-QT, O, I-DT, B-QT, I-TI
-22	##까	O	I-QT	I-QT, O, I-DT, B-QT, B-DT
-23	##지	O	I-QT	I-QT, O, I-DT, B-QT, I-TI
-24	섞여	O	O	O, I-QT, B-CV, B-PS, B-QT
-25	있	O	O	O, B-CV, B-TM, I-QT, B-PS
-26	##다	O	O	O, B-CV, I-QT, B-TM, I-CV
-27	.	O	O	O, B-CV, B-PS, B-TM, B-LC
-28	[SEP]	O	O	O, B-CV, B-TM, B-PS, B-QT
+	text	label	preds
+0	[CLS]	O	O
+1	왼	O	B-TM
+2	##편	O	I-TM
+3	##에	O	O
+4	##는	O	O
+5	소망	B-OG	B-OG
+6	##교회	I-OG	I-OG
+7	xx	O	O
+8	##다	O	O
+9	[SEP]	O	O

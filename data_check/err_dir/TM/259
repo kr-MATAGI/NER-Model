@@ -1,58 +1,43 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-EV, I-OG
-1	임대	O	O	O, B-AF, B-CV, B-TM, B-LC
-2	##주택	O	O	O, I-AF, I-LC, I-CV, I-TM
-3	##에	O	O	O, I-AF, B-PS, B-CV, I-CV
-4	어머니	B-CV	B-CV	B-CV, O, B-TM, I-CV, B-PS
-5	##와	O	O	O, I-CV, B-CV, B-PS, I-AF
-6	함께	O	O	O, B-CV, B-PS, B-QT, I-CV
-7	살	O	O	O, B-CV, B-PS, B-LC, B-QT
-8	##고	O	O	O, B-PS, B-CV, B-QT, I-PS
-9	있	O	O	O, B-PS, B-CV, B-QT, B-LC
-10	##는	O	O	O, B-PS, B-CV, B-QT, B-LC
-11	김	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-12	씨	O	O	O, I-PS, B-CV, I-OG, I-AF
-13	##는	O	O	O, B-CV, B-PS, I-CV, I-EV
-14	“	O	O	O, B-CV, B-PS, B-LC, B-TM
-15	형편	O	O	O, B-PS, B-CV, B-TM, B-LC
-16	##이	O	O	O, B-PS, B-CV, B-OG, B-LC
-17	빠듯	O	O	O, B-PS, B-CV, B-LC, B-TM
-18	##해	O	O	O, B-PS, B-LC, I-PS, B-CV
-19	배우	O	O	O, B-CV, B-PS, B-LC, B-TM
-20	##고	O	O	O, B-PS, B-CV, B-LC, B-OG
-21	싶	O	O	O, B-PS, B-CV, B-LC, B-TM
-22	##은	O	O	O, B-PS, B-CV, B-LC, B-OG
-23	게	O	O	O, B-PS, B-LC, B-OG, B-CV
-24	있	O	O	O, B-PS, B-CV, B-TM, B-LC
-25	##어도	O	O	O, B-PS, B-LC, B-CV, B-TM
-26	부담	O	O	O, B-CV, B-PS, B-TM, B-LC
-27	##스	O	O	O, B-PS, B-LC, B-CV, B-OG
-28	##러워	O	O	O, B-PS, B-LC, B-CV, B-QT
-29	시도	O	O	O, B-CV, B-TM, B-LC, B-QT
-30	##조	O	O	O, B-PS, B-CV, B-QT, I-AF
-31	##차	O	O	O, B-CV, B-PS, B-QT, B-LC
-32	못했	O	O	O, B-CV, B-PS, B-QT, B-TM
-33	##다	O	O	O, B-CV, B-PS, B-TM, I-CV
-34	”	O	O	O, B-CV, B-PS, B-TM, I-CV
-35	며	O	O	O, B-PS, B-CV, B-LC, B-TM
-36	“	O	O	O, B-CV, B-PS, B-LC, B-TM
-37	희망	B-TM	B-OG	B-OG, B-TM, O, B-AF, B-TR
-38	##플랜	I-TM	I-OG	I-OG, I-TM, O, I-AF, I-CV
-39	##이	O	O	O, I-OG, I-TM, I-AF, B-PS
-40	새로운	O	O	O, B-PS, B-CV, B-TM, B-LC
-41	창	O	O	O, B-TM, B-AF, B-PS, B-AM
-42	##을	O	O	O, I-AF, B-CV, B-PS, I-EV
-43	열	O	O	O, B-PS, B-CV, B-TM, B-AF
-44	수	O	O	O, B-PS, B-CV, B-TM, B-OG
-45	있	O	O	O, B-CV, B-PS, B-TM, B-OG
-46	##도록	O	O	O, B-PS, B-CV, B-TM, B-LC
-47	도와	O	O	O, B-CV, B-PS, B-TM, B-OG
-48	##줬	O	O	O, B-CV, B-PS, I-CV, I-QT
-49	##다	O	O	O, B-CV, I-CV, B-PS, I-EV
-50	”	O	O	O, B-CV, B-TM, I-CV, B-PS
-51	라고	O	O	O, B-CV, B-PS, B-QT, B-LC
-52	말	O	O	O, B-CV, I-CV, I-QT, I-EV
-53	##했	O	O	O, B-CV, B-PS, I-CV, I-EV
-54	##다	O	O	O, B-CV, B-PS, I-CV, B-TM
-55	.	O	O	O, B-PS, B-CV, B-LC, B-FD
-56	[SEP]	O	O	O, B-CV, B-PS, B-LC, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	결	B-TM	B-TM
+2	##막	I-TM	I-TM
+3	(	O	O
+4	눈	B-AM	B-AM
+5	흰	B-TM	B-AM
+6	##자	I-TM	I-AM
+7	##를	O	O
+8	덮	O	O
+9	##고	O	O
+10	있	O	O
+11	##는	O	O
+12	점막	B-TM	B-TM
+13	)	O	O
+14	의	O	O
+15	혈관	O	O
+16	##과	O	O
+17	조직	O	O
+18	##이	O	O
+19	각막	B-TM	B-TM
+20	중심부	O	O
+21	##까	O	O
+22	##지	O	O
+23	삼각형	B-TM	B-TM
+24	모양	I-TM	I-TM
+25	##으로	O	O
+26	자라나	O	O
+27	##는	O	O
+28	이	O	O
+29	질환	O	O
+30	##은	O	O
+31	심각	O	O
+32	##한	O	O
+33	시력	O	O
+34	저하	O	O
+35	##와	O	O
+36	사시	B-TM	B-TM
+37	##를	O	O
+38	유발	O	O
+39	##한다	O	O
+40	.	O	O
+41	[SEP]	O	O

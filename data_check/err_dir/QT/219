@@ -1,12 +1,27 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-QT
-1	25	B-QT	B-QT	B-QT, O, B-TM, I-QT, B-DT
-2	##승	I-QT	I-QT	I-QT, O, I-TM, B-QT, I-EV
-3	##10	I-QT	I-QT	I-QT, B-QT, O, I-TM, I-LC
-4	##무	I-QT	I-QT	I-QT, O, I-TM, I-LC, B-QT
-5	##9	I-QT	I-QT	I-QT, O, I-TM, I-LC, B-QT
-6	##패	I-QT	I-QT	I-QT, O, I-TM, I-LC, I-OG
-7	승점	O	O	O, B-TM, B-QT, I-QT, B-AF
-8	85	B-QT	I-QT	I-QT, B-QT, O, I-TM, I-LC
-9	.	O	O	O, I-QT, I-TM, I-OG, I-AF
-10	[SEP]	O	O	O, I-QT, B-CV, B-QT, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	사고	O	O
+2	##는	O	O
+3	지난	B-DT	B-DT
+4	3	I-DT	I-DT
+5	##일	I-DT	I-DT
+6	오후	B-TI	B-TI
+7	6	I-TI	I-TI
+8	##시	I-TI	I-TI
+9	38	I-TI	I-TI
+10	##분	I-TI	I-TI
+11	##쯤	I-TI	I-TI
+12	경남	B-LC	B-LC
+13	창원시	B-LC	B-LC
+14	마산	B-LC	B-LC
+15	##회원	I-LC	I-LC
+16	##구	I-LC	I-LC
+17	마산	B-LC	B-LC
+18	##역	I-LC	I-LC
+19	사거리	B-QT	I-AF
+20	##에	O	O
+21	##서	O	O
+22	일어났	O	O
+23	##다	O	O
+24	.	O	O
+25	[SEP]	O	O

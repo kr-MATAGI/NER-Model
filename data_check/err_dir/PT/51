@@ -1,20 +1,20 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-AF, I-EV, B-CV
-1	옥	B-MT	B-MT	B-MT, O, B-AF, B-TM, B-LC
-2	##세	I-MT	I-MT	I-MT, O, I-AF, B-MT, I-LC
-3	##탄	I-MT	I-MT	I-MT, O, I-AF, I-LC, I-TM
-4	고리	O	O	O, I-AF, I-MT, I-LC, I-TM
-5	##에	O	O	O, I-AF, I-TM, I-LC, I-EV
-6	##는	O	O	O, B-TM, B-OG, B-LC, B-CV
-7	키	B-MT	B-MT	B-MT, O, B-PT, B-AM, I-MT
-8	##토	I-MT	I-MT	I-MT, O, I-PT, I-AM, B-MT
-9	##산	I-MT	I-MT	I-MT, O, I-PT, I-AM, I-TM
-10	##이	O	O	O, I-MT, I-AF, B-PS, I-TM
-11	나뭇가지	B-PT	O	O, B-PT, B-AM, B-TM, B-MT
-12	##처럼	O	O	O, I-AF, I-TM, B-PS, I-QT
-13	달라붙	O	O	O, B-TM, B-LC, B-QT, B-PS
-14	##어	O	O	O, I-AF, B-PS, I-OG, I-QT
-15	있	O	O	O, B-CV, B-LC, I-AF, B-PS
-16	##다	O	O	O, B-CV, I-AF, B-LC, B-OG
-17	.	O	O	O, B-LC, B-PS, I-AF, B-AF
-18	[SEP]	O	O	O, I-AF, B-LC, B-CV, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	옥	B-MT	B-MT
+2	##세	I-MT	I-MT
+3	##탄	I-MT	I-MT
+4	고리	O	O
+5	##에	O	O
+6	##는	O	O
+7	키	B-MT	B-MT
+8	##토	I-MT	I-MT
+9	##산	I-MT	I-MT
+10	##이	O	O
+11	나뭇가지	B-PT	O
+12	##처럼	O	O
+13	달라붙	O	O
+14	##어	O	O
+15	있	O	O
+16	##다	O	O
+17	.	O	O
+18	[SEP]	O	O

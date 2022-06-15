@@ -1,20 +1,24 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	남편	B-CV	B-CV	B-CV, O, B-OG, I-CV, B-EV
-2	##이	O	O	O, I-CV, B-PS, B-CV, I-EV
-3	막	O	O	O, B-CV, B-PS, B-OG, B-TM
-4	성추	O	B-CV	B-CV, O, B-TM, B-EV, B-FD
-5	##문	O	O	O, I-CV, I-TM, I-EV, B-CV
-6	휘말	O	O	O, I-CV, B-CV, I-EV, I-OG
-7	##렸	O	O	O, B-CV, I-CV, B-LC, B-PS
-8	##다가	O	O	O, B-PS, B-CV, B-OG, B-LC
-9	다시	O	O	O, B-CV, B-PS, B-OG, B-LC
-10	검사장	O	B-CV	B-CV, O, B-EV, I-CV, B-OG
-11	복귀	O	O	O, I-CV, B-CV, I-EV, I-OG
-12	##했	O	O	O, B-CV, B-OG, B-LC, B-PS
-13	##다가	O	O	O, B-PS, B-LC, B-CV, B-OG
-14	스포	O	O	O, B-CV, B-TM, B-TR, B-FD
-15	##일러	O	O	O, I-CV, I-TR, I-TM, I-FD
-16	##겠	O	O	O, I-CV, I-TM, I-TR, I-QT
-17	##지만	O	O	O, B-PS, B-CV, B-OG, B-LC
-18	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	아웃	O	O
+2	##될	O	O
+3	수도	O	O
+4	있	O	O
+5	##는	O	O
+6	타이밍	O	O
+7	##이	O	O
+8	##었	O	O
+9	##지만	O	O
+10	과감	O	O
+11	##한	O	O
+12	태클	O	B-TM
+13	##로	O	O
+14	포수	B-CV	B-CV
+15	##의	O	O
+16	블로킹	O	B-TM
+17	##을	O	O
+18	무너	O	O
+19	##뜨렸	O	O
+20	##다	O	O
+21	.	O	O
+22	[SEP]	O	O

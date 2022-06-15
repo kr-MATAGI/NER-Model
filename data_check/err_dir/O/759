@@ -1,17 +1,27 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	복숭아	O	O	O, B-PT, B-LC, B-CV, B-AM
-2	##밭	O	O	O, I-PT, I-LC, B-PT, I-AF
-3	한가	O	B-TM	B-TM, O, B-QT, B-LC, I-TM
-4	##운데	O	I-TM	I-TM, O, I-QT, B-TM, I-LC
-5	##에	O	O	O, I-TM, I-QT, I-OG, I-AF
-6	초가	O	O	O, B-CV, B-AF, B-PT, B-QT
-7	##집	O	O	O, I-CV, I-AF, I-QT, I-LC
-8	##이	O	O	O, B-PS, I-AF, I-CV, B-CV
-9	한	B-QT	B-QT	B-QT, O, I-QT, B-TM, B-LC
-10	채	I-QT	I-QT	I-QT, O, I-LC, I-AF, I-OG
-11	있	O	O	O, I-QT, I-AF, B-CV, I-OG
-12	##었	O	O	O, B-CV, B-LC, I-QT, I-AF
-13	##다	O	O	O, B-CV, B-LC, I-AF, B-PS
-14	.	O	O	O, B-LC, B-CV, I-AF, B-PS
-15	[SEP]	O	O	O, B-CV, I-AF, B-LC, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	<	O	O
+2	엔	O	B-OG
+3	##에이	O	I-OG
+4	##치	O	I-OG
+5	##케이	O	I-OG
+6	>	O	O
+7	의	O	O
+8	설명	O	O
+9	##에	O	O
+10	석연	O	O
+11	##찮	O	O
+12	##은	O	O
+13	부분	O	O
+14	##이	O	O
+15	있	O	O
+16	##다	O	O
+17	”	O	O
+18	고	O	O
+19	27	B-DT	B-DT
+20	##일	I-DT	I-DT
+21	지적	O	O
+22	##했	O	O
+23	##다	O	O
+24	.	O	O
+25	[SEP]	O	O

@@ -1,59 +1,44 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-EV, I-CV
-1	중국	B-LC	B-LC	B-LC, B-OG, O, B-PS, B-AF
-2	##의	O	O	O, I-OG, B-OG, B-PS, B-CV
-3	대북	O	O	O, B-CV, B-LC, B-FD, B-OG
-4	##정책	O	O	O, I-CV, B-CV, I-LC, I-TR
-5	##을	O	O	O, I-CV, B-CV, B-PS, I-OG
-6	놓	O	O	O, B-PS, B-LC, B-CV, B-OG
-7	##고	O	O	O, B-PS, B-LC, B-OG, B-CV
-8	비주류	O	O	O, B-CV, B-PS, B-OG, B-TR
-9	##인	O	O	O, B-PS, I-PS, I-CV, B-CV
-10	자칭	B-PS	B-PS	B-PS, O, I-PS, B-LC, B-OG
-11	##궈	I-PS	I-PS	I-PS, O, B-PS, I-LC, I-OG
-12	베이징	B-OG	B-OG	B-OG, B-LC, O, I-OG, B-AF
-13	##대	I-OG	I-OG	I-OG, O, I-LC, I-PS, I-AF
-14	국제	B-CV	B-CV	B-CV, O, B-FD, I-CV, B-AF
-15	##정	I-CV	I-CV	I-CV, O, B-CV, I-FD, I-OG
-16	##치	I-CV	I-CV	I-CV, O, I-FD, B-CV, I-OG
-17	##학	I-CV	I-CV	I-CV, O, B-CV, I-FD, I-OG
-18	##원장	I-CV	I-CV	I-CV, O, B-CV, I-FD, I-OG
-19	##과	O	O	O, I-CV, B-PS, B-CV, I-OG
-20	주류	O	O	O, B-CV, B-PS, B-OG, B-TR
-21	입장	O	O	O, I-CV, B-CV, I-OG, B-PS
-22	##을	O	O	O, B-CV, B-PS, B-OG, B-LC
-23	대변	O	O	O, B-PS, B-CV, B-TR, B-LC
-24	##하	O	O	O, B-PS, I-PS, B-LC, B-CV
-25	##는	O	O	O, B-PS, I-PS, B-CV, B-LC
-26	주	B-PS	B-PS	B-PS, O, I-PS, B-LC, B-OG
-27	##즈	I-PS	I-PS	I-PS, O, B-PS, I-LC, I-OG
-28	##화	I-PS	I-PS	I-PS, O, I-LC, I-OG, B-PS
-29	저장	B-LC	B-LC	B-LC, B-OG, O, I-PS, I-LC
-30	##성	I-LC	I-LC	I-LC, I-OG, O, I-PS, B-LC
-31	당대	B-OG	B-OG	B-OG, O, I-OG, B-EV, B-AF
-32	##국제	I-OG	I-OG	I-OG, O, I-EV, I-LC, B-OG
-33	##문제	I-OG	I-OG	I-OG, O, I-EV, B-OG, I-CV
-34	##연구	I-OG	I-OG	I-OG, O, I-EV, I-CV, B-OG
-35	##회	I-OG	I-OG	I-OG, O, I-EV, I-CV, I-AF
-36	부회장	B-CV	B-CV	B-CV, O, I-CV, I-OG, I-EV
-37	사이	O	O	O, I-CV, B-CV, I-EV, I-QT
-38	##에	O	O	O, B-PS, B-CV, B-LC, B-OG
-39	벌어진	O	O	O, B-CV, B-PS, B-LC, B-EV
-40	날	O	O	O, B-PS, B-DT, B-CV, B-LC
-41	선	O	O	O, B-PS, I-PS, B-EV, I-EV
-42	논쟁	O	O	O, B-EV, I-EV, B-CV, B-PS
-43	##과	O	O	O, B-CV, I-EV, B-PS, B-OG
-44	관련	O	O	O, B-CV, B-LC, B-OG, B-PS
-45	##해	O	O	O, B-PS, B-LC, B-CV, B-OG
-46	자	O	B-PS	B-PS, O, I-PS, B-LC, B-OG
-47	원장	B-CV	B-CV	B-CV, O, I-CV, I-PS, B-TM
-48	##을	O	O	O, I-CV, B-CV, I-EV, I-AF
-49	지지	O	O	O, B-CV, B-PS, B-LC, B-OG
-50	##하	O	O	O, B-PS, B-CV, I-CV, B-LC
-51	##는	O	O	O, B-PS, B-CV, I-CV, B-LC
-52	내용	O	O	O, B-CV, B-PS, B-LC, B-FD
-53	##이	O	O	O, B-CV, B-PS, B-OG, B-LC
-54	##었	O	O	O, B-CV, B-OG, B-PS, B-LC
-55	##다	O	O	O, B-CV, I-EV, B-OG, B-LC
-56	.	O	O	O, B-PS, B-LC, B-CV, B-OG
-57	[SEP]	O	O	O, B-PS, B-CV, B-LC, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	박지성	B-PS	B-PS
+2	##에	O	O
+3	##게	O	O
+4	##서	O	O
+5	국가	B-CV	B-CV
+6	##대표	I-CV	I-CV
+7	주장	B-CV	B-CV
+8	완	O	I-CV
+9	##장	O	I-CV
+10	##을	O	O
+11	물려받	O	O
+12	##은	O	O
+13	박주영	B-PS	B-PS
+14	(	O	O
+15	26	B-QT	B-QT
+16	·	O	O
+17	AS	B-OG	B-OG
+18	모나코	I-OG	I-OG
+19	)	O	O
+20	은	O	O
+21	6	B-DT	B-DT
+22	##월	I-DT	I-DT
+23	12	I-DT	I-DT
+24	##일	I-DT	I-DT
+25	결혼	O	O
+26	날짜	O	O
+27	##를	O	O
+28	잡	O	O
+29	##았	O	O
+30	##지만	O	O
+31	신혼	O	O
+32	##여행	O	O
+33	##을	O	O
+34	미루	O	O
+35	##고	O	O
+36	이	O	O
+37	경기	O	O
+38	##에	O	O
+39	참가	O	O
+40	##한다	O	O
+41	.	O	O
+42	[SEP]	O	O

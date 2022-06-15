@@ -1,13 +1,17 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	왜냐하면	O	O	O, B-CV, B-OG, B-TM, B-LC
-2	보수주의	O	B-TR	B-TR, O, B-FD, B-CV, I-TR
-3	##적	O	O	O, I-TR, B-TR, I-PS, I-QT
-4	사고	O	O	O, I-TR, B-TR, I-CV, B-CV
-5	##에	O	O	O, B-PS, B-CV, B-LC, B-OG
-6	특징	O	O	O, B-CV, B-LC, B-TM, B-PS
-7	##을	O	O	O, B-CV, B-LC, B-OG, B-PS
-8	얘기	O	O	O, B-CV, B-LC, B-TM, B-OG
-9	##하면	O	O	O, B-CV, B-LC, B-PS, B-OG
-10	##서	O	O	O, B-CV, B-OG, B-LC, B-TM
-11	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	중국	B-LC	B-LC
+2	비판	O	O
+3	위구르	B-LC	B-LC
+4	학자	B-CV	B-CV
+5	토	B-PS	B-PS
+6	##흐	I-PS	I-PS
+7	##티	I-PS	I-PS
+8	‘	O	O
+9	국가	O	B-CV
+10	##분	O	I-CV
+11	##열	O	I-CV
+12	혐의	O	I-CV
+13	’	O	O
+14	기소	O	O
+15	[SEP]	O	O

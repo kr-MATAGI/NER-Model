@@ -1,19 +1,23 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-EV
-1	▼	O	O	O, B-LC, B-OG, B-TM, B-PS
-2	##일	B-TM	B-TM	B-TM, B-LC, I-TM, O, B-CV
-3	##본	I-TM	I-TM	I-TM, I-LC, B-TM, O, I-AF
-4	##뇌	I-TM	I-TM	I-TM, O, B-TM, I-LC, I-QT
-5	##염	I-TM	I-TM	I-TM, O, I-CV, B-TM, I-QT
-6	환자	B-CV	B-CV	B-CV, O, I-TM, I-CV, B-TM
-7	10	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-CV
-8	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-CV
-9	##새	O	I-DT	I-DT, O, I-QT, B-DT, I-EV
-10	17	B-QT	B-QT	B-QT, I-QT, O, B-DT, I-DT
-11	##배	I-QT	I-QT	I-QT, O, I-DT, I-TM, I-PS
-12	…	O	O	O, I-QT, I-OG, I-AF, I-DT
-13	백신	O	O	O, B-TM, B-TR, B-CV, B-AF
-14	맞아	O	O	O, I-TM, I-AF, B-CV, I-CV
-15	##야	O	O	O, B-CV, B-TM, I-TM, B-LC
-16	##▼	O	O	O, B-LC, B-CV, B-TM, B-PS
-17	[SEP]	O	O	O, B-TM, B-CV, B-LC, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	군	B-CV	B-CV
+2	가산점	I-CV	I-CV
+3	##제	I-CV	I-CV
+4	##도	I-CV	I-CV
+5	##는	O	O
+6	이미	O	O
+7	헌재	B-OG	B-OG
+8	##에	O	O
+9	##서	O	O
+10	한	O	B-QT
+11	번	O	I-QT
+12	위헌	O	O
+13	##이	O	O
+14	##라고	O	O
+15	판단	O	O
+16	##을	O	O
+17	내렸	O	O
+18	##습	O	O
+19	##니다	O	O
+20	.	O	O
+21	[SEP]	O	O

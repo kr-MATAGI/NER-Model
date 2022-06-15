@@ -1,33 +1,45 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	바	B-PS	B-PS	B-PS, O, B-LC, B-OG, I-PS
-2	##냐	I-PS	I-PS	I-PS, O, I-OG, I-LC, B-PS
-3	##의	O	O	O, I-PS, B-CV, I-OG, B-PS
-4	조카	B-CV	B-CV	B-CV, O, B-PS, B-AF, B-OG
-5	##딸	I-CV	I-CV	I-CV, B-CV, O, I-PS, I-OG
-6	소	B-PS	B-PS	B-PS, O, I-PS, B-OG, B-LC
-7	##냐	I-PS	I-PS	I-PS, O, I-OG, I-LC, B-PS
-8	(	O	O	O, I-PS, B-CV, I-OG, I-CV
-9	김지	B-PS	B-PS	B-PS, O, B-LC, B-OG, I-PS
-10	##성	I-PS	I-PS	I-PS, O, I-OG, I-LC, B-PS
-11	)	O	O	O, I-PS, I-OG, B-CV, I-AF
-12	가	O	O	O, B-PS, B-CV, B-LC, B-OG
-13	짝사랑	O	O	O, B-CV, B-PS, B-FD, B-OG
-14	##하	O	O	O, I-CV, B-PS, B-CV, I-PS
-15	##는	O	O	O, B-CV, B-PS, I-CV, B-LC
-16	시골	O	B-CV	B-CV, O, B-PS, B-FD, B-OG
-17	##의사	B-CV	I-CV	I-CV, O, B-CV, I-PS, I-OG
-18	아스	B-PS	B-PS	B-PS, O, I-PS, B-OG, B-LC
-19	##트로	I-PS	I-PS	I-PS, O, I-OG, B-PS, I-LC
-20	##프	I-PS	I-PS	I-PS, O, I-OG, I-LC, B-PS
-21	(	O	O	O, I-PS, B-CV, I-OG, B-LC
-22	김수현	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
-23	)	O	O	O, I-PS, I-OG, B-CV, I-AF
-24	역시	O	O	O, B-CV, B-PS, B-TM, B-LC
-25	옐	B-PS	B-PS	B-PS, O, I-PS, B-LC, B-OG
-26	##레나	I-PS	I-PS	I-PS, O, I-OG, I-LC, B-PS
-27	##를	O	O	O, I-PS, I-AF, B-CV, I-OG
-28	사랑	O	O	O, B-CV, B-FD, B-OG, B-PS
-29	##한다	O	O	O, I-CV, I-OG, B-PS, I-AF
-30	.	O	O	O, B-PS, B-CV, B-LC, I-PS
-31	[SEP]	O	O	O, B-CV, B-PS, B-LC, I-CV
+	text	label	preds
+0	[CLS]	O	O
+1	이런	O	O
+2	문제	O	O
+3	##를	O	O
+4	호소	O	O
+5	##하	O	O
+6	##는	O	O
+7	엄마	B-CV	B-CV
+8	##라면	O	O
+9	능률	B-OG	B-OG
+10	##교육	I-OG	I-OG
+11	##에	O	O
+12	##서	O	O
+13	운영	O	O
+14	##하	O	O
+15	##는	O	O
+16	이	B-TM	B-TM
+17	##티	I-TM	I-TM
+18	##하우스	I-TM	I-TM
+19	(	O	O
+20	www	B-TM	B-TM
+21	.	I-TM	I-TM
+22	et	I-TM	I-TM
+23	-	I-TM	I-TM
+24	h	I-TM	I-TM
+25	##ouse	I-TM	I-TM
+26	.	I-TM	I-TM
+27	com	I-TM	I-TM
+28	)	O	O
+29	의	O	O
+30	‘	O	O
+31	능률	B-CV	B-TM
+32	##영	I-CV	I-TM
+33	##어	I-CV	I-TM
+34	##검	O	I-TM
+35	##색	O	I-TM
+36	창	O	I-TM
+37	’	O	O
+38	이	O	O
+39	도움	O	O
+40	##이	O	O
+41	된다	O	O
+42	.	O	O
+43	[SEP]	O	O

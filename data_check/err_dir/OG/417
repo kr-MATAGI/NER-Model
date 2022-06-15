@@ -1,45 +1,47 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-EV, I-CV
-1	반면	O	O	O, B-CV, B-LC, B-OG, B-TM
-2	3	B-DT	B-DT	B-DT, O, B-EV, I-DT, B-QT
-3	##월	I-DT	I-DT	I-DT, O, B-DT, I-EV, I-QT
-4	650	B-QT	B-QT	B-QT, I-QT, O, B-DT, I-DT
-5	##억	I-QT	I-QT	I-QT, O, I-DT, I-EV, I-LC
-6	원	I-QT	I-QT	I-QT, O, I-LC, I-DT, I-EV
-7	##과	O	O	O, I-QT, B-CV, I-OG, I-EV
-8	350	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-EV
-9	##억	I-QT	I-QT	I-QT, O, I-LC, I-DT, I-PS
-10	원	I-QT	I-QT	I-QT, O, I-LC, I-PS, I-OG
-11	규모	O	O	O, I-QT, B-CV, B-TM, B-OG
-12	##로	O	O	O, B-CV, B-OG, B-LC, B-PS
-13	후	O	B-CV	B-CV, O, B-AF, B-TM, B-MT
-14	##순위	O	I-CV	I-CV, O, I-TM, I-AF, B-CV
-15	##채	O	I-CV	I-CV, O, I-AF, I-TM, B-CV
-16	##를	O	O	O, I-CV, I-AF, I-TM, I-OG
-17	발행	O	O	O, B-OG, B-CV, B-LC, B-AF
-18	##한	O	O	O, B-OG, B-LC, B-PS, B-CV
-19	부산	B-OG	B-LC	B-LC, B-OG, O, B-AF, B-PS
-20	##과	O	O	O, I-OG, I-LC, I-AF, B-OG
-21	부산	B-OG	B-OG	B-OG, B-LC, I-OG, O, B-AF
-22	##2	I-OG	I-OG	I-OG, O, I-LC, I-AF, B-OG
-23	##저축	I-OG	I-OG	I-OG, O, I-AF, I-LC, B-OG
-24	##은행	I-OG	I-OG	I-OG, O, I-LC, I-AF, I-QT
-25	##은	O	O	O, I-OG, I-AF, B-CV, I-QT
-26	목표	O	O	O, B-CV, B-TM, B-QT, B-AF
-27	##금	O	O	O, B-CV, I-CV, B-TM, B-QT
-28	##액	O	O	O, I-QT, I-CV, B-CV, B-QT
-29	##의	O	O	O, B-CV, B-LC, B-OG, B-TM
-30	절반	B-QT	B-QT	B-QT, O, I-QT, B-CV, B-DT
-31	정도	I-QT	I-QT	I-QT, O, I-LC, I-DT, I-CV
-32	##만	I-QT	O	O, I-QT, I-LC, I-DT, B-QT
-33	모집	O	O	O, I-QT, B-TM, B-CV, B-LC
-34	##하	O	O	O, B-LC, B-OG, B-TM, B-CV
-35	##며	O	O	O, B-LC, B-CV, B-QT, B-TM
-36	청약	O	O	O, B-CV, B-TM, B-LC, B-EV
-37	##을	O	O	O, B-CV, I-AF, I-EV, I-CV
-38	끝내	O	O	O, B-CV, B-LC, B-OG, B-TM
-39	##야	O	O	O, B-CV, B-LC, B-TM, B-OG
-40	했	O	O	O, B-CV, B-OG, B-LC, B-TM
-41	##다	O	O	O, B-CV, B-TM, B-LC, B-QT
-42	.	O	O	O, B-LC, B-OG, B-CV, I-OG
-43	[SEP]	O	O	O, B-CV, B-LC, B-OG, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	외교부	B-OG	B-OG
+2	##는	O	O
+3	또	O	O
+4	""""	O	O
+5	두	B-QT	B-QT
+6	장관	I-QT	I-QT
+7	##은	O	O
+8	북	B-LC	B-LC
+9	##핵	B-AF	B-AF
+10	불	O	O
+11	##용	O	O
+12	##과	O	O
+13	북한	B-OG	B-LC
+14	비핵화	O	O
+15	##에	O	O
+16	대한	O	O
+17	확고	O	O
+18	##한	O	O
+19	공동	O	O
+20	##인	O	O
+21	##식	O	O
+22	##을	O	O
+23	바탕	O	O
+24	##으로	O	O
+25	기존	O	O
+26	##의	O	O
+27	전략	O	O
+28	##적	O	O
+29	협력	O	O
+30	##과	O	O
+31	소통	O	O
+32	##을	O	O
+33	강화	O	O
+34	##해	O	O
+35	나가	O	O
+36	##기	O	O
+37	##로	O	O
+38	했	O	O
+39	##다	O	O
+40	""""	O	O
+41	고	O	O
+42	밝혔	O	O
+43	##다	O	O
+44	.	O	O
+45	[SEP]	O	O

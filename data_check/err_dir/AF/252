@@ -1,39 +1,75 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	청와대	B-AF	B-OG	B-OG, B-AF, O, B-LC, B-PS
-2	##가	O	O	O, I-OG, I-AF, B-CV, B-PS
-3	3	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-EV
-4	##급	I-QT	I-QT	I-QT, O, I-EV, I-OG, I-DT
-5	행정관	B-CV	B-CV	B-CV, O, I-QT, I-CV, B-OG
-6	##으로	O	O	O, I-CV, B-CV, I-QT, B-PS
-7	채용	O	O	O, B-CV, B-TM, B-LC, B-PS
-8	##한	O	O	O, B-LC, B-PS, B-OG, B-CV
-9	강남	B-LC	B-LC	B-LC, O, B-AF, B-OG, B-PS
-10	##의	O	O	O, I-LC, I-AF, B-LC, I-PS
-11	유명	O	O	O, B-CV, B-LC, B-TM, B-OG
-12	헬스	B-CV	B-CV	B-CV, O, B-AF, B-TM, B-OG
-13	##트	I-CV	I-CV	I-CV, B-CV, O, I-AF, I-TM
-14	##레이	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-AF
-15	##너	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-TM
-16	윤	B-PS	B-PS	B-PS, O, I-PS, B-OG, I-CV
-17	##전	I-PS	I-PS	I-PS, O, B-PS, I-OG, I-LC
-18	##추	I-PS	I-PS	I-PS, O, I-LC, I-OG, B-PS
-19	##씨	O	O	O, I-PS, B-CV, I-AF, I-LC
-20	##의	O	O	O, B-CV, B-LC, B-TM, B-PS
-21	인적	O	O	O, B-CV, B-TM, B-LC, B-PS
-22	##사항	O	O	O, I-CV, I-LC, B-CV, I-TM
-23	##과	O	O	O, B-PS, B-CV, B-LC, B-OG
-24	업무	O	O	O, B-CV, B-TM, B-LC, B-PS
-25	내용	O	O	O, B-CV, B-TM, I-CV, B-LC
-26	##을	O	O	O, B-CV, B-PS, B-LC, B-TM
-27	비밀	O	O	O, B-CV, B-TM, B-LC, B-PS
-28	##에	O	O	O, I-CV, B-CV, B-PS, I-AF
-29	부치	O	O	O, B-CV, B-LC, B-PS, I-CV
-30	##는	O	O	O, B-CV, B-LC, B-PS, I-CV
-31	것	O	O	O, B-CV, B-LC, B-OG, B-PS
-32	##과	O	O	O, B-CV, B-TM, B-OG, B-LC
-33	비교	O	O	O, B-CV, B-TM, B-OG, B-LC
-34	##된	O	O	O, B-PS, I-OG, B-LC, B-CV
-35	##다	O	O	O, B-CV, I-OG, B-LC, B-OG
-36	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-37	[SEP]	O	O	O, B-CV, B-LC, B-PS, I-CV
+	text	label	preds
+0	[CLS]	O	O
+1	구리	B-OG	B-OG
+2	##시	I-OG	I-OG
+3	##는	O	O
+4	8	B-DT	B-DT
+5	##일	I-DT	I-DT
+6	오후	B-TI	B-TI
+7	서울	B-LC	B-LC
+8	조선	B-AF	B-OG
+9	##호텔	I-AF	I-OG
+10	##에	O	O
+11	##서	O	O
+12	미국	B-LC	B-LC
+13	##계	O	O
+14	섬유	B-MT	B-MT
+15	·	O	O
+16	식품	O	O
+17	·	O	O
+18	유통	O	O
+19	·	O	O
+20	투자	O	O
+21	제조업	O	O
+22	##체인	O	O
+23	‘	O	O
+24	비	B-OG	B-OG
+25	##바	I-OG	I-OG
+26	비나	I-OG	I-OG
+27	(	O	O
+28	V	O	O
+29	##iv	O	O
+30	##a	O	O
+31	V	O	O
+32	##ina	O	O
+33	)	O	O
+34	’	O	O
+35	컨소시엄	O	O
+36	##과	O	O
+37	“	O	O
+38	월드	B-AF	B-AF
+39	##디	I-AF	I-AF
+40	##자	I-AF	I-AF
+41	##인	I-AF	I-AF
+42	##센터	I-AF	I-AF
+43	건립	O	O
+44	##에	O	O
+45	20	B-QT	B-QT
+46	##억	I-QT	I-QT
+47	달러	I-QT	I-QT
+48	(	O	O
+49	한화	B-CV	O
+50	2	B-QT	B-QT
+51	##조	I-QT	I-QT
+52	##원	I-QT	I-QT
+53	상당	I-QT	O
+54	)	O	O
+55	를	O	O
+56	투자	O	O
+57	##한다	O	O
+58	”	O	O
+59	는	O	O
+60	내용	O	O
+61	##의	O	O
+62	투자	O	O
+63	##협	O	O
+64	##약	O	O
+65	(	O	O
+66	MOU	B-OG	O
+67	)	O	O
+68	을	O	O
+69	체결	O	O
+70	##했	O	O
+71	##다	O	O
+72	.	O	O
+73	[SEP]	O	O

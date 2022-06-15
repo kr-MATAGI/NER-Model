@@ -1,24 +1,21 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	“	O	O	O, B-LC, B-CV, B-PS, B-OG
-2	北	B-OG	B-LC	B-LC, O, B-OG, B-PS, B-AF
-3	보위	B-OG	B-OG	B-OG, O, I-OG, B-AF, B-CV
-4	##부	I-OG	I-OG	I-OG, O, I-AF, I-LC, I-CV
-5	-	O	O	O, I-OG, B-LC, B-PS, I-AF
-6	조직	O	B-OG	B-OG, O, B-AF, I-OG, B-CV
-7	##지도	O	I-OG	I-OG, O, B-OG, I-AF, I-CV
-8	##부	O	I-OG	I-OG, O, I-AF, I-CV, I-LC
-9	등	O	O	O, I-OG, B-PS, I-AF, B-LC
-10	핵심	O	B-CV	B-CV, O, B-OG, B-TM, B-AF
-11	##간	B-CV	I-CV	I-CV, B-CV, O, I-QT, I-OG
-12	##부	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-QT
-13	최소	O	O	O, B-QT, B-DT, I-CV, B-CV
-14	5	B-QT	B-QT	B-QT, I-QT, O, B-DT, B-PS
-15	##명	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-16	탈	O	O	O, B-LC, B-TM, I-QT, B-CV
-17	##북	O	O	O, I-LC, I-TM, I-CV, B-LC
-18	-	O	O	O, B-LC, B-PS, I-LC, I-AF
-19	한국	B-LC	B-LC	B-LC, O, B-OG, I-LC, B-AF
-20	망명	O	O	O, I-LC, B-LC, B-CV, B-TM
-21	”	O	O	O, B-LC, I-AF, I-LC, B-PS
-22	[SEP]	O	O	O, B-LC, B-OG, B-CV, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	‘	O	O
+2	슈퍼	O	B-PS
+3	##소닉	O	I-PS
+4	’	O	O
+5	이대	B-PS	B-PS
+6	##형	I-PS	I-PS
+7	,	O	O
+8	연장전	B-TI	B-TI
+9	##의	O	O
+10	사나이	O	O
+11	…	O	O
+12	이틀	B-DT	B-DT
+13	연속	O	O
+14	결승	O	O
+15	##점	O	O
+16	-	O	O
+17	끝내기	B-TM	O
+18	##타	I-TM	O
+19	[SEP]	O	O

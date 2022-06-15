@@ -1,43 +1,47 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-QT
-1	고대	B-DT	B-DT	B-DT, O, B-LC, I-DT, B-FD
-2	희	I-DT	B-LC	B-LC, I-DT, B-DT, I-LC, O
-3	##랍	I-DT	I-LC	I-LC, I-DT, O, B-LC, I-PS
-4	##의	O	O	O, I-LC, I-DT, B-LC, I-PS
-5	희극	B-CV	B-CV	B-CV, O, B-FD, B-AF, B-PS
-6	##작	I-CV	I-CV	I-CV, B-CV, O, I-FD, I-QT
-7	##가	I-CV	I-CV	I-CV, O, B-CV, I-QT, I-FD
-8	아리스토	B-PS	B-PS	B-PS, O, I-PS, B-LC, B-CV
-9	##파	I-PS	I-PS	I-PS, O, I-LC, B-PS, I-CV
-10	##네스	I-PS	I-PS	I-PS, O, I-LC, B-PS, I-AF
-11	##의	O	O	O, I-PS, B-LC, B-FD, B-CV
-12	〈	O	O	O, B-CV, B-LC, B-AF, B-DT
-13	류	B-AF	B-AF	B-AF, I-AF, O, B-FD, B-CV
-14	##시스트	I-AF	I-AF	I-AF, O, I-FD, I-PS, I-EV
-15	##라	I-AF	I-AF	I-AF, O, I-FD, I-CV, I-EV
-16	##테	I-AF	I-AF	I-AF, O, I-FD, I-CV, I-QT
-17	〉	O	O	O, I-AF, I-CV, I-EV, I-QT
-18	(	O	O	O, B-CV, B-LC, B-OG, I-AF
-19	기원전	B-DT	B-DT	B-DT, O, B-TI, B-QT, I-DT
-20	41	I-DT	I-DT	I-DT, B-DT, I-QT, B-QT, I-TI
-21	##1	I-DT	I-DT	I-DT, I-QT, O, B-DT, I-TI
-22	)	O	O	O, I-DT, I-QT, B-CV, B-LC
-23	를	O	O	O, B-LC, B-PS, B-OG, B-CV
-24	현대	O	O	O, B-FD, B-CV, B-OG, B-TR
-25	##적으로	O	O	O, I-QT, I-FD, I-TR, B-PS
-26	해석	O	O	O, B-FD, B-PS, I-QT, B-QT
-27	##한	O	O	O, B-PS, B-LC, I-QT, B-FD
-28	작품	O	O	O, B-FD, B-CV, I-FD, B-OG
-29	##으로	O	O	O, B-CV, I-OG, I-CV, B-PS
-30	,	O	O	O, B-OG, B-LC, B-CV, B-PS
-31	극단	B-OG	O	O, B-OG, B-CV, B-FD, I-OG
-32	해적	I-OG	B-CV	B-CV, O, I-CV, I-OG, B-PS
-33	##의	O	O	O, I-CV, I-OG, B-CV, I-AF
-34	태도	O	O	O, B-CV, B-FD, B-TM, I-CV
-35	##와	O	O	O, B-CV, B-PS, B-OG, B-LC
-36	솜씨	O	O	O, B-CV, B-FD, B-OG, B-LC
-37	##가	O	O	O, B-PS, B-CV, B-OG, B-LC
-38	고스란히	O	O	O, B-CV, B-OG, B-LC, B-PS
-39	드러난다	O	O	O, B-CV, B-LC, B-OG, B-PS
-40	.	O	O	O, B-LC, B-FD, B-CV, B-PS
-41	[SEP]	O	O	O, B-CV, B-FD, B-LC, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	이	O	O
+2	캡슐	O	O
+3	##은	O	O
+4	1914	B-DT	B-DT
+5	##년	I-DT	I-DT
+6	5	I-DT	I-DT
+7	##월	I-DT	I-DT
+8	23	I-DT	I-DT
+9	##일	I-DT	I-DT
+10	‘	O	O
+11	월가	B-OG	B-LC
+12	사업가	I-OG	B-OG
+13	##협회	I-OG	I-OG
+14	’	O	O
+15	가	O	O
+16	뉴욕	B-LC	B-LC
+17	상업	O	O
+18	발전	O	O
+19	##에	O	O
+20	선구	O	O
+21	##적	O	O
+22	역할	O	O
+23	##을	O	O
+24	했	O	O
+25	##던	O	O
+26	‘	O	O
+27	신	B-OG	B-OG
+28	(	I-OG	I-OG
+29	新	I-OG	I-OG
+30	)	I-OG	I-OG
+31	네덜란드	I-OG	I-OG
+32	##회사	I-OG	I-OG
+33	’	O	O
+34	설립	O	O
+35	300	B-DT	B-DT
+36	##주	I-DT	I-DT
+37	##년	I-DT	I-DT
+38	##을	O	O
+39	기념	O	O
+40	##해	O	O
+41	만들	O	O
+42	##었	O	O
+43	##다	O	O
+44	.	O	O
+45	[SEP]	O	O

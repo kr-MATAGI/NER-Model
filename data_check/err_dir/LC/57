@@ -1,42 +1,70 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-EV, I-CV
-1	시	B-OG	B-OG	B-OG, O, B-LC, I-OG, B-AF
-2	##는	O	O	O, I-OG, B-CV, I-EV, I-AF
-3	아직	O	O	O, B-LC, B-OG, B-TM, B-CV
-4	정부	B-OG	B-OG	B-OG, O, B-LC, B-AF, I-OG
-5	승인	O	O	O, I-OG, B-LC, I-EV, I-LC
-6	##을	O	O	O, B-OG, B-LC, B-CV, B-PS
-7	받	O	O	O, B-LC, B-OG, B-PS, B-CV
-8	##지	O	O	O, B-LC, B-OG, B-PS, B-CV
-9	못한	O	O	O, B-LC, B-OG, B-TM, B-CV
-10	올림픽	B-LC	B-LC	B-LC, B-OG, B-AF, O, B-PS
-11	##공원	I-LC	I-LC	I-LC, O, I-AF, I-OG, B-LC
-12	##역	I-LC	I-LC	I-LC, O, I-AF, I-OG, B-LC
-13	##에서	O	O	O, I-LC, I-AF, B-LC, I-OG
-14	서울	B-LC	B-OG	B-OG, B-AF, B-LC, B-PS, B-EV
-15	##보	I-LC	I-OG	I-OG, I-LC, I-AF, I-PS, O
-16	##훈	I-LC	I-OG	I-OG, I-LC, I-AF, O, I-PS
-17	##병원	I-LC	I-OG	I-OG, I-LC, I-AF, O, I-PS
-18	사이	O	O	O, I-OG, I-AF, I-LC, I-DT
-19	3	B-QT	B-QT	B-QT, O, B-TM, B-LC, I-QT
-20	.	I-QT	I-QT	I-QT, I-LC, O, B-QT, I-AF
-21	2	I-QT	I-QT	I-QT, I-LC, B-QT, O, I-AF
-22	##㎞	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-AF
-23	##에	O	O	O, I-QT, I-AF, B-CV, I-OG
-24	대해서	O	O	O, B-CV, B-LC, B-OG, B-TM
-25	##는	O	O	O, B-CV, B-LC, B-OG, B-TM
-26	승인	O	O	O, B-LC, B-CV, B-OG, B-TM
-27	##을	O	O	O, B-CV, B-OG, B-LC, B-PS
-28	받	O	O	O, B-LC, B-CV, B-PS, B-OG
-29	##는	O	O	O, B-LC, B-OG, B-PS, B-CV
-30	대로	O	O	O, B-LC, B-PS, B-OG, B-TM
-31	내년	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-LC
-32	초	I-DT	I-DT	I-DT, O, I-QT, B-DT, I-PS
-33	공사	O	O	O, B-CV, I-DT, B-AF, B-FD
-34	##를	O	O	O, B-CV, B-OG, B-LC, B-TM
-35	발주	O	O	O, B-CV, B-LC, B-OG, B-TM
-36	##할	O	O	O, B-OG, B-LC, B-CV, B-PS
-37	계획	O	O	O, B-CV, B-TM, B-OG, B-LC
-38	##이다	O	O	O, B-CV, B-TM, B-OG, B-QT
-39	.	O	O	O, B-LC, B-OG, B-CV, B-PS
-40	[SEP]	O	O	O, B-LC, B-OG, B-CV, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	한	B-LC	O
+2	·	O	O
+3	미	B-LC	B-LC
+4	동맹	O	O
+5	60	B-DT	B-DT
+6	##주	I-DT	I-DT
+7	##년	I-DT	I-DT
+8	##을	O	O
+9	맞아	O	O
+10	'	O	O
+11	밴	B-PS	B-OG
+12	플리	I-PS	I-OG
+13	##트	I-PS	I-OG
+14	##가	O	I-OG
+15	(	O	O
+16	家	O	O
+17	)	O	O
+18	'	O	O
+19	를	O	O
+20	대표	O	O
+21	##해	O	O
+22	한국	B-LC	B-LC
+23	##을	O	O
+24	찾	O	O
+25	##은	O	O
+26	그	O	O
+27	##에	O	O
+28	##게	O	O
+29	백	B-PS	B-PS
+30	장군	B-CV	B-CV
+31	##이	O	O
+32	처음	O	O
+33	건넨	O	O
+34	말	O	O
+35	##은	O	O
+36	""""	O	O
+37	자네	O	O
+38	배고프	O	O
+39	##지	O	O
+40	?	O	O
+41	나	O	O
+42	##랑	O	O
+43	점심	O	O
+44	먹	O	O
+45	##어야	O	O
+46	##지	O	O
+47	(	O	O
+48	Ar	O	O
+49	##e	O	O
+50	you	O	O
+51	h	O	O
+52	##ung	O	O
+53	##ry	O	O
+54	?	O	O
+55	H	O	O
+56	##ave	O	O
+57	a	O	O
+58	l	O	O
+59	##un	O	O
+60	##ch	O	O
+61	with	O	O
+62	me	O	O
+63	)	O	O
+64	""""	O	O
+65	였	O	O
+66	##다	O	O
+67	.	O	O
+68	[SEP]	O	O

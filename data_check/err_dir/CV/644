@@ -1,42 +1,28 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-EV, I-CV
-1	두산	B-OG	B-OG	B-OG, O, B-LC, B-AF, B-PS
-2	##은	O	O	O, I-OG, I-EV, B-CV, I-AF
-3	잠실	B-LC	B-LC	B-LC, O, B-AF, B-OG, B-EV
-4	##에서	O	O	O, I-LC, I-AF, I-EV, I-OG
-5	선발	B-CV	O	O, B-CV, B-TM, I-CV, B-PS
-6	김승	O	O	O, B-PS, B-CV, I-CV, B-LC
-7	##회의	O	O	O, I-PS, B-PS, I-EV, I-CV
-8	7	B-QT	B-QT	B-QT, O, B-EV, B-TM, I-QT
-9	##이	I-QT	I-QT	I-QT, I-EV, O, I-TM, I-PS
-10	##닝	I-QT	I-QT	I-QT, O, I-EV, I-TM, I-LC
-11	3	B-QT	B-QT	B-QT, I-QT, B-TM, B-EV, O
-12	##안	I-QT	I-QT	I-QT, O, I-EV, I-TM, I-LC
-13	##타	I-QT	I-QT	I-QT, O, I-EV, I-TM, I-LC
-14	무실점	B-TM	B-TM	B-TM, O, I-QT, I-TM, B-CV
-15	호투	O	O	O, I-TM, B-TM, B-CV, I-QT
-16	##를	O	O	O, B-CV, I-TM, I-CV, B-TM
-17	앞세워	O	O	O, B-LC, B-OG, B-TM, B-PS
-18	KIA	B-OG	B-OG	B-OG, O, B-LC, B-AF, B-EV
-19	##를	O	O	O, I-OG, I-EV, I-CV, B-CV
-20	4	B-QT	B-QT	B-QT, O, I-QT, B-EV, B-TM
-21	-	I-QT	I-QT	I-QT, O, I-EV, I-LC, B-QT
-22	2	I-QT	I-QT	I-QT, O, I-LC, I-EV, B-QT
-23	##로	O	O	O, I-QT, I-EV, I-OG, B-CV
-24	꺾	O	O	O, B-EV, B-CV, B-OG, B-LC
-25	##고	O	O	O, B-CV, I-EV, B-QT, B-OG
-26	2	B-QT	B-QT	B-QT, O, B-EV, B-TM, I-QT
-27	##연	I-QT	I-QT	I-QT, O, I-EV, I-TM, B-QT
-28	##승	I-QT	I-QT	I-QT, O, I-EV, I-TM, I-LC
-29	##이	O	O	O, I-QT, B-PS, B-CV, B-OG
-30	##자	O	O	O, B-LC, I-QT, B-PS, B-QT
-31	KIA	B-EV	B-EV	B-EV, O, B-LC, B-AF, B-OG
-32	##전	I-EV	I-EV	I-EV, O, B-EV, I-AF, I-LC
-33	4	B-QT	B-QT	B-QT, I-EV, I-QT, B-EV, O
-34	##연	I-QT	I-QT	I-QT, I-EV, O, I-TM, B-QT
-35	##승	I-QT	I-QT	I-QT, O, I-EV, I-TM, I-LC
-36	##을	O	O	O, I-QT, I-EV, B-CV, I-OG
-37	달렸	O	O	O, B-CV, B-OG, B-LC, B-TM
-38	##다	O	O	O, B-CV, B-QT, I-EV, I-OG
-39	.	O	O	O, B-LC, B-PS, B-CV, B-OG
-40	[SEP]	O	O	O, B-CV, B-LC, I-EV, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	사상	B-LC	B-LC
+2	##구	I-LC	I-LC
+3	##에	O	O
+4	##서는	O	O
+5	19	B-QT	B-QT
+6	##대	I-QT	I-QT
+7	총선	B-DT	B-DT
+8	때	I-DT	I-DT
+9	문재인	B-PS	B-PS
+10	대표	B-CV	B-CV
+11	##와	O	O
+12	붙	O	O
+13	##었	O	O
+14	##던	O	O
+15	손수	B-PS	B-PS
+16	##조	I-PS	I-PS
+17	예비	O	B-CV
+18	##후	B-CV	I-CV
+19	##보	I-CV	I-CV
+20	##가	O	O
+21	뛰	O	O
+22	##고	O	O
+23	있	O	O
+24	##다	O	O
+25	.	O	O
+26	[SEP]	O	O

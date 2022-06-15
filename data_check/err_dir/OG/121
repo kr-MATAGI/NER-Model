@@ -1,102 +1,48 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-EV, I-CV
-1	이	O	O	O, B-OG, B-CV, B-LC, B-PS
-2	##에	O	O	O, B-CV, B-OG, B-LC, B-PS
-3	대해	O	O	O, B-OG, B-CV, B-LC, B-PS
-4	‘	O	O	O, B-OG, B-LC, B-PS, B-CV
-5	한	B-OG	B-OG	B-OG, B-LC, I-OG, O, B-EV
-6	-	I-OG	I-OG	I-OG, I-LC, O, B-OG, I-EV
-7	미	I-OG	I-OG	I-OG, I-LC, B-OG, B-LC, O
-8	자유	I-OG	I-OG	I-OG, B-OG, O, I-LC, I-EV
-9	##무역	I-OG	I-OG	I-OG, O, I-EV, I-LC, B-OG
-10	##협	I-OG	I-OG	I-OG, O, I-EV, I-LC, B-OG
-11	##정	I-OG	I-OG	I-OG, O, I-EV, B-OG, I-LC
-12	저지	O	I-OG	I-OG, O, B-OG, I-EV, I-LC
-13	범	B-OG	I-OG	I-OG, O, B-OG, I-EV, I-CV
-14	##국	I-OG	I-OG	I-OG, O, B-OG, I-EV, I-CV
-15	##민	I-OG	I-OG	I-OG, O, I-EV, B-OG, I-CV
-16	##운동	I-OG	I-OG	I-OG, O, B-OG, I-EV, I-CV
-17	##본부	I-OG	I-OG	I-OG, O, I-EV, I-CV, B-OG
-18	’	O	O	O, I-OG, I-EV, B-OG, I-CV
-19	는	O	O	O, B-OG, I-OG, B-CV, B-LC
-20	성명서	O	O	O, B-AF, B-CV, B-TM, B-FD
-21	##를	O	O	O, B-OG, I-OG, B-CV, I-EV
-22	내	O	O	O, B-OG, B-LC, B-CV, B-AF
-23	##어	O	O	O, B-LC, B-OG, I-OG, B-PS
-24	“	O	O	O, B-LC, B-OG, B-PS, B-CV
-25	피디	B-AF	B-AF	B-AF, B-PS, O, B-OG, B-EV
-26	##수	I-AF	I-AF	I-AF, I-PS, O, I-OG, I-EV
-27	##첩	I-AF	I-AF	I-AF, I-PS, O, I-EV, I-OG
-28	대법원	B-OG	B-OG	B-OG, O, I-AF, I-OG, B-CV
-29	무죄	O	O	O, B-CV, I-OG, I-EV, I-CV
-30	판결	O	O	O, B-CV, B-OG, B-PS, B-LC
-31	##의	O	O	O, B-PS, B-LC, B-OG, B-CV
-32	잉크	O	O	O, B-TM, B-MT, B-LC, B-PT
-33	##가	O	O	O, B-PS, B-LC, B-OG, I-EV
-34	마르	O	O	O, B-LC, B-PS, B-OG, B-EV
-35	##기	O	O	O, B-PS, B-LC, I-OG, I-EV
-36	##도	O	O	O, B-PS, B-LC, I-OG, I-EV
-37	전	O	O	O, B-PS, B-LC, B-EV, B-OG
-38	##에	O	O	O, B-LC, B-OG, B-PS, B-CV
-39	또	O	O	O, B-LC, B-OG, B-PS, B-CV
-40	##다	O	O	O, B-PS, B-LC, B-QT, B-OG
-41	##시	O	O	O, B-PS, B-LC, B-OG, I-QT
-42	정책	O	O	O, B-CV, B-LC, B-PS, B-OG
-43	##을	O	O	O, B-PS, B-CV, B-OG, B-LC
-44	비판	O	O	O, B-CV, B-LC, B-OG, B-PS
-45	##한	O	O	O, B-OG, B-PS, B-LC, B-CV
-46	언론	O	O	O, B-OG, B-CV, I-OG, B-FD
-47	##을	O	O	O, B-PS, B-CV, B-OG, B-LC
-48	공무원	B-CV	B-CV	B-CV, B-OG, O, B-EV, B-AF
-49	##이	O	O	O, I-CV, B-PS, B-CV, I-OG
-50	형사	O	O	O, B-CV, B-TM, I-CV, B-FD
-51	##고	O	O	O, I-CV, B-CV, I-EV, I-TM
-52	##발	O	O	O, I-CV, B-CV, I-EV, I-TM
-53	##했	O	O	O, B-PS, I-CV, B-LC, B-OG
-54	##다	O	O	O, B-OG, B-LC, B-CV, B-PS
-55	”	O	O	O, B-CV, B-OG, B-LC, B-PS
-56	며	O	O	O, B-OG, B-LC, B-CV, B-TM
-57	“	O	O	O, B-LC, B-CV, B-OG, B-PS
-58	언론	O	O	O, B-CV, B-OG, B-TM, B-LC
-59	통제	O	O	O, I-CV, B-CV, B-PS, B-LC
-60	수단	O	O	O, B-PS, B-LC, B-CV, I-CV
-61	##으로	O	O	O, B-PS, B-LC, B-CV, B-OG
-62	공무원	B-CV	B-CV	B-CV, O, B-OG, B-EV, B-AF
-63	개인	O	O	O, I-CV, B-CV, I-EV, I-OG
-64	##의	O	O	O, B-PS, B-LC, B-CV, B-OG
-65	명예훼손	B-CV	B-CV	B-CV, O, B-TM, B-FD, I-CV
-66	고소	O	O	O, I-CV, B-CV, B-TM, I-EV
-67	##를	O	O	O, I-CV, B-CV, B-PS, B-LC
-68	이용	O	O	O, B-CV, B-LC, B-OG, B-TM
-69	##하	O	O	O, B-LC, B-PS, B-CV, B-OG
-70	##는	O	O	O, B-LC, B-PS, B-CV, B-OG
-71	잘못	O	O	O, B-CV, B-LC, B-PS, B-OG
-72	##된	O	O	O, B-LC, B-PS, B-OG, B-CV
-73	구태	O	O	O, B-CV, B-TR, B-LC, B-AF
-74	##가	O	O	O, B-PS, B-LC, B-OG, B-CV
-75	되풀이	O	O	O, B-CV, B-LC, B-OG, B-TM
-76	##돼	O	O	O, B-LC, B-PS, B-OG, B-CV
-77	민주주의	B-TR	B-TR	B-TR, O, I-TR, B-PS, B-FD
-78	기본	O	O	O, I-TR, B-CV, I-CV, B-PS
-79	##질서	O	O	O, B-CV, I-CV, B-PS, B-LC
-80	##인	O	O	O, B-PS, B-LC, B-CV, I-CV
-81	건전	O	O	O, B-LC, B-CV, B-TM, B-PS
-82	##한	O	O	O, B-LC, B-PS, B-OG, B-TM
-83	여론	O	O	O, B-CV, B-LC, B-PS, B-TM
-84	형성	O	O	O, I-CV, B-PS, B-LC, B-CV
-85	##과	O	O	O, B-PS, B-LC, B-CV, B-OG
-86	언론	O	O	O, B-CV, B-TM, B-FD, B-LC
-87	자유	O	O	O, I-CV, B-CV, I-TR, I-LC
-88	##를	O	O	O, I-CV, B-PS, B-LC, B-CV
-89	위협	O	O	O, B-CV, B-LC, B-PS, B-TM
-90	##할	O	O	O, B-PS, B-LC, B-CV, B-OG
-91	위험	O	O	O, B-CV, B-PS, B-LC, B-OG
-92	##이	O	O	O, B-PS, B-OG, B-CV, B-LC
-93	크다	O	O	O, B-CV, B-OG, B-PS, B-LC
-94	”	O	O	O, B-CV, B-OG, B-LC, B-TM
-95	고	O	O	O, B-CV, B-OG, B-LC, B-TM
-96	비판	O	O	O, B-CV, B-LC, B-TM, B-OG
-97	##했	O	O	O, B-CV, B-OG, B-LC, I-OG
-98	##다	O	O	O, B-CV, B-LC, B-OG, B-TM
-99	.	O	O	O, B-LC, B-PS, B-OG, B-CV
-100	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	이달	B-DT	B-DT
+2	초	I-DT	I-DT
+3	방문	O	O
+4	##한	O	O
+5	헤	B-LC	B-LC
+6	##센	I-LC	I-LC
+7	주	I-LC	I-LC
+8	비스	O	O
+9	##바	O	O
+10	##덴	O	O
+11	시의	O	O
+12	게	B-OG	B-LC
+13	##슈	I-OG	I-LC
+14	##비스	I-OG	I-LC
+15	##터	I-OG	I-LC
+16	숄	I-OG	I-LC
+17	그	I-OG	I-LC
+18	##룬	I-OG	I-LC
+19	##트	I-OG	I-LC
+20	##슐	I-OG	I-LC
+21	##레	I-OG	I-LC
+22	##에	O	O
+23	##는	O	O
+24	1	B-QT	B-QT
+25	,	I-QT	I-QT
+26	2	I-QT	I-QT
+27	##학	I-QT	I-QT
+28	##년	I-QT	I-QT
+29	학생	B-CV	B-CV
+30	##들이	O	O
+31	체육관	O	O
+32	##과	O	O
+33	교실	O	O
+34	##에	O	O
+35	##서	O	O
+36	자유	O	O
+37	##롭	O	O
+38	##게	O	O
+39	뛰	O	O
+40	##놀	O	O
+41	##고	O	O
+42	있	O	O
+43	##었	O	O
+44	##다	O	O
+45	.	O	O
+46	[SEP]	O	O

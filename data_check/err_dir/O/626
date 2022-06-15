@@ -1,38 +1,46 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	특히	O	O	O, B-OG, B-CV, B-LC, B-TM
-2	매년	O	O	O, B-DT, B-QT, B-OG, B-LC
-3	귀농	O	B-CV	B-CV, O, I-CV, B-TM, B-OG
-4	##인	O	I-CV	I-CV, O, B-CV, I-TM, I-OG
-5	지원	O	O	O, I-CV, B-CV, I-TM, I-QT
-6	대책	O	O	O, I-CV, B-CV, I-TM, B-PS
-7	수립	O	O	O, I-CV, B-CV, I-TM, B-PS
-8	##과	O	O	O, B-PS, B-LC, B-OG, B-CV
-9	귀농	O	B-CV	B-CV, O, B-TM, I-CV, B-AF
-10	##인	O	I-CV	I-CV, O, B-CV, I-TM, I-OG
-11	지원	O	O	O, I-CV, B-CV, I-OG, I-TM
-12	##에	O	O	O, I-CV, B-CV, B-PS, B-LC
-13	대한	O	O	O, B-LC, B-CV, B-PS, B-OG
-14	법	O	O	O, B-CV, I-CV, B-PS, B-LC
-15	##적	O	O	O, I-CV, I-PS, B-CV, B-PS
-16	근거	O	O	O, B-CV, I-CV, B-PS, B-TM
-17	마련	O	O	O, I-CV, B-CV, B-PS, B-LC
-18	##을	O	O	O, B-CV, B-PS, I-CV, B-LC
-19	위해	O	O	O, B-LC, B-OG, B-DT, B-CV
-20	'	O	O	O, B-LC, B-CV, B-OG, B-DT
-21	전남	B-LC	B-LC	B-LC, B-CV, B-OG, O, B-AF
-22	##도	I-LC	I-LC	I-LC, O, I-CV, I-OG, B-LC
-23	귀농	O	B-CV	B-CV, O, I-CV, I-LC, I-OG
-24	##인	O	I-CV	I-CV, O, B-CV, I-OG, I-AF
-25	지원	O	I-CV	I-CV, O, B-CV, I-OG, I-AF
-26	##조	O	I-CV	I-CV, O, B-CV, I-OG, I-QT
-27	##례	O	I-CV	I-CV, O, B-CV, I-OG, I-QT
-28	'	O	O	O, I-CV, I-OG, B-CV, I-QT
-29	도	O	O	O, B-LC, B-CV, B-OG, B-PS
-30	제정	O	O	O, B-CV, B-OG, B-LC, B-PS
-31	##한다	O	O	O, B-LC, B-OG, B-PS, I-OG
-32	##는	O	O	O, B-LC, B-OG, B-CV, B-PS
-33	방침	O	O	O, B-CV, B-OG, B-TM, B-LC
-34	##이다	O	O	O, B-CV, B-OG, I-OG, B-TM
-35	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-36	[SEP]	O	O	O, B-CV, B-LC, B-OG, I-CV
+	text	label	preds
+0	[CLS]	O	O
+1	특수	O	O
+2	##2	O	O
+3	##부	O	O
+4	##에	O	O
+5	관세청	B-OG	B-OG
+6	사건	O	O
+7	##을	O	O
+8	재배	O	O
+9	##당	O	O
+10	##한	O	O
+11	것	O	O
+12	##은	O	O
+13	박영	B-PS	B-PS
+14	##수	I-PS	I-PS
+15	특별	O	B-CV
+16	##검사	O	I-CV
+17	##팀	O	O
+18	##에	O	O
+19	##서	O	O
+20	넘겨	O	O
+21	##받	O	O
+22	##은	O	O
+23	‘	O	O
+24	캐	O	O
+25	##비	O	O
+26	##닛	O	O
+27	문건	O	O
+28	’	O	O
+29	조사	O	O
+30	##를	O	O
+31	특수	O	O
+32	##1	O	O
+33	##부	O	O
+34	##에	O	O
+35	맡기	O	O
+36	##기	O	O
+37	위해서	O	O
+38	##인	O	O
+39	것	O	O
+40	##으로	O	O
+41	알려졌	O	O
+42	##다	O	O
+43	.	O	O
+44	[SEP]	O	O

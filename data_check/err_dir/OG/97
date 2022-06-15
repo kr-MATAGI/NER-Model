@@ -1,34 +1,52 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-EV, B-CV, I-OG, I-QT
-1	이	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-2	장관	B-CV	B-CV	B-CV, O, I-PS, I-CV, B-OG
-3	##은	O	O	O, I-CV, I-EV, B-CV, I-OG
-4	이달	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-QT
-5	25	I-DT	I-DT	I-DT, B-DT, O, I-EV, I-QT
-6	##일	I-DT	I-DT	I-DT, O, I-EV, B-DT, I-QT
-7	일본	B-LC	B-LC	B-LC, O, B-OG, I-LC, I-DT
-8	##에서	O	O	O, I-LC, I-EV, B-LC, I-AF
-9	열리	O	O	O, B-CV, B-LC, B-EV, B-OG
-10	##는	O	O	O, B-EV, B-LC, B-DT, B-CV
-11	한중일	B-OG	B-EV	B-EV, B-LC, B-OG, B-AF, I-EV
-12	물류	I-OG	I-EV	I-EV, O, B-EV, I-OG, I-AF
-13	##장	I-OG	I-EV	I-EV, O, I-OG, I-AF, I-LC
-14	##관	I-OG	I-EV	I-EV, O, I-OG, I-AF, I-LC
-15	##회의	I-OG	I-EV	I-EV, O, I-OG, I-AF, I-LC
-16	등	O	O	O, I-EV, I-OG, I-AF, I-DT
-17	##의	O	O	O, I-EV, B-LC, B-CV, B-EV
-18	참석	O	O	O, B-CV, B-LC, B-EV, B-OG
-19	여부	O	O	O, B-LC, B-PS, B-CV, I-EV
-20	##를	O	O	O, B-CV, B-LC, B-PS, B-TM
-21	놓	O	O	O, B-LC, B-CV, B-PS, B-TM
-22	##고	O	O	O, B-PS, B-LC, B-CV, B-OG
-23	##도	O	O	O, B-CV, B-LC, B-PS, B-OG
-24	고심	O	O	O, B-CV, B-TM, B-LC, B-QT
-25	중	O	O	O, B-PS, B-CV, B-LC, B-QT
-26	##인	O	O	O, B-PS, B-CV, B-LC, B-QT
-27	것	O	O	O, B-CV, B-PS, B-LC, B-OG
-28	##으로	O	O	O, B-CV, B-LC, I-OG, B-TM
-29	알려졌	O	O	O, B-CV, B-LC, B-TM, B-OG
-30	##다	O	O	O, B-CV, I-OG, I-EV, B-QT
-31	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-32	[SEP]	O	O	O, B-LC, B-CV, I-EV, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	헨	B-PS	B-PS
+2	##더슨	I-PS	I-PS
+3	##은	O	O
+4	UFC	B-OG	B-OG
+5	##에	O	O
+6	데뷔	O	O
+7	##한	O	O
+8	이후	O	O
+9	지난해	B-DT	B-DT
+10	4	I-DT	I-DT
+11	##월	I-DT	I-DT
+12	마크	B-PS	B-PS
+13	보	I-PS	I-PS
+14	##첵	I-PS	I-PS
+15	,	O	O
+16	8	B-DT	B-DT
+17	##월	I-DT	I-DT
+18	짐	B-PS	B-PS
+19	밀러	I-PS	I-PS
+20	,	O	O
+21	11	B-DT	B-DT
+22	##월	I-DT	I-DT
+23	클레이	B-PS	B-PS
+24	구이	I-PS	I-OG
+25	##다	I-PS	I-OG
+26	##를	O	O
+27	연속	O	O
+28	##으로	O	O
+29	격파	O	O
+30	##하	O	O
+31	##고	O	O
+32	##서	O	O
+33	에드	B-PS	B-PS
+34	##거	I-PS	I-PS
+35	##마	O	O
+36	##저	O	O
+37	꺾	O	O
+38	##고	O	O
+39	꿈	O	O
+40	##에	O	O
+41	그리	O	O
+42	##던	O	O
+43	UFC	B-OG	B-EV
+44	챔프	B-CV	B-CV
+45	##에	O	O
+46	등극	O	O
+47	##했	O	O
+48	##다	O	O
+49	.	O	O
+50	[SEP]	O	O

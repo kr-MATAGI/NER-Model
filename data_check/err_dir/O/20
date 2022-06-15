@@ -1,68 +1,19 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-EV, I-OG
-1	대회	O	O	O, B-CV, B-TM, B-PS, B-LC
-2	공식	O	O	O, B-CV, B-TM, B-LC, B-PS
-3	누리집	O	O	O, B-TM, B-CV, B-LC, B-OG
-4	##인	O	O	O, B-CV, B-LC, B-PS, B-TM
-5	‘	O	O	O, B-CV, B-LC, B-OG, B-TM
-6	인포	O	B-TM	B-TM, B-AF, O, B-OG, B-EV
-7	2010	B-DT	B-DT	B-DT, I-DT, I-AF, I-TM, I-EV
-8	광저우	B-EV	B-EV	B-EV, I-EV, B-LC, I-AF, I-DT
-9	##아시아	I-EV	I-EV	I-EV, B-EV, I-AF, I-LC, O
-10	##경기	I-EV	I-EV	I-EV, O, I-AF, B-EV, I-LC
-11	##대	I-EV	I-EV	I-EV, O, I-AF, B-EV, I-LC
-12	##회	I-EV	I-EV	I-EV, O, B-EV, I-AF, I-OG
-13	’	O	O	O, I-EV, I-AF, B-CV, I-OG
-14	에	O	O	O, B-CV, B-LC, B-TM, B-OG
-15	선수	B-CV	B-CV	B-CV, O, I-CV, B-EV, B-TM
-16	인터뷰	O	O	O, I-CV, B-CV, B-TM, I-EV
-17	##를	O	O	O, B-CV, B-PS, B-OG, B-LC
-18	올리	O	O	O, B-PS, B-CV, B-OG, B-LC
-19	##는	O	O	O, B-PS, B-CV, B-LC, B-OG
-20	두	B-LC	B-PS	B-PS, B-LC, O, B-OG, I-PS
-21	##바이	I-LC	I-PS	I-PS, I-LC, O, I-OG, B-LC
-22	##위	O	I-PS	I-PS, I-LC, O, I-OG, B-LC
-23	신화	B-OG	B-OG	B-OG, I-OG, O, B-LC, I-PS
-24	##통신	I-OG	I-OG	I-OG, O, I-LC, I-PS, I-AF
-25	국제	O	O	O, B-CV, I-OG, B-TM, B-QT
-26	##부	O	O	O, I-OG, I-CV, I-QT, I-TM
-27	기자	B-CV	B-CV	B-CV, O, I-CV, I-QT, B-OG
-28	##는	O	O	O, I-CV, B-CV, I-QT, I-EV
-29	경기	O	O	O, B-CV, B-TM, B-LC, B-PS
-30	뒤	O	O	O, B-TM, B-PS, B-CV, B-LC
-31	감독	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-OG
-32	##에	O	O	O, I-CV, B-CV, I-EV, I-QT
-33	##게	O	O	O, B-CV, B-TM, B-LC, B-PS
-34	“	O	O	O, B-CV, B-LC, B-PS, B-TM
-35	그렇게	O	O	O, B-CV, B-LC, B-TM, B-PS
-36	때리	O	O	O, B-CV, B-PS, B-LC, B-OG
-37	##면	O	O	O, B-PS, B-CV, B-LC, B-OG
-38	선수	B-CV	B-CV	B-CV, O, I-CV, B-EV, B-TM
-39	##들	O	O	O, I-CV, B-CV, I-EV, I-AF
-40	자존심	O	O	O, B-CV, B-PS, B-TM, B-LC
-41	##이	O	O	O, B-PS, B-CV, B-OG, B-LC
-42	상하	O	O	O, B-CV, B-PS, B-LC, B-TM
-43	##는	O	O	O, I-CV, B-PS, B-CV, I-OG
-44	게	O	O	O, B-PS, B-CV, B-LC, I-CV
-45	아니	O	O	O, B-PS, B-CV, B-LC, I-CV
-46	##냐	O	O	O, B-PS, I-QT, I-CV, I-PS
-47	”	O	O	O, B-CV, B-TM, B-PS, B-LC
-48	고	O	O	O, B-CV, B-LC, B-PS, B-TM
-49	물	O	O	O, B-CV, B-PS, B-LC, B-TM
-50	##었	O	O	O, B-CV, B-PS, I-CV, B-LC
-51	##고	O	O	O, B-CV, I-CV, B-PS, I-EV
-52	,	O	O	O, B-CV, B-PS, B-LC, B-TM
-53	감독	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-TM
-54	##은	O	O	O, I-CV, I-EV, B-CV, I-QT
-55	“	O	O	O, B-CV, B-LC, B-TM, I-CV
-56	그런	O	O	O, B-CV, B-LC, B-TM, B-OG
-57	것	O	O	O, B-CV, B-PS, B-LC, B-OG
-58	##들	O	O	O, B-PS, B-CV, B-LC, B-OG
-59	선수	B-CV	B-CV	B-CV, O, B-EV, B-TM, I-CV
-60	##들	O	O	O, I-CV, I-EV, B-CV, I-AF
-61	##은	O	O	O, B-CV, B-TM, I-CV, B-PS
-62	생각	O	O	O, B-CV, B-TM, B-OG, B-QT
-63	안	O	O	O, B-CV, B-PS, I-AF, I-CV
-64	한다	O	O	O, B-CV, B-TM, B-LC, I-OG
-65	.	O	O	O, B-CV, B-LC, B-PS, B-TM
-66	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	[	O	O
+2	수도권	B-LC	B-LC
+3	##Ⅰ	B-QT	B-QT
+4	]	O	O
+5	4	B-DT	B-EV
+6	·	I-DT	I-EV
+7	29	I-DT	I-EV
+8	시흥시	O	I-EV
+9	##장	O	I-EV
+10	보궐	B-EV	I-EV
+11	##선거	I-EV	I-EV
+12	3	B-QT	B-QT
+13	##자	I-QT	I-QT
+14	대결	O	O
+15	##구	O	O
+16	##도	O	O
+17	[SEP]	O	O

@@ -1,52 +1,46 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-EV, I-CV
-1	대법원	B-OG	B-OG	B-OG, O, B-AF, B-LC, B-CV
-2	##은	O	O	O, I-OG, B-CV, I-EV, B-OG
-3	'	O	O	O, B-LC, B-PS, B-CV, B-OG
-4	대법원장	B-CV	B-CV	B-CV, O, B-OG, B-PS, B-EV
-5	##이	O	O	O, B-PS, I-CV, I-PS, I-EV
-6	추천	O	O	O, B-CV, B-PS, B-OG, B-TR
-7	##한	O	O	O, B-PS, B-CV, B-OG, B-LC
-8	3	B-QT	B-QT	B-QT, O, I-QT, B-EV, B-PS
-9	##인	I-QT	I-QT	I-QT, O, I-EV, I-PS, I-OG
-10	##은	O	O	O, I-QT, I-EV, I-OG, B-CV
-11	민주	B-TR	O	O, B-TR, B-FD, I-TR, B-PS
-12	##적	I-TR	O	O, I-TR, B-TR, B-PS, I-PS
-13	정당	O	O	O, B-TR, I-TR, B-PS, B-OG
-14	##성이	O	O	O, B-PS, B-LC, B-OG, B-TR
-15	떨어진다	O	O	O, B-PS, B-CV, B-OG, B-LC
-16	'	O	O	O, B-CV, B-PS, B-OG, B-LC
-17	는	O	O	O, B-PS, B-CV, B-OG, B-LC
-18	지적	O	O	O, B-CV, B-PS, B-OG, B-LC
-19	##에	O	O	O, B-PS, B-CV, B-OG, I-EV
-20	대해서	O	O	O, B-OG, B-CV, B-LC, B-PS
-21	##도	O	O	O, B-PS, B-LC, I-EV, B-CV
-22	""""	O	O	O, B-LC, B-CV, B-OG, B-PS
-23	국회	B-OG	B-OG	B-OG, B-AF, O, B-LC, B-EV
-24	인사	B-EV	B-EV	B-EV, O, I-EV, B-CV, B-OG
-25	##청	I-EV	I-EV	I-EV, O, I-OG, I-AF, B-EV
-26	##문	I-EV	I-EV	I-EV, O, I-OG, I-AF, I-LC
-27	##회	I-EV	I-EV	I-EV, O, I-OG, I-AF, I-LC
-28	##와	O	O	O, I-EV, I-OG, I-AF, I-QT
-29	표결	O	O	O, B-EV, B-LC, B-PS, B-CV
-30	##을	O	O	O, I-EV, B-CV, B-PS, B-OG
-31	거치	O	O	O, B-CV, B-OG, B-LC, B-PS
-32	##면서	O	O	O, B-PS, B-LC, B-OG, B-CV
-33	국민	B-CV	B-CV	B-CV, O, B-OG, B-EV, B-PS
-34	##의사	O	O	O, I-CV, I-EV, B-CV, B-PS
-35	##가	O	O	O, B-PS, B-CV, B-OG, B-LC
-36	반영	O	O	O, B-CV, B-LC, B-PS, B-TM
-37	##되	O	O	O, B-PS, B-CV, B-LC, B-OG
-38	##기	O	O	O, B-PS, B-CV, B-OG, B-LC
-39	때문	O	O	O, B-PS, B-LC, B-CV, B-OG
-40	##에	O	O	O, B-LC, B-OG, B-PS, B-CV
-41	문제	O	O	O, B-CV, B-LC, B-OG, B-PS
-42	##가	O	O	O, B-PS, B-OG, B-LC, B-CV
-43	없	O	O	O, B-CV, B-PS, B-LC, B-OG
-44	##다	O	O	O, B-PS, B-OG, B-CV, B-LC
-45	""""	O	O	O, B-CV, B-LC, B-OG, B-PS
-46	는	O	O	O, B-PS, B-OG, B-CV, B-LC
-47	입장	O	O	O, B-CV, B-OG, B-PS, B-LC
-48	##이다	O	O	O, B-CV, B-OG, I-OG, I-EV
-49	.	O	O	O, B-PS, B-LC, B-CV, B-OG
-50	[SEP]	O	O	O, B-CV, B-LC, B-PS, I-EV
+	text	label	preds
+0	[CLS]	O	O
+1	하지	O	O
+2	##만	O	O
+3	일본	B-LC	B-LC
+4	정부	B-OG	B-OG
+5	##는	O	O
+6	프랑스	B-LC	B-LC
+7	업체	O	O
+8	##와	O	O
+9	제휴	O	O
+10	##해	O	O
+11	몬	B-AF	B-AF
+12	##주	I-AF	I-AF
+13	##를	O	O
+14	대체	O	O
+15	##할	O	O
+16	새로운	O	O
+17	고속	B-TM	B-TM
+18	##증	I-TM	I-TM
+19	##식	I-TM	I-TM
+20	##로	I-TM	I-TM
+21	실용	O	O
+22	##화	O	O
+23	##를	O	O
+24	추진	O	O
+25	##하	O	O
+26	##는	O	O
+27	등	O	O
+28	핵연료	B-TR	B-MT
+29	사이클	I-TR	O
+30	계획	O	O
+31	##을	O	O
+32	포기	O	O
+33	##할	O	O
+34	뜻	O	O
+35	##이	O	O
+36	없	O	O
+37	##음	O	O
+38	##을	O	O
+39	내비치	O	O
+40	##고	O	O
+41	있	O	O
+42	##다	O	O
+43	.	O	O
+44	[SEP]	O	O

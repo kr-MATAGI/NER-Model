@@ -1,32 +1,31 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-AF, I-EV
-1	신혼	O	O	O, B-DT, B-CV, B-PS, B-QT
-2	초기	O	O	O, I-DT, I-CV, B-CV, B-DT
-3	##인	O	O	O, B-PS, I-CV, B-CV, I-DT
-4	오	B-PS	B-PS	B-PS, O, I-PS, B-OG, B-LC
-5	##모	O	O	O, I-PS, B-PS, B-CV, I-AF
-6	씨	O	O	O, B-CV, B-PS, I-PS, I-CV
-7	(	O	O	O, B-PS, B-CV, I-CV, B-LC
-8	29	B-QT	B-QT	B-QT, O, B-DT, I-QT, B-TI
-9	·	O	O	O, I-QT, I-DT, B-PS, I-PS
-10	여	O	O	O, B-CV, B-PS, B-TM, I-QT
-11	)	O	O	O, B-CV, B-PS, I-CV, B-LC
-12	는	O	O	O, B-CV, B-PS, B-TM, B-LC
-13	청소년기	O	O	O, B-DT, B-CV, B-PS, B-QT
-14	초	B-TM	O	O, B-TR, B-TM, B-TI, B-CV
-15	##경	I-TM	O	O, I-TR, I-TM, I-CV, I-TI
-16	##을	O	O	O, B-CV, B-PS, I-CV, I-TM
-17	시작	O	O	O, B-CV, B-PS, B-TM, B-LC
-18	##할	O	O	O, B-PS, B-CV, I-CV, I-PS
-19	때	O	O	O, B-CV, B-PS, I-CV, B-TM
-20	##부터	O	O	O, B-PS, B-CV, I-DT, I-CV
-21	생리	B-TM	B-TM	B-TM, O, I-TM, B-CV, B-TR
-22	##통	I-TM	I-TM	I-TM, O, I-TR, B-TM, I-CV
-23	##을	O	O	O, I-TM, I-CV, B-CV, B-PS
-24	심하	O	O	O, B-CV, B-TM, B-PS, B-LC
-25	##게	O	O	O, B-PS, I-CV, B-CV, I-PS
-26	앓	O	O	O, B-CV, B-PS, B-TM, B-LC
-27	##았	O	O	O, B-PS, B-CV, I-CV, B-LC
-28	##다	O	O	O, B-CV, B-PS, I-CV, B-TM
-29	.	O	O	O, B-PS, B-CV, B-LC, B-TM
-30	[SEP]	O	O	O, B-CV, B-PS, B-TM, I-CV
+	text	label	preds
+0	[CLS]	O	O
+1	말	B-TM	B-TM
+2	##초	I-TM	I-TM
+3	##동	I-TM	I-TM
+4	##맥	I-TM	I-TM
+5	질환	I-TM	I-TM
+6	##은	O	O
+7	노화	O	O
+8	##와	O	O
+9	함께	O	O
+10	동맥	B-TM	B-TM
+11	##경	I-TM	I-TM
+12	##화	I-TM	I-TM
+13	##로	O	O
+14	혈관	O	O
+15	##이	O	O
+16	좁	O	O
+17	##아지	O	O
+18	##고	O	O
+19	혈액	B-TM	O
+20	공급	O	O
+21	##이	O	O
+22	제대로	O	O
+23	이뤄지지	O	O
+24	않	O	O
+25	##는	O	O
+26	질병	O	O
+27	##이다	O	O
+28	.	O	O
+29	[SEP]	O	O

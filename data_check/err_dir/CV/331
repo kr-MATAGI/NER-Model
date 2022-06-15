@@ -1,28 +1,60 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-QT
-1	바꿔	B-CV	B-CV	B-CV, B-AF, O, B-OG, B-PS
-2	##드	I-CV	I-CV	I-CV, I-AF, O, I-OG, I-TM
-3	##림	I-CV	I-CV	I-CV, I-AF, I-OG, O, I-TM
-4	##론	I-CV	I-CV	I-CV, I-AF, I-OG, O, I-TM
-5	##은	O	O	O, I-AF, I-CV, I-OG, I-TM
-6	그동안	O	O	O, B-CV, B-LC, B-TM, B-OG
-7	이용자	B-CV	B-CV	B-CV, O, B-AF, B-TM, I-CV
-8	##가	O	O	O, I-CV, I-AF, I-OG, B-CV
-9	꾸준히	O	O	O, B-CV, B-TM, B-OG, B-LC
-10	늘	O	O	O, B-CV, B-OG, B-LC, B-TM
-11	##면서	O	O	O, B-CV, B-LC, B-PS, B-OG
-12	대표	O	O	O, B-CV, B-LC, B-TM, B-PS
-13	##적인	O	O	O, B-LC, B-CV, B-PS, B-QT
-14	‘	O	O	O, B-CV, B-LC, B-OG, B-PS
-15	서민	B-CV	O	O, B-CV, B-FD, B-OG, B-AF
-16	##금융	O	O	O, I-CV, I-FD, B-FD, I-AF
-17	’	O	O	O, I-CV, B-CV, B-PS, I-FD
-18	지원	O	O	O, B-CV, I-CV, B-FD, B-PS
-19	##제	O	O	O, I-CV, B-CV, B-PS, B-FD
-20	##도로	O	O	O, I-CV, B-CV, B-PS, B-QT
-21	자리	O	O	O, B-CV, B-LC, B-TM, B-PS
-22	##잡	O	O	O, B-PS, I-CV, B-CV, I-OG
-23	##았	O	O	O, B-CV, B-PS, I-CV, I-OG
-24	##다	O	O	O, B-CV, B-TM, B-QT, I-CV
-25	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-26	[SEP]	O	O	O, B-CV, B-LC, B-FD, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	구체	O	O
+2	##적	O	O
+3	##으로	O	O
+4	,	O	O
+5	김성수	B-PS	B-PS
+6	##는	O	O
+7	1943	B-DT	O
+8	##년	I-DT	O
+9	8	I-DT	O
+10	##월	I-DT	O
+11	##5	I-DT	O
+12	##일치	I-DT	O
+13	<	O	O
+14	매일	B-OG	B-OG
+15	##신	I-OG	I-OG
+16	##보	I-OG	I-OG
+17	>	O	O
+18	에	O	O
+19	기고	O	O
+20	##한	O	O
+21	글	O	O
+22	##에	O	O
+23	##서	O	O
+24	“	O	O
+25	징병	B-CV	B-CV
+26	##제	I-CV	I-CV
+27	실시	O	O
+28	##로	O	O
+29	비로소	O	O
+30	조선인	B-CV	B-CV
+31	##이	O	O
+32	명실상부	O	O
+33	##한	O	O
+34	황	O	O
+35	##국	O	O
+36	##의	O	O
+37	신민	B-CV	O
+38	##으로	O	O
+39	되	O	O
+40	##었	O	O
+41	##다	O	O
+42	”	O	O
+43	고	O	O
+44	주장	O	O
+45	##하	O	O
+46	##는	O	O
+47	등	O	O
+48	여러	O	O
+49	차례	O	O
+50	학	B-CV	B-CV
+51	##병	I-CV	I-CV
+52	지원	O	O
+53	##을	O	O
+54	독려	O	O
+55	##했	O	O
+56	##다	O	O
+57	.	O	O
+58	[SEP]	O	O

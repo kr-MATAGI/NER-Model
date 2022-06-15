@@ -1,19 +1,76 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-AF
-1	일본	B-OG	B-LC	B-LC, B-OG, O, B-PS, B-AF
-2	##은	O	O	O, I-OG, I-LC, I-AF, B-LC
-3	한국	B-OG	B-LC	B-LC, B-OG, O, B-PS, B-AF
-4	##보	O	O	O, I-LC, I-OG, I-AF, I-DT
-5	##다	O	O	O, I-OG, I-DT, I-LC, I-AF
-6	##도	O	O	O, B-LC, B-PS, B-OG, B-CV
-7	외국인	B-CV	B-CV	B-CV, O, B-OG, B-TM, I-CV
-8	경계	O	O	O, I-CV, I-TR, B-TR, B-PS
-9	##론	O	O	O, I-TR, I-CV, B-PS, I-PS
-10	##의	O	O	O, B-PS, B-CV, B-LC, B-OG
-11	뿌리	O	O	O, B-PT, B-AM, B-LC, B-PS
-12	##가	O	O	O, I-OG, I-AF, B-PS, I-PS
-13	훨씬	O	O	O, B-LC, B-OG, B-PS, B-CV
-14	깊	O	O	O, B-LC, B-PS, B-CV, B-OG
-15	##다	O	O	O, B-CV, I-OG, I-AF, I-CV
-16	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-17	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	이스라엘	B-LC	B-LC
+2	전직	O	O
+3	수영	B-CV	B-CV
+4	국가	B-CV	B-CV
+5	##대표	I-CV	I-CV
+6	##로	O	O
+7	이스라엘	B-OG	B-LC
+8	·	O	O
+9	키프로스	B-OG	B-LC
+10	2	B-QT	B-QT
+11	##개	I-QT	I-QT
+12	##국	I-QT	I-QT
+13	입장권	O	O
+14	판매	O	O
+15	대행	O	O
+16	##을	O	O
+17	맡	O	O
+18	##고	O	O
+19	있	O	O
+20	##는	O	O
+21	요	B-PS	B-PS
+22	##아	I-PS	I-PS
+23	##프	I-PS	I-PS
+24	브룩	I-PS	I-PS
+25	(	O	O
+26	40	B-QT	B-QT
+27	)	O	O
+28	은	O	O
+29	남자	O	O
+30	100	B-QT	B-QT
+31	##m	I-QT	I-QT
+32	육상	B-CV	B-CV
+33	##경기	O	O
+34	AA	O	B-QT
+35	##급	O	I-QT
+36	입장권	O	O
+37	##을	O	O
+38	포함	O	O
+39	##해	O	O
+40	여러	O	O
+41	경기	O	O
+42	##의	O	O
+43	입장권	O	O
+44	수백	O	O
+45	장	O	O
+46	##을	O	O
+47	선데이	B-OG	B-OG
+48	##타임	I-OG	I-OG
+49	##스	I-OG	I-OG
+50	기자	B-CV	B-CV
+51	##에	O	O
+52	##게	O	O
+53	6	B-QT	B-QT
+54	##만	I-QT	I-QT
+55	##60	I-QT	I-QT
+56	##00	I-QT	I-QT
+57	##파	I-QT	I-QT
+58	##운드	I-QT	I-QT
+59	(	O	O
+60	약	B-QT	B-QT
+61	1	I-QT	I-QT
+62	##억	I-QT	I-QT
+63	##20	I-QT	I-QT
+64	##00	I-QT	I-QT
+65	##만	I-QT	I-QT
+66	원	I-QT	I-QT
+67	)	O	O
+68	에	O	O
+69	팔려	O	O
+70	##고	O	O
+71	했	O	O
+72	##다	O	O
+73	.	O	O
+74	[SEP]	O	O

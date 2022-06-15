@@ -1,23 +1,70 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-EV, B-CV, I-OG, I-CV
-1	중국	B-LC	B-OG	B-OG, B-LC, O, B-PS, B-TM
-2	##도	O	O	O, I-OG, I-LC, B-OG, I-EV
-3	나름	O	O	O, B-CV, B-LC, B-TM, B-OG
-4	노력	O	O	O, B-LC, B-OG, B-CV, B-EV
-5	##을	O	O	O, I-EV, I-OG, B-PS, B-CV
-6	했으나	O	O	O, B-LC, B-OG, B-PS, B-CV
-7	북한	B-OG	B-LC	B-LC, B-OG, O, B-PS, B-TM
-8	##의	O	O	O, I-OG, I-LC, I-EV, I-AF
-9	탄도	B-AF	B-AF	B-AF, O, B-EV, B-TM, B-LC
-10	##미사	I-AF	I-AF	I-AF, I-EV, O, I-LC, I-TM
-11	##일	I-AF	I-AF	I-AF, I-EV, O, I-TM, I-LC
-12	도발	O	O	O, I-EV, I-AF, B-EV, B-CV
-13	등	O	O	O, I-EV, I-AF, B-CV, B-LC
-14	##을	O	O	O, B-CV, I-EV, B-LC, B-OG
-15	막	O	O	O, B-CV, B-LC, B-QT, B-TM
-16	##지	O	O	O, B-LC, B-CV, B-TM, B-OG
-17	##는	O	O	O, B-CV, B-LC, B-TM, B-OG
-18	못했	O	O	O, B-CV, B-LC, I-EV, B-TM
-19	##다	O	O	O, B-CV, I-EV, B-LC, I-OG
-20	.	O	O	O, B-LC, B-CV, I-EV, B-OG
-21	[SEP]	O	O	O, B-CV, B-LC, I-EV, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	이명박	B-PS	B-PS
+2	대통령	B-CV	B-CV
+3	##은	O	O
+4	21	B-DT	B-DT
+5	##일	I-DT	I-DT
+6	검찰	B-CV	B-CV
+7	##총장	I-CV	I-CV
+8	##에	O	O
+9	천성	B-PS	B-PS
+10	##관	I-PS	I-PS
+11	서울	B-LC	B-LC
+12	##중	I-LC	I-LC
+13	##앙	I-LC	O
+14	##지	B-CV	B-CV
+15	##검	I-CV	I-CV
+16	##장	I-CV	I-CV
+17	##을	O	O
+18	낙점	O	O
+19	##하면	O	O
+20	##서	O	O
+21	“	O	O
+22	대통령	B-CV	B-CV
+23	##과	O	O
+24	일면	O	O
+25	##식	O	O
+26	##도	O	O
+27	없	O	O
+28	##는	O	O
+29	사람	O	O
+30	##을	O	O
+31	검찰	B-CV	B-CV
+32	##총장	I-CV	I-CV
+33	##으로	O	O
+34	발탁	O	O
+35	##한	O	O
+36	것	O	O
+37	##은	O	O
+38	역대	O	O
+39	정권	O	O
+40	##에	O	O
+41	##서	O	O
+42	아마	O	O
+43	처음	O	O
+44	##일	O	O
+45	것	O	O
+46	”	O	O
+47	이라	O	O
+48	##며	O	O
+49	역대	O	O
+50	정권	O	O
+51	##과	O	O
+52	다른	O	O
+53	‘	O	O
+54	검찰	O	B-OG
+55	##의	O	O
+56	일신	O	O
+57	(	O	O
+58	日	O	O
+59	新	O	O
+60	)	O	O
+61	’	O	O
+62	을	O	O
+63	강조	O	O
+64	##했	O	O
+65	##다고	O	O
+66	한다	O	O
+67	.	O	O
+68	[SEP]	O	O

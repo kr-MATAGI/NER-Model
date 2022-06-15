@@ -1,27 +1,25 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-EV, I-CV
-1	그	O	O	O, B-CV, B-OG, B-PS, B-LC
-2	##는	O	O	O, B-CV, B-PS, I-EV, B-LC
-3	기자	O	O	O, B-CV, B-EV, B-TM, B-LC
-4	##회	O	O	O, I-EV, B-CV, B-EV, I-CV
-5	##견	O	O	O, I-EV, B-CV, I-CV, B-LC
-6	##을	O	O	O, B-CV, B-OG, I-EV, B-PS
-7	열	O	O	O, B-CV, B-OG, B-LC, B-PS
-8	##어	O	O	O, B-LC, B-OG, B-PS, B-CV
-9	한국	B-LC	B-OG	B-OG, B-LC, O, B-AF, B-CV
-10	##비	O	I-OG	I-OG, B-OG, O, B-CV, I-PS
-11	##료	O	I-OG	I-OG, O, I-AF, I-CV, I-LC
-12	##의	O	O	O, I-OG, I-CV, I-AF, B-CV
-13	국가	O	O	O, B-CV, I-OG, B-LC, B-OG
-14	헌	O	O	O, B-CV, I-CV, I-OG, B-PS
-15	##납	O	O	O, I-CV, I-OG, B-CV, I-QT
-16	##과	O	O	O, B-PS, B-CV, B-LC, I-CV
-17	경영	O	O	O, B-CV, B-FD, B-LC, B-TM
-18	일선	O	O	O, B-CV, I-CV, B-LC, B-TM
-19	퇴진	O	O	O, B-CV, I-CV, B-PS, B-TM
-20	##을	O	O	O, B-CV, B-PS, B-OG, I-CV
-21	약속	O	O	O, B-CV, B-OG, B-LC, B-PS
-22	##했	O	O	O, B-CV, B-PS, B-LC, B-OG
-23	##다	O	O	O, B-CV, B-PS, B-LC, I-OG
-24	.	O	O	O, B-CV, B-LC, B-PS, B-OG
-25	[SEP]	O	O	O, B-CV, B-LC, B-PS, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	근데	O	O
+2	십	B-QT	B-QT
+3	##삼	I-QT	I-QT
+4	##만	I-QT	I-QT
+5	종류	O	I-QT
+6	화학	O	B-FD
+7	##물	O	O
+8	##을	O	O
+9	찾	O	O
+10	##으	O	O
+11	##러	O	O
+12	딱	O	O
+13	갔	O	O
+14	##는데	O	O
+15	비슷	O	O
+16	##한	O	O
+17	게	O	O
+18	나오	O	O
+19	##는	O	O
+20	거	O	O
+21	##예	O	O
+22	##요	O	O
+23	[SEP]	O	O

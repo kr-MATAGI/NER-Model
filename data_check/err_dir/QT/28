@@ -1,40 +1,40 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	김	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
-2	회장	B-CV	B-CV	B-CV, O, I-PS, I-CV, B-OG
-3	##은	O	O	O, I-CV, B-CV, I-OG, I-EV
-4	2008	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-LC
-5	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-6	초	I-DT	I-DT	I-DT, O, B-DT, I-PS, I-QT
-7	동부	B-OG	B-OG	B-OG, O, B-LC, I-OG, B-AF
-8	##하이	I-OG	I-OG	I-OG, O, I-LC, B-OG, I-CV
-9	##텍	I-OG	I-OG	I-OG, O, I-LC, I-CV, I-AF
-10	##에	O	O	O, I-OG, B-OG, I-CV, B-CV
-11	동부	B-OG	B-OG	B-OG, O, I-OG, B-LC, B-AF
-12	##화	I-OG	I-OG	I-OG, O, I-LC, B-OG, I-CV
-13	##재	I-OG	I-OG	I-OG, O, I-LC, I-CV, I-AF
-14	주식	O	O	O, B-CV, I-OG, I-CV, B-AF
-15	##을	O	O	O, I-CV, B-CV, I-AF, I-OG
-16	담보	O	O	O, B-CV, B-LC, B-TM, B-PS
-17	##용	O	O	O, B-LC, B-PS, B-CV, B-TM
-18	##으로	O	O	O, B-LC, B-PS, B-CV, B-OG
-19	빌려	O	O	O, B-CV, B-OG, B-LC, B-AF
-20	##줄	O	O	O, B-CV, B-PS, B-OG, B-LC
-21	때	O	O	O, B-CV, B-PS, B-OG, I-CV
-22	##도	O	O	O, B-CV, B-PS, B-LC, B-OG
-23	연	O	O	O, B-DT, B-CV, B-QT, I-DT
-24	1	B-QT	B-QT	B-QT, I-QT, O, B-DT, I-DT
-25	%	I-QT	I-QT	I-QT, O, I-DT, I-LC, I-PS
-26	(	O	O	O, I-QT, I-DT, I-OG, B-CV
-27	10	B-QT	B-QT	B-QT, I-QT, O, B-DT, B-OG
-28	##억	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-29	##원	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-30	상당	I-QT	O	O, I-QT, I-DT, I-LC, I-TM
-31	)	O	O	O, I-QT, B-CV, B-OG, B-LC
-32	의	O	O	O, B-CV, B-OG, B-LC, B-PS
-33	수수료	O	O	O, B-CV, B-TM, B-QT, B-OG
-34	##를	O	O	O, B-CV, B-OG, I-OG, B-TM
-35	챙겼	O	O	O, B-CV, B-OG, B-TM, B-LC
-36	##다	O	O	O, B-CV, B-OG, B-LC, I-OG
-37	.	O	O	O, B-OG, B-LC, B-CV, B-PS
-38	[SEP]	O	O	O, B-CV, B-OG, B-LC, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	김	B-PS	B-PS
+2	회장	B-CV	B-CV
+3	##은	O	O
+4	2008	B-DT	B-DT
+5	##년	I-DT	I-DT
+6	초	I-DT	I-DT
+7	동부	B-OG	B-OG
+8	##하이	I-OG	I-OG
+9	##텍	I-OG	I-OG
+10	##에	O	O
+11	동부	B-OG	B-OG
+12	##화	I-OG	I-OG
+13	##재	I-OG	I-OG
+14	주식	O	O
+15	##을	O	O
+16	담보	O	O
+17	##용	O	O
+18	##으로	O	O
+19	빌려	O	O
+20	##줄	O	O
+21	때	O	O
+22	##도	O	O
+23	연	O	O
+24	1	B-QT	B-QT
+25	%	I-QT	I-QT
+26	(	O	O
+27	10	B-QT	B-QT
+28	##억	I-QT	I-QT
+29	##원	I-QT	I-QT
+30	상당	I-QT	O
+31	)	O	O
+32	의	O	O
+33	수수료	O	O
+34	##를	O	O
+35	챙겼	O	O
+36	##다	O	O
+37	.	O	O
+38	[SEP]	O	O

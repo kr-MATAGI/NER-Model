@@ -1,54 +1,29 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-EV, I-OG
-1	일선	O	O	O, B-LC, B-PS, B-CV, B-OG
-2	##에서	O	O	O, B-PS, I-PS, B-LC, B-CV
-3	마라톤	B-CV	B-CV	B-CV, O, B-OG, B-FD, B-EV
-4	##팀	O	O	O, I-OG, I-CV, B-OG, I-EV
-5	##을	O	O	O, I-OG, I-CV, B-PS, B-CV
-6	지도	O	O	O, B-CV, B-PS, B-LC, B-OG
-7	##하	O	O	O, B-PS, I-PS, B-LC, I-CV
-8	##는	O	O	O, B-PS, I-PS, B-LC, B-QT
-9	한	O	B-PS	B-PS, O, I-PS, B-OG, B-LC
-10	감독	B-CV	B-CV	B-CV, O, I-PS, I-CV, I-QT
-11	##은	O	O	O, I-CV, I-QT, I-EV, B-CV
-12	“	O	O	O, B-CV, B-LC, B-PS, B-TM
-13	귀	O	O	O, B-CV, B-PS, B-LC, B-OG
-14	##화	O	O	O, I-CV, I-LC, I-OG, I-PS
-15	##해서	O	O	O, B-PS, I-PS, I-CV, I-LC
-16	올림픽	B-EV	B-EV	B-EV, O, B-CV, B-AF, B-LC
-17	메달	O	O	O, B-CV, I-CV, I-EV, I-AF
-18	##을	O	O	O, I-CV, I-EV, B-PS, I-AF
-19	딴	O	O	O, B-CV, B-PS, B-LC, B-OG
-20	##다는	O	O	O, B-PS, B-CV, B-QT, I-PS
-21	의미	O	O	O, I-QT, B-PS, B-QT, I-PS
-22	##보	O	O	O, B-PS, I-QT, B-CV, I-CV
-23	##다는	O	O	O, B-PS, B-CV, I-QT, B-QT
-24	,	O	O	O, B-PS, B-CV, B-LC, B-OG
-25	좋	O	O	O, B-PS, B-CV, B-LC, B-QT
-26	##은	O	O	O, B-PS, I-PS, B-LC, B-QT
-27	선수	B-CV	B-CV	B-CV, O, I-CV, I-PS, B-OG
-28	##가	O	O	O, I-CV, B-PS, I-QT, B-CV
-29	함께	O	O	O, B-CV, B-PS, B-LC, B-TM
-30	훈련	O	O	O, B-CV, B-PS, B-LC, I-CV
-31	##하면	O	O	O, B-CV, B-PS, B-LC, I-CV
-32	##서	O	O	O, B-PS, B-LC, B-CV, B-OG
-33	침체	O	O	O, B-LC, B-PS, B-CV, B-TM
-34	##된	O	O	O, B-LC, B-PS, B-OG, B-CV
-35	한국	B-LC	B-LC	B-LC, O, B-OG, B-PS, I-LC
-36	마라톤	B-CV	B-CV	B-CV, O, I-CV, B-OG, I-OG
-37	##의	O	O	O, I-CV, I-OG, I-EV, B-PS
-38	새로운	O	O	O, B-PS, B-LC, B-CV, B-QT
-39	붐	O	O	O, B-PS, B-CV, B-LC, B-TM
-40	##을	O	O	O, B-CV, B-PS, B-LC, B-OG
-41	일으켜	O	O	O, B-CV, B-LC, B-PS, B-OG
-42	줬	O	O	O, B-CV, B-PS, B-LC, I-CV
-43	##으면	O	O	O, B-PS, I-LC, I-QT, I-CV
-44	좋	O	O	O, B-CV, I-QT, B-PS, B-LC
-45	##겠다	O	O	O, B-CV, B-PS, I-CV, I-OG
-46	”	O	O	O, B-CV, B-TM, B-PS, B-LC
-47	고	O	O	O, B-CV, B-TM, B-LC, B-QT
-48	말	O	O	O, B-CV, I-CV, I-QT, B-TM
-49	##했	O	O	O, B-CV, B-PS, I-CV, I-OG
-50	##다	O	O	O, B-CV, B-PS, B-LC, B-TM
-51	.	O	O	O, B-PS, B-CV, B-LC, I-EV
-52	[SEP]	O	O	O, B-CV, B-PS, B-LC, I-EV
+	text	label	preds
+0	[CLS]	O	O
+1	어제	O	B-DT
+2	오후	B-TI	B-TI
+3	##에	O	O
+4	국회	B-OG	B-OG
+5	정	B-OG	O
+6	##농	I-OG	O
+7	##관	I-OG	O
+8	##에	O	O
+9	전격	O	O
+10	##적	O	O
+11	##인	O	O
+12	정의당	B-OG	B-OG
+13	심상정	B-PS	B-PS
+14	대표	B-CV	B-CV
+15	##를	O	O
+16	만나	O	O
+17	##고	O	O
+18	바로	O	O
+19	정동	O	O
+20	##관	O	O
+21	##으로	O	O
+22	가	O	O
+23	##버린	O	O
+24	거	O	O
+25	아닙니까	O	O
+26	.	O	O
+27	[SEP]	O	O

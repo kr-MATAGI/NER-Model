@@ -1,11 +1,17 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, I-AF, B-CV
-1	동지	B-CV	O	O, B-CV, B-DT, B-LC, B-PS
-2	##가	O	O	O, I-CV, I-AF, I-DT, I-OG
-3	어떻게	O	O	O, B-DT, B-PS, B-CV, B-LC
-4	매년	O	O	O, B-DT, B-QT, B-CV, I-DT
-5	바	O	O	O, B-CV, I-DT, B-DT, B-PS
-6	##껴	O	O	O, I-CV, I-DT, B-PS, I-LC
-7	##요	O	O	O, I-OG, I-CV, I-AF, I-QT
-8	?	O	O	O, B-CV, I-OG, I-AF, B-LC
-9	[SEP]	O	O	O, B-CV, B-LC, B-PS, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	""""	O	O
+2	이웃	B-CV	O
+3	·	O	O
+4	환자	B-CV	B-CV
+5	위한	O	O
+6	음악회	O	O
+7	…	O	O
+8	1000	B-QT	B-QT
+9	##회	I-QT	I-QT
+10	##까	O	O
+11	##지	O	O
+12	열	O	O
+13	것	O	O
+14	""""	O	O
+15	[SEP]	O	O

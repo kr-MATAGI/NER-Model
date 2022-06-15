@@ -1,85 +1,16 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	경남	B-LC	B-LC	B-LC, B-OG, O, B-PS, B-AF
-2	김해시	B-OG	B-OG	B-OG, I-OG, B-LC, O, B-AF
-3	##선거	I-OG	I-OG	I-OG, O, B-OG, I-LC, I-AF
-4	##관리위원회	I-OG	I-OG	I-OG, O, I-LC, B-OG, I-AF
-5	##는	O	O	O, I-OG, I-EV, I-AF, B-CV
-6	8	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-7	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-8	“	O	O	O, I-DT, B-LC, B-CV, B-OG
-9	김해시	B-OG	B-OG	B-OG, B-LC, O, B-PS, B-AF
-10	##가	O	O	O, I-OG, I-LC, B-PS, B-LC
-11	지난해	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-OG
-12	##부터	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-OG
-13	플라스틱	B-MT	B-MT	B-MT, B-TM, O, I-MT, B-CV
-14	병	O	O	O, B-TM, B-CV, I-TM, B-LC
-15	##에	O	O	O, B-LC, B-CV, B-TM, B-PS
-16	넣	O	O	O, B-LC, B-CV, B-TM, B-OG
-17	##어	O	O	O, B-LC, B-PS, B-OG, B-CV
-18	시민	B-CV	B-CV	B-CV, O, B-OG, I-CV, B-TM
-19	##에	O	O	O, I-CV, B-CV, I-OG, I-EV
-20	##게	O	O	O, B-LC, B-CV, B-TM, B-QT
-21	무료	O	O	O, B-QT, B-CV, B-TM, B-LC
-22	##로	O	O	O, I-QT, B-PS, I-CV, B-LC
-23	공급	O	O	O, B-CV, B-LC, B-TM, B-QT
-24	##하고	O	O	O, B-LC, B-PS, B-CV, B-AF
-25	있	O	O	O, B-LC, B-PS, B-CV, B-AF
-26	##는	O	O	O, B-LC, B-CV, B-AF, B-PS
-27	수돗물	O	O	O, B-CV, B-LC, B-AF, B-MT
-28	식수	O	O	O, B-CV, B-LC, I-CV, B-AF
-29	‘	O	O	O, B-LC, B-CV, I-CV, B-PS
-30	가야	B-AF	B-LC	B-LC, B-AF, B-DT, O, B-PS
-31	##의	I-AF	I-AF	I-AF, O, I-LC, I-CV, I-PS
-32	물	I-AF	O	O, I-AF, I-LC, I-CV, I-MT
-33	’	O	O	O, I-AF, I-CV, I-LC, I-EV
-34	(	O	O	O, B-CV, B-LC, B-OG, I-AF
-35	350	B-QT	B-QT	B-QT, O, B-DT, I-QT, B-LC
-36	##㎖	I-QT	I-QT	I-QT, O, I-LC, I-DT, I-EV
-37	)	O	O	O, I-QT, I-OG, B-CV, I-EV
-38	을	O	O	O, B-LC, B-CV, B-PS, B-AF
-39	노무현	B-PS	B-PS	B-PS, B-OG, O, B-LC, I-PS
-40	전	O	O	O, I-PS, B-LC, B-CV, I-AF
-41	대통령	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-AF
-42	국민	O	O	O, B-AF, B-LC, B-CV, I-CV
-43	##장	O	O	O, I-AF, I-LC, I-CV, I-OG
-44	뒤	O	O	O, B-TM, B-LC, B-AF, B-AM
-45	봉하	B-LC	B-LC	B-LC, O, B-AF, I-LC, B-OG
-46	##마을	I-LC	I-LC	I-LC, O, I-AF, B-LC, I-OG
-47	조문	O	B-CV	B-CV, O, I-CV, B-AF, I-LC
-48	##객	O	I-CV	I-CV, O, B-CV, I-AF, I-LC
-49	##들	O	O	O, I-CV, I-AF, I-OG, I-EV
-50	##에	O	O	O, B-CV, B-LC, B-TM, B-PS
-51	##게	O	O	O, B-LC, B-CV, B-TM, B-QT
-52	계속	O	O	O, B-LC, B-CV, B-TM, B-QT
-53	제공	O	O	O, B-CV, B-LC, B-TM, B-OG
-54	##하고	O	O	O, B-LC, B-PS, B-OG, B-DT
-55	봉하	B-LC	B-LC	B-LC, O, B-AF, B-OG, B-PS
-56	##마을	I-LC	I-LC	I-LC, O, I-AF, B-LC, I-OG
-57	##과	O	O	O, I-LC, I-AF, B-LC, I-OG
-58	진영	B-LC	B-LC	B-LC, O, B-AF, B-OG, B-PS
-59	##읍	I-LC	I-LC	I-LC, O, I-AF, B-LC, I-OG
-60	##내	O	I-LC	I-LC, O, I-AF, B-LC, I-OG
-61	##를	O	O	O, I-LC, I-AF, B-LC, I-QT
-62	오가	O	O	O, B-AF, B-LC, B-CV, B-TM
-63	##는	O	O	O, B-AF, B-LC, I-AF, B-CV
-64	임시	O	O	O, B-AF, B-CV, B-LC, B-TM
-65	##버스	O	O	O, B-AF, I-AF, B-CV, B-LC
-66	##를	O	O	O, I-AF, B-LC, B-CV, B-TM
-67	운행	O	O	O, B-LC, B-AF, B-CV, B-TM
-68	##하	O	O	O, B-LC, B-OG, B-PS, B-AF
-69	##는	O	O	O, B-LC, B-OG, B-CV, B-PS
-70	것	O	O	O, B-LC, B-OG, B-CV, B-AF
-71	##은	O	O	O, B-LC, B-CV, B-OG, B-PS
-72	가능	O	O	O, B-LC, B-CV, B-OG, B-AF
-73	##하	O	O	O, B-LC, B-PS, B-OG, B-AF
-74	##다고	O	O	O, B-LC, B-OG, B-PS, I-OG
-75	통보	O	O	O, B-LC, B-CV, B-OG, B-TM
-76	##했	O	O	O, B-LC, B-PS, B-OG, I-OG
-77	##다	O	O	O, B-LC, B-OG, B-CV, I-OG
-78	”	O	O	O, B-CV, B-LC, B-OG, I-OG
-79	고	O	O	O, B-LC, B-CV, B-OG, B-TM
-80	밝혔	O	O	O, B-CV, B-LC, B-OG, B-DT
-81	##다	O	O	O, B-CV, B-LC, B-OG, B-TM
-82	.	O	O	O, B-LC, B-OG, B-CV, B-PS
-83	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-AF
+	text	label	preds
+0	[CLS]	O	O
+1	“	O	O
+2	항일	O	B-OG
+3	독립군	B-OG	I-OG
+4	##인	O	O
+5	##가요	O	O
+6	?	O	O
+7	”	O	O
+8	(	O	O
+9	정	B-PS	B-PS
+10	총리	B-CV	B-CV
+11	)	O	O
+12	…	O	O
+13	.	O	O
+14	[SEP]	O	O

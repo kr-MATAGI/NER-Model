@@ -1,16 +1,50 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	왜	O	O	O, B-CV, B-TM, B-OG, B-PS
-2	그거	O	O	O, B-CV, B-OG, B-TM, B-PS
-3	##는	O	O	O, B-CV, B-PS, B-OG, B-LC
-4	부자	B-CV	O	O, B-CV, I-CV, B-PS, B-QT
-5	##는	O	O	O, I-CV, B-CV, B-PS, I-OG
-6	부자	B-CV	O	O, B-CV, I-CV, B-PS, B-QT
-7	##는	O	O	O, I-CV, B-CV, B-PS, I-AF
-8	더	O	O	O, B-CV, B-TM, B-QT, B-LC
-9	잘	O	O	O, B-CV, B-PS, I-CV, B-LC
-10	교육	O	O	O, B-CV, I-CV, B-FD, B-PS
-11	##할	O	O	O, I-CV, B-CV, B-PS, I-OG
-12	꺼	O	O	O, B-CV, B-PS, I-CV, B-OG
-13	##고	O	O	O, I-CV, I-OG, I-AF, B-CV
-14	[SEP]	O	O	O, B-CV, B-LC, I-CV, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	“	O	O
+2	대통령	B-CV	B-CV
+3	##께	O	O
+4	##서	O	O
+5	6	B-DT	B-DT
+6	##월	I-DT	I-DT
+7	##25	I-DT	I-DT
+8	##일	I-DT	I-DT
+9	국무회의	B-OG	B-OG
+10	##에	O	O
+11	##서	O	O
+12	발언	O	O
+13	##하	O	O
+14	##신	O	O
+15	것	O	O
+16	##은	O	O
+17	통상	O	O
+18	##적	O	O
+19	##으로	O	O
+20	늘	O	O
+21	국민	B-CV	B-CV
+22	삶	O	O
+23	##을	O	O
+24	생각	O	O
+25	##하	O	O
+26	##고	O	O
+27	국민	B-CV	B-CV
+28	중심	O	O
+29	##의	O	O
+30	정치가	B-CV	O
+31	돼야	O	O
+32	한다는	O	O
+33	대통령	B-CV	B-CV
+34	나름	O	O
+35	##의	O	O
+36	절절	O	O
+37	##한	O	O
+38	마음	O	O
+39	##을	O	O
+40	표현	O	O
+41	##한	O	O
+42	게	O	O
+43	아닌가	O	O
+44	생각	O	O
+45	##합니다	O	O
+46	.	O	O
+47	”	O	O
+48	[SEP]	O	O

@@ -1,46 +1,8 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-QT
-1	이미	O	O	O, B-TM, B-CV, B-LC, B-OG
-2	스마트	O	O	O, B-TM, B-CV, B-AF, B-LC
-3	파	O	O	O, I-TM, I-CV, B-CV, I-AF
-4	##킹	O	O	O, I-CV, I-TM, I-AF, I-LC
-5	,	O	O	O, I-CV, B-CV, B-LC, I-TM
-6	매장	O	O	O, B-CV, B-TM, B-AF, B-LC
-7	및	O	O	O, I-CV, I-TM, B-TM, I-AF
-8	빌딩	O	O	O, B-CV, B-TM, I-TM, I-CV
-9	에너지	O	O	O, I-CV, I-TM, B-CV, I-AF
-10	관리	O	O	O, I-CV, I-TM, B-CV, I-AF
-11	,	O	O	O, B-CV, B-LC, B-TM, B-PS
-12	미아	O	O	O, B-CV, B-TM, B-AF, I-CV
-13	방지	O	O	O, I-CV, I-TM, I-AF, I-LC
-14	,	O	O	O, B-CV, I-CV, B-LC, B-TM
-15	스마트	O	O	O, B-TM, B-AF, B-CV, B-LC
-16	횡단	O	O	O, I-AF, I-TM, I-CV, B-AF
-17	##보도	O	O	O, I-AF, I-TM, I-CV, I-LC
-18	등	O	O	O, B-TM, I-AF, B-CV, B-LC
-19	10	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-LC
-20	##여	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-21	개	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-22	IoT	B-FD	O	O, B-FD, I-QT, B-TR, I-FD
-23	서비스	O	O	O, I-FD, I-CV, I-TM, I-TR
-24	##에	O	O	O, B-CV, I-CV, I-TM, I-AF
-25	대해	O	O	O, B-DT, B-LC, B-OG, B-CV
-26	연말	B-DT	B-DT	B-DT, O, I-DT, B-CV, B-OG
-27	##까	I-DT	I-DT	I-DT, O, B-DT, I-OG, I-QT
-28	##지	I-DT	I-DT	I-DT, O, B-DT, I-OG, I-QT
-29	누구	O	O	O, B-CV, I-DT, B-PS, B-TM
-30	##나	O	O	O, B-PS, B-CV, B-LC, B-TM
-31	실증	O	O	O, B-LC, B-CV, B-AF, B-TM
-32	##단지	O	O	O, I-LC, I-AF, B-LC, I-TM
-33	내	O	O	O, B-LC, B-PS, B-CV, B-TM
-34	##에서	O	O	O, B-LC, B-CV, B-PS, B-TM
-35	체험	O	O	O, B-CV, B-LC, B-TM, B-AF
-36	##할	O	O	O, B-PS, B-CV, B-LC, B-TM
-37	수	O	O	O, B-CV, B-PS, B-LC, B-TM
-38	있	O	O	O, B-CV, B-LC, B-TM, B-PS
-39	##도록	O	O	O, B-LC, B-CV, B-TM, B-OG
-40	할	O	O	O, B-OG, B-LC, B-PS, B-AF
-41	방침	O	O	O, B-CV, B-TM, B-OG, B-LC
-42	##이다	O	O	O, B-CV, B-TM, I-OG, B-OG
-43	.	O	O	O, B-LC, B-CV, B-TM, B-PS
-44	[SEP]	O	O	O, B-CV, B-LC, B-TM, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	이제	O	O
+2	우리	O	O
+3	##가	O	O
+4	바이오	B-FD	B-TR
+5	##경제	O	I-TR
+6	[SEP]	O	O

@@ -1,27 +1,36 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-QT
-1	학습지	O	O	O, B-CV, B-OG, B-AF, B-TM
-2	교사	B-CV	B-CV	B-CV, I-CV, O, B-OG, B-DT
-3	,	O	O	O, I-CV, I-OG, B-CV, I-QT
-4	골프장	O	O	O, B-CV, B-AF, B-OG, B-TM
-5	캐디	B-CV	B-CV	B-CV, I-CV, O, B-PT, I-AF
-6	,	O	O	O, I-CV, I-OG, B-CV, I-QT
-7	[UNK]	O	O	O, B-CV, B-OG, B-LC, B-TM
-8	배달	O	B-CV	B-CV, O, I-CV, B-TM, B-QT
-9	##원	O	I-CV	I-CV, O, B-CV, I-QT, I-TM
-10	등	O	O	O, I-CV, B-CV, B-QT, I-QT
-11	이른바	O	O	O, B-CV, B-QT, B-TM, B-LC
-12	특수	O	O	O, B-CV, I-CV, B-PS, B-OG
-13	##고	O	O	O, I-CV, B-CV, I-QT, I-TM
-14	##용	O	O	O, I-CV, B-CV, I-OG, I-TM
-15	노동자	B-CV	I-CV	I-CV, B-CV, O, I-QT, I-OG
-16	##의	O	O	O, I-CV, B-CV, I-OG, I-QT
-17	처지	O	O	O, B-CV, B-OG, B-TM, B-QT
-18	##는	O	O	O, B-CV, B-OG, B-TM, B-LC
-19	말	O	O	O, B-CV, B-QT, B-DT, B-TM
-20	그대로	O	O	O, B-PS, B-QT, I-QT, I-DT
-21	특수	O	O	O, B-CV, B-OG, B-FD, B-PS
-22	##하	O	O	O, I-OG, B-PS, I-PS, I-CV
-23	##다	O	O	O, B-CV, I-OG, I-QT, I-CV
-24	.	O	O	O, B-LC, B-CV, B-OG, B-PS
-25	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-FD
+	text	label	preds
+0	[CLS]	O	O
+1	이	O	O
+2	짧	O	O
+3	##고	O	O
+4	강력	O	O
+5	##한	O	O
+6	브랜드	O	O
+7	속	O	O
+8	##엔	O	O
+9	‘	O	O
+10	교육	O	O
+11	##출	O	O
+12	##판	O	O
+13	’	O	O
+14	외	O	O
+15	##길	O	O
+16	##을	O	O
+17	걸어온	O	O
+18	두산	B-OG	B-OG
+19	##동아	I-OG	I-OG
+20	##의	O	O
+21	교육	B-FD	B-FD
+22	##철	I-FD	I-FD
+23	##학	I-FD	I-FD
+24	##과	O	O
+25	경영	O	B-FD
+26	##철	O	I-FD
+27	##학	O	I-FD
+28	##이	O	O
+29	녹	O	O
+30	##아	O	O
+31	##있	O	O
+32	##다	O	O
+33	.	O	O
+34	[SEP]	O	O

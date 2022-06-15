@@ -1,37 +1,37 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-QT
-1	또	O	O	O, B-CV, B-OG, B-LC, B-TM
-2	세종	B-LC	B-LC	B-LC, B-OG, O, B-AF, B-PS
-3	##시	I-LC	I-LC	I-LC, I-OG, O, I-AF, B-LC
-4	등	O	O	O, I-LC, I-OG, B-LC, I-AF
-5	##으로	O	O	O, B-LC, B-PS, B-CV, B-OG
-6	부처	O	O	O, B-CV, B-LC, B-OG, B-PS
-7	##가	O	O	O, B-PS, B-LC, B-OG, B-AF
-8	이전	O	O	O, B-CV, B-PS, B-LC, B-OG
-9	##하	O	O	O, B-PS, B-CV, B-LC, B-OG
-10	##는	O	O	O, B-CV, B-LC, B-PS, B-OG
-11	공무원	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-TM
-12	##들	O	O	O, I-CV, I-OG, B-CV, I-AF
-13	##의	O	O	O, B-CV, B-LC, B-TM, B-PS
-14	이사	O	O	O, B-CV, B-TM, B-EV, B-LC
-15	지원	O	O	O, B-CV, I-CV, B-PS, B-TM
-16	##비	O	O	O, I-CV, B-CV, B-PS, B-LC
-17	##를	O	O	O, B-CV, B-OG, B-LC, B-TM
-18	늘리	O	O	O, B-CV, B-OG, B-LC, B-PS
-19	##고	O	O	O, B-CV, B-LC, B-OG, B-PS
-20	,	O	O	O, B-CV, B-LC, B-OG, B-PS
-21	셋째	B-QT	B-QT	B-QT, O, B-DT, I-QT, B-TI
-22	이후	O	O	O, I-QT, I-DT, I-TI, I-CV
-23	출산	O	O	O, I-QT, B-CV, I-CV, I-DT
-24	자녀	B-CV	B-CV	B-CV, O, I-CV, B-PS, B-TM
-25	##에	O	O	O, I-CV, I-AF, B-CV, I-OG
-26	대한	O	O	O, B-CV, B-LC, B-OG, B-PS
-27	가족	O	B-CV	B-CV, O, I-CV, B-OG, B-QT
-28	##수	O	O	O, I-CV, B-CV, B-QT, I-QT
-29	##당	O	O	O, I-CV, I-QT, I-OG, I-TR
-30	##도	O	O	O, I-CV, I-QT, B-PS, B-CV
-31	인상	O	O	O, B-CV, B-OG, B-TM, B-LC
-32	##했	O	O	O, B-PS, B-OG, I-OG, B-CV
-33	##다	O	O	O, B-CV, I-OG, B-OG, B-LC
-34	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-35	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	대상자	O	O
+2	중	O	O
+3	##에	O	O
+4	##는	O	O
+5	무기	O	B-CV
+6	##수	O	I-CV
+7	##에	O	O
+8	##서	O	O
+9	장기	O	B-CV
+10	##수	O	I-CV
+11	(	O	O
+12	징역	B-CV	B-CV
+13	20	B-DT	B-DT
+14	##년	I-DT	I-DT
+15	##형	O	O
+16	)	O	O
+17	로	O	O
+18	감형	O	O
+19	##된	O	O
+20	뒤	O	O
+21	형	O	O
+22	##기	O	O
+23	##를	O	O
+24	한	B-DT	B-DT
+25	달여	I-DT	I-DT
+26	남겨둔	O	O
+27	수형	B-CV	B-CV
+28	##자	I-CV	I-CV
+29	##도	O	O
+30	처음	O	O
+31	포함	O	O
+32	##됐	O	O
+33	##다	O	O
+34	.	O	O
+35	[SEP]	O	O

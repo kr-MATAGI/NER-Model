@@ -1,24 +1,7 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, I-OG, B-CV, I-EV
-1	레이	B-PS	B-PS	B-PS, O, B-LC, I-PS, B-OG
-2	##옌	I-PS	I-PS	I-PS, O, I-LC, I-OG, B-PS
-3	##은	O	O	O, I-PS, I-OG, I-LC, B-CV
-4	유럽연합	B-OG	B-OG	B-OG, O, I-OG, B-LC, B-EV
-5	(	O	I-OG	I-OG, O, B-OG, I-EV, I-CV
-6	EU	B-OG	I-OG	I-OG, B-OG, O, I-EV, B-EV
-7	)	O	I-OG	I-OG, O, B-OG, I-EV, I-CV
-8	위원회	O	I-OG	I-OG, O, B-OG, I-EV, I-DT
-9	##에서	O	O	O, I-OG, I-EV, B-CV, B-PS
-10	일	O	O	O, B-CV, B-PS, B-LC, B-TM
-11	##했	O	O	O, B-PS, B-CV, B-LC, B-OG
-12	##던	O	O	O, B-PS, B-CV, B-LC, B-OG
-13	부친	B-CV	B-CV	B-CV, O, B-PS, B-OG, I-CV
-14	때문	O	O	O, I-CV, B-PS, I-OG, I-EV
-15	##에	O	O	O, B-LC, B-PS, B-OG, B-CV
-16	벨기에	B-LC	B-LC	B-LC, O, B-OG, B-AF, B-PS
-17	브뤼셀	B-LC	B-LC	B-LC, I-LC, O, B-OG, B-AF
-18	##에서	O	O	O, I-LC, I-AF, I-OG, I-PS
-19	태어났	O	O	O, B-CV, B-PS, B-LC, B-QT
-20	##다	O	O	O, B-CV, B-PS, I-OG, I-QT
-21	.	O	O	O, B-PS, B-LC, B-CV, B-OG
-22	[SEP]	O	O	O, B-PS, B-CV, B-LC, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	예	O	O
+2	기름	O	B-CV
+3	온도	O	O
+4	##요	O	O
+5	[SEP]	O	O

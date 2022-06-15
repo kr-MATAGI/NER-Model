@@ -1,19 +1,35 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-AF
-1	25	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-2	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
-3	오전	B-TI	B-TI	B-TI, I-TI, I-DT, O, B-EV
-4	6	I-TI	I-TI	I-TI, B-TI, I-DT, O, I-QT
-5	##시	I-TI	I-TI	I-TI, O, B-TI, I-QT, I-TR
-6	##경	I-TI	I-TI	I-TI, O, I-TR, I-QT, B-TI
-7	서울	B-LC	B-LC	B-LC, O, I-TI, I-LC, B-OG
-8	동작구	B-LC	B-LC	B-LC, I-LC, O, B-OG, B-AF
-9	흑	B-LC	B-LC	B-LC, O, I-LC, B-AF, B-OG
-10	##석	I-LC	I-LC	I-LC, O, B-LC, I-AF, I-PS
-11	##동	I-LC	I-LC	I-LC, O, I-AF, B-LC, I-PS
-12	중앙	B-OG	B-OG	B-OG, B-AF, O, I-AF, I-OG
-13	##대	I-OG	I-OG	I-OG, I-AF, O, I-LC, I-PS
-14	본관	O	O	O, I-AF, B-AF, I-OG, B-CV
-15	앞	O	B-TM	B-TM, O, B-CV, I-TM, B-AM
-16	.	O	O	O, I-TM, I-AF, I-OG, I-CV
-17	[SEP]	O	O	O, B-LC, B-OG, B-AF, B-CV
+	text	label	preds
+0	[CLS]	O	O
+1	두	B-QT	B-QT
+2	정상	I-QT	I-QT
+3	##은	O	O
+4	이날	B-DT	B-DT
+5	중	B-EV	B-OG
+6	·	I-EV	O
+7	러	I-EV	B-OG
+8	연합	I-EV	O
+9	해상	I-EV	O
+10	작전	I-EV	O
+11	##을	O	O
+12	수행	O	O
+13	중인	O	O
+14	양국	O	O
+15	##의	O	O
+16	군함	O	B-AF
+17	함장	B-CV	B-CV
+18	##으로	O	O
+19	##부터	O	O
+20	영상	O	O
+21	##통화	O	O
+22	##를	O	O
+23	이용해	O	O
+24	임무	O	O
+25	보고	O	O
+26	##를	O	O
+27	받	O	O
+28	##기	O	O
+29	##도	O	O
+30	했	O	O
+31	##다	O	O
+32	.	O	O
+33	[SEP]	O	O

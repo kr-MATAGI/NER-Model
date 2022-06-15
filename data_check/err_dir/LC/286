@@ -1,17 +1,35 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-EV, I-CV
-1	앞	O	O	O, B-OG, B-LC, B-CV, B-DT
-2	##으로	O	O	O, B-OG, B-PS, B-LC, B-CV
-3	인제	O	O	O, B-OG, B-LC, B-CV, B-PS
-4	한중	B-LC	B-OG	B-OG, B-LC, O, I-OG, B-CV
-5	관계	O	O	O, I-OG, B-CV, B-OG, I-EV
-6	##는	O	O	O, I-OG, I-EV, B-OG, B-PS
-7	어떻게	O	O	O, B-OG, B-LC, B-PS, B-TM
-8	진전	O	O	O, B-OG, B-CV, B-LC, B-PS
-9	##될	O	O	O, B-PS, I-OG, B-LC, B-OG
-10	것	O	O	O, B-PS, B-OG, B-CV, B-LC
-11	##으로	O	O	O, I-OG, B-PS, B-CV, B-OG
-12	보시	O	O	O, B-OG, B-PS, B-CV, B-LC
-13	##는지	O	O	O, I-OG, B-LC, B-PS, B-OG
-14	.	O	O	O, B-LC, B-CV, B-OG, B-PS
-15	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	1996	B-DT	B-DT
+2	##년	I-DT	I-DT
+3	스웨덴	B-LC	B-OG
+4	##이	O	O
+5	금융	B-CV	B-CV
+6	##거래	I-CV	I-CV
+7	##세	I-CV	I-CV
+8	##를	O	O
+9	도입	O	O
+10	##했	O	O
+11	##다가	O	O
+12	,	O	O
+13	금융	O	O
+14	##거래	O	O
+15	##의	O	O
+16	절반	B-QT	B-QT
+17	이상	I-QT	I-QT
+18	##이	O	O
+19	런던	B-LC	B-LC
+20	##으로	O	O
+21	빠져나가	O	O
+22	##며	O	O
+23	사실	O	O
+24	##상	O	O
+25	실패	O	O
+26	##를	O	O
+27	맛보	O	O
+28	##기	O	O
+29	##도	O	O
+30	했	O	O
+31	##다	O	O
+32	.	O	O
+33	[SEP]	O	O

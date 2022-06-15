@@ -1,30 +1,13 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	김영삼	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
-2	대통령	B-CV	B-CV	B-CV, O, I-PS, I-CV, B-OG
-3	##부터	O	O	O, I-CV, I-DT, I-PS, I-AF
-4	이명박	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-5	대통령	B-CV	B-CV	B-CV, O, I-PS, I-CV, B-OG
-6	##에	O	O	O, I-CV, I-AF, B-CV, I-EV
-7	이르	O	O	O, B-DT, B-PS, B-CV, B-OG
-8	##기	O	O	O, I-OG, I-QT, B-PS, I-DT
-9	##까	O	O	O, B-PS, I-OG, I-DT, I-QT
-10	##지	O	O	O, B-PS, I-DT, I-PS, B-LC
-11	역대	O	O	O, B-CV, B-PS, B-DT, B-OG
-12	대통령	B-CV	B-CV	B-CV, O, B-PS, B-AF, B-OG
-13	##들	O	O	O, I-CV, I-AF, I-OG, I-EV
-14	##은	O	O	O, B-CV, B-OG, B-PS, B-LC
-15	당선인	B-CV	B-CV	B-CV, O, B-PS, B-AF, B-OG
-16	시절	O	O	O, I-CV, I-DT, I-OG, I-EV
-17	혹은	O	O	O, B-PS, B-CV, B-DT, B-LC
-18	취임	O	O	O, B-CV, B-PS, B-TM, B-EV
-19	직후	O	O	O, I-CV, I-DT, I-PS, B-PS
-20	아사히	O	B-OG	B-OG, O, B-AF, B-LC, I-OG
-21	##신문	O	I-OG	I-OG, O, I-AF, I-LC, I-CV
-22	##과	O	O	O, I-OG, I-AF, B-CV, I-EV
-23	인터뷰	O	O	O, B-CV, B-TM, B-FD, B-EV
-24	##를	O	O	O, B-CV, I-EV, I-OG, I-CV
-25	했	O	O	O, B-CV, B-OG, B-LC, B-PS
-26	##다	O	O	O, B-CV, I-OG, B-TM, B-OG
-27	.	O	O	O, B-CV, B-PS, B-OG, B-LC
-28	[SEP]	O	O	O, B-CV, B-OG, B-PS, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	북한	B-LC	B-LC
+2	##처럼	O	O
+3	그런	O	O
+4	어떤	O	O
+5	그니까	O	O
+6	그	O	O
+7	~	O	O
+8	방법론	O	B-TR
+9	##에	O	O
+10	##서	O	O
+11	[SEP]	O	O

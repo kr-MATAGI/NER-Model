@@ -1,16 +1,25 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	나가	O	O	O, B-CV, B-OG, B-LC, B-TM
-2	##기	O	O	O, B-CV, B-PS, B-LC, B-DT
-3	바로	O	O	O, B-DT, B-CV, B-PS, B-OG
-4	전날	O	B-DT	B-DT, O, I-DT, B-CV, B-QT
-5	##에	O	O	O, I-DT, B-CV, I-QT, I-EV
-6	한시	B-TI	B-TI	B-TI, B-QT, O, I-TI, B-EV
-7	##간	I-TI	I-TI	I-TI, I-QT, O, I-TR, B-TI
-8	정도	I-TI	I-TI	I-TI, I-QT, O, I-TR, B-TI
-9	교육	O	O	O, I-TI, B-CV, I-QT, B-LC
-10	##하고	O	O	O, B-CV, I-CV, I-AF, I-EV
-11	나가	O	O	O, B-CV, B-OG, B-LC, B-TM
-12	##요	O	O	O, B-CV, B-OG, B-LC, I-OG
-13	.	O	O	O, B-CV, B-LC, B-PS, B-OG
-14	[SEP]	O	O	O, B-CV, B-LC, B-OG, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	마치	O	O
+2	호남	O	B-LC
+3	##을	O	O
+4	고립	O	O
+5	##시	O	O
+6	##키	O	O
+7	##듯	O	O
+8	문재인	B-PS	B-PS
+9	##을	O	O
+10	고립	O	O
+11	##시	O	O
+12	##키	O	O
+13	##는	O	O
+14	전략	O	O
+15	##에	O	O
+16	##는	O	O
+17	동의	O	O
+18	##할	O	O
+19	수	O	O
+20	없	O	O
+21	##다	O	O
+22	.	O	O
+23	[SEP]	O	O

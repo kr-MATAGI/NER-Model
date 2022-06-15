@@ -1,56 +1,129 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-EV, I-CV
-1	또	O	O	O, B-CV, B-OG, B-LC, B-QT
-2	아마	O	B-CV	B-CV, O, B-OG, B-EV, B-FD
-3	바둑	B-CV	I-CV	I-CV, B-CV, O, I-OG, I-EV
-4	##계	O	O	O, I-CV, I-OG, I-EV, B-PS
-5	##를	O	O	O, B-PS, B-CV, I-CV, I-OG
-6	대표	O	O	O, B-CV, B-PS, B-EV, B-LC
-7	##하	O	O	O, B-PS, I-CV, B-CV, I-EV
-8	##는	O	O	O, B-CV, B-PS, B-EV, B-LC
-9	대한	B-OG	B-OG	B-OG, B-EV, B-CV, O, B-AF
-10	##바	I-OG	I-OG	I-OG, I-EV, I-CV, O, I-AF
-11	##둑	I-OG	I-OG	I-OG, I-EV, I-CV, O, I-AF
-12	##협회	I-OG	I-OG	I-OG, I-EV, I-CV, O, I-AF
-13	회장	B-CV	B-CV	B-CV, I-EV, B-EV, O, I-OG
-14	선거	O	O	O, I-EV, I-CV, B-EV, I-OG
-15	##에서	O	O	O, I-EV, B-CV, I-OG, I-CV
-16	신상	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
-17	##철	I-PS	I-PS	I-PS, O, I-OG, I-LC, I-QT
-18	일	B-OG	B-OG	B-OG, O, B-LC, I-OG, B-AF
-19	##요	I-OG	I-OG	I-OG, O, B-OG, I-LC, I-AF
-20	##신문	I-OG	I-OG	I-OG, O, B-OG, I-AF, I-LC
-21	##사	I-OG	I-OG	I-OG, O, I-AF, I-LC, I-CV
-22	대표	B-CV	B-CV	B-CV, O, I-CV, I-OG, I-EV
-23	##가	O	O	O, I-CV, B-PS, I-EV, I-OG
-24	홍석	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-25	##현	I-PS	I-PS	I-PS, O, I-OG, I-LC, I-QT
-26	한국	B-OG	B-OG	B-OG, O, I-OG, B-LC, I-PS
-27	##기	I-OG	I-OG	I-OG, O, I-LC, I-AF, B-OG
-28	##원	I-OG	I-OG	I-OG, O, I-LC, I-AF, I-CV
-29	총재	B-CV	B-CV	B-CV, O, I-CV, I-OG, I-EV
-30	##를	O	O	O, I-CV, I-EV, I-OG, B-CV
-31	이기	O	O	O, B-CV, B-EV, B-TM, B-OG
-32	##는	O	O	O, B-CV, B-LC, B-PS, B-OG
-33	이변	O	O	O, B-CV, B-EV, B-TM, B-QT
-34	##을	O	O	O, I-EV, B-CV, I-OG, B-OG
-35	연출	O	O	O, B-CV, B-OG, I-OG, B-LC
-36	##했	O	O	O, B-CV, B-LC, B-PS, B-OG
-37	##고	O	O	O, I-OG, B-PS, B-CV, B-LC
-38	,	O	O	O, B-CV, B-OG, B-LC, B-PS
-39	결국	O	O	O, B-CV, B-OG, B-QT, B-LC
-40	대한	B-OG	B-OG	B-OG, B-EV, O, B-AF, B-LC
-41	##바	I-OG	I-OG	I-OG, I-EV, O, I-AF, B-OG
-42	##둑	I-OG	I-OG	I-OG, I-EV, O, I-AF, I-CV
-43	##협회	I-OG	I-OG	I-OG, O, I-EV, I-AF, I-LC
-44	##가	O	O	O, I-OG, I-EV, B-PS, I-AF
-45	한국	B-OG	B-OG	B-OG, B-LC, O, I-OG, B-AF
-46	##기	I-OG	I-OG	I-OG, O, B-OG, I-LC, I-AF
-47	##원	I-OG	I-OG	I-OG, O, I-LC, I-AF, I-CV
-48	##과	O	O	O, I-OG, I-AF, I-EV, I-QT
-49	사실상	O	O	O, B-OG, B-LC, B-QT, B-CV
-50	분리	O	O	O, B-CV, B-OG, B-EV, B-TM
-51	##됐	O	O	O, I-OG, B-CV, I-EV, B-OG
-52	##다	O	O	O, B-CV, I-OG, B-LC, I-EV
-53	.	O	O	O, B-OG, B-LC, B-PS, B-CV
-54	[SEP]	O	O	O, B-CV, I-OG, B-OG, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	◇	O	O
+2	##축구	B-CV	B-CV
+3	##대표	O	O
+4	##팀	O	O
+5	(	O	O
+6	25	B-QT	B-QT
+7	##명	I-QT	I-QT
+8	)	O	O
+9	▽	O	O
+10	##G	B-CV	B-OG
+11	##K	I-CV	I-OG
+12	=	O	O
+13	이	B-PS	B-PS
+14	##운	I-PS	I-PS
+15	##재	I-PS	I-PS
+16	(	O	O
+17	수원	B-OG	B-OG
+18	)	O	O
+19	김영	B-PS	B-PS
+20	##광	I-PS	I-PS
+21	(	O	O
+22	울산	B-OG	B-OG
+23	)	O	O
+24	정성	B-PS	B-PS
+25	##룡	I-PS	I-PS
+26	(	O	O
+27	성남	B-OG	B-OG
+28	)	O	O
+29	▽	O	O
+30	##D	B-CV	B-OG
+31	##F	I-CV	I-CV
+32	=	O	O
+33	조용	B-PS	B-PS
+34	##형	I-PS	I-PS
+35	(	O	O
+36	제주	B-OG	B-OG
+37	)	O	O
+38	곽	B-PS	B-PS
+39	##태	I-PS	I-PS
+40	##휘	I-PS	I-PS
+41	(	O	O
+42	교토	B-OG	B-OG
+43	)	O	O
+44	이정	B-PS	B-PS
+45	##수	I-PS	I-PS
+46	(	O	O
+47	알	B-OG	B-OG
+48	사드	I-OG	I-OG
+49	)	O	O
+50	김영	B-PS	B-PS
+51	##권	I-PS	I-PS
+52	(	O	O
+53	FC	B-OG	B-OG
+54	도쿄	I-OG	I-OG
+55	)	O	O
+56	홍정	B-PS	B-PS
+57	##호	I-PS	I-PS
+58	(	O	O
+59	제주	B-OG	B-OG
+60	)	O	O
+61	황재	B-PS	O
+62	##원	I-PS	I-PS
+63	(	O	O
+64	수원	B-OG	B-OG
+65	)	O	O
+66	이영	B-PS	B-PS
+67	##표	I-PS	I-PS
+68	(	O	O
+69	알	B-OG	B-OG
+70	힐	I-OG	I-OG
+71	##랄	I-OG	I-OG
+72	)	O	O
+73	최	B-PS	B-PS
+74	##효진	I-PS	I-PS
+75	(	O	O
+76	서울	B-OG	B-OG
+77	)	O	O
+78	김민	B-PS	B-PS
+79	##우	I-PS	I-PS
+80	(	O	O
+81	사간	B-OG	B-OG
+82	도스	I-OG	I-OG
+83	)	O	O
+84	박주	B-PS	B-PS
+85	##호	I-PS	I-PS
+86	(	O	O
+87	이와	B-OG	B-OG
+88	##타	I-OG	I-OG
+89	)	O	O
+90	▽	O	O
+91	##M	B-CV	B-CV
+92	##F	I-CV	I-CV
+93	=	O	O
+94	기성용	B-PS	B-PS
+95	(	O	O
+96	셀틱	B-OG	B-OG
+97	)	O	O
+98	백지	B-PS	B-PS
+99	##훈	I-PS	I-PS
+100	(	O	O
+101	수원	B-OG	B-OG
+102	)	O	O
+103	김재	B-PS	B-PS
+104	##성	I-PS	I-PS
+105	(	O	O
+106	포항	B-OG	B-OG
+107	)	O	O
+108	김보	B-PS	B-PS
+109	##경	I-PS	I-PS
+110	(	O	O
+111	오이	B-OG	B-OG
+112	##타	I-OG	I-OG
+113	)	O	O
+114	박지성	B-PS	B-PS
+115	(	O	O
+116	맨체스터	B-OG	B-OG
+117	유나이티	I-OG	I-OG
+118	##드	I-OG	I-OG
+119	)	O	O
+120	윤	B-PS	B-PS
+121	##빛	I-PS	I-PS
+122	##가	I-PS	I-PS
+123	##람	I-PS	I-PS
+124	(	O	O
+125	경남	B-OG	B-OG
+126	)	O	O
+127	[SEP]	O	O

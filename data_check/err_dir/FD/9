@@ -1,79 +1,41 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-EV, I-OG, I-CV
-1	16	B-DT	B-DT	B-DT, O, I-DT, B-LC, B-EV
-2	##일	I-DT	I-DT	I-DT, O, B-DT, I-EV, I-PS
-3	서울	B-LC	B-LC	B-LC, B-OG, O, B-AF, I-DT
-4	성균관	B-OG	B-OG	B-OG, B-AF, B-LC, I-OG, O
-5	##대	I-OG	I-OG	I-OG, I-AF, I-LC, O, I-EV
-6	##에서	O	O	O, I-OG, I-AF, I-EV, I-DT
-7	경기도	B-LC	B-LC	B-LC, B-OG, O, B-AF, B-EV
-8	실학	B-OG	B-AF	B-AF, B-OG, O, I-AF, B-LC
-9	##박	I-OG	I-AF	I-AF, I-OG, O, I-LC, I-EV
-10	##물	I-OG	I-AF	I-AF, I-OG, O, I-LC, I-EV
-11	##관	I-OG	I-AF	I-AF, I-OG, O, I-LC, I-EV
-12	##과	O	O	O, I-OG, I-AF, I-EV, B-CV
-13	성균관	B-OG	B-OG	B-OG, B-AF, B-LC, O, B-PS
-14	##대	I-OG	I-OG	I-OG, I-AF, O, I-LC, I-EV
-15	대동	B-OG	B-OG	B-OG, O, B-AF, I-OG, B-LC
-16	##문화	I-OG	I-OG	I-OG, O, I-AF, I-LC, I-PS
-17	##연구원	I-OG	I-OG	I-OG, O, I-LC, I-AF, I-PS
-18	##이	O	O	O, I-OG, B-PS, I-AF, I-EV
-19	공동	O	O	O, B-QT, B-CV, B-OG, B-EV
-20	주최	O	O	O, B-CV, I-EV, B-PS, I-QT
-21	##한	O	O	O, B-PS, B-LC, B-OG, B-CV
-22	심포지엄	O	O	O, B-EV, B-CV, I-EV, B-LC
-23	‘	O	O	O, I-EV, B-EV, B-LC, B-OG
-24	사람	O	B-EV	B-EV, B-AF, O, B-OG, B-LC
-25	##과	O	I-EV	I-EV, I-AF, O, I-OG, I-TM
-26	땅	O	I-EV	I-EV, I-AF, I-OG, O, I-TM
-27	,	O	I-EV	I-EV, I-AF, I-OG, O, I-TM
-28	택	B-AF	I-EV	I-EV, I-AF, I-OG, I-TM, I-LC
-29	##리지	I-AF	I-EV	I-EV, I-AF, I-OG, I-LC, I-TM
-30	##가	O	I-EV	I-EV, I-AF, I-OG, O, I-TM
-31	그리	O	I-EV	I-EV, I-AF, I-OG, O, I-TM
-32	##는	O	I-EV	I-EV, I-AF, I-OG, O, I-TM
-33	인문	O	I-EV	I-EV, I-AF, I-OG, O, I-TM
-34	##지	O	I-EV	I-EV, I-AF, O, I-OG, I-TM
-35	##리	O	I-EV	I-EV, I-AF, O, I-OG, I-TM
-36	’	O	O	O, I-EV, I-AF, I-OG, I-DT
-37	에서	O	O	O, I-EV, B-LC, B-OG, B-CV
-38	안대	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
-39	##회	I-PS	I-PS	I-PS, O, I-OG, I-LC, I-DT
-40	성균관	B-OG	B-OG	B-OG, B-LC, I-OG, B-AF, O
-41	##대	I-OG	I-OG	I-OG, O, I-LC, I-AF, I-PS
-42	한문	O	O	O, B-CV, B-QT, B-TM, I-OG
-43	##학	O	O	O, B-TM, I-QT, B-QT, I-CV
-44	##과	O	O	O, I-QT, B-QT, B-TM, I-TM
-45	교수	B-CV	B-CV	B-CV, O, I-CV, B-QT, I-QT
-46	##는	O	O	O, I-CV, I-QT, B-CV, I-EV
-47	“	O	O	O, B-LC, B-CV, B-TM, B-OG
-48	각	O	O	O, B-LC, B-CV, B-OG, B-PS
-49	지역	O	O	O, B-CV, B-LC, I-LC, B-FD
-50	##의	O	O	O, B-LC, B-CV, B-PS, B-AF
-51	전설	O	O	O, B-FD, B-CV, B-AF, B-LC
-52	##과	O	O	O, B-PS, B-CV, B-LC, I-AF
-53	설화	B-FD	O	O, B-FD, B-CV, I-FD, B-AF
-54	##를	O	O	O, B-CV, I-AF, I-CV, I-FD
-55	적극	O	O	O, B-LC, B-CV, B-TM, B-OG
-56	기록	O	O	O, B-LC, B-CV, B-OG, B-AF
-57	##한	O	O	O, B-LC, B-PS, B-CV, B-OG
-58	택	B-AF	B-AF	B-AF, O, I-AF, B-LC, B-PS
-59	##리지	I-AF	I-AF	I-AF, O, I-PS, I-LC, I-EV
-60	##는	O	O	O, I-AF, I-EV, I-OG, B-CV
-61	구비	B-FD	B-FD	B-FD, O, I-FD, B-AF, B-TR
-62	##문학	I-FD	I-FD	I-FD, O, B-FD, I-AF, I-TR
-63	##과	O	O	O, I-FD, I-AF, I-OG, I-QT
-64	스토리텔링	O	O	O, B-FD, B-TM, B-LC, B-CV
-65	##의	O	O	O, B-PS, B-CV, B-LC, I-AF
-66	보고	O	O	O, B-CV, B-LC, B-PS, B-OG
-67	(	O	O	O, B-CV, B-LC, B-OG, I-OG
-68	[UNK]	O	O	O, B-CV, B-LC, B-OG, B-TM
-69	[UNK]	O	O	O, B-CV, B-LC, B-OG, B-TM
-70	)	O	O	O, B-CV, B-LC, B-OG, B-TM
-71	”	O	O	O, B-CV, B-LC, B-OG, B-PS
-72	라고	O	O	O, B-CV, B-OG, B-LC, B-PS
-73	말	O	O	O, B-CV, B-LC, B-TM, B-QT
-74	##했	O	O	O, B-CV, B-LC, B-PS, B-OG
-75	##다	O	O	O, B-CV, B-LC, B-TM, I-EV
-76	.	O	O	O, B-LC, B-OG, B-CV, B-PS
-77	[SEP]	O	O	O, B-LC, B-CV, B-OG, I-EV
+	text	label	preds
+0	[CLS]	O	O
+1	""""	O	O
+2	소	B-PS	B-PS
+3	##월	I-PS	I-PS
+4	##의	O	O
+5	시가	B-FD	O
+6	##에	O	O
+7	떠도	O	O
+8	##는	O	O
+9	애	O	O
+10	##수	O	O
+11	(	O	O
+12	哀	O	O
+13	愁	O	O
+14	)	O	O
+15	는	O	O
+16	잃	O	O
+17	##어진	O	O
+18	것	O	O
+19	##에	O	O
+20	대한	O	O
+21	비	O	O
+22	##애	O	O
+23	##로	O	O
+24	##서	O	O
+25	극히	O	O
+26	낭만	O	O
+27	##적	O	O
+28	##인	O	O
+29	색조	O	O
+30	##를	O	O
+31	띠	O	O
+32	##게	O	O
+33	된	O	O
+34	것	O	O
+35	##이	O	O
+36	사실	O	O
+37	##이다	O	O
+38	.	O	O
+39	[SEP]	O	O

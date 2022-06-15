@@ -1,18 +1,28 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-PS, B-CV, I-CV, I-PS
-1	이씨	O	O	O, B-PS, B-CV, I-CV, I-PS
-2	##는	O	O	O, B-PS, B-CV, I-PS, I-CV
-3	범행	O	O	O, B-CV, B-PS, I-CV, I-PS
-4	4	B-TI	O	O, B-TI, B-EV, B-QT, B-PS
-5	##시간	I-TI	I-TI	I-TI, O, B-TI, I-PS, I-TR
-6	만인	O	O	O, B-PS, B-CV, I-TI, I-PS
-7	17	B-DT	B-DT	B-DT, O, B-PS, B-CV, I-DT
-8	##일	I-DT	I-DT	I-DT, O, I-PS, B-DT, I-CV
-9	새벽	O	B-TI	B-TI, O, I-TI, B-EV, B-LC
-10	경찰	B-OG	B-OG	B-OG, O, B-CV, B-AF, I-OG
-11	##에	O	O	O, B-PS, B-CV, I-OG, I-CV
-12	자수	O	O	O, B-CV, B-PS, I-CV, B-TR
-13	##했	O	O	O, B-PS, B-CV, I-CV, I-PS
-14	##다	O	O	O, B-PS, B-CV, I-PS, I-CV
-15	.	O	O	O, B-PS, B-CV, I-PS, I-CV
-16	[SEP]	O	O	O, B-PS, B-CV, I-CV, I-PS
+	text	label	preds
+0	[CLS]	O	O
+1	취업	O	O
+2	##에	O	O
+3	대해서	O	O
+4	더	O	O
+5	비중	O	O
+6	##을	O	O
+7	두	B-TI	O
+8	##시	I-TI	O
+9	##겠다	O	O
+10	##고	O	O
+11	하고	O	O
+12	감사	B-CV	B-CV
+13	##도	O	O
+14	하	O	O
+15	##겠다	O	O
+16	지금	O	O
+17	그런	O	O
+18	입장	O	O
+19	##이	O	O
+20	##신	O	O
+21	것	O	O
+22	같	O	O
+23	##습	O	O
+24	##니다	O	O
+25	.	O	O
+26	[SEP]	O	O

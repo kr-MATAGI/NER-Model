@@ -1,38 +1,52 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	이제	O	O	O, B-OG, B-LC, B-CV, B-PS
-2	북한	B-LC	B-OG	B-OG, B-LC, O, B-PS, I-OG
-3	##이	O	O	O, I-OG, I-LC, B-PS, I-AF
-4	대륙	B-AF	B-AF	B-AF, O, I-AF, B-TM, B-MT
-5	##간	I-AF	I-AF	I-AF, O, B-AF, I-TM, I-LC
-6	##탄	I-AF	I-AF	I-AF, O, B-AF, I-TM, I-LC
-7	##도	I-AF	I-AF	I-AF, O, B-AF, I-TM, I-QT
-8	##미사	I-AF	I-AF	I-AF, O, B-AF, I-TM, I-QT
-9	##일	I-AF	I-AF	I-AF, O, I-TM, I-QT, I-CV
-10	발사	O	O	O, I-AF, B-CV, I-EV, B-LC
-11	##능력	O	O	O, I-AF, B-LC, B-PS, I-LC
-12	##을	O	O	O, B-CV, B-OG, B-PS, B-LC
-13	가지	O	O	O, B-CV, B-TM, B-OG, B-LC
-14	##고	O	O	O, B-LC, B-PS, B-OG, I-AF
-15	거기	O	O	O, B-CV, B-AF, B-LC, I-AF
-16	##에	O	O	O, B-CV, B-AF, B-LC, B-TM
-17	핵	B-AF	B-AF	B-AF, O, B-MT, I-AF, B-TM
-18	##탄두	I-AF	I-AF	I-AF, O, B-AF, I-TM, I-LC
-19	##를	O	O	O, I-AF, I-TM, B-CV, I-OG
-20	탑재	O	O	O, B-LC, B-CV, B-TM, B-OG
-21	##하	O	O	O, B-LC, B-PS, B-OG, B-AF
-22	##게	O	O	O, B-CV, B-LC, B-OG, I-AF
-23	된다면	O	O	O, B-LC, B-CV, B-OG, B-TM
-24	동북아	B-LC	B-LC	B-LC, O, B-OG, B-AF, B-TM
-25	##는	O	O	O, I-LC, I-OG, I-AF, I-QT
-26	물론	O	O	O, B-LC, B-CV, B-QT, B-PS
-27	미국	B-LC	B-LC	B-LC, B-OG, O, B-PS, B-AF
-28	##도	O	O	O, I-LC, I-OG, I-AF, I-PS
-29	안전	O	O	O, B-LC, B-CV, B-TM, B-OG
-30	##할	O	O	O, B-LC, I-LC, I-AF, I-OG
-31	수	O	O	O, I-AF, I-OG, B-LC, B-TM
-32	##가	O	O	O, I-AF, I-OG, B-CV, B-OG
-33	없	O	O	O, B-CV, I-AF, B-TM, I-OG
-34	##다	O	O	O, B-CV, I-AF, I-OG, B-LC
-35	.	O	O	O, B-LC, B-AF, B-CV, B-PS
-36	[SEP]	O	O	O, B-LC, B-CV, I-AF, B-AF
+	text	label	preds
+0	[CLS]	O	O
+1	함께	O	O
+2	발굴	O	O
+3	##된	O	O
+4	5	B-TI	B-TI
+5	##분	I-TI	I-TI
+6	분량	O	I-TI
+7	##의	O	O
+8	‘	O	O
+9	황해	B-LC	B-EV
+10	##도	I-LC	I-EV
+11	축산	O	I-EV
+12	##공	O	I-EV
+13	##진	O	I-EV
+14	##회	O	I-EV
+15	영상	O	I-EV
+16	’	O	O
+17	(	O	O
+18	제목	O	O
+19	미	O	O
+20	##상	O	O
+21	)	O	O
+22	은	O	O
+23	1924	B-DT	B-DT
+24	##년	I-DT	I-DT
+25	10	I-DT	I-DT
+26	##월	I-DT	I-DT
+27	황해	B-LC	B-LC
+28	##도	I-LC	I-LC
+29	사리	B-LC	B-LC
+30	##원	I-LC	I-LC
+31	##에	O	O
+32	##서	O	O
+33	열린	O	O
+34	공	O	B-AF
+35	##진	O	I-AF
+36	##회	O	I-AF
+37	##장	O	I-AF
+38	거리	O	O
+39	##를	O	O
+40	달리	O	O
+41	##는	O	O
+42	자동차	B-AF	B-AF
+43	##에	O	O
+44	##서	O	O
+45	촬영	O	O
+46	##한	O	O
+47	영상	O	O
+48	##이다	O	O
+49	.	O	O
+50	[SEP]	O	O

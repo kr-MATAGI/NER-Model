@@ -1,23 +1,25 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, I-EV, B-CV
-1	시	O	O	O, B-TM, B-PS, B-CV, B-LC
-2	##린	O	O	O, B-PS, B-CV, I-AF, B-LC
-3	손	B-AM	B-AM	B-AM, O, I-AM, B-TR, B-PS
-4	##을	O	O	O, I-AF, I-CV, I-PS, I-EV
-5	비	O	O	O, B-CV, B-LC, B-PS, B-AF
-6	##빌	O	O	O, B-PS, B-LC, I-AF, B-AF
-7	만큼	O	O	O, B-DT, B-PS, B-LC, B-EV
-8	꽃	O	O	O, B-EV, B-LC, B-DT, B-TM
-9	##샘	O	I-EV	I-EV, O, I-TM, I-LC, I-DT
-10	##추	O	O	O, I-EV, I-TM, I-LC, I-DT
-11	##위	O	O	O, I-EV, I-TM, I-LC, I-DT
-12	##가	O	O	O, I-EV, I-TM, I-DT, I-LC
-13	기승	O	O	O, B-DT, B-LC, B-OG, B-CV
-14	##을	O	O	O, I-OG, I-DT, I-AF, B-PS
-15	부린	O	O	O, B-DT, B-LC, I-DT, B-PS
-16	날	O	O	O, B-DT, I-DT, B-CV, B-LC
-17	##이	O	O	O, I-DT, B-CV, B-DT, B-PS
-18	##었	O	O	O, B-DT, B-CV, B-LC, I-DT
-19	##다	O	O	O, B-CV, B-LC, B-DT, I-DT
-20	.	O	O	O, B-LC, B-CV, B-PS, B-DT
-21	[SEP]	O	O	O, B-LC, B-CV, I-EV, B-DT
+	text	label	preds
+0	[CLS]	O	O
+1	탈레반	B-OG	B-OG
+2	,	O	O
+3	여성	O	O
+4	##교육	O	B-CV
+5	##권	O	I-CV
+6	주장	O	O
+7	##한	O	O
+8	말	B-PS	B-PS
+9	##랄	I-PS	I-PS
+10	##라	I-PS	I-PS
+11	(	O	O
+12	탈레반	B-OG	B-OG
+13	##에	O	O
+14	총격	O	O
+15	##당	O	O
+16	##한	O	O
+17	파키스탄	B-LC	B-LC
+18	소녀	O	O
+19	)	O	O
+20	공개	O	O
+21	##협	O	O
+22	##박	O	O
+23	[SEP]	O	O

@@ -1,8 +1,37 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-AF, I-OG
-1	양	O	B-AM	B-AM, O, B-CV, B-TM, B-PS
-2	옆구리	B-AM	I-AM	I-AM, B-AM, I-CV, O, I-TM
-3	##에	O	O	O, I-CV, I-TM, I-QT, I-AF
-4	끼	O	O	O, B-CV, B-AM, B-PS, I-CV
-5	##고	O	O	O, I-AF, I-CV, B-CV, I-QT
-6	[SEP]	O	O	O, B-CV, B-LC, I-AF, B-AM
+	text	label	preds
+0	[CLS]	O	O
+1	오늘날	O	O
+2	일반인	O	B-CV
+3	##들의	O	O
+4	일상	O	O
+5	##적	O	O
+6	##인	O	O
+7	언어	O	O
+8	##와	O	O
+9	##는	O	O
+10	꽤	O	O
+11	거리	O	O
+12	##가	O	O
+13	있	O	O
+14	##는데	O	O
+15	좀	O	O
+16	더	O	O
+17	일상	O	O
+18	##적	O	O
+19	##인	O	O
+20	언어	O	O
+21	##로	O	O
+22	번역	O	O
+23	##돼	O	O
+24	##야	O	O
+25	할	O	O
+26	것	O	O
+27	##인	O	O
+28	##데	O	O
+29	그렇게	O	O
+30	번역	O	O
+31	되	O	O
+32	##어야	O	O
+33	합니다	O	O
+34	.	O	O
+35	[SEP]	O	O

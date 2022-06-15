@@ -1,52 +1,68 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	김종인	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-2	·	O	O	O, I-PS, I-OG, B-CV, I-AF
-3	이상	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-4	##돈	I-PS	I-PS	I-PS, O, I-OG, B-PS, I-LC
-5	위원	B-CV	B-CV	B-CV, O, I-CV, I-PS, B-TM
-6	등	O	O	O, I-CV, B-CV, I-EV, I-QT
-7	##이	O	O	O, B-PS, B-LC, B-CV, B-OG
-8	이명박	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-9	대통령	B-CV	B-CV	B-CV, I-PS, O, I-CV, B-PS
-10	##의	O	O	O, I-CV, B-CV, I-EV, I-OG
-11	‘	O	O	O, B-CV, B-LC, B-OG, B-PS
-12	74	B-QT	B-TM	B-TM, B-QT, B-TR, O, B-AF
-13	##7	I-QT	I-TM	I-TM, I-QT, I-TR, O, I-AF
-14	공약	O	O	O, I-TM, I-QT, I-TR, I-CV
-15	’	O	O	O, I-TM, I-QT, I-CV, I-EV
-16	과	O	O	O, B-PS, B-OG, B-CV, B-LC
-17	4	B-TM	B-TM	B-TM, I-TM, B-QT, B-TR, B-LC
-18	##대	I-TM	I-TM	I-TM, I-QT, O, I-TR, I-AF
-19	##강	I-TM	I-TM	I-TM, O, I-QT, I-TR, I-AF
-20	사업	I-TM	I-TM	I-TM, O, I-QT, I-TR, I-AF
-21	등	O	O	O, I-TM, I-QT, I-OG, I-AF
-22	##을	O	O	O, B-CV, B-OG, B-LC, B-PS
-23	비판	O	O	O, B-CV, B-LC, B-TM, B-OG
-24	##하	O	O	O, B-PS, B-CV, B-LC, B-OG
-25	##는	O	O	O, B-CV, B-PS, B-LC, B-OG
-26	등	O	O	O, B-OG, B-LC, B-PS, B-CV
-27	비대위	O	O	O, B-OG, B-CV, B-EV, I-OG
-28	##가	O	O	O, I-OG, B-PS, I-EV, I-CV
-29	‘	O	O	O, B-OG, B-CV, B-LC, B-PS
-30	반	O	O	O, B-PS, B-OG, B-CV, B-EV
-31	##엠	B-PS	B-PS	B-PS, B-OG, I-PS, O, I-OG
-32	##비	I-PS	I-PS	I-PS, I-OG, O, I-LC, I-AF
-33	’	O	O	O, I-OG, I-PS, I-EV, B-PS
-34	색깔	O	O	O, B-PS, B-CV, B-LC, B-OG
-35	##을	O	O	O, B-PS, B-CV, B-OG, B-LC
-36	강화	O	O	O, B-CV, B-LC, B-OG, B-PS
-37	##할	O	O	O, B-PS, B-LC, B-OG, B-CV
-38	경우	O	O	O, B-LC, B-OG, B-CV, B-TM
-39	,	O	O	O, B-CV, B-OG, B-LC, B-PS
-40	청와대	B-OG	B-OG	B-OG, B-AF, O, B-PS, B-LC
-41	##와	O	O	O, I-OG, I-AF, I-EV, I-CV
-42	##의	O	O	O, B-LC, B-CV, B-OG, B-PS
-43	갈등	O	O	O, B-CV, B-LC, B-TM, B-OG
-44	##도	O	O	O, B-LC, B-CV, B-OG, I-OG
-45	불가피	O	O	O, B-OG, B-CV, B-TM, B-LC
-46	##할	O	O	O, B-PS, B-CV, I-OG, B-LC
-47	전망	O	O	O, B-CV, B-TM, B-OG, B-QT
-48	##이다	O	O	O, B-CV, B-TM, I-OG, B-OG
-49	.	O	O	O, B-LC, B-OG, B-PS, B-CV
-50	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	도로	O	O
+2	##와	O	O
+3	인접	O	O
+4	##한	O	O
+5	오피스텔	O	O
+6	##에	O	O
+7	사	O	O
+8	##는	O	O
+9	장기	B-PS	B-PS
+10	##준	I-PS	I-PS
+11	(	O	O
+12	31	B-QT	B-QT
+13	)	O	O
+14	씨	O	O
+15	##는	O	O
+16	""""	O	O
+17	2008	B-DT	B-DT
+18	##년	I-DT	I-DT
+19	처음	O	O
+20	이사	O	O
+21	왔	O	O
+22	##을	O	O
+23	때	O	O
+24	도로	O	O
+25	##가	O	O
+26	주차장	O	O
+27	##으로	O	O
+28	사용	O	O
+29	##되	O	O
+30	##고	O	O
+31	있	O	O
+32	##어	O	O
+33	놀랐	O	O
+34	##다	O	O
+35	""""	O	O
+36	면서	O	O
+37	""""	O	O
+38	공사	O	O
+39	중인	O	O
+40	지하	O	O
+41	##차	O	O
+42	##로	O	O
+43	옆	O	B-TM
+44	##에	O	O
+45	도보	O	O
+46	##가	O	O
+47	있	O	O
+48	##는	O	O
+49	등	O	O
+50	위험	O	O
+51	##한	O	O
+52	것	O	O
+53	##이	O	O
+54	한	B-QT	O
+55	##둘	I-QT	O
+56	##이	O	O
+57	아니	O	O
+58	##었	O	O
+59	##다	O	O
+60	""""	O	O
+61	고	O	O
+62	말	O	O
+63	##했	O	O
+64	##다	O	O
+65	.	O	O
+66	[SEP]	O	O

@@ -1,42 +1,19 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	구자	B-PS	B-PS	B-PS, B-OG, O, I-PS, B-LC
-2	##홍	I-PS	I-PS	I-PS, O, I-OG, B-PS, I-LC
-3	LS	O	B-OG	B-OG, O, I-OG, B-CV, B-AF
-4	회장	B-CV	B-CV	B-CV, O, I-CV, I-OG, B-OG
-5	(	O	O	O, I-CV, I-OG, B-CV, I-EV
-6	사진	O	O	O, B-CV, B-TM, B-LC, B-OG
-7	)	O	O	O, B-CV, B-PS, B-OG, B-LC
-8	이	O	O	O, B-PS, B-CV, B-LC, B-OG
-9	올해	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-CV
-10	초	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-11	발표	O	O	O, I-DT, B-CV, B-FD, B-PS
-12	##한	O	O	O, B-PS, B-LC, B-CV, B-OG
-13	경영	O	O	O, B-FD, B-TR, B-CV, B-AF
-14	##철	O	O	O, I-FD, B-FD, I-TR, I-AF
-15	##학	O	O	O, I-FD, I-TR, B-FD, I-AF
-16	‘	O	O	O, B-CV, B-LC, B-OG, B-PS
-17	LS	B-OG	O	O, B-AF, B-OG, B-PS, B-TR
-18	##파	O	O	O, I-AF, I-TR, I-OG, I-FD
-19	##트	O	O	O, I-AF, I-TR, I-OG, I-FD
-20	##너	O	O	O, I-AF, I-TR, I-TM, I-FD
-21	##십	O	O	O, I-AF, I-TR, I-TM, I-FD
-22	’	O	O	O, I-AF, I-OG, I-TR, I-TM
-23	을	O	O	O, B-CV, B-LC, B-PS, B-OG
-24	전파	O	O	O, B-CV, B-LC, B-TM, B-PS
-25	##하기	O	O	O, B-LC, B-PS, B-CV, I-LC
-26	위해	O	O	O, B-LC, B-PS, B-CV, B-TM
-27	국내외	O	O	O, B-LC, B-TM, B-AF, B-CV
-28	사업장	O	O	O, B-LC, B-AF, I-LC, B-CV
-29	##을	O	O	O, B-LC, B-CV, I-AF, I-LC
-30	돌	O	O	O, B-LC, B-CV, B-TM, B-AF
-31	##며	O	O	O, B-LC, B-PS, I-LC, B-OG
-32	현장	O	O	O, B-LC, B-CV, I-LC, B-TM
-33	경영	O	O	O, B-LC, B-CV, B-FD, B-PS
-34	##을	O	O	O, B-CV, B-LC, B-PS, I-EV
-35	강화	O	O	O, B-CV, B-LC, B-TM, B-PS
-36	##하고	O	O	O, B-CV, B-LC, B-PS, B-TM
-37	있	O	O	O, B-CV, B-LC, B-PS, B-TM
-38	##다	O	O	O, B-CV, B-LC, B-PS, B-TM
-39	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-40	[SEP]	O	O	O, B-LC, B-CV, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	그저	O	B-DT
+2	##께	O	I-DT
+3	개헌	O	O
+4	기자	O	O
+5	##회	O	O
+6	##견	O	O
+7	하신	O	O
+8	건	O	O
+9	어떻게	O	O
+10	설명	O	O
+11	##하	O	O
+12	##실	O	O
+13	거	O	O
+14	##예	O	O
+15	##요	O	O
+16	?	O	O
+17	[SEP]	O	O

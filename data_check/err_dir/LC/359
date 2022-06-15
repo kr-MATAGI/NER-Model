@@ -1,35 +1,32 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-EV, I-CV
-1	석유공사	B-OG	B-OG	B-OG, O, B-PS, B-AF, B-LC
-2	##는	O	O	O, I-OG, B-CV, I-EV, I-AF
-3	2008	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-4	##년	I-DT	I-DT	I-DT, O, I-QT, B-DT, I-PS
-5	하	B-LC	B-LC	B-LC, O, B-OG, B-AF, B-PS
-6	##울	I-LC	I-LC	I-LC, O, B-LC, I-AF, I-OG
-7	##러	I-LC	I-LC	I-LC, O, I-AF, B-LC, I-OG
-8	광구	I-LC	O	O, I-LC, I-AF, B-LC, I-OG
-9	투자	O	O	O, B-LC, I-LC, B-CV, I-AF
-10	##에	O	O	O, B-CV, B-LC, B-OG, B-TM
-11	나섰	O	O	O, B-LC, B-CV, B-OG, B-TM
-12	##으며	O	O	O, B-LC, B-CV, B-OG, B-TM
-13	2012	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-14	##년	I-DT	I-DT	I-DT, O, I-QT, B-DT, I-PS
-15	데미	B-LC	B-LC	B-LC, O, B-OG, B-AF, I-LC
-16	##르	I-LC	I-LC	I-LC, O, B-LC, I-AF, I-OG
-17	##닥	I-LC	I-LC	I-LC, O, I-AF, B-LC, I-OG
-18	지역	O	O	O, I-LC, B-LC, I-AF, I-EV
-19	##에	O	O	O, I-LC, B-LC, I-AF, B-CV
-20	대한	O	O	O, B-LC, B-OG, B-EV, B-TM
-21	첫	O	O	O, B-QT, B-LC, B-EV, B-TM
-22	탐사	O	O	O, I-QT, B-TM, B-TR, I-EV
-23	시추	O	O	O, I-QT, B-TM, B-LC, B-PS
-24	##에서	O	O	O, B-LC, B-CV, I-EV, B-PS
-25	원유	B-MT	B-MT	B-MT, O, I-MT, B-LC, B-AF
-26	##를	O	O	O, I-AF, B-CV, I-OG, I-CV
-27	발견	O	O	O, B-CV, B-TM, B-LC, B-OG
-28	##한	O	O	O, B-LC, B-OG, B-PS, B-CV
-29	바	O	O	O, B-LC, B-CV, B-TM, B-OG
-30	있	O	O	O, B-CV, B-OG, B-LC, B-TM
-31	##다	O	O	O, B-CV, B-LC, I-OG, B-OG
-32	.	O	O	O, B-LC, B-OG, B-CV, B-TM
-33	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	대구	B-LC	B-EV
+2	시민운동	O	I-EV
+3	##의	O	O
+4	원조	O	O
+5	##인	O	O
+6	대구	B-LC	B-OG
+7	##와	B-OG	I-OG
+8	##이	I-OG	I-OG
+9	##엠	I-OG	I-OG
+10	##시	I-OG	I-OG
+11	##에이	I-OG	I-OG
+12	(	O	O
+13	YMCA	B-OG	B-OG
+14	)	O	O
+15	전	B-PS	B-PS
+16	##호영	I-PS	I-PS
+17	전	O	O
+18	사무총장	B-CV	B-CV
+19	##이	O	O
+20	10	B-DT	B-DT
+21	##일	I-DT	I-DT
+22	새벽	B-TI	B-TI
+23	1	I-TI	I-TI
+24	##시	I-TI	I-TI
+25	##께	I-TI	I-TI
+26	별세	O	O
+27	##했	O	O
+28	##다	O	O
+29	.	O	O
+30	[SEP]	O	O

@@ -1,34 +1,67 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	184	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-2	##5	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-3	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-4	옛	O	O	O, I-DT, B-AF, B-CV, B-LC
-5	수도원	O	O	O, B-CV, B-AF, B-OG, I-AF
-6	터	O	O	O, I-AF, I-CV, I-LC, I-OG
-7	##에	O	O	O, B-LC, B-PS, I-AF, B-CV
-8	세워진	O	O	O, B-LC, B-OG, B-CV, B-AF
-9	산타	B-LC	O	O, B-LC, B-PS, B-CV, B-AF
-10	##카	I-LC	O	O, I-LC, I-AF, I-PS, B-LC
-11	##테	I-LC	O	O, I-LC, I-AF, B-LC, I-PS
-12	##리나	I-LC	O	O, I-LC, I-PS, I-AF, B-LC
-13	시장	I-LC	O	O, B-CV, B-LC, I-LC, B-AF
-14	##은	O	O	O, B-LC, I-LC, B-PS, I-CV
-15	외곽	O	O	O, B-LC, B-TM, B-CV, I-LC
-16	도시	O	O	O, B-LC, I-LC, B-CV, I-CV
-17	##들	O	O	O, B-LC, I-LC, B-CV, I-CV
-18	##에	O	O	O, B-LC, B-CV, B-PS, B-TM
-19	##까	O	O	O, B-LC, B-CV, B-PS, B-TM
-20	##지	O	O	O, B-LC, B-PS, B-CV, B-OG
-21	식료품	O	O	O, B-CV, B-LC, B-TM, B-QT
-22	##을	O	O	O, B-CV, B-PS, B-LC, B-OG
-23	공급	O	O	O, B-CV, B-LC, B-TM, B-QT
-24	##하	O	O	O, B-PS, B-LC, B-CV, B-AF
-25	##는	O	O	O, B-LC, B-CV, B-PS, B-QT
-26	유통	O	O	O, B-CV, B-LC, B-TM, B-PS
-27	##의	O	O	O, B-PS, B-CV, I-AF, I-CV
-28	중심지	O	O	O, B-CV, B-LC, B-QT, B-AF
-29	##였	O	O	O, B-LC, B-CV, B-PS, I-CV
-30	##다	O	O	O, B-CV, B-LC, I-CV, B-PS
-31	.	O	O	O, B-LC, B-CV, B-PS, B-AF
-32	[SEP]	O	O	O, B-LC, B-CV, I-LC, B-AF
+	text	label	preds
+0	[CLS]	O	O
+1	ML	B-OG	B-OG
+2	##S	I-OG	I-OG
+3	(	O	O
+4	미국	B-LC	B-OG
+5	##프로	B-OG	I-OG
+6	##축구	I-OG	I-OG
+7	##리그	I-OG	I-OG
+8	)	O	O
+9	밴쿠버	B-LC	B-OG
+10	화이트	B-OG	I-OG
+11	##캡	I-OG	I-OG
+12	##스	I-OG	I-OG
+13	##에	O	O
+14	##서	O	O
+15	뛰	O	O
+16	##고	O	O
+17	있	O	O
+18	##는	O	O
+19	축구	B-CV	B-CV
+20	선수	B-CV	B-CV
+21	이영	B-PS	B-PS
+22	##표	I-PS	I-PS
+23	##는	O	O
+24	지난달	B-DT	B-DT
+25	자기	O	O
+26	트위터	B-TM	B-TM
+27	##에	O	O
+28	""""	O	O
+29	인구	O	O
+30	12	B-QT	B-QT
+31	##만	I-QT	I-QT
+32	##명	I-QT	I-QT
+33	##의	O	O
+34	이곳	O	O
+35	작	O	O
+36	##은	O	O
+37	마을	O	O
+38	##에	O	O
+39	있	O	O
+40	##는	O	O
+41	아마추어	B-CV	B-CV
+42	대학	O	O
+43	축구	O	B-CV
+44	##팀	O	O
+45	시즌	O	O
+46	티켓	O	O
+47	##이	O	O
+48	한국	B-LC	B-LC
+49	돈	O	O
+50	##으로	O	O
+51	4	B-QT	B-QT
+52	##만	I-QT	I-QT
+53	##3	I-QT	I-QT
+54	##천	I-QT	I-QT
+55	##원	I-QT	I-QT
+56	##이	O	O
+57	##네	O	O
+58	##요	O	O
+59	""""	O	O
+60	라고	O	O
+61	적	O	O
+62	##었	O	O
+63	##다	O	O
+64	.	O	O
+65	[SEP]	O	O

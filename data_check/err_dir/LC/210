@@ -1,76 +1,54 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-EV, B-CV, I-CV, I-OG
-1	정몽준	B-PS	B-PS	B-PS, B-OG, O, B-LC, I-PS
-2	전	O	O	O, I-PS, I-OG, B-CV, I-EV
-3	대표	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-EV
-4	##도	O	O	O, I-CV, I-EV, I-QT, B-CV
-5	“	O	O	O, B-LC, B-CV, B-PS, B-OG
-6	북한	B-LC	B-OG	B-OG, B-LC, O, B-PS, B-TM
-7	##이	O	O	O, I-OG, B-PS, I-LC, I-PS
-8	핵	O	O	O, B-MT, B-AF, B-CV, B-TR
-9	##무장	O	O	O, I-CV, I-TR, I-AF, I-LC
-10	##을	O	O	O, I-CV, B-PS, I-AF, I-EV
-11	하	O	O	O, B-LC, B-OG, B-PS, B-CV
-12	##면	O	O	O, B-LC, B-PS, B-OG, B-CV
-13	우리	O	O	O, B-LC, B-OG, B-PS, B-CV
-14	##도	O	O	O, B-PS, B-LC, I-OG, B-CV
-15	최소한	O	O	O, B-PS, B-LC, B-CV, B-QT
-16	##의	O	O	O, B-LC, B-PS, B-OG, B-TM
-17	자위	O	O	O, B-CV, B-LC, B-TM, B-PS
-18	##력	O	O	O, I-CV, I-LC, I-TM, I-PS
-19	##을	O	O	O, B-PS, B-LC, B-CV, I-CV
-20	확보	O	O	O, B-LC, B-CV, B-TM, B-PS
-21	##할	O	O	O, B-PS, B-LC, B-OG, B-CV
-22	수	O	O	O, B-PS, B-LC, B-OG, B-CV
-23	##밖	O	O	O, B-PS, B-LC, B-CV, B-TM
-24	##에	O	O	O, B-PS, B-LC, B-OG, I-OG
-25	없	O	O	O, B-LC, B-PS, B-CV, B-TM
-26	##다는	O	O	O, B-PS, B-LC, B-OG, B-CV
-27	것	O	O	O, B-PS, B-LC, B-CV, B-OG
-28	##을	O	O	O, B-PS, B-CV, B-LC, B-OG
-29	미국	B-LC	B-OG	B-OG, B-LC, O, B-PS, B-CV
-30	##에	O	O	O, I-OG, I-LC, I-EV, I-PS
-31	설득	O	O	O, B-LC, B-CV, B-OG, B-TM
-32	##해야	O	O	O, B-LC, B-PS, I-LC, I-OG
-33	한다	O	O	O, B-LC, B-PS, B-CV, I-OG
-34	”	O	O	O, B-CV, B-LC, B-PS, B-TM
-35	며	O	O	O, B-LC, B-CV, B-OG, B-PS
-36	“	O	O	O, B-CV, B-LC, B-PS, B-OG
-37	이웃집	O	O	O, B-LC, B-PS, B-CV, B-AF
-38	깡패	O	B-CV	B-CV, O, I-CV, B-PS, B-AF
-39	##가	O	O	O, I-CV, B-PS, I-AF, I-PS
-40	최신	O	O	O, B-CV, B-PS, B-LC, B-AF
-41	##형	O	O	O, I-AF, B-PS, I-CV, I-PS
-42	기관총	B-AF	B-AF	B-AF, O, I-AF, B-CV, B-OG
-43	##을	O	O	O, I-AF, I-OG, B-CV, I-CV
-44	구입	O	O	O, B-CV, B-LC, B-TM, B-OG
-45	##했	O	O	O, B-LC, B-PS, B-OG, B-CV
-46	##는데	O	O	O, B-LC, B-PS, B-OG, B-CV
-47	돌멩이	O	O	O, B-CV, B-AM, B-AF, B-PS
-48	하나	B-QT	B-QT	B-QT, O, I-QT, B-PS, B-LC
-49	들	O	O	O, I-QT, B-PS, I-LC, I-AF
-50	##고	O	O	O, B-PS, B-LC, I-QT, I-LC
-51	##서	O	O	O, B-LC, B-PS, B-AF, I-LC
-52	집	O	O	O, B-CV, B-AF, B-LC, B-AM
-53	##을	O	O	O, I-AF, B-CV, B-PS, I-CV
-54	지킨다	O	O	O, B-CV, B-LC, B-PS, I-AF
-55	##고	O	O	O, B-LC, I-AF, B-CV, B-PS
-56	할	O	O	O, B-LC, B-CV, B-TM, B-PS
-57	수	O	O	O, B-LC, B-PS, B-CV, B-TM
-58	##는	O	O	O, B-LC, B-CV, B-TM, B-PS
-59	없	O	O	O, B-CV, B-LC, B-TM, B-PS
-60	##으며	O	O	O, B-LC, B-PS, B-TM, B-OG
-61	핵	B-AF	B-AF	B-AF, O, B-MT, B-CV, B-PS
-62	억제	O	O	O, I-AF, B-CV, I-CV, I-TM
-63	##력	O	O	O, I-AF, I-CV, I-TM, I-PS
-64	##이	O	O	O, B-PS, B-LC, B-CV, B-OG
-65	필요	O	O	O, B-CV, B-TM, B-PS, B-LC
-66	##하	O	O	O, B-PS, B-LC, B-OG, B-CV
-67	##다	O	O	O, B-CV, B-PS, B-LC, I-OG
-68	”	O	O	O, B-CV, B-TM, B-LC, B-PS
-69	고	O	O	O, B-CV, B-LC, B-TM, B-PS
-70	강조	O	O	O, B-CV, B-LC, B-TM, B-OG
-71	##했	O	O	O, B-PS, B-CV, I-CV, I-EV
-72	##다	O	O	O, B-CV, B-LC, I-EV, B-PS
-73	.	O	O	O, B-LC, B-PS, B-CV, B-OG
-74	[SEP]	O	O	O, B-LC, B-CV, B-PS, I-EV
+	text	label	preds
+0	[CLS]	O	O
+1	프랑스	B-LC	B-OG
+2	##는	O	O
+3	1980	B-DT	B-DT
+4	##년	I-DT	I-DT
+5	##대	I-DT	I-DT
+6	중반	O	I-DT
+7	청년	O	O
+8	##실	O	O
+9	##업	O	O
+10	해소	O	O
+11	##를	O	O
+12	위해	O	O
+13	고령자	B-CV	B-CV
+14	##의	O	O
+15	조기	O	O
+16	##은	O	O
+17	##퇴	O	O
+18	##를	O	O
+19	유도	O	O
+20	##하	O	O
+21	##는	O	O
+22	정책	O	O
+23	##을	O	O
+24	썼	O	O
+25	##으나	O	O
+26	청년	O	O
+27	##고	O	O
+28	##용	O	O
+29	##은	O	O
+30	늘	O	O
+31	##지	O	O
+32	않	O	O
+33	##았	O	O
+34	##고	O	O
+35	그	O	O
+36	대신	O	O
+37	고령자	B-CV	O
+38	##에	O	O
+39	대한	O	O
+40	연금	O	B-CV
+41	##지	O	O
+42	##급	O	O
+43	증가	O	O
+44	등	O	O
+45	사회	O	O
+46	##적	O	O
+47	부담	O	O
+48	##만	O	O
+49	커졌	O	O
+50	##다	O	O
+51	.	O	O
+52	[SEP]	O	O

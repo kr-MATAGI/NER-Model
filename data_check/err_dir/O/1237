@@ -1,38 +1,26 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-EV, I-OG, B-CV, I-CV
-1	산	O	O	O, B-LC, B-CV, B-PT, B-PS
-2	##꼭	O	O	O, B-LC, B-CV, B-TM, B-PS
-3	##대기	O	O	O, B-LC, I-LC, B-PT, B-AM
-4	2	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-PS
-5	##만	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-6	##명	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-7	밀집	O	O	O, I-QT, B-CV, I-EV, I-OG
-8	…	O	O	O, B-LC, B-OG, B-PS, B-CV
-9	불	O	O	O, B-AF, B-LC, B-PS, B-AM
-10	##쏘	O	O	O, I-AF, B-AF, B-AM, B-PS
-11	##시	O	O	O, I-AF, B-AF, B-AM, B-PS
-12	##개	O	O	O, I-AF, I-LC, I-PS, I-AM
-13	된	O	O	O, B-LC, B-PS, I-AF, B-CV
-14	억새	O	B-PT	B-PT, O, B-AM, B-CV, I-PT
-15	…	O	O	O, I-EV, I-AF, I-CV, I-OG
-16	기상	O	O	O, B-LC, B-CV, B-TM, I-EV
-17	##변	O	O	O, B-PS, B-LC, B-CV, I-CV
-18	##화	O	O	O, B-LC, B-PS, I-LC, I-CV
-19	‘	O	O	O, B-LC, B-CV, B-OG, B-PS
-20	모르	O	O	O, B-LC, B-CV, B-TM, B-AF
-21	##쇠	O	O	O, B-LC, B-PS, B-AM, I-LC
-22	’	O	O	O, B-LC, B-PS, B-CV, B-OG
-23	/	O	O	O, B-LC, B-PS, B-OG, B-CV
-24	‘	O	O	O, B-EV, B-LC, B-DT, B-CV
-25	화	B-EV	B-EV	B-EV, B-LC, I-EV, B-PS, B-AF
-26	##왕산	I-EV	I-EV	I-EV, I-LC, I-PS, I-AF, B-EV
-27	참사	I-EV	I-EV	I-EV, O, B-EV, I-AF, I-LC
-28	’	O	O	O, I-EV, I-AF, I-OG, B-LC
-29	무모	O	O	O, B-CV, B-LC, I-EV, B-OG
-30	##한	O	O	O, B-LC, B-PS, I-EV, B-OG
-31	행사	O	O	O, B-CV, I-EV, B-EV, B-LC
-32	##가	O	O	O, I-EV, B-PS, B-CV, B-LC
-33	불	O	O	O, B-CV, B-LC, B-EV, B-AF
-34	##질렀	O	O	O, I-EV, B-CV, I-AF, I-CV
-35	##다	O	O	O, B-CV, B-LC, I-EV, B-OG
-36	[SEP]	O	O	O, B-LC, B-CV, I-EV, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	인사	O	O
+2	및	O	O
+3	평가	O	O
+4	##에	O	O
+5	##서는	O	O
+6	시도	O	O
+7	##교육	O	B-OG
+8	##청	O	I-OG
+9	##의	O	O
+10	평가	O	O
+11	부담	O	O
+12	##을	O	O
+13	확	O	O
+14	낮추	O	O
+15	##고	O	O
+16	인사	B-CV	O
+17	자율	I-CV	O
+18	##권	I-CV	O
+19	##은	O	O
+20	늘려	O	O
+21	##줬	O	O
+22	##다	O	O
+23	.	O	O
+24	[SEP]	O	O

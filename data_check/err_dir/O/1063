@@ -1,8 +1,11 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-AF
-1	중국	O	B-LC	B-LC, B-OG, O, B-CV, B-PS
-2	##언	O	O	O, B-CV, I-OG, I-LC, B-OG
-3	##데	O	O	O, I-OG, I-CV, I-LC, I-PS
-4	보	O	O	O, I-OG, I-AF, I-CV, B-CV
-5	##니까	O	O	O, B-CV, I-OG, I-AF, B-OG
-6	[SEP]	O	O	O, B-CV, I-OG, B-OG, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	네	O	B-QT
+2	정거장	O	I-QT
+3	##이	O	O
+4	더	O	O
+5	멀	O	O
+6	##어졌	O	O
+7	##잖아	O	O
+8	.	O	O
+9	[SEP]	O	O

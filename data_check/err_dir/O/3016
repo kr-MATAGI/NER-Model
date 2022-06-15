@@ -1,28 +1,24 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, I-OG, I-EV, B-CV
-1	1927	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-2	##년	I-DT	I-DT	I-DT, O, I-QT, B-DT, I-PS
-3	동아일보	B-OG	B-OG	B-OG, B-AF, O, I-OG, B-LC
-4	평	O	B-LC	B-LC, O, B-OG, I-OG, B-TM
-5	##북	O	I-LC	I-LC, O, I-OG, B-LC, I-PS
-6	구성	O	B-LC	B-LC, O, I-LC, B-PS, B-OG
-7	(	O	O	O, I-LC, I-OG, I-AF, I-PS
-8	[UNK]	O	O	O, B-LC, B-CV, B-PS, B-OG
-9	城	O	O	O, B-LC, B-CV, B-PS, B-TM
-10	)	O	O	O, B-LC, B-PS, B-CV, B-OG
-11	지	O	O	O, B-LC, B-OG, B-CV, B-PS
-12	##국	O	O	O, I-LC, I-OG, I-CV, B-LC
-13	경영	O	O	O, B-CV, B-LC, I-LC, I-OG
-14	##에	O	O	O, B-CV, B-PS, B-LC, I-CV
-15	실패	O	O	O, B-CV, B-LC, B-TM, B-PS
-16	##한	O	O	O, B-LC, B-PS, B-CV, I-LC
-17	뒤	O	O	O, B-LC, B-CV, B-PS, B-TM
-18	난	O	O	O, B-LC, B-TM, B-CV, B-PS
-19	술	O	O	O, B-TM, B-CV, B-AM, B-LC
-20	##독	O	O	O, I-TM, I-CV, I-LC, I-AM
-21	##에	O	O	O, I-TM, I-CV, I-AF, I-LC
-22	빠져	O	O	O, B-LC, B-CV, B-TM, B-PS
-23	지냈	O	O	O, B-CV, B-LC, B-PS, I-CV
-24	##다	O	O	O, B-CV, B-LC, I-CV, I-EV
-25	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-26	[SEP]	O	O	O, B-LC, B-CV, B-PS, I-LC
+	text	label	preds
+0	[CLS]	O	O
+1	10	B-DT	B-DT
+2	##년	I-DT	I-DT
+3	이상	I-DT	I-DT
+4	##된	O	O
+5	도라지	B-CV	B-CV
+6	##로	O	O
+7	만든	O	O
+8	분말	O	O
+9	,	O	O
+10	홍	B-PT	B-CV
+11	##도	I-PT	I-PT
+12	##라지	I-PT	I-PT
+13	,	O	O
+14	산삼	B-PT	B-PT
+15	배양	O	I-PT
+16	##근	O	I-PT
+17	등도	O	O
+18	함유	O	O
+19	##됐	O	O
+20	##다	O	O
+21	.	O	O
+22	[SEP]	O	O

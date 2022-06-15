@@ -1,58 +1,10 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	다만	O	O	O, B-CV, B-TM, B-QT, B-OG
-2	조	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-3	씨	O	O	O, I-PS, B-CV, I-OG, B-PS
-4	##가	O	O	O, B-PS, B-CV, B-LC, I-PS
-5	A	O	O	O, B-PS, B-CV, I-PS, B-LC
-6	양	O	O	O, B-PS, B-CV, I-PS, B-AM
-7	##과	O	O	O, B-PS, B-CV, I-PS, B-AM
-8	관계	O	O	O, B-CV, B-TM, B-PS, B-LC
-9	##를	O	O	O, B-PS, B-CV, I-CV, B-LC
-10	맺	O	O	O, B-CV, B-PS, B-TM, B-LC
-11	##으면서	O	O	O, B-PS, B-CV, B-LC, B-TM
-12	##도	O	O	O, B-PS, B-CV, B-LC, B-TM
-13	길거리	O	O	O, B-TM, B-CV, B-LC, B-AF
-14	##에서	O	O	O, B-PS, B-CV, B-LC, B-AM
-15	초중	B-CV	O	O, B-CV, I-CV, B-PS, B-TM
-16	##학생	I-CV	O	O, I-CV, B-CV, I-QT, I-TM
-17	##에	O	O	O, I-CV, B-PS, B-CV, B-AM
-18	##게	O	O	O, B-CV, B-PS, B-TM, B-LC
-19	접근	O	O	O, B-TM, B-CV, B-LC, B-PS
-20	##해	O	O	O, B-PS, B-LC, B-CV, B-TM
-21	이성	O	O	O, B-CV, B-TM, B-PS, B-LC
-22	##관계	O	O	O, I-CV, B-CV, B-PS, I-TM
-23	##를	O	O	O, B-PS, B-CV, I-CV, B-TM
-24	가지	O	O	O, B-CV, B-PS, B-TM, B-LC
-25	##려	O	O	O, B-PS, B-CV, B-TM, B-LC
-26	시도	O	O	O, B-CV, B-TM, B-PS, B-LC
-27	##한	O	O	O, B-PS, B-CV, B-LC, B-OG
-28	사실	O	O	O, B-CV, B-PS, B-LC, B-TM
-29	##을	O	O	O, B-PS, B-CV, B-LC, I-CV
-30	비롯	O	O	O, B-PS, B-CV, B-LC, B-OG
-31	##해	O	O	O, B-LC, B-PS, B-QT, B-CV
-32	1	B-QT	B-QT	B-QT, B-EV, O, I-QT, B-DT
-33	,	I-QT	I-QT	I-QT, O, I-EV, B-QT, I-LC
-34	2	I-QT	I-QT	I-QT, B-QT, O, I-EV, B-EV
-35	##심	I-QT	I-QT	I-QT, O, I-EV, I-OG, B-QT
-36	##에서	O	O	O, I-QT, B-PS, B-CV, I-EV
-37	유죄	O	O	O, B-CV, B-PS, B-OG, B-TM
-38	근거	O	O	O, B-CV, B-PS, I-CV, B-TM
-39	##로	O	O	O, B-PS, B-CV, B-LC, B-TM
-40	참고	O	O	O, B-CV, B-PS, B-LC, B-TM
-41	##한	O	O	O, B-PS, B-CV, B-LC, B-OG
-42	것	O	O	O, B-CV, B-PS, B-LC, B-OG
-43	등	O	O	O, B-PS, B-CV, B-LC, B-TM
-44	##은	O	O	O, B-CV, B-PS, B-LC, B-TM
-45	판단	O	O	O, B-CV, B-PS, B-LC, B-OG
-46	##하	O	O	O, B-PS, B-CV, B-LC, B-OG
-47	##지	O	O	O, B-PS, B-CV, B-LC, B-OG
-48	않	O	O	O, B-PS, B-CV, B-LC, B-OG
-49	##아	O	O	O, B-LC, B-CV, B-PS, B-OG
-50	논란	O	O	O, B-CV, B-TM, B-PS, B-LC
-51	##이	O	O	O, B-PS, B-CV, B-OG, B-LC
-52	예상	O	O	O, B-CV, B-OG, B-PS, B-QT
-53	##된	O	O	O, B-PS, B-CV, I-OG, I-EV
-54	##다	O	O	O, B-CV, B-PS, B-LC, B-TM
-55	.	O	O	O, B-PS, B-CV, B-LC, B-TM
-56	[SEP]	O	O	O, B-CV, B-PS, B-LC, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	기존	O	O
+2	##에	O	O
+3	집필	B-CV	O
+4	##진	I-CV	O
+5	##이	O	O
+6	있	O	O
+7	##고	O	O
+8	[SEP]	O	O

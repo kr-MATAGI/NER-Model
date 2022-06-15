@@ -1,11 +1,49 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-AF
-1	삐	B-QT	O	O, B-TM, B-AF, B-QT, B-CV
-2	삐	B-QT	O	O, B-TM, I-TM, B-AF, B-QT
-3	##를	O	O	O, I-AF, B-CV, I-TM, I-CV
-4	줬	O	O	O, B-CV, B-PS, B-OG, B-LC
-5	##다	O	O	O, B-CV, I-CV, I-AF, I-OG
-6	이거	O	O	O, B-CV, B-PS, B-LC, B-QT
-7	##야	O	O	O, I-OG, I-QT, B-CV, B-LC
-8	.	O	O	O, B-CV, I-OG, B-OG, B-LC
-9	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	회의	O	O
+2	참석자	B-CV	B-CV
+3	##들	O	O
+4	##에	O	O
+5	따르	O	O
+6	##면	O	O
+7	북한	B-LC	B-LC
+8	##에	O	O
+9	김정은	B-PS	B-PS
+10	노동당	B-OG	B-OG
+11	제	B-QT	B-CV
+12	##1	I-QT	I-CV
+13	##비	O	I-CV
+14	##서	O	I-CV
+15	체제	O	O
+16	##가	O	O
+17	들어섰	O	O
+18	##기	O	O
+19	때문	O	O
+20	##에	O	O
+21	예전	O	O
+22	사례	O	O
+23	##와	O	O
+24	차이	O	O
+25	##가	O	O
+26	있	O	O
+27	##을	O	O
+28	수	O	O
+29	있	O	O
+30	##다는	O	O
+31	점	O	O
+32	##을	O	O
+33	감안	O	O
+34	##해	O	O
+35	여러	O	O
+36	가지	O	O
+37	상황	O	O
+38	##을	O	O
+39	진지	O	O
+40	##하	O	O
+41	##게	O	O
+42	검토	O	O
+43	##했	O	O
+44	##다고	O	O
+45	한다	O	O
+46	.	O	O
+47	[SEP]	O	O

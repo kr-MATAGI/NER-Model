@@ -1,46 +1,13 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	직업	O	O	O, B-CV, I-CV, B-FD, B-TM
-2	##별	O	O	O, I-CV, I-OG, B-PS, I-AF
-3	##로	O	O	O, B-CV, B-OG, B-TM, B-LC
-4	보	O	O	O, B-OG, B-CV, B-TM, B-LC
-5	##면	O	O	O, B-OG, B-LC, B-CV, I-OG
-6	,	O	O	O, B-CV, B-OG, B-LC, B-TM
-7	단순	B-CV	B-CV	B-CV, O, B-TM, I-CV, B-AF
-8	##노	I-CV	I-CV	I-CV, B-CV, O, B-AM, B-PT
-9	##무	I-CV	I-CV	I-CV, O, B-CV, I-TM, I-OG
-10	##종	I-CV	I-CV	I-CV, B-CV, O, I-QT, I-TM
-11	##사자	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-QT
-12	##가	O	O	O, I-CV, I-OG, I-QT, B-CV
-13	26	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-LC
-14	.	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-15	7	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-16	%	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-17	로	O	O	O, I-QT, B-CV, B-TM, B-OG
-18	가장	O	O	O, B-CV, B-QT, B-TM, B-LC
-19	많	O	O	O, B-CV, I-QT, B-OG, B-TM
-20	##았	O	O	O, B-CV, B-TM, B-OG, B-LC
-21	##고	O	O	O, B-CV, B-LC, B-OG, B-TM
-22	기능	O	O	O, B-CV, B-PS, B-FD, B-TR
-23	·	O	O	O, I-CV, I-PS, I-LC, I-AF
-24	기계	O	O	O, I-CV, B-CV, B-PS, I-PS
-25	##조작	O	O	O, I-CV, B-CV, I-PS, I-TM
-26	종사자	B-CV	B-CV	B-CV, O, I-CV, B-PT, B-QT
-27	21	B-QT	B-QT	B-QT, O, I-QT, I-CV, B-DT
-28	%	I-QT	I-QT	I-QT, O, B-QT, I-PS, I-LC
-29	,	O	O	O, I-QT, B-CV, I-OG, I-CV
-30	서비스	B-CV	O	O, B-CV, I-CV, B-FD, B-PT
-31	·	I-CV	O	O, I-CV, B-CV, I-QT, I-TM
-32	판매	I-CV	I-CV	I-CV, O, B-CV, I-QT, I-OG
-33	##종	I-CV	I-CV	I-CV, B-CV, O, I-QT, I-OG
-34	##사자	I-CV	I-CV	I-CV, O, B-CV, I-QT, I-OG
-35	20	B-QT	B-QT	B-QT, I-CV, I-QT, O, B-DT
-36	.	I-QT	I-QT	I-QT, O, B-QT, I-CV, I-PS
-37	6	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-38	%	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-39	를	O	O	O, I-QT, B-CV, I-OG, B-TM
-40	차지	O	O	O, B-CV, B-TM, I-QT, B-QT
-41	##했	O	O	O, B-CV, I-OG, I-CV, I-QT
-42	##다	O	O	O, B-CV, B-TM, I-OG, I-CV
-43	.	O	O	O, B-CV, B-LC, B-PS, I-OG
-44	[SEP]	O	O	O, B-CV, I-AF, I-OG, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	이전	O	O
+2	퍼스트	B-CV	O
+3	레이디	I-CV	O
+4	##들	O	O
+5	##과	O	O
+6	달리	O	O
+7	적극	O	O
+8	역할	O	O
+9	##할	O	O
+10	##듯	O	O
+11	[SEP]	O	O

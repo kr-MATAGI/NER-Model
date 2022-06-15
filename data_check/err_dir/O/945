@@ -1,73 +1,46 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	군	B-OG	B-OG	B-OG, O, B-CV, I-OG, B-AF
-2	##은	O	O	O, I-OG, B-CV, I-EV, I-CV
-3	천안	B-AF	B-AF	B-AF, O, B-LC, B-EV, B-PS
-4	##함	I-AF	I-AF	I-AF, O, I-EV, I-PS, I-LC
-5	##을	O	O	O, I-AF, I-EV, I-OG, B-CV
-6	인양	O	O	O, B-LC, B-PS, I-EV, B-TM
-7	##한	O	O	O, B-LC, B-PS, I-EV, B-OG
-8	15	B-DT	B-DT	B-DT, I-DT, O, B-QT, B-OG
-9	##일	I-DT	I-DT	I-DT, O, B-DT, I-PS, I-QT
-10	##부터	I-DT	I-DT	I-DT, I-TI, B-TI, O, I-PS
-11	이날	B-DT	I-DT	I-DT, B-DT, O, I-TI, B-TI
-12	오전	B-TI	B-TI	B-TI, I-TI, I-DT, O, B-DT
-13	##까	I-TI	I-TI	I-TI, O, B-TI, I-DT, I-TR
-14	##지	I-TI	I-TI	I-TI, O, B-TI, I-DT, I-TR
-15	계속	O	O	O, I-TI, B-LC, I-QT, I-DT
-16	##된	O	O	O, B-LC, B-PS, B-OG, B-CV
-17	군	O	B-OG	B-OG, O, B-CV, I-OG, B-AF
-18	##의	O	O	O, I-OG, I-EV, B-PS, B-LC
-19	함	B-AF	O	O, B-AF, B-LC, B-TM, B-CV
-20	##미	I-AF	O	O, I-AF, I-LC, I-TM, I-EV
-21	내부	O	O	O, B-TM, B-LC, B-CV, I-LC
-22	수색	O	O	O, B-CV, B-LC, B-TM, B-EV
-23	##작	O	O	O, I-EV, B-LC, B-CV, I-CV
-24	##업	O	O	O, B-LC, I-EV, B-CV, B-PS
-25	##에도	O	O	O, B-CV, B-LC, I-EV, B-OG
-26	불구	O	O	O, B-CV, B-LC, B-TM, B-OG
-27	##하고	O	O	O, B-LC, B-PS, B-CV, B-OG
-28	이창	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
-29	##기	I-PS	I-PS	I-PS, O, I-OG, I-LC, I-QT
-30	원사	B-CV	B-CV	B-CV, O, B-TM, I-CV, B-AF
-31	,	O	O	O, I-CV, I-AF, I-OG, B-CV
-32	최	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
-33	##한	I-PS	I-PS	I-PS, O, I-OG, I-LC, B-PS
-34	##권	I-PS	I-PS	I-PS, O, I-OG, I-LC, I-QT
-35	상사	B-CV	B-CV	B-CV, O, B-TM, B-AF, I-CV
-36	,	O	O	O, I-CV, I-AF, B-CV, I-OG
-37	박경	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
-38	##수	I-PS	I-PS	I-PS, O, I-OG, I-LC, I-QT
-39	중사	B-CV	B-CV	B-CV, O, B-TM, I-CV, I-PS
-40	,	O	O	O, I-CV, I-AF, B-CV, I-OG
-41	박성	B-PS	B-PS	B-PS, O, B-OG, B-LC, B-AF
-42	##균	I-PS	I-PS	I-PS, O, I-OG, I-LC, B-PS
-43	하사	B-CV	B-CV	B-CV, O, B-TM, B-AF, I-CV
-44	,	O	O	O, I-CV, I-AF, B-CV, I-OG
-45	박보	B-PS	B-PS	B-PS, O, B-OG, B-LC, B-AF
-46	##람	I-PS	I-PS	I-PS, O, I-OG, I-LC, I-QT
-47	하사	B-CV	B-CV	B-CV, O, B-TM, B-AF, I-CV
-48	,	O	O	O, I-CV, I-AF, I-OG, B-CV
-49	장진	B-PS	B-PS	B-PS, O, B-OG, B-LC, B-AF
-50	##선	I-PS	I-PS	I-PS, O, I-OG, I-LC, I-QT
-51	하사	B-CV	B-CV	B-CV, O, B-TM, I-CV, B-AF
-52	,	O	O	O, I-CV, I-AF, B-CV, I-OG
-53	강태	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
-54	##민	I-PS	I-PS	I-PS, O, I-OG, I-LC, B-PS
-55	일병	B-CV	B-CV	B-CV, O, B-TM, I-CV, I-PS
-56	,	O	O	O, I-CV, I-AF, B-CV, I-OG
-57	정태	B-PS	B-PS	B-PS, O, B-OG, B-LC, B-AF
-58	##준	I-PS	I-PS	I-PS, O, I-OG, I-LC, I-QT
-59	이병	B-CV	B-CV	B-CV, O, B-TM, I-CV, I-PS
-60	등	O	O	O, I-CV, B-CV, I-AF, I-OG
-61	8	B-QT	B-QT	B-QT, O, B-PS, B-DT, I-QT
-62	##명	I-QT	I-QT	I-QT, O, I-PS, I-EV, I-DT
-63	##의	O	O	O, I-QT, I-EV, B-CV, I-AF
-64	실종자	O	B-CV	B-CV, O, B-TM, I-CV, B-AF
-65	##를	O	O	O, I-CV, B-CV, I-EV, I-QT
-66	찾	O	O	O, B-CV, B-TM, B-OG, B-LC
-67	##지	O	O	O, B-LC, B-CV, B-TM, B-PS
-68	못했	O	O	O, B-CV, B-LC, B-TM, I-EV
-69	##다	O	O	O, B-CV, B-TM, B-LC, B-OG
-70	.	O	O	O, B-LC, B-PS, B-OG, B-CV
-71	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	쫓겨나	O	O
+2	##면	O	O
+3	삶	O	O
+4	##의	O	O
+5	터전	O	O
+6	##이	O	O
+7	막막	O	O
+8	##해	O	O
+9	##지	O	O
+10	##는	O	O
+11	주민	B-CV	B-CV
+12	##들이	O	O
+13	이주	O	O
+14	##를	O	O
+15	거부	O	O
+16	##하	O	O
+17	##자	O	O
+18	,	O	O
+19	관리	O	B-CV
+20	##들	O	O
+21	##은	O	O
+22	이	O	O
+23	##들의	O	O
+24	수돗물	O	O
+25	##과	O	O
+26	전기	O	O
+27	공급	O	O
+28	##을	O	O
+29	끊	O	O
+30	##고	O	O
+31	,	O	O
+32	폭력	O	O
+33	##을	O	O
+34	동원	O	O
+35	##해	O	O
+36	협박	O	O
+37	##해	O	O
+38	온	O	O
+39	것	O	O
+40	##으로	O	O
+41	전해졌	O	O
+42	##다	O	O
+43	.	O	O
+44	[SEP]	O	O

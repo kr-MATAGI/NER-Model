@@ -1,13 +1,38 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-AF
-1	원형	O	B-TM	B-TM, O, B-TR, B-QT, B-AF
-2	처마	O	O	O, I-TM, I-AF, B-AF, B-TM
-3	##선	O	O	O, I-AF, I-TM, I-LC, I-CV
-4	복원	O	O	O, B-CV, I-AF, B-LC, B-PS
-5	,	O	O	O, B-CV, B-LC, B-PS, I-AF
-6	신축	O	O	O, B-AF, B-CV, B-TM, B-OG
-7	갤러리	O	O	O, B-CV, I-AF, B-AF, I-OG
-8	일반	O	O	O, B-CV, B-LC, B-TM, B-PS
-9	##에	O	O	O, I-CV, B-CV, B-LC, B-TM
-10	개방	O	O	O, B-CV, B-TM, B-LC, I-CV
-11	[SEP]	O	O	O, B-CV, B-LC, B-TM, I-CV
+	text	label	preds
+0	[CLS]	O	O
+1	그때	O	O
+2	##만	O	O
+3	해도	O	O
+4	‘	O	O
+5	최선	O	O
+6	##의	O	O
+7	’	O	O
+8	합의	O	O
+9	##가	O	O
+10	반나절	O	B-TI
+11	##도	O	O
+12	못	O	O
+13	가	O	O
+14	유가족	B-CV	B-CV
+15	##의	O	O
+16	철저	O	O
+17	##한	O	O
+18	불신	O	O
+19	##을	O	O
+20	받	O	O
+21	##게	O	O
+22	될	O	O
+23	운명	O	O
+24	##이	O	O
+25	##라는	O	O
+26	것	O	O
+27	##은	O	O
+28	상상	O	O
+29	##도	O	O
+30	못	O	O
+31	했	O	O
+32	##을	O	O
+33	것	O	O
+34	##이다	O	O
+35	.	O	O
+36	[SEP]	O	O

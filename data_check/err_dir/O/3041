@@ -1,26 +1,28 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	영화	O	O	O, B-FD, B-CV, B-LC, I-EV
-2	##를	O	O	O, B-CV, B-PS, B-OG, I-OG
-3	연출	O	O	O, B-CV, B-PS, B-FD, B-LC
-4	##한	O	O	O, B-PS, B-CV, B-LC, B-QT
-5	조	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-6	카	I-PS	I-PS	I-PS, O, B-PS, I-OG, I-LC
-7	##너	I-PS	I-PS	I-PS, O, I-LC, I-OG, B-PS
-8	##핸	I-PS	I-PS	I-PS, O, I-LC, I-OG, B-PS
-9	감독	B-CV	B-CV	B-CV, O, I-PS, I-CV, B-OG
-10	##도	O	O	O, I-CV, I-QT, B-CV, I-PS
-11	“	O	O	O, B-CV, B-LC, B-TM, B-OG
-12	(	O	O	O, B-CV, B-PS, B-LC, B-OG
-13	이	O	O	O, B-AF, B-PS, B-CV, B-OG
-14	영화	O	O	O, B-FD, B-CV, B-AF, I-AF
-15	##는	O	O	O, I-AF, B-CV, B-PS, I-EV
-16	)	O	O	O, B-CV, B-LC, B-OG, B-PS
-17	하드	O	B-FD	B-FD, O, B-CV, B-TM, B-TR
-18	##코	O	I-FD	I-FD, O, I-CV, B-FD, I-TM
-19	##어	O	I-FD	I-FD, O, I-CV, I-TM, I-AF
-20	서바이벌	O	O	O, B-FD, B-AF, I-FD, I-AF
-21	무비	O	O	O, I-AF, B-FD, I-FD, B-AF
-22	##다	O	O	O, I-AF, I-OG, I-CV, I-EV
-23	.	O	O	O, B-CV, B-PS, B-LC, B-FD
-24	[SEP]	O	O	O, B-CV, B-FD, B-PS, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	돈	O	O
+2	모을	O	O
+3	##라고	O	O
+4	그렇게	O	O
+5	하고	O	O
+6	그랬	O	O
+7	##는데	O	O
+8	이제	O	O
+9	지금	O	O
+10	##은	O	O
+11	어	O	O
+12	~	O	O
+13	그냥	O	O
+14	하마	O	B-AM
+15	남편	B-CV	B-CV
+16	##도	O	O
+17	거의	O	O
+18	뭐	O	O
+19	사	B-QT	B-QT
+20	##십	I-QT	I-QT
+21	가까이	O	O
+22	됐	O	O
+23	##겠	O	O
+24	##지	O	O
+25	.	O	O
+26	[SEP]	O	O

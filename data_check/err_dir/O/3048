@@ -1,22 +1,67 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	우선	O	O	O, B-CV, B-OG, B-LC, B-TM
-2	이제	O	O	O, B-CV, B-OG, B-PS, B-TM
-3	대통령	B-CV	B-CV	B-CV, O, B-EV, B-OG, B-AF
-4	##을	O	O	O, I-CV, I-EV, I-AF, B-CV
-5	비롯	O	O	O, B-CV, B-OG, B-TM, B-LC
-6	##해서	O	O	O, B-OG, B-LC, B-PS, B-CV
-7	높	O	O	O, B-CV, B-QT, B-TM, B-OG
-8	##은	O	O	O, B-PS, B-LC, B-OG, I-OG
-9	자리	O	O	O, B-CV, B-PS, B-QT, I-QT
-10	##에	O	O	O, B-CV, B-PS, B-OG, B-LC
-11	올라갈	O	O	O, B-CV, B-TM, B-OG, B-QT
-12	##수록	O	O	O, B-PS, I-OG, I-QT, B-LC
-13	아첨	O	B-CV	B-CV, O, I-CV, B-PS, B-TM
-14	##꾼	O	I-CV	I-CV, O, B-CV, I-PS, I-TM
-15	##이	O	O	O, I-CV, B-PS, B-CV, I-OG
-16	많이	O	O	O, B-CV, B-TM, B-OG, B-QT
-17	끓	O	O	O, B-CV, B-PS, B-OG, B-AF
-18	##으니	O	O	O, I-CV, B-CV, I-OG, I-AF
-19	##까요	O	O	O, B-CV, B-OG, B-QT, B-TM
-20	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	박은	B-PS	B-PS
+2	##식	I-PS	I-PS
+3	산림청	B-OG	B-OG
+4	산림	B-CV	B-CV
+5	##자원	I-CV	I-CV
+6	##과	I-CV	I-CV
+7	##장	I-CV	I-CV
+8	##은	O	O
+9	“	O	O
+10	그동안	O	O
+11	아름다운	O	B-EV
+12	숲	O	I-EV
+13	전국	O	I-EV
+14	##대	O	I-EV
+15	##회	O	I-EV
+16	##를	O	O
+17	통해	O	O
+18	탄생	O	O
+19	##한	O	O
+20	명품	O	O
+21	숲	O	O
+22	##은	O	O
+23	모두	O	O
+24	136	B-QT	B-QT
+25	##곳	I-QT	I-QT
+26	##으로	O	O
+27	지역	O	O
+28	##에	O	O
+29	##서	O	O
+30	꼭	O	O
+31	찾아	O	O
+32	##봐야	O	O
+33	할	O	O
+34	명소	O	O
+35	##로	O	O
+36	자리	O	O
+37	잡	O	O
+38	##았	O	O
+39	##다	O	O
+40	”	O	O
+41	며	O	O
+42	“	O	O
+43	아름다운	O	O
+44	숲	O	O
+45	##을	O	O
+46	찾아내	O	O
+47	숲	O	O
+48	##의	O	O
+49	소중	O	O
+50	##함	O	O
+51	##과	O	O
+52	가치	O	O
+53	##를	O	O
+54	널리	O	O
+55	알리	O	O
+56	##고	O	O
+57	보전	O	O
+58	##하	O	O
+59	##겠다	O	O
+60	”	O	O
+61	고	O	O
+62	밝혔	O	O
+63	##다	O	O
+64	.	O	O
+65	[SEP]	O	O

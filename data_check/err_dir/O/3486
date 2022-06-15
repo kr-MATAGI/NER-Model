@@ -1,53 +1,27 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	삼성전자	B-OG	B-OG	B-OG, B-AF, B-LC, B-PS, O
-2	##는	O	O	O, I-OG, B-CV, B-OG, I-EV
-3	“	O	O	O, B-CV, B-LC, B-OG, B-TM
-4	소비자	O	B-CV	B-CV, O, B-TM, I-CV, B-AF
-5	##가	O	O	O, I-CV, B-CV, B-FD, I-TM
-6	##전	O	O	O, I-CV, I-TM, I-QT, I-FD
-7	##과	O	O	O, B-PS, I-CV, B-OG, B-CV
-8	정보	B-FD	B-FD	B-FD, O, B-TR, I-FD, B-TM
-9	##기술	I-FD	I-FD	I-FD, O, I-TR, B-FD, I-AF
-10	·	O	O	O, I-FD, I-OG, I-AF, I-QT
-11	모바일	O	B-TM	B-TM, O, B-TR, B-FD, B-OG
-12	각각	O	O	O, B-QT, B-TM, I-TM, B-DT
-13	##의	O	O	O, I-QT, I-TM, I-OG, B-QT
-14	사업	O	O	O, I-QT, B-TM, I-TM, B-QT
-15	##에서	O	O	O, B-CV, B-PS, I-QT, B-LC
-16	100	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-PS
-17	##조	I-QT	I-QT	I-QT, O, I-LC, I-PS, I-DT
-18	##원	I-QT	I-QT	I-QT, O, I-LC, I-PS, I-DT
-19	이상	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-20	##의	O	O	O, I-QT, B-OG, B-CV, B-PS
-21	매출	O	O	O, B-CV, B-TM, B-LC, B-OG
-22	##이	O	O	O, B-PS, B-OG, B-CV, B-LC
-23	발생	O	O	O, B-CV, B-OG, B-TM, B-LC
-24	##하고	O	O	O, B-CV, B-TM, B-PS, B-OG
-25	있	O	O	O, B-CV, B-OG, B-PS, B-LC
-26	##어	O	O	O, B-LC, B-OG, I-OG, B-PS
-27	,	O	O	O, B-CV, B-OG, B-LC, B-PS
-28	조직	O	O	O, B-CV, B-OG, B-TM, B-LC
-29	##의	O	O	O, B-OG, B-CV, B-PS, B-LC
-30	위상	O	O	O, B-CV, B-OG, B-TM, B-LC
-31	및	O	O	O, B-LC, B-CV, B-OG, B-TM
-32	사업	O	O	O, B-CV, B-TM, B-LC, B-OG
-33	##규모	O	O	O, B-CV, I-OG, I-CV, B-OG
-34	##에	O	O	O, B-CV, B-PS, B-LC, B-OG
-35	상응	O	O	O, B-CV, B-LC, B-OG, B-TM
-36	##하	O	O	O, B-LC, B-OG, B-PS, B-CV
-37	##는	O	O	O, B-OG, B-LC, B-CV, B-PS
-38	조직체	O	O	O, B-CV, B-OG, B-LC, B-TM
-39	##제	O	O	O, I-CV, B-CV, I-OG, B-PS
-40	##를	O	O	O, B-CV, B-OG, B-PS, I-OG
-41	구성	O	O	O, B-CV, B-OG, B-TM, B-LC
-42	##한	O	O	O, B-PS, B-CV, B-OG, B-LC
-43	것	O	O	O, B-CV, B-OG, B-PS, I-OG
-44	”	O	O	O, B-CV, I-OG, B-TM, B-OG
-45	이라	O	O	O, B-CV, B-OG, B-PS, I-OG
-46	##고	O	O	O, B-CV, B-OG, B-TM, I-OG
-47	설명	O	O	O, B-CV, B-OG, B-TM, I-OG
-48	##했	O	O	O, B-CV, B-OG, I-OG, B-LC
-49	##다	O	O	O, B-CV, B-OG, I-OG, B-TM
-50	.	O	O	O, B-LC, B-CV, B-OG, B-PS
-51	[SEP]	O	O	O, B-CV, B-OG, B-LC, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	해다	B-PS	B-PS
+2	##무스	I-PS	I-PS
+3	부사장	B-CV	B-CV
+4	##은	O	O
+5	“	O	O
+6	앞	O	O
+7	##으로	O	O
+8	휴대용	O	O
+9	디지털	O	O
+10	##기	O	I-TM
+11	##기	O	I-TM
+12	시장	O	O
+13	##에	O	O
+14	중점	O	O
+15	##적	O	O
+16	##으로	O	O
+17	도전	O	O
+18	##하	O	O
+19	##겠다	O	O
+20	”	O	O
+21	고	O	O
+22	밝혔	O	O
+23	##다	O	O
+24	.	O	O
+25	[SEP]	O	O

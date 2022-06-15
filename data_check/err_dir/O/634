@@ -1,23 +1,14 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-EV, I-CV
-1	3	B-TR	B-TR	B-TR, B-QT, O, B-TM, B-FD
-2	##D	I-TR	I-TR	I-TR, I-QT, O, I-TM, B-TR
-3	##와	O	O	O, I-QT, I-TR, I-TM, I-EV
-4	360	B-QT	B-QT	B-QT, B-TR, B-TM, O, B-TI
-5	##도	I-QT	I-QT	I-QT, I-TR, O, I-TM, I-TI
-6	뷰	O	O	O, I-QT, I-TR, I-TM, B-TR
-7	##로	O	O	O, I-QT, I-TM, I-TR, B-TM
-8	게임	O	O	O, B-TM, B-CV, I-TM, I-QT
-9	##을	O	O	O, B-CV, B-OG, B-TM, I-OG
-10	즐길	O	O	O, B-CV, B-TM, B-OG, B-LC
-11	수	O	O	O, B-TM, B-CV, B-PS, B-QT
-12	있	O	O	O, B-CV, B-TM, B-QT, B-PS
-13	##는	O	O	O, B-TM, B-CV, B-AF, B-OG
-14	게임	O	B-AF	B-AF, B-TM, O, B-CV, I-AF
-15	##패드	O	I-AF	I-AF, O, I-TM, I-CV, B-AF
-16	##도	O	O	O, I-AF, I-TM, I-CV, I-OG
-17	함께	O	O	O, B-OG, B-TM, B-CV, B-LC
-18	판매	O	O	O, B-OG, B-CV, B-TM, B-LC
-19	##한다	O	O	O, B-OG, I-OG, B-CV, B-TM
-20	.	O	O	O, B-TM, I-OG, B-LC, B-CV
-21	[SEP]	O	O	O, B-TM, B-CV, B-LC, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	""""	O	O
+2	#	O	O
+3	310	B-QT	B-QT
+4	,	O	I-QT
+5	3	B-QT	I-QT
+6	##분	I-QT	I-QT
+7	##의	I-QT	I-QT
+8	2	I-QT	I-QT
+9	끝내	O	O
+10	##다	O	O
+11	.	O	O
+12	[SEP]	O	O

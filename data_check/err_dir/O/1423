@@ -1,15 +1,27 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	파괴력	O	O	O, B-PS, B-TR, B-AF, B-LC
-2	##의	O	O	O, B-PS, I-PS, I-AF, I-OG
-3	‘	O	O	O, B-LC, B-CV, B-PS, B-OG
-4	민주	O	O	O, B-TR, B-CV, B-PS, B-FD
-5	##화	O	O	O, I-TR, I-CV, I-PS, I-EV
-6	’	O	O	O, I-TR, I-CV, B-PS, I-AF
-7	‘	O	O	O, B-CV, B-LC, B-PS, B-OG
-8	평준	O	B-CV	B-CV, O, I-CV, B-TR, B-OG
-9	##화	O	I-CV	I-CV, O, I-TR, B-CV, I-OG
-10	’	O	O	O, I-CV, I-OG, B-PS, I-QT
-11	다	O	O	O, B-PS, B-LC, B-OG, B-CV
-12	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-13	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-FD
+	text	label	preds
+0	[CLS]	O	O
+1	검찰	B-OG	B-OG
+2	관계자	B-CV	B-CV
+3	##는	O	O
+4	“	O	O
+5	구속	O	O
+6	##된	O	O
+7	형	O	B-CV
+8	선	B-PS	B-PS
+9	씨	O	O
+10	##가	O	O
+11	동영상	O	O
+12	촬영	O	O
+13	##을	O	O
+14	주도	O	O
+15	##한	O	O
+16	것	O	O
+17	##으로	O	O
+18	보인다	O	O
+19	”	O	O
+20	고	O	O
+21	말	O	O
+22	##했	O	O
+23	##다	O	O
+24	.	O	O
+25	[SEP]	O	O

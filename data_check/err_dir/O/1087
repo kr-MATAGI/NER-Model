@@ -1,33 +1,95 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	아기	O	O	O, B-CV, B-AF, B-AM, B-PS
-2	곰	B-AM	B-AM	B-AM, O, I-AM, B-PS, B-CV
-3	##들	O	O	O, I-AF, I-AM, I-CV, I-PS
-4	##은	O	O	O, B-CV, I-AF, B-LC, B-OG
-5	가슴	B-AM	B-AM	B-AM, O, B-TM, B-CV, B-TR
-6	##팍	O	I-AM	I-AM, O, I-TM, B-AM, I-PT
-7	##에	O	O	O, I-TM, I-CV, I-AM, B-CV
-8	선명	O	O	O, B-CV, B-LC, B-PS, B-OG
-9	##하	O	O	O, B-PS, B-LC, B-OG, B-CV
-10	##게	O	O	O, B-LC, B-PS, B-OG, B-CV
-11	찍힌	O	O	O, B-CV, B-LC, B-PS, B-OG
-12	흰색	B-TM	B-TM	B-TM, O, B-CV, B-LC, B-AF
-13	반달	B-TM	B-TM	B-TM, O, I-TM, B-CV, B-AM
-14	##을	O	O	O, I-TM, I-AF, I-CV, B-CV
-15	철	O	O	O, B-CV, B-AM, B-AF, B-LC
-16	##장	O	O	O, I-CV, I-AF, B-AM, I-LC
-17	##에	O	O	O, B-CV, B-PS, B-LC, B-TM
-18	바짝	O	O	O, B-LC, B-PS, B-TM, B-AM
-19	갖	O	O	O, B-LC, B-PS, B-OG, B-TM
-20	##다	O	O	O, B-LC, I-LC, B-PS, I-QT
-21	대	O	O	O, B-LC, B-PS, B-TM, B-AM
-22	##고	O	O	O, B-LC, B-PS, B-CV, I-LC
-23	##는	O	O	O, B-CV, B-LC, I-AF, B-TM
-24	구슬	O	O	O, B-CV, B-TM, B-LC, B-AF
-25	##픈	O	O	O, I-AF, B-CV, I-CV, B-PS
-26	소리	O	O	O, B-CV, I-AF, B-PS, I-OG
-27	##를	O	O	O, B-CV, I-AF, I-OG, B-PS
-28	냈	O	O	O, B-CV, I-AF, B-LC, B-OG
-29	##다	O	O	O, B-CV, I-AF, I-CV, B-LC
-30	.	O	O	O, B-CV, B-LC, B-PS, I-AF
-31	[SEP]	O	O	O, B-CV, B-LC, I-AF, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	이	B-PS	B-PS
+2	시장	B-CV	B-CV
+3	##은	O	O
+4	이	O	O
+5	자리	O	O
+6	##에	O	O
+7	##서	O	O
+8	“	O	O
+9	이승만	B-PS	B-PS
+10	전	O	O
+11	대통령	B-CV	B-CV
+12	##은	O	O
+13	친일	O	O
+14	매	O	O
+15	##국	O	O
+16	세력	O	O
+17	##의	O	O
+18	아버지	B-CV	B-CV
+19	##고	O	O
+20	박정희	B-PS	B-PS
+21	전	O	O
+22	대통령	B-CV	B-CV
+23	##은	O	O
+24	군사	O	O
+25	쿠데타	O	O
+26	##로	O	O
+27	국정	O	O
+28	##을	O	O
+29	파괴	O	O
+30	##하	O	O
+31	##고	O	O
+32	인권	O	B-CV
+33	##을	O	O
+34	침해	O	O
+35	##했	O	O
+36	##던	O	O
+37	그야말로	O	O
+38	독재자	B-CV	B-CV
+39	”	O	O
+40	라며	O	O
+41	“	O	O
+42	전두환	B-PS	B-PS
+43	전	O	O
+44	대통령	B-CV	B-CV
+45	##이	O	O
+46	이곳	O	O
+47	##에	O	O
+48	묻혀	O	O
+49	있	O	O
+50	##다고	O	O
+51	한들	O	O
+52	광주	B-EV	B-EV
+53	학살	I-EV	I-EV
+54	##을	O	O
+55	자행	O	O
+56	##한	O	O
+57	그	O	O
+58	##를	O	O
+59	추모	O	O
+60	##할	O	O
+61	수	O	O
+62	없	O	O
+63	##는	O	O
+64	것	O	O
+65	##처럼	O	O
+66	친일	O	O
+67	매	O	O
+68	##국	O	O
+69	세력	O	O
+70	##의	O	O
+71	아버지	B-CV	B-CV
+72	,	O	O
+73	인권	O	B-CV
+74	침해	O	O
+75	독재자	B-CV	B-CV
+76	##에	O	O
+77	##게	O	O
+78	고개	B-AM	B-AM
+79	##를	O	O
+80	숙	O	O
+81	##일	O	O
+82	수	O	O
+83	##는	O	O
+84	없	O	O
+85	##다	O	O
+86	”	O	O
+87	고	O	O
+88	목소리	O	O
+89	##를	O	O
+90	높였	O	O
+91	##다	O	O
+92	.	O	O
+93	[SEP]	O	O

@@ -1,11 +1,22 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-EV, B-CV, I-OG, I-CV
-1	서울대	B-OG	B-OG	B-OG, B-AF, B-EV, O, B-LC
-2	##미술	I-OG	I-OG	I-OG, I-AF, O, I-EV, I-LC
-3	##관	I-OG	I-OG	I-OG, I-AF, O, I-EV, I-LC
-4	‘	O	O	O, B-EV, I-EV, B-DT, I-AF
-5	뉴	O	B-EV	B-EV, I-EV, O, B-AF, B-DT
-6	올드	O	I-EV	I-EV, O, I-AF, I-DT, I-TM
-7	’	O	O	O, I-EV, I-DT, I-AF, B-EV
-8	전	O	O	O, I-EV, B-EV, I-DT, I-AF
-9	[SEP]	O	O	O, I-EV, B-EV, I-OG, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	이	O	B-DT
+2	주	O	I-DT
+3	##는	O	O
+4	오염	O	O
+5	문제	O	O
+6	##가	O	O
+7	지금	O	O
+8	우리	O	O
+9	당장	O	O
+10	##의	O	O
+11	식품	O	O
+12	##에	O	O
+13	영향	O	O
+14	##을	O	O
+15	주지	O	O
+16	않	O	O
+17	##습	O	O
+18	##니까	O	O
+19	?	O	O
+20	[SEP]	O	O

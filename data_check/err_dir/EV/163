@@ -1,95 +1,39 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-EV, I-CV, I-OG
-1	박	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-2	총장	B-CV	B-CV	B-CV, O, I-PS, I-CV, B-OG
-3	##은	O	O	O, I-CV, I-EV, B-CV, I-OG
-4	“	O	O	O, B-LC, B-CV, B-EV, B-PS
-5	세계	O	O	O, B-EV, B-LC, B-OG, I-EV
-6	금융	B-EV	O	O, B-EV, I-EV, B-LC, B-OG
-7	##위	I-EV	O	O, I-EV, B-EV, I-OG, B-LC
-8	##기	I-EV	O	O, I-EV, I-OG, B-EV, I-LC
-9	등	O	O	O, I-EV, B-PS, B-LC, B-EV
-10	우리	O	O	O, B-OG, B-LC, B-PS, B-EV
-11	##가	O	O	O, B-PS, B-OG, B-LC, I-EV
-12	맞	O	O	O, B-PS, B-EV, B-LC, B-OG
-13	##고	O	O	O, B-PS, B-LC, B-CV, B-OG
-14	있	O	O	O, B-PS, B-CV, B-LC, B-OG
-15	##는	O	O	O, B-PS, B-LC, B-CV, B-OG
-16	위기	O	O	O, B-EV, B-PS, B-OG, B-LC
-17	##는	O	O	O, B-PS, I-EV, B-LC, B-CV
-18	똑똑	O	O	O, B-PS, B-CV, B-LC, B-TM
-19	##하	O	O	O, B-PS, B-LC, I-PS, B-CV
-20	##지만	O	O	O, B-PS, I-PS, B-LC, B-CV
-21	자신	O	O	O, B-PS, B-CV, B-LC, B-TM
-22	##밖	O	O	O, B-PS, B-LC, B-CV, B-TM
-23	##에	O	O	O, B-PS, B-LC, I-PS, I-LC
-24	모르	O	O	O, B-PS, B-LC, B-CV, B-QT
-25	##는	O	O	O, B-PS, B-LC, B-CV, B-OG
-26	이기	O	O	O, B-PS, B-CV, B-LC, B-TM
-27	##적인	O	O	O, B-PS, I-PS, B-CV, B-LC
-28	사람	O	O	O, B-CV, B-PS, B-LC, I-CV
-29	##들	O	O	O, B-PS, B-CV, B-LC, I-PS
-30	##의	O	O	O, B-PS, B-LC, B-CV, B-TM
-31	욕심	O	O	O, B-PS, B-CV, B-LC, B-TM
-32	##에서	O	O	O, B-PS, B-CV, B-LC, B-OG
-33	비롯	O	O	O, B-PS, B-CV, B-OG, B-TM
-34	##됐	O	O	O, B-PS, B-CV, I-OG, B-LC
-35	##다	O	O	O, B-PS, B-CV, B-LC, I-OG
-36	.	O	O	O, B-PS, B-LC, B-CV, B-OG
-37	인성	O	O	O, B-CV, B-PS, B-LC, B-TM
-38	##을	O	O	O, B-PS, B-CV, B-LC, I-CV
-39	갖추	O	O	O, B-PS, B-LC, B-CV, B-OG
-40	##고	O	O	O, B-PS, B-LC, I-PS, B-CV
-41	,	O	O	O, B-PS, B-LC, B-CV, B-OG
-42	공동체	O	O	O, B-CV, B-PS, B-LC, B-OG
-43	##에	O	O	O, B-PS, I-OG, B-CV, B-LC
-44	대한	O	O	O, B-LC, B-PS, B-OG, B-CV
-45	윤리	O	O	O, B-CV, B-PS, B-LC, B-FD
-46	##적	O	O	O, B-PS, B-LC, I-PS, I-CV
-47	사명감	O	O	O, B-CV, B-PS, B-LC, B-OG
-48	##이	O	O	O, B-PS, B-LC, B-CV, I-PS
-49	투철	O	O	O, B-CV, B-PS, B-LC, B-OG
-50	##한	O	O	O, B-PS, B-CV, B-LC, I-PS
-51	전문	O	O	O, B-CV, B-PS, B-FD, B-LC
-52	인재	O	O	O, B-CV, I-CV, B-PS, B-FD
-53	##가	O	O	O, B-PS, B-LC, B-OG, I-CV
-54	어느	O	O	O, B-PS, B-CV, B-LC, B-OG
-55	때	O	O	O, B-PS, B-CV, B-OG, B-LC
-56	##보	O	O	O, B-PS, B-CV, B-LC, B-OG
-57	##다	O	O	O, B-PS, B-LC, B-CV, B-OG
-58	필요	O	O	O, B-OG, B-CV, B-PS, B-LC
-59	##하	O	O	O, B-PS, B-LC, B-OG, I-OG
-60	##다	O	O	O, B-PS, I-OG, B-CV, B-LC
-61	.	O	O	O, B-PS, B-LC, B-CV, B-OG
-62	가톨릭	B-OG	B-OG	B-OG, O, B-LC, B-AF, I-OG
-63	##대	I-OG	I-OG	I-OG, O, I-LC, I-AF, B-OG
-64	##학	I-OG	I-OG	I-OG, O, I-AF, I-LC, I-EV
-65	##은	O	O	O, I-OG, I-EV, B-CV, B-PS
-66	인성	O	O	O, B-TM, B-TR, B-CV, B-FD
-67	,	O	O	O, B-PS, B-CV, B-LC, I-CV
-68	지성	O	O	O, B-TM, B-TR, B-CV, B-FD
-69	,	O	O	O, B-PS, B-CV, B-LC, I-CV
-70	영성	O	O	O, B-TM, B-TR, B-LC, B-FD
-71	##을	O	O	O, B-PS, B-CV, B-LC, I-TM
-72	고루	O	O	O, B-PS, B-LC, B-TM, B-QT
-73	갖춘	O	O	O, B-PS, B-LC, B-CV, B-OG
-74	윤리	O	O	O, B-FD, B-CV, B-PS, B-TR
-75	##적	O	O	O, I-PS, B-PS, I-TR, I-CV
-76	인재	O	O	O, B-CV, B-PS, B-LC, B-TM
-77	양성	O	O	O, I-CV, B-PS, B-LC, B-CV
-78	##을	O	O	O, B-PS, B-CV, B-LC, B-TM
-79	위해	O	O	O, B-LC, B-PS, B-TM, B-OG
-80	다양	O	O	O, B-LC, B-CV, B-TM, B-PS
-81	##한	O	O	O, B-LC, B-PS, B-OG, B-TM
-82	노력	O	O	O, B-LC, B-CV, B-OG, B-PS
-83	##을	O	O	O, B-CV, B-PS, B-LC, B-OG
-84	하고	O	O	O, B-LC, B-CV, B-PS, B-OG
-85	있	O	O	O, B-CV, B-PS, B-LC, B-OG
-86	##다	O	O	O, B-CV, B-PS, B-LC, B-OG
-87	”	O	O	O, B-CV, B-LC, B-PS, B-TM
-88	고	O	O	O, B-CV, B-LC, B-TM, B-PS
-89	말	O	O	O, B-CV, B-TM, B-LC, I-EV
-90	##했	O	O	O, B-CV, B-PS, B-LC, I-EV
-91	##다	O	O	O, B-CV, B-LC, I-EV, B-PS
-92	.	O	O	O, B-PS, B-LC, B-CV, B-OG
-93	[SEP]	O	O	O, B-CV, B-PS, B-LC, B-FD
+	text	label	preds
+0	[CLS]	O	O
+1	반면	O	O
+2	서울	B-LC	B-LC
+3	##의	O	O
+4	LTV	O	O
+5	한도	O	O
+6	##는	O	O
+7	6	B-DT	B-DT
+8	·	I-DT	I-DT
+9	19	I-DT	I-DT
+10	대책	O	O
+11	##과	O	O
+12	8	B-EV	B-DT
+13	·	I-EV	I-DT
+14	2	I-EV	I-DT
+15	대책	I-EV	O
+16	##이	O	O
+17	나오	O	O
+18	##는	O	O
+19	단	B-DT	O
+20	40	I-DT	B-DT
+21	##여	I-DT	I-DT
+22	##일	I-DT	I-DT
+23	사이	I-DT	I-DT
+24	70	B-QT	B-QT
+25	%	I-QT	I-QT
+26	에서	O	O
+27	40	B-QT	B-QT
+28	%	I-QT	I-QT
+29	로	O	O
+30	급	O	O
+31	##전	O	O
+32	##직	O	O
+33	##하	O	O
+34	##했	O	O
+35	##다	O	O
+36	.	O	O
+37	[SEP]	O	O

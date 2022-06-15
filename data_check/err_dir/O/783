@@ -1,18 +1,71 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-AF
-1	살	O	O	O, B-CV, B-LC, B-PS, B-AF
-2	##다	O	O	O, I-AF, B-LC, B-CV, B-PS
-3	보	O	O	O, B-CV, B-LC, B-PS, I-AF
-4	##면	O	O	O, B-CV, B-LC, B-PS, B-TM
-5	누구	O	O	O, B-CV, B-PS, B-TM, B-LC
-6	##나	O	O	O, B-PS, B-CV, I-AF, I-CV
-7	한두	O	B-QT	B-QT, O, I-QT, B-DT, B-EV
-8	번	O	I-QT	I-QT, O, I-EV, I-PS, I-LC
-9	실수	O	O	O, I-QT, B-CV, B-TM, I-CV
-10	##는	O	O	O, B-CV, I-AF, I-CV, I-QT
-11	하	O	O	O, B-CV, B-TM, B-PS, B-AF
-12	##게	O	O	O, I-AF, B-PS, B-CV, B-TM
-13	마련	O	O	O, B-CV, B-PS, B-TM, B-AF
-14	##이다	O	O	O, B-CV, I-AF, I-CV, I-OG
-15	.	O	O	O, B-CV, B-PS, B-LC, I-AF
-16	[SEP]	O	O	O, B-CV, I-AF, B-TM, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	서울	B-LC	B-LC
+2	##에	O	O
+3	##서	O	O
+4	##부터	O	O
+5	전세	O	O
+6	##기	O	O
+7	##를	O	O
+8	타고	O	O
+9	함께	O	O
+10	내려온	O	O
+11	독자	B-CV	B-CV
+12	90	B-QT	B-QT
+13	##여	I-QT	I-QT
+14	##명	I-QT	I-QT
+15	##은	O	O
+16	이날	B-DT	B-DT
+17	##부터	I-DT	I-DT
+18	12	I-DT	I-DT
+19	##일	I-DT	I-DT
+20	##까	I-DT	I-DT
+21	##지	I-DT	I-DT
+22	2	B-DT	B-DT
+23	##박	I-DT	I-DT
+24	##3	I-DT	I-DT
+25	##일	I-DT	I-DT
+26	동안	I-DT	I-DT
+27	엄	B-PS	B-PS
+28	##홍	I-PS	I-PS
+29	##길	I-PS	I-PS
+30	대장	B-CV	B-CV
+31	##과	O	O
+32	소설가	B-CV	B-CV
+33	김주	B-PS	B-PS
+34	##영	I-PS	I-PS
+35	##씨	O	O
+36	,	O	O
+37	그리고	O	O
+38	제주	B-LC	B-LC
+39	출신	O	O
+40	연기자	B-CV	B-CV
+41	고	B-PS	B-PS
+42	##두	I-PS	I-PS
+43	##심	I-PS	I-PS
+44	##씨	O	O
+45	##와	O	O
+46	함께	O	O
+47	제주	B-LC	B-AF
+48	##올	O	I-AF
+49	##레	O	I-AF
+50	코스	O	O
+51	##를	O	O
+52	발	B-AM	B-AM
+53	##로	O	O
+54	밟	O	O
+55	##으며	O	O
+56	작품	O	O
+57	##을	O	O
+58	낭	O	O
+59	##송	O	O
+60	##하	O	O
+61	##고	O	O
+62	문학	O	B-FD
+63	강연	O	O
+64	##을	O	O
+65	듣	O	O
+66	##는	O	O
+67	##다	O	O
+68	.	O	O
+69	[SEP]	O	O

@@ -1,26 +1,13 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	KAIST	B-OG	B-OG	B-OG, O, B-AF, B-LC, I-OG
-2	조동	B-PS	B-PS	B-PS, O, B-OG, I-PS, I-OG
-3	##호	I-PS	I-PS	I-PS, I-OG, O, I-QT, I-LC
-4	교수	O	B-CV	B-CV, O, I-CV, B-OG, B-TM
-5	##팀	O	O	O, I-CV, I-OG, I-PS, I-EV
-6	##은	O	O	O, I-OG, I-CV, B-LC, B-CV
-7	도로	O	O	O, B-AF, B-LC, B-CV, I-AF
-8	##를	O	O	O, I-AF, B-CV, B-LC, B-PS
-9	달리	O	O	O, B-AF, B-LC, B-CV, B-TM
-10	##면서	O	O	O, B-PS, B-LC, I-AF, B-TM
-11	전력	O	O	O, B-MT, B-TM, B-LC, B-AF
-12	##을	O	O	O, B-CV, B-PS, I-AF, B-LC
-13	공급	O	O	O, B-CV, B-LC, B-TM, B-PS
-14	##받	O	O	O, B-PS, B-LC, B-CV, I-AF
-15	##는	O	O	O, B-AF, B-TM, B-CV, B-LC
-16	전기	B-AF	B-AF	B-AF, O, I-AF, B-OG, B-TM
-17	##자동차	I-AF	I-AF	I-AF, O, I-OG, B-AF, I-TM
-18	##를	O	O	O, I-AF, I-OG, I-EV, I-CV
-19	연구	O	O	O, B-CV, B-OG, B-TM, B-LC
-20	##하고	O	O	O, B-CV, B-TM, I-AF, I-OG
-21	있	O	O	O, B-CV, B-OG, B-TM, B-LC
-22	##다	O	O	O, B-CV, I-OG, B-TM, B-LC
-23	.	O	O	O, B-LC, B-PS, B-CV, B-AF
-24	[SEP]	O	O	O, B-CV, B-LC, I-AF, B-AF
+	text	label	preds
+0	[CLS]	O	O
+1	농구	B-CV	O
+2	##대	O	O
+3	##가	O	O
+4	있	O	O
+5	##어	O	O
+6	##서	O	O
+7	농구	O	B-CV
+8	시합	O	O
+9	##을	O	O
+10	해서	O	O
+11	[SEP]	O	O

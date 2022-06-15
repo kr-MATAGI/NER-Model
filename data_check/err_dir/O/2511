@@ -1,51 +1,29 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-EV, I-CV, I-OG
-1	정부	B-OG	B-OG	B-OG, B-LC, O, B-AF, B-PS
-2	관계자	B-CV	B-CV	B-CV, I-CV, I-OG, O, B-OG
-3	##는	O	O	O, I-CV, I-OG, I-EV, B-CV
-4	""""	O	O	O, B-CV, B-LC, B-OG, B-PS
-5	우리	O	O	O, B-OG, B-LC, B-PS, B-CV
-6	군	O	O	O, B-OG, I-OG, B-CV, B-LC
-7	##이	O	O	O, I-OG, B-PS, B-OG, B-LC
-8	작년	B-DT	B-DT	B-DT, O, I-DT, B-LC, B-EV
-9	1	I-DT	I-DT	I-DT, O, B-DT, I-PS, I-OG
-10	##월	I-DT	I-DT	I-DT, O, B-DT, I-PS, I-OG
-11	북한	B-OG	B-LC	B-LC, B-OG, O, B-PS, B-AF
-12	##의	O	O	O, I-OG, I-LC, I-DT, B-LC
-13	4	B-QT	B-QT	B-QT, O, B-EV, I-QT, B-DT
-14	##차	I-QT	I-QT	I-QT, O, I-EV, I-DT, I-LC
-15	핵실험	O	O	O, B-DT, B-LC, I-QT, B-CV
-16	직후	O	O	O, I-DT, I-EV, I-CV, I-LC
-17	##부터	O	O	O, I-DT, I-EV, I-OG, I-LC
-18	최전방	O	O	O, B-LC, B-TM, B-OG, B-AF
-19	지역	O	O	O, I-LC, B-LC, I-TM, I-AF
-20	##에서	O	O	O, B-LC, B-PS, B-CV, B-OG
-21	가동	O	O	O, B-TM, B-LC, B-CV, B-OG
-22	중	O	O	O, B-PS, B-LC, B-OG, B-TM
-23	##인	O	O	O, B-LC, B-OG, B-PS, B-CV
-24	대북	O	O	O, B-TM, B-AF, B-CV, B-LC
-25	확성기	O	B-TM	B-TM, O, I-TM, B-AF, B-CV
-26	방송	O	O	O, I-TM, B-TM, I-AF, B-CV
-27	##이	O	O	O, B-PS, I-TM, B-OG, B-LC
-28	신세	O	O	O, B-LC, B-DT, B-PS, B-QT
-29	##대	O	O	O, I-QT, I-DT, I-PS, I-OG
-30	북한	B-LC	B-LC	B-LC, B-CV, B-OG, B-PS, O
-31	##군	B-CV	B-CV	B-CV, I-CV, I-OG, O, B-OG
-32	##인	I-CV	I-CV	I-CV, O, I-OG, B-CV, I-EV
-33	##들	O	O	O, I-CV, I-OG, I-EV, I-AF
-34	##의	O	O	O, B-CV, B-TM, B-PS, B-LC
-35	심리	O	O	O, B-CV, B-TM, B-LC, B-PS
-36	##에	O	O	O, B-CV, B-TM, B-LC, B-OG
-37	영향	O	O	O, B-CV, B-LC, B-TM, B-PS
-38	##을	O	O	O, B-CV, B-PS, B-OG, B-LC
-39	주	O	O	O, B-CV, B-PS, B-LC, B-TM
-40	##는	O	O	O, B-CV, B-PS, B-LC, B-TM
-41	것	O	O	O, B-PS, B-CV, B-LC, B-OG
-42	같	O	O	O, B-CV, B-PS, B-LC, B-OG
-43	##다	O	O	O, B-CV, I-OG, B-PS, B-LC
-44	""""	O	O	O, B-CV, B-TM, B-LC, B-OG
-45	고	O	O	O, B-CV, B-TM, B-QT, B-LC
-46	했	O	O	O, B-CV, B-TM, B-LC, B-OG
-47	##다	O	O	O, B-CV, B-TM, B-LC, I-EV
-48	.	O	O	O, B-LC, B-PS, B-OG, B-CV
-49	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	미군	B-OG	B-OG
+2	##뿐	O	O
+3	아니	O	O
+4	##라	O	O
+5	독일	B-LC	B-LC
+6	,	O	O
+7	프랑스	B-LC	B-LC
+8	등	O	O
+9	다국적	O	B-OG
+10	##군	O	I-OG
+11	2	O	O
+12	##만	O	O
+13	##여	O	O
+14	명이	O	O
+15	배치	O	O
+16	##돼	O	O
+17	상대	O	O
+18	##적	O	O
+19	##으로	O	O
+20	가장	O	O
+21	안전	O	O
+22	##한	O	O
+23	지역인	O	O
+24	셈	O	O
+25	##이다	O	O
+26	.	O	O
+27	[SEP]	O	O

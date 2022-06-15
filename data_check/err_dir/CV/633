@@ -1,59 +1,15 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-EV
-1	6	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-QT
-2	##일	I-DT	I-DT	I-DT, O, B-DT, I-EV, I-QT
-3	(	O	O	O, I-DT, B-LC, I-EV, B-CV
-4	현지	O	O	O, B-LC, B-CV, B-DT, B-PS
-5	##시	O	O	O, I-EV, B-PS, I-DT, I-LC
-6	##각	O	O	O, I-EV, I-DT, B-LC, B-PS
-7	)	O	O	O, B-LC, B-PS, B-OG, B-EV
-8	프랑스	B-LC	B-LC	B-LC, B-EV, O, B-OG, B-AF
-9	대통령	B-CV	B-EV	B-EV, B-CV, O, I-EV, B-AF
-10	##선거	O	I-EV	I-EV, O, B-EV, I-CV, B-CV
-11	결선	B-EV	B-EV	B-EV, I-EV, O, B-CV, B-LC
-12	##투	I-EV	I-EV	I-EV, O, B-EV, I-CV, I-AF
-13	##표	I-EV	I-EV	I-EV, O, I-OG, I-AF, B-EV
-14	##에서	O	O	O, I-EV, I-OG, I-AF, B-LC
-15	51	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-LC
-16	.	I-QT	I-QT	I-QT, O, I-EV, I-LC, B-QT
-17	62	I-QT	I-QT	I-QT, B-QT, O, I-LC, I-PS
-18	%	I-QT	I-QT	I-QT, O, I-LC, I-EV, I-PS
-19	를	O	O	O, I-QT, B-CV, I-EV, I-OG
-20	득표	O	O	O, B-CV, B-TM, B-OG, B-LC
-21	##하	O	O	O, B-PS, B-LC, B-OG, I-OG
-22	##며	O	O	O, B-LC, B-PS, B-OG, B-QT
-23	17	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-24	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
-25	만	I-DT	I-DT	I-DT, O, B-DT, I-EV, I-QT
-26	##의	O	O	O, I-DT, B-OG, B-PS, B-LC
-27	좌파	O	O	O, B-OG, B-TR, B-CV, B-LC
-28	대통령	B-CV	B-CV	B-CV, O, B-EV, I-CV, I-EV
-29	##으로	O	O	O, I-CV, I-EV, I-OG, B-CV
-30	확정	O	O	O, B-LC, B-OG, B-PS, B-CV
-31	##된	O	O	O, B-PS, B-LC, I-OG, B-OG
-32	직후	O	O	O, B-PS, B-LC, I-DT, B-DT
-33	파리	B-LC	B-LC	B-LC, O, B-OG, B-AF, B-PS
-34	바스	B-LC	B-LC	B-LC, I-LC, O, B-AF, B-PS
-35	##티	I-LC	I-LC	I-LC, O, B-LC, I-AF, I-PS
-36	##유	I-LC	I-LC	I-LC, O, B-LC, I-AF, I-PS
-37	광장	I-LC	I-LC	I-LC, O, I-AF, B-LC, I-PS
-38	##에	O	O	O, I-LC, B-LC, B-PS, I-AF
-39	선	O	O	O, B-PS, B-LC, B-AF, B-CV
-40	프랑수아	B-PS	B-PS	B-PS, O, I-PS, B-LC, B-OG
-41	올	I-PS	I-PS	I-PS, B-PS, O, B-LC, I-LC
-42	##랑드	I-PS	I-PS	I-PS, O, B-PS, I-LC, B-LC
-43	당선자	B-CV	B-CV	B-CV, O, I-PS, B-EV, B-AF
-44	##의	O	O	O, I-CV, B-PS, I-AF, I-EV
-45	일	O	O	O, B-PS, B-LC, B-OG, B-AF
-46	##성	O	O	O, I-PS, B-PS, I-LC, B-LC
-47	##은	O	O	O, B-LC, B-PS, B-OG, I-PS
-48	유럽	B-LC	B-LC	B-LC, O, B-OG, B-PS, B-AF
-49	##과	O	O	O, I-LC, B-PS, I-PS, I-OG
-50	세계	O	O	O, B-LC, B-CV, B-OG, B-TM
-51	##를	O	O	O, B-LC, B-PS, I-LC, B-CV
-52	향해	O	O	O, B-LC, B-PS, B-TM, B-CV
-53	있	O	O	O, B-PS, B-LC, I-LC, I-AF
-54	##었	O	O	O, B-LC, B-PS, B-OG, I-OG
-55	##다	O	O	O, B-CV, B-LC, I-OG, I-AF
-56	.	O	O	O, B-LC, B-PS, B-CV, B-OG
-57	[SEP]	O	O	O, B-LC, B-PS, B-CV, I-EV
+	text	label	preds
+0	[CLS]	O	O
+1	비	B-CV	B-AF
+2	##프	I-CV	I-AF
+3	커	I-CV	I-AF
+4	##틀	I-CV	O
+5	##렛	I-CV	O
+6	포	B-CV	O
+7	커	I-CV	O
+8	##틀	I-CV	O
+9	##렛	I-CV	O
+10	그러	O	O
+11	##잖아요	O	O
+12	.	O	O
+13	[SEP]	O	O

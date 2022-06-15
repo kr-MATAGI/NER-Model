@@ -1,18 +1,13 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	네	O	O	O, B-CV, B-TM, B-QT, B-OG
-2	.	O	O	O, B-CV, B-OG, B-LC, I-OG
-3	써	O	O	O, B-CV, B-OG, B-TM, B-LC
-4	##실	O	O	O, B-CV, B-OG, I-OG, B-PS
-5	때	O	O	O, B-CV, B-OG, B-PS, B-TM
-6	안쪽	B-TM	O	O, B-TM, B-CV, B-QT, B-LC
-7	##에서	O	O	O, I-TM, I-QT, I-CV, I-OG
-8	써	O	O	O, B-CV, B-OG, B-TM, B-LC
-9	##시	O	O	O, B-CV, B-PS, B-OG, B-TM
-10	##는	O	O	O, B-CV, B-OG, B-PS, B-TM
-11	거	O	O	O, B-CV, B-OG, B-PS, B-TM
-12	아시	O	O	O, B-CV, B-TM, B-OG, B-PS
-13	##네	O	O	O, B-CV, I-CV, I-OG, B-OG
-14	##요	O	O	O, B-CV, I-OG, I-CV, B-OG
-15	.	O	O	O, B-CV, B-LC, B-OG, B-PS
-16	[SEP]	O	O	O, B-CV, B-LC, B-OG, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	근데	O	O
+2	여기	O	O
+3	있	O	O
+4	##는	O	O
+5	정자	B-TM	O
+6	##가	O	O
+7	어떻게	O	O
+8	여기	O	O
+9	##로	O	O
+10	갈까	O	O
+11	[SEP]	O	O

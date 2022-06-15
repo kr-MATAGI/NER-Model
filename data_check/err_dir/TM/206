@@ -1,13 +1,104 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, I-AF, B-CV
-1	그	O	O	O, B-CV, B-TM, B-OG, I-AF
-2	~	O	O	O, B-CV, B-LC, B-PS, I-CV
-3	항암	B-TM	B-TR	B-TR, O, B-TM, I-TR, B-FD
-4	항암	B-TR	I-TR	I-TR, B-TR, O, I-QT, I-TM
-5	치료	I-TR	I-TR	I-TR, O, B-TR, I-TM, I-QT
-6	하	O	O	O, I-TR, I-TM, I-QT, B-CV
-7	##는	O	O	O, B-CV, B-LC, I-AF, B-TM
-8	##게	O	O	O, B-CV, B-PS, B-LC, I-AF
-9	무서워	O	O	O, B-CV, B-PS, B-OG, I-AF
-10	?	O	O	O, I-AF, B-CV, I-OG, I-CV
-11	[SEP]	O	O	O, B-CV, B-LC, I-AF, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	경찰	B-OG	B-OG
+2	조사	O	O
+3	결과	O	O
+4	,	O	O
+5	이	O	O
+6	##들	O	O
+7	##은	O	O
+8	2006	B-DT	B-DT
+9	##년	I-DT	I-DT
+10	##부터	I-DT	I-DT
+11	지난해	I-DT	I-DT
+12	11	I-DT	I-DT
+13	##월	I-DT	I-DT
+14	##까	I-DT	I-DT
+15	##지	I-DT	I-DT
+16	서울	B-LC	B-LC
+17	·	O	O
+18	부산	B-LC	B-LC
+19	등	O	O
+20	전국	O	O
+21	지사	O	O
+22	##를	O	O
+23	갖춰	O	O
+24	##놓	O	O
+25	##고	O	O
+26	△	O	O
+27	##10	B-QT	B-QT
+28	##0	I-QT	I-QT
+29	##조	I-QT	I-QT
+30	##원	I-QT	I-QT
+31	규모	O	O
+32	##의	O	O
+33	중국	B-LC	B-LC
+34	합작	O	O
+35	컴퓨터	B-TM	B-TM
+36	개발	O	O
+37	△	O	O
+38	##70	B-QT	B-QT
+39	##조	I-QT	I-QT
+40	##원	I-QT	I-QT
+41	규모	O	O
+42	##의	O	O
+43	브라질	B-TM	B-LC
+44	대륙	I-TM	O
+45	##횡	I-TM	O
+46	##단	I-TM	O
+47	철도	I-TM	O
+48	##사업	I-TM	O
+49	△	O	O
+50	##유	O	O
+51	##명	O	O
+52	컴퓨터	B-TM	B-TM
+53	회사	O	O
+54	인수	O	O
+55	△	O	O
+56	##1	B-QT	B-QT
+57	##조	I-QT	I-QT
+58	##50	I-QT	I-QT
+59	##00	I-QT	I-QT
+60	##억	I-QT	I-QT
+61	##원	I-QT	I-QT
+62	규모	O	O
+63	##의	O	O
+64	서울	B-LC	B-LC
+65	개봉	B-LC	B-LC
+66	##동	I-LC	I-LC
+67	·	O	O
+68	문정	B-LC	B-LC
+69	##동	I-LC	I-LC
+70	부동산	O	O
+71	개발	O	O
+72	△	O	O
+73	##34	B-QT	B-QT
+74	##0	I-QT	I-QT
+75	##억	I-QT	I-QT
+76	##원	I-QT	I-QT
+77	규모	O	O
+78	##의	O	O
+79	중국	B-LC	B-LC
+80	탄광	O	O
+81	##개발	O	O
+82	등	O	O
+83	7	B-QT	B-QT
+84	##개	I-QT	I-QT
+85	사업	O	O
+86	##에	O	O
+87	대한	O	O
+88	설명	O	O
+89	##회	O	O
+90	##를	O	O
+91	개최	O	O
+92	##하면	O	O
+93	##서	O	O
+94	노인	O	O
+95	##들	O	O
+96	##을	O	O
+97	끌어	O	O
+98	##모	O	O
+99	##았	O	O
+100	##다	O	O
+101	.	O	O
+102	[SEP]	O	O

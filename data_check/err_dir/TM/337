@@ -1,9 +1,20 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, I-OG, B-CV, I-AF
-1	끝	B-TM	O	O, B-AM, B-TM, B-AF, B-CV
-2	##에	O	O	O, I-AF, I-CV, I-TM, I-QT
-3	꼬리	B-AM	B-AM	B-AM, O, B-TM, B-CV, B-PT
-4	##까	O	O	O, I-CV, I-AM, I-TM, I-AF
-5	##지	O	O	O, B-CV, B-PS, B-AM, B-QT
-6	다	O	O	O, B-PS, B-OG, B-CV, B-TM
-7	[SEP]	O	O	O, B-CV, B-AM, B-PS, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	④	B-QT	B-QT
+2	눈	B-AM	B-AM
+3	##을	O	O
+4	감은	O	O
+5	뒤	B-TM	O
+6	손가락	B-AM	B-AM
+7	##을	O	O
+8	펴	O	O
+9	##서	O	O
+10	눈동자	B-AM	B-AM
+11	위	B-TM	B-TM
+12	##를	O	O
+13	가볍	O	O
+14	##게	O	O
+15	눌러	O	O
+16	##준다	O	O
+17	.	O	O
+18	[SEP]	O	O

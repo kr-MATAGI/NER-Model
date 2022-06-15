@@ -1,28 +1,50 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	•	O	O	O, B-LC, B-OG, B-PS, B-AF
-2	민노당	B-OG	B-OG	B-OG, O, B-PS, B-LC, B-AF
-3	압박	O	O	O, I-OG, B-CV, I-EV, B-OG
-4	##에	O	O	O, I-OG, B-LC, B-OG, B-CV
-5	지도부	O	O	O, B-OG, B-LC, B-CV, B-PS
-6	굴복	O	O	O, B-PS, B-LC, B-OG, B-CV
-7	…	O	O	O, B-PS, B-LC, B-OG, I-OG
-8	孫	O	B-PS	B-PS, O, I-PS, B-LC, B-OG
-9	대표	O	B-CV	B-CV, O, I-PS, I-CV, B-TM
-10	,	O	O	O, I-CV, B-CV, B-LC, I-OG
-11	진보	O	B-TR	B-TR, O, I-TR, B-TM, B-FD
-12	##진	O	O	O, I-TR, I-CV, B-TR, B-CV
-13	##영	O	O	O, I-TR, I-CV, I-OG, I-PS
-14	손	B-AM	B-AM	B-AM, O, B-TR, B-PS, B-AF
-15	잡아	O	O	O, B-AM, B-LC, B-PS, B-CV
-16	…	O	O	O, B-LC, B-OG, B-PS, B-CV
-17	최고위	B-CV	B-CV	B-CV, O, B-TM, B-OG, B-AF
-18	##원	I-CV	I-CV	I-CV, O, B-CV, I-QT, I-OG
-19	7	B-QT	B-QT	B-QT, I-QT, O, I-CV, B-DT
-20	##명	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-21	""""	O	O	O, I-QT, I-OG, I-EV, B-LC
-22	비준	O	O	O, B-LC, B-OG, B-CV, B-AF
-23	안	O	O	O, I-OG, I-AF, B-CV, I-EV
-24	##돼	O	O	O, I-OG, B-LC, B-OG, I-AF
-25	""""	O	O	O, B-CV, B-LC, B-OG, I-OG
-26	[SEP]	O	O	O, B-LC, B-OG, B-CV, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	세계	O	O
+2	2	B-QT	B-QT
+3	##위	I-QT	I-QT
+4	,	O	O
+5	세계	O	O
+6	9	B-QT	B-QT
+7	##위	I-QT	I-QT
+8	##의	O	O
+9	대형	O	O
+10	철강	B-MT	B-MT
+11	##기업	O	B-CV
+12	##인	O	I-CV
+13	중국	B-LC	B-LC
+14	허	B-OG	B-OG
+15	##베이	I-OG	I-OG
+16	##강	I-OG	I-OG
+17	##철	I-OG	I-OG
+18	##과	O	O
+19	서	B-OG	B-OG
+20	##우	I-OG	I-OG
+21	##강	I-OG	I-OG
+22	##강	I-OG	I-OG
+23	##철	I-OG	I-OG
+24	##이	O	O
+25	당국	O	O
+26	주도	O	O
+27	##로	O	O
+28	합병	O	O
+29	##될	O	O
+30	예정	O	O
+31	##이	O	O
+32	##라고	O	O
+33	<	O	O
+34	블룸버그	B-OG	B-OG
+35	>	O	O
+36	가	O	O
+37	1	B-DT	B-DT
+38	##일	I-DT	I-DT
+39	(	O	O
+40	현지	O	O
+41	##시	O	O
+42	##각	O	O
+43	)	O	O
+44	보도	O	O
+45	##했	O	O
+46	##다	O	O
+47	.	O	O
+48	[SEP]	O	O

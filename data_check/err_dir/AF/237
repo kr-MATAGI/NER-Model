@@ -1,39 +1,49 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	백	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-2	내정자	B-CV	B-CV	B-CV, O, I-PS, I-CV, B-EV
-3	##가	O	O	O, I-CV, B-CV, I-AF, I-EV
-4	국세청	B-OG	B-OG	B-OG, O, B-AF, B-EV, B-CV
-5	경험	O	O	O, I-OG, I-AF, I-EV, B-CV
-6	##이	O	O	O, B-PS, B-CV, B-OG, B-LC
-7	없	O	O	O, B-CV, B-TM, B-PS, B-LC
-8	##다는	O	O	O, B-PS, B-LC, B-CV, B-OG
-9	한계	O	O	O, B-PS, B-CV, B-LC, B-TM
-10	##는	O	O	O, B-CV, B-PS, B-OG, B-LC
-11	5	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-LC
-12	##개	I-DT	I-DT	I-DT, O, B-DT, I-PS, I-QT
-13	##월	I-DT	I-DT	I-DT, O, B-DT, I-PS, I-QT
-14	동안	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-15	직무	B-CV	O	O, B-CV, I-CV, I-DT, B-TM
-16	##대	I-CV	O	O, I-CV, B-CV, I-TM, I-EV
-17	##행	I-CV	O	O, I-CV, B-CV, I-TM, I-QT
-18	##을	O	O	O, I-CV, B-CV, B-PS, B-QT
-19	해왔	O	O	O, B-CV, B-TM, B-PS, B-OG
-20	##던	O	O	O, B-PS, B-CV, B-LC, B-QT
-21	허	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-22	##병	I-PS	I-PS	I-PS, O, I-OG, B-PS, I-LC
-23	##익	I-PS	I-PS	I-PS, O, I-OG, B-PS, I-LC
-24	차장	B-CV	B-CV	B-CV, O, I-CV, I-PS, B-TM
-25	##이	O	O	O, I-CV, B-PS, I-AF, I-PS
-26	메워	O	O	O, B-CV, B-PS, B-QT, B-TM
-27	##줄	O	O	O, B-CV, B-PS, B-TM, B-QT
-28	것	O	O	O, B-PS, B-CV, B-OG, B-QT
-29	##이	O	O	O, B-PS, B-CV, B-OG, B-QT
-30	##라는	O	O	O, B-PS, B-OG, B-CV, I-OG
-31	게	O	O	O, B-PS, B-OG, B-LC, B-CV
-32	청와대	B-AF	B-OG	B-OG, B-AF, O, B-PS, B-LC
-33	##의	O	O	O, I-OG, I-AF, I-EV, I-CV
-34	설명	O	O	O, B-CV, B-TM, B-QT, B-OG
-35	##이다	O	O	O, B-CV, B-TM, I-OG, I-EV
-36	.	O	O	O, B-PS, B-CV, B-LC, B-OG
-37	[SEP]	O	O	O, B-CV, B-PS, B-LC, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	28	B-DT	B-DT
+2	##일	I-DT	I-DT
+3	인천	B-EV	B-EV
+4	아시아	I-EV	I-EV
+5	##경기	I-EV	I-EV
+6	남자	O	O
+7	축구	B-CV	B-CV
+8	8	B-EV	B-EV
+9	##강	I-EV	I-EV
+10	##전	I-EV	I-EV
+11	##에	O	O
+12	##서	O	O
+13	후반	B-TI	B-TI
+14	종료	O	O
+15	5	B-TI	B-TI
+16	##분	I-TI	I-TI
+17	##을	O	O
+18	남기	O	O
+19	##고	O	O
+20	이종	B-PS	B-PS
+21	##호	I-PS	I-PS
+22	##가	O	O
+23	일본	B-OG	B-LC
+24	수비수	B-CV	B-CV
+25	##와	O	O
+26	부딪쳐	O	O
+27	쓰러지	O	O
+28	##자	O	O
+29	인천	B-LC	B-AF
+30	문학	B-AF	I-AF
+31	##경기	I-AF	I-AF
+32	##장	I-AF	I-AF
+33	##에	O	O
+34	모인	O	O
+35	4	B-QT	B-QT
+36	##만	I-QT	I-QT
+37	##32	I-QT	I-QT
+38	##22	I-QT	I-QT
+39	##명	I-QT	I-QT
+40	##의	O	O
+41	관중	B-CV	B-CV
+42	##이	O	O
+43	모두	O	O
+44	일어났	O	O
+45	##다	O	O
+46	.	O	O
+47	[SEP]	O	O

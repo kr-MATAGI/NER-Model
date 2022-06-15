@@ -1,29 +1,64 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-QT
-1	19	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-LC
-2	##세기	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-TI
-3	영국	B-LC	B-LC	B-LC, B-OG, O, I-DT, B-AF
-4	##이	O	O	O, I-LC, B-PS, B-LC, I-AF
-5	배경	O	O	O, B-FD, B-CV, B-LC, B-TM
-6	##인	O	O	O, B-PS, I-CV, B-FD, B-LC
-7	원작	O	O	O, B-FD, B-CV, B-AF, B-TR
-8	##소설	B-FD	O	O, B-FD, I-FD, I-AF, I-CV
-9	‘	O	O	O, B-CV, I-FD, I-CV, B-FD
-10	핑	B-AF	B-AF	B-AF, B-PS, O, B-LC, I-AF
-11	##거스	I-AF	I-AF	I-AF, O, I-PS, I-LC, B-AF
-12	##미스	I-AF	I-AF	I-AF, O, I-PS, I-LC, B-AF
-13	’	O	O	O, I-AF, B-CV, I-EV, I-PS
-14	를	O	O	O, B-CV, B-LC, B-PS, B-QT
-15	1930	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-LC
-16	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-AF
-17	##대	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-LC
-18	일제	B-DT	B-DT	B-DT, I-DT, O, B-LC, B-TI
-19	##강	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
-20	##점	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-LC
-21	##기	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-LC
-22	##로	O	O	O, I-DT, B-CV, I-QT, B-LC
-23	옮겨	O	O	O, B-CV, B-LC, B-OG, B-PS
-24	##왔	O	O	O, B-CV, B-LC, B-OG, B-PS
-25	##다	O	O	O, B-CV, B-LC, B-OG, B-PS
-26	.	O	O	O, B-LC, B-CV, B-FD, B-PS
-27	[SEP]	O	O	O, B-CV, B-LC, B-FD, B-DT
+	text	label	preds
+0	[CLS]	O	O
+1	안	B-PS	B-PS
+2	##규	I-PS	I-PS
+3	##철	I-PS	I-PS
+4	한국	B-OG	B-OG
+5	##예술	I-OG	I-OG
+6	##종	I-OG	I-OG
+7	##합	I-OG	I-OG
+8	##학교	I-OG	I-OG
+9	미술	O	O
+10	##원	O	O
+11	교수	B-CV	B-CV
+12	##는	O	O
+13	“	O	O
+14	민중	B-FD	B-FD
+15	##미술	I-FD	I-FD
+16	##은	O	O
+17	분명	O	O
+18	우리	O	O
+19	사회	O	O
+20	##가	O	O
+21	진지	O	O
+22	##하	O	O
+23	##게	O	O
+24	조명	O	O
+25	##해야	O	O
+26	할	O	O
+27	의미	O	O
+28	##와	O	O
+29	가치	O	O
+30	##를	O	O
+31	가진	O	O
+32	대상	O	O
+33	##이지	O	O
+34	##만	O	O
+35	예술	O	O
+36	##작	O	O
+37	##품	O	O
+38	또는	O	O
+39	미술	B-FD	O
+40	##시장	O	O
+41	##의	O	O
+42	상품	O	O
+43	##으로	O	O
+44	##서	O	O
+45	미학	O	O
+46	##적	O	O
+47	가치	O	O
+48	##를	O	O
+49	폭넓	O	O
+50	##게	O	O
+51	인정받	O	O
+52	##기	O	O
+53	##는	O	O
+54	어렵	O	O
+55	##다	O	O
+56	”	O	O
+57	고	O	O
+58	말	O	O
+59	##했	O	O
+60	##다	O	O
+61	.	O	O
+62	[SEP]	O	O

@@ -1,38 +1,60 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-EV
-1	0	B-QT	B-QT	B-QT, B-TM, I-QT, B-EV, O
-2	-	I-QT	I-QT	I-QT, I-TM, I-EV, O, I-LC
-3	0	I-QT	I-QT	I-QT, I-TM, I-EV, O, I-LC
-4	##으로	O	O	O, I-QT, I-EV, B-CV, B-OG
-5	팽팽	O	O	O, B-OG, B-LC, B-EV, B-TM
-6	##하	O	O	O, B-PS, B-LC, B-OG, I-EV
-7	##던	O	O	O, B-EV, B-LC, B-PS, B-OG
-8	8	B-EV	B-EV	B-EV, O, B-QT, B-OG, B-AF
-9	##회	I-EV	I-EV	I-EV, I-QT, O, I-AF, I-OG
-10	1	B-QT	B-TM	B-TM, B-QT, I-EV, B-EV, I-TM
-11	##아웃	I-QT	I-TM	I-TM, I-QT, I-EV, O, B-TM
-12	주자	B-CV	B-CV	B-CV, O, I-TM, I-CV, I-EV
-13	2	B-TM	B-TM	B-TM, O, I-TM, B-CV, B-QT
-14	##루	I-TM	I-TM	I-TM, O, I-QT, I-CV, B-TM
-15	##의	O	O	O, I-TM, I-QT, I-AF, I-CV
-16	기회	O	O	O, B-CV, B-TM, B-OG, B-PS
-17	##에서	O	O	O, B-CV, B-PS, B-LC, I-AF
-18	바깥쪽	O	B-TM	B-TM, O, B-CV, B-LC, B-OG
-19	##으로	O	O	O, I-TM, I-QT, I-AF, B-TM
-20	떨어지	O	O	O, B-TM, B-CV, B-QT, B-LC
-21	##는	O	O	O, B-TM, B-AF, B-CV, B-LC
-22	변화구	B-TM	B-TM	B-TM, O, B-CV, I-TM, B-AF
-23	##를	O	O	O, I-TM, I-AF, I-CV, I-QT
-24	쳐다보	O	O	O, B-CV, B-TM, B-QT, B-PS
-25	##기	O	O	O, B-PS, B-CV, I-QT, B-LC
-26	##만	O	O	O, B-PS, I-QT, B-QT, B-TM
-27	하	O	O	O, B-QT, B-PS, B-TM, B-LC
-28	##며	O	O	O, B-QT, B-PS, B-CV, I-QT
-29	당한	O	O	O, B-TM, B-QT, B-CV, B-LC
-30	삼진	B-TM	B-TM	B-TM, O, I-TM, B-CV, B-QT
-31	##은	O	O	O, I-TM, I-CV, I-QT, I-EV
-32	뼈아	O	O	O, B-CV, B-TM, B-QT, B-OG
-33	##팠	O	O	O, B-CV, I-CV, I-QT, B-TM
-34	##다	O	O	O, B-CV, B-TM, B-QT, B-LC
-35	.	O	O	O, B-LC, B-CV, B-TM, B-PS
-36	[SEP]	O	O	O, B-CV, B-TM, B-LC, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	이	O	O
+2	설화	O	O
+3	##는	O	O
+4	다시	O	O
+5	그	O	O
+6	탈	O	O
+7	##로	O	O
+8	서	B-LC	B-LC
+9	##역	I-LC	I-LC
+10	##에	O	O
+11	##서	O	O
+12	온	O	O
+13	역	B-CV	B-CV
+14	##신	I-CV	I-CV
+15	(	O	O
+16	[UNK]	O	O
+17	神	O	O
+18	)	O	O
+19	을	O	O
+20	물리치	O	O
+21	##는	O	O
+22	신라	B-DT	B-DT
+23	##시대	I-DT	I-DT
+24	처	B-AF	B-AF
+25	##용	I-AF	I-AF
+26	##설	I-AF	I-AF
+27	##화	I-AF	I-AF
+28	##로	O	O
+29	탈바꿈	O	O
+30	##하면	O	O
+31	##서	O	O
+32	조선	B-DT	B-DT
+33	##시대	I-DT	I-DT
+34	벽	O	O
+35	##사	O	O
+36	(	O	O
+37	(	O	O
+38	벽	O	O
+39	,	O	O
+40	피	O	O
+41	)	O	O
+42	邪	O	O
+43	)	O	O
+44	의	O	O
+45	연희	O	O
+46	##였	O	O
+47	##던	O	O
+48	북	B-AF	B-AF
+49	##청사	I-AF	I-AF
+50	##자	I-AF	I-AF
+51	##놀	I-AF	O
+52	##음	I-AF	O
+53	##과	O	O
+54	하나	B-QT	O
+55	##가	O	O
+56	된다	O	O
+57	.	O	O
+58	[SEP]	O	O

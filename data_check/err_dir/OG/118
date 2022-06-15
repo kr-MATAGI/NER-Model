@@ -1,12 +1,43 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	군대	B-OG	O	O, B-OG, B-EV, B-CV, B-AF
-2	미제	O	O	O, B-CV, I-EV, B-EV, I-CV
-3	##사건	O	O	O, I-EV, I-CV, I-FD, I-QT
-4	의문	O	B-FD	B-FD, O, B-EV, B-CV, B-TM
-5	##사	O	I-FD	I-FD, O, I-EV, B-FD, I-AF
-6	이런	O	O	O, I-FD, I-AF, I-EV, I-OG
-7	거	O	O	O, B-CV, B-OG, B-PS, B-QT
-8	에요	O	O	O, B-PS, B-OG, B-CV, B-LC
-9	.	O	O	O, B-CV, I-OG, B-OG, B-LC
-10	[SEP]	O	O	O, B-CV, B-OG, B-FD, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	천주교	B-OG	B-OG
+2	인권위	B-OG	I-OG
+3	##원회	I-OG	I-OG
+4	##는	O	O
+5	2012	B-DT	B-DT
+6	##년	I-DT	I-DT
+7	4	I-DT	I-DT
+8	##월	I-DT	I-DT
+9	##과	O	O
+10	지난해	B-DT	B-DT
+11	2	I-DT	I-DT
+12	##월	I-DT	I-DT
+13	집행유예	B-CV	B-CV
+14	등	O	O
+15	##을	O	O
+16	선고	O	O
+17	##받	O	O
+18	##아	O	O
+19	투표	B-CV	B-CV
+20	##권	I-CV	I-CV
+21	##과	O	O
+22	피	B-CV	B-CV
+23	##선거	I-CV	I-CV
+24	##권	I-CV	I-CV
+25	##이	O	O
+26	제한	O	O
+27	##됐	O	O
+28	##던	O	O
+29	이	O	O
+30	##들	O	O
+31	##을	O	O
+32	모아	O	O
+33	다시	O	O
+34	헌법	O	O
+35	##소	O	O
+36	##원	O	O
+37	##을	O	O
+38	냈	O	O
+39	##다	O	O
+40	.	O	O
+41	[SEP]	O	O

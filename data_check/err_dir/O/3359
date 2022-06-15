@@ -1,20 +1,23 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	일반	O	O	O, B-CV, B-LC, B-OG, B-TM
-2	##적으로	O	O	O, B-LC, B-PS, I-AF, I-OG
-3	레미콘	B-AF	B-AF	B-AF, O, B-OG, B-MT, B-TM
-4	차량	O	O	O, I-AF, B-AF, B-CV, B-LC
-5	한	B-QT	B-QT	B-QT, O, I-AF, I-QT, B-DT
-6	대	I-QT	I-QT	I-QT, O, I-AF, I-LC, I-EV
-7	##에	O	O	O, I-QT, I-AF, I-OG, I-EV
-8	실리	O	O	O, B-PS, B-MT, B-AF, B-LC
-9	##는	O	O	O, B-LC, B-PS, B-OG, B-TM
-10	콘크리트	O	B-MT	B-MT, O, I-MT, B-TR, B-AF
-11	##는	O	O	O, I-AF, I-OG, I-MT, B-CV
-12	약	O	O	O, B-PS, B-QT, B-LC, B-OG
-13	[UNK]	O	O	O, B-PS, B-LC, B-OG, B-CV
-14	알려져	O	O	O, B-LC, B-CV, B-PS, B-OG
-15	있	O	O	O, B-CV, B-LC, B-PS, B-OG
-16	##다	O	O	O, B-CV, B-LC, I-OG, B-TM
-17	.	O	O	O, B-LC, B-PS, B-OG, B-AF
-18	[SEP]	O	O	O, B-LC, B-PS, B-OG, B-CV
+	text	label	preds
+0	[CLS]	O	O
+1	특성	O	B-CV
+2	##화	O	I-CV
+3	##고	O	I-CV
+4	##졸	O	I-CV
+5	##재	O	I-CV
+6	##직자	O	I-CV
+7	##특별	O	I-CV
+8	##전	O	I-CV
+9	##형	O	I-CV
+10	##의	O	O
+11	경우	O	O
+12	학생	O	O
+13	##부	O	O
+14	##만	O	O
+15	평가	O	O
+16	자료	O	O
+17	##로	O	O
+18	활용	O	O
+19	##한다	O	O
+20	.	O	O
+21	[SEP]	O	O

@@ -1,29 +1,44 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-EV, I-CV
-1	개성	B-LC	B-LC	B-LC, O, B-OG, B-AF, B-EV
-2	##공단	I-LC	I-LC	I-LC, O, I-OG, I-AF, B-LC
-3	임금	O	O	O, B-CV, I-LC, I-CV, I-AF
-4	##을	O	O	O, I-CV, B-CV, I-AF, B-TM
-5	갑자기	O	O	O, B-QT, B-TM, B-LC, B-CV
-6	4	B-QT	B-QT	B-QT, I-QT, O, B-DT, B-LC
-7	##배	I-QT	I-QT	I-QT, O, I-LC, I-EV, I-PS
-8	(	I-QT	O	O, I-QT, B-CV, I-OG, I-CV
-9	300	I-QT	B-QT	B-QT, I-QT, O, B-DT, B-EV
-10	##달	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-EV
-11	##러	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-OG
-12	)	O	O	O, I-QT, I-OG, B-CV, I-EV
-13	나	O	O	O, B-LC, B-CV, B-OG, B-PS
-14	올려	O	O	O, B-QT, B-CV, B-TM, B-PS
-15	달라	O	O	O, I-QT, B-PS, B-CV, B-LC
-16	##며	O	O	O, B-LC, B-OG, I-QT, B-PS
-17	남북	B-OG	B-OG	B-OG, B-LC, O, B-EV, B-TM
-18	경협	O	O	O, I-OG, I-LC, I-EV, I-TM
-19	##에도	O	O	O, I-OG, I-EV, I-TM, I-LC
-20	찬물	O	O	O, B-LC, B-TM, B-AF, B-CV
-21	##을	O	O	O, B-CV, B-PS, I-EV, B-TM
-22	끼얹	O	O	O, B-CV, B-PS, B-LC, B-TM
-23	##고	O	O	O, I-EV, I-QT, B-LC, B-CV
-24	있	O	O	O, B-CV, B-LC, B-PS, B-OG
-25	##다	O	O	O, B-CV, B-LC, B-PS, B-OG
-26	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-27	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	인권위	B-CV	B-CV
+2	##원	I-CV	I-CV
+3	전원	O	O
+4	##을	O	O
+5	총리	B-CV	B-CV
+6	##가	O	O
+7	지명	O	O
+8	##하	O	O
+9	##도록	O	O
+10	했	O	O
+11	##던	O	O
+12	말레이시아	B-LC	B-LC
+13	##의	O	O
+14	경우	O	O
+15	B	B-QT	B-QT
+16	##등	I-QT	I-QT
+17	##급	I-QT	O
+18	##으로	O	O
+19	강등	O	O
+20	##된	O	O
+21	뒤	O	O
+22	인권위	B-CV	B-CV
+23	##법	I-CV	I-CV
+24	##의	O	O
+25	해당	O	O
+26	조항	O	O
+27	##을	O	O
+28	두	B-QT	B-QT
+29	차례	I-QT	I-QT
+30	##나	O	O
+31	고쳐	O	O
+32	A	B-QT	B-QT
+33	##등	I-QT	I-QT
+34	##급	I-QT	O
+35	##을	O	O
+36	회복	O	O
+37	##했	O	O
+38	##다고	O	O
+39	전했	O	O
+40	##다	O	O
+41	.	O	O
+42	[SEP]	O	O

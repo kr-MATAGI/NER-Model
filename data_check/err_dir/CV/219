@@ -1,29 +1,24 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	1910	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-TI
-2	##년	I-DT	I-DT	I-DT, O, I-QT, B-DT, I-TI
-3	##경	I-DT	I-DT	I-DT, O, I-QT, B-DT, I-TI
-4	건립	O	O	O, I-DT, B-CV, B-OG, B-AF
-5	##된	O	O	O, B-PS, B-LC, B-OG, B-CV
-6	이	O	O	O, B-PS, B-AF, B-CV, B-OG
-7	한옥	B-CV	O	O, B-CV, B-AF, I-AF, B-FD
-8	##은	O	O	O, I-AF, I-CV, B-CV, B-PS
-9	고종	B-PS	B-PS	B-PS, O, B-OG, B-CV, I-PS
-10	##의	O	O	O, I-PS, I-OG, B-PS, B-CV
-11	상궁	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-TM
-12	출신	O	O	O, I-CV, B-PS, B-CV, I-OG
-13	후궁	B-CV	B-CV	B-CV, O, B-PS, B-AF, I-CV
-14	엄	B-PS	B-PS	B-PS, O, B-CV, I-PS, I-CV
-15	##비	I-PS	I-PS	I-PS, I-CV, O, I-OG, B-CV
-16	(	O	O	O, I-CV, I-PS, I-OG, I-AF
-17	[UNK]	O	O	O, B-CV, B-LC, B-PS, B-OG
-18	[UNK]	O	O	O, B-CV, B-PS, B-LC, B-OG
-19	)	O	O	O, B-CV, B-PS, B-LC, B-OG
-20	가	O	O	O, B-PS, B-LC, B-CV, B-OG
-21	살	O	O	O, B-LC, B-CV, B-QT, B-PS
-22	##던	O	O	O, B-PS, B-LC, B-CV, B-QT
-23	곳	O	O	O, B-LC, B-CV, B-AF, B-PS
-24	##으로	O	O	O, B-PS, B-CV, B-LC, B-OG
-25	전해진다	O	O	O, B-LC, B-QT, B-CV, B-AF
-26	.	O	O	O, B-PS, B-LC, B-CV, I-AF
-27	[SEP]	O	O	O, B-CV, B-LC, B-PS, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	금수	O	O
+2	##저	O	O
+3	전형	O	O
+4	혹은	O	O
+5	깜깜	O	O
+6	##이	O	O
+7	전형	O	O
+8	등	O	O
+9	##으로	O	O
+10	불리	O	O
+11	##며	O	O
+12	비판	O	O
+13	##을	O	O
+14	받아	O	O
+15	##온	O	O
+16	학생	B-CV	O
+17	##부	I-CV	O
+18	종합	I-CV	O
+19	##전	I-CV	O
+20	##형	I-CV	O
+21	.	O	O
+22	[SEP]	O	O

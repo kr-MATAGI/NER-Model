@@ -1,9 +1,64 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	비	B-OG	B-CV	B-CV, B-OG, B-FD, O, B-EV
-2	##덱스	I-OG	I-CV	I-CV, I-OG, B-CV, I-FD, I-PS
-3	##포츠	I-OG	I-CV	I-CV, I-OG, O, I-FD, I-PS
-4	##의	O	O	O, I-OG, I-CV, I-AF, I-EV
-5	전신	O	O	O, B-QT, B-DT, B-CV, B-AF
-6	##인	O	O	O, I-QT, I-CV, I-DT, B-CV
-7	[SEP]	O	O	O, B-CV, B-OG, B-LC, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	1	B-DT	B-DT
+2	##년	I-DT	I-DT
+3	365	I-DT	B-DT
+4	##일	I-DT	I-DT
+5	불	O	O
+6	##이	O	O
+7	꺼지	O	O
+8	##지	O	O
+9	않	O	O
+10	##는	O	O
+11	연구	O	O
+12	##센터	O	O
+13	##는	O	O
+14	한미	B-OG	B-OG
+15	##약	I-OG	I-OG
+16	##품	I-OG	I-OG
+17	##이	O	O
+18	지난해	B-DT	B-DT
+19	베	B-OG	B-OG
+20	##링	I-OG	I-OG
+21	##거	I-OG	I-OG
+22	##인	I-OG	I-OG
+23	##겔	I-OG	I-OG
+24	##하	I-OG	I-OG
+25	##임	I-OG	I-OG
+26	사	B-OG	I-OG
+27	##노	I-OG	I-OG
+28	##피	I-OG	I-OG
+29	얀	B-OG	I-OG
+30	##센	I-OG	I-OG
+31	같	O	O
+32	##은	O	O
+33	글로벌	O	O
+34	제약	O	O
+35	##업체	O	O
+36	##와	O	O
+37	약	B-QT	B-QT
+38	8	I-QT	I-QT
+39	##조	I-QT	I-QT
+40	원	I-QT	I-QT
+41	규모	O	O
+42	##의	O	O
+43	수출	O	O
+44	##계약	O	O
+45	##을	O	O
+46	잇달	O	O
+47	##아	O	O
+48	성사	O	O
+49	##시	O	O
+50	##키	O	O
+51	##는	O	O
+52	개	O	O
+53	##가	O	O
+54	##를	O	O
+55	올리	O	O
+56	##게	O	O
+57	한	O	O
+58	산	O	O
+59	##실	O	O
+60	##이다	O	O
+61	.	O	O
+62	[SEP]	O	O

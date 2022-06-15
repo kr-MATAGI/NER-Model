@@ -1,15 +1,11 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	그러면은	O	O	O, B-CV, B-TM, B-OG, B-QT
-2	그	O	O	O, B-CV, B-OG, B-TM, B-LC
-3	다음	O	O	O, B-CV, B-PS, B-TM, I-EV
-4	##은	O	O	O, B-CV, B-PS, B-OG, B-EV
-5	아마도	O	O	O, B-EV, B-CV, B-DT, B-QT
-6	대선	B-EV	B-EV	B-EV, O, B-CV, B-DT, I-EV
-7	조기	O	B-EV	B-EV, O, I-EV, B-CV, B-DT
-8	대선	B-EV	I-EV	I-EV, B-EV, O, B-CV, B-DT
-9	##이	O	O	O, I-EV, I-CV, I-DT, I-AF
-10	##라고	O	O	O, B-CV, I-EV, B-OG, B-PS
-11	치	O	O	O, B-CV, B-OG, B-PS, B-TM
-12	##면	O	O	O, I-OG, B-PS, I-AF, B-OG
-13	[SEP]	O	O	O, B-CV, B-LC, B-TM, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	잠수	O	B-CV
+2	##부	O	I-CV
+3	배치	O	O
+4	수색	O	O
+5	##작	O	O
+6	##업	O	O
+7	속도	O	O
+8	내	O	O
+9	[SEP]	O	O

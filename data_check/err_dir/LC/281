@@ -1,20 +1,62 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	문제	O	O	O, B-CV, B-TM, B-LC, B-AF
-2	##의	O	O	O, B-LC, I-AF, B-PS, B-OG
-3	광구	O	O	O, B-LC, B-TM, B-CV, B-AF
-4	##는	O	O	O, B-LC, I-AF, I-LC, B-CV
-5	나이지리아	B-LC	B-LC	B-LC, B-OG, O, B-AF, B-PS
-6	심해	O	O	O, I-LC, B-LC, I-AF, I-OG
-7	##의	O	O	O, B-LC, I-LC, I-AF, I-OG
-8	OP	B-LC	B-LC	B-LC, B-TM, O, B-QT, B-AF
-9	##L	I-LC	I-LC	I-LC, O, I-TM, I-QT, I-AF
-10	##32	I-LC	I-LC	I-LC, I-TM, I-QT, O, I-AF
-11	##1	I-LC	I-LC	I-LC, I-QT, I-TM, O, I-AF
-12	,	O	O	O, I-LC, I-QT, I-TM, I-AF
-13	32	B-LC	B-QT	B-QT, I-QT, I-LC, O, I-TM
-14	##3	I-LC	I-QT	I-QT, I-LC, O, I-TM, I-AF
-15	광구	I-LC	O	O, I-QT, I-LC, I-TM, I-AF
-16	##다	O	O	O, I-QT, I-LC, I-AF, I-TM
-17	.	O	O	O, B-LC, B-CV, B-AF, B-TM
-18	[SEP]	O	O	O, B-LC, B-CV, B-TM, B-AF
+	text	label	preds
+0	[CLS]	O	O
+1	미	B-LC	B-LC
+2	국방부	B-OG	B-OG
+3	##의	O	O
+4	제프	B-PS	B-PS
+5	데이비스	I-PS	I-PS
+6	대변인	B-CV	B-CV
+7	##은	O	O
+8	이날	B-DT	B-DT
+9	브리핑	O	O
+10	##에	O	O
+11	##서	O	O
+12	""""	O	O
+13	북한	B-LC	B-OG
+14	##의	O	O
+15	(	O	O
+16	핵	B-AF	B-AF
+17	·	I-AF	O
+18	미사일	I-AF	B-AF
+19	)	O	O
+20	개발	O	O
+21	프로그램	O	O
+22	##은	O	O
+23	일정	O	O
+24	##표	O	O
+25	##에	O	O
+26	묶여	O	O
+27	있	O	O
+28	##지	O	O
+29	않	O	O
+30	##다	O	O
+31	""""	O	O
+32	며	O	O
+33	""""	O	O
+34	북한	B-LC	B-OG
+35	##은	O	O
+36	가능	O	O
+37	##하	O	O
+38	##다면	O	O
+39	언제	O	O
+40	어디	O	O
+41	##서	O	O
+42	##든	O	O
+43	미사일	B-AF	B-AF
+44	시험	O	O
+45	발사	O	O
+46	##를	O	O
+47	공격	O	O
+48	##적	O	O
+49	##으로	O	O
+50	추진	O	O
+51	##하	O	O
+52	##고	O	O
+53	있	O	O
+54	##다	O	O
+55	""""	O	O
+56	고	O	O
+57	했	O	O
+58	##다	O	O
+59	.	O	O
+60	[SEP]	O	O

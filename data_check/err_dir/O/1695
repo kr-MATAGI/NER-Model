@@ -1,46 +1,86 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	새	B-OG	B-OG	B-OG, O, B-PS, B-LC, B-AF
-2	##누리	I-OG	I-OG	I-OG, O, I-EV, B-OG, I-LC
-3	##당	I-OG	I-OG	I-OG, O, I-EV, I-LC, I-PS
-4	조원진	B-PS	B-PS	B-PS, O, I-PS, I-OG, B-OG
-5	후보	B-CV	B-CV	B-CV, O, I-CV, I-PS, B-TM
-6	##는	O	O	O, I-CV, I-EV, B-CV, I-QT
-7	전날	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-8	“	O	O	O, I-DT, I-QT, I-EV, I-CV
-9	정권	O	O	O, B-PS, B-LC, B-OG, B-EV
-10	##을	O	O	O, B-PS, I-EV, I-OG, B-LC
-11	넘기	O	O	O, B-PS, B-LC, B-CV, B-OG
-12	##면	O	O	O, B-PS, B-LC, B-OG, B-CV
-13	안	O	O	O, B-PS, B-LC, B-CV, B-TM
-14	되	O	O	O, B-PS, B-LC, B-CV, B-OG
-15	##니까	O	O	O, B-PS, B-LC, B-CV, I-OG
-16	(	O	O	O, B-LC, B-PS, B-CV, B-QT
-17	홍	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-18	후보	B-CV	B-CV	B-CV, O, I-CV, I-PS, B-TM
-19	##와	O	O	O, I-CV, B-CV, I-EV, I-QT
-20	)	O	O	O, B-PS, B-LC, B-CV, B-QT
-21	한번	O	B-QT	B-QT, O, I-QT, B-EV, B-PS
-22	단일	O	O	O, I-QT, B-EV, B-TM, I-EV
-23	##화	O	O	O, I-EV, I-TM, I-TR, I-QT
-24	##해	O	O	O, B-PS, I-EV, B-LC, I-PS
-25	보	O	O	O, B-PS, B-LC, B-OG, B-CV
-26	##겠다	O	O	O, B-PS, B-CV, I-EV, B-LC
-27	”	O	O	O, B-CV, B-LC, B-PS, B-OG
-28	며	O	O	O, B-LC, B-CV, B-PS, B-TM
-29	일대	O	O	O, B-QT, B-TM, B-EV, B-DT
-30	##일	O	B-QT	B-QT, O, I-QT, B-DT, B-EV
-31	TV	B-TM	B-TM	B-TM, O, I-QT, I-TM, B-TR
-32	##토	O	O	O, I-TM, I-EV, B-EV, I-QT
-33	##론	O	O	O, I-EV, I-TM, I-TR, I-LC
-34	##을	O	O	O, I-EV, B-CV, B-LC, B-PS
-35	통한	O	O	O, B-LC, B-TM, B-EV, B-QT
-36	단일	O	O	O, B-TM, B-EV, B-CV, B-TR
-37	##화	O	O	O, I-TM, I-TR, I-EV, I-CV
-38	방식	O	O	O, I-TR, I-TM, I-EV, B-CV
-39	##을	O	O	O, B-CV, B-OG, B-LC, B-TM
-40	제시	O	O	O, B-CV, B-TM, B-OG, B-LC
-41	##했	O	O	O, B-CV, B-PS, B-LC, B-OG
-42	##다	O	O	O, B-CV, B-LC, B-TM, B-PS
-43	.	O	O	O, B-LC, B-PS, B-CV, B-OG
-44	[SEP]	O	O	O, B-LC, B-CV, B-PS, I-EV
+	text	label	preds
+0	[CLS]	O	O
+1	아마	B-PS	B-PS
+2	##르	I-PS	I-PS
+3	##사	I-PS	I-PS
+4	##나	I-PS	I-PS
+5	소장	B-CV	B-CV
+6	##은	O	O
+7	“	O	O
+8	1992	B-DT	B-DT
+9	##년	I-DT	I-DT
+10	몽골	B-LC	B-LC
+11	##에	O	O
+12	##서	O	O
+13	헌재	B-OG	B-OG
+14	##를	O	O
+15	설립	O	O
+16	##할	O	O
+17	때	O	O
+18	많	O	O
+19	##은	O	O
+20	나라	O	O
+21	##의	O	O
+22	헌법재판	B-CV	B-CV
+23	제도	I-CV	O
+24	##를	O	O
+25	참고	O	O
+26	##했	O	O
+27	##으며	O	O
+28	4	B-DT	B-DT
+29	##년	I-DT	I-DT
+30	앞서	O	O
+31	헌재	O	B-OG
+32	##를	O	O
+33	만든	O	O
+34	한국	B-LC	B-LC
+35	##도	O	O
+36	그	O	O
+37	가운데	O	O
+38	하나	O	B-QT
+39	##였	O	O
+40	##다	O	O
+41	”	O	O
+42	며	O	O
+43	“	O	O
+44	특히	O	O
+45	민주	O	O
+46	##화	O	O
+47	##로	O	O
+48	헌법	B-CV	B-CV
+49	##을	O	O
+50	개정	O	O
+51	##한	O	O
+52	뒤	O	O
+53	헌재	B-OG	B-OG
+54	##를	O	O
+55	만들	O	O
+56	##었	O	O
+57	##다는	O	O
+58	점	O	O
+59	##에	O	O
+60	##서	O	O
+61	유사	O	O
+62	##점	O	O
+63	##이	O	O
+64	많	O	O
+65	##아	O	O
+66	,	O	O
+67	한국	B-LC	B-LC
+68	##의	O	O
+69	법률	O	O
+70	##과	O	O
+71	제도	O	O
+72	##를	O	O
+73	깊	O	O
+74	##게	O	O
+75	검토	O	O
+76	##했	O	O
+77	##다	O	O
+78	”	O	O
+79	고	O	O
+80	말	O	O
+81	##했	O	O
+82	##다	O	O
+83	.	O	O
+84	[SEP]	O	O

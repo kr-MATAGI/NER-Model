@@ -1,31 +1,16 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-EV, I-OG, B-CV, I-CV
-1	피	B-OG	B-OG	B-OG, O, B-EV, B-PS, B-CV
-2	##파	I-OG	I-OG	I-OG, O, I-EV, B-OG, I-AF
-3	실무	O	O	O, I-OG, I-EV, B-EV, B-OG
-4	##회의	O	O	O, I-OG, I-EV, I-CV, I-AF
-5	##는	O	O	O, I-OG, I-EV, I-DT, I-AF
-6	그동안	O	O	O, B-DT, B-LC, B-OG, B-CV
-7	‘	O	O	O, B-DT, B-LC, I-DT, B-CV
-8	겨울	B-DT	B-DT	B-DT, O, I-DT, B-TI, B-LC
-9	개최	O	O	O, I-DT, I-EV, I-QT, B-CV
-10	’	O	O	O, B-CV, B-PS, B-OG, B-LC
-11	를	O	O	O, B-PS, B-CV, B-LC, B-OG
-12	전제	O	O	O, B-CV, B-LC, B-DT, B-PS
-13	##로	O	O	O, B-DT, I-DT, B-PS, B-LC
-14	11	B-DT	B-DT	B-DT, O, I-DT, B-OG, B-QT
-15	##월	I-DT	I-DT	I-DT, O, B-DT, I-OG, I-QT
-16	안과	O	O	O, B-DT, I-DT, B-QT, B-PS
-17	2	B-DT	B-DT	B-DT, I-DT, O, B-QT, B-TI
-18	##월	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-OG
-19	안	O	I-DT	I-DT, O, B-DT, I-QT, I-OG
-20	##을	O	O	O, I-DT, B-CV, B-LC, B-OG
-21	놓	O	O	O, B-LC, B-EV, B-TM, B-CV
-22	##고	O	O	O, B-LC, B-PS, B-EV, B-OG
-23	격	O	O	O, B-EV, B-LC, B-CV, B-TM
-24	##론	O	O	O, I-EV, B-LC, B-CV, I-LC
-25	##을	O	O	O, B-CV, I-EV, B-LC, B-PS
-26	벌여왔	O	O	O, B-CV, B-LC, B-TM, B-QT
-27	##다	O	O	O, B-CV, B-LC, I-EV, B-OG
-28	.	O	O	O, B-LC, B-CV, B-OG, B-PS
-29	[SEP]	O	O	O, B-LC, B-CV, B-OG, I-EV
+	text	label	preds
+0	[CLS]	O	O
+1	미국	B-LC	B-LC
+2	사회	O	O
+3	##에	O	O
+4	양당	O	O
+5	##간	O	O
+6	##에	O	O
+7	또	O	O
+8	미국	B-LC	B-LC
+9	그	O	O
+10	유권자	O	B-CV
+11	##들	O	O
+12	사이	O	O
+13	##에	O	O
+14	[SEP]	O	O

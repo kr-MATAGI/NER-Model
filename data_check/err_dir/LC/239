@@ -1,44 +1,66 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-EV, B-CV, I-OG, I-CV
-1	무대	O	O	O, B-EV, B-CV, B-LC, B-PS
-2	##는	O	O	O, I-EV, B-PS, B-CV, I-OG
-3	28	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-QT
-4	##일	I-DT	I-DT	I-DT, O, B-DT, I-EV, I-QT
-5	(	O	O	O, I-DT, I-EV, B-LC, B-CV
-6	오전	B-TI	B-TI	B-TI, I-TI, B-EV, O, B-QT
-7	4	I-TI	I-TI	I-TI, I-EV, I-TR, B-TI, I-QT
-8	##시	I-TI	I-TI	I-TI, I-EV, I-TR, I-QT, O
-9	##45	I-TI	I-TI	I-TI, I-TR, I-EV, B-TI, I-QT
-10	##분	I-TI	I-TI	I-TI, I-TR, I-EV, I-QT, O
-11	·	O	O	O, I-TI, I-EV, I-QT, B-LC
-12	한국	B-LC	B-LC	B-LC, O, B-OG, B-PS, I-LC
-13	##시	O	O	O, I-LC, I-EV, B-LC, I-OG
-14	##각	O	O	O, B-LC, I-DT, B-CV, B-OG
-15	)	O	O	O, B-LC, B-PS, B-OG, B-CV
-16	바이	B-LC	B-AF	B-AF, B-LC, B-OG, B-PS, O
-17	##아	I-LC	I-AF	I-AF, O, I-LC, I-OG, I-PS
-18	##레나	I-LC	I-AF	I-AF, O, I-LC, I-OG, I-PS
-19	##에서	O	O	O, I-AF, I-EV, I-OG, B-CV
-20	열리	O	O	O, B-CV, B-OG, B-LC, B-PS
-21	##는	O	O	O, B-LC, B-OG, B-CV, B-PS
-22	2013	B-DT	B-DT	B-DT, I-DT, O, B-EV, B-QT
-23	~	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
-24	2014	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
-25	유럽	B-OG	B-OG	B-OG, B-EV, B-LC, O, B-AF
-26	##축구연맹	I-OG	I-OG	I-OG, I-EV, O, B-OG, I-DT
-27	(	O	O	O, I-EV, I-OG, I-DT, B-EV
-28	UEFA	B-OG	B-OG	B-OG, B-EV, O, I-EV, I-OG
-29	)	O	O	O, I-EV, I-OG, I-DT, B-EV
-30	챔피언	B-OG	B-OG	B-OG, B-EV, I-EV, O, B-CV
-31	##스	I-OG	I-OG	I-OG, I-EV, O, I-CV, B-OG
-32	##리그	I-OG	I-OG	I-OG, I-EV, O, I-CV, I-DT
-33	A	O	O	O, B-EV, I-EV, I-OG, B-OG
-34	##조	O	O	O, I-EV, I-OG, I-DT, I-QT
-35	조별	O	O	O, B-EV, I-EV, B-OG, B-DT
-36	##리그	O	O	O, I-EV, I-OG, B-EV, I-DT
-37	안방	O	O	O, I-EV, B-CV, B-EV, B-LC
-38	5	B-EV	B-EV	B-EV, O, B-DT, B-AF, B-QT
-39	##차	I-EV	I-EV	I-EV, B-EV, O, I-QT, I-AF
-40	##전	I-EV	I-EV	I-EV, O, I-QT, I-AF, B-EV
-41	.	O	O	O, I-EV, I-AF, I-OG, I-QT
-42	[SEP]	O	O	O, B-LC, I-EV, B-CV, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	사단	O	O
+2	##법인	O	O
+3	대구	B-OG	B-EV
+4	##뮤	I-OG	I-EV
+5	##지	I-OG	I-EV
+6	##컬	I-OG	I-EV
+7	##페	I-OG	I-EV
+8	##스티벌	I-OG	I-EV
+9	(	O	O
+10	이사장	B-CV	B-CV
+11	장	B-PS	B-PS
+12	##익	I-PS	I-PS
+13	##현	I-PS	I-PS
+14	·	O	O
+15	이하	O	O
+16	DI	B-OG	B-OG
+17	##M	I-OG	I-OG
+18	##F	I-OG	I-OG
+19	)	O	O
+20	은	O	O
+21	오	B-DT	B-DT
+22	##는	I-DT	I-DT
+23	15	I-DT	I-DT
+24	##일	I-DT	I-DT
+25	전야	O	O
+26	##제	O	O
+27	##를	O	O
+28	시작	O	O
+29	##으로	O	O
+30	7	B-DT	B-DT
+31	##월	I-DT	I-DT
+32	8	I-DT	I-DT
+33	##일	I-DT	I-DT
+34	##까	I-DT	I-DT
+35	##지	I-DT	I-DT
+36	24	B-DT	B-DT
+37	##일	I-DT	I-DT
+38	##간	I-DT	I-DT
+39	대구	B-AF	B-AF
+40	##오	I-AF	I-AF
+41	##페	I-AF	I-AF
+42	##라	I-AF	I-AF
+43	##하우스	I-AF	I-AF
+44	등	O	O
+45	대구시	O	O
+46	##내	O	O
+47	일원	O	O
+48	##에	O	O
+49	##서	O	O
+50	제	O	B-QT
+51	##7	O	I-QT
+52	##회	O	I-QT
+53	대구	B-LC	B-EV
+54	##국	O	I-EV
+55	##제	O	I-EV
+56	##뮤	O	I-EV
+57	##지	O	I-EV
+58	##컬	O	I-EV
+59	##페	O	I-EV
+60	##스티벌	O	I-EV
+61	##을	O	O
+62	연다	O	O
+63	.	O	O
+64	[SEP]	O	O

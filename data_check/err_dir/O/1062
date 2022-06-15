@@ -1,22 +1,26 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, I-OG, B-CV, I-EV
-1	맑	O	O	O, B-MT, B-LC, B-TM, B-PS
-2	##은	O	O	O, B-MT, I-AF, I-LC, I-MT
-3	공기	O	O	O, B-MT, I-MT, B-TM, B-AM
-4	##를	O	O	O, I-AF, I-LC, I-PS, I-TM
-5	찾아	O	O	O, B-LC, B-CV, B-TM, B-PS
-6	떠나	O	O	O, B-CV, B-LC, B-QT, B-PS
-7	##는	O	O	O, B-CV, B-LC, B-PS, B-QT
-8	‘	O	O	O, B-CV, B-LC, B-PS, B-OG
-9	공기	O	O	O, B-MT, B-AM, B-PS, B-TM
-10	난민	O	B-CV	B-CV, O, I-CV, I-PS, B-PS
-11	’	O	O	O, I-CV, I-OG, B-CV, I-QT
-12	까지	O	O	O, B-CV, B-PS, B-QT, B-DT
-13	생겼	O	O	O, B-CV, B-OG, B-TM, B-PS
-14	##잖아요	O	O	O, I-CV, I-OG, B-PS, B-CV
-15	.	O	O	O, B-CV, B-LC, B-PS, B-TM
-16	”	O	O	O, B-CV, B-PS, B-LC, B-OG
-17	(	O	O	O, B-CV, B-PS, B-OG, B-LC
-18	진	B-PS	B-PS	B-PS, O, I-PS, B-OG, B-LC
-19	)	O	O	O, I-PS, I-OG, B-CV, I-CV
-20	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	김원	B-PS	B-PS
+2	##홍	I-PS	I-PS
+3	SK	B-OG	B-OG
+4	##해	I-OG	I-OG
+5	##운	I-OG	I-OG
+6	前	O	O
+7	고문	B-CV	B-CV
+8	,	O	O
+9	先	O	O
+10	物	O	O
+11	투자	O	O
+12	##로	O	O
+13	한때	O	O
+14	崔	O	B-PS
+15	회장	B-CV	B-CV
+16	##의	O	O
+17	재산	O	O
+18	1000	O	O
+19	##억	O	O
+20	##원	O	O
+21	##대로	O	O
+22	불려	O	O
+23	##줘	O	O
+24	[SEP]	O	O

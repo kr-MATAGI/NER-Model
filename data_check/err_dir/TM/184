@@ -1,26 +1,39 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-EV, I-CV
-1	아랍에미리트	B-LC	B-TM	B-TM, B-LC, I-TM, O, B-AF
-2	(	O	I-TM	I-TM, O, B-TM, I-LC, I-TR
-3	UAE	B-LC	I-TM	I-TM, O, B-TM, I-LC, I-TR
-4	)	O	I-TM	I-TM, O, B-TM, I-TR, I-LC
-5	원자력	B-TM	I-TM	I-TM, O, B-TM, I-TR, I-LC
-6	##발전	I-TM	I-TM	I-TM, O, I-TR, I-QT, I-LC
-7	##사업	I-TM	I-TM	I-TM, O, I-TR, I-QT, I-AF
-8	프로젝트	I-TM	I-TM	I-TM, O, B-TM, I-TR, I-AF
-9	##에	O	O	O, I-TM, I-AF, I-OG, I-EV
-10	한전	B-OG	B-OG	B-OG, O, B-LC, B-PS, I-OG
-11	컨소시엄	O	I-OG	I-OG, O, B-OG, B-CV, I-CV
-12	##이	O	O	O, I-OG, B-PS, I-CV, I-AF
-13	최종	B-CV	B-CV	B-CV, O, B-QT, I-CV, B-TM
-14	##사업	I-CV	I-CV	I-CV, O, B-CV, I-QT, I-OG
-15	##자	I-CV	I-CV	I-CV, O, B-CV, I-QT, I-OG
-16	##로	O	O	O, I-CV, B-CV, I-OG, I-QT
-17	선정	O	O	O, B-CV, B-OG, B-TM, B-LC
-18	##됐	O	O	O, B-CV, B-PS, B-OG, B-LC
-19	##다는	O	O	O, B-CV, B-PS, B-TM, B-OG
-20	전화	O	O	O, B-TM, B-CV, B-AF, B-QT
-21	##였	O	O	O, B-CV, I-EV, B-PS, B-TM
-22	##다	O	O	O, B-CV, B-TM, I-EV, B-LC
-23	.	O	O	O, B-TM, B-OG, B-LC, B-CV
-24	[SEP]	O	O	O, B-TM, B-CV, B-OG, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	어미	B-CV	B-CV
+2	곰	B-AM	B-AM
+3	'	O	O
+4	으뜸	O	B-PS
+5	'	O	O
+6	(	O	O
+7	열	B-QT	B-QT
+8	##두	I-QT	I-QT
+9	살	I-QT	I-QT
+10	)	O	O
+11	도	O	O
+12	코	B-AM	B-AM
+13	##를	O	O
+14	킁	O	O
+15	##킁	O	O
+16	##거리	O	O
+17	##며	O	O
+18	주변	O	O
+19	##을	O	O
+20	훑	O	O
+21	##더니	O	O
+22	이내	O	O
+23	철	O	O
+24	##장	O	O
+25	위	O	O
+26	##에	O	O
+27	매달린	O	O
+28	아기	O	O
+29	곰	B-AM	B-AM
+30	밑	B-TM	O
+31	##에	O	O
+32	바짝	O	O
+33	붙	O	O
+34	##어	O	O
+35	섰다	O	O
+36	.	O	O
+37	[SEP]	O	O

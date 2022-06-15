@@ -1,60 +1,48 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	심지어	O	O	O, B-CV, B-PS, B-OG, B-LC
-2	캐머런	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-3	총리	B-CV	B-CV	B-CV, I-PS, O, B-PS, B-OG
-4	##는	O	O	O, I-CV, B-CV, I-EV, I-OG
-5	지난	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-PS
-6	14	I-DT	I-DT	I-DT, O, B-DT, I-PS, I-QT
-7	##일	I-DT	I-DT	I-DT, O, B-DT, I-PS, I-QT
-8	‘	O	O	O, I-DT, B-CV, B-OG, B-LC
-9	전화	B-EV	O	O, B-EV, B-CV, B-TM, B-AF
-10	도청	I-EV	I-EV	I-EV, O, I-CV, B-CV, B-EV
-11	사건	I-EV	O	O, I-EV, I-CV, I-OG, I-AF
-12	’	O	O	O, I-EV, I-CV, I-OG, B-PS
-13	을	O	O	O, B-PS, B-CV, B-OG, B-LC
-14	조사	O	O	O, B-CV, B-PS, B-LC, B-OG
-15	##중	O	O	O, B-PS, B-LC, B-OG, B-CV
-16	##인	O	O	O, B-PS, B-OG, B-LC, B-CV
-17	‘	O	O	O, B-OG, B-CV, B-LC, B-PS
-18	레비	B-OG	B-OG	B-OG, O, B-AF, B-PS, B-EV
-19	##슨	I-OG	I-OG	I-OG, O, B-OG, I-AF, I-PS
-20	조사	I-OG	I-OG	I-OG, O, B-OG, I-EV, I-AF
-21	##위원회	I-OG	I-OG	I-OG, O, I-EV, I-AF, I-CV
-22	’	O	O	O, I-OG, I-EV, B-CV, I-AF
-23	에	O	O	O, B-CV, B-OG, B-LC, B-PS
-24	나와	O	O	O, B-LC, B-PS, B-CV, B-OG
-25	세간	O	O	O, B-CV, B-PS, B-LC, B-OG
-26	##의	O	O	O, B-PS, B-CV, B-OG, B-LC
-27	의혹	O	O	O, B-CV, B-PS, B-LC, B-OG
-28	##을	O	O	O, B-CV, B-PS, B-OG, B-LC
-29	받	O	O	O, B-CV, B-PS, B-OG, B-LC
-30	##는	O	O	O, B-PS, B-CV, B-LC, B-OG
-31	루	B-PS	B-PS	B-PS, O, I-PS, B-LC, B-OG
-32	##퍼트	I-PS	I-PS	I-PS, O, B-PS, I-OG, I-LC
-33	머	I-PS	I-PS	I-PS, B-PS, O, B-LC, I-LC
-34	##독	I-PS	I-PS	I-PS, O, I-LC, I-OG, B-LC
-35	##과	O	O	O, I-PS, B-CV, B-LC, B-OG
-36	##의	O	O	O, B-PS, B-LC, B-CV, B-OG
-37	친분	O	O	O, B-CV, B-LC, B-PS, B-OG
-38	##과	O	O	O, B-PS, B-LC, B-OG, B-CV
-39	머	B-PS	B-PS	B-PS, B-LC, O, I-PS, B-OG
-40	##독	I-PS	I-PS	I-PS, I-LC, O, I-OG, B-LC
-41	##의	O	O	O, I-PS, I-OG, B-OG, B-LC
-42	비스	B-OG	B-OG	B-OG, O, B-AF, B-LC, I-OG
-43	##카이	I-OG	I-OG	I-OG, O, I-AF, I-LC, B-OG
-44	##비	I-OG	I-OG	I-OG, O, I-LC, I-AF, B-OG
-45	(	O	O	O, I-OG, I-AF, B-CV, I-CV
-46	BS	O	B-OG	B-OG, O, I-OG, B-AF, B-LC
-47	##ky	O	I-OG	I-OG, O, B-OG, I-AF, I-LC
-48	##B	O	I-OG	I-OG, O, I-AF, I-LC, I-CV
-49	)	O	O	O, I-OG, I-AF, I-CV, I-QT
-50	인수	O	O	O, B-CV, B-OG, B-TM, B-AF
-51	##에	O	O	O, B-CV, B-OG, B-PS, B-LC
-52	대해	O	O	O, B-LC, B-OG, B-PS, B-CV
-53	직접	O	O	O, B-CV, B-LC, B-PS, B-OG
-54	답변	O	O	O, B-CV, B-LC, B-OG, B-PS
-55	##했	O	O	O, B-CV, B-LC, B-PS, B-OG
-56	##다	O	O	O, B-CV, B-OG, B-LC, B-PS
-57	.	O	O	O, B-LC, B-PS, B-OG, B-CV
-58	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	서울	B-LC	B-LC
+2	길	B-AF	B-AF
+3	##상	I-AF	I-AF
+4	##사	I-AF	I-AF
+5	##는	O	O
+6	올	B-DT	B-DT
+7	어린이	B-EV	O
+8	여름	I-EV	B-DT
+9	수련	I-EV	O
+10	##회	I-EV	O
+11	##를	O	O
+12	영어	B-EV	B-CV
+13	불교	I-EV	B-OG
+14	##교육	I-EV	O
+15	프로그램	I-EV	O
+16	'	O	O
+17	헬로	B-EV	B-EV
+18	##우	I-EV	I-EV
+19	붓	I-EV	I-EV
+20	##다	I-EV	I-EV
+21	(	O	O
+22	He	O	O
+23	##ll	O	O
+24	##o	O	O
+25	B	O	O
+26	##ud	O	O
+27	##da	O	O
+28	)	O	O
+29	'	O	O
+30	와	O	O
+31	체험	O	O
+32	놀이	O	O
+33	등	O	O
+34	##으로	O	O
+35	구성	O	O
+36	##된	O	O
+37	초등학생	B-CV	B-CV
+38	템플	B-EV	O
+39	##스테	I-EV	O
+40	##이	I-EV	O
+41	프로그램	O	O
+42	##으로	O	O
+43	꾸몄	O	O
+44	##다	O	O
+45	.	O	O
+46	[SEP]	O	O

@@ -1,23 +1,28 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, B-PS, I-CV, I-EV
-1	이씨	O	O	O, B-CV, B-PS, I-CV, B-TM
-2	##는	O	O	O, B-PS, B-CV, I-CV, I-PS
-3	약국	O	O	O, B-CV, B-TM, B-PS, B-OG
-4	##에서	O	O	O, B-PS, B-CV, I-CV, B-QT
-5	받아	O	O	O, B-CV, B-PS, I-CV, B-QT
-6	##온	O	O	O, B-PS, B-CV, I-CV, I-PS
-7	이	B-PS	O	O, B-PS, B-CV, I-PS, B-LC
-8	약	O	O	O, B-CV, B-TM, I-CV, B-PS
-9	##들	O	O	O, I-CV, B-PS, B-CV, I-PS
-10	##을	O	O	O, B-PS, B-CV, B-TM, B-QT
-11	제약	O	O	O, B-CV, B-PS, I-CV, B-TM
-12	##회사	O	O	O, I-CV, B-CV, B-PS, I-PS
-13	직원	B-CV	B-CV	B-CV, O, I-CV, B-PS, B-TM
-14	집	O	O	O, I-CV, B-CV, B-TM, B-PS
-15	##에	O	O	O, B-CV, B-PS, I-CV, B-QT
-16	갖	O	O	O, B-CV, B-PS, B-TM, B-QT
-17	##다	O	O	O, B-CV, I-CV, B-PS, B-QT
-18	##놨	O	O	O, B-PS, B-CV, I-CV, B-QT
-19	##다	O	O	O, B-CV, B-PS, I-CV, B-TM
-20	.	O	O	O, B-PS, B-CV, I-CV, B-TM
-21	[SEP]	O	O	O, B-CV, B-PS, I-CV, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	친	O	O
+2	##노	O	O
+3	(	O	O
+4	친	O	O
+5	##노	B-PS	O
+6	##무	I-PS	O
+7	##현	I-PS	O
+8	)	O	O
+9	좌장	B-CV	B-CV
+10	##인	O	O
+11	문재인	B-PS	B-PS
+12	의원	B-CV	B-CV
+13	##이	O	O
+14	팽	B-LC	B-LC
+15	##목	I-LC	I-LC
+16	##항	I-LC	I-LC
+17	##을	O	O
+18	찾	O	O
+19	##은	O	O
+20	지	O	O
+21	이틀	B-DT	B-DT
+22	뒤	I-DT	I-DT
+23	##였	O	O
+24	##다	O	O
+25	.	O	O
+26	[SEP]	O	O

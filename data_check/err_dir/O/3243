@@ -1,31 +1,23 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	국내	O	O	O, B-LC, B-CV, B-TM, B-OG
-2	토착	O	O	O, B-CV, B-LC, B-PS, B-AM
-3	##종	O	O	O, I-CV, I-LC, I-PS, I-AM
-4	##인	O	O	O, B-PS, B-CV, I-CV, I-AF
-5	광	B-AM	B-AM	B-AM, B-PS, O, B-TM, B-LC
-6	##릉	I-AM	I-AM	I-AM, I-PS, I-TM, O, I-LC
-7	##왕	I-AM	I-AM	I-AM, I-TM, O, I-PS, I-PT
-8	##모	I-AM	I-AM	I-AM, I-TM, O, I-PT, I-PS
-9	##기	I-AM	I-AM	I-AM, I-TM, O, I-PT, B-AM
-10	##는	O	O	O, I-TM, I-AM, I-AF, I-CV
-11	유	O	B-AM	B-AM, O, B-TM, I-AM, B-TR
-12	##충	O	I-AM	I-AM, O, I-TM, B-AM, I-PT
-13	##일	O	O	O, I-AM, B-PS, I-TM, I-PS
-14	때	O	O	O, B-PS, B-DT, I-DT, B-AM
-15	하루	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-LC
-16	##에	O	O	O, I-DT, I-QT, B-CV, I-AF
-17	다른	O	O	O, B-TM, B-LC, B-CV, B-PS
-18	모기	B-AM	B-AM	B-AM, O, B-TM, B-PS, B-TR
-19	유	O	B-AM	B-AM, O, I-AM, B-TM, B-PT
-20	##충	O	I-AM	I-AM, O, I-TM, I-PT, B-AM
-21	26	B-QT	B-QT	B-QT, I-QT, O, I-AM, I-TM
-22	##마리	I-QT	I-QT	I-QT, O, I-TM, I-LC, I-AM
-23	정도	I-QT	I-QT	I-QT, O, I-LC, I-TM, I-PS
-24	##를	O	O	O, I-QT, B-CV, B-TM, I-AF
-25	잡아먹	O	O	O, B-TM, B-CV, B-AM, B-LC
-26	##는	O	O	O, B-PS, B-AM, B-CV, B-TM
-27	##다	O	O	O, B-CV, B-LC, B-TM, B-PS
-28	.	O	O	O, B-LC, B-AM, B-TM, B-CV
-29	[SEP]	O	O	O, B-CV, B-AM, B-TM, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	아니	O	O
+2	새	B-OG	B-OG
+3	##누리	I-OG	I-OG
+4	##당	I-OG	I-OG
+5	당원	O	B-CV
+6	##자	O	O
+7	##격	O	O
+8	##인	O	O
+9	##데	O	O
+10	##요	O	O
+11	.	O	O
+12	그건	O	O
+13	새	B-OG	B-OG
+14	##누리	I-OG	I-OG
+15	##당	I-OG	I-OG
+16	##이	O	O
+17	결정	O	O
+18	##하면	O	O
+19	되	O	O
+20	##지	O	O
+21	[SEP]	O	O

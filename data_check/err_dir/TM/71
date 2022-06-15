@@ -1,31 +1,10 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	특히	O	O	O, B-CV, B-OG, B-TM, B-PS
-2	박	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-AF
-3	대통령	B-CV	B-CV	B-CV, I-PS, O, I-CV, B-EV
-4	##이	O	O	O, I-CV, B-CV, I-EV, B-PS
-5	향	B-TM	O	O, B-TM, B-CV, B-MT, B-FD
-6	##정신	I-TM	O	O, I-TM, I-CV, I-MT, I-OG
-7	##성	I-TM	O	O, I-TM, I-CV, I-MT, I-OG
-8	##의	I-TM	O	O, I-TM, I-CV, I-MT, I-OG
-9	##약	I-TM	O	O, I-TM, I-CV, I-MT, I-OG
-10	##품	I-TM	O	O, I-TM, I-CV, I-MT, I-OG
-11	처방	O	O	O, I-TM, B-CV, I-CV, B-TM
-12	##까	O	O	O, B-CV, I-CV, B-PS, I-TM
-13	##지	O	O	O, B-CV, B-PS, B-OG, B-TM
-14	받	O	O	O, B-CV, B-PS, B-OG, B-LC
-15	##은	O	O	O, B-CV, B-PS, B-LC, B-OG
-16	것	O	O	O, B-CV, B-PS, B-LC, B-OG
-17	아니	O	O	O, B-PS, B-CV, B-LC, B-OG
-18	##냐	O	O	O, B-PS, I-CV, I-OG, I-QT
-19	##는	O	O	O, B-CV, B-PS, B-OG, B-LC
-20	루머	O	O	O, B-CV, B-TM, B-QT, B-PS
-21	##가	O	O	O, B-PS, B-CV, I-CV, B-OG
-22	돌	O	O	O, B-CV, B-TM, B-OG, B-PS
-23	##면서	O	O	O, B-CV, B-OG, B-TM, B-LC
-24	논란	O	O	O, B-CV, B-TM, B-OG, B-QT
-25	##이	O	O	O, B-CV, B-OG, B-PS, B-LC
-26	커졌	O	O	O, B-CV, B-OG, B-TM, B-QT
-27	##다	O	O	O, B-CV, B-TM, B-QT, I-OG
-28	.	O	O	O, B-CV, B-PS, B-LC, B-OG
-29	[SEP]	O	O	O, B-CV, B-PS, I-OG, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	사람	O	O
+2	##끼리	O	O
+3	감염	B-TM	O
+4	##은	O	O
+5	발견	O	O
+6	안	O	O
+7	##돼	O	O
+8	[SEP]	O	O

@@ -1,39 +1,25 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	울산	B-LC	B-LC	B-LC, O, B-AF, B-OG, B-PS
-2	##대	I-LC	I-LC	I-LC, O, B-LC, I-AF, I-PS
-3	##공원	I-LC	I-LC	I-LC, O, I-AF, B-LC, I-PS
-4	##을	O	O	O, I-LC, I-AF, I-OG, I-QT
-5	비롯	O	O	O, B-OG, B-CV, B-LC, B-TM
-6	##해	O	O	O, B-LC, B-OG, B-PS, I-AF
-7	울산	B-AF	B-AF	B-AF, B-LC, O, B-PS, I-AF
-8	##대교	I-AF	I-AF	I-AF, O, I-LC, B-AF, I-PS
-9	전망대	O	O	O, I-AF, I-LC, B-LC, B-AF
-10	##에서	O	O	O, I-AF, I-LC, B-LC, I-EV
-11	바라본	O	O	O, B-LC, B-OG, B-AF, B-PS
-12	야경	O	O	O, B-LC, B-AF, B-CV, B-EV
-13	,	O	O	O, I-AF, B-CV, I-OG, B-PS
-14	장생	B-LC	B-LC	B-LC, O, B-AF, B-PS, B-OG
-15	##포	I-LC	I-LC	I-LC, O, I-AF, B-LC, I-PS
-16	고래	B-LC	B-LC	B-LC, I-LC, O, B-AF, I-AF
-17	##문화	I-LC	I-LC	I-LC, O, I-AF, B-LC, I-PS
-18	##마을	I-LC	I-LC	I-LC, O, I-AF, B-LC, I-PS
-19	,	O	O	O, I-LC, I-AF, I-OG, B-LC
-20	외고	B-LC	B-LC	B-LC, O, B-AF, B-OG, B-PS
-21	##산	I-LC	I-LC	I-LC, O, I-AF, B-LC, I-PS
-22	옹기	B-LC	I-LC	I-LC, B-LC, O, I-AF, I-PS
-23	##마을	I-LC	I-LC	I-LC, O, I-AF, B-LC, I-PS
-24	등	O	O	O, I-LC, I-AF, B-LC, B-CV
-25	4	B-QT	B-QT	B-QT, O, I-QT, B-LC, B-TM
-26	##경	I-QT	I-QT	I-QT, O, I-LC, I-AF, I-EV
-27	##이	O	O	O, I-QT, B-PS, B-OG, B-CV
-28	울산	B-LC	B-LC	B-LC, O, B-OG, B-AF, B-PS
-29	12	B-QT	B-QT	B-QT, I-QT, I-LC, B-LC, O
-30	##경	I-QT	I-QT	I-QT, I-LC, O, I-AF, I-EV
-31	##에	O	O	O, I-QT, I-OG, I-AF, I-EV
-32	새로	O	O	O, B-OG, B-LC, B-CV, B-TM
-33	지정	O	O	O, B-OG, B-CV, B-LC, I-OG
-34	##됐	O	O	O, B-CV, I-OG, B-LC, B-OG
-35	##다	O	O	O, B-CV, B-OG, I-OG, B-LC
-36	.	O	O	O, B-LC, B-CV, B-AF, B-OG
-37	[SEP]	O	O	O, B-LC, B-CV, I-LC, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	장기	O	O
+2	##적	O	O
+3	##으로	O	O
+4	월드컵	B-EV	B-EV
+5	우승	O	O
+6	##을	O	O
+7	목표	O	O
+8	##로	O	O
+9	하고	O	O
+10	있	O	O
+11	##는	O	O
+12	일본	B-LC	B-OG
+13	##은	O	O
+14	단독	O	O
+15	개최	O	O
+16	##에	O	O
+17	대한	O	O
+18	의지	O	O
+19	##가	O	O
+20	강하	O	O
+21	##다	O	O
+22	.	O	O
+23	[SEP]	O	O

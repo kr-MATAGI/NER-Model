@@ -1,33 +1,31 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-EV, B-CV, I-CV
-1	지난해	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-QT
-2	홍콩	B-LC	B-LC	B-LC, B-OG, O, I-DT, I-LC
-3	영업	O	O	O, I-LC, I-AF, I-EV, B-CV
-4	##을	O	O	O, B-CV, B-LC, I-AF, I-OG
-5	재개	O	O	O, B-CV, B-LC, I-OG, I-AF
-6	##한	O	O	O, B-LC, B-PS, B-OG, B-CV
-7	뒤	O	O	O, B-LC, B-OG, B-TM, B-PS
-8	싱가포르	B-LC	B-LC	B-LC, B-OG, O, B-PS, B-CV
-9	국부	O	O	O, B-CV, B-OG, I-CV, I-LC
-10	##펀	O	O	O, I-CV, I-OG, I-LC, I-PS
-11	##드로	O	O	O, I-CV, I-OG, I-PS, B-PS
-12	##부터	O	O	O, B-LC, B-PS, B-OG, I-OG
-13	서울	B-LC	B-OG	B-OG, B-LC, O, B-EV, B-AF
-14	##반도	B-TM	I-OG	I-OG, O, B-OG, I-LC, I-EV
-15	##체	I-TM	I-OG	I-OG, O, I-LC, I-AF, I-EV
-16	유상	O	O	O, B-CV, I-EV, I-OG, B-EV
-17	##증	O	O	O, I-CV, I-EV, I-TR, I-TM
-18	##자	O	O	O, I-CV, I-EV, I-TR, I-TM
-19	자금	O	O	O, I-CV, I-EV, I-TM, I-AF
-20	284	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-LC
-21	##7	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-22	##억	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-23	원	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-24	##을	O	O	O, I-QT, B-CV, B-OG, I-EV
-25	유치	O	O	O, B-CV, B-LC, B-EV, B-OG
-26	##하기	O	O	O, B-LC, I-EV, B-PS, B-OG
-27	##도	O	O	O, B-LC, I-OG, I-EV, B-CV
-28	했	O	O	O, B-LC, I-EV, B-OG, I-OG
-29	##다	O	O	O, B-CV, I-OG, B-LC, I-EV
-30	.	O	O	O, B-LC, B-PS, B-CV, B-OG
-31	[SEP]	O	O	O, B-LC, B-CV, I-EV, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	▶	O	O
+2	##지	B-DT	B-DT
+3	##난	I-DT	I-DT
+4	11	I-DT	I-DT
+5	##월	I-DT	I-DT
+6	바티칸	B-LC	B-LC
+7	성	B-LC	B-LC
+8	##베	I-LC	I-LC
+9	##드로	I-LC	I-LC
+10	##광장	I-LC	I-LC
+11	5	B-QT	B-QT
+12	##만	I-QT	I-QT
+13	군중	I-QT	B-CV
+14	##에	O	O
+15	##게	O	O
+16	강	O	O
+17	##론	O	O
+18	##하	O	O
+19	##던	O	O
+20	교황	B-CV	B-CV
+21	##이	O	O
+22	중년	O	O
+23	남자	O	O
+24	앞	B-TM	O
+25	##에	O	O
+26	멈춰	O	O
+27	섰다	O	O
+28	.	O	O
+29	[SEP]	O	O

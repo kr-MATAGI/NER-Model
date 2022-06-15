@@ -1,41 +1,21 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	매월	O	O	O, B-DT, B-LC, B-OG, B-PS
-2	300	B-QT	B-QT	B-QT, I-QT, B-DT, O, B-EV
-3	##명	I-QT	I-QT	I-QT, O, I-DT, I-EV, I-LC
-4	이상	I-QT	I-QT	I-QT, O, I-LC, I-EV, I-OG
-5	##의	O	O	O, I-QT, B-OG, B-PS, B-LC
-6	협력	O	O	O, B-OG, B-CV, B-TM, B-AF
-7	##사	O	O	O, I-OG, I-CV, B-OG, I-AF
-8	직원	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-TM
-9	##들이	O	O	O, I-CV, I-OG, B-CV, I-AF
-10	롯데	B-AF	B-OG	B-OG, B-AF, O, B-LC, B-PS
-11	##인	I-AF	I-OG	I-OG, I-AF, O, I-LC, B-OG
-12	##재	I-AF	I-OG	I-OG, I-AF, I-LC, O, I-EV
-13	##개발	I-AF	I-OG	I-OG, I-AF, I-LC, O, B-AF
-14	##원	I-AF	I-OG	I-OG, I-AF, I-LC, O, I-EV
-15	,	O	O	O, I-AF, I-OG, B-LC, I-LC
-16	롯데	B-AF	B-OG	B-OG, B-AF, O, B-LC, I-OG
-17	##정보	I-AF	I-OG	I-OG, I-AF, O, I-LC, B-OG
-18	##통신	I-AF	I-OG	I-OG, I-AF, O, I-LC, I-CV
-19	IT	B-AF	B-AF	B-AF, B-FD, O, I-AF, I-OG
-20	##교육	I-AF	I-AF	I-AF, O, I-LC, I-OG, I-FD
-21	##센터	I-AF	I-AF	I-AF, O, I-LC, I-OG, I-QT
-22	,	O	O	O, I-AF, B-LC, I-LC, I-OG
-23	롯데호텔	B-OG	B-OG	B-OG, B-AF, O, B-LC, B-PS
-24	등	O	O	O, I-AF, I-OG, B-CV, I-DT
-25	##에서	O	O	O, B-LC, B-CV, B-DT, B-PS
-26	진행	O	O	O, B-LC, B-CV, B-PS, B-EV
-27	##되	O	O	O, B-LC, B-PS, B-CV, B-DT
-28	##는	O	O	O, B-LC, B-CV, B-PS, B-OG
-29	동반성	O	O	O, B-EV, B-OG, B-CV, B-AF
-30	##장	O	O	O, I-EV, I-OG, I-AF, I-CV
-31	아카데미	O	O	O, I-EV, I-OG, I-AF, I-CV
-32	교육	O	O	O, I-EV, I-OG, I-AF, I-CV
-33	##을	O	O	O, I-EV, B-CV, I-OG, I-AF
-34	받	O	O	O, B-CV, B-LC, B-OG, B-DT
-35	##고	O	O	O, B-CV, B-PS, B-OG, B-LC
-36	있	O	O	O, B-CV, B-PS, B-OG, B-LC
-37	##다	O	O	O, B-CV, I-OG, B-OG, B-LC
-38	.	O	O	O, B-LC, B-OG, B-AF, B-CV
-39	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-AF
+	text	label	preds
+0	[CLS]	O	O
+1	""""	O	O
+2	용산	B-EV	B-EV
+3	##사태	I-EV	I-EV
+4	확산	O	O
+5	막	O	O
+6	##는	O	O
+7	데	O	O
+8	군포	O	B-EV
+9	##살	O	I-EV
+10	##인	O	I-EV
+11	활용	O	O
+12	""""	O	O
+13	이메일	O	O
+14	경찰청	B-OG	B-OG
+15	보낸	O	O
+16	청와대	B-AF	B-OG
+17	행정관	B-CV	B-CV
+18	경고	O	O
+19	[SEP]	O	O

@@ -1,24 +1,24 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	국내	O	O	O, B-CV, B-LC, B-FD, B-TM
-2	연구	B-CV	B-CV	B-CV, O, I-CV, B-PS, B-QT
-3	##진	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-QT
-4	##이	O	O	O, I-CV, B-PS, B-CV, I-OG
-5	포함	O	O	O, B-CV, B-LC, B-PS, B-OG
-6	##된	O	O	O, B-PS, B-LC, B-CV, B-OG
-7	국제	O	O	O, B-CV, B-OG, B-LC, B-FD
-8	공동	O	O	O, B-CV, I-CV, I-OG, I-QT
-9	##연구	O	I-CV	I-CV, O, B-CV, I-OG, I-QT
-10	##진	O	I-CV	I-CV, O, B-CV, I-OG, I-QT
-11	##이	O	O	O, I-CV, B-PS, B-CV, I-OG
-12	‘	O	O	O, B-CV, B-OG, B-LC, B-TM
-13	돼지	B-AM	B-TM	B-TM, B-AM, B-AF, O, B-CV
-14	유전체	B-TM	I-TM	I-TM, B-TM, O, I-AF, I-TR
-15	지도	O	I-TM	I-TM, O, I-AF, I-TR, B-TM
-16	’	O	O	O, I-TM, I-AF, I-OG, I-QT
-17	를	O	O	O, B-CV, B-OG, I-AF, B-TM
-18	완성	O	O	O, B-CV, B-OG, B-TM, B-LC
-19	##했	O	O	O, B-CV, B-OG, B-LC, I-OG
-20	##다	O	O	O, B-CV, B-OG, B-LC, I-OG
-21	.	O	O	O, B-LC, B-CV, B-OG, B-PS
-22	[SEP]	O	O	O, B-CV, B-LC, B-OG, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	3	B-EV	B-DT
+2	·	I-EV	I-DT
+3	1	I-EV	I-DT
+4	##운동	I-EV	I-DT
+5	즈음	O	I-DT
+6	태어난	O	O
+7	사람	O	O
+8	##이	O	O
+9	쓴	O	O
+10	새	O	O
+11	책	O	O
+12	##을	O	O
+13	보	O	O
+14	##는	O	O
+15	것	O	O
+16	##은	O	O
+17	정말	O	O
+18	드문	O	O
+19	일	O	O
+20	##이다	O	O
+21	.	O	O
+22	[SEP]	O	O

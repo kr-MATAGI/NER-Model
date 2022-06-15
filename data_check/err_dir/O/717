@@ -1,11 +1,16 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	그	O	O	O, B-CV, B-TM, B-OG, B-LC
-2	~	O	O	O, B-CV, B-LC, I-CV, B-PS
-3	그런	O	O	O, B-CV, B-LC, B-OG, B-TM
-4	다음	O	O	O, B-QT, B-PS, B-CV, B-LC
-5	이	O	B-QT	B-QT, O, B-PS, B-EV, B-TR
-6	단계	O	I-QT	I-QT, O, I-EV, I-LC, I-DT
-7	##에서	O	O	O, I-QT, I-DT, I-EV, B-CV
-8	##는	O	O	O, B-CV, B-OG, I-QT, B-LC
-9	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	래퍼	B-CV	B-CV
+2	화	B-PS	B-PS
+3	##지	I-PS	I-PS
+4	“	O	O
+5	미국	B-LC	B-LC
+6	##서	O	O
+7	자랐	O	O
+8	##지만	O	O
+9	토종	O	O
+10	##랩	O	B-FD
+11	할	O	O
+12	겁니다	O	O
+13	”	O	O
+14	[SEP]	O	O

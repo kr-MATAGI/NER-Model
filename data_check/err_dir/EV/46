@@ -1,31 +1,59 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	12	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-2	##년	I-DT	I-DT	I-DT, B-DT, O, I-QT, I-PS
-3	##째	I-DT	I-DT	I-DT, O, I-QT, B-DT, I-OG
-4	운영	O	O	O, I-DT, B-CV, B-OG, B-TM
-5	중	O	O	O, B-LC, B-OG, B-PS, I-OG
-6	##인	O	O	O, B-LC, B-PS, B-OG, B-CV
-7	전남	B-LC	B-LC	B-LC, O, B-OG, B-AF, B-PS
-8	해남	B-LC	B-LC	B-LC, I-LC, O, B-OG, B-AF
-9	미	B-AF	B-OG	B-OG, B-AF, B-LC, B-PS, B-CV
-10	##황	I-AF	I-OG	I-OG, I-AF, I-LC, I-PS, O
-11	##사	I-AF	I-OG	I-OG, I-AF, I-LC, O, I-PS
-12	한문	B-EV	B-FD	B-FD, I-OG, O, I-AF, B-CV
-13	##학	I-EV	O	O, I-OG, I-AF, I-FD, I-LC
-14	##당	I-EV	I-OG	I-OG, O, I-AF, I-LC, I-FD
-15	7	B-DT	B-DT	B-DT, B-TI, B-QT, I-AF, O
-16	##박	I-DT	I-DT	I-DT, I-AF, I-QT, B-DT, I-OG
-17	##8	I-DT	I-DT	I-DT, B-DT, I-QT, I-AF, I-TI
-18	##일	I-DT	I-DT	I-DT, I-QT, I-AF, I-TI, I-EV
-19	과정	O	O	O, I-DT, I-AF, I-OG, I-QT
-20	##도	O	O	O, I-DT, I-AF, B-LC, B-CV
-21	올해	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-22	수강	B-CV	B-CV	B-CV, O, I-CV, I-DT, B-TM
-23	##생	I-CV	I-CV	I-CV, O, B-CV, I-QT, I-OG
-24	##을	O	O	O, I-CV, I-OG, B-CV, I-AF
-25	모집	O	O	O, B-TM, B-CV, B-LC, B-OG
-26	중	O	O	O, B-OG, B-CV, B-PS, B-TM
-27	##이다	O	O	O, B-CV, B-TM, I-OG, B-OG
-28	.	O	O	O, B-LC, B-OG, B-CV, I-OG
-29	[SEP]	O	O	O, B-LC, B-OG, B-CV, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	한국	B-OG	B-OG
+2	##임	I-OG	I-OG
+3	##업	I-OG	I-OG
+4	##진흥	I-OG	I-OG
+5	##원	I-OG	I-OG
+6	##은	O	O
+7	14	B-DT	B-DT
+8	,	I-DT	I-DT
+9	16	I-DT	I-DT
+10	##일	I-DT	I-DT
+11	직원	B-CV	B-CV
+12	##들이	O	O
+13	참여	O	O
+14	##한	O	O
+15	가운데	O	O
+16	‘	O	O
+17	1	B-EV	B-QT
+18	##사	I-EV	I-QT
+19	1	I-EV	B-QT
+20	##촌	I-EV	I-QT
+21	산	I-EV	I-EV
+22	##촌	I-EV	I-EV
+23	##마을	I-EV	I-EV
+24	##과	I-EV	I-EV
+25	함께	I-EV	I-EV
+26	김장	I-EV	I-EV
+27	담그	I-EV	I-EV
+28	##기	I-EV	I-EV
+29	’	O	O
+30	행사	O	O
+31	##를	O	O
+32	열	O	O
+33	##고	O	O
+34	소외	O	O
+35	##된	O	O
+36	이웃	B-CV	O
+37	##에	O	O
+38	##게	O	O
+39	따뜻	O	O
+40	##한	O	O
+41	음식	O	O
+42	##을	O	O
+43	전하	O	O
+44	##는	O	O
+45	‘	O	O
+46	사랑	B-EV	B-EV
+47	##의	I-EV	I-EV
+48	김장	I-EV	I-EV
+49	##나	I-EV	I-EV
+50	##눔	I-EV	I-EV
+51	’	O	O
+52	을	O	O
+53	진행	O	O
+54	##했	O	O
+55	##다	O	O
+56	.	O	O
+57	[SEP]	O	O

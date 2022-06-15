@@ -1,35 +1,92 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, B-CV, I-OG, I-AF
-1	예	O	O	O, B-CV, B-FD, B-OG, B-LC
-2	,	O	O	O, B-CV, B-PS, I-AF, I-CV
-3	전	O	O	O, B-CV, B-PS, B-LC, B-OG
-4	너무	O	O	O, B-CV, B-PS, B-LC, B-OG
-5	실리	O	O	O, B-FD, B-CV, B-PS, B-LC
-6	##적	O	O	O, B-PS, I-QT, I-PS, I-OG
-7	##이	O	O	O, B-PS, B-CV, B-LC, B-OG
-8	##라	O	O	O, B-PS, B-LC, I-PS, B-CV
-9	초딩	O	B-CV	B-CV, O, B-TM, B-OG, B-QT
-10	때	O	O	O, I-CV, I-DT, I-QT, I-PS
-11	그	O	O	O, B-CV, B-PS, I-CV, B-LC
-12	트라우마	B-TM	B-TM	B-TM, O, I-TM, B-TR, B-CV
-13	##로	O	O	O, I-TM, I-CV, I-AF, I-TR
-14	빈정	O	O	O, B-CV, B-PS, B-LC, B-TM
-15	##상	O	O	O, I-CV, B-CV, I-TM, B-PS
-16	##해	O	O	O, I-CV, B-LC, I-LC, B-PS
-17	급기야	O	O	O, B-CV, B-PS, B-QT, B-LC
-18	##는	O	O	O, B-CV, B-LC, B-PS, B-OG
-19	한국	O	O	O, B-LC, B-CV, B-FD, B-OG
-20	##말로	O	O	O, I-CV, B-CV, I-LC, B-FD
-21	먹	O	O	O, I-CV, B-CV, B-QT, B-PS
-22	##고사	O	O	O, B-CV, B-LC, I-CV, B-QT
-23	##는	O	O	O, B-CV, B-QT, B-LC, B-PS
-24	직업	O	O	O, B-CV, B-LC, I-CV, B-QT
-25	##을	O	O	O, B-CV, I-CV, B-PS, B-TM
-26	끝	O	O	O, B-CV, B-QT, B-TM, B-LC
-27	##끝	O	O	O, B-CV, B-LC, B-PS, B-QT
-28	##내	O	O	O, B-LC, B-CV, B-PS, B-QT
-29	성취	O	O	O, B-CV, B-LC, B-TM, B-QT
-30	##했	O	O	O, B-CV, B-PS, B-LC, B-OG
-31	##답니다	O	O	O, B-CV, I-OG, I-AF, I-CV
-32	.	O	O	O, B-CV, B-LC, B-PS, B-FD
-33	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-FD
+	text	label	preds
+0	[CLS]	O	O
+1	장애	O	O
+2	##를	O	O
+3	가진	O	O
+4	부모	B-CV	B-CV
+5	또는	O	O
+6	자녀	B-CV	B-CV
+7	##를	O	O
+8	부양	O	O
+9	##하	O	O
+10	##고	O	O
+11	있	O	O
+12	##는	O	O
+13	직원	B-CV	B-CV
+14	##에	O	O
+15	##게	O	O
+16	##는	O	O
+17	장애	O	B-CV
+18	##가족	O	I-CV
+19	##에	O	O
+20	대하	O	O
+21	##여	O	O
+22	매월	O	O
+23	1	B-QT	B-QT
+24	##인	I-QT	I-QT
+25	##당	I-QT	I-QT
+26	20	B-QT	B-QT
+27	##만	I-QT	I-QT
+28	원	I-QT	I-QT
+29	##씩	I-QT	I-QT
+30	##의	O	O
+31	장애	O	B-CV
+32	보육	O	I-CV
+33	##수	O	I-CV
+34	##당	O	I-CV
+35	##을	O	O
+36	지급	O	O
+37	##하	O	O
+38	##는	O	O
+39	한편	O	O
+40	,	O	O
+41	치솟	O	O
+42	##는	O	O
+43	대학	O	O
+44	##등	O	O
+45	##록	O	O
+46	##금	O	O
+47	##에	O	O
+48	대한	O	O
+49	가계부	O	O
+50	##담	O	O
+51	##을	O	O
+52	덜	O	O
+53	##고	O	O
+54	##자	O	O
+55	대학생	B-CV	B-CV
+56	자녀	B-CV	B-CV
+57	##에	O	O
+58	대해서	O	O
+59	##는	O	O
+60	인원	O	O
+61	##제한	O	O
+62	없이	O	O
+63	등록금	O	O
+64	##을	O	O
+65	지원	O	O
+66	##하	O	O
+67	##는	O	O
+68	등	O	O
+69	직원	B-CV	B-CV
+70	##들이	O	O
+71	걱정	O	O
+72	##없이	O	O
+73	맡	O	O
+74	##은	O	O
+75	업무	O	O
+76	##에	O	O
+77	충실	O	O
+78	##할	O	O
+79	수	O	O
+80	있	O	O
+81	##도록	O	O
+82	다방면	O	O
+83	##으로	O	O
+84	지원	O	O
+85	##하	O	O
+86	##고	O	O
+87	있	O	O
+88	##다	O	O
+89	.	O	O
+90	[SEP]	O	O

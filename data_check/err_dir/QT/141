@@ -1,41 +1,11 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	대학	O	O	O, B-CV, B-OG, B-PS, B-LC
-2	##마다	O	O	O, B-PS, I-OG, B-LC, B-CV
-3	수능	B-EV	B-EV	B-EV, O, B-CV, B-FD, B-AF
-4	##성	O	O	O, I-EV, I-AF, I-CV, B-CV
-5	##적	O	O	O, I-CV, I-AF, B-CV, I-EV
-6	반영	O	O	O, B-CV, B-PS, B-LC, B-TM
-7	방법	O	O	O, B-CV, B-TM, B-PS, B-LC
-8	##이	O	O	O, B-PS, B-OG, B-LC, B-CV
-9	달라	O	O	O, B-TM, B-CV, B-LC, B-OG
-10	총	O	O	O, B-QT, B-CV, B-PS, B-LC
-11	##점	O	O	O, I-AF, I-QT, B-QT, B-PS
-12	##이	O	O	O, B-PS, B-OG, B-CV, B-LC
-13	같	O	O	O, B-CV, B-QT, B-OG, B-PS
-14	##더라	O	O	O, I-QT, I-OG, B-CV, B-PS
-15	##도	O	O	O, B-LC, B-CV, B-PS, I-OG
-16	자신	O	O	O, B-CV, B-TM, B-LC, B-PS
-17	##의	O	O	O, B-PS, B-CV, B-LC, I-AF
-18	영역	O	O	O, B-CV, B-FD, B-PS, B-QT
-19	##별	O	O	O, B-PS, B-LC, I-AF, B-QT
-20	표준	O	O	O, B-CV, B-QT, B-PS, B-AF
-21	##점	O	O	O, I-CV, I-AF, I-QT, B-QT
-22	##수	O	O	O, I-AF, I-CV, I-QT, B-QT
-23	##와	O	O	O, B-PS, B-LC, B-TM, B-OG
-24	백	B-QT	O	O, B-CV, B-PS, B-AF, B-LC
-25	##분	I-QT	O	O, I-AF, B-PS, I-QT, I-OG
-26	##위	I-QT	O	O, I-AF, B-PS, I-OG, I-QT
-27	##에	O	O	O, B-CV, B-LC, B-TM, B-PS
-28	따라	O	O	O, B-LC, B-TM, B-OG, B-PS
-29	지원	O	O	O, B-CV, B-OG, B-TM, B-LC
-30	가능	O	O	O, B-CV, B-LC, B-TM, B-QT
-31	##한	O	O	O, B-LC, B-PS, B-OG, B-CV
-32	대학	O	O	O, B-CV, B-TM, B-QT, B-LC
-33	##이	O	O	O, B-PS, B-OG, B-CV, B-LC
-34	달라질	O	O	O, B-TM, B-CV, B-QT, B-OG
-35	수	O	O	O, B-TM, I-OG, I-QT, B-PS
-36	있	O	O	O, B-CV, B-TM, I-AF, I-QT
-37	##다	O	O	O, B-CV, B-TM, I-AF, I-OG
-38	.	O	O	O, B-LC, B-PS, B-CV, B-OG
-39	[SEP]	O	O	O, B-CV, B-LC, B-PS, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	삐	B-QT	O
+2	삐	B-QT	O
+3	##를	O	O
+4	줬	O	O
+5	##다	O	O
+6	이거	O	O
+7	##야	O	O
+8	.	O	O
+9	[SEP]	O	O

@@ -1,22 +1,38 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-AF
-1	청와대	B-AF	B-OG	B-OG, B-AF, B-LC, O, B-EV
-2	입주	O	O	O, I-AF, I-OG, B-CV, I-EV
-3	##하고	O	O	O, I-AF, I-OG, B-CV, I-CV
-4	둘째	B-DT	B-DT	B-DT, O, B-TI, I-DT, B-QT
-5	##날	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-TI
-6	##에	O	O	O, I-DT, I-AF, B-CV, B-PS
-7	신	O	O	O, B-AM, B-PS, B-AF, B-CV
-8	##은	O	O	O, B-PS, I-AF, B-AM, I-PS
-9	통	O	O	O, B-AM, B-AF, B-TM, B-PS
-10	##굽	O	O	O, I-AF, I-AM, B-AM, I-TM
-11	컨	O	O	O, B-AM, B-PS, I-AF, B-TM
-12	##버스	O	O	O, I-QT, B-QT, I-TM, I-AF
-13	##화가	O	O	O, B-QT, I-QT, B-CV, B-PS
-14	십	B-QT	O	O, B-QT, I-QT, B-PS, B-DT
-15	##오	I-QT	I-QT	I-QT, O, B-QT, I-PS, I-LC
-16	##만	I-QT	O	O, I-QT, B-QT, I-PS, I-LC
-17	원대	I-QT	O	O, I-QT, B-QT, I-CV, I-LC
-18	##고	O	O	O, I-QT, I-CV, I-OG, B-CV
-19	.	O	O	O, B-CV, B-OG, I-QT, B-LC
-20	[SEP]	O	O	O, B-CV, B-LC, B-PS, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	보행	O	O
+2	##로	O	O
+3	양쪽	O	O
+4	##에	O	O
+5	1	B-QT	B-QT
+6	,	O	I-QT
+7	2	B-QT	I-QT
+8	##층	I-QT	I-QT
+9	##짜	I-QT	I-QT
+10	##리	I-QT	I-QT
+11	점포	O	O
+12	##를	O	O
+13	연이	O	O
+14	##어	O	O
+15	배치	O	O
+16	##한	O	O
+17	유럽	O	O
+18	##형	O	O
+19	‘	O	O
+20	스트리트	O	O
+21	(	O	O
+22	St	O	O
+23	##ree	O	O
+24	##t	O	O
+25	)	O	O
+26	’	O	O
+27	상가	O	O
+28	##가	O	O
+29	관심	O	O
+30	##을	O	O
+31	끌	O	O
+32	##고	O	O
+33	있	O	O
+34	##다	O	O
+35	.	O	O
+36	[SEP]	O	O

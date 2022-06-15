@@ -1,71 +1,10 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-EV, I-CV
-1	영화	B-OG	B-OG	B-OG, O, B-LC, B-EV, B-AF
-2	##진흥	I-OG	I-OG	I-OG, O, I-EV, B-OG, I-CV
-3	##위원회	I-OG	I-OG	I-OG, O, I-EV, I-CV, I-LC
-4	최인	B-PS	B-PS	B-PS, O, B-OG, I-OG, I-PS
-5	##국	I-PS	I-PS	I-PS, I-OG, O, I-QT, B-PS
-6	출자	O	O	O, B-TM, B-CV, I-TM, B-OG
-7	##사업	O	O	O, I-TM, I-CV, I-OG, I-LC
-8	담당	O	O	O, B-CV, I-CV, I-TM, I-OG
-9	##은	O	O	O, I-CV, B-CV, I-OG, I-TM
-10	""""	O	O	O, I-CV, B-CV, B-LC, B-PS
-11	지난해	B-DT	B-DT	B-DT, O, B-EV, I-DT, B-QT
-12	영화	B-OG	B-OG	B-OG, O, B-EV, I-OG, I-DT
-13	##진흥	I-OG	I-OG	I-OG, O, I-EV, I-CV, B-OG
-14	##위원회	I-OG	I-OG	I-OG, O, I-EV, I-CV, I-AF
-15	##가	O	O	O, I-OG, B-PS, I-EV, I-AF
-16	출자	O	O	O, B-CV, B-OG, B-PS, B-AF
-17	##한	O	O	O, B-PS, I-CV, I-OG, B-CV
-18	영화	O	B-CV	B-CV, O, B-OG, B-AF, B-EV
-19	##펀	O	I-CV	I-CV, O, I-OG, B-CV, I-AF
-20	##드	O	I-CV	I-CV, O, I-OG, I-AF, B-CV
-21	평균	O	O	O, I-CV, I-OG, I-AF, I-EV
-22	수익	O	O	O, B-TM, B-CV, B-QT, B-LC
-23	##률	O	O	O, I-QT, B-QT, B-LC, B-PS
-24	##이	O	O	O, B-PS, B-OG, B-CV, B-LC
-25	마이너스	B-QT	B-QT	B-QT, O, B-DT, I-QT, B-TM
-26	10	I-QT	I-QT	I-QT, B-QT, O, I-DT, B-DT
-27	%	I-QT	I-QT	I-QT, O, I-LC, I-PS, I-DT
-28	수준	O	O	O, I-QT, I-OG, B-CV, I-EV
-29	##이	O	O	O, B-PS, B-OG, B-CV, B-LC
-30	##었	O	O	O, B-CV, B-PS, B-QT, B-LC
-31	##다	O	O	O, B-CV, I-OG, B-LC, B-TM
-32	""""	O	O	O, B-CV, B-LC, B-PS, B-TM
-33	며	O	O	O, B-CV, B-LC, B-OG, B-TM
-34	""""	O	O	O, B-CV, B-LC, B-PS, B-OG
-35	해운대	B-AF	B-AF	B-AF, B-LC, B-PS, O, B-EV
-36	·	O	O	O, I-AF, I-LC, I-EV, I-OG
-37	국가	B-AF	B-CV	B-CV, O, B-AF, B-PS, B-LC
-38	##대표	I-AF	I-AF	I-AF, I-CV, O, I-PS, I-EV
-39	등	O	O	O, I-AF, I-EV, I-CV, I-OG
-40	흥행	O	O	O, B-LC, B-CV, B-FD, B-AF
-41	##작	O	O	O, B-FD, B-LC, I-AF, I-FD
-42	##에	O	O	O, B-CV, B-LC, I-AF, B-PS
-43	대부분	O	O	O, B-LC, B-QT, B-CV, B-PS
-44	투자	O	O	O, B-CV, B-LC, B-OG, B-TM
-45	##했	O	O	O, B-LC, B-PS, B-CV, B-OG
-46	##지만	O	O	O, B-LC, B-CV, B-PS, B-OG
-47	인기	O	O	O, B-LC, B-CV, B-TM, B-PS
-48	##를	O	O	O, B-CV, B-LC, B-PS, B-TM
-49	끌	O	O	O, B-LC, B-CV, B-PS, B-OG
-50	##지	O	O	O, B-LC, B-CV, B-PS, B-OG
-51	못한	O	O	O, B-LC, B-PS, B-CV, B-QT
-52	영화	O	O	O, B-FD, B-LC, B-CV, I-AF
-53	##도	O	O	O, B-LC, I-AF, B-PS, B-CV
-54	많	O	O	O, B-CV, B-LC, B-QT, B-TM
-55	##아	O	O	O, B-LC, B-PS, B-CV, B-OG
-56	전체	O	O	O, B-CV, B-LC, B-QT, B-TM
-57	##적으로	O	O	O, B-LC, B-CV, B-TM, B-PS
-58	수익	O	O	O, B-TM, B-LC, B-CV, B-QT
-59	##이	O	O	O, B-PS, B-OG, B-CV, B-LC
-60	나지	O	O	O, B-TM, B-CV, B-LC, B-OG
-61	않	O	O	O, B-CV, B-LC, B-TM, I-OG
-62	##았	O	O	O, B-CV, B-TM, B-LC, I-OG
-63	##다	O	O	O, B-CV, B-TM, I-OG, I-AF
-64	""""	O	O	O, B-CV, B-LC, B-TM, B-PS
-65	고	O	O	O, B-CV, B-TM, B-QT, B-LC
-66	밝혔	O	O	O, B-CV, B-TM, B-LC, B-QT
-67	##다	O	O	O, B-CV, B-TM, B-LC, B-QT
-68	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-69	[SEP]	O	O	O, B-CV, B-LC, I-OG, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	실외	O	O
+2	##는	O	O
+3	아래	O	B-TM
+4	물	O	O
+5	있	O	O
+6	##잖아	O	O
+7	.	O	O
+8	[SEP]	O	O

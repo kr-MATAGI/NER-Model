@@ -1,45 +1,51 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	존슨	B-OG	B-OG	B-OG, O, B-PS, I-OG, B-LC
-2	##앤	I-OG	I-OG	I-OG, O, B-OG, I-PS, I-AF
-3	##드	I-OG	I-OG	I-OG, O, B-OG, I-PS, I-AF
-4	##존	I-OG	I-OG	I-OG, O, B-OG, I-PS, I-AF
-5	##슨	I-OG	I-OG	I-OG, O, B-OG, I-PS, I-AF
-6	##은	O	O	O, I-OG, B-CV, I-AF, I-QT
-7	또	O	O	O, B-CV, B-OG, B-TM, B-LC
-8	영업	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-TM
-9	##사원	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-TM
-10	등	O	O	O, I-CV, B-CV, I-QT, B-PS
-11	##을	O	O	O, B-CV, I-CV, B-LC, B-PS
-12	고용	O	O	O, B-CV, B-OG, B-LC, B-TM
-13	##해	O	O	O, B-LC, B-PS, I-CV, B-OG
-14	안경	O	B-CV	B-CV, O, I-CV, B-TM, B-QT
-15	##원	O	I-CV	I-CV, O, B-CV, I-QT, I-TM
-16	##들	O	O	O, I-CV, B-CV, I-QT, I-OG
-17	##의	O	O	O, B-CV, B-LC, B-PS, B-TM
-18	실제	O	O	O, B-CV, B-QT, B-LC, B-TM
-19	판매	O	O	O, B-CV, B-TM, B-LC, B-QT
-20	##가	O	O	O, B-QT, I-CV, B-CV, I-QT
-21	##격	O	O	O, B-QT, I-QT, B-CV, B-LC
-22	##을	O	O	O, B-CV, B-LC, B-TM, B-PS
-23	조사	O	O	O, B-CV, B-LC, B-TM, B-PS
-24	##해	O	O	O, B-LC, B-PS, B-OG, B-CV
-25	자신	O	O	O, B-CV, B-LC, B-PS, B-TM
-26	##이	O	O	O, B-PS, B-CV, B-LC, B-OG
-27	정한	O	O	O, B-CV, B-QT, B-LC, B-PS
-28	판매	O	O	O, B-CV, B-QT, B-TM, B-LC
-29	##가	O	O	O, I-CV, B-QT, B-CV, I-QT
-30	##격	O	O	O, B-QT, I-QT, I-CV, B-CV
-31	##을	O	O	O, B-CV, B-PS, B-LC, B-TM
-32	제대로	O	O	O, B-CV, B-LC, B-QT, B-PS
-33	준수	O	O	O, B-CV, B-LC, B-QT, B-PS
-34	##하	O	O	O, B-LC, B-PS, B-CV, B-OG
-35	##는지	O	O	O, B-LC, B-PS, B-CV, B-QT
-36	점검	O	O	O, B-CV, B-LC, B-QT, B-TM
-37	##하기	O	O	O, B-CV, B-LC, B-PS, I-QT
-38	##까	O	O	O, B-LC, B-CV, B-PS, B-QT
-39	##지	O	O	O, B-QT, B-LC, B-CV, B-OG
-40	했	O	O	O, B-OG, B-CV, B-LC, B-PS
-41	##다	O	O	O, B-CV, I-OG, B-QT, B-LC
-42	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-43	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	자신	O	O
+2	##보	O	O
+3	##다	O	O
+4	더	O	O
+5	어려운	O	O
+6	이웃	O	B-CV
+7	##을	O	O
+8	돌보	O	O
+9	##다	O	O
+10	사고	O	O
+11	##로	O	O
+12	숨진	O	O
+13	‘	O	O
+14	철	O	O
+15	##가방	O	O
+16	’	O	O
+17	김우	B-PS	B-PS
+18	##수	I-PS	I-PS
+19	씨	O	O
+20	,	O	O
+21	경험	O	O
+22	##이	O	O
+23	부족	O	O
+24	##한	O	O
+25	후배	B-CV	B-CV
+26	##들	O	O
+27	##을	O	O
+28	먼저	O	O
+29	내보내	O	O
+30	##고	O	O
+31	화재	O	O
+32	##를	O	O
+33	진압	O	O
+34	##하	O	O
+35	##다	O	O
+36	숨진	O	O
+37	김형	B-PS	B-PS
+38	##성	I-PS	I-PS
+39	소방	B-CV	B-CV
+40	##장	I-CV	I-CV
+41	,	O	O
+42	그리고	O	O
+43	황	B-PS	B-PS
+44	##수	I-PS	I-PS
+45	##관	I-PS	I-PS
+46	교수	B-CV	B-CV
+47	…	O	O
+48	.	O	O
+49	[SEP]	O	O

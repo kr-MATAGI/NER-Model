@@ -1,11 +1,45 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	정말	O	O	O, B-CV, B-TM, B-OG, B-PS
-2	이런	O	O	O, B-PS, B-CV, B-LC, B-TM
-3	사람	O	O	O, B-CV, B-AM, B-PS, I-CV
-4	##은	O	O	O, I-CV, B-CV, B-PS, I-AF
-5	어떻게	O	O	O, B-CV, B-TM, B-OG, B-QT
-6	해야	O	O	O, B-CV, B-PS, B-LC, B-OG
-7	하나	B-QT	O	O, B-QT, B-CV, B-TM, B-DT
-8	.	O	O	O, B-CV, I-OG, I-QT, I-AF
-9	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	1	B-QT	B-TI
+2	##막	I-QT	I-TI
+3	##부터	O	I-TI
+4	하이	O	O
+5	C	O	O
+6	##를	O	O
+7	넘나드	O	O
+8	##는	O	O
+9	고음	O	O
+10	행진	O	O
+11	##을	O	O
+12	이어	O	O
+13	##간	O	O
+14	테	B-PS	B-PS
+15	##시	I-PS	I-PS
+16	##어	I-PS	I-PS
+17	##는	O	O
+18	3	B-QT	B-QT
+19	##막	I-QT	I-QT
+20	4	B-QT	B-FD
+21	##중	I-QT	I-FD
+22	##창	I-QT	I-FD
+23	##에	O	O
+24	##서	O	O
+25	테너	B-CV	B-CV
+26	##로	O	O
+27	##서는	O	O
+28	거의	O	O
+29	불가	O	O
+30	##능	O	O
+31	##한	O	O
+32	하이	O	O
+33	F	O	O
+34	##음	O	O
+35	##까	O	O
+36	##지	O	O
+37	수월	O	O
+38	##하	O	O
+39	##게	O	O
+40	냈	O	O
+41	##다	O	O
+42	.	O	O
+43	[SEP]	O	O

@@ -1,8 +1,54 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-EV, I-CV
-1	엘	B-AF	B-TM	B-TM, B-MT, B-LC, B-AF, B-TR
-2	##오	I-AF	I-MT	I-MT, I-TM, I-LC, I-AF, I-TR
-3	##엘	I-AF	I-TM	I-TM, I-MT, I-LC, I-AF, I-OG
-4	##이	O	O	O, I-TM, I-OG, I-LC, I-AF
-5	##라는	O	O	O, I-AF, I-OG, I-EV, I-TM
-6	[SEP]	O	O	O, B-CV, B-LC, B-TM, I-EV
+	text	label	preds
+0	[CLS]	O	O
+1	최고	O	O
+2	수준의	O	O
+3	보안	O	O
+4	(	O	O
+5	su	O	O
+6	##per	O	O
+7	-	O	O
+8	ma	O	O
+9	##x	O	O
+10	##im	O	O
+11	##um	O	O
+12	sec	O	O
+13	##ur	O	O
+14	##ity	O	O
+15	)	O	O
+16	이라	O	O
+17	##는	O	O
+18	말	O	O
+19	##에	O	O
+20	##서	O	O
+21	따온	O	O
+22	수퍼	B-AF	O
+23	##맥스	I-AF	O
+24	(	O	O
+25	su	O	O
+26	##per	O	O
+27	##ma	O	O
+28	##x	O	O
+29	)	O	O
+30	감옥	O	O
+31	##은	O	O
+32	최고	O	O
+33	##의	O	O
+34	감시	O	O
+35	및	O	O
+36	보안	O	O
+37	수준	O	O
+38	##을	O	O
+39	갖춰	O	O
+40	사실	O	O
+41	##상	O	O
+42	탈옥	O	O
+43	##이	O	O
+44	불가	O	O
+45	##능	O	O
+46	##한	O	O
+47	교도소	O	O
+48	##를	O	O
+49	말	O	O
+50	##한다	O	O
+51	.	O	O
+52	[SEP]	O	O

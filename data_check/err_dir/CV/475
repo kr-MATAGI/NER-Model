@@ -1,40 +1,34 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	보통	O	O	O, B-CV, B-PS, B-LC, I-CV
-2	비상	O	O	O, B-CV, B-LC, B-FD, B-TM
-3	근무	O	O	O, I-CV, B-CV, B-PS, I-EV
-4	##령	O	O	O, I-CV, B-CV, I-LC, I-AF
-5	##은	O	O	O, I-CV, B-PS, B-CV, B-LC
-6	재난	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-TM
-7	##안전	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-TM
-8	##대	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-TM
-9	##책	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-QT
-10	##본부	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-QT
-11	##장	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-QT
-12	##인	O	O	O, I-CV, B-PS, I-OG, I-EV
-13	서울시	O	O	O, B-LC, B-CV, B-OG, B-PS
-14	##장이	O	O	O, B-LC, I-LC, B-PS, B-CV
-15	내리	O	O	O, B-LC, B-PS, B-CV, B-OG
-16	##지만	O	O	O, B-LC, B-PS, B-CV, I-LC
-17	이날	B-DT	B-DT	B-DT, O, I-DT, B-LC, B-QT
-18	##은	O	O	O, I-DT, B-LC, B-PS, I-EV
-19	통제	B-CV	O	O, B-CV, I-CV, B-PS, B-OG
-20	##관	I-CV	O	O, I-CV, B-CV, I-PS, I-QT
-21	##인	O	O	O, I-CV, B-PS, B-LC, I-PS
-22	이인	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
-23	##근	I-PS	I-PS	I-PS, O, I-OG, I-LC, B-PS
-24	본부	O	O	O, B-CV, B-LC, I-PS, B-TM
-25	##장이	O	O	O, B-LC, I-LC, B-PS, I-CV
-26	직접	O	O	O, B-LC, B-PS, B-CV, B-OG
-27	내린	O	O	O, B-LC, B-PS, B-CV, B-OG
-28	후	O	O	O, B-LC, B-PS, I-LC, B-CV
-29	오세훈	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-30	서울시	O	O	O, B-LC, I-PS, B-CV, I-LC
-31	##장	O	O	O, I-LC, B-LC, B-CV, B-PS
-32	##에	O	O	O, I-LC, B-LC, B-PS, I-EV
-33	##게	O	O	O, B-LC, B-CV, B-PS, I-LC
-34	보고	O	O	O, B-CV, B-LC, B-PS, B-OG
-35	##했	O	O	O, B-LC, B-CV, B-PS, I-EV
-36	##다	O	O	O, B-CV, B-LC, I-OG, B-PS
-37	.	O	O	O, B-LC, B-PS, B-CV, B-OG
-38	[SEP]	O	O	O, B-CV, B-LC, B-PS, I-EV
+	text	label	preds
+0	[CLS]	O	O
+1	유	B-CV	B-CV
+2	##튜	I-CV	I-CV
+3	##버	I-CV	I-CV
+4	갓	B-PS	B-PS
+5	##건	I-PS	I-PS
+6	##배	I-PS	I-PS
+7	##씨	O	O
+8	같	O	O
+9	##은	O	O
+10	분	O	O
+11	##들	O	O
+12	##은	O	O
+13	진짜	O	O
+14	##로	O	O
+15	그런	O	O
+16	진짜	O	O
+17	살해	B-CV	B-CV
+18	협박	B-CV	I-CV
+19	##을	O	O
+20	당한	O	O
+21	거	O	O
+22	##잖아요	O	O
+23	.	O	O
+24	정말	O	O
+25	생존	O	O
+26	##의	O	O
+27	문제	O	O
+28	##인	O	O
+29	거	O	O
+30	##죠	O	O
+31	.	O	O
+32	[SEP]	O	O

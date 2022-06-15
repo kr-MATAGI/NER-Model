@@ -1,13 +1,15 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-AF
-1	외국인	B-CV	B-CV	B-CV, O, B-OG, B-DT, I-CV
-2	사흘	B-DT	B-DT	B-DT, O, I-DT, B-QT, I-CV
-3	##새	O	I-DT	I-DT, O, I-QT, B-DT, I-TI
-4	1	B-QT	B-QT	B-QT, I-QT, O, I-DT, B-DT
-5	##조	I-QT	I-QT	I-QT, O, I-DT, I-PS, I-LC
-6	넘	O	O	O, I-QT, I-OG, I-AF, I-DT
-7	##게	O	O	O, I-QT, I-OG, I-TM, I-CV
-8	순	O	O	O, B-TM, B-CV, B-PS, B-AM
-9	##매	O	O	O, B-CV, I-CV, I-TM, B-TM
-10	##수	O	O	O, I-CV, I-TM, I-AF, I-OG
-11	[SEP]	O	O	O, I-CV, I-TM, I-AF, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	아	O	O
+2	이거	O	O
+3	에센스	O	B-CV
+4	##도	O	O
+5	엄청	O	O
+6	많	O	O
+7	##아	O	O
+8	그	O	O
+9	속성	O	O
+10	##들	O	O
+11	하나하나	O	O
+12	##가	O	O
+13	[SEP]	O	O

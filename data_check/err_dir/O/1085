@@ -1,14 +1,38 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-EV
-1	입	B-AM	B-AM	B-AM, O, B-TM, B-TR, I-AM
-2	·	O	O	O, I-LC, I-AM, I-AF, I-CV
-3	항문	B-TM	B-TM	B-TM, O, I-TM, B-LC, B-AM
-4	등	O	O	O, I-TM, B-LC, I-LC, I-AF
-5	##을	O	O	O, B-LC, B-CV, B-TM, B-AF
-6	통한	O	O	O, B-LC, B-TM, B-CV, B-EV
-7	무	O	B-TR	B-TR, B-TM, O, B-AM, I-TR
-8	##흉	O	I-TR	I-TR, I-TM, O, B-TR, I-AM
-9	##터	O	I-TR	I-TR, I-TM, O, I-QT, I-AM
-10	수술	O	I-TR	I-TR, O, I-TM, I-CV, I-QT
-11	사례	O	O	O, I-TR, I-TM, B-CV, I-OG
-12	[SEP]	O	O	O, B-LC, B-CV, B-TM, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	가짜	O	O
+2	기자	B-CV	B-CV
+3	##는	O	O
+4	신분증	O	O
+5	##도	O	O
+6	없이	O	O
+7	무선	O	B-TM
+8	##호	O	I-TM
+9	##출	O	I-TM
+10	##기	O	I-TM
+11	##만	O	O
+12	보여	O	O
+13	##주	O	O
+14	##며	O	O
+15	여성	O	O
+16	##을	O	O
+17	농락	O	O
+18	##했	O	O
+19	##고	O	O
+20	,	O	O
+21	청와대	B-AF	B-OG
+22	직원	B-CV	B-CV
+23	사칭	O	B-CV
+24	##범	O	I-CV
+25	##도	O	O
+26	삐	B-TM	B-TM
+27	##삐	I-TM	I-TM
+28	##로	O	O
+29	사람	O	O
+30	##들	O	O
+31	##을	O	O
+32	속	O	O
+33	##였	O	O
+34	##다	O	O
+35	.	O	O
+36	[SEP]	O	O

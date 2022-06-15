@@ -1,35 +1,29 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, B-CV, I-OG, I-AF
-1	아사	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
-2	##드	I-PS	I-PS	I-PS, I-OG, O, I-LC, B-PS
-3	정권	O	O	O, B-OG, I-PS, B-CV, I-OG
-4	##은	O	O	O, I-OG, B-PS, I-PS, I-CV
-5	당시	O	O	O, B-CV, B-LC, B-PS, I-OG
-6	열	B-QT	B-QT	B-QT, O, I-QT, B-PS, B-LC
-7	##다	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-8	##섯	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-9	살	O	I-QT	I-QT, O, I-LC, I-PS, B-QT
-10	##이	O	O	O, B-PS, I-QT, B-CV, B-OG
-11	##던	O	O	O, B-PS, B-CV, I-PS, B-LC
-12	나	O	O	O, B-PS, B-CV, B-LC, B-AM
-13	##를	O	O	O, B-PS, B-CV, B-LC, I-PS
-14	불법	O	O	O, B-CV, B-PS, B-OG, B-LC
-15	체포	O	O	O, I-CV, B-CV, B-PS, B-LC
-16	##해	O	O	O, I-CV, B-PS, B-LC, I-PS
-17	고문	O	O	O, B-CV, I-CV, B-TM, B-LC
-18	##하고	O	O	O, I-CV, B-PS, B-CV, B-LC
-19	굶	O	O	O, B-CV, B-AM, B-LC, B-TM
-20	##기	O	O	O, I-CV, B-CV, B-AM, B-PS
-21	##며	O	O	O, B-LC, B-PS, B-CV, I-CV
-22	육체	O	O	O, B-CV, B-TM, B-QT, B-TR
-23	##적	O	O	O, I-TR, I-CV, I-QT, B-PS
-24	·	O	O	O, B-PS, I-QT, I-CV, I-TR
-25	정신	O	O	O, B-CV, B-QT, B-PS, B-TM
-26	##적	O	O	O, B-PS, I-CV, I-TR, I-QT
-27	트라우마	O	B-TM	B-TM, O, I-TM, B-TR, B-CV
-28	##를	O	O	O, I-TM, I-CV, I-AF, I-QT
-29	안겨	O	O	O, B-CV, B-LC, B-PS, B-TM
-30	##줬	O	O	O, B-CV, I-CV, B-PS, I-QT
-31	##어	O	O	O, I-CV, B-LC, I-AF, I-OG
-32	.	O	O	O, B-PS, B-CV, B-LC, B-AM
-33	[SEP]	O	O	O, B-CV, B-PS, B-LC, I-CV
+	text	label	preds
+0	[CLS]	O	O
+1	LH	B-OG	B-OG
+2	진주	B-LC	B-AF
+3	사옥	O	I-AF
+4	##은	O	O
+5	또	O	O
+6	지역	O	B-CV
+7	##주	B-CV	I-CV
+8	##민	I-CV	I-CV
+9	##과	O	O
+10	##의	O	O
+11	상생	O	O
+12	##을	O	O
+13	위한	O	O
+14	다양	O	O
+15	##한	O	O
+16	커뮤니티	O	O
+17	시설	O	O
+18	및	O	O
+19	공간	O	O
+20	##을	O	O
+21	계획	O	O
+22	##하	O	O
+23	##고	O	O
+24	있	O	O
+25	##다	O	O
+26	.	O	O
+27	[SEP]	O	O

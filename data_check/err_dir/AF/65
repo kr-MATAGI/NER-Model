@@ -1,36 +1,36 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-EV
-1	심미	O	O	O, B-PS, B-FD, B-LC, B-OG
-2	##안	O	O	O, I-PS, B-PS, I-OG, I-LC
-3	##이	O	O	O, B-PS, I-PS, B-LC, B-OG
-4	뛰어났	O	O	O, B-PS, B-CV, I-PS, B-OG
-5	##던	O	O	O, B-PS, I-PS, B-LC, B-CV
-6	그	O	O	O, B-PS, B-CV, B-LC, B-OG
-7	##는	O	O	O, B-PS, B-CV, B-LC, I-EV
-8	백자	B-AF	O	O, B-AF, B-CV, B-FD, B-MT
-9	##와	O	O	O, I-AF, B-PS, I-CV, B-CV
-10	민화	B-FD	O	O, B-FD, B-CV, B-AF, I-FD
-11	(	O	O	O, I-CV, I-AF, I-FD, I-OG
-12	民	O	O	O, B-CV, B-PS, B-LC, B-FD
-13	[UNK]	O	O	O, B-LC, B-CV, B-PS, B-OG
-14	)	O	O	O, B-CV, B-LC, B-OG, B-PS
-15	,	O	O	O, B-LC, B-CV, B-PS, B-OG
-16	전통	O	O	O, B-CV, B-FD, B-AF, B-LC
-17	공예품	O	O	O, I-CV, I-FD, I-AF, B-CV
-18	##에	O	O	O, I-CV, I-AF, B-PS, B-CV
-19	심취	O	O	O, B-LC, B-CV, B-PS, B-OG
-20	##했	O	O	O, B-PS, B-LC, B-CV, B-OG
-21	##고	O	O	O, B-LC, B-PS, B-CV, B-OG
-22	고분	B-OG	O	O, B-AF, B-OG, B-LC, B-CV
-23	발굴	I-OG	O	O, I-OG, I-AF, B-OG, B-AF
-24	##단	I-OG	O	O, I-OG, I-AF, I-LC, I-CV
-25	##을	O	O	O, I-AF, I-OG, B-CV, B-LC
-26	따라다니	O	O	O, B-LC, B-PS, B-CV, B-QT
-27	##며	O	O	O, B-LC, B-OG, B-PS, B-CV
-28	벽화	O	O	O, B-FD, B-AF, B-CV, B-LC
-29	##를	O	O	O, I-AF, B-CV, B-PS, I-OG
-30	공부	O	O	O, B-LC, B-CV, B-PS, B-DT
-31	##했	O	O	O, B-LC, B-PS, B-CV, B-OG
-32	##다	O	O	O, B-CV, B-PS, B-LC, I-OG
-33	.	O	O	O, B-LC, B-PS, B-CV, B-OG
-34	[SEP]	O	O	O, B-LC, B-CV, B-PS, B-FD
+	text	label	preds
+0	[CLS]	O	O
+1	월성	B-AF	B-LC
+2	발굴	O	O
+3	##은	O	O
+4	1914	B-DT	B-DT
+5	##년	I-DT	I-DT
+6	일제	B-OG	B-OG
+7	##가	O	O
+8	남	O	B-TM
+9	##벽	O	O
+10	부근	O	O
+11	##을	O	O
+12	파헤	O	O
+13	##친	O	O
+14	지	O	O
+15	100	B-DT	B-DT
+16	##년	I-DT	I-DT
+17	만	I-DT	I-DT
+18	##에	O	O
+19	우리	O	O
+20	손	B-AM	B-AM
+21	##으로	O	O
+22	실시	O	O
+23	##한	O	O
+24	최초	O	O
+25	##의	O	O
+26	발굴	O	O
+27	##이	O	O
+28	##라는	O	O
+29	의미	O	O
+30	##가	O	O
+31	크	O	O
+32	##다	O	O
+33	.	O	O
+34	[SEP]	O	O

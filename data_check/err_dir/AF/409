@@ -1,55 +1,52 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-EV, I-OG, I-CV
-1	경남	B-OG	B-OG	B-OG, B-LC, O, B-EV, B-PS
-2	##도	I-OG	I-OG	I-OG, I-LC, O, I-EV, B-OG
-3	홈페이지	O	O	O, I-OG, I-EV, B-CV, B-TM
-4	(	O	O	O, B-CV, B-LC, B-OG, B-TM
-5	www	B-TM	B-TM	B-TM, O, B-QT, B-LC, I-TM
-6	.	I-TM	I-TM	I-TM, O, I-QT, B-TM, I-AF
-7	g	I-TM	I-TM	I-TM, O, I-QT, I-AF, B-TM
-8	##s	I-TM	I-TM	I-TM, O, I-QT, I-AF, I-OG
-9	##nd	I-TM	I-TM	I-TM, O, I-QT, I-AF, I-OG
-10	.	I-TM	I-TM	I-TM, O, I-QT, I-AF, I-OG
-11	net	I-TM	I-TM	I-TM, O, I-QT, I-AF, I-OG
-12	)	O	O	O, I-TM, I-QT, I-OG, I-CV
-13	나	O	O	O, B-CV, B-LC, B-TM, B-OG
-14	e	O	O	O, B-TM, B-CV, B-QT, B-FD
-15	##메	O	O	O, I-TM, I-CV, I-QT, I-LC
-16	##일	O	O	O, I-TM, I-CV, I-LC, I-QT
-17	(	O	O	O, B-LC, B-CV, B-OG, I-CV
-18	na	B-TM	B-TM	B-TM, I-TM, O, B-QT, B-LC
-19	##k	I-TM	I-TM	I-TM, O, I-QT, B-TM, I-AF
-20	##d	I-TM	I-TM	I-TM, O, I-QT, B-TM, I-AF
-21	##ong	I-TM	I-TM	I-TM, O, I-QT, I-AF, I-OG
-22	@	I-TM	I-TM	I-TM, O, I-QT, I-AF, I-OG
-23	fe	I-TM	I-TM	I-TM, O, I-QT, I-AF, I-OG
-24	##el	I-TM	I-TM	I-TM, O, I-QT, I-AF, I-OG
-25	##g	I-TM	I-TM	I-TM, O, I-QT, I-AF, I-OG
-26	##n	I-TM	I-TM	I-TM, O, I-QT, I-AF, I-OG
-27	.	I-TM	I-TM	I-TM, O, I-QT, I-AF, I-OG
-28	net	I-TM	I-TM	I-TM, O, I-QT, I-AF, I-OG
-29	)	O	O	O, I-TM, I-QT, I-OG, I-CV
-30	또는	O	O	O, B-CV, B-TM, B-LC, B-OG
-31	우편	O	O	O, B-CV, B-TM, B-LC, B-EV
-32	(	O	O	O, I-CV, B-LC, B-CV, B-OG
-33	창원시	B-LC	B-LC	B-LC, B-OG, O, B-PS, B-AF
-34	의창	B-LC	B-LC	B-LC, B-OG, I-LC, O, B-AF
-35	##구	I-LC	I-LC	I-LC, O, I-OG, I-PS, I-AF
-36	중앙	B-AF	B-AF	B-AF, B-LC, B-OG, B-TM, O
-37	##대로	I-AF	I-AF	I-AF, I-LC, I-OG, O, I-TM
-38	300	B-QT	I-AF	I-AF, B-QT, I-LC, I-QT, I-OG
-39	경남	B-AF	B-OG	B-OG, B-LC, B-AF, I-OG, I-AF
-40	##도	I-AF	I-OG	I-OG, I-AF, I-LC, O, B-OG
-41	##청	I-AF	I-OG	I-OG, I-AF, I-LC, O, I-QT
-42	국책	O	O	O, B-AF, B-OG, B-TM, B-LC
-43	##사업	O	O	O, I-OG, I-AF, I-LC, I-QT
-44	##지원	O	O	O, I-OG, I-AF, I-LC, I-QT
-45	##과	O	O	O, I-OG, I-AF, I-LC, I-QT
-46	)	O	O	O, I-OG, I-QT, I-AF, I-LC
-47	을	O	O	O, B-CV, B-TM, B-LC, B-OG
-48	통해	O	O	O, B-LC, B-TM, B-CV, B-OG
-49	참가	O	O	O, B-CV, B-TM, B-LC, B-EV
-50	##하면	O	O	O, B-CV, B-TM, B-LC, B-OG
-51	된다	O	O	O, B-CV, B-TM, B-LC, B-OG
-52	.	O	O	O, B-LC, B-TM, B-CV, B-OG
-53	[SEP]	O	O	O, B-TM, B-LC, B-CV, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	리버풀	B-OG	B-OG
+2	응원	O	O
+3	##가	O	O
+4	'	O	O
+5	You	B-AF	O
+6	'	I-AF	O
+7	l	I-AF	O
+8	##l	I-AF	O
+9	ne	I-AF	O
+10	##ver	I-AF	O
+11	w	I-AF	O
+12	##alk	I-AF	O
+13	al	I-AF	O
+14	##one	I-AF	O
+15	(	O	O
+16	당신	O	O
+17	##은	O	O
+18	결코	O	O
+19	홀로	O	O
+20	걷	O	O
+21	##지	O	O
+22	않	O	O
+23	##을	O	O
+24	거야	O	O
+25	)	O	O
+26	'	O	O
+27	은	O	O
+28	팀	O	O
+29	##과	O	O
+30	고	O	O
+31	##락	O	O
+32	(	O	O
+33	苦	O	O
+34	樂	O	O
+35	)	O	O
+36	을	O	O
+37	함께	O	O
+38	하	O	O
+39	##겠다	O	O
+40	##는	O	O
+41	팬	B-CV	B-CV
+42	##들의	O	O
+43	정신	O	O
+44	##을	O	O
+45	담	O	O
+46	##고	O	O
+47	있	O	O
+48	##다	O	O
+49	.	O	O
+50	[SEP]	O	O

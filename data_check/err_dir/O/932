@@ -1,38 +1,38 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	정주영	B-PS	B-PS	B-PS, B-OG, O, I-PS, B-LC
-2	패밀리	O	O	O, B-OG, B-CV, I-OG, I-PS
-3	그룹	O	O	O, I-OG, B-OG, I-CV, B-CV
-4	중	O	O	O, B-OG, I-OG, B-LC, B-PS
-5	현대차	B-OG	B-OG	B-OG, O, B-AF, I-OG, B-LC
-6	##와	O	O	O, I-OG, I-AF, I-CV, B-CV
-7	마찬가지	O	O	O, B-CV, B-OG, B-TM, B-LC
-8	##로	O	O	O, B-OG, B-PS, B-LC, I-OG
-9	북한	B-LC	B-LC	B-LC, B-OG, O, B-PS, B-AF
-10	##에	O	O	O, I-LC, I-OG, I-AF, I-PS
-11	##는	O	O	O, B-LC, B-CV, B-TM, B-OG
-12	눈	O	B-AM	B-AM, O, B-TR, I-AM, B-TM
-13	##도	O	O	O, I-AF, I-DT, I-QT, I-EV
-14	돌리	O	O	O, B-CV, B-LC, B-OG, B-PS
-15	##지	O	O	O, B-PS, B-LC, B-OG, B-CV
-16	않	O	O	O, B-PS, B-LC, B-CV, I-OG
-17	##았	O	O	O, B-CV, B-OG, B-LC, B-PS
-18	##던	O	O	O, B-OG, B-CV, B-PS, B-LC
-19	현대	B-OG	B-OG	B-OG, O, B-AF, I-OG, B-LC
-20	##중	I-OG	I-OG	I-OG, O, B-OG, I-AF, I-LC
-21	##공업	I-OG	I-OG	I-OG, O, I-AF, I-LC, I-CV
-22	##과	O	O	O, I-OG, I-AF, B-CV, I-CV
-23	현대	B-OG	B-OG	B-OG, O, B-AF, I-OG, B-PS
-24	##백화점	I-OG	I-OG	I-OG, O, I-AF, B-OG, I-CV
-25	역시	O	O	O, I-OG, I-AF, B-CV, I-CV
-26	탄탄	O	O	O, B-CV, B-TM, I-OG, B-OG
-27	##한	O	O	O, B-LC, B-OG, B-PS, I-OG
-28	경영	O	O	O, B-CV, B-TM, B-OG, I-OG
-29	##을	O	O	O, B-CV, I-OG, B-OG, I-CV
-30	이어	O	O	O, B-CV, B-OG, B-TM, B-LC
-31	##가	O	O	O, B-CV, I-OG, B-OG, B-PS
-32	##고	O	O	O, B-CV, I-OG, B-OG, B-PS
-33	있	O	O	O, B-CV, I-OG, B-OG, I-AF
-34	##다	O	O	O, B-CV, I-OG, B-OG, B-TM
-35	.	O	O	O, B-OG, B-LC, B-CV, B-PS
-36	[SEP]	O	O	O, B-CV, B-OG, I-OG, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	공정거래위	B-OG	B-OG
+2	##원회	I-OG	I-OG
+3	##가	O	O
+4	6	B-DT	B-DT
+5	##월	I-DT	I-DT
+6	중	I-DT	I-DT
+7	##에	O	O
+8	은행	O	O
+9	양도	O	B-TM
+10	##성	O	I-TM
+11	##예금	O	I-TM
+12	##증	O	I-TM
+13	##서	O	I-TM
+14	(	O	O
+15	CD	O	O
+16	)	O	O
+17	담합	O	O
+18	사건	O	O
+19	##과	O	O
+20	한진	B-OG	B-OG
+21	##그룹	I-OG	I-OG
+22	조양호	B-PS	B-PS
+23	회장	B-CV	B-CV
+24	일가	O	O
+25	##의	O	O
+26	‘	O	O
+27	일감	O	O
+28	몰아주	O	O
+29	##기	O	O
+30	’	O	O
+31	사건	O	O
+32	##을	O	O
+33	제재	O	O
+34	##한다	O	O
+35	.	O	O
+36	[SEP]	O	O

@@ -1,39 +1,44 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	아니	O	O	O, B-LC, B-PS, B-DT, B-OG
-2	##나다	O	O	O, B-LC, I-LC, B-PS, B-CV
-3	##를	O	O	O, I-LC, I-PS, B-PS, B-LC
-4	##까	O	O	O, I-LC, B-LC, I-PS, I-CV
-5	강원도	B-LC	B-LC	B-LC, O, B-OG, B-AF, I-LC
-6	철원	B-LC	B-LC	B-LC, O, I-LC, B-OG, B-AF
-7	인근	O	O	O, I-LC, B-LC, B-CV, I-AF
-8	화천	B-LC	B-LC	B-LC, O, B-OG, B-AF, I-LC
-9	·	O	O	O, I-LC, B-LC, I-AF, I-DT
-10	양구	B-LC	B-LC	B-LC, I-LC, O, B-OG, B-AF
-11	·	O	O	O, I-LC, B-LC, I-AF, I-DT
-12	인제	B-LC	B-LC	B-LC, I-LC, O, B-OG, B-AF
-13	##에	O	O	O, I-LC, I-AF, B-LC, B-CV
-14	근무	O	O	O, B-CV, B-LC, B-OG, B-AF
-15	##하	O	O	O, B-PS, I-CV, B-CV, B-LC
-16	##는	O	O	O, B-CV, B-LC, B-PS, B-OG
-17	다른	O	O	O, B-CV, B-OG, B-PS, B-LC
-18	공중	B-CV	O	O, B-CV, B-OG, B-FD, I-CV
-19	##보	I-CV	O	O, I-CV, B-CV, I-OG, I-FD
-20	##건	I-CV	O	O, I-CV, B-CV, I-OG, I-FD
-21	##의	I-CV	O	O, I-CV, I-OG, B-CV, I-AF
-22	7	B-QT	B-QT	B-QT, O, I-QT, B-PS, B-DT
-23	##명	I-QT	I-QT	I-QT, O, B-QT, I-PS, I-LC
-24	##의	O	O	O, I-QT, I-OG, I-AF, I-CV
-25	계좌	O	O	O, B-CV, B-TM, B-AF, B-LC
-26	##에서	O	O	O, B-PS, I-CV, I-AF, B-CV
-27	##도	O	O	O, B-LC, B-OG, B-CV, B-PS
-28	제약	O	O	O, B-CV, B-OG, B-LC, B-TM
-29	##업체	O	O	O, I-OG, I-CV, B-CV, B-OG
-30	##에서	O	O	O, B-PS, B-CV, I-OG, I-CV
-31	보낸	O	O	O, B-CV, B-PS, B-LC, B-AF
-32	돈	O	O	O, B-CV, B-TM, B-PS, B-AF
-33	##이	O	O	O, B-PS, B-CV, B-OG, B-LC
-34	나왔	O	O	O, B-CV, B-OG, B-PS, B-TM
-35	##다	O	O	O, B-CV, I-OG, I-CV, I-AF
-36	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-37	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	<	O	O
+2	유	B-OG	B-OG
+3	##에스	I-OG	I-OG
+4	##에이	I-OG	I-OG
+5	##투	I-OG	I-OG
+6	##데이	I-OG	I-OG
+7	>	O	O
+8	(	O	O
+9	USA	O	O
+10	To	O	O
+11	##day	O	O
+12	)	O	O
+13	등	O	O
+14	현지	O	O
+15	언론	O	O
+16	##은	O	O
+17	12	B-DT	B-DT
+18	##일	I-DT	I-DT
+19	(	O	O
+20	현지	O	O
+21	##시	O	O
+22	##각	O	O
+23	)	O	O
+24	캘리포니아	B-LC	B-LC
+25	##의	O	O
+26	선구	O	O
+27	##적	O	O
+28	##인	O	O
+29	트랜스	B-CV	B-CV
+30	##젠	I-CV	I-CV
+31	##더	I-CV	I-CV
+32	학생	B-CV	I-CV
+33	보호법	O	I-CV
+34	##을	O	O
+35	둘러싼	O	O
+36	논란	O	O
+37	##을	O	O
+38	보도	O	O
+39	##했	O	O
+40	##다	O	O
+41	.	O	O
+42	[SEP]	O	O

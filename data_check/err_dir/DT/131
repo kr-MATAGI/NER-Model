@@ -1,22 +1,30 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	어	O	O	O, B-LC, B-PS, B-CV, B-OG
-2	몽골	B-LC	B-LC	B-LC, B-OG, O, B-AF, I-LC
-3	##에	O	O	O, I-LC, I-AF, I-OG, I-PS
-4	가면	O	O	O, B-CV, B-PS, B-OG, B-LC
-5	##은	O	O	O, B-PS, B-CV, B-LC, B-OG
-6	그	O	O	O, B-PS, B-LC, B-CV, B-OG
-7	이	O	O	O, B-PS, B-LC, B-QT, B-AM
-8	톤	O	O	O, B-PS, B-AM, I-PS, B-LC
-9	##유	O	O	O, I-PS, I-AM, I-LC, B-PS
-10	##쿠	O	O	O, I-PS, B-PS, I-LC, I-AM
-11	##크라	O	O	O, I-PS, I-LC, I-AM, I-TR
-12	##는	O	O	O, I-PS, B-PS, B-LC, I-QT
-13	그	O	O	O, B-LC, B-PS, B-OG, B-CV
-14	이	O	O	O, B-PS, B-LC, B-QT, B-EV
-15	돌	B-DT	B-LC	B-LC, B-EV, O, B-PS, B-OG
-16	##궐	I-DT	I-LC	I-LC, I-PS, O, I-EV, I-OG
-17	##의	O	O	O, I-LC, I-PS, I-AF, I-EV
-18	명장	B-CV	B-CV	B-CV, O, B-PS, I-CV, I-PS
-19	##이	O	O	O, I-CV, B-PS, I-EV, I-AF
-20	[SEP]	O	O	O, B-CV, B-PS, B-LC, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	그래서	O	O
+2	이미	O	O
+3	현대	B-DT	O
+4	##후	I-DT	O
+5	##기	I-DT	O
+6	##라는	O	O
+7	말	O	O
+8	##을	O	O
+9	사용	O	O
+10	##하	O	O
+11	##기	O	O
+12	##도	O	O
+13	있	O	O
+14	##기	O	O
+15	##도	O	O
+16	하고	O	O
+17	,	O	O
+18	종종	O	O
+19	현대	B-DT	O
+20	이후	I-DT	O
+21	##라는	O	O
+22	말	O	O
+23	##도	O	O
+24	발견	O	O
+25	##이	O	O
+26	됩니다	O	O
+27	.	O	O
+28	[SEP]	O	O

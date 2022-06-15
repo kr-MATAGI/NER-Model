@@ -1,39 +1,52 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	백	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-2	내정자	B-CV	B-CV	B-CV, O, I-PS, I-CV, B-EV
-3	##가	O	O	O, I-CV, B-CV, I-AF, I-EV
-4	국세청	B-OG	B-OG	B-OG, O, B-AF, B-EV, B-CV
-5	경험	O	O	O, I-OG, I-AF, I-EV, B-CV
-6	##이	O	O	O, B-PS, B-CV, B-OG, B-LC
-7	없	O	O	O, B-CV, B-TM, B-PS, B-LC
-8	##다는	O	O	O, B-PS, B-LC, B-CV, B-OG
-9	한계	O	O	O, B-PS, B-CV, B-LC, B-TM
-10	##는	O	O	O, B-CV, B-PS, B-OG, B-LC
-11	5	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-LC
-12	##개	I-DT	I-DT	I-DT, O, B-DT, I-PS, I-QT
-13	##월	I-DT	I-DT	I-DT, O, B-DT, I-PS, I-QT
-14	동안	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-15	직무	B-CV	O	O, B-CV, I-CV, I-DT, B-TM
-16	##대	I-CV	O	O, I-CV, B-CV, I-TM, I-EV
-17	##행	I-CV	O	O, I-CV, B-CV, I-TM, I-QT
-18	##을	O	O	O, I-CV, B-CV, B-PS, B-QT
-19	해왔	O	O	O, B-CV, B-TM, B-PS, B-OG
-20	##던	O	O	O, B-PS, B-CV, B-LC, B-QT
-21	허	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-22	##병	I-PS	I-PS	I-PS, O, I-OG, B-PS, I-LC
-23	##익	I-PS	I-PS	I-PS, O, I-OG, B-PS, I-LC
-24	차장	B-CV	B-CV	B-CV, O, I-CV, I-PS, B-TM
-25	##이	O	O	O, I-CV, B-PS, I-AF, I-PS
-26	메워	O	O	O, B-CV, B-PS, B-QT, B-TM
-27	##줄	O	O	O, B-CV, B-PS, B-TM, B-QT
-28	것	O	O	O, B-PS, B-CV, B-OG, B-QT
-29	##이	O	O	O, B-PS, B-CV, B-OG, B-QT
-30	##라는	O	O	O, B-PS, B-OG, B-CV, I-OG
-31	게	O	O	O, B-PS, B-OG, B-LC, B-CV
-32	청와대	B-AF	B-OG	B-OG, B-AF, O, B-PS, B-LC
-33	##의	O	O	O, I-OG, I-AF, I-EV, I-CV
-34	설명	O	O	O, B-CV, B-TM, B-QT, B-OG
-35	##이다	O	O	O, B-CV, B-TM, I-OG, I-EV
-36	.	O	O	O, B-PS, B-CV, B-LC, B-OG
-37	[SEP]	O	O	O, B-CV, B-PS, B-LC, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	조희	B-PS	B-PS
+2	##연	I-PS	I-PS
+3	서울	B-LC	B-LC
+4	##교육	B-CV	B-CV
+5	##감	I-CV	I-CV
+6	##은	O	O
+7	""""	O	O
+8	제	O	O
+9	명예	O	O
+10	##를	O	O
+11	걸	O	O
+12	##고	O	O
+13	고민	O	O
+14	##을	O	O
+15	거듭	O	O
+16	##한	O	O
+17	최대치	O	O
+18	##가	O	O
+19	이것	O	O
+20	""""	O	O
+21	이라	O	O
+22	##며	O	O
+23	""""	O	O
+24	교육부	B-OG	B-OG
+25	##에	O	O
+26	초등	O	O
+27	교원	B-CV	O
+28	감축	O	O
+29	규모	O	O
+30	##를	O	O
+31	완화	O	O
+32	##해	O	O
+33	##달라	O	O
+34	##고	O	O
+35	요청	O	O
+36	##했	O	O
+37	##지만	O	O
+38	받아들여	O	O
+39	##지	O	O
+40	##지	O	O
+41	않	O	O
+42	##았	O	O
+43	##다	O	O
+44	""""	O	O
+45	고	O	O
+46	말	O	O
+47	##했	O	O
+48	##다	O	O
+49	.	O	O
+50	[SEP]	O	O

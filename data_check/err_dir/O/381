@@ -1,14 +1,18 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	천	B-QT	B-QT	B-QT, O, B-DT, B-LC, B-EV
-2	##칠	I-QT	I-QT	I-QT, O, I-DT, B-QT, I-LC
-3	##백	I-QT	I-QT	I-QT, O, I-DT, B-QT, I-LC
-4	##여	I-QT	I-QT	I-QT, O, I-DT, I-LC, B-QT
-5	##거	I-QT	I-QT	I-QT, O, I-DT, B-QT, I-LC
-6	##저	O	I-QT	I-QT, O, I-LC, I-DT, I-CV
-7	세계	O	O	O, I-QT, B-LC, B-CV, B-PS
-8	##적인	O	O	O, I-QT, I-LC, B-QT, I-AF
-9	공항	O	O	O, B-LC, B-CV, I-LC, B-AF
-10	중	O	O	O, B-LC, B-CV, B-TM, B-AF
-11	##에서	O	O	O, B-CV, B-LC, B-OG, B-QT
-12	[SEP]	O	O	O, B-LC, B-CV, B-AF, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	그	O	O
+2	~	O	O
+3	십상	O	B-CV
+4	##시	O	I-CV
+5	그니까	O	O
+6	인제	O	O
+7	대통령	B-CV	B-CV
+8	주변	O	O
+9	##에	O	O
+10	있	O	O
+11	##었	O	O
+12	##던	O	O
+13	내시	O	B-CV
+14	##들이	O	O
+15	영상	O	O
+16	[SEP]	O	O

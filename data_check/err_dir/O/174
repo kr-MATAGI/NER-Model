@@ -1,12 +1,48 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	아	O	O	O, B-CV, B-TM, B-OG, B-QT
-2	.	O	O	O, B-CV, B-PS, B-LC, B-QT
-3	에이	O	B-FD	B-FD, O, B-QT, B-TR, B-TM
-4	##라고	O	O	O, I-QT, I-OG, I-TR, I-FD
-5	하	O	O	O, B-CV, B-OG, B-TM, B-PS
-6	##는	O	O	O, B-CV, B-LC, B-PS, B-OG
-7	.	O	O	O, B-CV, B-LC, B-PS, B-OG
-8	거	O	O	O, B-CV, B-PS, B-OG, B-AF
-9	.	O	O	O, B-CV, B-LC, I-OG, B-PS
-10	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	만약	O	O
+2	학생	B-CV	B-CV
+3	##이	O	O
+4	자신	O	O
+5	##의	O	O
+6	힘	O	O
+7	##을	O	O
+8	과시	O	O
+9	##하	O	O
+10	##기	O	O
+11	위해	O	O
+12	이런	O	O
+13	행동	O	O
+14	##을	O	O
+15	했	O	O
+16	##을	O	O
+17	경우	O	O
+18	""""	O	O
+19	이건	O	O
+20	선도	O	B-OG
+21	##위원회	O	I-OG
+22	##에	O	O
+23	회부	O	O
+24	##할	O	O
+25	수	O	O
+26	있	O	O
+27	##는	O	O
+28	사안	O	O
+29	##인	O	O
+30	##데	O	O
+31	알고	O	O
+32	있	O	O
+33	##니	O	O
+34	?	O	O
+35	""""	O	O
+36	라며	O	O
+37	단호	O	O
+38	##하	O	O
+39	##게	O	O
+40	대응	O	O
+41	##하라	O	O
+42	##고	O	O
+43	조언	O	O
+44	##한다	O	O
+45	.	O	O
+46	[SEP]	O	O

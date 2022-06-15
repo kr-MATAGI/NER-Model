@@ -1,17 +1,8 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, I-OG, B-CV, I-AF
-1	지구	O	B-LC	B-LC, O, B-OG, I-LC, B-AF
-2	##에서	O	O	O, I-LC, I-AF, I-OG, B-LC
-3	제일	O	O	O, B-CV, B-LC, B-QT, B-PS
-4	깔끔	O	O	O, B-LC, B-PS, B-CV, B-AF
-5	##한	O	O	O, B-LC, B-PS, I-AF, I-LC
-6	지옥	O	O	O, B-AF, B-LC, B-CV, B-PS
-7	,	O	O	O, I-AF, B-LC, B-CV, I-CV
-8	미국	B-LC	B-LC	B-LC, B-OG, O, I-LC, B-AF
-9	##의	O	O	O, I-AF, I-LC, I-OG, B-AF
-10	'	O	O	O, B-LC, B-CV, B-AF, B-TM
-11	수퍼	O	O	O, B-AF, B-TR, B-PS, B-TM
-12	##맥스	O	O	O, I-AF, I-TR, I-PS, I-TM
-13	'	O	O	O, I-AF, I-EV, I-OG, I-PS
-14	감옥	O	O	O, B-AF, B-CV, B-PS, B-LC
-15	[SEP]	O	O	O, I-AF, B-CV, B-LC, I-LC
+	text	label	preds
+0	[CLS]	O	O
+1	뭐	O	O
+2	대권	O	B-CV
+3	##주	O	I-CV
+4	##자	O	I-CV
+5	##라고	O	O
+6	[SEP]	O	O

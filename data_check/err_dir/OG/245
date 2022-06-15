@@ -1,56 +1,25 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-EV, B-CV, I-OG, I-CV
-1	이후	O	O	O, B-DT, B-LC, B-OG, B-EV
-2	2012	B-DT	B-DT	B-DT, I-DT, O, B-EV, B-QT
-3	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
-4	10	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-5	##월	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-OG
-6	원자	B-PS	B-PS	B-PS, O, I-PS, B-OG, B-LC
-7	##바오	I-PS	I-PS	I-PS, O, B-PS, I-OG, I-DT
-8	(	O	O	O, I-PS, I-OG, B-LC, B-CV
-9	[UNK]	O	O	O, B-LC, B-OG, B-CV, B-PS
-10	家	O	O	O, B-LC, B-PS, B-CV, B-OG
-11	[UNK]	O	O	O, B-LC, B-PS, B-CV, B-OG
-12	)	O	O	O, B-LC, B-PS, B-OG, B-CV
-13	전	O	O	O, B-LC, B-PS, B-EV, B-OG
-14	총리	B-CV	B-CV	B-CV, O, B-OG, B-EV, B-PS
-15	주재	O	O	O, I-EV, I-CV, B-CV, I-OG
-16	##로	O	O	O, B-LC, B-PS, I-EV, B-OG
-17	국무	B-OG	B-OG	B-OG, O, B-EV, B-CV, B-AF
-18	##원	I-OG	I-OG	I-OG, O, I-EV, I-CV, I-AF
-19	상무위원	B-OG	O	O, B-OG, I-OG, B-EV, I-EV
-20	##회	I-OG	O	O, I-OG, I-EV, I-CV, B-OG
-21	##를	O	O	O, I-EV, I-OG, I-DT, B-EV
-22	열	O	O	O, B-EV, B-LC, B-OG, I-EV
-23	##어	O	O	O, B-LC, B-OG, I-EV, B-PS
-24	동부	B-LC	B-TM	B-TM, B-LC, O, B-OG, B-AF
-25	연안	I-LC	I-LC	I-LC, O, B-LC, I-TM, I-QT
-26	##을	O	O	O, I-LC, B-LC, I-TM, B-CV
-27	중심	O	O	O, B-LC, B-CV, B-TM, B-QT
-28	##으로	O	O	O, B-LC, B-PS, B-QT, B-OG
-29	한	O	O	O, B-LC, B-PS, B-OG, B-QT
-30	제한	O	O	O, B-LC, B-CV, I-LC, B-TM
-31	##적인	O	O	O, B-LC, B-TM, B-PS, B-QT
-32	원전	O	O	O, B-AF, B-TM, B-LC, B-QT
-33	재개	O	O	O, B-CV, B-LC, I-AF, I-EV
-34	##를	O	O	O, B-LC, B-CV, B-OG, B-PS
-35	모색	O	O	O, B-LC, B-OG, B-CV, B-TM
-36	##하	O	O	O, B-LC, B-PS, B-OG, B-DT
-37	##다가	O	O	O, B-LC, B-OG, B-CV, B-PS
-38	이번	O	O	O, B-LC, B-CV, B-OG, B-TM
-39	##에	O	O	O, B-LC, B-CV, B-OG, B-PS
-40	원전	O	O	O, B-AF, B-LC, B-TM, B-CV
-41	건설	O	O	O, B-LC, I-AF, B-AF, B-CV
-42	##을	O	O	O, B-CV, B-LC, B-OG, B-PS
-43	본격	O	O	O, B-CV, B-LC, B-TM, B-OG
-44	추진	O	O	O, B-LC, B-CV, B-OG, B-TM
-45	##키	O	O	O, B-LC, B-PS, B-CV, B-OG
-46	##로	O	O	O, B-CV, B-LC, B-PS, B-OG
-47	한	O	O	O, B-LC, B-OG, B-PS, B-CV
-48	것	O	O	O, B-CV, B-OG, B-PS, B-LC
-49	##으로	O	O	O, B-PS, B-CV, I-EV, I-OG
-50	풀이	O	O	O, B-OG, B-PS, B-LC, B-CV
-51	##된	O	O	O, I-OG, I-PS, I-TR, B-PS
-52	##다	O	O	O, B-CV, B-LC, I-OG, I-EV
-53	.	O	O	O, B-LC, B-OG, B-PS, B-CV
-54	[SEP]	O	O	O, B-LC, B-CV, B-OG, I-EV
+	text	label	preds
+0	[CLS]	O	O
+1	화학	O	O
+2	원료	O	O
+3	##가	O	O
+4	대세	O	O
+5	##였	O	O
+6	##던	O	O
+7	1970	B-DT	B-DT
+8	##년	I-DT	I-DT
+9	##대	I-DT	I-DT
+10	##에	O	O
+11	루	B-OG	B-PS
+12	##메	I-OG	I-PS
+13	##네	I-OG	I-PS
+14	##는	O	O
+15	반대	O	O
+16	##의	O	O
+17	길	O	O
+18	##을	O	O
+19	걸	O	O
+20	##었	O	O
+21	##다	O	O
+22	.	O	O
+23	[SEP]	O	O

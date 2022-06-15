@@ -1,16 +1,21 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	신	O	B-CV	B-CV, O, B-PS, B-OG, I-CV
-2	##은	O	O	O, I-CV, I-OG, I-AF, B-CV
-3	완벽히	O	O	O, B-CV, B-LC, B-TM, B-PS
-4	실수	O	O	O, B-CV, B-TM, B-AF, B-LC
-5	##를	O	O	O, B-CV, I-AF, I-CV, I-OG
-6	할	O	O	O, B-CV, B-TM, B-LC, I-AF
-7	리가	O	O	O, B-CV, B-TM, B-QT, B-OG
-8	없	O	O	O, B-CV, I-AF, I-CV, B-QT
-9	##어	O	O	O, B-CV, I-AF, I-CV, I-OG
-10	이런	O	O	O, B-CV, B-TM, B-OG, B-LC
-11	식	O	O	O, B-CV, B-PS, B-TM, B-LC
-12	##의	O	O	O, B-CV, B-PS, I-CV, B-OG
-13	사고	O	O	O, B-CV, B-TM, B-QT, B-LC
-14	[SEP]	O	O	O, B-CV, I-CV, I-AF, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	대사관	O	O
+2	건물	O	O
+3	##을	O	O
+4	이용해	O	O
+5	불법	O	O
+6	임대	O	O
+7	수입	O	O
+8	##을	O	O
+9	올리	O	O
+10	##는	O	O
+11	곳	O	O
+12	##은	O	O
+13	폴란드	O	B-LC
+14	##만	O	O
+15	##이	O	O
+16	아니	O	O
+17	##다	O	O
+18	.	O	O
+19	[SEP]	O	O

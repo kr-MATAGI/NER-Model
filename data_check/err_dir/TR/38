@@ -1,43 +1,30 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	두	B-QT	B-QT	B-QT, O, B-DT, I-QT, B-EV
-2	당	I-QT	I-QT	I-QT, O, I-EV, I-DT, I-OG
-3	##이	O	O	O, I-QT, B-PS, I-EV, B-OG
-4	이달	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-QT
-5	안	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-TI
-6	##으로	O	O	O, I-DT, B-PS, B-CV, B-OG
-7	출범	O	O	O, B-OG, B-EV, B-CV, B-LC
-8	##시	O	O	O, B-LC, B-PS, B-OG, I-OG
-9	##키	O	O	O, B-LC, B-PS, B-OG, B-EV
-10	##기	O	O	O, B-PS, B-LC, B-OG, B-CV
-11	##로	O	O	O, B-CV, B-PS, B-OG, B-LC
-12	했	O	O	O, B-OG, B-LC, B-PS, B-CV
-13	##던	O	O	O, B-EV, B-LC, B-OG, B-PS
-14	‘	O	O	O, B-EV, B-DT, B-LC, B-OG
-15	진보	B-TR	B-TR	B-TR, O, B-OG, B-EV, B-PS
-16	##대	O	O	O, I-OG, I-EV, I-TR, B-OG
-17	##통	O	O	O, I-OG, I-EV, I-TR, I-PS
-18	##합	O	O	O, I-OG, I-EV, I-TR, I-AF
-19	##과	O	O	O, I-EV, I-OG, B-EV, B-OG
-20	새로운	O	O	O, I-OG, B-OG, I-EV, B-LC
-21	진보	B-TR	B-TR	B-TR, O, B-OG, I-TR, I-OG
-22	##정	O	O	O, I-OG, I-TR, I-EV, B-OG
-23	##당	O	O	O, I-OG, I-EV, I-TR, I-AF
-24	건설	O	O	O, I-OG, I-EV, B-OG, B-EV
-25	##을	O	O	O, I-EV, I-OG, B-EV, B-OG
-26	위한	O	O	O, I-EV, I-OG, B-EV, B-OG
-27	진보	B-TR	O	O, B-TR, B-OG, I-OG, I-EV
-28	##진	O	O	O, I-OG, I-EV, I-TR, B-OG
-29	##영	O	O	O, I-OG, I-EV, I-CV, I-TR
-30	대표자	B-CV	B-CV	B-CV, I-EV, O, B-EV, I-OG
-31	연석회의	O	O	O, B-EV, I-EV, B-OG, I-OG
-32	’	O	O	O, I-EV, I-OG, I-DT, B-EV
-33	의	O	O	O, I-EV, B-OG, B-EV, B-PS
-34	연내	O	O	O, B-DT, B-TI, I-DT, B-QT
-35	구성	O	O	O, I-DT, B-OG, B-CV, I-EV
-36	##이	O	O	O, B-PS, B-OG, B-LC, B-CV
-37	어려워진	O	O	O, B-CV, B-TM, I-EV, I-OG
-38	탓	O	O	O, B-CV, B-TM, I-EV, I-CV
-39	##이다	O	O	O, B-CV, B-TM, I-CV, B-QT
-40	.	O	O	O, B-LC, B-OG, B-PS, I-EV
-41	[SEP]	O	O	O, I-EV, B-CV, I-OG, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	신기	O	O
+2	##술	O	O
+3	##은	O	O
+4	(	O	O
+5	새로운	O	O
+6	시장	O	O
+7	##을	O	O
+8	성장	O	O
+9	##시	O	O
+10	##키	O	O
+11	##는	O	O
+12	것	O	O
+13	##이지	O	O
+14	)	O	O
+15	기존	O	O
+16	시장	O	O
+17	##을	O	O
+18	나눠	O	O
+19	먹	O	O
+20	##는	O	O
+21	제로	B-TR	O
+22	##섬	I-TR	O
+23	##이	O	O
+24	아니	O	O
+25	##다	O	O
+26	.	O	O
+27	""""	O	O
+28	[SEP]	O	O

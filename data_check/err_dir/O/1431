@@ -1,25 +1,42 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-AF
-1	그러나	O	O	O, B-CV, B-OG, B-PS, B-LC
-2	솔직히	O	O	O, B-CV, B-PS, B-LC, B-OG
-3	,	O	O	O, B-LC, B-PS, B-CV, B-OG
-4	한국	B-LC	B-LC	B-LC, B-OG, O, B-PS, B-AF
-5	##의	O	O	O, I-LC, I-OG, I-AF, B-LC
-6	정부	B-OG	B-OG	B-OG, O, B-AF, I-OG, B-CV
-7	##기	O	O	O, I-OG, I-CV, I-AF, B-OG
-8	##관	O	O	O, I-OG, I-CV, I-AF, B-OG
-9	##이	O	O	O, B-PS, I-OG, B-LC, B-OG
-10	싸이	O	B-PS	B-PS, O, I-PS, B-LC, B-AF
-11	##를	O	O	O, I-PS, I-AF, I-OG, B-CV
-12	대하	O	O	O, B-LC, B-OG, B-CV, B-TM
-13	##는	O	O	O, B-LC, B-CV, B-PS, B-OG
-14	태도	O	O	O, B-CV, B-LC, B-PS, B-TM
-15	##는	O	O	O, B-CV, B-LC, B-OG, B-PS
-16	너무	O	O	O, B-CV, B-PS, B-LC, B-OG
-17	호들갑	O	O	O, B-CV, B-PS, B-LC, B-TM
-18	##스러운	O	O	O, B-PS, I-PS, I-AF, B-LC
-19	것	O	O	O, B-CV, B-OG, B-PS, B-LC
-20	같	O	O	O, B-CV, I-OG, I-CV, B-LC
-21	##다	O	O	O, B-CV, I-OG, B-LC, I-CV
-22	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-23	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	배우	B-CV	B-CV
+2	정현	B-PS	B-PS
+3	##구	I-PS	I-PS
+4	(	O	O
+5	33	B-QT	B-QT
+6	)	O	O
+7	,	O	O
+8	이지	B-PS	B-PS
+9	##영	I-PS	I-PS
+10	(	O	O
+11	[UNK]	O	O
+12	)	O	O
+13	,	O	O
+14	이화	B-PS	B-PS
+15	(	O	O
+16	[UNK]	O	O
+17	)	O	O
+18	와	O	O
+19	차	B-PS	B-PS
+20	##성	I-PS	I-PS
+21	##만	I-PS	I-PS
+22	(	O	O
+23	32	B-QT	B-QT
+24	)	O	O
+25	,	O	O
+26	김민	B-PS	B-PS
+27	##건	I-PS	I-PS
+28	(	O	O
+29	20	B-QT	B-QT
+30	)	O	O
+31	등이	O	O
+32	함께	O	O
+33	해적	O	B-AF
+34	##선	O	I-AF
+35	##을	O	O
+36	타고	O	O
+37	##있	O	O
+38	##다	O	O
+39	.	O	O
+40	[SEP]	O	O

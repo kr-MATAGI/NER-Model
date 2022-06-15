@@ -1,16 +1,17 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, I-AF, I-EV
-1	세종	B-LC	B-LC	B-LC, B-OG, O, B-AF, B-PS
-2	##시	I-LC	I-LC	I-LC, I-OG, O, I-AF, B-LC
-3	지켜	O	O	O, I-LC, I-OG, I-AF, I-EV
-4	##낸	O	O	O, B-LC, I-OG, B-PS, I-AF
-5	朴	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-6	대통령	B-CV	B-CV	B-CV, I-PS, O, I-CV, B-EV
-7	,	O	O	O, I-CV, I-AF, I-EV, I-OG
-8	세종	B-AF	B-AF	B-AF, B-LC, B-OG, O, B-EV
-9	##청사	I-AF	I-AF	I-AF, I-LC, I-OG, O, I-EV
-10	##서	O	O	O, I-AF, I-EV, I-LC, I-OG
-11	송년	B-EV	O	O, B-DT, B-EV, B-CV, B-OG
-12	국무	I-EV	B-EV	B-EV, B-OG, B-AF, O, I-EV
-13	##회의	I-EV	I-EV	I-EV, O, I-OG, I-AF, I-DT
-14	[SEP]	O	O	O, I-EV, I-OG, I-AF, I-DT
+	text	label	preds
+0	[CLS]	O	O
+1	피자	B-EV	B-OG
+2	##헛	I-EV	I-OG
+3	사건	I-EV	O
+4	##은	O	O
+5	20	B-DT	B-DT
+6	##개	I-DT	I-DT
+7	##월	I-DT	I-DT
+8	##만	I-DT	I-DT
+9	##에	O	O
+10	과징금	B-CV	B-CV
+11	##이	O	O
+12	내려졌	O	O
+13	##다	O	O
+14	.	O	O
+15	[SEP]	O	O

@@ -1,41 +1,25 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-EV, I-CV
-1	김	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
-2	후보	B-CV	B-CV	B-CV, O, I-PS, I-CV, B-OG
-3	측은	O	O	O, I-CV, B-CV, I-OG, I-EV
-4	고의	O	O	O, B-CV, B-TM, B-PS, B-LC
-5	##적인	O	O	O, I-CV, B-PS, I-PS, I-TM
-6	폭행	O	O	O, B-CV, B-TM, B-LC, I-CV
-7	##이	O	O	O, B-PS, B-CV, B-OG, B-LC
-8	##라고	O	O	O, B-PS, B-OG, B-LC, B-CV
-9	주장	O	O	O, B-CV, B-OG, B-TM, B-LC
-10	##하	O	O	O, B-CV, B-OG, B-PS, B-LC
-11	##지만	O	O	O, B-OG, B-CV, B-LC, B-PS
-12	본보	B-EV	O	O, B-OG, B-CV, B-LC, B-PS
-13	##가	I-EV	O	O, B-OG, I-OG, B-PS, B-LC
-14	사건	I-EV	O	O, B-CV, B-OG, B-TM, B-LC
-15	당시	O	O	O, B-OG, B-CV, B-PS, B-LC
-16	경찰	B-OG	B-OG	B-OG, O, B-CV, B-AF, B-PS
-17	채	O	O	O, B-CV, I-CV, I-OG, B-PS
-18	##증	O	O	O, I-CV, I-OG, B-CV, I-PS
-19	##반	O	O	O, I-CV, I-OG, I-PS, B-CV
-20	##이	O	O	O, B-PS, I-CV, B-CV, B-OG
-21	촬영	O	O	O, B-TM, B-CV, B-LC, I-CV
-22	##한	O	O	O, B-LC, B-PS, B-CV, B-OG
-23	동영상	O	O	O, B-TM, B-LC, B-CV, B-TR
-24	##을	O	O	O, B-OG, B-CV, B-LC, B-PS
-25	확인	O	O	O, B-OG, B-CV, B-LC, B-TM
-26	##한	O	O	O, B-OG, B-LC, B-PS, B-CV
-27	결과	O	O	O, B-OG, B-CV, B-PS, B-LC
-28	경찰	B-OG	B-OG	B-OG, O, B-AF, B-CV, B-LC
-29	##의	O	O	O, I-OG, I-AF, I-EV, I-CV
-30	폭력	O	O	O, B-CV, I-OG, B-TM, B-LC
-31	##이	O	O	O, B-PS, B-OG, B-LC, B-CV
-32	아닌	O	O	O, B-OG, B-LC, B-CV, B-PS
-33	우발	O	O	O, B-CV, B-TM, B-PS, B-LC
-34	##적	O	O	O, B-PS, I-PS, I-CV, I-QT
-35	사건	O	O	O, B-CV, B-TM, B-LC, I-EV
-36	##으로	O	O	O, B-OG, B-CV, B-PS, B-LC
-37	보인다	O	O	O, B-OG, B-CV, B-TM, B-LC
-38	.	O	O	O, B-CV, B-PS, B-LC, B-OG
-39	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	동래	B-LC	B-LC
+2	##구	I-LC	I-LC
+3	국악	O	B-OG
+4	##관	O	I-OG
+5	##현	O	I-OG
+6	##악단	O	I-OG
+7	##도	O	O
+8	지난달	B-DT	B-DT
+9	15	I-DT	I-DT
+10	##일	I-DT	I-DT
+11	동래	B-AF	B-AF
+12	##문화회관	I-AF	I-AF
+13	##에	O	O
+14	##서	O	O
+15	창단	B-EV	O
+16	##연	I-EV	O
+17	##주	I-EV	O
+18	##회	I-EV	O
+19	##를	O	O
+20	가졌	O	O
+21	##다	O	O
+22	.	O	O
+23	[SEP]	O	O

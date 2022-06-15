@@ -1,24 +1,30 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	교육부	B-OG	B-OG	B-OG, B-AF, B-LC, O, B-PS
-2	“	O	O	O, I-OG, B-CV, I-EV, I-DT
-3	행정	B-FD	B-FD	B-FD, O, I-FD, B-CV, B-TR
-4	-	O	O	O, I-FD, B-FD, I-OG, I-AF
-5	공학	B-FD	I-FD	I-FD, O, B-FD, I-OG, I-AF
-6	등	O	O	O, I-FD, B-PS, I-OG, B-CV
-7	엘리트	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-FD
-8	양성	O	O	O, I-CV, B-CV, I-OG, I-TM
-9	”	O	O	O, I-CV, B-PS, B-LC, B-CV
-10	…	O	O	O, B-LC, B-CV, B-OG, B-PS
-11	한국	O	O	O, B-LC, B-CV, B-PS, B-OG
-12	##형	O	O	O, I-LC, I-CV, I-QT, B-CV
-13	‘	O	O	O, B-CV, I-CV, B-AF, B-LC
-14	그랑	B-CV	B-CV	B-CV, I-CV, O, B-OG, B-AF
-15	##제	I-CV	I-CV	I-CV, O, I-OG, B-CV, I-AF
-16	##콜	I-CV	I-CV	I-CV, O, I-OG, B-CV, I-AF
-17	’	O	O	O, I-CV, B-CV, I-OG, I-AF
-18	제도	O	I-CV	I-CV, O, B-CV, I-AF, I-OG
-19	도입	O	O	O, I-CV, B-CV, B-LC, B-PS
-20	##기	O	O	O, B-LC, B-PS, B-OG, I-CV
-21	##로	O	O	O, B-LC, I-OG, B-OG, B-PS
-22	[SEP]	O	O	O, B-LC, B-CV, B-FD, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	굳이	O	O
+2	주민	B-CV	B-CV
+3	##들	O	O
+4	##과	O	O
+5	특별	O	O
+6	##한	O	O
+7	공공	O	O
+8	##미술	B-FD	O
+9	##을	O	O
+10	하지	O	O
+11	않	O	O
+12	##아	O	O
+13	##도	O	O
+14	연남동	B-LC	B-LC
+15	곳곳	O	O
+16	##에	O	O
+17	##는	O	O
+18	이미	O	O
+19	‘	O	O
+20	예술	O	O
+21	’	O	O
+22	이	O	O
+23	녹	O	O
+24	##아	O	O
+25	있	O	O
+26	##다	O	O
+27	.	O	O
+28	[SEP]	O	O

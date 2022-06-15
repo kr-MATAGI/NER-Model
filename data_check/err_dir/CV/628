@@ -1,23 +1,20 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	그	O	O	O, B-CV, B-LC, B-OG, B-PS
-2	외	O	O	O, B-PS, B-LC, B-CV, B-TM
-3	위원	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-TM
-4	##은	O	O	O, I-CV, B-CV, I-OG, I-AF
-5	부장	B-CV	B-CV	B-CV, O, B-OG, B-TM, I-CV
-6	##검사	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-QT
-7	,	O	O	O, I-CV, I-OG, B-CV, I-QT
-8	부부	B-CV	B-CV	B-CV, O, B-OG, B-TM, I-CV
-9	##장	I-CV	B-CV	B-CV, I-CV, O, I-OG, B-OG
-10	##검사	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-QT
-11	또는	O	O	O, I-CV, B-CV, I-OG, B-PS
-12	평	B-CV	B-CV	B-CV, O, B-OG, I-CV, B-TM
-13	##검사	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-QT
-14	중	O	O	O, I-CV, B-PS, B-QT, B-LC
-15	##에서	O	O	O, B-PS, B-LC, B-CV, B-OG
-16	지검	O	O	O, B-OG, B-CV, B-LC, B-AF
-17	##장이	O	O	O, I-OG, B-PS, I-CV, I-AF
-18	지명	O	O	O, B-CV, B-PS, I-OG, B-OG
-19	##한다	O	O	O, B-PS, I-OG, B-CV, B-LC
-20	.	O	O	O, B-CV, B-LC, B-PS, B-OG
-21	[SEP]	O	O	O, B-CV, B-LC, B-PS, I-CV
+	text	label	preds
+0	[CLS]	O	O
+1	두	O	O
+2	분이	O	O
+3	##서	O	O
+4	이제	O	O
+5	한	O	B-QT
+6	부부	B-CV	I-QT
+7	앞	O	O
+8	##에	O	O
+9	타	O	O
+10	##신	O	O
+11	분	O	O
+12	##들	O	O
+13	##은	O	O
+14	한	O	B-QT
+15	부부	B-CV	I-QT
+16	간이	O	O
+17	##시고	O	O
+18	[SEP]	O	O

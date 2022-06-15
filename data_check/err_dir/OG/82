@@ -1,18 +1,76 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-AF
-1	한국	B-LC	B-LC	B-LC, B-OG, O, B-PS, B-AF
-2	창작	B-FD	B-FD	B-FD, O, B-AF, I-FD, B-OG
-3	뮤지컬	I-FD	I-FD	I-FD, B-FD, O, I-AF, I-OG
-4	##이	O	O	O, I-FD, I-AF, I-OG, B-CV
-5	주로	O	O	O, B-LC, B-OG, B-CV, B-TM
-6	수출	O	O	O, B-CV, B-LC, B-OG, B-TM
-7	##되	O	O	O, B-LC, B-PS, B-CV, I-AF
-8	##는	O	O	O, B-CV, B-LC, B-OG, B-TM
-9	국가	O	O	O, B-LC, B-CV, B-OG, B-PS
-10	##는	O	O	O, B-CV, B-LC, B-OG, I-OG
-11	일본	B-OG	B-LC	B-LC, B-OG, O, B-AF, B-PS
-12	##과	O	O	O, I-LC, I-OG, I-AF, B-LC
-13	중국	B-OG	B-LC	B-LC, B-OG, O, I-LC, B-AF
-14	##이다	O	O	O, I-LC, I-OG, I-AF, B-CV
-15	.	O	O	O, B-LC, B-OG, B-CV, I-OG
-16	[SEP]	O	O	O, B-LC, B-CV, B-OG, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	SK	B-OG	B-OG
+2	##바이	I-OG	I-OG
+3	##오	I-OG	I-OG
+4	##팜	I-OG	I-OG
+5	##은	O	O
+6	2011	B-DT	B-DT
+7	##년	I-DT	I-DT
+8	기	B-TM	B-TM
+9	##면	I-TM	I-TM
+10	##증	I-TM	I-TM
+11	(	O	O
+12	병	O	O
+13	##적	O	O
+14	##인	O	O
+15	졸음	O	O
+16	##을	O	O
+17	유발	O	O
+18	##하	O	O
+19	##는	O	O
+20	질환	O	O
+21	)	O	O
+22	이나	O	O
+23	수면	B-TM	B-TM
+24	##무	I-TM	I-TM
+25	##호흡	I-TM	I-TM
+26	##증	I-TM	I-TM
+27	##과	O	O
+28	같	O	O
+29	##은	O	O
+30	수면	O	O
+31	장애	O	O
+32	치료	O	O
+33	분야	O	O
+34	##에	O	O
+35	##서	O	O
+36	글로벌	O	O
+37	1	B-QT	B-QT
+38	##위	I-QT	I-QT
+39	제약사	O	O
+40	##인	O	O
+41	미국	B-LC	B-LC
+42	재즈	B-FD	B-OG
+43	(	O	O
+44	J	B-OG	O
+45	##A	I-OG	O
+46	##Z	I-OG	O
+47	##Z	I-OG	O
+48	)	O	O
+49	사	O	O
+50	##에	O	O
+51	기술	O	O
+52	##을	O	O
+53	수출	O	O
+54	##해	O	O
+55	공동	O	O
+56	개발	O	O
+57	##에	O	O
+58	나섰	O	O
+59	##고	O	O
+60	,	O	O
+61	지난	B-DT	B-DT
+62	6	I-DT	I-DT
+63	##월	I-DT	I-DT
+64	환자	B-CV	B-CV
+65	##를	O	O
+66	대상	O	O
+67	##으로	O	O
+68	한	O	O
+69	임상시험	O	O
+70	##을	O	O
+71	끝냈	O	O
+72	##다	O	O
+73	.	O	O
+74	[SEP]	O	O

@@ -1,46 +1,12 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-EV, I-CV
-1	FDA	O	B-OG	B-OG, O, I-OG, B-LC, B-AF
-2	##는	O	O	O, I-OG, B-CV, I-EV, I-AF
-3	담뱃	O	O	O, B-TM, B-CV, B-AF, B-LC
-4	##갑	O	O	O, I-TM, I-AF, I-LC, B-TM
-5	##에	O	O	O, B-CV, B-TM, B-LC, B-PS
-6	실	O	O	O, B-TM, B-QT, B-MT, B-PS
-7	##을	O	O	O, B-CV, B-PS, B-LC, B-TM
-8	36	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-EV
-9	##점	I-QT	I-QT	I-QT, O, I-LC, I-EV, I-PS
-10	##의	O	O	O, I-QT, I-EV, B-CV, I-OG
-11	경고	O	O	O, B-TM, B-CV, B-AF, B-LC
-12	##그림	O	O	O, B-CV, B-LC, B-PS, B-TM
-13	시안	O	O	O, B-LC, B-AF, B-CV, B-PS
-14	##을	O	O	O, B-LC, B-CV, B-OG, B-PS
-15	최근	O	O	O, B-LC, B-OG, B-DT, B-TM
-16	온라인	O	O	O, B-LC, B-TM, B-CV, B-OG
-17	홈페이지	O	O	O, B-LC, B-TM, B-CV, B-OG
-18	##에	O	O	O, B-LC, B-CV, B-OG, B-TM
-19	공개	O	O	O, B-LC, B-CV, B-OG, B-TM
-20	##했	O	O	O, B-LC, B-OG, B-PS, B-CV
-21	##으며	O	O	O, B-LC, B-OG, B-CV, B-TM
-22	내년	B-DT	B-DT	B-DT, I-DT, O, B-QT, B-EV
-23	1	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-24	##월	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-OG
-25	9	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-OG
-26	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-OG
-27	##까	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-OG
-28	##지	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-OG
-29	의견	O	O	O, I-DT, B-CV, B-LC, B-TM
-30	수렴	O	O	O, B-LC, I-EV, B-PS, B-CV
-31	##을	O	O	O, B-LC, B-CV, B-OG, B-PS
-32	거쳐	O	O	O, B-LC, B-OG, B-PS, B-TM
-33	6	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-34	##월	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-35	최종	O	O	O, I-DT, B-QT, B-LC, B-TM
-36	9	B-QT	B-QT	B-QT, I-QT, O, B-TM, B-EV
-37	##개	I-QT	I-QT	I-QT, O, I-TM, I-LC, I-EV
-38	안	O	O	O, I-QT, B-TM, I-TM, B-QT
-39	##을	O	O	O, I-QT, B-CV, B-OG, B-TM
-40	정할	O	O	O, B-CV, B-LC, B-OG, B-TM
-41	예정	O	O	O, B-CV, B-OG, B-TM, B-LC
-42	##이다	O	O	O, B-CV, B-TM, B-OG, B-QT
-43	.	O	O	O, B-LC, B-OG, B-CV, B-PS
-44	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	오늘	B-DT	B-DT
+2	167	B-QT	B-QT
+3	##2	I-QT	I-QT
+4	##억	I-QT	I-QT
+5	+	O	I-QT
+6	α	O	I-QT
+7	납부	O	O
+8	계획	O	O
+9	발표	O	O
+10	[SEP]	O	O

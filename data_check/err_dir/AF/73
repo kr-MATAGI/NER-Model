@@ -1,60 +1,38 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-EV, I-CV
-1	하지만	O	O	O, B-LC, B-OG, B-CV, B-PS
-2	북한	B-LC	B-LC	B-LC, B-OG, O, B-PS, B-AF
-3	외무성	B-OG	B-OG	B-OG, I-OG, B-AF, O, B-CV
-4	대변인	B-CV	B-CV	B-CV, O, I-CV, I-OG, B-OG
-5	##은	O	O	O, I-CV, I-OG, B-CV, I-EV
-6	이날	B-DT	B-DT	B-DT, O, I-DT, B-LC, B-EV
-7	조선	B-OG	B-OG	B-OG, B-AF, I-OG, O, B-EV
-8	##중	I-OG	I-OG	I-OG, O, I-AF, I-LC, I-EV
-9	##앙	I-OG	I-OG	I-OG, O, I-AF, I-LC, I-EV
-10	##통신	I-OG	I-OG	I-OG, O, I-AF, I-LC, I-EV
-11	##에	O	O	O, I-OG, I-EV, I-AF, I-QT
-12	""""	O	O	O, B-LC, B-CV, B-OG, I-OG
-13	우리	O	O	O, B-AF, B-OG, B-LC, B-PS
-14	무역	B-AF	O	O, B-AF, B-LC, I-AF, B-CV
-15	##선	I-AF	O	O, I-AF, B-AF, I-LC, I-OG
-16	청천	B-AF	B-AF	B-AF, I-AF, B-LC, O, B-PS
-17	##강	I-AF	I-AF	I-AF, I-LC, O, I-PS, I-OG
-18	##호	I-AF	I-AF	I-AF, I-LC, O, I-PS, I-OG
-19	##가	O	O	O, I-AF, B-LC, I-LC, I-PS
-20	억류	O	O	O, B-CV, B-LC, B-TM, B-AF
-21	##당	O	O	O, B-LC, I-AF, I-LC, I-EV
-22	##하	O	O	O, B-LC, B-PS, B-CV, B-OG
-23	##는	O	O	O, B-LC, B-CV, B-OG, B-PS
-24	비정	O	O	O, B-CV, B-LC, B-PS, B-TM
-25	##상	O	O	O, B-LC, I-LC, B-PS, I-CV
-26	##적인	O	O	O, I-LC, B-LC, B-PS, I-QT
-27	사건	O	O	O, B-CV, B-LC, B-OG, B-EV
-28	##이	O	O	O, B-PS, B-CV, B-OG, B-LC
-29	발생	O	O	O, B-CV, B-LC, B-OG, I-EV
-30	##했	O	O	O, B-LC, B-CV, B-PS, B-OG
-31	##다	O	O	O, B-LC, B-CV, B-OG, B-PS
-32	""""	O	O	O, B-CV, B-LC, B-OG, B-PS
-33	며	O	O	O, B-LC, B-OG, B-CV, B-PS
-34	""""	O	O	O, B-LC, B-CV, B-PS, B-OG
-35	파나마	B-LC	B-LC	B-LC, B-OG, O, B-PS, B-AF
-36	당국	O	O	O, I-OG, B-OG, I-LC, B-CV
-37	##은	O	O	O, I-OG, B-PS, I-LC, B-LC
-38	억류	O	O	O, B-CV, B-LC, B-AF, B-TM
-39	##한	O	O	O, B-LC, B-PS, B-AF, B-OG
-40	우리	O	O	O, B-PS, B-AF, B-LC, B-CV
-41	선원	B-CV	B-CV	B-CV, O, I-CV, B-AF, B-TM
-42	##들	O	O	O, I-CV, I-AF, I-OG, B-CV
-43	##과	O	O	O, B-AF, B-LC, B-PS, B-CV
-44	배	B-AF	B-AF	B-AF, O, I-AF, B-CV, B-AM
-45	##를	O	O	O, I-AF, B-CV, I-OG, I-EV
-46	곧	O	O	O, B-LC, B-TM, B-DT, B-OG
-47	출항	O	O	O, B-LC, B-CV, B-AF, B-TM
-48	##시	O	O	O, B-LC, B-OG, I-LC, B-PS
-49	##켜	O	O	O, B-LC, B-PS, B-OG, I-LC
-50	##야	O	O	O, B-LC, B-CV, B-PS, B-OG
-51	한다	O	O	O, B-LC, B-CV, B-OG, B-PS
-52	""""	O	O	O, B-CV, B-LC, B-TM, B-OG
-53	고	O	O	O, B-CV, B-LC, B-OG, B-TM
-54	주장	O	O	O, B-CV, B-LC, B-TM, B-OG
-55	##했	O	O	O, B-CV, B-LC, B-PS, I-OG
-56	##다	O	O	O, B-CV, B-LC, B-OG, B-TM
-57	.	O	O	O, B-LC, B-OG, B-CV, B-PS
-58	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	최근	O	O
+2	세종문화회관	B-AF	B-AF
+3	대	I-AF	O
+4	##극장	I-AF	O
+5	##에	O	O
+6	##서	O	O
+7	개막	O	O
+8	##해	O	O
+9	연일	O	O
+10	매진	O	O
+11	##행	O	O
+12	##진	O	O
+13	##을	O	O
+14	이어	O	O
+15	##가	O	O
+16	##고	O	O
+17	있	O	O
+18	##는	O	O
+19	<	O	O
+20	모차르트	B-PS	B-AF
+21	>	O	O
+22	는	O	O
+23	대표	O	O
+24	##적	O	O
+25	##인	O	O
+26	‘	O	O
+27	비엔나	B-LC	B-LC
+28	(	O	O
+29	오스트리아	B-LC	B-LC
+30	)	O	O
+31	뮤지컬	B-FD	B-FD
+32	’	O	O
+33	이	O	O
+34	##다	O	O
+35	.	O	O
+36	[SEP]	O	O

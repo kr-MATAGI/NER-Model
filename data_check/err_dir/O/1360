@@ -1,37 +1,14 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-EV, I-CV
-1	다만	O	O	O, B-TM, B-CV, B-OG, B-LC
-2	실제	O	O	O, B-LC, B-CV, B-AF, B-TM
-3	핵무기	B-AF	B-AF	B-AF, O, B-MT, I-AF, B-TM
-4	##가	O	O	O, I-AF, B-CV, I-OG, B-PS
-5	장착	O	O	O, B-TM, B-LC, B-CV, B-PS
-6	##된	O	O	O, B-LC, B-AF, B-PS, B-CV
-7	대륙	B-AF	B-AF	B-AF, O, I-AF, B-TM, B-LC
-8	##간	I-AF	I-AF	I-AF, O, B-AF, I-TM, I-EV
-9	##탄	I-AF	I-AF	I-AF, O, B-AF, I-TM, I-EV
-10	##도	I-AF	I-AF	I-AF, O, B-AF, I-TM, I-EV
-11	##미사	I-AF	I-AF	I-AF, O, B-AF, I-TM, I-EV
-12	##일	I-AF	I-AF	I-AF, O, I-TM, I-EV, I-QT
-13	(	O	O	O, I-AF, I-EV, I-CV, B-CV
-14	ICBM	O	B-AF	B-AF, O, I-AF, B-LC, B-TM
-15	)	O	O	O, I-AF, I-EV, I-OG, I-CV
-16	의	O	O	O, B-CV, B-LC, B-OG, I-AF
-17	성공	O	O	O, B-LC, B-CV, B-OG, B-TM
-18	여부	O	O	O, B-LC, B-PS, B-CV, B-OG
-19	##를	O	O	O, B-CV, B-LC, B-OG, B-PS
-20	판단	O	O	O, B-LC, B-CV, B-TM, B-OG
-21	##하기	O	O	O, B-LC, B-CV, B-PS, B-OG
-22	위해서	O	O	O, B-LC, B-CV, B-OG, B-TM
-23	##는	O	O	O, B-LC, B-CV, B-OG, B-TM
-24	시험	O	O	O, B-LC, B-CV, B-EV, B-TM
-25	##발	O	O	O, B-LC, I-EV, I-LC, I-AF
-26	##사	O	O	O, B-LC, I-LC, I-EV, I-AF
-27	##가	O	O	O, B-LC, B-PS, B-OG, B-CV
-28	필요	O	O	O, B-LC, B-CV, B-OG, B-TM
-29	##하	O	O	O, B-PS, B-LC, B-OG, I-OG
-30	##다고	O	O	O, I-OG, B-OG, B-CV, B-LC
-31	말	O	O	O, B-CV, B-OG, B-TM, I-OG
-32	##했	O	O	O, B-CV, I-OG, I-CV, B-OG
-33	##다	O	O	O, B-CV, B-LC, B-OG, I-OG
-34	.	O	O	O, B-LC, B-CV, B-OG, B-AF
-35	[SEP]	O	O	O, B-LC, B-CV, I-EV, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	그래서	O	O
+2	그	O	O
+3	말	O	O
+4	##까	O	O
+5	##지	O	O
+6	하	O	O
+7	##다니	O	O
+8	얼굴	O	B-AM
+9	##표	O	O
+10	##정	O	O
+11	##도	O	O
+12	[SEP]	O	O

@@ -1,12 +1,8 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-AF
-1	비거리	O	B-TM	B-TM, O, B-AF, I-TM, B-QT
-2	##가	O	O	O, I-TM, I-AF, I-QT, I-OG
-3	길	O	O	O, B-TM, B-CV, B-QT, B-OG
-4	##어진	O	O	O, B-CV, B-TM, B-LC, I-QT
-5	건	O	O	O, B-CV, B-PS, B-LC, B-OG
-6	당연	O	O	O, B-CV, B-PS, B-TM, I-CV
-7	##한	O	O	O, B-PS, I-PS, I-CV, B-CV
-8	결과	O	O	O, B-CV, B-TM, B-PS, B-QT
-9	.	O	O	O, B-CV, I-CV, I-OG, B-TM
-10	[SEP]	O	O	O, B-CV, B-TM, B-LC, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	[	O	O
+2	기업	O	O
+3	&	O	O
+4	CEO	O	B-CV
+5	]	O	O
+6	[SEP]	O	O

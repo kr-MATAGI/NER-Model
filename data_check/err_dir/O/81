@@ -1,24 +1,18 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	시민	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-TM
-2	##들	O	O	O, I-CV, I-OG, I-AF, B-CV
-3	##의	O	O	O, B-CV, B-TM, B-PS, I-OG
-4	도움	O	O	O, B-TM, B-LC, B-CV, B-OG
-5	##으로	O	O	O, B-TM, B-PS, B-LC, B-CV
-6	쌍둥이	O	O	O, B-TM, B-CV, B-QT, B-AF
-7	가운데	O	O	O, B-TM, I-TM, B-QT, B-LC
-8	큰	O	B-CV	B-CV, O, B-TM, I-CV, B-AF
-9	##딸	B-CV	I-CV	I-CV, B-CV, O, I-QT, I-TM
-10	##은	O	O	O, I-CV, I-QT, B-CV, I-AF
-11	이미	O	O	O, B-TM, B-CV, B-LC, B-OG
-12	퇴원	O	O	O, B-TM, B-CV, B-TR, B-LC
-13	##해	O	O	O, B-PS, B-LC, I-CV, I-LC
-14	엄마	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-OG
-15	##의	O	O	O, I-CV, B-CV, B-PS, I-OG
-16	[UNK]	O	O	O, B-CV, B-TM, B-PS, B-LC
-17	받	O	O	O, B-CV, B-PS, B-LC, B-OG
-18	##고	O	O	O, B-CV, B-TM, B-PS, B-LC
-19	있	O	O	O, B-CV, B-TM, B-LC, B-PS
-20	##다	O	O	O, B-CV, B-TM, I-OG, B-LC
-21	.	O	O	O, B-LC, B-CV, B-PS, B-TM
-22	[SEP]	O	O	O, B-CV, B-LC, B-TM, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	전세	O	O
+2	##대로	O	O
+3	##부터	O	O
+4	후세	O	B-CV
+5	##대	O	I-CV
+6	##에	O	O
+7	대한	O	O
+8	교육	O	O
+9	##이	O	O
+10	있	O	O
+11	##어야	O	O
+12	되	O	O
+13	##는	O	O
+14	거	O	O
+15	##죠	O	O
+16	[SEP]	O	O

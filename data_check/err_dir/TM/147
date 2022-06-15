@@ -1,26 +1,24 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	우	B-TM	O	O, B-CV, B-AM, B-PS, B-QT
-2	##뇌	I-TM	O	O, I-CV, B-CV, I-PS, I-AM
-3	##우	O	O	O, I-CV, B-CV, I-PS, I-AM
-4	##세	O	O	O, I-CV, B-CV, I-PS, I-AM
-5	##형	O	O	O, I-CV, B-CV, I-PS, I-AM
-6	##인	O	O	O, I-CV, B-PS, I-PS, B-CV
-7	어진	B-PS	B-PS	B-PS, O, I-PS, B-LC, B-CV
-8	##이	O	O	O, I-PS, B-PS, I-CV, I-LC
-9	##에	O	O	O, I-PS, B-CV, B-PS, I-CV
-10	##게	O	O	O, B-CV, B-PS, B-TM, B-LC
-11	##는	O	O	O, B-CV, B-LC, B-TM, B-OG
-12	어렵	O	O	O, B-CV, B-TM, B-OG, B-LC
-13	##고	O	O	O, B-CV, B-PS, I-AF, I-OG
-14	재미없	O	O	O, B-CV, B-TM, B-FD, B-LC
-15	##는	O	O	O, B-CV, B-PS, B-LC, B-AF
-16	논리	O	O	O, B-FD, B-CV, B-AF, B-PS
-17	##로	O	O	O, B-CV, I-AF, B-PS, B-TM
-18	##는	O	O	O, B-CV, B-TM, B-LC, B-OG
-19	설득	O	O	O, B-CV, B-TM, B-FD, B-LC
-20	##하기	O	O	O, B-CV, B-PS, B-LC, B-TM
-21	어렵	O	O	O, B-CV, B-TM, B-OG, B-LC
-22	##다	O	O	O, B-CV, I-OG, I-AF, B-LC
-23	.	O	O	O, B-CV, B-PS, B-LC, I-AF
-24	[SEP]	O	O	O, B-CV, I-AF, B-PS, B-FD
+	text	label	preds
+0	[CLS]	O	O
+1	국내	O	O
+2	팬	B-CV	B-CV
+3	##들	O	O
+4	##은	O	O
+5	‘	O	O
+6	살인	O	B-CV
+7	태클	B-TM	O
+8	’	O	O
+9	이라	O	O
+10	##며	O	O
+11	코	B-PS	B-PS
+12	##글	I-PS	I-PS
+13	##린	I-PS	I-PS
+14	##에	O	O
+15	##게	O	O
+16	비난	O	O
+17	##을	O	O
+18	쏟아	O	O
+19	##냈	O	O
+20	##다	O	O
+21	.	O	O
+22	[SEP]	O	O

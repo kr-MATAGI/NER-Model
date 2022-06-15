@@ -1,38 +1,57 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	게다가	O	O	O, B-OG, B-CV, B-QT, B-PS
-2	아프리카	B-EV	B-EV	B-EV, B-LC, B-AF, B-DT, B-OG
-3	네이션	I-EV	I-EV	I-EV, B-EV, O, I-LC, I-AF
-4	##스	I-EV	I-EV	I-EV, O, B-EV, I-LC, I-AF
-5	##컵	I-EV	I-EV	I-EV, O, B-EV, I-AF, I-LC
-6	##에	O	O	O, I-EV, I-AF, B-CV, I-OG
-7	차출	O	O	O, B-CV, B-OG, B-LC, B-PS
-8	##된	O	O	O, B-PS, B-CV, B-LC, B-OG
-9	마루	B-PS	B-PS	B-PS, O, I-PS, B-OG, B-LC
-10	##앙	I-PS	I-PS	I-PS, O, I-OG, I-LC, B-PS
-11	샤	I-PS	I-PS	I-PS, B-PS, O, I-LC, B-LC
-12	##마크	I-PS	I-PS	I-PS, O, I-LC, I-OG, B-LC
-13	(	O	O	O, I-PS, B-CV, I-OG, B-LC
-14	28	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-TM
-15	·	O	O	O, I-QT, I-OG, I-DT, B-CV
-16	모로코	B-OG	B-LC	B-LC, B-OG, O, I-LC, B-PS
-17	)	O	O	O, I-OG, I-LC, I-QT, B-CV
-18	와	O	O	O, B-PS, B-CV, B-LC, B-OG
-19	제르	B-PS	B-PS	B-PS, I-PS, B-OG, O, B-LC
-20	##비	I-PS	I-PS	I-PS, O, I-LC, I-OG, B-PS
-21	##뉴	I-PS	I-PS	I-PS, O, I-LC, I-OG, B-PS
-22	(	O	O	O, I-PS, B-CV, I-OG, B-LC
-23	25	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-TM
-24	·	O	O	O, I-QT, I-DT, I-OG, B-CV
-25	코트	B-OG	B-LC	B-LC, B-OG, O, B-CV, B-PS
-26	##디	I-OG	I-LC	I-LC, I-OG, B-LC, O, I-PS
-27	##부아르	I-OG	I-LC	I-LC, I-OG, O, B-LC, I-QT
-28	)	O	O	O, I-LC, I-OG, I-QT, I-CV
-29	가	O	O	O, B-PS, B-CV, B-LC, B-QT
-30	복귀	O	O	O, B-CV, B-TM, B-PS, B-OG
-31	##하면	O	O	O, B-OG, B-CV, B-PS, B-LC
-32	더욱	O	O	O, B-QT, B-OG, B-CV, B-LC
-33	그렇게	O	O	O, B-CV, B-OG, B-TM, B-QT
-34	된다	O	O	O, B-CV, I-OG, B-QT, B-OG
-35	.	O	O	O, B-CV, B-LC, B-PS, B-OG
-36	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	부산	B-OG	B-OG
+2	##참	I-OG	I-OG
+3	##여	I-OG	I-OG
+4	##자치	I-OG	I-OG
+5	##시	I-OG	I-OG
+6	##민	I-OG	I-OG
+7	##연대	I-OG	I-OG
+8	##는	O	O
+9	30	B-DT	B-DT
+10	##일	I-DT	I-DT
+11	부산	B-OG	B-AF
+12	##지	I-OG	I-AF
+13	##검	I-OG	I-AF
+14	청사	O	I-AF
+15	앞	B-TM	B-TM
+16	##에	O	O
+17	##서	O	O
+18	기자	O	O
+19	##회	O	O
+20	##견	O	O
+21	##을	O	O
+22	열	O	O
+23	##어	O	O
+24	정현	B-PS	B-PS
+25	##옥	I-PS	I-PS
+26	동구	B-LC	B-LC
+27	##청	B-CV	B-CV
+28	##장	I-CV	I-CV
+29	##의	O	O
+30	특혜	O	O
+31	·	O	O
+32	비리	O	O
+33	의혹	O	O
+34	##에	O	O
+35	대한	O	O
+36	검찰	B-OG	B-OG
+37	##의	O	O
+38	철저	O	O
+39	##한	O	O
+40	수사	O	O
+41	##를	O	O
+42	촉구	O	O
+43	##한	O	O
+44	뒤	O	O
+45	검찰	B-OG	B-OG
+46	##에	O	O
+47	수사	O	O
+48	의뢰	O	O
+49	##서	O	O
+50	##를	O	O
+51	제출	O	O
+52	##했	O	O
+53	##다	O	O
+54	.	O	O
+55	[SEP]	O	O

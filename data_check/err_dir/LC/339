@@ -1,13 +1,44 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	제일	O	O	O, B-QT, B-CV, B-DT, B-PS
-2	많	O	O	O, B-CV, I-QT, B-OG, B-TM
-3	##은	O	O	O, B-CV, B-OG, I-AF, I-OG
-4	데	O	O	O, B-OG, B-CV, B-LC, I-AF
-5	##가	O	O	O, B-PS, B-OG, B-CV, B-LC
-6	인제	O	O	O, B-LC, B-OG, B-AF, B-TM
-7	핀	B-LC	B-OG	B-OG, O, B-LC, B-AF, B-TM
-8	##랜드	I-LC	I-OG	I-OG, O, I-LC, I-AF, I-TM
-9	##라고	O	O	O, I-OG, I-AF, I-LC, I-TM
-10	예	O	O	O, B-CV, I-OG, B-OG, B-TM
-11	[SEP]	O	O	O, B-CV, B-LC, B-OG, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	러시아	B-LC	B-LC
+2	##의	O	O
+3	손	B-AM	B-AM
+4	##을	O	O
+5	빌려	O	O
+6	미국	B-LC	B-OG
+7	##의	O	O
+8	군사	O	O
+9	##공격	O	O
+10	주장	O	O
+11	##을	O	O
+12	주저앉	O	O
+13	##히	O	O
+14	##고	O	O
+15	화학	O	B-TM
+16	##무기	O	I-TM
+17	폐기	O	O
+18	절차	O	O
+19	##를	O	O
+20	밟	O	O
+21	##기	O	O
+22	##로	O	O
+23	한	O	O
+24	아사드	B-PS	B-PS
+25	정권	O	O
+26	##은	O	O
+27	어쨌든	O	O
+28	국제	O	O
+29	협상	O	O
+30	##의	O	O
+31	주체	O	O
+32	##로	O	O
+33	##서	O	O
+34	입지	O	O
+35	##를	O	O
+36	확보	O	O
+37	##하	O	O
+38	##게	O	O
+39	됐	O	O
+40	##다	O	O
+41	.	O	O
+42	[SEP]	O	O

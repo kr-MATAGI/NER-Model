@@ -1,26 +1,25 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	인사	O	O	O, B-CV, B-FD, I-CV, B-EV
-2	및	O	O	O, I-CV, I-OG, B-PS, I-AF
-3	평가	O	O	O, B-CV, B-PS, I-CV, I-OG
-4	##에서	O	O	O, B-PS, B-CV, B-LC, B-OG
-5	##는	O	O	O, B-OG, B-LC, B-CV, B-PS
-6	시도	O	O	O, B-OG, B-LC, B-EV, B-CV
-7	##교육	O	O	O, B-OG, I-OG, B-CV, I-EV
-8	##청	O	I-OG	I-OG, O, B-OG, I-CV, I-EV
-9	##의	O	O	O, I-OG, B-PS, I-EV, B-CV
-10	평가	O	O	O, B-CV, I-OG, B-TM, B-OG
-11	부담	O	O	O, B-OG, B-CV, B-PS, B-TM
-12	##을	O	O	O, B-CV, B-OG, B-PS, I-OG
-13	확	O	O	O, B-OG, B-QT, B-PS, B-LC
-14	낮추	O	O	O, B-PS, B-CV, B-OG, I-QT
-15	##고	O	O	O, B-PS, B-CV, B-OG, B-LC
-16	인사	B-CV	O	O, B-CV, B-FD, I-CV, B-PS
-17	자율	I-CV	O	O, B-CV, I-CV, B-PS, B-TM
-18	##권	I-CV	O	O, I-CV, B-CV, I-PS, I-TR
-19	##은	O	O	O, I-CV, B-PS, B-CV, B-OG
-20	늘려	O	O	O, B-CV, B-OG, B-PS, B-QT
-21	##줬	O	O	O, B-CV, B-PS, I-QT, I-OG
-22	##다	O	O	O, B-CV, B-PS, I-CV, B-OG
-23	.	O	O	O, B-LC, B-CV, B-OG, B-PS
-24	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	왜	O	O
+2	그	O	O
+3	소장	B-FD	B-CV
+4	##문	I-FD	I-CV
+5	##법	I-FD	I-CV
+6	##학자	B-CV	I-CV
+7	##들의	O	O
+8	시기	O	O
+9	##에	O	O
+10	##는	O	O
+11	산업	B-TR	O
+12	##화	I-TR	O
+13	##된	O	O
+14	사회	O	O
+15	##의	O	O
+16	인식	O	O
+17	##방	O	O
+18	##법	O	O
+19	##이	O	O
+20	두드러	O	O
+21	##집니다	O	O
+22	.	O	O
+23	[SEP]	O	O

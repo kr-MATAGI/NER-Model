@@ -1,29 +1,63 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-QT
-1	2014	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-2	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-3	3	O	O	O, B-QT, B-OG, B-EV, B-LC
-4	##부리	O	O	O, I-QT, I-OG, I-LC, I-EV
-5	##그	O	O	O, I-OG, I-QT, I-LC, I-EV
-6	##에	O	O	O, I-OG, I-QT, B-PS, B-CV
-7	머물	O	O	O, B-LC, B-OG, B-QT, B-CV
-8	##던	O	O	O, B-OG, B-LC, B-CV, B-PS
-9	한국	B-LC	B-OG	B-OG, B-LC, O, B-AF, B-EV
-10	국가	O	I-OG	I-OG, B-OG, O, B-CV, I-LC
-11	##대표	O	I-OG	I-OG, O, I-CV, I-EV, I-AF
-12	##팀	O	I-OG	I-OG, O, I-CV, I-EV, I-AF
-13	##은	O	O	O, I-OG, I-EV, I-AF, B-CV
-14	그해	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-15	7	I-DT	I-DT	I-DT, B-DT, O, I-QT, I-OG
-16	##월	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-OG
-17	백	B-PS	B-PS	B-PS, O, I-PS, B-OG, B-LC
-18	감독	B-CV	B-CV	B-CV, O, I-PS, I-CV, B-OG
-19	부임	O	O	O, I-CV, B-CV, I-DT, I-EV
-20	이후	O	O	O, I-DT, I-CV, B-PS, I-EV
-21	성적	O	O	O, B-CV, B-OG, B-TM, B-LC
-22	##이	O	O	O, B-PS, B-OG, B-CV, B-LC
-23	꾸준히	O	O	O, B-CV, B-TM, B-QT, B-OG
-24	올랐	O	O	O, B-CV, B-OG, B-TM, B-LC
-25	##다	O	O	O, B-CV, I-OG, I-QT, B-LC
-26	.	O	O	O, B-OG, B-LC, B-CV, B-PS
-27	[SEP]	O	O	O, B-CV, B-OG, B-LC, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	하원	B-OG	B-OG
+2	외교	B-OG	B-OG
+3	##위원회	I-OG	I-OG
+4	아시아	B-LC	B-OG
+5	·	O	I-OG
+6	태평양	B-LC	I-OG
+7	##소	O	I-OG
+8	##위	O	I-OG
+9	민주당	B-OG	B-OG
+10	간사인	O	O
+11	에	B-PS	B-PS
+12	##니	I-PS	I-PS
+13	팔	I-PS	I-PS
+14	##레오	I-PS	I-PS
+15	##마	I-PS	I-PS
+16	##바	I-PS	I-PS
+17	##에	I-PS	I-PS
+18	##가	O	I-PS
+19	의원	B-CV	B-CV
+20	(	O	O
+21	미국	B-LC	B-LC
+22	##령	I-LC	I-LC
+23	사모	I-LC	I-LC
+24	##아	I-LC	I-LC
+25	)	O	O
+26	과	O	O
+27	공화	B-OG	B-OG
+28	##당	I-OG	I-OG
+29	소속	O	O
+30	전	O	O
+31	외교	B-CV	B-CV
+32	##위원	I-CV	I-CV
+33	##장	I-CV	I-CV
+34	##인	O	O
+35	일리	B-PS	B-PS
+36	##애나	I-PS	I-PS
+37	로스	I-PS	I-PS
+38	##레	I-PS	I-PS
+39	##티	I-PS	I-PS
+40	##넌	I-PS	I-PS
+41	의원	B-CV	B-CV
+42	(	O	O
+43	플로리다	B-LC	B-LC
+44	)	O	O
+45	이	O	O
+46	발의	O	O
+47	##한	O	O
+48	‘	O	O
+49	한미	B-OG	B-OG
+50	FTA	I-OG	I-OG
+51	공정성	O	O
+52	법안	O	O
+53	’	O	O
+54	도	O	O
+55	하원	B-OG	B-OG
+56	##에	O	O
+57	계류	O	O
+58	중이	O	O
+59	##다	O	O
+60	.	O	O
+61	[SEP]	O	O

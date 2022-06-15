@@ -1,53 +1,33 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	김	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-2	##씨	O	O	O, I-PS, B-CV, I-OG, I-AF
-3	##에	O	O	O, B-CV, B-TM, B-PS, B-QT
-4	##게	O	O	O, B-CV, B-QT, B-TM, B-PS
-5	샌드위치	B-CV	B-CV	B-CV, O, I-CV, B-AF, B-OG
-6	##를	O	O	O, I-CV, B-CV, I-AF, I-OG
-7	건넨	O	O	O, B-CV, B-QT, B-PS, B-OG
-8	정공	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-9	##림	I-PS	I-PS	I-PS, O, I-OG, I-LC, B-PS
-10	(	O	O	O, I-PS, B-CV, I-OG, I-AF
-11	55	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-OG
-12	·	O	O	O, I-QT, I-DT, B-CV, I-OG
-13	마포구	B-LC	B-LC	B-LC, O, B-OG, B-PS, B-AF
-14	서	B-LC	B-LC	B-LC, I-LC, O, B-OG, B-AF
-15	##교동	I-LC	I-LC	I-LC, O, B-LC, I-OG, I-PS
-16	)	O	O	O, I-LC, B-CV, I-AF, I-OG
-17	씨	O	O	O, B-CV, B-PS, B-TM, B-OG
-18	##는	O	O	O, B-CV, B-PS, B-TM, B-LC
-19	창	B-OG	B-AF	B-AF, B-OG, B-PS, O, B-LC
-20	##천	I-OG	I-OG	I-OG, I-AF, O, I-PS, I-LC
-21	##교회	I-OG	I-OG	I-OG, I-AF, O, I-LC, I-PS
-22	신도	B-CV	B-CV	B-CV, O, I-CV, I-AF, I-OG
-23	##들	O	O	O, I-CV, I-AF, B-CV, I-OG
-24	##로	O	O	O, B-CV, B-PS, B-TM, B-OG
-25	구성	O	O	O, B-CV, B-PS, B-TM, B-OG
-26	##된	O	O	O, B-PS, B-CV, B-OG, B-LC
-27	봉사	O	O	O, B-CV, B-OG, I-OG, B-FD
-28	##단체	O	O	O, I-OG, I-CV, B-CV, B-OG
-29	'	O	O	O, B-CV, I-OG, B-OG, I-CV
-30	달	B-OG	B-OG	B-OG, O, I-OG, B-PS, B-AF
-31	##사랑	I-OG	I-OG	I-OG, O, I-LC, I-AF, I-CV
-32	(	O	O	O, I-OG, I-CV, B-CV, I-AF
-33	달리	B-OG	B-OG	B-OG, O, B-EV, I-OG, B-CV
-34	##는	I-OG	I-OG	I-OG, O, I-EV, I-TM, I-CV
-35	사람	I-OG	I-OG	I-OG, O, I-EV, I-CV, I-TM
-36	##들	I-OG	I-OG	I-OG, O, I-EV, I-TM, I-CV
-37	##과	I-OG	I-OG	I-OG, O, I-EV, I-TM, I-CV
-38	함께	I-OG	I-OG	I-OG, O, I-EV, I-TM, I-CV
-39	하	I-OG	I-OG	I-OG, O, I-EV, I-TM, I-CV
-40	##는	I-OG	I-OG	I-OG, O, I-EV, I-TM, I-CV
-41	작	I-OG	I-OG	I-OG, O, I-EV, I-TM, B-OG
-42	##은	I-OG	I-OG	I-OG, O, I-EV, I-TM, I-CV
-43	사랑	I-OG	I-OG	I-OG, O, I-EV, I-TM, I-CV
-44	나눔	I-OG	I-OG	I-OG, O, I-EV, I-TM, I-CV
-45	캠페인	I-OG	I-OG	I-OG, O, I-EV, I-TM, I-CV
-46	)	O	O	O, I-OG, I-EV, I-CV, I-TM
-47	'	O	O	O, B-OG, I-OG, B-CV, B-PS
-48	회원	B-CV	B-CV	B-CV, O, B-OG, I-CV, B-PS
-49	##이다	O	O	O, I-CV, B-CV, I-OG, B-PS
-50	.	O	O	O, B-CV, B-LC, B-PS, B-OG
-51	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	베르디	B-PS	B-PS
+2	(	O	O
+3	181	B-DT	B-DT
+4	##3	I-DT	I-DT
+5	~	I-DT	I-DT
+6	1901	I-DT	I-DT
+7	)	O	O
+8	의	O	O
+9	유일	O	O
+10	##한	O	O
+11	실내	O	O
+12	##악	O	O
+13	##인	O	O
+14	현악	B-FD	O
+15	4	I-FD	I-FD
+16	##중	I-FD	I-FD
+17	##주	I-FD	I-FD
+18	##를	O	O
+19	24	B-DT	B-DT
+20	##일	I-DT	I-DT
+21	콸	B-OG	I-OG
+22	##라치	I-OG	I-OG
+23	4	I-OG	I-OG
+24	##중	I-OG	I-OG
+25	##주	I-OG	I-OG
+26	##단	I-OG	I-OG
+27	##이	O	O
+28	연주	O	O
+29	##한다	O	O
+30	.	O	O
+31	[SEP]	O	O

@@ -1,37 +1,41 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	그러나	O	O	O, B-CV, B-LC, B-PS, B-TM
-2	어	O	O	O, B-CV, B-PS, B-LC, B-TM
-3	~	O	O	O, I-CV, B-CV, B-PS, B-LC
-4	이	O	O	O, B-PS, B-CV, B-LC, B-OG
-5	~	O	O	O, B-CV, I-CV, B-PS, B-LC
-6	사람	O	O	O, B-CV, B-AM, B-PS, B-TM
-7	##은	O	O	O, B-CV, B-PS, I-CV, B-TM
-8	어	O	O	O, B-CV, I-CV, B-FD, B-TM
-9	~	O	O	O, I-CV, B-CV, I-LC, I-TM
-10	식물	B-CV	O	O, B-CV, B-MT, I-CV, B-TM
-11	##성	I-CV	O	O, I-CV, B-CV, I-MT, I-TM
-12	식품	I-CV	O	O, I-CV, B-CV, I-TM, I-MT
-13	##만	O	O	O, I-CV, B-CV, I-QT, I-TM
-14	먹	O	O	O, B-CV, I-CV, B-PS, I-QT
-15	##어야	O	O	O, B-CV, I-CV, B-PS, B-LC
-16	된다는	O	O	O, B-CV, B-PS, B-LC, I-CV
-17	어	O	O	O, B-CV, B-TM, B-PS, B-FD
-18	~	O	O	O, I-CV, B-CV, I-LC, I-TM
-19	인식	O	O	O, B-CV, I-CV, B-PS, B-LC
-20	##을	O	O	O, B-CV, B-PS, I-CV, I-PS
-21	가진	O	O	O, B-CV, B-PS, B-TM, B-LC
-22	의사	B-CV	B-CV	B-CV, O, B-OG, I-CV, B-FD
-23	##들이	O	O	O, I-CV, B-CV, I-OG, I-QT
-24	꽤	O	O	O, B-CV, B-TM, B-LC, B-OG
-25	이제	O	O	O, B-CV, B-OG, B-LC, B-PS
-26	꽤	O	O	O, B-CV, B-LC, B-OG, B-TM
-27	이제	O	O	O, B-CV, B-OG, B-LC, B-PS
-28	많이	O	O	O, B-CV, B-LC, B-OG, B-QT
-29	생겨나	O	O	O, B-CV, B-QT, B-LC, B-OG
-30	##고	O	O	O, B-CV, I-OG, I-QT, I-AF
-31	있	O	O	O, B-CV, B-PS, B-LC, B-TM
-32	##습	O	O	O, B-CV, I-CV, B-OG, B-TM
-33	##니다	O	O	O, B-CV, B-OG, B-LC, B-TM
-34	.	O	O	O, B-CV, B-PS, B-LC, I-CV
-35	[SEP]	O	O	O, B-CV, I-CV, B-LC, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	지난해	B-DT	B-DT
+2	엘	B-OG	B-OG
+3	시스	I-OG	I-OG
+4	##테	I-OG	I-OG
+5	##마	I-OG	I-OG
+6	##를	O	O
+7	총괄	O	O
+8	##하	O	O
+9	##는	O	O
+10	‘	O	O
+11	시몬	B-OG	B-OG
+12	볼리	I-OG	I-OG
+13	##바르	I-OG	I-OG
+14	음악	I-OG	I-OG
+15	##재단	I-OG	I-OG
+16	’	O	O
+17	과	O	O
+18	업무	O	O
+19	협약	O	O
+20	##을	O	O
+21	맺	O	O
+22	##고	O	O
+23	교육	O	O
+24	##철	O	O
+25	##학	O	O
+26	##과	O	O
+27	교수	B-CV	O
+28	##법	O	O
+29	##을	O	O
+30	한국	B-LC	B-LC
+31	##에	O	O
+32	접목	O	O
+33	##시	O	O
+34	##키	O	O
+35	##고	O	O
+36	있	O	O
+37	##다	O	O
+38	.	O	O
+39	[SEP]	O	O

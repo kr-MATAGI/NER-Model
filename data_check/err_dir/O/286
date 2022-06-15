@@ -1,11 +1,18 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	네	O	O	O, B-CV, B-TM, B-LC, B-OG
-2	그래서	O	O	O, B-CV, B-OG, B-LC, B-PS
-3	기름	O	B-CV	B-CV, O, I-CV, B-MT, B-AF
-4	##을	O	O	O, I-CV, B-CV, I-AF, I-OG
-5	좀	O	O	O, B-CV, B-OG, B-QT, B-LC
-6	둘러	O	O	O, B-CV, B-PS, B-LC, B-OG
-7	주시	O	O	O, B-CV, B-PS, B-QT, I-CV
-8	##고	O	O	O, B-CV, I-CV, B-PS, B-LC
-9	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-QT
+	text	label	preds
+0	[CLS]	O	O
+1	4	B-QT	B-QT
+2	##급	I-QT	I-QT
+3	이상	I-QT	I-QT
+4	공직자	B-CV	B-CV
+5	10	B-QT	B-QT
+6	%	I-QT	I-QT
+7	,	O	O
+8	아들	B-CV	B-CV
+9	4	B-QT	B-QT
+10	.	I-QT	I-QT
+11	4	I-QT	I-QT
+12	%	I-QT	I-QT
+13	군대	O	B-OG
+14	안	O	O
+15	##가	O	O
+16	[SEP]	O	O

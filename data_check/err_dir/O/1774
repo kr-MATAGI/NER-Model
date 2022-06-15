@@ -1,53 +1,20 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-QT
-1	협력	O	B-CV	B-CV, O, B-OG, B-TM, B-FD
-2	##강	B-CV	I-CV	I-CV, B-CV, O, I-OG, I-QT
-3	##사	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-TM
-4	##는	O	O	O, I-CV, I-OG, B-CV, I-QT
-5	대학	O	O	O, B-OG, B-FD, B-LC, B-CV
-6	##에서	O	O	O, B-PS, B-CV, B-LC, I-OG
-7	해당	O	O	O, B-CV, B-FD, B-LC, B-OG
-8	교과목	O	O	O, B-FD, I-FD, B-CV, I-LC
-9	##을	O	O	O, B-PS, B-CV, B-LC, B-OG
-10	전공	O	O	O, B-CV, B-FD, B-PS, B-LC
-11	##하고	O	O	O, B-PS, B-CV, I-CV, I-OG
-12	,	O	O	O, B-CV, B-PS, B-LC, B-OG
-13	교사	B-CV	B-CV	B-CV, O, I-CV, B-FD, B-TM
-14	자격증	O	O	O, I-CV, B-CV, B-PS, I-OG
-15	##을	O	O	O, I-CV, B-CV, B-PS, B-LC
-16	취득	O	O	O, B-CV, B-PS, B-LC, I-CV
-17	##한	O	O	O, B-PS, I-CV, B-CV, B-LC
-18	사람	O	O	O, B-CV, I-CV, B-PS, B-AM
-19	##으로	O	O	O, B-CV, B-PS, B-LC, B-OG
-20	정규	O	O	O, B-FD, B-CV, B-EV, B-AF
-21	교과	O	O	O, I-FD, B-FD, I-EV, I-AF
-22	수업	O	O	O, I-EV, B-LC, B-CV, I-AF
-23	시간	O	O	O, B-TI, I-TI, I-EV, B-CV
-24	##에	O	O	O, B-CV, B-PS, B-LC, B-OG
-25	학습	O	O	O, B-TM, B-LC, B-CV, B-PS
-26	부진	O	O	O, B-TM, B-CV, I-TM, I-CV
-27	진단	O	O	O, B-CV, I-TM, B-TM, I-CV
-28	##을	O	O	O, B-PS, B-CV, B-OG, B-LC
-29	받	O	O	O, B-CV, B-PS, B-LC, B-OG
-30	##은	O	O	O, B-PS, B-CV, B-LC, B-OG
-31	학생	B-CV	B-CV	B-CV, O, I-CV, B-AF, B-TM
-32	##의	O	O	O, I-CV, B-CV, B-PS, B-TM
-33	멘토	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-PS
-34	역할	O	O	O, I-CV, B-CV, I-QT, B-PS
-35	##을	O	O	O, B-CV, I-CV, B-PS, B-OG
-36	하고	O	O	O, B-CV, B-LC, B-OG, B-TM
-37	,	O	O	O, B-CV, B-LC, B-PS, B-OG
-38	방과	O	O	O, B-CV, B-LC, B-TM, B-DT
-39	##후	O	O	O, I-CV, I-LC, I-TM, I-DT
-40	특별	O	O	O, B-CV, I-CV, B-LC, B-PS
-41	프로그램	O	O	O, I-CV, B-CV, I-OG, I-LC
-42	##을	O	O	O, B-CV, I-CV, B-PS, I-OG
-43	통해	O	O	O, B-LC, B-OG, B-CV, B-PS
-44	학생	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-TM
-45	##들	O	O	O, I-CV, B-CV, I-OG, I-AF
-46	##을	O	O	O, B-CV, B-TM, B-LC, B-OG
-47	개별	O	O	O, B-CV, B-LC, B-OG, B-TM
-48	지도	O	O	O, B-CV, I-CV, B-FD, B-TM
-49	##한다	O	O	O, I-CV, B-CV, B-PS, I-OG
-50	.	O	O	O, B-CV, B-LC, B-PS, B-OG
-51	[SEP]	O	O	O, B-CV, B-LC, B-PS, I-CV
+	text	label	preds
+0	[CLS]	O	O
+1	아니	O	O
+2	당신	O	O
+3	배우자	B-CV	B-CV
+4	##는	O	O
+5	심리학자	O	B-CV
+6	##도	O	O
+7	아니	O	O
+8	##고	O	O
+9	이	O	O
+10	독	O	B-CV
+11	##심	O	I-CV
+12	##술	O	I-CV
+13	##사	O	I-CV
+14	##도	O	O
+15	아니	O	O
+16	##에	O	O
+17	##요	O	O
+18	[SEP]	O	O

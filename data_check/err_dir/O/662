@@ -1,73 +1,55 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	또	O	O	O, B-CV, B-OG, B-LC, B-TM
-2	8	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-QT
-3	##월	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
-4	취항	O	O	O, I-DT, B-LC, B-CV, B-OG
-5	##을	O	O	O, B-OG, B-LC, B-PS, B-CV
-6	앞둔	O	O	O, B-OG, B-LC, B-PS, B-CV
-7	춘추	B-OG	B-OG	B-OG, O, B-AF, I-OG, B-LC
-8	##항공	I-OG	I-OG	I-OG, O, I-AF, I-LC, I-CV
-9	##이	O	O	O, I-OG, B-PS, I-AF, B-CV
-10	‘	O	O	O, B-LC, B-CV, B-OG, B-PS
-11	가격	O	O	O, B-CV, B-LC, B-TM, B-PS
-12	파괴	O	O	O, B-PS, B-LC, I-CV, B-CV
-13	’	O	O	O, B-PS, B-CV, B-LC, B-OG
-14	수준	O	O	O, B-PS, B-LC, B-CV, B-QT
-15	##의	O	O	O, B-PS, B-LC, B-OG, B-CV
-16	운임	O	O	O, B-CV, B-LC, B-TM, B-AF
-17	##을	O	O	O, B-CV, B-OG, B-PS, B-LC
-18	책정	O	O	O, B-CV, B-LC, B-OG, B-TM
-19	##할	O	O	O, B-PS, B-LC, B-OG, B-CV
-20	것	O	O	O, B-CV, B-PS, B-OG, B-LC
-21	##이	O	O	O, B-PS, B-CV, B-OG, B-LC
-22	##라는	O	O	O, B-PS, B-OG, B-CV, B-LC
-23	전망	O	O	O, B-CV, B-OG, B-TM, B-LC
-24	##이	O	O	O, B-PS, B-OG, B-CV, B-LC
-25	지배	O	O	O, B-CV, B-OG, B-PS, B-QT
-26	##적	O	O	O, I-OG, I-CV, I-PS, B-PS
-27	##이	O	O	O, B-PS, B-OG, I-OG, B-LC
-28	##고	O	O	O, I-OG, B-PS, B-OG, B-LC
-29	,	O	O	O, B-LC, B-CV, B-OG, B-PS
-30	기존	O	O	O, B-LC, B-OG, B-AF, B-CV
-31	##에	O	O	O, B-LC, B-OG, B-PS, B-AF
-32	한중	B-LC	B-LC	B-LC, O, B-OG, B-AF, B-EV
-33	노선	O	O	O, I-LC, I-AF, B-LC, B-AF
-34	##을	O	O	O, B-LC, B-OG, I-AF, B-CV
-35	운영	O	O	O, B-LC, B-OG, B-CV, B-TM
-36	##해	O	O	O, B-LC, B-OG, B-PS, I-OG
-37	##온	O	O	O, B-LC, B-OG, B-PS, B-TM
-38	중국	B-LC	B-LC	B-LC, B-OG, O, I-OG, B-AF
-39	국제	O	B-OG	B-OG, I-OG, O, B-CV, B-AF
-40	##항공	O	I-OG	I-OG, O, I-CV, I-AF, I-LC
-41	##과	O	O	O, I-OG, B-OG, B-PS, I-AF
-42	동방	B-OG	B-OG	B-OG, O, I-OG, B-AF, B-LC
-43	##항공	I-OG	I-OG	I-OG, O, I-AF, I-LC, I-CV
-44	##도	O	O	O, I-OG, I-AF, I-QT, I-CV
-45	잇달	O	O	O, B-LC, B-OG, B-TM, B-CV
-46	##아	O	O	O, B-LC, B-OG, B-PS, B-AF
-47	요금	O	O	O, B-CV, B-LC, B-TM, B-QT
-48	##을	O	O	O, B-OG, B-CV, B-LC, B-PS
-49	낮추	O	O	O, B-OG, B-LC, B-CV, B-TM
-50	##고	O	O	O, B-OG, B-LC, B-PS, I-OG
-51	있	O	O	O, B-OG, B-LC, B-PS, B-CV
-52	##어	O	O	O, B-LC, B-OG, I-OG, B-PS
-53	항공	O	O	O, B-FD, B-OG, B-AF, B-CV
-54	##업	O	O	O, I-OG, I-CV, I-FD, I-AF
-55	##계	O	O	O, I-OG, I-CV, B-CV, B-PS
-56	##는	O	O	O, B-LC, B-PS, B-CV, B-OG
-57	중국	B-LC	B-LC	B-LC, O, B-OG, B-AF, B-PS
-58	노선	O	O	O, I-LC, I-AF, B-LC, B-AF
-59	##의	O	O	O, B-LC, I-AF, B-OG, B-CV
-60	덤핑	O	O	O, B-LC, B-TM, B-CV, B-OG
-61	##화	O	O	O, I-LC, B-LC, I-OG, B-PS
-62	##에	O	O	O, B-LC, B-CV, B-PS, B-OG
-63	따른	O	O	O, B-LC, B-OG, B-PS, B-TM
-64	수익	O	O	O, B-LC, B-TM, B-CV, B-OG
-65	##성	O	O	O, B-LC, I-LC, B-PS, I-TM
-66	저하	O	O	O, B-LC, B-CV, B-PS, B-TM
-67	##를	O	O	O, B-CV, B-LC, B-PS, B-OG
-68	우려	O	O	O, B-CV, B-LC, B-OG, B-TM
-69	##한다	O	O	O, B-CV, B-LC, B-OG, B-PS
-70	.	O	O	O, B-LC, B-OG, B-PS, B-CV
-71	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	버락	B-PS	B-PS
+2	오바마	I-PS	I-PS
+3	미국	B-LC	B-LC
+4	대통령	B-CV	B-CV
+5	##이	O	O
+6	14	B-DT	B-DT
+7	##일	I-DT	I-DT
+8	(	O	O
+9	현지	O	O
+10	시각	O	O
+11	)	O	O
+12	최고	O	O
+13	경제	O	O
+14	자문	O	B-CV
+15	##역	O	I-CV
+16	##인	O	O
+17	국가	B-OG	B-OG
+18	##경제	I-OG	I-OG
+19	##회의	I-OG	I-OG
+20	(	O	O
+21	NE	B-OG	B-OG
+22	##C	I-OG	I-OG
+23	)	O	O
+24	신임	O	O
+25	의장	B-CV	B-CV
+26	##에	O	O
+27	제프리	B-PS	B-PS
+28	지	I-PS	I-PS
+29	##엔	I-PS	I-PS
+30	##츠	I-PS	I-PS
+31	(	O	O
+32	46	B-QT	B-QT
+33	·	O	O
+34	사진	O	O
+35	)	O	O
+36	전	O	O
+37	예산	B-OG	B-OG
+38	##관리	I-OG	I-OG
+39	##국	I-OG	I-OG
+40	(	O	O
+41	O	B-OG	B-OG
+42	##M	I-OG	I-OG
+43	##B	I-OG	I-OG
+44	)	O	O
+45	국장	B-CV	B-CV
+46	##대	I-CV	I-CV
+47	##행	I-CV	I-CV
+48	##을	O	O
+49	지명	O	O
+50	##했	O	O
+51	##다	O	O
+52	.	O	O
+53	[SEP]	O	O

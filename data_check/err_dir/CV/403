@@ -1,15 +1,34 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	바깥	O	O	O, B-TM, B-CV, B-LC, B-QT
-2	##에	O	O	O, I-TM, I-AF, I-QT, I-CV
-3	있	O	O	O, B-CV, B-TM, B-QT, B-PS
-4	##는	O	O	O, B-CV, B-PS, B-TM, B-LC
-5	기름	B-CV	O	O, B-CV, B-MT, B-AF, B-PT
-6	##으로	O	O	O, I-CV, I-AF, B-CV, I-EV
-7	인해서	O	O	O, B-CV, B-TM, B-OG, I-CV
-8	과열	O	O	O, B-CV, B-TM, B-LC, B-PS
-9	##이	O	O	O, B-PS, I-OG, B-OG, B-CV
-10	되	O	O	O, B-CV, I-OG, B-OG, I-AF
-11	##죠	O	O	O, B-CV, I-OG, B-OG, I-AF
-12	.	O	O	O, B-CV, B-PS, B-LC, B-OG
-13	[SEP]	O	O	O, B-CV, I-AF, B-LC, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	한화	B-OG	B-OG
+2	##증권	I-OG	I-OG
+3	##은	O	O
+4	상하이	B-LC	B-LC
+5	##에	O	O
+6	투자자	B-CV	O
+7	##문	O	O
+8	##사	O	O
+9	##를	O	O
+10	설립	O	O
+11	##해	O	O
+12	중국	B-LC	B-LC
+13	기업	O	O
+14	##의	O	O
+15	한국	B-LC	B-LC
+16	증시	O	O
+17	상장	O	O
+18	,	O	O
+19	M	O	O
+20	&	O	O
+21	A	O	O
+22	등	O	O
+23	IB	O	O
+24	사업	O	O
+25	##을	O	O
+26	추진	O	O
+27	##하	O	O
+28	##고	O	O
+29	있	O	O
+30	##다	O	O
+31	.	O	O
+32	[SEP]	O	O

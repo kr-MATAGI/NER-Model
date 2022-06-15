@@ -1,23 +1,36 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	[	O	O	O, B-OG, B-LC, B-PS, B-DT
-2	한겨레	B-OG	B-OG	B-OG, B-LC, O, B-AF, B-PS
-3	]	O	O	O, I-OG, I-DT, I-AF, B-LC
-4	이후	B-PS	B-PS	B-PS, O, B-LC, B-OG, I-PS
-5	##락	I-PS	I-PS	I-PS, O, I-LC, I-OG, B-PS
-6	중	O	B-CV	B-CV, O, B-OG, B-LC, I-PS
-7	##정부	O	I-CV	I-CV, O, I-OG, B-CV, I-LC
-8	##장	O	I-CV	I-CV, O, I-OG, B-CV, I-EV
-9	-	O	O	O, I-CV, I-OG, B-PS, B-LC
-10	북	B-LC	B-LC	B-LC, B-OG, O, B-PS, B-AF
-11	인사	O	B-CV	B-CV, O, I-CV, I-OG, I-LC
-12	접촉	O	O	O, I-CV, B-LC, B-PS, B-OG
-13	‘	O	O	O, B-LC, B-OG, B-PS, B-CV
-14	미	B-LC	B-LC	B-LC, B-OG, O, B-PS, B-AF
-15	비밀	O	O	O, I-LC, I-AF, B-AF, I-OG
-16	##문	O	O	O, I-AF, I-LC, B-AF, B-LC
-17	##서	O	O	O, I-AF, I-LC, B-LC, B-AF
-18	’	O	O	O, B-LC, I-AF, B-CV, B-OG
-19	등	O	O	O, B-LC, B-CV, B-OG, B-TM
-20	공개	O	O	O, B-LC, B-OG, B-CV, B-PS
-21	[SEP]	O	O	O, B-LC, B-OG, B-CV, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	또	O	O
+2	2017	B-DT	B-DT
+3	##년	I-DT	I-DT
+4	##을	O	O
+5	한	B-LC	B-EV
+6	-	O	I-EV
+7	이란	B-LC	I-EV
+8	문화	O	I-DT
+9	##교	O	I-DT
+10	##류	O	I-DT
+11	##의	O	I-DT
+12	해	O	I-DT
+13	##로	O	O
+14	지정	O	O
+15	##하	O	O
+16	##고	O	O
+17	,	O	O
+18	가까운	O	O
+19	미래	O	O
+20	##에	O	O
+21	양국	O	O
+22	수도	O	O
+23	##에	O	O
+24	문화원	O	B-OG
+25	##을	O	O
+26	각각	O	O
+27	개설	O	O
+28	##하	O	O
+29	##기	O	O
+30	##로	O	O
+31	했	O	O
+32	##다	O	O
+33	.	O	O
+34	[SEP]	O	O

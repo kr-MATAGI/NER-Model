@@ -1,61 +1,77 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	국립	B-AF	B-OG	B-OG, B-AF, B-EV, O, B-LC
-2	##중	I-AF	I-OG	I-OG, I-AF, O, I-EV, I-LC
-3	##앙	I-AF	I-OG	I-OG, I-AF, O, I-EV, I-LC
-4	##박	I-AF	I-OG	I-OG, I-AF, O, I-EV, I-LC
-5	##물	I-AF	I-OG	I-OG, I-AF, O, I-EV, I-LC
-6	##관	I-AF	I-OG	I-OG, I-AF, O, I-EV, I-LC
-7	소장품	O	O	O, I-AF, B-CV, I-OG, I-EV
-8	##뿐	O	O	O, I-AF, I-OG, B-CV, B-TM
-9	##만	O	O	O, B-LC, B-QT, B-PS, B-TM
-10	아니	O	O	O, B-OG, B-AF, B-LC, B-CV
-11	##라	O	O	O, B-OG, B-LC, B-AF, B-CV
-12	국립	B-AF	B-AF	B-AF, B-OG, O, B-LC, B-EV
-13	##고	I-AF	I-AF	I-AF, I-OG, O, I-LC, I-EV
-14	##궁	I-AF	I-AF	I-AF, I-OG, O, I-LC, I-EV
-15	##박	I-AF	I-AF	I-AF, O, I-OG, I-LC, I-EV
-16	##물	I-AF	I-AF	I-AF, O, I-OG, I-LC, I-EV
-17	##관	I-AF	I-AF	I-AF, O, I-OG, I-LC, I-EV
-18	,	O	O	O, I-AF, I-OG, I-EV, I-LC
-19	삼성	B-OG	B-AF	B-AF, B-OG, B-LC, O, B-EV
-20	미술관	O	I-AF	I-AF, O, I-OG, I-EV, I-LC
-21	리	B-OG	O	O, I-AF, B-AF, I-OG, B-LC
-22	##움	I-OG	O	O, I-AF, I-OG, I-LC, I-PS
-23	,	O	O	O, I-AF, I-OG, I-EV, B-CV
-24	호	B-AF	B-AF	B-AF, B-OG, B-LC, O, B-EV
-25	##림	I-AF	I-AF	I-AF, I-OG, O, I-LC, I-EV
-26	##박	I-AF	I-AF	I-AF, I-OG, O, I-LC, I-EV
-27	##물	I-AF	I-AF	I-AF, I-OG, O, I-LC, I-EV
-28	##관	I-AF	I-AF	I-AF, I-OG, O, I-LC, I-EV
-29	,	O	O	O, I-AF, I-OG, I-EV, I-LC
-30	일본	B-LC	B-LC	B-LC, B-OG, O, B-AF, B-EV
-31	도쿄	B-AF	B-AF	B-AF, B-OG, B-LC, I-AF, I-OG
-32	##국	I-AF	I-AF	I-AF, I-OG, I-LC, O, B-AF
-33	##립	I-AF	I-AF	I-AF, I-OG, O, I-LC, I-EV
-34	##박	I-AF	I-AF	I-AF, I-OG, O, I-LC, I-EV
-35	##물	I-AF	I-AF	I-AF, I-OG, O, I-LC, I-EV
-36	##관	I-AF	I-AF	I-AF, I-OG, O, I-LC, I-EV
-37	,	O	O	O, I-AF, I-OG, I-EV, I-LC
-38	이데	B-AF	B-AF	B-AF, B-OG, O, B-LC, B-PS
-39	##미	I-AF	I-AF	I-AF, I-OG, O, I-LC, I-PS
-40	##쓰	I-AF	I-AF	I-AF, I-OG, O, I-LC, I-EV
-41	##미술	I-AF	I-AF	I-AF, I-OG, O, I-LC, I-EV
-42	##관	I-AF	I-AF	I-AF, I-OG, O, I-LC, I-EV
-43	등	O	O	O, I-AF, I-OG, B-CV, I-LC
-44	##이	O	O	O, B-CV, B-PS, B-OG, B-LC
-45	소장	O	O	O, B-CV, B-TM, B-LC, B-AF
-46	##하고	O	O	O, B-CV, B-PS, B-LC, B-TM
-47	있	O	O	O, B-CV, B-TM, B-LC, B-AF
-48	##는	O	O	O, B-CV, B-LC, B-AF, B-TM
-49	청	B-AF	B-AF	B-AF, O, I-AF, B-MT, B-TM
-50	##화	I-AF	I-AF	I-AF, O, I-TM, I-MT, I-FD
-51	##백	I-AF	I-AF	I-AF, O, I-TM, I-CV, I-QT
-52	##자	I-AF	I-AF	I-AF, O, I-TM, I-QT, I-CV
-53	##가	O	O	O, I-AF, I-QT, I-TM, I-EV
-54	한자	O	O	O, B-QT, B-TM, B-LC, B-CV
-55	##리에	O	O	O, I-QT, B-QT, I-EV, B-TM
-56	모였	O	O	O, B-QT, B-CV, B-LC, B-TM
-57	##다	O	O	O, B-CV, B-LC, I-QT, B-OG
-58	.	O	O	O, B-AF, B-LC, B-OG, B-PS
-59	[SEP]	O	O	O, I-AF, B-AF, B-LC, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	29	B-DT	B-DT
+2	##일	I-DT	I-DT
+3	울산시	B-OG	B-OG
+4	##에	O	O
+5	따르	O	O
+6	##면	O	O
+7	한국	B-OG	B-OG
+8	##산업	I-OG	I-OG
+9	##단지	I-OG	I-OG
+10	##공단	I-OG	I-OG
+11	울산	B-OG	I-OG
+12	##에	I-OG	I-OG
+13	##코	I-OG	I-OG
+14	(	I-OG	I-OG
+15	EC	I-OG	I-OG
+16	##O	I-OG	I-OG
+17	)	I-OG	I-OG
+18	사업단	I-OG	I-OG
+19	##과	O	O
+20	삼성	B-OG	B-OG
+21	##에	I-OG	I-OG
+22	##버	I-OG	I-OG
+23	##랜드	I-OG	I-OG
+24	##가	O	O
+25	공동	O	O
+26	##으로	O	O
+27	120	B-QT	B-QT
+28	##억	I-QT	I-QT
+29	원	I-QT	I-QT
+30	##을	O	O
+31	들여	O	O
+32	설치	O	O
+33	##한	O	O
+34	울산	B-LC	B-LC
+35	##공단	I-LC	I-LC
+36	내	O	O
+37	SK	B-OG	B-OG
+38	##C	I-OG	I-OG
+39	##㈜	I-OG	I-OG
+40	울산	B-AF	B-AF
+41	##공	I-AF	I-AF
+42	##장	I-AF	I-AF
+43	,	O	O
+44	코리아	B-OG	B-OG
+45	##P	I-OG	I-OG
+46	##T	I-OG	I-OG
+47	##G	I-OG	I-OG
+48	##㈜	I-OG	I-OG
+49	,	O	O
+50	㈜	B-OG	B-OG
+51	##K	I-OG	I-OG
+52	##P	I-OG	I-OG
+53	##케미칼	I-OG	I-OG
+54	울산	B-AF	B-AF
+55	##2	I-AF	I-AF
+56	##공	I-AF	I-AF
+57	##장	I-AF	I-AF
+58	,	O	O
+59	한솔	B-OG	B-OG
+60	##EM	I-OG	I-OG
+61	##E	I-OG	I-OG
+62	등	O	O
+63	4	B-QT	B-QT
+64	##개	I-QT	I-QT
+65	기업	O	O
+66	간	O	O
+67	스팀	B-TM	O
+68	네트워크	I-TM	O
+69	시설	O	O
+70	##이	O	O
+71	준공	O	O
+72	##됐	O	O
+73	##다	O	O
+74	.	O	O
+75	[SEP]	O	O

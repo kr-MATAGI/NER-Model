@@ -1,12 +1,43 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, B-CV, I-OG, I-AF
-1	학교	O	O	O, B-OG, I-OG, B-PS, B-CV
-2	##처럼	O	O	O, B-PS, I-OG, B-CV, I-CV
-3	우리	O	O	O, B-PS, B-CV, B-OG, B-LC
-4	반	O	B-PS	B-PS, O, I-PS, B-QT, B-CV
-5	교수	B-CV	B-CV	B-CV, O, I-CV, I-PS, I-QT
-6	##님	O	O	O, I-CV, B-CV, I-QT, I-PS
-7	##이	O	O	O, B-PS, B-CV, I-CV, B-LC
-8	##셨	O	O	O, B-CV, B-PS, I-CV, B-OG
-9	##죠	O	O	O, I-OG, I-CV, B-CV, I-AF
-10	[SEP]	O	O	O, B-CV, B-PS, I-CV, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	이재용	B-PS	B-PS
+2	삼성전자	B-OG	B-OG
+3	부회장	B-CV	B-CV
+4	(	O	O
+5	49	B-QT	B-QT
+6	·	O	O
+7	구속	O	B-CV
+8	기소	O	I-CV
+9	)	O	O
+10	의	O	O
+11	1	B-QT	B-QT
+12	##심	I-QT	I-QT
+13	재판	O	O
+14	##이	O	O
+15	끝	O	O
+16	##남	O	O
+17	##에	O	O
+18	따라	O	O
+19	검찰	B-OG	B-OG
+20	##은	O	O
+21	최	B-PS	B-PS
+22	씨	O	O
+23	##의	O	O
+24	딸	B-CV	B-CV
+25	정유라	B-PS	B-PS
+26	씨	O	O
+27	(	O	O
+28	21	B-QT	B-QT
+29	)	O	O
+30	의	O	O
+31	형사	O	O
+32	처벌	O	O
+33	여부	O	O
+34	##도	O	O
+35	조만간	O	O
+36	결정	O	O
+37	##할	O	O
+38	방침	O	O
+39	##이다	O	O
+40	.	O	O
+41	[SEP]	O	O

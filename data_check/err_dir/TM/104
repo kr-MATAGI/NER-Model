@@ -1,52 +1,15 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-EV, I-CV
-1	지난해	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-2	1	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-3	##월	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-4	##엔	O	O	O, I-DT, B-LC, B-CV, B-OG
-5	일본	B-LC	B-LC	B-LC, O, B-OG, B-AF, B-PS
-6	[UNK]	O	O	O, B-LC, I-LC, B-PS, B-OG
-7	지역	O	O	O, B-LC, I-LC, B-OG, B-PS
-8	##에	O	O	O, B-LC, B-CV, B-PS, B-OG
-9	상업	O	O	O, B-LC, B-CV, B-TM, B-FD
-10	##용	O	O	O, I-LC, B-LC, B-PS, I-PS
-11	최대	O	O	O, B-LC, B-PS, B-QT, B-CV
-12	##인	O	O	O, B-LC, B-PS, B-OG, B-CV
-13	31	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-OG
-14	##M	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-15	##W	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-16	##h	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-17	규모	O	O	O, I-QT, B-TM, B-OG, B-LC
-18	##의	O	O	O, B-OG, B-LC, B-TM, B-AF
-19	ESS	B-TM	B-TM	B-TM, O, B-AF, B-CV, B-TR
-20	배터리	I-TM	B-TM	B-TM, O, I-TM, I-AF, B-CV
-21	##를	O	O	O, I-TM, I-AF, I-CV, B-CV
-22	공급	O	O	O, B-LC, B-CV, B-OG, B-TM
-23	##했	O	O	O, B-LC, B-OG, B-PS, I-OG
-24	##고	O	O	O, B-LC, B-OG, B-CV, B-PS
-25	아프리카	B-LC	B-LC	B-LC, B-OG, O, B-AF, B-PS
-26	레	B-LC	B-LC	B-LC, B-OG, O, I-LC, B-AF
-27	##위	I-LC	I-LC	I-LC, O, I-OG, B-LC, I-PS
-28	##니	I-LC	I-LC	I-LC, O, I-OG, B-LC, I-PS
-29	##옹	I-LC	I-LC	I-LC, O, I-OG, B-LC, I-PS
-30	(	O	O	O, I-LC, I-OG, B-LC, I-AF
-31	Re	O	O	O, B-LC, B-OG, B-PS, B-AF
-32	##un	O	O	O, I-LC, B-LC, B-PS, I-OG
-33	##ion	O	O	O, B-LC, I-LC, B-PS, I-OG
-34	)	O	O	O, B-LC, I-LC, B-OG, I-OG
-35	에	O	O	O, B-LC, I-LC, B-CV, B-OG
-36	신재	O	O	O, B-FD, B-TR, I-FD, B-AF
-37	##생	O	O	O, I-FD, B-FD, I-TR, I-OG
-38	##에너지	O	O	O, I-FD, B-FD, I-TR, I-OG
-39	출력	O	O	O, B-LC, I-FD, B-PS, B-TM
-40	안정	O	O	O, B-LC, B-PS, B-OG, B-TM
-41	##화	O	O	O, B-LC, B-PS, I-LC, I-OG
-42	##용	O	O	O, B-LC, B-PS, B-TM, B-OG
-43	ESS	B-TM	B-TM	B-TM, O, B-AF, B-CV, B-TR
-44	배터리	I-TM	B-TM	B-TM, O, I-TM, I-AF, B-CV
-45	##도	O	O	O, I-TM, I-AF, I-CV, B-CV
-46	공급	O	O	O, B-LC, B-OG, B-CV, B-AF
-47	##했	O	O	O, B-LC, B-OG, I-OG, B-PS
-48	##다	O	O	O, B-LC, B-CV, B-OG, I-OG
-49	.	O	O	O, B-LC, B-OG, B-PS, I-LC
-50	[SEP]	O	O	O, B-LC, I-LC, B-CV, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	그	O	O
+2	낙태	O	O
+3	##금	O	O
+4	##지	O	O
+5	조항	O	O
+6	##을	O	O
+7	보	O	O
+8	##면	O	O
+9	임신	B-TM	O
+10	##한	O	O
+11	부녀	B-CV	B-CV
+12	##가	O	O
+13	[SEP]	O	O

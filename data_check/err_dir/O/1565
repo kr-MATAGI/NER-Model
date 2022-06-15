@@ -1,32 +1,67 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	그러나	O	O	O, B-CV, B-PS, B-TM, B-OG
-2	만난	O	O	O, B-CV, B-PS, B-OG, B-LC
-3	지	O	O	O, B-PS, B-CV, B-LC, I-AF
-4	1	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-5	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-6	##이	O	O	O, I-DT, B-PS, I-EV, B-OG
-7	되	O	O	O, B-PS, B-CV, B-OG, I-DT
-8	##던	O	O	O, B-PS, B-OG, B-LC, I-OG
-9	작년	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-10	여름	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-11	둘	O	B-QT	B-QT, O, I-QT, I-DT, B-DT
-12	##이	O	O	O, I-QT, B-PS, I-DT, I-EV
-13	##서	O	O	O, I-QT, B-PS, B-CV, B-LC
-14	북한산	B-LC	B-LC	B-LC, B-AF, B-TM, O, B-OG
-15	둘레길	O	I-AF	I-AF, B-AF, O, I-LC, B-LC
-16	##을	O	O	O, I-AF, I-LC, I-TM, I-OG
-17	가면	O	O	O, B-CV, B-OG, I-AF, B-TM
-18	##서	O	O	O, B-CV, B-PS, B-OG, B-QT
-19	창	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-20	##수	I-PS	I-PS	I-PS, O, I-OG, I-LC, B-PS
-21	##는	O	O	O, I-PS, I-OG, I-AF, I-LC
-22	마음	O	O	O, B-CV, B-TM, B-AF, B-LC
-23	##의	O	O	O, B-PS, B-CV, I-AF, B-AF
-24	문	O	O	O, B-PS, B-TM, B-CV, B-AM
-25	##을	O	O	O, B-CV, I-AF, I-CV, B-PS
-26	열	O	O	O, B-CV, B-PS, B-TM, B-OG
-27	##었	O	O	O, B-CV, B-PS, I-OG, I-AF
-28	##다	O	O	O, B-CV, I-OG, B-TM, I-CV
-29	.	O	O	O, B-PS, B-CV, B-LC, B-OG
-30	[SEP]	O	O	O, B-CV, B-PS, I-AF, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	탈북자	B-CV	B-CV
+2	##들의	O	O
+3	자립	O	O
+4	##을	O	O
+5	위해	O	O
+6	정부	B-OG	B-OG
+7	보조금	O	B-CV
+8	##을	O	O
+9	지원	O	O
+10	##하	O	O
+11	##고	O	O
+12	있	O	O
+13	##는	O	O
+14	통일부	B-OG	B-OG
+15	산하	O	O
+16	##의	O	O
+17	공공	O	O
+18	##기	O	O
+19	##관	O	O
+20	##인	O	O
+21	북한	B-OG	B-OG
+22	##이	I-OG	I-OG
+23	##탈	I-OG	I-OG
+24	##주	I-OG	I-OG
+25	##민	I-OG	I-OG
+26	##지	I-OG	I-OG
+27	##원	I-OG	I-OG
+28	##재단	I-OG	I-OG
+29	(	O	O
+30	남북	B-OG	B-OG
+31	##하나	I-OG	I-OG
+32	##재단	I-OG	I-OG
+33	)	O	O
+34	이	O	O
+35	올해	B-DT	B-DT
+36	초	I-DT	I-DT
+37	##부터	I-DT	I-DT
+38	자체	O	O
+39	감사	O	O
+40	##를	O	O
+41	벌여	O	O
+42	일부	O	O
+43	유력	O	O
+44	탈	B-CV	B-CV
+45	##북	I-CV	I-CV
+46	##인	I-CV	I-CV
+47	##사	I-CV	I-CV
+48	##가	O	O
+49	보조금	B-CV	B-CV
+50	##을	O	O
+51	유용	O	O
+52	##한	O	O
+53	사실	O	O
+54	##을	O	O
+55	적발	O	O
+56	##한	O	O
+57	것	O	O
+58	##으로	O	O
+59	24	B-DT	B-DT
+60	##일	I-DT	I-DT
+61	확인	O	O
+62	##됐	O	O
+63	##다	O	O
+64	.	O	O
+65	[SEP]	O	O

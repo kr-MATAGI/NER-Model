@@ -1,34 +1,27 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-AF
-1	현재	O	O	O, B-LC, B-CV, B-OG, B-QT
-2	서울	B-LC	B-LC	B-LC, B-OG, O, B-AF, B-PS
-3	##도	O	O	O, I-LC, I-AF, I-OG, B-LC
-4	사상	O	O	O, B-LC, B-CV, B-OG, B-QT
-5	최대	O	O	O, B-QT, B-PS, B-LC, B-CV
-6	폭설	O	O	O, B-LC, B-CV, B-TM, B-AF
-7	##로	O	O	O, B-LC, B-PS, B-OG, B-CV
-8	'	O	O	O, B-LC, B-CV, B-PS, B-OG
-9	순	B-TM	O	O, B-QT, B-LC, B-TM, B-PS
-10	##백	I-TM	O	O, I-LC, I-QT, I-PS, I-TM
-11	##의	O	O	O, I-LC, I-PS, I-QT, I-AF
-12	도시	O	O	O, I-LC, I-PS, I-QT, B-LC
-13	'	O	O	O, I-LC, I-QT, I-AF, B-LC
-14	로	O	O	O, B-LC, B-PS, B-CV, B-OG
-15	변했	O	O	O, B-CV, B-LC, B-PS, B-TM
-16	##지만	O	O	O, B-CV, B-LC, I-OG, I-AF
-17	,	O	O	O, B-LC, B-CV, B-OG, B-PS
-18	시베리아	B-LC	B-LC	B-LC, O, B-OG, B-AF, B-PS
-19	##와	O	O	O, I-LC, I-AF, I-OG, B-LC
-20	북극	B-LC	B-LC	B-LC, O, B-OG, B-AF, I-LC
-21	##의	O	O	O, I-LC, I-AF, B-LC, B-PS
-22	겨울	B-DT	B-DT	B-DT, O, B-LC, B-TI, I-DT
-23	##은	O	O	O, I-DT, I-AF, B-CV, I-EV
-24	한국	B-LC	B-LC	B-LC, B-OG, O, B-AF, B-PS
-25	##과	O	O	O, I-LC, I-AF, I-OG, B-LC
-26	##는	O	O	O, B-LC, B-CV, I-AF, B-TM
-27	비교	O	O	O, B-CV, B-TM, B-LC, B-OG
-28	##도	O	O	O, B-LC, B-OG, B-PS, B-CV
-29	안	O	O	O, B-LC, B-CV, B-QT, I-OG
-30	된다	O	O	O, B-CV, B-LC, I-OG, B-OG
-31	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-32	[SEP]	O	O	O, B-LC, B-CV, I-LC, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	그러나	O	O
+2	이	O	O
+3	헌혈	O	O
+4	##용	O	O
+5	혈액	B-TM	B-TM
+6	##과	O	O
+7	팸	B-TM	B-TM
+8	##의	O	I-TM
+9	감염	B-TM	I-TM
+10	##과	O	O
+11	##의	O	O
+12	역학	O	O
+13	##적	O	O
+14	연관	O	O
+15	##성	O	O
+16	##은	O	O
+17	아직	O	O
+18	확인	O	O
+19	##되	O	O
+20	##지	O	O
+21	않	O	O
+22	##았	O	O
+23	##다	O	O
+24	.	O	O
+25	[SEP]	O	O

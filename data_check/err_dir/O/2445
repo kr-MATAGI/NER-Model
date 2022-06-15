@@ -1,13 +1,21 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	현대사	O	O	O, B-FD, B-OG, B-TR, B-LC
-2	##회의	O	O	O, I-FD, I-OG, B-FD, I-EV
-3	질병	O	O	O, B-TM, B-CV, I-TM, B-QT
-4	중	O	O	O, B-TM, I-TM, B-PS, B-QT
-5	하나	O	B-QT	B-QT, O, I-QT, B-PS, B-TM
-6	##는	O	O	O, I-QT, B-CV, I-AF, I-TM
-7	무관	O	O	O, B-TM, B-CV, B-AM, B-LC
-8	##심	O	O	O, I-TM, B-TM, I-CV, I-TR
-9	##이다	O	O	O, I-TM, B-CV, I-CV, I-AF
-10	.	O	O	O, B-TM, B-CV, B-LC, B-OG
-11	[SEP]	O	O	O, B-TM, B-CV, B-LC, I-TM
+	text	label	preds
+0	[CLS]	O	O
+1	소비자	O	B-OG
+2	##단체	O	I-OG
+3	##에	O	O
+4	계신	O	O
+5	분	O	O
+6	##들이	O	O
+7	각종	O	O
+8	정보	B-OG	B-OG
+9	##위원회	I-OG	I-OG
+10	##나	O	O
+11	이런	O	O
+12	데	O	O
+13	이렇게	O	O
+14	참여	O	O
+15	##를	O	O
+16	하시	O	O
+17	##면	O	O
+18	##서	O	O
+19	[SEP]	O	O

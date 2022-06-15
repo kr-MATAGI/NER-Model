@@ -1,16 +1,44 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-AF
-1	일	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-TI
-2	년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-TI
-3	이하	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-TI
-4	##의	O	O	O, I-DT, B-PS, I-AF, I-QT
-5	징역	O	B-CV	B-CV, O, B-OG, I-CV, B-AF
-6	또는	O	O	O, I-CV, I-AF, I-QT, I-OG
-7	이	B-QT	B-QT	B-QT, I-QT, B-DT, O, B-CV
-8	##백	I-QT	I-QT	I-QT, I-DT, B-QT, O, I-LC
-9	##만	I-QT	I-QT	I-QT, O, I-LC, I-DT, I-PS
-10	원	I-QT	I-QT	I-QT, O, I-LC, I-DT, I-PS
-11	이하	I-QT	I-QT	I-QT, O, I-LC, I-DT, I-PS
-12	##의	O	O	O, I-QT, B-PS, I-AF, I-DT
-13	벌금	B-CV	B-CV	B-CV, O, B-OG, I-CV, B-AF
-14	[SEP]	O	O	O, I-CV, I-AF, I-QT, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	벤처	O	O
+2	##기업	O	O
+3	등이	O	O
+4	우수	O	O
+5	인재	O	O
+6	유치	O	O
+7	##를	O	O
+8	위해	O	O
+9	적극	O	O
+10	##적	O	O
+11	##으로	O	O
+12	요구	O	O
+13	##해	O	O
+14	온	O	O
+15	주식	O	B-CV
+16	##매	O	I-CV
+17	##수	O	I-CV
+18	##선	O	I-CV
+19	##택	O	I-CV
+20	##권	O	I-CV
+21	(	O	O
+22	스톡	B-CV	B-CV
+23	##옵	I-CV	I-CV
+24	##션	I-CV	I-CV
+25	)	O	O
+26	행사	O	O
+27	##이	O	O
+28	##익	O	O
+29	비	O	O
+30	##과	O	O
+31	##세	O	O
+32	##는	O	O
+33	국회	B-OG	B-OG
+34	논의	O	O
+35	과정	O	O
+36	##에	O	O
+37	##서	O	O
+38	새로	O	O
+39	생겼	O	O
+40	##다	O	O
+41	.	O	O
+42	[SEP]	O	O

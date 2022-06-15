@@ -1,17 +1,28 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, B-CV, I-OG, I-AF
-1	그래서	O	O	O, B-CV, B-TM, B-OG, B-LC
-2	그때	O	O	O, B-CV, B-OG, B-TM, B-LC
-3	영어	B-CV	B-CV	B-CV, O, B-LC, B-OG, B-TM
-4	##공	O	O	O, I-CV, B-CV, I-AF, I-EV
-5	##부	O	O	O, I-CV, I-AF, I-TM, I-EV
-6	##한다	O	O	O, B-CV, B-PS, I-AF, B-LC
-7	##고	O	O	O, B-LC, B-PS, B-OG, I-AF
-8	그래서	O	O	O, B-LC, B-CV, B-OG, B-PS
-9	파이브	B-TI	B-QT	B-QT, B-AF, B-EV, O, B-OG
-10	미	I-TI	I-QT	I-QT, I-AF, I-EV, O, I-OG
-11	##닛	I-TI	I-QT	I-QT, I-AF, O, I-EV, I-OG
-12	##츠	I-TI	I-QT	I-QT, I-AF, O, I-EV, I-TM
-13	스토리	O	I-QT	I-QT, I-AF, O, I-TM, I-EV
-14	##즈	O	I-QT	I-QT, I-AF, O, I-EV, I-OG
-15	[SEP]	O	O	O, I-AF, I-QT, I-EV, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	경북	B-LC	B-LC
+2	김천	B-LC	B-LC
+3	혁신	O	I-LC
+4	##도	O	I-LC
+5	##시	O	I-LC
+6	이전	O	O
+7	##기	O	O
+8	##관	O	O
+9	가운데	O	O
+10	처음	O	O
+11	##으로	O	O
+12	한국	B-OG	B-OG
+13	##도로	I-OG	I-OG
+14	##공사	I-OG	I-OG
+15	##가	O	O
+16	20	B-DT	B-DT
+17	##일	I-DT	I-DT
+18	터	O	O
+19	매입	O	O
+20	계약	O	O
+21	##을	O	O
+22	체결	O	O
+23	##했	O	O
+24	##다	O	O
+25	.	O	O
+26	[SEP]	O	O

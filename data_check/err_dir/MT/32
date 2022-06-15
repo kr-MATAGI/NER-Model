@@ -1,50 +1,23 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	그러나	O	O	O, B-OG, B-LC, B-CV, B-AF
-2	은	B-MT	O	O, B-OG, B-CV, B-AF, B-PS
-3	전문가	B-CV	B-CV	B-CV, O, I-CV, I-OG, B-OG
-4	##들	O	O	O, I-CV, I-OG, B-CV, I-AF
-5	##의	O	O	O, B-CV, B-PS, I-CV, B-LC
-6	말	O	O	O, B-CV, B-LC, B-TM, B-PS
-7	##을	O	O	O, B-CV, B-PS, B-LC, B-OG
-8	인용	O	O	O, B-CV, B-OG, B-LC, B-TM
-9	##해	O	O	O, B-LC, B-OG, I-OG, B-PS
-10	,	O	O	O, B-CV, B-OG, B-LC, B-PS
-11	“	O	O	O, B-LC, B-OG, B-CV, B-PS
-12	그리스	B-LC	B-LC	B-LC, B-OG, O, B-PS, B-AF
-13	##의	O	O	O, I-OG, I-LC, I-AF, B-OG
-14	부채	O	O	O, B-CV, B-AF, B-TM, B-LC
-15	상환	O	O	O, B-LC, I-CV, B-PS, I-EV
-16	##이	O	O	O, B-PS, B-LC, B-OG, B-DT
-17	몇	O	O	O, B-LC, B-DT, B-PS, B-OG
-18	년	O	O	O, I-DT, B-DT, B-LC, B-PS
-19	연기	O	O	O, B-LC, B-PS, B-OG, I-DT
-20	##된	O	O	O, B-LC, B-PS, B-OG, B-CV
-21	##다고	O	O	O, B-LC, B-PS, B-OG, B-CV
-22	해도	O	O	O, B-LC, B-OG, B-PS, B-CV
-23	,	O	O	O, B-LC, B-OG, B-CV, B-PS
-24	그리스	B-LC	B-LC	B-LC, B-OG, O, B-PS, B-AF
-25	##는	O	O	O, I-OG, I-LC, I-AF, B-LC
-26	결국	O	O	O, B-LC, B-CV, B-PS, B-OG
-27	상환	O	O	O, B-LC, B-CV, B-OG, B-PS
-28	##일	O	O	O, B-LC, I-LC, B-PS, B-DT
-29	##이	O	O	O, B-PS, B-LC, B-OG, B-CV
-30	도래	O	O	O, B-CV, B-LC, B-TM, B-PS
-31	##하	O	O	O, B-LC, B-PS, B-CV, B-OG
-32	##는	O	O	O, B-LC, B-CV, B-TM, B-PS
-33	부채	O	O	O, B-CV, B-AF, B-TM, B-LC
-34	##들	O	O	O, I-CV, I-AF, B-CV, I-EV
-35	##을	O	O	O, B-CV, B-LC, B-TM, B-OG
-36	갚	O	O	O, B-CV, B-LC, B-TM, B-OG
-37	##을	O	O	O, B-LC, B-CV, B-PS, B-OG
-38	수	O	O	O, B-LC, B-CV, B-PS, B-TM
-39	없	O	O	O, B-CV, B-TM, B-LC, B-PS
-40	##을	O	O	O, B-CV, B-LC, B-TM, B-PS
-41	것	O	O	O, B-CV, B-LC, B-PS, B-TM
-42	”	O	O	O, B-CV, B-TM, B-LC, I-OG
-43	이라	O	O	O, B-CV, B-LC, B-PS, B-OG
-44	##고	O	O	O, B-CV, I-OG, B-TM, B-OG
-45	전했	O	O	O, B-OG, B-CV, B-LC, I-OG
-46	##다	O	O	O, I-OG, B-CV, I-CV, I-QT
-47	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-48	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	이	O	O
+2	##를	O	O
+3	페인트	B-MT	O
+4	##에	O	O
+5	응용	O	O
+6	##하	O	O
+7	##는	O	O
+8	기술	O	O
+9	##만	O	O
+10	갖추	O	O
+11	##면	O	O
+12	자동차	B-AF	B-AF
+13	칠	O	O
+14	##로	O	O
+15	쓸	O	O
+16	수	O	O
+17	있	O	O
+18	##다고	O	O
+19	한다	O	O
+20	.	O	O
+21	[SEP]	O	O

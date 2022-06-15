@@ -1,74 +1,53 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-EV, I-CV, I-OG
-1	정치	B-CV	B-CV	B-CV, O, B-FD, B-AF, B-TR
-2	##철	I-CV	I-CV	I-CV, O, B-CV, I-FD, I-TR
-3	##학자	I-CV	I-CV	I-CV, O, B-CV, I-FD, I-TR
-4	래리	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-5	안	I-PS	I-PS	I-PS, O, B-PS, I-OG, I-LC
-6	##허	I-PS	I-PS	I-PS, O, I-LC, I-OG, I-QT
-7	##트	I-PS	I-PS	I-PS, O, I-LC, I-OG, B-LC
-8	노	B-OG	B-OG	B-OG, B-LC, I-OG, O, I-PS
-9	##던	I-OG	I-OG	I-OG, I-LC, O, B-OG, I-PS
-10	##일리	I-OG	I-OG	I-OG, I-LC, O, B-OG, I-PS
-11	##노이	I-OG	I-OG	I-OG, I-LC, O, B-OG, B-LC
-12	##대	I-OG	I-OG	I-OG, I-LC, O, I-AF, I-PS
-13	교수	B-CV	B-CV	B-CV, O, I-OG, I-CV, B-AF
-14	##는	O	O	O, I-CV, I-OG, I-EV, B-CV
-15	반박	O	O	O, B-CV, B-TM, B-OG, B-AF
-16	글	O	O	O, B-CV, B-PS, B-TM, I-EV
-17	##에서	O	O	O, B-CV, B-LC, B-OG, B-PS
-18	“	O	O	O, B-LC, B-CV, B-OG, B-PS
-19	다윈	O	B-PS	B-PS, O, I-PS, B-LC, B-OG
-20	##의	O	O	O, I-PS, B-PS, B-CV, I-AF
-21	아이디어	O	O	O, B-LC, B-CV, B-PS, B-FD
-22	##는	O	O	O, B-PS, B-LC, B-CV, B-OG
-23	사유	O	O	O, B-CV, B-LC, B-PS, B-TR
-24	##재	O	O	O, I-CV, I-LC, B-LC, I-TR
-25	##산	O	O	O, I-CV, I-LC, B-LC, I-TR
-26	##과	O	O	O, B-PS, B-LC, I-PS, I-LC
-27	자유	O	O	O, B-CV, B-LC, B-PS, B-TR
-28	##시장	O	O	O, I-CV, I-LC, B-LC, I-TR
-29	,	O	O	O, B-PS, B-LC, B-CV, I-LC
-30	제한	O	O	O, B-LC, B-CV, B-PS, B-OG
-31	##된	O	O	O, B-PS, B-LC, I-PS, I-LC
-32	정부	B-OG	B-OG	B-OG, O, B-AF, B-CV, B-PS
-33	같	O	O	O, I-OG, B-CV, I-CV, I-AF
-34	##은	O	O	O, B-PS, B-LC, I-CV, I-OG
-35	논리	O	O	O, B-LC, B-PS, B-CV, I-CV
-36	##를	O	O	O, B-PS, B-CV, B-LC, B-OG
-37	지지	O	O	O, B-CV, B-TM, B-PS, B-LC
-38	##한다	O	O	O, B-PS, B-LC, I-PS, B-CV
-39	”	O	O	O, B-CV, B-LC, B-PS, B-TM
-40	며	O	O	O, B-LC, B-CV, B-OG, B-TM
-41	“	O	O	O, B-CV, B-LC, B-TM, B-OG
-42	구제	O	O	O, B-CV, B-OG, B-AF, B-TR
-43	금융	O	O	O, I-CV, I-AF, I-OG, B-CV
-44	##은	O	O	O, I-CV, I-AF, B-PS, I-OG
-45	경솔	O	O	O, B-CV, B-LC, B-PS, B-TM
-46	##한	O	O	O, B-PS, B-LC, I-PS, I-LC
-47	행동	O	O	O, B-LC, B-CV, B-PS, I-LC
-48	##에	O	O	O, B-PS, B-LC, B-TM, B-CV
-49	보상	O	O	O, B-CV, B-PS, B-LC, B-TM
-50	##을	O	O	O, B-CV, B-PS, B-LC, B-TM
-51	해	O	O	O, B-PS, B-LC, B-CV, B-TM
-52	##주	O	O	O, B-PS, B-LC, B-CV, I-CV
-53	##는	O	O	O, B-PS, B-LC, B-CV, B-TM
-54	것	O	O	O, B-LC, B-PS, B-CV, B-OG
-55	##으로	O	O	O, B-LC, B-PS, B-CV, B-TM
-56	경제	O	O	O, B-EV, B-CV, B-FD, B-LC
-57	##위	O	O	O, I-EV, B-EV, B-CV, B-LC
-58	##기	O	O	O, I-EV, B-EV, I-LC, B-LC
-59	##를	O	O	O, I-EV, B-CV, B-PS, B-LC
-60	더	O	O	O, B-LC, B-TM, B-CV, B-QT
-61	악화	O	O	O, B-LC, B-CV, B-TM, B-EV
-62	##시	O	O	O, B-LC, B-PS, I-LC, I-EV
-63	##킬	O	O	O, B-LC, B-PS, I-LC, B-TM
-64	것	O	O	O, B-LC, B-PS, B-CV, B-TM
-65	##이다	O	O	O, B-PS, B-CV, I-EV, B-LC
-66	”	O	O	O, B-CV, B-TM, B-LC, B-OG
-67	고	O	O	O, B-CV, B-TM, B-LC, B-QT
-68	말	O	O	O, B-CV, B-TM, B-LC, I-QT
-69	##했	O	O	O, B-CV, B-LC, B-PS, B-OG
-70	##다	O	O	O, B-CV, B-TM, B-LC, B-OG
-71	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-72	[SEP]	O	O	O, B-LC, B-CV, B-PS, I-EV
+	text	label	preds
+0	[CLS]	O	O
+1	정부	B-OG	B-OG
+2	##와	O	O
+3	인천시	B-OG	B-OG
+4	##가	O	O
+5	시설	O	O
+6	##과	O	O
+7	운영비	O	O
+8	##를	O	O
+9	지원	O	O
+10	##하	O	O
+11	##고	O	O
+12	있	O	O
+13	##는	O	O
+14	인천	B-LC	B-LC
+15	송도	B-LC	B-LC
+16	글로벌	O	B-OG
+17	##캠	O	I-OG
+18	##퍼스	O	I-OG
+19	내	O	O
+20	한국	B-OG	B-OG
+21	##뉴	I-OG	I-OG
+22	##욕	I-OG	I-OG
+23	##주	I-OG	I-OG
+24	##립	I-OG	I-OG
+25	##대	I-OG	I-OG
+26	##학교	I-OG	I-OG
+27	##가	O	O
+28	초	B-CV	B-CV
+29	·	I-CV	I-CV
+30	중학생	I-CV	I-CV
+31	##을	O	O
+32	대상	O	O
+33	##으로	O	O
+34	최고	O	O
+35	300	B-QT	B-QT
+36	##만	I-QT	I-QT
+37	##원	I-QT	I-QT
+38	##의	O	O
+39	고액	O	O
+40	영어	B-EV	B-EV
+41	##캠프	I-EV	I-EV
+42	##를	O	O
+43	운영	O	O
+44	##해	O	O
+45	##온	O	O
+46	사실	O	O
+47	##이	O	O
+48	드러났	O	O
+49	##다	O	O
+50	.	O	O
+51	[SEP]	O	O

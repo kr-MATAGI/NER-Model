@@ -1,51 +1,35 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-EV, I-CV
-1	중국	B-OG	B-LC	B-LC, B-OG, O, B-TM, B-PS
-2	##의	O	O	O, I-OG, I-LC, B-PS, B-OG
-3	일방	O	O	O, B-LC, B-CV, B-PS, B-OG
-4	##적인	O	O	O, B-LC, B-PS, B-OG, I-LC
-5	방공	O	B-LC	B-LC, O, B-CV, B-OG, I-LC
-6	##식	O	I-LC	I-LC, O, B-LC, I-CV, I-AF
-7	##별	O	I-LC	I-LC, O, B-LC, I-AF, I-CV
-8	##구역	O	I-LC	I-LC, O, B-LC, I-AF, I-CV
-9	선포	O	O	O, I-LC, B-LC, I-AF, I-OG
-10	##와	O	O	O, B-PS, B-OG, B-LC, I-OG
-11	일본	B-OG	B-LC	B-LC, B-OG, O, B-PS, B-AF
-12	##의	O	O	O, I-OG, I-LC, B-PS, B-OG
-13	집단	B-CV	B-CV	B-CV, O, B-OG, B-AF, I-CV
-14	##적	I-CV	I-CV	I-CV, O, I-OG, B-CV, I-AF
-15	자위권	I-CV	I-CV	I-CV, O, I-OG, B-CV, I-AF
-16	추진	O	O	O, I-CV, I-OG, I-EV, I-AF
-17	##으로	O	O	O, B-PS, B-LC, B-OG, B-CV
-18	동아시아	B-LC	B-LC	B-LC, O, B-OG, B-AF, B-TM
-19	##에서	O	O	O, I-LC, B-PS, I-OG, B-LC
-20	긴장	O	O	O, B-CV, B-LC, B-TM, B-OG
-21	##이	O	O	O, B-PS, B-OG, B-LC, B-CV
-22	고조	O	O	O, B-CV, B-LC, B-PS, B-OG
-23	##되	O	O	O, B-PS, B-LC, B-OG, B-CV
-24	##고	O	O	O, B-PS, B-LC, B-CV, B-OG
-25	있	O	O	O, B-PS, B-LC, B-CV, B-OG
-26	##어	O	O	O, B-PS, B-LC, B-OG, B-CV
-27	'	O	O	O, B-PS, B-LC, B-CV, B-OG
-28	초보	O	O	O, B-PS, B-CV, B-QT, B-LC
-29	외교관	B-CV	B-CV	B-CV, O, I-CV, I-QT, I-PS
-30	'	O	O	O, I-CV, B-PS, B-CV, I-QT
-31	케네디	B-PS	B-PS	B-PS, O, B-LC, B-EV, B-OG
-32	대사	B-CV	B-CV	B-CV, O, I-CV, I-PS, I-EV
-33	##의	O	O	O, I-CV, B-PS, I-EV, B-CV
-34	능력	O	O	O, B-CV, B-PS, B-LC, B-TM
-35	##을	O	O	O, B-PS, B-CV, B-LC, B-OG
-36	검증	O	O	O, B-CV, B-PS, B-LC, B-TM
-37	##하	O	O	O, B-PS, B-LC, B-CV, B-EV
-38	##는	O	O	O, B-PS, B-LC, B-CV, B-QT
-39	시험	O	O	O, B-PS, B-LC, B-CV, B-EV
-40	무대	O	O	O, B-CV, I-EV, B-PS, B-EV
-41	##가	O	O	O, B-PS, B-CV, B-OG, I-EV
-42	되	O	O	O, B-CV, B-QT, B-LC, B-PS
-43	##고	O	O	O, B-PS, B-CV, I-EV, B-LC
-44	있	O	O	O, B-PS, B-CV, I-EV, B-LC
-45	##다는	O	O	O, B-PS, B-CV, I-EV, B-LC
-46	것	O	O	O, B-OG, B-CV, B-PS, B-LC
-47	##이다	O	O	O, B-CV, I-EV, I-OG, I-QT
-48	.	O	O	O, B-LC, B-PS, B-CV, B-OG
-49	[SEP]	O	O	O, B-LC, B-PS, B-CV, I-EV
+	text	label	preds
+0	[CLS]	O	O
+1	대표	O	O
+2	##적	O	O
+3	##으로	O	O
+4	영국	B-LC	B-LC
+5	##의	O	O
+6	공립	O	O
+7	##학교	O	O
+8	##가	O	O
+9	전환	O	O
+10	##해	O	O
+11	만든	O	O
+12	‘	O	O
+13	협동조합	B-OG	O
+14	##학교	I-OG	O
+15	’	O	O
+16	와	O	O
+17	국내	O	O
+18	교육	O	O
+19	##경제	O	O
+20	##공	O	O
+21	##동	O	O
+22	##체	O	O
+23	‘	O	O
+24	학교	B-OG	B-OG
+25	##협	I-OG	I-OG
+26	##동	I-OG	I-OG
+27	##조합	I-OG	I-OG
+28	’	O	O
+29	이	O	O
+30	있	O	O
+31	##다	O	O
+32	.	O	O
+33	[SEP]	O	O

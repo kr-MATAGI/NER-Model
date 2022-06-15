@@ -1,85 +1,29 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-EV, I-CV
-1	경제	B-OG	B-OG	B-OG, O, B-LC, I-OG, B-PS
-2	##협	I-OG	I-OG	I-OG, O, B-OG, I-LC, I-PS
-3	##력	I-OG	I-OG	I-OG, O, B-OG, I-PS, I-LC
-4	##개발	I-OG	I-OG	I-OG, O, B-OG, I-PS, I-LC
-5	##기구	I-OG	I-OG	I-OG, O, B-OG, I-LC, I-PS
-6	(	O	O	O, I-OG, B-OG, I-EV, B-PS
-7	OECD	B-OG	B-OG	B-OG, O, I-OG, B-CV, B-LC
-8	)	O	O	O, I-OG, I-EV, B-OG, I-CV
-9	는	O	O	O, B-OG, I-OG, B-PS, B-LC
-10	지난달	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-11	24	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-12	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-13	발표	O	O	O, I-DT, B-CV, B-OG, B-LC
-14	##한	O	O	O, B-OG, B-PS, B-LC, B-CV
-15	경제	O	O	O, B-AF, B-CV, B-FD, B-EV
-16	##전	O	O	O, I-AF, I-OG, I-CV, I-EV
-17	##망	O	O	O, I-AF, I-OG, I-CV, I-EV
-18	보고서	O	O	O, I-AF, B-AF, I-OG, B-CV
-19	##에서	O	O	O, I-AF, B-CV, I-OG, I-CV
-20	“	O	O	O, B-LC, B-OG, B-PS, B-CV
-21	올해	B-DT	B-DT	B-DT, O, I-DT, B-LC, B-QT
-22	##와	O	O	O, I-DT, B-OG, I-OG, I-QT
-23	내년	B-DT	B-DT	B-DT, I-DT, O, B-LC, B-QT
-24	회원국	O	O	O, B-CV, B-OG, I-DT, I-CV
-25	##의	O	O	O, I-CV, I-OG, I-EV, B-PS
-26	잠재	O	O	O, B-LC, B-OG, B-TM, B-PS
-27	##성장	O	O	O, B-LC, B-OG, B-PS, B-TM
-28	##률	O	O	O, B-LC, B-PS, B-OG, I-OG
-29	##이	O	O	O, B-PS, B-OG, B-LC, B-CV
-30	0	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-LC
-31	.	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-32	6	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-33	~	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-34	1	I-QT	I-QT	I-QT, B-QT, O, I-LC, I-PS
-35	.	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-36	0	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-37	%	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-38	포인트	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-39	정도	I-QT	I-QT	I-QT, O, I-LC, I-DT, I-CV
-40	낮	O	O	O, I-QT, B-TM, B-LC, B-OG
-41	##아지	O	O	O, I-QT, B-LC, B-CV, B-PS
-42	##고	O	O	O, B-PS, B-OG, B-LC, I-OG
-43	,	O	O	O, B-LC, B-DT, B-OG, B-PS
-44	금융	O	B-DT	B-DT, O, I-DT, B-EV, B-QT
-45	##위	O	I-DT	I-DT, O, B-DT, I-EV, I-QT
-46	##기	O	I-DT	I-DT, O, B-DT, I-EV, I-QT
-47	이후	O	I-DT	I-DT, O, B-DT, I-QT, I-EV
-48	(	O	O	O, I-DT, B-OG, B-LC, I-EV
-49	2011	B-DT	B-DT	B-DT, I-DT, O, B-QT, B-LC
-50	~	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
-51	2017	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-52	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-OG
-53	)	O	O	O, I-DT, B-LC, B-OG, B-CV
-54	주요	O	O	O, B-LC, B-OG, B-TM, B-EV
-55	선진국	O	O	O, B-OG, B-LC, I-OG, B-CV
-56	##들	O	O	O, I-OG, I-LC, I-AF, I-CV
-57	##의	O	O	O, B-LC, B-OG, B-PS, B-CV
-58	잠재	O	O	O, B-LC, B-OG, B-TM, B-PS
-59	##성장	O	O	O, B-LC, B-PS, B-OG, B-TM
-60	##률	O	O	O, B-LC, B-PS, B-OG, I-OG
-61	##은	O	O	O, B-LC, B-OG, B-CV, B-PS
-62	회복세	O	O	O, B-LC, B-OG, B-CV, B-PS
-63	##를	O	O	O, B-LC, B-OG, B-PS, B-CV
-64	보이	O	O	O, B-LC, B-OG, B-PS, B-CV
-65	##겠	O	O	O, B-LC, B-PS, B-OG, B-CV
-66	##지만	O	O	O, B-LC, B-PS, B-OG, I-OG
-67	위기	O	O	O, B-EV, B-DT, B-LC, B-PS
-68	이전	O	O	O, I-DT, I-EV, B-PS, B-DT
-69	수준	O	O	O, B-LC, B-CV, I-DT, B-QT
-70	##까	O	O	O, B-LC, B-PS, B-OG, B-TM
-71	##지	O	O	O, B-LC, B-OG, B-PS, B-QT
-72	이르	O	O	O, B-LC, B-OG, B-QT, B-PS
-73	##지	O	O	O, B-LC, B-OG, B-PS, I-OG
-74	##는	O	O	O, B-LC, B-OG, B-TM, B-CV
-75	못할	O	O	O, B-LC, B-PS, B-CV, B-OG
-76	것	O	O	O, B-LC, B-PS, B-CV, B-OG
-77	”	O	O	O, B-CV, B-LC, I-OG, B-OG
-78	이라	O	O	O, B-CV, B-PS, B-OG, B-LC
-79	##고	O	O	O, B-CV, I-OG, B-TM, B-OG
-80	내다봤	O	O	O, B-OG, B-CV, B-LC, B-QT
-81	##다	O	O	O, B-CV, I-OG, I-CV, I-QT
-82	.	O	O	O, B-LC, B-OG, B-PS, B-CV
-83	[SEP]	O	O	O, B-LC, B-OG, B-CV, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	•	O	O
+2	롯데	B-OG	B-OG
+3	,	O	O
+4	LG	B-OG	B-OG
+5	잡	O	O
+6	##고	O	O
+7	4	B-QT	B-QT
+8	##연	I-QT	I-QT
+9	##패	I-QT	I-QT
+10	탈출	O	O
+11	…	O	O
+12	정전	O	O
+13	##사태	O	O
+14	삼성	B-OG	B-OG
+15	·	O	O
+16	두산	B-OG	B-OG
+17	장군	O	B-OG
+18	##멍	O	I-OG
+19	##군	O	I-OG
+20	##K	B-OG	B-OG
+21	##IA	I-OG	I-OG
+22	로페즈	B-PS	B-PS
+23	3	B-QT	B-QT
+24	##승	I-QT	I-QT
+25	##째	I-QT	I-QT
+26	올려	O	O
+27	[SEP]	O	O

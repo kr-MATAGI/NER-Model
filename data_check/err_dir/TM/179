@@ -1,37 +1,38 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	평소	O	O	O, B-CV, B-LC, B-PS, B-TM
-2	##에	O	O	O, B-CV, B-OG, B-PS, B-LC
-3	물	O	O	O, B-CV, B-LC, B-TM, B-MT
-4	##을	O	O	O, B-CV, B-PS, B-LC, I-CV
-5	뿌려	O	O	O, B-CV, B-LC, B-PS, B-OG
-6	##주	O	O	O, B-CV, B-PS, B-LC, I-CV
-7	##면	O	O	O, B-LC, B-CV, B-PS, B-TM
-8	수분	O	O	O, B-TM, B-MT, B-CV, B-LC
-9	##을	O	O	O, B-CV, B-PS, B-LC, I-CV
-10	머금	O	O	O, B-LC, B-CV, B-PS, B-TM
-11	##고	O	O	O, B-LC, B-PS, B-CV, B-TM
-12	있	O	O	O, B-LC, B-CV, B-PS, B-TM
-13	##다가	O	O	O, B-LC, B-PS, B-CV, B-TM
-14	건조	O	O	O, B-TM, B-CV, B-LC, B-PS
-15	##한	O	O	O, B-PS, B-LC, I-TM, I-LC
-16	날씨	O	O	O, B-CV, B-LC, B-PS, I-OG
-17	때	O	O	O, B-CV, B-PS, B-LC, B-AF
-18	인	B-TM	B-AF	B-AF, B-TM, O, B-CV, B-EV
-19	##필드	I-TM	I-AF	I-AF, I-TM, O, I-CV, I-EV
-20	믹스	I-TM	I-AF	I-AF, I-TM, O, I-CV, I-EV
-21	##나	O	O	O, I-AF, I-TM, I-CV, I-EV
-22	마운드	B-TM	B-TM	B-TM, B-AF, O, B-CV, B-EV
-23	클레이	I-TM	I-TM	I-TM, I-AF, O, I-CV, I-EV
-24	##에	O	O	O, I-AF, I-TM, I-CV, I-EV
-25	수분	O	O	O, B-TM, B-CV, B-MT, B-LC
-26	##을	O	O	O, B-CV, I-CV, I-AF, B-OG
-27	보충	O	O	O, B-CV, B-TM, B-LC, B-PS
-28	##해	O	O	O, B-CV, B-PS, B-LC, B-OG
-29	주	O	O	O, B-CV, B-PS, B-TM, B-LC
-30	##는	O	O	O, B-CV, B-PS, B-TM, B-LC
-31	역할	O	O	O, B-CV, B-TM, B-QT, I-QT
-32	##을	O	O	O, B-CV, I-CV, I-OG, I-QT
-33	합니다	O	O	O, B-CV, B-TM, B-OG, B-LC
-34	.	O	O	O, B-CV, B-LC, B-PS, I-OG
-35	[SEP]	O	O	O, B-CV, B-LC, I-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	CNN	B-OG	B-OG
+2	##에	O	O
+3	따르	O	O
+4	##면	O	O
+5	괴한	O	O
+6	##은	O	O
+7	리조트	O	O
+8	2	B-QT	B-QT
+9	##층	I-QT	I-QT
+10	카지노	O	O
+11	##에	O	O
+12	들어와	O	O
+13	카지노	O	O
+14	##의	O	O
+15	대형	O	B-TM
+16	##TV	O	B-TM
+17	스크린	B-TM	O
+18	##을	O	O
+19	향해	O	O
+20	소총	O	B-AF
+21	##을	O	O
+22	난사	O	O
+23	##한	O	O
+24	뒤	O	O
+25	테이블	O	O
+26	##에	O	O
+27	휘발유	B-MT	B-MT
+28	##를	O	O
+29	붓	O	O
+30	##고	O	O
+31	불	O	O
+32	##을	O	O
+33	붙였	O	O
+34	##다	O	O
+35	.	O	O
+36	[SEP]	O	O

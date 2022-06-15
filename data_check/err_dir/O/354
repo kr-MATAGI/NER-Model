@@ -1,54 +1,63 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-EV, I-CV
-1	지난주	B-DT	B-DT	B-DT, O, I-DT, B-CV, B-QT
-2	푸틴	B-PS	B-PS	B-PS, O, I-PS, B-OG, B-LC
-3	##은	O	O	O, I-PS, B-CV, I-OG, I-EV
-4	스	O	B-CV	B-CV, O, B-AF, B-TM, B-EV
-5	##쿠버	O	I-CV	I-CV, O, B-CV, I-AF, I-TM
-6	장비	O	O	O, I-CV, I-AF, I-OG, I-TM
-7	##를	O	O	O, B-CV, B-PS, B-LC, B-OG
-8	갖추	O	O	O, B-LC, B-CV, B-PS, B-TM
-9	##고	O	O	O, B-LC, B-PS, B-CV, B-AF
-10	바다	O	O	O, B-LC, I-LC, B-CV, I-AF
-11	##에	O	O	O, B-LC, B-PS, B-CV, B-OG
-12	뛰어들	O	O	O, B-LC, B-CV, B-PS, B-AF
-13	##어	O	O	O, B-PS, B-LC, B-OG, B-CV
-14	6	B-DT	B-DT	B-DT, O, I-DT, B-PS, B-QT
-15	##세기	I-DT	I-DT	I-DT, O, B-DT, I-PS, I-QT
-16	##로	O	O	O, I-DT, B-CV, B-PS, B-LC
-17	추정	O	O	O, B-LC, B-OG, B-PS, B-CV
-18	##된	O	O	O, B-PS, B-LC, B-OG, B-CV
-19	##다는	O	O	O, B-LC, B-PS, B-OG, B-AF
-20	항아리	O	O	O, B-AF, B-LC, B-CV, B-PS
-21	##를	O	O	O, I-AF, B-LC, B-CV, B-PS
-22	들	O	O	O, B-LC, B-CV, B-TM, B-AF
-23	##고	O	O	O, B-LC, B-PS, B-AF, B-CV
-24	나왔	O	O	O, B-LC, B-CV, B-PS, B-OG
-25	##는데	O	O	O, B-OG, B-LC, B-PS, B-CV
-26	,	O	O	O, B-OG, B-LC, B-CV, B-PS
-27	[UNK]	O	O	O, B-OG, B-LC, B-PS, B-CV
-28	누리집	O	O	O, B-OG, B-TM, I-OG, B-LC
-29	##은	O	O	O, B-PS, B-OG, B-LC, B-CV
-30	뒤	O	O	O, B-PS, B-OG, B-LC, B-CV
-31	##질	O	O	O, B-PS, B-LC, B-OG, I-OG
-32	##세라	O	O	O, B-PS, B-LC, B-OG, B-CV
-33	잠수	B-CV	B-CV	B-CV, O, B-AF, B-AM, I-CV
-34	##복	I-CV	I-CV	I-CV, O, I-AM, B-CV, I-TM
-35	##을	O	O	O, I-CV, I-AF, I-OG, B-CV
-36	입	O	O	O, B-AM, B-PS, B-CV, I-CV
-37	##은	O	O	O, B-PS, B-LC, I-PS, B-AM
-38	메드	B-PS	B-PS	B-PS, O, I-PS, B-LC, B-OG
-39	##베	I-PS	I-PS	I-PS, O, I-LC, B-PS, I-OG
-40	##데	I-PS	I-PS	I-PS, O, I-LC, B-PS, I-OG
-41	##프	I-PS	I-PS	I-PS, O, I-LC, I-AF, B-PS
-42	사진	O	O	O, B-CV, I-PS, B-LC, B-TM
-43	##을	O	O	O, B-OG, B-LC, B-CV, B-TM
-44	게재	O	O	O, B-OG, B-LC, B-CV, B-TM
-45	##했	O	O	O, B-OG, B-LC, B-PS, B-CV
-46	##다고	O	O	O, B-OG, I-OG, B-LC, B-PS
-47	통신	O	O	O, B-OG, I-OG, B-CV, B-AF
-48	##은	O	O	O, I-OG, B-OG, I-CV, I-AF
-49	전했	O	O	O, B-OG, I-OG, B-CV, B-LC
-50	##다	O	O	O, I-OG, B-CV, B-LC, B-OG
-51	.	O	O	O, B-LC, B-PS, B-OG, B-CV
-52	[SEP]	O	O	O, B-LC, B-CV, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	조	B-PS	B-PS
+2	##억	I-PS	I-PS
+3	##동	I-PS	I-PS
+4	광주시	O	O
+5	##장	O	O
+6	##은	O	O
+7	""""	O	O
+8	경	O	B-TM
+9	##안	O	I-TM
+10	##시장	B-CV	I-TM
+11	현대	O	I-TM
+12	##화	O	I-TM
+13	##사업	O	I-TM
+14	##은	O	O
+15	시민	B-CV	B-CV
+16	##들	O	O
+17	##에	O	O
+18	##게	O	O
+19	쾌적	O	O
+20	##한	O	O
+21	쇼핑	O	O
+22	##환경	O	O
+23	##을	O	O
+24	제공	O	O
+25	##함	O	O
+26	##으로	O	O
+27	##써	O	O
+28	지역	O	O
+29	##경제	O	O
+30	##의	O	O
+31	근간	O	O
+32	##인	O	O
+33	전통	O	O
+34	##시장	O	O
+35	##이	O	O
+36	순	O	O
+37	##기능	O	O
+38	##을	O	O
+39	발휘	O	O
+40	##하	O	O
+41	##도록	O	O
+42	지원	O	O
+43	##해	O	O
+44	침체	O	O
+45	##된	O	O
+46	전통	O	O
+47	##시장	O	O
+48	##을	O	O
+49	살리	O	O
+50	##는데	O	O
+51	목적	O	O
+52	##이	O	O
+53	있	O	O
+54	##다	O	O
+55	""""	O	O
+56	고	O	O
+57	말	O	O
+58	##했	O	O
+59	##다	O	O
+60	.	O	O
+61	[SEP]	O	O

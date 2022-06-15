@@ -1,25 +1,19 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	탈레반	B-OG	B-OG	B-OG, O, B-PS, B-CV, I-OG
-2	,	O	O	O, I-OG, B-CV, I-CV, I-AF
-3	여성	O	O	O, B-CV, I-CV, B-TM, B-AM
-4	##교육	O	I-CV	I-CV, O, B-CV, B-AM, B-QT
-5	##권	O	I-CV	I-CV, O, B-CV, I-TM, I-QT
-6	주장	O	O	O, I-CV, B-CV, B-PS, B-LC
-7	##한	O	O	O, B-PS, B-LC, B-CV, B-OG
-8	말	B-PS	B-PS	B-PS, B-LC, O, B-AM, I-PS
-9	##랄	I-PS	I-PS	I-PS, I-LC, O, I-AF, I-AM
-10	##라	I-PS	I-PS	I-PS, I-LC, O, I-AF, I-OG
-11	(	O	O	O, I-PS, I-LC, B-LC, I-AF
-12	탈레반	B-OG	B-OG	B-OG, O, B-PS, B-CV, B-AF
-13	##에	O	O	O, I-OG, B-CV, I-CV, I-AF
-14	총격	O	O	O, B-CV, B-TM, B-LC, B-PS
-15	##당	O	O	O, B-LC, B-PS, I-LC, I-CV
-16	##한	O	O	O, B-LC, B-PS, B-CV, B-OG
-17	파키스탄	B-LC	B-LC	B-LC, B-OG, O, I-LC, B-PS
-18	소녀	O	O	O, B-CV, I-LC, B-AM, B-PS
-19	)	O	O	O, I-CV, B-CV, B-LC, B-PS
-20	공개	O	O	O, B-CV, B-TM, B-EV, B-LC
-21	##협	O	O	O, I-CV, I-EV, B-CV, B-LC
-22	##박	O	O	O, I-CV, I-EV, I-LC, I-TM
-23	[SEP]	O	O	O, B-LC, B-CV, I-EV, I-CV
+	text	label	preds
+0	[CLS]	O	O
+1	지금	O	O
+2	##은	O	O
+3	다	O	O
+4	군	B-OG	B-OG
+5	사단장	B-CV	B-CV
+6	##이	O	O
+7	##래	O	O
+8	##든가	O	O
+9	아님	O	O
+10	군단	O	B-CV
+11	##장	O	I-CV
+12	같	O	O
+13	##은	O	O
+14	이런	O	O
+15	사람	O	O
+16	##들이	O	O
+17	[SEP]	O	O

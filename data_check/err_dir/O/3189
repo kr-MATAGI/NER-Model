@@ -1,41 +1,37 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-QT
-1	행안	B-OG	B-OG	B-OG, O, B-AF, B-CV, B-LC
-2	##부	I-OG	I-OG	I-OG, O, I-CV, I-AF, I-EV
-3	##에	O	O	O, I-OG, I-EV, I-AF, I-CV
-4	따르	O	O	O, B-CV, B-OG, B-LC, B-TM
-5	##면	O	O	O, B-OG, B-LC, B-CV, B-PS
-6	공무원	B-CV	B-CV	B-CV, O, B-OG, B-AF, I-CV
-7	##노조	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-AF
-8	##법	I-CV	I-CV	I-CV, O, I-OG, B-CV, I-AF
-9	7	B-QT	B-QT	B-QT, I-CV, O, I-QT, B-TM
-10	##조	I-QT	I-QT	I-QT, O, I-CV, I-AF, I-TM
-11	2	B-QT	B-QT	B-QT, I-QT, O, B-TM, B-EV
-12	##항	I-QT	I-QT	I-QT, O, I-TM, I-AF, I-LC
-13	##은	O	O	O, I-QT, B-CV, I-EV, B-OG
-14	국가	B-CV	B-CV	B-CV, O, B-OG, B-AF, B-TM
-15	##공	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-AF
-16	##무원	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-AF
-17	##법	I-CV	I-CV	I-CV, O, I-OG, B-CV, I-AF
-18	##과	O	O	O, I-CV, I-OG, I-AF, B-CV
-19	지방	B-CV	B-CV	B-CV, O, B-OG, B-AF, I-CV
-20	##공	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-AF
-21	##무원	I-CV	I-CV	I-CV, O, I-OG, B-CV, I-AF
-22	##법	I-CV	I-CV	I-CV, O, I-OG, B-CV, I-AF
-23	##에	O	O	O, I-CV, I-OG, I-AF, I-EV
-24	따라	O	O	O, B-LC, B-OG, B-PS, B-CV
-25	노조	O	B-CV	B-CV, O, B-OG, B-AF, B-PS
-26	전임자	B-CV	B-CV	B-CV, I-CV, O, I-OG, B-PS
-27	##에	O	O	O, I-CV, I-OG, B-CV, I-AF
-28	대해	O	O	O, B-LC, B-QT, B-CV, B-DT
-29	휴직	O	O	O, B-CV, B-TM, I-CV, B-LC
-30	명령	O	O	O, I-CV, B-CV, B-PS, I-TM
-31	##을	O	O	O, B-CV, I-CV, B-PS, B-OG
-32	해야	O	O	O, B-CV, B-OG, B-LC, B-PS
-33	한다고	O	O	O, B-LC, B-CV, B-OG, B-PS
-34	규정	O	O	O, B-CV, B-LC, B-OG, B-TM
-35	##하고	O	O	O, B-PS, B-LC, B-CV, B-OG
-36	있	O	O	O, B-CV, B-LC, B-OG, B-PS
-37	##다	O	O	O, B-CV, B-LC, B-TM, B-OG
-38	.	O	O	O, B-LC, B-OG, B-PS, B-CV
-39	[SEP]	O	O	O, B-CV, B-LC, B-OG, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	부득이	O	O
+2	##하	O	O
+3	##게	O	O
+4	외출	O	O
+5	##할	O	O
+6	때	O	O
+7	##에	O	O
+8	##는	O	O
+9	렌즈	O	O
+10	대신	O	O
+11	안경	O	O
+12	##을	O	O
+13	쓰	O	O
+14	##고	O	O
+15	,	O	O
+16	세균	O	B-AM
+17	감염	O	O
+18	우려	O	O
+19	##가	O	O
+20	있	O	O
+21	##는	O	O
+22	안대	O	O
+23	##는	O	O
+24	되	O	O
+25	##도록	O	O
+26	착용	O	O
+27	##하	O	O
+28	##지	O	O
+29	않	O	O
+30	##는	O	O
+31	게	O	O
+32	좋	O	O
+33	##다	O	O
+34	.	O	O
+35	[SEP]	O	O

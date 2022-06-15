@@ -1,9 +1,20 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-AF
-1	이런	O	O	O, B-CV, B-TM, B-LC, B-OG
-2	견과	O	B-CV	B-CV, O, B-PT, B-TM, B-OG
-3	##류	O	I-CV	I-CV, O, I-TM, I-PT, I-OG
-4	먹	O	O	O, I-CV, I-OG, B-CV, I-AF
-5	##었	O	O	O, B-CV, I-CV, B-OG, I-OG
-6	##다고	O	O	O, I-OG, I-AF, I-CV, B-OG
-7	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	이른바	O	O
+2	안철수	B-PS	B-PS
+3	현상	O	O
+4	##에	O	O
+5	대한	O	O
+6	우리	O	O
+7	이	O	B-PS
+8	변호사	B-CV	B-CV
+9	##의	O	O
+10	소견	O	O
+11	##을	O	O
+12	듣	O	O
+13	##고	O	O
+14	싶	O	O
+15	##습	O	O
+16	##니다	O	O
+17	.	O	O
+18	[SEP]	O	O

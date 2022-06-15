@@ -1,23 +1,37 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, B-CV, I-OG, I-AF
-1	어허	O	O	O, B-CV, B-LC, B-TM, B-PS
-2	왜	O	O	O, B-CV, B-PS, B-LC, B-OG
-3	그	O	O	O, B-CV, B-LC, B-OG, B-PS
-4	~	O	O	O, B-CV, B-PS, B-LC, I-CV
-5	삐	B-QT	O	O, B-CV, B-PS, B-LC, B-TM
-6	그	O	O	O, B-CV, B-LC, B-PS, B-TM
-7	그	O	O	O, B-CV, B-LC, B-PS, B-TM
-8	그게	O	O	O, B-CV, B-PS, B-LC, B-OG
-9	자	O	O	O, B-CV, B-PS, B-LC, B-FD
-10	##긴	O	O	O, I-CV, I-PS, B-PS, I-LC
-11	막	O	O	O, B-CV, B-LC, B-PS, B-TM
-12	잊혀	O	O	O, B-CV, B-TM, B-FD, I-CV
-13	##지	O	O	O, I-CV, I-TM, B-CV, I-AF
-14	##지	O	O	O, I-CV, I-AF, B-PS, I-TM
-15	않	O	O	O, I-CV, B-CV, I-AF, B-PS
-16	##는	O	O	O, B-CV, I-CV, I-AF, B-PS
-17	##다	O	O	O, B-CV, I-CV, I-AF, B-PS
-18	이거	O	O	O, B-CV, B-PS, I-CV, B-LC
-19	##야	O	O	O, B-CV, B-LC, I-CV, I-OG
-20	.	O	O	O, B-CV, B-LC, B-OG, I-OG
-21	[SEP]	O	O	O, B-CV, B-LC, B-FD, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	제	B-QT	B-OG
+2	##1	I-QT	I-OG
+3	##야	O	I-OG
+4	##당	O	I-OG
+5	##인	O	O
+6	자유	B-OG	B-OG
+7	##한	I-OG	I-OG
+8	##국	I-OG	I-OG
+9	##당	I-OG	I-OG
+10	##은	O	O
+11	“	O	O
+12	위장	O	O
+13	협	O	O
+14	##치	O	O
+15	##쇼	O	O
+16	”	O	O
+17	,	O	O
+18	“	O	O
+19	소가	O	O
+20	웃	O	O
+21	##을	O	O
+22	일	O	O
+23	”	O	O
+24	등	O	O
+25	격한	O	O
+26	표현	O	O
+27	##을	O	O
+28	써	O	O
+29	##가	O	O
+30	##며	O	O
+31	반발	O	O
+32	##했	O	O
+33	##다	O	O
+34	.	O	O
+35	[SEP]	O	O

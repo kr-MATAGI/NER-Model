@@ -1,37 +1,41 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, I-OG, B-CV, I-AF
-1	근데	O	O	O, B-CV, B-OG, B-TM, B-LC
-2	그래도	O	O	O, B-CV, B-OG, B-PS, B-LC
-3	하고	O	O	O, B-CV, B-OG, B-TM, I-OG
-4	근데	O	O	O, B-CV, B-OG, B-LC, B-TM
-5	그거	O	O	O, B-CV, B-TM, B-OG, B-LC
-6	##는	O	O	O, B-CV, B-OG, B-LC, B-PS
-7	직장	O	O	O, B-CV, B-OG, B-TM, B-FD
-8	##에서	O	O	O, I-CV, I-OG, B-CV, I-AF
-9	하	O	O	O, B-CV, B-TM, B-OG, B-QT
-10	##는	O	O	O, B-CV, B-OG, B-TM, B-LC
-11	거	O	O	O, B-CV, B-OG, B-PS, B-LC
-12	##는	O	O	O, B-CV, B-OG, B-TM, B-LC
-13	아무래도	O	O	O, B-CV, B-TM, B-LC, B-QT
-14	좀	O	O	O, B-CV, B-TM, B-OG, B-LC
-15	간단	O	O	O, B-CV, B-TM, B-QT, B-LC
-16	##한	O	O	O, B-PS, B-CV, B-LC, B-OG
-17	##거	O	O	O, B-CV, B-PS, B-TM, B-OG
-18	##다	O	O	O, B-CV, B-TM, B-OG, B-LC
-19	보	O	O	O, B-CV, B-LC, B-PS, B-TM
-20	##니까	O	O	O, B-CV, B-LC, B-OG, B-PS
-21	한	O	B-QT	B-QT, O, I-QT, B-PS, B-TM
-22	번	O	I-QT	I-QT, O, I-LC, B-QT, I-PS
-23	정밀	O	O	O, I-QT, B-CV, B-TM, B-PS
-24	##하	O	O	O, B-LC, B-CV, B-PS, B-OG
-25	##게	O	O	O, B-LC, B-CV, B-OG, B-PS
-26	할	O	O	O, B-CV, B-OG, B-LC, B-TM
-27	필요	O	O	O, B-CV, B-LC, B-TM, B-PS
-28	##는	O	O	O, B-CV, I-OG, I-AF, B-LC
-29	있	O	O	O, B-CV, B-LC, B-PS, I-AF
-30	##을	O	O	O, B-CV, B-PS, B-LC, I-CV
-31	것	O	O	O, B-CV, B-PS, B-OG, B-LC
-32	같	O	O	O, B-CV, I-CV, B-TM, I-OG
-33	##아	O	O	O, B-CV, I-OG, I-CV, I-AF
-34	.	O	O	O, B-CV, I-OG, I-AF, B-LC
-35	[SEP]	O	O	O, B-CV, B-LC, I-AF, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	묏	O	O
+2	##자리	O	O
+3	##를	O	O
+4	봐	O	O
+5	주	O	O
+6	##러	O	O
+7	온	O	O
+8	풍수	B-CV	O
+9	##가	I-CV	O
+10	##가	O	O
+11	수	O	O
+12	##맥	O	O
+13	##을	O	O
+14	찾	O	O
+15	##는	O	O
+16	##다	O	O
+17	##며	O	O
+18	‘	O	O
+19	L	O	O
+20	##로드	O	O
+21	’	O	O
+22	(	O	O
+23	L	B-TM	B-TM
+24	##자	I-TM	I-TM
+25	모양	I-TM	I-TM
+26	##으로	O	O
+27	굽	O	O
+28	##은	O	O
+29	금속	O	B-MT
+30	막대	O	O
+31	)	O	O
+32	를	O	O
+33	사용	O	O
+34	##하	O	O
+35	##더	O	O
+36	##군	O	O
+37	##요	O	O
+38	.	O	O
+39	[SEP]	O	O

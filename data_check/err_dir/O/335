@@ -1,28 +1,30 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	즉	O	O	O, B-CV, B-TM, B-LC, B-QT
-2	그런	O	O	O, B-CV, B-OG, B-TM, B-LC
-3	걸	O	O	O, B-CV, B-PS, B-OG, B-LC
-4	다	O	O	O, B-CV, B-PS, B-OG, B-LC
-5	흔히	O	O	O, B-CV, B-PS, B-QT, B-LC
-6	말	O	O	O, B-CV, B-PS, I-CV, B-QT
-7	##하	O	O	O, B-PS, B-CV, B-LC, B-OG
-8	##는	O	O	O, B-CV, B-PS, B-OG, B-LC
-9	객관	O	O	O, B-CV, B-TR, B-PS, B-TM
-10	##적인	O	O	O, I-QT, I-CV, B-PS, I-TR
-11	거	O	O	O, B-PS, B-CV, B-OG, B-LC
-12	##로	O	O	O, B-CV, B-PS, B-OG, B-LC
-13	저	O	O	O, B-CV, B-OG, B-QT, B-LC
-14	다	O	O	O, B-CV, B-QT, B-OG, B-TM
-15	놔	O	O	O, B-CV, B-LC, B-OG, B-TM
-16	##버리	O	O	O, B-CV, B-PS, B-OG, B-LC
-17	##면	O	O	O, B-CV, B-OG, B-LC, B-PS
-18	경찰청	O	B-CV	B-CV, O, B-OG, I-CV, B-AF
-19	##장	O	I-CV	I-CV, O, B-CV, I-OG, I-EV
-20	##은	O	O	O, I-CV, B-CV, I-EV, I-OG
-21	뭐	O	O	O, B-CV, B-TM, I-CV, B-OG
-22	##가	O	O	O, B-PS, B-OG, B-CV, I-OG
-23	되	O	O	O, B-CV, B-TM, B-OG, B-QT
-24	##죠	O	O	O, B-CV, B-OG, B-LC, I-OG
-25	?	O	O	O, B-CV, B-OG, B-LC, B-TM
-26	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	현대차	B-OG	B-OG
+2	관계자	B-CV	B-CV
+3	##는	O	O
+4	“	O	O
+5	내부	O	O
+6	##회의	O	O
+7	##에	O	O
+8	##서	O	O
+9	세종시	B-LC	B-LC
+10	##가	O	O
+11	거론	O	O
+12	##된	O	O
+13	적	O	O
+14	##이	O	O
+15	단	O	O
+16	한	O	B-QT
+17	번	O	I-QT
+18	##도	O	O
+19	없	O	O
+20	##다	O	O
+21	”	O	O
+22	고	O	O
+23	잘라	O	O
+24	말	O	O
+25	##했	O	O
+26	##다	O	O
+27	.	O	O
+28	[SEP]	O	O

@@ -1,11 +1,40 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, I-AF, B-CV
-1	편히	O	O	O, B-CV, B-LC, B-PS, B-TM
-2	잠	O	O	O, B-PS, B-CV, B-LC, I-AF
-3	##드	O	O	O, I-AF, I-PS, I-LC, B-PS
-4	##세요	O	O	O, I-AF, I-PS, I-LC, I-EV
-5	코리아	B-PS	B-EV	B-EV, B-LC, O, B-OG, B-AF
-6	##이	I-PS	I-EV	I-EV, I-LC, O, I-PS, I-OG
-7	##버	I-PS	I-EV	I-EV, I-LC, O, I-OG, I-AF
-8	##슨	I-PS	I-EV	I-EV, I-LC, O, I-OG, I-AF
-9	[SEP]	O	O	O, I-EV, I-OG, I-AF, I-LC
+	text	label	preds
+0	[CLS]	O	O
+1	이집트	B-LC	B-LC
+2	정부	B-OG	B-OG
+3	##의	O	O
+4	공인	O	O
+5	##하	O	O
+6	##에	O	O
+7	독일	B-LC	B-LC
+8	학자	O	B-CV
+9	##와	O	O
+10	기술	B-CV	B-CV
+11	##진	I-CV	I-CV
+12	##이	O	O
+13	투	B-PS	B-LC
+14	##탕	I-PS	I-LC
+15	##카	I-PS	I-LC
+16	##멘	I-PS	I-LC
+17	##의	O	O
+18	무덤	O	O
+19	##과	O	O
+20	보물	O	O
+21	1300	B-QT	B-QT
+22	##여	I-QT	I-QT
+23	##점	I-QT	I-QT
+24	##을	O	O
+25	철저	O	O
+26	##한	O	O
+27	고증	O	O
+28	##을	O	O
+29	통해	O	O
+30	실물	O	O
+31	##과	O	O
+32	똑같이	O	O
+33	제작	O	O
+34	##해	O	O
+35	선보인	O	O
+36	##다	O	O
+37	.	O	O
+38	[SEP]	O	O

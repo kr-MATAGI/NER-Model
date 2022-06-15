@@ -1,29 +1,25 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-EV, I-CV
-1	정개	O	O	O, B-OG, B-EV, B-CV, B-LC
-2	##특위	O	O	O, I-OG, I-EV, B-OG, I-CV
-3	##에서	O	O	O, I-OG, B-PS, I-EV, B-CV
-4	광역	B-CV	B-CV	B-CV, O, B-OG, B-EV, B-AF
-5	##의원	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-EV
-6	의석수	O	O	O, I-CV, I-OG, B-OG, B-CV
-7	##를	O	O	O, B-CV, B-OG, B-TM, I-OG
-8	조정	O	O	O, B-CV, B-PS, B-OG, B-LC
-9	##한	O	O	O, B-PS, B-CV, B-OG, B-LC
-10	공직	O	B-CV	B-CV, O, B-OG, I-CV, B-AF
-11	##선거	B-CV	I-CV	I-CV, O, B-CV, I-OG, I-AF
-12	##법	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-TM
-13	개정안	O	O	O, I-CV, I-OG, B-CV, I-EV
-14	##은	O	O	O, B-CV, B-OG, B-LC, I-CV
-15	지난해	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-QT
-16	12	I-DT	I-DT	I-DT, O, B-DT, I-PS, I-QT
-17	##월	I-DT	I-DT	I-DT, O, B-DT, I-PS, I-CV
-18	30	I-DT	I-DT	I-DT, O, B-DT, I-PS, I-CV
-19	##일	I-DT	I-DT	I-DT, O, B-DT, I-PS, I-CV
-20	국회	B-OG	B-OG	B-OG, B-AF, B-LC, O, I-DT
-21	본회의	O	O	O, I-OG, I-EV, I-AF, I-DT
-22	##를	O	O	O, B-CV, I-OG, B-LC, B-OG
-23	통과	O	O	O, B-CV, B-LC, B-OG, B-TM
-24	##했	O	O	O, B-CV, B-OG, B-LC, B-PS
-25	##다	O	O	O, B-CV, B-OG, B-LC, I-OG
-26	.	O	O	O, B-OG, B-LC, B-CV, B-PS
-27	[SEP]	O	O	O, B-OG, B-CV, B-LC, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	그	O	O
+2	학생	B-CV	B-TM
+3	##언	O	I-TM
+4	##어	O	I-TM
+5	##문화	O	I-TM
+6	##개	O	I-TM
+7	##선	O	I-TM
+8	프로그램	O	I-TM
+9	##이	O	O
+10	실시	O	O
+11	##되	O	O
+12	##고	O	O
+13	있	O	O
+14	##다고	O	O
+15	제	O	O
+16	##가	O	O
+17	들	O	O
+18	##었	O	O
+19	##습	O	O
+20	##니다	O	O
+21	##만	O	O
+22	##은	O	O
+23	[SEP]	O	O

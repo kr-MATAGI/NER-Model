@@ -1,22 +1,24 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-AF
-1	아벨	O	B-PS	B-PS, O, B-AF, B-OG, B-LC
-2	(	O	O	O, I-PS, I-AF, I-OG, I-CV
-3	Ab	O	O	O, B-PS, B-LC, B-AF, B-OG
-4	##el	O	O	O, I-LC, I-PS, I-AF, I-TM
-5	)	O	O	O, I-LC, I-AF, I-PS, I-OG
-6	은	O	O	O, B-PS, B-CV, B-LC, I-AF
-7	히브리	O	O	O, B-CV, B-FD, B-LC, B-TM
-8	##어로	O	O	O, I-CV, I-FD, I-TM, I-LC
-9	‘	O	O	O, B-PS, B-CV, B-LC, I-CV
-10	생명력	O	O	O, B-PS, B-TM, B-AF, B-AM
-11	’	O	O	O, I-AF, B-CV, B-PS, I-CV
-12	,	O	O	O, B-CV, B-PS, B-LC, B-OG
-13	‘	O	O	O, B-CV, B-QT, B-TM, B-LC
-14	숨	O	O	O, B-PS, B-TM, B-AF, B-AM
-15	’	O	O	O, I-AF, B-CV, B-PS, I-CV
-16	을	O	O	O, B-PS, B-CV, I-AF, I-CV
-17	뜻	O	O	O, B-CV, I-CV, B-PS, I-OG
-18	##한다	O	O	O, I-CV, I-OG, B-CV, I-QT
-19	.	O	O	O, B-LC, B-PS, B-CV, B-AF
-20	[SEP]	O	O	O, B-CV, B-LC, B-PS, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	[	O	O
+2	4	B-EV	B-EV
+3	·	I-EV	I-EV
+4	11	I-EV	I-EV
+5	##총	I-EV	I-EV
+6	##선	I-EV	I-EV
+7	D	B-DT	B-DT
+8	-	I-DT	I-DT
+9	11	I-DT	I-DT
+10	]	O	O
+11	오리	O	O
+12	##무	O	O
+13	##중	O	O
+14	표	O	O
+15	##심	O	O
+16	30	B-QT	B-QT
+17	%	I-QT	I-QT
+18	,	O	O
+19	與	O	B-OG
+20	로	O	O
+21	?	O	O
+22	[SEP]	O	O

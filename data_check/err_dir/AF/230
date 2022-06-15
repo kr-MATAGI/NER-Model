@@ -1,14 +1,14 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	예	O	O	O, B-CV, B-OG, B-TM, B-AF
-2	.	O	O	O, I-OG, B-CV, I-AF, I-CV
-3	프랑스	B-LC	B-LC	B-LC, B-OG, O, B-PS, B-AF
-4	##에	O	O	O, I-OG, I-LC, I-AF, I-PS
-5	채널	O	O	O, B-OG, B-TM, B-AF, B-LC
-6	##은	O	O	O, I-OG, I-AF, I-TM, I-CV
-7	티	B-AF	B-OG	B-OG, O, B-LC, B-AF, B-TM
-8	##에프	I-AF	I-OG	I-OG, O, I-AF, I-LC, I-TM
-9	##원	I-AF	I-OG	I-OG, O, I-AF, I-LC, I-TM
-10	##이	O	O	O, I-OG, I-AF, I-TM, I-QT
-11	##라고	O	O	O, I-OG, I-AF, B-OG, B-CV
-12	[SEP]	O	O	O, B-CV, B-OG, B-LC, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	저희	O	O
+2	그	O	O
+3	외	B-AF	O
+4	##솔	I-AF	O
+5	##관	I-AF	O
+6	연	O	O
+7	연	O	O
+8	연	O	O
+9	그	O	O
+10	신학	B-FD	B-FD
+11	대학	O	O
+12	[SEP]	O	O

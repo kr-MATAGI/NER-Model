@@ -1,64 +1,38 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-EV, I-OG, I-CV
-1	사단	O	O	O, B-LC, B-OG, B-TM, B-CV
-2	##법인	O	O	O, I-OG, I-LC, I-CV, I-EV
-3	대구	B-OG	B-EV	B-EV, B-OG, B-LC, I-EV, B-PS
-4	##뮤	I-OG	I-EV	I-EV, I-OG, O, I-LC, B-EV
-5	##지	I-OG	I-EV	I-EV, I-OG, O, I-LC, I-CV
-6	##컬	I-OG	I-EV	I-EV, I-OG, O, I-LC, I-TM
-7	##페	I-OG	I-EV	I-EV, I-OG, O, I-LC, I-TM
-8	##스티벌	I-OG	I-EV	I-EV, I-OG, O, I-LC, I-TM
-9	(	O	O	O, I-EV, I-OG, I-AF, I-DT
-10	이사장	B-CV	B-CV	B-CV, O, B-OG, B-TM, B-EV
-11	장	B-PS	B-PS	B-PS, B-OG, O, I-PS, B-EV
-12	##익	I-PS	I-PS	I-PS, O, I-OG, I-DT, I-LC
-13	##현	I-PS	I-PS	I-PS, O, I-OG, I-LC, I-DT
-14	·	O	O	O, I-PS, B-CV, I-OG, B-LC
-15	이하	O	O	O, B-LC, B-CV, B-OG, B-QT
-16	DI	B-OG	B-EV	B-EV, B-OG, O, B-LC, I-EV
-17	##M	I-OG	I-EV	I-EV, I-OG, O, I-LC, I-AF
-18	##F	I-OG	I-EV	I-EV, I-OG, O, I-LC, I-AF
-19	)	O	O	O, I-EV, I-OG, I-AF, I-DT
-20	은	O	O	O, B-OG, B-LC, B-PS, B-CV
-21	오	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-QT
-22	##는	I-DT	I-DT	I-DT, O, B-DT, I-EV, I-QT
-23	15	I-DT	I-DT	I-DT, O, B-DT, I-EV, I-PS
-24	##일	I-DT	I-DT	I-DT, O, B-DT, I-EV, I-QT
-25	전야	O	O	O, B-EV, I-EV, B-DT, B-LC
-26	##제	O	O	O, I-EV, I-DT, I-LC, B-EV
-27	##를	O	O	O, I-EV, I-DT, B-LC, I-OG
-28	시작	O	O	O, B-LC, B-OG, B-CV, B-DT
-29	##으로	O	O	O, B-LC, B-OG, B-PS, B-DT
-30	7	B-DT	B-DT	B-DT, I-DT, O, B-EV, B-LC
-31	##월	I-DT	I-DT	I-DT, O, B-DT, I-EV, I-QT
-32	8	I-DT	I-DT	I-DT, B-DT, O, I-EV, I-PS
-33	##일	I-DT	I-DT	I-DT, O, B-DT, I-EV, I-QT
-34	##까	I-DT	I-DT	I-DT, O, B-DT, I-EV, I-QT
-35	##지	I-DT	I-DT	I-DT, O, B-DT, I-EV, I-QT
-36	24	B-DT	B-DT	B-DT, I-DT, O, B-EV, B-LC
-37	##일	I-DT	I-DT	I-DT, O, B-DT, I-EV, I-QT
-38	##간	I-DT	I-DT	I-DT, O, B-DT, I-EV, I-QT
-39	대구	B-AF	B-AF	B-AF, B-LC, O, I-AF, B-EV
-40	##오	I-AF	I-AF	I-AF, I-LC, O, B-AF, I-PS
-41	##페	I-AF	I-AF	I-AF, I-LC, O, I-PS, I-OG
-42	##라	I-AF	I-AF	I-AF, I-LC, O, I-PS, I-OG
-43	##하우스	I-AF	I-AF	I-AF, I-LC, O, I-PS, I-OG
-44	등	O	O	O, I-AF, B-LC, I-LC, I-PS
-45	대구시	O	B-LC	B-LC, O, B-OG, B-AF, I-LC
-46	##내	O	I-LC	I-LC, O, B-LC, I-AF, I-OG
-47	일원	O	O	O, I-LC, B-LC, B-QT, B-TM
-48	##에서	O	O	O, B-LC, I-LC, B-PS, B-QT
-49	제	O	B-QT	B-QT, O, B-EV, I-QT, B-DT
-50	##7	O	I-QT	I-QT, B-QT, O, I-EV, I-LC
-51	##회	O	I-QT	I-QT, O, I-EV, B-QT, I-LC
-52	대구	B-LC	B-EV	B-EV, I-EV, B-LC, B-OG, I-QT
-53	##국제	O	I-EV	I-EV, O, I-LC, I-OG, I-QT
-54	##뮤	O	I-EV	I-EV, O, I-OG, I-LC, B-EV
-55	##지	O	I-EV	I-EV, O, I-OG, I-LC, I-TM
-56	##컬	O	I-EV	I-EV, O, I-OG, I-LC, I-TM
-57	##페	O	I-EV	I-EV, O, I-OG, I-LC, I-TM
-58	##스티벌	O	I-EV	I-EV, O, I-OG, I-LC, I-TM
-59	##을	O	O	O, I-EV, I-OG, I-AF, I-QT
-60	연다	O	O	O, B-OG, B-CV, B-LC, I-EV
-61	.	O	O	O, B-LC, I-EV, B-OG, B-PS
-62	[SEP]	O	O	O, B-LC, I-EV, B-OG, B-CV
+	text	label	preds
+0	[CLS]	O	O
+1	국방부	B-OG	B-OG
+2	기지	I-OG	B-OG
+3	##이	I-OG	I-OG
+4	##전	I-OG	I-OG
+5	##사업	I-OG	I-OG
+6	##단	I-OG	I-OG
+7	관계자	B-CV	B-CV
+8	##는	O	O
+9	이날	B-DT	B-DT
+10	“	O	O
+11	한미	B-LC	B-OG
+12	##가	O	O
+13	PM	B-OG	B-TM
+14	##C	I-OG	I-TM
+15	##의	O	O
+16	최종	O	O
+17	##제	O	O
+18	##안	O	O
+19	##서	O	O
+20	##를	O	O
+21	검토	O	O
+22	중이	O	O
+23	##며	O	O
+24	큰	O	O
+25	견해	O	O
+26	##차	O	O
+27	##가	O	O
+28	없	O	O
+29	##다	O	O
+30	”	O	O
+31	고	O	O
+32	말	O	O
+33	##했	O	O
+34	##다	O	O
+35	.	O	O
+36	[SEP]	O	O

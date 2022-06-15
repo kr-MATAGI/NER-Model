@@ -1,33 +1,60 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-EV, I-OG
-1	검정	B-TM	B-TM	B-TM, B-CV, O, B-AF, B-FD
-2	점퍼	B-CV	B-CV	B-CV, I-CV, O, I-TM, I-AF
-3	##에	O	O	O, I-CV, B-CV, I-AF, I-TM
-4	줄	B-CV	B-TM	B-TM, O, B-CV, B-AF, B-QT
-5	##무늬	I-CV	I-TM	I-TM, O, B-TM, I-QT, I-CV
-6	티셔츠	I-CV	B-CV	B-CV, O, I-CV, I-TM, I-AF
-7	차림	O	O	O, I-CV, B-CV, I-TM, B-TM
-8	##으로	O	O	O, B-PS, B-CV, B-LC, I-CV
-9	인근	O	O	O, B-CV, B-TM, B-LC, B-PS
-10	금은	O	O	O, B-CV, B-PS, B-LC, B-TM
-11	##방	O	O	O, I-CV, B-CV, I-AF, I-LC
-12	##에서	O	O	O, B-CV, B-PS, B-LC, I-CV
-13	목걸이	O	O	O, B-CV, B-PS, I-CV, B-AF
-14	##를	O	O	O, B-PS, B-CV, I-CV, I-PS
-15	훔친	O	O	O, B-CV, B-PS, I-CV, B-AM
-16	A	O	O	O, B-PS, B-CV, I-CV, B-LC
-17	군	O	O	O, B-PS, B-CV, I-PS, B-AM
-18	(	O	O	O, B-CV, B-PS, I-CV, I-PS
-19	17	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-PS
-20	)	O	O	O, I-QT, B-CV, B-PS, I-DT
-21	의	O	O	O, B-PS, B-CV, B-TM, B-LC
-22	사진	O	O	O, B-CV, B-TM, B-PS, B-QT
-23	##과	O	O	O, B-PS, B-CV, I-CV, B-TM
-24	같	O	O	O, B-CV, B-TM, B-PS, B-LC
-25	##은	O	O	O, B-PS, B-CV, I-CV, B-LC
-26	모습	O	O	O, B-CV, B-TM, B-PS, I-CV
-27	##이	O	O	O, B-PS, B-CV, B-LC, I-CV
-28	##었	O	O	O, B-CV, B-PS, B-LC, B-TM
-29	##다	O	O	O, B-CV, B-LC, B-PS, B-TM
-30	.	O	O	O, B-CV, B-PS, B-LC, B-TM
-31	[SEP]	O	O	O, B-CV, B-PS, B-LC, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	김성	B-PS	B-PS
+2	##관	I-PS	I-PS
+3	목사	B-CV	B-CV
+4	##는	O	O
+5	목회	O	O
+6	정년	O	O
+7	##인	O	O
+8	만	B-QT	B-QT
+9	70	I-QT	I-QT
+10	##살	I-QT	I-QT
+11	##을	O	O
+12	앞둔	O	O
+13	지난해	B-DT	B-DT
+14	11	I-DT	I-DT
+15	##월	I-DT	I-DT
+16	##9	I-DT	I-DT
+17	##일	I-DT	I-DT
+18	임시	O	O
+19	당	O	O
+20	##회	O	O
+21	##를	O	O
+22	열	O	O
+23	##어	O	O
+24	당분간	O	O
+25	당	O	B-CV
+26	##회	B-CV	I-CV
+27	##장	I-CV	I-CV
+28	##직	I-CV	I-CV
+29	##과	O	O
+30	교회	O	O
+31	##재	O	O
+32	##산	O	O
+33	##이	O	O
+34	등록	O	O
+35	##된	O	O
+36	충	B-OG	B-OG
+37	##현	I-OG	I-OG
+38	##교회	I-OG	I-OG
+39	유지	O	B-OG
+40	##재단	O	I-OG
+41	이사장	B-CV	B-CV
+42	##직	I-CV	I-CV
+43	##을	O	O
+44	유지	O	O
+45	##하	O	O
+46	##겠다	O	O
+47	##는	O	O
+48	안건	O	O
+49	##을	O	O
+50	통과	O	O
+51	##시	O	O
+52	##킨	O	O
+53	것	O	O
+54	##으로	O	O
+55	알려졌	O	O
+56	##다	O	O
+57	.	O	O
+58	[SEP]	O	O

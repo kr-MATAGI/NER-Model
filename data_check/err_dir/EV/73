@@ -1,37 +1,39 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	선	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
-2	판사	B-CV	B-CV	B-CV, O, I-CV, I-PS, B-OG
-3	##는	O	O	O, I-CV, I-OG, B-CV, I-EV
-4	광주	B-LC	B-LC	B-LC, O, B-OG, B-PS, B-AF
-5	##에서	O	O	O, I-LC, I-OG, B-LC, I-PS
-6	고교	O	O	O, B-OG, B-LC, B-FD, B-CV
-7	##를	O	O	O, B-CV, B-PS, B-LC, I-OG
-8	나와	O	O	O, B-LC, B-PS, B-CV, B-OG
-9	사법	B-EV	O	O, B-EV, B-CV, I-EV, B-FD
-10	##시험	I-EV	O	O, I-EV, B-EV, I-OG, I-AF
-11	##에	O	O	O, I-EV, I-OG, I-AF, B-CV
-12	합격	O	O	O, B-CV, B-LC, B-OG, B-PS
-13	##한	O	O	O, B-PS, B-LC, B-CV, B-OG
-14	뒤	O	O	O, B-CV, B-LC, B-PS, B-TM
-15	광주	B-OG	B-OG	B-OG, B-LC, B-AF, O, I-OG
-16	##지	I-OG	I-OG	I-OG, O, B-OG, I-LC, I-AF
-17	##법	I-OG	I-OG	I-OG, O, I-LC, I-AF, I-CV
-18	##과	O	O	O, I-OG, I-AF, B-PS, B-CV
-19	광주	B-OG	B-OG	B-OG, B-LC, B-AF, O, I-OG
-20	##고	I-OG	I-OG	I-OG, O, B-OG, I-AF, I-LC
-21	##법	I-OG	I-OG	I-OG, O, I-AF, I-LC, B-OG
-22	##에서	O	O	O, I-OG, B-CV, I-AF, I-QT
-23	주로	O	O	O, B-CV, B-LC, B-PS, B-TM
-24	근무	O	O	O, B-CV, B-LC, B-PS, B-TM
-25	##한	O	O	O, B-PS, B-LC, B-CV, B-OG
-26	이른바	O	O	O, B-CV, B-PS, B-LC, B-OG
-27	향	O	O	O, B-CV, B-OG, B-PS, B-FD
-28	##판	O	O	O, I-CV, B-CV, I-OG, I-PS
-29	(	O	O	O, I-CV, I-OG, I-QT, I-AF
-30	[UNK]	O	O	O, B-CV, B-LC, B-OG, B-PS
-31	判	O	O	O, B-CV, B-LC, B-OG, B-PS
-32	)	O	O	O, B-CV, B-PS, B-LC, B-OG
-33	이다	O	O	O, B-CV, B-PS, B-LC, B-OG
-34	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-35	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	‘	O	O
+2	살	B-EV	O
+3	##기	I-EV	O
+4	좋	I-EV	O
+5	##은	I-EV	O
+6	마을	I-EV	O
+7	만들	I-EV	O
+8	##기	I-EV	O
+9	학생	I-EV	I-EV
+10	##공	I-EV	I-EV
+11	##모	I-EV	I-EV
+12	##전	I-EV	I-EV
+13	’	O	O
+14	은	O	O
+15	서울시	B-OG	B-LC
+16	##가	O	O
+17	주거지	O	O
+18	재생	O	O
+19	##에	O	O
+20	대한	O	O
+21	대학생	B-CV	B-CV
+22	##의	O	O
+23	참신	O	O
+24	##한	O	O
+25	아이디어	O	O
+26	##를	O	O
+27	발굴	O	O
+28	##하	O	O
+29	##기	O	O
+30	위해	O	O
+31	2009	B-DT	B-DT
+32	##년	I-DT	I-DT
+33	시작	O	O
+34	##했	O	O
+35	##다	O	O
+36	.	O	O
+37	[SEP]	O	O

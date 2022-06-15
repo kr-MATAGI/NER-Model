@@ -1,19 +1,48 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-AF, B-CV, I-CV
-1	부천	B-LC	B-LC	B-LC, O, B-OG, B-AF, B-PS
-2	##에서	O	O	O, I-LC, I-AF, I-OG, B-PS
-3	서울	B-LC	B-LC	B-LC, O, B-OG, B-AF, I-LC
-4	##로	O	O	O, I-LC, I-AF, I-OG, I-EV
-5	출근	O	O	O, B-AF, B-TM, B-LC, B-CV
-6	##할	O	O	O, B-PS, I-AF, B-CV, B-OG
-7	때	O	O	O, B-PS, B-CV, I-AF, B-TM
-8	##마다	O	O	O, B-PS, I-AF, B-QT, B-LC
-9	고	B-AF	B-AF	B-AF, B-LC, O, B-PS, B-OG
-10	##척	I-AF	I-AF	I-AF, B-AF, I-LC, O, I-PS
-11	##돔	I-AF	I-AF	I-AF, O, I-LC, B-AF, I-PS
-12	야구장	O	I-AF	I-AF, O, I-LC, I-EV, B-AF
-13	##과	O	O	O, I-AF, I-EV, I-OG, B-CV
-14	마주	O	O	O, B-TM, B-CV, B-QT, B-OG
-15	##한다	O	O	O, I-AF, B-CV, B-PS, B-TM
-16	.	O	O	O, B-LC, B-AF, B-PS, I-AF
-17	[SEP]	O	O	O, I-AF, B-AF, B-CV, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	남경필	B-PS	B-PS
+2	한나라당	B-OG	B-OG
+3	국회의원	B-CV	B-CV
+4	부인	B-CV	B-CV
+5	##이	B-PS	O
+6	연루	O	O
+7	##된	O	O
+8	고소	O	O
+9	##사건	O	O
+10	처리	O	O
+11	##과	O	O
+12	##정	O	O
+13	##을	O	O
+14	탐	O	O
+15	##문	O	O
+16	##한	O	O
+17	행위	O	O
+18	##에	O	O
+19	대해선	O	O
+20	이	O	B-PS
+21	전	O	O
+22	지원	B-CV	B-CV
+23	##관	I-CV	I-CV
+24	##과	O	O
+25	김	B-PS	B-PS
+26	##충	I-PS	I-PS
+27	##곤	I-PS	I-PS
+28	전	O	O
+29	점검	O	O
+30	##1	O	O
+31	##팀	B-CV	B-CV
+32	##장	I-CV	I-CV
+33	##에	O	O
+34	##게	O	O
+35	직권	O	O
+36	##남	O	O
+37	##용	O	O
+38	혐의	O	O
+39	##를	O	O
+40	적용	O	O
+41	##해	O	O
+42	기소	O	O
+43	##했	O	O
+44	##다	O	O
+45	.	O	O
+46	[SEP]	O	O

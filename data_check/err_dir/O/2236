@@ -1,56 +1,34 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-EV, I-CV
-1	G	B-AF	B-AF	B-AF, B-OG, B-TM, O, B-PS
-2	##3	I-AF	I-AF	I-AF, I-OG, I-TM, O, I-PS
-3	##는	O	O	O, I-AF, I-OG, I-TM, I-EV
-4	5	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-TM
-5	.	I-QT	I-QT	I-QT, O, I-EV, I-TM, I-DT
-6	5	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-EV
-7	##인	I-QT	I-QT	I-QT, O, I-LC, I-EV, I-PS
-8	##치	I-QT	I-QT	I-QT, O, I-LC, I-EV, I-PS
-9	크기	O	O	O, I-QT, B-TM, B-CV, I-TM
-10	##의	O	O	O, B-OG, B-TM, B-PS, B-CV
-11	Q	B-TM	B-TM	B-TM, O, B-TR, B-QT, B-AF
-12	##HD	I-TM	I-TM	I-TM, O, B-TM, I-TR, I-QT
-13	디스플레이	O	B-TM	B-TM, I-TM, O, B-CV, I-TR
-14	외	O	O	O, I-TM, I-AF, I-QT, I-OG
-15	##에도	O	O	O, B-OG, B-LC, B-TM, B-CV
-16	퀄컴	B-OG	B-OG	B-OG, B-LC, B-AF, O, B-PS
-17	##의	O	O	O, I-OG, I-AF, B-CV, B-OG
-18	스냅	B-AF	B-TM	B-TM, B-AF, B-TR, O, B-PS
-19	##드래	I-AF	I-AF	I-AF, I-TM, I-OG, I-TR, O
-20	##건	I-AF	I-TM	I-TM, I-AF, O, I-OG, I-TR
-21	##80	I-AF	I-AF	I-AF, I-TM, O, I-TR, I-QT
-22	##1	I-AF	I-AF	I-AF, I-TM, I-QT, O, I-TR
-23	프로세서	O	I-TM	I-TM, I-AF, B-TM, O, I-QT
-24	##에	O	O	O, I-TM, I-AF, I-CV, I-QT
-25	3	B-QT	B-QT	B-QT, B-TM, O, I-QT, B-DT
-26	##기	I-QT	I-QT	I-QT, I-TM, O, I-AF, B-QT
-27	##가	I-QT	I-QT	I-QT, O, I-TM, I-LC, I-AF
-28	##바이트	I-QT	I-QT	I-QT, O, I-TM, I-LC, I-AF
-29	(	O	O	O, I-QT, B-TM, I-TM, B-QT
-30	GB	O	O	O, B-TM, B-AF, I-TM, B-QT
-31	)	O	O	O, I-TM, I-QT, I-AF, B-TM
-32	램	B-TM	B-TM	B-TM, O, I-TM, B-AF, B-TR
-33	,	O	O	O, I-TM, I-AF, B-CV, I-QT
-34	32	B-QT	B-QT	B-QT, O, B-TM, B-DT, B-OG
-35	##G	I-QT	I-QT	I-QT, O, I-TM, I-EV, I-LC
-36	##B	I-QT	I-QT	I-QT, O, I-TM, I-LC, I-PS
-37	##의	O	O	O, I-QT, B-TM, B-LC, I-AF
-38	저장	O	O	O, B-TM, B-LC, B-AF, B-CV
-39	##공간	O	O	O, I-TM, I-LC, I-AF, I-QT
-40	,	O	O	O, B-CV, B-LC, B-OG, B-TM
-41	1300	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-TM
-42	##만	I-QT	I-QT	I-QT, O, I-PS, I-TM, I-LC
-43	화소	I-QT	I-QT	I-QT, O, B-TM, I-TM, I-TR
-44	후면	O	B-TM	B-TM, O, I-TM, B-TR, B-CV
-45	카메라	B-TM	B-TM	B-TM, I-TM, O, B-CV, B-AF
-46	##를	O	O	O, I-TM, I-QT, I-CV, I-AF
-47	장착	O	O	O, B-CV, B-TM, B-OG, B-LC
-48	##한	O	O	O, B-LC, B-PS, B-OG, B-CV
-49	것	O	O	O, B-CV, B-TM, B-OG, B-LC
-50	##으로	O	O	O, B-CV, B-TM, B-LC, B-OG
-51	알려졌	O	O	O, B-CV, B-TM, B-OG, B-LC
-52	##다	O	O	O, B-CV, B-TM, B-LC, B-OG
-53	.	O	O	O, B-TM, B-LC, B-OG, B-CV
-54	[SEP]	O	O	O, B-TM, B-LC, B-CV, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	김	O	B-PS
+2	양	O	O
+3	##과	O	O
+4	정	O	B-PS
+5	양은	O	O
+6	6	B-DT	B-DT
+7	##월	I-DT	I-DT
+8	부산	B-LC	B-LC
+9	사하	O	B-LC
+10	##구	O	I-LC
+11	##의	O	O
+12	한	O	O
+13	공원	O	O
+14	##과	O	O
+15	노래방	O	O
+16	##에	O	O
+17	##서	O	O
+18	피해	O	O
+19	학생	B-CV	B-CV
+20	##인	O	O
+21	A	O	O
+22	양	O	O
+23	(	O	O
+24	14	B-QT	B-QT
+25	)	O	O
+26	을	O	O
+27	집단	O	O
+28	폭행	O	O
+29	##했	O	O
+30	##다	O	O
+31	.	O	O
+32	[SEP]	O	O

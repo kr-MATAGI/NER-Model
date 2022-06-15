@@ -1,36 +1,13 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	양식	O	B-CV	B-CV, O, B-TM, B-OG, B-AF
-2	##어	B-CV	I-CV	I-CV, B-CV, O, I-OG, I-TM
-3	##민	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-TM
-4	##들	O	O	O, I-CV, I-OG, I-AF, I-QT
-5	##은	O	O	O, B-CV, I-CV, B-TM, I-AF
-6	“	O	O	O, B-CV, B-LC, B-TM, B-EV
-7	적조	O	O	O, B-EV, B-TM, B-LC, I-EV
-8	##로	O	O	O, I-EV, I-AF, I-TM, I-LC
-9	피해	O	O	O, B-CV, B-LC, I-EV, B-TM
-10	##를	O	O	O, B-CV, B-LC, B-PS, B-TM
-11	보	O	O	O, B-CV, B-LC, B-TM, B-PS
-12	##게	O	O	O, B-CV, B-LC, B-TM, B-PS
-13	된	O	O	O, B-CV, B-LC, B-TM, B-PS
-14	것	O	O	O, B-LC, B-CV, B-PS, B-TM
-15	##도	O	O	O, B-PS, B-LC, B-CV, I-LC
-16	힘들	O	O	O, B-TM, B-CV, B-LC, B-PS
-17	##지만	O	O	O, B-PS, B-CV, B-LC, B-TM
-18	떼	O	O	O, B-AM, B-LC, B-TM, B-PS
-19	##죽	O	O	O, I-AF, B-AM, I-LC, B-PS
-20	##음	O	O	O, I-AF, B-AM, B-PS, I-LC
-21	##한	O	O	O, B-PS, B-AM, B-LC, B-TM
-22	물고기	B-AM	B-AM	B-AM, O, B-TM, B-PS, I-AM
-23	처리	O	O	O, I-AF, I-TM, I-QT, I-AM
-24	##가	O	O	O, B-PS, B-CV, B-LC, B-OG
-25	더	O	O	O, B-CV, B-TM, B-LC, B-OG
-26	어렵	O	O	O, B-TM, B-CV, B-LC, B-QT
-27	##다	O	O	O, B-CV, I-QT, I-AF, I-OG
-28	”	O	O	O, B-CV, B-TM, I-OG, B-QT
-29	고	O	O	O, B-CV, B-TM, I-CV, B-LC
-30	하소연	O	O	O, B-CV, B-TM, B-LC, I-CV
-31	##했	O	O	O, B-CV, B-LC, B-TM, I-CV
-32	##다	O	O	O, B-CV, B-TM, B-LC, I-EV
-33	.	O	O	O, B-CV, B-LC, B-PS, B-TM
-34	[SEP]	O	O	O, B-CV, B-LC, I-AF, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	우리투자증권	B-OG	B-OG
+2	,	O	O
+3	1000	B-QT	B-QT
+4	##억	I-QT	I-QT
+5	##원	I-QT	I-QT
+6	규모	O	O
+7	ELS	B-CV	B-TM
+8	5	B-QT	B-QT
+9	##종	I-QT	I-QT
+10	공모	O	O
+11	[SEP]	O	O

@@ -1,48 +1,35 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-AF
-1	핵연료	B-TR	O	O, B-TR, B-TM, B-EV, B-AF
-2	사이클	I-TR	O	O, I-TR, I-TM, B-TR, I-AF
-3	##이	O	O	O, I-TR, I-TM, I-EV, I-AF
-4	##란	O	O	O, I-TM, B-LC, I-TR, I-EV
-5	핵	B-AF	B-AF	B-AF, O, B-MT, I-AF, B-LC
-6	##발전	O	O	O, I-AF, I-LC, I-TM, I-EV
-7	뒤	O	O	O, B-TM, B-LC, B-AF, I-TM
-8	##에	O	O	O, B-LC, I-AF, B-PS, B-CV
-9	발생	O	O	O, B-CV, B-LC, B-TM, B-PS
-10	##하	O	O	O, B-LC, B-PS, B-AF, B-OG
-11	##는	O	O	O, B-LC, B-CV, B-PS, B-AF
-12	사용	O	O	O, B-TM, B-CV, B-AF, B-LC
-13	##후	O	O	O, B-MT, I-AF, I-TM, I-MT
-14	핵연료	B-MT	O	O, B-MT, I-MT, B-TM, B-AF
-15	##를	O	O	O, I-AF, B-CV, B-LC, B-PS
-16	재	O	O	O, B-LC, B-TM, B-PS, B-CV
-17	##처리	O	O	O, B-LC, B-MT, I-LC, B-PS
-18	##해	O	O	O, B-LC, B-PS, I-LC, B-OG
-19	나오	O	O	O, B-LC, B-CV, B-QT, B-PS
-20	##는	O	O	O, B-LC, B-CV, B-PS, B-OG
-21	플루토	B-MT	B-MT	B-MT, O, B-TM, I-MT, B-TR
-22	##늄	I-MT	I-MT	I-MT, O, B-MT, I-TM, I-AF
-23	##을	O	O	O, I-MT, I-TM, I-AF, B-CV
-24	다시	O	O	O, B-LC, B-TM, B-CV, B-OG
-25	핵	B-AF	B-AF	B-AF, O, B-MT, I-AF, B-LC
-26	##발전	O	O	O, I-AF, I-LC, I-EV, I-TM
-27	##에	O	O	O, B-LC, B-CV, I-AF, B-TM
-28	활용	O	O	O, B-LC, B-TM, B-CV, B-PS
-29	##해	O	O	O, B-LC, B-PS, B-OG, I-LC
-30	추가	O	O	O, B-LC, B-TM, B-CV, B-PS
-31	##적인	O	O	O, B-LC, B-PS, B-TM, B-QT
-32	에너지	O	O	O, B-LC, B-TM, B-MT, B-FD
-33	투입	O	O	O, B-LC, B-TM, B-CV, B-OG
-34	없이	O	O	O, B-LC, B-TM, B-PS, B-CV
-35	영원히	O	O	O, B-LC, B-TM, B-AF, B-QT
-36	전기	O	O	O, B-TM, B-MT, B-FD, B-TR
-37	##를	O	O	O, I-AF, I-TM, B-CV, I-OG
-38	생산	O	O	O, B-LC, B-TM, B-CV, I-AF
-39	##하	O	O	O, B-PS, B-CV, B-LC, B-OG
-40	##는	O	O	O, B-CV, B-OG, B-LC, B-TM
-41	구상	O	O	O, B-TM, B-CV, B-FD, B-LC
-42	##을	O	O	O, B-CV, B-OG, B-PS, I-OG
-43	뜻	O	O	O, B-CV, B-TM, B-OG, B-FD
-44	##한다	O	O	O, I-OG, B-CV, I-QT, I-CV
-45	.	O	O	O, B-LC, B-PS, B-CV, B-TM
-46	[SEP]	O	O	O, B-LC, B-CV, B-TM, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	혁신	O	O
+2	##학교	O	O
+3	##는	O	O
+4	연간	B-DT	B-DT
+5	6500	O	O
+6	##만	O	O
+7	원의	O	O
+8	추가	O	O
+9	지원금	O	O
+10	##을	O	O
+11	받아	O	O
+12	창의	O	O
+13	##교육	O	O
+14	,	O	O
+15	토론	O	O
+16	##식	O	O
+17	수업	O	O
+18	등	O	O
+19	##을	O	O
+20	진행	O	O
+21	##하	O	O
+22	##는	O	O
+23	학교	O	O
+24	##로	O	O
+25	,	O	O
+26	진보	B-TR	O
+27	교육감	B-CV	B-CV
+28	##들의	O	O
+29	대표	O	B-CV
+30	공약	O	O
+31	##이다	O	O
+32	.	O	O
+33	[SEP]	O	O

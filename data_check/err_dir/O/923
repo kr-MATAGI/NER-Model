@@ -1,46 +1,24 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-EV, B-CV, I-OG, I-CV
-1	한미	O	B-OG	B-OG, B-LC, O, B-PS, B-EV
-2	##중	O	B-OG	B-OG, I-OG, O, B-LC, I-LC
-3	3	O	B-QT	B-QT, I-OG, I-QT, O, B-OG
-4	##각	O	I-QT	I-QT, I-OG, O, I-EV, I-LC
-5	공조	O	O	O, I-OG, B-OG, I-QT, I-EV
-6	##를	O	O	O, I-OG, I-EV, B-OG, B-PS
-7	바탕	O	O	O, B-OG, B-LC, B-CV, I-OG
-8	##으로	O	O	O, B-OG, B-LC, B-PS, I-OG
-9	한	B-OG	O	O, B-OG, B-LC, B-PS, B-QT
-10	국제	O	O	O, B-OG, B-LC, B-CV, I-OG
-11	##사회	O	O	O, I-OG, I-CV, B-OG, I-LC
-12	##의	O	O	O, B-PS, B-OG, B-LC, I-OG
-13	대북	O	O	O, B-CV, I-CV, B-PT, B-OG
-14	##제	O	O	O, I-CV, B-CV, I-OG, I-TR
-15	##재	O	O	O, I-CV, B-CV, I-OG, I-TR
-16	##로	O	O	O, I-CV, B-PS, I-OG, I-EV
-17	궁지	O	O	O, B-LC, B-OG, B-TM, B-PS
-18	##에	O	O	O, B-OG, B-PS, I-OG, B-LC
-19	몰린	O	O	O, B-OG, B-LC, B-PS, B-QT
-20	북한	B-OG	B-OG	B-OG, B-LC, O, B-PS, I-OG
-21	##이	O	O	O, I-OG, B-PS, B-OG, I-LC
-22	‘	O	O	O, B-CV, B-LC, I-OG, B-PS
-23	출구	O	O	O, B-LC, B-PS, B-EV, B-TM
-24	##전	O	O	O, B-PS, I-PS, I-EV, I-LC
-25	##략	O	O	O, B-PS, I-PS, B-LC, I-LC
-26	’	O	O	O, B-PS, B-CV, I-EV, B-LC
-27	으로	O	O	O, B-PS, B-LC, B-CV, B-OG
-28	남북	B-OG	B-OG	B-OG, B-LC, O, B-EV, B-PS
-29	대화	O	O	O, I-EV, I-OG, I-LC, B-EV
-30	카드	O	O	O, I-EV, B-LC, B-PS, B-CV
-31	##를	O	O	O, I-EV, B-CV, B-OG, B-PS
-32	꺼내	O	O	O, B-CV, B-LC, B-PS, B-QT
-33	든	O	O	O, B-PS, B-CV, B-LC, B-OG
-34	것	O	O	O, B-PS, B-CV, I-EV, I-OG
-35	##이	O	O	O, B-PS, B-CV, B-OG, B-LC
-36	##라는	O	O	O, B-PS, B-CV, B-QT, B-LC
-37	관측	O	O	O, B-CV, B-QT, B-TM, B-PS
-38	##을	O	O	O, B-CV, I-EV, I-OG, I-QT
-39	낳	O	O	O, B-QT, B-CV, I-QT, I-OG
-40	##고	O	O	O, B-QT, I-QT, B-CV, B-PS
-41	있	O	O	O, B-CV, B-QT, B-PS, B-LC
-42	##다	O	O	O, B-CV, B-LC, B-QT, I-EV
-43	.	O	O	O, B-LC, B-PS, B-OG, B-CV
-44	[SEP]	O	O	O, B-LC, B-CV, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	군	B-OG	B-OG
+2	##은	O	O
+3	유사시	O	O
+4	##에	O	O
+5	대비	O	O
+6	,	O	O
+7	한	B-LC	B-LC
+8	·	O	O
+9	미	B-LC	B-LC
+10	연합	O	O
+11	##으로	O	O
+12	인질	O	B-CV
+13	구출	O	O
+14	훈련	O	O
+15	##도	O	O
+16	실시	O	O
+17	##한	O	O
+18	바	O	O
+19	있	O	O
+20	##다	O	O
+21	.	O	O
+22	[SEP]	O	O

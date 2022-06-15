@@ -1,35 +1,13 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	자	O	O	O, B-CV, B-TM, B-OG, B-QT
-2	우리	O	O	O, B-CV, B-PS, B-OG, B-LC
-3	엠	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-PS
-4	##씨	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-EV
-5	##들	O	O	O, I-CV, I-OG, I-AF, B-CV
-6	직업	O	O	O, B-CV, B-TM, B-FD, B-LC
-7	중	O	O	O, B-TM, B-CV, B-LC, B-OG
-8	##에	O	O	O, B-CV, B-OG, B-PS, B-LC
-9	인공지능	B-FD	B-FD	B-FD, B-TR, O, B-TM, I-FD
-10	##의	O	O	O, I-FD, I-TR, I-CV, I-TM
-11	발달	O	O	O, B-CV, B-TM, B-LC, B-OG
-12	##로	O	O	O, B-PS, B-CV, B-LC, B-OG
-13	사라질	O	O	O, B-QT, B-TM, B-CV, B-AF
-14	직업	O	O	O, B-TM, B-CV, B-QT, B-FD
-15	탑	O	B-QT	B-QT, O, B-TM, I-QT, B-CV
-16	쓰리	B-QT	I-QT	I-QT, O, B-QT, I-TM, I-LC
-17	알아보	O	O	O, I-QT, I-TM, B-CV, B-TM
-18	##고	O	O	O, B-CV, B-TM, I-QT, B-QT
-19	있	O	O	O, B-CV, B-TM, B-OG, B-QT
-20	##는데	O	O	O, B-CV, B-TM, B-OG, B-LC
-21	대	O	O	O, B-TM, B-QT, B-LC, B-CV
-22	##망	O	O	O, B-QT, I-QT, B-TM, I-TM
-23	##의	O	O	O, I-QT, B-PS, I-AF, I-OG
-24	일	B-QT	B-QT	B-QT, O, I-QT, B-LC, B-TM
-25	##위	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-OG
-26	##만	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-TM
-27	남겨	O	O	O, I-QT, B-QT, B-TM, B-CV
-28	##두고	O	O	O, I-QT, B-QT, B-TM, B-CV
-29	있	O	O	O, B-CV, B-TM, I-QT, B-QT
-30	##습	O	O	O, B-CV, B-OG, B-TM, B-QT
-31	##니다	O	O	O, B-CV, B-OG, B-TM, B-QT
-32	.	O	O	O, B-CV, B-LC, B-TM, B-PS
-33	[SEP]	O	O	O, B-CV, B-TM, B-LC, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	교수	B-CV	B-CV
+2	##님	O	O
+3	##들	O	O
+4	##한	O	O
+5	##테	O	O
+6	에이	B-QT	B-TM
+7	##플	I-QT	I-TM
+8	받	O	O
+9	##았	O	O
+10	##어	O	O
+11	[SEP]	O	O

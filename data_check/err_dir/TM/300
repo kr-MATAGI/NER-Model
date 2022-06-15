@@ -1,23 +1,47 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-EV, I-OG, I-CV
-1	하지만	O	O	O, B-CV, B-TM, B-OG, B-LC
-2	고집	O	O	O, B-CV, B-LC, B-OG, B-TM
-3	##스럽	O	O	O, B-PS, B-LC, I-LC, I-OG
-4	##게	O	O	O, B-LC, B-PS, I-OG, B-TM
-5	중앙	O	O	O, B-TM, B-LC, B-CV, B-QT
-6	위주	O	O	O, I-TM, B-TM, I-LC, B-LC
-7	##의	O	O	O, B-PS, B-LC, B-TM, B-QT
-8	패스	B-TM	B-TM	B-TM, O, B-TR, B-CV, I-TM
-9	##플레이	I-TM	O	O, I-TM, I-TR, I-CV, I-QT
-10	##로	O	O	O, I-TM, I-CV, I-QT, B-CV
-11	일관	O	O	O, B-CV, B-LC, B-TM, B-OG
-12	##하	O	O	O, B-LC, B-CV, B-PS, B-OG
-13	##며	O	O	O, B-CV, B-LC, B-OG, B-TM
-14	답답	O	O	O, B-CV, B-TM, B-LC, B-EV
-15	##한	O	O	O, B-CV, B-LC, B-TM, I-EV
-16	경기	O	O	O, B-CV, B-LC, B-TM, I-EV
-17	##를	O	O	O, B-CV, I-CV, I-EV, I-OG
-18	펼쳤	O	O	O, B-CV, B-LC, B-TM, B-OG
-19	##다	O	O	O, B-CV, B-TM, B-LC, I-EV
-20	.	O	O	O, B-CV, B-LC, B-TM, B-PS
-21	[SEP]	O	O	O, B-CV, B-LC, B-TM, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	'	O	O
+2	클릭	O	O
+3	'	O	O
+4	해	O	O
+5	보	O	O
+6	##니	O	O
+7	젊	O	O
+8	##은	O	O
+9	남녀	O	O
+10	##가	O	O
+11	뒤엉	O	O
+12	##켜	O	O
+13	옷	O	O
+14	##을	O	O
+15	벗기	O	O
+16	##며	O	O
+17	성행위	O	O
+18	##를	O	O
+19	벌이	O	O
+20	##는	O	O
+21	듯한	O	O
+22	장면	O	O
+23	##이	O	O
+24	이어지	O	O
+25	##다가	O	O
+26	갑자기	O	O
+27	춤추	O	O
+28	##던	O	O
+29	여성	O	O
+30	##들이	O	O
+31	한	O	O
+32	여성	O	O
+33	##의	O	O
+34	온몸	B-AM	B-AM
+35	##을	O	O
+36	위아래	B-TM	O
+37	##로	O	O
+38	쓰다듬	O	O
+39	##는	O	O
+40	장면	O	O
+41	##이	O	O
+42	나왔	O	O
+43	##다	O	O
+44	.	O	O
+45	[SEP]	O	O

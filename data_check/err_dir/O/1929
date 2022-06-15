@@ -1,32 +1,45 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	이날	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-QT
-2	시즌	O	I-DT	I-DT, O, I-QT, I-EV, B-DT
-3	16	B-QT	B-QT	B-QT, I-QT, O, B-EV, B-DT
-4	·	I-QT	I-QT	I-QT, O, I-EV, I-DT, B-QT
-5	17	I-QT	I-QT	I-QT, B-QT, O, I-EV, I-LC
-6	##호	I-QT	I-QT	I-QT, O, I-EV, I-TM, I-AF
-7	대포	O	B-AF	B-AF, O, B-TM, I-AF, B-LC
-8	##를	O	O	O, I-AF, I-TM, B-CV, I-OG
-9	쏘아	O	O	O, B-TM, B-LC, B-PS, B-CV
-10	올리	O	O	O, B-PS, B-LC, I-TM, I-AF
-11	##며	O	O	O, B-PS, B-LC, I-PS, B-CV
-12	자신	O	O	O, B-CV, B-TM, B-PS, B-LC
-13	##이	O	O	O, B-PS, B-OG, B-LC, B-CV
-14	보유	O	O	O, B-CV, B-TM, B-LC, B-QT
-15	##한	O	O	O, B-PS, B-LC, B-OG, B-EV
-16	KBO	B-OG	B-EV	B-EV, B-OG, O, B-CV, I-EV
-17	##리그	I-OG	I-EV	I-EV, I-OG, O, I-CV, I-AF
-18	통산	O	O	O, I-EV, I-OG, B-CV, I-AF
-19	최다	O	O	O, B-TM, B-CV, B-QT, B-PS
-20	홈런	B-TM	B-TM	B-TM, O, I-TM, B-CV, B-AF
-21	기록	O	O	O, I-TM, B-TM, B-CV, I-CV
-22	##도	O	O	O, B-CV, B-PS, B-TM, I-TM
-23	40	B-QT	B-QT	B-QT, O, I-QT, B-EV, B-TM
-24	##7	I-QT	I-QT	I-QT, O, B-QT, I-EV, I-LC
-25	##개	I-QT	I-QT	I-QT, O, I-LC, I-EV, B-QT
-26	##로	O	O	O, I-QT, I-EV, B-CV, I-OG
-27	늘렸	O	O	O, B-TM, B-CV, B-QT, B-LC
-28	##다	O	O	O, B-CV, I-QT, B-TM, B-PS
-29	.	O	O	O, B-PS, B-CV, B-TM, B-LC
-30	[SEP]	O	O	O, B-CV, B-TM, B-PS, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	2006	B-DT	B-DT
+2	##년	I-DT	I-DT
+3	U	B-OG	B-OG
+4	##BS	I-OG	I-OG
+5	##에	O	O
+6	수습	O	O
+7	투자	O	B-CV
+8	상담원	B-CV	I-CV
+9	##으로	O	O
+10	입사	O	O
+11	##한	O	O
+12	그	O	O
+13	##는	O	O
+14	내부	O	O
+15	##에	O	O
+16	##서	O	O
+17	인정	O	O
+18	##을	O	O
+19	받	O	O
+20	##으면	O	O
+21	##서	O	O
+22	최근	O	O
+23	##엔	O	O
+24	30	B-QT	B-QT
+25	##만	I-QT	I-QT
+26	파운드	I-QT	I-QT
+27	(	O	O
+28	약	B-QT	B-QT
+29	5	I-QT	I-QT
+30	##억	I-QT	I-QT
+31	##25	I-QT	I-QT
+32	##00	I-QT	I-QT
+33	##만	I-QT	I-QT
+34	원	I-QT	I-QT
+35	)	O	O
+36	의	O	O
+37	연봉	O	O
+38	##을	O	O
+39	받	O	O
+40	##았	O	O
+41	##다	O	O
+42	.	O	O
+43	[SEP]	O	O

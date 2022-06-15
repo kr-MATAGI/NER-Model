@@ -1,52 +1,20 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	옥	B-PS	B-PS	B-PS, O, B-LC, B-OG, I-PS
-2	##찰	I-PS	I-PS	I-PS, O, I-LC, I-OG, B-PS
-3	대사	B-CV	B-CV	B-CV, O, I-PS, I-CV, B-OG
-4	##는	O	O	O, I-CV, I-EV, B-CV, I-OG
-5	북한	B-LC	B-OG	B-OG, B-LC, O, B-PS, B-AF
-6	##의	O	O	O, I-OG, I-LC, B-OG, B-PS
-7	4	B-QT	B-QT	B-QT, B-EV, O, I-QT, B-DT
-8	##차	I-QT	I-QT	I-QT, I-EV, O, I-DT, I-OG
-9	핵실험	O	O	O, I-QT, I-EV, B-CV, B-LC
-10	위협	O	O	O, B-PS, B-LC, I-EV, B-CV
-11	등	O	O	O, B-CV, B-LC, B-PS, B-OG
-12	##에	O	O	O, B-CV, B-LC, B-OG, B-PS
-13	대해	O	O	O, B-LC, B-OG, B-PS, B-CV
-14	“	O	O	O, B-LC, B-CV, B-OG, B-PS
-15	아직	O	O	O, B-LC, B-CV, B-OG, B-TM
-16	자세히	O	O	O, B-LC, B-CV, B-TM, B-PS
-17	말	O	O	O, B-LC, B-CV, B-TM, B-PS
-18	##할	O	O	O, B-LC, B-PS, B-CV, B-OG
-19	처지	O	O	O, B-CV, B-LC, B-PS, B-DT
-20	##가	O	O	O, B-PS, B-LC, B-OG, B-CV
-21	아니	O	O	O, B-PS, B-LC, B-CV, B-OG
-22	##다	O	O	O, B-PS, B-LC, B-OG, B-CV
-23	”	O	O	O, B-CV, B-LC, B-PS, B-OG
-24	며	O	O	O, B-LC, B-PS, B-CV, B-TM
-25	신중	O	O	O, B-LC, B-PS, B-TM, B-OG
-26	##한	O	O	O, B-PS, I-PS, B-LC, I-LC
-27	태도	O	O	O, B-PS, B-LC, I-PS, B-CV
-28	##를	O	O	O, B-CV, B-PS, I-PS, I-OG
-29	보이	O	O	O, B-CV, B-PS, B-LC, B-OG
-30	##면서	O	O	O, B-PS, I-OG, B-LC, I-CV
-31	##도	O	O	O, B-LC, B-PS, B-OG, B-CV
-32	“	O	O	O, B-LC, B-CV, B-PS, B-OG
-33	북한	B-LC	B-OG	B-OG, B-LC, O, B-PS, B-AF
-34	##이	O	O	O, I-OG, B-PS, I-LC, I-PS
-35	영원히	O	O	O, B-LC, B-PS, B-CV, B-TM
-36	벽	O	O	O, B-LC, B-TM, B-PS, B-AF
-37	##을	O	O	O, I-AF, B-CV, B-PS, B-LC
-38	쳐	O	O	O, B-LC, B-PS, B-OG, B-CV
-39	##놓	O	O	O, B-LC, B-PS, I-LC, B-TM
-40	##고	O	O	O, B-PS, B-LC, B-CV, B-OG
-41	닫힌	O	O	O, B-LC, B-TM, B-PS, B-CV
-42	세상	O	O	O, B-LC, B-TM, B-PS, B-CV
-43	##에서	O	O	O, B-LC, B-PS, B-CV, I-AF
-44	살	O	O	O, B-LC, B-PS, B-CV, B-TM
-45	수만	O	O	O, B-LC, B-CV, B-PS, B-TM
-46	##은	O	O	O, B-LC, B-CV, B-PS, B-TM
-47	없	O	O	O, B-CV, B-LC, B-PS, B-TM
-48	##다	O	O	O, B-CV, B-LC, I-OG, B-PS
-49	.	O	O	O, B-LC, B-PS, B-CV, B-OG
-50	[SEP]	O	O	O, B-LC, B-CV, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	1	B-QT	B-QT
+2	,	I-QT	I-QT
+3	96	I-QT	I-QT
+4	##4	I-QT	I-QT
+5	◀	O	O
+6	##금	B-LC	B-PT
+7	##강	I-LC	I-PT
+8	##산	I-LC	I-PT
+9	##도	O	O
+10	식	O	O
+11	##후	O	O
+12	##경	O	O
+13	##이	O	O
+14	##라고	O	O
+15	했	O	O
+16	##다	O	O
+17	.	O	O
+18	[SEP]	O	O

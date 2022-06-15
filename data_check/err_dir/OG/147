@@ -1,24 +1,35 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	이미	O	O	O, B-CV, B-OG, B-PS, B-LC
-2	이	O	O	O, B-PS, B-OG, B-QT, B-CV
-3	~	O	O	O, B-CV, I-QT, B-PS, I-OG
-4	어느	O	O	O, B-OG, B-PS, B-CV, B-LC
-5	정당	O	O	O, B-OG, I-OG, B-CV, B-LC
-6	##도	O	O	O, I-OG, B-PS, I-CV, B-CV
-7	이제	O	O	O, B-CV, B-OG, B-TM, B-PS
-8	##는	O	O	O, B-PS, B-OG, B-CV, B-LC
-9	야당	B-OG	O	O, B-OG, B-CV, B-TR, B-LC
-10	##이	O	O	O, I-OG, B-PS, I-CV, B-CV
-11	될	O	O	O, B-CV, I-OG, B-OG, B-QT
-12	수	O	O	O, B-PS, B-CV, B-QT, I-OG
-13	있	O	O	O, B-PS, B-CV, B-QT, B-OG
-14	##다	O	O	O, B-CV, B-PS, B-QT, B-OG
-15	##라는	O	O	O, B-CV, B-OG, B-PS, B-LC
-16	그런	O	O	O, B-CV, B-OG, B-TM, B-LC
-17	가능	O	O	O, B-CV, B-QT, B-PS, B-OG
-18	##성이	O	O	O, I-OG, B-PS, I-QT, I-CV
-19	##었	O	O	O, B-CV, B-OG, B-PS, B-QT
-20	##구요	O	O	O, B-CV, B-OG, B-QT, B-LC
-21	.	O	O	O, B-CV, B-PS, B-OG, B-LC
-22	[SEP]	O	O	O, B-CV, B-OG, B-PS, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	카일	B-PS	B-OG
+2	##라	I-PS	I-OG
+3	##시	I-PS	I-OG
+4	##의	O	O
+5	캠페인	O	O
+6	##은	O	O
+7	140	B-QT	B-QT
+8	##여	I-QT	I-QT
+9	개국	I-QT	I-QT
+10	시민	O	O
+11	##단체	O	O
+12	##가	O	O
+13	참여	O	O
+14	##하	O	O
+15	##는	O	O
+16	국제	O	O
+17	조직	O	O
+18	'	O	O
+19	아동	B-OG	B-EV
+20	노동	I-OG	I-EV
+21	##을	I-OG	I-EV
+22	근절	I-OG	I-EV
+23	##하	I-OG	I-EV
+24	##는	I-OG	O
+25	글로벌	I-OG	O
+26	행진	I-OG	O
+27	'	O	O
+28	으로	O	O
+29	확대	O	O
+30	##됐	O	O
+31	##다	O	O
+32	.	O	O
+33	[SEP]	O	O

@@ -1,35 +1,39 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	오	B-OG	B-OG	B-OG, O, B-PS, B-LC, I-OG
-2	##쇼핑	I-OG	I-OG	I-OG, O, B-OG, I-PS, I-LC
-3	##이	O	O	O, I-OG, B-PS, B-CV, B-OG
-4	보유	O	O	O, B-CV, B-TM, B-LC, B-AF
-5	##한	O	O	O, B-LC, B-PS, B-OG, B-CV
-6	나머지	O	O	O, B-TM, B-QT, B-CV, B-AF
-7	지분	O	O	O, B-TM, B-CV, B-LC, B-AF
-8	23	B-QT	B-QT	B-QT, I-QT, O, B-DT, B-PS
-9	.	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-10	9	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-11	%	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-12	는	O	O	O, I-QT, B-OG, B-CV, I-OG
-13	앞	O	O	O, B-OG, B-DT, B-LC, B-TM
-14	##으로	O	O	O, B-PS, B-OG, I-DT, I-OG
-15	3	B-DT	B-DT	B-DT, I-DT, O, B-QT, B-LC
-16	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-17	이내	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-18	##에	O	O	O, I-DT, B-OG, B-CV, I-OG
-19	양사	O	O	O, B-OG, B-CV, B-LC, B-DT
-20	간	O	O	O, I-DT, B-DT, B-LC, B-CV
-21	콜	O	B-CV	B-CV, O, B-TM, I-CV, B-TR
-22	·	O	I-CV	I-CV, O, I-TM, B-CV, I-TR
-23	풋	O	I-CV	I-CV, O, B-CV, I-TM, I-TR
-24	##옵션	O	I-CV	I-CV, O, I-TM, B-CV, I-TR
-25	행사	O	O	O, I-CV, I-EV, I-QT, I-OG
-26	##를	O	O	O, B-CV, B-OG, B-LC, I-CV
-27	통해	O	O	O, B-OG, B-LC, B-CV, B-TM
-28	인수	O	O	O, B-CV, B-TM, B-OG, B-LC
-29	##할	O	O	O, B-OG, B-CV, B-PS, B-LC
-30	방침	O	O	O, B-CV, B-OG, B-TM, I-OG
-31	##이다	O	O	O, B-CV, B-TM, B-OG, I-OG
-32	.	O	O	O, B-LC, B-OG, B-CV, B-PS
-33	[SEP]	O	O	O, B-CV, B-OG, B-LC, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	4	B-DT	B-DT
+2	##월	I-DT	I-DT
+3	##3	I-DT	I-DT
+4	##일	I-DT	I-DT
+5	북한	B-LC	B-LC
+6	##의	O	O
+7	일방	O	O
+8	##적	O	O
+9	##인	O	O
+10	개성	B-LC	B-LC
+11	##공단	I-LC	I-LC
+12	출입	O	O
+13	제한	O	O
+14	##에	O	O
+15	##서	O	O
+16	시작	O	O
+17	##된	O	O
+18	개성	B-LC	B-EV
+19	##공단	I-LC	I-EV
+20	사태	O	I-EV
+21	##는	O	O
+22	5	B-DT	B-DT
+23	##개	I-DT	I-DT
+24	##월	I-DT	I-DT
+25	##여	I-DT	I-DT
+26	만	I-DT	I-DT
+27	##에	O	O
+28	정상	O	O
+29	##화	O	O
+30	궤도	O	O
+31	##에	O	O
+32	올라서	O	O
+33	##게	O	O
+34	됐	O	O
+35	##다	O	O
+36	.	O	O
+37	[SEP]	O	O

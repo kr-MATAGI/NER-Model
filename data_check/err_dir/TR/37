@@ -1,13 +1,70 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, I-AF, B-CV
-1	그	O	O	O, B-CV, B-TM, B-OG, I-AF
-2	~	O	O	O, B-CV, B-LC, B-PS, I-CV
-3	항암	B-TM	B-TR	B-TR, O, B-TM, I-TR, B-FD
-4	항암	B-TR	I-TR	I-TR, B-TR, O, I-QT, I-TM
-5	치료	I-TR	I-TR	I-TR, O, B-TR, I-TM, I-QT
-6	하	O	O	O, I-TR, I-TM, I-QT, B-CV
-7	##는	O	O	O, B-CV, B-LC, I-AF, B-TM
-8	##게	O	O	O, B-CV, B-PS, B-LC, I-AF
-9	무서워	O	O	O, B-CV, B-PS, B-OG, I-AF
-10	?	O	O	O, I-AF, B-CV, I-OG, I-CV
-11	[SEP]	O	O	O, B-CV, B-LC, I-AF, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	이와	O	O
+2	함께	O	O
+3	요즘	O	O
+4	화두	O	O
+5	##가	O	O
+6	되	O	O
+7	##고	O	O
+8	있	O	O
+9	##는	O	O
+10	3	B-TR	B-TM
+11	##D	I-TR	I-TM
+12	##콘	O	I-TM
+13	##텐츠	O	I-TM
+14	기술	O	O
+15	·	O	O
+16	촬영	O	O
+17	및	O	O
+18	제작	O	O
+19	노하우	O	O
+20	##를	O	O
+21	배우	O	O
+22	##는	O	O
+23	워크숍	O	O
+24	##과	O	O
+25	모바일	B-TM	B-TM
+26	콘텐츠	O	O
+27	제작자	B-CV	B-CV
+28	·	O	O
+29	애니메이션	B-FD	B-FD
+30	제작자	B-CV	B-CV
+31	·	O	O
+32	감독	B-CV	B-CV
+33	등	O	O
+34	융합	O	O
+35	##콘	O	O
+36	##텐츠	O	O
+37	##를	O	O
+38	지향	O	O
+39	##하	O	O
+40	##는	O	O
+41	전문가	B-CV	B-CV
+42	##들의	O	O
+43	특강	O	O
+44	,	O	O
+45	애니메이션	B-FD	B-FD
+46	'	O	O
+47	오디션	B-AF	B-AF
+48	'	O	O
+49	상영	O	O
+50	,	O	O
+51	민경	B-PS	B-PS
+52	##조	I-PS	I-PS
+53	감독	B-CV	B-CV
+54	##의	O	O
+55	관객	B-CV	B-CV
+56	##과	O	O
+57	##의	O	O
+58	대화	O	O
+59	등	O	O
+60	부대	O	O
+61	##행사	O	O
+62	##도	O	O
+63	다채	O	O
+64	##롭	O	O
+65	##게	O	O
+66	펼쳐진다	O	O
+67	.	O	O
+68	[SEP]	O	O

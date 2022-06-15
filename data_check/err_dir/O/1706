@@ -1,30 +1,16 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-EV, I-CV
-1	세탁소	O	O	O, B-CV, B-OG, B-TM, B-AF
-2	##와	O	O	O, B-CV, B-AF, B-TM, I-OG
-3	자전거	B-AF	B-AF	B-AF, O, B-LC, B-OG, I-AF
-4	##포	O	I-AF	I-AF, O, I-LC, I-OG, B-AF
-5	등	O	O	O, I-AF, I-OG, I-LC, I-CV
-6	##도	O	O	O, B-CV, B-LC, B-PS, B-OG
-7	공방	O	O	O, B-CV, B-AF, B-LC, B-EV
-8	##거리	O	O	O, I-AF, I-LC, I-CV, I-EV
-9	##에	O	O	O, I-AF, I-OG, I-EV, I-LC
-10	맞	O	O	O, B-LC, B-CV, B-OG, B-PS
-11	##게	O	O	O, B-LC, B-OG, B-PS, B-CV
-12	새	O	O	O, B-LC, B-OG, B-CV, B-PS
-13	##단	O	O	O, B-CV, B-PS, I-CV, B-LC
-14	##장	O	O	O, B-CV, I-CV, B-PS, I-OG
-15	##을	O	O	O, B-CV, B-PS, B-OG, I-OG
-16	하	O	O	O, B-CV, B-OG, B-LC, B-PS
-17	##는	O	O	O, B-LC, B-CV, B-OG, B-PS
-18	등	O	O	O, B-LC, B-OG, B-TM, B-CV
-19	주민	B-CV	B-CV	B-CV, O, B-OG, B-PS, B-TM
-20	참여	O	O	O, I-CV, I-EV, I-OG, B-CV
-21	##형	O	O	O, I-CV, I-TM, I-OG, I-LC
-22	거리	O	O	O, B-CV, B-LC, B-AF, B-EV
-23	조성	O	O	O, B-CV, B-LC, I-OG, I-EV
-24	##이	O	O	O, B-PS, B-OG, B-CV, I-OG
-25	이뤄졌	O	O	O, B-CV, B-OG, B-LC, I-OG
-26	##다	O	O	O, B-CV, I-OG, I-EV, I-CV
-27	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-28	[SEP]	O	O	O, B-CV, B-LC, B-OG, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	7	B-DT	B-DT
+2	~	I-DT	I-DT
+3	8	I-DT	I-DT
+4	##월	I-DT	I-DT
+5	해외여행	O	O
+6	간다면	O	O
+7	지금	O	O
+8	예방	O	B-TR
+9	##주	O	I-TR
+10	##사	O	I-TR
+11	맞	O	O
+12	##으	O	O
+13	##세요	O	O
+14	[SEP]	O	O

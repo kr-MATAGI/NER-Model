@@ -1,50 +1,24 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	이를	O	O	O, B-CV, B-TM, B-OG, B-LC
-2	놓	O	O	O, B-PS, B-CV, B-OG, B-LC
-3	##고	O	O	O, B-PS, B-LC, B-OG, B-CV
-4	인	B-PS	B-PS	B-PS, O, I-PS, B-OG, B-LC
-5	위원장	B-CV	B-CV	B-CV, O, I-PS, I-CV, B-OG
-6	측	O	O	O, I-CV, I-OG, I-QT, I-EV
-7	##에	O	O	O, B-CV, B-PS, B-OG, I-OG
-8	##선	O	O	O, B-PS, B-CV, B-LC, I-QT
-9	""""	O	O	O, B-CV, B-LC, B-PS, B-OG
-10	인적	O	O	O, B-CV, B-PS, B-LC, B-EV
-11	쇄신	O	O	O, B-PS, B-CV, B-LC, B-EV
-12	##에서	O	O	O, B-PS, B-LC, B-CV, I-EV
-13	성과	O	O	O, B-LC, B-PS, B-CV, B-EV
-14	##를	O	O	O, B-PS, B-CV, B-LC, I-EV
-15	내고	O	O	O, B-PS, B-LC, B-CV, B-EV
-16	만나	O	O	O, B-CV, B-LC, B-EV, B-PS
-17	##자	O	O	O, B-CV, B-PS, B-LC, I-EV
-18	##는	O	O	O, B-PS, B-CV, I-CV, I-EV
-19	뜻	O	O	O, B-CV, B-PS, B-QT, B-LC
-20	""""	O	O	O, B-CV, B-PS, B-LC, I-CV
-21	이라	O	O	O, B-PS, B-CV, B-OG, B-LC
-22	##고	O	O	O, B-PS, B-CV, B-OG, I-CV
-23	했	O	O	O, B-CV, B-OG, B-PS, B-LC
-24	##지만	O	O	O, B-PS, B-CV, B-OG, I-EV
-25	,	O	O	O, B-CV, B-PS, B-OG, B-LC
-26	서	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-27	의원	B-CV	B-CV	B-CV, O, I-PS, I-CV, B-OG
-28	측	O	O	O, I-CV, I-OG, I-QT, I-EV
-29	##에	O	O	O, B-CV, B-OG, I-OG, B-TM
-30	##선	O	O	O, B-PS, B-LC, B-CV, B-TM
-31	""""	O	O	O, B-CV, B-LC, B-PS, B-TM
-32	인	B-PS	B-PS	B-PS, O, B-OG, B-CV, I-PS
-33	위원장	B-CV	B-CV	B-CV, O, I-CV, I-PS, B-OG
-34	행태	O	O	O, I-CV, I-EV, B-CV, I-OG
-35	##에	O	O	O, B-CV, B-PS, B-LC, B-OG
-36	불만	O	O	O, B-CV, B-PS, B-LC, B-TM
-37	##을	O	O	O, B-CV, B-PS, I-CV, B-LC
-38	가진	O	O	O, B-PS, B-CV, B-LC, B-TM
-39	고문	O	B-CV	B-CV, O, I-CV, B-TM, B-FD
-40	##이	O	O	O, I-CV, B-PS, B-CV, I-EV
-41	많	O	O	O, B-CV, B-PS, B-LC, B-TM
-42	##다	O	O	O, B-CV, B-PS, I-OG, I-CV
-43	""""	O	O	O, B-CV, B-TM, B-LC, B-OG
-44	고	O	O	O, B-CV, B-TM, I-OG, B-OG
-45	했	O	O	O, B-CV, B-TM, B-OG, B-QT
-46	##다	O	O	O, B-CV, B-TM, I-CV, B-LC
-47	.	O	O	O, B-PS, B-CV, B-LC, B-OG
-48	[SEP]	O	O	O, B-CV, B-PS, B-LC, I-EV
+	text	label	preds
+0	[CLS]	O	O
+1	이제	O	O
+2	##는	O	O
+3	노숙인	O	B-CV
+4	##끼리	O	O
+5	수녀	B-CV	B-CV
+6	##와	O	O
+7	얼마나	O	O
+8	더	O	O
+9	이야기	O	O
+10	##를	O	O
+11	많이	O	O
+12	나눴	O	O
+13	##는지	O	O
+14	서로	O	O
+15	자랑	O	O
+16	##할	O	O
+17	정도	O	O
+18	##가	O	O
+19	됐	O	O
+20	##다	O	O
+21	.	O	O
+22	[SEP]	O	O

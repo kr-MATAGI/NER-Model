@@ -1,51 +1,52 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	올해	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-2	억	B-CV	B-CV	B-CV, O, I-CV, B-PS, B-AF
-3	##만장	I-CV	I-CV	I-CV, O, B-CV, I-AF, I-TM
-4	##자	I-CV	I-CV	I-CV, O, B-CV, I-TM, I-AF
-5	리스트	O	O	O, I-CV, B-TM, B-CV, B-PS
-6	##에	O	O	O, B-CV, I-CV, B-PS, B-LC
-7	이름	O	O	O, B-CV, B-PS, B-LC, B-TM
-8	##을	O	O	O, B-CV, B-PS, I-CV, B-OG
-9	올린	O	O	O, B-CV, B-PS, B-LC, B-OG
-10	여성	O	O	O, B-CV, B-TM, B-LC, I-CV
-11	227	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-PS
-12	##명	I-QT	I-QT	I-QT, O, I-LC, I-PS, I-DT
-13	중	O	O	O, I-QT, B-TM, B-LC, B-CV
-14	최고	O	O	O, B-CV, B-QT, B-PS, B-LC
-15	갑	O	O	O, B-CV, B-PS, I-CV, B-QT
-16	##부	O	O	O, I-CV, I-PS, B-CV, I-QT
-17	##는	O	O	O, I-CV, B-CV, B-PS, I-QT
-18	전체	O	O	O, B-QT, B-TM, B-CV, B-LC
-19	14	B-QT	B-QT	B-QT, I-QT, O, B-DT, B-EV
-20	##위	I-QT	I-QT	I-QT, O, I-LC, I-EV, B-QT
-21	##를	O	O	O, I-QT, B-CV, I-OG, I-EV
-22	차지	O	O	O, B-CV, B-OG, B-TM, B-LC
-23	##한	O	O	O, B-LC, B-OG, B-CV, B-PS
-24	프랑스	B-LC	B-LC	B-LC, B-OG, O, B-AF, B-PS
-25	화장품	O	O	O, B-CV, I-LC, B-OG, I-OG
-26	회사	O	O	O, B-CV, B-OG, B-LC, I-CV
-27	로	B-OG	B-OG	B-OG, O, I-OG, B-LC, B-PS
-28	##레	I-OG	I-OG	I-OG, O, I-LC, B-OG, I-AF
-29	##알	I-OG	I-OG	I-OG, O, I-LC, I-AF, I-CV
-30	##그룹	I-OG	I-OG	I-OG, O, I-LC, I-CV, I-AF
-31	상속	O	B-CV	B-CV, O, I-CV, I-OG, B-QT
-32	##녀	O	I-CV	I-CV, O, B-CV, I-QT, I-TM
-33	릴리	B-PS	B-PS	B-PS, O, I-PS, B-LC, B-OG
-34	##안	I-PS	I-PS	I-PS, O, I-LC, I-OG, B-PS
-35	베	I-PS	I-PS	I-PS, O, B-PS, I-LC, B-LC
-36	##탕	I-PS	I-PS	I-PS, O, I-LC, I-OG, B-LC
-37	##쿠르	I-PS	I-PS	I-PS, O, I-LC, I-OG, B-LC
-38	(	O	O	O, I-PS, I-OG, B-CV, B-LC
-39	39	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-LC
-40	##5	I-QT	I-QT	I-QT, I-LC, I-PS, O, B-QT
-41	##억	I-QT	I-QT	I-QT, O, I-PS, I-LC, B-QT
-42	##달	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-43	##러	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-44	)	O	O	O, I-QT, B-CV, I-OG, I-CV
-45	로	O	O	O, B-CV, B-PS, B-LC, B-TM
-46	나타났	O	O	O, B-CV, B-TM, B-PS, B-OG
-47	##다	O	O	O, B-CV, B-TM, B-LC, B-OG
-48	.	O	O	O, B-CV, B-LC, B-PS, B-OG
-49	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	조선	B-OG	B-OG
+2	##중	I-OG	I-OG
+3	##앙	I-OG	I-OG
+4	##통신	I-OG	I-OG
+5	##은	O	O
+6	“	O	O
+7	최룡해	B-PS	B-PS
+8	정치국	O	B-OG
+9	상무위원	B-CV	B-CV
+10	(	O	O
+11	62	B-QT	B-QT
+12	)	O	O
+13	이	O	O
+14	군	B-OG	B-OG
+15	총	B-CV	B-CV
+16	##정	I-CV	I-CV
+17	##치	I-CV	I-CV
+18	##국장	I-CV	I-CV
+19	##으로	O	O
+20	,	O	O
+21	김정	B-PS	B-PS
+22	##각	I-PS	I-PS
+23	정치국	O	B-OG
+24	위원	B-CV	B-CV
+25	(	O	O
+26	71	B-QT	B-QT
+27	)	O	O
+28	이	O	O
+29	인민	B-CV	B-CV
+30	##무	I-CV	I-CV
+31	##력	I-CV	I-CV
+32	##부	I-CV	I-CV
+33	##장	I-CV	I-CV
+34	##으로	O	O
+35	2012	B-DT	B-DT
+36	##년	I-DT	I-DT
+37	4	I-DT	I-DT
+38	##월	I-DT	I-DT
+39	##부터	I-DT	I-DT
+40	사업	O	O
+41	##하	O	O
+42	##고	O	O
+43	있	O	O
+44	##다	O	O
+45	”	O	O
+46	고	O	O
+47	밝혔	O	O
+48	##다	O	O
+49	.	O	O
+50	[SEP]	O	O

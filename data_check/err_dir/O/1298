@@ -1,20 +1,35 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-EV, I-CV
-1	도요타	B-OG	B-OG	B-OG, O, B-LC, B-AF, I-OG
-2	##의	O	O	O, I-OG, I-EV, I-AF, I-CV
-3	위기	O	O	O, B-EV, I-EV, B-PS, B-CV
-4	##는	O	O	O, I-EV, I-OG, B-PS, B-LC
-5	2008	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-LC
-6	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-7	말	I-DT	I-DT	I-DT, O, I-QT, B-DT, I-PS
-8	터진	O	O	O, I-DT, B-EV, B-LC, I-EV
-9	글로벌	O	B-EV	B-EV, O, B-LC, B-DT, B-OG
-10	금융	O	I-EV	I-EV, B-EV, O, B-LC, B-CV
-11	##위	O	I-EV	I-EV, O, B-EV, I-OG, I-DT
-12	##기	O	I-EV	I-EV, O, I-OG, B-EV, I-LC
-13	##와	O	O	O, I-EV, I-OG, I-DT, I-AF
-14	함께	O	O	O, B-LC, I-EV, B-TM, B-OG
-15	왔	O	O	O, B-PS, B-OG, B-LC, B-EV
-16	##다	O	O	O, I-EV, I-OG, B-CV, I-CV
-17	.	O	O	O, B-LC, B-CV, B-OG, I-EV
-18	[SEP]	O	O	O, B-CV, I-EV, B-LC, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	1997	B-DT	B-DT
+2	##년	I-DT	I-DT
+3	12	I-DT	I-DT
+4	##월	I-DT	I-DT
+5	채택	O	O
+6	##된	O	O
+7	교토	O	O
+8	##의	O	O
+9	##정	O	O
+10	##서는	O	O
+11	선진국	O	O
+12	##들이	O	O
+13	2012	B-DT	B-DT
+14	##년	I-DT	I-DT
+15	##까	I-DT	I-DT
+16	##지	I-DT	I-DT
+17	평균	O	O
+18	5	B-QT	B-QT
+19	.	I-QT	I-QT
+20	2	I-QT	I-QT
+21	%	I-QT	I-QT
+22	의	O	O
+23	온실가스	O	B-MT
+24	##를	O	O
+25	줄여야	O	O
+26	한다고	O	O
+27	규정	O	O
+28	##하	O	O
+29	##고	O	O
+30	있	O	O
+31	##다	O	O
+32	.	O	O
+33	[SEP]	O	O

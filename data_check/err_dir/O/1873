@@ -1,43 +1,23 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-EV, B-CV, I-CV
-1	<	O	O	O, B-OG, B-LC, B-DT, B-CV
-2	유	B-OG	B-OG	B-OG, B-AF, O, I-OG, B-LC
-3	##에스	I-OG	I-OG	I-OG, O, I-AF, B-OG, I-LC
-4	##에이	I-OG	I-OG	I-OG, O, I-AF, B-OG, I-LC
-5	##투	I-OG	I-OG	I-OG, O, I-AF, B-OG, I-LC
-6	##데이	I-OG	I-OG	I-OG, O, I-AF, I-LC, B-OG
-7	>	O	O	O, I-OG, I-AF, I-DT, I-EV
-8	(	O	O	O, B-LC, B-OG, B-CV, I-OG
-9	USA	O	O	O, B-OG, B-AF, B-LC, B-DT
-10	To	O	O	O, I-OG, I-DT, I-AF, B-DT
-11	##day	O	O	O, I-OG, I-DT, I-AF, B-DT
-12	)	O	O	O, I-OG, I-DT, I-AF, I-EV
-13	등	O	O	O, B-LC, B-OG, B-CV, B-AF
-14	현지	O	O	O, B-LC, B-OG, B-CV, B-AF
-15	언론	O	O	O, B-OG, B-CV, I-OG, B-FD
-16	##은	O	O	O, B-LC, I-OG, B-OG, B-CV
-17	12	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-QT
-18	##일	I-DT	I-DT	I-DT, O, B-DT, I-PS, I-QT
-19	(	O	O	O, I-DT, B-LC, B-OG, B-CV
-20	현지	O	O	O, B-LC, B-CV, B-OG, B-DT
-21	##시	O	O	O, B-LC, B-CV, B-OG, I-DT
-22	##각	O	O	O, B-LC, I-DT, I-OG, B-OG
-23	)	O	O	O, B-LC, B-OG, B-PS, B-DT
-24	캘리포니아	B-LC	B-LC	B-LC, O, B-OG, B-AF, I-LC
-25	##의	O	O	O, I-LC, B-LC, I-OG, I-DT
-26	선구	O	O	O, B-LC, B-OG, B-CV, B-PS
-27	##적인	O	O	O, B-LC, B-OG, B-PS, B-DT
-28	트랜스	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-FD
-29	##젠	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-TM
-30	##더	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-TM
-31	학생	B-CV	I-CV	I-CV, B-CV, O, I-OG, I-AF
-32	보호법	O	I-CV	I-CV, O, B-CV, I-OG, I-AF
-33	##을	O	O	O, I-CV, I-OG, B-CV, I-EV
-34	둘러싼	O	O	O, B-LC, B-CV, B-OG, B-PS
-35	논란	O	O	O, B-CV, B-LC, B-EV, B-OG
-36	##을	O	O	O, B-CV, B-OG, B-LC, I-EV
-37	보도	O	O	O, B-CV, B-OG, B-LC, B-DT
-38	##했	O	O	O, B-LC, B-OG, B-CV, B-DT
-39	##다	O	O	O, B-LC, B-OG, B-CV, I-OG
-40	.	O	O	O, B-LC, B-OG, B-CV, I-OG
-41	[SEP]	O	O	O, B-LC, B-OG, B-CV, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	우리	O	O
+2	##가	O	O
+3	등산	O	B-CV
+4	##가	O	I-CV
+5	보	O	O
+6	##면은	O	O
+7	그	O	O
+8	개울	O	O
+9	##에	O	O
+10	있	O	O
+11	##는	O	O
+12	물	O	O
+13	##은	O	O
+14	가끔	O	O
+15	마	O	O
+16	##를	O	O
+17	때	O	O
+18	##가	O	O
+19	있	O	O
+20	##어도	O	O
+21	[SEP]	O	O

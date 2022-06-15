@@ -1,46 +1,52 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-QT
-1	빚	O	O	O, B-CV, B-TM, B-LC, I-CV
-2	##도	O	O	O, I-CV, B-PS, I-AF, I-OG
-3	없	O	O	O, B-CV, B-PS, B-LC, B-TM
-4	##고	O	O	O, B-PS, B-CV, I-AF, B-LC
-5	기술	O	O	O, B-CV, B-LC, B-FD, B-TM
-6	##도	O	O	O, I-CV, B-PS, I-AF, B-CV
-7	있	O	O	O, B-PS, B-CV, B-QT, B-TM
-8	##는데	O	O	O, B-PS, B-CV, B-LC, B-TM
-9	사장	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-OG
-10	##님	O	O	O, I-CV, B-PS, I-QT, I-PS
-11	##과	O	O	O, B-PS, B-CV, I-CV, B-LC
-12	기술	O	B-CV	B-CV, O, I-CV, B-TM, B-OG
-13	##진	O	I-CV	I-CV, O, B-CV, I-OG, I-QT
-14	##이	O	O	O, I-CV, B-PS, B-CV, I-OG
-15	다	O	O	O, B-PS, B-CV, B-QT, B-LC
-16	같이	O	O	O, B-PS, B-CV, B-TM, B-LC
-17	나이	O	O	O, B-CV, B-PS, B-LC, B-TM
-18	##를	O	O	O, B-PS, B-CV, I-CV, I-OG
-19	먹	O	O	O, B-CV, B-PS, B-TM, B-LC
-20	##고	O	O	O, B-PS, B-CV, B-LC, B-OG
-21	젊	O	O	O, B-CV, B-PS, B-TM, B-LC
-22	##은	O	O	O, B-PS, I-CV, I-QT, I-PS
-23	직원	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-QT
-24	##은	O	O	O, I-CV, B-CV, I-QT, B-PS
-25	새로	O	O	O, B-QT, B-CV, B-TM, B-PS
-26	들어오	O	O	O, B-CV, B-QT, B-PS, B-TM
-27	##지	O	O	O, B-PS, B-CV, B-TM, B-QT
-28	않	O	O	O, B-CV, B-PS, B-TM, B-LC
-29	##아	O	O	O, B-LC, B-PS, B-CV, B-TM
-30	스스로	O	O	O, B-QT, B-TM, B-PS, B-LC
-31	회사	O	O	O, B-CV, B-TM, B-AF, B-PS
-32	문	O	O	O, B-CV, B-TM, B-AF, B-PS
-33	##을	O	O	O, B-CV, B-TM, B-PS, I-AF
-34	닫	O	O	O, B-CV, B-TM, B-QT, B-PS
-35	##는	O	O	O, B-CV, B-TM, B-QT, B-LC
-36	경우	O	O	O, B-CV, B-QT, B-TM, B-OG
-37	##가	O	O	O, B-CV, B-PS, B-OG, I-AF
-38	많	O	O	O, B-CV, B-OG, B-TM, B-QT
-39	##았	O	O	O, B-CV, B-OG, B-TM, B-QT
-40	##다는	O	O	O, B-CV, B-TM, B-OG, I-OG
-41	분석	O	O	O, B-CV, B-TM, B-OG, B-QT
-42	##이다	O	O	O, B-CV, I-CV, B-TM, I-QT
-43	.	O	O	O, B-PS, B-CV, B-LC, B-OG
-44	[SEP]	O	O	O, B-CV, B-PS, I-AF, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	샌	B-PS	B-PS
+2	##퍼드	I-PS	I-PS
+3	지사	O	B-CV
+4	##는	O	O
+5	이날	B-DT	B-DT
+6	오전	B-TI	B-TI
+7	조지아	B-LC	B-LC
+8	##주	I-LC	I-LC
+9	애틀랜타	B-LC	B-LC
+10	공항	I-LC	I-LC
+11	##에	O	O
+12	도착	O	O
+13	##한	O	O
+14	부에	B-LC	B-LC
+15	##노스	I-LC	I-LC
+16	##아이	I-LC	I-LC
+17	##레스	I-LC	I-LC
+18	##발	O	O
+19	비행기	B-AF	B-AF
+20	##에	O	O
+21	##서	O	O
+22	내리	O	O
+23	##는	O	O
+24	모습	O	O
+25	##이	O	O
+26	사우스	B-LC	B-LC
+27	##캐롤라이나	I-LC	I-LC
+28	유력	O	O
+29	##지	O	O
+30	<	O	O
+31	스테이트	B-AF	B-OG
+32	>	O	O
+33	취재진	B-CV	B-CV
+34	##에	O	O
+35	##게	O	O
+36	포착	O	O
+37	##되	O	O
+38	##자	O	O
+39	,	O	O
+40	급하	O	O
+41	##게	O	O
+42	기자	O	O
+43	##회	O	O
+44	##견	O	O
+45	##을	O	O
+46	마련	O	O
+47	##했	O	O
+48	##다	O	O
+49	.	O	O
+50	[SEP]	O	O

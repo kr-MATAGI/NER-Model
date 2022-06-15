@@ -1,15 +1,30 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-EV, I-OG
-1	소방	B-CV	B-CV	B-CV, O, B-OG, B-FD, B-AF
-2	대원	I-CV	B-CV	B-CV, I-CV, O, I-OG, B-OG
-3	한	B-QT	B-QT	B-QT, I-QT, O, I-CV, B-DT
-4	명	I-QT	I-QT	I-QT, O, I-CV, I-EV, I-LC
-5	##이	O	O	O, I-QT, B-PS, B-CV, I-EV
-6	목숨	O	O	O, B-TM, B-CV, B-AM, B-QT
-7	##을	O	O	O, B-CV, I-CV, I-AF, I-TM
-8	잃	O	O	O, B-CV, B-TM, B-QT, I-CV
-9	##었	O	O	O, B-CV, I-CV, I-EV, I-AF
-10	##습	O	O	O, B-CV, B-LC, B-OG, B-QT
-11	##니다	O	O	O, B-CV, B-OG, B-LC, B-QT
-12	.	O	O	O, B-CV, B-PS, B-LC, B-TM
-13	[SEP]	O	O	O, B-CV, B-TM, B-PS, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	체육	O	O
+2	교육	O	O
+3	##과	O	O
+4	##정	O	O
+5	##을	O	O
+6	재	O	O
+7	##구	O	O
+8	##성	O	O
+9	##해	O	O
+10	3	B-QT	B-QT
+11	##학	I-QT	I-QT
+12	##년	I-QT	I-QT
+13	##은	O	O
+14	수영	B-CV	B-CV
+15	자유형	O	B-CV
+16	##을	O	O
+17	,	O	O
+18	4	B-QT	B-QT
+19	##학	I-QT	I-QT
+20	##년	I-QT	I-QT
+21	##은	O	O
+22	배	B-CV	O
+23	##영	I-CV	O
+24	##을	O	O
+25	뗀	O	O
+26	##다	O	O
+27	.	O	O
+28	[SEP]	O	O

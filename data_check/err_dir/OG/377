@@ -1,15 +1,56 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	일본	B-OG	B-LC	B-LC, B-OG, O, B-PS, B-AF
-2	##에	O	O	O, I-OG, I-LC, I-AF, I-EV
-3	그	O	O	O, B-CV, B-LC, B-OG, B-TM
-4	워	O	O	O, B-CV, B-LC, B-PS, B-FD
-5	##딩	O	O	O, I-CV, I-AF, I-PS, I-LC
-6	##을	O	O	O, B-CV, I-AF, I-CV, B-PS
-7	보	O	O	O, B-CV, B-OG, B-LC, B-TM
-8	##면	O	O	O, B-CV, B-OG, B-PS, B-LC
-9	사실	O	O	O, B-CV, B-OG, B-PS, B-LC
-10	##은	O	O	O, B-CV, B-OG, B-PS, B-LC
-11	다시	O	O	O, B-CV, B-QT, B-LC, B-PS
-12	##는	O	O	O, B-CV, B-LC, B-OG, B-PS
-13	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	담뱃값	O	O
+2	인상	O	O
+3	##과	O	O
+4	연말	O	O
+5	##정	O	O
+6	##산	O	O
+7	파동	O	O
+8	등	O	O
+9	잇따른	O	O
+10	‘	O	O
+11	증세	O	O
+12	논란	O	O
+13	’	O	O
+14	으로	O	O
+15	곤욕	O	O
+16	##을	O	O
+17	치른	O	O
+18	청와대	B-OG	B-AF
+19	##의	O	O
+20	정무	O	O
+21	##적	O	O
+22	판단	O	O
+23	##이	O	O
+24	영향	O	O
+25	##을	O	O
+26	미쳤	O	O
+27	##다는	O	O
+28	게	O	O
+29	대체	O	O
+30	##적	O	O
+31	##인	O	O
+32	분석	O	O
+33	##인	O	O
+34	##데	O	O
+35	,	O	O
+36	청와대	B-OG	B-AF
+37	내부	O	O
+38	##에	O	O
+39	##서도	O	O
+40	이런	O	O
+41	사정	O	O
+42	##을	O	O
+43	강하	O	O
+44	##게	O	O
+45	부인	O	O
+46	##하	O	O
+47	##지	O	O
+48	##는	O	O
+49	않	O	O
+50	##는	O	O
+51	분위기	O	O
+52	##다	O	O
+53	.	O	O
+54	[SEP]	O	O

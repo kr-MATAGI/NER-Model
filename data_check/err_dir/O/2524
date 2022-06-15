@@ -1,22 +1,17 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-AF
-1	점심	O	B-TI	B-TI, O, B-QT, B-EV, I-TI
-2	##시간	O	I-TI	I-TI, O, B-TI, I-EV, I-QT
-3	##에도	O	O	O, I-TI, I-EV, I-QT, I-AF
-4	밥	B-CV	B-CV	B-CV, O, B-AF, B-OG, B-TM
-5	##을	O	O	O, I-CV, I-AF, B-CV, I-OG
-6	못	O	O	O, B-CV, B-LC, B-QT, B-TM
-7	먹	O	O	O, B-CV, B-LC, B-TM, B-QT
-8	##기	O	O	O, I-AF, B-CV, B-PS, I-QT
-9	때문	O	O	O, B-CV, I-AF, B-LC, B-TM
-10	##에	O	O	O, B-CV, B-OG, I-AF, B-LC
-11	혼자	O	O	O, B-QT, B-TM, B-CV, B-LC
-12	교실	O	O	O, B-AF, B-CV, B-TM, B-QT
-13	##에	O	O	O, B-CV, B-TM, I-AF, B-QT
-14	엎	O	O	O, B-TM, B-CV, B-LC, B-QT
-15	##어져	O	O	O, B-LC, B-QT, I-AF, B-CV
-16	있	O	O	O, B-CV, B-LC, B-TM, B-QT
-17	##어야	O	O	O, B-CV, I-AF, B-TM, B-LC
-18	되	O	O	O, B-CV, B-OG, I-AF, B-TM
-19	##고	O	O	O, B-CV, I-AF, I-OG, B-TM
-20	[SEP]	O	O	O, B-CV, B-LC, B-TM, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	하지	O	O
+2	##만	O	O
+3	현대	O	O
+4	육상	O	B-CV
+5	##은	O	O
+6	자신	O	O
+7	##과	O	O
+8	##의	O	O
+9	피	O	O
+10	말리	O	O
+11	##는	O	O
+12	싸움	O	O
+13	##이다	O	O
+14	.	O	O
+15	[SEP]	O	O

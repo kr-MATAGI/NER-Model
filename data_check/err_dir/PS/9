@@ -1,13 +1,32 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	근데	O	O	O, B-CV, B-TM, B-OG, B-LC
-2	일단	O	O	O, B-CV, B-TM, B-QT, B-OG
-3	유아	B-PS	B-CV	B-CV, O, B-PS, B-LC, B-OG
-4	##인	I-PS	I-CV	I-CV, O, I-PS, I-LC, I-OG
-5	##은	O	O	O, I-CV, I-OG, I-AF, I-EV
-6	영문	B-CV	O	O, B-CV, B-TM, B-FD, B-LC
-7	##명	O	O	O, I-CV, I-TM, I-LC, I-AF
-8	##으로	O	O	O, B-PS, I-CV, B-CV, I-AF
-9	된	O	O	O, B-CV, B-AF, B-TM, B-LC
-10	트위터	B-TM	B-TM	B-TM, O, B-CV, B-AF, B-LC
-11	[SEP]	O	O	O, I-TM, I-AF, I-CV, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	서강대	B-OG	B-OG
+2	종교	O	O
+3	##학	O	O
+4	##과	O	O
+5	##를	O	O
+6	나온	O	O
+7	스님	B-CV	B-CV
+8	##은	O	O
+9	2006	B-DT	B-DT
+10	##년	I-DT	I-DT
+11	1	I-DT	I-DT
+12	##월	I-DT	I-DT
+13	전	O	I-DT
+14	조계종	B-OG	B-OG
+15	종	B-PS	B-CV
+16	##정	I-PS	I-CV
+17	법전	I-PS	B-PS
+18	##스	B-CV	B-CV
+19	##님	I-CV	I-CV
+20	##을	O	O
+21	은사	O	B-CV
+22	##로	O	O
+23	해인	B-AF	B-OG
+24	##사	I-AF	I-OG
+25	##에	O	O
+26	출가	O	O
+27	##했	O	O
+28	##다	O	O
+29	.	O	O
+30	[SEP]	O	O

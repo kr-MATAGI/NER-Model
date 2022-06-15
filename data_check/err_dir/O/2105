@@ -1,57 +1,51 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	보고서	O	O	O, B-OG, B-AF, B-CV, B-PS
-2	##는	O	O	O, B-OG, I-OG, B-CV, B-LC
-3	외국	O	O	O, B-LC, B-CV, B-OG, B-TM
-4	무장	B-CV	B-CV	B-CV, O, B-OG, B-AF, I-CV
-5	##대원	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-AF
-6	구성	O	O	O, I-CV, I-OG, B-LC, B-CV
-7	##에서	O	O	O, B-LC, B-PS, B-OG, B-TM
-8	미국	B-LC	B-LC	B-LC, O, B-OG, I-LC, B-AF
-9	등	O	O	O, B-LC, I-LC, B-PS, B-TM
-10	북미	B-LC	B-LC	B-LC, O, B-OG, I-LC, B-AF
-11	출신	O	O	O, I-LC, B-CV, I-AF, I-OG
-12	##은	O	O	O, B-PS, B-LC, B-OG, B-CV
-13	변화	O	O	O, B-LC, B-PS, B-OG, B-CV
-14	##가	O	O	O, B-PS, B-LC, B-OG, I-PS
-15	없	O	O	O, B-LC, B-CV, B-PS, B-OG
-16	##다고	O	O	O, B-LC, B-OG, B-PS, B-CV
-17	밝히	O	O	O, B-CV, B-LC, B-OG, B-PS
-18	##면서	O	O	O, B-LC, B-OG, B-CV, B-PS
-19	“	O	O	O, B-LC, B-CV, B-OG, B-PS
-20	미주	B-LC	B-LC	B-LC, O, B-OG, I-LC, B-AF
-21	대륙	O	I-LC	I-LC, O, B-LC, I-OG, I-AF
-22	##에서	O	O	O, I-LC, B-LC, B-PS, B-CV
-23	무장	B-CV	B-CV	B-CV, O, B-AF, B-OG, B-TM
-24	##대원	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-AF
-25	모집	O	O	O, I-CV, I-OG, I-EV, I-AF
-26	##은	O	O	O, B-LC, B-OG, B-CV, B-TM
-27	대부분	O	O	O, B-LC, B-TM, B-OG, B-CV
-28	소셜	O	O	O, B-TM, B-LC, B-QT, B-FD
-29	##미디어	O	O	O, I-TM, I-LC, B-TM, I-QT
-30	##에	O	O	O, B-CV, B-LC, B-TM, B-OG
-31	의존	O	O	O, B-LC, B-TM, B-CV, B-OG
-32	##하고	O	O	O, B-LC, B-OG, B-PS, B-CV
-33	,	O	O	O, B-CV, B-LC, B-OG, B-PS
-34	특히	O	O	O, B-CV, B-TM, B-LC, B-OG
-35	모집	O	O	O, B-TM, B-CV, B-LC, B-OG
-36	과정	O	O	O, B-TM, B-LC, B-CV, B-OG
-37	##의	O	O	O, B-LC, B-OG, B-PS, B-TM
-38	첫	O	O	O, B-QT, B-LC, B-TM, B-DT
-39	단계	O	O	O, I-QT, I-LC, I-TM, B-QT
-40	##는	O	O	O, B-LC, I-QT, B-CV, B-OG
-41	소셜	O	O	O, B-TM, B-LC, B-QT, B-CV
-42	##미디어	O	O	O, I-TM, I-LC, B-TM, I-QT
-43	##가	O	O	O, B-PS, B-LC, B-OG, B-CV
-44	절대	O	O	O, B-LC, B-CV, B-TM, B-OG
-45	##적	O	O	O, B-LC, B-PS, I-LC, B-TM
-46	역할	O	O	O, B-LC, B-CV, B-TM, B-OG
-47	##을	O	O	O, B-CV, B-OG, B-LC, B-PS
-48	한다	O	O	O, B-CV, B-LC, B-OG, B-TM
-49	”	O	O	O, B-CV, B-TM, B-LC, B-OG
-50	고	O	O	O, B-CV, B-LC, B-TM, B-OG
-51	말	O	O	O, B-CV, B-LC, B-OG, B-TM
-52	##했	O	O	O, B-LC, B-OG, B-CV, B-PS
-53	##다	O	O	O, B-CV, B-LC, B-OG, I-OG
-54	.	O	O	O, B-LC, B-CV, B-OG, B-PS
-55	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	검경	O	B-OG
+2	등	O	O
+3	사정	O	O
+4	##기	O	O
+5	##관	O	O
+6	##을	O	O
+7	총괄	O	O
+8	##하	O	O
+9	##는	O	O
+10	민정	B-CV	B-CV
+11	##수	I-CV	I-CV
+12	##석	I-CV	I-CV
+13	##이	O	O
+14	청와대	B-OG	B-OG
+15	##가	O	O
+16	있	O	O
+17	##는	O	O
+18	수도	B-LC	O
+19	서울	B-LC	B-LC
+20	##의	O	O
+21	경비	B-CV	O
+22	##와	O	O
+23	대통령	B-CV	B-CV
+24	경호	O	O
+25	##를	O	O
+26	관할	O	O
+27	##하	O	O
+28	##는	O	O
+29	서울	B-OG	B-OG
+30	##청	I-OG	I-OG
+31	경비	O	B-CV
+32	##부	O	I-CV
+33	##장	O	I-CV
+34	##을	O	O
+35	모른다	O	O
+36	##는	O	O
+37	것	O	O
+38	##은	O	O
+39	앞뒤	O	O
+40	##가	O	O
+41	맞	O	O
+42	##지	O	O
+43	않	O	O
+44	##는	O	O
+45	##다는	O	O
+46	것	O	O
+47	##이다	O	O
+48	.	O	O
+49	[SEP]	O	O

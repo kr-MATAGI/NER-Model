@@ -1,39 +1,49 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	크리스	B-TM	B-OG	B-OG, O, B-TR, B-TM, B-PS
-2	##퍼	I-TM	I-OG	I-OG, I-TR, O, I-TM, I-PS
-3	유전자	B-TR	B-TR	B-TR, I-TR, B-TM, O, I-TM
-4	가위	I-TR	I-TR	I-TR, O, B-TR, I-TM, I-QT
-5	##의	O	O	O, I-TR, I-EV, I-TM, I-OG
-6	사례	O	O	O, B-CV, B-LC, I-EV, I-TR
-7	##를	O	O	O, B-CV, B-PS, I-EV, B-LC
-8	보	O	O	O, B-PS, B-OG, B-CV, B-LC
-9	##듯	O	O	O, B-PS, I-EV, B-LC, I-OG
-10	,	O	O	O, B-CV, B-OG, B-LC, B-PS
-11	이제	O	O	O, B-CV, B-OG, B-PS, B-TM
-12	##는	O	O	O, B-CV, B-PS, B-LC, B-OG
-13	충분	O	O	O, B-LC, B-CV, B-PS, B-OG
-14	##한	O	O	O, B-LC, B-PS, B-OG, B-TM
-15	산업	O	O	O, B-CV, B-LC, B-FD, B-TM
-16	##적	O	O	O, I-LC, B-LC, B-PS, I-TR
-17	성과	O	O	O, B-CV, B-LC, B-PS, B-TM
-18	##를	O	O	O, B-CV, B-PS, B-LC, B-OG
-19	고려	O	O	O, B-CV, B-TM, B-LC, B-OG
-20	##하면	O	O	O, B-PS, B-CV, B-LC, B-OG
-21	##서	O	O	O, B-CV, B-PS, B-LC, B-OG
-22	##도	O	O	O, B-PS, B-CV, B-LC, B-OG
-23	노벨상	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-EV
-24	##을	O	O	O, I-CV, I-EV, B-CV, I-AF
-25	노릴	O	O	O, B-CV, B-TM, B-QT, B-PS
-26	수	O	O	O, B-PS, B-CV, B-QT, B-LC
-27	있	O	O	O, B-CV, B-PS, B-LC, B-QT
-28	##는	O	O	O, B-LC, B-CV, B-OG, B-PS
-29	연구	O	O	O, B-CV, B-FD, B-LC, B-TM
-30	분야	O	O	O, B-CV, I-OG, B-TM, B-LC
-31	##가	O	O	O, B-PS, B-CV, B-OG, B-LC
-32	늘	O	O	O, B-CV, B-OG, B-LC, B-TM
-33	##고	O	O	O, B-CV, B-PS, I-OG, B-LC
-34	있	O	O	O, B-CV, B-LC, B-PS, I-OG
-35	##다	O	O	O, B-CV, I-OG, B-LC, B-TM
-36	.	O	O	O, B-CV, B-LC, B-PS, B-OG
-37	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-FD
+	text	label	preds
+0	[CLS]	O	O
+1	위	B-AF	B-AF
+2	##닝	I-AF	I-AF
+3	##일레븐	I-AF	I-AF
+4	##은	O	O
+5	지금	O	O
+6	##까	O	O
+7	##지	O	O
+8	세계	O	O
+9	##적	O	O
+10	##으로	O	O
+11	7000	B-QT	B-QT
+12	##만	I-QT	I-QT
+13	장	I-QT	I-QT
+14	이상	I-QT	I-QT
+15	판매	O	O
+16	##된	O	O
+17	인기	O	O
+18	게임	O	O
+19	##으로	O	O
+20	일렉트로	B-OG	B-OG
+21	##닉	I-OG	I-OG
+22	##아	I-OG	I-OG
+23	##츠	I-OG	I-OG
+24	(	O	O
+25	EA	B-OG	B-OG
+26	)	O	O
+27	의	O	O
+28	‘	O	O
+29	피파	B-AF	B-AF
+30	(	O	O
+31	FIFA	O	B-AF
+32	)	O	O
+33	’	O	O
+34	시리즈	O	O
+35	##와	O	O
+36	함께	O	O
+37	세계	O	O
+38	축구	B-TM	B-TM
+39	##게임	I-TM	O
+40	시장	O	O
+41	##을	O	O
+42	양분	O	O
+43	##해	O	O
+44	##왔	O	O
+45	##다	O	O
+46	.	O	O
+47	[SEP]	O	O

@@ -1,18 +1,25 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	정	O	O	O, B-CV, B-PS, B-OG, B-FD
-2	하고	O	O	O, B-CV, I-CV, B-PS, B-OG
-3	싶	O	O	O, B-CV, B-PS, B-LC, B-TM
-4	##으면	O	O	O, B-CV, I-CV, B-PS, B-OG
-5	뭐	O	O	O, B-CV, B-PS, B-TM, B-OG
-6	팔뚝	B-AM	B-AM	B-AM, O, B-TM, B-TR, B-CV
-7	##에	O	O	O, I-QT, I-CV, I-AF, I-DT
-8	침	O	B-TM	B-TM, O, B-TR, B-AM, B-QT
-9	##이나	O	O	O, I-TM, I-TR, I-CV, I-QT
-10	이런	O	O	O, B-CV, B-TM, B-OG, B-LC
-11	##거나	O	O	O, I-QT, B-CV, B-QT, I-CV
-12	맞	O	O	O, B-CV, B-OG, B-LC, B-PS
-13	##으	O	O	O, B-CV, B-PS, B-OG, B-LC
-14	##래	O	O	O, B-CV, B-OG, B-LC, I-CV
-15	.	O	O	O, B-CV, B-OG, B-LC, B-TM
-16	[SEP]	O	O	O, B-CV, B-LC, B-QT, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	[	O	O
+2	‘	O	O
+3	따뜻	O	O
+4	##한	O	O
+5	시장	O	O
+6	##경제	O	O
+7	##의	O	O
+8	모델	O	O
+9	’	O	O
+10	협동조합	O	O
+11	##이	O	O
+12	뜬다	O	O
+13	]	O	O
+14	<	O	O
+15	中	O	B-LC
+16	>	O	O
+17	소비자	B-CV	B-CV
+18	친화	O	O
+19	##적	O	O
+20	##인	O	O
+21	생	B-OG	O
+22	##협	I-OG	O
+23	[SEP]	O	O

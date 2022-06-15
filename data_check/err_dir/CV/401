@@ -1,12 +1,53 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, I-OG, B-CV, I-AF
-1	정치	O	O	O, B-TR, B-FD, B-CV, B-PS
-2	##적	O	O	O, I-TR, I-PS, B-PS, I-CV
-3	메시아	B-CV	O	O, B-PS, B-CV, B-QT, B-TR
-4	##로	O	O	O, I-PS, I-CV, I-QT, I-TR
-5	보	O	O	O, B-PS, B-CV, B-OG, I-PS
-6	##지	O	O	O, B-PS, I-OG, B-CV, I-CV
-7	않	O	O	O, B-PS, B-CV, B-LC, B-OG
-8	##는	O	O	O, B-PS, I-OG, B-CV, B-LC
-9	겁니까	O	O	O, B-PS, B-CV, B-LC, I-OG
-10	[SEP]	O	O	O, B-CV, B-PS, B-LC, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	셰프	B-CV	B-CV
+2	##의	O	O
+3	특별	O	O
+4	창작	O	O
+5	##스	B-CV	O
+6	##시	I-CV	O
+7	##인	O	O
+8	덴	B-CV	B-AF
+9	##스	I-CV	I-AF
+10	##시	I-CV	I-AF
+11	##를	O	O
+12	비롯	O	O
+13	##해	O	O
+14	평소	O	O
+15	##에	O	O
+16	##는	O	O
+17	비싸	O	O
+18	##서	O	O
+19	엄두	O	O
+20	##를	O	O
+21	못	O	O
+22	냈	O	O
+23	##던	O	O
+24	요리	O	O
+25	##들	O	O
+26	##을	O	O
+27	합리	O	O
+28	##적	O	O
+29	##인	O	O
+30	가격	O	O
+31	##에	O	O
+32	한꺼번에	O	O
+33	즐길	O	O
+34	수	O	O
+35	있	O	O
+36	##다는	O	O
+37	것	O	O
+38	##과	O	O
+39	가족	B-CV	B-CV
+40	##이	O	O
+41	함께	O	O
+42	할	O	O
+43	수	O	O
+44	있	O	O
+45	##다는	O	O
+46	것	O	O
+47	##이	O	O
+48	장점	O	O
+49	##이다	O	O
+50	.	O	O
+51	[SEP]	O	O

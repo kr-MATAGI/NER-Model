@@ -1,37 +1,47 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-EV, B-CV, I-CV, I-OG
-1	이	B-PS	O	O, B-PS, B-LC, B-OG, B-EV
-2	##에	O	O	O, B-PS, I-PS, B-CV, I-EV
-3	이	O	B-PS	B-PS, O, I-PS, B-LC, B-OG
-4	시장	B-CV	B-CV	B-CV, O, I-PS, I-CV, B-EV
-5	##은	O	O	O, I-CV, B-PS, I-EV, I-PS
-6	“	O	O	O, B-PS, B-CV, B-LC, I-CV
-7	국회	B-OG	B-OG	B-OG, O, B-AF, B-CV, B-PS
-8	##가	O	O	O, B-PS, I-OG, I-PS, I-EV
-9	다수당	O	O	O, B-OG, B-CV, B-PS, I-OG
-10	등원	O	O	O, B-PS, B-CV, B-EV, I-EV
-11	거부	O	O	O, B-PS, B-CV, I-EV, B-LC
-12	같	O	O	O, B-PS, B-LC, B-CV, I-PS
-13	##은	O	O	O, B-PS, B-LC, B-CV, I-PS
-14	상식	O	O	O, B-PS, B-CV, I-PS, B-FD
-15	밖	O	O	O, B-PS, B-CV, I-PS, I-CV
-16	##의	O	O	O, B-PS, B-CV, I-PS, B-QT
-17	일	O	O	O, B-PS, B-CV, I-PS, B-LC
-18	##을	O	O	O, B-PS, B-CV, I-PS, B-LC
-19	하	O	O	O, B-PS, I-PS, B-CV, B-LC
-20	##던	O	O	O, B-PS, I-PS, B-CV, B-LC
-21	##가요	O	O	O, B-PS, I-PS, B-CV, I-EV
-22	?	O	O	O, B-PS, I-PS, B-CV, B-LC
-23	”	O	O	O, B-PS, B-CV, B-LC, I-EV
-24	라고	O	O	O, B-PS, B-CV, B-LC, B-QT
-25	재	O	O	O, B-PS, B-CV, B-TR, B-LC
-26	##반	O	O	O, B-PS, I-PS, I-CV, B-CV
-27	##박	O	O	O, B-PS, I-PS, B-CV, I-CV
-28	##하면	O	O	O, B-PS, I-PS, B-CV, B-LC
-29	##서	O	O	O, B-PS, B-CV, I-PS, B-LC
-30	논란	O	O	O, B-CV, B-PS, B-EV, B-TM
-31	##이	O	O	O, B-PS, B-OG, B-CV, B-LC
-32	커졌	O	O	O, B-CV, B-PS, I-EV, B-QT
-33	##다	O	O	O, B-CV, B-PS, I-EV, B-QT
-34	.	O	O	O, B-PS, B-CV, B-LC, I-EV
-35	[SEP]	O	O	O, B-PS, B-CV, I-EV, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	팔	B-LC	B-LC
+2	##당	I-LC	I-LC
+3	##호	I-LC	I-LC
+4	##반	I-LC	I-LC
+5	조	B-LC	B-LC
+6	##안	I-LC	I-LC
+7	##면	I-LC	I-LC
+8	능	B-LC	B-LC
+9	##내리	I-LC	I-LC
+10	##에	O	O
+11	##는	O	O
+12	대표	O	O
+13	##적	O	O
+14	##인	O	O
+15	실학	B-CV	B-CV
+16	##자	I-CV	I-CV
+17	##인	O	O
+18	다산	B-PS	B-PS
+19	(	I-PS	O
+20	茶	I-PS	O
+21	山	I-PS	O
+22	)	I-PS	O
+23	정약용	I-PS	B-PS
+24	(	O	O
+25	丁	O	O
+26	若	O	O
+27	[UNK]	O	O
+28	)	O	O
+29	선생	B-CV	B-CV
+30	##이	O	O
+31	살	O	O
+32	##았	O	O
+33	##던	O	O
+34	'	O	O
+35	다산	B-PS	B-PS
+36	유적지	O	O
+37	'	O	O
+38	가	O	O
+39	자리	O	O
+40	##잡	O	O
+41	##고	O	O
+42	있	O	O
+43	##다	O	O
+44	.	O	O
+45	[SEP]	O	O

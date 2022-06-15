@@ -1,16 +1,32 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-EV
-1	중기	O	O	O, B-OG, B-CV, B-TM, B-PS
-2	##육	O	O	O, I-OG, I-CV, I-TM, I-AF
-3	##성	O	O	O, I-OG, I-CV, I-TM, I-AF
-4	·	O	O	O, I-OG, I-CV, I-AF, B-PS
-5	4	B-QT	B-EV	B-EV, B-QT, B-TR, B-TM, O
-6	##차	I-QT	I-EV	I-EV, I-QT, I-TR, I-TM, O
-7	##산업	B-EV	I-EV	I-EV, I-QT, I-TR, I-TM, O
-8	##혁명	I-EV	I-EV	I-EV, I-QT, I-TR, I-TM, O
-9	·	O	O	O, I-EV, I-QT, I-TM, I-AF
-10	규제	O	O	O, B-CV, B-TM, B-TR, B-OG
-11	##완	O	O	O, I-CV, I-TM, I-TR, I-AF
-12	##화	O	O	O, I-CV, I-TM, I-TR, I-OG
-13	등	O	O	O, I-CV, I-OG, I-AF, B-PS
-14	[SEP]	O	O	O, B-CV, B-LC, I-CV, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	기자	B-CV	B-CV
+2	##는	O	O
+3	인터뷰	O	O
+4	##가	O	O
+5	시작	O	O
+6	##될	O	O
+7	때	O	O
+8	##마	O	O
+9	##다	O	O
+10	""""	O	O
+11	강의	O	O
+12	1	B-QT	B-QT
+13	·	O	I-QT
+14	2	B-QT	I-QT
+15	·	O	I-QT
+16	3	B-QT	I-QT
+17	…	O	O
+18	""""	O	O
+19	이라	O	O
+20	##고	O	O
+21	번호	O	O
+22	##를	O	O
+23	붙이	O	O
+24	##는	O	O
+25	농담	O	O
+26	##을	O	O
+27	건넸	O	O
+28	##다	O	O
+29	.	O	O
+30	[SEP]	O	O

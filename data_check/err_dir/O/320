@@ -1,33 +1,63 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	정치	B-CV	B-CV	B-CV, O, B-OG, I-CV, B-AF
-2	##자	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-AF
-3	##금	I-CV	I-CV	I-CV, O, I-OG, B-CV, I-TM
-4	##법	I-CV	I-CV	I-CV, O, I-OG, B-CV, I-TM
-5	##상	O	O	O, I-CV, I-OG, B-CV, B-PS
-6	피	O	B-CV	B-CV, O, I-CV, B-TM, B-AM
-7	##선거	B-CV	I-CV	I-CV, O, B-CV, I-TM, I-TR
-8	##권	I-CV	I-CV	I-CV, O, B-CV, I-TM, I-TR
-9	박탈	O	O	O, I-CV, B-CV, I-TM, I-AF
-10	및	O	O	O, I-CV, B-PS, B-LC, B-QT
-11	당연	O	O	O, B-CV, I-CV, B-PS, B-FD
-12	##퇴직	O	O	O, I-CV, B-CV, B-PS, I-TR
-13	대상	O	O	O, B-CV, I-CV, B-QT, B-PS
-14	##이	O	O	O, B-PS, B-CV, B-OG, B-LC
-15	되	O	O	O, B-CV, B-QT, B-TM, B-OG
-16	##는	O	O	O, B-CV, B-LC, B-QT, B-OG
-17	'	O	O	O, B-CV, B-LC, B-OG, B-QT
-18	벌금	B-CV	B-CV	B-CV, O, B-TM, I-CV, B-AF
-19	100	B-QT	B-QT	B-QT, I-QT, I-CV, B-DT, O
-20	##만	I-QT	I-QT	I-QT, O, I-CV, I-LC, I-PS
-21	##원	I-QT	I-QT	I-QT, O, I-LC, I-PS, I-AF
-22	이상	I-QT	I-QT	I-QT, O, I-LC, I-PS, I-AF
-23	'	O	O	O, I-QT, B-CV, I-CV, I-AF
-24	보다	O	O	O, B-CV, I-QT, B-TM, B-OG
-25	한참	O	O	O, B-CV, B-TM, B-LC, B-QT
-26	높	O	O	O, B-CV, B-QT, B-TM, B-LC
-27	##은	O	O	O, B-CV, B-PS, B-LC, B-OG
-28	형량	O	O	O, B-CV, B-PS, I-CV, B-QT
-29	##이다	O	O	O, B-CV, I-CV, B-TM, I-QT
-30	.	O	O	O, B-CV, B-LC, I-CV, B-PS
-31	[SEP]	O	O	O, B-CV, B-LC, I-CV, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	새	B-OG	B-OG
+2	##정	I-OG	I-OG
+3	##치	I-OG	I-OG
+4	##민주	I-OG	I-OG
+5	##연합	I-OG	I-OG
+6	##의	O	O
+7	공천	O	O
+8	혁신안	O	O
+9	처리	O	O
+10	##를	O	O
+11	위한	O	O
+12	중앙	O	B-OG
+13	##위원회	O	I-OG
+14	개최	O	O
+15	여부	O	O
+16	##를	O	O
+17	두고	O	O
+18	첨예	O	O
+19	##하	O	O
+20	##게	O	O
+21	각	O	O
+22	##을	O	O
+23	세워	O	O
+24	##왔	O	O
+25	##던	O	O
+26	문재인	B-PS	B-PS
+27	대표	B-CV	B-CV
+28	##와	O	O
+29	안철수	B-PS	B-PS
+30	의원	B-CV	B-CV
+31	##이	O	O
+32	15	B-DT	B-DT
+33	##일	I-DT	I-DT
+34	철	O	O
+35	##통	O	O
+36	보안	O	O
+37	속	O	O
+38	##에	O	O
+39	배석	O	O
+40	##자	O	O
+41	없이	O	O
+42	단	O	O
+43	##둘	O	B-QT
+44	##이	O	O
+45	만나	O	O
+46	담판	O	O
+47	##을	O	O
+48	시도	O	O
+49	##했	O	O
+50	##으나	O	O
+51	가시	O	O
+52	##적	O	O
+53	합의	O	O
+54	##에	O	O
+55	이르지	O	O
+56	##는	O	O
+57	못	O	O
+58	##했	O	O
+59	##다	O	O
+60	.	O	O
+61	[SEP]	O	O

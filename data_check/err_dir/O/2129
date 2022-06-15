@@ -1,25 +1,33 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-EV, B-CV, I-OG, I-CV
-1	소포	O	B-AF	B-AF, O, B-EV, B-TM, B-CV
-2	폭탄	B-AF	I-AF	I-AF, I-EV, O, B-AF, I-TM
-3	##은	O	O	O, I-AF, I-EV, I-QT, I-CV
-4	테러	O	O	O, B-CV, B-EV, B-PS, B-FD
-5	##의	O	O	O, I-EV, B-PS, I-OG, I-AF
-6	주체	O	O	O, B-CV, B-OG, B-PS, B-LC
-7	##와	O	O	O, B-PS, B-OG, B-LC, I-OG
-8	기법	O	O	O, B-CV, B-LC, B-PS, B-OG
-9	##에서	O	O	O, B-PS, B-LC, B-OG, B-CV
-10	고정	O	O	O, B-CV, B-PS, B-LC, B-OG
-11	##관	O	O	O, B-CV, B-PS, I-CV, B-LC
-12	##념	O	O	O, I-CV, B-CV, B-PS, I-TR
-13	##을	O	O	O, B-CV, B-PS, B-LC, B-OG
-14	뛰어넘	O	O	O, B-CV, B-LC, B-PS, B-OG
-15	##는	O	O	O, B-LC, B-OG, B-PS, B-CV
-16	새로운	O	O	O, B-CV, B-PS, B-QT, B-LC
-17	패러다임	O	O	O, B-CV, B-PS, B-TR, B-QT
-18	##을	O	O	O, B-CV, B-PS, I-EV, I-QT
-19	보여준	O	O	O, B-CV, B-EV, B-PS, B-QT
-20	사건	O	O	O, B-EV, I-EV, B-CV, B-FD
-21	##이다	O	O	O, I-EV, B-CV, B-EV, I-QT
-22	.	O	O	O, B-PS, B-CV, B-LC, I-EV
-23	[SEP]	O	O	O, B-CV, B-PS, B-LC, I-EV
+	text	label	preds
+0	[CLS]	O	O
+1	바	B-PS	B-PS
+2	##냐	I-PS	I-PS
+3	##의	O	O
+4	조카	B-CV	B-CV
+5	##딸	I-CV	I-CV
+6	소	B-PS	B-PS
+7	##냐	I-PS	I-PS
+8	(	O	O
+9	김지	B-PS	B-PS
+10	##성	I-PS	I-PS
+11	)	O	O
+12	가	O	O
+13	짝사랑	O	O
+14	##하	O	O
+15	##는	O	O
+16	시골	O	B-CV
+17	##의사	B-CV	I-CV
+18	아스	B-PS	B-PS
+19	##트로	I-PS	I-PS
+20	##프	I-PS	I-PS
+21	(	O	O
+22	김수현	B-PS	B-PS
+23	)	O	O
+24	역시	O	O
+25	옐	B-PS	B-PS
+26	##레나	I-PS	I-PS
+27	##를	O	O
+28	사랑	O	O
+29	##한다	O	O
+30	.	O	O
+31	[SEP]	O	O

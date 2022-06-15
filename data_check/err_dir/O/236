@@ -1,53 +1,10 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-QT
-1	퇴직	O	O	O, B-CV, B-TM, B-QT, I-CV
-2	##은	O	O	O, B-PS, B-CV, I-CV, B-TM
-3	했	O	O	O, B-CV, B-TM, B-PS, B-LC
-4	##지만	O	O	O, B-CV, I-CV, B-QT, B-TM
-5	연금	O	B-CV	B-CV, O, I-CV, B-TM, B-AF
-6	(	O	O	O, I-CV, B-CV, I-QT, B-QT
-7	국민	B-CV	B-CV	B-CV, O, B-OG, B-AF, I-CV
-8	##연금	I-CV	I-CV	I-CV, O, I-OG, I-AF, B-CV
-9	,	O	O	O, I-CV, I-OG, I-AF, I-QT
-10	사학	B-CV	B-CV	B-CV, O, B-AF, B-OG, B-TM
-11	##연금	I-CV	I-CV	I-CV, O, I-OG, I-AF, B-CV
-12	,	O	O	O, I-CV, I-AF, I-OG, I-QT
-13	군인	B-CV	B-CV	B-CV, O, B-OG, B-AF, I-CV
-14	##연금	I-CV	I-CV	I-CV, O, I-OG, I-AF, B-CV
-15	,	O	O	O, I-CV, I-AF, I-OG, I-QT
-16	기초	B-CV	B-CV	B-CV, O, B-AF, B-OG, B-TM
-17	##노	I-CV	I-CV	I-CV, O, B-CV, I-AF, I-OG
-18	##령	I-CV	I-CV	I-CV, O, I-OG, I-AF, B-CV
-19	##연금	I-CV	I-CV	I-CV, O, I-OG, I-AF, B-CV
-20	,	O	O	O, I-CV, I-AF, I-OG, I-QT
-21	개인	O	B-CV	B-CV, O, B-AF, B-OG, B-TM
-22	##연금	O	I-CV	I-CV, O, I-AF, I-OG, B-CV
-23	등	O	O	O, I-CV, I-AF, I-OG, I-QT
-24	포함	O	O	O, B-CV, B-TM, B-OG, B-LC
-25	)	O	O	O, B-CV, B-LC, B-OG, B-TM
-26	을	O	O	O, B-CV, B-PS, B-LC, B-TM
-27	받	O	O	O, B-CV, B-PS, B-TM, B-OG
-28	##는	O	O	O, B-CV, B-PS, B-TM, B-QT
-29	사람	O	O	O, B-CV, B-TM, B-QT, B-PS
-30	##이	O	O	O, B-PS, B-CV, B-TM, B-LC
-31	적	O	O	O, B-CV, B-TM, B-QT, B-PS
-32	##어	O	O	O, I-QT, B-LC, I-TM, I-OG
-33	,	O	O	O, B-CV, B-LC, B-TM, B-OG
-34	노인	O	O	O, B-CV, B-TM, B-QT, B-FD
-35	2	B-QT	B-QT	B-QT, I-QT, O, B-PS, B-DT
-36	##명	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-37	중	O	O	O, I-QT, B-TM, B-QT, B-PS
-38	1	B-QT	B-QT	B-QT, I-QT, O, B-DT, B-PS
-39	##명	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-40	##은	O	O	O, I-QT, B-TM, B-CV, B-PS
-41	일	O	O	O, B-TM, B-CV, B-LC, B-QT
-42	##을	O	O	O, B-CV, B-PS, I-QT, I-CV
-43	하고	O	O	O, B-QT, B-CV, B-TM, B-LC
-44	있	O	O	O, B-CV, B-TM, I-QT, B-PS
-45	##는	O	O	O, B-TM, B-CV, I-QT, B-PS
-46	것	O	O	O, B-CV, B-TM, B-PS, B-QT
-47	##으로	O	O	O, I-QT, B-CV, B-TM, I-OG
-48	나타났	O	O	O, B-CV, B-TM, B-LC, B-PS
-49	##다	O	O	O, B-CV, B-TM, I-QT, I-CV
-50	.	O	O	O, B-CV, B-LC, B-TM, B-PS
-51	[SEP]	O	O	O, B-CV, B-TM, B-LC, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	그	O	O
+2	##들	O	O
+3	##에	O	O
+4	경험	O	O
+5	##이	O	O
+6	역사	O	B-FD
+7	##는	O	O
+8	[SEP]	O	O

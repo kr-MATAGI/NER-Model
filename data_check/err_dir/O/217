@@ -1,62 +1,12 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	서울	B-OG	B-OG	B-OG, B-LC, O, B-AF, B-EV
-2	##중	I-OG	I-OG	I-OG, O, B-OG, I-LC, I-EV
-3	##앙	I-OG	I-OG	I-OG, O, I-LC, B-OG, I-EV
-4	##지	I-OG	I-OG	I-OG, O, B-OG, I-LC, I-EV
-5	##검	I-OG	I-OG	I-OG, O, I-LC, B-OG, I-EV
-6	특수	O	O	O, I-OG, B-TM, B-QT, B-LC
-7	##2	O	O	O, B-QT, I-QT, B-TM, I-OG
-8	##부	O	O	O, I-QT, B-QT, I-OG, I-LC
-9	(	O	O	O, B-OG, I-QT, B-CV, I-OG
-10	부장	B-CV	B-CV	B-CV, O, B-OG, B-TM, B-AF
-11	권오	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-12	##성	I-PS	I-PS	I-PS, O, I-OG, I-LC, I-QT
-13	)	O	O	O, I-PS, I-OG, B-OG, B-CV
-14	는	O	O	O, B-OG, B-LC, B-CV, B-PS
-15	곽	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
-16	전	O	O	O, I-PS, I-OG, I-AF, B-CV
-17	사장	B-CV	B-CV	B-CV, O, B-OG, B-TM, I-CV
-18	##이	O	O	O, I-CV, B-PS, B-CV, I-EV
-19	대한	B-OG	B-OG	B-OG, O, B-LC, B-PS, B-AF
-20	##통	I-OG	I-OG	I-OG, O, B-OG, I-LC, I-AF
-21	##운	I-OG	I-OG	I-OG, O, I-LC, I-AF, B-OG
-22	##에	O	O	O, I-OG, I-AF, B-CV, I-CV
-23	재직	O	O	O, B-CV, B-TM, B-LC, B-OG
-24	##하	O	O	O, B-PS, B-LC, B-OG, B-CV
-25	##던	O	O	O, B-PS, B-LC, B-CV, B-OG
-26	1999	B-DT	B-DT	B-DT, I-DT, O, B-QT, B-OG
-27	~	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-28	2005	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-29	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-OG
-30	사이	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-OG
-31	##에	O	O	O, I-DT, B-CV, B-OG, I-QT
-32	83	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-LC
-33	##억	I-QT	I-QT	I-QT, O, I-LC, I-PS, I-DT
-34	##원	I-QT	I-QT	I-QT, O, I-LC, I-PS, I-OG
-35	##의	O	O	O, I-QT, B-PS, B-CV, B-OG
-36	비자금	O	O	O, B-TM, B-CV, B-LC, B-AF
-37	##을	O	O	O, B-CV, I-CV, B-PS, B-OG
-38	조성	O	O	O, B-CV, B-PS, B-OG, B-LC
-39	##한	O	O	O, B-PS, B-LC, B-OG, B-CV
-40	사실	O	O	O, B-CV, B-LC, B-PS, B-OG
-41	##을	O	O	O, B-CV, B-OG, B-PS, B-LC
-42	밝혀내	O	O	O, B-LC, B-CV, B-OG, B-PS
-43	##고	O	O	O, B-OG, B-LC, B-PS, B-CV
-44	,	O	O	O, B-OG, B-LC, B-CV, B-PS
-45	지난달	B-DT	B-DT	B-DT, I-DT, O, B-QT, B-OG
-46	24	I-DT	I-DT	I-DT, O, B-DT, I-PS, I-QT
-47	##일	I-DT	I-DT	I-DT, O, B-DT, I-PS, I-QT
-48	곽	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-49	전	O	O	O, I-PS, I-OG, B-CV, I-AF
-50	사장	B-CV	B-CV	B-CV, O, B-TM, I-CV, B-OG
-51	##을	O	O	O, I-CV, B-CV, I-EV, I-AF
-52	구속	O	B-CV	B-CV, O, B-TM, B-AF, B-OG
-53	##기	O	I-CV	I-CV, O, B-CV, I-TM, I-OG
-54	##소	O	I-CV	I-CV, O, B-CV, I-OG, I-TM
-55	##한	O	O	O, I-CV, I-OG, B-PS, B-OG
-56	바	O	O	O, B-OG, B-LC, B-CV, B-TM
-57	있	O	O	O, B-OG, B-LC, B-CV, B-TM
-58	##다	O	O	O, B-CV, B-LC, B-OG, I-OG
-59	.	O	O	O, B-LC, B-OG, B-PS, B-CV
-60	[SEP]	O	O	O, B-LC, B-OG, B-CV, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	재벌	O	B-CV
+2	##이	O	O
+3	아니	O	O
+4	##라	O	O
+5	특정	O	O
+6	집단	O	O
+7	##이	O	O
+8	아니	O	O
+9	##라	O	O
+10	[SEP]	O	O

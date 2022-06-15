@@ -1,45 +1,48 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-AF
-1	케이티	B-AF	B-AF	B-AF, B-OG, O, B-TM, B-LC
-2	##엑스	I-AF	I-AF	I-AF, I-OG, O, B-AF, I-TM
-3	(	O	O	O, I-AF, I-OG, I-EV, B-CV
-4	KTX	B-AF	B-AF	B-AF, O, I-AF, B-OG, B-TM
-5	)	O	O	O, I-AF, I-OG, I-EV, I-TM
-6	등	O	O	O, B-LC, B-AF, B-CV, B-TM
-7	열차	O	O	O, B-AF, B-LC, I-AF, B-CV
-8	##는	O	O	O, I-AF, B-CV, I-OG, B-LC
-9	5	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-LC
-10	##월	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-11	한	B-DT	B-DT	B-DT, I-DT, O, B-QT, B-LC
-12	##달	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-AF
-13	##간	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-14	가족	O	B-CV	B-CV, O, B-TM, B-AF, I-CV
-15	##관계	O	O	O, I-CV, I-AF, I-TM, B-CV
-16	##증	O	O	O, I-CV, B-CV, I-AF, I-TM
-17	##명	O	O	O, I-CV, I-TM, I-AF, B-CV
-18	##서	O	O	O, I-CV, I-TM, I-AF, B-CV
-19	등	O	O	O, B-LC, B-PS, B-CV, B-TM
-20	##을	O	O	O, B-CV, B-LC, B-PS, B-OG
-21	제출	O	O	O, B-CV, B-LC, B-PS, B-OG
-22	##한	O	O	O, B-PS, B-LC, B-CV, B-OG
-23	3	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-PS
-24	##인	I-QT	I-QT	I-QT, O, I-LC, I-PS, I-EV
-25	이상	I-QT	I-QT	I-QT, O, I-LC, I-PS, I-DT
-26	가족	B-CV	B-CV	B-CV, O, I-QT, I-CV, B-OG
-27	##이	O	O	O, I-CV, B-PS, B-CV, I-QT
-28	함께	O	O	O, B-CV, B-LC, B-QT, B-TM
-29	이용	O	O	O, B-AF, B-CV, B-LC, B-TM
-30	##하면	O	O	O, B-LC, B-CV, I-AF, B-OG
-31	운임	O	O	O, B-CV, B-TM, B-QT, B-LC
-32	20	B-QT	B-QT	B-QT, I-QT, O, B-DT, B-LC
-33	%	I-QT	I-QT	I-QT, O, I-LC, I-PS, I-DT
-34	를	O	O	O, I-QT, I-OG, B-CV, I-AF
-35	할인	O	O	O, B-CV, B-TM, B-QT, B-OG
-36	##해	O	O	O, B-PS, I-QT, I-CV, B-LC
-37	##주	O	O	O, B-CV, B-PS, B-LC, B-TM
-38	##기	O	O	O, B-OG, B-PS, B-CV, B-LC
-39	##로	O	O	O, I-OG, B-OG, B-CV, B-PS
-40	했	O	O	O, B-CV, B-OG, B-LC, B-PS
-41	##다	O	O	O, B-CV, B-LC, B-OG, I-OG
-42	.	O	O	O, B-LC, B-AF, B-OG, B-PS
-43	[SEP]	O	O	O, B-LC, B-CV, B-AF, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	하지	O	O
+2	##만	O	O
+3	이	O	O
+4	##를	O	O
+5	‘	O	O
+6	광부	B-EV	B-CV
+7	난동	I-EV	O
+8	##사건	I-EV	O
+9	’	O	O
+10	으로	O	O
+11	규정	O	O
+12	##한	O	O
+13	계엄	B-OG	B-OG
+14	##사	I-OG	I-OG
+15	##령	I-OG	I-OG
+16	##부	I-OG	I-OG
+17	산하	O	O
+18	합동	O	B-OG
+19	##수사	O	I-OG
+20	##단	O	I-OG
+21	##은	O	O
+22	4	B-DT	B-OG
+23	·	I-DT	I-OG
+24	24	I-DT	I-OG
+25	합의	O	I-OG
+26	##를	O	O
+27	깨	O	O
+28	##고	O	O
+29	불법	O	O
+30	연행	O	O
+31	##과	O	O
+32	무자비	O	O
+33	##한	O	O
+34	고문	O	O
+35	수사	O	O
+36	끝	O	O
+37	##에	O	O
+38	31	B-QT	B-QT
+39	##명	I-QT	I-QT
+40	##을	O	O
+41	구속	O	B-CV
+42	기소	O	I-CV
+43	##했	O	O
+44	##다	O	O
+45	.	O	O
+46	[SEP]	O	O

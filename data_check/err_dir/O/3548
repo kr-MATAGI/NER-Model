@@ -1,33 +1,25 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	탄도	B-AF	B-AF	B-AF, O, I-AF, B-TM, B-EV
-2	##미사	I-AF	I-AF	I-AF, B-AF, O, I-EV, I-TM
-3	##일	I-AF	I-AF	I-AF, O, I-EV, B-AF, I-TM
-4	중	O	O	O, I-AF, I-EV, I-OG, I-TM
-5	##에	O	O	O, I-AF, B-CV, B-LC, B-PS
-6	##는	O	O	O, B-LC, B-CV, I-AF, B-TM
-7	2	B-QT	B-QT	B-QT, O, I-QT, B-EV, B-DT
-8	##단	I-QT	I-QT	I-QT, O, I-EV, I-OG, I-LC
-9	##에	O	O	O, I-QT, I-AF, I-EV, I-OG
-10	핵	O	B-AF	B-AF, O, I-AF, B-MT, B-TM
-11	##탄두	O	I-AF	I-AF, O, B-AF, I-TM, I-QT
-12	##를	O	O	O, I-AF, I-TM, I-OG, I-EV
-13	비롯	O	O	O, B-CV, B-TM, I-AF, B-LC
-14	##한	O	O	O, B-LC, B-PS, B-OG, B-TM
-15	폭발물	O	O	O, B-CV, B-TM, B-AF, B-MT
-16	##을	O	O	O, B-CV, I-AF, B-LC, I-CV
-17	탑재	O	O	O, B-CV, B-LC, B-TM, B-AF
-18	##해	O	O	O, B-LC, B-PS, B-CV, B-TM
-19	바로	O	O	O, B-LC, B-TM, B-QT, B-CV
-20	목표	O	O	O, B-LC, B-CV, B-TM, B-AF
-21	지점	O	O	O, B-LC, I-LC, B-CV, B-TM
-22	##에	O	O	O, B-LC, B-CV, B-TM, B-PS
-23	떨어지	O	O	O, B-CV, B-TM, B-LC, B-AF
-24	##는	O	O	O, B-LC, B-CV, I-AF, B-AF
-25	것	O	O	O, B-AF, B-CV, B-LC, I-AF
-26	##도	O	O	O, I-AF, B-LC, B-CV, B-QT
-27	있	O	O	O, B-QT, B-PS, B-AF, B-LC
-28	##다는	O	O	O, I-QT, I-AF, B-QT, B-PS
-29	것	O	O	O, B-TM, B-CV, B-OG, I-QT
-30	.	O	O	O, B-LC, B-AF, B-CV, I-AF
-31	[SEP]	O	O	O, B-CV, B-LC, B-AF, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	고려대	B-OG	B-OG
+2	##는	O	O
+3	유학생	B-CV	B-CV
+4	인프라	O	O
+5	확충	O	O
+6	##을	O	O
+7	이유로	O	O
+8	올해	B-DT	B-DT
+9	입학	O	O
+10	##하	O	O
+11	##는	O	O
+12	외국인	O	B-CV
+13	유학생	B-CV	B-CV
+14	##의	O	O
+15	등록금	O	O
+16	##을	O	O
+17	오	B-QT	B-QT
+18	퍼센트	I-QT	I-QT
+19	올렸	O	O
+20	##습	O	O
+21	##니다	O	O
+22	.	O	O
+23	[SEP]	O	O

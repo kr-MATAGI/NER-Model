@@ -1,27 +1,43 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-QT
-1	안	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
-2	부시장	B-CV	B-CV	B-CV, O, I-PS, I-CV, B-OG
-3	##은	O	O	O, I-CV, B-CV, I-OG, I-EV
-4	경기도	B-LC	B-LC	B-LC, B-OG, O, B-PS, B-AF
-5	대중교통	B-CV	B-CV	B-CV, O, B-OG, I-CV, B-FD
-6	##과	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-QT
-7	##장	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-QT
-8	##과	O	O	O, I-CV, I-OG, B-PS, I-QT
-9	경기도	B-OG	B-OG	B-OG, O, B-LC, B-AF, I-OG
-10	##의회	I-OG	I-OG	I-OG, O, B-OG, I-AF, I-LC
-11	##사	O	I-OG	I-OG, O, B-OG, I-AF, I-LC
-12	##무	O	I-OG	I-OG, O, I-AF, B-OG, I-LC
-13	##처	O	I-OG	I-OG, O, I-AF, I-LC, I-EV
-14	문화	B-CV	B-CV	B-CV, O, B-OG, B-FD, I-CV
-15	##공	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-QT
-16	##보	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-QT
-17	##전	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-QT
-18	##문	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-QT
-19	##위원	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-QT
-20	등	O	O	O, I-CV, B-CV, I-QT, I-OG
-21	##을	O	O	O, B-CV, B-PS, B-QT, I-CV
-22	지냈	O	O	O, B-CV, B-PS, B-OG, B-LC
-23	##다	O	O	O, B-CV, B-PS, B-LC, I-OG
-24	.	O	O	O, B-OG, B-PS, B-LC, B-CV
-25	[SEP]	O	O	O, B-CV, B-OG, I-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	두	B-QT	B-QT
+2	당	I-QT	I-QT
+3	##이	O	O
+4	이달	B-DT	B-DT
+5	안	I-DT	I-DT
+6	##으로	O	O
+7	출범	O	O
+8	##시	O	O
+9	##키	O	O
+10	##기	O	O
+11	##로	O	O
+12	했	O	O
+13	##던	O	O
+14	‘	O	O
+15	진보	B-TR	B-OG
+16	##대	O	I-OG
+17	##통	O	I-OG
+18	##합	O	I-OG
+19	##과	O	I-OG
+20	새로운	O	I-OG
+21	진보	B-TR	I-OG
+22	##정	O	I-OG
+23	##당	O	I-OG
+24	건설	O	I-OG
+25	##을	O	I-OG
+26	위한	O	I-OG
+27	진보	B-TR	I-OG
+28	##진	O	I-OG
+29	##영	O	I-OG
+30	대표자	B-CV	I-OG
+31	연석회의	O	I-OG
+32	’	O	O
+33	의	O	O
+34	연내	O	O
+35	구성	O	O
+36	##이	O	O
+37	어려워진	O	O
+38	탓	O	O
+39	##이다	O	O
+40	.	O	O
+41	[SEP]	O	O

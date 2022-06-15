@@ -1,31 +1,38 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-EV, I-OG, I-CV, I-AF
-1	‘	O	O	O, B-EV, B-LC, B-OG, B-AF
-2	반고	B-AF	B-PS	B-PS, B-EV, B-AF, B-OG, B-LC
-3	##흐	I-AF	I-EV	I-EV, I-AF, I-PS, I-OG, I-LC
-4	오바	I-AF	I-EV	I-EV, I-AF, I-PS, I-OG, O
-5	##주	I-AF	I-EV	I-EV, I-AF, O, I-OG, I-PS
-6	’	O	O	O, I-EV, I-AF, I-OG, I-DT
-7	공연	O	O	O, I-EV, B-EV, B-FD, B-CV
-8	##은	O	O	O, I-EV, B-CV, I-AF, I-OG
-9	깊이	O	O	O, B-CV, B-FD, B-LC, B-PS
-10	있	O	O	O, B-CV, I-OG, I-AF, B-PS
-11	##는	O	O	O, B-PS, B-LC, B-CV, B-OG
-12	서사	O	O	O, B-FD, B-CV, B-TR, B-LC
-13	##가	O	O	O, B-PS, I-EV, I-AF, I-OG
-14	핵심	O	O	O, B-CV, B-LC, B-PS, B-TM
-15	##이	O	O	O, B-PS, B-CV, B-OG, I-EV
-16	##기	O	O	O, B-PS, B-CV, I-EV, B-OG
-17	때문	O	O	O, B-CV, B-LC, B-OG, B-PS
-18	##에	O	O	O, B-CV, B-LC, B-PS, I-EV
-19	내	O	O	O, B-CV, B-FD, B-TM, B-LC
-20	##레이션	O	O	O, I-FD, I-CV, I-TR, B-FD
-21	##이	O	O	O, B-PS, B-LC, B-OG, B-CV
-22	무엇	O	O	O, B-CV, B-OG, B-LC, B-TM
-23	##보	O	O	O, B-CV, B-PS, B-QT, I-EV
-24	##다	O	O	O, I-QT, B-CV, I-EV, B-QT
-25	중요	O	O	O, B-CV, B-TM, B-OG, B-LC
-26	##했	O	O	O, B-CV, B-OG, B-PS, B-LC
-27	##다	O	O	O, B-CV, I-EV, I-OG, B-LC
-28	.	O	O	O, I-EV, B-CV, B-PS, B-LC
-29	[SEP]	O	O	O, B-CV, I-EV, B-LC, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	가짜	O	O
+2	기자	B-CV	B-CV
+3	##는	O	O
+4	신분증	O	O
+5	##도	O	O
+6	없이	O	O
+7	무선	O	B-TM
+8	##호	O	I-TM
+9	##출	O	I-TM
+10	##기	O	I-TM
+11	##만	O	O
+12	보여	O	O
+13	##주	O	O
+14	##며	O	O
+15	여성	O	O
+16	##을	O	O
+17	농락	O	O
+18	##했	O	O
+19	##고	O	O
+20	,	O	O
+21	청와대	B-AF	B-OG
+22	직원	B-CV	B-CV
+23	사칭	O	B-CV
+24	##범	O	I-CV
+25	##도	O	O
+26	삐	B-TM	B-TM
+27	##삐	I-TM	I-TM
+28	##로	O	O
+29	사람	O	O
+30	##들	O	O
+31	##을	O	O
+32	속	O	O
+33	##였	O	O
+34	##다	O	O
+35	.	O	O
+36	[SEP]	O	O

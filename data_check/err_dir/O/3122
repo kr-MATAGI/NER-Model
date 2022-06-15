@@ -1,17 +1,16 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	그래서	O	O	O, B-CV, B-TM, B-OG, B-LC
-2	저것	O	O	O, B-CV, B-TM, B-PS, B-QT
-3	##도	O	O	O, B-CV, B-PS, I-CV, I-AF
-4	역시	O	O	O, B-CV, B-QT, B-TM, B-PS
-5	그	O	O	O, B-CV, B-OG, B-TM, I-CV
-6	~	O	O	O, B-CV, I-CV, B-PS, I-OG
-7	이게	O	O	O, B-CV, B-PS, B-LC, B-QT
-8	전부	O	O	O, B-QT, B-PS, B-CV, B-LC
-9	다	O	O	O, B-PS, B-QT, B-CV, B-TM
-10	팔	O	B-QT	B-QT, O, I-QT, B-DT, B-TM
-11	짜리	O	I-QT	I-QT, O, I-TM, I-DT, I-PS
-12	프로그램	O	O	O, I-QT, I-TM, B-CV, B-TM
-13	##인	O	O	O, I-CV, I-QT, I-TM, B-CV
-14	##데	O	O	O, B-CV, B-OG, B-TM, B-LC
-15	[SEP]	O	O	O, B-CV, B-TM, B-LC, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	[	O	O
+2	한겨레	B-OG	B-OG
+3	]	O	O
+4	시	O	B-OG
+5	,	O	O
+6	체육회	O	O
+7	부회장	B-CV	B-CV
+8	부활	O	O
+9	추진	O	O
+10	‘	O	O
+11	뭇	O	O
+12	##매	O	O
+13	’	O	O
+14	[SEP]	O	O

@@ -1,48 +1,74 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, I-EV, B-CV
-1	오후	B-TI	B-TI	B-TI, B-EV, O, B-QT, I-TI
-2	2	I-TI	I-TI	I-TI, B-TI, I-TR, I-QT, I-EV
-3	##시	I-TI	I-TI	I-TI, I-QT, I-TR, B-TI, O
-4	45	I-TI	I-TI	I-TI, B-TI, I-QT, I-TR, O
-5	##분	I-TI	I-TI	I-TI, O, I-TR, I-QT, B-TI
-6	(	O	O	O, I-TI, I-QT, B-LC, I-EV
-7	현지	O	O	O, B-LC, B-DT, B-CV, B-OG
-8	시간	O	O	O, I-LC, I-TI, I-DT, I-OG
-9	)	O	O	O, B-LC, B-PS, B-OG, I-OG
-10	후진타오	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-11	(	O	O	O, I-PS, I-OG, I-AF, B-CV
-12	[UNK]	O	O	O, B-LC, B-PS, B-CV, B-OG
-13	[UNK]	O	O	O, B-LC, B-PS, B-OG, B-CV
-14	[UNK]	O	O	O, B-LC, B-PS, B-CV, B-OG
-15	)	O	O	O, B-LC, B-PS, B-CV, B-OG
-16	국가	B-CV	B-CV	B-CV, O, B-TM, B-AF, B-OG
-17	##주	I-CV	I-CV	I-CV, O, B-CV, I-EV, I-TM
-18	##석	I-CV	I-CV	I-CV, O, B-CV, I-TM, I-EV
-19	##의	O	O	O, I-CV, B-PS, B-LC, I-OG
-20	조화	O	O	O, B-PS, B-TR, B-FD, B-CV
-21	(	O	O	O, I-PS, I-CV, B-PS, I-OG
-22	和	O	O	O, B-PS, I-PS, B-LC, B-CV
-23	[UNK]	O	O	O, B-PS, I-PS, B-LC, I-LC
-24	·	O	O	O, B-LC, B-PS, B-OG, B-CV
-25	허	O	B-PS	B-PS, O, B-LC, B-OG, B-TR
-26	##셰	O	I-PS	I-PS, O, B-PS, I-LC, I-OG
-27	)	O	O	O, I-PS, B-LC, I-OG, I-AF
-28	사회	O	O	O, B-FD, B-TR, B-CV, B-PS
-29	철학	O	O	O, I-FD, B-FD, I-TR, B-TR
-30	##을	O	O	O, B-CV, I-CV, I-AF, B-PS
-31	담아	O	O	O, B-LC, B-PS, B-CV, B-OG
-32	명명	O	O	O, B-PS, B-CV, B-LC, B-OG
-33	##한	O	O	O, B-LC, B-PS, B-OG, B-DT
-34	G	B-AF	B-OG	B-OG, B-AF, O, B-PS, B-EV
-35	##10	I-AF	I-OG	I-OG, I-AF, O, I-TM, I-EV
-36	##43	I-AF	I-OG	I-OG, I-AF, O, I-TM, I-LC
-37	허	I-AF	B-AF	B-AF, I-AF, O, I-OG, B-OG
-38	##셰	I-AF	I-AF	I-AF, I-OG, O, I-TM, I-PS
-39	고속	B-AF	B-AF	B-AF, I-AF, O, I-OG, I-TM
-40	##열차	I-AF	I-AF	I-AF, O, B-AF, I-TM, I-OG
-41	##가	O	O	O, I-AF, I-OG, I-EV, I-TM
-42	출발	O	O	O, B-CV, I-AF, B-OG, B-LC
-43	##했	O	O	O, B-CV, B-OG, B-LC, I-AF
-44	##다	O	O	O, B-CV, B-LC, I-OG, B-OG
-45	.	O	O	O, B-LC, B-PS, B-CV, B-OG
-46	[SEP]	O	O	O, B-LC, B-CV, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	신	B-PS	B-PS
+2	의원	B-CV	B-CV
+3	##은	O	O
+4	또	O	O
+5	""""	O	O
+6	W	B-OG	B-OG
+7	##CC	I-OG	I-OG
+8	개최	O	O
+9	##와	O	O
+10	해군기지	O	B-OG
+11	갈등	O	O
+12	해결	O	O
+13	,	O	O
+14	신공	O	O
+15	##항	O	O
+16	건설	O	O
+17	등의	O	O
+18	지역	O	O
+19	현안	O	O
+20	해결	O	O
+21	##을	O	O
+22	위해서	O	O
+23	##는	O	O
+24	중앙	B-OG	B-OG
+25	##정부	I-OG	I-OG
+26	##와	O	O
+27	국회	B-OG	B-OG
+28	##의	O	O
+29	전폭	O	O
+30	##적	O	O
+31	##인	O	O
+32	지원	O	O
+33	##과	O	O
+34	제주도	B-OG	B-OG
+35	##의	O	O
+36	중앙	O	O
+37	교섭	O	O
+38	##력	O	O
+39	##이	O	O
+40	무엇	O	O
+41	##보	O	O
+42	##다	O	O
+43	중요	O	O
+44	##하	O	O
+45	##다	O	O
+46	""""	O	O
+47	며	O	O
+48	""""	O	O
+49	하지	O	O
+50	##만	O	O
+51	제주도	B-OG	B-OG
+52	##가	O	O
+53	보여준	O	O
+54	중앙	O	O
+55	절충	O	O
+56	능력	O	O
+57	##은	O	O
+58	도민	B-CV	B-CV
+59	##들	O	O
+60	##을	O	O
+61	실망	O	O
+62	##시	O	O
+63	##키	O	O
+64	##고	O	O
+65	있	O	O
+66	##다	O	O
+67	""""	O	O
+68	고	O	O
+69	덧붙였	O	O
+70	##다	O	O
+71	.	O	O
+72	[SEP]	O	O

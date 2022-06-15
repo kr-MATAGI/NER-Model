@@ -1,53 +1,13 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	타이거	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
-2	우즈	I-PS	I-PS	I-PS, B-PS, O, I-OG, I-LC
-3	##의	O	O	O, I-PS, I-OG, I-AF, B-CV
-4	칩	B-TM	B-TM	B-TM, O, B-CV, B-AF, B-EV
-5	##샷	I-TM	I-TM	I-TM, O, I-AF, I-CV, B-TM
-6	입	O	I-TM	I-TM, B-TM, O, B-CV, B-AF
-7	##스	O	I-TM	I-TM, O, I-AF, I-CV, B-TM
-8	(	O	O	O, I-TM, I-AF, I-CV, I-OG
-9	y	O	O	O, B-TM, I-TM, B-AF, B-LC
-10	##ip	O	O	O, I-TM, B-TM, I-AF, I-LC
-11	##s	O	O	O, I-TM, I-AF, I-LC, I-PS
-12	·	O	O	O, I-TM, I-OG, I-AF, B-CV
-13	샷	B-TM	B-TM	B-TM, O, I-TM, B-CV, B-AF
-14	실패	O	O	O, I-TM, B-TM, I-CV, I-AF
-15	불안	O	O	O, I-TM, B-TM, B-CV, I-CV
-16	증세	O	O	O, I-TM, I-CV, B-TM, I-AF
-17	)	O	O	O, I-TM, I-CV, B-CV, I-OG
-18	가	O	O	O, B-OG, B-PS, B-LC, B-CV
-19	미국	B-LC	B-LC	B-LC, B-OG, O, B-AF, B-PS
-20	골프	B-CV	B-CV	B-CV, O, I-OG, I-CV, B-AF
-21	채널	O	O	O, I-OG, I-CV, I-AF, I-LC
-22	##이	O	O	O, I-OG, B-PS, B-OG, I-AF
-23	꼽	O	O	O, B-CV, B-LC, B-PS, B-OG
-24	##은	O	O	O, B-CV, B-LC, B-OG, B-PS
-25	'	O	O	O, B-CV, B-LC, B-OG, B-QT
-26	2015	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-27	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-28	골프	O	B-CV	B-CV, O, B-FD, B-AF, B-EV
-29	##계	O	O	O, I-AF, I-FD, I-CV, I-OG
-30	##에서	O	O	O, I-AF, I-QT, B-QT, I-FD
-31	가장	O	O	O, I-AF, B-QT, I-QT, B-AF
-32	놀라운	O	O	O, I-QT, I-AF, B-QT, B-AF
-33	뉴스	O	O	O, I-QT, B-QT, I-AF, B-AF
-34	10	B-QT	B-QT	B-QT, I-QT, I-AF, O, B-AF
-35	(	O	O	O, I-QT, I-AF, I-DT, I-EV
-36	Top	B-QT	O	O, B-QT, B-AF, B-DT, B-EV
-37	10	I-QT	O	O, I-QT, B-QT, I-AF, B-DT
-38	Su	O	O	O, I-QT, I-AF, I-DT, B-PS
-39	##r	O	O	O, B-LC, I-AF, B-PS, I-QT
-40	##pr	O	O	O, B-LC, I-AF, B-PS, B-AF
-41	##ise	O	O	O, B-LC, I-AF, B-AF, B-PS
-42	##s	O	O	O, I-AF, B-QT, B-AF, I-QT
-43	)	O	O	O, B-CV, I-QT, B-LC, I-AF
-44	'	O	O	O, B-CV, B-OG, B-LC, B-TM
-45	1	B-QT	B-QT	B-QT, O, I-QT, B-EV, B-DT
-46	##위	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-EV
-47	##에	O	O	O, I-QT, I-OG, I-EV, B-CV
-48	올랐	O	O	O, B-CV, B-OG, B-TM, B-LC
-49	##다	O	O	O, B-CV, B-OG, B-TM, B-LC
-50	.	O	O	O, B-LC, B-CV, B-OG, B-TM
-51	[SEP]	O	O	O, B-LC, B-CV, B-TM, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	▶	O	O
+2	##본	O	O
+3	##보	O	O
+4	21	B-DT	B-DT
+5	##일	I-DT	I-DT
+6	##자	I-DT	I-DT
+7	B	B-QT	O
+8	##2	I-QT	O
+9	##면	I-QT	O
+10	참조	O	O
+11	[SEP]	O	O

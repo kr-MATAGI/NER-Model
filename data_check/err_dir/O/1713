@@ -1,24 +1,24 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-EV, I-CV, I-AF
-1	11	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-2	##월	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
-3	##에	O	O	O, I-DT, I-EV, I-AF, I-OG
-4	##는	O	O	O, B-LC, B-OG, I-DT, B-PS
-5	예멘	B-LC	B-LC	B-LC, O, B-OG, B-PS, B-AF
-6	##발	O	O	O, I-LC, I-AF, I-OG, I-DT
-7	미국	B-LC	B-LC	B-LC, O, B-OG, I-LC, B-AF
-8	##행	O	O	O, I-LC, I-AF, I-OG, B-AF
-9	화물	O	O	O, B-AF, B-LC, I-AF, B-TM
-10	##기에	O	O	O, I-AF, I-LC, B-AF, I-OG
-11	##서	O	O	O, I-AF, B-LC, B-AF, B-TM
-12	프린터	B-TM	B-TM	B-TM, O, B-TR, I-TM, B-CV
-13	토너	O	B-TM	B-TM, O, I-TM, B-MT, B-AF
-14	##로	O	O	O, I-TM, I-AF, I-EV, I-CV
-15	위장	O	O	O, B-TM, B-AF, B-LC, I-AF
-16	##된	O	O	O, B-LC, I-AF, B-PS, I-LC
-17	폭탄	B-AF	B-AF	B-AF, O, I-AF, B-MT, B-CV
-18	##이	O	O	O, I-AF, I-OG, B-CV, B-PS
-19	나왔	O	O	O, B-CV, B-LC, B-OG, I-AF
-20	##다	O	O	O, B-LC, B-CV, I-AF, I-OG
-21	.	O	O	O, B-LC, B-AF, B-PS, B-OG
-22	[SEP]	O	O	O, B-LC, B-AF, I-AF, B-CV
+	text	label	preds
+0	[CLS]	O	O
+1	그까	O	O
+2	페미니스트	O	B-CV
+3	##와	O	O
+4	자격	O	O
+5	##이	O	O
+6	##라는	O	O
+7	말	O	O
+8	##은	O	O
+9	사실	O	O
+10	그다지	O	O
+11	어울리	O	O
+12	##는	O	O
+13	표현	O	O
+14	같	O	O
+15	##아	O	O
+16	보이	O	O
+17	##진	O	O
+18	않	O	O
+19	##아	O	O
+20	##요	O	O
+21	.	O	O
+22	[SEP]	O	O

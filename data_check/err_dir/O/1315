@@ -1,14 +1,13 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, B-CV, I-OG, I-AF
-1	그래서	O	O	O, B-CV, B-TM, B-OG, B-QT
-2	그	O	O	O, B-CV, I-CV, B-TM, B-QT
-3	말	O	O	O, B-CV, I-CV, B-AM, I-QT
-4	##까	O	O	O, B-CV, I-CV, B-PS, I-AF
-5	##지	O	O	O, B-CV, B-QT, B-TM, B-PS
-6	하	O	O	O, B-CV, B-TM, B-LC, B-PS
-7	##다니	O	O	O, B-CV, B-TM, B-LC, B-QT
-8	얼굴	O	B-AM	B-AM, O, B-TM, B-CV, B-TR
-9	##표	O	O	O, I-AM, I-CV, I-TM, I-TR
-10	##정	O	O	O, I-CV, I-TM, I-AM, I-TR
-11	##도	O	O	O, I-CV, I-TM, I-AF, I-PS
-12	[SEP]	O	O	O, B-CV, B-LC, I-AF, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	복지부	B-OG	B-OG
+2	‘	O	O
+3	가족	O	B-CV
+4	##업	O	O
+5	##무	O	O
+6	’	O	O
+7	여성	B-OG	B-OG
+8	##부	I-OG	I-OG
+9	##로	O	O
+10	이관	O	O
+11	[SEP]	O	O

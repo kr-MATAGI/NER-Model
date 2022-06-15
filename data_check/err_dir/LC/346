@@ -1,47 +1,10 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	2007	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-2	##년	I-DT	I-DT	I-DT, O, I-QT, B-DT, I-EV
-3	프랑크푸르트	B-LC	B-EV	B-EV, B-LC, O, B-AF, B-OG
-4	모터쇼	O	I-EV	I-EV, O, I-LC, I-AF, I-OG
-5	##에서	O	O	O, I-EV, I-DT, I-OG, I-AF
-6	신차	O	O	O, B-EV, I-EV, B-CV, B-LC
-7	##발	O	O	O, I-EV, I-OG, I-AF, B-EV
-8	##표	O	O	O, I-EV, I-OG, I-AF, I-LC
-9	##회	O	O	O, I-EV, I-OG, I-AF, B-EV
-10	##를	O	O	O, I-EV, B-OG, I-OG, B-CV
-11	할	O	O	O, B-OG, B-CV, B-LC, B-AF
-12	때	O	O	O, B-CV, B-OG, B-PS, I-OG
-13	##에	O	O	O, B-OG, B-CV, B-LC, B-PS
-14	##는	O	O	O, B-OG, B-LC, B-CV, B-PS
-15	현대차	B-OG	B-OG	B-OG, O, B-AF, B-LC, I-OG
-16	##가	O	O	O, I-OG, I-AF, B-OG, B-PS
-17	도요타	B-OG	B-OG	B-OG, O, B-LC, B-AF, I-OG
-18	,	O	O	O, I-OG, I-AF, B-OG, B-CV
-19	스즈키	B-OG	B-OG	B-OG, O, B-LC, B-AF, I-OG
-20	,	O	O	O, I-OG, I-AF, I-CV, B-CV
-21	스	B-OG	B-OG	B-OG, O, B-LC, B-AF, I-OG
-22	##바	I-OG	I-OG	I-OG, O, I-LC, I-AF, B-OG
-23	##루	I-OG	I-OG	I-OG, O, I-LC, I-AF, I-PS
-24	등	O	O	O, I-OG, I-AF, B-LC, I-LC
-25	일본	B-LC	B-LC	B-LC, O, B-OG, B-AF, I-LC
-26	업체	O	O	O, I-LC, I-OG, B-CV, B-LC
-27	##와	O	O	O, B-LC, B-OG, B-PS, I-OG
-28	발표	O	O	O, B-OG, B-LC, B-CV, B-TM
-29	##가	O	O	O, B-PS, B-OG, B-LC, B-CV
-30	겹	O	O	O, B-OG, B-LC, B-PS, B-CV
-31	##쳤	O	O	O, I-OG, B-OG, B-LC, B-PS
-32	##고	O	O	O, B-OG, I-OG, B-LC, B-PS
-33	기아차	B-OG	B-OG	B-OG, O, B-AF, I-OG, B-LC
-34	##도	O	O	O, I-OG, I-AF, I-DT, I-CV
-35	랜드	B-OG	B-OG	B-OG, O, B-AF, B-LC, I-OG
-36	##로	I-OG	I-OG	I-OG, O, I-AF, I-LC, B-OG
-37	##버	I-OG	I-OG	I-OG, O, I-LC, I-AF, I-CV
-38	,	O	O	O, I-OG, I-AF, I-CV, I-QT
-39	볼보	B-OG	B-OG	B-OG, O, B-AF, B-LC, I-OG
-40	##와	O	O	O, I-OG, I-AF, I-DT, I-CV
-41	겹	O	O	O, B-OG, B-CV, B-LC, B-PS
-42	##쳤	O	O	O, I-OG, B-OG, B-LC, B-PS
-43	##다	O	O	O, I-OG, B-CV, B-OG, B-LC
-44	.	O	O	O, B-OG, B-LC, B-CV, I-OG
-45	[SEP]	O	O	O, B-OG, I-OG, B-LC, B-CV
+	text	label	preds
+0	[CLS]	O	O
+1	한국	B-LC	B-OG
+2	##이	O	O
+3	애니메이션	B-FD	B-FD
+4	##도	O	O
+5	만들	O	O
+6	##어	O	O
+7	?	O	O
+8	[SEP]	O	O

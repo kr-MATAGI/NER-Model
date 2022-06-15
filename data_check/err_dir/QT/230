@@ -1,26 +1,50 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	KIA	B-OG	B-OG	B-OG, O, B-LC, B-AF, I-OG
-2	##는	O	O	O, I-OG, I-EV, B-CV, I-QT
-3	7	B-QT	B-EV	B-EV, B-QT, O, B-AF, B-DT
-4	##회	I-QT	I-EV	I-EV, I-QT, O, I-AF, I-OG
-5	##에도	O	O	O, I-EV, I-QT, I-OG, I-AF
-6	타자	B-CV	B-CV	B-CV, O, B-TM, B-AM, I-CV
-7	일	O	O	O, B-TM, B-QT, I-CV, B-PS
-8	##순	O	O	O, I-QT, I-TM, I-PS, I-LC
-9	##하	O	O	O, I-QT, B-PS, B-LC, B-TM
-10	##며	O	O	O, B-QT, B-TM, B-LC, I-QT
-11	5	B-QT	B-QT	B-QT, I-QT, O, B-TM, B-LC
-12	##점	I-QT	I-QT	I-QT, O, I-LC, I-TM, I-EV
-13	##을	O	O	O, I-QT, I-OG, I-EV, B-CV
-14	뽑아	O	O	O, B-QT, B-TM, B-CV, B-LC
-15	11	B-QT	B-QT	B-QT, I-QT, O, B-EV, B-TM
-16	-	I-QT	I-QT	I-QT, O, B-QT, I-EV, I-LC
-17	2	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-18	##로	O	O	O, I-QT, I-EV, I-OG, B-CV
-19	대승	O	O	O, B-CV, B-TM, I-QT, B-QT
-20	##을	O	O	O, B-CV, I-OG, I-QT, I-EV
-21	거뒀	O	O	O, B-CV, B-OG, B-TM, I-OG
-22	##다	O	O	O, B-CV, B-QT, B-TM, I-OG
-23	.	O	O	O, B-CV, B-OG, B-LC, B-QT
-24	[SEP]	O	O	O, B-CV, B-OG, I-OG, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	1	B-QT	B-EV
+2	,	I-QT	I-EV
+3	2	I-QT	I-EV
+4	##차	I-QT	I-EV
+5	##전	I-QT	I-EV
+6	(	O	O
+7	25	B-DT	B-DT
+8	·	I-DT	I-DT
+9	26	I-DT	I-DT
+10	##일	I-DT	I-DT
+11	)	O	O
+12	광주	B-LC	B-LC
+13	,	O	O
+14	3	B-QT	B-EV
+15	~	I-QT	I-EV
+16	5	I-QT	I-EV
+17	##차	I-QT	I-EV
+18	##전	I-QT	I-EV
+19	(	O	O
+20	28	B-DT	B-DT
+21	##∼	I-DT	I-DT
+22	##30	I-DT	I-DT
+23	##일	I-DT	I-DT
+24	)	O	O
+25	잠실	B-LC	B-LC
+26	,	O	O
+27	6	B-QT	B-EV
+28	,	I-QT	I-EV
+29	7	I-QT	I-EV
+30	##차	I-QT	I-EV
+31	##전	I-QT	I-EV
+32	(	O	O
+33	11	B-DT	B-DT
+34	##월	I-DT	I-DT
+35	1	I-DT	I-DT
+36	·	I-DT	I-DT
+37	2	I-DT	I-DT
+38	##일	I-DT	I-DT
+39	)	O	O
+40	광주	B-LC	B-LC
+41	##에	O	O
+42	##서	O	O
+43	만나	O	O
+44	##는	O	O
+45	일정	O	O
+46	##이다	O	O
+47	.	O	O
+48	[SEP]	O	O

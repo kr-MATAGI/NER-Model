@@ -1,60 +1,9 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-EV, I-CV, I-OG
-1	한국	B-LC	B-LC	B-LC, B-OG, O, I-LC, B-AF
-2	##은	O	O	O, I-LC, B-LC, I-EV, I-AF
-3	물론	O	O	O, B-LC, B-CV, B-TM, B-PS
-4	아시아	B-LC	B-LC	B-LC, O, B-OG, I-LC, B-AF
-5	지역	O	O	O, I-LC, B-LC, I-OG, I-DT
-6	##에서	O	O	O, B-LC, B-CV, B-PS, I-LC
-7	최대	O	O	O, B-CV, B-LC, B-OG, B-TM
-8	규모	O	O	O, B-OG, B-CV, B-LC, B-TM
-9	##를	O	O	O, B-CV, B-OG, B-LC, B-PS
-10	자랑	O	O	O, B-OG, B-CV, B-LC, B-TM
-11	##하	O	O	O, B-LC, B-OG, B-PS, B-TM
-12	##는	O	O	O, B-LC, B-OG, B-CV, B-PS
-13	비정	B-OG	B-OG	B-OG, O, B-CV, I-OG, B-LC
-14	##부	I-OG	I-OG	I-OG, O, I-CV, B-OG, I-LC
-15	##기구	I-OG	I-OG	I-OG, O, I-CV, B-OG, I-LC
-16	(	O	O	O, I-OG, I-CV, B-CV, B-PS
-17	NGO	B-OG	B-OG	B-OG, O, B-CV, I-OG, B-AF
-18	)	O	O	O, I-OG, I-CV, I-EV, B-CV
-19	인	O	O	O, B-CV, B-PS, B-OG, B-LC
-20	아시아	B-OG	B-OG	B-OG, O, B-LC, I-OG, B-EV
-21	##태평양	I-OG	I-OG	I-OG, O, B-OG, I-LC, I-EV
-22	##와이	I-OG	I-OG	I-OG, O, B-OG, I-EV, I-LC
-23	##엠	I-OG	I-OG	I-OG, O, B-OG, I-EV, I-LC
-24	##시	I-OG	I-OG	I-OG, O, B-OG, I-EV, I-LC
-25	##에이	I-OG	I-OG	I-OG, O, B-OG, I-EV, I-LC
-26	(	I-OG	I-OG	I-OG, O, B-OG, I-EV, I-CV
-27	YMCA	I-OG	I-OG	I-OG, B-OG, O, B-CV, I-EV
-28	)	I-OG	I-OG	I-OG, O, B-OG, I-CV, I-EV
-29	연맹	I-OG	I-OG	I-OG, O, B-OG, I-CV, I-EV
-30	##이	O	O	O, I-OG, I-EV, B-PS, B-CV
-31	한반도	B-LC	B-LC	B-LC, O, B-OG, B-AF, B-EV
-32	##의	O	O	O, I-LC, I-EV, B-LC, I-OG
-33	평화	O	O	O, B-LC, B-CV, B-TM, B-EV
-34	정착	O	O	O, I-LC, I-CV, I-EV, B-CV
-35	##을	O	O	O, B-LC, B-PS, B-CV, B-OG
-36	공동	O	O	O, B-CV, B-LC, B-TM, B-EV
-37	##과	O	O	O, B-CV, B-LC, B-PS, B-EV
-38	##제	O	O	O, B-CV, B-LC, I-CV, I-QT
-39	##로	O	O	O, B-CV, B-PS, B-LC, B-OG
-40	설정	O	O	O, B-LC, B-CV, B-EV, B-PS
-41	##하고	O	O	O, B-LC, B-CV, B-EV, I-EV
-42	‘	O	O	O, B-LC, B-CV, B-EV, B-OG
-43	평화	O	B-EV	B-EV, O, B-CV, B-TM, B-AF
-44	##협	O	I-EV	I-EV, O, I-TM, I-OG, I-AF
-45	##정	O	I-EV	I-EV, O, I-OG, I-AF, I-TM
-46	체결	O	I-EV	I-EV, O, I-OG, I-AF, I-TM
-47	촉구	O	I-EV	I-EV, O, I-TM, I-AF, I-OG
-48	캠페인	O	I-EV	I-EV, O, I-TM, I-AF, I-OG
-49	’	O	O	O, I-EV, I-OG, I-AF, I-DT
-50	을	O	O	O, B-CV, I-EV, B-OG, B-LC
-51	벌이	O	O	O, B-CV, B-LC, B-OG, B-EV
-52	##기	O	O	O, B-LC, B-CV, B-OG, B-PS
-53	##로	O	O	O, B-CV, B-LC, I-EV, B-OG
-54	결의	O	O	O, B-CV, B-EV, B-LC, B-OG
-55	##했	O	O	O, B-CV, B-LC, I-EV, B-OG
-56	##다	O	O	O, B-CV, B-LC, I-EV, B-OG
-57	.	O	O	O, B-LC, B-CV, B-OG, I-EV
-58	[SEP]	O	O	O, B-LC, B-CV, I-EV, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	막	O	O
+2	일품	O	B-CV
+3	##요	O	I-CV
+4	##리	O	I-CV
+5	##처럼	O	O
+6	정말	O	O
+7	[SEP]	O	O

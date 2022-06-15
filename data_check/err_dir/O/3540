@@ -1,8 +1,20 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, I-AF, B-CV
-1	보약	O	B-TM	B-TM, O, B-TR, B-AF, B-CV
-2	##이	O	O	O, I-TM, I-AF, B-PS, I-CV
-3	필요	O	O	O, B-CV, B-TM, I-AF, B-LC
-4	없	O	O	O, B-CV, I-AF, I-CV, I-OG
-5	##는	O	O	O, B-CV, I-AF, B-TM, B-OG
-6	[SEP]	O	O	O, B-CV, B-LC, B-TM, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	일본	B-LC	B-LC
+2	##에	O	O
+3	##서	O	O
+4	외국인	O	B-CV
+5	최초	O	O
+6	##로	O	O
+7	특급	O	O
+8	##호텔	O	O
+9	##에	O	O
+10	제과	B-CV	B-CV
+11	##장	I-CV	I-CV
+12	##으로	O	O
+13	계셨	O	O
+14	##던	O	O
+15	분	O	O
+16	##입니다	O	O
+17	.	O	O
+18	[SEP]	O	O

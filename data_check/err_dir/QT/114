@@ -1,28 +1,38 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	한편	O	O	O, B-QT, B-TM, B-LC, B-CV
-2	6	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-QT
-3	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
-4	전국	O	O	O, B-LC, I-DT, B-EV, B-CV
-5	##의	O	O	O, B-LC, I-LC, I-EV, B-PS
-6	낮	B-TI	B-TI	B-TI, O, B-EV, B-LC, B-QT
-7	최고	O	O	O, I-TI, I-LC, I-QT, B-LC
-8	##기	O	O	O, B-LC, I-LC, B-PS, B-QT
-9	##온	O	O	O, B-LC, I-LC, B-PS, B-QT
-10	##은	O	O	O, B-LC, B-CV, B-OG, B-TM
-11	30	B-QT	B-QT	B-QT, O, I-QT, B-TI, B-LC
-12	##∼	O	I-QT	I-QT, O, B-QT, I-LC, I-OG
-13	##36	B-QT	I-QT	I-QT, B-QT, O, I-LC, I-OG
-14	##도	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-OG
-15	##까	O	O	O, I-QT, I-LC, I-OG, B-LC
-16	##지	O	O	O, I-QT, B-QT, B-LC, I-LC
-17	올라	O	O	O, B-LC, I-QT, B-CV, B-TM
-18	무더	O	O	O, B-LC, B-CV, B-TM, B-OG
-19	##울	O	O	O, I-CV, I-OG, I-LC, B-LC
-20	것	O	O	O, B-CV, B-LC, B-PS, B-OG
-21	##으로	O	O	O, B-CV, I-OG, B-OG, B-LC
-22	전망	O	O	O, B-CV, B-TM, B-LC, B-OG
-23	##된	O	O	O, B-LC, I-OG, B-CV, B-PS
-24	##다	O	O	O, B-CV, B-LC, B-TM, I-OG
-25	.	O	O	O, B-LC, B-OG, B-CV, B-PS
-26	[SEP]	O	O	O, B-LC, B-CV, I-OG, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	김광석	B-PS	B-PS
+2	,	O	O
+3	김준	B-PS	B-PS
+4	##수	I-PS	I-PS
+5	,	O	O
+6	장진	B-PS	B-PS
+7	삼	B-QT	O
+8	##총	I-QT	O
+9	##사	I-QT	O
+10	##가	O	O
+11	힘	O	O
+12	##을	O	O
+13	합친	O	O
+14	'	O	O
+15	디	B-AF	B-AF
+16	##셈	I-AF	I-AF
+17	##버	I-AF	I-AF
+18	'	O	O
+19	가	O	O
+20	연말	B-DT	O
+21	공연	O	O
+22	##계	O	O
+23	가장	O	O
+24	뜨거운	O	O
+25	'	O	O
+26	태풍	O	O
+27	'	O	O
+28	의	O	O
+29	조합	O	O
+30	##으로	O	O
+31	인증	O	O
+32	##받	O	O
+33	##았	O	O
+34	##다	O	O
+35	.	O	O
+36	[SEP]	O	O

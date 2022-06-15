@@ -1,39 +1,18 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	NSC	B-OG	B-OG	B-OG, O, B-CV, B-AF, B-EV
-2	##는	O	O	O, I-OG, I-CV, I-AF, B-CV
-3	헌법	B-CV	B-CV	B-CV, O, B-OG, I-CV, B-AF
-4	제	B-QT	B-QT	B-QT, O, I-CV, B-CV, I-QT
-5	##91	I-QT	I-QT	I-QT, I-CV, O, B-QT, I-DT
-6	##조	I-QT	I-QT	I-QT, O, I-CV, I-DT, I-AF
-7	##와	O	O	O, I-QT, B-CV, B-PS, I-DT
-8	NSC	B-OG	B-CV	B-CV, B-OG, O, B-AF, I-CV
-9	법	O	I-CV	I-CV, O, B-CV, I-OG, I-AF
-10	##을	O	O	O, I-CV, I-OG, I-AF, B-PS
-11	근거	O	O	O, B-CV, B-OG, B-LC, B-PS
-12	##로	O	O	O, B-PS, B-OG, B-LC, B-CV
-13	대통령	B-CV	B-CV	B-CV, O, B-OG, B-PS, B-AF
-14	##이	O	O	O, I-CV, B-PS, B-CV, I-OG
-15	의장	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-TM
-16	##을	O	O	O, I-CV, B-PS, B-CV, I-OG
-17	맡	O	O	O, B-CV, B-PS, B-LC, B-OG
-18	##고	O	O	O, B-PS, B-CV, B-LC, B-OG
-19	국무총리	B-CV	B-CV	B-CV, O, B-OG, I-CV, B-TM
-20	,	O	O	O, I-CV, I-OG, B-CV, I-AF
-21	외교	B-CV	B-CV	B-CV, O, B-OG, B-FD, I-CV
-22	·	I-CV	I-CV	I-CV, O, I-OG, B-CV, I-FD
-23	국방	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-QT
-24	·	I-CV	I-CV	I-CV, O, I-OG, B-CV, I-QT
-25	통일	I-CV	I-CV	I-CV, B-CV, O, I-OG, I-QT
-26	##장	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-QT
-27	##관	I-CV	I-CV	I-CV, O, I-OG, B-CV, I-QT
-28	##과	O	O	O, I-CV, B-PS, I-OG, B-CV
-29	국가	B-CV	B-CV	B-CV, B-OG, O, B-AF, I-CV
-30	##정보	I-CV	I-CV	I-CV, O, I-OG, B-CV, I-AF
-31	##원장	I-CV	I-CV	I-CV, O, I-OG, B-CV, I-QT
-32	등	O	O	O, I-CV, I-OG, B-CV, B-PS
-33	##이	O	O	O, B-PS, B-CV, B-OG, B-LC
-34	위원	O	B-CV	B-CV, O, I-CV, B-TM, B-OG
-35	##이다	O	O	O, I-CV, B-CV, I-OG, I-QT
-36	.	O	O	O, B-PS, B-LC, B-CV, B-OG
-37	[SEP]	O	O	O, B-CV, B-PS, B-LC, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	그동안	O	O
+2	이스라엘	B-OG	B-LC
+3	##은	O	O
+4	재래식	O	O
+5	땅굴	O	O
+6	##에	O	O
+7	노이	O	O
+8	##로	O	O
+9	##제	O	O
+10	반응	O	O
+11	##을	O	O
+12	보여	O	O
+13	왔	O	O
+14	##다	O	O
+15	.	O	O
+16	[SEP]	O	O

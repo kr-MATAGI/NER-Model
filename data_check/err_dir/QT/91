@@ -1,27 +1,61 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-AF
-1	혼인	O	O	O, B-CV, B-TM, B-LC, B-OG
-2	9	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-PS
-3	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-4	만	I-DT	I-DT	I-DT, O, I-QT, B-DT, I-PS
-5	##에	O	O	O, I-DT, B-PS, B-CV, I-EV
-6	남편	B-CV	B-CV	B-CV, O, B-OG, I-CV, B-AF
-7	##과	O	O	O, I-CV, I-OG, B-CV, I-EV
-8	사별	O	O	O, B-CV, B-TM, B-LC, B-FD
-9	##하고	O	O	O, I-CV, I-TM, I-EV, I-OG
-10	농사	O	O	O, B-CV, B-LC, B-TM, B-FD
-11	##와	O	O	O, B-CV, B-PS, B-LC, B-TM
-12	허드	O	O	O, B-CV, B-TM, B-LC, B-FD
-13	##렛	O	O	O, I-CV, B-CV, I-TM, B-LC
-14	##일	O	O	O, I-CV, B-CV, I-TM, B-LC
-15	##로	O	O	O, B-CV, B-PS, B-LC, B-TM
-16	1	B-QT	B-QT	B-QT, O, I-QT, B-CV, B-TM
-17	##남	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-TM
-18	##3	B-QT	I-QT	I-QT, B-QT, O, I-LC, I-AF
-19	##녀	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-AF
-20	##를	O	O	O, I-QT, B-CV, I-CV, I-AF
-21	홀로	B-QT	O	O, B-CV, B-TM, B-LC, B-QT
-22	키웠	O	O	O, B-CV, I-QT, B-LC, B-PS
-23	##다	O	O	O, B-CV, B-LC, B-PS, I-CV
-24	.	O	O	O, B-CV, B-LC, B-PS, B-TM
-25	[SEP]	O	O	O, B-CV, B-LC, B-TM, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	4	B-QT	B-QT
+2	##선	I-QT	I-QT
+3	##발	I-QT	I-QT
+4	앨	B-PS	B-PS
+5	##릭스	I-PS	I-PS
+6	우드	I-PS	I-PS
+7	##가	O	O
+8	아예	O	O
+9	등판	O	O
+10	##을	O	O
+11	하지	O	O
+12	않	O	O
+13	##은	O	O
+14	데	O	O
+15	##다	O	O
+16	1	B-QT	B-EV
+17	##∼	I-QT	I-EV
+18	##3	I-QT	I-EV
+19	##차	I-QT	I-EV
+20	##전	I-QT	I-EV
+21	##에	O	O
+22	나온	O	O
+23	클레이	B-PS	B-PS
+24	##턴	I-PS	I-PS
+25	커	I-PS	I-PS
+26	##쇼	I-PS	I-PS
+27	,	O	O
+28	리치	B-PS	B-PS
+29	힐	I-PS	I-PS
+30	,	O	O
+31	다루	B-PS	B-PS
+32	##빗	I-PS	I-PS
+33	##슈	I-PS	I-PS
+34	##의	O	O
+35	투구	O	O
+36	##수도	O	O
+37	많	O	O
+38	##지	O	O
+39	않	O	O
+40	##아	O	O
+41	갑작스러운	O	O
+42	부상	O	O
+43	##이	O	O
+44	없	O	O
+45	##다면	O	O
+46	챔피언십	B-EV	B-EV
+47	##에도	O	O
+48	이대로	O	O
+49	선발	O	O
+50	##진	O	O
+51	##을	O	O
+52	구성	O	O
+53	##할	O	O
+54	가능	O	O
+55	##성이	O	O
+56	커졌	O	O
+57	##다	O	O
+58	.	O	O
+59	[SEP]	O	O

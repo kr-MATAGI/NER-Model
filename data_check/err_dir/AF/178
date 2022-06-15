@@ -1,18 +1,31 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	거	O	O	O, B-CV, B-AF, B-OG, B-PS
-2	안	B-AF	O	O, B-TM, B-AF, B-CV, B-AM
-3	##압	I-AF	O	O, I-TM, I-AF, I-CV, I-LC
-4	##지	I-AF	O	O, I-TM, I-AF, I-CV, I-LC
-5	##의	O	O	O, I-AF, I-TM, I-CV, I-OG
-6	밤	B-TI	B-CV	B-CV, O, B-PT, B-AF, B-DT
-7	##을	O	O	O, I-CV, I-AF, B-CV, I-OG
-8	한번	O	B-QT	B-QT, O, I-QT, B-CV, B-PS
-9	보여	O	O	O, I-QT, B-CV, I-DT, I-CV
-10	##줬	O	O	O, B-CV, I-QT, B-LC, B-PS
-11	##더니	O	O	O, B-CV, B-PS, B-LC, B-OG
-12	전부	O	O	O, B-CV, B-OG, B-PS, B-QT
-13	놀랬	O	O	O, B-CV, B-TM, B-OG, B-PS
-14	##어요	O	O	O, B-CV, I-CV, I-AF, I-OG
-15	.	O	O	O, B-CV, B-LC, B-PS, B-OG
-16	[SEP]	O	O	O, B-CV, B-LC, B-TM, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	메르세데스	B-OG	B-OG
+2	-	I-OG	I-OG
+3	벤츠	I-OG	I-OG
+4	코리아	I-OG	I-OG
+5	##는	O	O
+6	프리미엄	O	O
+7	중형	B-AF	B-AF
+8	##세	I-AF	I-AF
+9	##단	I-AF	I-AF
+10	뉴	B-AF	B-AF
+11	##E	I-AF	I-AF
+12	##클	I-AF	I-AF
+13	##래	I-AF	I-AF
+14	##스	I-AF	I-AF
+15	카	I-AF	B-AF
+16	##브리	I-AF	I-AF
+17	##올	I-AF	I-AF
+18	##렛	I-AF	I-AF
+19	##을	O	O
+20	오	B-DT	B-DT
+21	##는	I-DT	I-DT
+22	27	I-DT	I-DT
+23	##일	I-DT	I-DT
+24	출시	O	O
+25	##할	O	O
+26	예정	O	O
+27	##이다	O	O
+28	.	O	O
+29	[SEP]	O	O

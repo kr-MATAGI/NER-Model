@@ -1,7 +1,48 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, I-OG, B-CV, I-AF
-1	굳이	O	O	O, B-CV, B-OG, B-QT, B-PS
-2	육박	B-DT	O	O, B-DT, B-PS, B-QT, B-CV
-3	칠	I-DT	B-DT	B-DT, I-DT, O, B-QT, B-EV
-4	##일	I-DT	I-DT	I-DT, O, I-QT, B-DT, I-EV
-5	[SEP]	O	O	O, I-DT, B-CV, I-QT, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	이후	O	O
+2	2014	B-DT	B-DT
+3	##년	I-DT	I-DT
+4	##부터	I-DT	I-DT
+5	지난해	I-DT	I-DT
+6	##까	I-DT	I-DT
+7	##지	I-DT	I-DT
+8	##는	O	O
+9	‘	O	O
+10	9	B-DT	B-EV
+11	·	I-DT	I-EV
+12	1	I-DT	I-EV
+13	대책	O	I-EV
+14	’	O	O
+15	등	O	O
+16	정부	B-OG	B-OG
+17	##의	O	O
+18	적극	O	O
+19	##적	O	O
+20	##인	O	O
+21	주택	O	O
+22	##시장	O	O
+23	활성	O	O
+24	##화	O	O
+25	정책	O	O
+26	##으로	O	O
+27	수도권	B-LC	B-LC
+28	##과	O	O
+29	지방	O	O
+30	아파트	O	O
+31	##값	O	O
+32	##이	O	O
+33	동시	O	O
+34	##에	O	O
+35	오르	O	O
+36	##는	O	O
+37	‘	O	O
+38	동조	O	O
+39	##화	O	O
+40	’	O	O
+41	현상	O	O
+42	##을	O	O
+43	보였	O	O
+44	##다	O	O
+45	.	O	O
+46	[SEP]	O	O

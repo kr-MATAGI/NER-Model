@@ -1,92 +1,31 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-EV, I-CV, B-CV, I-OG
-1	9	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-QT
-2	##일	I-DT	I-DT	I-DT, O, B-DT, I-EV, I-QT
-3	경기도	B-LC	B-LC	B-LC, B-OG, O, B-AF, I-LC
-4	고양시	B-LC	B-LC	B-LC, I-LC, O, B-OG, B-AF
-5	고양	B-AF	B-AF	B-AF, I-AF, O, B-LC, B-PS
-6	##체육	I-AF	I-AF	I-AF, O, I-LC, I-PS, B-AF
-7	##관	I-AF	I-AF	I-AF, O, I-LC, I-PS, I-OG
-8	##에서	O	O	O, I-AF, I-EV, I-LC, B-CV
-9	열린	O	O	O, B-CV, B-LC, B-OG, B-PS
-10	'	O	O	O, B-LC, B-DT, B-CV, B-OG
-11	포스코건설	B-OG	B-EV	B-EV, B-OG, B-PS, B-DT, B-AF
-12	2011	B-DT	I-DT	I-DT, B-DT, I-EV, I-PS, I-OG
-13	코리아	B-EV	I-EV	I-EV, B-EV, I-DT, B-LC, I-PS
-14	##컵	I-EV	I-EV	I-EV, O, I-AF, I-LC, I-DT
-15	고양	I-EV	I-EV	I-EV, B-EV, B-LC, I-LC, I-AF
-16	국제	I-EV	I-EV	I-EV, O, B-EV, I-LC, I-AF
-17	##체	I-EV	I-EV	I-EV, O, I-AF, I-LC, B-EV
-18	##조	I-EV	I-EV	I-EV, O, I-AF, I-LC, B-EV
-19	##대	I-EV	I-EV	I-EV, O, I-AF, I-LC, B-EV
-20	##회	I-EV	I-EV	I-EV, O, I-AF, I-LC, B-EV
-21	'	O	O	O, I-EV, I-DT, I-AF, I-OG
-22	에서	O	O	O, B-CV, B-PS, B-LC, I-EV
-23	양	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
-24	##학	I-PS	I-PS	I-PS, O, B-PS, I-OG, I-LC
-25	##선	I-PS	I-PS	I-PS, O, I-LC, I-OG, B-PS
-26	##은	O	O	O, I-PS, I-EV, B-CV, I-OG
-27	공중	O	O	O, B-TM, B-LC, B-AF, B-AM
-28	##에서	O	O	O, I-AF, I-TM, B-PS, B-TM
-29	세	B-QT	B-QT	B-QT, O, I-QT, B-TM, B-EV
-30	바퀴	I-QT	I-QT	I-QT, O, I-TM, I-EV, I-LC
-31	(	O	O	O, I-QT, I-EV, I-TM, I-OG
-32	108	B-QT	B-QT	B-QT, I-QT, O, B-TM, B-LC
-33	##0	I-QT	I-QT	I-QT, I-TM, B-QT, I-LC, O
-34	##도	I-QT	I-QT	I-QT, O, I-LC, I-TM, I-EV
-35	)	O	O	O, I-QT, I-EV, I-TM, I-OG
-36	를	O	O	O, B-TM, B-PS, B-LC, B-CV
-37	회전	O	O	O, B-TM, B-TR, B-LC, B-PS
-38	##하	O	O	O, B-PS, B-LC, B-TM, I-TM
-39	##는	O	O	O, B-PS, B-LC, B-CV, B-TM
-40	신기	O	O	O, B-CV, B-TR, B-FD, B-TM
-41	##술	O	O	O, I-CV, I-TR, B-CV, I-FD
-42	##을	O	O	O, B-CV, B-PS, I-CV, B-LC
-43	펼쳐	O	O	O, B-LC, B-CV, B-PS, B-OG
-44	1	B-QT	B-QT	B-QT, O, B-EV, I-QT, B-TM
-45	,	I-QT	I-QT	I-QT, O, I-EV, B-QT, I-TM
-46	2	I-QT	I-QT	I-QT, B-QT, O, I-EV, I-LC
-47	##차	I-QT	I-QT	I-QT, O, I-EV, B-QT, I-TM
-48	시기	O	O	O, I-QT, I-EV, I-DT, I-OG
-49	평균	O	O	O, I-QT, B-QT, B-CV, B-LC
-50	16	B-QT	B-QT	B-QT, I-QT, O, B-EV, B-TM
-51	.	I-QT	I-QT	I-QT, O, B-QT, I-EV, I-LC
-52	650	I-QT	I-QT	I-QT, B-QT, O, I-LC, I-EV
-53	##점	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-EV
-54	##을	O	O	O, I-QT, I-EV, B-CV, I-OG
-55	획득	O	O	O, B-CV, B-TM, I-QT, B-LC
-56	##하	O	O	O, B-LC, B-PS, B-OG, B-CV
-57	##며	O	O	O, B-LC, B-QT, B-CV, B-PS
-58	15	B-QT	B-QT	B-QT, I-QT, O, B-EV, B-TM
-59	.	I-QT	I-QT	I-QT, O, I-EV, I-LC, B-QT
-60	98	I-QT	I-QT	I-QT, B-QT, O, I-LC, I-EV
-61	##7	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-EV
-62	##점	I-QT	I-QT	I-QT, O, I-LC, I-EV, B-QT
-63	##을	O	O	O, I-QT, I-EV, B-CV, I-OG
-64	기록	O	O	O, B-CV, B-OG, B-LC, B-QT
-65	##한	O	O	O, B-LC, B-PS, B-CV, B-OG
-66	세계	B-EV	B-EV	B-EV, O, B-LC, B-CV, B-AF
-67	##선	I-EV	I-EV	I-EV, O, B-EV, I-AF, I-LC
-68	##수	I-EV	I-EV	I-EV, O, I-AF, B-EV, I-LC
-69	##권	I-EV	I-EV	I-EV, O, I-AF, I-LC, I-OG
-70	챔피언	B-CV	B-CV	B-CV, O, I-EV, I-CV, B-PS
-71	토	B-PS	B-PS	B-PS, I-PS, O, B-LC, B-OG
-72	##마	I-PS	I-PS	I-PS, O, B-PS, I-OG, I-LC
-73	부	I-PS	I-PS	I-PS, B-PS, O, I-LC, B-LC
-74	##엘	I-PS	I-PS	I-PS, O, I-LC, I-OG, B-PS
-75	(	O	O	O, I-PS, I-OG, B-CV, B-LC
-76	25	B-QT	B-QT	B-QT, O, I-QT, B-LC, B-TM
-77	·	O	O	O, I-QT, I-DT, I-OG, I-LC
-78	프랑스	B-LC	B-LC	B-LC, B-OG, O, B-CV, I-LC
-79	)	O	O	O, I-LC, I-OG, I-QT, I-CV
-80	을	O	O	O, B-CV, B-PS, B-LC, B-OG
-81	제치	O	O	O, B-CV, B-TM, B-QT, B-LC
-82	##고	O	O	O, B-PS, B-LC, B-QT, B-CV
-83	1	B-QT	B-QT	B-QT, O, I-QT, B-EV, B-TM
-84	##위	I-QT	I-QT	I-QT, O, I-EV, B-QT, I-LC
-85	##를	O	O	O, I-QT, I-EV, I-OG, I-TM
-86	차지	O	O	O, B-CV, I-QT, B-OG, B-TM
-87	##했	O	O	O, B-CV, B-PS, B-LC, B-OG
-88	##다	O	O	O, B-CV, B-LC, B-PS, B-OG
-89	.	O	O	O, B-LC, B-PS, B-CV, I-EV
-90	[SEP]	O	O	O, B-LC, B-CV, I-EV, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	‘	O	O
+2	이달	B-DT	B-AF
+3	##에	O	I-AF
+4	만나	O	I-AF
+5	##는	O	I-AF
+6	시	B-FD	I-AF
+7	’	O	O
+8	10	B-DT	B-DT
+9	##월	I-DT	I-DT
+10	추천	O	O
+11	##작	O	O
+12	##으로	O	O
+13	이민	B-PS	B-PS
+14	##하	I-PS	I-PS
+15	시인	B-CV	B-CV
+16	(	O	O
+17	45	B-QT	B-QT
+18	)	O	O
+19	의	O	O
+20	‘	O	O
+21	거리의	B-AF	B-AF
+22	식사	I-AF	I-AF
+23	’	O	O
+24	를	O	O
+25	선정	O	O
+26	##했	O	O
+27	##다	O	O
+28	.	O	O
+29	[SEP]	O	O

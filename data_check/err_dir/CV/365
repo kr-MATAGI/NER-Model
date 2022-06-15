@@ -1,93 +1,40 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-EV, I-CV, I-OG
-1	그	O	O	O, B-CV, B-PS, B-LC, B-OG
-2	##는	O	O	O, B-CV, B-PS, B-LC, B-OG
-3	“	O	O	O, B-LC, B-CV, B-PS, B-OG
-4	백석	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
-5	##이	O	O	O, I-PS, B-PS, B-CV, B-LC
-6	일본	B-LC	B-LC	B-LC, O, B-OG, B-EV, I-LC
-7	유학	O	O	O, B-LC, I-LC, B-FD, B-EV
-8	(	O	O	O, B-LC, I-LC, B-CV, I-EV
-9	아오	B-OG	B-OG	B-OG, O, B-AF, B-LC, B-PS
-10	##야마	I-OG	I-OG	I-OG, O, I-AF, I-LC, B-OG
-11	##전	I-OG	I-OG	I-OG, O, I-AF, I-LC, B-OG
-12	##문학	I-OG	I-OG	I-OG, O, I-AF, I-LC, B-OG
-13	##원	I-OG	I-OG	I-OG, O, I-AF, I-LC, I-QT
-14	영문	B-CV	O	O, B-CV, B-QT, B-TM, I-OG
-15	##과	O	O	O, I-QT, I-CV, B-QT, I-OG
-16	)	O	O	O, B-CV, B-LC, I-QT, B-PS
-17	을	O	O	O, B-CV, B-PS, B-LC, B-OG
-18	마치	O	O	O, B-LC, B-PS, B-CV, B-DT
-19	##고	O	O	O, B-LC, B-PS, B-DT, I-EV
-20	귀국	O	O	O, B-LC, B-CV, B-EV, B-PS
-21	##한	O	O	O, B-PS, B-LC, B-OG, I-EV
-22	뒤	O	O	O, B-DT, B-PS, I-DT, B-LC
-23	##인	O	O	O, B-PS, B-LC, I-DT, B-CV
-24	1935	B-DT	B-DT	B-DT, O, B-QT, I-DT, B-LC
-25	##년	I-DT	I-DT	I-DT, O, I-QT, B-DT, I-PS
-26	자신	O	O	O, I-DT, B-CV, B-LC, B-PS
-27	##이	O	O	O, B-PS, B-LC, B-CV, B-OG
-28	편집	O	O	O, B-FD, B-CV, B-LC, B-OG
-29	##한	O	O	O, B-PS, B-LC, B-CV, B-FD
-30	문예	O	O	O, B-FD, B-CV, B-OG, B-AF
-31	##지	O	O	O, I-FD, I-OG, B-FD, I-AF
-32	‘	O	O	O, B-LC, B-OG, B-CV, I-OG
-33	조광	B-AF	B-AF	B-AF, B-OG, O, B-TM, B-LC
-34	(	O	O	O, I-AF, I-OG, I-EV, I-CV
-35	朝	O	O	O, B-OG, B-LC, B-AF, B-PS
-36	光	O	O	O, I-OG, I-AF, B-OG, B-LC
-37	)	O	O	O, I-OG, I-AF, B-LC, B-PS
-38	’	O	O	O, B-OG, B-LC, B-CV, B-PS
-39	에	O	O	O, B-CV, B-LC, B-PS, B-OG
-40	가명	O	O	O, B-CV, B-PS, B-LC, B-TM
-41	##으로	O	O	O, B-PS, B-CV, B-LC, I-CV
-42	기고	O	O	O, B-CV, B-LC, B-PS, B-FD
-43	##한	O	O	O, B-PS, B-LC, B-CV, B-AF
-44	원고	O	O	O, B-CV, B-LC, B-AF, B-FD
-45	‘	O	O	O, B-LC, B-CV, B-OG, B-PS
-46	키스	B-AF	B-AF	B-AF, O, B-OG, B-TM, B-PS
-47	##의	I-AF	I-AF	I-AF, O, I-OG, I-TM, I-PS
-48	시문	I-AF	I-AF	I-AF, O, I-OG, I-TM, I-LC
-49	##학	I-AF	I-AF	I-AF, O, I-TM, I-OG, I-FD
-50	’	O	O	O, I-AF, I-OG, I-EV, I-TM
-51	도	O	O	O, B-LC, B-CV, B-PS, I-AF
-52	서양	B-LC	B-LC	B-LC, O, B-OG, B-FD, B-CV
-53	##의	O	O	O, I-LC, I-AF, B-PS, I-OG
-54	사랑	O	O	O, I-AF, B-CV, B-AF, B-PS
-55	시	B-FD	B-FD	B-FD, O, I-FD, B-AF, B-CV
-56	##를	O	O	O, I-FD, I-AF, I-CV, B-CV
-57	선별	O	O	O, B-LC, B-CV, B-PS, B-TM
-58	##해	O	O	O, B-PS, B-LC, B-CV, B-OG
-59	짧	O	O	O, B-LC, B-CV, B-PS, B-TM
-60	##은	O	O	O, B-PS, B-LC, B-CV, B-OG
-61	평	O	O	O, B-CV, B-PS, B-LC, B-FD
-62	##을	O	O	O, B-CV, B-PS, B-LC, B-OG
-63	덧붙	O	O	O, B-LC, B-PS, B-CV, B-OG
-64	##인	O	O	O, B-PS, B-LC, B-CV, B-OG
-65	글	O	O	O, B-CV, B-FD, B-LC, B-AF
-66	##이	O	O	O, B-PS, B-LC, B-CV, B-OG
-67	##었	O	O	O, B-PS, B-CV, B-LC, B-OG
-68	##다	O	O	O, B-PS, B-CV, B-LC, B-OG
-69	”	O	O	O, B-CV, B-LC, B-PS, B-OG
-70	며	O	O	O, B-LC, B-CV, B-OG, B-PS
-71	“	O	O	O, B-LC, B-CV, B-OG, B-PS
-72	이번	O	O	O, B-CV, B-PS, B-LC, B-OG
-73	##에	O	O	O, B-CV, B-PS, B-OG, B-LC
-74	발굴	O	O	O, B-CV, B-LC, B-PS, B-OG
-75	##된	O	O	O, B-PS, B-LC, B-CV, B-OG
-76	원고	O	O	O, B-CV, B-LC, B-AF, B-FD
-77	##와	O	O	O, B-PS, B-CV, B-LC, B-OG
-78	형식	O	O	O, B-CV, B-LC, B-TM, B-PS
-79	및	O	O	O, B-PS, B-LC, B-OG, B-TM
-80	내용	O	O	O, B-CV, B-LC, B-TM, B-PS
-81	##이	O	O	O, B-PS, B-LC, B-OG, B-CV
-82	흡사	O	O	O, B-CV, B-LC, B-PS, B-OG
-83	##하	O	O	O, B-PS, B-LC, B-OG, B-CV
-84	##다	O	O	O, B-CV, B-LC, B-PS, B-OG
-85	”	O	O	O, B-CV, B-LC, B-TM, B-OG
-86	고	O	O	O, B-CV, B-LC, B-TM, B-OG
-87	말	O	O	O, B-CV, B-TM, B-LC, B-OG
-88	##했	O	O	O, B-CV, B-PS, B-LC, I-OG
-89	##다	O	O	O, B-CV, B-LC, B-TM, B-OG
-90	.	O	O	O, B-LC, B-PS, B-CV, B-OG
-91	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	경인	B-OG	B-OG
+2	##교	I-OG	I-OG
+3	##대	I-OG	I-OG
+4	##는	O	O
+5	대학	O	O
+6	자체	O	O
+7	유아	O	B-OG
+8	##교육	O	I-OG
+9	##연구소	O	I-OG
+10	##에	O	O
+11	##서	O	O
+12	개발	O	O
+13	##한	O	O
+14	여러	O	O
+15	가지	O	O
+16	아동	O	O
+17	##지도	O	O
+18	프로그램	O	O
+19	##을	O	O
+20	보유	O	O
+21	##하	O	O
+22	##고	O	O
+23	있	O	O
+24	##고	O	O
+25	,	O	O
+26	예비	B-CV	B-CV
+27	##교사	I-CV	I-CV
+28	##인	O	O
+29	교대	B-CV	B-CV
+30	##생	I-CV	I-CV
+31	##들이	O	O
+32	지도	O	O
+33	교사	B-CV	I-CV
+34	##로	O	O
+35	참여	O	O
+36	##한다	O	O
+37	.	O	O
+38	[SEP]	O	O

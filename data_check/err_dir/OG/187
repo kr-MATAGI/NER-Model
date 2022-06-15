@@ -1,16 +1,38 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, I-OG, B-CV, I-EV
-1	본회의	O	O	O, B-OG, B-EV, B-LC, B-CV
-2	통과	O	O	O, I-OG, I-EV, B-OG, B-LC
-3	##시	O	O	O, I-OG, B-PS, I-EV, B-LC
-4	박근혜	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-5	공약	O	O	O, B-CV, I-PS, I-OG, I-EV
-6	##인	O	O	O, I-CV, B-PS, I-OG, I-PS
-7	상설	O	O	O, B-CV, B-OG, B-TM, B-EV
-8	##특	O	O	O, I-CV, B-CV, I-OG, I-TM
-9	##검	O	O	O, I-CV, B-CV, I-OG, I-TM
-10	##제	O	O	O, I-CV, I-OG, I-TM, B-CV
-11	1	B-QT	B-QT	B-QT, O, I-CV, I-QT, B-EV
-12	##호	I-QT	I-QT	I-QT, O, I-TM, I-CV, I-OG
-13	특검	B-OG	O	O, B-OG, B-CV, B-AF, B-EV
-14	[SEP]	O	O	O, I-OG, I-CV, I-EV, I-QT
+	text	label	preds
+0	[CLS]	O	O
+1	1980	B-DT	B-DT
+2	##년	I-DT	I-DT
+3	당시	O	O
+4	18	B-QT	B-QT
+5	##세	I-QT	I-QT
+6	##였	O	O
+7	##던	O	O
+8	대학생	B-CV	B-CV
+9	바라	B-PS	B-PS
+10	##는	O	O
+11	인턴	B-CV	B-CV
+12	##사	I-CV	I-CV
+13	##원	I-CV	I-CV
+14	신분	O	O
+15	##으로	O	O
+16	아버지	B-CV	B-CV
+17	##가	O	O
+18	근무	O	O
+19	##했	O	O
+20	##던	O	O
+21	폰	B-OG	B-TM
+22	##티	I-OG	I-TM
+23	##액	I-OG	I-TM
+24	생산	O	O
+25	##라인	O	O
+26	##에	O	O
+27	##서	O	O
+28	처음	O	O
+29	##으로	O	O
+30	회사	O	O
+31	##생활	O	O
+32	##을	O	O
+33	했	O	O
+34	##다	O	O
+35	.	O	O
+36	[SEP]	O	O

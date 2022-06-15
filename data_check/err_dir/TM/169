@@ -1,41 +1,72 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	이	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
-2	병장	B-CV	B-CV	B-CV, O, I-CV, I-PS, B-TM
-3	##은	O	O	O, I-CV, B-CV, I-EV, I-QT
-4	또	O	O	O, B-PS, B-CV, B-LC, B-TM
-5	정	B-PS	B-PS	B-PS, O, I-PS, B-OG, B-LC
-6	이병	B-CV	B-CV	B-CV, O, I-PS, I-CV, B-TM
-7	##의	O	O	O, I-CV, B-CV, I-AF, I-PS
-8	신체	O	O	O, B-TM, B-AM, B-LC, B-CV
-9	특정	O	O	O, I-TM, B-TM, I-LC, B-LC
-10	부위	O	O	O, I-TM, B-LC, B-TM, B-PS
-11	##를	O	O	O, B-PS, B-CV, B-LC, B-TM
-12	훼손	O	O	O, B-CV, B-TM, B-LC, B-PS
-13	##하	O	O	O, B-PS, B-LC, B-CV, B-OG
-14	##겠다	O	O	O, B-PS, B-CV, B-LC, B-QT
-15	##며	O	O	O, B-PS, B-LC, B-CV, B-TM
-16	전투	B-CV	B-CV	B-CV, O, B-AF, B-OG, B-FD
-17	##복	I-CV	I-CV	I-CV, O, I-AF, I-TM, I-OG
-18	지퍼	O	O	O, B-TM, I-CV, I-TM, B-AM
-19	부위	O	O	O, B-TM, I-TM, I-CV, B-LC
-20	##에	O	O	O, B-TM, B-PS, B-CV, B-LC
-21	'	O	O	O, B-CV, B-LC, B-TM, B-OG
-22	에프	B-TM	O	O, B-TM, B-AF, B-MT, B-CV
-23	##킬	I-TM	O	O, I-MT, I-TM, I-AF, I-CV
-24	##러	I-TM	O	O, I-MT, I-TM, I-AF, I-CV
-25	'	O	O	O, I-TM, I-AF, I-CV, I-OG
-26	를	O	O	O, B-CV, B-PS, B-QT, B-LC
-27	잔뜩	O	O	O, B-CV, B-QT, B-PS, B-LC
-28	뿌린	O	O	O, B-CV, B-PS, B-OG, B-LC
-29	뒤	O	O	O, B-LC, B-TM, B-PS, B-CV
-30	불	O	O	O, B-CV, B-AF, B-LC, B-MT
-31	##을	O	O	O, B-CV, I-CV, I-AF, B-PS
-32	붙인	O	O	O, B-CV, B-LC, B-PS, B-QT
-33	일	O	O	O, B-CV, B-QT, I-EV, B-LC
-34	##도	O	O	O, I-QT, I-EV, B-PS, B-CV
-35	있	O	O	O, B-CV, B-QT, B-PS, B-LC
-36	##었	O	O	O, B-PS, B-CV, I-EV, I-QT
-37	##다	O	O	O, B-CV, B-PS, B-TM, B-LC
-38	.	O	O	O, B-LC, B-PS, B-CV, B-TM
-39	[SEP]	O	O	O, B-LC, B-CV, B-PS, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	미	B-LC	B-LC
+2	국무부	B-OG	B-OG
+3	문서	O	O
+4	##를	O	O
+5	발굴	O	O
+6	##했	O	O
+7	##던	O	O
+8	박명	B-PS	B-PS
+9	##림	I-PS	I-PS
+10	연세대	B-OG	B-OG
+11	교수	B-CV	B-CV
+12	##는	O	O
+13	17	B-DT	B-DT
+14	##일	I-DT	I-DT
+15	“	O	O
+16	이	O	O
+17	자료	O	O
+18	##들	O	O
+19	##은	O	O
+20	박	B-PS	B-PS
+21	정권	O	O
+22	##이	O	O
+23	겉	O	O
+24	##으로	O	O
+25	##는	O	O
+26	공산	B-TM	O
+27	##화	I-TM	O
+28	방지	O	O
+29	,	O	O
+30	즉	O	O
+31	국가	O	O
+32	##안	O	O
+33	##보	O	O
+34	강화	O	O
+35	##를	O	O
+36	명분	O	O
+37	##으로	O	O
+38	내세웠	O	O
+39	##지만	O	O
+40	,	O	O
+41	실제로	O	O
+42	##는	O	O
+43	북한	B-OG	B-OG
+44	##과	O	O
+45	내	O	O
+46	##통	O	O
+47	##하면	O	O
+48	##서	O	O
+49	장기	O	O
+50	##집	O	O
+51	##권	O	O
+52	##을	O	O
+53	위한	O	O
+54	유신	O	O
+55	##체	O	O
+56	##제	O	O
+57	##를	O	O
+58	구축	O	O
+59	##해	O	O
+60	나간	O	O
+61	사실	O	O
+62	##을	O	O
+63	보여준다	O	O
+64	”	O	O
+65	고	O	O
+66	말	O	O
+67	##했	O	O
+68	##다	O	O
+69	.	O	O
+70	[SEP]	O	O

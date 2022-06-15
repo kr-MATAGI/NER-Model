@@ -1,21 +1,27 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	그렇	O	O	O, B-CV, B-TM, B-OG, B-LC
-2	##다면	O	O	O, B-CV, B-TM, B-OG, B-LC
-3	박테리아	O	B-AM	B-AM, O, B-TM, B-TR, B-MT
-4	##가	O	O	O, I-TM, I-AF, B-PS, I-QT
-5	입	B-AM	B-AM	B-AM, O, B-TM, B-TR, I-AM
-6	안	O	O	O, B-TM, I-TM, B-AM, B-LC
-7	##에서	O	O	O, I-TM, B-CV, B-LC, I-AF
-8	가장	O	O	O, B-LC, B-CV, B-QT, B-TM
-9	많이	O	O	O, B-LC, B-QT, B-TM, B-CV
-10	서식	O	O	O, B-LC, B-TM, B-AM, B-PS
-11	##하	O	O	O, B-LC, B-PS, I-LC, B-CV
-12	##는	O	O	O, B-LC, B-CV, I-LC, I-AF
-13	곳	O	O	O, B-LC, I-LC, B-CV, B-AF
-14	##이	O	O	O, B-LC, B-PS, I-LC, I-AF
-15	어디	O	O	O, B-LC, B-CV, I-LC, B-OG
-16	##일	O	O	O, B-LC, I-LC, B-PS, I-AF
-17	##까요	O	O	O, B-LC, I-LC, B-CV, B-TM
-18	?	O	O	O, B-CV, B-LC, B-OG, I-AF
-19	[SEP]	O	O	O, B-LC, B-CV, I-AF, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	휘	B-CV	B-CV
+2	##핑	I-CV	I-CV
+3	##크림	I-CV	I-CV
+4	.	O	O
+5	예	O	O
+6	.	O	O
+7	동물	O	B-CV
+8	##성	O	I-CV
+9	쌩	B-CV	I-CV
+10	##크림	I-CV	I-CV
+11	##에	O	O
+12	카라	B-MT	B-CV
+13	##기	I-MT	I-CV
+14	##난	I-MT	I-CV
+15	##이	O	O
+16	##란	O	O
+17	유화	O	O
+18	##제	O	O
+19	##가	O	O
+20	쪼금	O	O
+21	들어가	O	O
+22	있	O	O
+23	##어요	O	O
+24	.	O	O
+25	[SEP]	O	O

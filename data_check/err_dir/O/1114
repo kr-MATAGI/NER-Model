@@ -1,40 +1,13 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	검찰	B-OG	B-OG	B-OG, B-LC, O, B-AF, B-CV
-2	##은	O	O	O, I-OG, B-CV, I-AF, I-EV
-3	신한은행	B-OG	B-OG	B-OG, B-AF, B-LC, I-OG, O
-4	도쿄	I-OG	I-OG	I-OG, B-OG, B-LC, I-LC, O
-5	##지	I-OG	I-OG	I-OG, O, I-LC, I-CV, B-OG
-6	##점	I-OG	I-OG	I-OG, O, I-CV, I-LC, I-AF
-7	##이	O	O	O, I-OG, B-PS, I-AF, I-CV
-8	2007	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-9	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-10	부동산	O	O	O, B-CV, B-LC, B-MT, I-DT
-11	##관리	O	O	O, I-CV, B-CV, I-LC, B-LC
-12	##회사	O	O	O, B-CV, I-CV, B-LC, B-OG
-13	‘	O	O	O, B-OG, B-LC, I-OG, B-AF
-14	팬	B-OG	B-OG	B-OG, I-OG, O, B-CV, B-LC
-15	(	I-OG	I-OG	I-OG, O, I-CV, B-OG, I-LC
-16	PA	I-OG	I-OG	I-OG, O, B-OG, I-CV, I-LC
-17	##N	I-OG	I-OG	I-OG, O, I-CV, I-LC, B-OG
-18	)	I-OG	I-OG	I-OG, O, I-CV, I-LC, B-OG
-19	재팬	I-OG	I-OG	I-OG, O, B-OG, I-LC, I-CV
-20	’	O	I-OG	I-OG, O, I-LC, I-CV, B-OG
-21	주식회사	O	I-OG	I-OG, O, I-CV, I-LC, B-OG
-22	##에	O	O	O, I-OG, B-CV, I-AF, I-CV
-23	240	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-OG
-24	##억	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-OG
-25	원	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-26	##을	O	O	O, I-QT, B-CV, I-OG, I-AF
-27	대출	O	O	O, B-CV, B-LC, B-TM, B-AF
-28	##해	O	O	O, B-CV, B-PS, B-LC, B-OG
-29	준	O	O	O, B-CV, B-PS, B-OG, B-LC
-30	과정	O	O	O, B-CV, B-OG, B-TM, B-LC
-31	##을	O	O	O, B-CV, B-OG, B-LC, B-TM
-32	면밀히	O	O	O, B-CV, B-LC, B-OG, B-TM
-33	들여다보	O	O	O, B-CV, B-LC, B-OG, B-TM
-34	##고	O	O	O, B-OG, B-CV, B-LC, B-PS
-35	있	O	O	O, B-CV, B-OG, B-LC, B-TM
-36	##다	O	O	O, B-CV, B-LC, B-OG, B-TM
-37	.	O	O	O, B-OG, B-LC, B-CV, I-OG
-38	[SEP]	O	O	O, B-OG, B-LC, I-OG, B-CV
+	text	label	preds
+0	[CLS]	O	O
+1	근데	O	O
+2	그	O	O
+3	흔히	O	O
+4	말	O	O
+5	##하	O	O
+6	##는	O	O
+7	케이블	O	B-TM
+8	티비	B-TM	I-TM
+9	##에	O	O
+10	##서	O	O
+11	[SEP]	O	O

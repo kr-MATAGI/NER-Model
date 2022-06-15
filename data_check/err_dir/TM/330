@@ -1,36 +1,45 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	서울	B-LC	B-LC	B-LC, O, B-OG, B-PS, B-AF
-2	방배	B-LC	B-LC	B-LC, I-LC, O, B-OG, B-PS
-3	##동	I-LC	I-LC	I-LC, O, B-LC, I-PS, I-OG
-4	##의	O	O	O, I-LC, I-AF, B-LC, I-OG
-5	탈	O	O	O, B-LC, B-CV, B-TM, B-FD
-6	##북	O	O	O, I-CV, I-LC, I-TM, I-AF
-7	학생	B-CV	B-CV	B-CV, O, I-CV, B-OG, I-OG
-8	대안	O	O	O, I-CV, B-OG, B-CV, I-OG
-9	##학교	O	O	O, I-OG, I-CV, B-OG, B-CV
-10	##인	O	O	O, I-OG, B-OG, I-CV, B-CV
-11	'	O	O	O, B-OG, B-LC, B-CV, B-PS
-12	두리	B-OG	B-OG	B-OG, O, B-AF, B-LC, I-OG
-13	##하나	I-OG	I-OG	I-OG, O, I-LC, I-AF, B-OG
-14	##국제	I-OG	I-OG	I-OG, O, I-LC, I-AF, B-OG
-15	##학교	I-OG	I-OG	I-OG, O, I-LC, I-AF, I-CV
-16	'	O	O	O, I-OG, B-CV, I-AF, I-CV
-17	는	O	O	O, B-OG, B-LC, B-CV, B-TM
-18	지난	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-LC
-19	18	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-20	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-21	2	B-QT	B-QT	B-QT, I-QT, I-DT, O, B-DT
-22	##배	I-QT	I-QT	I-QT, O, I-DT, I-LC, I-EV
-23	넓	O	O	O, I-QT, B-TM, B-CV, I-AF
-24	##은	O	O	O, B-TM, B-LC, B-OG, B-PS
-25	맞은편	B-TM	O	O, B-TM, B-QT, B-CV, B-AF
-26	건물	O	O	O, B-TM, B-CV, B-AF, B-QT
-27	5	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-TM
-28	##층	I-QT	I-QT	I-QT, O, I-TM, I-LC, I-PS
-29	##으로	O	O	O, I-QT, B-CV, I-AF, I-OG
-30	이사	O	O	O, B-CV, B-TM, B-AF, B-QT
-31	##했	O	O	O, B-PS, B-LC, B-OG, B-CV
-32	##다	O	O	O, B-CV, B-LC, B-OG, I-OG
-33	.	O	O	O, B-LC, B-OG, B-CV, B-PS
-34	[SEP]	O	O	O, B-LC, B-OG, B-CV, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	하지	O	O
+2	##만	O	O
+3	올해	B-DT	B-DT
+4	의장	O	O
+5	##국	O	O
+6	##인	O	O
+7	프랑스	B-LC	B-LC
+8	##가	O	O
+9	그리스	B-LC	B-LC
+10	재정	O	O
+11	##위	O	O
+12	##기	O	O
+13	##의	O	O
+14	직격탄	O	O
+15	##을	O	O
+16	맞	O	O
+17	##으며	O	O
+18	GS	B-TM	B-EV
+19	##M	I-TM	I-TM
+20	##에	O	O
+21	대해	O	O
+22	호의	O	O
+23	##적	O	O
+24	##인	O	O
+25	입장	O	O
+26	##으로	O	O
+27	돌아서	O	O
+28	합의	O	O
+29	가능	O	O
+30	##성	O	O
+31	##에	O	O
+32	대한	O	O
+33	긍정	O	O
+34	##적	O	O
+35	##인	O	O
+36	전망	O	O
+37	##이	O	O
+38	나오	O	O
+39	##고	O	O
+40	있	O	O
+41	##다	O	O
+42	.	O	O
+43	[SEP]	O	O

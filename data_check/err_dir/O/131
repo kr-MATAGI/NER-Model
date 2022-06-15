@@ -1,74 +1,34 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-EV, I-OG, I-CV
-1	한	O	O	O, B-QT, B-OG, B-LC, B-TM
-2	백화점	O	O	O, B-CV, B-AF, B-QT, B-TM
-3	관계자	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-TM
-4	##는	O	O	O, I-CV, I-QT, I-EV, I-OG
-5	“	O	O	O, B-CV, B-LC, B-OG, B-TM
-6	청소년	B-CV	B-CV	B-CV, O, B-OG, I-CV, B-TM
-7	##들	O	O	O, I-CV, B-CV, I-OG, I-EV
-8	사이	O	O	O, B-CV, B-LC, B-PS, B-TM
-9	##에	O	O	O, B-PS, B-LC, B-CV, B-OG
-10	노스페이스	B-OG	B-OG	B-OG, O, B-AF, B-PS, B-CV
-11	상품	O	O	O, I-OG, I-AF, B-CV, I-CV
-12	##을	O	O	O, B-CV, B-PS, B-QT, B-LC
-13	사면	O	O	O, B-CV, B-QT, B-OG, B-PS
-14	‘	O	O	O, B-CV, B-PS, B-LC, B-OG
-15	노스페이스	B-OG	B-OG	B-OG, O, B-PS, B-AF, B-CV
-16	추종	B-CV	B-CV	B-CV, O, I-CV, I-OG, B-PS
-17	##자	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-AF
-18	’	O	O	O, I-CV, B-PS, I-QT, I-OG
-19	라는	O	O	O, B-PS, B-QT, B-CV, B-LC
-20	인식	O	O	O, B-CV, B-PS, B-TM, B-LC
-21	##까	O	O	O, B-PS, B-CV, I-CV, B-TM
-22	##지	O	O	O, B-PS, B-CV, B-TM, B-LC
-23	생기	O	O	O, B-CV, B-PS, B-TM, B-QT
-24	##면서	O	O	O, B-PS, B-CV, B-LC, I-QT
-25	매출	O	O	O, B-CV, B-TM, B-LC, B-OG
-26	##이	O	O	O, B-PS, B-OG, B-CV, B-LC
-27	줄어들	O	O	O, B-CV, B-TM, B-QT, B-LC
-28	##고	O	O	O, B-CV, B-PS, B-TM, B-LC
-29	있	O	O	O, B-CV, B-TM, B-PS, B-LC
-30	##다	O	O	O, B-CV, B-TM, B-QT, B-OG
-31	”	O	O	O, B-CV, B-TM, B-LC, B-OG
-32	며	O	O	O, B-LC, B-CV, B-OG, B-TM
-33	“	O	O	O, B-CV, B-LC, B-OG, B-TM
-34	여기	O	O	O, B-PS, B-CV, B-LC, B-TM
-35	##에다	O	O	O, B-LC, B-CV, B-OG, B-PS
-36	최근	O	O	O, B-LC, B-CV, B-DT, B-OG
-37	날씨	O	O	O, B-LC, B-CV, B-OG, B-EV
-38	##가	O	O	O, B-PS, B-LC, B-OG, B-CV
-39	추워	O	O	O, B-LC, B-CV, B-PS, B-TM
-40	봄	B-DT	B-DT	B-DT, O, B-QT, B-EV, I-DT
-41	상품	O	O	O, I-DT, I-AF, B-CV, I-QT
-42	##까	O	O	O, B-CV, B-LC, B-TM, B-OG
-43	##지	O	O	O, B-LC, B-CV, B-OG, B-PS
-44	영향	O	O	O, B-CV, B-LC, B-TM, B-OG
-45	##을	O	O	O, B-CV, B-OG, B-PS, B-LC
-46	받	O	O	O, B-CV, B-LC, B-PS, B-OG
-47	##고	O	O	O, B-LC, B-PS, B-CV, B-TM
-48	있	O	O	O, B-CV, B-LC, B-OG, B-PS
-49	##는데	O	O	O, B-CV, B-LC, B-OG, B-TM
-50	,	O	O	O, B-CV, B-LC, B-OG, B-PS
-51	이런	O	O	O, B-LC, B-CV, B-PS, B-QT
-52	추세	O	O	O, B-CV, B-LC, B-PS, B-OG
-53	##라면	O	O	O, B-LC, B-OG, B-PS, B-CV
-54	1	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-55	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
-56	내내	O	I-DT	I-DT, O, B-DT, I-QT, B-TI
-57	할인	O	O	O, B-CV, B-EV, B-TM, B-LC
-58	##전	O	O	O, I-EV, I-CV, I-TM, B-CV
-59	##을	O	O	O, B-CV, I-EV, B-OG, B-LC
-60	열	O	O	O, B-CV, B-OG, B-TM, B-LC
-61	##어야	O	O	O, B-CV, B-TM, B-OG, B-LC
-62	하	O	O	O, B-CV, B-TM, B-OG, B-LC
-63	##는	O	O	O, B-CV, B-TM, B-QT, B-OG
-64	상황	O	O	O, B-CV, B-TM, B-QT, B-OG
-65	”	O	O	O, B-CV, B-TM, B-LC, B-QT
-66	이라	O	O	O, B-CV, B-TM, B-QT, B-PS
-67	##고	O	O	O, B-CV, B-QT, B-TM, I-QT
-68	말	O	O	O, B-CV, B-TM, B-QT, I-QT
-69	##했	O	O	O, B-CV, I-QT, B-PS, B-LC
-70	##다	O	O	O, B-CV, B-TM, B-QT, B-LC
-71	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-72	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	젊	O	O
+2	##은	O	O
+3	세대	O	O
+4	##가	O	O
+5	좋	O	O
+6	##아	O	O
+7	##하	O	O
+8	##는	O	O
+9	김치	B-CV	B-CV
+10	##를	O	O
+11	만들	O	O
+12	##어	O	O
+13	전	O	O
+14	세계	O	O
+15	##에	O	O
+16	김치	B-CV	B-CV
+17	##의	O	O
+18	우수	O	O
+19	##성	O	O
+20	##을	O	O
+21	널리	O	O
+22	알리	O	O
+23	##겠다	O	O
+24	##는	O	O
+25	청년	O	O
+26	##사장	O	B-CV
+27	##이	O	O
+28	있	O	O
+29	##습	O	O
+30	##니다	O	O
+31	.	O	O
+32	[SEP]	O	O

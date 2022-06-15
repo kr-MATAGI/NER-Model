@@ -1,39 +1,54 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	20	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-LC
-2	##세기	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-TI
-3	중반	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-TI
-4	##까	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-TI
-5	##지	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-TI
-6	##는	O	O	O, I-DT, B-CV, B-TM, B-LC
-7	렌즈	O	O	O, B-TM, B-CV, B-AM, B-TR
-8	·	O	O	O, I-TM, I-AF, I-CV, I-QT
-9	망원경	O	B-TM	B-TM, O, B-CV, B-AF, I-TM
-10	등	O	O	O, I-TM, I-AF, B-PS, I-QT
-11	군수	O	O	O, B-CV, B-AF, B-OG, B-TM
-12	##산업	O	O	O, I-CV, I-TM, I-AF, I-OG
-13	##형	O	O	O, I-TM, I-CV, I-AF, I-OG
-14	광학	B-TM	O	O, B-TM, I-TM, B-FD, B-CV
-15	##기	I-TM	O	O, I-TM, I-CV, I-AF, I-TR
-16	##기	I-TM	O	O, I-TM, I-CV, I-AF, I-TR
-17	##가	O	O	O, I-TM, B-PS, I-AF, I-CV
-18	핵심	O	O	O, B-CV, B-TM, B-QT, B-LC
-19	##이	O	O	O, B-PS, B-OG, B-CV, B-LC
-20	##었	O	O	O, B-CV, B-OG, B-TM, B-PS
-21	##으나	O	O	O, B-TM, B-CV, B-LC, B-PS
-22	,	O	O	O, B-LC, B-CV, B-PS, B-OG
-23	1960	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-LC
-24	##년	I-DT	I-DT	I-DT, O, I-QT, B-DT, I-PS
-25	레이저	B-TM	B-TM	B-TM, B-TR, O, B-AM, B-EV
-26	발명	O	O	O, I-TM, I-TR, I-EV, B-CV
-27	##으로	O	O	O, B-PS, B-LC, B-CV, I-EV
-28	광기	B-TR	O	O, B-TR, B-FD, B-TM, B-PS
-29	##술	I-TR	O	O, I-TR, I-FD, I-TM, I-CV
-30	발전	O	O	O, B-CV, I-TM, I-TR, I-CV
-31	##이	O	O	O, B-PS, B-OG, B-LC, B-CV
-32	본격	O	O	O, B-CV, B-LC, B-OG, B-TM
-33	##화	O	O	O, I-OG, B-LC, B-CV, B-PS
-34	##했	O	O	O, B-CV, B-LC, B-OG, B-PS
-35	##다	O	O	O, B-CV, B-LC, B-TM, I-OG
-36	.	O	O	O, B-LC, B-CV, B-PS, B-TM
-37	[SEP]	O	O	O, B-CV, B-LC, B-TM, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	30	B-QT	B-QT
+2	##만	I-QT	I-QT
+3	##명	I-QT	I-QT
+4	##이	O	O
+5	넘	O	O
+6	##는	O	O
+7	노동자	B-CV	B-CV
+8	##가	O	O
+9	일	O	O
+10	##하	O	O
+11	##는	O	O
+12	세계	O	O
+13	최대	O	O
+14	위탁	O	O
+15	##생	O	O
+16	##산	O	O
+17	##시설	O	O
+18	##인	O	O
+19	폭스	B-OG	B-OG
+20	##콘	I-OG	I-OG
+21	선전	B-AF	B-AF
+22	공장	I-AF	I-AF
+23	##은	O	O
+24	애플	B-OG	B-OG
+25	##의	O	O
+26	아이폰	B-AF	B-AF
+27	,	O	O
+28	아이	B-AF	B-AF
+29	##팟	I-AF	I-AF
+30	,	O	O
+31	아이패드	B-AF	B-AF
+32	##를	O	O
+33	비롯	O	O
+34	##해	O	O
+35	,	O	O
+36	휼	B-OG	B-OG
+37	##렛	I-OG	I-OG
+38	##패	I-OG	I-OG
+39	##커	I-OG	I-OG
+40	##드	I-OG	I-OG
+41	##의	O	O
+42	컴퓨터	B-TM	B-TM
+43	,	O	O
+44	소니	B-OG	B-OG
+45	##의	O	O
+46	플레이스	B-TM	B-AF
+47	##테이션	I-TM	I-AF
+48	##을	O	O
+49	생산	O	O
+50	##한다	O	O
+51	.	O	O
+52	[SEP]	O	O

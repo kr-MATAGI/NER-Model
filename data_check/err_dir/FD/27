@@ -1,34 +1,41 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	40	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-2	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-3	동안	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-4	축적	O	O	O, B-LC, I-DT, B-CV, B-TM
-5	##된	O	O	O, B-LC, B-PS, B-OG, B-TM
-6	고분	B-FD	O	O, B-FD, B-TR, B-MT, I-FD
-7	##자	I-FD	O	O, I-FD, I-TR, B-FD, I-MT
-8	##화학	I-FD	O	O, I-FD, I-TR, I-OG, B-FD
-9	기술	O	O	O, I-TR, I-FD, B-FD, B-TR
-10	##로	O	O	O, B-LC, B-PS, B-CV, B-OG
-11	PV	B-MT	B-MT	B-MT, O, B-TM, B-TR, B-FD
-12	##C	I-MT	I-MT	I-MT, O, B-MT, I-TM, I-TR
-13	,	O	O	O, I-MT, I-OG, B-LC, I-TM
-14	PE	B-MT	B-MT	B-MT, O, I-MT, B-TM, B-TR
-15	,	O	O	O, I-MT, I-CV, B-LC, B-CV
-16	PO	B-MT	B-MT	B-MT, O, I-MT, B-TM, B-TR
-17	재질	O	O	O, I-MT, I-TM, I-CV, B-MT
-18	##의	O	O	O, B-LC, B-PS, B-CV, B-AF
-19	표면	O	O	O, B-AF, B-TM, B-CV, B-MT
-20	보호	O	O	O, I-AF, I-TM, I-CV, I-MT
-21	##용	O	O	O, I-AF, I-TM, I-CV, I-MT
-22	테이프	O	O	O, I-AF, I-TM, I-CV, B-AF
-23	##를	O	O	O, I-AF, I-TM, I-CV, B-CV
-24	산업	O	O	O, B-LC, B-CV, B-TM, B-FD
-25	##현	O	O	O, B-LC, B-CV, I-AF, B-TM
-26	##장	O	O	O, B-LC, B-CV, B-TM, B-PS
-27	곳곳	O	O	O, B-CV, B-TM, B-LC, B-AF
-28	##에	O	O	O, B-CV, B-LC, B-TM, B-OG
-29	공급	O	O	O, B-LC, B-CV, B-OG, B-TM
-30	##한다	O	O	O, B-OG, B-CV, B-TM, B-LC
-31	.	O	O	O, B-LC, B-CV, B-PS, I-OG
-32	[SEP]	O	O	O, B-LC, B-CV, I-AF, B-AF
+	text	label	preds
+0	[CLS]	O	O
+1	예전	O	O
+2	사극	O	B-FD
+3	뮤지컬	B-FD	I-FD
+4	##들이	O	O
+5	주로	O	O
+6	대	O	O
+7	##극장	O	O
+8	##용	O	O
+9	##으로	O	O
+10	제작	O	O
+11	##됐	O	O
+12	##고	O	O
+13	공연	O	O
+14	기간	O	O
+15	##도	O	O
+16	짧	O	O
+17	##았	O	O
+18	##던	O	O
+19	반면	O	O
+20	요즘	O	O
+21	##은	O	O
+22	소극장	O	O
+23	##용	O	O
+24	##으로	O	O
+25	제작	O	O
+26	##해	O	O
+27	장기	O	O
+28	공연	O	O
+29	##을	O	O
+30	통해	O	O
+31	짭짤	O	O
+32	##한	O	O
+33	재미	O	O
+34	##를	O	O
+35	보고	O	O
+36	있	O	O
+37	##다	O	O
+38	.	O	O
+39	[SEP]	O	O

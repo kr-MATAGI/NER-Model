@@ -1,24 +1,26 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-AF
-1	진보	B-TR	B-TR	B-TR, O, I-TR, B-PS, B-TM
-2	##주의	I-TR	I-TR	I-TR, O, B-TR, I-QT, I-FD
-3	##라는	O	O	O, I-TR, I-QT, I-AF, I-EV
-4	말	O	O	O, B-CV, B-LC, B-PS, B-QT
-5	##이	O	O	O, B-PS, B-LC, B-CV, I-AF
-6	가능	O	O	O, B-CV, B-LC, B-PS, B-TR
-7	##한	O	O	O, I-TR, I-OG, I-CV, B-PS
-8	##가	O	O	O, I-OG, I-AF, I-LC, I-PS
-9	.	O	O	O, B-CV, B-LC, I-AF, B-OG
-10	사실	O	O	O, B-CV, B-LC, B-OG, B-PS
-11	제	O	O	O, B-CV, B-PS, B-LC, B-OG
-12	##가	O	O	O, B-PS, B-CV, B-LC, B-OG
-13	이천	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-14	##칠	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-15	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
-16	##도	I-DT	O	O, I-DT, I-QT, B-DT, I-EV
-17	##에	O	O	O, I-DT, B-CV, B-OG, B-LC
-18	썼	O	O	O, B-CV, B-LC, B-OG, B-AF
-19	##던	O	O	O, B-CV, B-LC, B-PS, B-OG
-20	책	O	O	O, B-AF, B-CV, B-TM, B-OG
-21	##에서	O	O	O, I-AF, B-CV, B-LC, I-OG
-22	[SEP]	O	O	O, B-CV, B-LC, I-AF, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	▷	O	O
+2	##한	B-LC	B-LC
+3	##국	I-LC	I-LC
+4	##의	O	O
+5	줄기세포	B-TM	B-TM
+6	연구	O	O
+7	##는	O	O
+8	2005	B-DT	B-DT
+9	##년	I-DT	I-DT
+10	황우	B-DT	B-PS
+11	##석	I-DT	I-DT
+12	논문	I-DT	I-DT
+13	##조작	I-DT	I-DT
+14	사건	I-DT	I-DT
+15	이후	I-DT	I-DT
+16	부진	O	O
+17	##의	O	O
+18	늪	O	O
+19	##에	O	O
+20	빠져	O	O
+21	있	O	O
+22	##다	O	O
+23	.	O	O
+24	[SEP]	O	O

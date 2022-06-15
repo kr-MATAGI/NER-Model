@@ -1,16 +1,27 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	윤	O	B-PS	B-PS, O, B-AM, B-CV, B-LC
-2	##미	O	O	O, I-PS, I-CV, B-PS, I-QT
-3	##라는	O	O	O, I-PS, B-PS, B-AM, B-CV
-4	낯	B-AM	O	O, B-AM, B-PS, I-PS, I-AM
-5	##이	O	O	O, B-PS, I-PS, B-AM, I-AM
-6	뜨거워	O	O	O, B-PS, B-LC, B-TM, I-PS
-7	차	B-AF	B-AF	B-AF, O, I-AF, B-TM, B-OG
-8	##에	O	O	O, I-AF, I-OG, B-CV, I-CV
-9	타고	O	O	O, I-AF, B-CV, B-AF, B-QT
-10	말	O	O	O, B-CV, B-QT, I-AF, B-PS
-11	##았	O	O	O, B-CV, B-PS, I-CV, I-AF
-12	##다	O	O	O, B-CV, I-QT, I-CV, B-TM
-13	.	O	O	O, B-PS, B-CV, I-AF, B-LC
-14	[SEP]	O	O	O, B-CV, B-PS, I-AF, B-AM
+	text	label	preds
+0	[CLS]	O	O
+1	지난	B-DT	B-DT
+2	6	I-DT	I-DT
+3	##년	I-DT	I-DT
+4	##간	I-DT	I-DT
+5	##의	O	O
+6	보수	O	B-TR
+7	우세	O	O
+8	##가	O	O
+9	이어지	O	O
+10	##느	O	O
+11	##냐	O	O
+12	,	O	O
+13	진보	O	B-TR
+14	##가	O	O
+15	열세	O	O
+16	##를	O	O
+17	극복	O	O
+18	##하	O	O
+19	##느	O	O
+20	##냐	O	O
+21	##가	O	O
+22	관건	O	O
+23	##이다	O	O
+24	.	O	O
+25	[SEP]	O	O

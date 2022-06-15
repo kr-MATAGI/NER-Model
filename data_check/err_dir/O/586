@@ -1,31 +1,43 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-EV, B-CV, I-CV
-1	국내	O	O	O, B-LC, B-EV, B-TM, B-CV
-2	투어	O	O	O, I-EV, B-EV, B-LC, B-CV
-3	##가	O	O	O, B-PS, I-EV, B-LC, B-OG
-4	괄목	O	O	O, B-CV, B-LC, B-OG, B-TM
-5	##할	O	O	O, B-PS, B-LC, B-OG, I-LC
-6	만한	O	O	O, B-PS, B-LC, B-OG, I-PS
-7	성장	O	O	O, B-LC, B-CV, B-OG, B-TM
-8	##을	O	O	O, B-PS, B-LC, B-OG, B-CV
-9	보이	O	O	O, B-LC, B-OG, B-PS, B-CV
-10	##자	O	O	O, B-LC, B-PS, I-OG, B-OG
-11	올해	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-OG
-12	##부터	I-DT	I-DT	I-DT, O, I-QT, B-DT, I-PS
-13	##는	O	O	O, I-DT, B-LC, B-CV, I-EV
-14	국내	O	O	O, B-LC, B-EV, B-TM, B-CV
-15	투어	O	O	O, I-EV, B-EV, B-CV, B-LC
-16	##도	O	O	O, I-EV, B-PS, I-OG, B-CV
-17	월드	O	O	O, B-CV, B-TM, B-AF, B-EV
-18	##골	O	I-CV	I-CV, O, B-CV, I-TM, I-AF
-19	##프	O	I-CV	I-CV, O, I-TM, I-AF, B-CV
-20	##랭	O	O	O, I-CV, I-AF, I-TM, B-CV
-21	##킹	O	I-CV	I-CV, O, I-AF, I-TM, I-OG
-22	포인트	O	O	O, I-CV, I-AF, I-TM, B-CV
-23	##를	O	O	O, I-CV, I-AF, I-TM, I-OG
-24	받	O	O	O, B-CV, B-TM, B-OG, B-LC
-25	##게	O	O	O, B-CV, B-OG, B-TM, B-LC
-26	됐	O	O	O, B-CV, B-OG, B-LC, B-TM
-27	##다	O	O	O, B-CV, I-EV, I-OG, I-CV
-28	.	O	O	O, B-LC, B-CV, B-OG, B-PS
-29	[SEP]	O	O	O, B-LC, B-CV, I-EV, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	과학	B-FD	B-TM
+2	##기술	I-FD	I-TM
+3	##위성	O	I-TM
+4	3	B-QT	B-QT
+5	##호	I-QT	I-QT
+6	##에	O	O
+7	민간	O	O
+8	##기업	O	O
+9	##이	O	O
+10	운영	O	O
+11	##하	O	O
+12	##는	O	O
+13	통신	O	B-TM
+14	##위성	O	I-TM
+15	##까	O	O
+16	##지	O	O
+17	포함	O	O
+18	##하면	O	O
+19	10	O	B-QT
+20	##여	O	I-QT
+21	기가	O	I-QT
+22	우주	O	O
+23	##에	O	O
+24	##서	O	O
+25	매	O	O
+26	##초	O	O
+27	우주	O	O
+28	##쓰	O	O
+29	##레	O	O
+30	##기	O	O
+31	##와	O	O
+32	##의	O	O
+33	충돌	O	O
+34	위험	O	O
+35	##에	O	O
+36	노출	O	O
+37	##돼	O	O
+38	있	O	O
+39	##다	O	O
+40	.	O	O
+41	[SEP]	O	O

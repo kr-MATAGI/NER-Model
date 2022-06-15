@@ -1,62 +1,66 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-EV, I-CV, I-OG
-1	조	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
-2	##억	I-PS	I-PS	I-PS, O, I-OG, B-PS, I-LC
-3	##동	I-PS	I-PS	I-PS, O, B-PS, I-OG, I-LC
-4	광주시장	O	B-CV	B-CV, O, B-LC, I-PS, B-OG
-5	##은	O	O	O, I-CV, I-EV, B-CV, I-OG
-6	""""	O	O	O, B-CV, B-LC, B-PS, B-OG
-7	경	O	B-TM	B-TM, B-LC, O, I-TM, B-AF
-8	##안	O	I-TM	I-TM, I-LC, O, I-AF, I-OG
-9	##시장	B-CV	I-TM	I-TM, I-LC, O, I-AF, I-OG
-10	현대	O	I-TM	I-TM, O, B-TM, I-LC, I-AF
-11	##화	O	I-TM	I-TM, O, I-AF, I-OG, I-LC
-12	##사업	O	I-TM	I-TM, O, I-QT, I-AF, I-OG
-13	##은	O	O	O, I-TM, I-OG, I-AF, I-QT
-14	시민	B-CV	B-CV	B-CV, O, B-OG, I-CV, B-AF
-15	##들	O	O	O, I-CV, I-OG, I-EV, B-CV
-16	##에	O	O	O, B-CV, B-LC, B-PS, B-TM
-17	##게	O	O	O, B-LC, B-CV, B-PS, B-TM
-18	쾌적	O	O	O, B-LC, B-PS, B-CV, B-TM
-19	##한	O	O	O, B-LC, B-PS, I-LC, B-CV
-20	쇼핑	O	O	O, B-CV, B-LC, I-LC, B-TM
-21	##환경	O	O	O, B-LC, I-LC, B-PS, B-CV
-22	##을	O	O	O, B-CV, B-PS, B-LC, B-TM
-23	제공	O	O	O, B-CV, B-PS, B-LC, B-TM
-24	##함	O	O	O, B-PS, B-LC, B-CV, I-PS
-25	##으로	O	O	O, B-PS, B-LC, B-CV, B-OG
-26	##써	O	O	O, B-LC, B-PS, B-CV, B-OG
-27	지역	O	O	O, B-LC, B-CV, B-FD, I-LC
-28	##경제	O	O	O, I-LC, I-FD, I-CV, B-FD
-29	##의	O	O	O, B-PS, B-LC, B-CV, B-OG
-30	근간	O	O	O, B-LC, B-PS, B-TM, B-CV
-31	##인	O	O	O, B-PS, B-LC, B-CV, I-LC
-32	전통	O	O	O, B-LC, B-CV, I-LC, B-FD
-33	##시장	O	O	O, I-LC, B-LC, I-CV, B-CV
-34	##이	O	O	O, B-PS, B-LC, I-LC, B-CV
-35	순	O	O	O, B-LC, B-PS, B-TM, B-CV
-36	##기능	O	O	O, I-LC, B-LC, I-PS, B-PS
-37	##을	O	O	O, B-CV, B-PS, B-LC, I-LC
-38	발휘	O	O	O, B-LC, B-CV, B-TM, B-PS
-39	##하	O	O	O, B-LC, B-PS, B-CV, B-OG
-40	##도록	O	O	O, B-LC, B-PS, B-CV, I-LC
-41	지원	O	O	O, B-LC, B-CV, B-PS, B-TM
-42	##해	O	O	O, B-LC, B-PS, B-CV, I-LC
-43	침체	O	O	O, B-LC, B-CV, B-TM, B-OG
-44	##된	O	O	O, B-LC, B-PS, B-CV, I-LC
-45	전통	O	O	O, B-LC, B-CV, I-LC, B-FD
-46	##시장	O	O	O, I-LC, I-CV, B-LC, B-CV
-47	##을	O	O	O, I-CV, B-CV, I-LC, B-PS
-48	살리	O	O	O, B-CV, B-LC, B-TM, B-PS
-49	##는데	O	O	O, B-PS, B-LC, B-CV, I-LC
-50	목적	O	O	O, B-CV, B-LC, B-PS, B-OG
-51	##이	O	O	O, B-PS, I-PS, B-CV, I-CV
-52	있	O	O	O, B-PS, B-CV, B-LC, B-OG
-53	##다	O	O	O, B-CV, B-PS, I-OG, B-LC
-54	""""	O	O	O, B-CV, B-LC, B-TM, B-PS
-55	고	O	O	O, B-CV, B-LC, B-PS, B-TM
-56	말	O	O	O, B-CV, B-LC, B-TM, B-PS
-57	##했	O	O	O, B-PS, B-CV, B-LC, I-EV
-58	##다	O	O	O, B-CV, B-LC, B-PS, I-EV
-59	.	O	O	O, B-LC, B-PS, B-CV, I-EV
-60	[SEP]	O	O	O, B-LC, B-CV, B-PS, I-EV
+	text	label	preds
+0	[CLS]	O	O
+1	새	B-OG	B-OG
+2	##누리	I-OG	I-OG
+3	##당	I-OG	I-OG
+4	김무성	B-PS	B-PS
+5	대표	B-CV	B-CV
+6	##는	O	O
+7	작년	B-DT	B-DT
+8	취임	O	O
+9	이전	O	O
+10	##부터	O	O
+11	“	O	O
+12	권력자	B-CV	O
+13	##에	O	O
+14	##게	O	O
+15	충성	O	O
+16	##해서	O	O
+17	공천	O	O
+18	##을	O	O
+19	받	O	O
+20	##는	O	O
+21	정치	O	O
+22	현실	O	O
+23	##을	O	O
+24	뜯어	O	O
+25	##고	O	O
+26	##치	O	O
+27	##겠다	O	O
+28	”	O	O
+29	며	O	O
+30	“	O	O
+31	지도부	O	O
+32	##의	O	O
+33	공천	O	B-CV
+34	##권	O	I-CV
+35	##을	O	O
+36	내려놓	O	O
+37	##기	O	O
+38	위해	O	O
+39	오픈	B-CV	B-CV
+40	##프라	I-CV	I-CV
+41	##이	I-CV	I-CV
+42	##머리	I-CV	I-CV
+43	(	O	O
+44	완전	B-CV	B-CV
+45	##국	I-CV	I-CV
+46	##민	I-CV	I-CV
+47	##참	I-CV	I-CV
+48	##여	I-CV	I-CV
+49	##경	I-CV	I-CV
+50	##선	I-CV	I-CV
+51	##제	I-CV	I-CV
+52	)	O	O
+53	를	O	O
+54	도입	O	O
+55	##하	O	O
+56	##겠다	O	O
+57	”	O	O
+58	고	O	O
+59	공언	O	O
+60	##해	O	O
+61	##왔	O	O
+62	##다	O	O
+63	.	O	O
+64	[SEP]	O	O

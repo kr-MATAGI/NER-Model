@@ -1,11 +1,20 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-EV, I-CV
-1	이	O	O	O, B-OG, B-PS, B-LC, B-AF
-2	정보	O	B-OG	B-OG, O, I-OG, B-CV, B-EV
-3	##협	O	I-OG	I-OG, O, B-OG, I-CV, I-EV
-4	##정	O	I-OG	I-OG, O, B-OG, I-CV, I-EV
-5	##이	O	O	O, I-OG, B-PS, I-EV, I-AF
-6	맺	O	O	O, B-CV, B-OG, I-OG, B-LC
-7	##어졌	O	O	O, B-CV, I-OG, B-OG, I-EV
-8	##고	O	O	O, B-CV, B-OG, I-OG, B-LC
-9	[SEP]	O	O	O, B-OG, B-CV, B-LC, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	데뷔	O	B-EV
+2	##전	O	I-EV
+3	##을	O	O
+4	치른	O	O
+5	이승기	B-PS	B-PS
+6	##는	O	O
+7	나날이	O	O
+8	기량	O	O
+9	##이	O	O
+10	향상	O	O
+11	##되	O	O
+12	##는	O	O
+13	모습	O	O
+14	##을	O	O
+15	보였	O	O
+16	##다	O	O
+17	.	O	O
+18	[SEP]	O	O

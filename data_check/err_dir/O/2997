@@ -1,6 +1,28 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	요즘	O	O	O, B-CV, B-TM, B-OG, B-LC
-2	##에	O	O	O, B-CV, B-PS, B-OG, I-AF
-3	방풍	O	B-CV	B-CV, O, B-TM, B-PT, B-OG
-4	[SEP]	O	O	O, I-CV, I-OG, B-CV, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	6	B-EV	B-EV
+2	·	I-EV	I-EV
+3	25	I-EV	I-EV
+4	##전쟁	I-EV	I-EV
+5	당시	O	O
+6	외국	O	O
+7	종	B-CV	B-CV
+8	##군	I-CV	I-CV
+9	##기	I-CV	I-CV
+10	##자	I-CV	I-CV
+11	##가	O	O
+12	화	O	B-CV
+13	##채	O	I-CV
+14	그릇	O	O
+15	같	O	O
+16	##다고	O	O
+17	해서	O	O
+18	이름	O	O
+19	붙인	O	O
+20	거대	O	O
+21	##한	O	O
+22	분지	O	O
+23	지형	O	O
+24	##이다	O	O
+25	.	O	O
+26	[SEP]	O	O

@@ -1,36 +1,42 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-EV, B-CV, I-OG, I-CV
-1	이	O	O	O, B-CV, B-PS, B-OG, B-TM
-2	##처럼	O	O	O, B-CV, B-PS, I-EV, B-OG
-3	관련	O	O	O, B-CV, B-PS, B-OG, B-TM
-4	인사	O	B-CV	B-CV, O, I-CV, B-FD, B-PS
-5	##들이	O	O	O, I-CV, B-PS, B-CV, I-EV
-6	경쟁	O	O	O, B-CV, B-PS, B-EV, B-LC
-7	##하	O	O	O, B-PS, B-CV, B-LC, I-EV
-8	##듯	O	O	O, B-PS, B-CV, B-LC, B-TM
-9	녹취	O	O	O, B-CV, B-PS, B-LC, B-TM
-10	##를	O	O	O, B-PS, B-LC, B-CV, B-OG
-11	공개	O	O	O, B-CV, B-LC, B-PS, B-TM
-12	##하	O	O	O, B-PS, B-LC, B-CV, B-OG
-13	##는	O	O	O, B-CV, B-PS, B-LC, B-EV
-14	성	B-PS	B-PS	B-PS, O, B-EV, B-OG, I-PS
-15	회장	B-CV	B-CV	B-CV, O, I-EV, I-PS, B-EV
-16	사건	O	O	O, I-EV, I-CV, B-EV, B-CV
-17	##은	O	O	O, I-EV, B-CV, B-OG, B-LC
-18	한국	B-LC	B-LC	B-LC, B-OG, O, B-PS, B-AF
-19	사회	O	O	O, I-LC, I-OG, B-CV, I-CV
-20	##의	O	O	O, B-PS, B-LC, B-OG, B-TR
-21	‘	O	O	O, B-CV, B-LC, B-PS, B-OG
-22	녹취	O	O	O, B-TM, B-CV, B-TR, B-PS
-23	중독	O	O	O, I-TM, B-PS, B-TM, B-CV
-24	’	O	O	O, B-CV, B-PS, I-TM, I-CV
-25	을	O	O	O, B-CV, B-PS, B-OG, B-QT
-26	극단	O	O	O, B-FD, B-TR, B-QT, B-PS
-27	##적으로	O	O	O, I-TR, I-QT, B-QT, B-PS
-28	보여	O	O	O, B-PS, B-CV, B-QT, I-QT
-29	##주	O	O	O, B-PS, I-QT, I-TR, B-CV
-30	##는	O	O	O, B-PS, B-CV, B-QT, B-LC
-31	사례	O	O	O, B-CV, B-FD, B-EV, I-EV
-32	##다	O	O	O, B-CV, I-EV, B-PS, I-CV
-33	.	O	O	O, B-PS, B-CV, B-LC, I-EV
-34	[SEP]	O	O	O, B-CV, B-PS, I-EV, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	김	B-PS	B-PS
+2	전	O	O
+3	대사	B-CV	B-CV
+4	##는	O	O
+5	시	B-PS	B-PS
+6	부주석	B-CV	B-CV
+7	##이	O	O
+8	지방	O	O
+9	성장	O	B-CV
+10	##과	O	O
+11	지방	B-CV	O
+12	당	I-CV	B-CV
+13	##서	I-CV	I-CV
+14	##기	I-CV	I-CV
+15	##를	O	O
+16	하	O	O
+17	##던	O	O
+18	때	O	O
+19	##부터	O	O
+20	호	O	O
+21	##형	O	O
+22	##호	O	O
+23	##제	O	O
+24	(	O	O
+25	呼	O	O
+26	兄	O	O
+27	呼	O	O
+28	弟	O	O
+29	)	O	O
+30	하	O	O
+31	##며	O	O
+32	알고	O	O
+33	지내	O	O
+34	##온	O	O
+35	것	O	O
+36	##으로	O	O
+37	알려졌	O	O
+38	##다	O	O
+39	.	O	O
+40	[SEP]	O	O

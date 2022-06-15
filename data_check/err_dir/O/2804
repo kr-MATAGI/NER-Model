@@ -1,47 +1,25 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-AF, I-CV
-1	교보문고	B-OG	B-OG	B-OG, B-AF, O, B-PS, B-LC
-2	##와	O	O	O, I-OG, I-AF, B-CV, B-OG
-3	함께	O	O	O, B-TM, B-OG, B-CV, B-QT
-4	운영	O	O	O, B-TM, B-CV, B-OG, B-LC
-5	##하	O	O	O, B-LC, B-OG, B-PS, B-CV
-6	##는	O	O	O, B-OG, B-CV, B-TM, B-LC
-7	‘	O	O	O, B-OG, B-LC, B-CV, B-AF
-8	하이	O	B-OG	B-OG, B-AF, O, B-TM, B-CV
-9	##파이	O	I-OG	I-OG, O, I-AF, I-TM, I-CV
-10	##브	O	I-OG	I-OG, O, I-AF, I-TM, I-EV
-11	북	O	O	O, I-OG, I-AF, I-TM, I-EV
-12	##카페	O	O	O, I-OG, I-AF, I-TM, I-EV
-13	’	O	O	O, I-OG, I-AF, I-EV, I-TM
-14	는	O	O	O, B-OG, B-LC, B-CV, B-TM
-15	서울	B-LC	B-LC	B-LC, O, B-OG, B-AF, B-PS
-16	종로구	B-LC	B-LC	B-LC, I-LC, O, B-OG, B-AF
-17	청계천	B-AF	B-AF	B-AF, O, B-OG, B-LC, I-AF
-18	##로	I-AF	I-AF	I-AF, O, I-LC, I-OG, I-PS
-19	동아	B-OG	B-OG	B-OG, B-AF, I-AF, I-OG, O
-20	##미디어	I-OG	I-OG	I-OG, I-AF, O, I-LC, I-PS
-21	##그룹	I-OG	I-OG	I-OG, I-AF, O, I-LC, I-PS
-22	사옥	O	O	O, I-AF, B-AF, I-OG, I-LC
-23	앞	B-TM	B-TM	B-TM, O, B-CV, I-TM, B-AF
-24	##에	O	O	O, I-TM, I-AF, I-OG, I-CV
-25	설치	O	O	O, B-TM, B-CV, B-LC, B-OG
-26	##한	O	O	O, B-LC, B-PS, B-OG, B-TM
-27	투명	O	O	O, B-TM, B-MT, B-TR, I-TM
-28	컨테이너	O	O	O, I-TM, B-LC, B-AF, B-TM
-29	##에서	O	O	O, B-CV, I-AF, B-LC, B-OG
-30	30	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-OG
-31	##일	I-DT	I-DT	I-DT, B-DT, O, I-QT, I-PS
-32	##부터	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-OG
-33	다음	I-DT	I-DT	I-DT, B-DT, O, I-QT, I-AF
-34	달	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-OG
-35	9	I-DT	I-DT	I-DT, B-DT, O, I-QT, I-OG
-36	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-OG
-37	##까	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-OG
-38	##지	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-OG
-39	열흘	B-DT	B-DT	B-DT, I-DT, O, B-QT, B-TI
-40	##간	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-AF
-41	문	O	O	O, I-DT, B-CV, B-TM, B-AF
-42	##을	O	O	O, B-CV, I-AF, I-OG, B-OG
-43	연다	O	O	O, B-CV, B-OG, B-AF, B-TM
-44	.	O	O	O, B-OG, B-LC, B-AF, I-OG
-45	[SEP]	O	O	O, B-OG, B-LC, I-OG, B-CV
+	text	label	preds
+0	[CLS]	O	O
+1	우리	O	O
+2	국제	O	B-OG
+3	협력	O	I-OG
+4	##단	O	I-OG
+5	##하	O	O
+6	##고	O	O
+7	또	O	O
+8	이런	O	O
+9	그	O	O
+10	국제	O	O
+11	##적	O	O
+12	##인	O	O
+13	역할	O	O
+14	##하	O	O
+15	##곤	O	O
+16	어떤	O	O
+17	관계	O	O
+18	##에	O	O
+19	있	O	O
+20	##습	O	O
+21	##니까	O	O
+22	?	O	O
+23	[SEP]	O	O

@@ -1,49 +1,54 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, I-OG, B-CV, I-QT
-1	""""	O	O	O, B-CV, B-LC, B-PS, B-TM
-2	늘	O	O	O, B-CV, B-PS, B-LC, B-OG
-3	해	O	O	O, B-CV, B-PS, B-LC, B-QT
-4	왔	O	O	O, B-CV, B-PS, I-CV, B-LC
-5	##듯	O	O	O, I-CV, B-CV, B-PS, I-QT
-6	##이	O	O	O, B-PS, B-CV, B-LC, B-OG
-7	도와	O	O	O, B-CV, B-TM, B-OG, B-LC
-8	##드	O	O	O, B-CV, I-CV, B-PS, I-OG
-9	##렸	O	O	O, B-CV, I-CV, B-PS, B-LC
-10	##는데	O	O	O, B-CV, B-PS, I-CV, B-LC
-11	'	O	O	O, B-LC, B-PS, B-CV, B-DT
-12	구	O	O	O, B-PS, B-CV, B-LC, B-QT
-13	…	O	O	O, I-PS, I-CV, I-LC, B-PS
-14	세	O	O	O, B-PS, I-PS, B-CV, B-LC
-15	…	O	O	O, I-PS, I-CV, I-LC, B-PS
-16	쥬	O	O	O, B-PS, I-PS, B-CV, B-LC
-17	…	O	O	O, I-PS, I-LC, I-CV, B-PS
-18	만	O	O	O, B-PS, I-PS, B-CV, B-LC
-19	…	O	O	O, I-PS, I-LC, I-CV, B-PS
-20	나	O	O	O, B-PS, I-PS, B-CV, B-LC
-21	…	O	O	O, I-PS, I-LC, B-PS, I-CV
-22	씀	O	O	O, B-PS, I-PS, B-CV, I-LC
-23	…	O	O	O, I-PS, I-CV, I-LC, B-PS
-24	미	O	O	O, B-PS, I-PS, B-CV, B-LC
-25	…	O	O	O, I-PS, I-LC, I-CV, B-PS
-26	(	O	O	O, I-CV, B-CV, I-PS, B-LC
-27	구세주	O	O	O, B-PS, B-CV, B-AF, B-EV
-28	만났	O	O	O, I-CV, I-PS, B-CV, I-AF
-29	##습	O	O	O, I-CV, B-PS, I-PS, B-CV
-30	##니다	O	O	O, B-PS, I-CV, B-LC, B-CV
-31	)	O	O	O, B-CV, B-LC, I-CV, B-PS
-32	'	O	O	O, B-CV, B-LC, B-PS, B-TM
-33	라고	O	O	O, B-CV, B-PS, B-TM, B-QT
-34	한	B-QT	B-QT	B-QT, O, B-TM, I-QT, B-CV
-35	음절	I-QT	I-QT	I-QT, O, I-TM, I-LC, I-CV
-36	##씩	O	I-QT	I-QT, O, I-TM, I-LC, B-QT
-37	띄	O	O	O, I-QT, B-TM, B-CV, B-QT
-38	##엄	O	O	O, I-QT, I-CV, I-TM, I-LC
-39	##띄	O	O	O, B-CV, B-TM, I-QT, B-QT
-40	##엄	O	O	O, I-QT, B-QT, B-LC, B-PS
-41	인사	O	O	O, B-CV, B-TM, B-QT, I-CV
-42	##하	O	O	O, I-CV, B-PS, B-CV, B-LC
-43	##더	O	O	O, B-CV, B-PS, B-LC, B-QT
-44	##군	O	O	O, B-CV, B-LC, I-CV, B-TM
-45	##요	O	O	O, I-CV, B-LC, I-QT, B-CV
-46	.	O	O	O, B-LC, B-CV, B-PS, B-TM
-47	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	일반	O	O
+2	##학생	O	B-CV
+3	##Ⅱ	O	B-QT
+4	,	O	O
+5	지역인	O	O
+6	##재	O	O
+7	##Ⅱ	O	B-QT
+8	전형	O	O
+9	##은	O	O
+10	단계	O	O
+11	##별	O	O
+12	전형	O	O
+13	##으로	O	O
+14	,	O	O
+15	1	B-QT	B-QT
+16	##단	I-QT	I-QT
+17	##계	I-QT	I-QT
+18	##에	O	O
+19	##서는	O	O
+20	학생	O	O
+21	##부	O	O
+22	##와	O	O
+23	자기	O	O
+24	##소	O	O
+25	##개	O	O
+26	##서	O	O
+27	##를	O	O
+28	바탕	O	O
+29	##으로	O	O
+30	학생	O	O
+31	##부	O	O
+32	##종	O	O
+33	##합	O	O
+34	(	O	O
+35	서류	O	O
+36	##평가	O	O
+37	)	O	O
+38	100	B-QT	B-QT
+39	%	I-QT	I-QT
+40	로	O	O
+41	모집	O	O
+42	##인	O	O
+43	##원	O	O
+44	##의	O	O
+45	3	B-QT	B-QT
+46	##배	I-QT	I-QT
+47	##수	I-QT	I-QT
+48	##를	O	O
+49	선발	O	O
+50	##한다	O	O
+51	.	O	O
+52	[SEP]	O	O

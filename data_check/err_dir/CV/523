@@ -1,74 +1,32 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-EV, B-CV, I-OG, I-CV
-1	유기	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
-2	##상	I-PS	I-PS	I-PS, I-OG, O, I-LC, I-DT
-3	도	B-CV	B-OG	B-OG, O, B-LC, I-OG, B-CV
-4	문화	I-CV	B-CV	B-CV, O, B-FD, I-CV, B-OG
-5	##관광	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-FD
-6	##국장	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-FD
-7	##은	O	O	O, I-CV, I-OG, I-EV, I-QT
-8	“	O	O	O, B-CV, B-LC, B-PS, B-OG
-9	축제	O	O	O, B-CV, B-LC, B-EV, I-EV
-10	##기	O	O	O, I-DT, I-EV, B-PS, B-CV
-11	##간	O	O	O, I-DT, I-EV, B-LC, I-LC
-12	##에	O	O	O, B-LC, B-CV, B-PS, I-DT
-13	하루	B-DT	B-DT	B-DT, O, I-DT, B-LC, B-QT
-14	평균	O	O	O, I-DT, I-QT, I-EV, B-CV
-15	3	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-TI
-16	##만	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-DT
-17	##명	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-18	##씩	I-QT	I-QT	I-QT, O, I-LC, I-PS, I-DT
-19	,	O	O	O, I-QT, B-CV, B-OG, B-LC
-20	모두	O	O	O, B-QT, B-CV, B-LC, B-DT
-21	21	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-PS
-22	##만	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-23	##명	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-24	##이	O	O	O, I-QT, B-PS, B-CV, B-LC
-25	방문	O	O	O, B-CV, B-PS, B-OG, B-AF
-26	##해	O	O	O, B-LC, B-PS, B-OG, I-EV
-27	경제	O	O	O, B-LC, B-CV, B-TM, B-PS
-28	##적	O	O	O, B-LC, B-PS, I-LC, I-PS
-29	파급	O	O	O, B-LC, B-PS, B-CV, B-OG
-30	##효과	O	O	O, B-LC, B-PS, B-OG, B-CV
-31	##가	O	O	O, B-PS, B-LC, B-OG, B-QT
-32	800	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-LC
-33	##억	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-34	##원	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-35	##에	O	O	O, I-QT, I-OG, I-EV, B-CV
-36	달할	O	O	O, B-LC, B-QT, B-PS, B-OG
-37	것	O	O	O, B-PS, B-LC, I-QT, B-CV
-38	##으로	O	O	O, B-CV, B-PS, B-OG, I-EV
-39	보인다	O	O	O, B-OG, B-CV, B-LC, B-PS
-40	”	O	O	O, B-CV, B-LC, I-EV, B-TM
-41	며	O	O	O, B-LC, B-CV, B-OG, B-EV
-42	“	O	O	O, B-LC, B-CV, B-PS, I-EV
-43	축제	O	O	O, I-EV, B-LC, B-CV, B-EV
-44	##가	O	O	O, B-PS, B-LC, I-EV, B-CV
-45	성공	O	O	O, B-LC, B-CV, B-QT, B-OG
-46	##적으로	O	O	O, B-LC, B-PS, I-EV, B-OG
-47	끝나	O	O	O, B-LC, B-CV, B-OG, B-PS
-48	##면	O	O	O, B-LC, B-PS, B-OG, I-EV
-49	2011	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-50	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-51	##과	O	O	O, I-DT, B-LC, I-EV, B-PS
-52	2012	B-DT	B-DT	B-DT, I-DT, O, B-QT, B-EV
-53	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-54	##에도	O	O	O, I-DT, B-CV, I-EV, B-LC
-55	전북	B-LC	B-LC	B-LC, B-OG, O, B-AF, B-PS
-56	##에서	O	O	O, I-LC, I-OG, B-LC, I-EV
-57	다시	O	O	O, B-LC, B-CV, B-QT, B-OG
-58	개최	O	O	O, B-CV, B-LC, I-EV, B-OG
-59	##하기	O	O	O, B-LC, B-PS, B-OG, B-CV
-60	##로	O	O	O, B-OG, B-CV, B-LC, B-PS
-61	위원회	O	O	O, B-OG, I-OG, B-CV, B-PS
-62	##와	O	O	O, I-OG, I-EV, B-OG, B-PS
-63	협의	O	O	O, B-LC, B-OG, B-CV, B-TM
-64	##했	O	O	O, B-LC, B-OG, B-PS, B-CV
-65	##다	O	O	O, B-CV, B-OG, B-LC, I-OG
-66	”	O	O	O, B-CV, B-LC, B-TM, B-OG
-67	고	O	O	O, B-CV, B-LC, B-TM, B-QT
-68	말	O	O	O, B-CV, B-LC, B-TM, B-EV
-69	##했	O	O	O, B-CV, B-LC, B-PS, I-EV
-70	##다	O	O	O, B-CV, B-LC, I-EV, B-TM
-71	.	O	O	O, B-LC, B-PS, B-CV, B-OG
-72	[SEP]	O	O	O, B-LC, B-CV, I-EV, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	▶	O	O
+2	##법	B-OG	B-OG
+3	##원	I-OG	I-OG
+4	##엔	O	O
+5	부장	B-CV	B-CV
+6	##판	I-CV	I-CV
+7	##사	I-CV	I-CV
+8	방	O	O
+9	##은	O	O
+10	따로	O	O
+11	있	O	O
+12	##고	O	O
+13	배석	B-CV	O
+14	##판	I-CV	O
+15	##사	I-CV	O
+16	둘	B-QT	B-QT
+17	##은	O	O
+18	3	B-QT	B-QT
+19	~	I-QT	I-QT
+20	4	I-QT	I-QT
+21	##평	I-QT	I-QT
+22	##쯤	I-QT	I-QT
+23	되	O	O
+24	##는	O	O
+25	방	O	O
+26	##을	O	O
+27	함께	O	O
+28	쓴다	O	O
+29	.	O	O
+30	[SEP]	O	O

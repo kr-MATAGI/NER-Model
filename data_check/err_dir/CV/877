@@ -1,15 +1,30 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	어	O	O	O, B-CV, B-TM, I-CV, I-OG
-2	~	O	O	O, B-CV, I-CV, I-OG, B-LC
-3	그것	O	O	O, B-CV, B-PS, B-LC, B-OG
-4	##을	O	O	O, B-CV, B-PS, I-CV, B-OG
-5	정치가	B-CV	O	O, B-CV, B-FD, B-OG, B-PS
-6	잘	O	O	O, I-CV, B-CV, B-PS, I-OG
-7	받들	O	O	O, B-CV, B-PS, B-LC, I-CV
-8	##어야	O	O	O, I-CV, I-OG, B-PS, B-CV
-9	한다고	O	O	O, B-CV, B-PS, B-LC, B-OG
-10	생각	O	O	O, B-CV, B-OG, B-PS, B-TM
-11	##합니다	O	O	O, B-CV, I-CV, I-OG, B-PS
-12	.	O	O	O, B-CV, B-PS, B-LC, B-OG
-13	[SEP]	O	O	O, B-CV, B-PS, I-CV, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	한화	B-OG	B-OG
+2	##는	O	O
+3	6	B-DT	B-DT
+4	##일	I-DT	I-DT
+5	대전	B-LC	B-LC
+6	##에	O	O
+7	##서	O	O
+8	열린	O	O
+9	엘지	B-OG	B-OG
+10	##와	O	O
+11	##의	O	O
+12	홈경기	B-EV	B-EV
+13	##에	O	O
+14	로저스	B-PS	B-PS
+15	##를	O	O
+16	선발	B-CV	O
+17	##로	O	O
+18	등판	O	O
+19	##시	O	O
+20	##키	O	O
+21	##며	O	O
+22	분위기	O	O
+23	반전	O	O
+24	##에	O	O
+25	나섰	O	O
+26	##다	O	O
+27	.	O	O
+28	[SEP]	O	O

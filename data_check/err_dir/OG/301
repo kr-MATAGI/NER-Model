@@ -1,49 +1,41 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-EV, I-QT
-1	이	O	O	O, B-OG, B-PS, B-QT, B-TM
-2	밖에	O	O	O, B-QT, B-TM, I-QT, B-CV
-3	▲	O	O	O, B-QT, B-LC, B-TM, B-EV
-4	##공	O	O	O, B-FD, B-CV, B-AF, B-EV
-5	##연	O	O	O, I-FD, I-AF, I-EV, B-FD
-6	##을	O	O	O, I-AF, I-EV, B-PS, B-CV
-7	혼자	O	O	O, B-TM, B-QT, B-CV, B-LC
-8	##서	O	O	O, B-PS, B-QT, I-QT, B-TM
-9	보	O	O	O, B-CV, B-TM, B-LC, B-PS
-10	##는	O	O	O, B-CV, B-LC, B-PS, B-TM
-11	기존	O	O	O, B-CV, B-TM, B-LC, B-PS
-12	마니아	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-OG
-13	관객	O	B-CV	B-CV, O, I-CV, B-TM, B-FD
-14	##층	O	O	O, I-CV, B-CV, I-TM, B-PS
-15	##에	O	O	O, I-CV, B-CV, B-PS, B-TM
-16	대한	O	O	O, B-LC, B-PS, B-TM, B-OG
-17	혜택	O	O	O, B-CV, B-LC, B-TM, B-PS
-18	##이	O	O	O, B-PS, B-LC, B-OG, B-CV
-19	전혀	O	O	O, B-LC, B-QT, B-TM, B-PS
-20	없	O	O	O, B-CV, B-LC, B-TM, B-QT
-21	##다는	O	O	O, B-LC, B-QT, B-TM, B-PS
-22	것	O	O	O, B-QT, B-LC, B-PS, B-CV
-23	▲	O	O	O, B-QT, B-DT, B-LC, B-TM
-24	##1	B-QT	B-QT	B-QT, I-QT, B-AF, O, B-TM
-25	+	I-QT	I-QT	I-QT, I-AF, B-QT, O, I-TM
-26	1	I-QT	I-QT	I-QT, I-AF, B-QT, O, I-TM
-27	티켓	O	O	O, I-QT, B-CV, I-AF, B-TM
-28	예매	O	O	O, B-CV, B-LC, B-TM, B-OG
-29	##처	O	O	O, B-LC, I-LC, B-PS, B-TM
-30	##가	O	O	O, B-PS, B-LC, B-TM, B-OG
-31	인터	B-OG	B-TM	B-TM, B-OG, O, B-AF, B-QT
-32	##파크	I-OG	I-TM	I-TM, I-OG, O, I-AF, I-QT
-33	##로	O	O	O, I-OG, I-TM, I-QT, I-AF
-34	일원	O	O	O, B-TM, B-LC, B-OG, B-QT
-35	##화	O	O	O, I-TM, I-LC, I-QT, I-OG
-36	##된	O	O	O, B-LC, B-PS, B-CV, B-QT
-37	것	O	O	O, B-CV, B-LC, B-TM, B-OG
-38	##도	O	O	O, I-QT, B-LC, I-LC, B-CV
-39	문제	O	O	O, B-CV, B-TM, B-QT, B-OG
-40	##로	O	O	O, I-QT, B-QT, I-CV, B-PS
-41	지적	O	O	O, B-CV, B-QT, B-TM, B-LC
-42	##되	O	O	O, I-QT, I-OG, B-LC, B-QT
-43	##고	O	O	O, B-QT, B-CV, I-QT, B-LC
-44	있	O	O	O, B-CV, B-QT, I-QT, B-TM
-45	##다	O	O	O, B-CV, I-QT, B-QT, B-TM
-46	.	O	O	O, B-LC, B-PS, B-CV, B-TM
-47	[SEP]	O	O	O, B-LC, B-CV, B-TM, B-QT
+	text	label	preds
+0	[CLS]	O	O
+1	22	B-DT	B-DT
+2	##일	I-DT	I-DT
+3	오후	B-TI	B-TI
+4	서울	B-LC	B-LC
+5	구로구	B-LC	B-LC
+6	항	B-LC	B-LC
+7	##동	I-LC	I-LC
+8	성공회	B-OG	B-OG
+9	##대	I-OG	I-OG
+10	##학교	I-OG	I-OG
+11	성당	O	O
+12	##에	O	O
+13	##선	O	O
+14	히	B-CV	B-CV
+15	##잡	I-CV	I-CV
+16	##을	O	O
+17	쓴	O	O
+18	한	O	O
+19	여성	O	O
+20	##이	O	O
+21	이슬람	B-OG	B-LC
+22	##의	O	O
+23	건축	O	O
+24	##문화	O	O
+25	등	O	O
+26	##에	O	O
+27	대해	O	O
+28	유창	O	O
+29	##한	O	O
+30	한국어	B-CV	B-CV
+31	##로	O	O
+32	설명	O	O
+33	##하	O	O
+34	##고	O	O
+35	있	O	O
+36	##었	O	O
+37	##다	O	O
+38	.	O	O
+39	[SEP]	O	O

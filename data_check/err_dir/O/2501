@@ -1,22 +1,17 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	베어스	B-AF	B-AF	B-AF, B-LC, O, B-OG, B-PS
-2	##타운	I-AF	I-AF	I-AF, I-LC, O, I-OG, I-PS
-3	##은	O	O	O, I-AF, I-LC, I-OG, B-CV
-4	‘	O	O	O, B-CV, B-LC, B-OG, B-PS
-5	대중	O	O	O, B-CV, B-AF, B-LC, B-PS
-6	##스키	B-CV	O	O, I-CV, B-CV, I-AF, I-LC
-7	##장	O	O	O, I-CV, I-LC, I-AF, I-OG
-8	’	O	O	O, I-CV, I-AF, B-PS, B-CV
-9	의	O	O	O, B-PS, B-LC, B-AF, B-OG
-10	모습	O	O	O, B-CV, B-OG, B-PS, B-LC
-11	##으로	O	O	O, B-PS, B-LC, B-OG, B-TM
-12	스마트	O	O	O, B-TM, B-AF, B-CV, B-LC
-13	스키	O	B-CV	B-CV, I-CV, I-AF, O, B-AF
-14	대열	O	O	O, I-CV, I-AF, I-OG, I-EV
-15	##에	O	O	O, B-CV, B-OG, B-LC, B-TM
-16	합류	O	O	O, B-CV, B-OG, B-LC, B-TM
-17	##했	O	O	O, B-PS, B-LC, B-CV, B-OG
-18	##다	O	O	O, B-CV, I-OG, B-LC, B-OG
-19	.	O	O	O, B-LC, B-CV, B-OG, B-PS
-20	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-AF
+	text	label	preds
+0	[CLS]	O	O
+1	영등포	B-LC	B-OG
+2	전화	O	I-OG
+3	##국	O	I-OG
+4	사	O	B-TM
+5	##거	O	I-TM
+6	##기	O	I-TM
+7	##까	O	O
+8	##지	O	O
+9	속도	O	O
+10	##내기	O	O
+11	어렵	O	O
+12	##습	O	O
+13	##니다	O	O
+14	.	O	O
+15	[SEP]	O	O

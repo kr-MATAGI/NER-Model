@@ -1,33 +1,26 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	네덜란드	B-OG	B-OG	B-OG, B-LC, O, B-PS, B-TM
-2	##는	O	O	O, I-OG, I-LC, B-CV, I-EV
-3	전날	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-QT
-4	스피드	B-CV	B-CV	B-CV, O, B-EV, I-CV, B-FD
-5	##스케	I-CV	I-CV	I-CV, O, I-EV, B-CV, I-OG
-6	##이팅	I-CV	I-CV	I-CV, O, B-CV, I-EV, I-OG
-7	남자	O	O	O, I-CV, I-EV, B-CV, I-OG
-8	5000	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-LC
-9	##m	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-EV
-10	##에서	O	O	O, I-QT, B-CV, I-CV, I-EV
-11	금	B-CV	B-CV	B-CV, O, B-MT, B-PT, B-AM
-12	,	O	O	O, I-CV, B-CV, I-AF, B-PS
-13	은	B-CV	B-CV	B-CV, O, B-PT, B-MT, B-AM
-14	,	O	O	O, I-CV, B-CV, I-AF, B-PS
-15	동	B-CV	B-CV	B-CV, O, B-PT, B-MT, B-AM
-16	##을	O	O	O, I-CV, B-CV, I-EV, I-AF
-17	휩	O	O	O, B-CV, B-LC, B-TM, B-QT
-18	##쓴	O	O	O, B-CV, B-LC, B-PS, B-OG
-19	데	O	O	O, B-LC, B-CV, B-PS, B-OG
-20	이어	O	O	O, B-LC, B-PS, B-TM, B-OG
-21	빙	B-CV	O	O, B-LC, B-PS, B-CV, B-OG
-22	##속	I-CV	O	O, I-LC, B-LC, I-AF, I-PS
-23	강국	O	O	O, B-CV, B-LC, B-OG, B-PS
-24	##의	O	O	O, B-PS, B-LC, B-CV, B-OG
-25	면모	O	O	O, B-LC, B-CV, B-OG, B-TM
-26	##를	O	O	O, B-CV, I-OG, B-LC, B-OG
-27	유지	O	O	O, B-CV, B-LC, B-TM, B-OG
-28	##했	O	O	O, B-LC, B-CV, B-PS, B-OG
-29	##다	O	O	O, B-CV, B-LC, I-OG, B-OG
-30	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-31	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	NBA	B-OG	B-OG
+2	최고	O	O
+3	스타	B-CV	B-CV
+4	커리	B-PS	B-PS
+5	“	O	O
+6	부상	O	O
+7	##으로	O	O
+8	불참	O	O
+9	”	O	O
+10	…	O	O
+11	다른	O	O
+12	특급	B-CV	O
+13	##선	I-CV	B-CV
+14	##수	I-CV	I-CV
+15	##들	O	O
+16	##도	O	O
+17	“	O	O
+18	지카	B-TM	B-TM
+19	우려	O	O
+20	”	O	O
+21	줄	O	O
+22	##포	O	O
+23	##기	O	O
+24	[SEP]	O	O

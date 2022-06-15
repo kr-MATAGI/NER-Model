@@ -1,44 +1,27 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-QT
-1	전용	O	O	O, B-TM, B-CV, B-OG, B-LC
-2	##면적	O	O	O, B-TM, B-OG, B-LC, B-CV
-3	△	O	O	O, B-QT, B-LC, B-TM, B-DT
-4	##10	B-QT	B-QT	B-QT, O, I-QT, B-TM, B-AF
-5	##5	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-TM
-6	##m	I-QT	I-QT	I-QT, O, I-LC, I-AF, I-TM
-7	##²	I-QT	I-QT	I-QT, O, I-LC, I-TM, I-AF
-8	##A	O	I-QT	I-QT, O, B-QT, I-TM, I-LC
-9	33	B-QT	B-QT	B-QT, I-QT, O, B-DT, I-AF
-10	##1	I-QT	I-QT	I-QT, B-QT, O, I-LC, I-AF
-11	##채	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-AF
-12	△	O	O	O, I-QT, B-QT, B-TM, B-DT
-13	##10	B-QT	B-QT	B-QT, I-QT, O, B-TM, B-EV
-14	##5	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-AF
-15	##m	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-AF
-16	##²	I-QT	I-QT	I-QT, O, I-LC, I-AF, I-TM
-17	##B	O	I-QT	I-QT, O, B-QT, I-TM, I-AF
-18	33	B-QT	B-QT	B-QT, I-QT, O, B-DT, I-AF
-19	##1	I-QT	I-QT	I-QT, B-QT, O, I-LC, I-AF
-20	##채	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-AF
-21	△	O	O	O, I-QT, B-QT, B-DT, B-TM
-22	##12	B-QT	B-QT	B-QT, I-QT, O, B-DT, B-TM
-23	##8	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-EV
-24	##m	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-TM
-25	##²	I-QT	I-QT	I-QT, O, I-LC, I-TM, B-QT
-26	27	B-QT	B-QT	B-QT, I-QT, O, B-DT, B-TM
-27	##8	I-QT	I-QT	I-QT, B-QT, O, I-LC, I-AF
-28	##채	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-29	△	O	O	O, I-QT, B-QT, B-DT, B-TM
-30	##13	B-QT	B-QT	B-QT, I-QT, O, B-DT, B-TM
-31	##0	I-QT	I-QT	I-QT, B-QT, O, I-LC, I-EV
-32	##m	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-TM
-33	##²	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-TM
-34	118	B-QT	B-QT	B-QT, I-QT, O, B-DT, I-LC
-35	##채	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-EV
-36	등	O	O	O, I-QT, B-TM, B-QT, B-LC
-37	총	O	O	O, B-QT, B-TM, B-DT, I-QT
-38	105	B-QT	B-QT	B-QT, I-QT, O, I-LC, B-DT
-39	##8	I-QT	I-QT	I-QT, B-QT, O, I-LC, I-AF
-40	##채	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-41	.	O	O	O, I-QT, B-TM, B-CV, B-OG
-42	[SEP]	O	O	O, B-QT, B-TM, I-QT, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	신한은행	B-OG	B-OG
+2	##은	O	O
+3	작년	B-DT	B-DT
+4	초	I-DT	I-DT
+5	환경	O	B-OG
+6	##재단	O	I-OG
+7	##의	O	O
+8	기후	B-OG	O
+9	##변	I-OG	O
+10	##화	I-OG	O
+11	##센터	I-OG	O
+12	설립	O	O
+13	##을	O	O
+14	후원	O	O
+15	##하면	O	O
+16	##서	O	O
+17	환경	O	B-OG
+18	##재단	O	I-OG
+19	##의	O	O
+20	회원	B-CV	B-CV
+21	##이	O	O
+22	됐	O	O
+23	##다	O	O
+24	.	O	O
+25	[SEP]	O	O

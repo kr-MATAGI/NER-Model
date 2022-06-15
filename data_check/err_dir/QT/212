@@ -1,29 +1,29 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, I-EV, B-CV
-1	400	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-EV
-2	##만	I-QT	I-QT	I-QT, O, I-PS, I-LC, I-EV
-3	관객	I-QT	B-CV	B-CV, O, I-QT, I-CV, B-OG
-4	##을	O	O	O, I-CV, I-QT, B-CV, I-OG
-5	첫	O	O	O, B-EV, B-LC, B-FD, B-CV
-6	##사랑	O	O	O, I-EV, B-EV, B-PS, I-LC
-7	##의	O	O	O, I-EV, B-PS, I-AF, B-LC
-8	추억	O	O	O, B-LC, B-CV, B-PS, I-EV
-9	##에	O	O	O, B-LC, B-CV, B-PS, B-OG
-10	빠져들	O	O	O, B-LC, B-OG, B-PS, B-TM
-11	##게	O	O	O, B-LC, B-CV, B-OG, B-PS
-12	만든	O	O	O, B-CV, B-LC, B-PS, B-OG
-13	영화	O	O	O, B-FD, B-LC, B-CV, B-OG
-14	‘	O	O	O, B-LC, B-CV, B-OG, I-OG
-15	건축학	B-AF	B-AF	B-AF, O, B-EV, I-AF, B-PS
-16	##개	I-AF	I-AF	I-AF, O, I-EV, I-PS, I-LC
-17	##론	I-AF	I-AF	I-AF, O, I-EV, I-PS, I-LC
-18	’	O	O	O, I-AF, I-EV, I-DT, I-QT
-19	(	O	O	O, B-LC, B-CV, B-OG, I-AF
-20	2012	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-LC
-21	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-22	)	O	O	O, I-DT, B-CV, I-EV, B-LC
-23	의	O	O	O, B-LC, B-OG, B-CV, B-PS
-24	배경	O	O	O, B-LC, B-CV, B-FD, B-PS
-25	##이다	O	O	O, B-CV, I-CV, I-OG, B-LC
-26	.	O	O	O, B-LC, B-CV, B-FD, B-OG
-27	[SEP]	O	O	O, B-LC, B-CV, B-FD, I-EV
+	text	label	preds
+0	[CLS]	O	O
+1	미국	B-LC	B-LC
+2	브랜드	O	O
+3	키즈	O	O
+4	##의	O	O
+5	고객	O	B-CV
+6	##충	O	O
+7	##성	O	O
+8	##도	O	O
+9	조사	O	O
+10	##에	O	O
+11	##서	O	O
+12	현대차	B-OG	B-OG
+13	##는	O	O
+14	지난해	B-DT	B-DT
+15	8	B-QT	B-QT
+16	##위	I-QT	I-QT
+17	##에	O	O
+18	##서	O	O
+19	올해	B-DT	B-DT
+20	1	B-QT	B-QT
+21	##위	I-QT	I-QT
+22	##로	I-QT	O
+23	등극	O	O
+24	##했	O	O
+25	##다	O	O
+26	.	O	O
+27	[SEP]	O	O

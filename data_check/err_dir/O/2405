@@ -1,40 +1,15 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-QT
-1	W	O	B-AF	B-AF, B-OG, O, B-PS, B-CV
-2	외	O	O	O, I-AF, I-OG, I-EV, I-TM
-3	##에도	O	O	O, B-CV, B-OG, B-TM, B-LC
-4	러닝	O	O	O, B-CV, B-TM, B-AF, B-EV
-5	브랜드	O	O	O, B-CV, I-CV, I-AF, I-TM
-6	R	O	B-AF	B-AF, O, B-OG, B-PS, B-CV
-7	(	O	O	O, I-OG, I-AF, I-CV, B-CV
-8	가칭	O	O	O, B-QT, B-TM, B-AF, B-DT
-9	)	O	O	O, I-QT, B-CV, I-OG, I-DT
-10	,	O	O	O, B-CV, B-LC, B-OG, B-PS
-11	자전거	B-AF	B-AF	B-AF, O, B-CV, B-TM, B-OG
-12	##용품	O	O	O, I-AF, I-CV, B-CV, I-OG
-13	브랜드	O	O	O, B-CV, B-AF, B-OG, B-TM
-14	B	O	O	O, B-PS, B-OG, B-AF, B-QT
-15	(	O	O	O, I-OG, I-CV, I-AF, I-QT
-16	가칭	O	O	O, B-QT, B-TM, B-AF, B-DT
-17	)	O	O	O, I-QT, B-CV, I-DT, I-OG
-18	,	O	O	O, B-CV, B-LC, B-OG, B-TM
-19	트레	O	O	O, B-CV, B-TM, B-AF, B-FD
-20	##킹	O	O	O, I-TM, I-CV, I-AF, I-OG
-21	브랜드	O	O	O, B-CV, I-CV, B-AF, I-AF
-22	T	O	O	O, B-PS, B-OG, B-AF, B-CV
-23	(	O	O	O, I-OG, I-CV, I-AF, I-QT
-24	가칭	O	O	O, B-QT, B-TM, B-AF, B-DT
-25	)	O	O	O, I-QT, B-CV, I-OG, I-DT
-26	등	O	O	O, B-CV, B-TM, B-OG, B-LC
-27	##의	O	O	O, B-CV, B-OG, B-LC, B-TM
-28	이니	O	O	O, B-CV, B-TM, B-QT, B-AM
-29	##셜	O	O	O, I-CV, I-TM, I-TR, I-QT
-30	마케팅	O	O	O, I-CV, B-CV, I-TM, I-TR
-31	##을	O	O	O, I-CV, B-CV, B-OG, B-PS
-32	지속	O	O	O, B-CV, B-TM, B-LC, B-OG
-33	##적으로	O	O	O, B-LC, B-PS, I-QT, B-TM
-34	선보일	O	O	O, B-CV, B-TM, B-LC, B-OG
-35	예정	O	O	O, B-CV, B-TM, B-OG, B-QT
-36	##이다	O	O	O, B-CV, I-OG, B-TM, B-OG
-37	.	O	O	O, B-LC, B-CV, B-TM, B-OG
-38	[SEP]	O	O	O, B-CV, B-TM, B-LC, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	음식	O	O
+2	뭐	O	O
+3	떡	O	B-CV
+4	##만	O	O
+5	빼놓	O	O
+6	##고	O	O
+7	##는	O	O
+8	다	O	O
+9	할	O	O
+10	거	O	O
+11	같	O	O
+12	##애	O	O
+13	[SEP]	O	O

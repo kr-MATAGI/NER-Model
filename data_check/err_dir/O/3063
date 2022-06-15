@@ -1,6 +1,15 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	그러니까	O	O	O, B-CV, B-TM, B-OG, B-LC
-2	우울	O	B-TM	B-TM, O, B-CV, B-TR, I-TM
-3	##하고	O	O	O, I-TM, I-CV, I-AF, I-OG
-4	[SEP]	O	O	O, B-CV, B-TM, B-OG, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	하루	B-DT	B-DT
+2	##에	O	O
+3	3	B-QT	B-QT
+4	##팀	I-QT	I-QT
+5	##까	O	I-QT
+6	##지만	O	I-QT
+7	예약	O	O
+8	##을	O	O
+9	받	O	O
+10	##는	O	O
+11	##다	O	O
+12	.	O	O
+13	[SEP]	O	O

@@ -1,34 +1,90 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	러	B-EV	B-EV	B-EV, B-DT, B-LC, O, B-AF
-2	-	I-EV	I-DT	I-DT, I-EV, O, I-LC, I-AF
-3	일전	I-EV	I-DT	I-DT, I-EV, O, I-AF, I-LC
-4	##쟁	I-EV	I-DT	I-DT, I-EV, O, I-AF, I-LC
-5	##과	O	O	O, I-DT, I-EV, B-DT, I-AF
-6	을사	B-OG	B-DT	B-DT, I-DT, O, B-EV, B-LC
-7	##조	I-OG	I-DT	I-DT, O, B-DT, I-EV, I-QT
-8	##약	I-OG	I-DT	I-DT, O, B-DT, I-EV, I-QT
-9	직후	O	I-DT	I-DT, O, I-EV, B-DT, I-QT
-10	##에도	O	O	O, I-DT, I-EV, B-CV, B-OG
-11	일본인	B-CV	B-CV	B-CV, O, B-OG, B-TM, B-LC
-12	##들이	O	O	O, I-CV, B-CV, I-OG, I-QT
-13	동해	B-LC	B-LC	B-LC, O, B-AF, B-OG, B-TM
-14	##를	O	O	O, I-LC, I-AF, B-LC, I-OG
-15	‘	O	O	O, B-LC, B-CV, B-OG, B-QT
-16	조선	B-LC	B-LC	B-LC, O, B-AF, B-OG, B-EV
-17	##해	I-LC	I-LC	I-LC, O, I-AF, B-LC, I-PS
-18	’	O	O	O, I-LC, I-AF, I-OG, I-QT
-19	로	O	O	O, B-CV, B-LC, B-PS, B-AF
-20	불렀	O	O	O, B-CV, B-LC, B-AF, B-OG
-21	##다는	O	O	O, B-CV, B-LC, B-PS, I-CV
-22	사실	O	O	O, B-CV, B-PS, B-LC, B-QT
-23	##이	O	O	O, B-PS, B-LC, B-OG, B-CV
-24	한	O	O	O, B-AF, B-OG, B-PS, B-LC
-25	기행	O	O	O, B-AF, B-FD, I-AF, B-CV
-26	##문	O	O	O, I-AF, I-FD, I-OG, B-FD
-27	##에서	O	O	O, I-AF, B-CV, B-PS, B-LC
-28	확인	O	O	O, B-CV, B-OG, B-LC, B-TM
-29	##됐	O	O	O, B-PS, I-OG, B-CV, B-LC
-30	##다	O	O	O, B-CV, B-LC, I-OG, B-OG
-31	.	O	O	O, B-LC, B-CV, B-OG, B-PS
-32	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-AF
+	text	label	preds
+0	[CLS]	O	O
+1	후보	B-CV	B-CV
+2	##들	O	O
+3	##은	O	O
+4	당	O	O
+5	쇄신	O	O
+6	##을	O	O
+7	위한	O	O
+8	대안	O	O
+9	##으로	O	O
+10	“	O	O
+11	정책	O	O
+12	홍보	O	O
+13	##를	O	O
+14	위한	O	O
+15	새로운	O	O
+16	경로	O	O
+17	개척	O	O
+18	”	O	O
+19	(	O	O
+20	최재	B-PS	B-PS
+21	##성	I-PS	I-PS
+22	)	O	O
+23	,	O	O
+24	“	O	O
+25	공정	O	O
+26	##한	O	O
+27	공천	O	O
+28	##룰	O	O
+29	##과	O	O
+30	함께	O	O
+31	공천	O	O
+32	심사	B-CV	B-CV
+33	##위원	I-CV	I-CV
+34	##들의	O	O
+35	공정성	O	O
+36	##에	O	O
+37	대한	O	O
+38	의구심	O	O
+39	제거	O	O
+40	”	O	O
+41	(	O	O
+42	김동철	B-PS	B-PS
+43	)	O	O
+44	,	O	O
+45	“	O	O
+46	신진	O	O
+47	##인	O	O
+48	##사	O	O
+49	##를	O	O
+50	위해	O	O
+51	(	O	O
+52	전략	O	O
+53	##공	O	O
+54	##천	O	O
+55	##을	O	O
+56	)	O	O
+57	혼합	O	O
+58	##하	O	O
+59	##는	O	O
+60	방식	O	O
+61	검토	O	O
+62	”	O	O
+63	(	O	O
+64	조정	B-PS	B-PS
+65	##식	I-PS	I-PS
+66	)	O	O
+67	,	O	O
+68	“	O	O
+69	4	B-QT	B-QT
+70	##선	I-QT	I-QT
+71	이상	I-QT	I-QT
+72	중진	O	B-CV
+73	##의	O	O
+74	공천	O	O
+75	배제	O	O
+76	문제	O	O
+77	검토	O	O
+78	”	O	O
+79	(	O	O
+80	이종걸	B-PS	B-PS
+81	)	O	O
+82	등	O	O
+83	##을	O	O
+84	제시	O	O
+85	##했	O	O
+86	##다	O	O
+87	.	O	O
+88	[SEP]	O	O

@@ -1,17 +1,19 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, I-OG, I-AF, B-CV
-1	그게	O	O	O, B-CV, B-PS, B-LC, B-OG
-2	처음	O	O	O, B-QT, B-CV, B-PS, B-DT
-3	들어	O	O	O, B-CV, I-QT, B-PS, I-CV
-4	가	O	O	O, B-CV, B-PS, B-LC, I-CV
-5	##서	O	O	O, B-CV, B-PS, B-LC, I-CV
-6	그렇게	O	O	O, B-CV, B-PS, B-LC, B-TM
-7	배워서	O	O	O, B-CV, B-PS, B-LC, B-TM
-8	그러니까	O	O	O, B-CV, B-OG, B-LC, B-PS
-9	고대	O	B-OG	B-OG, O, B-FD, I-OG, B-EV
-10	##를	O	O	O, I-OG, I-AF, I-CV, I-EV
-11	하	O	O	O, B-CV, I-OG, B-OG, B-PS
-12	##는	O	O	O, I-OG, I-AF, B-CV, I-CV
-13	거	O	O	O, B-CV, B-PS, I-OG, I-AF
-14	##야	O	O	O, I-OG, B-CV, I-AF, I-CV
-15	[SEP]	O	O	O, B-CV, B-PS, I-AF, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	다행히	O	O
+2	다른	O	O
+3	열차	O	B-AF
+4	##에	O	O
+5	##서는	O	O
+6	같	O	O
+7	##은	O	O
+8	결함	O	O
+9	##이	O	O
+10	발견	O	O
+11	##되	O	O
+12	##지	O	O
+13	않	O	O
+14	##았	O	O
+15	##다	O	O
+16	.	O	O
+17	[SEP]	O	O

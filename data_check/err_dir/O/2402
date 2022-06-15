@@ -1,14 +1,61 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, I-OG, B-CV, I-EV
-1	하나	O	B-QT	B-QT, O, B-TM, B-CV, B-EV
-2	하나	O	B-QT	B-QT, I-QT, O, B-CV, B-EV
-3	여기	O	O	O, I-QT, B-CV, I-CV, I-EV
-4	##다	O	O	O, I-QT, B-CV, I-CV, B-TM
-5	띄워	O	O	O, B-CV, B-TM, B-OG, B-LC
-6	##서	O	O	O, B-CV, I-CV, I-OG, I-QT
-7	넣	O	O	O, B-CV, B-OG, B-TM, B-LC
-8	##어보	O	O	O, B-CV, I-CV, I-OG, B-TM
-9	##실	O	O	O, B-CV, B-OG, B-TM, B-LC
-10	##래요	O	O	O, B-CV, B-OG, I-OG, B-TM
-11	?	O	O	O, B-CV, I-OG, I-CV, B-TM
-12	[SEP]	O	O	O, B-CV, B-TM, B-OG, B-QT
+	text	label	preds
+0	[CLS]	O	O
+1	페루	B-LC	B-LC
+2	선거관리위원회	B-OG	B-OG
+3	##는	O	O
+4	대선	B-EV	B-EV
+5	결선	O	B-EV
+6	##투표	O	I-EV
+7	##의	O	O
+8	개표	O	O
+9	##가	O	O
+10	약	B-QT	B-QT
+11	88	I-QT	I-QT
+12	%	I-QT	I-QT
+13	진행	O	O
+14	##된	O	O
+15	상황	O	O
+16	##에	O	O
+17	##서	O	O
+18	우	B-PS	B-PS
+19	##말라	I-PS	I-PS
+20	후보	B-CV	B-CV
+21	##가	O	O
+22	51	B-QT	B-QT
+23	.	I-QT	I-QT
+24	3	I-QT	I-QT
+25	%	I-QT	I-QT
+26	를	O	O
+27	득표	O	O
+28	##해	O	O
+29	48	B-QT	B-QT
+30	.	I-QT	I-QT
+31	7	I-QT	I-QT
+32	%	I-QT	I-QT
+33	를	O	O
+34	얻	O	O
+35	##은	O	O
+36	우파	O	O
+37	진영	O	O
+38	##의	O	O
+39	게이	B-PS	B-PS
+40	##코	I-PS	I-PS
+41	후지	I-PS	I-PS
+42	##모리	I-PS	I-PS
+43	후보	B-CV	B-CV
+44	(	O	O
+45	36	B-QT	B-QT
+46	)	O	O
+47	를	O	O
+48	근소	O	O
+49	##한	O	O
+50	차로	O	O
+51	제	O	O
+52	##쳤	O	O
+53	##다고	O	O
+54	6	B-DT	B-DT
+55	##일	I-DT	I-DT
+56	밝혔	O	O
+57	##다	O	O
+58	.	O	O
+59	[SEP]	O	O

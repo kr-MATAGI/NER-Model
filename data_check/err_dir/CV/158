@@ -1,43 +1,55 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-QT
-1	투수	B-CV	B-CV	B-CV, O, B-TM, I-CV, B-AF
-2	배영	B-PS	B-PS	B-PS, I-PS, O, B-OG, B-CV
-3	##수	I-PS	I-PS	I-PS, O, I-OG, B-PS, I-QT
-4	##와	O	O	O, I-PS, I-OG, I-AF, I-QT
-5	안	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-6	##지만	I-PS	I-PS	I-PS, O, I-OG, I-LC, B-PS
-7	,	O	O	O, I-PS, B-CV, I-OG, I-AF
-8	포수	B-CV	B-CV	B-CV, O, B-TM, B-AF, I-CV
-9	진	B-PS	B-PS	B-PS, O, I-PS, B-OG, B-AF
-10	##갑	I-PS	I-PS	I-PS, O, B-PS, I-OG, I-LC
-11	##용	I-PS	I-PS	I-PS, O, I-OG, B-PS, I-LC
-12	,	O	O	O, I-PS, B-CV, B-LC, I-OG
-13	3	B-CV	B-CV	B-CV, O, B-TM, B-AF, B-QT
-14	##루	I-CV	I-CV	I-CV, B-CV, O, I-QT, I-TM
-15	##수	I-CV	I-CV	I-CV, O, B-CV, I-TM, I-OG
-16	박석민	B-PS	B-PS	B-PS, O, I-PS, B-OG, B-AF
-17	등	O	O	O, I-PS, B-CV, I-QT, I-OG
-18	그동안	O	O	O, B-OG, B-CV, B-LC, B-PS
-19	삼성	B-OG	B-OG	B-OG, B-LC, O, B-AF, B-PS
-20	##의	O	O	O, I-OG, I-AF, I-PS, I-EV
-21	주축	O	O	O, B-QT, B-CV, B-TM, B-PS
-22	##이	O	O	O, B-PS, B-CV, B-OG, B-LC
-23	##었	O	O	O, B-CV, B-PS, B-QT, B-TM
-24	##던	O	O	O, B-PS, B-TM, B-CV, B-QT
-25	투	B-CV	O	O, B-QT, B-TM, B-PS, B-LC
-26	##타	I-CV	O	O, I-QT, B-QT, I-LC, I-CV
-27	##의	O	O	O, B-PS, B-QT, I-QT, B-LC
-28	핵심	O	O	O, B-QT, B-PS, B-CV, B-TM
-29	요원	B-CV	B-CV	B-CV, O, I-CV, B-PS, B-TM
-30	##들	O	O	O, I-CV, B-CV, I-QT, I-OG
-31	##도	O	O	O, B-CV, B-PS, B-QT, B-LC
-32	모두	O	O	O, B-QT, B-CV, B-PS, B-TM
-33	2	B-QT	B-QT	B-QT, I-QT, O, B-EV, B-DT
-34	##군	I-QT	I-QT	I-QT, O, I-OG, I-EV, I-LC
-35	##에	O	O	O, I-QT, I-OG, I-EV, I-AF
-36	머물	O	O	O, I-QT, B-QT, B-CV, B-LC
-37	##고	O	O	O, I-QT, B-QT, B-CV, I-OG
-38	있	O	O	O, B-CV, B-QT, I-QT, B-TM
-39	##다	O	O	O, B-CV, B-QT, I-QT, B-TM
-40	.	O	O	O, B-PS, B-CV, B-LC, B-OG
-41	[SEP]	O	O	O, B-CV, B-PS, B-LC, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	서	B-PS	B-PS
+2	위원장	B-CV	B-CV
+3	##은	O	O
+4	또	O	O
+5	“	O	O
+6	대통령	B-CV	O
+7	##기록	O	O
+8	##물	O	O
+9	##보	O	O
+10	##관	O	O
+11	##소	O	O
+12	##에	O	O
+13	있	O	O
+14	##지	O	O
+15	않	O	O
+16	##은	O	O
+17	‘	O	O
+18	공공	O	O
+19	##기록	O	O
+20	##물	O	O
+21	’	O	O
+22	은	O	O
+23	관할	O	O
+24	기관장	B-CV	B-CV
+25	(	O	O
+26	국정원	B-CV	B-CV
+27	##장	I-CV	I-CV
+28	)	O	O
+29	이	O	O
+30	허락	O	O
+31	##하면	O	O
+32	되	O	O
+33	##는	O	O
+34	것	O	O
+35	”	O	O
+36	이라	O	O
+37	##며	O	O
+38	‘	O	O
+39	여당	O	O
+40	단독	O	O
+41	##열	O	O
+42	##람	O	O
+43	’	O	O
+44	에	O	O
+45	문제	O	O
+46	##가	O	O
+47	없	O	O
+48	##다고	O	O
+49	주장	O	O
+50	##했	O	O
+51	##다	O	O
+52	.	O	O
+53	[SEP]	O	O

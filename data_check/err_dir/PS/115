@@ -1,33 +1,42 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-EV, B-CV, I-OG, I-CV
-1	1944	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-2	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
-3	7	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-4	##월	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-5	##20	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-6	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-AF
-7	북유럽	B-FD	B-LC	B-LC, B-FD, O, I-DT, B-AF
-8	##신	I-FD	O	O, B-FD, I-FD, I-LC, I-AF
-9	##화	I-FD	O	O, I-FD, I-AF, I-LC, B-FD
-10	속	O	O	O, I-FD, B-FD, I-AF, B-LC
-11	반신	O	O	O, B-CV, B-LC, B-AF, B-TM
-12	‘	O	O	O, B-CV, B-LC, I-CV, B-PS
-13	발	B-PS	B-LC	B-LC, O, B-CV, B-AF, B-TM
-14	##키	I-PS	I-LC	I-LC, O, I-CV, I-AM, I-AF
-15	##리	I-PS	I-LC	I-LC, O, I-CV, I-AM, I-TM
-16	’	O	O	O, I-LC, I-EV, I-AF, I-CV
-17	에서	O	O	O, B-PS, B-LC, B-CV, B-OG
-18	암호	O	O	O, B-CV, B-TM, B-LC, B-AF
-19	##명	O	O	O, I-CV, I-LC, B-PS, I-AF
-20	##을	O	O	O, B-PS, B-CV, B-LC, B-OG
-21	딴	O	O	O, B-PS, B-CV, B-LC, B-TM
-22	히틀러	B-PS	B-PS	B-PS, B-CV, B-EV, O, B-AF
-23	암살	O	O	O, I-EV, I-PS, B-CV, B-EV
-24	음모	O	O	O, I-EV, B-CV, B-PS, B-LC
-25	##가	O	O	O, B-PS, B-LC, B-OG, I-EV
-26	실행	O	O	O, B-CV, B-LC, I-EV, B-TM
-27	##에	O	O	O, B-CV, I-EV, B-LC, B-OG
-28	옮겨졌	O	O	O, B-CV, B-LC, B-OG, I-EV
-29	##다	O	O	O, B-CV, I-EV, B-LC, I-OG
-30	.	O	O	O, B-LC, B-CV, B-PS, I-EV
-31	[SEP]	O	O	O, B-CV, B-LC, B-PS, I-EV
+	text	label	preds
+0	[CLS]	O	O
+1	김	B-PS	O
+2	##씨	O	O
+3	##가	O	O
+4	“	O	O
+5	순찰차	O	B-AF
+6	##와	O	O
+7	교통	B-OG	B-OG
+8	##경찰	I-OG	I-OG
+9	##이	O	O
+10	호위	O	O
+11	##하	O	O
+12	##는데	O	O
+13	무슨	O	O
+14	도움	O	O
+15	##이	O	O
+16	더	O	O
+17	필요	O	O
+18	##하	O	O
+19	##냐	O	O
+20	”	O	O
+21	고	O	O
+22	따지	O	O
+23	##며	O	O
+24	동행	O	O
+25	##하	O	O
+26	##던	O	O
+27	<	B-OG	O
+28	한겨레	I-OG	B-OG
+29	##21	I-OG	I-OG
+30	>	I-OG	O
+31	기자	B-CV	B-CV
+32	##에	O	O
+33	##게	O	O
+34	취재	O	O
+35	##를	O	O
+36	요청	O	O
+37	##했	O	O
+38	##다	O	O
+39	.	O	O
+40	[SEP]	O	O

@@ -1,47 +1,39 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	아울러	O	O	O, B-CV, B-QT, B-TM, B-OG
-2	“	O	O	O, B-CV, B-OG, B-LC, B-TM
-3	은행	O	O	O, B-OG, B-CV, B-AF, I-OG
-4	##이나	O	O	O, I-OG, I-CV, B-CV, I-AF
-5	기업	O	O	O, B-OG, B-CV, I-OG, B-AF
-6	등	O	O	O, I-OG, B-CV, B-OG, I-CV
-7	민간	O	O	O, B-OG, B-CV, B-TM, B-AF
-8	##기업	O	O	O, I-OG, I-CV, B-CV, B-OG
-9	##들	O	O	O, I-OG, I-CV, B-CV, I-AF
-10	##은	O	O	O, B-CV, B-TM, B-PS, B-LC
-11	인턴	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-FD
-12	##이	O	O	O, I-CV, B-PS, I-EV, B-CV
-13	또	O	O	O, B-QT, B-PS, B-CV, I-QT
-14	##하나	O	B-QT	B-QT, O, I-QT, B-PS, B-LC
-15	##의	O	O	O, I-QT, B-PS, I-PS, I-AF
-16	채용	O	O	O, B-CV, B-TM, B-OG, B-LC
-17	과정	O	O	O, B-CV, B-PS, B-TM, I-CV
-18	##이	O	O	O, B-PS, B-LC, B-OG, B-CV
-19	되	O	O	O, B-CV, B-PS, B-LC, B-QT
-20	##지	O	O	O, B-PS, B-CV, B-LC, B-TM
-21	않	O	O	O, B-CV, B-PS, B-LC, B-QT
-22	##도록	O	O	O, B-PS, B-LC, B-OG, I-OG
-23	정부	B-OG	B-OG	B-OG, O, B-AF, B-PS, B-LC
-24	##가	O	O	O, I-OG, B-PS, I-AF, I-PS
-25	인턴	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-FD
-26	##을	O	O	O, I-CV, B-CV, I-OG, I-EV
-27	강요	O	O	O, B-CV, B-LC, B-TM, B-OG
-28	##하	O	O	O, B-CV, B-PS, B-LC, B-OG
-29	##는	O	O	O, B-CV, B-LC, B-PS, B-OG
-30	대신	O	O	O, B-CV, B-PS, B-TM, B-QT
-31	자율	O	O	O, B-CV, B-LC, B-PS, B-TM
-32	##로	O	O	O, B-PS, B-CV, I-OG, B-LC
-33	맡기	O	O	O, B-CV, B-LC, B-PS, B-OG
-34	##는	O	O	O, B-CV, B-PS, B-LC, B-OG
-35	것	O	O	O, B-CV, B-LC, B-OG, B-PS
-36	##이	O	O	O, B-PS, B-CV, B-LC, B-OG
-37	좋	O	O	O, B-CV, B-LC, B-OG, I-CV
-38	##다	O	O	O, I-OG, I-CV, B-CV, I-QT
-39	”	O	O	O, B-CV, B-TM, I-OG, B-QT
-40	고	O	O	O, B-CV, B-TM, B-QT, I-CV
-41	말	O	O	O, B-CV, I-CV, B-TM, I-QT
-42	##했	O	O	O, B-CV, I-CV, B-PS, I-OG
-43	##다	O	O	O, B-CV, B-TM, I-CV, B-QT
-44	.	O	O	O, B-CV, B-LC, B-PS, B-OG
-45	[SEP]	O	O	O, B-CV, B-LC, I-OG, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	특히	O	O
+2	최근	B-DT	B-DT
+3	1	I-DT	I-DT
+4	##년	I-DT	I-DT
+5	##간	I-DT	I-DT
+6	고소득	O	B-CV
+7	##층	O	I-CV
+8	##의	O	O
+9	조세	O	O
+10	##부	O	O
+11	##담	O	O
+12	##은	O	O
+13	재정	O	O
+14	##위	O	O
+15	##기	O	O
+16	##로	O	O
+17	세율	O	O
+18	##을	O	O
+19	올린	O	O
+20	일부	O	O
+21	유럽	B-LC	B-LC
+22	국가	O	O
+23	##를	O	O
+24	제외	O	O
+25	##하면	O	O
+26	사실	O	O
+27	##상	O	O
+28	가장	O	O
+29	많이	O	O
+30	늘어난	O	O
+31	것	O	O
+32	##으로	O	O
+33	분석	O	O
+34	##됐	O	O
+35	##다	O	O
+36	.	O	O
+37	[SEP]	O	O

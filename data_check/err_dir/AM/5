@@ -1,49 +1,35 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	이명박	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
-2	정부	B-OG	B-OG	B-OG, I-OG, I-PS, O, B-LC
-3	시절	O	O	O, I-OG, B-OG, B-PS, B-CV
-4	국가	B-OG	B-OG	B-OG, O, I-OG, B-AF, B-CV
-5	##정보	I-OG	I-OG	I-OG, O, B-OG, I-CV, I-AF
-6	##원	I-OG	I-OG	I-OG, O, I-CV, I-EV, I-AF
-7	##이	O	O	O, I-OG, B-PS, B-CV, I-CV
-8	정부	B-OG	B-OG	B-OG, O, B-AF, B-LC, I-OG
-9	##에	O	O	O, I-OG, I-AF, I-EV, B-CV
-10	비판	O	O	O, B-CV, B-LC, B-PS, B-TM
-11	##적	O	O	O, B-PS, B-LC, B-CV, B-OG
-12	##이	O	O	O, B-PS, B-CV, B-OG, B-LC
-13	##었	O	O	O, B-CV, B-PS, B-OG, B-LC
-14	##던	O	O	O, B-CV, B-PS, B-LC, B-OG
-15	문화	O	O	O, B-CV, B-FD, B-OG, I-CV
-16	·	O	O	O, I-CV, B-CV, I-OG, I-FD
-17	예술인	O	I-CV	I-CV, B-CV, O, I-OG, B-FD
-18	##들	O	O	O, I-CV, B-CV, I-OG, I-QT
-19	##을	O	O	O, B-CV, B-PS, B-TM, B-LC
-20	깎	O	O	O, B-CV, B-TM, B-LC, B-PS
-21	##아내리	O	O	O, I-CV, B-PS, B-CV, B-LC
-22	##기	O	O	O, B-PS, B-LC, B-CV, B-QT
-23	위해	O	O	O, B-PS, B-LC, B-CV, B-TM
-24	조	O	O	O, B-CV, B-LC, B-PS, B-OG
-25	##악	O	O	O, B-LC, B-PS, B-CV, B-OG
-26	##한	O	O	O, B-LC, B-PS, B-CV, B-AM
-27	알몸	B-AM	O	O, B-AM, B-CV, B-TM, B-PS
-28	합성	O	O	O, B-CV, I-CV, B-TM, B-PS
-29	사진	O	O	O, B-CV, B-TM, I-CV, B-LC
-30	##까	O	O	O, B-CV, B-PS, B-LC, B-TM
-31	##지	O	O	O, B-CV, B-LC, B-TM, B-PS
-32	조작	O	O	O, B-CV, B-LC, B-TM, B-PS
-33	##해	O	O	O, B-LC, B-PS, B-CV, B-OG
-34	인터넷	O	O	O, B-TM, B-CV, B-LC, B-QT
-35	##에	O	O	O, B-CV, B-LC, B-TM, I-CV
-36	유포	O	O	O, B-CV, B-TM, B-LC, I-CV
-37	##했	O	O	O, B-LC, B-PS, B-CV, I-CV
-38	##던	O	O	O, B-CV, B-LC, B-PS, B-OG
-39	사실	O	O	O, B-CV, B-LC, B-TM, B-PS
-40	##이	O	O	O, B-PS, B-CV, B-LC, B-OG
-41	14	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-PS
-42	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-43	확인	O	O	O, I-DT, B-CV, B-LC, B-OG
-44	##됐	O	O	O, B-CV, B-LC, I-OG, I-CV
-45	##다	O	O	O, B-CV, B-LC, B-TM, I-OG
-46	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-47	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	FA	B-OG	B-OG
+2	##O	I-OG	I-OG
+3	##는	O	O
+4	이	O	O
+5	##를	O	O
+6	극복	O	O
+7	##하	O	O
+8	##기	O	O
+9	위해	O	O
+10	레스토랑	O	O
+11	메뉴	O	O
+12	##에	O	O
+13	곤충	B-AM	O
+14	##류	I-AM	O
+15	##를	O	O
+16	포함	O	O
+17	##하	O	O
+18	##고	O	O
+19	곤충	B-AM	O
+20	##을	O	O
+21	이용한	O	O
+22	요리	O	O
+23	##법	O	O
+24	##을	O	O
+25	개발	O	O
+26	##할	O	O
+27	것	O	O
+28	##을	O	O
+29	제안	O	O
+30	##했	O	O
+31	##다	O	O
+32	.	O	O
+33	[SEP]	O	O

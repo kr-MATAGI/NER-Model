@@ -1,37 +1,61 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	이	O	O	O, B-OG, B-CV, B-PS, B-TM
-2	때문	O	O	O, B-CV, B-OG, B-LC, B-PS
-3	##에	O	O	O, B-OG, B-LC, B-CV, B-PS
-4	중국	B-LC	B-OG	B-OG, B-LC, O, B-PS, B-AF
-5	##은	O	O	O, I-OG, I-LC, I-AF, B-OG
-6	100	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-LC
-7	##m	I-QT	I-QT	I-QT, O, I-LC, I-OG, I-DT
-8	이상	I-QT	I-QT	I-QT, O, I-LC, I-DT, I-OG
-9	건물	O	O	O, I-QT, B-AF, I-AF, B-CV
-10	##에	O	O	O, I-AF, B-CV, B-OG, B-AF
-11	##는	O	O	O, B-LC, B-CV, B-OG, B-QT
-12	15	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-TI
-13	##층	I-QT	I-QT	I-QT, O, I-DT, I-LC, B-QT
-14	##마다	I-QT	I-QT	I-QT, O, I-LC, I-DT, I-TI
-15	,	O	O	O, I-QT, B-OG, B-CV, B-LC
-16	홍콩	B-LC	B-LC	B-LC, B-OG, O, B-PS, B-AF
-17	##은	O	O	O, I-OG, I-LC, I-AF, B-OG
-18	20	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-LC
-19	##∼	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-DT
-20	##25	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-DT
-21	##층	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-DT
-22	##마다	I-QT	I-QT	I-QT, O, I-LC, I-DT, I-PS
-23	피난	O	O	O, B-LC, I-QT, B-CV, B-TM
-24	##안전	O	O	O, I-LC, B-LC, I-CV, I-QT
-25	##구역	O	O	O, I-LC, B-LC, I-CV, I-AF
-26	##을	O	O	O, I-LC, B-CV, B-LC, I-AF
-27	설치	O	O	O, B-CV, B-LC, B-OG, B-TM
-28	##하	O	O	O, B-LC, B-CV, B-PS, B-OG
-29	##도록	O	O	O, B-CV, B-LC, B-OG, B-TM
-30	규정	O	O	O, B-CV, B-LC, B-OG, B-TM
-31	##하고	O	O	O, B-CV, B-LC, I-CV, B-PS
-32	있	O	O	O, B-CV, B-LC, B-PS, B-OG
-33	##다	O	O	O, B-CV, B-LC, I-OG, B-OG
-34	.	O	O	O, B-LC, B-CV, B-OG, B-PS
-35	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-AF
+	text	label	preds
+0	[CLS]	O	O
+1	중국	B-OG	B-OG
+2	##군	I-OG	I-OG
+3	##의	O	O
+4	고위	B-CV	B-CV
+5	간부	I-CV	I-CV
+6	##로	O	O
+7	##서는	O	O
+8	이례	O	O
+9	##적	O	O
+10	##인	O	O
+11	이	O	O
+12	발언	O	O
+13	##은	O	O
+14	팡	B-PS	B-PS
+15	참모	O	O
+16	##장이	O	O
+17	북한	B-LC	B-LC
+18	##에	O	O
+19	대한	O	O
+20	고급	O	O
+21	군사	O	O
+22	##정보	O	O
+23	##들	O	O
+24	##을	O	O
+25	갖	O	O
+26	##고	O	O
+27	있	O	O
+28	##을	O	O
+29	가능	O	O
+30	##성이	O	O
+31	있	O	O
+32	##다는	O	O
+33	점	O	O
+34	##에	O	O
+35	##서	O	O
+36	북한	B-LC	B-OG
+37	##이	O	O
+38	추가	O	O
+39	핵실험	O	O
+40	움직임	O	O
+41	##을	O	O
+42	구체	O	O
+43	##화	O	O
+44	##하	O	O
+45	##고	O	O
+46	있	O	O
+47	##는	O	O
+48	것	O	O
+49	아니	O	O
+50	##냐	O	O
+51	##는	O	O
+52	추측	O	O
+53	##을	O	O
+54	낳	O	O
+55	##고	O	O
+56	있	O	O
+57	##다	O	O
+58	.	O	O
+59	[SEP]	O	O

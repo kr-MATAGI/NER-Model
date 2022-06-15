@@ -1,29 +1,20 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	이	O	O	O, B-CV, B-OG, B-TM, B-PS
-2	##에	O	O	O, B-CV, I-OG, I-AF, I-EV
-3	따라	O	O	O, B-CV, B-LC, B-PS, B-OG
-4	격식	O	O	O, B-CV, B-TM, B-LC, B-QT
-5	##을	O	O	O, B-CV, B-PS, I-CV, I-AF
-6	갖춰	O	O	O, B-PS, B-CV, B-LC, B-QT
-7	정장	B-CV	B-CV	B-CV, O, I-CV, B-AF, B-FD
-8	##을	O	O	O, I-CV, I-AF, B-CV, I-OG
-9	입	O	O	O, B-CV, B-PS, I-CV, B-LC
-10	##어야	O	O	O, B-CV, B-PS, B-LC, B-QT
-11	했	O	O	O, B-OG, B-CV, B-LC, B-PS
-12	##던	O	O	O, B-CV, B-OG, B-LC, I-OG
-13	삼성전자	B-OG	B-OG	B-OG, B-AF, B-LC, O, B-PS
-14	서초	I-OG	B-AF	B-AF, B-LC, I-AF, O, I-OG
-15	##사	I-OG	I-AF	I-AF, O, I-LC, I-OG, B-AF
-16	##옥	I-OG	I-AF	I-AF, O, I-LC, I-OG, B-AF
-17	직원	B-CV	B-CV	B-CV, O, I-AF, I-CV, B-AF
-18	##들	O	O	O, I-CV, I-AF, B-CV, I-OG
-19	##의	O	O	O, B-CV, B-TM, B-PS, I-AF
-20	옷차림	O	O	O, B-CV, B-TM, B-QT, B-LC
-21	##이	O	O	O, B-PS, B-CV, B-OG, B-TM
-22	한층	O	O	O, B-QT, B-DT, B-TI, B-TM
-23	가벼워	O	O	O, I-QT, B-CV, I-DT, B-TM
-24	##졌	O	O	O, B-CV, I-QT, I-CV, B-QT
-25	##다	O	O	O, B-CV, B-TM, I-QT, I-CV
-26	.	O	O	O, B-CV, B-LC, B-PS, B-OG
-27	[SEP]	O	O	O, B-CV, B-LC, B-PS, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	국무	B-OG	B-CV
+2	·	I-OG	I-CV
+3	국토	I-OG	O
+4	##안	I-OG	I-CV
+5	##보	I-OG	I-CV
+6	장관	B-CV	I-CV
+7	기자	O	O
+8	##회	O	O
+9	##견	O	O
+10	,	O	O
+11	트럼프	B-PS	B-PS
+12	""""	O	O
+13	군사	O	O
+14	작전	O	O
+15	""""	O	O
+16	발언	O	O
+17	수습	O	O
+18	[SEP]	O	O

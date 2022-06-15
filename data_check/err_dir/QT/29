@@ -1,66 +1,23 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-EV, I-OG
-1	박	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-2	이사장	B-CV	B-CV	B-CV, O, I-CV, I-PS, B-OG
-3	##은	O	O	O, I-CV, I-EV, B-CV, I-OG
-4	“	O	O	O, B-CV, B-LC, B-TM, B-OG
-5	앞	O	O	O, B-CV, B-PS, B-TM, B-LC
-6	##으로	O	O	O, B-PS, B-CV, I-CV, I-OG
-7	##는	O	O	O, B-PS, B-CV, B-LC, B-OG
-8	창의	O	O	O, B-CV, B-TM, B-PS, B-MT
-9	##융	O	O	O, I-CV, B-CV, I-TM, I-TR
-10	##합	O	O	O, I-CV, I-TM, I-TR, I-PS
-11	##인	O	O	O, I-CV, B-CV, I-TM, I-TR
-12	##재	O	O	O, I-CV, B-CV, I-TM, I-TR
-13	##가	O	O	O, B-PS, I-CV, I-PS, B-LC
-14	매우	O	O	O, B-CV, B-TM, B-OG, B-LC
-15	중요	O	O	O, B-CV, B-PS, B-TM, B-LC
-16	##한	O	O	O, B-PS, B-LC, B-OG, B-CV
-17	##데	O	O	O, B-PS, B-LC, B-CV, I-OG
-18	,	O	O	O, B-CV, B-LC, B-PS, B-OG
-19	융합	O	O	O, B-PS, B-LC, B-CV, B-FD
-20	##은	O	O	O, B-PS, B-LC, B-CV, I-AF
-21	창의	O	O	O, B-PS, B-FD, B-TM, B-LC
-22	##를	O	O	O, I-AF, I-EV, B-PS, I-CV
-23	구현	O	O	O, B-CV, B-PS, B-TM, B-LC
-24	##하	O	O	O, B-PS, B-CV, B-LC, B-OG
-25	##는	O	O	O, B-PS, B-CV, B-LC, B-QT
-26	좋	O	O	O, B-CV, B-QT, B-PS, B-LC
-27	##은	O	O	O, B-QT, B-PS, I-QT, B-CV
-28	방법	O	O	O, B-QT, B-CV, I-QT, B-PS
-29	중	O	O	O, B-QT, B-PS, I-QT, B-CV
-30	하나	B-QT	O	O, B-QT, I-QT, B-PS, B-CV
-31	”	O	O	O, I-QT, I-CV, B-CV, I-OG
-32	라며	O	O	O, B-CV, B-LC, B-OG, B-TM
-33	“	O	O	O, B-CV, B-LC, B-TM, B-PS
-34	유	O	O	O, B-MT, B-LC, B-PS, B-AF
-35	(	O	O	O, I-LC, I-PS, I-CV, I-AF
-36	有	O	O	O, I-LC, B-LC, I-PS, B-PS
-37	)	O	O	O, I-LC, I-PS, B-PS, I-AF
-38	와	O	O	O, B-PS, B-LC, B-CV, I-LC
-39	유	O	O	O, B-MT, B-LC, B-PS, B-AF
-40	(	O	O	O, I-LC, B-PS, I-PS, I-CV
-41	有	O	O	O, B-LC, I-LC, B-PS, I-PS
-42	)	O	O	O, I-LC, I-PS, B-PS, I-AF
-43	를	O	O	O, B-PS, B-LC, B-CV, B-TM
-44	융합	O	O	O, B-CV, B-LC, B-PS, B-TM
-45	##해	O	O	O, B-PS, B-LC, B-CV, B-OG
-46	새로운	O	O	O, B-LC, B-PS, B-CV, B-TM
-47	유	O	O	O, B-MT, B-LC, B-PS, B-CV
-48	(	O	O	O, I-LC, I-CV, I-PS, I-AF
-49	有	O	O	O, I-LC, B-LC, B-PS, I-PS
-50	)	O	O	O, I-LC, I-PS, I-AF, B-PS
-51	를	O	O	O, B-CV, B-LC, B-PS, B-OG
-52	만들	O	O	O, B-CV, B-LC, B-TM, B-OG
-53	##어	O	O	O, B-CV, B-LC, B-PS, I-EV
-54	##낼	O	O	O, B-CV, B-LC, B-PS, I-EV
-55	수	O	O	O, B-CV, B-PS, B-LC, B-TM
-56	있	O	O	O, B-CV, I-EV, B-TM, B-LC
-57	##다	O	O	O, B-CV, B-TM, I-EV, I-OG
-58	”	O	O	O, B-CV, B-TM, B-LC, B-OG
-59	고	O	O	O, B-CV, B-TM, B-LC, B-QT
-60	말	O	O	O, B-CV, B-TM, I-CV, I-EV
-61	##했	O	O	O, B-CV, B-PS, I-CV, B-OG
-62	##다	O	O	O, B-CV, B-TM, B-LC, B-OG
-63	.	O	O	O, B-PS, B-CV, B-LC, B-FD
-64	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-FD
+	text	label	preds
+0	[CLS]	O	O
+1	지난해	B-DT	B-DT
+2	19	B-QT	B-QT
+3	##개	I-QT	I-QT
+4	홈런	B-TM	B-TM
+5	##을	O	O
+6	터뜨린	O	O
+7	강민호	B-PS	B-PS
+8	##의	O	O
+9	올	B-DT	B-DT
+10	시즌	I-DT	I-DT
+11	홈런	B-TM	B-TM
+12	##은	O	O
+13	단	B-QT	O
+14	한	I-QT	B-QT
+15	개	I-QT	I-QT
+16	##에	O	O
+17	불과	O	O
+18	##하	O	O
+19	##다	O	O
+20	.	O	O
+21	[SEP]	O	O

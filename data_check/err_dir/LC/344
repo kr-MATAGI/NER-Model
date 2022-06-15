@@ -1,40 +1,29 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	다만	O	O	O, B-LC, B-OG, B-PS, B-TM
-2	타이	B-LC	B-LC	B-LC, B-OG, O, B-PS, B-AF
-3	정부	B-OG	B-OG	B-OG, I-OG, O, B-LC, B-CV
-4	##가	O	O	O, I-OG, B-PS, I-AF, B-LC
-5	중국	B-LC	B-LC	B-LC, B-OG, O, B-PS, B-AF
-6	##에서	O	O	O, I-LC, I-OG, I-AF, B-PS
-7	잠수함	B-AF	B-AF	B-AF, O, I-AF, B-TM, B-OG
-8	##을	O	O	O, I-AF, I-OG, B-CV, I-EV
-9	최근	O	O	O, B-LC, B-PS, B-OG, B-TM
-10	구입	O	O	O, B-CV, B-LC, B-OG, B-AF
-11	##하	O	O	O, B-LC, B-PS, B-OG, B-AF
-12	##는	O	O	O, B-LC, B-PS, B-OG, B-CV
-13	등	O	O	O, B-LC, B-OG, B-PS, B-TM
-14	중국	B-LC	B-OG	B-OG, B-LC, O, B-PS, I-OG
-15	##과	O	O	O, I-OG, I-LC, B-PS, B-CV
-16	긴밀	O	O	O, B-LC, B-OG, B-CV, B-PS
-17	##한	O	O	O, B-LC, B-PS, B-OG, I-LC
-18	관계	O	O	O, B-LC, B-CV, B-OG, B-PS
-19	##라	O	O	O, B-LC, B-PS, B-OG, I-OG
-20	##서	O	O	O, B-LC, B-PS, B-OG, I-OG
-21	,	O	O	O, B-LC, B-PS, B-OG, B-CV
-22	일본	B-LC	O	O, B-LC, B-CV, B-OG, I-LC
-23	##제	O	O	O, I-LC, I-AF, I-DT, I-CV
-24	레이더	B-AF	B-AF	B-AF, O, I-AF, B-TM, B-LC
-25	구입	O	O	O, I-AF, B-CV, B-TM, I-OG
-26	##을	O	O	O, B-LC, B-PS, B-CV, B-OG
-27	망설	O	O	O, B-LC, B-CV, B-TM, B-OG
-28	##일	O	O	O, B-PS, B-LC, B-OG, B-CV
-29	수	O	O	O, B-PS, B-OG, B-LC, B-TM
-30	있	O	O	O, B-PS, B-OG, B-LC, B-CV
-31	##다고	O	O	O, B-PS, B-LC, B-OG, I-OG
-32	이	O	O	O, B-PS, B-OG, B-AF, B-LC
-33	신문	O	O	O, B-OG, B-CV, I-OG, B-AF
-34	##은	O	O	O, I-OG, B-OG, B-CV, I-AF
-35	덧붙였	O	O	O, B-OG, B-CV, B-LC, B-TM
-36	##다	O	O	O, I-OG, B-CV, I-CV, I-AF
-37	.	O	O	O, B-LC, B-PS, B-OG, B-CV
-38	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	북한	B-LC	B-OG
+2	##이	O	O
+3	12	B-DT	B-DT
+4	##일	I-DT	I-DT
+5	또	O	O
+6	대남	O	O
+7	통지	O	O
+8	##문	O	O
+9	##을	O	O
+10	보내	O	O
+11	금강산	B-LC	B-EV
+12	##관광	O	I-EV
+13	재개	O	I-EV
+14	회담	O	I-EV
+15	##과	O	O
+16	개성	B-EV	B-EV
+17	##공단	I-EV	I-EV
+18	실무	I-EV	I-EV
+19	##회	I-EV	I-EV
+20	##담	I-EV	I-EV
+21	개최	O	O
+22	##를	O	O
+23	요구	O	O
+24	##했	O	O
+25	##다	O	O
+26	.	O	O
+27	[SEP]	O	O

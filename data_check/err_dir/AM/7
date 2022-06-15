@@ -1,16 +1,42 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	윤	O	B-PS	B-PS, O, B-AM, B-CV, B-LC
-2	##미	O	O	O, I-PS, I-CV, B-PS, I-QT
-3	##라는	O	O	O, I-PS, B-PS, B-AM, B-CV
-4	낯	B-AM	O	O, B-AM, B-PS, I-PS, I-AM
-5	##이	O	O	O, B-PS, I-PS, B-AM, I-AM
-6	뜨거워	O	O	O, B-PS, B-LC, B-TM, I-PS
-7	차	B-AF	B-AF	B-AF, O, I-AF, B-TM, B-OG
-8	##에	O	O	O, I-AF, I-OG, B-CV, I-CV
-9	타고	O	O	O, I-AF, B-CV, B-AF, B-QT
-10	말	O	O	O, B-CV, B-QT, I-AF, B-PS
-11	##았	O	O	O, B-CV, B-PS, I-CV, I-AF
-12	##다	O	O	O, B-CV, I-QT, I-CV, B-TM
-13	.	O	O	O, B-PS, B-CV, I-AF, B-LC
-14	[SEP]	O	O	O, B-CV, B-PS, I-AF, B-AM
+	text	label	preds
+0	[CLS]	O	O
+1	이용	B-PS	B-PS
+2	##규	I-PS	I-PS
+3	(	O	O
+4	KIA	B-OG	B-OG
+5	)	O	O
+6	,	O	O
+7	이종	B-PS	B-PS
+8	##욱	I-PS	I-PS
+9	(	O	O
+10	두산	B-OG	B-OG
+11	)	O	O
+12	의	O	O
+13	‘	O	O
+14	발	B-AM	O
+15	##야	B-CV	B-CV
+16	##구	I-CV	I-CV
+17	’	O	O
+18	도	O	O
+19	더욱	O	O
+20	빨라	O	O
+21	##지	O	O
+22	##고	O	O
+23	있	O	O
+24	##어	O	O
+25	상승세	O	O
+26	##인	O	O
+27	일본	B-OG	B-OG
+28	##과	O	O
+29	다시	O	O
+30	한	O	O
+31	번	O	O
+32	명	O	O
+33	##승부	O	O
+34	##를	O	O
+35	치를	O	O
+36	것	O	O
+37	##으로	O	O
+38	보인다	O	O
+39	.	O	O
+40	[SEP]	O	O

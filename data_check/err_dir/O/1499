@@ -1,53 +1,28 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	207	B-QT	B-QT	B-QT, O, B-TM, I-QT, B-TI
-2	##만	I-QT	I-QT	I-QT, O, I-TM, I-LC, B-QT
-3	##화	I-QT	I-QT	I-QT, O, I-TM, B-QT, I-LC
-4	##소	I-QT	I-QT	I-QT, O, I-TM, I-LC, I-TI
-5	##의	O	O	O, I-QT, B-PS, I-TM, I-LC
-6	영상	O	O	O, B-TM, B-LC, I-QT, B-CV
-7	##을	O	O	O, B-CV, B-PS, B-OG, B-LC
-8	표현	O	O	O, B-CV, B-LC, B-QT, B-TM
-9	##하	O	O	O, B-LC, B-PS, B-CV, B-OG
-10	##는	O	O	O, B-LC, B-CV, B-QT, B-PS
-11	풀	O	O	O, B-TM, B-QT, B-TR, B-AF
-12	HD	O	B-TM	B-TM, O, B-TR, I-TM, I-TR
-13	##급	O	O	O, I-TM, I-QT, I-TR, I-CV
-14	##으로	O	O	O, B-CV, B-OG, B-LC, I-QT
-15	기존	O	O	O, B-QT, B-LC, B-CV, B-AF
-16	HD	O	B-TM	B-TM, O, B-TR, B-FD, B-QT
-17	##급	O	O	O, I-TM, I-QT, I-TR, I-CV
-18	(	O	O	O, I-QT, B-CV, I-CV, I-OG
-19	104	B-QT	B-QT	B-QT, O, I-QT, B-TM, B-LC
-20	##만	I-QT	I-QT	I-QT, O, I-TM, I-LC, B-QT
-21	화소	I-QT	I-QT	I-QT, O, I-TM, B-TM, I-LC
-22	)	O	O	O, I-QT, I-TM, I-CV, B-CV
-23	보다	O	O	O, B-CV, B-PS, B-OG, B-LC
-24	두	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-TM
-25	배	I-QT	I-QT	I-QT, O, I-TM, I-LC, I-DT
-26	선명	O	O	O, I-QT, B-TM, B-CV, B-LC
-27	##한	O	O	O, B-LC, B-PS, B-TM, B-QT
-28	영상	O	O	O, B-LC, B-TM, B-CV, B-QT
-29	##을	O	O	O, B-CV, B-LC, B-OG, B-PS
-30	즐길	O	O	O, B-CV, B-LC, B-OG, B-TM
-31	수	O	O	O, B-PS, B-CV, B-LC, B-TM
-32	있	O	O	O, B-CV, B-TM, B-LC, B-PS
-33	##으며	O	O	O, B-LC, B-CV, B-OG, B-QT
-34	2010	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-35	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-36	##형	O	O	O, I-DT, I-QT, B-PS, I-OG
-37	최신	O	O	O, B-CV, B-PS, B-LC, B-TM
-38	패널	O	O	O, B-TM, B-CV, B-MT, B-LC
-39	##을	O	O	O, B-CV, I-TM, I-CV, B-LC
-40	적용	O	O	O, B-CV, B-LC, B-OG, B-TM
-41	##해	O	O	O, B-LC, B-PS, B-OG, B-TM
-42	화면	O	O	O, B-TM, B-LC, B-CV, B-PS
-43	##이	O	O	O, B-PS, B-OG, B-LC, B-CV
-44	한층	O	O	O, B-QT, B-DT, B-TM, B-LC
-45	밝	O	O	O, B-TM, I-QT, B-LC, B-CV
-46	##고	O	O	O, B-PS, B-QT, B-TM, B-LC
-47	또렷	O	O	O, B-TM, B-LC, B-QT, B-CV
-48	##해졌	O	O	O, I-QT, I-TM, B-PS, I-OG
-49	##다	O	O	O, B-CV, B-TM, B-LC, I-QT
-50	.	O	O	O, B-LC, B-CV, B-PS, B-TM
-51	[SEP]	O	O	O, B-LC, B-CV, B-TM, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	안철수	B-PS	B-PS
+2	의원	B-CV	B-CV
+3	##의	O	O
+4	싱크탱크	O	O
+5	'	O	O
+6	내일	O	B-DT
+7	'	O	O
+8	이	O	O
+9	개최	O	O
+10	##한	O	O
+11	혁신	O	O
+12	관련	O	O
+13	토론회	O	O
+14	##에	O	O
+15	##서도	O	O
+16	지도부	O	O
+17	##를	O	O
+18	향한	O	O
+19	날	O	O
+20	선	O	O
+21	비판	O	O
+22	##이	O	O
+23	나왔	O	O
+24	##다	O	O
+25	.	O	O
+26	[SEP]	O	O

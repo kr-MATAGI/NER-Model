@@ -1,33 +1,26 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-EV, I-CV
-1	이번	O	O	O, B-DT, B-QT, B-PS, I-DT
-2	런던	B-EV	B-EV	B-EV, I-EV, B-LC, O, B-OG
-3	##올	I-EV	I-EV	I-EV, B-EV, O, I-AF, I-OG
-4	##림픽	I-EV	I-EV	I-EV, O, B-EV, I-AF, I-OG
-5	##에	O	O	O, I-EV, I-AF, I-OG, I-CV
-6	##는	O	O	O, B-CV, B-OG, I-EV, B-PS
-7	엘	B-PS	B-PS	B-PS, O, B-LC, B-OG, B-EV
-8	##스	I-PS	I-PS	I-PS, O, I-OG, I-LC, I-EV
-9	못지않	O	O	O, I-PS, I-OG, I-EV, I-AF
-10	##게	O	O	O, B-LC, B-OG, I-OG, B-PS
-11	수많	O	O	O, B-CV, B-TM, B-OG, B-LC
-12	##은	O	O	O, B-LC, B-PS, B-OG, B-TM
-13	난관	O	O	O, B-CV, B-LC, B-TM, B-OG
-14	##을	O	O	O, B-CV, B-OG, I-OG, B-PS
-15	뚫	O	O	O, B-CV, B-OG, B-LC, B-PS
-16	##고	O	O	O, B-LC, B-PS, B-CV, B-OG
-17	온	O	O	O, B-PS, B-LC, B-CV, B-OG
-18	세계	O	O	O, B-LC, B-CV, B-PS, B-OG
-19	##의	O	O	O, B-PS, B-CV, B-LC, B-OG
-20	올림	O	B-CV	B-CV, O, B-OG, I-CV, B-PS
-21	##피	O	I-CV	I-CV, O, B-CV, I-OG, I-AF
-22	##안	O	I-CV	I-CV, O, I-OG, B-CV, I-QT
-23	##들이	O	O	O, I-CV, I-OG, I-AF, I-QT
-24	자리	O	O	O, B-CV, B-TM, B-LC, B-PS
-25	##를	O	O	O, B-CV, B-PS, I-AF, B-OG
-26	빛	O	O	O, B-CV, B-LC, B-PS, I-OG
-27	##낼	O	O	O, B-CV, B-PS, B-OG, B-LC
-28	것	O	O	O, B-CV, B-PS, B-OG, B-LC
-29	##이다	O	O	O, B-CV, I-OG, I-EV, B-TM
-30	.	O	O	O, B-CV, B-PS, B-LC, B-OG
-31	[SEP]	O	O	O, B-CV, B-PS, I-EV, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	히	B-PT	B-OG
+2	##비스	I-PT	I-OG
+3	##커스	I-PT	I-OG
+4	##나	O	O
+5	난	O	O
+6	이런	O	O
+7	걸	O	O
+8	챙겨	O	O
+9	먹	O	O
+10	##었	O	O
+11	##지	O	O
+12	근데	O	O
+13	내	O	O
+14	##가	O	O
+15	요즘	O	O
+16	느껴	O	O
+17	정말	O	O
+18	영양	O	B-TM
+19	##부	O	I-TM
+20	##족	O	I-TM
+21	##이	O	O
+22	##라는	O	O
+23	걸	O	O
+24	[SEP]	O	O

@@ -1,23 +1,15 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-EV, I-CV, B-CV
-1	""""	O	O	O, B-CV, B-LC, B-PS, B-TM
-2	부서진	O	O	O, B-CV, B-PS, B-LC, B-TM
-3	쌀	O	B-CV	B-CV, O, B-PT, I-CV, B-AF
-4	##알	O	I-CV	I-CV, O, I-PT, I-AF, I-AM
-5	##에서	O	O	O, I-CV, B-PS, I-AF, B-LC
-6	전분	B-MT	B-MT	B-MT, O, B-CV, B-TR, B-TM
-7	##이	O	O	O, B-PS, I-CV, I-MT, I-AF
-8	흘러나	O	O	O, B-LC, B-PS, B-CV, B-TM
-9	##와	O	O	O, B-LC, B-PS, B-TM, I-LC
-10	밥	B-CV	B-CV	B-CV, O, I-CV, B-PT, B-AF
-11	##이	O	O	O, I-CV, B-PS, B-CV, I-AF
-12	질	O	O	O, B-TM, B-LC, B-CV, B-PS
-13	##척	O	O	O, I-TM, I-CV, I-LC, I-PS
-14	##해	O	O	O, B-PS, B-LC, B-CV, I-CV
-15	##지	O	O	O, B-CV, B-LC, B-PS, I-CV
-16	##는	O	O	O, B-CV, B-PS, B-TM, I-CV
-17	탓	O	O	O, B-CV, B-PS, B-TM, I-CV
-18	""""	O	O	O, B-CV, I-CV, B-PS, B-LC
-19	이다	O	O	O, B-CV, B-PS, B-TM, B-OG
-20	.	O	O	O, B-LC, B-PS, B-CV, I-EV
-21	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	창립	O	O
+2	기념	O	O
+3	횟수	O	O
+4	##만큼	O	O
+5	장학생	O	B-CV
+6	##을	O	O
+7	선발	O	O
+8	##하	O	O
+9	##는	O	O
+10	셈	O	O
+11	##이다	O	O
+12	.	O	O
+13	[SEP]	O	O

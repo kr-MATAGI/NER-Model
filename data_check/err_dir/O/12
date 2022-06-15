@@ -1,49 +1,58 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	황정	B-PS	B-PS	B-PS, B-OG, O, B-LC, I-PS
-2	##임	I-PS	I-PS	I-PS, I-OG, O, I-LC, I-QT
-3	한국	B-OG	B-OG	B-OG, B-LC, I-OG, I-PS, O
-4	##여	I-OG	I-OG	I-OG, O, I-LC, I-PS, B-OG
-5	##성	I-OG	I-OG	I-OG, O, I-LC, I-PS, I-EV
-6	##정책	I-OG	I-OG	I-OG, O, I-LC, I-EV, I-PS
-7	##연구원	I-OG	I-OG	I-OG, O, I-LC, I-PS, I-AF
-8	선임	B-CV	B-CV	B-CV, O, B-TM, B-AF, B-FD
-9	##연구	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-TM
-10	##위원	I-CV	I-CV	I-CV, O, B-CV, I-TM, I-OG
-11	##은	O	O	O, I-CV, I-OG, I-QT, I-TM
-12	“	O	O	O, B-CV, B-LC, B-TM, B-OG
-13	피해자	B-CV	B-CV	B-CV, O, I-CV, B-PS, B-AF
-14	##가	O	O	O, I-CV, B-PS, B-CV, I-OG
-15	고령	O	O	O, B-CV, B-TM, B-LC, B-TR
-16	##인	O	O	O, B-PS, I-CV, I-PS, I-TM
-17	점	O	O	O, B-CV, B-TM, B-LC, B-PS
-18	##을	O	O	O, B-CV, B-PS, B-LC, B-TM
-19	감안	O	O	O, B-CV, B-TM, B-LC, B-PS
-20	##해	O	O	O, B-LC, B-PS, B-TM, B-CV
-21	호스	O	B-TR	B-TR, O, B-TM, B-FD, B-CV
-22	##피스	O	I-TR	I-TR, O, I-TM, I-FD, I-CV
-23	·	O	O	O, I-TR, I-TM, I-CV, I-FD
-24	완화	O	O	O, I-TR, B-TR, I-TM, B-FD
-25	##의	O	I-TR	I-TR, O, I-TM, I-FD, B-TR
-26	##료	O	I-TR	I-TR, O, I-TM, I-FD, I-CV
-27	서비스	O	O	O, I-TR, I-TM, I-CV, I-FD
-28	##를	O	O	O, I-TR, I-TM, I-CV, I-AF
-29	도입	O	O	O, B-CV, B-LC, B-TM, B-OG
-30	##하고	O	O	O, B-LC, B-CV, B-PS, B-OG
-31	,	O	O	O, B-CV, B-LC, B-PS, B-TM
-32	자녀	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-PS
-33	##들	O	O	O, I-CV, B-CV, I-AF, I-EV
-34	##의	O	O	O, B-TM, B-LC, B-CV, B-PS
-35	심리	O	O	O, B-TM, B-TR, B-CV, B-QT
-36	지원	O	O	O, I-TM, I-TR, I-CV, B-TM
-37	##도	O	O	O, I-TM, I-CV, I-TR, B-LC
-38	병행	O	O	O, B-TM, B-CV, B-LC, B-QT
-39	##해야	O	O	O, B-LC, B-CV, B-PS, I-TM
-40	한다	O	O	O, B-CV, B-LC, B-OG, B-PS
-41	”	O	O	O, B-CV, B-TM, I-OG, B-LC
-42	고	O	O	O, B-CV, B-TM, B-LC, B-OG
-43	제언	O	O	O, B-CV, B-TM, B-LC, B-FD
-44	##했	O	O	O, B-CV, I-CV, B-PS, I-OG
-45	##다	O	O	O, B-CV, B-TM, I-OG, B-LC
-46	.	O	O	O, B-CV, B-LC, B-PS, B-OG
-47	[SEP]	O	O	O, B-CV, B-LC, B-TM, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	관람	O	O
+2	##을	O	O
+3	마치	O	O
+4	##고	O	O
+5	집	O	O
+6	##에	O	O
+7	돌아온	O	O
+8	이	B-PS	B-PS
+9	양은	O	O
+10	인상	O	O
+11	##적	O	O
+12	##이	O	O
+13	##었	O	O
+14	##던	O	O
+15	미국	B-LC	B-LC
+16	##의	O	O
+17	팝	O	B-FD
+18	아티스트	B-CV	I-CV
+19	웨인	B-PS	B-PS
+20	티	I-PS	I-PS
+21	##보	I-PS	I-PS
+22	##의	O	O
+23	‘	O	O
+24	파이	B-AF	B-AF
+25	진열	I-AF	I-AF
+26	##대	I-AF	I-AF
+27	’	O	O
+28	라는	O	O
+29	작품	O	O
+30	##의	O	O
+31	사진	O	O
+32	##을	O	O
+33	인터넷	O	O
+34	##에	O	O
+35	##서	O	O
+36	출력	O	O
+37	##해	O	O
+38	노트	O	O
+39	##에	O	O
+40	붙인	O	O
+41	뒤	O	O
+42	관람	O	O
+43	##하면	O	O
+44	##서	O	O
+45	느낀	O	O
+46	점	O	O
+47	##을	O	O
+48	적	O	O
+49	##고	O	O
+50	포트폴리오	O	O
+51	##를	O	O
+52	만들	O	O
+53	##었	O	O
+54	##다	O	O
+55	.	O	O
+56	[SEP]	O	O

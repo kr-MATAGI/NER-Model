@@ -1,26 +1,66 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-AF
-1	도서관	O	O	O, B-OG, B-TM, B-CV, B-LC
-2	##에	O	O	O, B-CV, I-AF, I-OG, B-LC
-3	##선	O	O	O, B-LC, B-CV, B-PS, B-OG
-4	독일	B-LC	B-LC	B-LC, O, B-OG, B-FD, B-CV
-5	철학자	B-CV	B-CV	B-CV, O, I-CV, I-LC, B-FD
-6	알베르	B-PS	B-PS	B-PS, O, I-PS, B-LC, B-OG
-7	##투스	I-PS	I-PS	I-PS, O, I-LC, B-PS, I-OG
-8	마그	I-PS	I-PS	I-PS, O, B-PS, I-LC, B-LC
-9	##누스	I-PS	I-PS	I-PS, O, I-LC, B-LC, B-PS
-10	,	O	O	O, I-PS, B-LC, B-CV, B-OG
-11	독일	B-LC	B-LC	B-LC, O, B-OG, B-CV, B-FD
-12	신비주의	O	B-TR	B-TR, O, B-FD, B-CV, B-PS
-13	사상가	B-CV	B-CV	B-CV, I-CV, O, I-TR, I-PS
-14	야	B-PS	B-PS	B-PS, O, I-PS, B-LC, B-OG
-15	##코프	I-PS	I-PS	I-PS, O, I-LC, B-PS, I-OG
-16	뵈	I-PS	I-PS	I-PS, O, B-PS, I-LC, B-LC
-17	##메	I-PS	I-PS	I-PS, O, I-LC, B-LC, I-OG
-18	##의	O	O	O, I-PS, B-LC, B-CV, I-LC
-19	저작	O	O	O, B-CV, B-FD, B-TM, B-LC
-20	##을	O	O	O, B-CV, B-LC, B-PS, B-TM
-21	탐구	O	O	O, B-CV, B-LC, B-TM, B-QT
-22	##한다	O	O	O, B-CV, I-OG, B-LC, B-OG
-23	.	O	O	O, B-LC, B-PS, B-CV, B-FD
-24	[SEP]	O	O	O, B-LC, B-CV, B-FD, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	성원	B-PS	B-PS
+2	##근	I-PS	I-PS
+3	국립	B-OG	B-OG
+4	##보	I-OG	I-OG
+5	##건	I-OG	I-OG
+6	##연구원	I-OG	I-OG
+7	생물	B-CV	B-CV
+8	##안전	I-CV	I-CV
+9	##평가	I-CV	I-CV
+10	##팀	I-CV	I-CV
+11	##장	I-CV	I-CV
+12	##은	O	O
+13	“	O	O
+14	병원	B-TM	B-TM
+15	##체	I-TM	I-TM
+16	##에	O	O
+17	따라	O	O
+18	‘	O	O
+19	생물	O	O
+20	##안전	O	O
+21	##등	O	O
+22	##급	O	O
+23	(	O	O
+24	BL	O	O
+25	)	O	O
+26	’	O	O
+27	에	O	O
+28	맞	O	O
+29	##는	O	O
+30	실험실	O	O
+31	##에	O	O
+32	##서	O	O
+33	연구	O	O
+34	##한다	O	O
+35	”	O	O
+36	며	O	O
+37	“	O	O
+38	영화	O	O
+39	##처럼	O	O
+40	의료진	O	B-CV
+41	##이나	O	O
+42	백신	B-TM	B-TM
+43	##을	O	O
+44	개발	O	O
+45	##하	O	O
+46	##려	O	O
+47	##는	O	O
+48	연구원	B-CV	B-CV
+49	##이	O	O
+50	감염	O	O
+51	##되	O	O
+52	##는	O	O
+53	일	O	O
+54	##은	O	O
+55	거의	O	O
+56	없	O	O
+57	##다	O	O
+58	”	O	O
+59	고	O	O
+60	설명	O	O
+61	##했	O	O
+62	##다	O	O
+63	.	O	O
+64	[SEP]	O	O

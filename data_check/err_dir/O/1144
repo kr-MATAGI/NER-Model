@@ -1,86 +1,53 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	조정	O	O	O, B-CV, B-OG, B-PS, B-AF
-2	##안	O	O	O, I-CV, I-OG, I-LC, I-AF
-3	##은	O	O	O, I-OG, I-CV, B-CV, B-OG
-4	▲	O	O	O, B-LC, B-PS, B-CV, B-OG
-5	##참	O	O	O, B-OG, B-LC, B-CV, B-PS
-6	##가	O	O	O, I-OG, I-LC, B-OG, I-CV
-7	##국	O	O	O, I-OG, I-LC, I-CV, B-OG
-8	##의	O	O	O, I-OG, B-PS, I-LC, B-LC
-9	회담	O	O	O, B-EV, B-OG, I-EV, B-LC
-10	재개	O	O	O, I-EV, I-OG, B-PS, B-LC
-11	동의	O	O	O, B-LC, B-OG, B-PS, B-CV
-12	##와	O	O	O, B-PS, B-LC, B-OG, I-OG
-13	9	B-EV	B-EV	B-EV, B-DT, O, B-AF, B-OG
-14	·	I-EV	I-EV	I-EV, O, I-DT, I-AF, I-OG
-15	19	I-EV	I-EV	I-EV, I-DT, O, I-AF, I-OG
-16	공동	I-EV	I-EV	I-EV, O, I-OG, I-AF, I-DT
-17	##성	I-EV	I-EV	I-EV, O, I-OG, I-AF, I-DT
-18	##명	I-EV	I-EV	I-EV, O, I-OG, I-AF, I-DT
-19	##에	O	O	O, I-EV, I-OG, I-DT, I-AF
-20	따른	O	O	O, B-LC, B-PS, B-OG, B-CV
-21	의무	O	O	O, B-CV, B-LC, B-PS, B-OG
-22	이행	O	O	O, B-LC, B-PS, I-CV, B-OG
-23	▲	O	O	O, B-LC, B-PS, B-OG, B-QT
-24	##한	B-LC	B-LC	B-LC, O, B-OG, B-PS, I-LC
-25	##반도	I-LC	I-LC	I-LC, O, I-OG, B-LC, I-PS
-26	비핵화	O	O	O, B-CV, I-LC, B-PS, B-LC
-27	실현	O	O	O, B-LC, B-PS, B-OG, I-LC
-28	▲	O	O	O, B-LC, B-PS, B-OG, B-CV
-29	##비	O	B-TR	B-TR, O, B-TM, B-PS, B-CV
-30	##핵화	O	O	O, I-TR, I-TM, I-PS, I-CV
-31	과정	O	O	O, B-LC, B-PS, I-TR, B-OG
-32	##에서	O	O	O, B-LC, B-OG, B-PS, B-CV
-33	북한	B-LC	B-OG	B-OG, B-LC, O, B-PS, I-OG
-34	##의	O	O	O, I-OG, I-LC, B-LC, B-OG
-35	관심	O	O	O, B-LC, B-CV, B-OG, B-PS
-36	사항	O	O	O, B-LC, I-LC, B-PS, I-CV
-37	해결	O	O	O, B-LC, B-PS, B-OG, B-CV
-38	▲	O	O	O, B-LC, B-PS, B-OG, B-CV
-39	##한	B-LC	B-LC	B-LC, B-OG, O, B-CV, B-PS
-40	·	O	O	O, I-OG, I-LC, B-LC, B-OG
-41	미	B-LC	B-OG	B-OG, O, B-LC, I-OG, I-LC
-42	·	O	O	O, I-OG, I-LC, B-LC, B-OG
-43	일과	O	O	O, B-OG, B-LC, I-OG, B-PS
-44	북한	B-LC	B-OG	B-OG, B-LC, O, I-OG, B-PS
-45	##의	O	O	O, I-OG, B-PS, B-LC, I-LC
-46	관계	O	O	O, B-LC, B-CV, B-OG, B-PS
-47	개선	O	O	O, B-LC, B-PS, B-OG, I-OG
-48	및	O	O	O, B-LC, B-PS, B-OG, B-CV
-49	북한	B-LC	B-OG	B-OG, B-LC, O, B-PS, B-CV
-50	체제	O	O	O, B-CV, I-CV, I-OG, I-LC
-51	전복	O	O	O, I-CV, B-CV, B-PS, B-LC
-52	의사	O	O	O, B-LC, B-PS, B-CV, B-OG
-53	없	O	O	O, B-LC, B-PS, B-OG, B-CV
-54	##다는	O	O	O, B-LC, B-PS, B-OG, B-CV
-55	표시	O	O	O, B-LC, B-CV, B-PS, B-OG
-56	▲	O	O	O, B-LC, B-PS, B-OG, B-CV
-57	##한	B-LC	B-LC	B-LC, B-OG, O, B-PS, B-AF
-58	##반도	I-LC	I-LC	I-LC, O, I-OG, B-LC, I-PS
-59	평화	O	O	O, B-CV, I-LC, I-OG, B-OG
-60	##조	O	O	O, I-OG, I-LC, I-CV, I-AF
-61	##약	O	O	O, I-OG, I-CV, I-LC, I-AF
-62	체결	O	O	O, I-OG, B-LC, I-CV, I-LC
-63	노력	O	O	O, B-LC, B-PS, I-OG, B-OG
-64	▲	O	O	O, B-LC, B-PS, B-CV, B-OG
-65	##행	O	O	O, B-LC, B-CV, B-PS, B-TM
-66	##동	O	O	O, I-LC, I-CV, I-PS, I-OG
-67	대	O	O	O, I-LC, I-PS, B-LC, B-PS
-68	행동	O	O	O, B-LC, I-LC, B-PS, I-PS
-69	원칙	O	O	O, B-LC, I-LC, B-PS, I-CV
-70	유지	O	O	O, B-LC, B-PS, B-CV, I-LC
-71	▲	O	O	O, B-LC, B-PS, B-QT, B-TM
-72	##6	B-EV	B-EV	B-EV, B-QT, O, B-DT, B-CV
-73	##자	I-EV	I-EV	I-EV, I-QT, I-DT, I-AF, O
-74	회담	I-EV	I-EV	I-EV, O, I-OG, I-QT, I-AF
-75	##의	O	O	O, I-EV, I-OG, I-AF, I-DT
-76	정례	O	O	O, B-LC, B-CV, B-OG, B-DT
-77	##화	O	O	O, B-LC, I-LC, B-PS, I-OG
-78	등	O	O	O, B-LC, B-PS, B-CV, B-OG
-79	##을	O	O	O, B-CV, B-OG, B-LC, B-TM
-80	담	O	O	O, B-OG, B-CV, B-LC, B-PS
-81	##았	O	O	O, I-OG, B-OG, B-PS, I-CV
-82	##다	O	O	O, B-CV, I-OG, B-OG, I-CV
-83	.	O	O	O, B-LC, B-PS, B-CV, B-OG
-84	[SEP]	O	O	O, B-LC, B-CV, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	중국	B-OG	B-OG
+2	##의	O	O
+3	일방	O	O
+4	##적	O	O
+5	##인	O	O
+6	방공	O	B-LC
+7	##식	O	I-LC
+8	##별	O	I-LC
+9	##구역	O	I-LC
+10	선포	O	O
+11	##와	O	O
+12	일본	B-OG	B-OG
+13	##의	O	O
+14	집단	B-CV	B-CV
+15	##적	I-CV	I-CV
+16	자위권	I-CV	I-CV
+17	추진	O	O
+18	##으로	O	O
+19	동아시아	B-LC	B-LC
+20	##에	O	O
+21	##서	O	O
+22	긴장	O	O
+23	##이	O	O
+24	고조	O	O
+25	##되	O	O
+26	##고	O	O
+27	있	O	O
+28	##어	O	O
+29	'	O	O
+30	초보	O	O
+31	외교관	B-CV	B-CV
+32	'	O	O
+33	케네디	B-PS	B-PS
+34	대사	B-CV	B-CV
+35	##의	O	O
+36	능력	O	O
+37	##을	O	O
+38	검증	O	O
+39	##하	O	O
+40	##는	O	O
+41	시험	O	O
+42	무대	O	O
+43	##가	O	O
+44	되	O	O
+45	##고	O	O
+46	있	O	O
+47	##다는	O	O
+48	것	O	O
+49	##이다	O	O
+50	.	O	O
+51	[SEP]	O	O

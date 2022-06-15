@@ -1,29 +1,19 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-AF
-1	양	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-AF
-2	##털	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-AF
-3	##부	B-CV	I-CV	I-CV, B-CV, O, I-AF, I-OG
-4	##츠	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-AF
-5	##를	O	O	O, I-CV, I-OG, I-AF, B-CV
-6	신다	O	O	O, B-CV, B-PS, B-LC, B-QT
-7	##가	O	O	O, B-CV, I-CV, B-PS, I-OG
-8	생긴	O	O	O, B-CV, B-PS, B-TM, B-LC
-9	가벼운	O	O	O, B-CV, B-PS, B-TM, B-LC
-10	오염	O	O	O, B-TM, B-CV, B-PS, B-LC
-11	##은	O	O	O, B-PS, B-CV, I-CV, B-LC
-12	부드러운	O	O	O, B-CV, B-TM, B-PS, B-LC
-13	천	O	O	O, B-CV, B-AM, B-TM, B-LC
-14	##이나	O	O	O, B-PS, I-CV, B-CV, I-AF
-15	솔로	O	O	O, B-CV, B-LC, B-TM, B-PS
-16	그때	O	O	O, B-PS, B-CV, B-LC, B-OG
-17	##그	O	O	O, B-PS, I-OG, I-LC, I-PS
-18	##때	O	O	O, I-PS, I-LC, I-OG, B-PS
-19	살살	O	O	O, B-CV, B-LC, B-TM, B-PS
-20	털어	O	O	O, B-CV, B-TM, B-LC, B-PS
-21	##내	O	O	O, B-CV, B-PS, B-LC, I-CV
-22	##는	O	O	O, B-CV, B-LC, B-PS, B-OG
-23	게	O	O	O, B-CV, B-LC, B-PS, B-OG
-24	좋	O	O	O, B-CV, B-LC, I-CV, B-TM
-25	##다	O	O	O, B-CV, I-CV, I-OG, B-LC
-26	.	O	O	O, B-CV, B-LC, B-PS, B-OG
-27	[SEP]	O	O	O, B-CV, B-LC, B-PS, I-CV
+	text	label	preds
+0	[CLS]	O	O
+1	현재	O	O
+2	아마추어	B-CV	B-CV
+3	선수	I-CV	B-CV
+4	##들의	O	O
+5	프로	B-CV	B-CV
+6	##야	I-CV	I-CV
+7	##구	I-CV	I-CV
+8	취업률	O	O
+9	##은	O	O
+10	10	B-QT	B-QT
+11	%	I-QT	I-QT
+12	도	O	O
+13	채	O	O
+14	안	O	O
+15	된다	O	O
+16	.	O	O
+17	[SEP]	O	O

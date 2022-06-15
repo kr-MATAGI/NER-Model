@@ -1,13 +1,18 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, B-CV, I-OG, I-AF
-1	수입	O	O	O, B-AM, B-CV, B-TM, B-AF
-2	##두	O	O	O, B-AM, I-AM, I-TM, I-CV
-3	양쪽	O	B-TM	B-TM, O, B-QT, I-TM, B-AM
-4	##이	O	O	O, B-PS, I-TM, B-CV, I-CV
-5	비슷	O	O	O, B-CV, B-TM, I-CV, B-LC
-6	##하	O	O	O, B-LC, B-PS, I-CV, B-AM
-7	##게	O	O	O, B-PS, B-CV, B-LC, I-OG
-8	벌	O	O	O, B-CV, B-AM, B-TM, B-LC
-9	##어	O	O	O, I-CV, B-PS, I-AF, B-CV
-10	##옵니다	O	O	O, B-CV, B-PS, I-CV, B-AM
-11	[SEP]	O	O	O, B-CV, B-AM, I-CV, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	90	B-QT	B-QT
+2	##만	I-QT	I-QT
+3	##원	I-QT	I-QT
+4	이상	I-QT	I-QT
+5	##을	O	O
+6	제시	O	O
+7	##한	O	O
+8	곳	O	O
+9	##은	O	O
+10	한	O	B-QT
+11	군데	O	I-QT
+12	##도	O	O
+13	없	O	O
+14	##다	O	O
+15	.	O	O
+16	[SEP]	O	O

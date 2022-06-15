@@ -1,22 +1,41 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-AF, I-CV
-1	러	B-DT	B-DT	B-DT, B-EV, B-LC, I-DT, O
-2	##일	I-DT	I-DT	I-DT, I-EV, I-QT, I-AF, I-LC
-3	전쟁	I-DT	I-DT	I-DT, I-EV, O, I-QT, I-AF
-4	이후	I-DT	I-DT	I-DT, I-EV, O, I-QT, I-AF
-5	##에	O	O	O, I-DT, I-EV, I-AF, B-PS
-6	을사	B-EV	B-EV	B-EV, B-OG, O, B-AF, B-CV
-7	##조	I-EV	I-EV	I-EV, O, I-OG, I-AF, I-DT
-8	##약	I-EV	I-EV	I-EV, O, I-OG, I-AF, I-CV
-9	##이	O	O	O, I-EV, I-AF, I-OG, B-PS
-10	든	O	O	O, B-PS, B-OG, B-LC, B-AF
-11	한국	B-OG	B-EV	B-EV, B-OG, B-AF, B-LC, B-CV
-12	##병	I-OG	I-EV	I-EV, I-OG, I-AF, O, I-CV
-13	##합	I-OG	I-EV	I-EV, I-OG, I-AF, O, I-CV
-14	##조	I-OG	I-EV	I-EV, I-OG, I-AF, O, I-CV
-15	##약	I-OG	I-EV	I-EV, I-OG, I-AF, O, I-CV
-16	##이	O	O	O, I-EV, I-AF, I-OG, B-PS
-17	##든	O	O	O, B-OG, B-PS, B-LC, B-CV
-18	문서	O	O	O, B-CV, B-TM, B-LC, B-AF
-19	##로	O	O	O, I-AF, B-OG, B-PS, I-OG
-20	[SEP]	O	O	O, B-LC, B-PS, B-CV, B-AF
+	text	label	preds
+0	[CLS]	O	O
+1	AP	B-OG	B-OG
+2	##통신	I-OG	I-OG
+3	##에	O	O
+4	따르	O	O
+5	##면	O	O
+6	유엔	B-OG	B-OG
+7	안전	I-OG	I-OG
+8	##보	I-OG	I-OG
+9	##장이	I-OG	I-OG
+10	##사회	I-OG	I-OG
+11	##는	O	O
+12	이날	B-DT	B-DT
+13	회의	O	O
+14	##에	O	O
+15	##서	O	O
+16	아이	B-OG	B-LC
+17	##티	I-OG	I-LC
+18	평화	I-OG	B-OG
+19	##유	I-OG	I-OG
+20	##지	I-OG	I-OG
+21	##군	I-OG	I-OG
+22	(	O	O
+23	MI	O	B-OG
+24	##N	O	I-OG
+25	##US	O	I-OG
+26	##TA	O	I-OG
+27	##H	O	I-OG
+28	)	O	O
+29	철수	O	O
+30	결의안	O	O
+31	##을	O	O
+32	만장일치	O	O
+33	##로	O	O
+34	통과	O	O
+35	##시	O	O
+36	##켰	O	O
+37	##다	O	O
+38	.	O	O
+39	[SEP]	O	O

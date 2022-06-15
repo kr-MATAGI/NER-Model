@@ -1,23 +1,55 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	중국	B-LC	B-LC	B-LC, B-OG, O, B-EV, B-PS
-2	양회	O	O	O, B-OG, I-OG, B-EV, I-EV
-3	<	O	O	O, I-OG, B-OG, I-EV, B-PS
-4	정	B-AF	B-OG	B-OG, O, I-OG, B-PS, B-AF
-5	##협	I-AF	I-OG	I-OG, O, I-EV, I-AF, I-PS
-6	·	I-AF	O	O, I-OG, B-OG, I-EV, I-AF
-7	전인	I-AF	B-OG	B-OG, I-OG, O, B-PS, B-AF
-8	##대	I-AF	I-OG	I-OG, O, I-EV, I-AF, I-LC
-9	>	O	O	O, I-OG, I-EV, I-AF, B-PS
-10	최대	O	B-PS	B-PS, O, B-CV, B-AF, B-AM
-11	##화	O	I-PS	I-PS, O, B-PS, B-CV, I-CV
-12	##두	O	I-PS	I-PS, O, I-CV, B-PS, I-AF
-13	/	O	O	O, I-PS, B-PS, I-CV, I-AF
-14	“	O	O	O, B-LC, B-CV, B-PS, B-OG
-15	사회	O	O	O, B-CV, B-TM, B-PS, B-LC
-16	불안	O	O	O, B-TM, B-PS, I-TM, B-CV
-17	##을	O	O	O, I-AF, B-PS, I-CV, I-TM
-18	막아	O	O	O, B-CV, B-PS, I-AF, B-LC
-19	##라	O	O	O, B-PS, I-PS, I-AF, B-CV
-20	”	O	O	O, B-CV, B-PS, B-LC, I-CV
-21	[SEP]	O	O	O, B-LC, B-OG, B-PS, B-CV
+	text	label	preds
+0	[CLS]	O	O
+1	아르헨티나	B-OG	B-OG
+2	축구	I-OG	I-OG
+3	##협회	I-OG	I-OG
+4	(	O	O
+5	AF	B-OG	B-OG
+6	##A	I-OG	I-OG
+7	)	O	O
+8	의	O	O
+9	호세	B-PS	B-PS
+10	루이스	I-PS	I-PS
+11	마이	I-PS	I-PS
+12	##즈	I-PS	I-PS
+13	##너	I-PS	I-PS
+14	실무	O	B-CV
+15	부회장	B-CV	I-CV
+16	##은	O	O
+17	""""	O	O
+18	한국	B-LC	B-OG
+19	##은	O	O
+20	기술	O	O
+21	##이	O	O
+22	부족	O	O
+23	##하	O	O
+24	##지만	O	O
+25	어려움	O	O
+26	##에	O	O
+27	맞서	O	O
+28	싸우	O	O
+29	##는	O	O
+30	팀	O	O
+31	""""	O	O
+32	이라	O	O
+33	##며	O	O
+34	""""	O	O
+35	한국	B-LC	B-OG
+36	##은	O	O
+37	유럽	B-OG	B-OG
+38	##팀	I-OG	I-OG
+39	##이	O	O
+40	포기	O	O
+41	##하	O	O
+42	##는	O	O
+43	공	O	B-CV
+44	##도	O	O
+45	끝	O	O
+46	##까	O	O
+47	##지	O	O
+48	쫓아가	O	O
+49	##서	O	O
+50	살려	O	O
+51	##낸다	O	O
+52	.	O	O
+53	[SEP]	O	O

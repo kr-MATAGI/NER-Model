@@ -1,52 +1,35 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	■	O	O	O, B-LC, B-TM, B-PS, B-EV
-2	신종	B-TM	B-TM	B-TM, O, I-TM, B-CV, B-AF
-3	플루	I-TM	I-TM	I-TM, O, B-TM, I-AF, I-EV
-4	,	O	O	O, I-TM, I-AF, I-OG, I-EV
-5	독성	O	O	O, B-TM, B-LC, B-CV, B-OG
-6	##은	O	O	O, B-PS, B-LC, B-OG, B-CV
-7	약한	O	O	O, B-LC, B-PS, B-CV, B-TM
-8	것	O	O	O, B-LC, B-OG, B-CV, B-PS
-9	##으로	O	O	O, B-PS, B-LC, I-OG, B-OG
-10	=	O	O	O, B-LC, B-PS, B-OG, B-TM
-11	국내	O	O	O, B-LC, B-TM, B-CV, B-PS
-12	##에서	O	O	O, B-LC, B-TM, B-PS, B-CV
-13	신종	B-TM	B-TM	B-TM, O, B-AM, B-AF, B-CV
-14	인플루엔자	I-TM	I-TM	I-TM, B-TM, O, I-AM, I-AF
-15	##에	O	O	O, I-TM, I-EV, I-CV, B-CV
-16	감염	B-TM	O	O, B-TM, B-CV, I-TM, B-AM
-17	##된	O	O	O, I-TM, B-PS, B-LC, B-CV
-18	것	O	O	O, B-PS, B-CV, B-LC, B-OG
-19	##으로	O	O	O, B-PS, B-CV, B-LC, B-OG
-20	확인	O	O	O, B-TM, B-CV, B-LC, B-PS
-21	##된	O	O	O, B-PS, B-LC, B-CV, B-OG
-22	환자	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-OG
-23	1	B-QT	B-QT	B-QT, I-QT, O, I-CV, B-DT
-24	##명	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-25	##과	O	O	O, I-QT, B-PS, I-OG, I-AF
-26	추정	B-CV	B-CV	B-CV, O, B-TM, B-OG, B-AF
-27	##환	I-CV	I-CV	I-CV, B-CV, O, I-QT, I-OG
-28	##자	I-CV	I-CV	I-CV, O, B-CV, I-QT, I-OG
-29	2	B-QT	B-QT	B-QT, I-QT, I-CV, O, B-DT
-30	##명	I-QT	I-QT	I-QT, O, B-QT, I-CV, I-PS
-31	##은	O	O	O, I-QT, I-CV, B-CV, I-OG
-32	현재	O	O	O, B-LC, B-CV, B-TM, B-PS
-33	모두	O	O	O, B-LC, B-TM, B-PS, B-CV
-34	기침	O	B-TM	B-TM, O, B-CV, I-TM, B-TR
-35	등	O	O	O, I-TM, B-LC, B-PS, B-TM
-36	가벼운	O	O	O, B-TM, B-LC, B-CV, B-PS
-37	감기	B-TM	B-TM	B-TM, O, B-CV, I-TM, B-TR
-38	증상	O	O	O, I-TM, B-TM, I-CV, B-CV
-39	##만	O	O	O, B-PS, B-LC, I-TM, I-LC
-40	있	O	O	O, B-CV, B-PS, B-LC, B-TM
-41	##을	O	O	O, B-LC, B-PS, B-CV, B-TM
-42	뿐	O	O	O, B-LC, B-PS, B-TM, B-CV
-43	건강	O	O	O, B-TM, B-LC, B-CV, B-PS
-44	상태	O	O	O, B-LC, B-TM, B-CV, B-PS
-45	##는	O	O	O, B-LC, B-CV, B-PS, B-OG
-46	양호	O	O	O, B-CV, B-LC, B-TM, B-PS
-47	##하	O	O	O, B-PS, B-LC, I-LC, I-OG
-48	##다	O	O	O, B-LC, B-CV, I-OG, B-TM
-49	.	O	O	O, B-LC, B-PS, B-CV, B-TM
-50	[SEP]	O	O	O, B-LC, B-CV, B-TM, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	심슨	B-PS	B-PS
+2	##은	O	O
+3	2009	B-DT	B-DT
+4	##년	I-DT	I-DT
+5	데뷔	O	O
+6	이후	O	O
+7	PGA	B-EV	B-EV
+8	##투어	I-EV	I-EV
+9	대회	O	I-EV
+10	##에	O	O
+11	##서	O	O
+12	바람	O	O
+13	##에	O	O
+14	공이	O	O
+15	저절로	O	O
+16	움직여	O	O
+17	벌	O	O
+18	##타	O	O
+19	##를	O	O
+20	받	O	O
+21	##는	O	O
+22	억울	O	O
+23	##한	O	O
+24	경우	O	O
+25	##를	O	O
+26	세	O	O
+27	번이	O	O
+28	##나	O	O
+29	겪	O	O
+30	##었	O	O
+31	##다	O	O
+32	.	O	O
+33	[SEP]	O	O

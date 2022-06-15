@@ -1,39 +1,22 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-QT
-1	MB	B-PS	B-PS	B-PS, O, B-OG, B-CV, I-PS
-2	,	O	O	O, I-PS, B-CV, I-OG, I-AF
-3	다시	O	O	O, B-LC, B-CV, B-PS, B-OG
-4	'	O	O	O, B-LC, B-PS, B-OG, B-CV
-5	親	O	O	O, B-PS, B-CV, B-TR, B-OG
-6	서민	O	B-CV	B-CV, O, I-CV, B-PS, B-OG
-7	'	O	O	O, I-CV, B-PS, I-OG, B-CV
-8	;	O	O	O, B-LC, B-PS, B-OG, B-CV
-9	세종	B-LC	B-LC	B-LC, B-OG, O, B-AF, B-PS
-10	##시	I-LC	I-LC	I-LC, I-OG, O, I-AF, I-PS
-11	·	O	O	O, I-LC, I-OG, I-AF, B-LC
-12	4	B-LC	B-LC	B-LC, O, B-OG, B-AF, I-LC
-13	##대	I-LC	I-LC	I-LC, O, I-AF, B-LC, I-OG
-14	##강	I-LC	I-LC	I-LC, O, I-AF, I-QT, I-OG
-15	·	O	O	O, I-LC, I-AF, I-OG, B-LC
-16	파업	O	O	O, B-CV, B-AF, B-LC, B-EV
-17	##대	O	O	O, I-LC, I-AF, B-LC, B-CV
-18	##처	O	O	O, I-LC, I-AF, I-CV, I-OG
-19	…	O	O	O, B-LC, B-PS, I-AF, I-LC
-20	'	O	O	O, B-LC, B-OG, B-CV, B-PS
-21	보수	O	O	O, B-TR, I-TR, B-PS, B-TM
-22	##노선	O	O	O, I-TR, B-TR, I-PS, B-PS
-23	'	O	O	O, B-CV, B-LC, B-PS, B-OG
-24	서	O	O	O, B-LC, B-PS, B-CV, B-OG
-25	중심	O	O	O, B-PS, B-CV, B-LC, B-TM
-26	이동	O	O	O, B-PS, B-LC, B-CV, B-OG
-27	서민	O	B-CV	B-CV, O, I-CV, B-OG, B-PS
-28	관련	O	O	O, I-CV, B-CV, I-OG, B-PS
-29	정책	O	O	O, B-CV, I-CV, B-FD, B-PS
-30	쏟아	O	O	O, B-CV, B-PS, B-LC, B-OG
-31	##내	O	O	O, B-LC, B-PS, B-OG, B-CV
-32	내년	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-33	국정	O	O	O, B-CV, I-DT, B-PS, B-OG
-34	최우선	O	O	O, B-PS, B-QT, B-CV, B-LC
-35	둘	O	O	O, B-PS, B-LC, B-OG, B-CV
-36	듯	O	O	O, B-PS, B-OG, I-QT, B-CV
-37	[SEP]	O	O	O, B-LC, B-CV, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	싱	B-LC	B-LC
+2	##가	I-LC	I-LC
+3	##폴	I-LC	I-LC
+4	##도	O	O
+5	괜찮	O	O
+6	##긴	O	O
+7	한데	O	O
+8	거기	O	O
+9	##가	O	O
+10	좀	O	O
+11	경비	O	B-CV
+12	##가	O	O
+13	더	O	O
+14	비	O	O
+15	##쌀	O	O
+16	것	O	O
+17	같	O	O
+18	##애	O	O
+19	.	O	O
+20	[SEP]	O	O

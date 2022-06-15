@@ -1,17 +1,33 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	네	O	O	O, B-LC, B-QT, B-DT, B-OG
-2	아리	B-CV	B-LC	B-LC, O, B-OG, B-PS, B-QT
-3	##수	I-CV	I-LC	I-LC, I-OG, O, I-PS, I-QT
-4	##를	O	O	O, I-LC, I-OG, I-PS, I-QT
-5	이제	O	O	O, B-CV, B-OG, B-TM, B-LC
-6	긴급	O	O	O, B-CV, B-LC, B-OG, B-TM
-7	방사성	O	O	O, B-MT, I-MT, B-TM, B-TR
-8	##물	O	O	O, I-CV, I-MT, I-TM, I-TR
-9	##질	O	O	O, I-CV, I-MT, I-TM, I-LC
-10	수질	O	O	O, B-CV, B-TR, B-LC, B-MT
-11	##검사	O	O	O, I-TR, I-CV, B-CV, I-TM
-12	##를	O	O	O, B-CV, I-CV, I-OG, B-OG
-13	했	O	O	O, B-CV, B-OG, B-LC, B-TM
-14	##는데	O	O	O, B-CV, B-LC, B-OG, B-QT
-15	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	검찰	B-OG	B-OG
+2	##이	O	O
+3	캐나다	B-OG	B-OG
+4	이민	I-OG	I-OG
+5	##국	I-OG	I-OG
+6	##과	O	O
+7	직접	O	O
+8	접촉	O	O
+9	##해	O	O
+10	여권	O	O
+11	취소	O	O
+12	##→	O	O
+13	##강	B-CV	O
+14	##제	I-CV	O
+15	##퇴	I-CV	O
+16	##거	I-CV	O
+17	##→	O	O
+18	##조	O	O
+19	##기	O	O
+20	##송	O	O
+21	##환	O	O
+22	##을	O	O
+23	절차	O	O
+24	##를	O	O
+25	밟	O	O
+26	##겠다	O	O
+27	##는	O	O
+28	것	O	O
+29	##이다	O	O
+30	.	O	O
+31	[SEP]	O	O

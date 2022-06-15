@@ -1,7 +1,12 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	이렇게	O	O	O, B-CV, B-TM, B-OG, B-LC
-2	살	O	B-AM	B-AM, O, B-TM, B-CV, B-LC
-3	쪽	O	O	O, I-AM, I-TM, B-AM, I-QT
-4	##부터	O	O	O, I-QT, I-DT, I-AM, I-TM
-5	[SEP]	O	O	O, B-CV, I-QT, B-TM, B-QT
+	text	label	preds
+0	[CLS]	O	O
+1	이번	O	O
+2	##에	O	O
+3	그	O	O
+4	~	O	O
+5	추석	B-DT	B-DT
+6	##연	O	I-DT
+7	##휴	O	I-DT
+8	때	O	I-DT
+9	##도	O	O
+10	[SEP]	O	O

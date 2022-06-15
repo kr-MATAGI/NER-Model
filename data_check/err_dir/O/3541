@@ -1,36 +1,38 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	공천	B-CV	O	O, B-CV, B-TR, I-CV, B-FD
-2	##제	I-CV	O	O, I-CV, I-TR, B-CV, I-AF
-3	##를	O	O	O, I-CV, B-CV, I-AF, I-EV
-4	둘러싸	O	O	O, B-LC, B-OG, B-CV, B-TM
-5	##고	O	O	O, B-LC, B-OG, B-PS, B-CV
-6	향후	O	O	O, B-LC, B-OG, B-EV, B-CV
-7	‘	O	O	O, B-LC, B-OG, B-CV, B-PS
-8	당원	B-CV	B-CV	B-CV, O, B-TR, B-PS, B-AF
-9	중심주의	O	I-TR	I-TR, O, B-TR, I-CV, I-PS
-10	’	O	O	O, I-TR, I-CV, B-CV, I-QT
-11	와	O	O	O, B-LC, B-PS, B-OG, B-CV
-12	,	O	O	O, B-LC, B-CV, B-OG, B-PS
-13	‘	O	O	O, B-LC, B-OG, B-CV, B-PS
-14	시민	O	B-CV	B-CV, O, I-CV, B-TR, B-AF
-15	##참	O	O	O, I-CV, B-CV, I-AF, I-TR
-16	##여	O	O	O, I-CV, B-CV, I-TR, I-TM
-17	##를	O	O	O, I-CV, B-PS, B-CV, I-AF
-18	보장	O	O	O, I-CV, B-CV, I-AF, B-PS
-19	##한	O	O	O, B-PS, B-TR, B-LC, I-CV
-20	개방	O	B-TR	B-TR, O, I-TR, B-PS, B-CV
-21	##형	O	I-TR	I-TR, O, B-TR, I-PS, I-CV
-22	정당	O	I-TR	I-TR, O, B-TR, I-PS, I-AF
-23	##주의	O	I-TR	I-TR, O, B-TR, I-CV, I-FD
-24	’	O	O	O, I-TR, I-QT, B-CV, I-CV
-25	사이	O	O	O, B-LC, B-OG, B-CV, B-TM
-26	##의	O	O	O, B-LC, B-PS, B-OG, B-CV
-27	당내	O	O	O, B-LC, B-TM, B-EV, B-OG
-28	논쟁	O	O	O, B-CV, B-LC, B-TM, B-FD
-29	##이	O	O	O, B-PS, B-CV, B-OG, B-LC
-30	불가피	O	O	O, B-CV, B-OG, B-TM, B-LC
-31	##해	O	O	O, B-CV, B-OG, B-LC, I-OG
-32	보인다	O	O	O, B-CV, B-LC, B-OG, B-TM
-33	.	O	O	O, B-LC, B-CV, B-PS, B-FD
-34	[SEP]	O	O	O, B-CV, B-LC, B-FD, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	[	O	O
+2	선택	O	O
+3	4	B-EV	B-EV
+4	·	I-EV	I-EV
+5	13	I-EV	I-EV
+6	총선	I-EV	I-EV
+7	D	B-DT	B-DT
+8	-	I-DT	I-DT
+9	13	I-DT	I-DT
+10	]	O	O
+11	31	B-DT	B-DT
+12	##일	I-DT	I-DT
+13	##부터	I-DT	I-DT
+14	공식	O	O
+15	선거	O	O
+16	##운동	O	O
+17	시작	O	O
+18	선거전	O	B-CV
+19	##문	O	I-CV
+20	##가	O	I-CV
+21	##들이	O	O
+22	본	O	O
+23	초반	O	O
+24	판세	O	O
+25	…	O	O
+26	“	O	O
+27	여야	O	O
+28	텃밭	O	O
+29	표	O	O
+30	##심	O	O
+31	변화	O	O
+32	##기	O	O
+33	##류	O	O
+34	감지	O	O
+35	”	O	O
+36	[SEP]	O	O

@@ -1,19 +1,38 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	아	O	O	O, B-CV, B-PS, B-OG, B-LC
-2	이	O	O	O, B-PS, B-OG, B-CV, B-AF
-3	외신	B-CV	O	O, B-CV, B-FD, B-LC, B-OG
-4	##들이	O	O	O, I-CV, B-PS, I-AF, I-OG
-5	##요	O	O	O, B-CV, B-LC, B-QT, B-PS
-6	.	O	O	O, B-PS, B-LC, B-CV, B-OG
-7	진짜	O	O	O, B-PS, B-CV, B-LC, B-OG
-8	이	O	O	O, B-PS, B-EV, B-OG, B-LC
-9	촛불	B-EV	B-EV	B-EV, O, B-CV, I-EV, B-AF
-10	집회	I-EV	I-EV	I-EV, O, B-EV, I-AF, I-OG
-11	##를	O	O	O, I-EV, I-AF, I-OG, I-CV
-12	보도	O	O	O, B-CV, B-OG, B-LC, B-PS
-13	##를	O	O	O, B-CV, B-PS, B-OG, B-LC
-14	많이	O	O	O, B-CV, B-OG, B-LC, B-PS
-15	합니다	O	O	O, B-CV, B-LC, B-OG, B-PS
-16	.	O	O	O, B-CV, B-PS, B-LC, B-OG
-17	[SEP]	O	O	O, B-CV, B-PS, B-LC, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	'	O	O
+2	동무	B-CV	B-CV
+3	따라	O	O
+4	강남	B-LC	B-LC
+5	간다	O	O
+6	'	O	O
+7	는	O	O
+8	속담	O	O
+9	##은	O	O
+10	'	O	O
+11	친구	B-CV	B-CV
+12	따라	O	O
+13	강남	B-LC	B-LC
+14	간다	O	O
+15	'	O	O
+16	가	O	O
+17	되	O	O
+18	##었	O	O
+19	##고	O	O
+20	,	O	O
+21	어깨	O	O
+22	##동	B-CV	O
+23	##무	I-CV	O
+24	##를	O	O
+25	하	O	O
+26	##는	O	O
+27	사람	O	O
+28	##은	O	O
+29	동무	O	B-CV
+30	##가	O	O
+31	아니	O	O
+32	##라	O	O
+33	친구	B-CV	B-CV
+34	##다	O	O
+35	.	O	O
+36	[SEP]	O	O

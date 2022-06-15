@@ -1,15 +1,46 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	이쪽	O	O	O, B-PS, B-AM, B-LC, B-TM
-2	##이	O	O	O, B-PS, B-LC, B-CV, B-AM
-3	이렇	O	O	O, B-PS, B-CV, B-LC, B-QT
-4	이	O	O	O, B-PS, B-QT, B-LC, B-CV
-5	이	O	O	O, B-PS, B-CV, B-AM, B-LC
-6	그	O	O	O, B-CV, B-PS, I-CV, B-AM
-7	어	O	O	O, B-CV, B-AM, I-CV, B-PS
-8	헤드	O	B-AM	B-AM, O, I-AM, B-CV, I-CV
-9	##가	O	O	O, B-PS, I-CV, I-AM, I-PS
-10	이쪽	O	O	O, B-LC, B-TM, B-PS, B-AM
-11	##이	O	O	O, B-PS, B-CV, B-LC, B-AM
-12	##고	O	O	O, I-CV, B-CV, B-PS, I-AF
-13	[SEP]	O	O	O, B-CV, B-PS, B-LC, B-AM
+	text	label	preds
+0	[CLS]	O	O
+1	케이티	B-OG	B-OG
+2	##는	O	O
+3	보조금	B-CV	B-CV
+4	##을	O	O
+5	부가가치세	B-CV	B-CV
+6	##에	O	O
+7	포함	O	O
+8	##시	O	O
+9	##켜	O	O
+10	신고	O	O
+11	·	O	O
+12	납부	O	O
+13	##하	O	O
+14	##다가	O	O
+15	2011	B-DT	B-DT
+16	##년	I-DT	I-DT
+17	“	O	O
+18	보조금	B-CV	B-CV
+19	##도	O	O
+20	부가가치세	B-CV	B-CV
+21	##법	O	I-CV
+22	##상	O	O
+23	에	O	O
+24	##누리	O	O
+25	##에	O	O
+26	해당	O	O
+27	##한다	O	O
+28	”	O	O
+29	며	O	O
+30	부가세	B-CV	B-CV
+31	114	B-QT	B-QT
+32	##4	I-QT	I-QT
+33	##억	I-QT	I-QT
+34	##원	I-QT	I-QT
+35	##을	O	O
+36	돌려	O	O
+37	##달라	O	O
+38	##고	O	O
+39	소송	O	O
+40	##을	O	O
+41	냈	O	O
+42	##다	O	O
+43	.	O	O
+44	[SEP]	O	O

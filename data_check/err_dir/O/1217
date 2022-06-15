@@ -1,62 +1,57 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-EV, B-CV, I-OG, I-CV
-1	12	B-DT	B-DT	B-DT, I-DT, O, B-QT, B-EV
-2	##월	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
-3	8	I-DT	I-DT	I-DT, B-DT, O, I-PS, I-QT
-4	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
-5	##부터	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
-6	매주	O	O	O, I-DT, B-DT, B-CV, B-LC
-7	목요일	B-DT	B-DT	B-DT, I-DT, O, B-EV, B-QT
-8	4	B-QT	B-QT	B-QT, B-EV, B-DT, I-DT, O
-9	##차례	I-QT	I-QT	I-QT, O, I-EV, I-DT, I-AF
-10	연	O	B-AF	B-AF, B-LC, O, B-OG, B-PS
-11	##낙	O	I-AF	I-AF, I-LC, O, I-OG, I-PS
-12	##재	O	I-AF	I-AF, I-LC, O, I-OG, I-PS
-13	세미나	O	O	O, I-AF, I-LC, B-AF, B-LC
-14	##실	O	O	O, I-AF, I-LC, I-OG, I-EV
-15	##에서	O	O	O, I-AF, B-LC, I-EV, B-PS
-16	열리	O	O	O, B-CV, B-EV, B-LC, B-OG
-17	##는	O	O	O, B-CV, B-LC, B-OG, B-EV
-18	‘	O	O	O, B-EV, B-LC, B-DT, B-CV
-19	영상	O	B-EV	B-EV, O, B-AF, I-EV, B-TM
-20	##으로	O	I-EV	I-EV, O, I-AF, I-TM, I-OG
-21	만나	O	I-EV	I-EV, O, I-AF, I-TM, I-OG
-22	##는	O	I-EV	I-EV, O, I-AF, I-OG, I-TM
-23	최승	B-PS	I-EV	I-EV, B-PS, I-PS, I-AF, B-EV
-24	##희	I-PS	I-PS	I-PS, I-EV, I-AF, I-LC, O
-25	##의	O	I-EV	I-EV, O, I-AF, I-PS, I-OG
-26	삶	O	I-EV	I-EV, O, I-AF, I-OG, I-TM
-27	##과	O	I-EV	I-EV, O, I-AF, I-OG, I-TM
-28	예술	O	I-EV	I-EV, O, I-AF, I-OG, I-TM
-29	’	O	O	O, I-EV, I-OG, I-DT, I-AF
-30	행사	O	O	O, I-EV, B-EV, B-CV, B-PS
-31	##에	O	O	O, I-EV, B-CV, B-PS, B-OG
-32	##선	O	O	O, B-LC, B-OG, B-CV, B-DT
-33	월	O	O	O, B-LC, B-PS, B-OG, B-CV
-34	##북	O	O	O, I-LC, I-CV, I-OG, I-EV
-35	이후	O	O	O, I-DT, I-LC, I-OG, I-PS
-36	##인	O	O	O, I-DT, B-PS, I-PS, I-OG
-37	1954	B-DT	B-DT	B-DT, I-DT, O, B-QT, B-EV
-38	##년	I-DT	I-DT	I-DT, O, I-QT, I-PS, B-DT
-39	최승	B-PS	B-PS	B-PS, O, I-PS, B-OG, B-LC
-40	##희	I-PS	I-PS	I-PS, O, I-OG, I-DT, I-LC
-41	##가	O	O	O, I-PS, B-PS, B-CV, B-FD
-42	안무	O	O	O, B-FD, I-FD, B-CV, B-TR
-43	##한	O	O	O, I-FD, B-PS, B-FD, I-CV
-44	무용	O	B-FD	B-FD, O, I-FD, B-TR, B-CV
-45	##극	O	I-FD	I-FD, O, B-FD, I-TR, I-AF
-46	‘	O	O	O, I-FD, B-CV, B-FD, I-OG
-47	사도	O	B-AF	B-AF, B-PS, B-LC, O, B-EV
-48	##성	O	I-AF	I-AF, O, I-PS, I-LC, I-OG
-49	##의	O	I-AF	I-AF, O, I-LC, I-PS, I-OG
-50	이야기	O	I-AF	I-AF, O, I-LC, I-FD, I-OG
-51	’	O	O	O, I-AF, I-EV, I-OG, B-CV
-52	를	O	O	O, B-CV, B-LC, B-FD, B-OG
-53	영상	O	O	O, B-FD, B-TM, B-TR, B-CV
-54	##으로	O	O	O, I-QT, I-EV, I-TR, B-PS
-55	만날	O	O	O, B-CV, B-TM, B-OG, B-LC
-56	수	O	O	O, B-CV, B-PS, B-LC, B-TM
-57	있	O	O	O, B-CV, I-EV, B-TM, B-EV
-58	##다	O	O	O, B-CV, I-EV, B-LC, B-OG
-59	.	O	O	O, B-LC, B-CV, I-EV, B-PS
-60	[SEP]	O	O	O, B-LC, I-EV, B-CV, B-FD
+	text	label	preds
+0	[CLS]	O	O
+1	특히	O	O
+2	민주당	B-OG	B-OG
+3	지지자	B-CV	B-CV
+4	##는	O	O
+5	87	B-QT	B-QT
+6	%	I-QT	I-QT
+7	가	O	O
+8	트럼프	B-PS	B-PS
+9	##의	O	O
+10	북한	B-LC	B-LC
+11	대처	O	O
+12	능력	O	O
+13	##을	O	O
+14	""""	O	O
+15	신뢰	O	O
+16	##하	O	O
+17	##지	O	O
+18	않	O	O
+19	##는	O	O
+20	##다	O	O
+21	""""	O	O
+22	고	O	O
+23	답	O	O
+24	##한	O	O
+25	반면	O	O
+26	,	O	O
+27	공화	B-OG	B-OG
+28	##당	I-OG	I-OG
+29	지지자	B-CV	B-CV
+30	##는	O	O
+31	19	O	B-QT
+32	%	O	I-QT
+33	만이	O	O
+34	불신	O	O
+35	##한다	O	O
+36	##는	O	O
+37	입장	O	O
+38	##을	O	O
+39	보여	O	O
+40	지지	O	O
+41	정당	O	O
+42	##에	O	O
+43	따라	O	O
+44	견해	O	O
+45	##가	O	O
+46	크	O	O
+47	##게	O	O
+48	엇갈리	O	O
+49	##는	O	O
+50	것	O	O
+51	##으로	O	O
+52	나타났	O	O
+53	##다	O	O
+54	.	O	O
+55	[SEP]	O	O

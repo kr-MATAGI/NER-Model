@@ -1,21 +1,65 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	창	B-LC	B-LC	B-LC, O, B-AF, B-PS, B-OG
-2	##장	I-LC	I-LC	I-LC, O, I-AF, B-LC, I-PS
-3	(	I-LC	I-LC	I-LC, O, I-AF, B-LC, I-PS
-4	長	I-LC	O	O, I-LC, I-AF, B-LC, B-AF
-5	江	I-LC	O	O, I-LC, I-AF, B-LC, B-AF
-6	)	I-LC	O	O, I-LC, I-AF, B-LC, B-AF
-7	강	I-LC	O	O, I-LC, I-AF, B-LC, I-TM
-8	##은	O	O	O, I-LC, I-AF, B-LC, B-CV
-9	맞은편	O	O	O, B-TM, B-LC, B-CV, B-QT
-10	수평선	O	O	O, B-TM, B-LC, I-TM, B-QT
-11	##이	O	O	O, I-TM, B-PS, I-LC, B-CV
-12	보일	O	O	O, B-TM, B-CV, B-LC, B-PS
-13	정도	O	O	O, B-PS, B-CV, B-LC, I-LC
-14	##로	O	O	O, B-OG, B-PS, B-CV, B-LC
-15	넓	O	O	O, B-CV, B-OG, B-TM, B-LC
-16	##었	O	O	O, B-CV, B-LC, B-PS, I-OG
-17	##다	O	O	O, B-CV, B-LC, I-OG, I-AF
-18	.	O	O	O, B-LC, B-PS, B-CV, B-OG
-19	[SEP]	O	O	O, B-LC, I-LC, B-CV, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	박근혜	B-PS	B-PS
+2	대통령	B-CV	B-CV
+3	동생	B-CV	B-CV
+4	지만	B-PS	B-PS
+5	##씨	O	O
+6	##와	O	O
+7	육사	B-OG	B-OG
+8	동기	B-CV	B-CV
+9	##인	O	O
+10	전	B-PS	B-PS
+11	전	O	O
+12	사령관	B-CV	B-CV
+13	##은	O	O
+14	1983	B-DT	B-DT
+15	##년	I-DT	I-DT
+16	미얀마	B-LC	B-EV
+17	아웅	B-LC	I-EV
+18	##산	I-LC	I-EV
+19	테러	O	I-EV
+20	당시	O	O
+21	이기	B-PS	B-PS
+22	##백	I-PS	I-PS
+23	합참	B-CV	B-CV
+24	##의	I-CV	I-CV
+25	##장	I-CV	I-CV
+26	전속	O	B-CV
+27	##부	O	I-CV
+28	##관	O	I-CV
+29	##으로	O	O
+30	이	B-PS	B-PS
+31	의장	B-CV	B-CV
+32	##을	O	O
+33	구조	O	O
+34	##했	O	O
+35	##고	O	O
+36	,	O	O
+37	지난해	B-DT	B-DT
+38	7	I-DT	I-DT
+39	##월	I-DT	I-DT
+40	전역	O	O
+41	##식	O	O
+42	때	O	O
+43	##는	O	O
+44	한국군	B-OG	B-OG
+45	최초	O	O
+46	##로	O	O
+47	미군	B-OG	B-OG
+48	통합	B-OG	B-OG
+49	##특	I-OG	I-OG
+50	##수	I-OG	I-OG
+51	##전	I-OG	I-OG
+52	##사	I-OG	I-OG
+53	##령	I-OG	I-OG
+54	##부	I-OG	I-OG
+55	훈장	O	O
+56	##을	O	O
+57	받	O	O
+58	##기	O	O
+59	##도	O	O
+60	했	O	O
+61	##다	O	O
+62	.	O	O
+63	[SEP]	O	O

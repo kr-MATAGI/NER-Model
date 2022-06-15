@@ -1,36 +1,13 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, B-CV, I-OG, I-EV
-1	영화	O	O	O, B-FD, B-CV, B-LC, I-EV
-2	##를	O	O	O, B-PS, B-CV, B-LC, I-AF
-3	종종	O	O	O, B-PS, B-QT, B-CV, B-LC
-4	피	B-TM	O	O, B-AM, B-CV, B-PS, B-TM
-5	##칠	O	O	O, I-PS, B-PS, B-AM, I-AM
-6	##갑	O	O	O, I-PS, I-AM, I-LC, I-CV
-7	##하	O	O	O, I-PS, B-PS, I-LC, B-LC
-8	##는	O	O	O, I-PS, B-PS, B-LC, I-LC
-9	아르	B-PS	B-PS	B-PS, O, I-PS, B-OG, B-LC
-10	##젠	I-PS	I-PS	I-PS, O, I-OG, B-PS, I-LC
-11	##토	I-PS	I-PS	I-PS, O, I-OG, I-LC, B-PS
-12	감독	B-CV	B-CV	B-CV, O, I-PS, I-CV, B-OG
-13	##은	O	O	O, I-CV, I-EV, I-OG, I-AF
-14	전날	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-QT
-15	마스터	O	B-EV	B-EV, O, B-OG, I-EV, B-CV
-16	##클	O	I-EV	I-EV, O, I-OG, I-AF, I-LC
-17	##래	O	I-EV	I-EV, O, I-OG, I-AF, I-LC
-18	##스	O	I-EV	I-EV, O, I-OG, I-AF, I-LC
-19	##에서	O	O	O, I-EV, I-OG, I-AF, I-DT
-20	""""	O	O	O, B-LC, B-CV, I-EV, B-PS
-21	나	O	O	O, B-CV, B-PS, B-LC, B-OG
-22	##는	O	O	O, B-CV, B-PS, B-LC, B-TM
-23	피	B-TM	B-TM	B-TM, O, B-AM, B-TR, I-TM
-24	##를	O	O	O, I-TM, I-AF, I-CV, I-EV
-25	싫어	O	O	O, B-CV, B-PS, B-LC, I-CV
-26	##한다	O	O	O, I-CV, I-OG, I-AF, B-CV
-27	""""	O	O	O, B-CV, B-LC, B-TM, I-CV
-28	고	O	O	O, B-CV, I-CV, B-LC, B-TM
-29	말	O	O	O, B-CV, I-CV, B-LC, B-TM
-30	##했	O	O	O, B-CV, B-PS, I-CV, B-LC
-31	##었	O	O	O, B-CV, B-LC, B-PS, I-CV
-32	##다	O	O	O, B-CV, I-OG, B-LC, I-EV
-33	.	O	O	O, B-CV, B-PS, B-LC, I-EV
-34	[SEP]	O	O	O, B-CV, B-LC, B-PS, I-EV
+	text	label	preds
+0	[CLS]	O	O
+1	내	O	O
+2	##가	O	O
+3	극단	O	O
+4	##에	O	O
+5	##서	O	O
+6	이쪽	O	O
+7	흑	B-TM	O
+8	쪽	O	O
+9	##에	O	O
+10	##서	O	O
+11	[SEP]	O	O

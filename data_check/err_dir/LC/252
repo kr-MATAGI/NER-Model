@@ -1,24 +1,49 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	간접	O	O	O, B-LC, B-CV, B-TM, B-QT
-2	수용	O	O	O, I-OG, I-QT, B-CV, B-OG
-3	##의	O	O	O, B-OG, B-LC, B-PS, B-CV
-4	예외	O	O	O, B-CV, B-TM, B-LC, B-QT
-5	##사	O	O	O, B-CV, I-CV, B-QT, B-LC
-6	##유	O	O	O, I-CV, B-LC, B-CV, I-QT
-7	##로	O	O	O, B-CV, B-LC, B-OG, B-QT
-8	넣	O	O	O, B-LC, B-CV, B-OG, B-QT
-9	##으	O	O	O, B-CV, B-LC, B-PS, B-OG
-10	##려	O	O	O, B-OG, B-CV, B-QT, B-PS
-11	했으나	O	O	O, B-OG, B-QT, B-PS, B-LC
-12	미국	B-LC	B-OG	B-OG, B-LC, O, B-PS, B-TM
-13	##의	O	O	O, I-OG, I-LC, I-PS, I-AF
-14	반대	O	O	O, B-LC, B-TM, B-OG, B-CV
-15	##로	O	O	O, B-LC, B-PS, B-OG, I-OG
-16	거부	O	O	O, B-LC, B-CV, B-OG, B-TM
-17	##당	O	O	O, I-OG, B-LC, B-PS, I-EV
-18	##한	O	O	O, B-LC, B-OG, I-OG, B-PS
-19	것	O	O	O, B-CV, B-OG, I-OG, B-LC
-20	##이다	O	O	O, B-CV, I-OG, B-TM, B-QT
-21	.	O	O	O, B-LC, B-CV, B-OG, B-PS
-22	[SEP]	O	O	O, B-CV, B-LC, B-OG, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	비슷	O	O
+2	##한	O	O
+3	시간대	O	O
+4	##에	O	O
+5	이호	B-LC	B-LC
+6	##에	O	O
+7	##서	O	O
+8	16	B-QT	B-QT
+9	##명	I-QT	I-QT
+10	,	O	O
+11	김	B-LC	B-LC
+12	##녕	I-LC	I-LC
+13	10	B-QT	B-QT
+14	##명	I-QT	I-QT
+15	,	O	O
+16	협	B-LC	B-LC
+17	##재	I-LC	I-LC
+18	5	B-QT	B-QT
+19	##명	I-QT	I-QT
+20	,	O	O
+21	삼양	B-LC	B-OG
+22	3	B-QT	B-QT
+23	##명	I-QT	I-QT
+24	,	O	O
+25	금	B-LC	B-LC
+26	##능	I-LC	I-LC
+27	1	B-QT	B-QT
+28	##명	I-QT	I-QT
+29	등	O	O
+30	제주	B-LC	B-LC
+31	##지역	O	O
+32	6	B-QT	B-QT
+33	##개	I-QT	I-QT
+34	해수욕장	O	O
+35	##에	O	O
+36	##서	O	O
+37	모두	O	O
+38	61	B-QT	B-QT
+39	##명	I-QT	I-QT
+40	##이	O	O
+41	해파리	B-AM	B-AM
+42	##에	O	O
+43	쏘	O	O
+44	##였	O	O
+45	##다	O	O
+46	.	O	O
+47	[SEP]	O	O

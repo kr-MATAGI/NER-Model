@@ -1,31 +1,27 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	창원시	B-OG	B-OG	B-OG, B-LC, O, I-OG, B-PS
-2	##는	O	O	O, I-OG, B-OG, B-CV, I-AF
-3	시민	O	B-CV	B-CV, O, I-CV, B-TM, B-FD
-4	##여	O	O	O, I-CV, B-CV, I-TM, I-EV
-5	##론	O	O	O, I-CV, I-TM, B-CV, I-EV
-6	##조사	O	O	O, I-TM, I-CV, I-EV, I-TR
-7	및	O	O	O, B-LC, B-OG, B-TM, B-CV
-8	인터넷	O	O	O, B-TM, B-LC, B-CV, B-EV
-9	조사	O	O	O, I-TM, B-LC, I-LC, I-EV
-10	,	O	O	O, B-OG, B-LC, B-CV, B-PS
-11	창단	O	O	O, B-CV, B-OG, B-TM, B-AF
-12	##기업	O	O	O, I-OG, B-CV, I-CV, B-OG
-13	##과	O	O	O, B-CV, B-OG, B-LC, I-OG
-14	##의	O	O	O, B-LC, B-CV, B-OG, B-PS
-15	협의	O	O	O, B-LC, B-CV, B-OG, B-TM
-16	등	O	O	O, B-LC, B-OG, B-CV, B-TM
-17	##을	O	O	O, B-CV, B-OG, B-LC, B-TM
-18	거쳐	O	O	O, B-LC, B-OG, B-TM, B-CV
-19	신규	O	O	O, B-AF, B-CV, B-TM, B-LC
-20	구장	O	O	O, B-CV, B-AF, B-LC, B-TM
-21	건립	O	O	O, B-CV, B-LC, I-AF, I-CV
-22	##을	O	O	O, B-CV, B-OG, B-LC, B-TM
-23	본격	O	O	O, B-LC, B-TM, B-CV, B-OG
-24	##화	O	O	O, B-LC, B-OG, B-PS, I-OG
-25	##할	O	O	O, B-OG, B-LC, B-CV, B-PS
-26	계획	O	O	O, B-CV, B-OG, B-TM, B-LC
-27	##이다	O	O	O, B-CV, B-OG, B-TM, I-OG
-28	.	O	O	O, B-LC, B-OG, B-CV, B-TM
-29	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	하지	O	O
+2	##만	O	O
+3	이번	O	O
+4	평창	B-LC	B-EV
+5	대회	O	I-EV
+6	##에	O	O
+7	##선	O	O
+8	스페셜	B-EV	B-EV
+9	##올	I-EV	I-EV
+10	##림픽	I-EV	I-EV
+11	사상	O	O
+12	처음	O	O
+13	##으로	O	O
+14	거의	O	O
+15	전	O	O
+16	종목	O	O
+17	##에	O	O
+18	걸쳐	O	O
+19	통합	O	O
+20	스포츠	O	O
+21	경기	O	O
+22	##가	O	O
+23	열린다	O	O
+24	.	O	O
+25	[SEP]	O	O

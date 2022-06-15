@@ -1,16 +1,26 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	7	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-2	~	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
-3	8	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-OG
-4	##월	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-OG
-5	해외여행	O	O	O, B-LC, B-CV, I-DT, B-EV
-6	간다면	O	O	O, B-CV, B-LC, B-AF, B-OG
-7	지금	O	O	O, B-CV, B-TM, B-QT, B-LC
-8	예방	O	B-TR	B-TR, O, B-FD, B-TM, B-CV
-9	##주	O	I-TR	I-TR, O, I-FD, B-TR, I-TM
-10	##사	O	I-TR	I-TR, O, I-FD, I-TM, I-CV
-11	맞	O	O	O, I-TR, B-CV, I-CV, I-TM
-12	##으	O	O	O, B-CV, B-OG, B-LC, B-PS
-13	##세요	O	O	O, B-CV, B-OG, I-OG, I-AF
-14	[SEP]	O	O	O, B-CV, B-LC, B-TM, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	15	B-QT	B-QT
+2	##경기	I-QT	I-QT
+3	34	B-QT	B-QT
+4	##타	I-QT	I-QT
+5	##석	I-QT	I-QT
+6	만	O	I-QT
+7	##에	O	O
+8	기록	O	O
+9	##한	O	O
+10	비	O	B-TM
+11	##거리	O	I-TM
+12	127	B-QT	B-QT
+13	##m	I-QT	I-QT
+14	##짜	I-QT	I-QT
+15	##리	I-QT	I-QT
+16	대형	O	O
+17	대포	O	O
+18	##이	O	O
+19	##기	O	O
+20	##도	O	O
+21	했	O	O
+22	##다	O	O
+23	.	O	O
+24	[SEP]	O	O

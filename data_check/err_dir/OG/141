@@ -1,15 +1,27 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	자	O	O	O, B-CV, B-OG, B-DT, B-TM
-2	그러면은	O	O	O, B-OG, B-LC, B-CV, B-DT
-3	한겨	B-OG	B-AF	B-AF, B-OG, B-PS, B-EV, O
-4	##례	I-OG	I-AF	I-AF, I-OG, I-PS, I-EV, O
-5	하	B-PS	B-PS	B-PS, I-PS, O, I-AF, B-OG
-6	##호영	I-PS	I-PS	I-PS, I-OG, I-AF, O, I-LC
-7	기자	B-CV	B-CV	B-CV, O, I-PS, I-CV, I-AF
-8	##와	O	O	O, I-CV, B-CV, I-AF, I-QT
-9	함께	O	O	O, B-CV, B-QT, B-OG, B-TM
-10	했	O	O	O, B-CV, B-OG, B-LC, B-DT
-11	##고	O	O	O, B-CV, B-OG, B-LC, I-CV
-12	##요	O	O	O, B-CV, B-OG, B-LC, B-QT
-13	[SEP]	O	O	O, B-CV, B-OG, B-LC, B-QT
+	text	label	preds
+0	[CLS]	O	O
+1	이희	B-PS	B-PS
+2	##범	I-PS	I-PS
+3	(	O	O
+4	68	B-QT	B-QT
+5	)	O	O
+6	2018	B-DT	B-OG
+7	##평	B-OG	I-OG
+8	##창	I-OG	I-OG
+9	##겨울	I-OG	I-OG
+10	##올	I-OG	I-OG
+11	##림픽	I-OG	I-OG
+12	##조	I-OG	I-OG
+13	##직	I-OG	I-OG
+14	##위원회	I-OG	I-OG
+15	위원장	B-CV	B-CV
+16	##은	O	O
+17	하루	B-DT	B-DT
+18	24	B-TI	B-TI
+19	##시간	I-TI	I-TI
+20	##이	O	O
+21	부족	O	O
+22	##하	O	O
+23	##다	O	O
+24	.	O	O
+25	[SEP]	O	O

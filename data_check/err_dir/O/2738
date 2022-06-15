@@ -1,51 +1,15 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	박태환	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
-2	##은	O	O	O, I-PS, B-CV, I-OG, I-EV
-3	인천	B-EV	B-EV	B-EV, B-LC, O, B-AF, B-OG
-4	아시아	I-EV	I-EV	I-EV, B-EV, I-LC, O, B-LC
-5	##경기	I-EV	I-EV	I-EV, O, I-LC, I-OG, B-EV
-6	##대	O	I-EV	I-EV, O, I-LC, B-EV, I-AF
-7	##회	O	I-EV	I-EV, O, B-EV, I-LC, I-AF
-8	##를	O	O	O, I-EV, I-AF, I-OG, B-CV
-9	준비	O	O	O, B-CV, B-TM, B-OG, B-LC
-10	##하	O	O	O, B-PS, B-LC, B-OG, B-CV
-11	##던	O	O	O, B-PS, B-CV, B-LC, B-OG
-12	작년	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-QT
-13	9	I-DT	I-DT	I-DT, O, B-DT, I-EV, I-PS
-14	##월	I-DT	I-DT	I-DT, O, B-DT, I-EV, I-PS
-15	3	I-DT	I-DT	I-DT, O, B-DT, I-PS, I-EV
-16	##일	I-DT	I-DT	I-DT, O, B-DT, I-EV, I-OG
-17	W	B-OG	B-OG	B-OG, O, B-EV, I-OG, B-AF
-18	##A	I-OG	I-OG	I-OG, O, I-EV, B-OG, I-AF
-19	##DA	I-OG	I-OG	I-OG, O, I-EV, I-AF, I-LC
-20	(	O	O	O, I-OG, I-EV, I-CV, I-AF
-21	세계	B-OG	B-OG	B-OG, O, B-LC, B-AF, I-OG
-22	##반도	I-OG	I-OG	I-OG, O, I-LC, B-OG, I-AF
-23	##핑	I-OG	I-OG	I-OG, O, I-AF, I-LC, I-EV
-24	##기구	I-OG	I-OG	I-OG, O, I-AF, I-LC, I-EV
-25	)	O	O	O, I-OG, I-EV, I-AF, I-CV
-26	의	O	O	O, B-OG, B-EV, B-LC, I-OG
-27	도핑	O	O	O, B-EV, B-CV, B-TM, B-LC
-28	##테스	O	O	O, I-EV, I-TM, I-CV, I-LC
-29	##트	O	O	O, I-EV, I-TM, I-LC, I-OG
-30	##에서	O	O	O, I-EV, B-CV, B-LC, B-PS
-31	남성	B-MT	O	O, B-MT, B-TM, B-CV, B-TR
-32	##호	I-MT	I-MT	I-MT, O, B-MT, I-TM, I-CV
-33	##르	I-MT	I-MT	I-MT, O, I-TM, B-MT, I-CV
-34	##몬	I-MT	I-MT	I-MT, O, I-TM, B-MT, I-CV
-35	##제	O	O	O, I-MT, I-TM, I-CV, B-MT
-36	##인	O	O	O, I-CV, B-CV, I-TM, B-MT
-37	테스	B-MT	B-MT	B-MT, B-TM, B-AF, O, I-MT
-38	##토스	I-MT	I-MT	I-MT, I-TM, O, I-AF, B-MT
-39	##테	I-MT	I-MT	I-MT, I-TM, O, I-CV, I-AF
-40	##론	I-MT	I-MT	I-MT, I-TM, O, I-CV, I-AF
-41	##에	O	O	O, I-TM, I-MT, I-AF, I-CV
-42	양성	O	O	O, B-TM, B-CV, B-MT, B-AM
-43	##반	O	O	O, I-TM, I-CV, B-TM, B-CV
-44	##응	O	O	O, I-TM, I-CV, B-TM, B-CV
-45	##을	O	O	O, B-CV, B-OG, I-CV, B-LC
-46	보였	O	O	O, B-CV, B-LC, B-OG, B-TM
-47	##다	O	O	O, B-CV, B-LC, I-OG, I-CV
-48	.	O	O	O, B-LC, B-OG, B-TM, B-CV
-49	[SEP]	O	O	O, B-LC, B-CV, B-TM, I-EV
+	text	label	preds
+0	[CLS]	O	O
+1	저기	O	O
+2	제	O	O
+3	##가	O	O
+4	무슨	O	O
+5	뭐	O	O
+6	대선	O	B-EV
+7	##후	B-CV	B-CV
+8	##보	I-CV	I-CV
+9	##도	O	O
+10	아니	O	O
+11	##고	O	O
+12	그러니까	O	O
+13	[SEP]	O	O

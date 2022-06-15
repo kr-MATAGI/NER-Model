@@ -1,55 +1,13 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	그래서	O	O	O, B-CV, B-LC, B-OG, B-TM
-2	벼	B-PT	O	O, B-PT, B-CV, B-MT, B-AF
-3	##랄	O	O	O, I-CV, I-AF, I-LC, I-PT
-4	##지	O	O	O, I-LC, B-PT, I-PT, I-AF
-5	아니면	O	O	O, B-CV, B-LC, B-AF, B-TM
-6	쌀	B-CV	B-PT	B-PT, O, B-CV, B-MT, B-AM
-7	##이	O	O	O, I-CV, I-AF, I-LC, B-PS
-8	##랄	O	O	O, I-AF, B-LC, I-LC, I-CV
-9	##지	O	O	O, B-LC, I-LC, B-CV, I-AF
-10	그	O	O	O, B-CV, B-LC, B-TM, B-OG
-11	위	O	O	O, B-TM, B-CV, B-AM, B-LC
-12	##에	O	O	O, I-CV, I-TM, B-CV, I-AF
-13	이제	O	O	O, B-CV, B-OG, B-LC, B-TM
-14	젓갈	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-PT
-15	##류	I-CV	O	O, I-CV, I-AF, I-TM, I-LC
-16	##랄	O	O	O, I-CV, I-AF, B-LC, B-PS
-17	##지	O	O	O, B-CV, B-LC, B-PS, I-CV
-18	뭐	O	O	O, B-CV, B-LC, B-TM, B-AF
-19	생선	B-CV	B-CV	B-CV, O, B-AM, B-PT, B-TM
-20	##류	I-CV	O	O, I-CV, I-AF, I-TM, I-LC
-21	##들	O	O	O, I-CV, I-AF, I-DT, B-LC
-22	이런	O	O	O, B-CV, B-LC, B-TM, B-OG
-23	걸	O	O	O, B-CV, B-LC, B-PS, B-QT
-24	싣	O	O	O, B-AF, B-LC, B-CV, B-TM
-25	##고	O	O	O, I-AF, B-LC, B-AF, I-LC
-26	올라가	O	O	O, B-AF, B-LC, B-CV, B-OG
-27	##던	O	O	O, I-AF, B-AF, B-LC, B-CV
-28	배	B-AF	B-AF	B-AF, O, I-AF, B-CV, B-OG
-29	##들이	O	O	O, I-AF, I-OG, B-CV, I-EV
-30	##기	O	O	O, B-CV, B-OG, B-LC, I-AF
-31	때문	O	O	O, B-CV, B-LC, B-OG, B-TM
-32	##에	O	O	O, B-LC, B-CV, B-OG, B-PS
-33	고려	B-DT	B-DT	B-DT, O, B-LC, I-DT, B-PS
-34	##시대	I-DT	I-DT	I-DT, O, B-DT, I-AF, I-PS
-35	어떤	O	O	O, I-DT, B-CV, B-LC, I-AF
-36	실생활	O	O	O, B-CV, B-LC, B-FD, B-TM
-37	이런	O	O	O, B-LC, B-CV, B-TM, B-OG
-38	것	O	O	O, B-LC, B-CV, B-PS, B-OG
-39	##을	O	O	O, B-CV, B-LC, B-PS, B-OG
-40	알	O	O	O, B-CV, B-LC, B-TM, B-PS
-41	수	O	O	O, B-CV, B-PS, B-LC, B-QT
-42	있	O	O	O, B-CV, B-LC, B-PS, B-QT
-43	##는	O	O	O, B-LC, B-CV, B-PS, B-OG
-44	중요	O	O	O, B-CV, B-TM, B-LC, B-QT
-45	##한	O	O	O, B-LC, B-PS, I-CV, I-LC
-46	자료	O	O	O, B-CV, B-LC, B-TM, B-AF
-47	##들이	O	O	O, B-CV, B-LC, B-OG, B-PS
-48	많이	O	O	O, B-CV, B-LC, B-OG, B-TM
-49	남아	O	O	O, B-CV, B-LC, B-TM, B-AF
-50	있	O	O	O, B-CV, B-LC, B-PS, I-AF
-51	##어	O	O	O, B-LC, B-CV, B-PS, B-OG
-52	##서	O	O	O, B-CV, B-LC, B-OG, B-PS
-53	[SEP]	O	O	O, B-CV, B-LC, B-AF, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	씨	B-PT	O
+2	##를	O	O
+3	빼	O	O
+4	##낸	O	O
+5	뒤	O	O
+6	곱	O	O
+7	##게	O	O
+8	다진	O	O
+9	##다	O	O
+10	.	O	O
+11	[SEP]	O	O

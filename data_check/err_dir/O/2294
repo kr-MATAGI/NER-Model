@@ -1,15 +1,14 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	눈부신	O	O	O, B-LC, B-OG, B-AF, B-PS
-2	백설	O	O	O, B-LC, B-AF, B-CV, B-TM
-3	##에	O	O	O, I-AF, I-LC, B-PS, I-OG
-4	눈	B-AM	B-AM	B-AM, O, B-TM, B-TR, B-PS
-5	다	O	O	O, B-QT, B-AM, B-CV, B-PS
-6	##칠	O	O	O, B-QT, B-CV, I-QT, I-CV
-7	##라	O	O	O, B-QT, I-QT, B-PS, I-CV
-8	…	O	O	O, B-CV, I-QT, I-CV, B-LC
-9	보호	O	B-CV	B-CV, O, B-AF, B-TM, B-OG
-10	##안경	O	I-CV	I-CV, O, B-CV, I-TM, I-AF
-11	쓰	O	O	O, I-CV, B-CV, I-AF, I-QT
-12	##세요	O	O	O, I-CV, B-CV, I-AF, I-OG
-13	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	자연	O	O
+2	##적	O	O
+3	##으로	O	O
+4	식물	O	O
+5	사회	O	O
+6	##에	O	O
+7	멤버	O	B-CV
+8	구성	O	O
+9	##도	O	O
+10	있	O	O
+11	##고	O	O
+12	[SEP]	O	O

@@ -1,38 +1,37 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-EV, I-OG, I-CV, B-CV
-1	이	O	O	O, B-OG, B-PS, B-LC, B-TM
-2	단체	O	O	O, I-OG, B-OG, B-CV, I-EV
-3	##는	O	O	O, I-OG, B-LC, B-CV, B-OG
-4	2013	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-5	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-6	‘	O	O	O, I-DT, B-LC, B-OG, B-DT
-7	전교조	B-EV	B-EV	B-EV, B-OG, O, B-PS, B-CV
-8	탄압	I-EV	I-EV	I-EV, O, B-EV, I-OG, I-DT
-9	##저지	I-EV	I-EV	I-EV, O, I-OG, B-EV, I-DT
-10	촛불	I-EV	I-EV	I-EV, O, B-EV, B-CV, I-OG
-11	##문화	I-EV	I-EV	I-EV, O, B-EV, I-OG, I-DT
-12	##제	I-EV	I-EV	I-EV, O, I-OG, B-EV, I-DT
-13	’	O	O	O, I-EV, I-DT, I-OG, B-LC
-14	,	O	O	O, B-LC, B-OG, B-PS, B-DT
-15	올해	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-QT
-16	‘	O	O	O, I-DT, B-OG, B-LC, I-EV
-17	전교조	B-EV	B-OG	B-OG, B-EV, B-AF, B-PS, B-CV
-18	전임자	I-EV	B-CV	B-CV, O, I-EV, I-CV, B-EV
-19	해고	I-EV	O	O, I-EV, B-EV, I-CV, I-OG
-20	##하	I-EV	O	O, I-EV, B-EV, I-OG, B-LC
-21	##는	I-EV	O	O, I-EV, B-EV, I-OG, B-LC
-22	진보	I-EV	O	O, B-CV, B-EV, I-EV, B-OG
-23	##교육	I-EV	B-CV	B-CV, I-CV, I-EV, O, B-EV
-24	##감	I-EV	I-CV	I-CV, O, I-EV, B-CV, I-OG
-25	각성	I-EV	O	O, I-EV, B-EV, I-CV, I-OG
-26	기자	I-EV	O	O, I-EV, B-EV, B-CV, I-OG
-27	##회	I-EV	O	O, I-EV, B-EV, I-OG, B-CV
-28	##견	I-EV	O	O, I-EV, B-EV, I-OG, B-LC
-29	’	O	O	O, I-EV, B-OG, I-OG, B-LC
-30	등	O	O	O, B-LC, B-OG, B-CV, B-PS
-31	##에	O	O	O, B-CV, B-LC, B-OG, B-PS
-32	참가	O	O	O, B-LC, B-OG, B-CV, B-EV
-33	##했	O	O	O, B-LC, B-CV, B-OG, I-OG
-34	##다	O	O	O, B-CV, B-OG, B-LC, I-OG
-35	.	O	O	O, B-LC, B-OG, I-EV, B-EV
-36	[SEP]	O	O	O, I-EV, B-LC, B-OG, B-EV
+	text	label	preds
+0	[CLS]	O	O
+1	지난해	B-DT	B-DT
+2	10	I-DT	I-DT
+3	##월	I-DT	I-DT
+4	무릎	B-AM	B-AM
+5	통증	O	O
+6	##으로	O	O
+7	한	B-EV	B-EV
+8	##일	I-EV	I-EV
+9	##전	I-EV	I-EV
+10	##에	O	O
+11	출전	O	O
+12	##하	O	O
+13	##지	O	O
+14	못	O	O
+15	##했	O	O
+16	##고	O	O
+17	아시안	B-EV	B-DT
+18	##컵	I-EV	I-DT
+19	3	B-DT	B-DT
+20	,	I-DT	I-DT
+21	4	I-DT	I-DT
+22	##위	I-DT	I-DT
+23	##전	I-DT	I-DT
+24	때	I-DT	I-DT
+25	##도	O	O
+26	무릎	B-AM	B-AM
+27	##에	O	O
+28	물	O	O
+29	##이	O	O
+30	차	O	O
+31	결장	O	O
+32	##했	O	O
+33	##다	O	O
+34	.	O	O
+35	[SEP]	O	O

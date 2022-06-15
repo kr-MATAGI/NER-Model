@@ -1,18 +1,29 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	안도	B-PS	B-PS	B-PS, B-OG, O, B-LC, I-PS
-2	##현	I-PS	I-PS	I-PS, I-OG, O, B-PS, I-LC
-3	지음	O	O	O, B-CV, I-PS, I-OG, B-OG
-4	/	O	O	O, B-OG, B-CV, B-LC, B-PS
-5	이야기	B-AF	B-OG	B-OG, B-AF, O, B-TM, I-OG
-6	##가	I-AF	I-OG	I-OG, O, I-AF, I-TM, I-CV
-7	##있	I-AF	I-OG	I-OG, O, I-AF, I-TM, I-QT
-8	##는	I-AF	I-OG	I-OG, O, I-AF, I-QT, I-TM
-9	##집	I-AF	I-OG	I-OG, O, I-AF, I-QT, I-TM
-10	·	O	O	O, I-OG, I-AF, I-QT, I-CV
-11	1	B-QT	B-QT	B-QT, I-QT, O, B-DT, B-OG
-12	##만	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-OG
-13	##35	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-AF
-14	##00	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-AF
-15	##원	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-AF
-16	[SEP]	O	O	O, I-QT, B-CV, B-OG, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	민주당	B-OG	B-OG
+2	##에	O	O
+3	##만	O	O
+4	표	O	O
+5	##를	O	O
+6	주	O	O
+7	##는	O	O
+8	뉴욕	B-LC	B-LC
+9	5	B-QT	B-QT
+10	##번	I-QT	I-QT
+11	##가	I-QT	I-QT
+12	부자	O	O
+13	##는	O	O
+14	'	O	O
+15	피	B-AF	B-LC
+16	##프스	I-AF	I-LC
+17	애비	I-AF	I-LC
+18	##뉴	I-AF	I-LC
+19	리버	O	O
+20	##럴	O	O
+21	'	O	O
+22	이라	O	O
+23	##고	O	O
+24	불렀	O	O
+25	##다	O	O
+26	.	O	O
+27	[SEP]	O	O

@@ -1,52 +1,32 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	정부	B-OG	B-OG	B-OG, B-LC, O, I-OG, B-AF
-2	##와	O	O	O, I-OG, B-OG, B-PS, I-PS
-3	인천시	B-OG	B-OG	B-OG, B-LC, I-OG, O, B-PS
-4	##가	O	O	O, I-OG, B-PS, B-OG, I-LC
-5	시설	O	O	O, B-CV, B-LC, B-TM, B-OG
-6	##과	O	O	O, B-PS, B-OG, B-LC, B-CV
-7	운영비	O	O	O, B-CV, B-TM, B-LC, B-AF
-8	##를	O	O	O, B-CV, B-OG, B-LC, B-PS
-9	지원	O	O	O, B-OG, B-CV, B-LC, B-PS
-10	##하고	O	O	O, B-LC, B-PS, B-CV, B-OG
-11	있	O	O	O, B-LC, B-OG, B-CV, B-PS
-12	##는	O	O	O, B-LC, B-OG, B-CV, B-TM
-13	인천	B-LC	B-LC	B-LC, B-OG, O, B-AF, B-PS
-14	송도	B-LC	B-LC	B-LC, B-OG, I-LC, O, B-AF
-15	글로벌	O	B-OG	B-OG, O, B-AF, I-OG, B-LC
-16	##캠	O	I-OG	I-OG, O, I-AF, I-LC, I-EV
-17	##퍼스	O	I-OG	I-OG, O, I-LC, I-AF, I-EV
-18	내	O	O	O, I-OG, B-LC, B-TM, I-AF
-19	한국	B-OG	B-OG	B-OG, B-LC, O, B-AF, I-OG
-20	##뉴	I-OG	I-OG	I-OG, O, I-LC, I-AF, B-OG
-21	##욕	I-OG	I-OG	I-OG, O, I-LC, I-AF, B-OG
-22	##주	I-OG	I-OG	I-OG, O, I-LC, I-AF, B-OG
-23	##립	I-OG	I-OG	I-OG, O, I-LC, I-AF, B-OG
-24	##대	I-OG	I-OG	I-OG, O, I-LC, I-AF, B-OG
-25	##학교	I-OG	I-OG	I-OG, O, I-LC, I-AF, I-PS
-26	##가	O	O	O, I-OG, I-AF, B-PS, I-EV
-27	초	B-CV	B-CV	B-CV, O, B-OG, B-AF, B-FD
-28	·	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-QT
-29	중학생	I-CV	I-CV	I-CV, B-CV, O, I-OG, I-QT
-30	##을	O	O	O, I-CV, B-CV, I-OG, I-EV
-31	대상	O	O	O, B-CV, B-QT, B-EV, B-FD
-32	##으로	O	O	O, I-QT, B-QT, B-CV, B-PS
-33	최고	O	O	O, B-QT, B-CV, I-QT, B-DT
-34	300	B-QT	B-QT	B-QT, I-QT, O, B-DT, B-PS
-35	##만	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-36	##원	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-37	##의	O	O	O, I-QT, B-PS, B-QT, B-CV
-38	고액	O	O	O, B-CV, B-QT, B-TM, B-LC
-39	영어	B-EV	B-EV	B-EV, B-CV, O, B-LC, B-AF
-40	##캠프	I-EV	O	O, I-EV, I-CV, I-LC, I-AF
-41	##를	O	O	O, I-EV, I-AF, I-OG, I-CV
-42	운영	O	O	O, B-CV, B-LC, B-TM, B-OG
-43	##해	O	O	O, B-LC, B-PS, B-CV, B-OG
-44	##온	O	O	O, B-LC, B-PS, B-CV, B-OG
-45	사실	O	O	O, B-CV, B-LC, B-OG, B-PS
-46	##이	O	O	O, B-PS, B-CV, B-LC, B-OG
-47	드러났	O	O	O, B-CV, B-LC, B-OG, B-PS
-48	##다	O	O	O, B-CV, B-LC, B-OG, I-OG
-49	.	O	O	O, B-LC, B-OG, B-PS, B-CV
-50	[SEP]	O	O	O, B-LC, B-OG, B-CV, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	1958	B-QT	B-QT
+2	##년	I-QT	I-QT
+3	##생	I-QT	I-QT
+4	##인	O	O
+5	그	O	O
+6	##는	O	O
+7	2013	B-DT	B-DT
+8	충주	B-EV	B-EV
+9	##세	I-EV	I-EV
+10	##계	I-EV	I-EV
+11	##조	I-EV	I-EV
+12	##정	I-EV	I-EV
+13	##선	I-EV	I-EV
+14	##수	I-EV	I-EV
+15	##권	I-EV	I-EV
+16	대회	I-EV	I-OG
+17	조직	B-OG	I-OG
+18	##위원회	I-OG	I-OG
+19	##에	O	O
+20	등록	O	O
+21	##된	O	O
+22	선수	B-CV	B-CV
+23	중	O	O
+24	가장	O	O
+25	나이	O	O
+26	##가	O	O
+27	많	O	O
+28	##다	O	O
+29	.	O	O
+30	[SEP]	O	O

@@ -1,32 +1,21 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	이	O	O	O, B-OG, B-CV, B-PS, B-TM
-2	##에	O	O	O, B-CV, B-OG, B-PS, I-OG
-3	직장	B-CV	O	O, B-CV, B-AF, B-OG, B-LC
-4	가입자	I-CV	O	O, B-CV, I-CV, B-PS, I-AF
-5	##의	O	O	O, I-CV, I-AF, I-OG, I-EV
-6	경우	O	O	O, B-OG, B-DT, B-QT, B-CV
-7	올해	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-8	한	B-DT	B-DT	B-DT, I-DT, O, B-TI, B-QT
-9	##달	I-DT	I-DT	I-DT, O, I-QT, B-DT, I-TI
-10	10	B-QT	B-QT	B-QT, I-QT, O, I-DT, B-DT
-11	##만	I-QT	I-QT	I-QT, O, I-DT, I-LC, B-QT
-12	##27	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-13	##6	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-14	##원	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-15	##에서	O	O	O, I-QT, I-AF, B-CV, I-DT
-16	내년	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-17	##에	O	O	O, I-DT, I-QT, I-EV, I-AF
-18	##는	O	O	O, B-CV, B-OG, I-DT, B-LC
-19	10	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-LC
-20	##만	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-21	##22	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-22	##42	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-23	##원	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-24	##으로	O	O	O, I-QT, B-CV, I-OG, B-OG
-25	1966	B-QT	B-QT	B-QT, I-QT, O, B-DT, B-LC
-26	##원	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-27	##이	O	O	O, I-QT, B-PS, B-OG, B-CV
-28	오른다	O	O	O, B-CV, B-QT, B-TM, B-OG
-29	.	O	O	O, B-CV, B-OG, B-PS, B-LC
-30	[SEP]	O	O	O, B-CV, B-OG, B-LC, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	아	O	O
+2	지금	O	O
+3	공천	O	O
+4	받	O	O
+5	##은	O	O
+6	사람	O	O
+7	##한	O	O
+8	##테	O	O
+9	당신	O	O
+10	최순	B-PS	B-PS
+11	##실	I-PS	I-PS
+12	공천	B-CV	O
+13	받	O	O
+14	##았	O	O
+15	##냐	O	O
+16	##고	O	O
+17	하	O	O
+18	##면	O	O
+19	[SEP]	O	O

@@ -1,19 +1,41 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	지금	O	O	O, B-CV, B-OG, B-PS, B-LC
-2	##은	O	O	O, B-CV, B-OG, B-PS, B-LC
-3	다	O	O	O, B-CV, B-OG, B-PS, B-LC
-4	군	B-OG	B-OG	B-OG, O, B-CV, B-EV, B-LC
-5	사단장	B-CV	B-CV	B-CV, O, I-CV, I-OG, B-OG
-6	##이	O	O	O, I-CV, I-OG, B-PS, I-EV
-7	##래	O	O	O, B-PS, I-CV, B-CV, I-QT
-8	##든가	O	O	O, B-PS, I-QT, B-LC, I-CV
-9	아님	O	O	O, B-CV, B-PS, B-OG, B-LC
-10	군단	O	B-CV	B-CV, O, B-OG, B-AF, B-TM
-11	##장	O	I-CV	I-CV, O, B-CV, I-OG, I-EV
-12	같	O	O	O, I-CV, I-OG, I-QT, I-EV
-13	##은	O	O	O, B-PS, I-CV, B-CV, B-OG
-14	이런	O	O	O, B-CV, B-OG, B-QT, B-TM
-15	사람	O	O	O, B-CV, B-QT, B-PS, I-CV
-16	##들이	O	O	O, B-CV, I-CV, B-PS, I-QT
-17	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	""""	O	O
+2	그랬	O	O
+3	##기	O	O
+4	##를	O	O
+5	바란다	O	O
+6	!	O	O
+7	오바마	B-PS	B-PS
+8	##가	O	O
+9	공감	O	O
+10	능력	O	O
+11	##이	O	O
+12	뛰어난	O	O
+13	대통령	B-CV	B-CV
+14	##이	O	O
+15	될	O	O
+16	수	O	O
+17	있	O	O
+18	##었	O	O
+19	##던	O	O
+20	이유	O	O
+21	중	O	O
+22	하나	B-QT	B-QT
+23	##는	O	O
+24	그	O	O
+25	##가	O	O
+26	애	O	B-CV
+27	##서	O	I-CV
+28	##가	O	I-CV
+29	(	O	O
+30	愛	O	O
+31	書	O	O
+32	家	O	O
+33	)	O	O
+34	였	O	O
+35	##다는	O	O
+36	것	O	O
+37	##이다	O	O
+38	.	O	O
+39	[SEP]	O	O

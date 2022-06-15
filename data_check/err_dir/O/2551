@@ -1,77 +1,58 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-EV
-1	다음	B-DT	B-DT	B-DT, I-DT, O, B-QT, B-CV
-2	##달	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-CV
-3	18	I-DT	I-DT	I-DT, B-DT, O, I-QT, I-PS
-4	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-5	##부터	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-6	내년	I-DT	I-DT	I-DT, B-DT, O, I-QT, I-CV
-7	1	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-8	##월	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-9	##15	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-10	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-11	##까	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-12	##지	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-13	서울	B-LC	B-LC	B-LC, O, I-LC, I-DT, B-OG
-14	동	B-LC	B-LC	B-LC, I-LC, O, B-AF, B-PS
-15	##숭	I-LC	I-LC	I-LC, O, B-LC, I-AF, I-PS
-16	##동	I-LC	I-LC	I-LC, O, I-AF, I-PS, B-LC
-17	컬	B-AF	B-AF	B-AF, B-LC, O, B-OG, I-AF
-18	##처	I-AF	I-AF	I-AF, I-LC, O, I-OG, I-PS
-19	##스	I-AF	I-AF	I-AF, I-LC, O, I-OG, I-PS
-20	##페이스	I-AF	I-AF	I-AF, I-LC, O, I-OG, I-PS
-21	엔	I-AF	I-AF	I-AF, B-AF, O, I-LC, B-LC
-22	##유	I-AF	I-AF	I-AF, O, I-LC, I-OG, I-PS
-23	##에서	O	O	O, I-AF, I-LC, I-OG, I-EV
-24	공연	O	O	O, B-FD, B-CV, I-AF, B-LC
-25	##하	O	O	O, B-PS, B-CV, I-AF, B-LC
-26	##는	O	O	O, B-CV, B-PS, B-FD, B-LC
-27	창작	B-FD	B-FD	B-FD, O, I-FD, B-CV, B-AF
-28	##뮤	I-FD	I-FD	I-FD, O, B-FD, I-AF, I-TR
-29	##지	I-FD	I-FD	I-FD, O, B-FD, I-AF, I-OG
-30	##컬	I-FD	I-FD	I-FD, O, B-FD, I-AF, I-OG
-31	<	O	O	O, I-FD, B-FD, I-OG, B-CV
-32	막	B-AF	B-AF	B-AF, O, I-AF, B-PS, B-EV
-33	##돼	I-AF	I-AF	I-AF, O, I-PS, I-EV, B-AF
-34	##먹	I-AF	I-AF	I-AF, O, I-PS, I-EV, I-CV
-35	##은	I-AF	I-AF	I-AF, O, I-PS, I-EV, I-CV
-36	영	I-AF	I-AF	I-AF, I-PS, B-AF, O, I-EV
-37	##애	I-AF	I-AF	I-AF, I-PS, O, I-LC, I-EV
-38	##씨	I-AF	I-AF	I-AF, I-PS, O, I-LC, I-EV
-39	>	O	O	O, I-AF, I-EV, I-CV, B-CV
-40	(	O	O	O, B-CV, B-OG, B-LC, I-AF
-41	<	O	O	O, B-LC, B-DT, B-CV, B-OG
-42	영	B-AF	B-AF	B-AF, B-PS, B-LC, I-AF, B-EV
-43	##애	I-AF	I-AF	I-AF, I-PS, I-LC, O, I-EV
-44	##씨	I-AF	I-AF	I-AF, O, I-PS, I-LC, I-EV
-45	>	O	O	O, I-AF, I-EV, I-DT, I-CV
-46	)	O	O	O, B-CV, B-LC, I-AF, B-OG
-47	의	O	O	O, B-PS, B-LC, B-CV, B-FD
-48	두	B-QT	B-QT	B-QT, B-PS, O, I-QT, B-LC
-49	‘	O	I-QT	I-QT, O, I-PS, I-LC, I-AF
-50	영	B-PS	B-PS	B-PS, I-QT, I-PS, O, B-LC
-51	##애	I-PS	I-PS	I-PS, I-QT, I-LC, O, I-AF
-52	##씨	O	I-PS	I-PS, O, I-QT, I-LC, I-AF
-53	’	O	O	O, I-PS, B-PS, I-QT, B-CV
-54	김현	B-PS	B-PS	B-PS, I-PS, B-OG, O, B-LC
-55	##숙	I-PS	I-PS	I-PS, O, I-LC, I-OG, I-QT
-56	(	O	O	O, I-PS, B-CV, I-OG, I-QT
-57	33	B-QT	B-QT	B-QT, O, I-QT, B-TM, B-DT
-58	·	O	O	O, I-QT, I-DT, I-OG, I-CV
-59	오른쪽	B-TM	B-TM	B-TM, O, B-LC, B-CV, B-AF
-60	)	O	O	O, I-TM, I-QT, I-CV, I-OG
-61	과	O	O	O, B-PS, B-CV, B-LC, B-OG
-62	박지	B-PS	B-PS	B-PS, B-OG, O, I-PS, B-LC
-63	##아	I-PS	I-PS	I-PS, I-OG, O, I-LC, I-QT
-64	(	O	O	O, I-PS, I-OG, B-CV, I-QT
-65	34	B-QT	B-QT	B-QT, I-QT, O, B-DT, B-TM
-66	·	O	O	O, I-QT, I-DT, I-OG, I-CV
-67	왼쪽	B-TM	B-TM	B-TM, O, B-LC, B-CV, B-AF
-68	)	O	O	O, I-TM, I-QT, I-CV, I-OG
-69	를	O	O	O, B-CV, B-LC, B-OG, B-PS
-70	26	B-DT	B-DT	B-DT, I-DT, O, B-QT, B-PS
-71	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-72	만났	O	O	O, I-DT, B-CV, I-QT, B-OG
-73	##다	O	O	O, B-CV, B-LC, B-OG, I-OG
-74	.	O	O	O, B-LC, B-CV, B-OG, B-PS
-75	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-FD
+	text	label	preds
+0	[CLS]	O	O
+1	이	O	O
+2	가운데	O	O
+3	일본	B-OG	B-OG
+4	법원	I-OG	I-OG
+5	##에	O	O
+6	제시	O	O
+7	##한	O	O
+8	상용	O	O
+9	##특	O	O
+10	##허	O	O
+11	##는	O	O
+12	화면	O	O
+13	표시	O	O
+14	방법	O	O
+15	##과	O	O
+16	관련	O	O
+17	##된	O	O
+18	필수	O	O
+19	기능	O	O
+20	특허	O	O
+21	##로	O	O
+22	,	O	O
+23	구체	O	O
+24	##적	O	O
+25	##으로	O	O
+26	##는	O	O
+27	비행기	O	B-AF
+28	모드	O	O
+29	아이콘	O	O
+30	표시	O	O
+31	,	O	O
+32	사용자	B-CV	B-CV
+33	중심	O	O
+34	##의	O	O
+35	홈	O	O
+36	스크린	O	O
+37	공간	O	O
+38	활용	O	O
+39	,	O	O
+40	앱	B-TM	B-TM
+41	##스토	I-TM	I-TM
+42	##어	I-TM	I-TM
+43	##를	O	O
+44	카테고리	O	O
+45	##별	O	O
+46	트리	O	O
+47	구조	O	O
+48	##로	O	O
+49	표시	O	O
+50	##하	O	O
+51	##는	O	O
+52	것	O	O
+53	등이	O	O
+54	##다	O	O
+55	.	O	O
+56	[SEP]	O	O

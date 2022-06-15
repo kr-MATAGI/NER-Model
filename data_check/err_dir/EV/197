@@ -1,21 +1,19 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	그	O	O	O, B-CV, B-OG, B-LC, B-PS
-2	##는	O	O	O, B-CV, B-LC, B-PS, I-EV
-3	이날	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-LC
-4	일행	O	O	O, B-CV, B-OG, I-DT, B-LC
-5	9	B-QT	B-QT	B-QT, I-QT, O, B-DT, B-EV
-6	##명	I-QT	I-QT	I-QT, O, I-DT, I-PS, I-EV
-7	##과	O	O	O, I-QT, B-CV, I-OG, I-EV
-8	함께	O	O	O, B-CV, B-LC, B-TM, B-QT
-9	1	B-DT	B-DT	B-DT, O, B-EV, B-QT, B-TI
-10	##박	I-DT	I-DT	I-DT, O, I-QT, I-EV, I-TI
-11	##을	O	O	O, I-DT, I-EV, B-CV, I-AF
-12	하	O	O	O, B-CV, B-LC, B-TM, B-OG
-13	##며	O	O	O, B-LC, B-CV, B-DT, B-PS
-14	산사	B-EV	O	O, B-EV, B-CV, B-LC, B-TM
-15	체험	I-EV	O	O, I-EV, I-CV, I-TM, I-LC
-16	##을	O	O	O, I-EV, I-AF, I-OG, I-CV
-17	한다	O	O	O, B-CV, B-TM, B-LC, I-EV
-18	.	O	O	O, B-CV, B-LC, B-PS, B-OG
-19	[SEP]	O	O	O, B-CV, B-LC, I-EV, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	‘	O	O
+2	예술	B-EV	O
+3	##만큼	I-EV	O
+4	추	I-EV	O
+5	##한	I-EV	O
+6	’	O	O
+7	이라	O	O
+8	##는	O	O
+9	전시	O	O
+10	제목	O	O
+11	##은	O	O
+12	얼핏	O	O
+13	모순	O	O
+14	##으로	O	O
+15	보인다	O	O
+16	.	O	O
+17	[SEP]	O	O

@@ -1,51 +1,82 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	2008	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-2	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-3	9	I-DT	I-DT	I-DT, O, B-DT, I-PS, I-QT
-4	##월	I-DT	I-DT	I-DT, O, B-DT, I-PS, I-QT
-5	KB	B-OG	B-OG	B-OG, O, I-OG, B-EV, B-AF
-6	##금융	I-OG	I-OG	I-OG, O, B-OG, I-EV, I-AF
-7	##지	I-OG	I-OG	I-OG, O, B-OG, I-EV, I-AF
-8	##주	I-OG	I-OG	I-OG, O, I-EV, I-AF, I-LC
-9	출범	O	O	O, I-OG, B-CV, I-EV, I-CV
-10	당시	O	O	O, B-CV, B-PS, B-OG, B-LC
-11	이	O	O	O, B-PS, B-CV, B-OG, B-QT
-12	제도	O	O	O, B-CV, I-CV, B-PS, I-EV
-13	##를	O	O	O, I-CV, B-CV, B-PS, I-EV
-14	도입	O	O	O, B-CV, B-OG, B-PS, B-LC
-15	##한	O	O	O, B-PS, B-CV, B-LC, B-OG
-16	황영	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-17	##기	I-PS	I-PS	I-PS, O, I-OG, B-PS, I-LC
-18	씨	O	O	O, I-PS, B-CV, I-OG, I-QT
-19	##는	O	O	O, B-CV, B-LC, B-PS, B-TM
-20	최소	O	O	O, B-QT, B-DT, B-CV, B-PS
-21	2	B-DT	B-DT	B-DT, I-DT, O, B-QT, B-EV
-22	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-23	##의	O	O	O, I-DT, B-PS, I-QT, B-CV
-24	재직	O	O	O, B-CV, B-LC, B-TM, B-PS
-25	요건	O	O	O, B-PS, B-CV, B-LC, I-CV
-26	##을	O	O	O, B-CV, B-PS, B-OG, B-LC
-27	충족	O	O	O, B-CV, B-LC, B-PS, B-OG
-28	##하	O	O	O, B-PS, B-LC, B-CV, B-OG
-29	##지	O	O	O, B-PS, B-LC, B-CV, B-OG
-30	못하	O	O	O, B-PS, B-CV, B-LC, B-TM
-31	##는	O	O	O, B-PS, B-CV, B-LC, B-TM
-32	바람	O	O	O, B-LC, B-PS, B-CV, B-TM
-33	##에	O	O	O, B-PS, B-CV, B-LC, B-QT
-34	빈손	O	O	O, B-QT, B-LC, B-CV, B-PS
-35	##으로	O	O	O, B-PS, I-QT, B-LC, B-QT
-36	물러났	O	O	O, B-PS, B-CV, B-QT, B-LC
-37	##지만	O	O	O, B-PS, B-CV, B-QT, B-LC
-38	후임	O	B-CV	B-CV, O, I-CV, B-PS, B-TM
-39	##인	O	I-CV	I-CV, O, B-CV, I-QT, I-TM
-40	어	B-PS	B-PS	B-PS, O, I-PS, B-OG, B-LC
-41	회장	B-CV	B-CV	B-CV, O, I-CV, I-PS, B-PS
-42	##은	O	O	O, I-CV, B-CV, I-QT, I-EV
-43	첫	O	O	O, B-QT, B-CV, B-PS, B-LC
-44	수혜자	B-CV	B-CV	B-CV, O, I-CV, B-PS, B-QT
-45	##가	O	O	O, I-CV, I-QT, B-CV, I-OG
-46	됐	O	O	O, B-CV, B-QT, B-TM, B-OG
-47	##다	O	O	O, B-CV, B-TM, I-QT, I-CV
-48	.	O	O	O, B-PS, B-CV, B-LC, B-OG
-49	[SEP]	O	O	O, B-CV, B-PS, B-LC, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	이	O	O
+2	추천	O	O
+3	##서는	O	O
+4	4	B-QT	B-QT
+5	##인	I-QT	I-QT
+6	가족	B-CV	B-CV
+7	기준	O	O
+8	##으로	O	O
+9	월	O	O
+10	##소득	O	O
+11	##이	O	O
+12	265	B-QT	B-QT
+13	##만	I-QT	I-QT
+14	##32	I-QT	I-QT
+15	##18	I-QT	I-QT
+16	##원	I-QT	I-QT
+17	이하	I-QT	I-QT
+18	##이	O	O
+19	##고	O	O
+20	,	O	O
+21	부동산	O	O
+22	##이	O	O
+23	없	O	O
+24	##으며	O	O
+25	,	O	O
+26	배기량	O	O
+27	1600	B-QT	B-QT
+28	##㏄	I-QT	I-QT
+29	미만	O	I-QT
+30	##의	O	O
+31	자동차	B-AF	B-AF
+32	##를	O	O
+33	갖	O	O
+34	##고	O	O
+35	있	O	O
+36	##는	O	O
+37	저소득	O	O
+38	가정	O	O
+39	(	O	O
+40	이	O	O
+41	세가	B-QT	B-QT
+42	##지	I-QT	I-QT
+43	조건	O	O
+44	##을	O	O
+45	모두	O	O
+46	갖춰야	O	O
+47	함	O	O
+48	)	O	O
+49	이	O	O
+50	보증금	O	O
+51	7000	B-QT	B-QT
+52	##만	I-QT	I-QT
+53	##원	I-QT	I-QT
+54	이하	I-QT	I-QT
+55	,	O	O
+56	전용	O	O
+57	##면적	O	O
+58	85	B-QT	B-QT
+59	##㎡	I-QT	I-QT
+60	이하	I-QT	I-QT
+61	##의	O	O
+62	주택	O	O
+63	##에	O	O
+64	전세	O	O
+65	##로	O	O
+66	들어가	O	O
+67	##려	O	O
+68	할	O	O
+69	때	O	O
+70	부천	B-LC	B-LC
+71	##시장	B-CV	B-CV
+72	명의	O	O
+73	##로	O	O
+74	써	O	O
+75	##주	O	O
+76	##는	O	O
+77	것	O	O
+78	##이다	O	O
+79	.	O	O
+80	[SEP]	O	O

@@ -1,15 +1,24 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	그	O	O	O, B-CV, B-OG, B-TM, B-LC
-2	##다	O	O	O, B-TM, B-CV, B-QT, B-LC
-3	##음	O	O	O, I-QT, I-CV, B-PS, I-DT
-4	##에	O	O	O, B-PS, B-QT, B-OG, B-CV
-5	오늘	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-CV
-6	이제	O	O	O, I-DT, B-CV, I-QT, I-CV
-7	또	O	O	O, B-QT, B-CV, B-PS, B-LC
-8	세	B-QT	O	O, B-QT, B-PS, B-CV, I-QT
-9	가진	I-QT	O	O, I-QT, B-PS, B-QT, I-PS
-10	뭐	O	O	O, I-QT, B-CV, B-QT, B-PS
-11	##냐	O	O	O, I-QT, B-PS, I-CV, B-CV
-12	##하면	O	O	O, B-CV, B-PS, B-LC, B-OG
-13	[SEP]	O	O	O, B-CV, B-LC, B-QT, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	""""	O	O
+2	26	B-DT	B-DT
+3	##년	I-DT	I-DT
+4	##간	I-DT	I-DT
+5	모은	O	O
+6	자수	O	O
+7	(	O	O
+8	刺	O	O
+9	[UNK]	O	O
+10	)	O	O
+11	작품	O	O
+12	##이	O	O
+13	한	B-QT	B-QT
+14	##땀	I-QT	I-QT
+15	##한	B-QT	O
+16	##땀	I-QT	O
+17	인생	O	O
+18	2	B-QT	B-QT
+19	##막	I-QT	I-QT
+20	돼	O	O
+21	""""	O	O
+22	[SEP]	O	O

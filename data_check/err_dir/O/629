@@ -1,9 +1,56 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, B-CV, I-OG, I-AF
-1	막	O	O	O, B-CV, B-AF, B-PS, B-TM
-2	일품	O	B-CV	B-CV, O, I-CV, B-OG, B-AF
-3	##요	O	I-CV	I-CV, O, B-CV, I-OG, I-TM
-4	##리	O	I-CV	I-CV, O, I-OG, B-CV, I-TM
-5	##처럼	O	O	O, I-CV, I-OG, I-AF, I-QT
-6	정말	O	O	O, B-CV, B-OG, B-TM, B-PS
-7	[SEP]	O	O	O, B-CV, I-CV, I-AF, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	또	O	O
+2	‘	O	O
+3	엘	B-TM	B-TM
+4	##이	I-TM	I-TM
+5	##디	I-TM	I-TM
+6	(	O	O
+7	LED	B-TM	B-TM
+8	)	O	O
+9	용	O	O
+10	등기	O	O
+11	##구	O	I-TM
+12	’	O	O
+13	와	O	O
+14	‘	O	O
+15	전자	B-TM	B-TM
+16	##칠	I-TM	I-TM
+17	##판	I-TM	I-TM
+18	’	O	O
+19	(	O	O
+20	Inter	O	O
+21	##act	O	O
+22	##ive	O	O
+23	Wh	O	O
+24	##ite	O	O
+25	##bo	O	O
+26	##ard	O	O
+27	)	O	O
+28	은	O	O
+29	이미	O	O
+30	선정	O	O
+31	##된	O	O
+32	‘	O	O
+33	전등	O	O
+34	##기구	O	O
+35	’	O	O
+36	와	O	O
+37	‘	O	O
+38	교육	O	O
+39	및	O	O
+40	실험	O	O
+41	##용	O	O
+42	##과학	O	O
+43	##기	O	O
+44	##기	O	O
+45	’	O	O
+46	의	O	O
+47	세부	O	O
+48	사양	O	O
+49	##으로	O	O
+50	추가	O	O
+51	##됐	O	O
+52	##다	O	O
+53	.	O	O
+54	[SEP]	O	O

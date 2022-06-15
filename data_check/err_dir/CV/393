@@ -1,24 +1,8 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	조사	O	O	O, B-CV, B-LC, B-OG, B-TM
-2	규모	O	O	O, B-OG, B-LC, B-CV, B-TM
-3	##는	O	O	O, B-OG, B-LC, B-CV, B-TM
-4	전국	O	O	O, B-LC, B-OG, B-CV, B-EV
-5	초중	B-CV	O	O, B-CV, B-OG, B-FD, I-CV
-6	##학생	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-QT
-7	40	B-QT	B-QT	B-QT, O, I-QT, I-CV, B-DT
-8	##만	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-9	명	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-10	##으로	O	O	O, I-QT, B-OG, B-CV, I-OG
-11	현재	O	O	O, B-OG, B-LC, B-CV, B-PS
-12	교육	B-OG	B-OG	B-OG, O, I-OG, B-LC, B-CV
-13	##과학	I-OG	I-OG	I-OG, O, I-EV, I-CV, B-OG
-14	##기술	I-OG	I-OG	I-OG, O, I-EV, I-CV, I-QT
-15	##부	I-OG	I-OG	I-OG, O, I-EV, I-CV, I-QT
-16	##와	O	O	O, I-OG, I-EV, I-QT, B-CV
-17	협의	O	O	O, B-LC, B-CV, B-OG, B-TM
-18	##하고	O	O	O, B-LC, B-CV, B-OG, I-OG
-19	있	O	O	O, B-OG, B-CV, B-LC, B-TM
-20	##다	O	O	O, B-CV, B-OG, I-OG, B-LC
-21	.	O	O	O, B-LC, B-OG, B-CV, I-OG
-22	[SEP]	O	O	O, B-LC, B-OG, I-OG, B-CV
+	text	label	preds
+0	[CLS]	O	O
+1	식물	B-CV	O
+2	사회학	I-CV	B-CV
+3	##자	I-CV	I-CV
+4	##들	O	O
+5	##은	O	O
+6	[SEP]	O	O

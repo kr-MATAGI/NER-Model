@@ -1,99 +1,60 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-EV, I-CV
-1	이	O	O	O, B-PS, B-OG, B-CV, B-TM
-2	##들	O	O	O, I-OG, B-PS, I-QT, I-PS
-3	단체	O	O	O, I-OG, B-CV, B-OG, B-PS
-4	##는	O	O	O, I-OG, B-OG, B-CV, B-LC
-5	“	O	O	O, B-LC, B-CV, B-OG, B-PS
-6	최근	O	O	O, B-LC, B-TM, B-PS, B-AF
-7	금호	B-LC	B-LC	B-LC, O, B-AF, B-OG, I-LC
-8	##강	I-LC	I-LC	I-LC, O, I-AF, B-LC, I-PS
-9	하류	B-TM	O	O, B-TM, B-LC, I-LC, B-AF
-10	4	B-QT	B-QT	B-QT, O, I-QT, B-LC, B-TM
-11	##개	I-QT	I-QT	I-QT, O, I-LC, I-TM, I-EV
-12	지점	O	O	O, I-QT, B-LC, B-TM, I-LC
-13	##에서	O	O	O, B-LC, B-PS, B-CV, B-OG
-14	채취	O	O	O, B-LC, B-TM, B-PS, B-CV
-15	##한	O	O	O, B-LC, B-PS, B-OG, B-TM
-16	오염	O	O	O, B-LC, B-TM, B-CV, B-PS
-17	토양	O	O	O, B-LC, I-LC, B-PS, B-MT
-18	##을	O	O	O, B-LC, B-PS, B-OG, B-CV
-19	국가	O	O	O, B-OG, B-CV, B-LC, I-OG
-20	##공	O	O	O, I-OG, I-CV, B-OG, B-CV
-21	##인	O	O	O, I-OG, I-CV, B-OG, I-QT
-22	##기	O	O	O, I-OG, I-CV, B-OG, B-CV
-23	##관	O	O	O, I-OG, I-CV, B-OG, I-QT
-24	##에	O	O	O, I-OG, B-PS, B-LC, B-CV
-25	맡겨	O	O	O, B-LC, B-CV, B-TM, B-PS
-26	분석	O	O	O, B-LC, B-CV, B-TM, B-PS
-27	##했	O	O	O, B-LC, B-PS, B-OG, B-CV
-28	##더니	O	O	O, B-LC, B-PS, B-OG, B-CV
-29	독성	O	O	O, B-MT, B-LC, B-CV, B-TM
-30	##물	O	O	O, I-CV, I-LC, B-PS, B-LC
-31	##질	O	O	O, I-LC, B-MT, I-CV, B-LC
-32	중금속	B-MT	O	O, B-MT, B-LC, I-MT, B-TM
-33	##인	O	O	O, B-LC, B-CV, B-PS, B-MT
-34	비	B-MT	B-MT	B-MT, O, I-MT, B-CV, B-TM
-35	##소	I-MT	I-MT	I-MT, O, B-MT, I-PT, I-TM
-36	,	O	O	O, I-MT, B-LC, I-AF, B-CV
-37	수은	B-MT	B-MT	B-MT, O, I-MT, B-CV, B-LC
-38	,	O	O	O, I-MT, B-CV, I-CV, I-AF
-39	니켈	B-MT	B-MT	B-MT, O, I-MT, B-CV, B-LC
-40	등	O	O	O, B-LC, I-MT, B-CV, I-CV
-41	##이	O	O	O, B-LC, B-PS, B-OG, B-CV
-42	미국	B-LC	B-LC	B-LC, B-OG, O, B-PS, B-AF
-43	해양	B-OG	B-OG	B-OG, O, I-OG, B-LC, B-AF
-44	##대기	I-OG	I-OG	I-OG, O, I-LC, B-OG, I-AF
-45	##청	I-OG	I-OG	I-OG, O, I-LC, I-AF, B-OG
-46	##과	O	O	O, I-OG, B-LC, I-LC, B-PS
-47	한국	B-LC	B-LC	B-LC, B-OG, O, B-AF, I-LC
-48	##의	O	O	O, I-LC, B-LC, I-OG, I-AF
-49	토양	O	O	O, B-LC, B-CV, B-TM, B-PS
-50	오염	O	O	O, B-LC, B-CV, B-PS, I-LC
-51	기준	O	O	O, B-LC, B-PS, B-CV, B-OG
-52	##을	O	O	O, B-LC, B-CV, B-PS, B-OG
-53	초과	O	O	O, B-LC, B-CV, B-OG, B-TM
-54	##해	O	O	O, B-LC, B-PS, B-OG, B-TM
-55	검출	O	O	O, B-LC, B-CV, B-TM, B-OG
-56	##됐	O	O	O, B-LC, B-PS, B-OG, B-CV
-57	##다	O	O	O, B-OG, I-OG, B-LC, B-CV
-58	”	O	O	O, B-LC, B-CV, B-OG, B-PS
-59	며	O	O	O, B-LC, B-OG, B-CV, B-TM
-60	“	O	O	O, B-LC, B-CV, B-OG, B-PS
-61	대	O	O	O, B-LC, B-TM, B-CV, B-PS
-62	##규모	O	O	O, B-LC, B-CV, B-AF, B-PS
-63	준설	O	O	O, B-CV, B-AF, B-LC, B-TM
-64	##과	O	O	O, B-LC, B-PS, B-OG, I-AF
-65	대형	O	O	O, B-AF, B-TM, B-CV, B-LC
-66	##보	O	O	O, I-AF, B-AF, I-LC, I-TM
-67	,	O	O	O, I-AF, B-LC, B-CV, B-PS
-68	낙	O	O	O, B-AF, B-LC, B-TM, B-MT
-69	##차	O	O	O, I-AF, I-LC, I-AM, I-CV
-70	##공	O	O	O, I-AF, I-LC, I-TM, I-CV
-71	등	O	O	O, I-AF, B-LC, I-LC, B-TM
-72	공사	O	O	O, B-LC, B-CV, B-TM, B-AF
-73	##로	O	O	O, B-LC, B-PS, B-CV, B-OG
-74	인한	O	O	O, B-LC, B-TM, B-CV, B-PS
-75	수질	O	O	O, B-LC, B-TM, B-MT, B-CV
-76	##오	O	O	O, B-LC, B-PS, I-LC, B-CV
-77	##염	O	O	O, B-LC, I-LC, B-PS, I-TM
-78	##은	O	O	O, B-LC, B-PS, B-OG, B-CV
-79	부산	B-LC	B-LC	B-LC, O, B-OG, B-PS, B-AF
-80	·	O	O	O, I-LC, I-OG, I-AF, B-LC
-81	경남	B-LC	B-LC	B-LC, O, I-LC, B-OG, B-PS
-82	주민	B-CV	B-CV	B-CV, O, I-CV, B-TM, I-LC
-83	##들	O	O	O, I-CV, I-OG, I-AF, I-EV
-84	##에	O	O	O, B-CV, B-LC, B-PS, B-TM
-85	##게	O	O	O, B-LC, B-TM, B-PS, B-CV
-86	식수	O	O	O, B-LC, B-TM, B-PS, B-CV
-87	재앙	O	O	O, B-LC, B-PS, I-LC, B-TM
-88	##을	O	O	O, B-CV, B-PS, B-OG, B-LC
-89	가져올	O	O	O, B-LC, B-PS, B-TM, B-CV
-90	것	O	O	O, B-LC, B-PS, B-CV, B-TM
-91	”	O	O	O, B-CV, B-TM, B-LC, B-OG
-92	이라	O	O	O, B-CV, B-PS, B-OG, B-LC
-93	##고	O	O	O, B-CV, B-OG, I-OG, B-LC
-94	밝혔	O	O	O, B-OG, B-CV, B-LC, I-OG
-95	##다	O	O	O, B-CV, I-OG, B-TM, B-LC
-96	.	O	O	O, B-LC, B-PS, B-CV, B-OG
-97	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	특히	O	O
+2	얼굴	B-AM	B-AM
+3	##에	O	O
+4	확대	O	O
+5	##경	O	O
+6	##을	O	O
+7	낀	O	O
+8	채	O	O
+9	가로	O	O
+10	##와	O	O
+11	세로	O	O
+12	##가	O	O
+13	각각	B-QT	B-QT
+14	5	I-QT	I-QT
+15	##c	I-QT	I-QT
+16	##m	I-QT	I-QT
+17	##인	O	O
+18	정사	B-TM	B-TM
+19	##각형	I-TM	I-TM
+20	은	O	B-MT
+21	##판	O	O
+22	##에	O	O
+23	좁	B-PT	B-MT
+24	##쌀	I-PT	I-PT
+25	##보	O	O
+26	##다	O	O
+27	작	O	O
+28	##은	B-MT	O
+29	은	O	B-MT
+30	알갱이	O	O
+31	##를	O	O
+32	하나하나	O	O
+33	붙이	O	O
+34	##는	O	O
+35	누	O	O
+36	##금	O	O
+37	작업	O	O
+38	##을	O	O
+39	선보이	O	O
+40	##자	O	O
+41	김	B-PS	B-PS
+42	대표	B-CV	B-CV
+43	##를	O	O
+44	둘러싼	O	O
+45	관람객	B-CV	B-CV
+46	##들	O	O
+47	##은	O	O
+48	그	O	O
+49	섬세	O	O
+50	##한	O	O
+51	기술	O	O
+52	##에	O	O
+53	놀라	O	O
+54	##워	O	O
+55	##했	O	O
+56	##다	O	O
+57	.	O	O
+58	[SEP]	O	O

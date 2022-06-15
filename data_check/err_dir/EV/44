@@ -1,31 +1,31 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-EV, I-CV
-1	2	B-QT	B-QT	B-QT, O, I-QT, B-EV, B-DT
-2	##위	I-QT	I-QT	I-QT, O, I-EV, I-OG, I-DT
-3	전북	B-OG	B-OG	B-OG, B-LC, I-QT, I-OG, O
-4	(	O	O	O, I-OG, I-QT, I-EV, I-CV
-5	승점	B-QT	B-QT	B-QT, O, B-TM, B-OG, B-AF
-6	77	I-QT	I-QT	I-QT, B-QT, O, I-TM, I-OG
-7	)	O	O	O, I-QT, I-OG, I-EV, I-DT
-8	은	O	O	O, B-OG, B-CV, B-LC, B-PS
-9	17	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-10	##일	I-DT	I-DT	I-DT, O, I-EV, B-DT, I-QT
-11	열리	O	O	O, I-DT, B-CV, I-EV, B-OG
-12	##는	O	O	O, B-EV, B-OG, B-LC, B-PS
-13	K	B-OG	B-EV	B-EV, B-OG, O, B-CV, B-AF
-14	##리그	I-OG	I-EV	I-EV, I-OG, O, I-AF, I-CV
-15	40	B-EV	B-EV	B-EV, I-EV, B-QT, O, B-AF
-16	##라	I-EV	I-EV	I-EV, I-QT, O, I-AF, I-OG
-17	##운드	I-EV	I-EV	I-EV, O, I-QT, I-AF, I-OG
-18	경기	I-EV	O	O, I-EV, B-EV, B-CV, I-AF
-19	##에서	O	O	O, I-EV, B-CV, B-LC, I-AF
-20	포항	B-OG	B-OG	B-OG, B-LC, O, B-AF, B-PS
-21	##을	O	O	O, I-OG, I-EV, I-AF, I-CV
-22	상대	O	O	O, B-CV, B-TM, B-LC, B-OG
-23	##로	O	O	O, B-CV, B-LC, B-OG, B-TM
-24	승수	O	O	O, B-CV, B-TM, B-LC, B-OG
-25	추가	O	O	O, B-CV, B-TM, B-LC, B-OG
-26	##를	O	O	O, B-CV, B-OG, B-LC, I-EV
-27	노린다	O	O	O, B-CV, B-LC, B-OG, B-TM
-28	.	O	O	O, B-LC, B-CV, B-OG, I-EV
-29	[SEP]	O	O	O, B-CV, B-LC, I-EV, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	제	B-QT	B-QT
+2	##65	I-QT	I-QT
+3	##회	I-QT	I-QT
+4	황금	B-EV	B-EV
+5	##사자	I-EV	I-EV
+6	##기	I-EV	I-EV
+7	전국	I-EV	I-EV
+8	##고	I-EV	I-EV
+9	##교	I-EV	I-EV
+10	##야	I-EV	I-EV
+11	##구	I-EV	I-EV
+12	##대	I-EV	I-EV
+13	##회	I-EV	I-EV
+14	겸	O	O
+15	첫	O	B-DT
+16	주말	B-EV	I-DT
+17	##리그	I-EV	O
+18	왕	I-EV	B-EV
+19	##중	I-EV	I-EV
+20	##왕	I-EV	I-EV
+21	##전	I-EV	I-EV
+22	4	B-EV	B-EV
+23	##강	I-EV	I-EV
+24	##전	I-EV	I-EV
+25	##이	O	O
+26	열렸	O	O
+27	##다	O	O
+28	.	O	O
+29	[SEP]	O	O

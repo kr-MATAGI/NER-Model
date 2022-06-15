@@ -1,13 +1,38 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-AF
-1	작년	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-2	##에	O	O	O, I-DT, I-QT, I-AF, I-EV
-3	노안	O	B-TR	B-TR, O, B-TM, B-EV, B-PS
-4	백	B-TM	I-TM	I-TM, B-TM, O, I-TR, I-EV
-5	##내	I-TM	I-TM	I-TM, O, I-TR, B-TM, I-QT
-6	##장	I-TM	I-TM	I-TM, O, I-TR, I-QT, B-TM
-7	수술	O	O	O, I-TR, I-TM, B-TR, I-QT
-8	##을	O	O	O, I-TM, I-TR, I-OG, I-EV
-9	했어요	O	O	O, B-CV, B-OG, I-AF, I-OG
-10	.	O	O	O, B-CV, B-LC, B-OG, B-TM
-11	[SEP]	O	O	O, B-CV, B-TM, I-OG, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	행정	B-EV	O
+2	##고시	I-EV	O
+3	##에	O	O
+4	합격	O	O
+5	##해	O	O
+6	1981	B-DT	B-DT
+7	##년	I-DT	I-DT
+8	체	B-OG	B-OG
+9	##신	I-OG	I-OG
+10	##부	I-OG	I-OG
+11	##에	O	O
+12	##서	O	O
+13	공직	O	O
+14	##생활	O	O
+15	##을	O	O
+16	시작	O	O
+17	##한	O	O
+18	남궁	B-PS	B-PS
+19	본부	B-CV	B-CV
+20	##장	I-CV	I-CV
+21	##은	O	O
+22	우정	O	O
+23	및	O	O
+24	정보	O	O
+25	##통신	O	O
+26	분야	O	O
+27	##에	O	O
+28	##서	O	O
+29	잔	B-TM	O
+30	##뼈	I-TM	O
+31	##가	O	O
+32	굵	O	O
+33	##었	O	O
+34	##다	O	O
+35	.	O	O
+36	[SEP]	O	O

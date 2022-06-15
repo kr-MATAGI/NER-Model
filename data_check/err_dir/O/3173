@@ -1,28 +1,71 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	서울	B-LC	B-LC	B-LC, O, B-OG, B-AF, B-PS
-2	노원구	B-LC	B-LC	B-LC, I-LC, O, B-OG, B-AF
-3	##의	O	O	O, I-LC, I-AF, I-OG, B-LC
-4	한	O	O	O, B-QT, B-AF, B-LC, B-TM
-5	횡단	O	O	O, B-AF, B-TM, I-AF, B-CV
-6	##보도	O	O	O, I-AF, I-LC, B-AF, I-TM
-7	##에서	O	O	O, I-AF, B-PS, B-CV, B-LC
-8	택시	B-AF	B-AF	B-AF, O, B-OG, B-CV, I-AF
-9	##를	O	O	O, I-AF, I-OG, I-CV, I-EV
-10	기다리	O	O	O, B-PS, B-CV, B-AF, B-LC
-11	##던	O	O	O, B-PS, B-CV, B-LC, B-QT
-12	그	O	O	O, B-CV, B-PS, B-LC, B-OG
-13	##의	O	O	O, B-PS, B-CV, B-LC, B-QT
-14	옆	O	B-TM	B-TM, O, B-CV, B-LC, B-AF
-15	##으로	O	O	O, I-TM, B-PS, I-QT, I-CV
-16	한	O	O	O, B-QT, B-PS, B-LC, B-TM
-17	남자	O	O	O, I-QT, I-LC, I-PS, I-TM
-18	##가	O	O	O, I-QT, B-PS, B-LC, B-CV
-19	담배	B-CV	B-CV	B-CV, O, B-AF, B-PT, B-TM
-20	##를	O	O	O, I-CV, I-AF, B-CV, I-EV
-21	피우	O	O	O, B-CV, B-PS, B-TM, B-LC
-22	##며	O	O	O, B-PS, B-CV, B-LC, B-QT
-23	다가왔	O	O	O, B-PS, B-CV, B-QT, B-LC
-24	##다	O	O	O, B-CV, I-QT, I-AF, B-LC
-25	.	O	O	O, B-PS, B-LC, B-CV, B-AF
-26	[SEP]	O	O	O, B-CV, B-PS, B-LC, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	하	B-PS	B-PS
+2	사장	B-CV	B-CV
+3	##은	O	O
+4	ICT	B-FD	B-FD
+5	##노	O	O
+6	##믹스	O	O
+7	사회	O	O
+8	##의	O	O
+9	미래	O	O
+10	##를	O	O
+11	조명	O	O
+12	##하	O	O
+13	##며	O	O
+14	△	O	O
+15	##사	B-FD	B-FD
+16	##물	I-FD	I-FD
+17	##인	I-FD	I-FD
+18	##터	I-FD	I-FD
+19	##넷	I-FD	I-FD
+20	(	O	O
+21	IoT	B-FD	O
+22	·	O	O
+23	Intern	O	O
+24	##et	O	O
+25	of	O	O
+26	Th	O	O
+27	##ings	O	O
+28	)	O	O
+29	△	O	O
+30	##빅	O	B-TM
+31	##데이	O	I-TM
+32	##터	O	I-TM
+33	△	O	O
+34	##인	B-FD	O
+35	##공	I-FD	O
+36	##지능	I-FD	O
+37	△	O	O
+38	##3	B-QT	B-TM
+39	##차	I-QT	I-TM
+40	##원	I-QT	I-TM
+41	(	O	I-TM
+42	3	O	I-TM
+43	##D	O	I-TM
+44	)	O	I-TM
+45	프린터	B-TM	I-TM
+46	등	O	O
+47	4	B-QT	B-QT
+48	##대	I-QT	I-QT
+49	분야	O	O
+50	##를	O	O
+51	향후	O	O
+52	10	B-DT	B-DT
+53	##년	I-DT	I-DT
+54	##간	I-DT	I-DT
+55	가장	O	O
+56	치열	O	O
+57	##한	O	O
+58	경쟁	O	O
+59	##이	O	O
+60	벌어질	O	O
+61	최대	O	O
+62	격전	O	O
+63	산업	O	O
+64	##으로	O	O
+65	꼽	O	O
+66	##았	O	O
+67	##다	O	O
+68	.	O	O
+69	[SEP]	O	O

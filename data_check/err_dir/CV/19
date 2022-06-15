@@ -1,31 +1,22 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	단순	O	O	O, B-CV, B-AM, B-TM, B-AF
-2	##과	O	O	O, B-CV, B-AM, I-CV, B-PS
-3	##반	O	O	O, I-CV, B-CV, I-AM, B-AM
-4	##수	O	O	O, I-CV, I-AM, B-CV, I-AF
-5	원칙	O	O	O, I-CV, B-CV, B-PS, I-TR
-6	##을	O	O	O, B-CV, I-CV, B-PS, B-LC
-7	제대로	O	O	O, B-CV, B-LC, B-OG, B-TM
-8	지키	O	O	O, B-LC, B-CV, B-OG, B-PS
-9	##지	O	O	O, B-LC, B-CV, B-PS, B-OG
-10	못하	O	O	O, B-LC, B-CV, B-PS, B-OG
-11	##고	O	O	O, B-CV, B-LC, B-PS, B-QT
-12	있	O	O	O, B-CV, B-LC, B-PS, B-TM
-13	##는	O	O	O, B-CV, B-LC, B-PS, B-TM
-14	대통령	B-CV	B-CV	B-CV, O, B-EV, B-AF, I-CV
-15	선거	B-CV	O	O, I-CV, B-CV, I-EV, I-AF
-16	제도	I-CV	O	O, I-CV, B-CV, I-EV, I-TR
-17	##도	O	O	O, I-CV, B-PS, I-AF, I-EV
-18	결선	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-AF
-19	##투	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-AF
-20	##표	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-TM
-21	##제	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-TM
-22	##로	O	O	O, I-CV, I-OG, I-AF, I-EV
-23	바꾸	O	O	O, B-CV, B-LC, B-PS, B-OG
-24	##자	O	O	O, B-PS, B-CV, B-LC, B-OG
-25	##고	O	O	O, B-PS, I-OG, B-LC, B-OG
-26	제안	O	O	O, B-CV, B-TM, B-LC, B-EV
-27	##한다	O	O	O, B-PS, I-EV, I-OG, B-CV
-28	.	O	O	O, B-LC, B-CV, B-PS, I-EV
-29	[SEP]	O	O	O, B-CV, B-LC, B-PS, I-EV
+	text	label	preds
+0	[CLS]	O	O
+1	유대인	B-CV	B-CV
+2	##은	O	O
+3	돼지고기	B-CV	B-CV
+4	##와	O	O
+5	조개	B-AM	B-CV
+6	##를	O	O
+7	,	O	O
+8	북미	B-LC	B-LC
+9	나	B-CV	B-LC
+10	##바	I-CV	I-LC
+11	##호	I-CV	I-LC
+12	인디언	I-CV	B-CV
+13	##들	O	O
+14	##은	O	O
+15	물고기	B-AM	B-AM
+16	##를	O	O
+17	금	O	O
+18	##한다	O	O
+19	.	O	O
+20	[SEP]	O	O

@@ -1,30 +1,19 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, B-CV, I-OG, I-AF
-1	아이	O	O	O, B-CV, B-PS, B-LC, B-FD
-2	##들이	O	O	O, B-PS, B-CV, I-CV, I-AF
-3	학교	O	O	O, B-OG, B-CV, B-FD, B-LC
-4	##에서	O	O	O, B-PS, B-CV, I-OG, B-LC
-5	##도	O	O	O, B-PS, B-LC, B-CV, B-OG
-6	잘	O	O	O, B-PS, B-LC, B-OG, B-CV
-7	성장	O	O	O, B-LC, B-PS, B-CV, B-OG
-8	##해서	O	O	O, B-PS, B-LC, I-PS, I-LC
-9	한	B-QT	O	O, B-LC, B-OG, B-QT, B-PS
-10	사회	I-QT	O	O, B-CV, I-QT, I-OG, I-LC
-11	##의	O	O	O, B-PS, I-OG, I-CV, I-QT
-12	시민	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-FD
-13	##이	O	O	O, I-CV, B-PS, I-OG, B-CV
-14	되	O	O	O, B-CV, B-PS, B-LC, B-QT
-15	##고	O	O	O, B-PS, B-LC, I-OG, B-CV
-16	직장	O	O	O, B-CV, B-TM, B-FD, B-OG
-17	##을	O	O	O, I-CV, I-OG, I-AF, B-CV
-18	다니	O	O	O, B-CV, B-PS, B-LC, B-OG
-19	##고	O	O	O, B-PS, B-LC, B-CV, I-OG
-20	이	O	O	O, B-LC, B-PS, B-OG, B-QT
-21	사회	O	O	O, B-CV, I-QT, I-CV, I-OG
-22	##를	O	O	O, I-CV, B-PS, I-OG, B-CV
-23	책임지	O	O	O, B-CV, B-PS, B-OG, B-LC
-24	##는	O	O	O, B-PS, I-CV, B-CV, I-OG
-25	것	O	O	O, B-CV, B-PS, B-QT, B-LC
-26	##입니다	O	O	O, B-CV, B-PS, I-OG, B-LC
-27	.	O	O	O, B-CV, B-PS, B-LC, I-OG
-28	[SEP]	O	O	O, B-CV, B-PS, B-LC, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	바둑	B-CV	B-CV
+2	실력	O	O
+3	##은	O	O
+4	아마	B-CV	B-CV
+5	1	B-QT	I-CV
+6	,	I-QT	I-CV
+7	2	I-QT	I-CV
+8	##단	I-QT	I-CV
+9	정도	I-QT	O
+10	##라고	O	O
+11	이	B-PS	B-PS
+12	교수	B-CV	B-CV
+13	##는	O	O
+14	밝혔	O	O
+15	##다	O	O
+16	.	O	O
+17	[SEP]	O	O

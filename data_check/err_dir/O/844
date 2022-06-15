@@ -1,31 +1,20 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-EV, B-CV, I-OG, I-AF
-1	화재	O	O	O, B-CV, B-AF, B-EV, B-TM
-2	##현	O	O	O, I-AF, I-EV, B-CV, B-AF
-3	##장	O	O	O, I-AF, B-LC, B-CV, I-LC
-4	##에서	O	O	O, B-LC, B-CV, B-PS, B-OG
-5	100	B-QT	B-QT	B-QT, O, B-DT, B-LC, I-QT
-6	##m	I-QT	I-QT	I-QT, O, I-LC, I-PS, I-DT
-7	##가	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-8	##량	I-QT	I-QT	I-QT, O, I-LC, I-PS, I-AF
-9	떨어진	O	O	O, I-QT, B-LC, B-AF, B-TM
-10	수영	B-LC	B-LC	B-LC, B-AF, O, B-OG, B-PS
-11	##만	I-LC	I-LC	I-LC, I-AF, O, I-PS, I-OG
-12	요트	B-AF	B-AF	B-AF, I-AF, B-LC, O, I-LC
-13	##경기	O	I-AF	I-AF, I-LC, O, B-AF, I-EV
-14	##장	O	I-AF	I-AF, O, I-LC, B-AF, I-QT
-15	##에서	O	O	O, I-AF, I-LC, B-CV, I-EV
-16	##도	O	O	O, B-CV, B-LC, I-AF, I-EV
-17	화재	O	O	O, B-CV, B-TM, B-EV, B-LC
-18	##에	O	O	O, I-EV, B-CV, I-AF, I-CV
-19	따른	O	O	O, B-LC, B-CV, B-PS, B-OG
-20	매	O	O	O, B-CV, B-TM, B-PS, B-LC
-21	##캐	O	O	O, B-CV, I-CV, I-TM, I-AF
-22	##한	O	O	O, B-CV, B-LC, B-PS, B-TM
-23	냄새	O	O	O, B-CV, B-TM, B-LC, B-PS
-24	##가	O	O	O, B-PS, B-CV, B-LC, B-OG
-25	진동	O	O	O, B-CV, B-TM, B-LC, B-AF
-26	##했	O	O	O, B-CV, B-LC, B-PS, I-AF
-27	##다	O	O	O, B-CV, B-LC, I-EV, B-PS
-28	.	O	O	O, B-LC, B-CV, B-PS, B-AF
-29	[SEP]	O	O	O, B-LC, B-CV, B-AF, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	그래서	O	O
+2	메	B-OG	B-OG
+3	##주	I-OG	I-OG
+4	##와	I-OG	I-OG
+5	첼	I-OG	I-OG
+6	##리스트	I-OG	I-OG
+7	##에	O	O
+8	##서	O	O
+9	내	O	O
+10	##는	O	O
+11	밥상	O	O
+12	##은	O	O
+13	온통	O	O
+14	된장	B-CV	B-CV
+15	음식	O	I-CV
+16	##이다	O	O
+17	.	O	O
+18	[SEP]	O	O

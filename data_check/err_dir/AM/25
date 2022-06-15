@@ -1,5 +1,30 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-AF
-1	다리	B-AM	B-CV	B-CV, O, B-AM, B-TM, B-PT
-2	##살	O	I-CV	I-CV, O, I-AM, I-TM, I-PT
-3	[SEP]	O	O	O, I-CV, I-TM, I-AF, B-CV
+	text	label	preds
+0	[CLS]	O	O
+1	'	O	O
+2	충남	B-LC	B-LC
+3	##의	O	O
+4	토박이	O	O
+5	한우	B-AM	B-CV
+6	'	O	O
+7	란	O	O
+8	뜻	O	O
+9	##의	O	O
+10	토	B-AF	B-AF
+11	##바	I-AF	I-AF
+12	##우	I-AF	I-AF
+13	##는	O	O
+14	2005	B-DT	B-DT
+15	##년	I-DT	I-DT
+16	10	I-DT	I-DT
+17	##월	I-DT	I-DT
+18	##부터	I-DT	I-DT
+19	시판	O	O
+20	중인	O	O
+21	한우	B-CV	B-CV
+22	##고기	I-CV	I-CV
+23	광역	O	O
+24	##브	O	O
+25	##랜드	O	O
+26	##이다	O	O
+27	.	O	O
+28	[SEP]	O	O

@@ -1,33 +1,27 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-EV, I-CV
-1	국토	B-OG	B-OG	B-OG, O, B-LC, B-CV, B-PS
-2	##부	I-OG	I-OG	I-OG, O, I-CV, I-EV, B-OG
-3	##는	O	O	O, I-OG, I-EV, B-CV, I-CV
-4	2006	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-OG
-5	##년	I-DT	I-DT	I-DT, O, I-QT, B-DT, I-PS
-6	150	B-QT	B-QT	B-QT, I-QT, O, B-DT, I-DT
-7	##w	I-QT	I-QT	I-QT, O, I-DT, I-EV, I-OG
-8	##급	I-QT	I-QT	I-QT, O, I-DT, I-OG, I-EV
-9	소형	O	O	O, B-TM, B-AF, I-QT, B-CV
-10	파	O	O	O, B-TM, I-TM, B-AF, B-TR
-11	##력	O	O	O, I-TM, I-AF, I-TR, I-MT
-12	##발전	O	O	O, I-TM, I-AF, I-TR, I-MT
-13	##장치	O	O	O, I-TM, I-AF, I-TR, I-LC
-14	##를	O	O	O, I-TM, I-AF, B-CV, B-LC
-15	개발	O	O	O, B-LC, B-CV, B-TM, B-OG
-16	##해	O	O	O, B-LC, I-LC, B-OG, B-PS
-17	제주시	B-LC	B-LC	B-LC, O, B-OG, B-AF, I-LC
-18	차	O	B-LC	B-LC, O, I-LC, B-AF, B-OG
-19	##귀	O	I-LC	I-LC, O, B-LC, I-AF, I-PS
-20	##도	O	I-LC	I-LC, O, I-AF, B-LC, I-PS
-21	해역	O	I-LC	I-LC, O, I-AF, B-LC, I-QT
-22	##에서	O	O	O, I-LC, B-LC, I-AF, I-QT
-23	시험	O	O	O, B-LC, B-TM, B-CV, B-EV
-24	가동	O	O	O, B-LC, B-CV, I-LC, I-EV
-25	##에	O	O	O, B-CV, B-LC, B-OG, I-EV
-26	들어가	O	O	O, B-LC, B-CV, B-OG, B-TM
-27	성공	O	O	O, B-CV, B-LC, B-OG, B-TM
-28	##했	O	O	O, B-CV, B-LC, I-EV, I-OG
-29	##다	O	O	O, B-CV, B-LC, B-OG, I-OG
-30	.	O	O	O, B-LC, B-CV, B-OG, B-TM
-31	[SEP]	O	O	O, B-LC, B-CV, B-TM, I-LC
+	text	label	preds
+0	[CLS]	O	O
+1	그러나	O	O
+2	시	O	B-OG
+3	의회	O	I-OG
+4	##의	O	O
+5	조상	B-PS	B-PS
+6	##호	I-PS	I-PS
+7	기획	B-CV	B-CV
+8	##경제	I-CV	I-CV
+9	##위원	I-CV	I-CV
+10	##장	I-CV	I-CV
+11	##은	O	O
+12	“	O	O
+13	개방	O	O
+14	##형	O	O
+15	공무원	B-CV	B-CV
+16	##들	O	O
+17	활동	O	O
+18	##에	O	O
+19	대한	O	O
+20	비판	O	O
+21	##이	O	O
+22	있	O	O
+23	##다	O	O
+24	.	O	O
+25	[SEP]	O	O

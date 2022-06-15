@@ -1,76 +1,71 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-EV, I-CV, I-OG
-1	시진핑	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-2	국가	B-CV	B-CV	B-CV, O, I-CV, I-PS, B-OG
-3	##주	I-CV	I-CV	I-CV, O, B-CV, I-PS, I-OG
-4	##석	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-EV
-5	##은	O	O	O, I-CV, I-EV, I-OG, B-EV
-6	폐막식	O	O	O, B-EV, B-LC, I-EV, B-CV
-7	뒤	O	O	O, I-EV, B-EV, B-LC, I-DT
-8	기자	O	O	O, I-EV, B-EV, B-LC, B-CV
-9	##회	O	O	O, I-EV, B-LC, B-EV, B-PS
-10	##견	O	O	O, I-EV, B-LC, B-PS, I-OG
-11	##에서	O	O	O, B-LC, I-EV, B-CV, B-PS
-12	“	O	O	O, B-LC, B-CV, B-OG, B-PS
-13	참가국	O	O	O, B-CV, B-LC, B-OG, B-PS
-14	정상	B-CV	B-CV	B-CV, O, I-CV, B-PS, B-EV
-15	##들	O	O	O, I-CV, I-EV, I-OG, B-PS
-16	##은	O	O	O, B-LC, B-PS, B-CV, B-OG
-17	현재	O	O	O, B-LC, B-OG, B-CV, B-PS
-18	세계	O	O	O, B-LC, B-OG, B-PS, B-CV
-19	경제	O	O	O, B-LC, B-PS, B-FD, I-LC
-20	##의	O	O	O, B-PS, B-LC, B-OG, I-OG
-21	위기	O	O	O, B-LC, B-PS, B-OG, B-CV
-22	##와	O	O	O, B-PS, B-LC, B-OG, I-OG
-23	도전	O	O	O, B-LC, B-PS, B-CV, B-OG
-24	##에	O	O	O, B-LC, B-PS, B-OG, B-CV
-25	직면	O	O	O, B-LC, B-OG, B-CV, B-PS
-26	##해	O	O	O, B-LC, B-PS, B-OG, I-OG
-27	있	O	O	O, B-LC, B-PS, B-OG, B-CV
-28	##으며	O	O	O, B-LC, B-PS, B-OG, B-CV
-29	,	O	O	O, B-LC, B-PS, B-CV, B-OG
-30	평화	O	O	O, B-LC, B-PS, B-CV, B-OG
-31	##적	O	O	O, B-LC, B-PS, I-LC, I-PS
-32	##이	O	O	O, B-PS, B-LC, B-OG, B-CV
-33	##고	O	O	O, B-LC, B-PS, I-PS, B-OG
-34	안정	O	O	O, B-LC, B-PS, B-CV, B-OG
-35	##적인	O	O	O, B-LC, B-PS, I-LC, B-CV
-36	국제	O	O	O, B-LC, B-CV, B-PS, B-OG
-37	환경	O	O	O, B-LC, I-LC, B-PS, B-CV
-38	##을	O	O	O, B-LC, B-PS, B-CV, B-OG
-39	유지	O	O	O, B-LC, B-CV, B-OG, B-PS
-40	##하	O	O	O, B-LC, B-PS, B-OG, B-CV
-41	##는	O	O	O, B-LC, B-PS, B-OG, B-CV
-42	것	O	O	O, B-LC, B-PS, B-OG, B-CV
-43	##은	O	O	O, B-LC, B-PS, B-CV, B-OG
-44	매우	O	O	O, B-LC, B-CV, B-OG, B-PS
-45	중요	O	O	O, B-LC, B-CV, B-OG, B-PS
-46	##하	O	O	O, B-PS, B-LC, B-OG, I-LC
-47	##다는	O	O	O, B-PS, B-LC, B-OG, I-OG
-48	데	O	O	O, B-LC, B-PS, B-OG, B-CV
-49	동의	O	O	O, B-CV, B-LC, B-OG, B-PS
-50	##했	O	O	O, B-PS, B-LC, B-CV, B-OG
-51	##다	O	O	O, B-LC, B-PS, B-CV, I-OG
-52	”	O	O	O, B-CV, B-LC, B-PS, B-OG
-53	며	O	O	O, B-LC, B-CV, B-OG, B-PS
-54	“	O	O	O, B-CV, B-LC, B-PS, B-OG
-55	주요	O	O	O, B-LC, B-PS, B-OG, B-EV
-56	20	B-QT	B-QT	B-QT, I-QT, O, B-EV, B-DT
-57	##개	I-QT	I-QT	I-QT, O, I-EV, I-LC, B-QT
-58	##국	I-QT	I-QT	I-QT, O, I-LC, I-EV, B-QT
-59	회원국	O	B-CV	B-CV, O, I-QT, B-OG, I-CV
-60	##은	O	O	O, I-CV, B-PS, I-EV, I-OG
-61	거시경제	O	O	O, B-FD, B-TR, B-CV, B-PS
-62	정책	O	O	O, B-PS, I-TR, B-LC, I-CV
-63	##에서	O	O	O, B-LC, B-PS, B-OG, B-CV
-64	면밀히	O	O	O, B-LC, B-OG, B-PS, B-CV
-65	협조	O	O	O, B-LC, B-CV, B-OG, B-PS
-66	##해야	O	O	O, B-PS, B-LC, B-CV, B-OG
-67	한다	O	O	O, B-CV, B-LC, I-OG, B-PS
-68	”	O	O	O, B-CV, B-LC, B-OG, B-TM
-69	고	O	O	O, B-CV, B-LC, B-OG, B-PS
-70	말	O	O	O, B-CV, B-LC, I-EV, B-OG
-71	##했	O	O	O, B-CV, B-LC, B-PS, I-EV
-72	##다	O	O	O, B-CV, B-LC, I-EV, B-OG
-73	.	O	O	O, B-LC, B-PS, B-CV, B-OG
-74	[SEP]	O	O	O, B-LC, B-CV, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	수능	B-EV	B-EV
+2	과목	O	O
+3	##별	O	O
+4	반영	O	O
+5	비율	O	O
+6	##은	O	O
+7	△	O	O
+8	##인	O	B-FD
+9	##문	O	I-FD
+10	##사회	O	I-FD
+11	계열	O	O
+12	##과	O	O
+13	예능	O	O
+14	계열	O	O
+15	##은	O	O
+16	국어	B-FD	O
+17	40	B-QT	B-QT
+18	%	I-QT	I-QT
+19	+	O	O
+20	영어	B-CV	B-CV
+21	40	B-QT	B-QT
+22	%	I-QT	I-QT
+23	+	O	O
+24	탐구	O	O
+25	20	B-QT	B-QT
+26	%	I-QT	I-QT
+27	△	O	O
+28	##공	B-FD	O
+29	##학	I-FD	O
+30	##계	O	O
+31	##열	O	O
+32	##은	O	O
+33	수학	B-FD	B-FD
+34	40	B-QT	B-QT
+35	%	I-QT	I-QT
+36	+	O	O
+37	영어	B-CV	B-CV
+38	40	B-QT	B-QT
+39	%	I-QT	I-QT
+40	+	O	O
+41	탐구	O	O
+42	20	B-QT	B-QT
+43	%	I-QT	I-QT
+44	△	O	O
+45	##간	O	O
+46	##호	O	O
+47	##학	O	O
+48	##과	O	O
+49	##는	O	O
+50	국어	B-FD	O
+51	20	B-QT	B-QT
+52	%	I-QT	I-QT
+53	+	O	O
+54	수학	B-FD	B-FD
+55	30	B-QT	B-QT
+56	%	I-QT	I-QT
+57	+	O	O
+58	영어	B-CV	B-CV
+59	30	B-QT	B-QT
+60	%	I-QT	I-QT
+61	+	O	O
+62	탐구	O	O
+63	20	B-QT	B-QT
+64	%	I-QT	I-QT
+65	를	O	O
+66	반영	O	O
+67	##한다	O	O
+68	.	O	O
+69	[SEP]	O	O

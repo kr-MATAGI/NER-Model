@@ -1,13 +1,38 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-QT, I-CV
-1	일제	O	B-FD	B-FD, O, B-DT, B-LC, B-EV
-2	침략	O	I-FD	I-FD, O, B-FD, I-EV, I-OG
-3	##사	O	I-FD	I-FD, O, B-FD, I-TR, I-OG
-4	‘	O	O	O, I-FD, I-OG, I-QT, B-CV
-5	국제	O	O	O, B-LC, B-FD, B-OG, B-TM
-6	##적	O	O	O, I-LC, I-OG, I-FD, I-QT
-7	충돌	O	O	O, I-LC, I-OG, I-QT, I-AF
-8	’	O	O	O, I-OG, B-OG, B-PS, B-CV
-9	로	O	O	O, B-OG, B-PS, B-CV, B-QT
-10	살펴	O	O	O, B-OG, B-LC, B-FD, B-QT
-11	[SEP]	O	O	O, B-FD, B-CV, B-LC, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	금메달	B-CV	B-CV
+2	9	B-QT	B-QT
+3	##개	I-QT	I-QT
+4	따	O	O
+5	##면	O	O
+6	'	O	O
+7	2	B-QT	B-QT
+8	##억	I-QT	I-QT
+9	##원	I-QT	I-QT
+10	상품권	O	O
+11	'	O	O
+12	;	O	O
+13	업계	O	O
+14	,	O	O
+15	밴쿠버	B-EV	B-EV
+16	올림픽	I-EV	I-EV
+17	국가	B-CV	B-CV
+18	##대표	I-CV	I-CV
+19	응원	O	O
+20	이벤트	O	O
+21	스마트폰	B-TM	B-TM
+22	·	O	O
+23	연	B-PS	B-PS
+24	##아	I-PS	I-PS
+25	테디	O	B-TM
+26	##베	O	I-TM
+27	##어	O	I-TM
+28	…	O	O
+29	다양	O	O
+30	##하	O	O
+31	##고	O	O
+32	푸짐	O	O
+33	##한	O	O
+34	경품	O	O
+35	선사	O	O
+36	[SEP]	O	O

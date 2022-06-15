@@ -1,54 +1,22 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	원전	O	O	O, B-QT, B-TM, B-AF, B-LC
-2	##을	O	O	O, B-QT, B-CV, B-PS, I-AF
-3	15	B-QT	B-QT	B-QT, O, I-QT, B-PS, B-DT
-4	%	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-5	로	O	O	O, I-QT, I-OG, B-OG, I-EV
-6	유지	O	O	O, B-OG, B-LC, B-CV, B-QT
-7	##해	O	O	O, B-PS, B-LC, B-OG, I-OG
-8	##도	O	O	O, B-LC, B-PS, B-OG, I-OG
-9	현재	O	O	O, B-QT, B-LC, B-PS, B-DT
-10	(	O	O	O, B-LC, B-PS, B-QT, B-CV
-11	2010	B-DT	B-DT	B-DT, I-DT, O, B-PS, B-EV
-12	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-13	)	O	O	O, I-DT, B-QT, B-CV, B-LC
-14	kW	O	O	O, B-QT, B-OG, B-PS, B-LC
-15	##h	O	O	O, I-QT, I-OG, I-LC, I-TM
-16	##당	O	O	O, I-QT, I-OG, I-LC, B-QT
-17	17	B-QT	B-QT	B-QT, I-QT, O, B-PS, B-DT
-18	##엔	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-19	##인	O	O	O, I-QT, B-CV, B-PS, I-OG
-20	전력	O	O	O, B-CV, B-TM, B-QT, B-FD
-21	##요금	O	O	O, I-CV, I-TM, I-AF, I-QT
-22	##은	O	O	O, B-CV, B-PS, B-QT, B-LC
-23	32	B-QT	B-QT	B-QT, O, I-QT, B-PS, B-DT
-24	##∼	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-25	##34	I-QT	I-QT	I-QT, B-QT, O, I-LC, I-PS
-26	##엔	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-27	##으로	O	O	O, I-QT, I-OG, B-CV, B-PS
-28	배	B-QT	B-QT	B-QT, O, I-QT, B-PS, B-TM
-29	##가	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-30	##량	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-31	오르	O	O	O, I-QT, B-CV, B-TM, B-OG
-32	##고	O	O	O, I-QT, B-QT, B-PS, B-CV
-33	원전	O	O	O, B-QT, B-TM, B-AF, B-LC
-34	제로	O	B-QT	B-QT, O, I-QT, B-TM, B-LC
-35	##를	O	O	O, I-QT, I-AF, I-EV, I-TM
-36	달성	O	O	O, B-LC, B-CV, B-OG, B-TM
-37	##할	O	O	O, B-LC, B-PS, B-OG, B-CV
-38	경우	O	O	O, B-QT, B-LC, B-CV, B-OG
-39	이	O	O	O, B-PS, B-QT, B-CV, B-OG
-40	##는	O	O	O, B-CV, B-QT, B-OG, I-QT
-41	2	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-PS
-42	##배	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-43	이상	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-44	폭등	O	O	O, I-QT, B-CV, B-TM, B-QT
-45	##하	O	O	O, B-PS, B-OG, B-CV, I-QT
-46	##리	O	O	O, B-CV, B-PS, B-QT, B-TM
-47	##란	O	O	O, B-OG, B-CV, B-PS, B-QT
-48	전망	O	O	O, B-CV, B-TM, B-QT, B-FD
-49	##이	O	O	O, B-CV, B-PS, B-OG, I-QT
-50	나온다	O	O	O, B-CV, B-TM, B-QT, B-LC
-51	.	O	O	O, B-LC, B-PS, B-QT, B-CV
-52	[SEP]	O	O	O, B-LC, B-CV, B-QT, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	지난해	B-DT	B-DT
+2	신인	B-CV	B-EV
+3	드래프트	O	I-EV
+4	##에	O	O
+5	##서는	O	O
+6	이대	B-PS	B-PS
+7	##성	I-PS	I-PS
+8	##을	O	O
+9	11	B-QT	B-QT
+10	##순위	I-QT	I-QT
+11	##로	O	O
+12	지명	O	O
+13	##해	O	O
+14	재	O	O
+15	##목	O	O
+16	##으로	O	O
+17	키웠	O	O
+18	##다	O	O
+19	.	O	O
+20	[SEP]	O	O

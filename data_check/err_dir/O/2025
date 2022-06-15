@@ -1,22 +1,23 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-EV, I-OG, B-CV, I-CV
-1	오	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-QT
-2	##는	I-DT	I-DT	I-DT, O, B-DT, I-EV, I-QT
-3	9	I-DT	I-DT	I-DT, O, B-DT, I-EV, I-QT
-4	##월	I-DT	I-DT	I-DT, O, I-EV, B-DT, I-QT
-5	인천	B-LC	B-LC	B-LC, O, B-EV, B-OG, B-AF
-6	##에서	O	O	O, I-LC, I-EV, I-AF, I-DT
-7	열리	O	O	O, I-EV, B-EV, B-PS, B-CV
-8	##는	O	O	O, B-EV, I-EV, B-PS, B-LC
-9	아시안	B-EV	B-EV	B-EV, O, I-EV, B-OG, B-LC
-10	##게임	I-EV	I-EV	I-EV, O, I-AF, I-OG, B-EV
-11	##에	O	O	O, I-EV, I-OG, I-AF, B-CV
-12	북한	B-LC	B-LC	B-LC, B-OG, O, B-PS, B-CV
-13	선수단	O	B-CV	B-CV, O, I-CV, I-OG, B-OG
-14	참가	O	O	O, I-CV, I-OG, I-EV, B-CV
-15	##가	O	O	O, B-PS, B-OG, B-LC, B-CV
-16	기대	O	O	O, B-OG, B-CV, B-TM, B-PS
-17	##된	O	O	O, I-OG, B-CV, I-EV, B-OG
-18	##다	O	O	O, B-CV, I-OG, I-EV, I-AF
-19	.	O	O	O, B-LC, B-CV, B-OG, B-PS
-20	[SEP]	O	O	O, B-CV, I-EV, B-LC, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	한국	B-LC	B-LC
+2	##은	O	O
+3	거론	O	O
+4	##하	O	O
+5	##지	O	O
+6	않	O	O
+7	##았	O	O
+8	##으나	O	O
+9	조선	O	B-LC
+10	(	O	O
+11	북한	B-LC	B-LC
+12	)	O	O
+13	에	O	O
+14	관한	O	O
+15	내용	O	O
+16	##은	O	O
+17	눈길	O	O
+18	##을	O	O
+19	끈다	O	O
+20	.	O	O
+21	[SEP]	O	O

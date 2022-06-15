@@ -1,7 +1,25 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-AF
-1	지구	O	B-LC	B-LC, O, B-OG, B-DT, B-EV
-2	##상	O	O	O, I-LC, B-LC, I-OG, I-DT
-3	절대	O	O	O, B-LC, I-LC, B-OG, B-CV
-4	##적인	O	O	O, I-LC, I-AF, I-OG, B-LC
-5	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	한	O	B-QT
+2	쪽	O	I-QT
+3	##은	O	O
+4	파란색	B-TM	B-TM
+5	##의	O	O
+6	프리	O	O
+7	##즘	O	O
+8	##을	O	O
+9	갖	O	O
+10	##고	O	O
+11	보	O	O
+12	##기	O	O
+13	시작	O	O
+14	##하	O	O
+15	##는	O	O
+16	걸	O	O
+17	인제	O	O
+18	확인	O	O
+19	##하	O	O
+20	##게	O	O
+21	됐	O	O
+22	##고	O	O
+23	[SEP]	O	O

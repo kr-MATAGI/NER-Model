@@ -1,44 +1,54 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-EV, I-OG, I-CV
-1	특히	O	O	O, B-OG, B-CV, B-PS, B-TM
-2	배	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-AF
-3	팀장	B-CV	B-CV	B-CV, O, I-CV, I-PS, B-TM
-4	##은	O	O	O, I-CV, B-CV, I-EV, I-OG
-5	고도	O	O	O, B-CV, B-PS, B-OG, B-LC
-6	##의	O	O	O, B-PS, B-LC, B-OG, I-OG
-7	윤리	O	O	O, B-FD, B-CV, B-TR, B-PS
-8	기강	O	O	O, B-CV, B-PS, I-CV, B-FD
-9	##에	O	O	O, B-PS, B-CV, I-EV, I-CV
-10	앞장서	O	O	O, B-OG, B-CV, B-LC, B-PS
-11	##야	O	O	O, B-PS, B-OG, B-LC, B-CV
-12	하	O	O	O, B-OG, B-PS, B-CV, B-LC
-13	##는	O	O	O, B-OG, B-PS, B-LC, B-CV
-14	청와대	B-AF	B-OG	B-OG, B-AF, O, B-PS, B-LC
-15	내부	O	O	O, I-OG, B-CV, I-EV, I-AF
-16	##감	O	O	O, B-CV, I-EV, B-PS, I-CV
-17	##찰	O	O	O, I-CV, I-EV, B-CV, I-OG
-18	책임자	B-CV	B-CV	B-CV, O, I-CV, B-PS, B-QT
-19	##로	O	O	O, I-CV, B-CV, B-PS, I-EV
-20	##서	O	O	O, B-CV, B-LC, B-OG, B-PS
-21	이권	O	O	O, B-CV, B-LC, B-TM, B-PS
-22	##과	O	O	O, B-PS, B-CV, B-OG, B-LC
-23	연관	O	O	O, B-CV, B-TM, B-PS, B-LC
-24	##되	O	O	O, B-PS, B-LC, B-CV, B-OG
-25	##는	O	O	O, B-CV, B-LC, B-PS, B-TM
-26	상표	O	O	O, B-CV, B-TM, B-LC, B-FD
-27	출원	O	O	O, B-CV, B-LC, B-TM, B-OG
-28	##에	O	O	O, B-CV, B-LC, B-OG, B-PS
-29	이름	O	O	O, B-CV, B-LC, B-TM, B-OG
-30	##을	O	O	O, B-CV, B-OG, B-PS, B-LC
-31	올린	O	O	O, B-LC, B-OG, B-CV, B-AF
-32	것	O	O	O, B-OG, B-LC, B-CV, B-PS
-33	##은	O	O	O, B-CV, B-OG, B-LC, B-PS
-34	부적절	O	O	O, B-CV, B-PS, B-LC, B-OG
-35	##한	O	O	O, B-PS, B-LC, I-PS, B-CV
-36	처사	O	O	O, B-CV, B-PS, B-OG, B-LC
-37	##라는	O	O	O, B-PS, B-LC, B-QT, B-OG
-38	지적	O	O	O, B-CV, B-PS, B-OG, B-LC
-39	##이	O	O	O, B-PS, B-CV, B-OG, B-LC
-40	나온다	O	O	O, B-CV, B-QT, B-PS, B-TM
-41	.	O	O	O, B-PS, B-LC, B-CV, B-OG
-42	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	NYT	B-OG	B-OG
+2	##는	O	O
+3	이날	B-DT	B-DT
+4	온라인	O	O
+5	톱	O	O
+6	##기사	O	O
+7	##로	O	O
+8	JP	B-OG	B-OG
+9	##모	I-OG	I-OG
+10	##건	I-OG	I-OG
+11	##이	O	O
+12	중국	B-LC	B-LC
+13	고위	O	O
+14	##층	O	O
+15	자제	B-CV	B-CV
+16	##를	O	O
+17	채용	O	O
+18	##하면	O	O
+19	##서	O	O
+20	이권	O	O
+21	##을	O	O
+22	챙겨	O	O
+23	##왔	O	O
+24	##다는	O	O
+25	의혹	O	O
+26	##을	O	O
+27	받	O	O
+28	##고	O	O
+29	있	O	O
+30	##는	O	O
+31	‘	O	O
+32	아들	B-AF	B-CV
+33	##과	I-AF	I-AF
+34	딸	I-AF	I-AF
+35	##들	I-AF	I-AF
+36	’	O	O
+37	프로그램	O	O
+38	##과	O	O
+39	관련	O	O
+40	##해	O	O
+41	자료	O	O
+42	##를	O	O
+43	당국	O	O
+44	##에	O	O
+45	제출	O	O
+46	##했	O	O
+47	##다고	O	O
+48	보도	O	O
+49	##했	O	O
+50	##다	O	O
+51	.	O	O
+52	[SEP]	O	O

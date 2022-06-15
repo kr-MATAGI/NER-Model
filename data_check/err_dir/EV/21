@@ -1,64 +1,34 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-EV, I-CV, I-OG
-1	한	O	O	O, B-LC, B-OG, B-PS, B-QT
-2	현지	O	O	O, B-LC, I-LC, B-CV, B-PS
-3	주민	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-PS
-4	##은	O	O	O, I-CV, B-CV, I-EV, I-QT
-5	""""	O	O	O, B-CV, B-LC, B-TM, B-OG
-6	주사	B-EV	O	O, B-AF, B-EV, B-TM, B-OG
-7	##기	I-EV	O	O, I-AF, I-EV, I-TM, I-OG
-8	테러	I-EV	O	O, I-EV, B-CV, I-AF, B-PS
-9	피해자	B-CV	B-CV	B-CV, O, I-CV, I-EV, B-PS
-10	##들이	O	O	O, I-CV, I-EV, I-AF, B-CV
-11	병원	O	O	O, B-CV, B-OG, B-TM, B-AF
-12	##으로	O	O	O, B-CV, B-LC, B-PS, B-TM
-13	몰려들	O	O	O, B-LC, B-PS, B-OG, B-CV
-14	##고	O	O	O, B-PS, B-LC, B-QT, B-CV
-15	있	O	O	O, B-PS, B-LC, B-CV, B-QT
-16	##고	O	O	O, B-PS, B-LC, B-CV, B-QT
-17	,	O	O	O, B-LC, B-CV, B-PS, B-OG
-18	한	O	O	O, B-QT, B-PS, B-LC, B-TM
-19	어린이	O	O	O, B-CV, B-AM, I-QT, B-PS
-20	##가	O	O	O, B-PS, B-CV, B-QT, B-LC
-21	주	O	O	O, B-AF, B-LC, B-CV, B-TM
-22	##삿	O	O	O, I-AF, B-AF, B-LC, I-LC
-23	##바	O	O	O, B-AF, I-AF, B-LC, B-AM
-24	##늘	O	O	O, I-AF, I-LC, B-AM, B-LC
-25	##의	O	O	O, I-AF, B-PS, B-AF, B-LC
-26	독	B-MT	O	O, B-TM, B-AF, B-CV, B-MT
-27	##극	I-MT	O	O, I-AF, I-LC, I-CV, I-TM
-28	##물	I-MT	O	O, I-AF, I-LC, I-TM, I-CV
-29	##에	O	O	O, I-AF, B-PS, B-CV, B-TM
-30	의해	O	O	O, B-TM, B-LC, B-CV, B-QT
-31	사망	O	O	O, B-TM, B-CV, B-LC, B-QT
-32	##했	O	O	O, B-PS, B-CV, B-LC, B-TM
-33	##다는	O	O	O, B-LC, B-PS, B-QT, B-CV
-34	미	O	O	O, B-LC, B-PS, B-CV, B-OG
-35	##확	O	O	O, I-LC, I-CV, B-CV, B-LC
-36	##인	O	O	O, I-LC, I-CV, I-AF, B-LC
-37	소문	O	O	O, B-LC, B-CV, B-PS, I-LC
-38	##이	O	O	O, B-PS, B-LC, B-CV, B-OG
-39	나	O	O	O, B-LC, B-CV, B-OG, B-QT
-40	##도	O	O	O, B-LC, B-PS, B-CV, I-LC
-41	##는	O	O	O, B-LC, B-TM, B-PS, B-OG
-42	등	O	O	O, B-LC, B-OG, B-TM, B-PS
-43	시	O	O	O, B-OG, B-LC, I-LC, B-FD
-44	전체	O	O	O, I-LC, I-OG, B-LC, B-QT
-45	##가	O	O	O, B-PS, B-LC, B-OG, B-TM
-46	공황	O	O	O, B-TM, B-LC, B-CV, B-TR
-47	(	O	O	O, I-TM, I-LC, B-PS, B-LC
-48	[UNK]	O	O	O, B-LC, B-PS, B-CV, B-TM
-49	[UNK]	O	O	O, B-LC, B-PS, B-CV, B-TM
-50	)	O	O	O, B-LC, B-PS, B-CV, B-TM
-51	상태	O	O	O, B-LC, B-TM, B-PS, B-CV
-52	##에	O	O	O, B-PS, B-LC, B-CV, B-OG
-53	빠져	O	O	O, B-LC, B-TM, B-OG, B-QT
-54	있	O	O	O, B-LC, B-PS, I-LC, B-QT
-55	##다	O	O	O, B-LC, I-OG, I-LC, I-QT
-56	""""	O	O	O, B-CV, B-LC, B-TM, I-QT
-57	고	O	O	O, B-CV, B-LC, B-QT, B-TM
-58	말	O	O	O, B-CV, B-LC, B-TM, B-QT
-59	##했	O	O	O, B-CV, B-LC, B-PS, I-QT
-60	##다	O	O	O, B-CV, B-LC, B-TM, B-PS
-61	.	O	O	O, B-LC, B-PS, B-CV, B-AF
-62	[SEP]	O	O	O, B-LC, B-CV, B-PS, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	조	B-OG	B-OG
+2	##평	I-OG	I-OG
+3	##통	I-OG	I-OG
+4	담화	O	O
+5	##는	O	O
+6	그동안	O	O
+7	남측	B-OG	B-OG
+8	##이	O	O
+9	요구	O	O
+10	##해	O	O
+11	온	O	O
+12	‘	O	O
+13	천안	B-EV	B-AF
+14	##함	I-EV	I-AF
+15	##과	I-EV	O
+16	연평도	I-EV	B-EV
+17	도발	I-EV	I-EV
+18	##에	O	O
+19	대한	O	O
+20	책임	O	O
+21	있	O	O
+22	##는	O	O
+23	조치	O	O
+24	’	O	O
+25	를	O	O
+26	내놓	O	O
+27	##지	O	O
+28	않	O	O
+29	##았	O	O
+30	##다	O	O
+31	.	O	O
+32	[SEP]	O	O

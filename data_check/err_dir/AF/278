@@ -1,38 +1,21 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-EV, I-CV
-1	볼보	B-OG	B-OG	B-OG, O, B-LC, B-PS, B-AF
-2	역시	O	O	O, I-OG, I-DT, I-AF, B-CV
-3	올가	B-DT	B-DT	B-DT, O, I-DT, B-OG, B-QT
-4	##을	I-DT	I-DT	I-DT, O, B-DT, I-OG, I-QT
-5	세계	O	O	O, I-DT, B-LC, B-CV, B-OG
-6	최초	O	O	O, B-QT, B-LC, B-TM, B-AF
-7	##의	O	O	O, B-LC, B-AF, B-PS, B-QT
-8	스리	B-QT	B-QT	B-QT, B-TM, B-AF, O, B-EV
-9	피스	I-QT	I-QT	I-QT, I-TM, I-AF, O, I-OG
-10	(	O	O	O, I-AF, I-QT, I-TM, I-CV
-11	Th	O	O	O, B-LC, B-PS, I-AF, B-AF
-12	##ree	O	O	O, B-LC, B-PS, I-LC, I-AF
-13	-	O	O	O, B-PS, B-LC, I-LC, I-PS
-14	P	O	O	O, B-LC, B-PS, I-LC, I-PS
-15	##ie	O	O	O, B-LC, B-PS, I-LC, I-PS
-16	##ce	O	O	O, B-LC, I-LC, B-PS, I-PS
-17	)	O	O	O, B-LC, I-AF, I-LC, B-AF
-18	하드	B-AF	B-AF	B-AF, B-TM, O, I-AF, B-QT
-19	##톱	I-AF	I-AF	I-AF, I-TM, O, I-QT, I-CV
-20	컨	B-AF	I-AF	I-AF, B-AF, I-TM, O, B-TM
-21	##버터	I-AF	I-AF	I-AF, I-TM, O, B-AF, I-CV
-22	##블	I-AF	I-AF	I-AF, I-TM, O, I-CV, I-QT
-23	모델	O	O	O, I-AF, I-TM, I-CV, B-CV
-24	##인	O	O	O, I-AF, I-CV, I-TM, B-LC
-25	뉴	B-AF	B-AF	B-AF, I-AF, O, B-OG, B-TM
-26	##볼	I-AF	I-AF	I-AF, B-AF, O, I-TM, I-LC
-27	##보	I-AF	I-AF	I-AF, O, I-TM, B-AF, I-LC
-28	C	I-AF	I-AF	I-AF, B-AF, O, I-TM, I-LC
-29	##70	I-AF	I-AF	I-AF, O, I-TM, I-QT, I-LC
-30	##을	O	O	O, I-AF, I-TM, I-EV, B-CV
-31	출시	O	O	O, B-CV, B-TM, B-LC, B-OG
-32	##할	O	O	O, B-LC, B-OG, B-CV, B-PS
-33	예정	O	O	O, B-CV, B-TM, B-LC, B-OG
-34	##이다	O	O	O, B-CV, B-TM, I-OG, B-LC
-35	.	O	O	O, B-LC, B-AF, B-PS, B-OG
-36	[SEP]	O	O	O, B-LC, B-AF, I-AF, B-CV
+	text	label	preds
+0	[CLS]	O	O
+1	베토벤	B-AF	B-PS
+2	바이올린	I-AF	B-AF
+3	소나타	I-AF	B-AF
+4	모두	O	O
+5	##를	O	O
+6	녹음	O	O
+7	##하	O	O
+8	##는	O	O
+9	작업	O	O
+10	##을	O	O
+11	아직	O	O
+12	끝내	O	O
+13	##지	O	O
+14	##는	O	O
+15	않	O	O
+16	##았	O	O
+17	##어요	O	O
+18	.	O	O
+19	[SEP]	O	O

@@ -1,43 +1,39 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	김	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-2	##씨	O	O	O, I-PS, I-OG, B-CV, I-AF
-3	##가	O	O	O, B-CV, B-PS, B-OG, B-LC
-4	“	O	O	O, B-CV, B-PS, B-OG, B-LC
-5	순찰	O	B-AF	B-AF, B-OG, O, B-CV, B-TM
-6	##차	O	I-AF	I-AF, I-OG, O, I-CV, I-TM
-7	##와	O	O	O, I-AF, I-OG, I-CV, B-CV
-8	교통	B-OG	B-OG	B-OG, B-AF, B-CV, O, B-PS
-9	##경찰	I-OG	I-OG	I-OG, I-AF, I-CV, O, I-QT
-10	##이	O	O	O, I-OG, I-AF, B-PS, I-CV
-11	호위	O	O	O, B-AF, B-CV, B-OG, B-PS
-12	##하	O	O	O, I-AF, B-AF, B-PS, B-CV
-13	##는데	O	O	O, I-AF, B-LC, B-CV, B-PS
-14	무슨	O	O	O, B-PS, B-LC, B-CV, I-AF
-15	도움	O	O	O, B-LC, B-CV, B-OG, B-TM
-16	##이	O	O	O, B-PS, B-LC, B-CV, B-OG
-17	더	O	O	O, B-LC, B-PS, B-OG, B-CV
-18	필요	O	O	O, B-LC, B-CV, B-TM, B-PS
-19	##하	O	O	O, B-PS, B-LC, B-OG, B-AF
-20	##냐	O	O	O, B-PS, I-AF, B-LC, I-PS
-21	”	O	O	O, B-CV, B-PS, B-OG, B-TM
-22	고	O	O	O, B-CV, B-PS, B-TM, B-LC
-23	따지	O	O	O, B-CV, B-PS, B-TM, B-LC
-24	##며	O	O	O, B-PS, B-CV, B-OG, B-LC
-25	동행	O	O	O, B-CV, B-AF, B-OG, B-LC
-26	##하	O	O	O, B-PS, B-CV, B-OG, B-AF
-27	##던	O	O	O, B-CV, B-PS, B-OG, B-LC
-28	<	B-OG	O	O, B-OG, B-CV, B-LC, B-PS
-29	한겨레	I-OG	B-OG	B-OG, B-AF, O, I-OG, B-PS
-30	##21	I-OG	I-OG	I-OG, O, I-AF, B-OG, I-QT
-31	>	I-OG	O	O, I-OG, I-AF, B-CV, I-CV
-32	기자	B-CV	B-CV	B-CV, O, I-CV, B-AF, B-OG
-33	##에	O	O	O, I-CV, B-CV, I-AF, I-OG
-34	##게	O	O	O, B-CV, B-TM, B-LC, B-OG
-35	취재	O	O	O, B-CV, B-TM, B-OG, B-LC
-36	##를	O	O	O, B-CV, B-PS, B-OG, B-TM
-37	요청	O	O	O, B-CV, B-TM, B-LC, B-OG
-38	##했	O	O	O, B-CV, B-OG, B-LC, B-PS
-39	##다	O	O	O, B-CV, B-TM, B-LC, B-OG
-40	.	O	O	O, B-CV, B-LC, B-PS, B-OG
-41	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	2004	B-DT	B-DT
+2	##년	I-DT	I-DT
+3	(	O	O
+4	ㅁ	B-TM	O
+5	##자	I-TM	O
+6	집	O	O
+7	)	O	O
+8	과	O	O
+9	2008	B-DT	B-DT
+10	##년	I-DT	I-DT
+11	(	O	O
+12	마을	O	O
+13	##집	O	O
+14	)	O	O
+15	,	O	O
+16	2009	B-DT	B-DT
+17	##년	I-DT	I-DT
+18	(	O	O
+19	땅	O	O
+20	##집	O	O
+21	)	O	O
+22	잇따라	O	O
+23	완성	O	O
+24	##된	O	O
+25	집	O	O
+26	##들	O	O
+27	##은	O	O
+28	모두	O	O
+29	하나	O	B-QT
+30	##의	O	O
+31	정서	O	O
+32	##에	O	O
+33	##서	O	O
+34	출발	O	O
+35	##한다	O	O
+36	.	O	O
+37	[SEP]	O	O

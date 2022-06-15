@@ -1,27 +1,58 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	저희	O	O	O, B-OG, B-CV, B-LC, B-AF
-2	##가	O	O	O, I-OG, B-OG, B-PS, I-AF
-3	그	O	O	O, B-OG, B-CV, B-LC, B-AF
-4	소비자	B-OG	B-OG	B-OG, B-CV, O, I-OG, B-AF
-5	보호	I-OG	I-OG	I-OG, O, I-CV, B-OG, I-EV
-6	##원	I-OG	I-OG	I-OG, O, I-CV, I-EV, I-AF
-7	천	B-CV	B-DT	B-DT, I-OG, I-DT, B-QT, O
-8	##구	I-CV	I-DT	I-DT, I-QT, I-OG, O, B-DT
-9	##백	I-CV	I-DT	I-DT, B-DT, I-QT, O, I-OG
-10	##팔	I-CV	I-DT	I-DT, B-DT, I-QT, O, I-OG
-11	##십	I-CV	I-DT	I-DT, B-DT, I-QT, O, I-OG
-12	##칠	I-CV	I-DT	I-DT, B-DT, O, I-QT, I-OG
-13	##년	I-CV	I-DT	I-DT, O, I-QT, B-DT, I-OG
-14	##에	O	O	O, I-DT, I-OG, B-CV, I-QT
-15	소비자	B-CV	B-CV	B-CV, O, B-OG, B-AF, I-CV
-16	##보호	I-CV	I-CV	I-CV, O, I-OG, B-CV, I-AF
-17	기본법	I-CV	I-CV	I-CV, O, I-OG, B-CV, I-AF
-18	##에	O	O	O, I-CV, I-OG, I-AF, I-EV
-19	의해서	O	O	O, B-OG, B-CV, B-LC, B-PS
-20	만들	O	O	O, B-CV, B-OG, I-OG, B-PS
-21	##어진	O	O	O, B-CV, B-OG, I-OG, B-PS
-22	기관	O	O	O, B-CV, B-OG, B-PS, I-OG
-23	##입니다	O	O	O, B-CV, I-OG, B-OG, B-PS
-24	.	O	O	O, B-OG, B-LC, B-CV, I-OG
-25	[SEP]	O	O	O, B-OG, B-CV, I-OG, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	관람	O	O
+2	##을	O	O
+3	마치	O	O
+4	##고	O	O
+5	집	O	O
+6	##에	O	O
+7	돌아온	O	O
+8	이	B-PS	B-PS
+9	양은	O	O
+10	인상	O	O
+11	##적	O	O
+12	##이	O	O
+13	##었	O	O
+14	##던	O	O
+15	미국	B-LC	B-LC
+16	##의	O	O
+17	팝	O	B-FD
+18	아티스트	B-CV	I-CV
+19	웨인	B-PS	B-PS
+20	티	I-PS	I-PS
+21	##보	I-PS	I-PS
+22	##의	O	O
+23	‘	O	O
+24	파이	B-AF	B-AF
+25	진열	I-AF	I-AF
+26	##대	I-AF	I-AF
+27	’	O	O
+28	라는	O	O
+29	작품	O	O
+30	##의	O	O
+31	사진	O	O
+32	##을	O	O
+33	인터넷	O	O
+34	##에	O	O
+35	##서	O	O
+36	출력	O	O
+37	##해	O	O
+38	노트	O	O
+39	##에	O	O
+40	붙인	O	O
+41	뒤	O	O
+42	관람	O	O
+43	##하면	O	O
+44	##서	O	O
+45	느낀	O	O
+46	점	O	O
+47	##을	O	O
+48	적	O	O
+49	##고	O	O
+50	포트폴리오	O	O
+51	##를	O	O
+52	만들	O	O
+53	##었	O	O
+54	##다	O	O
+55	.	O	O
+56	[SEP]	O	O

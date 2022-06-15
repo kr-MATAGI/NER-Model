@@ -1,44 +1,45 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-EV, B-CV, I-OG, I-CV
-1	중국	B-LC	B-LC	B-LC, B-OG, O, B-PS, B-AF
-2	##의	O	O	O, I-LC, I-EV, B-LC, I-OG
-3	항일	B-EV	B-EV	B-EV, O, B-DT, B-LC, I-EV
-4	##전쟁	I-EV	I-EV	I-EV, O, I-LC, I-DT, I-AF
-5	승리	O	O	O, I-EV, I-OG, I-LC, I-AF
-6	##와	O	O	O, I-EV, B-LC, B-OG, B-PS
-7	세계	O	O	O, B-EV, B-LC, B-OG, B-DT
-8	반	B-EV	I-EV	I-EV, B-EV, O, B-TR, B-PS
-9	(	I-EV	I-EV	I-EV, O, I-TR, I-DT, I-LC
-10	反	I-EV	I-EV	I-EV, O, I-DT, I-TR, I-LC
-11	)	I-EV	I-EV	I-EV, O, I-TR, B-EV, I-DT
-12	파	I-EV	I-EV	I-EV, O, B-EV, I-TR, I-DT
-13	##시스트	I-EV	I-EV	I-EV, O, I-TR, I-DT, B-EV
-14	전쟁	I-EV	I-EV	I-EV, O, I-TR, I-DT, I-AF
-15	승리	O	O	O, I-EV, B-LC, B-EV, I-DT
-16	70	B-DT	B-DT	B-DT, B-QT, O, I-DT, B-EV
-17	##주	I-DT	I-DT	I-DT, B-DT, I-QT, O, I-EV
-18	##년	I-DT	I-DT	I-DT, O, I-QT, B-DT, I-EV
-19	##을	O	O	O, I-DT, I-EV, B-CV, I-QT
-20	기념	O	O	O, B-CV, B-LC, B-EV, B-OG
-21	##한	O	O	O, B-LC, B-PS, B-OG, B-EV
-22	이	O	O	O, B-OG, B-PS, B-EV, B-LC
-23	행사	O	O	O, I-EV, B-EV, B-CV, I-QT
-24	##에	O	O	O, I-EV, B-CV, B-OG, B-LC
-25	##는	O	O	O, B-LC, B-CV, B-OG, B-TM
-26	김정은	B-PS	B-PS	B-PS, B-OG, O, B-LC, I-PS
-27	북한	B-LC	B-LC	B-LC, B-OG, O, I-PS, I-LC
-28	노동당	B-OG	B-OG	B-OG, B-LC, B-AF, I-OG, O
-29	제	B-CV	B-CV	B-CV, B-QT, O, I-OG, B-OG
-30	##1	I-CV	I-CV	I-CV, I-QT, B-CV, O, I-OG
-31	##비	I-CV	I-CV	I-CV, B-CV, I-QT, O, I-OG
-32	##서	I-CV	I-CV	I-CV, B-CV, O, I-QT, I-OG
-33	##도	O	O	O, I-CV, I-QT, I-OG, B-CV
-34	초청	O	O	O, B-CV, B-TM, B-OG, B-LC
-35	대상	O	O	O, B-CV, I-CV, B-LC, B-QT
-36	##인	O	O	O, B-PS, B-CV, B-LC, B-QT
-37	것	O	O	O, B-CV, B-LC, B-QT, B-TM
-38	##으로	O	O	O, B-CV, B-LC, B-TM, B-QT
-39	전해졌	O	O	O, B-LC, B-CV, B-OG, B-TM
-40	##다	O	O	O, B-CV, B-LC, I-QT, I-EV
-41	.	O	O	O, B-LC, B-OG, B-CV, B-PS
-42	[SEP]	O	O	O, B-LC, B-CV, I-EV, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	예상	O	O
+2	밖	O	O
+3	##의	O	O
+4	공동	O	O
+5	선두	B-CV	O
+6	##에	O	O
+7	오른	O	O
+8	레	B-PS	B-PS
+9	##시	I-PS	I-PS
+10	##먼	I-PS	I-PS
+11	##은	O	O
+12	2006	B-DT	B-DT
+13	##년	I-DT	I-DT
+14	한국	B-EV	B-EV
+15	##프로	I-EV	I-EV
+16	##골	I-EV	I-EV
+17	##프	I-EV	I-EV
+18	##투어	I-EV	I-EV
+19	(	O	I-EV
+20	KG	B-EV	I-EV
+21	##T	I-EV	I-EV
+22	)	O	I-EV
+23	지산	B-AF	I-EV
+24	##리	I-AF	I-EV
+25	##조	I-AF	I-EV
+26	##트	I-AF	I-EV
+27	오픈	O	I-EV
+28	##에	O	O
+29	##서	O	O
+30	우승	O	O
+31	##하	O	O
+32	##는	O	O
+33	등	O	O
+34	한국	B-LC	B-LC
+35	##에	O	O
+36	##서도	O	O
+37	선수	B-CV	B-CV
+38	생활	O	O
+39	##을	O	O
+40	했	O	O
+41	##다	O	O
+42	.	O	O
+43	[SEP]	O	O

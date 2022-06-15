@@ -1,8 +1,18 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-AF
-1	좋	O	B-OG	B-OG, O, B-AF, B-EV, B-TM
-2	##은	O	I-OG	I-OG, O, I-AF, I-LC, I-TM
-3	##기업	O	I-OG	I-OG, O, I-AF, I-LC, I-EV
-4	##센터	O	I-OG	I-OG, O, I-AF, I-LC, I-EV
-5	기획	O	O	O, I-OG, B-CV, I-AF, B-TM
-6	[SEP]	O	O	O, I-OG, I-AF, B-CV, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	가축	O	O
+2	##화	O	O
+3	역사가	O	O
+4	가장	O	O
+5	긴	O	O
+6	개	O	B-AM
+7	##는	O	O
+8	야생	O	O
+9	##동물	O	O
+10	##보	O	O
+11	##다	O	O
+12	사람	O	O
+13	편이	O	O
+14	##다	O	O
+15	.	O	O
+16	[SEP]	O	O

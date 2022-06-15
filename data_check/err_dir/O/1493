@@ -1,50 +1,15 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	이날	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-CV
-2	문	O	O	O, I-DT, B-TM, B-CV, B-EV
-3	##을	O	O	O, B-CV, B-OG, B-PS, B-LC
-4	연	O	O	O, B-CV, B-LC, B-PS, B-AF
-5	정책	O	O	O, B-CV, B-TM, B-LC, B-FD
-6	##제	O	O	O, I-TM, I-EV, I-CV, I-AF
-7	##안	O	O	O, I-TM, I-AF, I-EV, I-LC
-8	게시판	O	O	O, I-TM, I-AF, B-TM, I-EV
-9	##은	O	O	O, B-OG, B-LC, B-CV, B-TM
-10	경기도	B-OG	B-OG	B-OG, B-AF, B-EV, O, B-LC
-11	##교육	I-OG	I-OG	I-OG, O, B-OG, I-EV, I-AF
-12	##청	I-OG	I-OG	I-OG, O, I-EV, I-AF, I-LC
-13	누리집	O	O	O, I-OG, I-EV, I-AF, B-TM
-14	##에	O	O	O, B-CV, B-TM, B-LC, B-OG
-15	접속	O	O	O, B-TM, B-LC, B-CV, B-OG
-16	##한	O	O	O, B-LC, B-PS, B-TM, B-OG
-17	뒤	O	O	O, B-TM, B-LC, B-OG, B-PS
-18	‘	O	O	O, B-LC, B-OG, B-CV, B-TM
-19	열린	O	B-LC	B-LC, O, B-AF, B-TM, B-OG
-20	##광장	O	I-LC	I-LC, O, I-AF, I-TM, I-OG
-21	’	O	O	O, I-LC, I-AF, B-LC, I-OG
-22	의	O	O	O, B-LC, B-OG, B-AF, B-TM
-23	경기도	B-LC	B-LC	B-LC, B-OG, B-EV, O, B-AF
-24	교육감	B-CV	B-EV	B-EV, B-CV, I-EV, O, B-OG
-25	##직	I-CV	I-EV	I-EV, O, I-OG, I-CV, I-AF
-26	인수위	B-OG	I-EV	I-EV, B-OG, B-EV, O, I-OG
-27	##원회	I-OG	I-EV	I-EV, I-OG, O, I-AF, B-OG
-28	게시판	O	O	O, I-EV, I-OG, I-AF, B-TM
-29	##에서	O	O	O, B-CV, B-LC, B-OG, B-PS
-30	찾	O	O	O, B-CV, B-TM, B-OG, B-LC
-31	##을	O	O	O, B-CV, B-OG, B-TM, B-PS
-32	수	O	O	O, B-PS, B-LC, B-TM, B-CV
-33	있	O	O	O, B-CV, B-TM, B-LC, B-PS
-34	##으며	O	O	O, B-LC, B-TM, B-OG, B-CV
-35	,	O	O	O, B-CV, B-LC, B-OG, B-TM
-36	누구	O	O	O, B-CV, B-TM, B-LC, B-PS
-37	##나	O	O	O, B-PS, B-LC, B-TM, B-CV
-38	자유	O	O	O, B-TM, B-CV, B-LC, B-PS
-39	##롭	O	O	O, I-TM, I-LC, I-AF, I-PS
-40	##게	O	O	O, B-LC, I-TM, I-LC, B-PS
-41	글	O	O	O, B-TM, B-CV, B-LC, B-FD
-42	##을	O	O	O, B-CV, B-LC, B-OG, B-PS
-43	쓸	O	O	O, B-LC, B-CV, B-PS, B-TM
-44	수	O	O	O, B-PS, B-CV, B-TM, B-LC
-45	있	O	O	O, B-CV, B-TM, B-LC, I-AF
-46	##다	O	O	O, B-CV, B-TM, B-LC, B-OG
-47	.	O	O	O, B-LC, B-CV, B-TM, B-PS
-48	[SEP]	O	O	O, B-CV, B-LC, B-TM, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	신	O	O
+2	3	O	B-QT
+3	##반	O	I-QT
+4	운운	O	O
+5	##하	O	O
+6	##는	O	O
+7	게	O	O
+8	그	O	O
+9	징	O	O
+10	##표	O	O
+11	##다	O	O
+12	.	O	O
+13	[SEP]	O	O

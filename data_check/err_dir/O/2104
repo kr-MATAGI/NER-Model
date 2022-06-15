@@ -1,14 +1,26 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, I-OG, B-CV, I-EV
-1	민주	O	B-OG	B-OG, O, B-PS, B-LC, B-TR
-2	비	O	O	O, B-OG, B-CV, I-OG, B-PS
-3	##당	O	O	O, I-OG, I-CV, B-OG, B-CV
-4	##권	O	O	O, I-OG, I-CV, B-CV, I-PS
-5	##파	O	O	O, I-OG, I-CV, I-PS, B-CV
-6	“	O	O	O, I-OG, I-CV, B-CV, B-PS
-7	지방	B-EV	B-EV	B-EV, O, B-CV, B-LC, B-OG
-8	##선거	I-EV	I-EV	I-EV, O, B-EV, I-CV, I-OG
-9	경선	O	O	O, I-EV, B-EV, B-CV, B-LC
-10	똑바로	O	O	O, I-EV, B-PS, B-LC, I-AF
-11	”	O	O	O, B-CV, I-EV, B-LC, B-OG
-12	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	다만	O	O
+2	아동	O	O
+3	##과	O	O
+4	교사	B-CV	B-CV
+5	##의	O	O
+6	인권	O	B-CV
+7	##을	O	O
+8	고려	O	O
+9	##해	O	O
+10	동영상	O	O
+11	##의	O	O
+12	열람	O	O
+13	주체	O	O
+14	##는	O	O
+15	수사	O	O
+16	##기	O	O
+17	##관	O	O
+18	등	O	O
+19	##으로	O	O
+20	제한	O	O
+21	##된	O	O
+22	##다	O	O
+23	.	O	O
+24	[SEP]	O	O

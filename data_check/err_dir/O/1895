@@ -1,54 +1,25 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, I-OG, B-CV, I-AF
-1	도쿄	B-LC	B-LC	B-LC, O, B-AF, B-OG, B-PS
-2	(	O	O	O, I-LC, B-LC, I-AF, B-PS
-3	東	O	O	O, B-LC, B-PS, I-LC, B-OG
-4	京	O	O	O, B-LC, I-LC, B-PS, I-PS
-5	)	O	O	O, B-LC, I-LC, B-PS, B-OG
-6	세	O	B-LC	B-LC, O, B-AF, B-PS, B-OG
-7	##타	O	I-LC	I-LC, O, B-LC, I-AF, I-PS
-8	##가	O	I-LC	I-LC, O, B-LC, I-AF, I-PS
-9	##야	O	I-LC	I-LC, O, I-AF, B-LC, I-PS
-10	(	O	O	O, I-LC, B-LC, I-AF, I-PS
-11	世	O	O	O, B-LC, I-LC, B-PS, B-OG
-12	田	O	O	O, B-LC, I-LC, B-PS, B-OG
-13	[UNK]	O	O	O, B-LC, I-LC, B-PS, B-OG
-14	)	O	O	O, B-LC, I-LC, B-PS, B-OG
-15	구	O	O	O, B-LC, I-LC, B-PS, B-OG
-16	가미	B-LC	B-LC	B-LC, O, B-AF, I-LC, B-PS
-17	##소시	I-LC	I-LC	I-LC, O, I-AF, B-LC, I-PS
-18	##가	I-LC	I-LC	I-LC, O, I-AF, B-LC, I-PS
-19	##야	I-LC	I-LC	I-LC, O, I-AF, I-PS, B-LC
-20	(	O	O	O, I-LC, I-AF, B-LC, I-OG
-21	上	O	O	O, B-LC, B-CV, B-PS, I-LC
-22	祖	O	O	O, B-LC, B-PS, I-LC, B-CV
-23	師	O	O	O, B-LC, B-PS, I-LC, B-CV
-24	[UNK]	O	O	O, B-LC, B-PS, I-LC, B-CV
-25	)	O	O	O, B-LC, B-CV, B-PS, B-OG
-26	의	O	O	O, B-LC, B-PS, B-CV, B-AF
-27	한	O	O	O, B-QT, B-AF, B-LC, B-CV
-28	단독	O	O	O, B-CV, B-AF, B-TM, B-QT
-29	##주택	O	O	O, I-AF, I-CV, I-LC, I-QT
-30	##에	O	O	O, B-PS, B-CV, I-AF, B-LC
-31	강도	B-CV	B-CV	B-CV, O, B-OG, I-CV, B-AF
-32	##가	O	O	O, I-CV, B-PS, I-AF, I-OG
-33	침입	O	O	O, B-CV, B-LC, B-AF, B-PS
-34	##해	O	O	O, B-LC, B-PS, I-AF, I-CV
-35	부부	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-OG
-36	##와	O	O	O, I-CV, B-CV, I-AF, B-PS
-37	아이	O	O	O, B-CV, B-AM, B-PS, B-TM
-38	2	B-QT	B-QT	B-QT, O, I-QT, B-PS, B-DT
-39	##명	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-40	등	O	O	O, I-QT, B-CV, B-PS, B-TM
-41	4	B-QT	B-QT	B-QT, I-QT, O, B-DT, B-PS
-42	##명	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-43	##의	O	O	O, I-QT, B-CV, B-PS, I-CV
-44	일가	O	O	O, B-CV, I-CV, B-TM, B-PS
-45	##족	O	O	O, I-CV, I-QT, B-CV, I-AM
-46	##을	O	O	O, B-CV, I-CV, B-PS, B-QT
-47	살해	O	O	O, B-CV, B-TM, I-CV, B-FD
-48	##하고	O	O	O, I-CV, B-LC, B-CV, B-PS
-49	달아났	O	O	O, B-CV, B-LC, B-TM, B-AF
-50	##다	O	O	O, B-CV, B-LC, I-CV, I-AF
-51	.	O	O	O, B-LC, B-PS, B-CV, B-AF
-52	[SEP]	O	O	O, B-LC, B-CV, I-LC, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	타이거	B-PS	B-PS
+2	우즈	I-PS	I-PS
+3	이후	O	O
+4	25	B-QT	B-QT
+5	##세	I-QT	I-QT
+6	이전	O	I-QT
+7	##에	O	O
+8	한	B-DT	B-DT
+9	해	I-DT	I-DT
+10	두	B-QT	B-QT
+11	번	I-QT	I-QT
+12	이상	I-QT	I-QT
+13	우승	O	O
+14	트로피	O	O
+15	##를	O	O
+16	든	O	O
+17	것	O	O
+18	##은	O	O
+19	그	O	O
+20	##가	O	O
+21	처음	O	O
+22	.	O	O
+23	[SEP]	O	O

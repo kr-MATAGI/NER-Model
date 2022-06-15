@@ -1,32 +1,28 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	'	O	O	O, B-CV, B-LC, B-OG, B-PS
-2	스	B-OG	B-OG	B-OG, O, B-PS, B-CV, B-AF
-3	##벅	I-OG	I-OG	I-OG, O, I-PS, B-OG, I-CV
-4	덕	O	B-CV	B-CV, O, I-CV, I-OG, B-PS
-5	##후	O	I-CV	I-CV, O, B-CV, I-OG, I-PS
-6	'	O	O	O, I-CV, B-PS, I-OG, B-CV
-7	가	O	O	O, B-PS, B-LC, B-OG, B-QT
-8	많	O	O	O, B-CV, B-OG, B-PS, B-LC
-9	##은	O	O	O, B-PS, I-OG, B-CV, B-LC
-10	덕	O	O	O, B-CV, B-OG, B-PS, B-TM
-11	##에	O	O	O, I-OG, B-LC, B-OG, B-PS
-12	스타	B-OG	B-OG	B-OG, B-AF, I-OG, B-PS, O
-13	##벅	I-OG	I-OG	I-OG, O, I-AF, B-OG, I-LC
-14	##스	I-OG	I-OG	I-OG, O, I-AF, I-CV, I-LC
-15	코리아	I-OG	I-OG	I-OG, B-OG, B-LC, I-LC, I-AF
-16	##는	O	O	O, I-OG, I-AF, I-EV, I-CV
-17	작년	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-18	##에	O	O	O, I-DT, I-QT, I-OG, I-AF
-19	1	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-EV
-20	##조	I-QT	I-QT	I-QT, O, I-LC, I-DT, I-PS
-21	##원	I-QT	I-QT	I-QT, O, I-LC, I-PS, I-DT
-22	##도	O	O	O, I-QT, I-OG, I-EV, I-AF
-23	넘	O	O	O, I-QT, B-LC, B-OG, B-CV
-24	##는	O	O	O, B-LC, B-PS, B-OG, B-QT
-25	매출	O	O	O, B-CV, B-TM, B-QT, B-LC
-26	##을	O	O	O, B-CV, B-OG, I-OG, I-AF
-27	올렸	O	O	O, B-CV, B-OG, B-TM, B-LC
-28	##다	O	O	O, B-CV, B-TM, I-OG, B-OG
-29	.	O	O	O, B-OG, B-LC, B-CV, B-PS
-30	[SEP]	O	O	O, B-CV, B-OG, I-OG, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	“	O	O
+2	알파	B-TM	B-TM
+3	##고	I-TM	I-TM
+4	##와	O	O
+5	##의	O	O
+6	대국	O	O
+7	##을	O	O
+8	통해	O	O
+9	바둑	O	B-CV
+10	##에	O	O
+11	대한	O	O
+12	이해	O	O
+13	##보	O	O
+14	##다는	O	O
+15	인간	O	O
+16	##의	O	O
+17	창의력	O	O
+18	##에	O	O
+19	의문	O	O
+20	##을	O	O
+21	가지	O	O
+22	##게	O	O
+23	됐	O	O
+24	##다	O	O
+25	.	O	O
+26	[SEP]	O	O

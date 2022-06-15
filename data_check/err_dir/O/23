@@ -1,35 +1,42 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	그러나	O	O	O, B-CV, B-TM, B-QT, B-OG
-2	의대	O	O	O, B-FD, B-CV, B-OG, B-AF
-3	##를	O	O	O, I-OG, I-AF, B-CV, B-PS
-4	노리	O	O	O, B-CV, B-QT, B-PS, B-LC
-5	##는	O	O	O, B-PS, B-QT, B-LC, B-CV
-6	일부	O	O	O, B-QT, B-LC, B-CV, B-PS
-7	상위	O	O	O, B-CV, B-TM, B-PS, B-QT
-8	##권	O	O	O, I-CV, I-LC, I-QT, I-PS
-9	학생	B-CV	B-CV	B-CV, O, I-CV, B-QT, B-TM
-10	##만	O	O	O, I-CV, I-QT, B-QT, B-PS
-11	치르	O	O	O, B-CV, B-QT, B-PS, I-QT
-12	##는	O	O	O, B-CV, B-QT, B-PS, B-TM
-13	수리	O	B-FD	B-FD, O, B-TR, I-FD, B-CV
-14	‘	O	O	O, B-QT, I-QT, I-FD, B-CV
-15	가	O	O	O, B-QT, I-QT, B-EV, B-FD
-16	’	O	O	O, I-QT, I-EV, B-QT, I-CV
-17	의	O	O	O, B-CV, B-PS, I-QT, I-EV
-18	경우	O	O	O, B-CV, B-OG, B-QT, B-TM
-19	1	B-QT	B-QT	B-QT, O, I-QT, B-EV, B-DT
-20	##등	I-QT	I-QT	I-QT, O, B-QT, I-EV, I-LC
-21	##급	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-EV
-22	비율	O	O	O, I-QT, B-TM, I-OG, B-CV
-23	##이	O	O	O, B-PS, B-OG, B-CV, B-QT
-24	1	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-PS
-25	.	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-EV
-26	0	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-27	%	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-28	포인트	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-EV
-29	상승	O	O	O, I-QT, B-CV, B-TM, B-OG
-30	##했	O	O	O, I-QT, B-CV, I-OG, I-CV
-31	##다	O	O	O, B-CV, B-QT, B-TM, I-QT
-32	.	O	O	O, B-CV, B-QT, B-LC, B-PS
-33	[SEP]	O	O	O, B-CV, B-QT, I-QT, B-FD
+	text	label	preds
+0	[CLS]	O	O
+1	유럽	B-OG	B-OG
+2	##연합	I-OG	I-OG
+3	(	O	O
+4	EU	B-OG	B-OG
+5	)	O	O
+6	집행	O	B-OG
+7	##위원회	O	I-OG
+8	##는	O	O
+9	5	B-DT	B-DT
+10	##일	I-DT	I-DT
+11	순회	O	O
+12	##의	O	O
+13	##장	O	O
+14	##국	O	O
+15	##인	O	O
+16	체코	B-LC	B-LC
+17	당국자	B-CV	B-CV
+18	##와	O	O
+19	집행	B-OG	B-OG
+20	##위	I-OG	I-OG
+21	고위	B-CV	B-CV
+22	##관계	I-CV	I-CV
+23	##자	I-CV	I-CV
+24	##로	O	O
+25	구성	O	O
+26	##된	O	O
+27	진상	O	O
+28	##조사	O	O
+29	##단	O	O
+30	##을	O	O
+31	우크라이나	B-LC	B-LC
+32	수도	B-LC	O
+33	키	B-LC	B-LC
+34	##예프	I-LC	I-LC
+35	##에	O	O
+36	파견	O	O
+37	##했	O	O
+38	##다	O	O
+39	.	O	O
+40	[SEP]	O	O

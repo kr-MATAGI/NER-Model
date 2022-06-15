@@ -1,30 +1,36 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-AF, I-OG, I-CV, B-CV
-1	인천항	B-LC	B-LC	B-LC, B-OG, O, B-AF, B-TM
-2	##에서	O	O	O, I-AF, I-LC, B-AF, I-OG
-3	난	B-LC	O	O, B-LC, B-AF, B-TM, B-OG
-4	##지도	I-LC	I-LC	I-LC, O, I-AF, I-OG, B-LC
-5	##행	O	O	O, I-LC, I-AF, I-OG, I-TM
-6	정기	O	B-AF	B-AF, O, I-AF, B-CV, B-LC
-7	##여	B-AF	I-AF	I-AF, B-AF, O, B-CV, I-CV
-8	##객	I-AF	I-AF	I-AF, O, I-CV, I-LC, B-AF
-9	##선	I-AF	I-AF	I-AF, O, I-CV, B-AF, I-LC
-10	##을	O	O	O, I-AF, I-CV, I-EV, I-OG
-11	타고	O	O	O, B-AF, I-AF, B-LC, B-CV
-12	남쪽	B-TM	B-TM	B-TM, B-LC, B-OG, O, B-AF
-13	##으로	O	O	O, I-TM, I-AF, I-QT, I-LC
-14	2	B-TI	B-TI	B-TI, O, B-QT, I-TI, B-EV
-15	##시간	I-TI	I-TI	I-TI, O, I-QT, B-TI, I-TR
-16	반	I-TI	I-TI	I-TI, O, I-TR, I-QT, I-LC
-17	정도	I-TI	I-TI	I-TI, O, I-TR, I-QT, B-TI
-18	내려가	O	O	O, I-TI, B-LC, I-QT, I-AF
-19	##면	O	O	O, B-LC, B-TM, B-OG, B-PS
-20	조그만	O	O	O, B-LC, B-TM, B-CV, B-QT
-21	섬	O	O	O, B-LC, I-LC, B-CV, B-AF
-22	풍	B-LC	B-LC	B-LC, B-AF, O, B-OG, B-PS
-23	##도	I-LC	I-LC	I-LC, O, I-AF, I-PS, I-OG
-24	##가	O	O	O, I-LC, I-AF, I-OG, I-PS
-25	있	O	O	O, B-LC, I-AF, B-CV, B-AF
-26	##다	O	O	O, B-CV, I-AF, B-LC, B-TM
-27	.	O	O	O, B-LC, B-AF, I-AF, B-OG
-28	[SEP]	O	O	O, B-LC, B-AF, I-AF, I-LC
+	text	label	preds
+0	[CLS]	O	O
+1	정근	B-PS	B-PS
+2	##우	I-PS	I-PS
+3	##가	O	O
+4	돌아왔	O	O
+5	##지만	O	O
+6	김강	B-PS	B-PS
+7	##민	I-PS	I-PS
+8	·	O	O
+9	최정	O	B-PS
+10	·	O	O
+11	박진	B-PS	B-PS
+12	##만	I-PS	I-PS
+13	·	O	O
+14	박재	B-PS	B-PS
+15	##상	I-PS	I-PS
+16	등	O	O
+17	주요	O	O
+18	타자	B-CV	B-CV
+19	##들이	O	O
+20	이런	O	O
+21	##저	O	O
+22	##런	O	O
+23	부상	O	O
+24	##으로	O	O
+25	경기	O	O
+26	##에	O	O
+27	나서	O	O
+28	##지	O	O
+29	못하	O	O
+30	##고	O	O
+31	있	O	O
+32	##다	O	O
+33	.	O	O
+34	[SEP]	O	O

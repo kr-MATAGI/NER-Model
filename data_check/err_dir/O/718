@@ -1,15 +1,18 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	‘	O	O	O, B-CV, B-LC, B-OG, B-PS
-2	일	O	B-AF	B-AF, O, B-TM, B-EV, B-AM
-3	##장	O	I-AF	I-AF, O, B-AF, I-EV, I-TM
-4	##기	O	I-AF	I-AF, O, I-EV, I-TM, B-AF
-5	말소	O	O	O, I-AF, I-EV, I-TM, B-CV
-6	’	O	O	O, I-AF, B-CV, I-EV, B-PS
-7	애국	O	O	O, B-CV, B-FD, B-EV, B-TR
-8	##정신	O	O	O, I-EV, I-CV, I-AF, I-TR
-9	현충원	B-LC	B-LC	B-LC, O, I-LC, B-AF, B-OG
-10	##에	O	O	O, I-AF, I-LC, I-EV, I-OG
-11	잠들	O	O	O, B-CV, B-LC, B-PS, B-AF
-12	##다	O	O	O, I-AF, B-PS, I-OG, I-EV
-13	[SEP]	O	O	O, B-CV, B-LC, B-AF, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	알몸	O	O
+2	사진	O	O
+3	##을	O	O
+4	찍	O	O
+5	##어	O	O
+6	##서	O	O
+7	협박	O	B-CV
+8	##한다	O	O
+9	##거나	O	O
+10	이런	O	O
+11	경우	O	O
+12	##도	O	O
+13	있	O	O
+14	##잖아요	O	O
+15	.	O	O
+16	[SEP]	O	O

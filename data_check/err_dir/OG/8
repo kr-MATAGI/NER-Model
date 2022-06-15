@@ -1,43 +1,56 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	일본	B-LC	B-LC	B-LC, B-OG, O, B-PS, B-AF
-2	##의	O	O	O, I-LC, I-OG, B-LC, I-AF
-3	대표	O	O	O, B-LC, B-CV, B-PS, B-OG
-4	##적인	O	O	O, B-PS, B-LC, B-TR, I-PS
-5	지	B-OG	O	O, B-OG, B-TR, B-FD, B-LC
-6	##한	I-OG	O	O, I-OG, I-TR, I-FD, I-LC
-7	##파	I-OG	O	O, I-OG, I-TR, I-FD, I-PS
-8	언론인	B-CV	B-CV	B-CV, O, I-CV, B-FD, I-OG
-9	##인	O	O	O, I-CV, B-PS, B-CV, I-OG
-10	와	B-PS	B-PS	B-PS, O, B-LC, I-PS, B-OG
-11	##카	I-PS	I-PS	I-PS, O, I-LC, I-OG, B-PS
-12	##미	I-PS	I-PS	I-PS, O, I-LC, I-OG, B-PS
-13	##야	I-PS	I-PS	I-PS, O, I-LC, I-OG, B-LC
-14	요시	I-PS	I-PS	I-PS, O, B-PS, I-LC, B-LC
-15	##부	I-PS	I-PS	I-PS, O, I-LC, I-OG, B-LC
-16	##미	I-PS	I-PS	I-PS, O, I-LC, I-OG, B-LC
-17	(	O	O	O, I-PS, I-OG, B-LC, B-CV
-18	[UNK]	O	O	O, B-LC, B-PS, B-CV, B-OG
-19	宮	O	O	O, B-PS, B-LC, B-CV, B-TM
-20	[UNK]	O	O	O, B-PS, B-LC, B-CV, B-OG
-21	文	O	O	O, B-PS, B-LC, B-CV, B-TM
-22	·	O	O	O, B-CV, B-PS, B-LC, B-OG
-23	65	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-TM
-24	)	O	O	O, I-QT, I-DT, I-OG, I-CV
-25	전	O	O	O, B-PS, B-CV, B-LC, B-OG
-26	아사히	B-OG	B-OG	B-OG, O, B-AF, B-LC, I-OG
-27	##신문	I-OG	I-OG	I-OG, O, I-AF, I-LC, I-CV
-28	주	B-CV	O	O, B-CV, I-CV, I-OG, B-QT
-29	##필	I-CV	O	O, I-CV, B-CV, I-QT, I-OG
-30	##이	O	O	O, I-CV, B-PS, I-PS, B-CV
-31	그	O	O	O, B-CV, B-PS, B-LC, B-TM
-32	##의	O	O	O, B-CV, B-PS, B-LC, B-TM
-33	경험	O	O	O, B-CV, B-TM, B-LC, B-FD
-34	##을	O	O	O, B-CV, B-PS, B-LC, B-OG
-35	담아	O	O	O, B-CV, B-LC, B-TM, B-OG
-36	책	O	O	O, B-CV, B-TM, B-LC, B-OG
-37	##을	O	O	O, B-CV, B-OG, B-LC, B-PS
-38	펴냈	O	O	O, B-CV, B-LC, B-OG, B-TM
-39	##다	O	O	O, B-CV, B-LC, B-TM, B-OG
-40	.	O	O	O, B-LC, B-PS, B-CV, B-OG
-41	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	당시	O	O
+2	탈북자	B-CV	B-CV
+3	##들이	O	O
+4	한국	O	O
+5	##행	O	O
+6	##을	O	O
+7	희망	O	O
+8	##하	O	O
+9	##며	O	O
+10	대거	O	O
+11	베이징	B-LC	B-LC
+12	등의	O	O
+13	한국	B-OG	B-AF
+14	##공	I-OG	I-AF
+15	##관	I-OG	I-AF
+16	##에	O	O
+17	진입	O	O
+18	##하면	O	O
+19	##서	O	O
+20	한	O	B-OG
+21	-	O	O
+22	중	O	B-OG
+23	외교	O	O
+24	마찰	O	O
+25	##이	O	O
+26	빚어졌	O	O
+27	##고	O	O
+28	,	O	O
+29	양국	O	O
+30	##은	O	O
+31	물	O	O
+32	##밑	O	O
+33	접촉	O	O
+34	##을	O	O
+35	통해	O	O
+36	이	O	O
+37	##들의	O	O
+38	제	B-QT	B-QT
+39	##3	I-QT	I-QT
+40	##국	I-QT	I-QT
+41	출국	O	O
+42	##과	O	O
+43	철저	O	O
+44	##한	O	O
+45	비	O	O
+46	##공	O	O
+47	##개	O	O
+48	처리	O	O
+49	##에	O	O
+50	합의	O	O
+51	##했	O	O
+52	##다	O	O
+53	.	O	O
+54	[SEP]	O	O

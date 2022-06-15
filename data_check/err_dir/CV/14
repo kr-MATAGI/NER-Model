@@ -1,89 +1,30 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	이용	B-PS	B-PS	B-PS, B-OG, O, B-LC, I-PS
-2	##호	I-PS	I-PS	I-PS, I-OG, O, I-LC, I-QT
-3	국민	B-OG	B-OG	B-OG, I-OG, I-PS, O, B-AF
-4	##의	I-OG	I-OG	I-OG, O, I-PS, I-LC, I-AF
-5	##당	I-OG	I-OG	I-OG, O, I-PS, I-LC, I-AF
-6	원내	O	B-CV	B-CV, O, I-CV, B-TM, B-AF
-7	##대	B-CV	I-CV	I-CV, O, B-CV, I-OG, I-AF
-8	##변	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-TM
-9	##인	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-TM
-10	##은	O	O	O, I-CV, B-CV, I-OG, I-QT
-11	“	O	O	O, B-CV, B-LC, B-TM, B-OG
-12	대기	O	O	O, B-CV, B-OG, B-TM, B-FD
-13	##업	O	O	O, I-CV, I-OG, B-CV, I-TM
-14	독과점	O	O	O, B-CV, B-TM, B-TR, I-CV
-15	##을	O	O	O, I-CV, B-PS, B-CV, I-TM
-16	막	O	O	O, B-CV, B-PS, B-LC, B-QT
-17	##는	O	O	O, B-PS, B-CV, B-LC, B-QT
-18	‘	O	O	O, B-CV, B-LC, B-OG, B-QT
-19	공정성	B-CV	B-CV	B-CV, O, B-AF, I-CV, B-OG
-20	##장	I-CV	I-CV	I-CV, O, B-CV, I-AF, I-OG
-21	##법	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-AF
-22	’	O	O	O, I-CV, I-OG, B-CV, I-AF
-23	,	O	O	O, B-LC, B-CV, B-PS, B-OG
-24	정치인	B-CV	B-CV	B-CV, O, I-CV, B-AF, B-TM
-25	##의	O	O	O, I-CV, B-CV, I-AF, B-PS
-26	공공	O	O	O, B-CV, B-TM, B-FD, B-OG
-27	##기	O	O	O, I-CV, I-OG, I-AF, I-TM
-28	##관	O	O	O, I-CV, I-OG, I-AF, I-QT
-29	취업	O	O	O, B-CV, B-TM, I-CV, B-LC
-30	##을	O	O	O, B-PS, B-CV, I-CV, B-TM
-31	제한	O	O	O, B-CV, B-TM, B-QT, B-PS
-32	##하	O	O	O, B-PS, B-CV, B-LC, B-QT
-33	##는	O	O	O, B-CV, B-QT, B-LC, B-PS
-34	‘	O	O	O, B-CV, B-LC, B-OG, B-TM
-35	낙하산	B-CV	B-CV	B-CV, O, B-AF, B-TM, B-PS
-36	금지법	I-CV	I-CV	I-CV, O, I-AF, B-CV, I-TM
-37	’	O	O	O, I-CV, I-AF, I-OG, B-CV
-38	,	O	O	O, B-CV, B-LC, B-PS, B-OG
-39	청년	O	O	O, B-CV, B-LC, B-TM, B-AF
-40	##용	O	O	O, I-LC, I-AF, I-CV, I-TM
-41	임대	O	O	O, B-LC, B-AF, B-CV, B-TM
-42	##주택	O	O	O, I-LC, I-AF, I-CV, I-TM
-43	##을	O	O	O, I-AF, I-CV, I-LC, B-CV
-44	지원	O	O	O, B-CV, B-TM, I-CV, B-LC
-45	##하	O	O	O, B-PS, B-CV, I-CV, B-LC
-46	##는	O	O	O, B-CV, B-QT, B-LC, B-PS
-47	‘	O	O	O, B-CV, B-LC, B-OG, B-TM
-48	컴백	B-CV	B-CV	B-CV, B-AF, O, B-OG, B-TM
-49	##홈	I-CV	I-CV	I-CV, I-AF, O, B-CV, I-TM
-50	##법	I-CV	I-CV	I-CV, O, I-AF, I-OG, I-TM
-51	’	O	O	O, I-CV, I-AF, I-OG, I-TM
-52	등	O	O	O, B-LC, B-PS, B-CV, B-OG
-53	기존	O	O	O, B-CV, B-PS, B-LC, B-AF
-54	##에	O	O	O, B-CV, B-PS, B-LC, B-QT
-55	밝힌	O	O	O, B-CV, B-PS, B-LC, B-TM
-56	법안	O	O	O, B-CV, B-LC, B-TM, B-PS
-57	##들	O	O	O, B-PS, B-CV, B-LC, I-CV
-58	##을	O	O	O, B-CV, B-LC, B-OG, B-PS
-59	비롯	O	O	O, B-LC, B-OG, B-CV, B-PS
-60	##해	O	O	O, B-LC, B-PS, B-QT, B-OG
-61	제	B-QT	B-QT	B-QT, O, I-QT, B-EV, B-DT
-62	##2	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-AF
-63	##의	O	O	O, I-QT, B-QT, B-PS, I-AF
-64	가습기	B-TM	B-EV	B-EV, B-AF, O, B-TM, B-LC
-65	살균제	O	I-EV	I-EV, O, B-EV, I-AF, I-DT
-66	사태	O	I-EV	I-EV, O, B-EV, I-AF, I-DT
-67	##를	O	O	O, I-EV, I-AF, B-PS, B-CV
-68	막	O	O	O, B-LC, B-QT, B-CV, B-PS
-69	##을	O	O	O, B-PS, B-LC, B-CV, B-QT
-70	‘	O	O	O, B-CV, B-LC, B-OG, B-QT
-71	제조	B-CV	B-CV	B-CV, O, B-AF, B-OG, B-TM
-72	##물	I-CV	I-CV	I-CV, O, B-CV, I-AF, I-OG
-73	##책	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-AF
-74	##임	I-CV	I-CV	I-CV, O, I-OG, B-CV, I-AF
-75	##법	I-CV	I-CV	I-CV, O, I-OG, I-AF, I-TM
-76	’	O	O	O, I-CV, I-OG, I-AF, I-QT
-77	등	O	O	O, B-LC, B-CV, B-PS, B-OG
-78	##이	O	O	O, B-PS, B-LC, B-CV, B-OG
-79	최우선	O	O	O, B-QT, B-TM, B-CV, B-LC
-80	입법	O	O	O, B-CV, B-TM, B-FD, I-QT
-81	과제	O	O	O, I-CV, B-CV, I-QT, I-TM
-82	”	O	O	O, B-CV, B-TM, I-CV, B-LC
-83	라고	O	O	O, B-CV, B-OG, B-QT, B-TM
-84	밝혔	O	O	O, B-CV, B-TM, B-QT, B-LC
-85	##다	O	O	O, B-CV, B-TM, B-LC, B-QT
-86	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-87	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	'	O	O
+2	환경	O	O
+3	'	O	O
+4	을	O	O
+5	'	O	O
+6	녹색	O	O
+7	##성장	O	O
+8	'	O	O
+9	뒤	O	O
+10	##로	O	O
+11	돌려	O	O
+12	'	O	O
+13	녹색	O	O
+14	##성장	O	O
+15	##환경	O	I-CV
+16	##비	B-CV	I-CV
+17	##서관	I-CV	I-CV
+18	'	O	O
+19	으로	O	O
+20	하	O	O
+21	##기	O	O
+22	##로	O	O
+23	합의	O	O
+24	본	O	O
+25	것	O	O
+26	##이다	O	O
+27	.	O	O
+28	[SEP]	O	O

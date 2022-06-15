@@ -1,7 +1,13 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, I-OG, B-CV, I-AF
-1	걔	O	O	O, B-CV, B-TM, B-OG, B-PS
-2	##가	O	O	O, B-PS, B-CV, I-AF, B-OG
-3	무	O	B-TR	B-TR, O, B-TM, B-AM, I-TR
-4	##호흡	O	I-TR	I-TR, O, I-TM, B-TR, I-QT
-5	[SEP]	O	O	O, I-TR, I-TM, I-QT, B-CV
+	text	label	preds
+0	[CLS]	O	O
+1	무슨	O	O
+2	명절	O	B-DT
+3	##이나	O	O
+4	이	O	O
+5	##릏	O	O
+6	##게	O	O
+7	다	O	O
+8	같이	O	O
+9	모이	O	O
+10	##면	O	O
+11	[SEP]	O	O

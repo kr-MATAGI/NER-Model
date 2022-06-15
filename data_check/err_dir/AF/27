@@ -1,17 +1,15 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-AF, I-EV, B-CV
-1	도끼	B-AF	O	O, B-AF, B-AM, B-CV, B-DT
-2	##날	I-AF	O	O, I-AF, I-DT, I-CV, I-AM
-3	##을	O	O	O, I-AF, B-PS, B-CV, I-DT
-4	100	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-LC
-5	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-6	동안	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-7	갈아	O	O	O, I-DT, B-LC, B-CV, B-PS
-8	마침내	O	O	O, B-TM, B-QT, B-LC, B-AF
-9	바늘	O	O	O, B-AF, B-AM, B-TM, B-PT
-10	##을	O	O	O, I-AF, I-EV, B-CV, I-OG
-11	만들	O	O	O, B-CV, I-AF, B-LC, B-OG
-12	##었	O	O	O, B-CV, I-AF, B-LC, B-PS
-13	##다	O	O	O, B-CV, B-LC, I-AF, B-PS
-14	.	O	O	O, B-LC, B-PS, B-AF, B-OG
-15	[SEP]	O	O	O, B-LC, B-CV, I-AF, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	‘	O	O
+2	서울시	B-LC	B-LC
+3	도시	B-AF	B-OG
+4	##재	I-AF	I-OG
+5	##생	I-AF	I-OG
+6	##지	I-AF	I-OG
+7	##원	I-AF	I-OG
+8	##센터	I-AF	I-OG
+9	’	O	O
+10	문	O	O
+11	열	O	O
+12	##어	O	O
+13	[SEP]	O	O

@@ -1,18 +1,62 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-QT
-1	맥주	B-CV	B-CV	B-CV, O, B-AF, B-OG, I-CV
-2	##와	O	O	O, I-CV, B-TM, B-CV, I-AF
-3	공기	B-MT	O	O, B-MT, B-TM, I-MT, B-AM
-4	접촉	O	O	O, B-TM, I-TM, B-LC, I-MT
-5	##을	O	O	O, B-TM, B-PS, B-LC, B-CV
-6	차단	O	O	O, B-TM, B-LC, B-CV, B-PS
-7	##해	O	O	O, B-LC, B-PS, B-TM, I-QT
-8	맥주	B-CV	B-CV	B-CV, O, B-AF, B-PT, B-OG
-9	##의	O	O	O, I-CV, I-AF, I-EV, B-CV
-10	산화	O	O	O, B-TM, B-LC, B-CV, B-MT
-11	##를	O	O	O, B-LC, B-CV, B-OG, B-PS
-12	더디	O	O	O, B-LC, B-TM, B-OG, B-PS
-13	##게	O	O	O, B-LC, I-OG, B-PS, B-OG
-14	한다	O	O	O, B-LC, B-CV, B-TM, I-QT
-15	.	O	O	O, B-LC, B-OG, B-PS, B-MT
-16	[SEP]	O	O	O, B-LC, B-CV, I-OG, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	한	O	O
+2	현지	O	O
+3	주민	B-CV	B-CV
+4	##은	O	O
+5	""""	O	O
+6	주사기	B-EV	B-EV
+7	테러	I-EV	I-EV
+8	피해자	B-CV	B-CV
+9	##들이	O	O
+10	병원	O	O
+11	##으로	O	O
+12	몰려들	O	O
+13	##고	O	O
+14	있	O	O
+15	##고	O	O
+16	,	O	O
+17	한	O	O
+18	어린이	O	O
+19	##가	O	O
+20	주	O	O
+21	##삿	O	O
+22	##바	O	O
+23	##늘	O	O
+24	##의	O	O
+25	독	B-MT	O
+26	##극	I-MT	O
+27	##물	I-MT	O
+28	##에	O	O
+29	의해	O	O
+30	사망	O	O
+31	##했	O	O
+32	##다는	O	O
+33	미확	O	O
+34	##인	O	O
+35	소문	O	O
+36	##이	O	O
+37	나	O	O
+38	##도	O	O
+39	##는	O	O
+40	등	O	O
+41	시	O	O
+42	전체	O	O
+43	##가	O	O
+44	공황	O	O
+45	(	O	O
+46	恐	O	O
+47	[UNK]	O	O
+48	)	O	O
+49	상태	O	O
+50	##에	O	O
+51	빠져	O	O
+52	있	O	O
+53	##다	O	O
+54	""""	O	O
+55	고	O	O
+56	말	O	O
+57	##했	O	O
+58	##다	O	O
+59	.	O	O
+60	[SEP]	O	O

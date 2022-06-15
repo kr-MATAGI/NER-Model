@@ -1,31 +1,52 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	5	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-2	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-3	뒤	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
-4	##에	O	O	O, I-DT, B-CV, I-AF, I-EV
-5	##는	O	O	O, B-CV, B-OG, B-LC, B-TM
-6	이	O	O	O, B-PS, B-OG, B-CV, B-TM
-7	숫자	O	O	O, B-CV, B-TM, B-OG, B-QT
-8	##가	O	O	O, B-PS, B-OG, B-CV, B-LC
-9	4	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-PS
-10	##억	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-11	##50	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-12	##00	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-13	##만	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-14	##명	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-15	##까	O	O	O, I-QT, B-CV, B-TM, B-OG
-16	##지	O	O	O, B-QT, B-OG, I-QT, B-PS
-17	늘어날	O	O	O, B-QT, B-CV, B-TM, B-PS
-18	것	O	O	O, B-PS, B-CV, B-QT, I-QT
-19	##이	O	O	O, B-PS, B-CV, B-OG, B-LC
-20	##라는	O	O	O, B-PS, B-OG, I-OG, B-CV
-21	게	O	O	O, B-PS, B-OG, B-LC, B-CV
-22	민	B-OG	O	O, B-OG, B-CV, B-LC, B-AF
-23	##항	I-OG	O	O, I-OG, I-CV, B-OG, I-LC
-24	##국	I-OG	O	O, I-OG, I-CV, I-AF, I-LC
-25	##의	O	O	O, I-OG, B-PS, B-CV, I-CV
-26	예상	O	O	O, B-CV, B-QT, B-OG, B-FD
-27	##이다	O	O	O, B-CV, I-CV, I-OG, I-QT
-28	.	O	O	O, B-OG, B-PS, B-LC, B-CV
-29	[SEP]	O	O	O, B-CV, B-OG, B-LC, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	스리랑카	B-LC	B-LC
+2	난민	B-CV	B-CV
+3	집	O	O
+4	##짓기	O	O
+5	10	B-TM	B-QT
+6	##만	I-TM	I-QT
+7	##달	I-TM	I-QT
+8	##러	I-TM	I-QT
+9	프로젝트	I-TM	O
+10	##에	O	O
+11	나선	O	O
+12	김희	B-PS	B-PS
+13	##중	I-PS	I-PS
+14	(	O	O
+15	65	B-QT	B-QT
+16	·	O	O
+17	사진	O	O
+18	)	O	O
+19	천주교	B-OG	B-OG
+20	광주	B-OG	B-OG
+21	##대교	I-OG	I-OG
+22	##구	I-OG	I-OG
+23	대주교	B-CV	B-CV
+24	##는	O	O
+25	11	B-DT	B-DT
+26	##일	I-DT	I-DT
+27	“	O	O
+28	이제	O	O
+29	##는	O	O
+30	광주	B-OG	B-LC
+31	##가	O	O
+32	어려움	O	O
+33	##에	O	O
+34	처한	O	O
+35	지구촌	O	B-LC
+36	이웃	B-CV	B-CV
+37	##들	O	O
+38	##을	O	O
+39	위해	O	O
+40	손	B-AM	B-AM
+41	##을	O	O
+42	내밀	O	O
+43	때	O	O
+44	”	O	O
+45	라고	O	O
+46	말	O	O
+47	##했	O	O
+48	##다	O	O
+49	.	O	O
+50	[SEP]	O	O

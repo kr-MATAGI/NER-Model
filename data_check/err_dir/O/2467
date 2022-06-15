@@ -1,39 +1,10 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	2	B-QT	B-QT	B-QT, O, B-TM, I-QT, B-EV
-2	##코스	I-QT	I-QT	I-QT, O, I-TM, I-EV, I-LC
-3	‘	O	O	O, I-QT, B-CV, B-OG, B-LC
-4	호국	B-AF	B-AF	B-AF, B-LC, O, I-AF, B-PS
-5	##돈	I-AF	I-AF	I-AF, I-LC, B-AF, O, I-PS
-6	##대	I-AF	I-AF	I-AF, I-LC, O, I-PS, I-TM
-7	##길	I-AF	I-AF	I-AF, I-LC, O, I-PS, I-TM
-8	’	O	O	O, I-AF, I-EV, I-OG, I-LC
-9	은	O	O	O, B-CV, B-OG, B-LC, I-AF
-10	한강	B-LC	B-LC	B-LC, O, B-OG, B-AF, B-TM
-11	##과	O	O	O, I-LC, I-AF, I-OG, B-LC
-12	서해	B-LC	B-LC	B-LC, B-OG, O, B-AF, B-TM
-13	##가	O	O	O, I-LC, I-AF, B-LC, I-OG
-14	만나	O	O	O, B-TM, B-LC, B-AF, B-OG
-15	##는	O	O	O, B-LC, B-TM, B-AF, B-PS
-16	염	O	B-AF	B-AF, B-LC, O, B-PS, B-TM
-17	##하	O	I-AF	I-AF, I-LC, O, B-AF, B-LC
-18	해안	O	I-AF	I-AF, O, I-LC, B-AF, B-LC
-19	##도로	O	I-AF	I-AF, O, I-LC, B-AF, I-TM
-20	##를	O	O	O, I-AF, I-LC, I-OG, I-TM
-21	따라	O	O	O, B-LC, B-TM, B-OG, I-AF
-22	가	O	O	O, B-TM, B-QT, B-AF, B-LC
-23	##는	O	O	O, B-CV, B-TM, B-QT, I-AF
-24	17	B-QT	B-QT	B-QT, O, I-QT, B-TM, B-EV
-25	##k	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-TM
-26	##m	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-27	길이	O	O	O, I-QT, B-TM, I-AF, B-LC
-28	(	O	O	O, B-CV, B-LC, B-OG, B-TM
-29	5	B-TI	B-TI	B-TI, O, B-EV, B-QT, B-TR
-30	##시간	I-TI	I-TI	I-TI, I-QT, B-TI, I-TR, O
-31	50	I-TI	I-TI	I-TI, O, I-QT, I-TR, B-TI
-32	##분	I-TI	I-TI	I-TI, O, I-QT, I-TR, B-TI
-33	소요	O	O	O, I-TI, I-QT, B-TM, B-LC
-34	)	O	O	O, B-LC, B-OG, B-CV, B-TM
-35	다	O	O	O, B-CV, B-OG, B-LC, B-TM
-36	.	O	O	O, B-LC, B-AF, B-TM, B-CV
-37	[SEP]	O	O	O, B-LC, B-AF, B-CV, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	아침	B-TI	B-TI
+2	타임	O	O
+3	##이	O	O
+4	되게	O	O
+5	피	O	B-TM
+6	터졌	O	O
+7	##어요	O	O
+8	[SEP]	O	O

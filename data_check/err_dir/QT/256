@@ -1,15 +1,43 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-AF
-1	1	B-QT	O	O, B-QT, B-TI, B-DT, B-PS
-2	,	I-QT	O	O, I-QT, I-TI, I-DT, B-QT
-3	96	I-QT	O	O, I-QT, B-QT, B-PS, I-TI
-4	##4	I-QT	O	O, I-QT, B-QT, I-TI, B-PS
-5	[UNK]	O	O	O, I-QT, B-QT, B-PS, B-LC
-6	식후	O	O	O, B-TI, B-QT, B-PS, B-TM
-7	##경	O	O	O, I-TI, I-QT, I-PS, I-LC
-8	##이	O	O	O, B-PS, I-QT, I-PS, I-AF
-9	##라고	O	O	O, I-QT, I-AF, I-OG, B-CV
-10	했	O	O	O, B-CV, B-OG, B-TM, B-LC
-11	##다	O	O	O, B-CV, I-OG, I-CV, I-AF
-12	.	O	O	O, B-CV, B-PS, B-LC, B-QT
-13	[SEP]	O	O	O, B-CV, B-QT, I-QT, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	지난해	B-DT	B-DT
+2	세계	O	O
+3	##랭	O	O
+4	##킹	O	O
+5	1	B-QT	B-QT
+6	##위	I-QT	I-QT
+7	제이슨	B-PS	B-PS
+8	데이	I-PS	I-PS
+9	(	O	O
+10	호주	B-LC	B-LC
+11	)	O	O
+12	는	O	O
+13	버디	B-TM	B-TM
+14	8	B-QT	B-QT
+15	##개	I-QT	I-QT
+16	##와	O	O
+17	보	B-TM	B-TM
+18	##기	I-TM	I-TM
+19	2	B-QT	B-QT
+20	##개	I-QT	I-QT
+21	,	O	O
+22	더블	B-TM	B-QT
+23	##보기	I-TM	I-QT
+24	1	B-QT	I-QT
+25	##개	I-QT	I-QT
+26	##로	O	O
+27	4	B-QT	B-QT
+28	##언	I-QT	I-QT
+29	##더	I-QT	I-QT
+30	##파	I-QT	I-QT
+31	68	B-QT	B-QT
+32	##타	I-QT	I-QT
+33	공동	O	O
+34	12	B-QT	B-QT
+35	##위	I-QT	I-QT
+36	##를	O	O
+37	기록	O	O
+38	##했	O	O
+39	##다	O	O
+40	.	O	O
+41	[SEP]	O	O

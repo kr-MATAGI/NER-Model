@@ -1,24 +1,51 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, B-CV, I-OG, I-EV
-1	“	O	O	O, B-CV, B-LC, B-OG, B-TM
-2	6	B-EV	B-EV	B-EV, B-AF, O, B-QT, B-LC
-3	·	I-EV	I-EV	I-EV, I-QT, I-AF, O, I-LC
-4	25	I-EV	I-EV	I-EV, I-QT, I-AF, O, I-LC
-5	##전쟁	I-EV	I-EV	I-EV, O, I-AF, I-QT, I-LC
-6	##의	O	O	O, I-EV, I-AF, I-QT, I-OG
-7	참상	O	O	O, B-CV, B-LC, B-TM, B-OG
-8	생생	O	O	O, B-CV, B-LC, B-OG, B-TM
-9	##히	O	O	O, B-LC, B-OG, B-PS, B-CV
-10	그려	O	O	O, B-LC, B-CV, B-OG, B-PS
-11	韓	B-LC	B-LC	B-LC, B-OG, O, B-CV, I-LC
-12	-	O	I-LC	I-LC, O, B-LC, I-OG, B-OG
-13	美	B-LC	I-LC	I-LC, B-LC, O, I-OG, B-OG
-14	에	O	O	O, I-LC, I-OG, B-LC, I-EV
-15	잊혀진	O	O	O, B-LC, B-CV, B-OG, B-TM
-16	전쟁	O	O	O, B-EV, B-LC, B-CV, B-FD
-17	환기	O	O	O, B-CV, I-EV, B-LC, B-TM
-18	##시	O	O	O, B-LC, B-PS, B-CV, B-OG
-19	##킬	O	O	O, B-LC, B-PS, B-CV, B-OG
-20	것	O	O	O, B-CV, B-LC, B-PS, B-OG
-21	”	O	O	O, B-CV, B-PS, I-CV, B-LC
-22	[SEP]	O	O	O, B-LC, B-CV, B-FD, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	이	O	O
+2	외	O	O
+3	##에도	O	O
+4	길	O	O
+5	##을	O	O
+6	지나가	O	O
+7	##는	O	O
+8	여학생	O	O
+9	##들의	O	O
+10	머리	B-AM	B-AM
+11	##를	O	O
+12	때린	O	O
+13	뒤	O	O
+14	도망가	O	O
+15	##거나	O	O
+16	,	O	O
+17	지하철	B-AF	B-AF
+18	##과	O	O
+19	길거리	O	O
+20	##에	O	O
+21	##서	O	O
+22	고성	B-LC	O
+23	##을	O	O
+24	지르	O	O
+25	##는	O	O
+26	등	O	O
+27	동영상	O	O
+28	속	O	O
+29	비	B-CV	B-CV
+30	##제이	I-CV	I-CV
+31	##의	O	O
+32	행동	O	O
+33	##들	O	O
+34	##을	O	O
+35	모방	O	O
+36	##하	O	O
+37	##는	O	O
+38	영상	O	O
+39	##이	O	O
+40	끊이	O	O
+41	##지	O	O
+42	않	O	O
+43	##고	O	O
+44	올라오	O	O
+45	##고	O	O
+46	있	O	O
+47	##다	O	O
+48	.	O	O
+49	[SEP]	O	O

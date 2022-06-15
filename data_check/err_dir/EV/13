@@ -1,36 +1,45 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-EV, I-OG, B-CV, I-CV
-1	한국	B-LC	B-LC	B-LC, B-OG, O, B-PS, B-CV
-2	학생	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-AF
-3	##들	O	O	O, I-CV, I-OG, I-EV, B-CV
-4	##은	O	O	O, B-CV, B-LC, B-TM, B-OG
-5	최근	O	O	O, B-LC, B-DT, B-EV, B-CV
-6	일어난	O	O	O, B-LC, B-OG, B-CV, B-EV
-7	경주	B-EV	B-LC	B-LC, B-EV, O, B-AF, B-PS
-8	지진	I-EV	O	O, I-EV, B-EV, I-LC, I-AF
-9	등	O	O	O, I-EV, B-LC, I-AF, I-OG
-10	##의	O	O	O, B-LC, B-PS, B-OG, B-CV
-11	영향	O	O	O, B-LC, B-CV, B-TM, B-OG
-12	##으로	O	O	O, B-LC, B-CV, B-TM, B-OG
-13	지진	O	O	O, I-EV, B-EV, B-CV, B-LC
-14	##과	O	O	O, B-LC, B-PS, I-EV, B-CV
-15	태풍	O	O	O, B-LC, I-EV, B-CV, B-TM
-16	등	O	O	O, B-LC, B-PS, I-EV, B-CV
-17	자연재해	O	O	O, B-LC, B-CV, I-EV, B-FD
-18	##의	O	O	O, B-LC, B-PS, B-CV, I-AF
-19	원리	O	O	O, B-CV, B-LC, B-TM, B-FD
-20	##를	O	O	O, B-CV, B-LC, B-PS, B-TM
-21	공부	O	O	O, B-CV, B-LC, B-TM, B-EV
-22	##하고	O	O	O, B-CV, B-LC, B-PS, B-TM
-23	체험	O	O	O, B-LC, B-CV, I-EV, B-TM
-24	##하	O	O	O, B-LC, B-PS, B-CV, I-EV
-25	##는	O	O	O, B-LC, B-CV, B-PS, B-OG
-26	시설	O	O	O, B-CV, B-LC, I-EV, B-FD
-27	##에	O	O	O, B-CV, B-LC, B-OG, B-PS
-28	큰	O	O	O, B-CV, B-LC, B-OG, B-TM
-29	관심	O	O	O, B-CV, B-LC, B-TM, B-OG
-30	##을	O	O	O, B-CV, I-AF, I-OG, B-OG
-31	보였	O	O	O, B-CV, B-LC, B-TM, B-OG
-32	##다	O	O	O, B-CV, B-LC, I-EV, I-CV
-33	.	O	O	O, B-LC, B-CV, I-EV, B-PS
-34	[SEP]	O	O	O, B-LC, B-CV, I-EV, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	1998	B-DT	B-DT
+2	##년	I-DT	I-DT
+3	프랑스	B-EV	B-EV
+4	월드컵	I-EV	I-EV
+5	당시	O	O
+6	태극	O	O
+7	##마크	O	O
+8	##를	O	O
+9	달	O	O
+10	##았	O	O
+11	##던	O	O
+12	하	B-PS	B-PS
+13	감독	B-CV	B-CV
+14	##은	O	O
+15	멕시코	B-OG	B-OG
+16	##와	O	O
+17	##의	O	O
+18	조별	B-EV	B-EV
+19	예선	I-EV	B-EV
+20	첫	B-QT	B-QT
+21	경기	I-QT	I-QT
+22	##에	O	O
+23	##서	O	O
+24	전반	B-TI	B-TI
+25	28	I-TI	I-TI
+26	##분	I-TI	I-TI
+27	환상	O	O
+28	##적	O	O
+29	##인	O	O
+30	프리킥	B-TM	B-TM
+31	##으로	O	O
+32	한국	B-OG	B-OG
+33	##의	O	O
+34	월드컵	B-EV	B-EV
+35	사상	O	O
+36	첫	O	O
+37	선제골	B-TM	B-TM
+38	##을	O	O
+39	기록	O	O
+40	##했	O	O
+41	##다	O	O
+42	.	O	O
+43	[SEP]	O	O

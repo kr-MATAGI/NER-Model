@@ -1,14 +1,20 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	그	O	O	O, B-CV, B-OG, B-PS, B-LC
-2	##는	O	O	O, B-CV, B-PS, I-EV, I-OG
-3	올해	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-4	또	O	O	O, I-DT, I-QT, B-CV, I-EV
-5	한번	O	B-QT	B-QT, O, I-QT, B-PS, B-EV
-6	##의	O	O	O, I-QT, B-PS, I-EV, I-DT
-7	변신	O	O	O, B-CV, B-PS, B-TM, B-LC
-8	##을	O	O	O, B-CV, I-OG, B-PS, I-EV
-9	꾀	O	O	O, B-CV, B-OG, B-PS, B-LC
-10	##한다	O	O	O, B-CV, I-OG, B-PS, B-OG
-11	.	O	O	O, B-CV, B-PS, B-LC, B-OG
-12	[SEP]	O	O	O, B-CV, B-PS, B-LC, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	•	O	O
+2	NYT	B-OG	B-OG
+3	여성	O	B-CV
+4	##편	O	I-CV
+5	##집	O	I-CV
+6	##인	O	I-CV
+7	애	B-PS	B-PS
+8	##브	I-PS	I-PS
+9	##람	I-PS	I-PS
+10	##슨	I-PS	I-PS
+11	,	O	O
+12	애완견	O	O
+13	양육	O	O
+14	##기	O	O
+15	##서	O	O
+16	삶	O	O
+17	다뤄	O	O
+18	[SEP]	O	O

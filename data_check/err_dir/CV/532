@@ -1,39 +1,28 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, B-PS, I-CV, I-EV
-1	이씨	O	O	O, B-CV, B-PS, B-QT, I-CV
-2	##는	O	O	O, B-PS, B-CV, I-CV, I-PS
-3	모교	O	O	O, B-CV, B-PS, I-CV, B-OG
-4	##인	O	O	O, B-PS, I-CV, B-CV, I-PS
-5	충북	B-OG	B-OG	B-OG, O, B-LC, B-PS, B-AF
-6	##인	I-OG	I-OG	I-OG, O, I-AF, I-LC, I-PS
-7	##터	I-OG	I-OG	I-OG, O, I-AF, I-LC, I-PS
-8	##넷	I-OG	I-OG	I-OG, O, I-AF, I-LC, I-PS
-9	##고	I-OG	I-OG	I-OG, O, I-AF, I-LC, I-PS
-10	##에서	O	O	O, B-CV, B-PS, I-OG, I-CV
-11	상담	O	O	O, B-CV, I-CV, B-PS, B-FD
-12	##전	O	O	O, B-CV, I-CV, B-PS, B-QT
-13	##문	O	O	O, I-CV, B-CV, B-PS, I-QT
-14	인턴	B-CV	O	O, B-CV, I-CV, B-PS, B-QT
-15	##교사	I-CV	O	O, I-CV, B-CV, I-QT, B-QT
-16	##로	O	O	O, I-CV, B-PS, B-CV, B-QT
-17	활동	O	O	O, B-CV, B-PS, I-CV, B-QT
-18	##하고	O	O	O, B-PS, B-CV, I-CV, I-PS
-19	있	O	O	O, B-PS, B-CV, I-CV, B-QT
-20	##으며	O	O	O, B-PS, B-CV, I-CV, I-PS
-21	충북	B-OG	B-OG	B-OG, O, B-PS, B-LC, B-CV
-22	##대	I-OG	I-OG	I-OG, O, I-PS, I-LC, I-CV
-23	대학원	O	O	O, B-CV, I-OG, B-PS, B-FD
-24	유아	O	O	O, B-CV, B-FD, B-PS, B-QT
-25	##교육	O	O	O, I-CV, I-FD, B-FD, I-QT
-26	##과	O	O	O, I-CV, B-PS, B-CV, I-QT
-27	##에	O	O	O, B-PS, B-CV, B-QT, I-CV
-28	진학	O	O	O, B-CV, B-PS, B-QT, I-CV
-29	##해	O	O	O, B-PS, B-CV, I-PS, I-CV
-30	학업	O	O	O, B-CV, B-PS, I-CV, B-FD
-31	##을	O	O	O, B-PS, B-CV, I-CV, I-PS
-32	계속	O	O	O, B-CV, B-PS, I-CV, B-QT
-33	##할	O	O	O, B-PS, B-CV, I-PS, I-CV
-34	예정	O	O	O, B-CV, B-PS, B-QT, I-CV
-35	##이다	O	O	O, B-PS, B-CV, I-CV, B-QT
-36	.	O	O	O, B-PS, B-CV, I-CV, I-PS
-37	[SEP]	O	O	O, B-PS, B-CV, I-CV, B-FD
+	text	label	preds
+0	[CLS]	O	O
+1	""""	O	O
+2	교황	B-CV	B-CV
+3	또	O	O
+4	'	O	O
+5	사제	B-CV	O
+6	性	O	O
+7	추문	O	O
+8	'	O	O
+9	은폐	O	O
+10	의혹	O	O
+11	""""	O	O
+12	;	O	O
+13	당시	O	O
+14	美	B-LC	B-LC
+15	신부	B-CV	B-CV
+16	##의	O	O
+17	아동	O	O
+18	성추행	O	B-CV
+19	추기경	O	B-CV
+20	##때	O	O
+21	아무	O	O
+22	조치	O	O
+23	안	O	O
+24	##취	O	O
+25	##해	O	O
+26	[SEP]	O	O

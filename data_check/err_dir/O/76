@@ -1,31 +1,56 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	하지만	O	O	O, B-OG, B-CV, B-PS, B-TM
-2	안	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-3	후보자	B-CV	B-CV	B-CV, O, I-PS, I-CV, B-AF
-4	##는	O	O	O, I-CV, B-CV, I-EV, I-AF
-5	뒤이	O	O	O, B-OG, B-CV, B-TM, B-LC
-6	##어	O	O	O, B-OG, B-LC, B-PS, B-CV
-7	""""	O	O	O, B-LC, B-CV, B-PS, B-OG
-8	(	O	O	O, B-LC, B-OG, B-PS, B-CV
-9	청와대	B-OG	B-OG	B-OG, B-AF, O, B-LC, B-PS
-10	##로	O	O	O, I-OG, I-AF, I-EV, I-DT
-11	##부터	O	O	O, B-LC, B-PS, B-DT, B-OG
-12	)	O	O	O, B-LC, B-PS, B-OG, B-DT
-13	며칠	O	O	O, B-DT, B-LC, B-PS, I-DT
-14	전	O	O	O, I-DT, B-PS, B-DT, I-PS
-15	,	O	O	O, B-LC, I-DT, B-PS, B-CV
-16	일주일	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-17	정도	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-TI
-18	전	O	I-DT	I-DT, O, B-DT, I-QT, I-TI
-19	##에	O	O	O, I-DT, B-CV, I-QT, I-OG
-20	질의	O	O	O, B-CV, B-LC, B-TM, B-PS
-21	##가	O	O	O, B-PS, B-OG, B-LC, B-CV
-22	왔	O	O	O, B-CV, B-OG, B-PS, B-LC
-23	##다	O	O	O, B-CV, I-OG, I-AF, I-EV
-24	""""	O	O	O, B-CV, B-TM, B-LC, B-OG
-25	고	O	O	O, B-CV, B-OG, B-LC, B-TM
-26	했	O	O	O, B-CV, B-OG, B-TM, B-LC
-27	##다	O	O	O, B-CV, I-OG, B-TM, B-LC
-28	.	O	O	O, B-CV, B-LC, B-OG, B-PS
-29	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	2007	B-DT	B-DT
+2	##년	I-DT	I-DT
+3	##엔	O	O
+4	삼성	B-EV	B-OG
+5	비자	I-EV	I-EV
+6	##금	I-EV	I-EV
+7	사건	I-EV	I-EV
+8	특별	B-CV	B-CV
+9	##수사	I-CV	I-CV
+10	·	I-CV	I-CV
+11	감찰	I-CV	I-CV
+12	##본부	I-CV	I-CV
+13	##장	I-CV	I-CV
+14	##을	O	O
+15	맡	O	O
+16	##았	O	O
+17	##고	O	O
+18	,	O	O
+19	2008	B-DT	B-DT
+20	##년	I-DT	I-DT
+21	촛불	O	B-EV
+22	시위	O	I-EV
+23	##가	O	O
+24	격화	O	O
+25	##됐	O	O
+26	##을	O	O
+27	당시	O	O
+28	대검	B-OG	B-OG
+29	공안	B-CV	B-CV
+30	##부	I-CV	I-CV
+31	##장	I-CV	I-CV
+32	##을	O	O
+33	맡	O	O
+34	##아	O	O
+35	20	B-QT	B-QT
+36	##차례	I-QT	I-QT
+37	이상	I-QT	I-QT
+38	혼자	O	O
+39	현장	O	O
+40	##에	O	O
+41	나가	O	O
+42	상황	O	O
+43	##을	O	O
+44	파악	O	O
+45	##하	O	O
+46	##는	O	O
+47	등	O	O
+48	사건	O	O
+49	##을	O	O
+50	지휘	O	O
+51	##했	O	O
+52	##다	O	O
+53	.	O	O
+54	[SEP]	O	O

@@ -1,45 +1,129 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	산	B-OG	B-OG	B-OG, O, B-PS, B-AF, B-LC
-2	##리오	I-OG	I-OG	I-OG, O, I-PS, I-AF, I-LC
-3	##는	O	O	O, I-OG, I-AF, B-CV, I-QT
-4	""""	O	O	O, B-CV, B-TM, B-LC, B-OG
-5	캐	B-PS	B-AF	B-AF, B-PS, O, B-OG, B-CV
-6	##쉬	I-PS	I-AF	I-AF, I-PS, O, I-OG, I-TM
-7	##는	O	O	O, I-AF, I-OG, I-TM, I-PS
-8	30	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-PS
-9	##명	I-QT	I-QT	I-QT, O, I-PS, I-LC, B-QT
-10	넘	O	O	O, I-QT, I-OG, B-CV, I-AF
-11	##는	O	O	O, B-PS, B-LC, B-TM, B-OG
-12	헬로	B-AF	B-PS	B-PS, B-AF, O, B-AM, B-TM
-13	##키	I-AF	I-PS	I-PS, I-AF, O, I-TM, I-AM
-14	##티	I-AF	I-PS	I-PS, I-AF, O, I-TM, I-AM
-15	##의	O	O	O, I-AF, I-PS, I-OG, I-TM
-16	친구	B-CV	B-CV	B-CV, O, B-AF, B-AM, B-PS
-17	중	O	O	O, I-CV, B-TM, B-QT, B-PS
-18	하나	O	B-QT	B-QT, O, I-QT, B-PS, B-LC
-19	##일	O	O	O, I-QT, B-PS, I-PS, I-OG
-20	뿐	O	O	O, B-PS, B-LC, I-QT, B-TM
-21	##이	O	O	O, B-PS, B-CV, B-OG, B-LC
-22	##고	O	O	O, B-PS, I-OG, I-AF, B-CV
-23	,	O	O	O, B-CV, B-OG, B-LC, B-TM
-24	지금	O	O	O, B-CV, B-TM, B-OG, B-LC
-25	##까	O	O	O, B-PS, B-CV, B-AF, B-OG
-26	##지	O	O	O, B-PS, B-LC, I-AF, B-CV
-27	판매	O	O	O, B-CV, B-TM, B-AF, I-AF
-28	##한	O	O	O, B-AF, B-PS, B-LC, B-TM
-29	캐	B-PS	B-AF	B-AF, O, B-PS, B-AM, B-CV
-30	##쉬	I-PS	I-AF	I-AF, O, I-PS, I-AM, I-TM
-31	상품	O	O	O, I-AF, I-OG, I-TM, I-CV
-32	수도	O	O	O, B-TM, B-OG, B-QT, B-CV
-33	많	O	O	O, B-TM, B-CV, B-OG, B-QT
-34	##지	O	O	O, I-OG, I-QT, B-QT, B-TM
-35	않	O	O	O, B-CV, I-QT, I-OG, B-OG
-36	##다	O	O	O, B-CV, I-OG, I-QT, B-OG
-37	""""	O	O	O, B-CV, B-TM, I-OG, B-OG
-38	고	O	O	O, B-CV, B-TM, B-QT, B-OG
-39	말	O	O	O, B-CV, B-TM, B-OG, B-QT
-40	##했	O	O	O, B-CV, I-OG, B-OG, B-PS
-41	##다	O	O	O, B-CV, B-TM, I-OG, B-OG
-42	.	O	O	O, B-CV, B-PS, B-OG, B-TM
-43	[SEP]	O	O	O, B-CV, B-TM, I-OG, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	'	O	O
+2	국군	B-AF	B-OG
+3	##은	I-AF	I-AF
+4	죽	I-AF	I-AF
+5	##어	I-AF	I-AF
+6	##서	I-AF	I-AF
+7	말	I-AF	I-AF
+8	##한다	I-AF	I-AF
+9	'	O	O
+10	'	O	O
+11	조선	B-AF	B-AF
+12	##의	I-AF	I-AF
+13	딸	I-AF	I-AF
+14	'	O	O
+15	등	O	O
+16	##을	O	O
+17	남긴	O	O
+18	영	B-PS	B-PS
+19	##운	I-PS	I-PS
+20	(	O	O
+21	嶺	O	O
+22	雲	O	O
+23	)	O	O
+24	모	B-PS	I-PS
+25	##윤	I-PS	I-PS
+26	##숙	I-PS	I-PS
+27	(	O	O
+28	毛	O	O
+29	允	O	O
+30	淑	O	O
+31	·	O	O
+32	1909	B-DT	B-DT
+33	~	I-DT	I-DT
+34	1990	I-DT	I-DT
+35	)	O	O
+36	시인	B-CV	B-CV
+37	##의	O	O
+38	탄생	O	O
+39	100	B-DT	B-DT
+40	##주	I-DT	I-DT
+41	##년	I-DT	I-DT
+42	##을	O	O
+43	기념	O	O
+44	##하	O	O
+45	##는	O	O
+46	'	O	O
+47	영	B-EV	B-PS
+48	##운	I-EV	I-PS
+49	모	I-EV	B-PS
+50	##윤	I-EV	I-PS
+51	##숙	I-EV	I-PS
+52	탄생	I-EV	O
+53	100	I-EV	B-DT
+54	##주	I-EV	I-DT
+55	##년	I-EV	I-DT
+56	기념	I-EV	O
+57	학술	I-EV	O
+58	세미나	I-EV	O
+59	및	I-EV	O
+60	시	I-EV	B-FD
+61	낭	I-EV	O
+62	##송	I-EV	O
+63	##회	I-EV	O
+64	'	O	O
+65	가	O	O
+66	시인	B-CV	B-CV
+67	김남	B-PS	B-PS
+68	##조	I-PS	I-PS
+69	·	O	O
+70	유	B-PS	B-PS
+71	##안	I-PS	I-PS
+72	##진	I-PS	I-PS
+73	·	O	O
+74	정	B-PS	B-PS
+75	##끝	I-PS	I-PS
+76	##별	I-PS	I-PS
+77	##씨	O	O
+78	,	O	O
+79	이어	B-PS	B-PS
+80	##령	I-PS	I-PS
+81	이화여대	B-OG	B-OG
+82	석좌	B-CV	B-CV
+83	##교	I-CV	I-CV
+84	##수	I-CV	I-CV
+85	,	O	O
+86	김용	B-PS	B-PS
+87	##직	I-PS	I-PS
+88	서울대	B-OG	B-OG
+89	명예	B-CV	B-CV
+90	##교	I-CV	I-CV
+91	##수	I-CV	I-CV
+92	,	O	O
+93	김선	B-PS	B-PS
+94	##주	I-PS	I-PS
+95	이화	B-CV	B-CV
+96	##동	I-CV	I-CV
+97	##창	I-CV	I-CV
+98	##문	I-CV	I-CV
+99	##인	I-CV	I-CV
+100	##회	I-CV	I-CV
+101	##장	I-CV	I-CV
+102	,	O	O
+103	이길	B-PS	B-PS
+104	##원	I-PS	I-PS
+105	펜	O	B-OG
+106	##클럽	O	I-OG
+107	회장	B-CV	B-CV
+108	,	O	O
+109	이	B-PS	B-PS
+110	##배	I-PS	I-PS
+111	##용	I-PS	I-PS
+112	이화여대	B-OG	B-OG
+113	총장	B-CV	B-CV
+114	등	O	O
+115	200	B-QT	B-QT
+116	##여	I-QT	I-QT
+117	##명	I-QT	I-QT
+118	##이	O	O
+119	참석	O	O
+120	##한	O	O
+121	가운데	O	O
+122	7	B-DT	B-DT
+123	##일	I-DT	I-DT
+124	오후	B-TI	B-TI
+125	4	I-TI	I-TI
+126	##시	I-TI	I-TI
+127	[SEP]	O	O

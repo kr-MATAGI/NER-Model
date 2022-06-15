@@ -1,30 +1,15 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	잇몸	B-AM	B-AM	B-AM, O, B-TM, B-TR, B-PS
-2	##이	O	O	O, B-PS, B-AM, B-CV, I-AM
-3	세균	O	O	O, B-AM, B-TM, B-CV, I-AM
-4	##에	O	O	O, I-TM, B-TM, B-AM, B-CV
-5	감염	B-TM	O	O, B-TM, B-AM, B-CV, I-TM
-6	##된	O	O	O, I-TM, B-PS, B-LC, I-CV
-7	기간	O	O	O, B-CV, B-TM, B-LC, B-PS
-8	##이	O	O	O, B-PS, B-OG, B-LC, B-CV
-9	길	O	O	O, B-CV, B-LC, B-OG, B-PS
-10	##어지	O	O	O, B-PS, B-CV, I-OG, B-LC
-11	##면	O	O	O, B-PS, B-LC, B-CV, I-OG
-12	우리	O	O	O, B-CV, B-PS, B-AM, B-LC
-13	몸	B-AM	B-AM	B-AM, O, I-AM, B-TM, B-TR
-14	##은	O	O	O, I-AF, B-CV, B-TM, I-TM
-15	세균	O	O	O, B-AM, B-TM, B-CV, B-PT
-16	증식	O	O	O, I-TM, B-TM, I-AM, B-AM
-17	##을	O	O	O, I-TM, B-CV, B-TM, B-PS
-18	막	O	O	O, B-TM, B-CV, B-LC, B-PS
-19	##기	O	O	O, B-PS, B-TM, B-CV, B-LC
-20	위해	O	O	O, B-TM, B-LC, B-CV, B-PS
-21	방어	O	O	O, B-TM, B-CV, B-LC, B-AM
-22	시스템	O	O	O, B-TM, I-TM, B-CV, I-CV
-23	##을	O	O	O, B-CV, B-OG, B-TM, B-LC
-24	작동	O	O	O, B-CV, B-TM, B-LC, B-OG
-25	##시	O	O	O, B-CV, B-LC, B-PS, B-OG
-26	##킨다	O	O	O, B-CV, B-LC, B-TM, B-PS
-27	.	O	O	O, B-LC, B-CV, B-PS, B-TM
-28	[SEP]	O	O	O, B-CV, B-TM, B-LC, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	복귀	O	O
+2	2	B-DT	B-DT
+3	##주	I-DT	I-DT
+4	##만	I-DT	I-DT
+5	##에	O	O
+6	…	O	O
+7	'	O	O
+8	컴퓨터	B-TM	B-TM
+9	샷	B-TM	I-TM
+10	'	O	O
+11	살아난	O	O
+12	박인비	B-PS	B-PS
+13	[SEP]	O	O

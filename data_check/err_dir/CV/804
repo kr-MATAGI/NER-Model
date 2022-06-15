@@ -1,29 +1,54 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	투표	O	O	O, B-TM, B-CV, B-EV, B-QT
-2	##용지	O	O	O, I-TM, I-CV, I-EV, B-MT
-3	7	B-QT	B-QT	B-QT, O, I-QT, B-EV, B-TM
-4	##장	I-QT	I-QT	I-QT, O, I-EV, I-TM, I-LC
-5	가운데	O	O	O, B-TM, I-QT, I-TM, B-CV
-6	소속	O	O	O, B-OG, B-CV, B-LC, B-PS
-7	정당	O	O	O, I-OG, B-OG, B-CV, I-CV
-8	표시	O	O	O, I-OG, I-CV, B-PS, B-CV
-9	없이	O	O	O, B-PS, B-CV, B-LC, B-TM
-10	후보	B-CV	B-CV	B-CV, O, B-EV, B-AF, B-TM
-11	이름	O	O	O, I-CV, B-CV, B-TM, I-AF
-12	##만	O	O	O, B-PS, I-CV, B-QT, B-LC
-13	죽	O	O	O, B-TM, B-QT, B-CV, B-PS
-14	나열	O	O	O, B-CV, B-TM, B-QT, B-LC
-15	##된	O	O	O, B-CV, B-PS, B-LC, B-OG
-16	걸	O	O	O, B-CV, B-TM, B-PS, B-OG
-17	보고	O	O	O, B-CV, B-QT, B-TM, B-PS
-18	찍	O	O	O, B-CV, B-PS, B-TM, B-LC
-19	##어야	O	O	O, B-CV, B-PS, B-LC, B-TM
-20	하	O	O	O, B-CV, B-OG, B-LC, B-PS
-21	##는	O	O	O, B-CV, B-TM, B-LC, B-OG
-22	게	O	O	O, B-PS, B-EV, B-CV, B-LC
-23	교육감	B-CV	B-EV	B-EV, B-CV, O, I-EV, B-TM
-24	선거	O	I-EV	I-EV, O, B-EV, I-CV, B-CV
-25	##다	O	O	O, I-EV, I-AF, I-CV, I-OG
-26	.	O	O	O, B-CV, B-LC, I-EV, B-PS
-27	[SEP]	O	O	O, B-CV, B-TM, B-LC, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	박	B-PS	B-PS
+2	구청장	B-CV	B-CV
+3	##은	O	O
+4	용산	B-LC	B-LC
+5	재개	O	O
+6	##발	O	O
+7	세입자	B-CV	B-EV
+8	참사	O	I-EV
+9	##가	O	O
+10	일어난	O	O
+11	지난	B-DT	B-DT
+12	20	I-DT	I-DT
+13	##일	I-DT	I-DT
+14	오전	B-TI	B-TI
+15	서울	B-LC	B-LC
+16	용산구	B-LC	B-LC
+17	보	B-AF	B-LC
+18	##광	I-AF	I-LC
+19	##동	I-AF	I-LC
+20	주민	I-AF	O
+21	##센터	I-AF	O
+22	##에	O	O
+23	##서	O	O
+24	열린	O	O
+25	‘	O	O
+26	2009	B-DT	B-DT
+27	신년	B-EV	B-EV
+28	##인	I-EV	I-EV
+29	##사회	I-EV	I-EV
+30	및	I-EV	I-EV
+31	동정	I-EV	I-EV
+32	##보	I-EV	I-EV
+33	##고	I-EV	I-EV
+34	##회	I-EV	I-EV
+35	’	O	O
+36	자리	O	O
+37	##에	O	O
+38	##서	O	O
+39	“	O	O
+40	(	O	O
+41	이	O	O
+42	사람	O	O
+43	##들	O	O
+44	##은	O	O
+45	)	O	O
+46	세입자	B-CV	B-CV
+47	##들이	O	O
+48	아니	O	O
+49	##에	O	O
+50	##요	O	O
+51	.	O	O
+52	[SEP]	O	O

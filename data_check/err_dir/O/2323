@@ -1,99 +1,37 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-EV, B-CV, I-OG, I-CV
-1	김한길	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
-2	민주당	B-OG	B-OG	B-OG, I-OG, O, I-PS, B-AF
-3	대표	B-CV	B-CV	B-CV, O, I-CV, I-OG, I-EV
-4	##는	O	O	O, I-CV, I-EV, I-OG, B-CV
-5	오전	B-TI	B-TI	B-TI, O, B-EV, B-LC, B-DT
-6	최고위	B-EV	B-EV	B-EV, O, I-EV, B-OG, B-CV
-7	##원회	I-EV	I-EV	I-EV, O, I-OG, B-EV, I-AF
-8	##의	I-EV	I-EV	I-EV, O, I-OG, I-AF, I-LC
-9	##에서	O	O	O, I-EV, I-OG, I-DT, I-AF
-10	“	O	O	O, B-LC, B-CV, B-PS, B-OG
-11	국기	O	O	O, B-EV, B-CV, B-LC, B-PS
-12	##문	O	O	O, I-EV, B-EV, B-PS, B-CV
-13	##란	O	O	O, I-EV, I-LC, I-CV, I-PS
-14	·	O	O	O, I-EV, B-PS, I-LC, B-LC
-15	헌정	O	O	O, B-EV, B-CV, B-LC, B-PS
-16	##파	O	O	O, I-EV, B-EV, I-CV, B-CV
-17	##괴	O	O	O, I-EV, I-CV, I-LC, I-TR
-18	##에	O	O	O, I-EV, B-PS, B-LC, I-CV
-19	대한	O	O	O, B-LC, B-OG, B-PS, B-CV
-20	국정	O	O	O, B-CV, B-EV, B-LC, B-PS
-21	##조사	O	O	O, I-CV, I-EV, I-LC, I-TR
-22	##를	O	O	O, B-LC, B-PS, I-EV, I-CV
-23	회피	O	O	O, B-LC, B-CV, B-PS, B-OG
-24	##하	O	O	O, B-PS, B-LC, B-OG, B-CV
-25	##려고	O	O	O, B-LC, B-PS, B-OG, I-LC
-26	새	B-OG	B-OG	B-OG, O, B-LC, B-AF, B-PS
-27	##누리	I-OG	I-OG	I-OG, O, B-OG, I-LC, I-PS
-28	##당	I-OG	I-OG	I-OG, O, I-LC, I-PS, I-AF
-29	##이	O	O	O, I-OG, B-PS, B-LC, I-EV
-30	해묵	O	O	O, B-LC, B-CV, B-PS, B-OG
-31	##은	O	O	O, B-LC, B-PS, B-CV, B-OG
-32	‘	O	O	O, B-LC, B-PS, B-CV, B-OG
-33	엔	O	B-LC	B-LC, O, B-CV, B-OG, I-LC
-34	##엘	O	I-LC	I-LC, O, B-LC, I-CV, I-OG
-35	##엘	O	I-LC	I-LC, O, B-LC, I-CV, I-OG
-36	관련	O	O	O, I-LC, I-CV, I-AF, I-EV
-37	발언	O	O	O, I-LC, B-LC, B-CV, I-EV
-38	’	O	O	O, B-LC, B-PS, B-CV, I-LC
-39	논쟁	O	O	O, B-LC, B-CV, B-PS, B-EV
-40	##을	O	O	O, B-CV, B-LC, B-PS, B-OG
-41	재	O	O	O, B-LC, B-CV, B-PS, B-OG
-42	##점	O	O	O, B-LC, B-CV, B-PS, I-LC
-43	##화	O	O	O, B-LC, B-CV, B-PS, I-CV
-44	##하	O	O	O, B-LC, B-PS, B-CV, B-OG
-45	##는	O	O	O, B-LC, B-PS, B-CV, B-OG
-46	건	O	O	O, B-LC, B-PS, B-OG, B-CV
-47	국익	O	O	O, B-LC, B-CV, B-OG, B-PS
-48	##을	O	O	O, B-PS, B-LC, B-CV, B-OG
-49	무시	O	O	O, B-LC, B-PS, B-CV, B-OG
-50	##한	O	O	O, B-LC, B-PS, B-OG, B-CV
-51	무	O	O	O, B-LC, B-PS, B-OG, B-CV
-52	##책	O	O	O, B-LC, B-PS, I-LC, B-CV
-53	##임	O	O	O, B-LC, B-PS, I-LC, I-PS
-54	##한	O	O	O, B-LC, B-PS, I-LC, I-PS
-55	시도	O	O	O, B-LC, B-CV, B-PS, B-OG
-56	”	O	O	O, B-LC, B-CV, B-PS, I-EV
-57	라며	O	O	O, B-LC, B-OG, B-CV, B-PS
-58	“	O	O	O, B-LC, B-CV, B-OG, B-PS
-59	민주당	B-OG	B-OG	B-OG, O, B-AF, B-LC, B-PS
-60	##은	O	O	O, I-OG, I-EV, I-AF, B-PS
-61	국회법	B-CV	B-CV	B-CV, O, B-OG, B-AF, I-CV
-62	##을	O	O	O, I-CV, I-OG, I-EV, B-CV
-63	따라	O	O	O, B-LC, B-OG, B-PS, B-CV
-64	,	O	O	O, B-LC, B-OG, B-PS, B-CV
-65	국회	B-OG	B-OG	B-OG, O, B-CV, B-AF, B-LC
-66	재	B-CV	B-CV	B-CV, O, I-CV, B-OG, I-OG
-67	##적	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-EV
-68	##의원	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-QT
-69	3	B-QT	B-QT	B-QT, I-CV, I-QT, O, B-DT
-70	##분	I-QT	I-QT	I-QT, I-CV, O, I-OG, B-QT
-71	##의	I-QT	I-QT	I-QT, O, B-QT, I-OG, I-LC
-72	2	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-OG
-73	동의	O	O	O, I-QT, B-CV, I-EV, B-LC
-74	##를	O	O	O, B-LC, B-PS, B-CV, I-EV
-75	얻어	O	O	O, B-LC, B-CV, B-PS, B-OG
-76	대화	O	O	O, B-AF, B-CV, B-EV, B-TM
-77	##록	O	O	O, I-AF, I-EV, I-CV, I-LC
-78	원본	O	O	O, I-AF, B-AF, B-LC, B-CV
-79	##도	O	O	O, I-AF, B-LC, I-EV, B-PS
-80	공개	O	O	O, B-CV, B-LC, B-TM, B-PS
-81	##하고	O	O	O, B-LC, B-PS, B-OG, B-CV
-82	정체	O	O	O, B-LC, B-TM, B-CV, B-AF
-83	##불명	O	O	O, I-LC, I-AF, B-PS, B-LC
-84	##의	O	O	O, B-LC, B-PS, I-AF, B-CV
-85	사본	O	O	O, B-CV, B-LC, B-AF, B-TM
-86	##도	O	O	O, I-AF, B-LC, B-PS, I-CV
-87	공개	O	O	O, B-CV, B-LC, B-PS, B-TM
-88	##할	O	O	O, B-LC, B-PS, B-OG, B-CV
-89	수	O	O	O, B-LC, B-PS, B-CV, B-OG
-90	있	O	O	O, B-LC, B-CV, B-PS, B-OG
-91	##다	O	O	O, B-LC, B-PS, B-CV, B-OG
-92	”	O	O	O, B-CV, B-LC, B-OG, B-TM
-93	고	O	O	O, B-CV, B-LC, B-OG, B-TM
-94	밝혔	O	O	O, B-CV, B-LC, B-OG, B-TM
-95	##다	O	O	O, B-CV, B-LC, B-OG, B-TM
-96	.	O	O	O, B-LC, B-PS, B-CV, B-OG
-97	[SEP]	O	O	O, B-LC, B-CV, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	[	O	O
+2	제	B-QT	B-QT
+3	##15	I-QT	I-QT
+4	##회	I-QT	I-QT
+5	韓	B-CV	B-CV
+6	·	I-CV	I-CV
+7	日	I-CV	I-CV
+8	국제	I-CV	I-CV
+9	##환경	I-CV	I-CV
+10	##상	I-CV	I-CV
+11	]	O	O
+12	한	O	B-LC
+13	##일	O	I-LC
+14	국제	O	O
+15	##환경	O	O
+16	##상의	O	O
+17	위상	O	O
+18	##과	O	O
+19	역사	O	O
+20	;	O	O
+21	공정	O	O
+22	##한	O	O
+23	심사	O	O
+24	##로	O	O
+25	권위	O	O
+26	더	O	O
+27	##해	O	O
+28	…	O	O
+29	국경	O	O
+30	초월	O	O
+31	##한	O	O
+32	수상자	B-CV	B-CV
+33	속속	O	O
+34	배출	O	O
+35	[SEP]	O	O

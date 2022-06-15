@@ -1,49 +1,37 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-EV, I-OG, I-CV
-1	이날	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-QT
-2	연세대	B-OG	B-OG	B-OG, B-AF, B-LC, O, I-OG
-3	##가	O	O	O, I-OG, I-DT, I-EV, I-AF
-4	오전	B-TI	B-TI	B-TI, B-EV, O, I-TI, B-QT
-5	9	I-TI	I-TI	I-TI, B-TI, I-QT, I-EV, I-TR
-6	##시	I-TI	I-TI	I-TI, O, B-TI, I-QT, I-TR
-7	,	O	O	O, I-TI, B-LC, I-QT, B-DT
-8	오후	B-TI	B-TI	B-TI, I-TI, O, B-QT, B-EV
-9	1	I-TI	I-TI	I-TI, B-TI, I-QT, O, I-TR
-10	##시	I-TI	I-TI	I-TI, O, I-QT, B-TI, I-TR
-11	,	O	O	O, I-TI, B-LC, B-DT, I-DT
-12	4	B-TI	B-TI	B-TI, I-TI, O, B-QT, B-EV
-13	##시	I-TI	I-TI	I-TI, O, B-TI, I-QT, I-TR
-14	반	I-TI	I-TI	I-TI, O, I-TR, I-QT, I-LC
-15	##에	O	O	O, I-TI, B-LC, I-EV, B-PS
-16	사회	O	B-FD	B-FD, O, I-FD, B-AF, B-TR
-17	##과학	O	I-FD	I-FD, O, B-FD, I-TR, I-OG
-18	·	O	O	O, I-FD, I-OG, I-LC, I-QT
-19	인문	O	B-FD	B-FD, O, I-FD, B-AF, B-TR
-20	·	O	O	O, I-FD, I-LC, I-OG, I-QT
-21	이공	O	B-FD	B-FD, O, I-FD, B-TM, B-TR
-22	##계	O	O	O, I-FD, B-FD, I-OG, I-TR
-23	##열	O	O	O, I-FD, I-OG, B-FD, I-LC
-24	1	B-QT	B-QT	B-QT, O, I-QT, B-EV, B-TM
-25	##차	I-QT	I-QT	I-QT, O, I-EV, B-QT, I-TM
-26	수시	O	O	O, B-EV, I-QT, B-CV, I-EV
-27	##모	O	O	O, I-EV, B-EV, B-CV, B-LC
-28	##집	O	O	O, I-EV, B-EV, B-LC, B-CV
-29	논술	O	O	O, B-EV, I-EV, B-CV, B-FD
-30	##고사	O	O	O, I-EV, B-EV, B-CV, B-LC
-31	##를	O	O	O, I-EV, B-LC, B-CV, B-PS
-32	각각	O	O	O, B-DT, B-LC, B-EV, B-QT
-33	치르	O	O	O, B-EV, B-LC, B-CV, B-OG
-34	##면서	O	O	O, B-LC, B-CV, B-OG, I-EV
-35	수험	B-CV	B-CV	B-CV, O, B-TM, I-CV, B-OG
-36	##생	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-EV
-37	##과	O	O	O, I-CV, I-OG, I-EV, I-QT
-38	학부모	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-OG
-39	수만	O	O	O, I-CV, I-OG, I-QT, B-TM
-40	명	O	O	O, B-LC, B-PS, B-TM, B-QT
-41	##이	O	O	O, B-PS, B-OG, B-LC, B-CV
-42	몰렸	O	O	O, B-CV, B-LC, B-TM, B-OG
-43	##기	O	O	O, B-CV, B-TM, B-LC, I-EV
-44	때문	O	O	O, B-CV, B-LC, B-TM, B-QT
-45	##이다	O	O	O, B-CV, B-TM, B-LC, I-EV
-46	.	O	O	O, B-LC, I-EV, B-CV, B-PS
-47	[SEP]	O	O	O, B-LC, I-EV, B-CV, B-EV
+	text	label	preds
+0	[CLS]	O	O
+1	여론	O	O
+2	##이	B-PS	O
+3	진정	O	O
+4	##되	O	O
+5	##기	O	O
+6	##는	O	O
+7	##커녕	O	O
+8	악화	O	O
+9	쪽	O	O
+10	##으로	O	O
+11	##만	O	O
+12	흘러가	O	O
+13	##자	O	O
+14	이	O	B-PS
+15	총리	B-CV	B-CV
+16	##도	O	O
+17	거취	O	O
+18	문제	O	O
+19	##를	O	O
+20	박	B-PS	B-PS
+21	대통령	B-CV	B-CV
+22	##의	O	O
+23	귀국	O	O
+24	전	O	O
+25	##에	O	O
+26	정리	O	O
+27	##할	O	O
+28	필요	O	O
+29	##를	O	O
+30	느낀	O	O
+31	##것	O	O
+32	##으로	O	O
+33	보인다	O	O
+34	.	O	O
+35	[SEP]	O	O

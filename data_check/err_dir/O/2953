@@ -1,43 +1,42 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	피츠버그	B-OG	B-OG	B-OG, B-LC, B-AF, O, I-OG
-2	파이	I-OG	I-OG	I-OG, O, I-LC, I-AF, B-OG
-3	##리	I-OG	I-OG	I-OG, O, I-LC, I-AF, I-EV
-4	##츠	I-OG	I-OG	I-OG, O, I-LC, I-AF, I-EV
-5	##의	O	O	O, I-OG, I-AF, I-EV, I-CV
-6	박찬호	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-AF
-7	(	O	O	O, I-PS, I-OG, B-CV, I-AF
-8	37	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-TM
-9	)	O	O	O, I-QT, I-OG, I-DT, I-EV
-10	는	O	O	O, B-CV, B-LC, B-OG, B-PS
-11	시카고	B-OG	B-OG	B-OG, B-LC, B-AF, B-EV, O
-12	컵스	I-OG	I-OG	I-OG, I-EV, I-LC, O, I-AF
-13	##와	O	O	O, I-OG, I-EV, B-CV, I-DT
-14	##의	O	O	O, B-EV, I-EV, B-CV, B-LC
-15	원정	B-EV	B-EV	B-EV, O, B-DT, B-LC, B-QT
-16	##경기	I-EV	I-EV	I-EV, O, I-QT, I-AF, I-LC
-17	##에서	O	O	O, I-EV, B-CV, I-DT, I-AF
-18	3	B-QT	B-QT	B-QT, B-EV, B-TM, I-QT, O
-19	##분	I-QT	I-QT	I-QT, I-EV, O, I-TM, I-AF
-20	##의	I-QT	I-QT	I-QT, I-EV, O, I-TM, I-AF
-21	2	I-QT	I-QT	I-QT, O, I-EV, B-QT, I-LC
-22	##이	I-QT	I-QT	I-QT, O, I-EV, I-LC, I-TM
-23	##닝	I-QT	I-QT	I-QT, O, I-EV, I-LC, I-TM
-24	##을	O	O	O, I-QT, I-EV, B-CV, I-AF
-25	무실점	B-TM	B-TM	B-TM, O, B-CV, B-QT, B-TR
-26	##으로	O	O	O, I-TM, I-QT, I-CV, I-EV
-27	막아내	O	O	O, B-CV, B-TM, B-LC, B-OG
-28	##며	O	O	O, B-LC, B-QT, B-OG, B-CV
-29	7	B-QT	B-QT	B-QT, B-EV, O, I-QT, B-TM
-30	##경기	I-QT	I-QT	I-QT, I-EV, O, I-TM, I-DT
-31	연속	O	O	O, I-QT, I-EV, B-TM, I-DT
-32	무자	O	B-TM	B-TM, O, B-CV, B-QT, B-AF
-33	##책	O	I-TM	I-TM, O, B-TM, I-QT, I-CV
-34	##점	O	I-TM	I-TM, O, I-QT, B-TM, I-CV
-35	기록	O	O	O, I-TM, I-QT, B-CV, I-OG
-36	##을	O	O	O, B-CV, B-OG, I-TM, B-LC
-37	이어	O	O	O, B-CV, B-LC, B-OG, B-TM
-38	##갔	O	O	O, B-CV, B-LC, B-OG, I-OG
-39	##다	O	O	O, B-CV, B-LC, B-OG, B-TM
-40	.	O	O	O, B-LC, B-CV, B-OG, B-PS
-41	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	전문가	B-CV	B-CV
+2	##들	O	O
+3	##은	O	O
+4	현재	O	O
+5	우리	O	O
+6	군	B-OG	O
+7	##이	O	O
+8	전략	O	O
+9	##무기	O	O
+10	##로	O	O
+11	##서	O	O
+12	집중	O	O
+13	개발	O	O
+14	중인	O	O
+15	순항	O	B-AF
+16	(	O	I-AF
+17	크루즈	B-AF	I-AF
+18	)	O	I-AF
+19	미사일	B-AF	B-AF
+20	##의	O	O
+21	한계	O	O
+22	##를	O	O
+23	감안	O	O
+24	##해	O	O
+25	볼	O	O
+26	때	O	O
+27	##도	O	O
+28	탄도	B-AF	B-AF
+29	##미사	I-AF	I-AF
+30	##일	I-AF	I-AF
+31	사거리	O	O
+32	연장	O	O
+33	##이	O	O
+34	필요	O	O
+35	##하	O	O
+36	##다고	O	O
+37	말	O	O
+38	##한다	O	O
+39	.	O	O
+40	[SEP]	O	O

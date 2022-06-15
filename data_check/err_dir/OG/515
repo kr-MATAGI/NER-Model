@@ -1,31 +1,30 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-EV, I-CV
-1	1958	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-TM
-2	##년	I-QT	I-QT	I-QT, O, B-QT, I-DT, I-EV
-3	##생	I-QT	I-QT	I-QT, O, I-DT, I-EV, I-TM
-4	##인	O	O	O, I-QT, B-PS, B-CV, I-EV
-5	그	O	O	O, B-CV, B-PS, B-OG, I-QT
-6	##는	O	O	O, B-CV, B-PS, I-OG, I-EV
-7	2013	B-DT	B-DT	B-DT, O, B-QT, B-EV, I-DT
-8	충주	B-EV	B-EV	B-EV, B-LC, I-EV, B-OG, B-AF
-9	##세계	I-EV	I-EV	I-EV, O, B-EV, I-LC, I-OG
-10	##조	I-EV	I-EV	I-EV, O, I-OG, I-LC, I-AF
-11	##정	I-EV	I-EV	I-EV, O, I-OG, I-LC, I-AF
-12	##선	I-EV	I-EV	I-EV, O, I-OG, I-LC, I-AF
-13	##수	I-EV	I-EV	I-EV, O, I-OG, I-LC, I-AF
-14	##권	I-EV	I-EV	I-EV, O, I-OG, I-LC, I-AF
-15	대회	I-EV	I-EV	I-EV, O, I-OG, B-OG, B-EV
-16	조직	B-OG	O	O, I-OG, I-EV, B-OG, B-EV
-17	##위원회	I-OG	O	O, I-OG, I-EV, B-OG, I-AF
-18	##에	O	O	O, I-OG, I-EV, I-AF, B-PS
-19	등록	O	O	O, B-CV, B-OG, B-PS, B-TM
-20	##된	O	O	O, B-PS, B-CV, B-OG, B-LC
-21	선수	B-CV	B-CV	B-CV, O, I-CV, B-EV, B-OG
-22	중	O	O	O, I-CV, B-CV, I-EV, B-PS
-23	가장	O	O	O, B-QT, B-CV, B-PS, B-LC
-24	나이	O	O	O, B-OG, B-TM, B-LC, B-CV
-25	##가	O	O	O, B-PS, B-OG, B-LC, B-CV
-26	많	O	O	O, B-CV, B-OG, B-QT, B-TM
-27	##다	O	O	O, B-CV, B-PS, B-TM, I-OG
-28	.	O	O	O, B-PS, B-OG, B-CV, B-LC
-29	[SEP]	O	O	O, B-PS, B-CV, I-OG, I-EV
+	text	label	preds
+0	[CLS]	O	O
+1	사업	O	O
+2	실패	O	O
+3	##로	O	O
+4	신용	B-CV	B-CV
+5	##불	I-CV	I-CV
+6	##량	I-CV	I-CV
+7	##자	I-CV	I-CV
+8	##였	O	O
+9	##던	O	O
+10	이	B-PS	B-PS
+11	##씨	O	O
+12	형제	B-CV	B-CV
+13	##는	O	O
+14	2006	B-DT	B-DT
+15	##년	I-DT	I-DT
+16	2000	B-QT	B-QT
+17	##만	I-QT	I-QT
+18	##원	I-QT	I-QT
+19	##으로	O	O
+20	백억	B-OG	B-QT
+21	##조	I-OG	I-QT
+22	##명	I-OG	I-QT
+23	##을	O	O
+24	창업	O	O
+25	##했	O	O
+26	##다	O	O
+27	.	O	O
+28	[SEP]	O	O

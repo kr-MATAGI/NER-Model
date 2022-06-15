@@ -1,15 +1,50 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	창립	O	O	O, B-CV, B-EV, B-FD, B-OG
-2	기념	O	O	O, I-EV, I-OG, I-AF, B-PS
-3	횟수	O	O	O, I-OG, I-EV, B-PS, I-AF
-4	##만큼	O	O	O, B-CV, B-PS, B-TM, B-OG
-5	장학생	O	B-CV	B-CV, O, B-OG, I-CV, B-TM
-6	##을	O	O	O, I-CV, I-OG, B-CV, I-AF
-7	선발	O	O	O, B-CV, B-TM, B-OG, B-QT
-8	##하	O	O	O, B-PS, B-CV, B-OG, B-LC
-9	##는	O	O	O, B-CV, B-OG, B-PS, B-TM
-10	셈	O	O	O, B-CV, B-OG, B-TM, B-PS
-11	##이다	O	O	O, B-CV, I-OG, I-CV, I-EV
-12	.	O	O	O, B-CV, B-OG, B-PS, I-OG
-13	[SEP]	O	O	O, B-CV, I-OG, B-OG, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	올해	B-DT	B-DT
+2	억만	B-CV	B-CV
+3	##장자	I-CV	I-CV
+4	리스트	O	O
+5	##에	O	O
+6	이름	O	O
+7	##을	O	O
+8	올린	O	O
+9	여성	O	O
+10	227	B-QT	B-QT
+11	##명	I-QT	I-QT
+12	중	O	O
+13	최고	O	O
+14	갑	O	O
+15	##부	O	O
+16	##는	O	O
+17	전체	O	O
+18	14	B-QT	B-QT
+19	##위	I-QT	I-QT
+20	##를	O	O
+21	차지	O	O
+22	##한	O	O
+23	프랑스	B-LC	B-LC
+24	화장품	O	O
+25	회사	O	O
+26	로	B-OG	B-OG
+27	##레	I-OG	I-OG
+28	##알	I-OG	I-OG
+29	##그룹	I-OG	I-OG
+30	상속	O	B-CV
+31	##녀	O	I-CV
+32	릴리	B-PS	B-PS
+33	##안	I-PS	I-PS
+34	베	I-PS	I-PS
+35	##탕	I-PS	I-PS
+36	##쿠르	I-PS	I-PS
+37	(	O	O
+38	39	B-QT	B-QT
+39	##5	I-QT	I-QT
+40	##억	I-QT	I-QT
+41	##달	I-QT	I-QT
+42	##러	I-QT	I-QT
+43	)	O	O
+44	로	O	O
+45	나타났	O	O
+46	##다	O	O
+47	.	O	O
+48	[SEP]	O	O

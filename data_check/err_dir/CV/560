@@ -1,13 +1,17 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-AF
-1	배우	B-CV	B-CV	B-CV, O, I-CV, B-FD, B-OG
-2	##로	O	O	O, I-CV, B-PS, I-OG, I-EV
-3	…	O	O	O, B-PS, B-LC, B-CV, B-OG
-4	모델	B-CV	O	O, B-CV, I-CV, B-TM, B-AM
-5	##로	O	O	O, I-CV, B-PS, I-AF, I-EV
-6	…	O	O	O, B-PS, B-LC, B-OG, B-CV
-7	희망	O	O	O, B-LC, B-TM, B-AF, B-EV
-8	##의	O	O	O, I-AF, B-PS, I-LC, I-OG
-9	무대	O	O	O, B-LC, B-EV, B-AF, B-CV
-10	활짝	O	O	O, B-LC, B-PS, B-OG, B-AF
-11	[SEP]	O	O	O, B-LC, B-PS, B-CV, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	언니	B-CV	B-CV
+2	만나	O	O
+3	##러	O	O
+4	가	O	O
+5	##겠다	O	O
+6	##고	O	O
+7	언니	B-CV	B-CV
+8	시조	B-CV	B-TM
+9	##모	I-CV	I-TM
+10	##상	O	I-TM
+11	이제	O	O
+12	당해	O	O
+13	##갖	O	O
+14	##고	O	O
+15	[SEP]	O	O

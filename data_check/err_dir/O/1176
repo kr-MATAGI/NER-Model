@@ -1,19 +1,37 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, B-CV, I-OG, I-AF
-1	그	O	O	O, B-CV, B-LC, B-OG, B-TM
-2	중	O	O	O, B-CV, B-LC, B-PS, B-OG
-3	##에서	O	O	O, B-CV, B-PS, B-LC, B-QT
-4	신뢰	O	O	O, B-CV, B-PS, I-CV, B-MT
-5	##이	O	O	O, I-CV, I-LC, I-AF, B-CV
-6	##익	O	O	O, I-CV, I-LC, I-PS, I-AF
-7	##에	O	O	O, I-CV, I-AF, B-PS, I-PS
-8	대한	O	O	O, B-CV, B-PS, B-LC, B-OG
-9	손해배상	O	B-CV	B-CV, O, I-CV, B-FD, B-TM
-10	##이	O	O	O, I-CV, B-CV, B-PS, I-AF
-11	##라는	O	O	O, B-CV, B-PS, I-CV, B-LC
-12	개념	O	O	O, B-CV, I-CV, B-PS, I-AF
-13	##이	O	O	O, B-CV, B-PS, I-AF, I-CV
-14	있	O	O	O, B-CV, I-AF, B-OG, B-LC
-15	##어요	O	O	O, B-CV, I-AF, I-OG, B-OG
-16	.	O	O	O, B-CV, B-LC, B-PS, I-AF
-17	[SEP]	O	O	O, B-CV, I-AF, B-LC, I-CV
+	text	label	preds
+0	[CLS]	O	O
+1	남자	O	O
+2	사	B-CV	B-CV
+3	##브르	I-CV	I-CV
+4	단체전	O	B-EV
+5	##에	O	O
+6	##서	O	O
+7	깜짝	O	O
+8	금메달	B-CV	B-CV
+9	##을	O	O
+10	따	O	O
+11	##는	O	O
+12	등	O	O
+13	총	O	O
+14	6	B-QT	B-QT
+15	##개	I-QT	I-QT
+16	##의	O	O
+17	메달	O	O
+18	##을	O	O
+19	따낸	O	O
+20	펜싱	B-CV	B-CV
+21	선수단	O	O
+22	##의	O	O
+23	뒤	O	O
+24	##에	O	O
+25	##는	O	O
+26	SK	B-OG	B-OG
+27	##텔	I-OG	I-OG
+28	##레	I-OG	I-OG
+29	##콤	I-OG	I-OG
+30	##이	O	O
+31	있	O	O
+32	##었	O	O
+33	##다	O	O
+34	.	O	O
+35	[SEP]	O	O

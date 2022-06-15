@@ -1,17 +1,23 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	비문	O	O	O, B-TR, B-PS, B-OG, B-CV
-2	단일	O	O	O, B-PS, B-CV, B-TR, B-QT
-3	후보	O	B-CV	B-CV, I-CV, O, I-QT, B-QT
-4	##를	O	O	O, I-CV, I-QT, B-CV, I-EV
-5	뽑	O	O	O, B-CV, B-EV, B-PS, B-OG
-6	##자	O	O	O, B-PS, I-CV, I-EV, B-CV
-7	이런	O	O	O, B-CV, B-OG, B-PS, I-EV
-8	움직임	O	O	O, B-CV, B-LC, B-PS, B-EV
-9	##이	O	O	O, B-PS, B-CV, I-EV, B-OG
-10	또	O	O	O, B-CV, B-LC, B-OG, B-PS
-11	있	O	O	O, B-CV, B-PS, B-LC, B-OG
-12	##겠	O	O	O, B-CV, B-PS, B-LC, B-OG
-13	##죠	O	O	O, B-CV, B-OG, I-OG, B-LC
-14	.	O	O	O, B-CV, B-PS, B-LC, I-EV
-15	[SEP]	O	O	O, B-CV, B-PS, B-LC, I-EV
+	text	label	preds
+0	[CLS]	O	O
+1	이후	O	O
+2	내각	O	B-OG
+3	법제	O	I-OG
+4	##국	O	I-OG
+5	##이	O	O
+6	이런	O	O
+7	행위	O	O
+8	##가	O	O
+9	헌법	B-CV	B-CV
+10	##에	O	O
+11	부합	O	O
+12	##한다	O	O
+13	##고	O	O
+14	해석	O	O
+15	##하면	O	O
+16	최종	O	O
+17	확정	O	O
+18	##된	O	O
+19	##다	O	O
+20	.	O	O
+21	[SEP]	O	O

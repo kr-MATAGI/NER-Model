@@ -1,34 +1,35 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-EV, B-CV, I-OG, I-CV
-1	그	O	O	O, B-CV, B-LC, B-PS, B-OG
-2	##는	O	O	O, B-LC, B-CV, B-PS, I-EV
-3	27	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-LC
-4	##일	I-DT	I-DT	I-DT, O, B-DT, I-PS, I-EV
-5	서울	B-LC	B-LC	B-LC, B-OG, O, I-LC, I-DT
-6	영등포구	B-LC	B-LC	B-LC, I-LC, O, B-OG, B-AF
-7	태영	B-AF	B-AF	B-AF, O, B-OG, B-LC, I-AF
-8	##빌	I-AF	I-AF	I-AF, O, I-OG, I-LC, B-AF
-9	##딩	I-AF	I-AF	I-AF, O, I-OG, I-LC, I-EV
-10	국제	B-AF	O	O, I-AF, B-LC, B-AF, B-CV
-11	##회의	I-AF	O	O, I-AF, I-LC, I-EV, I-CV
-12	##장	I-AF	O	O, I-AF, I-LC, I-EV, I-CV
-13	##에서	O	O	O, I-AF, I-EV, I-LC, B-LC
-14	열리	O	O	O, B-CV, B-LC, B-EV, B-PS
-15	##는	O	O	O, B-LC, B-EV, B-CV, B-PS
-16	‘	O	O	O, B-LC, B-CV, B-OG, B-EV
-17	아시아	B-EV	B-LC	B-LC, O, B-OG, B-EV, B-AF
-18	##지역	I-EV	O	O, I-LC, I-OG, I-EV, I-PS
-19	다문화	I-EV	O	O, I-LC, I-OG, I-EV, B-LC
-20	##사회	I-EV	O	O, I-OG, I-EV, I-LC, I-TR
-21	발전	I-EV	O	O, I-EV, I-OG, I-LC, I-TM
-22	##을	I-EV	O	O, I-EV, I-OG, B-EV, I-LC
-23	위한	I-EV	O	O, I-EV, I-OG, B-EV, I-LC
-24	국제	I-EV	O	O, B-EV, I-EV, B-OG, B-LC
-25	콘퍼런스	I-EV	O	O, I-EV, I-OG, B-EV, I-LC
-26	’	O	O	O, I-EV, I-OG, B-CV, B-LC
-27	에서	O	O	O, B-LC, B-CV, B-PS, B-EV
-28	토론자	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-FD
-29	##로	O	O	O, I-CV, I-EV, B-CV, B-PS
-30	나선다	O	O	O, B-LC, B-CV, B-PS, B-OG
-31	.	O	O	O, B-LC, B-PS, I-EV, B-CV
-32	[SEP]	O	O	O, B-LC, I-EV, B-CV, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	한	O	O
+2	체육	O	O
+3	##단체	O	O
+4	관계자	B-CV	B-CV
+5	##는	O	O
+6	“	O	O
+7	김	B-PS	B-PS
+8	차관	B-CV	B-CV
+9	##이	O	O
+10	한양대	B-OG	B-OG
+11	교수	B-CV	B-CV
+12	시절	O	O
+13	박사	B-CV	B-CV
+14	##과	O	O
+15	##정	O	O
+16	제자	B-CV	B-CV
+17	##였	O	O
+18	##던	O	O
+19	우	B-PS	B-PS
+20	국장	B-CV	B-CV
+21	##을	O	O
+22	데려오	O	O
+23	##기	O	O
+24	위해	O	O
+25	청와대	B-AF	B-OG
+26	##에	O	O
+27	부탁	O	O
+28	##한	O	O
+29	것	O	O
+30	##으로	O	O
+31	안다	O	O
+32	.	O	O
+33	[SEP]	O	O

@@ -1,12 +1,52 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, I-OG, B-CV, I-AF
-1	하나	O	B-QT	B-QT, O, B-PS, B-TM, I-QT
-2	##도	O	O	O, I-QT, I-DT, I-OG, I-LC
-3	안	O	O	O, I-QT, B-CV, B-QT, B-PS
-4	해	O	O	O, B-CV, B-QT, B-TM, I-QT
-5	##주	O	O	O, I-QT, B-CV, I-CV, I-OG
-6	##구	O	O	O, I-QT, I-OG, I-CV, I-AF
-7	그랬	O	O	O, B-CV, B-LC, B-OG, B-TM
-8	##거	O	O	O, B-CV, I-CV, I-OG, I-AF
-9	##든	O	O	O, B-CV, I-OG, I-AF, I-CV
-10	[SEP]	O	O	O, B-CV, B-LC, B-TM, B-QT
+	text	label	preds
+0	[CLS]	O	O
+1	미국	B-LC	B-LC
+2	전역	O	O
+3	##에	O	O
+4	##서	O	O
+5	입양	O	O
+6	##을	O	O
+7	기다리	O	O
+8	##는	O	O
+9	고아	O	B-CV
+10	##가	O	O
+11	11	B-QT	B-QT
+12	##만	I-QT	I-QT
+13	##50	I-QT	I-QT
+14	##00	I-QT	I-QT
+15	##명	I-QT	I-QT
+16	##에	O	O
+17	이르	O	O
+18	##며	O	O
+19	,	O	O
+20	자녀	B-CV	B-CV
+21	##를	O	O
+22	원	O	O
+23	##하	O	O
+24	##는	O	O
+25	동성	O	O
+26	##커	B-CV	B-CV
+27	##플	I-CV	I-CV
+28	##은	O	O
+29	이	O	O
+30	어린이	O	O
+31	##들	O	O
+32	##에	O	O
+33	##게	O	O
+34	가족의	O	O
+35	울타리	O	O
+36	##를	O	O
+37	제공	O	O
+38	##할	O	O
+39	자원	O	O
+40	##으로	O	O
+41	인식	O	O
+42	##되	O	O
+43	##기	O	O
+44	시작	O	O
+45	##했	O	O
+46	##다는	O	O
+47	점	O	O
+48	##이다	O	O
+49	.	O	O
+50	[SEP]	O	O

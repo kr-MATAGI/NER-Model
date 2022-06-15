@@ -1,29 +1,30 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	일본	B-OG	B-OG	B-OG, B-LC, O, B-PS, B-TM
-2	##은	O	O	O, I-OG, I-LC, B-CV, B-OG
-3	이란	B-OG	B-LC	B-LC, B-OG, O, B-PS, I-LC
-4	대신	O	O	O, I-OG, I-LC, B-CV, I-AF
-5	사우디아라비아	B-LC	B-LC	B-LC, B-OG, O, I-LC, B-PS
-6	,	O	O	O, I-OG, I-LC, I-AF, B-CV
-7	아랍에미리트	B-LC	B-LC	B-LC, B-OG, O, I-LC, B-PS
-8	(	O	O	O, I-OG, I-LC, B-CV, I-DT
-9	UAE	O	B-LC	B-LC, B-OG, O, I-LC, B-CV
-10	)	O	O	O, I-OG, I-LC, B-CV, I-CV
-11	등	O	O	O, B-CV, B-LC, B-OG, B-TM
-12	##으로	O	O	O, B-CV, B-LC, B-PS, B-TM
-13	##부터	O	O	O, B-LC, B-CV, B-TM, B-PS
-14	원유	B-MT	B-MT	B-MT, O, I-MT, B-AF, B-TM
-15	##를	O	O	O, I-AF, B-CV, I-CV, I-OG
-16	조달	O	O	O, B-CV, B-TM, B-LC, B-OG
-17	##할	O	O	O, B-LC, B-PS, B-OG, B-CV
-18	수	O	O	O, B-LC, B-CV, B-TM, B-OG
-19	있	O	O	O, B-LC, B-CV, B-TM, B-OG
-20	##을	O	O	O, B-LC, B-CV, B-PS, B-OG
-21	##지	O	O	O, B-CV, B-LC, B-TM, B-PS
-22	타진	O	O	O, B-CV, B-TM, B-LC, B-OG
-23	##하고	O	O	O, B-CV, B-LC, B-TM, I-EV
-24	있	O	O	O, B-CV, B-LC, B-OG, I-OG
-25	##다	O	O	O, B-CV, I-OG, B-LC, B-OG
-26	.	O	O	O, B-LC, B-CV, B-OG, B-TM
-27	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	""""	O	O
+2	그때	O	O
+3	'	O	O
+4	너	O	O
+5	##만큼	O	O
+6	노래	O	O
+7	잘	O	O
+8	##하	O	O
+9	##는	O	O
+10	사람	O	O
+11	##은	O	O
+12	많	O	O
+13	##다	O	O
+14	'	O	O
+15	는	O	O
+16	말	O	O
+17	##을	O	O
+18	많이	O	O
+19	들어	O	O
+20	가수	O	B-CV
+21	##의	O	O
+22	꿈	O	O
+23	##을	O	O
+24	포기	O	O
+25	##했	O	O
+26	##어요	O	O
+27	.	O	O
+28	[SEP]	O	O

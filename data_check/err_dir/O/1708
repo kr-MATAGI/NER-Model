@@ -1,39 +1,33 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-EV, I-CV
-1	여자	O	O	O, B-TM, B-EV, B-LC, B-OG
-2	##부	O	O	O, I-EV, B-EV, I-TM, B-TM
-3	서울시	B-OG	B-OG	B-OG, B-LC, O, I-OG, B-AF
-4	##청	I-OG	I-OG	I-OG, O, I-LC, I-EV, B-OG
-5	##과	O	O	O, I-OG, I-EV, I-AF, B-CV
-6	부산시	B-OG	B-OG	B-OG, B-LC, O, B-AF, I-OG
-7	##설	I-OG	I-OG	I-OG, O, I-LC, B-OG, I-AF
-8	##공단	I-OG	I-OG	I-OG, O, I-LC, I-AF, I-CV
-9	##의	O	O	O, I-OG, I-AF, I-EV, I-QT
-10	경기	O	O	O, B-CV, B-LC, B-EV, B-TM
-11	##로	O	O	O, B-CV, B-PS, I-EV, B-LC
-12	막	O	O	O, B-EV, B-LC, B-CV, B-PS
-13	##이	O	O	O, B-PS, I-EV, B-OG, B-CV
-14	오르	O	O	O, B-EV, B-CV, B-LC, B-OG
-15	##는	O	O	O, I-EV, B-EV, B-LC, B-CV
-16	2016	B-DT	B-DT	B-DT, O, B-QT, B-EV, I-DT
-17	핸드볼	B-EV	B-EV	B-EV, I-EV, B-CV, O, I-DT
-18	코리아	I-EV	I-EV	I-EV, B-EV, O, I-OG, I-AF
-19	##리그	I-EV	I-EV	I-EV, O, I-OG, B-EV, I-AF
-20	##는	O	O	O, I-EV, I-OG, I-AF, B-CV
-21	9	B-DT	B-DT	B-DT, I-DT, O, B-QT, B-EV
-22	##월	I-DT	I-DT	I-DT, B-DT, O, I-QT, I-EV
-23	##26	I-DT	I-DT	I-DT, B-DT, O, I-QT, I-EV
-24	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
-25	##까	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
-26	##지	I-DT	I-DT	I-DT, O, I-QT, B-DT, I-EV
-27	남녀	O	O	O, B-TM, I-DT, B-QT, B-LC
-28	3	B-QT	B-QT	B-QT, B-EV, I-QT, B-DT, B-TM
-29	##라	I-QT	I-QT	I-QT, I-EV, I-TM, O, I-DT
-30	##운드	I-QT	I-QT	I-QT, I-EV, O, I-TM, I-LC
-31	##씩	O	I-QT	I-QT, O, I-EV, B-QT, I-LC
-32	장기	O	O	O, I-QT, I-EV, B-LC, B-CV
-33	레이스	O	O	O, B-CV, B-LC, I-EV, B-EV
-34	##를	O	O	O, B-CV, I-EV, B-OG, I-OG
-35	펼친다	O	O	O, B-CV, B-TM, B-OG, B-LC
-36	.	O	O	O, B-LC, B-CV, B-OG, I-EV
-37	[SEP]	O	O	O, B-CV, I-EV, B-LC, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	나영	O	B-PS
+2	##이	O	O
+3	##는	O	O
+4	공포	O	O
+5	##로	O	O
+6	울부짖	O	O
+7	##었	O	O
+8	##겠	O	O
+9	##지만	O	O
+10	지	O	O
+11	##척	O	O
+12	##에	O	O
+13	있	O	O
+14	##었	O	O
+15	##을	O	O
+16	세상	O	O
+17	사람	O	O
+18	##들	O	O
+19	##은	O	O
+20	누구	O	O
+21	##도	O	O
+22	도와	O	O
+23	##주	O	O
+24	##러	O	O
+25	오	O	O
+26	##질	O	O
+27	않	O	O
+28	##았	O	O
+29	##다	O	O
+30	.	O	O
+31	[SEP]	O	O

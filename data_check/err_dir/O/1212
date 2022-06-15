@@ -1,49 +1,20 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-QT
-1	두	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-LC
-2	장	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-EV
-3	##의	O	O	O, I-QT, B-PS, I-EV, I-AF
-4	유리	O	B-MT	B-MT, O, I-MT, B-FD, B-TM
-5	##가	O	O	O, B-PS, I-AF, I-OG, B-CV
-6	모두	O	O	O, B-QT, B-TM, B-OG, B-CV
-7	로이	B-AF	B-MT	B-MT, O, I-MT, B-TR, B-TM
-8	##유리	I-AF	I-MT	I-MT, O, B-MT, I-TR, I-PT
-9	##로	O	O	O, I-MT, I-TM, I-OG, I-AF
-10	적용	O	O	O, B-CV, B-LC, B-TM, B-OG
-11	##돼	O	O	O, B-PS, B-LC, B-OG, B-CV
-12	##야	O	O	O, B-LC, B-PS, B-QT, B-OG
-13	에너지	O	O	O, B-FD, B-TR, B-TM, B-QT
-14	##소	O	O	O, B-PS, I-AF, I-TR, I-QT
-15	##비	O	O	O, B-PS, I-AF, I-OG, I-TR
-16	##효	O	O	O, B-PS, B-TM, B-QT, B-CV
-17	##율	O	O	O, B-PS, B-QT, I-QT, B-LC
-18	1	B-QT	B-QT	B-QT, O, I-QT, B-PS, B-DT
-19	##등	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-20	##급	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-21	##이	O	O	O, I-QT, B-PS, B-OG, B-CV
-22	가능	O	O	O, B-QT, B-TM, B-OG, B-CV
-23	##했	O	O	O, B-PS, B-LC, B-OG, B-CV
-24	##던	O	O	O, B-TM, B-CV, B-LC, B-PS
-25	기존	O	O	O, B-CV, B-TM, B-AF, B-QT
-26	##의	O	O	O, B-AF, I-AF, B-PS, B-CV
-27	이중	O	O	O, B-AF, B-TM, B-CV, B-PS
-28	##창	O	O	O, I-AF, I-TM, B-AF, I-CV
-29	##과	O	O	O, I-AF, I-TM, I-CV, B-CV
-30	달리	O	O	O, B-TM, B-OG, B-LC, B-CV
-31	슈퍼	B-AF	B-AF	B-AF, O, B-TM, B-OG, B-LC
-32	##로이	I-AF	I-AF	I-AF, O, B-AF, I-TM, I-OG
-33	##는	O	O	O, I-AF, I-OG, I-TM, B-CV
-34	단	O	O	O, B-QT, B-PS, I-AF, B-TM
-35	한	B-QT	O	O, B-QT, B-PS, I-QT, B-AF
-36	장만	I-QT	O	O, I-QT, I-LC, B-QT, I-PS
-37	##으로	O	O	O, I-QT, B-PS, B-QT, B-LC
-38	1	B-QT	B-QT	B-QT, O, I-QT, B-EV, B-DT
-39	##등	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-EV
-40	##급	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-EV
-41	확보	O	O	O, I-QT, B-CV, I-OG, I-EV
-42	##가	O	O	O, B-OG, B-PS, I-QT, B-CV
-43	가능	O	O	O, B-CV, B-TM, B-QT, B-OG
-44	##하	O	O	O, B-CV, B-OG, B-LC, B-PS
-45	##다	O	O	O, B-CV, B-TM, B-QT, B-OG
-46	.	O	O	O, B-LC, B-PS, B-QT, B-CV
-47	[SEP]	O	O	O, B-LC, I-AF, B-CV, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	눈썹	B-AM	B-AM
+2	없	O	O
+3	##는	O	O
+4	커다란	O	O
+5	눈	O	B-AM
+6	##망울	O	I-AM
+7	,	O	O
+8	흐릿	O	O
+9	##한	O	O
+10	얼굴	B-AM	B-AM
+11	윤곽	O	O
+12	등이	O	O
+13	묘한	O	O
+14	긴장감	O	O
+15	##을	O	O
+16	준다	O	O
+17	.	O	O
+18	[SEP]	O	O

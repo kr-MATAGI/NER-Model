@@ -1,33 +1,36 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-QT
-1	입	B-AM	B-AM	B-AM, O, B-TM, B-TR, B-PS
-2	##으로	O	O	O, I-AF, B-CV, B-PS, I-QT
-3	내시경	B-TM	B-TM	B-TM, O, B-TR, I-TM, B-AF
-4	##을	O	O	O, I-TM, I-AF, B-CV, I-EV
-5	넣	O	O	O, B-CV, B-OG, B-LC, B-TM
-6	##은	O	O	O, B-CV, B-LC, B-OG, B-TM
-7	뒤	O	O	O, B-TM, B-LC, B-OG, B-CV
-8	십이	B-TM	B-TM	B-TM, O, I-TM, B-LC, B-TR
-9	##지	I-TM	I-TM	I-TM, O, B-TM, I-AF, I-TR
-10	##장	I-TM	I-TM	I-TM, O, I-AF, I-LC, I-QT
-11	##을	O	O	O, I-TM, I-AF, I-OG, I-EV
-12	거쳐	O	O	O, B-OG, B-CV, B-LC, B-TM
-13	담	B-TM	B-TM	B-TM, O, B-LC, B-AF, B-TR
-14	##낭	I-TM	I-TM	I-TM, O, B-TM, I-AF, I-LC
-15	##에	O	O	O, I-TM, I-AF, I-OG, I-QT
-16	들어가	O	O	O, B-LC, B-CV, B-TM, B-OG
-17	담	B-TM	B-TM	B-TM, O, B-MT, B-CV, B-AF
-18	##석	I-TM	I-TM	I-TM, O, I-MT, I-AF, I-TR
-19	##과	O	O	O, I-TM, I-AF, I-OG, I-CV
-20	염증	B-TM	B-TM	B-TM, O, I-TM, B-CV, B-AF
-21	##으로	O	O	O, I-TM, I-AF, B-CV, B-TM
-22	[UNK]	O	O	O, B-CV, B-TM, B-LC, B-MT
-23	담	B-TM	B-MT	B-MT, O, B-CV, B-TM, B-PT
-24	##즙	I-TM	I-MT	I-MT, O, I-TM, I-CV, I-PT
-25	##을	O	O	O, I-TM, I-CV, B-CV, I-AF
-26	빼내	O	O	O, B-CV, B-OG, B-TM, B-LC
-27	##는	O	O	O, B-CV, B-OG, B-LC, B-PS
-28	방식	O	O	O, B-CV, B-TM, B-LC, B-OG
-29	##이다	O	O	O, B-CV, B-TM, I-CV, B-OG
-30	.	O	O	O, B-LC, B-TM, B-CV, B-OG
-31	[SEP]	O	O	O, B-TM, B-CV, B-LC, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	선진	O	O
+2	##기술	O	O
+3	##실	O	O
+4	##증	O	O
+5	##기	O	O
+6	##는	O	O
+7	레이더	O	B-AF
+8	##에	O	O
+9	반사	O	O
+10	##되	O	O
+11	##지	O	O
+12	않	O	O
+13	##는	O	O
+14	탄소	B-MT	B-MT
+15	섬유	I-MT	B-MT
+16	##의	O	O
+17	전파	B-TM	O
+18	##흡	I-TM	O
+19	##수	I-TM	O
+20	##제	I-TM	O
+21	##를	O	O
+22	사용	O	O
+23	##해	O	O
+24	스텔스	O	B-AF
+25	성능	O	O
+26	##을	O	O
+27	갖춘	O	O
+28	것	O	O
+29	##으로	O	O
+30	알려져	O	O
+31	있	O	O
+32	##다	O	O
+33	.	O	O
+34	[SEP]	O	O

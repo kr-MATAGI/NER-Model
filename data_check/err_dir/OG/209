@@ -1,19 +1,43 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-EV
-1	19	B-QT	B-QT	B-QT, I-QT, O, B-DT, B-EV
-2	##세	I-QT	I-QT	I-QT, O, I-EV, I-LC, I-OG
-3	##의	O	O	O, I-QT, I-OG, B-PS, I-EV
-4	스트라이커	B-CV	B-CV	B-CV, O, B-TM, B-PS, B-AF
-5	황희	B-PS	B-PS	B-PS, O, I-PS, B-OG, B-CV
-6	##찬	I-PS	I-PS	I-PS, O, I-OG, I-LC, I-QT
-7	(	O	O	O, I-PS, I-OG, B-CV, I-CV
-8	리퍼	B-OG	B-LC	B-LC, B-OG, B-PS, O, B-TM
-9	##링	I-OG	I-LC	I-LC, I-OG, I-PS, O, I-TM
-10	)	O	O	O, I-OG, I-LC, I-AF, I-CV
-11	도	O	O	O, B-CV, B-LC, B-TM, B-OG
-12	주목	O	O	O, B-CV, B-TM, B-OG, B-LC
-13	##할	O	O	O, B-PS, B-LC, B-OG, I-OG
-14	선수	B-CV	B-CV	B-CV, O, I-CV, B-PS, B-TM
-15	##다	O	O	O, I-CV, I-OG, I-QT, B-CV
-16	.	O	O	O, B-CV, B-LC, B-OG, B-PS
-17	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	역시	O	O
+2	한국	B-EV	B-EV
+3	##전쟁	I-EV	I-EV
+4	##이	O	O
+5	한창	O	O
+6	##이	O	O
+7	##던	O	O
+8	때	O	O
+9	##부터	O	O
+10	미국	B-OG	B-OG
+11	##은	O	O
+12	한	B-OG	B-LC
+13	-	O	O
+14	일	B-OG	B-LC
+15	국교	O	O
+16	##정	O	O
+17	##상	O	O
+18	##화	O	O
+19	##를	O	O
+20	압박	O	O
+21	##했	O	O
+22	##고	O	O
+23	,	O	O
+24	쿠데타	O	O
+25	##로	O	O
+26	집권	O	O
+27	##한	O	O
+28	박정희	B-PS	B-PS
+29	군사	B-OG	B-OG
+30	##정부	I-OG	I-OG
+31	##가	O	O
+32	1965	B-DT	B-DT
+33	##년	I-DT	I-DT
+34	그	O	O
+35	요구	O	O
+36	##를	O	O
+37	수용	O	O
+38	##했	O	O
+39	##다	O	O
+40	.	O	O
+41	[SEP]	O	O

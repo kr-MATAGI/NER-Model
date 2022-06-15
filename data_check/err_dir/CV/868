@@ -1,16 +1,13 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	인류	B-CV	O	O, B-CV, B-LC, B-DT, B-OG
-2	학자	I-CV	B-CV	B-CV, O, I-CV, B-FD, B-QT
-3	##들	O	O	O, I-CV, I-OG, I-QT, B-CV
-4	##의	O	O	O, B-CV, B-PS, B-LC, B-QT
-5	연구	O	O	O, B-CV, B-FD, B-LC, B-PS
-6	##대	O	O	O, I-CV, B-CV, I-AF, B-LC
-7	##상	O	O	O, B-CV, I-CV, B-LC, B-QT
-8	##이	O	O	O, B-CV, B-PS, B-OG, B-LC
-9	되	O	O	O, B-CV, B-QT, B-LC, B-OG
-10	##는	O	O	O, B-CV, B-PS, B-LC, I-CV
-11	가치관	O	O	O, B-CV, B-FD, B-PS, B-QT
-12	##이	O	O	O, B-PS, B-CV, I-CV, B-OG
-13	##고	O	O	O, B-CV, I-AF, I-OG, B-OG
-14	[SEP]	O	O	O, B-CV, B-FD, B-LC, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	컬러	B-CV	B-AF
+2	##볼	I-CV	I-AF
+3	##의	O	O
+4	계절	O	O
+5	##이	O	O
+6	도래	O	O
+7	##한	O	O
+8	것	O	O
+9	##이다	O	O
+10	.	O	O
+11	[SEP]	O	O

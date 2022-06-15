@@ -1,49 +1,39 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-QT
-1	기독교	B-OG	B-OG	B-OG, O, B-EV, B-CV, I-OG
-2	##복음	I-OG	I-OG	I-OG, O, B-OG, I-EV, I-CV
-3	##침	I-OG	I-OG	I-OG, O, I-EV, I-CV, B-OG
-4	##례	I-OG	I-OG	I-OG, O, I-EV, I-CV, B-OG
-5	##회	I-OG	I-OG	I-OG, O, I-CV, I-EV, I-QT
-6	(	O	O	O, I-OG, B-CV, I-CV, I-EV
-7	일명	O	O	O, B-CV, B-OG, B-QT, B-LC
-8	구원	B-OG	B-OG	B-OG, O, B-PS, I-OG, B-AF
-9	##파	I-OG	I-OG	I-OG, O, I-PS, I-AF, I-LC
-10	)	O	O	O, I-OG, B-CV, I-CV, I-AF
-11	신도	B-CV	B-CV	B-CV, O, B-PS, B-AF, B-OG
-12	신	B-PS	B-PS	B-PS, O, I-PS, B-OG, B-LC
-13	##아	O	O	O, I-PS, B-CV, I-QT, I-CV
-14	##무	O	O	O, B-QT, B-CV, B-PS, B-TM
-15	##개	O	O	O, B-PS, B-QT, I-QT, I-LC
-16	(	O	O	O, B-CV, B-PS, B-QT, I-QT
-17	64	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-TM
-18	·	O	O	O, I-QT, I-DT, B-CV, B-PS
-19	구속	B-CV	O	O, B-CV, B-TM, B-TR, B-OG
-20	##기	I-CV	O	O, I-CV, I-TM, I-TR, B-CV
-21	##소	I-CV	O	O, I-CV, I-TM, I-TR, I-OG
-22	)	O	O	O, I-CV, B-PS, B-CV, I-OG
-23	씨	O	O	O, B-CV, B-PS, I-CV, B-TM
-24	##의	O	O	O, B-CV, B-PS, I-CV, B-TM
-25	딸	B-CV	B-CV	B-CV, O, B-PS, I-CV, B-OG
-26	##인	O	O	O, I-CV, B-PS, B-CV, I-PS
-27	박	B-PS	B-PS	B-PS, O, I-PS, B-OG, B-LC
-28	##씨	O	O	O, I-PS, B-CV, I-OG, I-AF
-29	##는	O	O	O, B-CV, B-PS, B-LC, B-TM
-30	태권도	B-CV	B-CV	B-CV, O, B-PS, B-EV, B-AF
-31	선수	B-CV	B-CV	B-CV, I-CV, O, B-PS, I-PS
-32	출신	O	O	O, I-CV, B-CV, B-PS, I-EV
-33	##으로	O	O	O, B-PS, B-CV, B-LC, B-OG
-34	대	B-PS	B-PS	B-PS, O, I-PS, B-OG, B-LC
-35	##균	I-PS	I-PS	I-PS, O, I-OG, I-LC, B-PS
-36	##씨	O	O	O, I-PS, I-LC, B-CV, I-OG
-37	##의	O	O	O, B-CV, B-PS, B-LC, B-TM
-38	경호원	B-CV	B-CV	B-CV, O, B-PS, B-OG, B-AF
-39	노릇	O	O	O, I-CV, I-QT, B-CV, B-QT
-40	##도	O	O	O, B-CV, B-PS, I-CV, I-QT
-41	한	O	O	O, B-CV, B-PS, B-LC, B-QT
-42	것	O	O	O, B-CV, B-PS, B-TM, I-CV
-43	##으로	O	O	O, B-CV, B-PS, I-CV, B-TM
-44	알려졌	O	O	O, B-CV, B-LC, B-TM, B-PS
-45	##다	O	O	O, B-CV, I-CV, B-PS, B-TM
-46	.	O	O	O, B-PS, B-CV, B-LC, B-OG
-47	[SEP]	O	O	O, B-CV, B-PS, B-LC, I-CV
+	text	label	preds
+0	[CLS]	O	O
+1	아베	B-PS	B-PS
+2	정권	O	O
+3	##의	O	O
+4	역사	B-TR	B-TR
+5	수정	I-TR	I-TR
+6	##주의	I-TR	I-TR
+7	##와	O	O
+8	‘	O	O
+9	세월	B-EV	B-EV
+10	##호	I-EV	I-EV
+11	사건	I-EV	I-EV
+12	’	O	O
+13	에서	O	O
+14	확인	O	O
+15	##된	O	O
+16	박근혜	B-PS	B-PS
+17	정권	O	O
+18	##의	O	O
+19	무능	O	O
+20	등	O	O
+21	한	B-LC	B-LC
+22	·	O	O
+23	일	B-LC	B-LC
+24	양국	O	O
+25	##에	O	O
+26	##서	O	O
+27	시민	B-CV	O
+28	##연대	O	O
+29	##의	O	O
+30	중요	O	O
+31	##성이	O	O
+32	커지	O	O
+33	##는	O	O
+34	이유	O	O
+35	##다	O	O
+36	.	O	O
+37	[SEP]	O	O

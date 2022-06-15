@@ -1,33 +1,36 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	자신	O	O	O, B-CV, B-PS, B-TM, B-LC
-2	##이	O	O	O, B-PS, B-CV, B-LC, I-CV
-3	먹	O	O	O, B-CV, I-CV, B-PS, B-TM
-4	##는	O	O	O, B-CV, B-PS, B-LC, B-TM
-5	음식	O	O	O, B-CV, I-CV, B-TM, B-PS
-6	##이	O	O	O, B-PS, B-CV, B-LC, I-CV
-7	태아	O	O	O, B-CV, B-AM, B-TM, B-PS
-8	##에	O	O	O, I-CV, B-PS, B-CV, I-AF
-9	##게	O	O	O, B-LC, B-PS, B-CV, B-TM
-10	어떻게	O	O	O, B-CV, B-LC, B-PS, B-TM
-11	전해	O	O	O, B-CV, B-LC, B-PS, B-QT
-12	##지	O	O	O, B-CV, B-PS, B-LC, I-CV
-13	##는지	O	O	O, B-LC, B-PS, B-CV, B-TM
-14	무신	O	O	O, B-CV, B-PS, B-LC, B-QT
-15	##경	O	O	O, B-PS, B-CV, I-CV, B-LC
-16	##한	O	O	O, B-PS, B-LC, I-PS, B-CV
-17	산모	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-OG
-18	,	O	O	O, I-CV, I-OG, B-CV, I-AF
-19	부모	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-OG
-20	될	O	O	O, I-CV, B-CV, I-QT, I-AF
-21	마음가짐	O	O	O, B-CV, B-PS, B-QT, B-DT
-22	##이	O	O	O, B-PS, B-CV, B-LC, B-OG
-23	아직	O	O	O, B-CV, B-PS, B-LC, B-QT
-24	되	O	O	O, B-PS, B-CV, B-QT, B-LC
-25	##지	O	O	O, B-PS, I-QT, B-LC, B-CV
-26	않	O	O	O, B-PS, B-CV, B-LC, B-QT
-27	##은	O	O	O, B-PS, B-CV, B-LC, I-PS
-28	아버지	O	B-CV	B-CV, O, I-CV, B-TM, B-OG
-29	…	O	O	O, I-CV, B-CV, I-OG, I-QT
-30	.	O	O	O, B-CV, B-PS, B-LC, I-CV
-31	[SEP]	O	O	O, B-CV, B-LC, B-PS, I-CV
+	text	label	preds
+0	[CLS]	O	O
+1	그	O	O
+2	##는	O	O
+3	지난달	B-DT	B-DT
+4	2	B-QT	B-QT
+5	##차례	I-QT	I-QT
+6	경찰	B-OG	B-OG
+7	소환	O	O
+8	조사	O	O
+9	##를	O	O
+10	받	O	O
+11	##은	O	O
+12	뒤	O	O
+13	음	O	B-TR
+14	##독	O	I-TR
+15	##자	O	I-TR
+16	##살	O	I-TR
+17	##을	O	O
+18	시도	O	O
+19	##해	O	O
+20	병원	O	O
+21	치료	O	O
+22	##를	O	O
+23	받	O	O
+24	##다	O	O
+25	4	B-DT	B-DT
+26	##일	I-DT	I-DT
+27	퇴원	O	O
+28	##하	O	O
+29	##기	O	O
+30	##도	O	O
+31	했	O	O
+32	##다	O	O
+33	.	O	O
+34	[SEP]	O	O

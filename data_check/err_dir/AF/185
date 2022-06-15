@@ -1,46 +1,25 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	문재인	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-2	정부	B-OG	B-OG	B-OG, I-OG, B-AF, I-PS, B-LC
-3	들어	O	O	O, I-OG, I-AF, B-CV, I-EV
-4	국정원	B-AF	B-OG	B-OG, B-AF, O, B-FD, B-LC
-5	##은	O	O	O, I-OG, I-AF, I-EV, B-CV
-6	내부	O	O	O, B-TM, B-LC, B-TR, B-CV
-7	개혁	O	O	O, B-PS, B-CV, B-OG, B-LC
-8	##을	O	O	O, B-PS, B-CV, I-OG, B-OG
-9	위해	O	O	O, B-OG, B-LC, B-PS, B-CV
-10	내	O	O	O, B-TM, B-CV, B-PS, B-LC
-11	·	O	O	O, I-TM, I-CV, B-PS, I-PS
-12	외부	O	O	O, B-TM, I-TM, B-LC, B-PS
-13	전문가	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-QT
-14	13	B-QT	B-QT	B-QT, I-QT, O, B-DT, I-CV
-15	##명	I-QT	I-QT	I-QT, O, I-PS, B-QT, I-LC
-16	##으로	O	O	O, I-QT, B-CV, B-OG, B-TM
-17	이뤄진	O	O	O, B-OG, B-LC, B-TM, B-PS
-18	개혁	O	B-OG	B-OG, O, B-CV, B-EV, B-AF
-19	##발전	O	I-OG	I-OG, O, I-CV, I-EV, I-AF
-20	##위원회	O	I-OG	I-OG, O, I-CV, I-EV, I-AF
-21	##를	O	O	O, I-OG, I-EV, I-AF, B-PS
-22	설치	O	O	O, B-OG, B-CV, B-LC, B-TM
-23	##하고	O	O	O, B-PS, B-OG, B-LC, I-OG
-24	산하	O	O	O, B-TM, B-OG, B-LC, B-AF
-25	##에	O	O	O, B-PS, B-OG, I-OG, B-LC
-26	국정원	B-AF	B-OG	B-OG, B-AF, O, B-LC, B-EV
-27	감찰	O	B-CV	B-CV, O, I-CV, I-AF, B-OG
-28	##실	O	I-CV	I-CV, B-CV, O, I-OG, I-AF
-29	##장	O	I-CV	I-CV, O, B-CV, I-OG, I-TM
-30	##을	O	O	O, I-CV, I-OG, B-CV, I-AF
-31	팀장	O	B-CV	B-CV, O, I-CV, B-TM, B-OG
-32	##으로	O	O	O, I-CV, B-CV, B-PS, I-OG
-33	하	O	O	O, B-OG, B-LC, B-PS, B-QT
-34	##는	O	O	O, B-LC, B-OG, B-PS, B-CV
-35	적폐	O	O	O, B-CV, B-OG, B-TR, B-PS
-36	##청	O	O	O, I-CV, I-OG, I-TR, I-TM
-37	##산	O	O	O, I-CV, I-OG, I-TR, I-TM
-38	##T	O	O	O, I-OG, B-OG, I-CV, B-CV
-39	##F	O	O	O, I-OG, I-CV, I-PS, I-EV
-40	##를	O	O	O, I-OG, B-CV, I-AF, I-EV
-41	꾸렸	O	O	O, B-CV, B-OG, B-LC, B-TM
-42	##다	O	O	O, B-CV, I-OG, B-OG, B-LC
-43	.	O	O	O, B-OG, B-LC, B-PS, B-CV
-44	[SEP]	O	O	O, B-CV, B-OG, B-LC, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	그래서	O	O
+2	그	O	O
+3	경찰	B-OG	B-OG
+4	##이	O	O
+5	수사	O	O
+6	##를	O	O
+7	하	O	O
+8	##는	O	O
+9	것	O	O
+10	##보	O	O
+11	##다	O	O
+12	그것	B-AF	O
+13	##이	I-AF	O
+14	알고	I-AF	O
+15	##싶	I-AF	O
+16	##다	I-AF	O
+17	팀	O	O
+18	##에	O	O
+19	##서	O	O
+20	하	O	O
+21	##는	O	O
+22	게	O	O
+23	[SEP]	O	O

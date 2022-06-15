@@ -1,41 +1,27 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	유럽연합	B-OG	B-OG	B-OG, O, B-LC, I-OG, B-EV
-2	(	O	O	O, I-OG, B-OG, I-EV, I-DT
-3	EU	B-OG	I-OG	I-OG, B-OG, O, I-EV, B-LC
-4	)	O	O	O, I-OG, B-OG, I-EV, I-DT
-5	집행	O	O	O, B-OG, I-OG, I-EV, B-EV
-6	##위원회	O	I-OG	I-OG, O, I-EV, B-OG, I-CV
-7	##는	O	O	O, I-OG, B-OG, I-EV, I-DT
-8	5	B-DT	B-DT	B-DT, O, I-DT, B-LC, B-EV
-9	##일	I-DT	I-DT	I-DT, O, B-DT, I-OG, I-EV
-10	순회	O	O	O, B-CV, B-LC, B-EV, B-OG
-11	##의	O	O	O, B-CV, I-CV, B-LC, I-EV
-12	##장	O	O	O, I-CV, B-CV, B-LC, I-LC
-13	##국	O	O	O, I-CV, I-LC, B-LC, B-CV
-14	##인	O	O	O, B-LC, I-CV, B-PS, I-LC
-15	체코	B-LC	B-LC	B-LC, O, B-OG, I-LC, B-AF
-16	당국자	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-AF
-17	##와	O	O	O, I-CV, I-OG, B-CV, B-OG
-18	집행	B-OG	B-OG	B-OG, O, B-CV, B-EV, I-OG
-19	##위	I-OG	I-OG	I-OG, O, I-CV, I-EV, I-AF
-20	고위	B-CV	B-CV	B-CV, O, I-CV, I-OG, B-OG
-21	##관계	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-QT
-22	##자	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-QT
-23	##로	O	O	O, I-CV, I-OG, B-CV, I-QT
-24	구성	O	O	O, B-CV, B-LC, B-TM, B-OG
-25	##된	O	O	O, B-OG, B-LC, I-OG, B-PS
-26	진상	O	O	O, B-OG, B-CV, I-OG, B-PS
-27	##조사	O	O	O, I-OG, I-CV, B-OG, B-CV
-28	##단	O	O	O, I-OG, I-CV, I-AF, B-OG
-29	##을	O	O	O, I-OG, B-LC, B-PS, I-CV
-30	우크라이나	B-LC	B-LC	B-LC, O, B-OG, B-AF, B-PS
-31	수도	B-LC	O	O, B-LC, I-LC, B-CV, I-DT
-32	키	B-LC	B-LC	B-LC, O, I-LC, B-PS, B-AF
-33	##예프	I-LC	I-LC	I-LC, O, B-LC, I-PS, I-AF
-34	##에	O	O	O, I-LC, B-LC, I-AF, I-PS
-35	파견	O	O	O, B-LC, B-OG, B-CV, B-TM
-36	##했	O	O	O, B-LC, B-OG, I-OG, B-PS
-37	##다	O	O	O, I-OG, B-LC, B-CV, B-OG
-38	.	O	O	O, B-LC, B-OG, B-PS, I-OG
-39	[SEP]	O	O	O, B-LC, B-OG, I-OG, B-CV
+	text	label	preds
+0	[CLS]	O	O
+1	이에	O	O
+2	따라	O	O
+3	격식	O	O
+4	##을	O	O
+5	갖춰	O	O
+6	정장	B-CV	B-CV
+7	##을	O	O
+8	입	O	O
+9	##어야	O	O
+10	했	O	O
+11	##던	O	O
+12	삼성전자	B-OG	B-OG
+13	서초	I-OG	B-AF
+14	##사	I-OG	I-AF
+15	##옥	I-OG	I-AF
+16	직원	B-CV	B-CV
+17	##들의	O	O
+18	옷차림	O	O
+19	##이	O	O
+20	한층	O	O
+21	가벼워	O	O
+22	##졌	O	O
+23	##다	O	O
+24	.	O	O
+25	[SEP]	O	O

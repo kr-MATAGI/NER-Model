@@ -1,20 +1,20 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	이른바	O	O	O, B-PS, B-LC, B-TR, B-QT
-2	안철수	B-PS	B-PS	B-PS, O, B-EV, I-PS, B-LC
-3	현상	O	O	O, I-PS, I-TR, B-TR, I-EV
-4	##에	O	O	O, B-PS, I-PS, I-TR, B-TR
-5	대한	O	O	O, B-PS, B-LC, I-PS, B-OG
-6	우리	O	O	O, B-PS, I-PS, B-CV, B-LC
-7	이	O	B-PS	B-PS, O, I-PS, B-LC, B-OG
-8	변호사	B-CV	B-CV	B-CV, O, I-PS, I-CV, I-QT
-9	##의	O	O	O, I-CV, B-PS, B-CV, I-PS
-10	소견	O	O	O, B-CV, B-PS, B-TR, B-QT
-11	##을	O	O	O, B-CV, B-PS, I-CV, I-QT
-12	듣	O	O	O, B-PS, B-CV, B-LC, B-OG
-13	##고	O	O	O, B-PS, I-PS, B-CV, B-LC
-14	싶	O	O	O, B-CV, B-PS, B-LC, I-PS
-15	##습	O	O	O, B-CV, B-PS, B-OG, B-LC
-16	##니다	O	O	O, B-CV, B-PS, B-LC, B-OG
-17	.	O	O	O, B-PS, B-CV, B-LC, B-FD
-18	[SEP]	O	O	O, B-CV, B-PS, B-LC, B-FD
+	text	label	preds
+0	[CLS]	O	O
+1	6	B-DT	B-DT
+2	##일	I-DT	I-DT
+3	오후	B-TI	B-TI
+4	하	O	B-EV
+5	##관	O	I-EV
+6	##의	O	I-EV
+7	##례	O	I-EV
+8	열	O	O
+9	##고	O	O
+10	5	B-EV	B-LC
+11	·	I-EV	I-LC
+12	18	I-EV	I-LC
+13	옛	O	O
+14	##묘	O	I-LC
+15	##지	O	I-LC
+16	##에	O	O
+17	안장	O	O
+18	[SEP]	O	O

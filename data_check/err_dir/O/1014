@@ -1,39 +1,51 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	21	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-2	##일	I-DT	I-DT	I-DT, O, B-DT, I-OG, I-QT
-3	국정원	B-OG	B-OG	B-OG, B-AF, O, B-EV, B-LC
-4	##에	O	O	O, I-OG, I-AF, I-EV, I-DT
-5	따르	O	O	O, B-OG, B-CV, I-OG, B-LC
-6	##면	O	O	O, B-OG, B-LC, B-PS, I-OG
-7	국정원	B-OG	B-OG	B-OG, B-AF, O, B-EV, I-OG
-8	개혁	B-OG	B-OG	B-OG, I-OG, O, B-CV, I-EV
-9	##발전	I-OG	I-OG	I-OG, O, I-EV, B-OG, I-CV
-10	##위원회	I-OG	I-OG	I-OG, O, I-EV, I-CV, I-AF
-11	(	O	O	O, I-OG, I-EV, I-CV, I-AF
-12	개혁	B-OG	B-OG	B-OG, O, B-EV, B-CV, B-AF
-13	##위	I-OG	I-OG	I-OG, O, I-EV, I-CV, I-AF
-14	·	O	O	O, I-OG, I-EV, I-CV, I-AF
-15	위원장	B-CV	B-CV	B-CV, O, B-OG, B-AF, B-PS
-16	정해	B-PS	B-PS	B-PS, B-OG, O, I-PS, B-LC
-17	##구	I-PS	I-PS	I-PS, I-OG, O, I-LC, I-QT
-18	성공회	B-OG	B-OG	B-OG, O, I-OG, B-LC, B-AF
-19	##대	I-OG	I-OG	I-OG, O, I-PS, I-LC, I-AF
-20	교수	B-CV	B-CV	B-CV, O, I-CV, I-OG, B-OG
-21	)	O	O	O, I-CV, I-OG, I-EV, B-CV
-22	는	O	O	O, B-OG, B-CV, B-LC, B-PS
-23	최근	O	O	O, B-DT, B-PS, B-OG, B-LC
-24	국정원	B-OG	B-OG	B-OG, B-AF, O, B-TM, B-LC
-25	##에	O	O	O, I-OG, I-AF, I-EV, I-DT
-26	새로운	O	O	O, B-CV, B-LC, B-OG, B-PS
-27	조직	O	O	O, B-CV, B-TM, B-AF, I-CV
-28	명칭	O	O	O, B-CV, I-CV, B-PS, B-TM
-29	후보	O	B-CV	B-CV, O, I-CV, B-TM, B-AF
-30	두	B-QT	B-QT	B-QT, I-QT, O, I-CV, B-DT
-31	가지	I-QT	I-QT	I-QT, O, I-CV, I-LC, I-PS
-32	##를	O	O	O, I-QT, I-OG, B-CV, I-EV
-33	제안	O	O	O, B-CV, B-OG, B-LC, B-TM
-34	##했	O	O	O, B-CV, B-OG, B-PS, B-LC
-35	##다	O	O	O, B-CV, B-OG, B-LC, I-OG
-36	.	O	O	O, B-OG, B-LC, B-CV, B-PS
-37	[SEP]	O	O	O, B-OG, B-CV, B-LC, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	여	B-OG	B-OG
+2	·	I-OG	O
+3	야	I-OG	O
+4	·	I-OG	O
+5	정	I-OG	O
+6	협의	O	O
+7	##체	O	O
+8	##는	O	O
+9	호주	B-LC	B-LC
+10	,	O	O
+11	캐나다	B-LC	B-LC
+12	두	B-QT	B-QT
+13	나라	I-QT	I-QT
+14	##와	O	O
+15	##의	O	O
+16	자유	B-OG	B-OG
+17	##무역	I-OG	I-OG
+18	##협	I-OG	I-OG
+19	##정	I-OG	I-OG
+20	##에	O	O
+21	따라	O	O
+22	예상	O	O
+23	##되	O	O
+24	##는	O	O
+25	낙	O	O
+26	##농	O	O
+27	·	O	O
+28	축산	O	O
+29	##업	O	O
+30	##계	O	O
+31	피해	O	O
+32	##대	O	O
+33	##책	O	O
+34	##을	O	O
+35	담	O	O
+36	##은	O	O
+37	총	O	O
+38	10	B-QT	B-QT
+39	##개	I-QT	I-QT
+40	##항	O	I-QT
+41	##의	O	O
+42	합의	O	O
+43	##서	O	O
+44	##에	O	O
+45	서명	O	O
+46	##했	O	O
+47	##다	O	O
+48	.	O	O
+49	[SEP]	O	O

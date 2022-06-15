@@ -1,52 +1,21 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-AF
-1	예	O	O	O, B-CV, B-TM, B-OG, B-LC
-2	##를	O	O	O, I-AF, B-PS, B-AF, B-LC
-3	들어	O	O	O, B-LC, B-AF, B-CV, B-OG
-4	아반떼	B-AF	B-AF	B-AF, O, B-PS, B-OG, I-AF
-5	##급	O	O	O, I-AF, I-OG, I-EV, I-TM
-6	승용차	B-AF	B-AF	B-AF, O, I-AF, B-TM, B-OG
-7	##의	O	O	O, I-AF, I-OG, I-EV, I-TM
-8	휘발유	B-MT	B-MT	B-MT, O, B-CV, B-AF, B-TM
-9	##차	O	B-AF	B-AF, O, I-AF, B-MT, B-CV
-10	##는	O	O	O, I-AF, I-OG, B-CV, I-CV
-11	1500	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-LC
-12	##만	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-DT
-13	원	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-14	,	O	O	O, I-QT, B-CV, B-OG, I-OG
-15	배터리	B-TM	B-TM	B-TM, O, B-AF, B-CV, B-TR
-16	##형	O	O	O, I-TM, I-AF, I-CV, I-QT
-17	##은	O	O	O, I-TM, I-AF, B-PS, I-CV
-18	3000	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-PS
-19	##만	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-20	원	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-21	,	O	O	O, I-QT, B-CV, B-OG, B-TM
-22	휘발유	B-MT	B-MT	B-MT, O, B-CV, B-AF, I-MT
-23	##와	O	O	O, I-AF, B-CV, I-CV, I-OG
-24	배터리	B-TM	B-TM	B-TM, O, B-AF, B-CV, B-LC
-25	##를	O	O	O, I-TM, I-AF, B-CV, I-CV
-26	같이	O	O	O, B-QT, B-TM, B-CV, B-AF
-27	쓰	O	O	O, B-CV, B-AF, B-PS, B-TM
-28	##는	O	O	O, B-AF, B-CV, B-TM, B-LC
-29	하이브리드	B-AF	B-AF	B-AF, O, I-AF, B-TM, B-CV
-30	##는	O	O	O, I-AF, B-CV, I-TM, I-OG
-31	3500	O	O	O, B-PS, B-TM, B-LC, B-QT
-32	##만	O	O	O, B-PS, B-LC, B-TM, B-OG
-33	원인	O	O	O, B-PS, B-LC, B-CV, B-TM
-34	데	O	O	O, B-TM, B-LC, B-OG, B-CV
-35	비해	O	O	O, B-LC, B-TM, B-OG, B-CV
-36	온라인	O	O	O, B-TM, B-LC, B-CV, B-QT
-37	충전	O	O	O, B-TM, B-LC, B-CV, I-TM
-38	방식	O	O	O, B-TM, B-CV, I-TM, B-LC
-39	##은	O	O	O, B-LC, B-CV, B-TM, B-OG
-40	1400	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-PS
-41	##만	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-42	원	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-43	##이면	O	O	O, I-QT, B-CV, I-OG, I-EV
-44	생산	O	O	O, B-TM, B-LC, B-CV, B-OG
-45	##이	O	O	O, B-PS, B-OG, B-LC, B-CV
-46	가능	O	O	O, B-CV, B-TM, B-LC, B-OG
-47	##하	O	O	O, B-CV, B-LC, B-OG, I-OG
-48	##다	O	O	O, B-CV, B-TM, I-OG, B-LC
-49	.	O	O	O, B-LC, B-AF, B-TM, B-CV
-50	[SEP]	O	O	O, B-LC, B-CV, B-TM, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	그때	O	O
+2	저	O	O
+3	##는	O	O
+4	법대	O	O
+5	##를	O	O
+6	가	O	O
+7	##고	O	O
+8	싶	O	O
+9	##었	O	O
+10	##어요	O	O
+11	.	O	O
+12	하도	O	O
+13	비리	O	B-CV
+14	##가	O	O
+15	많	O	O
+16	##고	O	O
+17	그러니까	O	O
+18	.	O	O
+19	[SEP]	O	O

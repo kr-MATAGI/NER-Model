@@ -1,19 +1,34 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-AF
-1	강자	O	O	O, B-CV, B-PS, B-OG, B-AF
-2	##가	O	O	O, B-PS, I-CV, I-PS, I-AF
-3	권위주의	O	B-TR	B-TR, O, I-TR, B-PS, B-TM
-4	##로	O	O	O, I-TR, I-PS, I-AF, B-PS
-5	사회	O	O	O, B-CV, B-PS, B-TR, B-FD
-6	##적	O	O	O, I-CV, B-CV, I-TR, B-PS
-7	약자	B-CV	O	O, B-CV, I-CV, B-PS, B-QT
-8	##를	O	O	O, I-CV, B-CV, B-PS, I-OG
-9	짓	O	O	O, B-PS, B-LC, B-CV, B-TM
-10	##누르	O	O	O, B-PS, B-LC, I-PS, B-CV
-11	##는	O	O	O, B-LC, B-PS, B-DT, B-OG
-12	후퇴	O	O	O, B-LC, B-PS, B-TR, B-OG
-13	##한	O	O	O, B-PS, I-PS, B-LC, I-DT
-14	민주주의	B-TR	B-TR	B-TR, O, I-TR, B-PS, B-TM
-15	시대	O	O	O, I-TR, I-DT, I-PS, I-AF
-16	.	O	O	O, B-CV, I-AF, I-OG, I-EV
-17	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	2007	B-DT	B-DT
+2	##년	I-DT	I-DT
+3	12	I-DT	I-DT
+4	##월	I-DT	I-DT
+5	##부터	I-DT	I-DT
+6	싸움	O	O
+7	##이	O	O
+8	시작	O	O
+9	##됐	O	O
+10	##으니	O	O
+11	벌써	O	O
+12	6	B-DT	B-DT
+13	##년	I-DT	I-DT
+14	##째	I-DT	I-DT
+15	##라	O	O
+16	##며	O	O
+17	유	B-PS	B-PS
+18	##득	I-PS	I-PS
+19	##규	I-PS	I-PS
+20	재능	O	B-OG
+21	##지부	O	I-OG
+22	상황실	B-CV	B-CV
+23	##장	I-CV	I-CV
+24	##은	O	O
+25	긴	O	O
+26	한숨	O	O
+27	##을	O	O
+28	쉬	O	O
+29	##었	O	O
+30	##다	O	O
+31	.	O	O
+32	[SEP]	O	O

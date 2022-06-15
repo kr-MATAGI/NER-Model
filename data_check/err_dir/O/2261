@@ -1,45 +1,20 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	민주	B-OG	B-OG	B-OG, O, B-LC, B-PS, B-AF
-2	##통	I-OG	I-OG	I-OG, O, B-OG, I-LC, I-EV
-3	##합	I-OG	I-OG	I-OG, O, I-LC, I-EV, I-AF
-4	##당	I-OG	I-OG	I-OG, O, I-LC, I-PS, I-EV
-5	문재인	B-PS	B-PS	B-PS, O, I-PS, I-OG, B-OG
-6	대선	B-EV	B-EV	B-EV, O, B-CV, I-EV, B-AF
-7	##후	B-CV	B-CV	B-CV, O, I-CV, I-EV, I-AF
-8	##보	I-CV	I-CV	I-CV, O, B-CV, I-EV, I-OG
-9	##는	O	O	O, I-CV, I-EV, I-OG, I-QT
-10	27	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-11	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-12	“	O	O	O, I-DT, B-CV, B-LC, B-PS
-13	민주당	B-OG	B-OG	B-OG, O, B-LC, B-PS, B-AF
-14	##의	O	O	O, I-OG, B-PS, I-EV, B-OG
-15	대화	O	O	O, B-LC, B-OG, B-PS, B-TR
-16	##합	O	O	O, I-OG, I-EV, I-LC, I-PS
-17	##과	O	O	O, B-PS, B-LC, B-OG, I-OG
-18	국민	O	B-OG	B-OG, O, B-LC, B-CV, B-PS
-19	##통	O	O	O, I-OG, I-EV, I-LC, I-CV
-20	##합	O	O	O, I-OG, I-EV, I-LC, I-PS
-21	##을	O	O	O, I-OG, B-PS, I-EV, B-LC
-22	이룰	O	O	O, B-PS, B-LC, B-OG, B-CV
-23	수	O	O	O, B-PS, B-LC, B-OG, B-CV
-24	있	O	O	O, B-PS, B-LC, B-OG, B-CV
-25	##는	O	O	O, B-OG, B-LC, B-PS, B-CV
-26	선거	B-OG	B-OG	B-OG, O, B-EV, B-CV, B-AF
-27	##대	I-OG	I-OG	I-OG, O, B-OG, I-EV, I-AF
-28	##책	I-OG	I-OG	I-OG, O, I-EV, B-OG, I-AF
-29	##위원회	I-OG	I-OG	I-OG, O, I-EV, I-AF, B-OG
-30	##를	O	O	O, I-OG, I-EV, I-AF, B-CV
-31	구성	O	O	O, B-CV, B-OG, B-LC, I-OG
-32	##하	O	O	O, B-PS, B-LC, B-OG, B-CV
-33	##려	O	O	O, B-PS, B-LC, B-OG, B-CV
-34	한다	O	O	O, B-OG, B-LC, B-CV, B-PS
-35	”	O	O	O, B-CV, I-OG, B-LC, I-EV
-36	며	O	O	O, B-LC, B-CV, B-PS, B-TM
-37	통합	O	O	O, B-PS, B-OG, B-LC, B-EV
-38	##을	O	O	O, I-OG, I-EV, I-LC, B-PS
-39	강조	O	O	O, B-CV, B-PS, I-OG, B-LC
-40	##했	O	O	O, B-PS, I-OG, B-LC, B-CV
-41	##다	O	O	O, B-CV, B-LC, I-OG, I-EV
-42	.	O	O	O, B-LC, B-OG, B-PS, B-CV
-43	[SEP]	O	O	O, B-LC, B-OG, I-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	문제	O	O
+2	##의	O	O
+3	광구	O	O
+4	##는	O	O
+5	나이지리아	B-LC	B-LC
+6	심해	O	O
+7	##의	O	O
+8	OP	B-LC	B-TM
+9	##L	I-LC	I-TM
+10	##32	I-LC	I-TM
+11	##1	I-LC	I-TM
+12	,	O	I-TM
+13	32	B-LC	I-TM
+14	##3	I-LC	I-TM
+15	광구	I-LC	I-TM
+16	##다	O	O
+17	.	O	O
+18	[SEP]	O	O

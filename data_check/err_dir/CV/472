@@ -1,46 +1,28 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-EV, I-CV
-1	야당	O	O	O, B-OG, B-CV, B-LC, B-PS
-2	##은	O	O	O, B-CV, I-OG, B-OG, B-PS
-3	정의	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-4	##화	I-PS	I-PS	I-PS, O, I-OG, B-PS, I-LC
-5	국회	B-CV	B-CV	B-CV, O, I-PS, B-OG, B-AF
-6	##의	I-CV	I-CV	I-CV, O, B-CV, I-PS, I-OG
-7	##장	I-CV	I-CV	I-CV, O, I-OG, B-CV, I-EV
-8	##의	O	O	O, I-CV, I-OG, I-EV, I-QT
-9	직권상정	O	O	O, B-TM, B-OG, B-LC, B-CV
-10	거부	O	O	O, B-LC, B-CV, I-EV, B-OG
-11	##로	O	O	O, B-LC, B-PS, I-EV, B-OG
-12	노동	B-CV	O	O, B-CV, B-FD, B-TM, B-QT
-13	##5	I-CV	B-QT	B-QT, O, I-CV, I-QT, I-TM
-14	##법	I-CV	I-QT	I-QT, O, I-CV, I-TM, B-CV
-15	등	O	O	O, I-QT, I-CV, B-PS, B-LC
-16	‘	O	O	O, B-CV, B-LC, B-OG, B-PS
-17	대통령	B-CV	B-CV	B-CV, O, B-OG, B-AF, B-PS
-18	관심	O	O	O, I-CV, B-CV, B-TM, I-EV
-19	법안	O	O	O, B-CV, B-LC, B-TM, I-CV
-20	’	O	O	O, B-PS, B-CV, B-LC, B-OG
-21	국회	B-OG	B-OG	B-OG, B-AF, O, B-LC, B-EV
-22	통과	O	O	O, I-OG, I-AF, I-EV, I-CV
-23	##가	O	O	O, B-PS, B-LC, B-OG, B-TM
-24	가로막	O	O	O, B-TM, B-OG, B-LC, B-CV
-25	##히	O	O	O, B-PS, B-LC, B-OG, B-CV
-26	##자	O	O	O, B-LC, B-OG, B-PS, B-CV
-27	아예	O	O	O, B-CV, B-LC, B-PS, B-OG
-28	국회법	B-CV	B-CV	B-CV, O, B-AF, B-OG, I-CV
-29	##을	O	O	O, I-CV, I-OG, I-AF, B-CV
-30	바꿔	O	O	O, B-LC, B-CV, B-OG, B-TM
-31	법안	O	O	O, B-CV, B-LC, B-OG, B-TM
-32	##을	O	O	O, B-CV, B-OG, B-PS, B-LC
-33	강행	O	O	O, B-CV, B-OG, B-LC, B-TM
-34	##하	O	O	O, B-PS, B-LC, B-OG, B-CV
-35	##려	O	O	O, B-PS, B-LC, B-CV, B-OG
-36	##는	O	O	O, B-PS, B-LC, B-CV, B-OG
-37	의도	O	O	O, B-CV, B-LC, B-PS, B-TM
-38	##라	O	O	O, B-PS, B-LC, B-OG, I-EV
-39	##며	O	O	O, B-OG, B-LC, I-OG, B-CV
-40	비판	O	O	O, B-CV, B-OG, B-LC, B-TM
-41	##했	O	O	O, I-OG, B-CV, B-OG, B-LC
-42	##다	O	O	O, B-CV, B-LC, I-OG, B-OG
-43	.	O	O	O, B-LC, B-OG, B-CV, B-PS
-44	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	2	B-TM	B-TM
+2	##사	I-TM	I-TM
+3	2	B-TM	B-TM
+4	##루	I-TM	I-TM
+5	##에	O	O
+6	##서	O	O
+7	우	B-TM	B-TM
+8	##전	I-TM	I-TM
+9	안타	I-TM	I-TM
+10	##가	O	O
+11	터졌	O	O
+12	##고	O	O
+13	,	O	O
+14	2	B-TM	B-TM
+15	##루	I-TM	I-CV
+16	주자	B-CV	I-CV
+17	저스틴	B-PS	B-PS
+18	모어	I-PS	I-PS
+19	##노	I-PS	I-PS
+20	##가	O	O
+21	홈	O	O
+22	##으로	O	O
+23	달렸	O	O
+24	##다	O	O
+25	.	O	O
+26	[SEP]	O	O

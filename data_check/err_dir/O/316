@@ -1,30 +1,53 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-EV, I-OG
-1	현대차	B-OG	B-OG	B-OG, O, B-AF, B-PS, B-CV
-2	관계자	B-CV	B-CV	B-CV, O, I-CV, I-OG, B-OG
-3	##는	O	O	O, I-CV, I-OG, I-EV, B-CV
-4	“	O	O	O, B-CV, B-LC, B-TM, B-OG
-5	내부	O	O	O, B-CV, B-TM, B-PS, B-FD
-6	##회의	O	O	O, B-PS, B-CV, I-EV, B-LC
-7	##에서	O	O	O, B-PS, B-CV, B-LC, B-OG
-8	세종	B-LC	B-LC	B-LC, B-OG, O, B-AF, B-PS
-9	##시	I-LC	I-LC	I-LC, I-OG, O, I-PS, I-AF
-10	##가	O	O	O, I-LC, I-OG, I-AF, I-PS
-11	거론	O	O	O, B-CV, B-TM, B-QT, B-LC
-12	##된	O	O	O, B-CV, B-PS, B-LC, B-QT
-13	적	O	O	O, B-PS, B-CV, B-QT, B-LC
-14	##이	O	O	O, B-PS, B-CV, B-LC, B-OG
-15	단	O	O	O, B-PS, B-QT, B-LC, B-CV
-16	한	O	B-QT	B-QT, O, I-QT, B-DT, B-LC
-17	번	O	I-QT	I-QT, O, I-LC, I-PS, I-DT
-18	##도	O	O	O, I-QT, B-PS, I-EV, I-DT
-19	없	O	O	O, B-QT, B-CV, I-QT, B-PS
-20	##다	O	O	O, I-QT, B-CV, B-PS, B-QT
-21	”	O	O	O, B-CV, B-TM, I-QT, I-OG
-22	고	O	O	O, B-CV, B-QT, B-TM, B-PS
-23	잘라	O	O	O, B-QT, B-LC, B-PS, B-TM
-24	말	O	O	O, I-QT, B-QT, B-CV, I-TM
-25	##했	O	O	O, I-QT, B-CV, B-PS, I-EV
-26	##다	O	O	O, B-CV, B-TM, B-QT, B-LC
-27	.	O	O	O, B-CV, B-PS, B-LC, B-OG
-28	[SEP]	O	O	O, B-CV, B-PS, B-LC, B-FD
+	text	label	preds
+0	[CLS]	O	O
+1	그러나	O	O
+2	시	B-OG	B-OG
+3	##는	O	O
+4	신축	O	O
+5	대신	O	O
+6	리모	O	O
+7	##델	O	O
+8	##링	O	O
+9	##을	O	O
+10	통해	O	O
+11	구조	O	O
+12	##적	O	O
+13	##으로	O	O
+14	취약	O	O
+15	##한	O	O
+16	건물	O	O
+17	##의	O	O
+18	주요	O	O
+19	구조	O	O
+20	##부	O	O
+21	##를	O	O
+22	철	O	O
+23	##골	O	O
+24	H	O	O
+25	##빔	O	O
+26	##과	O	O
+27	탄소	B-MT	B-MT
+28	##섬유	I-MT	I-MT
+29	보강	O	O
+30	공법	O	O
+31	##으로	O	O
+32	안정	O	O
+33	##화	O	O
+34	##해	O	O
+35	건축물	O	O
+36	##의	O	O
+37	상태	O	O
+38	##를	O	O
+39	D	O	B-QT
+40	##급	O	I-QT
+41	##에	O	O
+42	##서	O	O
+43	C	O	B-QT
+44	##급	O	I-QT
+45	##으로	O	O
+46	향상	O	O
+47	##시	O	O
+48	##켰	O	O
+49	##다	O	O
+50	.	O	O
+51	[SEP]	O	O

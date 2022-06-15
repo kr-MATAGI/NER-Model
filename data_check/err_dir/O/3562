@@ -1,25 +1,23 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	즐겨	O	O	O, B-CV, B-TM, B-PS, B-AF
-2	하	O	O	O, B-CV, B-TM, B-LC, B-PS
-3	##는	O	O	O, B-TM, B-CV, B-AF, B-LC
-4	카톡	B-TM	B-TM	B-TM, O, B-AF, B-CV, B-LC
-5	게임	O	O	O, I-TM, B-TM, I-AF, B-CV
-6	##은	O	O	O, I-TM, I-AF, B-CV, I-CV
-7	달라지	O	O	O, B-CV, B-TM, B-PS, B-AF
-8	##고	O	O	O, B-PS, B-CV, I-AF, B-TM
-9	있	O	O	O, B-CV, B-PS, B-TM, I-AF
-10	##지만	O	O	O, B-PS, B-CV, I-AF, B-LC
-11	,	O	O	O, B-CV, B-PS, B-LC, B-OG
-12	늘	O	O	O, B-PS, B-CV, B-LC, B-AF
-13	변	O	O	O, B-PS, B-CV, B-TM, B-AF
-14	##치	O	O	O, I-AF, B-PS, I-PS, I-QT
-15	않	O	O	O, B-PS, I-AF, B-CV, B-LC
-16	##는	O	O	O, B-PS, B-CV, I-AF, B-TM
-17	사실	O	O	O, B-CV, B-PS, I-AF, B-FD
-18	##이	O	O	O, B-PS, B-CV, I-AF, I-CV
-19	하나	O	B-QT	B-QT, O, B-PS, I-QT, B-CV
-20	있	O	O	O, I-QT, I-AF, I-CV, B-CV
-21	##다	O	O	O, B-CV, I-QT, I-AF, I-CV
-22	.	O	O	O, B-CV, B-PS, B-LC, B-AF
-23	[SEP]	O	O	O, B-CV, I-AF, B-FD, B-AF
+	text	label	preds
+0	[CLS]	O	O
+1	그	O	O
+2	##의	O	O
+3	전투	O	B-CV
+4	##복	O	I-CV
+5	오른쪽	B-TM	B-TM
+6	팔	B-AM	B-AM
+7	##엔	O	O
+8	유엔	B-OG	B-OG
+9	##기	O	O
+10	,	O	O
+11	왼쪽	B-TM	B-TM
+12	팔	B-AM	B-AM
+13	##엔	O	O
+14	태극기	O	O
+15	##가	O	O
+16	달려	O	O
+17	있	O	O
+18	##었	O	O
+19	##다	O	O
+20	.	O	O
+21	[SEP]	O	O

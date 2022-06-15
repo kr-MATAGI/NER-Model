@@ -1,37 +1,52 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	'	O	O	O, B-CV, B-LC, B-PS, B-TM
-2	동무	B-CV	B-CV	B-CV, O, B-AF, B-AM, B-PS
-3	따라	O	O	O, I-CV, I-AF, B-PS, I-PS
-4	강남	B-LC	B-LC	B-LC, O, B-PS, B-AF, B-OG
-5	간다	O	O	O, I-LC, I-AF, B-PS, B-CV
-6	'	O	O	O, B-CV, I-AF, I-CV, B-PS
-7	는	O	O	O, B-CV, B-PS, B-AF, I-CV
-8	속담	O	O	O, B-CV, B-AF, B-FD, B-PS
-9	##은	O	O	O, I-CV, I-AF, B-PS, B-CV
-10	'	O	O	O, B-CV, B-LC, B-PS, B-TM
-11	친구	B-CV	B-CV	B-CV, O, B-AF, B-PS, B-AM
-12	따라	O	O	O, I-CV, I-AF, B-PS, I-PS
-13	강남	B-LC	B-LC	B-LC, O, B-PS, B-AF, B-OG
-14	간다	O	O	O, I-LC, I-AF, B-PS, B-CV
-15	'	O	O	O, I-AF, B-CV, I-CV, B-PS
-16	가	O	O	O, B-PS, B-AF, B-QT, B-CV
-17	되	O	O	O, B-CV, B-QT, B-PS, B-LC
-18	##었	O	O	O, I-CV, I-QT, B-CV, I-AF
-19	##고	O	O	O, I-CV, I-AF, I-QT, I-OG
-20	,	O	O	O, B-CV, B-PS, B-LC, I-AF
-21	어깨	O	O	O, B-AM, B-CV, B-TM, B-PT
-22	##동무	B-CV	O	O, I-CV, I-AM, B-AM, I-TM
-23	##를	O	O	O, I-CV, B-PS, I-AF, B-CV
-24	하	O	O	O, B-CV, B-PS, B-LC, B-QT
-25	##는	O	O	O, B-CV, B-PS, B-TM, I-AF
-26	사람	O	O	O, B-CV, B-AM, B-PS, I-CV
-27	##은	O	O	O, B-PS, B-CV, I-AF, B-TM
-28	동무	O	B-CV	B-CV, O, B-AM, B-AF, B-PS
-29	##가	O	O	O, I-CV, B-PS, I-AF, I-PS
-30	아니	O	O	O, B-PS, B-CV, B-QT, I-AF
-31	##라	O	O	O, B-PS, B-CV, B-LC, B-QT
-32	친구	B-CV	B-CV	B-CV, O, B-AF, B-PS, I-CV
-33	##다	O	O	O, I-CV, I-AF, B-CV, I-OG
-34	.	O	O	O, B-PS, B-CV, B-LC, I-AF
-35	[SEP]	O	O	O, B-CV, I-AF, B-PS, B-AF
+	text	label	preds
+0	[CLS]	O	O
+1	[	O	O
+2	박근혜	B-PS	B-PS
+3	리더십	O	O
+4	]	O	O
+5	“	O	O
+6	국민	B-CV	O
+7	##행	O	O
+8	##복	O	O
+9	##이	O	O
+10	##라는	O	O
+11	나무	B-PT	B-PT
+12	##가	O	O
+13	있	O	O
+14	##는데	O	O
+15	거름	O	O
+16	줘도	O	O
+17	안	O	O
+18	자라	O	O
+19	##면	O	O
+20	…	O	O
+21	”	O	O
+22	성과	O	O
+23	없	O	O
+24	##으면	O	O
+25	2	B-QT	B-QT
+26	##단	I-QT	I-QT
+27	##계	I-QT	I-QT
+28	##로	O	O
+29	콕	O	O
+30	집어	O	O
+31	‘	O	O
+32	돌	O	O
+33	##직	O	O
+34	##구	O	O
+35	’	O	O
+36	…	O	O
+37	정말	O	O
+38	화나	O	O
+39	##면	O	O
+40	3	B-QT	B-QT
+41	##단	I-QT	I-QT
+42	##계	I-QT	I-QT
+43	##로	O	O
+44	‘	O	O
+45	국민	B-CV	B-CV
+46	##께	O	O
+47	책임	O	O
+48	’	O	O
+49	거론	O	O
+50	[SEP]	O	O

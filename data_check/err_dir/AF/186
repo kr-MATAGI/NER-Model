@@ -1,23 +1,27 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	최근	O	O	O, B-LC, B-PS, B-DT, B-CV
-2	‘	O	O	O, B-PS, B-CV, B-OG, B-LC
-3	남쪽	B-AF	B-LC	B-LC, O, B-TM, B-OG, B-AF
-4	##으로	I-AF	O	O, I-LC, I-AF, I-OG, B-PS
-5	튀	I-AF	O	O, I-AF, I-LC, B-PS, B-LC
-6	##어	I-AF	O	O, I-AF, I-LC, B-PS, I-PS
-7	’	O	O	O, B-PS, B-CV, I-AF, B-OG
-8	가	O	O	O, B-PS, B-OG, B-LC, B-CV
-9	관객	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-TM
-10	##이	O	O	O, B-PS, I-CV, B-OG, I-PS
-11	안	O	O	O, B-PS, B-CV, B-LC, B-OG
-12	들어	O	O	O, B-PS, B-CV, B-OG, B-TM
-13	그	O	O	O, B-CV, B-PS, I-CV, B-OG
-14	##도	O	O	O, B-CV, B-PS, B-LC, I-CV
-15	처음	O	O	O, B-CV, B-QT, B-PS, B-TM
-16	좌절	O	O	O, B-CV, B-TM, B-OG, I-EV
-17	##을	O	O	O, B-CV, B-PS, B-OG, I-OG
-18	맛봤	O	O	O, B-CV, B-OG, B-PS, B-LC
-19	##다	O	O	O, B-CV, B-PS, I-OG, B-LC
-20	.	O	O	O, B-PS, B-CV, B-LC, B-OG
-21	[SEP]	O	O	O, B-CV, B-PS, B-LC, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	고스	B-AF	B-LC
+2	##즈	I-AF	I-LC
+3	##메	I-AF	I-LC
+4	정수장	I-AF	O
+5	##이	O	O
+6	여과	O	O
+7	##지	O	O
+8	위	O	O
+9	##에	O	O
+10	태양광	B-TM	B-TM
+11	패널	I-TM	I-TM
+12	##을	O	O
+13	덮	O	O
+14	##게	O	O
+15	된	O	O
+16	것	O	O
+17	##은	O	O
+18	정수장	O	O
+19	직원	B-CV	B-CV
+20	##의	O	O
+21	아이디어	O	O
+22	##였	O	O
+23	##다	O	O
+24	.	O	O
+25	[SEP]	O	O

@@ -1,36 +1,56 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	연구	B-CV	B-CV	B-CV, O, B-OG, B-TM, B-AF
-2	##진	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-TM
-3	##은	O	O	O, I-CV, B-CV, I-OG, B-TM
-4	보석	B-AM	B-AM	B-AM, O, B-TM, B-PS, B-TR
-5	##딱	I-AM	I-AM	I-AM, I-TM, O, I-CV, I-TR
-6	##정	I-AM	I-AM	I-AM, I-TM, O, I-PT, I-CV
-7	##벌레	I-AM	I-AM	I-AM, I-TM, O, I-PT, I-CV
-8	##는	O	O	O, I-TM, I-AM, I-CV, B-CV
-9	버려진	O	O	O, B-CV, B-AF, B-TM, B-QT
-10	맥주	O	B-CV	B-CV, O, B-AF, B-PT, B-MT
-11	##병	O	O	O, I-AF, I-CV, B-AF, I-EV
-12	##의	O	O	O, I-AF, B-AF, B-TM, B-PS
-13	색깔	O	O	O, B-TM, B-CV, B-LC, B-AF
-14	##과	O	O	O, B-PS, B-TM, B-LC, B-CV
-15	모양	O	O	O, B-TM, B-CV, B-QT, B-LC
-16	##에	O	O	O, B-PS, B-CV, B-TM, B-LC
-17	헷갈	O	O	O, B-TM, B-CV, B-LC, B-PS
-18	##려	O	O	O, B-CV, B-TM, B-LC, B-PS
-19	병	O	O	O, B-TM, B-AF, B-CV, B-LC
-20	위	O	O	O, B-TM, B-CV, I-TM, B-AM
-21	##에	O	O	O, I-TM, B-CV, B-TM, B-LC
-22	올라가	O	O	O, B-CV, B-TM, B-LC, B-QT
-23	짝	O	O	O, B-TM, B-CV, B-AM, B-LC
-24	##짓기	O	O	O, I-TM, I-CV, I-EV, I-LC
-25	##를	O	O	O, B-CV, B-PS, I-EV, B-TM
-26	시도	O	O	O, B-CV, B-TM, B-LC, B-PS
-27	##한다	O	O	O, B-CV, B-TM, B-LC, B-PS
-28	##는	O	O	O, B-CV, B-TM, B-LC, B-OG
-29	사실	O	O	O, B-CV, B-TM, B-QT, B-PS
-30	##을	O	O	O, B-CV, B-TM, B-OG, I-CV
-31	밝혀냈	O	O	O, B-CV, B-TM, B-OG, B-LC
-32	##다	O	O	O, B-CV, B-TM, I-CV, B-OG
-33	.	O	O	O, B-CV, B-TM, B-LC, B-PS
-34	[SEP]	O	O	O, B-CV, B-TM, B-LC, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	이	O	O
+2	관현	O	O
+3	##악단	O	O
+4	홍	B-PS	B-PS
+5	##희	I-PS	I-PS
+6	##철	I-PS	I-PS
+7	지휘자	B-CV	B-CV
+8	##는	O	O
+9	""""	O	O
+10	부산	B-LC	B-LC
+11	##의	O	O
+12	뿌리	O	O
+13	##인	O	O
+14	동래	B-LC	B-LC
+15	##에	O	O
+16	##서	O	O
+17	자체	O	O
+18	국악	O	B-OG
+19	##관	O	I-OG
+20	##현	O	I-OG
+21	##악단	O	I-OG
+22	##을	O	O
+23	가졌	O	O
+24	##다는	O	O
+25	것	O	O
+26	##은	O	O
+27	큰	O	O
+28	의미	O	O
+29	##가	O	O
+30	있	O	O
+31	##다	O	O
+32	""""	O	O
+33	며	O	O
+34	""""	O	O
+35	지역	O	O
+36	전통문화	O	O
+37	붐	O	O
+38	##을	O	O
+39	일으키	O	O
+40	##는	O	O
+41	데	O	O
+42	한	O	O
+43	몫	O	O
+44	##하	O	O
+45	##고	O	O
+46	싶	O	O
+47	##다	O	O
+48	""""	O	O
+49	고	O	O
+50	말	O	O
+51	##했	O	O
+52	##다	O	O
+53	.	O	O
+54	[SEP]	O	O

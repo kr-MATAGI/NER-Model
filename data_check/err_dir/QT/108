@@ -1,47 +1,43 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-AF, I-EV
-1	이	O	O	O, B-CV, B-PS, B-TM, B-LC
-2	이야기	O	O	O, B-CV, I-EV, B-FD, I-AF
-3	##는	O	O	O, B-CV, B-PS, B-LC, B-OG
-4	지난	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-QT
-5	2	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-6	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
-7	도쿄	B-LC	B-LC	B-LC, O, I-LC, B-OG, B-AF
-8	스미	B-LC	B-LC	B-LC, O, I-LC, B-AF, B-PS
-9	##다	I-LC	I-LC	I-LC, O, B-LC, I-AF, I-PS
-10	##구	I-LC	I-LC	I-LC, O, I-AF, I-PS, B-LC
-11	아라	B-AF	B-AF	B-AF, O, B-LC, I-AF, B-PS
-12	##카와	I-AF	I-AF	I-AF, I-LC, O, I-OG, I-PS
-13	##제	I-AF	I-AF	I-AF, O, I-LC, I-OG, I-PS
-14	##방	I-AF	I-AF	I-AF, O, I-LC, I-OG, I-PS
-15	##에서	O	O	O, I-AF, I-LC, I-EV, B-PS
-16	시민	O	O	O, B-CV, B-EV, B-OG, B-FD
-17	##단체	O	O	O, I-EV, I-OG, I-CV, B-CV
-18	봉	O	O	O, B-EV, B-PS, B-LC, B-OG
-19	##선	O	O	O, I-EV, I-PS, I-LC, I-OG
-20	##화가	O	O	O, B-PS, I-EV, I-PS, B-LC
-21	연	O	O	O, B-PS, B-EV, B-LC, I-EV
-22	간	B-EV	B-EV	B-EV, B-LC, O, I-EV, B-PS
-23	##토	I-EV	I-EV	I-EV, I-LC, O, I-PS, B-LC
-24	##대	I-EV	I-EV	I-EV, I-LC, O, I-AF, I-PS
-25	##지	I-EV	I-EV	I-EV, I-LC, O, I-AF, I-QT
-26	##진	I-EV	I-EV	I-EV, I-LC, O, I-QT, I-AF
-27	조선인	I-EV	I-EV	I-EV, B-EV, I-LC, O, B-LC
-28	##학	I-EV	I-EV	I-EV, O, I-LC, I-QT, I-AF
-29	##살	I-EV	I-EV	I-EV, O, I-LC, I-AF, I-DT
-30	94	B-QT	I-EV	I-EV, B-QT, B-DT, B-EV, I-DT
-31	##주	I-QT	I-EV	I-EV, I-QT, I-DT, O, I-AF
-32	##기	I-QT	I-QT	I-QT, I-EV, O, I-DT, I-OG
-33	추도	O	O	O, I-EV, I-QT, B-EV, I-DT
-34	##식	O	O	O, I-EV, I-DT, I-QT, I-OG
-35	##에서	O	O	O, I-EV, B-CV, I-DT, I-QT
-36	소개	O	O	O, B-CV, B-LC, B-TM, I-EV
-37	##된	O	O	O, B-PS, B-CV, B-LC, B-DT
-38	신창	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-AF
-39	##범	I-PS	I-PS	I-PS, O, I-OG, I-LC, B-PS
-40	##씨	O	O	O, I-PS, B-CV, I-AF, I-OG
-41	##의	O	O	O, B-CV, B-LC, B-TM, I-AF
-42	증언	O	O	O, B-CV, B-TM, B-FD, B-LC
-43	##이다	O	O	O, B-CV, I-CV, I-EV, B-TM
-44	.	O	O	O, B-LC, B-CV, B-PS, I-EV
-45	[SEP]	O	O	O, B-LC, B-CV, I-EV, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	연말	B-DT	B-DT
+2	##에	O	O
+3	##는	O	O
+4	베트남	B-LC	B-LC
+5	3	B-QT	B-QT
+6	,	O	I-QT
+7	4	B-QT	I-QT
+8	##호	I-QT	I-QT
+9	##점	I-QT	I-QT
+10	##을	O	O
+11	연달	O	O
+12	##아	O	O
+13	오픈	O	O
+14	##하면	O	O
+15	##서	O	O
+16	국내	O	O
+17	(	O	O
+18	102	B-QT	B-QT
+19	##개	I-QT	I-QT
+20	점	O	O
+21	)	O	O
+22	보다	O	O
+23	해외	O	O
+24	(	O	O
+25	134	B-QT	B-QT
+26	##개	I-QT	I-QT
+27	점	O	O
+28	)	O	O
+29	에서	O	O
+30	더	O	O
+31	많	O	O
+32	##은	O	O
+33	점포	O	O
+34	##를	O	O
+35	운영	O	O
+36	##하	O	O
+37	##고	O	O
+38	있	O	O
+39	##다	O	O
+40	.	O	O
+41	[SEP]	O	O

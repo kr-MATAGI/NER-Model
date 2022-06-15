@@ -1,47 +1,43 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	제일	B-OG	B-OG	B-OG, O, B-PS, B-AF, B-LC
-2	##병원	I-OG	I-OG	I-OG, O, I-AF, B-OG, I-LC
-3	산부인과	B-FD	B-FD	B-FD, I-OG, O, I-FD, B-CV
-4	한정	B-PS	B-PS	B-PS, O, B-OG, I-PS, I-OG
-5	##렬	I-PS	I-PS	I-PS, O, I-OG, I-LC, I-QT
-6	교수	B-CV	O	O, B-CV, B-OG, I-CV, B-FD
-7	##팀	O	O	O, I-CV, I-OG, B-CV, I-TR
-8	##이	O	O	O, B-PS, I-CV, B-CV, I-OG
-9	35	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-PS
-10	##12	I-QT	I-QT	I-QT, O, B-QT, I-PS, I-LC
-11	##명	I-QT	I-QT	I-QT, O, I-PS, I-LC, B-QT
-12	##의	O	O	O, I-QT, B-CV, B-PS, B-TM
-13	산모	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-TM
-14	##를	O	O	O, I-CV, B-CV, B-TM, I-QT
-15	대상	O	O	O, B-CV, B-TM, B-LC, B-QT
-16	##으로	O	O	O, B-CV, B-PS, B-LC, I-QT
-17	조사	O	O	O, B-CV, B-TM, B-LC, B-QT
-18	##한	O	O	O, B-PS, B-LC, B-OG, B-CV
-19	결과	O	O	O, B-CV, B-TM, B-OG, B-LC
-20	,	O	O	O, B-CV, B-LC, B-OG, B-TM
-21	임신	O	B-TM	B-TM, O, B-TR, B-AM, B-CV
-22	초기	O	O	O, I-TM, I-DT, I-TR, I-CV
-23	##에	O	O	O, I-TM, I-DT, B-CV, I-AF
-24	피임	B-TM	B-TM	B-TM, O, B-CV, B-AF, I-TM
-25	##약	I-TM	I-TM	I-TM, O, I-AF, I-CV, I-TR
-26	##을	O	O	O, I-TM, I-AF, I-CV, B-CV
-27	먹	O	O	O, B-CV, B-TM, B-PS, B-LC
-28	##은	O	O	O, B-CV, B-PS, B-TM, B-QT
-29	산모	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-OG
-30	중	O	O	O, I-CV, B-QT, B-TM, B-PS
-31	인공	B-TM	B-TM	B-TM, O, B-TR, B-CV, I-TM
-32	##유산	I-TM	I-TM	I-TM, O, I-TR, B-TM, I-QT
-33	##을	O	O	O, I-TM, I-TR, I-QT, I-AF
-34	한	O	O	O, B-QT, B-PS, B-TM, B-LC
-35	사람	O	O	O, I-QT, B-QT, I-LC, I-TM
-36	##이	O	O	O, B-PS, I-QT, B-QT, B-CV
-37	11	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-PS
-38	%	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-39	인	O	O	O, I-QT, B-PS, B-CV, B-QT
-40	것	O	O	O, B-CV, B-TM, I-QT, B-QT
-41	##으로	O	O	O, B-CV, I-QT, B-TM, I-OG
-42	나타났	O	O	O, B-CV, B-LC, B-TM, B-PS
-43	##다	O	O	O, B-CV, B-TM, I-OG, B-LC
-44	.	O	O	O, B-CV, B-LC, B-PS, B-TM
-45	[SEP]	O	O	O, B-CV, B-TM, B-LC, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	이혜	B-PS	B-PS
+2	##훈	I-PS	I-PS
+3	전	O	O
+4	대표	B-CV	O
+5	##가	O	O
+6	7	B-DT	B-DT
+7	##일	I-DT	I-DT
+8	금품	B-CV	B-CV
+9	##수수	I-CV	I-CV
+10	의혹	O	O
+11	##으로	O	O
+12	사퇴	O	O
+13	##한	O	O
+14	뒤	O	O
+15	지도부	O	O
+16	공백	O	O
+17	상태	O	O
+18	##인	O	O
+19	바른	B-OG	B-OG
+20	##정	I-OG	I-OG
+21	##당	I-OG	I-OG
+22	##의	O	O
+23	새	O	O
+24	리더	B-CV	B-CV
+25	##로	O	O
+26	4	B-QT	B-QT
+27	##선	I-QT	I-QT
+28	##의	O	O
+29	유승민	B-PS	B-PS
+30	의원	B-CV	B-CV
+31	##이	O	O
+32	‘	O	O
+33	구원	O	O
+34	등판	O	O
+35	’	O	O
+36	할	O	O
+37	것	O	O
+38	##으로	O	O
+39	보인다	O	O
+40	.	O	O
+41	[SEP]	O	O

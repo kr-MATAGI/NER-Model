@@ -1,10 +1,13 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, I-OG, B-CV, I-AF
-1	거의	O	O	O, B-DT, B-CV, B-QT, B-PS
-2	육	B-DT	B-DT	B-DT, O, B-QT, I-DT, B-EV
-3	일	I-DT	I-DT	I-DT, B-DT, O, I-QT, I-EV
-4	주	B-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
-5	육	B-DT	B-DT	B-DT, I-DT, B-QT, O, B-EV
-6	일	I-DT	I-DT	I-DT, O, I-QT, B-DT, I-EV
-7	##로	O	O	O, I-DT, I-QT, I-EV, B-CV
-8	[SEP]	O	O	O, B-CV, I-DT, B-DT, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	그거	O	O
+2	자격증	O	O
+3	##을	O	O
+4	따	O	O
+5	##서	O	O
+6	일	B-DT	O
+7	년	I-DT	O
+8	##찬	O	O
+9	##데	O	O
+10	지금	O	O
+11	[SEP]	O	O

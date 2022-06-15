@@ -1,31 +1,57 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-EV, B-CV, I-CV
-1	국산	O	O	O, B-LC, B-TM, B-OG, B-CV
-2	슈퍼	B-TM	B-TM	B-TM, O, I-TM, B-AF, B-OG
-3	##컴	I-TM	I-TM	I-TM, O, B-TM, I-OG, I-QT
-4	##퓨	I-TM	I-TM	I-TM, O, B-TM, I-OG, I-QT
-5	##터	I-TM	I-TM	I-TM, O, I-OG, B-TM, I-QT
-6	‘	O	O	O, I-TM, B-OG, I-OG, B-LC
-7	천둥	O	B-AF	B-AF, B-OG, B-PS, O, B-TM
-8	’	O	O	O, I-OG, I-AF, I-TM, I-PS
-9	이	O	O	O, B-PS, B-OG, B-LC, I-OG
-10	13	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-11	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-12	‘	O	O	O, I-DT, B-OG, B-CV, B-LC
-13	세계	O	O	O, B-EV, B-LC, B-OG, B-AF
-14	슈퍼	B-TM	B-TM	B-TM, B-EV, O, I-EV, I-TM
-15	##컴	I-TM	I-TM	I-TM, I-EV, O, I-AF, I-OG
-16	##퓨	I-TM	I-TM	I-TM, O, I-EV, I-AF, I-OG
-17	##터	I-TM	I-TM	I-TM, O, I-EV, I-AF, I-QT
-18	톱	O	B-QT	B-QT, O, I-TM, I-QT, B-TM
-19	500	B-QT	I-QT	I-QT, B-QT, I-TM, O, I-AF
-20	’	O	O	O, I-QT, I-EV, I-DT, I-TM
-21	에서	O	O	O, B-CV, B-OG, B-LC, I-QT
-22	27	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-EV
-23	##8	I-QT	I-QT	I-QT, B-QT, O, I-LC, I-AF
-24	##위	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-AF
-25	##에	O	O	O, I-QT, I-OG, I-EV, I-AF
-26	올랐	O	O	O, B-CV, B-OG, B-LC, B-TM
-27	##다	O	O	O, B-CV, B-OG, B-LC, I-OG
-28	.	O	O	O, B-LC, B-OG, B-TM, B-CV
-29	[SEP]	O	O	O, B-LC, B-OG, B-TM, B-CV
+	text	label	preds
+0	[CLS]	O	O
+1	이번	O	O
+2	2	B-QT	B-QT
+3	##차	I-QT	I-QT
+4	조사	I-QT	O
+5	(	O	O
+6	추가	O	O
+7	및	O	O
+8	보완	O	O
+9	조사	O	O
+10	)	O	O
+11	는	O	O
+12	2011	B-DT	B-DT
+13	##년	I-DT	I-DT
+14	7	I-DT	I-DT
+15	##월	I-DT	I-DT
+16	사태	O	O
+17	(	O	O
+18	16	B-QT	B-QT
+19	##명	I-QT	I-QT
+20	사망	O	O
+21	,	O	O
+22	51	B-QT	B-QT
+23	##명	I-QT	I-QT
+24	부상	O	O
+25	)	O	O
+26	직후	O	O
+27	##부터	O	O
+28	같	B-DT	B-DT
+29	##은	I-DT	I-DT
+30	해	I-DT	I-DT
+31	11	I-DT	I-DT
+32	##월	I-DT	I-DT
+33	##까	I-DT	I-DT
+34	##지	I-DT	I-DT
+35	실시	O	O
+36	##한	O	O
+37	1	B-QT	B-QT
+38	##차	I-QT	I-QT
+39	원인	O	O
+40	##조사	O	O
+41	##에	O	O
+42	대해	O	O
+43	피해	O	O
+44	주민	B-CV	B-CV
+45	등이	O	O
+46	이의	O	O
+47	##를	O	O
+48	제기	O	O
+49	##해	O	O
+50	진행	O	O
+51	##한	O	O
+52	것	O	O
+53	##이다	O	O
+54	.	O	O
+55	[SEP]	O	O

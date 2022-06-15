@@ -1,33 +1,45 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	역사	B-FD	B-FD	B-FD, O, B-CV, B-AF, I-FD
-2	##교사	B-CV	B-CV	B-CV, O, I-CV, I-FD, I-OG
-3	##들	O	O	O, I-CV, I-OG, I-AF, I-QT
-4	##은	O	O	O, B-CV, B-OG, B-PS, B-LC
-5	국가	O	O	O, B-OG, B-CV, B-PS, I-OG
-6	##가	O	O	O, B-PS, I-OG, B-OG, B-LC
-7	관리	O	O	O, B-OG, B-AF, B-CV, B-LC
-8	##하	O	O	O, B-PS, B-AF, B-OG, B-LC
-9	##는	O	O	O, B-AF, B-OG, B-PS, B-LC
-10	국정	B-AF	O	O, B-AF, B-OG, B-FD, B-CV
-11	교과서	I-AF	O	O, I-AF, I-OG, B-AF, I-TM
-12	##가	O	O	O, I-AF, I-OG, B-PS, I-EV
-13	검정	B-AF	O	O, B-AF, B-FD, B-OG, B-CV
-14	교과서	I-AF	O	O, I-AF, I-OG, B-AF, I-EV
-15	##보	O	O	O, I-AF, B-CV, B-PS, I-OG
-16	##다	O	O	O, B-LC, B-CV, B-PS, B-OG
-17	질	O	O	O, B-LC, B-PS, B-TM, B-QT
-18	##적으로	O	O	O, B-LC, B-PS, B-CV, I-QT
-19	나으리	O	O	O, B-LC, B-OG, B-QT, B-PS
-20	##라는	O	O	O, B-PS, I-QT, B-CV, I-OG
-21	기대	O	O	O, B-CV, B-PS, B-TR, B-OG
-22	##도	O	O	O, B-PS, I-CV, I-AF, I-PS
-23	근거	O	O	O, B-TR, B-TM, B-CV, B-PS
-24	##가	O	O	O, B-PS, B-LC, B-OG, I-OG
-25	없	O	O	O, B-CV, B-PS, B-QT, B-LC
-26	##다고	O	O	O, B-CV, I-QT, I-OG, B-PS
-27	반박	O	O	O, B-CV, B-TM, B-LC, B-OG
-28	##했	O	O	O, B-CV, B-PS, I-OG, I-CV
-29	##다	O	O	O, B-CV, B-TM, B-LC, I-OG
-30	.	O	O	O, B-LC, B-PS, B-OG, B-CV
-31	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	문화재청	B-OG	B-OG
+2	##은	O	O
+3	98	B-DT	B-DT
+4	##년	I-DT	I-DT
+5	청주시	B-LC	B-LC
+6	명암	B-LC	B-LC
+7	##동	I-LC	I-LC
+8	##에	O	O
+9	##서	O	O
+10	출토	O	O
+11	##된	O	O
+12	‘	O	O
+13	단	B-AF	B-AF
+14	##산	I-AF	I-AF
+15	##오	I-AF	I-AF
+16	##옥	I-AF	I-AF
+17	(	I-AF	I-AF
+18	丹	I-AF	O
+19	山	I-AF	O
+20	烏	I-AF	O
+21	玉	I-AF	O
+22	)	I-AF	O
+23	명	I-AF	I-AF
+24	고려	I-AF	I-AF
+25	먹	I-AF	I-AF
+26	’	O	O
+27	을	O	O
+28	국가	O	O
+29	##지	O	O
+30	##정	O	O
+31	##문화재	O	O
+32	##인	O	O
+33	보물	O	O
+34	##로	O	O
+35	지정	O	O
+36	##했	O	O
+37	##다고	O	O
+38	23	B-DT	B-DT
+39	##일	I-DT	I-DT
+40	밝혔	O	O
+41	##다	O	O
+42	.	O	O
+43	[SEP]	O	O

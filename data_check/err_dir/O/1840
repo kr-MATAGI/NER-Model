@@ -1,8 +1,32 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	국	O	B-CV	B-CV, O, B-OG, I-CV, B-AF
-2	같	O	O	O, I-CV, I-OG, I-AF, B-CV
-3	##은	O	O	O, I-CV, B-CV, I-OG, I-AF
-4	거	O	O	O, B-CV, B-OG, B-PS, I-AF
-5	##는	O	O	O, B-CV, B-OG, I-OG, B-TM
-6	[SEP]	O	O	O, B-CV, B-LC, B-OG, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	프랑스	B-LC	B-LC
+2	고등교육	O	O
+3	##기	O	O
+4	##관	O	O
+5	##인	O	O
+6	‘	O	O
+7	그랑	O	B-OG
+8	##제	O	I-OG
+9	##콜	O	I-OG
+10	’	O	O
+11	처럼	O	O
+12	우리	O	O
+13	##나라	O	O
+14	##에도	O	O
+15	학사	B-CV	B-CV
+16	##와	O	O
+17	석사	B-CV	B-CV
+18	과정	O	O
+19	##이	O	O
+20	통합	O	O
+21	##된	O	O
+22	전문대	O	O
+23	##학	O	O
+24	##원	O	O
+25	##이	O	O
+26	도입	O	O
+27	##된	O	O
+28	##다	O	O
+29	.	O	O
+30	[SEP]	O	O

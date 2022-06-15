@@ -1,34 +1,34 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-AF, I-EV, I-CV
-1	다음	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-2	달	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
-3	17	I-DT	I-DT	I-DT, B-DT, O, I-QT, I-PS
-4	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-OG
-5	김해	B-LC	B-LC	B-LC, O, B-AF, B-OG, I-DT
-6	##∼	O	O	O, I-LC, I-DT, B-LC, I-AF
-7	##일	B-LC	B-LC	B-LC, O, I-LC, B-AF, B-OG
-8	##본	I-LC	I-LC	I-LC, O, B-LC, I-AF, I-OG
-9	오키나와	B-LC	B-LC	B-LC, I-LC, O, I-AF, B-AF
-10	노선	O	O	O, I-LC, I-AF, B-LC, B-AF
-11	,	O	O	O, B-LC, B-OG, I-AF, I-LC
-12	12	B-DT	B-DT	B-DT, I-DT, O, B-QT, B-OG
-13	##월	I-DT	I-DT	I-DT, B-DT, O, I-QT, I-PS
-14	5	I-DT	I-DT	I-DT, B-DT, O, I-QT, I-PS
-15	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-OG
-16	김해	B-LC	B-LC	B-LC, O, B-AF, B-OG, I-DT
-17	##∼	O	O	O, I-LC, I-DT, I-AF, B-LC
-18	##필	B-LC	B-LC	B-LC, B-AF, B-OG, O, B-PS
-19	##리	I-LC	I-LC	I-LC, I-AF, I-OG, B-LC, O
-20	##핀	I-LC	I-LC	I-LC, I-AF, I-OG, O, B-LC
-21	클라크	B-LC	I-LC	I-LC, I-AF, I-OG, B-LC, O
-22	노선	O	O	O, I-LC, I-AF, B-LC, I-OG
-23	##을	O	O	O, I-AF, B-LC, I-LC, B-CV
-24	각각	O	O	O, B-QT, B-DT, B-LC, B-EV
-25	주	O	O	O, I-DT, I-QT, B-DT, I-EV
-26	2	B-QT	B-QT	B-QT, I-QT, O, B-DT, I-DT
-27	##회	I-QT	I-QT	I-QT, O, I-DT, I-LC, I-PS
-28	##씩	I-QT	I-QT	I-QT, O, I-LC, I-DT, B-QT
-29	운항	O	O	O, I-QT, B-CV, B-AF, B-LC
-30	##한다	O	O	O, B-OG, I-OG, I-AF, B-LC
-31	.	O	O	O, B-LC, B-AF, B-OG, B-DT
-32	[SEP]	O	O	O, B-LC, B-AF, I-LC, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	다음	B-DT	B-DT
+2	달	I-DT	I-DT
+3	17	I-DT	I-DT
+4	##일	I-DT	I-DT
+5	김해	B-LC	B-LC
+6	##∼	O	O
+7	##일	B-LC	B-LC
+8	##본	I-LC	I-LC
+9	오키나와	B-LC	B-LC
+10	노선	O	O
+11	,	O	O
+12	12	B-DT	B-DT
+13	##월	I-DT	I-DT
+14	5	I-DT	I-DT
+15	##일	I-DT	I-DT
+16	김해	B-LC	B-LC
+17	##∼	O	O
+18	##필	B-LC	B-LC
+19	##리	I-LC	I-LC
+20	##핀	I-LC	I-LC
+21	클라크	B-LC	I-LC
+22	노선	O	O
+23	##을	O	O
+24	각각	O	O
+25	주	O	O
+26	2	B-QT	B-QT
+27	##회	I-QT	I-QT
+28	##씩	I-QT	I-QT
+29	운항	O	O
+30	##한다	O	O
+31	.	O	O
+32	[SEP]	O	O

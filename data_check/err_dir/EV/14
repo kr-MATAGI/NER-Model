@@ -1,35 +1,64 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	2007	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-2	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-3	대선	B-EV	B-EV	B-EV, O, B-CV, B-AF, I-EV
-4	##후	I-EV	B-CV	B-CV, O, I-CV, I-EV, B-EV
-5	##보	I-EV	I-CV	I-CV, O, I-EV, B-CV, I-OG
-6	경선	I-EV	O	O, B-EV, I-EV, B-CV, I-CV
-7	##에서	O	O	O, I-EV, B-CV, B-PS, I-CV
-8	박근혜	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
-9	##가	O	O	O, I-PS, B-CV, B-PS, I-OG
-10	패한	O	O	O, B-CV, B-EV, B-LC, B-OG
-11	뒤	O	O	O, B-PS, B-LC, B-CV, B-EV
-12	김문수	B-PS	B-PS	B-PS, O, I-PS, B-OG, B-LC
-13	경기	B-LC	B-LC	B-LC, O, B-OG, I-PS, I-LC
-14	##지사	B-CV	B-CV	B-CV, O, I-CV, I-LC, B-LC
-15	##가	O	O	O, B-PS, I-CV, B-LC, B-CV
-16	‘	O	O	O, B-LC, B-PS, B-CV, B-OG
-17	놀	O	O	O, B-PS, B-CV, B-LC, B-AM
-18	##고	O	O	O, B-PS, B-CV, I-PS, B-AM
-19	있	O	O	O, B-PS, B-CV, B-LC, I-PS
-20	##던	O	O	O, B-PS, B-CV, I-PS, B-LC
-21	’	O	O	O, B-CV, B-PS, B-LC, B-TM
-22	이정현	B-PS	B-PS	B-PS, O, I-PS, B-LC, B-OG
-23	##에	O	O	O, I-PS, B-CV, B-PS, I-OG
-24	##게	O	O	O, B-CV, B-LC, B-PS, B-TM
-25	정무	B-CV	B-CV	B-CV, O, B-TM, B-OG, B-FD
-26	##부지	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-TM
-27	##사	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-TM
-28	##를	O	O	O, I-CV, I-OG, B-CV, I-EV
-29	제안	O	O	O, B-CV, B-TM, B-LC, B-QT
-30	##했	O	O	O, B-CV, B-PS, I-CV, B-LC
-31	##다	O	O	O, B-CV, B-LC, B-OG, B-PS
-32	.	O	O	O, B-PS, B-LC, B-CV, B-OG
-33	[SEP]	O	O	O, B-CV, B-PS, B-LC, I-EV
+	text	label	preds
+0	[CLS]	O	O
+1	3	B-DT	B-DT
+2	##일	I-DT	I-DT
+3	##엔	O	O
+4	마스터	B-EV	B-EV
+5	##클	I-EV	I-EV
+6	##래	I-EV	I-EV
+7	##스	I-EV	I-EV
+8	강연회	I-EV	I-EV
+9	##에	O	O
+10	이어	O	O
+11	한	B-LC	B-LC
+12	·	O	O
+13	중	B-LC	B-LC
+14	·	O	O
+15	일	B-LC	B-LC
+16	민간	O	O
+17	참여	O	O
+18	##자의	O	O
+19	비즈니스	B-EV	O
+20	상담	I-EV	O
+21	##회	I-EV	O
+22	##가	O	O
+23	열리	O	O
+24	##고	O	O
+25	,	O	O
+26	마지막	O	O
+27	날인	O	O
+28	4	B-DT	B-DT
+29	##일	I-DT	I-DT
+30	##엔	O	O
+31	'	O	O
+32	2009	B-DT	B-DT
+33	IT	B-EV	B-EV
+34	B	I-EV	I-EV
+35	##US	I-EV	I-EV
+36	##AN	I-EV	I-EV
+37	EX	I-EV	I-EV
+38	##P	I-EV	I-EV
+39	##O	I-EV	I-EV
+40	'	O	O
+41	및	O	O
+42	'	O	O
+43	로보	B-EV	B-EV
+44	##월드	I-EV	I-EV
+45	'	O	O
+46	가	O	O
+47	열리	O	O
+48	##는	O	O
+49	벡스코	B-AF	B-AF
+50	등	O	O
+51	부산	B-LC	B-LC
+52	문화	O	O
+53	##산업	O	O
+54	##현	O	O
+55	##장	O	O
+56	##을	O	O
+57	방문	O	O
+58	##하	O	O
+59	##게	O	O
+60	된다	O	O
+61	.	O	O
+62	[SEP]	O	O

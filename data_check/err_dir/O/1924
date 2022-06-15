@@ -1,27 +1,40 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-AF
-1	조선	O	O	O, B-DT, B-LC, B-AF, B-PS
-2	광대	O	B-CV	B-CV, O, I-CV, B-PS, B-FD
-3	##들	O	O	O, I-CV, B-PS, I-AF, I-PS
-4	##의	O	O	O, B-PS, B-LC, B-CV, I-AF
-5	거침없	O	O	O, B-FD, B-LC, B-CV, B-PS
-6	##는	O	O	O, B-LC, B-PS, B-OG, B-FD
-7	풍자	O	O	O, B-FD, B-CV, I-FD, B-PS
-8	##와	O	O	O, B-PS, I-AF, I-OG, B-LC
-9	재	O	O	O, B-FD, B-CV, B-PS, B-AF
-10	##담	O	O	O, I-FD, B-FD, I-AF, I-CV
-11	##이	O	O	O, B-PS, B-LC, B-OG, B-CV
-12	흥미	O	O	O, B-FD, B-LC, B-CV, B-AF
-13	##로운	O	O	O, I-AF, B-PS, I-LC, B-LC
-14	공연	O	O	O, B-FD, B-CV, B-EV, I-EV
-15	##을	O	O	O, B-CV, I-AF, I-EV, B-PS
-16	배경	O	O	O, B-CV, B-LC, B-FD, B-AF
-17	삼	O	O	O, B-PS, B-LC, B-OG, B-CV
-18	##아	O	O	O, B-LC, B-PS, B-FD, B-OG
-19	아슬아슬	O	O	O, B-FD, B-LC, B-AF, B-OG
-20	곡	O	O	O, B-FD, B-CV, B-EV, B-LC
-21	##예	O	O	O, I-FD, B-FD, I-AF, I-LC
-22	##를	O	O	O, I-AF, I-OG, B-CV, I-EV
-23	탄다	O	O	O, B-CV, B-AF, B-PS, B-FD
-24	.	O	O	O, B-FD, B-CV, I-AF, B-PS
-25	[SEP]	O	O	O, B-FD, B-CV, I-AF, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	횡령	B-CV	B-CV
+2	##을	O	O
+3	기획	O	O
+4	##하	O	O
+5	##고	O	O
+6	사용	O	O
+7	##한	O	O
+8	사람	O	O
+9	##이	O	O
+10	김원	B-PS	B-PS
+11	##홍	I-PS	I-PS
+12	##씨	O	O
+13	##이	O	O
+14	##고	O	O
+15	'	O	O
+16	실무	O	O
+17	총책	O	O
+18	'	O	O
+19	을	O	O
+20	최	B-PS	B-PS
+21	부회장	B-CV	B-CV
+22	##이	O	O
+23	맡	O	O
+24	##았	O	O
+25	##다면	O	O
+26	,	O	O
+27	최	O	B-PS
+28	회장	O	B-CV
+29	##의	O	O
+30	역할	O	O
+31	##이	O	O
+32	축소	O	O
+33	##된	O	O
+34	##다는	O	O
+35	것	O	O
+36	##이다	O	O
+37	.	O	O
+38	[SEP]	O	O

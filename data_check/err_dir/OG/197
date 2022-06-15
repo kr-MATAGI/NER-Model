@@ -1,44 +1,40 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	이번	O	O	O, B-CV, B-OG, B-PS, B-LC
-2	수사	O	O	O, B-CV, B-OG, B-PS, B-LC
-3	##는	O	O	O, B-CV, B-OG, B-PS, B-LC
-4	감사원	B-OG	B-OG	B-OG, O, B-AF, B-CV, B-EV
-5	감사	O	O	O, B-CV, I-OG, I-CV, I-EV
-6	결과	O	O	O, I-CV, B-CV, I-OG, B-PS
-7	##와	O	O	O, B-PS, B-OG, B-LC, B-CV
-8	##는	O	O	O, B-OG, B-LC, B-CV, B-PS
-9	별도	O	O	O, B-CV, B-OG, B-LC, B-TM
-10	##로	O	O	O, B-OG, B-PS, B-LC, B-CV
-11	감독	B-CV	B-CV	B-CV, O, B-OG, B-EV, I-CV
-12	##들이	O	O	O, I-CV, B-CV, I-OG, I-EV
-13	농구	B-CV	B-CV	B-CV, B-OG, O, B-EV, B-LC
-14	및	O	O	O, I-OG, I-CV, B-OG, I-EV
-15	배구	B-OG	B-CV	B-CV, O, B-OG, I-OG, I-CV
-16	##연맹	I-OG	O	O, I-OG, I-CV, I-EV, B-OG
-17	기금	O	O	O, B-CV, I-CV, I-OG, B-PS
-18	##을	O	O	O, B-CV, B-PS, I-CV, B-LC
-19	스카우트	O	O	O, B-CV, B-TM, B-EV, B-PS
-20	##비	O	O	O, I-CV, B-CV, I-LC, I-TM
-21	##로	O	O	O, B-PS, B-CV, B-LC, I-CV
-22	전용	O	O	O, B-CV, B-PS, B-LC, B-TM
-23	##하	O	O	O, B-PS, B-LC, B-CV, I-CV
-24	##거나	O	O	O, B-PS, B-LC, I-PS, I-QT
-25	개인	O	O	O, B-CV, B-PS, B-LC, B-TM
-26	##적으로	O	O	O, B-PS, B-LC, B-CV, I-CV
-27	유용	O	O	O, B-CV, B-PS, B-LC, B-TM
-28	##했	O	O	O, B-PS, B-CV, B-LC, I-CV
-29	##다는	O	O	O, B-PS, B-LC, B-CV, B-OG
-30	첩보	O	O	O, B-CV, B-LC, B-PS, B-OG
-31	##를	O	O	O, B-PS, B-CV, I-CV, B-OG
-32	검찰	B-OG	B-OG	B-OG, O, B-AF, B-LC, B-CV
-33	##이	O	O	O, I-OG, B-PS, B-CV, B-OG
-34	입수	O	O	O, B-CV, B-LC, B-OG, B-PS
-35	##한	O	O	O, B-PS, B-LC, B-CV, B-OG
-36	것	O	O	O, B-CV, B-PS, B-LC, B-OG
-37	##에서	O	O	O, B-CV, B-PS, B-OG, B-LC
-38	시작	O	O	O, B-CV, B-LC, B-OG, B-TM
-39	##됐	O	O	O, B-CV, B-OG, B-PS, B-LC
-40	##다	O	O	O, B-CV, I-OG, B-OG, B-LC
-41	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-42	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	선발	O	O
+2	##로	O	O
+3	나서	O	O
+4	후반전	B-TI	B-TI
+5	##에	O	O
+6	교체	O	O
+7	##되	O	O
+8	##기	O	O
+9	전	O	O
+10	##까	O	O
+11	##지	O	O
+12	최전방	O	O
+13	공격수	B-CV	B-CV
+14	역할	O	O
+15	##을	O	O
+16	성실히	O	O
+17	수행	O	O
+18	##한	O	O
+19	진성	B-PS	B-PS
+20	##욱	I-PS	I-PS
+21	(	O	O
+22	23	B-QT	B-QT
+23	·	O	O
+24	인천	B-OG	B-LC
+25	)	O	O
+26	의	O	O
+27	활약	O	O
+28	##도	O	O
+29	신	B-PS	B-PS
+30	감독	B-CV	B-CV
+31	##을	O	O
+32	뿌듯	O	O
+33	##하	O	O
+34	##게	O	O
+35	했	O	O
+36	##다	O	O
+37	.	O	O
+38	[SEP]	O	O

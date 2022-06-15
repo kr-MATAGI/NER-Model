@@ -1,69 +1,16 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	“	O	O	O, B-CV, B-LC, B-OG, B-TM
-2	박근혜	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-AF
-3	##도	O	O	O, I-PS, B-PS, I-OG, I-AF
-4	최순	B-PS	B-PS	B-PS, O, I-PS, B-OG, B-LC
-5	##실	I-PS	I-PS	I-PS, O, I-OG, B-PS, I-LC
-6	##도	O	O	O, I-PS, B-CV, I-OG, I-AF
-7	허수아비	O	O	O, B-CV, B-PS, B-AF, B-AM
-8	,	O	O	O, I-CV, B-PS, I-AF, I-PS
-9	삼성	B-OG	B-OG	B-OG, B-LC, O, B-PS, B-AF
-10	##이	O	O	O, I-OG, B-PS, I-PS, I-AF
-11	대한민국	B-LC	B-LC	B-LC, O, B-OG, B-AF, B-PS
-12	권력	O	O	O, B-PS, B-CV, I-LC, B-OG
-13	##서	O	O	O, B-PS, B-CV, B-LC, B-OG
-14	##열	O	O	O, B-PS, I-PS, B-CV, B-LC
-15	1	B-QT	B-QT	B-QT, O, I-QT, B-PS, B-DT
-16	##위	I-QT	I-QT	I-QT, O, I-PS, I-LC, B-QT
-17	”	O	O	O, I-QT, I-OG, B-CV, I-EV
-18	“	O	O	O, B-CV, B-LC, B-OG, B-TM
-19	진정한	O	O	O, B-PS, B-CV, B-LC, B-OG
-20	법	O	O	O, B-AM, B-PS, B-CV, B-TM
-21	##꾸라지	O	O	O, I-AM, B-AM, I-PS, I-TM
-22	삼성	B-OG	B-OG	B-OG, B-LC, B-PS, O, B-AF
-23	”	O	O	O, I-OG, B-CV, I-AF, I-EV
-24	“	O	O	O, B-CV, B-LC, B-OG, B-TM
-25	돈	O	O	O, B-PS, B-CV, B-AF, B-LC
-26	##이	O	O	O, B-PS, B-CV, B-LC, B-OG
-27	실력	O	O	O, B-CV, B-PS, B-LC, B-AF
-28	##임	O	O	O, B-PS, B-CV, B-LC, B-OG
-29	##을	O	O	O, B-PS, B-CV, I-AF, B-LC
-30	입증	O	O	O, B-PS, B-CV, B-LC, I-AF
-31	##한	O	O	O, B-PS, B-LC, B-OG, B-CV
-32	사법부	B-OG	B-OG	B-OG, O, B-AF, B-CV, I-OG
-33	”	O	O	O, I-OG, B-CV, I-CV, I-EV
-34	등	O	O	O, B-CV, B-TM, B-LC, B-PS
-35	비판	O	O	O, B-CV, B-TM, B-OG, B-PS
-36	##과	O	O	O, B-CV, B-PS, B-OG, B-TM
-37	함께	O	O	O, B-CV, B-TM, B-OG, B-LC
-38	“	O	O	O, B-CV, B-LC, B-OG, B-TM
-39	박영수	B-PS	B-PS	B-PS, O, B-OG, B-AF, I-PS
-40	특검	O	B-OG	B-OG, O, I-OG, B-CV, B-AF
-41	힘내	O	O	O, I-OG, I-AF, I-EV, I-CV
-42	##라	O	O	O, I-OG, I-AF, B-PS, I-EV
-43	!	O	O	O, I-OG, I-AF, B-PS, I-EV
-44	”	O	O	O, B-CV, B-LC, B-TM, B-OG
-45	“	O	O	O, B-CV, B-LC, B-TM, B-OG
-46	촛불	O	O	O, B-CV, B-AF, B-PS, B-EV
-47	시민	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-PT
-48	모여	O	O	O, I-CV, I-AF, I-OG, I-EV
-49	##라	O	O	O, I-AF, I-OG, B-PS, I-CV
-50	,	O	O	O, B-PS, I-AF, B-LC, I-OG
-51	국민	B-CV	B-CV	B-CV, O, B-OG, I-CV, B-TM
-52	##은	O	O	O, I-CV, I-AF, I-OG, I-EV
-53	끝	O	O	O, B-CV, B-LC, B-PS, B-TM
-54	##까	O	O	O, B-PS, B-LC, I-AF, I-LC
-55	##지	O	O	O, B-PS, B-LC, I-AF, I-OG
-56	간다	O	O	O, B-PS, I-AF, I-OG, B-LC
-57	!	O	O	O, I-AF, I-OG, B-PS, B-LC
-58	”	O	O	O, B-CV, B-TM, B-LC, B-OG
-59	등	O	O	O, B-CV, B-TM, B-LC, B-OG
-60	응원	O	O	O, B-CV, B-TM, B-OG, B-AF
-61	##이	O	O	O, B-PS, B-CV, B-OG, I-OG
-62	쏟아지	O	O	O, B-CV, B-TM, B-OG, B-QT
-63	##고	O	O	O, B-CV, B-TM, I-OG, B-OG
-64	있	O	O	O, B-CV, B-TM, B-OG, B-PS
-65	##다	O	O	O, B-CV, B-TM, I-OG, B-OG
-66	.	O	O	O, B-PS, B-CV, B-LC, B-OG
-67	[SEP]	O	O	O, B-CV, B-PS, B-LC, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	우리	O	O
+2	대중	O	B-CV
+3	##에	O	O
+4	##게	O	O
+5	또	O	O
+6	큰	O	O
+7	소득	O	O
+8	##을	O	O
+9	주	O	O
+10	##셨	O	O
+11	##습	O	O
+12	##니다	O	O
+13	.	O	O
+14	[SEP]	O	O

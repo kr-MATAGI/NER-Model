@@ -1,21 +1,27 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	백악관	B-AF	B-OG	B-OG, B-AF, O, B-PS, B-LC
-2	##은	O	O	O, I-OG, I-AF, B-CV, I-EV
-3	미국인	B-CV	B-CV	B-CV, O, B-TM, I-CV, B-OG
-4	일자리	O	O	O, B-TM, I-CV, B-CV, I-TM
-5	##를	O	O	O, B-CV, I-AF, I-CV, B-TM
-6	13	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-PS
-7	##만	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-8	개	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-9	창출	O	O	O, I-QT, B-CV, B-TM, I-EV
-10	##할	O	O	O, B-OG, B-CV, B-PS, B-LC
-11	수	O	O	O, B-PS, B-CV, B-QT, B-OG
-12	있	O	O	O, B-CV, B-QT, B-PS, B-TM
-13	##는	O	O	O, B-OG, B-CV, B-PS, B-LC
-14	규모	O	O	O, B-CV, B-OG, B-TM, B-PS
-15	##라고	O	O	O, B-OG, B-CV, I-OG, B-PS
-16	밝혔	O	O	O, B-CV, B-OG, B-TM, B-LC
-17	##다	O	O	O, B-CV, I-OG, B-TM, B-OG
-18	.	O	O	O, B-OG, B-CV, B-LC, B-PS
-19	[SEP]	O	O	O, B-CV, B-OG, I-OG, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	‘	O	B-TM
+2	철	B-TM	I-TM
+3	##매	I-TM	I-TM
+4	-	I-TM	I-TM
+5	Ⅱ	I-TM	I-TM
+6	’	O	I-TM
+7	프로젝트	O	I-TM
+8	##는	O	O
+9	도입	O	O
+10	##된	O	O
+11	지	O	O
+12	40	B-DT	B-DT
+13	##년	I-DT	I-DT
+14	##이	O	O
+15	지난	O	O
+16	호크	O	B-AF
+17	미사일	B-AF	I-AF
+18	##을	O	O
+19	대체	O	O
+20	##하	O	O
+21	##는	O	O
+22	사업	O	O
+23	##이다	O	O
+24	.	O	O
+25	[SEP]	O	O

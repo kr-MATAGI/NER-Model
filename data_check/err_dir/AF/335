@@ -1,45 +1,42 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-QT
-1	50	B-DT	B-DT	B-DT, I-DT, O, B-QT, B-EV
-2	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-3	##대	I-DT	I-DT	I-DT, O, I-QT, B-DT, I-PS
-4	##엔	O	O	O, I-DT, B-LC, B-OG, B-CV
-5	안	B-PS	B-PS	B-PS, O, B-OG, B-AF, B-LC
-6	##현	I-PS	I-PS	I-PS, O, I-OG, I-AF, B-PS
-7	##필	I-PS	I-PS	I-PS, O, I-OG, I-LC, I-AF
-8	'	O	O	O, I-PS, B-CV, B-LC, I-AF
-9	영어	B-AF	B-CV	B-CV, O, B-FD, B-AF, B-LC
-10	##실	I-AF	O	O, I-CV, I-PS, I-AF, B-PS
-11	##력	I-AF	O	O, B-PS, I-PS, B-LC, I-CV
-12	##기	I-AF	O	O, B-PS, I-PS, B-LC, B-CV
-13	##초	I-AF	O	O, I-PS, I-LC, I-TM, B-PS
-14	'	O	O	O, B-CV, I-PS, B-LC, B-PS
-15	70	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-16	~	I-DT	I-DT	I-DT, O, I-QT, B-DT, I-PS
-17	80	I-DT	I-DT	I-DT, B-DT, O, I-QT, I-PS
-18	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-19	##대	I-DT	I-DT	I-DT, O, I-QT, B-DT, I-PS
-20	'	O	O	O, I-DT, B-CV, B-LC, B-OG
-21	성문	B-AF	B-AF	B-AF, O, B-PS, B-TM, B-LC
-22	'	O	O	O, I-AF, I-CV, I-OG, I-PS
-23	등	O	O	O, B-CV, B-PS, B-LC, B-TM
-24	문법	O	O	O, B-CV, B-FD, B-TM, B-LC
-25	위주	O	O	O, B-CV, B-PS, B-TM, B-LC
-26	##서	O	O	O, B-LC, B-OG, B-PS, B-CV
-27	88	B-EV	B-EV	B-EV, B-DT, B-AF, B-QT, B-LC
-28	##올	I-EV	I-EV	I-EV, B-EV, I-DT, I-QT, I-AF
-29	##림픽	I-EV	I-EV	I-EV, I-DT, B-EV, I-QT, I-AF
-30	거치	O	O	O, I-EV, I-DT, I-AF, I-QT
-31	##며	O	O	O, B-LC, B-OG, B-PS, B-TM
-32	회화	O	O	O, B-CV, B-FD, B-TM, B-LC
-33	강조	O	O	O, B-CV, B-TM, B-LC, B-OG
-34	…	O	O	O, B-CV, B-LC, B-OG, B-PS
-35	2000	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-LC
-36	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-37	이후	I-DT	I-DT	I-DT, O, I-QT, B-DT, I-PS
-38	스펙	O	O	O, I-DT, B-CV, B-TM, B-LC
-39	##용	O	O	O, B-LC, B-PS, B-CV, B-TM
-40	토익	B-EV	O	O, B-EV, B-TM, B-CV, B-FD
-41	##책	O	O	O, I-TM, I-EV, I-CV, I-AF
-42	강세	O	O	O, B-CV, B-TM, B-LC, B-OG
-43	[SEP]	O	O	O, B-LC, B-CV, B-TM, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	전문가	B-CV	B-CV
+2	##들	O	O
+3	##은	O	O
+4	현재	O	O
+5	우리	O	O
+6	군	B-OG	O
+7	##이	O	O
+8	전략	O	O
+9	##무기	O	O
+10	##로	O	O
+11	##서	O	O
+12	집중	O	O
+13	개발	O	O
+14	중인	O	O
+15	순항	O	B-AF
+16	(	O	I-AF
+17	크루즈	B-AF	I-AF
+18	)	O	I-AF
+19	미사일	B-AF	B-AF
+20	##의	O	O
+21	한계	O	O
+22	##를	O	O
+23	감안	O	O
+24	##해	O	O
+25	볼	O	O
+26	때	O	O
+27	##도	O	O
+28	탄도	B-AF	B-AF
+29	##미사	I-AF	I-AF
+30	##일	I-AF	I-AF
+31	사거리	O	O
+32	연장	O	O
+33	##이	O	O
+34	필요	O	O
+35	##하	O	O
+36	##다고	O	O
+37	말	O	O
+38	##한다	O	O
+39	.	O	O
+40	[SEP]	O	O

@@ -1,28 +1,27 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	27	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-2	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
-3	국토	B-OG	B-OG	B-OG, O, B-AF, B-CV, B-LC
-4	##교통	I-OG	I-OG	I-OG, O, I-CV, I-EV, B-OG
-5	##부	I-OG	I-OG	I-OG, O, I-CV, I-EV, I-AF
-6	##는	O	O	O, I-OG, I-EV, B-CV, I-CV
-7	이런	O	O	O, B-CV, B-TM, B-LC, B-AF
-8	내용	O	O	O, B-CV, B-TM, B-PS, B-LC
-9	##을	O	O	O, B-CV, B-PS, B-TM, B-LC
-10	뼈대	O	O	O, B-TM, B-AM, B-LC, B-AF
-11	##로	O	O	O, I-TM, B-PS, B-LC, B-TM
-12	한	O	O	O, B-LC, B-TM, B-AF, B-PS
-13	광명시	B-LC	B-LC	B-LC, O, B-TM, B-AF, B-OG
-14	##흥	I-LC	I-LC	I-LC, O, I-TM, B-LC, I-AF
-15	보금자리	B-TM	B-TM	B-TM, O, B-LC, I-LC, I-TM
-16	##주택	I-TM	O	O, I-LC, I-TM, I-AF, I-OG
-17	##지구	I-TM	O	O, I-TM, I-LC, I-AF, I-OG
-18	사업	I-TM	O	O, I-TM, I-LC, B-TM, I-AF
-19	정상	O	O	O, I-TM, I-LC, B-CV, B-LC
-20	##화	O	O	O, I-LC, I-TM, I-CV, B-LC
-21	방안	O	O	O, B-LC, B-CV, I-LC, B-TM
-22	##을	O	O	O, B-CV, B-OG, B-LC, B-TM
-23	내놨	O	O	O, B-CV, B-OG, B-TM, B-LC
-24	##다	O	O	O, B-CV, B-TM, B-LC, B-OG
-25	.	O	O	O, B-LC, B-TM, B-CV, B-OG
-26	[SEP]	O	O	O, B-LC, B-CV, B-TM, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	정부	B-OG	B-OG
+2	안팎	B-TM	O
+3	##에	O	O
+4	##선	O	O
+5	외형	O	O
+6	##상	O	O
+7	5	B-DT	B-EV
+8	·	I-DT	I-EV
+9	24	I-DT	I-EV
+10	##조치	O	I-EV
+11	##가	O	O
+12	무력	O	O
+13	##화	O	O
+14	##된	O	O
+15	것	O	O
+16	##이	O	O
+17	##라는	O	O
+18	얘기	O	O
+19	##가	O	O
+20	나올	O	O
+21	법	O	O
+22	##하	O	O
+23	##다	O	O
+24	.	O	O
+25	[SEP]	O	O

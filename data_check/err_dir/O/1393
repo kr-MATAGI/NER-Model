@@ -1,16 +1,27 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, B-CV, I-OG, I-EV
-1	어	O	O	O, B-CV, B-LC, B-PS, B-OG
-2	뜨거운	O	O	O, B-PS, B-AF, B-LC, B-CV
-3	형제	O	B-CV	B-CV, O, B-AF, I-CV, B-PS
-4	##애	O	O	O, I-CV, I-AF, I-TR, I-FD
-5	##도	O	O	O, I-CV, I-AF, I-OG, B-PS
-6	느낄	O	O	O, B-CV, B-LC, B-PS, B-OG
-7	수	O	O	O, B-CV, B-PS, B-LC, B-QT
-8	없	O	O	O, B-CV, I-CV, B-PS, I-QT
-9	##고	O	O	O, B-CV, B-PS, I-CV, B-LC
-10	또	O	O	O, B-CV, B-TM, B-LC, B-OG
-11	그렇	O	O	O, B-CV, B-LC, B-TM, B-OG
-12	##다고	O	O	O, B-CV, I-CV, I-OG, I-AF
-13	해서	O	O	O, B-CV, B-PS, B-LC, B-OG
-14	[SEP]	O	O	O, B-CV, B-LC, B-FD, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	이곳	O	O
+2	침	O	B-PT
+3	##엽	O	I-PT
+4	##수	O	I-PT
+5	##림	O	I-PT
+6	##에	O	O
+7	일제	O	B-DT
+8	때	O	I-DT
+9	북한	B-LC	B-LC
+10	풍	B-LC	O
+11	##산	I-LC	O
+12	##에	O	O
+13	##서	O	O
+14	캐	O	O
+15	남	B-LC	B-LC
+16	##으로	O	O
+17	옮겨	O	O
+18	##심	O	O
+19	##은	O	O
+20	나무	O	O
+21	##가	O	O
+22	있	O	O
+23	##다	O	O
+24	.	O	O
+25	[SEP]	O	O

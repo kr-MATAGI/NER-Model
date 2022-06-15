@@ -1,31 +1,32 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-EV, I-OG, B-CV, I-CV
-1	하지만	O	O	O, B-CV, B-PS, B-LC, B-EV
-2	2009	B-DT	B-DT	B-DT, I-DT, O, B-EV, B-QT
-3	##년	I-DT	I-DT	I-DT, O, I-QT, B-DT, I-EV
-4	말	I-DT	I-DT	I-DT, O, I-QT, B-DT, I-EV
-5	중국	B-LC	B-LC	B-LC, O, B-OG, I-LC, I-DT
-6	##에서	O	O	O, I-LC, I-AF, B-LC, I-EV
-7	KLPGA	B-CV	B-CV	B-CV, O, B-PS, B-TM, B-EV
-8	2010	B-DT	B-DT	B-DT, I-DT, O, B-QT, I-CV
-9	##년	I-DT	I-DT	I-DT, O, I-EV, I-QT, I-CV
-10	시즌	I-DT	I-DT	I-DT, O, B-DT, I-EV, I-QT
-11	개막전	O	B-EV	B-EV, O, B-DT, I-EV, B-LC
-12	##으로	O	O	O, I-EV, I-DT, I-AF, I-CV
-13	열린	O	O	O, B-CV, B-EV, I-EV, B-LC
-14	오리엔	B-EV	B-EV	B-EV, B-LC, B-AF, O, B-OG
-15	##트	I-EV	I-EV	I-EV, I-LC, I-AF, O, I-DT
-16	차이나	I-EV	I-EV	I-EV, I-LC, B-LC, I-AF, B-EV
-17	레이디스	I-EV	I-EV	I-EV, O, I-LC, B-EV, I-AF
-18	오픈	I-EV	I-EV	I-EV, O, I-AF, I-LC, I-DT
-19	##에서	O	O	O, I-EV, I-AF, I-DT, B-CV
-20	유소연	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-21	##은	O	O	O, I-PS, I-EV, B-CV, I-OG
-22	'	O	O	O, B-LC, B-CV, B-PS, B-DT
-23	복수	O	O	O, B-EV, B-CV, B-PS, B-AF
-24	'	O	O	O, I-EV, B-CV, I-CV, I-AF
-25	를	O	O	O, B-PS, B-CV, I-EV, B-OG
-26	했	O	O	O, B-CV, B-OG, B-PS, B-LC
-27	##다	O	O	O, B-CV, I-EV, B-LC, I-OG
-28	.	O	O	O, B-LC, B-CV, I-EV, B-PS
-29	[SEP]	O	O	O, B-CV, I-EV, B-LC, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	경찰	B-OG	B-OG
+2	##은	O	O
+3	홍콩	B-LC	B-LC
+4	##을	O	O
+5	중국	B-LC	B-LC
+6	##과	O	O
+7	구별	O	O
+8	##하	O	O
+9	##려	O	O
+10	##는	O	O
+11	일부	O	O
+12	홍콩	B-LC	B-LC
+13	본토	O	B-TR
+14	##주의	O	I-TR
+15	단체	O	O
+16	##가	O	O
+17	시위	O	O
+18	##에	O	O
+19	적극	O	O
+20	##적	O	O
+21	##으로	O	O
+22	가담	O	O
+23	##한	O	O
+24	것	O	O
+25	##으로	O	O
+26	보고	O	O
+27	있	O	O
+28	##다	O	O
+29	.	O	O
+30	[SEP]	O	O

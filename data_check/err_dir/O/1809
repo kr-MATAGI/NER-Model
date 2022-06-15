@@ -1,32 +1,18 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	'	O	O	O, B-CV, B-PS, B-LC, B-DT
-2	빛나	O	O	O, B-PS, B-CV, B-LC, B-TM
-3	##는	O	O	O, B-PS, B-CV, I-PS, B-LC
-4	'	O	O	O, B-CV, B-PS, B-LC, B-TM
-5	타격	O	O	O, B-TM, B-CV, B-AF, B-FD
-6	##은	O	O	O, I-TM, I-CV, I-AF, B-CV
-7	아니	O	O	O, B-CV, B-PS, B-TM, B-LC
-8	##었	O	O	O, B-CV, B-PS, B-TM, I-CV
-9	##지만	O	O	O, B-PS, B-CV, B-TM, B-OG
-10	추신수	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-11	##에	O	O	O, I-PS, I-OG, I-AF, B-CV
-12	##게	O	O	O, B-CV, B-PS, B-LC, B-TM
-13	##는	O	O	O, B-CV, B-PS, B-LC, B-TM
-14	또	O	O	O, B-CV, B-QT, B-LC, B-PS
-15	다른	O	O	O, B-PS, B-QT, B-CV, B-LC
-16	장기	O	O	O, B-TM, B-CV, B-PS, B-TR
-17	##인	O	O	O, I-CV, B-PS, B-CV, I-TM
-18	'	O	O	O, B-CV, B-LC, B-PS, B-TM
-19	광	O	B-TM	B-TM, O, B-TR, B-AF, B-CV
-20	(	O	I-TM	I-TM, O, B-TM, I-TR, I-AF
-21	光	O	I-TM	I-TM, O, I-TR, I-AF, B-TM
-22	)	O	I-TM	I-TM, O, I-AF, I-TR, B-TM
-23	송구	B-TM	I-TM	I-TM, B-TM, O, I-AF, I-TR
-24	'	O	O	O, I-TM, I-CV, I-AF, I-QT
-25	가	O	O	O, B-PS, B-CV, B-LC, B-TM
-26	있	O	O	O, B-CV, B-PS, B-TM, B-QT
-27	##었	O	O	O, B-CV, I-CV, B-PS, B-TM
-28	##다	O	O	O, B-CV, I-CV, B-TM, B-PS
-29	.	O	O	O, B-CV, B-PS, B-LC, B-TM
-30	[SEP]	O	O	O, B-CV, B-PS, B-TM, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	그리고	O	O
+2	인제	B-OG	B-OG
+3	##대	I-OG	I-OG
+4	##학교	I-OG	I-OG
+5	영어	O	B-CV
+6	##영	O	O
+7	##문	O	O
+8	##학	O	O
+9	##과	O	O
+10	##의	O	O
+11	한기	B-PS	B-PS
+12	##우	I-PS	I-PS
+13	교수	B-CV	B-CV
+14	##님	O	O
+15	.	O	O
+16	[SEP]	O	O

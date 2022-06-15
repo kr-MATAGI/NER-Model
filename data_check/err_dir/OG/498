@@ -1,35 +1,48 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	‘	O	O	O, B-CV, B-LC, B-OG, B-PS
-2	십상	B-OG	B-CV	B-CV, B-AF, B-OG, O, B-FD
-3	##시	I-OG	I-CV	I-CV, I-AF, I-OG, O, I-EV
-4	’	O	O	O, I-OG, I-AF, I-CV, I-EV
-5	니	O	O	O, B-PS, B-LC, B-TM, B-AF
-6	‘	O	O	O, B-CV, B-AF, B-LC, B-TM
-7	팔	B-OG	B-AF	B-AF, B-CV, B-OG, B-PS, O
-8	##닭	I-OG	I-AF	I-AF, I-CV, I-OG, I-PS, I-LC
-9	##회	I-OG	I-AF	I-AF, I-CV, I-OG, I-PS, O
-10	’	O	O	O, I-AF, I-OG, I-CV, I-TM
-11	니	O	O	O, B-TM, B-PS, B-LC, B-AF
-12	하	O	O	O, B-TM, B-CV, B-LC, B-AF
-13	##는	O	O	O, B-TM, B-CV, B-LC, B-AF
-14	문지	O	O	O, B-TM, B-CV, B-AF, B-AM
-15	##방	O	O	O, I-TM, B-TM, I-AF, I-CV
-16	위	O	O	O, B-TM, B-CV, I-TM, B-LC
-17	##의	O	O	O, I-TM, I-AF, B-CV, B-TM
-18	돌	O	O	O, B-CV, B-MT, B-TM, B-AF
-19	##덩이	O	O	O, I-AF, I-CV, B-AM, B-CV
-20	##들	O	O	O, B-CV, I-AF, B-PS, B-LC
-21	##을	O	O	O, B-CV, B-TM, B-OG, B-LC
-22	어찌	O	O	O, B-CV, B-TM, B-LC, B-OG
-23	##해야	O	O	O, B-PS, B-LC, B-CV, B-OG
-24	하	O	O	O, B-CV, B-LC, B-PS, B-OG
-25	##는	O	O	O, B-CV, B-PS, B-LC, B-TM
-26	것	O	O	O, B-CV, B-PS, B-LC, B-TM
-27	##인지	O	O	O, B-PS, B-CV, B-LC, B-TM
-28	##는	O	O	O, B-CV, B-TM, B-OG, B-LC
-29	자명	O	O	O, B-CV, B-TM, B-PS, B-LC
-30	##해	O	O	O, B-PS, I-CV, B-CV, I-OG
-31	보인다	O	O	O, B-CV, B-TM, I-OG, B-LC
-32	.	O	O	O, B-CV, B-LC, B-PS, B-TM
-33	[SEP]	O	O	O, B-CV, B-LC, B-TM, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	그러나	O	O
+2	김태	B-PS	B-PS
+3	##우	I-PS	I-PS
+4	전	O	O
+5	통일	B-CV	B-CV
+6	##연구원	I-CV	I-CV
+7	##장	I-CV	I-CV
+8	##은	O	O
+9	""""	O	O
+10	김정은	B-PS	B-PS
+11	##은	O	O
+12	과거	O	O
+13	##에도	O	O
+14	군부	O	O
+15	인사	O	O
+16	##를	O	O
+17	대동	O	O
+18	##하	O	O
+19	##고	O	O
+20	위	O	O
+21	##락	O	O
+22	시설	O	O
+23	##을	O	O
+24	도	B-OG	O
+25	##는	O	O
+26	선전	O	O
+27	활동	O	O
+28	##을	O	O
+29	했었	O	O
+30	##다	O	O
+31	""""	O	O
+32	며	O	O
+33	""""	O	O
+34	전략	O	O
+35	변화	O	O
+36	##라고	O	O
+37	보	O	O
+38	##기	O	O
+39	어렵	O	O
+40	##다	O	O
+41	""""	O	O
+42	고	O	O
+43	했	O	O
+44	##다	O	O
+45	.	O	O
+46	[SEP]	O	O

@@ -1,24 +1,29 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	뭐	O	O	O, B-CV, B-TM, B-OG, I-CV
-2	~	O	O	O, B-CV, B-LC, B-TM, B-PS
-3	에	O	B-TM	B-TM, O, B-TR, B-CV, B-QT
-4	##쓰	O	I-TM	I-TM, O, B-TM, I-TR, I-CV
-5	##엔	O	I-TM	I-TM, O, B-TM, I-TR, I-CV
-6	##에	O	I-TM	I-TM, O, B-TM, I-CV, I-TR
-7	##쓰	O	I-TM	I-TM, O, I-CV, I-TR, I-OG
-8	##도	O	O	O, I-TM, I-OG, I-CV, I-QT
-9	있	O	O	O, B-CV, B-TM, B-QT, B-PS
-10	##고	O	O	O, B-CV, B-PS, I-AF, B-TM
-11	알림	O	O	O, B-TM, B-CV, I-TM, B-QT
-12	앱	O	O	O, I-TM, B-TM, B-CV, I-CV
-13	같	O	O	O, I-TM, I-CV, I-AF, B-CV
-14	##은	O	O	O, B-CV, I-CV, B-OG, I-AF
-15	것	O	O	O, B-CV, B-TM, B-PS, B-OG
-16	##도	O	O	O, B-CV, I-CV, I-AF, B-PS
-17	있	O	O	O, B-CV, B-TM, B-QT, B-OG
-18	##거	O	O	O, B-CV, B-OG, I-CV, B-PS
-19	##든	O	O	O, B-CV, I-CV, I-OG, I-AF
-20	##요	O	O	O, B-CV, I-CV, I-OG, I-AF
-21	.	O	O	O, B-CV, B-LC, B-OG, I-OG
-22	[SEP]	O	O	O, B-CV, B-TM, B-LC, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	동료	B-CV	B-CV
+2	교수	B-CV	B-CV
+3	##들	O	O
+4	##과	O	O
+5	'	O	O
+6	폴리	O	B-CV
+7	##페	O	I-CV
+8	##서	O	I-CV
+9	(	O	O
+10	정치	O	O
+11	교수	B-CV	I-CV
+12	)	O	O
+13	윤리	O	O
+14	규정	O	O
+15	'	O	O
+16	건의	O	O
+17	##문	O	O
+18	##을	O	O
+19	만들	O	O
+20	##어	O	O
+21	학교	O	O
+22	##에	O	O
+23	제출	O	O
+24	##했	O	O
+25	##다	O	O
+26	.	O	O
+27	[SEP]	O	O

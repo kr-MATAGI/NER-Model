@@ -1,14 +1,52 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	십	O	B-DT	B-DT, O, I-DT, B-QT, B-PS
-2	##수	O	I-DT	I-DT, O, B-DT, I-QT, I-PS
-3	년	O	I-DT	I-DT, O, B-DT, I-QT, I-PS
-4	전	O	I-DT	I-DT, O, B-DT, I-QT, I-PS
-5	쿠바	B-LC	B-LC	B-LC, O, B-OG, B-AF, I-DT
-6	##에	O	O	O, I-LC, I-AF, I-OG, I-DT
-7	갔	O	O	O, B-CV, B-OG, I-AF, B-LC
-8	##을	O	O	O, B-CV, I-AF, I-CV, I-OG
-9	때	O	O	O, B-PS, B-CV, I-DT, B-DT
-10	##다	O	O	O, B-CV, I-AF, I-OG, B-OG
-11	.	O	O	O, B-LC, B-CV, B-OG, I-OG
-12	[SEP]	O	O	O, B-CV, B-LC, I-OG, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	이달	B-DT	B-DT
+2	말	I-DT	I-DT
+3	착공	O	O
+4	##되	O	O
+5	##는	O	O
+6	경인	B-TM	B-TM
+7	##운	I-TM	I-TM
+8	##하	I-TM	I-TM
+9	##사업	I-TM	I-TM
+10	##의	O	O
+11	주요	O	O
+12	시설	O	O
+13	중	O	O
+14	하나	O	B-QT
+15	##인	O	O
+16	해	O	O
+17	##사	O	O
+18	##부	O	O
+19	##두	O	O
+20	(	O	O
+21	바닷	O	O
+22	##모	O	O
+23	##래	O	O
+24	##야	O	O
+25	##적	O	O
+26	##장	O	O
+27	)	O	O
+28	용지	O	O
+29	선정	O	O
+30	##을	O	O
+31	둘러싸	O	O
+32	##고	O	O
+33	당국	O	O
+34	##과	O	O
+35	주민	B-CV	B-CV
+36	##들이	O	O
+37	마찰	O	O
+38	##을	O	O
+39	빚	O	O
+40	##어	O	O
+41	표류	O	O
+42	##할	O	O
+43	조짐	O	O
+44	##을	O	O
+45	보이	O	O
+46	##고	O	O
+47	있	O	O
+48	##다	O	O
+49	.	O	O
+50	[SEP]	O	O

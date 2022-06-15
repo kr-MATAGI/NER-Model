@@ -1,19 +1,31 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	지금	O	O	O, B-CV, B-PS, B-OG, B-LC
-2	이거	O	O	O, B-CV, B-PS, B-LC, B-OG
-3	어	O	O	O, B-PS, B-CV, B-LC, B-FD
-4	대선	B-EV	B-EV	B-EV, O, B-CV, B-LC, B-AF
-5	##에	O	O	O, I-EV, I-AF, I-CV, B-CV
-6	나와야	O	O	O, B-CV, B-PS, B-LC, B-OG
-7	된다는	O	O	O, B-PS, B-LC, B-CV, B-OG
-8	황	O	B-PS	B-PS, O, B-CV, B-OG, I-PS
-9	황교안	B-PS	B-PS	B-PS, I-PS, O, B-OG, B-LC
-10	권한	O	B-CV	B-CV, O, I-CV, I-PS, B-TM
-11	##대	O	I-CV	I-CV, O, B-CV, I-PS, I-TM
-12	##행	O	I-CV	I-CV, O, B-CV, I-TM, I-OG
-13	##은	O	O	O, I-CV, B-CV, I-EV, I-OG
-14	그건	O	O	O, B-CV, B-LC, B-TM, B-PS
-15	##요	O	O	O, B-CV, B-LC, B-OG, B-PS
-16	.	O	O	O, B-CV, B-PS, B-LC, B-OG
-17	[SEP]	O	O	O, B-CV, B-PS, B-LC, B-FD
+	text	label	preds
+0	[CLS]	O	O
+1	결국	O	O
+2	석	B-PS	B-PS
+3	선장	B-CV	B-CV
+4	치료	O	O
+5	##를	O	O
+6	맡	O	O
+7	##고	O	O
+8	있	O	O
+9	##던	O	O
+10	이	B-PS	B-PS
+11	교수	B-CV	B-CV
+12	##는	O	O
+13	총알	O	B-AF
+14	분실	O	O
+15	##과	O	O
+16	관련	O	O
+17	##해	O	O
+18	경위	O	O
+19	##서	O	O
+20	##까	O	O
+21	##지	O	O
+22	작성	O	O
+23	##한	O	O
+24	것	O	O
+25	##으로	O	O
+26	전해졌	O	O
+27	##다	O	O
+28	.	O	O
+29	[SEP]	O	O

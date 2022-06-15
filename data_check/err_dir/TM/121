@@ -1,14 +1,27 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-AF
-1	[	O	O	O, B-AF, B-OG, B-LC, B-PS
-2	만물	O	O	O, B-AF, B-PS, B-CV, B-TM
-3	##상	O	O	O, I-AF, I-OG, I-PS, I-CV
-4	]	O	O	O, I-AF, I-OG, B-PS, I-EV
-5	1918	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-LC
-6	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-7	한국	B-LC	B-LC	B-LC, B-OG, O, I-DT, I-LC
-8	##의	O	O	O, I-LC, I-AF, I-OG, B-LC
-9	스페인	B-TM	B-LC	B-LC, O, B-CV, B-OG, B-PS
-10	##독	I-TM	O	O, B-CV, B-TM, I-LC, I-CV
-11	##감	I-TM	O	O, I-CV, I-TM, I-LC, I-TR
-12	[SEP]	O	O	O, I-CV, B-LC, I-AF, I-TM
+	text	label	preds
+0	[CLS]	O	O
+1	정부	B-OG	B-OG
+2	##가	O	O
+3	의료관광	B-EV	B-EV
+4	##특구	I-EV	I-EV
+5	조성	I-EV	I-EV
+6	토론회	I-EV	I-EV
+7	##를	O	O
+8	여	O	O
+9	##는	O	O
+10	등	O	O
+11	의료관광	B-TM	O
+12	사업	I-TM	O
+13	추진	O	O
+14	##의	O	O
+15	‘	O	O
+16	군	O	O
+17	##불	O	O
+18	지피	O	O
+19	##기	O	O
+20	’	O	O
+21	에	O	O
+22	나섰	O	O
+23	##다	O	O
+24	.	O	O
+25	[SEP]	O	O

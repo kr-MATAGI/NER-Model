@@ -1,13 +1,43 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	여자	B-AF	O	O, B-CV, B-PS, I-AF, I-CV
-2	##는	I-AF	O	O, B-PS, I-AF, B-CV, I-OG
-3	남자	I-AF	O	O, B-CV, B-PS, I-AF, B-AM
-4	##의	I-AF	O	O, B-PS, I-AF, I-PS, I-CV
-5	미래	I-AF	O	O, B-CV, B-PS, B-QT, B-AM
-6	##다	I-AF	O	O, I-PS, B-PS, I-CV, I-QT
-7	##라는	O	O	O, B-PS, B-CV, I-PS, B-LC
-8	영	O	O	O, B-CV, B-PS, B-LC, B-TM
-9	##환	O	O	O, I-CV, I-PS, I-TM, I-LC
-10	##데	O	O	O, I-CV, I-PS, I-QT, I-OG
-11	[SEP]	O	O	O, B-CV, B-PS, I-CV, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	일의	B-AF	O
+2	기쁨	I-AF	O
+3	##과	I-AF	O
+4	슬픔	I-AF	O
+5	<	O	O
+6	일의	O	B-AF
+7	기쁨	O	I-AF
+8	##과	O	I-AF
+9	슬픔	O	I-AF
+10	>	O	O
+11	은	O	O
+12	<	O	O
+13	행복	B-AF	B-AF
+14	##의	I-AF	I-AF
+15	건축	I-AF	I-AF
+16	>	O	O
+17	<	O	O
+18	불안	B-AF	B-AF
+19	>	O	O
+20	등의	O	O
+21	작가	B-CV	B-CV
+22	알	B-PS	B-PS
+23	##랭	I-PS	I-PS
+24	드	I-PS	I-PS
+25	보통	I-PS	I-PS
+26	##이	O	O
+27	‘	O	O
+28	일	O	O
+29	##하	O	O
+30	##는	O	O
+31	세상	O	O
+32	’	O	O
+33	을	O	O
+34	관찰	O	O
+35	##하	O	O
+36	##고	O	O
+37	쓴	O	O
+38	에세이	B-FD	B-FD
+39	##다	O	O
+40	.	O	O
+41	[SEP]	O	O

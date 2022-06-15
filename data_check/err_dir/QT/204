@@ -1,36 +1,28 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-EV
-1	임창용	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-AF
-2	##은	O	O	O, I-PS, I-OG, B-CV, I-AF
-3	일본	B-LC	B-LC	B-LC, B-OG, O, B-AF, B-EV
-4	##에서	O	O	O, I-LC, I-OG, I-PS, I-AF
-5	160	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-LC
-6	##㎞	I-QT	I-QT	I-QT, O, I-LC, I-PS, I-EV
-7	##에	O	O	O, I-QT, I-OG, I-EV, I-AF
-8	가까운	O	O	O, B-OG, B-TM, B-PS, B-LC
-9	직구	B-TM	B-TM	B-TM, O, I-TM, B-CV, B-AF
-10	##와	O	O	O, I-TM, I-AF, I-QT, I-CV
-11	슬라이더	B-TM	B-TM	B-TM, O, B-CV, I-TM, B-AF
-12	##로	O	O	O, I-TM, I-QT, I-AF, I-CV
-13	4	B-DT	B-DT	B-DT, O, B-QT, I-DT, B-EV
-14	##년	I-DT	I-DT	I-DT, O, I-QT, B-DT, I-PS
-15	동안	I-DT	I-DT	I-DT, O, I-QT, B-DT, I-PS
-16	무실점	B-TM	B-TM	B-TM, O, B-TR, B-CV, B-EV
-17	##투	O	I-TM	I-TM, O, B-TM, I-TR, I-CV
-18	##를	O	O	O, I-TM, I-CV, I-EV, I-QT
-19	이어	O	O	O, B-CV, B-OG, B-LC, B-PS
-20	##가	O	O	O, B-PS, B-CV, B-LC, B-QT
-21	##며	O	O	O, B-CV, B-LC, B-PS, B-OG
-22	부활	O	O	O, B-CV, B-LC, B-PS, B-TM
-23	##해	O	O	O, B-PS, B-LC, B-CV, B-OG
-24	‘	O	O	O, B-CV, B-PS, B-LC, B-OG
-25	미스터	O	O	O, B-PS, B-CV, B-AF, B-OG
-26	제로	B-QT	O	O, I-PS, B-PS, B-CV, I-AF
-27	’	O	O	O, I-CV, I-PS, I-QT, I-AF
-28	로	O	O	O, B-PS, B-CV, B-LC, B-QT
-29	이름	O	O	O, B-CV, B-PS, B-LC, B-AM
-30	##을	O	O	O, B-CV, B-PS, I-CV, I-OG
-31	날렸	O	O	O, B-CV, B-PS, I-CV, I-OG
-32	##다	O	O	O, B-CV, B-PS, B-QT, B-LC
-33	.	O	O	O, B-PS, B-LC, B-CV, I-OG
-34	[SEP]	O	O	O, B-CV, B-PS, B-LC, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	정부	B-OG	B-OG
+2	##가	O	O
+3	국공립	O	O
+4	유치원	O	O
+5	취	O	O
+6	##원	O	O
+7	##율	O	O
+8	##을	O	O
+9	사	B-QT	B-QT
+10	##십	I-QT	I-QT
+11	##퍼	I-QT	I-QT
+12	##센트	I-QT	I-QT
+13	##까	I-QT	O
+14	##지	I-QT	O
+15	끌어올리	O	O
+16	##기	O	O
+17	위한	O	O
+18	방안	O	O
+19	##을	O	O
+20	본격	O	O
+21	##적	O	O
+22	##으로	O	O
+23	추진	O	O
+24	##합니다	O	O
+25	.	O	O
+26	[SEP]	O	O

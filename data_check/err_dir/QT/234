@@ -1,24 +1,14 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	육	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-EV
-2	##십	I-QT	I-QT	I-QT, O, B-QT, I-EV, I-DT
-3	세	O	I-QT	I-QT, O, I-EV, I-DT, I-LC
-4	육	B-QT	B-QT	B-QT, I-QT, O, B-DT, B-EV
-5	##십	I-QT	I-QT	I-QT, B-QT, O, I-LC, I-EV
-6	##오	I-QT	I-QT	I-QT, B-QT, O, I-LC, I-EV
-7	세	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-EV
-8	이상	I-QT	I-QT	I-QT, O, I-LC, I-EV, B-QT
-9	##이	O	O	O, I-QT, B-PS, I-AF, I-EV
-10	사	B-QT	B-QT	B-QT, I-QT, O, B-DT, B-EV
-11	##십	I-QT	I-QT	I-QT, B-QT, O, I-LC, I-PS
-12	##사	I-QT	I-QT	I-QT, B-QT, O, I-LC, I-PS
-13	점	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-EV
-14	일	B-QT	I-QT	I-QT, B-QT, O, I-LC, I-PS
-15	퍼센트	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-16	이렇게	O	O	O, I-QT, B-CV, B-OG, B-TM
-17	나와	O	O	O, B-CV, B-OG, B-TM, B-QT
-18	있	O	O	O, B-CV, B-OG, B-PS, B-LC
-19	##습	O	O	O, B-CV, B-OG, B-LC, B-QT
-20	##니다	O	O	O, B-CV, B-OG, B-QT, B-LC
-21	.	O	O	O, B-QT, B-CV, B-LC, B-OG
-22	[SEP]	O	O	O, B-CV, B-QT, I-QT, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	적	O	O
+2	##게	O	O
+3	##는	O	O
+4	삼	B-QT	O
+5	##분	I-QT	O
+6	##제	I-QT	O
+7	##일	I-QT	O
+8	[UNK]	O	O
+9	안	O	O
+10	된다	O	O
+11	##든지	O	O
+12	[SEP]	O	O

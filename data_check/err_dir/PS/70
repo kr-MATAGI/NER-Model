@@ -1,41 +1,37 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	맨	O	O	O, B-TM, B-CV, B-LC, B-AM
-2	위쪽	B-TM	B-TM	B-TM, O, I-TM, B-LC, B-CV
-3	##에	O	O	O, I-TM, I-CV, B-OG, I-QT
-4	남쪽	B-LC	B-TM	B-TM, B-LC, B-OG, O, B-AF
-5	김	B-PS	B-PS	B-PS, I-PS, B-OG, O, B-LC
-6	##택	I-PS	I-PS	I-PS, I-LC, O, I-OG, B-PS
-7	##수	I-PS	I-PS	I-PS, O, I-LC, I-OG, B-LC
-8	,	O	O	O, I-PS, B-LC, B-CV, I-AF
-9	북쪽	B-LC	B-TM	B-TM, B-LC, B-OG, O, B-AF
-10	리	B-PS	B-PS	B-PS, I-PS, B-OG, O, B-LC
-11	##근	I-PS	I-PS	I-PS, O, I-LC, I-OG, B-PS
-12	##상	I-PS	I-PS	I-PS, O, I-LC, I-OG, B-LC
-13	선수	B-CV	B-CV	B-CV, O, I-PS, I-CV, B-AF
-14	서명	B-PS	O	O, B-CV, I-CV, B-TM, B-LC
-15	##이	I-PS	O	O, B-PS, B-OG, B-CV, B-LC
-16	,	O	O	O, B-CV, B-OG, B-LC, B-TM
-17	한반도	B-LC	B-LC	B-LC, B-TM, B-OG, O, B-AF
-18	오른	B-TM	B-TM	B-TM, O, I-TM, B-CV, B-LC
-19	##편	I-TM	I-TM	I-TM, O, B-TM, I-QT, I-CV
-20	위	B-TM	B-TM	B-TM, O, I-TM, B-CV, B-OG
-21	##와	O	O	O, I-TM, I-AF, I-CV, I-OG
-22	중간	B-TM	B-TM	B-TM, O, B-CV, B-OG, B-LC
-23	##에	O	O	O, I-TM, I-CV, I-AF, I-OG
-24	##는	O	O	O, B-OG, B-CV, B-TM, B-LC
-25	북쪽	B-LC	B-TM	B-TM, B-LC, B-OG, O, B-AF
-26	리	B-PS	B-PS	B-PS, I-PS, B-OG, B-LC, O
-27	##분	I-PS	I-PS	I-PS, I-LC, I-OG, O, B-PS
-28	##희	I-PS	I-PS	I-PS, O, I-LC, I-OG, B-PS
-29	·	O	O	O, I-PS, I-LC, I-AF, I-OG
-30	유	B-PS	B-PS	B-PS, B-OG, I-PS, O, B-LC
-31	##순	I-PS	I-PS	I-PS, O, I-LC, I-OG, B-PS
-32	##복	I-PS	I-PS	I-PS, O, I-LC, I-OG, B-LC
-33	선수	B-CV	B-CV	B-CV, O, I-PS, I-CV, B-AF
-34	##의	O	O	O, I-CV, B-CV, I-AF, I-OG
-35	서명	O	O	O, B-CV, B-TM, B-LC, B-OG
-36	##이	O	O	O, B-PS, B-OG, B-CV, B-LC
-37	보인다	O	O	O, B-CV, B-TM, B-OG, B-LC
-38	.	O	O	O, B-LC, B-TM, B-CV, B-OG
-39	[SEP]	O	O	O, B-TM, B-CV, B-LC, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	중국	B-LC	B-LC
+2	심	B-PS	B-OG
+3	##계	I-PS	I-OG
+4	##서	I-PS	I-OG
+5	(	O	O
+6	감사원	B-CV	B-OG
+7	)	O	O
+8	는	O	O
+9	지난	B-DT	B-DT
+10	8	I-DT	I-DT
+11	##월	I-DT	I-DT
+12	지방	B-OG	B-OG
+13	##정부	I-OG	I-OG
+14	부채	O	O
+15	##에	O	O
+16	대한	O	O
+17	일제	O	O
+18	조사	O	O
+19	##를	O	O
+20	시작	O	O
+21	##했	O	O
+22	##으며	O	O
+23	최근	O	O
+24	전체	O	O
+25	부채	O	O
+26	규모	O	O
+27	##를	O	O
+28	파악	O	O
+29	##한	O	O
+30	것	O	O
+31	##으로	O	O
+32	알려졌	O	O
+33	##다	O	O
+34	.	O	O
+35	[SEP]	O	O

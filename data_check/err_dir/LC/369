@@ -1,40 +1,14 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-EV, I-OG, B-CV, I-CV
-1	월드	B-EV	B-EV	B-EV, O, B-OG, B-LC, I-EV
-2	##미스	I-EV	I-EV	I-EV, O, I-OG, B-EV, I-LC
-3	##유	I-EV	I-EV	I-EV, I-OG, O, I-LC, B-EV
-4	##니	I-EV	I-EV	I-EV, I-OG, O, I-LC, B-EV
-5	##버시	I-EV	I-EV	I-EV, I-OG, O, I-LC, B-EV
-6	##티	I-EV	I-EV	I-EV, O, I-OG, I-LC, I-AF
-7	(	O	O	O, I-EV, I-DT, B-EV, I-OG
-8	이하	O	O	O, I-EV, B-EV, I-DT, B-DT
-9	WM	B-EV	B-EV	B-EV, I-EV, O, B-OG, B-LC
-10	##U	I-EV	I-EV	I-EV, O, I-OG, I-LC, I-DT
-11	)	O	O	O, I-EV, B-EV, I-OG, I-DT
-12	한국	B-LC	B-EV	B-EV, B-LC, I-EV, B-OG, O
-13	##대	O	I-EV	I-EV, O, I-OG, I-LC, B-EV
-14	##회	O	I-EV	I-EV, O, I-OG, I-LC, B-OG
-15	준비	O	O	O, I-OG, B-OG, I-EV, B-CV
-16	##위원회	O	I-OG	I-OG, O, I-EV, B-OG, I-AF
-17	##가	O	O	O, I-OG, I-EV, B-LC, B-PS
-18	31	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-QT
-19	##일	I-DT	I-DT	I-DT, O, B-DT, I-EV, I-PS
-20	오전	B-TI	B-TI	B-TI, O, I-TI, B-LC, B-EV
-21	서울	B-LC	B-LC	B-LC, O, B-AF, I-LC, B-OG
-22	프레스센터	B-AF	B-AF	B-AF, I-AF, B-LC, O, B-OG
-23	##에서	O	O	O, I-AF, I-EV, I-LC, I-OG
-24	세계	B-EV	B-OG	B-OG, O, B-AF, B-EV, B-LC
-25	##대	I-EV	I-OG	I-OG, O, I-AF, I-EV, B-OG
-26	##학생	I-EV	I-OG	I-OG, O, I-AF, I-CV, I-EV
-27	##평	I-EV	I-OG	I-OG, O, I-CV, I-AF, I-EV
-28	##화	I-EV	I-OG	I-OG, I-CV, O, I-AF, I-EV
-29	##봉사	I-EV	I-OG	I-OG, O, I-CV, I-AF, I-EV
-30	##사	I-EV	I-OG	I-OG, O, I-CV, I-AF, I-EV
-31	##절	I-EV	I-OG	I-OG, O, I-AF, I-CV, I-EV
-32	##단	I-EV	I-OG	I-OG, O, I-AF, I-EV, I-CV
-33	발대식	I-EV	O	O, B-EV, I-EV, I-OG, B-CV
-34	##을	O	O	O, I-EV, I-OG, I-AF, I-CV
-35	가졌	O	O	O, B-EV, B-LC, B-OG, B-CV
-36	##다	O	O	O, B-LC, I-EV, B-OG, B-EV
-37	.	O	O	O, B-EV, B-LC, I-EV, B-OG
-38	[SEP]	O	O	O, I-EV, B-EV, B-LC, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	원본	O	O
+2	##은	O	O
+3	미국	B-LC	B-OG
+4	의회	O	I-OG
+5	##도	O	I-OG
+6	##서관	O	I-OG
+7	##이	O	O
+8	소장	O	O
+9	중이	O	O
+10	##다	O	O
+11	.	O	O
+12	[SEP]	O	O

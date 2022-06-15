@@ -1,23 +1,45 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-EV, I-AF, B-CV
-1	매년	O	O	O, B-DT, B-LC, B-OG, B-PS
-2	각국	O	O	O, B-LC, B-OG, B-PS, B-CV
-3	##의	O	O	O, B-PS, B-LC, B-OG, B-CV
-4	축구	B-CV	B-CV	B-CV, O, B-PS, B-OG, B-AF
-5	스타	I-CV	B-CV	B-CV, I-CV, O, I-EV, I-AF
-6	##와	O	O	O, I-CV, I-OG, I-AF, I-EV
-7	유망주	B-CV	B-CV	B-CV, O, I-CV, B-PS, B-AF
-8	##는	O	O	O, I-CV, I-EV, I-AF, I-OG
-9	부	O	O	O, B-PS, B-CV, B-LC, B-OG
-10	##와	O	O	O, B-PS, I-AF, I-OG, B-LC
-11	명예	O	O	O, B-CV, B-PS, B-LC, I-AF
-12	##를	O	O	O, B-PS, B-CV, B-LC, I-AF
-13	좇	O	O	O, B-PS, B-LC, B-CV, B-OG
-14	##아	O	O	O, B-LC, B-PS, B-OG, B-CV
-15	잉글랜드	B-LC	B-LC	B-LC, B-OG, O, B-AF, B-PS
-16	무대	O	O	O, I-LC, I-OG, I-AF, B-CV
-17	##를	O	O	O, B-LC, B-CV, I-AF, B-PS
-18	노크	O	O	O, B-CV, B-LC, B-PS, B-EV
-19	##한다	O	O	O, I-OG, I-AF, I-EV, B-CV
-20	.	O	O	O, B-LC, B-PS, B-CV, B-OG
-21	[SEP]	O	O	O, B-LC, B-CV, B-PS, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	학원	O	O
+2	심야	O	O
+3	##교	O	O
+4	##습	O	O
+5	금지	O	O
+6	##를	O	O
+7	비롯	O	O
+8	,	O	O
+9	'	O	O
+10	사교육	O	O
+11	##과	O	O
+12	##의	O	O
+13	전쟁	O	O
+14	'	O	O
+15	을	O	O
+16	주도	O	O
+17	##하	O	O
+18	##고	O	O
+19	있	O	O
+20	##는	O	O
+21	곽	B-PS	B-PS
+22	##승	I-PS	I-PS
+23	##준	I-PS	I-PS
+24	미래	B-OG	B-CV
+25	##기획	I-OG	I-CV
+26	##위원	B-CV	I-CV
+27	##장	I-CV	I-CV
+28	##에	O	O
+29	대해	O	O
+30	28	B-DT	B-DT
+31	##일	I-DT	I-DT
+32	여야	O	O
+33	정치	O	O
+34	##권	O	O
+35	##이	O	O
+36	일제히	O	O
+37	비난	O	O
+38	##하	O	O
+39	##고	O	O
+40	나섰	O	O
+41	##다	O	O
+42	.	O	O
+43	[SEP]	O	O

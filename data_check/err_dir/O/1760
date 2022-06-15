@@ -1,28 +1,29 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-EV, I-CV
-1	해경	B-OG	B-OG	B-OG, O, B-CV, B-AF, B-EV
-2	##은	O	O	O, I-OG, B-CV, I-EV, I-CV
-3	이	O	O	O, B-PS, B-AF, B-OG, B-LC
-4	유	O	O	O, B-AF, B-MT, I-AF, B-LC
-5	##탄	O	I-AF	I-AF, O, I-LC, B-AF, I-PS
-6	##이	O	O	O, I-AF, B-PS, B-CV, I-PS
-7	석	B-PS	B-PS	B-PS, O, I-PS, B-LC, B-OG
-8	선장	B-CV	B-CV	B-CV, O, I-PS, I-CV, I-AF
-9	몸	B-AM	B-AM	B-AM, O, I-AM, B-TM, I-CV
-10	##에서	O	O	O, I-CV, I-AF, I-EV, I-QT
-11	나온	O	O	O, B-PS, B-CV, B-OG, B-LC
-12	총탄	O	B-AF	B-AF, O, I-AF, B-LC, B-TM
-13	##처럼	O	O	O, I-AF, I-OG, I-EV, B-CV
-14	중요	O	O	O, B-CV, B-TM, B-LC, B-QT
-15	##한	O	O	O, B-PS, B-LC, B-OG, B-CV
-16	정황	O	O	O, B-CV, B-TM, B-PS, B-QT
-17	증거	O	O	O, B-CV, B-PS, B-TM, B-LC
-18	##가	O	O	O, B-PS, B-OG, B-CV, B-LC
-19	될	O	O	O, B-PS, B-CV, B-LC, B-OG
-20	것	O	O	O, B-CV, B-PS, B-LC, B-OG
-21	##으로	O	O	O, B-CV, B-OG, B-PS, I-QT
-22	보고	O	O	O, B-CV, B-OG, B-QT, B-PS
-23	있	O	O	O, B-CV, B-OG, I-OG, B-QT
-24	##다	O	O	O, B-CV, I-OG, B-TM, B-QT
-25	.	O	O	O, B-PS, B-LC, B-CV, B-OG
-26	[SEP]	O	O	O, B-CV, B-PS, B-LC, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	설	B-PS	B-PS
+2	##훈	I-PS	I-PS
+3	의원	B-CV	B-CV
+4	##도	O	O
+5	한	O	O
+6	라디오	O	B-TM
+7	##에	O	O
+8	##서	O	O
+9	“	O	O
+10	문	B-PS	B-PS
+11	의원	B-CV	B-CV
+12	##이	O	O
+13	비판	O	O
+14	##받	O	O
+15	##을	O	O
+16	지점	O	O
+17	##이	O	O
+18	충분히	O	O
+19	있	O	O
+20	##을	O	O
+21	것	O	O
+22	##이	O	O
+23	##라고	O	O
+24	생각	O	O
+25	##한다	O	O
+26	.	O	O
+27	[SEP]	O	O

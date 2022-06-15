@@ -1,57 +1,12 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-EV, I-CV
-1	메르	B-OG	B-OG	B-OG, O, B-PS, B-LC, I-OG
-2	##시스	I-OG	I-OG	I-OG, O, I-PS, I-LC, I-AF
-3	##는	O	O	O, I-OG, I-AF, I-EV, B-CV
-4	산	B-OG	B-PS	B-PS, B-OG, B-AF, O, B-LC
-5	##리오	I-OG	I-PS	I-PS, I-OG, I-AF, I-LC, O
-6	##가	O	O	O, I-PS, I-OG, I-AF, I-LC
-7	만든	O	O	O, B-CV, B-PS, B-LC, B-AF
-8	캐릭터	O	O	O, B-CV, B-AF, B-FD, B-TM
-9	캐	B-AF	B-AF	B-AF, O, B-PS, B-CV, B-LC
-10	##쉬	I-AF	I-AF	I-AF, O, I-PS, I-LC, I-CV
-11	##가	O	O	O, I-AF, B-LC, I-OG, I-PS
-12	미	B-AF	B-LC	B-LC, B-AF, B-PS, O, B-CV
-13	##피	I-AF	I-LC	I-LC, I-AF, I-PS, O, I-AM
-14	##를	O	O	O, I-AF, I-LC, I-OG, I-PS
-15	모방	O	O	O, B-CV, B-LC, B-TM, B-PS
-16	##했	O	O	O, B-PS, B-LC, B-CV, B-OG
-17	##다	O	O	O, B-LC, B-OG, B-PS, B-CV
-18	##며	O	O	O, B-LC, B-OG, B-PS, B-TM
-19	네덜란드	B-LC	B-LC	B-LC, B-OG, O, B-AF, B-EV
-20	암스테르담	B-OG	B-OG	B-OG, I-OG, B-LC, B-AF, O
-21	법원	I-OG	I-OG	I-OG, O, B-OG, I-LC, I-AF
-22	##에	O	O	O, I-OG, I-EV, I-AF, B-CV
-23	관련	O	O	O, B-CV, B-TM, B-LC, B-AF
-24	캐릭터	O	O	O, B-CV, B-TM, B-LC, B-FD
-25	상품	O	O	O, B-CV, B-LC, B-TM, I-CV
-26	##에	O	O	O, B-CV, B-LC, B-PS, B-OG
-27	대한	O	O	O, B-LC, B-CV, B-OG, B-TM
-28	판매	O	O	O, B-CV, B-TM, B-LC, B-QT
-29	##금	O	O	O, I-CV, B-CV, I-LC, B-QT
-30	##지	O	O	O, I-CV, B-CV, I-LC, I-QT
-31	가처분	O	O	O, B-CV, I-CV, B-LC, B-PS
-32	신청	O	O	O, B-CV, B-LC, I-CV, B-PS
-33	##을	O	O	O, B-CV, B-OG, B-LC, B-PS
-34	냈	O	O	O, B-CV, B-OG, B-LC, B-EV
-35	##고	O	O	O, B-OG, I-OG, B-LC, I-EV
-36	,	O	O	O, B-OG, B-CV, B-LC, B-PS
-37	법원	B-OG	B-OG	B-OG, O, I-OG, B-AF, B-LC
-38	##은	O	O	O, I-OG, I-EV, B-OG, B-CV
-39	지난해	B-DT	B-DT	B-DT, O, I-DT, B-OG, B-EV
-40	11	I-DT	I-DT	I-DT, O, I-OG, I-PS, B-DT
-41	##월	I-DT	I-DT	I-DT, O, I-OG, I-PS, I-EV
-42	미	B-AF	B-PS	B-PS, B-OG, B-LC, B-AF, O
-43	##피	I-AF	I-PS	I-PS, I-OG, I-AF, I-LC, O
-44	쪽	O	O	O, I-OG, I-AF, I-PS, I-LC
-45	손	B-AM	B-AM	B-AM, O, B-PS, B-TR, I-AM
-46	##을	O	O	O, I-AF, I-QT, B-CV, I-PS
-47	들어	O	O	O, B-OG, B-CV, B-LC, B-PS
-48	판매	O	O	O, B-CV, B-TM, B-LC, B-OG
-49	##중지	O	O	O, I-CV, I-LC, I-TM, I-OG
-50	결정	O	O	O, B-CV, I-CV, I-OG, B-PS
-51	##을	O	O	O, B-CV, B-OG, B-LC, B-PS
-52	내렸	O	O	O, B-CV, B-OG, B-LC, B-PS
-53	##다	O	O	O, B-CV, I-OG, B-LC, B-OG
-54	.	O	O	O, B-LC, B-CV, B-OG, B-PS
-55	[SEP]	O	O	O, B-CV, B-LC, B-OG, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	許	B-PS	O
+2	뉴질랜드	B-LC	B-LC
+3	17	B-OG	B-QT
+4	##개	I-OG	I-QT
+5	법인	I-OG	O
+6	모두	O	O
+7	페이퍼	O	O
+8	##컴	O	O
+9	##퍼니	O	O
+10	[SEP]	O	O

@@ -1,50 +1,10 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	1980	B-DT	B-DT	B-DT, O, I-DT, B-LC, B-QT
-2	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-3	##대	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-4	초	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-5	영국	B-LC	B-LC	B-LC, B-OG, O, B-PS, B-AF
-6	대처	O	B-PS	B-PS, O, B-OG, I-PS, B-LC
-7	정권	O	O	O, B-OG, I-PS, I-OG, B-CV
-8	##이	O	O	O, B-PS, I-PS, I-OG, I-CV
-9	국가	O	O	O, B-CV, B-PS, B-OG, B-LC
-10	소유	O	O	O, B-CV, B-PS, I-CV, B-LC
-11	##의	O	O	O, B-PS, I-CV, B-LC, I-PS
-12	공공	O	O	O, B-CV, B-AF, B-LC, B-TM
-13	##주택	O	O	O, I-CV, I-AF, I-LC, B-LC
-14	##을	O	O	O, B-PS, B-LC, B-CV, I-CV
-15	개인	O	O	O, B-CV, B-PS, B-LC, B-OG
-16	##의	O	O	O, B-PS, B-LC, B-OG, B-CV
-17	사적	O	O	O, B-CV, B-LC, B-PS, B-OG
-18	소유	O	O	O, B-CV, I-CV, B-LC, B-PS
-19	##로	O	O	O, B-PS, I-CV, B-LC, I-PS
-20	이전	O	O	O, B-PS, B-CV, B-LC, B-OG
-21	##한	O	O	O, B-PS, B-LC, I-PS, B-OG
-22	지	O	O	O, B-LC, B-PS, B-CV, B-OG
-23	한	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-LC
-24	##세대	I-QT	I-QT	I-QT, O, I-LC, I-PS, I-DT
-25	만	O	I-QT	I-QT, O, I-DT, B-QT, I-LC
-26	##에	O	O	O, I-QT, B-PS, B-LC, B-OG
-27	영국	B-LC	B-LC	B-LC, O, B-AF, B-OG, B-FD
-28	주택	O	O	O, I-LC, I-AF, B-AF, B-LC
-29	##은	O	O	O, I-AF, B-LC, B-CV, I-LC
-30	부동산	O	O	O, B-CV, B-LC, B-EV, B-TM
-31	투기	O	O	O, B-PS, I-EV, B-LC, B-CV
-32	열풍	O	O	O, B-PS, B-LC, I-EV, B-CV
-33	##에	O	O	O, B-PS, B-CV, B-LC, I-EV
-34	한몫	O	O	O, B-CV, B-QT, B-PS, B-LC
-35	챙기	O	O	O, B-CV, B-PS, B-LC, I-CV
-36	##려	O	O	O, B-PS, B-CV, B-QT, B-LC
-37	##는	O	O	O, B-PS, B-CV, B-LC, B-QT
-38	사람	O	O	O, B-CV, B-PS, I-CV, B-LC
-39	##들	O	O	O, B-PS, B-CV, I-CV, B-LC
-40	##의	O	O	O, B-PS, B-CV, B-LC, B-TM
-41	판	O	O	O, B-CV, B-PS, B-LC, B-QT
-42	##돈	O	O	O, B-PS, B-CV, I-CV, B-LC
-43	##으로	O	O	O, B-CV, B-PS, B-LC, B-TM
-44	변질	O	O	O, B-LC, B-CV, B-PS, B-TM
-45	##됐	O	O	O, B-PS, B-CV, B-LC, I-EV
-46	##다	O	O	O, B-CV, B-LC, I-EV, I-OG
-47	.	O	O	O, B-LC, B-PS, B-CV, B-AF
-48	[SEP]	O	O	O, B-CV, B-LC, B-PS, I-LC
+	text	label	preds
+0	[CLS]	O	O
+1	나리	O	O
+2	##는	O	O
+3	날	O	O
+4	##다	O	O
+5	.	O	O
+6	날개	O	B-AM
+7	.	O	O
+8	[SEP]	O	O

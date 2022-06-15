@@ -1,28 +1,39 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	공과	O	O	O, B-TM, B-CV, B-AM, B-AF
-2	잔디	B-PT	B-PT	B-PT, B-CV, O, I-PT, B-AM
-3	사이	O	O	O, B-TM, I-TM, I-CV, B-LC
-4	##에	O	O	O, B-TM, B-PS, B-CV, B-QT
-5	클럽	B-CV	B-CV	B-CV, B-AM, O, B-AF, B-TM
-6	헤드	O	I-AM	I-AM, B-AM, I-CV, O, I-TM
-7	##가	O	O	O, I-AF, I-CV, I-TM, I-QT
-8	지나갈	O	O	O, B-TM, B-LC, B-QT, B-AF
-9	만큼	O	O	O, B-PS, B-QT, B-TM, B-LC
-10	##의	O	O	O, B-PS, B-QT, B-TM, B-LC
-11	공간	O	O	O, B-TM, B-QT, B-LC, B-CV
-12	##이	O	O	O, B-PS, B-LC, B-OG, B-CV
-13	없	O	O	O, B-CV, B-QT, B-PS, B-TM
-14	##다면	O	O	O, B-CV, B-TM, I-AF, I-QT
-15	다른	O	O	O, B-CV, B-TM, B-QT, B-LC
-16	샷	B-TM	B-TM	B-TM, O, B-CV, B-QT, I-TM
-17	##을	O	O	O, I-TM, I-AF, I-CV, I-QT
-18	선택	O	O	O, B-CV, B-OG, B-TM, B-LC
-19	##하	O	O	O, B-CV, B-PS, B-LC, B-OG
-20	##는	O	O	O, B-CV, B-LC, B-OG, B-PS
-21	게	O	O	O, B-CV, B-PS, B-LC, B-OG
-22	좋	O	O	O, B-CV, B-TM, I-CV, B-LC
-23	##습	O	O	O, B-CV, I-CV, I-OG, I-AF
-24	##니다	O	O	O, B-CV, I-CV, I-OG, B-TM
-25	.	O	O	O, B-CV, B-PS, B-LC, B-TM
-26	[SEP]	O	O	O, B-CV, B-TM, B-LC, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	6	B-DT	B-DT
+2	##일	I-DT	I-DT
+3	(	O	O
+4	현지	O	O
+5	시각	O	O
+6	)	O	O
+7	공개	O	O
+8	##된	O	O
+9	1800	B-QT	B-QT
+10	##페이지	I-QT	I-QT
+11	분량	O	O
+12	##의	O	O
+13	'	O	O
+14	스	B-AF	B-AF
+15	##태	I-AF	I-AF
+16	##퍼드	I-AF	I-AF
+17	병원	I-AF	I-AF
+18	진상	I-AF	I-AF
+19	##조사	I-AF	I-AF
+20	보고서	I-AF	I-AF
+21	'	O	O
+22	에	O	O
+23	##는	O	O
+24	영국	B-LC	B-LC
+25	무상	O	B-CV
+26	##의	O	I-CV
+27	##료	O	I-CV
+28	제도	O	I-CV
+29	##의	O	O
+30	어두운	O	O
+31	면	O	O
+32	##이	O	O
+33	고스란히	O	O
+34	담겼	O	O
+35	##다	O	O
+36	.	O	O
+37	[SEP]	O	O

@@ -1,31 +1,20 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	전자	O	O	O, B-OG, B-TM, B-CV, B-FD
-2	##업체	O	O	O, I-OG, I-CV, I-TM, I-FD
-3	##들이	O	O	O, I-OG, B-CV, B-PS, I-CV
-4	한때	O	O	O, B-CV, B-LC, B-OG, B-PS
-5	‘	O	O	O, B-LC, B-CV, B-OG, B-PS
-6	사양	B-TR	O	O, B-TR, B-FD, B-CV, B-TM
-7	##산업	I-TR	O	O, I-TR, I-CV, I-TM, I-OG
-8	##론	I-TR	O	O, I-TR, I-CV, I-TM, I-PS
-9	’	O	O	O, B-PS, B-CV, B-OG, B-LC
-10	이	O	O	O, B-PS, B-OG, B-CV, B-LC
-11	제기	O	O	O, B-CV, B-PS, B-TM, B-OG
-12	##됐	O	O	O, B-PS, B-CV, B-LC, B-OG
-13	##던	O	O	O, B-TM, B-CV, B-LC, B-PS
-14	백색	O	O	O, B-TM, B-CV, B-AF, B-MT
-15	##가	O	O	O, I-TM, I-CV, I-AF, B-TM
-16	##전	O	O	O, I-TM, I-CV, I-AF, I-OG
-17	##의	O	O	O, I-AF, I-CV, I-TM, I-OG
-18	중요	O	O	O, B-CV, B-OG, B-TM, B-LC
-19	##성	O	O	O, I-TM, I-AF, I-CV, I-OG
-20	##에	O	O	O, B-CV, B-PS, B-LC, B-QT
-21	다시	O	O	O, B-CV, B-TM, B-QT, B-LC
-22	눈	B-AM	B-AM	B-AM, O, B-TR, B-PS, I-AM
-23	##을	O	O	O, B-CV, I-QT, B-PS, B-AM
-24	뜨	O	O	O, B-CV, B-LC, B-PS, B-TM
-25	##고	O	O	O, B-CV, B-LC, B-PS, B-TM
-26	있	O	O	O, B-CV, B-LC, B-TM, B-PS
-27	##다	O	O	O, B-CV, I-OG, B-TM, B-LC
-28	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-29	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	아	O	O
+2	.	O	O
+3	근데	O	O
+4	이런	O	O
+5	보복	O	O
+6	이런	O	O
+7	거	O	O
+8	##를	O	O
+9	달라이	B-TR	B-PS
+10	##라마	I-TR	I-PS
+11	효과	I-TR	O
+12	##라고	O	O
+13	부른다	O	O
+14	##면	O	O
+15	##서	O	O
+16	##요	O	O
+17	?	O	O
+18	[SEP]	O	O

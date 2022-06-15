@@ -1,36 +1,46 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	우선	O	O	O, B-TM, B-LC, B-CV, B-OG
-2	부산	B-LC	B-LC	B-LC, B-OG, O, B-PS, B-AF
-3	강서구	B-LC	B-LC	B-LC, I-LC, O, B-OG, B-PS
-4	대	B-LC	B-LC	B-LC, I-LC, O, B-OG, B-AF
-5	##저	I-LC	I-LC	I-LC, O, B-LC, I-AF, I-PS
-6	##동	I-LC	I-LC	I-LC, O, B-LC, I-AF, I-PS
-7	김해	B-LC	B-LC	B-LC, I-LC, O, B-AF, B-OG
-8	##공항	I-LC	I-LC	I-LC, O, I-AF, B-LC, I-OG
-9	테크	O	O	O, I-LC, B-CV, I-AF, B-AF
-10	##센터	O	O	O, I-LC, I-AF, I-CV, B-LC
-11	부근	O	O	O, B-TM, B-LC, B-CV, B-AF
-12	##의	O	O	O, B-LC, B-AF, B-CV, B-PS
-13	땅	O	O	O, B-LC, B-CV, B-TM, B-AF
-14	23	B-QT	B-QT	B-QT, O, I-QT, B-LC, B-DT
-15	##만	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-16	m	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-17	##²	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-18	##를	O	O	O, I-QT, B-CV, B-LC, B-TM
-19	부산시	B-OG	B-LC	B-LC, B-OG, O, B-AF, B-PS
-20	##에서	O	O	O, I-LC, I-OG, I-AF, B-LC
-21	매입	O	O	O, B-CV, B-LC, B-TM, B-QT
-22	##해	O	O	O, B-LC, B-PS, B-OG, B-QT
-23	제	B-QT	B-QT	B-QT, O, I-QT, B-TM, B-EV
-24	##2	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-TM
-25	테크	O	O	O, I-QT, B-CV, B-LC, I-AF
-26	##센터	O	O	O, I-AF, I-LC, I-QT, I-CV
-27	##를	O	O	O, I-AF, B-CV, B-LC, B-PS
-28	조성	O	O	O, B-LC, B-AF, B-CV, B-OG
-29	##하기	O	O	O, B-LC, I-AF, B-PS, I-OG
-30	##로	O	O	O, B-CV, B-OG, I-AF, B-LC
-31	했	O	O	O, B-CV, B-OG, B-LC, B-TM
-32	##다	O	O	O, B-CV, B-TM, B-LC, B-OG
-33	.	O	O	O, B-LC, B-AF, B-CV, B-PS
-34	[SEP]	O	O	O, B-LC, B-CV, B-AF, I-LC
+	text	label	preds
+0	[CLS]	O	O
+1	강원	B-OG	B-OG
+2	##은	O	O
+3	제주	B-AF	B-AF
+4	##월드	I-AF	I-AF
+5	##컵	I-AF	I-AF
+6	##경기	I-AF	I-AF
+7	##장	I-AF	I-AF
+8	##에	O	O
+9	##서	O	O
+10	열린	O	O
+11	제주	B-OG	B-OG
+12	##와	O	O
+13	##의	O	O
+14	B	B-OG	O
+15	##그룹	I-OG	O
+16	방문	O	O
+17	##경기	O	O
+18	##에	O	O
+19	##서	O	O
+20	상대	O	O
+21	자책	B-TM	B-TM
+22	##골	I-TM	I-TM
+23	##로	O	O
+24	앞서	O	O
+25	나갔	O	O
+26	##지만	O	O
+27	후반	B-TI	B-TI
+28	추가	O	O
+29	##시간	O	O
+30	동점	B-TM	B-TM
+31	##골	I-TM	I-TM
+32	##을	O	O
+33	허용	O	O
+34	##하면	O	O
+35	##서	O	O
+36	1	B-QT	B-QT
+37	-	I-QT	I-QT
+38	1	I-QT	I-QT
+39	##로	O	O
+40	비	O	O
+41	##겼	O	O
+42	##다	O	O
+43	.	O	O
+44	[SEP]	O	O

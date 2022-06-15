@@ -1,22 +1,38 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	패	O	B-OG	B-OG, O, B-CV, B-AF, B-LC
-2	##크	O	I-OG	I-OG, O, I-AF, I-CV, I-LC
-3	##레	O	I-OG	I-OG, O, I-AF, I-CV, I-LC
-4	학생	B-CV	B-CV	B-CV, O, I-CV, I-OG, I-AF
-5	##들이	O	O	O, I-CV, I-OG, I-AF, B-CV
-6	남매	O	B-CV	B-CV, O, I-CV, B-EV, B-PS
-7	##에	O	O	O, I-CV, B-CV, I-EV, I-AF
-8	##게	O	O	O, B-CV, B-LC, B-QT, B-TM
-9	첫	O	O	O, B-QT, B-CV, B-LC, B-PS
-10	옷	O	O	O, B-CV, I-QT, I-CV, I-AF
-11	##을	O	O	O, B-CV, B-PS, I-CV, I-AF
-12	선물	O	O	O, B-CV, B-LC, B-QT, B-PS
-13	##한	O	O	O, B-CV, B-PS, B-LC, B-OG
-14	것	O	O	O, B-CV, B-OG, B-LC, B-PS
-15	##은	O	O	O, B-CV, B-OG, B-LC, B-PS
-16	지난	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-17	3	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-18	##월	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-19	.	O	O	O, I-DT, B-CV, I-OG, I-QT
-20	[SEP]	O	O	O, B-CV, B-OG, B-LC, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	2	B-EV	B-EV
+2	##차	I-EV	I-EV
+3	##전	I-EV	I-EV
+4	##에	O	O
+5	##서	O	O
+6	처음	O	O
+7	진행	O	O
+8	##된	O	O
+9	이후	O	O
+10	모터스	B-CV	B-CV
+11	##포츠	I-CV	I-CV
+12	팬	B-CV	B-CV
+13	##들의	O	O
+14	큰	O	O
+15	관심	O	O
+16	##을	O	O
+17	받	O	O
+18	##은	O	O
+19	‘	O	O
+20	나	O	O
+21	##도	O	O
+22	레이	O	B-CV
+23	##서	O	I-CV
+24	##다	O	O
+25	’	O	O
+26	이벤트	O	O
+27	##는	O	O
+28	4	B-EV	B-EV
+29	##차	I-EV	I-EV
+30	##전	I-EV	I-EV
+31	##에도	O	O
+32	계속	O	O
+33	##해서	O	O
+34	열린다	O	O
+35	.	O	O
+36	[SEP]	O	O

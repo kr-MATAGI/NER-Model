@@ -1,40 +1,64 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-EV, I-CV
-1	18	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-2	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
-3	맞붙	O	O	O, I-DT, B-CV, B-LC, B-OG
-4	##는	O	O	O, B-OG, B-LC, B-CV, B-PS
-5	3	B-QT	B-QT	B-QT, B-EV, O, I-QT, B-DT
-6	##위	I-QT	I-QT	I-QT, I-EV, O, I-OG, I-DT
-7	수원	B-OG	B-OG	B-OG, B-LC, I-QT, I-OG, B-AF
-8	(	O	O	O, I-OG, I-QT, B-CV, I-EV
-9	승점	O	B-QT	B-QT, O, B-TM, B-OG, B-AF
-10	68	B-QT	I-QT	I-QT, B-QT, O, I-TM, I-LC
-11	)	O	O	O, I-QT, I-OG, I-TM, I-EV
-12	과	O	O	O, B-CV, B-OG, B-PS, B-LC
-13	5	B-QT	B-QT	B-QT, O, I-QT, B-EV, B-DT
-14	##위	I-QT	I-QT	I-QT, O, I-EV, I-OG, I-DT
-15	울산	B-OG	B-OG	B-OG, B-LC, I-QT, I-OG, B-AF
-16	(	O	O	O, I-OG, I-QT, B-CV, I-CV
-17	승점	O	B-QT	B-QT, O, B-TM, B-OG, B-AF
-18	59	B-QT	I-QT	I-QT, B-QT, O, I-TM, I-LC
-19	)	O	O	O, I-QT, I-OG, I-TM, B-CV
-20	은	O	O	O, B-CV, B-OG, B-PS, B-LC
-21	내년	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-QT
-22	AFC	B-EV	B-EV	B-EV, O, I-EV, B-AF, B-CV
-23	챔피언	I-EV	I-EV	I-EV, B-EV, O, I-DT, I-AF
-24	##스	I-EV	I-EV	I-EV, O, I-AF, I-DT, I-TM
-25	##리그	I-EV	I-EV	I-EV, O, I-AF, B-EV, I-TM
-26	진출	O	O	O, I-EV, I-AF, B-CV, I-OG
-27	##을	O	O	O, B-LC, B-CV, B-PS, B-OG
-28	위한	O	O	O, B-LC, B-EV, B-TM, B-QT
-29	플레이오프	B-EV	B-EV	B-EV, O, B-CV, B-TM, B-DT
-30	출전	O	O	O, B-CV, I-EV, B-TM, I-CV
-31	##권	O	O	O, I-CV, I-TM, I-LC, I-AF
-32	##을	O	O	O, I-CV, B-CV, I-AF, I-EV
-33	놓	O	O	O, B-CV, B-LC, B-TM, B-PS
-34	##고	O	O	O, B-CV, B-LC, B-PS, B-EV
-35	경쟁	O	O	O, B-CV, B-EV, B-LC, B-TM
-36	##한다	O	O	O, B-CV, I-EV, B-LC, B-PS
-37	.	O	O	O, B-LC, B-CV, B-OG, B-PS
-38	[SEP]	O	O	O, B-CV, B-LC, B-OG, I-EV
+	text	label	preds
+0	[CLS]	O	O
+1	또	O	O
+2	지난	O	O
+3	국정	O	O
+4	##감사	O	O
+5	당시	O	O
+6	4	B-TM	B-TM
+7	##대	I-TM	I-TM
+8	##강	I-TM	I-TM
+9	사업	I-TM	I-TM
+10	,	O	O
+11	자원	O	O
+12	##외	O	O
+13	##교	O	O
+14	,	O	O
+15	방산	O	O
+16	##비	O	O
+17	##리	O	O
+18	의혹	O	O
+19	등	O	O
+20	##을	O	O
+21	묶	O	O
+22	##은	O	O
+23	‘	O	O
+24	4	B-QT	B-LC
+25	·	O	O
+26	자	O	O
+27	·	O	O
+28	방	O	O
+29	’	O	O
+30	이란	O	O
+31	신조어	O	O
+32	##를	O	O
+33	만들	O	O
+34	##며	O	O
+35	정국	O	O
+36	##을	O	O
+37	주도	O	O
+38	##했	O	O
+39	##지만	O	O
+40	,	O	O
+41	자원	O	O
+42	##외	O	O
+43	##교	O	O
+44	##나	O	O
+45	방산	O	O
+46	##비	O	O
+47	##리	O	O
+48	##를	O	O
+49	제외	O	O
+50	##한	O	O
+51	4	B-LC	B-LC
+52	##대	I-LC	I-LC
+53	##강	I-LC	I-LC
+54	국정	O	O
+55	##조사	O	O
+56	##는	O	O
+57	아직	O	O
+58	요원	O	O
+59	##하	O	O
+60	##다	O	O
+61	.	O	O
+62	[SEP]	O	O

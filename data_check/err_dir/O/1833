@@ -1,32 +1,19 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	‘	O	O	O, B-CV, B-LC, B-PS, B-OG
-2	만능	O	O	O, B-PS, B-AF, B-LC, B-EV
-3	줄기세포	B-TM	B-TM	B-TM, O, I-TM, B-TR, B-AM
-4	’	O	O	O, I-TM, I-TR, I-AF, I-CV
-5	로	O	O	O, B-PS, B-LC, B-CV, B-OG
-6	불리	O	O	O, B-CV, B-PS, B-LC, B-OG
-7	##는	O	O	O, B-CV, B-LC, B-PS, B-TM
-8	이	O	O	O, B-PS, B-CV, B-AF, B-OG
-9	기술	O	O	O, B-CV, B-TM, B-PS, B-FD
-10	##은	O	O	O, B-CV, B-LC, B-PS, B-OG
-11	인간	O	O	O, B-AM, B-CV, B-LC, B-TM
-12	##의	O	O	O, B-PS, B-CV, B-LC, B-AF
-13	난자	B-TM	B-TM	B-TM, O, B-TR, B-AF, I-TM
-14	대신	O	O	O, I-TM, B-CV, I-AF, B-TM
-15	##에	O	O	O, B-CV, B-AF, B-TM, B-LC
-16	피부	O	B-TM	B-TM, O, B-TR, B-CV, B-AM
-17	##세포	O	I-TM	I-TM, O, B-TM, I-TR, I-AM
-18	##를	O	O	O, I-TM, I-AF, I-OG, I-CV
-19	사용	O	O	O, B-CV, B-LC, B-OG, B-TM
-20	##해	O	O	O, B-LC, B-PS, B-CV, B-TM
-21	바이러스	B-TM	B-TM	B-TM, O, B-CV, I-TM, B-TR
-22	##를	O	O	O, I-TM, I-AF, B-CV, I-CV
-23	주입	O	O	O, B-CV, B-LC, B-PS, B-TM
-24	##하고	O	O	O, B-CV, B-LC, B-TM, B-PS
-25	줄기세포	B-TM	B-TM	B-TM, O, B-TR, B-CV, I-TM
-26	##를	O	O	O, I-TM, I-AF, I-CV, B-CV
-27	추출	O	O	O, B-CV, B-LC, B-TM, B-OG
-28	##한다	O	O	O, B-LC, B-CV, B-PS, B-OG
-29	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-30	[SEP]	O	O	O, B-LC, B-CV, B-TM, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	뭐	O	O
+2	산이	O	O
+3	있	O	O
+4	##으면	O	O
+5	깎	O	O
+6	##고	O	O
+7	해서	O	O
+8	인제	O	O
+9	뭐	O	O
+10	토	O	B-TR
+11	##곤	O	I-TR
+12	사업	O	I-TR
+13	##을	O	O
+14	엄청나	O	O
+15	##게	O	O
+16	해서	O	O
+17	[SEP]	O	O

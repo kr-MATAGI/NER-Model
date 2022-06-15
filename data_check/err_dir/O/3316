@@ -1,22 +1,26 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, I-OG, B-CV, I-AF
-1	이	O	O	O, B-PS, B-OG, B-CV, B-QT
-2	극	O	O	O, B-CV, B-PS, B-OG, B-TM
-3	##렬	O	O	O, B-CV, B-PS, I-OG, B-OG
-4	##한	O	O	O, B-PS, B-LC, I-OG, B-OG
-5	갈등	O	O	O, B-CV, B-TM, B-PS, B-FD
-6	##이	O	O	O, B-PS, B-CV, B-OG, I-CV
-7	##라는	O	O	O, B-PS, B-CV, B-TM, B-OG
-8	것	O	O	O, B-PS, B-OG, B-CV, B-LC
-9	##도	O	O	O, B-PS, B-CV, I-AF, I-OG
-10	일	O	B-DT	B-DT, O, B-QT, I-DT, B-EV
-11	##이	O	I-DT	I-DT, O, B-DT, I-QT, I-PS
-12	##년	O	I-DT	I-DT, O, B-DT, I-QT, I-PS
-13	있	O	O	O, I-DT, I-QT, B-PS, I-EV
-14	##으면	O	O	O, I-DT, B-PS, I-QT, I-OG
-15	또	O	O	O, B-CV, B-TM, B-LC, B-OG
-16	사그라	O	O	O, B-PS, B-CV, B-TM, B-OG
-17	##지	O	O	O, I-CV, I-OG, I-AF, B-PS
-18	##더라	O	O	O, B-CV, I-OG, I-CV, I-AF
-19	.	O	O	O, B-CV, B-PS, I-AF, B-LC
-20	[SEP]	O	O	O, B-CV, B-PS, I-AF, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	주요	O	O
+2	보직	O	O
+3	인사	O	B-CV
+4	##는	O	O
+5	천	B-PS	B-PS
+6	후보자	B-CV	B-CV
+7	##의	O	O
+8	사법	O	B-EV
+9	##시험	O	I-EV
+10	기수	O	O
+11	##와	O	O
+12	나이	O	O
+13	,	O	O
+14	지역	O	O
+15	##을	O	O
+16	고려	O	O
+17	##해	O	O
+18	안	O	O
+19	##배	O	O
+20	##가	O	O
+21	이뤄졌	O	O
+22	##다	O	O
+23	.	O	O
+24	[SEP]	O	O

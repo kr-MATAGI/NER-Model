@@ -1,41 +1,52 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-EV, I-OG, B-CV, I-CV
-1	마	B-LC	B-LC	B-LC, O, B-OG, B-PS, B-AF
-2	##셜	I-LC	I-LC	I-LC, O, B-LC, I-AF, I-PS
-3	##제	I-LC	I-LC	I-LC, O, B-LC, I-AF, I-PS
-4	##도	I-LC	I-LC	I-LC, O, B-LC, I-AF, I-PS
-5	##공화국	I-LC	I-LC	I-LC, O, B-LC, I-AF, I-PS
-6	비키니	B-LC	B-LC	B-LC, I-LC, O, B-AF, B-OG
-7	##섬	I-LC	I-LC	I-LC, O, I-AF, B-LC, I-OG
-8	##에서	O	O	O, I-LC, I-AF, B-LC, I-EV
-9	벌어진	O	O	O, B-CV, B-OG, B-LC, B-EV
-10	미군	B-OG	B-OG	B-OG, O, B-EV, B-CV, B-AF
-11	핵실험	O	O	O, I-EV, B-EV, B-CV, B-AF
-12	피해자	O	B-CV	B-CV, O, I-CV, I-EV, B-EV
-13	,	O	O	O, I-CV, I-EV, B-CV, I-AF
-14	러시아	O	B-LC	B-LC, O, B-OG, B-EV, B-AF
-15	체	O	B-LC	B-LC, O, I-LC, B-AF, B-EV
-16	##르노	O	I-LC	I-LC, I-AF, O, B-LC, I-EV
-17	##빌	O	I-LC	I-LC, I-AF, O, B-LC, I-EV
-18	##과	O	O	O, I-LC, I-AF, I-EV, B-LC
-19	일본	O	B-LC	B-LC, B-EV, O, B-AF, B-OG
-20	후쿠시마	O	I-EV	I-EV, B-LC, B-EV, I-LC, I-AF
-21	원전	O	I-EV	I-EV, O, B-EV, I-LC, I-AF
-22	사고	O	I-EV	I-EV, O, I-LC, I-AF, B-EV
-23	피폭	O	B-CV	B-CV, O, I-EV, I-CV, B-AF
-24	##자	O	I-CV	I-CV, O, B-CV, I-EV, I-AF
-25	등	O	O	O, I-CV, I-EV, I-QT, I-OG
-26	전세	O	O	O, B-LC, B-OG, B-CV, B-PS
-27	##계	O	O	O, B-LC, I-LC, B-PS, I-QT
-28	핵	B-AF	B-AF	B-AF, B-MT, O, B-PS, B-LC
-29	피해자	B-CV	B-CV	B-CV, I-CV, O, I-AF, I-PS
-30	6	B-QT	B-QT	B-QT, I-QT, O, B-DT, I-CV
-31	##명	I-QT	I-QT	I-QT, O, I-AF, I-LC, B-QT
-32	##이	O	O	O, I-QT, I-EV, B-PS, B-CV
-33	한국	B-LC	B-LC	B-LC, O, B-OG, B-AF, I-LC
-34	##을	O	O	O, I-LC, I-AF, I-OG, I-EV
-35	찾	O	O	O, B-CV, B-LC, B-OG, B-AF
-36	##았	O	O	O, B-LC, B-CV, I-EV, I-OG
-37	##다	O	O	O, B-CV, B-LC, I-EV, I-OG
-38	.	O	O	O, B-LC, B-CV, I-EV, B-PS
-39	[SEP]	O	O	O, B-LC, B-CV, I-EV, I-LC
+	text	label	preds
+0	[CLS]	O	O
+1	'	O	O
+2	땅	O	B-AF
+3	##집	O	I-AF
+4	'	O	O
+5	은	O	O
+6	터	O	O
+7	##를	O	O
+8	파	O	O
+9	##며	O	O
+10	나온	O	O
+11	흙	O	O
+12	##을	O	O
+13	활용	O	O
+14	##해	O	O
+15	지은	O	O
+16	흙	O	O
+17	##집	O	O
+18	##이	O	O
+19	##기	O	O
+20	##도	O	O
+21	한데	O	O
+22	,	O	O
+23	흙	O	O
+24	##은	O	O
+25	곱	O	O
+26	##게	O	O
+27	다져	O	O
+28	5	B-QT	B-QT
+29	##㎝	I-QT	I-QT
+30	두께	O	O
+31	##로	O	O
+32	쌓	O	O
+33	##고	O	O
+34	그걸	O	O
+35	60	B-QT	B-QT
+36	##번	I-QT	I-QT
+37	반복	O	O
+38	##해	O	O
+39	3	B-QT	B-QT
+40	##m	I-QT	I-QT
+41	높이	O	O
+42	##로	O	O
+43	쌓	O	O
+44	##아	O	O
+45	##올	O	O
+46	##렸	O	O
+47	##다고	O	O
+48	한다	O	O
+49	.	O	O
+50	[SEP]	O	O

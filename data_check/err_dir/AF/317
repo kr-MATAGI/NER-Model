@@ -1,30 +1,40 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, B-CV, I-OG, I-EV
-1	""""	O	O	O, B-CV, B-PS, B-LC, B-OG
-2	사자	B-AM	B-AM	B-AM, O, B-PS, B-AF, B-TM
-3	##는	O	O	O, I-AF, B-PS, B-AM, I-PS
-4	창	B-AF	B-LC	B-LC, O, B-AF, B-TM, B-PS
-5	##경	I-AF	I-LC	I-LC, O, I-AF, I-PS, B-LC
-6	##원	I-AF	I-LC	I-LC, O, I-AF, I-PS, I-QT
-7	##에	O	O	O, I-LC, I-AF, B-LC, B-PS
-8	갇혀	O	O	O, B-LC, B-PS, B-TM, B-QT
-9	있	O	O	O, B-PS, B-LC, B-CV, I-AF
-10	##다지	O	O	O, B-PS, B-CV, B-LC, I-AF
-11	##만	O	O	O, B-PS, B-LC, B-AM, I-AF
-12	,	O	O	O, B-PS, B-CV, B-LC, B-OG
-13	나	O	O	O, B-CV, B-PS, B-LC, B-OG
-14	##는	O	O	O, B-PS, B-AM, I-AF, B-CV
-15	사람	O	O	O, B-AM, B-PS, B-CV, B-LC
-16	##으로	O	O	O, B-PS, B-AM, I-AF, B-CV
-17	##서	O	O	O, B-PS, B-LC, B-AM, I-AF
-18	이	O	O	O, B-PS, B-LC, B-AF, B-OG
-19	청와대	B-AF	B-AF	B-AF, B-OG, O, B-LC, B-PS
-20	##에	O	O	O, I-AF, I-OG, I-PS, I-EV
-21	갇혀	O	O	O, B-LC, B-PS, B-TM, B-QT
-22	마음대로	O	O	O, B-LC, B-TM, B-PS, B-QT
-23	나가	O	O	O, B-CV, B-TM, B-LC, B-PS
-24	##지도	O	O	O, B-CV, I-AF, B-LC, B-TM
-25	못하	O	O	O, B-CV, B-PS, B-LC, B-QT
-26	##오	O	O	O, B-PS, B-CV, B-LC, I-CV
-27	.	O	O	O, B-LC, B-PS, B-CV, B-AM
-28	[SEP]	O	O	O, B-LC, B-CV, B-PS, B-AM
+	text	label	preds
+0	[CLS]	O	O
+1	난	B-OG	B-OG
+2	##징	I-OG	I-OG
+3	##사	I-OG	I-OG
+4	##범	I-OG	I-OG
+5	##대	I-OG	I-OG
+6	초빙	B-CV	B-CV
+7	##교	I-CV	I-CV
+8	##수	I-CV	I-CV
+9	##로	O	O
+10	중국	B-LC	B-LC
+11	학생	B-CV	B-CV
+12	##들	O	O
+13	##도	O	O
+14	가르치	O	O
+15	##고	O	O
+16	있	O	O
+17	##는	O	O
+18	가운데	O	O
+19	최근	O	O
+20	'	O	O
+21	한국	B-AF	B-LC
+22	##유	I-AF	O
+23	##학	I-AF	O
+24	붐	I-AF	O
+25	,	I-AF	O
+26	어떻게	I-AF	O
+27	볼	I-AF	O
+28	것	I-AF	O
+29	##인	I-AF	O
+30	##가	I-AF	O
+31	'	O	O
+32	를	O	O
+33	탈	O	O
+34	##고	O	O
+35	##했	O	O
+36	##다	O	O
+37	.	O	O
+38	[SEP]	O	O

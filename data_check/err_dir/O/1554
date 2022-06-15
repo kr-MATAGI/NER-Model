@@ -1,21 +1,23 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-EV, B-CV, I-CV
-1	뿌	O	B-OG	B-OG, B-AF, O, B-TM, B-EV
-2	##까	O	I-OG	I-OG, O, I-AF, I-TM, I-MT
-3	##는	O	O	O, I-OG, I-AF, I-TM, I-EV
-4	국내	O	O	O, B-LC, B-CV, I-OG, B-TM
-5	##의	O	O	O, B-LC, B-PS, B-CV, B-OG
-6	여느	O	O	O, B-CV, B-PS, B-OG, B-LC
-7	수출	O	O	O, B-CV, B-AF, B-OG, B-LC
-8	##품	O	O	O, I-CV, I-AF, I-OG, B-CV
-9	##과	O	O	O, B-CV, B-OG, B-PS, B-LC
-10	다른	O	O	O, B-OG, B-TM, B-LC, B-CV
-11	확장	O	O	O, B-CV, B-TM, B-OG, B-LC
-12	이력	O	O	O, B-OG, B-TM, B-CV, B-PS
-13	##을	O	O	O, B-CV, I-OG, B-OG, I-AF
-14	갖	O	O	O, B-CV, B-OG, B-TM, B-AF
-15	##고	O	O	O, B-OG, I-OG, B-PS, B-CV
-16	있	O	O	O, B-OG, B-CV, B-TM, I-OG
-17	##다	O	O	O, B-CV, I-OG, B-OG, B-TM
-18	.	O	O	O, B-LC, B-OG, B-CV, B-PS
-19	[SEP]	O	O	O, B-CV, B-LC, B-OG, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	사우디	B-OG	B-OG
+2	##의	O	O
+3	공습	O	O
+4	중단	O	O
+5	##이	O	O
+6	예멘	B-LC	B-EV
+7	내전	O	I-EV
+8	##의	O	O
+9	정치	O	O
+10	##적	O	O
+11	해결	O	O
+12	##을	O	O
+13	낳	O	O
+14	##을	O	O
+15	##지	O	O
+16	##는	O	O
+17	회의	O	O
+18	##적	O	O
+19	##이다	O	O
+20	.	O	O
+21	[SEP]	O	O

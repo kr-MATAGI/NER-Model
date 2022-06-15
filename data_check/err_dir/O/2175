@@ -1,28 +1,28 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-EV
-1	""""	O	O	O, B-CV, B-LC, B-OG, B-PS
-2	교황	B-CV	B-CV	B-CV, O, B-OG, B-PS, B-AF
-3	또	O	O	O, I-CV, B-CV, I-EV, I-OG
-4	'	O	O	O, B-LC, B-CV, B-PS, B-OG
-5	사제	B-CV	B-CV	B-CV, O, B-EV, B-TM, B-FD
-6	性	O	O	O, I-CV, I-TM, I-EV, B-CV
-7	추문	O	O	O, I-CV, I-TM, I-EV, B-CV
-8	'	O	O	O, I-CV, B-PS, I-EV, B-CV
-9	은폐	O	O	O, B-CV, B-TM, B-LC, B-PS
-10	의혹	O	O	O, I-CV, B-PS, B-CV, B-LC
-11	""""	O	O	O, B-CV, B-LC, B-OG, B-PS
-12	;	O	O	O, B-LC, B-PS, B-OG, B-CV
-13	당시	O	O	O, B-CV, B-OG, B-LC, B-PS
-14	美	B-LC	B-LC	B-LC, B-OG, O, B-CV, B-TM
-15	신부	B-CV	B-CV	B-CV, O, I-CV, B-OG, I-OG
-16	##의	O	O	O, I-CV, I-OG, B-CV, I-EV
-17	아동	O	O	O, B-CV, B-TM, B-FD, I-CV
-18	성추행	O	B-CV	B-CV, I-CV, O, B-FD, B-TM
-19	추기경	O	B-CV	B-CV, O, I-CV, B-OG, B-DT
-20	##때	O	O	O, I-CV, I-DT, I-EV, I-QT
-21	아무	O	O	O, B-LC, B-TM, B-PS, B-CV
-22	조치	O	O	O, B-LC, B-CV, B-TM, B-PS
-23	안	O	O	O, B-LC, B-CV, B-TM, B-OG
-24	##취	O	O	O, B-LC, B-CV, I-LC, I-CV
-25	##해	O	O	O, B-LC, B-OG, B-PS, I-LC
-26	[SEP]	O	O	O, B-LC, B-CV, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	신	B-PS	B-PS
+2	감독	B-CV	B-CV
+3	최고	O	O
+4	##의	O	O
+5	타이틀	O	O
+6	##은	O	O
+7	2010	B-DT	B-DT
+8	아시아	B-EV	B-EV
+9	##축구연맹	I-EV	I-EV
+10	챔피언	I-EV	I-EV
+11	##스	I-EV	I-EV
+12	##리그	I-EV	I-EV
+13	##에	O	O
+14	##서	O	O
+15	성남	B-OG	B-OG
+16	일화	O	I-OG
+17	##를	O	O
+18	이끌	O	O
+19	##고	O	O
+20	나가	O	O
+21	차지	O	O
+22	##한	O	O
+23	우승컵	O	O
+24	##이다	O	O
+25	.	O	O
+26	[SEP]	O	O

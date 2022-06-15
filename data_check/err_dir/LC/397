@@ -1,14 +1,25 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-EV
-1	북	B-LC	B-OG	B-OG, B-LC, O, B-TM, B-PS
-2	‘	O	O	O, I-OG, I-LC, B-CV, B-OG
-3	비밀	O	O	O, B-CV, B-LC, B-TM, B-AF
-4	##접	O	O	O, B-CV, I-AF, B-LC, B-PS
-5	##촉	O	O	O, I-AF, B-CV, B-LC, B-PS
-6	녹음	O	O	O, B-CV, B-TM, B-LC, B-PS
-7	##기록	O	O	O, B-CV, B-LC, I-CV, B-PS
-8	공개	O	O	O, B-CV, B-LC, B-TM, B-OG
-9	’	O	O	O, B-CV, B-OG, B-LC, B-PS
-10	위협	O	O	O, B-CV, B-LC, B-TM, B-PS
-11	파장	O	O	O, B-LC, B-TM, B-CV, B-PS
-12	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-AF
+	text	label	preds
+0	[CLS]	O	O
+1	대형	O	O
+2	레저	O	O
+3	·	O	O
+4	쇼핑	O	O
+5	##타운	O	O
+6	##인	O	O
+7	서울	B-LC	B-LC
+8	잠실	B-LC	B-LC
+9	롯데월드	B-LC	B-AF
+10	역시	O	O
+11	중국인	B-CV	B-CV
+12	관광객	B-CV	B-CV
+13	##이	O	O
+14	일본인	B-CV	B-CV
+15	관광객	B-CV	B-CV
+16	##을	O	O
+17	압도	O	O
+18	##하	O	O
+19	##고	O	O
+20	있	O	O
+21	##다	O	O
+22	.	O	O
+23	[SEP]	O	O

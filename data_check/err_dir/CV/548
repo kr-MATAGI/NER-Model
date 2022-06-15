@@ -1,31 +1,30 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	서울	B-LC	B-LC	B-LC, O, B-OG, B-AF, B-PS
-2	서초	B-LC	B-LC	B-LC, O, I-LC, B-AF, B-PS
-3	##갑	I-LC	I-LC	I-LC, O, B-LC, I-AF, I-PS
-4	##에	O	O	O, I-LC, I-AF, B-CV, I-EV
-5	출마	O	O	O, B-CV, B-PS, B-LC, B-OG
-6	##한	O	O	O, B-PS, B-OG, B-LC, B-CV
-7	이혜	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-8	##훈	I-PS	I-PS	I-PS, O, I-OG, B-PS, I-LC
-9	전	O	O	O, I-PS, B-CV, I-OG, I-AF
-10	의원	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-OG
-11	##과	O	O	O, I-CV, B-CV, I-AF, I-EV
-12	조윤선	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
-13	전	O	O	O, I-PS, B-CV, I-AF, I-OG
-14	대통령	B-CV	B-CV	B-CV, O, B-OG, B-AF, B-TM
-15	##정	B-CV	I-CV	I-CV, B-CV, O, I-OG, I-AF
-16	##무	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-AF
-17	##수	I-CV	I-CV	I-CV, B-CV, O, I-OG, I-QT
-18	##석	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-QT
-19	##비	I-CV	I-CV	I-CV, B-CV, O, I-OG, I-QT
-20	##서관	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-QT
-21	##도	O	O	O, I-CV, B-CV, I-QT, I-OG
-22	나란히	O	O	O, B-QT, B-CV, B-TM, B-LC
-23	10	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-EV
-24	%	I-QT	I-QT	I-QT, O, I-DT, I-LC, I-PS
-25	가점	O	O	O, B-CV, I-QT, B-TM, B-PS
-26	대상	O	O	O, B-CV, B-PS, I-CV, B-OG
-27	##이다	O	O	O, I-CV, B-CV, I-EV, I-OG
-28	.	O	O	O, B-PS, B-LC, B-CV, B-OG
-29	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	그	O	O
+2	후	O	O
+3	다	B-PS	B-PS
+4	##쓰	I-PS	I-PS
+5	##노	I-PS	I-PS
+6	회장	B-CV	B-CV
+7	##은	O	O
+8	일본	B-LC	B-LC
+9	장애인	B-CV	B-OG
+10	카누	B-OG	I-OG
+11	##협회	I-OG	I-OG
+12	활동	O	O
+13	##에	O	O
+14	참여	O	O
+15	##하	O	O
+16	##고	O	O
+17	있	O	O
+18	##고	O	O
+19	현재	O	O
+20	##는	O	O
+21	고문	B-CV	B-CV
+22	##을	O	O
+23	맡	O	O
+24	##고	O	O
+25	있	O	O
+26	##다	O	O
+27	.	O	O
+28	[SEP]	O	O

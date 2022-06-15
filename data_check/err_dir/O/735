@@ -1,18 +1,80 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	우리	O	O	O, B-CV, B-OG, B-QT, B-TM
-2	그	O	O	O, B-CV, B-OG, B-AF, B-TM
-3	수임	O	O	O, B-CV, I-CV, B-FD, B-QT
-4	##료	O	O	O, I-CV, B-CV, I-QT, I-AF
-5	##도	O	O	O, I-CV, I-QT, B-CV, B-PS
-6	한번	O	B-QT	B-QT, O, I-QT, B-CV, B-PS
-7	생각	O	O	O, I-QT, B-CV, B-TM, B-QT
-8	##을	O	O	O, B-CV, I-QT, B-PS, B-OG
-9	해	O	O	O, B-CV, B-QT, B-LC, B-PS
-10	##봐야	O	O	O, B-CV, I-QT, B-PS, B-LC
-11	될	O	O	O, B-CV, B-OG, B-LC, B-PS
-12	문제	O	O	O, B-CV, B-QT, B-PS, B-TM
-13	##예	O	O	O, B-CV, B-OG, I-CV, B-PS
-14	##요	O	O	O, B-CV, B-OG, B-LC, I-CV
-15	.	O	O	O, B-CV, B-LC, B-PS, B-QT
-16	[SEP]	O	O	O, B-CV, B-FD, B-LC, B-QT
+	text	label	preds
+0	[CLS]	O	O
+1	공사	O	O
+2	현장	O	O
+3	##에	O	O
+4	##서	O	O
+5	직선	O	O
+6	##거리	O	O
+7	##로	O	O
+8	23	B-QT	B-QT
+9	##㎞	I-QT	I-QT
+10	떨어진	O	O
+11	곳	O	O
+12	##에	O	O
+13	있	O	O
+14	##는	O	O
+15	하	B-LC	B-LC
+16	##코	I-LC	I-LC
+17	##다	I-LC	I-LC
+18	##테	I-LC	I-LC
+19	##시	I-LC	I-LC
+20	##의	O	O
+21	구도	B-PS	B-PS
+22	도시	I-PS	I-PS
+23	##키	I-PS	I-PS
+24	시장	B-CV	B-CV
+25	##은	O	O
+26	1	B-DT	B-DT
+27	##일	I-DT	I-DT
+28	전원	O	B-OG
+29	##개발	O	I-OG
+30	쪽	O	O
+31	##의	O	O
+32	설명	O	O
+33	##을	O	O
+34	듣	O	O
+35	##고	O	O
+36	“	O	O
+37	오마	B-AF	B-AF
+38	##원	I-AF	I-AF
+39	##전	I-AF	I-AF
+40	허가	O	O
+41	##는	O	O
+42	후쿠시마	B-DT	B-DT
+43	원전	I-DT	I-DT
+44	##사고	I-DT	I-DT
+45	이전	I-DT	I-DT
+46	##의	O	O
+47	‘	O	O
+48	안전	O	O
+49	##신	O	O
+50	##화	O	O
+51	’	O	O
+52	에	O	O
+53	바탕	O	O
+54	##을	O	O
+55	둔	O	O
+56	것	O	O
+57	”	O	O
+58	이라	O	O
+59	##고	O	O
+60	지적	O	O
+61	##하	O	O
+62	##고	O	O
+63	,	O	O
+64	공사	O	O
+65	중단	O	O
+66	##을	O	O
+67	요구	O	O
+68	##하	O	O
+69	##는	O	O
+70	소송	O	O
+71	##을	O	O
+72	내	O	O
+73	##겠다	O	O
+74	##고	O	O
+75	밝혔	O	O
+76	##다	O	O
+77	.	O	O
+78	[SEP]	O	O

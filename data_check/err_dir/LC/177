@@ -1,25 +1,56 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	이곳	O	O	O, B-LC, B-TM, B-CV, B-DT
-2	침	O	B-PT	B-PT, O, I-PT, B-AM, B-LC
-3	##엽	O	I-PT	I-PT, O, B-PT, I-MT, I-AM
-4	##수	O	I-PT	I-PT, O, I-MT, I-AM, B-PT
-5	##림	O	I-PT	I-PT, O, I-MT, B-PT, I-LC
-6	##에	O	O	O, I-PT, B-LC, I-LC, I-OG
-7	일제	O	B-DT	B-DT, O, B-OG, I-DT, B-QT
-8	때	O	I-DT	I-DT, O, B-DT, I-OG, I-QT
-9	북한	B-LC	B-LC	B-LC, B-OG, O, I-LC, B-PS
-10	풍산	B-LC	B-LC	B-LC, O, I-LC, B-PT, B-OG
-11	##에서	O	O	O, I-LC, I-OG, I-PS, B-LC
-12	캐	O	O	O, B-LC, B-PT, B-OG, I-LC
-13	남	B-LC	O	O, B-LC, B-TM, B-PT, B-OG
-14	##으로	O	O	O, I-LC, I-CV, I-OG, I-TM
-15	옮겨	O	O	O, B-LC, I-LC, B-PS, B-OG
-16	##심	O	O	O, B-LC, B-PS, B-PT, I-LC
-17	##은	O	O	O, B-LC, B-CV, B-PS, I-LC
-18	나무	O	O	O, B-PT, I-PT, B-LC, B-CV
-19	##가	O	O	O, I-OG, I-AF, I-CV, B-CV
-20	있	O	O	O, B-CV, B-LC, B-TM, B-OG
-21	##다	O	O	O, B-CV, B-LC, I-OG, B-TM
-22	.	O	O	O, B-LC, I-LC, B-CV, B-OG
-23	[SEP]	O	O	O, B-LC, I-LC, B-CV, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	이후	O	O
+2	2012	B-DT	B-DT
+3	##년	I-DT	I-DT
+4	10	I-DT	I-DT
+5	##월	I-DT	I-DT
+6	원자	B-PS	B-PS
+7	##바오	I-PS	I-PS
+8	(	O	O
+9	溫	O	O
+10	家	O	O
+11	寶	O	O
+12	)	O	O
+13	전	O	O
+14	총리	B-CV	B-CV
+15	주재	O	O
+16	##로	O	O
+17	국무원	B-OG	B-OG
+18	상무위원	B-OG	B-OG
+19	##회	I-OG	I-OG
+20	##를	O	O
+21	열	O	O
+22	##어	O	O
+23	동부	B-LC	B-TM
+24	연안	I-LC	O
+25	##을	O	O
+26	중심	O	O
+27	##으로	O	O
+28	한	O	O
+29	제한	O	O
+30	##적	O	O
+31	##인	O	O
+32	원전	O	O
+33	재개	O	O
+34	##를	O	O
+35	모색	O	O
+36	##하	O	O
+37	##다가	O	O
+38	이번	O	O
+39	##에	O	O
+40	원전	O	O
+41	건설	O	O
+42	##을	O	O
+43	본격	O	O
+44	추진	O	O
+45	##키	O	O
+46	##로	O	O
+47	한	O	O
+48	것	O	O
+49	##으로	O	O
+50	풀이	O	O
+51	##된	O	O
+52	##다	O	O
+53	.	O	O
+54	[SEP]	O	O

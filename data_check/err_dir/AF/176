@@ -1,36 +1,33 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	청와대	B-AF	B-OG	B-OG, B-AF, O, B-LC, B-PS
-2	인근	O	O	O, I-OG, I-AF, B-TM, B-OG
-3	구청	O	O	O, B-OG, I-OG, B-CV, B-AF
-4	##이나	O	O	O, I-OG, B-PS, B-CV, I-AF
-5	주민	O	O	O, B-CV, B-OG, B-AF, B-TM
-6	##센터	O	O	O, I-OG, I-AF, I-CV, I-EV
-7	##에서	O	O	O, B-CV, B-PS, B-LC, B-TM
-8	##도	O	O	O, B-CV, B-LC, B-OG, B-PS
-9	조회	O	O	O, B-CV, B-TM, B-LC, B-OG
-10	##가	O	O	O, B-PS, B-OG, B-LC, B-CV
-11	가능	O	O	O, B-CV, B-PS, B-LC, B-OG
-12	##한	O	O	O, B-PS, B-LC, B-OG, B-CV
-13	가족	O	B-CV	B-CV, O, B-OG, I-CV, B-PS
-14	##부	O	O	O, I-CV, I-OG, B-CV, I-AF
-15	##를	O	O	O, I-CV, I-OG, B-PS, I-AF
-16	서초구	B-OG	B-OG	B-OG, B-AF, O, B-LC, I-OG
-17	##청	I-OG	I-OG	I-OG, I-AF, O, I-LC, B-OG
-18	##까	O	O	O, I-OG, I-AF, B-CV, I-LC
-19	##지	O	O	O, B-LC, B-OG, B-PS, B-CV
-20	찾아와	O	O	O, B-LC, B-CV, B-QT, B-TM
-21	조회	O	O	O, B-CV, B-TM, B-LC, I-EV
-22	##를	O	O	O, B-CV, B-OG, B-PS, I-AF
-23	요청	O	O	O, B-CV, B-TM, B-LC, B-OG
-24	##한	O	O	O, B-OG, B-LC, B-PS, B-CV
-25	이유	O	O	O, B-CV, B-OG, B-LC, B-TM
-26	##가	O	O	O, B-PS, B-OG, B-CV, B-LC
-27	석연	O	O	O, B-CV, B-OG, B-LC, B-TM
-28	##찮	O	O	O, I-OG, B-PS, I-CV, B-CV
-29	##다고	O	O	O, I-OG, B-CV, B-OG, I-CV
-30	보고	O	O	O, B-CV, B-OG, B-QT, B-TM
-31	있	O	O	O, B-CV, B-OG, B-QT, I-CV
-32	##다	O	O	O, B-CV, I-OG, B-QT, B-TM
-33	.	O	O	O, B-LC, B-CV, B-OG, B-PS
-34	[SEP]	O	O	O, B-CV, B-LC, B-OG, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	서울	B-LC	B-LC
+2	##의	O	O
+3	중	B-AF	B-OG
+4	##곡	I-AF	I-OG
+5	##염	I-AF	I-OG
+6	##직	I-AF	I-OG
+7	##공	I-AF	I-OG
+8	##소	I-AF	I-OG
+9	##는	O	O
+10	1909	B-DT	B-DT
+11	##년	I-DT	I-DT
+12	10	I-DT	I-DT
+13	##월	I-DT	I-DT
+14	황성	B-OG	B-OG
+15	##신문	I-OG	I-OG
+16	##에	O	O
+17	‘	O	O
+18	업무	O	O
+19	대	O	O
+20	##확	O	O
+21	##장	O	O
+22	’	O	O
+23	이란	O	O
+24	제목	O	O
+25	##의	O	O
+26	광고	O	O
+27	##를	O	O
+28	냈	O	O
+29	##다	O	O
+30	.	O	O
+31	[SEP]	O	O

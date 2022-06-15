@@ -1,34 +1,50 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-EV
-1	작	O	O	O, B-AM, B-TM, B-AF, B-PS
-2	##은	O	O	O, I-TM, I-AF, I-AM, I-TR
-3	화살	B-AF	O	O, B-AM, I-AF, I-TM, I-AM
-4	##이	O	O	O, I-AF, I-TM, I-AM, I-PS
-5	##라는	O	O	O, I-AF, I-TM, I-PS, B-PS
-6	뜻	O	O	O, I-QT, I-CV, I-TM, I-AF
-7	##의	O	O	O, I-CV, B-CV, I-QT, B-PS
-8	플레	O	O	O, B-TR, B-TM, B-AF, B-PS
-9	##셰	O	O	O, I-TR, I-TM, I-AF, I-CV
-10	##트	O	O	O, I-TR, I-TM, I-AF, I-AM
-11	(	O	O	O, I-AF, I-TM, I-QT, I-CV
-12	fl	O	O	O, B-LC, B-TM, B-AF, B-PS
-13	##ech	O	O	O, I-LC, I-TM, I-AF, B-LC
-14	##ett	O	O	O, I-LC, I-TM, B-LC, I-AF
-15	##e	O	O	O, I-LC, I-TM, I-AF, I-PS
-16	)	O	O	O, I-AF, I-LC, B-LC, I-TM
-17	란	O	O	O, B-QT, B-LC, B-TM, B-PS
-18	단어	O	O	O, B-CV, I-QT, B-PS, I-CV
-19	##가	O	O	O, B-PS, B-CV, B-LC, B-OG
-20	영어	B-CV	B-CV	B-CV, O, B-AF, B-LC, B-OG
-21	##사전	O	O	O, I-CV, I-AF, I-LC, I-OG
-22	##에	O	O	O, B-CV, I-AF, B-QT, I-CV
-23	등재	O	O	O, B-CV, B-LC, B-QT, B-OG
-24	##된	O	O	O, B-LC, B-CV, B-PS, B-OG
-25	것	O	O	O, B-CV, B-OG, B-LC, B-PS
-26	##도	O	O	O, B-CV, B-PS, B-LC, B-OG
-27	1916	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-LC
-28	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-29	무렵	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-TI
-30	##이다	O	O	O, I-DT, B-CV, I-QT, I-OG
-31	.	O	O	O, B-LC, B-CV, B-PS, I-AF
-32	[SEP]	O	O	O, B-LC, B-CV, I-AF, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	원	B-PS	B-PS
+2	전	O	O
+3	원장	B-CV	B-CV
+4	쪽	O	O
+5	##은	O	O
+6	검찰	B-OG	B-OG
+7	##이	O	O
+8	공무	O	O
+9	##상	O	O
+10	비밀	O	O
+11	##이	O	O
+12	들어	O	O
+13	있	O	O
+14	##는	O	O
+15	김	B-PS	B-PS
+16	##씨	O	O
+17	##의	O	O
+18	개인	O	O
+19	컴퓨터	B-TM	B-TM
+20	##를	O	O
+21	압수수색	O	O
+22	##하	O	O
+23	##는	O	O
+24	과정	O	O
+25	##에	O	O
+26	##서	O	O
+27	국정원	B-AF	B-OG
+28	##의	O	O
+29	승낙	O	O
+30	##을	O	O
+31	받	O	O
+32	##지	O	O
+33	않	O	O
+34	##았	O	O
+35	##으므로	O	O
+36	형사	B-CV	B-CV
+37	##소송	I-CV	I-CV
+38	##법	I-CV	I-CV
+39	##을	O	O
+40	위반	O	O
+41	##했	O	O
+42	##다고	O	O
+43	주장	O	O
+44	##해	O	O
+45	##왔	O	O
+46	##다	O	O
+47	.	O	O
+48	[SEP]	O	O

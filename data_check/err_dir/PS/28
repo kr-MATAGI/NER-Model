@@ -1,12 +1,31 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	사실	O	O	O, B-CV, B-TM, B-OG, B-QT
-2	뭐	O	O	O, B-CV, B-TM, B-PS, B-OG
-3	김광석	B-PS	B-CV	B-CV, O, B-PS, B-AF, I-CV
-4	##법	O	I-CV	I-CV, O, B-CV, I-OG, I-AF
-5	자체	O	O	O, I-CV, I-QT, I-OG, I-AF
-6	##는	O	O	O, B-CV, B-OG, I-CV, B-TM
-7	굉장히	O	O	O, B-CV, B-TM, B-OG, B-LC
-8	좋	O	O	O, B-CV, B-TM, B-OG, B-LC
-9	##잖아요	O	O	O, B-CV, B-OG, I-CV, B-TM
-10	[SEP]	O	O	O, B-CV, B-TM, B-OG, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	문제	O	O
+2	##는	O	O
+3	부진	O	O
+4	##에	O	O
+5	빠진	O	O
+6	선발	B-CV	O
+7	투수	I-CV	O
+8	##진	I-CV	O
+9	'	O	O
+10	판타	O	O
+11	##스틱	O	O
+12	##4	B-QT	I-PS
+13	'	O	O
+14	(	O	O
+15	니	B-PS	B-PS
+16	##퍼트	I-PS	I-PS
+17	·	O	O
+18	장원	B-PS	B-PS
+19	##준	I-PS	I-PS
+20	·	O	O
+21	보우	B-PS	B-OG
+22	##덴	I-PS	I-PS
+23	·	O	O
+24	유희	B-PS	B-PS
+25	##관	I-PS	I-PS
+26	)	O	O
+27	다	O	O
+28	.	O	O
+29	[SEP]	O	O

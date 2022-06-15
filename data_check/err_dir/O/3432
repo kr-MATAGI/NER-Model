@@ -1,42 +1,76 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-QT
-1	벤처	O	O	O, B-CV, B-OG, B-FD, B-TM
-2	##기업	O	O	O, I-OG, I-CV, B-CV, I-TM
-3	등	O	O	O, B-CV, B-PS, B-OG, B-LC
-4	##이	O	O	O, B-PS, B-CV, B-LC, B-OG
-5	우수	O	O	O, B-CV, B-TM, B-LC, B-FD
-6	인재	O	O	O, B-CV, I-CV, B-PS, B-FD
-7	유치	O	O	O, I-CV, B-CV, B-PS, B-LC
-8	##를	O	O	O, B-CV, B-PS, B-LC, I-CV
-9	위해	O	O	O, B-LC, B-CV, B-OG, B-PS
-10	적극	O	O	O, B-CV, B-LC, B-TM, B-PS
-11	##적으로	O	O	O, B-LC, B-PS, B-CV, B-OG
-12	요구	O	O	O, B-CV, B-LC, B-OG, B-TM
-13	##해	O	O	O, B-CV, B-LC, B-PS, B-OG
-14	온	O	O	O, B-CV, B-QT, B-PS, B-LC
-15	주식	O	B-CV	B-CV, O, B-AF, I-CV, B-TM
-16	##매	O	I-CV	I-CV, O, B-CV, I-AF, I-TM
-17	##수	O	I-CV	I-CV, O, B-CV, I-AF, I-TM
-18	##선	O	I-CV	I-CV, O, B-CV, I-AF, I-TM
-19	##택	O	I-CV	I-CV, O, B-CV, I-TM, I-AF
-20	##권	O	I-CV	I-CV, O, I-TM, I-AF, B-CV
-21	(	O	O	O, I-CV, B-CV, I-AF, I-QT
-22	스톡	B-CV	B-CV	B-CV, O, B-AF, I-CV, B-TM
-23	##옵션	I-CV	I-CV	I-CV, O, B-CV, I-TM, I-AF
-24	)	O	O	O, I-CV, B-CV, I-QT, I-OG
-25	행사	O	O	O, B-CV, B-QT, I-CV, B-TM
-26	##이	O	O	O, B-QT, I-CV, B-CV, I-QT
-27	##익	O	O	O, I-CV, I-QT, B-QT, B-CV
-28	비	O	O	O, B-QT, B-CV, B-TM, B-LC
-29	##과	O	O	O, B-QT, B-CV, I-QT, I-CV
-30	##세	O	O	O, I-QT, I-CV, B-CV, B-QT
-31	##는	O	O	O, B-CV, B-OG, B-LC, I-QT
-32	국회	B-OG	B-OG	B-OG, O, B-AF, B-LC, B-CV
-33	논의	O	O	O, I-OG, I-EV, I-CV, B-CV
-34	과정	O	O	O, B-CV, B-OG, I-OG, B-LC
-35	##에서	O	O	O, B-CV, B-OG, B-LC, B-TM
-36	새로	O	O	O, B-CV, B-OG, B-QT, B-LC
-37	생겼	O	O	O, B-CV, B-LC, B-OG, B-QT
-38	##다	O	O	O, B-CV, B-OG, B-LC, I-OG
-39	.	O	O	O, B-LC, B-CV, B-OG, B-PS
-40	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-FD
+	text	label	preds
+0	[CLS]	O	O
+1	<	O	O
+2	그날	B-AF	B-AF
+3	##들	I-AF	I-AF
+4	>	O	O
+5	제작진	B-CV	B-CV
+6	##은	O	O
+7	“	O	O
+8	외부	O	O
+9	##와	O	O
+10	##의	O	O
+11	출입	O	O
+12	##이	O	O
+13	차단	O	O
+14	##된	O	O
+15	상태	O	O
+16	##이	O	O
+17	##기	O	O
+18	때문	O	O
+19	##에	O	O
+20	음식	O	O
+21	##과	O	O
+22	생필품	O	O
+23	전달	O	O
+24	##조	O	O
+25	##차	O	O
+26	##도	O	O
+27	여의	O	O
+28	##치	O	O
+29	않	O	O
+30	##았	O	O
+31	##다	O	O
+32	”	O	O
+33	며	O	O
+34	“	O	O
+35	기업	O	O
+36	##의	O	O
+37	이익	O	O
+38	논리	O	O
+39	사이	O	O
+40	##에	O	O
+41	많	O	O
+42	##은	O	O
+43	대중	O	B-CV
+44	##의	O	O
+45	관심	O	O
+46	##이	O	O
+47	집중	O	O
+48	##되	O	O
+49	##고	O	O
+50	있	O	O
+51	##는	O	O
+52	공연	O	O
+53	##이	O	O
+54	볼모	O	O
+55	##가	O	O
+56	되	O	O
+57	##는	O	O
+58	이런	O	O
+59	일	O	O
+60	##은	O	O
+61	앞	O	O
+62	##으로	O	O
+63	없	O	O
+64	##어야	O	O
+65	할	O	O
+66	것	O	O
+67	”	O	O
+68	이라	O	O
+69	##고	O	O
+70	말	O	O
+71	##했	O	O
+72	##다	O	O
+73	.	O	O
+74	[SEP]	O	O

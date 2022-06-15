@@ -1,33 +1,84 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-AF
-1	편히	O	O	O, B-TM, B-CV, B-LC, B-PS
-2	누워	O	O	O, B-TM, B-PS, B-LC, B-AF
-3	마사지	O	O	O, B-CV, B-TM, B-TR, B-PS
-4	##를	O	O	O, I-AF, B-CV, I-EV, B-PS
-5	받	O	O	O, B-CV, B-PS, B-LC, B-OG
-6	##을	O	O	O, B-PS, B-CV, B-LC, I-EV
-7	수	O	O	O, B-PS, B-TM, B-LC, B-QT
-8	있	O	O	O, B-PS, B-TM, B-CV, B-LC
-9	##는	O	O	O, B-TM, B-AF, I-AF, B-LC
-10	안마	B-TM	O	O, B-TM, B-AF, B-CV, B-TR
-11	##의자	I-TM	O	O, I-TM, I-AF, I-TR, I-CV
-12	##도	O	O	O, I-TM, I-AF, I-CV, I-EV
-13	선물	O	O	O, B-CV, B-PS, B-LC, I-AF
-14	##로	O	O	O, B-PS, B-LC, B-CV, B-TM
-15	좋	O	O	O, B-CV, B-LC, B-PS, B-TM
-16	##겠	O	O	O, B-CV, I-CV, B-PS, I-AF
-17	##지만	O	O	O, B-CV, I-CV, I-OG, B-QT
-18	,	O	O	O, B-CV, B-LC, B-OG, B-TM
-19	가격	O	O	O, B-CV, B-TM, B-QT, B-OG
-20	##이	O	O	O, B-PS, B-OG, B-CV, B-LC
-21	100	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-PS
-22	##만	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-23	##원	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-24	##을	O	O	O, I-QT, B-CV, I-AF, I-OG
-25	훌쩍	O	O	O, B-CV, B-TM, B-OG, I-QT
-26	넘어	O	O	O, B-CV, B-LC, B-TM, B-OG
-27	부담	O	O	O, B-CV, B-TM, B-LC, B-QT
-28	##스럽	O	O	O, B-CV, B-LC, I-OG, B-OG
-29	##다	O	O	O, B-CV, B-TM, I-OG, B-LC
-30	.	O	O	O, B-CV, B-LC, B-PS, B-TM
-31	[SEP]	O	O	O, B-CV, B-LC, I-AF, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	방송사	O	O
+2	##상	O	O
+3	처음	O	O
+4	다큐멘터리	O	O
+5	형식	O	O
+6	##을	O	O
+7	가미	O	O
+8	##한	O	O
+9	드라마	O	O
+10	##로	O	O
+11	화제	O	O
+12	##를	O	O
+13	모은	O	O
+14	<	O	O
+15	막	B-AF	B-AF
+16	##돼	I-AF	I-AF
+17	##먹	I-AF	I-AF
+18	##은	I-AF	I-AF
+19	영	I-AF	I-AF
+20	##애	I-AF	I-AF
+21	##씨	I-AF	I-AF
+22	>	O	O
+23	의	O	O
+24	박준	B-PS	B-PS
+25	##화	I-PS	I-PS
+26	피디	B-CV	B-CV
+27	##는	O	O
+28	“	O	O
+29	당시	O	O
+30	지상파	O	O
+31	##에	O	O
+32	##서	O	O
+33	30	B-QT	B-QT
+34	##대	I-QT	I-QT
+35	노	O	O
+36	##처	O	O
+37	##녀	O	O
+38	이야기	O	O
+39	##를	O	O
+40	다룬	O	O
+41	드라마	O	O
+42	##가	O	O
+43	많	O	O
+44	##았	O	O
+45	##기	O	O
+46	때문	O	O
+47	##에	O	O
+48	어떻게	O	O
+49	차별	O	O
+50	##화	O	O
+51	##를	O	O
+52	할까	O	O
+53	고민	O	O
+54	##하	O	O
+55	##다가	O	O
+56	다큐멘터리	O	O
+57	형식	O	O
+58	##을	O	O
+59	접목	O	O
+60	##했	O	O
+61	##고	O	O
+62	,	O	O
+63	6	B-QT	B-QT
+64	##㎜	I-QT	I-QT
+65	카메라	B-TM	I-TM
+66	##로	O	O
+67	촬영	O	O
+68	##하면	O	O
+69	##서	O	O
+70	새	O	O
+71	형식	O	O
+72	##을	O	O
+73	끄집	O	O
+74	##어냈	O	O
+75	##다	O	O
+76	”	O	O
+77	고	O	O
+78	말	O	O
+79	##했	O	O
+80	##다	O	O
+81	.	O	O
+82	[SEP]	O	O

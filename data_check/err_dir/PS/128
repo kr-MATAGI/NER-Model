@@ -1,27 +1,39 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-QT
-1	북한	B-LC	B-LC	B-LC, B-OG, O, B-PS, I-LC
-2	##에서	O	O	O, I-LC, I-OG, I-PS, B-PS
-3	##도	O	O	O, B-PS, B-LC, I-LC, I-PS
-4	'	O	O	O, B-LC, B-PS, B-CV, B-OG
-5	력	B-PS	B-LC	B-LC, B-PS, O, B-OG, B-AF
-6	##도	I-PS	I-LC	I-LC, I-PS, O, B-PS, B-LC
-7	##산	I-PS	I-LC	I-LC, I-PS, O, I-OG, I-AF
-8	'	O	O	O, I-PS, I-LC, B-PS, I-OG
-9	이라	O	O	O, B-PS, I-PS, B-LC, I-LC
-10	불리	O	O	O, B-PS, I-PS, B-LC, I-LC
-11	##며	O	O	O, B-LC, I-PS, B-PS, B-OG
-12	'	O	O	O, B-LC, B-OG, B-PS, B-CV
-13	미	B-LC	B-LC	B-LC, B-OG, O, B-PS, I-LC
-14	제국주의	B-TR	B-TR	B-TR, I-TR, O, B-PS, B-FD
-15	##에	O	O	O, I-TR, I-OG, I-QT, I-PS
-16	맞서	O	O	O, B-LC, B-OG, B-CV, B-PS
-17	##는	O	O	O, B-PS, B-LC, B-CV, B-OG
-18	애국	B-CV	O	O, B-CV, B-FD, B-PS, B-OG
-19	##열	I-CV	O	O, I-CV, B-CV, I-FD, B-PS
-20	##사	I-CV	O	O, I-CV, I-PS, I-FD, I-QT
-21	'	O	O	O, I-CV, B-PS, I-QT, B-CV
-22	로	O	O	O, B-PS, B-LC, B-CV, B-OG
-23	통한다	O	O	O, B-PS, B-LC, B-CV, B-OG
-24	.	O	O	O, B-LC, B-PS, B-CV, B-OG
-25	[SEP]	O	O	O, B-LC, B-PS, B-CV, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	충남	B-OG	B-OG
+2	##대	I-OG	I-OG
+3	록	O	B-CV
+4	##밴드	O	O
+5	##동아	O	O
+6	##리	O	O
+7	'	O	O
+8	백마	B-PS	B-OG
+9	##들	I-PS	I-OG
+10	'	O	O
+11	,	O	O
+12	어린이	O	B-OG
+13	발레단	O	I-OG
+14	'	O	O
+15	섀도우	B-OG	B-OG
+16	##에	I-OG	I-OG
+17	##뚜	I-OG	I-OG
+18	##왈	I-OG	I-OG
+19	##발	I-OG	I-OG
+20	##레	I-OG	I-OG
+21	##단	I-OG	I-OG
+22	'	O	O
+23	,	O	O
+24	재즈	B-FD	B-FD
+25	##댄	I-FD	I-FD
+26	##스	I-FD	I-FD
+27	등의	O	O
+28	공연	O	O
+29	##이	O	O
+30	흥	O	O
+31	##을	O	O
+32	돋	O	O
+33	##울	O	O
+34	예정	O	O
+35	##이다	O	O
+36	.	O	O
+37	[SEP]	O	O

@@ -1,62 +1,42 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	공직자	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-AF
-2	##윤	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-TM
-3	##리	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-TM
-4	##법	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-TM
-5	17	B-QT	B-QT	B-QT, I-CV, I-QT, O, B-DT
-6	~	I-QT	I-QT	I-QT, I-CV, O, I-OG, I-DT
-7	19	I-QT	I-QT	I-QT, I-CV, B-QT, I-OG, O
-8	##조	I-QT	I-QT	I-QT, O, I-CV, I-OG, I-PS
-9	##의	O	O	O, I-QT, I-CV, B-CV, I-OG
-10	퇴직	O	B-CV	B-CV, O, B-AF, B-OG, I-CV
-11	##공	O	I-CV	I-CV, B-CV, O, I-OG, I-QT
-12	##직자	O	I-CV	I-CV, O, B-CV, I-OG, I-QT
-13	취업	O	O	O, I-CV, B-CV, B-QT, I-QT
-14	##제한	O	O	O, I-CV, B-CV, I-QT, I-OG
-15	조항	O	O	O, I-CV, B-CV, I-QT, I-TM
-16	##을	O	O	O, I-CV, B-CV, I-QT, I-OG
-17	보	O	O	O, B-CV, B-OG, B-TM, B-LC
-18	##면	O	O	O, B-OG, B-LC, B-CV, B-PS
-19	‘	O	O	O, B-CV, B-LC, B-PS, B-OG
-20	퇴직	O	O	O, B-CV, B-PS, B-LC, B-DT
-21	##일	O	O	O, I-CV, I-DT, B-PS, B-CV
-22	##부터	O	O	O, I-DT, I-CV, B-PS, I-PS
-23	3	B-DT	B-DT	B-DT, I-DT, O, B-QT, B-LC
-24	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-25	##간	I-DT	I-DT	I-DT, O, I-QT, B-DT, I-CV
-26	##은	O	O	O, I-DT, B-CV, B-LC, B-PS
-27	퇴직	O	O	O, B-CV, B-PS, B-LC, B-TM
-28	전	O	O	O, B-PS, I-CV, I-DT, B-LC
-29	5	B-DT	B-DT	B-DT, I-DT, O, B-QT, B-LC
-30	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-31	동안	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-CV
-32	소속	O	O	O, I-DT, B-CV, B-LC, B-OG
-33	##했	O	O	O, B-PS, B-LC, B-CV, B-OG
-34	##던	O	O	O, B-LC, B-PS, B-CV, B-OG
-35	부서	O	O	O, B-CV, B-OG, B-PS, B-FD
-36	또는	O	O	O, B-PS, B-CV, B-LC, B-TM
-37	기관	O	O	O, B-CV, B-PS, B-OG, B-LC
-38	##의	O	O	O, B-PS, B-LC, B-CV, B-OG
-39	업무	O	O	O, B-CV, B-LC, B-TM, B-PS
-40	##와	O	O	O, B-LC, B-PS, B-CV, B-OG
-41	밀접	O	O	O, B-LC, B-TM, B-PS, B-OG
-42	##한	O	O	O, B-LC, B-PS, B-OG, B-TM
-43	관련	O	O	O, B-LC, B-TM, B-PS, B-CV
-44	##성이	O	O	O, B-LC, B-PS, B-TM, B-CV
-45	있	O	O	O, B-PS, B-LC, B-CV, B-OG
-46	##는	O	O	O, B-LC, B-PS, B-CV, B-OG
-47	기관	O	O	O, B-CV, B-OG, B-TM, B-PS
-48	##에	O	O	O, B-CV, B-PS, B-LC, B-OG
-49	취업	O	O	O, B-CV, B-TM, B-LC, B-AF
-50	##할	O	O	O, B-PS, B-LC, B-CV, B-OG
-51	수	O	O	O, B-PS, B-CV, B-LC, B-TM
-52	없	O	O	O, B-CV, B-TM, B-PS, B-QT
-53	##다	O	O	O, B-CV, B-PS, B-LC, B-OG
-54	’	O	O	O, B-CV, B-OG, B-TM, B-LC
-55	고	O	O	O, B-CV, B-TM, B-OG, B-LC
-56	돼	O	O	O, B-CV, B-TM, B-LC, B-AF
-57	있	O	O	O, B-CV, B-TM, I-AF, I-CV
-58	##다	O	O	O, B-CV, B-TM, I-OG, I-AF
-59	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-60	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	그러나	O	O
+2	이런	O	O
+3	태도	O	O
+4	##로	O	O
+5	##는	O	O
+6	공단	O	O
+7	폐쇄	O	O
+8	##까	O	O
+9	##지	O	O
+10	염두	O	O
+11	##에	O	O
+12	둔	O	O
+13	북쪽	O	B-OG
+14	##의	O	O
+15	파	O	O
+16	##상	O	O
+17	공세	O	O
+18	##에	O	O
+19	맞서	O	O
+20	개성	B-LC	B-LC
+21	##공단	I-LC	I-LC
+22	##의	O	O
+23	생존	O	O
+24	##을	O	O
+25	보장	O	O
+26	##하	O	O
+27	##기	O	O
+28	힘든	O	O
+29	상황	O	O
+30	##에	O	O
+31	직면	O	O
+32	##했	O	O
+33	##다는	O	O
+34	지적	O	O
+35	##이	O	O
+36	제기	O	O
+37	##된	O	O
+38	##다	O	O
+39	.	O	O
+40	[SEP]	O	O

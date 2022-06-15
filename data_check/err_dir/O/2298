@@ -1,39 +1,22 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	국민	B-OG	B-OG	B-OG, B-PS, O, B-LC, B-AF
-2	##의	I-OG	I-OG	I-OG, O, I-PS, B-OG, I-EV
-3	##당	I-OG	I-OG	I-OG, O, I-PS, I-AF, I-LC
-4	##이	O	O	O, I-OG, B-PS, B-CV, B-OG
-5	이	O	O	O, B-PS, B-OG, B-CV, B-LC
-6	##들	O	O	O, I-OG, B-PS, B-LC, B-OG
-7	업체	O	O	O, B-CV, B-OG, B-PS, I-OG
-8	##에	O	O	O, B-CV, B-PS, B-LC, B-OG
-9	일감	O	O	O, B-CV, B-LC, B-TM, B-PS
-10	##을	O	O	O, B-CV, B-PS, B-OG, B-LC
-11	몰아주	O	O	O, B-CV, B-PS, B-LC, B-OG
-12	##고	O	O	O, B-PS, B-LC, B-OG, B-CV
-13	김	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-14	의원	B-CV	B-CV	B-CV, O, I-PS, I-CV, B-OG
-15	##의	O	O	O, I-CV, B-CV, I-OG, I-EV
-16	브랜드	O	B-OG	B-OG, O, B-AF, B-PS, B-CV
-17	##호텔	O	I-OG	I-OG, O, I-AF, I-LC, I-PS
-18	##을	O	O	O, I-OG, I-AF, B-CV, I-CV
-19	통해	O	O	O, B-CV, B-LC, B-TM, B-PS
-20	리베이트	O	O	O, B-TM, B-CV, B-AF, B-TR
-21	##를	O	O	O, B-CV, I-CV, I-AF, I-EV
-22	전달	O	O	O, B-CV, B-LC, B-TM, B-PS
-23	##받	O	O	O, B-PS, B-CV, B-LC, I-CV
-24	##은	O	O	O, B-PS, B-CV, B-LC, B-OG
-25	것	O	O	O, B-PS, B-CV, B-LC, B-OG
-26	##이	O	O	O, B-PS, B-CV, B-LC, I-CV
-27	아니	O	O	O, B-PS, B-CV, B-LC, B-OG
-28	##냐	O	O	O, B-PS, I-PS, I-CV, B-CV
-29	##는	O	O	O, B-PS, B-CV, B-OG, I-CV
-30	의혹	O	O	O, B-CV, B-PS, B-OG, B-TM
-31	##을	O	O	O, B-CV, B-PS, I-CV, B-OG
-32	부인	O	O	O, B-CV, B-LC, B-PS, B-TM
-33	##한	O	O	O, B-PS, B-CV, B-OG, B-LC
-34	것	O	O	O, B-CV, B-OG, B-PS, B-TM
-35	##이다	O	O	O, B-CV, I-CV, I-OG, B-TM
-36	.	O	O	O, B-CV, B-PS, B-LC, B-OG
-37	[SEP]	O	O	O, B-CV, B-PS, B-LC, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	또	O	O
+2	1994	B-DT	B-DT
+3	##년	I-DT	I-DT
+4	구입	O	O
+5	##한	O	O
+6	파리	B-LC	B-AF
+7	아파트	O	I-AF
+8	##의	O	O
+9	자금	O	O
+10	출처	O	O
+11	##를	O	O
+12	자신	O	O
+13	##의	O	O
+14	블로그	O	O
+15	##에	O	O
+16	공개	O	O
+17	##했	O	O
+18	##다	O	O
+19	.	O	O
+20	[SEP]	O	O

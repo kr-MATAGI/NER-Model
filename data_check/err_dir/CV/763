@@ -1,13 +1,8 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	그	O	O	O, B-CV, B-OG, B-TM, B-LC
-2	서	O	O	O, B-CV, B-LC, B-TM, B-AF
-3	##번	O	O	O, I-AF, I-CV, B-CV, I-LC
-4	##트라	O	O	O, B-LC, B-CV, I-AF, B-PS
-5	##는	O	O	O, B-CV, B-LC, B-TM, B-PS
-6	게	O	O	O, B-PS, B-LC, B-CV, B-OG
-7	공복	B-CV	O	O, B-TM, B-TI, B-CV, B-LC
-8	##이	O	O	O, B-PS, I-CV, I-AF, I-TM
-9	##라는	O	O	O, B-PS, I-AF, B-CV, B-LC
-10	그	O	O	O, B-CV, B-OG, B-LC, B-TM
-11	[SEP]	O	O	O, B-CV, B-LC, B-TM, B-FD
+	text	label	preds
+0	[CLS]	O	O
+1	고춧가루	B-CV	B-CV
+2	다진	O	O
+3	대파	B-CV	B-CV
+4	다진	O	B-CV
+5	마늘	B-CV	I-CV
+6	[SEP]	O	O

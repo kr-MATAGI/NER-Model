@@ -1,59 +1,15 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-EV, I-CV, I-OG
-1	김	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
-2	회장	B-CV	B-CV	B-CV, O, I-PS, I-CV, B-TM
-3	##은	O	O	O, I-CV, B-CV, I-EV, I-OG
-4	“	O	O	O, B-CV, B-LC, B-TM, B-OG
-5	값싼	O	O	O, B-CV, B-LC, B-TM, B-PS
-6	인건비	O	O	O, B-CV, B-MT, B-TM, B-LC
-7	##를	O	O	O, B-CV, I-CV, B-PS, B-TM
-8	찾아	O	O	O, B-LC, B-TM, B-PS, B-CV
-9	동남아시아	B-LC	B-LC	B-LC, B-OG, O, B-TM, I-LC
-10	여러	O	O	O, I-LC, B-LC, I-OG, B-OG
-11	국가	O	O	O, B-LC, B-OG, I-LC, B-PS
-12	##를	O	O	O, B-CV, B-LC, B-PS, B-TM
-13	전전	O	O	O, B-LC, B-CV, B-TM, B-OG
-14	##하	O	O	O, B-PS, B-OG, B-LC, B-CV
-15	##는	O	O	O, B-OG, B-PS, B-LC, B-TM
-16	여러	O	O	O, B-OG, B-TM, B-LC, B-PS
-17	중소기업	O	O	O, B-OG, B-CV, B-TM, B-LC
-18	##에	O	O	O, B-OG, B-LC, I-OG, B-CV
-19	제	B-QT	B-QT	B-QT, B-OG, B-LC, B-AF, B-TM
-20	##2	I-QT	I-QT	I-QT, I-LC, I-OG, I-AF, I-TM
-21	##개	B-LC	I-QT	I-QT, I-OG, I-LC, B-LC, I-AF
-22	##성	I-LC	I-OG	I-OG, I-LC, I-QT, I-AF, O
-23	##공단	I-LC	I-LC	I-LC, I-OG, I-AF, I-QT, O
-24	##은	O	O	O, I-OG, I-LC, I-QT, I-AF
-25	반드시	O	O	O, B-LC, B-TM, B-PS, B-CV
-26	필요	O	O	O, B-TM, B-LC, B-CV, B-OG
-27	##한	O	O	O, B-PS, B-LC, B-OG, B-TM
-28	숙원	O	O	O, B-TM, B-LC, B-CV, B-TR
-29	사업	O	O	O, B-TM, B-LC, I-TM, B-CV
-30	”	O	O	O, B-CV, I-TM, I-CV, B-PS
-31	이라	O	O	O, B-PS, B-CV, B-OG, B-LC
-32	##며	O	O	O, B-CV, B-OG, B-LC, B-TM
-33	“	O	O	O, B-LC, B-CV, B-PS, B-OG
-34	북한	B-OG	B-LC	B-LC, B-OG, O, B-PS, B-TM
-35	##의	O	O	O, I-OG, I-LC, B-LC, I-EV
-36	개방	O	O	O, B-LC, B-PS, B-OG, B-CV
-37	##과	O	O	O, B-LC, B-PS, B-OG, I-LC
-38	남북	B-OG	B-OG	B-OG, B-LC, O, B-PS, B-TM
-39	화해	O	O	O, I-OG, I-LC, I-EV, B-LC
-40	##무	O	O	O, B-LC, B-PS, I-EV, I-OG
-41	##드	O	O	O, B-LC, I-OG, B-PS, I-LC
-42	조성	O	O	O, B-LC, B-PS, B-OG, I-OG
-43	##에도	O	O	O, B-LC, B-CV, B-OG, B-TM
-44	큰	O	O	O, B-LC, B-TM, B-OG, B-QT
-45	도움	O	O	O, B-LC, B-TM, B-CV, B-QT
-46	##이	O	O	O, B-PS, B-CV, B-LC, B-OG
-47	될	O	O	O, B-CV, B-LC, B-TM, B-PS
-48	수	O	O	O, B-PS, B-LC, B-CV, B-TM
-49	있	O	O	O, B-CV, B-PS, B-LC, B-TM
-50	##다	O	O	O, B-CV, B-TM, B-PS, I-EV
-51	”	O	O	O, B-CV, B-TM, B-LC, B-PS
-52	고	O	O	O, B-CV, B-TM, B-QT, B-LC
-53	말	O	O	O, B-CV, B-TM, I-CV, B-QT
-54	##했	O	O	O, B-CV, B-PS, I-CV, B-LC
-55	##다	O	O	O, B-CV, B-TM, B-PS, B-LC
-56	.	O	O	O, B-LC, B-PS, B-CV, B-OG
-57	[SEP]	O	O	O, B-LC, B-CV, B-TM, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	“	O	O
+2	이란	B-OG	B-LC
+3	·	O	O
+4	시리아	B-OG	B-LC
+5	,	O	O
+6	비밀	O	O
+7	핵	B-AF	B-AF
+8	##계	O	O
+9	##획	O	O
+10	계속	O	O
+11	추진	O	O
+12	”	O	O
+13	[SEP]	O	O

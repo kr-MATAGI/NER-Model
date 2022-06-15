@@ -1,51 +1,47 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-EV, I-CV
-1	박	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-2	총	B-CV	B-CV	B-CV, O, B-OG, I-CV, I-PS
-3	##주	I-CV	I-CV	I-CV, B-CV, O, I-OG, I-QT
-4	##방	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-QT
-5	##장	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-TM
-6	##은	O	O	O, I-CV, I-OG, I-EV, I-QT
-7	“	O	O	O, B-CV, B-LC, B-OG, B-TM
-8	각국	O	O	O, B-LC, B-CV, B-PS, B-TM
-9	스포츠	O	B-CV	B-CV, O, B-FD, B-EV, B-PS
-10	스타	B-CV	I-CV	I-CV, B-CV, O, I-EV, I-OG
-11	##들	O	O	O, I-CV, I-EV, B-CV, I-OG
-12	##에	O	O	O, B-CV, B-TM, B-LC, B-PS
-13	##게	O	O	O, B-CV, B-LC, B-TM, B-PS
-14	한식	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-FD
-15	##을	O	O	O, I-CV, I-OG, I-EV, B-CV
-16	홍보	O	O	O, B-CV, B-LC, B-TM, I-CV
-17	##할	O	O	O, B-PS, B-LC, B-CV, B-OG
-18	절호	O	O	O, B-QT, B-PS, B-CV, B-LC
-19	##의	O	O	O, B-PS, B-LC, I-EV, I-QT
-20	기회	O	O	O, B-EV, B-PS, B-CV, B-QT
-21	##라	O	O	O, B-PS, B-LC, B-OG, B-CV
-22	외국인	B-CV	B-CV	B-CV, O, B-OG, I-CV, B-TM
-23	##이	O	O	O, I-CV, B-PS, B-CV, I-EV
-24	부담	O	O	O, B-CV, B-LC, B-TM, B-OG
-25	##을	O	O	O, B-CV, B-PS, B-LC, B-OG
-26	느끼	O	O	O, B-CV, B-LC, B-PS, B-OG
-27	##지	O	O	O, B-LC, B-CV, B-PS, B-OG
-28	않	O	O	O, B-LC, B-CV, B-PS, I-AF
-29	##으면서	O	O	O, B-CV, B-LC, B-PS, B-TM
-30	한식	B-CV	B-CV	B-CV, O, B-OG, B-FD, I-CV
-31	##에	O	O	O, I-CV, I-OG, B-CV, I-EV
-32	관심	O	O	O, B-CV, B-LC, B-TM, B-PS
-33	##을	O	O	O, B-CV, B-PS, B-TM, B-OG
-34	갖	O	O	O, B-CV, B-LC, B-PS, B-TM
-35	##게	O	O	O, B-CV, B-LC, B-PS, B-TM
-36	하	O	O	O, B-LC, B-PS, B-CV, B-TM
-37	##는	O	O	O, B-CV, B-LC, B-PS, B-OG
-38	데	O	O	O, B-LC, B-CV, B-OG, B-PS
-39	신경	O	O	O, B-CV, B-LC, B-TM, B-OG
-40	##을	O	O	O, B-CV, B-OG, B-LC, B-PS
-41	쓰	O	O	O, B-CV, B-OG, B-LC, B-PS
-42	##겠다	O	O	O, B-CV, I-OG, I-CV, I-EV
-43	”	O	O	O, B-CV, B-TM, I-OG, B-LC
-44	고	O	O	O, B-CV, B-TM, B-LC, I-OG
-45	설명	O	O	O, B-CV, B-TM, I-OG, B-LC
-46	##했	O	O	O, B-CV, B-LC, B-PS, I-OG
-47	##다	O	O	O, B-CV, I-OG, B-TM, B-LC
-48	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-49	[SEP]	O	O	O, B-CV, B-LC, I-EV, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	아마도	O	O
+2	북한	B-LC	B-LC
+3	##의	O	O
+4	대규	O	O
+5	##모	O	O
+6	미녀	O	O
+7	응원단	O	O
+8	##이	O	O
+9	경기장	O	O
+10	##에	O	O
+11	##서	O	O
+12	대형	O	O
+13	공화국	O	O
+14	##기	O	O
+15	##와	O	O
+16	한반도	O	B-LC
+17	##기	O	O
+18	##를	O	O
+19	흔들	O	O
+20	##면	O	O
+21	남한	B-LC	B-LC
+22	사회	O	O
+23	##에	O	O
+24	##서	O	O
+25	북	B-LC	B-LC
+26	##에	O	O
+27	대한	O	O
+28	이미지	O	O
+29	##가	O	O
+30	조금	O	O
+31	##은	O	O
+32	긍정	O	O
+33	##적	O	O
+34	##으로	O	O
+35	바뀔	O	O
+36	가능	O	O
+37	##성이	O	O
+38	있	O	O
+39	##다고	O	O
+40	생각	O	O
+41	##한	O	O
+42	모양	O	O
+43	##이다	O	O
+44	.	O	O
+45	[SEP]	O	O

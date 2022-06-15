@@ -1,73 +1,29 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-EV, I-OG
-1	유족	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-TM
-2	##들이	O	O	O, I-CV, B-PS, B-CV, I-OG
-3	다그	O	O	O, B-CV, B-PS, B-LC, B-OG
-4	##치	O	O	O, B-PS, B-OG, B-CV, I-OG
-5	##자	O	O	O, B-PS, B-CV, B-LC, I-PS
-6	화장	O	O	O, B-LC, B-CV, B-AF, B-PS
-7	##장	O	O	O, I-LC, I-AF, B-LC, I-CV
-8	##의	O	O	O, B-PS, B-LC, B-OG, I-AF
-9	젊	O	O	O, B-CV, B-PS, B-LC, B-OG
-10	##은	O	O	O, I-CV, B-PS, I-PS, I-QT
-11	직원	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-OG
-12	##은	O	O	O, I-CV, B-CV, I-AF, I-EV
-13	""""	O	O	O, B-CV, B-LC, B-TM, B-PS
-14	시간	O	O	O, B-LC, B-PS, B-CV, B-OG
-15	##을	O	O	O, B-PS, B-CV, B-LC, I-AF
-16	절약	O	O	O, B-CV, B-PS, B-LC, B-QT
-17	##하기	O	O	O, B-PS, B-LC, B-CV, I-PS
-18	위해	O	O	O, B-PS, B-LC, B-CV, B-TM
-19	미리	O	O	O, B-LC, B-CV, B-PS, B-TM
-20	소각	O	O	O, B-CV, B-TM, B-LC, B-AF
-21	##한	O	O	O, B-PS, B-LC, B-CV, B-AF
-22	다른	O	O	O, B-CV, B-TM, B-LC, B-AF
-23	시신	O	O	O, B-TM, B-CV, B-MT, B-AM
-24	##의	O	O	O, B-PS, I-AF, B-CV, I-CV
-25	유골	O	O	O, B-TM, B-CV, B-MT, B-AM
-26	##을	O	O	O, B-PS, B-CV, I-AF, I-CV
-27	준비	O	O	O, B-CV, B-PS, B-LC, B-OG
-28	##했	O	O	O, B-PS, B-LC, B-CV, B-OG
-29	##다가	O	O	O, B-PS, B-CV, B-LC, B-TM
-30	유족	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-OG
-31	##들이	O	O	O, I-CV, I-AF, B-PS, B-CV
-32	준	O	O	O, B-PS, B-CV, B-AF, B-TM
-33	유골	O	O	O, B-AF, B-TM, B-CV, B-MT
-34	##함	O	O	O, I-AF, I-CV, I-TM, I-LC
-35	##에	O	O	O, B-CV, B-PS, I-AF, B-LC
-36	채워	O	O	O, B-CV, B-LC, B-PS, B-QT
-37	주도	O	O	O, B-PS, B-CV, B-LC, B-QT
-38	##록	O	O	O, B-PS, B-LC, B-CV, I-QT
-39	선배	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-AF
-40	직원	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-FD
-41	##들	O	O	O, I-CV, B-CV, I-AF, I-EV
-42	##한	O	O	O, B-CV, B-PS, B-LC, B-TM
-43	##테	O	O	O, B-CV, B-LC, B-PS, B-TM
-44	배웠	O	O	O, B-CV, B-LC, B-PS, B-TM
-45	##다	O	O	O, B-PS, B-CV, B-LC, I-CV
-46	""""	O	O	O, B-CV, B-LC, B-PS, B-TM
-47	며	O	O	O, B-CV, B-LC, B-PS, B-OG
-48	""""	O	O	O, B-CV, B-LC, B-PS, B-TM
-49	2007	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-PS
-50	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-51	취직	O	O	O, B-CV, I-DT, B-LC, B-PS
-52	이후	O	O	O, B-PS, B-LC, I-CV, B-CV
-53	지금	O	O	O, B-CV, B-LC, B-PS, B-TM
-54	##까	O	O	O, B-PS, B-LC, B-CV, B-TM
-55	##지	O	O	O, B-PS, B-LC, B-CV, B-QT
-56	2800	B-QT	B-QT	B-QT, O, I-QT, B-PS, B-CV
-57	##여	I-QT	I-QT	I-QT, O, I-LC, I-PS, I-DT
-58	유골	I-QT	O	O, B-TM, B-CV, I-QT, B-MT
-59	##들	O	O	O, I-QT, I-CV, I-AF, I-TM
-60	##을	O	O	O, B-CV, B-LC, B-PS, B-TM
-61	바꿔	O	O	O, B-PS, B-LC, B-CV, B-QT
-62	전달	O	O	O, B-CV, B-LC, B-PS, B-TM
-63	##했	O	O	O, B-PS, B-LC, B-CV, B-OG
-64	##다	O	O	O, B-PS, B-CV, B-LC, B-OG
-65	""""	O	O	O, B-CV, B-LC, B-PS, B-TM
-66	고	O	O	O, B-CV, B-LC, B-PS, B-TM
-67	자백	O	O	O, B-CV, B-PS, B-LC, B-TM
-68	##했	O	O	O, B-PS, B-CV, B-LC, I-CV
-69	##다	O	O	O, B-CV, B-PS, B-LC, I-CV
-70	.	O	O	O, B-PS, B-LC, B-CV, B-AF
-71	[SEP]	O	O	O, B-CV, B-LC, B-PS, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	■	O	O
+2	가산점	O	O
+3	##도	O	O
+4	따져	O	O
+5	##봐야	O	O
+6	올해	B-DT	B-DT
+7	정시	O	O
+8	##에	O	O
+9	##서	O	O
+10	수리	B-FD	O
+11	‘	B-QT	O
+12	가	I-QT	O
+13	’	I-QT	O
+14	형	I-QT	O
+15	##에	O	O
+16	가산점	O	O
+17	##을	O	O
+18	주	O	O
+19	##는	O	O
+20	대학	O	O
+21	##은	O	O
+22	모두	O	O
+23	125	B-QT	B-QT
+24	##곳	I-QT	I-QT
+25	##이다	O	O
+26	.	O	O
+27	[SEP]	O	O

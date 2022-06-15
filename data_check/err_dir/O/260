@@ -1,15 +1,21 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, I-AF, B-CV
-1	[	O	O	O, B-LC, B-OG, B-AF, B-CV
-2	문학	O	B-FD	B-FD, O, B-AF, B-OG, I-FD
-3	##예술	O	O	O, I-FD, B-FD, I-OG, I-AF
-4	]	O	O	O, I-AF, I-OG, I-FD, B-PS
-5	110	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-6	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-7	전	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-AF
-8	##의	O	O	O, I-DT, I-AF, B-LC, I-EV
-9	비엔나	B-LC	B-LC	B-LC, O, B-AF, B-OG, B-PS
-10	##로	O	O	O, I-LC, I-AF, I-OG, I-PS
-11	시간	O	O	O, B-TM, B-TI, B-LC, B-TR
-12	##여행	O	O	O, I-AF, I-TM, I-LC, I-TR
-13	[SEP]	O	O	O, B-LC, I-AF, B-AF, B-CV
+	text	label	preds
+0	[CLS]	O	O
+1	이제	O	O
+2	여	B-QT	B-QT
+3	##든	I-QT	I-QT
+4	##다	I-QT	I-QT
+5	##섯	I-QT	I-QT
+6	명	I-QT	I-QT
+7	정도	I-QT	I-QT
+8	##가	O	O
+9	중	O	B-CV
+10	##경	O	I-CV
+11	##상	O	I-CV
+12	##을	O	O
+13	입	O	O
+14	##으	O	O
+15	##셨	O	O
+16	##대	O	O
+17	##요	O	O
+18	.	O	O
+19	[SEP]	O	O

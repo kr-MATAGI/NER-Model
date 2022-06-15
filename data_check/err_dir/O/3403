@@ -1,20 +1,7 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, B-CV, I-OG, I-EV
-1	여단	O	O	O, B-OG, B-PS, B-AF, B-CV
-2	##장이	O	O	O, I-OG, B-PS, I-AF, B-OG
-3	모든	O	O	O, B-PS, B-LC, I-PS, B-QT
-4	업무	O	O	O, B-CV, B-TM, B-LC, B-PS
-5	관련	O	O	O, B-PS, B-CV, B-LC, B-TM
-6	서류	O	O	O, B-CV, B-PS, B-LC, B-TM
-7	관리	O	O	O, B-PS, B-CV, B-LC, B-TM
-8	##를	O	O	O, B-PS, I-PS, B-LC, B-QT
-9	이	O	B-PS	B-PS, O, I-PS, B-LC, B-QT
-10	당	B-CV	B-CV	B-CV, O, I-CV, B-OG, I-PS
-11	##번	I-CV	I-CV	I-CV, O, B-CV, I-PS, I-OG
-12	##병	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-QT
-13	##에	O	O	O, I-CV, B-PS, I-PS, I-QT
-14	##게	O	O	O, B-PS, I-PS, B-LC, B-AM
-15	맡겼	O	O	O, B-PS, B-CV, B-LC, I-PS
-16	##다	O	O	O, B-CV, I-CV, B-PS, B-LC
-17	.	O	O	O, B-PS, B-CV, B-LC, B-OG
-18	[SEP]	O	O	O, B-CV, B-PS, B-LC, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	오	O	B-CV
+2	.	O	I-CV
+3	블루	B-TM	I-CV
+4	.	O	O
+5	[SEP]	O	O

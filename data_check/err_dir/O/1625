@@ -1,28 +1,47 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-EV, I-OG, B-CV, I-CV
-1	전	O	O	O, B-LC, B-PS, B-OG, B-CV
-2	세계	O	O	O, B-LC, I-LC, B-CV, B-OG
-3	공무원	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-TM
-4	,	O	O	O, I-CV, I-OG, B-CV, I-EV
-5	학자	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-OG
-6	등	O	O	O, I-CV, B-LC, B-CV, B-TM
-7	외국	O	O	O, B-CV, B-LC, B-TM, B-FD
-8	인사	O	B-CV	B-CV, O, I-CV, B-QT, B-FD
-9	500	B-QT	B-QT	B-QT, O, I-QT, B-DT, I-CV
-10	##명	I-QT	I-QT	I-QT, O, I-PS, I-LC, I-CV
-11	##과	O	O	O, I-QT, B-CV, B-TM, B-LC
-12	국내	O	O	O, B-CV, B-LC, B-TM, B-FD
-13	인사	O	B-CV	B-CV, O, I-CV, B-QT, B-FD
-14	1500	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-PS
-15	##명	I-QT	I-QT	I-QT, O, I-PS, I-LC, I-DT
-16	등	O	O	O, I-QT, B-CV, B-TM, B-LC
-17	2000	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-EV
-18	##명	I-QT	I-QT	I-QT, O, I-LC, I-PS, I-DT
-19	이상	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-20	##이	O	O	O, I-QT, B-CV, B-OG, B-PS
-21	참가	O	O	O, B-CV, B-EV, B-LC, B-TM
-22	##할	O	O	O, B-CV, I-EV, B-LC, B-PS
-23	예정	O	O	O, B-CV, I-EV, B-TM, B-OG
-24	##이다	O	O	O, B-CV, I-EV, I-OG, B-TM
-25	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-26	[SEP]	O	O	O, B-LC, B-CV, I-EV, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	과속	O	O
+2	##과	O	O
+3	신호	O	O
+4	##위	O	O
+5	##반	O	O
+6	,	O	O
+7	불법	O	O
+8	주	O	O
+9	·	O	O
+10	정차	O	O
+11	단속	O	O
+12	,	O	O
+13	구간	O	B-TM
+14	교통	B-TM	I-TM
+15	##정보	I-TM	I-TM
+16	##수	I-TM	I-TM
+17	##집	I-TM	I-TM
+18	##시스	I-TM	I-TM
+19	##템	I-TM	I-TM
+20	등	O	O
+21	교통	O	O
+22	##단	O	O
+23	##속	O	O
+24	CCTV	B-TM	B-TM
+25	##와	O	O
+26	관련	O	O
+27	##된	O	O
+28	선도	O	O
+29	기술	O	O
+30	##은	O	O
+31	대부분	O	O
+32	토	B-OG	B-PS
+33	##페	I-OG	I-PS
+34	##스	I-OG	I-PS
+35	##에	O	O
+36	의해	O	O
+37	탄생	O	O
+38	##했	O	O
+39	##다고	O	O
+40	봐도	O	O
+41	좋	O	O
+42	##을	O	O
+43	정도	O	O
+44	.	O	O
+45	[SEP]	O	O

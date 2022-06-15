@@ -1,41 +1,61 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-EV, I-CV
-1	영하	O	O	O, B-LC, B-QT, B-TM, B-CV
-2	##를	O	O	O, I-LC, I-QT, B-PS, I-DT
-3	오르내리	O	O	O, B-LC, B-PS, B-CV, B-TM
-4	##는	O	O	O, B-LC, B-PS, B-QT, B-TM
-5	추운	O	O	O, B-LC, B-CV, B-TM, B-PS
-6	날씨	O	O	O, B-LC, B-CV, I-EV, B-PS
-7	##에	O	O	O, B-PS, I-EV, B-CV, B-LC
-8	새벽	B-TI	B-TI	B-TI, O, B-EV, B-QT, I-TI
-9	##부터	I-TI	I-TI	I-TI, O, B-TI, I-TR, I-EV
-10	눈	O	O	O, I-TI, B-AM, B-PS, I-AF
-11	##발	O	O	O, B-AM, I-AF, I-AM, I-LC
-12	##이	O	O	O, B-PS, B-LC, I-AF, B-AM
-13	날렸	O	O	O, B-LC, B-PS, B-CV, B-AF
-14	##지만	O	O	O, I-AF, B-PS, B-CV, B-LC
-15	,	O	O	O, B-CV, B-LC, B-PS, B-OG
-16	은	O	O	O, B-MT, B-CV, B-AF, B-TR
-17	##박	O	O	O, I-CV, I-MT, I-AF, I-PT
-18	장판	O	O	O, I-CV, B-CV, B-TM, B-MT
-19	위	O	O	O, B-TM, B-CV, I-TM, B-LC
-20	##의	O	O	O, B-PS, I-TM, I-AF, B-CV
-21	주민	B-CV	B-CV	B-CV, O, B-TM, I-CV, B-OG
-22	##들	O	O	O, I-CV, I-AF, I-EV, I-QT
-23	##은	O	O	O, B-CV, B-TM, B-LC, I-AF
-24	바람	O	O	O, B-AM, B-LC, B-MT, B-PT
-25	한	B-QT	O	O, B-QT, B-LC, B-DT, I-QT
-26	점	I-QT	O	O, I-QT, I-LC, I-PS, I-AM
-27	막	O	O	O, I-QT, B-PS, I-PS, I-LC
-28	##을	O	O	O, B-PS, B-LC, B-TM, I-QT
-29	수	O	O	O, B-PS, B-QT, B-LC, B-TM
-30	없	O	O	O, B-TM, B-LC, B-CV, B-PS
-31	##는	O	O	O, B-LC, B-CV, B-TM, B-PS
-32	분향소	O	O	O, B-CV, B-AF, B-EV, B-LC
-33	##를	O	O	O, I-AF, I-CV, I-EV, B-CV
-34	떠나	O	O	O, B-CV, B-TM, B-QT, B-LC
-35	##지	O	O	O, B-PS, B-QT, B-LC, B-TM
-36	못했	O	O	O, B-CV, B-LC, B-PS, B-QT
-37	##다	O	O	O, B-CV, I-AF, B-LC, I-OG
-38	.	O	O	O, B-LC, B-CV, B-PS, I-AF
-39	[SEP]	O	O	O, B-CV, B-LC, I-AF, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	LH	B-OG	B-OG
+2	(	O	O
+3	한국	B-OG	B-OG
+4	##토	I-OG	I-OG
+5	##지	I-OG	I-OG
+6	##주택	I-OG	I-OG
+7	##공사	I-OG	I-OG
+8	)	O	O
+9	가	O	O
+10	작년	B-DT	B-DT
+11	5	I-DT	I-DT
+12	##월	I-DT	I-DT
+13	수원	B-LC	B-LC
+14	호	B-LC	B-LC
+15	##매	I-LC	I-LC
+16	##실	I-LC	I-LC
+17	##지구	I-LC	I-LC
+18	A	B-QT	O
+19	##7	I-QT	O
+20	##블	I-QT	O
+21	##록	I-QT	O
+22	##에	O	O
+23	분양	O	O
+24	##한	O	O
+25	700	B-QT	B-QT
+26	##가	I-QT	I-QT
+27	##구	I-QT	I-QT
+28	규모	O	O
+29	단지	O	O
+30	##는	O	O
+31	지난	B-DT	B-DT
+32	9	I-DT	I-DT
+33	##일	I-DT	I-DT
+34	##까	I-DT	I-DT
+35	##지	I-DT	I-DT
+36	중도금	O	O
+37	대출	O	O
+38	##은행	O	O
+39	선정	O	O
+40	입찰	O	O
+41	##을	O	O
+42	진행	O	O
+43	##했	O	O
+44	##지만	O	O
+45	단	O	O
+46	한	B-QT	B-QT
+47	곳	I-QT	I-QT
+48	##의	O	O
+49	금융	O	O
+50	##회사	O	O
+51	##도	O	O
+52	참여	O	O
+53	##하	O	O
+54	##지	O	O
+55	않	O	O
+56	##았	O	O
+57	##다	O	O
+58	.	O	O
+59	[SEP]	O	O

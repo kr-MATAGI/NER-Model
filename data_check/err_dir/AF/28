@@ -1,13 +1,17 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-AF
-1	지난달	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-LC
-2	30	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-3	##일	I-DT	I-DT	I-DT, O, B-DT, I-PS, I-AF
-4	강원	B-LC	B-LC	B-LC, B-OG, O, I-DT, I-LC
-5	원주시	B-LC	B-LC	B-LC, I-LC, O, B-OG, B-AF
-6	한솔	B-AF	B-AF	B-AF, B-LC, O, B-OG, I-LC
-7	##오	I-AF	I-LC	I-LC, I-AF, O, I-OG, B-LC
-8	##크	I-AF	I-LC	I-LC, I-AF, O, I-OG, B-LC
-9	##밸리	I-AF	I-LC	I-LC, I-AF, O, I-OG, I-PS
-10	.	O	O	O, I-AF, I-LC, I-OG, I-QT
-11	[SEP]	O	O	O, B-LC, I-AF, B-OG, I-LC
+	text	label	preds
+0	[CLS]	O	O
+1	도끼	B-AF	O
+2	##날	I-AF	O
+3	##을	O	O
+4	100	B-DT	B-DT
+5	##년	I-DT	I-DT
+6	동안	I-DT	I-DT
+7	갈아	O	O
+8	마침내	O	O
+9	바늘	O	O
+10	##을	O	O
+11	만들	O	O
+12	##었	O	O
+13	##다	O	O
+14	.	O	O
+15	[SEP]	O	O

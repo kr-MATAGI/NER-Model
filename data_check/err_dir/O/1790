@@ -1,23 +1,66 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-AF
-1	주인공	B-CV	B-CV	B-CV, O, I-CV, B-PS, B-AF
-2	서연	O	B-PS	B-PS, O, I-PS, B-OG, B-LC
-3	##과	O	O	O, I-PS, B-PS, B-CV, I-OG
-4	승	O	B-PS	B-PS, O, I-PS, B-OG, B-LC
-5	##민	O	I-PS	I-PS, O, I-OG, I-LC, B-PS
-6	(	O	O	O, I-PS, B-CV, I-OG, I-AF
-7	이제	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-8	##훈	I-PS	I-PS	I-PS, O, I-OG, I-LC, B-PS
-9	)	O	O	O, I-PS, I-OG, B-CV, I-AF
-10	의	O	O	O, B-CV, B-TM, B-LC, B-PS
-11	발걸음	O	O	O, B-AM, B-PS, B-AF, B-TM
-12	##은	O	O	O, B-CV, B-PS, I-AF, B-OG
-13	정확히	O	O	O, B-CV, B-PS, B-TM, B-QT
-14	한	O	B-QT	B-QT, O, I-QT, B-TM, B-PS
-15	##곳	O	I-QT	I-QT, O, I-LC, I-TM, B-QT
-16	##에서	O	O	O, I-QT, B-PS, I-PS, B-CV
-17	겹쳐	O	O	O, B-PS, B-TM, B-OG, B-QT
-18	##졌	O	O	O, B-CV, I-OG, B-PS, I-QT
-19	##다	O	O	O, B-CV, I-OG, I-CV, I-QT
-20	.	O	O	O, B-PS, B-LC, B-CV, B-OG
-21	[SEP]	O	O	O, B-CV, B-PS, B-LC, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	사단	O	O
+2	##법인	O	O
+3	대구	B-OG	B-EV
+4	##뮤	I-OG	I-EV
+5	##지	I-OG	I-EV
+6	##컬	I-OG	I-EV
+7	##페	I-OG	I-EV
+8	##스티벌	I-OG	I-EV
+9	(	O	O
+10	이사장	B-CV	B-CV
+11	장	B-PS	B-PS
+12	##익	I-PS	I-PS
+13	##현	I-PS	I-PS
+14	·	O	O
+15	이하	O	O
+16	DI	B-OG	B-OG
+17	##M	I-OG	I-OG
+18	##F	I-OG	I-OG
+19	)	O	O
+20	은	O	O
+21	오	B-DT	B-DT
+22	##는	I-DT	I-DT
+23	15	I-DT	I-DT
+24	##일	I-DT	I-DT
+25	전야	O	O
+26	##제	O	O
+27	##를	O	O
+28	시작	O	O
+29	##으로	O	O
+30	7	B-DT	B-DT
+31	##월	I-DT	I-DT
+32	8	I-DT	I-DT
+33	##일	I-DT	I-DT
+34	##까	I-DT	I-DT
+35	##지	I-DT	I-DT
+36	24	B-DT	B-DT
+37	##일	I-DT	I-DT
+38	##간	I-DT	I-DT
+39	대구	B-AF	B-AF
+40	##오	I-AF	I-AF
+41	##페	I-AF	I-AF
+42	##라	I-AF	I-AF
+43	##하우스	I-AF	I-AF
+44	등	O	O
+45	대구시	O	O
+46	##내	O	O
+47	일원	O	O
+48	##에	O	O
+49	##서	O	O
+50	제	O	B-QT
+51	##7	O	I-QT
+52	##회	O	I-QT
+53	대구	B-LC	B-EV
+54	##국	O	I-EV
+55	##제	O	I-EV
+56	##뮤	O	I-EV
+57	##지	O	I-EV
+58	##컬	O	I-EV
+59	##페	O	I-EV
+60	##스티벌	O	I-EV
+61	##을	O	O
+62	연다	O	O
+63	.	O	O
+64	[SEP]	O	O

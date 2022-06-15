@@ -1,48 +1,53 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	비슷	O	O	O, B-CV, B-TM, B-OG, B-LC
-2	##한	O	O	O, B-LC, B-TM, B-OG, B-CV
-3	시간대	O	O	O, B-CV, B-LC, B-OG, B-TM
-4	##에	O	O	O, B-CV, B-OG, B-LC, I-AF
-5	이호	B-LC	B-LC	B-LC, O, B-OG, B-AF, B-PS
-6	##에서	O	O	O, I-LC, I-AF, I-OG, I-EV
-7	16	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-LC
-8	##명	I-QT	I-QT	I-QT, O, I-LC, I-PS, I-EV
-9	,	O	O	O, I-QT, I-OG, I-AF, B-CV
-10	김	B-LC	B-LC	B-LC, B-OG, O, B-PS, B-AF
-11	##녕	I-LC	I-LC	I-LC, I-OG, O, I-PS, I-AF
-12	10	B-QT	B-QT	B-QT, I-LC, I-QT, O, B-LC
-13	##명	I-QT	I-QT	I-QT, I-LC, O, I-PS, I-OG
-14	,	O	O	O, I-QT, I-OG, I-AF, B-CV
-15	협	B-LC	B-LC	B-LC, B-OG, O, B-PS, B-AF
-16	##재	I-LC	I-LC	I-LC, I-OG, O, I-PS, I-AF
-17	5	B-QT	B-QT	B-QT, I-LC, I-QT, O, I-OG
-18	##명	I-QT	I-QT	I-QT, I-LC, O, I-PS, I-OG
-19	,	O	O	O, I-QT, I-OG, I-AF, B-CV
-20	삼양	B-LC	B-OG	B-OG, B-LC, O, B-AF, B-CV
-21	3	B-QT	B-QT	B-QT, I-QT, I-OG, O, I-LC
-22	##명	I-QT	I-QT	I-QT, O, I-OG, I-LC, I-PS
-23	,	O	O	O, I-QT, I-OG, I-AF, B-CV
-24	금	B-LC	B-LC	B-LC, B-OG, O, B-PS, B-AF
-25	##능	I-LC	I-LC	I-LC, I-OG, O, I-PS, I-AF
-26	1	B-QT	B-QT	B-QT, I-LC, I-QT, I-OG, O
-27	##명	I-QT	I-QT	I-QT, I-LC, O, I-OG, I-PS
-28	등	O	O	O, I-QT, I-OG, I-AF, B-CV
-29	제주	B-LC	B-LC	B-LC, O, B-OG, B-AF, I-LC
-30	##지역	O	O	O, I-LC, B-LC, I-AF, I-OG
-31	6	B-QT	B-QT	B-QT, O, B-LC, I-QT, B-TM
-32	##개	I-QT	I-QT	I-QT, O, I-LC, I-PS, I-AF
-33	해수욕장	O	O	O, I-QT, I-LC, B-LC, I-AF
-34	##에서	O	O	O, I-AF, B-CV, I-LC, I-QT
-35	모두	O	O	O, B-QT, B-CV, B-TM, B-DT
-36	61	B-QT	B-QT	B-QT, I-QT, O, B-DT, B-PS
-37	##명	I-QT	I-QT	I-QT, O, I-LC, I-PS, I-EV
-38	##이	O	O	O, I-QT, B-PS, I-AF, B-CV
-39	해	B-AM	B-AM	B-AM, O, B-TM, B-PT, B-LC
-40	##파리	I-AM	I-AM	I-AM, I-TM, I-PT, O, B-AM
-41	##에	O	O	O, I-TM, I-AF, I-QT, I-EV
-42	쏘	O	O	O, B-TM, B-CV, B-LC, B-OG
-43	##였	O	O	O, B-CV, I-OG, I-TM, I-AF
-44	##다	O	O	O, B-CV, B-TM, B-LC, B-OG
-45	.	O	O	O, B-LC, B-CV, B-OG, B-PS
-46	[SEP]	O	O	O, B-LC, B-CV, I-AF, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	박	B-PS	B-PS
+2	당선인	B-CV	B-CV
+3	##은	O	O
+4	이명박	B-PS	B-PS
+5	대통령	B-CV	B-CV
+6	##을	O	O
+7	만난	O	O
+8	자리	O	O
+9	##에	O	O
+10	##서도	O	O
+11	“	O	O
+12	북한	B-LC	B-OG
+13	##이	O	O
+14	정권	O	O
+15	교체	O	O
+16	##기에	O	O
+17	도발	O	O
+18	##을	O	O
+19	한	O	O
+20	것	O	O
+21	##은	O	O
+22	,	O	O
+23	이런	O	O
+24	시기	O	O
+25	##에	O	O
+26	우리	O	O
+27	정부	B-OG	B-OG
+28	##와	O	O
+29	국민	B-CV	B-CV
+30	##을	O	O
+31	불안	O	O
+32	##하	O	O
+33	##게	O	O
+34	하고	O	O
+35	혼란	O	O
+36	##에	O	O
+37	빠뜨리	O	O
+38	##려	O	O
+39	##는	O	O
+40	게	O	O
+41	아닌가	O	O
+42	”	O	O
+43	라며	O	O
+44	날	O	O
+45	선	O	O
+46	반응	O	O
+47	##을	O	O
+48	보였	O	O
+49	##다	O	O
+50	.	O	O
+51	[SEP]	O	O

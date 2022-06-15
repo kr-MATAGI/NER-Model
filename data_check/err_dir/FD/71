@@ -1,20 +1,34 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	제	O	O	O, B-CV, B-OG, B-LC, B-PS
-2	##가	O	O	O, B-PS, B-CV, B-OG, B-LC
-3	그	O	O	O, B-CV, B-OG, B-FD, B-PS
-4	~	O	O	O, B-CV, I-CV, B-PS, B-LC
-5	지침	O	O	O, B-CV, B-PS, B-LC, B-OG
-6	##을	O	O	O, I-CV, B-CV, B-PS, I-OG
-7	받	O	O	O, B-CV, B-PS, B-LC, B-OG
-8	##기	O	O	O, B-PS, B-LC, B-CV, B-OG
-9	##로	O	O	O, B-CV, B-PS, B-LC, B-OG
-10	정치	B-FD	O	O, B-FD, B-TR, B-CV, B-OG
-11	경제	B-FD	O	O, B-FD, I-FD, B-TR, B-CV
-12	쪽	O	O	O, I-FD, I-QT, I-OG, I-DT
-13	##을	O	O	O, B-CV, B-PS, B-OG, I-OG
-14	하	O	O	O, B-CV, B-OG, B-LC, B-PS
-15	##라고	O	O	O, B-CV, B-PS, B-OG, I-OG
-16	그랬	O	O	O, B-CV, B-OG, B-LC, B-PS
-17	##는데	O	O	O, B-CV, B-OG, I-OG, I-CV
-18	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	피카소	B-PS	B-PS
+2	·	O	O
+3	이우	B-PS	B-PS
+4	##환	I-PS	I-PS
+5	등	O	O
+6	작품	O	O
+7	일본	B-LC	B-LC
+8	##서	O	O
+9	수집	O	O
+10	##해	O	O
+11	국내	O	O
+12	##에	O	O
+13	1	B-QT	B-QT
+14	##만	I-QT	I-QT
+15	##점	I-QT	I-QT
+16	기증	O	O
+17	‘	O	O
+18	한국	B-LC	B-LC
+19	##미술	B-FD	O
+20	##계	O	O
+21	숨	O	O
+22	##은	O	O
+23	은	O	B-CV
+24	##인	O	I-CV
+25	’	O	O
+26	하정	B-PS	B-PS
+27	##웅	I-PS	I-PS
+28	##씨	O	O
+29	에세이	O	B-FD
+30	냈	O	O
+31	##다	O	O
+32	[SEP]	O	O

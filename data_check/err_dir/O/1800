@@ -1,22 +1,6 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	아	O	O	O, B-CV, B-LC, B-PS, B-TM
-2	또	O	O	O, B-QT, B-PS, B-CV, B-LC
-3	한	O	B-QT	B-QT, O, I-QT, B-PS, B-EV
-4	번	O	I-QT	I-QT, O, I-LC, I-PS, B-QT
-5	그	O	O	O, I-QT, B-CV, I-CV, B-TM
-6	민심	O	O	O, B-CV, B-LC, B-PS, B-TM
-7	##을	O	O	O, B-CV, B-PS, I-CV, B-LC
-8	앞	O	O	O, B-TM, B-LC, B-QT, B-TR
-9	##에서	O	O	O, I-TM, I-QT, B-CV, I-LC
-10	끌	O	O	O, B-LC, B-CV, B-TM, B-PS
-11	##거나	O	O	O, I-QT, B-PS, I-LC, I-CV
-12	혹은	O	O	O, B-CV, B-QT, B-TM, B-LC
-13	사로잡	O	O	O, B-CV, B-LC, B-TM, B-PS
-14	##을	O	O	O, B-PS, B-LC, B-CV, I-CV
-15	찬스	O	O	O, B-CV, B-TM, B-QT, B-LC
-16	##를	O	O	O, B-CV, I-CV, I-EV, I-QT
-17	놓쳤	O	O	O, B-CV, B-TM, B-QT, B-EV
-18	##다	O	O	O, B-CV, I-CV, I-EV, I-OG
-19	.	O	O	O, B-CV, B-LC, B-PS, B-TM
-20	[SEP]	O	O	O, B-CV, B-LC, B-TM, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	손발	O	B-AM
+2	나	O	O
+3	##두	O	O
+4	[SEP]	O	O

@@ -1,26 +1,29 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	그러면	O	O	O, B-CV, B-LC, B-OG, B-TM
-2	이	O	O	O, B-PS, B-CV, B-OG, B-QT
-3	##들	O	O	O, B-CV, B-PS, I-OG, I-CV
-4	##은	O	O	O, B-CV, B-LC, B-TM, B-OG
-5	비싼	O	O	O, B-CV, B-TM, B-QT, B-LC
-6	옷	O	O	O, B-CV, I-CV, I-AF, B-AF
-7	##을	O	O	O, B-CV, B-PS, B-LC, I-CV
-8	골라	O	O	O, B-CV, B-LC, B-QT, B-TM
-9	##낸	O	O	O, B-CV, B-LC, B-PS, I-LC
-10	다음	O	O	O, B-PS, B-LC, B-CV, B-TM
-11	고물	O	O	O, B-CV, B-TM, B-OG, I-CV
-12	##상	O	O	O, I-CV, B-CV, I-TM, I-OG
-13	업자	O	B-CV	B-CV, O, I-CV, B-QT, I-QT
-14	##를	O	O	O, I-CV, B-CV, B-PS, B-LC
-15	조용히	O	O	O, B-CV, B-QT, B-LC, B-TM
-16	불러	O	O	O, B-CV, B-LC, B-PS, B-QT
-17	흥정	O	O	O, B-CV, B-TM, I-QT, I-CV
-18	##을	O	O	O, B-CV, B-PS, B-LC, B-OG
-19	시도	O	O	O, B-CV, B-TM, B-LC, B-QT
-20	##하기	O	O	O, B-CV, B-LC, B-PS, I-CV
-21	##도	O	O	O, B-CV, B-LC, B-PS, B-TM
-22	한다	O	O	O, B-CV, B-LC, B-TM, B-PS
-23	.	O	O	O, B-CV, B-LC, B-PS, B-TM
-24	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	4	B-DT	B-DT
+2	##년	I-DT	I-DT
+3	##마	O	I-DT
+4	##다	O	I-DT
+5	열리	O	O
+6	##는	O	O
+7	FIFA	B-EV	B-OG
+8	(	I-EV	O
+9	국제축구연맹	I-EV	B-OG
+10	)	I-EV	O
+11	여자	I-EV	B-EV
+12	##월드	I-EV	I-EV
+13	##컵	I-EV	I-EV
+14	##은	O	O
+15	세계	O	O
+16	축구	B-CV	B-CV
+17	##의	O	O
+18	'	O	O
+19	여왕	B-CV	B-CV
+20	'	O	O
+21	을	O	O
+22	가리	O	O
+23	##는	O	O
+24	대회	O	O
+25	##다	O	O
+26	.	O	O
+27	[SEP]	O	O

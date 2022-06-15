@@ -1,61 +1,63 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-QT
-1	개성	B-LC	B-LC	B-LC, B-OG, O, B-AF, B-TM
-2	##공단	I-LC	I-LC	I-LC, I-OG, O, I-AF, B-LC
-3	북측	B-OG	B-LC	B-LC, B-OG, I-LC, O, I-OG
-4	근로자	B-CV	B-CV	B-CV, O, I-CV, B-OG, I-OG
-5	##는	O	O	O, I-CV, I-OG, B-CV, I-AF
-6	기본	O	O	O, B-CV, B-PS, B-LC, B-QT
-7	##임금	O	O	O, I-CV, B-CV, I-TR, I-QT
-8	(	O	O	O, I-CV, B-CV, B-PS, I-QT
-9	월	O	O	O, B-DT, B-CV, B-LC, B-PS
-10	57	B-QT	B-QT	B-QT, I-QT, O, B-DT, B-TI
-11	##달	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-DT
-12	##러	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-13	)	O	O	O, I-QT, I-OG, B-CV, I-CV
-14	과	O	O	O, B-CV, B-PS, B-OG, B-LC
-15	수당	O	O	O, B-CV, B-QT, B-PS, I-CV
-16	##을	O	O	O, B-CV, B-PS, B-LC, B-OG
-17	합쳐	O	O	O, B-DT, B-QT, B-PS, B-LC
-18	월	O	O	O, B-DT, I-DT, B-PS, B-LC
-19	평균	O	O	O, I-DT, B-DT, B-QT, B-CV
-20	112	B-QT	B-QT	B-QT, I-QT, O, B-DT, B-PS
-21	##달	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-22	##러	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-23	##를	O	O	O, I-QT, B-CV, I-OG, I-EV
-24	받	O	O	O, B-CV, I-QT, B-TM, B-OG
-25	##고	O	O	O, B-PS, B-CV, B-LC, B-QT
-26	있	O	O	O, B-CV, B-PS, B-LC, B-OG
-27	##으며	O	O	O, B-LC, B-OG, B-CV, B-PS
-28	북한	B-OG	B-LC	B-LC, B-OG, O, B-PS, B-AF
-29	당국	O	I-OG	I-OG, O, B-OG, I-LC, B-CV
-30	##은	O	O	O, I-OG, I-CV, I-LC, B-PS
-31	이	O	O	O, B-PS, B-OG, B-LC, B-QT
-32	중	O	O	O, B-QT, B-PS, B-LC, B-TM
-33	1	B-QT	B-QT	B-QT, I-QT, O, B-DT, B-CV
-34	##∼	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-35	##2	I-QT	I-QT	I-QT, B-QT, O, I-LC, I-PS
-36	##달	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-37	##러	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-38	##와	O	O	O, I-QT, B-CV, I-OG, I-AF
-39	배급	O	O	O, B-CV, B-AF, B-TM, B-LC
-40	##표	O	O	O, I-CV, I-AF, I-LC, I-TM
-41	##만	O	O	O, B-QT, B-PS, I-CV, I-QT
-42	근로자	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-TM
-43	##에	O	O	O, I-CV, B-CV, I-QT, I-AF
-44	##게	O	O	O, B-QT, B-CV, B-TM, B-LC
-45	주고	O	O	O, B-CV, B-PS, B-QT, B-TM
-46	나머지	O	O	O, B-QT, B-CV, B-PS, B-LC
-47	##는	O	O	O, B-CV, B-PS, B-LC, B-QT
-48	공적	O	O	O, B-CV, B-QT, B-TM, B-LC
-49	##으로	O	O	O, B-PS, B-LC, B-QT, B-OG
-50	착	O	O	O, B-CV, B-TM, B-PS, B-QT
-51	##복	O	O	O, I-CV, I-LC, B-CV, B-PS
-52	##하	O	O	O, B-PS, B-LC, B-CV, B-OG
-53	##는	O	O	O, B-CV, B-PS, B-LC, B-OG
-54	것	O	O	O, B-CV, B-PS, B-LC, B-OG
-55	##으로	O	O	O, B-CV, B-LC, B-TM, I-OG
-56	알려졌	O	O	O, B-LC, B-CV, B-TM, B-OG
-57	##다	O	O	O, B-CV, I-OG, B-LC, I-QT
-58	.	O	O	O, B-LC, B-PS, B-CV, B-OG
-59	[SEP]	O	O	O, B-LC, B-CV, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	국정원	B-OG	B-OG
+2	##은	O	O
+3	그러나	O	O
+4	국내	O	O
+5	정보	O	O
+6	수집	O	O
+7	폐지	O	O
+8	##는	O	O
+9	대	O	B-CV
+10	##간	B-CV	I-CV
+11	##첩	I-CV	I-CV
+12	·	O	O
+13	테러	O	O
+14	업무	O	O
+15	##에	O	O
+16	관한	O	O
+17	국내외	O	O
+18	정보	O	O
+19	통합	O	O
+20	##이	O	O
+21	##라는	O	O
+22	세계	O	O
+23	##적	O	O
+24	추세	O	O
+25	##에	O	O
+26	맞	O	O
+27	##지	O	O
+28	않	O	O
+29	##고	O	O
+30	,	O	O
+31	대공	O	B-CV
+32	수사	B-CV	I-CV
+33	##권	I-CV	I-CV
+34	폐지	O	O
+35	##도	O	O
+36	2000	B-DT	B-DT
+37	##년	I-DT	I-DT
+38	이후	I-DT	I-DT
+39	검거	O	O
+40	간첩	B-CV	B-CV
+41	##의	O	O
+42	90	B-QT	B-QT
+43	%	I-QT	I-QT
+44	이상	I-QT	I-QT
+45	##이	O	O
+46	국정원	B-OG	B-AF
+47	수사	O	I-EV
+48	사건	O	I-EV
+49	##이	O	O
+50	##었	O	O
+51	##다는	O	O
+52	점	O	O
+53	##을	O	O
+54	들어	O	O
+55	불가	O	O
+56	##하	O	O
+57	##다는	O	O
+58	입장	O	O
+59	##이다	O	O
+60	.	O	O
+61	[SEP]	O	O

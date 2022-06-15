@@ -1,14 +1,7 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	대중	O	O	O, B-FD, B-CV, B-OG, B-AF
-2	##가요	O	I-FD	I-FD, O, B-FD, I-OG, I-AF
-3	가수	B-CV	B-CV	B-CV, O, I-CV, B-FD, I-FD
-4	##들	O	O	O, I-CV, I-OG, B-CV, I-AF
-5	역시	O	O	O, B-CV, B-PS, B-OG, B-TM
-6	그	O	O	O, B-CV, B-PS, B-OG, B-EV
-7	##를	O	O	O, B-CV, B-PS, I-AF, I-EV
-8	사랑	O	O	O, B-CV, B-PS, B-LC, B-OG
-9	##했	O	O	O, B-CV, B-PS, I-OG, B-OG
-10	##다	O	O	O, B-CV, I-OG, B-PS, I-CV
-11	.	O	O	O, B-CV, B-PS, B-OG, I-OG
-12	[SEP]	O	O	O, B-CV, B-PS, I-OG, I-CV
+	text	label	preds
+0	[CLS]	O	O
+1	헌법	O	B-CV
+2	##에	O	O
+3	있	O	O
+4	##는데	O	O
+5	[SEP]	O	O

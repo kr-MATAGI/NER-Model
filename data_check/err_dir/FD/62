@@ -1,53 +1,60 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-EV, I-OG, I-CV
-1	21	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-2	,	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
-3	22	I-DT	I-DT	I-DT, B-DT, O, I-QT, I-EV
-4	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
-5	경기	B-LC	B-LC	B-LC, O, B-OG, I-DT, B-AF
-6	수원	B-LC	B-LC	B-LC, O, I-LC, B-OG, B-AF
-7	##의	O	O	O, I-LC, B-LC, I-AF, I-OG
-8	경기도	B-AF	B-AF	B-AF, B-LC, O, B-PS, B-OG
-9	##문화	I-AF	I-AF	I-AF, I-LC, O, B-AF, I-PS
-10	##의	I-AF	I-AF	I-AF, O, I-LC, I-PS, I-OG
-11	##전	I-AF	I-AF	I-AF, I-LC, O, I-PS, I-OG
-12	##당	I-AF	I-AF	I-AF, I-LC, O, I-OG, I-PS
-13	##과	O	O	O, I-AF, I-LC, I-EV, I-OG
-14	서울	B-LC	B-LC	B-LC, O, B-OG, B-AF, B-PS
-15	롯데	B-AF	B-AF	B-AF, O, I-AF, B-LC, B-PS
-16	##콘서트	I-AF	I-AF	I-AF, O, I-LC, I-OG, I-PS
-17	##홀	I-AF	I-AF	I-AF, O, I-LC, I-OG, I-PS
-18	##에서	O	O	O, I-AF, I-EV, B-CV, I-OG
-19	열릴	O	O	O, B-CV, B-OG, B-LC, B-PS
-20	경기	B-OG	B-OG	B-OG, B-PS, B-EV, B-AF, B-LC
-21	##필	I-OG	I-OG	I-OG, I-PS, I-EV, I-AF, B-OG
-22	##하	I-OG	I-OG	I-OG, I-PS, I-AF, I-EV, I-LC
-23	##모닉	I-OG	I-OG	I-OG, I-PS, I-AF, I-EV, I-LC
-24	오케스트라	B-FD	I-OG	I-OG, I-PS, I-AF, I-EV, I-FD
-25	##의	O	O	O, I-OG, I-EV, I-AF, I-QT
-26	‘	O	O	O, B-LC, B-CV, B-OG, B-DT
-27	한	B-AF	B-AF	B-AF, B-EV, B-LC, O, B-PS
-28	##여름	I-AF	I-AF	I-AF, I-EV, I-PS, I-DT, B-AF
-29	밤	I-AF	I-AF	I-AF, I-EV, B-AF, O, I-PS
-30	##의	I-AF	I-AF	I-AF, I-EV, O, I-QT, I-TM
-31	꿈	I-AF	I-AF	I-AF, I-EV, O, I-QT, I-FD
-32	’	O	O	O, I-AF, I-EV, I-CV, I-OG
-33	에서	O	O	O, B-CV, B-LC, B-PS, I-EV
-34	##도	O	O	O, B-CV, B-PS, B-LC, B-OG
-35	내	O	O	O, B-FD, B-CV, B-PS, B-TR
-36	##레이션	O	O	O, I-FD, I-CV, I-TR, I-LC
-37	##을	O	O	O, B-PS, B-CV, I-CV, B-LC
-38	위해	O	O	O, B-PS, B-CV, B-LC, B-OG
-39	배우	B-CV	B-CV	B-CV, O, B-PS, B-OG, I-CV
-40	김석	B-PS	B-PS	B-PS, O, I-PS, B-OG, B-CV
-41	##훈	I-PS	I-PS	I-PS, O, I-OG, I-QT, I-LC
-42	##과	O	O	O, I-PS, B-PS, B-CV, I-OG
-43	이	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-44	##아	I-PS	I-PS	I-PS, O, I-OG, I-LC, I-QT
-45	##현	I-PS	I-PS	I-PS, O, I-OG, I-LC, I-QT
-46	##이	O	O	O, I-PS, B-CV, B-PS, B-LC
-47	무대	O	O	O, B-CV, B-FD, B-LC, B-TM
-48	##에	O	O	O, B-CV, I-AF, I-CV, B-PS
-49	오른다	O	O	O, B-CV, B-PS, B-LC, B-OG
-50	.	O	O	O, B-LC, B-PS, B-CV, B-AF
-51	[SEP]	O	O	O, B-LC, B-CV, B-PS, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	이달	B-DT	B-DT
+2	중순	I-DT	I-DT
+3	##부터	I-DT	I-DT
+4	정조	B-PS	B-DT
+5	##때	O	I-DT
+6	체계	O	O
+7	##적	O	O
+8	##으로	O	O
+9	정리	O	O
+10	##된	O	O
+11	민족	O	O
+12	##전	O	O
+13	##통	O	O
+14	무예	O	O
+15	##인	O	O
+16	'	O	O
+17	무예	B-FD	O
+18	##24	I-FD	B-QT
+19	##기	I-FD	I-QT
+20	'	O	O
+21	공연	O	O
+22	##을	O	O
+23	비롯	O	O
+24	##해	O	O
+25	정조	B-PS	B-PS
+26	##의	O	O
+27	친	O	O
+28	##위	O	O
+29	##부대	O	O
+30	##인	O	O
+31	장	B-EV	B-EV
+32	##용	I-EV	I-EV
+33	##영	I-EV	I-EV
+34	(	I-EV	I-EV
+35	壯	I-EV	I-EV
+36	勇	I-EV	O
+37	營	I-EV	I-EV
+38	)	I-EV	I-EV
+39	수위	I-EV	I-EV
+40	##의식	I-EV	I-EV
+41	,	O	O
+42	토요	B-DT	O
+43	##상	O	O
+44	##설	O	O
+45	##공	O	O
+46	##연	O	O
+47	등	O	O
+48	공연	O	O
+49	##프로	O	O
+50	##그램	O	O
+51	##이	O	O
+52	차례	O	O
+53	##로	O	O
+54	시작	O	O
+55	##된	O	O
+56	##다	O	O
+57	.	O	O
+58	[SEP]	O	O

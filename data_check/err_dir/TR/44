@@ -1,55 +1,13 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-EV, I-CV
-1	또한	O	O	O, B-TM, B-CV, B-QT, B-OG
-2	이	O	O	O, B-CV, B-AF, B-TM, B-OG
-3	제품	O	O	O, B-CV, B-TM, B-AF, B-LC
-4	##은	O	O	O, B-CV, B-OG, B-LC, B-TM
-5	시스	B-OG	B-OG	B-OG, O, B-LC, B-PS, I-OG
-6	##코	I-OG	I-OG	I-OG, O, B-OG, I-PS, I-EV
-7	##시스	I-OG	I-OG	I-OG, O, B-OG, I-PS, I-EV
-8	##템	I-OG	I-OG	I-OG, O, B-OG, I-PS, I-LC
-9	##스	I-OG	I-OG	I-OG, O, I-PS, B-OG, I-LC
-10	##의	O	O	O, I-OG, B-CV, B-TM, B-PS
-11	UP	B-TR	B-TM	B-TM, B-TR, O, B-OG, B-AF
-12	##O	I-TR	I-TM	I-TM, I-TR, O, I-OG, I-QT
-13	##E	I-TR	I-TM	I-TM, I-TR, O, I-OG, I-QT
-14	(	O	O	O, I-TM, I-OG, I-TR, I-QT
-15	Univers	O	O	O, B-LC, B-TM, B-PS, B-OG
-16	##al	O	O	O, B-LC, B-PS, I-LC, B-TM
-17	Power	O	O	O, B-LC, B-PS, B-TM, I-LC
-18	O	O	O	O, B-LC, I-LC, B-PS, B-TM
-19	##ver	O	O	O, B-LC, B-PS, I-LC, B-TM
-20	E	O	O	O, B-LC, I-LC, B-PS, B-TM
-21	##ther	O	O	O, B-LC, I-LC, B-PS, B-TM
-22	##net	O	O	O, B-LC, I-LC, B-PS, B-TM
-23	)	O	O	O, B-LC, B-CV, I-LC, B-PS
-24	라는	O	O	O, B-LC, B-TM, B-PS, B-CV
-25	기술	O	O	O, B-CV, B-TR, B-TM, B-FD
-26	##을	O	O	O, B-CV, I-CV, B-LC, B-OG
-27	도입	O	O	O, B-CV, B-TM, B-LC, B-OG
-28	##해	O	O	O, B-LC, B-OG, B-TM, B-PS
-29	따로	O	O	O, B-TM, B-LC, B-QT, B-CV
-30	전원	O	O	O, B-TM, B-LC, B-CV, B-QT
-31	##을	O	O	O, B-LC, B-CV, B-TM, B-OG
-32	연결	O	O	O, B-TM, B-LC, B-CV, B-QT
-33	##하	O	O	O, B-LC, B-TM, B-PS, B-CV
-34	##지	O	O	O, B-LC, B-TM, B-CV, B-PS
-35	않	O	O	O, B-LC, B-TM, B-CV, B-PS
-36	##아	O	O	O, B-LC, B-TM, B-CV, B-PS
-37	##도	O	O	O, B-TM, B-LC, B-QT, B-CV
-38	‘	O	O	O, B-TM, B-AF, B-LC, B-OG
-39	이서	B-TR	B-TM	B-TM, O, I-TM, B-AF, B-OG
-40	##넷	I-TR	I-TM	I-TM, O, I-AF, I-OG, B-TM
-41	’	O	O	O, I-TM, B-TM, I-AF, I-OG
-42	랜	O	O	O, B-TM, I-TM, B-CV, B-TR
-43	케이블	O	O	O, I-TM, I-TR, B-TM, I-AF
-44	##을	O	O	O, I-TM, B-CV, I-AF, I-EV
-45	통해	O	O	O, B-TM, B-LC, B-CV, B-OG
-46	전원	O	O	O, B-TM, B-LC, B-CV, B-QT
-47	공급	O	O	O, B-TM, B-LC, B-CV, B-OG
-48	##이	O	O	O, B-PS, B-OG, B-LC, B-CV
-49	가능	O	O	O, B-TM, B-CV, B-LC, B-QT
-50	##하	O	O	O, B-CV, B-TM, B-LC, B-OG
-51	##다	O	O	O, B-CV, B-TM, B-OG, B-QT
-52	.	O	O	O, B-LC, B-TM, B-CV, B-PS
-53	[SEP]	O	O	O, B-LC, B-TM, B-CV, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	디	B-TR	B-TR
+2	##렉	I-TR	I-TR
+3	##셔널	I-TR	I-TR
+4	띠	I-TR	O
+5	##오리	I-TR	O
+6	##라는	O	O
+7	건데	O	O
+8	이	O	O
+9	이론	O	O
+10	##은	O	O
+11	[SEP]	O	O

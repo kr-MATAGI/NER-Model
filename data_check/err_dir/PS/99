@@ -1,31 +1,47 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-EV, I-OG, I-AF
-1	하	B-PS	B-PS	B-PS, B-OG, B-LC, B-AF, O
-2	##페	I-PS	I-PS	I-PS, I-OG, I-LC, I-AF, O
-3	##즈	I-PS	I-OG	I-OG, I-PS, I-LC, I-AF, O
-4	##는	O	O	O, I-OG, I-AF, I-PS, I-LC
-5	탱크	B-AF	B-AF	B-AF, O, B-OG, I-AF, B-TM
-6	##를	O	O	O, I-AF, I-OG, B-CV, I-EV
-7	동원	O	O	O, B-OG, B-LC, B-AF, B-TM
-8	##해	O	O	O, B-LC, B-OG, I-OG, I-LC
-9	이슬람	B-OG	B-OG	B-OG, I-OG, B-LC, O, B-PS
-10	##형제	I-OG	I-OG	I-OG, O, I-LC, B-OG, I-PS
-11	##단	I-OG	I-OG	I-OG, O, I-LC, I-PS, I-AF
-12	##의	O	O	O, I-OG, I-AF, B-PS, I-PS
-13	저격	B-CV	B-CV	B-CV, O, B-AF, B-OG, B-TM
-14	##수	I-CV	I-CV	I-CV, O, I-AF, I-OG, I-QT
-15	##가	O	O	O, I-CV, I-AF, I-OG, I-QT
-16	배치	O	O	O, B-CV, B-LC, B-AF, B-TM
-17	##돼	O	O	O, B-LC, B-CV, B-PS, I-AF
-18	있	O	O	O, B-CV, B-PS, B-LC, B-TM
-19	##을	O	O	O, B-CV, B-PS, I-AF, B-LC
-20	만한	O	O	O, B-TM, B-CV, B-QT, B-LC
-21	건물	O	O	O, B-AF, B-CV, B-LC, B-TM
-22	##에	O	O	O, I-AF, B-CV, B-LC, B-TM
-23	포격	O	O	O, B-CV, B-LC, B-TM, B-AF
-24	##을	O	O	O, B-CV, I-AF, B-LC, B-OG
-25	퍼부	O	O	O, B-LC, B-CV, B-OG, B-AF
-26	##었	O	O	O, B-LC, B-CV, B-OG, I-AF
-27	##다	O	O	O, B-CV, B-LC, I-AF, I-EV
-28	.	O	O	O, B-LC, B-CV, B-AF, B-PS
-29	[SEP]	O	O	O, B-LC, B-CV, I-AF, B-AF
+	text	label	preds
+0	[CLS]	O	O
+1	정우택	B-PS	B-PS
+2	원내대표	B-CV	B-CV
+3	##도	O	O
+4	이날	B-DT	B-DT
+5	당직자	B-CV	B-CV
+6	회의	O	O
+7	##에	O	O
+8	##서	B-PS	O
+9	서	O	B-PS
+10	의원	B-CV	B-CV
+11	##을	O	O
+12	향해	O	O
+13	""""	O	O
+14	누구	O	O
+15	##보	O	O
+16	##다	O	O
+17	책임	O	O
+18	##을	O	O
+19	통감	O	O
+20	##해야	O	O
+21	할	O	O
+22	일부	O	O
+23	인사	O	B-CV
+24	##가	O	O
+25	기득권	O	O
+26	##에	O	O
+27	연연	O	O
+28	##하	O	O
+29	##거나	O	O
+30	결단	O	O
+31	##하	O	O
+32	##지	O	O
+33	못하	O	O
+34	##는	O	O
+35	모습	O	O
+36	##이	O	O
+37	너무	O	O
+38	안타깝	O	O
+39	##다	O	O
+40	""""	O	O
+41	고	O	O
+42	했	O	O
+43	##다	O	O
+44	.	O	O
+45	[SEP]	O	O

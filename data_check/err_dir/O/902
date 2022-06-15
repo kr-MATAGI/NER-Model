@@ -1,16 +1,20 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-AF
-1	‘	O	O	O, B-CV, B-LC, B-OG, B-AF
-2	뉴스	O	B-AF	B-AF, O, B-PS, B-OG, B-LC
-3	##룸	O	I-AF	I-AF, O, I-PS, I-OG, I-LC
-4	’	O	O	O, I-AF, I-OG, B-CV, I-EV
-5	은	O	O	O, B-CV, B-LC, B-PS, B-OG
-6	필자	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-PS
-7	##가	O	O	O, I-CV, I-AF, B-PS, B-CV
-8	가장	O	O	O, B-CV, B-LC, B-OG, B-PS
-9	좋아하	O	O	O, B-CV, B-LC, B-TM, B-OG
-10	##는	O	O	O, B-CV, B-LC, B-TM, B-PS
-11	미드	B-FD	B-FD	B-FD, O, B-AF, B-CV, B-TR
-12	##다	O	O	O, I-AF, I-FD, I-CV, I-OG
-13	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-14	[SEP]	O	O	O, B-CV, B-LC, I-AF, B-FD
+	text	label	preds
+0	[CLS]	O	O
+1	핑크	B-TM	B-TM
+2	컬렉션	O	O
+3	##은	O	O
+4	여성	O	O
+5	핸드백	O	B-CV
+6	##과	O	O
+7	신발	O	O
+8	,	O	O
+9	선글라스	O	B-CV
+10	,	O	O
+11	티셔츠	O	B-CV
+12	##로	O	O
+13	구성	O	O
+14	##돼	O	O
+15	있	O	O
+16	##다	O	O
+17	.	O	O
+18	[SEP]	O	O

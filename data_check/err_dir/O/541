@@ -1,56 +1,31 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	<	O	O	O, B-CV, B-LC, B-OG, B-TM
-2	비빔	B-AF	B-AF	B-AF, B-TM, O, B-OG, B-CV
-3	##툰	I-AF	I-AF	I-AF, I-TM, O, I-OG, I-CV
-4	>	O	O	O, I-AF, I-TM, I-OG, I-EV
-5	을	O	O	O, B-CV, B-PS, B-LC, B-OG
-6	계기	O	O	O, B-PS, B-CV, B-OG, B-LC
-7	##로	O	O	O, B-PS, B-LC, B-OG, B-CV
-8	오랜	O	O	O, B-PS, B-LC, B-CV, B-OG
-9	꿈	O	O	O, B-CV, B-LC, B-FD, B-PS
-10	##이	O	O	O, B-PS, B-CV, B-LC, B-OG
-11	##었	O	O	O, B-CV, B-PS, B-LC, B-TM
-12	##던	O	O	O, B-FD, B-TM, B-LC, B-CV
-13	어린이	O	O	O, B-FD, B-TM, B-AF, B-CV
-14	과학	B-FD	B-FD	B-FD, O, I-FD, B-TM, B-TR
-15	학습	O	O	O, I-FD, B-FD, I-TM, B-TM
-16	##만	O	I-FD	I-FD, O, B-FD, I-TM, B-TM
-17	##화	O	I-FD	I-FD, O, I-TM, B-FD, I-CV
-18	##를	O	O	O, I-FD, I-TM, I-OG, I-AF
-19	몇몇	O	O	O, B-OG, B-TM, B-QT, B-LC
-20	잡지	O	O	O, B-TM, B-OG, I-OG, B-CV
-21	##에	O	O	O, B-CV, B-LC, B-TM, B-OG
-22	연재	O	O	O, B-CV, B-TM, B-LC, B-FD
-23	##하	O	O	O, B-PS, B-LC, B-OG, B-CV
-24	##게	O	O	O, B-PS, B-OG, B-CV, B-LC
-25	됐	O	O	O, B-CV, B-PS, B-OG, B-LC
-26	##지만	O	O	O, B-CV, B-LC, B-PS, I-QT
-27	,	O	O	O, B-CV, B-LC, B-PS, B-OG
-28	한	B-QT	B-QT	B-QT, O, B-TM, I-QT, B-PS
-29	##곳	I-QT	I-QT	I-QT, O, I-LC, I-TM, B-QT
-30	##에	O	O	O, I-QT, B-PS, B-CV, I-AF
-31	머무르	O	O	O, B-LC, B-QT, B-PS, I-QT
-32	##기	O	O	O, B-PS, I-QT, B-LC, B-CV
-33	##보	O	O	O, B-PS, B-CV, I-QT, B-LC
-34	##다	O	O	O, B-PS, B-CV, B-LC, I-QT
-35	새로운	O	O	O, B-PS, B-LC, B-QT, B-CV
-36	변화	O	O	O, B-PS, B-CV, B-LC, B-OG
-37	##를	O	O	O, B-PS, B-CV, B-LC, I-AF
-38	꿈꾸	O	O	O, B-LC, B-PS, B-CV, B-OG
-39	##는	O	O	O, B-PS, B-CV, B-LC, B-OG
-40	게	O	O	O, B-PS, B-LC, B-CV, B-OG
-41	창작자	B-CV	B-CV	B-CV, O, I-CV, B-FD, B-TM
-42	##로	O	O	O, I-CV, B-CV, B-PS, I-OG
-43	##서	O	O	O, B-CV, B-PS, B-LC, I-CV
-44	##의	O	O	O, B-PS, B-CV, B-LC, I-CV
-45	당연	O	O	O, B-CV, B-PS, B-FD, B-TM
-46	##한	O	O	O, B-PS, B-CV, B-LC, I-CV
-47	욕구	O	O	O, B-CV, B-PS, I-CV, B-FD
-48	##와	O	O	O, B-PS, B-CV, I-CV, B-OG
-49	의무	O	O	O, B-CV, B-PS, B-FD, I-CV
-50	##라는	O	O	O, I-CV, B-PS, B-CV, B-QT
-51	것	O	O	O, B-PS, B-CV, B-TM, I-CV
-52	##이다	O	O	O, B-CV, I-CV, B-TM, B-PS
-53	.	O	O	O, B-PS, B-CV, B-LC, B-FD
-54	[SEP]	O	O	O, B-CV, B-FD, B-PS, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	최근	O	O
+2	포토	O	B-TM
+3	##샵	O	I-TM
+4	##이	O	O
+5	가져다주	O	O
+6	##는	O	O
+7	사진	O	O
+8	##의	O	O
+9	무한	O	O
+10	##한	O	O
+11	표현	O	O
+12	##력	O	O
+13	확대	O	O
+14	##라는	O	O
+15	이런	O	O
+16	순	O	O
+17	##기능	O	O
+18	##이	O	O
+19	의외	O	O
+20	##의	O	O
+21	문제점	O	O
+22	##을	O	O
+23	야기	O	O
+24	##하	O	O
+25	##고	O	O
+26	있	O	O
+27	##다	O	O
+28	.	O	O
+29	[SEP]	O	O

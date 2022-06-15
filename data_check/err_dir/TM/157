@@ -1,42 +1,36 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-QT
-1	키	O	O	O, B-AM, B-TM, B-PS, B-QT
-2	##가	O	O	O, B-PS, B-TM, B-CV, B-OG
-3	너무	O	O	O, B-TM, B-PS, B-CV, B-LC
-4	작	O	O	O, B-TM, B-AM, B-CV, B-PS
-5	##으면	O	O	O, B-TM, I-TM, I-QT, B-CV
-6	성장	B-MT	B-MT	B-MT, O, B-TM, I-MT, B-AM
-7	##호	I-MT	I-MT	I-MT, O, I-TM, B-MT, I-AM
-8	##르	I-MT	I-MT	I-MT, O, I-TM, B-MT, I-AM
-9	##몬	I-MT	I-MT	I-MT, O, I-TM, B-MT, I-AM
-10	결핍	O	O	O, I-TM, B-TM, I-MT, I-CV
-11	##을	O	O	O, I-TM, B-CV, I-CV, B-TM
-12	알려	O	O	O, B-TM, B-CV, B-LC, B-PS
-13	##주	O	O	O, B-TM, B-CV, B-PS, I-TM
-14	##는	O	O	O, B-TM, B-CV, B-LC, B-QT
-15	'	O	O	O, B-CV, B-TM, B-LC, B-OG
-16	인슐린	B-TM	B-MT	B-MT, B-TM, O, B-TR, B-AF
-17	##양	I-TM	I-TM	I-TM, O, I-MT, I-TR, I-AF
-18	성장	I-TM	I-TM	I-TM, I-MT, O, B-TM, B-MT
-19	##인	I-TM	I-TM	I-TM, I-MT, O, I-AF, I-TR
-20	##자	I-TM	I-TM	I-TM, I-MT, O, I-AF, I-TR
-21	(	O	O	O, I-TM, I-MT, I-AF, B-CV
-22	I	B-TM	B-MT	B-MT, B-TM, O, B-TR, B-AM
-23	##G	I-TM	I-MT	I-MT, I-TM, O, I-TR, I-AM
-24	##F	I-TM	I-MT	I-MT, I-TM, O, I-AF, I-AM
-25	-	I-TM	I-MT	I-MT, I-TM, O, I-AF, I-AM
-26	1	I-TM	I-MT	I-MT, I-TM, O, I-AF, I-QT
-27	)	O	O	O, I-TM, I-MT, I-QT, I-AF
-28	'	O	O	O, B-CV, B-TM, B-LC, B-OG
-29	농도	O	O	O, B-TM, B-CV, B-LC, B-OG
-30	##와	O	O	O, B-TM, B-CV, B-OG, B-LC
-31	갑상선	B-TM	B-TM	B-TM, O, B-AM, B-TR, B-LC
-32	기능	O	O	O, I-TM, B-TM, I-TR, B-CV
-33	이상	O	O	O, I-TM, B-TM, B-CV, I-CV
-34	여부	O	O	O, I-TM, B-TM, B-CV, I-CV
-35	등	O	O	O, B-CV, B-TM, B-LC, B-OG
-36	##도	O	O	O, B-CV, B-TM, B-OG, B-LC
-37	체크	O	O	O, B-CV, B-TM, B-LC, B-OG
-38	##한다	O	O	O, B-CV, B-TM, B-LC, B-OG
-39	.	O	O	O, B-TM, B-LC, B-CV, B-MT
-40	[SEP]	O	O	O, B-TM, B-LC, B-CV, I-TM
+	text	label	preds
+0	[CLS]	O	O
+1	반면	O	O
+2	파파	B-TM	B-AF
+3	##고	I-TM	I-AF
+4	##는	O	O
+5	수학	B-FD	B-FD
+6	##을	O	O
+7	통해서	O	O
+8	표현	O	O
+9	##한다	O	O
+10	##는	O	O
+11	뜻	O	O
+12	##의	O	O
+13	‘	O	O
+14	math	O	O
+15	##em	O	O
+16	##at	O	O
+17	##ize	O	O
+18	##d	O	O
+19	’	O	O
+20	라는	O	O
+21	단어	O	O
+22	##를	O	O
+23	해석	O	O
+24	##하	O	O
+25	##지	O	O
+26	못	O	O
+27	##해	O	O
+28	애	O	O
+29	##를	O	O
+30	먹	O	O
+31	##었	O	O
+32	##다	O	O
+33	.	O	O
+34	[SEP]	O	O

@@ -1,19 +1,56 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-AF, I-CV
-1	[	O	O	O, B-OG, B-AF, B-LC, B-CV
-2	횡	O	B-AF	B-AF, O, B-PS, B-FD, B-OG
-3	##설	O	I-AF	I-AF, O, I-PS, I-OG, I-FD
-4	##수	O	I-AF	I-AF, O, I-PS, I-FD, I-TR
-5	##설	O	I-AF	I-AF, O, I-FD, I-TR, I-PS
-6	/	O	O	O, I-AF, I-OG, B-AF, I-PS
-7	고	B-PS	B-PS	B-PS, O, I-PS, B-OG, B-AF
-8	##미	I-PS	I-PS	I-PS, O, I-AF, I-OG, B-PS
-9	##석	I-PS	I-PS	I-PS, O, I-AF, I-OG, I-LC
-10	]	O	O	O, I-PS, I-AF, I-OG, B-LC
-11	‘	O	O	O, B-LC, B-CV, B-OG, B-AF
-12	오답	O	O	O, B-AF, B-PS, I-AF, B-LC
-13	노트	O	O	O, I-AF, B-AF, I-LC, I-PS
-14	’	O	O	O, I-AF, B-CV, B-PS, I-OG
-15	메르스	B-TM	B-TM	B-TM, B-AF, O, B-TR, B-EV
-16	백서	O	O	O, I-AF, B-AF, I-TM, B-CV
-17	[SEP]	O	O	O, I-AF, B-CV, B-AF, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	미술관	O	O
+2	##에	O	O
+3	전시	O	O
+4	##된	O	O
+5	명작	O	O
+6	##에	O	O
+7	대해	O	O
+8	알	O	O
+9	##기	O	O
+10	쉽	O	O
+11	##게	O	O
+12	설명	O	O
+13	##해	O	O
+14	##주	O	O
+15	##는	O	O
+16	도	O	B-CV
+17	##슨	O	I-CV
+18	##트	O	I-CV
+19	(	O	O
+20	do	O	O
+21	##ce	O	O
+22	##nt	O	O
+23	)	O	O
+24	봉사자	B-CV	B-CV
+25	20	B-QT	B-QT
+26	##여	I-QT	I-QT
+27	##명	I-QT	I-QT
+28	##과	O	O
+29	학예	B-CV	B-CV
+30	##연구	I-CV	I-CV
+31	##사	I-CV	I-CV
+32	##들	O	O
+33	##까	O	O
+34	##지	O	O
+35	총동원	O	O
+36	##돼	O	O
+37	작품	O	O
+38	##설	O	O
+39	##명	O	O
+40	##에	O	O
+41	나서	O	O
+42	##지만	O	O
+43	관람객	B-CV	B-CV
+44	수요	O	O
+45	##를	O	O
+46	다	O	O
+47	따라가	O	O
+48	##기	O	O
+49	버거	O	O
+50	##울	O	O
+51	정도	O	O
+52	##다	O	O
+53	.	O	O
+54	[SEP]	O	O

@@ -1,28 +1,50 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	이	O	O	O, B-CV, B-TM, B-OG, B-QT
-2	기사	O	O	O, B-CV, B-AF, B-FD, B-OG
-3	##의	O	O	O, B-CV, B-PS, I-AF, B-OG
-4	발단	O	O	O, B-CV, B-OG, B-TM, B-LC
-5	##은	O	O	O, B-CV, B-OG, B-PS, B-LC
-6	이날	B-DT	B-DT	B-DT, O, I-DT, B-LC, B-EV
-7	삼성	B-OG	B-OG	B-OG, B-AF, I-OG, B-LC, I-DT
-8	##의	O	O	O, I-OG, I-AF, B-OG, I-EV
-9	미국	B-LC	B-LC	B-LC, B-AF, O, B-OG, B-PS
-10	가전	O	O	O, I-AF, B-AF, I-LC, B-LC
-11	공장	O	O	O, I-AF, I-LC, B-AF, I-TM
-12	설립	O	O	O, I-AF, B-CV, I-LC, I-OG
-13	가능	O	O	O, B-CV, I-AF, B-TM, B-OG
-14	##성	O	O	O, B-PS, B-CV, B-LC, B-OG
-15	##을	O	O	O, B-CV, B-OG, B-PS, B-TM
-16	다룬	O	O	O, B-OG, B-LC, B-CV, B-PS
-17	로이터	B-OG	B-OG	B-OG, O, B-AF, I-OG, B-LC
-18	##통신	I-OG	I-OG	I-OG, O, I-AF, I-EV, I-LC
-19	##의	O	O	O, I-OG, I-AF, I-EV, I-QT
-20	서울	O	B-LC	B-LC, O, B-OG, B-AF, B-EV
-21	##발	O	O	O, I-LC, I-OG, I-AF, I-DT
-22	기사	O	O	O, B-CV, B-AF, B-FD, B-OG
-23	##였	O	O	O, B-CV, B-PS, B-OG, B-LC
-24	##다	O	O	O, B-CV, B-TM, B-OG, I-OG
-25	.	O	O	O, B-OG, B-LC, B-CV, B-PS
-26	[SEP]	O	O	O, B-CV, B-OG, B-LC, B-AF
+	text	label	preds
+0	[CLS]	O	O
+1	미국	B-LC	B-LC
+2	##의	O	O
+3	3	B-QT	B-QT
+4	##대	I-QT	I-QT
+5	시사	O	O
+6	##주	O	O
+7	##간	O	O
+8	##지	O	O
+9	중	O	O
+10	하나	O	B-QT
+11	##였	O	O
+12	##던	O	O
+13	유	B-OG	B-OG
+14	##에스	I-OG	I-OG
+15	##뉴스	I-OG	I-OG
+16	##앤	I-OG	I-OG
+17	##드	I-OG	I-OG
+18	##월드	I-OG	I-OG
+19	##리포	I-OG	I-OG
+20	##트	I-OG	I-OG
+21	##는	O	O
+22	이미	O	O
+23	2008	B-DT	B-DT
+24	##년	I-DT	I-DT
+25	인쇄	O	O
+26	##판	O	O
+27	##을	O	O
+28	중단	O	O
+29	##했	O	O
+30	##으며	O	O
+31	일간지	O	O
+32	크리스천	B-OG	B-OG
+33	##사이	I-OG	I-OG
+34	##언스	I-OG	I-OG
+35	##모니	I-OG	I-OG
+36	##터	I-OG	I-OG
+37	##는	O	O
+38	2009	B-DT	B-DT
+39	##년	I-DT	I-DT
+40	##에	O	O
+41	온라인	O	O
+42	전환	O	O
+43	##을	O	O
+44	발표	O	O
+45	##했	O	O
+46	##다	O	O
+47	.	O	O
+48	[SEP]	O	O

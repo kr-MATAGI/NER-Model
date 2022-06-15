@@ -1,22 +1,26 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-AF
-1	라	O	B-CV	B-CV, O, B-AF, B-OG, I-CV
-2	##쿤	O	I-CV	I-CV, O, B-CV, I-AF, I-OG
-3	퍼	O	I-CV	I-CV, O, B-CV, I-AF, I-TM
-4	##와	O	O	O, I-CV, I-AF, I-OG, B-CV
-5	후드	O	O	O, B-CV, B-TM, B-AM, B-AF
-6	##는	O	O	O, I-CV, I-AF, B-TM, B-CV
-7	탈	O	O	O, B-TM, B-QT, B-CV, B-PS
-8	##부	O	O	O, I-TM, I-QT, I-CV, B-PS
-9	##착	O	O	O, I-TM, I-CV, I-QT, B-PS
-10	##이	O	O	O, B-PS, B-LC, B-OG, B-CV
-11	가능	O	O	O, B-TM, B-PS, B-LC, B-CV
-12	##해	O	O	O, B-LC, B-OG, B-PS, B-CV
-13	실용	O	O	O, B-CV, B-TM, B-LC, B-OG
-14	##성	O	O	O, B-LC, B-PS, I-OG, B-OG
-15	##을	O	O	O, B-CV, I-OG, B-OG, B-LC
-16	강화	O	O	O, B-CV, B-LC, B-OG, I-OG
-17	##했	O	O	O, B-CV, B-OG, B-LC, B-PS
-18	##다	O	O	O, B-CV, B-OG, B-LC, I-OG
-19	.	O	O	O, B-LC, B-PS, I-OG, B-OG
-20	[SEP]	O	O	O, B-LC, B-CV, I-OG, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	22	B-DT	B-DT
+2	##일	I-DT	I-DT
+3	오후	B-TI	B-TI
+4	7	I-TI	I-TI
+5	##시	I-TI	I-TI
+6	예술	B-AF	B-AF
+7	##의	I-AF	I-AF
+8	##전	I-AF	I-AF
+9	##당	I-AF	I-AF
+10	콘서트홀	O	O
+11	##에	O	O
+12	##서	O	O
+13	열리	O	O
+14	##는	O	O
+15	‘	O	O
+16	아시아	B-LC	B-EV
+17	그랜드	O	I-EV
+18	피아노	B-AF	I-EV
+19	콘서트	O	I-EV
+20	’	O	O
+21	에서	O	O
+22	##다	O	O
+23	.	O	O
+24	[SEP]	O	O

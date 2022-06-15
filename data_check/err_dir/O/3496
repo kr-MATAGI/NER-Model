@@ -1,58 +1,30 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	예	O	O	O, B-CV, B-OG, B-AF, B-LC
-2	##를	O	O	O, B-PS, I-AF, B-CV, B-LC
-3	들어	O	O	O, B-CV, B-LC, B-OG, B-PS
-4	1000	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-PS
-5	##만	I-QT	I-QT	I-QT, O, I-LC, I-PS, I-DT
-6	원	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-7	##을	O	O	O, I-QT, B-OG, B-CV, B-PS
-8	갖	O	O	O, B-CV, B-OG, B-TM, B-LC
-9	##고	O	O	O, B-PS, B-LC, B-OG, I-OG
-10	있	O	O	O, B-PS, B-LC, B-CV, B-OG
-11	##는	O	O	O, B-OG, B-PS, B-LC, I-OG
-12	기업	O	O	O, B-OG, B-CV, B-AF, B-FD
-13	##이	O	O	O, B-PS, B-OG, B-CV, B-LC
-14	2000	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-PS
-15	##만	I-QT	I-QT	I-QT, O, I-LC, I-PS, I-DT
-16	원	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-17	##의	O	O	O, I-QT, B-PS, B-CV, B-LC
-18	빚	O	O	O, B-CV, B-LC, B-TM, B-AF
-19	##에	O	O	O, B-CV, B-PS, I-AF, I-CV
-20	대해	O	O	O, B-LC, B-OG, B-QT, B-CV
-21	보증	O	O	O, B-CV, B-AF, B-EV, B-FD
-22	##계약	O	O	O, I-CV, I-AF, B-CV, I-OG
-23	##을	O	O	O, B-CV, B-PS, I-CV, B-AF
-24	할	O	O	O, B-CV, B-AF, B-OG, B-LC
-25	때	O	O	O, B-CV, B-OG, B-LC, B-PS
-26	과거	O	O	O, B-LC, B-OG, B-CV, B-PS
-27	##에	O	O	O, B-CV, B-OG, B-PS, B-LC
-28	##는	O	O	O, B-LC, B-OG, B-CV, B-PS
-29	연대	O	B-CV	B-CV, O, B-OG, B-AF, I-CV
-30	##보증	O	I-CV	I-CV, O, B-CV, I-OG, I-QT
-31	##인	O	I-CV	I-CV, O, B-CV, I-OG, I-QT
-32	##이	O	O	O, B-PS, I-CV, B-QT, I-OG
-33	2000	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-PS
-34	##만	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-35	원	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-36	전부	O	O	O, I-QT, B-QT, B-LC, B-TM
-37	##에	O	O	O, I-QT, B-CV, B-PS, B-LC
-38	대해	O	O	O, B-QT, B-LC, B-OG, B-PS
-39	보증	O	O	O, B-CV, B-AF, B-TM, B-FD
-40	##을	O	O	O, I-CV, B-CV, B-PS, I-AF
-41	서	O	O	O, B-CV, B-LC, B-AF, B-PS
-42	##야	O	O	O, B-LC, B-CV, B-PS, B-AF
-43	했	O	O	O, B-CV, B-OG, B-LC, B-PS
-44	##지만	O	O	O, B-PS, B-CV, B-LC, B-OG
-45	내년	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-OG
-46	##부터	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-47	##는	O	O	O, I-DT, B-CV, I-QT, I-AF
-48	1000	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-LC
-49	##만	I-QT	I-QT	I-QT, O, I-LC, I-DT, I-PS
-50	원만	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-51	보증	O	O	O, B-CV, I-QT, B-TM, I-CV
-52	##을	O	O	O, I-CV, B-CV, B-PS, I-AF
-53	서면	O	O	O, B-CV, B-LC, B-PS, B-OG
-54	된다	O	O	O, B-CV, B-LC, B-OG, B-TM
-55	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-56	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-AF
+	text	label	preds
+0	[CLS]	O	O
+1	의료	O	O
+2	##계	O	O
+3	""""	O	O
+4	정액	O	O
+5	##제	O	O
+6	##로	O	O
+7	노인	O	O
+8	부담	O	O
+9	늘어	O	O
+10	…	O	O
+11	보조금	O	B-CV
+12	늘려야	O	O
+13	""""	O	O
+14	vs	O	O
+15	복지부	B-OG	B-OG
+16	""""	O	O
+17	중증	O	O
+18	##질	O	O
+19	##환	O	O
+20	보장	O	O
+21	##부터	O	O
+22	늘릴	O	O
+23	##지	O	O
+24	우선	O	O
+25	##순위	O	O
+26	검토	O	O
+27	""""	O	O
+28	[SEP]	O	O

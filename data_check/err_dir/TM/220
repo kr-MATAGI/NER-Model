@@ -1,31 +1,36 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	롯데	B-OG	B-OG	B-OG, O, B-LC, B-AF, I-OG
-2	##는	O	O	O, I-OG, I-EV, B-CV, I-AF
-3	7	B-TI	B-TI	B-TI, B-EV, B-QT, O, B-TR
-4	##회	I-TI	I-TI	I-TI, I-EV, B-TI, I-QT, I-TR
-5	말	I-TI	I-TI	I-TI, O, I-EV, I-QT, I-TR
-6	공격	O	O	O, I-TI, I-EV, B-LC, I-QT
-7	##을	O	O	O, B-CV, B-OG, I-EV, B-LC
-8	앞두	O	O	O, B-LC, B-TM, B-CV, B-OG
-9	##고	O	O	O, B-LC, B-TM, B-PS, B-OG
-10	비	O	O	O, B-LC, B-TM, B-MT, B-AF
-11	##가	O	O	O, B-PS, B-LC, B-OG, B-CV
-12	쏟아져	O	O	O, B-LC, B-TM, B-PS, B-CV
-13	'	O	O	O, B-LC, B-CV, B-TM, B-OG
-14	강우	O	O	O, B-TM, B-EV, B-TR, B-QT
-15	콜드	B-TM	O	O, B-TM, I-TM, B-EV, I-EV
-16	##게임	I-TM	O	O, I-TM, I-EV, I-TR, I-QT
-17	'	O	O	O, I-EV, I-TM, I-QT, B-CV
-18	이	O	O	O, B-PS, B-OG, B-EV, B-LC
-19	선언	O	O	O, B-EV, I-EV, B-CV, B-TM
-20	##되	O	O	O, I-EV, B-CV, B-LC, B-PS
-21	##면서	O	O	O, B-LC, B-CV, B-OG, B-TM
-22	일찍	O	O	O, B-CV, B-TM, B-QT, B-OG
-23	승리	O	O	O, B-CV, B-TM, B-OG, B-LC
-24	##를	O	O	O, B-CV, B-OG, B-LC, I-OG
-25	결정지	O	O	O, B-CV, B-TM, B-OG, B-LC
-26	##었	O	O	O, B-CV, B-OG, B-LC, B-TM
-27	##다	O	O	O, B-CV, B-TM, B-LC, B-OG
-28	.	O	O	O, B-LC, B-CV, I-EV, B-OG
-29	[SEP]	O	O	O, B-CV, B-LC, I-EV, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	노선	O	O
+2	재조	O	O
+3	##정	O	O
+4	##에	O	O
+5	따라	O	O
+6	버스	B-TM	B-TM
+7	##정보	I-TM	I-TM
+8	##시스	I-TM	I-TM
+9	##템	I-TM	I-TM
+10	(	O	O
+11	BIS	B-TM	B-TM
+12	)	O	O
+13	자료	O	O
+14	##와	O	O
+15	네이버	B-TM	B-OG
+16	등	O	O
+17	주요	O	O
+18	포털	O	O
+19	##의	O	O
+20	길	O	O
+21	찾기	O	O
+22	서비스	O	O
+23	자료	O	O
+24	##를	O	O
+25	또	O	O
+26	##다	O	O
+27	##시	O	O
+28	바꿔야	O	O
+29	하	O	O
+30	##기	O	O
+31	때문	O	O
+32	##이다	O	O
+33	.	O	O
+34	[SEP]	O	O

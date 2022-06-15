@@ -1,64 +1,45 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	<	O	O	O, B-OG, B-AF, B-LC, I-OG
-2	대공	B-AF	B-OG	B-OG, I-OG, O, B-AF, I-AF
-3	##보	I-AF	I-OG	I-OG, O, I-AF, I-LC, B-OG
-4	>	O	O	O, I-OG, I-AF, B-OG, I-PS
-5	는	O	O	O, I-OG, B-OG, I-AF, B-PS
-6	23	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-7	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-8	“	O	O	O, I-DT, B-OG, B-CV, B-LC
-9	중국	B-OG	B-OG	B-OG, B-LC, O, B-PS, I-OG
-10	##은	O	O	O, I-OG, I-LC, B-OG, B-CV
-11	최근	O	O	O, B-LC, B-DT, B-OG, B-PS
-12	수년	O	O	O, B-LC, B-PS, B-OG, B-CV
-13	동안	O	O	O, B-LC, B-PS, B-OG, B-DT
-14	중	B-OG	B-OG	B-OG, B-LC, O, B-PS, I-OG
-15	-	O	O	O, I-OG, I-LC, B-CV, I-EV
-16	일	B-OG	B-OG	B-OG, B-LC, O, I-OG, B-PS
-17	관계	O	O	O, I-OG, B-CV, I-EV, B-OG
-18	악화	O	O	O, B-OG, B-CV, B-LC, B-PS
-19	##의	O	O	O, B-OG, B-PS, B-LC, B-CV
-20	원인	O	O	O, B-LC, B-CV, B-TM, B-OG
-21	##이	O	O	O, B-PS, B-OG, B-LC, B-CV
-22	된	O	O	O, B-LC, B-CV, B-PS, B-OG
-23	(	O	O	O, B-LC, B-CV, B-OG, B-PS
-24	역사	O	O	O, B-FD, B-LC, B-AF, B-CV
-25	##와	O	O	O, I-OG, B-PS, I-AF, I-CV
-26	영토	O	O	O, B-LC, B-FD, B-CV, B-TM
-27	문제	O	O	O, I-CV, B-LC, I-LC, B-CV
-28	등	O	O	O, B-LC, B-OG, B-PS, B-CV
-29	##과	O	O	O, B-CV, B-OG, B-LC, B-PS
-30	관련	O	O	O, B-LC, B-OG, B-CV, B-PS
-31	##한	O	O	O, B-LC, B-OG, B-PS, B-CV
-32	)	O	O	O, B-LC, B-CV, B-OG, B-PS
-33	일본	B-OG	B-OG	B-OG, B-LC, O, B-PS, B-AF
-34	##의	O	O	O, I-OG, I-LC, B-OG, B-PS
-35	책임	O	O	O, B-CV, B-LC, B-PS, B-TM
-36	##을	O	O	O, B-CV, B-PS, B-LC, B-OG
-37	지적	O	O	O, B-CV, B-LC, B-PS, B-OG
-38	##하	O	O	O, B-CV, B-PS, B-LC, B-OG
-39	##는	O	O	O, B-CV, B-PS, B-LC, B-OG
-40	대신	O	O	O, B-CV, B-LC, B-PS, B-TM
-41	눈	B-AM	B-AM	B-AM, O, B-TR, B-PS, B-TM
-42	##을	O	O	O, B-PS, B-LC, B-AM, I-QT
-43	멀리	O	O	O, B-LC, B-TM, B-QT, B-OG
-44	돌려	O	O	O, B-LC, B-PS, B-TM, B-OG
-45	미래	O	O	O, B-LC, B-TM, B-DT, B-CV
-46	##의	O	O	O, B-PS, B-LC, B-OG, B-CV
-47	교류	O	O	O, B-CV, B-LC, B-OG, B-PS
-48	##와	O	O	O, B-PS, B-OG, B-LC, I-OG
-49	협력	O	O	O, B-LC, B-CV, B-OG, B-PS
-50	##을	O	O	O, B-OG, B-PS, B-CV, B-LC
-51	바라보	O	O	O, B-LC, B-CV, B-OG, B-TM
-52	##는	O	O	O, B-PS, B-CV, B-OG, B-LC
-53	것	O	O	O, B-PS, B-CV, B-OG, B-LC
-54	같	O	O	O, B-PS, I-OG, B-OG, B-CV
-55	##다	O	O	O, I-OG, B-OG, B-PS, B-CV
-56	”	O	O	O, B-CV, B-OG, I-OG, B-LC
-57	고	O	O	O, B-OG, I-OG, B-CV, B-LC
-58	분석	O	O	O, B-OG, I-OG, B-CV, B-LC
-59	##했	O	O	O, I-OG, B-OG, B-PS, B-CV
-60	##다	O	O	O, I-OG, B-CV, B-OG, B-LC
-61	.	O	O	O, B-LC, B-OG, B-CV, B-PS
-62	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	예상	O	O
+2	밖	O	O
+3	##의	O	O
+4	공동	O	O
+5	선두	B-CV	O
+6	##에	O	O
+7	오른	O	O
+8	레	B-PS	B-PS
+9	##시	I-PS	I-PS
+10	##먼	I-PS	I-PS
+11	##은	O	O
+12	2006	B-DT	B-DT
+13	##년	I-DT	I-DT
+14	한국	B-EV	B-EV
+15	##프로	I-EV	I-EV
+16	##골	I-EV	I-EV
+17	##프	I-EV	I-EV
+18	##투어	I-EV	I-EV
+19	(	O	I-EV
+20	KG	B-EV	I-EV
+21	##T	I-EV	I-EV
+22	)	O	I-EV
+23	지산	B-AF	I-EV
+24	##리	I-AF	I-EV
+25	##조	I-AF	I-EV
+26	##트	I-AF	I-EV
+27	오픈	O	I-EV
+28	##에	O	O
+29	##서	O	O
+30	우승	O	O
+31	##하	O	O
+32	##는	O	O
+33	등	O	O
+34	한국	B-LC	B-LC
+35	##에	O	O
+36	##서도	O	O
+37	선수	B-CV	B-CV
+38	생활	O	O
+39	##을	O	O
+40	했	O	O
+41	##다	O	O
+42	.	O	O
+43	[SEP]	O	O

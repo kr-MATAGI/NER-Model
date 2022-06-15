@@ -1,50 +1,55 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	삼성	B-OG	B-OG	B-OG, B-LC, B-PS, O, B-AF
-2	갤럭시	B-AF	B-AF	B-AF, I-AF, O, B-PS, I-OG
-3	##S	I-AF	I-AF	I-AF, O, I-OG, B-AF, I-TM
-4	##2	I-AF	I-AF	I-AF, O, I-TM, I-OG, I-PS
-5	에이치	I-AF	O	O, I-AF, B-TM, B-AF, I-TM
-6	##디	I-AF	I-AF	I-AF, O, I-TM, I-OG, I-TR
-7	(	O	O	O, I-AF, I-TM, I-OG, I-CV
-8	HD	O	O	O, B-TM, B-AF, B-TR, B-OG
-9	)	O	O	O, I-AF, I-TM, I-OG, I-CV
-10	는	O	O	O, B-CV, B-LC, B-OG, B-TM
-11	조사	O	O	O, B-CV, B-OG, B-LC, B-PS
-12	대상	O	O	O, B-CV, B-LC, B-OG, B-PS
-13	35	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-EV
-14	##개	I-QT	I-QT	I-QT, O, I-LC, I-EV, I-PS
-15	서비스	O	O	O, I-QT, B-CV, B-LC, B-OG
-16	##센터	O	O	O, I-OG, I-QT, I-LC, I-AF
-17	##에서	O	O	O, B-LC, B-PS, B-CV, B-OG
-18	모두	O	O	O, B-CV, B-LC, B-TM, B-OG
-19	책정	O	O	O, B-CV, B-TM, B-LC, B-OG
-20	##가	O	O	O, B-PS, I-CV, I-OG, I-QT
-21	##보	O	O	O, B-CV, B-PS, B-LC, B-TM
-22	##다	O	O	O, B-LC, B-PS, B-CV, B-OG
-23	높	O	O	O, B-QT, B-LC, B-CV, B-TM
-24	##은	O	O	O, B-LC, B-PS, B-OG, B-CV
-25	가격	O	O	O, B-CV, B-QT, B-TM, B-LC
-26	##을	O	O	O, B-CV, B-OG, B-PS, B-LC
-27	받	O	O	O, B-CV, B-TM, B-OG, B-LC
-28	##았	O	O	O, B-CV, B-PS, B-OG, B-LC
-29	##고	O	O	O, B-CV, B-LC, I-AF, I-OG
-30	,	O	O	O, B-CV, B-LC, B-OG, B-TM
-31	갤럭시	B-AF	B-AF	B-AF, O, B-PS, B-LC, I-AF
-32	##S	O	I-AF	I-AF, O, B-AF, I-PS, I-OG
-33	##2	O	I-AF	I-AF, O, I-PS, I-TM, B-AF
-34	##도	O	O	O, I-AF, I-OG, I-EV, I-TM
-35	34	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-LC
-36	##개	I-QT	I-QT	I-QT, O, I-LC, I-EV, I-PS
-37	센터	O	O	O, I-QT, B-OG, I-OG, B-CV
-38	##에서	O	O	O, B-LC, B-PS, I-OG, B-CV
-39	더	O	O	O, B-LC, B-CV, B-TM, B-OG
-40	높	O	O	O, B-QT, B-LC, B-TM, B-CV
-41	##은	O	O	O, B-LC, B-OG, B-CV, B-TM
-42	가격	O	O	O, B-CV, B-TM, B-QT, B-LC
-43	##을	O	O	O, B-CV, B-OG, I-CV, B-LC
-44	제시	O	O	O, B-CV, B-OG, B-TM, B-LC
-45	##했	O	O	O, B-CV, B-LC, B-OG, B-PS
-46	##다	O	O	O, B-CV, B-TM, I-OG, B-LC
-47	.	O	O	O, B-LC, B-OG, B-CV, B-PS
-48	[SEP]	O	O	O, B-CV, B-LC, B-OG, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	김혜	B-PS	B-PS
+2	##수	I-PS	I-PS
+3	##는	O	O
+4	13	B-DT	B-DT
+5	##일	I-DT	I-DT
+6	경기도	B-LC	B-LC
+7	일산	B-LC	B-LC
+8	MBC	B-AF	B-AF
+9	드림	I-AF	B-AF
+10	##센터	I-AF	I-AF
+11	##에	O	O
+12	##서	O	O
+13	열린	O	O
+14	기자	O	O
+15	##간	O	O
+16	##담회	O	O
+17	##에	O	O
+18	##서	O	O
+19	""""	O	O
+20	전임자	B-CV	B-CV
+21	##인	O	O
+22	최윤	B-PS	B-PS
+23	##영	I-PS	I-PS
+24	아나운서	B-CV	B-CV
+25	##와	O	O
+26	##의	O	O
+27	차별	O	O
+28	##화	O	O
+29	##를	O	O
+30	의식	O	O
+31	##하	O	O
+32	##지	O	O
+33	않	O	O
+34	##고	O	O
+35	제작진	B-CV	B-CV
+36	##에	O	O
+37	누가	O	O
+38	되	O	O
+39	##지	O	O
+40	않	O	O
+41	##도록	O	O
+42	최선	O	O
+43	##을	O	O
+44	다	O	O
+45	##하	O	O
+46	##겠다	O	O
+47	""""	O	O
+48	고	O	O
+49	말	O	O
+50	##했	O	O
+51	##다	O	O
+52	.	O	O
+53	[SEP]	O	O

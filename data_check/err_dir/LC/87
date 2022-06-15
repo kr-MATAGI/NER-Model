@@ -1,40 +1,30 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	‘	O	O	O, B-LC, B-PS, B-CV, B-OG
-2	투자	O	O	O, B-PS, B-CV, B-LC, I-PS
-3	##의	O	O	O, I-PS, B-PS, I-AF, I-CV
-4	귀	O	O	O, I-PS, B-PS, B-CV, B-AM
-5	##재	O	O	O, I-PS, I-CV, B-PS, I-AF
-6	’	O	O	O, I-PS, B-PS, B-LC, B-DT
-7	‘	O	O	O, B-PS, B-LC, B-CV, B-DT
-8	오마	B-LC	B-PS	B-PS, B-LC, O, B-AF, I-PS
-9	##하	I-LC	I-PS	I-PS, I-LC, O, I-AF, B-PS
-10	##의	O	I-PS	I-PS, O, I-LC, I-AF, B-PS
-11	현인	O	I-PS	I-PS, O, B-PS, B-CV, I-AF
-12	’	O	O	O, I-PS, B-PS, I-CV, B-CV
-13	으로	O	O	O, B-PS, I-PS, B-LC, B-CV
-14	불리	O	O	O, B-PS, I-PS, B-LC, B-CV
-15	##는	O	O	O, I-PS, B-PS, B-LC, I-LC
-16	워런	B-PS	B-PS	B-PS, O, I-PS, B-LC, B-OG
-17	버핏	I-PS	I-PS	I-PS, B-PS, O, I-LC, I-OG
-18	(	O	O	O, I-PS, B-CV, B-LC, I-OG
-19	79	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-LC
-20	)	O	O	O, I-QT, I-DT, I-OG, I-EV
-21	버크	B-OG	B-OG	B-OG, O, B-AF, B-PS, B-LC
-22	##셔	I-OG	I-OG	I-OG, O, I-LC, I-CV, I-AF
-23	##해서	I-OG	I-OG	I-OG, O, I-LC, I-CV, I-AF
-24	##웨이	I-OG	I-OG	I-OG, O, I-LC, I-CV, I-AF
-25	회장	B-CV	B-CV	B-CV, I-OG, O, I-CV, B-PS
-26	##이	O	O	O, I-CV, B-CV, I-OG, I-EV
-27	지난해	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-28	자신	O	O	O, I-DT, B-CV, I-QT, I-EV
-29	##이	O	O	O, B-PS, B-CV, B-LC, B-OG
-30	저지른	O	O	O, B-CV, B-LC, B-PS, B-OG
-31	투자	O	O	O, B-CV, B-TM, B-FD, B-PS
-32	실수	O	O	O, B-CV, I-CV, B-TM, B-PS
-33	##를	O	O	O, B-CV, B-PS, B-OG, I-CV
-34	시인	O	O	O, B-CV, B-LC, B-OG, B-PS
-35	##했	O	O	O, B-CV, B-LC, B-PS, B-OG
-36	##다	O	O	O, B-CV, B-LC, B-OG, B-PS
-37	.	O	O	O, B-PS, B-LC, B-CV, B-OG
-38	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	미국	B-OG	B-OG
+2	##이	O	O
+3	2012	B-DT	B-DT
+4	##년	I-DT	I-DT
+5	영국	B-LC	B-DT
+6	런던	B-DT	B-DT
+7	올림픽	I-DT	I-DT
+8	때	I-DT	I-DT
+9	연방	B-OG	B-OG
+10	##수사	I-OG	I-OG
+11	##국	I-OG	I-OG
+12	(	O	O
+13	FBI	B-OG	B-OG
+14	)	O	O
+15	요원	B-CV	B-CV
+16	500	B-QT	B-QT
+17	##명	I-QT	I-QT
+18	등	O	O
+19	1000	B-QT	B-QT
+20	##여	I-QT	I-QT
+21	##명	I-QT	I-QT
+22	##을	O	O
+23	파견	O	O
+24	##할	O	O
+25	계획	O	O
+26	##이다	O	O
+27	.	O	O
+28	[SEP]	O	O

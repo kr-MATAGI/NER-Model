@@ -1,30 +1,17 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, B-CV, I-OG, I-QT
-1	2012	B-DT	B-DT	B-DT, O, B-QT, B-EV, I-DT
-2	런던	B-EV	B-EV	B-EV, I-EV, O, B-AF, B-LC
-3	##올	I-EV	I-EV	I-EV, O, I-AF, I-DT, B-EV
-4	##림픽	I-EV	I-EV	I-EV, O, I-AF, I-DT, I-OG
-5	금메달	B-CV	B-CV	B-CV, O, I-EV, B-DT, B-EV
-6	##부터	O	O	O, I-DT, B-DT, I-CV, I-EV
-7	2013	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-8	[UNK]	O	O	O, I-DT, B-LC, B-OG, I-QT
-9	굵직	O	O	O, B-CV, B-LC, B-PS, B-OG
-10	##한	O	O	O, B-LC, B-PS, B-OG, B-CV
-11	대회	O	O	O, B-CV, I-EV, B-LC, B-EV
-12	##를	O	O	O, B-CV, B-PS, B-LC, B-OG
-13	연속	O	O	O, B-CV, B-LC, B-TM, B-QT
-14	##해서	O	O	O, B-LC, B-PS, B-CV, B-OG
-15	우승	O	O	O, B-CV, B-EV, B-TM, B-LC
-16	##하	O	O	O, B-PS, B-LC, B-CV, B-OG
-17	##며	O	O	O, B-LC, B-QT, B-CV, B-PS
-18	커리어	B-CV	O	O, B-EV, B-TM, B-AF, B-CV
-19	골든	I-CV	B-CV	B-CV, O, I-CV, B-TM, B-QT
-20	그랜드	I-CV	I-CV	I-CV, B-CV, O, I-TM, I-EV
-21	##슬	I-CV	I-CV	I-CV, O, I-TM, B-CV, I-EV
-22	##램	I-CV	I-CV	I-CV, O, I-TM, B-CV, I-EV
-23	##도	O	O	O, I-CV, I-QT, I-TM, I-EV
-24	달성	O	O	O, B-CV, B-OG, B-TM, B-LC
-25	##했	O	O	O, B-CV, B-PS, B-OG, I-OG
-26	##다	O	O	O, B-CV, I-OG, B-TM, B-PS
-27	.	O	O	O, B-PS, B-LC, B-CV, I-EV
-28	[SEP]	O	O	O, B-CV, I-EV, B-LC, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	수비	B-CV	O
+2	##에	O	O
+3	##서	O	O
+4	구심점	O	O
+5	역할	O	O
+6	##을	O	O
+7	했	O	O
+8	##던	O	O
+9	것	O	O
+10	같	O	O
+11	##아	O	O
+12	기쁘	O	O
+13	##다	O	O
+14	.	O	O
+15	[SEP]	O	O

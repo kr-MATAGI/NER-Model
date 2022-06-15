@@ -1,31 +1,29 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-EV
-1	땅값	O	O	O, B-LC, B-CV, B-PS, B-TM
-2	##이	O	O	O, B-PS, B-LC, B-CV, B-OG
-3	가장	O	O	O, B-CV, B-LC, B-QT, B-TM
-4	많이	O	O	O, B-LC, B-QT, B-CV, B-TM
-5	오른	O	O	O, B-LC, B-CV, B-TM, B-OG
-6	경기도	B-LC	B-LC	B-LC, B-OG, O, B-AF, B-PS
-7	하남시	B-LC	B-LC	B-LC, B-OG, I-LC, O, I-OG
-8	##는	O	O	O, I-LC, I-OG, I-AF, B-LC
-9	'	O	O	O, B-LC, B-DT, B-OG, B-CV
-10	미사	B-LC	B-LC	B-LC, O, B-AF, B-OG, B-PS
-11	주택	I-LC	O	O, I-LC, B-LC, I-AF, I-OG
-12	##시	I-LC	O	O, I-LC, B-LC, I-AF, I-OG
-13	##범	I-LC	O	O, I-LC, B-LC, I-AF, I-OG
-14	##지구	I-LC	I-LC	I-LC, O, B-LC, I-AF, I-OG
-15	'	O	O	O, I-LC, B-LC, I-AF, B-CV
-16	지정	O	O	O, B-LC, B-OG, B-CV, B-PS
-17	여파	O	O	O, B-CV, B-LC, B-PS, B-TM
-18	##로	O	O	O, B-LC, B-OG, B-PS, B-CV
-19	전달	O	O	O, B-DT, B-CV, B-OG, I-DT
-20	대비	O	O	O, I-DT, B-DT, I-OG, B-PS
-21	0	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-TI
-22	.	I-QT	I-QT	I-QT, O, I-DT, B-QT, I-LC
-23	9	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-DT
-24	%	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-25	상승	O	O	O, I-QT, B-CV, B-TM, B-LC
-26	##했	O	O	O, I-QT, B-LC, I-OG, B-OG
-27	##다	O	O	O, B-CV, B-LC, B-OG, I-OG
-28	.	O	O	O, B-LC, B-OG, B-CV, B-PS
-29	[SEP]	O	O	O, B-LC, B-CV, I-LC, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	11	B-DT	B-DT
+2	##월	I-DT	I-DT
+3	4	I-DT	I-DT
+4	##일	I-DT	I-DT
+5	##까	I-DT	I-DT
+6	##지	I-DT	I-DT
+7	서울시	B-AF	B-AF
+8	##립	I-AF	I-AF
+9	##미술	I-AF	I-AF
+10	##관	I-AF	I-AF
+11	##과	O	O
+12	상암동	B-LC	B-LC
+13	DM	I-LC	B-AF
+14	##C	I-LC	I-AF
+15	홍보	I-LC	O
+16	##관	I-LC	O
+17	##에	O	O
+18	##서	O	O
+19	무료	O	O
+20	##로	O	O
+21	관람	O	O
+22	##할	O	O
+23	수	O	O
+24	있	O	O
+25	##다	O	O
+26	.	O	O
+27	[SEP]	O	O

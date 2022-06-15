@@ -1,43 +1,21 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-AF
-1	7	B-DT	B-DT	B-DT, I-DT, O, B-OG, B-EV
-2	##월	I-DT	I-DT	I-DT, B-DT, O, I-QT, I-OG
-3	1	I-DT	I-DT	I-DT, B-DT, O, I-OG, I-QT
-4	##일	I-DT	I-DT	I-DT, O, B-DT, I-OG, I-QT
-5	##부터	I-DT	I-DT	I-DT, O, B-DT, I-OG, I-QT
-6	저축	O	O	O, B-OG, B-CV, I-OG, B-TM
-7	##은행	O	O	O, I-OG, I-CV, I-AF, I-TM
-8	##과	O	O	O, I-OG, B-PS, B-LC, B-OG
-9	상호	O	O	O, B-OG, B-CV, B-AF, B-TM
-10	##금융	O	O	O, I-OG, I-CV, I-AF, B-OG
-11	##회사	O	O	O, I-OG, I-CV, I-AF, I-TM
-12	,	O	O	O, I-OG, B-CV, B-LC, B-PS
-13	보험	O	O	O, B-OG, B-CV, B-AF, B-TM
-14	##회사	O	O	O, I-OG, I-CV, I-AF, I-TM
-15	,	O	O	O, I-OG, B-CV, B-LC, B-PS
-16	카드	O	O	O, B-AF, B-CV, B-OG, B-TM
-17	캐피털	O	B-CV	B-CV, O, I-CV, I-AF, B-AF
-18	리스	O	I-CV	I-CV, O, I-AF, I-OG, B-CV
-19	같	O	O	O, I-CV, I-AF, I-OG, I-TM
-20	##은	O	O	O, B-OG, B-LC, B-CV, B-TM
-21	여신	O	O	O, B-OG, B-CV, B-AF, B-LC
-22	##전	O	O	O, I-OG, I-CV, B-OG, I-AF
-23	##문	O	O	O, I-OG, I-CV, I-AF, B-OG
-24	##금융	O	O	O, I-OG, I-CV, I-AF, B-OG
-25	##회사	O	O	O, I-OG, I-CV, I-AF, I-LC
-26	##는	O	O	O, I-OG, I-CV, B-LC, B-CV
-27	개인	O	O	O, B-CV, B-TM, B-AF, B-FD
-28	##대	O	O	O, I-CV, I-AF, I-TM, B-CV
-29	##출	O	O	O, I-CV, I-AF, I-TM, I-EV
-30	##에	O	O	O, I-AF, I-CV, B-PS, B-LC
-31	신규	O	O	O, B-CV, B-TM, B-LC, B-AF
-32	##로	O	O	O, B-PS, B-LC, I-AF, B-OG
-33	연대	O	O	O, B-CV, B-AF, B-TM, B-MT
-34	##보증	O	O	O, I-CV, B-CV, I-AF, I-OG
-35	##을	O	O	O, I-CV, I-AF, I-OG, B-CV
-36	세울	O	O	O, B-CV, B-LC, B-AF, B-OG
-37	수	O	O	O, B-OG, B-PS, B-QT, B-CV
-38	없	O	O	O, B-CV, B-TM, B-OG, B-QT
-39	##다	O	O	O, B-CV, I-OG, I-CV, B-OG
-40	.	O	O	O, B-OG, B-LC, B-AF, B-CV
-41	[SEP]	O	O	O, B-OG, B-CV, I-OG, B-AF
+	text	label	preds
+0	[CLS]	O	O
+1	☞	O	O
+2	양적	O	B-CV
+3	완화	O	I-CV
+4	(	O	O
+5	[UNK]	O	O
+6	的	O	O
+7	[UNK]	O	O
+8	和	O	O
+9	·	O	O
+10	Qu	O	O
+11	##ant	O	O
+12	##ita	O	O
+13	##t	O	O
+14	##ive	O	O
+15	E	O	O
+16	##as	O	O
+17	##ing	O	O
+18	)	O	O
+19	[SEP]	O	O

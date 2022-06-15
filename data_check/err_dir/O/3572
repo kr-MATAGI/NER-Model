@@ -1,30 +1,87 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	통	B-LC	B-LC	B-LC, O, B-OG, B-PS, B-AF
-2	##의	I-LC	I-LC	I-LC, O, I-OG, B-LC, I-PS
-3	##동	I-LC	I-LC	I-LC, O, I-OG, I-PS, I-AF
-4	시절	O	O	O, I-LC, B-CV, B-PS, I-OG
-5	박영	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-6	##준	I-PS	I-PS	I-PS, O, I-LC, I-OG, B-PS
-7	라인	O	O	O, B-CV, I-PS, I-OG, I-CV
-8	##이	O	O	O, B-PS, B-OG, I-PS, B-LC
-9	각종	O	O	O, B-CV, B-LC, B-TM, B-PS
-10	요직	O	O	O, B-CV, B-PS, B-TM, B-LC
-11	##을	O	O	O, B-PS, B-CV, I-CV, B-LC
-12	싹쓸이	O	O	O, B-PS, B-CV, B-LC, B-QT
-13	##했	O	O	O, B-PS, B-LC, B-CV, B-OG
-14	##다는	O	O	O, B-PS, B-LC, I-PS, B-CV
-15	비판	O	O	O, B-CV, B-PS, B-LC, B-OG
-16	##은	O	O	O, B-CV, B-PS, B-LC, B-OG
-17	5	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-LC
-18	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-19	내내	O	I-DT	I-DT, O, B-DT, I-QT, I-PS
-20	이명박	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-21	정권	O	O	O, I-PS, I-OG, B-CV, B-OG
-22	##의	O	O	O, B-PS, I-OG, B-CV, B-OG
-23	부담	O	O	O, B-CV, B-OG, B-PS, B-LC
-24	##이	O	O	O, B-PS, B-CV, B-OG, B-LC
-25	됐	O	O	O, B-CV, B-LC, B-OG, I-CV
-26	##다	O	O	O, B-CV, I-CV, I-OG, B-PS
-27	.	O	O	O, B-PS, B-LC, B-CV, B-OG
-28	[SEP]	O	O	O, B-CV, B-PS, B-LC, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	경남	B-LC	B-LC
+2	김해시	B-OG	B-OG
+3	##선거	I-OG	I-OG
+4	##관리위원회	I-OG	I-OG
+5	##는	O	O
+6	8	B-DT	B-DT
+7	##일	I-DT	I-DT
+8	“	O	O
+9	김해시	B-OG	B-OG
+10	##가	O	O
+11	지난해	B-DT	B-DT
+12	##부터	I-DT	I-DT
+13	플라스틱	B-MT	B-MT
+14	병	O	O
+15	##에	O	O
+16	넣	O	O
+17	##어	O	O
+18	시민	B-CV	B-CV
+19	##에	O	O
+20	##게	O	O
+21	무료	O	O
+22	##로	O	O
+23	공급	O	O
+24	##하	O	O
+25	##고	O	O
+26	있	O	O
+27	##는	O	O
+28	수돗물	O	O
+29	식수	O	O
+30	‘	O	O
+31	가야	B-AF	B-LC
+32	##의	I-AF	O
+33	물	I-AF	O
+34	’	O	O
+35	(	O	O
+36	350	B-QT	B-QT
+37	##㎖	I-QT	I-QT
+38	)	O	O
+39	을	O	O
+40	노무현	B-PS	B-PS
+41	전	O	O
+42	대통령	B-CV	B-CV
+43	국민	O	O
+44	##장	O	O
+45	뒤	O	O
+46	봉하	B-LC	B-LC
+47	##마을	I-LC	I-LC
+48	조문	O	B-CV
+49	##객	O	I-CV
+50	##들	O	O
+51	##에	O	O
+52	##게	O	O
+53	계속	O	O
+54	제공	O	O
+55	##하	O	O
+56	##고	O	O
+57	봉하	B-LC	B-LC
+58	##마을	I-LC	I-LC
+59	##과	O	O
+60	진영	B-LC	B-LC
+61	##읍	I-LC	I-LC
+62	##내	O	I-LC
+63	##를	O	O
+64	오가	O	O
+65	##는	O	O
+66	임시	O	O
+67	##버스	O	O
+68	##를	O	O
+69	운행	O	O
+70	##하	O	O
+71	##는	O	O
+72	것	O	O
+73	##은	O	O
+74	가능	O	O
+75	##하	O	O
+76	##다고	O	O
+77	통보	O	O
+78	##했	O	O
+79	##다	O	O
+80	”	O	O
+81	고	O	O
+82	밝혔	O	O
+83	##다	O	O
+84	.	O	O
+85	[SEP]	O	O

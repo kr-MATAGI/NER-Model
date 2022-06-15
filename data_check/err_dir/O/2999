@@ -1,32 +1,32 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-QT
-1	궂	O	O	O, B-CV, B-TM, B-OG, B-LC
-2	##은	O	O	O, B-PS, B-CV, B-TM, B-LC
-3	수비	O	B-CV	B-CV, O, I-CV, B-TM, B-OG
-4	##를	O	O	O, I-CV, B-CV, I-OG, I-AF
-5	도맡	O	O	O, B-CV, B-QT, B-TM, B-OG
-6	##아	O	O	O, B-OG, B-CV, B-LC, B-PS
-7	##한	O	O	O, B-OG, B-LC, B-CV, B-PS
-8	오리온	B-OG	B-OG	B-OG, O, B-PS, B-LC, B-AF
-9	이승	B-PS	B-PS	B-PS, I-PS, O, I-OG, B-OG
-10	##현	I-PS	I-PS	I-PS, O, I-OG, I-LC, B-PS
-11	##은	O	O	O, I-PS, I-OG, B-CV, I-AF
-12	양	O	O	O, B-QT, B-OG, B-TM, B-LC
-13	팀	O	O	O, I-QT, I-OG, B-CV, B-OG
-14	합쳐	O	O	O, B-CV, I-QT, B-QT, B-PS
-15	가장	O	O	O, B-CV, B-QT, B-LC, B-TM
-16	많	O	O	O, B-QT, B-CV, B-TM, B-LC
-17	##은	O	O	O, B-QT, B-CV, B-OG, B-TM
-18	32	B-TI	B-TI	B-TI, B-QT, B-EV, I-TI, O
-19	##분	I-TI	I-TI	I-TI, I-QT, I-TR, I-EV, B-TI
-20	25	I-TI	I-TI	I-TI, I-QT, B-TI, I-TR, O
-21	##초	I-TI	I-TI	I-TI, I-QT, I-TR, O, B-TI
-22	##를	O	O	O, I-TI, I-QT, I-EV, B-CV
-23	뛰	O	O	O, B-CV, B-TM, B-QT, B-OG
-24	##며	O	O	O, B-QT, B-CV, B-OG, I-QT
-25	18	B-QT	B-QT	B-QT, O, I-QT, B-TM, B-TI
-26	##점	I-QT	I-QT	I-QT, O, I-LC, I-EV, I-PS
-27	##을	O	O	O, I-QT, B-CV, I-OG, I-AF
-28	[UNK]	O	O	O, B-CV, B-TM, B-OG, I-QT
-29	.	O	O	O, B-CV, B-PS, B-OG, B-LC
-30	[SEP]	O	O	O, B-CV, B-TM, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	미	B-AF	B-OG
+2	##슐	I-AF	I-OG
+3	##랭	I-AF	I-OG
+4	가이드	I-AF	I-OG
+5	##에	O	O
+6	##서	O	O
+7	별	O	B-CV
+8	셋	B-QT	I-QT
+9	##을	O	O
+10	받	O	O
+11	##기	O	O
+12	##도	O	O
+13	한	O	O
+14	램	B-PS	B-PS
+15	##지	I-PS	I-PS
+16	##는	O	O
+17	전	O	O
+18	세계	O	O
+19	20	B-QT	B-QT
+20	##곳	I-QT	I-QT
+21	##에	O	O
+22	##서	O	O
+23	레스토랑	O	O
+24	##을	O	O
+25	운영	O	O
+26	##해	O	O
+27	##왔	O	O
+28	##다	O	O
+29	.	O	O
+30	[SEP]	O	O

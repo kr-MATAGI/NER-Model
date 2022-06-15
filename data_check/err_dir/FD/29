@@ -1,25 +1,19 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	'	O	O	O, B-CV, B-LC, B-OG, B-TM
-2	서울대	B-OG	B-OG	B-OG, B-LC, O, B-AF, B-PS
-3	##학교	I-OG	I-OG	I-OG, O, B-OG, I-LC, I-AF
-4	의과	O	O	O, I-OG, B-FD, B-OG, B-CV
-5	##대	O	O	O, I-OG, I-FD, I-AF, I-CV
-6	##학	O	O	O, I-OG, I-AF, I-FD, I-EV
-7	간호학	B-FD	B-FD	B-FD, O, I-FD, B-CV, B-AF
-8	##과	I-FD	O	O, I-FD, I-OG, B-FD, I-AF
-9	##에	O	O	O, I-OG, I-AF, B-CV, I-FD
-10	최초	O	O	O, B-QT, B-CV, B-OG, B-PS
-11	##로	O	O	O, I-QT, B-PS, B-CV, B-QT
-12	남학생	O	O	O, B-CV, B-QT, B-OG, B-TM
-13	##이	O	O	O, I-CV, B-PS, B-CV, I-AF
-14	입학	O	O	O, B-CV, B-TM, B-AF, B-QT
-15	##했	O	O	O, B-CV, I-AF, B-PS, I-CV
-16	##다	O	O	O, B-CV, B-QT, I-AF, I-OG
-17	'	O	O	O, B-CV, B-TM, B-OG, I-OG
-18	는	O	O	O, B-CV, B-TM, B-QT, B-OG
-19	기사	O	O	O, B-CV, B-AF, B-TM, B-QT
-20	##였	O	O	O, I-AF, B-CV, I-CV, B-PS
-21	##다	O	O	O, B-CV, B-TM, I-AF, B-OG
-22	.	O	O	O, B-CV, B-OG, B-LC, B-AF
-23	[SEP]	O	O	O, B-CV, B-OG, I-OG, B-AF
+	text	label	preds
+0	[CLS]	O	O
+1	심재	B-PS	B-PS
+2	##찬	I-PS	I-PS
+3	##의	O	O
+4	연극	B-FD	B-FD
+5	##은	O	O
+6	이	O	O
+7	##를	O	O
+8	심리	O	O
+9	##적	O	O
+10	기하학	B-FD	O
+11	##으로	O	O
+12	풀어내	O	O
+13	##려	O	O
+14	했	O	O
+15	##다	O	O
+16	.	O	O
+17	[SEP]	O	O

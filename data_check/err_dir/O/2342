@@ -1,48 +1,21 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	2007	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-OG
-2	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-3	이후	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-4	2009	I-DT	I-DT	I-DT, B-DT, O, B-QT, B-LC
-5	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-6	##까	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-7	##지	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-8	미국	B-LC	B-LC	B-LC, B-OG, O, I-DT, B-EV
-9	##은	O	O	O, I-OG, I-LC, I-AF, B-CV
-10	10	B-QT	B-QT	B-QT, O, I-QT, B-LC, B-DT
-11	.	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-EV
-12	0	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-13	%	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-OG
-14	에서	O	O	O, I-QT, B-PS, I-OG, B-LC
-15	18	B-QT	B-QT	B-QT, I-QT, O, B-DT, B-LC
-16	.	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-17	0	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-18	%	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-19	로	O	O	O, I-QT, I-OG, I-EV, B-CV
-20	,	O	O	O, B-OG, B-CV, B-LC, B-PS
-21	유럽연합	B-OG	B-OG	B-OG, O, I-OG, B-LC, B-CV
-22	(	O	O	O, I-OG, B-CV, I-CV, I-DT
-23	EU	B-OG	B-OG	B-OG, I-OG, O, B-CV, B-LC
-24	)	O	O	O, I-OG, I-CV, B-CV, I-DT
-25	회원국	O	B-CV	B-CV, O, I-CV, B-OG, B-QT
-26	##들	O	O	O, I-CV, I-OG, I-AF, I-QT
-27	##은	O	O	O, B-CV, B-PS, B-LC, B-OG
-28	15	B-QT	B-QT	B-QT, O, I-QT, B-PS, B-LC
-29	.	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-30	9	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-31	%	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-32	에서	O	O	O, I-QT, B-QT, B-PS, B-CV
-33	20	B-QT	B-QT	B-QT, I-QT, O, B-DT, B-LC
-34	.	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-35	2	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-36	%	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-37	로	O	O	O, I-QT, B-TM, I-OG, B-OG
-38	청년	O	O	O, B-CV, B-TM, B-FD, B-OG
-39	실업	O	O	O, B-TM, B-CV, B-TR, B-FD
-40	##률	O	O	O, I-TM, I-CV, I-TR, I-FD
-41	##이	O	O	O, B-PS, B-OG, B-CV, B-LC
-42	치솟	O	O	O, B-CV, B-OG, B-TM, B-QT
-43	##았	O	O	O, B-CV, B-OG, B-TM, I-OG
-44	##다	O	O	O, B-CV, B-LC, B-TM, I-OG
-45	.	O	O	O, B-LC, B-OG, B-PS, B-CV
-46	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	잠실	B-LC	B-LC
+2	삼성	O	B-OG
+3	―	O	O
+4	LG	O	B-OG
+5	전과	O	O
+6	목동	B-LC	B-LC
+7	두산	B-EV	B-EV
+8	―	I-EV	I-EV
+9	넥센	I-EV	I-EV
+10	##전	I-EV	I-EV
+11	##은	O	O
+12	비	O	O
+13	때문	O	O
+14	##에	O	O
+15	취소	O	O
+16	##됐	O	O
+17	##다	O	O
+18	.	O	O
+19	[SEP]	O	O

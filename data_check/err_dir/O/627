@@ -1,24 +1,44 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	그렇게	O	O	O, B-CV, B-LC, B-OG, B-TM
-2	왜	O	O	O, B-CV, B-PS, B-LC, B-OG
-3	자꾸	O	O	O, B-CV, B-PS, B-LC, B-QT
-4	변경	O	O	O, B-CV, B-TM, B-LC, I-CV
-5	##을	O	O	O, B-CV, B-PS, B-OG, B-LC
-6	하	O	O	O, B-CV, B-PS, B-LC, B-OG
-7	##느	O	O	O, B-CV, B-PS, B-LC, I-AF
-8	##냐	O	O	O, B-PS, B-LC, B-CV, I-AF
-9	##라고	O	O	O, B-CV, B-OG, I-OG, I-AF
-10	했	O	O	O, B-CV, B-OG, B-PS, B-LC
-11	##는데	O	O	O, B-CV, B-PS, B-OG, I-CV
-12	또	O	O	O, B-CV, B-QT, B-PS, B-LC
-13	한	O	B-QT	B-QT, O, I-QT, B-PS, B-CV
-14	번	O	I-QT	I-QT, O, B-QT, I-LC, I-CV
-15	변명	O	O	O, I-QT, B-CV, I-CV, B-PS
-16	##을	O	O	O, B-CV, I-CV, I-QT, I-AF
-17	했	O	O	O, B-CV, B-PS, B-OG, I-CV
-18	##더라	O	O	O, B-CV, I-CV, I-AF, B-PS
-19	##고	O	O	O, B-CV, I-CV, I-AF, I-OG
-20	##요	O	O	O, B-CV, I-OG, B-OG, I-CV
-21	.	O	O	O, B-CV, B-PS, B-LC, B-OG
-22	[SEP]	O	O	O, B-CV, I-AF, B-PS, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	전용	O	O
+2	##면적	O	O
+3	△	O	O
+4	##10	B-QT	B-QT
+5	##5	I-QT	I-QT
+6	##m	I-QT	I-QT
+7	##²	I-QT	I-QT
+8	##A	O	I-QT
+9	33	B-QT	B-QT
+10	##1	I-QT	I-QT
+11	##채	I-QT	I-QT
+12	△	O	O
+13	##10	B-QT	B-QT
+14	##5	I-QT	I-QT
+15	##m	I-QT	I-QT
+16	##²	I-QT	I-QT
+17	##B	O	I-QT
+18	33	B-QT	B-QT
+19	##1	I-QT	I-QT
+20	##채	I-QT	I-QT
+21	△	O	O
+22	##12	B-QT	B-QT
+23	##8	I-QT	I-QT
+24	##m	I-QT	I-QT
+25	##²	I-QT	I-QT
+26	27	B-QT	B-QT
+27	##8	I-QT	I-QT
+28	##채	I-QT	I-QT
+29	△	O	O
+30	##13	B-QT	B-QT
+31	##0	I-QT	I-QT
+32	##m	I-QT	I-QT
+33	##²	I-QT	I-QT
+34	118	B-QT	B-QT
+35	##채	I-QT	I-QT
+36	등	O	O
+37	총	O	O
+38	105	B-QT	B-QT
+39	##8	I-QT	I-QT
+40	##채	I-QT	I-QT
+41	.	O	O
+42	[SEP]	O	O

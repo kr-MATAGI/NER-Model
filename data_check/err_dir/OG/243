@@ -1,14 +1,22 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	""""	O	O	O, B-CV, B-LC, B-OG, B-PS
-2	한국	B-OG	B-LC	B-LC, B-OG, O, B-PS, I-LC
-3	##과	O	O	O, I-OG, I-LC, I-PS, I-AF
-4	인도네시아	B-OG	B-LC	B-LC, B-OG, O, I-LC, B-PS
-5	##는	O	O	O, I-LC, I-OG, B-LC, B-CV
-6	'	O	O	O, B-LC, B-CV, B-PS, B-OG
-7	해방	O	O	O, B-CV, B-LC, B-EV, B-PS
-8	同	O	O	O, B-LC, B-PS, B-EV, B-OG
-9	期	O	O	O, I-PS, I-LC, I-DT, B-PS
-10	'	O	O	O, I-OG, I-DT, B-LC, I-PS
-11	""""	O	O	O, B-CV, B-LC, B-OG, B-PS
-12	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	[	O	O
+2	오늘	B-DT	B-DT
+3	##과	O	O
+4	내일	B-DT	B-DT
+5	/	O	O
+6	방	B-PS	B-PS
+7	##형	I-PS	I-PS
+8	##남	I-PS	I-PS
+9	]	O	O
+10	남북	B-OG	B-AF
+11	##가스	B-MT	I-AF
+12	##관	O	I-AF
+13	추진	O	O
+14	전	O	O
+15	MB	B-PS	B-PS
+16	##가	O	O
+17	답	O	O
+18	##할	O	O
+19	일	O	O
+20	[SEP]	O	O

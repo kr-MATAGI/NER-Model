@@ -1,63 +1,20 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	국정원	B-OG	B-OG	B-OG, B-AF, O, B-FD, B-LC
-2	##은	O	O	O, I-OG, I-AF, B-CV, I-EV
-3	그러나	O	O	O, B-OG, B-CV, B-LC, B-TM
-4	국내	O	O	O, B-LC, B-CV, B-TM, B-FD
-5	정보	O	O	O, B-CV, B-LC, I-CV, B-FD
-6	수집	O	O	O, B-LC, I-CV, B-CV, I-LC
-7	폐지	O	O	O, B-CV, I-CV, B-PS, I-OG
-8	##는	O	O	O, B-LC, B-OG, B-PS, B-CV
-9	대	O	O	O, B-CV, B-EV, B-AF, B-TM
-10	##간	B-CV	O	O, I-CV, B-CV, I-EV, I-AF
-11	##첩	I-CV	O	O, I-CV, I-EV, I-AF, I-OG
-12	·	O	O	O, I-CV, I-EV, I-OG, I-AF
-13	테러	O	O	O, B-CV, B-EV, B-AF, B-FD
-14	업무	O	O	O, I-CV, I-EV, I-TM, I-AF
-15	##에	O	O	O, I-CV, I-EV, I-OG, B-PS
-16	관한	O	O	O, B-LC, B-OG, B-PS, B-TM
-17	국내외	O	O	O, B-LC, B-TM, B-OG, B-CV
-18	정보	O	O	O, B-LC, B-CV, B-TM, B-OG
-19	통합	O	O	O, B-LC, B-PS, B-CV, I-OG
-20	##이	O	O	O, B-PS, B-LC, B-OG, B-CV
-21	##라는	O	O	O, B-LC, B-PS, B-OG, B-CV
-22	세계	O	O	O, B-LC, B-CV, B-OG, B-PS
-23	##적	O	O	O, B-LC, B-PS, I-LC, I-OG
-24	추세	O	O	O, B-LC, B-CV, B-OG, B-PS
-25	##에	O	O	O, B-LC, B-CV, B-PS, B-OG
-26	맞	O	O	O, B-LC, B-OG, B-CV, B-PS
-27	##지	O	O	O, B-LC, B-OG, B-PS, B-CV
-28	않	O	O	O, B-LC, B-PS, B-OG, B-CV
-29	##고	O	O	O, B-LC, B-PS, B-OG, B-CV
-30	,	O	O	O, B-LC, B-CV, B-OG, B-PS
-31	대공	O	O	O, B-OG, B-CV, B-FD, B-EV
-32	수사	B-CV	B-CV	B-CV, I-CV, O, I-OG, B-OG
-33	##권	I-CV	I-CV	I-CV, O, I-OG, B-CV, I-AF
-34	폐지	O	O	O, I-CV, I-OG, B-CV, I-EV
-35	##도	O	O	O, B-LC, B-PS, B-OG, B-CV
-36	2000	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-LC
-37	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-38	이후	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-CV
-39	검거	O	O	O, B-CV, B-OG, B-LC, B-TM
-40	간첩	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-EV
-41	##의	O	O	O, I-CV, B-PS, B-OG, B-LC
-42	90	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-LC
-43	%	I-QT	I-QT	I-QT, O, I-LC, I-PS, I-DT
-44	이상	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-45	##이	O	O	O, I-QT, B-PS, B-OG, B-LC
-46	국정원	B-OG	B-OG	B-OG, B-AF, O, B-EV, B-FD
-47	수사	O	O	O, I-EV, I-OG, I-AF, I-CV
-48	사건	O	O	O, I-EV, I-OG, B-CV, I-CV
-49	##이	O	O	O, B-PS, B-OG, B-LC, B-CV
-50	##었	O	O	O, B-CV, B-LC, B-OG, B-PS
-51	##다는	O	O	O, B-LC, B-OG, B-PS, B-CV
-52	점	O	O	O, B-CV, B-LC, B-OG, B-TM
-53	##을	O	O	O, B-CV, B-PS, B-LC, B-OG
-54	들어	O	O	O, B-CV, B-LC, B-OG, B-TM
-55	불가	O	O	O, B-OG, B-CV, B-LC, B-AF
-56	##하	O	O	O, B-OG, B-PS, B-LC, B-CV
-57	##다는	O	O	O, B-OG, I-OG, B-CV, B-LC
-58	입장	O	O	O, B-CV, B-OG, B-TM, B-LC
-59	##이다	O	O	O, B-CV, B-OG, I-OG, B-TM
-60	.	O	O	O, B-LC, B-OG, B-CV, B-PS
-61	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	까다로운	O	O
+2	자체	O	O
+3	품질	O	O
+4	관리	O	O
+5	기준	O	O
+6	##인	O	O
+7	‘	O	O
+8	바리스타	B-CV	B-CV
+9	프리미엄	I-CV	O
+10	3	I-CV	B-QT
+11	법칙	I-CV	O
+12	’	O	O
+13	도	O	O
+14	적용	O	O
+15	##했	O	O
+16	##다	O	O
+17	.	O	O
+18	[SEP]	O	O

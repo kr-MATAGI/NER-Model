@@ -1,22 +1,59 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-AF
-1	4	B-DT	B-QT	B-QT, I-QT, O, B-DT, B-PS
-2	##∼	I-DT	I-QT	I-QT, O, B-QT, I-LC, I-DT
-3	##6	I-DT	I-QT	I-QT, B-QT, O, I-LC, I-PS
-4	##세	O	I-QT	I-QT, O, I-LC, I-PS, I-DT
-5	때	O	O	O, I-QT, I-CV, I-AF, I-OG
-6	##는	O	O	O, I-QT, I-AF, B-CV, B-TM
-7	집	O	O	O, B-TM, B-CV, B-LC, B-AF
-8	밖에	O	O	O, B-TM, B-QT, B-LC, B-TI
-9	##서	O	O	O, B-TI, I-TI, B-LC, B-TM
-10	보내	O	O	O, B-TI, I-TI, B-LC, B-CV
-11	##는	O	O	O, B-TI, I-TI, B-TM, B-LC
-12	시간	O	O	O, B-TI, I-TI, B-TM, B-LC
-13	##이	O	O	O, B-PS, B-CV, I-TI, B-OG
-14	크	O	O	O, B-QT, B-CV, B-TM, B-OG
-15	##게	O	O	O, I-QT, B-TM, I-OG, B-QT
-16	늘어나	O	O	O, B-CV, B-QT, B-TM, B-LC
-17	##기	O	O	O, B-CV, I-QT, I-CV, B-TM
-18	때문	O	O	O, B-CV, B-TM, I-CV, I-QT
-19	.	O	O	O, B-TM, B-CV, B-LC, B-PS
-20	[SEP]	O	O	O, B-CV, B-TM, B-LC, B-QT
+	text	label	preds
+0	[CLS]	O	O
+1	영국	B-LC	B-LC
+2	BBC	B-OG	B-OG
+3	##방송	I-OG	I-OG
+4	##은	O	O
+5	중국	B-LC	B-LC
+6	공안	B-OG	B-OG
+7	당국	I-OG	I-OG
+8	##이	O	O
+9	장	B-PS	B-PS
+10	전	O	O
+11	주석	B-CV	B-CV
+12	##의	O	O
+13	팬클럽	O	O
+14	하	B-OG	B-OG
+15	##쓰	I-OG	I-OG
+16	(	O	O
+17	[UNK]	O	O
+18	絲	O	O
+19	·	O	O
+20	두꺼비	B-AM	B-OG
+21	##클럽	O	I-OG
+22	)	O	O
+23	가	O	O
+24	추진	O	O
+25	##한	O	O
+26	장	B-PS	B-PS
+27	전	O	O
+28	주석	B-CV	B-CV
+29	##의	O	O
+30	90	B-QT	B-QT
+31	##세	I-QT	I-QT
+32	생일	O	O
+33	(	O	O
+34	1926	B-DT	B-DT
+35	##년	I-DT	I-DT
+36	8	I-DT	I-DT
+37	##월	I-DT	I-DT
+38	17	I-DT	I-DT
+39	##일	I-DT	I-DT
+40	##생	I-DT	I-QT
+41	)	O	O
+42	축하	O	O
+43	행사	O	O
+44	계획	O	O
+45	##에	O	O
+46	제동	O	O
+47	##을	O	O
+48	걸	O	O
+49	##었	O	O
+50	##다고	O	O
+51	15	B-DT	B-DT
+52	##일	I-DT	I-DT
+53	보도	O	O
+54	##했	O	O
+55	##다	O	O
+56	.	O	O
+57	[SEP]	O	O

@@ -1,70 +1,17 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-EV, I-CV, I-OG
-1	브리	B-PS	B-PS	B-PS, B-OG, O, B-LC, I-PS
-2	##타	I-PS	I-PS	I-PS, I-OG, O, I-LC, B-PS
-3	제	I-PS	I-PS	I-PS, I-OG, O, B-PS, I-LC
-4	##에	I-PS	I-PS	I-PS, O, I-OG, I-LC, B-LC
-5	##거	I-PS	I-PS	I-PS, O, I-OG, I-LC, B-LC
-6	메르세데스	B-OG	B-OG	B-OG, I-OG, O, I-PS, B-LC
-7	##벤	I-OG	I-OG	I-OG, O, B-OG, I-PS, I-LC
-8	##츠	I-OG	I-OG	I-OG, O, B-OG, I-LC, I-PS
-9	##코	I-OG	I-OG	I-OG, O, B-OG, I-LC, I-AF
-10	##리아	I-OG	I-OG	I-OG, O, B-OG, I-LC, I-AF
-11	대표	B-CV	B-CV	B-CV, O, I-CV, I-OG, B-AF
-12	##이	I-CV	I-CV	I-CV, B-CV, O, I-OG, I-AF
-13	##사	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-EV
-14	사장	B-CV	B-CV	B-CV, I-CV, O, B-TM, B-AF
-15	(	O	O	O, I-CV, B-CV, I-OG, I-EV
-16	사진	O	O	O, B-CV, B-TM, B-LC, B-QT
-17	)	O	O	O, B-CV, B-PS, B-LC, B-OG
-18	은	O	O	O, B-CV, B-PS, B-LC, B-OG
-19	17	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-20	##일	I-DT	I-DT	I-DT, O, B-DT, I-PS, I-QT
-21	서울	B-LC	B-LC	B-LC, O, B-OG, B-AF, I-LC
-22	광진구	B-LC	B-LC	B-LC, O, I-LC, B-AF, B-OG
-23	워커힐	B-AF	B-AF	B-AF, O, B-OG, I-AF, B-LC
-24	##로	I-AF	I-AF	I-AF, O, I-OG, I-LC, I-PS
-25	쉐	I-AF	B-AF	B-AF, I-AF, B-OG, O, B-LC
-26	##라	I-AF	I-AF	I-AF, I-OG, O, I-LC, I-PS
-27	##톤	I-AF	I-AF	I-AF, I-OG, O, I-LC, I-PS
-28	##워	I-AF	I-AF	I-AF, I-OG, O, I-LC, I-PS
-29	##커	I-AF	I-AF	I-AF, I-OG, O, I-LC, I-PS
-30	##힐	I-AF	I-AF	I-AF, I-OG, O, I-LC, I-PS
-31	##호텔	I-AF	I-AF	I-AF, I-OG, O, I-LC, I-PS
-32	##에서	O	O	O, I-AF, I-OG, B-CV, I-EV
-33	기자	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-AF
-34	##들	O	O	O, I-CV, B-CV, I-EV, B-PS
-35	##과	O	O	O, B-CV, B-TM, B-LC, B-PS
-36	만나	O	O	O, B-LC, B-CV, B-EV, B-OG
-37	“	O	O	O, B-CV, B-LC, B-OG, B-PS
-38	신차	O	O	O, B-CV, B-AF, B-TM, B-LC
-39	##를	O	O	O, B-CV, B-LC, B-OG, B-PS
-40	내놓	O	O	O, B-CV, B-OG, B-LC, B-TM
-41	##으면서	O	O	O, B-PS, B-LC, B-CV, B-OG
-42	메르세데스	B-OG	B-OG	B-OG, O, B-AF, B-PS, I-OG
-43	##벤	I-OG	I-OG	I-OG, O, B-OG, I-AF, I-EV
-44	##츠	I-OG	I-OG	I-OG, O, I-AF, I-EV, I-LC
-45	##에	O	O	O, I-OG, I-AF, I-EV, B-CV
-46	관심	O	O	O, B-LC, B-CV, B-TM, B-PS
-47	##이	O	O	O, B-PS, B-LC, B-OG, B-CV
-48	없	O	O	O, B-CV, B-TM, B-PS, B-LC
-49	##던	O	O	O, B-CV, B-PS, B-LC, B-TM
-50	새로운	O	O	O, B-CV, B-PS, B-LC, B-OG
-51	고객	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-OG
-52	##들	O	O	O, I-CV, B-CV, I-AF, I-OG
-53	##도	O	O	O, B-CV, B-LC, B-PS, B-TM
-54	눈	B-AM	B-AM	B-AM, O, B-TR, B-PS, B-TM
-55	##을	O	O	O, I-AF, B-CV, I-QT, I-CV
-56	돌리	O	O	O, B-CV, B-TM, B-LC, B-PS
-57	##기	O	O	O, B-PS, B-CV, B-LC, B-OG
-58	시작	O	O	O, B-CV, B-TM, B-LC, B-PS
-59	##했	O	O	O, B-PS, B-CV, B-LC, B-OG
-60	##다	O	O	O, B-CV, B-PS, B-LC, B-TM
-61	”	O	O	O, B-CV, B-LC, B-TM, B-PS
-62	며	O	O	O, B-CV, B-LC, B-TM, B-PS
-63	이	O	O	O, B-PS, B-OG, B-CV, B-TM
-64	##같이	O	O	O, B-CV, B-LC, I-OG, B-TM
-65	밝혔	O	O	O, B-CV, B-LC, B-TM, B-OG
-66	##다	O	O	O, B-CV, B-LC, B-TM, B-OG
-67	.	O	O	O, B-LC, B-PS, B-OG, B-CV
-68	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	애당초	O	O
+2	언	O	O
+3	##중	O	O
+4	##이	O	O
+5	아무런	O	O
+6	의심	O	O
+7	없이	O	O
+8	면죄부	B-AF	O
+9	##를	O	O
+10	받아들인	O	O
+11	건	O	O
+12	잘못	O	O
+13	##이다	O	O
+14	.	O	O
+15	[SEP]	O	O

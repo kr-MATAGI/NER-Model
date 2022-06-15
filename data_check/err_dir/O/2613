@@ -1,42 +1,73 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-QT
-1	체내	O	O	O, B-TM, B-LC, B-TR, B-CV
-2	면역력	O	O	O, B-TM, I-TM, B-CV, B-TR
-3	##을	O	O	O, B-CV, B-PS, I-TM, B-LC
-4	증강	O	O	O, B-CV, B-TM, B-LC, B-PS
-5	##시	O	O	O, B-LC, B-PS, B-CV, I-LC
-6	##켜	O	O	O, B-LC, B-PS, B-TM, B-CV
-7	건강	O	O	O, B-TM, B-LC, B-CV, I-TM
-8	##을	O	O	O, B-PS, B-LC, B-CV, I-TM
-9	유지	O	O	O, B-CV, B-LC, B-PS, B-TM
-10	##하	O	O	O, B-LC, B-PS, B-CV, B-TM
-11	##는	O	O	O, B-LC, B-TM, B-CV, B-PS
-12	자연	O	O	O, B-TR, B-TM, B-CV, B-FD
-13	##치	O	O	O, I-TR, I-TM, B-TR, I-CV
-14	##유	O	O	O, I-TR, I-TM, I-CV, I-FD
-15	##에	O	O	O, I-TR, B-CV, I-TM, I-CV
-16	중점	O	O	O, B-OG, B-LC, B-TM, B-QT
-17	##을	O	O	O, B-OG, B-PS, B-CV, B-LC
-18	두고	O	O	O, B-LC, B-OG, B-DT, B-CV
-19	비만	O	O	O, B-TM, B-TR, B-CV, B-AM
-20	##관리	O	O	O, I-TM, I-TR, I-CV, I-FD
-21	,	O	O	O, I-TM, B-CV, I-CV, B-LC
-22	예술	O	O	O, B-TR, B-FD, B-TM, B-CV
-23	##치료	O	O	O, I-TR, I-TM, I-FD, I-CV
-24	,	O	O	O, I-TR, B-CV, I-TM, I-CV
-25	아로마	O	B-TR	B-TR, O, B-FD, B-TM, B-CV
-26	##테	O	I-TR	I-TR, O, I-FD, I-TM, I-CV
-27	##라	O	I-TR	I-TR, O, I-FD, I-TM, I-CV
-28	##피	O	I-TR	I-TR, O, I-TM, I-FD, I-CV
-29	등	O	O	O, I-TR, I-TM, B-LC, B-TM
-30	대체	O	O	O, B-TM, B-CV, B-TR, I-TR
-31	##요	O	O	O, I-TR, I-CV, I-TM, I-FD
-32	##법	O	O	O, I-TR, I-CV, I-TM, I-FD
-33	##과	O	O	O, B-LC, B-CV, B-TM, B-OG
-34	물리치	O	B-TR	B-TR, O, B-TM, B-FD, I-TR
-35	##료	O	I-TR	I-TR, O, I-TM, I-FD, I-CV
-36	등	O	O	O, I-TR, I-TM, B-CV, B-LC
-37	##을	O	O	O, B-CV, B-LC, B-OG, B-TM
-38	가르친다	O	O	O, B-CV, B-LC, B-TM, B-OG
-39	.	O	O	O, B-LC, B-CV, B-TM, B-PS
-40	[SEP]	O	O	O, B-LC, B-CV, B-TM, I-LC
+	text	label	preds
+0	[CLS]	O	O
+1	24	B-DT	B-DT
+2	##일	I-DT	I-DT
+3	민주	B-OG	B-OG
+4	##통	I-OG	I-OG
+5	##합	I-OG	I-OG
+6	##당	I-OG	I-OG
+7	송호	B-PS	B-PS
+8	##창	I-PS	I-PS
+9	의원	B-CV	B-CV
+10	##은	O	O
+11	‘	O	O
+12	전경련	O	B-OG
+13	,	O	O
+14	실질	O	O
+15	##적	O	O
+16	통계	O	O
+17	왜곡	O	O
+18	##으로	O	O
+19	대기	O	O
+20	##업	O	O
+21	일자리	O	O
+22	증가	O	O
+23	부풀리	O	O
+24	##기	O	O
+25	’	O	O
+26	란	O	O
+27	제목	O	O
+28	##의	O	O
+29	보고서	O	O
+30	##에	O	O
+31	##서	O	O
+32	“	O	O
+33	전경련	O	B-OG
+34	##이	O	O
+35	지분	O	O
+36	획득	O	O
+37	##으로	O	O
+38	편입	O	O
+39	##된	O	O
+40	계열사	O	O
+41	종업원	B-CV	B-CV
+42	##까	O	O
+43	##지	O	O
+44	지난해	B-DT	B-DT
+45	대기	O	O
+46	##업	O	O
+47	##의	O	O
+48	고용	O	O
+49	창출	O	O
+50	##에	O	O
+51	포함	O	O
+52	##시	O	O
+53	##켜	O	O
+54	최소	O	O
+55	1	B-QT	B-QT
+56	##만	I-QT	I-QT
+57	##여	I-QT	I-QT
+58	##명	I-QT	I-QT
+59	이상	I-QT	I-QT
+60	##을	O	O
+61	과다	O	O
+62	계산	O	O
+63	##했	O	O
+64	##다	O	O
+65	”	O	O
+66	고	O	O
+67	지적	O	O
+68	##했	O	O
+69	##다	O	O
+70	.	O	O
+71	[SEP]	O	O

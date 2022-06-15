@@ -1,50 +1,50 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	강정호	B-PS	B-PS	B-PS, B-OG, B-AF, O, B-LC
-2	(	O	O	O, I-PS, I-OG, B-CV, I-AF
-3	28	B-QT	B-QT	B-QT, O, B-TM, I-QT, B-DT
-4	·	O	O	O, I-QT, I-DT, I-OG, I-EV
-5	피츠버그	B-OG	B-OG	B-OG, B-LC, B-AF, O, I-OG
-6	파이	I-OG	I-OG	I-OG, O, B-OG, I-LC, I-AF
-7	##리	I-OG	I-OG	I-OG, O, I-LC, I-AF, I-EV
-8	##츠	I-OG	I-OG	I-OG, O, I-LC, I-AF, I-EV
-9	)	O	O	O, I-OG, I-EV, I-AF, I-CV
-10	가	O	O	O, B-PS, B-LC, B-OG, B-CV
-11	100	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-QT
-12	##년	I-DT	I-DT	I-DT, O, I-PS, I-QT, B-DT
-13	##이	O	O	O, I-DT, B-PS, B-CV, I-EV
-14	넘	O	O	O, B-OG, B-LC, B-CV, B-PS
-15	##는	O	O	O, B-LC, B-OG, B-PS, B-CV
-16	미국	B-LC	B-LC	B-LC, B-OG, O, B-PS, B-EV
-17	프로야구	B-CV	B-CV	B-CV, O, I-CV, B-OG, I-LC
-18	사상	O	O	O, I-CV, I-OG, I-EV, B-CV
-19	첫	O	O	O, B-QT, B-LC, B-PS, B-TM
-20	'	O	O	O, B-CV, B-LC, B-OG, B-QT
-21	2	B-CV	B-CV	B-CV, B-TM, O, B-AF, B-QT
-22	##루	I-CV	I-CV	I-CV, I-TM, B-CV, I-QT, O
-23	##수	I-CV	I-CV	I-CV, I-TM, O, B-CV, I-QT
-24	-	O	O	O, I-CV, I-QT, I-EV, I-TM
-25	3	B-CV	B-CV	B-CV, B-TM, O, B-AF, B-QT
-26	##루	I-CV	I-CV	I-CV, I-TM, B-CV, O, I-QT
-27	##수	I-CV	I-CV	I-CV, I-TM, O, B-CV, I-QT
-28	-	O	O	O, I-CV, I-QT, I-TM, I-EV
-29	2	B-CV	B-CV	B-CV, B-TM, O, B-AF, B-QT
-30	##루	I-CV	I-CV	I-CV, I-TM, B-CV, I-QT, O
-31	##수	I-CV	I-CV	I-CV, I-TM, O, I-QT, B-CV
-32	'	O	O	O, I-CV, I-QT, I-TM, I-EV
-33	로	O	O	O, B-QT, B-DT, B-TM, B-PS
-34	이어지	O	O	O, B-TM, B-QT, B-LC, B-EV
-35	##는	O	O	O, B-TM, B-LC, B-EV, B-QT
-36	트리플	B-TM	O	O, B-TM, B-EV, B-CV, B-TR
-37	플레이	I-TM	I-TM	I-TM, O, I-EV, I-CV, I-TR
-38	(	O	O	O, I-TM, I-EV, I-CV, I-QT
-39	삼	B-TM	O	O, B-TM, B-QT, B-EV, B-TR
-40	##중	I-TM	I-TM	I-TM, O, I-QT, I-TR, I-EV
-41	##살	I-TM	I-TM	I-TM, O, I-QT, I-TR, I-EV
-42	)	O	O	O, I-TM, I-QT, I-EV, I-CV
-43	에	O	O	O, B-OG, B-LC, B-CV, B-PS
-44	힘	O	O	O, B-LC, B-CV, B-OG, B-QT
-45	##을	O	O	O, B-CV, B-OG, B-LC, B-PS
-46	[UNK]	O	O	O, B-CV, B-LC, B-TM, B-OG
-47	.	O	O	O, B-LC, B-CV, B-OG, B-PS
-48	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	오래	B-OG	B-OG
+2	##가	I-OG	I-OG
+3	##게	I-OG	I-OG
+4	39	B-QT	B-QT
+5	##곳	I-QT	I-QT
+6	##은	O	O
+7	다방	O	O
+8	,	O	O
+9	고	B-FD	B-FD
+10	##미술	I-FD	I-FD
+11	화랑	O	O
+12	,	O	O
+13	떡	O	O
+14	##집	O	O
+15	,	O	O
+16	인장	O	O
+17	,	O	O
+18	시계	O	O
+19	##방	O	O
+20	,	O	O
+21	수공	O	O
+22	##예	O	O
+23	##점	O	O
+24	,	O	O
+25	레코드	B-TM	O
+26	##점	O	O
+27	,	O	O
+28	한의	O	O
+29	##원	O	O
+30	등	O	O
+31	생활	O	O
+32	##문화	O	O
+33	##와	O	O
+34	전통	B-FD	B-FD
+35	##공	I-FD	I-FD
+36	##예	I-FD	I-FD
+37	분야	O	O
+38	##를	O	O
+39	중심	O	O
+40	##으로	O	O
+41	다양	O	O
+42	##한	O	O
+43	업종	O	O
+44	##이	O	O
+45	모였	O	O
+46	##다	O	O
+47	.	O	O
+48	[SEP]	O	O

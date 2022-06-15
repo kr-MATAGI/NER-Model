@@ -1,28 +1,63 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	미국	B-LC	B-LC	B-LC, O, B-OG, B-PS, B-AF
-2	##으로	O	O	O, I-LC, I-AF, B-PS, B-LC
-3	돌아온	O	O	O, B-PS, B-CV, B-LC, B-AF
-4	스완	B-PS	B-PS	B-PS, O, I-PS, B-OG, B-LC
-5	##슨	I-PS	I-PS	I-PS, O, I-OG, B-PS, I-LC
-6	목사	B-CV	B-CV	B-CV, O, I-PS, I-CV, B-OG
-7	##는	O	O	O, I-CV, B-CV, I-EV, I-AF
-8	한국	B-EV	B-EV	B-EV, B-LC, O, B-AF, B-OG
-9	##전쟁	I-EV	I-EV	I-EV, O, I-AF, I-LC, I-TM
-10	고아	B-CV	O	O, B-CV, I-EV, I-CV, I-AF
-11	##들	O	O	O, I-CV, I-AF, I-EV, I-OG
-12	##을	O	O	O, B-CV, B-PS, B-TM, B-LC
-13	돕	O	O	O, B-CV, B-TM, B-QT, B-OG
-14	##기	O	O	O, B-PS, B-LC, B-CV, B-TM
-15	위해	O	O	O, B-LC, B-CV, B-PS, B-TM
-16	여러	O	O	O, B-LC, B-CV, B-OG, B-TM
-17	교회	O	O	O, B-CV, B-OG, B-AF, B-TM
-18	##를	O	O	O, B-CV, B-LC, B-TM, B-PS
-19	돌아다니	O	O	O, B-CV, B-LC, B-TM, B-QT
-20	##며	O	O	O, B-LC, B-CV, B-PS, B-QT
-21	후원금	O	O	O, B-CV, B-TM, B-AF, B-QT
-22	##을	O	O	O, B-CV, I-CV, B-OG, B-PS
-23	모았	O	O	O, B-CV, B-LC, B-TM, B-OG
-24	##다	O	O	O, B-CV, B-PS, B-LC, B-TM
-25	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-26	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	미소	B-OG	B-OG
+2	##니	I-OG	I-OG
+3	##뿐	O	O
+4	아니	O	O
+5	##라	O	O
+6	페라	B-OG	B-OG
+7	##가	I-OG	I-OG
+8	##모	I-OG	I-OG
+9	,	O	O
+10	토	B-OG	B-OG
+11	##즈	I-OG	I-OG
+12	등	O	O
+13	전통	O	O
+14	##과	O	O
+15	기술력	O	O
+16	##으로	O	O
+17	안정	O	O
+18	##된	O	O
+19	소비	O	O
+20	##층	O	O
+21	##을	O	O
+22	보유	O	O
+23	##한	O	O
+24	이탈리아	B-LC	B-LC
+25	대표	B-CV	O
+26	브랜드	O	O
+27	##들	O	O
+28	##은	O	O
+29	최근	O	O
+30	예술	O	O
+31	,	O	O
+32	음식	O	O
+33	##은	O	O
+34	물론	O	O
+35	페라리	B-AF	B-OG
+36	같	O	O
+37	##은	O	O
+38	고급	O	O
+39	##차	O	O
+40	##까	O	O
+41	##지	O	O
+42	곁들여	O	O
+43	'	O	O
+44	이탈리아	B-LC	B-LC
+45	##식	O	O
+46	##으로	O	O
+47	살아	O	O
+48	##라	O	O
+49	'	O	O
+50	는	O	O
+51	총체적	O	O
+52	##인	O	O
+53	이미지	O	O
+54	마케팅	O	O
+55	##을	O	O
+56	펼치	O	O
+57	##고	O	O
+58	있	O	O
+59	##다	O	O
+60	.	O	O
+61	[SEP]	O	O

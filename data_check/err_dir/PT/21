@@ -1,17 +1,20 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-EV, I-OG, I-CV
-1	“	O	O	O, B-CV, B-LC, B-TM, B-OG
-2	좁	B-PT	O	O, B-PT, B-CV, B-AM, B-LC
-3	##쌀	I-PT	I-PT	I-PT, O, I-CV, I-AM, B-PT
-4	##보	O	O	O, I-CV, I-PT, I-AF, I-OG
-5	##다	O	O	O, I-CV, B-AM, I-AF, I-OG
-6	작	O	O	O, B-CV, B-AM, B-PS, B-TM
-7	##은	O	O	O, I-CV, B-PT, B-AM, I-PT
-8	알갱이	O	O	O, B-AM, B-PT, B-CV, B-PS
-9	##를	O	O	O, B-CV, I-CV, I-AF, B-PS
-10	어떻게	O	O	O, B-CV, B-TM, B-LC, B-OG
-11	다	O	O	O, B-CV, B-OG, B-TM, B-LC
-12	붙였	O	O	O, B-CV, B-PS, B-LC, B-OG
-13	##을까	O	O	O, B-CV, I-OG, I-AF, B-PS
-14	”	O	O	O, B-CV, B-LC, B-OG, B-TM
-15	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	박	B-PS	B-PS
+2	대통령	B-CV	B-CV
+3	만난	O	O
+4	자	B-PS	B-PS
+5	##승	I-PS	I-PS
+6	스님	B-CV	B-CV
+7	“	O	O
+8	나무	B-PT	O
+9	##는	O	O
+10	꽃	B-PT	B-PT
+11	##을	O	O
+12	버려야	O	O
+13	열매	B-PT	B-PT
+14	맺	O	O
+15	##는	O	O
+16	##다	O	O
+17	”	O	O
+18	[SEP]	O	O

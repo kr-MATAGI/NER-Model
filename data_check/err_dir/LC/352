@@ -1,21 +1,16 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	북한	B-LC	B-OG	B-OG, B-LC, O, B-PS, B-TM
-2	##은	O	O	O, I-OG, I-LC, I-AF, B-OG
-3	7	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-QT
-4	##월	I-DT	I-DT	I-DT, O, B-DT, I-OG, I-QT
-5	##의	O	O	O, I-DT, I-AF, I-OG, I-EV
-6	절반	B-QT	B-QT	B-QT, I-QT, O, B-DT, B-EV
-7	##을	O	O	O, I-QT, I-DT, I-EV, I-OG
-8	남한	B-LC	B-LC	B-LC, B-OG, O, B-AF, B-PS
-9	##에	O	O	O, I-OG, I-LC, I-AF, I-EV
-10	대한	O	O	O, B-LC, B-PS, B-OG, B-CV
-11	적대감	O	O	O, B-CV, B-LC, B-TM, B-PS
-12	##을	O	O	O, B-CV, B-PS, B-LC, B-OG
-13	끌어올리	O	O	O, B-LC, B-CV, B-PS, B-OG
-14	##기	O	O	O, B-PS, B-LC, B-CV, I-OG
-15	위해	O	O	O, B-LC, B-PS, B-CV, B-TM
-16	보냈	O	O	O, B-CV, B-LC, B-OG, B-PS
-17	##다	O	O	O, B-CV, I-OG, B-LC, B-OG
-18	.	O	O	O, B-LC, B-PS, B-CV, B-OG
-19	[SEP]	O	O	O, B-LC, B-CV, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	3	B-QT	B-QT
+2	##위	I-QT	I-QT
+3	##는	O	O
+4	독일	B-LC	B-OG
+5	,	O	O
+6	4	B-QT	B-QT
+7	##위	I-QT	I-QT
+8	##는	O	O
+9	중국	B-LC	B-OG
+10	##이	O	O
+11	##었	O	O
+12	##다	O	O
+13	.	O	O
+14	[SEP]	O	O

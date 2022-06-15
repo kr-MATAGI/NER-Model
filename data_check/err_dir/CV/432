@@ -1,44 +1,30 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-EV, I-CV, I-OG
-1	김	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-2	의원	B-CV	B-CV	B-CV, O, I-CV, I-PS, B-OG
-3	측	O	O	O, I-CV, B-PS, I-OG, B-OG
-4	핵심	B-CV	O	O, B-CV, B-PS, B-OG, B-TM
-5	인사	I-CV	B-CV	B-CV, O, I-CV, B-PS, B-QT
-6	##는	O	O	O, I-CV, I-QT, I-EV, B-CV
-7	“	O	O	O, B-CV, B-PS, B-LC, B-OG
-8	홍	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-9	의원	B-CV	B-CV	B-CV, O, I-PS, I-CV, B-EV
-10	##의	O	O	O, I-CV, I-EV, B-CV, B-PS
-11	출마	O	O	O, B-CV, B-PS, B-LC, B-EV
-12	##로	O	O	O, B-PS, B-LC, B-OG, B-CV
-13	수도권	B-LC	B-LC	B-LC, O, B-OG, B-TM, B-CV
-14	##에서	O	O	O, B-PS, I-LC, B-LC, B-CV
-15	친	O	O	O, B-PS, B-OG, B-CV, B-LC
-16	##박	O	O	O, B-PS, B-OG, I-PS, B-LC
-17	전선	O	O	O, B-LC, B-PS, B-CV, B-OG
-18	##이	O	O	O, B-PS, B-OG, B-LC, B-CV
-19	흩어지	O	O	O, B-PS, B-CV, B-LC, B-EV
-20	##고	O	O	O, B-PS, I-EV, I-OG, B-CV
-21	‘	O	O	O, B-LC, B-PS, B-CV, B-OG
-22	누가	O	O	O, B-PS, B-LC, B-CV, B-OG
-23	진짜	O	O	O, B-PS, B-LC, B-CV, B-OG
-24	친	O	O	O, B-PS, B-CV, B-LC, B-OG
-25	##박이	O	O	O, B-PS, B-CV, B-LC, I-PS
-26	##냐	O	O	O, B-PS, I-PS, B-LC, B-CV
-27	’	O	O	O, B-CV, B-PS, B-LC, I-EV
-28	는	O	O	O, B-PS, B-LC, B-CV, B-QT
-29	논란	O	O	O, B-CV, B-PS, B-EV, B-LC
-30	##마	O	O	O, B-PS, B-CV, I-EV, B-LC
-31	##저	O	O	O, B-PS, B-CV, B-QT, B-LC
-32	벌어질	O	O	O, B-CV, B-PS, B-EV, B-LC
-33	수	O	O	O, B-PS, B-CV, B-QT, B-LC
-34	있	O	O	O, B-CV, B-PS, B-QT, I-EV
-35	##다	O	O	O, B-CV, B-PS, I-EV, I-OG
-36	”	O	O	O, B-CV, B-LC, B-TM, B-QT
-37	고	O	O	O, B-CV, B-QT, B-LC, B-TM
-38	말	O	O	O, B-CV, B-QT, I-QT, B-TM
-39	##했	O	O	O, B-CV, B-PS, B-LC, I-EV
-40	##다	O	O	O, B-CV, B-PS, B-LC, I-EV
-41	.	O	O	O, B-PS, B-LC, B-CV, I-EV
-42	[SEP]	O	O	O, B-PS, B-CV, B-LC, I-EV
+	text	label	preds
+0	[CLS]	O	O
+1	황교안	B-PS	B-PS
+2	대통령	B-CV	B-CV
+3	권한	B-CV	I-CV
+4	##대	I-CV	I-CV
+5	##행	I-CV	I-CV
+6	##의	O	O
+7	재산	O	O
+8	##은	O	O
+9	25	B-QT	B-QT
+10	##억	I-QT	I-QT
+11	##21	I-QT	I-QT
+12	##73	I-QT	I-QT
+13	##만	I-QT	I-QT
+14	##원	I-QT	I-QT
+15	##으로	O	O
+16	전년	B-DT	B-DT
+17	##보	O	O
+18	##다	O	O
+19	3	B-QT	B-QT
+20	##억	I-QT	I-QT
+21	##60	I-QT	I-QT
+22	##91	I-QT	I-QT
+23	##만	I-QT	I-QT
+24	##원	I-QT	I-QT
+25	늘어났	O	O
+26	##다	O	O
+27	.	O	O
+28	[SEP]	O	O

@@ -1,58 +1,36 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-EV, I-OG, I-CV
-1	최	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-2	후보자	B-CV	B-CV	B-CV, O, I-PS, I-CV, B-OG
-3	##는	O	O	O, I-CV, I-EV, B-CV, I-OG
-4	이날	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-QT
-5	청문회	O	O	O, B-EV, B-CV, I-EV, I-DT
-6	##에서	O	O	O, I-EV, I-OG, B-CV, I-CV
-7	""""	O	O	O, B-CV, B-LC, B-PS, B-OG
-8	청와대	B-OG	B-OG	B-OG, B-AF, B-PS, O, B-LC
-9	##로	O	O	O, I-OG, I-AF, I-EV, I-PS
-10	##부터	O	O	O, B-PS, B-LC, B-CV, B-OG
-11	특정	O	O	O, B-PS, B-CV, B-LC, B-OG
-12	인물	O	O	O, B-CV, B-PS, I-CV, B-LC
-13	##의	O	O	O, B-PS, I-CV, B-LC, B-CV
-14	감사	B-CV	B-CV	B-CV, O, B-OG, I-CV, B-FD
-15	##위원	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-EV
-16	제청	O	O	O, I-CV, B-PS, B-CV, I-EV
-17	##을	O	O	O, B-PS, B-CV, B-LC, B-OG
-18	요구	O	O	O, B-CV, B-PS, B-LC, B-OG
-19	##받	O	O	O, B-PS, B-LC, B-CV, B-OG
-20	##더라	O	O	O, B-PS, B-OG, B-LC, B-CV
-21	##도	O	O	O, B-PS, B-OG, B-LC, I-OG
-22	감사원	B-OG	B-OG	B-OG, B-AF, O, B-EV, B-LC
-23	##의	O	O	O, I-OG, I-EV, I-AF, B-PS
-24	정치	O	O	O, B-CV, B-LC, B-PS, B-OG
-25	##적	O	O	O, B-PS, B-LC, B-CV, B-OG
-26	중립	O	O	O, B-CV, B-PS, B-LC, B-OG
-27	##성	O	O	O, B-PS, I-PS, B-LC, I-LC
-28	##과	O	O	O, B-PS, B-LC, I-PS, B-CV
-29	독립성	O	O	O, B-CV, B-PS, B-LC, B-TM
-30	##을	O	O	O, B-PS, B-CV, I-CV, I-OG
-31	지킬	O	O	O, B-CV, B-LC, B-PS, B-OG
-32	수	O	O	O, B-PS, B-LC, B-CV, B-OG
-33	있	O	O	O, B-PS, B-LC, B-CV, B-OG
-34	##는	O	O	O, B-PS, B-LC, B-CV, B-OG
-35	의지	O	O	O, B-PS, B-CV, B-LC, B-OG
-36	##가	O	O	O, B-PS, B-LC, I-PS, B-OG
-37	있	O	O	O, B-PS, B-LC, I-PS, B-CV
-38	##는	O	O	O, B-PS, B-LC, I-PS, B-CV
-39	분	O	O	O, B-PS, B-CV, B-LC, I-PS
-40	##인지	O	O	O, B-PS, I-PS, B-LC, B-OG
-41	검토	O	O	O, B-LC, B-PS, B-CV, B-OG
-42	##해	O	O	O, B-PS, B-LC, I-PS, B-OG
-43	적임자	O	B-CV	B-CV, O, I-CV, B-PS, B-EV
-44	##를	O	O	O, I-CV, I-EV, B-CV, B-PS
-45	제청	O	O	O, B-CV, B-LC, B-PS, B-TM
-46	##하	O	O	O, B-PS, B-LC, B-CV, B-OG
-47	##도록	O	O	O, B-LC, B-PS, B-CV, B-OG
-48	노력	O	O	O, B-LC, B-CV, B-PS, B-OG
-49	##하	O	O	O, B-PS, B-LC, B-OG, B-CV
-50	##겠다	O	O	O, B-CV, B-PS, B-LC, B-OG
-51	""""	O	O	O, B-CV, B-LC, B-TM, B-PS
-52	고	O	O	O, B-CV, B-LC, B-PS, B-OG
-53	했	O	O	O, B-CV, B-OG, B-PS, B-LC
-54	##다	O	O	O, B-CV, I-EV, B-PS, B-LC
-55	.	O	O	O, B-PS, B-LC, B-CV, B-OG
-56	[SEP]	O	O	O, B-CV, B-PS, B-LC, I-EV
+	text	label	preds
+0	[CLS]	O	O
+1	[	O	O
+2	김무성	B-PS	B-PS
+3	-	O	O
+4	유승민	B-PS	B-PS
+5	,	O	O
+6	21	B-DT	B-DT
+7	##일	I-DT	I-DT
+8	與	B-OG	B-OG
+9	탈당	O	O
+10	선언	O	O
+11	]	O	O
+12	“	O	O
+13	친	O	O
+14	##박	O	O
+15	##을	O	O
+16	최순	B-PS	B-PS
+17	##실	I-PS	I-PS
+18	##의	O	O
+19	남자	O	O
+20	##로	O	O
+21	매도	O	O
+22	…	O	O
+23	투사	O	B-CV
+24	행세	O	O
+25	##하	O	O
+26	##는	O	O
+27	사람	O	O
+28	##들	O	O
+29	##과	O	O
+30	공존	O	O
+31	못	O	O
+32	##해	O	O
+33	”	O	O
+34	[SEP]	O	O

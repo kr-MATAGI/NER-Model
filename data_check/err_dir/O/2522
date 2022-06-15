@@ -1,47 +1,9 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	배	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-2	##종	I-PS	I-PS	I-PS, I-OG, O, B-PS, I-LC
-3	##찬	I-PS	I-PS	I-PS, O, I-OG, I-LC, B-PS
-4	리서치	B-OG	B-OG	B-OG, O, I-OG, B-AF, I-PS
-5	##앤	I-OG	I-OG	I-OG, O, I-AF, B-OG, I-LC
-6	##리	I-OG	I-OG	I-OG, O, I-AF, B-OG, I-LC
-7	##서	I-OG	I-OG	I-OG, O, I-AF, B-OG, I-LC
-8	##치	I-OG	I-OG	I-OG, O, I-AF, B-OG, I-LC
-9	(	O	O	O, I-OG, B-OG, I-AF, I-EV
-10	R	O	O	O, B-OG, I-OG, B-AF, B-FD
-11	&	O	I-OG	I-OG, O, B-OG, I-AF, I-EV
-12	R	O	I-OG	I-OG, O, B-OG, I-AF, I-EV
-13	)	O	O	O, I-OG, I-AF, I-EV, I-CV
-14	본부	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-AF
-15	##장	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-TM
-16	##은	O	O	O, I-CV, I-OG, B-CV, I-QT
-17	최근	O	O	O, B-PS, B-QT, B-DT, B-OG
-18	40	B-QT	B-QT	B-QT, O, I-QT, B-EV, B-OG
-19	##대	I-QT	I-QT	I-QT, O, I-OG, I-EV, I-PS
-20	##에서	O	O	O, I-QT, B-PS, I-OG, B-CV
-21	안	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-22	원장	B-CV	B-CV	B-CV, O, I-PS, I-CV, I-AF
-23	##의	O	O	O, I-CV, B-CV, I-AF, I-EV
-24	지지율	O	O	O, B-CV, B-OG, B-TM, B-LC
-25	##이	O	O	O, B-PS, B-OG, B-CV, B-LC
-26	올라간	O	O	O, B-CV, B-OG, B-PS, B-TM
-27	이유	O	O	O, B-CV, B-TM, B-OG, B-LC
-28	##에	O	O	O, B-CV, I-OG, B-OG, B-TM
-29	대해	O	O	O, B-OG, B-LC, B-CV, B-TM
-30	“	O	O	O, B-CV, B-LC, B-PS, B-OG
-31	40	B-QT	B-QT	B-QT, O, I-QT, B-OG, B-EV
-32	##대	I-QT	I-QT	I-QT, O, I-OG, I-LC, I-EV
-33	##는	O	O	O, I-QT, I-OG, I-EV, B-PS
-34	안정	O	O	O, B-PS, B-LC, B-OG, B-CV
-35	속	O	O	O, B-PS, I-PS, I-AF, B-LC
-36	##의	O	O	O, B-PS, B-LC, I-PS, B-OG
-37	변화	O	O	O, B-PS, B-LC, B-TR, B-OG
-38	##를	O	O	O, B-PS, I-PS, I-AF, B-LC
-39	추구	O	O	O, B-PS, B-LC, B-CV, B-OG
-40	##하	O	O	O, B-PS, B-LC, I-PS, B-CV
-41	##는	O	O	O, B-PS, B-LC, I-PS, B-CV
-42	세대	O	O	O, B-PS, B-CV, B-LC, I-PS
-43	##다	O	O	O, B-CV, B-PS, B-LC, I-OG
-44	.	O	O	O, B-LC, B-PS, B-OG, B-CV
-45	[SEP]	O	O	O, B-OG, B-LC, B-PS, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	확실히	O	O
+2	피	O	B-TM
+3	##가	O	O
+4	두꺼	O	O
+5	##우면	O	O
+6	##은	O	O
+7	[SEP]	O	O

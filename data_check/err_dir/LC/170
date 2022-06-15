@@ -1,40 +1,76 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-EV, I-CV
-1	5	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-LC
-2	##월	I-DT	I-DT	I-DT, O, B-DT, I-EV, I-QT
-3	##에	O	O	O, I-DT, I-EV, B-CV, B-OG
-4	진행	O	O	O, B-LC, B-OG, B-CV, B-EV
-5	##될	O	O	O, B-LC, B-PS, B-OG, B-DT
-6	북한	B-LC	B-OG	B-OG, B-LC, O, B-PS, B-TM
-7	##의	O	O	O, I-OG, I-LC, I-EV, B-OG
-8	7	B-QT	B-QT	B-QT, B-EV, O, B-DT, I-QT
-9	##차	I-QT	I-QT	I-QT, I-EV, O, I-DT, I-OG
-10	당대	O	O	O, B-EV, I-EV, B-OG, I-QT
-11	##회	O	O	O, I-EV, I-OG, I-DT, I-QT
-12	##까	O	O	O, I-EV, I-DT, B-DT, I-OG
-13	##지	O	O	O, I-DT, B-DT, I-EV, I-OG
-14	북한	B-OG	B-OG	B-OG, B-LC, O, B-PS, B-TM
-15	##이	O	O	O, I-OG, I-LC, B-PS, B-OG
-16	다양	O	O	O, B-LC, B-CV, B-TM, B-OG
-17	##한	O	O	O, B-LC, B-OG, B-PS, B-TM
-18	형태	O	O	O, B-LC, B-CV, I-OG, B-OG
-19	##로	O	O	O, B-LC, B-OG, B-PS, B-CV
-20	전개	O	O	O, B-LC, B-CV, B-TM, B-PS
-21	##할	O	O	O, B-LC, B-PS, B-OG, B-CV
-22	가능	O	O	O, B-CV, B-LC, B-PS, B-TM
-23	##성이	O	O	O, B-PS, B-LC, B-CV, B-OG
-24	높	O	O	O, B-CV, B-LC, B-OG, B-TM
-25	##은	O	O	O, B-LC, B-OG, B-PS, B-CV
-26	대남	O	O	O, B-CV, B-LC, B-TM, B-TR
-27	위협	O	O	O, B-LC, B-CV, I-CV, B-PS
-28	##과	O	O	O, B-PS, B-CV, B-LC, B-OG
-29	도발	O	O	O, B-LC, B-CV, B-PS, I-EV
-30	##에	O	O	O, B-PS, B-LC, B-CV, B-OG
-31	대한	O	O	O, B-LC, B-OG, B-PS, B-TM
-32	대비	O	O	O, B-LC, B-OG, B-CV, B-PS
-33	##도	O	O	O, B-LC, B-PS, B-OG, I-OG
-34	필요	O	O	O, B-LC, B-OG, B-TM, B-CV
-35	##하	O	O	O, B-LC, B-OG, B-PS, I-OG
-36	##다	O	O	O, I-OG, B-CV, B-LC, B-OG
-37	.	O	O	O, B-LC, B-OG, B-PS, B-CV
-38	[SEP]	O	O	O, B-LC, B-OG, B-CV, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	이날	B-DT	B-DT
+2	행사	O	O
+3	##에	O	O
+4	##는	O	O
+5	터	O	O
+6	##를	O	O
+7	제공	O	O
+8	##한	O	O
+9	김영	B-PS	B-PS
+10	##종	I-PS	I-PS
+11	종로구	B-LC	O
+12	##청	B-CV	O
+13	##장	I-CV	O
+14	,	O	O
+15	김춘	B-PS	B-PS
+16	##진	I-PS	I-PS
+17	정	B-PS	B-PS
+18	##범	I-PS	I-PS
+19	##구	I-PS	I-PS
+20	민주당	B-OG	B-OG
+21	의원	B-CV	B-CV
+22	,	O	O
+23	박	B-PS	B-PS
+24	##홍	I-PS	I-PS
+25	##섭	I-PS	I-PS
+26	마포구	B-LC	O
+27	##청	B-CV	O
+28	##장	I-CV	O
+29	,	O	O
+30	산악	B-CV	B-CV
+31	##인	I-CV	I-CV
+32	엄	B-PS	B-PS
+33	##홍	I-PS	I-PS
+34	##길	I-PS	I-PS
+35	대장	B-CV	B-CV
+36	,	O	O
+37	김철	B-PS	B-PS
+38	##웅	I-PS	I-PS
+39	요	B-OG	B-OG
+40	##넥	I-OG	I-OG
+41	##스코	I-OG	I-OG
+42	##리아	I-OG	I-OG
+43	대표	B-CV	B-CV
+44	,	O	O
+45	권	B-OG	B-PS
+46	##택	I-OG	I-PS
+47	##명	I-OG	I-PS
+48	외	B-OG	B-OG
+49	##한	I-OG	I-OG
+50	##은행	I-OG	I-OG
+51	나눔	I-OG	B-OG
+52	##재단	I-OG	I-OG
+53	상근	B-CV	B-CV
+54	##이	I-CV	I-CV
+55	##사	I-CV	I-CV
+56	,	O	O
+57	박	B-PS	B-PS
+58	##점	I-PS	I-PS
+59	##식	I-PS	I-PS
+60	천지	B-PS	B-OG
+61	##세	I-PS	I-OG
+62	##무	I-PS	I-OG
+63	##법인	I-PS	I-OG
+64	회장	B-CV	B-CV
+65	등	O	O
+66	후원자	B-CV	B-CV
+67	200	O	O
+68	##여	O	O
+69	명이	O	O
+70	참석	O	O
+71	##했	O	O
+72	##다	O	O
+73	.	O	O
+74	[SEP]	O	O

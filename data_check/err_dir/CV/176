@@ -1,32 +1,59 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, B-CV, I-OG, I-AF
-1	그	O	O	O, B-CV, B-TM, B-PS, B-LC
-2	침	O	O	O, B-TM, B-AM, B-CV, B-TR
-3	##과	O	O	O, I-TM, B-PS, I-AF, I-CV
-4	이	O	O	O, B-PS, B-TM, B-AM, B-QT
-5	~	O	O	O, I-CV, I-QT, B-CV, B-LC
-6	싸이	B-CV	B-CV	B-CV, B-TM, O, B-FD, B-EV
-7	##코	I-CV	I-TM	I-TM, I-CV, O, I-AF, I-EV
-8	##패	I-CV	I-CV	I-CV, I-TM, O, I-AF, B-CV
-9	##쓰	I-CV	I-CV	I-CV, I-TM, O, I-AF, I-OG
-10	##의	O	O	O, I-CV, I-TM, I-AF, I-OG
-11	침	O	O	O, B-TM, B-AM, B-CV, B-TR
-12	디	B-TM	B-TM	B-TM, O, I-TM, B-CV, B-TR
-13	##엔	I-TM	I-TM	I-TM, O, I-MT, B-TM, I-TR
-14	##에이	I-TM	I-TM	I-TM, O, I-MT, I-CV, I-TR
-15	##는	O	O	O, I-TM, I-OG, I-CV, I-AF
-16	다른	O	O	O, B-PS, B-LC, B-CV, B-OG
-17	어	O	O	O, B-CV, B-TM, B-PS, B-AF
-18	~	O	O	O, I-CV, I-TM, I-AF, I-LC
-19	사람	O	O	O, B-AM, B-CV, B-PS, B-TM
-20	##일	O	O	O, B-PS, B-LC, B-OG, I-AF
-21	수	O	O	O, B-PS, I-AF, I-PS, I-OG
-22	있	O	O	O, B-PS, B-CV, I-AF, B-LC
-23	##다는	O	O	O, B-PS, B-CV, I-AF, B-TM
-24	생각	O	O	O, B-CV, B-PS, B-TM, B-QT
-25	##이	O	O	O, B-PS, B-CV, B-OG, B-LC
-26	갑자기	O	O	O, B-TM, B-CV, B-PS, B-QT
-27	들어서	O	O	O, B-CV, B-TM, B-QT, B-PS
-28	##요	O	O	O, B-CV, B-TM, B-LC, B-PS
-29	.	O	O	O, B-PS, B-CV, B-TM, B-LC
-30	[SEP]	O	O	O, B-CV, B-TM, B-PS, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	한국	B-OG	B-OG
+2	##임	I-OG	I-OG
+3	##업	I-OG	I-OG
+4	##진흥	I-OG	I-OG
+5	##원	I-OG	I-OG
+6	##은	O	O
+7	14	B-DT	B-DT
+8	,	I-DT	I-DT
+9	16	I-DT	I-DT
+10	##일	I-DT	I-DT
+11	직원	B-CV	B-CV
+12	##들이	O	O
+13	참여	O	O
+14	##한	O	O
+15	가운데	O	O
+16	‘	O	O
+17	1	B-EV	B-QT
+18	##사	I-EV	I-QT
+19	1	I-EV	B-QT
+20	##촌	I-EV	I-QT
+21	산	I-EV	I-EV
+22	##촌	I-EV	I-EV
+23	##마을	I-EV	I-EV
+24	##과	I-EV	I-EV
+25	함께	I-EV	I-EV
+26	김장	I-EV	I-EV
+27	담그	I-EV	I-EV
+28	##기	I-EV	I-EV
+29	’	O	O
+30	행사	O	O
+31	##를	O	O
+32	열	O	O
+33	##고	O	O
+34	소외	O	O
+35	##된	O	O
+36	이웃	B-CV	O
+37	##에	O	O
+38	##게	O	O
+39	따뜻	O	O
+40	##한	O	O
+41	음식	O	O
+42	##을	O	O
+43	전하	O	O
+44	##는	O	O
+45	‘	O	O
+46	사랑	B-EV	B-EV
+47	##의	I-EV	I-EV
+48	김장	I-EV	I-EV
+49	##나	I-EV	I-EV
+50	##눔	I-EV	I-EV
+51	’	O	O
+52	을	O	O
+53	진행	O	O
+54	##했	O	O
+55	##다	O	O
+56	.	O	O
+57	[SEP]	O	O

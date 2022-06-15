@@ -1,17 +1,46 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	이렇게	O	O	O, B-CV, B-OG, B-TM, B-LC
-2	찬	O	B-CV	B-CV, O, I-CV, B-AF, B-OG
-3	##밥	O	I-CV	I-CV, O, B-CV, I-OG, I-AF
-4	##을	O	O	O, I-CV, B-CV, I-OG, I-AF
-5	넣	O	O	O, B-CV, B-OG, B-PS, I-CV
-6	##었	O	O	O, B-CV, I-CV, I-OG, B-PS
-7	##을	O	O	O, B-CV, I-CV, I-OG, I-AF
-8	때	O	O	O, B-CV, B-PS, I-CV, I-AF
-9	##는	O	O	O, B-CV, B-OG, B-TM, B-LC
-10	조금	O	O	O, B-CV, B-TM, B-OG, B-QT
-11	잘	O	O	O, B-CV, B-TM, B-OG, B-LC
-12	안	O	O	O, B-CV, B-TM, B-LC, B-OG
-13	섞이	O	O	O, B-CV, B-TM, B-LC, B-QT
-14	##잖아요	O	O	O, B-CV, I-OG, I-CV, B-OG
-15	[SEP]	O	O	O, B-CV, B-LC, B-TM, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	반면	O	O
+2	넥센	B-OG	B-OG
+3	선발	B-CV	B-CV
+4	앤디	B-PS	B-PS
+5	밴	I-PS	I-PS
+6	##헤	I-PS	I-PS
+7	##켄	I-PS	I-PS
+8	##은	O	O
+9	6	B-QT	B-QT
+10	##이	I-QT	I-QT
+11	##닝	I-QT	I-QT
+12	동안	O	O
+13	5	B-QT	B-QT
+14	##안	I-QT	I-QT
+15	##타	I-QT	I-QT
+16	1	B-QT	B-QT
+17	##볼	I-QT	I-QT
+18	##넷	I-QT	I-QT
+19	##만	O	I-QT
+20	내주	O	O
+21	##고	O	O
+22	무실점	B-TM	B-TM
+23	##으로	O	O
+24	깔끔	O	O
+25	##히	O	O
+26	막아	O	O
+27	11	B-QT	B-QT
+28	##경기	I-QT	I-QT
+29	##에	O	O
+30	##서	O	O
+31	시즌	O	O
+32	5	B-QT	B-QT
+33	##승	I-QT	I-QT
+34	(	O	O
+35	1	B-QT	B-QT
+36	##패	I-QT	I-QT
+37	)	O	O
+38	째	O	O
+39	##를	O	O
+40	따	O	O
+41	##냈	O	O
+42	##다	O	O
+43	.	O	O
+44	[SEP]	O	O

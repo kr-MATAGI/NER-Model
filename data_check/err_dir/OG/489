@@ -1,33 +1,80 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	영암	B-OG	B-LC	B-LC, B-OG, B-AF, B-EV, O
-2	F	I-OG	I-EV	I-EV, I-OG, I-AF, I-LC, B-OG
-3	##1	I-OG	I-EV	I-EV, I-OG, I-LC, I-AF, O
-4	서킷	I-OG	I-OG	I-OG, I-EV, I-LC, I-AF, O
-5	##이	O	O	O, I-EV, I-OG, I-AF, B-PS
-6	지난해	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-7	개장	O	O	O, I-DT, B-CV, I-EV, I-AF
-8	##했	O	O	O, B-PS, B-LC, B-OG, B-CV
-9	##기	O	O	O, B-PS, B-LC, B-CV, B-OG
-10	때문	O	O	O, B-CV, B-LC, B-PS, B-OG
-11	##에	O	O	O, B-CV, B-LC, B-OG, B-PS
-12	드라이버	B-CV	B-CV	B-CV, O, B-OG, B-AF, B-PS
-13	##들	O	O	O, I-CV, I-AF, B-CV, I-EV
-14	##은	O	O	O, B-LC, B-CV, B-TM, B-PS
-15	영암	B-OG	B-LC	B-LC, B-OG, B-AF, B-EV, O
-16	F	I-OG	I-EV	I-EV, I-AF, I-OG, I-LC, B-LC
-17	##1	I-OG	I-EV	I-EV, I-LC, I-OG, I-AF, O
-18	서킷	I-OG	I-LC	I-LC, I-EV, I-AF, I-OG, O
-19	##보	O	O	O, I-AF, I-EV, I-OG, I-LC
-20	##다는	O	O	O, B-LC, B-DT, B-QT, B-TM
-21	태백	B-AF	B-AF	B-AF, B-LC, B-OG, B-EV, O
-22	##레이	I-AF	I-AF	I-AF, I-LC, I-OG, B-AF, O
-23	##싱	I-AF	I-AF	I-AF, I-LC, I-OG, O, I-EV
-24	##파크	I-AF	I-AF	I-AF, I-LC, I-OG, O, I-EV
-25	##에	O	O	O, I-AF, I-LC, I-OG, I-EV
-26	더	O	O	O, B-LC, B-CV, B-OG, B-TM
-27	익숙	O	O	O, B-CV, B-LC, B-PS, B-TM
-28	##하	O	O	O, B-CV, B-LC, B-PS, I-AF
-29	##다	O	O	O, B-CV, I-AF, B-LC, B-TM
-30	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-31	[SEP]	O	O	O, B-LC, B-CV, I-AF, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	지난주	B-DT	B-DT
+2	첫	O	B-QT
+3	강의	O	I-QT
+4	##에	O	O
+5	##서	O	O
+6	“	O	O
+7	미래	O	O
+8	##의	O	O
+9	세계	O	O
+10	##는	O	O
+11	큰	O	O
+12	변화	O	O
+13	##가	O	O
+14	일어날	O	O
+15	것	O	O
+16	##이	O	O
+17	##며	O	O
+18	,	O	O
+19	중국	B-OG	B-LC
+20	##이	O	O
+21	세계	O	O
+22	경제	O	O
+23	##의	O	O
+24	중심	O	O
+25	##이	O	O
+26	될	O	O
+27	것	O	O
+28	”	O	O
+29	이라	O	O
+30	##며	O	O
+31	“	O	O
+32	미국	B-LC	B-LC
+33	##의	O	O
+34	경제	O	O
+35	##는	O	O
+36	여전히	O	O
+37	세계	O	O
+38	##에	O	O
+39	##서	O	O
+40	가장	O	O
+41	중요	O	O
+42	##하	O	O
+43	##지만	O	O
+44	,	O	O
+45	미래	O	O
+46	##에	O	O
+47	##는	O	O
+48	이전	O	O
+49	##처럼	O	O
+50	지위	O	O
+51	##도	O	O
+52	높	O	O
+53	##고	O	O
+54	권력	O	O
+55	##도	O	O
+56	크	O	O
+57	##지	O	O
+58	##는	O	O
+59	않	O	O
+60	##을	O	O
+61	것	O	O
+62	”	O	O
+63	이라	O	O
+64	##고	O	O
+65	말	O	O
+66	##했	O	O
+67	##다고	O	O
+68	<	O	O
+69	양	B-OG	B-OG
+70	##청	I-OG	I-OG
+71	##만	I-OG	I-OG
+72	##보	I-OG	I-OG
+73	>	O	O
+74	는	O	O
+75	전했	O	O
+76	##다	O	O
+77	.	O	O
+78	[SEP]	O	O

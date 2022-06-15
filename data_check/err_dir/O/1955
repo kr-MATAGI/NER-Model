@@ -1,29 +1,58 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	올	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-2	시즌	I-DT	I-DT	I-DT, O, I-QT, B-DT, I-EV
-3	7	B-QT	B-QT	B-QT, I-QT, I-DT, B-EV, B-DT
-4	##위	I-QT	I-QT	I-QT, O, I-DT, I-EV, I-OG
-5	##에	O	O	O, I-QT, I-EV, I-OG, B-CV
-6	머문	O	O	O, B-OG, B-LC, B-TM, B-QT
-7	부산	B-OG	B-OG	B-OG, B-LC, O, I-OG, B-PS
-8	##은	O	O	O, I-OG, B-CV, I-AF, I-EV
-9	수비	O	B-CV	B-CV, O, B-TM, B-OG, B-FD
-10	##에	O	O	O, I-CV, I-OG, I-AF, B-CV
-11	바탕	O	O	O, B-LC, B-TM, B-PS, B-CV
-12	##을	O	O	O, B-LC, B-PS, B-CV, B-OG
-13	두고	O	O	O, B-LC, B-TM, B-PS, B-CV
-14	역습	O	O	O, B-TM, B-LC, B-AF, B-CV
-15	##으로	O	O	O, I-TM, I-AF, B-PS, I-CV
-16	골	B-TM	B-TM	B-TM, O, I-TM, B-QT, B-CV
-17	##을	O	O	O, I-TM, I-AF, I-QT, I-CV
-18	넣	O	O	O, B-CV, B-LC, B-PS, B-TM
-19	##는	O	O	O, B-CV, B-LC, B-PS, B-TM
-20	전술	O	O	O, B-CV, B-TM, B-TR, B-FD
-21	##을	O	O	O, B-CV, I-CV, B-PS, I-AF
-22	주로	O	O	O, B-CV, B-LC, B-TM, B-QT
-23	사용	O	O	O, B-CV, B-TM, B-LC, B-OG
-24	##했	O	O	O, B-CV, B-LC, I-CV, B-OG
-25	##다	O	O	O, B-CV, B-LC, B-TM, I-CV
-26	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-27	[SEP]	O	O	O, B-CV, B-LC, B-TM, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	KO	B-OG	B-OG
+2	##BA	I-OG	I-OG
+3	##CO	I-OG	I-OG
+4	연수원	O	O
+5	##에	O	O
+6	##서	O	O
+7	양평	B-LC	B-LC
+8	##읍	O	I-LC
+9	##내	O	I-LC
+10	##에	O	O
+11	이르	O	O
+12	##는	O	O
+13	'	O	O
+14	강	B-AF	B-AF
+15	##상	I-AF	I-AF
+16	아트	I-AF	I-AF
+17	##거리	I-AF	I-AF
+18	'	O	O
+19	,	O	O
+20	읍내	O	O
+21	##의	O	O
+22	'	O	O
+23	양	B-AF	B-AF
+24	##근	I-AF	I-AF
+25	##천	I-AF	I-AF
+26	길	I-AF	I-AF
+27	'	O	O
+28	,	O	O
+29	군	O	O
+30	##립	O	O
+31	##미술	O	O
+32	##관	O	O
+33	##에	O	O
+34	##서	O	O
+35	강하	B-LC	B-LC
+36	##면	I-LC	I-LC
+37	바탕	B-AF	B-AF
+38	##골	I-AF	I-AF
+39	##예술	I-AF	I-AF
+40	##관	I-AF	I-AF
+41	##에	O	O
+42	이르	O	O
+43	##는	O	O
+44	'	O	O
+45	한강	B-AF	B-AF
+46	아트	I-AF	I-AF
+47	##로드	I-AF	I-AF
+48	'	O	O
+49	를	O	O
+50	두루	O	O
+51	연계	O	O
+52	##할	O	O
+53	계획	O	O
+54	##이다	O	O
+55	.	O	O
+56	[SEP]	O	O

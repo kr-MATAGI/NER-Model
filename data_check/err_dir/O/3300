@@ -1,53 +1,23 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-EV, I-CV
-1	곽	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
-2	##노	I-PS	I-PS	I-PS, O, I-OG, B-PS, I-LC
-3	##현	I-PS	I-PS	I-PS, O, I-LC, I-OG, B-PS
-4	서울시	B-LC	B-LC	B-LC, O, B-CV, B-OG, B-EV
-5	##교육	B-CV	B-CV	B-CV, O, I-CV, I-LC, I-EV
-6	##감	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-EV
-7	##이	O	O	O, I-CV, B-PS, B-LC, I-EV
-8	박원순	B-PS	B-PS	B-PS, O, I-PS, B-OG, B-LC
-9	서울시	O	O	O, B-LC, I-PS, B-CV, I-LC
-10	##장	O	O	O, I-LC, B-LC, I-PS, B-CV
-11	,	O	O	O, B-LC, B-PS, I-LC, B-CV
-12	허	O	B-PS	B-PS, O, B-OG, I-PS, B-LC
-13	##광	O	I-PS	I-PS, O, I-OG, I-LC, B-PS
-14	##태	O	I-PS	I-PS, O, I-LC, I-OG, B-PS
-15	서울시	O	B-OG	B-OG, O, B-LC, B-CV, B-AF
-16	##의회	O	I-OG	I-OG, O, I-LC, I-PS, I-AF
-17	의장	O	B-CV	B-CV, O, I-CV, I-OG, I-EV
-18	##과	O	O	O, I-CV, B-LC, B-CV, B-PS
-19	공동	O	O	O, B-LC, B-CV, B-PS, B-EV
-20	##으로	O	O	O, B-LC, B-PS, I-LC, B-CV
-21	14	O	B-DT	B-DT, O, I-DT, B-LC, B-EV
-22	##일	O	I-DT	I-DT, O, B-DT, I-PS, I-EV
-23	선포	O	O	O, I-DT, B-CV, B-LC, I-EV
-24	##하	O	O	O, B-LC, B-PS, B-CV, B-EV
-25	##는	O	O	O, B-LC, B-PS, B-CV, B-EV
-26	‘	O	O	O, B-LC, B-EV, B-CV, B-OG
-27	서울	B-LC	B-EV	B-EV, B-OG, B-LC, B-AF, I-EV
-28	##교육	O	I-EV	I-EV, I-OG, O, I-LC, I-TM
-29	##희	O	I-EV	I-EV, O, I-OG, I-TM, I-AF
-30	##망	O	I-EV	I-EV, O, I-OG, I-TM, I-AF
-31	##공	O	I-EV	I-EV, O, I-OG, I-TM, I-AF
-32	##동	O	I-EV	I-EV, O, I-OG, I-TM, I-AF
-33	##선언	O	I-EV	I-EV, O, I-OG, I-TM, I-AF
-34	’	O	O	O, I-EV, I-OG, I-AF, I-QT
-35	이	O	O	O, B-LC, B-PS, B-OG, B-CV
-36	‘	O	O	O, B-LC, B-CV, B-OG, B-PS
-37	그	O	O	O, B-LC, B-CV, B-PS, B-OG
-38	##들	O	O	O, I-LC, I-PS, I-EV, B-PS
-39	##만	O	O	O, I-LC, I-PS, B-PS, B-LC
-40	##의	O	O	O, B-PS, B-LC, I-PS, I-LC
-41	잔치	O	O	O, B-LC, B-PS, B-CV, B-EV
-42	’	O	O	O, B-CV, B-LC, I-EV, B-PS
-43	로	O	O	O, B-LC, B-CV, B-PS, B-QT
-44	끝날	O	O	O, B-LC, B-CV, B-EV, B-PS
-45	것	O	O	O, B-CV, B-LC, B-PS, B-OG
-46	##으로	O	O	O, B-CV, B-LC, B-OG, B-TM
-47	전망	O	O	O, B-CV, B-TM, B-OG, B-LC
-48	##된	O	O	O, I-OG, B-LC, B-PS, B-CV
-49	##다	O	O	O, B-CV, B-LC, I-OG, B-PS
-50	.	O	O	O, B-LC, B-PS, B-CV, B-OG
-51	[SEP]	O	O	O, B-LC, B-CV, B-PS, I-EV
+	text	label	preds
+0	[CLS]	O	O
+1	이	O	O
+2	작품	O	O
+3	##엔	O	O
+4	예약	O	O
+5	##이	O	O
+6	3	B-QT	B-QT
+7	##개	I-QT	I-QT
+8	걸렸	O	O
+9	##고	O	O
+10	…	O	O
+11	.	O	O
+12	""""	O	O
+13	(	O	O
+14	하우	B-OG	B-OG
+15	##저	I-OG	I-OG
+16	&	I-OG	I-OG
+17	워스	I-OG	I-OG
+18	갤러리	O	I-OG
+19	부스	O	O
+20	)	O	O
+21	[SEP]	O	O

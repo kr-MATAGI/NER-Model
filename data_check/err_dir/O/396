@@ -1,10 +1,14 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-AF
-1	고구마	B-CV	B-CV	B-CV, B-PT, O, B-AM, B-OG
-2	##는	O	O	O, I-CV, I-AF, I-OG, B-CV
-3	배	O	B-AM	B-AM, O, B-CV, B-PS, B-PT
-4	##가	O	O	O, I-AF, I-CV, I-PS, I-QT
-5	든든	O	O	O, B-CV, B-TM, B-OG, B-AF
-6	##합니다	O	O	O, I-CV, I-AF, I-OG, B-CV
-7	.	O	O	O, B-CV, B-LC, B-PS, I-AF
-8	[SEP]	O	O	O, B-CV, I-AF, B-LC, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	일	O	O
+2	월	O	O
+3	삼	O	O
+4	##십	O	O
+5	##일	O	O
+6	일의	O	O
+7	슈퍼	O	O
+8	블루	O	B-TM
+9	블러드	O	O
+10	##문	O	O
+11	.	O	O
+12	[SEP]	O	O

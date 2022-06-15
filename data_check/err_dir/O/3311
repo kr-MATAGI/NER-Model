@@ -1,26 +1,59 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	하지만	O	O	O, B-CV, B-LC, B-OG, B-EV
-2	대한민국	B-LC	B-LC	B-LC, B-OG, O, B-AF, B-PS
-3	##은	O	O	O, I-LC, I-OG, I-AF, I-EV
-4	그	O	O	O, B-EV, B-LC, B-OG, B-DT
-5	글로벌	O	O	O, B-EV, B-LC, I-EV, B-OG
-6	금융	O	O	O, B-EV, I-EV, B-LC, B-OG
-7	##위	O	I-EV	I-EV, O, B-EV, I-OG, I-LC
-8	##기	O	O	O, I-EV, B-EV, I-OG, I-LC
-9	##를	O	O	O, I-EV, I-OG, I-AF, B-CV
-10	가장	O	O	O, B-LC, B-CV, B-OG, B-TM
-11	빠른	O	O	O, B-LC, B-TI, B-TM, B-OG
-12	시간	O	O	O, B-LC, B-TI, I-TI, B-CV
-13	##에	O	O	O, B-CV, B-LC, B-OG, B-PS
-14	성공	O	O	O, B-CV, B-LC, B-TM, B-OG
-15	##적으로	O	O	O, B-LC, B-CV, B-PS, B-OG
-16	극복	O	O	O, B-LC, B-CV, B-OG, B-EV
-17	##한	O	O	O, B-LC, B-OG, B-PS, B-CV
-18	나라	O	O	O, B-LC, B-CV, B-OG, B-PS
-19	##로	O	O	O, B-CV, B-LC, B-OG, B-PS
-20	인정받	O	O	O, B-CV, B-LC, I-OG, B-OG
-21	##는	O	O	O, I-OG, B-CV, I-CV, I-AF
-22	##다	O	O	O, B-CV, I-OG, B-LC, I-AF
-23	.	O	O	O, B-LC, B-CV, B-OG, B-PS
-24	[SEP]	O	O	O, B-LC, B-CV, I-EV, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	정우택	B-PS	B-PS
+2	원내대표	B-CV	B-CV
+3	##는	O	O
+4	이날	B-DT	B-DT
+5	원외	B-OG	B-OG
+6	##당	I-OG	I-OG
+7	##협	I-OG	I-OG
+8	##위원	I-OG	I-OG
+9	##장	I-OG	I-OG
+10	##협	I-OG	I-OG
+11	##의	I-OG	I-OG
+12	##회	I-OG	I-OG
+13	##에	O	O
+14	참석	O	O
+15	##해	O	O
+16	“	O	O
+17	협	O	O
+18	##치	O	O
+19	##의	O	O
+20	정치	O	O
+21	##를	O	O
+22	하	O	O
+23	##겠다	O	O
+24	##던	O	O
+25	대통령	B-CV	B-CV
+26	##이	O	O
+27	위장	O	O
+28	협	O	O
+29	##치	O	O
+30	##쇼	O	O
+31	##로	O	O
+32	치닫	O	O
+33	##고	O	O
+34	있	O	O
+35	##다	O	O
+36	”	O	O
+37	며	O	O
+38	“	O	O
+39	대통령	B-CV	B-CV
+40	##이	O	O
+41	인사	O	B-CV
+42	##권	O	I-CV
+43	##을	O	O
+44	행사	O	O
+45	##하	O	O
+46	##는데	O	O
+47	청문회	O	O
+48	##는	O	O
+49	하나	B-QT	B-QT
+50	##의	O	O
+51	참고	O	O
+52	##용	O	O
+53	##이	O	O
+54	##라고	O	O
+55	한다	O	O
+56	.	O	O
+57	[SEP]	O	O

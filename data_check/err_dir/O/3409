@@ -1,32 +1,59 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	탤런트	B-CV	B-CV	B-CV, O, B-TM, I-CV, B-PS
-2	권오	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-CV
-3	##중	I-PS	I-PS	I-PS, O, I-OG, I-LC, I-QT
-4	##도	O	O	O, I-PS, I-OG, B-CV, I-AF
-5	한식	B-CV	B-CV	B-CV, O, B-FD, I-CV, B-LC
-6	·	O	O	O, I-CV, I-OG, I-QT, I-LC
-7	양식	B-CV	B-CV	B-CV, O, I-CV, B-FD, B-LC
-8	##에	O	O	O, I-CV, I-QT, I-OG, I-AF
-9	바리스타	B-CV	B-CV	B-CV, O, I-CV, B-FD, B-TM
-10	자격증	O	O	O, I-CV, B-CV, I-QT, I-EV
-11	##을	O	O	O, B-CV, B-OG, B-PS, B-TM
-12	보유	O	O	O, B-CV, B-TM, B-LC, B-OG
-13	##하고	O	O	O, B-PS, I-CV, I-OG, I-AF
-14	있	O	O	O, B-CV, B-PS, B-LC, B-TM
-15	##으며	O	O	O, B-LC, B-CV, B-TM, B-OG
-16	개그맨	B-CV	B-CV	B-CV, O, B-TM, B-PS, B-AF
-17	박수	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-CV
-18	##홍	I-PS	I-PS	I-PS, O, I-OG, I-LC, I-QT
-19	##도	O	O	O, I-PS, I-OG, I-AF, B-CV
-20	한식	O	B-CV	B-CV, O, B-OG, B-FD, B-AF
-21	##조리	B-CV	I-CV	I-CV, B-CV, O, I-OG, I-FD
-22	##사	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-TM
-23	자격증	O	O	O, I-CV, I-OG, I-QT, I-AF
-24	##을	O	O	O, B-CV, I-CV, B-PS, B-TM
-25	가지	O	O	O, B-CV, B-TM, B-LC, B-AF
-26	##고	O	O	O, I-CV, B-PS, I-AF, I-OG
-27	있	O	O	O, B-CV, B-LC, B-PS, B-TM
-28	##다	O	O	O, B-CV, B-TM, B-LC, I-OG
-29	.	O	O	O, B-LC, B-PS, B-CV, B-OG
-30	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	에	B-PS	B-PS
+2	##돌	I-PS	I-PS
+3	##퍼스	I-PS	I-PS
+4	타운	I-PS	I-PS
+5	##스	I-PS	I-PS
+6	미국	B-LC	B-LC
+7	하원	B-OG	B-OG
+8	감독	B-CV	B-CV
+9	·	O	I-CV
+10	정부	B-CV	I-CV
+11	##개혁	I-CV	I-CV
+12	##위원	I-CV	I-CV
+13	##장	I-CV	I-CV
+14	##은	O	O
+15	18	B-DT	B-DT
+16	##일	I-DT	I-DT
+17	도요	B-OG	B-OG
+18	##다	I-OG	I-OG
+19	사장	B-CV	B-CV
+20	##에	O	O
+21	##게	O	O
+22	“	O	O
+23	도요타	B-OG	B-OG
+24	차	B-AF	B-AF
+25	##의	O	O
+26	급	O	O
+27	##가	O	O
+28	##속	O	O
+29	문제	O	O
+30	##로	O	O
+31	사람	O	O
+32	##들	O	O
+33	사이	O	O
+34	##에	O	O
+35	우려	O	O
+36	##가	O	O
+37	퍼지	O	O
+38	##고	O	O
+39	있	O	O
+40	##다	O	O
+41	”	O	O
+42	며	O	O
+43	24	B-DT	B-DT
+44	##일	I-DT	I-DT
+45	청문회	O	O
+46	##에	O	O
+47	증인	B-CV	B-CV
+48	##으로	O	O
+49	출석	O	O
+50	##해	O	O
+51	달라	O	O
+52	##고	O	O
+53	요청	O	O
+54	##했	O	O
+55	##다	O	O
+56	.	O	O
+57	[SEP]	O	O

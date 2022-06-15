@@ -1,52 +1,20 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-EV, I-CV, I-OG
-1	그	O	O	O, B-CV, B-OG, B-PS, B-TM
-2	##는	O	O	O, B-CV, B-PS, I-EV, B-LC
-3	""""	O	O	O, B-CV, B-LC, B-PS, B-OG
-4	인도네시아	B-LC	B-LC	B-LC, B-OG, O, B-CV, B-PS
-5	기술자	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-TM
-6	80	B-QT	B-QT	B-QT, I-QT, B-DT, O, I-CV
-7	##여	I-QT	I-QT	I-QT, O, I-LC, I-DT, I-EV
-8	명	I-QT	I-QT	I-QT, O, I-LC, I-PS, I-EV
-9	##이	O	O	O, I-QT, B-PS, B-OG, B-LC
-10	한국	B-OG	B-OG	B-OG, O, B-LC, B-AF, I-OG
-11	##항공	I-OG	I-OG	I-OG, O, B-OG, I-LC, I-AF
-12	##우주	I-OG	I-OG	I-OG, O, I-LC, B-OG, I-AF
-13	##산업	I-OG	I-OG	I-OG, O, I-LC, I-AF, I-QT
-14	(	O	O	O, I-OG, B-CV, I-QT, I-EV
-15	KAI	B-OG	B-OG	B-OG, O, I-OG, B-AF, B-LC
-16	)	O	O	O, I-OG, I-EV, I-CV, I-AF
-17	에	O	O	O, B-CV, B-OG, B-LC, I-OG
-18	파견	O	O	O, B-CV, B-LC, B-OG, B-PS
-19	##돼	O	O	O, B-LC, B-PS, I-LC, B-CV
-20	차세대	O	O	O, B-AF, B-TM, B-LC, B-OG
-21	전투기	O	B-AF	B-AF, O, I-AF, B-CV, B-OG
-22	##를	O	O	O, I-AF, I-OG, I-EV, I-CV
-23	공동	O	O	O, B-CV, B-LC, B-TM, B-PS
-24	개발	O	O	O, B-CV, B-LC, B-TM, B-PS
-25	##하고	O	O	O, B-PS, B-LC, B-CV, B-OG
-26	있	O	O	O, B-PS, B-CV, B-LC, B-OG
-27	##다	O	O	O, B-CV, B-PS, B-LC, B-OG
-28	""""	O	O	O, B-CV, B-PS, B-LC, B-OG
-29	며	O	O	O, B-CV, B-OG, B-LC, B-PS
-30	""""	O	O	O, B-CV, B-LC, B-PS, B-OG
-31	202	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-32	##6	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-33	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-34	##이면	O	O	O, I-DT, B-PS, B-OG, I-OG
-35	양국	O	O	O, B-LC, B-OG, B-CV, B-TM
-36	합작	O	O	O, B-OG, B-LC, B-CV, I-OG
-37	전투기	O	B-AF	B-AF, O, I-AF, B-OG, B-CV
-38	##를	O	O	O, I-AF, I-OG, I-EV, B-CV
-39	볼	O	O	O, B-CV, B-TM, B-LC, B-OG
-40	수	O	O	O, B-PS, B-CV, B-LC, B-OG
-41	있	O	O	O, B-CV, B-PS, I-EV, B-LC
-42	##을	O	O	O, B-CV, B-PS, B-LC, I-EV
-43	것	O	O	O, B-CV, B-PS, B-TM, I-EV
-44	""""	O	O	O, B-CV, B-PS, B-TM, B-LC
-45	이라	O	O	O, B-CV, B-PS, B-OG, B-TM
-46	##고	O	O	O, B-CV, B-PS, I-OG, I-CV
-47	했	O	O	O, B-CV, B-OG, B-PS, B-TM
-48	##다	O	O	O, B-CV, B-PS, I-EV, B-LC
-49	.	O	O	O, B-LC, B-PS, B-OG, B-CV
-50	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	연천	B-LC	B-LC
+2	GO	B-OG	B-AF
+3	##P	I-OG	I-AF
+4	##초	O	I-AF
+5	##소	O	I-AF
+6	##서	O	O
+7	수류탄	B-AF	B-AF
+8	폭발	O	O
+9	…	O	O
+10	신병	B-CV	B-CV
+11	1	B-QT	B-QT
+12	##명	I-QT	I-QT
+13	숨지	O	O
+14	##고	O	O
+15	소대	B-CV	B-CV
+16	##장	I-CV	I-CV
+17	부상	O	O
+18	[SEP]	O	O

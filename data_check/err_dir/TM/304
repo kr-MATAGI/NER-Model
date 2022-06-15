@@ -1,40 +1,21 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	그런데	O	O	O, B-CV, B-TM, B-PS, B-OG
-2	##도	O	O	O, B-PS, B-CV, B-OG, B-TM
-3	김	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-4	##씨	O	O	O, I-PS, B-CV, I-OG, I-AF
-5	##는	O	O	O, B-CV, B-TM, B-PS, B-LC
-6	이	O	O	O, B-PS, B-CV, B-AF, B-QT
-7	아이디	O	O	O, B-CV, B-TM, I-CV, B-AM
-8	대신	O	O	O, I-CV, B-CV, B-PS, B-TM
-9	또	O	O	O, B-CV, B-TM, B-PS, B-LC
-10	##다른	O	O	O, B-QT, B-CV, B-PS, B-TM
-11	포털	O	O	O, B-TM, B-CV, I-TM, B-OG
-12	##사이	O	O	O, I-TM, I-CV, B-TM, B-CV
-13	##트	O	O	O, I-TM, I-CV, B-TM, B-CV
-14	##인	O	O	O, B-CV, B-PS, B-TM, I-CV
-15	야후	B-TM	B-TM	B-TM, B-OG, B-AF, O, B-LC
-16	##에서	O	O	O, I-OG, I-TM, I-AF, I-CV
-17	개설	O	O	O, B-TM, B-CV, I-TM, B-LC
-18	##한	O	O	O, B-PS, B-CV, B-TM, B-LC
-19	16	B-QT	B-QT	B-QT, O, I-QT, B-TM, B-PS
-20	##개	I-QT	I-QT	I-QT, O, I-TM, I-LC, I-PS
-21	##의	O	O	O, I-QT, B-CV, I-AF, B-TM
-22	전자	B-TM	O	O, B-TM, B-CV, I-TM, B-AF
-23	##우	I-TM	O	O, I-TM, I-CV, B-TM, I-AF
-24	##편	I-TM	O	O, I-TM, I-CV, I-AF, B-TM
-25	주소	O	O	O, I-TM, I-CV, B-CV, B-TM
-26	##를	O	O	O, I-CV, I-TM, B-CV, B-PS
-27	이용해	O	O	O, B-CV, B-TM, B-PS, B-LC
-28	‘	O	O	O, B-OG, B-CV, B-LC, B-PS
-29	오늘	B-TM	B-TM	B-TM, B-OG, O, B-CV, B-AF
-30	##의	I-TM	I-TM	I-TM, I-OG, O, I-AF, I-CV
-31	유머	I-TM	I-TM	I-TM, I-OG, O, I-AF, I-CV
-32	’	O	O	O, I-TM, I-OG, I-CV, I-AF
-33	에	O	O	O, B-CV, B-OG, B-PS, B-TM
-34	가입	O	O	O, B-CV, B-TM, B-OG, B-PS
-35	##했	O	O	O, B-CV, I-CV, B-PS, I-OG
-36	##다	O	O	O, B-CV, B-TM, B-PS, I-CV
-37	.	O	O	O, B-TM, B-CV, B-PS, B-LC
-38	[SEP]	O	O	O, B-CV, B-TM, B-PS, I-TM
+	text	label	preds
+0	[CLS]	O	O
+1	중국	B-LC	B-LC
+2	##의	O	O
+3	남과	O	O
+4	북	B-TM	O
+5	##을	O	O
+6	시속	B-QT	B-QT
+7	300	I-QT	I-QT
+8	##㎞	I-QT	I-QT
+9	##로	O	O
+10	종단	O	O
+11	##하	O	O
+12	##며	O	O
+13	8	B-TI	B-TI
+14	##시간	I-TI	I-TI
+15	##에	O	O
+16	주파	O	O
+17	##한다	O	O
+18	.	O	O
+19	[SEP]	O	O

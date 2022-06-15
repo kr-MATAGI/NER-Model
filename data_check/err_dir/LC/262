@@ -1,24 +1,11 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-AF
-1	[	O	O	O, B-LC, B-OG, B-CV, B-PS
-2	2012	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-QT
-3	##지구	B-LC	O	O, B-LC, I-DT, B-CV, B-OG
-4	##촌	I-LC	O	O, I-LC, B-LC, I-PS, I-CV
-5	새	O	O	O, B-LC, B-PS, I-LC, B-OG
-6	##권력	O	O	O, B-LC, I-LC, B-PS, I-PS
-7	]	O	O	O, B-LC, B-OG, B-PS, I-OG
-8	3	B-QT	B-QT	B-QT, O, B-DT, B-EV, I-QT
-9	##차례	I-QT	I-QT	I-QT, O, I-EV, B-QT, I-LC
-10	美	B-LC	B-LC	B-LC, B-OG, O, I-QT, I-LC
-11	대선	B-EV	B-EV	B-EV, O, B-CV, I-EV, B-AF
-12	##후	B-CV	B-CV	B-CV, O, I-CV, I-EV, B-AF
-13	##보	I-CV	I-CV	I-CV, O, B-CV, I-EV, I-OG
-14	TV	B-TM	B-TM	B-TM, O, I-TM, B-AF, I-CV
-15	토론	O	O	O, I-TM, I-CV, I-AF, I-EV
-16	…	O	O	O, B-CV, B-OG, B-LC, B-TM
-17	中	B-LC	B-LC	B-LC, B-OG, O, B-CV, B-TM
-18	53	B-QT	B-QT	B-QT, I-QT, O, I-OG, I-LC
-19	vs	O	O	O, I-QT, B-QT, I-LC, I-OG
-20	日	B-LC	B-LC	B-LC, B-OG, O, I-QT, I-LC
-21	0	B-QT	B-QT	B-QT, I-QT, O, I-LC, I-OG
-22	[SEP]	O	O	O, I-QT, B-LC, I-LC, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	레바논	B-LC	B-OG
+2	##은	O	O
+3	도깨비	O	O
+4	같	O	O
+5	##은	O	O
+6	팀	O	O
+7	##이다	O	O
+8	.	O	O
+9	[SEP]	O	O

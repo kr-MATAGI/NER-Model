@@ -1,65 +1,23 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	그	O	O	O, B-CV, B-PS, B-OG, B-LC
-2	##는	O	O	O, B-CV, B-PS, I-EV, B-LC
-3	“	O	O	O, B-CV, B-LC, B-PS, B-OG
-4	현재	O	O	O, B-LC, B-OG, B-PS, B-CV
-5	미국	B-LC	B-LC	B-LC, B-OG, O, B-PS, B-AF
-6	중국	B-LC	B-LC	B-LC, B-OG, I-OG, I-LC, O
-7	인도	B-LC	B-LC	B-LC, B-OG, I-OG, I-LC, O
-8	##가	O	O	O, I-OG, I-LC, B-PS, B-LC
-9	AI	O	B-FD	B-FD, B-TM, O, B-TR, B-CV
-10	개발	O	O	O, I-TM, B-CV, I-FD, I-CV
-11	경쟁	O	O	O, B-CV, B-LC, B-PS, B-TM
-12	##을	O	O	O, B-CV, B-PS, B-OG, B-LC
-13	이끌	O	O	O, B-LC, B-CV, B-OG, B-PS
-14	##고	O	O	O, B-PS, B-LC, B-CV, B-OG
-15	있	O	O	O, B-PS, B-LC, B-CV, B-OG
-16	##지만	O	O	O, B-LC, B-PS, B-OG, B-CV
-17	다른	O	O	O, B-LC, B-OG, B-PS, B-CV
-18	국가	O	O	O, B-CV, B-LC, B-OG, B-PS
-19	##들	O	O	O, B-PS, B-LC, B-CV, I-OG
-20	##도	O	O	O, B-LC, B-PS, B-CV, B-OG
-21	어떻게	O	O	O, B-CV, B-LC, B-TM, B-PS
-22	해서	O	O	O, B-LC, B-PS, B-CV, B-TM
-23	##든	O	O	O, B-LC, B-PS, B-CV, B-OG
-24	따라잡	O	O	O, B-LC, B-CV, B-OG, B-TM
-25	##으	O	O	O, B-LC, B-PS, B-CV, B-OG
-26	##려	O	O	O, B-LC, B-PS, B-CV, B-TM
-27	할	O	O	O, B-LC, B-PS, B-CV, B-OG
-28	것	O	O	O, B-PS, B-CV, B-LC, B-OG
-29	”	O	O	O, B-CV, B-PS, I-OG, B-LC
-30	이라	O	O	O, B-CV, B-PS, B-OG, B-LC
-31	##며	O	O	O, B-CV, B-LC, B-OG, B-TM
-32	국가	O	O	O, B-CV, B-OG, B-LC, B-PS
-33	##들이	O	O	O, B-PS, B-CV, B-LC, I-OG
-34	통상	O	O	O, B-CV, B-LC, B-PS, B-OG
-35	##적인	O	O	O, B-CV, B-LC, B-PS, B-OG
-36	법	O	O	O, B-CV, B-OG, B-PS, I-CV
-37	##을	O	O	O, B-CV, I-CV, B-PS, B-LC
-38	따를	O	O	O, B-LC, B-PS, B-CV, B-OG
-39	필요	O	O	O, B-CV, B-LC, B-TM, B-PS
-40	##가	O	O	O, B-PS, B-LC, B-CV, B-OG
-41	없	O	O	O, B-CV, B-PS, B-LC, B-QT
-42	##고	O	O	O, B-PS, B-CV, B-LC, B-TM
-43	,	O	O	O, B-CV, B-LC, B-PS, B-OG
-44	관련	O	O	O, B-CV, B-LC, B-OG, B-PS
-45	회사	O	O	O, B-CV, B-OG, I-CV, B-PS
-46	##들	O	O	O, B-CV, B-PS, I-CV, B-LC
-47	##을	O	O	O, B-CV, B-PS, B-TM, B-LC
-48	협박	O	O	O, B-CV, B-LC, B-TM, B-PS
-49	##해	O	O	O, B-PS, B-LC, B-CV, I-LC
-50	원하	O	O	O, B-CV, B-LC, B-PS, B-TM
-51	##는	O	O	O, B-LC, B-PS, B-CV, B-TM
-52	AI	O	B-FD	B-FD, B-TM, O, B-TR, B-CV
-53	##를	O	O	O, I-AF, I-TM, I-FD, I-CV
-54	얻	O	O	O, B-CV, B-PS, B-LC, B-TM
-55	##을	O	O	O, B-PS, B-CV, B-LC, B-TM
-56	수	O	O	O, B-PS, B-LC, B-QT, B-CV
-57	있	O	O	O, B-PS, B-CV, B-LC, B-QT
-58	##다고	O	O	O, I-QT, B-PS, B-CV, B-LC
-59	우려	O	O	O, B-CV, B-PS, B-QT, B-TM
-60	##했	O	O	O, B-PS, B-CV, I-CV, I-QT
-61	##다	O	O	O, B-CV, B-PS, I-CV, B-LC
-62	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-63	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	전국	O	O
+2	##적	O	O
+3	##으로	O	O
+4	200	B-QT	B-QT
+5	##만	I-QT	I-QT
+6	##명	I-QT	I-QT
+7	##이	O	O
+8	넘	O	O
+9	##는	O	O
+10	특수	O	B-CV
+11	##고	O	I-CV
+12	##용	O	I-CV
+13	노동자	B-CV	I-CV
+14	##는	O	O
+15	대표	O	O
+16	##적	O	O
+17	##인	O	O
+18	비정규직	B-CV	B-CV
+19	##이다	O	O
+20	.	O	O
+21	[SEP]	O	O

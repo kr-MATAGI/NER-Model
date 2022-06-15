@@ -1,47 +1,38 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	국토	B-OG	B-OG	B-OG, B-LC, O, B-AF, I-OG
-2	##해	I-OG	I-OG	I-OG, O, I-LC, B-OG, I-EV
-3	##양	I-OG	I-OG	I-OG, O, I-LC, I-EV, B-OG
-4	##부	I-OG	I-OG	I-OG, O, I-LC, I-EV, B-OG
-5	##와	O	O	O, I-OG, I-AF, I-EV, I-QT
-6	부산시	B-OG	B-OG	B-OG, B-LC, O, B-AF, B-PS
-7	등	O	O	O, I-OG, I-AF, I-LC, B-CV
-8	##에	O	O	O, B-CV, I-OG, B-OG, B-LC
-9	따르	O	O	O, B-CV, B-OG, B-LC, B-TM
-10	##면	O	O	O, B-OG, B-LC, B-CV, B-PS
-11	지난	B-DT	B-DT	B-DT, O, I-DT, B-OG, B-LC
-12	7	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-13	##월	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-14	부산	B-LC	B-LC	B-LC, B-OG, O, I-DT, B-AF
-15	##의	O	O	O, I-LC, I-AF, I-OG, B-LC
-16	아파트	O	O	O, B-AF, B-CV, B-LC, B-TM
-17	거래	O	O	O, B-CV, I-AF, B-TM, B-AF
-18	##신	O	O	O, B-CV, B-FD, I-AF, B-TM
-19	##고	O	O	O, I-AF, I-CV, B-CV, I-TM
-20	건수	O	O	O, B-TM, B-CV, B-QT, B-LC
-21	##는	O	O	O, B-CV, B-OG, B-TM, B-QT
-22	1	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-PS
-23	##만	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-24	##72	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-25	##1	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-26	##건	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-27	##으로	O	O	O, I-QT, B-OG, B-CV, B-LC
-28	지난	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-OG
-29	해	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
-30	같	B-DT	I-DT	I-DT, B-DT, O, I-QT, I-EV
-31	##은	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
-32	달	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
-33	##의	O	O	O, I-DT, B-QT, B-CV, I-AF
-34	69	B-QT	B-QT	B-QT, I-QT, O, B-DT, B-EV
-35	##28	I-QT	I-QT	I-QT, B-QT, O, I-LC, I-DT
-36	##건	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-37	##보	O	O	O, I-QT, B-CV, I-EV, I-OG
-38	##다	O	O	O, B-QT, I-QT, B-DT, B-TM
-39	55	B-QT	B-QT	B-QT, I-QT, O, B-DT, B-PS
-40	%	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-DT
-41	늘	O	O	O, I-QT, B-CV, I-OG, B-TM
-42	##었	O	O	O, I-QT, B-CV, B-OG, B-QT
-43	##다	O	O	O, B-CV, B-TM, B-QT, B-OG
-44	.	O	O	O, B-LC, B-OG, B-CV, I-OG
-45	[SEP]	O	O	O, B-LC, B-OG, B-CV, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	한글	B-DT	B-DT
+2	##날	I-DT	I-DT
+3	서울	B-LC	B-LC
+4	광화문	B-LC	B-LC
+5	##광장	I-LC	I-LC
+6	##의	O	O
+7	세종	B-PS	B-PS
+8	##대왕	B-CV	B-CV
+9	동상	O	O
+10	제	O	O
+11	##막	O	O
+12	##식	O	O
+13	##을	O	O
+14	하루	B-DT	B-DT
+15	앞두	O	O
+16	##고	O	O
+17	세종문화회관	B-AF	B-AF
+18	앞	B-TM	B-TM
+19	계단	O	O
+20	특별	O	O
+21	무대	O	O
+22	##에	O	O
+23	##서	O	O
+24	'	O	O
+25	한글	B-DT	B-EV
+26	##날	I-DT	I-EV
+27	기념	O	I-EV
+28	한글	O	I-EV
+29	낭독	O	I-EV
+30	##회	O	I-EV
+31	'	O	O
+32	가	O	O
+33	열렸	O	O
+34	##다	O	O
+35	.	O	O
+36	[SEP]	O	O

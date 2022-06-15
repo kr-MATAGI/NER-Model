@@ -1,43 +1,71 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	미국	B-LC	B-LC	B-LC, B-OG, O, B-PS, B-AF
-2	트레인	B-OG	B-OG	B-OG, O, I-OG, B-AF, B-LC
-3	##사	I-OG	I-OG	I-OG, O, I-AF, I-LC, I-PS
-4	##에서	O	O	O, I-OG, I-AF, B-PS, B-LC
-5	공급	O	O	O, B-LC, B-OG, B-CV, B-AF
-6	##받	O	O	O, I-OG, B-PS, B-LC, I-LC
-7	##는	O	O	O, B-OG, B-CV, B-LC, B-TM
-8	이	O	O	O, B-PS, B-AF, B-OG, B-CV
-9	장비	O	O	O, B-AF, B-CV, B-TM, I-AF
-10	##는	O	O	O, I-AF, B-CV, B-LC, B-TM
-11	대	O	B-AF	B-AF, O, B-OG, B-LC, B-TM
-12	##온	O	I-AF	I-AF, O, B-AF, I-OG, I-LC
-13	##도	O	I-AF	I-AF, O, I-OG, B-AF, I-LC
-14	##차	O	I-AF	I-AF, O, B-AF, I-OG, I-LC
-15	저	O	O	O, I-AF, B-TM, B-LC, B-CV
-16	##유	O	O	O, I-AF, I-TM, I-CV, I-LC
-17	##량	O	O	O, I-AF, I-TM, I-LC, I-CV
-18	##시스	O	O	O, I-AF, I-TM, I-TR, I-CV
-19	##템	O	O	O, I-TM, I-TR, I-CV, I-AF
-20	설계	O	O	O, B-CV, B-LC, B-TR, B-TM
-21	방식	O	O	O, B-CV, I-CV, B-LC, B-TM
-22	##을	O	O	O, B-CV, B-LC, B-OG, B-PS
-23	채택	O	O	O, B-CV, B-LC, B-OG, B-TM
-24	##해	O	O	O, B-LC, B-OG, B-PS, B-TM
-25	국내	O	O	O, B-LC, B-CV, B-OG, B-TM
-26	최초	O	O	O, B-QT, B-LC, B-TM, B-CV
-27	##로	O	O	O, B-QT, I-QT, B-PS, B-LC
-28	3400	B-AF	B-QT	B-QT, O, I-QT, B-AF, B-TM
-29	##US	I-AF	I-QT	I-QT, O, I-AF, I-TM, B-QT
-30	##RT	I-AF	I-QT	I-QT, O, I-AF, I-TM, I-OG
-31	##급	O	O	O, I-QT, I-AF, I-TM, I-OG
-32	##의	O	O	O, I-QT, B-PS, B-LC, I-AF
-33	대용량	O	O	O, B-TM, B-CV, B-LC, B-QT
-34	##을	O	O	O, B-CV, B-OG, B-TM, B-LC
-35	갖춘	O	O	O, B-LC, B-CV, B-OG, B-TM
-36	것	O	O	O, B-CV, B-LC, B-OG, B-TM
-37	##이	O	O	O, B-PS, B-CV, B-OG, B-LC
-38	특징	O	O	O, B-TM, B-CV, B-AF, B-LC
-39	##이다	O	O	O, B-CV, B-TM, I-AF, B-OG
-40	.	O	O	O, B-LC, B-OG, B-PS, B-AF
-41	[SEP]	O	O	O, B-LC, B-CV, B-AF, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	18	B-DT	B-DT
+2	##일	I-DT	I-DT
+3	청와대	B-AF	B-OG
+4	##와	O	O
+5	넥슨	B-OG	B-OG
+6	쪽	O	O
+7	##의	O	O
+8	말	O	O
+9	##을	O	O
+10	종합	O	O
+11	##하면	O	O
+12	,	O	O
+13	넥슨	B-OG	B-OG
+14	##코	I-OG	I-OG
+15	##리아	I-OG	I-OG
+16	##는	O	O
+17	2011	B-DT	B-DT
+18	##년	I-DT	I-DT
+19	3	I-DT	I-DT
+20	##월	I-DT	I-DT
+21	서울	B-LC	B-LC
+22	강남구	B-LC	B-LC
+23	역삼동	B-LC	B-LC
+24	82	B-QT	B-QT
+25	##5	I-QT	I-QT
+26	-	I-QT	I-QT
+27	20	I-QT	I-QT
+28	일대	O	O
+29	33	B-QT	B-QT
+30	##71	I-QT	I-QT
+31	.	I-QT	I-QT
+32	8	I-QT	I-QT
+33	##㎡	I-QT	I-QT
+34	(	O	O
+35	약	B-QT	B-QT
+36	102	I-QT	I-QT
+37	##0	I-QT	I-QT
+38	##평	I-QT	I-QT
+39	)	O	O
+40	땅	O	O
+41	##을	O	O
+42	우	B-PS	B-PS
+43	수석	B-CV	B-CV
+44	##의	O	O
+45	아내	B-CV	B-CV
+46	등	O	O
+47	네	B-QT	B-QT
+48	자매	I-QT	I-QT
+49	##로	O	O
+50	##부터	O	O
+51	136	B-QT	B-QT
+52	##4	I-QT	I-QT
+53	##억	I-QT	I-QT
+54	##90	I-QT	I-QT
+55	##00	I-QT	I-QT
+56	##만	I-QT	I-QT
+57	##원	I-QT	I-QT
+58	(	O	O
+59	국세청	O	B-OG
+60	신고	O	O
+61	##기	O	O
+62	##준	O	O
+63	)	O	O
+64	에	O	O
+65	매입	O	O
+66	##했	O	O
+67	##다	O	O
+68	.	O	O
+69	[SEP]	O	O

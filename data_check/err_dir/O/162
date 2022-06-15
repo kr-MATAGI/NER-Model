@@ -1,32 +1,37 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	중	O	O	O, B-CV, B-PS, B-TR, B-OG
-2	·	O	O	O, B-PS, I-PS, I-CV, I-OG
-3	저	O	O	O, B-PS, I-PS, I-CV, B-CV
-4	##준	O	O	O, I-PS, B-PS, I-CV, I-OG
-5	##위	O	O	O, I-PS, I-OG, I-CV, B-PS
-6	폐기물	O	O	O, B-CV, B-MT, B-TM, B-AF
-7	##은	O	O	O, B-CV, B-LC, B-TM, I-CV
-8	2008	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-OG
-9	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-10	##부터	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-11	건설	O	O	O, B-LC, B-AF, I-DT, B-OG
-12	중	O	O	O, B-LC, I-AF, B-PS, B-AF
-13	##인	O	O	O, B-LC, B-PS, B-OG, B-AF
-14	경주	O	B-LC	B-LC, O, B-AF, B-OG, B-PS
-15	방폐	O	O	O, I-LC, I-AF, B-AF, B-LC
-16	##장	O	O	O, I-AF, I-LC, I-OG, B-LC
-17	##에	O	O	O, I-AF, B-LC, B-CV, I-LC
-18	묻	O	O	O, B-LC, B-CV, B-OG, B-TM
-19	##을	O	O	O, B-LC, B-OG, B-PS, B-CV
-20	예정	O	O	O, B-CV, B-TM, B-PS, B-QT
-21	##이	O	O	O, B-PS, B-OG, B-CV, B-LC
-22	##라	O	O	O, B-LC, B-OG, B-CV, B-QT
-23	이번	O	O	O, B-OG, B-TM, B-CV, B-LC
-24	논의	O	O	O, B-CV, B-TM, B-OG, B-LC
-25	##에서	O	O	O, B-CV, B-OG, B-LC, B-TM
-26	제외	O	O	O, B-CV, B-OG, B-TM, B-LC
-27	##됐	O	O	O, B-CV, B-OG, I-OG, B-LC
-28	##다	O	O	O, B-CV, B-TM, B-OG, I-OG
-29	.	O	O	O, B-LC, B-OG, B-CV, B-PS
-30	[SEP]	O	O	O, B-LC, B-CV, B-OG, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	지난해	B-DT	B-DT
+2	글로벌	O	B-EV
+3	금융	B-EV	B-EV
+4	##위	I-EV	I-EV
+5	##기	I-EV	I-EV
+6	##가	O	O
+7	터진	O	O
+8	뒤	O	O
+9	중소형	O	O
+10	##주	O	O
+11	##들이	O	O
+12	강세	O	O
+13	##를	O	O
+14	보일	O	O
+15	때	O	O
+16	단기	O	O
+17	투자	O	O
+18	##를	O	O
+19	해	O	O
+20	약간	O	O
+21	##의	O	O
+22	수익	O	O
+23	##을	O	O
+24	올렸	O	O
+25	##던	O	O
+26	기억	O	O
+27	##이	O	O
+28	요즘	O	O
+29	계속	O	O
+30	떠오르	O	O
+31	##기	O	O
+32	때문	O	O
+33	##이다	O	O
+34	.	O	O
+35	[SEP]	O	O

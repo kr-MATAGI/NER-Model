@@ -1,13 +1,39 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-EV, I-CV, I-OG
-1	예	O	O	O, B-CV, B-PS, B-EV, B-AF
-2	아드	B-PS	B-PS	B-PS, O, B-LC, B-AF, B-EV
-3	##밀	I-PS	I-PS	I-PS, O, I-LC, I-AF, I-EV
-4	##레	I-PS	I-PS	I-PS, O, I-AF, I-LC, I-EV
-5	##의	O	O	O, I-EV, I-PS, I-AF, I-LC
-6	세일즈맨	B-AF	B-EV	B-EV, O, B-AF, I-EV, I-AF
-7	##의	I-AF	I-EV	I-EV, O, I-AF, I-TR, I-TM
-8	죽음	I-AF	I-EV	I-EV, O, I-AF, I-TM, I-TR
-9	##이	O	O	O, I-EV, I-AF, B-PS, B-CV
-10	##라는	O	O	O, I-EV, B-CV, B-PS, B-LC
-11	[SEP]	O	O	O, B-CV, I-EV, B-PS, B-EV
+	text	label	preds
+0	[CLS]	O	O
+1	국정원	B-AF	B-OG
+2	대선	B-EV	B-EV
+3	##개	O	O
+4	##입	O	O
+5	사건	O	O
+6	##처럼	O	O
+7	정권	O	O
+8	##에	O	O
+9	불리	O	O
+10	##한	O	O
+11	뉴스	O	O
+12	##는	O	O
+13	뒤	O	O
+14	##로	O	O
+15	한참	O	O
+16	밀리	O	O
+17	##고	O	O
+18	,	O	O
+19	‘	O	O
+20	종북	O	O
+21	뉴스	O	O
+22	’	O	O
+23	나	O	O
+24	대통령	B-CV	B-CV
+25	동정	O	O
+26	보도	O	O
+27	##가	O	O
+28	앞	O	O
+29	##자리	O	O
+30	##를	O	O
+31	차지	O	O
+32	##하	O	O
+33	##고	O	O
+34	있	O	O
+35	##다	O	O
+36	.	O	O
+37	[SEP]	O	O

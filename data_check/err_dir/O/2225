@@ -1,44 +1,27 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	아베	B-CV	B-CV	B-CV, B-AF, B-OG, O, B-TM
-2	##노	I-CV	I-CV	I-CV, O, I-OG, I-AF, B-CV
-3	##믹	I-CV	I-CV	I-CV, I-OG, O, I-AF, B-CV
-4	##스	I-CV	I-CV	I-CV, I-OG, O, I-AF, I-TM
-5	##는	O	O	O, I-CV, I-OG, I-AF, I-EV
-6	돈	O	O	O, B-CV, I-CV, B-AM, B-PS
-7	##을	O	O	O, B-PS, B-CV, B-LC, I-CV
-8	풀어	O	O	O, B-CV, B-PS, B-LC, B-TM
-9	엔	O	B-CV	B-CV, O, B-AF, B-OG, B-LC
-10	##화	O	I-CV	I-CV, O, I-OG, I-AF, B-CV
-11	약세	O	O	O, I-CV, I-OG, B-CV, I-EV
-12	##와	O	O	O, B-PS, B-LC, B-OG, B-CV
-13	주가	O	O	O, B-CV, B-OG, B-TM, B-LC
-14	상승	O	O	O, I-CV, B-CV, I-OG, B-PS
-15	##을	O	O	O, B-CV, B-PS, B-LC, B-OG
-16	유도	O	O	O, B-CV, B-LC, B-TM, B-OG
-17	##하고	O	O	O, B-CV, B-PS, B-LC, B-OG
-18	이	O	O	O, B-PS, B-LC, B-CV, B-OG
-19	##로	O	O	O, B-PS, B-LC, B-CV, I-OG
-20	인해	O	O	O, B-LC, B-CV, B-PS, B-OG
-21	여유	O	O	O, B-CV, B-LC, B-TM, B-OG
-22	##가	O	O	O, B-PS, B-OG, B-LC, B-CV
-23	생긴	O	O	O, B-CV, B-PS, B-OG, B-LC
-24	기업	O	O	O, B-CV, B-OG, B-TM, I-OG
-25	##들이	O	O	O, B-CV, B-PS, B-LC, I-CV
-26	투자	O	O	O, B-CV, B-TM, B-LC, B-PS
-27	##와	O	O	O, B-CV, B-LC, B-PS, B-OG
-28	임금	O	O	O, B-CV, B-MT, I-CV, B-TR
-29	인상	O	O	O, I-CV, B-CV, B-PS, B-TM
-30	##에	O	O	O, B-CV, B-LC, B-PS, B-OG
-31	나서	O	O	O, B-CV, B-LC, B-OG, B-PS
-32	소비	O	O	O, B-CV, B-TM, B-LC, I-CV
-33	##를	O	O	O, I-CV, B-PS, B-CV, B-LC
-34	활성	O	O	O, B-CV, B-TM, B-LC, I-CV
-35	##화	O	O	O, B-PS, I-CV, B-LC, I-LC
-36	##시	O	O	O, B-LC, B-PS, B-CV, I-LC
-37	##킨다	O	O	O, B-LC, B-CV, B-PS, B-OG
-38	##는	O	O	O, B-LC, B-OG, B-TM, B-CV
-39	구상	O	O	O, B-CV, B-TM, B-LC, B-OG
-40	##이다	O	O	O, B-CV, I-CV, B-PS, I-EV
-41	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-42	[SEP]	O	O	O, B-CV, B-LC, B-PS, I-CV
+	text	label	preds
+0	[CLS]	O	O
+1	LG	B-OG	B-OG
+2	##전자	I-OG	I-OG
+3	##는	O	O
+4	클라우드	O	B-TM
+5	서비스	O	I-TM
+6	기반	O	O
+7	##의	O	O
+8	‘	O	O
+9	N	O	B-TM
+10	##스크린	O	I-TM
+11	환경	O	O
+12	’	O	O
+13	을	O	O
+14	구현	O	O
+15	##하	O	O
+16	##는	O	O
+17	스마트	B-TM	B-TM
+18	넷	I-TM	I-TM
+19	##하	I-TM	I-TM
+20	##드	I-TM	I-TM
+21	##를	O	O
+22	선보였	O	O
+23	##다	O	O
+24	.	O	O
+25	[SEP]	O	O

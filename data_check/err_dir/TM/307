@@ -1,35 +1,23 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-AF, I-EV
-1	지난	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-2	8	I-DT	I-DT	I-DT, O, B-DT, I-PS, I-QT
-3	##일	I-DT	I-DT	I-DT, O, B-DT, I-PS, I-QT
-4	밤	B-TI	B-TI	B-TI, I-TI, I-DT, O, B-EV
-5	9	I-TI	I-TI	I-TI, B-TI, I-DT, O, I-TR
-6	##시	I-TI	I-TI	I-TI, O, B-TI, I-TR, I-QT
-7	##께	I-TI	I-TI	I-TI, O, I-TR, B-TI, I-QT
-8	김양	O	O	O, I-TI, B-CV, B-PS, I-CV
-9	##의	O	O	O, B-CV, B-PS, I-CV, I-AF
-10	집	O	O	O, B-CV, B-AF, B-LC, I-AF
-11	##에	O	O	O, B-CV, B-PS, I-CV, I-AF
-12	찾아간	O	O	O, B-CV, B-PS, B-LC, B-OG
-13	안	B-PS	B-PS	B-PS, O, I-PS, B-OG, B-LC
-14	##씨	O	O	O, I-PS, B-CV, I-AF, I-OG
-15	##는	O	O	O, B-CV, I-CV, B-PS, B-LC
-16	성상	O	O	O, B-CV, B-TM, B-LC, B-FD
-17	##담	O	O	O, I-CV, I-TM, B-CV, I-TR
-18	##을	O	O	O, B-CV, I-CV, B-PS, I-AF
-19	해	O	O	O, B-CV, B-PS, B-LC, I-CV
-20	##주	O	O	O, B-CV, I-CV, B-PS, I-AF
-21	##겠다	O	O	O, B-CV, I-CV, B-PS, B-LC
-22	##며	O	O	O, B-CV, B-PS, I-CV, B-LC
-23	집	O	O	O, B-CV, B-AF, B-LC, B-PS
-24	안	B-TM	O	O, B-TM, B-LC, B-CV, B-AM
-25	##으로	O	O	O, B-CV, B-TM, B-PS, B-LC
-26	함께	O	O	O, B-CV, B-TM, B-LC, B-PS
-27	들어가	O	O	O, B-CV, B-LC, B-TM, B-PS
-28	범행	O	O	O, B-CV, I-CV, B-PS, B-TM
-29	##을	O	O	O, I-CV, B-CV, I-AF, B-PS
-30	저질렀	O	O	O, B-CV, I-CV, B-PS, B-LC
-31	##다	O	O	O, B-CV, I-CV, B-PS, B-TM
-32	.	O	O	O, B-CV, B-PS, B-LC, I-CV
-33	[SEP]	O	O	O, B-CV, I-CV, B-PS, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	개통	O	O
+2	후	O	O
+3	규정	O	O
+4	##속	O	O
+5	##도	O	O
+6	등	O	O
+7	각종	O	O
+8	정보	O	O
+9	##와	O	O
+10	함께	O	O
+11	터널	O	O
+12	내부	B-TM	O
+13	##의	O	O
+14	수심	O	O
+15	##도	O	O
+16	보여준다	O	O
+17	##고	O	O
+18	했	O	O
+19	##다	O	O
+20	.	O	O
+21	[SEP]	O	O

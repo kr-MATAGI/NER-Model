@@ -1,36 +1,56 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-AF
-1	경북	B-LC	B-LC	B-LC, O, B-OG, B-AF, B-PS
-2	경주시	B-LC	B-LC	B-LC, I-LC, O, B-OG, B-AF
-3	보문	B-LC	B-LC	B-LC, O, I-LC, B-AF, B-OG
-4	##관광	I-LC	I-LC	I-LC, O, I-AF, B-LC, I-OG
-5	##단지	I-LC	I-LC	I-LC, O, I-AF, B-LC, I-OG
-6	##에	O	O	O, I-LC, I-AF, B-LC, I-OG
-7	위치	O	O	O, B-OG, B-LC, B-AF, B-TM
-8	##한	O	O	O, B-LC, B-OG, B-PS, B-AF
-9	씨	B-OG	B-OG	B-OG, B-AF, O, B-EV, B-TM
-10	##네	I-OG	I-OG	I-OG, I-AF, O, B-OG, I-TM
-11	##큐	I-OG	I-OG	I-OG, I-AF, O, I-LC, B-OG
-12	경주	I-OG	I-OG	I-OG, B-LC, I-AF, B-AF, B-OG
-13	보문	I-OG	I-OG	I-OG, I-AF, B-AF, B-LC, B-OG
-14	##점	I-OG	I-OG	I-OG, I-AF, I-LC, O, I-CV
-15	##은	O	O	O, I-OG, I-AF, I-EV, I-CV
-16	총	O	O	O, B-QT, B-DT, B-TM, B-LC
-17	6	B-QT	B-QT	B-QT, I-QT, O, B-DT, B-EV
-18	##개	I-QT	I-QT	I-QT, O, B-QT, I-EV, I-LC
-19	##관	O	I-QT	I-QT, O, I-EV, I-LC, B-QT
-20	,	O	O	O, I-QT, B-QT, B-CV, B-TM
-21	77	B-QT	B-QT	B-QT, I-QT, O, B-DT, B-EV
-22	##3	I-QT	I-QT	I-QT, B-QT, O, I-LC, I-PS
-23	##석	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-24	규모	O	O	O, I-QT, B-CV, I-EV, I-OG
-25	##의	O	O	O, B-LC, B-OG, B-PS, I-QT
-26	경주	B-LC	B-LC	B-LC, O, B-OG, B-AF, B-PS
-27	지역	O	O	O, I-LC, B-LC, I-AF, I-OG
-28	최대	O	O	O, B-LC, B-CV, B-TM, B-OG
-29	규모	O	O	O, B-QT, B-OG, B-TM, B-LC
-30	멀티	O	O	O, B-AF, B-TM, B-LC, B-OG
-31	##플렉스	O	O	O, I-OG, I-AF, I-LC, I-QT
-32	##다	O	O	O, I-OG, I-AF, I-QT, B-CV
-33	.	O	O	O, B-LC, B-OG, B-AF, B-PS
-34	[SEP]	O	O	O, B-LC, B-OG, B-AF, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	은	B-CV	B-CV
+2	##공	I-CV	I-CV
+3	##예	I-CV	I-CV
+4	##가	I-CV	I-CV
+5	##인	O	O
+6	정선	B-PS	B-PS
+7	##화	I-PS	I-PS
+8	(	O	O
+9	38	B-QT	B-QT
+10	·	O	O
+11	여	O	O
+12	)	O	O
+13	씨	O	O
+14	##는	O	O
+15	“	O	O
+16	일본	B-LC	B-LC
+17	##과	O	O
+18	중국	B-LC	B-LC
+19	,	O	O
+20	러시아	B-LC	B-LC
+21	관광객	B-CV	B-CV
+22	##이	O	O
+23	많	O	O
+24	##다	O	O
+25	”	O	O
+26	며	O	O
+27	“	O	O
+28	주로	O	O
+29	한국	B-LC	B-LC
+30	##의	O	O
+31	멋	O	O
+32	##이	O	O
+33	담긴	O	O
+34	동전	O	O
+35	##지	O	O
+36	##갑	O	O
+37	##과	O	O
+38	목걸이	O	B-CV
+39	,	O	O
+40	은	O	B-CV
+41	##팔	O	I-CV
+42	##찌	O	I-CV
+43	##를	O	O
+44	많이	O	O
+45	찾	O	O
+46	##는	O	O
+47	##다	O	O
+48	”	O	O
+49	고	O	O
+50	말	O	O
+51	##했	O	O
+52	##다	O	O
+53	.	O	O
+54	[SEP]	O	O

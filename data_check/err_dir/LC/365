@@ -1,21 +1,45 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	그리고	O	O	O, B-CV, B-PS, B-LC, B-OG
-2	그것	O	O	O, B-CV, B-LC, B-PS, B-TM
-3	##이	O	O	O, B-PS, B-LC, B-CV, B-OG
-4	대전	B-LC	B-LC	B-LC, O, B-OG, B-AF, B-PS
-5	##과	O	O	O, I-LC, I-AF, I-OG, B-CV
-6	연결	O	O	O, B-CV, B-LC, B-TM, I-AF
-7	##된	O	O	O, B-LC, B-PS, B-CV, B-OG
-8	신	B-LC	B-LC	B-LC, O, B-AF, B-PS, B-OG
-9	##탄	I-LC	I-LC	I-LC, O, I-AF, I-PS, B-LC
-10	##지	I-LC	O	O, I-LC, I-AF, I-PS, I-OG
-11	##와	O	O	O, I-LC, I-AF, I-PS, I-OG
-12	연결	O	O	O, B-CV, B-TM, B-LC, B-PS
-13	##된	O	O	O, B-PS, B-CV, B-LC, I-AF
-14	##다고	O	O	O, B-PS, B-CV, I-AF, I-OG
-15	하	O	O	O, B-CV, B-PS, B-TM, B-LC
-16	##는	O	O	O, B-CV, B-PS, I-CV, I-AF
-17	사람	O	O	O, B-CV, B-AM, I-CV, B-PS
-18	.	O	O	O, I-CV, B-CV, I-QT, I-OG
-19	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-AF
+	text	label	preds
+0	[CLS]	O	O
+1	원래	O	O
+2	##는	O	O
+3	해안	B-LC	O
+4	(	I-LC	O
+5	海	I-LC	O
+6	安	I-LC	O
+7	)	I-LC	O
+8	면	I-LC	O
+9	##이	O	O
+10	##었	O	O
+11	##는데	O	O
+12	뱀	B-AM	B-AM
+13	##이	O	O
+14	들끓	O	O
+15	##는	O	O
+16	옛	O	O
+17	##적	O	O
+18	##에	O	O
+19	스님	B-CV	B-CV
+20	한	O	O
+21	분이	O	O
+22	'	O	O
+23	돼지	B-AM	B-AM
+24	해	O	O
+25	(	O	O
+26	亥	O	O
+27	)	O	O
+28	'	O	O
+29	를	O	O
+30	지명	O	O
+31	##에	O	O
+32	쓰	O	O
+33	##면	O	O
+34	뱀	B-AM	B-AM
+35	##이	O	O
+36	사라진다	O	O
+37	##고	O	O
+38	해서	O	O
+39	바꿨	O	O
+40	##다고	O	O
+41	한다	O	O
+42	.	O	O
+43	[SEP]	O	O

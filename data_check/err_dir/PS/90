@@ -1,53 +1,20 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	즉위	O	O	O, B-CV, B-PS, B-DT, B-LC
-2	열흘	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-CV
-3	뒤	I-DT	I-DT	I-DT, O, B-DT, I-CV, I-QT
-4	##인	O	O	O, I-DT, B-PS, I-CV, B-CV
-5	3	B-DT	B-DT	B-DT, O, I-DT, B-LC, B-EV
-6	##월	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-AF
-7	20	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-AF
-8	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-AF
-9	사도	B-PS	B-PS	B-PS, O, I-PS, B-LC, B-OG
-10	##세자	I-PS	I-PS	I-PS, O, I-DT, I-AF, I-LC
-11	##에	O	O	O, I-PS, B-CV, I-AF, I-CV
-12	##게	O	O	O, B-CV, B-LC, B-PS, B-OG
-13	장	B-PS	B-CV	B-CV, B-PS, O, B-AF, B-OG
-14	##헌	I-PS	I-CV	I-CV, I-PS, O, I-AF, B-CV
-15	##이	O	O	O, I-CV, I-PS, B-PS, I-AF
-16	##라는	O	O	O, B-PS, I-CV, B-CV, I-PS
-17	시호	O	O	O, B-CV, I-CV, B-PS, B-AF
-18	##를	O	O	O, I-CV, B-CV, B-PS, I-AF
-19	올리	O	O	O, B-CV, B-PS, B-LC, B-OG
-20	##고	O	O	O, B-PS, B-CV, I-CV, B-LC
-21	사도	B-PS	B-PS	B-PS, O, B-LC, I-PS, B-AF
-22	##세자	I-PS	I-PS	I-PS, O, I-LC, I-AF, I-DT
-23	##의	O	O	O, B-CV, I-PS, I-AF, I-CV
-24	사당	O	O	O, B-CV, B-AF, B-LC, I-AF
-25	##이	O	O	O, B-PS, B-CV, I-AF, I-CV
-26	##던	O	O	O, B-LC, B-CV, B-AF, B-PS
-27	수은	B-AF	B-AF	B-AF, B-LC, O, B-PS, B-OG
-28	##묘	I-AF	I-AF	I-AF, I-LC, O, I-OG, I-PS
-29	##가	O	O	O, I-AF, I-LC, I-OG, B-PS
-30	너무	O	O	O, B-LC, B-CV, I-AF, B-PS
-31	궁	O	O	O, B-LC, B-AF, B-PS, B-CV
-32	##색	O	O	O, I-LC, I-AF, I-OG, I-QT
-33	##하	O	O	O, B-PS, B-LC, I-PS, I-LC
-34	##다	O	O	O, B-LC, B-PS, B-CV, I-PS
-35	##며	O	O	O, B-LC, B-CV, B-PS, B-OG
-36	고쳐	O	O	O, B-CV, B-LC, B-PS, B-AF
-37	세울	O	O	O, B-CV, B-LC, B-PS, B-OG
-38	것	O	O	O, B-PS, B-CV, B-LC, B-OG
-39	##을	O	O	O, B-CV, B-PS, B-LC, I-CV
-40	명하	O	O	O, B-CV, B-PS, B-LC, B-DT
-41	##면서	O	O	O, B-PS, B-CV, B-LC, I-CV
-42	이름	O	O	O, B-CV, B-QT, B-AF, B-PS
-43	##을	O	O	O, B-CV, B-PS, I-CV, B-LC
-44	경	B-AF	B-AF	B-AF, O, B-OG, B-LC, B-PS
-45	##모	I-AF	I-AF	I-AF, O, I-OG, I-LC, I-PS
-46	##궁	I-AF	I-AF	I-AF, O, I-OG, I-LC, I-PS
-47	##으로	O	O	O, I-AF, I-OG, I-EV, I-CV
-48	바꿨	O	O	O, B-CV, B-LC, B-OG, B-DT
-49	##다	O	O	O, B-CV, I-CV, B-LC, I-EV
-50	.	O	O	O, B-CV, B-PS, B-LC, B-AF
-51	[SEP]	O	O	O, B-CV, B-LC, B-PS, I-CV
+	text	label	preds
+0	[CLS]	O	O
+1	이	O	O
+2	~	O	O
+3	그	O	O
+4	~	O	O
+5	보스	B-PS	O
+6	##캉스	I-PS	O
+7	라고	O	O
+8	하	O	O
+9	##는	O	O
+10	미국	B-LC	B-LC
+11	비수	B-TR	O
+12	##정	I-TR	O
+13	##주의	I-TR	O
+14	계열	O	O
+15	##의	O	O
+16	학자	B-CV	B-CV
+17	##에	O	O
+18	[SEP]	O	O

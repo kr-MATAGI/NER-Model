@@ -1,40 +1,38 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	그러나	O	O	O, B-OG, B-CV, B-LC, B-PS
-2	최근	O	O	O, B-LC, B-PS, B-OG, B-DT
-3	중국	B-LC	B-LC	B-LC, B-OG, O, I-LC, B-PS
-4	##에	O	O	O, I-OG, I-LC, B-CV, I-AF
-5	##선	O	O	O, B-LC, B-OG, B-PS, B-CV
-6	북한	B-LC	B-OG	B-OG, B-LC, O, B-PS, I-OG
-7	##을	O	O	O, I-OG, I-LC, I-PS, B-OG
-8	‘	O	O	O, B-CV, B-LC, B-OG, B-PS
-9	전략	O	O	O, B-LC, B-PS, B-CV, B-OG
-10	##적	O	O	O, I-PS, B-PS, B-LC, I-CV
-11	부담	O	O	O, B-PS, B-CV, B-LC, B-OG
-12	’	O	O	O, B-PS, B-CV, B-LC, B-OG
-13	으로	O	O	O, B-PS, B-CV, B-LC, B-OG
-14	보	O	O	O, B-PS, B-OG, B-CV, B-LC
-15	##면서	O	O	O, B-LC, B-PS, B-OG, B-CV
-16	한	B-LC	B-OG	B-OG, B-LC, O, B-PS, I-OG
-17	·	O	O	O, I-OG, I-LC, I-PS, I-EV
-18	미	B-LC	B-OG	B-OG, B-LC, I-OG, O, B-PS
-19	##와	O	O	O, I-OG, I-LC, B-CV, I-EV
-20	##의	O	O	O, B-LC, B-PS, I-OG, B-CV
-21	관계	O	O	O, B-CV, B-LC, B-OG, B-PS
-22	개선	O	O	O, B-CV, B-LC, B-PS, I-EV
-23	##을	O	O	O, B-PS, B-CV, B-LC, B-OG
-24	중시	O	O	O, B-CV, B-LC, B-PS, B-OG
-25	##하	O	O	O, B-PS, B-LC, B-OG, B-CV
-26	##는	O	O	O, B-LC, B-PS, B-OG, B-CV
-27	,	O	O	O, B-CV, B-LC, B-OG, B-PS
-28	이른바	O	O	O, B-LC, B-PS, B-OG, B-CV
-29	수정	O	B-TR	B-TR, O, I-TR, B-PS, B-FD
-30	##주의	O	I-TR	I-TR, O, B-TR, I-PS, I-FD
-31	시각	O	O	O, I-TR, B-CV, B-TR, I-QT
-32	##이	O	O	O, B-PS, B-CV, B-OG, B-LC
-33	나오	O	O	O, B-CV, B-OG, B-LC, B-PS
-34	##고	O	O	O, B-CV, I-OG, B-PS, I-CV
-35	있	O	O	O, B-CV, B-OG, B-LC, B-PS
-36	##다	O	O	O, B-CV, B-LC, B-OG, I-OG
-37	.	O	O	O, B-LC, B-PS, B-CV, B-OG
-38	[SEP]	O	O	O, B-LC, B-CV, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	영국	B-LC	B-LC
+2	런던	B-LC	B-LC
+3	템	B-LC	B-LC
+4	##스	I-LC	I-LC
+5	강변	I-LC	O
+6	##에	O	O
+7	자리	O	O
+8	##한	O	O
+9	이	O	O
+10	미술관	O	O
+11	##은	O	O
+12	잘	O	O
+13	알려진	O	O
+14	대로	O	O
+15	흉	O	O
+16	##물	O	O
+17	##로	O	O
+18	방치	O	O
+19	##되	O	O
+20	##었	O	O
+21	##던	O	O
+22	화력	O	O
+23	##발전	O	O
+24	##소	O	O
+25	##를	O	O
+26	성공	O	O
+27	##적	O	O
+28	##으로	O	O
+29	개조	O	O
+30	##한	O	O
+31	대표	O	O
+32	##적	O	O
+33	사례	O	O
+34	##다	O	O
+35	.	O	O
+36	[SEP]	O	O

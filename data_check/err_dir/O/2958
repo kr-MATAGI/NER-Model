@@ -1,24 +1,76 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	성원	O	B-CV	B-CV, O, B-PS, I-CV, B-PT
-2	##장	O	I-CV	I-CV, O, B-CV, I-OG, I-TM
-3	##님	O	O	O, I-CV, B-CV, I-AF, I-EV
-4	그때	O	O	O, B-CV, I-CV, B-PS, B-QT
-5	한	B-QT	B-QT	B-QT, O, I-QT, B-PS, B-CV
-6	분	I-QT	I-QT	I-QT, O, I-PS, I-LC, I-CV
-7	같	O	O	O, I-QT, B-CV, B-TM, B-PS
-8	##은	O	O	O, I-CV, I-QT, I-OG, B-PS
-9	분	O	O	O, I-QT, I-CV, B-PS, I-OG
-10	##한	O	O	O, B-CV, B-PS, B-QT, I-QT
-11	##테	O	O	O, B-CV, B-QT, B-TM, B-LC
-12	한번	O	B-QT	B-QT, O, I-QT, B-CV, B-PS
-13	저기	O	O	O, I-QT, B-CV, B-QT, B-TM
-14	한번	O	B-QT	B-QT, O, I-QT, B-CV, B-TM
-15	상담	O	O	O, I-QT, B-CV, B-TM, I-EV
-16	##을	O	O	O, B-CV, I-QT, B-OG, I-CV
-17	받아	O	O	O, B-CV, B-LC, B-TM, B-OG
-18	##야	O	O	O, B-CV, B-TM, B-LC, I-CV
-19	되	O	O	O, B-CV, B-OG, B-LC, B-TM
-20	##겠	O	O	O, B-CV, B-OG, I-OG, B-LC
-21	##지만	O	O	O, B-CV, B-OG, B-TM, I-OG
-22	[SEP]	O	O	O, B-CV, B-TM, B-LC, B-QT
+	text	label	preds
+0	[CLS]	O	O
+1	10	B-DT	B-DT
+2	##년	I-DT	I-DT
+3	##째	I-DT	I-DT
+4	고	B-QT	B-QT
+5	##3	I-QT	I-QT
+6	담임	O	O
+7	##과	O	O
+8	진학	O	O
+9	상담	O	O
+10	##을	O	O
+11	하고	O	O
+12	있	O	O
+13	##는	O	O
+14	풍	B-OG	B-OG
+15	##문	I-OG	I-OG
+16	##여	I-OG	I-OG
+17	##고	I-OG	I-OG
+18	정경	B-PS	B-PS
+19	##영	I-PS	I-PS
+20	교사	B-CV	B-CV
+21	##는	O	O
+22	""""	O	O
+23	정시	O	B-CV
+24	##는	O	O
+25	수능	B-EV	B-EV
+26	점수	O	O
+27	##로	O	O
+28	가	O	O
+29	##는	O	O
+30	건데	O	O
+31	,	O	O
+32	이번	O	O
+33	수능	B-EV	B-EV
+34	##처럼	O	O
+35	변별력	O	O
+36	##이	O	O
+37	없	O	O
+38	##으면	O	O
+39	지원	O	O
+40	전략	O	O
+41	##을	O	O
+42	짜	O	O
+43	##기	O	O
+44	힘들	O	O
+45	##다	O	O
+46	""""	O	O
+47	며	O	O
+48	""""	O	O
+49	수학	B-FD	B-FD
+50	B	O	O
+51	##형	O	O
+52	##이	O	O
+53	너무	O	O
+54	쉬워	O	O
+55	##서	O	O
+56	수학	B-FD	B-FD
+57	##에	O	O
+58	집중	O	O
+59	##했	O	O
+60	##던	O	O
+61	학생	B-CV	B-CV
+62	##들	O	O
+63	##은	O	O
+64	실망	O	O
+65	##이	O	O
+66	크	O	O
+67	##다	O	O
+68	""""	O	O
+69	고	O	O
+70	말	O	O
+71	##했	O	O
+72	##다	O	O
+73	.	O	O
+74	[SEP]	O	O

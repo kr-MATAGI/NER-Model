@@ -1,41 +1,37 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	한은	B-OG	B-OG	B-OG, B-LC, O, B-AF, B-PS
-2	수치	O	O	O, I-OG, I-AF, I-EV, I-QT
-3	##는	O	O	O, B-CV, B-LC, B-OG, I-OG
-4	나이스	B-OG	B-OG	B-OG, B-TM, B-AF, B-LC, O
-5	##가	O	O	O, I-OG, I-AF, I-TM, B-CV
-6	제공	O	O	O, B-TM, B-CV, B-LC, B-AF
-7	##하	O	O	O, B-CV, B-LC, B-PS, B-AF
-8	##는	O	O	O, B-CV, B-LC, B-TM, B-AF
-9	가계부	O	O	O, B-CV, B-AF, B-TM, B-LC
-10	##채	O	O	O, I-CV, I-AF, I-TM, B-CV
-11	표본	O	O	O, B-CV, B-AF, B-TM, B-LC
-12	데이터	O	O	O, I-CV, I-AF, I-TM, B-CV
-13	(	O	O	O, B-CV, I-CV, I-AF, B-LC
-14	차주	B-DT	O	O, B-CV, B-AF, B-TM, B-PS
-15	100	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-PS
-16	##만	I-QT	I-QT	I-QT, O, I-PS, I-LC, I-DT
-17	##명	I-QT	I-QT	I-QT, O, I-PS, I-LC, I-DT
-18	패널	O	O	O, B-CV, B-TM, B-AF, I-QT
-19	데이터	O	O	O, I-CV, I-AF, I-TM, B-CV
-20	)	O	O	O, B-CV, I-CV, I-AF, B-LC
-21	를	O	O	O, B-CV, B-LC, B-TM, B-OG
-22	바탕	O	O	O, B-CV, B-TM, B-LC, B-QT
-23	##으로	O	O	O, B-PS, B-CV, B-LC, B-OG
-24	추산	O	O	O, B-CV, B-TM, B-OG, B-QT
-25	##해	O	O	O, B-PS, B-LC, B-OG, B-CV
-26	##낸	O	O	O, B-CV, B-LC, B-PS, B-OG
-27	것	O	O	O, B-OG, B-CV, B-PS, B-LC
-28	##이어	O	O	O, B-CV, B-OG, B-LC, B-PS
-29	##서	O	O	O, B-CV, B-LC, B-TM, B-OG
-30	,	O	O	O, B-CV, B-LC, B-OG, B-TM
-31	전수	O	O	O, B-CV, B-TM, B-LC, B-PS
-32	##조사	O	O	O, B-CV, B-LC, I-CV, I-AF
-33	##에	O	O	O, B-CV, B-LC, B-OG, B-TM
-34	견줘	O	O	O, B-CV, B-LC, B-OG, B-TM
-35	정확	O	O	O, B-CV, B-TM, B-OG, B-LC
-36	##성이	O	O	O, B-CV, B-LC, B-TM, B-OG
-37	떨어진다	O	O	O, B-CV, B-TM, B-LC, B-OG
-38	.	O	O	O, B-LC, B-CV, B-OG, B-TM
-39	[SEP]	O	O	O, B-CV, B-LC, B-TM, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	그	O	O
+2	어학	O	O
+3	##당	O	O
+4	선생	B-CV	B-CV
+5	##할	O	O
+6	땐	O	O
+7	##데	O	O
+8	그때	O	O
+9	##가	O	O
+10	칠	B-DT	B-DT
+11	##십	I-DT	I-DT
+12	##육	I-DT	I-DT
+13	##년	I-DT	I-DT
+14	##대	I-DT	I-DT
+15	##에	O	O
+16	대학원	O	O
+17	끝	O	O
+18	##났	O	O
+19	##으니	O	O
+20	##까	O	O
+21	칠	B-DT	O
+22	##십	I-DT	O
+23	##칠	I-DT	O
+24	##년	I-DT	O
+25	##돈	O	O
+26	##가	O	O
+27	?	O	O
+28	맞	O	O
+29	##지	O	O
+30	##요	O	O
+31	선생	B-CV	B-CV
+32	##님	I-CV	I-CV
+33	오신	O	O
+34	##게	O	O
+35	[SEP]	O	O

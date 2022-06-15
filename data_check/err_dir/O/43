@@ -1,16 +1,30 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-EV, I-CV, I-QT
-1	○	O	O	O, B-LC, B-CV, B-PS, B-OG
-2	최대	O	O	O, B-CV, B-PS, B-QT, B-LC
-3	화제	O	O	O, B-CV, B-FD, B-TM, B-PS
-4	##작	O	O	O, B-FD, B-CV, I-CV, I-FD
-5	‘	O	O	O, B-CV, B-LC, B-OG, B-TM
-6	1987	B-AF	B-AF	B-AF, B-EV, B-LC, O, B-PS
-7	’	O	O	O, I-AF, I-EV, I-OG, B-CV
-8	개봉	O	O	O, B-CV, B-LC, B-TM, B-OG
-9	,	O	O	O, I-EV, B-PS, I-OG, B-LC
-10	흥행	O	O	O, B-CV, B-LC, B-EV, B-OG
-11	삼	O	B-EV	B-EV, O, B-DT, I-EV, B-LC
-12	##파	O	I-EV	I-EV, O, I-AF, I-LC, I-QT
-13	##전	O	I-EV	I-EV, O, I-LC, I-AF, I-QT
-14	[SEP]	O	O	O, I-EV, I-AF, I-OG, I-QT
+	text	label	preds
+0	[CLS]	O	O
+1	'	O	O
+2	환경	O	O
+3	'	O	O
+4	을	O	O
+5	'	O	O
+6	녹색	O	O
+7	##성장	O	O
+8	'	O	O
+9	뒤	O	O
+10	##로	O	O
+11	돌려	O	O
+12	'	O	O
+13	녹색	O	O
+14	##성장	O	O
+15	##환경	O	I-CV
+16	##비	B-CV	I-CV
+17	##서관	I-CV	I-CV
+18	'	O	O
+19	으로	O	O
+20	하	O	O
+21	##기	O	O
+22	##로	O	O
+23	합의	O	O
+24	본	O	O
+25	것	O	O
+26	##이다	O	O
+27	.	O	O
+28	[SEP]	O	O

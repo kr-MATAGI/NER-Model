@@ -1,11 +1,26 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	자연	O	O	O, B-FD, B-LC, B-TM, B-CV
-2	자원	O	O	O, I-LC, I-AF, I-CV, I-TM
-3	##에	O	O	O, I-AF, B-CV, B-PS, B-LC
-4	주민	O	B-CV	B-CV, O, B-TM, B-AF, B-AM
-5	##등	O	O	O, I-CV, I-AF, I-TM, B-CV
-6	##록	O	O	O, I-CV, I-AF, I-TM, I-AM
-7	##표	O	O	O, I-CV, I-AF, I-TM, I-AM
-8	##를	O	O	O, I-CV, I-AF, I-TM, I-OG
-9	[SEP]	O	O	O, B-CV, I-AF, B-LC, I-CV
+	text	label	preds
+0	[CLS]	O	O
+1	저출산	O	B-TR
+2	고령화	O	O
+3	##로	O	O
+4	건강	O	O
+5	##보험	O	O
+6	##과	O	O
+7	장기	B-CV	B-CV
+8	##요	I-CV	I-CV
+9	##양	I-CV	I-CV
+10	##보험	I-CV	I-CV
+11	등	O	O
+12	사회	O	O
+13	##보험	O	O
+14	##료	O	O
+15	지출	O	O
+16	##이	O	O
+17	급증	O	O
+18	##한	O	O
+19	영향	O	O
+20	##이	O	O
+21	컸	O	O
+22	##다	O	O
+23	.	O	O
+24	[SEP]	O	O

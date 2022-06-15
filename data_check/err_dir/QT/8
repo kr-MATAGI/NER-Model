@@ -1,19 +1,19 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-AF
-1	조선	B-AF	B-OG	B-OG, O, B-LC, B-QT, B-DT
-2	3	B-QT	B-QT	B-QT, I-QT, I-OG, B-OG, O
-3	##사	I-QT	I-QT	I-QT, I-OG, O, I-EV, I-DT
-4	차입금	O	O	O, B-CV, B-AF, I-CV, I-QT
-5	5	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-AF
-6	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-AF
-7	##만	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
-8	##에	O	O	O, I-DT, I-QT, I-AF, B-CV
-9	10	B-QT	B-QT	B-QT, I-QT, O, B-DT, B-OG
-10	##조	I-QT	I-QT	I-QT, O, I-LC, I-OG, I-DT
-11	##→	I-QT	O	O, I-QT, B-QT, I-DT, I-OG
-12	##24	I-QT	B-QT	B-QT, I-QT, O, B-DT, B-LC
-13	##조	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-14	##원	I-QT	I-QT	I-QT, O, I-LC, I-PS, I-OG
-15	##으로	O	O	O, I-QT, I-OG, B-TM, I-AF
-16	늘어	O	O	O, I-QT, B-TM, B-CV, B-QT
-17	[SEP]	O	O	O, B-LC, B-OG, B-TM, B-CV
+	text	label	preds
+0	[CLS]	O	O
+1	조선	B-AF	B-OG
+2	3	B-QT	B-QT
+3	##사	I-QT	I-QT
+4	차입금	O	O
+5	5	B-DT	B-DT
+6	##년	I-DT	I-DT
+7	##만	I-DT	I-DT
+8	##에	O	O
+9	10	B-QT	B-QT
+10	##조	I-QT	I-QT
+11	##→	I-QT	O
+12	##24	I-QT	B-QT
+13	##조	I-QT	I-QT
+14	##원	I-QT	I-QT
+15	##으로	O	O
+16	늘어	O	O
+17	[SEP]	O	O

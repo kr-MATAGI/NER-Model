@@ -1,52 +1,52 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-EV, I-CV
-1	고급	O	O	O, B-AF, B-CV, B-LC, B-PS
-2	세단	O	B-AF	B-AF, O, I-AF, B-CV, B-OG
-3	##의	O	O	O, I-AF, I-OG, I-CV, B-PS
-4	대명사	O	O	O, B-CV, B-PS, B-LC, B-OG
-5	##인	O	O	O, B-PS, B-CV, B-LC, I-CV
-6	마	B-OG	B-OG	B-OG, O, B-AF, B-LC, B-PS
-7	##세라	I-OG	I-OG	I-OG, O, I-AF, I-LC, B-OG
-8	##티	I-OG	I-OG	I-OG, O, I-AF, I-LC, I-EV
-9	##도	O	O	O, I-OG, I-AF, I-EV, I-LC
-10	지난해	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-QT
-11	프랑크푸르트	B-LC	B-EV	B-EV, B-LC, B-OG, B-AF, O
-12	모터쇼	O	I-EV	I-EV, O, I-LC, I-OG, I-AF
-13	##를	O	O	O, I-EV, I-OG, I-AF, I-DT
-14	통해	O	O	O, B-LC, B-OG, B-CV, B-PS
-15	공개	O	O	O, B-LC, B-OG, B-CV, B-TM
-16	##한	O	O	O, B-LC, B-OG, B-PS, B-AF
-17	마	B-OG	B-OG	B-OG, O, B-AF, I-OG, B-LC
-18	##세라	I-OG	I-OG	I-OG, O, I-AF, I-LC, B-OG
-19	##티	I-OG	I-OG	I-OG, O, I-AF, I-LC, I-EV
-20	최초	O	O	O, I-OG, I-AF, B-CV, I-EV
-21	##의	O	O	O, B-LC, B-AF, B-PS, I-AF
-22	4	B-QT	B-QT	B-QT, I-QT, O, B-EV, B-TM
-23	##인	I-QT	I-QT	I-QT, I-EV, O, I-AF, I-TM
-24	##승	I-QT	I-QT	I-QT, O, I-EV, I-AF, I-TM
-25	컨	B-AF	B-AF	B-AF, O, I-AF, B-TM, B-OG
-26	##버터	I-AF	I-AF	I-AF, O, I-TM, B-AF, I-QT
-27	##블	I-AF	I-AF	I-AF, O, I-TM, I-CV, I-OG
-28	모델	O	O	O, I-AF, B-CV, I-CV, I-TM
-29	##인	O	O	O, I-AF, I-CV, B-PS, I-TM
-30	그란	B-AF	B-AF	B-AF, I-AF, O, B-TM, B-LC
-31	##카	I-AF	I-AF	I-AF, O, I-TM, B-AF, I-LC
-32	##브리	I-AF	I-AF	I-AF, O, I-TM, I-LC, B-AF
-33	##오	I-AF	I-AF	I-AF, O, I-TM, I-LC, B-AF
-34	(	O	O	O, I-AF, I-OG, I-EV, I-TM
-35	Gr	O	O	O, B-AF, B-LC, B-TM, B-CV
-36	##an	O	O	O, I-AF, B-AF, I-LC, B-LC
-37	##C	O	O	O, I-AF, B-LC, I-LC, B-AF
-38	##ab	O	O	O, I-AF, B-LC, I-LC, B-AF
-39	##ri	O	O	O, I-AF, B-AF, B-LC, I-LC
-40	##o	O	O	O, I-AF, I-LC, B-LC, B-AF
-41	)	O	O	O, I-AF, B-LC, B-CV, B-TM
-42	를	O	O	O, B-LC, B-CV, B-AF, B-TM
-43	최근	O	O	O, B-LC, B-OG, B-DT, B-TM
-44	국내	O	O	O, B-LC, B-CV, B-OG, B-TM
-45	##에	O	O	O, B-LC, B-CV, B-OG, I-LC
-46	출시	O	O	O, B-LC, B-CV, B-OG, B-TM
-47	##했	O	O	O, B-LC, B-OG, B-CV, B-PS
-48	##다	O	O	O, B-CV, B-LC, B-OG, B-TM
-49	.	O	O	O, B-LC, B-AF, B-OG, B-PS
-50	[SEP]	O	O	O, B-LC, B-AF, B-CV, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	성북구	B-LC	B-LC
+2	길	B-LC	B-LC
+3	##음	I-LC	I-LC
+4	##1	I-LC	B-QT
+5	##재	I-LC	I-QT
+6	##정	I-LC	O
+7	##비	I-LC	O
+8	##촉	I-LC	O
+9	##진	I-LC	O
+10	##구역	I-LC	O
+11	##도	O	O
+12	2010	B-DT	B-DT
+13	##년	I-DT	I-DT
+14	조합	O	O
+15	##을	O	O
+16	설립	O	O
+17	##하	O	O
+18	##고	O	O
+19	시공사	O	O
+20	##까	O	O
+21	##지	O	O
+22	선정	O	O
+23	##해	O	O
+24	사업	O	O
+25	##이	O	O
+26	많이	O	O
+27	진척	O	O
+28	##된	O	O
+29	상태	O	O
+30	##지만	O	O
+31	반대	O	O
+32	측이	O	O
+33	조합	O	O
+34	설립	O	O
+35	무효	O	O
+36	##소송	O	O
+37	##을	O	O
+38	내	O	O
+39	##는	O	O
+40	등	O	O
+41	갈등	O	O
+42	##이	O	O
+43	끊이	O	O
+44	##지	O	O
+45	않	O	O
+46	##고	O	O
+47	있	O	O
+48	##다	O	O
+49	.	O	O
+50	[SEP]	O	O

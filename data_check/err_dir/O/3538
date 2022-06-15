@@ -1,10 +1,40 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	아니	O	O	O, B-CV, B-TM, B-OG, B-AF
-2	치	O	B-TR	B-TR, O, B-CV, B-FD, B-EV
-3	치료	O	I-TR	I-TR, O, B-TR, I-EV, I-CV
-4	##가	O	O	O, I-TR, I-EV, I-CV, I-AF
-5	끝났	O	O	O, B-CV, B-OG, B-TM, B-LC
-6	##으면	O	O	O, I-OG, B-CV, I-AF, B-TM
-7	##은	O	O	O, B-CV, B-OG, B-TM, B-LC
-8	[SEP]	O	O	O, B-CV, B-TM, B-LC, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	6	B-EV	B-EV
+2	·	I-EV	I-EV
+3	4	I-EV	I-EV
+4	##지방	I-EV	I-EV
+5	##선거	I-EV	I-EV
+6	##에	O	O
+7	##서	O	O
+8	3	B-QT	B-QT
+9	##선	I-QT	I-QT
+10	##에	O	O
+11	성공	O	O
+12	##한	O	O
+13	박	B-PS	B-PS
+14	##홍	I-PS	I-PS
+15	##섭	I-PS	I-PS
+16	마포구	O	O
+17	##청	O	O
+18	##장	O	O
+19	(	O	O
+20	72	O	B-QT
+21	·	O	O
+22	사진	O	O
+23	)	O	O
+24	은	O	O
+25	마포구	O	B-LC
+26	##에	O	O
+27	##서	O	O
+28	태어나	O	O
+29	평생	O	O
+30	##을	O	O
+31	살아온	O	O
+32	‘	O	O
+33	마포	B-LC	B-LC
+34	토박이	O	O
+35	’	O	O
+36	다	O	O
+37	.	O	O
+38	[SEP]	O	O

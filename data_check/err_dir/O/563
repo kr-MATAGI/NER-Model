@@ -1,38 +1,45 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-EV, B-PS
-1	주방	O	O	O, B-CV, B-TM, B-LC, B-FD
-2	##에	O	O	O, B-PS, B-CV, B-QT, B-AM
-3	있	O	O	O, B-PS, B-CV, I-PS, B-QT
-4	##던	O	O	O, B-PS, B-CV, I-PS, I-CV
-5	콜라	O	O	O, B-OG, B-CV, B-PS, B-AF
-6	##텍	O	O	O, I-OG, I-CV, I-PS, I-AF
-7	사장	B-CV	B-CV	B-CV, O, I-CV, B-PS, B-QT
-8	이모	O	O	O, B-PS, I-CV, B-CV, B-QT
-9	씨	O	O	O, B-PS, B-CV, I-PS, I-CV
-10	(	O	O	O, B-PS, B-CV, I-PS, I-CV
-11	51	O	B-QT	B-QT, O, B-PS, I-QT, B-CV
-12	)	O	O	O, I-QT, B-PS, B-CV, I-PS
-13	역시	O	O	O, B-PS, B-CV, I-PS, B-QT
-14	홍	O	B-PS	B-PS, O, I-PS, B-OG, B-LC
-15	씨	O	O	O, I-PS, B-PS, B-CV, I-CV
-16	##가	O	O	O, B-PS, B-CV, I-PS, B-QT
-17	돈	O	O	O, B-CV, B-PS, I-PS, B-QT
-18	##을	O	O	O, B-PS, B-CV, I-PS, B-QT
-19	내지	O	O	O, B-PS, B-CV, I-PS, B-QT
-20	않	O	O	O, B-PS, B-CV, I-PS, B-QT
-21	##고	O	O	O, B-PS, B-CV, I-PS, B-QT
-22	도망가	O	O	O, B-PS, B-CV, I-PS, B-QT
-23	##려	O	O	O, B-PS, B-CV, B-QT, I-PS
-24	##는	O	O	O, B-PS, B-CV, I-PS, B-QT
-25	것	O	O	O, B-PS, B-CV, I-PS, B-QT
-26	##이	B-PS	O	O, B-PS, I-PS, B-CV, B-AM
-27	##라	O	O	O, B-PS, I-PS, B-CV, B-QT
-28	착각	O	O	O, B-PS, B-CV, B-QT, I-PS
-29	##해	O	O	O, B-PS, I-PS, B-CV, I-CV
-30	싸움	O	O	O, B-CV, B-PS, B-TM, B-LC
-31	##에	O	O	O, B-PS, B-CV, I-CV, B-QT
-32	끼어들	O	O	O, B-PS, B-CV, B-TM, B-QT
-33	##었	O	O	O, B-PS, B-CV, I-CV, B-TM
-34	##다	O	O	O, B-CV, B-PS, I-CV, B-TM
-35	.	O	O	O, B-PS, B-CV, B-TM, B-AM
-36	[SEP]	O	O	O, B-PS, B-CV, B-TM, B-AM
+	text	label	preds
+0	[CLS]	O	O
+1	이	B-PS	B-PS
+2	기관사	B-CV	B-CV
+3	##는	O	O
+4	공황	B-TM	B-TM
+5	##장	I-TM	I-TM
+6	##애	I-TM	I-TM
+7	##로	O	O
+8	업무	O	O
+9	##를	O	O
+10	계속	O	O
+11	##하	O	O
+12	##기	O	O
+13	힘들	O	O
+14	##다	O	O
+15	##며	O	O
+16	두	B-QT	B-QT
+17	차례	I-QT	I-QT
+18	##나	O	O
+19	사무직	O	B-CV
+20	##으로	O	O
+21	전직	O	O
+22	신청	O	O
+23	##을	O	O
+24	했	O	O
+25	##지만	O	O
+26	받아들여	O	O
+27	##지	O	O
+28	##지	O	O
+29	않	O	O
+30	##아	O	O
+31	심	O	O
+32	##적	O	O
+33	괴로움	O	O
+34	##을	O	O
+35	호소	O	O
+36	##해	O	O
+37	온	O	O
+38	것	O	O
+39	##으로	O	O
+40	알려졌	O	O
+41	##다	O	O
+42	.	O	O
+43	[SEP]	O	O

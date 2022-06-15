@@ -1,108 +1,26 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-EV, I-CV, I-OG
-1	전성	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
-2	##인	I-PS	I-PS	I-PS, O, I-OG, I-LC, I-QT
-3	홍익	B-OG	B-OG	B-OG, O, B-LC, I-OG, I-PS
-4	##대	I-OG	I-OG	I-OG, O, I-LC, I-PS, I-AF
-5	교수	B-CV	B-CV	B-CV, O, I-CV, I-OG, B-AF
-6	##는	O	O	O, I-CV, I-OG, I-EV, B-CV
-7	“	O	O	O, B-CV, B-LC, B-OG, B-TM
-8	워크아웃	O	O	O, B-OG, B-EV, B-CV, B-TM
-9	##의	O	O	O, I-OG, I-EV, B-PS, I-CV
-10	목적	O	O	O, B-CV, B-LC, B-TM, B-PS
-11	##은	O	O	O, B-PS, B-CV, B-LC, B-OG
-12	채권	O	O	O, B-CV, B-OG, B-LC, B-PS
-13	##단	O	O	O, I-OG, I-CV, I-EV, I-LC
-14	주도	O	O	O, I-OG, B-PS, B-CV, B-LC
-15	##로	O	O	O, B-PS, B-LC, B-OG, B-CV
-16	기업	O	O	O, B-CV, B-OG, B-LC, B-PS
-17	##을	O	O	O, B-PS, B-CV, B-LC, B-OG
-18	살리	O	O	O, B-CV, B-PS, B-LC, B-OG
-19	##자	O	O	O, B-PS, B-CV, B-LC, B-QT
-20	##는	O	O	O, B-PS, B-CV, B-LC, I-QT
-21	것	O	O	O, B-PS, B-CV, B-LC, B-OG
-22	##인	O	O	O, B-PS, B-CV, B-LC, B-OG
-23	##데	O	O	O, B-CV, B-PS, B-QT, B-LC
-24	,	O	O	O, B-CV, B-LC, B-PS, B-OG
-25	그	O	O	O, B-CV, B-PS, B-LC, B-OG
-26	주요	O	O	O, B-QT, B-TM, B-PS, B-LC
-27	내용	O	O	O, I-QT, B-QT, B-PS, B-CV
-28	중	O	O	O, B-QT, B-PS, B-TM, B-LC
-29	하나	O	B-QT	B-QT, O, I-QT, B-PS, B-CV
-30	##가	O	O	O, I-QT, B-PS, B-CV, B-LC
-31	경영자	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-TM
-32	##에	O	O	O, I-CV, B-PS, B-CV, I-QT
-33	회사	O	O	O, B-CV, B-LC, B-PS, B-OG
-34	##를	O	O	O, B-CV, B-PS, B-LC, B-OG
-35	정상	O	O	O, B-CV, B-LC, B-PS, B-TM
-36	##화	O	O	O, B-PS, B-LC, I-CV, I-LC
-37	##시	O	O	O, B-PS, B-LC, B-CV, B-OG
-38	##킬	O	O	O, B-PS, B-LC, B-CV, B-OG
-39	수	O	O	O, B-PS, B-LC, B-CV, B-QT
-40	있	O	O	O, B-PS, B-LC, B-CV, B-QT
-41	##는	O	O	O, B-PS, B-LC, B-CV, B-OG
-42	유능	O	O	O, B-PS, B-CV, B-LC, B-QT
-43	##한	O	O	O, B-PS, B-LC, I-PS, B-OG
-44	사람	O	O	O, B-CV, B-PS, B-LC, B-QT
-45	##을	O	O	O, B-CV, B-PS, B-LC, B-OG
-46	앉히	O	O	O, B-CV, B-PS, B-QT, B-LC
-47	##는	O	O	O, B-PS, B-CV, I-CV, B-LC
-48	것	O	O	O, B-PS, B-CV, B-QT, B-LC
-49	”	O	O	O, B-CV, B-LC, B-PS, B-OG
-50	이라	O	O	O, B-CV, B-PS, B-LC, B-OG
-51	##며	O	O	O, B-CV, B-LC, B-OG, B-TM
-52	“	O	O	O, B-CV, B-LC, B-OG, B-TM
-53	부실	O	O	O, B-CV, B-OG, B-LC, B-PS
-54	원인	O	O	O, B-PS, B-CV, B-LC, B-OG
-55	##이	O	O	O, B-PS, B-LC, B-OG, B-CV
-56	불가	O	O	O, B-LC, B-PS, B-OG, B-CV
-57	##항	O	O	O, B-PS, B-LC, I-PS, I-LC
-58	##력	O	O	O, B-LC, B-PS, I-PS, B-OG
-59	##적	O	O	O, B-PS, B-LC, I-PS, I-LC
-60	##이	O	O	O, B-PS, B-OG, B-LC, B-CV
-61	##라면	O	O	O, B-LC, B-PS, B-OG, B-CV
-62	기존	O	O	O, B-CV, B-PS, B-LC, B-OG
-63	경영진	B-CV	B-CV	B-CV, O, I-CV, B-PS, B-FD
-64	##에	O	O	O, I-CV, B-PS, B-CV, I-QT
-65	##게	O	O	O, B-PS, B-LC, B-QT, B-TM
-66	한번	B-QT	B-QT	B-QT, O, I-QT, B-PS, B-CV
-67	더	O	O	O, I-QT, B-QT, B-PS, I-PS
-68	기회	O	O	O, B-PS, B-QT, I-QT, B-LC
-69	##를	O	O	O, B-CV, B-PS, I-QT, B-LC
-70	줄	O	O	O, B-PS, B-CV, B-LC, B-OG
-71	수	O	O	O, B-PS, B-LC, B-QT, B-TM
-72	있	O	O	O, B-PS, B-LC, B-CV, B-TM
-73	##지만	O	O	O, B-CV, B-PS, B-LC, B-QT
-74	,	O	O	O, B-CV, B-LC, B-PS, B-OG
-75	무모	O	O	O, B-CV, B-PS, B-LC, B-OG
-76	##한	O	O	O, B-LC, B-PS, B-OG, B-QT
-77	대우건설	B-OG	B-OG	B-OG, O, B-LC, B-AF, I-OG
-78	인수	O	O	O, I-OG, B-CV, I-EV, I-CV
-79	##로	O	O	O, B-PS, B-LC, B-CV, B-OG
-80	위기	O	O	O, B-CV, B-LC, B-PS, B-OG
-81	##를	O	O	O, B-PS, B-CV, B-LC, B-OG
-82	자초	O	O	O, B-CV, B-PS, B-LC, B-OG
-83	##한	O	O	O, B-PS, B-LC, B-OG, B-CV
-84	대주주	B-CV	B-CV	B-CV, O, I-CV, B-PS, B-OG
-85	일가	O	O	O, I-CV, B-CV, B-PS, I-EV
-86	##에	O	O	O, B-PS, B-CV, B-LC, B-QT
-87	##게	O	O	O, B-LC, B-PS, B-CV, B-TM
-88	경영	O	O	O, B-CV, B-TM, B-LC, B-PS
-89	##권	O	O	O, I-CV, I-PS, I-LC, I-TM
-90	##을	O	O	O, I-CV, B-PS, B-CV, B-LC
-91	보장	O	O	O, B-CV, B-LC, B-PS, B-QT
-92	##하	O	O	O, B-PS, B-LC, B-CV, B-OG
-93	##는	O	O	O, B-CV, B-PS, B-LC, B-OG
-94	것	O	O	O, B-CV, B-LC, B-PS, B-OG
-95	##은	O	O	O, B-CV, B-LC, B-PS, B-OG
-96	옳	O	O	O, B-CV, B-LC, B-PS, B-OG
-97	##지	O	O	O, I-OG, B-PS, I-QT, I-CV
-98	않	O	O	O, I-OG, B-PS, B-LC, I-QT
-99	##다	O	O	O, B-CV, I-OG, B-LC, B-OG
-100	”	O	O	O, B-CV, B-LC, B-TM, B-OG
-101	고	O	O	O, B-CV, B-QT, B-TM, B-LC
-102	말	O	O	O, B-CV, B-TM, B-QT, I-QT
-103	##했	O	O	O, B-CV, B-PS, B-LC, B-QT
-104	##다	O	O	O, B-CV, B-TM, B-LC, B-QT
-105	.	O	O	O, B-PS, B-LC, B-CV, B-OG
-106	[SEP]	O	O	O, B-CV, B-LC, B-PS, I-EV
+	text	label	preds
+0	[CLS]	O	O
+1	황	B-PS	B-PS
+2	군수	B-CV	B-CV
+3	##는	O	O
+4	“	O	O
+5	예산	O	B-LC
+6	방문	O	O
+7	##의	O	O
+8	해	O	O
+9	##를	O	O
+10	맞아	O	O
+11	큰	O	O
+12	상	O	O
+13	##을	O	O
+14	받	O	O
+15	##게	O	O
+16	되	O	O
+17	##어	O	O
+18	더욱	O	O
+19	뜻깊	O	O
+20	##게	O	O
+21	생각	O	O
+22	##한다	O	O
+23	.	O	O
+24	[SEP]	O	O

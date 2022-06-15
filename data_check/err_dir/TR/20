@@ -1,16 +1,64 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-AF
-1	레	B-TR	O	O, B-TR, B-PS, B-FD, B-AF
-2	##토	I-TR	O	O, I-TR, I-AF, I-FD, I-TM
-3	##릭	I-TR	O	O, I-TR, I-FD, I-AF, I-TM
-4	정치	I-TR	O	O, B-FD, I-TR, I-FD, B-TR
-5	##는	O	O	O, I-AF, I-TR, I-CV, I-FD
-6	당연히	O	O	O, B-CV, B-PS, B-TM, B-LC
-7	말	O	O	O, B-AM, B-TM, B-PS, B-LC
-8	##과	O	O	O, B-PS, I-AF, B-LC, B-OG
-9	행동	O	O	O, B-AM, B-TM, B-PS, B-LC
-10	##이	O	O	O, B-PS, B-LC, B-OG, B-CV
-11	다르	O	O	O, B-CV, B-TM, B-PS, B-LC
-12	##다	O	O	O, I-AF, B-CV, I-OG, B-PS
-13	.	O	O	O, B-LC, B-PS, B-CV, I-AF
-14	[SEP]	O	O	O, B-CV, I-AF, B-LC, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	채	B-PS	B-PS
+2	총장	B-CV	B-CV
+3	##은	O	O
+4	유전자	B-TR	B-TM
+5	감식	I-TR	O
+6	##과	O	O
+7	관련	O	O
+8	,	O	O
+9	""""	O	O
+10	(	O	O
+11	법원	B-OG	B-OG
+12	##에	O	O
+13	)	O	O
+14	감정	O	O
+15	신청	O	O
+16	##을	O	O
+17	계획	O	O
+18	##하	O	O
+19	##고	O	O
+20	있	O	O
+21	##다	O	O
+22	""""	O	O
+23	면서	O	O
+24	""""	O	O
+25	아직	O	O
+26	Y	O	O
+27	##씨	O	O
+28	모자	B-CV	B-CV
+29	(	O	O
+30	母	O	O
+31	子	O	O
+32	)	O	O
+33	에	O	O
+34	대한	O	O
+35	인적	O	O
+36	사항	O	O
+37	및	O	O
+38	주소	O	O
+39	등	O	O
+40	##을	O	O
+41	파악	O	O
+42	##하	O	O
+43	##지	O	O
+44	못	O	O
+45	##해	O	O
+46	확인	O	O
+47	##되	O	O
+48	##는	O	O
+49	즉시	O	O
+50	감정	O	O
+51	신청	O	O
+52	##을	O	O
+53	진행	O	O
+54	##할	O	O
+55	예정	O	O
+56	""""	O	O
+57	이라	O	O
+58	##고	O	O
+59	밝혔	O	O
+60	##다	O	O
+61	.	O	O
+62	[SEP]	O	O

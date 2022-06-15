@@ -1,8 +1,8 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, I-OG, B-CV, I-EV
-1	다진	O	B-CV	B-CV, O, B-PT, B-MT, I-CV
-2	마늘	B-CV	I-CV	I-CV, B-CV, O, B-PT, I-PT
-3	아	O	O	O, I-CV, B-CV, I-OG, I-QT
-4	아니	O	O	O, B-CV, I-CV, B-TM, B-OG
-5	근데	O	O	O, B-CV, B-OG, B-TM, B-LC
-6	[SEP]	O	O	O, B-CV, B-LC, B-TM, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	다진	O	B-CV
+2	마늘	B-CV	I-CV
+3	아	O	O
+4	아니	O	O
+5	근데	O	O
+6	[SEP]	O	O

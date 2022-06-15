@@ -1,36 +1,25 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	부득이	O	O	O, B-CV, B-TM, B-LC, B-PS
-2	##하	O	O	O, B-PS, B-LC, B-CV, B-OG
-3	##게	O	O	O, B-CV, B-LC, B-PS, I-AF
-4	외출	O	O	O, B-CV, B-TM, B-LC, I-CV
-5	##할	O	O	O, I-CV, B-PS, B-CV, I-AF
-6	때	O	O	O, B-CV, B-PS, B-TM, B-AF
-7	##에	O	O	O, B-CV, I-CV, I-AF, B-TM
-8	##는	O	O	O, B-CV, B-TM, B-LC, B-PS
-9	렌즈	O	O	O, B-CV, B-TM, B-AM, B-TR
-10	대신	O	O	O, I-CV, I-TM, B-CV, I-AF
-11	안경	O	O	O, B-CV, B-TM, B-AM, I-CV
-12	##을	O	O	O, I-CV, B-CV, I-AF, I-TM
-13	쓰	O	O	O, B-CV, B-TM, B-LC, B-PS
-14	##고	O	O	O, B-CV, B-PS, B-TM, B-LC
-15	,	O	O	O, B-CV, B-TM, B-LC, B-PS
-16	세균	O	B-AM	B-AM, O, B-TM, B-CV, B-PS
-17	감염	O	O	O, B-TM, I-TM, B-AM, B-CV
-18	우려	O	O	O, I-TM, B-TM, B-QT, B-PS
-19	##가	O	O	O, B-PS, B-QT, B-LC, B-CV
-20	있	O	O	O, B-CV, B-TM, B-PS, B-QT
-21	##는	O	O	O, B-CV, B-TM, B-PS, B-QT
-22	안대	O	O	O, B-CV, B-TM, B-AM, I-CV
-23	##는	O	O	O, I-CV, I-AF, I-TM, B-CV
-24	되도록	O	O	O, B-CV, B-LC, B-TM, B-QT
-25	착용	O	O	O, B-CV, I-CV, B-TM, B-AM
-26	##하	O	O	O, I-CV, B-CV, B-PS, B-LC
-27	##지	O	O	O, B-CV, B-LC, B-TM, B-QT
-28	않	O	O	O, B-CV, B-LC, B-QT, B-TM
-29	##는	O	O	O, B-LC, B-CV, B-OG, B-PS
-30	게	O	O	O, B-LC, B-CV, B-PS, B-OG
-31	좋	O	O	O, B-CV, B-LC, I-CV, B-TM
-32	##다	O	O	O, B-CV, I-CV, I-OG, B-LC
-33	.	O	O	O, B-CV, B-LC, B-PS, B-TM
-34	[SEP]	O	O	O, B-CV, B-LC, B-TM, I-CV
+	text	label	preds
+0	[CLS]	O	O
+1	또	O	O
+2	탄두	O	B-AF
+3	##중	O	O
+4	##량	O	O
+5	##을	O	O
+6	높여	O	O
+7	##서	O	O
+8	위력	O	O
+9	##있	O	O
+10	##는	O	O
+11	그런	O	O
+12	어	O	O
+13	~	O	O
+14	미사일	B-AF	B-AF
+15	##을	O	O
+16	쏠	O	O
+17	수	O	O
+18	있	O	O
+19	##다	O	O
+20	##라는	O	O
+21	점	O	O
+22	##에	O	O
+23	[SEP]	O	O

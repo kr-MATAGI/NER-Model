@@ -1,55 +1,30 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-EV, I-CV
-1	한국	B-LC	B-OG	B-OG, B-LC, O, B-PS, B-AF
-2	국가	B-OG	I-OG	I-OG, B-OG, O, B-CV, I-LC
-3	##대표	I-OG	I-OG	I-OG, O, I-CV, I-EV, I-LC
-4	##축구	I-OG	I-OG	I-OG, O, B-OG, I-CV, I-EV
-5	##팀	I-OG	I-OG	I-OG, O, I-CV, I-EV, I-LC
-6	##이	O	O	O, I-OG, B-PS, I-EV, I-AF
-7	지난	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-QT
-8	5	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-9	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-10	서울	B-LC	B-LC	B-LC, B-OG, B-AF, O, B-EV
-11	##에서	O	O	O, I-LC, I-AF, I-EV, I-OG
-12	열린	O	O	O, B-EV, B-LC, B-OG, I-EV
-13	호주	B-OG	B-OG	B-OG, B-LC, B-EV, O, I-OG
-14	##와	O	O	O, I-EV, I-OG, B-EV, I-DT
-15	##의	O	O	O, I-EV, B-EV, I-DT, I-OG
-16	평가전	O	O	O, B-EV, I-EV, B-CV, B-LC
-17	##에서	O	O	O, I-EV, I-DT, B-CV, I-OG
-18	총	O	O	O, B-QT, B-TM, B-DT, B-AF
-19	117	B-QT	B-QT	B-QT, I-QT, O, I-LC, B-DT
-20	.	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-21	6	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-22	##㎞	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-23	(	O	O	O, I-QT, B-CV, B-LC, B-OG
-24	전반	B-TI	B-TI	B-TI, B-EV, O, B-QT, B-TM
-25	58	B-QT	B-QT	B-QT, I-QT, I-TI, B-TI, O
-26	.	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-TI
-27	3	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-28	##㎞	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-29	,	O	O	O, I-QT, B-CV, B-LC, I-AF
-30	후반	B-TI	B-TI	B-TI, B-EV, B-QT, O, B-TM
-31	59	B-QT	B-QT	B-QT, I-QT, I-TI, B-TI, O
-32	.	I-QT	I-QT	I-QT, O, B-QT, I-TI, I-LC
-33	3	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-34	##㎞	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-35	)	O	O	O, I-QT, B-CV, I-OG, B-OG
-36	를	O	O	O, B-CV, B-AF, B-OG, B-PS
-37	달려	O	O	O, B-CV, B-AF, B-LC, B-OG
-38	,	O	O	O, B-LC, B-CV, B-OG, B-PS
-39	정상	O	O	O, B-LC, B-CV, B-PS, B-OG
-40	##권	O	O	O, I-LC, B-LC, B-PS, I-PS
-41	유럽	B-OG	B-OG	B-OG, B-LC, I-OG, O, B-PS
-42	##팀	I-OG	I-OG	I-OG, O, I-LC, I-EV, I-CV
-43	못지않	O	O	O, I-OG, I-EV, I-AF, B-CV
-44	##은	O	O	O, B-LC, B-OG, B-CV, B-PS
-45	운동량	O	O	O, B-CV, B-LC, B-TM, B-OG
-46	##을	O	O	O, B-CV, B-OG, B-LC, B-TM
-47	보인	O	O	O, B-CV, B-OG, B-LC, B-TM
-48	것	O	O	O, B-CV, B-LC, B-OG, B-PS
-49	##으로	O	O	O, B-CV, B-LC, B-TM, B-OG
-50	나타났	O	O	O, B-CV, B-LC, B-OG, B-PS
-51	##다	O	O	O, B-CV, B-LC, B-OG, B-TM
-52	.	O	O	O, B-LC, B-OG, B-CV, B-PS
-53	[SEP]	O	O	O, B-LC, B-CV, B-OG, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	아베	B-PS	B-PS
+2	총리	B-CV	B-CV
+3	##는	O	O
+4	특히	O	O
+5	북한	B-OG	B-LC
+6	##을	O	O
+7	겨냥	O	O
+8	##해	O	O
+9	“	O	O
+10	일본	B-LC	B-LC
+11	대부분	O	O
+12	##이	O	O
+13	북한	B-LC	B-LC
+14	탄도	B-AF	B-AF
+15	##미사	I-AF	I-AF
+16	##일	I-AF	I-AF
+17	사정	O	O
+18	##권	O	O
+19	##에	O	O
+20	있	O	O
+21	##다	O	O
+22	”	O	O
+23	고	O	O
+24	강조	O	O
+25	##했	O	O
+26	##다	O	O
+27	.	O	O
+28	[SEP]	O	O

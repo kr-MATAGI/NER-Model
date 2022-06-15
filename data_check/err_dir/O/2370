@@ -1,35 +1,35 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	당초	O	O	O, B-CV, B-DT, B-QT, B-OG
-2	##보	O	O	O, B-CV, I-CV, B-PS, I-DT
-3	##다	O	O	O, B-QT, I-DT, B-CV, B-PS
-4	2	B-QT	B-QT	B-QT, I-QT, O, B-DT, B-EV
-5	##조	I-QT	I-QT	I-QT, O, I-PS, I-EV, I-DT
-6	##원	I-QT	I-QT	I-QT, O, I-PS, I-EV, I-DT
-7	추가	O	O	O, I-QT, B-CV, B-TM, B-OG
-8	##감	O	O	O, B-CV, B-TM, I-CV, B-PS
-9	##축	O	O	O, I-CV, B-CV, B-PS, I-TM
-10	밝혀	O	O	O, B-LC, B-PS, B-OG, B-CV
-11	“	O	O	O, B-CV, B-LC, B-OG, B-PS
-12	SOC	O	O	O, B-CV, B-TM, B-PS, I-CV
-13	##예산	O	O	O, I-CV, B-CV, I-TM, B-TM
-14	줄이	O	O	O, B-CV, I-CV, B-PS, B-TM
-15	##고	O	O	O, B-PS, B-CV, B-LC, I-CV
-16	복지	O	O	O, B-CV, B-TM, I-CV, B-FD
-17	-	O	O	O, I-CV, B-PS, I-TM, B-CV
-18	일자리	O	O	O, B-CV, I-CV, B-TM, I-TM
-19	확대	O	O	O, I-CV, B-CV, I-TM, B-PS
-20	,	O	O	O, B-PS, I-CV, B-CV, B-LC
-21	8	B-DT	B-QT	B-QT, O, I-QT, B-DT, B-CV
-22	·	I-DT	I-QT	I-QT, O, I-DT, I-EV, I-CV
-23	2	I-DT	I-QT	I-QT, B-QT, O, I-DT, I-EV
-24	##대	O	I-QT	I-QT, O, I-EV, I-DT, I-CV
-25	##책	O	I-QT	I-QT, O, I-CV, I-EV, I-DT
-26	효과	O	O	O, I-QT, I-CV, B-CV, I-EV
-27	…	O	O	O, B-PS, B-LC, I-QT, B-CV
-28	필요	O	O	O, B-CV, B-PS, B-TM, B-OG
-29	##땐	O	O	O, B-PS, I-CV, I-OG, B-CV
-30	추가	O	O	O, B-CV, B-LC, B-TM, B-PS
-31	조치	O	O	O, B-CV, B-PS, B-LC, B-OG
-32	”	O	O	O, B-CV, B-PS, B-OG, I-OG
-33	[SEP]	O	O	O, B-CV, B-PS, B-LC, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	여기	O	O
+2	##에	O	O
+3	재무	O	B-CV
+4	##장	O	I-CV
+5	##한	O	O
+6	일본	B-OG	B-OG
+7	##에	O	O
+8	##게	O	O
+9	중국	B-OG	B-OG
+10	##을	O	O
+11	견제	O	O
+12	##하	O	O
+13	##는	O	O
+14	지역	O	O
+15	##의	O	O
+16	‘	O	O
+17	세력	O	O
+18	균형	O	O
+19	##자	O	O
+20	’	O	O
+21	역할	O	O
+22	##을	O	O
+23	해	O	O
+24	##주	O	O
+25	##길	O	O
+26	기대	O	O
+27	##하	O	O
+28	##고	O	O
+29	나선	O	O
+30	셈	O	O
+31	##이다	O	O
+32	.	O	O
+33	[SEP]	O	O

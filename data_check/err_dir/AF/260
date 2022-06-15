@@ -1,36 +1,30 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	80	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-OG
-2	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-3	##대	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-OG
-4	중반	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-CV
-5	##부터	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-TI
-6	90	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-7	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-8	##대	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-9	초	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-OG
-10	##까	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-TI
-11	##지	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-TI
-12	인기	O	O	O, I-DT, B-CV, B-LC, B-TM
-13	##를	O	O	O, B-CV, B-LC, B-OG, B-PS
-14	끌	O	O	O, B-CV, B-LC, B-OG, B-PS
-15	##었	O	O	O, B-CV, B-LC, B-OG, B-TM
-16	##던	O	O	O, B-CV, B-LC, B-TM, B-OG
-17	'	O	O	O, B-CV, B-LC, B-OG, B-DT
-18	민병	B-AF	B-PS	B-PS, B-AF, B-OG, B-EV, O
-19	##철	I-AF	I-PS	I-PS, I-AF, I-OG, O, I-TM
-20	생활	I-AF	B-CV	B-CV, I-AF, O, B-AF, B-FD
-21	##영	I-AF	I-CV	I-CV, I-AF, B-CV, O, I-OG
-22	##어	I-AF	I-CV	I-CV, I-AF, I-OG, O, I-FD
-23	'	O	O	O, I-CV, I-AF, I-OG, I-EV
-24	는	O	O	O, B-CV, B-OG, B-LC, B-TM
-25	정확	O	O	O, B-CV, B-TM, B-LC, B-QT
-26	##한	O	O	O, B-LC, B-PS, B-TM, B-OG
-27	발음	O	O	O, B-TM, B-CV, B-LC, B-QT
-28	##에	O	O	O, B-CV, B-LC, B-OG, B-PS
-29	중점	O	O	O, B-CV, B-LC, B-TM, B-OG
-30	##을	O	O	O, B-CV, B-OG, B-LC, B-PS
-31	뒀	O	O	O, B-LC, B-OG, B-CV, B-DT
-32	##다	O	O	O, B-CV, B-LC, I-OG, B-OG
-33	.	O	O	O, B-LC, B-OG, B-CV, I-OG
-34	[SEP]	O	O	O, B-LC, B-CV, B-OG, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	현재	O	O
+2	은행	O	O
+3	##권	O	O
+4	##에	O	O
+5	##서	O	O
+6	집행	O	O
+7	##된	O	O
+8	사	B-AF	B-CV
+9	##잇	I-AF	I-CV
+10	##돌	I-AF	I-CV
+11	대출	I-AF	I-CV
+12	##은	O	O
+13	총	O	O
+14	182	B-QT	B-QT
+15	##0	I-QT	I-QT
+16	##억	I-QT	I-QT
+17	원	I-QT	I-QT
+18	,	O	O
+19	저축	O	O
+20	##은행	O	O
+21	##은	O	O
+22	50	O	O
+23	##5	O	O
+24	##억	O	O
+25	원이	O	O
+26	##다	O	O
+27	.	O	O
+28	[SEP]	O	O

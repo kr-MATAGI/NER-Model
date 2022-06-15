@@ -1,38 +1,19 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-EV, B-CV, I-OG, I-AF
-1	CNN	B-OG	B-OG	B-OG, O, B-AF, I-OG, B-LC
-2	##에	O	O	O, I-OG, I-AF, I-CV, I-EV
-3	따르	O	O	O, B-OG, B-CV, B-LC, I-OG
-4	##면	O	O	O, B-OG, B-LC, I-OG, B-PS
-5	괴한	O	O	O, B-CV, B-OG, B-PS, B-AF
-6	##은	O	O	O, I-CV, B-PS, I-OG, B-CV
-7	리조트	O	O	O, B-AF, B-LC, B-CV, B-OG
-8	2	B-QT	B-QT	B-QT, O, B-EV, B-DT, I-QT
-9	##층	I-QT	I-QT	I-QT, O, I-EV, I-AF, I-LC
-10	카지노	O	O	O, I-QT, B-AF, I-AF, B-CV
-11	##에	O	O	O, B-CV, B-LC, B-PS, B-AF
-12	들어와	O	O	O, B-LC, B-AF, B-CV, B-TM
-13	카지노	O	O	O, B-AF, B-CV, B-TM, I-AF
-14	##의	O	O	O, I-AF, B-AF, B-CV, B-PS
-15	대형	O	O	O, B-TM, B-AF, B-CV, B-OG
-16	##TV	O	B-TM	B-TM, I-TM, O, I-AF, B-CV
-17	스크린	B-TM	O	O, B-TM, I-TM, B-CV, B-LC
-18	##을	O	O	O, I-TM, B-CV, B-PS, B-TM
-19	향해	O	O	O, B-LC, B-TM, B-CV, B-AF
-20	소총	O	B-AF	B-AF, O, I-AF, B-OG, B-CV
-21	##을	O	O	O, I-AF, B-CV, I-EV, I-OG
-22	난사	O	O	O, B-LC, B-AF, B-CV, B-TM
-23	##한	O	O	O, B-LC, B-PS, B-OG, B-CV
-24	뒤	O	O	O, B-TM, B-AF, B-LC, B-CV
-25	테이블	O	O	O, B-CV, B-TM, B-AF, B-LC
-26	##에	O	O	O, B-CV, B-LC, B-TM, B-PS
-27	휘발유	B-MT	B-MT	B-MT, O, B-CV, B-AF, I-MT
-28	##를	O	O	O, B-CV, I-AF, I-CV, I-EV
-29	붓	O	O	O, B-CV, B-LC, B-AF, B-PS
-30	##고	O	O	O, B-LC, B-CV, B-PS, B-AF
-31	불	O	O	O, B-CV, B-LC, B-AF, B-TM
-32	##을	O	O	O, B-CV, I-AF, B-LC, B-PS
-33	붙였	O	O	O, B-CV, B-LC, B-PS, B-AF
-34	##다	O	O	O, B-CV, B-LC, I-EV, B-PS
-35	.	O	O	O, B-LC, B-AF, B-CV, B-PS
-36	[SEP]	O	O	O, B-LC, B-CV, B-AF, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	서로	O	O
+2	##가	O	O
+3	자기	O	O
+4	##의	O	O
+5	빵	B-CV	B-CV
+6	##을	O	O
+7	주	O	O
+8	##되	O	O
+9	한쪽	O	B-QT
+10	것	O	O
+11	##만	O	O
+12	##을	O	O
+13	먹	O	O
+14	##지	O	O
+15	말라	O	O
+16	.	O	O
+17	[SEP]	O	O

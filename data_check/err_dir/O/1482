@@ -1,28 +1,52 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	한편	O	O	O, B-QT, B-TM, B-LC, B-CV
-2	6	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-QT
-3	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
-4	전국	O	O	O, B-LC, I-DT, B-EV, B-CV
-5	##의	O	O	O, B-LC, I-LC, I-EV, B-PS
-6	낮	B-TI	B-TI	B-TI, O, B-EV, B-LC, B-QT
-7	최고	O	O	O, I-TI, I-LC, I-QT, B-LC
-8	##기	O	O	O, B-LC, I-LC, B-PS, B-QT
-9	##온	O	O	O, B-LC, I-LC, B-PS, B-QT
-10	##은	O	O	O, B-LC, B-CV, B-OG, B-TM
-11	30	B-QT	B-QT	B-QT, O, I-QT, B-TI, B-LC
-12	##∼	O	I-QT	I-QT, O, B-QT, I-LC, I-OG
-13	##36	B-QT	I-QT	I-QT, B-QT, O, I-LC, I-OG
-14	##도	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-OG
-15	##까	O	O	O, I-QT, I-LC, I-OG, B-LC
-16	##지	O	O	O, I-QT, B-QT, B-LC, I-LC
-17	올라	O	O	O, B-LC, I-QT, B-CV, B-TM
-18	무더	O	O	O, B-LC, B-CV, B-TM, B-OG
-19	##울	O	O	O, I-CV, I-OG, I-LC, B-LC
-20	것	O	O	O, B-CV, B-LC, B-PS, B-OG
-21	##으로	O	O	O, B-CV, I-OG, B-OG, B-LC
-22	전망	O	O	O, B-CV, B-TM, B-LC, B-OG
-23	##된	O	O	O, B-LC, I-OG, B-CV, B-PS
-24	##다	O	O	O, B-CV, B-LC, B-TM, I-OG
-25	.	O	O	O, B-LC, B-OG, B-CV, B-PS
-26	[SEP]	O	O	O, B-LC, B-CV, I-OG, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	금융	O	O
+2	##정보	O	O
+3	제공	O	O
+4	##업체	O	O
+5	에프	B-OG	B-OG
+6	##앤	I-OG	I-OG
+7	##가	I-OG	I-OG
+8	##이드	I-OG	I-OG
+9	##의	O	O
+10	집계	O	O
+11	##에	O	O
+12	따르	O	O
+13	##면	O	O
+14	설정	O	O
+15	##액	O	O
+16	10	O	O
+17	##억	O	O
+18	##원	O	O
+19	이상인	O	O
+20	국내	O	O
+21	22	B-QT	B-QT
+22	##개	I-QT	I-QT
+23	베트남	B-LC	B-LC
+24	펀드	O	O
+25	##의	O	O
+26	연초	O	B-DT
+27	이후	O	I-DT
+28	평균	O	O
+29	수익	O	O
+30	##률	O	O
+31	(	O	O
+32	12	B-DT	B-DT
+33	##월	I-DT	I-DT
+34	20	I-DT	I-DT
+35	##일	I-DT	I-DT
+36	기준	O	O
+37	)	O	O
+38	은	O	O
+39	-	B-QT	B-QT
+40	3	I-QT	I-QT
+41	.	I-QT	I-QT
+42	84	I-QT	I-QT
+43	%	I-QT	I-QT
+44	수준	O	O
+45	##에	O	O
+46	머물러	O	O
+47	있	O	O
+48	##다	O	O
+49	.	O	O
+50	[SEP]	O	O

@@ -1,25 +1,8 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	피해자	B-CV	B-CV	B-CV, O, I-CV, B-PS, B-AF
-2	##의	O	O	O, I-CV, I-AF, B-CV, B-PS
-3	비명	O	O	O, B-TM, B-AF, B-LC, B-AM
-4	소리	O	O	O, I-AF, B-PS, I-TM, I-EV
-5	##를	O	O	O, B-CV, B-PS, I-AF, B-LC
-6	들	O	O	O, B-CV, B-PS, B-LC, B-OG
-7	##은	O	O	O, B-CV, B-PS, B-OG, B-LC
-8	몇몇	O	O	O, B-QT, B-PS, B-LC, B-CV
-9	주민	B-CV	B-CV	B-CV, O, I-CV, I-QT, B-PS
-10	##들	O	O	O, I-CV, I-QT, I-AF, I-OG
-11	##은	O	O	O, B-CV, B-PS, B-TM, B-OG
-12	가정폭력	O	B-CV	B-CV, O, I-CV, B-TM, B-FD
-13	##이	O	O	O, I-CV, B-PS, I-AF, B-CV
-14	##라고	O	O	O, B-CV, B-PS, I-CV, I-AF
-15	생각	O	O	O, B-CV, B-QT, B-TM, B-PS
-16	##했	O	O	O, B-CV, B-PS, B-LC, B-TM
-17	##을	O	O	O, B-CV, B-PS, B-TM, B-LC
-18	뿐	O	O	O, B-PS, B-LC, B-CV, B-TM
-19	##이	O	O	O, B-PS, B-CV, B-OG, B-LC
-20	##었	O	O	O, B-CV, I-CV, I-OG, B-PS
-21	##다	O	O	O, B-CV, I-CV, I-OG, B-TM
-22	.	O	O	O, B-PS, B-CV, B-LC, B-OG
-23	[SEP]	O	O	O, B-CV, B-PS, I-AF, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	응	O	O
+2	아침	B-TI	B-TI
+3	댓	O	I-TI
+4	##바람	O	I-TI
+5	##부터	O	I-TI
+6	[SEP]	O	O

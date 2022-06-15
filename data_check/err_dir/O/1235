@@ -1,5 +1,31 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	가지	O	B-CV	B-CV, O, B-PT, B-AM, I-CV
-2	인제	O	O	O, I-CV, B-CV, I-AF, I-OG
-3	[SEP]	O	O	O, B-CV, I-CV, B-LC, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	We	B-OG	B-OG
+2	##e	I-OG	I-OG
+3	##k	I-OG	I-OG
+4	##ly	I-OG	I-OG
+5	BI	I-OG	I-OG
+6	##Z	I-OG	I-OG
+7	##와	O	O
+8	##의	O	O
+9	인터뷰	O	O
+10	##가	O	O
+11	예정	O	O
+12	##된	O	O
+13	이	O	B-DT
+14	날	O	I-DT
+15	그	O	O
+16	##는	O	O
+17	약속	O	O
+18	시간	O	O
+19	##을	O	O
+20	30	B-TI	B-TI
+21	##분	I-TI	I-TI
+22	넘겨	O	O
+23	허겁지겁	O	O
+24	연구실	O	O
+25	##로	O	O
+26	돌아왔	O	O
+27	##다	O	O
+28	.	O	O
+29	[SEP]	O	O

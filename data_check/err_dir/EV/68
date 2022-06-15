@@ -1,49 +1,71 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-EV, I-CV, I-OG
-1	팀	B-OG	B-OG	B-OG, O, B-EV, B-AF, B-CV
-2	GM	I-OG	I-OG	I-OG, B-OG, O, I-EV, I-CV
-3	##P	I-OG	I-OG	I-OG, O, I-EV, I-CV, I-TM
-4	##는	O	O	O, I-OG, I-EV, I-CV, I-AF
-5	FI	B-EV	B-OG	B-OG, B-EV, O, B-TR, B-AF
-6	##NA	I-EV	I-OG	I-OG, I-EV, O, I-TR, B-OG
-7	청문회	I-EV	O	O, I-EV, B-EV, I-OG, B-CV
-8	##가	O	O	O, I-EV, I-OG, I-DT, B-PS
-9	열리	O	O	O, I-EV, B-LC, B-CV, B-DT
-10	##기	O	O	O, B-LC, B-PS, B-OG, I-EV
-11	전	O	O	O, I-DT, B-PS, I-EV, B-LC
-12	##까	O	O	O, I-DT, I-TI, B-PS, B-TI
-13	##지	O	O	O, I-DT, I-TI, B-TI, B-LC
-14	비밀	O	O	O, B-LC, B-CV, B-PS, B-TM
-15	##을	O	O	O, B-CV, B-LC, B-PS, B-OG
-16	지켜야	O	O	O, B-LC, B-CV, B-PS, B-OG
-17	하	O	O	O, B-LC, B-CV, B-PS, B-OG
-18	##는	O	O	O, B-LC, B-CV, B-PS, B-OG
-19	규정	O	O	O, B-CV, B-LC, B-PS, B-OG
-20	##이	O	O	O, B-PS, B-CV, B-LC, B-OG
-21	있	O	O	O, B-CV, B-PS, B-LC, B-OG
-22	##음	O	O	O, B-CV, B-PS, B-LC, B-OG
-23	##에도	O	O	O, B-CV, B-LC, B-OG, B-PS
-24	'	O	O	O, B-LC, B-CV, B-PS, B-OG
-25	억울	O	O	O, B-CV, B-LC, B-PS, B-OG
-26	##하	O	O	O, B-PS, B-LC, B-OG, B-CV
-27	##게	O	O	O, B-LC, B-PS, B-CV, B-OG
-28	약물	O	O	O, B-TM, B-CV, B-LC, B-TR
-29	양성	O	O	O, B-TM, I-TM, B-CV, B-LC
-30	##반	O	O	O, I-TM, I-CV, B-LC, I-TR
-31	##응	O	O	O, I-TM, B-LC, I-LC, I-CV
-32	##이	O	O	O, B-PS, B-CV, B-LC, B-OG
-33	나왔	O	O	O, B-CV, B-LC, B-PS, B-OG
-34	##다	O	O	O, B-CV, B-LC, I-CV, B-PS
-35	'	O	O	O, B-CV, B-LC, B-OG, B-TM
-36	고	O	O	O, B-CV, B-LC, B-PS, B-TM
-37	여론	O	O	O, B-CV, B-LC, B-TM, B-PS
-38	##에	O	O	O, B-CV, B-LC, B-PS, B-OG
-39	호소	O	O	O, B-CV, B-LC, B-TM, B-OG
-40	##하	O	O	O, B-CV, B-PS, B-LC, B-OG
-41	##는	O	O	O, B-CV, B-LC, B-PS, B-OG
-42	전략	O	O	O, B-CV, B-LC, B-TM, B-FD
-43	##을	O	O	O, B-CV, B-OG, I-CV, B-PS
-44	썼	O	O	O, B-CV, B-LC, B-OG, B-TM
-45	##다	O	O	O, B-CV, B-LC, B-OG, I-CV
-46	.	O	O	O, B-CV, B-LC, B-PS, B-OG
-47	[SEP]	O	O	O, B-CV, B-LC, I-EV, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	1964	B-DT	B-DT
+2	##년	I-DT	I-DT
+3	1	B-QT	B-QT
+4	##차	I-QT	I-QT
+5	사건	O	O
+6	##은	O	O
+7	‘	O	O
+8	국가	O	O
+9	변	O	O
+10	##란	O	O
+11	’	O	O
+12	을	O	O
+13	꾸미	O	O
+14	##려	O	O
+15	인	B-OG	B-OG
+16	##혁	I-OG	I-OG
+17	##당	I-OG	I-OG
+18	##이	O	O
+19	만들	O	O
+20	##어졌	O	O
+21	##다는	O	O
+22	것	O	O
+23	##이	O	O
+24	##고	O	O
+25	,	O	O
+26	1974	B-DT	B-DT
+27	##년	I-DT	I-DT
+28	2	B-QT	B-QT
+29	##차	I-QT	I-QT
+30	사건	O	O
+31	##은	O	O
+32	‘	O	O
+33	유신	O	O
+34	반대	O	O
+35	’	O	O
+36	투쟁	O	O
+37	##을	O	O
+38	벌이	O	O
+39	##던	O	O
+40	전국	B-OG	B-OG
+41	##민주	I-OG	I-OG
+42	##청	I-OG	I-OG
+43	##년	I-OG	I-OG
+44	##학생	I-OG	I-OG
+45	##총	I-OG	I-OG
+46	##연맹	I-OG	I-OG
+47	(	O	O
+48	민	B-EV	B-OG
+49	##청	I-EV	I-OG
+50	##학	I-EV	I-OG
+51	##련	I-EV	I-OG
+52	)	O	O
+53	을	O	O
+54	인	B-OG	B-OG
+55	##혁	I-OG	I-OG
+56	##당	I-OG	I-OG
+57	재건	O	O
+58	##위	O	O
+59	##가	O	O
+60	배후	O	O
+61	##에	O	O
+62	##서	O	O
+63	조종	O	O
+64	##했	O	O
+65	##다는	O	O
+66	것	O	O
+67	##이다	O	O
+68	.	O	O
+69	[SEP]	O	O

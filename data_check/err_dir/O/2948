@@ -1,48 +1,25 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	이	O	O	O, B-PS, B-OG, B-LC, B-QT
-2	시민	O	B-OG	B-OG, O, B-CV, I-OG, B-EV
-3	##협	O	I-OG	I-OG, O, I-CV, B-OG, I-EV
-4	##의회	O	I-OG	I-OG, O, I-CV, I-EV, B-OG
-5	##는	O	O	O, I-OG, I-EV, I-CV, I-AF
-6	2001	B-DT	B-DT	B-DT, O, I-DT, B-LC, B-QT
-7	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-8	11	I-DT	I-DT	I-DT, O, B-DT, I-PS, I-QT
-9	##월	I-DT	I-DT	I-DT, O, B-DT, I-PS, I-QT
-10	시민	B-CV	B-CV	B-CV, O, B-OG, I-CV, B-EV
-11	##의	O	O	O, I-CV, I-OG, I-EV, I-AF
-12	기금	O	O	O, B-CV, I-CV, B-TM, B-PS
-13	##으로	O	O	O, B-PS, B-LC, B-CV, B-OG
-14	재	O	B-AM	B-AM, O, B-TM, B-CV, B-PS
-15	##두	O	I-AM	I-AM, O, I-TM, B-AM, I-CV
-16	##루미	O	I-AM	I-AM, O, I-TM, I-CV, I-PS
-17	복원	O	O	O, B-LC, I-LC, I-TM, I-AF
-18	대상지	O	O	O, B-LC, I-LC, B-AF, B-CV
-19	##인	O	O	O, B-PS, B-LC, B-OG, B-CV
-20	부산	B-LC	B-LC	B-LC, O, B-OG, B-AF, B-PS
-21	강서구	B-LC	B-LC	B-LC, O, I-LC, B-OG, B-AF
-22	봉	B-LC	B-LC	B-LC, O, I-LC, B-AF, B-OG
-23	##림동	I-LC	I-LC	I-LC, O, I-AF, B-LC, I-PS
-24	둔치	O	O	O, B-LC, I-LC, B-AF, I-AF
-25	##도	O	I-LC	I-LC, O, I-AF, B-LC, I-PS
-26	용지	O	O	O, I-LC, B-LC, I-AF, B-AF
-27	중	O	O	O, B-LC, B-TM, B-AF, I-LC
-28	4	B-QT	B-QT	B-QT, O, I-QT, B-LC, B-DT
-29	##만	I-QT	I-QT	I-QT, I-LC, O, B-QT, I-PS
-30	##42	I-QT	I-QT	I-QT, I-LC, O, B-QT, I-PS
-31	##81	I-QT	I-QT	I-QT, I-LC, O, B-QT, I-PS
-32	##m	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-33	##²	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-34	(	O	O	O, I-QT, B-CV, I-LC, B-OG
-35	약	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-LC
-36	1	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-37	##만	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-38	##34	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-39	##00	I-QT	I-QT	I-QT, I-LC, O, B-QT, I-PS
-40	##평	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-41	)	O	O	O, I-QT, B-CV, B-LC, B-TM
-42	를	O	O	O, B-CV, B-LC, B-AF, B-TM
-43	사들였	O	O	O, B-CV, B-LC, B-TM, B-OG
-44	##다	O	O	O, B-CV, B-LC, B-OG, B-TM
-45	.	O	O	O, B-LC, B-OG, B-CV, B-PS
-46	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	국민	O	O
+2	##소득	O	O
+3	##과	O	O
+4	행복	O	O
+5	##의	O	O
+6	상관	O	O
+7	##관계	O	O
+8	##에	O	O
+9	대해선	O	O
+10	미국	B-LC	B-LC
+11	경제학자	B-CV	B-CV
+12	리처드	O	B-PS
+13	이스	O	I-PS
+14	##털	O	I-PS
+15	##린	O	I-PS
+16	##의	O	O
+17	연구	B-CV	B-CV
+18	##가	I-CV	I-CV
+19	유명	O	O
+20	##하	O	O
+21	##다	O	O
+22	.	O	O
+23	[SEP]	O	O

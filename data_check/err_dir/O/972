@@ -1,25 +1,19 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-AF
-1	벨기에	B-LC	B-LC	B-LC, B-OG, O, B-PS, B-AF
-2	‘	O	O	O, I-OG, I-LC, I-AF, B-CV
-3	3	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-OG
-4	%	I-QT	I-QT	I-QT, O, I-LC, I-OG, I-PS
-5	고용	O	O	O, I-QT, B-CV, I-OG, I-CV
-6	’	O	O	O, B-CV, I-QT, I-OG, B-PS
-7	안	O	O	O, B-CV, B-PS, B-LC, B-OG
-8	##할	O	O	O, B-CV, B-PS, I-OG, I-AF
-9	##땐	O	O	O, B-CV, I-CV, I-LC, B-LC
-10	벌금	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-AF
-11	/	O	O	O, I-CV, B-LC, B-PS, I-OG
-12	미	B-LC	B-LC	B-LC, O, B-OG, I-LC, B-PS
-13	·	O	O	O, I-LC, B-LC, I-OG, I-AF
-14	영	O	I-LC	I-LC, B-LC, O, B-OG, I-OG
-15	##선	O	I-LC	I-LC, O, B-LC, I-AF, I-OG
-16	세제	O	O	O, B-CV, I-LC, B-LC, I-CV
-17	##지원	O	O	O, I-CV, I-LC, B-CV, I-OG
-18	·	O	O	O, I-CV, B-PS, I-OG, B-LC
-19	임금	O	O	O, B-CV, B-LC, B-TR, I-CV
-20	##보	O	O	O, I-CV, B-CV, I-TR, I-LC
-21	##조	O	O	O, I-CV, B-CV, I-TM, I-TR
-22	##도	O	O	O, I-CV, B-LC, B-PS, B-CV
-23	[SEP]	O	O	O, B-CV, B-LC, I-CV, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	동시	O	O
+2	##에	O	O
+3	‘	O	O
+4	리프트	O	B-AF
+5	대기	O	O
+6	10	B-TI	B-TI
+7	##분	I-TI	I-TI
+8	이내	I-TI	I-TI
+9	’	O	O
+10	를	O	O
+11	약속	O	O
+12	##하	O	O
+13	##는	O	O
+14	최대한	O	O
+15	##이다	O	O
+16	.	O	O
+17	[SEP]	O	O

@@ -1,28 +1,24 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-QT
-1	10	B-QT	B-DT	B-DT, B-QT, I-DT, O, B-EV
-2	##시	I-QT	I-DT	I-DT, B-DT, I-QT, O, I-EV
-3	##즌	I-QT	I-DT	I-DT, B-DT, I-QT, O, I-EV
-4	이상	I-QT	I-DT	I-DT, O, B-DT, I-QT, I-EV
-5	뛴	O	O	O, I-DT, B-CV, B-OG, B-LC
-6	KBL	B-OG	B-OG	B-OG, B-EV, O, B-CV, B-PS
-7	원년	O	O	O, I-EV, I-OG, B-CV, B-QT
-8	멤버	B-CV	B-CV	B-CV, O, I-CV, I-EV, I-QT
-9	중	O	O	O, I-CV, I-EV, B-TM, B-QT
-10	##에	O	O	O, B-CV, I-OG, I-QT, B-PS
-11	팀	O	O	O, B-OG, B-CV, B-LC, B-PS
-12	##을	O	O	O, I-OG, B-CV, B-OG, B-PS
-13	옮기	O	O	O, B-CV, B-OG, B-PS, B-LC
-14	##지	O	O	O, B-PS, B-CV, B-OG, B-LC
-15	않	O	O	O, B-PS, B-LC, B-OG, B-QT
-16	##은	O	O	O, B-LC, B-CV, B-PS, B-OG
-17	유일	O	O	O, B-QT, B-CV, B-LC, B-PS
-18	##한	O	O	O, B-PS, B-LC, B-OG, B-QT
-19	선수	B-CV	B-CV	B-CV, O, I-CV, B-PS, B-OG
-20	##이	O	O	O, I-CV, B-PS, I-PS, I-QT
-21	##기	O	O	O, B-PS, I-CV, B-LC, I-PS
-22	##도	O	O	O, I-CV, I-QT, I-PS, B-CV
-23	하	O	O	O, B-PS, I-PS, I-CV, I-QT
-24	##다	O	O	O, I-CV, I-QT, I-OG, I-PS
-25	.	O	O	O, B-LC, B-PS, B-OG, B-CV
-26	[SEP]	O	O	O, B-CV, B-PS, B-LC, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	또	O	O
+2	일주일	B-DT	B-DT
+3	##에	O	O
+4	한	B-QT	B-QT
+5	번	I-QT	I-QT
+6	이상	I-QT	I-QT
+7	일인	B-QT	O
+8	미디어	O	O
+9	##영상	O	O
+10	##을	O	O
+11	보고	O	O
+12	네	B-QT	B-QT
+13	##명	I-QT	I-QT
+14	중	O	O
+15	##에	O	O
+16	한	O	O
+17	명은	O	O
+18	본다고	O	O
+19	하	O	O
+20	##니까	O	O
+21	.	O	O
+22	[SEP]	O	O

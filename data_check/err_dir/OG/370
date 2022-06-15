@@ -1,58 +1,47 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	검찰	B-OG	B-OG	B-OG, O, B-AF, B-LC, B-PS
-2	특별	B-OG	O	O, B-OG, I-OG, B-CV, I-CV
-3	##수	I-OG	O	O, I-OG, B-OG, I-CV, B-CV
-4	##사	I-OG	O	O, I-OG, I-CV, B-OG, B-CV
-5	##본부	I-OG	O	O, I-OG, I-CV, B-OG, B-CV
-6	##는	O	O	O, I-OG, I-CV, B-PS, B-CV
-7	1	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-OG
-8	##일	I-DT	I-DT	I-DT, O, B-DT, I-OG, I-QT
-9	체육	O	B-CV	B-CV, O, B-FD, B-OG, B-EV
-10	##특	B-CV	I-CV	I-CV, B-CV, O, I-OG, I-QT
-11	##기	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-QT
-12	##생	I-CV	I-CV	I-CV, O, I-OG, B-CV, I-QT
-13	##으로	O	O	O, I-CV, B-PS, B-CV, I-OG
-14	이화여대	B-OG	B-OG	B-OG, O, B-AF, B-LC, B-EV
-15	##에	O	O	O, I-OG, I-AF, B-CV, I-EV
-16	부정	O	O	O, B-CV, B-TM, B-PS, B-LC
-17	입학	O	O	O, B-CV, I-CV, B-PS, I-EV
-18	##하고	O	O	O, I-CV, B-PS, B-CV, I-EV
-19	,	O	O	O, B-CV, B-PS, B-LC, B-OG
-20	학점	O	O	O, B-CV, B-PS, B-LC, B-TM
-21	##과	O	O	O, B-PS, B-CV, B-LC, B-TM
-22	출석	O	O	O, B-CV, B-PS, B-LC, B-TM
-23	등	O	O	O, B-PS, B-LC, B-CV, B-TM
-24	학사	B-CV	O	O, B-CV, B-EV, B-FD, B-OG
-25	특혜	O	O	O, I-CV, B-PS, B-CV, I-EV
-26	##를	O	O	O, B-CV, B-PS, I-CV, B-LC
-27	받	O	O	O, B-CV, B-PS, B-LC, B-TM
-28	##은	O	O	O, B-PS, B-CV, B-LC, I-CV
-29	혐의	O	O	O, B-CV, B-PS, I-CV, B-LC
-30	(	O	O	O, B-CV, B-PS, B-LC, I-CV
-31	업무	O	B-CV	B-CV, O, B-OG, B-TM, B-FD
-32	##방	O	I-CV	I-CV, O, B-CV, I-OG, I-TM
-33	##해	O	I-CV	I-CV, O, I-OG, B-CV, I-TM
-34	)	O	O	O, I-CV, I-OG, B-CV, I-QT
-35	등	O	O	O, B-CV, B-PS, B-LC, B-TM
-36	##으로	O	O	O, B-PS, B-CV, B-LC, B-OG
-37	최순	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-38	##실	I-PS	I-PS	I-PS, O, I-OG, I-LC, I-DT
-39	##씨	O	O	O, I-PS, B-CV, I-OG, I-AF
-40	##의	O	O	O, B-CV, B-PS, B-LC, B-TM
-41	딸	B-CV	B-CV	B-CV, O, B-PS, I-CV, B-PT
-42	정유라	B-PS	B-PS	B-PS, I-PS, O, B-OG, B-LC
-43	(	O	O	O, I-PS, B-CV, I-CV, I-OG
-44	21	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-LC
-45	)	O	O	O, I-QT, I-OG, I-DT, I-EV
-46	씨	O	O	O, B-CV, B-PS, B-LC, I-QT
-47	##에	O	O	O, B-CV, B-PS, B-TM, B-LC
-48	대해	O	O	O, B-CV, B-LC, B-OG, B-TM
-49	구속	O	O	O, B-CV, B-AF, B-OG, B-TM
-50	##영장	O	O	O, I-CV, I-AF, I-OG, B-CV
-51	##을	O	O	O, B-CV, I-CV, I-AF, I-OG
-52	청구	O	O	O, B-CV, B-OG, B-AF, B-LC
-53	##했	O	O	O, B-CV, B-PS, B-OG, B-LC
-54	##다	O	O	O, B-CV, B-LC, B-PS, B-TM
-55	.	O	O	O, B-CV, B-LC, B-PS, B-OG
-56	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	오리온	B-OG	B-OG
+2	##은	O	O
+3	26	B-DT	B-DT
+4	##일	I-DT	I-DT
+5	안방	O	O
+6	##인	O	O
+7	고양	B-AF	B-AF
+8	##체육	I-AF	I-AF
+9	##관	I-AF	I-AF
+10	##에	O	O
+11	##서	O	O
+12	열린	O	O
+13	2015	B-DT	B-DT
+14	##∼	I-DT	I-DT
+15	##20	I-DT	I-DT
+16	##16	I-DT	I-DT
+17	KCC	B-OG	B-EV
+18	프로	I-OG	B-CV
+19	##농	I-OG	I-CV
+20	##구	I-OG	I-CV
+21	6	B-EV	B-EV
+22	##강	I-EV	I-EV
+23	PO	B-EV	I-EV
+24	(	O	O
+25	5	B-TM	B-TM
+26	##전	I-TM	I-TM
+27	3	I-TM	I-TM
+28	##승	I-TM	I-TM
+29	##제	I-TM	I-TM
+30	)	O	O
+31	1	B-EV	B-EV
+32	##차	I-EV	I-EV
+33	##전	I-EV	I-EV
+34	##에	O	O
+35	##서	O	O
+36	104	B-QT	B-QT
+37	-	I-QT	I-QT
+38	78	I-QT	I-QT
+39	##로	O	O
+40	대승	O	O
+41	##을	O	O
+42	거뒀	O	O
+43	##다	O	O
+44	.	O	O
+45	[SEP]	O	O

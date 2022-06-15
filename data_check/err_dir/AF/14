@@ -1,61 +1,62 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	국립	B-AF	B-OG	B-OG, B-AF, B-EV, O, B-LC
-2	##중	I-AF	I-OG	I-OG, I-AF, O, I-EV, I-LC
-3	##앙	I-AF	I-OG	I-OG, I-AF, O, I-EV, I-LC
-4	##박	I-AF	I-OG	I-OG, I-AF, O, I-EV, I-LC
-5	##물	I-AF	I-OG	I-OG, I-AF, O, I-EV, I-LC
-6	##관	I-AF	I-OG	I-OG, I-AF, O, I-EV, I-LC
-7	소장품	O	O	O, I-AF, B-CV, I-OG, I-EV
-8	##뿐	O	O	O, I-AF, I-OG, B-CV, B-TM
-9	##만	O	O	O, B-LC, B-QT, B-PS, B-TM
-10	아니	O	O	O, B-OG, B-AF, B-LC, B-CV
-11	##라	O	O	O, B-OG, B-LC, B-AF, B-CV
-12	국립	B-AF	B-AF	B-AF, B-OG, O, B-LC, B-EV
-13	##고	I-AF	I-AF	I-AF, I-OG, O, I-LC, I-EV
-14	##궁	I-AF	I-AF	I-AF, I-OG, O, I-LC, I-EV
-15	##박	I-AF	I-AF	I-AF, O, I-OG, I-LC, I-EV
-16	##물	I-AF	I-AF	I-AF, O, I-OG, I-LC, I-EV
-17	##관	I-AF	I-AF	I-AF, O, I-OG, I-LC, I-EV
-18	,	O	O	O, I-AF, I-OG, I-EV, I-LC
-19	삼성	B-OG	B-AF	B-AF, B-OG, B-LC, O, B-EV
-20	미술관	O	I-AF	I-AF, O, I-OG, I-EV, I-LC
-21	리	B-OG	O	O, I-AF, B-AF, I-OG, B-LC
-22	##움	I-OG	O	O, I-AF, I-OG, I-LC, I-PS
-23	,	O	O	O, I-AF, I-OG, I-EV, B-CV
-24	호	B-AF	B-AF	B-AF, B-OG, B-LC, O, B-EV
-25	##림	I-AF	I-AF	I-AF, I-OG, O, I-LC, I-EV
-26	##박	I-AF	I-AF	I-AF, I-OG, O, I-LC, I-EV
-27	##물	I-AF	I-AF	I-AF, I-OG, O, I-LC, I-EV
-28	##관	I-AF	I-AF	I-AF, I-OG, O, I-LC, I-EV
-29	,	O	O	O, I-AF, I-OG, I-EV, I-LC
-30	일본	B-LC	B-LC	B-LC, B-OG, O, B-AF, B-EV
-31	도쿄	B-AF	B-AF	B-AF, B-OG, B-LC, I-AF, I-OG
-32	##국	I-AF	I-AF	I-AF, I-OG, I-LC, O, B-AF
-33	##립	I-AF	I-AF	I-AF, I-OG, O, I-LC, I-EV
-34	##박	I-AF	I-AF	I-AF, I-OG, O, I-LC, I-EV
-35	##물	I-AF	I-AF	I-AF, I-OG, O, I-LC, I-EV
-36	##관	I-AF	I-AF	I-AF, I-OG, O, I-LC, I-EV
-37	,	O	O	O, I-AF, I-OG, I-EV, I-LC
-38	이데	B-AF	B-AF	B-AF, B-OG, O, B-LC, B-PS
-39	##미	I-AF	I-AF	I-AF, I-OG, O, I-LC, I-PS
-40	##쓰	I-AF	I-AF	I-AF, I-OG, O, I-LC, I-EV
-41	##미술	I-AF	I-AF	I-AF, I-OG, O, I-LC, I-EV
-42	##관	I-AF	I-AF	I-AF, I-OG, O, I-LC, I-EV
-43	등	O	O	O, I-AF, I-OG, B-CV, I-LC
-44	##이	O	O	O, B-CV, B-PS, B-OG, B-LC
-45	소장	O	O	O, B-CV, B-TM, B-LC, B-AF
-46	##하고	O	O	O, B-CV, B-PS, B-LC, B-TM
-47	있	O	O	O, B-CV, B-TM, B-LC, B-AF
-48	##는	O	O	O, B-CV, B-LC, B-AF, B-TM
-49	청	B-AF	B-AF	B-AF, O, I-AF, B-MT, B-TM
-50	##화	I-AF	I-AF	I-AF, O, I-TM, I-MT, I-FD
-51	##백	I-AF	I-AF	I-AF, O, I-TM, I-CV, I-QT
-52	##자	I-AF	I-AF	I-AF, O, I-TM, I-QT, I-CV
-53	##가	O	O	O, I-AF, I-QT, I-TM, I-EV
-54	한자	O	O	O, B-QT, B-TM, B-LC, B-CV
-55	##리에	O	O	O, I-QT, B-QT, I-EV, B-TM
-56	모였	O	O	O, B-QT, B-CV, B-LC, B-TM
-57	##다	O	O	O, B-CV, B-LC, I-QT, B-OG
-58	.	O	O	O, B-AF, B-LC, B-OG, B-PS
-59	[SEP]	O	O	O, I-AF, B-AF, B-LC, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	국립	B-AF	B-OG
+2	##중	I-AF	I-OG
+3	##앙	I-AF	I-OG
+4	##박	I-AF	I-OG
+5	##물	I-AF	I-OG
+6	##관	I-AF	I-OG
+7	소장	O	O
+8	##품	O	O
+9	##뿐	O	O
+10	##만	O	O
+11	아니	O	O
+12	##라	O	O
+13	국립	B-AF	B-OG
+14	##고	I-AF	I-OG
+15	##궁	I-AF	I-OG
+16	##박	I-AF	I-OG
+17	##물	I-AF	I-OG
+18	##관	I-AF	I-OG
+19	,	O	O
+20	삼성	B-OG	B-AF
+21	미술관	O	I-AF
+22	리	B-OG	B-AF
+23	##움	I-OG	I-AF
+24	,	O	O
+25	호	B-AF	B-OG
+26	##림	I-AF	I-OG
+27	##박	I-AF	I-OG
+28	##물	I-AF	I-OG
+29	##관	I-AF	I-OG
+30	,	O	O
+31	일본	B-LC	B-LC
+32	도쿄	B-AF	B-OG
+33	##국	I-AF	I-OG
+34	##립	I-AF	I-OG
+35	##박	I-AF	I-OG
+36	##물	I-AF	I-OG
+37	##관	I-AF	I-OG
+38	,	O	O
+39	이데	B-AF	B-OG
+40	##미	I-AF	I-OG
+41	##쓰	I-AF	I-OG
+42	##미술	I-AF	I-OG
+43	##관	I-AF	I-OG
+44	등이	O	O
+45	소장	O	O
+46	##하	O	O
+47	##고	O	O
+48	있	O	O
+49	##는	O	O
+50	청	B-AF	B-AF
+51	##화	I-AF	I-AF
+52	##백	I-AF	I-AF
+53	##자	I-AF	I-AF
+54	##가	O	O
+55	한자	O	O
+56	##리에	O	O
+57	모였	O	O
+58	##다	O	O
+59	.	O	O
+60	[SEP]	O	O

@@ -1,11 +1,20 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, I-OG, B-CV, I-AF
-1	빵	B-CV	B-CV	B-CV, O, B-PT, B-AM, I-CV
-2	사이	O	O	O, B-TM, I-CV, B-LC, I-TM
-3	##에	O	O	O, B-PS, I-AF, I-CV, I-QT
-4	발	O	B-AM	B-AM, O, B-PS, B-TM, B-TR
-5	##를	O	O	O, I-AF, I-AM, I-PS, I-CV
-6	거	O	O	O, B-CV, B-PS, B-OG, B-LC
-7	##요	O	O	O, I-AF, I-CV, I-OG, I-QT
-8	?	O	O	O, I-AF, B-CV, B-LC, B-PS
-9	[SEP]	O	O	O, B-CV, B-LC, I-AF, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	그	O	O
+2	~	O	O
+3	중국	B-LC	B-CV
+4	말	O	I-CV
+5	##로	O	O
+6	얘기	O	O
+7	##하면	O	O
+8	향	B-CV	O
+9	##차	I-CV	O
+10	##이	O	O
+11	##라고	O	O
+12	##도	O	O
+13	얘기	O	O
+14	하	O	O
+15	##는데	O	O
+16	##요	O	O
+17	.	O	O
+18	[SEP]	O	O

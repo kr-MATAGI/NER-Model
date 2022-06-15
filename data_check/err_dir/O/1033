@@ -1,32 +1,23 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-AF, B-CV, I-CV
-1	홀	B-LC	B-LC	B-LC, O, B-OG, B-AF, B-PS
-2	##랜드	I-LC	I-LC	I-LC, O, I-AF, I-OG, I-PS
-3	##는	O	O	O, I-LC, I-AF, I-OG, B-LC
-4	미시	B-LC	B-LC	B-LC, O, B-OG, B-AF, I-LC
-5	##간	I-LC	I-LC	I-LC, O, B-LC, I-AF, I-OG
-6	##주	I-LC	I-LC	I-LC, O, I-AF, B-LC, I-OG
-7	오대	B-LC	B-LC	B-LC, I-LC, O, B-TM, B-AF
-8	##호	I-LC	I-LC	I-LC, O, I-AF, B-LC, I-TM
-9	연안	O	I-LC	I-LC, O, B-LC, I-TM, I-AF
-10	##에	O	O	O, I-LC, B-LC, I-AF, I-OG
-11	있	O	O	O, B-LC, B-CV, B-OG, B-AF
-12	##으며	O	O	O, B-LC, B-OG, I-AF, B-CV
-13	,	O	O	O, B-LC, B-CV, B-OG, B-AF
-14	미국	B-LC	B-LC	B-LC, O, B-OG, B-AF, B-PS
-15	자동차	B-AF	B-AF	B-AF, I-AF, O, B-OG, B-LC
-16	##의	O	O	O, I-AF, I-OG, B-CV, I-LC
-17	중심	O	O	O, B-LC, B-TM, B-CV, B-AF
-18	##인	O	O	O, B-LC, B-PS, B-CV, I-AF
-19	디트로이트	B-LC	B-LC	B-LC, B-AF, O, B-OG, B-PS
-20	##에서	O	O	O, I-AF, I-LC, B-LC, I-OG
-21	차로	O	O	O, B-TI, B-QT, B-AF, B-LC
-22	약	B-TI	B-TI	B-TI, I-TI, O, B-QT, B-EV
-23	3	I-TI	I-TI	I-TI, I-QT, B-TI, I-EV, I-LC
-24	##시간	I-TI	I-TI	I-TI, I-QT, O, I-LC, I-TR
-25	거리	O	O	O, I-TI, I-QT, B-LC, I-LC
-26	##에	O	O	O, I-QT, B-LC, I-AF, B-OG
-27	있	O	O	O, B-LC, B-CV, B-OG, B-AF
-28	##다	O	O	O, B-LC, B-CV, I-AF, I-OG
-29	.	O	O	O, B-LC, B-AF, I-LC, B-CV
-30	[SEP]	O	O	O, B-LC, I-LC, B-AF, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	한국	B-LC	B-LC
+2	##을	O	O
+3	찾	O	O
+4	##은	O	O
+5	중국인	B-CV	B-CV
+6	가운데	O	O
+7	이런	O	O
+8	납치	O	B-CV
+9	소동	O	O
+10	##을	O	O
+11	벌이	O	O
+12	##는	O	O
+13	이	O	O
+14	##들	O	O
+15	##은	O	O
+16	종종	O	O
+17	있	O	O
+18	##다고	O	O
+19	한다	O	O
+20	.	O	O
+21	[SEP]	O	O

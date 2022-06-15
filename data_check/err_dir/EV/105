@@ -1,53 +1,58 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-EV, I-OG, B-CV, I-CV
-1	깊이	O	O	O, B-PS, B-FD, B-LC, B-CV
-2	있	O	O	O, B-PS, B-LC, I-OG, I-AF
-3	##고	O	O	O, B-PS, B-LC, B-OG, I-OG
-4	성숙	O	O	O, B-CV, B-FD, B-LC, B-PS
-5	##해진	O	O	O, B-PS, B-LC, B-CV, B-FD
-6	표현	O	O	O, B-FD, B-CV, B-PS, B-LC
-7	##력	O	O	O, I-PS, I-FD, I-LC, I-CV
-8	##으로	O	O	O, B-LC, B-CV, B-PS, B-OG
-9	올해	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-10	3	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-11	##월	I-DT	I-DT	I-DT, O, I-QT, B-DT, I-EV
-12	세계	B-EV	O	O, B-EV, B-LC, I-DT, I-EV
-13	##대	I-EV	O	O, I-EV, B-EV, B-LC, B-PS
-14	##회	I-EV	O	O, I-EV, B-EV, I-OG, I-LC
-15	(	O	O	O, I-EV, B-CV, B-LC, B-OG
-16	73	B-QT	B-QT	B-QT, O, I-QT, B-EV, B-DT
-17	.	I-QT	I-QT	I-QT, O, I-LC, I-EV, B-QT
-18	61	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-19	##점	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-EV
-20	)	O	O	O, I-QT, I-EV, B-CV, I-OG
-21	와	O	O	O, B-CV, B-LC, B-OG, B-DT
-22	2010	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-23	##년	I-DT	I-DT	I-DT, O, I-QT, B-DT, I-EV
-24	밴쿠버	B-EV	B-EV	B-EV, B-LC, B-AF, O, I-EV
-25	##올	I-EV	I-EV	I-EV, B-EV, O, I-LC, I-AF
-26	##림픽	I-EV	I-EV	I-EV, O, B-EV, I-AF, I-LC
-27	(	O	O	O, I-EV, I-AF, I-DT, I-QT
-28	71	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-LC
-29	.	I-QT	I-QT	I-QT, O, I-EV, B-QT, I-LC
-30	76	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-EV
-31	##점	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-EV
-32	)	O	O	O, I-QT, I-EV, B-CV, I-OG
-33	에	O	O	O, B-CV, B-LC, B-OG, B-DT
-34	이어	O	O	O, B-LC, B-CV, B-QT, B-PS
-35	개인	O	O	O, B-CV, B-LC, B-PS, B-QT
-36	통산	O	O	O, B-LC, B-QT, B-PS, B-CV
-37	세	B-QT	B-QT	B-QT, O, I-QT, B-EV, B-DT
-38	번	I-QT	I-QT	I-QT, O, I-EV, I-LC, B-QT
-39	##째	I-QT	I-QT	I-QT, O, I-LC, I-EV, B-QT
-40	##로	O	O	O, I-QT, B-CV, I-EV, B-OG
-41	높	O	O	O, B-CV, B-QT, B-TM, B-LC
-42	##은	O	O	O, B-CV, B-LC, B-PS, B-OG
-43	예술	O	O	O, B-FD, B-CV, B-TR, B-QT
-44	##점	O	O	O, I-CV, I-FD, I-TR, B-CV
-45	##수	O	O	O, I-CV, I-FD, I-TR, I-QT
-46	##를	O	O	O, I-CV, B-CV, I-QT, I-OG
-47	받	O	O	O, B-CV, B-LC, B-TM, B-PS
-48	##았	O	O	O, B-CV, I-CV, I-OG, B-PS
-49	##다	O	O	O, B-CV, B-LC, I-OG, B-OG
-50	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-51	[SEP]	O	O	O, B-LC, B-CV, I-EV, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	스키	B-AF	B-AF
+2	##점	I-AF	I-AF
+3	##핑	I-AF	I-AF
+4	타워	I-AF	I-AF
+5	##는	O	O
+6	2006	B-DT	B-DT
+7	##년	I-DT	I-DT
+8	9	I-DT	I-DT
+9	##월	I-DT	I-DT
+10	착공	O	O
+11	##해	O	O
+12	2009	B-DT	B-DT
+13	##년	I-DT	I-DT
+14	6	I-DT	I-DT
+15	##월	I-DT	I-DT
+16	준공	O	O
+17	##됐	O	O
+18	##으며	O	O
+19	,	O	O
+20	베이직	B-AF	B-AF
+21	##하우스	I-AF	I-AF
+22	,	O	O
+23	천연	B-AF	B-AF
+24	##잔	I-AF	I-AF
+25	##디	I-AF	I-AF
+26	##축구	I-AF	I-AF
+27	##장	I-AF	I-AF
+28	(	O	O
+29	동계	B-EV	B-AF
+30	##올	I-EV	I-AF
+31	##림픽	I-EV	I-AF
+32	개	O	B-AF
+33	##폐	O	I-AF
+34	##회	O	I-AF
+35	##장	O	I-AF
+36	)	O	O
+37	,	O	O
+38	심판	B-AF	B-AF
+39	##타	I-AF	I-AF
+40	##워	I-AF	I-AF
+41	등과	O	O
+42	함께	O	O
+43	2018	B-DT	B-DT
+44	평창동	B-EV	B-EV
+45	##계	I-EV	I-EV
+46	##올	I-EV	I-EV
+47	##림픽	I-EV	I-EV
+48	##의	O	O
+49	핵심	O	O
+50	##시설	O	O
+51	##이	O	O
+52	될	O	O
+53	예정	O	O
+54	##이다	O	O
+55	.	O	O
+56	[SEP]	O	O

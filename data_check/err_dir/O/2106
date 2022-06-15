@@ -1,28 +1,39 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-AF
-1	인삼	O	B-PT	B-PT, O, B-CV, B-AM, B-LC
-2	##의	O	O	O, I-LC, I-CV, I-PT, B-PS
-3	고장	O	O	O, B-LC, B-CV, I-LC, B-PS
-4	##인	O	O	O, I-LC, B-LC, I-CV, B-PS
-5	충남	B-LC	B-LC	B-LC, O, B-OG, I-LC, B-AF
-6	금산	O	B-LC	B-LC, I-LC, B-OG, O, B-AF
-7	##군	O	I-LC	I-LC, O, I-OG, B-LC, I-AF
-8	##에	O	O	O, I-LC, B-LC, I-OG, I-AF
-9	11	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-10	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-11	지역	O	O	O, I-DT, B-LC, B-CV, I-EV
-12	##의	O	O	O, B-LC, B-PS, I-AF, B-CV
-13	랜드마크	O	O	O, B-CV, B-TM, B-LC, B-AF
-14	##가	O	O	O, B-PS, B-LC, I-AF, I-CV
-15	될	O	O	O, B-LC, B-CV, B-PS, B-TM
-16	초대	O	O	O, B-CV, B-TM, B-LC, B-AF
-17	##형	O	O	O, B-LC, I-LC, I-AF, I-TM
-18	인삼	O	O	O, B-PT, B-CV, B-AM, B-AF
-19	##조	O	O	O, I-AF, I-CV, I-LC, I-PT
-20	##형	O	O	O, I-AF, I-CV, I-LC, I-OG
-21	##물	O	O	O, I-AF, I-LC, I-CV, I-OG
-22	##이	O	O	O, I-AF, B-PS, B-LC, B-CV
-23	들어섰	O	O	O, B-LC, B-CV, B-AF, B-OG
-24	##다	O	O	O, B-LC, B-CV, I-AF, I-OG
-25	.	O	O	O, B-LC, B-PS, B-AF, B-CV
-26	[SEP]	O	O	O, B-LC, B-CV, B-AF, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	서	B-PS	B-PS
+2	##효	I-PS	I-PS
+3	##원	I-PS	I-PS
+4	##은	O	O
+5	“	O	O
+6	관중	B-CV	B-CV
+7	##들의	O	O
+8	응원	O	O
+9	##이	O	O
+10	이시	B-PS	B-PS
+11	##카와	I-PS	I-PS
+12	##를	O	O
+13	급하	O	O
+14	##게	O	O
+15	만들	O	O
+16	##고	O	O
+17	,	O	O
+18	나	O	O
+19	##에	O	O
+20	##게	O	O
+21	##는	O	O
+22	힘	O	O
+23	##이	O	O
+24	됐	O	O
+25	##다	O	O
+26	”	O	O
+27	며	O	O
+28	팬	B-CV	B-CV
+29	##들	O	O
+30	##에	O	O
+31	##게	O	O
+32	공	O	B-CV
+33	##을	O	O
+34	돌렸	O	O
+35	##다	O	O
+36	.	O	O
+37	[SEP]	O	O

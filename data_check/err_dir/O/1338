@@ -1,27 +1,50 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, I-OG, I-EV, B-CV
-1	아버지	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-PS
-2	김남	B-PS	B-PS	B-PS, I-PS, B-OG, O, B-LC
-3	##철	I-PS	I-PS	I-PS, O, I-OG, I-QT, B-PS
-4	(	O	O	O, I-PS, I-OG, B-CV, I-QT
-5	40	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-LC
-6	)	O	O	O, I-QT, I-OG, I-EV, I-TM
-7	씨	O	O	O, I-QT, B-CV, B-PS, I-CV
-8	##는	O	O	O, B-CV, B-PS, B-TM, I-CV
-9	아들	B-CV	B-CV	B-CV, O, B-PS, B-TM, B-OG
-10	##에	O	O	O, I-CV, B-CV, I-EV, I-OG
-11	##게	O	O	O, B-CV, B-FD, B-TM, B-LC
-12	미술	O	B-FD	B-FD, O, B-TR, I-FD, B-CV
-13	·	O	O	O, I-FD, I-TR, I-CV, B-FD
-14	음악	O	O	O, B-FD, I-FD, I-TR, B-TR
-15	치료	O	O	O, I-TR, I-FD, B-TR, B-FD
-16	##를	O	O	O, I-TR, B-CV, I-FD, I-CV
-17	받	O	O	O, B-CV, B-TM, B-FD, B-LC
-18	##게	O	O	O, B-CV, I-CV, B-TM, B-OG
-19	했	O	O	O, B-CV, B-PS, B-OG, B-TM
-20	##지만	O	O	O, B-CV, I-CV, I-QT, I-OG
-21	소용없	O	O	O, B-CV, B-TM, B-QT, B-LC
-22	##었	O	O	O, B-CV, I-CV, I-QT, I-TM
-23	##다	O	O	O, B-CV, I-CV, B-TM, I-OG
-24	.	O	O	O, B-CV, B-PS, B-FD, B-LC
-25	[SEP]	O	O	O, B-CV, B-FD, I-EV, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	박	B-PS	B-PS
+2	신임	O	O
+3	위원장	B-CV	B-CV
+4	##이	O	O
+5	2009	B-DT	B-DT
+6	##년	I-DT	I-DT
+7	김종	B-PS	B-PS
+8	##덕	I-PS	I-PS
+9	문체	B-OG	B-OG
+10	##부	I-OG	I-OG
+11	장관	B-CV	B-CV
+12	##이	O	O
+13	제출	O	O
+14	##한	O	O
+15	‘	O	O
+16	양방향	B-AF	B-TM
+17	티브이	I-AF	I-TM
+18	(	I-AF	O
+19	TV	I-AF	B-TM
+20	)	I-AF	O
+21	의	I-AF	O
+22	사용자	I-AF	O
+23	인터페이스	I-AF	O
+24	디자인	I-AF	O
+25	연구	I-AF	O
+26	’	O	O
+27	라는	O	O
+28	제목	O	O
+29	##의	O	O
+30	서울대	B-OG	B-OG
+31	언론	O	B-FD
+32	##정보	O	I-FD
+33	##학	O	I-FD
+34	박사	O	B-CV
+35	##학	O	O
+36	##위	O	O
+37	논문	O	O
+38	##의	O	O
+39	심사	B-CV	B-CV
+40	##위원	I-CV	I-CV
+41	##을	O	O
+42	맡	O	O
+43	##았	O	O
+44	##기	O	O
+45	때문	O	O
+46	##이다	O	O
+47	.	O	O
+48	[SEP]	O	O

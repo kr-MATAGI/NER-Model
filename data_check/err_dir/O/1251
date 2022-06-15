@@ -1,18 +1,11 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-QT
-1	파	O	B-CV	B-CV, O, I-CV, B-OG, B-PT
-2	##채	O	I-CV	I-CV, O, B-CV, I-OG, I-TM
-3	##를	O	O	O, I-CV, I-OG, I-AF, I-QT
-4	이렇게	O	O	O, B-CV, B-OG, B-TM, B-LC
-5	준비	O	O	O, B-CV, B-OG, B-LC, B-TM
-6	##하고	O	O	O, B-CV, B-PS, B-LC, B-OG
-7	저	O	O	O, B-CV, B-OG, B-LC, B-TM
-8	~	O	O	O, B-CV, B-LC, B-PS, I-CV
-9	양파	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-PT
-10	##채	O	I-CV	I-CV, O, B-CV, I-OG, I-TM
-11	준	O	O	O, I-CV, I-OG, I-QT, I-AF
-12	준비	O	O	O, B-CV, B-OG, I-CV, B-LC
-13	##하	O	O	O, B-CV, B-OG, B-PS, B-LC
-14	##구요	O	O	O, B-CV, I-OG, B-OG, B-QT
-15	.	O	O	O, B-CV, B-OG, B-LC, B-PS
-16	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	절도	O	B-CV
+2	사건	O	O
+3	##을	O	O
+4	일으키	O	O
+5	##기	O	O
+6	##도	O	O
+7	했	O	O
+8	##는데	O	O
+9	[SEP]	O	O

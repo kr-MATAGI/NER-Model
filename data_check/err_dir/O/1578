@@ -1,42 +1,55 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, I-OG, B-CV, I-EV
-1	방	B-PS	B-PS	B-PS, O, B-OG, B-LC, B-AF
-2	##응	I-PS	I-PS	I-PS, O, I-OG, I-LC, B-PS
-3	##모	I-PS	I-PS	I-PS, O, I-OG, I-LC, I-AF
-4	##는	O	O	O, I-PS, I-OG, B-CV, B-LC
-5	방송국	O	O	O, B-OG, B-EV, B-LC, B-CV
-6	시국	O	O	O, B-EV, I-EV, B-CV, B-LC
-7	##강	O	O	O, I-EV, B-EV, I-OG, I-LC
-8	##연	O	O	O, I-EV, I-OG, I-LC, I-CV
-9	등	O	O	O, I-EV, B-PS, B-LC, I-OG
-10	##을	O	O	O, B-PS, B-LC, B-OG, B-CV
-11	통해	O	O	O, B-LC, B-OG, B-PS, B-CV
-12	일제	O	B-OG	B-OG, O, B-EV, B-LC, B-DT
-13	##의	O	O	O, I-OG, I-EV, B-EV, B-OG
-14	침략	O	O	O, B-EV, I-EV, B-LC, B-OG
-15	##전쟁	O	O	O, I-EV, B-EV, I-OG, I-LC
-16	##에	O	O	O, I-EV, B-LC, I-OG, B-PS
-17	적극	O	O	O, B-LC, B-OG, B-CV, B-TM
-18	협력	O	O	O, B-LC, B-CV, B-OG, B-PS
-19	##하고	O	O	O, B-PS, B-LC, B-CV, I-OG
-20	,	O	O	O, B-LC, B-CV, B-OG, B-PS
-21	전쟁	O	O	O, B-EV, B-LC, B-CV, I-EV
-22	수행	O	O	O, I-EV, B-CV, I-OG, I-CV
-23	##을	O	O	O, B-CV, B-PS, B-LC, B-OG
-24	돕	O	O	O, B-CV, B-LC, B-TM, B-OG
-25	##는	O	O	O, B-LC, B-CV, B-PS, B-OG
-26	군수	O	O	O, B-CV, B-AF, B-MT, B-TM
-27	##품	O	O	O, I-CV, I-AF, I-TM, I-OG
-28	제조업	O	O	O, B-CV, B-OG, I-CV, B-LC
-29	##체	O	O	O, I-OG, I-CV, I-AF, B-CV
-30	##를	O	O	O, I-OG, I-CV, B-CV, B-PS
-31	운영	O	O	O, B-CV, B-PS, B-LC, B-OG
-32	##한	O	O	O, B-PS, I-CV, I-PS, I-OG
-33	행위	O	O	O, B-CV, B-PS, I-CV, I-PS
-34	등	O	O	O, B-PS, B-LC, B-OG, B-CV
-35	##이	O	O	O, B-PS, B-OG, B-LC, B-CV
-36	인정	O	O	O, B-CV, B-OG, B-PS, I-CV
-37	##됐	O	O	O, I-CV, I-OG, B-PS, B-CV
-38	##다	O	O	O, B-CV, I-CV, I-OG, B-PS
-39	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-40	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	저우	B-PS	B-OG
+2	##젠	I-PS	I-OG
+3	##핑	I-PS	I-OG
+4	##에	O	O
+5	따르	O	O
+6	##면	O	O
+7	중국	B-OG	B-OG
+8	##은	O	O
+9	내년	B-DT	B-DT
+10	실험	O	O
+11	##용	O	O
+12	우주	O	B-LC
+13	##정	O	O
+14	##거	O	O
+15	##장	O	O
+16	##인	O	O
+17	'	O	O
+18	톈	B-AF	B-AF
+19	##궁	I-AF	I-AF
+20	2	I-AF	B-QT
+21	##호	I-AF	I-QT
+22	'	O	O
+23	를	O	O
+24	쏘	O	O
+25	##아	O	O
+26	올린	O	O
+27	뒤	O	O
+28	유인	O	O
+29	우주선	B-AF	B-AF
+30	'	O	O
+31	선	B-AF	B-AF
+32	##저우	I-AF	I-AF
+33	11	I-AF	B-QT
+34	##호	I-AF	I-QT
+35	'	O	O
+36	를	O	O
+37	발사	O	O
+38	##해	O	O
+39	톈	B-AF	B-AF
+40	##궁	I-AF	I-AF
+41	2	I-AF	B-QT
+42	##호	I-AF	I-QT
+43	##와	O	O
+44	도	O	O
+45	##킹	O	O
+46	##을	O	O
+47	시도	O	O
+48	##한다	O	O
+49	##는	O	O
+50	계획	O	O
+51	##이다	O	O
+52	.	O	O
+53	[SEP]	O	O

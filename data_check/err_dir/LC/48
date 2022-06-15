@@ -1,59 +1,46 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	이	O	O	O, B-OG, B-TM, B-CV, B-LC
-2	##에	O	O	O, B-CV, B-OG, I-OG, I-AF
-3	앞서	O	O	O, B-LC, B-OG, B-CV, B-TM
-4	지난해	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-QT
-5	##에	O	O	O, I-DT, I-EV, I-QT, B-CV
-6	##는	O	O	O, B-LC, B-CV, B-OG, I-DT
-7	노원구	B-LC	B-LC	B-LC, B-OG, O, B-AF, B-PS
-8	월	B-LC	B-AM	B-AM, O, B-LC, I-LC, B-PS
-9	##계	I-LC	I-AM	I-AM, I-LC, O, I-PS, I-AF
-10	##사	I-LC	I-AM	I-AM, I-LC, O, B-AM, I-AF
-11	##슴	I-LC	I-AM	I-AM, I-LC, O, I-PT, I-AF
-12	##1	B-QT	B-QT	B-QT, I-LC, I-QT, O, I-AF
-13	##과	O	O	O, I-QT, I-LC, I-AF, B-LC
-14	중계	B-LC	B-LC	B-LC, B-AF, O, B-OG, B-PS
-15	##3	B-QT	B-QT	B-QT, I-LC, I-QT, O, I-AF
-16	##단지	I-QT	I-QT	I-QT, I-LC, O, I-AF, B-QT
-17	등	O	O	O, I-QT, I-LC, I-AF, B-LC
-18	2	B-QT	B-QT	B-QT, O, I-QT, B-LC, B-TM
-19	##곳	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-EV
-20	,	O	O	O, I-QT, I-OG, I-AF, B-CV
-21	올해	B-DT	B-DT	B-DT, O, B-QT, B-EV, I-DT
-22	##는	O	O	O, I-DT, I-QT, I-EV, B-CV
-23	강서구	B-LC	B-LC	B-LC, O, B-OG, B-AF, B-PS
-24	가	B-LC	B-LC	B-LC, O, I-LC, B-AF, B-OG
-25	##양	I-LC	I-LC	I-LC, O, I-AF, B-LC, I-PS
-26	##4	B-QT	B-QT	B-QT, I-LC, I-QT, O, I-AF
-27	,	O	O	O, I-QT, I-LC, I-AF, B-LC
-28	가	B-LC	B-LC	B-LC, B-AF, O, B-OG, B-PS
-29	##양	I-LC	I-LC	I-LC, I-AF, O, B-LC, I-PS
-30	##5	B-QT	B-QT	B-QT, I-LC, I-QT, I-AF, O
-31	,	O	O	O, I-QT, I-LC, I-AF, B-LC
-32	방화	B-LC	B-LC	B-LC, B-AF, O, B-OG, B-PS
-33	##2	B-QT	B-QT	B-QT, I-LC, I-AF, I-QT, O
-34	-	I-QT	I-QT	I-QT, I-LC, B-QT, I-AF, O
-35	1	I-QT	I-QT	I-QT, B-QT, I-LC, I-AF, O
-36	,	O	O	O, I-QT, I-AF, I-LC, B-LC
-37	방화	B-LC	B-LC	B-LC, B-AF, O, B-OG, B-PS
-38	##11	B-QT	B-QT	B-QT, I-LC, I-QT, I-AF, O
-39	,	O	O	O, I-QT, I-LC, I-AF, I-OG
-40	노원구	B-LC	B-LC	B-LC, O, B-OG, B-AF, B-TM
-41	공	B-LC	B-LC	B-LC, B-AF, O, I-LC, B-OG
-42	##릉	I-LC	I-LC	I-LC, I-AF, O, B-LC, I-PS
-43	##1	B-QT	B-QT	B-QT, I-LC, I-AF, I-QT, O
-44	단지	I-QT	I-QT	I-QT, I-LC, O, I-AF, B-QT
-45	등	O	O	O, I-QT, I-AF, I-LC, B-LC
-46	5	B-QT	B-QT	B-QT, O, I-QT, B-LC, B-TM
-47	##곳	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-AF
-48	##에	O	O	O, I-QT, I-EV, I-AF, B-CV
-49	태양광	B-TM	B-TM	B-TM, O, B-TR, B-OG, B-CV
-50	발전	O	O	O, I-TM, B-TM, I-TR, I-OG
-51	##시설	O	O	O, I-TM, I-AF, I-OG, I-TR
-52	##이	O	O	O, I-TM, B-OG, B-CV, I-AF
-53	설치	O	O	O, B-CV, B-OG, B-LC, B-TM
-54	##됐	O	O	O, B-CV, B-OG, B-LC, I-OG
-55	##다	O	O	O, B-CV, B-LC, B-OG, B-TM
-56	.	O	O	O, B-LC, B-OG, B-CV, B-TM
-57	[SEP]	O	O	O, B-LC, B-CV, B-TM, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	2010	B-DT	B-DT
+2	##년	I-DT	I-DT
+3	국내	O	O
+4	##에	O	O
+5	유아	O	O
+6	##용	O	O
+7	TV	B-TM	B-TM
+8	애니메이션	B-FD	B-FD
+9	##으로	O	O
+10	선보인	O	O
+11	'	O	O
+12	뛰	B-AF	B-AF
+13	##뛰	I-AF	I-AF
+14	##빵	I-AF	I-AF
+15	##빵	I-AF	I-AF
+16	구조대	I-AF	I-AF
+17	'	O	O
+18	(	O	O
+19	제작	O	O
+20	빅스	B-OG	B-OG
+21	##크리	I-OG	I-OG
+22	##에이	I-OG	I-OG
+23	##티브	I-OG	I-OG
+24	)	O	O
+25	는	O	O
+26	2008	B-DT	B-DT
+27	##년	I-DT	I-DT
+28	##부터	I-DT	I-DT
+29	중국	B-LC	B-LC
+30	차이나	B-OG	B-OG
+31	##필	I-OG	I-OG
+32	##름	I-OG	I-OG
+33	##그룹	I-OG	I-OG
+34	##과	O	O
+35	진행	O	O
+36	##된	O	O
+37	한	B-LC	B-OG
+38	·	O	O
+39	중	B-LC	B-OG
+40	합작	O	O
+41	##의	O	O
+42	결과물	O	O
+43	.	O	O
+44	[SEP]	O	O

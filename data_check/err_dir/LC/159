@@ -1,23 +1,24 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-AF
-1	우선	O	O	O, B-OG, B-LC, B-TM, B-CV
-2	고객	B-CV	B-CV	B-CV, O, B-OG, B-AF, I-CV
-3	##과	O	O	O, I-CV, B-CV, I-EV, I-OG
-4	긴밀	O	O	O, B-LC, B-CV, B-TM, B-OG
-5	##한	O	O	O, B-LC, B-OG, B-PS, I-LC
-6	유대감	O	O	O, B-CV, B-LC, B-TM, B-OG
-7	##을	O	O	O, B-CV, B-OG, B-LC, I-OG
-8	형성	O	O	O, B-CV, B-LC, B-TM, B-PS
-9	##해	O	O	O, B-LC, B-PS, B-OG, B-CV
-10	단골	B-CV	O	O, B-CV, B-AF, B-TM, B-PS
-11	##을	O	O	O, I-CV, I-AF, I-OG, B-CV
-12	만드	O	O	O, B-LC, B-CV, B-OG, B-TM
-13	##는	O	O	O, B-LC, B-CV, B-OG, B-TM
-14	지중해	B-LC	B-LC	B-LC, O, B-OG, I-LC, B-AF
-15	시장	I-LC	O	O, B-CV, I-LC, B-LC, I-CV
-16	##을	O	O	O, I-CV, I-LC, I-OG, I-AF
-17	지향	O	O	O, B-OG, B-CV, B-LC, B-TM
-18	##했	O	O	O, B-OG, I-OG, B-CV, B-LC
-19	##다	O	O	O, B-CV, B-OG, I-OG, B-LC
-20	.	O	O	O, B-LC, B-CV, B-OG, B-PS
-21	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	우선	O	O
+2	고객	B-CV	B-CV
+3	##과	O	O
+4	긴밀	O	O
+5	##한	O	O
+6	유대	O	O
+7	##감	O	O
+8	##을	O	O
+9	형성	O	O
+10	##해	O	O
+11	단골	B-CV	O
+12	##을	O	O
+13	만드	O	O
+14	##는	O	O
+15	지중해	B-LC	B-LC
+16	시장	I-LC	O
+17	##을	O	O
+18	지향	O	O
+19	##했	O	O
+20	##다	O	O
+21	.	O	O
+22	[SEP]	O	O

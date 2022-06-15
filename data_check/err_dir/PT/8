@@ -1,22 +1,8 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	수줍	O	O	O, B-CV, B-LC, B-PS, B-OG
-2	##은	O	O	O, B-PS, B-CV, I-AF, B-LC
-3	듯	O	O	O, B-PS, B-LC, I-AF, I-OG
-4	살포	O	O	O, B-LC, B-PS, B-AM, B-CV
-5	##시	O	O	O, B-PS, I-LC, B-LC, I-PS
-6	피어	O	O	O, B-PT, B-LC, B-PS, B-CV
-7	오른	O	O	O, B-LC, B-PS, B-PT, I-PS
-8	하얀	O	O	O, B-TM, B-LC, B-PT, B-AF
-9	꽃	B-PT	O	O, B-PT, I-PT, B-LC, B-CV
-10	##봉	I-PT	O	O, I-PT, B-PT, I-LC, I-AF
-11	##우리	I-PT	O	O, I-PT, I-LC, B-PT, I-AF
-12	##가	O	O	O, B-PS, B-LC, I-OG, B-OG
-13	너	O	O	O, B-LC, B-PS, B-OG, B-TM
-14	##울	O	O	O, B-PS, I-LC, B-LC, I-PS
-15	##너	O	O	O, B-PS, B-LC, I-LC, I-PS
-16	##울	O	O	O, B-PS, B-LC, I-LC, I-PS
-17	흔들렸	O	O	O, B-LC, B-OG, B-PS, B-CV
-18	##다	O	O	O, B-CV, I-OG, I-CV, I-AF
-19	.	O	O	O, B-LC, B-PS, B-CV, B-OG
-20	[SEP]	O	O	O, B-CV, B-LC, B-PS, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	대가	B-PT	B-AM
+2	##리	I-PT	I-AM
+3	##두	O	O
+4	예	O	O
+5	.	O	O
+6	[SEP]	O	O

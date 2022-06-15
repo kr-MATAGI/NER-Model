@@ -1,22 +1,39 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	한국	B-LC	B-LC	B-LC, B-OG, O, B-EV, B-PS
-2	,	O	O	O, I-OG, I-LC, I-EV, I-DT
-3	월드컵	B-EV	B-EV	B-EV, B-LC, B-DT, O, B-AF
-4	이어	O	O	O, I-EV, I-DT, I-OG, I-AF
-5	카타르	B-LC	B-OG	B-OG, B-LC, O, B-EV, B-PS
-6	##와	O	O	O, I-OG, I-LC, I-EV, B-OG
-7	‘	O	O	O, B-LC, B-OG, B-DT, B-CV
-8	2012	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-QT
-9	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
-10	기후	B-OG	B-EV	B-EV, O, B-OG, I-EV, B-AF
-11	##변	I-OG	I-EV	I-EV, O, I-OG, I-AF, B-EV
-12	##화	I-OG	I-EV	I-EV, O, I-OG, I-AF, B-EV
-13	##협	I-OG	I-EV	I-EV, O, I-OG, I-AF, B-EV
-14	##약	I-OG	I-EV	I-EV, O, I-OG, I-AF, B-EV
-15	##총	I-OG	I-EV	I-EV, O, I-OG, I-AF, B-EV
-16	##회	I-OG	I-EV	I-EV, O, I-OG, I-AF, B-EV
-17	’	O	O	O, I-EV, I-OG, I-DT, I-AF
-18	유치	O	O	O, B-CV, B-LC, B-OG, B-TM
-19	경쟁	O	O	O, B-LC, B-CV, B-OG, I-EV
-20	[SEP]	O	O	O, B-LC, B-CV, B-OG, I-EV
+	text	label	preds
+0	[CLS]	O	O
+1	박	B-PS	B-PS
+2	교수	B-CV	B-CV
+3	##는	O	O
+4	""""	O	O
+5	조선인	B-CV	B-CV
+6	위안부	B-CV	B-CV
+7	모집	O	O
+8	##과	O	O
+9	운영	O	O
+10	##을	O	O
+11	담당	O	O
+12	##한	O	O
+13	것	O	O
+14	##은	O	O
+15	주로	O	O
+16	조선인	B-CV	B-CV
+17	업자	O	O
+18	##였	O	O
+19	##다	O	O
+20	""""	O	O
+21	며	O	O
+22	이	O	O
+23	문제	O	O
+24	##에	O	O
+25	한국	B-LC	B-OG
+26	##의	O	O
+27	책임	O	O
+28	##도	O	O
+29	일정	O	O
+30	부분	O	O
+31	있	O	O
+32	##다고	O	O
+33	주장	O	O
+34	##했	O	O
+35	##다	O	O
+36	.	O	O
+37	[SEP]	O	O

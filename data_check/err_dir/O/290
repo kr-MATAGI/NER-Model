@@ -1,34 +1,33 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	국내	O	O	O, B-FD, B-LC, B-OG, B-TR
-2	원자력	O	O	O, B-FD, B-TR, I-FD, B-OG
-3	연구	O	O	O, I-FD, B-FD, B-CV, I-TR
-4	##의	O	O	O, B-PS, B-CV, I-OG, I-CV
-5	선구자	O	B-CV	B-CV, O, B-PS, B-OG, B-AF
-6	역할	O	O	O, I-CV, B-CV, B-PS, I-QT
-7	##을	O	O	O, B-CV, B-PS, I-CV, B-LC
-8	했	O	O	O, B-CV, B-PS, B-LC, B-TM
-9	##던	O	O	O, B-PS, B-CV, B-LC, B-QT
-10	윤	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-11	##세	I-PS	I-PS	I-PS, O, B-PS, I-OG, I-LC
-12	##원	I-PS	I-PS	I-PS, O, I-OG, B-PS, I-LC
-13	(	O	O	O, I-PS, B-CV, B-LC, I-OG
-14	91	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-TI
-15	·	O	O	O, I-QT, I-DT, I-OG, B-CV
-16	사진	O	O	O, B-CV, B-TM, B-OG, B-LC
-17	)	O	O	O, B-CV, I-CV, B-PS, B-LC
-18	박사	B-CV	B-CV	B-CV, O, B-TM, I-CV, B-PS
-19	##가	O	O	O, I-CV, B-PS, B-CV, I-EV
-20	16	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-21	##일	I-DT	I-DT	I-DT, O, B-DT, I-PS, I-QT
-22	오후	B-TI	B-TI	B-TI, O, I-TI, B-EV, I-DT
-23	10	I-TI	I-TI	I-TI, B-TI, O, I-QT, I-DT
-24	##시	I-TI	I-TI	I-TI, O, I-QT, I-TR, I-EV
-25	노	O	B-TM	B-TM, O, B-TR, I-TI, B-LC
-26	##환	O	I-TM	I-TM, O, I-TR, I-LC, B-TM
-27	##으로	O	O	O, I-TM, B-TM, I-TR, I-QT
-28	별세	O	O	O, B-CV, B-TM, B-LC, B-OG
-29	##했	O	O	O, I-OG, B-PS, I-CV, B-CV
-30	##다	O	O	O, B-CV, B-LC, B-OG, B-PS
-31	.	O	O	O, B-CV, B-LC, B-PS, B-TM
-32	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	민주당	B-OG	B-OG
+2	##도	O	O
+3	이날	B-DT	B-DT
+4	이	O	B-PS
+5	특임	B-CV	B-CV
+6	##장	I-CV	I-CV
+7	##관	I-CV	I-CV
+8	##을	O	O
+9	공직	B-CV	B-CV
+10	##선거	I-CV	I-CV
+11	##법	I-CV	I-CV
+12	##과	O	O
+13	국가	B-CV	B-CV
+14	##공	I-CV	I-CV
+15	##무원	I-CV	I-CV
+16	##법	I-CV	I-CV
+17	위반	O	O
+18	등의	O	O
+19	혐의	O	O
+20	##로	O	O
+21	검찰	B-OG	B-OG
+22	##과	O	O
+23	중앙선관위	B-OG	B-OG
+24	##에	O	O
+25	고발	O	O
+26	##키	O	O
+27	##로	O	O
+28	했	O	O
+29	##다	O	O
+30	.	O	O
+31	[SEP]	O	O

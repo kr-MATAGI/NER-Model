@@ -1,12 +1,8 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, I-OG, B-CV, I-AF
-1	참여	O	B-OG	B-OG, O, B-PS, B-AF, B-LC
-2	##당	O	I-OG	I-OG, O, I-LC, I-AF, I-PS
-3	출신	O	O	O, I-OG, B-CV, I-EV, I-AF
-4	3	B-QT	B-QT	B-QT, O, B-DT, I-QT, B-EV
-5	##천	I-QT	I-QT	I-QT, O, I-PS, I-EV, I-LC
-6	##명	I-QT	I-QT	I-QT, O, I-LC, I-PS, I-EV
-7	11	B-DT	B-DT	B-DT, O, I-QT, I-DT, B-QT
-8	##일	I-DT	I-DT	I-DT, O, I-QT, B-DT, I-EV
-9	탈당	O	O	O, B-CV, I-DT, B-TM, B-OG
-10	[SEP]	O	O	O, B-CV, B-OG, B-LC, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	라	B-CV	B-CV
+2	##테	I-CV	I-CV
+3	위	O	B-TM
+4	##에	O	O
+5	그려진	O	O
+6	[SEP]	O	O

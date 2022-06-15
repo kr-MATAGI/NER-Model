@@ -1,16 +1,33 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	뭐	O	O	O, B-CV, B-TM, I-CV, B-PS
-2	그래	O	O	O, B-CV, B-TM, B-LC, B-PS
-3	##가지	O	O	O, B-PS, B-CV, I-CV, I-OG
-4	##구	O	O	O, I-CV, I-OG, B-PS, I-AF
-5	내	O	O	O, B-CV, B-PS, B-LC, B-AF
-6	신발	O	B-CV	B-CV, O, I-CV, B-AM, B-PT
-7	사이즈	O	O	O, I-CV, I-AF, I-TM, B-CV
-8	##하고	O	O	O, B-PS, B-CV, I-CV, I-AF
-9	형	B-CV	B-CV	B-CV, O, I-CV, B-PS, B-AF
-10	신발	O	B-CV	B-CV, O, I-CV, B-AM, B-PT
-11	사이즈	O	O	O, I-CV, I-AF, I-TM, B-CV
-12	##하	O	O	O, I-CV, B-CV, B-PS, I-AF
-13	##구	O	O	O, B-CV, B-PS, I-CV, B-LC
-14	[SEP]	O	O	O, B-CV, I-CV, B-LC, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	환경	O	O
+2	문제	O	O
+3	##와	O	O
+4	관련	O	O
+5	##해	O	O
+6	푸	B-PS	B-PS
+7	부부	B-CV	B-CV
+8	##장	I-CV	I-CV
+9	##도	O	O
+10	“	O	O
+11	날	O	O
+12	##마	O	O
+13	##다	O	O
+14	일어나	O	O
+15	##서	O	O
+16	처음	O	O
+17	하	O	O
+18	##는	O	O
+19	일	O	O
+20	##이	O	O
+21	스모그	O	B-MT
+22	##가	O	O
+23	있	O	O
+24	##는지	O	O
+25	확인	O	O
+26	##하	O	O
+27	##는	O	O
+28	것	O	O
+29	##이다	O	O
+30	.	O	O
+31	[SEP]	O	O

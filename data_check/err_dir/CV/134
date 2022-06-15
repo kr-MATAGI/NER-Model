@@ -1,39 +1,6 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-EV, I-CV
-1	그러나	O	O	O, B-LC, B-TM, B-OG, B-CV
-2	내년	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-QT
-3	총선	B-EV	B-EV	B-EV, O, I-EV, B-OG, B-AF
-4	##을	O	O	O, I-EV, I-OG, I-AF, I-DT
-5	앞두	O	O	O, B-OG, B-CV, B-LC, B-PS
-6	##고	O	O	O, B-PS, B-CV, B-OG, B-LC
-7	가입자	B-CV	O	O, B-CV, B-TM, I-CV, B-QT
-8	28	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-PS
-9	##만	I-QT	I-QT	I-QT, O, I-PS, I-LC, B-QT
-10	##명	I-QT	I-QT	I-QT, O, I-LC, I-PS, I-EV
-11	,	O	O	O, I-QT, B-CV, B-OG, I-OG
-12	수급	B-CV	B-CV	B-CV, O, B-TM, I-CV, B-OG
-13	##자	I-CV	I-CV	I-CV, O, B-CV, I-QT, I-TM
-14	5	B-QT	B-QT	B-QT, I-QT, O, I-CV, B-DT
-15	##만	I-QT	I-QT	I-QT, O, I-PS, B-QT, I-LC
-16	##명	I-QT	I-QT	I-QT, O, I-PS, I-LC, B-QT
-17	##의	O	O	O, I-QT, B-PS, B-CV, B-OG
-18	사학	B-CV	B-CV	B-CV, B-AF, O, B-OG, B-TM
-19	##연금	I-CV	I-CV	I-CV, O, I-OG, I-AF, B-CV
-20	##과	O	O	O, I-CV, I-OG, I-AF, I-EV
-21	관련	O	O	O, B-CV, B-TM, B-LC, B-OG
-22	##된	O	O	O, B-LC, B-PS, B-OG, B-CV
-23	법	O	O	O, B-CV, B-PS, B-TM, B-FD
-24	개정	O	O	O, I-CV, B-CV, B-LC, B-PS
-25	##이	O	O	O, B-PS, B-OG, B-LC, B-CV
-26	조용히	O	O	O, B-LC, B-TM, B-QT, B-CV
-27	진행	O	O	O, B-LC, B-TM, B-CV, B-OG
-28	##될	O	O	O, B-LC, B-CV, B-OG, B-PS
-29	수	O	O	O, B-CV, B-LC, B-OG, B-TM
-30	있	O	O	O, B-CV, B-LC, B-TM, B-OG
-31	##을	O	O	O, B-LC, B-TM, B-CV, B-OG
-32	##지	O	O	O, B-TM, B-LC, B-OG, B-CV
-33	##는	O	O	O, B-TM, B-CV, B-LC, B-OG
-34	미지수	O	O	O, B-TM, B-CV, B-QT, B-EV
-35	##다	O	O	O, I-TM, B-CV, I-CV, I-QT
-36	.	O	O	O, B-LC, B-CV, B-OG, B-PS
-37	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	국정	B-CV	O
+2	##조사	I-CV	O
+3	##는	O	O
+4	[SEP]	O	O

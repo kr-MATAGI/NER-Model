@@ -1,23 +1,35 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	중국	B-LC	B-LC	B-LC, B-OG, O, B-EV, B-PS
-2	양회	O	O	O, B-OG, I-OG, B-EV, I-EV
-3	<	O	O	O, I-OG, B-OG, I-EV, B-PS
-4	정	B-AF	B-OG	B-OG, O, I-OG, B-PS, B-AF
-5	##협	I-AF	I-OG	I-OG, O, I-EV, I-AF, I-PS
-6	·	I-AF	O	O, I-OG, B-OG, I-EV, I-AF
-7	전인	I-AF	B-OG	B-OG, I-OG, O, B-PS, B-AF
-8	##대	I-AF	I-OG	I-OG, O, I-EV, I-AF, I-LC
-9	>	O	O	O, I-OG, I-EV, I-AF, B-PS
-10	최대	O	B-PS	B-PS, O, B-CV, B-AF, B-AM
-11	##화	O	I-PS	I-PS, O, B-PS, B-CV, I-CV
-12	##두	O	I-PS	I-PS, O, I-CV, B-PS, I-AF
-13	/	O	O	O, I-PS, B-PS, I-CV, I-AF
-14	“	O	O	O, B-LC, B-CV, B-PS, B-OG
-15	사회	O	O	O, B-CV, B-TM, B-PS, B-LC
-16	불안	O	O	O, B-TM, B-PS, I-TM, B-CV
-17	##을	O	O	O, I-AF, B-PS, I-CV, I-TM
-18	막아	O	O	O, B-CV, B-PS, I-AF, B-LC
-19	##라	O	O	O, B-PS, I-PS, I-AF, B-CV
-20	”	O	O	O, B-CV, B-PS, B-LC, I-CV
-21	[SEP]	O	O	O, B-LC, B-OG, B-PS, B-CV
+	text	label	preds
+0	[CLS]	O	O
+1	23	B-DT	B-DT
+2	##일	I-DT	I-DT
+3	오전	B-TI	B-TI
+4	(	O	O
+5	한국	B-LC	B-LC
+6	시각	O	O
+7	)	O	O
+8	LA	B-OG	B-OG
+9	다저스	I-OG	I-OG
+10	##와	O	O
+11	토론	B-OG	B-OG
+12	##토	I-OG	I-OG
+13	블루	I-OG	I-OG
+14	##제이	I-OG	I-OG
+15	##스	I-OG	I-OG
+16	##의	O	O
+17	미	B-LC	B-LC
+18	프로	B-CV	B-CV
+19	##야	I-CV	I-CV
+20	##구	I-CV	I-CV
+21	(	O	O
+22	MLB	B-OG	B-OG
+23	)	O	O
+24	경기	O	O
+25	##가	O	O
+26	열린	O	O
+27	캐나다	B-LC	B-LC
+28	토론	B-LC	B-AF
+29	##토	I-LC	I-AF
+30	로저스	B-AF	I-AF
+31	##센터	I-AF	I-AF
+32	.	O	O
+33	[SEP]	O	O

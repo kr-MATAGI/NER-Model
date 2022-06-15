@@ -1,32 +1,37 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-EV, I-OG, I-CV
-1	2015	B-DT	B-DT	B-DT, I-DT, O, B-EV, B-QT
-2	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-3	6	I-DT	I-DT	I-DT, O, B-DT, I-PS, I-EV
-4	##월	I-DT	I-DT	I-DT, O, B-DT, I-PS, I-QT
-5	신시내티	B-OG	B-OG	B-OG, O, B-LC, I-OG, B-AF
-6	##에서	O	O	O, I-OG, I-EV, I-DT, I-LC
-7	방출	O	O	O, B-CV, B-PS, I-EV, B-EV
-8	##된	O	O	O, B-PS, I-EV, I-OG, B-LC
-9	후	O	O	O, B-LC, B-PS, B-OG, B-CV
-10	빅리그	O	B-OG	B-OG, O, B-LC, B-EV, I-OG
-11	##를	O	O	O, I-OG, I-EV, I-LC, I-AF
-12	밟	O	O	O, B-CV, B-PS, B-LC, I-OG
-13	##지	O	O	O, B-PS, B-LC, B-OG, B-CV
-14	못한	O	O	O, B-PS, B-LC, B-OG, B-QT
-15	마르	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-16	##키	I-PS	I-PS	I-PS, O, I-OG, I-LC, B-PS
-17	##는	O	O	O, I-PS, I-OG, I-EV, B-CV
-18	WBC	B-EV	B-EV	B-EV, O, B-OG, B-LC, B-AF
-19	##를	O	O	O, I-EV, I-OG, I-AF, I-QT
-20	재기	O	O	O, B-CV, I-EV, B-TM, B-LC
-21	##의	O	O	O, B-PS, B-CV, B-LC, B-OG
-22	발판	O	O	O, B-CV, B-QT, B-EV, B-LC
-23	##으로	O	O	O, B-CV, B-PS, B-LC, B-OG
-24	삼	O	O	O, B-PS, B-CV, B-LC, B-EV
-25	##겠다	O	O	O, B-CV, B-PS, I-EV, B-LC
-26	##는	O	O	O, B-CV, B-PS, B-OG, B-TM
-27	각오	O	O	O, B-CV, B-TM, B-EV, B-PS
-28	##다	O	O	O, B-CV, B-PS, B-QT, B-TM
-29	.	O	O	O, B-PS, B-CV, B-LC, I-EV
-30	[SEP]	O	O	O, B-CV, I-EV, B-PS, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	초등	O	O
+2	##수	O	B-FD
+3	##학	O	I-FD
+4	단과	O	O
+5	##반	O	O
+6	##은	O	O
+7	학년	O	O
+8	##에	O	O
+9	맞춰	O	O
+10	수업	O	O
+11	##을	O	O
+12	진행	O	O
+13	##하	O	O
+14	##는	O	O
+15	‘	O	O
+16	개념	O	O
+17	##반	O	O
+18	’	O	O
+19	과	O	O
+20	선행	O	O
+21	##학습	O	O
+22	##과	O	O
+23	심화	O	O
+24	##문제	O	O
+25	##를	O	O
+26	푸	O	O
+27	##는	O	O
+28	‘	O	O
+29	심화	O	O
+30	##반	O	O
+31	’	O	O
+32	으로	O	O
+33	나뉜다	O	O
+34	.	O	O
+35	[SEP]	O	O

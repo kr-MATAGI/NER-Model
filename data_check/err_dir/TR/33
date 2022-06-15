@@ -1,8 +1,14 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, B-CV, I-OG, I-EV
-1	시장	B-TR	O	O, B-TR, B-CV, B-FD, B-LC
-2	##경제	I-TR	O	O, I-TR, I-CV, I-FD, B-CV
-3	##가	O	O	O, I-TR, I-CV, I-FD, I-AF
-4	아닙니까	O	O	O, I-CV, B-PS, B-CV, I-TR
-5	.	O	O	O, B-CV, B-LC, B-OG, B-PS
-6	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	나중	O	O
+2	##에	O	O
+3	##는	O	O
+4	뇌	B-TM	B-TM
+5	엠	B-TR	B-TM
+6	##알	I-TR	I-TM
+7	##아이	I-TR	I-TM
+8	##까	O	O
+9	##지	O	O
+10	찍	O	O
+11	##잖아	O	O
+12	[SEP]	O	O

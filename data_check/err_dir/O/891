@@ -1,34 +1,31 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-AF, I-CV, I-OG
-1	그	O	O	O, B-CV, B-LC, B-TM, B-AF
-2	구간	O	O	O, B-CV, B-AF, B-LC, I-AF
-3	##이	O	O	O, B-PS, B-CV, I-AF, B-AF
-4	막혀	O	O	O, B-CV, B-LC, B-TM, B-AF
-5	##서	O	O	O, B-CV, B-LC, B-PS, B-TM
-6	불편	O	O	O, B-CV, B-LC, B-TM, B-AF
-7	##을	O	O	O, B-CV, B-PS, I-AF, B-LC
-8	겪	O	O	O, B-CV, B-PS, B-LC, B-AF
-9	##는	O	O	O, B-CV, I-AF, B-TM, B-AF
-10	사람	O	O	O, B-CV, I-CV, B-AM, B-AF
-11	##들	O	O	O, I-CV, B-CV, I-AF, B-PS
-12	##은	O	O	O, B-LC, B-CV, B-TM, B-PS
-13	안성	B-LC	B-LC	B-LC, O, B-OG, B-TM, B-AF
-14	이북	O	B-LC	B-LC, O, B-TM, I-LC, B-OG
-15	##의	O	O	O, I-LC, I-AF, B-LC, I-OG
-16	수도권	B-LC	B-LC	B-LC, O, B-TM, B-OG, B-AF
-17	##에서	O	O	O, I-LC, I-AF, B-LC, B-CV
-18	천안	B-LC	B-LC	B-LC, O, B-OG, B-TM, B-AF
-19	이남	O	B-LC	B-LC, B-TM, O, I-LC, B-OG
-20	##의	O	O	O, I-LC, I-AF, I-TM, I-OG
-21	부산	B-LC	B-LC	B-LC, O, B-OG, B-AF, B-PS
-22	대구	B-LC	B-LC	B-LC, O, I-LC, B-OG, B-AF
-23	광주	B-LC	B-LC	B-LC, I-LC, O, B-OG, B-AF
-24	등	O	O	O, I-LC, I-AF, B-LC, B-CV
-25	##을	O	O	O, B-CV, I-AF, B-LC, B-PS
-26	오가	O	O	O, B-CV, B-AF, B-QT, B-TM
-27	##는	O	O	O, B-CV, B-PS, I-AF, B-QT
-28	사람	O	O	O, B-CV, B-AM, I-CV, B-QT
-29	##들이	O	O	O, B-CV, I-CV, I-AF, B-PS
-30	##다	O	O	O, B-CV, B-TM, B-LC, I-AF
-31	.	O	O	O, B-LC, B-CV, B-AF, B-PS
-32	[SEP]	O	O	O, B-CV, B-LC, I-AF, B-AF
+	text	label	preds
+0	[CLS]	O	O
+1	지난해	B-DT	B-DT
+2	총	O	O
+3	150	O	O
+4	##억	O	O
+5	원의	O	O
+6	매출	O	O
+7	##을	O	O
+8	올리	O	O
+9	##며	O	O
+10	녹차	B-CV	B-CV
+11	##음료	O	I-CV
+12	시장	O	O
+13	##에	O	O
+14	##서	O	O
+15	점유	O	O
+16	##율	O	O
+17	42	B-QT	B-QT
+18	.	I-QT	I-QT
+19	8	I-QT	I-QT
+20	%	I-QT	I-QT
+21	로	O	O
+22	1	B-QT	B-QT
+23	##위	I-QT	I-QT
+24	##를	O	O
+25	차지	O	O
+26	##했	O	O
+27	##다	O	O
+28	.	O	O
+29	[SEP]	O	O

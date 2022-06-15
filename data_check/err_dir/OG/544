@@ -1,17 +1,9 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	오	B-PS	B-PS	B-PS, O, B-LC, B-OG, I-PS
-2	##준	I-PS	I-PS	I-PS, O, I-LC, B-PS, I-OG
-3	유엔	B-OG	B-OG	B-OG, B-CV, O, I-OG, I-PS
-4	##대사	B-CV	B-CV	B-CV, O, I-CV, I-OG, B-OG
-5	한국	O	O	O, B-LC, I-CV, B-CV, B-FD
-6	##말로	O	O	O, I-CV, I-LC, B-LC, B-PS
-7	“	O	O	O, B-LC, B-PS, B-CV, I-CV
-8	북한	B-OG	B-LC	B-LC, B-OG, O, B-PS, B-AF
-9	,	O	O	O, I-OG, I-LC, I-AF, I-PS
-10	이제	O	O	O, B-CV, I-AF, B-LC, B-PS
-11	그만	O	O	O, B-CV, B-PS, B-LC, I-AF
-12	##하	O	O	O, B-CV, B-PS, I-AF, I-CV
-13	##세요	O	O	O, I-AF, I-CV, B-CV, I-OG
-14	”	O	O	O, B-CV, B-LC, B-PS, B-OG
-15	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-FD
+	text	label	preds
+0	[CLS]	O	O
+1	서울시	B-OG	O
+2	##당	I-OG	O
+3	##위원	O	O
+4	##장이	O	O
+5	##었	O	O
+6	##고	O	O
+7	[SEP]	O	O

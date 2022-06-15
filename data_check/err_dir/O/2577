@@ -1,30 +1,51 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, B-CV, I-OG, I-AF
-1	“	O	O	O, B-LC, B-CV, B-PS, B-DT
-2	국민	O	B-CV	B-CV, O, B-OG, I-CV, B-TM
-3	##이나	O	O	O, I-CV, I-OG, I-AF, B-CV
-4	부산	B-LC	B-LC	B-LC, O, B-OG, B-PS, B-AF
-5	시민	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-AF
-6	##들	O	O	O, I-CV, I-OG, I-AF, I-EV
-7	##조	O	O	O, B-CV, B-PS, B-LC, B-TM
-8	##차	O	O	O, B-LC, B-PS, B-OG, I-LC
-9	바다	O	O	O, B-LC, B-AM, B-AF, I-LC
-10	##에서	O	O	O, I-LC, I-AF, B-PS, B-LC
-11	일	O	O	O, B-CV, B-LC, B-TM, B-QT
-12	##한다	O	O	O, B-PS, B-CV, B-LC, I-AF
-13	##고	O	O	O, B-PS, B-CV, B-LC, B-QT
-14	하	O	O	O, B-CV, B-PS, B-QT, B-TM
-15	##면	O	O	O, B-CV, B-LC, I-QT, B-PS
-16	아직	O	O	O, B-CV, B-LC, B-TM, B-OG
-17	##도	O	O	O, B-PS, B-LC, I-CV, B-OG
-18	좀	O	O	O, B-CV, B-TM, B-LC, B-QT
-19	낮춰	O	O	O, B-CV, B-QT, B-PS, B-LC
-20	##보	O	O	O, B-PS, B-CV, I-QT, B-QT
-21	##는	O	O	O, B-CV, B-PS, B-LC, I-QT
-22	인식	O	O	O, B-CV, B-PS, B-TM, B-LC
-23	##이	O	O	O, B-PS, B-CV, B-OG, I-CV
-24	많	O	O	O, B-CV, B-TM, I-CV, B-OG
-25	##습	O	O	O, B-CV, I-OG, B-LC, I-CV
-26	##니다	O	O	O, B-CV, B-LC, B-PS, B-TM
-27	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-28	[SEP]	O	O	O, B-CV, B-LC, B-PS, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	1932	B-DT	B-DT
+2	##년	I-DT	I-DT
+3	평	B-LC	B-LC
+4	##남	I-LC	I-LC
+5	덕	B-LC	B-LC
+6	##천군	I-LC	I-LC
+7	어느	O	O
+8	마을	O	O
+9	##에	O	O
+10	##선	O	O
+11	옥수수	B-CV	B-PT
+12	##를	O	O
+13	튀기	O	O
+14	##던	O	O
+15	곡물	B-TM	B-TM
+16	##팽	I-TM	I-TM
+17	##창	I-TM	I-TM
+18	##기	I-TM	I-TM
+19	##가	O	O
+20	폭발	O	O
+21	##해	O	O
+22	업자	O	B-CV
+23	##가	O	O
+24	즉사	O	O
+25	##하	O	O
+26	##고	O	O
+27	,	O	O
+28	구경	O	O
+29	##하	O	O
+30	##던	O	O
+31	7	B-QT	B-QT
+32	##세	I-QT	I-QT
+33	소년	O	O
+34	##이	O	O
+35	크	O	O
+36	##게	O	O
+37	다쳤	O	O
+38	##다	O	O
+39	(	O	O
+40	1933	B-DT	B-DT
+41	##년	I-DT	I-DT
+42	2	I-DT	I-DT
+43	##월	I-DT	I-DT
+44	10	I-DT	I-DT
+45	##일	I-DT	I-DT
+46	##자	I-DT	O
+47	)	O	O
+48	.	O	O
+49	[SEP]	O	O

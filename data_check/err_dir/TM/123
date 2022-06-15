@@ -1,13 +1,53 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-QT
-1	맞	O	O	O, B-CV, B-QT, B-EV, B-TM
-2	##상	O	O	O, I-QT, I-CV, I-EV, I-OG
-3	##대	O	O	O, I-QT, I-CV, I-OG, I-EV
-4	케	B-PS	B-PS	B-PS, O, B-AF, B-CV, B-AM
-5	##르	I-PS	I-PS	I-PS, O, I-AF, I-CV, I-LC
-6	##버	I-PS	I-PS	I-PS, O, I-AF, I-CV, I-LC
-7	한수	O	B-QT	B-QT, O, I-QT, I-PS, B-DT
-8	아래	B-TM	O	O, B-TM, B-QT, I-QT, I-TM
-9	평가	O	O	O, I-QT, I-TM, B-CV, I-OG
-10	##돼	O	O	O, I-OG, I-QT, B-CV, I-AF
-11	[SEP]	O	O	O, B-CV, B-QT, I-QT, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	SK	B-OG	B-OG
+2	##텔	I-OG	I-OG
+3	##레	I-OG	I-OG
+4	##콤	I-OG	I-OG
+5	##이	O	O
+6	새	O	O
+7	중국어	B-CV	B-CV
+8	브랜드	O	O
+9	##까	O	O
+10	##지	O	O
+11	만든	O	O
+12	것	O	O
+13	##은	O	O
+14	모든	O	O
+15	것	O	O
+16	##이	O	O
+17	연결	O	O
+18	##되	O	O
+19	##는	O	O
+20	사물	B-TM	B-FD
+21	##인	I-TM	I-FD
+22	##터	I-TM	I-FD
+23	##넷	I-TM	I-FD
+24	(	I-TM	O
+25	IoT	I-TM	B-FD
+26	)	I-TM	O
+27	기기	I-TM	O
+28	보급	O	O
+29	##을	O	O
+30	통해	O	O
+31	IoT	B-FD	B-FD
+32	서비스	O	O
+33	플랫폼	O	O
+34	기업	O	O
+35	##으로	O	O
+36	도약	O	O
+37	##하	O	O
+38	##겠다	O	O
+39	##는	O	O
+40	의지	O	O
+41	##를	O	O
+42	반영	O	O
+43	##한	O	O
+44	것	O	O
+45	##이	O	O
+46	##라는	O	O
+47	분석	O	O
+48	##이	O	O
+49	나온다	O	O
+50	.	O	O
+51	[SEP]	O	O

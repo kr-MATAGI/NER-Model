@@ -1,10 +1,14 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	그거	O	O	O, B-CV, B-TM, B-OG, I-CV
-2	##야	O	O	O, B-CV, B-TM, B-OG, I-CV
-3	뭐	O	O	O, B-CV, B-TM, B-OG, B-QT
-4	딜	O	B-CV	B-CV, O, B-AF, B-OG, B-PT
-5	##이	O	O	O, I-CV, I-AF, I-OG, B-PS
-6	아니	O	O	O, I-CV, B-PS, B-CV, I-AF
-7	##죠	O	O	O, B-CV, I-CV, I-OG, B-OG
-8	[SEP]	O	O	O, B-CV, I-CV, B-TM, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	[	O	O
+2	그런	O	O
+3	##거	O	O
+4	野	O	B-OG
+5	]	O	O
+6	FA	B-CV	B-CV
+7	,	O	O
+8	대박	O	O
+9	##과	O	O
+10	도박	O	O
+11	사이	O	O
+12	[SEP]	O	O

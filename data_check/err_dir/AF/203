@@ -1,45 +1,67 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-EV
-1	[	O	O	O, B-LC, B-OG, B-DT, B-PS
-2	천안	B-AF	B-EV	B-EV, B-AF, B-LC, B-PS, I-EV
-3	##함	I-AF	I-EV	I-EV, I-AF, I-LC, I-PS, O
-4	피폭	O	I-EV	I-EV, I-AF, O, I-LC, I-DT
-5	침몰	O	I-EV	I-EV, O, I-AF, I-DT, B-EV
-6	]	O	O	O, I-EV, I-AF, I-DT, I-OG
-7	보복	O	O	O, B-LC, B-CV, I-EV, B-TM
-8	##타	O	O	O, B-CV, B-LC, I-EV, I-CV
-9	##격	O	O	O, I-CV, I-EV, B-LC, I-LC
-10	대신	O	O	O, B-PS, B-CV, B-LC, I-CV
-11	'	O	O	O, B-LC, B-OG, B-CV, B-PS
-12	[UNK]	O	O	O, B-LC, B-CV, B-PS, B-OG
-13	강도	O	O	O, B-CV, B-PS, B-LC, B-AM
-14	대응	O	O	O, I-CV, B-LC, B-CV, B-PS
-15	(	O	O	O, B-CV, B-OG, B-LC, I-CV
-16	火	O	O	O, B-PS, B-LC, B-CV, B-MT
-17	力	O	O	O, B-LC, B-PS, I-PS, I-LC
-18	배제	O	O	O, B-LC, B-PS, B-CV, I-PS
-19	##한	O	O	O, B-LC, B-PS, B-CV, I-PS
-20	군사	O	O	O, B-CV, B-LC, B-PS, I-CV
-21	##적	O	O	O, I-CV, I-PS, I-LC, I-TR
-22	조치	O	O	O, I-CV, I-PS, B-CV, I-LC
-23	)	O	O	O, B-LC, B-OG, I-CV, B-CV
-24	'	O	O	O, B-OG, B-CV, B-LC, B-PS
-25	검토	O	O	O, B-CV, B-OG, B-LC, B-QT
-26	;	O	O	O, B-LC, B-PS, B-OG, B-CV
-27	1976	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-28	##년	I-DT	I-DT	I-DT, O, I-QT, B-DT, I-EV
-29	北	B-LC	B-LC	B-LC, B-OG, O, B-EV, I-DT
-30	판문점	B-LC	B-LC	B-LC, I-LC, I-EV, B-EV, B-OG
-31	도끼	B-AF	B-AF	B-AF, I-EV, B-EV, O, B-PS
-32	만행	O	O	O, I-EV, I-AF, I-DT, I-LC
-33	땐	O	O	O, I-EV, I-DT, B-LC, B-PS
-34	韓	B-LC	B-LC	B-LC, B-OG, O, B-CV, B-EV
-35	·	O	O	O, I-LC, I-OG, B-LC, B-OG
-36	美	B-LC	B-LC	B-LC, I-LC, B-OG, O, I-OG
-37	무력	O	O	O, I-LC, I-OG, I-EV, B-LC
-38	시위	O	O	O, B-LC, I-EV, B-EV, I-LC
-39	…	O	O	O, B-LC, B-OG, I-OG, I-EV
-40	이번	O	O	O, B-LC, B-CV, B-OG, B-DT
-41	##엔	O	O	O, B-LC, B-OG, B-CV, B-PS
-42	?	O	O	O, B-LC, B-OG, B-CV, B-PS
-43	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	또	O	O
+2	정	B-PS	B-PS
+3	씨	O	O
+4	##가	O	O
+5	박	B-PS	B-PS
+6	대통령	B-CV	B-CV
+7	##의	O	O
+8	동생	B-CV	B-CV
+9	지만	B-PS	B-PS
+10	씨	O	O
+11	##를	O	O
+12	미행	O	O
+13	##했	O	O
+14	##다는	O	O
+15	의혹	O	O
+16	##이	O	O
+17	올해	B-DT	B-DT
+18	3	I-DT	I-DT
+19	##월	I-DT	I-DT
+20	시사	B-AF	B-OG
+21	##저	I-AF	I-OG
+22	##널	I-AF	I-OG
+23	##에	O	O
+24	보도	O	O
+25	##된	O	O
+26	직후	O	O
+27	정	B-PS	B-PS
+28	씨	O	O
+29	##가	O	O
+30	박지	B-PS	B-PS
+31	##만	I-PS	I-PS
+32	씨	O	O
+33	##를	O	O
+34	찾아가	O	O
+35	무릎	B-AM	B-AM
+36	##을	O	O
+37	꿇	O	O
+38	##고	O	O
+39	빌	O	O
+40	##었	O	O
+41	##다는	O	O
+42	청와대	B-AF	B-OG
+43	문건	O	O
+44	작성	B-CV	B-CV
+45	##자	I-CV	I-CV
+46	박모	O	O
+47	경정	B-CV	B-CV
+48	##의	O	O
+49	인터뷰	O	O
+50	내용	O	O
+51	##에	O	O
+52	대해서	O	O
+53	##도	O	O
+54	그	O	O
+55	##는	O	O
+56	“	O	O
+57	말	O	O
+58	##이	O	O
+59	안	O	O
+60	되	O	O
+61	##는	O	O
+62	소리	O	O
+63	##다	O	O
+64	.	O	O
+65	[SEP]	O	O

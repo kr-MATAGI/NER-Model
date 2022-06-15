@@ -1,77 +1,15 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	그러나	O	O	O, B-CV, B-LC, B-TM, B-OG
-2	알	O	O	O, B-CV, B-EV, B-PS, B-LC
-3	##박	O	O	O, I-CV, I-EV, I-PS, I-LC
-4	##기	O	O	O, I-CV, I-EV, I-PS, I-LC
-5	목적	O	O	O, I-CV, I-EV, I-PS, I-QT
-6	##이	O	O	O, B-PS, B-LC, B-OG, B-CV
-7	없	O	O	O, B-CV, B-LC, B-PS, B-OG
-8	##는데	O	O	O, B-LC, B-OG, B-PS, B-CV
-9	##도	O	O	O, B-LC, B-OG, B-PS, B-TM
-10	민간	O	O	O, B-OG, B-CV, B-LC, B-AF
-11	건설사	O	O	O, B-OG, I-OG, B-CV, B-AF
-12	##의	O	O	O, I-OG, B-PS, B-CV, B-LC
-13	무분별	O	O	O, B-CV, B-LC, B-TM, B-OG
-14	##한	O	O	O, B-LC, B-PS, B-OG, B-CV
-15	매도	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-AF
-16	##청	I-CV	I-CV	I-CV, O, B-CV, I-TM, I-OG
-17	##구	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-TM
-18	##권	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-TM
-19	행사	O	O	O, I-CV, I-OG, I-TM, I-EV
-20	##로	O	O	O, B-PS, B-LC, I-CV, B-OG
-21	개인	O	O	O, B-CV, B-PS, B-LC, B-OG
-22	##의	O	O	O, B-PS, B-LC, B-CV, B-OG
-23	의사	O	O	O, B-PS, B-LC, B-CV, B-TM
-24	##와	O	O	O, B-LC, B-PS, B-CV, B-OG
-25	상관없이	O	O	O, B-CV, B-TM, B-LC, B-PS
-26	소유	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-AF
-27	##권	I-CV	I-CV	I-CV, O, B-CV, I-TM, I-OG
-28	##을	O	O	O, I-CV, B-CV, I-OG, I-QT
-29	잃	O	O	O, B-CV, B-TM, B-LC, B-OG
-30	##게	O	O	O, B-CV, B-PS, B-LC, B-QT
-31	돼	O	O	O, B-LC, B-CV, B-TM, B-QT
-32	,	O	O	O, B-CV, B-LC, B-OG, B-PS
-33	헌법	B-CV	B-CV	B-CV, O, B-OG, B-AF, I-CV
-34	##상	O	O	O, I-CV, B-CV, I-OG, I-DT
-35	재산	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-OG
-36	##권	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-TM
-37	##이나	O	O	O, I-CV, I-OG, B-CV, B-PS
-38	거주	O	B-CV	B-CV, O, I-CV, B-TM, B-AF
-39	##이	O	I-CV	I-CV, O, B-CV, I-TM, I-TR
-40	##전	O	I-CV	I-CV, O, B-CV, I-TM, I-TR
-41	##의	O	I-CV	I-CV, O, B-CV, I-TM, I-TR
-42	자유	O	I-CV	I-CV, O, B-CV, I-TR, I-TM
-43	##를	O	O	O, I-CV, B-CV, I-QT, I-OG
-44	침해	O	O	O, B-CV, B-LC, B-TM, B-OG
-45	##받	O	O	O, B-LC, B-PS, I-OG, I-LC
-46	##고	O	O	O, B-LC, B-CV, B-PS, B-TM
-47	있	O	O	O, B-CV, B-LC, B-PS, B-OG
-48	##다는	O	O	O, B-LC, B-PS, B-OG, I-QT
-49	지적	O	O	O, B-CV, B-LC, B-OG, B-TM
-50	##과	O	O	O, B-CV, B-PS, B-LC, B-OG
-51	함께	O	O	O, B-CV, B-TM, B-LC, B-OG
-52	,	O	O	O, B-CV, B-LC, B-OG, B-PS
-53	건설사	O	O	O, B-OG, B-CV, B-LC, B-AF
-54	##에	O	O	O, B-CV, B-LC, B-PS, I-OG
-55	땅	O	O	O, B-LC, B-CV, B-AF, B-TM
-56	##을	O	O	O, B-CV, B-PS, B-LC, B-OG
-57	수용	O	O	O, B-CV, B-LC, B-OG, B-TM
-58	##당	O	O	O, B-LC, B-PS, I-OG, I-LC
-59	##할	O	O	O, B-LC, B-PS, B-CV, B-OG
-60	처지	O	O	O, B-CV, B-OG, B-QT, B-TM
-61	##에	O	O	O, B-CV, B-PS, B-OG, B-LC
-62	놓인	O	O	O, B-CV, B-LC, B-OG, B-PS
-63	땅	O	O	O, B-CV, B-PS, B-LC, B-AF
-64	주인	B-CV	B-CV	B-CV, O, I-CV, B-PS, B-TM
-65	##들	O	O	O, I-CV, B-CV, I-OG, B-PS
-66	##의	O	O	O, B-CV, B-LC, B-PS, B-OG
-67	위헌	O	O	O, B-CV, B-TM, B-TR, B-FD
-68	##소송	O	O	O, I-CV, I-TR, B-CV, I-TM
-69	##이	O	O	O, B-PS, I-CV, B-CV, B-OG
-70	잇따르	O	O	O, B-OG, B-LC, B-CV, B-QT
-71	##고	O	O	O, B-LC, B-PS, B-CV, B-OG
-72	있	O	O	O, B-CV, B-LC, B-OG, B-TM
-73	##다	O	O	O, B-CV, B-TM, B-LC, I-OG
-74	.	O	O	O, B-LC, B-PS, B-CV, B-OG
-75	[SEP]	O	O	O, B-LC, B-CV, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	독일어	B-CV	B-CV
+2	##래	O	O
+3	##는	O	O
+4	게	O	O
+5	거의	O	O
+6	사	O	B-CV
+7	##어	O	I-CV
+8	##였	O	O
+9	##거	O	O
+10	##든	O	O
+11	##요	O	O
+12	.	O	O
+13	[SEP]	O	O

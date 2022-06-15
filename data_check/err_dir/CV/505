@@ -1,12 +1,43 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	공단	O	O	O, B-OG, B-CV, I-OG, B-LC
-2	,	O	O	O, I-OG, B-CV, I-CV, I-AF
-3	27	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-PS
-4	##1	I-QT	I-QT	I-QT, B-QT, O, I-LC, I-PS
-5	##만	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-6	##원	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-7	손해배상	B-CV	O	O, B-CV, I-QT, I-CV, B-TM
-8	##금	I-CV	O	O, I-CV, B-CV, I-QT, I-TM
-9	청구	O	O	O, I-CV, B-CV, B-TM, B-LC
-10	[SEP]	O	O	O, B-CV, B-LC, B-OG, I-CV
+	text	label	preds
+0	[CLS]	O	O
+1	현재	O	O
+2	컬링	B-CV	O
+3	##경기	O	O
+4	##장	O	O
+5	##은	O	O
+6	태	B-LC	B-LC
+7	##릉	I-LC	I-LC
+8	##선	I-LC	I-LC
+9	##수	I-LC	I-LC
+10	##촌	I-LC	I-LC
+11	##과	O	O
+12	경북	B-LC	B-LC
+13	의성	B-LC	B-LC
+14	등	O	O
+15	2	B-QT	B-QT
+16	##곳	I-QT	I-QT
+17	##에	O	O
+18	7	B-QT	B-QT
+19	##개	I-QT	I-QT
+20	레인	O	O
+21	##이	O	O
+22	있	O	O
+23	##지만	O	O
+24	국제	O	O
+25	##규	O	O
+26	##격	O	O
+27	##을	O	O
+28	갖추	O	O
+29	##지	O	O
+30	못	O	O
+31	##해	O	O
+32	연습장	O	O
+33	##으로	O	O
+34	##만	O	O
+35	사용	O	O
+36	##하	O	O
+37	##고	O	O
+38	있	O	O
+39	##다	O	O
+40	.	O	O
+41	[SEP]	O	O

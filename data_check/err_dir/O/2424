@@ -1,30 +1,84 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	맏형	B-CV	B-CV	B-CV, O, B-PS, I-CV, B-AF
-2	이정수	B-PS	B-PS	B-PS, O, I-PS, B-OG, B-CV
-3	(	O	O	O, I-PS, I-OG, I-CV, B-CV
-4	28	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-TM
-5	)	O	O	O, I-QT, I-OG, I-DT, I-EV
-6	는	O	O	O, B-CV, B-TM, B-LC, B-PS
-7	4	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-EV
-8	##위	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-EV
-9	##로	O	O	O, I-QT, I-EV, I-OG, B-CV
-10	골	B-TM	O	O, B-TM, B-CV, B-LC, B-AF
-11	##인	I-TM	O	O, I-TM, I-CV, I-LC, I-AF
-12	##했	O	O	O, I-CV, I-TM, B-PS, B-LC
-13	##지만	O	O	O, B-LC, B-PS, B-OG, B-CV
-14	중국	B-LC	B-LC	B-LC, B-OG, O, B-PS, B-CV
-15	선수	B-CV	B-CV	B-CV, O, I-CV, B-AF, I-LC
-16	##가	O	O	O, I-CV, I-OG, I-AF, B-PS
-17	실격	O	O	O, B-TM, B-CV, B-LC, B-OG
-18	##되	O	O	O, B-PS, B-LC, I-OG, I-CV
-19	##면서	O	O	O, B-LC, B-CV, B-QT, B-PS
-20	동메달	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-AF
-21	##을	O	O	O, I-CV, B-CV, I-AF, I-EV
-22	목	O	B-AM	B-AM, O, B-PS, B-TM, B-TR
-23	##에	O	O	O, I-CV, I-AF, B-CV, I-QT
-24	걸	O	O	O, B-CV, B-LC, B-PS, B-OG
-25	##었	O	O	O, B-CV, B-LC, B-PS, I-CV
-26	##다	O	O	O, B-CV, B-TM, B-LC, B-PS
-27	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-28	[SEP]	O	O	O, B-CV, B-LC, B-TM, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	김유정	B-PS	B-PS
+2	민주당	B-OG	B-OG
+3	의원	B-CV	B-CV
+4	##은	O	O
+5	23	B-DT	B-DT
+6	##일	I-DT	I-DT
+7	국회	B-OG	B-OG
+8	교육	B-OG	B-OG
+9	##과학	I-OG	I-OG
+10	##기술	I-OG	I-OG
+11	##위원회	I-OG	I-OG
+12	인사	B-EV	B-EV
+13	##청	I-EV	I-EV
+14	##문	I-EV	I-EV
+15	##회	I-EV	I-EV
+16	##에	O	O
+17	##서	O	O
+18	“	O	O
+19	이	B-PS	B-PS
+20	후보자	B-CV	B-CV
+21	##가	O	O
+22	한국개발연구원	B-OG	B-OG
+23	(	O	O
+24	KDI	B-OG	B-OG
+25	)	O	O
+26	에서	O	O
+27	연구원	B-CV	B-CV
+28	및	O	O
+29	국제	O	B-OG
+30	##정책	O	I-OG
+31	##대	O	I-OG
+32	##학	O	I-OG
+33	##원	O	I-OG
+34	교수	B-CV	B-CV
+35	##로	O	O
+36	근무	O	O
+37	##하	O	O
+38	##던	O	O
+39	1992	B-DT	B-DT
+40	##년	I-DT	I-DT
+41	##부터	I-DT	I-DT
+42	2004	I-DT	I-DT
+43	##년	I-DT	I-DT
+44	##까	I-DT	I-DT
+45	##지	I-DT	I-DT
+46	자기	O	O
+47	##표	O	O
+48	##절	O	O
+49	##을	O	O
+50	통해	O	O
+51	모두	O	O
+52	6	B-QT	B-QT
+53	##차례	I-QT	I-QT
+54	##에	O	O
+55	걸쳐	O	O
+56	논문	O	O
+57	##과	O	O
+58	기고	O	O
+59	##문	O	O
+60	,	O	O
+61	저서	O	O
+62	등	O	O
+63	##에	O	O
+64	비슷	O	O
+65	##하	O	O
+66	##거나	O	O
+67	아예	O	O
+68	같	O	O
+69	##은	O	O
+70	내용	O	O
+71	##을	O	O
+72	중복	O	O
+73	게재	O	O
+74	##했	O	O
+75	##다	O	O
+76	”	O	O
+77	고	O	O
+78	주장	O	O
+79	##했	O	O
+80	##다	O	O
+81	.	O	O
+82	[SEP]	O	O

@@ -1,40 +1,17 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	1997	B-DT	B-DT	B-DT, I-DT, O, B-QT, B-LC
-2	##∼	I-DT	I-DT	I-DT, O, I-QT, B-DT, I-EV
-3	##19	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-OG
-4	##98	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-OG
-5	정규	O	B-EV	B-EV, O, B-OG, B-CV, I-EV
-6	##리그	O	I-EV	I-EV, O, I-OG, I-DT, I-AF
-7	우승	O	O	O, I-EV, I-OG, B-CV, I-AF
-8	##을	O	O	O, I-EV, B-CV, B-PS, B-OG
-9	맛본	O	O	O, B-CV, B-OG, B-PS, B-LC
-10	그	O	O	O, B-CV, B-OG, B-PS, B-LC
-11	##는	O	O	O, B-CV, B-PS, B-LC, I-EV
-12	재	B-PS	B-PS	B-PS, O, I-PS, B-LC, B-OG
-13	##키	I-PS	I-PS	I-PS, O, B-PS, I-LC, I-OG
-14	존스	I-PS	I-PS	I-PS, B-PS, O, B-LC, I-LC
-15	,	O	O	O, I-PS, B-CV, B-LC, B-PS
-16	로렌	B-PS	B-PS	B-PS, I-PS, O, B-LC, B-OG
-17	##조	I-PS	I-PS	I-PS, O, I-LC, B-PS, I-OG
-18	홀	I-PS	I-PS	I-PS, O, B-PS, I-LC, B-LC
-19	##과	O	O	O, I-PS, B-CV, B-LC, B-PS
-20	1999	B-DT	B-DT	B-DT, I-DT, O, B-QT, B-LC
-21	##∼	I-DT	I-DT	I-DT, O, I-QT, B-DT, I-PS
-22	##20	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-OG
-23	##00	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-OG
-24	##시	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-OG
-25	##즌	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-OG
-26	##까	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-OG
-27	##지	I-DT	I-DT	I-DT, O, I-OG, I-QT, B-DT
-28	현대	B-OG	B-OG	B-OG, O, I-OG, B-AF, B-LC
-29	##의	O	O	O, I-OG, I-EV, B-OG, I-DT
-30	정규	O	B-EV	B-EV, O, B-OG, I-EV, B-CV
-31	##리그	O	I-EV	I-EV, O, I-OG, I-DT, I-AF
-32	3	B-QT	B-QT	B-QT, I-EV, I-QT, O, B-EV
-33	##연	I-QT	I-QT	I-QT, I-EV, O, I-OG, I-DT
-34	##패	I-QT	I-QT	I-QT, O, I-EV, I-OG, I-LC
-35	##를	O	O	O, I-QT, I-EV, I-OG, B-CV
-36	[UNK]	O	O	O, B-CV, B-OG, B-LC, B-PS
-37	.	O	O	O, B-PS, B-LC, B-OG, B-CV
-38	[SEP]	O	O	O, B-LC, B-OG, B-CV, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	○	O	O
+2	3	B-QT	B-QT
+3	.	I-QT	I-QT
+4	6	I-QT	I-QT
+5	##k	I-QT	I-QT
+6	##g	I-QT	I-QT
+7	해머	O	B-AF
+8	##에	O	O
+9	15	B-TI	B-TI
+10	##분	I-TI	I-TI
+11	버텨	O	O
+12	##야	O	O
+13	ATM	B-TM	B-TM
+14	합격	O	O
+15	[SEP]	O	O

@@ -1,12 +1,76 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	근데	O	O	O, B-CV, B-LC, B-TM, B-PS
-2	문제	O	O	O, B-CV, B-PS, I-CV, B-LC
-3	##는	O	O	O, B-CV, B-PS, I-CV, B-LC
-4	아마	O	O	O, B-CV, B-PS, B-LC, B-OG
-5	이제	O	O	O, B-CV, B-LC, B-TM, B-PS
-6	어	O	O	O, B-CV, B-PS, B-LC, B-FD
-7	~	O	O	O, I-CV, B-CV, B-PS, B-LC
-8	설	O	B-DT	B-DT, O, B-CV, B-EV, I-DT
-9	민심	O	O	O, B-CV, I-DT, B-PS, I-CV
-10	[SEP]	O	O	O, B-CV, I-CV, I-EV, B-FD
+	text	label	preds
+0	[CLS]	O	O
+1	한편	O	O
+2	창원	B-OG	B-OG
+3	##지	I-OG	I-OG
+4	##법	I-OG	I-OG
+5	밀양	I-OG	B-LC
+6	##지	I-OG	O
+7	##원	I-OG	O
+8	민사	O	O
+9	##부	O	O
+10	(	O	O
+11	재판장	B-CV	B-CV
+12	백	B-PS	B-PS
+13	##태	I-PS	I-PS
+14	##균	I-PS	I-PS
+15	지원	B-CV	B-CV
+16	##장	I-CV	I-CV
+17	)	O	O
+18	는	O	O
+19	이날	B-DT	B-DT
+20	한전	B-OG	B-OG
+21	##이	O	O
+22	주민	B-CV	B-CV
+23	##과	O	O
+24	대책위	O	B-OG
+25	관계자	B-CV	B-CV
+26	등	O	O
+27	25	B-QT	B-QT
+28	##명	I-QT	I-QT
+29	##을	O	O
+30	상대	O	O
+31	##로	O	O
+32	낸	O	O
+33	공사	O	O
+34	##방	O	O
+35	##해	O	O
+36	##금	O	O
+37	##지	O	O
+38	가처분	O	O
+39	신청	O	O
+40	##에	O	O
+41	##서	O	O
+42	‘	O	O
+43	송전탑	O	O
+44	공사	O	O
+45	##는	O	O
+46	공익	O	O
+47	##사업	O	O
+48	##이	O	O
+49	##며	O	O
+50	완공	O	O
+51	##하	O	O
+52	##지	O	O
+53	못	O	O
+54	##할	O	O
+55	경우	O	O
+56	전력	O	O
+57	수급	O	O
+58	##에	O	O
+59	차질	O	O
+60	##이	O	O
+61	우려	O	O
+62	##된	O	O
+63	##다	O	O
+64	’	O	O
+65	며	O	O
+66	한전	O	B-OG
+67	##의	O	O
+68	손	B-AM	B-AM
+69	##을	O	O
+70	들어	O	O
+71	##줬	O	O
+72	##다	O	O
+73	.	O	O
+74	[SEP]	O	O

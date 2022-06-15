@@ -1,63 +1,42 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	이달	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-OG
-2	중	O	O	O, I-DT, B-DT, B-TI, B-LC
-3	소비자	O	O	O, B-CV, B-OG, B-PS, B-TR
-4	##심	O	O	O, I-CV, I-OG, B-PS, I-LC
-5	##리지	O	O	O, I-OG, B-PS, B-LC, I-LC
-6	##수	O	O	O, I-OG, I-LC, B-PS, B-LC
-7	##가	O	O	O, B-PS, B-LC, B-OG, B-CV
-8	상승	O	O	O, B-LC, B-OG, B-CV, B-TM
-9	##한	O	O	O, B-LC, B-PS, B-OG, B-CV
-10	것	O	O	O, B-LC, B-OG, B-CV, B-PS
-11	##은	O	O	O, B-LC, B-PS, B-OG, B-CV
-12	최근	O	O	O, B-PS, B-LC, B-DT, B-OG
-13	최경환	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-14	부총리	B-CV	B-CV	B-CV, O, I-PS, I-CV, B-TM
-15	겸	O	O	O, I-CV, B-PS, I-OG, B-LC
-16	기획	B-OG	B-OG	B-OG, O, B-AF, B-CV, B-LC
-17	##재	I-OG	I-OG	I-OG, O, I-EV, I-CV, B-OG
-18	##정부	I-OG	I-OG	I-OG, O, I-EV, I-CV, I-AF
-19	장관	B-CV	B-CV	B-CV, O, I-CV, I-OG, B-TM
-20	##이	O	O	O, I-CV, B-PS, I-OG, I-EV
-21	이끄	O	O	O, B-CV, B-PS, B-OG, B-LC
-22	##는	O	O	O, B-PS, B-LC, B-OG, B-CV
-23	박근혜	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-24	정부	B-OG	B-OG	B-OG, I-OG, O, I-PS, B-AF
-25	2	B-QT	B-QT	B-QT, O, I-QT, I-OG, B-EV
-26	##기	I-QT	I-QT	I-QT, O, I-EV, I-OG, I-PS
-27	경제	O	O	O, I-QT, B-CV, I-EV, B-OG
-28	##팀	O	O	O, I-CV, I-OG, B-CV, I-EV
-29	##의	O	O	O, B-PS, B-CV, I-CV, B-LC
-30	경기	B-CV	O	O, B-CV, I-CV, B-PT, B-TR
-31	##부	I-CV	O	O, I-CV, B-CV, I-TR, I-FD
-32	##양	I-CV	O	O, I-CV, B-CV, I-TR, I-TM
-33	##책	I-CV	O	O, I-CV, B-CV, I-TR, I-TM
-34	##과	O	O	O, I-CV, B-PS, B-LC, B-CV
-35	한은	B-OG	B-OG	B-OG, B-LC, O, B-AF, B-PS
-36	##의	O	O	O, I-OG, I-EV, I-AF, B-CV
-37	기준	O	O	O, B-CV, B-TR, B-FD, B-OG
-38	##금리	O	O	O, I-CV, B-CV, I-TR, I-FD
-39	인하	O	O	O, I-CV, B-CV, B-PS, I-TR
-40	효과	O	O	O, I-CV, B-PS, B-LC, B-CV
-41	등	O	O	O, B-PS, B-LC, B-CV, B-OG
-42	##이	O	O	O, B-PS, B-LC, B-OG, B-CV
-43	겹쳐	O	O	O, B-LC, B-PS, B-CV, B-QT
-44	소비자	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-TM
-45	##들	O	O	O, I-CV, B-CV, I-EV, I-OG
-46	##의	O	O	O, B-PS, B-LC, B-CV, B-QT
-47	경기	O	O	O, B-CV, B-LC, B-TR, B-PS
-48	##회	O	O	O, B-PS, B-LC, I-CV, I-EV
-49	##복	O	O	O, B-LC, B-PS, I-EV, I-CV
-50	기대감	O	O	O, B-PS, B-LC, B-CV, B-OG
-51	##이	O	O	O, B-PS, B-OG, B-LC, B-CV
-52	높	O	O	O, B-PS, B-CV, B-LC, B-OG
-53	##아	O	O	O, B-PS, B-LC, B-CV, B-OG
-54	##진	O	O	O, B-PS, B-CV, B-LC, B-OG
-55	것	O	O	O, B-PS, B-CV, B-LC, B-OG
-56	##으로	O	O	O, B-PS, B-CV, B-LC, I-OG
-57	풀이	O	O	O, B-CV, B-PS, B-LC, B-TM
-58	##된	O	O	O, I-OG, B-PS, I-PS, I-TR
-59	##다	O	O	O, B-CV, I-OG, B-LC, B-OG
-60	.	O	O	O, B-LC, B-PS, B-OG, B-CV
-61	[SEP]	O	O	O, B-LC, B-PS, B-CV, I-EV
+	text	label	preds
+0	[CLS]	O	O
+1	3	B-QT	B-QT
+2	%	I-QT	I-QT
+3	의무	O	O
+4	##고	O	O
+5	##용	O	O
+6	비율	O	O
+7	##을	O	O
+8	지키	O	O
+9	##지	O	O
+10	못	O	O
+11	##한	O	O
+12	기업	O	O
+13	##엔	O	O
+14	벌금	B-CV	O
+15	##을	O	O
+16	물리	O	O
+17	##고	O	O
+18	,	O	O
+19	의무	O	O
+20	##를	O	O
+21	지킨	O	O
+22	경우	O	O
+23	##에	O	O
+24	##는	O	O
+25	기업	O	O
+26	##이	O	O
+27	부담	O	O
+28	##하	O	O
+29	##는	O	O
+30	사회	B-CV	O
+31	##보	I-CV	O
+32	##장	I-CV	O
+33	##기금	I-CV	O
+34	일부	O	O
+35	##를	O	O
+36	감면	O	O
+37	##해	O	O
+38	##준다	O	O
+39	.	O	O
+40	[SEP]	O	O

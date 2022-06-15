@@ -1,83 +1,66 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	김유정	B-PS	B-PS	B-PS, B-OG, O, B-LC, I-PS
-2	민주당	B-OG	B-OG	B-OG, I-OG, B-LC, B-AF, I-PS
-3	의원	B-CV	B-CV	B-CV, O, I-CV, I-OG, B-OG
-4	##은	O	O	O, I-CV, I-OG, I-EV, B-CV
-5	23	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-QT
-6	##일	I-DT	I-DT	I-DT, O, I-EV, I-PS, B-DT
-7	국회	B-OG	B-OG	B-OG, B-AF, B-LC, O, B-EV
-8	교육	B-OG	B-OG	B-OG, B-EV, O, I-OG, I-EV
-9	##과학	I-OG	I-OG	I-OG, I-EV, O, I-AF, B-OG
-10	##기술	I-OG	I-OG	I-OG, I-EV, O, I-LC, I-AF
-11	##위원회	I-OG	I-OG	I-OG, I-EV, O, I-LC, I-AF
-12	인사	B-EV	B-EV	B-EV, O, I-EV, B-OG, I-OG
-13	##청	I-EV	I-EV	I-EV, O, I-OG, B-EV, I-AF
-14	##문	I-EV	I-EV	I-EV, O, I-OG, I-AF, B-EV
-15	##회	I-EV	I-EV	I-EV, O, I-OG, I-AF, I-LC
-16	##에서	O	O	O, I-EV, I-OG, I-DT, I-AF
-17	“	O	O	O, B-PS, B-LC, B-OG, B-CV
-18	이	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-19	후보자	B-CV	B-CV	B-CV, O, I-PS, I-CV, B-PS
-20	##가	O	O	O, B-PS, I-CV, I-PS, B-LC
-21	한국개발연구원	B-OG	B-OG	B-OG, B-AF, B-LC, O, B-PS
-22	(	O	O	O, I-OG, I-AF, I-DT, I-EV
-23	KDI	B-OG	B-OG	B-OG, B-AF, O, B-LC, I-OG
-24	)	O	O	O, I-OG, I-AF, I-EV, B-CV
-25	에서	O	O	O, B-CV, B-PS, B-OG, B-LC
-26	연구원	B-CV	B-CV	B-CV, O, I-CV, B-FD, B-OG
-27	및	O	O	O, I-CV, B-PS, I-OG, B-OG
-28	국제	O	B-OG	B-OG, O, B-LC, I-OG, B-PS
-29	##정책	O	I-OG	I-OG, O, B-OG, I-LC, I-AF
-30	##대	O	I-OG	I-OG, O, B-OG, I-LC, I-AF
-31	##학	O	I-OG	I-OG, O, B-OG, I-LC, I-AF
-32	##원	O	I-OG	I-OG, O, B-OG, I-LC, I-AF
-33	교수	B-CV	B-CV	B-CV, O, I-CV, I-OG, B-FD
-34	##로	O	O	O, I-CV, B-PS, B-CV, I-OG
-35	근무	O	O	O, B-CV, B-PS, B-LC, B-OG
-36	##하	O	O	O, B-PS, B-LC, B-OG, B-CV
-37	##던	O	O	O, B-PS, B-LC, B-CV, B-OG
-38	1992	B-DT	B-DT	B-DT, I-DT, O, B-QT, B-EV
-39	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-40	##부터	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-OG
-41	2004	I-DT	I-DT	I-DT, B-DT, O, I-QT, I-PS
-42	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-OG
-43	##까	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-OG
-44	##지	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-OG
-45	자기	O	O	O, B-CV, I-DT, B-PS, B-TM
-46	##표	O	O	O, I-CV, I-TR, I-EV, I-TM
-47	##절	O	O	O, I-CV, I-TR, I-TM, I-EV
-48	##을	O	O	O, B-PS, B-CV, B-LC, I-CV
-49	통해	O	O	O, B-PS, B-LC, B-OG, B-CV
-50	모두	O	O	O, B-PS, B-QT, B-LC, B-CV
-51	6	B-QT	B-QT	B-QT, O, I-QT, B-EV, B-DT
-52	##차례	I-QT	I-QT	I-QT, O, I-EV, I-DT, I-LC
-53	##에	O	O	O, I-QT, I-EV, I-OG, B-CV
-54	걸쳐	O	O	O, B-PS, B-LC, B-OG, B-CV
-55	논문	O	O	O, B-CV, B-LC, B-TM, B-FD
-56	##과	O	O	O, B-PS, B-LC, B-OG, B-CV
-57	기고	O	O	O, B-CV, B-TM, B-LC, B-FD
-58	##문	O	O	O, I-CV, I-LC, I-AF, B-LC
-59	,	O	O	O, B-PS, B-LC, B-CV, B-OG
-60	저서	O	O	O, B-CV, B-LC, B-TM, B-AF
-61	등	O	O	O, B-PS, B-LC, B-CV, B-OG
-62	##에	O	O	O, B-PS, B-LC, B-CV, B-OG
-63	비슷	O	O	O, B-PS, B-LC, B-QT, B-OG
-64	##하	O	O	O, B-PS, B-LC, B-OG, B-QT
-65	##거나	O	O	O, B-PS, I-PS, I-QT, I-OG
-66	아예	O	O	O, B-PS, B-QT, B-LC, B-CV
-67	같	O	O	O, B-PS, B-QT, B-OG, B-LC
-68	##은	O	O	O, B-PS, B-LC, I-PS, B-OG
-69	내용	O	O	O, B-PS, B-CV, I-QT, B-LC
-70	##을	O	O	O, B-PS, B-CV, B-LC, B-OG
-71	중복	O	O	O, B-QT, B-TM, B-LC, B-PS
-72	게재	O	O	O, B-CV, B-LC, B-PS, I-QT
-73	##했	O	O	O, B-PS, B-LC, B-OG, B-CV
-74	##다	O	O	O, B-PS, I-PS, B-LC, B-CV
-75	”	O	O	O, B-CV, B-LC, B-PS, B-OG
-76	고	O	O	O, B-CV, B-LC, B-PS, B-OG
-77	주장	O	O	O, B-CV, B-LC, B-OG, B-TM
-78	##했	O	O	O, B-PS, B-CV, B-LC, B-OG
-79	##다	O	O	O, B-CV, B-LC, B-OG, B-PS
-80	.	O	O	O, B-LC, B-OG, B-PS, B-CV
-81	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	김	B-PS	B-PS
+2	대표	B-CV	B-CV
+3	##는	O	O
+4	이날	B-DT	B-DT
+5	오후	B-TI	B-TI
+6	여의도	B-LC	B-LC
+7	당사	O	O
+8	##에	O	O
+9	##서	O	O
+10	열린	O	O
+11	중앙	O	B-OG
+12	##여	O	I-OG
+13	##성	O	I-OG
+14	##위원회	O	I-OG
+15	신년	O	O
+16	인사	O	I-EV
+17	##회	O	I-EV
+18	##에	O	O
+19	참석	O	O
+20	,	O	O
+21	""""	O	O
+22	오해	O	O
+23	##를	O	O
+24	다	O	O
+25	풀	O	O
+26	##고	O	O
+27	잘	O	O
+28	##하	O	O
+29	##자	O	O
+30	##고	O	O
+31	굳	O	O
+32	##게	O	O
+33	약속	O	O
+34	##했	O	O
+35	##다	O	O
+36	""""	O	O
+37	면서	O	O
+38	""""	O	O
+39	처음	O	O
+40	시작	O	O
+41	##할	O	O
+42	때	O	O
+43	##는	O	O
+44	좀	O	O
+45	냉기	O	O
+46	##가	O	O
+47	흘렀	O	O
+48	##는데	O	O
+49	끝	O	O
+50	##날	O	O
+51	때	O	O
+52	##는	O	O
+53	막	O	O
+54	웃	O	O
+55	##고	O	O
+56	화기애애	O	O
+57	##했	O	O
+58	##다	O	O
+59	""""	O	O
+60	고	O	O
+61	했	O	O
+62	##다	O	O
+63	.	O	O
+64	[SEP]	O	O

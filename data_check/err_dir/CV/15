@@ -1,42 +1,28 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	장병	B-PS	B-PS	B-PS, B-OG, O, I-PS, B-LC
-2	##인	I-PS	I-PS	I-PS, I-OG, O, B-PS, I-LC
-3	(	O	O	O, I-PS, B-CV, I-OG, I-AF
-4	43	B-QT	B-QT	B-QT, O, I-QT, B-TM, B-DT
-5	)	O	O	O, I-QT, I-OG, B-CV, I-EV
-6	씨	O	O	O, B-CV, B-TM, B-PS, I-QT
-7	##는	O	O	O, B-CV, B-PS, B-TM, I-CV
-8	올해	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-PS
-9	초	I-DT	I-DT	I-DT, O, I-PS, B-DT, I-QT
-10	자신	O	O	O, B-CV, I-DT, B-TM, B-PS
-11	##이	O	O	O, B-PS, B-CV, B-LC, B-OG
-12	자주	O	O	O, B-CV, B-LC, B-PS, B-TM
-13	가	O	O	O, B-CV, B-LC, B-AF, B-PS
-14	##던	O	O	O, B-CV, B-LC, B-PS, B-TM
-15	서울	B-LC	B-LC	B-LC, O, B-OG, B-AF, B-PS
-16	마포구	B-LC	B-LC	B-LC, O, I-LC, B-OG, B-AF
-17	##의	O	O	O, I-LC, B-CV, I-AF, I-OG
-18	단골	O	O	O, B-CV, B-TM, B-OG, B-AF
-19	식당	O	O	O, B-CV, I-CV, B-FD, B-OG
-20	##이	O	O	O, B-CV, B-PS, I-CV, B-OG
-21	식품	B-CV	B-CV	B-CV, O, B-OG, I-CV, B-TM
-22	##위	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-TM
-23	##생	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-TM
-24	##법	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-TM
-25	위반	O	O	O, I-CV, B-CV, B-TM, I-OG
-26	##으로	O	O	O, I-CV, B-CV, B-PS, B-TM
-27	행정	B-CV	O	O, B-CV, B-TM, I-CV, B-FD
-28	##처분	I-CV	O	O, I-CV, I-TM, B-CV, I-OG
-29	##을	O	O	O, B-CV, I-CV, B-PS, B-OG
-30	받	O	O	O, B-CV, B-TM, B-LC, B-OG
-31	##은	O	O	O, B-CV, B-PS, B-TM, B-OG
-32	사실	O	O	O, B-CV, B-TM, B-LC, B-PS
-33	##을	O	O	O, B-CV, B-PS, B-TM, B-OG
-34	우연히	O	O	O, B-CV, B-TM, B-QT, B-PS
-35	알	O	O	O, B-CV, B-TM, B-PS, B-OG
-36	##게	O	O	O, B-CV, B-PS, B-TM, I-CV
-37	됐	O	O	O, B-CV, I-CV, B-PS, B-TM
-38	##다	O	O	O, B-CV, I-CV, B-TM, B-LC
-39	.	O	O	O, B-CV, B-PS, B-LC, B-TM
-40	[SEP]	O	O	O, B-CV, B-TM, B-PS, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	성북구	B-LC	B-LC
+2	삼	B-LC	B-LC
+3	##선	I-LC	I-LC
+4	##동	I-LC	I-LC
+5	천사	B-LC	B-LC
+6	##마을	I-LC	I-LC
+7	(	O	O
+8	4	B-QT	B-QT
+9	##회	I-QT	I-QT
+10	은	B-CV	O
+11	##상	I-CV	O
+12	)	O	O
+13	은	O	O
+14	정비	O	O
+15	##계	O	O
+16	##획	O	O
+17	수립	O	O
+18	##을	O	O
+19	위한	O	O
+20	용역	O	O
+21	##이	O	O
+22	진행	O	O
+23	중이	O	O
+24	##다	O	O
+25	.	O	O
+26	[SEP]	O	O

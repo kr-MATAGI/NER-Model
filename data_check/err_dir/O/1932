@@ -1,26 +1,21 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-EV, I-CV
-1	황	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
-2	군수	B-CV	B-CV	B-CV, O, I-PS, I-CV, B-TM
-3	##는	O	O	O, I-CV, I-EV, B-CV, I-OG
-4	“	O	O	O, B-LC, B-EV, B-DT, B-PS
-5	예산	O	B-LC	B-LC, O, B-EV, B-PS, B-OG
-6	방문	O	O	O, I-EV, I-LC, I-DT, I-PS
-7	##의	O	O	O, I-EV, I-DT, I-LC, I-PS
-8	해	O	O	O, I-EV, I-DT, I-LC, I-OG
-9	##를	O	O	O, I-EV, I-DT, I-OG, I-AF
-10	맞아	O	O	O, I-EV, B-CV, B-LC, B-OG
-11	큰	O	O	O, B-CV, B-LC, B-PS, B-OG
-12	상	O	O	O, B-CV, B-PS, B-EV, I-EV
-13	##을	O	O	O, B-CV, I-EV, B-PS, B-OG
-14	받	O	O	O, B-CV, B-LC, B-PS, I-EV
-15	##게	O	O	O, B-CV, B-PS, B-OG, B-LC
-16	되	O	O	O, B-CV, B-PS, B-LC, B-OG
-17	##어	O	O	O, B-LC, B-CV, B-PS, B-OG
-18	더욱	O	O	O, B-CV, B-OG, B-LC, B-TM
-19	뜻깊	O	O	O, B-CV, I-EV, B-PS, B-EV
-20	##게	O	O	O, I-EV, B-PS, B-LC, I-OG
-21	생각	O	O	O, B-CV, I-EV, B-LC, I-OG
-22	##한다	O	O	O, B-CV, I-OG, I-EV, B-PS
-23	.	O	O	O, B-CV, B-PS, B-LC, I-EV
-24	[SEP]	O	O	O, B-CV, I-EV, B-PS, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	영화	O	O
+2	##여서	O	O
+3	약간	O	O
+4	그	O	O
+5	뭐	O	O
+6	##랄	O	O
+7	##까	O	O
+8	아이	O	B-AF
+9	##애	O	I-AF
+10	아이	B-AF	I-AF
+11	캔	I-AF	I-AF
+12	스피	I-AF	I-AF
+13	##크	I-AF	I-AF
+14	##를	O	O
+15	연출	O	O
+16	##한	O	O
+17	것	O	O
+18	##과	O	O
+19	[SEP]	O	O

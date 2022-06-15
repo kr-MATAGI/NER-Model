@@ -1,54 +1,27 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	미즈	B-OG	B-OG	B-OG, O, B-LC, I-OG, B-PS
-2	##호	I-OG	I-OG	I-OG, O, B-OG, I-LC, I-AF
-3	##은행	I-OG	I-OG	I-OG, O, B-OG, I-LC, I-AF
-4	##이	O	O	O, I-OG, B-PS, B-OG, B-CV
-5	10	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-LC
-6	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-7	##간	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-8	(	O	O	O, I-DT, B-CV, B-LC, B-OG
-9	2006	B-DT	B-DT	B-DT, I-DT, O, B-LC, B-QT
-10	~	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-11	2015	I-DT	I-DT	I-DT, B-DT, O, I-QT, I-PS
-12	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-13	)	O	O	O, I-DT, B-CV, B-LC, B-QT
-14	1000	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-CV
-15	##만	I-QT	I-QT	I-QT, O, I-DT, I-LC, B-QT
-16	##엔	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-DT
-17	(	O	O	O, I-QT, B-QT, B-CV, I-CV
-18	약	B-QT	B-QT	B-QT, I-QT, O, B-DT, I-DT
-19	1	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-DT
-20	##억	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-DT
-21	##10	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-22	##00	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-23	##만	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-24	##원	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-25	)	O	O	O, I-QT, I-LC, I-CV, I-DT
-26	이상	O	O	O, I-QT, I-LC, B-QT, I-CV
-27	복권	O	O	O, B-TM, B-CV, B-EV, B-AF
-28	##에	O	O	O, B-CV, B-PS, I-CV, I-EV
-29	당첨	O	O	O, B-CV, B-TM, B-LC, B-PS
-30	##된	O	O	O, B-PS, B-CV, B-QT, B-LC
-31	95	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-PS
-32	##49	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-33	##명	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-34	##을	O	O	O, I-QT, B-CV, B-TM, I-AF
-35	조사	O	O	O, B-CV, B-TM, B-LC, B-OG
-36	##했	O	O	O, B-CV, B-OG, B-LC, B-PS
-37	##더니	O	O	O, B-CV, B-LC, B-OG, B-PS
-38	물병	B-LC	B-LC	B-LC, O, B-OG, B-AF, B-TM
-39	##자리	I-LC	I-LC	I-LC, O, B-LC, I-QT, I-EV
-40	출생	O	O	O, B-CV, I-CV, I-LC, B-TM
-41	##자	O	I-CV	I-CV, O, B-CV, I-LC, I-TM
-42	##가	O	O	O, I-CV, B-PS, I-AF, I-OG
-43	95	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-PS
-44	##6	I-QT	I-QT	I-QT, B-QT, O, I-LC, I-PS
-45	##명	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-46	##으로	O	O	O, I-QT, B-CV, B-OG, I-AF
-47	가장	O	O	O, B-CV, B-QT, B-LC, B-TM
-48	많	O	O	O, B-CV, B-QT, B-OG, B-TM
-49	##았	O	O	O, B-CV, B-OG, B-LC, B-TM
-50	##다	O	O	O, B-CV, B-TM, I-OG, B-LC
-51	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-52	[SEP]	O	O	O, B-CV, B-LC, B-TM, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	기업	O	O
+2	인사	O	B-CV
+3	##담	B-CV	I-CV
+4	##당	I-CV	I-CV
+5	##자	I-CV	I-CV
+6	##들이	O	O
+7	구직자	B-CV	B-CV
+8	##들이	O	O
+9	낸	O	O
+10	이력서	O	O
+11	##를	O	O
+12	검토	O	O
+13	##할	O	O
+14	때	O	O
+15	가장	O	O
+16	먼저	O	O
+17	살펴보	O	O
+18	##는	O	O
+19	것	O	O
+20	##은	O	O
+21	무엇	O	O
+22	##일	O	O
+23	##까	O	O
+24	?	O	O
+25	[SEP]	O	O

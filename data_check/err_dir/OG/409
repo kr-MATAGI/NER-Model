@@ -1,43 +1,47 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	학원	O	O	O, B-CV, B-LC, B-TM, B-FD
-2	심야	O	O	O, B-TI, B-CV, B-LC, I-TI
-3	##교	O	O	O, I-TI, I-CV, B-CV, I-LC
-4	##습	O	O	O, I-CV, I-TM, I-LC, I-AF
-5	금지	O	O	O, B-CV, I-CV, B-PS, B-LC
-6	##를	O	O	O, B-CV, B-LC, B-PS, I-CV
-7	비롯	O	O	O, B-LC, B-OG, B-CV, B-TM
-8	,	O	O	O, B-LC, B-OG, B-PS, B-CV
-9	'	O	O	O, B-LC, B-CV, B-OG, B-PS
-10	사교육	O	O	O, B-CV, B-LC, B-EV, B-OG
-11	##과	O	O	O, B-CV, B-PS, B-LC, I-EV
-12	##의	O	O	O, B-LC, B-PS, B-CV, I-EV
-13	전쟁	O	O	O, B-LC, B-EV, B-CV, B-AF
-14	'	O	O	O, B-CV, I-EV, B-PS, B-LC
-15	을	O	O	O, B-CV, B-PS, B-LC, B-OG
-16	주도	O	O	O, B-CV, B-LC, B-PS, B-EV
-17	##하고	O	O	O, B-PS, B-LC, B-CV, B-QT
-18	있	O	O	O, B-PS, B-CV, B-LC, B-OG
-19	##는	O	O	O, B-CV, B-PS, B-LC, B-OG
-20	곽	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-21	##승	I-PS	I-PS	I-PS, O, I-OG, I-LC, B-PS
-22	##준	I-PS	I-PS	I-PS, O, I-OG, I-LC, B-PS
-23	미래	B-OG	B-CV	B-CV, O, B-AF, B-OG, B-TM
-24	##기획	I-OG	I-CV	I-CV, O, B-CV, I-AF, I-OG
-25	##위원	B-CV	I-CV	I-CV, O, B-CV, I-OG, I-AF
-26	##장	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-EV
-27	##에	O	O	O, I-CV, I-OG, I-EV, B-CV
-28	대해	O	O	O, B-OG, B-LC, B-DT, B-CV
-29	28	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-30	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-31	여야	O	O	O, B-OG, B-LC, I-DT, B-PS
-32	정치	O	O	O, B-OG, B-LC, B-CV, B-FD
-33	##권	O	O	O, I-OG, I-CV, I-LC, I-PS
-34	##이	O	O	O, B-PS, B-LC, B-CV, B-OG
-35	일제히	O	O	O, B-CV, B-TM, B-LC, B-OG
-36	비난	O	O	O, B-CV, B-LC, B-TM, B-OG
-37	##하고	O	O	O, B-CV, B-LC, B-PS, B-OG
-38	나섰	O	O	O, B-CV, B-LC, B-OG, B-PS
-39	##다	O	O	O, B-CV, B-LC, B-OG, I-OG
-40	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-41	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	9	B-DT	B-DT
+2	##월	I-DT	I-DT
+3	초	I-DT	I-DT
+4	서비스	O	O
+5	##를	O	O
+6	시작	O	O
+7	##한	O	O
+8	해피	B-OG	B-TM
+9	##앳	I-OG	I-TM
+10	##홈	I-OG	I-TM
+11	(	O	O
+12	ha	B-TM	B-TM
+13	##pp	I-TM	I-TM
+14	##ya	I-TM	I-TM
+15	##th	I-TM	I-TM
+16	##ome	I-TM	I-TM
+17	.	I-TM	I-TM
+18	co	I-TM	I-TM
+19	.	I-TM	I-TM
+20	kr	I-TM	I-TM
+21	)	O	O
+22	은	O	O
+23	디자이너	B-CV	B-CV
+24	##나	O	O
+25	업체	O	O
+26	##가	O	O
+27	올린	O	O
+28	글	O	O
+29	##과	O	O
+30	사진	O	O
+31	##을	O	O
+32	보고	O	O
+33	소비자	B-CV	B-CV
+34	##가	O	O
+35	직접	O	O
+36	문의	O	O
+37	##를	O	O
+38	할	O	O
+39	수	O	O
+40	있	O	O
+41	##도록	O	O
+42	했	O	O
+43	##다	O	O
+44	.	O	O
+45	[SEP]	O	O

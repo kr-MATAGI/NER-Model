@@ -1,20 +1,35 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	생활	O	O	O, B-OG, B-CV, I-OG, B-EV
-2	##협	O	I-OG	I-OG, O, I-CV, B-OG, B-CV
-3	##동	O	I-OG	I-OG, O, I-CV, B-OG, I-AF
-4	##조합	O	I-OG	I-OG, O, I-CV, I-AF, B-OG
-5	##들이	O	O	O, I-OG, I-CV, I-AF, B-CV
-6	‘	O	O	O, B-QT, B-LC, B-CV, B-DT
-7	제	B-QT	B-QT	B-QT, O, I-QT, B-EV, B-DT
-8	##2	I-QT	I-QT	I-QT, O, B-QT, I-EV, I-LC
-9	##의	O	I-QT	I-QT, O, I-EV, B-QT, I-TM
-10	변신	O	O	O, I-QT, B-PS, B-LC, B-CV
-11	’	O	O	O, I-QT, B-CV, I-EV, I-OG
-12	을	O	O	O, B-CV, B-PS, B-OG, B-LC
-13	준비	O	O	O, B-CV, B-OG, B-PS, B-LC
-14	##하면	O	O	O, B-CV, B-PS, I-OG, B-OG
-15	##서	O	O	O, B-CV, B-PS, B-QT, I-OG
-16	##다	O	O	O, B-CV, B-OG, B-LC, B-PS
-17	.	O	O	O, B-OG, B-CV, I-OG, B-LC
-18	[SEP]	O	O	O, B-CV, I-OG, B-OG, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	국토	B-OG	B-OG
+2	##부	I-OG	I-OG
+3	##는	O	O
+4	2006	B-DT	B-DT
+5	##년	I-DT	I-DT
+6	150	B-QT	B-QT
+7	##w	I-QT	I-QT
+8	##급	I-QT	I-QT
+9	소형	O	O
+10	파	O	O
+11	##력	O	O
+12	##발전	O	O
+13	##장치	O	O
+14	##를	O	O
+15	개발	O	O
+16	##해	O	O
+17	제주	B-LC	B-LC
+18	##시	I-LC	I-LC
+19	차	O	B-LC
+20	##귀	O	I-LC
+21	##도	O	I-LC
+22	해역	O	O
+23	##에	O	O
+24	##서	O	O
+25	시험	O	O
+26	가동	O	O
+27	##에	O	O
+28	들어가	O	O
+29	성공	O	O
+30	##했	O	O
+31	##다	O	O
+32	.	O	O
+33	[SEP]	O	O

@@ -1,40 +1,44 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-EV, I-CV
-1	또	O	O	O, B-CV, B-OG, B-LC, B-TM
-2	지난해	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-3	개통	O	O	O, I-DT, B-CV, I-EV, B-TM
-4	##한	O	O	O, B-LC, B-AF, B-PS, B-OG
-5	경	B-AF	B-AF	B-AF, B-TM, O, B-LC, I-AF
-6	##춘	I-AF	I-AF	I-AF, I-TM, O, I-LC, B-AF
-7	고속도로	I-AF	I-AF	I-AF, O, I-TM, I-LC, I-QT
-8	및	O	O	O, I-AF, I-TM, B-LC, I-EV
-9	경	B-AF	B-TM	B-TM, B-AF, B-LC, O, I-TM
-10	##춘	I-AF	I-TM	I-TM, I-AF, O, I-LC, I-TR
-11	##전	I-AF	I-TM	I-TM, I-AF, O, I-LC, I-TR
-12	##철	I-AF	I-TM	I-TM, I-AF, O, I-LC, I-TR
-13	복선	O	I-TM	I-TM, B-TM, O, I-AF, B-AF
-14	##화	O	I-TM	I-TM, O, I-AF, I-TR, I-LC
-15	사업	O	I-TM	I-TM, O, I-AF, I-TR, I-LC
-16	완공	O	O	O, I-TM, I-AF, B-CV, B-LC
-17	##을	O	O	O, B-CV, B-OG, B-LC, I-AF
-18	앞두	O	O	O, B-LC, B-OG, B-CV, B-PS
-19	##고	O	O	O, B-LC, B-OG, B-PS, B-CV
-20	대학생	B-CV	B-CV	B-CV, O, B-OG, B-EV, B-TM
-21	등	O	O	O, I-CV, I-EV, B-CV, I-OG
-22	젊은이	O	O	O, B-CV, B-LC, B-TM, B-PS
-23	##들	O	O	O, B-CV, B-PS, B-LC, I-CV
-24	##을	O	O	O, B-CV, B-PS, B-LC, B-TM
-25	겨냥	O	O	O, B-CV, B-LC, B-TM, B-PS
-26	##한	O	O	O, B-LC, B-PS, B-OG, B-CV
-27	수상	B-CV	O	O, B-CV, B-EV, B-AF, B-FD
-28	레포츠	I-CV	O	O, I-CV, I-EV, B-CV, I-AF
-29	천국	O	O	O, I-CV, I-EV, I-LC, B-LC
-30	##을	O	O	O, B-CV, B-OG, I-OG, I-AF
-31	만들	O	O	O, B-LC, B-OG, B-CV, B-TM
-32	##어	O	O	O, B-LC, B-OG, B-CV, I-OG
-33	가	O	O	O, B-LC, B-OG, B-PS, B-CV
-34	##고	O	O	O, B-LC, B-OG, B-CV, B-PS
-35	있	O	O	O, B-LC, B-CV, B-OG, B-TM
-36	##다	O	O	O, B-CV, B-LC, I-OG, B-OG
-37	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-38	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	불법	O	O
+2	##주	O	O
+3	##차	O	O
+4	##된	O	O
+5	메르세데스	B-AF	B-OG
+6	벤츠	I-AF	I-OG
+7	승용차	B-AF	B-AF
+8	##를	O	O
+9	장갑차	B-AF	B-AF
+10	##로	O	O
+11	뭉개	O	O
+12	##버린	O	O
+13	리투아니아	B-LC	B-LC
+14	##의	O	O
+15	수도	O	B-LC
+16	빌	B-LC	B-LC
+17	##니	I-LC	I-LC
+18	##우스	I-LC	I-LC
+19	##의	O	O
+20	아트	B-PS	B-LC
+21	##라스	I-PS	I-LC
+22	주	I-PS	I-LC
+23	##오카	I-PS	I-LC
+24	##스	I-PS	I-LC
+25	시장	B-CV	B-CV
+26	##이	O	O
+27	올해	B-DT	B-DT
+28	##의	O	O
+29	‘	O	O
+30	이	B-CV	B-CV
+31	##그	I-CV	I-CV
+32	##노	I-CV	I-CV
+33	##벨	I-CV	I-CV
+34	평화상	I-CV	I-CV
+35	’	O	O
+36	수상자	B-CV	B-CV
+37	##로	O	O
+38	선정	O	O
+39	##됐	O	O
+40	##다	O	O
+41	.	O	O
+42	[SEP]	O	O

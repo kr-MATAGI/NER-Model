@@ -1,14 +1,13 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-QT
-1	군대	O	O	O, B-OG, B-CV, I-OG, B-AF
-2	##는	O	O	O, I-OG, I-CV, I-AF, B-PS
-3	해군	B-CV	B-OG	B-OG, O, B-CV, B-AF, I-OG
-4	군	B-CV	B-CV	B-CV, O, B-OG, I-CV, B-AF
-5	##의	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-QT
-6	##관	I-CV	I-CV	I-CV, O, I-OG, B-CV, I-QT
-7	##으로	O	O	O, I-CV, I-OG, I-QT, B-CV
-8	복무	O	O	O, B-CV, B-LC, B-PS, B-DT
-9	##했	O	O	O, B-CV, B-PS, B-LC, B-OG
-10	##다	O	O	O, B-CV, B-LC, I-OG, B-PS
-11	.	O	O	O, B-OG, B-LC, B-CV, B-PS
-12	[SEP]	O	O	O, B-CV, B-OG, I-OG, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	군대	O	B-OG
+2	##는	O	O
+3	해군	B-CV	B-OG
+4	군의	B-CV	B-CV
+5	##관	I-CV	I-CV
+6	##으로	O	O
+7	복무	O	O
+8	##했	O	O
+9	##다	O	O
+10	.	O	O
+11	[SEP]	O	O

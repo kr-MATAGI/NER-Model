@@ -1,27 +1,70 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-EV, I-QT
-1	합의	O	O	O, B-OG, B-CV, B-LC, B-PS
-2	##된	O	O	O, I-OG, B-PS, B-OG, B-LC
-3	내용	O	O	O, B-OG, B-CV, B-LC, I-OG
-4	##은	O	O	O, B-OG, B-LC, B-CV, B-PS
-5	국회	B-OG	B-OG	B-OG, B-LC, O, B-AF, B-PS
-6	법제	B-OG	B-OG	B-OG, I-OG, O, B-AF, B-EV
-7	##사	I-OG	I-OG	I-OG, O, I-EV, I-AF, B-OG
-8	##법	I-OG	I-OG	I-OG, O, I-EV, I-AF, I-LC
-9	##위원회	I-OG	I-OG	I-OG, O, I-EV, I-LC, I-AF
-10	##의	O	O	O, I-OG, I-EV, B-OG, B-PS
-11	법안	O	B-OG	B-OG, O, B-EV, B-LC, I-OG
-12	##심	O	I-OG	I-OG, O, I-EV, B-OG, I-LC
-13	##사	O	I-OG	I-OG, O, I-EV, B-OG, I-LC
-14	##소	O	I-OG	I-OG, O, B-OG, I-EV, I-LC
-15	##위	O	I-OG	I-OG, O, I-EV, I-LC, B-OG
-16	##와	O	O	O, I-OG, I-EV, I-AF, B-PS
-17	본회의	O	O	O, B-OG, B-EV, I-OG, B-LC
-18	##를	O	O	O, I-OG, I-EV, B-CV, I-AF
-19	거치	O	O	O, B-OG, B-CV, B-LC, B-PS
-20	##면	O	O	O, B-OG, B-LC, I-OG, B-PS
-21	확정	O	O	O, B-OG, B-LC, I-OG, B-CV
-22	##된	O	O	O, I-OG, B-OG, B-LC, B-PS
-23	##다	O	O	O, B-CV, I-OG, B-OG, B-LC
-24	.	O	O	O, B-OG, B-LC, I-OG, B-PS
-25	[SEP]	O	O	O, B-OG, I-OG, B-LC, I-EV
+	text	label	preds
+0	[CLS]	O	O
+1	ㅋ	O	O
+2	##아	O	O
+3	##파	O	O
+4	##트	O	O
+5	분양	B-CV	B-CV
+6	##계약	I-CV	I-CV
+7	##자	I-CV	I-CV
+8	대책위	B-CV	B-CV
+9	##원	I-CV	I-CV
+10	##장	I-CV	I-CV
+11	표	B-PS	B-PS
+12	##진	I-PS	I-PS
+13	##웅	I-PS	I-PS
+14	(	O	O
+15	47	B-QT	B-QT
+16	)	O	O
+17	씨	O	O
+18	##는	O	O
+19	“	O	O
+20	240	B-QT	B-QT
+21	##가	I-QT	I-QT
+22	##구	I-QT	I-QT
+23	가운데	O	O
+24	200	B-QT	B-QT
+25	##여	I-QT	I-QT
+26	##가	I-QT	I-QT
+27	##구	I-QT	I-QT
+28	##가	O	O
+29	60	B-QT	B-QT
+30	##살	I-QT	I-QT
+31	미만	O	I-QT
+32	계약자	B-CV	B-CV
+33	##들	O	O
+34	”	O	O
+35	이라	O	O
+36	##며	O	O
+37	“	O	O
+38	건설	O	O
+39	##회사	O	O
+40	##가	O	O
+41	법	O	O
+42	개정	O	O
+43	뒤	O	O
+44	##엔	O	O
+45	일반인	B-CV	B-CV
+46	##들	O	O
+47	##에	O	O
+48	##게	O	O
+49	분양	O	O
+50	##이	O	O
+51	어려워질	O	O
+52	것	O	O
+53	##으로	O	O
+54	보고	O	O
+55	서둘러	O	O
+56	분양	B-CV	B-CV
+57	##자	I-CV	I-CV
+58	##를	O	O
+59	유인	O	O
+60	##했	O	O
+61	##다	O	O
+62	”	O	O
+63	고	O	O
+64	주장	O	O
+65	##했	O	O
+66	##다	O	O
+67	.	O	O
+68	[SEP]	O	O

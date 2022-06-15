@@ -1,57 +1,20 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-QT
-1	이	O	O	O, B-OG, B-TM, B-PS, B-LC
-2	가운데	O	O	O, B-TM, B-OG, B-LC, B-QT
-3	일본	B-OG	B-OG	B-OG, B-LC, I-OG, O, B-EV
-4	법원	I-OG	I-OG	I-OG, B-OG, O, I-EV, I-LC
-5	##에	O	O	O, I-OG, I-EV, I-AF, B-OG
-6	제시	O	O	O, B-CV, B-LC, B-OG, B-TM
-7	##한	O	O	O, B-LC, B-CV, B-OG, B-PS
-8	상용	O	O	O, B-CV, B-TM, B-FD, B-LC
-9	##특	O	O	O, B-CV, I-CV, B-FD, B-TM
-10	##허	O	O	O, I-CV, B-CV, I-FD, I-TM
-11	##는	O	O	O, I-CV, B-CV, B-PS, B-LC
-12	화면	O	O	O, B-TM, B-CV, B-LC, B-AF
-13	표시	O	O	O, I-CV, B-CV, B-TM, I-TM
-14	방법	O	O	O, B-TM, B-CV, B-LC, B-PS
-15	##과	O	O	O, B-CV, B-PS, B-LC, B-OG
-16	관련	O	O	O, B-CV, B-LC, B-TM, B-OG
-17	##된	O	O	O, B-PS, B-LC, B-CV, B-OG
-18	필수	O	O	O, B-CV, B-TM, B-LC, B-PS
-19	기능	O	O	O, B-CV, I-CV, B-TM, B-FD
-20	특허	O	O	O, B-CV, I-CV, B-TM, B-FD
-21	##로	O	O	O, I-CV, B-PS, I-AF, I-OG
-22	,	O	O	O, B-CV, B-LC, B-OG, B-PS
-23	구체	O	O	O, B-LC, B-TM, B-CV, B-OG
-24	##적으로	O	O	O, B-LC, B-CV, B-TM, B-OG
-25	##는	O	O	O, B-LC, B-OG, B-CV, B-PS
-26	비행기	O	B-AF	B-AF, O, B-LC, B-OG, I-AF
-27	모드	O	O	O, I-AF, I-LC, I-PS, I-TM
-28	아이콘	O	O	O, I-AF, B-TM, B-CV, B-LC
-29	표시	O	O	O, B-CV, B-LC, B-TM, I-AF
-30	,	O	O	O, B-LC, B-CV, B-PS, B-OG
-31	사용자	B-CV	B-CV	B-CV, O, B-TM, B-AF, B-PS
-32	중심	O	O	O, I-CV, B-TM, I-TM, B-LC
-33	##의	O	O	O, B-PS, B-LC, B-TM, B-AF
-34	홈	O	O	O, B-TM, B-CV, B-LC, B-QT
-35	스크린	O	O	O, B-TM, I-TM, B-CV, B-AM
-36	공간	O	O	O, I-TM, I-CV, B-TM, I-TR
-37	활용	O	O	O, B-LC, B-TM, I-TM, B-CV
-38	,	O	O	O, B-CV, B-LC, B-OG, B-PS
-39	앱	B-TM	B-TM	B-TM, O, B-OG, B-CV, B-AF
-40	##스토	I-TM	I-TM	I-TM, O, B-TM, I-AF, I-OG
-41	##어	I-TM	I-TM	I-TM, O, B-TM, I-OG, I-AF
-42	##를	O	O	O, I-TM, I-OG, I-AF, I-CV
-43	카테고리	O	O	O, B-TM, B-CV, B-LC, B-OG
-44	##별	O	O	O, I-TM, B-LC, B-TM, B-PS
-45	트리	O	O	O, B-TM, B-TR, B-CV, B-AF
-46	구조	O	O	O, I-TM, I-TR, B-TM, I-CV
-47	##로	O	O	O, B-LC, B-CV, B-PS, I-TM
-48	표시	O	O	O, B-CV, B-TM, B-LC, B-OG
-49	##하	O	O	O, B-LC, B-PS, B-CV, B-OG
-50	##는	O	O	O, B-LC, B-CV, B-PS, B-OG
-51	것	O	O	O, B-LC, B-CV, B-PS, B-OG
-52	등	O	O	O, B-PS, B-LC, B-CV, B-OG
-53	##이다	O	O	O, B-CV, B-TM, B-PS, B-OG
-54	.	O	O	O, B-LC, B-CV, B-TM, B-PS
-55	[SEP]	O	O	O, B-CV, B-LC, B-TM, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	이거	O	O
+2	##는	O	O
+3	외	O	O
+4	##통수	O	O
+5	##다	O	O
+6	이거	O	O
+7	##는	O	O
+8	정말	O	O
+9	특검	B-OG	B-OG
+10	##이	O	O
+11	머리	O	B-AM
+12	##를	O	O
+13	잘	O	O
+14	썼	O	O
+15	##다고	O	O
+16	했	O	O
+17	##는데	O	O
+18	[SEP]	O	O

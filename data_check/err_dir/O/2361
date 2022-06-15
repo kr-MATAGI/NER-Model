@@ -1,15 +1,18 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	[	O	O	O, B-LC, B-OG, B-AF, B-CV
-2	태평	B-AF	B-AF	B-AF, B-LC, O, B-PS, I-AF
-3	##로	I-AF	I-AF	I-AF, I-LC, O, I-PS, I-OG
-4	]	O	O	O, I-AF, I-OG, I-EV, B-CV
-5	나영	O	B-PS	B-PS, O, B-LC, B-CV, B-OG
-6	##이	O	O	O, I-PS, B-PS, I-AF, I-EV
-7	사건	O	O	O, B-CV, I-EV, I-PS, I-AF
-8	현장	O	O	O, B-CV, B-LC, I-EV, I-AF
-9	##에	O	O	O, B-CV, B-LC, I-AF, B-OG
-10	가	O	O	O, B-CV, B-LC, B-TM, B-AF
-11	##보	O	O	O, B-CV, B-PS, I-AF, B-TM
-12	##니	O	O	O, B-PS, B-LC, I-AF, B-CV
-13	[SEP]	O	O	O, B-CV, B-LC, B-AF, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	미국인	B-CV	B-CV
+2	##은	O	O
+3	유흥	O	O
+4	##주	O	O
+5	##점	O	O
+6	술	O	B-CV
+7	##값	O	O
+8	##으로	O	O
+9	167	O	O
+10	##억	O	O
+11	원이	O	O
+12	##나	O	O
+13	썼	O	O
+14	##다	O	O
+15	.	O	O
+16	[SEP]	O	O

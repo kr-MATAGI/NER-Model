@@ -1,46 +1,21 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	인터넷	O	O	O, B-CV, B-TM, B-LC, B-FD
-2	##에서	O	O	O, B-CV, B-LC, B-PS, B-TM
-3	세월	B-AF	B-AF	B-AF, B-EV, O, B-PS, B-LC
-4	##호	I-AF	I-AF	I-AF, I-EV, O, I-PS, I-LC
-5	구조	O	O	O, I-AF, I-EV, I-OG, B-CV
-6	상황	O	O	O, I-EV, I-AF, B-LC, I-OG
-7	##과	O	O	O, B-CV, B-PS, B-LC, B-OG
-8	관련	O	O	O, B-CV, B-LC, B-TM, B-OG
-9	##해	O	O	O, B-LC, B-PS, B-CV, B-TM
-10	허위	O	O	O, B-CV, B-TM, I-CV, B-LC
-11	##사	O	O	O, I-CV, B-CV, I-TM, I-LC
-12	##실	O	O	O, I-CV, B-CV, I-TM, I-LC
-13	##을	O	O	O, B-CV, B-PS, B-LC, I-CV
-14	퍼	O	O	O, B-CV, B-TM, B-LC, I-CV
-15	##뜨린	O	O	O, I-CV, B-CV, I-LC, I-TM
-16	혐의	O	O	O, B-CV, I-CV, B-PS, B-LC
-17	(	O	O	O, B-CV, B-PS, B-LC, B-OG
-18	정보	B-CV	B-CV	B-CV, O, B-OG, B-FD, I-CV
-19	##통신	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-TM
-20	##망	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-TM
-21	##법	I-CV	I-CV	I-CV, O, I-OG, B-CV, I-TM
-22	##의	I-CV	O	O, I-CV, I-OG, B-PS, B-CV
-23	명예훼손	I-CV	B-CV	B-CV, O, I-CV, B-TM, B-OG
-24	)	O	O	O, I-CV, I-OG, B-CV, I-EV
-25	로	O	O	O, B-PS, B-CV, B-LC, B-OG
-26	구속	O	O	O, B-CV, B-TM, B-OG, I-CV
-27	기소	O	O	O, I-CV, B-CV, I-OG, I-TM
-28	##된	O	O	O, I-CV, B-PS, I-OG, B-CV
-29	30	B-QT	B-QT	B-QT, O, I-QT, B-PS, B-EV
-30	##대	I-QT	I-QT	I-QT, O, I-PS, I-EV, I-OG
-31	회사원	B-CV	B-CV	B-CV, O, I-QT, I-CV, B-OG
-32	##에	O	O	O, I-CV, I-QT, B-CV, I-EV
-33	##게	O	O	O, B-CV, B-LC, B-PS, B-OG
-34	징역	B-CV	B-CV	B-CV, O, B-OG, I-CV, B-TM
-35	1	B-DT	B-DT	B-DT, O, I-DT, I-CV, B-CV
-36	##년	I-DT	I-DT	I-DT, O, B-DT, I-CV, I-QT
-37	##의	O	O	O, I-DT, B-CV, I-AF, I-CV
-38	실형	O	O	O, B-CV, B-LC, B-PS, B-OG
-39	##이	O	O	O, B-PS, B-CV, B-OG, B-LC
-40	선고	O	O	O, B-CV, B-LC, B-OG, B-PS
-41	##됐	O	O	O, B-CV, B-LC, B-OG, I-OG
-42	##다	O	O	O, B-CV, B-LC, B-TM, B-OG
-43	.	O	O	O, B-CV, B-LC, B-PS, B-OG
-44	[SEP]	O	O	O, B-CV, B-LC, B-PS, I-CV
+	text	label	preds
+0	[CLS]	O	O
+1	드레싱	B-CV	B-CV
+2	##에	O	O
+3	들어가	O	O
+4	있	O	O
+5	##는	O	O
+6	마요	B-CV	B-CV
+7	##네즈	I-CV	I-CV
+8	##에	O	O
+9	또	O	O
+10	어느	O	O
+11	정도	O	O
+12	##에	O	O
+13	기름	B-CV	O
+14	성분	O	O
+15	##이	O	O
+16	있	O	O
+17	##어	O	O
+18	##서	O	O
+19	[SEP]	O	O

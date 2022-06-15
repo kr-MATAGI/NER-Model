@@ -1,45 +1,18 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-EV, I-CV
-1	한라	B-OG	B-OG	B-OG, O, B-PS, B-LC, B-AF
-2	##건설	I-OG	I-OG	I-OG, O, I-LC, I-PS, B-OG
-3	##이	O	O	O, I-OG, B-PS, B-LC, I-AF
-4	하반기	B-DT	B-DT	B-DT, O, I-DT, B-TI, B-LC
-5	중	O	O	O, B-LC, I-DT, B-TI, B-DT
-6	교	B-LC	B-LC	B-LC, B-AF, O, B-OG, I-LC
-7	##하	I-LC	I-LC	I-LC, I-AF, O, B-LC, I-OG
-8	##신	I-LC	I-LC	I-LC, I-AF, O, B-LC, I-OG
-9	##도	I-LC	I-LC	I-LC, O, I-AF, B-LC, I-OG
-10	##시	I-LC	I-LC	I-LC, O, I-AF, B-LC, I-OG
-11	22	B-QT	B-QT	B-QT, I-LC, B-LC, O, B-TM
-12	##블	I-QT	I-LC	I-LC, I-QT, O, I-AF, B-QT
-13	##록	I-QT	I-QT	I-QT, I-LC, O, I-AF, I-TM
-14	##에	O	O	O, I-QT, I-LC, I-AF, I-OG
-15	총	O	O	O, B-QT, B-TM, B-LC, B-AF
-16	82	B-QT	B-QT	B-QT, I-QT, O, I-LC, B-LC
-17	##3	I-QT	I-QT	I-QT, B-QT, O, I-LC, I-AF
-18	##가	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-AF
-19	##구	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-AF
-20	##를	O	O	O, I-QT, B-CV, I-AF, I-OG
-21	분양	O	O	O, B-LC, B-CV, B-TM, B-AF
-22	##하	O	O	O, B-LC, B-PS, B-OG, B-AF
-23	##는	O	O	O, B-LC, B-CV, B-OG, B-TM
-24	등	O	O	O, B-LC, B-OG, B-TM, B-CV
-25	올해	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-CV
-26	말	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-27	##까	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-28	##지	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-29	이	O	O	O, I-DT, B-LC, B-PS, B-OG
-30	지역	O	O	O, B-LC, I-LC, B-CV, I-EV
-31	##에서	O	O	O, B-CV, B-LC, B-PS, B-QT
-32	##는	O	O	O, B-CV, B-QT, B-LC, B-TM
-33	총	O	B-QT	B-QT, O, B-TM, B-LC, B-DT
-34	7000	B-QT	B-QT	B-QT, I-QT, O, I-LC, B-DT
-35	##여	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-OG
-36	가구	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-OG
-37	##가	O	O	O, I-QT, I-OG, B-CV, I-AF
-38	공급	O	O	O, B-CV, B-LC, B-TM, B-OG
-39	##될	O	O	O, I-AF, B-LC, B-CV, B-PS
-40	예정	O	O	O, B-CV, B-TM, B-LC, B-QT
-41	##이다	O	O	O, B-CV, B-TM, B-LC, B-QT
-42	.	O	O	O, B-LC, B-PS, B-OG, B-CV
-43	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	근까	O	O
+2	한	B-QT	B-QT
+3	롤	I-QT	I-QT
+4	##당	I-QT	O
+5	삼	B-QT	B-QT
+6	##십	I-QT	I-QT
+7	##육	I-QT	I-QT
+8	장	I-QT	I-QT
+9	찍	O	O
+10	##을	O	O
+11	수	O	O
+12	있	O	O
+13	##거	O	O
+14	##든	O	O
+15	?	O	O
+16	[SEP]	O	O

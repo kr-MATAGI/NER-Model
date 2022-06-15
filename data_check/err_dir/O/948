@@ -1,42 +1,46 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-EV, I-OG, I-CV
-1	경찰	B-OG	B-OG	B-OG, B-CV, O, B-AF, B-LC
-2	##이	O	O	O, I-OG, B-PS, I-AF, I-CV
-3	출동	O	O	O, B-CV, B-LC, B-OG, B-TM
-4	##해	O	O	O, B-LC, B-OG, B-PS, I-OG
-5	보	O	O	O, B-OG, B-TM, B-LC, B-PS
-6	##니	O	O	O, I-OG, I-EV, B-PS, B-OG
-7	,	O	O	O, B-CV, B-LC, B-OG, B-PS
-8	현장	O	O	O, B-CV, B-TM, B-LC, B-AF
-9	##에	O	O	O, B-CV, B-LC, B-PS, B-TM
-10	##는	O	O	O, B-CV, B-LC, B-TM, B-PS
-11	등	O	B-CV	B-CV, O, B-AM, B-MT, B-PT
-12	##유	O	O	O, I-CV, I-MT, I-AM, I-PT
-13	##를	O	O	O, I-CV, I-AF, I-EV, I-TM
-14	뿌린	O	O	O, B-CV, B-LC, B-PS, B-DT
-15	흔적	O	O	O, B-CV, B-PS, B-LC, B-TM
-16	##이	O	O	O, B-PS, B-LC, B-CV, B-OG
-17	남아	O	O	O, B-CV, B-LC, B-TM, B-QT
-18	있	O	O	O, B-LC, B-PS, B-CV, I-AF
-19	##었	O	O	O, B-CV, B-LC, B-PS, I-AF
-20	##고	O	O	O, B-PS, B-LC, B-CV, B-TM
-21	등	O	B-CV	B-CV, O, B-AM, B-PT, B-MT
-22	##유	O	I-CV	I-CV, O, I-AM, I-MT, I-PT
-23	##를	O	O	O, I-CV, I-AF, B-CV, I-EV
-24	넣	O	O	O, B-CV, B-PS, B-QT, B-LC
-25	##었	O	O	O, B-CV, B-PS, B-LC, I-AF
-26	##던	O	O	O, B-CV, B-PS, B-LC, B-TM
-27	것	O	O	O, B-CV, B-PS, B-TM, B-QT
-28	##으로	O	O	O, B-PS, B-CV, B-TM, B-LC
-29	보이	O	O	O, B-TM, B-AF, B-CV, B-QT
-30	##는	O	O	O, B-QT, B-TM, I-AF, B-AF
-31	컵	B-QT	O	O, B-TM, B-QT, B-CV, B-AM
-32	2	I-QT	B-QT	B-QT, I-QT, O, B-DT, B-TM
-33	##개	I-QT	I-QT	I-QT, O, I-LC, I-TM, I-AF
-34	##가	O	O	O, I-QT, B-PS, I-AF, I-EV
-35	떨어져	O	O	O, B-TM, B-QT, B-LC, B-CV
-36	있	O	O	O, B-LC, I-QT, B-CV, B-PS
-37	##었	O	O	O, B-CV, B-LC, I-AF, I-EV
-38	##다	O	O	O, B-CV, B-LC, B-TM, I-EV
-39	.	O	O	O, B-LC, B-PS, B-CV, B-OG
-40	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	연장	O	B-EV
+2	11	B-EV	I-EV
+3	##회	I-EV	I-EV
+4	1	B-TM	B-TM
+5	##사	I-TM	I-TM
+6	1	B-TM	B-TM
+7	,	I-TM	I-TM
+8	2	I-TM	I-TM
+9	##루	I-TM	I-TM
+10	##에	O	O
+11	##서	O	O
+12	강민호	B-PS	B-PS
+13	##가	O	O
+14	상대	O	O
+15	5	B-QT	B-QT
+16	##번	I-QT	I-QT
+17	##째	I-QT	I-QT
+18	투수	B-CV	B-CV
+19	김기	B-PS	B-PS
+20	##표	I-PS	I-PS
+21	##를	O	O
+22	상대	O	O
+23	##로	O	O
+24	끝내기	O	O
+25	안타	B-TM	B-TM
+26	##를	O	O
+27	터뜨리	O	O
+28	##며	O	O
+29	3	B-TI	B-TI
+30	##시간	I-TI	I-TI
+31	46	I-TI	I-TI
+32	##분	I-TI	I-TI
+33	##의	O	O
+34	혈	O	O
+35	##투	O	O
+36	##에	O	O
+37	마침	O	O
+38	##표	O	O
+39	##를	O	O
+40	찍	O	O
+41	##었	O	O
+42	##다	O	O
+43	.	O	O
+44	[SEP]	O	O

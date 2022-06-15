@@ -1,39 +1,25 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-AF
-1	지금	O	O	O, B-CV, B-LC, B-OG, B-TM
-2	##까	O	O	O, B-LC, B-PS, B-OG, B-CV
-3	##지	O	O	O, B-LC, B-PS, B-OG, I-LC
-4	풍	B-PT	B-AM	B-AM, B-PT, O, B-TM, B-LC
-5	##란	I-PT	I-PT	I-PT, I-AM, O, I-TM, I-MT
-6	##이	O	O	O, B-PS, I-AM, I-PS, I-AF
-7	산다고	O	O	O, B-CV, B-QT, B-LC, B-PS
-8	보고	O	O	O, B-LC, B-CV, B-OG, B-PS
-9	##된	O	O	O, B-LC, B-CV, B-PS, I-AF
-10	곳	O	O	O, B-LC, B-CV, B-QT, B-TM
-11	##은	O	O	O, B-CV, B-LC, B-OG, B-PS
-12	19	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-LC
-13	##군데	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-OG
-14	##이지	O	O	O, I-QT, B-CV, I-OG, I-EV
-15	##만	O	O	O, B-CV, B-LC, I-QT, B-TM
-16	실물	O	O	O, B-LC, B-CV, B-TM, B-QT
-17	##이	O	O	O, B-PS, B-CV, B-LC, B-OG
-18	확인	O	O	O, B-CV, B-LC, B-QT, B-TM
-19	##된	O	O	O, B-LC, B-PS, B-OG, B-CV
-20	곳	O	O	O, B-LC, B-CV, B-PS, B-AF
-21	##은	O	O	O, B-LC, B-CV, B-PS, B-OG
-22	제주도	B-LC	B-LC	B-LC, O, B-OG, B-AF, B-PS
-23	성산	B-LC	B-LC	B-LC, O, I-LC, B-AF, B-OG
-24	일출	B-LC	I-LC	I-LC, B-LC, O, I-AF, B-AF
-25	##봉	I-LC	I-LC	I-LC, O, I-AF, B-LC, I-PS
-26	,	O	O	O, I-LC, I-AF, B-LC, I-OG
-27	전남	B-LC	B-LC	B-LC, O, B-OG, B-AF, I-LC
-28	진도	B-LC	B-LC	B-LC, I-LC, O, B-OG, B-AF
-29	##와	O	O	O, I-LC, I-AF, I-OG, B-LC
-30	고흥	B-LC	B-LC	B-LC, O, B-AF, B-OG, B-PS
-31	등	O	O	O, I-LC, I-AF, B-LC, I-OG
-32	세	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-LC
-33	##곳	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-EV
-34	##뿐	O	O	O, I-QT, I-LC, B-LC, B-QT
-35	##이다	O	O	O, I-QT, B-CV, B-TM, I-OG
-36	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-37	[SEP]	O	O	O, B-LC, B-CV, I-AF, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	칸	B-EV	B-EV
+2	##쿤	I-EV	I-EV
+3	총회	I-EV	I-EV
+4	##에	O	O
+5	참석	O	O
+6	##한	O	O
+7	한국	B-LC	B-OG
+8	##대표	O	I-OG
+9	##단	O	I-OG
+10	##도	O	O
+11	‘	O	O
+12	자발	O	O
+13	##적	O	O
+14	##인	O	O
+15	온실가스	B-MT	B-MT
+16	감축	O	O
+17	’	O	O
+18	을	O	O
+19	홍보	O	O
+20	##했	O	O
+21	##다	O	O
+22	.	O	O
+23	[SEP]	O	O

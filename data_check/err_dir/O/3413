@@ -1,22 +1,61 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	저쪽	O	O	O, B-TM, B-CV, B-LC, B-OG
-2	##에다	O	O	O, B-CV, B-PS, B-LC, B-TM
-3	##가	O	O	O, B-PS, B-LC, B-OG, B-CV
-4	술	B-CV	B-CV	B-CV, O, B-AF, B-OG, B-PT
-5	##을	O	O	O, I-CV, B-CV, I-AF, I-OG
-6	따르	O	O	O, B-CV, B-PS, B-OG, B-LC
-7	##라고	O	O	O, B-CV, B-PS, I-CV, I-OG
-8	하고	O	O	O, B-CV, B-PS, B-OG, B-LC
-9	여직	B-CV	B-CV	B-CV, O, B-TM, I-CV, B-OG
-10	##원	I-CV	I-CV	I-CV, O, B-CV, I-TM, I-OG
-11	##들	O	O	O, I-CV, I-OG, I-AF, I-QT
-12	##의	O	O	O, B-CV, B-TM, B-PS, B-LC
-13	무릎	B-AM	B-AM	B-AM, O, B-TM, B-TR, B-CV
-14	위로	O	O	O, B-TM, I-TM, B-AM, B-QT
-15	슬라이	O	B-TM	B-TM, O, B-CV, I-TM, B-TR
-16	##딩	O	I-TM	I-TM, O, I-CV, I-AF, I-TR
-17	##을	O	O	O, I-TM, I-CV, I-AF, I-QT
-18	하	O	O	O, B-CV, B-TM, B-LC, B-OG
-19	##는	O	O	O, B-CV, B-LC, B-TM, B-OG
-20	[SEP]	O	O	O, B-CV, B-LC, I-AF, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	월스트리트	B-OG	B-OG
+2	##저	I-OG	I-OG
+3	##널	I-OG	I-OG
+4	##은	O	O
+5	“	O	O
+6	이	O	O
+7	##들의	O	O
+8	연령	O	O
+9	##대	O	O
+10	##는	O	O
+11	주로	O	O
+12	10	B-QT	B-QT
+13	##대	I-QT	I-QT
+14	##에	O	O
+15	##서	O	O
+16	30	B-QT	B-QT
+17	##대	I-QT	I-QT
+18	초반	I-QT	I-QT
+19	##으로	O	O
+20	의사	O	O
+21	##결	O	O
+22	##정	O	O
+23	구조	O	O
+24	##나	O	O
+25	리더십	O	O
+26	##이	O	O
+27	없	O	O
+28	##는	O	O
+29	모호	O	O
+30	##한	O	O
+31	조직	O	O
+32	”	O	O
+33	이라	O	O
+34	##며	O	O
+35	“	O	O
+36	회원	O	B-CV
+37	가입	O	O
+38	##이나	O	O
+39	활동	O	O
+40	##을	O	O
+41	구속	O	O
+42	##하	O	O
+43	##지	O	O
+44	않	O	O
+45	##기	O	O
+46	때문	O	O
+47	##에	O	O
+48	수사	O	O
+49	##가	O	O
+50	쉽	O	O
+51	##지	O	O
+52	않	O	O
+53	##다	O	O
+54	”	O	O
+55	고	O	O
+56	전했	O	O
+57	##다	O	O
+58	.	O	O
+59	[SEP]	O	O

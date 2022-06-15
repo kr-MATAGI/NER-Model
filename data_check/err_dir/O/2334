@@ -1,15 +1,28 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-QT
-1	졸지	O	O	O, B-CV, B-TM, B-PS, B-OG
-2	##에	O	O	O, B-PS, B-OG, B-CV, B-QT
-3	사업	O	O	O, B-TM, B-CV, B-LC, B-OG
-4	규모	O	O	O, B-TM, B-CV, B-OG, B-QT
-5	##가	O	O	O, B-PS, B-QT, B-OG, B-CV
-6	갑	O	O	O, B-QT, I-QT, B-PS, B-DT
-7	##절	O	I-QT	I-QT, O, B-QT, I-LC, I-PS
-8	##로	O	O	O, I-QT, B-QT, B-PS, I-PS
-9	커진	O	O	O, I-QT, B-CV, B-QT, B-OG
-10	셈	O	O	O, B-CV, B-TM, B-OG, I-QT
-11	##이다	O	O	O, B-CV, B-TM, I-OG, I-QT
-12	.	O	O	O, B-CV, B-TM, B-PS, B-QT
-13	[SEP]	O	O	O, B-CV, B-TM, B-QT, I-QT
+	text	label	preds
+0	[CLS]	O	O
+1	과연	O	O
+2	페이스북	B-OG	B-OG
+3	앱	O	O
+4	경제	O	O
+5	##가	O	O
+6	앞	O	O
+7	##으로	O	O
+8	##도	O	O
+9	계속	O	O
+10	희망	O	O
+11	##을	O	O
+12	줄지	O	O
+13	,	O	O
+14	아니	O	O
+15	##면	O	O
+16	중세	O	B-DT
+17	기독교	B-OG	B-OG
+18	##처럼	O	O
+19	타락	O	O
+20	##하	O	O
+21	##게	O	O
+22	될지	O	O
+23	궁금	O	O
+24	##합니다	O	O
+25	.	O	O
+26	[SEP]	O	O

@@ -1,69 +1,28 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-EV, I-CV, I-OG
-1	이날	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-QT
-2	시상식	O	O	O, I-DT, I-EV, B-CV, B-EV
-3	##에서	O	O	O, I-EV, B-PS, B-CV, B-LC
-4	박	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-5	회장	B-CV	B-CV	B-CV, O, I-CV, I-PS, B-EV
-6	##은	O	O	O, I-CV, I-EV, B-CV, I-OG
-7	""""	O	O	O, B-CV, B-LC, B-PS, B-TM
-8	7	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-QT
-9	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-10	##4	I-DT	I-DT	I-DT, B-DT, O, I-PS, I-QT
-11	##개	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-12	##월	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-13	간	O	I-DT	I-DT, O, B-DT, I-QT, I-PS
-14	##의	O	O	O, I-DT, B-CV, B-PS, I-EV
-15	임기	O	O	O, B-CV, B-EV, B-PS, B-LC
-16	##를	O	O	O, B-PS, B-CV, I-EV, B-OG
-17	마치	O	O	O, B-PS, B-CV, B-LC, B-OG
-18	##는	O	O	O, B-PS, B-LC, B-CV, B-OG
-19	저	O	O	O, B-CV, B-PS, B-LC, B-OG
-20	##에	O	O	O, B-PS, B-CV, B-LC, I-CV
-21	##게	O	O	O, B-PS, B-LC, B-CV, B-TM
-22	마지막	O	O	O, B-PS, B-CV, B-QT, B-LC
-23	##이	O	O	O, B-PS, B-CV, B-OG, B-LC
-24	되	O	O	O, B-CV, B-PS, B-LC, B-OG
-25	##는	O	O	O, B-PS, B-CV, B-LC, B-OG
-26	자리	O	O	O, B-CV, B-PS, B-EV, I-EV
-27	##에	O	O	O, B-CV, B-PS, I-EV, B-OG
-28	서	O	O	O, B-PS, B-EV, B-CV, B-LC
-29	##니	O	O	O, B-PS, B-CV, B-LC, I-EV
-30	많	O	O	O, B-CV, B-LC, B-TM, B-PS
-31	##은	O	O	O, B-PS, B-LC, B-CV, B-TM
-32	일	O	O	O, B-PS, B-LC, B-CV, B-TM
-33	##들이	O	O	O, B-PS, B-LC, B-CV, I-PS
-34	주	O	O	O, B-PS, B-CV, B-AM, B-LC
-35	##마	O	O	O, B-PS, I-PS, B-CV, I-LC
-36	##등	O	O	O, I-PS, I-LC, I-CV, I-AF
-37	##처럼	O	O	O, B-PS, I-PS, B-LC, I-LC
-38	스쳐	O	O	O, B-PS, B-LC, B-CV, B-QT
-39	간다	O	O	O, B-PS, I-PS, B-CV, B-LC
-40	""""	O	O	O, B-CV, B-PS, B-LC, I-CV
-41	며	O	O	O, B-LC, B-CV, B-PS, B-TM
-42	""""	O	O	O, B-LC, B-CV, B-PS, B-TM
-43	한국	B-LC	B-LC	B-LC, O, B-OG, B-PS, B-AF
-44	골프	B-CV	B-CV	B-CV, O, I-CV, B-AF, B-OG
-45	발전	O	O	O, I-CV, I-EV, B-CV, I-OG
-46	##에	O	O	O, B-LC, B-CV, B-PS, B-OG
-47	도움	O	O	O, B-CV, B-PS, B-LC, B-TM
-48	##이	O	O	O, B-PS, B-CV, B-LC, B-OG
-49	되	O	O	O, B-PS, B-CV, B-LC, B-TM
-50	##겠다	O	O	O, B-PS, B-CV, B-LC, I-CV
-51	##는	O	O	O, B-PS, B-CV, B-LC, B-TM
-52	마음	O	O	O, B-PS, B-CV, B-LC, B-TM
-53	##으로	O	O	O, B-PS, B-CV, B-LC, B-OG
-54	회장	O	B-CV	B-CV, O, I-CV, B-TM, B-EV
-55	##직	O	I-CV	I-CV, O, B-CV, I-TM, I-EV
-56	##을	O	O	O, I-CV, I-EV, B-CV, I-OG
-57	수행	O	O	O, B-CV, B-LC, B-PS, B-TM
-58	##해	O	O	O, B-PS, B-LC, B-CV, I-EV
-59	##왔	O	O	O, B-CV, B-PS, B-LC, I-EV
-60	##다	O	O	O, B-CV, B-PS, I-EV, B-LC
-61	""""	O	O	O, B-CV, B-LC, B-PS, B-TM
-62	고	O	O	O, B-CV, B-LC, B-TM, B-PS
-63	말	O	O	O, B-CV, B-LC, B-TM, I-EV
-64	##했	O	O	O, B-PS, B-CV, B-LC, I-EV
-65	##다	O	O	O, B-CV, I-EV, B-PS, B-LC
-66	.	O	O	O, B-PS, B-CV, B-LC, I-EV
-67	[SEP]	O	O	O, B-CV, B-PS, B-LC, I-EV
+	text	label	preds
+0	[CLS]	O	O
+1	뉴질랜드	B-LC	B-LC
+2	##에	O	O
+3	##서	O	O
+4	만난	O	O
+5	70	B-QT	B-QT
+6	##대	I-QT	I-QT
+7	농부	B-CV	B-CV
+8	에릭	B-PS	B-PS
+9	레이	I-PS	I-PS
+10	##는	O	O
+11	평생	O	O
+12	소	O	B-AM
+13	##젖	O	O
+14	짜	O	O
+15	##는	O	O
+16	일	O	O
+17	##로	O	O
+18	여섯	B-QT	B-QT
+19	자녀	B-CV	I-QT
+20	##를	O	O
+21	출가	O	O
+22	##시	O	O
+23	##켰	O	O
+24	##다	O	O
+25	.	O	O
+26	[SEP]	O	O

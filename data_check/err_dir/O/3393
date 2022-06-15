@@ -1,9 +1,21 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-AF
-1	택시	O	B-AF	B-AF, O, B-OG, B-CV, I-AF
-2	##를	O	O	O, I-AF, I-OG, I-CV, B-CV
-3	잡아	O	O	O, B-CV, I-AF, B-OG, I-OG
-4	##줬	O	O	O, I-AF, B-CV, B-PS, I-OG
-5	##어	O	O	O, I-AF, B-LC, B-CV, I-OG
-6	?	O	O	O, B-CV, B-LC, I-AF, B-OG
-7	[SEP]	O	O	O, B-CV, B-LC, B-OG, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	거센	O	O
+2	비바람	O	O
+3	뚫	O	O
+4	##고	O	O
+5	‘	O	O
+6	지	O	B-CV
+7	##존	O	I-CV
+8	’	O	O
+9	이	O	O
+10	돌아왔	O	O
+11	##다	O	O
+12	…	O	O
+13	신지애	B-PS	B-PS
+14	,	O	O
+15	브리티시	B-EV	B-EV
+16	##오	I-EV	I-EV
+17	##픈	I-EV	I-EV
+18	우승	O	O
+19	[SEP]	O	O

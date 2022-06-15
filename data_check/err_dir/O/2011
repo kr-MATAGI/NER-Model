@@ -1,23 +1,25 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-AF
-1	단정	O	O	O, B-CV, B-PS, B-FD, B-OG
-2	##하면	O	O	O, B-PS, I-CV, B-CV, I-AF
-3	##서	O	O	O, B-PS, B-CV, I-CV, B-LC
-4	##도	O	O	O, B-PS, B-CV, B-LC, I-OG
-5	애	O	O	O, B-PS, B-CV, B-FD, B-LC
-6	##상의	O	O	O, I-PS, I-CV, B-PS, I-AF
-7	느낌	O	O	O, B-PS, I-PS, I-CV, B-CV
-8	##을	O	O	O, B-CV, B-PS, B-OG, B-LC
-9	자아내	O	O	O, B-PS, B-CV, B-LC, B-OG
-10	##며	O	O	O, B-PS, B-LC, B-CV, I-AF
-11	피어	O	O	O, B-PT, B-PS, B-CV, B-LC
-12	##오른	O	O	O, B-PS, I-PS, I-AF, I-CV
-13	호	O	B-PS	B-PS, O, B-AF, B-CV, B-AM
-14	##른	O	I-PS	I-PS, O, I-AF, I-AM, I-CV
-15	##의	O	O	O, I-PS, I-AF, I-CV, I-OG
-16	노래	O	O	O, B-FD, B-CV, B-PS, I-AF
-17	##는	O	O	O, I-AF, B-CV, I-CV, I-OG
-18	아름다웠	O	O	O, B-CV, B-PS, B-OG, B-FD
-19	##다	O	O	O, B-CV, I-OG, I-CV, B-PS
-20	.	O	O	O, B-CV, B-PS, B-LC, B-FD
-21	[SEP]	O	O	O, B-CV, B-PS, I-AF, B-FD
+	text	label	preds
+0	[CLS]	O	O
+1	한국	B-LC	B-LC
+2	양궁	B-CV	B-CV
+3	##은	O	O
+4	이번	O	O
+5	올림픽	B-EV	B-EV
+6	##에	O	O
+7	##서	O	O
+8	사상	O	O
+9	처음	O	O
+10	##으로	O	O
+11	남녀	O	O
+12	개인	O	B-EV
+13	·	O	I-EV
+14	단체전	O	I-EV
+15	전	O	O
+16	종목	O	O
+17	금메달	B-CV	B-CV
+18	##을	O	O
+19	석권	O	O
+20	##했	O	O
+21	##다	O	O
+22	.	O	O
+23	[SEP]	O	O

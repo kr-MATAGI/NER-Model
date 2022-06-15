@@ -1,16 +1,28 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	너무	O	O	O, B-CV, B-OG, B-LC, B-PS
-2	우리	O	O	O, B-CV, B-OG, B-LC, B-PS
-3	##가	O	O	O, B-PS, I-OG, B-CV, B-LC
-4	느	O	O	O, B-CV, B-PS, B-OG, B-LC
-5	##그	O	O	O, I-CV, B-CV, I-PS, I-OG
-6	친정	O	B-CV	B-CV, O, I-CV, B-OG, B-PS
-7	##이	O	O	O, I-CV, B-PS, B-CV, I-OG
-8	그만큼	O	O	O, B-CV, B-LC, B-PS, I-CV
-9	잘	O	O	O, B-CV, B-LC, B-PS, B-OG
-10	살아	O	O	O, B-CV, B-LC, B-PS, I-CV
-11	##서	O	O	O, B-CV, I-CV, I-AF, I-OG
-12	우리	O	O	O, B-CV, B-OG, B-LC, B-PS
-13	##가	O	O	O, B-CV, I-AF, I-OG, B-PS
-14	[SEP]	O	O	O, B-CV, B-PS, B-LC, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	한편	O	O
+2	6	B-DT	B-DT
+3	##일	I-DT	I-DT
+4	전국	O	O
+5	##의	O	O
+6	낮	B-TI	B-TI
+7	최고	O	O
+8	##기	O	O
+9	##온	O	O
+10	##은	O	O
+11	30	B-QT	B-QT
+12	##∼	O	I-QT
+13	##36	B-QT	I-QT
+14	##도	I-QT	I-QT
+15	##까	O	O
+16	##지	O	O
+17	올라	O	O
+18	무더	O	O
+19	##울	O	O
+20	것	O	O
+21	##으로	O	O
+22	전망	O	O
+23	##된	O	O
+24	##다	O	O
+25	.	O	O
+26	[SEP]	O	O

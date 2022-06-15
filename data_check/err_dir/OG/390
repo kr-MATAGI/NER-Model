@@ -1,67 +1,51 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-EV, B-CV, I-OG, I-CV
-1	천막	O	O	O, B-CV, B-EV, B-LC, B-AF
-2	철거	O	O	O, I-EV, B-CV, B-PS, B-LC
-3	##에	O	O	O, B-PS, B-LC, B-OG, B-CV
-4	반발	O	O	O, B-LC, B-CV, B-OG, B-PS
-5	##한	O	O	O, B-PS, B-OG, B-LC, B-CV
-6	민노총	B-OG	B-OG	B-OG, O, B-PS, I-OG, B-CV
-7	공	B-OG	B-OG	B-OG, O, I-OG, B-CV, B-EV
-8	##투	I-OG	I-OG	I-OG, O, I-CV, I-EV, B-OG
-9	##위	I-OG	I-OG	I-OG, O, I-CV, I-EV, I-AF
-10	##는	O	O	O, I-OG, I-EV, I-CV, I-AF
-11	이날	B-DT	B-DT	B-DT, O, I-DT, B-LC, B-EV
-12	오후	B-TI	B-TI	B-TI, I-TI, O, I-DT, B-EV
-13	서울	B-LC	B-LC	B-LC, O, B-OG, I-LC, B-AF
-14	종로	B-OG	B-AF	B-AF, B-OG, I-AF, B-LC, O
-15	##경찰	I-OG	I-AF	I-AF, I-OG, I-LC, B-AF, O
-16	##서	I-OG	I-AF	I-AF, I-OG, O, I-LC, B-AF
-17	앞	B-TM	B-TM	B-TM, O, I-AF, I-TM, B-CV
-18	##에서	O	O	O, I-AF, I-TM, I-EV, I-QT
-19	기자	O	O	O, B-EV, B-CV, B-LC, B-TM
-20	##회	O	O	O, I-EV, B-EV, B-PS, B-CV
-21	##견	O	O	O, I-EV, B-EV, B-LC, B-CV
-22	##을	O	O	O, B-OG, B-CV, I-EV, B-LC
-23	열	O	O	O, B-CV, B-OG, B-LC, B-PS
-24	##고	O	O	O, B-LC, B-PS, B-OG, B-CV
-25	""""	O	O	O, B-LC, B-CV, B-PS, B-OG
-26	생존	B-CV	B-CV	B-CV, O, B-TM, B-OG, B-LC
-27	##권	I-CV	I-CV	I-CV, O, B-CV, I-TM, I-OG
-28	문제	O	O	O, I-CV, B-PS, I-QT, I-EV
-29	##를	O	O	O, B-LC, B-PS, B-CV, B-OG
-30	해결	O	O	O, B-LC, B-PS, B-CV, B-TM
-31	##해	O	O	O, B-PS, B-LC, B-CV, B-OG
-32	달라	O	O	O, B-PS, B-CV, B-LC, I-PS
-33	##는	O	O	O, B-PS, B-CV, B-LC, B-OG
-34	노동자	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-PS
-35	##에	O	O	O, I-CV, B-PS, B-CV, I-OG
-36	##게	O	O	O, B-PS, B-LC, B-CV, B-OG
-37	문재인	B-PS	B-PS	B-PS, O, I-PS, B-OG, B-LC
-38	정권	O	O	O, I-PS, B-OG, B-CV, I-OG
-39	##은	O	O	O, B-PS, I-OG, I-PS, B-LC
-40	강제	O	O	O, B-LC, B-CV, B-PS, B-EV
-41	철거	O	O	O, B-LC, B-CV, B-PS, I-EV
-42	·	O	O	O, B-PS, B-LC, I-EV, I-LC
-43	불법	O	O	O, B-CV, B-LC, B-PS, B-AF
-44	연행	O	O	O, I-CV, B-CV, B-LC, I-EV
-45	##을	O	O	O, B-LC, B-PS, B-CV, I-EV
-46	통해	O	O	O, B-LC, B-PS, B-OG, B-CV
-47	생존	B-CV	B-CV	B-CV, O, B-TM, B-OG, I-CV
-48	##권	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-TM
-49	##을	O	O	O, I-CV, I-OG, I-EV, I-QT
-50	말살	O	O	O, B-LC, B-CV, B-TM, B-PS
-51	##하고	O	O	O, B-PS, B-LC, B-CV, B-OG
-52	정면	O	O	O, B-TM, B-LC, B-AF, B-QT
-53	##으로	O	O	O, B-PS, B-LC, I-QT, I-LC
-54	총	O	O	O, B-AF, B-LC, B-AM, B-PS
-55	##부리	O	O	O, I-AF, I-LC, B-AM, B-AF
-56	##를	O	O	O, I-AF, B-LC, B-CV, I-LC
-57	겨	O	O	O, B-LC, B-AF, B-PS, B-TM
-58	##눴	O	O	O, B-LC, B-PS, I-AF, I-LC
-59	##다	O	O	O, B-LC, B-PS, B-CV, B-OG
-60	""""	O	O	O, B-CV, B-LC, B-TM, B-OG
-61	고	O	O	O, B-CV, B-LC, B-OG, B-PS
-62	했	O	O	O, B-CV, B-LC, B-OG, B-PS
-63	##다	O	O	O, B-CV, B-LC, I-EV, B-OG
-64	.	O	O	O, B-LC, B-PS, B-CV, B-OG
-65	[SEP]	O	O	O, B-LC, B-CV, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	일부	O	O
+2	검사	O	O
+3	업체	O	O
+4	##는	O	O
+5	홈페이지	O	O
+6	##에	O	O
+7	얼음	B-EV	B-TM
+8	##정	I-EV	I-TM
+9	##수기	I-EV	I-TM
+10	사건	I-EV	O
+11	##을	O	O
+12	알리	O	O
+13	##는	O	O
+14	팝업	O	O
+15	##창	O	O
+16	##을	O	O
+17	띄	O	O
+18	##운	O	O
+19	채	O	O
+20	손님	B-CV	B-CV
+21	##을	O	O
+22	모으	O	O
+23	##거나	O	O
+24	‘	O	O
+25	코웨이	B-OG	B-OG
+26	피해자	I-OG	B-CV
+27	모임	I-OG	O
+28	’	O	O
+29	카페	O	O
+30	회원	B-CV	B-CV
+31	##이	O	O
+32	##라고	O	O
+33	밝히	O	O
+34	##면	O	O
+35	할인	O	O
+36	##가	O	O
+37	##를	O	O
+38	적용	O	O
+39	##해	O	O
+40	##주	O	O
+41	##고	O	O
+42	있	O	O
+43	##는	O	O
+44	것	O	O
+45	##으로	O	O
+46	전해졌	O	O
+47	##다	O	O
+48	.	O	O
+49	[SEP]	O	O

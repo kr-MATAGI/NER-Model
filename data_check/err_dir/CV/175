@@ -1,40 +1,22 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	스마트폰	B-TM	B-TM	B-TM, O, B-CV, I-TM, B-TR
-2	##을	O	O	O, I-TM, I-CV, I-AF, B-CV
-3	쓰	O	O	O, B-PS, B-LC, B-CV, B-TM
-4	##지	O	O	O, B-PS, B-LC, B-CV, B-TM
-5	못하	O	O	O, B-PS, B-CV, B-LC, B-TM
-6	##는	O	O	O, B-PS, B-CV, B-LC, B-TM
-7	'	O	O	O, B-CV, B-LC, B-PS, B-TM
-8	왕	B-CV	O	O, B-PS, B-CV, B-AF, B-LC
-9	##언	I-CV	B-CV	B-CV, I-CV, O, I-PS, B-PS
-10	##니	I-CV	I-CV	I-CV, O, B-CV, I-PS, I-AF
-11	'	O	O	O, I-CV, B-CV, B-PS, I-QT
-12	에게	O	O	O, B-CV, B-TM, B-PS, B-OG
-13	동기	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-OG
-14	##들	O	O	O, I-CV, I-OG, B-CV, I-AF
-15	##은	O	O	O, B-CV, B-LC, B-TM, B-OG
-16	단체	O	O	O, B-CV, B-TM, B-LC, B-PS
-17	채팅	O	O	O, B-TM, B-CV, B-LC, B-PS
-18	##방	O	O	O, I-TM, I-EV, B-TM, I-AF
-19	대신	O	O	O, B-TM, B-CV, B-LC, B-PS
-20	따로	O	O	O, B-TM, B-LC, B-QT, B-CV
-21	전화	O	O	O, B-TM, B-LC, B-CV, B-AF
-22	##해	O	O	O, B-LC, B-PS, B-CV, B-TM
-23	학과	O	O	O, B-CV, B-LC, B-FD, B-TM
-24	행사	O	O	O, I-EV, B-CV, B-LC, B-EV
-25	##를	O	O	O, B-CV, B-OG, B-LC, B-PS
-26	알리	O	O	O, B-CV, B-LC, B-TM, B-OG
-27	##고	O	O	O, B-CV, B-PS, B-LC, B-TM
-28	,	O	O	O, B-CV, B-LC, B-PS, B-OG
-29	수업	O	O	O, B-CV, B-LC, B-TM, B-AF
-30	내용	O	O	O, B-CV, B-LC, B-PS, B-TM
-31	##이	O	O	O, B-PS, B-CV, B-OG, B-LC
-32	적힌	O	O	O, B-LC, B-CV, B-TM, B-PS
-33	노트	O	O	O, B-CV, B-AF, B-TM, B-LC
-34	##를	O	O	O, B-CV, B-LC, B-OG, B-TM
-35	건넸	O	O	O, B-CV, B-LC, B-OG, B-TM
-36	##다	O	O	O, B-CV, B-TM, B-LC, I-OG
-37	.	O	O	O, B-CV, B-LC, B-PS, B-OG
-38	[SEP]	O	O	O, B-CV, B-LC, B-TM, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	그러나	O	O
+2	어디	O	O
+3	##든	O	O
+4	악한	O	O
+5	(	O	O
+6	惡	O	O
+7	漢	O	O
+8	)	O	O
+9	만큼	O	O
+10	의인	B-CV	O
+11	(	O	O
+12	義	O	O
+13	人	O	O
+14	)	O	O
+15	은	O	O
+16	꼭	O	O
+17	있	O	O
+18	##다	O	O
+19	.	O	O
+20	[SEP]	O	O

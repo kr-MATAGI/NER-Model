@@ -1,60 +1,7 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	대한	B-OG	B-OG	B-OG, O, B-EV, B-LC, I-OG
-2	##빙	I-OG	I-OG	I-OG, I-EV, O, B-OG, I-LC
-3	##상	I-OG	I-OG	I-OG, I-EV, O, B-OG, I-LC
-4	##경기	I-OG	I-OG	I-OG, I-EV, O, B-OG, I-LC
-5	##연맹	I-OG	I-OG	I-OG, O, I-EV, I-LC, B-OG
-6	관계자	B-CV	B-CV	B-CV, O, I-OG, I-CV, I-EV
-7	##는	O	O	O, I-CV, I-OG, I-EV, B-CV
-8	“	O	O	O, B-CV, B-LC, B-TM, B-OG
-9	메드	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-AF
-10	##베	I-PS	I-PS	I-PS, O, I-OG, I-LC, B-PS
-11	##데	I-PS	I-PS	I-PS, O, I-LC, I-OG, B-PS
-12	##바	I-PS	I-PS	I-PS, O, I-LC, I-AF, I-OG
-13	##는	O	O	O, I-PS, I-AF, B-CV, I-OG
-14	점프	O	O	O, B-TM, B-CV, B-AF, B-FD
-15	##를	O	O	O, I-TM, I-AF, B-CV, B-PS
-16	한	O	O	O, B-TM, B-LC, B-CV, B-PS
-17	뒤	O	O	O, B-TM, B-LC, B-AM, I-TM
-18	공중	O	O	O, B-TM, B-LC, I-TM, B-AF
-19	##에서	O	O	O, I-TM, B-TM, B-LC, I-LC
-20	##의	O	O	O, B-PS, B-LC, B-TM, I-AF
-21	회전	O	O	O, B-TM, B-LC, B-CV, B-OG
-22	##력	O	O	O, I-TM, B-PS, B-LC, I-AF
-23	##이	O	O	O, B-PS, B-OG, B-LC, B-CV
-24	탁월	O	O	O, B-CV, B-PS, B-LC, B-OG
-25	##하	O	O	O, B-PS, B-CV, B-LC, B-OG
-26	##다	O	O	O, B-CV, B-PS, I-AF, I-OG
-27	.	O	O	O, B-LC, B-CV, B-PS, B-TM
-28	이	O	O	O, B-PS, B-TM, B-CV, B-AF
-29	때문	O	O	O, B-CV, B-PS, I-AF, B-LC
-30	##에	O	O	O, B-LC, B-CV, B-TM, B-PS
-31	난도	O	O	O, B-CV, B-LC, B-PS, B-TM
-32	높	O	O	O, B-CV, B-LC, B-TM, B-PS
-33	##은	O	O	O, B-LC, B-TM, B-CV, B-PS
-34	트리플	B-TM	B-TM	B-TM, O, B-FD, B-TR, B-AF
-35	(	I-TM	O	O, I-TM, I-AF, I-CV, I-TR
-36	3	I-TM	B-QT	B-QT, I-TM, I-QT, O, I-AF
-37	##회전	I-TM	I-QT	I-QT, I-TM, O, I-EV, I-AF
-38	)	I-TM	O	O, I-QT, I-TM, I-AF, I-CV
-39	점프	I-TM	O	O, I-TM, I-AF, B-TM, I-QT
-40	##의	O	O	O, I-TM, I-AF, I-CV, I-QT
-41	성공	O	O	O, B-OG, B-TM, B-CV, B-LC
-42	##률	O	O	O, B-LC, B-PS, B-OG, B-TM
-43	##이	O	O	O, B-PS, B-OG, B-CV, B-LC
-44	높	O	O	O, B-CV, B-LC, B-TM, B-OG
-45	##아	O	O	O, B-LC, B-CV, B-PS, B-TM
-46	고	O	O	O, B-CV, B-TM, B-LC, B-QT
-47	##득점	O	O	O, B-TM, B-LC, B-CV, I-TM
-48	##에	O	O	O, B-CV, B-PS, B-OG, B-LC
-49	유리	O	O	O, B-CV, B-TM, B-LC, B-OG
-50	##하	O	O	O, B-PS, B-LC, B-OG, I-CV
-51	##다	O	O	O, B-CV, I-OG, I-AF, B-PS
-52	”	O	O	O, B-CV, B-TM, B-LC, B-OG
-53	고	O	O	O, B-CV, B-TM, B-QT, B-LC
-54	평가	O	O	O, B-CV, B-TM, B-PS, B-QT
-55	##했	O	O	O, B-CV, I-CV, B-PS, B-TM
-56	##다	O	O	O, B-CV, B-TM, B-QT, B-LC
-57	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-58	[SEP]	O	O	O, B-CV, B-LC, B-TM, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	네	O	O
+2	피부	B-TM	O
+3	##도	O	O
+4	하고	O	O
+5	[SEP]	O	O

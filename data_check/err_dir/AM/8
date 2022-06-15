@@ -1,32 +1,11 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	FA	B-OG	B-OG	B-OG, B-EV, O, B-CV, I-OG
-2	##O	I-OG	I-OG	I-OG, I-EV, O, I-CV, I-AF
-3	##는	O	O	O, I-OG, I-EV, I-CV, B-CV
-4	이를	O	O	O, B-TM, B-CV, B-OG, I-OG
-5	극복	O	O	O, B-CV, B-TM, B-LC, B-OG
-6	##하기	O	O	O, B-CV, B-LC, B-OG, B-PS
-7	위해	O	O	O, B-CV, B-LC, B-OG, B-TM
-8	레스토랑	O	O	O, B-CV, B-TM, B-OG, B-AF
-9	메뉴	O	O	O, B-CV, I-CV, B-TM, B-LC
-10	##에	O	O	O, B-CV, B-TM, B-LC, B-OG
-11	곤충	B-AM	O	O, B-AM, B-TM, B-PT, B-CV
-12	##류	I-AM	O	O, I-AM, I-TM, I-CV, B-AM
-13	##를	O	O	O, B-CV, I-CV, I-TM, B-TM
-14	포함	O	O	O, B-CV, B-TM, B-LC, B-OG
-15	##하고	O	O	O, B-CV, B-LC, B-PS, B-TM
-16	곤충	B-AM	O	O, B-AM, B-TM, B-PT, I-AM
-17	##을	O	O	O, B-AM, I-TM, I-AM, B-CV
-18	이용한	O	O	O, B-CV, B-LC, B-TM, B-PS
-19	요리	O	O	O, B-CV, I-CV, B-TM, B-FD
-20	##법	O	O	O, I-CV, B-CV, I-TM, I-LC
-21	##을	O	O	O, B-CV, B-LC, B-TM, B-OG
-22	개발	O	O	O, B-CV, B-LC, B-TM, B-OG
-23	##할	O	O	O, B-CV, B-LC, B-OG, B-PS
-24	것	O	O	O, B-CV, B-OG, B-LC, B-PS
-25	##을	O	O	O, B-CV, B-OG, B-LC, I-OG
-26	제안	O	O	O, B-CV, B-OG, B-TM, B-LC
-27	##했	O	O	O, B-CV, I-OG, B-OG, B-LC
-28	##다	O	O	O, B-CV, I-OG, B-OG, B-TM
-29	.	O	O	O, B-CV, B-LC, B-OG, B-TM
-30	[SEP]	O	O	O, B-CV, B-LC, B-TM, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	유행	O	O
+2	##할	O	O
+3	독감	B-TM	B-AM
+4	##바이	B-AM	I-AM
+5	##러스	I-AM	I-AM
+6	##를	O	O
+7	예측	O	O
+8	##해	O	O
+9	[SEP]	O	O

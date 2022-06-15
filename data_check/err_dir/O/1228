@@ -1,41 +1,32 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	덴마크	B-LC	B-LC	B-LC, O, B-OG, B-AF, B-PS
-2	롤	B-LC	B-LC	B-LC, I-LC, O, B-OG, B-AF
-3	##란드	I-LC	I-LC	I-LC, O, B-LC, I-OG, I-AF
-4	##섬	I-LC	I-LC	I-LC, O, I-OG, B-LC, I-AF
-5	##의	O	O	O, I-LC, I-OG, I-AF, B-LC
-6	경우	O	O	O, B-LC, B-OG, B-CV, B-TM
-7	##도	O	O	O, B-LC, B-OG, B-PS, B-EV
-8	신재	O	B-FD	B-FD, O, I-FD, B-TR, B-CV
-9	##생	O	I-FD	I-FD, O, B-FD, I-TR, I-OG
-10	##에너지	O	I-FD	I-FD, O, B-FD, I-TR, I-OG
-11	관련	O	O	O, I-FD, I-OG, B-TM, B-FD
-12	시설	O	O	O, B-CV, B-OG, B-TM, B-LC
-13	및	O	O	O, I-OG, B-CV, B-OG, B-PS
-14	기관	O	O	O, B-CV, B-OG, B-TM, B-AF
-15	입주	O	O	O, B-CV, B-OG, B-TM, B-LC
-16	##로	O	O	O, B-PS, B-OG, B-CV, B-LC
-17	당초	O	O	O, B-QT, B-LC, B-OG, B-CV
-18	40	B-QT	B-QT	B-QT, I-QT, O, B-EV, B-DT
-19	%	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-EV
-20	에	O	O	O, I-QT, I-OG, I-EV, B-CV
-21	육박	O	O	O, B-QT, B-TM, B-OG, B-LC
-22	##했	O	O	O, B-OG, B-PS, B-LC, B-QT
-23	##던	O	O	O, B-OG, B-LC, B-QT, B-CV
-24	실업	O	O	O, B-TM, B-CV, B-TR, B-OG
-25	##률	O	O	O, I-TM, B-QT, I-QT, I-CV
-26	##이	O	O	O, B-PS, B-OG, B-QT, B-CV
-27	3	B-QT	B-QT	B-QT, O, I-QT, B-EV, B-DT
-28	%	I-QT	I-QT	I-QT, O, I-LC, I-EV, B-QT
-29	로	O	O	O, I-QT, I-EV, I-OG, B-PS
-30	떨어지	O	O	O, B-CV, I-QT, B-QT, B-OG
-31	##는	O	O	O, B-LC, B-CV, B-PS, B-OG
-32	경제	O	O	O, B-FD, B-LC, B-CV, B-PS
-33	##적	O	O	O, I-TR, I-QT, I-LC, I-PS
-34	효과	O	O	O, B-CV, B-LC, B-PS, I-QT
-35	##를	O	O	O, B-CV, B-OG, I-CV, I-OG
-36	봤	O	O	O, B-CV, B-OG, B-LC, B-QT
-37	##다	O	O	O, B-CV, I-OG, I-QT, I-EV
-38	.	O	O	O, B-LC, B-PS, B-CV, B-OG
-39	[SEP]	O	O	O, B-LC, B-CV, I-OG, I-QT
+	text	label	preds
+0	[CLS]	O	O
+1	유엔	B-OG	B-OG
+2	##은	O	O
+3	해	O	O
+4	##마	O	O
+5	##다	O	O
+6	북한	B-OG	B-OG
+7	##에	O	O
+8	인권	B-CV	B-CV
+9	상황	O	O
+10	##을	O	O
+11	개선	O	O
+12	##하라	O	O
+13	##고	O	O
+14	권고	O	O
+15	##하	O	O
+16	##지만	O	O
+17	김정은	B-PS	B-PS
+18	##은	O	O
+19	콧	O	B-AM
+20	##방	O	I-AM
+21	##귀	O	I-AM
+22	##도	O	O
+23	뀌	O	O
+24	##지	O	O
+25	않	O	O
+26	##고	O	O
+27	있	O	O
+28	##다	O	O
+29	.	O	O
+30	[SEP]	O	O

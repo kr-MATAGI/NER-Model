@@ -1,21 +1,24 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	그	O	O	O, B-CV, B-PS, B-LC, B-OG
-2	우리	O	O	O, B-PS, B-CV, B-QT, B-LC
-3	어	O	O	O, B-CV, B-PS, B-AF, B-FD
-4	이	O	O	O, B-PS, B-QT, B-TM, B-AF
-5	온	O	O	O, B-QT, I-QT, B-TM, I-TM
-6	어	O	O	O, I-QT, I-TM, B-TM, B-QT
-7	온라인	O	O	O, B-TM, I-TM, B-QT, I-QT
-8	온라인	O	O	O, B-TM, I-TM, B-QT, B-AF
-9	의학	O	B-FD	B-FD, O, B-AF, B-OG, I-AF
-10	##도	O	O	O, I-OG, I-AF, I-FD, I-LC
-11	##서관	O	O	O, I-OG, I-AF, I-QT, I-LC
-12	##을	O	O	O, I-OG, I-AF, B-CV, I-QT
-13	운영	O	O	O, B-CV, B-LC, B-TM, B-OG
-14	##하고	O	O	O, B-CV, I-CV, B-PS, I-AF
-15	있	O	O	O, B-CV, B-PS, B-LC, B-OG
-16	##습	O	O	O, B-CV, B-PS, B-LC, B-OG
-17	##니다	O	O	O, B-CV, B-LC, B-OG, B-PS
-18	.	O	O	O, B-CV, B-LC, B-PS, B-OG
-19	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-AF
+	text	label	preds
+0	[CLS]	O	O
+1	정몽준	B-PS	B-PS
+2	##이	O	O
+3	대선	B-EV	B-EV
+4	투표	O	I-EV
+5	하루	B-DT	B-DT
+6	전	I-DT	I-DT
+7	##에	O	O
+8	노무현	B-PS	B-PS
+9	##과	O	O
+10	##의	O	O
+11	연합	O	O
+12	##을	O	O
+13	전격	O	O
+14	##적	O	O
+15	##으로	O	O
+16	취소	O	O
+17	##했	O	O
+18	##기	O	O
+19	때문	O	O
+20	##이다	O	O
+21	.	O	O
+22	[SEP]	O	O

@@ -1,39 +1,58 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-QT
-1	정치	B-CV	B-CV	B-CV, O, B-FD, B-OG, B-TM
-2	##부	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-QT
-3	##장	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-TM
-4	##과	O	O	O, I-CV, I-OG, B-PS, I-QT
-5	보도	O	B-CV	B-CV, O, B-OG, B-TM, I-CV
-6	##본부	B-CV	I-CV	I-CV, O, B-CV, I-OG, I-TM
-7	##장	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-TM
-8	등	O	O	O, I-CV, I-OG, I-QT, B-PS
-9	요직	O	O	O, B-CV, B-PS, B-TM, B-OG
-10	##을	O	O	O, B-PS, B-CV, B-OG, B-LC
-11	거친	O	O	O, B-PS, B-CV, B-OG, B-LC
-12	최	O	B-PS	B-PS, O, I-PS, B-OG, B-LC
-13	수석	O	B-CV	B-CV, O, I-CV, I-PS, I-AF
-14	##은	O	O	O, I-CV, B-CV, I-EV, I-OG
-15	2011	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-16	##년	I-DT	I-DT	I-DT, O, B-DT, I-PS, I-QT
-17	9	I-DT	I-DT	I-DT, O, B-DT, I-PS, I-QT
-18	##월	I-DT	I-DT	I-DT, O, B-DT, I-PS, I-QT
-19	청와대	B-AF	B-OG	B-OG, B-AF, O, B-LC, B-EV
-20	홍보	B-CV	B-CV	B-CV, O, I-CV, I-AF, B-FD
-21	##수	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-AF
-22	##석	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-TM
-23	##으로	O	O	O, I-CV, I-OG, I-QT, I-EV
-24	발표	O	O	O, B-CV, B-OG, B-LC, B-PS
-25	##될	O	O	O, B-OG, B-CV, B-PS, B-LC
-26	당시	O	O	O, B-CV, B-OG, B-PS, B-LC
-27	에스	B-OG	B-OG	B-OG, O, B-PS, B-LC, B-AF
-28	##비	I-OG	I-OG	I-OG, O, B-OG, I-AF, I-PS
-29	##에스	I-OG	I-OG	I-OG, O, B-OG, I-AF, I-PS
-30	방송	O	O	O, I-OG, B-CV, B-OG, B-PS
-31	##지원	O	O	O, B-PS, I-OG, B-CV, B-LC
-32	##본부	O	O	O, B-PS, B-CV, B-LC, B-TM
-33	##장이	O	O	O, B-PS, B-CV, B-LC, B-TM
-34	##었	O	O	O, B-PS, B-CV, B-OG, B-LC
-35	##다	O	O	O, B-CV, I-OG, B-TM, B-QT
-36	.	O	O	O, B-PS, B-OG, B-LC, B-CV
-37	[SEP]	O	O	O, B-PS, B-CV, B-OG, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	당초	O	O
+2	문제	O	O
+3	##가	O	O
+4	된	O	O
+5	어음	O	O
+6	##은	O	O
+7	발행	O	O
+8	일자	O	O
+9	##가	O	O
+10	'	O	O
+11	11	B-DT	B-DT
+12	##월	I-DT	I-DT
+13	29	I-DT	I-DT
+14	##일	I-DT	I-DT
+15	'	O	O
+16	로	O	O
+17	적혀	O	O
+18	있	O	O
+19	##었	O	O
+20	##는데	O	O
+21	,	O	O
+22	이	O	O
+23	장비	O	O
+24	##로	O	O
+25	파장	O	O
+26	##이	O	O
+27	다른	O	O
+28	빛	O	O
+29	##을	O	O
+30	여러	O	O
+31	각도	O	O
+32	##에	O	O
+33	##서	O	O
+34	비추	O	O
+35	##자	O	O
+36	'	O	O
+37	11	B-QT	B-QT
+38	'	O	O
+39	의	O	O
+40	'	O	O
+41	1	B-QT	B-QT
+42	'	O	I-QT
+43	자	O	I-QT
+44	한	B-QT	B-QT
+45	개	I-QT	I-QT
+46	##가	O	O
+47	혼자	O	O
+48	##서	O	O
+49	다른	O	O
+50	반사	O	O
+51	빛	O	O
+52	##을	O	O
+53	냈	O	O
+54	##다	O	O
+55	.	O	O
+56	[SEP]	O	O

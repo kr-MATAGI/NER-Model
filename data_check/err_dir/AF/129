@@ -1,47 +1,21 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	피자	B-OG	B-OG	B-OG, O, I-OG, B-AF, B-LC
-2	##헛	I-OG	I-OG	I-OG, O, B-OG, I-AF, I-LC
-3	##은	O	O	O, I-OG, I-AF, B-OG, B-CV
-4	24	B-DT	B-DT	B-DT, I-DT, O, B-OG, B-QT
-5	##일	I-DT	I-DT	I-DT, O, B-DT, I-OG, I-QT
-6	##까	I-DT	I-DT	I-DT, O, B-DT, I-OG, I-QT
-7	##지	I-DT	I-DT	I-DT, O, B-DT, I-OG, I-QT
-8	수험	B-CV	B-CV	B-CV, O, I-CV, I-DT, B-OG
-9	##생	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-AF
-10	##이	O	O	O, I-CV, B-PS, B-TM, B-CV
-11	누리집	O	O	O, B-TM, B-CV, B-LC, B-QT
-12	##에서	O	O	O, B-CV, B-LC, B-TM, B-PS
-13	온라인	O	O	O, B-TM, B-CV, B-LC, B-QT
-14	##으로	O	O	O, B-LC, B-CV, B-TM, B-PS
-15	주문	O	O	O, B-CV, B-TM, B-LC, B-PS
-16	##하면	O	O	O, B-LC, B-TM, B-OG, B-CV
-17	‘	O	O	O, B-CV, B-LC, B-OG, B-AF
-18	리치	B-AF	B-CV	B-CV, O, B-AF, B-OG, B-PT
-19	##골	I-AF	I-CV	I-CV, O, I-AF, B-CV, I-OG
-20	##드	I-AF	I-CV	I-CV, O, I-AF, I-OG, I-TM
-21	’	O	O	O, I-CV, I-AF, I-OG, B-CV
-22	,	O	O	O, B-CV, B-LC, B-TM, B-OG
-23	‘	O	O	O, B-LC, B-CV, B-OG, B-AF
-24	치즈	B-AF	B-CV	B-CV, O, B-AF, B-PT, B-OG
-25	바이	I-AF	O	O, I-CV, I-AF, B-CV, B-AF
-26	##트	I-AF	O	O, I-AF, I-CV, I-OG, I-LC
-27	’	O	O	O, I-AF, I-CV, I-OG, I-QT
-28	,	O	O	O, B-CV, B-LC, B-AF, B-TM
-29	‘	O	O	O, B-LC, B-CV, B-AF, B-OG
-30	치즈	B-AF	B-CV	B-CV, O, B-AF, B-PT, B-OG
-31	크	I-AF	I-CV	I-CV, O, I-AF, B-CV, I-OG
-32	##러스	I-AF	I-CV	I-CV, O, I-AF, I-OG, I-LC
-33	##트	I-AF	O	O, I-CV, I-AF, I-OG, I-LC
-34	’	O	O	O, I-AF, I-CV, I-OG, B-LC
-35	패밀리	O	O	O, B-TM, B-QT, B-CV, B-AF
-36	사이즈	O	O	O, I-CV, I-TM, I-QT, I-AF
-37	피자	B-CV	B-CV	B-CV, O, I-CV, B-PT, B-AF
-38	##를	O	O	O, I-CV, B-CV, I-AF, I-QT
-39	25	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-LC
-40	%	I-QT	I-QT	I-QT, O, I-LC, I-DT, I-OG
-41	할인	O	O	O, I-QT, B-TM, B-CV, B-OG
-42	##해	O	O	O, I-QT, B-OG, I-OG, B-LC
-43	##준다	O	O	O, B-CV, B-OG, B-LC, B-TM
-44	.	O	O	O, B-LC, B-OG, B-CV, B-TM
-45	[SEP]	O	O	O, B-LC, B-CV, B-TM, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	미국	B-OG	B-OG
+2	##과	O	O
+3	인도네시아	B-OG	B-OG
+4	간	O	O
+5	교역	O	O
+6	##에	O	O
+7	##서	O	O
+8	사상	O	O
+9	최대	O	O
+10	##의	O	O
+11	거래	O	O
+12	##라고	O	O
+13	백악관	B-AF	B-OG
+14	##은	O	O
+15	설명	O	O
+16	##했	O	O
+17	##다	O	O
+18	.	O	O
+19	[SEP]	O	O

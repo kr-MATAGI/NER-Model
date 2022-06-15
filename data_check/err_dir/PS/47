@@ -1,18 +1,26 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, B-CV, I-OG, I-AF
-1	유진	B-PS	B-PS	B-PS, O, B-LC, I-PS, B-OG
-2	##이	O	O	O, I-PS, B-PS, B-CV, I-AF
-3	시호	B-PS	O	O, B-PS, B-CV, I-PS, B-LC
-4	##로	O	O	O, I-PS, B-PS, B-CV, I-CV
-5	바뀌	O	O	O, B-CV, B-PS, I-PS, I-CV
-6	##었	O	O	O, B-PS, B-CV, I-CV, B-LC
-7	##다는	O	O	O, B-CV, B-PS, I-CV, B-LC
-8	것	O	O	O, B-CV, B-PS, B-OG, I-CV
-9	##을	O	O	O, B-CV, B-PS, I-CV, I-AF
-10	알린	O	O	O, B-CV, B-PS, B-LC, B-OG
-11	사람	O	O	O, B-CV, I-CV, B-PS, B-QT
-12	##이	O	O	O, B-PS, I-CV, B-CV, B-LC
-13	누구	O	O	O, B-CV, B-PS, B-OG, B-LC
-14	##죠	O	O	O, I-CV, I-OG, B-CV, I-AF
-15	?	O	O	O, B-CV, I-OG, I-CV, B-OG
-16	[SEP]	O	O	O, B-CV, B-PS, B-LC, I-CV
+	text	label	preds
+0	[CLS]	O	O
+1	한민구	B-PS	B-PS
+2	“	O	O
+3	한국군	B-OG	B-OG
+4	주도	O	O
+5	##로	O	O
+6	北	B-OG	B-LC
+7	도발	O	O
+8	단호	O	O
+9	대응	O	O
+10	”	O	O
+11	…	O	O
+12	멀	B-PS	B-OG
+13	##린	I-PS	I-OG
+14	“	O	O
+15	자위권	B-CV	B-CV
+16	##은	O	O
+17	모든	O	O
+18	국가	O	O
+19	##가	O	O
+20	갖	O	O
+21	##는	O	O
+22	권리	O	O
+23	”	O	O
+24	[SEP]	O	O

@@ -1,15 +1,27 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	한	B-QT	B-QT	B-QT, O, I-QT, B-OG, B-LC
-2	단위	I-QT	O	O, I-QT, B-QT, I-OG, I-LC
-3	##에서	O	O	O, I-QT, B-PS, B-QT, I-DT
-4	아빠	B-CV	B-CV	B-CV, O, I-CV, B-OG, I-QT
-5	##에	O	O	O, I-CV, I-QT, I-OG, I-AF
-6	역할	O	O	O, B-QT, B-CV, B-LC, B-PS
-7	##과	O	O	O, B-PS, B-OG, B-CV, B-LC
-8	사장	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-TM
-9	##님	O	O	O, I-CV, I-AF, I-OG, I-QT
-10	##에	O	O	O, B-PS, B-CV, B-OG, I-CV
-11	역할	O	O	O, B-CV, B-LC, B-QT, B-PS
-12	##이	O	O	O, B-OG, B-PS, B-CV, I-OG
-13	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	혼인	O	O
+2	9	B-DT	B-DT
+3	##년	I-DT	I-DT
+4	만	I-DT	I-DT
+5	##에	O	O
+6	남편	B-CV	B-CV
+7	##과	O	O
+8	사별	O	O
+9	##하	O	O
+10	##고	O	O
+11	농사	O	O
+12	##와	O	O
+13	허드	O	O
+14	##렛	O	O
+15	##일로	O	O
+16	1	B-QT	B-QT
+17	##남	I-QT	I-QT
+18	##3	B-QT	I-QT
+19	##녀	I-QT	I-QT
+20	##를	O	O
+21	홀로	B-QT	O
+22	키웠	O	O
+23	##다	O	O
+24	.	O	O
+25	[SEP]	O	O

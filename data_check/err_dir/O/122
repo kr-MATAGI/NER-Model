@@ -1,32 +1,49 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-AF
-1	젊	O	O	O, B-CV, B-PS, B-LC, B-OG
-2	##은	O	O	O, B-PS, B-LC, I-CV, I-OG
-3	세대	O	O	O, B-PS, B-CV, I-CV, I-OG
-4	##가	O	O	O, B-PS, B-CV, B-LC, B-OG
-5	좋아하	O	O	O, B-CV, B-PS, B-LC, B-AF
-6	##는	O	O	O, B-CV, B-PS, B-TM, B-LC
-7	김치	B-CV	B-CV	B-CV, O, I-CV, B-AF, B-PT
-8	##를	O	O	O, I-CV, I-AF, I-EV, I-OG
-9	만들	O	O	O, B-LC, B-CV, B-PS, B-OG
-10	##어	O	O	O, B-PS, B-LC, B-CV, B-OG
-11	전	O	O	O, B-LC, B-PS, B-OG, B-CV
-12	세계	O	O	O, B-LC, B-CV, I-LC, B-OG
-13	##에	O	O	O, B-CV, B-LC, B-PS, I-LC
-14	김치	B-CV	B-CV	B-CV, O, I-CV, B-AF, B-PT
-15	##의	O	O	O, I-CV, I-AF, I-OG, I-EV
-16	우수	O	O	O, B-CV, B-LC, B-TM, B-OG
-17	##성	O	O	O, B-LC, B-PS, I-CV, I-LC
-18	##을	O	O	O, B-CV, B-PS, B-LC, B-OG
-19	널리	O	O	O, B-CV, B-LC, B-TM, B-PS
-20	알리	O	O	O, B-CV, B-LC, B-PS, B-TM
-21	##겠다	O	O	O, B-CV, B-PS, I-CV, B-LC
-22	##는	O	O	O, B-PS, B-CV, I-CV, B-QT
-23	청년	O	O	O, B-CV, B-OG, B-TM, B-PS
-24	##사장	O	B-CV	B-CV, I-CV, O, I-QT, B-QT
-25	##이	O	O	O, I-CV, B-PS, B-CV, I-EV
-26	있	O	O	O, B-CV, B-PS, B-LC, B-OG
-27	##습	O	O	O, B-CV, B-PS, I-EV, I-CV
-28	##니다	O	O	O, B-CV, B-PS, B-LC, I-EV
-29	.	O	O	O, B-CV, B-LC, B-PS, B-OG
-30	[SEP]	O	O	O, B-CV, B-LC, B-PS, I-CV
+	text	label	preds
+0	[CLS]	O	O
+1	이데올로기	O	B-TR
+2	##로	O	O
+3	지지	O	O
+4	정당	O	O
+5	##을	O	O
+6	선택	O	O
+7	##하	O	O
+8	##는	O	O
+9	것	O	O
+10	##이	O	O
+11	아니	O	O
+12	##라	O	O
+13	집권당	O	O
+14	##의	O	O
+15	정책	O	O
+16	실패	O	O
+17	##나	O	O
+18	대안	O	O
+19	##정	O	O
+20	##당	O	O
+21	##에	O	O
+22	대한	O	O
+23	정책	O	O
+24	##적	O	O
+25	기대	O	O
+26	##로	O	O
+27	정권	O	O
+28	##을	O	O
+29	선택	O	O
+30	##하	O	O
+31	##는	O	O
+32	분위기	O	O
+33	##가	O	O
+34	형성	O	O
+35	##됐	O	O
+36	##다는	O	O
+37	것	O	O
+38	##은	O	O
+39	대단히	O	O
+40	중요	O	O
+41	##한	O	O
+42	역사	O	O
+43	##적	O	O
+44	변화	O	O
+45	##다	O	O
+46	.	O	O
+47	[SEP]	O	O

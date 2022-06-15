@@ -1,57 +1,20 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-EV, I-CV, I-OG
-1	국민	B-OG	B-OG	B-OG, O, B-CV, B-AF, B-EV
-2	##모	I-OG	I-OG	I-OG, O, I-CV, I-EV, I-AF
-3	##임	I-OG	I-OG	I-OG, O, I-CV, I-EV, I-AF
-4	관계자	B-CV	B-CV	B-CV, O, I-CV, I-OG, I-EV
-5	##는	O	O	O, I-CV, I-OG, I-EV, I-QT
-6	“	O	O	O, B-CV, B-LC, B-OG, B-TM
-7	후보	B-CV	B-CV	B-CV, O, I-CV, B-AF, B-TM
-8	##를	O	O	O, I-CV, I-EV, B-CV, I-AF
-9	낼	O	O	O, B-LC, B-CV, B-OG, B-PS
-10	경우	O	O	O, B-LC, B-OG, B-CV, B-PS
-11	야권	O	O	O, B-OG, B-CV, B-LC, B-EV
-12	##의	O	O	O, B-PS, I-OG, I-EV, B-LC
-13	심장	B-TM	O	O, B-LC, B-TM, B-CV, B-PS
-14	##부인	O	O	O, B-LC, B-CV, B-PS, B-TM
-15	광주	B-LC	B-LC	B-LC, O, B-OG, B-AF, B-PS
-16	서구	B-LC	B-LC	B-LC, I-LC, O, B-OG, B-AF
-17	##을	O	I-LC	I-LC, O, B-LC, I-AF, I-OG
-18	##이	O	O	O, I-LC, B-PS, B-LC, I-PS
-19	전략	O	O	O, B-LC, B-CV, B-OG, B-TM
-20	##지역	O	O	O, B-LC, I-LC, B-CV, B-PS
-21	##이	O	O	O, B-PS, B-OG, B-LC, B-CV
-22	되	O	O	O, B-PS, B-LC, B-CV, B-QT
-23	##지	O	O	O, B-PS, B-LC, B-OG, I-OG
-24	않	O	O	O, B-LC, B-PS, B-OG, B-CV
-25	##겠	O	O	O, B-PS, B-LC, B-CV, I-OG
-26	##느	O	O	O, B-PS, I-OG, B-LC, I-LC
-27	##냐	O	O	O, I-OG, I-PS, B-PS, I-LC
-28	”	O	O	O, B-CV, I-OG, B-LC, B-PS
-29	며	O	O	O, B-OG, B-LC, B-PS, B-CV
-30	“	O	O	O, B-LC, B-CV, B-OG, B-PS
-31	정의당	B-OG	B-OG	B-OG, O, B-PS, I-OG, B-AF
-32	등	O	O	O, I-OG, I-EV, B-CV, I-DT
-33	##도	O	O	O, B-LC, B-PS, B-OG, B-CV
-34	광주	B-LC	B-LC	B-LC, B-EV, O, B-OG, B-AF
-35	선거	O	O	O, I-EV, I-LC, B-EV, I-AF
-36	##에	O	O	O, I-EV, B-LC, B-CV, B-PS
-37	공동	O	O	O, B-LC, B-CV, B-OG, B-TM
-38	##대	O	O	O, B-LC, B-CV, B-PS, B-TM
-39	##응	O	O	O, B-LC, B-CV, B-OG, B-TM
-40	##하	O	O	O, B-LC, B-PS, B-OG, B-CV
-41	##는	O	O	O, B-LC, B-OG, B-CV, B-PS
-42	방안	O	O	O, B-LC, B-CV, B-EV, B-PS
-43	##에	O	O	O, B-LC, B-OG, B-CV, B-PS
-44	긍정	O	O	O, B-LC, B-CV, B-PS, B-OG
-45	##적인	O	O	O, B-LC, B-PS, B-TM, I-LC
-46	것	O	O	O, B-LC, B-PS, B-CV, B-OG
-47	##으로	O	O	O, B-CV, B-PS, B-LC, I-OG
-48	안다	O	O	O, B-CV, B-LC, B-PS, B-TM
-49	”	O	O	O, B-CV, B-TM, B-LC, B-PS
-50	고	O	O	O, B-CV, B-LC, B-TM, B-QT
-51	말	O	O	O, B-CV, B-TM, B-QT, B-LC
-52	##했	O	O	O, B-CV, B-PS, B-LC, I-EV
-53	##다	O	O	O, B-CV, B-LC, B-TM, B-PS
-54	.	O	O	O, B-LC, B-PS, B-OG, B-CV
-55	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	평창	B-LC	B-LC
+2	썰매	B-CV	B-CV
+3	종목	O	I-CV
+4	경기장	O	O
+5	##의	O	O
+6	조기	O	O
+7	완공	O	O
+8	##이	O	O
+9	시급	O	O
+10	##한	O	O
+11	이유	O	O
+12	##이	O	O
+13	##기	O	O
+14	##도	O	O
+15	하	O	O
+16	##다	O	O
+17	.	O	O
+18	[SEP]	O	O

@@ -1,31 +1,64 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	반면	O	O	O, B-CV, B-TM, B-OG, B-AF
-2	오리온	B-OG	B-OG	B-OG, B-AF, B-PS, O, B-LC
-3	웨	B-AF	I-AF	I-AF, B-AF, I-OG, B-CV, I-CV
-4	##하	I-AF	I-AF	I-AF, I-OG, I-CV, I-PS, O
-5	##스	I-AF	I-AF	I-AF, I-CV, I-OG, I-PS, O
-6	(	O	O	O, I-AF, I-OG, I-CV, B-CV
-7	80	B-QT	B-QT	B-QT, O, B-DT, I-QT, B-LC
-8	##g	I-QT	I-QT	I-QT, O, I-LC, I-AF, I-OG
-9	119	B-QT	B-QT	B-QT, I-QT, O, B-DT, B-TM
-10	##0	I-QT	I-QT	I-QT, B-QT, O, I-LC, I-OG
-11	##원	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-OG
-12	)	O	O	O, I-QT, B-CV, I-OG, I-AF
-13	의	O	O	O, B-CV, B-OG, B-AF, B-TM
-14	100	B-QT	B-QT	B-QT, O, B-DT, I-QT, B-TM
-15	##g	I-QT	I-QT	I-QT, O, I-DT, I-LC, I-OG
-16	##당	I-QT	I-QT	I-QT, O, I-LC, I-DT, I-OG
-17	가격	O	O	O, I-QT, B-CV, B-TM, I-AF
-18	##은	O	O	O, B-CV, B-OG, B-TM, B-LC
-19	148	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-LC
-20	##8	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-21	##원	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-22	##으로	O	O	O, I-QT, B-CV, B-TM, I-OG
-23	100	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-LC
-24	##원	I-QT	I-QT	I-QT, O, I-LC, I-OG, B-QT
-25	가까이	O	O	O, I-QT, I-OG, I-AF, I-EV
-26	비싸	O	O	O, B-CV, B-TM, B-QT, B-OG
-27	##다	O	O	O, B-CV, B-TM, B-OG, I-QT
-28	.	O	O	O, B-LC, B-CV, B-OG, B-TM
-29	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	검찰	B-OG	B-OG
+2	##은	O	O
+3	“	O	O
+4	용산	B-EV	B-EV
+5	사건	I-EV	I-EV
+6	##을	O	O
+7	빌미	O	O
+8	##로	O	O
+9	주말	O	B-DT
+10	##마	O	I-DT
+11	##다	O	I-DT
+12	도로	O	O
+13	##점	O	O
+14	##거	O	O
+15	##와	O	O
+16	투	O	B-CV
+17	##석	O	I-CV
+18	,	O	O
+19	경찰	B-OG	B-OG
+20	##버스	B-AF	O
+21	훼손	O	O
+22	등이	O	O
+23	일어나	O	O
+24	##고	O	O
+25	있	O	O
+26	##다	O	O
+27	”	O	O
+28	며	O	O
+29	“	O	O
+30	현장	O	O
+31	불법행위	B-CV	B-CV
+32	##자	I-CV	I-CV
+33	검거	O	O
+34	##는	O	O
+35	물론	O	O
+36	시위	O	O
+37	##를	O	O
+38	배후	O	O
+39	##에	O	O
+40	##서	O	O
+41	조종	O	O
+42	##하	O	O
+43	##는	O	O
+44	주도	O	O
+45	##세	O	O
+46	##력	O	O
+47	##을	O	O
+48	검거	O	O
+49	##해	O	O
+50	시민	B-CV	B-CV
+51	불편	O	O
+52	##을	O	O
+53	최소	O	O
+54	##화	O	O
+55	##하	O	O
+56	##겠다	O	O
+57	”	O	O
+58	고	O	O
+59	밝혔	O	O
+60	##다	O	O
+61	.	O	O
+62	[SEP]	O	O

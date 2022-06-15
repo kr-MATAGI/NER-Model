@@ -1,37 +1,15 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	12	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-TI
-2	##m	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-3	##m	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-4	두께	O	O	O, I-QT, B-TM, B-CV, I-TM
-5	##의	O	O	O, I-QT, B-PS, B-CV, B-TM
-6	패널	O	O	O, B-AF, B-TM, B-CV, B-LC
-7	##을	O	O	O, B-CV, B-TM, B-LC, I-AF
-8	가로	O	O	O, B-TM, B-QT, B-TR, B-CV
-9	세로	O	O	O, B-TM, I-TM, B-QT, I-QT
-10	1	B-QT	B-QT	B-QT, I-QT, O, I-TM, B-DT
-11	##m	I-QT	I-QT	I-QT, O, I-TM, B-QT, I-LC
-12	이하	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-TM
-13	##의	O	O	O, I-QT, B-TM, B-PS, I-LC
-14	크기	O	O	O, B-TM, B-CV, B-LC, I-QT
-15	##로	O	O	O, B-PS, B-LC, B-OG, B-TM
-16	잘라	O	O	O, B-TM, B-LC, B-CV, B-OG
-17	벽면	O	O	O, B-TM, B-CV, B-LC, B-AF
-18	##에	O	O	O, B-CV, B-LC, B-OG, B-TM
-19	붙였	O	O	O, B-CV, B-LC, B-OG, B-TM
-20	##는데	O	O	O, B-CV, B-LC, B-OG, B-TM
-21	,	O	O	O, B-CV, B-LC, B-OG, B-TM
-22	이런	O	O	O, B-CV, B-LC, B-TM, B-OG
-23	공법	O	O	O, B-CV, B-TR, B-TM, B-LC
-24	##은	O	O	O, B-LC, B-CV, B-PS, B-OG
-25	철근	B-MT	B-MT	B-MT, O, B-TR, B-TM, B-AF
-26	##콘	B-MT	I-MT	I-MT, B-MT, O, I-TM, I-AF
-27	##크리트	I-MT	I-MT	I-MT, O, B-MT, I-TM, I-AF
-28	구조	B-PS	O	O, I-TM, I-MT, I-AF, B-TM
-29	##의	O	O	O, I-AF, I-TM, I-OG, B-AF
-30	건물	O	O	O, B-AF, I-AF, B-CV, B-TM
-31	##에	O	O	O, B-CV, I-AF, B-LC, B-TM
-32	주로	O	O	O, B-LC, B-CV, B-TM, B-OG
-33	쓰인다	O	O	O, B-CV, B-LC, B-TM, B-OG
-34	.	O	O	O, B-LC, B-CV, B-TM, B-AF
-35	[SEP]	O	O	O, B-CV, B-LC, B-TM, B-AF
+	text	label	preds
+0	[CLS]	O	O
+1	이혼	O	O
+2	##하	O	O
+3	##고	O	O
+4	바	B-PS	B-AM
+5	##질	I-PS	I-AM
+6	남매	B-CV	B-CV
+7	##를	O	O
+8	홀로	O	O
+9	키워	O	O
+10	왔	O	O
+11	##다	O	O
+12	.	O	O
+13	[SEP]	O	O

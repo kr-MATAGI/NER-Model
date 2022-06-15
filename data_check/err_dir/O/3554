@@ -1,18 +1,25 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-AF
-1	사당	O	B-LC	B-LC, O, B-AF, B-CV, B-OG
-2	있	O	O	O, I-AF, I-LC, I-OG, B-CV
-3	##고	O	O	O, I-AF, B-LC, B-TM, I-OG
-4	동서	B-TM	B-TM	B-TM, O, B-CV, B-LC, B-OG
-5	##좌	I-TM	I-TM	I-TM, O, B-TM, I-QT, I-LC
-6	##우	I-TM	I-TM	I-TM, O, B-TM, I-QT, I-OG
-7	##측	I-TM	I-TM	I-TM, O, B-TM, I-QT, I-OG
-8	##에	O	O	O, I-TM, I-QT, I-OG, I-AF
-9	회	B-PT	B-PT	B-PT, O, B-AM, B-CV, I-PT
-10	##하나	I-PT	I-PT	I-PT, B-PT, I-AM, I-MT, O
-11	##무	I-PT	I-PT	I-PT, I-MT, B-PT, I-AM, O
-12	한	B-QT	B-QT	B-QT, I-PT, I-QT, O, B-PT
-13	그루	I-QT	I-QT	I-QT, O, I-PT, I-LC, I-TM
-14	심	O	O	O, I-QT, I-OG, B-CV, I-AF
-15	##은	O	O	O, I-QT, B-CV, I-OG, I-AF
-16	[SEP]	O	O	O, B-LC, B-TM, B-CV, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	일본	B-LC	B-LC
+2	내각	O	B-OG
+3	##부	O	I-OG
+4	(	O	O
+5	內	O	O
+6	閣	O	O
+7	府	O	O
+8	)	O	O
+9	가	O	O
+10	이달	B-DT	B-DT
+11	초	I-DT	I-DT
+12	발표	O	O
+13	##한	O	O
+14	여론	O	O
+15	##조사	O	O
+16	결과	O	O
+17	##를	O	O
+18	알고	O	O
+19	계시	O	O
+20	##지	O	O
+21	##요	O	O
+22	?	O	O
+23	[SEP]	O	O

@@ -1,27 +1,16 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	양쪽	B-TM	O	O, B-TM, B-LC, B-QT, B-OG
-2	##에서	O	O	O, I-TM, B-PS, B-CV, I-QT
-3	각각	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-CV
-4	110	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-5	##명	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-6	선	O	O	O, I-QT, B-TM, I-LC, B-LC
-7	##으로	O	O	O, I-QT, B-PS, B-CV, B-OG
-8	거론	O	O	O, B-PS, B-OG, B-CV, B-TM
-9	##되	O	O	O, B-PS, B-LC, B-CV, B-OG
-10	##던	O	O	O, B-PS, B-LC, B-OG, B-CV
-11	창당	O	O	O, B-EV, B-CV, B-OG, B-AF
-12	발기인	B-CV	B-CV	B-CV, O, I-CV, I-EV, I-OG
-13	##도	O	O	O, I-CV, I-OG, I-EV, I-QT
-14	각각	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-CV
-15	300	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-16	##명	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-17	##씩	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-18	##으로	O	O	O, I-QT, B-CV, B-PS, B-OG
-19	늘리	O	O	O, B-CV, B-LC, B-OG, B-TM
-20	##기	O	O	O, B-PS, B-LC, B-OG, B-CV
-21	##로	O	O	O, B-CV, B-PS, B-OG, B-LC
-22	했	O	O	O, B-CV, B-OG, B-LC, B-PS
-23	##다	O	O	O, B-CV, I-OG, I-EV, B-OG
-24	.	O	O	O, B-LC, B-PS, B-CV, B-OG
-25	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	자동	O	O
+2	스트라이크	B-TM	O
+3	制	O	O
+4	논란	O	O
+5	일어	O	O
+6	…	O	O
+7	오늘	B-DT	B-DT
+8	시범	O	O
+9	##경기	O	O
+10	##부터	O	O
+11	적용	O	O
+12	##키	O	O
+13	##로	O	O
+14	[SEP]	O	O

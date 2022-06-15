@@ -1,32 +1,42 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	“	O	O	O, B-CV, B-LC, B-PS, B-OG
-2	김대중	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-3	전	O	O	O, I-PS, I-OG, B-CV, I-EV
-4	대통령	B-CV	B-CV	B-CV, O, B-TM, B-AF, B-OG
-5	,	O	O	O, I-CV, I-EV, B-CV, I-OG
-6	힐러리	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-7	클린턴	I-PS	I-PS	I-PS, B-PS, O, I-OG, I-LC
-8	미국	B-LC	B-LC	B-LC, O, B-OG, I-PS, I-LC
-9	대선	B-EV	B-EV	B-EV, O, B-CV, I-EV, B-AF
-10	후보	B-CV	B-CV	B-CV, O, I-EV, I-CV, B-EV
-11	##도	O	O	O, I-CV, I-EV, I-AF, B-CV
-12	건강	B-TR	O	O, B-TM, B-CV, B-LC, B-TR
-13	이상	I-TR	O	O, I-TM, I-CV, I-TR, I-EV
-14	##설	I-TR	O	O, I-TM, I-CV, I-TR, I-EV
-15	##을	O	O	O, B-CV, I-CV, B-PS, I-EV
-16	해명	O	O	O, B-CV, B-LC, B-TM, B-PS
-17	##하기	O	O	O, B-PS, B-CV, B-LC, B-OG
-18	위해	O	O	O, B-LC, B-TM, B-CV, B-PS
-19	건강	O	O	O, B-TM, B-TR, B-CV, B-LC
-20	##검	O	O	O, I-TM, I-TR, I-LC, I-CV
-21	##진	O	O	O, I-TM, I-TR, I-LC, I-CV
-22	##을	O	O	O, B-CV, I-OG, B-LC, B-OG
-23	받	O	O	O, B-CV, B-LC, B-OG, B-TM
-24	##은	O	O	O, B-CV, B-LC, B-PS, B-OG
-25	바	O	O	O, B-CV, B-LC, B-PS, B-OG
-26	있	O	O	O, B-CV, B-PS, B-LC, B-OG
-27	##다	O	O	O, B-CV, B-LC, I-OG, B-OG
-28	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-29	”	O	O	O, B-CV, B-LC, B-OG, B-TM
-30	[SEP]	O	O	O, B-LC, B-CV, B-PS, I-EV
+	text	label	preds
+0	[CLS]	O	O
+1	독일	B-LC	B-LC
+2	상공	O	B-OG
+3	##회의	O	I-OG
+4	##소	O	I-OG
+5	##에	O	O
+6	##서	O	O
+7	브리지	B-PS	B-PS
+8	##트	I-PS	I-PS
+9	셸	I-PS	I-PS
+10	##레	I-PS	I-PS
+11	직업	B-CV	B-CV
+12	##교육	I-CV	I-CV
+13	##국장	I-CV	I-CV
+14	##을	O	O
+15	만난	O	O
+16	건	O	O
+17	한국	B-LC	B-LC
+18	##에	O	O
+19	##서	O	O
+20	노동	O	O
+21	##개혁	O	O
+22	##의	O	O
+23	모델	O	O
+24	##로	O	O
+25	하르	B-TR	B-PS
+26	##츠	I-TR	I-PS
+27	개혁	I-TR	O
+28	열풍	O	O
+29	##이	O	O
+30	불	O	O
+31	##던	O	O
+32	2015	B-DT	B-DT
+33	##년	I-DT	I-DT
+34	10	I-DT	I-DT
+35	##월	I-DT	I-DT
+36	##이	O	O
+37	##었	O	O
+38	##다	O	O
+39	.	O	O
+40	[SEP]	O	O

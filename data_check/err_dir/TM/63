@@ -1,15 +1,18 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	저	O	O	O, B-CV, B-TM, B-OG, B-PS
-2	##는	O	O	O, B-CV, B-TM, B-PS, B-LC
-3	약간	O	O	O, B-TM, B-CV, B-LC, B-QT
-4	우울	B-TM	O	O, B-TM, B-CV, I-TM, B-TR
-5	##감	I-TM	O	O, I-TM, I-TR, I-CV, I-AF
-6	##을	O	O	O, I-TM, I-CV, I-AF, B-CV
-7	느끼	O	O	O, B-CV, B-TM, B-OG, B-PS
-8	##는	O	O	O, B-CV, B-PS, I-CV, I-AF
-9	거	O	O	O, B-CV, B-PS, B-OG, I-CV
-10	같	O	O	O, B-CV, B-TM, I-CV, B-PS
-11	##아	O	O	O, B-CV, I-CV, I-AF, I-OG
-12	##요	O	O	O, B-CV, I-CV, I-AF, I-OG
-13	[SEP]	O	O	O, B-CV, B-TM, B-LC, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	KIA	B-OG	B-OG
+2	14	B-QT	B-QT
+3	##안	I-QT	I-QT
+4	##타	I-QT	I-QT
+5	폭발	O	O
+6	…	O	O
+7	이틀	B-DT	B-DT
+8	##연	O	O
+9	##속	O	O
+10	무	B-TM	O
+11	##득점	I-TM	O
+12	‘	O	O
+13	화	O	O
+14	##풀이	O	O
+15	’	O	O
+16	[SEP]	O	O

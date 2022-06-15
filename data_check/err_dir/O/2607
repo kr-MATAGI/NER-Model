@@ -1,55 +1,25 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	하	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
-2	##일	I-PS	I-PS	I-PS, O, I-OG, I-LC, B-PS
-3	##성	I-PS	I-PS	I-PS, O, I-OG, I-LC, I-QT
-4	<	O	O	O, B-OG, I-PS, I-OG, B-LC
-5	한국	B-OG	B-OG	B-OG, B-AF, O, I-OG, B-LC
-6	##방송	I-OG	I-OG	I-OG, I-AF, O, I-LC, I-PS
-7	>	O	O	O, I-OG, I-AF, B-CV, I-EV
-8	(	O	O	O, B-CV, B-OG, B-LC, I-OG
-9	KBS	O	B-OG	B-OG, B-AF, O, I-OG, B-PS
-10	)	O	O	O, I-OG, I-AF, I-CV, B-CV
-11	해설	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-TM
-12	##위원	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-EV
-13	##은	O	O	O, I-CV, I-OG, B-CV, I-EV
-14	“	O	O	O, B-PS, B-OG, B-CV, B-LC
-15	심정	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-EV
-16	##수	I-PS	I-PS	I-PS, O, I-OG, I-LC, I-EV
-17	##가	O	O	O, I-PS, B-PS, I-OG, I-EV
-18	10	B-DT	B-DT	B-DT, O, I-DT, B-PS, B-EV
-19	##년	I-DT	I-DT	I-DT, O, I-PS, B-DT, I-QT
-20	전	I-DT	I-DT	I-DT, O, I-PS, I-QT, B-DT
-21	60	B-QT	B-QT	B-QT, I-QT, O, I-DT, B-DT
-22	##억	I-QT	I-QT	I-QT, O, I-PS, I-DT, I-LC
-23	##을	O	O	O, I-QT, B-CV, I-OG, I-AF
-24	받	O	O	O, B-CV, B-OG, B-PS, B-TM
-25	##을	O	O	O, B-PS, B-CV, B-OG, B-LC
-26	때	O	O	O, B-PS, I-OG, I-AF, B-QT
-27	##와	O	O	O, B-PS, B-OG, B-LC, B-CV
-28	물가	O	O	O, B-CV, B-TM, B-LC, B-PS
-29	상승	O	O	O, B-CV, B-OG, B-PS, B-LC
-30	##률	O	O	O, B-LC, B-PS, I-OG, B-OG
-31	##을	O	O	O, B-CV, B-PS, B-OG, B-LC
-32	감안	O	O	O, B-CV, B-OG, B-PS, B-LC
-33	##하면	O	O	O, B-PS, B-OG, B-LC, B-CV
-34	지금	O	O	O, B-PS, B-QT, B-LC, B-OG
-35	선수	B-CV	B-CV	B-CV, O, I-CV, B-AF, B-OG
-36	##들이	O	O	O, I-CV, B-CV, I-OG, I-QT
-37	60	B-QT	B-QT	B-QT, O, I-QT, B-PS, B-DT
-38	##억	I-QT	I-QT	I-QT, O, I-PS, I-LC, I-OG
-39	이상	I-QT	I-QT	I-QT, O, I-LC, I-PS, I-OG
-40	받	O	O	O, I-QT, B-CV, B-OG, I-OG
-41	##는	O	O	O, B-CV, B-OG, I-QT, B-QT
-42	것	O	O	O, B-CV, B-OG, B-LC, B-PS
-43	##은	O	O	O, B-CV, B-OG, B-LC, B-PS
-44	문제	O	O	O, B-CV, B-OG, B-TM, B-LC
-45	##되	O	O	O, B-CV, B-OG, B-PS, B-LC
-46	##지	O	O	O, B-CV, B-OG, B-PS, B-LC
-47	않	O	O	O, B-CV, B-OG, B-PS, B-LC
-48	##을	O	O	O, B-CV, I-OG, B-OG, B-PS
-49	수	O	O	O, B-PS, I-OG, B-QT, B-CV
-50	있	O	O	O, B-CV, I-OG, I-AF, I-QT
-51	##다	O	O	O, B-CV, I-OG, B-OG, B-LC
-52	.	O	O	O, B-LC, B-OG, B-PS, B-CV
-53	[SEP]	O	O	O, B-CV, B-OG, B-LC, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	""""	O	O
+2	정동	B-PS	B-PS
+3	##기	I-PS	I-PS
+4	파문	O	O
+5	책임	O	O
+6	""""	O	O
+7	靑	B-OG	B-OG
+8	참모	O	B-CV
+9	##진	O	I-CV
+10	사퇴	O	O
+11	움직임	O	O
+12	일자	O	O
+13	…	O	O
+14	李	B-PS	B-PS
+15	대통령	B-CV	B-CV
+16	""""	O	O
+17	일	O	O
+18	##로	O	O
+19	보여	O	O
+20	##주	O	O
+21	##자	O	O
+22	""""	O	O
+23	[SEP]	O	O

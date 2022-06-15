@@ -1,24 +1,50 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	제	O	O	O, B-CV, B-PS, B-LC, I-CV
-2	##가	O	O	O, B-PS, B-LC, B-OG, B-CV
-3	부드러운	O	O	O, B-PS, B-LC, B-CV, I-PS
-4	사람	O	O	O, B-PS, B-AM, I-PS, B-LC
-5	##이	O	O	O, B-PS, B-LC, I-PS, B-OG
-6	될지	O	O	O, B-PS, B-LC, I-PS, B-CV
-7	##는	O	O	O, B-LC, B-PS, B-OG, B-CV
-8	안	O	B-PS	B-PS, O, I-PS, B-OG, B-LC
-9	원내대표	B-CV	B-CV	B-CV, O, I-PS, I-CV, B-EV
-10	##의	O	O	O, I-CV, I-EV, I-AF, B-CV
-11	협조	O	O	O, B-LC, B-CV, B-TM, B-OG
-12	##에	O	O	O, B-PS, B-LC, B-OG, B-CV
-13	달려	O	O	O, B-TM, B-LC, B-CV, B-PS
-14	있	O	O	O, B-PS, B-LC, B-CV, I-PS
-15	##다	O	O	O, B-CV, B-PS, B-LC, I-OG
-16	”	O	O	O, B-CV, B-LC, B-TM, B-PS
-17	고	O	O	O, B-CV, B-TM, B-LC, B-PS
-18	운	O	O	O, B-PS, B-CV, B-TM, B-AF
-19	##을	O	O	O, B-CV, B-PS, B-OG, I-AF
-20	[UNK]	O	O	O, B-CV, B-PS, B-LC, B-OG
-21	.	O	O	O, B-PS, B-LC, B-CV, B-OG
-22	[SEP]	O	O	O, B-CV, B-PS, B-LC, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	여야	O	O
+2	정책	B-CV	B-CV
+3	##위	I-CV	I-CV
+4	##의	I-CV	I-CV
+5	##장	I-CV	I-CV
+6	##은	O	O
+7	회동	O	O
+8	##에	O	O
+9	##서	O	O
+10	진상	O	B-OG
+11	##조사	O	I-OG
+12	##위	O	I-OG
+13	##의	O	O
+14	조사	O	O
+15	대상	O	O
+16	##에	O	O
+17	대한	O	O
+18	동행	O	B-CV
+19	##명령	O	I-CV
+20	##권	O	I-CV
+21	부여	O	O
+22	여부	O	O
+23	및	O	O
+24	처벌	O	O
+25	규정	O	O
+26	강화	O	O
+27	,	O	O
+28	자료	O	B-CV
+29	##제	O	I-CV
+30	##출	O	I-CV
+31	##권	O	I-CV
+32	##의	O	O
+33	실효성	O	O
+34	확보	O	O
+35	##를	O	O
+36	위한	O	O
+37	방안	O	O
+38	등	O	O
+39	##에	O	O
+40	대해	O	O
+41	논의	O	O
+42	##한	O	O
+43	것	O	O
+44	##으로	O	O
+45	알려졌	O	O
+46	##다	O	O
+47	.	O	O
+48	[SEP]	O	O

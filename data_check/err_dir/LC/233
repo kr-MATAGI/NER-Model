@@ -1,68 +1,26 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-EV, I-OG, I-CV
-1	이	O	O	O, B-PS, B-OG, B-CV, B-TM
-2	##에	O	O	O, B-PS, B-CV, B-OG, B-LC
-3	반	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
-4	총장	B-CV	B-CV	B-CV, O, I-PS, I-CV, B-OG
-5	##은	O	O	O, I-CV, I-EV, B-CV, I-OG
-6	""""	O	O	O, B-LC, B-CV, B-OG, B-PS
-7	유엔	B-OG	B-OG	B-OG, O, B-PS, B-LC, I-OG
-8	##도	O	O	O, I-OG, I-EV, I-DT, B-CV
-9	DMZ	B-LC	B-LC	B-LC, O, B-AF, B-OG, B-TM
-10	세계	I-LC	I-LC	I-LC, B-LC, O, B-PS, I-AF
-11	##생	I-LC	I-LC	I-LC, O, B-LC, I-AF, I-PS
-12	##태평	I-LC	I-LC	I-LC, O, B-LC, I-AF, I-PS
-13	##화	I-LC	I-LC	I-LC, O, B-LC, I-AF, I-PS
-14	##공원	I-LC	I-LC	I-LC, O, B-LC, I-AF, I-PS
-15	실현	O	O	O, I-LC, I-AF, B-LC, I-QT
-16	##을	O	O	O, B-PS, B-LC, I-LC, B-OG
-17	위해	O	O	O, B-LC, B-PS, B-OG, B-TM
-18	계속	O	O	O, B-LC, B-CV, B-TM, B-PS
-19	지원	O	O	O, B-LC, B-OG, B-TM, B-CV
-20	##해	O	O	O, B-LC, B-PS, B-OG, B-CV
-21	나가	O	O	O, B-LC, B-CV, B-PS, B-OG
-22	##겠다	O	O	O, B-CV, B-PS, B-LC, I-OG
-23	""""	O	O	O, B-CV, B-LC, B-PS, B-OG
-24	며	O	O	O, B-CV, B-OG, B-LC, B-PS
-25	""""	O	O	O, B-CV, B-LC, B-PS, B-OG
-26	유엔	B-OG	B-OG	B-OG, O, B-LC, B-PS, I-OG
-27	##은	O	O	O, I-OG, I-EV, B-CV, B-OG
-28	북한	B-LC	B-OG	B-OG, B-LC, O, B-PS, B-AF
-29	##에	O	O	O, I-OG, I-LC, I-PS, I-EV
-30	'	O	O	O, B-LC, B-CV, I-OG, B-PS
-31	열린	O	O	O, B-PS, B-TM, B-TR, B-OG
-32	마음	O	O	O, I-PS, I-TM, I-TR, B-PS
-33	##으로	O	O	O, B-PS, I-PS, B-LC, B-CV
-34	국제	O	O	O, B-LC, B-OG, B-CV, B-PS
-35	##사회	O	O	O, I-OG, I-LC, B-LC, I-EV
-36	##와	O	O	O, B-LC, B-PS, I-OG, B-CV
-37	협력	O	O	O, B-LC, B-TM, B-CV, B-OG
-38	##하고	O	O	O, B-PS, B-LC, B-CV, B-OG
-39	주민	B-CV	B-CV	B-CV, O, B-TM, B-OG, B-EV
-40	생활	O	O	O, I-CV, I-EV, I-OG, I-AF
-41	##을	O	O	O, B-CV, B-PS, B-LC, B-OG
-42	개선	O	O	O, B-CV, B-LC, B-TM, B-PS
-43	##하기	O	O	O, B-LC, B-PS, B-CV, B-TM
-44	위한	O	O	O, B-LC, B-PS, B-CV, B-TM
-45	노력	O	O	O, B-CV, B-LC, B-PS, B-OG
-46	##에	O	O	O, B-CV, B-LC, B-PS, B-OG
-47	집중	O	O	O, B-CV, B-LC, B-PS, B-OG
-48	##해야	O	O	O, B-PS, B-LC, B-CV, B-OG
-49	한다	O	O	O, B-PS, B-CV, B-LC, B-OG
-50	'	O	O	O, B-CV, B-PS, B-LC, B-OG
-51	는	O	O	O, B-CV, B-PS, B-OG, B-LC
-52	메시지	O	O	O, B-CV, B-PS, B-TM, B-LC
-53	##를	O	O	O, B-CV, B-PS, B-LC, B-OG
-54	지속	O	O	O, B-CV, B-LC, B-TM, B-PS
-55	##적으로	O	O	O, B-LC, B-PS, B-CV, B-OG
-56	전달	O	O	O, B-CV, B-LC, B-PS, B-OG
-57	##해	O	O	O, B-LC, B-PS, B-CV, B-OG
-58	나갈	O	O	O, B-CV, B-LC, B-PS, B-OG
-59	예정	O	O	O, B-CV, B-PS, B-TM, B-QT
-60	""""	O	O	O, B-CV, B-PS, B-LC, B-TM
-61	이라	O	O	O, B-CV, B-PS, B-OG, B-LC
-62	##고	O	O	O, B-CV, I-OG, B-PS, B-QT
-63	했	O	O	O, B-CV, B-OG, B-PS, B-TM
-64	##다	O	O	O, B-CV, B-TM, B-OG, I-EV
-65	.	O	O	O, B-LC, B-PS, B-CV, B-OG
-66	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	아랍에미리트	B-LC	B-TM
+2	(	O	I-TM
+3	UAE	B-LC	I-TM
+4	)	O	I-TM
+5	원자력	B-TM	I-TM
+6	##발전	I-TM	I-TM
+7	##사업	I-TM	I-TM
+8	프로젝트	I-TM	I-TM
+9	##에	O	O
+10	한전	B-OG	B-OG
+11	컨소시엄	O	O
+12	##이	O	O
+13	최종	B-CV	O
+14	##사업	I-CV	O
+15	##자	I-CV	O
+16	##로	O	O
+17	선정	O	O
+18	##됐	O	O
+19	##다는	O	O
+20	전화	O	O
+21	##였	O	O
+22	##다	O	O
+23	.	O	O
+24	[SEP]	O	O

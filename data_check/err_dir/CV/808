@@ -1,14 +1,14 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	무	B-CV	O	O, B-PT, B-MT, B-CV, B-LC
-2	##에서	O	O	O, I-CV, I-AF, I-OG, I-LC
-3	[UNK]	O	O	O, B-CV, B-LC, B-PS, I-CV
-4	이러	O	O	O, B-CV, B-OG, B-TM, B-PS
-5	##한	O	O	O, B-PS, B-CV, I-CV, B-LC
-6	뜻	O	O	O, B-CV, I-CV, B-TM, I-OG
-7	##을	O	O	O, B-CV, B-PS, B-OG, I-CV
-8	표현	O	O	O, B-CV, I-CV, I-OG, B-LC
-9	##하기	O	O	O, B-CV, I-CV, B-OG, B-PS
-10	때문	O	O	O, B-CV, B-OG, B-LC, B-PS
-11	##에	O	O	O, B-CV, I-OG, B-OG, I-AF
-12	[SEP]	O	O	O, B-CV, B-LC, I-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	그럼	O	O
+2	기름	B-CV	O
+3	##지	O	O
+4	##고	O	O
+5	또	O	O
+6	막	O	O
+7	그렇	O	O
+8	##그	O	O
+9	##든	O	O
+10	##요	O	O
+11	.	O	O
+12	[SEP]	O	O

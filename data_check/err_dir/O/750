@@ -1,70 +1,13 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	중소기업	O	O	O, B-CV, B-OG, B-TM, B-FD
-2	영업	O	O	O, B-CV, B-TM, B-FD, B-QT
-3	##이	O	O	O, I-CV, B-PS, I-TR, B-CV
-4	##익	O	O	O, I-CV, I-QT, I-TR, B-QT
-5	##률	O	O	O, B-LC, B-QT, B-PS, B-TM
-6	##이	O	O	O, B-PS, B-OG, B-LC, B-CV
-7	3	B-QT	B-QT	B-QT, O, I-QT, B-PS, B-LC
-8	##∼	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-9	##5	I-QT	I-QT	I-QT, B-QT, O, I-LC, I-PS
-10	%	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-11	,	O	O	O, I-QT, B-CV, B-OG, I-OG
-12	제조	O	O	O, B-CV, B-MT, B-TM, B-QT
-13	##원	O	O	O, I-CV, B-CV, B-MT, B-QT
-14	##가	O	O	O, I-CV, B-CV, I-MT, B-MT
-15	중	O	O	O, B-LC, B-TM, B-QT, B-PS
-16	인건비	O	O	O, B-CV, B-MT, I-CV, B-TM
-17	비중	O	O	O, B-PS, B-CV, B-TM, I-CV
-18	##이	O	O	O, B-PS, B-OG, B-LC, B-CV
-19	10	B-QT	B-QT	B-QT, O, I-QT, B-PS, B-DT
-20	##∼	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-21	##15	I-QT	I-QT	I-QT, B-QT, O, I-LC, I-PS
-22	%	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-23	인	O	O	O, I-QT, B-PS, B-OG, B-CV
-24	점	O	O	O, B-CV, I-QT, B-OG, B-TM
-25	##을	O	O	O, B-CV, B-PS, I-CV, B-OG
-26	감안	O	O	O, B-CV, B-PS, B-OG, B-LC
-27	##하면	O	O	O, B-PS, B-OG, B-LC, B-CV
-28	이	O	O	O, B-PS, B-OG, B-CV, B-LC
-29	##들	O	O	O, I-OG, B-CV, B-PS, I-QT
-30	##에	O	O	O, B-LC, B-OG, B-PS, B-CV
-31	##게	O	O	O, B-LC, B-PS, B-OG, B-QT
-32	급격	O	O	O, B-LC, B-PS, B-OG, B-QT
-33	##한	O	O	O, B-LC, B-OG, B-PS, B-QT
-34	최저임금	O	B-CV	B-CV, O, B-OG, I-CV, B-AF
-35	인상	O	O	O, I-CV, B-CV, I-QT, I-OG
-36	(	O	O	O, B-CV, B-OG, B-LC, I-CV
-37	16	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-LC
-38	.	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-39	4	I-QT	I-QT	I-QT, B-QT, O, I-LC, I-PS
-40	%	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-41	)	O	O	O, I-QT, B-CV, I-OG, I-EV
-42	과	O	O	O, B-CV, B-OG, B-PS, B-LC
-43	근로	O	O	O, B-TI, B-CV, B-LC, B-TM
-44	##시간	O	O	O, B-TI, I-TI, I-TR, B-CV
-45	단축	O	O	O, I-TI, B-TI, B-CV, B-LC
-46	(	O	O	O, B-CV, B-LC, B-OG, I-CV
-47	주당	O	O	O, B-DT, B-TI, B-QT, B-CV
-48	최대	O	O	O, B-TI, B-DT, I-DT, B-QT
-49	68	B-TI	B-TI	B-TI, I-TI, B-QT, O, B-EV
-50	##시간	I-TI	I-TI	I-TI, I-QT, B-TI, O, I-TR
-51	##→	O	O	O, I-TI, I-QT, B-TI, I-DT
-52	##52	B-TI	B-TI	B-TI, I-TI, B-QT, O, B-EV
-53	##시간	I-TI	I-TI	I-TI, I-QT, O, B-TI, I-TR
-54	)	O	O	O, I-TI, I-QT, I-EV, I-AF
-55	이	O	O	O, B-PS, B-OG, B-LC, B-CV
-56	가져올	O	O	O, B-PS, B-LC, B-QT, B-CV
-57	충격	O	O	O, B-PS, B-TM, B-CV, B-LC
-58	##을	O	O	O, B-CV, B-OG, B-PS, I-OG
-59	어렵	O	O	O, B-CV, B-OG, B-TM, B-QT
-60	##잖	O	O	O, I-QT, B-PS, I-OG, B-LC
-61	##게	O	O	O, B-OG, B-LC, B-PS, B-CV
-62	짐작	O	O	O, B-CV, B-TM, B-OG, B-QT
-63	##할	O	O	O, B-PS, B-CV, B-OG, B-LC
-64	수	O	O	O, B-CV, B-PS, B-OG, B-QT
-65	있	O	O	O, B-CV, B-OG, B-PS, I-OG
-66	##다	O	O	O, B-CV, B-LC, B-OG, B-TM
-67	.	O	O	O, B-LC, B-PS, B-CV, B-OG
-68	[SEP]	O	O	O, B-LC, B-CV, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	“	O	O
+2	북	O	B-LC
+3	핵	O	O
+4	##무장	O	O
+5	용인	O	O
+6	##하	O	O
+7	##지	O	O
+8	않	O	O
+9	##을	O	O
+10	것	O	O
+11	[SEP]	O	O

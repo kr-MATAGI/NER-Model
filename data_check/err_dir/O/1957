@@ -1,25 +1,32 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	그	O	O	O, B-CV, B-TM, B-EV, B-LC
-2	학생	B-CV	B-TM	B-TM, B-CV, B-EV, O, B-TR
-3	##언	O	I-TM	I-TM, O, I-EV, I-CV, I-TR
-4	##어	O	I-TM	I-TM, O, I-CV, I-EV, I-TR
-5	##문화	O	I-TM	I-TM, O, I-CV, I-EV, I-TR
-6	##개	O	I-TM	I-TM, O, I-CV, I-EV, I-TR
-7	##선	O	I-TM	I-TM, O, I-CV, I-EV, I-TR
-8	프로그램	O	I-TM	I-TM, O, I-EV, I-CV, I-TR
-9	##이	O	O	O, I-TM, I-EV, I-CV, I-OG
-10	실시	O	O	O, B-CV, B-LC, B-OG, B-TM
-11	##되	O	O	O, B-CV, B-PS, B-LC, I-AF
-12	##고	O	O	O, B-CV, B-PS, B-LC, I-AF
-13	있	O	O	O, B-CV, B-PS, B-LC, B-OG
-14	##다고	O	O	O, B-PS, B-CV, B-LC, B-OG
-15	제	O	O	O, B-CV, B-PS, B-OG, B-LC
-16	##가	O	O	O, B-PS, B-CV, B-OG, B-LC
-17	들	O	O	O, B-CV, B-LC, B-OG, B-PS
-18	##었	O	O	O, B-CV, I-CV, I-OG, I-AF
-19	##습	O	O	O, B-CV, I-CV, B-TM, B-LC
-20	##니다	O	O	O, B-CV, B-LC, I-CV, B-PS
-21	##만	O	O	O, B-CV, B-LC, B-TM, B-PS
-22	##은	O	O	O, B-CV, B-LC, B-OG, B-PS
-23	[SEP]	O	O	O, B-CV, B-LC, B-PS, I-EV
+	text	label	preds
+0	[CLS]	O	O
+1	학생	B-CV	B-CV
+2	##이	O	O
+3	##라	O	O
+4	약간	O	O
+5	부담	O	O
+6	##스럽	O	O
+7	##긴	O	O
+8	하지	O	O
+9	##만	O	O
+10	내	O	O
+11	블루	O	B-AF
+12	버터	O	I-AF
+13	##플	O	I-AF
+14	##라이	O	I-AF
+15	##가	O	O
+16	후배	B-CV	B-CV
+17	##들	O	O
+18	##에	O	O
+19	##게	O	O
+20	##도	O	O
+21	이어졌	O	O
+22	##으면	O	O
+23	좋	O	O
+24	##겠다	O	O
+25	”	O	O
+26	고	O	O
+27	했	O	O
+28	##다	O	O
+29	.	O	O
+30	[SEP]	O	O

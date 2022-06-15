@@ -1,70 +1,52 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	지난해	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-QT
-2	4	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-3	##월	I-DT	I-DT	I-DT, O, B-DT, I-PS, I-QT
-4	전교조	B-OG	B-OG	B-OG, O, B-AF, I-OG, B-CV
-5	교사	B-CV	B-CV	B-CV, O, I-CV, I-OG, B-OG
-6	3000	B-QT	B-QT	B-QT, I-QT, O, I-CV, B-DT
-7	##명	I-QT	I-QT	I-QT, O, I-CV, I-OG, I-LC
-8	##은	O	O	O, I-QT, B-CV, I-OG, I-CV
-9	“	O	O	O, B-CV, B-LC, B-OG, B-PS
-10	국회의원	B-CV	B-CV	B-CV, O, B-OG, B-AF, B-EV
-11	##이	O	O	O, I-CV, B-PS, B-CV, B-LC
-12	##라는	O	O	O, B-PS, B-LC, B-CV, B-TM
-13	직위	O	O	O, B-CV, B-TM, B-PS, B-LC
-14	##와	O	O	O, B-PS, B-LC, B-CV, B-OG
-15	언론	O	O	O, B-CV, I-CV, B-TM, B-OG
-16	##의	O	O	O, I-CV, B-CV, I-TR, I-TM
-17	자유	O	I-CV	I-CV, O, B-CV, I-TR, I-OG
-18	##를	O	O	O, I-CV, B-PS, B-CV, B-LC
-19	남용	O	O	O, B-CV, B-PS, B-LC, B-TM
-20	##해	O	O	O, B-PS, B-LC, B-OG, B-CV
-21	교사	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-OG
-22	개인	O	O	O, I-CV, B-CV, B-TM, B-PS
-23	##의	O	O	O, B-PS, B-LC, B-CV, B-TM
-24	정보	O	O	O, B-CV, I-CV, B-TM, B-FD
-25	##인권	O	O	O, I-CV, B-CV, I-TR, I-TM
-26	##을	O	O	O, I-CV, B-CV, B-PS, I-QT
-27	침해	O	O	O, B-CV, B-LC, B-TM, B-PS
-28	##한	O	O	O, B-PS, B-LC, B-OG, B-CV
-29	책임	O	O	O, B-CV, B-LC, B-PS, B-TM
-30	##을	O	O	O, B-PS, B-LC, B-CV, B-OG
-31	묻	O	O	O, B-CV, B-PS, B-LC, B-OG
-32	##겠다	O	O	O, B-LC, B-CV, B-PS, B-OG
-33	”	O	O	O, B-CV, B-LC, B-OG, B-PS
-34	며	O	O	O, B-LC, B-PS, B-OG, B-CV
-35	전교조	B-OG	B-OG	B-OG, O, B-AF, B-PS, B-LC
-36	명단	O	O	O, I-OG, I-AF, B-CV, B-TM
-37	##을	O	O	O, B-LC, B-OG, B-CV, B-PS
-38	공개	O	O	O, B-LC, B-CV, B-OG, B-PS
-39	##한	O	O	O, B-PS, B-LC, B-OG, B-CV
-40	조	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-41	의원	B-CV	B-CV	B-CV, O, I-PS, I-CV, B-OG
-42	##과	O	O	O, I-CV, I-OG, B-CV, B-OG
-43	<	O	O	O, B-OG, B-LC, B-CV, B-PS
-44	동아일보	B-OG	B-OG	B-OG, O, B-AF, I-OG, B-LC
-45	>	O	O	O, I-OG, I-AF, I-CV, I-DT
-46	를	O	O	O, B-CV, B-OG, B-LC, I-OG
-47	상대	O	O	O, B-CV, B-LC, B-TM, B-OG
-48	##로	O	O	O, B-LC, B-PS, B-OG, B-CV
-49	1	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-LC
-50	##인	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-51	##당	I-QT	I-QT	I-QT, O, I-LC, I-PS, I-OG
-52	10	B-QT	B-QT	B-QT, I-QT, O, B-DT, B-CV
-53	##만	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-54	##원	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-55	##씩	I-QT	I-QT	I-QT, O, I-LC, I-PS, I-OG
-56	모두	O	O	O, I-QT, B-LC, B-TM, B-OG
-57	3	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-LC
-58	##억	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-59	##원	I-QT	I-QT	I-QT, O, I-LC, I-PS, I-OG
-60	##의	O	O	O, I-QT, B-PS, B-CV, B-OG
-61	손해배상	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-FD
-62	청구	O	O	O, I-CV, B-CV, I-TM, I-EV
-63	##소송	O	O	O, I-CV, B-CV, I-TM, I-EV
-64	##을	O	O	O, I-CV, B-CV, B-PS, B-OG
-65	냈	O	O	O, B-CV, B-OG, B-TM, B-LC
-66	##다	O	O	O, B-CV, B-OG, B-LC, B-TM
-67	.	O	O	O, B-LC, B-PS, B-CV, B-OG
-68	[SEP]	O	O	O, B-LC, B-CV, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	윤여	B-PS	B-PS
+2	##준	I-PS	I-PS
+3	##은	O	O
+4	자신	O	O
+5	##의	O	O
+6	책	O	O
+7	‘	O	O
+8	대통령	B-CV	B-AF
+9	##의	O	I-AF
+10	자격	O	I-AF
+11	’	O	O
+12	에서	O	O
+13	“	O	O
+14	국가	O	O
+15	##의	O	O
+16	흥	O	O
+17	##망	O	O
+18	##성	O	O
+19	##쇠	O	O
+20	##를	O	O
+21	좌우	O	O
+22	##하	O	O
+23	##는	O	O
+24	가장	O	O
+25	결정	O	O
+26	##적	O	O
+27	요인	O	O
+28	##은	O	O
+29	대통령	B-CV	B-CV
+30	##의	O	O
+31	스테이트	O	O
+32	##크	O	O
+33	##래프트	O	O
+34	,	O	O
+35	즉	O	O
+36	국가	O	O
+37	##를	O	O
+38	운영	O	O
+39	##하	O	O
+40	##는	O	O
+41	자질	O	O
+42	##과	O	O
+43	능력	O	O
+44	”	O	O
+45	이라	O	O
+46	##고	O	O
+47	했	O	O
+48	##다	O	O
+49	.	O	O
+50	[SEP]	O	O

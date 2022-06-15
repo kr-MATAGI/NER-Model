@@ -1,30 +1,18 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-EV, I-OG, B-CV, I-QT
-1	5	B-QT	O	O, B-QT, B-DT, B-EV, B-LC
-2	[UNK]	O	O	O, I-QT, I-DT, B-PS, B-EV
-3	CJ	B-EV	B-EV	B-EV, O, B-OG, B-LC, B-PS
-4	##나	I-EV	I-EV	I-EV, O, B-EV, I-OG, I-LC
-5	##인	I-EV	I-EV	I-EV, O, I-OG, I-LC, I-PS
-6	##브	I-EV	I-EV	I-EV, O, I-OG, I-LC, B-EV
-7	##릿	I-EV	I-EV	I-EV, O, I-OG, B-EV, I-LC
-8	##지	I-EV	I-EV	I-EV, O, I-OG, I-LC, B-EV
-9	##클	I-EV	I-EV	I-EV, O, I-OG, B-EV, I-LC
-10	##래	I-EV	I-EV	I-EV, O, I-OG, I-LC, B-EV
-11	##식	I-EV	I-EV	I-EV, O, I-OG, I-LC, I-AF
-12	##으로	O	O	O, I-EV, I-OG, I-AF, B-CV
-13	시작	O	O	O, B-EV, I-EV, B-QT, B-OG
-14	##된	O	O	O, B-OG, B-EV, B-LC, I-EV
-15	이	O	O	O, B-PS, B-EV, B-OG, B-QT
-16	대회	O	O	O, I-EV, B-EV, B-CV, B-PS
-17	##는	O	O	O, I-EV, B-CV, B-PS, B-OG
-18	5	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-19	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
-20	연속	O	O	O, I-DT, I-QT, B-DT, B-QT
-21	한국인	B-CV	B-CV	B-CV, O, B-EV, B-TM, B-LC
-22	챔피언	B-CV	B-CV	B-CV, I-CV, O, I-EV, B-EV
-23	##을	O	O	O, I-CV, I-EV, B-CV, I-AF
-24	배출	O	O	O, B-CV, B-OG, B-TM, B-EV
-25	##했	O	O	O, I-EV, B-CV, B-LC, B-PS
-26	##다	O	O	O, B-CV, I-EV, B-EV, I-OG
-27	.	O	O	O, I-EV, B-EV, B-PS, B-LC
-28	[SEP]	O	O	O, I-EV, B-EV, B-CV, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	15	B-QT	B-QT
+2	##만	I-QT	I-QT
+3	##→	I-QT	O
+4	##22	I-QT	B-QT
+5	##만	I-QT	I-QT
+6	##원	I-QT	I-QT
+7	…	O	O
+8	삼성	B-OG	B-OG
+9	##S	I-OG	I-OG
+10	##DS	I-OG	I-OG
+11	주가	O	O
+12	장외	O	O
+13	##거래	O	O
+14	##서	O	O
+15	급등	O	O
+16	[SEP]	O	O

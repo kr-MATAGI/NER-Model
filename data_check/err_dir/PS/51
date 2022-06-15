@@ -1,24 +1,73 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-QT
-1	'	O	O	O, B-OG, B-LC, B-PS, B-CV
-2	사사	B-PS	B-OG	B-OG, B-PS, O, B-LC, I-OG
-3	##카와	I-PS	I-OG	I-OG, I-PS, O, I-LC, I-AF
-4	'	O	O	O, I-OG, I-PS, B-OG, B-PS
-5	블레	B-PS	B-PS	B-PS, B-OG, O, I-PS, B-LC
-6	##어	I-PS	I-PS	I-PS, I-OG, O, I-LC, B-PS
-7	이사장	B-CV	B-CV	B-CV, O, I-PS, I-CV, B-OG
-8	…	O	O	O, I-CV, I-OG, I-PS, I-AF
-9	대표	O	O	O, B-CV, B-OG, B-PS, B-TM
-10	##적	O	O	O, B-PS, B-LC, B-OG, I-PS
-11	親	O	O	O, B-CV, B-OG, B-LC, B-TR
-12	日	O	O	O, B-LC, I-CV, I-LC, B-OG
-13	단체	O	O	O, I-CV, I-OG, B-CV, I-LC
-14	##지만	O	O	O, I-OG, B-PS, I-CV, B-LC
-15	지난	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-16	8	I-DT	I-DT	I-DT, O, I-PS, B-DT, I-QT
-17	##월	I-DT	I-DT	I-DT, O, I-PS, B-DT, I-OG
-18	아베	B-EV	B-PS	B-PS, B-EV, O, B-LC, B-OG
-19	##담	I-EV	O	O, B-CV, I-EV, B-EV, I-PS
-20	##화	I-EV	O	O, I-EV, I-CV, I-PS, I-TR
-21	비판	O	O	O, I-EV, I-CV, B-CV, B-PS
-22	[SEP]	O	O	O, B-OG, B-LC, B-PS, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	영화	B-OG	B-OG
+2	##진흥	I-OG	I-OG
+3	##위원회	I-OG	I-OG
+4	최인	B-PS	O
+5	##국	I-PS	O
+6	출자	O	O
+7	##사업	O	O
+8	담당	O	O
+9	##은	O	O
+10	""""	O	O
+11	지난해	B-DT	B-DT
+12	영화	B-OG	B-OG
+13	##진흥	I-OG	I-OG
+14	##위원회	I-OG	I-OG
+15	##가	O	O
+16	출자	O	O
+17	##한	O	O
+18	영화	O	O
+19	##펀	O	O
+20	##드	O	O
+21	평균	O	O
+22	수익	O	O
+23	##률	O	O
+24	##이	O	O
+25	마이너스	B-QT	B-QT
+26	10	I-QT	I-QT
+27	%	I-QT	I-QT
+28	수준	O	O
+29	##이	O	O
+30	##었	O	O
+31	##다	O	O
+32	""""	O	O
+33	며	O	O
+34	""""	O	O
+35	해운대	B-AF	B-AF
+36	·	O	O
+37	국가	B-AF	B-AF
+38	##대표	I-AF	I-AF
+39	등	O	O
+40	흥행	O	O
+41	##작	O	O
+42	##에	O	O
+43	대부분	O	O
+44	투자	O	O
+45	##했	O	O
+46	##지만	O	O
+47	인기	O	O
+48	##를	O	O
+49	끌	O	O
+50	##지	O	O
+51	못	O	O
+52	##한	O	O
+53	영화	O	O
+54	##도	O	O
+55	많	O	O
+56	##아	O	O
+57	전체	O	O
+58	##적	O	O
+59	##으로	O	O
+60	수익	O	O
+61	##이	O	O
+62	나지	O	O
+63	않	O	O
+64	##았	O	O
+65	##다	O	O
+66	""""	O	O
+67	고	O	O
+68	밝혔	O	O
+69	##다	O	O
+70	.	O	O
+71	[SEP]	O	O

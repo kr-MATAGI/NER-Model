@@ -1,51 +1,35 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	게다가	O	O	O, B-OG, B-CV, B-QT, B-LC
-2	도쿄	B-OG	B-OG	B-OG, O, B-LC, I-OG, B-AF
-3	##대	I-OG	I-OG	I-OG, O, I-LC, I-EV, I-AF
-4	##는	O	O	O, I-OG, I-EV, I-AF, B-CV
-5	와	B-OG	B-OG	B-OG, O, B-LC, B-AF, I-OG
-6	##세	I-OG	I-OG	I-OG, O, I-LC, I-AF, B-OG
-7	##다	I-OG	I-OG	I-OG, O, I-LC, I-AF, I-EV
-8	##대	I-OG	I-OG	I-OG, O, I-LC, I-AF, I-EV
-9	,	O	O	O, I-OG, I-AF, I-EV, B-CV
-10	게이	B-OG	B-OG	B-OG, O, B-AF, B-LC, I-OG
-11	##오	I-OG	I-OG	I-OG, O, I-AF, I-LC, B-OG
-12	##대	I-OG	I-OG	I-OG, O, I-LC, I-AF, I-EV
-13	,	O	O	O, I-OG, I-AF, B-CV, I-EV
-14	호세	B-OG	B-OG	B-OG, O, B-AF, B-LC, I-OG
-15	##이	I-OG	I-OG	I-OG, O, I-LC, I-AF, B-OG
-16	##대	I-OG	I-OG	I-OG, O, I-LC, I-AF, I-EV
-17	등	O	O	O, I-OG, B-CV, I-AF, I-QT
-18	야구	B-CV	B-CV	B-CV, O, B-FD, B-AF, B-EV
-19	명문	O	O	O, I-CV, I-OG, B-OG, B-CV
-20	##대	O	O	O, I-OG, I-CV, B-OG, B-CV
-21	##들	O	O	O, I-OG, B-CV, I-CV, B-LC
-22	##과	O	O	O, B-CV, B-OG, B-LC, B-TM
-23	함께	O	O	O, B-OG, B-LC, B-DT, B-QT
-24	도쿄	B-OG	B-OG	B-OG, B-LC, B-EV, I-OG, B-AF
-25	6	I-OG	I-OG	I-OG, B-OG, I-EV, O, B-QT
-26	##대	I-OG	I-OG	I-OG, I-EV, I-QT, O, I-CV
-27	##학	I-OG	I-OG	I-OG, I-EV, O, I-QT, I-CV
-28	##야구	I-OG	I-OG	I-OG, I-EV, O, I-QT, B-OG
-29	##연맹	I-OG	I-OG	I-OG, O, I-EV, I-QT, I-CV
-30	소속	O	O	O, I-OG, I-EV, I-QT, B-CV
-31	##으로	O	O	O, B-OG, B-LC, B-PS, B-CV
-32	1925	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-33	##년	I-DT	I-DT	I-DT, B-DT, O, I-QT, I-EV
-34	##부터	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
-35	매년	O	O	O, B-DT, I-DT, B-QT, B-EV
-36	봄	B-DT	I-DT	I-DT, B-DT, O, B-EV, I-QT
-37	-	O	I-DT	I-DT, O, I-EV, B-DT, B-EV
-38	가을	B-DT	I-DT	I-DT, B-DT, O, I-EV, B-EV
-39	리그	O	B-EV	B-EV, O, I-EV, B-LC, B-CV
-40	##전	O	I-EV	I-EV, O, I-DT, I-LC, I-OG
-41	##을	O	O	O, I-EV, I-OG, I-AF, I-DT
-42	통해	O	O	O, B-LC, B-OG, B-CV, B-PS
-43	전력	O	O	O, B-CV, B-OG, B-LC, B-TM
-44	##을	O	O	O, B-CV, B-OG, B-TM, I-OG
-45	다져	O	O	O, B-CV, B-LC, B-OG, B-TM
-46	##왔	O	O	O, B-CV, B-OG, B-LC, I-OG
-47	##다	O	O	O, B-CV, B-OG, B-LC, B-TM
-48	.	O	O	O, B-OG, B-LC, I-OG, B-CV
-49	[SEP]	O	O	O, B-OG, I-OG, B-LC, B-CV
+	text	label	preds
+0	[CLS]	O	O
+1	아이	O	O
+2	##의	O	O
+3	두	B-DT	B-QT
+4	돌	I-DT	I-QT
+5	때	I-DT	O
+6	##부터	I-DT	O
+7	떡	B-CV	B-CV
+8	##을	O	O
+9	보내온	O	O
+10	정	B-PS	B-PS
+11	##씨	O	O
+12	##는	O	O
+13	아이	O	O
+14	##가	O	O
+15	스무	B-QT	B-QT
+16	살	I-QT	I-QT
+17	성인	O	O
+18	##이	O	O
+19	될	O	O
+20	때	O	O
+21	##까	O	O
+22	##지	O	O
+23	계속	O	O
+24	떡	B-CV	B-CV
+25	##을	O	O
+26	보내	O	O
+27	##겠다	O	O
+28	##고	O	O
+29	약속	O	O
+30	##했	O	O
+31	##다	O	O
+32	.	O	O
+33	[SEP]	O	O

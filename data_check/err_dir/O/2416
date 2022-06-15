@@ -1,14 +1,25 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, B-CV, I-OG, I-EV
-1	이모	O	O	O, B-CV, B-PS, B-AM, B-QT
-2	(	O	O	O, I-CV, B-CV, B-PS, I-QT
-3	31	O	B-QT	B-QT, O, B-PS, I-QT, B-DT
-4	)	O	O	O, I-QT, I-CV, B-CV, B-PS
-5	씨	O	O	O, B-PS, B-CV, I-CV, I-QT
-6	##는	O	O	O, B-CV, B-PS, B-TM, I-CV
-7	외출	O	O	O, B-CV, B-PS, B-TM, B-LC
-8	##이	B-PS	O	O, B-PS, B-CV, B-LC, I-PS
-9	무섭	O	O	O, B-CV, I-PS, B-PS, I-AF
-10	##다	O	O	O, I-CV, B-CV, B-PS, I-AF
-11	.	O	O	O, B-CV, B-PS, B-LC, I-CV
-12	[SEP]	O	O	O, B-CV, B-PS, B-LC, I-CV
+	text	label	preds
+0	[CLS]	O	O
+1	미	O	B-LC
+2	민	B-PS	B-PS
+3	##용	I-PS	I-PS
+4	##태	I-PS	I-PS
+5	씨	O	O
+6	번역	O	O
+7	##이	O	O
+8	나와	O	O
+9	있	O	O
+10	##는	O	O
+11	게	O	O
+12	물론	O	O
+13	있	O	O
+14	##었	O	O
+15	##지마	O	O
+16	##는	O	O
+17	민	B-PS	B-PS
+18	##용	I-PS	I-PS
+19	##태	I-PS	I-PS
+20	##씨	O	O
+21	##가	O	O
+22	.	O	O
+23	[SEP]	O	O

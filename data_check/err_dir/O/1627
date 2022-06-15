@@ -1,12 +1,45 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-AF
-1	우리나라	O	O	O, B-LC, B-CV, B-FD, B-OG
-2	##에	O	O	O, B-LC, I-LC, B-PS, I-OG
-3	과학	B-FD	B-FD	B-FD, O, I-FD, B-TR, B-CV
-4	##과	O	O	O, I-FD, I-OG, I-AF, B-PS
-5	인류	O	O	O, B-LC, B-FD, B-OG, B-CV
-6	##에	O	O	O, I-OG, I-AF, B-PS, I-LC
-7	현대	O	B-FD	B-FD, O, B-TR, B-DT, B-AF
-8	과학	B-FD	B-FD	B-FD, I-FD, O, B-TR, I-TR
-9	##이	O	O	O, I-FD, I-OG, I-AF, B-PS
-10	[SEP]	O	O	O, B-CV, B-LC, B-OG, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	송	B-PS	B-PS
+2	##진	I-PS	I-PS
+3	##우	I-PS	I-PS
+4	##는	O	O
+5	9	B-DT	B-DT
+6	##일	I-DT	I-DT
+7	대전	B-AF	B-AF
+8	##구장	I-AF	I-AF
+9	##에	O	O
+10	##서	O	O
+11	열린	O	O
+12	프로	B-CV	B-CV
+13	##야	I-CV	I-CV
+14	##구	I-CV	I-CV
+15	두산	B-OG	B-OG
+16	##과	O	O
+17	##의	O	O
+18	안방	O	O
+19	##경기	O	O
+20	##에	O	O
+21	##서	O	O
+22	1	B-QT	B-QT
+23	-	I-QT	I-QT
+24	6	I-QT	I-QT
+25	##으로	O	O
+26	뒤진	O	O
+27	7	B-TI	B-TI
+28	##회	I-TI	I-TI
+29	##초	I-TI	I-TI
+30	마운드	B-TM	B-TM
+31	##에	O	O
+32	올라	O	O
+33	아웃	O	B-TM
+34	##카운	O	I-TM
+35	##트	O	I-TM
+36	2	B-QT	B-QT
+37	##개	I-QT	I-QT
+38	##를	O	O
+39	잡	O	O
+40	##았	O	O
+41	##다	O	O
+42	.	O	O
+43	[SEP]	O	O

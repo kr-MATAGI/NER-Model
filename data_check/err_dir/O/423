@@ -1,56 +1,43 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	제	O	B-CV	B-CV, O, I-CV, B-QT, B-OG
-2	##본	O	I-CV	I-CV, O, B-CV, I-QT, I-OG
-3	##공	O	I-CV	I-CV, O, B-CV, I-OG, I-QT
-4	##이	O	O	O, B-PS, I-CV, B-CV, I-OG
-5	책	O	O	O, B-CV, B-TM, B-AF, B-FD
-6	##을	O	O	O, B-CV, B-PS, B-AF, B-OG
-7	주문	O	O	O, B-CV, B-OG, B-AF, B-PS
-8	##한	O	O	O, B-PS, B-CV, B-OG, B-LC
-9	회사	O	O	O, B-CV, B-OG, I-OG, B-AF
-10	##에	O	O	O, B-CV, B-TM, B-PS, B-OG
-11	전화	O	O	O, B-TM, B-CV, B-LC, B-AF
-12	##를	O	O	O, B-CV, B-PS, B-OG, B-LC
-13	걸어	O	O	O, B-CV, B-LC, B-TM, B-PS
-14	용	O	O	O, B-CV, B-TM, B-LC, B-AF
-15	##건	O	O	O, B-CV, B-TM, B-LC, I-CV
-16	##을	O	O	O, B-CV, B-LC, B-PS, B-OG
-17	전하	O	O	O, B-CV, B-LC, B-TM, B-PS
-18	##려고	O	O	O, B-CV, B-TM, B-LC, B-PS
-19	하	O	O	O, B-CV, B-LC, B-TM, B-PS
-20	##는데	O	O	O, B-CV, B-LC, B-PS, B-TM
-21	‘	O	O	O, B-LC, B-CV, B-PS, B-OG
-22	나	O	O	O, B-CV, B-PS, B-LC, B-TM
-23	##는	O	O	O, B-PS, B-CV, B-LC, B-TM
-24	담당자	B-CV	B-CV	B-CV, O, I-CV, B-QT, B-OG
-25	##가	O	O	O, I-CV, B-PS, I-QT, B-CV
-26	아니	O	O	O, B-PS, B-CV, B-LC, B-TM
-27	##다	O	O	O, B-PS, B-CV, I-OG, B-LC
-28	’	O	O	O, B-CV, B-PS, B-LC, B-TM
-29	며	O	O	O, B-TM, B-LC, B-PS, B-CV
-30	계속	O	O	O, B-TM, B-CV, B-PS, B-LC
-31	다른	O	O	O, B-CV, B-TM, B-PS, B-LC
-32	사람	O	O	O, B-CV, I-CV, B-PS, I-QT
-33	##에	O	O	O, B-CV, B-TM, B-PS, I-CV
-34	##게	O	O	O, B-TM, B-CV, B-LC, B-QT
-35	전화	O	O	O, B-TM, B-CV, B-QT, B-LC
-36	##를	O	O	O, B-CV, I-TM, B-PS, B-TM
-37	돌리	O	O	O, B-TM, B-CV, B-LC, B-PS
-38	##는	O	O	O, B-TM, B-PS, B-CV, B-LC
-39	바람	O	O	O, B-TM, B-LC, B-CV, B-PS
-40	##에	O	O	O, B-CV, B-TM, B-LC, B-PS
-41	같	O	O	O, B-CV, B-TM, B-AF, B-LC
-42	##은	O	O	O, B-CV, B-PS, I-CV, B-FD
-43	말	O	O	O, B-CV, B-TM, B-AM, B-FD
-44	##을	O	O	O, B-CV, B-PS, I-CV, B-LC
-45	무한	O	O	O, B-TM, B-CV, B-LC, B-QT
-46	반복	O	O	O, B-CV, B-TM, B-LC, B-QT
-47	##한다	O	O	O, B-CV, B-LC, B-PS, B-TM
-48	##는	O	O	O, B-CV, I-AF, B-LC, B-AF
-49	에피소드	O	O	O, B-CV, B-FD, B-AF, B-LC
-50	##도	O	O	O, I-AF, I-CV, I-FD, B-CV
-51	있	O	O	O, B-FD, B-CV, B-AF, I-AF
-52	##다	O	O	O, B-CV, I-AF, B-FD, I-CV
-53	.	O	O	O, B-LC, B-CV, B-PS, B-TM
-54	[SEP]	O	O	O, B-CV, B-LC, B-TM, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	1	B-QT	B-QT
+2	##회	I-QT	I-QT
+3	##당	I-QT	I-QT
+4	참가	O	O
+5	##인	O	O
+6	##원	O	O
+7	##은	O	O
+8	최대	O	O
+9	25	B-QT	B-QT
+10	##명	I-QT	I-QT
+11	##까	O	O
+12	##지	O	O
+13	##며	O	O
+14	국	O	O
+15	##궁	O	O
+16	##에	O	O
+17	대한	O	O
+18	설명	O	O
+19	##과	O	O
+20	기본	O	O
+21	##자	O	O
+22	##세	O	O
+23	,	O	O
+24	국	O	B-EV
+25	##궁	O	I-EV
+26	##쏘	O	I-EV
+27	##기	O	I-EV
+28	(	O	O
+29	기본	O	O
+30	10	B-QT	B-QT
+31	##발	I-QT	I-QT
+32	)	O	O
+33	등의	O	O
+34	순서	O	O
+35	##로	O	O
+36	체험	O	O
+37	##이	O	O
+38	이뤄진	O	O
+39	##다	O	O
+40	.	O	O
+41	[SEP]	O	O

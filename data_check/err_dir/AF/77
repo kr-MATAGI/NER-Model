@@ -1,20 +1,9 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-EV, I-CV
-1	‘	O	O	O, B-OG, B-LC, B-CV, B-PS
-2	노르웨이	B-AF	B-AF	B-AF, B-LC, B-OG, O, B-PS
-3	##의	I-AF	I-AF	I-AF, I-LC, O, I-OG, I-PS
-4	숲	I-AF	I-AF	I-AF, I-LC, O, I-OG, I-EV
-5	’	O	O	O, I-AF, I-OG, I-EV, I-LC
-6	이	O	O	O, B-PS, B-OG, B-LC, B-AF
-7	‘	O	O	O, B-LC, B-CV, B-OG, B-PS
-8	상실	B-AF	O	O, B-AF, B-EV, B-LC, B-DT
-9	##의	I-AF	O	O, I-AF, I-EV, I-PS, I-TR
-10	시대	I-AF	O	O, I-AF, I-EV, I-PS, I-LC
-11	’	O	O	O, I-AF, I-EV, I-OG, B-CV
-12	에	O	O	O, B-LC, B-CV, B-OG, B-PS
-13	도전장	O	O	O, B-CV, B-EV, B-AF, B-LC
-14	##을	O	O	O, I-EV, B-CV, I-AF, B-OG
-15	내민	O	O	O, B-LC, B-AF, B-OG, B-CV
-16	##다	O	O	O, B-CV, I-EV, I-OG, B-OG
-17	?	O	O	O, B-OG, B-LC, B-CV, I-OG
-18	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	통일	B-AF	O
+2	##로	I-AF	O
+3	안겨	O	O
+4	오	O	O
+5	##는	O	O
+6	##게	O	O
+7	[SEP]	O	O

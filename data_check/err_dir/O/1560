@@ -1,19 +1,92 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	이	O	O	O, B-PS, B-OG, B-LC, B-AF
-2	시집	O	O	O, B-FD, B-CV, B-AF, B-EV
-3	##에	O	O	O, I-EV, I-OG, I-AF, B-PS
-4	수록	O	O	O, B-CV, B-PS, B-LC, B-OG
-5	##된	O	O	O, B-PS, B-LC, B-OG, B-CV
-6	‘	O	O	O, B-CV, B-LC, B-OG, B-PS
-7	나	B-AF	B-AF	B-AF, O, I-AF, B-PS, B-CV
-8	##룻	I-AF	I-AF	I-AF, O, B-AF, I-PS, I-CV
-9	##배	I-AF	I-AF	I-AF, O, I-CV, I-QT, I-PS
-10	##와	I-AF	I-AF	I-AF, O, I-QT, I-CV, I-PS
-11	행인	I-AF	I-AF	I-AF, O, I-QT, I-CV, I-PS
-12	’	O	O	O, I-AF, I-CV, I-EV, I-QT
-13	의	O	O	O, I-AF, B-OG, B-PS, B-LC
-14	한	O	B-QT	B-QT, O, B-PS, I-QT, B-TM
-15	대목	O	I-QT	I-QT, O, B-QT, I-LC, I-TM
-16	.	O	O	O, I-QT, B-PS, I-OG, I-CV
-17	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	6	B-DT	B-DT
+2	##일	I-DT	I-DT
+3	사단	O	O
+4	##법인	O	O
+5	부산	B-OG	B-OG
+6	##민	I-OG	I-OG
+7	##예	I-OG	I-OG
+8	##총	I-OG	I-OG
+9	##과	O	O
+10	부산	B-OG	B-OG
+11	동부	I-OG	I-OG
+12	##경찰	I-OG	I-OG
+13	##서	I-OG	I-OG
+14	##의	O	O
+15	말	O	O
+16	##을	O	O
+17	종합	O	O
+18	##하면	O	O
+19	,	O	O
+20	부산	B-OG	B-OG
+21	##민	I-OG	I-OG
+22	##예	I-OG	I-OG
+23	##총	I-OG	I-OG
+24	##은	O	O
+25	지난달	B-DT	B-DT
+26	25	I-DT	I-DT
+27	##일	I-DT	I-DT
+28	오후	B-TI	B-TI
+29	2	I-TI	I-TI
+30	##시	I-TI	I-TI
+31	##께	I-TI	I-TI
+32	부산	B-OG	B-OG
+33	동부	I-OG	I-OG
+34	##경찰	I-OG	I-OG
+35	##서	I-OG	I-OG
+36	##에	O	O
+37	“	O	O
+38	동구	B-LC	B-LC
+39	초	B-LC	B-LC
+40	##량	I-LC	I-LC
+41	##동	I-LC	I-LC
+42	일본	B-AF	B-AF
+43	##총	I-AF	I-AF
+44	##영	I-AF	I-AF
+45	##사관	I-AF	I-AF
+46	옆	O	B-TM
+47	인도	O	O
+48	위	O	O
+49	##에	O	O
+50	세워진	O	O
+51	부산	B-LC	B-LC
+52	소녀	B-AF	B-AF
+53	##상	I-AF	I-AF
+54	앞	B-TM	B-TM
+55	##에	O	O
+56	##서	O	O
+57	4	B-DT	B-DT
+58	·	I-DT	I-DT
+59	11	I-DT	I-DT
+60	·	I-DT	I-DT
+61	18	I-DT	I-DT
+62	##일	I-DT	I-DT
+63	세	B-QT	B-QT
+64	차례	I-QT	I-QT
+65	,	O	O
+66	오후	B-TI	B-TI
+67	5	I-TI	I-TI
+68	##시	I-TI	I-TI
+69	##부터	I-TI	I-TI
+70	1	B-TI	B-TI
+71	##시간	I-TI	I-TI
+72	동안	I-TI	I-TI
+73	무용	B-CV	B-CV
+74	##인	I-CV	I-CV
+75	##들이	O	O
+76	춤	O	O
+77	공연	O	O
+78	##을	O	O
+79	펼치	O	O
+80	##는	O	O
+81	집회	O	O
+82	##를	O	O
+83	한다	O	O
+84	”	O	O
+85	고	O	O
+86	신고	O	O
+87	##했	O	O
+88	##다	O	O
+89	.	O	O
+90	[SEP]	O	O

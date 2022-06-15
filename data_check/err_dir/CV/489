@@ -1,45 +1,47 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-EV, B-CV, I-OG, I-CV
-1	국민	B-OG	B-OG	B-OG, O, B-CV, I-OG, B-EV
-2	##연합	I-OG	I-OG	I-OG, O, I-CV, I-EV, I-AF
-3	##은	O	O	O, I-OG, I-EV, B-CV, I-CV
-4	또	O	O	O, B-EV, B-LC, B-DT, B-OG
-5	시리아	B-LC	B-EV	B-EV, B-LC, O, B-OG, I-EV
-6	사태	O	I-EV	I-EV, O, B-EV, I-LC, I-OG
-7	##에	O	O	O, I-EV, I-OG, B-LC, I-AF
-8	대한	O	O	O, B-LC, B-OG, B-PS, B-EV
-9	국제	O	O	O, B-LC, B-CV, B-OG, B-PS
-10	##사회	O	O	O, I-OG, I-EV, B-LC, B-CV
-11	##의	O	O	O, B-PS, B-LC, B-CV, I-EV
-12	무관	O	O	O, B-CV, B-LC, B-PS, B-TM
-13	##심	O	O	O, I-CV, I-EV, B-PS, I-LC
-14	##에	O	O	O, B-LC, B-CV, B-PS, I-EV
-15	불만	O	O	O, B-CV, B-LC, B-PS, B-TM
-16	##을	O	O	O, B-CV, I-CV, B-PS, B-LC
-17	터뜨리	O	O	O, B-CV, B-LC, B-PS, B-OG
-18	##며	O	O	O, B-LC, B-QT, B-OG, B-PS
-19	다음	B-DT	B-DT	B-DT, O, I-DT, B-LC, B-EV
-20	##달	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
-21	이탈리아	B-LC	B-LC	B-LC, O, B-OG, I-DT, I-LC
-22	로마	B-LC	B-LC	B-LC, I-LC, O, B-OG, B-AF
-23	##에서	O	O	O, I-LC, B-LC, I-EV, I-AF
-24	열리	O	O	O, B-EV, B-LC, I-EV, B-CV
-25	##는	O	O	O, B-EV, B-LC, I-EV, B-CV
-26	‘	O	O	O, B-EV, B-LC, I-EV, B-OG
-27	시리아	B-LC	B-EV	B-EV, I-EV, B-OG, B-LC, B-AF
-28	##의	O	I-EV	I-EV, I-OG, O, I-AF, I-LC
-29	친구	B-CV	I-EV	I-EV, I-OG, I-CV, O, I-AF
-30	##들	O	I-EV	I-EV, O, I-OG, I-AF, I-CV
-31	’	O	O	O, I-EV, B-EV, I-OG, I-DT
-32	회의	O	O	O, I-EV, B-EV, B-LC, B-PS
-33	##에	O	O	O, I-EV, B-CV, B-LC, I-DT
-34	참가	O	O	O, B-CV, B-LC, B-EV, B-OG
-35	##하	O	O	O, B-LC, B-CV, B-PS, B-OG
-36	##지	O	O	O, B-LC, B-CV, B-QT, B-PS
-37	않	O	O	O, B-CV, B-LC, B-QT, B-PS
-38	##겠다	O	O	O, B-CV, B-LC, B-QT, B-PS
-39	##고	O	O	O, B-CV, B-LC, I-QT, I-CV
-40	밝혔	O	O	O, B-CV, B-LC, B-OG, B-EV
-41	##다	O	O	O, B-CV, B-LC, I-EV, B-OG
-42	.	O	O	O, B-LC, B-CV, I-EV, B-PS
-43	[SEP]	O	O	O, B-LC, I-EV, B-CV, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	서울시	B-OG	B-OG
+2	##교육	I-OG	I-OG
+3	##청	I-OG	I-OG
+4	##이	O	O
+5	‘	O	O
+6	수포	B-CV	B-CV
+7	##자	I-CV	I-CV
+8	’	O	O
+9	(	O	O
+10	수학	B-CV	B-CV
+11	##포	I-CV	I-CV
+12	##기	I-CV	I-CV
+13	##자	I-CV	I-CV
+14	)	O	O
+15	없	O	O
+16	##는	O	O
+17	학교	O	O
+18	##를	O	O
+19	만들	O	O
+20	##기	O	O
+21	위해	O	O
+22	서울	B-LC	B-LC
+23	중고	O	O
+24	##교	O	O
+25	교실	O	O
+26	##에	O	O
+27	교과	O	O
+28	교사	B-CV	B-CV
+29	외	O	O
+30	##에	O	O
+31	협력	O	B-CV
+32	##강	B-CV	I-CV
+33	##사	I-CV	I-CV
+34	##를	O	O
+35	한	B-QT	B-QT
+36	명	I-QT	I-QT
+37	더	O	O
+38	두	O	O
+39	##는	O	O
+40	사업	O	O
+41	##을	O	O
+42	추진	O	O
+43	##한다	O	O
+44	.	O	O
+45	[SEP]	O	O

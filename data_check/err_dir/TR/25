@@ -1,50 +1,43 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	다른	O	O	O, B-LC, B-CV, B-PS, B-OG
-2	전문가	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-QT
-3	##는	O	O	O, I-CV, I-QT, I-EV, I-OG
-4	“	O	O	O, B-CV, B-LC, B-OG, B-TM
-5	일반	O	O	O, B-CV, B-PS, B-LC, B-FD
-6	##적으로	O	O	O, B-LC, B-PS, I-CV, B-CV
-7	서방	B-LC	B-LC	B-LC, O, B-OG, B-TM, B-CV
-8	##에서	O	O	O, I-LC, B-LC, B-CV, I-CV
-9	##는	O	O	O, B-CV, B-LC, B-PS, B-TM
-10	시장	O	O	O, B-CV, B-LC, B-FD, B-PS
-11	메커니즘	O	O	O, B-CV, B-PS, B-LC, I-CV
-12	##이	O	O	O, B-PS, B-LC, B-CV, B-OG
-13	가격	O	O	O, B-CV, B-PS, B-TM, B-FD
-14	결정	O	O	O, B-CV, B-PS, I-CV, I-AF
-15	##의	O	O	O, B-PS, B-LC, B-CV, B-OG
-16	‘	O	O	O, B-CV, B-LC, B-PS, B-OG
-17	보이	B-TR	O	O, B-TR, B-PS, B-TM, B-AM
-18	##지	I-TR	I-TR	I-TR, O, I-PS, I-TM, I-QT
-19	않	I-TR	I-TR	I-TR, O, I-PS, I-TM, I-QT
-20	##는	I-TR	I-TR	I-TR, O, I-TM, I-PS, I-AF
-21	손	I-TR	I-TR	I-TR, B-AM, O, B-TR, I-AM
-22	’	O	O	O, I-TR, I-QT, I-TM, I-AF
-23	이지만	O	O	O, B-PS, B-CV, B-LC, B-OG
-24	중국	B-LC	B-LC	B-LC, O, B-OG, B-PS, I-LC
-25	##에서	O	O	O, I-LC, I-OG, I-AF, B-LC
-26	##는	O	O	O, B-LC, B-CV, B-PS, B-OG
-27	‘	O	O	O, B-LC, B-OG, B-PS, B-CV
-28	당국	O	O	O, B-OG, B-CV, I-OG, B-LC
-29	##의	O	O	O, I-OG, B-PS, I-PS, B-LC
-30	보이	B-TR	O	O, B-TR, B-PS, B-TM, B-AM
-31	##지	I-TR	O	O, I-TR, I-PS, I-QT, I-TM
-32	않	I-TR	O	O, I-TR, I-PS, I-TM, I-QT
-33	##는	I-TR	I-TR	I-TR, O, I-PS, I-TM, I-QT
-34	손	I-TR	B-AM	B-AM, I-TR, O, B-TR, I-AM
-35	’	O	O	O, I-TR, I-QT, I-TM, I-AF
-36	이	O	O	O, B-PS, B-OG, B-LC, B-CV
-37	있	O	O	O, B-PS, B-CV, B-LC, B-OG
-38	##다는	O	O	O, B-PS, B-LC, B-CV, I-AF
-39	것	O	O	O, B-PS, B-CV, B-LC, B-OG
-40	##이	O	O	O, B-PS, B-CV, B-OG, B-LC
-41	정설	O	O	O, B-CV, B-TR, B-PS, B-FD
-42	”	O	O	O, I-CV, B-CV, I-OG, I-QT
-43	이라	O	O	O, B-CV, B-PS, I-CV, B-OG
-44	##고	O	O	O, B-CV, I-CV, B-TM, I-OG
-45	덧붙였	O	O	O, B-CV, B-TM, B-QT, B-LC
-46	##다	O	O	O, B-CV, I-CV, I-QT, I-OG
-47	.	O	O	O, B-LC, B-PS, B-CV, B-OG
-48	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-FD
+	text	label	preds
+0	[CLS]	O	O
+1	신시	B-OG	B-OG
+2	##뮤	I-OG	I-OG
+3	##지	I-OG	I-OG
+4	##컬	I-OG	I-OG
+5	##컴	I-OG	I-OG
+6	##퍼니	I-OG	I-OG
+7	##가	O	O
+8	7	B-DT	B-DT
+9	##월	I-DT	I-DT
+10	선보일	O	O
+11	‘	O	O
+12	아리랑	B-AF	B-AF
+13	’	O	O
+14	은	O	O
+15	대당	O	O
+16	18	O	O
+17	##억	O	O
+18	원에	O	O
+19	이르	O	O
+20	##는	O	O
+21	전	B-TR	O
+22	(	I-TR	O
+23	全	I-TR	O
+24	)	I-TR	O
+25	자동	I-TR	O
+26	무대	I-TR	O
+27	전환	I-TR	O
+28	시스템	I-TR	O
+29	##으로	O	O
+30	역동	O	O
+31	##적	O	O
+32	##인	O	O
+33	무대	O	O
+34	##를	O	O
+35	만들	O	O
+36	##어	O	O
+37	##낼	O	O
+38	예정	O	O
+39	##이다	O	O
+40	.	O	O
+41	[SEP]	O	O

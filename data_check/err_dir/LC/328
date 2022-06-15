@@ -1,6 +1,30 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	그니까	O	O	O, B-CV, B-OG, B-AF, B-LC
-2	삼양	B-LC	B-CV	B-CV, B-AF, B-OG, B-PS, B-LC
-3	##동	I-LC	I-CV	I-CV, I-AF, I-OG, I-PS, I-LC
-4	[SEP]	O	O	O, I-AF, I-OG, I-CV, I-EV
+	text	label	preds
+0	[CLS]	O	O
+1	이날	B-DT	B-DT
+2	벌어진	O	O
+3	벽화	O	O
+4	그리	O	O
+5	##기	O	O
+6	##는	O	O
+7	서대문구	B-LC	B-OG
+8	(	O	O
+9	구청장	B-CV	B-CV
+10	현	B-PS	B-PS
+11	##동	I-PS	I-PS
+12	##훈	I-PS	I-PS
+13	)	O	O
+14	와	O	O
+15	금호	B-OG	B-OG
+16	##건설	I-OG	I-OG
+17	##이	O	O
+18	마련	O	O
+19	##한	O	O
+20	'	O	O
+21	빛	B-TM	O
+22	그린	I-TM	O
+23	어울림	I-TM	O
+24	마을	I-TM	O
+25	'	O	O
+26	프로그램	O	O
+27	.	O	O
+28	[SEP]	O	O

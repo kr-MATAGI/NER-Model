@@ -1,26 +1,30 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-QT
-1	‘	O	O	O, B-CV, B-LC, B-OG, B-PS
-2	말	O	B-AM	B-AM, O, B-PT, B-AF, B-TM
-3	화	O	O	O, B-PT, I-AM, B-AM, I-PT
-4	(	O	O	O, I-CV, I-AF, B-CV, B-PS
-5	[UNK]	O	O	O, B-PS, B-LC, B-CV, B-AM
-6	)	O	O	O, B-CV, B-PS, B-OG, B-LC
-7	’	O	O	O, B-CV, B-PS, B-OG, B-LC
-8	에	O	O	O, B-PS, B-CV, B-OG, B-LC
-9	‘	O	O	O, B-LC, B-OG, B-CV, B-PS
-10	종이	O	O	O, B-CV, B-PT, B-AM, B-AF
-11	지	O	O	O, B-PT, I-CV, I-AF, I-PT
-12	(	O	O	O, I-CV, I-AF, I-DT, B-PS
-13	[UNK]	O	O	O, B-PS, B-CV, B-LC, B-OG
-14	)	O	O	O, B-CV, B-OG, B-LC, B-PS
-15	’	O	O	O, B-CV, B-PS, B-OG, B-LC
-16	를	O	O	O, B-PS, B-CV, B-OG, B-LC
-17	붙여	O	O	O, B-PS, B-OG, B-CV, B-LC
-18	‘	O	O	O, B-CV, B-OG, B-LC, B-PS
-19	화	B-PS	O	O, B-AF, B-PS, B-PT, B-CV
-20	##지	I-PS	O	O, I-AF, I-PS, I-PT, I-LC
-21	’	O	O	O, I-AF, I-OG, I-PS, I-CV
-22	다	O	O	O, B-LC, I-AF, B-CV, B-OG
-23	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-24	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	전체	O	O
+2	구성	O	O
+3	##이	O	O
+4	다소	O	O
+5	산만	O	O
+6	##한	O	O
+7	느낌	O	O
+8	##도	O	O
+9	있	O	O
+10	##으나	O	O
+11	과학	B-FD	B-FD
+12	##과	O	O
+13	예술	O	B-FD
+14	##처럼	O	O
+15	근본	O	O
+16	##적	O	O
+17	##으로	O	O
+18	다른	O	O
+19	것	O	O
+20	##들의	O	O
+21	소통	O	O
+22	##을	O	O
+23	시도	O	O
+24	##한	O	O
+25	책	O	O
+26	##이다	O	O
+27	.	O	O
+28	[SEP]	O	O

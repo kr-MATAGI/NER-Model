@@ -1,54 +1,33 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	일반	O	O	O, B-CV, B-FD, B-AF, B-TM
-2	##학생	O	B-CV	B-CV, O, I-CV, B-QT, I-QT
-3	##Ⅱ	O	B-QT	B-QT, O, I-QT, I-CV, B-TM
-4	,	O	O	O, I-QT, I-CV, B-CV, I-AF
-5	지역	O	O	O, B-CV, B-FD, B-LC, B-TM
-6	##인	O	O	O, I-CV, B-CV, I-AF, I-TM
-7	##재	O	O	O, I-CV, B-CV, I-QT, I-TM
-8	##Ⅱ	O	B-QT	B-QT, O, I-QT, B-TM, I-CV
-9	전형	O	O	O, I-QT, I-CV, I-TM, I-EV
-10	##은	O	O	O, B-CV, B-OG, B-PS, B-LC
-11	단계	O	O	O, B-CV, B-TM, B-OG, B-LC
-12	##별	O	O	O, B-PS, I-OG, B-LC, I-AF
-13	전형	O	O	O, B-CV, B-TM, B-LC, B-OG
-14	##으로	O	O	O, B-OG, B-CV, B-LC, B-PS
-15	,	O	O	O, B-CV, B-OG, B-LC, B-QT
-16	1	B-QT	B-QT	B-QT, O, B-EV, I-QT, B-TM
-17	##단	I-QT	I-QT	I-QT, O, I-EV, B-QT, I-LC
-18	##계	I-QT	I-QT	I-QT, O, I-EV, B-QT, I-LC
-19	##에서	O	O	O, I-QT, B-CV, I-EV, B-OG
-20	##는	O	O	O, B-CV, B-OG, B-LC, B-TM
-21	학생	O	O	O, B-CV, B-AF, B-TM, B-FD
-22	##부	O	O	O, I-CV, I-AF, I-TM, I-FD
-23	##와	O	O	O, B-CV, B-PS, I-AF, I-CV
-24	자기	O	O	O, B-CV, B-AF, B-TM, B-FD
-25	##소	O	O	O, I-CV, I-AF, B-CV, I-TM
-26	##개	O	O	O, I-CV, I-AF, B-CV, I-TM
-27	##서	O	O	O, B-CV, I-CV, I-AF, B-PS
-28	##를	O	O	O, B-CV, B-LC, B-TM, B-OG
-29	바탕	O	O	O, B-CV, B-TM, B-LC, B-OG
-30	##으로	O	O	O, B-LC, B-OG, B-CV, B-PS
-31	학생	O	O	O, B-CV, B-EV, B-OG, B-PS
-32	##부	O	O	O, I-CV, I-EV, I-OG, I-TM
-33	##종합	O	O	O, I-CV, I-TM, I-OG, I-EV
-34	(	O	O	O, B-CV, I-CV, B-PS, B-LC
-35	서류	O	O	O, B-CV, B-LC, B-EV, B-TM
-36	##평가	O	O	O, I-CV, I-TM, I-LC, I-EV
-37	)	O	O	O, B-CV, B-LC, B-OG, B-PS
-38	100	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-LC
-39	%	I-QT	I-QT	I-QT, O, I-LC, I-PS, I-DT
-40	로	O	O	O, I-QT, B-CV, I-OG, I-EV
-41	모집	O	O	O, B-CV, B-TM, B-OG, B-AF
-42	##인	O	O	O, I-CV, B-CV, I-AF, I-OG
-43	##원	O	O	O, I-CV, B-CV, B-QT, B-PS
-44	##의	O	O	O, B-LC, B-QT, B-PS, B-CV
-45	3	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-PS
-46	##배	I-QT	I-QT	I-QT, O, I-LC, I-DT, I-PS
-47	##수	I-QT	I-QT	I-QT, O, I-LC, I-CV, I-DT
-48	##를	O	O	O, I-QT, B-CV, B-OG, B-TM
-49	선발	O	O	O, B-CV, B-TM, B-LC, B-QT
-50	##한다	O	O	O, B-CV, B-LC, B-OG, B-PS
-51	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-52	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-FD
+	text	label	preds
+0	[CLS]	O	O
+1	실패	O	O
+2	사례	O	O
+3	##로	O	O
+4	##는	O	O
+5	인도네시아	B-LC	B-LC
+6	,	O	O
+7	러시아	B-LC	B-LC
+8	,	O	O
+9	호주	B-LC	B-LC
+10	,	O	O
+11	이라크	B-LC	B-LC
+12	,	O	O
+13	미국	B-LC	B-LC
+14	멕시코	B-LC	B-LC
+15	##만	O	I-LC
+16	유전	O	O
+17	##개발	O	O
+18	탐사	O	O
+19	등	O	O
+20	14	B-QT	B-QT
+21	##개	I-QT	I-QT
+22	국가	O	O
+23	##를	O	O
+24	상대	O	O
+25	##로	O	O
+26	한	O	O
+27	투자	O	O
+28	##였	O	O
+29	##다	O	O
+30	.	O	O
+31	[SEP]	O	O

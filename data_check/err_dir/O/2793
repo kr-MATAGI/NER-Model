@@ -1,32 +1,31 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-EV, I-OG, B-CV, I-CV
-1	한국	B-LC	B-LC	B-LC, B-OG, O, B-PS, B-EV
-2	여자	O	O	O, I-LC, I-OG, B-LC, I-AF
-3	골프	B-CV	B-CV	B-CV, O, I-CV, B-EV, B-PS
-4	##를	O	O	O, I-CV, I-OG, I-EV, I-AF
-5	대표	O	O	O, B-CV, B-PS, B-LC, B-OG
-6	##하	O	O	O, B-PS, B-LC, I-OG, I-PS
-7	##는	O	O	O, B-PS, B-LC, I-PS, B-CV
-8	스타	B-CV	B-CV	B-CV, O, B-EV, B-PS, I-CV
-9	##들이	O	O	O, I-CV, I-EV, I-QT, I-AF
-10	또	O	O	O, B-QT, B-LC, B-PS, B-DT
-11	한	O	B-QT	B-QT, O, I-QT, B-PS, B-EV
-12	번	O	I-QT	I-QT, O, B-QT, I-LC, I-PS
-13	미국	B-EV	B-EV	B-EV, B-LC, I-EV, B-PS, B-AF
-14	##여	I-EV	I-EV	I-EV, B-EV, O, I-QT, I-LC
-15	##자	I-EV	I-EV	I-EV, O, B-EV, I-LC, I-AF
-16	##프로	I-EV	I-EV	I-EV, O, B-EV, I-AF, I-LC
-17	##골	I-EV	I-EV	I-EV, O, I-AF, B-EV, I-LC
-18	##프	I-EV	I-EV	I-EV, O, I-AF, B-EV, I-LC
-19	(	I-EV	I-EV	I-EV, O, B-EV, I-AF, I-LC
-20	LPGA	I-EV	I-EV	I-EV, B-EV, O, I-AF, I-LC
-21	)	I-EV	I-EV	I-EV, O, I-AF, B-EV, I-LC
-22	투어	I-EV	I-EV	I-EV, O, B-EV, I-AF, I-LC
-23	리더	O	O	O, B-TM, I-EV, B-LC, B-AF
-24	##보드	O	O	O, I-TM, I-AF, I-LC, I-CV
-25	##를	O	O	O, B-CV, I-AF, B-LC, B-PS
-26	휩쓸	O	O	O, B-CV, B-LC, B-PS, B-TM
-27	##었	O	O	O, B-CV, B-LC, B-PS, I-EV
-28	##다	O	O	O, B-CV, B-LC, I-EV, B-OG
-29	.	O	O	O, B-LC, B-PS, B-CV, I-EV
-30	[SEP]	O	O	O, B-CV, B-LC, I-EV, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	패딩	B-PS	B-PS
+2	##턴	I-PS	I-PS
+3	##이	O	O
+4	살	O	O
+5	##게	O	O
+6	된	O	O
+7	브라운	B-PS	B-PS
+8	##씨	O	O
+9	##네	O	O
+10	집	O	O
+11	##은	O	O
+12	동화책	O	O
+13	속	O	O
+14	##에	O	O
+15	##서	O	O
+16	튀어나온	O	O
+17	듯	O	O
+18	알록달록	O	O
+19	##한	O	O
+20	런던	B-LC	B-LC
+21	시내	O	O
+22	윈	O	B-LC
+23	##저가	O	I-LC
+24	##든	O	I-LC
+25	##의	O	O
+26	실제	O	O
+27	주택	O	O
+28	.	O	O
+29	[SEP]	O	O

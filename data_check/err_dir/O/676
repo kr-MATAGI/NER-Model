@@ -1,43 +1,31 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	새로	O	O	O, B-CV, B-TM, B-LC, B-OG
-2	추진	O	O	O, B-CV, B-TM, B-LC, B-OG
-3	##되	O	O	O, B-CV, B-PS, B-LC, B-OG
-4	##는	O	O	O, B-CV, B-TM, B-LC, B-PS
-5	정비	O	O	O, B-TM, B-CV, B-LC, I-TM
-6	##사업	O	O	O, I-TM, B-TM, I-CV, B-LC
-7	##은	O	O	O, B-CV, B-LC, B-PS, B-OG
-8	진행	O	O	O, B-CV, B-TM, B-OG, B-LC
-9	단계	O	O	O, B-CV, B-OG, B-TM, B-LC
-10	##별	O	O	O, B-PS, B-LC, B-OG, B-TM
-11	##로	O	O	O, B-LC, B-OG, B-TM, B-PS
-12	3	B-DT	B-DT	B-DT, I-DT, O, B-QT, B-EV
-13	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-14	이상	I-DT	I-DT	I-DT, O, I-QT, B-DT, I-PS
-15	사업	O	O	O, I-DT, B-LC, B-TM, B-CV
-16	##이	O	O	O, B-PS, B-LC, B-OG, B-CV
-17	지연	O	O	O, B-LC, B-CV, B-TM, B-PS
-18	##되	O	O	O, B-LC, B-PS, B-CV, B-OG
-19	##면	O	O	O, B-LC, B-TM, B-OG, B-CV
-20	각	O	O	O, B-LC, B-TM, B-OG, B-PS
-21	단계	O	O	O, B-CV, B-LC, I-LC, I-OG
-22	##에서	O	O	O, B-LC, B-PS, B-CV, B-OG
-23	해당	O	O	O, B-LC, B-TM, B-CV, B-OG
-24	구역	O	O	O, B-LC, I-LC, B-TM, B-CV
-25	##을	O	O	O, B-CV, B-PS, B-LC, B-TM
-26	자동	O	O	O, B-TM, B-LC, B-CV, B-PS
-27	해제	O	O	O, B-CV, B-LC, I-CV, B-TM
-28	##하	O	O	O, B-PS, B-LC, B-CV, B-TM
-29	##는	O	O	O, B-CV, B-LC, B-TM, B-PS
-30	‘	O	O	O, B-CV, B-OG, B-LC, B-TM
-31	일몰	O	B-CV	B-CV, O, I-CV, B-TM, B-PT
-32	##제	O	I-CV	I-CV, O, B-CV, I-TM, I-OG
-33	’	O	O	O, I-CV, B-CV, I-OG, I-QT
-34	를	O	O	O, B-CV, B-LC, B-OG, B-TM
-35	도입	O	O	O, B-CV, B-TM, B-OG, B-LC
-36	##하기	O	O	O, B-CV, B-OG, B-PS, B-LC
-37	##로	O	O	O, B-CV, B-OG, B-TM, I-OG
-38	했	O	O	O, B-CV, B-OG, B-LC, B-TM
-39	##다	O	O	O, B-CV, B-TM, B-OG, B-LC
-40	.	O	O	O, B-LC, B-CV, B-TM, B-OG
-41	[SEP]	O	O	O, B-LC, B-CV, B-TM, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	박	B-PS	B-PS
+2	대통령	B-CV	B-CV
+3	##은	O	O
+4	앞	O	O
+5	##으로	O	O
+6	##도	O	O
+7	사회	O	O
+8	##원	O	B-CV
+9	##로	O	I-CV
+10	등	O	O
+11	각계각층	O	O
+12	##의	O	O
+13	의견	O	O
+14	##을	O	O
+15	지속	O	O
+16	##적	O	O
+17	##으로	O	O
+18	수렴	O	O
+19	##해	O	O
+20	나갈	O	O
+21	계획	O	O
+22	##이	O	O
+23	##라고	O	O
+24	청와대	B-OG	B-OG
+25	##는	O	O
+26	밝혔	O	O
+27	##다	O	O
+28	.	O	O
+29	[SEP]	O	O

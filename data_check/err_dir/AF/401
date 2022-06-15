@@ -1,28 +1,57 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-TM
-1	‘	O	B-TM	B-TM, O, B-AF, I-TM, B-LC
-2	철	B-TM	I-TM	I-TM, B-TM, B-AF, O, I-AF
-3	##매	I-TM	I-TM	I-TM, I-AF, O, I-OG, I-LC
-4	-	I-TM	I-TM	I-TM, O, I-AF, I-OG, I-QT
-5	Ⅱ	I-TM	I-TM	I-TM, O, I-AF, I-QT, I-OG
-6	’	O	I-TM	I-TM, O, I-AF, I-OG, I-QT
-7	프로젝트	O	I-TM	I-TM, O, B-TM, I-AF, I-TR
-8	##는	O	O	O, I-TM, I-AF, I-OG, I-QT
-9	도입	O	O	O, B-CV, B-TM, B-OG, B-AF
-10	##된	O	O	O, B-CV, B-OG, B-PS, B-LC
-11	지	O	O	O, B-PS, B-OG, B-CV, B-LC
-12	40	B-DT	B-DT	B-DT, I-DT, O, B-QT, B-LC
-13	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-14	##이	O	O	O, I-DT, B-PS, B-OG, B-CV
-15	지난	O	O	O, B-PS, B-OG, B-CV, B-LC
-16	호	O	B-AF	B-AF, O, B-OG, B-LC, I-AF
-17	##크	O	I-AF	I-AF, O, I-OG, I-TM, B-AF
-18	미사일	B-AF	I-AF	I-AF, B-AF, I-TM, O, I-OG
-19	##을	O	O	O, I-AF, I-TM, I-OG, B-CV
-20	대체	O	O	O, B-TM, B-CV, I-AF, B-OG
-21	##하	O	O	O, B-PS, B-CV, B-TM, B-OG
-22	##는	O	O	O, B-CV, B-TM, B-PS, B-QT
-23	사업	O	O	O, B-TM, B-CV, I-TM, B-LC
-24	##이다	O	O	O, I-TM, B-CV, B-TM, I-CV
-25	.	O	O	O, B-TM, B-LC, B-OG, B-CV
-26	[SEP]	O	O	O, B-TM, I-TM, B-CV, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	경남	B-OG	B-OG
+2	##도	I-OG	I-OG
+3	홈페이지	O	O
+4	(	O	O
+5	www	B-TM	B-TM
+6	.	I-TM	I-TM
+7	g	I-TM	I-TM
+8	##s	I-TM	I-TM
+9	##nd	I-TM	I-TM
+10	.	I-TM	I-TM
+11	net	I-TM	I-TM
+12	)	O	O
+13	나	O	O
+14	e	O	O
+15	##메	O	O
+16	##일	O	O
+17	(	O	O
+18	n	B-TM	B-TM
+19	##ak	I-TM	I-TM
+20	##d	I-TM	I-TM
+21	##ong	I-TM	I-TM
+22	@	I-TM	I-TM
+23	fe	I-TM	I-TM
+24	##el	I-TM	I-TM
+25	##g	I-TM	I-TM
+26	##n	I-TM	I-TM
+27	.	I-TM	I-TM
+28	net	I-TM	I-TM
+29	)	O	O
+30	또는	O	O
+31	우편	O	O
+32	(	O	O
+33	창원시	B-LC	B-LC
+34	의	B-LC	B-LC
+35	##창	I-LC	I-LC
+36	##구	I-LC	I-LC
+37	중앙	B-AF	B-AF
+38	##대로	I-AF	I-AF
+39	300	B-QT	B-QT
+40	경남	B-AF	B-OG
+41	##도	I-AF	I-OG
+42	##청	I-AF	I-OG
+43	국책	O	O
+44	##사업	O	O
+45	##지	O	O
+46	##원	O	O
+47	##과	O	O
+48	)	O	O
+49	을	O	O
+50	통해	O	O
+51	참가	O	O
+52	##하면	O	O
+53	된다	O	O
+54	.	O	O
+55	[SEP]	O	O

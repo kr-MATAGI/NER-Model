@@ -1,34 +1,49 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-QT
-1	유럽	B-LC	B-EV	B-EV, B-LC, O, B-OG, B-AF
-2	예선	B-EV	I-EV	I-EV, B-EV, I-LC, O, B-LC
-3	##에서	O	O	O, I-EV, I-OG, I-AF, B-CV
-4	6	B-QT	B-QT	B-QT, O, B-EV, B-TM, B-DT
-5	##골	I-QT	I-QT	I-QT, I-EV, I-TM, O, I-LC
-6	##로	O	O	O, I-QT, I-EV, I-AF, I-TM
-7	최다	O	O	O, B-TM, B-CV, B-QT, B-PS
-8	득점	O	O	O, B-TM, B-CV, I-TM, B-AF
-9	선수	B-CV	B-CV	B-CV, O, I-CV, I-TM, B-TM
-10	##에	O	O	O, I-CV, B-CV, I-QT, I-TM
-11	이름	O	O	O, B-CV, B-PS, B-OG, B-TM
-12	##을	O	O	O, B-CV, B-PS, B-OG, B-TM
-13	올린	O	O	O, B-PS, B-CV, B-OG, B-QT
-14	장	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-15	-	I-PS	I-PS	I-PS, O, I-OG, B-PS, I-LC
-16	케	I-PS	I-PS	I-PS, B-PS, O, I-OG, I-LC
-17	##뱅	I-PS	I-PS	I-PS, O, I-OG, I-LC, B-PS
-18	오	I-PS	I-PS	I-PS, B-PS, O, B-LC, I-OG
-19	##귀	I-PS	I-PS	I-PS, O, I-OG, B-PS, I-LC
-20	##스	I-PS	I-PS	I-PS, O, B-PS, I-OG, I-LC
-21	##탱	I-PS	I-PS	I-PS, O, I-OG, I-LC, B-PS
-22	##은	O	O	O, I-PS, I-OG, B-CV, I-AF
-23	유럽	B-LC	B-LC	B-LC, O, B-OG, B-PS, B-AF
-24	명문	O	O	O, B-CV, B-OG, I-OG, I-LC
-25	파리	B-OG	B-OG	B-OG, B-LC, I-OG, O, B-AF
-26	생	I-OG	I-OG	I-OG, O, I-LC, I-AF, B-OG
-27	##제르	I-OG	I-OG	I-OG, O, I-LC, I-AF, I-EV
-28	##맹	I-OG	I-OG	I-OG, O, I-LC, I-AF, I-PS
-29	소속	O	O	O, I-OG, B-CV, I-AF, I-EV
-30	##이다	O	O	O, B-CV, I-OG, B-TM, B-PS
-31	.	O	O	O, B-PS, B-CV, B-OG, B-LC
-32	[SEP]	O	O	O, B-CV, B-PS, I-OG, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	도시	O	O
+2	##에	O	O
+3	사	O	O
+4	##는	O	O
+5	엘리트	B-CV	B-CV
+6	##들	O	O
+7	##을	O	O
+8	지지	O	O
+9	##기	O	O
+10	##반	O	O
+11	##으로	O	O
+12	삼	O	O
+13	##아	O	O
+14	연	O	O
+15	경제성장	O	O
+16	##률	O	O
+17	최소	O	O
+18	7	B-QT	B-QT
+19	%	I-QT	I-QT
+20	달성	O	O
+21	,	O	O
+22	건강	O	O
+23	##보험	O	O
+24	확대	O	O
+25	,	O	O
+26	교도소	O	O
+27	신설	O	O
+28	,	O	O
+29	일자리	O	O
+30	창출	O	O
+31	등	O	O
+32	##을	O	O
+33	역설	O	O
+34	##했	O	O
+35	##지만	O	O
+36	페루	B-LC	B-CV
+37	##인	O	I-CV
+38	전체	O	O
+39	##를	O	O
+40	사로잡	O	O
+41	##지	O	O
+42	##는	O	O
+43	못	O	O
+44	##했	O	O
+45	##다	O	O
+46	.	O	O
+47	[SEP]	O	O

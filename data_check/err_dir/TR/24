@@ -1,27 +1,49 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	왜	O	O	O, B-CV, B-OG, B-PS, B-LC
-2	그	O	O	O, B-CV, B-OG, B-LC, B-PS
-3	소장	B-FD	B-CV	B-CV, O, B-OG, I-CV, B-FD
-4	##문	I-FD	I-CV	I-CV, B-CV, O, I-OG, I-FD
-5	##법	I-FD	I-CV	I-CV, O, B-CV, I-OG, I-FD
-6	##학자	B-CV	I-CV	I-CV, O, B-CV, I-OG, I-QT
-7	##들	O	O	O, I-CV, I-OG, B-CV, I-AF
-8	##의	O	O	O, B-CV, B-LC, B-PS, B-OG
-9	시기	O	O	O, B-CV, B-PS, B-LC, B-OG
-10	##에	O	O	O, B-CV, B-PS, B-LC, I-AF
-11	##는	O	O	O, B-LC, B-OG, B-CV, B-PS
-12	산업	B-TR	O	O, B-TR, B-FD, B-CV, B-LC
-13	##화	I-TR	O	O, I-TR, I-FD, B-TR, I-CV
-14	##된	O	O	O, I-TR, I-PS, B-PS, B-LC
-15	사회	O	O	O, B-CV, B-LC, B-FD, B-PS
-16	##의	O	O	O, B-PS, B-CV, B-LC, B-OG
-17	인식	O	O	O, B-CV, B-LC, B-PS, B-OG
-18	##방	O	O	O, B-PS, B-CV, B-LC, I-CV
-19	##법	O	O	O, B-PS, B-LC, B-CV, I-CV
-20	##이	O	O	O, B-PS, B-OG, B-CV, B-LC
-21	두드	O	O	O, B-CV, B-OG, B-TM, B-LC
-22	##러	O	O	O, I-OG, I-CV, B-PS, B-LC
-23	##집니다	O	O	O, B-CV, I-OG, B-LC, I-CV
-24	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-25	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	다른	O	O
+2	전문가	B-CV	B-CV
+3	##는	O	O
+4	“	O	O
+5	일반	O	O
+6	##적	O	O
+7	##으로	O	O
+8	서방	B-LC	B-LC
+9	##에	O	O
+10	##서는	O	O
+11	시장	O	O
+12	메커니즘	O	O
+13	##이	O	O
+14	가격	O	O
+15	결정	O	O
+16	##의	O	O
+17	‘	O	O
+18	보이지	B-TR	O
+19	않	I-TR	O
+20	##는	I-TR	O
+21	손	I-TR	B-AM
+22	’	O	O
+23	이지만	O	O
+24	중국	B-LC	B-LC
+25	##에	O	O
+26	##서는	O	O
+27	‘	O	O
+28	당국	O	O
+29	##의	O	O
+30	보이지	B-TR	B-TR
+31	않	I-TR	I-TR
+32	##는	I-TR	I-TR
+33	손	I-TR	B-AM
+34	’	O	O
+35	이	O	O
+36	있	O	O
+37	##다는	O	O
+38	것	O	O
+39	##이	O	O
+40	정설	O	O
+41	”	O	O
+42	이라	O	O
+43	##고	O	O
+44	덧붙였	O	O
+45	##다	O	O
+46	.	O	O
+47	[SEP]	O	O

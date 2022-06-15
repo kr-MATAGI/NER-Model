@@ -1,46 +1,13 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-EV, B-CV, I-OG, I-CV
-1	새	B-OG	B-OG	B-OG, O, B-LC, B-PS, B-AF
-2	##누리	I-OG	I-OG	I-OG, O, B-OG, I-EV, I-LC
-3	##당	I-OG	I-OG	I-OG, O, I-EV, I-AF, I-LC
-4	##은	O	O	O, I-OG, I-EV, B-CV, I-AF
-5	10	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-LC
-6	##일	I-DT	I-DT	I-DT, O, B-DT, I-PS, I-EV
-7	오후	B-TI	B-TI	B-TI, O, B-LC, I-TI, B-EV
-8	서울	B-LC	B-LC	B-LC, O, B-AF, B-OG, I-LC
-9	광화문	B-LC	B-LC	B-LC, B-AF, I-LC, O, B-OG
-10	세종문화회관	B-AF	B-AF	B-AF, I-AF, B-OG, B-LC, B-PS
-11	앞	B-TM	B-TM	B-TM, O, I-TM, I-AF, B-CV
-12	광장	O	O	O, I-LC, B-LC, I-TM, I-AF
-13	##에서	O	O	O, I-LC, B-LC, B-PS, B-CV
-14	조직	O	O	O, B-CV, I-CV, B-OG, B-PS
-15	##총	O	O	O, I-CV, B-CV, I-OG, I-EV
-16	##괄	O	I-CV	I-CV, O, B-CV, I-OG, I-TM
-17	##본부	O	O	O, I-CV, B-CV, I-OG, I-TM
-18	##가	O	O	O, I-CV, B-PS, B-CV, I-OG
-19	영입	O	O	O, B-CV, B-PS, I-CV, B-OG
-20	##한	O	O	O, B-PS, I-CV, B-CV, B-LC
-21	단체	O	O	O, B-CV, I-CV, B-PS, I-OG
-22	소속	O	O	O, B-CV, I-CV, B-PS, B-FD
-23	인사	O	O	O, B-CV, I-CV, B-QT, B-EV
-24	1	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-PS
-25	##만	I-QT	I-QT	I-QT, O, I-PS, I-LC, B-QT
-26	명	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-27	##이	O	O	O, I-QT, B-PS, B-CV, B-OG
-28	모인	O	O	O, B-CV, B-LC, B-EV, B-QT
-29	대	O	O	O, B-EV, B-LC, I-EV, B-CV
-30	##규모	O	O	O, B-EV, I-EV, B-LC, B-CV
-31	지지	O	O	O, B-EV, I-EV, B-CV, B-LC
-32	선언	O	O	O, I-EV, B-EV, B-CV, B-LC
-33	행사	O	O	O, I-EV, B-EV, B-CV, B-LC
-34	##를	O	O	O, I-EV, B-CV, B-LC, B-OG
-35	열	O	O	O, B-LC, B-CV, B-EV, B-OG
-36	##며	O	O	O, B-LC, B-CV, B-OG, B-PS
-37	세	O	O	O, B-LC, B-EV, B-PS, B-CV
-38	##몰이	O	O	O, I-EV, I-LC, B-LC, B-PS
-39	##를	O	O	O, I-EV, B-CV, B-OG, B-LC
-40	할	O	O	O, B-LC, B-CV, B-OG, B-PS
-41	계획	O	O	O, B-CV, B-LC, B-OG, I-EV
-42	##이다	O	O	O, B-CV, I-EV, B-LC, B-OG
-43	.	O	O	O, B-LC, B-PS, B-CV, I-EV
-44	[SEP]	O	O	O, B-LC, B-CV, I-EV, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	올	O	B-DT
+2	##시	O	I-DT
+3	##즌	O	I-DT
+4	평균	O	O
+5	##자	O	O
+6	##책	O	O
+7	##점	O	O
+8	상승	O	O
+9	##도	O	O
+10	원인	O	O
+11	[SEP]	O	O

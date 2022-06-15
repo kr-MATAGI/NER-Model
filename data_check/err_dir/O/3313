@@ -1,26 +1,34 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, B-CV, I-OG, I-AF
-1	뮤지컬	O	B-FD	B-FD, O, I-FD, B-CV, B-AF
-2	‘	O	O	O, I-FD, I-CV, I-OG, B-CV
-3	[UNK]	O	O	O, B-PS, B-CV, B-LC, B-OG
-4	’	O	O	O, B-CV, B-PS, B-OG, B-LC
-5	에서	O	O	O, B-PS, B-CV, B-OG, B-LC
-6	손	B-PS	B-PS	B-PS, O, I-PS, B-OG, B-LC
-7	##호영	I-PS	I-PS	I-PS, O, B-PS, I-OG, I-LC
-8	씨	O	O	O, I-PS, B-CV, I-OG, I-AF
-9	(	O	O	O, B-CV, B-OG, B-LC, B-QT
-10	29	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-TI
-11	)	O	O	O, I-QT, I-DT, I-OG, B-CV
-12	는	O	O	O, B-CV, B-PS, I-QT, B-LC
-13	그렇게	O	O	O, B-CV, B-PS, B-LC, B-OG
-14	‘	O	O	O, B-CV, B-PS, B-LC, B-OG
-15	채	B-PS	B-PS	B-PS, O, B-AF, I-PS, B-LC
-16	##드	I-PS	I-PS	I-PS, O, I-AF, I-LC, I-OG
-17	’	O	O	O, I-PS, I-AF, B-CV, I-CV
-18	로	O	O	O, B-PS, B-CV, B-LC, B-QT
-19	변해	O	O	O, B-CV, B-PS, B-TM, B-QT
-20	있	O	O	O, B-CV, B-PS, I-QT, B-FD
-21	##었	O	O	O, B-CV, I-OG, I-CV, I-QT
-22	##다	O	O	O, B-CV, I-OG, I-CV, B-TM
-23	.	O	O	O, B-CV, B-PS, B-LC, B-OG
-24	[SEP]	O	O	O, B-CV, B-PS, B-LC, B-FD
+	text	label	preds
+0	[CLS]	O	O
+1	3	B-QT	B-QT
+2	##위	I-QT	I-QT
+3	SK	B-OG	B-OG
+4	##는	O	O
+5	사직	O	B-LC
+6	##에	O	O
+7	##서	O	O
+8	2	B-QT	B-QT
+9	##위	I-QT	I-QT
+10	롯데	B-OG	B-OG
+11	##를	O	O
+12	3	B-QT	B-QT
+13	-	I-QT	I-QT
+14	1	I-QT	I-QT
+15	##로	O	O
+16	누르	O	O
+17	##고	O	O
+18	두	B-QT	B-QT
+19	팀	I-QT	I-QT
+20	간의	O	O
+21	승차	O	O
+22	##를	O	O
+23	0	B-QT	B-QT
+24	.	I-QT	I-QT
+25	5	I-QT	I-QT
+26	##경기	I-QT	I-QT
+27	##로	O	O
+28	좁	O	O
+29	##혔	O	O
+30	##다	O	O
+31	.	O	O
+32	[SEP]	O	O

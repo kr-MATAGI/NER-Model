@@ -1,32 +1,42 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-QT
-1	광	B-AM	B-AM	B-AM, B-TM, B-PS, B-LC, O
-2	##릉	I-AM	I-AM	I-AM, I-TM, I-PS, I-AF, B-AM
-3	##왕	I-AM	I-AM	I-AM, I-TM, B-AM, O, I-AF
-4	##모	I-AM	I-AM	I-AM, I-TM, O, B-AM, I-TR
-5	##기	I-AM	I-AM	I-AM, I-TM, O, B-AM, I-PT
-6	사육	O	O	O, I-TM, I-AM, B-AM, B-TM
-7	기술	O	O	O, I-TM, B-CV, B-TM, I-CV
-8	첫	O	O	O, B-LC, B-TM, B-CV, B-OG
-9	개발	O	O	O, B-CV, B-TM, B-LC, B-OG
-10	…	O	O	O, B-LC, B-TM, B-CV, B-OG
-11	유	O	B-AM	B-AM, O, B-TM, B-CV, B-PS
-12	##충	O	I-AM	I-AM, O, I-TM, I-CV, B-AM
-13	때	O	O	O, I-AM, I-TM, I-DT, I-CV
-14	다른	O	B-AM	B-AM, O, B-TM, B-CV, B-PS
-15	##모	B-AM	I-AM	I-AM, B-AM, I-TM, O, I-CV
-16	##기	I-AM	I-AM	I-AM, I-TM, O, I-CV, B-AM
-17	유	O	B-AM	B-AM, O, I-AM, B-TM, B-CV
-18	##충	O	I-AM	I-AM, O, I-TM, I-CV, B-AM
-19	잡아먹	O	O	O, I-TM, I-AM, B-TM, B-AM
-20	##어	O	O	O, B-TM, I-TM, B-LC, B-PS
-21	전염병	B-TM	B-TM	B-TM, O, I-TM, B-CV, B-AM
-22	옮기	O	O	O, I-TM, B-CV, B-TM, I-QT
-23	##는	O	O	O, B-CV, B-TM, B-LC, B-OG
-24	흰	B-AM	B-AM	B-AM, B-TM, O, B-CV, B-TR
-25	##줄	I-AM	I-AM	I-AM, I-TM, O, B-AM, I-CV
-26	##숲	I-AM	I-AM	I-AM, I-TM, O, B-AM, I-CV
-27	##모	I-AM	I-AM	I-AM, I-TM, O, B-AM, I-CV
-28	##기	I-AM	I-AM	I-AM, I-TM, O, I-CV, I-PT
-29	퇴치	O	O	O, I-TM, I-AM, I-CV, B-CV
-30	[SEP]	O	O	O, B-AM, B-TM, I-TM, B-CV
+	text	label	preds
+0	[CLS]	O	O
+1	전남	B-LC	B-LC
+2	순천	B-LC	B-LC
+3	출신	O	O
+4	##인	O	O
+5	소	B-AM	B-PS
+6	교수	B-CV	B-CV
+7	##가	O	O
+8	검찰	B-CV	B-CV
+9	##총장	I-CV	I-CV
+10	##이	O	O
+11	되	O	O
+12	##면	O	O
+13	노무현	B-PS	B-PS
+14	정부	B-OG	B-OG
+15	때	O	O
+16	##인	O	O
+17	김종	B-PS	B-PS
+18	##빈	I-PS	I-PS
+19	전	O	O
+20	검찰	B-CV	B-CV
+21	##총장	I-CV	I-CV
+22	(	O	O
+23	2005	B-DT	B-DT
+24	##년	I-DT	I-DT
+25	4	I-DT	I-DT
+26	##∼	I-DT	I-DT
+27	##10	I-DT	I-DT
+28	##월	I-DT	I-DT
+29	)	O	O
+30	이후	O	O
+31	12	O	O
+32	##년	O	O
+33	만의	O	O
+34	호남	B-LC	B-LC
+35	출신	O	O
+36	검찰	B-CV	B-CV
+37	##총장	I-CV	I-CV
+38	##이다	O	O
+39	.	O	O
+40	[SEP]	O	O

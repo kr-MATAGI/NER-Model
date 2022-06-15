@@ -1,98 +1,42 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-EV, I-OG
-1	이동	B-PS	B-PS	B-PS, B-OG, O, B-LC, I-PS
-2	##연	I-PS	I-PS	I-PS, I-OG, O, I-LC, I-QT
-3	한국	B-OG	B-OG	B-OG, I-OG, B-LC, O, I-PS
-4	##예술	I-OG	I-OG	I-OG, O, I-LC, B-OG, I-PS
-5	##종합	I-OG	I-OG	I-OG, O, I-LC, I-AF, I-PS
-6	##학교	I-OG	I-OG	I-OG, O, I-LC, I-AF, I-PS
-7	교수	B-CV	B-CV	B-CV, O, I-OG, I-CV, B-OG
-8	##는	O	O	O, I-CV, I-OG, I-EV, B-CV
-9	“	O	O	O, B-CV, B-LC, B-OG, B-TM
-10	지금	O	O	O, B-CV, B-OG, B-LC, B-PS
-11	##처럼	O	O	O, B-OG, B-PS, B-LC, B-CV
-12	기업	O	O	O, B-CV, B-OG, B-FD, I-OG
-13	##과	O	O	O, B-PS, I-OG, B-OG, B-CV
-14	가수	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-FD
-15	##의	O	O	O, I-CV, B-PS, I-OG, B-OG
-16	이해관계	O	O	O, B-CV, B-OG, B-TM, B-PS
-17	##에	O	O	O, B-PS, B-CV, I-OG, B-LC
-18	따라	O	O	O, B-LC, B-PS, B-OG, B-CV
-19	4	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-20	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-21	##마다	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-22	새로운	O	O	O, I-DT, B-CV, B-LC, I-AF
-23	응원	O	O	O, B-CV, B-FD, B-AF, B-LC
-24	##가	O	O	O, I-AF, I-CV, B-FD, I-FD
-25	##가	O	O	O, B-PS, B-LC, I-AF, B-CV
-26	쏟아져	O	O	O, B-CV, B-LC, B-TM, B-OG
-27	##나	O	O	O, B-CV, B-LC, I-AF, B-PS
-28	##오	O	O	O, B-CV, B-LC, B-PS, I-AF
-29	##는	O	O	O, B-CV, B-LC, B-OG, B-PS
-30	게	O	O	O, B-LC, B-CV, B-PS, B-OG
-31	바람직	O	O	O, B-CV, B-LC, B-FD, B-OG
-32	##하	O	O	O, B-LC, B-PS, B-CV, I-OG
-33	##다고	O	O	O, B-CV, B-LC, B-PS, B-OG
-34	##는	O	O	O, B-CV, B-LC, I-OG, B-PS
-35	보	O	O	O, B-CV, B-OG, B-PS, B-LC
-36	##지	O	O	O, I-OG, B-PS, B-OG, I-PS
-37	않	O	O	O, B-CV, I-OG, B-PS, B-LC
-38	##는	O	O	O, B-CV, I-OG, B-OG, B-PS
-39	##다	O	O	O, B-CV, I-OG, B-LC, B-OG
-40	”	O	O	O, B-CV, B-LC, B-TM, B-OG
-41	며	O	O	O, B-LC, B-CV, B-OG, B-TM
-42	“	O	O	O, B-LC, B-CV, B-OG, B-PS
-43	영국	B-LC	B-LC	B-LC, B-OG, O, B-AF, B-PS
-44	리버풀	B-OG	B-OG	B-OG, B-LC, I-OG, B-AF, I-LC
-45	##이나	O	O	O, I-OG, I-AF, I-LC, I-EV
-46	맨체스터	B-OG	B-OG	B-OG, B-LC, B-AF, I-OG, B-PS
-47	유나이티	I-OG	I-OG	I-OG, I-LC, I-AF, O, B-OG
-48	##드	I-OG	I-OG	I-OG, I-LC, O, I-AF, I-PS
-49	같	O	O	O, I-OG, I-AF, B-CV, I-EV
-50	##은	O	O	O, B-OG, B-LC, B-CV, I-OG
-51	축구	B-CV	B-CV	B-CV, B-OG, O, B-FD, B-AF
-52	클럽	O	O	O, I-OG, I-CV, B-OG, B-CV
-53	##에	O	O	O, I-OG, I-CV, I-AF, B-PS
-54	수십	O	O	O, B-LC, B-PS, B-OG, B-CV
-55	##년	O	O	O, B-LC, B-PS, B-CV, B-OG
-56	전통	O	O	O, B-CV, B-LC, B-FD, B-OG
-57	##을	O	O	O, B-CV, B-LC, B-PS, B-OG
-58	가진	O	O	O, B-CV, B-LC, B-PS, B-TM
-59	응원	O	O	O, B-CV, B-FD, B-AF, B-TM
-60	##가	O	O	O, I-AF, I-FD, I-CV, B-FD
-61	##가	O	O	O, B-PS, I-AF, B-LC, B-CV
-62	있	O	O	O, B-CV, B-LC, B-OG, B-TM
-63	##는	O	O	O, B-LC, B-OG, B-CV, B-PS
-64	것	O	O	O, B-LC, B-CV, B-OG, B-PS
-65	##처럼	O	O	O, B-LC, B-OG, B-PS, B-CV
-66	우리	O	O	O, B-OG, B-CV, B-LC, B-PS
-67	##도	O	O	O, B-CV, B-LC, B-OG, B-PS
-68	축구	B-CV	B-CV	B-CV, O, B-OG, B-FD, B-AF
-69	서포터	O	B-CV	B-CV, O, I-CV, B-OG, B-AF
-70	##스	O	I-CV	I-CV, O, B-CV, I-OG, I-EV
-71	문화	O	O	O, I-CV, B-CV, I-OG, I-EV
-72	##로	O	O	O, B-PS, B-LC, I-CV, B-CV
-73	##부터	O	O	O, B-LC, B-PS, B-OG, B-TM
-74	자발	O	O	O, B-LC, B-CV, B-PS, B-TM
-75	##적으로	O	O	O, B-LC, B-PS, B-CV, B-TM
-76	생겨난	O	O	O, B-LC, B-CV, B-TM, B-QT
-77	좋	O	O	O, B-CV, B-LC, B-AF, B-TM
-78	##은	O	O	O, B-LC, I-AF, B-CV, B-AF
-79	응원	O	O	O, B-CV, B-FD, B-AF, B-TM
-80	##가	O	O	O, I-AF, I-CV, I-FD, B-FD
-81	##들	O	O	O, I-AF, B-CV, B-PS, B-LC
-82	##을	O	O	O, B-CV, B-LC, B-TM, B-OG
-83	계속	O	O	O, B-LC, B-CV, B-TM, B-QT
-84	이어	O	O	O, B-LC, B-CV, B-TM, B-OG
-85	##나갈	O	O	O, B-CV, B-LC, B-TM, B-OG
-86	필요	O	O	O, B-CV, B-TM, B-LC, B-OG
-87	##가	O	O	O, B-PS, B-OG, B-CV, B-LC
-88	있	O	O	O, B-CV, B-OG, B-LC, B-PS
-89	##다	O	O	O, B-CV, B-TM, B-OG, B-LC
-90	”	O	O	O, B-CV, B-TM, B-QT, B-LC
-91	고	O	O	O, B-CV, B-TM, B-QT, B-LC
-92	말	O	O	O, B-CV, B-TM, B-QT, I-CV
-93	##했	O	O	O, B-CV, B-PS, B-LC, I-CV
-94	##다	O	O	O, B-CV, B-TM, B-QT, B-LC
-95	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-96	[SEP]	O	O	O, B-CV, B-LC, B-FD, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	왕따	O	O
+2	,	O	O
+3	성	O	O
+4	정체	O	O
+5	##성	O	O
+6	,	O	O
+7	동성애	O	O
+8	,	O	O
+9	폭력	O	O
+10	등	O	O
+11	청소년	B-CV	B-CV
+12	##들의	O	O
+13	고민	O	O
+14	##이	O	O
+15	인류	O	O
+16	##가	O	O
+17	창조	O	O
+18	##한	O	O
+19	가장	O	O
+20	오래	O	O
+21	##된	O	O
+22	힘	O	O
+23	##의	O	O
+24	스포츠	O	O
+25	##와	O	O
+26	경쾌	O	O
+27	##한	O	O
+28	랩	O	B-FD
+29	##음	O	I-FD
+30	##악	O	I-FD
+31	##에	O	O
+32	실려	O	O
+33	90	B-TI	B-TI
+34	##분	I-TI	I-TI
+35	##간	I-TI	I-TI
+36	거침없이	O	O
+37	쏟아져	O	O
+38	나온다	O	O
+39	.	O	O
+40	[SEP]	O	O

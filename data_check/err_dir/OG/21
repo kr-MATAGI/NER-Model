@@ -1,42 +1,26 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	이	O	O	O, B-PS, B-AF, B-CV, B-OG
-2	사리	O	O	O, B-AF, B-CV, B-MT, B-PS
-3	##는	O	O	O, I-AF, I-CV, B-CV, B-LC
-4	기원전	B-DT	B-DT	B-DT, O, I-DT, B-TI, B-LC
-5	2	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-TI
-6	##세기	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-TI
-7	##경	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-TI
-8	스리랑카	B-LC	B-LC	B-LC, O, B-OG, I-DT, I-LC
-9	남부	B-TM	B-TM	B-TM, O, B-LC, B-CV, I-TM
-10	루	B-LC	B-DT	B-DT, B-LC, I-DT, B-CV, O
-11	##후	I-LC	I-DT	I-DT, I-LC, I-CV, O, I-PS
-12	##누	I-LC	I-DT	I-DT, I-LC, I-CV, O, I-PS
-13	왕국	I-LC	I-DT	I-DT, O, I-CV, I-LC, I-OG
-14	초기	O	I-DT	I-DT, O, B-DT, I-LC, I-CV
-15	##부터	O	I-DT	I-DT, O, B-DT, I-QT, I-LC
-16	전해	O	O	O, I-DT, B-LC, B-CV, B-PS
-17	##오	O	O	O, B-LC, I-DT, B-PS, I-LC
-18	##는	O	O	O, B-LC, B-CV, B-PS, B-OG
-19	것	O	O	O, B-CV, B-LC, B-PS, B-OG
-20	##으로	O	O	O, B-LC, B-CV, B-OG, B-PS
-21	암	B-LC	B-LC	B-LC, O, B-PS, B-AF, B-OG
-22	##바	I-LC	I-LC	I-LC, O, B-LC, I-PS, I-AF
-23	##란	I-LC	I-LC	I-LC, O, B-LC, I-PS, I-AF
-24	##토	I-LC	I-LC	I-LC, O, B-LC, I-PS, I-AF
-25	##타	I-LC	I-LC	I-LC, O, B-LC, I-PS, I-AF
-26	지역	O	O	O, I-LC, B-LC, I-AF, I-OG
-27	테	B-OG	B-PS	B-PS, B-OG, B-LC, O, B-AF
-28	##네	I-OG	I-PS	I-PS, I-OG, I-LC, O, I-AF
-29	##콘	I-OG	I-OG	I-OG, I-PS, I-LC, O, I-CV
-30	가문	I-OG	I-OG	I-OG, O, I-PS, I-LC, I-CV
-31	##에서	O	O	O, I-OG, I-AF, I-CV, I-PS
-32	가	O	O	O, B-AF, B-CV, B-LC, B-OG
-33	##보	O	O	O, I-AF, I-LC, I-CV, I-OG
-34	##로	O	O	O, I-AF, I-OG, I-CV, I-LC
-35	보관	O	O	O, B-CV, B-LC, B-OG, B-TM
-36	##해	O	O	O, I-LC, B-LC, I-OG, B-PS
-37	##왔	O	O	O, B-CV, B-LC, I-OG, I-AF
-38	##다	O	O	O, B-CV, B-LC, B-OG, B-TM
-39	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-40	[SEP]	O	O	O, B-LC, B-CV, I-LC, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	한국	B-OG	B-OG
+2	여자	I-OG	I-OG
+3	농구	I-OG	I-OG
+4	대표	I-OG	I-OG
+5	##팀	I-OG	I-OG
+6	##은	O	O
+7	2	B-DT	B-DT
+8	##일	I-DT	I-DT
+9	중국	B-OG	B-LC
+10	##을	O	O
+11	넘어	O	O
+12	20	B-DT	B-DT
+13	##년	I-DT	I-DT
+14	만	I-DT	I-DT
+15	##에	O	O
+16	아시아	B-EV	B-EV
+17	##경기	I-EV	I-EV
+18	금메달	B-CV	B-CV
+19	##을	O	O
+20	차지	O	O
+21	##했	O	O
+22	##다	O	O
+23	.	O	O
+24	[SEP]	O	O

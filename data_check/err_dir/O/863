@@ -1,8 +1,57 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, I-AF, B-CV
-1	그럼	O	O	O, B-CV, B-OG, B-LC, B-TM
-2	피	O	B-TM	B-TM, O, B-TR, I-TM, B-AF
-3	##가	O	O	O, I-TM, I-AF, I-OG, B-PS
-4	나	O	O	O, B-CV, I-AF, B-LC, B-OG
-5	?	O	O	O, B-CV, B-OG, I-AF, B-LC
-6	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	국민	B-OG	B-OG
+2	##모	I-OG	I-OG
+3	##임	I-OG	I-OG
+4	관계자	B-CV	B-CV
+5	##는	O	O
+6	“	O	O
+7	후보	B-CV	B-CV
+8	##를	O	O
+9	낼	O	O
+10	경우	O	O
+11	야권	O	O
+12	##의	O	O
+13	심장	B-TM	O
+14	##부인	O	O
+15	광주	B-LC	B-LC
+16	서구	B-LC	B-LC
+17	##을	O	I-LC
+18	##이	O	O
+19	전략	O	O
+20	##지역	O	O
+21	##이	O	O
+22	되	O	O
+23	##지	O	O
+24	않	O	O
+25	##겠	O	O
+26	##느	O	O
+27	##냐	O	O
+28	”	O	O
+29	며	O	O
+30	“	O	O
+31	정의당	B-OG	B-OG
+32	등도	O	O
+33	광주	B-LC	B-LC
+34	선거	O	O
+35	##에	O	O
+36	공동	O	O
+37	##대	O	O
+38	##응	O	O
+39	##하	O	O
+40	##는	O	O
+41	방안	O	O
+42	##에	O	O
+43	긍정	O	O
+44	##적	O	O
+45	##인	O	O
+46	것	O	O
+47	##으로	O	O
+48	안다	O	O
+49	”	O	O
+50	고	O	O
+51	말	O	O
+52	##했	O	O
+53	##다	O	O
+54	.	O	O
+55	[SEP]	O	O

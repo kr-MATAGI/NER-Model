@@ -1,13 +1,34 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	사실	O	O	O, B-CV, B-TM, B-OG, B-LC
-2	##은	O	O	O, B-CV, B-PS, B-LC, B-OG
-3	뭐	O	O	O, B-CV, B-TM, B-PS, B-LC
-4	우리	O	O	O, B-CV, B-PS, B-LC, B-OG
-5	##가	O	O	O, B-PS, B-CV, B-LC, B-OG
-6	지금	O	O	O, B-CV, B-PS, B-LC, B-TM
-7	세종	B-PS	B-PS	B-PS, O, B-AF, B-LC, I-PS
-8	##대왕	B-CV	I-PS	I-PS, O, I-AF, B-CV, B-PS
-9	상하	O	O	O, B-CV, B-TM, B-LC, I-PS
-10	##고	O	O	O, I-CV, I-TM, I-AF, I-EV
-11	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	네덜란드	B-OG	B-OG
+2	##는	O	O
+3	전날	B-DT	B-DT
+4	스피드	B-CV	B-CV
+5	##스케	I-CV	I-CV
+6	##이팅	I-CV	I-CV
+7	남자	O	O
+8	5000	B-QT	B-QT
+9	##m	I-QT	I-QT
+10	##에	O	O
+11	##서	O	O
+12	금	B-CV	B-CV
+13	,	O	O
+14	은	B-CV	B-CV
+15	,	O	O
+16	동	B-CV	B-CV
+17	##을	O	O
+18	휩	O	O
+19	##쓴	O	O
+20	데	O	O
+21	이어	O	O
+22	빙	B-CV	O
+23	##속	I-CV	O
+24	강국	O	O
+25	##의	O	O
+26	면모	O	O
+27	##를	O	O
+28	유지	O	O
+29	##했	O	O
+30	##다	O	O
+31	.	O	O
+32	[SEP]	O	O

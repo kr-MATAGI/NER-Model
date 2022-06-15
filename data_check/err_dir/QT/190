@@ -1,16 +1,30 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-QT
-1	김용	B-PS	B-PS	B-PS, B-OG, O, B-AF, B-LC
-2	##걸	I-PS	I-PS	I-PS, I-OG, O, B-PS, I-LC
-3	·	O	O	O, I-PS, I-OG, I-AF, B-CV
-4	김지	B-PS	B-PS	B-PS, B-OG, O, B-AF, I-PS
-5	##영	I-PS	I-PS	I-PS, I-OG, O, I-LC, I-AF
-6	·	O	O	O, I-PS, I-OG, I-AF, B-CV
-7	최수	B-PS	B-PS	B-PS, B-OG, O, I-PS, B-AF
-8	##진	I-PS	I-PS	I-PS, I-OG, O, I-LC, B-PS
-9	등	O	O	O, I-PS, B-CV, B-QT, I-QT
-10	6	B-QT	B-QT	B-QT, I-QT, O, B-TM, B-OG
-11	##인	I-QT	I-QT	I-QT, O, I-TM, I-OG, I-PS
-12	##6	B-QT	I-QT	I-QT, B-QT, O, I-TM, B-TM
-13	##색	I-QT	I-QT	I-QT, O, I-TM, I-OG, I-LC
-14	[SEP]	O	O	O, I-QT, B-CV, I-OG, I-TM
+	text	label	preds
+0	[CLS]	O	O
+1	1	B-QT	B-QT
+2	##제	I-QT	I-QT
+3	##타	I-QT	I-QT
+4	(	O	O
+5	Z	O	O
+6	)	O	O
+7	는	O	O
+8	10	B-QT	B-QT
+9	##의	I-QT	I-QT
+10	21	I-QT	I-QT
+11	##제	I-QT	I-QT
+12	##곱	I-QT	I-QT
+13	,	O	O
+14	곧	O	O
+15	10	B-QT	B-QT
+16	##해	I-QT	I-QT
+17	(	O	O
+18	1	B-QT	B-QT
+19	##조	I-QT	I-QT
+20	##의	I-QT	O
+21	10	I-QT	B-QT
+22	##억	I-QT	I-QT
+23	##배	I-QT	I-QT
+24	)	O	O
+25	를	O	O
+26	가리킨다	O	O
+27	.	O	O
+28	[SEP]	O	O

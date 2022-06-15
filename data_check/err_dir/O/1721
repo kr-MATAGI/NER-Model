@@ -1,60 +1,54 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-EV, I-OG, I-CV
-1	이한	B-PS	B-PS	B-PS, B-OG, O, B-LC, I-PS
-2	##호	I-PS	I-PS	I-PS, I-OG, O, I-LC, B-PS
-3	전	O	O	O, I-PS, I-OG, B-CV, I-EV
-4	공군	B-OG	B-OG	B-OG, B-CV, O, B-AF, B-FD
-5	##총장	B-CV	B-CV	B-CV, I-CV, O, I-OG, I-EV
-6	##은	O	O	O, I-CV, I-OG, I-EV, B-CV
-7	12	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-8	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
-9	동아일보	B-OG	B-OG	B-OG, O, B-AF, B-CV, I-OG
-10	##와	O	O	O, I-OG, I-DT, I-EV, B-CV
-11	##의	O	O	O, B-CV, B-LC, B-PS, B-OG
-12	통화	O	O	O, B-LC, B-OG, B-CV, B-EV
-13	##에서	O	O	O, I-EV, B-LC, B-CV, B-OG
-14	“	O	O	O, B-LC, B-PS, B-CV, B-OG
-15	최근	O	O	O, B-PS, B-DT, B-LC, B-QT
-16	김홍	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-17	##래	I-PS	I-PS	I-PS, O, I-OG, I-LC, B-PS
-18	전	O	O	O, I-PS, I-OG, B-LC, I-EV
-19	공군	B-OG	B-OG	B-OG, B-CV, O, B-AF, B-FD
-20	##총장	B-CV	B-CV	B-CV, I-CV, O, I-OG, I-EV
-21	,	O	O	O, I-CV, I-OG, I-EV, I-QT
-22	안병	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
-23	##태	I-PS	I-PS	I-PS, O, I-OG, I-LC, I-QT
-24	전	O	O	O, I-PS, I-OG, B-CV, B-LC
-25	해군	B-OG	B-OG	B-OG, B-CV, O, B-AF, B-FD
-26	##총장	B-CV	B-CV	B-CV, I-CV, O, I-OG, I-EV
-27	등	O	O	O, I-CV, I-OG, I-EV, B-CV
-28	역대	O	O	O, B-PS, B-CV, B-OG, B-DT
-29	총장	B-CV	B-CV	B-CV, O, B-OG, I-CV, B-EV
-30	##들이	O	O	O, I-CV, I-EV, I-OG, I-QT
-31	논의	O	O	O, B-CV, B-PS, B-LC, B-TM
-32	##한	O	O	O, B-PS, B-OG, B-LC, B-CV
-33	결과	O	O	O, B-PS, B-LC, B-OG, B-CV
-34	해	B-OG	B-OG	B-OG, O, B-CV, B-EV, B-AF
-35	·	I-OG	I-OG	I-OG, O, I-CV, I-EV, I-LC
-36	공군	I-OG	I-OG	I-OG, B-OG, O, I-EV, I-CV
-37	예비역	B-CV	B-CV	B-CV, O, I-CV, I-OG, B-OG
-38	장성	O	B-CV	B-CV, O, I-CV, B-TM, B-OG
-39	##들	O	O	O, I-CV, I-OG, I-EV, I-AF
-40	##은	O	O	O, B-CV, B-LC, B-PS, B-TM
-41	국방	O	O	O, B-EV, B-OG, B-CV, B-FD
-42	##개혁	O	O	O, I-EV, I-OG, B-EV, I-AF
-43	설명	O	O	O, I-EV, I-OG, B-EV, I-AF
-44	##회	O	O	O, I-EV, I-OG, B-EV, I-AF
-45	##에	O	O	O, I-EV, I-OG, B-CV, I-AF
-46	불참	O	O	O, B-CV, B-LC, B-TM, B-AF
-47	##하기	O	O	O, B-CV, B-LC, B-PS, B-OG
-48	##로	O	O	O, B-CV, B-TM, B-LC, B-OG
-49	결정	O	O	O, B-CV, B-TM, B-LC, B-QT
-50	##했	O	O	O, B-PS, B-LC, B-CV, B-OG
-51	##다	O	O	O, B-CV, B-LC, B-PS, B-OG
-52	”	O	O	O, B-CV, B-LC, B-TM, B-OG
-53	고	O	O	O, B-CV, B-LC, B-TM, B-OG
-54	말	O	O	O, B-CV, B-TM, B-LC, B-OG
-55	##했	O	O	O, B-CV, B-PS, B-LC, B-OG
-56	##다	O	O	O, B-CV, B-LC, B-OG, B-PS
-57	.	O	O	O, B-LC, B-PS, B-OG, B-CV
-58	[SEP]	O	O	O, B-LC, B-CV, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	여기	O	O
+2	##에	O	O
+3	##서는	O	O
+4	회의	O	O
+5	때	O	O
+6	논의	O	O
+7	##되	O	O
+8	##었	O	O
+9	##던	O	O
+10	경영	O	O
+11	##방	O	O
+12	##침	O	O
+13	##과	O	O
+14	CEO	B-CV	B-CV
+15	##의	O	O
+16	철학	O	B-FD
+17	##을	O	O
+18	이야기	O	O
+19	##하	O	O
+20	##는	O	O
+21	공간	O	O
+22	,	O	O
+23	리더십	O	O
+24	·	O	O
+25	팔	O	O
+26	##로	O	O
+27	##어	O	O
+28	##십	O	O
+29	##을	O	O
+30	공유	O	O
+31	##하	O	O
+32	##는	O	O
+33	공간	O	O
+34	,	O	O
+35	주제	O	O
+36	##와	O	O
+37	상관없이	O	O
+38	구성원	O	O
+39	##들이	O	O
+40	솔직	O	O
+41	##한	O	O
+42	이야기	O	O
+43	##를	O	O
+44	나누	O	O
+45	##는	O	O
+46	익명	O	O
+47	게시판	O	O
+48	등이	O	O
+49	있	O	O
+50	##다	O	O
+51	.	O	O
+52	[SEP]	O	O

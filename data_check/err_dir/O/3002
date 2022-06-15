@@ -1,76 +1,13 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	■	O	O	O, B-LC, B-CV, B-PS, B-OG
-2	집행유예	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-PS
-3	##자	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-QT
-4	##는	O	O	O, I-CV, B-PS, I-QT, B-CV
-5	6	B-DT	B-DT	B-DT, O, B-EV, B-QT, I-DT
-6	·	I-DT	I-DT	I-DT, O, I-EV, I-QT, B-DT
-7	4	I-DT	I-DT	I-DT, I-EV, O, B-DT, I-QT
-8	##지방	I-DT	I-DT	I-DT, I-EV, O, B-DT, I-QT
-9	##선거	I-DT	I-DT	I-DT, I-EV, O, I-QT, B-DT
-10	##부터	I-DT	I-DT	I-DT, O, I-EV, I-QT, B-DT
-11	투표	B-CV	O	O, B-CV, B-TM, B-AF, B-AM
-12	##권	I-CV	O	O, I-CV, I-TM, I-TR, I-AF
-13	행사	O	O	O, I-CV, B-PS, I-TM, B-CV
-14	헌재	B-OG	B-OG	B-OG, O, B-AF, B-PS, B-CV
-15	##는	O	O	O, I-OG, B-OG, I-CV, I-AF
-16	28	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-17	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
-18	구	B-PS	B-PS	B-PS, O, I-PS, B-OG, B-CV
-19	##아	O	O	O, B-CV, I-PS, I-CV, I-QT
-20	##무	O	O	O, B-CV, B-PS, B-QT, I-CV
-21	##개	O	O	O, B-PS, B-AM, I-PS, I-QT
-22	##씨	O	O	O, B-CV, B-PS, I-CV, I-QT
-23	등	O	O	O, B-CV, B-PS, B-TM, B-LC
-24	##이	O	O	O, B-PS, B-CV, B-LC, B-QT
-25	공직	B-CV	B-CV	B-CV, O, B-OG, B-AF, I-CV
-26	##선거	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-AF
-27	##법	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-EV
-28	제	B-QT	B-QT	B-QT, O, I-CV, I-QT, B-TM
-29	##18	I-QT	I-QT	I-QT, B-QT, O, I-LC, I-CV
-30	##조	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-AF
-31	1	B-QT	B-QT	B-QT, I-QT, O, B-TM, B-DT
-32	##항	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-TM
-33	2	B-QT	B-QT	B-QT, I-QT, O, B-TM, B-DT
-34	##호	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-TM
-35	##와	O	O	O, I-QT, B-CV, B-PS, B-TM
-36	형법	B-CV	B-CV	B-CV, O, B-OG, B-FD, B-AF
-37	제	B-QT	B-QT	B-QT, O, I-QT, I-CV, B-TM
-38	##43	I-QT	I-QT	I-QT, B-QT, O, I-LC, I-TM
-39	##조	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-TM
-40	2	B-QT	B-QT	B-QT, I-QT, O, B-TM, B-DT
-41	##항	I-QT	I-QT	I-QT, O, I-LC, I-TM, B-QT
-42	##에	O	O	O, I-QT, B-CV, I-CV, I-EV
-43	대해	O	O	O, B-CV, B-OG, B-LC, B-PS
-44	낸	O	O	O, B-CV, B-EV, B-OG, B-PS
-45	헌법	O	O	O, B-CV, B-EV, B-OG, B-FD
-46	##소	O	O	O, I-CV, B-CV, I-EV, I-OG
-47	##원	O	O	O, I-CV, I-EV, I-TR, B-CV
-48	가운데	O	O	O, B-TM, B-LC, B-CV, B-OG
-49	집행유예	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-TM
-50	기간	O	O	O, I-CV, B-CV, B-PS, I-OG
-51	중	O	O	O, B-PS, B-CV, B-QT, B-LC
-52	##인	O	O	O, B-PS, B-LC, B-CV, B-QT
-53	사람	O	O	O, B-CV, B-PS, B-AM, I-CV
-54	##의	O	O	O, B-PS, B-CV, B-LC, B-OG
-55	선거	B-CV	B-CV	B-CV, O, B-OG, B-AF, B-TM
-56	##권	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-TM
-57	##을	O	O	O, I-CV, I-OG, B-CV, I-AF
-58	제한	O	O	O, B-CV, B-TM, B-LC, B-PS
-59	##하	O	O	O, B-PS, B-CV, B-LC, B-OG
-60	##는	O	O	O, B-PS, B-CV, B-LC, B-OG
-61	부분	O	O	O, B-CV, B-PS, B-LC, B-TM
-62	##에	O	O	O, B-CV, B-PS, B-LC, B-OG
-63	대해	O	O	O, B-LC, B-OG, B-PS, B-CV
-64	재판관	O	B-CV	B-CV, O, I-CV, B-OG, B-TM
-65	전원	O	O	O, B-QT, B-TM, B-PS, B-CV
-66	##일치	O	O	O, I-QT, B-PS, B-QT, B-TM
-67	의견	O	O	O, B-PS, B-CV, B-TM, B-LC
-68	##으로	O	O	O, B-CV, B-PS, B-LC, B-OG
-69	위헌	O	O	O, B-CV, B-OG, B-TM, B-AF
-70	결정	O	O	O, I-CV, I-OG, B-PS, B-CV
-71	##했	O	O	O, B-PS, B-CV, B-OG, B-LC
-72	##다	O	O	O, B-CV, I-OG, B-LC, B-OG
-73	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-74	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	우리	O	O
+2	어머니	B-CV	B-CV
+3	##는	O	O
+4	국민	O	B-CV
+5	학교	O	O
+6	##도	O	O
+7	다니	O	O
+8	##지	O	O
+9	못	O	O
+10	##한	O	O
+11	[SEP]	O	O

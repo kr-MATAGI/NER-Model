@@ -1,18 +1,34 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, B-CV, I-OG, I-EV
-1	이승우	B-PS	B-PS	B-PS, B-OG, O, B-LC, I-PS
-2	(	O	O	O, I-PS, I-OG, B-CV, I-AF
-3	16	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-LC
-4	·	O	O	O, I-QT, I-OG, I-DT, I-AF
-5	바르셀로나	B-OG	B-OG	B-OG, B-LC, O, B-AF, B-PS
-6	후	I-OG	B-OG	B-OG, I-OG, O, B-AF, B-LC
-7	##베	I-OG	I-OG	I-OG, O, I-LC, I-AF, I-PS
-8	##닐	I-OG	I-OG	I-OG, O, I-LC, I-AF, I-PS
-9	##A	I-OG	I-OG	I-OG, O, I-LC, I-AF, I-CV
-10	·	O	O	O, I-OG, I-AF, I-CV, I-LC
-11	사진	O	O	O, B-CV, B-TM, B-OG, B-QT
-12	)	O	O	O, B-CV, I-CV, I-OG, B-PS
-13	때문	O	O	O, B-CV, I-OG, B-PS, B-TM
-14	##이다	O	O	O, B-CV, I-CV, B-TM, I-OG
-15	.	O	O	O, B-LC, B-CV, B-OG, I-OG
-16	[SEP]	O	O	O, B-CV, I-OG, B-LC, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	독서실	O	O
+2	총무	B-CV	B-CV
+3	,	O	O
+4	구로	B-OG	B-LC
+5	##공단	I-OG	I-LC
+6	비닐	O	B-MT
+7	##공	O	O
+8	##장	O	O
+9	,	O	O
+10	김포	B-LC	B-LC
+11	##의	O	O
+12	주물	O	O
+13	##공	O	O
+14	##장	O	O
+15	,	O	O
+16	액세서리	O	O
+17	가	O	O
+18	##내	O	O
+19	수공	O	O
+20	##업체	O	O
+21	등지	O	O
+22	##를	O	O
+23	이리저리	O	O
+24	옮겨	O	O
+25	##다니	O	O
+26	##며	O	O
+27	일	O	O
+28	##했	O	O
+29	##지	O	O
+30	##요	O	O
+31	.	O	O
+32	[SEP]	O	O

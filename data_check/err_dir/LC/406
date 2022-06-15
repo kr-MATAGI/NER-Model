@@ -1,44 +1,27 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	야권	O	O	O, B-OG, B-CV, B-FD, B-LC
-2	##에서	O	O	O, I-OG, B-PS, B-CV, B-OG
-3	##는	O	O	O, B-LC, B-OG, B-PS, B-CV
-4	당장	O	O	O, B-LC, B-OG, B-PS, B-CV
-5	##의	O	O	O, B-OG, B-LC, B-PS, I-OG
-6	중국	B-LC	B-OG	B-OG, B-LC, O, I-OG, B-PS
-7	##의	O	O	O, I-OG, I-LC, B-OG, B-PS
-8	경제	O	O	O, B-LC, B-CV, B-EV, B-TR
-9	보복	O	O	O, I-CV, I-EV, I-LC, I-TR
-10	##을	O	O	O, B-PS, B-LC, B-CV, B-OG
-11	이유로	O	O	O, B-CV, B-LC, B-OG, B-PS
-12	들	O	O	O, B-OG, B-PS, B-LC, B-CV
-13	##지만	O	O	O, B-OG, B-LC, I-OG, B-CV
-14	실제로	O	O	O, B-OG, B-LC, B-PS, I-OG
-15	한	B-OG	B-OG	B-OG, B-LC, O, I-OG, B-PS
-16	·	O	O	O, I-OG, I-LC, I-PS, B-OG
-17	미	B-OG	B-OG	B-OG, B-LC, O, I-OG, B-PS
-18	간	O	O	O, I-OG, B-OG, B-LC, I-LC
-19	##의	O	O	O, I-OG, B-OG, B-LC, B-PS
-20	약속	O	O	O, B-OG, B-LC, B-CV, I-OG
-21	##을	O	O	O, B-PS, B-LC, B-OG, B-CV
-22	일방	O	O	O, B-LC, B-OG, B-CV, B-PS
-23	##적으로	O	O	O, B-LC, B-OG, B-PS, I-OG
-24	[UNK]	O	O	O, B-LC, B-OG, B-CV, B-PS
-25	경우	O	O	O, B-LC, B-OG, B-PS, B-CV
-26	우리	O	O	O, B-LC, B-OG, B-PS, B-CV
-27	외교	O	O	O, B-FD, B-OG, I-OG, B-CV
-28	·	O	O	O, I-FD, I-OG, B-FD, I-LC
-29	안보	O	O	O, B-FD, I-FD, I-OG, B-OG
-30	##에	O	O	O, B-LC, B-PS, I-OG, B-OG
-31	불어	O	O	O, B-LC, B-PS, B-OG, B-TM
-32	##닥	O	O	O, B-LC, B-PS, B-CV, B-OG
-33	##칠	O	O	O, B-LC, B-PS, B-OG, B-TM
-34	후폭풍	O	O	O, B-LC, B-CV, B-PS, B-TM
-35	##에	O	O	O, B-CV, B-LC, B-PS, B-OG
-36	대한	O	O	O, B-LC, B-OG, B-PS, B-CV
-37	논의	O	O	O, B-CV, B-LC, B-PS, B-FD
-38	##는	O	O	O, B-LC, B-PS, B-CV, B-OG
-39	없	O	O	O, B-LC, B-CV, B-OG, B-PS
-40	##다	O	O	O, B-CV, B-LC, I-EV, I-OG
-41	.	O	O	O, B-LC, B-OG, B-PS, B-CV
-42	[SEP]	O	O	O, B-LC, B-OG, B-CV, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	만약	O	O
+2	미	B-LC	B-EV
+3	·	O	I-EV
+4	북	B-LC	I-EV
+5	고위급	O	I-EV
+6	회담	O	I-EV
+7	##이	O	O
+8	다시	O	O
+9	성사	O	O
+10	##될	O	O
+11	경우	O	O
+12	,	O	O
+13	한국	B-LC	B-LC
+14	##이	O	O
+15	소외	O	O
+16	##될	O	O
+17	가능	O	O
+18	##성이	O	O
+19	크	O	O
+20	##다는	O	O
+21	지적	O	O
+22	##이	O	O
+23	나온다	O	O
+24	.	O	O
+25	[SEP]	O	O

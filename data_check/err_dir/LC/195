@@ -1,27 +1,34 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-EV, I-OG, I-CV
-1	포스코건설	B-OG	B-OG	B-OG, O, B-PS, B-LC, B-AF
-2	##은	O	O	O, I-OG, I-AF, B-CV, I-EV
-3	6	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-QT
-4	##월	I-DT	I-DT	I-DT, O, I-QT, B-DT, I-EV
-5	송도	B-LC	B-LC	B-LC, O, B-AF, B-OG, B-PS
-6	##국제	I-LC	I-LC	I-LC, O, B-LC, I-AF, I-PS
-7	##도	I-LC	I-LC	I-LC, O, B-LC, I-AF, I-PS
-8	##시	I-LC	I-LC	I-LC, O, I-AF, B-LC, I-PS
-9	R	B-LC	B-LC	B-LC, B-AF, O, I-LC, I-AF
-10	##M	I-LC	I-LC	I-LC, I-AF, O, B-LC, I-OG
-11	##2	I-LC	I-LC	I-LC, I-AF, O, B-LC, I-OG
-12	##블	I-LC	I-LC	I-LC, I-AF, O, B-LC, I-OG
-13	##록	I-LC	I-LC	I-LC, I-AF, O, B-LC, I-OG
-14	##에서	O	O	O, I-LC, I-AF, B-LC, B-AF
-15	‘	O	O	O, B-LC, B-AF, B-CV, B-TM
-16	송도	B-LC	B-AF	B-AF, B-LC, O, B-EV, B-PS
-17	더샵	B-AF	I-AF	I-AF, B-AF, I-LC, B-LC, O
-18	센트럴	I-AF	I-AF	I-AF, B-AF, I-LC, O, I-PS
-19	##시티	I-AF	I-AF	I-AF, I-LC, O, I-TM, I-PS
-20	’	O	O	O, I-AF, I-LC, I-EV, I-OG
-21	를	O	O	O, B-LC, B-CV, I-AF, B-TM
-22	분양	O	O	O, B-LC, B-CV, B-TM, B-AF
-23	##한다	O	O	O, B-LC, B-OG, B-CV, I-AF
-24	.	O	O	O, B-LC, B-AF, B-OG, I-AF
-25	[SEP]	O	O	O, B-LC, I-LC, B-AF, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	해외	O	O
+2	전문가	B-CV	B-CV
+3	##들	O	O
+4	##은	O	O
+5	또	O	O
+6	핵	B-AF	B-AF
+7	##을	O	O
+8	가진	O	O
+9	북한	B-OG	B-OG
+10	##이	O	O
+11	남한	B-LC	B-OG
+12	##을	O	O
+13	상대	O	O
+14	##로	O	O
+15	과감	O	O
+16	##한	O	O
+17	무력	O	O
+18	##시위	O	O
+19	##나	O	O
+20	공세	O	O
+21	##를	O	O
+22	할	O	O
+23	우려	O	O
+24	##가	O	O
+25	크	O	O
+26	##다고	O	O
+27	입	B-AM	B-AM
+28	##을	O	O
+29	모았	O	O
+30	##다	O	O
+31	.	O	O
+32	[SEP]	O	O

@@ -1,25 +1,49 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-AF
-1	이런	O	O	O, B-CV, B-TM, B-OG, B-LC
-2	임무	O	O	O, B-CV, B-TM, B-LC, B-EV
-3	##를	O	O	O, B-CV, I-OG, B-PS, I-CV
-4	맡	O	O	O, B-CV, B-OG, B-PS, B-TM
-5	##은	O	O	O, B-CV, B-PS, B-OG, B-LC
-6	시시	B-AF	B-PS	B-PS, O, B-AF, B-OG, B-CV
-7	##의	O	O	O, I-OG, I-AF, I-PS, I-EV
-8	외부	O	O	O, B-TM, B-CV, B-LC, B-TR
-9	디자인	O	O	O, B-FD, B-TM, B-CV, B-TR
-10	##은	O	O	O, B-CV, I-TM, I-CV, B-TM
-11	골프	B-CV	B-AF	B-AF, B-CV, O, B-PS, B-OG
-12	##나	O	O	O, I-AF, I-CV, I-OG, I-EV
-13	파사	B-AF	O	O, B-AF, B-PS, B-TM, B-OG
-14	##트	I-AF	I-AF	I-AF, O, I-OG, I-TM, I-PS
-15	##보	O	O	O, I-AF, I-OG, B-CV, I-EV
-16	##다	O	O	O, B-CV, I-AF, B-LC, B-TM
-17	날렵	O	O	O, B-TM, B-CV, B-LC, B-OG
-18	##한	O	O	O, B-OG, B-LC, B-PS, B-TM
-19	쪽	O	O	O, B-TM, B-OG, B-CV, B-PS
-20	##에	O	O	O, B-CV, I-OG, B-OG, I-AF
-21	속한다	O	O	O, B-CV, B-OG, B-TM, B-LC
-22	.	O	O	O, B-CV, B-LC, B-OG, B-TM
-23	[SEP]	O	O	O, B-CV, B-TM, B-LC, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	김	B-PS	B-PS
+2	원장	B-CV	B-CV
+3	##은	O	O
+4	“	O	O
+5	청와대	B-AF	B-OG
+6	##에	O	O
+7	##서	O	O
+8	수술	O	O
+9	##이나	O	O
+10	피부	B-TM	O
+11	##시	O	O
+12	##술	O	O
+13	##은	O	O
+14	물론	O	O
+15	##이	O	O
+16	##고	O	O
+17	마사지	O	O
+18	##도	O	O
+19	한	O	O
+20	적	O	O
+21	##이	O	O
+22	없	O	O
+23	##다	O	O
+24	”	O	O
+25	며	O	O
+26	“	O	O
+27	(	O	O
+28	박	B-PS	B-PS
+29	대통령	B-CV	B-CV
+30	##이	O	O
+31	)	O	O
+32	흉터	O	O
+33	##에	O	O
+34	콤플렉스	O	O
+35	##가	O	O
+36	있	O	O
+37	##는	O	O
+38	것	O	O
+39	같	O	O
+40	##다	O	O
+41	”	O	O
+42	고	O	O
+43	주장	O	O
+44	##했	O	O
+45	##다	O	O
+46	.	O	O
+47	[SEP]	O	O

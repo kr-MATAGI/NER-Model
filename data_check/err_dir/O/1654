@@ -1,29 +1,29 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, B-CV, I-OG, I-AF
-1	“	O	O	O, B-PS, B-CV, B-LC, B-FD
-2	고향	O	O	O, B-LC, B-CV, B-PS, B-FD
-3	##을	O	O	O, B-PS, B-CV, I-CV, I-LC
-4	떠나	O	O	O, B-PS, B-CV, B-LC, B-AF
-5	서울	B-LC	B-LC	B-LC, O, B-OG, B-AF, B-PS
-6	강남	B-LC	B-AF	B-AF, B-LC, O, B-OG, B-PS
-7	하우스	O	I-AF	I-AF, O, I-OG, I-LC, I-PS
-8	##에	O	O	O, I-AF, I-OG, I-LC, I-PS
-9	입성	O	O	O, B-CV, B-PS, I-AF, B-LC
-10	##한	O	O	O, B-PS, B-LC, B-CV, B-AF
-11	대	O	O	O, B-PS, I-PS, B-LC, B-CV
-12	##길	O	O	O, I-PS, B-PS, I-AF, I-LC
-13	##이	O	O	O, B-PS, I-PS, B-LC, B-CV
-14	달라지	O	O	O, B-PS, I-PS, B-CV, B-LC
-15	##는	O	O	O, B-PS, I-PS, B-CV, B-LC
-16	모습	O	O	O, B-PS, B-CV, I-PS, B-LC
-17	##을	O	O	O, B-PS, B-CV, I-PS, B-LC
-18	연기	O	O	O, B-CV, B-FD, B-PS, B-LC
-19	##할	O	O	O, B-PS, B-CV, I-CV, I-PS
-20	땐	O	O	O, B-CV, B-PS, B-LC, I-CV
-21	정말	O	O	O, B-CV, B-TM, B-PS, B-OG
-22	신나	O	O	O, B-CV, B-PS, B-LC, B-AF
-23	##더라	O	O	O, B-PS, I-CV, B-CV, I-OG
-24	##고	O	O	O, B-PS, I-CV, I-PS, B-CV
-25	##요	O	O	O, B-PS, I-PS, I-CV, B-CV
-26	.	O	O	O, B-PS, B-CV, B-LC, I-PS
-27	[SEP]	O	O	O, B-PS, B-CV, B-LC, B-FD
+	text	label	preds
+0	[CLS]	O	O
+1	[	O	O
+2	방한	O	O
+3	반기문	B-PS	B-PS
+4	,	O	O
+5	대선	B-EV	B-EV
+6	##출	O	O
+7	##마	O	O
+8	시사	O	O
+9	]	O	O
+10	기자	O	O
+11	##간	O	O
+12	##담회	O	O
+13	80	B-TI	B-TI
+14	##분	I-TI	I-TI
+15	넘	O	O
+16	##게	O	O
+17	이어져	O	O
+18	…	O	O
+19	潘	O	B-PS
+20	,	O	O
+21	과거	O	O
+22	##와	O	O
+23	달리	O	O
+24	구체	O	O
+25	##적	O	O
+26	답변	O	O
+27	[SEP]	O	O

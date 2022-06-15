@@ -1,7 +1,13 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	앞	O	B-TM	B-TM, O, B-TR, B-CV, B-QT
-2	##에	O	O	O, I-TM, I-AF, I-CV, I-QT
-3	##는	O	O	O, B-CV, B-LC, I-AF, B-TM
-4	남산	B-LC	B-LC	B-LC, O, B-AF, B-PS, B-OG
-5	[SEP]	O	O	O, I-LC, I-AF, I-OG, I-EV
+	text	label	preds
+0	[CLS]	O	O
+1	다음	O	O
+2	##에	O	O
+3	고춧가루	B-CV	B-CV
+4	위	O	B-TM
+5	##에다	O	O
+6	##가	O	O
+7	솔솔	O	O
+8	##솔	O	O
+9	뿌려	O	O
+10	##서	O	O
+11	[SEP]	O	O

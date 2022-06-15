@@ -1,30 +1,47 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-EV, I-CV
-1	조용	B-PS	B-PS	B-PS, B-OG, O, B-LC, I-PS
-2	##환	I-PS	I-PS	I-PS, I-OG, O, I-LC, B-PS
-3	헌법	B-CV	B-CV	B-CV, O, B-OG, B-AF, B-EV
-4	##재판	I-CV	I-CV	I-CV, B-CV, O, I-EV, I-OG
-5	##관	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-EV
-6	후보자	B-CV	B-CV	B-CV, O, I-CV, B-EV, B-AF
-7	인준	O	O	O, I-CV, I-EV, I-OG, B-CV
-8	반대	O	O	O, B-PS, I-EV, B-LC, B-OG
-9	##의	O	O	O, B-PS, B-LC, B-CV, B-OG
-10	도화	O	O	O, B-LC, B-AF, B-PS, B-CV
-11	##선	O	O	O, B-LC, I-LC, B-PS, I-CV
-12	##이	O	O	O, B-PS, B-CV, B-LC, B-OG
-13	된	O	O	O, B-CV, B-LC, B-EV, B-QT
-14	지난	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-QT
-15	6	I-DT	I-DT	I-DT, O, I-EV, B-DT, I-PS
-16	##월	I-DT	I-DT	I-DT, O, I-EV, B-DT, I-PS
-17	##28	I-DT	I-DT	I-DT, O, B-DT, I-EV, I-PS
-18	##일	I-DT	I-DT	I-DT, O, I-EV, B-DT, I-OG
-19	국회	B-OG	B-OG	B-OG, B-AF, B-LC, B-EV, O
-20	인사	O	B-EV	B-EV, O, I-EV, B-OG, B-CV
-21	##청	O	I-EV	I-EV, O, I-OG, I-AF, B-EV
-22	##문	O	I-EV	I-EV, O, I-OG, I-AF, I-LC
-23	##회의	O	I-EV	I-EV, O, I-OG, I-AF, I-LC
-24	한	O	O	O, B-QT, I-EV, B-LC, I-QT
-25	장면	O	O	O, I-QT, B-QT, I-LC, I-AF
-26	##이다	O	O	O, I-QT, B-CV, I-AF, I-CV
-27	.	O	O	O, B-LC, B-PS, B-OG, B-EV
-28	[SEP]	O	O	O, I-EV, B-LC, B-PS, B-CV
+	text	label	preds
+0	[CLS]	O	O
+1	연말	O	B-DT
+2	국회	B-OG	B-OG
+3	때	O	O
+4	야당	O	O
+5	##이	O	O
+6	주도	O	O
+7	##했	O	O
+8	##던	O	O
+9	'	O	O
+10	폭력	O	O
+11	##국	O	O
+12	##회	O	O
+13	'	O	O
+14	의	O	O
+15	문제점	O	O
+16	##을	O	O
+17	부각	O	O
+18	##시	O	O
+19	##키	O	O
+20	##고	O	O
+21	야당	O	O
+22	##이	O	O
+23	'	O	O
+24	MB	O	B-PS
+25	##악	O	O
+26	##법	O	O
+27	'	O	O
+28	으로	O	O
+29	주장	O	O
+30	##하	O	O
+31	##는	O	O
+32	쟁점	O	O
+33	법안	O	O
+34	##들의	O	O
+35	정확	O	O
+36	##한	O	O
+37	내용	O	O
+38	##을	O	O
+39	알리	O	O
+40	##겠다	O	O
+41	##는	O	O
+42	목적	O	O
+43	##이다	O	O
+44	.	O	O
+45	[SEP]	O	O

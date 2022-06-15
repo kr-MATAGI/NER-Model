@@ -1,37 +1,23 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-QT
-1	학교	O	O	O, B-OG, B-CV, I-OG, B-PS
-2	##를	O	O	O, I-OG, B-CV, B-PS, B-OG
-3	떠나	O	O	O, B-CV, B-PS, B-OG, B-LC
-4	##서	O	O	O, B-PS, B-LC, B-CV, B-OG
-5	##는	O	O	O, B-PS, B-OG, B-LC, B-CV
-6	제	B-QT	B-QT	B-QT, O, I-QT, B-EV, B-DT
-7	##3	I-QT	I-QT	I-QT, B-QT, O, I-EV, I-LC
-8	·	O	I-QT	I-QT, O, B-QT, I-EV, I-LC
-9	4	B-QT	I-QT	I-QT, B-QT, O, I-LC, I-EV
-10	##대	I-QT	I-QT	I-QT, O, I-EV, I-LC, I-OG
-11	국회의원	B-CV	B-CV	B-CV, O, I-QT, B-OG, I-CV
-12	##으로	O	O	O, I-CV, I-QT, B-CV, I-OG
-13	활동	O	O	O, B-CV, B-LC, B-OG, B-PS
-14	##하	O	O	O, B-PS, B-LC, B-OG, B-CV
-15	##며	O	O	O, B-LC, B-PS, B-OG, B-CV
-16	지역	O	O	O, B-LC, B-CV, B-FD, B-OG
-17	##사회	O	O	O, I-OG, I-LC, I-CV, I-TR
-18	##와	O	O	O, B-PS, B-LC, I-OG, B-CV
-19	모교	O	O	O, B-OG, B-CV, B-FD, B-LC
-20	발전	O	O	O, B-CV, I-OG, I-CV, B-PS
-21	##을	O	O	O, B-PS, B-CV, B-LC, B-OG
-22	위해	O	O	O, B-LC, B-CV, B-PS, B-OG
-23	헌신	O	O	O, B-CV, B-LC, B-PS, B-OG
-24	##하	O	O	O, B-PS, B-LC, B-CV, B-OG
-25	##다	O	O	O, B-PS, B-LC, B-OG, B-QT
-26	1973	B-DT	B-DT	B-DT, O, B-QT, I-DT, B-EV
-27	##년	I-DT	I-DT	I-DT, O, I-QT, B-DT, I-PS
-28	54	B-QT	B-QT	B-QT, I-QT, O, I-DT, B-DT
-29	##세	I-QT	I-QT	I-QT, O, I-DT, I-EV, I-OG
-30	때	O	O	O, I-QT, I-DT, I-OG, I-EV
-31	별세	O	O	O, B-CV, B-OG, I-QT, B-PS
-32	##했	O	O	O, I-OG, B-PS, B-LC, I-QT
-33	##다	O	O	O, B-CV, B-PS, I-OG, B-LC
-34	.	O	O	O, B-PS, B-LC, B-CV, B-OG
-35	[SEP]	O	O	O, B-CV, B-PS, B-LC, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	위안	B-CV	B-CV
+2	##의	O	O
+3	특별	B-CV	B-CV
+4	##인	I-CV	I-CV
+5	##출	I-CV	I-CV
+6	##권	I-CV	I-CV
+7	편입	O	O
+8	##이	O	O
+9	중국	B-LC	B-OG
+10	##에	O	O
+11	경사	O	O
+12	##임	O	O
+13	##은	O	O
+14	두말	B-QT	O
+15	##할	O	O
+16	나위	O	O
+17	##가	O	O
+18	없	O	O
+19	##다	O	O
+20	.	O	O
+21	[SEP]	O	O

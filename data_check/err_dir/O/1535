@@ -1,43 +1,8 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	1996	B-DT	B-DT	B-DT, O, B-QT, I-DT, B-EV
-2	##년	I-DT	I-DT	I-DT, O, I-QT, B-DT, I-PS
-3	15	B-QT	B-QT	B-QT, O, I-QT, B-EV, B-DT
-4	##대	I-QT	I-QT	I-QT, O, I-EV, I-DT, I-OG
-5	총선	B-EV	B-EV	B-EV, O, I-EV, B-OG, B-CV
-6	당시	O	O	O, I-EV, I-OG, I-AF, B-PS
-7	서울	B-LC	B-LC	B-LC, O, B-OG, B-AF, B-PS
-8	서대문	B-LC	B-LC	B-LC, O, I-LC, B-OG, B-AF
-9	##에	O	O	O, B-PS, I-LC, I-PS, B-LC
-10	한나라당	B-OG	B-OG	B-OG, O, B-PS, B-AF, B-LC
-11	##의	O	O	O, I-OG, I-AF, I-PS, I-EV
-12	전신	O	O	O, B-PS, B-CV, B-QT, B-LC
-13	##인	O	O	O, B-PS, B-CV, I-PS, B-OG
-14	신한	B-OG	B-OG	B-OG, O, B-PS, I-OG, B-CV
-15	##국	I-OG	I-OG	I-OG, O, B-OG, I-PS, I-AF
-16	##당	I-OG	I-OG	I-OG, O, I-PS, I-CV, I-AF
-17	후보	B-CV	B-CV	B-CV, O, I-CV, I-OG, B-AF
-18	##로	O	O	O, B-PS, I-CV, B-CV, I-EV
-19	출마	O	O	O, B-PS, B-CV, B-LC, B-EV
-20	##해	O	O	O, B-PS, I-PS, B-LC, B-OG
-21	낙선	O	O	O, B-CV, B-LC, I-EV, B-TM
-22	##했	O	O	O, B-PS, I-PS, B-LC, B-OG
-23	##을	O	O	O, B-PS, I-PS, B-CV, B-LC
-24	때	O	O	O, B-PS, I-PS, B-LC, B-CV
-25	종로	O	B-LC	B-LC, O, B-OG, B-AF, B-PS
-26	##에서	O	O	O, B-PS, I-PS, I-LC, B-LC
-27	국회의원	B-CV	B-CV	B-CV, O, B-EV, B-TM, B-OG
-28	##에	O	O	O, I-CV, I-EV, B-CV, I-AF
-29	당선	O	O	O, B-PS, B-CV, B-LC, B-OG
-30	##된	O	O	O, B-PS, B-LC, I-PS, B-OG
-31	이	B-PS	B-PS	B-PS, O, I-PS, B-LC, B-OG
-32	대통령	B-CV	B-CV	B-CV, O, I-PS, I-CV, B-EV
-33	##과	O	O	O, I-CV, B-CV, I-EV, I-AF
-34	처음	O	O	O, B-CV, B-PS, B-QT, B-LC
-35	인연	O	O	O, B-CV, B-LC, B-TM, B-OG
-36	##을	O	O	O, B-CV, B-OG, I-EV, I-OG
-37	맺	O	O	O, B-CV, B-LC, B-TM, B-OG
-38	##었	O	O	O, B-CV, I-EV, B-PS, B-LC
-39	##다	O	O	O, B-CV, B-LC, I-EV, B-TM
-40	.	O	O	O, B-PS, B-LC, B-CV, B-OG
-41	[SEP]	O	O	O, B-PS, B-CV, B-LC, I-EV
+	text	label	preds
+0	[CLS]	O	O
+1	요거	O	O
+2	##는	O	O
+3	반찬	B-CV	B-CV
+4	요리	O	I-CV
+5	##로	O	O
+6	[SEP]	O	O

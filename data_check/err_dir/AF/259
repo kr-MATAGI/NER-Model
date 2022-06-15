@@ -1,47 +1,32 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-EV, I-CV
-1	일본	B-LC	B-LC	B-LC, B-OG, O, B-PS, B-AF
-2	정부	B-OG	B-OG	B-OG, I-OG, O, B-LC, B-AF
-3	##는	O	O	O, I-OG, B-CV, I-EV, B-OG
-4	장	O	O	O, B-AF, B-CV, B-LC, B-TM
-5	##물	O	O	O, I-AF, I-CV, I-LC, I-EV
-6	##이	O	O	O, B-PS, B-LC, B-OG, I-AF
-7	##므로	O	O	O, B-LC, B-PS, B-OG, B-CV
-8	즉각	O	O	O, B-LC, B-CV, B-OG, B-TM
-9	돌려	O	O	O, B-LC, B-CV, B-OG, B-PS
-10	##줄	O	O	O, B-PS, B-LC, B-CV, I-LC
-11	것	O	O	O, B-LC, B-CV, B-PS, B-OG
-12	##을	O	O	O, B-CV, B-LC, B-OG, B-PS
-13	요구	O	O	O, B-LC, B-CV, B-OG, B-TM
-14	##하고	O	O	O, B-LC, B-CV, B-PS, B-OG
-15	있	O	O	O, B-OG, B-LC, B-CV, B-PS
-16	##으나	O	O	O, B-LC, B-OG, B-PS, B-CV
-17	,	O	O	O, B-OG, B-LC, B-CV, B-PS
-18	대전	B-OG	B-OG	B-OG, O, I-OG, B-LC, B-AF
-19	##지	I-OG	I-OG	I-OG, O, B-OG, I-LC, I-AF
-20	##법	I-OG	I-OG	I-OG, O, I-LC, B-OG, I-AF
-21	##은	O	O	O, I-OG, B-OG, I-EV, B-PS
-22	충남	B-LC	B-LC	B-LC, O, B-OG, B-AF, B-PS
-23	서산	B-LC	B-LC	B-LC, O, I-LC, B-OG, B-AF
-24	##의	O	O	O, I-LC, B-LC, I-OG, I-AF
-25	부	B-AF	B-OG	B-OG, B-AF, O, B-PS, B-LC
-26	##석	I-AF	I-OG	I-OG, I-AF, O, I-LC, I-PS
-27	##사	I-AF	I-OG	I-OG, I-AF, O, I-LC, I-PS
-28	##가	O	O	O, I-OG, I-AF, I-LC, B-LC
-29	우리	O	O	O, B-LC, B-OG, B-PS, B-AF
-30	정부	B-OG	B-OG	B-OG, O, I-OG, B-LC, B-AF
-31	##를	O	O	O, I-OG, I-AF, I-CV, I-EV
-32	상대	O	O	O, B-CV, B-LC, B-OG, B-TM
-33	##로	O	O	O, B-LC, B-OG, B-PS, B-CV
-34	낸	O	O	O, B-CV, B-LC, B-OG, B-AF
-35	불상	O	O	O, B-AF, B-CV, B-QT, B-EV
-36	점유	O	O	O, B-CV, B-LC, B-TM, I-CV
-37	이전	O	O	O, B-LC, B-CV, I-CV, B-PS
-38	금지	O	O	O, B-LC, B-TM, B-CV, B-PS
-39	가처분	O	O	O, B-CV, B-LC, B-TM, B-PS
-40	신청	O	O	O, B-CV, B-LC, B-TM, B-PS
-41	##을	O	O	O, B-CV, B-LC, B-OG, B-PS
-42	받아들였	O	O	O, B-CV, B-OG, B-LC, B-PS
-43	##다	O	O	O, B-CV, B-LC, B-OG, I-OG
-44	.	O	O	O, B-LC, B-OG, B-CV, B-PS
-45	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	현대	B-OG	B-OG
+2	##백화점	I-OG	I-OG
+3	##이	O	O
+4	지난	B-DT	B-DT
+5	15	I-DT	I-DT
+6	##일	I-DT	I-DT
+7	오리온	B-OG	B-OG
+8	##과	O	O
+9	손잡	O	O
+10	##고	O	O
+11	판교	B-LC	B-AF
+12	##점	O	I-AF
+13	지하	O	O
+14	1	B-QT	B-QT
+15	##층	I-QT	I-QT
+16	##에	O	O
+17	‘	O	O
+18	초코	B-AF	B-CV
+19	##파이	I-AF	I-CV
+20	하우스	I-AF	O
+21	’	O	O
+22	를	O	O
+23	연	O	O
+24	것	O	O
+25	##이	O	O
+26	대표	O	O
+27	##적	O	O
+28	##이다	O	O
+29	.	O	O
+30	[SEP]	O	O

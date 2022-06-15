@@ -1,38 +1,60 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	경인	B-OG	B-OG	B-OG, O, B-LC, I-OG, B-AF
-2	##교	I-OG	I-OG	I-OG, O, I-LC, B-OG, I-AF
-3	##대	I-OG	I-OG	I-OG, O, I-LC, I-AF, I-QT
-4	##는	O	O	O, I-OG, I-AF, B-CV, I-EV
-5	대학	O	O	O, B-OG, B-LC, B-CV, B-PS
-6	자체	O	O	O, I-OG, B-OG, B-PS, B-LC
-7	유아	O	O	O, B-OG, B-FD, B-CV, B-AF
-8	##교육	O	O	O, I-OG, I-FD, I-AF, I-LC
-9	##연구소	O	O	O, I-OG, I-AF, I-LC, I-FD
-10	##에서	O	O	O, I-OG, B-PS, I-AF, B-CV
-11	개발	O	O	O, B-CV, B-TM, B-LC, B-PS
-12	##한	O	O	O, B-PS, B-LC, B-OG, B-CV
-13	여러	O	O	O, B-CV, B-LC, B-QT, B-TM
-14	가지	O	O	O, B-QT, B-TM, B-PS, B-LC
-15	아동	O	O	O, B-TM, B-CV, B-FD, B-TR
-16	##지도	O	O	O, I-TM, I-CV, I-FD, I-TR
-17	프로그램	O	O	O, I-TM, I-CV, I-FD, B-CV
-18	##을	O	O	O, B-CV, I-CV, B-PS, B-OG
-19	보유	O	O	O, B-CV, B-TM, B-OG, B-LC
-20	##하고	O	O	O, B-PS, B-LC, B-OG, I-OG
-21	있	O	O	O, B-CV, B-OG, B-PS, B-LC
-22	##고	O	O	O, B-CV, B-PS, I-OG, B-OG
-23	,	O	O	O, B-CV, B-PS, B-LC, B-OG
-24	예비	B-CV	B-CV	B-CV, O, B-FD, B-AF, B-QT
-25	##교사	I-CV	B-CV	B-CV, I-CV, O, I-QT, B-QT
-26	##인	O	O	O, I-CV, B-CV, B-PS, I-OG
-27	교대	B-CV	B-CV	B-CV, O, I-CV, B-QT, B-OG
-28	##생	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-QT
-29	##들이	O	O	O, I-CV, B-CV, I-OG, I-QT
-30	지도	O	B-CV	B-CV, O, B-TM, B-FD, I-CV
-31	교사	B-CV	B-CV	B-CV, I-CV, O, I-QT, B-FD
-32	##로	O	O	O, I-CV, B-CV, I-QT, I-OG
-33	참여	O	O	O, B-CV, I-CV, B-PS, B-TM
-34	##한다	O	O	O, B-CV, B-OG, B-PS, B-LC
-35	.	O	O	O, B-CV, B-LC, B-PS, B-OG
-36	[SEP]	O	O	O, B-CV, B-LC, B-PS, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	검찰	B-OG	B-OG
+2	##은	O	O
+3	이날	B-DT	B-DT
+4	서울	B-OG	B-OG
+5	##중	I-OG	I-OG
+6	##앙	I-OG	I-OG
+7	##지	I-OG	I-OG
+8	##검	I-OG	I-OG
+9	김희	B-PS	B-PS
+10	##관	I-PS	I-PS
+11	2	B-CV	B-CV
+12	##차	I-CV	I-CV
+13	##장	I-CV	I-CV
+14	검사	B-CV	I-CV
+15	주재	O	O
+16	##로	O	O
+17	경찰	B-OG	B-OG
+18	등	O	O
+19	관련	O	O
+20	기관	O	O
+21	##과	O	O
+22	대책	O	O
+23	##회의	O	O
+24	##를	O	O
+25	열	O	O
+26	##어	O	O
+27	28	B-DT	B-DT
+28	##일	I-DT	I-DT
+29	예정	O	O
+30	##된	O	O
+31	‘	O	O
+32	10	B-EV	B-QT
+33	##만	I-EV	I-QT
+34	범	I-EV	I-QT
+35	##국	I-EV	I-QT
+36	##민	I-EV	I-QT
+37	##대	I-EV	O
+38	##회	I-EV	O
+39	’	O	O
+40	때	O	O
+41	발생	O	O
+42	##할	O	O
+43	가능	O	O
+44	##성이	O	O
+45	있	O	O
+46	##는	O	O
+47	불법행위	O	O
+48	##에	O	O
+49	대해	O	O
+50	엄정	O	O
+51	대처	O	O
+52	##하	O	O
+53	##기	O	O
+54	##로	O	O
+55	했	O	O
+56	##다	O	O
+57	.	O	O
+58	[SEP]	O	O

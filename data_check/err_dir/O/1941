@@ -1,47 +1,41 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	정진	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
-2	##후	I-PS	I-PS	I-PS, O, I-OG, I-LC, B-PS
-3	정의당	B-OG	B-OG	B-OG, O, B-AF, B-LC, I-PS
-4	의원	B-CV	B-CV	B-CV, O, I-CV, I-OG, B-OG
-5	##은	O	O	O, I-CV, I-OG, I-EV, B-CV
-6	“	O	O	O, B-PS, B-CV, B-OG, B-LC
-7	이	O	O	O, B-PS, B-OG, B-QT, B-CV
-8	안	O	O	O, B-PS, I-PS, B-CV, I-QT
-9	대로	O	O	O, B-PS, B-CV, I-PS, B-QT
-10	##라면	O	O	O, B-PS, I-PS, B-OG, B-LC
-11	이재용	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-12	삼성전자	B-OG	B-OG	B-OG, O, I-OG, B-AF, I-PS
-13	부회장	B-CV	B-CV	B-CV, O, I-CV, I-OG, B-TM
-14	아들	B-CV	B-CV	B-CV, I-CV, O, B-TM, B-AF
-15	##을	O	O	O, I-CV, B-CV, I-EV, I-AF
-16	부정	O	O	O, B-CV, B-TM, B-LC, B-EV
-17	##입	O	O	O, B-CV, I-CV, B-LC, B-PS
-18	##학	O	O	O, I-CV, I-LC, B-LC, I-PS
-19	##시	O	O	O, B-LC, B-PS, B-CV, I-CV
-20	##켜	O	O	O, B-LC, B-PS, B-CV, I-LC
-21	한국사	O	O	O, B-LC, B-FD, B-OG, B-EV
-22	##회	O	O	O, I-LC, I-EV, I-OG, I-FD
-23	##를	O	O	O, B-LC, B-PS, B-CV, I-LC
-24	발	O	O	O, B-LC, B-TM, B-CV, B-QT
-25	##칵	O	O	O, B-LC, B-PS, B-TM, B-CV
-26	뒤집어	O	O	O, B-LC, B-CV, B-EV, B-QT
-27	놓	O	O	O, B-EV, B-LC, B-PS, B-CV
-28	##았	O	O	O, B-EV, B-CV, I-EV, B-PS
-29	##던	O	O	O, B-EV, I-EV, B-PS, B-CV
-30	영	B-OG	B-EV	B-EV, B-OG, O, I-EV, B-PS
-31	##훈	I-OG	I-EV	I-EV, I-OG, O, I-QT, I-PS
-32	##국제	I-OG	I-EV	I-EV, I-OG, O, B-EV, I-QT
-33	##중	I-OG	I-EV	I-EV, I-OG, O, I-QT, B-EV
-34	##도	O	I-EV	I-EV, I-OG, O, I-QT, I-CV
-35	평가	O	I-EV	I-EV, O, I-OG, I-QT, I-CV
-36	##를	O	O	O, I-EV, I-OG, I-QT, I-AF
-37	통과	O	O	O, B-CV, B-OG, B-TM, I-EV
-38	##할	O	O	O, B-PS, B-OG, B-LC, B-CV
-39	수	O	O	O, B-PS, B-LC, B-OG, B-CV
-40	있	O	O	O, B-PS, B-LC, B-CV, B-OG
-41	##을	O	O	O, B-PS, B-OG, B-LC, B-CV
-42	정도	O	O	O, B-PS, B-CV, B-LC, B-QT
-43	##다	O	O	O, B-CV, B-LC, I-OG, I-QT
-44	.	O	O	O, B-LC, B-PS, B-CV, I-EV
-45	[SEP]	O	O	O, B-CV, B-LC, I-EV, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	아직	O	O
+2	결핵	B-TM	B-TM
+3	##이	O	O
+4	발병	O	O
+5	##하	O	O
+6	##지	O	O
+7	##는	O	O
+8	않	O	O
+9	##았	O	O
+10	##지만	O	O
+11	병	O	O
+12	·	O	O
+13	의원	O	O
+14	##에	O	O
+15	##서	O	O
+16	결핵	B-TM	B-TM
+17	##균	I-TM	I-TM
+18	##을	O	O
+19	얻	O	O
+20	##은	O	O
+21	것	O	O
+22	##으로	O	O
+23	추정	O	O
+24	##되	O	O
+25	##는	O	O
+26	잠복	O	O
+27	##결	B-TM	B-TM
+28	##핵	I-TM	I-TM
+29	보	O	B-CV
+30	##균	O	I-CV
+31	##자	O	I-CV
+32	##도	O	O
+33	295	B-QT	B-QT
+34	##0	I-QT	I-QT
+35	##명	I-QT	I-QT
+36	##이나	O	O
+37	된다	O	O
+38	.	O	O
+39	[SEP]	O	O

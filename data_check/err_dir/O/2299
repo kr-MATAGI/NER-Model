@@ -1,17 +1,41 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	딱	O	O	O, B-CV, B-QT, B-TM, I-OG
-2	한	O	B-QT	B-QT, O, I-QT, B-EV, B-PS
-3	번	O	I-QT	I-QT, O, I-LC, I-EV, B-QT
-4	하	O	O	O, I-QT, B-CV, I-EV, I-OG
-5	##는	O	O	O, B-CV, B-PS, I-QT, B-LC
-6	그	O	O	O, B-CV, B-OG, B-LC, B-TM
-7	~	O	O	O, I-CV, I-QT, B-PS, B-CV
-8	있	O	O	O, B-CV, B-QT, B-PS, B-TM
-9	##는	O	O	O, B-CV, B-PS, B-LC, B-OG
-10	기회	O	O	O, B-CV, B-EV, B-PS, B-QT
-11	##이	O	O	O, B-CV, B-PS, B-OG, I-EV
-12	##기	O	O	O, B-CV, B-OG, B-PS, I-OG
-13	때문	O	O	O, B-CV, B-OG, B-LC, B-TM
-14	##에	O	O	O, B-CV, B-OG, I-OG, I-AF
-15	[SEP]	O	O	O, B-CV, B-LC, I-EV, B-QT
+	text	label	preds
+0	[CLS]	O	O
+1	20	B-DT	B-DT
+2	##년	I-DT	I-DT
+3	가까이	O	O
+4	행	B-LC	B-LC
+5	##당	I-LC	I-LC
+6	##동	I-LC	I-LC
+7	##에	O	O
+8	##서	O	O
+9	마트	O	O
+10	##를	O	O
+11	하	O	O
+12	##는	O	O
+13	전	B-PS	B-PS
+14	##아	O	O
+15	##무	O	O
+16	##개	O	O
+17	(	O	O
+18	46	B-QT	B-QT
+19	)	O	O
+20	씨	O	O
+21	##는	O	O
+22	이마트	B-OG	B-OG
+23	##가	O	O
+24	입점	O	O
+25	##하면	O	O
+26	##서	O	O
+27	하루	B-DT	B-DT
+28	매출	O	O
+29	##이	O	O
+30	반	O	B-QT
+31	##토	O	I-QT
+32	##막	O	I-QT
+33	났	O	O
+34	##다고	O	O
+35	말	O	O
+36	##했	O	O
+37	##다	O	O
+38	.	O	O
+39	[SEP]	O	O

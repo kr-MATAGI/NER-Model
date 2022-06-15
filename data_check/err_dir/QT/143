@@ -1,13 +1,45 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-AF
-1	두	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-TM
-2	개	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-DT
-3	##가	O	O	O, I-QT, I-OG, I-AF, B-CV
-4	되게	O	O	O, B-CV, B-OG, B-LC, B-QT
-5	둘	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-CV
-6	다	I-QT	O	O, I-QT, B-QT, I-DT, I-LC
-7	큰	O	O	O, I-QT, B-CV, B-QT, B-TM
-8	거	O	O	O, B-CV, B-OG, B-PS, I-QT
-9	##잖아요	O	O	O, B-CV, I-OG, B-OG, I-AF
-10	?	O	O	O, B-CV, I-AF, B-OG, I-OG
-11	[SEP]	O	O	O, B-CV, B-OG, I-AF, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	이	O	O
+2	##들	O	O
+3	클라	B-AF	B-AF
+4	##리	I-AF	I-AF
+5	##넷	I-AF	I-AF
+6	삼	B-QT	I-PS
+7	##부	I-QT	I-PS
+8	##자	I-QT	I-PS
+9	##처럼	O	O
+10	오케스트라	B-FD	B-FD
+11	##와	O	O
+12	솔	B-CV	B-CV
+13	##리스트	I-CV	I-CV
+14	활동	O	O
+15	##을	O	O
+16	겸	O	O
+17	##업	O	O
+18	##하	O	O
+19	##는	O	O
+20	'	O	O
+21	투	O	B-CV
+22	##잡	O	I-CV
+23	(	O	I-CV
+24	tw	O	I-CV
+25	##o	O	I-CV
+26	j	O	I-CV
+27	##ob	O	I-CV
+28	)	O	I-CV
+29	족	O	I-CV
+30	'	O	O
+31	을	O	O
+32	세계	O	O
+33	음악	O	O
+34	##계	O	O
+35	##에	O	O
+36	##선	O	O
+37	흔히	O	O
+38	볼	O	O
+39	수	O	O
+40	있	O	O
+41	##다	O	O
+42	.	O	O
+43	[SEP]	O	O

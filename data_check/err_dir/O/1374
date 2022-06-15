@@ -1,5 +1,10 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	우	O	B-PS	B-PS, O, B-AM, B-OG, B-CV
-2	##씨	O	O	O, I-PS, B-CV, I-CV, I-AF
-3	[SEP]	O	O	O, B-CV, B-TM, I-CV, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	하이드	O	B-LC
+2	##파크	O	I-LC
+3	근처	O	O
+4	중산층	O	O
+5	거주지	O	O
+6	##다	O	O
+7	.	O	O
+8	[SEP]	O	O

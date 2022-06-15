@@ -1,37 +1,39 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	하지만	O	O	O, B-OG, B-CV, B-LC, B-TM
-2	북한	B-OG	B-OG	B-OG, B-LC, O, B-PS, B-AF
-3	##과	O	O	O, I-OG, I-LC, I-PS, B-OG
-4	국제	O	O	O, B-OG, B-CV, I-OG, B-LC
-5	##사회	O	O	O, I-OG, I-LC, I-CV, B-OG
-6	##의	O	O	O, B-PS, B-LC, B-OG, I-OG
-7	궁극	O	O	O, B-LC, B-PS, B-OG, B-CV
-8	##적인	O	O	O, B-LC, B-PS, I-LC, I-PS
-9	현안	O	O	O, B-LC, B-CV, B-OG, B-TM
-10	##인	O	O	O, B-LC, B-PS, B-CV, B-OG
-11	북한	B-OG	B-LC	B-LC, B-OG, O, B-AF, B-PS
-12	비핵화	O	O	O, B-CV, I-LC, I-OG, I-CV
-13	문제	O	O	O, B-LC, B-PS, I-CV, I-LC
-14	##가	O	O	O, B-PS, B-LC, B-OG, B-CV
-15	최종	O	O	O, B-LC, B-CV, B-PS, B-OG
-16	##적으로	O	O	O, B-LC, B-OG, B-PS, B-CV
-17	북한	B-OG	B-LC	B-LC, B-OG, O, B-PS, B-AF
-18	##의	O	O	O, I-OG, I-LC, I-PS, I-AF
-19	변화	O	O	O, B-CV, B-LC, B-PS, B-OG
-20	##를	O	O	O, B-CV, B-PS, B-OG, B-LC
-21	가늠	O	O	O, B-CV, B-LC, B-TM, B-PS
-22	##할	O	O	O, B-LC, B-PS, B-OG, B-CV
-23	변수	O	O	O, B-CV, B-PS, B-TM, B-LC
-24	##라는	O	O	O, B-PS, I-CV, B-CV, B-OG
-25	것	O	O	O, B-PS, B-CV, B-OG, B-LC
-26	##이	O	O	O, B-PS, B-OG, B-CV, B-LC
-27	전문가	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-TM
-28	##들	O	O	O, I-CV, I-OG, B-CV, I-QT
-29	##의	O	O	O, B-PS, B-CV, B-LC, B-QT
-30	대체	O	O	O, B-CV, B-TR, B-PS, B-TM
-31	##적	O	O	O, B-PS, I-TR, B-LC, I-PS
-32	분석	O	O	O, B-CV, B-PS, B-QT, B-TR
-33	##이다	O	O	O, B-CV, I-CV, I-QT, B-TM
-34	.	O	O	O, B-LC, B-PS, B-CV, B-OG
-35	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	‘	O	O
+2	살	B-EV	O
+3	##기	I-EV	O
+4	좋	I-EV	O
+5	##은	I-EV	O
+6	마을	I-EV	O
+7	만들	I-EV	O
+8	##기	I-EV	O
+9	학생	I-EV	I-EV
+10	##공	I-EV	I-EV
+11	##모	I-EV	I-EV
+12	##전	I-EV	I-EV
+13	’	O	O
+14	은	O	O
+15	서울시	B-OG	B-LC
+16	##가	O	O
+17	주거지	O	O
+18	재생	O	O
+19	##에	O	O
+20	대한	O	O
+21	대학생	B-CV	B-CV
+22	##의	O	O
+23	참신	O	O
+24	##한	O	O
+25	아이디어	O	O
+26	##를	O	O
+27	발굴	O	O
+28	##하	O	O
+29	##기	O	O
+30	위해	O	O
+31	2009	B-DT	B-DT
+32	##년	I-DT	I-DT
+33	시작	O	O
+34	##했	O	O
+35	##다	O	O
+36	.	O	O
+37	[SEP]	O	O

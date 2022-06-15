@@ -1,34 +1,32 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-EV, B-CV, I-CV, I-OG
-1	미디어	B-OG	O	O, B-OG, B-CV, B-AF, B-TM
-2	##리	I-OG	O	O, I-OG, B-OG, I-AF, I-CV
-3	##서	I-OG	O	O, I-OG, B-OG, I-AF, I-CV
-4	##치	I-OG	O	O, I-OG, I-AF, B-OG, I-CV
-5	김지	B-PS	B-PS	B-PS, O, I-PS, B-OG, I-OG
-6	##연	I-PS	I-PS	I-PS, O, I-OG, I-LC, I-QT
-7	상무	B-CV	B-CV	B-CV, O, B-OG, I-CV, B-TM
-8	##는	O	O	O, I-CV, I-EV, I-QT, I-OG
-9	""""	O	O	O, B-LC, B-EV, B-CV, B-DT
-10	분당	B-LC	B-LC	B-LC, B-EV, O, B-AF, B-OG
-11	보궐	B-EV	B-EV	B-EV, I-EV, O, B-LC, B-CV
-12	##선거	I-EV	I-EV	I-EV, O, I-AF, I-LC, B-EV
-13	##처럼	O	O	O, I-EV, I-AF, B-CV, B-LC
-14	젊	O	O	O, B-CV, B-LC, B-PS, I-EV
-15	##은	O	O	O, B-PS, B-CV, B-LC, I-CV
-16	층	O	O	O, B-CV, B-PS, I-CV, B-LC
-17	##의	O	O	O, B-PS, B-LC, I-EV, B-CV
-18	투표	O	O	O, B-EV, B-CV, B-LC, I-EV
-19	러시	O	O	O, I-EV, B-EV, B-PS, B-LC
-20	##가	O	O	O, B-PS, I-EV, B-LC, B-OG
-21	일어나	O	O	O, B-LC, B-CV, B-PS, B-OG
-22	##느	O	O	O, B-LC, B-PS, I-EV, B-CV
-23	##냐	O	O	O, B-LC, B-PS, I-EV, B-CV
-24	##가	O	O	O, B-PS, B-LC, B-CV, B-OG
-25	관건	O	O	O, B-CV, B-EV, B-TM, B-LC
-26	""""	O	O	O, B-CV, I-EV, I-CV, B-TM
-27	이라	O	O	O, B-CV, B-PS, B-EV, B-TM
-28	##고	O	O	O, B-CV, B-TM, I-EV, B-PS
-29	했	O	O	O, B-CV, B-EV, B-OG, B-TM
-30	##다	O	O	O, B-CV, I-EV, I-CV, B-PS
-31	.	O	O	O, B-LC, B-PS, B-CV, I-EV
-32	[SEP]	O	O	O, B-CV, I-EV, B-LC, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	더	B-OG	B-OG
+2	##민주	I-OG	O
+3	##는	O	O
+4	이번	O	O
+5	경선	O	B-EV
+6	##에	O	O
+7	##서는	O	O
+8	‘	O	O
+9	노무현	B-OG	B-OG
+10	재단	I-OG	I-OG
+11	기획	B-CV	B-CV
+12	##위원	I-CV	I-CV
+13	’	O	O
+14	등	O	O
+15	비상	O	O
+16	##근	O	O
+17	##직	O	O
+18	##은	O	O
+19	경력	O	O
+20	##으로	O	O
+21	인정	O	O
+22	##하	O	O
+23	##지	O	O
+24	않	O	O
+25	##기	O	O
+26	##로	O	O
+27	했	O	O
+28	##다	O	O
+29	.	O	O
+30	[SEP]	O	O

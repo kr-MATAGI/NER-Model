@@ -1,9 +1,13 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-AF
-1	어제	B-DT	B-DT	B-DT, O, I-DT, B-OG, B-EV
-2	##두	O	O	O, I-DT, I-QT, I-EV, B-CV
-3	선생	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-TM
-4	##님	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-QT
-5	##이	O	O	O, I-CV, B-PS, I-OG, I-QT
-6	한번	O	B-QT	B-QT, O, I-QT, B-DT, B-CV
-7	[SEP]	O	O	O, I-QT, I-DT, I-CV, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	사	O	B-QT
+2	사관	O	B-CV
+3	##이	O	O
+4	사	O	B-QT
+5	사관	O	I-QT
+6	손	B-AM	B-AM
+7	##에	O	O
+8	다	O	O
+9	달렸	O	O
+10	##네	O	O
+11	[SEP]	O	O

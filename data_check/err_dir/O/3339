@@ -1,8 +1,25 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	그래서	O	O	O, B-CV, B-OG, B-TM, B-QT
-2	한	O	B-QT	B-QT, O, B-DT, B-TM, I-QT
-3	지붕	O	I-QT	I-QT, O, I-OG, I-DT, I-LC
-4	두	B-QT	B-QT	B-QT, I-QT, O, B-DT, B-CV
-5	가족	I-QT	I-QT	I-QT, O, B-QT, I-DT, I-LC
-6	[SEP]	O	O	O, I-QT, B-CV, I-OG, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	포스코	B-OG	B-OG
+2	##에	I-OG	I-OG
+3	##너지	I-OG	I-OG
+4	##는	O	O
+5	22	B-DT	B-DT
+6	##일	I-DT	I-DT
+7	“	O	O
+8	물의	O	O
+9	##를	O	O
+10	일으킨	O	O
+11	당사자	B-CV	B-CV
+12	##에	O	O
+13	대해	O	O
+14	금	O	B-DT
+15	##일	O	I-DT
+16	보직	O	O
+17	##해	O	O
+18	##임	O	O
+19	##을	O	O
+20	했	O	O
+21	##다	O	O
+22	.	O	O
+23	[SEP]	O	O

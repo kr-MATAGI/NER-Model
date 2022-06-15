@@ -1,27 +1,45 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-EV, I-OG, I-CV
-1	포스코건설	B-OG	B-OG	B-OG, O, B-PS, B-LC, B-AF
-2	##은	O	O	O, I-OG, I-AF, B-CV, I-EV
-3	6	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-QT
-4	##월	I-DT	I-DT	I-DT, O, I-QT, B-DT, I-EV
-5	송도	B-LC	B-LC	B-LC, O, B-AF, B-OG, B-PS
-6	##국제	I-LC	I-LC	I-LC, O, B-LC, I-AF, I-PS
-7	##도	I-LC	I-LC	I-LC, O, B-LC, I-AF, I-PS
-8	##시	I-LC	I-LC	I-LC, O, I-AF, B-LC, I-PS
-9	R	B-LC	B-LC	B-LC, B-AF, O, I-LC, I-AF
-10	##M	I-LC	I-LC	I-LC, I-AF, O, B-LC, I-OG
-11	##2	I-LC	I-LC	I-LC, I-AF, O, B-LC, I-OG
-12	##블	I-LC	I-LC	I-LC, I-AF, O, B-LC, I-OG
-13	##록	I-LC	I-LC	I-LC, I-AF, O, B-LC, I-OG
-14	##에서	O	O	O, I-LC, I-AF, B-LC, B-AF
-15	‘	O	O	O, B-LC, B-AF, B-CV, B-TM
-16	송도	B-LC	B-AF	B-AF, B-LC, O, B-EV, B-PS
-17	더샵	B-AF	I-AF	I-AF, B-AF, I-LC, B-LC, O
-18	센트럴	I-AF	I-AF	I-AF, B-AF, I-LC, O, I-PS
-19	##시티	I-AF	I-AF	I-AF, I-LC, O, I-TM, I-PS
-20	’	O	O	O, I-AF, I-LC, I-EV, I-OG
-21	를	O	O	O, B-LC, B-CV, I-AF, B-TM
-22	분양	O	O	O, B-LC, B-CV, B-TM, B-AF
-23	##한다	O	O	O, B-LC, B-OG, B-CV, I-AF
-24	.	O	O	O, B-LC, B-AF, B-OG, I-AF
-25	[SEP]	O	O	O, B-LC, I-LC, B-AF, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	[	O	O
+2	천안	B-AF	B-EV
+3	##함	I-AF	I-EV
+4	피폭	O	I-EV
+5	침몰	O	I-EV
+6	]	O	O
+7	보복	O	O
+8	##타	O	O
+9	##격	O	O
+10	대신	O	O
+11	'	O	O
+12	低	O	O
+13	강도	O	O
+14	대응	O	O
+15	(	O	O
+16	火	O	O
+17	力	O	O
+18	배제	O	O
+19	##한	O	O
+20	군사	O	O
+21	##적	O	O
+22	조치	O	O
+23	)	O	O
+24	'	O	O
+25	검토	O	O
+26	;	O	O
+27	1976	B-DT	B-DT
+28	##년	I-DT	I-DT
+29	北	B-LC	B-LC
+30	판문점	B-LC	B-LC
+31	도끼	B-AF	I-EV
+32	만행	O	I-EV
+33	땐	O	O
+34	韓	B-LC	B-LC
+35	·	O	O
+36	美	B-LC	B-LC
+37	무력	O	O
+38	시위	O	O
+39	…	O	O
+40	이번	O	O
+41	##엔	O	O
+42	?	O	O
+43	[SEP]	O	O

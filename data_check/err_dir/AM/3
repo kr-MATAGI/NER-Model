@@ -1,52 +1,24 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, B-CV, I-OG, I-AF
-1	교장	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-TM
-2	##선	B-CV	I-CV	I-CV, B-CV, O, I-QT, I-OG
-3	##생	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-TM
-4	##님	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-TM
-5	##인	O	O	O, I-CV, B-PS, I-OG, B-CV
-6	아버지	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-OG
-7	##를	O	O	O, I-CV, I-AF, B-CV, B-PS
-8	따라	O	O	O, B-PS, B-CV, B-LC, B-TM
-9	관사	O	O	O, B-CV, B-AF, B-LC, B-TM
-10	##에	O	O	O, B-PS, I-CV, I-AF, B-CV
-11	살	O	O	O, B-PS, B-CV, B-LC, B-AF
-12	##던	O	O	O, B-PS, B-CV, B-LC, B-TM
-13	주영	B-PS	B-PS	B-PS, O, I-PS, B-OG, B-LC
-14	##이	O	O	O, I-PS, B-PS, I-LC, I-OG
-15	##는	O	O	O, I-PS, B-CV, I-AF, B-PS
-16	아기	B-AM	O	O, B-CV, B-AM, B-PS, B-AF
-17	궁	I-AM	B-CV	B-CV, O, B-PS, B-AM, I-CV
-18	##노	I-AM	O	O, I-CV, I-AM, B-CV, I-PS
-19	##루	I-AM	O	O, I-CV, I-AM, I-PS, I-TM
-20	##들	O	O	O, I-CV, I-AF, I-PS, B-PS
-21	##의	O	O	O, B-PS, B-CV, I-CV, I-AF
-22	엄마	B-CV	B-CV	B-CV, O, B-PS, I-CV, B-TM
-23	##가	O	O	O, I-CV, B-PS, I-PS, I-AF
-24	되	O	O	O, B-PS, B-CV, B-LC, B-QT
-25	##기	O	O	O, B-PS, B-CV, I-PS, B-QT
-26	##로	O	O	O, B-PS, B-CV, I-PS, I-QT
-27	마음먹	O	O	O, B-PS, B-CV, B-LC, B-QT
-28	##고	O	O	O, B-PS, B-CV, I-PS, B-LC
-29	삐	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
-30	##삐	I-PS	I-PS	I-PS, O, I-OG, I-LC, I-AF
-31	,	O	O	O, I-PS, I-AF, I-OG, I-LC
-32	삐	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
-33	##루	I-PS	I-PS	I-PS, I-OG, O, I-LC, I-AF
-34	,	O	O	O, I-PS, I-AF, I-OG, I-LC
-35	삐	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
-36	##아	I-PS	I-PS	I-PS, O, I-OG, I-LC, I-AF
-37	,	O	O	O, I-PS, I-AF, I-OG, I-LC
-38	삐	B-PS	B-PS	B-PS, B-OG, O, B-LC, I-PS
-39	##애	I-PS	I-PS	I-PS, I-OG, I-LC, O, I-AF
-40	##라는	O	O	O, I-PS, B-PS, I-AF, I-LC
-41	이름	O	O	O, B-CV, B-TM, B-AM, B-PS
-42	##까	O	O	O, I-CV, B-PS, I-PS, I-LC
-43	##지	O	O	O, B-PS, B-CV, B-QT, B-LC
-44	정성	O	O	O, B-CV, B-PS, B-TM, B-QT
-45	##스레	O	O	O, B-PS, B-CV, I-CV, B-LC
-46	지어	O	O	O, B-CV, B-PS, B-QT, B-LC
-47	##줬	O	O	O, I-CV, B-CV, B-PS, I-QT
-48	##다	O	O	O, I-CV, B-CV, B-PS, I-QT
-49	.	O	O	O, B-PS, B-CV, B-LC, I-CV
-50	[SEP]	O	O	O, B-PS, B-CV, I-CV, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	초미세	B-MT	B-MT
+2	##먼지	I-MT	I-MT
+3	##가	O	O
+4	신체	B-AM	O
+5	##에	O	O
+6	미치	O	O
+7	##는	O	O
+8	영향	O	O
+9	##에	O	O
+10	대한	O	O
+11	의학	O	O
+12	##적	O	O
+13	조사	O	O
+14	##도	O	O
+15	시급	O	O
+16	##하	O	O
+17	##다는	O	O
+18	지적	O	O
+19	##이	O	O
+20	나온다	O	O
+21	.	O	O
+22	[SEP]	O	O

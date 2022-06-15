@@ -1,74 +1,23 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-EV, I-CV, I-OG
-1	김영	B-PS	B-PS	B-PS, B-OG, O, B-LC, I-PS
-2	##진	I-PS	I-PS	I-PS, I-OG, O, I-LC, B-OG
-3	진실	B-OG	B-OG	B-OG, O, I-OG, B-AF, B-CV
-4	·	I-OG	I-OG	I-OG, O, I-AF, I-EV, I-LC
-5	화해	I-OG	I-OG	I-OG, O, I-EV, I-AF, I-LC
-6	##를	I-OG	I-OG	I-OG, O, I-AF, I-EV, I-LC
-7	위한	I-OG	I-OG	I-OG, O, I-AF, I-EV, I-LC
-8	과거사	I-OG	I-OG	I-OG, B-OG, O, I-EV, B-CV
-9	##정리	I-OG	I-OG	I-OG, O, I-EV, I-AF, I-CV
-10	##위원회	I-OG	I-OG	I-OG, O, I-EV, I-AF, I-CV
-11	전	O	O	O, I-OG, B-CV, I-EV, B-PS
-12	조사	B-CV	B-CV	B-CV, I-CV, O, B-OG, B-FD
-13	##관	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-QT
-14	##은	O	O	O, I-CV, B-CV, I-EV, I-QT
-15	지난해	B-DT	B-DT	B-DT, O, B-QT, I-DT, B-EV
-16	국가	B-CV	B-CV	B-CV, O, B-OG, I-CV, B-EV
-17	##보	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-EV
-18	##안	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-EV
-19	##유	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-EV
-20	##공	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-EV
-21	##자	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-EV
-22	상금	O	O	O, I-CV, B-CV, I-EV, B-TM
-23	급증	O	O	O, I-CV, B-CV, B-TM, I-EV
-24	##에	O	O	O, B-CV, B-OG, B-LC, B-TM
-25	대해	O	O	O, B-LC, B-OG, B-CV, B-TM
-26	“	O	O	O, B-CV, B-LC, B-PS, B-OG
-27	이명박	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
-28	정부	B-OG	B-OG	B-OG, O, I-OG, I-PS, B-LC
-29	때	O	O	O, I-OG, I-DT, I-PS, I-CV
-30	##부터	O	O	O, I-DT, I-OG, I-PS, I-QT
-31	국정원	B-OG	B-AF	B-AF, B-OG, O, B-FD, B-EV
-32	대공	B-OG	O	O, B-OG, B-LC, I-OG, B-CV
-33	##수	I-OG	O	O, I-OG, I-LC, I-AF, I-CV
-34	##사	I-OG	O	O, I-OG, I-LC, I-AF, I-CV
-35	##국	I-OG	O	O, I-OG, I-LC, I-AF, I-CV
-36	등	O	O	O, I-OG, I-LC, I-AF, B-CV
-37	##에	O	O	O, B-CV, B-LC, B-PS, B-TM
-38	예산	O	O	O, B-CV, B-TM, B-LC, B-PS
-39	##과	O	O	O, B-PS, B-LC, B-OG, B-CV
-40	인력	O	O	O, B-CV, B-TM, B-LC, B-PS
-41	##이	O	O	O, B-PS, B-LC, B-OG, B-CV
-42	늘	O	O	O, B-CV, B-LC, B-PS, B-OG
-43	##면서	O	O	O, B-LC, B-PS, B-CV, B-OG
-44	어떻게	O	O	O, B-CV, B-LC, B-TM, B-PS
-45	##든	O	O	O, B-LC, B-PS, B-OG, B-TM
-46	성과	O	O	O, B-CV, B-LC, B-TM, B-PS
-47	##를	O	O	O, B-CV, B-LC, B-PS, B-OG
-48	내야	O	O	O, B-CV, B-LC, B-TM, B-PS
-49	하	O	O	O, B-CV, B-LC, B-PS, B-OG
-50	##는	O	O	O, B-PS, B-LC, B-CV, B-OG
-51	분위기	O	O	O, B-CV, B-PS, B-TM, B-LC
-52	##가	O	O	O, B-PS, B-OG, B-LC, B-CV
-53	형성	O	O	O, B-CV, B-LC, B-PS, B-OG
-54	##돼	O	O	O, B-LC, B-PS, B-OG, B-CV
-55	보안법	B-CV	B-EV	B-EV, B-CV, O, B-TR, B-FD
-56	사건	O	O	O, I-EV, I-CV, B-EV, B-CV
-57	##과	O	O	O, I-EV, B-CV, I-CV, B-PS
-58	상금	O	O	O, B-CV, B-TM, B-EV, B-LC
-59	##도	O	O	O, I-CV, B-CV, B-PS, B-LC
-60	폭발	O	O	O, B-LC, B-CV, B-TM, B-OG
-61	##적으로	O	O	O, B-LC, B-PS, B-OG, B-CV
-62	늘어난	O	O	O, B-CV, B-LC, B-OG, B-PS
-63	것	O	O	O, B-CV, B-PS, B-LC, B-OG
-64	##으로	O	O	O, B-CV, B-PS, B-LC, B-QT
-65	보인다	O	O	O, B-CV, B-TM, B-LC, B-OG
-66	”	O	O	O, B-CV, B-TM, B-LC, B-QT
-67	고	O	O	O, B-CV, B-TM, B-QT, B-LC
-68	말	O	O	O, B-CV, B-TM, B-LC, B-QT
-69	##했	O	O	O, B-CV, B-PS, B-LC, I-EV
-70	##다	O	O	O, B-CV, B-TM, B-LC, I-EV
-71	.	O	O	O, B-LC, B-PS, B-CV, B-OG
-72	[SEP]	O	O	O, B-CV, B-LC, I-EV, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	당시	O	O
+2	페더러	B-PS	B-PS
+3	##는	O	O
+4	""""	O	O
+5	윔	B-EV	B-EV
+6	##블	I-EV	I-EV
+7	##던	I-EV	I-EV
+8	##의	O	O
+9	올	B-CV	B-CV
+10	화이트	I-CV	I-CV
+11	룰	I-CV	O
+12	##은	O	O
+13	너무	O	O
+14	지나치	O	O
+15	##다	O	O
+16	""""	O	O
+17	고	O	O
+18	했	O	O
+19	##다	O	O
+20	.	O	O
+21	[SEP]	O	O

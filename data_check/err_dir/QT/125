@@ -1,56 +1,14 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	'	O	O	O, B-CV, B-LC, B-OG, B-PS
-2	응대	O	O	O, B-PS, B-LC, B-CV, B-AF
-3	##서	O	O	O, B-PS, I-PS, I-LC, I-AF
-4	##행	O	O	O, I-PS, I-LC, I-AF, B-PS
-5	##만	O	O	O, I-PS, I-LC, B-PS, I-AF
-6	##리	O	O	O, I-PS, I-LC, I-AF, B-PS
-7	##인	O	O	O, I-PS, I-LC, B-PS, I-AF
-8	(	O	O	O, I-CV, B-CV, I-AF, B-LC
-9	[UNK]	O	O	O, B-LC, B-CV, B-PS, B-QT
-10	[UNK]	O	O	O, B-PS, B-LC, B-CV, B-OG
-11	西	O	O	O, B-PS, B-LC, B-CV, B-OG
-12	行	O	O	O, B-PS, B-LC, B-CV, B-QT
-13	萬	O	O	O, B-PS, B-LC, B-CV, B-QT
-14	[UNK]	O	O	O, B-PS, B-LC, B-CV, B-QT
-15	人	O	O	O, B-PS, B-LC, B-CV, B-AM
-16	)	O	O	O, B-CV, B-LC, B-OG, I-CV
-17	'	O	O	O, B-CV, B-OG, B-LC, B-TM
-18	이란	O	O	O, B-CV, B-PS, B-QT, B-LC
-19	구절	O	O	O, B-CV, B-QT, B-PS, B-FD
-20	##을	O	O	O, B-PS, B-CV, B-OG, I-CV
-21	'	O	O	O, B-CV, B-LC, B-OG, B-PS
-22	서방	B-LC	B-LC	B-LC, O, B-TM, B-OG, B-AF
-23	##에	O	O	O, I-LC, B-PS, I-PS, B-LC
-24	땅	O	O	O, B-AM, B-PS, I-LC, B-CV
-25	손질	O	O	O, B-PS, B-CV, B-AM, I-PS
-26	##하	O	O	O, B-PS, B-LC, B-CV, B-AM
-27	##는	O	O	O, B-PS, B-LC, B-AM, I-PS
-28	만리	B-QT	O	O, B-LC, B-PS, B-AM, B-QT
-29	사람	O	O	O, B-AM, B-CV, I-CV, I-AM
-30	##을	O	O	O, I-CV, B-PS, B-CV, I-QT
-31	기다리	O	O	O, B-PS, B-LC, B-CV, B-AF
-32	##고	O	O	O, B-PS, B-LC, I-PS, I-LC
-33	있	O	O	O, B-PS, B-LC, B-CV, I-PS
-34	##으리	O	O	O, B-PS, I-PS, I-LC, B-AM
-35	'	O	O	O, B-CV, B-LC, B-PS, B-OG
-36	로	O	O	O, B-CV, B-QT, B-PS, B-LC
-37	옮겼	O	O	O, B-CV, B-OG, B-PS, B-LC
-38	##는데	O	O	O, B-CV, B-OG, B-PS, B-LC
-39	,	O	O	O, B-CV, B-OG, B-LC, B-PS
-40	당시	O	O	O, B-CV, B-OG, B-TM, B-LC
-41	##엔	O	O	O, B-CV, B-LC, B-OG, B-PS
-42	최	B-PS	B-PS	B-PS, O, I-PS, B-OG, B-LC
-43	##광	I-PS	I-PS	I-PS, O, B-PS, I-OG, I-LC
-44	##유	I-PS	I-PS	I-PS, O, I-LC, I-OG, I-AF
-45	##의	O	O	O, I-PS, I-AF, B-CV, B-LC
-46	인물	O	O	O, B-CV, B-LC, B-TM, B-FD
-47	정보	O	O	O, B-CV, B-TM, B-LC, B-PS
-48	##가	O	O	O, B-PS, B-LC, B-OG, B-CV
-49	불명	O	O	O, B-CV, B-TM, B-LC, B-PS
-50	##확	O	O	O, I-CV, I-TM, B-CV, B-PS
-51	##했	O	O	O, B-CV, B-LC, B-OG, B-TM
-52	##다	O	O	O, B-CV, B-TM, I-OG, B-LC
-53	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-54	[SEP]	O	O	O, B-CV, B-LC, B-PS, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	두	O	O
+2	두	O	B-QT
+3	두	B-QT	I-QT
+4	분	I-QT	I-QT
+5	다	O	O
+6	혈압	B-TM	B-TM
+7	##약	I-TM	I-TM
+8	드	O	O
+9	##시	O	O
+10	##냐	O	O
+11	?	O	O
+12	[SEP]	O	O

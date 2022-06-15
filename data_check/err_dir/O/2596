@@ -1,24 +1,22 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-EV, I-CV
-1	서울대	B-OG	B-OG	B-OG, O, B-LC, I-OG, B-AF
-2	##는	O	O	O, I-OG, I-EV, I-AF, B-CV
-3	3	B-QT	B-EV	B-EV, B-QT, B-AF, O, B-DT
-4	##회	I-QT	I-EV	I-EV, I-QT, I-AF, I-TI, O
-5	##에	O	O	O, I-EV, I-QT, I-AF, I-OG
-6	3	B-QT	B-QT	B-QT, B-EV, O, B-TM, I-QT
-7	##점	I-QT	I-QT	I-QT, I-EV, O, I-TM, I-TI
-8	##을	O	O	O, I-QT, I-EV, B-CV, I-OG
-9	내줬	O	O	O, B-TM, B-LC, B-OG, B-CV
-10	##지만	O	O	O, B-QT, B-TM, B-LC, I-QT
-11	6	B-QT	B-EV	B-EV, B-QT, B-TI, B-TM, B-DT
-12	##회	I-QT	I-EV	I-EV, I-QT, I-TI, I-TR, I-TM
-13	##까	O	I-TI	I-TI, I-EV, O, I-QT, I-TR
-14	##지	O	I-TI	I-TI, O, I-EV, I-QT, I-DT
-15	추가	O	O	O, B-TM, B-LC, B-QT, I-TI
-16	실점	O	O	O, B-TM, B-LC, B-QT, I-TM
-17	##이	O	O	O, B-PS, B-OG, B-CV, B-LC
-18	없	O	O	O, B-CV, B-QT, B-LC, B-TM
-19	##었	O	O	O, B-CV, B-LC, B-TM, B-QT
-20	##다	O	O	O, B-CV, B-TM, B-QT, B-LC
-21	.	O	O	O, B-LC, B-CV, B-TM, B-OG
-22	[SEP]	O	O	O, B-CV, B-LC, B-TM, I-EV
+	text	label	preds
+0	[CLS]	O	O
+1	점심	O	B-TI
+2	##시간	O	I-TI
+3	##에도	O	O
+4	밥	B-CV	B-CV
+5	##을	O	O
+6	못	O	O
+7	먹	O	O
+8	##기	O	O
+9	때문	O	O
+10	##에	O	O
+11	혼자	O	O
+12	교실	O	O
+13	##에	O	O
+14	엎	O	O
+15	##어져	O	O
+16	있	O	O
+17	##어야	O	O
+18	되	O	O
+19	##고	O	O
+20	[SEP]	O	O

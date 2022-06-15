@@ -1,34 +1,13 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-QT
-1	이	O	O	O, B-OG, B-PS, B-CV, B-TM
-2	밖에	O	O	O, B-CV, I-OG, B-TM, I-QT
-3	##도	O	O	O, B-OG, B-LC, B-CV, B-TM
-4	대기	O	O	O, B-CV, B-OG, B-TM, B-AF
-5	##업	O	O	O, I-CV, I-OG, I-TM, I-AF
-6	##들	O	O	O, I-OG, I-CV, I-AF, B-CV
-7	##의	O	O	O, B-CV, B-TM, B-LC, B-PS
-8	연구개발	O	O	O, B-TM, B-CV, B-FD, B-TR
-9	(	O	O	O, I-CV, B-CV, B-LC, I-TM
-10	R	O	O	O, B-TM, B-CV, B-FD, B-LC
-11	&	O	O	O, I-TM, I-CV, I-AF, I-LC
-12	D	O	O	O, I-TM, I-CV, I-AF, I-LC
-13	)	O	O	O, I-CV, I-TM, B-PS, B-LC
-14	시설	O	O	O, B-CV, B-LC, B-TM, B-PS
-15	투자액	O	O	O, B-CV, B-TM, B-LC, B-PS
-16	##에	O	O	O, B-CV, B-TM, I-CV, B-OG
-17	대한	O	O	O, B-LC, B-OG, B-TM, B-CV
-18	세액	O	B-CV	B-CV, O, I-CV, B-OG, B-PT
-19	##공	O	I-CV	I-CV, O, B-CV, I-OG, I-TM
-20	##제	O	I-CV	I-CV, O, B-CV, I-OG, I-TM
-21	##율	O	O	O, I-CV, I-OG, B-PS, I-QT
-22	##을	O	O	O, B-CV, B-OG, B-TM, I-CV
-23	3	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-LC
-24	%	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-25	에서	O	O	O, I-QT, B-PS, B-LC, I-DT
-26	1	B-QT	B-QT	B-QT, I-QT, O, B-DT, B-LC
-27	%	I-QT	I-QT	I-QT, O, I-LC, I-PS, I-EV
-28	로	O	O	O, I-QT, I-OG, I-EV, B-CV
-29	낮춘	O	O	O, B-CV, B-OG, B-TM, I-QT
-30	##다	O	O	O, B-CV, B-OG, B-LC, B-TM
-31	.	O	O	O, B-LC, B-CV, B-OG, B-PS
-32	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	“	O	O
+2	민관	O	B-OG
+3	##협	O	I-OG
+4	##의	O	I-OG
+5	##회	O	I-OG
+6	거부	O	O
+7	,	O	O
+8	일방	O	O
+9	통보	O	O
+10	”	O	O
+11	[SEP]	O	O

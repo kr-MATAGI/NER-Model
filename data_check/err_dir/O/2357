@@ -1,47 +1,45 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-AF
-1	강	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-AF
-2	교수	B-CV	B-CV	B-CV, O, I-PS, I-CV, B-OG
-3	##는	O	O	O, I-CV, B-CV, I-OG, I-EV
-4	또	O	O	O, B-CV, B-TM, B-QT, B-OG
-5	“	O	O	O, B-CV, B-LC, B-TM, B-OG
-6	법원장	B-CV	B-CV	B-CV, O, B-OG, B-AF, B-PS
-7	월급	O	O	O, I-CV, B-CV, I-OG, B-PS
-8	##이	O	O	O, B-PS, B-OG, B-CV, B-LC
-9	일반	O	O	O, B-CV, B-PS, B-OG, B-LC
-10	판사	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-AF
-11	##들	O	O	O, I-CV, I-OG, I-AF, B-CV
-12	##과	O	O	O, B-CV, B-TM, B-LC, B-PS
-13	크	O	O	O, B-CV, B-OG, B-QT, B-TM
-14	##게	O	O	O, B-PS, B-LC, B-OG, I-OG
-15	차이	O	O	O, B-CV, B-TM, B-OG, B-LC
-16	나지	O	O	O, B-OG, B-CV, B-PS, B-QT
-17	않	O	O	O, B-PS, B-CV, I-OG, B-OG
-18	##고	O	O	O, B-PS, B-CV, I-OG, B-OG
-19	,	O	O	O, B-CV, B-LC, B-PS, B-OG
-20	인사	O	B-CV	B-CV, O, B-TM, B-OG, I-CV
-21	##권	O	I-CV	I-CV, O, I-TM, I-OG, I-TR
-22	없이	O	O	O, I-CV, B-PS, I-QT, I-OG
-23	행정	O	O	O, B-CV, B-TM, B-FD, B-LC
-24	##업	O	O	O, I-CV, I-TM, B-CV, B-LC
-25	##무	O	O	O, I-CV, B-CV, B-LC, I-TM
-26	##를	O	O	O, B-CV, B-PS, B-TM, B-LC
-27	도맡	O	O	O, B-CV, B-TM, B-LC, B-PS
-28	##다	O	O	O, B-PS, B-CV, B-LC, B-TM
-29	보	O	O	O, B-PS, B-CV, B-LC, B-TM
-30	##니	O	O	O, B-PS, B-LC, B-CV, B-TM
-31	법원장	B-CV	B-CV	B-CV, O, B-OG, B-AF, B-TM
-32	##이	O	O	O, I-CV, B-PS, B-CV, I-QT
-33	되	O	O	O, B-QT, B-CV, B-TM, B-PS
-34	##는	O	O	O, B-PS, B-CV, B-LC, B-QT
-35	것	O	O	O, B-PS, B-CV, B-QT, B-LC
-36	##을	O	O	O, B-CV, B-PS, B-TM, I-OG
-37	꺼	O	O	O, B-CV, B-PS, I-CV, B-TM
-38	##릴	O	O	O, B-CV, I-CV, B-PS, B-LC
-39	정도	O	O	O, B-CV, B-PS, B-QT, B-OG
-40	”	O	O	O, B-CV, I-OG, I-CV, B-TM
-41	라고	O	O	O, B-CV, I-OG, B-TM, B-OG
-42	했	O	O	O, B-CV, B-TM, B-OG, B-QT
-43	##다	O	O	O, B-CV, B-TM, I-CV, B-QT
-44	.	O	O	O, B-PS, B-CV, B-LC, B-OG
-45	[SEP]	O	O	O, B-CV, B-PS, B-LC, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	반면	O	O
+2	3	B-DT	B-DT
+3	##월	I-DT	I-DT
+4	650	B-QT	B-QT
+5	##억	I-QT	I-QT
+6	원	I-QT	I-QT
+7	##과	O	O
+8	350	B-QT	B-QT
+9	##억	I-QT	I-QT
+10	원	I-QT	I-QT
+11	규모	O	O
+12	##로	O	O
+13	후	O	B-CV
+14	##순위	O	I-CV
+15	##채	O	I-CV
+16	##를	O	O
+17	발행	O	O
+18	##한	O	O
+19	부산	B-OG	B-OG
+20	##과	O	O
+21	부산	B-OG	B-OG
+22	##2	I-OG	I-OG
+23	##저축	I-OG	I-OG
+24	##은행	I-OG	I-OG
+25	##은	O	O
+26	목표	O	O
+27	##금	O	O
+28	##액	O	O
+29	##의	O	O
+30	절반	B-QT	B-QT
+31	정도	I-QT	I-QT
+32	##만	I-QT	I-QT
+33	모집	O	O
+34	##하	O	O
+35	##며	O	O
+36	청약	O	O
+37	##을	O	O
+38	끝내	O	O
+39	##야	O	O
+40	했	O	O
+41	##다	O	O
+42	.	O	O
+43	[SEP]	O	O

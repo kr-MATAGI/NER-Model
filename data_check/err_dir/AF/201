@@ -1,24 +1,16 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	그래서	O	O	O, B-CV, B-OG, B-LC, B-TM
-2	그	O	O	O, B-OG, B-CV, B-LC, B-PS
-3	경찰	B-OG	B-OG	B-OG, O, B-CV, B-AF, I-OG
-4	##이	O	O	O, I-OG, I-AF, B-PS, I-CV
-5	수사	O	O	O, B-CV, B-OG, B-FD, B-TM
-6	##를	O	O	O, I-OG, I-CV, I-AF, B-CV
-7	하	O	O	O, B-CV, B-OG, B-PS, B-LC
-8	##는	O	O	O, B-CV, B-PS, B-OG, B-LC
-9	것	O	O	O, B-CV, B-OG, B-PS, B-LC
-10	##보	O	O	O, B-CV, B-OG, B-PS, I-OG
-11	##다	O	O	O, I-AF, I-OG, B-PS, B-OG
-12	그것	B-AF	O	O, B-AF, B-OG, B-PS, B-TM
-13	##이	I-AF	O	O, I-AF, I-OG, I-PS, I-EV
-14	알고	I-AF	O	O, I-AF, I-OG, I-PS, B-AF
-15	##싶	I-AF	O	O, I-AF, I-OG, I-PS, I-EV
-16	##다	I-AF	O	O, I-AF, I-OG, I-PS, I-EV
-17	팀	O	O	O, I-OG, I-AF, I-EV, B-CV
-18	##에서	O	O	O, I-OG, I-AF, B-CV, B-PS
-19	하	O	O	O, B-CV, B-OG, B-TM, B-LC
-20	##는	O	O	O, B-CV, B-OG, B-LC, B-PS
-21	게	O	O	O, B-CV, B-OG, B-LC, B-PS
-22	[SEP]	O	O	O, B-CV, B-OG, I-OG, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	14	B-DT	B-DT
+2	##일	I-DT	I-DT
+3	오후	B-TI	B-TI
+4	일본	B-LC	B-LC
+5	도쿄	B-LC	B-LC
+6	지요	B-LC	B-LC
+7	##다	I-LC	I-LC
+8	##구	I-LC	I-LC
+9	중의원	B-CV	B-CV
+10	제	B-AF	B-QT
+11	##2	I-AF	I-QT
+12	##회관	I-AF	I-QT
+13	.	O	O
+14	[SEP]	O	O

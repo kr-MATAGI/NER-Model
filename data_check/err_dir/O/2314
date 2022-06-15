@@ -1,16 +1,10 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, I-OG, B-CV, I-AF
-1	두	B-QT	B-QT	B-QT, I-QT, O, B-DT, B-CV
-2	아빠	I-QT	I-QT	I-QT, O, I-CV, B-CV, I-DT
-3	##들	O	O	O, I-QT, I-CV, I-AF, I-OG
-4	##은	O	O	O, B-CV, I-QT, I-AF, B-OG
-5	그냥	O	O	O, B-CV, B-LC, B-OG, B-PS
-6	그냥	O	O	O, B-CV, B-PS, B-LC, B-TM
-7	일반	O	O	O, B-CV, B-AF, B-LC, B-TM
-8	담배	O	B-CV	B-CV, O, B-AF, B-TM, B-PT
-9	##를	O	O	O, I-CV, I-AF, B-CV, I-OG
-10	피	O	O	O, B-CV, B-PS, B-LC, B-OG
-11	##는	O	O	O, B-CV, I-CV, I-AF, B-PS
-12	거	O	O	O, B-CV, B-PS, B-OG, B-LC
-13	##야	O	O	O, B-CV, I-OG, B-OG, B-PS
-14	[SEP]	O	O	O, B-CV, B-LC, I-AF, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	네	O	B-TI
+2	시간	O	I-TI
+3	##이	O	O
+4	됐	O	O
+5	##기	O	O
+6	때문	O	O
+7	##에	O	O
+8	[SEP]	O	O

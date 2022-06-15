@@ -1,70 +1,51 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-EV, I-OG
-1	2012	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-LC
-2	##년	I-DT	I-DT	I-DT, O, I-EV, B-DT, I-QT
-3	서울시	B-LC	B-EV	B-EV, B-LC, O, B-CV, B-OG
-4	##교육	B-CV	I-EV	I-EV, O, B-CV, B-EV, I-CV
-5	##감	I-CV	I-EV	I-EV, I-CV, O, I-LC, I-AF
-6	재보	B-EV	B-EV	B-EV, I-EV, O, B-CV, B-LC
-7	##궐	I-EV	I-EV	I-EV, O, B-EV, I-CV, I-AF
-8	##선거	I-EV	I-EV	I-EV, O, I-CV, I-LC, I-AF
-9	##에	O	O	O, I-EV, I-AF, I-CV, I-OG
-10	출마	O	O	O, B-CV, B-PS, B-LC, B-OG
-11	##했	O	O	O, B-PS, B-LC, B-OG, B-CV
-12	##던	O	O	O, B-PS, B-LC, B-CV, B-OG
-13	이상	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-14	##면	I-PS	I-PS	I-PS, O, I-OG, I-LC, B-PS
-15	전	O	O	O, I-PS, I-OG, B-CV, B-LC
-16	서울대	B-OG	B-OG	B-OG, O, B-LC, B-AF, B-PS
-17	법대	O	O	O, I-OG, B-CV, I-EV, B-PS
-18	교수	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-EV
-19	##가	O	O	O, I-CV, B-PS, I-EV, B-CV
-20	당시	O	O	O, B-CV, B-PS, B-OG, B-LC
-21	문	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-22	##용	I-PS	I-PS	I-PS, O, I-OG, B-PS, I-LC
-23	##린	I-PS	I-PS	I-PS, O, I-OG, B-PS, I-LC
-24	후보	B-CV	B-CV	B-CV, O, I-PS, I-CV, B-EV
-25	(	O	O	O, I-CV, I-EV, B-CV, I-OG
-26	현	O	O	O, B-PS, B-LC, B-DT, B-CV
-27	서울시	B-LC	B-LC	B-LC, O, B-CV, B-EV, B-OG
-28	##교육	B-CV	B-CV	B-CV, I-CV, O, I-LC, I-EV
-29	##감	I-CV	I-CV	I-CV, O, B-CV, I-EV, I-LC
-30	)	O	O	O, I-CV, I-EV, I-OG, I-AF
-31	쪽	O	O	O, B-CV, B-OG, B-PS, B-TM
-32	##에서	O	O	O, B-PS, B-CV, B-OG, B-LC
-33	“	O	O	O, B-PS, B-LC, B-EV, B-CV
-34	다음	O	O	O, B-EV, B-LC, B-PS, B-OG
-35	(	O	O	O, I-EV, I-DT, B-EV, B-PS
-36	2014	B-DT	B-DT	B-DT, I-DT, O, B-EV, I-EV
-37	##년	I-DT	I-DT	I-DT, O, I-EV, I-PS, B-DT
-38	교육감	B-CV	B-CV	B-CV, B-EV, O, I-EV, B-LC
-39	)	O	O	O, I-EV, I-CV, B-EV, I-DT
-40	선거	O	O	O, I-EV, B-EV, B-CV, B-PS
-41	##에	O	O	O, I-EV, B-CV, B-PS, B-LC
-42	출마	O	O	O, B-CV, B-LC, B-EV, B-PS
-43	##하	O	O	O, B-PS, B-LC, B-OG, B-CV
-44	##지	O	O	O, B-PS, B-LC, B-CV, B-OG
-45	않	O	O	O, B-LC, B-PS, B-CV, I-EV
-46	##겠	O	O	O, B-LC, B-PS, B-CV, I-EV
-47	##으니	O	O	O, B-PS, B-LC, B-CV, I-EV
-48	후보	B-CV	B-CV	B-CV, O, B-TM, I-CV, B-AF
-49	##직	I-CV	I-CV	I-CV, O, B-CV, I-TM, I-EV
-50	##에서	O	O	O, I-CV, I-EV, B-CV, B-PS
-51	사퇴	O	O	O, B-CV, B-LC, B-PS, B-TM
-52	##해	O	O	O, B-PS, B-LC, B-OG, B-CV
-53	##달	O	O	O, B-PS, B-LC, B-CV, B-OG
-54	##라	O	O	O, B-PS, B-LC, B-CV, B-OG
-55	”	O	O	O, B-CV, B-PS, B-OG, B-LC
-56	는	O	O	O, B-CV, B-PS, B-LC, B-OG
-57	약속	O	O	O, B-CV, B-PS, B-LC, B-TM
-58	##을	O	O	O, B-CV, B-PS, B-OG, I-EV
-59	받	O	O	O, B-CV, B-PS, B-LC, B-OG
-60	##고	O	O	O, B-PS, B-CV, B-LC, B-OG
-61	사퇴	O	O	O, B-CV, B-LC, B-TM, I-EV
-62	##했	O	O	O, B-PS, B-CV, B-OG, B-LC
-63	##다고	O	O	O, B-CV, B-PS, B-LC, B-OG
-64	주장	O	O	O, B-CV, B-TM, B-LC, B-OG
-65	##했	O	O	O, B-CV, B-PS, I-CV, B-LC
-66	##다	O	O	O, B-CV, B-LC, B-OG, B-PS
-67	.	O	O	O, B-PS, B-LC, B-CV, I-EV
-68	[SEP]	O	O	O, B-CV, B-PS, B-LC, I-EV
+	text	label	preds
+0	[CLS]	O	O
+1	2003	B-DT	B-DT
+2	##년	I-DT	I-DT
+3	이후	I-DT	I-DT
+4	6	B-EV	B-EV
+5	##자	I-EV	I-EV
+6	##회	I-EV	I-EV
+7	##담	I-EV	I-EV
+8	##을	O	O
+9	통해	O	O
+10	북한	B-OG	B-LC
+11	핵	B-AF	B-AF
+12	문제	O	O
+13	해결	O	O
+14	##의	O	O
+15	간사	B-CV	O
+16	##국	O	O
+17	역할	O	O
+18	##을	O	O
+19	자임	O	O
+20	##했	O	O
+21	##던	O	O
+22	중국	B-LC	B-OG
+23	##은	O	O
+24	북한	B-OG	B-OG
+25	##의	O	O
+26	핵실험	O	O
+27	##과	O	O
+28	장거리	O	O
+29	미사일	B-AF	B-AF
+30	발사	O	O
+31	실험	O	O
+32	##으로	O	O
+33	영향력	O	O
+34	부재	O	O
+35	##를	O	O
+36	드러낸	O	O
+37	것	O	O
+38	##에	O	O
+39	당혹	O	O
+40	##감	O	O
+41	##을	O	O
+42	감추	O	O
+43	##지	O	O
+44	못하	O	O
+45	##고	O	O
+46	있	O	O
+47	##다	O	O
+48	.	O	O
+49	[SEP]	O	O

@@ -1,37 +1,25 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-EV, I-OG, B-CV, I-QT
-1	국악	B-FD	B-FD	B-FD, O, I-FD, B-EV, B-TR
-2	##경	O	O	O, I-EV, I-FD, B-EV, I-CV
-3	##연	O	O	O, I-EV, I-FD, I-CV, I-OG
-4	,	O	O	O, I-EV, B-CV, B-LC, B-EV
-5	시조	O	B-FD	B-FD, O, I-FD, B-EV, B-AF
-6	##경	O	O	O, I-EV, I-FD, B-EV, I-CV
-7	##창	O	O	O, I-EV, I-FD, I-CV, I-AF
-8	,	O	O	O, I-EV, B-LC, I-OG, B-CV
-9	악기	O	O	O, B-EV, B-CV, B-FD, B-LC
-10	##제	O	O	O, I-EV, I-CV, I-LC, I-AF
-11	##작	O	O	O, I-EV, I-LC, I-OG, I-CV
-12	및	O	O	O, I-EV, I-LC, I-AF, I-OG
-13	연주	O	O	O, I-EV, B-EV, B-CV, B-LC
-14	##체	O	O	O, I-EV, B-EV, I-LC, B-CV
-15	##험	O	O	O, I-EV, I-LC, I-CV, B-EV
-16	,	O	O	O, I-EV, B-LC, B-CV, B-EV
-17	마라톤	O	B-EV	B-EV, O, B-CV, I-EV, B-TM
-18	##대	O	O	O, I-EV, B-EV, I-CV, I-AF
-19	##회	O	O	O, I-EV, I-CV, I-LC, I-AF
-20	,	O	O	O, I-EV, B-CV, B-LC, I-OG
-21	산	O	B-EV	B-EV, O, B-CV, I-EV, B-DT
-22	##아	O	I-EV	I-EV, O, I-CV, I-AF, I-TM
-23	##음	O	I-EV	I-EV, O, I-CV, I-AF, I-TM
-24	##악	O	I-EV	I-EV, O, I-CV, I-AF, I-OG
-25	##제	O	I-EV	I-EV, O, I-AF, I-CV, I-OG
-26	등	O	O	O, I-EV, I-AF, I-OG, B-LC
-27	다양	O	O	O, B-CV, B-LC, B-TM, B-OG
-28	##한	O	O	O, B-LC, I-EV, B-PS, B-EV
-29	볼거리	O	O	O, B-EV, I-EV, B-CV, B-LC
-30	##가	O	O	O, I-EV, B-PS, B-CV, B-OG
-31	준비	O	O	O, B-EV, B-CV, B-LC, B-OG
-32	##된	O	O	O, I-EV, B-EV, B-CV, B-LC
-33	##다	O	O	O, I-EV, B-EV, B-CV, B-LC
-34	.	O	O	O, I-EV, B-EV, B-LC, B-CV
-35	[SEP]	O	O	O, I-EV, B-EV, B-CV, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	어제	B-DT	B-DT
+2	(	O	O
+3	17	B-DT	B-DT
+4	##일	I-DT	I-DT
+5	)	O	O
+6	부터	O	I-DT
+7	이틀	B-DT	B-DT
+8	##간	I-DT	I-DT
+9	서울	B-LC	B-LC
+10	송파구	B-LC	B-LC
+11	올림픽	B-LC	B-LC
+12	##공원	I-LC	I-LC
+13	##에	O	O
+14	##서	O	O
+15	열리	O	O
+16	##는	O	O
+17	서울	B-LC	B-EV
+18	##재	B-EV	I-EV
+19	##즈	I-EV	I-EV
+20	##페	I-EV	I-EV
+21	##스티벌	I-EV	I-EV
+22	.	O	O
+23	[SEP]	O	O

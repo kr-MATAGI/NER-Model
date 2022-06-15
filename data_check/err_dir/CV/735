@@ -1,22 +1,53 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-EV
-1	김	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
-2	대표	B-CV	B-CV	B-CV, O, I-PS, I-CV, B-OG
-3	##는	O	O	O, I-CV, I-EV, B-CV, I-OG
-4	17	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-5	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-6	오전	B-TI	B-TI	B-TI, O, I-TI, I-DT, B-EV
-7	국민	B-CV	B-CV	B-CV, O, B-OG, B-TM, I-CV
-8	##공	I-CV	O	O, I-CV, I-OG, I-TM, B-CV
-9	##천	I-CV	O	O, I-CV, I-OG, I-TM, I-TR
-10	##제	I-CV	O	O, I-CV, I-OG, I-TM, I-TR
-11	태	O	O	O, I-OG, I-CV, I-TM, B-OG
-12	##스크	O	O	O, I-OG, I-CV, I-EV, I-LC
-13	##포스	O	O	O, I-OG, I-CV, I-EV, I-LC
-14	##를	O	O	O, I-OG, I-CV, I-AF, I-EV
-15	긴급	O	O	O, B-CV, B-TM, B-LC, B-OG
-16	소집	O	O	O, I-OG, B-LC, B-OG, I-EV
-17	##했	O	O	O, I-OG, B-CV, B-LC, B-OG
-18	##다	O	O	O, B-CV, I-OG, B-LC, B-OG
-19	.	O	O	O, B-LC, B-OG, I-OG, B-PS
-20	[SEP]	O	O	O, I-OG, B-LC, B-OG, B-CV
+	text	label	preds
+0	[CLS]	O	O
+1	자유	B-OG	B-OG
+2	##북	I-OG	I-OG
+3	##한	I-OG	I-OG
+4	##운동연합	I-OG	I-OG
+5	등	O	O
+6	20	B-QT	B-QT
+7	##여	I-QT	I-QT
+8	탈북자	B-CV	B-OG
+9	##단체	O	I-OG
+10	##와	O	O
+11	대북	B-OG	B-OG
+12	##전	I-OG	I-OG
+13	##단	I-OG	I-OG
+14	##보내	I-OG	I-OG
+15	##기	I-OG	I-OG
+16	##국	I-OG	I-OG
+17	##민	I-OG	I-OG
+18	##연합	I-OG	I-OG
+19	##이	O	O
+20	15	B-DT	B-DT
+21	##일	I-DT	I-DT
+22	경기도	B-LC	B-LC
+23	파주시	B-LC	B-LC
+24	임진	B-LC	B-LC
+25	##각	I-LC	I-LC
+26	##에	O	O
+27	##서	O	O
+28	주민	B-CV	B-CV
+29	##들의	O	O
+30	반대	O	O
+31	##에도	O	O
+32	전단	O	O
+33	살포	O	O
+34	##를	O	O
+35	강행	O	O
+36	##하	O	O
+37	##기	O	O
+38	##로	O	O
+39	해	O	O
+40	또	O	O
+41	##다	O	O
+42	##시	O	O
+43	물리	O	O
+44	##적	O	O
+45	충돌	O	O
+46	##이	O	O
+47	우려	O	O
+48	##된	O	O
+49	##다	O	O
+50	.	O	O
+51	[SEP]	O	O

@@ -1,15 +1,27 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-EV
-1	미	O	B-EV	B-EV, B-LC, B-OG, B-PS, I-EV
-2	-	O	I-EV	I-EV, O, I-DT, I-LC, I-QT
-3	중	O	I-EV	I-EV, I-LC, I-OG, B-EV, I-AF
-4	정상	O	I-EV	I-EV, O, B-EV, I-OG, I-AF
-5	##회	O	I-EV	I-EV, O, I-OG, I-AF, I-QT
-6	##담	O	I-EV	I-EV, O, I-OG, I-AF, I-QT
-7	##서	O	O	O, I-EV, I-OG, I-AF, I-DT
-8	무역	O	O	O, B-EV, B-LC, B-CV, B-TM
-9	##갈	O	O	O, I-EV, B-EV, B-LC, B-CV
-10	##등	O	O	O, I-EV, I-LC, I-TM, I-CV
-11	완화	O	O	O, I-EV, B-CV, B-LC, B-PS
-12	##로	O	O	O, I-EV, I-OG, B-PS, I-CV
-13	[SEP]	O	O	O, B-CV, B-LC, I-EV, B-EV
+	text	label	preds
+0	[CLS]	O	O
+1	초연	O	O
+2	무대	O	O
+3	##로	O	O
+4	,	O	O
+5	배우	B-CV	B-CV
+6	예수	B-PS	B-PS
+7	##정	I-PS	I-PS
+8	##과	O	O
+9	캄보디아	B-LC	B-LC
+10	말	O	I-CV
+11	##을	O	O
+12	쓰	O	O
+13	##는	O	O
+14	전국	B-PS	B-PS
+15	##향	I-PS	I-PS
+16	##의	O	O
+17	할머니	B-CV	B-CV
+18	연기	O	O
+19	##는	O	O
+20	연극	B-FD	B-FD
+21	##의	O	O
+22	기둥	O	O
+23	##이다	O	O
+24	.	O	O
+25	[SEP]	O	O

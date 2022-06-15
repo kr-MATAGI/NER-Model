@@ -1,6 +1,33 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, I-AF, I-QT
-1	육	B-QT	B-QT	B-QT, B-DT, O, I-QT, B-EV
-2	##학년	I-QT	I-QT	I-QT, O, I-DT, I-EV, I-OG
-3	이반	B-QT	O	O, B-PS, B-CV, B-LC, B-AM
-4	[SEP]	O	O	O, I-CV, I-QT, I-AF, B-CV
+	text	label	preds
+0	[CLS]	O	O
+1	서울	B-LC	B-LC
+2	종로구	B-LC	B-LC
+3	신문	B-AF	B-AF
+4	##로	I-AF	I-AF
+5	##1	B-QT	I-AF
+6	##가	I-QT	I-AF
+7	197	B-QT	B-QT
+8	금호	B-AF	B-OG
+9	##아시아	I-AF	I-OG
+10	##나	I-AF	I-OG
+11	신사	I-AF	I-AF
+12	##옥	I-AF	I-AF
+13	##은	O	O
+14	입	O	O
+15	##면	O	O
+16	##의	O	O
+17	외장	O	O
+18	악	O	O
+19	##센트	O	O
+20	##를	O	O
+21	대로	O	O
+22	##변이	O	O
+23	아닌	O	O
+24	뒷	O	O
+25	##벽	O	O
+26	##에	O	O
+27	품은	O	O
+28	건물	O	O
+29	##이다	O	O
+30	.	O	O
+31	[SEP]	O	O

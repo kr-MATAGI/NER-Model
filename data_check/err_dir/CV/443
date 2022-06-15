@@ -1,18 +1,17 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-EV, I-OG, B-CV, I-QT
-1	하지만	O	O	O, B-LC, B-CV, B-EV, B-OG
-2	이날	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-LC
-3	장례	O	O	O, B-EV, I-EV, I-DT, B-CV
-4	행사	O	O	O, I-EV, I-CV, I-LC, I-OG
-5	##에서	O	O	O, B-LC, I-EV, B-CV, B-OG
-6	양국	O	O	O, B-LC, B-OG, B-CV, B-PS
-7	인사	B-CV	O	O, B-CV, I-CV, B-EV, B-OG
-8	간	O	O	O, B-LC, I-CV, B-PS, I-EV
-9	회동	O	O	O, B-LC, B-EV, B-OG, B-CV
-10	##은	O	O	O, I-EV, B-LC, B-OG, B-CV
-11	이뤄지지	O	O	O, B-CV, B-LC, B-OG, B-EV
-12	않	O	O	O, B-LC, I-EV, B-CV, B-OG
-13	##았	O	O	O, B-LC, B-CV, I-EV, I-OG
-14	##다	O	O	O, I-EV, B-CV, B-LC, B-EV
-15	.	O	O	O, B-LC, I-EV, B-OG, B-CV
-16	[SEP]	O	O	O, B-LC, I-EV, B-CV, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	네	O	O
+2	아리	B-CV	B-LC
+3	##수	I-CV	I-LC
+4	##를	O	O
+5	이제	O	O
+6	긴급	O	O
+7	방사성	O	B-MT
+8	##물	O	O
+9	##질	O	O
+10	수질	O	O
+11	##검사	O	O
+12	##를	O	O
+13	했	O	O
+14	##는데	O	O
+15	[SEP]	O	O

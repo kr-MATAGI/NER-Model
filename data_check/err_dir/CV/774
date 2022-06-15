@@ -1,15 +1,26 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	대역	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-AF
-2	##배우	I-CV	I-CV	I-CV, O, B-CV, I-QT, I-OG
-3	##로	O	O	O, I-CV, I-OG, I-QT, B-CV
-4	나가	O	O	O, B-CV, B-PS, B-OG, B-LC
-5	##고	O	O	O, I-CV, I-OG, I-AF, B-PS
-6	단	B-CV	O	O, B-CV, I-CV, B-QT, B-TM
-7	##역	I-CV	O	O, I-CV, B-CV, I-QT, I-TM
-8	##으로	O	O	O, I-CV, I-QT, I-OG, B-PS
-9	출연	O	O	O, B-CV, B-LC, B-TM, I-CV
-10	##했	O	O	O, B-CV, I-CV, B-OG, B-PS
-11	##다	O	O	O, B-CV, I-OG, I-CV, I-AF
-12	.	O	O	O, B-CV, B-PS, B-LC, B-OG
-13	[SEP]	O	O	O, B-CV, I-CV, B-PS, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	그	O	O
+2	##는	O	O
+3	이	O	O
+4	단체	O	O
+5	##에	O	O
+6	##서	O	O
+7	내	O	O
+8	##는	O	O
+9	국군	B-OG	B-AF
+10	포로	B-CV	I-AF
+11	백서	O	I-AF
+12	##를	O	O
+13	보고	O	O
+14	""""	O	O
+15	놀라	O	O
+16	##웠	O	O
+17	##다	O	O
+18	""""	O	O
+19	고	O	O
+20	말	O	O
+21	##했	O	O
+22	##다	O	O
+23	.	O	O
+24	[SEP]	O	O

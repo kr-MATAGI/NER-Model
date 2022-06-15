@@ -1,18 +1,80 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	불꽃놀이	O	O	O, B-EV, B-AF, B-CV, B-PS
-2	##가	O	O	O, I-EV, I-AF, I-CV, B-PS
-3	아닌	O	O	O, B-CV, B-OG, I-AF, B-PS
-4	물	B-AF	O	O, B-EV, B-AF, B-CV, B-LC
-5	##꽃	I-AF	O	O, I-AF, I-EV, I-LC, I-FD
-6	##놀이	I-AF	O	O, I-AF, I-EV, I-LC, I-FD
-7	##로	O	O	O, I-AF, I-EV, I-CV, I-OG
-8	말	O	O	O, B-CV, I-AF, I-EV, B-PS
-9	##한	O	O	O, B-PS, B-CV, B-LC, B-OG
-10	그	O	O	O, B-CV, B-OG, B-LC, B-PS
-11	~	O	O	O, B-CV, I-CV, B-LC, I-OG
-12	시	O	O	O, B-FD, B-TR, B-CV, B-OG
-13	##적	O	O	O, I-FD, I-TR, B-FD, I-CV
-14	감성	O	O	O, B-FD, I-FD, I-TR, B-TR
-15	##에	O	O	O, I-OG, I-AF, I-CV, B-CV
-16	[SEP]	O	O	O, B-CV, B-FD, B-LC, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	소설가	B-CV	B-CV
+2	하	B-PS	B-PS
+3	##성	I-PS	I-PS
+4	##란	I-PS	I-PS
+5	·	O	O
+6	박민	B-PS	B-PS
+7	##규	I-PS	I-PS
+8	·	O	O
+9	조	B-PS	B-PS
+10	##해진	I-PS	I-PS
+11	·	O	O
+12	황정	B-PS	B-PS
+13	##은	I-PS	I-PS
+14	##씨	O	O
+15	등과	O	O
+16	시인	B-CV	B-CV
+17	손	B-PS	B-PS
+18	##택	I-PS	I-PS
+19	##수	I-PS	I-PS
+20	·	O	O
+21	신용	B-PS	B-PS
+22	##목	I-PS	I-PS
+23	·	O	O
+24	문	B-PS	B-PS
+25	##동	I-PS	I-PS
+26	##만	I-PS	I-PS
+27	·	O	O
+28	김선	B-PS	B-PS
+29	##재	I-PS	I-PS
+30	##씨	O	O
+31	등	O	O
+32	문인	B-CV	B-CV
+33	20	B-QT	B-QT
+34	##여	I-QT	I-QT
+35	##명	I-QT	I-QT
+36	##은	O	O
+37	18	B-DT	B-DT
+38	##일	I-DT	I-DT
+39	낮	B-TI	B-TI
+40	손	B-PS	B-PS
+41	##홍	I-PS	I-PS
+42	##규	I-PS	I-PS
+43	##씨	O	O
+44	##를	O	O
+45	소환	O	O
+46	##한	O	O
+47	서울	B-LC	B-LC
+48	남대문	B-OG	B-AF
+49	##경찰	I-OG	I-AF
+50	##서	I-OG	I-AF
+51	앞	B-TM	B-TM
+52	##에	O	O
+53	모여	O	O
+54	‘	O	O
+55	우리	B-AF	O
+56	##는	I-AF	O
+57	정권	I-AF	O
+58	##교	I-AF	O
+59	##체	I-AF	O
+60	##를	I-AF	O
+61	희망	I-AF	O
+62	##했	I-AF	O
+63	##던	I-AF	O
+64	이유로	I-AF	O
+65	돌아가	I-AF	O
+66	##려	I-AF	O
+67	합니다	I-AF	O
+68	’	O	O
+69	라는	O	O
+70	제목	O	O
+71	##의	O	O
+72	성명서	O	O
+73	##를	O	O
+74	발표	O	O
+75	##했	O	O
+76	##다	O	O
+77	.	O	O
+78	[SEP]	O	O

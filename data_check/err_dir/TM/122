@@ -1,60 +1,29 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-EV, B-CV, I-OG, I-CV
-1	이	O	O	O, B-PS, B-CV, B-OG, B-TM
-2	##들	O	O	O, I-OG, B-CV, I-EV, B-PS
-3	##은	O	O	O, B-CV, B-LC, B-PS, B-OG
-4	오	B-DT	B-DT	B-DT, O, B-EV, B-QT, I-DT
-5	##는	I-DT	I-DT	I-DT, O, I-EV, B-DT, I-QT
-6	12	I-DT	I-DT	I-DT, B-DT, I-EV, O, B-EV
-7	·	I-DT	I-DT	I-DT, O, I-EV, B-DT, I-QT
-8	19	I-DT	I-DT	I-DT, I-EV, B-DT, O, I-QT
-9	·	I-DT	I-DT	I-DT, O, I-EV, B-DT, I-QT
-10	26	I-DT	I-DT	I-DT, B-DT, I-EV, O, B-EV
-11	·	I-DT	I-DT	I-DT, O, I-EV, B-DT, I-QT
-12	30	I-DT	I-DT	I-DT, B-DT, O, I-EV, B-EV
-13	##일	I-DT	I-DT	I-DT, O, I-EV, B-DT, I-QT
-14	##과	O	O	O, I-DT, I-EV, B-DT, B-LC
-15	내달	B-DT	B-DT	B-DT, I-DT, O, B-EV, B-QT
-16	1	I-DT	I-DT	I-DT, B-DT, O, I-EV, I-QT
-17	##일	I-DT	I-DT	I-DT, O, B-DT, I-EV, I-QT
-18	대	O	O	O, I-DT, B-EV, I-EV, B-LC
-19	##규모	O	O	O, I-EV, B-EV, B-LC, B-CV
-20	규탄	O	O	O, B-EV, I-EV, B-CV, B-LC
-21	##집	O	O	O, I-EV, B-EV, B-CV, B-PS
-22	##회	O	O	O, I-EV, B-EV, B-CV, B-LC
-23	##를	O	O	O, I-EV, B-CV, B-LC, B-PS
-24	여	O	O	O, B-CV, B-EV, B-LC, B-OG
-25	##는	O	O	O, B-LC, B-CV, B-DT, B-PS
-26	등	O	O	O, B-LC, B-DT, B-PS, B-EV
-27	집회	O	O	O, B-CV, B-EV, I-EV, B-FD
-28	·	O	O	O, I-EV, I-CV, I-LC, B-PS
-29	시위	O	O	O, I-EV, B-CV, I-CV, B-EV
-30	##를	O	O	O, I-EV, B-PS, B-LC, B-CV
-31	계속	O	O	O, B-CV, B-LC, B-TM, B-PS
-32	##한다	O	O	O, B-LC, B-PS, B-CV, B-OG
-33	##고	O	O	O, B-LC, B-PS, B-CV, B-OG
-34	선언	O	O	O, B-CV, B-LC, B-EV, B-TM
-35	##했	O	O	O, B-PS, B-LC, B-CV, I-EV
-36	##고	O	O	O, B-PS, B-LC, I-EV, B-CV
-37	앞	O	O	O, B-TM, B-LC, B-CV, B-AF
-38	##으로	O	O	O, B-LC, B-CV, B-PS, I-EV
-39	##도	O	O	O, B-LC, B-CV, B-EV, B-AF
-40	대한	B-AF	B-AF	B-AF, O, B-EV, B-OG, B-LC
-41	##문	I-AF	I-AF	I-AF, O, I-EV, I-LC, I-OG
-42	앞	B-TM	O	O, B-TM, I-TM, I-AF, I-EV
-43	시위	O	O	O, B-CV, I-EV, I-TM, I-CV
-44	##를	O	O	O, I-EV, I-CV, B-CV, I-AF
-45	계속	O	O	O, B-LC, B-TM, B-CV, B-OG
-46	##한다	O	O	O, B-LC, B-PS, B-OG, B-CV
-47	##니	O	O	O, B-LC, B-PS, B-TM, B-OG
-48	이런	O	O	O, B-CV, B-LC, B-TM, B-PS
-49	불편	O	O	O, B-CV, B-TM, B-LC, B-EV
-50	##은	O	O	O, B-CV, B-LC, B-PS, I-EV
-51	당분간	O	O	O, B-DT, B-QT, B-LC, B-TM
-52	계속	O	O	O, B-CV, B-TM, B-LC, I-QT
-53	##될	O	O	O, B-PS, B-LC, B-CV, B-TM
-54	것	O	O	O, B-CV, B-PS, B-TM, B-OG
-55	같	O	O	O, B-CV, B-TM, B-PS, I-OG
-56	##다	O	O	O, B-CV, B-TM, I-OG, I-EV
-57	.	O	O	O, B-LC, B-CV, B-PS, I-EV
-58	[SEP]	O	O	O, B-CV, B-LC, I-EV, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	출발	O	O
+2	##이	O	O
+3	늦	O	O
+4	##었	O	O
+5	##던	O	O
+6	LTE	B-TM	B-TR
+7	사업	I-TM	O
+8	##을	O	O
+9	확대	O	O
+10	##해	O	O
+11	##가	O	O
+12	##는	O	O
+13	과제	O	O
+14	##도	O	O
+15	황	B-PS	B-PS
+16	차기	O	O
+17	CEO	B-CV	B-CV
+18	후보자	B-CV	B-CV
+19	##의	O	O
+20	두	B-QT	B-QT
+21	손	I-QT	I-QT
+22	##에	O	O
+23	맡겨	O	O
+24	##졌	O	O
+25	##다	O	O
+26	.	O	O
+27	[SEP]	O	O

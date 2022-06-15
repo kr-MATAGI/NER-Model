@@ -1,13 +1,23 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, B-CV, I-OG, I-AF
-1	그리고	O	O	O, B-CV, B-LC, B-OG, B-DT
-2	오늘날	B-DT	O	O, B-DT, I-DT, B-TI, B-LC
-3	##까	I-DT	I-DT	I-DT, O, B-DT, I-TI, B-TI
-4	##지	I-DT	I-DT	I-DT, O, B-DT, I-TI, I-QT
-5	유일	O	O	O, I-DT, B-QT, B-DT, B-LC
-6	##하	O	O	O, I-DT, B-LC, B-PS, I-LC
-7	##게	O	O	O, B-LC, B-QT, I-DT, I-AF
-8	한	B-QT	B-QT	B-QT, O, I-QT, B-LC, B-DT
-9	번	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-10	##도	O	O	O, I-QT, I-OG, I-AF, I-DT
-11	[SEP]	O	O	O, B-CV, I-QT, B-LC, B-DT
+	text	label	preds
+0	[CLS]	O	O
+1	왜냐하면	O	O
+2	그것	O	O
+3	##이	O	O
+4	계속	O	O
+5	됐	O	O
+6	##어야	O	O
+7	후기	B-DT	B-TM
+8	이	B-TM	I-TM
+9	##십	I-TM	I-TM
+10	##일	I-TM	I-TM
+11	##세기	I-TM	I-TM
+12	세종	I-TM	I-TM
+13	계획	I-TM	I-TM
+14	##이	O	O
+15	세워졌	O	O
+16	##을	O	O
+17	거	O	O
+18	##예	O	O
+19	##요	O	O
+20	.	O	O
+21	[SEP]	O	O

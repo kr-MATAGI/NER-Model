@@ -1,19 +1,16 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	그	O	O	O, B-CV, B-OG, B-LC, B-PS
-2	~	O	O	O, B-PS, B-LC, B-CV, B-OG
-3	법원	B-OG	B-OG	B-OG, O, B-AF, B-LC, I-OG
-4	##에서	O	O	O, I-OG, B-CV, B-PS, I-AF
-5	국	O	O	O, B-EV, B-CV, B-AF, B-OG
-6	##선	O	O	O, I-CV, I-EV, I-AF, I-OG
-7	변호인	B-CV	B-CV	B-CV, I-CV, O, I-EV, I-AF
-8	##처럼	O	O	O, I-CV, I-EV, I-OG, I-AF
-9	이	O	O	O, B-PS, B-CV, B-LC, B-OG
-10	사회	O	B-CV	B-CV, O, I-CV, B-PS, B-TM
-11	##취	O	I-CV	I-CV, O, B-CV, I-QT, I-OG
-12	##약	O	I-CV	I-CV, O, B-CV, I-OG, I-QT
-13	##계	O	I-CV	I-CV, O, B-CV, I-OG, I-QT
-14	##층	O	I-CV	I-CV, O, B-CV, I-OG, I-QT
-15	##을	O	O	O, I-CV, B-CV, I-OG, I-QT
-16	위해서	O	O	O, B-CV, B-LC, I-CV, B-PS
-17	[SEP]	O	O	O, B-CV, B-LC, B-PS, I-CV
+	text	label	preds
+0	[CLS]	O	O
+1	교육청	O	B-OG
+2	##은	O	O
+3	이날	B-DT	B-DT
+4	윤	B-PS	B-PS
+5	교장	B-CV	B-CV
+6	##에	O	O
+7	대한	O	O
+8	감사	O	O
+9	##에	O	O
+10	착수	O	O
+11	##했	O	O
+12	##다	O	O
+13	.	O	O
+14	[SEP]	O	O

@@ -1,14 +1,18 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	가족	O	B-CV	B-CV, O, I-CV, B-OG, B-TM
-2	##계	O	O	O, I-CV, I-AF, I-OG, B-CV
-3	##획	O	O	O, I-CV, I-AF, I-TM, B-PS
-4	##은	O	O	O, B-CV, I-AF, I-CV, B-OG
-5	처음	O	O	O, B-CV, B-TM, B-QT, B-PS
-6	보	O	O	O, B-CV, B-TM, B-PS, B-OG
-7	##는	O	O	O, B-CV, B-LC, B-PS, B-OG
-8	친척	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-TM
-9	##들이	O	O	O, I-CV, I-OG, B-CV, I-AF
-10	아니	O	O	O, B-CV, B-OG, B-TM, B-PS
-11	##라	O	O	O, B-CV, B-OG, I-OG, B-PS
-12	[SEP]	O	O	O, B-CV, B-LC, B-OG, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	야구	O	O
+2	##단	O	O
+3	##에	O	O
+4	대한	O	O
+5	평소	O	O
+6	철학	O	B-FD
+7	##이	O	O
+8	그대로	O	O
+9	묻어나	O	O
+10	##는	O	O
+11	장면	O	O
+12	##이	O	O
+13	##었	O	O
+14	##다	O	O
+15	.	O	O
+16	[SEP]	O	O

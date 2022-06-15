@@ -1,9 +1,22 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-AF
-1	친일	O	O	O, B-CV, B-EV, B-FD, B-OG
-2	##은	O	O	O, I-EV, I-CV, I-OG, B-PS
-3	면죄부	O	B-AF	B-AF, O, B-MT, B-PS, I-AF
-4	##가	O	O	O, I-AF, I-OG, I-PS, I-EV
-5	받	O	O	O, B-CV, B-OG, B-PS, I-AF
-6	##는	O	O	O, B-CV, B-OG, I-AF, I-OG
-7	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	포수	B-CV	B-TM
+2	마스크	B-CV	I-TM
+3	##를	O	O
+4	쓴	O	O
+5	5	B-TI	B-TI
+6	##회	I-TI	I-TI
+7	##말	I-TI	I-TI
+8	수비	B-CV	O
+9	땐	O	O
+10	빠른	O	O
+11	송구	O	B-TM
+12	##로	O	O
+13	도루	B-TM	B-TM
+14	저지	O	O
+15	##까	O	O
+16	##지	O	O
+17	해냈	O	O
+18	##다	O	O
+19	.	O	O
+20	[SEP]	O	O

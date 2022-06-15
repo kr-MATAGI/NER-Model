@@ -1,50 +1,22 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-QT
-1	그동안	O	O	O, B-OG, B-LC, B-CV, B-PS
-2	도자기	O	O	O, B-CV, B-FD, B-AF, B-MT
-3	브랜드	O	O	O, B-CV, I-CV, I-OG, B-OG
-4	‘	O	O	O, B-OG, I-OG, B-CV, I-CV
-5	이도	B-OG	B-OG	B-OG, O, I-OG, B-AF, B-PS
-6	’	O	O	O, I-OG, I-CV, B-OG, B-CV
-7	의	O	O	O, I-OG, B-CV, B-OG, I-CV
-8	대표	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-AF
-9	##로	O	O	O, I-CV, B-PS, I-OG, I-QT
-10	알려졌	O	O	O, B-CV, B-PS, B-OG, B-LC
-11	##던	O	O	O, B-PS, B-LC, B-OG, B-CV
-12	이윤	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
-13	##신	I-PS	I-PS	I-PS, O, I-OG, I-LC, I-QT
-14	원	B-OG	B-OG	B-OG, B-LC, O, B-AF, I-OG
-15	##신	I-OG	I-OG	I-OG, O, I-LC, I-AF, I-PS
-16	##월드	I-OG	I-OG	I-OG, O, I-AF, I-LC, I-PS
-17	W	B-OG	I-OG	I-OG, B-OG, O, I-AF, B-AF
-18	##몰	I-OG	I-OG	I-OG, O, I-AF, I-LC, I-TM
-19	회장	B-CV	B-CV	B-CV, O, I-CV, I-OG, I-AF
-20	(	O	O	O, I-CV, I-OG, B-CV, I-AF
-21	56	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-TM
-22	)	O	O	O, I-QT, I-DT, I-OG, I-CV
-23	은	O	O	O, B-CV, B-PS, B-LC, B-OG
-24	지난해	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-25	원	B-OG	B-OG	B-OG, B-LC, B-PS, O, I-OG
-26	##신	I-OG	I-OG	I-OG, I-LC, O, I-PS, I-AF
-27	##월드	I-OG	I-OG	I-OG, I-LC, O, I-PS, I-AF
-28	창업주	B-CV	B-CV	B-CV, O, I-CV, I-OG, B-AF
-29	##이	O	O	O, I-CV, B-PS, B-CV, I-OG
-30	##자	O	O	O, B-PS, B-CV, I-CV, B-LC
-31	부친	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-PS
-32	##인	O	O	O, I-CV, B-PS, B-CV, I-QT
-33	이우	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
-34	##혁	I-PS	I-PS	I-PS, I-OG, O, I-LC, I-QT
-35	명예	B-CV	B-CV	B-CV, O, I-CV, I-PS, B-OG
-36	##회장	I-CV	I-CV	I-CV, B-CV, O, I-OG, I-QT
-37	(	O	O	O, I-CV, I-OG, I-QT, B-CV
-38	81	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-LC
-39	)	O	O	O, I-QT, I-DT, I-OG, I-CV
-40	에	O	O	O, B-CV, B-PS, B-LC, I-QT
-41	이어	O	O	O, B-QT, B-CV, B-PS, B-OG
-42	회장	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-OG
-43	##에	O	O	O, I-CV, B-CV, I-QT, I-OG
-44	취임	O	O	O, B-CV, B-OG, B-TM, B-QT
-45	##했	O	O	O, B-CV, B-PS, B-OG, B-LC
-46	##다	O	O	O, B-CV, B-PS, B-LC, B-OG
-47	.	O	O	O, B-PS, B-LC, B-OG, B-CV
-48	[SEP]	O	O	O, B-CV, B-PS, B-LC, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	마오	B-OG	B-PS
+2	##는	O	O
+3	중국	B-LC	B-LC
+4	음식점	O	O
+5	##으로	O	O
+6	,	O	O
+7	실내	O	O
+8	##에	O	O
+9	마오쩌둥	B-PS	B-PS
+10	##의	O	O
+11	초상화	O	O
+12	##가	O	O
+13	걸려	O	O
+14	있	O	O
+15	##어	O	O
+16	이색	O	O
+17	##적	O	O
+18	##이다	O	O
+19	.	O	O
+20	[SEP]	O	O

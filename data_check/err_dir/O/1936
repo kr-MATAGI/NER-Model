@@ -1,69 +1,34 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-EV, I-CV, I-OG
-1	민	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-2	교수	B-CV	B-CV	B-CV, O, I-CV, I-PS, B-OG
-3	##는	O	O	O, I-CV, I-EV, B-CV, I-OG
-4	""""	O	O	O, B-CV, B-LC, B-OG, B-DT
-5	우선	O	O	O, B-DT, B-LC, B-CV, B-OG
-6	보름	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-QT
-7	##간	I-DT	I-DT	I-DT, O, B-DT, I-EV, I-QT
-8	수강	B-CV	B-CV	B-CV, O, I-CV, B-OG, I-DT
-9	##생	I-CV	I-CV	I-CV, O, B-CV, I-EV, I-OG
-10	73	B-QT	B-QT	B-QT, I-QT, O, I-CV, B-DT
-11	##명	I-QT	I-QT	I-QT, O, I-EV, I-DT, I-PS
-12	##이	O	O	O, I-QT, B-PS, I-EV, B-OG
-13	주제	O	O	O, B-CV, B-LC, B-OG, B-TM
-14	##에	O	O	O, B-CV, B-PS, B-LC, B-OG
-15	따라	O	O	O, B-LC, B-PS, B-OG, B-TM
-16	7	B-QT	B-QT	B-QT, O, I-QT, B-EV, B-DT
-17	##개	I-QT	I-QT	I-QT, O, I-EV, I-LC, I-PS
-18	조	O	O	O, I-QT, B-OG, I-OG, B-LC
-19	##로	O	O	O, B-OG, B-LC, B-PS, I-OG
-20	나뉘	O	O	O, B-LC, B-OG, B-CV, B-TM
-21	##어	O	O	O, B-LC, B-OG, B-PS, B-TM
-22	건국대	O	B-OG	B-OG, B-LC, B-AF, O, I-OG
-23	주변	O	O	O, I-OG, I-AF, I-LC, B-LC
-24	지하철역	O	O	O, B-LC, B-AF, I-LC, I-AF
-25	##과	O	O	O, I-AF, I-LC, B-LC, B-CV
-26	버스	B-AF	B-AF	B-AF, O, I-AF, B-OG, B-CV
-27	정류장	O	O	O, I-AF, B-LC, B-AF, I-LC
-28	##에서	O	O	O, I-AF, B-LC, B-CV, I-LC
-29	시민	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-TM
-30	##들	O	O	O, I-CV, B-CV, I-AF, I-OG
-31	##에	O	O	O, B-CV, B-TM, B-LC, B-OG
-32	##게	O	O	O, B-LC, B-CV, B-TM, B-PS
-33	기초	O	O	O, B-CV, B-LC, B-PS, B-TM
-34	##질서	O	O	O, B-CV, I-CV, I-LC, B-LC
-35	지키	O	O	O, B-CV, B-LC, B-PS, B-OG
-36	##기에	O	O	O, B-CV, B-LC, B-TM, B-PS
-37	동참	O	O	O, B-CV, B-LC, B-OG, B-TM
-38	##할	O	O	O, B-CV, B-PS, B-LC, B-OG
-39	것	O	O	O, B-CV, B-PS, B-LC, B-OG
-40	##을	O	O	O, B-CV, B-LC, B-PS, B-TM
-41	호소	O	O	O, B-CV, B-LC, B-TM, B-EV
-42	##할	O	O	O, B-CV, B-LC, B-PS, I-EV
-43	것	O	O	O, B-CV, B-PS, B-LC, B-OG
-44	""""	O	O	O, B-CV, B-LC, B-PS, B-TM
-45	이라	O	O	O, B-CV, B-OG, B-PS, B-TM
-46	##며	O	O	O, B-CV, B-LC, B-OG, B-TM
-47	""""	O	O	O, B-LC, B-CV, B-DT, B-EV
-48	G	B-EV	B-EV	B-EV, O, B-OG, I-EV, B-DT
-49	##20	I-EV	I-EV	I-EV, I-OG, O, I-DT, I-LC
-50	회의	I-EV	I-EV	I-EV, O, I-OG, I-AF, I-DT
-51	##가	O	O	O, I-EV, B-PS, I-DT, I-OG
-52	열리	O	O	O, B-LC, I-EV, B-CV, B-DT
-53	##는	O	O	O, B-DT, B-LC, B-PS, I-DT
-54	다음	O	O	O, B-DT, I-DT, B-OG, B-CV
-55	학기	O	O	O, I-DT, B-DT, I-EV, B-CV
-56	##까	O	O	O, I-DT, B-DT, B-PS, I-OG
-57	##지	O	O	O, I-DT, B-DT, B-PS, I-QT
-58	계속	O	O	O, I-DT, B-CV, B-LC, B-OG
-59	##할	O	O	O, B-CV, B-LC, B-OG, B-PS
-60	계획	O	O	O, B-CV, B-TM, B-QT, B-LC
-61	""""	O	O	O, B-CV, B-TM, B-LC, B-PS
-62	이라	O	O	O, B-CV, B-PS, B-TM, B-OG
-63	##고	O	O	O, B-CV, B-TM, B-QT, I-OG
-64	했	O	O	O, B-CV, B-TM, B-OG, B-QT
-65	##다	O	O	O, B-CV, B-TM, I-EV, B-OG
-66	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-67	[SEP]	O	O	O, B-CV, B-LC, I-EV, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	저	O	O
+2	##도	O	O
+3	뭐	O	O
+4	~	O	O
+5	대학생	B-CV	B-CV
+6	때	O	O
+7	사귀	O	O
+8	##던	O	O
+9	남자	B-CV	B-CV
+10	##친	I-CV	I-CV
+11	##구	I-CV	I-CV
+12	##랑	O	O
+13	헤어	O	O
+14	##질	O	O
+15	때	O	O
+16	뭐	O	O
+17	~	O	O
+18	와	O	O
+19	가지	O	O
+20	##고	O	O
+21	소주	O	B-CV
+22	##병	O	O
+23	##개	O	O
+24	##고	O	O
+25	막	O	O
+26	~	O	O
+27	식	B-AF	B-AF
+28	##칼	I-AF	I-AF
+29	들	O	O
+30	##고	O	O
+31	와서	O	O
+32	[SEP]	O	O

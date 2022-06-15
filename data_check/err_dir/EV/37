@@ -1,89 +1,46 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, B-CV, I-EV, I-OG
-1	그동안	O	O	O, B-PS, B-LC, B-DT, B-OG
-2	윤	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-3	씨	O	O	O, I-PS, I-OG, B-CV, I-EV
-4	##는	O	O	O, B-CV, B-LC, B-PS, B-OG
-5	일부	O	O	O, B-OG, B-LC, B-QT, B-PS
-6	언론	O	O	O, B-CV, B-OG, I-OG, B-PS
-7	##과	O	O	O, B-PS, I-OG, B-CV, I-CV
-8	##의	O	O	O, B-LC, B-PS, B-CV, I-EV
-9	인터뷰	O	O	O, B-LC, B-CV, B-TM, B-EV
-10	##에서	O	O	O, B-PS, B-LC, I-EV, B-OG
-11	“	O	O	O, B-LC, B-PS, B-OG, B-CV
-12	그날	O	B-DT	B-DT, O, I-DT, B-EV, B-CV
-13	(	O	O	O, I-DT, I-EV, B-PS, B-CV
-14	4	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-LC
-15	##월	I-DT	I-DT	I-DT, O, B-DT, I-EV, I-PS
-16	4	I-DT	I-DT	I-DT, B-DT, O, I-EV, I-OG
-17	##일	I-DT	I-DT	I-DT, O, B-DT, I-EV, I-OG
-18	)	O	O	O, I-DT, B-LC, I-EV, B-CV
-19	충남	B-LC	B-LC	B-LC, O, B-OG, B-AF, B-PS
-20	홍성	B-LC	B-LC	B-LC, O, I-LC, B-AF, B-OG
-21	##에서	O	O	O, I-LC, B-LC, I-AF, B-PS
-22	열린	O	O	O, B-EV, B-LC, I-EV, B-OG
-23	충남	B-EV	B-OG	B-OG, B-EV, B-AF, O, B-LC
-24	##도	I-EV	I-OG	I-OG, I-EV, I-AF, O, B-OG
-25	##청	I-EV	I-OG	I-OG, I-EV, I-AF, O, I-LC
-26	신청	I-EV	O	O, I-EV, I-OG, B-EV, I-AF
-27	##사	I-EV	O	O, I-EV, I-AF, I-OG, I-LC
-28	개	I-EV	O	O, I-EV, B-EV, B-LC, B-PS
-29	##청	I-EV	O	O, I-EV, B-EV, I-OG, I-AF
-30	##식	I-EV	O	O, I-EV, B-EV, I-OG, I-LC
-31	##을	O	O	O, I-EV, B-PS, B-LC, B-CV
-32	마치	O	O	O, B-LC, B-PS, B-DT, B-CV
-33	##자	O	O	O, B-PS, B-LC, B-DT, B-OG
-34	##마자	O	O	O, B-PS, B-LC, I-DT, I-EV
-35	부여	B-LC	B-LC	B-LC, O, B-AF, B-OG, B-PS
-36	사무실	O	O	O, I-AF, I-LC, B-CV, B-AF
-37	##로	O	O	O, I-AF, B-PS, I-LC, B-LC
-38	왔	O	O	O, B-PS, B-CV, B-LC, B-OG
-39	##다	O	O	O, B-PS, B-CV, B-LC, I-AF
-40	”	O	O	O, B-CV, B-LC, B-PS, B-TM
-41	면서	O	O	O, B-LC, B-PS, B-CV, B-OG
-42	“	O	O	O, B-LC, B-PS, B-CV, B-OG
-43	성	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
-44	회장	B-CV	B-CV	B-CV, O, I-PS, I-CV, B-AF
-45	비서	B-CV	B-CV	B-CV, O, I-CV, B-FD, B-AF
-46	##들이	O	O	O, I-CV, B-PS, B-CV, I-AF
-47	‘	O	O	O, B-PS, B-LC, B-CV, B-OG
-48	의원	B-CV	B-CV	B-CV, O, B-AF, I-CV, B-PS
-49	##님	O	O	O, I-CV, B-PS, I-AF, I-PS
-50	’	O	O	O, B-PS, B-CV, B-LC, I-CV
-51	이	O	O	O, B-PS, B-LC, B-OG, B-AF
-52	아니	O	O	O, B-PS, B-CV, B-LC, I-PS
-53	##라	O	O	O, B-PS, B-LC, B-OG, B-QT
-54	‘	O	O	O, B-PS, B-LC, B-CV, B-OG
-55	회장	B-CV	B-CV	B-CV, O, B-AF, I-CV, B-PS
-56	##님	O	O	O, I-CV, B-PS, I-AF, I-PS
-57	’	O	O	O, B-PS, B-CV, B-LC, I-CV
-58	이라	O	O	O, B-PS, B-CV, B-LC, B-OG
-59	##고	O	O	O, B-PS, B-LC, B-CV, I-AF
-60	말	O	O	O, B-CV, B-PS, B-LC, B-TM
-61	##하	O	O	O, B-PS, B-CV, B-LC, I-PS
-62	##는	O	O	O, B-PS, B-CV, B-LC, B-OG
-63	게	O	O	O, B-PS, B-LC, B-OG, B-CV
-64	독특	O	O	O, B-CV, B-PS, B-LC, B-OG
-65	##했	O	O	O, B-PS, B-LC, B-OG, I-PS
-66	##고	O	O	O, B-PS, B-LC, I-PS, B-OG
-67	,	O	O	O, B-CV, B-PS, B-LC, B-OG
-68	이	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
-69	전	O	O	O, I-PS, B-PS, B-CV, I-EV
-70	총리	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-AF
-71	##가	O	O	O, B-PS, I-CV, I-EV, I-PS
-72	성	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-73	회장	B-CV	B-CV	B-CV, O, I-PS, I-CV, I-AF
-74	##을	O	O	O, I-CV, B-CV, I-EV, I-AF
-75	독대	O	O	O, B-CV, B-LC, B-TM, B-EV
-76	##한	O	O	O, B-PS, B-LC, I-EV, B-CV
-77	것	O	O	O, B-PS, B-CV, B-LC, B-OG
-78	##으로	O	O	O, B-PS, B-CV, B-LC, B-OG
-79	기억	O	O	O, B-CV, B-LC, B-PS, B-TM
-80	##한다	O	O	O, B-PS, B-LC, B-CV, B-OG
-81	”	O	O	O, B-CV, B-LC, B-PS, B-TM
-82	고	O	O	O, B-CV, B-LC, B-PS, B-TM
-83	말	O	O	O, B-CV, B-TM, B-LC, I-CV
-84	##했	O	O	O, B-PS, B-CV, B-LC, B-OG
-85	##다	O	O	O, B-CV, B-LC, B-PS, B-TM
-86	.	O	O	O, B-LC, B-PS, B-CV, B-OG
-87	[SEP]	O	O	O, B-LC, B-CV, B-PS, I-EV
+	text	label	preds
+0	[CLS]	O	O
+1	20	B-DT	B-DT
+2	##세기	I-DT	I-DT
+3	중	I-DT	I-DT
+4	·	I-DT	I-DT
+5	후반	I-DT	I-DT
+6	중국	B-OG	B-OG
+7	##이	O	O
+8	대	B-EV	O
+9	##약	I-EV	O
+10	##진	I-EV	O
+11	운동	I-EV	O
+12	##과	O	O
+13	문화	B-EV	B-EV
+14	##혁명	I-EV	I-EV
+15	##으로	O	O
+16	내부	O	O
+17	##에	O	O
+18	##서	O	O
+19	힘	O	O
+20	##을	O	O
+21	소진	O	O
+22	##하	O	O
+23	##는	O	O
+24	동안	O	O
+25	한국	B-OG	B-OG
+26	##은	O	O
+27	수출	O	O
+28	주도	O	O
+29	##형	O	O
+30	경제	O	O
+31	##로	O	O
+32	5000	B-DT	B-DT
+33	##년	I-DT	I-DT
+34	한	B-OG	B-OG
+35	·	O	O
+36	중	B-OG	B-OG
+37	경제	O	O
+38	관계	O	O
+39	##를	O	O
+40	뒤집	O	O
+41	##었	O	O
+42	##다	O	O
+43	.	O	O
+44	[SEP]	O	O

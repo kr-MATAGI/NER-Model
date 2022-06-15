@@ -1,54 +1,38 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	이	O	O	O, B-PS, B-CV, B-OG, B-QT
-2	##들	O	O	O, B-PS, I-PS, I-OG, B-CV
-3	##에	O	O	O, B-CV, B-PS, B-OG, B-LC
-4	따르	O	O	O, B-CV, B-PS, B-OG, B-LC
-5	##면	O	O	O, B-OG, B-CV, B-LC, B-PS
-6	,	O	O	O, B-CV, B-PS, B-OG, B-LC
-7	광주	B-OG	B-OG	B-OG, B-LC, B-AF, O, B-EV
-8	##M	I-OG	I-OG	I-OG, B-OG, O, I-LC, I-AF
-9	##BC	I-OG	I-OG	I-OG, O, I-LC, I-AF, I-EV
-10	##는	O	O	O, I-OG, I-AF, B-CV, I-EV
-11	업무	O	O	O, B-CV, B-TM, B-LC, B-AF
-12	##환경	O	O	O, I-CV, B-PS, I-TM, B-LC
-13	##을	O	O	O, B-CV, B-PS, B-OG, B-LC
-14	개선	O	O	O, B-CV, B-PS, B-LC, B-OG
-15	##한다	O	O	O, B-PS, B-CV, B-LC, B-OG
-16	##며	O	O	O, B-PS, B-LC, B-OG, B-CV
-17	비정규직	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-OG
-18	##인	O	O	O, I-CV, B-PS, B-CV, I-OG
-19	작가	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-PS
-20	##들	O	O	O, I-CV, B-CV, B-PS, I-AF
-21	##과	O	O	O, B-CV, B-PS, B-LC, B-TM
-22	리포터	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-PT
-23	,	O	O	O, I-CV, B-CV, B-PS, I-OG
-24	행정	O	O	O, B-CV, B-TM, I-CV, B-PS
-25	##인	O	O	O, I-CV, B-CV, B-PS, I-TM
-26	##력	O	O	O, I-CV, B-CV, I-PS, B-PS
-27	등	O	O	O, B-CV, B-PS, I-CV, B-TM
-28	##을	O	O	O, B-CV, B-PS, B-TM, B-LC
-29	사무실	O	O	O, B-CV, B-TM, B-LC, B-QT
-30	한쪽	O	O	O, B-QT, B-TM, B-LC, I-QT
-31	##에	O	O	O, I-QT, B-CV, I-TM, B-PS
-32	몰아	O	O	O, B-LC, B-QT, B-CV, B-OG
-33	##놓	O	O	O, I-QT, B-QT, B-LC, I-LC
-34	##고	O	O	O, B-LC, B-PS, B-CV, I-QT
-35	서랍	O	O	O, B-CV, B-TM, B-LC, B-PS
-36	##도	O	O	O, B-PS, B-LC, B-CV, I-AF
-37	없	O	O	O, B-CV, B-PS, B-TM, B-LC
-38	##는	O	O	O, B-LC, B-CV, B-TM, B-QT
-39	반쪽	O	B-QT	B-QT, O, I-QT, B-TM, B-LC
-40	##짜	O	O	O, I-QT, B-QT, I-LC, I-TM
-41	##리	O	O	O, I-QT, B-QT, I-LC, I-TM
-42	독서실	O	O	O, I-QT, B-CV, B-AF, B-PS
-43	##용	O	O	O, I-AF, I-QT, B-PS, B-QT
-44	책상	O	O	O, B-CV, I-AF, B-AF, I-CV
-45	##에서	O	O	O, B-CV, B-PS, B-LC, B-QT
-46	일	O	O	O, B-CV, B-TM, B-LC, B-QT
-47	##하	O	O	O, B-CV, B-PS, B-LC, B-OG
-48	##게	O	O	O, B-CV, B-QT, B-LC, B-PS
-49	했	O	O	O, B-PS, B-CV, B-LC, B-OG
-50	##다	O	O	O, B-CV, I-OG, I-CV, B-PS
-51	.	O	O	O, B-CV, B-LC, B-PS, B-OG
-52	[SEP]	O	O	O, B-CV, B-LC, B-PS, I-CV
+	text	label	preds
+0	[CLS]	O	O
+1	한	O	O
+2	구치소	O	O
+3	관계자	B-CV	B-CV
+4	##는	O	O
+5	“	O	O
+6	한	O	B-QT
+7	번	O	I-QT
+8	##에	O	O
+9	1	B-QT	B-QT
+10	##병	I-QT	I-QT
+11	##밖	O	O
+12	##에	O	O
+13	살	O	O
+14	수	O	O
+15	없	O	O
+16	##는	O	O
+17	생수	O	B-CV
+18	##도	O	O
+19	최	B-PS	B-PS
+20	씨	O	O
+21	##는	O	O
+22	2	B-QT	B-QT
+23	,	I-QT	I-QT
+24	3	I-QT	I-QT
+25	##개	I-QT	I-QT
+26	또는	O	O
+27	필요	O	O
+28	##할	O	O
+29	때	O	O
+30	##마	O	O
+31	##다	O	O
+32	구입	O	O
+33	##했	O	O
+34	##다	O	O
+35	.	O	O
+36	[SEP]	O	O

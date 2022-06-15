@@ -1,24 +1,35 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-EV
-1	매일	O	O	O, B-DT, B-CV, B-LC, B-PS
-2	밤	B-TI	B-TI	B-TI, O, B-EV, I-TI, B-LC
-3	진실	O	O	O, I-AF, B-PS, B-AF, I-TI
-4	##의	O	O	O, I-AF, B-PS, I-PS, I-LC
-5	촛불	O	O	O, B-AF, B-CV, I-AF, B-MT
-6	##을	O	O	O, I-AF, B-PS, I-CV, B-CV
-7	밝히	O	O	O, B-CV, B-PS, B-LC, B-AF
-8	##는	O	O	O, B-PS, B-LC, B-CV, B-OG
-9	성숙	O	O	O, B-PS, B-CV, B-LC, B-OG
-10	##한	O	O	O, B-PS, I-PS, B-LC, B-OG
-11	국민	B-CV	B-CV	B-CV, O, B-OG, B-PS, I-CV
-12	##들이	O	O	O, I-CV, I-OG, B-PS, I-AF
-13	국정원	B-AF	B-OG	B-OG, B-AF, O, B-FD, B-TM
-14	##을	O	O	O, I-OG, I-AF, I-EV, I-CV
-15	개혁	O	O	O, B-CV, B-PS, B-TR, B-LC
-16	##하고	O	O	O, B-CV, B-PS, I-CV, I-EV
-17	##야	O	O	O, B-CV, B-PS, B-LC, I-OG
-18	말	O	O	O, B-CV, B-PS, B-LC, B-OG
-19	것	O	O	O, B-CV, B-PS, I-OG, B-OG
-20	##이다	O	O	O, B-CV, I-OG, B-PS, I-CV
-21	.	O	O	O, B-PS, B-CV, B-LC, B-OG
-22	[SEP]	O	O	O, B-CV, B-PS, B-LC, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	현대	B-OG	B-OG
+2	##글	I-OG	I-OG
+3	##로	I-OG	I-OG
+4	##비스	I-OG	I-OG
+5	##는	O	O
+6	현재	O	O
+7	운용	O	O
+8	##하	O	O
+9	##고	O	O
+10	있	O	O
+11	##는	O	O
+12	선박	O	O
+13	75	B-QT	B-QT
+14	##척	I-QT	I-QT
+15	(	O	O
+16	용선	B-AF	O
+17	선박	O	O
+18	포함	O	O
+19	)	O	O
+20	도	O	O
+21	2020	B-DT	B-DT
+22	##년	I-DT	I-DT
+23	##까	I-DT	I-DT
+24	##지	I-DT	I-DT
+25	500	B-QT	B-QT
+26	##척	I-QT	I-QT
+27	규모	O	O
+28	##로	O	O
+29	늘릴	O	O
+30	계획	O	O
+31	##이다	O	O
+32	.	O	O
+33	[SEP]	O	O

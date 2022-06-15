@@ -1,5 +1,23 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-AF
-1	아라비아	B-LC	B-FD	B-FD, B-LC, B-AF, O, B-DT
-2	신화	B-FD	I-FD	I-FD, B-FD, O, I-AF, I-TR
-3	[SEP]	O	O	O, I-FD, I-AF, I-OG, B-FD
+	text	label	preds
+0	[CLS]	O	O
+1	비슷	O	O
+2	##한	O	O
+3	상황	O	O
+4	##이	O	O
+5	아시아	B-LC	B-LC
+6	##의	O	O
+7	한	B-LC	B-EV
+8	·	O	I-EV
+9	일	B-LC	I-EV
+10	축구	B-CV	I-EV
+11	라이벌	O	I-EV
+12	##전	O	I-EV
+13	##에	O	O
+14	##서도	O	O
+15	벌어지	O	O
+16	##고	O	O
+17	있	O	O
+18	##었	O	O
+19	##다	O	O
+20	.	O	O
+21	[SEP]	O	O

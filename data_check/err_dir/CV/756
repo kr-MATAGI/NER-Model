@@ -1,7 +1,26 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	약자	B-CV	O	O, B-CV, I-CV, B-OG, B-PS
-2	##에	O	O	O, I-CV, I-OG, B-CV, I-AF
-3	대한	O	O	O, B-LC, B-CV, B-PS, B-OG
-4	배려	O	O	O, B-CV, B-PS, I-CV, B-FD
-5	[SEP]	O	O	O, B-CV, I-CV, I-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	또	O	O
+2	국내	O	O
+3	##에	O	O
+4	##선	O	O
+5	유망주	B-CV	B-CV
+6	##를	O	O
+7	일찌감치	O	O
+8	입단	O	O
+9	##시	O	O
+10	##켜	O	O
+11	프로	B-CV	O
+12	무대	O	O
+13	##에	O	O
+14	##서	O	O
+15	적응	O	O
+16	##할	O	O
+17	시간	O	O
+18	##을	O	O
+19	줘야	O	O
+20	한다는	O	O
+21	지적도	O	O
+22	나온다	O	O
+23	.	O	O
+24	[SEP]	O	O

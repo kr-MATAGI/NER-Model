@@ -1,48 +1,64 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	올해	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-QT
-2	브랜드	O	O	O, B-CV, B-EV, I-EV, I-CV
-3	대상	O	O	O, B-CV, I-CV, I-EV, B-EV
-4	##만	O	O	O, I-CV, I-EV, I-QT, I-OG
-5	10	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-PS
-6	##여	I-QT	I-QT	I-QT, O, B-QT, I-EV, I-LC
-7	개	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-EV
-8	##를	O	O	O, I-QT, B-CV, I-OG, I-EV
-9	수상	O	O	O, B-CV, B-TM, B-LC, B-PS
-10	##한	O	O	O, B-PS, B-LC, B-CV, B-OG
-11	구강	O	O	O, B-TM, B-AM, B-CV, B-TR
-12	##세	O	O	O, I-TM, B-TM, I-CV, I-AF
-13	##정	O	O	O, I-TM, B-TM, I-CV, I-AF
-14	##기	O	O	O, I-TM, B-TM, I-CV, I-AF
-15	‘	O	O	O, I-TM, B-CV, B-OG, B-LC
-16	제트	B-AF	B-AF	B-AF, B-TM, O, B-CV, B-OG
-17	##워	I-AF	I-AF	I-AF, I-TM, O, I-CV, I-OG
-18	##셔	I-AF	I-AF	I-AF, I-TM, O, I-CV, I-OG
-19	’	O	O	O, I-AF, I-TM, I-CV, I-OG
-20	와	O	O	O, B-CV, B-TM, B-OG, B-LC
-21	함께	O	O	O, B-TM, B-CV, B-LC, B-PS
-22	국민	O	B-CV	B-CV, O, B-OG, I-CV, B-TM
-23	##구	O	O	O, I-CV, B-TM, B-CV, B-AM
-24	##강	O	O	O, I-CV, I-TM, I-LC, I-AM
-25	##건	O	O	O, I-CV, I-TM, B-CV, B-LC
-26	##강	O	O	O, I-CV, I-TM, I-LC, I-PS
-27	##의	O	O	O, B-PS, B-LC, I-CV, I-AF
-28	지킴	B-CV	B-CV	B-CV, O, I-CV, B-PS, B-TM
-29	##이	I-CV	I-CV	I-CV, O, B-CV, I-AM, I-PS
-30	##를	O	O	O, I-CV, B-PS, I-QT, I-OG
-31	자처	O	O	O, B-CV, B-TM, B-LC, B-PS
-32	##하여	O	O	O, B-LC, B-PS, B-CV, B-TM
-33	국민	B-CV	B-CV	B-CV, O, B-OG, B-TM, B-AF
-34	구강	O	O	O, B-AM, B-TM, I-CV, I-TM
-35	건강	O	O	O, I-TM, I-CV, I-LC, I-TR
-36	##의	O	O	O, B-LC, I-TM, B-PS, B-TM
-37	저변	O	O	O, B-CV, B-TM, B-LC, B-OG
-38	확대	O	O	O, I-TM, I-CV, B-LC, I-OG
-39	##를	O	O	O, B-CV, B-PS, I-OG, B-OG
-40	목표	O	O	O, B-TM, B-CV, B-LC, B-OG
-41	##로	O	O	O, I-OG, B-OG, B-PS, B-LC
-42	하고	O	O	O, B-OG, B-TM, B-CV, B-LC
-43	있	O	O	O, B-OG, B-CV, B-TM, B-AF
-44	##다	O	O	O, I-OG, B-CV, B-OG, B-TM
-45	.	O	O	O, B-LC, B-CV, B-TM, B-PS
-46	[SEP]	O	O	O, B-CV, B-TM, B-LC, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	군	B-OG	B-OG
+2	관계자	B-CV	B-CV
+3	##는	O	O
+4	“	O	O
+5	동영상	O	O
+6	전부	O	O
+7	##를	O	O
+8	봐도	O	O
+9	특별	O	O
+10	##한	O	O
+11	상황	O	O
+12	##이	O	O
+13	없	O	O
+14	##고	O	O
+15	,	O	O
+16	대부분	O	O
+17	같	O	O
+18	##은	O	O
+19	장면	O	O
+20	##이	O	O
+21	이어지	O	O
+22	##기	O	O
+23	때문	O	O
+24	##에	O	O
+25	그동안	O	O
+26	의혹	O	O
+27	##이	O	O
+28	집중	O	O
+29	제기	O	O
+30	##된	O	O
+31	‘	O	O
+32	고속	O	B-AF
+33	##정	O	I-AF
+34	##이	O	O
+35	왜	O	O
+36	구조	O	O
+37	##를	O	O
+38	하지	O	O
+39	않	O	O
+40	##았	O	O
+41	##느	O	O
+42	##냐	O	O
+43	’	O	O
+44	에	O	O
+45	해당	O	O
+46	##하	O	O
+47	##는	O	O
+48	장면	O	O
+49	등	O	O
+50	##을	O	O
+51	선별	O	O
+52	##해	O	O
+53	공개	O	O
+54	##했	O	O
+55	##다	O	O
+56	”	O	O
+57	고	O	O
+58	말	O	O
+59	##했	O	O
+60	##다	O	O
+61	.	O	O
+62	[SEP]	O	O

@@ -1,32 +1,30 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	상세	O	O	O, B-LC, B-TM, B-OG, B-CV
-2	##한	O	O	O, B-LC, B-OG, B-PS, B-TM
-3	내용	O	O	O, B-CV, B-LC, B-OG, B-TM
-4	##은	O	O	O, B-CV, B-LC, B-OG, B-TM
-5	28	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-OG
-6	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-7	발행	O	O	O, I-DT, B-CV, B-OG, B-LC
-8	##되	O	O	O, B-LC, B-PS, B-OG, B-CV
-9	##는	O	O	O, B-LC, B-OG, B-PS, B-CV
-10	국제	O	O	O, B-CV, B-OG, B-PS, B-LC
-11	##적	O	O	O, B-PS, I-OG, B-CV, B-FD
-12	과학	B-FD	O	O, B-FD, I-FD, B-CV, B-TR
-13	##저	O	O	O, I-FD, B-FD, I-OG, I-AF
-14	##널	O	O	O, I-OG, I-CV, I-FD, I-AF
-15	<	O	O	O, B-OG, B-AF, B-LC, B-CV
-16	네이처	B-AF	B-AF	B-AF, B-OG, O, I-AF, B-PS
-17	>	O	O	O, I-OG, I-AF, I-DT, B-OG
-18	52	B-QT	B-QT	B-QT, O, I-QT, B-AF, I-AF
-19	##9	I-QT	I-QT	I-QT, B-QT, O, I-AF, I-LC
-20	##호	I-QT	I-QT	I-QT, O, I-AF, B-QT, I-LC
-21	(	O	O	O, I-QT, B-CV, I-AF, I-OG
-22	사진	O	O	O, B-CV, B-TM, B-LC, B-OG
-23	)	O	O	O, B-CV, B-OG, B-LC, B-PS
-24	에	O	O	O, B-CV, B-LC, B-OG, B-QT
-25	실	O	O	O, B-LC, B-CV, B-OG, B-DT
-26	##릴	O	O	O, B-CV, B-OG, B-LC, B-PS
-27	예정	O	O	O, B-CV, B-OG, B-TM, B-QT
-28	##이다	O	O	O, B-CV, B-OG, B-TM, I-OG
-29	.	O	O	O, B-LC, B-OG, B-CV, B-PS
-30	[SEP]	O	O	O, B-LC, B-CV, B-OG, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	예체능	B-FD	O
+2	##학	O	O
+3	##원	O	O
+4	##과	O	O
+5	기술	O	O
+6	·	O	O
+7	직업	O	O
+8	##학	O	O
+9	##원	O	O
+10	##도	O	O
+11	5	B-DT	B-DT
+12	##년	I-DT	I-DT
+13	새	O	O
+14	각각	B-QT	B-QT
+15	8	I-QT	I-QT
+16	.	I-QT	I-QT
+17	9	I-QT	I-QT
+18	%	I-QT	I-QT
+19	,	O	O
+20	8	B-QT	B-QT
+21	.	I-QT	I-QT
+22	7	I-QT	I-QT
+23	%	I-QT	I-QT
+24	늘	O	O
+25	##었	O	O
+26	##다	O	O
+27	.	O	O
+28	[SEP]	O	O

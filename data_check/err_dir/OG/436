@@ -1,35 +1,51 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	학생	B-CV	B-CV	B-CV, O, B-OG, I-CV, B-TM
-2	##들	O	O	O, I-CV, I-OG, I-EV, I-AF
-3	##은	O	O	O, B-CV, B-LC, B-TM, B-OG
-4	홍콩	B-OG	B-AF	B-AF, B-OG, B-LC, O, B-EV
-5	##과학	I-OG	I-AF	I-AF, I-OG, I-LC, O, I-EV
-6	##박	I-OG	I-AF	I-AF, I-OG, O, I-LC, I-EV
-7	##물	I-OG	I-AF	I-AF, I-OG, I-LC, O, I-EV
-8	##관	I-OG	I-AF	I-AF, I-OG, I-LC, O, I-EV
-9	,	O	O	O, I-AF, I-OG, I-LC, I-EV
-10	싱가포르	B-OG	B-AF	B-AF, B-OG, B-LC, O, I-AF
-11	##과학	I-OG	I-AF	I-AF, O, I-OG, I-LC, B-AF
-12	##관	I-OG	I-AF	I-AF, I-OG, O, I-LC, I-EV
-13	,	O	O	O, I-AF, I-OG, I-LC, B-LC
-14	싱가포르	B-OG	B-OG	B-OG, B-AF, B-LC, O, I-OG
-15	##국	I-OG	I-OG	I-OG, I-AF, O, I-LC, B-OG
-16	##립	I-OG	I-OG	I-OG, I-AF, O, I-LC, I-EV
-17	##대	I-OG	I-OG	I-OG, I-AF, O, I-LC, I-EV
-18	등	O	O	O, I-OG, I-AF, I-LC, I-EV
-19	##을	O	O	O, B-LC, B-CV, B-AF, B-TM
-20	찾아	O	O	O, B-CV, B-LC, B-TM, B-AF
-21	아시아	B-LC	B-LC	B-LC, O, B-OG, I-LC, B-PS
-22	과학	B-FD	O	O, B-FD, I-FD, I-LC, B-CV
-23	##기술	I-FD	O	O, I-FD, B-FD, I-OG, I-LC
-24	##의	O	O	O, B-PS, B-LC, I-OG, I-FD
-25	현주소	O	O	O, B-LC, B-QT, B-TM, B-OG
-26	##와	O	O	O, B-LC, B-PS, B-CV, B-OG
-27	미래	O	O	O, B-LC, B-TM, B-CV, B-OG
-28	##를	O	O	O, B-CV, B-LC, B-PS, B-OG
-29	체험	O	O	O, B-CV, B-LC, B-TM, B-EV
-30	##했	O	O	O, B-CV, B-LC, B-PS, B-OG
-31	##다	O	O	O, B-CV, B-LC, B-OG, I-EV
-32	.	O	O	O, B-LC, B-OG, B-CV, B-AF
-33	[SEP]	O	O	O, B-LC, B-CV, I-AF, B-AF
+	text	label	preds
+0	[CLS]	O	O
+1	전국	O	O
+2	케이블	B-TM	B-TM
+3	##TV	I-TM	I-TM
+4	업체	O	O
+5	##로	O	O
+6	구성	O	O
+7	##된	O	O
+8	'	O	O
+9	KBS	B-OG	B-OG
+10	##2	I-OG	I-OG
+11	·	I-OG	O
+12	MBC	I-OG	B-OG
+13	·	I-OG	O
+14	SBS	I-OG	B-OG
+15	동시	I-OG	I-OG
+16	재	I-OG	I-OG
+17	##송	I-OG	I-OG
+18	##신	I-OG	I-OG
+19	중단	I-OG	I-OG
+20	##을	I-OG	I-OG
+21	위한	I-OG	I-OG
+22	비상	I-OG	I-OG
+23	##대	I-OG	I-OG
+24	##책	I-OG	I-OG
+25	##위원회	I-OG	I-OG
+26	'	O	O
+27	는	O	O
+28	27	B-DT	B-DT
+29	##일	I-DT	I-DT
+30	이	O	O
+31	##같	O	O
+32	##은	O	O
+33	내용	O	O
+34	##의	O	O
+35	'	O	O
+36	지상파	O	O
+37	방송	O	O
+38	##광	O	O
+39	##고	O	O
+40	송출	O	O
+41	중단	O	O
+42	'	O	O
+43	을	O	O
+44	결정	O	O
+45	##할	O	O
+46	예정	O	O
+47	##이다	O	O
+48	.	O	O
+49	[SEP]	O	O

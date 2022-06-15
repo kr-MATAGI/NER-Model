@@ -1,18 +1,33 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	오늘	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-2	##은	O	O	O, I-DT, B-CV, I-EV, I-QT
-3	당시	O	O	O, B-CV, B-TM, B-EV, I-EV
-4	사건	O	O	O, B-CV, I-EV, B-EV, B-TM
-5	##으로	O	O	O, B-CV, B-PS, B-OG, I-EV
-6	인해서	O	O	O, B-CV, B-TM, B-OG, B-LC
-7	사장	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-AF
-8	##직	O	I-CV	I-CV, O, B-CV, I-TM, I-QT
-9	##에서	O	O	O, I-CV, B-CV, B-QT, B-PS
-10	물러나	O	O	O, B-CV, B-TM, B-QT, B-LC
-11	##야	O	O	O, B-CV, B-QT, B-TM, B-LC
-12	##만	O	O	O, B-QT, B-CV, B-PS, B-TM
-13	했	O	O	O, B-CV, B-QT, B-OG, B-TM
-14	##던	O	O	O, B-CV, B-QT, B-TM, B-LC
-15	네	O	O	O, B-CV, B-QT, B-TM, B-EV
-16	[SEP]	O	O	O, B-CV, B-LC, I-EV, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	1944	B-DT	B-DT
+2	##년	I-DT	I-DT
+3	평양	B-LC	B-LC
+4	##에	O	O
+5	##서	O	O
+6	태어나	O	O
+7	월남	O	O
+8	##한	B-PS	O
+9	한	O	B-PS
+10	전	O	O
+11	총리	B-CV	B-CV
+12	##는	O	O
+13	1974	B-DT	B-DT
+14	##년	I-DT	I-DT
+15	한국	B-OG	B-OG
+16	##크리	I-OG	I-OG
+17	##스	I-OG	I-OG
+18	##천	I-OG	I-OG
+19	##아	I-OG	I-OG
+20	##카	I-OG	I-OG
+21	##데미	I-OG	I-OG
+22	간사	B-CV	B-CV
+23	##로	O	O
+24	여성	O	O
+25	운동	O	O
+26	##에	O	O
+27	뛰어들	O	O
+28	##었	O	O
+29	##다	O	O
+30	.	O	O
+31	[SEP]	O	O

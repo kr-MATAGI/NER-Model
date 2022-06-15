@@ -1,18 +1,29 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-EV, I-OG, I-CV
-1	큰	O	O	O, B-CV, B-PS, B-TM, B-QT
-2	불	O	O	O, B-CV, B-PS, B-LC, B-TM
-3	##은	O	O	O, B-CV, I-EV, B-PS, I-CV
-4	2	B-TR	B-TI	B-TI, O, B-QT, B-EV, I-TI
-5	##시간	I-TR	I-TI	I-TI, O, B-TI, I-TR, I-QT
-6	반	I-TR	I-TI	I-TI, O, I-TR, I-DT, I-QT
-7	만인	O	O	O, I-TI, B-PS, I-QT, B-CV
-8	오후	B-TI	B-TI	B-TI, I-TI, O, B-QT, B-EV
-9	1	I-TI	I-TI	I-TI, O, B-TI, I-QT, I-TR
-10	##시	I-TI	I-TI	I-TI, O, B-TI, I-TR, I-QT
-11	##경	I-TI	I-TI	I-TI, O, I-TR, B-TI, I-QT
-12	꺼	O	O	O, I-TI, B-TM, B-CV, B-LC
-13	##졌	O	O	O, B-CV, I-TI, B-LC, B-TM
-14	##다	O	O	O, B-CV, I-EV, B-LC, I-QT
-15	.	O	O	O, B-CV, B-LC, B-PS, B-TI
-16	[SEP]	O	O	O, B-CV, B-LC, I-EV, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	대선	B-EV	B-EV
+2	내내	O	O
+3	선동	O	O
+4	##으로	O	O
+5	달아	O	O
+6	##오른	O	O
+7	그	O	O
+8	##의	O	O
+9	입	O	B-AM
+10	##에	O	O
+11	염증	O	O
+12	##이	O	O
+13	난	O	O
+14	중도	B-TR	O
+15	##세	O	O
+16	##력	O	O
+17	##은	O	O
+18	진보	B-TR	B-TR
+19	후보	B-CV	B-CV
+20	##에	O	O
+21	##게	O	O
+22	등	B-AM	B-AM
+23	##을	O	O
+24	돌렸	O	O
+25	##다	O	O
+26	.	O	O
+27	[SEP]	O	O

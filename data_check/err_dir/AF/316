@@ -1,33 +1,26 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	또	O	O	O, B-CV, B-OG, B-TM, B-QT
-2	과자	O	O	O, B-CV, I-CV, B-TM, B-FD
-3	##인	O	O	O, I-CV, B-CV, I-OG, B-PS
-4	제	B-AF	B-CV	B-CV, B-AF, B-OG, B-PS, O
-5	##크	I-AF	I-CV	I-CV, I-AF, I-OG, O, I-PS
-6	(	O	O	O, I-OG, I-AF, I-CV, I-EV
-7	이하	O	O	O, B-QT, B-CV, B-DT, B-LC
-8	소용	O	O	O, B-CV, B-TM, B-OG, B-LC
-9	##량	O	O	O, I-CV, I-OG, I-TM, I-QT
-10	기준	O	O	O, I-OG, I-AF, I-QT, I-CV
-11	)	O	O	O, B-CV, B-OG, B-LC, B-QT
-12	는	O	O	O, B-CV, B-LC, B-OG, B-TM
-13	1000	B-QT	B-QT	B-QT, I-QT, O, B-DT, B-LC
-14	##원	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-DT
-15	,	O	O	O, I-QT, B-CV, I-OG, I-AF
-16	썬	B-AF	B-CV	B-CV, B-AF, B-OG, O, B-PS
-17	##칩	I-AF	I-CV	I-CV, I-AF, I-OG, O, I-PS
-18	##과	O	O	O, I-AF, I-OG, I-CV, B-CV
-19	오	B-AF	B-CV	B-CV, B-AF, B-OG, B-PS, O
-20	##잉	I-AF	I-CV	I-CV, I-AF, I-OG, O, I-LC
-21	,	O	O	O, I-AF, I-OG, I-CV, B-CV
-22	순수	B-AF	B-CV	B-CV, B-AF, B-OG, O, B-PS
-23	##양	I-AF	I-CV	I-CV, I-AF, I-OG, B-CV, O
-24	##파	I-AF	I-CV	I-CV, I-AF, I-OG, O, I-LC
-25	##는	O	O	O, I-OG, I-AF, I-CV, I-QT
-26	각각	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-CV
-27	1200	I-QT	I-QT	I-QT, B-QT, O, I-LC, I-DT
-28	##원	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-29	##이다	O	O	O, I-QT, B-CV, I-OG, I-CV
-30	.	O	O	O, B-CV, B-OG, B-LC, I-QT
-31	[SEP]	O	O	O, B-CV, B-LC, B-OG, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	이	O	O
+2	곤충	O	O
+3	##기	O	O
+4	##하	O	O
+5	##고	O	O
+6	조	B-AF	B-PS
+7	##복	I-AF	I-PS
+8	##성	I-AF	I-PS
+9	곤충	I-AF	O
+10	##채	I-AF	O
+11	##집	I-AF	O
+12	여행기	I-AF	O
+13	두	B-QT	B-QT
+14	책	I-QT	I-QT
+15	##을	O	O
+16	엮	O	O
+17	##어	O	O
+18	##서	O	O
+19	xx	O	O
+20	##을	O	O
+21	하	O	O
+22	##셨	O	O
+23	##는데	O	O
+24	[SEP]	O	O

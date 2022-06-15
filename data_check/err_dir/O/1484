@@ -1,49 +1,48 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-EV, I-OG
-1	그	O	O	O, B-CV, B-OG, B-PS, B-EV
-2	##는	O	O	O, B-CV, B-PS, I-EV, B-LC
-3	또	O	O	O, B-CV, B-LC, B-OG, B-TM
-4	“	O	O	O, B-LC, B-CV, B-PS, B-OG
-5	7	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-QT
-6	##개	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
-7	##월	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
-8	##째	O	I-DT	I-DT, O, B-DT, I-QT, I-EV
-9	계속	O	O	O, I-DT, B-CV, I-EV, I-QT
-10	##되	O	O	O, B-PS, B-LC, B-OG, B-EV
-11	##는	O	O	O, B-PS, B-LC, B-EV, B-QT
-12	용산	B-EV	B-EV	B-EV, B-LC, O, B-AF, B-PS
-13	참사	I-EV	I-EV	I-EV, O, I-AF, B-EV, I-LC
-14	문제	O	O	O, I-EV, I-AF, I-OG, I-DT
-15	##조	O	O	O, I-EV, B-PS, B-CV, B-LC
-16	##차	O	O	O, B-PS, B-OG, B-LC, B-CV
-17	해결	O	O	O, B-CV, B-LC, B-QT, I-EV
-18	##하	O	O	O, B-PS, B-LC, B-CV, B-DT
-19	##지	O	O	O, B-LC, B-PS, B-CV, B-DT
-20	않	O	O	O, B-LC, B-PS, B-CV, B-DT
-21	##고	O	O	O, B-LC, B-PS, B-CV, B-OG
-22	통합	O	O	O, B-CV, B-LC, B-EV, B-PS
-23	##을	O	O	O, B-PS, B-CV, I-EV, B-OG
-24	말	O	O	O, B-CV, B-PS, B-LC, B-QT
-25	##하	O	O	O, B-PS, B-CV, B-LC, B-OG
-26	##는	O	O	O, B-CV, B-PS, B-LC, B-OG
-27	건	O	O	O, B-CV, B-LC, B-PS, B-OG
-28	말	O	O	O, B-CV, B-PS, B-TM, B-LC
-29	##도	O	O	O, B-PS, B-LC, B-CV, I-OG
-30	안	O	O	O, B-PS, B-LC, B-QT, B-CV
-31	된다	O	O	O, B-PS, B-CV, B-LC, B-QT
-32	”	O	O	O, B-CV, B-PS, B-LC, B-OG
-33	며	O	O	O, B-LC, B-CV, B-OG, B-PS
-34	“	O	O	O, B-CV, B-LC, B-PS, B-OG
-35	유족	B-CV	B-CV	B-CV, O, B-OG, I-CV, B-PS
-36	##과	O	O	O, I-CV, B-CV, I-EV, I-QT
-37	대화	O	O	O, B-CV, B-TM, B-LC, B-TR
-38	##부터	O	O	O, B-PS, I-QT, B-CV, I-DT
-39	하	O	O	O, B-CV, B-PS, B-LC, B-DT
-40	##라	O	O	O, B-PS, B-CV, B-LC, B-OG
-41	”	O	O	O, B-CV, B-TM, B-OG, B-LC
-42	고	O	O	O, B-CV, B-LC, B-TM, B-OG
-43	요구	O	O	O, B-CV, B-OG, B-LC, B-TM
-44	##했	O	O	O, B-CV, B-PS, I-CV, B-OG
-45	##다	O	O	O, B-CV, B-LC, I-EV, B-PS
-46	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-47	[SEP]	O	O	O, B-CV, B-LC, B-PS, I-EV
+	text	label	preds
+0	[CLS]	O	O
+1	잇	O	O
+2	##속	O	O
+3	앞	O	O
+4	##에	O	O
+5	##선	O	O
+6	의	O	O
+7	##로움	O	O
+8	##을	O	O
+9	생각	O	O
+10	##하	O	O
+11	##고	O	O
+12	,	O	O
+13	국가	O	O
+14	(	O	O
+15	혹은	O	O
+16	이웃	O	B-CV
+17	)	O	O
+18	의	O	O
+19	위태	O	O
+20	##로움	O	O
+21	앞	O	O
+22	##에	O	O
+23	##선	O	O
+24	목숨	O	O
+25	##을	O	O
+26	던지라	O	O
+27	##는	O	O
+28	것	O	O
+29	##이	O	O
+30	##니	O	O
+31	,	O	O
+32	‘	O	O
+33	오로지	O	O
+34	의	O	O
+35	’	O	O
+36	뿐	O	O
+37	##이	O	O
+38	##라는	O	O
+39	맹자	B-PS	B-PS
+40	##의	O	O
+41	가르침	O	O
+42	##과	O	O
+43	정확히	O	O
+44	통한다	O	O
+45	.	O	O
+46	[SEP]	O	O

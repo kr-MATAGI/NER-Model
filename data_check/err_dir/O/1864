@@ -1,39 +1,58 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	횡령	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-FD
-2	##을	O	O	O, I-CV, B-CV, B-PS, I-EV
-3	기획	O	O	O, B-CV, B-PS, B-TM, I-CV
-4	##하고	O	O	O, B-PS, I-CV, B-LC, B-CV
-5	사용	O	O	O, B-CV, B-PS, B-TM, B-LC
-6	##한	O	O	O, B-PS, B-CV, B-LC, B-OG
-7	사람	O	O	O, B-CV, B-PS, B-TM, I-CV
-8	##이	O	O	O, B-PS, B-CV, B-LC, B-OG
-9	김원	B-PS	B-PS	B-PS, O, I-PS, B-OG, B-LC
-10	##홍	I-PS	I-PS	I-PS, O, I-OG, B-PS, I-LC
-11	##씨	O	O	O, I-PS, I-OG, B-CV, I-AF
-12	##이	O	O	O, B-PS, B-CV, B-OG, B-LC
-13	##고	O	O	O, B-PS, I-PS, B-CV, I-OG
-14	'	O	O	O, B-CV, B-LC, B-PS, B-OG
-15	실무	O	O	O, B-CV, B-LC, B-PS, B-TM
-16	총책	O	O	O, B-CV, I-CV, B-PS, B-QT
-17	'	O	O	O, I-CV, B-CV, B-PS, I-QT
-18	을	O	O	O, B-PS, B-CV, B-LC, B-QT
-19	최	B-PS	B-PS	B-PS, O, I-PS, B-OG, B-LC
-20	부회장	B-CV	B-CV	B-CV, O, I-PS, I-CV, B-TM
-21	##이	O	O	O, I-CV, B-PS, B-CV, I-EV
-22	맡	O	O	O, B-CV, B-PS, B-TM, B-OG
-23	##았	O	O	O, B-PS, B-CV, B-OG, B-LC
-24	##다면	O	O	O, B-PS, B-CV, B-OG, B-TM
-25	,	O	O	O, B-CV, B-PS, B-LC, B-OG
-26	최	O	B-PS	B-PS, O, B-OG, I-PS, B-LC
-27	회장	O	B-CV	B-CV, O, I-PS, I-CV, B-TM
-28	##의	O	O	O, I-CV, B-CV, I-AF, I-OG
-29	역할	O	O	O, B-CV, B-TM, B-QT, B-OG
-30	##이	O	O	O, B-PS, B-CV, B-OG, B-TM
-31	축소	O	O	O, B-CV, B-TM, B-QT, I-CV
-32	##된	O	O	O, B-CV, B-PS, I-OG, I-CV
-33	##다는	O	O	O, B-CV, I-OG, B-PS, B-TM
-34	것	O	O	O, B-CV, B-TM, B-PS, B-OG
-35	##이다	O	O	O, B-CV, I-CV, I-QT, B-TM
-36	.	O	O	O, B-PS, B-CV, B-LC, B-OG
-37	[SEP]	O	O	O, B-CV, B-PS, B-LC, I-CV
+	text	label	preds
+0	[CLS]	O	O
+1	실로	B-PS	B-PS
+2	##암	I-PS	I-PS
+3	##밴드	I-PS	I-PS
+4	단장	B-CV	B-CV
+5	##은	O	O
+6	""""	O	O
+7	우리	O	O
+8	##는	O	O
+9	멤버	B-CV	B-CV
+10	전원	O	O
+11	##이	O	O
+12	독학	O	O
+13	(	O	O
+14	獨	O	O
+15	學	O	O
+16	)	O	O
+17	으로	O	O
+18	음악	O	O
+19	##을	O	O
+20	익힌	O	O
+21	선천	O	B-CV
+22	##성	O	I-CV
+23	장애인	B-CV	I-CV
+24	""""	O	O
+25	이라	O	O
+26	##며	O	O
+27	""""	O	O
+28	혼자	O	O
+29	힘	O	O
+30	##으로	O	O
+31	어렵	O	O
+32	##게	O	O
+33	배운	O	O
+34	음악	O	O
+35	##을	O	O
+36	장애	O	O
+37	##가	O	O
+38	없	O	O
+39	##는	O	O
+40	군인	B-CV	B-CV
+41	##들	O	O
+42	##에	O	O
+43	##게	O	O
+44	자원	O	O
+45	##봉사	O	O
+46	##로	O	O
+47	가르쳐	O	O
+48	뿌듯	O	O
+49	##하	O	O
+50	##다	O	O
+51	""""	O	O
+52	고	O	O
+53	했	O	O
+54	##다	O	O
+55	.	O	O
+56	[SEP]	O	O

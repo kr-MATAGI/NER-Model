@@ -1,8 +1,58 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	그	O	O	O, B-CV, B-DT, B-LC, B-OG
-2	그	O	O	O, B-DT, I-DT, B-CV, B-EV
-3	주	O	I-DT	I-DT, O, B-DT, B-CV, I-EV
-4	목요일	B-DT	I-DT	I-DT, B-DT, O, B-TI, B-CV
-5	##에	O	O	O, I-DT, B-CV, I-EV, I-QT
-6	[SEP]	O	O	O, B-CV, B-LC, I-DT, B-DT
+	text	label	preds
+0	[CLS]	O	O
+1	북한	B-OG	B-OG
+2	##군	I-OG	I-OG
+3	총	O	B-OG
+4	##참	O	I-OG
+5	##모	O	I-OG
+6	##부	O	I-OG
+7	##가	O	O
+8	전날	B-DT	B-DT
+9	“	O	O
+10	48	B-TI	B-TI
+11	##시간	I-TI	I-TI
+12	안	I-TI	I-TI
+13	##에	O	O
+14	대북	O	O
+15	심리전	O	O
+16	방송	O	O
+17	##을	O	O
+18	중단	O	O
+19	##하라	O	O
+20	”	O	O
+21	고	O	O
+22	전통	O	O
+23	##문	O	O
+24	##으로	O	O
+25	협박	O	O
+26	##한	O	O
+27	데	O	O
+28	대해	O	O
+29	합동	B-OG	B-OG
+30	##참	I-OG	I-OG
+31	##모	I-OG	I-OG
+32	##본부	I-OG	I-OG
+33	##는	O	O
+34	21	B-DT	B-DT
+35	##일	I-DT	I-DT
+36	전통	O	O
+37	##문	O	O
+38	##을	O	O
+39	통해	O	O
+40	“	O	O
+41	무모한	O	O
+42	경	O	O
+43	##거	O	O
+44	##망	O	O
+45	##동	O	O
+46	##을	O	O
+47	완전히	O	O
+48	포기	O	O
+49	##하라	O	O
+50	”	O	O
+51	고	O	O
+52	받아	O	O
+53	##쳤	O	O
+54	##다	O	O
+55	.	O	O
+56	[SEP]	O	O

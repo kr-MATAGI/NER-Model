@@ -1,35 +1,96 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-QT
-1	여기	O	O	O, B-CV, B-TM, B-QT, B-PS
-2	##에	O	O	O, B-CV, B-TM, B-QT, B-PS
-3	카트	O	O	O, B-AF, B-TM, B-CV, B-LC
-4	##에	O	O	O, I-AF, B-CV, B-PS, B-TM
-5	담긴	O	O	O, B-CV, B-TM, B-LC, B-PS
-6	물건	O	O	O, B-CV, I-AF, B-TM, B-AF
-7	##의	O	O	O, B-CV, B-PS, B-OG, B-TM
-8	무게	O	O	O, B-CV, B-TM, B-LC, B-PS
-9	##까	O	O	O, B-CV, B-PS, B-TM, B-LC
-10	##지	O	O	O, B-CV, B-PS, B-LC, B-TM
-11	동시	O	O	O, B-TM, B-CV, B-QT, B-PS
-12	##에	O	O	O, B-CV, B-PS, B-OG, B-LC
-13	이겨	O	O	O, B-CV, B-TM, B-OG, B-LC
-14	##내	O	O	O, B-CV, B-LC, B-PS, B-OG
-15	##야	O	O	O, B-CV, B-QT, B-TM, B-PS
-16	하	O	O	O, B-CV, B-PS, B-TM, B-OG
-17	##는	O	O	O, B-CV, B-PS, B-TM, B-QT
-18	상황	O	O	O, B-CV, B-TM, B-QT, B-OG
-19	##이	O	O	O, B-PS, B-CV, B-OG, I-OG
-20	되	O	O	O, B-CV, B-QT, B-TM, B-OG
-21	##므로	O	O	O, B-CV, B-LC, I-QT, B-TM
-22	무릎	B-AM	B-AM	B-AM, B-TM, O, B-TR, B-CV
-23	##관	O	B-TM	B-TM, I-TM, O, B-AM, I-AM
-24	##절	O	I-TM	I-TM, O, I-AM, I-TR, I-CV
-25	##에	O	O	O, I-TM, I-CV, I-QT, I-EV
-26	##는	O	O	O, B-CV, B-LC, B-OG, I-QT
-27	최악	O	O	O, B-CV, B-QT, B-LC, B-OG
-28	##인	O	O	O, B-PS, B-CV, B-OG, B-QT
-29	상태	O	O	O, B-CV, B-QT, I-QT, B-OG
-30	##가	O	O	O, B-OG, B-CV, I-OG, B-PS
-31	된다	O	O	O, B-CV, B-QT, B-TM, B-LC
-32	.	O	O	O, B-CV, B-LC, B-PS, B-OG
-33	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	박	B-PS	B-PS
+2	총장	B-CV	B-CV
+3	##은	O	O
+4	“	O	O
+5	세계	O	B-EV
+6	금융	B-EV	I-EV
+7	##위	I-EV	I-EV
+8	##기	I-EV	I-EV
+9	등	O	O
+10	우리	O	O
+11	##가	O	O
+12	맞	O	O
+13	##고	O	O
+14	있	O	O
+15	##는	O	O
+16	위기	O	O
+17	##는	O	O
+18	똑똑	O	O
+19	##하	O	O
+20	##지만	O	O
+21	자신	O	O
+22	##밖	O	O
+23	##에	O	O
+24	모르	O	O
+25	##는	O	O
+26	이기	O	O
+27	##적	O	O
+28	##인	O	O
+29	사람	O	O
+30	##들의	O	O
+31	욕심	O	O
+32	##에	O	O
+33	##서	O	O
+34	비롯	O	O
+35	##됐	O	O
+36	##다	O	O
+37	.	O	O
+38	인성	O	O
+39	##을	O	O
+40	갖추	O	O
+41	##고	O	O
+42	,	O	O
+43	공동체	O	O
+44	##에	O	O
+45	대한	O	O
+46	윤리	O	O
+47	##적	O	O
+48	사명감	O	O
+49	##이	O	O
+50	투철	O	O
+51	##한	O	O
+52	전문	O	O
+53	인재	O	O
+54	##가	O	O
+55	어느	O	O
+56	때	O	O
+57	##보	O	O
+58	##다	O	O
+59	필요	O	O
+60	##하	O	O
+61	##다	O	O
+62	.	O	O
+63	가톨릭	B-OG	B-OG
+64	##대	I-OG	I-OG
+65	##학	I-OG	I-OG
+66	##은	O	O
+67	인성	O	O
+68	,	O	O
+69	지성	O	O
+70	,	O	O
+71	영성	O	O
+72	##을	O	O
+73	고루	O	O
+74	갖춘	O	O
+75	윤리	O	O
+76	##적	O	O
+77	인재	O	O
+78	양성	O	O
+79	##을	O	O
+80	위해	O	O
+81	다양	O	O
+82	##한	O	O
+83	노력	O	O
+84	##을	O	O
+85	하고	O	O
+86	있	O	O
+87	##다	O	O
+88	”	O	O
+89	고	O	O
+90	말	O	O
+91	##했	O	O
+92	##다	O	O
+93	.	O	O
+94	[SEP]	O	O

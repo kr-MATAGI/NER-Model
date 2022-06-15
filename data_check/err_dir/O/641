@@ -1,26 +1,50 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-QT
-1	다행히	O	O	O, B-CV, B-OG, B-PS, B-TM
-2	맨	B-OG	B-OG	B-OG, B-LC, O, B-AF, B-PS
-3	##유	I-OG	I-OG	I-OG, O, I-LC, I-AF, I-EV
-4	##의	O	O	O, I-OG, I-AF, I-EV, B-PS
-5	'	O	O	O, B-CV, B-PS, B-LC, B-OG
-6	에이스	O	B-CV	B-CV, O, B-PS, B-AF, B-OG
-7	'	O	O	O, I-CV, B-PS, B-CV, I-PS
-8	웨	B-PS	B-PS	B-PS, O, I-PS, B-OG, B-LC
-9	##인	I-PS	I-PS	I-PS, O, B-PS, I-LC, I-OG
-10	루니	I-PS	I-PS	I-PS, B-PS, O, B-LC, I-LC
-11	(	O	O	O, I-PS, B-CV, I-OG, I-AF
-12	28	B-QT	B-QT	B-QT, O, I-QT, B-TM, B-DT
-13	·	O	O	O, I-QT, I-DT, I-OG, B-CV
-14	잉글랜드	B-LC	B-LC	B-LC, B-OG, O, B-CV, B-TM
-15	)	O	O	O, I-LC, I-OG, B-CV, I-QT
-16	가	O	O	O, B-PS, B-LC, B-CV, B-OG
-17	축	B-TM	B-TM	B-TM, O, B-CV, I-TM, B-LC
-18	##농	I-TM	I-TM	I-TM, O, B-TM, I-QT, I-CV
-19	##증	I-TM	I-TM	I-TM, O, I-QT, I-CV, B-TM
-20	##으로	O	O	O, I-TM, I-CV, I-QT, I-OG
-21	결장	O	O	O, B-TM, B-CV, B-LC, I-TM
-22	##한다	O	O	O, I-TM, I-CV, I-OG, B-CV
-23	.	O	O	O, B-LC, B-CV, B-PS, B-TM
-24	[SEP]	O	O	O, B-CV, B-LC, B-TM, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	서양	B-FD	B-FD
+2	##미술	I-FD	I-FD
+3	##을	O	O
+4	전공	O	O
+5	##해	O	O
+6	33	B-DT	B-DT
+7	##년	I-DT	I-DT
+8	##간	I-DT	I-DT
+9	서울대	B-OG	B-OG
+10	미대	O	O
+11	교수	B-CV	B-CV
+12	##로	O	O
+13	재직	O	O
+14	##했	O	O
+15	##던	O	O
+16	우성	B-PS	B-PS
+17	##이	O	O
+18	전통	O	O
+19	##과	O	O
+20	고	B-FD	B-FD
+21	##미술	I-FD	I-FD
+22	##에	O	O
+23	대한	O	O
+24	깊	O	O
+25	##은	O	O
+26	이해	O	O
+27	##를	O	O
+28	바탕	O	O
+29	##으로	O	O
+30	완성	O	O
+31	##한	O	O
+32	서	O	B-FD
+33	##화	O	I-FD
+34	작품	O	O
+35	##을	O	O
+36	감상	O	O
+37	##하	O	O
+38	##는	O	O
+39	재미	O	O
+40	##가	O	O
+41	무엇	O	O
+42	##보	O	O
+43	##다	O	O
+44	쏠쏠	O	O
+45	##하	O	O
+46	##다	O	O
+47	.	O	O
+48	[SEP]	O	O

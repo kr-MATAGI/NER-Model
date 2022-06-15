@@ -1,12 +1,37 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-AF
-1	올	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-CV
-2	연말	O	I-DT	I-DT, O, B-DT, I-QT, B-CV
-3	##에	O	O	O, I-DT, I-OG, I-QT, I-CV
-4	##는	O	O	O, B-CV, I-OG, B-OG, I-AF
-5	해야	O	O	O, B-CV, B-OG, B-TM, B-LC
-6	되	O	O	O, B-CV, B-OG, I-OG, B-LC
-7	##겠	O	O	O, B-CV, I-OG, B-OG, I-AF
-8	##어	O	O	O, I-OG, B-CV, I-AF, I-CV
-9	.	O	O	O, B-CV, I-OG, I-AF, B-OG
-10	[SEP]	O	O	O, B-CV, I-OG, B-OG, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	이	O	O
+2	##처럼	O	O
+3	관련	O	O
+4	인사	O	B-CV
+5	##들이	O	O
+6	경쟁	O	O
+7	##하	O	O
+8	##듯	O	O
+9	녹취	O	O
+10	##를	O	O
+11	공개	O	O
+12	##하	O	O
+13	##는	O	O
+14	성	B-PS	B-PS
+15	회장	B-CV	B-CV
+16	사건	O	O
+17	##은	O	O
+18	한국	B-LC	B-LC
+19	사회	O	O
+20	##의	O	O
+21	‘	O	O
+22	녹취	O	O
+23	중독	O	O
+24	’	O	O
+25	을	O	O
+26	극단	O	O
+27	##적	O	O
+28	##으로	O	O
+29	보여	O	O
+30	##주	O	O
+31	##는	O	O
+32	사례	O	O
+33	##다	O	O
+34	.	O	O
+35	[SEP]	O	O

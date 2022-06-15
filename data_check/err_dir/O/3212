@@ -1,24 +1,68 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-EV, I-OG
-1	그	O	O	O, B-CV, B-PS, B-OG, B-TM
-2	##는	O	O	O, B-CV, B-PS, I-EV, B-TM
-3	이	O	O	O, B-PS, B-OG, B-CV, B-TM
-4	단체	O	O	O, I-OG, B-CV, B-OG, B-PS
-5	##에서	O	O	O, B-PS, B-CV, I-OG, B-OG
-6	내	O	O	O, B-CV, B-PS, B-DT, B-OG
-7	##는	O	O	O, B-PS, B-CV, B-OG, B-LC
-8	국군	B-OG	B-AF	B-AF, B-CV, O, B-EV, I-AF
-9	포로	B-CV	I-AF	I-AF, O, B-AF, I-CV, I-EV
-10	백서	O	I-AF	I-AF, O, B-AF, I-CV, I-TM
-11	##를	O	O	O, I-AF, I-CV, I-EV, I-OG
-12	보고	O	O	O, B-CV, B-PS, B-OG, B-TM
-13	""""	O	O	O, B-CV, B-PS, B-LC, B-TM
-14	놀라웠	O	O	O, B-CV, B-PS, B-OG, B-TM
-15	##다	O	O	O, B-CV, B-PS, I-CV, I-OG
-16	""""	O	O	O, B-CV, B-TM, B-LC, B-PS
-17	고	O	O	O, B-CV, B-TM, B-PS, I-CV
-18	말	O	O	O, B-CV, B-TM, I-CV, B-PS
-19	##했	O	O	O, B-CV, B-PS, I-CV, B-LC
-20	##다	O	O	O, B-CV, B-PS, I-EV, I-CV
-21	.	O	O	O, B-CV, B-PS, B-OG, B-LC
-22	[SEP]	O	O	O, B-CV, B-PS, B-OG, I-EV
+	text	label	preds
+0	[CLS]	O	O
+1	그	O	O
+2	##는	O	O
+3	옛	O	O
+4	중앙	B-OG	B-OG
+5	##정보	I-OG	I-OG
+6	##부	I-OG	I-OG
+7	비밀	O	O
+8	##사	O	O
+9	##찰	O	O
+10	문건	O	O
+11	##에	O	O
+12	‘	O	O
+13	조직	O	O
+14	##의	O	O
+15	귀	O	O
+16	##재	O	O
+17	’	O	O
+18	라고	O	O
+19	적혀	O	O
+20	있	O	O
+21	##었	O	O
+22	##을	O	O
+23	정도	O	O
+24	##로	O	O
+25	늘	O	O
+26	‘	O	O
+27	인권	O	B-CV
+28	##과	O	O
+29	인도주의	B-TR	B-TR
+30	정신	O	O
+31	’	O	O
+32	을	O	O
+33	실천	O	O
+34	##하	O	O
+35	##는	O	O
+36	운동	O	O
+37	현장	O	O
+38	##에	O	O
+39	있	O	O
+40	##었	O	O
+41	##으나	O	O
+42	“	O	O
+43	현장	O	O
+44	##이	O	O
+45	시켜서	O	O
+46	한	O	O
+47	일	O	O
+48	##일	O	O
+49	뿐	O	O
+50	내	O	O
+51	##가	O	O
+52	한	O	O
+53	게	O	O
+54	아니	O	O
+55	##다	O	O
+56	”	O	O
+57	며	O	O
+58	자신	O	O
+59	##을	O	O
+60	드러내	O	O
+61	##지	O	O
+62	않	O	O
+63	##았	O	O
+64	##다	O	O
+65	.	O	O
+66	[SEP]	O	O

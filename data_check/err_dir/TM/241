@@ -1,15 +1,15 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-EV
-1	복귀	O	O	O, B-CV, B-TM, B-OG, B-LC
-2	2	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-3	##주	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-4	##만	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-5	##에	O	O	O, I-DT, I-QT, I-OG, I-EV
-6	…	O	O	O, B-LC, B-OG, B-PS, I-DT
-7	'	O	O	O, B-LC, B-CV, B-PS, B-OG
-8	컴퓨터	B-TM	B-TM	B-TM, O, B-TR, B-EV, B-CV
-9	샷	B-TM	I-TM	I-TM, B-TM, O, I-TR, I-QT
-10	'	O	O	O, I-TM, I-QT, I-TR, I-EV
-11	살아난	O	O	O, B-CV, B-OG, B-PS, B-LC
-12	박인비	B-PS	B-PS	B-PS, O, B-OG, B-AF, I-PS
-13	[SEP]	O	O	O, I-PS, I-OG, I-AF, B-CV
+	text	label	preds
+0	[CLS]	O	O
+1	그	O	O
+2	~	O	O
+3	현관	O	O
+4	바로	O	O
+5	앞	B-TM	O
+6	##에	O	O
+7	아니	O	O
+8	##라	O	O
+9	조금	O	O
+10	건너	O	O
+11	방	O	O
+12	##에다	O	O
+13	[SEP]	O	O

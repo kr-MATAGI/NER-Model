@@ -1,73 +1,18 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	24	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-QT
-2	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-3	민주	B-OG	B-OG	B-OG, O, B-AF, I-OG, B-LC
-4	##통	I-OG	I-OG	I-OG, O, I-EV, B-OG, I-LC
-5	##합	I-OG	I-OG	I-OG, O, I-EV, I-LC, I-AF
-6	##당	I-OG	I-OG	I-OG, O, I-EV, I-LC, I-PS
-7	송	B-PS	B-PS	B-PS, O, B-OG, I-PS, I-OG
-8	##호	I-PS	I-PS	I-PS, I-OG, O, B-PS, I-LC
-9	##창	I-PS	I-PS	I-PS, O, I-OG, I-LC, B-PS
-10	의원	B-CV	B-CV	B-CV, O, I-PS, B-TM, B-OG
-11	##은	O	O	O, I-CV, B-CV, I-EV, I-OG
-12	‘	O	O	O, B-LC, B-OG, B-CV, B-PS
-13	전경련	O	B-OG	B-OG, O, B-AF, B-EV, B-PS
-14	,	O	O	O, I-OG, I-AF, I-PS, B-PS
-15	실질	O	O	O, I-AF, I-OG, B-PS, B-CV
-16	##적	O	O	O, I-AF, B-PS, I-PS, B-LC
-17	통계	O	O	O, B-CV, B-FD, I-AF, B-AF
-18	왜곡	O	O	O, I-AF, I-CV, I-TR, B-PS
-19	##으로	O	O	O, I-AF, B-PS, I-CV, I-PS
-20	대기	O	O	O, B-CV, B-FD, B-AF, B-TM
-21	##업	O	O	O, I-CV, I-AF, I-OG, B-CV
-22	일자리	O	O	O, B-CV, I-CV, B-TM, B-LC
-23	증가	O	O	O, I-CV, I-AF, B-PS, B-CV
-24	부풀리	O	O	O, B-CV, B-PS, I-AF, I-CV
-25	##기	O	O	O, I-CV, I-AF, B-PS, B-CV
-26	’	O	O	O, B-CV, B-LC, B-OG, B-PS
-27	란	O	O	O, B-LC, B-PS, B-TM, B-QT
-28	제목	O	O	O, B-TM, B-CV, B-QT, B-LC
-29	##의	O	O	O, B-PS, I-QT, B-OG, B-LC
-30	보고서	O	O	O, B-CV, B-AF, B-LC, B-OG
-31	##에서	O	O	O, B-CV, B-OG, B-LC, B-PS
-32	“	O	O	O, B-LC, B-OG, B-CV, B-PS
-33	전경련	O	B-OG	B-OG, O, B-AF, I-OG, B-PS
-34	##이	O	O	O, I-OG, B-PS, B-CV, I-AF
-35	지분	O	O	O, B-OG, B-CV, B-LC, B-PS
-36	획득	O	O	O, I-OG, B-CV, B-PS, B-OG
-37	##으로	O	O	O, B-PS, B-OG, B-LC, B-CV
-38	편입	O	O	O, B-OG, B-CV, B-PS, B-LC
-39	##된	O	O	O, B-PS, B-OG, B-LC, B-CV
-40	계열사	O	O	O, B-CV, B-OG, B-LC, B-AF
-41	종업원	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-AF
-42	##까	O	O	O, I-CV, B-CV, I-OG, I-AF
-43	##지	O	O	O, B-OG, B-PS, B-QT, B-LC
-44	지난해	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-45	대기	O	O	O, I-DT, B-CV, B-OG, I-QT
-46	##업	O	O	O, I-OG, I-CV, B-CV, I-AF
-47	##의	O	O	O, B-CV, B-PS, B-OG, B-LC
-48	고용	O	O	O, B-CV, B-TM, B-OG, B-LC
-49	창출	O	O	O, B-CV, B-PS, B-TM, B-OG
-50	##에	O	O	O, B-OG, B-CV, B-PS, B-LC
-51	포함	O	O	O, B-OG, B-LC, B-CV, B-TM
-52	##시	O	O	O, B-LC, B-PS, B-OG, B-CV
-53	##켜	O	O	O, B-LC, B-QT, B-PS, B-OG
-54	최소	O	O	O, B-QT, B-DT, B-CV, B-TM
-55	1	B-QT	B-QT	B-QT, I-QT, O, B-PS, B-DT
-56	##만	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-57	##여	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-58	##명	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-59	이상	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-60	##을	O	O	O, I-QT, B-CV, B-OG, I-CV
-61	과다	O	O	O, B-CV, B-QT, B-TM, B-OG
-62	계산	O	O	O, B-CV, I-QT, B-OG, B-LC
-63	##했	O	O	O, B-PS, B-LC, B-OG, B-CV
-64	##다	O	O	O, B-CV, B-LC, B-OG, B-PS
-65	”	O	O	O, B-CV, B-LC, B-OG, B-TM
-66	고	O	O	O, B-CV, B-LC, B-OG, B-TM
-67	지적	O	O	O, B-CV, B-OG, B-LC, B-TM
-68	##했	O	O	O, B-CV, B-OG, B-PS, B-LC
-69	##다	O	O	O, B-CV, B-LC, B-OG, B-TM
-70	.	O	O	O, B-LC, B-OG, B-CV, B-PS
-71	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	그리고	O	O
+2	또	O	O
+3	어떤	O	O
+4	한	O	O
+5	아	O	O
+6	아버지	B-CV	B-CV
+7	##는	O	O
+8	첫	O	B-TI
+9	시간	O	I-TI
+10	한	B-TI	B-TI
+11	시간	I-TI	I-TI
+12	배우	O	O
+13	##셨	O	O
+14	##어요	O	O
+15	.	O	O
+16	[SEP]	O	O

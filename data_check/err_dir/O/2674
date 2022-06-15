@@ -1,59 +1,42 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	강	B-PS	B-PS	B-PS, B-OG, O, I-PS, B-LC
-2	##만	I-PS	I-PS	I-PS, O, I-OG, B-PS, I-LC
-3	##수	I-PS	I-PS	I-PS, O, I-OG, I-LC, B-PS
-4	특보	O	B-CV	B-CV, O, I-CV, I-PS, B-OG
-5	##는	O	O	O, I-CV, I-OG, I-EV, B-CV
-6	이날	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-7	<	O	O	O, I-DT, B-OG, I-OG, B-LC
-8	헤	B-OG	B-OG	B-OG, B-AF, O, B-EV, B-TM
-9	##럴드	I-OG	I-OG	I-OG, I-AF, O, B-OG, I-EV
-10	경제	I-OG	I-OG	I-OG, O, I-AF, I-TM, I-EV
-11	>	O	O	O, I-OG, I-AF, I-EV, I-CV
-12	와	O	O	O, I-OG, B-OG, B-CV, B-LC
-13	인터뷰	O	O	O, B-CV, B-EV, B-LC, I-EV
-14	##에서	O	O	O, B-LC, B-OG, I-EV, B-CV
-15	“	O	O	O, B-LC, B-PS, B-CV, B-OG
-16	대통령	B-CV	B-CV	B-CV, O, B-OG, B-PS, B-AF
-17	##의	O	O	O, I-CV, B-CV, B-PS, I-EV
-18	(	O	O	O, B-CV, B-PS, B-LC, I-CV
-19	감세	O	O	O, B-CV, I-CV, B-PS, B-TR
-20	)	O	O	O, I-CV, B-PS, B-CV, I-EV
-21	공약	O	O	O, B-CV, I-CV, B-PS, B-FD
-22	##은	O	O	O, B-PS, I-CV, B-CV, B-LC
-23	국민	B-CV	B-CV	B-CV, O, B-OG, I-CV, B-TM
-24	##과	O	O	O, I-CV, B-CV, B-PS, I-OG
-25	##의	O	O	O, B-PS, B-CV, I-CV, B-LC
-26	약속	O	O	O, B-CV, B-PS, I-CV, B-LC
-27	##이	O	O	O, B-PS, B-CV, B-LC, B-OG
-28	##며	O	O	O, B-PS, B-LC, B-OG, B-CV
-29	특정	O	O	O, B-PS, B-LC, B-OG, B-CV
-30	정치인	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-FD
-31	##에	O	O	O, I-CV, B-PS, I-OG, I-EV
-32	의해	O	O	O, B-LC, B-PS, B-OG, B-TM
-33	쉽	O	O	O, B-LC, B-PS, B-OG, B-TM
-34	##게	O	O	O, B-LC, B-PS, B-OG, B-TM
-35	바뀔	O	O	O, B-LC, B-PS, B-OG, B-CV
-36	수	O	O	O, B-PS, B-LC, B-OG, B-QT
-37	있	O	O	O, B-PS, B-CV, B-LC, B-OG
-38	##는	O	O	O, B-PS, B-LC, B-CV, B-OG
-39	사안	O	O	O, B-CV, B-PS, B-OG, B-LC
-40	##도	O	O	O, B-PS, B-LC, B-CV, I-CV
-41	아니	O	O	O, B-PS, B-CV, B-LC, B-OG
-42	##다	O	O	O, B-PS, B-CV, B-LC, B-OG
-43	”	O	O	O, B-CV, B-PS, B-LC, B-OG
-44	라며	O	O	O, B-LC, B-PS, B-CV, B-QT
-45	감세	O	O	O, B-CV, B-TM, B-TR, B-PS
-46	철회	O	O	O, I-CV, I-TR, I-EV, I-TM
-47	##를	O	O	O, B-PS, B-OG, B-CV, B-LC
-48	반대	O	O	O, B-CV, B-OG, B-TM, B-LC
-49	##한다	O	O	O, B-CV, B-PS, B-OG, B-LC
-50	##는	O	O	O, B-CV, B-PS, B-OG, B-LC
-51	뜻	O	O	O, B-CV, B-TM, B-PS, B-QT
-52	##을	O	O	O, B-CV, I-CV, B-PS, B-OG
-53	강조	O	O	O, B-CV, B-TM, B-OG, B-LC
-54	##했	O	O	O, B-CV, B-PS, B-OG, I-CV
-55	##다	O	O	O, B-CV, B-OG, B-LC, B-PS
-56	.	O	O	O, B-LC, B-PS, B-OG, B-CV
-57	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	체내	O	O
+2	면역력	O	O
+3	##을	O	O
+4	증강	O	O
+5	##시	O	O
+6	##켜	O	O
+7	건강	O	O
+8	##을	O	O
+9	유지	O	O
+10	##하	O	O
+11	##는	O	O
+12	자연	O	O
+13	##치	O	O
+14	##유	O	O
+15	##에	O	O
+16	중점	O	O
+17	##을	O	O
+18	두고	O	O
+19	비만	O	O
+20	##관리	O	O
+21	,	O	O
+22	예술	O	B-TR
+23	##치료	O	I-TR
+24	,	O	O
+25	아로마	O	B-TR
+26	##테	O	I-TR
+27	##라	O	I-TR
+28	##피	O	I-TR
+29	등	O	O
+30	대체	O	O
+31	##요	O	O
+32	##법	O	O
+33	##과	O	O
+34	물리치	O	B-TR
+35	##료	O	I-TR
+36	등	O	O
+37	##을	O	O
+38	가르친다	O	O
+39	.	O	O
+40	[SEP]	O	O

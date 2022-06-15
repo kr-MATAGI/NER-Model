@@ -1,76 +1,11 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-EV, B-CV, I-OG, I-CV
-1	시내	O	O	O, B-LC, B-CV, B-AF, B-FD
-2	##에서	O	O	O, B-PS, B-CV, B-LC, B-OG
-3	만난	O	O	O, B-PS, B-OG, B-CV, B-LC
-4	한국	B-LC	B-LC	B-LC, O, B-OG, I-LC, B-PS
-5	건설사	O	O	O, B-OG, B-CV, I-OG, I-LC
-6	관계자	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-OG
-7	##는	O	O	O, I-CV, I-EV, B-CV, I-QT
-8	“	O	O	O, B-CV, B-LC, B-TM, B-PS
-9	부동산	O	O	O, B-CV, B-LC, B-PS, B-AF
-10	가격	O	O	O, B-CV, B-PS, B-LC, B-TM
-11	##이	O	O	O, B-PS, B-OG, B-LC, B-CV
-12	지난해	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-13	고점	O	O	O, I-DT, B-CV, I-EV, B-LC
-14	대비	O	O	O, B-LC, B-PS, B-CV, B-TM
-15	거의	O	O	O, B-QT, B-LC, B-CV, B-OG
-16	50	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-PS
-17	%	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-18	나	O	O	O, I-QT, I-OG, I-EV, B-CV
-19	떨어졌	O	O	O, B-CV, B-LC, B-PS, B-OG
-20	##다	O	O	O, B-CV, B-PS, B-LC, I-OG
-21	”	O	O	O, B-CV, B-LC, B-TM, B-PS
-22	며	O	O	O, B-LC, B-CV, B-OG, B-TM
-23	“	O	O	O, B-CV, B-LC, B-PS, B-OG
-24	부동산	O	O	O, B-CV, B-LC, B-PS, B-FD
-25	시장	O	O	O, B-CV, B-PS, B-LC, B-OG
-26	##에서	O	O	O, B-PS, B-CV, B-OG, B-LC
-27	##는	O	O	O, B-PS, B-OG, B-CV, B-LC
-28	나	O	B-OG	B-OG, B-PS, O, B-LC, I-OG
-29	##힐	O	I-OG	I-OG, I-PS, O, I-LC, B-OG
-30	##이	O	O	O, I-OG, I-PS, B-PS, I-LC
-31	12	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-QT
-32	##월	I-DT	I-DT	I-DT, O, B-DT, I-PS, I-OG
-33	##에	O	O	O, I-DT, I-EV, B-CV, I-OG
-34	채무	O	O	O, B-CV, B-FD, B-TM, B-LC
-35	##를	O	O	O, B-PS, B-CV, B-LC, I-CV
-36	갚	O	O	O, B-CV, B-LC, B-PS, B-TM
-37	##을	O	O	O, B-PS, B-LC, B-CV, B-OG
-38	수	O	O	O, B-PS, B-LC, B-CV, B-OG
-39	있	O	O	O, B-PS, B-LC, B-CV, B-OG
-40	##을	O	O	O, B-PS, B-LC, B-CV, B-OG
-41	##지	O	O	O, B-PS, B-LC, B-TM, B-CV
-42	##를	O	O	O, B-PS, B-LC, B-OG, B-CV
-43	두	B-LC	B-LC	B-LC, O, B-OG, B-EV, B-PS
-44	##바이	I-LC	I-LC	I-LC, O, B-LC, I-OG, I-PS
-45	경기	O	O	O, I-LC, B-CV, B-LC, I-EV
-46	회복	O	O	O, B-PS, B-LC, B-CV, I-LC
-47	##의	O	O	O, B-PS, B-LC, B-OG, B-CV
-48	지표	O	O	O, B-PS, B-CV, B-LC, B-TM
-49	##로	O	O	O, B-PS, B-LC, B-CV, B-OG
-50	보고	O	O	O, B-PS, B-CV, B-LC, B-OG
-51	있	O	O	O, B-PS, B-CV, B-LC, B-OG
-52	##었	O	O	O, B-PS, B-CV, B-LC, B-OG
-53	##던	O	O	O, B-PS, B-CV, B-LC, B-OG
-54	터	O	O	O, B-PS, B-CV, B-LC, B-OG
-55	##라	O	O	O, B-PS, B-LC, B-OG, I-PS
-56	이번	O	O	O, B-LC, B-CV, B-PS, B-OG
-57	사태	O	O	O, B-CV, B-PS, I-EV, B-LC
-58	##로	O	O	O, B-PS, B-LC, B-CV, I-EV
-59	부동산	O	O	O, B-CV, B-LC, B-TM, B-FD
-60	가격	O	O	O, B-CV, B-LC, B-PS, B-TM
-61	##의	O	O	O, B-PS, B-LC, B-CV, B-OG
-62	추가	O	O	O, B-LC, B-CV, B-TM, B-PS
-63	하락	O	O	O, B-LC, B-CV, B-TM, B-PS
-64	##이	O	O	O, B-PS, B-OG, B-LC, B-CV
-65	우려	O	O	O, B-CV, B-QT, B-TM, B-PS
-66	##된	O	O	O, B-PS, B-CV, B-OG, B-LC
-67	##다	O	O	O, B-CV, B-PS, I-OG, B-OG
-68	”	O	O	O, B-CV, B-TM, B-LC, B-QT
-69	고	O	O	O, B-CV, B-QT, B-TM, B-LC
-70	말	O	O	O, B-CV, B-TM, B-QT, B-LC
-71	##했	O	O	O, B-CV, B-PS, B-LC, I-EV
-72	##다	O	O	O, B-CV, B-LC, B-TM, I-EV
-73	.	O	O	O, B-LC, B-PS, B-CV, B-OG
-74	[SEP]	O	O	O, B-CV, B-LC, B-PS, I-EV
+	text	label	preds
+0	[CLS]	O	O
+1	저쪽	O	O
+2	##에	O	O
+3	양	O	B-TM
+4	옆	B-TM	I-TM
+5	##에도	O	O
+6	산도	O	O
+7	있	O	O
+8	##고	O	O
+9	[SEP]	O	O

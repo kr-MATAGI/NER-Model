@@ -1,37 +1,27 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-EV, I-CV
-1	두	B-QT	B-QT	B-QT, I-QT, B-EV, B-DT, O
-2	정상	I-QT	I-QT	I-QT, I-EV, O, I-DT, B-QT
-3	##은	O	O	O, I-QT, I-EV, B-CV, I-OG
-4	이날	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-QT
-5	중	B-EV	B-LC	B-LC, B-OG, B-EV, O, I-DT
-6	·	I-EV	O	O, I-LC, I-EV, I-OG, I-DT
-7	러	I-EV	B-LC	B-LC, I-LC, B-OG, I-EV, I-OG
-8	연합	I-EV	O	O, I-EV, I-OG, B-OG, I-LC
-9	해상	I-EV	O	O, I-EV, I-OG, B-EV, B-LC
-10	작전	I-EV	O	O, I-EV, I-OG, I-LC, I-AF
-11	##을	O	O	O, I-EV, I-OG, I-AF, B-LC
-12	수행	O	O	O, B-LC, B-CV, B-OG, B-TM
-13	중	O	O	O, B-LC, B-PS, B-OG, B-CV
-14	##인	O	O	O, B-PS, B-LC, B-OG, I-LC
-15	양국	O	O	O, B-LC, B-OG, B-CV, B-AF
-16	##의	O	O	O, B-LC, B-PS, B-OG, B-AF
-17	군함	O	O	O, B-AF, B-OG, B-LC, B-CV
-18	함장	B-CV	B-CV	B-CV, O, I-CV, I-AF, I-OG
-19	##으로	O	O	O, I-CV, B-CV, I-AF, I-EV
-20	##부터	O	O	O, B-LC, B-TM, B-CV, B-QT
-21	영상	O	O	O, B-TM, B-TR, B-CV, B-AF
-22	##통	O	O	O, I-TM, B-TM, I-AF, I-TR
-23	##화	O	O	O, I-TM, I-AF, I-TR, I-CV
-24	##를	O	O	O, I-TM, B-CV, I-AF, B-LC
-25	이용해	O	O	O, B-CV, B-LC, B-TM, B-OG
-26	임무	O	O	O, B-LC, B-CV, B-TM, B-AF
-27	보고	O	O	O, B-CV, B-TM, B-LC, I-AF
-28	##를	O	O	O, B-CV, B-PS, B-OG, B-LC
-29	받	O	O	O, B-LC, B-CV, B-PS, B-OG
-30	##기	O	O	O, B-LC, B-CV, B-PS, B-OG
-31	##도	O	O	O, B-LC, I-OG, B-CV, I-EV
-32	했	O	O	O, B-LC, B-CV, B-OG, B-PS
-33	##다	O	O	O, B-CV, B-LC, I-OG, B-OG
-34	.	O	O	O, B-LC, B-CV, B-OG, B-PS
-35	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	""""	O	O
+2	9	B-EV	B-EV
+3	·	I-EV	I-DT
+4	11	I-EV	I-DT
+5	다음	B-DT	I-DT
+6	##날	I-DT	I-DT
+7	한국	B-OG	B-LC
+8	##이	O	O
+9	도와	O	O
+10	##주	O	O
+11	##겠다	O	O
+12	했	O	O
+13	##지만	O	O
+14	美	B-LC	B-LC
+15	뿌리	O	O
+16	깊	O	O
+17	##은	O	O
+18	관료	B-TR	B-TR
+19	##주의	I-TR	I-TR
+20	때문	O	O
+21	##에	O	O
+22	시간	O	O
+23	걸려	O	O
+24	""""	O	O
+25	[SEP]	O	O

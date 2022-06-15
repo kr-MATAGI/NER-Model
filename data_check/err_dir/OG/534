@@ -1,66 +1,36 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-EV, I-CV
-1	통신	O	O	O, B-OG, I-OG, B-TM, B-CV
-2	##은	O	O	O, I-OG, B-OG, I-CV, I-EV
-3	“	O	O	O, B-LC, B-CV, B-OG, B-PS
-4	북한	B-OG	B-LC	B-LC, B-OG, O, B-PS, B-EV
-5	문제	O	O	O, I-OG, I-LC, I-EV, B-CV
-6	##에서	O	O	O, B-LC, B-PS, B-OG, B-CV
-7	어떻게	O	O	O, B-LC, B-OG, B-PS, B-TM
-8	중국	B-OG	B-OG	B-OG, B-LC, O, B-PS, I-OG
-9	##의	O	O	O, I-OG, I-LC, I-PS, B-PS
-10	협력	O	O	O, B-LC, B-OG, B-CV, B-PS
-11	##을	O	O	O, B-PS, B-OG, B-CV, B-LC
-12	얻	O	O	O, B-LC, B-PS, B-CV, B-OG
-13	##느	O	O	O, B-PS, B-LC, B-OG, B-CV
-14	##냐	O	O	O, B-LC, B-PS, B-OG, I-PS
-15	##가	O	O	O, B-PS, B-LC, B-OG, B-CV
-16	중요	O	O	O, B-CV, B-LC, B-OG, B-TM
-17	##하	O	O	O, B-PS, B-OG, B-LC, I-PS
-18	##다	O	O	O, I-OG, B-OG, B-PS, B-CV
-19	”	O	O	O, B-CV, B-OG, B-LC, B-PS
-20	며	O	O	O, B-OG, B-LC, B-CV, B-PS
-21	“	O	O	O, B-CV, B-LC, B-OG, B-PS
-22	케리	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
-23	##로	O	O	O, I-PS, B-CV, I-OG, B-PS
-24	##서	O	O	O, B-CV, B-OG, B-PS, B-LC
-25	##는	O	O	O, B-LC, B-PS, B-OG, B-CV
-26	이번	O	O	O, B-PS, B-LC, B-CV, B-EV
-27	기회	O	O	O, B-PS, I-EV, B-CV, B-EV
-28	##를	O	O	O, B-CV, B-PS, I-EV, B-OG
-29	통해	O	O	O, B-LC, B-PS, B-OG, B-CV
-30	‘	O	O	O, B-LC, B-OG, B-PS, B-CV
-31	중	B-OG	B-OG	B-OG, B-LC, O, B-PS, B-EV
-32	-	O	O	O, I-OG, I-EV, B-CV, B-OG
-33	미	B-OG	B-OG	B-OG, B-LC, O, I-OG, B-PS
-34	관계	O	O	O, I-OG, I-EV, B-OG, B-CV
-35	내부	O	O	O, B-LC, B-TM, B-PS, B-OG
-36	##의	O	O	O, B-PS, B-LC, B-OG, B-CV
-37	문제	O	O	O, B-LC, B-PS, B-CV, B-OG
-38	’	O	O	O, B-PS, B-CV, B-LC, B-OG
-39	에서	O	O	O, B-LC, B-PS, B-OG, B-CV
-40	협력	O	O	O, B-LC, B-OG, B-CV, B-PS
-41	##을	O	O	O, B-CV, B-OG, B-PS, B-LC
-42	이뤄	O	O	O, B-LC, B-OG, B-CV, B-PS
-43	##내	O	O	O, B-LC, B-PS, B-OG, B-CV
-44	##고	O	O	O, B-LC, B-PS, B-OG, B-CV
-45	,	O	O	O, B-LC, B-OG, B-CV, B-PS
-46	양국	O	O	O, B-OG, B-LC, B-CV, B-PS
-47	관계	O	O	O, B-CV, B-OG, B-LC, B-PS
-48	##를	O	O	O, B-PS, B-LC, B-OG, B-CV
-49	새로운	O	O	O, B-LC, B-OG, B-PS, B-CV
-50	단계	O	O	O, B-LC, B-PS, B-OG, B-CV
-51	##에	O	O	O, B-LC, B-PS, B-CV, B-OG
-52	진입	O	O	O, B-LC, B-CV, B-OG, B-TM
-53	##시	O	O	O, B-LC, B-PS, B-OG, B-CV
-54	##키	O	O	O, B-LC, B-PS, B-OG, B-CV
-55	##는	O	O	O, B-LC, B-PS, B-OG, B-CV
-56	게	O	O	O, B-LC, B-PS, B-OG, B-CV
-57	관건	O	O	O, B-LC, B-CV, B-OG, B-TM
-58	”	O	O	O, B-CV, I-OG, I-EV, I-CV
-59	이라	O	O	O, B-OG, B-PS, B-CV, B-LC
-60	##고	O	O	O, B-OG, B-CV, I-OG, B-LC
-61	밝혔	O	O	O, B-OG, B-CV, I-OG, B-LC
-62	##다	O	O	O, B-CV, I-OG, B-OG, B-LC
-63	.	O	O	O, B-LC, B-CV, B-OG, B-PS
-64	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	러시아	B-LC	B-LC
+2	2	B-QT	B-QT
+3	##위	I-QT	I-QT
+4	##와	O	O
+5	3	B-QT	B-QT
+6	##위	I-QT	I-QT
+7	은행	O	O
+8	##인	O	O
+9	브이	B-OG	B-OG
+10	##티	I-OG	I-OG
+11	##비	I-OG	I-OG
+12	(	O	O
+13	V	B-OG	O
+14	##T	I-OG	O
+15	##B	I-OG	O
+16	)	O	O
+17	와	O	O
+18	가스	B-OG	B-OG
+19	##프	I-OG	I-OG
+20	##롬	I-OG	I-OG
+21	##은행	I-OG	I-OG
+22	##이	O	O
+23	자본	O	O
+24	보충	O	O
+25	##을	O	O
+26	위한	O	O
+27	정부	B-OG	B-OG
+28	지원	O	O
+29	##을	O	O
+30	요청	O	O
+31	##했	O	O
+32	##다	O	O
+33	.	O	O
+34	[SEP]	O	O

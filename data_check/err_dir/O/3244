@@ -1,19 +1,14 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	켜졌	O	O	O, B-CV, B-TM, B-LC, B-QT
-2	##는데	O	O	O, B-CV, I-CV, B-PS, B-OG
-3	고	O	O	O, B-CV, B-PS, B-LC, B-TM
-4	부분	O	O	O, B-CV, B-TM, B-LC, B-PS
-5	##이	O	O	O, B-PS, B-CV, B-OG, B-LC
-6	이제	O	O	O, B-CV, B-PS, B-OG, B-LC
-7	세계	O	O	O, B-CV, B-LC, B-OG, B-PS
-8	##적인	O	O	O, B-PS, B-LC, B-CV, I-OG
-9	당시	O	O	O, B-CV, B-PS, B-OG, B-LC
-10	##의	O	O	O, B-PS, B-CV, B-LC, B-OG
-11	그	O	O	O, B-CV, B-OG, B-LC, B-PS
-12	곤충	O	B-CV	B-CV, O, B-AM, B-FD, B-PS
-13	##학자	B-CV	I-CV	I-CV, O, B-CV, I-QT, I-AM
-14	파	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-15	##브르	I-PS	I-PS	I-PS, O, I-OG, I-LC, I-QT
-16	##하고	O	O	O, I-PS, I-OG, B-CV, I-CV
-17	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	앞	O	O
+2	##으로	O	O
+3	##의	O	O
+4	우리	O	O
+5	##가	O	O
+6	추구	O	O
+7	##해야	O	O
+8	할	O	O
+9	비전	O	O
+10	##과	O	O
+11	철학	O	B-FD
+12	[SEP]	O	O

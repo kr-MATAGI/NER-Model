@@ -1,32 +1,48 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, B-CV, I-EV, I-OG
-1	한	O	O	O, B-DT, B-QT, B-PS, B-TI
-2	##여름	B-DT	B-DT	B-DT, I-DT, O, B-TI, B-EV
-3	[UNK]	O	O	O, I-DT, B-PS, B-AM, B-TM
-4	땀	O	O	O, B-TM, B-AM, B-CV, B-LC
-5	##이	B-PS	B-PS	B-PS, O, I-PS, B-AM, B-LC
-6	비	O	O	O, B-TM, B-AM, I-PS, B-LC
-7	오	O	O	O, B-PS, B-LC, I-AF, I-LC
-8	##듯	O	O	O, I-LC, I-PS, I-TM, B-PS
-9	흘렀	O	O	O, B-PS, I-PS, B-LC, B-CV
-10	##지만	O	O	O, B-PS, I-PS, B-LC, B-CV
-11	이	O	B-PS	B-PS, O, I-PS, B-LC, B-OG
-12	씨	O	O	O, I-PS, B-CV, B-PS, I-OG
-13	##는	O	O	O, B-PS, B-CV, I-PS, B-LC
-14	아들	B-CV	B-CV	B-CV, O, B-PS, B-TM, B-AF
-15	##이	O	O	O, B-PS, I-PS, I-CV, B-CV
-16	진	O	O	O, B-CV, B-AF, B-TM, B-PS
-17	##루	O	O	O, I-CV, I-AF, I-TM, I-PS
-18	##할	O	O	O, B-PS, I-PS, I-AF, I-TM
-19	때	O	O	O, B-PS, B-CV, B-TM, I-AF
-20	##마다	O	O	O, B-PS, I-PS, B-AM, I-AF
-21	입가	B-AM	B-AM	B-AM, O, B-PS, B-TM, I-AM
-22	##에	O	O	O, B-PS, I-PS, I-AM, I-CV
-23	미소	O	O	O, B-TM, B-AM, B-CV, B-PS
-24	##를	O	O	O, B-PS, I-CV, I-TM, B-CV
-25	감추	O	O	O, B-CV, B-PS, B-TM, B-LC
-26	##지	O	O	O, B-PS, B-LC, B-CV, I-CV
-27	못했	O	O	O, B-PS, B-LC, B-CV, I-PS
-28	##다	O	O	O, B-CV, B-PS, I-CV, B-LC
-29	.	O	O	O, B-PS, B-CV, B-LC, B-AM
-30	[SEP]	O	O	O, B-PS, B-CV, B-LC, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	중국	B-LC	B-LC
+2	당국	O	O
+3	##은	O	O
+4	인권	B-CV	B-CV
+5	##변	I-CV	I-CV
+6	##호	I-CV	I-CV
+7	##사	I-CV	I-CV
+8	##들	O	O
+9	##과	O	O
+10	인권	O	B-CV
+11	·	O	O
+12	노동	O	O
+13	단체	O	O
+14	##들이	O	O
+15	장	B-PS	B-PS
+16	전	O	O
+17	주석	B-CV	B-CV
+18	##의	O	O
+19	생일	O	O
+20	축하	O	O
+21	행사	O	O
+22	##를	O	O
+23	계기	O	O
+24	##로	O	O
+25	반	O	O
+26	(	O	O
+27	反	O	O
+28	)	O	O
+29	체제	O	O
+30	활동	O	O
+31	##을	O	O
+32	벌일	O	O
+33	가능	O	O
+34	##성	O	O
+35	##에	O	O
+36	대비	O	O
+37	##했	O	O
+38	##다고	O	O
+39	해명	O	O
+40	##한	O	O
+41	것	O	O
+42	##으로	O	O
+43	전해졌	O	O
+44	##다	O	O
+45	.	O	O
+46	[SEP]	O	O

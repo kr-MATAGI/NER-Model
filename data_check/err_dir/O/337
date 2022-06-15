@@ -1,59 +1,44 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-EV, I-OG
-1	이응	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
-2	##주	I-PS	I-PS	I-PS, O, I-OG, I-LC, I-QT
-3	신한	B-OG	B-OG	B-OG, I-OG, O, I-PS, B-AF
-4	##금융	I-OG	I-OG	I-OG, O, I-PS, I-AF, I-LC
-5	##투자	I-OG	I-OG	I-OG, O, I-AF, I-PS, I-QT
-6	연구원	B-CV	B-CV	B-CV, O, I-CV, I-OG, B-TM
-7	##은	O	O	O, I-CV, I-OG, B-CV, I-EV
-8	“	O	O	O, B-CV, B-LC, B-OG, B-TM
-9	화학	O	B-FD	B-FD, O, I-FD, B-TR, B-OG
-10	경기	O	O	O, I-FD, B-CV, I-EV, B-PS
-11	##를	O	O	O, B-CV, B-PS, B-LC, B-TM
-12	가늠	O	O	O, B-CV, B-LC, B-TM, B-PS
-13	##할	O	O	O, B-LC, B-PS, B-CV, B-OG
-14	중국	B-LC	B-LC	B-LC, B-OG, O, B-EV, B-AF
-15	경기	O	O	O, I-LC, B-CV, B-LC, I-EV
-16	##가	O	O	O, B-PS, B-LC, B-OG, B-CV
-17	1	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-18	##분	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
-19	##기	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-OG
-20	바닥	O	O	O, I-DT, B-LC, B-PS, B-TM
-21	##권	O	O	O, I-LC, B-LC, B-PS, I-PS
-22	##을	O	O	O, B-LC, B-PS, B-CV, B-OG
-23	보이	O	O	O, B-LC, B-CV, B-PS, B-OG
-24	##고	O	O	O, B-PS, B-LC, B-CV, B-OG
-25	개선	O	O	O, B-CV, B-LC, B-PS, B-TM
-26	##될	O	O	O, B-PS, B-LC, B-CV, B-OG
-27	조짐	O	O	O, B-PS, B-LC, B-CV, B-OG
-28	##을	O	O	O, B-PS, B-CV, B-LC, B-OG
-29	나타내	O	O	O, B-LC, B-PS, B-CV, B-OG
-30	##고	O	O	O, B-PS, B-LC, B-CV, B-OG
-31	있	O	O	O, B-PS, B-LC, B-CV, B-OG
-32	##지만	O	O	O, B-LC, B-PS, B-CV, B-OG
-33	실적	O	O	O, B-LC, B-CV, B-PS, B-OG
-34	개선	O	O	O, B-LC, B-PS, B-CV, B-TM
-35	##은	O	O	O, B-PS, B-LC, B-OG, B-CV
-36	더디	O	O	O, B-LC, B-PS, B-TM, B-CV
-37	##다	O	O	O, B-PS, B-CV, B-OG, B-LC
-38	”	O	O	O, B-CV, B-LC, B-TM, B-PS
-39	며	O	O	O, B-LC, B-CV, B-TM, B-OG
-40	“	O	O	O, B-CV, B-LC, B-TM, B-PS
-41	당분간	O	O	O, B-LC, B-CV, B-QT, B-PS
-42	주가	O	O	O, B-CV, B-PS, B-OG, B-LC
-43	##는	O	O	O, B-CV, B-LC, B-PS, B-TM
-44	박스	O	O	O, B-TM, B-CV, B-LC, B-PS
-45	##권	O	O	O, I-LC, I-PS, B-PS, I-QT
-46	##을	O	O	O, B-CV, B-OG, B-LC, B-TM
-47	형성	O	O	O, B-CV, B-TM, B-LC, B-OG
-48	##할	O	O	O, B-PS, B-CV, B-LC, B-OG
-49	것	O	O	O, B-CV, B-PS, B-TM, B-OG
-50	”	O	O	O, B-CV, B-TM, B-LC, B-PS
-51	이라	O	O	O, B-CV, B-TM, B-PS, B-OG
-52	##고	O	O	O, B-CV, B-TM, B-QT, B-FD
-53	전망	O	O	O, B-CV, B-FD, B-TM, B-OG
-54	##했	O	O	O, B-CV, I-CV, B-PS, B-OG
-55	##다	O	O	O, B-CV, B-TM, B-LC, B-PS
-56	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-57	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-FD
+	text	label	preds
+0	[CLS]	O	O
+1	톈	B-AF	B-AF
+2	##궁	I-AF	I-AF
+3	1	I-AF	B-QT
+4	##호	I-AF	I-QT
+5	##는	O	O
+6	이미	O	O
+7	'	O	O
+8	창	B-AF	B-TM
+9	##정	I-AF	I-TM
+10	(	I-AF	I-TM
+11	長	I-AF	I-TM
+12	征	I-AF	I-TM
+13	)	I-AF	I-TM
+14	2	I-AF	I-TM
+15	##호	I-AF	I-TM
+16	F	I-AF	B-AF
+17	'	O	O
+18	우주	O	B-AF
+19	##로	O	I-AF
+20	##켓	O	I-AF
+21	##에	O	O
+22	장착	O	O
+23	##돼	O	O
+24	주	B-LC	B-OG
+25	##취	I-LC	I-OG
+26	##안	I-LC	I-OG
+27	##기지	I-LC	I-OG
+28	내	O	O
+29	발사	O	O
+30	구역	O	O
+31	##으로	O	O
+32	옮겨	O	O
+33	##진	O	O
+34	상태	O	O
+35	##라고	O	O
+36	신화	B-OG	B-OG
+37	##통신	I-OG	I-OG
+38	##은	O	O
+39	전했	O	O
+40	##다	O	O
+41	.	O	O
+42	[SEP]	O	O

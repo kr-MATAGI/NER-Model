@@ -1,52 +1,15 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	'	O	O	O, B-OG, B-LC, B-TM, B-CV
-2	커리어	B-AF	B-AF	B-AF, B-OG, B-TM, O, B-LC
-3	##월드	I-AF	I-OG	I-OG, I-AF, I-TM, O, I-LC
-4	'	O	O	O, I-OG, I-AF, I-TM, I-EV
-5	에	O	O	O, B-CV, B-PS, B-OG, I-AF
-6	오	O	O	O, B-CV, B-PS, B-OG, B-AF
-7	##게	O	O	O, B-CV, B-PS, B-OG, B-LC
-8	될	O	O	O, B-CV, B-TM, B-AF, B-PS
-9	학생	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-OG
-10	##은	O	O	O, I-CV, B-CV, I-QT, I-OG
-11	고교	O	O	O, B-CV, B-QT, B-OG, B-FD
-12	1	B-CV	B-QT	B-QT, B-CV, B-DT, I-QT, O
-13	~	I-CV	I-QT	I-QT, I-CV, I-DT, O, I-OG
-14	2	I-CV	I-QT	I-QT, I-CV, I-DT, B-QT, O
-15	##학년	I-CV	I-QT	I-QT, I-CV, I-DT, O, B-CV
-16	##생	I-CV	I-QT	I-QT, I-CV, O, I-DT, B-CV
-17	##과	O	O	O, I-QT, I-CV, B-CV, B-PS
-18	고교	O	O	O, B-CV, B-FD, B-OG, B-LC
-19	졸업	O	O	O, B-CV, B-PS, I-CV, B-FD
-20	2	B-DT	B-DT	B-DT, O, B-QT, I-DT, B-EV
-21	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-22	이내	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-23	##인	O	O	O, I-DT, B-PS, B-CV, B-LC
-24	사회	O	O	O, B-CV, B-FD, B-TR, B-TM
-25	적응	O	O	O, I-CV, B-CV, B-PS, I-OG
-26	과정	O	O	O, B-PS, I-CV, I-OG, B-CV
-27	(	O	O	O, B-PS, B-CV, B-LC, B-OG
-28	전공	O	O	O, B-CV, B-OG, B-FD, B-TM
-29	##과	O	O	O, I-OG, I-CV, I-FD, I-QT
-30	)	O	O	O, B-PS, B-CV, B-LC, I-OG
-31	학생	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-OG
-32	##들이	O	O	O, I-CV, B-CV, B-PS, I-QT
-33	##며	O	O	O, B-CV, B-LC, B-TM, B-OG
-34	직업훈련	O	O	O, B-CV, B-FD, B-TR, B-EV
-35	##을	O	O	O, B-CV, I-CV, I-EV, B-PS
-36	받	O	O	O, B-CV, B-LC, B-TM, B-PS
-37	##을	O	O	O, B-CV, B-PS, B-LC, B-OG
-38	수	O	O	O, B-PS, B-CV, B-LC, B-QT
-39	있	O	O	O, B-PS, B-CV, B-LC, B-QT
-40	##을	O	O	O, B-PS, B-CV, B-LC, B-OG
-41	만큼	O	O	O, B-PS, B-LC, B-OG, B-CV
-42	장애	O	O	O, B-CV, B-TM, B-LC, B-PS
-43	정도	O	O	O, B-PS, B-CV, B-LC, I-CV
-44	##가	O	O	O, B-PS, B-OG, B-LC, B-CV
-45	가볍	O	O	O, B-CV, B-LC, B-PS, B-TM
-46	##다는	O	O	O, B-OG, B-PS, B-LC, B-CV
-47	것	O	O	O, B-PS, B-OG, B-CV, B-TM
-48	##이다	O	O	O, B-CV, B-TM, I-OG, I-CV
-49	.	O	O	O, B-CV, B-PS, B-LC, B-OG
-50	[SEP]	O	O	O, B-CV, B-PS, B-LC, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	근데	O	O
+2	대중	B-CV	O
+3	앞	O	O
+4	##에	O	O
+5	##서	O	O
+6	나갈	O	O
+7	대중	B-CV	O
+8	앞	O	O
+9	##에	O	O
+10	설	O	O
+11	때	O	O
+12	##는	O	O
+13	[SEP]	O	O

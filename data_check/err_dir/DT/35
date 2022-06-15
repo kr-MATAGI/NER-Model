@@ -1,31 +1,84 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	미국	B-OG	B-OG	B-OG, B-LC, O, B-PS, B-AF
-2	##이	O	O	O, I-OG, B-PS, B-OG, I-LC
-3	2012	B-DT	B-DT	B-DT, O, I-DT, B-LC, B-EV
-4	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-5	영국	B-LC	B-LC	B-LC, B-DT, I-DT, O, B-OG
-6	런던	B-DT	I-DT	I-DT, B-DT, B-LC, I-LC, O
-7	올림픽	I-DT	I-DT	I-DT, B-DT, O, I-LC, I-EV
-8	때	I-DT	I-DT	I-DT, O, B-DT, I-EV, I-LC
-9	연방	B-OG	B-OG	B-OG, B-LC, I-OG, O, I-DT
-10	##수	I-OG	I-OG	I-OG, B-OG, O, I-EV, I-LC
-11	##사	I-OG	I-OG	I-OG, O, I-EV, I-LC, B-OG
-12	##국	I-OG	I-OG	I-OG, O, I-LC, I-EV, I-AF
-13	(	O	O	O, I-OG, I-EV, I-AF, B-CV
-14	FBI	B-OG	B-OG	B-OG, O, B-LC, I-OG, B-AF
-15	)	O	O	O, I-OG, I-EV, I-AF, I-CV
-16	요원	B-CV	B-CV	B-CV, O, B-TM, B-OG, I-CV
-17	500	B-QT	B-QT	B-QT, I-QT, O, B-DT, I-CV
-18	##명	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-DT
-19	등	O	O	O, I-QT, B-CV, I-OG, I-EV
-20	1000	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-EV
-21	##여	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-22	##명	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-23	##을	O	O	O, I-QT, B-CV, B-OG, I-OG
-24	파견	O	O	O, B-CV, B-OG, B-LC, B-TM
-25	##할	O	O	O, B-OG, B-CV, B-LC, B-PS
-26	계획	O	O	O, B-CV, B-OG, I-OG, B-LC
-27	##이다	O	O	O, B-CV, I-OG, B-OG, B-LC
-28	.	O	O	O, B-LC, B-OG, B-CV, I-OG
-29	[SEP]	O	O	O, B-LC, B-OG, B-CV, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	김기	B-PS	B-PS
+2	##문	I-PS	I-PS
+3	(	O	O
+4	56	B-QT	B-QT
+5	)	O	O
+6	포항	B-OG	B-OG
+7	##공	I-OG	I-OG
+8	##대	I-OG	I-OG
+9	첨단	O	O
+10	##재료	O	O
+11	##과학	O	O
+12	##부	O	O
+13	교수	B-CV	B-CV
+14	연구	O	O
+15	##팀	O	O
+16	##은	O	O
+17	19	B-DT	B-DT
+18	##일	I-DT	I-DT
+19	나노	B-QT	O
+20	(	O	O
+21	[UNK]	O	O
+22	10	B-QT	B-QT
+23	##억	I-QT	I-QT
+24	##분	I-QT	I-QT
+25	##의	I-QT	I-QT
+26	1	I-QT	I-QT
+27	##m	I-QT	I-QT
+28	)	O	O
+29	크기	O	O
+30	##에	O	O
+31	호박	B-TM	B-TM
+32	모양	I-TM	I-TM
+33	##을	O	O
+34	한	O	O
+35	화합물	O	O
+36	‘	O	O
+37	쿠	B-MT	B-MT
+38	##커	I-MT	I-MT
+39	##비	I-MT	I-MT
+40	##투	I-MT	I-MT
+41	##릴	I-MT	I-MT
+42	’	O	O
+43	로	O	O
+44	세포	O	O
+45	##에	O	O
+46	##서	O	O
+47	세포	O	B-TM
+48	##막	O	I-TM
+49	단백질	B-MT	B-MT
+50	##을	O	O
+51	처음	O	O
+52	분리	O	O
+53	##하	O	O
+54	##는	O	O
+55	데	O	O
+56	성공	O	O
+57	##해	O	O
+58	논문	O	O
+59	##이	O	O
+60	국제	O	O
+61	저널	O	O
+62	<	O	O
+63	네이처	B-AF	B-AF
+64	>	O	O
+65	자매	O	O
+66	##지	O	O
+67	##인	O	O
+68	<	O	O
+69	네이처	B-AF	B-AF
+70	케미	I-AF	I-AF
+71	##스트	I-AF	I-AF
+72	##리	I-AF	I-AF
+73	>	O	O
+74	20	B-DT	O
+75	##일치	I-DT	O
+76	##에	O	O
+77	실린	O	O
+78	##다고	O	O
+79	밝혔	O	O
+80	##다	O	O
+81	.	O	O
+82	[SEP]	O	O

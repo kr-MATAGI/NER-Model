@@ -1,40 +1,30 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	책	O	O	O, B-CV, B-OG, B-TM, B-LC
-2	##은	O	O	O, B-CV, B-OG, B-LC, B-PS
-3	그	O	O	O, B-CV, B-PS, B-OG, B-LC
-4	##가	O	O	O, B-PS, B-LC, B-CV, B-OG
-5	복귀	O	O	O, B-CV, B-PS, B-LC, B-OG
-6	##한	O	O	O, B-PS, B-LC, B-CV, B-OG
-7	이후	O	O	O, B-CV, B-PS, B-LC, B-OG
-8	2015	B-DT	B-DT	B-DT, I-DT, O, B-QT, B-PS
-9	##년	I-DT	I-DT	I-DT, O, B-DT, I-PS, I-QT
-10	3	I-DT	I-DT	I-DT, O, B-DT, I-PS, I-QT
-11	##월	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-12	##부터	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-13	1	B-DT	B-DT	B-DT, I-DT, O, B-QT, B-LC
-14	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-15	##간	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-16	<	O	O	O, I-DT, B-OG, B-LC, B-CV
-17	한겨레	B-OG	B-OG	B-OG, B-AF, O, B-LC, I-OG
-18	>	O	O	O, I-OG, I-AF, I-DT, B-CV
-19	에	O	O	O, B-CV, B-LC, B-OG, B-DT
-20	연재	O	O	O, B-CV, B-TM, B-LC, B-OG
-21	##했	O	O	O, B-PS, B-CV, B-LC, B-OG
-22	##던	O	O	O, B-CV, B-LC, B-PS, B-AF
-23	‘	O	O	O, B-CV, B-OG, B-LC, B-AF
-24	백	B-PS	B-AF	B-AF, B-PS, I-AF, O, B-LC
-25	##민석	I-PS	I-AF	I-AF, I-PS, B-AF, O, I-TM
-26	##의	O	I-AF	I-AF, O, I-PS, I-TM, I-LC
-27	리	O	I-AF	I-AF, O, I-TM, I-PS, B-AF
-28	##플릿	O	I-AF	I-AF, O, I-TM, I-PS, I-QT
-29	’	O	O	O, I-AF, B-CV, I-CV, I-EV
-30	26	B-QT	B-QT	B-QT, O, I-QT, B-AF, B-TM
-31	##편	I-QT	I-QT	I-QT, O, I-AF, I-LC, I-TM
-32	##을	O	O	O, I-QT, I-AF, B-CV, I-EV
-33	묶	O	O	O, B-CV, B-OG, B-TM, B-QT
-34	##어낸	O	O	O, B-CV, B-OG, B-LC, B-PS
-35	것	O	O	O, B-CV, B-OG, B-PS, B-LC
-36	##이다	O	O	O, B-CV, I-OG, B-OG, B-TM
-37	.	O	O	O, B-LC, B-CV, B-OG, B-PS
-38	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	체육	O	O
+2	교육	O	O
+3	##과	O	O
+4	##정	O	O
+5	##을	O	O
+6	재	O	O
+7	##구	O	O
+8	##성	O	O
+9	##해	O	O
+10	3	B-QT	B-QT
+11	##학	I-QT	I-QT
+12	##년	I-QT	I-QT
+13	##은	O	O
+14	수영	B-CV	B-CV
+15	자유형	O	B-CV
+16	##을	O	O
+17	,	O	O
+18	4	B-QT	B-QT
+19	##학	I-QT	I-QT
+20	##년	I-QT	I-QT
+21	##은	O	O
+22	배	B-CV	O
+23	##영	I-CV	O
+24	##을	O	O
+25	뗀	O	O
+26	##다	O	O
+27	.	O	O
+28	[SEP]	O	O

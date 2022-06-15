@@ -1,34 +1,41 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	서비스	O	O	O, B-CV, B-TM, B-LC, I-CV
-2	##가	O	O	O, B-PS, B-CV, B-LC, B-OG
-3	성공	O	O	O, B-CV, B-LC, B-TM, B-OG
-4	##하	O	O	O, B-LC, B-PS, I-OG, I-AF
-5	##려면	O	O	O, B-TM, B-LC, B-CV, B-OG
-6	‘	O	O	O, B-LC, B-CV, B-OG, B-TM
-7	어둠	O	O	O, B-TM, B-CV, B-LC, B-PS
-8	##의	O	O	O, B-PS, I-LC, I-PS, I-CV
-9	경로	O	O	O, B-LC, I-LC, B-TM, B-CV
-10	(	O	O	O, B-CV, B-LC, I-CV, B-OG
-11	불법	O	O	O, B-CV, B-TM, B-AF, B-AM
-12	웹	O	B-TM	B-TM, O, I-TM, B-CV, B-OG
-13	##하	O	I-TM	I-TM, O, I-CV, B-TM, I-OG
-14	##드	O	I-TM	I-TM, O, I-CV, I-OG, B-TM
-15	등	O	O	O, I-TM, B-LC, I-CV, B-TM
-16	)	O	O	O, B-CV, B-LC, B-OG, B-PS
-17	’	O	O	O, B-CV, B-LC, B-PS, B-OG
-18	를	O	O	O, B-PS, B-LC, B-CV, B-TM
-19	이용	O	O	O, B-CV, B-LC, B-TM, B-PS
-20	##하	O	O	O, B-CV, B-PS, B-LC, B-TM
-21	##는	O	O	O, B-CV, B-TM, B-LC, B-PS
-22	소비자	B-CV	B-CV	B-CV, O, B-TM, I-CV, B-OG
-23	##들	O	O	O, I-CV, B-CV, I-QT, I-AF
-24	##을	O	O	O, B-CV, B-TM, B-LC, B-PS
-25	양지	O	O	O, B-CV, B-QT, B-TM, B-AM
-26	##로	O	O	O, I-QT, I-CV, B-PS, I-TM
-27	끌어올려	O	O	O, B-QT, B-LC, B-TM, B-CV
-28	##야	O	O	O, B-LC, I-QT, B-PS, B-CV
-29	했	O	O	O, B-CV, B-OG, B-LC, B-TM
-30	##다	O	O	O, B-CV, I-OG, B-TM, B-LC
-31	.	O	O	O, B-LC, B-CV, B-TM, B-PS
-32	[SEP]	O	O	O, B-CV, B-LC, B-TM, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	랑	B-PS	B-PS
+2	##랑	I-PS	I-PS
+3	##은	O	O
+4	뉴욕	B-OG	B-OG
+5	##타임	I-OG	I-OG
+6	##스	I-OG	I-OG
+7	##가	O	O
+8	'	O	O
+9	현재	O	O
+10	클래식	O	B-FD
+11	##계	O	O
+12	##를	O	O
+13	가장	O	O
+14	뜨겁	O	O
+15	##게	O	O
+16	달구	O	O
+17	##고	O	O
+18	있	O	O
+19	##는	O	O
+20	아티스트	B-CV	B-CV
+21	'	O	O
+22	라고	O	O
+23	손꼽	O	O
+24	##을	O	O
+25	만큼	O	O
+26	전	O	O
+27	세계	O	O
+28	##에	O	O
+29	##서	O	O
+30	수많	O	O
+31	##은	O	O
+32	팬	O	B-CV
+33	##을	O	O
+34	보유	O	O
+35	##한	O	O
+36	피아니스트	B-CV	B-CV
+37	##다	O	O
+38	.	O	O
+39	[SEP]	O	O

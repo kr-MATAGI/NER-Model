@@ -1,19 +1,29 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-AF
-1	[	O	O	O, B-LC, B-OG, B-CV, B-PS
-2	수도권	B-LC	B-LC	B-LC, O, B-OG, B-TM, B-AF
-3	##Ⅰ	B-QT	B-QT	B-QT, O, I-LC, I-QT, B-EV
-4	]	O	O	O, I-QT, I-EV, I-DT, B-LC
-5	4	B-DT	B-EV	B-EV, B-DT, O, B-LC, B-AF
-6	·	I-DT	I-EV	I-EV, I-DT, O, I-LC, I-QT
-7	29	I-DT	I-EV	I-EV, I-DT, I-LC, I-AF, I-QT
-8	시흥시	O	I-EV	I-EV, O, B-EV, I-LC, B-LC
-9	##장	O	I-EV	I-EV, O, I-LC, I-AF, B-EV
-10	보궐	B-EV	I-EV	I-EV, B-EV, O, B-LC, I-AF
-11	##선거	I-EV	I-EV	I-EV, O, I-AF, B-EV, I-LC
-12	3	B-QT	B-QT	B-QT, I-EV, B-CV, I-QT, O
-13	##자	I-QT	I-QT	I-QT, I-EV, I-CV, O, I-TM
-14	대결	O	O	O, I-QT, I-EV, B-LC, I-CV
-15	##구	O	O	O, B-LC, B-PS, B-CV, B-OG
-16	##도	O	O	O, I-LC, I-OG, I-EV, I-CV
-17	[SEP]	O	O	O, B-LC, I-EV, B-EV, B-CV
+	text	label	preds
+0	[CLS]	O	O
+1	이	O	O
+2	가운데	O	O
+3	83	B-QT	B-QT
+4	%	I-QT	I-QT
+5	(	O	O
+6	19	B-QT	B-QT
+7	##조	I-QT	I-QT
+8	##50	I-QT	I-QT
+9	##00	I-QT	I-QT
+10	##억	I-QT	I-QT
+11	##원	I-QT	I-QT
+12	)	O	O
+13	가	O	O
+14	연금	O	B-CV
+15	##과	O	O
+16	지방	B-CV	B-CV
+17	##교	I-CV	I-CV
+18	##부	I-CV	I-CV
+19	##세	I-CV	I-CV
+20	지원	O	O
+21	등	O	O
+22	경직	O	O
+23	##성	O	O
+24	지출	O	O
+25	##이다	O	O
+26	.	O	O
+27	[SEP]	O	O

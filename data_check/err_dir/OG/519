@@ -1,16 +1,18 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	그래서	O	O	O, B-CV, B-OG, B-LC, B-TM
-2	그	O	O	O, B-CV, B-OG, B-LC, B-FD
-3	~	O	O	O, B-LC, I-EV, B-CV, I-OG
-4	비	B-OG	B-TR	B-TR, O, B-EV, B-FD, B-TM
-5	##폭력	I-OG	I-TR	I-TR, I-FD, O, I-EV, B-TR
-6	##대	I-OG	I-TR	I-TR, O, I-FD, I-EV, I-QT
-7	##화	I-OG	I-TR	I-TR, O, I-EV, I-FD, I-QT
-8	센	I-OG	O	O, I-EV, I-TR, B-EV, I-QT
-9	##타	I-OG	O	O, I-EV, I-OG, I-QT, I-LC
-10	##에서	O	O	O, I-EV, I-QT, I-OG, B-CV
-11	##는	O	O	O, B-CV, B-OG, I-EV, B-LC
-12	그	O	O	O, B-CV, B-OG, B-LC, B-TM
-13	~	O	O	O, B-CV, I-CV, B-LC, I-OG
-14	[SEP]	O	O	O, B-CV, B-LC, B-FD, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	자기	O	O
+2	회사	O	O
+3	##인	O	O
+4	개인	O	O
+5	회사	O	O
+6	##인	O	O
+7	가족	B-CV	O
+8	##회사	O	O
+9	##인	O	O
+10	정강	B-OG	B-OG
+11	##이	I-OG	O
+12	##란	O	O
+13	데	O	O
+14	##에	O	O
+15	##서	O	O
+16	[SEP]	O	O

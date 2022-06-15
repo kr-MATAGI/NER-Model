@@ -1,44 +1,20 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	[	O	O	O, B-LC, B-OG, B-CV, B-PS
-2	유엔	B-OG	B-OG	B-OG, O, B-LC, I-OG, B-CV
-3	대북	O	B-CV	B-CV, O, I-CV, I-OG, B-FD
-4	##제	O	I-CV	I-CV, O, B-CV, I-OG, I-EV
-5	##재	O	I-CV	I-CV, O, B-CV, I-OG, I-EV
-6	결의안	O	O	O, I-CV, B-CV, I-OG, I-AF
-7	채택	O	O	O, I-CV, I-OG, I-EV, B-PS
-8	]	O	O	O, B-LC, B-OG, B-PS, I-CV
-9	제재	O	O	O, B-CV, B-OG, B-LC, B-PS
-10	대상	O	O	O, B-OG, B-LC, B-CV, B-PS
-11	개인	O	O	O, B-CV, B-OG, B-LC, B-TM
-12	-	O	O	O, I-OG, B-PS, I-CV, B-LC
-13	기관	O	O	O, B-CV, B-OG, I-CV, B-LC
-14	60	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-EV
-15	##건	I-QT	I-QT	I-QT, O, I-LC, I-PS, I-EV
-16	##으로	O	O	O, I-QT, B-OG, B-LC, B-CV
-17	확대	O	O	O, B-OG, B-LC, B-CV, B-TM
-18	…	O	O	O, B-LC, B-OG, I-OG, B-PS
-19	中	B-LC	B-LC	B-LC, B-OG, O, B-CV, B-TM
-20	-	O	O	O, I-OG, I-LC, B-LC, B-PS
-21	러	B-LC	B-LC	B-LC, B-OG, O, I-OG, I-LC
-22	공조	O	O	O, I-OG, B-OG, B-LC, B-CV
-23	이끌	O	O	O, B-LC, I-OG, B-OG, B-CV
-24	##어	O	O	O, B-LC, B-OG, B-PS, B-CV
-25	##낼	O	O	O, B-LC, B-OG, B-PS, B-TM
-26	외교	O	O	O, B-LC, B-OG, B-CV, B-TM
-27	##력	O	O	O, B-LC, B-OG, B-PS, I-OG
-28	급선무	O	O	O, B-LC, B-OG, B-TM, B-PS
-29	美	B-LC	B-LC	B-LC, B-OG, O, B-CV, B-TM
-30	금융	O	O	O, B-CV, B-OG, I-OG, I-CV
-31	##제	O	O	O, I-CV, I-OG, B-CV, I-FD
-32	##재	O	O	O, I-CV, I-OG, I-FD, I-EV
-33	부차	O	B-CV	B-CV, I-CV, O, I-OG, B-FD
-34	##관	O	I-CV	I-CV, O, B-CV, I-OG, I-EV
-35	##보	O	I-CV	I-CV, O, B-CV, I-OG, I-QT
-36	3	B-DT	B-DT	B-DT, I-CV, O, I-DT, B-QT
-37	##월	I-DT	I-DT	I-DT, O, B-DT, I-CV, I-QT
-38	첫째	I-DT	I-DT	I-DT, B-DT, O, I-QT, B-QT
-39	##주	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
-40	##중	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
-41	방한	O	O	O, B-LC, B-CV, I-DT, B-EV
-42	[SEP]	O	O	O, B-LC, B-OG, I-EV, B-CV
+	text	label	preds
+0	[CLS]	O	O
+1	천	B-DT	B-DT
+2	##구	I-DT	I-DT
+3	##백	I-DT	I-DT
+4	##구	I-DT	I-DT
+5	##십	I-DT	I-DT
+6	##사	I-DT	I-DT
+7	년	I-DT	I-DT
+8	##에	O	O
+9	성폭력	B-CV	B-CV
+10	특별법	I-CV	I-CV
+11	제이	O	B-QT
+12	##정	O	I-QT
+13	##이	O	O
+14	됐	O	O
+15	##고	O	O
+16	##요	O	O
+17	.	O	O
+18	[SEP]	O	O

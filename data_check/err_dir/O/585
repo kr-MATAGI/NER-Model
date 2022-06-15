@@ -1,32 +1,38 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	반면	O	O	O, B-CV, B-TM, B-LC, B-QT
-2	서울	B-LC	B-LC	B-LC, O, B-OG, B-AF, B-PS
-3	##지역	O	O	O, I-LC, B-LC, I-OG, I-PS
-4	대학	O	O	O, I-LC, I-OG, B-CV, I-AF
-5	출신	O	O	O, B-CV, B-PS, I-CV, I-OG
-6	##들	O	O	O, B-CV, B-PS, I-OG, I-CV
-7	##은	O	O	O, B-CV, B-LC, B-TM, B-OG
-8	지역	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-PT
-9	##인	I-CV	I-CV	I-CV, O, B-CV, I-TM, I-EV
-10	##재	I-CV	I-CV	I-CV, O, B-CV, I-TM, I-OG
-11	할당	I-CV	I-CV	I-CV, O, B-CV, I-TM, I-OG
-12	##제	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-TM
-13	##에	O	O	O, I-CV, I-OG, B-CV, I-AF
-14	대해	O	O	O, B-LC, B-OG, B-CV, B-TM
-15	‘	O	O	O, B-LC, B-OG, B-CV, B-PS
-16	인	O	O	O, B-LC, B-TM, B-CV, B-OG
-17	(	O	I-LC	I-LC, O, B-LC, I-TM, I-CV
-18	in	O	O	O, I-LC, I-TM, I-CV, I-OG
-19	)	O	O	O, I-LC, I-TM, I-CV, I-OG
-20	서울	B-LC	B-LC	B-LC, I-LC, O, I-TM, I-OG
-21	대학	O	O	O, I-LC, I-OG, I-CV, I-AF
-22	역차별	O	O	O, B-CV, I-CV, I-OG, B-LC
-23	’	O	O	O, B-CV, I-CV, I-OG, I-AF
-24	우려	O	O	O, B-CV, B-TM, B-QT, B-PS
-25	##를	O	O	O, B-CV, I-CV, B-TM, I-OG
-26	제기	O	O	O, B-CV, B-TM, I-CV, B-QT
-27	##했	O	O	O, B-CV, B-PS, I-CV, B-LC
-28	##다	O	O	O, B-CV, B-TM, B-LC, I-CV
-29	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-30	[SEP]	O	O	O, B-CV, B-LC, B-OG, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	사업	B-CV	B-CV
+2	##조	I-CV	I-CV
+3	##정	I-CV	I-CV
+4	제도	I-CV	I-CV
+5	##는	O	O
+6	1960	B-DT	B-DT
+7	##년	I-DT	I-DT
+8	##대	I-DT	I-DT
+9	도입	O	O
+10	##됐	O	O
+11	##지만	O	O
+12	,	O	O
+13	중기청	B-OG	B-OG
+14	##은	O	O
+15	사업	O	B-OG
+16	##조	O	I-OG
+17	##정	O	I-OG
+18	##심	O	I-OG
+19	##의	O	I-OG
+20	##회	O	I-OG
+21	##를	O	O
+22	열지	O	O
+23	않	O	O
+24	##고	O	O
+25	자율	O	O
+26	조정	O	O
+27	##으로	O	O
+28	##만	O	O
+29	문제	O	O
+30	##에	O	O
+31	접근	O	O
+32	##해	O	O
+33	##왔	O	O
+34	##다	O	O
+35	.	O	O
+36	[SEP]	O	O

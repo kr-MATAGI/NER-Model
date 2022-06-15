@@ -1,70 +1,48 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	한나라당	B-OG	B-OG	B-OG, O, B-LC, B-PS, B-AF
-2	서민	O	B-OG	B-OG, O, I-OG, B-CV, B-EV
-3	##정책	O	I-OG	I-OG, O, I-CV, B-OG, I-EV
-4	##특위	O	I-OG	I-OG, O, I-CV, I-EV, B-OG
-5	##를	O	O	O, I-OG, I-EV, I-CV, B-PS
-6	대변	O	O	O, B-CV, B-PS, B-LC, B-OG
-7	##해	O	O	O, B-PS, I-CV, B-LC, I-PS
-8	김기현	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-9	의원	B-CV	B-CV	B-CV, O, I-PS, I-CV, B-TM
-10	##이	O	O	O, I-CV, B-PS, B-CV, B-LC
-11	중소기업	O	O	O, B-CV, B-OG, B-LC, B-FD
-12	조합	O	O	O, B-CV, I-CV, I-OG, B-OG
-13	##에	O	O	O, B-CV, B-PS, B-LC, I-CV
-14	납품	O	O	O, B-CV, B-LC, B-AF, B-TM
-15	##단	O	O	O, I-CV, B-CV, B-QT, I-LC
-16	##가	O	O	O, I-CV, B-CV, B-QT, I-LC
-17	조정	O	O	O, B-CV, I-CV, B-PS, B-MT
-18	협상	O	O	O, B-CV, I-CV, B-AM, B-PS
-19	##권	O	O	O, I-CV, B-CV, I-TR, I-TM
-20	##을	O	O	O, I-CV, B-PS, B-CV, B-LC
-21	부여	O	O	O, B-CV, B-PS, B-LC, B-TM
-22	##하고	O	O	O, B-PS, B-LC, B-CV, I-CV
-23	중소기업	O	O	O, B-CV, B-OG, B-LC, B-FD
-24	##의	O	O	O, B-PS, I-CV, B-CV, I-OG
-25	기술	O	O	O, B-CV, B-LC, I-CV, B-PS
-26	##을	O	O	O, B-PS, B-CV, B-LC, I-CV
-27	가로채	O	O	O, B-CV, B-LC, B-PS, B-QT
-28	##는	O	O	O, B-PS, B-LC, B-CV, B-OG
-29	대기	O	O	O, B-CV, B-OG, B-LC, B-TM
-30	##업	O	O	O, I-CV, I-OG, B-CV, I-QT
-31	##에	O	O	O, B-CV, I-CV, I-OG, B-PS
-32	대해	O	O	O, B-CV, B-LC, B-OG, B-QT
-33	손해	O	O	O, B-CV, B-TM, B-QT, B-LC
-34	##액	O	O	O, I-CV, B-CV, I-QT, I-LC
-35	##의	O	O	O, B-CV, B-PS, B-LC, B-TM
-36	3	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-LC
-37	##배	I-QT	I-QT	I-QT, O, I-LC, I-PS, I-OG
-38	이내	I-QT	I-QT	I-QT, O, I-LC, I-OG, I-PS
-39	##에서	O	O	O, I-QT, B-CV, B-LC, B-PS
-40	배상	O	O	O, B-CV, B-TM, B-LC, B-OG
-41	##하	O	O	O, B-PS, B-CV, B-LC, B-OG
-42	##도록	O	O	O, B-CV, B-LC, B-PS, B-OG
-43	하	O	O	O, B-CV, B-LC, B-OG, B-PS
-44	##는	O	O	O, B-CV, B-LC, B-PS, B-QT
-45	법안	O	O	O, B-CV, B-LC, B-OG, B-PS
-46	##을	O	O	O, B-CV, B-LC, B-PS, B-OG
-47	낸	O	O	O, B-CV, B-OG, B-LC, B-PS
-48	##데	O	O	O, B-CV, B-LC, B-PS, I-CV
-49	##다	O	O	O, B-LC, B-PS, B-OG, B-CV
-50	,	O	O	O, B-OG, B-LC, B-CV, B-PS
-51	정무	B-OG	B-OG	B-OG, O, B-CV, B-EV, B-AF
-52	##위	I-OG	I-OG	I-OG, O, I-EV, I-CV, I-AF
-53	소속	O	O	O, I-OG, B-CV, B-PS, I-CV
-54	일부	O	O	O, B-PS, B-LC, B-CV, B-QT
-55	한나라당	B-OG	B-OG	B-OG, O, B-LC, B-PS, B-AF
-56	의원	B-CV	B-CV	B-CV, O, I-CV, I-OG, B-OG
-57	##들	O	O	O, I-CV, I-OG, B-CV, I-EV
-58	##도	O	O	O, B-CV, B-LC, B-PS, B-OG
-59	정부안	O	O	O, B-CV, B-AF, B-OG, B-FD
-60	##에	O	O	O, I-CV, I-AF, B-CV, I-OG
-61	불만	O	O	O, B-CV, B-LC, B-PS, B-TM
-62	##을	O	O	O, B-CV, B-LC, B-PS, I-CV
-63	드러냈	O	O	O, B-CV, B-LC, B-PS, B-TM
-64	##기	O	O	O, B-CV, B-LC, B-PS, B-TM
-65	때문	O	O	O, B-CV, B-LC, B-TM, B-PS
-66	##이다	O	O	O, B-CV, B-TM, B-LC, B-QT
-67	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-68	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	‘	O	O
+2	아이	O	B-AF
+3	…	O	I-AF
+4	’	O	O
+5	는	O	O
+6	트로이	B-EV	B-EV
+7	전쟁	I-EV	I-EV
+8	##에	O	O
+9	##서	O	O
+10	숨진	O	O
+11	아킬	B-PS	B-PS
+12	##레	I-PS	I-PS
+13	##우스	I-PS	I-PS
+14	##의	O	O
+15	유품	O	O
+16	##을	O	O
+17	차지	O	O
+18	##하	O	O
+19	##기	O	O
+20	위해	O	O
+21	아이	B-PS	B-PS
+22	##아	I-PS	I-PS
+23	##스	I-PS	I-PS
+24	##와	O	O
+25	오디	B-PS	B-PS
+26	##세우스	I-PS	I-PS
+27	##가	O	O
+28	벌이	O	O
+29	##는	O	O
+30	논쟁	O	O
+31	##과	O	O
+32	이후	O	O
+33	전개	O	O
+34	##되	O	O
+35	##는	O	O
+36	광기	O	O
+37	##를	O	O
+38	통해	O	O
+39	욕망	O	O
+40	##과	O	O
+41	파멸	O	O
+42	##을	O	O
+43	그렸	O	O
+44	##다	O	O
+45	.	O	O
+46	[SEP]	O	O

@@ -1,7 +1,23 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-EV, I-CV, I-AF
-1	○	O	O	O, B-LC, B-CV, B-PS, B-OG
-2	희생	O	O	O, B-PS, B-AF, B-LC, B-CV
-3	vs	O	O	O, I-AF, B-PS, I-PS, I-EV
-4	이기주의	O	B-TR	B-TR, O, I-TR, B-TM, B-PS
-5	[SEP]	O	O	O, I-TR, I-EV, I-AF, I-QT
+	text	label	preds
+0	[CLS]	O	O
+1	긍	O	O
+2	##까	O	O
+3	번호	O	O
+4	##가	O	O
+5	십	O	B-QT
+6	십	B-DT	B-QT
+7	##일	I-DT	I-QT
+8	십	B-QT	B-QT
+9	##이	I-QT	I-QT
+10	십	I-QT	I-QT
+11	##삼	I-QT	I-QT
+12	십	B-QT	I-QT
+13	##사	I-QT	I-QT
+14	이런	O	O
+15	식	O	O
+16	##으로	O	O
+17	됐	O	O
+18	##어	O	O
+19	번호	O	O
+20	##가	O	O
+21	[SEP]	O	O

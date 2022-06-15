@@ -1,56 +1,11 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-EV, I-OG
-1	2007	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-2	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-3	##엔	O	O	O, I-DT, B-CV, B-LC, B-PS
-4	삼성	B-EV	B-OG	B-OG, B-EV, B-AF, B-LC, B-PS
-5	비자금	I-EV	I-EV	I-EV, O, B-EV, I-OG, B-CV
-6	사건	I-EV	I-EV	I-EV, O, I-OG, B-EV, I-AF
-7	특별	B-CV	B-CV	B-CV, O, I-CV, I-EV, B-OG
-8	##수	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-EV
-9	##사	I-CV	I-CV	I-CV, O, I-OG, B-CV, I-TM
-10	·	I-CV	O	O, I-CV, I-OG, I-QT, I-EV
-11	감찰	I-CV	B-CV	B-CV, O, I-CV, B-OG, B-TM
-12	##본부	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-QT
-13	##장	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-QT
-14	##을	O	O	O, I-CV, B-CV, I-OG, I-QT
-15	맡	O	O	O, B-CV, B-LC, B-TM, B-EV
-16	##았	O	O	O, B-PS, B-CV, B-LC, I-CV
-17	##고	O	O	O, B-LC, B-CV, B-PS, B-OG
-18	,	O	O	O, B-CV, B-LC, B-PS, B-OG
-19	2008	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-20	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-21	촛불	O	O	O, B-EV, I-EV, B-CV, B-LC
-22	시위	O	O	O, I-EV, B-EV, I-OG, I-AF
-23	##가	O	O	O, I-EV, B-PS, B-LC, B-OG
-24	격화	O	O	O, B-CV, I-EV, B-LC, B-EV
-25	##됐	O	O	O, B-LC, B-PS, I-EV, B-CV
-26	##을	O	O	O, B-LC, B-PS, B-CV, B-OG
-27	당시	O	O	O, B-CV, B-LC, B-PS, B-OG
-28	대검	B-OG	B-OG	B-OG, B-AF, B-LC, O, B-TM
-29	공안	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-TM
-30	##부	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-QT
-31	##장	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-QT
-32	##을	O	O	O, I-CV, I-OG, I-QT, B-CV
-33	맡	O	O	O, B-CV, B-LC, B-TM, B-PS
-34	##아	O	O	O, B-PS, B-LC, I-QT, I-CV
-35	20	B-QT	B-QT	B-QT, I-QT, O, B-DT, B-EV
-36	##차례	I-QT	I-QT	I-QT, O, I-EV, I-LC, I-DT
-37	이상	I-QT	I-QT	I-QT, O, I-LC, I-EV, I-DT
-38	혼자	O	O	O, I-QT, B-TM, B-LC, B-CV
-39	현장	O	O	O, B-LC, B-CV, B-TM, I-QT
-40	##에	O	O	O, B-LC, B-CV, B-TM, B-PS
-41	나가	O	O	O, B-LC, B-CV, B-TM, B-PS
-42	상황	O	O	O, B-LC, B-CV, B-TM, B-QT
-43	##을	O	O	O, B-CV, B-LC, B-PS, B-OG
-44	파악	O	O	O, B-CV, B-LC, B-TM, B-PS
-45	##하	O	O	O, B-LC, B-PS, B-CV, B-TM
-46	##는	O	O	O, B-LC, B-CV, B-PS, B-TM
-47	등	O	O	O, B-LC, B-CV, B-PS, B-TM
-48	사건	O	O	O, B-CV, B-LC, B-EV, I-EV
-49	##을	O	O	O, B-CV, B-PS, B-LC, B-OG
-50	지휘	O	O	O, B-CV, B-LC, B-PS, B-TM
-51	##했	O	O	O, B-PS, B-CV, B-LC, B-OG
-52	##다	O	O	O, B-CV, B-LC, B-PS, B-OG
-53	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-54	[SEP]	O	O	O, B-LC, B-CV, B-PS, I-EV
+	text	label	preds
+0	[CLS]	O	O
+1	대사	B-CV	O
+2	##를	O	O
+3	하신	O	O
+4	나라	O	O
+5	##가	O	O
+6	영국	B-LC	B-LC
+7	일본인	O	O
+8	##데	O	O
+9	[SEP]	O	O

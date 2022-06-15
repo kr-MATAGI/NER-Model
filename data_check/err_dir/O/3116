@@ -1,23 +1,40 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	짐	B-PS	B-PS	B-PS, B-OG, O, B-LC, I-PS
-2	콜린	I-PS	I-PS	I-PS, B-PS, I-OG, O, I-LC
-3	##스	I-PS	I-PS	I-PS, O, I-OG, I-LC, I-QT
-4	##를	O	O	O, I-PS, B-CV, I-OG, I-AF
-5	만난	O	O	O, B-CV, B-OG, B-EV, B-TM
-6	회의실	O	O	O, B-TM, B-AF, B-CV, B-FD
-7	앞	O	B-TM	B-TM, O, I-TM, B-CV, B-TR
-8	화이트	O	O	O, B-TM, I-TM, B-CV, B-AF
-9	##보드	O	O	O, I-TM, I-AF, I-CV, I-TR
-10	위	O	O	O, B-TM, B-CV, I-TM, B-AM
-11	##엔	O	O	O, I-TM, B-CV, B-TM, I-CV
-12	몇	O	O	O, B-TM, B-CV, B-OG, B-PS
-13	개의	O	O	O, B-TM, B-CV, B-OG, B-PS
-14	숫자	O	O	O, B-TM, B-FD, B-CV, B-MT
-15	##들이	O	O	O, B-CV, I-AF, I-CV, I-QT
-16	쓰여	O	O	O, B-CV, B-TM, B-LC, B-OG
-17	있	O	O	O, B-CV, B-TM, B-PS, I-AF
-18	##었	O	O	O, B-CV, B-TM, B-LC, B-OG
-19	##다	O	O	O, B-CV, B-TM, I-EV, B-LC
-20	.	O	O	O, B-CV, B-TM, B-PS, B-LC
-21	[SEP]	O	O	O, B-CV, B-TM, B-PS, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	한국	B-OG	B-OG
+2	##과학	I-OG	I-OG
+3	##기술	I-OG	I-OG
+4	##연구원	I-OG	I-OG
+5	(	O	O
+6	KIS	B-OG	B-OG
+7	##T	I-OG	I-OG
+8	)	O	O
+9	류	B-PS	B-PS
+10	##재	I-PS	I-PS
+11	##천	I-PS	I-PS
+12	책임	B-CV	B-CV
+13	##연구원	I-CV	I-CV
+14	(	O	O
+15	사진	O	O
+16	)	O	O
+17	이	O	O
+18	최근	O	O
+19	세계	B-OG	B-OG
+20	##독	I-OG	I-OG
+21	##성	I-OG	I-OG
+22	##유	I-OG	I-OG
+23	##전	I-OG	I-OG
+24	##체	I-OG	I-OG
+25	##학	I-OG	I-OG
+26	##회	I-OG	I-OG
+27	(	O	O
+28	IF	B-OG	B-OG
+29	##T	I-OG	I-OG
+30	)	O	O
+31	초대	O	B-QT
+32	회장	B-CV	B-CV
+33	##에	O	O
+34	선출	O	O
+35	##됐	O	O
+36	##다	O	O
+37	.	O	O
+38	[SEP]	O	O

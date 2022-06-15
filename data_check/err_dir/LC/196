@@ -1,27 +1,43 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-EV, I-CV
-1	그	O	O	O, B-CV, B-OG, B-PS, B-LC
-2	##는	O	O	O, B-CV, B-PS, I-EV, B-LC
-3	기자	O	O	O, B-CV, B-EV, B-TM, B-LC
-4	##회	O	O	O, I-EV, B-CV, B-EV, I-CV
-5	##견	O	O	O, I-EV, B-CV, I-CV, B-LC
-6	##을	O	O	O, B-CV, B-OG, I-EV, B-PS
-7	열	O	O	O, B-CV, B-OG, B-LC, B-PS
-8	##어	O	O	O, B-LC, B-OG, B-PS, B-CV
-9	한국	B-LC	B-OG	B-OG, B-LC, O, B-AF, B-CV
-10	##비	O	I-OG	I-OG, B-OG, O, B-CV, I-PS
-11	##료	O	I-OG	I-OG, O, I-AF, I-CV, I-LC
-12	##의	O	O	O, I-OG, I-CV, I-AF, B-CV
-13	국가	O	O	O, B-CV, I-OG, B-LC, B-OG
-14	헌	O	O	O, B-CV, I-CV, I-OG, B-PS
-15	##납	O	O	O, I-CV, I-OG, B-CV, I-QT
-16	##과	O	O	O, B-PS, B-CV, B-LC, I-CV
-17	경영	O	O	O, B-CV, B-FD, B-LC, B-TM
-18	일선	O	O	O, B-CV, I-CV, B-LC, B-TM
-19	퇴진	O	O	O, B-CV, I-CV, B-PS, B-TM
-20	##을	O	O	O, B-CV, B-PS, B-OG, I-CV
-21	약속	O	O	O, B-CV, B-OG, B-LC, B-PS
-22	##했	O	O	O, B-CV, B-PS, B-LC, B-OG
-23	##다	O	O	O, B-CV, B-PS, B-LC, I-OG
-24	.	O	O	O, B-CV, B-LC, B-PS, B-OG
-25	[SEP]	O	O	O, B-CV, B-LC, B-PS, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	한편	O	O
+2	시	B-OG	B-OG
+3	##는	O	O
+4	지난해	B-DT	B-DT
+5	8	I-DT	I-DT
+6	##월	I-DT	I-DT
+7	송도	B-LC	B-LC
+8	##국	I-LC	I-LC
+9	##제	I-LC	I-LC
+10	##도	I-LC	I-LC
+11	##시	I-LC	I-LC
+12	중앙	I-LC	B-LC
+13	##공원	I-LC	I-LC
+14	##에	O	O
+15	바닷물	O	O
+16	##을	O	O
+17	끌어	O	O
+18	##와	O	O
+19	길이	O	O
+20	1	B-QT	B-QT
+21	.	I-QT	I-QT
+22	8	I-QT	I-QT
+23	##k	I-QT	I-QT
+24	##m	I-QT	I-QT
+25	규모	O	O
+26	##로	O	O
+27	만든	O	O
+28	인공	O	O
+29	##수	O	O
+30	##로	O	O
+31	##에	O	O
+32	수상	B-AF	B-AF
+33	##택시	I-AF	I-AF
+34	##를	O	O
+35	운항	O	O
+36	##하	O	O
+37	##고	O	O
+38	있	O	O
+39	##다	O	O
+40	.	O	O
+41	[SEP]	O	O

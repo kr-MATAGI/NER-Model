@@ -1,20 +1,21 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	학교	O	B-CV	B-CV, O, B-OG, I-CV, B-FD
-2	##위원	B-CV	I-CV	I-CV, O, B-CV, I-QT, I-OG
-3	##과	O	O	O, I-CV, B-CV, I-QT, I-OG
-4	외부	O	B-CV	B-CV, O, I-CV, B-QT, B-FD
-5	##위원	B-CV	I-CV	I-CV, O, B-CV, I-QT, I-OG
-6	##만	O	O	O, I-CV, I-QT, B-QT, B-PS
-7	참석	O	O	O, B-CV, B-QT, B-PS, B-TM
-8	##한	O	O	O, B-PS, I-QT, B-LC, B-CV
-9	채	O	O	O, B-QT, B-DT, B-LC, B-CV
-10	올해	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-11	예산안	O	O	O, I-DT, B-CV, B-OG, I-QT
-12	##은	O	O	O, B-CV, I-OG, I-CV, I-EV
-13	통과	O	O	O, B-CV, B-OG, B-QT, B-TM
-14	##됐	O	O	O, B-CV, I-OG, B-OG, B-LC
-15	##습	O	O	O, B-CV, B-LC, B-OG, B-QT
-16	##니다	O	O	O, B-CV, B-LC, B-OG, B-QT
-17	.	O	O	O, B-CV, B-LC, I-OG, B-OG
-18	[SEP]	O	O	O, B-CV, I-OG, B-LC, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	새내기	O	O
+2	검사	B-CV	B-CV
+3	##를	O	O
+4	향한	O	O
+5	부장	B-CV	B-CV
+6	##검사	B-CV	I-CV
+7	##의	O	O
+8	폭언	O	O
+9	##과	O	O
+10	폭행	O	O
+11	##의	O	O
+12	적나라	O	O
+13	##한	O	O
+14	실상	O	O
+15	##이	O	O
+16	드러났	O	O
+17	##다	O	O
+18	.	O	O
+19	[SEP]	O	O

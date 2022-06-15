@@ -1,55 +1,52 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	교도	B-OG	B-OG	B-OG, B-AF, I-OG, O, B-LC
-2	(	I-OG	I-OG	I-OG, O, I-AF, I-LC, I-TM
-3	共	I-OG	I-OG	I-OG, O, I-AF, B-OG, I-TM
-4	同	I-OG	I-OG	I-OG, O, I-AF, B-OG, I-TM
-5	)	I-OG	I-OG	I-OG, O, I-AF, I-TM, I-LC
-6	통신	I-OG	I-OG	I-OG, O, I-AF, I-TM, I-LC
-7	##은	O	O	O, I-OG, I-AF, I-EV, B-OG
-8	20	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-9	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-OG
-10	,	O	O	O, I-DT, B-OG, B-LC, B-CV
-11	자민	B-OG	B-OG	B-OG, O, B-AF, I-OG, B-LC
-12	##당	I-OG	I-OG	I-OG, O, I-AF, I-LC, I-EV
-13	##이	O	O	O, I-OG, B-PS, I-AF, I-EV
-14	작년	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-QT
-15	중	B-EV	B-CV	B-CV, B-EV, O, I-EV, B-OG
-16	##의원	I-EV	I-CV	I-CV, I-EV, O, B-CV, I-OG
-17	선거	I-EV	I-EV	I-EV, O, I-CV, B-EV, B-CV
-18	##에	O	O	O, I-EV, I-CV, I-OG, I-AF
-19	공약	O	O	O, B-CV, B-TM, B-LC, B-OG
-20	##으로	O	O	O, B-OG, B-PS, B-CV, B-LC
-21	내세웠	O	O	O, B-CV, B-OG, B-LC, B-PS
-22	##던	O	O	O, B-LC, B-CV, B-PS, B-OG
-23	근린	O	O	O, B-CV, B-LC, B-OG, B-AF
-24	##제국	O	I-CV	I-CV, O, I-OG, B-CV, I-AF
-25	##조	O	I-CV	I-CV, O, I-OG, B-CV, I-AF
-26	##항	O	I-CV	I-CV, O, I-OG, I-AF, B-CV
-27	##의	O	O	O, I-CV, I-OG, I-AF, B-PS
-28	수정	O	O	O, B-LC, B-OG, B-CV, B-PS
-29	,	O	O	O, B-PS, B-LC, B-OG, B-CV
-30	군대	O	O	O, B-OG, B-CV, B-AF, I-OG
-31	보유	O	O	O, I-OG, I-CV, B-CV, I-AF
-32	##를	O	O	O, B-LC, B-PS, B-CV, B-TM
-33	금지	O	O	O, B-CV, B-OG, B-LC, B-PS
-34	##한	O	O	O, B-CV, B-PS, I-CV, B-LC
-35	헌법	B-CV	B-CV	B-CV, O, B-OG, I-CV, B-AF
-36	9	B-QT	B-QT	B-QT, I-QT, I-CV, O, B-CV
-37	##조	I-QT	I-QT	I-QT, O, I-CV, I-AF, I-EV
-38	##의	O	O	O, I-QT, I-CV, I-OG, I-AF
-39	개정	O	O	O, B-LC, B-OG, B-CV, B-PS
-40	등	O	O	O, B-LC, B-PS, B-OG, B-CV
-41	##을	O	O	O, B-LC, B-PS, B-OG, B-CV
-42	참	B-CV	B-CV	B-CV, B-EV, O, B-OG, B-TM
-43	##의원	I-CV	I-CV	I-CV, I-EV, O, B-CV, I-OG
-44	공약	O	O	O, I-CV, I-EV, I-OG, I-QT
-45	##에도	O	O	O, B-CV, B-OG, B-LC, B-TM
-46	그대로	O	O	O, B-LC, B-OG, B-QT, B-CV
-47	수록	O	O	O, B-LC, B-OG, B-PS, B-QT
-48	##했	O	O	O, B-LC, B-PS, B-OG, B-CV
-49	##다고	O	O	O, B-LC, B-OG, B-PS, B-CV
-50	전했	O	O	O, B-OG, B-CV, B-LC, B-TM
-51	##다	O	O	O, B-CV, I-OG, B-LC, B-OG
-52	.	O	O	O, B-LC, B-OG, B-CV, B-PS
-53	[SEP]	O	O	O, B-LC, B-CV, B-OG, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	북한	B-OG	B-LC
+2	##의	O	O
+3	3	B-QT	B-QT
+4	##차	I-QT	I-QT
+5	핵실험	O	O
+6	이후	O	O
+7	박근혜	O	B-PS
+8	대통령	O	B-CV
+9	당선인	O	B-CV
+10	##의	O	O
+11	대북	O	O
+12	##정책	O	O
+13	기조	O	O
+14	##인	O	O
+15	‘	O	O
+16	한반도	O	B-LC
+17	신뢰	O	O
+18	프로세스	O	O
+19	’	O	O
+20	가	O	O
+21	흔들릴	O	O
+22	조짐	O	O
+23	##을	O	O
+24	보이	O	O
+25	##면	O	O
+26	##서	O	O
+27	,	O	O
+28	북	O	B-LC
+29	##핵	B-AF	B-AF
+30	문제	O	O
+31	##와	O	O
+32	대북	O	O
+33	##정책	O	O
+34	연계	O	O
+35	여부	O	O
+36	##가	O	O
+37	‘	O	O
+38	박근혜	B-PS	B-PS
+39	##표	O	O
+40	대북	O	O
+41	##정책	O	O
+42	’	O	O
+43	의	O	O
+44	가늠	O	O
+45	##자	O	O
+46	##로	O	O
+47	떠올랐	O	O
+48	##다	O	O
+49	.	O	O
+50	[SEP]	O	O

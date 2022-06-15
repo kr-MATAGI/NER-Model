@@ -1,20 +1,20 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-EV, I-OG, I-CV
-1	그리고	O	O	O, B-CV, B-QT, B-PS, B-LC
-2	또	O	O	O, B-QT, B-CV, B-PS, B-DT
-3	한가	B-QT	B-QT	B-QT, O, I-QT, B-EV, B-DT
-4	##지	I-QT	I-QT	I-QT, O, I-EV, I-DT, I-LC
-5	##는	O	O	O, I-QT, I-EV, B-LC, I-DT
-6	대구	B-LC	B-LC	B-LC, O, B-OG, B-EV, B-PS
-7	##에	O	O	O, I-LC, I-EV, I-AF, I-OG
-8	있	O	O	O, B-CV, B-LC, B-PS, B-OG
-9	##는	O	O	O, B-LC, B-PS, B-CV, B-OG
-10	또	O	O	O, B-EV, B-CV, B-LC, B-PS
-11	주부	B-EV	B-CV	B-CV, B-EV, O, I-EV, B-AF
-12	살인	I-EV	I-EV	I-EV, O, B-CV, I-CV, B-EV
-13	##사건	I-EV	O	O, I-EV, I-CV, B-CV, B-EV
-14	있	O	O	O, I-EV, I-CV, I-OG, I-AF
-15	##는데	O	O	O, B-CV, B-LC, B-OG, I-EV
-16	##요	O	O	O, B-CV, B-LC, B-OG, B-EV
-17	.	O	O	O, B-CV, B-LC, I-EV, B-PS
-18	[SEP]	O	O	O, B-CV, B-LC, I-EV, B-EV
+	text	label	preds
+0	[CLS]	O	O
+1	‘	O	O
+2	마을	B-EV	O
+3	만들	I-EV	O
+4	##기	I-EV	O
+5	학생	I-EV	B-CV
+6	##공	I-EV	O
+7	##모	I-EV	O
+8	##전	I-EV	O
+9	’	O	O
+10	매년	O	O
+11	1	B-QT	B-QT
+12	~	I-QT	I-QT
+13	2	I-QT	I-QT
+14	##개	I-QT	I-QT
+15	##씩	I-QT	I-QT
+16	사업	O	O
+17	##화	O	O
+18	[SEP]	O	O

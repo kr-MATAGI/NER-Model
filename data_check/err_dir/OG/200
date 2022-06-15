@@ -1,57 +1,34 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-EV, I-OG, I-CV
-1	비정규직	B-CV	B-CV	B-CV, O, B-OG, I-CV, B-AF
-2	##법	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-EV
-3	시행	O	O	O, I-CV, I-DT, B-DT, B-CV
-4	첫날	B-DT	B-DT	B-DT, I-DT, O, B-QT, B-EV
-5	##인	O	O	O, I-DT, I-EV, I-CV, I-QT
-6	1	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-7	##일	I-DT	I-DT	I-DT, O, B-DT, I-EV, I-QT
-8	,	O	O	O, I-DT, B-CV, B-LC, B-OG
-9	서울	B-LC	B-LC	B-LC, B-OG, O, B-AF, B-PS
-10	영등포구	B-LC	B-LC	B-LC, I-LC, O, B-OG, I-OG
-11	민주	B-OG	B-OG	B-OG, B-AF, O, I-OG, B-PS
-12	##노총	I-OG	I-OG	I-OG, I-AF, O, I-LC, I-EV
-13	회의실	O	O	O, I-AF, B-AF, I-OG, I-EV
-14	##에서	O	O	O, I-AF, B-CV, I-EV, I-OG
-15	##는	O	O	O, B-OG, B-LC, B-CV, B-DT
-16	전국	B-OG	B-EV	B-EV, B-OG, O, B-LC, B-PS
-17	##비	I-OG	I-EV	I-EV, I-OG, O, B-OG, B-EV
-18	##정	I-OG	I-OG	I-OG, I-EV, O, B-OG, I-AF
-19	##규	I-OG	I-OG	I-OG, I-EV, O, B-OG, I-AF
-20	##노조	I-OG	I-OG	I-OG, I-EV, O, B-OG, I-AF
-21	##연대	I-OG	I-OG	I-OG, I-EV, O, I-AF, B-OG
-22	##회의	I-OG	I-OG	I-OG, I-EV, O, I-AF, I-LC
-23	##에	O	O	O, I-OG, I-EV, I-DT, I-AF
-24	소속	O	O	O, B-CV, B-OG, B-LC, B-PS
-25	##된	O	O	O, B-LC, B-PS, B-OG, B-CV
-26	한국	B-OG	B-OG	B-OG, O, B-AF, B-LC, B-EV
-27	##방송	I-OG	I-OG	I-OG, O, I-EV, I-LC, I-AF
-28	(	O	O	O, I-OG, I-EV, I-DT, I-AF
-29	KBS	B-OG	B-OG	B-OG, O, I-OG, B-AF, B-LC
-30	)	O	O	O, I-OG, I-DT, I-EV, I-AF
-31	계약직	B-CV	B-CV	B-CV, O, B-OG, B-AF, I-CV
-32	노동자	B-CV	B-CV	B-CV, I-CV, O, B-OG, B-FD
-33	,	O	O	O, I-CV, B-CV, I-OG, I-EV
-34	서울대	B-OG	B-OG	B-OG, O, B-AF, B-LC, B-PS
-35	##병원	I-OG	I-OG	I-OG, O, I-AF, I-LC, I-EV
-36	기간제	B-CV	B-CV	B-CV, O, I-CV, I-OG, B-AF
-37	노동자	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-AF
-38	등	O	O	O, I-CV, B-CV, I-EV, I-OG
-39	##이	O	O	O, B-CV, B-PS, B-OG, B-LC
-40	참석	O	O	O, B-CV, B-LC, B-OG, B-TM
-41	##해	O	O	O, B-LC, B-OG, B-PS, B-CV
-42	‘	O	O	O, B-CV, B-LC, B-DT, B-OG
-43	기간제	B-CV	B-CV	B-CV, O, B-OG, B-AF, B-EV
-44	비정규직	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-AF
-45	당사자	B-CV	B-CV	B-CV, I-CV, O, B-OG, B-FD
-46	’	O	O	O, I-CV, I-EV, I-OG, B-CV
-47	기자	O	O	O, B-CV, B-EV, B-TM, I-EV
-48	##회	O	O	O, I-EV, B-EV, B-CV, B-LC
-49	##견	O	O	O, I-EV, B-EV, B-CV, B-LC
-50	##을	O	O	O, B-CV, B-OG, I-EV, B-LC
-51	열	O	O	O, B-OG, B-CV, B-EV, B-LC
-52	##었	O	O	O, B-CV, B-OG, B-LC, I-EV
-53	##다	O	O	O, B-CV, B-LC, B-OG, I-EV
-54	.	O	O	O, B-LC, B-OG, B-PS, B-CV
-55	[SEP]	O	O	O, B-LC, B-OG, B-CV, I-EV
+	text	label	preds
+0	[CLS]	O	O
+1	‘	O	O
+2	난장	B-LC	O
+3	’	O	O
+4	에서	O	O
+5	##는	O	O
+6	오늘	B-DT	B-DT
+7	##의	O	O
+8	삶	O	O
+9	속	O	O
+10	##에	O	O
+11	##서	O	O
+12	평화	O	O
+13	##와	O	O
+14	인권	B-CV	B-CV
+15	##의	O	O
+16	의미	O	O
+17	##를	O	O
+18	찾	O	O
+19	##는	O	O
+20	공연	O	O
+21	##과	O	O
+22	만	B-OG	O
+23	##민	I-OG	O
+24	##공	I-OG	O
+25	##동	I-OG	O
+26	##회	I-OG	O
+27	##가	O	O
+28	마련	O	O
+29	##된	O	O
+30	##다	O	O
+31	.	O	O
+32	[SEP]	O	O

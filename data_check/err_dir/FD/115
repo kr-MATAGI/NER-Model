@@ -1,17 +1,25 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	“	O	O	O, B-CV, B-LC, B-OG, B-PS
-2	과학	B-FD	O	O, B-FD, B-TR, B-CV, I-FD
-3	##기술	I-FD	O	O, I-FD, I-TR, I-CV, I-AF
-4	기반	O	O	O, I-TR, I-FD, I-AF, I-CV
-5	일자리	O	O	O, B-TM, B-CV, B-FD, B-LC
-6	창출	O	O	O, I-CV, I-TR, I-TM, I-FD
-7	”	O	O	O, I-CV, B-PS, B-CV, I-TM
-8	…	O	O	O, B-CV, B-LC, B-PS, B-OG
-9	박근혜	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-AF
-10	,	O	O	O, I-PS, B-CV, I-OG, I-AF
-11	창조	O	O	O, B-TR, B-FD, B-CV, B-TM
-12	##경제	O	O	O, I-TR, I-CV, I-FD, I-TM
-13	##론	O	O	O, I-TR, I-CV, I-FD, I-TM
-14	제시	O	O	O, B-CV, I-TR, I-CV, B-PS
-15	[SEP]	O	O	O, B-CV, B-LC, I-CV, B-FD
+	text	label	preds
+0	[CLS]	O	O
+1	칠	B-DT	B-DT
+2	##월	I-DT	I-DT
+3	팔	B-DT	B-DT
+4	##월	I-DT	I-DT
+5	두	B-DT	B-DT
+6	달	I-DT	I-DT
+7	동안	I-DT	I-DT
+8	##은	O	O
+9	우리	O	O
+10	##나라	O	O
+11	##의	O	O
+12	신문	O	O
+13	##에	O	O
+14	탑	O	O
+15	기사	O	O
+16	##가	O	O
+17	일본	B-FD	B-LC
+18	역사	I-FD	B-FD
+19	교과서	O	O
+20	문제	O	O
+21	##였	O	O
+22	##어요	O	O
+23	[SEP]	O	O

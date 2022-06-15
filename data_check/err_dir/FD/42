@@ -1,71 +1,56 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	수능	B-EV	B-EV	B-EV, O, B-CV, B-FD, I-EV
-2	과목	O	O	O, I-EV, I-OG, I-CV, I-AF
-3	##별	O	O	O, B-PS, I-EV, B-LC, I-OG
-4	반영	O	O	O, B-CV, B-LC, B-OG, B-TM
-5	비율	O	O	O, B-LC, B-OG, B-CV, B-TM
-6	##은	O	O	O, B-OG, B-LC, B-CV, B-TM
-7	△	O	O	O, B-LC, B-OG, B-CV, B-QT
-8	##인	O	B-FD	B-FD, O, I-FD, B-CV, B-LC
-9	##문	O	I-FD	I-FD, O, B-FD, I-OG, I-LC
-10	##사회	O	I-FD	I-FD, O, B-FD, I-OG, I-LC
-11	계열	O	O	O, I-FD, I-OG, B-FD, I-CV
-12	##과	O	O	O, B-PS, B-LC, I-OG, B-OG
-13	예능	O	O	O, B-FD, I-FD, B-CV, B-LC
-14	계열	O	O	O, I-FD, I-OG, I-CV, I-LC
-15	##은	O	O	O, B-PS, B-CV, B-LC, I-OG
-16	국어	B-FD	B-FD	B-FD, O, B-CV, I-FD, B-AF
-17	40	B-QT	B-QT	B-QT, I-QT, O, B-DT, I-FD
-18	%	I-QT	I-QT	I-QT, O, I-LC, I-EV, I-DT
-19	+	O	O	O, I-QT, I-OG, B-LC, I-DT
-20	영어	B-CV	B-CV	B-CV, O, B-AF, B-PS, B-LC
-21	40	B-QT	B-QT	B-QT, I-QT, O, B-DT, I-CV
-22	%	I-QT	I-QT	I-QT, O, I-LC, I-PS, I-DT
-23	+	O	O	O, I-QT, I-OG, I-EV, I-DT
-24	탐구	O	B-FD	B-FD, O, B-CV, B-EV, B-AF
-25	20	B-QT	B-QT	B-QT, I-QT, O, B-DT, B-TI
-26	%	I-QT	I-QT	I-QT, O, I-LC, I-EV, I-DT
-27	△	O	O	O, I-QT, B-LC, B-OG, B-CV
-28	##공	B-FD	O	O, B-FD, I-FD, B-CV, B-LC
-29	##학	I-FD	O	O, I-FD, B-FD, I-OG, I-LC
-30	##계	O	O	O, I-FD, I-OG, I-CV, I-LC
-31	##열	O	O	O, I-FD, I-LC, I-OG, I-CV
-32	##은	O	O	O, B-CV, B-PS, B-LC, I-AF
-33	수학	B-FD	B-FD	B-FD, O, B-CV, I-FD, B-AF
-34	40	B-QT	B-QT	B-QT, I-QT, O, B-DT, I-FD
-35	%	I-QT	I-QT	I-QT, O, I-LC, I-EV, I-PS
-36	+	O	O	O, I-QT, I-OG, B-LC, I-DT
-37	영어	B-CV	B-CV	B-CV, O, B-AF, B-PS, B-LC
-38	40	B-QT	B-QT	B-QT, I-QT, O, B-DT, I-CV
-39	%	I-QT	I-QT	I-QT, O, I-LC, I-PS, I-DT
-40	+	O	O	O, I-QT, B-LC, I-OG, I-DT
-41	탐구	O	B-FD	B-FD, O, B-CV, B-AF, B-EV
-42	20	B-QT	B-QT	B-QT, I-QT, O, B-DT, B-TI
-43	%	I-QT	I-QT	I-QT, O, I-LC, I-EV, I-DT
-44	△	O	O	O, I-QT, B-LC, B-CV, B-OG
-45	##간	O	O	O, B-FD, B-CV, B-LC, B-OG
-46	##호	O	O	O, I-FD, B-FD, I-OG, I-CV
-47	##학	O	O	O, I-FD, I-OG, B-FD, I-LC
-48	##과	O	O	O, I-FD, I-OG, I-LC, I-QT
-49	##는	O	O	O, I-OG, B-CV, I-QT, B-PS
-50	국어	B-FD	B-FD	B-FD, O, B-CV, I-FD, B-AF
-51	20	B-QT	B-QT	B-QT, I-QT, O, I-FD, B-DT
-52	%	I-QT	I-QT	I-QT, O, I-LC, I-EV, I-DT
-53	+	O	O	O, I-QT, I-OG, I-DT, I-AF
-54	수학	B-FD	B-FD	B-FD, O, B-CV, B-AF, I-FD
-55	30	B-QT	B-QT	B-QT, I-QT, O, B-DT, I-FD
-56	%	I-QT	I-QT	I-QT, O, I-LC, I-EV, I-DT
-57	+	O	O	O, I-QT, I-OG, B-LC, I-AF
-58	영어	B-CV	B-CV	B-CV, O, B-AF, B-PS, B-LC
-59	30	B-QT	B-QT	B-QT, I-QT, O, B-DT, I-CV
-60	%	I-QT	I-QT	I-QT, O, I-LC, I-PS, I-EV
-61	+	O	O	O, I-QT, I-OG, B-LC, I-AF
-62	탐구	O	B-FD	B-FD, O, B-CV, B-AF, B-EV
-63	20	B-QT	B-QT	B-QT, I-QT, O, B-DT, I-FD
-64	%	I-QT	I-QT	I-QT, O, I-LC, I-EV, I-DT
-65	를	O	O	O, I-QT, B-CV, I-EV, I-OG
-66	반영	O	O	O, B-CV, B-TM, B-OG, B-LC
-67	##한다	O	O	O, B-CV, B-OG, B-LC, B-TM
-68	.	O	O	O, B-LC, B-QT, B-CV, B-FD
-69	[SEP]	O	O	O, B-LC, B-CV, B-QT, B-FD
+	text	label	preds
+0	[CLS]	O	O
+1	서울대	B-OG	B-OG
+2	##가	O	O
+3	관악	B-LC	B-LC
+4	##캠	O	I-LC
+5	##퍼스	O	I-LC
+6	##에	O	O
+7	신축	O	O
+8	##하	O	O
+9	##는	O	O
+10	치의	B-FD	B-FD
+11	##학	I-FD	I-FD
+12	##대	O	O
+13	##학	O	O
+14	##원	O	O
+15	첨단	B-LC	O
+16	##복	I-LC	O
+17	##합	I-LC	O
+18	##연구	I-LC	O
+19	##단지	I-LC	O
+20	및	O	O
+21	치과	B-FD	B-FD
+22	##병원	O	O
+23	첨단	O	B-AF
+24	##치	B-FD	I-AF
+25	##과	I-FD	I-AF
+26	##의	O	I-AF
+27	##료	O	I-AF
+28	##센터	O	I-AF
+29	##는	O	O
+30	교육	O	O
+31	·	O	O
+32	연구	O	O
+33	##를	O	O
+34	위한	O	O
+35	치과	B-FD	B-FD
+36	##대	O	O
+37	##학	O	O
+38	##원	O	O
+39	##과	O	O
+40	임상	O	O
+41	##실	O	O
+42	##습	O	O
+43	·	O	O
+44	진료	O	O
+45	##를	O	O
+46	위한	O	O
+47	치과	O	B-FD
+48	##병원	O	O
+49	##으로	O	O
+50	이루어져	O	O
+51	있	O	O
+52	##다	O	O
+53	.	O	O
+54	[SEP]	O	O

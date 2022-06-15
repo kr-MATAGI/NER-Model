@@ -1,43 +1,21 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	NC	B-OG	B-OG	B-OG, O, B-LC, B-PS, B-AF
-2	해커	B-PS	B-PS	B-PS, O, I-PS, I-OG, B-OG
-3	##는	O	O	O, I-PS, I-OG, B-CV, I-AF
-4	미국	B-LC	B-LC	B-LC, B-OG, O, B-AF, B-PS
-5	##에	O	O	O, I-LC, I-AF, I-OG, B-CV
-6	머무르	O	O	O, B-CV, B-LC, B-PS, B-OG
-7	##고	O	O	O, B-PS, I-AF, I-OG, B-LC
-8	있	O	O	O, B-PS, B-CV, B-LC, B-QT
-9	##으며	O	O	O, B-PS, B-LC, B-QT, B-CV
-10	,	O	O	O, B-CV, B-PS, B-LC, B-OG
-11	안	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-12	##지만	I-PS	I-PS	I-PS, O, I-OG, B-PS, I-LC
-13	임창용	B-PS	B-PS	B-PS, I-PS, O, B-OG, B-LC
-14	##은	O	O	O, I-PS, B-CV, I-OG, I-EV
-15	도박	O	O	O, B-CV, B-EV, B-TM, B-PS
-16	파문	O	O	O, I-EV, I-CV, I-TM, I-OG
-17	##으로	O	O	O, I-EV, B-PS, I-CV, B-CV
-18	불참	O	O	O, B-CV, B-LC, B-OG, B-TM
-19	##했	O	O	O, B-PS, B-LC, B-CV, B-OG
-20	##고	O	O	O, B-PS, B-CV, B-LC, I-OG
-21	,	O	O	O, B-CV, B-PS, B-LC, B-OG
-22	탈	B-TM	B-TM	B-TM, O, B-CV, B-QT, B-AM
-23	##삼	I-TM	I-TM	I-TM, O, I-CV, B-TM, I-QT
-24	##진	I-TM	I-TM	I-TM, O, I-CV, I-QT, B-TM
-25	##왕	O	B-CV	B-CV, O, I-CV, I-TM, I-QT
-26	차우찬	B-PS	B-PS	B-PS, O, I-PS, B-OG, B-AF
-27	##은	O	O	O, I-PS, B-CV, I-CV, I-OG
-28	기초	O	O	O, B-EV, B-CV, B-LC, B-FD
-29	##군	O	O	O, I-EV, B-EV, B-CV, I-CV
-30	##사	O	O	O, I-EV, I-CV, B-EV, B-CV
-31	##훈련	O	O	O, I-EV, I-CV, I-LC, I-OG
-32	##을	O	O	O, I-EV, I-CV, I-OG, I-AF
-33	받	O	O	O, B-CV, B-LC, B-PS, I-EV
-34	##기	O	O	O, B-PS, B-LC, B-OG, B-CV
-35	위해	O	O	O, B-PS, B-LC, B-CV, B-OG
-36	전날	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-CV
-37	입대	O	O	O, I-DT, B-CV, B-OG, I-OG
-38	##했	O	O	O, I-OG, B-PS, I-EV, I-AF
-39	##다	O	O	O, B-CV, I-OG, B-PS, B-LC
-40	.	O	O	O, B-PS, B-CV, B-LC, B-OG
-41	[SEP]	O	O	O, B-CV, B-PS, B-LC, I-EV
+	text	label	preds
+0	[CLS]	O	O
+1	1993	B-DT	B-DT
+2	##년	I-DT	I-DT
+3	베를린	B-LC	B-LC
+4	국립	B-OG	B-OG
+5	##오	I-OG	I-OG
+6	##페	I-OG	I-OG
+7	##라	I-OG	I-OG
+8	##극장	I-OG	I-OG
+9	##에	O	O
+10	입단	O	O
+11	##해	O	O
+12	단	O	B-CV
+13	##역	O	I-CV
+14	##부터	O	O
+15	시작	O	O
+16	##했	O	O
+17	##다	O	O
+18	.	O	O
+19	[SEP]	O	O

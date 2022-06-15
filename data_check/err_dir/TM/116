@@ -1,12 +1,47 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	근데	O	O	O, B-CV, B-OG, B-TM, B-LC
-2	그	O	O	O, B-CV, B-TM, B-OG, B-LC
-3	흔히	O	O	O, B-CV, B-QT, B-TM, B-PS
-4	말	O	O	O, B-CV, I-AF, I-CV, B-TM
-5	##하	O	O	O, B-CV, B-TM, B-LC, B-PS
-6	##는	O	O	O, B-CV, B-TM, B-LC, B-OG
-7	케이블	O	B-TM	B-TM, O, B-OG, B-AF, B-TR
-8	티비	B-TM	I-TM	I-TM, O, B-TM, I-OG, I-QT
-9	##에서	O	O	O, I-TM, I-OG, I-QT, I-AF
-10	[SEP]	O	O	O, B-CV, B-OG, I-OG, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	7	B-EV	B-EV
+2	##회	I-EV	I-EV
+3	유격수	B-CV	B-CV
+4	김재	B-PS	B-PS
+5	##호	I-PS	I-PS
+6	##의	O	O
+7	실책	O	O
+8	,	O	O
+9	9	B-EV	B-EV
+10	##회	I-EV	I-EV
+11	포수	B-CV	B-CV
+12	양의	B-PS	B-PS
+13	##지	I-PS	I-PS
+14	##의	O	O
+15	타격	O	O
+16	방해	O	O
+17	등이	O	O
+18	나오	O	O
+19	##면	O	O
+20	##서	O	O
+21	함	B-PS	B-PS
+22	##덕	I-PS	I-PS
+23	##주	I-PS	I-PS
+24	##와	O	O
+25	이용	B-PS	B-PS
+26	##찬	I-PS	I-PS
+27	##은	O	O
+28	각각	B-QT	B-QT
+29	1	I-QT	I-QT
+30	##실	I-QT	I-QT
+31	##점	I-QT	I-QT
+32	(	O	O
+33	비자	B-TM	O
+34	##책	I-TM	O
+35	)	O	O
+36	뒤	O	O
+37	마운드	B-TM	B-TM
+38	##에	O	O
+39	##서	O	O
+40	내려가	O	O
+41	##야	O	O
+42	했	O	O
+43	##다	O	O
+44	.	O	O
+45	[SEP]	O	O

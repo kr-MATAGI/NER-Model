@@ -1,16 +1,6 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-EV, B-CV, I-OG, I-CV
-1	■	O	O	O, B-LC, B-PS, B-CV, B-OG
-2	##또	O	O	O, B-LC, B-PS, B-AF, B-CV
-3	만나	O	O	O, B-LC, B-PS, I-AF, B-OG
-4	##는	O	O	O, B-LC, B-AF, B-PS, I-AF
-5	日	B-LC	B-LC	B-LC, B-OG, O, B-CV, I-LC
-6	…	O	O	O, I-OG, I-LC, I-AF, B-LC
-7	다루	B-PS	B-AF	B-AF, B-PS, B-LC, B-AM, B-TM
-8	##빗	I-PS	I-AF	I-AF, I-PS, I-LC, I-TM, O
-9	##슈	I-PS	I-AF	I-AF, I-PS, I-LC, I-TM, I-AM
-10	유	I-PS	I-AF	I-AF, O, I-PS, B-LC, I-LC
-11	##를	O	O	O, I-AF, I-LC, I-PS, I-TM
-12	두들겨	O	O	O, I-AF, B-TM, B-LC, I-TM
-13	##라	O	O	O, B-LC, I-AF, B-PS, B-CV
-14	[SEP]	O	O	O, B-LC, B-CV, B-AF, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	저기	O	O
+2	문정	B-PS	O
+3	에이	O	O
+4	[SEP]	O	O

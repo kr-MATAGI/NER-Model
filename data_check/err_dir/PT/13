@@ -1,18 +1,19 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	온라인	O	O	O, B-TM, B-CV, B-LC, B-QT
-2	꽃	B-PT	O	O, B-PT, B-CV, I-PT, B-EV
-3	판매	O	O	O, B-TM, B-CV, I-OG, I-CV
-4	##는	O	O	O, B-CV, B-TM, B-OG, I-OG
-5	지난해	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-6	9	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-7	##월	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-8	##부터	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-9	13	B-DT	B-DT	B-DT, I-DT, O, B-QT, B-EV
-10	##개	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
-11	##월	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
-12	연속	O	O	O, I-DT, I-QT, B-PS, B-LC
-13	감소세	O	O	O, B-TM, B-OG, B-LC, B-QT
-14	##다	O	O	O, I-OG, B-CV, I-QT, I-TM
-15	.	O	O	O, B-LC, B-OG, B-TM, B-CV
-16	[SEP]	O	O	O, B-OG, B-TM, I-OG, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	선수	B-CV	B-CV
+2	##들이	O	O
+3	천연	B-PT	O
+4	##잔	I-PT	B-PT
+5	##디	I-PT	I-PT
+6	##에	O	O
+7	##서	O	O
+8	본격	O	O
+9	##적	O	O
+10	##으로	O	O
+11	뛴	O	O
+12	첫	O	O
+13	대회	O	O
+14	##였	O	O
+15	##다	O	O
+16	.	O	O
+17	[SEP]	O	O

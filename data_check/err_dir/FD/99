@@ -1,52 +1,16 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-EV, I-OG, B-CV, I-CV
-1	그	O	O	O, B-CV, B-PS, B-EV, I-EV
-2	##는	O	O	O, B-CV, I-EV, B-PS, I-OG
-3	""""	O	O	O, B-LC, B-CV, B-PS, B-EV
-4	내년	B-DT	B-DT	B-DT, O, B-EV, I-DT, B-QT
-5	코리아	B-EV	B-EV	B-EV, B-LC, I-EV, B-OG, O
-6	페스티벌	I-EV	I-EV	I-EV, O, I-OG, I-LC, I-AF
-7	##은	O	O	O, I-EV, I-OG, I-AF, B-CV
-8	한국	B-LC	B-LC	B-LC, B-EV, O, B-AF, B-OG
-9	유물	O	O	O, I-EV, B-EV, I-LC, I-AF
-10	전시회	O	O	O, I-EV, I-OG, B-EV, I-LC
-11	##를	O	O	O, I-EV, I-OG, I-AF, B-CV
-12	크	O	O	O, B-LC, B-OG, B-CV, B-TM
-13	##게	O	O	O, B-LC, B-OG, I-EV, I-OG
-14	열	O	O	O, B-LC, B-OG, B-CV, B-EV
-15	##고	O	O	O, B-LC, B-PS, B-OG, B-CV
-16	판소리	B-FD	B-FD	B-FD, O, I-FD, B-AF, B-CV
-17	·	O	O	O, I-FD, I-AF, I-OG, I-EV
-18	김치	B-CV	B-CV	B-CV, O, B-AF, B-PT, B-FD
-19	·	O	O	O, I-CV, I-AF, I-EV, I-OG
-20	탈	B-FD	O	O, B-FD, B-CV, B-AF, B-EV
-21	##춤	I-FD	O	O, I-CV, I-AF, I-FD, I-OG
-22	같	O	O	O, I-CV, I-AF, I-EV, I-OG
-23	##은	O	O	O, B-LC, B-CV, B-OG, B-PS
-24	한국	B-LC	B-LC	B-LC, B-OG, O, B-CV, I-LC
-25	문화	O	O	O, I-LC, I-CV, I-OG, I-AF
-26	##를	O	O	O, I-CV, B-CV, I-LC, I-OG
-27	소개	O	O	O, B-CV, B-LC, B-TM, B-OG
-28	##하	O	O	O, B-LC, B-PS, B-CV, B-OG
-29	##는	O	O	O, B-LC, B-CV, B-OG, B-PS
-30	등	O	O	O, B-LC, B-OG, B-PS, B-CV
-31	독일	B-LC	B-LC	B-LC, B-OG, O, B-PS, B-CV
-32	##에	O	O	O, I-LC, I-OG, B-CV, B-LC
-33	한국	B-LC	B-LC	B-LC, B-OG, O, I-LC, B-PS
-34	##을	O	O	O, I-LC, I-OG, I-PS, I-AF
-35	알리	O	O	O, B-CV, B-LC, B-PS, B-OG
-36	##는	O	O	O, B-LC, B-PS, B-CV, B-OG
-37	축제	O	O	O, B-CV, B-EV, I-EV, B-PS
-38	##가	O	O	O, I-EV, B-PS, B-CV, I-CV
-39	될	O	O	O, B-CV, B-PS, B-LC, B-OG
-40	것	O	O	O, B-CV, B-PS, I-EV, B-OG
-41	""""	O	O	O, B-CV, B-PS, B-LC, I-EV
-42	이라	O	O	O, B-CV, B-PS, I-EV, B-OG
-43	##며	O	O	O, B-LC, I-EV, B-CV, B-PS
-44	의	O	O	O, B-LC, B-CV, B-OG, B-PS
-45	##욕	O	O	O, B-CV, I-EV, B-LC, I-CV
-46	##을	O	O	O, B-CV, I-EV, B-PS, B-OG
-47	보였	O	O	O, B-CV, B-PS, B-LC, B-EV
-48	##다	O	O	O, B-CV, I-EV, B-PS, I-OG
-49	.	O	O	O, B-LC, I-EV, B-PS, B-CV
-50	[SEP]	O	O	O, I-EV, B-CV, B-LC, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	[	O	O
+2	최재	B-PS	B-PS
+3	##봉	I-PS	I-PS
+4	##의	O	O
+5	문학	B-FD	O
+6	##으로	O	O
+7	]	O	O
+8	표절	O	O
+9	##과	O	O
+10	문학	B-FD	O
+11	##권력	O	O
+12	##을	O	O
+13	넘어서	O	O
+14	[SEP]	O	O

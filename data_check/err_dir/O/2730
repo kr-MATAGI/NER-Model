@@ -1,66 +1,71 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-EV, I-OG
-1	2001	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-2	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
-3	미사일	B-AF	B-EV	B-EV, B-AF, O, B-OG, B-LC
-4	지침	O	I-EV	I-EV, O, I-OG, B-EV, I-AF
-5	실무	O	I-EV	I-EV, O, B-EV, I-OG, B-OG
-6	##협	O	O	O, I-EV, I-OG, B-EV, I-DT
-7	##상	O	O	O, I-EV, I-OG, B-EV, I-LC
-8	##을	O	O	O, I-EV, I-OG, B-CV, B-PS
-9	맡	O	O	O, B-CV, B-OG, B-LC, B-EV
-10	##았	O	O	O, B-CV, B-PS, B-LC, B-OG
-11	##던	O	O	O, B-CV, B-PS, B-LC, B-OG
-12	김국	B-PS	B-PS	B-PS, B-OG, O, B-LC, I-PS
-13	##헌	I-PS	I-PS	I-PS, I-OG, O, I-LC, I-QT
-14	전	O	O	O, I-PS, I-OG, B-CV, I-QT
-15	국방부	B-OG	B-OG	B-OG, B-AF, O, B-LC, B-CV
-16	군비	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-FD
-17	##통	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-FD
-18	##제	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-FD
-19	##관	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-TM
-20	(	O	O	O, I-CV, I-OG, I-QT, B-CV
-21	예비역	O	B-CV	B-CV, O, B-OG, B-EV, B-AF
-22	육군	B-OG	B-OG	B-OG, B-CV, I-OG, O, I-CV
-23	소장	B-CV	B-CV	B-CV, O, I-CV, B-OG, I-OG
-24	)	O	O	O, I-CV, I-OG, I-EV, B-CV
-25	은	O	O	O, B-CV, B-TM, B-OG, B-LC
-26	""""	O	O	O, B-CV, B-LC, B-TM, B-OG
-27	유사시	O	O	O, B-LC, B-OG, B-PS, B-CV
-28	우리	O	O	O, B-LC, B-OG, B-PS, B-CV
-29	최남	O	B-TM	B-TM, O, B-QT, B-LC, B-CV
-30	##단	O	I-TM	I-TM, O, I-QT, I-LC, B-TM
-31	지역	O	O	O, I-TM, I-QT, I-LC, I-OG
-32	##에서	O	O	O, B-LC, B-CV, B-PS, B-OG
-33	북한	B-LC	B-LC	B-LC, B-OG, O, B-AF, B-PS
-34	전역	O	O	O, I-LC, B-LC, I-OG, I-AF
-35	##을	O	O	O, B-LC, B-CV, B-PS, I-LC
-36	사정	O	O	O, B-LC, B-CV, B-OG, B-TM
-37	##권	O	O	O, B-LC, I-LC, B-PS, B-OG
-38	##에	O	O	O, B-LC, B-CV, B-OG, B-PS
-39	넣	O	O	O, B-LC, B-PS, B-OG, B-CV
-40	##을	O	O	O, B-LC, B-CV, B-PS, B-OG
-41	수	O	O	O, B-LC, B-PS, B-OG, B-CV
-42	있	O	O	O, B-LC, B-CV, B-PS, B-OG
-43	##도록	O	O	O, B-LC, B-PS, B-OG, B-CV
-44	해야	O	O	O, B-LC, B-PS, B-OG, B-CV
-45	한다	O	O	O, B-LC, B-CV, B-OG, B-PS
-46	""""	O	O	O, B-CV, B-LC, B-TM, B-OG
-47	며	O	O	O, B-LC, B-CV, B-OG, B-TM
-48	""""	O	O	O, B-CV, B-LC, B-TM, B-PS
-49	그러	O	O	O, B-LC, B-CV, B-OG, B-TM
-50	##려면	O	O	O, B-LC, B-PS, B-OG, B-TM
-51	사정	O	O	O, B-LC, B-TM, B-CV, B-AF
-52	##거리	O	O	O, B-LC, I-LC, B-QT, B-PS
-53	##를	O	O	O, B-CV, B-LC, B-TM, B-OG
-54	1000	B-QT	B-QT	B-QT, O, I-QT, B-LC, B-EV
-55	##㎞	I-QT	I-QT	I-QT, O, I-LC, I-EV, I-PS
-56	##로	O	O	O, I-QT, I-EV, I-AF, I-OG
-57	늘려야	O	O	O, B-LC, B-CV, B-QT, I-QT
-58	한다	O	O	O, B-LC, B-CV, B-OG, B-PS
-59	""""	O	O	O, B-CV, B-TM, B-LC, B-OG
-60	고	O	O	O, B-CV, B-LC, B-TM, B-QT
-61	했	O	O	O, B-CV, B-TM, B-QT, B-OG
-62	##다	O	O	O, B-CV, B-TM, B-LC, B-QT
-63	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-64	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	스텝	B-CV	B-CV
+2	##이	O	O
+3	##란	O	O
+4	미용	B-FD	O
+5	기술	O	O
+6	##을	O	O
+7	배우	O	O
+8	##기	O	O
+9	위해	O	O
+10	매장	O	O
+11	##에	O	O
+12	##서	O	O
+13	일	O	O
+14	##하	O	O
+15	##는	O	O
+16	비정규직	B-CV	B-CV
+17	인턴	B-CV	B-CV
+18	점원	B-CV	B-CV
+19	##들	O	O
+20	##을	O	O
+21	일컫	O	O
+22	##는	O	O
+23	말	O	O
+24	##로	O	O
+25	,	O	O
+26	보통	O	O
+27	헤어	O	O
+28	##숍	O	O
+29	##은	O	O
+30	정규직	O	B-CV
+31	##인	O	O
+32	‘	O	O
+33	데스크	O	O
+34	’	O	O
+35	(	O	O
+36	점장	B-CV	B-CV
+37	등	O	O
+38	)	O	O
+39	2	B-QT	B-QT
+40	~	I-QT	I-QT
+41	3	I-QT	I-QT
+42	##명	I-QT	I-QT
+43	,	O	O
+44	특수	B-CV	B-CV
+45	##고	I-CV	I-CV
+46	##용	I-CV	I-CV
+47	##노동	I-CV	I-CV
+48	##자	I-CV	I-CV
+49	##인	O	O
+50	‘	O	O
+51	디자이너	B-CV	B-CV
+52	’	O	O
+53	5	B-QT	B-QT
+54	~	I-QT	I-QT
+55	10	I-QT	I-QT
+56	##명	I-QT	I-QT
+57	,	O	O
+58	스텝	B-CV	B-CV
+59	4	B-QT	B-QT
+60	~	I-QT	I-QT
+61	8	I-QT	I-QT
+62	##명	I-QT	I-QT
+63	등	O	O
+64	##으로	O	O
+65	구성	O	O
+66	##된	O	O
+67	##다	O	O
+68	.	O	O
+69	[SEP]	O	O

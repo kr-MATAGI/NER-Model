@@ -1,11 +1,13 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-AF
-1	비	B-TM	B-TM	B-TM, O, B-TR, B-AF, B-CV
-2	##콘	I-TM	I-TM	I-TM, O, I-TR, I-AF, B-TM
-3	센서	I-TM	O	O, I-TM, B-TM, I-TR, B-CV
-4	활용	O	O	O, I-TM, B-TM, B-CV, B-LC
-5	스마트폰	B-TM	B-TM	B-TM, O, B-TR, B-LC, B-CV
-6	위치	O	O	O, I-TM, B-TM, B-CV, I-TR
-7	##추	O	O	O, I-TM, I-TR, I-CV, I-AF
-8	##적	O	O	O, I-TM, I-CV, I-TR, I-FD
-9	[SEP]	O	O	O, B-TM, I-TM, B-CV, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	▷	O	O
+2	##그	O	O
+3	##렇	O	O
+4	##다면	O	O
+5	메르스	B-TM	B-EV
+6	사태	O	I-EV
+7	##의	O	O
+8	책임	O	O
+9	##은	O	O
+10	?	O	O
+11	[SEP]	O	O

@@ -1,26 +1,18 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	미국	B-LC	B-LC	B-LC, B-OG, O, B-AF, B-PS
-2	##의	O	O	O, I-LC, I-OG, I-AF, B-LC
-3	에프	B-OG	B-OG	B-OG, O, B-LC, B-CV, B-AF
-4	##엠	I-OG	I-OG	I-OG, O, I-LC, I-AF, I-PS
-5	##씨	I-OG	I-OG	I-OG, O, I-LC, I-AF, I-PS
-6	##에스	I-OG	I-OG	I-OG, O, I-LC, I-AF, I-PS
-7	##나	O	O	O, I-OG, I-AF, I-LC, I-CV
-8	엔	B-OG	O	O, B-OG, B-LC, B-AF, B-CV
-9	##엘	I-OG	O	O, I-OG, I-LC, I-PS, I-AF
-10	##알	I-OG	I-OG	I-OG, O, I-LC, I-PS, I-AF
-11	##비	I-OG	I-OG	I-OG, O, I-LC, I-PS, I-AF
-12	##에다	O	O	O, I-OG, I-LC, I-AF, I-PS
-13	##가	O	O	O, B-LC, I-OG, B-OG, B-PS
-14	유럽	B-LC	B-LC	B-LC, B-OG, O, B-AF, I-LC
-15	##의	O	O	O, I-LC, I-AF, I-OG, B-CV
-16	노동법	B-CV	B-OG	B-OG, B-CV, O, B-AF, I-OG
-17	##원	I-CV	I-OG	I-OG, O, I-CV, I-AF, I-EV
-18	제도	I-CV	O	O, I-CV, B-CV, I-OG, I-AF
-19	##를	O	O	O, I-CV, I-OG, B-PS, I-AF
-20	이렇게	O	O	O, B-CV, B-QT, B-OG, B-LC
-21	종합	O	O	O, B-CV, B-QT, B-LC, B-TM
-22	##해서	O	O	O, B-LC, B-PS, I-QT, B-OG
-23	만든	O	O	O, B-CV, B-LC, B-OG, B-PS
-24	[SEP]	O	O	O, B-LC, B-CV, B-OG, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	국민연금	B-CV	B-OG
+2	등이	O	O
+3	사들인	O	O
+4	대우	B-OG	B-OG
+5	##조선	I-OG	I-OG
+6	회사채	O	O
+7	규모	O	O
+8	##는	O	O
+9	97	B-QT	B-QT
+10	##00	I-QT	I-QT
+11	##억	I-QT	I-QT
+12	##원	I-QT	I-QT
+13	##에	O	O
+14	이른다	O	O
+15	.	O	O
+16	[SEP]	O	O

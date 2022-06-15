@@ -1,45 +1,56 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-EV, B-CV, I-OG, I-QT
-1	외교	O	O	O, B-OG, B-CV, B-LC, B-FD
-2	당국	O	O	O, I-OG, B-OG, I-CV, B-CV
-3	##은	O	O	O, I-OG, B-PS, I-EV, B-LC
-4	이번	O	O	O, B-PS, B-LC, B-CV, B-EV
-5	방중	O	O	O, B-LC, B-CV, B-PS, B-EV
-6	기간	O	O	O, I-EV, B-LC, B-PS, I-PS
-7	##에	O	O	O, B-LC, B-PS, B-OG, B-CV
-8	중국	B-OG	B-LC	B-LC, B-OG, O, B-PS, B-EV
-9	##과	O	O	O, I-OG, I-LC, I-EV, B-LC
-10	단독	O	O	O, B-EV, B-LC, B-CV, B-OG
-11	정상	B-EV	B-EV	B-EV, O, I-EV, B-CV, B-OG
-12	##회	I-EV	I-EV	I-EV, O, B-EV, I-OG, I-AF
-13	##담	I-EV	I-EV	I-EV, O, B-EV, I-OG, I-AF
-14	##을	O	O	O, I-EV, I-OG, I-AF, B-CV
-15	성사	O	O	O, B-OG, B-LC, B-CV, B-EV
-16	##시	O	O	O, B-LC, B-PS, I-EV, B-OG
-17	##켜	O	O	O, B-LC, B-PS, I-LC, I-EV
-18	연내	O	O	O, B-DT, B-TI, B-LC, B-EV
-19	한	B-OG	B-OG	B-OG, B-EV, B-LC, O, I-EV
-20	·	O	O	O, I-EV, I-LC, I-OG, I-DT
-21	중	B-OG	B-OG	B-OG, B-LC, I-EV, I-OG, I-LC
-22	·	O	O	O, I-EV, I-OG, I-LC, I-DT
-23	일	B-OG	B-OG	B-OG, B-LC, I-EV, I-OG, I-LC
-24	3	B-QT	B-QT	B-QT, I-EV, I-QT, B-EV, I-OG
-25	##국	I-QT	I-QT	I-QT, I-EV, O, I-OG, I-LC
-26	정상회의	B-EV	B-EV	B-EV, O, I-EV, I-QT, B-CV
-27	개최	O	O	O, I-EV, I-QT, I-OG, B-CV
-28	##라는	O	O	O, B-LC, B-OG, B-PS, I-EV
-29	성과	O	O	O, B-CV, B-LC, B-TM, B-OG
-30	##를	O	O	O, B-CV, B-LC, B-OG, B-PS
-31	이끌	O	O	O, B-LC, B-CV, B-OG, B-EV
-32	##어	O	O	O, B-LC, B-PS, B-CV, I-EV
-33	내	O	O	O, B-LC, B-PS, B-EV, B-DT
-34	##겠다	O	O	O, B-LC, B-CV, B-PS, B-OG
-35	##는	O	O	O, B-PS, B-CV, B-LC, B-OG
-36	계획	O	O	O, B-CV, B-LC, B-PS, B-OG
-37	##인	O	O	O, B-PS, B-CV, B-LC, B-OG
-38	것	O	O	O, B-CV, B-PS, B-LC, B-TM
-39	##으로	O	O	O, B-CV, B-LC, B-TM, B-PS
-40	전해졌	O	O	O, B-LC, B-OG, B-CV, B-TM
-41	##다	O	O	O, B-CV, I-EV, I-OG, B-LC
-42	.	O	O	O, B-LC, B-PS, I-EV, B-OG
-43	[SEP]	O	O	O, B-LC, I-EV, B-CV, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	한명숙	B-PS	B-PS
+2	민주당	B-OG	B-OG
+3	대표	B-CV	B-CV
+4	##는	O	O
+5	이날	B-DT	B-DT
+6	강원도	B-OG	B-AF
+7	##청	I-OG	I-AF
+8	##에	O	O
+9	##서	O	O
+10	긴급	O	O
+11	기자	O	O
+12	##회	O	O
+13	##견	O	O
+14	##을	O	O
+15	열	O	O
+16	##어	O	O
+17	“	O	O
+18	이명박	B-PS	B-PS
+19	대통령	B-CV	B-CV
+20	##이	O	O
+21	자신	O	O
+22	##의	O	O
+23	증거인	O	O
+24	##멸	O	O
+25	여부	O	O
+26	##를	O	O
+27	확실히	O	O
+28	밝히	O	O
+29	##고	O	O
+30	연루	O	O
+31	인사	B-CV	O
+32	##에	O	O
+33	대해선	O	O
+34	지위	O	O
+35	고	O	O
+36	##하	O	O
+37	##를	O	O
+38	막론	O	O
+39	##하	O	O
+40	##고	O	O
+41	철저히	O	O
+42	수사	O	O
+43	##하	O	O
+44	##도록	O	O
+45	지시	O	O
+46	##해야	O	O
+47	한다	O	O
+48	”	O	O
+49	고	O	O
+50	말	O	O
+51	##했	O	O
+52	##다	O	O
+53	.	O	O
+54	[SEP]	O	O

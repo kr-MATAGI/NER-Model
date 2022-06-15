@@ -1,43 +1,6 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-EV, B-CV, I-CV
-1	한국	B-LC	B-LC	B-LC, B-OG, O, B-PS, B-AF
-2	##과	O	O	O, I-LC, I-OG, B-LC, B-PS
-3	일본	B-LC	B-LC	B-LC, B-OG, O, I-LC, B-PS
-4	##을	O	O	O, I-LC, I-OG, I-PS, B-LC
-5	대표	O	O	O, B-CV, B-LC, B-PS, B-OG
-6	##하	O	O	O, B-LC, B-PS, B-OG, I-OG
-7	##는	O	O	O, B-LC, B-OG, B-PS, B-CV
-8	한일	B-OG	B-OG	B-OG, B-LC, O, I-OG, B-EV
-9	관계	O	O	O, B-CV, I-OG, B-OG, B-PS
-10	원로	B-CV	O	O, B-CV, I-CV, B-PS, B-OG
-11	##와	O	O	O, I-CV, I-OG, B-PS, I-EV
-12	전문가	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-PS
-13	##들	O	O	O, I-CV, I-OG, I-EV, I-QT
-14	##은	O	O	O, B-LC, B-OG, B-CV, B-PS
-15	22	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-16	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
-17	양국	O	O	O, B-LC, B-OG, I-DT, B-PS
-18	정상	B-CV	B-CV	B-CV, O, I-CV, B-EV, B-PS
-19	##이	O	O	O, B-PS, I-CV, B-LC, I-EV
-20	국교	O	O	O, B-EV, B-OG, I-EV, B-CV
-21	##정	O	O	O, I-EV, B-EV, I-OG, I-DT
-22	##상	O	O	O, I-EV, I-OG, B-EV, I-DT
-23	##화	O	O	O, I-EV, I-OG, I-LC, I-DT
-24	50	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-25	##주	I-DT	I-DT	I-DT, B-DT, O, I-EV, I-QT
-26	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
-27	기념행사	O	O	O, I-EV, B-EV, I-DT, B-LC
-28	##에	O	O	O, I-EV, B-LC, B-CV, B-PS
-29	교차	O	O	O, B-LC, B-TM, B-EV, B-OG
-30	참석	O	O	O, B-LC, B-CV, I-EV, B-EV
-31	##한	O	O	O, B-LC, B-PS, B-OG, I-EV
-32	사실	O	O	O, B-LC, B-CV, B-OG, B-PS
-33	##에	O	O	O, B-CV, B-LC, B-OG, B-PS
-34	큰	O	O	O, B-LC, B-OG, B-CV, B-TM
-35	의미	O	O	O, B-CV, B-LC, B-TM, B-PS
-36	##를	O	O	O, B-CV, I-OG, B-PS, B-OG
-37	부여	O	O	O, B-CV, B-OG, B-LC, B-QT
-38	##했	O	O	O, B-CV, B-LC, B-PS, I-OG
-39	##다	O	O	O, B-CV, I-OG, B-LC, I-EV
-40	.	O	O	O, B-LC, B-PS, B-OG, B-CV
-41	[SEP]	O	O	O, B-LC, B-CV, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	유죄	B-CV	O
+2	무죄	B-CV	O
+3	##에	O	O
+4	[SEP]	O	O

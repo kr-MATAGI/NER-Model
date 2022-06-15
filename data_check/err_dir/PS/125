@@ -1,32 +1,43 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	소파	B-PS	B-PS	B-PS, O, B-CV, B-LC, B-AF
-2	방	I-PS	B-PS	B-PS, I-PS, O, B-OG, B-LC
-3	##정	I-PS	I-PS	I-PS, O, B-PS, I-OG, I-LC
-4	##환	I-PS	I-PS	I-PS, O, B-PS, I-OG, I-LC
-5	선생	B-CV	B-CV	B-CV, O, I-PS, I-CV, B-QT
-6	##이	O	O	O, B-PS, I-CV, I-PS, B-CV
-7	주축	O	O	O, B-OG, B-QT, B-TM, B-CV
-8	##이	O	O	O, B-PS, B-CV, B-OG, B-LC
-9	된	O	O	O, B-PS, B-OG, B-CV, B-LC
-10	색	B-OG	B-OG	B-OG, O, B-PS, B-EV, I-OG
-11	##동	I-OG	I-OG	I-OG, O, I-PS, I-EV, I-AF
-12	##회	I-OG	I-OG	I-OG, O, I-PS, I-EV, I-AF
-13	##는	O	O	O, I-OG, I-EV, I-AF, I-PS
-14	1923	B-DT	B-DT	B-DT, O, B-QT, B-EV, I-DT
-15	##년	I-DT	I-DT	I-DT, O, I-QT, B-DT, I-PS
-16	창립	O	O	O, B-CV, I-DT, B-EV, B-OG
-17	##기념	O	O	O, I-DT, I-CV, I-EV, B-DT
-18	##일	O	O	O, I-DT, B-DT, I-CV, I-EV
-19	##인	O	O	O, I-DT, B-PS, B-CV, I-CV
-20	5	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-QT
-21	##월	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
-22	1	I-DT	I-DT	I-DT, B-DT, O, I-QT, I-EV
-23	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
-24	##을	O	O	O, I-DT, B-CV, B-PS, I-EV
-25	어린이날	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-QT
-26	##로	O	O	O, I-DT, I-QT, I-EV, I-CV
-27	정했	O	O	O, B-CV, B-OG, B-LC, B-QT
-28	##다	O	O	O, B-CV, I-OG, I-CV, B-OG
-29	.	O	O	O, B-PS, B-CV, B-OG, B-LC
-30	[SEP]	O	O	O, B-CV, B-PS, B-OG, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	박	B-PS	B-PS
+2	대통령	B-CV	B-CV
+3	##은	O	O
+4	취임	O	O
+5	후	O	O
+6	시진핑	B-PS	B-PS
+7	중국	B-LC	B-LC
+8	국가	B-CV	B-CV
+9	##주	I-CV	I-CV
+10	##석	I-CV	I-CV
+11	##과	O	O
+12	5	B-QT	B-QT
+13	##차례	I-QT	I-QT
+14	정상	B-EV	B-EV
+15	##회	I-EV	I-EV
+16	##담	I-EV	I-EV
+17	##을	O	O
+18	하	O	O
+19	##는	O	O
+20	과정	O	O
+21	##에	O	O
+22	##서	O	O
+23	왕	B-PS	B-PS
+24	##이	I-PS	O
+25	부장	B-CV	B-CV
+26	##을	O	O
+27	수차례	O	O
+28	만났	O	O
+29	##지만	O	O
+30	일본	B-LC	B-LC
+31	외무	B-CV	B-CV
+32	##상	I-CV	I-CV
+33	##을	O	O
+34	접견	O	O
+35	##한	O	O
+36	것	O	O
+37	##은	O	O
+38	처음	O	O
+39	##이다	O	O
+40	.	O	O
+41	[SEP]	O	O

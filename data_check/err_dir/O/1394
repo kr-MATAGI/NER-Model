@@ -1,43 +1,15 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	지금	O	O	O, B-CV, B-PS, B-OG, B-LC
-2	##도	O	O	O, B-PS, B-CV, B-LC, B-OG
-3	동방신기	B-PS	B-PS	B-PS, O, I-PS, B-AF, B-OG
-4	##로	O	O	O, I-PS, B-CV, I-AF, I-OG
-5	활동	O	O	O, B-CV, B-PS, B-LC, B-TM
-6	##하	O	O	O, B-PS, B-CV, B-LC, I-PS
-7	##는	O	O	O, B-PS, B-CV, B-LC, B-QT
-8	유	B-PS	B-PS	B-PS, O, I-PS, B-OG, B-LC
-9	##노	I-PS	I-PS	I-PS, O, B-PS, I-OG, I-LC
-10	##윤	I-PS	I-PS	I-PS, O, B-PS, I-OG, I-LC
-11	##호	I-PS	I-PS	I-PS, O, I-LC, I-OG, B-PS
-12	·	O	O	O, I-PS, B-CV, B-LC, I-LC
-13	최강	O	B-PS	B-PS, O, I-PS, B-OG, B-LC
-14	##창	O	I-PS	I-PS, O, B-PS, I-OG, I-LC
-15	##민	O	I-PS	I-PS, O, I-OG, I-LC, B-PS
-16	##에	O	O	O, I-PS, B-CV, B-LC, I-AF
-17	##게	O	O	O, B-LC, B-CV, B-PS, B-DT
-18	추가	O	O	O, B-LC, B-CV, B-PS, B-TM
-19	피해	O	O	O, B-CV, B-LC, B-PS, B-TM
-20	##가	O	O	O, B-PS, B-LC, B-CV, B-OG
-21	가지	O	O	O, B-CV, B-PS, B-LC, B-OG
-22	않	O	O	O, B-PS, B-CV, B-LC, I-QT
-23	##도록	O	O	O, B-PS, B-LC, B-CV, B-OG
-24	재판	O	O	O, B-CV, B-LC, B-PS, B-TM
-25	##을	O	O	O, B-CV, B-PS, B-OG, B-LC
-26	끝내	O	O	O, B-CV, B-PS, B-LC, B-OG
-27	##는	O	O	O, B-PS, B-CV, B-LC, B-OG
-28	게	O	O	O, B-PS, B-LC, B-CV, B-OG
-29	최선	O	O	O, B-CV, B-LC, B-PS, B-QT
-30	##이	O	O	O, B-PS, B-CV, B-OG, B-LC
-31	##라는	O	O	O, B-PS, B-OG, B-CV, B-LC
-32	판단	O	O	O, B-CV, B-TM, B-PS, I-QT
-33	##을	O	O	O, B-CV, B-OG, B-PS, I-OG
-34	내렸	O	O	O, B-CV, B-PS, B-OG, B-LC
-35	##다	O	O	O, B-CV, I-OG, I-CV, B-PS
-36	”	O	O	O, B-CV, I-OG, B-QT, B-TM
-37	고	O	O	O, B-CV, B-TM, B-OG, B-LC
-38	밝혔	O	O	O, B-CV, B-OG, I-CV, I-OG
-39	##다	O	O	O, B-CV, I-OG, I-CV, B-TM
-40	.	O	O	O, B-CV, B-PS, B-LC, B-OG
-41	[SEP]	O	O	O, B-CV, B-PS, B-LC, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	그래서	O	O
+2	이번	O	O
+3	##의	O	O
+4	저희	O	O
+5	더불	B-OG	B-OG
+6	##어	I-OG	I-OG
+7	##민주당	I-OG	I-OG
+8	경선	O	B-EV
+9	##의	O	O
+10	관전	O	O
+11	포인트	O	O
+12	##는	O	O
+13	[SEP]	O	O

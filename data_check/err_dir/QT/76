@@ -1,42 +1,71 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-EV, I-OG, I-CV
-1	경찰	B-OG	B-OG	B-OG, B-CV, O, B-AF, B-LC
-2	##이	O	O	O, I-OG, B-PS, I-AF, I-CV
-3	출동	O	O	O, B-CV, B-LC, B-OG, B-TM
-4	##해	O	O	O, B-LC, B-OG, B-PS, I-OG
-5	보	O	O	O, B-OG, B-TM, B-LC, B-PS
-6	##니	O	O	O, I-OG, I-EV, B-PS, B-OG
-7	,	O	O	O, B-CV, B-LC, B-OG, B-PS
-8	현장	O	O	O, B-CV, B-TM, B-LC, B-AF
-9	##에	O	O	O, B-CV, B-LC, B-PS, B-TM
-10	##는	O	O	O, B-CV, B-LC, B-TM, B-PS
-11	등	O	B-CV	B-CV, O, B-AM, B-MT, B-PT
-12	##유	O	O	O, I-CV, I-MT, I-AM, I-PT
-13	##를	O	O	O, I-CV, I-AF, I-EV, I-TM
-14	뿌린	O	O	O, B-CV, B-LC, B-PS, B-DT
-15	흔적	O	O	O, B-CV, B-PS, B-LC, B-TM
-16	##이	O	O	O, B-PS, B-LC, B-CV, B-OG
-17	남아	O	O	O, B-CV, B-LC, B-TM, B-QT
-18	있	O	O	O, B-LC, B-PS, B-CV, I-AF
-19	##었	O	O	O, B-CV, B-LC, B-PS, I-AF
-20	##고	O	O	O, B-PS, B-LC, B-CV, B-TM
-21	등	O	B-CV	B-CV, O, B-AM, B-PT, B-MT
-22	##유	O	I-CV	I-CV, O, I-AM, I-MT, I-PT
-23	##를	O	O	O, I-CV, I-AF, B-CV, I-EV
-24	넣	O	O	O, B-CV, B-PS, B-QT, B-LC
-25	##었	O	O	O, B-CV, B-PS, B-LC, I-AF
-26	##던	O	O	O, B-CV, B-PS, B-LC, B-TM
-27	것	O	O	O, B-CV, B-PS, B-TM, B-QT
-28	##으로	O	O	O, B-PS, B-CV, B-TM, B-LC
-29	보이	O	O	O, B-TM, B-AF, B-CV, B-QT
-30	##는	O	O	O, B-QT, B-TM, I-AF, B-AF
-31	컵	B-QT	O	O, B-TM, B-QT, B-CV, B-AM
-32	2	I-QT	B-QT	B-QT, I-QT, O, B-DT, B-TM
-33	##개	I-QT	I-QT	I-QT, O, I-LC, I-TM, I-AF
-34	##가	O	O	O, I-QT, B-PS, I-AF, I-EV
-35	떨어져	O	O	O, B-TM, B-QT, B-LC, B-CV
-36	있	O	O	O, B-LC, I-QT, B-CV, B-PS
-37	##었	O	O	O, B-CV, B-LC, I-AF, I-EV
-38	##다	O	O	O, B-CV, B-LC, B-TM, I-EV
-39	.	O	O	O, B-LC, B-PS, B-CV, B-OG
-40	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	반면	O	O
+2	1	B-QT	B-EV
+3	##∼	I-QT	I-EV
+4	##3	I-QT	I-EV
+5	##차	I-QT	I-EV
+6	##전	I-QT	I-EV
+7	##에	O	O
+8	##서	O	O
+9	3	B-QT	B-QT
+10	##번	I-QT	I-QT
+11	##으로	O	O
+12	나선	O	O
+13	전	B-PS	B-PS
+14	##준	I-PS	I-PS
+15	##우	I-PS	I-PS
+16	##는	O	O
+17	14	B-QT	B-QT
+18	##타	I-QT	I-QT
+19	##수	I-QT	I-QT
+20	6	O	O
+21	##안	O	O
+22	##타로	O	O
+23	타율	B-QT	B-QT
+24	0	I-QT	I-QT
+25	.	I-QT	I-QT
+26	42	I-QT	I-QT
+27	##9	I-QT	I-QT
+28	,	O	O
+29	5	B-QT	B-QT
+30	##번	I-QT	I-QT
+31	지명	B-CV	B-CV
+32	##타자	I-CV	I-CV
+33	##로	O	O
+34	기용	O	O
+35	##된	O	O
+36	홍성	B-PS	B-PS
+37	##흔	I-PS	I-PS
+38	##은	O	O
+39	11	B-QT	B-QT
+40	##타	I-QT	I-QT
+41	##수	I-QT	I-QT
+42	4	O	O
+43	##안	O	O
+44	##타로	O	O
+45	타율	B-QT	B-QT
+46	0	I-QT	I-QT
+47	.	I-QT	I-QT
+48	36	I-QT	I-QT
+49	##4	I-QT	I-QT
+50	##로	O	O
+51	방망이	B-CV	B-CV
+52	##가	O	O
+53	잘	O	O
+54	맞	O	O
+55	##고	O	O
+56	있	O	O
+57	##어	O	O
+58	타	O	O
+59	##순	O	O
+60	조정	O	O
+61	##을	O	O
+62	생각	O	O
+63	##해	O	O
+64	##볼	O	O
+65	만도	O	O
+66	했	O	O
+67	##다	O	O
+68	.	O	O
+69	[SEP]	O	O

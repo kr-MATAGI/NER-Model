@@ -1,83 +1,67 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-EV, I-CV, I-OG
-1	센	B-PS	B-PS	B-PS, B-OG, B-LC, O, I-PS
-2	##고	I-PS	I-PS	I-PS, I-OG, I-LC, O, I-EV
-3	##쿠	I-PS	I-PS	I-PS, I-OG, I-LC, O, B-LC
-4	장관	B-CV	B-CV	B-CV, I-PS, O, B-OG, I-CV
-5	##은	O	O	O, I-CV, I-EV, I-OG, B-CV
-6	이날	B-DT	B-DT	B-DT, O, I-DT, B-LC, B-EV
-7	도쿄	B-OG	B-LC	B-LC, B-OG, O, B-EV, I-DT
-8	외국	I-OG	B-OG	B-OG, O, I-OG, B-CV, B-LC
-9	##특	I-OG	I-OG	I-OG, O, B-OG, I-EV, I-CV
-10	##파	I-OG	I-OG	I-OG, O, I-EV, B-OG, I-CV
-11	##원	I-OG	I-OG	I-OG, O, I-EV, I-CV, B-OG
-12	##협회	I-OG	I-OG	I-OG, O, I-EV, I-CV, B-OG
-13	(	O	O	O, I-OG, I-EV, I-CV, B-CV
-14	FC	B-OG	B-OG	B-OG, O, I-OG, B-CV, B-EV
-15	##C	I-OG	I-OG	I-OG, O, I-EV, B-OG, I-CV
-16	##J	I-OG	I-OG	I-OG, O, I-EV, I-CV, B-OG
-17	)	O	O	O, I-OG, I-EV, B-EV, B-PS
-18	주최	O	O	O, B-EV, B-CV, I-EV, B-OG
-19	회견	O	O	O, B-EV, I-EV, B-CV, B-LC
-20	##에서	O	O	O, I-EV, B-LC, B-PS, B-OG
-21	한	B-OG	B-OG	B-OG, B-LC, O, B-EV, B-CV
-22	·	I-OG	I-OG	I-OG, O, I-LC, B-OG, I-EV
-23	일	I-OG	I-OG	I-OG, B-LC, B-OG, I-LC, O
-24	청구	I-OG	I-OG	I-OG, B-OG, O, B-CV, I-LC
-25	##권	I-OG	I-OG	I-OG, O, I-CV, I-LC, I-EV
-26	##협	I-OG	I-OG	I-OG, O, I-CV, B-OG, I-EV
-27	##정	I-OG	I-OG	I-OG, O, B-OG, I-EV, I-CV
-28	##으로	O	O	O, I-OG, B-OG, I-EV, B-PS
-29	정부	B-OG	B-OG	B-OG, I-OG, B-LC, O, B-CV
-30	청구	B-CV	B-CV	B-CV, O, I-CV, I-OG, B-OG
-31	##권	I-CV	I-CV	I-CV, O, I-OG, B-CV, I-AF
-32	##과	O	O	O, I-CV, I-OG, I-EV, B-CV
-33	함께	O	O	O, B-OG, B-LC, B-CV, B-TM
-34	개인	O	B-CV	B-CV, O, B-OG, B-AF, B-TM
-35	##청	O	I-CV	I-CV, O, B-CV, I-OG, I-AF
-36	##구	O	I-CV	I-CV, O, B-CV, I-OG, I-TM
-37	##권	O	I-CV	I-CV, O, I-OG, B-CV, I-TM
-38	##도	O	O	O, I-CV, I-OG, B-PS, I-EV
-39	소멸	O	O	O, B-CV, B-OG, B-LC, B-PS
-40	##됐	O	O	O, B-PS, B-OG, I-OG, B-LC
-41	##다는	O	O	O, B-LC, B-OG, B-PS, I-OG
-42	일본	B-LC	B-LC	B-LC, O, B-OG, B-PS, B-AF
-43	정부	B-OG	B-OG	B-OG, B-LC, I-OG, O, B-AF
-44	##의	O	O	O, I-OG, I-EV, B-CV, B-OG
-45	공식	O	O	O, B-CV, B-OG, B-LC, B-EV
-46	입장	O	O	O, B-CV, B-LC, B-OG, B-PS
-47	##에	O	O	O, B-CV, B-OG, B-LC, I-EV
-48	대해	O	O	O, B-LC, B-OG, B-CV, B-TM
-49	""""	O	O	O, B-LC, B-CV, B-OG, B-PS
-50	법률	O	O	O, B-LC, B-CV, B-OG, B-FD
-51	##적으로	O	O	O, B-LC, B-PS, B-OG, I-LC
-52	정당	O	O	O, B-LC, B-CV, B-OG, B-PS
-53	##성이	O	O	O, B-LC, B-PS, I-LC, I-OG
-54	있	O	O	O, B-PS, B-LC, B-CV, B-OG
-55	##다고	O	O	O, B-LC, B-PS, B-OG, B-CV
-56	해서	O	O	O, B-LC, B-PS, B-CV, B-OG
-57	그것	O	O	O, B-LC, B-CV, B-PS, B-OG
-58	##만	O	O	O, B-LC, B-PS, B-OG, I-LC
-59	##으로	O	O	O, B-PS, B-LC, B-CV, B-OG
-60	좋	O	O	O, B-LC, B-CV, B-PS, B-OG
-61	##은	O	O	O, B-PS, B-LC, B-CV, B-OG
-62	##가	O	O	O, B-PS, B-LC, I-PS, I-LC
-63	,	O	O	O, B-LC, B-PS, B-CV, B-OG
-64	모두	O	O	O, B-LC, B-PS, B-OG, B-TM
-65	해결	O	O	O, B-CV, B-LC, B-PS, B-OG
-66	##된	O	O	O, B-LC, B-PS, B-CV, B-OG
-67	것	O	O	O, B-PS, B-LC, B-CV, B-OG
-68	##인	O	O	O, B-PS, B-LC, B-OG, I-PS
-69	##가	O	O	O, B-LC, B-PS, I-PS, I-LC
-70	##라는	O	O	O, B-LC, B-PS, B-TM, B-CV
-71	문제	O	O	O, B-CV, B-LC, B-TM, B-PS
-72	##가	O	O	O, B-PS, B-LC, B-OG, B-CV
-73	있	O	O	O, B-CV, B-LC, B-OG, B-PS
-74	##다	O	O	O, B-CV, B-LC, B-OG, B-PS
-75	""""	O	O	O, B-CV, B-LC, B-TM, B-PS
-76	고	O	O	O, B-CV, B-LC, B-TM, B-OG
-77	말	O	O	O, B-CV, B-LC, B-TM, B-EV
-78	##했	O	O	O, B-LC, B-CV, B-PS, B-OG
-79	##다	O	O	O, B-CV, B-LC, B-OG, I-EV
-80	.	O	O	O, B-LC, B-OG, B-PS, B-CV
-81	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	국토	B-OG	B-OG
+2	##부	I-OG	I-OG
+3	##와	O	O
+4	하나	B-OG	B-OG
+5	##금융	I-OG	I-OG
+6	##지	I-OG	I-OG
+7	##주	I-OG	I-OG
+8	##는	O	O
+9	지난	B-DT	B-DT
+10	11	I-DT	I-DT
+11	##일	I-DT	I-DT
+12	서울	B-LC	B-LC
+13	동대문구	B-LC	B-LC
+14	신설	B-LC	B-LC
+15	##동	I-LC	I-LC
+16	케이	B-AF	B-AF
+17	##이	I-AF	I-AF
+18	##비	I-AF	I-AF
+19	##하나	I-AF	I-AF
+20	##은행	I-AF	I-AF
+21	지점	I-AF	O
+22	##에	O	O
+23	##서	O	O
+24	‘	O	O
+25	뉴스	B-OG	O
+26	##테이	I-OG	O
+27	추진	I-OG	O
+28	##을	I-OG	O
+29	위한	I-OG	O
+30	업무	I-OG	O
+31	협약	I-OG	O
+32	’	O	O
+33	을	O	O
+34	맺	O	O
+35	##고	O	O
+36	,	O	O
+37	앞	O	O
+38	##으로	O	O
+39	60	O	O
+40	##곳	O	O
+41	이상의	O	O
+42	케이	B-OG	B-OG
+43	##이	I-OG	I-OG
+44	##비	I-OG	I-OG
+45	##하나	I-OG	I-OG
+46	##은행	I-OG	I-OG
+47	지점	O	O
+48	##을	O	O
+49	기업	O	O
+50	임대	O	O
+51	##주택	O	O
+52	부지	O	O
+53	##로	O	O
+54	활용	O	O
+55	##하	O	O
+56	##기	O	O
+57	##로	O	O
+58	했	O	O
+59	##다고	O	O
+60	13	B-DT	B-DT
+61	##일	I-DT	I-DT
+62	밝혔	O	O
+63	##다	O	O
+64	.	O	O
+65	[SEP]	O	O

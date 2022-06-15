@@ -1,28 +1,34 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-EV, I-CV
-1	LH	B-OG	B-OG	B-OG, B-AF, O, B-EV, B-PS
-2	진주	B-LC	B-AF	B-AF, B-LC, I-AF, O, I-OG
-3	사옥	O	I-AF	I-AF, O, I-OG, I-LC, B-AF
-4	##은	O	O	O, I-AF, I-OG, I-EV, I-LC
-5	또	O	O	O, B-OG, B-LC, B-CV, B-TM
-6	지역	O	B-CV	B-CV, O, B-OG, B-TM, B-FD
-7	##주	B-CV	I-CV	I-CV, B-CV, O, I-OG, I-EV
-8	##민	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-QT
-9	##과	O	O	O, I-CV, I-OG, B-CV, B-PS
-10	##의	O	O	O, B-LC, B-OG, B-PS, B-CV
-11	상생	O	O	O, B-OG, B-CV, B-LC, B-TM
-12	##을	O	O	O, I-OG, B-PS, I-EV, B-CV
-13	위한	O	O	O, B-LC, B-OG, B-TM, B-PS
-14	다양	O	O	O, B-LC, B-TM, B-CV, B-OG
-15	##한	O	O	O, B-LC, B-OG, B-PS, B-TM
-16	커뮤니티	O	O	O, B-CV, B-TM, B-LC, B-OG
-17	시설	O	O	O, B-CV, B-LC, B-PS, B-OG
-18	및	O	O	O, B-OG, B-LC, B-CV, B-TM
-19	공간	O	O	O, B-CV, B-LC, B-TM, B-OG
-20	##을	O	O	O, B-CV, B-OG, B-LC, B-PS
-21	계획	O	O	O, B-OG, B-CV, B-AF, B-TM
-22	##하고	O	O	O, B-OG, B-CV, I-OG, B-PS
-23	있	O	O	O, B-CV, B-OG, B-PS, B-TM
-24	##다	O	O	O, B-CV, B-OG, I-OG, B-TM
-25	.	O	O	O, B-LC, B-OG, B-PS, B-CV
-26	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	공보	O	B-OG
+2	##문	O	I-OG
+3	##에	O	O
+4	##는	O	O
+5	“	O	O
+6	향후	O	O
+7	행정	O	O
+8	##구역	O	O
+9	##을	O	O
+10	뛰어넘	O	O
+11	##는	O	O
+12	인민	B-OG	B-OG
+13	##법	I-OG	I-OG
+14	##원	I-OG	I-OG
+15	##과	O	O
+16	인민	B-OG	B-OG
+17	##검	I-OG	I-OG
+18	##찰	I-OG	I-OG
+19	##원	I-OG	I-OG
+20	설립	O	O
+21	##을	O	O
+22	모색	O	O
+23	##한다	O	O
+24	”	O	O
+25	는	O	O
+26	결정	O	O
+27	내용	O	O
+28	##도	O	O
+29	담겼	O	O
+30	##다	O	O
+31	.	O	O
+32	[SEP]	O	O

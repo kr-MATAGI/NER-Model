@@ -1,24 +1,49 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, I-EV, I-AF
-1	[	O	O	O, B-LC, B-OG, B-PS, B-DT
-2	‘	O	O	O, B-LC, B-PS, B-OG, B-CV
-3	따뜻	O	O	O, B-PS, B-LC, B-AF, B-CV
-4	##한	O	O	O, B-PS, I-PS, I-AF, B-LC
-5	시장	O	O	O, B-CV, B-LC, B-PS, B-TR
-6	##경제	O	O	O, I-AF, I-TR, I-PS, I-OG
-7	##의	O	O	O, I-AF, B-PS, I-PS, I-OG
-8	모델	O	O	O, B-CV, B-LC, B-PS, B-AF
-9	’	O	O	O, B-PS, B-LC, I-AF, I-OG
-10	협동조합	O	O	O, B-OG, B-CV, B-FD, B-AF
-11	##이	O	O	O, I-OG, B-PS, I-AF, I-CV
-12	뜬다	O	O	O, B-LC, B-OG, B-CV, B-PS
-13	]	O	O	O, B-LC, B-OG, I-OG, B-PS
-14	<	O	O	O, B-LC, B-OG, B-PS, B-DT
-15	中	O	B-LC	B-LC, B-OG, O, I-LC, I-OG
-16	>	O	O	O, I-LC, I-OG, B-LC, I-DT
-17	소비자	B-CV	B-CV	B-CV, O, B-OG, B-AF, B-TM
-18	친화	O	O	O, I-CV, I-OG, B-OG, B-CV
-19	##적인	O	O	O, B-LC, B-OG, B-PS, I-OG
-20	생	B-OG	B-OG	B-OG, O, B-CV, I-OG, B-AF
-21	##협	I-OG	I-OG	I-OG, O, I-CV, I-AF, B-OG
-22	[SEP]	O	O	O, I-OG, I-AF, I-CV, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	이날	B-DT	B-DT
+2	##까	I-DT	I-DT
+3	##지	I-DT	I-DT
+4	수도권	B-LC	B-LC
+5	기초	O	O
+6	##단체	O	O
+7	44	B-QT	B-QT
+8	##곳	I-QT	I-QT
+9	##의	O	O
+10	공천	O	O
+11	##심	O	O
+12	##사	O	O
+13	##가	O	O
+14	마무리	O	O
+15	##된	O	O
+16	상황	O	O
+17	##에	O	O
+18	##서	O	O
+19	안	B-PS	B-PS
+20	대표	B-CV	B-CV
+21	쪽	O	O
+22	인사	O	B-CV
+23	##가	O	O
+24	최종	O	O
+25	경선	O	B-EV
+26	후보	O	O
+27	##군	O	O
+28	##에	O	O
+29	들어간	O	O
+30	곳	O	O
+31	##은	O	O
+32	서울	B-LC	B-LC
+33	용산	B-LC	B-LC
+34	##과	O	O
+35	서대문	B-LC	B-LC
+36	,	O	O
+37	경기도	B-LC	B-LC
+38	오산	B-LC	B-LC
+39	등	O	O
+40	5	B-QT	B-QT
+41	##곳	I-QT	I-QT
+42	##에	O	O
+43	불과	O	O
+44	##하	O	O
+45	##다	O	O
+46	.	O	O
+47	[SEP]	O	O

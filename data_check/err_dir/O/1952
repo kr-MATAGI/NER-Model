@@ -1,56 +1,33 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	누리	B-TM	O	O, B-TM, B-OG, I-TM, B-CV
-2	##사업	I-TM	O	O, I-TM, I-OG, I-CV, B-TM
-3	대형	O	O	O, B-TM, I-TM, B-CV, B-OG
-4	##과	O	O	O, I-TM, B-TM, I-CV, I-OG
-5	##제	O	O	O, I-TM, I-CV, I-OG, I-QT
-6	선정	O	O	O, I-TM, B-TM, B-LC, B-CV
-7	,	O	O	O, B-LC, B-OG, B-CV, B-PS
-8	한지	O	O	O, B-CV, B-AF, B-PT, B-TM
-9	및	O	O	O, I-AF, I-OG, I-CV, I-TM
-10	고창	B-LC	B-LC	B-LC, O, B-OG, B-AF, B-PS
-11	복	B-PT	B-AF	B-AF, B-PT, B-OG, B-LC, O
-12	##분자	I-PT	I-AF	I-AF, I-LC, I-OG, I-PT, O
-13	지역	O	I-AF	I-AF, O, B-AF, I-OG, I-LC
-14	##혁	O	I-AF	I-AF, O, I-OG, I-LC, B-AF
-15	##신	O	I-AF	I-AF, O, I-OG, I-LC, I-CV
-16	##센터	O	I-AF	I-AF, O, I-OG, I-LC, I-PS
-17	운영	O	O	O, I-AF, I-OG, B-TM, B-LC
-18	,	O	O	O, B-LC, I-AF, B-OG, B-PS
-19	학교	O	O	O, B-TM, B-CV, B-OG, B-AF
-20	##기업	O	O	O, B-CV, I-CV, I-OG, I-TM
-21	약	B-CV	O	O, B-OG, B-CV, B-AF, B-LC
-22	##고추	I-CV	O	O, I-OG, I-CV, I-TM, I-PT
-23	##장	I-CV	O	O, I-OG, I-CV, I-TM, I-AF
-24	운영	O	O	O, I-OG, B-TM, B-LC, I-CV
-25	,	O	O	O, B-LC, B-PS, B-CV, I-OG
-26	에너지	O	O	O, B-TM, B-MT, B-CV, B-FD
-27	##인	O	O	O, I-TM, I-CV, I-MT, B-TM
-28	##력	O	O	O, I-TM, I-CV, I-MT, I-QT
-29	##양	O	O	O, I-TM, I-CV, B-TM, I-AF
-30	##성	O	O	O, I-TM, I-CV, I-AF, I-MT
-31	##과	O	O	O, I-TM, I-CV, B-TM, I-AF
-32	##제	O	O	O, I-TM, I-CV, I-AF, I-QT
-33	선정	O	O	O, I-TM, B-CV, B-TM, I-CV
-34	등	O	O	O, B-LC, B-PS, B-OG, B-TM
-35	1000	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-LC
-36	##억	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-37	##원	I-QT	I-QT	I-QT, O, I-LC, I-PS, I-OG
-38	##에	O	O	O, I-QT, B-CV, I-OG, I-AF
-39	이르	O	O	O, B-LC, B-OG, B-TM, B-QT
-40	##는	O	O	O, B-LC, B-OG, B-TM, B-PS
-41	각종	O	O	O, B-TM, B-LC, B-QT, B-CV
-42	국책	O	O	O, B-TM, B-OG, B-EV, B-CV
-43	##사업	O	O	O, I-TM, I-OG, I-CV, I-EV
-44	##을	O	O	O, I-TM, I-OG, I-EV, I-CV
-45	따	O	O	O, B-CV, B-TM, B-OG, B-LC
-46	낸	O	O	O, B-LC, B-OG, B-PS, B-CV
-47	것	O	O	O, B-CV, B-LC, B-PS, B-OG
-48	##도	O	O	O, B-CV, B-LC, B-PS, B-OG
-49	바탕	O	O	O, B-TM, B-QT, B-CV, B-LC
-50	##이	O	O	O, B-PS, B-CV, B-OG, I-OG
-51	됐	O	O	O, B-CV, B-TM, B-LC, B-OG
-52	##다	O	O	O, B-CV, B-TM, B-OG, B-LC
-53	.	O	O	O, B-LC, B-TM, B-OG, B-CV
-54	[SEP]	O	O	O, B-LC, B-TM, B-CV, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	교	O	O
+2	##비	O	O
+3	삼	B-QT	B-QT
+4	##백	I-QT	I-QT
+5	##삼	I-QT	I-QT
+6	##십	I-QT	I-QT
+7	##삼	I-QT	I-QT
+8	##억	I-QT	I-QT
+9	원	I-QT	I-QT
+10	##을	O	O
+11	횡령	O	B-CV
+12	##한	O	O
+13	설립자	B-CV	B-CV
+14	이홍	B-PS	B-PS
+15	##하	I-PS	I-PS
+16	전	O	O
+17	이사장	B-CV	B-CV
+18	##이	O	O
+19	세운	O	O
+20	또	O	O
+21	다른	O	O
+22	학교	O	O
+23	##법인	O	O
+24	##으로	O	O
+25	돌아가	O	O
+26	##게	O	O
+27	됐	O	O
+28	##습	O	O
+29	##니다	O	O
+30	.	O	O
+31	[SEP]	O	O

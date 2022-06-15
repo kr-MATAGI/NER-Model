@@ -1,39 +1,12 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	이양	O	B-PS	B-PS, O, B-CV, B-AM, B-OG
-2	##은	O	O	O, I-PS, B-PS, I-CV, I-TR
-3	지난	O	B-DT	B-DT, O, I-DT, B-PS, B-QT
-4	2	O	I-DT	I-DT, O, I-PS, B-DT, I-QT
-5	##월	O	I-DT	I-DT, O, I-PS, B-DT, I-QT
-6	대표	O	B-CV	B-CV, O, I-CV, B-TM, B-OG
-7	##이	B-PS	I-CV	I-CV, B-CV, O, I-OG, I-QT
-8	##사	O	I-CV	I-CV, O, B-CV, I-OG, I-QT
-9	##로	O	O	O, I-CV, B-PS, B-CV, I-QT
-10	취임	O	O	O, B-CV, B-PS, B-OG, I-CV
-11	##한	O	O	O, B-PS, I-PS, I-CV, B-CV
-12	이후	O	O	O, B-PS, I-PS, B-CV, I-CV
-13	학교	O	O	O, B-CV, B-PS, B-LC, B-OG
-14	##를	O	O	O, B-CV, B-PS, B-LC, B-OG
-15	마치	O	O	O, B-PS, B-CV, B-LC, B-OG
-16	##면	O	O	O, B-PS, B-LC, B-CV, B-OG
-17	집	O	O	O, B-CV, B-LC, B-PS, B-AF
-18	##이나	O	O	O, B-PS, I-AF, B-CV, B-TM
-19	학원	O	O	O, B-CV, B-PS, B-TM, B-LC
-20	대신	O	O	O, B-PS, B-TM, B-CV, B-QT
-21	회사	O	O	O, B-CV, B-TM, B-OG, B-AF
-22	##로	O	O	O, B-PS, B-CV, B-TM, B-LC
-23	가	O	O	O, B-PS, B-LC, B-CV, B-QT
-24	사회	O	O	O, B-TM, I-TM, B-CV, I-CV
-25	##공	O	O	O, I-TM, B-TM, I-CV, I-QT
-26	##헌	O	O	O, I-TM, I-CV, B-TM, I-QT
-27	##사업	O	O	O, I-TM, I-CV, B-TM, I-TR
-28	##을	O	O	O, B-PS, I-TM, B-CV, B-LC
-29	어떻게	O	O	O, B-PS, B-LC, B-CV, B-OG
-30	펴	O	O	O, B-CV, B-PS, B-LC, B-OG
-31	갈지	O	O	O, B-LC, B-PS, B-TM, B-OG
-32	연구	O	O	O, B-PS, B-LC, B-CV, B-TM
-33	##하고	O	O	O, B-PS, B-CV, I-PS, B-LC
-34	있	O	O	O, B-PS, B-CV, B-TM, B-LC
-35	##다	O	O	O, B-CV, B-PS, B-TM, I-CV
-36	.	O	O	O, B-PS, B-LC, B-CV, B-TM
-37	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	어	O	O
+2	근데	O	O
+3	초록색	B-TM	B-TM
+4	##깔	O	I-TM
+5	약간	O	O
+6	요런	O	O
+7	색이	O	O
+8	나요	O	O
+9	.	O	O
+10	[SEP]	O	O

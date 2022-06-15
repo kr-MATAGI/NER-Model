@@ -1,19 +1,11 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, I-OG, B-CV, I-AF
-1	[	O	O	O, B-PS, B-DT, B-LC, B-OG
-2	수도권	B-LC	B-LC	B-LC, O, B-OG, B-EV, B-TM
-3	##I	B-QT	B-QT	B-QT, O, B-DT, I-LC, I-QT
-4	]	O	O	O, I-QT, I-DT, I-EV, I-LC
-5	이	O	O	O, B-PS, B-DT, B-QT, B-EV
-6	봄	B-DT	B-DT	B-DT, I-DT, O, B-QT, B-LC
-7	##엔	O	O	O, I-DT, I-QT, I-EV, B-PS
-8	수원	B-AF	B-LC	B-LC, B-AF, O, B-OG, B-PS
-9	##화	I-AF	I-LC	I-LC, I-AF, O, B-LC, B-AF
-10	##성	I-AF	I-LC	I-LC, I-AF, O, I-OG, B-LC
-11	##서	O	O	O, I-AF, I-LC, I-OG, B-LC
-12	활기	O	O	O, B-AF, B-CV, B-LC, B-TM
-13	##를	O	O	O, I-AF, B-CV, B-PS, B-LC
-14	충전	O	O	O, B-CV, B-PS, B-LC, I-AF
-15	##하	O	O	O, B-PS, B-CV, B-LC, I-AF
-16	##세요	O	O	O, B-PS, B-CV, B-LC, B-OG
-17	[SEP]	O	O	O, B-LC, B-CV, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	요	O	O
+2	옛날	O	O
+3	##에	O	O
+4	스펀	B-AF	O
+5	##지	I-AF	O
+6	##에	O	O
+7	나왔었	O	O
+8	##는데	O	O
+9	[SEP]	O	O

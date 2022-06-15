@@ -1,22 +1,39 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	이	O	O	O, B-CV, B-OG, B-TM, B-PS
-2	##처럼	O	O	O, B-CV, B-LC, B-TM, B-OG
-3	유명	O	B-CV	B-CV, O, I-CV, B-TM, B-PS
-4	##인	O	I-CV	I-CV, O, B-CV, I-TM, I-OG
-5	사진	O	O	O, I-CV, B-CV, B-TM, I-TM
-6	##의	O	O	O, I-CV, B-CV, B-LC, B-TM
-7	무단	O	O	O, B-CV, B-LC, B-TM, B-QT
-8	사용	O	O	O, I-CV, B-CV, B-LC, I-QT
-9	##에	O	O	O, B-CV, B-LC, I-CV, B-TM
-10	대한	O	O	O, B-LC, B-OG, B-TM, B-PS
-11	결과	O	O	O, B-CV, B-TM, B-OG, B-LC
-12	##가	O	O	O, B-OG, B-LC, B-PS, B-CV
-13	다른	O	O	O, B-CV, B-OG, B-TM, B-LC
-14	이유	O	O	O, B-CV, B-TM, B-OG, B-LC
-15	##는	O	O	O, B-LC, B-TM, B-OG, B-CV
-16	무엇	O	O	O, B-TM, B-LC, B-OG, B-CV
-17	##일	O	O	O, B-LC, I-OG, B-PS, B-CV
-18	##까	O	O	O, I-OG, B-LC, I-AF, B-TM
-19	.	O	O	O, B-CV, B-OG, B-LC, B-TM
-20	[SEP]	O	O	O, B-CV, B-LC, B-TM, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	이번	O	O
+2	상품	O	O
+3	##전	O	O
+4	##에	O	O
+5	절단	O	B-TM
+6	##기	O	I-TM
+7	등	O	O
+8	기계	O	O
+9	제품	O	O
+10	##을	O	O
+11	갖	O	O
+12	##고	O	O
+13	참가	O	O
+14	##한	O	O
+15	건	B-OG	B-OG
+16	##우	I-OG	I-OG
+17	##기계	I-OG	I-OG
+18	##의	O	O
+19	나인	B-PS	B-PS
+20	##찬	I-PS	I-PS
+21	대표	B-CV	B-CV
+22	##는	O	O
+23	“	O	O
+24	최근	O	O
+25	##에	O	O
+26	우리	O	O
+27	업계	O	O
+28	##에도	O	O
+29	중국	B-OG	B-OG
+30	##이	O	O
+31	들어오	O	O
+32	##기	O	O
+33	시작	O	O
+34	##했	O	O
+35	##다	O	O
+36	.	O	O
+37	[SEP]	O	O

@@ -1,23 +1,69 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	하이브리드	O	B-AF	B-AF, O, B-TM, B-CV, I-AF
-2	전용	O	O	O, I-AF, B-AF, I-TM, I-CV
-3	##차	B-AF	I-AF	I-AF, O, B-AF, I-CV, I-TM
-4	##는	O	O	O, I-AF, I-OG, B-CV, I-CV
-5	현재	O	O	O, B-OG, B-CV, B-TM, B-LC
-6	전	O	O	O, B-LC, B-OG, B-PS, B-CV
-7	세계	O	O	O, B-LC, B-OG, B-PS, B-CV
-8	글로벌	O	O	O, B-OG, B-LC, B-CV, B-PS
-9	업체	O	O	O, B-OG, B-CV, I-OG, B-LC
-10	중	O	O	O, B-LC, B-OG, B-PS, B-TM
-11	##에	O	O	O, B-OG, B-LC, B-PS, I-OG
-12	도요타	B-OG	B-OG	B-OG, O, B-AF, B-PS, I-OG
-13	##와	O	O	O, I-OG, I-AF, B-PS, I-PS
-14	혼다	B-OG	B-OG	B-OG, O, I-OG, B-AF, B-PS
-15	##만	O	O	O, I-OG, I-QT, I-LC, I-AF
-16	보유	O	O	O, B-TM, B-CV, B-LC, B-OG
-17	##하고	O	O	O, B-LC, B-PS, B-QT, B-CV
-18	있	O	O	O, B-CV, B-TM, B-LC, B-PS
-19	##다	O	O	O, B-CV, B-TM, I-OG, I-AF
-20	.	O	O	O, B-LC, B-OG, B-CV, B-TM
-21	[SEP]	O	O	O, B-LC, B-OG, B-CV, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	이어	O	O
+2	""""	O	O
+3	국정	O	O
+4	##감사	O	O
+5	등	O	O
+6	출석	O	O
+7	요구	O	O
+8	##에	O	O
+9	계속	O	O
+10	응하	O	O
+11	##지	O	O
+12	않	O	O
+13	##아	O	O
+14	국회	B-OG	B-OG
+15	업무	O	O
+16	##에	O	O
+17	지장	O	O
+18	##을	O	O
+19	초래	O	O
+20	##한	O	O
+21	책임	O	O
+22	##을	O	O
+23	물어야	O	O
+24	마땅	O	O
+25	##하	O	O
+26	##다	O	O
+27	""""	O	O
+28	면서도	O	O
+29	""""	O	O
+30	다른	O	O
+31	전문	O	O
+32	경영인	B-CV	B-CV
+33	##들	O	O
+34	##을	O	O
+35	대신	O	O
+36	증언	O	O
+37	##하	O	O
+38	##도록	O	O
+39	했	O	O
+40	##고	O	O
+41	,	O	O
+42	형사	O	B-CV
+43	##처	O	I-CV
+44	##벌	O	I-CV
+45	##을	O	O
+46	받	O	O
+47	##은	O	O
+48	적	O	O
+49	##이	O	O
+50	없	O	O
+51	##고	O	O
+52	반성	O	O
+53	##하	O	O
+54	##고	O	O
+55	있	O	O
+56	##는	O	O
+57	점	O	O
+58	##을	O	O
+59	고려	O	O
+60	##했	O	O
+61	##다	O	O
+62	""""	O	O
+63	고	O	O
+64	했	O	O
+65	##다	O	O
+66	.	O	O
+67	[SEP]	O	O

@@ -1,44 +1,87 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	대부분	O	O	O, B-QT, B-CV, B-PS, B-LC
-2	18	B-QT	B-QT	B-QT, I-QT, O, B-PS, B-DT
-3	,	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-DT
-4	19	I-QT	I-QT	I-QT, B-QT, O, I-LC, I-PS
-5	##세	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-6	##의	O	O	O, I-QT, B-PS, B-CV, I-OG
-7	소년	B-CV	B-CV	B-CV, O, B-OG, B-TM, I-CV
-8	##병	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-QT
-9	##으로	O	O	O, I-CV, B-PS, I-OG, B-CV
-10	청춘	O	O	O, B-PS, B-CV, B-LC, B-AF
-11	##을	O	O	O, B-PS, B-CV, B-LC, B-OG
-12	미처	O	O	O, B-PS, B-CV, B-LC, B-QT
-13	피우	O	O	O, B-CV, B-PS, B-LC, B-OG
-14	##지도	O	O	O, B-PS, I-EV, B-CV, I-OG
-15	못하	O	O	O, B-CV, B-PS, B-LC, B-TM
-16	##고	O	O	O, B-PS, B-LC, B-CV, B-TM
-17	산화	O	O	O, B-CV, B-EV, B-LC, B-TM
-18	##한	O	O	O, B-PS, B-CV, B-LC, I-EV
-19	전우	B-CV	O	O, B-CV, I-CV, B-AF, B-PS
-20	##들	O	O	O, I-CV, B-CV, B-PS, I-AF
-21	##의	O	O	O, B-CV, B-PS, B-LC, B-TM
-22	죽음	O	O	O, B-CV, B-TM, B-LC, B-PS
-23	##에	O	O	O, B-CV, B-PS, B-TM, B-LC
-24	대해서	O	O	O, B-CV, B-LC, B-OG, B-PS
-25	##도	O	O	O, B-LC, B-CV, B-PS, B-OG
-26	“	O	O	O, B-CV, B-LC, B-PS, B-OG
-27	가치	O	O	O, B-CV, B-QT, B-LC, B-PS
-28	있	O	O	O, B-CV, B-PS, I-OG, I-QT
-29	##었	O	O	O, B-CV, B-PS, B-LC, B-OG
-30	##다	O	O	O, B-CV, B-PS, I-OG, B-LC
-31	”	O	O	O, B-CV, B-LC, B-TM, B-PS
-32	고	O	O	O, B-CV, B-PS, B-LC, B-OG
-33	당당히	O	O	O, B-CV, B-LC, B-TM, B-QT
-34	말	O	O	O, B-CV, B-LC, B-TM, B-PS
-35	##할	O	O	O, B-PS, B-CV, B-LC, B-OG
-36	수	O	O	O, B-CV, B-QT, B-PS, B-TM
-37	있	O	O	O, B-CV, B-QT, B-PS, B-TM
-38	##게	O	O	O, B-CV, B-QT, B-TM, B-LC
-39	됐	O	O	O, B-CV, B-QT, B-TM, I-CV
-40	##다	O	O	O, B-CV, I-CV, B-TM, I-QT
-41	.	O	O	O, B-CV, B-LC, B-PS, I-EV
-42	[SEP]	O	O	O, B-CV, B-LC, B-PS, I-EV
+	text	label	preds
+0	[CLS]	O	O
+1	2	B-DT	B-DT
+2	##월	I-DT	I-DT
+3	##은	O	O
+4	이주노	B-CV	B-CV
+5	##동자	I-CV	I-CV
+6	,	O	O
+7	3	B-DT	B-DT
+8	##월	I-DT	I-DT
+9	##은	O	O
+10	소셜	O	O
+11	##네트	O	O
+12	##워크	O	O
+13	##서비스	O	O
+14	친구	B-CV	B-CV
+15	##들	O	O
+16	,	O	O
+17	4	B-DT	B-DT
+18	##월	I-DT	I-DT
+19	##은	O	O
+20	문화예술	B-CV	B-CV
+21	##인	I-CV	I-CV
+22	,	O	O
+23	5	B-DT	B-DT
+24	##월	I-DT	I-DT
+25	##은	O	O
+26	5	B-QT	B-QT
+27	~	I-QT	I-QT
+28	7	I-QT	I-QT
+29	##살	I-QT	I-QT
+30	아이	O	O
+31	##들	O	O
+32	,	O	O
+33	6	B-DT	B-DT
+34	##월	I-DT	I-DT
+35	##은	O	O
+36	탈	B-CV	B-CV
+37	##북	I-CV	I-CV
+38	##인	I-CV	I-CV
+39	##들	O	O
+40	,	O	O
+41	7	B-DT	B-DT
+42	##월	I-DT	I-DT
+43	##은	O	O
+44	평화	O	O
+45	##를	O	O
+46	꿈꾸	O	O
+47	##는	O	O
+48	사람	O	O
+49	##들	O	O
+50	,	O	O
+51	8	B-DT	B-DT
+52	##월	I-DT	I-DT
+53	##은	O	O
+54	장애인	O	B-CV
+55	##들	O	O
+56	,	O	O
+57	9	B-DT	B-DT
+58	##월	I-DT	I-DT
+59	##은	O	O
+60	농부	B-CV	B-CV
+61	,	O	O
+62	10	B-DT	B-DT
+63	##월	I-DT	I-DT
+64	##은	O	O
+65	세월	B-LC	B-LC
+66	##호	I-LC	I-LC
+67	광장	I-LC	I-LC
+68	##의	O	O
+69	시민	B-CV	B-CV
+70	,	O	O
+71	11	B-DT	B-DT
+72	##월	I-DT	I-DT
+73	##은	O	O
+74	암	B-CV	B-TM
+75	##환	I-CV	B-CV
+76	##우	I-CV	I-CV
+77	##들이	O	O
+78	쓰	O	O
+79	##고	O	O
+80	이름	O	O
+81	##을	O	O
+82	남겼	O	O
+83	##다	O	O
+84	.	O	O
+85	[SEP]	O	O

@@ -1,37 +1,60 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-EV, B-CV, I-CV
-1	콤플렉스	O	O	O, B-OG, B-FD, B-EV, B-AF
-2	##를	O	O	O, I-OG, B-PS, I-EV, I-AF
-3	물량	O	O	O, B-LC, B-PS, B-CV, B-TM
-4	공세	O	O	O, B-LC, B-PS, B-CV, B-OG
-5	##로	O	O	O, B-PS, B-CV, B-LC, B-OG
-6	가린	O	O	O, B-LC, B-EV, B-TM, B-CV
-7	무협	O	B-FD	B-FD, O, B-AF, B-CV, I-FD
-8	##지	O	I-FD	I-FD, O, B-FD, I-AF, I-OG
-9	##라는	O	O	O, I-FD, I-OG, B-PS, I-AF
-10	혹평	O	O	O, B-CV, B-PS, B-LC, B-OG
-11	##도	O	O	O, B-PS, B-CV, I-EV, I-OG
-12	있	O	O	O, B-CV, B-PS, B-QT, B-OG
-13	##었	O	O	O, B-PS, I-EV, B-CV, I-QT
-14	##지만	O	O	O, I-EV, B-PS, I-QT, B-EV
-15	2008	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-QT
-16	##년	I-DT	I-DT	I-DT, O, I-QT, I-EV, B-DT
-17	베이징	B-EV	B-EV	B-EV, B-LC, O, B-AF, B-OG
-18	올림픽	I-EV	I-EV	I-EV, B-EV, O, I-AF, I-LC
-19	개막식	O	B-EV	B-EV, I-EV, O, B-LC, B-AF
-20	##은	O	O	O, I-EV, I-AF, I-OG, B-CV
-21	‘	O	O	O, B-CV, I-EV, B-OG, B-LC
-22	지상	O	O	O, B-PS, B-LC, B-CV, B-QT
-23	최고	O	O	O, B-PS, B-CV, B-QT, I-EV
-24	##의	O	O	O, B-PS, I-AF, I-EV, I-QT
-25	쇼	O	O	O, B-CV, B-PS, B-EV, B-FD
-26	’	O	O	O, B-CV, B-PS, B-OG, I-EV
-27	라는	O	O	O, B-PS, B-LC, B-CV, B-OG
-28	평가	O	O	O, B-CV, B-PS, B-QT, B-OG
-29	##가	O	O	O, B-PS, B-CV, B-OG, B-LC
-30	주	O	O	O, B-CV, B-PS, B-QT, B-OG
-31	##를	O	O	O, B-CV, B-OG, I-OG, I-QT
-32	이뤘	O	O	O, B-CV, B-OG, B-QT, B-LC
-33	##다	O	O	O, B-CV, I-OG, B-QT, I-EV
-34	.	O	O	O, B-PS, B-CV, B-LC, I-EV
-35	[SEP]	O	O	O, B-CV, I-EV, B-PS, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	김성	B-PS	B-PS
+2	##관	I-PS	I-PS
+3	목사	B-CV	B-CV
+4	##는	O	O
+5	목회	O	O
+6	정년	O	O
+7	##인	O	O
+8	만	B-QT	B-QT
+9	70	I-QT	I-QT
+10	##살	I-QT	I-QT
+11	##을	O	O
+12	앞둔	O	O
+13	지난해	B-DT	B-DT
+14	11	I-DT	I-DT
+15	##월	I-DT	I-DT
+16	##9	I-DT	I-DT
+17	##일	I-DT	I-DT
+18	임시	O	O
+19	당	O	O
+20	##회	O	O
+21	##를	O	O
+22	열	O	O
+23	##어	O	O
+24	당분간	O	O
+25	당	O	B-CV
+26	##회	B-CV	I-CV
+27	##장	I-CV	I-CV
+28	##직	I-CV	I-CV
+29	##과	O	O
+30	교회	O	O
+31	##재	O	O
+32	##산	O	O
+33	##이	O	O
+34	등록	O	O
+35	##된	O	O
+36	충	B-OG	B-OG
+37	##현	I-OG	I-OG
+38	##교회	I-OG	I-OG
+39	유지	O	B-OG
+40	##재단	O	I-OG
+41	이사장	B-CV	B-CV
+42	##직	I-CV	I-CV
+43	##을	O	O
+44	유지	O	O
+45	##하	O	O
+46	##겠다	O	O
+47	##는	O	O
+48	안건	O	O
+49	##을	O	O
+50	통과	O	O
+51	##시	O	O
+52	##킨	O	O
+53	것	O	O
+54	##으로	O	O
+55	알려졌	O	O
+56	##다	O	O
+57	.	O	O
+58	[SEP]	O	O

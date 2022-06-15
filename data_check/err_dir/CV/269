@@ -1,34 +1,25 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-AF
-1	대학	O	O	O, B-OG, B-CV, B-FD, I-OG
-2	##의	O	O	O, B-PS, B-CV, B-OG, B-LC
-3	고교	O	B-CV	B-CV, O, I-CV, B-AF, B-FD
-4	##유	B-CV	I-CV	I-CV, B-CV, O, B-PT, B-AM
-5	##망	I-CV	I-CV	I-CV, O, B-CV, I-QT, I-TM
-6	##주	I-CV	I-CV	I-CV, O, B-CV, I-QT, I-TM
-7	영입	O	O	O, I-CV, B-CV, B-PS, B-LC
-8	과정	O	O	O, I-CV, B-CV, B-PS, B-LC
-9	##에	O	O	O, B-CV, B-PS, B-LC, B-OG
-10	도움	O	O	O, B-CV, B-TM, B-LC, B-QT
-11	주고	O	O	O, I-CV, B-PS, B-CV, I-QT
-12	뒷	O	O	O, B-CV, B-TM, I-CV, B-PS
-13	##돈	O	O	O, I-CV, B-CV, I-TM, B-PS
-14	챙겨	O	O	O, B-CV, I-CV, B-PS, B-TM
-15	##국	B-CV	B-CV	B-CV, O, B-OG, I-CV, B-LC
-16	##가	I-CV	I-CV	I-CV, O, I-OG, B-CV, I-EV
-17	##대표	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-EV
-18	출신	O	O	O, I-CV, I-OG, B-CV, I-QT
-19	3	B-QT	B-QT	B-QT, O, I-QT, B-PS, B-DT
-20	##명	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-21	포함	O	O	O, I-QT, B-CV, I-OG, B-TM
-22	…	O	O	O, B-CV, B-PS, B-OG, B-LC
-23	혐의	O	O	O, B-CV, B-TM, B-PS, I-CV
-24	##확	O	O	O, I-CV, B-CV, B-PS, B-TM
-25	##인	O	O	O, B-PS, I-CV, B-CV, B-QT
-26	5	B-QT	B-QT	B-QT, O, I-QT, B-PS, B-DT
-27	,	I-QT	I-QT	I-QT, O, I-PS, I-LC, B-QT
-28	6	I-QT	I-QT	I-QT, B-QT, O, I-LC, I-PS
-29	##명	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-30	계좌	O	O	O, B-CV, B-TM, I-QT, I-CV
-31	추적	O	O	O, B-CV, I-CV, B-TM, B-PS
-32	[SEP]	O	O	O, B-CV, I-CV, B-PS, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	정	B-PS	B-PS
+2	국장	B-CV	B-CV
+3	##은	O	O
+4	아버지	B-CV	B-CV
+5	정진	B-PS	B-PS
+6	##섭	I-PS	I-PS
+7	씨	O	O
+8	(	O	O
+9	86	B-QT	B-QT
+10	)	O	O
+11	에	O	O
+12	이어	O	O
+13	연평	B-LC	B-CV
+14	##우	B-CV	I-CV
+15	##체	I-CV	I-CV
+16	##국장	I-CV	I-CV
+17	##을	O	O
+18	지내	O	O
+19	##고	O	O
+20	있	O	O
+21	##다	O	O
+22	.	O	O
+23	[SEP]	O	O

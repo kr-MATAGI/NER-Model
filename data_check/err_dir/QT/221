@@ -1,26 +1,22 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-EV, B-CV, I-OG, I-CV
-1	사고	O	O	O, B-CV, B-EV, I-EV, B-OG
-2	##는	O	O	O, B-CV, I-EV, B-OG, B-PS
-3	지난	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-QT
-4	3	I-DT	I-DT	I-DT, B-DT, O, I-QT, I-PS
-5	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-6	오후	B-TI	B-TI	B-TI, I-TI, I-DT, O, B-EV
-7	6	I-TI	I-TI	I-TI, B-TI, I-DT, I-QT, O
-8	##시	I-TI	I-TI	I-TI, B-TI, O, I-QT, I-TR
-9	38	I-TI	I-TI	I-TI, B-TI, I-QT, O, I-TR
-10	##분	I-TI	I-TI	I-TI, I-QT, O, B-TI, I-TR
-11	##쯤	I-TI	I-TI	I-TI, O, I-QT, I-TR, B-TI
-12	경남	B-LC	B-LC	B-LC, O, B-OG, I-TI, I-LC
-13	창원시	B-LC	B-LC	B-LC, I-LC, O, B-OG, B-AF
-14	마산	B-LC	B-LC	B-LC, I-LC, O, B-OG, B-AF
-15	##회원	I-LC	I-LC	I-LC, O, B-LC, I-AF, I-PS
-16	##구	I-LC	I-LC	I-LC, O, I-AF, B-LC, I-PS
-17	마산	B-LC	B-AF	B-AF, B-LC, I-LC, I-AF, O
-18	##역	I-LC	I-AF	I-AF, I-LC, B-AF, O, I-PS
-19	사거리	B-QT	I-AF	I-AF, I-LC, B-AF, B-QT, O
-20	##에서	O	O	O, I-AF, I-LC, I-QT, I-EV
-21	일어났	O	O	O, B-CV, B-OG, I-EV, B-TM
-22	##다	O	O	O, B-CV, I-EV, B-OG, B-LC
-23	.	O	O	O, B-LC, B-CV, B-OG, I-EV
-24	[SEP]	O	O	O, B-LC, B-CV, I-EV, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	폭발	O	O
+2	##력	O	O
+3	##이	O	O
+4	대략	B-QT	O
+5	10	I-QT	I-QT
+6	##k	I-QT	I-QT
+7	##t	I-QT	I-QT
+8	##에	O	O
+9	이	O	O
+10	##를	O	O
+11	것	O	O
+12	##으로	O	O
+13	본다	O	O
+14	”	O	O
+15	고	O	O
+16	말	O	O
+17	##했	O	O
+18	##다	O	O
+19	.	O	O
+20	[SEP]	O	O

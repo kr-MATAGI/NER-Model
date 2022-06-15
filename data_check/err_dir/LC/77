@@ -1,58 +1,55 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-EV, B-CV, I-OG, I-CV
-1	국내	O	O	O, B-LC, B-CV, B-OG, B-TM
-2	15	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-EV
-3	##개	I-QT	I-QT	I-QT, O, I-EV, I-LC, I-OG
-4	팀	O	O	O, I-QT, B-OG, B-CV, I-OG
-5	##이	O	O	O, B-PS, I-OG, B-OG, B-CV
-6	국가	B-CV	B-CV	B-CV, O, B-EV, B-AF, I-CV
-7	##대표	I-CV	I-CV	I-CV, O, I-EV, B-CV, I-OG
-8	선발전	B-EV	O	O, B-EV, I-EV, B-CV, I-CV
-9	##을	O	O	O, I-EV, I-CV, I-OG, B-PS
-10	치러	O	O	O, B-OG, B-PS, B-CV, B-LC
-11	단일팀	O	O	O, B-OG, B-CV, B-LC, I-OG
-12	(	O	O	O, I-OG, I-CV, B-PS, B-CV
-13	원주	B-LC	B-OG	B-OG, B-LC, O, B-AF, B-PS
-14	연세	B-OG	I-OG	I-OG, B-OG, B-LC, I-LC, O
-15	##드	I-OG	I-OG	I-OG, I-LC, O, I-AF, B-OG
-16	##림	I-OG	I-OG	I-OG, I-LC, O, I-AF, I-PS
-17	)	O	O	O, I-OG, I-LC, I-AF, B-CV
-18	으로	O	O	O, B-PS, B-OG, B-CV, B-LC
-19	함께	O	O	O, B-PS, B-CV, B-OG, B-LC
-20	태극	O	O	O, B-CV, B-PS, B-AF, B-TM
-21	##마크	O	O	O, I-CV, I-AF, B-PS, I-OG
-22	##를	O	O	O, B-PS, B-CV, B-OG, B-LC
-23	단	O	O	O, B-PS, B-OG, B-CV, B-LC
-24	이	O	O	O, B-PS, B-CV, B-OG, I-PS
-25	##들	O	O	O, B-PS, I-OG, I-PS, B-CV
-26	##은	O	O	O, B-PS, B-CV, I-OG, I-EV
-27	“	O	O	O, B-CV, B-PS, B-LC, B-OG
-28	눈빛	O	O	O, B-PS, B-AM, B-LC, B-TM
-29	##만	O	O	O, B-PS, I-PS, B-LC, I-AF
-30	봐도	O	O	O, B-PS, B-OG, B-LC, B-TM
-31	작전	O	O	O, B-CV, B-PS, B-LC, B-OG
-32	##이	O	O	O, B-PS, B-OG, B-CV, B-LC
-33	통하	O	O	O, B-PS, B-CV, B-OG, B-LC
-34	##는	O	O	O, B-PS, B-CV, B-OG, B-LC
-35	조직력	O	O	O, B-CV, B-OG, B-PS, B-LC
-36	##이	O	O	O, B-PS, B-CV, B-OG, I-OG
-37	있	O	O	O, B-PS, B-CV, B-OG, B-LC
-38	##기에	O	O	O, B-PS, B-LC, B-CV, B-OG
-39	열악	O	O	O, B-LC, B-CV, B-PS, B-TM
-40	##한	O	O	O, B-PS, B-LC, B-OG, B-CV
-41	환경	O	O	O, B-CV, B-LC, B-PS, B-OG
-42	##도	O	O	O, B-PS, B-LC, B-CV, I-EV
-43	딛	O	O	O, B-PS, B-CV, B-LC, B-OG
-44	##고	O	O	O, B-PS, B-LC, B-CV, B-EV
-45	일어	O	O	O, B-CV, B-LC, B-PS, B-EV
-46	##설	O	O	O, B-LC, B-PS, B-CV, I-EV
-47	수	O	O	O, B-PS, B-LC, B-CV, B-OG
-48	있	O	O	O, B-PS, B-CV, B-LC, B-EV
-49	##었	O	O	O, B-CV, B-PS, B-LC, I-EV
-50	##다	O	O	O, B-CV, B-PS, I-EV, I-OG
-51	”	O	O	O, B-CV, B-PS, B-LC, I-EV
-52	고	O	O	O, B-CV, B-PS, B-LC, I-EV
-53	했	O	O	O, B-PS, B-CV, B-OG, B-LC
-54	##다	O	O	O, B-CV, B-PS, I-EV, I-OG
-55	.	O	O	O, B-PS, B-LC, B-CV, B-OG
-56	[SEP]	O	O	O, B-PS, B-CV, B-LC, I-EV
+	text	label	preds
+0	[CLS]	O	O
+1	현지	O	O
+2	일간	O	O
+3	<	O	O
+4	데일리	B-OG	B-OG
+5	네이션	I-OG	I-OG
+6	>	O	O
+7	은	O	O
+8	알리	B-PS	B-PS
+9	로	I-PS	I-PS
+10	##바	I-PS	I-PS
+11	만	B-LC	I-PS
+12	##데	I-LC	I-PS
+13	##라	I-LC	I-PS
+14	주지사	B-CV	B-CV
+15	##가	O	O
+16	인터뷰	O	O
+17	##에	O	O
+18	##서	O	O
+19	“	O	O
+20	(	O	O
+21	무슬림	B-CV	B-CV
+22	승객	B-CV	B-CV
+23	##들이	O	O
+24	무장	O	B-CV
+25	##대원	O	I-CV
+26	##들	O	O
+27	##에	O	O
+28	##게	O	O
+29	)	O	O
+30	‘	O	O
+31	모든	O	O
+32	승객	B-CV	B-CV
+33	##을	O	O
+34	죽이	O	O
+35	##거나	O	O
+36	아니	O	O
+37	##면	O	O
+38	떠나	O	O
+39	##라	O	O
+40	’	O	O
+41	고	O	O
+42	했	O	O
+43	##다	O	O
+44	”	O	O
+45	고	O	O
+46	말	O	O
+47	##했	O	O
+48	##다고	O	O
+49	보도	O	O
+50	##했	O	O
+51	##다	O	O
+52	.	O	O
+53	[SEP]	O	O

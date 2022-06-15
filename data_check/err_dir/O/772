@@ -1,17 +1,55 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-AF
-1	뒷	O	O	O, B-TM, B-CV, B-AM, B-LC
-2	##마당	O	O	O, I-TM, I-CV, I-LC, I-AM
-3	이름	O	O	O, B-AM, B-CV, B-TM, B-PS
-4	##모	O	O	O, I-CV, I-AM, I-TM, I-PT
-5	##를	O	O	O, I-CV, I-AF, I-TM, I-AM
-6	잡초	O	B-PT	B-PT, O, B-CV, I-PT, B-AM
-7	…	O	O	O, I-CV, I-OG, I-AF, B-PS
-8	내게	O	O	O, B-PS, B-LC, B-CV, B-TM
-9	와	O	O	O, B-PS, B-CV, B-LC, B-AF
-10	요리	O	O	O, B-CV, I-CV, B-PS, B-TM
-11	##가	O	O	O, I-CV, B-PS, I-AF, I-OG
-12	되	O	O	O, B-CV, B-PS, B-LC, I-CV
-13	##었	O	O	O, B-CV, I-CV, I-OG, I-AF
-14	##다	O	O	O, I-OG, I-CV, I-AF, B-CV
-15	[SEP]	O	O	O, B-CV, B-LC, B-PS, I-CV
+	text	label	preds
+0	[CLS]	O	O
+1	시청	O	O
+2	##률	O	O
+3	##조사	O	O
+4	##기	O	O
+5	##관	O	O
+6	T	B-OG	B-OG
+7	##NS	I-OG	I-OG
+8	##가	O	O
+9	지난	B-DT	B-DT
+10	7	I-DT	I-DT
+11	##월	I-DT	I-DT
+12	조사	O	O
+13	##한	O	O
+14	자료	O	O
+15	##에	O	O
+16	따르	O	O
+17	##면	O	O
+18	,	O	O
+19	KBS	B-AF	B-OG
+20	##드라마	I-AF	O
+21	##와	O	O
+22	KBS	B-AF	B-OG
+23	J	I-AF	I-OG
+24	##O	I-AF	I-OG
+25	##Y	I-AF	I-OG
+26	2	B-QT	B-QT
+27	##개	I-QT	I-QT
+28	채널	O	O
+29	##에	O	O
+30	##서	O	O
+31	##만	O	O
+32	'	O	O
+33	강호동	B-PS	B-AF
+34	##의	O	I-AF
+35	1	B-AF	I-AF
+36	##박	I-AF	I-AF
+37	##2	I-AF	I-AF
+38	##일	I-AF	I-AF
+39	'	O	O
+40	을	O	O
+41	한	B-DT	B-DT
+42	달	I-DT	I-DT
+43	##간	I-DT	I-DT
+44	223	B-QT	B-QT
+45	##회	I-QT	I-QT
+46	방송	O	O
+47	##한	O	O
+48	것	O	O
+49	##으로	O	O
+50	나타났	O	O
+51	##다	O	O
+52	.	O	O
+53	[SEP]	O	O

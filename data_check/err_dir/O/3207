@@ -1,24 +1,17 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-EV, I-OG, I-CV, B-CV
-1	이	O	O	O, B-PS, B-OG, B-LC, B-CV
-2	작품	O	O	O, B-CV, B-AF, B-FD, B-LC
-3	##엔	O	O	O, B-CV, I-AF, B-LC, I-EV
-4	예약	O	O	O, B-CV, B-LC, B-TM, B-OG
-5	##이	O	O	O, B-PS, B-OG, B-LC, B-CV
-6	3	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-EV
-7	##개	I-QT	I-QT	I-QT, O, I-EV, I-LC, B-QT
-8	걸렸	O	O	O, I-QT, B-CV, I-EV, B-OG
-9	##고	O	O	O, I-OG, B-CV, B-LC, I-AF
-10	…	O	O	O, B-LC, B-CV, B-PS, B-OG
-11	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-12	""""	O	O	O, B-CV, B-LC, B-PS, B-TM
-13	(	O	O	O, B-CV, B-OG, B-LC, B-PS
-14	하우	B-OG	B-OG	B-OG, B-AF, O, B-EV, B-PS
-15	##저	I-OG	I-OG	I-OG, I-AF, O, I-EV, I-PS
-16	&	I-OG	I-OG	I-OG, I-AF, O, I-EV, I-TM
-17	워	I-OG	I-OG	I-OG, I-AF, O, B-OG, I-EV
-18	##스	I-OG	I-OG	I-OG, I-AF, O, I-EV, I-TM
-19	갤러리	O	I-OG	I-OG, I-AF, O, I-EV, I-TM
-20	부스	O	O	O, I-AF, I-OG, B-AF, I-EV
-21	)	O	O	O, I-AF, I-OG, I-EV, B-LC
-22	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	그래서	O	O
+2	저것	O	O
+3	##도	O	O
+4	역시	O	O
+5	그	O	O
+6	~	O	O
+7	이게	O	O
+8	전부	O	O
+9	다	O	O
+10	팔	O	B-QT
+11	짜리	O	I-QT
+12	프로그램	O	O
+13	##인	O	O
+14	##데	O	O
+15	[SEP]	O	O

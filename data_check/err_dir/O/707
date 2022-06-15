@@ -1,91 +1,70 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	1	B-QT	B-QT	B-QT, B-EV, O, B-TM, I-QT
-2	##차	I-QT	I-QT	I-QT, I-EV, O, I-TM, B-QT
-3	부품	O	O	O, I-QT, B-CV, B-TM, B-OG
-4	##업체	O	O	O, B-CV, B-OG, I-CV, I-OG
-5	삼화	O	B-OG	B-OG, O, I-OG, B-PS, B-CV
-6	##콘	O	I-OG	I-OG, O, I-CV, B-OG, I-LC
-7	##덴	O	I-OG	I-OG, O, I-CV, I-LC, B-OG
-8	##서	O	I-OG	I-OG, O, I-CV, B-OG, I-LC
-9	김영	B-PS	B-PS	B-PS, O, B-OG, I-OG, I-PS
-10	##훈	I-PS	I-PS	I-PS, I-OG, O, I-QT, I-LC
-11	대리	O	B-CV	B-CV, O, I-CV, B-TM, B-OG
-12	##는	O	O	O, I-CV, I-QT, I-OG, I-EV
-13	""""	O	O	O, B-CV, B-LC, B-TM, B-OG
-14	대기	O	O	O, B-CV, B-OG, B-TM, B-FD
-15	##업	O	O	O, I-CV, I-OG, I-TM, I-FD
-16	##이	O	O	O, B-PS, B-CV, B-LC, B-OG
-17	제공	O	O	O, B-CV, B-LC, B-PS, B-TM
-18	##하	O	O	O, B-PS, B-CV, B-OG, B-LC
-19	##는	O	O	O, B-CV, B-LC, B-PS, B-OG
-20	교육	O	O	O, B-CV, B-FD, B-TM, B-LC
-21	프로그램	O	O	O, I-CV, B-CV, B-LC, I-TM
-22	##이	O	O	O, B-PS, B-LC, B-CV, B-OG
-23	개설	O	O	O, B-CV, B-LC, B-OG, B-PS
-24	초기	O	O	O, B-LC, B-PS, B-DT, B-CV
-25	'	O	O	O, B-LC, B-CV, B-PS, B-OG
-26	리더십	O	O	O, B-CV, B-TM, B-LC, B-FD
-27	과정	O	O	O, I-CV, I-LC, I-TM, I-FD
-28	'	O	O	O, B-CV, B-LC, B-PS, B-OG
-29	등	O	O	O, B-LC, B-PS, B-OG, B-TM
-30	추상	O	O	O, B-CV, B-LC, B-PS, B-TM
-31	##적	O	O	O, B-PS, B-LC, B-OG, B-QT
-32	##이	O	O	O, B-PS, B-LC, B-OG, B-CV
-33	##고	O	O	O, B-PS, B-LC, B-OG, B-CV
-34	기초	O	O	O, B-LC, B-FD, B-PS, B-CV
-35	##적인	O	O	O, B-LC, B-PS, B-CV, B-TM
-36	내용	O	O	O, B-LC, B-CV, B-FD, B-PS
-37	중심	O	O	O, B-PS, B-LC, B-TM, B-OG
-38	##에서	O	O	O, B-PS, B-LC, B-OG, B-CV
-39	최근	O	O	O, B-CV, B-LC, B-PS, B-OG
-40	들어	O	O	O, B-CV, B-PS, B-LC, B-OG
-41	일본어	B-CV	B-CV	B-CV, B-LC, O, B-TM, B-AF
-42	·	O	O	O, I-CV, I-LC, I-AF, I-EV
-43	중국어	B-CV	B-CV	B-CV, B-LC, O, B-FD, B-TM
-44	등	O	O	O, I-CV, B-LC, I-AF, I-LC
-45	어학	O	O	O, B-FD, B-CV, I-FD, B-TR
-46	##과	O	O	O, I-FD, I-CV, I-OG, I-AF
-47	##정	O	O	O, B-LC, B-FD, B-CV, I-FD
-48	##과	O	O	O, B-LC, B-PS, B-OG, B-CV
-49	환경	O	O	O, B-LC, B-CV, B-TM, B-FD
-50	·	O	O	O, B-LC, B-PS, B-CV, I-LC
-51	품질	O	O	O, B-CV, B-LC, B-TM, B-OG
-52	·	O	O	O, B-LC, B-PS, I-LC, B-CV
-53	구매	O	O	O, B-CV, B-TM, B-LC, B-FD
-54	등	O	O	O, B-LC, B-PS, B-OG, B-CV
-55	실제	O	O	O, B-CV, B-LC, B-TM, B-FD
-56	업무	O	O	O, B-CV, B-TM, B-FD, B-LC
-57	##에서	O	O	O, B-LC, B-PS, B-CV, B-OG
-58	유용	O	O	O, B-LC, B-CV, B-PS, B-TM
-59	##하	O	O	O, B-PS, B-LC, B-CV, B-OG
-60	##게	O	O	O, B-LC, B-PS, B-CV, B-OG
-61	적용	O	O	O, B-LC, B-CV, B-TM, B-PS
-62	##할	O	O	O, B-LC, B-PS, B-CV, B-OG
-63	수	O	O	O, B-LC, B-PS, B-CV, B-OG
-64	있	O	O	O, B-LC, B-PS, B-CV, B-OG
-65	##는	O	O	O, B-LC, B-PS, B-OG, B-CV
-66	내용	O	O	O, B-LC, B-CV, B-FD, B-TM
-67	##으로	O	O	O, B-LC, B-PS, B-CV, B-OG
-68	발전	O	O	O, B-LC, B-CV, B-OG, B-PS
-69	##하면	O	O	O, B-PS, B-LC, B-CV, B-OG
-70	##서	O	O	O, B-LC, B-OG, B-CV, B-PS
-71	,	O	O	O, B-CV, B-LC, B-OG, B-TM
-72	중소기업	O	O	O, B-CV, B-OG, B-FD, B-TM
-73	##들	O	O	O, I-CV, B-CV, I-OG, B-PS
-74	사이	O	O	O, B-CV, B-LC, B-TM, B-PS
-75	##에서	O	O	O, B-LC, B-CV, B-PS, B-OG
-76	인기	O	O	O, B-CV, B-LC, B-TM, B-OG
-77	##도	O	O	O, B-CV, B-LC, B-PS, B-OG
-78	높	O	O	O, B-CV, B-LC, B-TM, B-OG
-79	##아지	O	O	O, B-CV, B-LC, B-PS, B-OG
-80	##고	O	O	O, B-CV, B-PS, B-LC, B-TM
-81	있	O	O	O, B-CV, B-PS, B-LC, B-OG
-82	##다	O	O	O, B-CV, B-TM, B-PS, B-LC
-83	""""	O	O	O, B-CV, B-TM, B-LC, B-FD
-84	고	O	O	O, B-CV, B-TM, B-QT, B-LC
-85	말	O	O	O, B-CV, B-TM, I-CV, B-QT
-86	##했	O	O	O, B-CV, B-PS, I-CV, B-LC
-87	##다	O	O	O, B-CV, B-TM, B-LC, B-QT
-88	.	O	O	O, B-LC, B-CV, B-PS, B-FD
-89	[SEP]	O	O	O, B-CV, B-LC, B-FD, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	이해찬	B-PS	B-PS
+2	대표	B-CV	B-CV
+3	##도	O	O
+4	“	O	O
+5	검찰	B-OG	B-OG
+6	##이	O	O
+7	스스로	O	O
+8	개혁	O	O
+9	##을	O	O
+10	안	O	O
+11	하	O	O
+12	##면	O	O
+13	제도	O	O
+14	##에	O	O
+15	의해	O	O
+16	강제	O	O
+17	##적	O	O
+18	##으로	O	O
+19	개혁	O	O
+20	##당	O	O
+21	##할	O	O
+22	수	O	O
+23	##밖	O	O
+24	##에	O	O
+25	없	O	O
+26	##다고	O	O
+27	했	O	O
+28	##지만	O	O
+29	아직	O	O
+30	##도	O	O
+31	개	O	O
+32	##전	O	O
+33	##의	O	O
+34	정이	O	O
+35	보이지	O	O
+36	않	O	O
+37	##는	O	O
+38	##다	O	O
+39	”	O	O
+40	며	O	O
+41	“	O	O
+42	검찰	B-OG	B-OG
+43	##은	O	O
+44	권력	O	O
+45	##의	O	O
+46	앞	O	B-CV
+47	##잡이	O	I-CV
+48	##로	O	O
+49	##서	O	O
+50	국민	B-CV	B-CV
+51	##과	O	O
+52	정치	O	O
+53	##권	O	O
+54	##을	O	O
+55	괴롭히	O	O
+56	##는	O	O
+57	행위	O	O
+58	##를	O	O
+59	즉각	O	O
+60	중단	O	O
+61	##하라	O	O
+62	”	O	O
+63	고	O	O
+64	말	O	O
+65	##했	O	O
+66	##다	O	O
+67	.	O	O
+68	[SEP]	O	O

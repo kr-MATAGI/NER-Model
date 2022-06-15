@@ -1,128 +1,17 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-EV, I-CV, I-OG
-1	최근	O	O	O, B-PS, B-LC, B-OG, B-DT
-2	엔	B-OG	B-OG	B-OG, O, I-OG, B-PS, B-LC
-3	##씨	I-OG	I-OG	I-OG, O, I-LC, I-PS, I-CV
-4	##와	O	O	O, I-OG, I-CV, I-DT, I-PS
-5	내년	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-6	시즌	I-DT	I-DT	I-DT, O, I-QT, B-DT, I-CV
-7	재계약	O	O	O, B-CV, I-DT, B-OG, B-PS
-8	##에	O	O	O, B-PS, B-OG, B-LC, I-CV
-9	합의	O	O	O, B-PS, B-CV, B-OG, B-LC
-10	##한	O	O	O, B-PS, I-PS, I-OG, B-LC
-11	테	B-PS	B-PS	B-PS, O, I-PS, B-OG, B-LC
-12	##임즈	I-PS	I-PS	I-PS, O, I-OG, B-PS, I-LC
-13	##는	O	O	O, I-PS, I-OG, B-CV, I-EV
-14	경기	O	O	O, B-LC, B-CV, B-EV, B-TM
-15	뒤	O	O	O, B-LC, B-PS, B-TM, I-EV
-16	“	O	O	O, B-LC, B-PS, B-CV, I-EV
-17	기록	O	O	O, B-CV, B-LC, B-PS, B-TM
-18	달성	O	O	O, B-CV, B-LC, B-PS, I-EV
-19	##을	O	O	O, B-PS, B-CV, B-LC, B-OG
-20	앞두	O	O	O, B-PS, B-CV, B-LC, B-OG
-21	##고	O	O	O, B-PS, B-LC, B-OG, B-CV
-22	부담감	O	O	O, B-CV, B-PS, B-LC, B-TM
-23	##이	O	O	O, B-PS, B-CV, B-OG, B-LC
-24	컸	O	O	O, B-PS, B-CV, B-OG, B-LC
-25	##는데	O	O	O, B-PS, B-LC, B-CV, B-OG
-26	(	O	O	O, B-PS, B-LC, B-CV, B-OG
-27	기록	O	O	O, B-CV, B-LC, B-PS, B-TM
-28	달성	O	O	O, B-CV, B-PS, B-LC, B-OG
-29	##을	O	O	O, B-PS, B-CV, B-LC, B-OG
-30	해서	O	O	O, B-PS, B-LC, B-CV, B-OG
-31	)	O	O	O, B-LC, B-PS, B-CV, B-OG
-32	다행	O	O	O, B-CV, B-PS, B-TM, B-QT
-33	##이다	O	O	O, B-PS, B-CV, I-CV, I-EV
-34	.	O	O	O, B-LC, B-PS, B-CV, B-OG
-35	한편	O	O	O, B-QT, B-PS, B-CV, B-TM
-36	##으로	O	O	O, I-QT, B-PS, B-QT, I-LC
-37	##는	O	O	O, B-PS, I-QT, B-QT, B-TM
-38	피곤	O	O	O, B-TM, B-CV, B-LC, B-MT
-39	##함	O	O	O, I-TM, I-PS, I-LC, I-TR
-40	##도	O	O	O, B-PS, I-PS, I-TM, B-LC
-41	느껴진다	O	O	O, B-CV, B-PS, B-LC, B-TM
-42	”	O	O	O, B-CV, B-PS, B-LC, B-TM
-43	면서	O	O	O, B-LC, B-PS, B-CV, B-OG
-44	“	O	O	O, B-LC, B-CV, B-PS, B-OG
-45	경기	O	O	O, B-CV, B-EV, B-LC, B-PS
-46	전	O	O	O, B-PS, B-LC, I-EV, B-CV
-47	전	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-48	##준호	I-PS	I-PS	I-PS, O, I-OG, B-PS, I-LC
-49	코치	B-CV	B-CV	B-CV, O, I-CV, I-PS, B-TM
-50	##와	O	O	O, I-CV, B-CV, I-EV, I-AF
-51	오늘	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-52	선발	B-CV	B-CV	B-CV, O, I-CV, B-TM, I-DT
-53	투수	I-CV	I-CV	I-CV, B-CV, O, I-EV, I-AF
-54	##에	O	O	O, I-CV, B-CV, I-EV, I-OG
-55	대해	O	O	O, B-LC, B-PS, B-OG, B-CV
-56	얘기	O	O	O, B-CV, B-LC, B-PS, B-TM
-57	##를	O	O	O, B-CV, B-LC, B-PS, B-OG
-58	나	O	O	O, B-LC, B-CV, B-PS, B-TM
-59	##두	O	O	O, B-LC, B-PS, I-LC, B-CV
-60	##면서	O	O	O, B-PS, B-LC, B-CV, B-OG
-61	충분히	O	O	O, B-LC, B-CV, B-PS, B-TM
-62	대비	O	O	O, B-CV, B-LC, B-PS, B-TM
-63	##를	O	O	O, B-PS, B-CV, B-LC, B-OG
-64	했	O	O	O, B-PS, B-CV, B-LC, B-OG
-65	##다	O	O	O, B-CV, B-LC, B-PS, B-OG
-66	.	O	O	O, B-LC, B-PS, B-CV, B-OG
-67	도루	B-TM	B-TM	B-TM, O, I-TM, B-CV, B-QT
-68	##를	O	O	O, I-TM, I-CV, I-AF, I-EV
-69	시도	O	O	O, B-CV, B-TM, B-LC, B-OG
-70	##하면	O	O	O, B-CV, B-PS, B-LC, B-OG
-71	##서	O	O	O, B-PS, B-LC, B-CV, B-OG
-72	제발	O	O	O, B-CV, B-TM, B-LC, B-QT
-73	견제	O	B-TM	B-TM, O, B-CV, I-TM, B-TR
-74	##만	O	O	O, I-TM, I-CV, I-QT, I-EV
-75	하	O	O	O, B-CV, B-LC, B-PS, B-OG
-76	##지	O	O	O, B-CV, B-LC, B-PS, B-OG
-77	말라	O	O	O, B-CV, B-PS, B-LC, B-TM
-78	##고	O	O	O, B-CV, B-PS, B-LC, B-OG
-79	생각	O	O	O, B-CV, B-PS, B-TM, B-LC
-80	##하고	O	O	O, B-CV, B-PS, B-LC, B-TM
-81	스타트	O	O	O, B-TM, B-CV, B-AF, B-EV
-82	##를	O	O	O, B-CV, I-AF, I-TM, I-CV
-83	끊	O	O	O, B-CV, B-LC, B-OG, B-TM
-84	##었	O	O	O, B-CV, B-PS, B-OG, B-LC
-85	##는데	O	O	O, B-CV, B-LC, B-TM, B-PS
-86	다리	B-AM	B-AM	B-AM, O, B-TM, B-TR, B-PS
-87	##가	O	O	O, I-TM, I-AF, B-PS, I-CV
-88	조금	O	O	O, B-TM, B-PS, B-LC, B-CV
-89	무거운	O	O	O, B-TM, B-CV, B-LC, B-PS
-90	느낌	O	O	O, B-CV, B-PS, B-LC, B-TM
-91	##이	O	O	O, B-PS, B-CV, B-OG, B-LC
-92	##었	O	O	O, B-CV, B-LC, B-PS, B-OG
-93	##다	O	O	O, B-CV, B-LC, B-TM, B-PS
-94	.	O	O	O, B-LC, B-PS, B-CV, B-OG
-95	실패	O	O	O, B-TM, B-CV, B-LC, B-OG
-96	##한	O	O	O, B-LC, B-PS, B-CV, B-TM
-97	줄	O	O	O, B-PS, B-LC, B-TM, B-CV
-98	알	O	O	O, B-CV, B-PS, B-TM, B-OG
-99	##았	O	O	O, B-CV, B-PS, B-OG, B-TM
-100	##는데	O	O	O, B-CV, B-TM, B-PS, B-LC
-101	송구	B-TM	B-TM	B-TM, O, B-CV, I-TM, B-AM
-102	##가	O	O	O, I-TM, I-CV, I-AF, I-QT
-103	빗	O	O	O, B-TM, B-LC, B-CV, B-PS
-104	##나가	O	O	O, B-LC, B-PS, B-TM, B-CV
-105	##면서	O	O	O, B-LC, B-PS, B-CV, B-OG
-106	운	O	O	O, B-CV, B-LC, B-TM, B-PS
-107	##이	O	O	O, B-PS, B-CV, B-OG, B-LC
-108	좋	O	O	O, B-LC, B-CV, B-PS, B-OG
-109	##게	O	O	O, B-LC, B-PS, B-OG, B-CV
-110	대기	O	O	O, B-TM, B-CV, B-QT, B-LC
-111	##록	O	O	O, I-TM, I-EV, I-CV, I-QT
-112	##을	O	O	O, B-CV, B-PS, I-EV, B-LC
-113	달성	O	O	O, B-CV, B-LC, B-OG, B-TM
-114	##할	O	O	O, B-LC, B-PS, B-OG, B-CV
-115	수	O	O	O, B-CV, B-PS, B-OG, B-LC
-116	있	O	O	O, B-CV, B-PS, B-OG, B-LC
-117	##었	O	O	O, B-CV, B-PS, B-LC, B-OG
-118	##다	O	O	O, B-CV, B-PS, B-LC, B-OG
-119	”	O	O	O, B-CV, B-LC, B-TM, B-PS
-120	고	O	O	O, B-CV, B-LC, B-PS, B-TM
-121	소감	O	O	O, B-CV, B-TM, B-LC, B-PS
-122	##을	O	O	O, B-CV, B-LC, B-PS, B-OG
-123	밝혔	O	O	O, B-CV, B-LC, B-PS, B-TM
-124	##다	O	O	O, B-CV, I-EV, I-CV, B-LC
-125	.	O	O	O, B-LC, B-PS, B-CV, B-OG
-126	[SEP]	O	O	O, B-CV, B-LC, B-PS, I-EV
+	text	label	preds
+0	[CLS]	O	O
+1	법인	O	O
+2	##카드	O	O
+3	유용	O	O
+4	·	O	O
+5	뇌물	O	B-CV
+6	##수수	O	I-CV
+7	의혹	O	O
+8	,	O	O
+9	노	B-PS	B-PS
+10	前	O	O
+11	대통령	B-CV	B-CV
+12	명예훼손	B-CV	B-CV
+13	혐의	O	O
+14	기소	O	O
+15	[SEP]	O	O

@@ -1,44 +1,48 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	A	O	O	O, B-PS, B-CV, B-LC, B-TM
-2	씨	O	O	O, B-CV, B-PS, I-CV, I-EV
-3	##는	O	O	O, B-CV, B-PS, B-LC, B-TM
-4	특목고	O	O	O, B-OG, B-EV, B-CV, B-FD
-5	입시	O	O	O, I-EV, I-OG, B-CV, B-EV
-6	##에	O	O	O, B-CV, B-PS, I-EV, B-LC
-7	자기	O	O	O, B-CV, B-TR, B-PS, B-QT
-8	##주	O	O	O, I-CV, B-CV, I-TR, I-QT
-9	##도	O	O	O, I-CV, I-TR, B-CV, I-QT
-10	학습	O	O	O, I-CV, B-CV, I-TR, I-QT
-11	##전	O	O	O, I-CV, B-CV, I-TR, I-QT
-12	##형	O	O	O, I-CV, B-CV, I-TR, I-QT
-13	##이	O	O	O, B-PS, I-CV, B-CV, I-QT
-14	도입	O	O	O, B-CV, I-CV, B-PS, B-OG
-15	##된	O	O	O, B-PS, B-CV, I-CV, B-OG
-16	##다는	O	O	O, B-PS, B-CV, B-OG, B-LC
-17	소식	O	O	O, B-CV, B-LC, B-OG, B-PS
-18	##을	O	O	O, B-CV, B-PS, B-LC, B-OG
-19	접한	O	O	O, B-CV, B-TM, B-PS, B-LC
-20	뒤	O	O	O, B-CV, B-TM, B-LC, B-PS
-21	아들	B-CV	B-CV	B-CV, O, B-OG, B-PS, B-TM
-22	##을	O	O	O, I-CV, B-CV, I-EV, I-OG
-23	1	B-DT	B-DT	B-DT, O, B-QT, I-DT, B-OG
-24	##학	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-OG
-25	##기부	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-OG
-26	##터	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-OG
-27	방과	O	O	O, I-DT, B-OG, B-CV, I-OG
-28	##후	O	O	O, I-OG, I-CV, I-TM, I-LC
-29	##학교	O	O	O, I-OG, I-CV, I-TM, I-LC
-30	‘	O	O	O, B-CV, B-OG, B-LC, I-OG
-31	영어	B-CV	B-OG	B-OG, B-CV, O, B-LC, B-AF
-32	##심	O	I-OG	I-OG, O, I-AF, I-CV, I-LC
-33	##화	O	I-OG	I-OG, O, I-AF, I-CV, I-LC
-34	##반	O	I-OG	I-OG, O, I-AF, I-CV, I-LC
-35	’	O	O	O, I-OG, I-CV, B-CV, I-AF
-36	에	O	O	O, B-CV, B-OG, B-PS, B-TM
-37	등록	O	O	O, B-CV, B-TM, B-OG, B-LC
-38	##시	O	O	O, I-CV, B-CV, B-PS, B-LC
-39	##켰	O	O	O, B-LC, B-CV, B-PS, B-QT
-40	##다	O	O	O, B-CV, B-LC, B-TM, B-PS
-41	.	O	O	O, B-CV, B-LC, B-PS, B-OG
-42	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	특히	O	O
+2	화장	O	O
+3	##을	O	O
+4	할	O	O
+5	때	O	O
+6	아이	O	O
+7	##라인	O	O
+8	##이	O	O
+9	너무	O	O
+10	두껍	O	O
+11	##지	O	O
+12	않	O	O
+13	##도록	O	O
+14	조심	O	O
+15	##해야	O	O
+16	하	O	O
+17	##며	O	O
+18	눈	B-AM	B-AM
+19	##화	O	O
+20	##장	O	O
+21	##은	O	O
+22	펄	O	O
+23	##화	O	O
+24	##장	O	O
+25	##을	O	O
+26	하지	O	O
+27	않	O	O
+28	##는	O	O
+29	편이	O	O
+30	낫	O	O
+31	##고	O	O
+32	립	O	B-CV
+33	##글	O	I-CV
+34	##로스	O	I-CV
+35	##도	O	O
+36	너무	O	O
+37	번들	O	O
+38	##거리	O	O
+39	##지	O	O
+40	않	O	O
+41	##도록	O	O
+42	조심	O	O
+43	##해야	O	O
+44	한다	O	O
+45	.	O	O
+46	[SEP]	O	O

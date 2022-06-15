@@ -1,63 +1,52 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-EV, I-OG
-1	3	B-DT	B-DT	B-DT, O, I-DT, B-PS, B-EV
-2	##일	I-DT	I-DT	I-DT, O, B-DT, I-PS, I-EV
-3	오전	B-TI	B-TI	B-TI, I-TI, I-DT, O, B-EV
-4	5	I-TI	I-TI	I-TI, B-TI, I-DT, O, I-TR
-5	##시	I-TI	I-TI	I-TI, O, B-TI, I-TR, I-QT
-6	5	I-TI	I-TI	I-TI, O, B-TI, I-TR, I-LC
-7	##분	I-TI	I-TI	I-TI, O, I-TR, I-LC, I-QT
-8	##경	I-TI	I-TI	I-TI, O, I-LC, I-TR, I-QT
-9	경기	B-LC	B-LC	B-LC, I-LC, O, I-TI, B-OG
-10	연천	B-LC	B-LC	B-LC, I-LC, B-OG, O, B-PS
-11	##군	I-LC	I-LC	I-LC, O, B-LC, I-OG, I-PS
-12	육군	B-OG	B-OG	B-OG, B-AF, B-LC, O, I-OG
-13	모	O	O	O, I-OG, B-PS, I-LC, B-CV
-14	부대	O	O	O, B-OG, I-OG, B-LC, B-AF
-15	##의	O	O	O, B-PS, I-OG, B-CV, B-LC
-16	전방	B-OG	O	O, B-AF, B-OG, B-TM, B-LC
-17	##관	I-OG	I-AF	I-AF, O, I-OG, I-TM, I-LC
-18	##측	I-OG	O	O, I-AF, I-LC, I-TM, I-OG
-19	##소	I-OG	O	O, I-AF, I-LC, I-TM, I-OG
-20	(	O	O	O, I-AF, I-LC, B-LC, I-TM
-21	GO	B-OG	B-AF	B-AF, B-OG, O, B-LC, B-TM
-22	##P	I-OG	I-AF	I-AF, O, I-OG, I-LC, I-TM
-23	)	O	O	O, I-AF, I-LC, I-OG, B-AF
-24	철책	O	O	O, B-AF, B-LC, I-AF, B-TM
-25	대기	O	O	O, B-LC, B-AF, I-AF, B-PS
-26	##초	O	O	O, I-LC, B-LC, I-AF, B-AF
-27	##소	O	O	O, I-LC, B-LC, I-AF, B-PS
-28	##에서	O	O	O, B-PS, B-CV, B-LC, B-TM
-29	수류	B-AF	B-AF	B-AF, I-AF, O, B-TM, B-PS
-30	##탄	I-AF	I-AF	I-AF, O, I-TM, I-EV, I-QT
-31	1	B-QT	B-QT	B-QT, I-AF, I-QT, O, B-DT
-32	##발	I-QT	I-QT	I-QT, O, I-AF, I-LC, B-QT
-33	##이	O	O	O, B-PS, I-QT, B-CV, I-PS
-34	터져	O	O	O, B-PS, B-CV, B-LC, B-QT
-35	최	B-PS	B-PS	B-PS, O, I-PS, B-LC, B-OG
-36	##모	O	O	O, I-PS, B-PS, B-CV, B-LC
-37	이병	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-QT
-38	(	O	O	O, I-CV, B-PS, B-CV, B-QT
-39	21	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-PS
-40	)	O	O	O, I-QT, B-PS, I-PS, B-CV
-41	이	O	O	O, B-PS, B-CV, B-LC, B-QT
-42	숨지	O	O	O, B-CV, B-PS, B-TM, B-QT
-43	##고	O	O	O, B-PS, B-CV, B-LC, B-QT
-44	최	B-PS	B-PS	B-PS, O, I-PS, B-LC, B-OG
-45	이병	B-CV	B-CV	B-CV, O, I-PS, I-CV, B-TM
-46	##과	O	O	O, B-PS, I-CV, B-CV, I-PS
-47	함께	O	O	O, B-PS, B-CV, B-QT, B-TM
-48	있	O	O	O, B-PS, B-CV, B-QT, B-TM
-49	##던	O	O	O, B-PS, B-CV, B-QT, B-AM
-50	박모	O	O	O, B-PS, B-CV, B-QT, B-AM
-51	소위	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-PS
-52	(	O	O	O, I-CV, B-PS, B-CV, I-QT
-53	24	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-PS
-54	)	O	O	O, I-QT, B-PS, B-CV, I-PS
-55	가	O	O	O, B-PS, B-CV, B-LC, B-TM
-56	부상	O	O	O, B-CV, B-TM, B-LC, B-QT
-57	##을	O	O	O, B-PS, I-CV, B-CV, I-EV
-58	당했	O	O	O, B-CV, B-PS, B-LC, B-QT
-59	##다	O	O	O, B-CV, B-PS, B-LC, B-TM
-60	.	O	O	O, B-PS, B-LC, B-CV, B-TM
-61	[SEP]	O	O	O, B-PS, B-LC, B-CV, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	이	O	O
+2	과정	O	O
+3	##에	O	O
+4	##서	O	O
+5	글로	B-OG	B-OG
+6	##비스	I-OG	I-OG
+7	##는	O	O
+8	단순히	O	O
+9	부품	O	O
+10	운송	O	O
+11	##만	O	O
+12	하	O	O
+13	##는	O	O
+14	것	O	O
+15	##이	O	O
+16	아니	O	O
+17	##라	O	O
+18	국내	O	O
+19	부품	O	O
+20	##을	O	O
+21	구입	O	O
+22	##해	O	O
+23	현대	B-OG	B-OG
+24	·	O	I-OG
+25	기아차	B-OG	I-OG
+26	해외	O	O
+27	공장	O	O
+28	##에	O	O
+29	판매	O	O
+30	##를	O	O
+31	하	O	O
+32	##는	O	O
+33	‘	O	O
+34	중간	B-CV	B-CV
+35	도매	I-CV	I-CV
+36	##상	I-CV	I-CV
+37	’	O	O
+38	역할	O	O
+39	##을	O	O
+40	하	O	O
+41	##면	O	O
+42	##서	O	O
+43	이윤	O	O
+44	##을	O	O
+45	남기	O	O
+46	##고	O	O
+47	있	O	O
+48	##다	O	O
+49	.	O	O
+50	[SEP]	O	O

@@ -1,54 +1,41 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-QT
-1	3	B-QT	B-CV	B-CV, B-QT, B-TM, B-EV, O
-2	##번	I-QT	I-CV	I-CV, I-QT, B-CV, I-EV, I-TM
-3	타자	B-CV	I-CV	I-CV, B-CV, I-QT, O, I-EV
-4	카를로스	B-PS	B-PS	B-PS, O, I-PS, B-OG, B-LC
-5	곤	I-PS	I-PS	I-PS, O, B-PS, I-LC, I-OG
-6	##살	I-PS	I-PS	I-PS, O, I-LC, B-PS, I-OG
-7	##레스	I-PS	I-PS	I-PS, O, I-LC, B-PS, B-LC
-8	##에	O	O	O, I-PS, B-CV, I-LC, B-LC
-9	##게	O	O	O, B-TM, B-CV, B-LC, B-QT
-10	체인지업	B-TM	B-TM	B-TM, I-TM, O, B-CV, B-QT
-11	##을	O	O	O, I-TM, I-CV, I-AF, I-EV
-12	던지	O	O	O, B-TM, B-CV, B-PS, B-QT
-13	##다	O	O	O, B-TM, B-LC, B-PS, B-OG
-14	불의	O	O	O, B-TM, B-CV, B-LC, B-PS
-15	##의	O	O	O, B-PS, B-LC, B-TM, B-QT
-16	홈런	B-TM	B-TM	B-TM, O, I-TM, B-CV, B-AF
-17	##을	O	O	O, I-TM, I-AF, I-QT, I-EV
-18	허용	O	O	O, B-CV, B-LC, B-TM, B-OG
-19	##하	O	O	O, B-PS, B-LC, B-OG, B-TM
-20	##긴	O	O	O, B-LC, B-PS, B-TM, B-QT
-21	했	O	O	O, B-LC, B-OG, B-CV, B-TM
-22	##지만	O	O	O, B-LC, B-QT, B-TM, B-OG
-23	6	B-EV	B-EV	B-EV, B-QT, B-TI, B-DT, O
-24	##회	I-EV	I-EV	I-EV, I-QT, I-TI, I-DT, O
-25	##까	O	O	O, I-EV, I-DT, I-TI, I-QT
-26	##지	O	O	O, I-DT, I-TI, I-EV, I-QT
-27	매	O	O	O, I-DT, B-PS, B-QT, I-EV
-28	이닝	O	O	O, I-QT, B-QT, I-DT, I-EV
-29	2	B-QT	B-QT	B-QT, I-QT, O, B-TM, B-EV
-30	##개	I-QT	I-QT	I-QT, O, I-LC, I-EV, I-TM
-31	##씩	I-QT	I-QT	I-QT, O, I-LC, I-TM, I-PS
-32	,	O	O	O, I-QT, B-CV, B-TM, B-LC
-33	총	O	O	O, B-QT, B-TM, I-QT, B-DT
-34	12	B-QT	B-QT	B-QT, I-QT, O, I-LC, B-PS
-35	##개	I-QT	I-QT	I-QT, O, I-LC, I-PS, I-TM
-36	##의	O	O	O, I-QT, B-PS, B-CV, I-EV
-37	삼진	B-TM	B-TM	B-TM, O, B-CV, B-QT, I-TM
-38	##을	O	O	O, I-TM, I-QT, I-CV, I-AF
-39	잡아내	O	O	O, B-QT, B-OG, B-CV, B-LC
-40	‘	O	O	O, B-PS, B-CV, B-LC, B-OG
-41	닥터	O	B-CV	B-CV, O, B-PS, B-AF, B-OG
-42	K	O	B-PS	B-PS, B-CV, O, I-PS, I-CV
-43	’	O	O	O, I-CV, I-PS, I-OG, I-QT
-44	로서	O	O	O, B-LC, B-PS, B-CV, B-QT
-45	##의	O	O	O, B-PS, B-LC, B-CV, B-OG
-46	면모	O	O	O, B-CV, B-PS, B-TM, B-OG
-47	##를	O	O	O, B-CV, I-OG, B-OG, B-PS
-48	과시	O	O	O, B-CV, B-TM, B-LC, B-QT
-49	##했	O	O	O, B-CV, B-OG, B-LC, B-PS
-50	##다	O	O	O, B-CV, B-OG, B-LC, B-TM
-51	.	O	O	O, B-PS, B-LC, B-CV, B-OG
-52	[SEP]	O	O	O, B-CV, B-PS, B-LC, I-EV
+	text	label	preds
+0	[CLS]	O	O
+1	1	B-QT	B-QT
+2	##심	I-QT	I-QT
+3	##에	O	O
+4	##서	O	O
+5	당선	B-CV	O
+6	무효	I-CV	O
+7	##형	I-CV	O
+8	##이	O	O
+9	선고	O	O
+10	##된	O	O
+11	최	B-PS	B-PS
+12	의원	B-CV	B-CV
+13	##의	O	O
+14	2	B-QT	B-QT
+15	##심	I-QT	I-QT
+16	선고	O	O
+17	##를	O	O
+18	앞두	O	O
+19	##고	O	O
+20	한국	B-OG	B-OG
+21	##관광	I-OG	I-OG
+22	##협회	I-OG	I-OG
+23	##가	O	O
+24	기부	O	O
+25	##행위	O	O
+26	##가	O	O
+27	아니	O	O
+28	##라는	O	O
+29	의견	O	O
+30	##의	O	O
+31	탄원서	O	O
+32	##를	O	O
+33	재판부	O	O
+34	##에	O	O
+35	제출	O	O
+36	##했	O	O
+37	##다	O	O
+38	.	O	O
+39	[SEP]	O	O

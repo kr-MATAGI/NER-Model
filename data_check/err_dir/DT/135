@@ -1,19 +1,59 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	[	O	O	O, B-OG, B-LC, B-AF, B-DT
-2	월	B-DT	O	O, B-AF, B-CV, B-LC, B-PS
-3	##요	I-DT	O	O, I-AF, I-CV, I-PS, I-LC
-4	##바	B-CV	B-CV	B-CV, O, I-CV, I-AF, I-PS
-5	##둑	I-CV	I-CV	I-CV, O, I-AF, I-TM, B-CV
-6	]	O	O	O, I-CV, I-AF, I-OG, I-EV
-7	""""	O	O	O, B-LC, B-CV, B-OG, B-TM
-8	여성	O	O	O, B-CV, B-LC, B-OG, B-TM
-9	바둑	B-CV	B-CV	B-CV, O, B-TM, I-CV, B-AF
-10	첫	O	O	O, I-CV, I-AF, B-QT, B-PS
-11	500	O	O	O, B-QT, B-PS, B-OG, B-LC
-12	[UNK]	O	O	O, B-CV, B-OG, B-PS, B-LC
-13	절대	O	O	O, B-LC, B-CV, B-TM, B-OG
-14	양보	O	O	O, B-CV, B-TM, B-LC, B-OG
-15	못해	O	O	O, B-CV, B-LC, B-PS, B-TM
-16	""""	O	O	O, B-CV, B-LC, B-OG, B-PS
-17	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	수도권	B-LC	B-LC
+2	##의	O	O
+3	집값	O	O
+4	상승세	O	O
+5	##가	O	O
+6	언제	O	O
+7	##까	O	O
+8	##지	O	O
+9	갈	O	O
+10	것	O	O
+11	##으로	O	O
+12	보	O	O
+13	##느	O	O
+14	##냐	O	O
+15	##는	O	O
+16	질문	O	O
+17	##에	O	O
+18	##는	O	O
+19	‘	O	O
+20	연말	B-DT	B-DT
+21	##까	I-DT	I-DT
+22	##지	I-DT	I-DT
+23	’	O	O
+24	(	O	O
+25	9	B-QT	B-QT
+26	##명	I-QT	I-QT
+27	·	O	O
+28	45	B-QT	B-QT
+29	%	I-QT	I-QT
+30	)	O	O
+31	라거나	O	O
+32	‘	O	O
+33	내년	B-DT	B-DT
+34	상반기	I-DT	I-DT
+35	(	I-DT	O
+36	1	I-DT	B-DT
+37	##∼	I-DT	I-DT
+38	##6	I-DT	I-DT
+39	##월	I-DT	I-DT
+40	)	I-DT	O
+41	까지	I-DT	O
+42	’	O	O
+43	(	O	O
+44	9	B-QT	B-QT
+45	##명	I-QT	I-QT
+46	·	O	O
+47	45	B-QT	B-QT
+48	%	I-QT	I-QT
+49	)	O	O
+50	라는	O	O
+51	대답	O	O
+52	##이	O	O
+53	많	O	O
+54	##았	O	O
+55	##다	O	O
+56	.	O	O
+57	[SEP]	O	O

@@ -1,15 +1,37 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	그	O	O	O, B-CV, B-OG, B-TM, B-LC
-2	낙태	O	B-CV	B-CV, O, I-CV, B-TM, B-PT
-3	##금	O	I-CV	I-CV, O, B-CV, I-TM, I-OG
-4	##지	O	I-CV	I-CV, O, B-CV, I-OG, I-TM
-5	조항	O	I-CV	I-CV, O, B-CV, I-OG, I-TM
-6	##을	O	O	O, I-CV, B-CV, I-OG, I-AF
-7	보	O	O	O, B-CV, B-OG, B-TM, B-LC
-8	##면	O	O	O, B-OG, B-CV, B-LC, B-PS
-9	임신	B-TM	O	O, B-TM, B-CV, B-AM, I-TM
-10	##한	O	O	O, I-TM, I-CV, B-TM, B-PS
-11	부녀	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-QT
-12	##가	O	O	O, I-CV, B-CV, I-OG, I-AF
-13	[SEP]	O	O	O, B-CV, B-LC, B-TM, I-CV
+	text	label	preds
+0	[CLS]	O	O
+1	박	B-PS	B-PS
+2	##씨	O	O
+3	##는	O	O
+4	파라	B-LC	B-LC
+5	##과이	I-LC	I-LC
+6	##에	O	O
+7	##서	O	O
+8	가장	O	O
+9	역사가	O	O
+10	긴	O	O
+11	최대	O	O
+12	민영	O	O
+13	##채	O	O
+14	##널	O	O
+15	(	O	O
+16	국영	B-OG	O
+17	티브이	I-OG	B-TM
+18	##는	O	O
+19	올해	B-DT	B-DT
+20	처음	O	O
+21	시작	O	O
+22	##됐	O	O
+23	##다	O	O
+24	)	O	O
+25	인	O	O
+26	<	O	O
+27	채널	B-AF	B-AF
+28	##9	I-AF	I-AF
+29	>	O	O
+30	의	O	O
+31	인기	O	O
+32	##앵	O	B-CV
+33	##커	O	I-CV
+34	.	O	O
+35	[SEP]	O	O

@@ -1,15 +1,34 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, B-CV, I-OG, I-EV
-1	경찰관	B-CV	B-CV	B-CV, O, B-OG, I-CV, B-AF
-2	보	O	O	O, I-CV, B-TM, B-CV, I-OG
-3	##는	O	O	O, B-TM, B-LC, B-PS, I-TM
-4	앞	O	B-TM	B-TM, O, B-QT, B-LC, B-CV
-5	##에서	O	O	O, I-TM, I-QT, B-TM, I-AF
-6	112	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-TM
-7	##로	O	O	O, I-QT, I-DT, I-EV, I-OG
-8	허위	O	O	O, B-CV, B-TM, B-QT, B-PS
-9	신고	O	O	O, B-CV, I-CV, B-TM, B-QT
-10	##해	O	O	O, I-CV, B-PS, B-CV, I-QT
-11	연행	O	O	O, B-CV, B-TM, B-OG, B-LC
-12	”	O	O	O, I-CV, B-CV, I-OG, I-EV
-13	[SEP]	O	O	O, B-CV, B-TM, B-LC, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	국내	O	O
+2	원자력	O	O
+3	연구	O	O
+4	##의	O	O
+5	선구자	O	B-CV
+6	역할	O	O
+7	##을	O	O
+8	했	O	O
+9	##던	O	O
+10	윤	B-PS	B-PS
+11	##세	I-PS	I-PS
+12	##원	I-PS	I-PS
+13	(	O	O
+14	91	B-QT	B-QT
+15	·	O	O
+16	사진	O	O
+17	)	O	O
+18	박사	B-CV	B-CV
+19	##가	O	O
+20	16	B-DT	B-DT
+21	##일	I-DT	I-DT
+22	오후	B-TI	B-TI
+23	10	I-TI	I-TI
+24	##시	I-TI	I-TI
+25	노	O	O
+26	##환	O	O
+27	##으로	O	O
+28	별세	O	O
+29	##했	O	O
+30	##다	O	O
+31	.	O	O
+32	[SEP]	O	O

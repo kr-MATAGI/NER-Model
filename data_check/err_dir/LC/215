@@ -1,25 +1,52 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-EV, I-CV
-1	특히	O	O	O, B-CV, B-OG, B-LC, B-TM
-2	2	B-QT	B-QT	B-QT, B-EV, O, I-QT, B-TM
-3	##차	I-QT	I-QT	I-QT, O, I-EV, I-DT, I-TM
-4	핵실험	O	O	O, B-LC, I-QT, I-EV, B-EV
-5	후	O	O	O, I-EV, I-AF, I-LC, B-LC
-6	공식	O	O	O, B-LC, B-CV, B-TM, B-PS
-7	반대	O	O	O, B-CV, B-LC, B-TM, B-OG
-8	##성	O	O	O, B-LC, B-CV, B-PS, B-AF
-9	##명	O	O	O, B-LC, I-LC, I-AF, I-EV
-10	##을	O	O	O, B-CV, B-LC, B-PS, B-OG
-11	낸	O	O	O, B-OG, B-LC, B-CV, B-PS
-12	중국	B-LC	B-OG	B-OG, B-LC, O, I-OG, B-PS
-13	##의	O	O	O, I-OG, I-LC, B-CV, B-OG
-14	태도	O	O	O, B-CV, B-OG, B-LC, B-TM
-15	##에	O	O	O, B-CV, B-OG, B-LC, B-PS
-16	배신감	O	O	O, B-CV, B-TM, B-LC, B-PS
-17	##을	O	O	O, B-CV, I-CV, I-AF, I-OG
-18	느끼	O	O	O, B-CV, B-TM, B-LC, B-OG
-19	##고	O	O	O, B-CV, I-OG, I-AF, B-TM
-20	있	O	O	O, B-CV, B-TM, B-LC, B-PS
-21	##다	O	O	O, B-CV, B-LC, B-TM, I-OG
-22	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-23	[SEP]	O	O	O, B-CV, B-LC, B-PS, I-EV
+	text	label	preds
+0	[CLS]	O	O
+1	11	B-DT	B-DT
+2	##일	I-DT	I-DT
+3	부산시	B-OG	B-OG
+4	##교육	I-OG	I-OG
+5	##청	I-OG	I-OG
+6	##과	O	O
+7	경찰	B-OG	B-OG
+8	등의	O	O
+9	말	O	O
+10	##을	O	O
+11	종합	O	O
+12	##하면	O	O
+13	,	O	O
+14	부산시	B-OG	B-OG
+15	##교육	I-OG	I-OG
+16	##청	I-OG	I-OG
+17	산하	O	O
+18	부산	B-LC	B-OG
+19	##맹	O	I-OG
+20	##학교	O	I-OG
+21	남학생	O	O
+22	##이	O	O
+23	지난	B-DT	B-DT
+24	8	I-DT	I-DT
+25	##월	I-DT	I-DT
+26	중순	I-DT	I-DT
+27	방과	O	O
+28	##후	O	O
+29	##학교	O	O
+30	수업	O	O
+31	뒤	O	O
+32	학교	O	O
+33	실습	O	O
+34	##실	O	O
+35	##에	O	O
+36	##서	O	O
+37	같	O	O
+38	##은	O	O
+39	학년	O	O
+40	##의	O	O
+41	여학생	O	O
+42	##과	O	O
+43	성	O	O
+44	##관계	O	O
+45	##를	O	O
+46	맺	O	O
+47	##었	O	O
+48	##다	O	O
+49	.	O	O
+50	[SEP]	O	O

@@ -1,44 +1,59 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-EV, B-CV, I-OG, I-CV
-1	경남	B-OG	B-OG	B-OG, B-LC, O, B-EV, B-AF
-2	##도	I-OG	I-OG	I-OG, O, B-OG, I-EV, I-LC
-3	##의회	I-OG	I-OG	I-OG, O, I-LC, I-EV, I-AF
-4	허기	B-PS	B-PS	B-PS, O, B-OG, I-PS, I-OG
-5	##도	I-PS	I-PS	I-PS, O, I-OG, I-LC, B-PS
-6	의장	B-CV	B-CV	B-CV, O, I-PS, B-OG, I-CV
-7	##은	O	O	O, I-CV, I-EV, B-CV, I-OG
-8	이날	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-QT
-9	기자	O	O	O, B-EV, I-EV, I-DT, B-CV
-10	##간	O	O	O, I-EV, B-EV, B-LC, B-CV
-11	##담회	O	O	O, I-EV, B-EV, B-LC, I-OG
-12	##에서	O	O	O, I-EV, B-LC, B-CV, B-PS
-13	""""	O	O	O, B-LC, B-CV, B-EV, B-TM
-14	국책	O	O	O, B-TM, B-OG, B-EV, B-AF
-15	##사업	O	O	O, I-TM, I-OG, I-EV, I-TR
-16	##에	O	O	O, I-TM, I-OG, I-EV, I-AF
-17	대해	O	O	O, B-OG, B-LC, B-PS, B-CV
-18	지방	B-OG	O	O, B-OG, B-CV, I-OG, B-LC
-19	##자치단체	I-OG	O	O, I-OG, B-OG, I-CV, I-EV
-20	##가	O	O	O, I-OG, B-PS, I-EV, B-LC
-21	시정	O	O	O, B-CV, B-LC, B-TM, B-OG
-22	##을	O	O	O, B-PS, B-CV, B-LC, I-EV
-23	건의	O	O	O, B-CV, B-LC, B-EV, B-TM
-24	##할	O	O	O, B-PS, B-LC, B-CV, I-EV
-25	순	O	O	O, B-LC, B-PS, B-TM, B-CV
-26	있	O	O	O, B-LC, B-CV, B-PS, I-EV
-27	##겠	O	O	O, B-CV, B-LC, I-EV, B-PS
-28	##지만	O	O	O, B-LC, B-CV, I-EV, B-PS
-29	사업	O	O	O, B-CV, B-LC, I-EV, B-TM
-30	자체	O	O	O, B-CV, B-PS, B-LC, I-EV
-31	##에	O	O	O, B-CV, B-LC, B-TM, B-PS
-32	반대	O	O	O, B-CV, B-LC, B-TM, B-OG
-33	##해	O	O	O, B-LC, B-CV, B-PS, B-TM
-34	##선	O	O	O, B-LC, B-PS, B-CV, B-TM
-35	안	O	O	O, B-CV, B-LC, B-TM, B-OG
-36	된다	O	O	O, B-CV, B-LC, I-EV, I-OG
-37	""""	O	O	O, B-CV, B-TM, B-LC, I-EV
-38	고	O	O	O, B-CV, B-LC, B-TM, I-EV
-39	밝혔	O	O	O, B-CV, B-LC, I-EV, B-EV
-40	##다	O	O	O, B-CV, B-LC, I-EV, B-TM
-41	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-42	[SEP]	O	O	O, B-CV, B-LC, I-EV, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	4	B-DT	B-DT
+2	##일	I-DT	I-DT
+3	부산시	B-OG	B-LC
+4	##의	O	O
+5	'	O	O
+6	구	O	O
+7	·	O	O
+8	군	O	O
+9	단위	O	O
+10	GR	O	O
+11	##DP	O	O
+12	추계	O	O
+13	'	O	O
+14	에	O	O
+15	따르	O	O
+16	##면	O	O
+17	강서구	B-LC	B-LC
+18	##가	O	O
+19	6	B-QT	B-QT
+20	##조	I-QT	I-QT
+21	##93	I-QT	I-QT
+22	##0	I-QT	I-QT
+23	##억	I-QT	I-QT
+24	##원	I-QT	I-QT
+25	##으로	O	O
+26	가장	O	O
+27	많	O	O
+28	##았	O	O
+29	##고	O	O
+30	,	O	O
+31	다음	O	O
+32	##으로	O	O
+33	##는	O	O
+34	부산	B-LC	B-LC
+35	##진	I-LC	I-LC
+36	##구	I-LC	I-LC
+37	5	B-QT	B-QT
+38	##조	I-QT	I-QT
+39	##21	I-QT	I-QT
+40	##80	I-QT	I-QT
+41	##억	I-QT	I-QT
+42	##원	I-QT	I-QT
+43	,	O	O
+44	사상	B-LC	B-LC
+45	##구	I-LC	I-LC
+46	5	B-QT	B-QT
+47	##조	I-QT	I-QT
+48	##16	I-QT	I-QT
+49	##20	I-QT	I-QT
+50	##억	I-QT	I-QT
+51	##원	I-QT	I-QT
+52	순	O	O
+53	##으로	O	O
+54	나타났	O	O
+55	##다	O	O
+56	.	O	O
+57	[SEP]	O	O

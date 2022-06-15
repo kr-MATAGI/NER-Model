@@ -1,38 +1,37 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	‘	O	O	O, B-CV, B-LC, B-OG, B-PS
-2	컬	O	O	O, B-FD, B-LC, B-CV, B-TR
-3	##트	O	O	O, I-FD, I-TR, I-CV, I-TM
-4	(	O	O	O, I-CV, I-OG, B-LC, I-LC
-5	C	O	O	O, B-LC, B-PS, B-AF, B-OG
-6	##ult	O	O	O, I-LC, I-PS, I-AF, B-LC
-7	·	O	O	O, I-LC, I-PS, I-AF, B-PS
-8	열광	O	O	O, B-PS, B-LC, B-CV, B-AF
-9	##적인	O	O	O, I-PS, I-CV, I-AF, I-LC
-10	추종	O	B-CV	B-CV, O, I-CV, B-PS, B-TM
-11	##자	O	I-CV	I-CV, O, B-CV, I-TM, I-PS
-12	)	O	O	O, I-CV, I-OG, I-PS, I-QT
-13	문화	O	O	O, I-CV, I-TR, I-FD, I-LC
-14	’	O	O	O, B-CV, B-PS, B-OG, B-LC
-15	를	O	O	O, B-CV, B-PS, B-LC, B-OG
-16	선도	O	O	O, B-CV, B-LC, B-PS, B-OG
-17	##해	O	O	O, B-PS, B-LC, B-OG, B-CV
-18	##온	O	O	O, B-PS, B-LC, B-OG, B-CV
-19	애플	B-OG	B-OG	B-OG, O, B-LC, B-AF, B-PS
-20	##의	O	O	O, I-OG, I-AF, I-EV, B-OG
-21	저력	O	O	O, B-CV, B-LC, B-TM, I-OG
-22	##과	O	O	O, B-OG, B-PS, B-CV, B-LC
-23	판매	O	O	O, B-CV, B-TM, B-LC, B-AF
-24	공급	O	O	O, B-CV, B-TM, B-LC, B-OG
-25	능력	O	O	O, B-TM, B-LC, B-CV, B-PS
-26	확충	O	O	O, B-CV, B-LC, B-TM, B-PS
-27	##에	O	O	O, B-CV, B-OG, B-LC, B-PS
-28	높	O	O	O, B-CV, B-TM, B-LC, B-QT
-29	##은	O	O	O, B-CV, B-LC, B-PS, B-OG
-30	점수	O	O	O, B-CV, B-QT, B-PS, B-LC
-31	##를	O	O	O, B-CV, I-CV, I-OG, I-QT
-32	주	O	O	O, B-CV, B-PS, I-CV, B-OG
-33	##었	O	O	O, B-CV, I-CV, B-OG, B-PS
-34	##다	O	O	O, B-CV, B-OG, I-OG, I-CV
-35	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-36	[SEP]	O	O	O, B-CV, B-LC, I-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	7	B-DT	B-DT
+2	##일	I-DT	I-DT
+3	오후	B-TI	B-TI
+4	7	I-TI	I-TI
+5	##시	I-TI	I-TI
+6	##에	O	O
+7	열리	O	O
+8	##는	O	O
+9	WBC	B-EV	B-EV
+10	(	O	O
+11	월드	B-EV	B-EV
+12	##베이스	I-EV	I-EV
+13	##볼	I-EV	I-EV
+14	##클	I-EV	I-EV
+15	##래	I-EV	I-EV
+16	##식	I-EV	I-EV
+17	)	O	O
+18	한국	B-EV	B-EV
+19	―	I-EV	I-EV
+20	일본	I-EV	I-EV
+21	##전	I-EV	I-EV
+22	(	O	O
+23	SBS	B-OG	B-OG
+24	TV	I-OG	B-TM
+25	중계	O	O
+26	)	O	O
+27	은	O	O
+28	이번	O	O
+29	대회	O	O
+30	초반	O	B-TI
+31	##의	O	O
+32	하이라이트	O	O
+33	##다	O	O
+34	.	O	O
+35	[SEP]	O	O

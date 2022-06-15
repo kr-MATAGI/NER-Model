@@ -1,28 +1,42 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-AF
-1	고소득	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-TM
-2	##층	I-CV	O	O, I-CV, B-CV, I-OG, I-TM
-3	##은	O	O	O, I-CV, I-OG, B-PS, I-AF
-4	이미	O	O	O, B-CV, B-PS, B-TM, B-OG
-5	많이	O	O	O, B-CV, B-PS, B-QT, B-TM
-6	내고	O	O	O, B-CV, B-PS, B-QT, B-TM
-7	있	O	O	O, B-CV, B-PS, I-CV, B-LC
-8	##다고	O	O	O, B-PS, B-CV, I-CV, B-LC
-9	당당	O	O	O, B-CV, B-PS, B-OG, B-AF
-10	##하고	O	O	O, I-CV, I-OG, B-PS, I-PS
-11	,	O	O	O, B-CV, B-PS, B-LC, I-AF
-12	중산	O	O	O, B-CV, B-PS, B-OG, I-CV
-13	##층	O	O	O, I-CV, I-OG, I-PS, I-TR
-14	##은	O	O	O, I-CV, I-OG, B-PS, I-AF
-15	대출금	O	O	O, B-CV, B-AF, I-CV, B-TM
-16	##에	O	O	O, I-CV, I-AF, B-PS, B-CV
-17	교육비	O	O	O, B-CV, B-TM, B-FD, I-CV
-18	##에	O	O	O, I-CV, I-AF, B-PS, B-CV
-19	남	O	O	O, B-QT, B-CV, B-TM, B-PS
-20	##는	O	O	O, B-PS, I-QT, B-QT, B-TM
-21	돈	O	O	O, B-QT, B-CV, B-TM, B-PS
-22	##이	O	O	O, B-PS, B-CV, B-OG, B-LC
-23	없	O	O	O, B-CV, B-PS, B-TM, I-AF
-24	##단다	O	O	O, B-CV, I-AF, B-PS, I-OG
-25	.	O	O	O, B-CV, B-PS, B-LC, I-AF
-26	[SEP]	O	O	O, B-CV, B-PS, I-AF, I-CV
+	text	label	preds
+0	[CLS]	O	O
+1	지난달	B-DT	B-DT
+2	3	I-DT	I-DT
+3	##일	I-DT	I-DT
+4	주의	O	B-OG
+5	##회	O	I-OG
+6	##를	O	O
+7	통과	O	O
+8	##한	O	O
+9	이후	O	O
+10	12	B-DT	B-DT
+11	##일	I-DT	I-DT
+12	민주당	B-OG	B-OG
+13	소속	O	O
+14	제리	B-PS	B-PS
+15	브라운	I-PS	I-PS
+16	캘리포니아	B-LC	B-LC
+17	주지사	B-CV	B-CV
+18	##의	O	O
+19	서명	O	O
+20	##으로	O	O
+21	발효	O	O
+22	##된	O	O
+23	이	O	O
+24	법안	O	O
+25	##은	O	O
+26	그동안	O	O
+27	‘	O	O
+28	트랜스	B-CV	B-CV
+29	##젠	I-CV	I-CV
+30	##더	I-CV	I-CV
+31	학생	I-CV	B-CV
+32	존중	I-CV	I-CV
+33	##법	I-CV	I-CV
+34	’	O	O
+35	으로	O	O
+36	불려	O	O
+37	##왔	O	O
+38	##다	O	O
+39	.	O	O
+40	[SEP]	O	O

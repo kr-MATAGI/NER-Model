@@ -1,40 +1,64 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-EV, I-OG, B-CV, I-CV
-1	월드	B-EV	B-EV	B-EV, O, B-OG, B-LC, I-EV
-2	##미스	I-EV	I-EV	I-EV, O, I-OG, B-EV, I-LC
-3	##유	I-EV	I-EV	I-EV, I-OG, O, I-LC, B-EV
-4	##니	I-EV	I-EV	I-EV, I-OG, O, I-LC, B-EV
-5	##버시	I-EV	I-EV	I-EV, I-OG, O, I-LC, B-EV
-6	##티	I-EV	I-EV	I-EV, O, I-OG, I-LC, I-AF
-7	(	O	O	O, I-EV, I-DT, B-EV, I-OG
-8	이하	O	O	O, I-EV, B-EV, I-DT, B-DT
-9	WM	B-EV	B-EV	B-EV, I-EV, O, B-OG, B-LC
-10	##U	I-EV	I-EV	I-EV, O, I-OG, I-LC, I-DT
-11	)	O	O	O, I-EV, B-EV, I-OG, I-DT
-12	한국	B-LC	B-EV	B-EV, B-LC, I-EV, B-OG, O
-13	##대	O	I-EV	I-EV, O, I-OG, I-LC, B-EV
-14	##회	O	I-EV	I-EV, O, I-OG, I-LC, B-OG
-15	준비	O	O	O, I-OG, B-OG, I-EV, B-CV
-16	##위원회	O	I-OG	I-OG, O, I-EV, B-OG, I-AF
-17	##가	O	O	O, I-OG, I-EV, B-LC, B-PS
-18	31	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-QT
-19	##일	I-DT	I-DT	I-DT, O, B-DT, I-EV, I-PS
-20	오전	B-TI	B-TI	B-TI, O, I-TI, B-LC, B-EV
-21	서울	B-LC	B-LC	B-LC, O, B-AF, I-LC, B-OG
-22	프레스센터	B-AF	B-AF	B-AF, I-AF, B-LC, O, B-OG
-23	##에서	O	O	O, I-AF, I-EV, I-LC, I-OG
-24	세계	B-EV	B-OG	B-OG, O, B-AF, B-EV, B-LC
-25	##대	I-EV	I-OG	I-OG, O, I-AF, I-EV, B-OG
-26	##학생	I-EV	I-OG	I-OG, O, I-AF, I-CV, I-EV
-27	##평	I-EV	I-OG	I-OG, O, I-CV, I-AF, I-EV
-28	##화	I-EV	I-OG	I-OG, I-CV, O, I-AF, I-EV
-29	##봉사	I-EV	I-OG	I-OG, O, I-CV, I-AF, I-EV
-30	##사	I-EV	I-OG	I-OG, O, I-CV, I-AF, I-EV
-31	##절	I-EV	I-OG	I-OG, O, I-AF, I-CV, I-EV
-32	##단	I-EV	I-OG	I-OG, O, I-AF, I-EV, I-CV
-33	발대식	I-EV	O	O, B-EV, I-EV, I-OG, B-CV
-34	##을	O	O	O, I-EV, I-OG, I-AF, I-CV
-35	가졌	O	O	O, B-EV, B-LC, B-OG, B-CV
-36	##다	O	O	O, B-LC, I-EV, B-OG, B-EV
-37	.	O	O	O, B-EV, B-LC, I-EV, B-OG
-38	[SEP]	O	O	O, I-EV, B-EV, B-LC, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	당초	O	O
+2	박	B-PS	B-PS
+3	당선인	B-CV	B-CV
+4	##은	O	O
+5	참석	O	O
+6	대상	O	O
+7	##으로	O	O
+8	여야	O	O
+9	대표	B-CV	B-CV
+10	,	O	O
+11	국회	B-OG	B-OG
+12	외	B-CV	B-CV
+13	##통	I-CV	I-CV
+14	##위원	I-CV	I-CV
+15	##장	I-CV	I-CV
+16	##과	O	O
+17	양당	O	O
+18	간사	B-CV	B-CV
+19	,	O	O
+20	대통령	B-CV	B-CV
+21	##직	I-CV	I-CV
+22	인수위	B-OG	B-OG
+23	외교	O	O
+24	##국	O	O
+25	##방	O	O
+26	##통일	O	O
+27	##분	O	O
+28	##과	O	O
+29	간사	B-CV	B-CV
+30	##와	O	O
+31	인수위	B-CV	B-CV
+32	##원	I-CV	I-CV
+33	등	O	O
+34	##을	O	O
+35	제안	O	O
+36	##했	O	O
+37	##지만	O	O
+38	,	O	O
+39	민주당	B-OG	B-OG
+40	##에	O	O
+41	##선	O	O
+42	이명박	B-PS	B-PS
+43	대통령	B-CV	B-CV
+44	##과	O	O
+45	박	B-PS	B-PS
+46	당선인	B-CV	B-CV
+47	,	O	O
+48	여야	O	O
+49	대표	B-CV	B-CV
+50	##를	O	O
+51	주축	O	O
+52	##으로	O	O
+53	한	O	O
+54	4	B-EV	B-QT
+55	##자	I-EV	I-QT
+56	회동	I-EV	O
+57	##을	O	O
+58	원했	O	O
+59	##었	O	O
+60	##다	O	O
+61	.	O	O
+62	[SEP]	O	O

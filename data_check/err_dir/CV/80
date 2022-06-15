@@ -1,20 +1,33 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, I-EV, B-CV
-1	난소	B-TM	B-TM	B-TM, O, B-TR, B-MT, B-AM
-2	##암	I-TM	I-TM	I-TM, O, I-MT, I-TR, B-TM
-3	이긴	O	O	O, I-TM, I-QT, B-CV, I-OG
-4	네덜란드	B-LC	B-LC	B-LC, B-OG, O, B-PS, B-AF
-5	뷔	B-PS	B-PS	B-PS, B-LC, B-OG, O, I-PS
-6	##스트	I-PS	I-PS	I-PS, I-LC, I-OG, O, I-AF
-7	,	O	O	O, I-PS, I-OG, I-LC, I-AF
-8	빙	B-CV	O	O, B-LC, B-AF, B-PS, B-CV
-9	##속	I-CV	O	O, I-LC, I-AF, I-PS, I-AM
-10	3000	B-QT	B-QT	B-QT, O, I-QT, B-LC, I-LC
-11	##m	I-QT	I-QT	I-QT, I-LC, O, I-PS, I-AF
-12	우승	O	O	O, I-QT, B-CV, I-EV, I-AF
-13	통산	O	O	O, B-CV, B-LC, B-DT, B-QT
-14	3	B-QT	B-QT	B-QT, I-QT, O, B-DT, B-TM
-15	##번	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-EV
-16	##째	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-EV
-17	金	B-CV	O	O, B-PS, B-MT, B-CV, B-AF
-18	[SEP]	O	O	O, B-CV, I-CV, I-AF, I-PS
+	text	label	preds
+0	[CLS]	O	O
+1	정치	B-CV	B-CV
+2	##자	I-CV	I-CV
+3	##금	I-CV	I-CV
+4	##법	I-CV	I-CV
+5	##상	O	O
+6	피	O	B-CV
+7	##선거	B-CV	I-CV
+8	##권	I-CV	I-CV
+9	박탈	O	O
+10	및	O	O
+11	당연	O	O
+12	##퇴직	O	O
+13	대상	O	O
+14	##이	O	O
+15	되	O	O
+16	##는	O	O
+17	'	O	O
+18	벌금	B-CV	B-CV
+19	100	B-QT	B-QT
+20	##만	I-QT	I-QT
+21	##원	I-QT	I-QT
+22	이상	I-QT	I-QT
+23	'	O	O
+24	보다	O	O
+25	한참	O	O
+26	높	O	O
+27	##은	O	O
+28	형량	O	O
+29	##이다	O	O
+30	.	O	O
+31	[SEP]	O	O

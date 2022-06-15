@@ -1,52 +1,47 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-EV, I-OG
-1	이	O	O	O, B-CV, B-PS, B-OG, B-QT
-2	부문	O	O	O, B-CV, B-PS, B-LC, B-TM
-3	종전	O	O	O, B-CV, B-PS, B-LC, B-OG
-4	기록	O	O	O, B-CV, B-LC, B-PS, B-OG
-5	##인	O	O	O, B-PS, B-CV, B-LC, B-OG
-6	1988	B-DT	B-DT	B-DT, O, B-EV, I-DT, B-QT
-7	##년	I-DT	I-DT	I-DT, O, I-QT, I-EV, B-DT
-8	US	B-EV	B-EV	B-EV, O, I-EV, B-LC, B-OG
-9	##오	I-EV	I-EV	I-EV, O, B-EV, I-AF, I-OG
-10	##픈	I-EV	I-EV	I-EV, O, B-EV, I-OG, I-AF
-11	결승	I-EV	B-EV	B-EV, I-EV, O, B-LC, B-CV
-12	##에서	O	O	O, I-EV, I-AF, B-CV, I-CV
-13	마	B-PS	B-PS	B-PS, O, B-LC, I-PS, B-OG
-14	##츠	I-PS	I-PS	I-PS, O, I-LC, B-PS, I-AF
-15	빌	I-PS	I-PS	I-PS, O, B-PS, I-LC, B-LC
-16	##란	I-PS	I-PS	I-PS, O, I-LC, B-PS, B-LC
-17	##데르	I-PS	I-PS	I-PS, O, I-LC, B-LC, B-PS
-18	##가	O	O	O, I-PS, B-PS, I-LC, B-LC
-19	이반	B-PS	B-PS	B-PS, B-LC, O, I-PS, B-AM
-20	렌	I-PS	I-PS	I-PS, I-LC, B-PS, O, B-LC
-21	##들	I-PS	I-PS	I-PS, I-LC, O, B-LC, I-AF
-22	##을	O	O	O, I-PS, I-LC, I-AF, B-CV
-23	누	O	O	O, B-PS, B-CV, B-LC, B-EV
-24	##를	O	O	O, B-PS, B-CV, I-PS, B-LC
-25	때	O	O	O, B-PS, B-CV, B-QT, B-LC
-26	##의	O	O	O, B-PS, B-CV, B-DT, B-QT
-27	4	B-TI	B-TI	B-TI, B-EV, O, B-QT, B-TR
-28	##시간	I-TI	I-TI	I-TI, I-EV, B-TI, O, I-QT
-29	54	I-TI	I-TI	I-TI, B-TI, I-QT, I-EV, O
-30	##분	I-TI	I-TI	I-TI, I-QT, O, I-TR, I-EV
-31	##보	O	O	O, I-TI, I-QT, I-EV, I-TR
-32	##다	O	O	O, I-TI, B-DT, B-TI, B-CV
-33	59	B-TI	B-TI	B-TI, I-TI, B-EV, B-QT, O
-34	##분	I-TI	I-TI	I-TI, I-QT, I-EV, I-TR, O
-35	##이	O	O	O, I-TI, B-PS, I-EV, I-QT
-36	더	O	O	O, B-QT, B-OG, B-DT, B-LC
-37	걸렸	O	O	O, B-CV, B-OG, B-LC, B-PS
-38	##을	O	O	O, B-PS, B-CV, B-TM, B-LC
-39	만큼	O	O	O, B-PS, B-OG, B-CV, B-LC
-40	한	O	O	O, B-QT, B-PS, B-TI, B-LC
-41	치	O	O	O, I-QT, I-PS, B-PS, I-TI
-42	##의	O	O	O, B-PS, I-QT, I-PS, B-QT
-43	양보	O	O	O, I-QT, B-PS, B-LC, B-CV
-44	##도	O	O	O, B-PS, B-LC, B-OG, I-QT
-45	없이	O	O	O, B-LC, B-PS, B-CV, B-TM
-46	팽팽	O	O	O, B-CV, B-TM, B-LC, B-OG
-47	##했	O	O	O, B-CV, B-PS, B-LC, B-OG
-48	##다	O	O	O, B-CV, B-TM, I-EV, I-CV
-49	.	O	O	O, B-PS, B-LC, B-CV, I-EV
-50	[SEP]	O	O	O, B-CV, B-PS, B-LC, I-EV
+	text	label	preds
+0	[CLS]	O	O
+1	오리온	B-OG	B-OG
+2	##은	O	O
+3	26	B-DT	B-DT
+4	##일	I-DT	I-DT
+5	안방	O	O
+6	##인	O	O
+7	고양	B-AF	B-AF
+8	##체육	I-AF	I-AF
+9	##관	I-AF	I-AF
+10	##에	O	O
+11	##서	O	O
+12	열린	O	O
+13	2015	B-DT	B-DT
+14	##∼	I-DT	I-DT
+15	##20	I-DT	I-DT
+16	##16	I-DT	I-DT
+17	KCC	B-OG	B-EV
+18	프로	I-OG	B-CV
+19	##농	I-OG	I-CV
+20	##구	I-OG	I-CV
+21	6	B-EV	B-EV
+22	##강	I-EV	I-EV
+23	PO	B-EV	I-EV
+24	(	O	O
+25	5	B-TM	B-TM
+26	##전	I-TM	I-TM
+27	3	I-TM	I-TM
+28	##승	I-TM	I-TM
+29	##제	I-TM	I-TM
+30	)	O	O
+31	1	B-EV	B-EV
+32	##차	I-EV	I-EV
+33	##전	I-EV	I-EV
+34	##에	O	O
+35	##서	O	O
+36	104	B-QT	B-QT
+37	-	I-QT	I-QT
+38	78	I-QT	I-QT
+39	##로	O	O
+40	대승	O	O
+41	##을	O	O
+42	거뒀	O	O
+43	##다	O	O
+44	.	O	O
+45	[SEP]	O	O

@@ -1,51 +1,25 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	2013	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-2	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-3	##에도	O	O	O, I-DT, B-CV, I-QT, B-OG
-4	‘	O	O	O, B-OG, B-LC, B-CV, B-AF
-5	레미	B-TM	B-AF	B-AF, B-OG, B-TM, B-PS, B-TR
-6	##케이드	I-TM	I-AF	I-AF, I-TM, I-OG, I-PS, O
-7	’	O	O	O, I-AF, I-OG, I-TM, I-EV
-8	(	O	O	O, B-CV, B-OG, B-LC, I-OG
-9	2008	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-10	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-11	매출	O	O	O, B-CV, I-DT, B-TM, B-LC
-12	53	B-QT	B-QT	B-QT, I-QT, O, B-DT, B-TI
-13	##억	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-DT
-14	##35	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-15	##00	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-16	##만	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-17	달러	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-18	)	O	O	O, I-QT, B-CV, I-OG, B-OG
-19	,	O	O	O, B-OG, B-CV, B-LC, B-PS
-20	‘	O	O	O, B-OG, B-LC, B-CV, B-AF
-21	에	B-TM	B-OG	B-OG, B-AF, O, B-TM, B-CV
-22	##포	I-TM	I-OG	I-OG, O, I-AF, I-TM, I-CV
-23	##젠	I-TM	I-OG	I-OG, I-AF, O, I-TM, I-CV
-24	’	O	O	O, I-OG, I-AF, I-TM, I-CV
-25	(	O	O	O, B-CV, B-OG, B-LC, I-OG
-26	2008	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-27	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-28	매출	O	O	O, B-CV, B-TM, I-DT, B-LC
-29	51	B-QT	B-QT	B-QT, I-QT, O, B-DT, B-TI
-30	##억	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-DT
-31	2300	I-QT	I-QT	I-QT, B-QT, O, I-LC, I-PS
-32	##만	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-33	달러	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-34	)	O	O	O, I-QT, B-CV, I-OG, B-OG
-35	등	O	O	O, B-CV, B-OG, B-LC, B-TM
-36	굵직	O	O	O, B-CV, B-TM, B-OG, B-LC
-37	##한	O	O	O, B-LC, B-OG, B-PS, B-TM
-38	신약	O	O	O, B-TM, B-FD, B-CV, B-AF
-39	##의	O	O	O, B-CV, B-LC, B-PS, B-OG
-40	독점	O	O	O, B-LC, B-TM, B-CV, B-OG
-41	판매	O	O	O, B-CV, B-TM, B-LC, B-OG
-42	##기	O	O	O, B-LC, B-OG, B-TM, B-CV
-43	##간	O	O	O, B-LC, B-OG, B-CV, B-TM
-44	##이	O	O	O, B-OG, B-LC, B-PS, B-CV
-45	종료	O	O	O, B-CV, B-OG, B-TM, B-LC
-46	##된	O	O	O, B-CV, B-OG, B-LC, I-OG
-47	##다	O	O	O, B-CV, B-OG, B-LC, I-OG
-48	.	O	O	O, B-LC, B-OG, B-CV, B-TM
-49	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	국내	O	O
+2	연구	B-CV	B-CV
+3	##진	I-CV	I-CV
+4	##이	O	O
+5	포함	O	O
+6	##된	O	O
+7	국제	O	O
+8	공동	O	B-CV
+9	##연구	O	I-CV
+10	##진	O	I-CV
+11	##이	O	O
+12	‘	O	O
+13	돼지	B-AM	B-TM
+14	유전	B-TM	I-TM
+15	##체	I-TM	I-TM
+16	지도	O	I-TM
+17	’	O	O
+18	를	O	O
+19	완성	O	O
+20	##했	O	O
+21	##다	O	O
+22	.	O	O
+23	[SEP]	O	O

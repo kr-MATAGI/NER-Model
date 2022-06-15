@@ -1,26 +1,37 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-QT
-1	김연아	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-2	##는	O	O	O, I-PS, B-CV, I-OG, I-AF
-3	표현	O	O	O, B-CV, B-TM, B-LC, B-PS
-4	##력	O	O	O, B-PS, I-OG, I-PS, B-LC
-5	##과	O	O	O, B-PS, B-OG, B-LC, B-TM
-6	예술	O	O	O, B-CV, B-PS, B-FD, B-LC
-7	##성이	O	O	O, B-PS, B-LC, I-PS, I-OG
-8	뛰어나	O	O	O, B-PS, B-OG, B-LC, B-CV
-9	PC	O	B-TM	B-TM, O, B-AF, B-TR, B-OG
-10	##S	O	I-TM	I-TM, O, I-AF, I-OG, I-TR
-11	부문	O	O	O, I-TM, I-OG, I-AF, I-EV
-12	##에	O	O	O, B-CV, B-PS, B-LC, B-TM
-13	##선	O	O	O, B-CV, B-LC, B-PS, B-TM
-14	언제나	O	O	O, B-CV, B-PS, B-TM, B-LC
-15	경쟁자	O	O	O, B-CV, B-PS, B-OG, B-TM
-16	##들	O	O	O, I-CV, B-CV, B-PS, I-OG
-17	##보	O	O	O, B-CV, B-PS, B-LC, B-TM
-18	##다	O	O	O, B-CV, B-LC, B-PS, B-OG
-19	우위	O	O	O, B-CV, B-LC, B-TM, B-OG
-20	##에	O	O	O, B-PS, I-CV, I-OG, B-QT
-21	있	O	O	O, B-CV, B-PS, B-TM, B-LC
-22	##다	O	O	O, B-CV, B-TM, B-PS, I-OG
-23	.	O	O	O, B-CV, B-PS, B-LC, B-TM
-24	[SEP]	O	O	O, B-CV, B-PS, B-LC, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	롯데	B-OG	B-OG
+2	##는	O	O
+3	이대호	B-PS	B-PS
+4	##의	O	O
+5	홈런	B-TM	B-TM
+6	##포	I-TM	I-TM
+7	##가	O	O
+8	침묵	O	O
+9	##하	O	O
+10	##는	O	O
+11	것	O	O
+12	##을	O	O
+13	비롯	O	O
+14	##해	O	O
+15	김주	B-PS	B-PS
+16	##찬	I-PS	I-PS
+17	·	O	O
+18	조성	B-PS	B-PS
+19	##환	I-PS	I-PS
+20	·	O	O
+21	홍성	B-PS	B-PS
+22	##흔	I-PS	I-PS
+23	·	O	O
+24	강민호	B-PS	B-PS
+25	등	O	O
+26	중심	O	B-CV
+27	##타자	B-CV	I-CV
+28	##들이	O	O
+29	동반	O	O
+30	부진	O	O
+31	##에	O	O
+32	빠졌	O	O
+33	##다	O	O
+34	.	O	O
+35	[SEP]	O	O

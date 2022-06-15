@@ -1,13 +1,29 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	어	O	O	O, B-CV, B-LC, B-OG, B-TM
-2	~	O	O	O, B-LC, B-CV, B-PS, I-CV
-3	월요일	B-DT	B-DT	B-DT, O, I-DT, B-CV, B-LC
-4	월요일	B-DT	I-DT	I-DT, B-DT, O, B-CV, B-TI
-5	날	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-CV
-6	어	O	O	O, I-DT, B-CV, B-OG, B-LC
-7	와이	B-OG	O	O, B-OG, B-CV, B-LC, B-AF
-8	##티	I-OG	O	O, I-OG, I-CV, I-LC, I-PS
-9	##엔	I-OG	O	O, I-OG, I-CV, I-LC, I-AF
-10	##에	O	O	O, I-OG, I-CV, I-AF, I-LC
-11	[SEP]	O	O	O, B-CV, B-LC, I-OG, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	서울	B-OG	B-OG
+2	##은	O	O
+3	우승	O	O
+4	##상	O	O
+5	##금	O	O
+6	5	B-QT	B-QT
+7	##억	I-QT	I-QT
+8	원	I-QT	I-QT
+9	##과	O	O
+10	2013	B-DT	B-DT
+11	##년	I-DT	I-DT
+12	아시아	B-OG	B-EV
+13	##축구연맹	I-OG	I-EV
+14	(	O	I-EV
+15	AFC	B-OG	I-EV
+16	)	O	I-EV
+17	챔피언	B-OG	I-EV
+18	##스	I-OG	I-EV
+19	##리그	I-OG	I-EV
+20	출전	O	O
+21	##권	O	O
+22	##을	O	O
+23	획득	O	O
+24	##했	O	O
+25	##다	O	O
+26	.	O	O
+27	[SEP]	O	O

@@ -1,51 +1,32 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	‘	O	O	O, B-OG, B-LC, B-CV, B-PS
-2	엘	B-OG	B-OG	B-OG, I-OG, O, B-AF, B-PS
-3	시스	I-OG	I-OG	I-OG, O, B-OG, I-AF, I-EV
-4	##테	I-OG	I-OG	I-OG, O, B-OG, I-EV, I-AF
-5	##마	I-OG	I-OG	I-OG, O, B-OG, I-EV, I-LC
-6	’	O	O	O, I-OG, I-EV, B-OG, I-AF
-7	는	O	O	O, I-OG, B-LC, B-OG, B-CV
-8	베네수엘라	B-LC	B-LC	B-LC, B-OG, O, B-PS, B-AF
-9	##의	O	O	O, I-LC, I-OG, B-PS, I-PS
-10	음악가	B-CV	B-CV	B-CV, O, I-CV, B-FD, B-OG
-11	##이	O	O	O, B-PS, I-CV, B-CV, I-PS
-12	##자	O	O	O, B-PS, B-CV, B-LC, I-CV
-13	경제학자	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-FD
-14	##인	O	O	O, I-CV, B-PS, B-CV, I-PS
-15	아	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-16	##브	I-PS	I-PS	I-PS, O, I-OG, B-PS, I-LC
-17	##레	I-PS	I-PS	I-PS, O, I-OG, B-PS, I-LC
-18	##우	I-PS	I-PS	I-PS, O, I-OG, I-LC, B-PS
-19	박사	B-CV	B-CV	B-CV, O, I-PS, I-CV, B-OG
-20	##가	O	O	O, I-CV, B-PS, I-PS, B-LC
-21	1975	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-LC
-22	##년	I-DT	I-DT	I-DT, O, I-QT, I-PS, B-DT
-23	카라	B-LC	B-LC	B-LC, O, B-AF, B-PS, I-LC
-24	##카스	I-LC	I-LC	I-LC, O, I-AF, B-LC, I-PS
-25	##의	O	O	O, I-LC, I-AF, B-LC, I-PS
-26	허름	O	O	O, B-CV, B-LC, I-AF, B-AF
-27	##한	O	O	O, B-LC, B-AF, I-AF, B-PS
-28	차	O	O	O, B-AF, B-LC, B-CV, B-PS
-29	##고	O	O	O, I-AF, I-LC, I-OG, I-CV
-30	##에서	O	O	O, I-AF, B-PS, B-LC, I-LC
-31	빈곤층	O	O	O, B-CV, B-OG, B-LC, B-PS
-32	청소년	B-CV	B-CV	B-CV, O, I-CV, B-FD, B-TM
-33	##들	O	O	O, I-CV, B-CV, I-OG, I-AF
-34	##에	O	O	O, B-CV, B-TM, B-LC, B-FD
-35	##게	O	O	O, B-CV, B-LC, B-FD, B-TM
-36	음악	O	O	O, B-FD, B-CV, B-PS, I-FD
-37	##을	O	O	O, B-CV, B-PS, B-LC, B-TM
-38	가르쳐	O	O	O, B-CV, B-LC, B-PS, B-OG
-39	오케스트라	B-FD	O	O, B-FD, B-OG, B-AF, I-OG
-40	##를	O	O	O, I-OG, I-AF, B-CV, I-CV
-41	창립	O	O	O, B-CV, B-OG, B-TM, B-LC
-42	##한	O	O	O, B-PS, B-CV, B-LC, B-OG
-43	데	O	O	O, B-CV, B-OG, B-PS, B-LC
-44	##서	O	O	O, B-CV, B-PS, B-OG, I-OG
-45	비롯	O	O	O, B-OG, B-CV, B-LC, B-TM
-46	##됐	O	O	O, I-OG, B-OG, B-CV, B-PS
-47	##다	O	O	O, B-CV, I-OG, B-LC, B-OG
-48	.	O	O	O, B-LC, B-PS, B-CV, B-OG
-49	[SEP]	O	O	O, B-CV, B-LC, I-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	―	O	O
+2	지난	B-DT	B-DT
+3	2000	I-DT	I-DT
+4	~	I-DT	I-DT
+5	2004	I-DT	I-DT
+6	##년	I-DT	I-DT
+7	가야	B-FD	B-TM
+8	##사	I-FD	I-TM
+9	복원	O	I-TM
+10	사업	O	I-TM
+11	##이	O	O
+12	진행	O	O
+13	##돼	O	O
+14	129	B-QT	B-QT
+15	##0	I-QT	I-QT
+16	##억	I-QT	I-QT
+17	##원	I-QT	I-QT
+18	##이	O	O
+19	##라는	O	O
+20	적	O	O
+21	##지	O	O
+22	않	O	O
+23	##은	O	O
+24	예산	O	O
+25	##이	O	O
+26	투입	O	O
+27	##됐	O	O
+28	##다	O	O
+29	.	O	O
+30	[SEP]	O	O

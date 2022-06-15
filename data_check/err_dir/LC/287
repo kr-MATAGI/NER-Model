@@ -1,32 +1,22 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-EV, I-OG, I-CV
-1	작전	O	O	O, B-EV, B-CV, B-LC, I-EV
-2	##은	O	O	O, I-EV, B-CV, B-PS, B-OG
-3	정오	B-TI	B-TI	B-TI, O, I-TI, B-EV, B-QT
-4	##께	I-TI	I-TI	I-TI, O, B-TI, I-TR, I-QT
-5	끝났	O	O	O, I-TI, I-EV, I-QT, B-CV
-6	##지만	O	O	O, B-CV, B-LC, B-OG, B-TM
-7	프랑스	B-LC	B-OG	B-OG, B-LC, O, B-EV, I-OG
-8	사법	O	I-OG	I-OG, B-OG, O, I-LC, I-EV
-9	##당	O	I-OG	I-OG, O, I-LC, I-EV, B-OG
-10	##국	O	I-OG	I-OG, O, I-EV, I-LC, I-CV
-11	##은	O	O	O, I-OG, I-EV, B-CV, I-AF
-12	작전	O	O	O, B-EV, B-CV, B-LC, I-EV
-13	종료	O	O	O, B-CV, I-EV, B-LC, B-PS
-14	뒤	O	O	O, B-PS, B-LC, B-DT, B-TM
-15	아바	B-PS	B-PS	B-PS, B-LC, O, I-PS, B-OG
-16	##우드	I-PS	I-PS	I-PS, O, I-LC, I-OG, B-PS
-17	##가	O	O	O, I-PS, I-LC, B-CV, B-PS
-18	체포	O	O	O, B-CV, B-TM, B-LC, B-OG
-19	##됐	O	O	O, B-CV, B-PS, I-CV, B-LC
-20	##는지	O	O	O, B-CV, B-LC, B-PS, B-TM
-21	##에	O	O	O, B-CV, B-LC, B-TM, B-PS
-22	대해서	O	O	O, B-CV, B-LC, B-TM, B-OG
-23	##는	O	O	O, B-CV, B-LC, B-TM, B-OG
-24	밝히	O	O	O, B-CV, B-LC, B-TM, B-OG
-25	##지	O	O	O, B-CV, B-LC, B-PS, B-DT
-26	않	O	O	O, B-CV, B-LC, B-PS, B-OG
-27	##았	O	O	O, B-CV, B-LC, B-OG, B-PS
-28	##다	O	O	O, B-CV, B-LC, I-EV, I-OG
-29	.	O	O	O, B-LC, B-CV, B-OG, B-PS
-30	[SEP]	O	O	O, B-CV, B-LC, I-EV, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	화	O	O
+2	##를	O	O
+3	내야	O	O
+4	할	O	O
+5	일	O	O
+6	##이지	O	O
+7	##만	O	O
+8	어차피	O	O
+9	핵	B-AF	B-AF
+10	##문제	O	O
+11	##를	O	O
+12	풀	O	O
+13	주역	O	O
+14	##은	O	O
+15	미국	B-LC	B-OG
+16	##과	O	O
+17	북한	B-LC	B-OG
+18	##이다	O	O
+19	.	O	O
+20	[SEP]	O	O

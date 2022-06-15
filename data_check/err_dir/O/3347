@@ -1,53 +1,28 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-QT
-1	인터넷	O	O	O, B-TM, B-CV, B-LC, B-FD
-2	##엔	O	O	O, B-CV, B-TM, B-LC, B-OG
-3	엄마	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-TM
-4	##의	O	O	O, I-CV, B-PS, B-CV, B-TM
-5	영어	B-CV	B-CV	B-CV, O, B-LC, B-FD, B-AF
-6	##실	O	O	O, I-CV, I-TM, B-TM, I-AF
-7	##력	O	O	O, I-CV, I-TM, I-PS, I-LC
-8	향상	O	O	O, B-CV, B-PS, B-TM, B-LC
-9	##에	O	O	O, B-PS, B-LC, B-TM, B-CV
-10	도움	O	O	O, B-TM, B-CV, B-LC, B-QT
-11	##이	O	O	O, B-PS, B-CV, B-LC, B-TM
-12	되	O	O	O, B-CV, B-LC, B-TM, B-PS
-13	##는	O	O	O, B-LC, B-CV, B-TM, B-AF
-14	영어	B-CV	B-CV	B-CV, O, B-AF, B-FD, B-TM
-15	##회	O	O	O, I-CV, B-CV, I-AF, I-TM
-16	##화	O	O	O, I-CV, I-TM, I-AF, I-FD
-17	,	O	O	O, I-CV, B-CV, I-AF, I-TM
-18	영문	O	O	O, B-CV, B-FD, B-AF, B-TM
-19	##법	O	O	O, I-CV, I-FD, I-AF, I-TR
-20	강의	O	O	O, I-CV, B-CV, I-AF, I-TM
-21	##는	O	O	O, B-CV, B-TM, I-AF, I-CV
-22	물론	O	O	O, B-TM, B-LC, B-CV, B-AF
-23	영어	B-CV	B-CV	B-CV, B-AF, O, B-TM, B-LC
-24	게임	O	O	O, I-AF, I-TM, I-CV, I-EV
-25	,	O	O	O, I-AF, B-CV, I-CV, I-TM
-26	단어	O	O	O, B-AF, B-TM, B-CV, B-FD
-27	##퍼	O	O	O, I-AF, I-TM, I-CV, B-AF
-28	##즐	O	O	O, I-AF, I-TM, I-CV, I-FD
-29	,	O	O	O, I-AF, I-TM, B-CV, B-TM
-30	영어	B-CV	B-AF	B-AF, B-CV, O, B-LC, B-TM
-31	##동	O	I-AF	I-AF, O, B-AF, I-TM, B-TM
-32	##요	O	I-AF	I-AF, O, I-TM, I-CV, I-FD
-33	##처럼	O	O	O, I-AF, I-TM, I-CV, B-CV
-34	자녀	B-CV	B-CV	B-CV, O, B-AF, B-TM, I-CV
-35	##의	O	O	O, I-CV, B-PS, B-CV, B-TM
-36	영어	B-CV	B-CV	B-CV, O, B-LC, B-AF, B-FD
-37	지도	O	O	O, I-CV, B-CV, B-PS, B-LC
-38	##에	O	O	O, B-PS, B-TM, B-LC, B-CV
-39	도움	O	O	O, B-TM, B-QT, B-LC, B-CV
-40	##이	O	O	O, B-PS, B-LC, B-CV, B-TM
-41	되	O	O	O, B-CV, B-TM, B-LC, B-QT
-42	##는	O	O	O, B-TM, B-CV, B-LC, B-PS
-43	공짜	O	O	O, B-CV, B-TM, B-QT, B-AF
-44	학습	O	O	O, B-CV, B-TM, B-LC, B-AF
-45	자료	O	O	O, B-CV, B-LC, B-TM, B-PS
-46	##가	O	O	O, B-PS, B-CV, B-LC, B-TM
-47	의외로	O	O	O, B-CV, B-TM, B-LC, B-OG
-48	많	O	O	O, B-TM, B-CV, B-LC, B-OG
-49	##다	O	O	O, B-CV, B-TM, I-OG, I-TM
-50	.	O	O	O, B-LC, B-TM, B-CV, B-PS
-51	[SEP]	O	O	O, B-TM, B-CV, B-LC, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	연구	O	O
+2	##팀	O	O
+3	##은	O	O
+4	우선	O	O
+5	보험료	O	B-CV
+6	##율	O	O
+7	##을	O	O
+8	최대한	O	O
+9	빠른	O	O
+10	시일	O	O
+11	##내	O	O
+12	##에	O	O
+13	12	B-QT	B-QT
+14	.	I-QT	I-QT
+15	9	I-QT	I-QT
+16	%	I-QT	I-QT
+17	로	O	O
+18	올리	O	O
+19	##는	O	O
+20	방안	O	O
+21	##을	O	O
+22	제시	O	O
+23	##했	O	O
+24	##다	O	O
+25	.	O	O
+26	[SEP]	O	O

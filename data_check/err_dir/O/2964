@@ -1,40 +1,41 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-EV, I-OG, B-CV, I-CV
-1	이	O	O	O, B-OG, B-CV, B-PS, B-LC
-2	##에	O	O	O, B-CV, B-OG, I-OG, I-EV
-3	따라	O	O	O, B-LC, B-OG, B-PS, B-CV
-4	한국	B-OG	B-OG	B-OG, O, B-LC, B-CV, I-OG
-5	##관광	I-OG	I-OG	I-OG, O, B-OG, I-CV, I-LC
-6	##공사	I-OG	I-OG	I-OG, O, I-CV, I-LC, I-EV
-7	##와	O	O	O, I-OG, I-EV, I-AF, I-CV
-8	지방	B-OG	B-OG	B-OG, O, B-CV, I-OG, B-EV
-9	##자치단체	I-OG	I-OG	I-OG, O, I-CV, I-EV, B-OG
-10	,	O	O	O, I-OG, I-CV, B-PS, I-EV
-11	지방	O	B-OG	B-OG, O, B-CV, I-OG, B-AF
-12	##관광	O	I-OG	I-OG, O, I-CV, B-OG, I-AF
-13	##공사	O	I-OG	I-OG, O, I-CV, I-AF, I-PS
-14	##는	O	O	O, I-OG, I-CV, B-CV, I-EV
-15	이날	B-DT	B-DT	B-DT, I-DT, O, B-EV, B-LC
-16	서울	B-LC	B-LC	B-LC, O, I-DT, I-LC, B-OG
-17	중구	B-LC	B-LC	B-LC, I-LC, O, B-AF, B-OG
-18	한국	B-AF	B-AF	B-AF, I-AF, B-LC, O, B-PS
-19	##프레스	I-AF	I-AF	I-AF, I-LC, O, B-AF, I-PS
-20	##센터	I-AF	I-AF	I-AF, I-LC, O, I-PS, I-OG
-21	##에서	O	O	O, I-AF, I-EV, I-DT, I-LC
-22	‘	O	O	O, B-LC, B-DT, B-EV, B-OG
-23	한국	B-LC	B-EV	B-EV, B-OG, B-LC, B-AF, B-PS
-24	관광	O	I-EV	I-EV, I-OG, O, I-AF, I-LC
-25	##산업	O	I-EV	I-EV, I-OG, O, I-AF, I-LC
-26	복합	O	I-EV	I-EV, I-OG, O, I-AF, B-EV
-27	##위	O	I-EV	I-EV, I-OG, O, I-AF, I-CV
-28	##기	O	I-EV	I-EV, I-OG, O, I-AF, I-CV
-29	극복	O	I-EV	I-EV, I-OG, O, I-AF, I-CV
-30	대책	O	I-EV	I-EV, I-OG, O, I-AF, I-CV
-31	회의	O	I-EV	I-EV, O, I-OG, I-AF, I-QT
-32	’	O	O	O, I-EV, I-OG, I-DT, I-AF
-33	를	O	O	O, I-EV, B-CV, B-OG, B-LC
-34	열	O	O	O, B-OG, B-CV, B-EV, I-EV
-35	##었	O	O	O, B-CV, B-OG, I-EV, B-LC
-36	##다	O	O	O, B-CV, B-LC, B-OG, I-EV
-37	.	O	O	O, B-OG, B-LC, I-EV, I-OG
-38	[SEP]	O	O	O, B-OG, B-LC, I-EV, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	특수	B-OG	B-OG
+2	##수사	I-OG	I-OG
+3	##과	I-OG	I-OG
+4	##의	O	O
+5	전신	O	O
+6	##인	O	O
+7	이른바	O	O
+8	'	O	O
+9	사직	B-LC	B-OG
+10	##동	I-LC	I-OG
+11	##팀	O	I-OG
+12	(	O	O
+13	경찰청	B-OG	B-OG
+14	조사	O	O
+15	##과	O	O
+16	)	O	O
+17	'	O	O
+18	은	O	O
+19	과거	O	O
+20	김대중	B-PS	B-PS
+21	정부	B-OG	B-OG
+22	시절	O	O
+23	청와대	B-OG	B-AF
+24	##의	O	O
+25	하	O	O
+26	##명	O	O
+27	(	O	O
+28	下	O	O
+29	命	O	O
+30	)	O	O
+31	수사	O	O
+32	##를	O	O
+33	전담	O	O
+34	##한	O	O
+35	바	O	O
+36	있	O	O
+37	##다	O	O
+38	.	O	O
+39	[SEP]	O	O

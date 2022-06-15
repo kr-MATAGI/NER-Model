@@ -1,48 +1,58 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	이	O	O	O, B-PS, B-OG, B-CV, B-LC
-2	때문	O	O	O, B-PS, B-CV, B-OG, B-LC
-3	##에	O	O	O, B-OG, B-PS, B-CV, I-OG
-4	당	O	O	O, B-OG, I-OG, B-PS, B-CV
-5	일각	O	O	O, B-CV, I-OG, B-PS, B-QT
-6	##에	O	O	O, B-PS, B-CV, B-LC, B-OG
-7	##선	O	O	O, B-PS, B-LC, B-CV, B-OG
-8	'	O	O	O, B-LC, B-CV, B-PS, B-OG
-9	성공	O	O	O, B-CV, B-PS, B-LC, B-EV
-10	##한	O	O	O, B-PS, I-PS, B-LC, B-CV
-11	인생	O	O	O, B-PS, I-PS, B-LC, B-OG
-12	'	O	O	O, B-PS, B-CV, B-LC, B-OG
-13	'	O	O	O, B-PS, B-CV, B-LC, B-OG
-14	엘리트	O	B-CV	B-CV, O, B-OG, B-PS, B-FD
-15	코스	O	O	O, I-CV, B-PS, I-OG, I-PS
-16	'	O	O	O, B-CV, B-PS, I-CV, I-OG
-17	로	O	O	O, B-PS, B-CV, B-LC, B-QT
-18	대변	O	O	O, B-PS, B-LC, B-OG, B-CV
-19	##되	O	O	O, B-PS, B-CV, B-LC, I-PS
-20	##는	O	O	O, B-PS, B-OG, B-CV, B-LC
-21	법조	O	O	O, B-CV, B-FD, B-OG, B-TM
-22	##출	O	O	O, B-CV, I-CV, B-PS, I-OG
-23	##신	O	O	O, I-CV, B-CV, B-PS, I-OG
-24	##들이	O	O	O, B-PS, B-CV, I-CV, B-LC
-25	너무	O	O	O, B-PS, B-CV, B-LC, B-OG
-26	많	O	O	O, B-PS, B-OG, B-QT, B-LC
-27	##아	O	O	O, B-LC, B-PS, B-OG, B-CV
-28	한나라당	B-OG	B-OG	B-OG, B-LC, O, B-PS, B-AF
-29	##이	O	O	O, I-OG, B-PS, I-PS, B-CV
-30	'	O	O	O, B-CV, B-LC, B-PS, B-OG
-31	부자	B-CV	O	O, B-CV, B-PS, B-OG, I-CV
-32	정당	O	O	O, I-CV, B-CV, B-OG, B-PS
-33	'	O	O	O, I-CV, B-CV, B-PS, I-OG
-34	이미지	O	O	O, B-CV, B-PS, B-LC, B-QT
-35	##를	O	O	O, B-CV, B-PS, I-CV, B-LC
-36	벗	O	O	O, B-CV, B-PS, B-TM, B-LC
-37	##지	O	O	O, B-PS, B-CV, B-LC, B-QT
-38	못한다는	O	O	O, B-CV, B-PS, B-LC, B-TM
-39	비판	O	O	O, B-CV, B-PS, B-TM, B-TR
-40	##이	O	O	O, B-PS, B-CV, B-OG, I-CV
-41	나오	O	O	O, B-CV, B-QT, B-OG, B-TM
-42	##고	O	O	O, B-CV, B-PS, I-CV, B-QT
-43	있	O	O	O, B-CV, B-PS, B-LC, B-OG
-44	##다	O	O	O, B-CV, B-PS, I-OG, B-OG
-45	.	O	O	O, B-PS, B-LC, B-CV, B-OG
-46	[SEP]	O	O	O, B-CV, B-PS, B-LC, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	경기	B-OG	B-OG
+2	##지방	I-OG	I-OG
+3	##경찰	I-OG	I-OG
+4	##청	I-OG	I-OG
+5	광역	O	B-OG
+6	##수사	O	I-OG
+7	##대	O	I-OG
+8	##는	O	O
+9	2	B-DT	B-DT
+10	##일	I-DT	I-DT
+11	17	B-QT	B-QT
+12	##억	I-QT	I-QT
+13	##원	I-QT	I-QT
+14	##의	O	O
+15	보험금	O	O
+16	##을	O	O
+17	노리	O	O
+18	##고	O	O
+19	후배	B-CV	B-CV
+20	##를	O	O
+21	가스	O	O
+22	##에	O	O
+23	중독	O	O
+24	##시	O	O
+25	##켜	O	O
+26	살해	O	O
+27	##한	O	O
+28	혐의	O	O
+29	##로	O	O
+30	오	B-PS	B-PS
+31	##모	O	O
+32	(	O	O
+33	33	B-QT	B-QT
+34	)	O	O
+35	씨	O	O
+36	등	O	O
+37	4	B-QT	B-QT
+38	##명	I-QT	I-QT
+39	##을	O	O
+40	구속	O	O
+41	##하	O	O
+42	##고	O	O
+43	김	B-PS	B-PS
+44	##모	O	O
+45	(	O	O
+46	33	B-QT	B-QT
+47	)	O	O
+48	씨	O	O
+49	##를	O	O
+50	불구	O	O
+51	##속	O	O
+52	입건	O	O
+53	##했	O	O
+54	##다	O	O
+55	.	O	O
+56	[SEP]	O	O

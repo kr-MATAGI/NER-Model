@@ -1,41 +1,36 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-QT
-1	양산	B-LC	B-LC	B-LC, O, B-AF, B-OG, B-PS
-2	자택	O	O	O, I-LC, B-LC, B-CV, B-AF
-3	##에서	O	O	O, B-PS, B-LC, I-LC, B-CV
-4	키우	O	O	O, B-CV, B-TM, B-PS, B-LC
-5	##고	O	O	O, B-PS, B-AM, B-CV, B-LC
-6	있	O	O	O, B-PS, B-CV, B-LC, B-TM
-7	##는	O	O	O, B-PS, B-CV, B-LC, I-PS
-8	반려	O	B-AM	B-AM, O, B-CV, B-TM, B-PS
-9	##견	O	I-AM	I-AM, O, I-TM, I-CV, B-AM
-10	‘	O	O	O, B-PS, I-CV, B-CV, I-PS
-11	마루	B-PS	B-PS	B-PS, O, B-AM, B-LC, B-OG
-12	’	O	O	O, I-PS, B-PS, B-CV, I-DT
-13	‘	O	O	O, B-PS, B-LC, B-CV, I-PS
-14	깜	B-PS	B-PS	B-PS, O, B-AM, I-PS, B-LC
-15	’	O	O	O, I-PS, B-PS, B-CV, I-DT
-16	과	O	O	O, B-PS, B-LC, B-AM, I-PS
-17	고양이	B-AM	B-AM	B-AM, O, B-PS, B-TM, B-CV
-18	‘	O	O	O, B-CV, I-PS, B-PS, I-DT
-19	찡	B-PS	B-PS	B-PS, O, B-AM, B-OG, B-LC
-20	##찡	I-PS	I-PS	I-PS, O, I-LC, I-AM, I-OG
-21	##이	I-PS	I-PS	I-PS, O, I-AM, I-LC, I-OG
-22	’	O	O	O, I-PS, B-PS, B-CV, B-LC
-23	‘	O	O	O, B-CV, B-LC, B-PS, B-QT
-24	뭉치	B-PS	B-PS	B-PS, O, B-OG, B-LC, B-AM
-25	’	O	O	O, I-PS, B-CV, B-PS, I-OG
-26	는	O	O	O, B-PS, B-LC, B-CV, I-PS
-27	‘	O	O	O, B-CV, B-PS, B-LC, B-OG
-28	퍼스트	O	B-CV	B-CV, O, B-PS, B-OG, B-AF
-29	펫	O	I-CV	I-CV, O, B-CV, I-PS, I-AF
-30	’	O	O	O, I-CV, I-PS, B-PS, I-QT
-31	으로	O	O	O, B-PS, B-LC, B-OG, B-CV
-32	청와대	B-AF	B-OG	B-OG, B-AF, O, B-LC, B-PS
-33	##에	O	O	O, I-OG, I-AF, I-EV, B-CV
-34	입성	O	O	O, B-CV, B-LC, B-PS, I-OG
-35	##할	O	O	O, B-PS, B-LC, B-OG, B-CV
-36	예정	O	O	O, B-PS, B-LC, B-CV, B-QT
-37	##이다	O	O	O, B-CV, B-PS, B-LC, I-QT
-38	.	O	O	O, B-PS, B-LC, B-CV, B-OG
-39	[SEP]	O	O	O, B-PS, B-CV, B-LC, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	홍	B-LC	B-LC
+2	##파	I-LC	I-LC
+3	##동	I-LC	I-LC
+4	##과	O	O
+5	하	B-LC	B-LC
+6	##왕	I-LC	I-LC
+7	##십리	I-LC	O
+8	##동	I-LC	I-LC
+9	역시	O	O
+10	각각	O	O
+11	돈의	B-AF	B-LC
+12	##문	I-AF	I-LC
+13	뉴타운	O	O
+14	##과	O	O
+15	왕십리	B-LC	B-LC
+16	뉴타운	O	O
+17	##으로	O	O
+18	지정	O	O
+19	##돼	O	O
+20	철거	O	O
+21	##를	O	O
+22	앞두	O	O
+23	##고	O	O
+24	있	O	O
+25	##거나	O	O
+26	부분	O	O
+27	##적	O	O
+28	##으로	O	O
+29	철거	O	O
+30	##에	O	O
+31	들어갔	O	O
+32	##다	O	O
+33	.	O	O
+34	[SEP]	O	O

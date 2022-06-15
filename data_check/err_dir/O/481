@@ -1,30 +1,56 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-EV, I-OG, B-CV, I-CV
-1	내년	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-2	9	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-3	##월	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-4	##18	I-DT	I-DT	I-DT, O, B-DT, I-PS, I-AF
-5	##일	I-DT	I-DT	I-DT, O, B-DT, I-PS, I-AF
-6	탄생	O	O	O, B-AF, B-EV, B-PS, B-CV
-7	100	B-QT	B-QT	B-QT, I-QT, B-DT, I-AF, I-EV
-8	##돌	I-QT	I-QT	I-QT, O, I-EV, I-AF, I-DT
-9	직전	O	O	O, I-EV, I-QT, B-PS, B-EV
-10	##에	O	O	O, I-EV, I-AF, I-OG, I-QT
-11	2500	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-LC
-12	##석	I-QT	I-QT	I-QT, O, I-LC, I-EV, I-PS
-13	규모	O	O	O, I-QT, I-EV, I-OG, I-AF
-14	##의	O	O	O, B-LC, B-PS, B-OG, I-AF
-15	서울	B-LC	B-LC	B-LC, O, B-AF, B-OG, B-PS
-16	예술	B-AF	B-AF	B-AF, I-AF, B-LC, O, B-PS
-17	##의	I-AF	I-AF	I-AF, I-LC, O, B-AF, I-PS
-18	##전	I-AF	I-AF	I-AF, O, I-LC, I-PS, B-AF
-19	##당	I-AF	I-AF	I-AF, O, I-LC, B-AF, I-OG
-20	콘서트홀	O	I-AF	I-AF, O, B-AF, I-LC, B-QT
-21	##에서	O	O	O, I-AF, I-EV, I-LC, B-CV
-22	음악회	O	O	O, B-EV, B-FD, I-EV, B-CV
-23	##를	O	O	O, I-EV, I-AF, B-CV, I-OG
-24	열	O	O	O, B-CV, B-OG, I-EV, B-LC
-25	계획	O	O	O, B-CV, I-EV, B-OG, I-AF
-26	##이다	O	O	O, B-CV, I-EV, I-OG, I-AF
-27	.	O	O	O, B-LC, B-PS, B-AF, B-OG
-28	[SEP]	O	O	O, B-LC, B-CV, I-AF, I-EV
+	text	label	preds
+0	[CLS]	O	O
+1	무소	O	O
+2	##속	O	O
+3	안철수	B-PS	B-PS
+4	대선	B-EV	B-EV
+5	##후	B-CV	B-CV
+6	##보	I-CV	I-CV
+7	##는	O	O
+8	야권	O	B-CV
+9	##후	B-CV	I-CV
+10	##보	I-CV	I-CV
+11	단일화	O	O
+12	협상	O	O
+13	중단	O	O
+14	이틀	B-DT	B-DT
+15	##째	I-DT	I-DT
+16	##인	O	O
+17	15	B-DT	B-DT
+18	##일	I-DT	I-DT
+19	아동	O	O
+20	##센터	O	O
+21	##를	O	O
+22	방문	O	O
+23	##한	O	O
+24	것	O	O
+25	외	O	O
+26	##에	O	O
+27	##는	O	O
+28	외부	O	O
+29	일정	O	O
+30	##을	O	O
+31	잡지	O	O
+32	않	O	O
+33	##은	O	O
+34	채	O	O
+35	언론	O	O
+36	인터뷰	O	O
+37	##를	O	O
+38	하	O	O
+39	##며	O	O
+40	캠프	O	O
+41	주요	O	O
+42	관계자	B-CV	B-CV
+43	##들	O	O
+44	##과	O	O
+45	단일화	O	O
+46	협상	O	O
+47	중단	O	O
+48	대책	O	O
+49	##을	O	O
+50	논의	O	O
+51	##했	O	O
+52	##다	O	O
+53	.	O	O
+54	[SEP]	O	O

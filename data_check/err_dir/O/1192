@@ -1,32 +1,35 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-QT, I-CV
-1	아이폰	B-AF	B-AF	B-AF, B-PS, O, B-LC, B-OG
-2	##7	I-AF	I-AF	I-AF, O, I-PS, B-AF, I-OG
-3	##은	O	O	O, I-AF, I-OG, I-EV, B-CV
-4	두	B-QT	B-QT	B-QT, O, B-DT, I-QT, B-TI
-5	번	I-QT	I-QT	I-QT, O, I-DT, I-EV, I-TI
-6	만	O	I-QT	I-QT, O, I-DT, I-TI, I-EV
-7	##에	O	O	O, I-QT, I-DT, I-EV, I-OG
-8	,	O	O	O, B-OG, B-CV, B-LC, B-TM
-9	아이폰	B-AF	B-AF	B-AF, B-PS, O, I-AF, B-LC
-10	##7	I-AF	I-AF	I-AF, O, I-PS, B-AF, I-OG
-11	플러스	I-AF	I-AF	I-AF, O, I-PS, B-AF, I-OG
-12	##는	O	O	O, I-AF, I-OG, B-CV, I-EV
-13	세	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-TI
-14	번	I-QT	I-QT	I-QT, O, I-DT, I-EV, I-TI
-15	만	O	I-QT	I-QT, O, I-DT, I-TI, I-EV
-16	##에	O	O	O, I-QT, I-DT, I-EV, I-OG
-17	더	O	O	O, B-LC, B-CV, B-TM, B-OG
-18	이상	O	O	O, B-LC, B-QT, I-QT, B-TM
-19	사용	O	O	O, B-CV, B-TM, I-QT, B-QT
-20	##할	O	O	O, B-PS, B-CV, B-LC, B-TM
-21	수	O	O	O, B-CV, B-TM, B-PS, B-QT
-22	없	O	O	O, B-CV, B-TM, B-QT, B-LC
-23	##는	O	O	O, B-CV, B-TM, B-OG, B-LC
-24	수준	O	O	O, B-CV, B-TM, B-QT, B-OG
-25	##으로	O	O	O, B-OG, B-CV, B-QT, B-PS
-26	부서	O	O	O, B-CV, B-QT, B-TM, B-OG
-27	##졌	O	O	O, I-OG, B-CV, I-QT, B-QT
-28	##다	O	O	O, B-CV, I-OG, B-TM, B-QT
-29	.	O	O	O, B-LC, B-CV, B-OG, B-PS
-30	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	이	O	O
+2	무렵	O	O
+3	##부터	O	O
+4	가족	B-CV	B-CV
+5	##이나	O	O
+6	주변	O	O
+7	##에	O	O
+8	“	O	O
+9	일	O	O
+10	##이	O	O
+11	많	O	O
+12	##아	O	O
+13	##서	O	O
+14	죽	O	O
+15	##을	O	O
+16	만큼	O	O
+17	힘들	O	O
+18	##다	O	O
+19	”	O	O
+20	는	O	O
+21	말	O	O
+22	##을	O	O
+23	자주	O	O
+24	했	O	O
+25	##고	O	O
+26	,	O	O
+27	우울증	O	B-TM
+28	##세	O	I-TM
+29	##도	O	O
+30	나타났	O	O
+31	##다	O	O
+32	.	O	O
+33	[SEP]	O	O

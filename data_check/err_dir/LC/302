@@ -1,39 +1,65 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	CIA	B-OG	B-OG	B-OG, O, B-AF, B-LC, B-PS
-2	##는	O	O	O, I-OG, I-AF, I-EV, B-CV
-3	이날	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-4	북한	B-LC	B-OG	B-OG, B-LC, O, I-OG, B-AF
-5	##의	O	O	O, I-OG, I-LC, I-AF, I-EV
-6	남	O	O	O, B-LC, B-CV, B-EV, B-TM
-7	##침	O	O	O, I-LC, B-LC, I-AF, I-EV
-8	##과	O	O	O, B-LC, B-PS, B-OG, B-CV
-9	중공	B-OG	B-OG	B-OG, O, B-CV, B-LC, B-AF
-10	##군	I-OG	I-OG	I-OG, O, I-CV, I-EV, I-AF
-11	개입	O	O	O, I-OG, I-EV, B-CV, I-CV
-12	가능	O	O	O, B-CV, B-LC, B-PS, B-OG
-13	##성	O	O	O, B-PS, B-LC, B-OG, B-CV
-14	##을	O	O	O, B-CV, B-LC, B-OG, B-PS
-15	낮	O	O	O, B-QT, B-TM, B-CV, B-LC
-16	##게	O	O	O, I-QT, B-PS, B-CV, I-OG
-17	평가	O	O	O, B-CV, B-PS, I-QT, B-LC
-18	##함	O	O	O, B-PS, B-CV, B-LC, B-OG
-19	##으로	O	O	O, B-CV, B-LC, B-PS, B-TM
-20	##써	O	O	O, B-LC, B-CV, B-TM, B-PS
-21	결정	O	O	O, B-CV, B-LC, B-TM, B-PS
-22	##적	O	O	O, B-LC, B-PS, B-TM, I-LC
-23	오	O	O	O, B-CV, B-LC, B-TM, B-PS
-24	##판	O	O	O, I-LC, B-CV, I-CV, B-LC
-25	##을	O	O	O, B-CV, B-PS, I-CV, B-LC
-26	했	O	O	O, B-CV, B-LC, B-PS, B-OG
-27	##다는	O	O	O, B-LC, B-CV, B-PS, B-TM
-28	자기	O	O	O, B-CV, B-AF, B-PS, B-LC
-29	##반	O	O	O, I-AF, I-CV, I-TM, I-LC
-30	##성	O	O	O, I-AF, I-CV, B-CV, I-TM
-31	보고서	O	O	O, I-AF, B-AF, B-CV, B-PS
-32	##도	O	O	O, I-AF, B-CV, I-CV, B-LC
-33	공개	O	O	O, B-CV, B-OG, B-TM, B-LC
-34	##했	O	O	O, B-CV, B-LC, B-OG, B-PS
-35	##다	O	O	O, B-CV, B-LC, I-OG, B-QT
-36	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-37	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	김	B-PS	B-PS
+2	장관	B-CV	B-CV
+3	##은	O	O
+4	강정	B-LC	B-LC
+5	##마을	I-LC	I-LC
+6	주민	B-CV	B-CV
+7	등이	O	O
+8	국방부	B-OG	B-OG
+9	장관	B-CV	B-CV
+10	##을	O	O
+11	상대	O	O
+12	##로	O	O
+13	서울	B-OG	B-OG
+14	##행정	I-OG	I-OG
+15	##법	I-OG	I-OG
+16	##원	I-OG	I-OG
+17	##에	O	O
+18	낸	O	O
+19	‘	O	O
+20	국방	B-TM	B-TM
+21	·	I-TM	I-TM
+22	군사	I-TM	I-TM
+23	##시설	I-TM	I-TM
+24	##사업	I-TM	I-TM
+25	실시	O	O
+26	##계	O	O
+27	##획	O	O
+28	승인	O	O
+29	##처분	O	O
+30	무효	O	O
+31	##확	O	O
+32	##인	O	O
+33	’	O	O
+34	소송	O	O
+35	##과	O	O
+36	관련	O	O
+37	##해	O	O
+38	“	O	O
+39	제주도	B-LC	B-OG
+40	##와	O	O
+41	국가	O	O
+42	,	O	O
+43	또	O	O
+44	모두	O	O
+45	##에	O	O
+46	##게	O	O
+47	바람직	O	O
+48	##한	O	O
+49	쪽	O	O
+50	##으로	O	O
+51	가	O	O
+52	##는	O	O
+53	것	O	O
+54	##이	O	O
+55	좋	O	O
+56	##다	O	O
+57	”	O	O
+58	고	O	O
+59	말	O	O
+60	##했	O	O
+61	##다	O	O
+62	.	O	O
+63	[SEP]	O	O

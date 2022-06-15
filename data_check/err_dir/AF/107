@@ -1,60 +1,31 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-EV, I-OG, I-CV
-1	청와대	B-AF	B-OG	B-OG, B-AF, O, B-LC, B-PS
-2	##가	O	O	O, I-OG, I-AF, B-PS, I-EV
-3	경찰청	B-OG	B-OG	B-OG, B-AF, O, B-LC, B-EV
-4	##에	O	O	O, I-OG, I-AF, I-EV, I-DT
-5	""""	O	O	O, B-LC, B-EV, B-PS, B-DT
-6	용산	B-LC	B-EV	B-EV, B-LC, O, B-AF, B-OG
-7	사태	O	I-EV	I-EV, O, I-LC, I-AF, I-OG
-8	##를	O	O	O, I-EV, I-OG, I-AF, B-PS
-9	통한	O	O	O, B-LC, B-EV, B-PS, B-OG
-10	촛불	B-EV	O	O, B-EV, B-CV, B-LC, I-EV
-11	##시위	I-EV	I-EV	I-EV, O, B-EV, I-OG, I-LC
-12	확산	O	O	O, I-EV, B-PS, I-OG, B-LC
-13	##에	O	O	O, B-PS, B-LC, I-EV, B-OG
-14	대응	O	O	O, B-LC, B-PS, B-OG, B-TM
-15	##하기	O	O	O, B-PS, B-LC, B-OG, B-CV
-16	위해	O	O	O, B-LC, B-PS, B-OG, B-EV
-17	군포	B-EV	B-EV	B-EV, B-LC, B-AF, O, I-EV
-18	##살	I-EV	I-EV	I-EV, O, I-AF, I-LC, B-EV
-19	##인	I-EV	I-EV	I-EV, O, I-AF, I-LC, I-CV
-20	##사건	I-EV	I-EV	I-EV, O, I-AF, I-LC, I-CV
-21	##을	O	O	O, I-EV, I-AF, I-OG, B-CV
-22	활용	O	O	O, B-LC, B-CV, B-OG, B-PS
-23	##하라	O	O	O, B-PS, B-LC, B-CV, B-OG
-24	""""	O	O	O, B-CV, B-LC, B-OG, B-PS
-25	는	O	O	O, B-PS, B-LC, B-OG, B-CV
-26	지침	O	O	O, B-CV, B-LC, B-PS, B-TM
-27	##을	O	O	O, B-PS, B-CV, B-LC, B-OG
-28	보냈	O	O	O, B-PS, B-LC, B-CV, B-OG
-29	##다는	O	O	O, B-PS, B-LC, B-OG, B-CV
-30	민주당	B-OG	B-OG	B-OG, O, B-LC, B-AF, B-PS
-31	##의	O	O	O, I-OG, B-PS, I-EV, I-PS
-32	의혹	O	O	O, B-PS, B-CV, B-LC, B-EV
-33	##제	O	O	O, B-PS, B-LC, I-PS, B-CV
-34	##기에	O	O	O, B-PS, B-LC, I-PS, I-EV
-35	대해	O	O	O, B-LC, B-OG, B-PS, B-TM
-36	,	O	O	O, B-LC, B-OG, B-PS, B-CV
-37	청와대	B-AF	B-OG	B-OG, B-AF, O, B-LC, B-PS
-38	##가	O	O	O, I-OG, B-PS, I-AF, I-PS
-39	13	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-QT
-40	##일	I-DT	I-DT	I-DT, O, B-DT, I-EV, I-PS
-41	개인	O	O	O, I-DT, B-TM, B-LC, B-PS
-42	이메일	O	O	O, B-TM, B-LC, B-CV, B-EV
-43	##을	O	O	O, B-PS, B-LC, B-CV, B-OG
-44	경찰청	B-OG	B-OG	B-OG, B-AF, O, B-LC, B-TM
-45	##에	O	O	O, I-OG, I-AF, I-EV, B-CV
-46	보낸	O	O	O, B-PS, B-LC, B-CV, B-OG
-47	행정관	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-EV
-48	##에	O	O	O, I-CV, I-EV, I-OG, B-CV
-49	대해	O	O	O, B-LC, B-DT, B-OG, B-CV
-50	구두	O	O	O, B-CV, B-TM, B-MT, B-TR
-51	##경	O	O	O, I-CV, B-CV, I-TM, B-TM
-52	##고	O	O	O, I-CV, B-CV, I-TM, I-OG
-53	조치	O	O	O, I-CV, I-OG, B-PS, I-EV
-54	##를	O	O	O, B-CV, B-OG, B-PS, B-LC
-55	내렸	O	O	O, B-CV, B-OG, B-LC, B-PS
-56	##다	O	O	O, B-CV, B-LC, B-OG, I-OG
-57	.	O	O	O, B-LC, B-PS, B-CV, B-OG
-58	[SEP]	O	O	O, B-LC, B-CV, B-PS, I-EV
+	text	label	preds
+0	[CLS]	O	O
+1	이에	O	O
+2	대해	O	O
+3	채널	B-AF	B-OG
+4	##4	I-AF	I-OG
+5	측은	O	O
+6	""""	O	O
+7	이	O	O
+8	영상	O	O
+9	##은	O	O
+10	중요	O	O
+11	##한	O	O
+12	역사	O	O
+13	##적	O	O
+14	자료	O	O
+15	""""	O	O
+16	라며	O	O
+17	""""	O	O
+18	예정	O	O
+19	##대로	O	O
+20	방영	O	O
+21	##할	O	O
+22	계획	O	O
+23	""""	O	O
+24	이라	O	O
+25	##고	O	O
+26	밝혔	O	O
+27	##다	O	O
+28	.	O	O
+29	[SEP]	O	O

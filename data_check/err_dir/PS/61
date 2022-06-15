@@ -1,62 +1,68 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-EV, B-CV, I-OG, I-CV
-1	12	B-DT	B-DT	B-DT, I-DT, O, B-QT, B-EV
-2	##월	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
-3	8	I-DT	I-DT	I-DT, B-DT, O, I-PS, I-QT
-4	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
-5	##부터	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
-6	매주	O	O	O, I-DT, B-DT, B-CV, B-LC
-7	목요일	B-DT	B-DT	B-DT, I-DT, O, B-EV, B-QT
-8	4	B-QT	B-QT	B-QT, B-EV, B-DT, I-DT, O
-9	##차례	I-QT	I-QT	I-QT, O, I-EV, I-DT, I-AF
-10	연	O	B-AF	B-AF, B-LC, O, B-OG, B-PS
-11	##낙	O	I-AF	I-AF, I-LC, O, I-OG, I-PS
-12	##재	O	I-AF	I-AF, I-LC, O, I-OG, I-PS
-13	세미나	O	O	O, I-AF, I-LC, B-AF, B-LC
-14	##실	O	O	O, I-AF, I-LC, I-OG, I-EV
-15	##에서	O	O	O, I-AF, B-LC, I-EV, B-PS
-16	열리	O	O	O, B-CV, B-EV, B-LC, B-OG
-17	##는	O	O	O, B-CV, B-LC, B-OG, B-EV
-18	‘	O	O	O, B-EV, B-LC, B-DT, B-CV
-19	영상	O	B-EV	B-EV, O, B-AF, I-EV, B-TM
-20	##으로	O	I-EV	I-EV, O, I-AF, I-TM, I-OG
-21	만나	O	I-EV	I-EV, O, I-AF, I-TM, I-OG
-22	##는	O	I-EV	I-EV, O, I-AF, I-OG, I-TM
-23	최승	B-PS	I-EV	I-EV, B-PS, I-PS, I-AF, B-EV
-24	##희	I-PS	I-PS	I-PS, I-EV, I-AF, I-LC, O
-25	##의	O	I-EV	I-EV, O, I-AF, I-PS, I-OG
-26	삶	O	I-EV	I-EV, O, I-AF, I-OG, I-TM
-27	##과	O	I-EV	I-EV, O, I-AF, I-OG, I-TM
-28	예술	O	I-EV	I-EV, O, I-AF, I-OG, I-TM
-29	’	O	O	O, I-EV, I-OG, I-DT, I-AF
-30	행사	O	O	O, I-EV, B-EV, B-CV, B-PS
-31	##에	O	O	O, I-EV, B-CV, B-PS, B-OG
-32	##선	O	O	O, B-LC, B-OG, B-CV, B-DT
-33	월	O	O	O, B-LC, B-PS, B-OG, B-CV
-34	##북	O	O	O, I-LC, I-CV, I-OG, I-EV
-35	이후	O	O	O, I-DT, I-LC, I-OG, I-PS
-36	##인	O	O	O, I-DT, B-PS, I-PS, I-OG
-37	1954	B-DT	B-DT	B-DT, I-DT, O, B-QT, B-EV
-38	##년	I-DT	I-DT	I-DT, O, I-QT, I-PS, B-DT
-39	최승	B-PS	B-PS	B-PS, O, I-PS, B-OG, B-LC
-40	##희	I-PS	I-PS	I-PS, O, I-OG, I-DT, I-LC
-41	##가	O	O	O, I-PS, B-PS, B-CV, B-FD
-42	안무	O	O	O, B-FD, I-FD, B-CV, B-TR
-43	##한	O	O	O, I-FD, B-PS, B-FD, I-CV
-44	무용	O	B-FD	B-FD, O, I-FD, B-TR, B-CV
-45	##극	O	I-FD	I-FD, O, B-FD, I-TR, I-AF
-46	‘	O	O	O, I-FD, B-CV, B-FD, I-OG
-47	사도	O	B-AF	B-AF, B-PS, B-LC, O, B-EV
-48	##성	O	I-AF	I-AF, O, I-PS, I-LC, I-OG
-49	##의	O	I-AF	I-AF, O, I-LC, I-PS, I-OG
-50	이야기	O	I-AF	I-AF, O, I-LC, I-FD, I-OG
-51	’	O	O	O, I-AF, I-EV, I-OG, B-CV
-52	를	O	O	O, B-CV, B-LC, B-FD, B-OG
-53	영상	O	O	O, B-FD, B-TM, B-TR, B-CV
-54	##으로	O	O	O, I-QT, I-EV, I-TR, B-PS
-55	만날	O	O	O, B-CV, B-TM, B-OG, B-LC
-56	수	O	O	O, B-CV, B-PS, B-LC, B-TM
-57	있	O	O	O, B-CV, I-EV, B-TM, B-EV
-58	##다	O	O	O, B-CV, I-EV, B-LC, B-OG
-59	.	O	O	O, B-LC, B-CV, I-EV, B-PS
-60	[SEP]	O	O	O, B-LC, I-EV, B-CV, B-FD
+	text	label	preds
+0	[CLS]	O	O
+1	울산	B-OG	B-OG
+2	##박	I-OG	I-OG
+3	##물	I-OG	I-OG
+4	##관	I-OG	I-OG
+5	신형	B-PS	B-PS
+6	##석	I-PS	I-PS
+7	학예	B-CV	B-CV
+8	##사	I-CV	I-CV
+9	##는	O	O
+10	""""	O	O
+11	백	B-PS	B-PS
+12	##촌	I-PS	I-PS
+13	김선	I-PS	O
+14	##생	I-PS	O
+15	유사	O	O
+16	##는	O	O
+17	공조	B-CV	B-CV
+18	##판	I-CV	I-CV
+19	##서	I-CV	I-CV
+20	##를	O	O
+21	지내	O	O
+22	##고	O	O
+23	단종	B-PS	B-PS
+24	복	O	O
+25	##위	O	O
+26	##에	O	O
+27	가담	O	O
+28	##했	O	O
+29	##다가	O	O
+30	사육	B-PS	B-PS
+31	##신	I-PS	I-PS
+32	##과	O	O
+33	함께	O	O
+34	숨	O	O
+35	##을	O	O
+36	거둔	O	O
+37	김문	B-PS	B-PS
+38	##기	I-PS	I-PS
+39	(	O	O
+40	139	B-DT	B-DT
+41	##9	I-DT	I-DT
+42	~	I-DT	I-DT
+43	145	I-DT	I-DT
+44	##6	I-DT	I-DT
+45	)	O	O
+46	선생	B-CV	B-CV
+47	##의	O	O
+48	업적	O	O
+49	##을	O	O
+50	정리	O	O
+51	##한	O	O
+52	책	O	O
+53	##으로	O	O
+54	사료	O	O
+55	##적	O	O
+56	가치	O	O
+57	##가	O	O
+58	높	O	O
+59	##다	O	O
+60	""""	O	O
+61	고	O	O
+62	말	O	O
+63	##했	O	O
+64	##다	O	O
+65	.	O	O
+66	[SEP]	O	O

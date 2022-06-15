@@ -1,40 +1,46 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-EV, B-CV, I-OG, I-QT
-1	하지만	O	O	O, B-TM, B-CV, B-LC, B-OG
-2	내리	O	O	O, B-TM, B-PS, B-QT, B-CV
-3	3	B-QT	B-QT	B-QT, I-QT, B-TM, O, B-EV
-4	##개	I-QT	I-QT	I-QT, I-TM, I-EV, O, I-AF
-5	##의	O	O	O, I-QT, I-TM, B-TM, I-EV
-6	보	B-TM	B-TM	B-TM, O, I-TM, B-QT, B-CV
-7	##기	I-TM	I-TM	I-TM, O, I-QT, B-TM, I-CV
-8	##를	O	O	O, I-TM, I-QT, I-CV, I-OG
-9	적	O	O	O, B-OG, B-TM, B-CV, B-LC
-10	##어내	O	O	O, B-LC, I-TM, I-OG, B-TM
-11	##며	O	O	O, B-LC, B-OG, B-TM, B-PS
-12	탐	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-13	왓슨	I-PS	I-PS	I-PS, B-PS, O, I-OG, I-LC
-14	##과	O	O	O, I-PS, B-LC, B-OG, B-CV
-15	퍼지	O	O	O, B-PS, B-OG, B-LC, B-TM
-16	[UNK]	O	O	O, B-PS, B-LC, B-CV, B-OG
-17	공동	O	O	O, B-CV, B-QT, B-OG, B-TM
-18	선두	O	O	O, B-CV, I-CV, B-QT, B-TM
-19	##를	O	O	O, I-CV, I-QT, I-OG, B-CV
-20	허용	O	O	O, B-OG, B-TM, B-LC, B-CV
-21	##했	O	O	O, B-LC, I-OG, B-CV, B-OG
-22	##고	O	O	O, B-LC, B-TM, B-QT, B-PS
-23	,	O	O	O, B-CV, B-LC, B-TM, B-EV
-24	연장	O	B-EV	B-EV, O, B-QT, B-TI, B-AF
-25	두	B-QT	B-QT	B-QT, I-QT, I-EV, B-TM, B-EV
-26	번	I-QT	I-QT	I-QT, I-TM, I-EV, I-AF, O
-27	##째	I-QT	I-QT	I-QT, I-TM, I-EV, I-AF, O
-28	홀	I-QT	I-QT	I-QT, I-TM, I-EV, O, I-AF
-29	##에서	O	O	O, I-QT, I-TM, I-EV, B-CV
-30	결국	O	O	O, B-OG, B-TM, B-CV, B-LC
-31	[UNK]	O	O	O, B-OG, B-LC, B-CV, B-TM
-32	패	O	O	O, B-TM, B-CV, B-EV, B-LC
-33	##하고	O	O	O, I-EV, I-TM, I-OG, I-QT
-34	말	O	O	O, I-EV, B-EV, B-CV, B-TM
-35	##았	O	O	O, I-EV, I-OG, I-QT, I-TM
-36	##다	O	O	O, B-CV, B-TM, I-EV, B-LC
-37	.	O	O	O, B-LC, B-TM, B-CV, B-PS
-38	[SEP]	O	O	O, B-TM, B-LC, B-CV, I-TM
+	text	label	preds
+0	[CLS]	O	O
+1	민주당	B-OG	B-OG
+2	신	B-PS	B-PS
+3	##계	I-PS	I-PS
+4	##륜	I-PS	I-PS
+5	(	O	O
+6	서울	B-LC	B-LC
+7	성북	B-LC	B-LC
+8	##을	I-LC	I-LC
+9	)	O	O
+10	,	O	O
+11	이부	B-PS	B-PS
+12	##영	I-PS	I-PS
+13	(	O	O
+14	서울	B-LC	B-LC
+15	강동	B-LC	B-LC
+16	##갑	I-LC	I-LC
+17	)	O	O
+18	,	O	O
+19	무소	O	O
+20	##속	O	O
+21	한화	B-PS	B-PS
+22	##갑	I-PS	I-PS
+23	(	O	O
+24	전남	B-LC	B-LC
+25	무안	B-LC	B-LC
+26	-	O	I-LC
+27	신안	B-LC	I-LC
+28	)	O	O
+29	후보	B-CV	B-CV
+30	등	O	O
+31	##은	O	O
+32	정치	B-CV	B-CV
+33	##자	I-CV	I-CV
+34	##금	I-CV	I-CV
+35	##법	I-CV	I-CV
+36	##을	O	O
+37	1	B-QT	B-QT
+38	##건	I-QT	I-QT
+39	이상	I-QT	I-QT
+40	위반	O	O
+41	##했	O	O
+42	##다	O	O
+43	.	O	O
+44	[SEP]	O	O

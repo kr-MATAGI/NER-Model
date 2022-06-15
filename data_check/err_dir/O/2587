@@ -1,29 +1,18 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-AF, I-CV
-1	영국	B-LC	B-LC	B-LC, O, B-OG, B-AF, B-PS
-2	브리	B-LC	B-LC	B-LC, O, I-LC, B-AF, B-OG
-3	##스	I-LC	I-LC	I-LC, O, B-LC, I-AF, I-OG
-4	##톨	I-LC	I-LC	I-LC, O, I-AF, B-LC, I-OG
-5	##의	O	O	O, I-LC, I-AF, I-OG, B-LC
-6	한	O	O	O, B-QT, B-OG, B-AF, B-LC
-7	요양원	O	O	O, B-OG, B-AF, I-OG, I-AF
-8	##은	O	O	O, I-AF, I-OG, B-CV, I-QT
-9	치매	B-TM	B-TM	B-TM, O, B-CV, B-TR, B-MT
-10	##노	O	B-CV	B-CV, O, I-CV, I-TM, B-TM
-11	##인	O	I-CV	I-CV, O, I-TM, B-CV, I-TR
-12	##들이	O	O	O, I-CV, B-CV, B-PS, I-AF
-13	과거	O	O	O, B-LC, B-DT, B-CV, B-QT
-14	거닐	O	O	O, B-AF, I-AF, B-LC, B-CV
-15	##었	O	O	O, B-CV, B-LC, I-AF, B-AF
-16	##던	O	O	O, B-CV, B-LC, B-AF, B-PS
-17	거리	O	O	O, B-CV, B-AF, B-QT, B-LC
-18	##와	O	O	O, B-CV, I-AF, B-LC, B-AF
-19	상점	O	O	O, B-CV, B-AF, B-QT, I-AF
-20	##을	O	O	O, B-CV, I-AF, B-TM, I-CV
-21	재현	O	O	O, B-CV, B-LC, B-QT, B-TM
-22	##해	O	O	O, B-LC, B-PS, B-CV, B-OG
-23	##놨	O	O	O, B-LC, B-CV, B-PS, B-QT
-24	##습	O	O	O, B-LC, B-CV, B-OG, B-PS
-25	##니다	O	O	O, B-LC, B-CV, B-OG, B-EV
-26	.	O	O	O, B-LC, B-AF, B-CV, B-FD
-27	[SEP]	O	O	O, B-LC, B-CV, B-AF, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	감자	O	B-CV
+2	갈아	O	O
+3	가지	O	O
+4	##고	O	O
+5	거기	O	O
+6	##다	O	O
+7	좀	O	O
+8	발라	O	O
+9	주	O	O
+10	##면	O	O
+11	더	O	O
+12	화기	O	O
+13	##가	O	O
+14	빠진다	O	O
+15	##는데	O	O
+16	[SEP]	O	O

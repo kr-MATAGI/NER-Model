@@ -1,8 +1,31 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	연쇄	B-CV	O	O, B-CV, B-TM, I-CV, B-QT
-2	방화	I-CV	B-CV	B-CV, I-CV, O, I-QT, B-AM
-3	##범	I-CV	I-CV	I-CV, O, B-CV, I-QT, I-OG
-4	##이	O	O	O, I-CV, B-PS, B-CV, B-QT
-5	아닌	O	O	O, B-CV, I-CV, B-PS, B-LC
-6	[SEP]	O	O	O, B-CV, I-CV, B-LC, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	―	O	O
+2	한국군	B-OG	B-OG
+3	##의	O	O
+4	자위권	B-CV	B-CV
+5	발동	O	O
+6	##은	O	O
+7	한국	B-LC	B-OG
+8	##의	O	O
+9	주권	B-CV	O
+10	문제	O	O
+11	##이	O	O
+12	##기	O	O
+13	때문	O	O
+14	##에	O	O
+15	미국	B-OG	B-OG
+16	측	O	O
+17	##에	O	O
+18	이해	O	O
+19	##를	O	O
+20	구할	O	O
+21	필요	O	O
+22	##가	O	O
+23	없	O	O
+24	##다는	O	O
+25	것	O	O
+26	##인	O	O
+27	##가	O	O
+28	.	O	O
+29	[SEP]	O	O

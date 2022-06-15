@@ -1,79 +1,44 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	‘	O	O	O, B-OG, B-LC, B-CV, B-PS
-2	국민	B-CV	B-CV	B-CV, B-AF, B-OG, O, B-TM
-3	##행	I-CV	I-CV	I-CV, I-OG, I-AF, O, B-CV
-4	##복	I-CV	I-CV	I-CV, I-OG, I-AF, O, I-TM
-5	##연금	I-CV	I-CV	I-CV, I-OG, I-AF, O, I-TM
-6	’	O	O	O, I-CV, I-OG, I-AF, I-EV
-7	이	O	O	O, B-PS, B-OG, B-CV, B-LC
-8	모든	O	O	O, B-PS, B-CV, B-LC, B-OG
-9	노인	O	O	O, B-CV, I-CV, B-PS, B-TM
-10	##에	O	O	O, I-CV, B-CV, B-PS, B-QT
-11	##게	O	O	O, B-CV, B-PS, I-CV, B-LC
-12	지급	O	O	O, B-CV, B-PS, B-TM, I-CV
-13	##하	O	O	O, B-PS, B-CV, B-LC, B-OG
-14	##는	O	O	O, B-CV, B-PS, B-LC, B-OG
-15	세금	O	O	O, B-CV, I-CV, B-MT, B-TM
-16	기반	O	O	O, I-CV, B-PS, B-CV, B-TM
-17	##의	O	O	O, B-PS, B-CV, B-LC, B-OG
-18	기초	B-CV	B-CV	B-CV, O, B-AF, B-OG, B-TM
-19	##연금	I-CV	I-CV	I-CV, O, I-AF, I-OG, B-CV
-20	##과	O	O	O, I-CV, I-OG, I-AF, B-PS
-21	가입자	B-CV	O	O, B-CV, B-TM, I-CV, B-AF
-22	##들이	O	O	O, I-CV, B-CV, B-PS, I-OG
-23	낸	O	O	O, B-CV, B-PS, B-AF, B-OG
-24	보험료	O	B-CV	B-CV, O, I-CV, B-AF, B-TM
-25	##를	O	O	O, I-CV, B-CV, B-PS, I-AF
-26	기반	O	O	O, B-CV, B-TM, B-PS, B-LC
-27	##으로	O	O	O, B-PS, B-QT, B-LC, B-CV
-28	하	O	O	O, B-PS, B-LC, B-OG, B-QT
-29	##는	O	O	O, B-PS, B-CV, B-LC, B-OG
-30	국민	B-CV	B-CV	B-CV, O, B-AF, B-OG, B-TM
-31	##연금	I-CV	I-CV	I-CV, O, I-OG, I-AF, B-CV
-32	##을	O	O	O, I-CV, I-OG, I-AF, I-EV
-33	포괄	O	O	O, B-LC, B-PS, B-TM, B-CV
-34	##하	O	O	O, B-PS, B-LC, B-OG, B-CV
-35	##는	O	O	O, B-PS, B-LC, B-OG, B-CV
-36	통합	O	O	O, B-PS, B-LC, B-CV, B-OG
-37	##적인	O	O	O, B-PS, B-LC, I-PS, B-QT
-38	연금	O	B-CV	B-CV, O, I-CV, B-AF, B-OG
-39	##체	O	O	O, I-CV, I-AF, I-TM, B-CV
-40	##계	O	O	O, I-CV, I-AF, I-TM, I-OG
-41	##를	O	O	O, I-CV, B-PS, I-AF, B-CV
-42	가리키	O	O	O, B-CV, B-PS, B-OG, B-LC
-43	##는	O	O	O, B-PS, B-OG, B-CV, B-LC
-44	것	O	O	O, B-OG, B-PS, B-CV, B-LC
-45	##임	O	O	O, B-PS, B-OG, B-LC, B-CV
-46	##에도	O	O	O, B-LC, B-OG, B-PS, B-TM
-47	,	O	O	O, B-OG, B-LC, B-CV, B-PS
-48	이	O	O	O, B-OG, B-PS, B-LC, B-CV
-49	위원회	O	O	O, B-OG, I-OG, B-CV, B-PS
-50	##가	O	O	O, B-PS, I-OG, B-OG, B-LC
-51	국민	B-CV	B-CV	B-CV, O, B-AF, B-OG, B-TM
-52	##연금	I-CV	I-CV	I-CV, O, I-AF, I-OG, B-CV
-53	##제	I-CV	I-CV	I-CV, O, B-CV, I-AF, I-OG
-54	##도	I-CV	I-CV	I-CV, O, B-CV, I-AF, I-OG
-55	##를	O	O	O, I-CV, I-AF, I-OG, I-EV
-56	제외	O	O	O, B-LC, B-CV, B-OG, B-TM
-57	##한	O	O	O, B-LC, B-PS, B-OG, B-DT
-58	기초	O	B-CV	B-CV, O, B-AF, B-OG, B-TM
-59	##연금	O	I-CV	I-CV, O, I-AF, B-CV, I-OG
-60	##제	O	I-CV	I-CV, O, B-CV, I-AF, I-OG
-61	##도	O	I-CV	I-CV, O, B-CV, I-AF, I-OG
-62	##만	O	O	O, I-CV, I-QT, I-AF, B-LC
-63	논의	O	O	O, B-LC, B-CV, B-OG, B-TM
-64	##하	O	O	O, B-PS, B-OG, B-LC, B-CV
-65	##도록	O	O	O, B-LC, B-OG, B-PS, B-CV
-66	한	O	O	O, B-OG, B-LC, B-PS, B-QT
-67	것	O	O	O, B-OG, B-LC, B-CV, B-PS
-68	##은	O	O	O, B-OG, B-LC, B-PS, B-CV
-69	맞	O	O	O, B-PS, B-LC, B-OG, B-CV
-70	##지	O	O	O, I-OG, B-PS, B-LC, I-PS
-71	않	O	O	O, B-LC, B-PS, I-OG, I-PS
-72	##는	O	O	O, B-LC, B-PS, I-OG, B-OG
-73	##다는	O	O	O, I-OG, B-LC, B-PS, I-QT
-74	지적도	O	O	O, B-CV, B-QT, B-LC, B-TM
-75	나온다	O	O	O, B-CV, B-TM, B-OG, B-QT
-76	.	O	O	O, B-LC, B-PS, B-CV, B-OG
-77	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	이	O	O
+2	때문	O	O
+3	##에	O	O
+4	지자체	O	O
+5	인사	O	O
+6	##를	O	O
+7	관리	O	O
+8	##하	O	O
+9	##는	O	O
+10	행정자치부	B-OG	B-OG
+11	##는	O	O
+12	1	B-DT	B-DT
+13	##년	I-DT	I-DT
+14	이상	I-DT	I-DT
+15	육아	O	B-CV
+16	##휴	O	I-CV
+17	##직	O	I-CV
+18	하	O	O
+19	##는	O	O
+20	공무원	B-CV	B-CV
+21	##의	O	O
+22	빈자리	O	O
+23	##를	O	O
+24	임기	O	O
+25	##제	O	O
+26	##가	O	O
+27	아닌	O	O
+28	공채	O	O
+29	공무원	B-CV	B-CV
+30	##으로	O	O
+31	채워	O	O
+32	##넣	O	O
+33	##는	O	O
+34	방안	O	O
+35	##을	O	O
+36	강구	O	O
+37	##하	O	O
+38	##고	O	O
+39	있	O	O
+40	##다	O	O
+41	.	O	O
+42	[SEP]	O	O

@@ -1,34 +1,64 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	현재	O	O	O, B-CV, B-TM, B-OG, B-LC
-2	문제	O	O	O, B-CV, B-OG, B-LC, B-TM
-3	##가	O	O	O, B-PS, B-OG, B-CV, B-LC
-4	되	O	O	O, B-CV, B-LC, B-OG, B-PS
-5	##는	O	O	O, B-CV, B-LC, B-PS, B-OG
-6	인공	O	O	O, B-LC, B-AF, B-CV, B-PS
-7	##섬	O	O	O, B-LC, I-LC, I-AF, B-PS
-8	대부분	O	O	O, B-LC, B-QT, B-TM, B-CV
-9	##은	O	O	O, B-OG, B-LC, B-PS, B-CV
-10	중국	B-OG	B-OG	B-OG, B-LC, O, B-PS, I-OG
-11	##이	O	O	O, I-OG, B-PS, B-OG, B-CV
-12	건설	O	O	O, B-LC, B-CV, B-OG, I-OG
-13	##중	O	O	O, I-OG, B-PS, B-LC, I-AF
-14	##인	O	O	O, B-PS, B-CV, B-OG, B-LC
-15	곳	O	O	O, B-LC, B-CV, B-AF, B-PS
-16	##들이	O	O	O, B-CV, B-PS, B-LC, I-AF
-17	##지만	O	O	O, B-CV, B-OG, B-PS, B-TM
-18	,	O	O	O, B-CV, B-OG, B-PS, B-LC
-19	성명	O	O	O, B-CV, B-OG, B-PS, B-AF
-20	##은	O	O	O, I-OG, I-CV, B-CV, B-PS
-21	중국	B-OG	B-LC	B-LC, B-OG, O, B-PS, B-TM
-22	##을	O	O	O, I-OG, I-LC, I-PS, I-AF
-23	직접	O	O	O, B-TM, B-CV, B-QT, B-LC
-24	##적으로	O	O	O, I-QT, B-LC, B-PS, B-TM
-25	거론	O	O	O, B-CV, B-TM, B-LC, B-QT
-26	##하	O	O	O, B-LC, B-PS, B-CV, B-DT
-27	##지	O	O	O, B-LC, B-CV, B-PS, B-OG
-28	않	O	O	O, B-CV, B-LC, B-PS, B-OG
-29	##았	O	O	O, B-CV, B-LC, B-OG, B-PS
-30	##다	O	O	O, B-CV, B-LC, I-OG, B-OG
-31	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-32	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	주	B-PS	B-PS
+2	##펑	I-PS	I-PS
+3	(	O	O
+4	朱	O	O
+5	[UNK]	O	O
+6	)	O	O
+7	베이징	B-OG	B-OG
+8	##대	I-OG	I-OG
+9	국제	B-OG	O
+10	##관계	I-OG	O
+11	##학	I-OG	O
+12	##원	I-OG	O
+13	교수	B-CV	B-CV
+14	##는	O	O
+15	3	B-DT	B-DT
+16	##일	I-DT	I-DT
+17	동아일보	B-OG	B-OG
+18	##와	O	O
+19	##의	O	O
+20	통화	O	O
+21	##에	O	O
+22	##서	O	O
+23	“	O	O
+24	우	B-PS	B-PS
+25	대표	B-CV	B-CV
+26	##의	O	O
+27	방북	O	O
+28	##은	O	O
+29	‘	O	O
+30	설득	O	O
+31	외교	O	O
+32	##의	O	O
+33	길	O	O
+34	’	O	O
+35	이	O	O
+36	될	O	O
+37	것	O	O
+38	”	O	O
+39	이라	O	O
+40	##며	O	O
+41	“	O	O
+42	설득	O	O
+43	외교	O	O
+44	##가	O	O
+45	실패	O	O
+46	##할	O	O
+47	경우	O	O
+48	중국	B-LC	B-LC
+49	##에도	O	O
+50	큰	O	O
+51	영향	O	O
+52	##을	O	O
+53	미칠	O	O
+54	것	O	O
+55	”	O	O
+56	이라	O	O
+57	##고	O	O
+58	말	O	O
+59	##했	O	O
+60	##다	O	O
+61	.	O	O
+62	[SEP]	O	O

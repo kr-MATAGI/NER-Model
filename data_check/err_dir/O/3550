@@ -1,26 +1,47 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-AF
-1	“	O	O	O, B-CV, B-OG, B-LC, B-PS
-2	‘	O	O	O, B-CV, B-LC, B-QT, B-PS
-3	하나	O	B-QT	B-QT, O, I-QT, B-PS, B-LC
-4	##의	O	O	O, I-QT, I-PS, I-AF, I-LC
-5	중국	B-LC	B-LC	B-LC, B-OG, O, I-LC, B-PS
-6	’	O	O	O, I-LC, I-OG, I-AF, B-PS
-7	원칙	O	O	O, B-CV, B-PS, B-LC, I-CV
-8	##은	O	O	O, B-CV, B-PS, B-LC, I-CV
-9	중국	B-LC	B-LC	B-LC, B-OG, O, B-PS, B-AF
-10	##에	O	O	O, I-OG, I-LC, I-AF, I-CV
-11	##는	O	O	O, B-LC, B-CV, B-OG, I-OG
-12	(	O	O	O, B-CV, B-LC, B-PS, B-OG
-13	트럼프	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-14	##의	O	O	O, I-PS, B-CV, I-OG, I-AF
-15	말	O	O	O, B-CV, B-TM, B-PS, B-QT
-16	##처럼	O	O	O, B-PS, B-CV, B-LC, B-OG
-17	)	O	O	O, B-CV, B-LC, B-PS, B-OG
-18	협상	O	O	O, B-CV, B-LC, B-OG, B-FD
-19	대상	O	O	O, B-CV, B-OG, B-QT, B-PS
-20	##이	O	O	O, B-PS, B-OG, B-CV, B-LC
-21	아니	O	O	O, B-CV, B-PS, B-LC, B-QT
-22	##다	O	O	O, B-CV, I-OG, I-AF, I-CV
-23	.	O	O	O, B-CV, B-LC, B-PS, B-OG
-24	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	스톡	O	B-CV
+2	##옵	O	I-CV
+3	##션	O	I-CV
+4	##이	O	O
+5	뭔지	O	O
+6	##도	O	O
+7	모르	O	O
+8	##던	O	O
+9	시절	O	O
+10	##에	O	O
+11	증권	O	O
+12	##계	O	O
+13	##에	O	O
+14	##서	O	O
+15	잔	O	O
+16	##뼈	O	O
+17	##가	O	O
+18	굵	O	O
+19	##은	O	O
+20	김	B-PS	B-PS
+21	행장	B-CV	B-CV
+22	##은	O	O
+23	주가	O	O
+24	상승	O	O
+25	이익	O	O
+26	##을	O	O
+27	최고	B-CV	B-CV
+28	##경	I-CV	I-CV
+29	##영	I-CV	I-CV
+30	##자	I-CV	I-CV
+31	(	O	O
+32	CEO	B-CV	B-CV
+33	)	O	O
+34	몫	O	O
+35	##으로	O	O
+36	톡톡히	O	O
+37	챙긴	O	O
+38	‘	O	O
+39	꾀	O	O
+40	##돌이	O	O
+41	’	O	O
+42	였	O	O
+43	##다	O	O
+44	.	O	O
+45	[SEP]	O	O

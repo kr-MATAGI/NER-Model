@@ -1,6 +1,49 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	와이	B-CV	B-CV	B-CV, O, B-AF, B-TM, B-OG
-2	##셔츠	I-CV	I-CV	I-CV, O, I-AF, I-TM, I-OG
-3	##지	O	I-CV	I-CV, O, I-AF, I-OG, I-TM
-4	[SEP]	O	O	O, I-CV, I-AF, I-OG, I-TM
+	text	label	preds
+0	[CLS]	O	O
+1	해	O	O
+2	##사	O	O
+3	##부	O	O
+4	##두	O	O
+5	##는	O	O
+6	4	B-QT	B-QT
+7	##만	I-QT	I-QT
+8	##30	I-QT	I-QT
+9	##00	I-QT	I-QT
+10	##여	I-QT	I-QT
+11	m	I-QT	I-QT
+12	##²	I-QT	I-QT
+13	규모	O	O
+14	##로	O	O
+15	당초	O	O
+16	행주	B-AF	B-AF
+17	##대교	I-AF	I-AF
+18	남	O	B-TM
+19	##단	O	I-TM
+20	##에	O	O
+21	지	O	O
+22	##을	O	O
+23	예정	O	O
+24	##이	O	O
+25	##었	O	O
+26	##지만	O	O
+27	철새	B-AM	B-AM
+28	경유	O	O
+29	##지	O	O
+30	##와	O	O
+31	가깝	O	O
+32	##다는	O	O
+33	지적	O	O
+34	##이	O	O
+35	나와	O	O
+36	서울	B-LC	B-LC
+37	난	B-LC	B-LC
+38	##지도	I-LC	I-LC
+39	부근	O	O
+40	##에	O	O
+41	세우	O	O
+42	##기	O	O
+43	##로	O	O
+44	했	O	O
+45	##다	O	O
+46	.	O	O
+47	[SEP]	O	O

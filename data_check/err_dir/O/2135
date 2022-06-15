@@ -1,28 +1,25 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-EV, I-OG, I-CV
-1	“	O	O	O, B-CV, B-TM, B-EV, B-LC
-2	알파	B-TM	B-TM	B-TM, O, B-AF, B-OG, B-LC
-3	##고	I-TM	I-TM	I-TM, O, I-AF, I-OG, I-TR
-4	##와	O	O	O, I-TM, I-EV, I-AF, B-CV
-5	##의	O	O	O, B-CV, B-EV, I-EV, B-LC
-6	대국	O	O	O, B-EV, B-CV, B-TM, B-LC
-7	##을	O	O	O, I-EV, B-CV, B-PS, I-AF
-8	통해	O	O	O, B-LC, B-TM, B-CV, B-PS
-9	바둑	O	B-CV	B-CV, O, B-AF, B-TM, B-EV
-10	##에	O	O	O, I-CV, I-AF, I-EV, I-TM
-11	대한	O	O	O, B-LC, B-TM, B-PS, B-OG
-12	이해	O	O	O, B-CV, B-TM, B-LC, B-PS
-13	##보	O	O	O, B-PS, B-CV, B-LC, B-TM
-14	##다는	O	O	O, B-CV, B-TM, B-LC, B-QT
-15	인간	O	O	O, B-CV, B-TM, B-LC, B-PS
-16	##의	O	O	O, B-PS, B-LC, B-TM, B-CV
-17	창의력	O	O	O, B-TM, B-CV, B-LC, B-TR
-18	##에	O	O	O, B-PS, B-CV, B-TM, B-LC
-19	의문	O	O	O, B-TM, B-CV, B-LC, B-QT
-20	##을	O	O	O, B-CV, B-PS, B-TM, B-OG
-21	가지	O	O	O, B-CV, B-TM, B-EV, B-QT
-22	##게	O	O	O, B-CV, B-PS, B-TM, I-EV
-23	됐	O	O	O, B-CV, I-EV, B-TM, B-LC
-24	##다	O	O	O, B-CV, I-EV, I-CV, B-TM
-25	.	O	O	O, B-LC, B-CV, B-TM, B-PS
-26	[SEP]	O	O	O, B-CV, B-LC, B-TM, I-EV
+	text	label	preds
+0	[CLS]	O	O
+1	대항	O	B-OG
+2	##군	O	I-OG
+3	##은	O	O
+4	고도	O	O
+5	##의	O	O
+6	침투	O	O
+7	##훈련	O	O
+8	##을	O	O
+9	받	O	O
+10	##은	O	O
+11	최정	O	O
+12	##예	O	O
+13	특전	B-OG	B-OG
+14	##사	I-OG	I-OG
+15	대원	B-CV	B-CV
+16	20	B-QT	B-QT
+17	##명	I-QT	I-QT
+18	##으로	O	O
+19	구성	O	O
+20	##됐	O	O
+21	##다	O	O
+22	.	O	O
+23	[SEP]	O	O

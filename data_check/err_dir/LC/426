@@ -1,43 +1,34 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-EV, I-OG, I-CV
-1	지난해	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-LC
-2	러시아	B-OG	B-LC	B-LC, B-OG, I-DT, O, B-EV
-3	##의	O	O	O, I-EV, I-LC, I-OG, I-DT
-4	크림	B-LC	B-LC	B-LC, O, B-OG, I-LC, B-EV
-5	##반도	I-LC	I-LC	I-LC, O, I-OG, B-LC, I-EV
-6	합병	O	O	O, I-LC, I-EV, I-OG, B-LC
-7	뒤	O	O	O, B-LC, I-EV, I-LC, I-DT
-8	미	B-LC	B-LC	B-LC, B-OG, O, I-LC, B-PS
-9	육군	B-OG	B-OG	B-OG, O, I-OG, B-CV, B-AF
-10	##은	O	O	O, I-OG, I-EV, I-CV, I-AF
-11	독일	B-LC	B-LC	B-LC, B-OG, O, B-AF, B-PS
-12	##의	O	O	O, I-LC, I-OG, B-LC, I-AF
-13	그라	B-LC	B-OG	B-OG, B-LC, B-AF, O, B-PS
-14	##펜	I-LC	I-OG	I-OG, I-LC, I-AF, O, I-PS
-15	##뵈	I-LC	I-OG	I-OG, I-LC, I-AF, O, I-PS
-16	##어	I-LC	I-OG	I-OG, I-LC, I-AF, O, I-PS
-17	및	O	O	O, I-OG, I-AF, I-LC, B-LC
-18	다른	O	O	O, B-LC, B-OG, I-OG, B-CV
-19	기지	O	O	O, B-OG, I-OG, B-AF, B-LC
-20	등	O	O	O, B-CV, I-OG, B-LC, I-AF
-21	##에	O	O	O, B-CV, B-LC, B-OG, B-TM
-22	비축	O	O	O, B-CV, B-TM, B-LC, B-AF
-23	##한	O	O	O, B-LC, B-PS, B-OG, B-CV
-24	장비	O	O	O, B-CV, B-TM, B-AF, B-LC
-25	규모	O	O	O, B-CV, B-TM, B-OG, B-LC
-26	##를	O	O	O, B-CV, B-LC, B-TM, B-OG
-27	대대	O	O	O, B-CV, B-OG, B-QT, B-PS
-28	##급	O	O	O, I-OG, I-CV, I-QT, I-PS
-29	##에서	O	O	O, B-PS, I-QT, B-LC, I-OG
-30	여단	O	O	O, B-CV, B-OG, B-QT, B-PS
-31	##급	O	O	O, I-QT, I-OG, I-CV, I-PS
-32	##으로	O	O	O, B-PS, I-QT, B-CV, I-OG
-33	격상	O	O	O, B-CV, B-LC, B-OG, B-TM
-34	##했	O	O	O, B-PS, B-LC, B-OG, B-CV
-35	##다고	O	O	O, B-LC, B-PS, B-CV, B-OG
-36	밝힌	O	O	O, B-CV, B-LC, B-DT, B-OG
-37	바	O	O	O, B-CV, B-LC, B-DT, B-EV
-38	있	O	O	O, B-CV, B-LC, I-EV, B-EV
-39	##다	O	O	O, B-CV, B-LC, I-EV, B-PS
-40	.	O	O	O, B-LC, B-OG, B-CV, B-PS
-41	[SEP]	O	O	O, B-LC, B-CV, B-OG, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	2010	B-DT	B-DT
+2	##년	I-DT	I-DT
+3	브리티시	B-EV	B-EV
+4	##여	I-EV	I-EV
+5	##자	I-EV	I-EV
+6	##오	I-EV	I-EV
+7	##픈	I-EV	I-EV
+8	##은	O	O
+9	신지애	B-PS	B-PS
+10	##에	O	O
+11	##게	O	O
+12	세계	O	O
+13	1	B-QT	B-QT
+14	##위	I-QT	I-QT
+15	##와	O	O
+16	미	B-LC	B-EV
+17	LPGA	B-EV	B-EV
+18	##투어	I-EV	I-EV
+19	상금	O	O
+20	랭킹	O	O
+21	1	B-QT	B-QT
+22	##위	I-QT	I-QT
+23	자리	O	O
+24	##를	O	O
+25	굳건	O	O
+26	##하	O	O
+27	##게	O	O
+28	할	O	O
+29	기회	O	O
+30	##다	O	O
+31	.	O	O
+32	[SEP]	O	O

@@ -1,15 +1,38 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	비	B-CV	B-CV	B-CV, O, B-AF, B-PS, B-TM
-2	##프	I-CV	I-CV	I-CV, O, I-AF, I-AM, I-TM
-3	커	I-CV	I-CV	I-CV, O, B-CV, I-AF, B-QT
-4	##틀	I-CV	I-CV	I-CV, O, I-AF, I-QT, I-TM
-5	##렛	I-CV	I-CV	I-CV, O, I-AF, I-QT, I-TM
-6	포	B-CV	O	O, B-QT, I-CV, I-AF, I-QT
-7	커	I-CV	O	O, I-QT, I-CV, I-AF, B-CV
-8	##틀	I-CV	O	O, I-CV, I-QT, I-AF, I-TM
-9	##렛	I-CV	I-CV	I-CV, O, I-QT, I-AF, I-TM
-10	그러	O	O	O, I-CV, I-QT, I-AF, B-CV
-11	##잖아요	O	O	O, B-CV, I-CV, I-AF, I-QT
-12	.	O	O	O, B-CV, B-OG, B-LC, I-AF
-13	[SEP]	O	O	O, B-CV, B-OG, I-AF, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	이란	B-LC	B-LC
+2	##과	O	O
+3	레바논	B-LC	B-LC
+4	##에	O	O
+5	##서	O	O
+6	정보	O	O
+7	##수	O	O
+8	##집	O	O
+9	임무	O	O
+10	##를	O	O
+11	띠	O	O
+12	##고	O	O
+13	활동	O	O
+14	##해	O	O
+15	##온	O	O
+16	미	B-LC	B-LC
+17	중앙	B-OG	B-OG
+18	##정보	I-OG	I-OG
+19	##국	I-OG	I-OG
+20	(	O	O
+21	CIA	B-OG	B-OG
+22	)	O	O
+23	스파이	B-CV	B-CV
+24	##들이	O	O
+25	대거	O	O
+26	적발	O	O
+27	##돼	O	O
+28	처형	B-CV	O
+29	##당	O	O
+30	##할	O	O
+31	위기	O	O
+32	##에	O	O
+33	처했	O	O
+34	##다	O	O
+35	.	O	O
+36	[SEP]	O	O

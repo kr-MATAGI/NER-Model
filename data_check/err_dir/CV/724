@@ -1,40 +1,12 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	금감원	B-OG	B-OG	B-OG, B-AF, B-LC, O, B-PS
-2	##의	O	O	O, I-OG, I-EV, I-AF, B-OG
-3	한	O	O	O, B-PS, B-QT, B-OG, B-LC
-4	간부	B-CV	B-CV	B-CV, O, B-OG, I-CV, B-EV
-5	##는	O	O	O, I-CV, I-QT, I-EV, I-OG
-6	“	O	O	O, B-CV, B-LC, B-OG, B-TM
-7	시중	O	O	O, B-OG, B-TM, B-CV, B-LC
-8	##은행	O	O	O, I-OG, B-OG, I-CV, I-TM
-9	쪽	O	O	O, I-OG, B-OG, B-CV, B-PS
-10	##에도	O	O	O, B-CV, B-OG, B-TM, B-LC
-11	가입자	B-CV	O	O, B-CV, B-TM, B-AF, B-LC
-12	유치	O	O	O, I-CV, B-CV, B-TM, I-EV
-13	##를	O	O	O, B-PS, B-CV, B-LC, B-TM
-14	위해	O	O	O, B-LC, B-TM, B-PS, B-CV
-15	길거리	O	O	O, B-LC, B-CV, B-TM, B-AF
-16	영업	O	O	O, B-LC, B-CV, B-TM, I-LC
-17	##을	O	O	O, B-LC, B-CV, B-PS, B-OG
-18	다니	O	O	O, B-LC, B-CV, B-TM, B-QT
-19	##는	O	O	O, B-LC, B-CV, B-PS, B-TM
-20	등	O	O	O, B-LC, B-CV, B-TM, B-PS
-21	##의	O	O	O, B-PS, B-LC, B-OG, B-CV
-22	과도	O	O	O, B-CV, B-LC, B-TM, B-OG
-23	##한	O	O	O, B-LC, B-PS, B-OG, B-TM
-24	마케팅	O	O	O, B-CV, B-LC, B-TM, B-QT
-25	##을	O	O	O, B-CV, B-LC, B-OG, B-PS
-26	자제	O	O	O, B-CV, B-LC, B-TM, B-OG
-27	##하	O	O	O, B-CV, B-PS, B-LC, B-OG
-28	##도록	O	O	O, B-CV, B-LC, B-PS, B-OG
-29	요청	O	O	O, B-CV, B-LC, B-OG, B-PS
-30	##했	O	O	O, B-CV, B-PS, B-OG, B-LC
-31	##다	O	O	O, B-CV, B-OG, I-OG, B-PS
-32	”	O	O	O, B-CV, I-OG, B-OG, B-LC
-33	고	O	O	O, B-CV, B-TM, B-LC, B-QT
-34	설명	O	O	O, B-CV, B-TM, I-OG, I-CV
-35	##했	O	O	O, B-CV, B-PS, B-OG, B-LC
-36	##다	O	O	O, B-CV, B-LC, B-OG, B-TM
-37	.	O	O	O, B-LC, B-CV, B-OG, B-PS
-38	[SEP]	O	O	O, B-CV, B-LC, B-OG, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	그랬	O	O
+2	##나	O	O
+3	?	O	O
+4	소유	B-CV	O
+5	##는	O	O
+6	되게	O	O
+7	간장	O	B-CV
+8	##맛	O	O
+9	나서	O	O
+10	[SEP]	O	O

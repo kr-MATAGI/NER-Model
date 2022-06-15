@@ -1,37 +1,72 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	지난해	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-QT
-2	글로벌	O	B-EV	B-EV, O, B-LC, I-EV, B-OG
-3	금융	B-EV	I-EV	I-EV, B-EV, O, B-LC, B-OG
-4	##위	I-EV	I-EV	I-EV, O, B-EV, I-OG, I-AF
-5	##기	I-EV	I-EV	I-EV, O, B-EV, I-OG, I-AF
-6	##가	O	O	O, I-EV, B-PS, I-OG, B-EV
-7	터진	O	O	O, I-EV, B-EV, B-PS, B-LC
-8	뒤	O	O	O, I-EV, B-LC, B-PS, B-EV
-9	중소형	O	O	O, B-CV, B-OG, B-TM, B-LC
-10	##주	O	O	O, I-CV, I-OG, I-LC, B-CV
-11	##들이	O	O	O, B-CV, I-CV, B-PS, B-LC
-12	강세	O	O	O, B-CV, B-TM, B-LC, B-OG
-13	##를	O	O	O, B-PS, B-CV, I-CV, I-OG
-14	보일	O	O	O, B-CV, B-PS, B-LC, B-TM
-15	때	O	O	O, B-PS, B-CV, B-LC, B-QT
-16	단기	O	O	O, B-CV, B-LC, B-TM, B-PS
-17	투자	O	O	O, B-CV, I-CV, B-PS, B-LC
-18	##를	O	O	O, B-CV, I-CV, B-PS, B-LC
-19	해	O	O	O, B-LC, B-PS, B-CV, B-TM
-20	약간	O	O	O, B-QT, B-CV, B-LC, B-TM
-21	##의	O	O	O, B-PS, B-LC, I-QT, B-QT
-22	수익	O	O	O, B-CV, B-TM, B-QT, B-LC
-23	##을	O	O	O, B-CV, B-PS, B-LC, I-CV
-24	올렸	O	O	O, B-CV, B-LC, B-PS, B-TM
-25	##던	O	O	O, B-CV, B-PS, B-LC, B-TM
-26	기억	O	O	O, B-CV, B-PS, B-LC, B-TM
-27	##이	O	O	O, B-PS, B-LC, B-CV, B-OG
-28	요즘	O	O	O, B-LC, B-PS, B-DT, B-CV
-29	계속	O	O	O, B-PS, B-LC, B-CV, B-TM
-30	떠오르	O	O	O, B-CV, B-PS, B-LC, B-TM
-31	##기	O	O	O, B-PS, B-CV, I-AF, I-CV
-32	때문	O	O	O, B-CV, B-PS, B-TM, B-LC
-33	##이다	O	O	O, B-CV, B-TM, I-CV, B-QT
-34	.	O	O	O, B-LC, B-PS, B-CV, I-EV
-35	[SEP]	O	O	O, B-CV, B-LC, B-PS, I-EV
+	text	label	preds
+0	[CLS]	O	O
+1	그	O	O
+2	##는	O	O
+3	“	O	O
+4	우리	O	O
+5	##가	O	O
+6	진실	O	O
+7	##한	O	O
+8	마음	O	O
+9	##으로	O	O
+10	진정	O	O
+11	##성	O	O
+12	있	O	O
+13	##게	O	O
+14	다가	O	O
+15	##간다	O	O
+16	##면	O	O
+17	국민	B-CV	B-CV
+18	##께	O	O
+19	##서	O	O
+20	정의	O	O
+21	##가	O	O
+22	살아	O	O
+23	있	O	O
+24	##다는	O	O
+25	것	O	O
+26	##을	O	O
+27	느낄	O	O
+28	것	O	O
+29	”	O	O
+30	이라	O	O
+31	##며	O	O
+32	“	O	O
+33	헌재	O	B-OG
+34	구성원	O	O
+35	한	O	B-QT
+36	사람	O	I-QT
+37	,	O	O
+38	한	O	B-QT
+39	사람	O	I-QT
+40	##의	O	O
+41	작	O	O
+42	##은	O	O
+43	성실	O	O
+44	##이	O	O
+45	모여	O	O
+46	구체	O	O
+47	##적	O	O
+48	##이	O	O
+49	##고	O	O
+50	실질	O	O
+51	##적	O	O
+52	##인	O	O
+53	정의	O	O
+54	##가	O	O
+55	이뤄지는	O	O
+56	큰	O	O
+57	성과	O	O
+58	##를	O	O
+59	이	O	O
+60	##룰	O	O
+61	수	O	O
+62	있	O	O
+63	##다	O	O
+64	”	O	O
+65	고	O	O
+66	다짐	O	O
+67	##했	O	O
+68	##다	O	O
+69	.	O	O
+70	[SEP]	O	O

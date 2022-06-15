@@ -1,25 +1,31 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	'	O	O	O, B-CV, B-LC, B-OG, B-DT
-2	폴리	O	O	O, B-CV, B-TR, B-OG, B-FD
-3	##페	O	O	O, I-CV, I-TR, I-OG, I-FD
-4	##서	O	O	O, I-CV, I-OG, I-TR, I-FD
-5	'	O	O	O, I-CV, I-OG, I-EV, B-CV
-6	논란	O	O	O, B-CV, B-PS, B-OG, B-LC
-7	##의	O	O	O, B-CV, B-PS, B-OG, B-LC
-8	핵심	O	O	O, B-CV, B-PS, B-QT, B-LC
-9	##인	O	O	O, B-CV, B-PS, B-LC, I-CV
-10	장관	B-CV	B-CV	B-CV, O, B-OG, B-EV, B-AF
-11	##이나	O	O	O, I-CV, B-CV, I-EV, I-AF
-12	청와대	B-AF	B-OG	B-OG, B-AF, O, B-LC, B-PS
-13	비서	O	B-CV	B-CV, O, I-CV, I-OG, I-AF
-14	##에	O	O	O, I-CV, I-AF, I-OG, I-EV
-15	대해선	O	O	O, B-CV, B-TM, B-LC, B-OG
-16	말	O	O	O, B-CV, B-TM, B-OG, B-LC
-17	##하	O	O	O, B-CV, B-DT, B-PS, B-OG
-18	##지	O	O	O, B-CV, B-DT, B-OG, I-DT
-19	않	O	O	O, B-CV, B-LC, B-OG, B-PS
-20	##았	O	O	O, B-CV, B-OG, B-LC, B-PS
-21	##다	O	O	O, B-CV, B-OG, B-LC, I-OG
-22	.	O	O	O, B-LC, B-CV, B-OG, B-PS
-23	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-FD
+	text	label	preds
+0	[CLS]	O	O
+1	재직	O	O
+2	##자의	O	O
+3	연금	O	B-CV
+4	지급	O	O
+5	##률	O	O
+6	##을	O	O
+7	다소	O	O
+8	낮추	O	O
+9	##고	O	O
+10	,	O	O
+11	신규	O	O
+12	임용	O	O
+13	##된	O	O
+14	공무원	B-CV	B-CV
+15	##에	O	O
+16	##게	O	O
+17	##는	O	O
+18	민간	O	O
+19	수준의	O	O
+20	퇴직금	B-CV	B-CV
+21	##을	O	O
+22	지급	O	O
+23	##하	O	O
+24	##겠다	O	O
+25	##는	O	O
+26	내용	O	O
+27	##이다	O	O
+28	.	O	O
+29	[SEP]	O	O

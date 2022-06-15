@@ -1,29 +1,27 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	출발	O	O	O, B-CV, B-TM, B-LC, B-PS
-2	##이	O	O	O, B-PS, B-OG, B-CV, B-LC
-3	늦	O	O	O, B-CV, B-TM, B-LC, B-OG
-4	##었	O	O	O, B-CV, B-TM, B-OG, B-LC
-5	##던	O	O	O, B-TM, B-CV, B-LC, B-OG
-6	LTE	B-TM	B-TR	B-TR, O, B-TM, I-TR, B-FD
-7	사업	I-TM	O	O, I-TM, I-TR, B-TM, I-CV
-8	##을	O	O	O, I-TM, B-CV, B-PS, I-TR
-9	확대	O	O	O, B-CV, B-LC, B-TM, B-PS
-10	##해	O	O	O, B-LC, B-PS, B-OG, B-CV
-11	##가	O	O	O, B-PS, B-LC, B-CV, B-OG
-12	##는	O	O	O, B-PS, B-LC, B-OG, B-CV
-13	과제	O	O	O, B-CV, B-LC, B-PS, B-QT
-14	##도	O	O	O, B-PS, B-CV, B-LC, B-OG
-15	황	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-16	차기	O	O	O, B-CV, I-PS, B-PS, B-EV
-17	CEO	B-CV	B-CV	B-CV, O, I-CV, B-EV, B-TM
-18	후보자	B-CV	B-CV	B-CV, I-CV, O, I-EV, B-TM
-19	##의	O	O	O, I-CV, I-EV, B-CV, I-OG
-20	두	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-EV
-21	손	I-QT	I-QT	I-QT, O, I-PS, I-DT, I-EV
-22	##에	O	O	O, I-QT, I-OG, I-EV, B-CV
-23	맡겨	O	O	O, B-CV, B-LC, B-QT, B-TM
-24	##졌	O	O	O, B-CV, B-QT, B-PS, B-OG
-25	##다	O	O	O, B-CV, B-TM, B-QT, I-OG
-26	.	O	O	O, B-CV, B-LC, B-PS, B-TM
-27	[SEP]	O	O	O, B-CV, B-LC, B-TM, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	우	B-TM	O
+2	##뇌	I-TM	O
+3	##우	O	O
+4	##세	O	O
+5	##형	O	O
+6	##인	O	O
+7	어진	B-PS	B-PS
+8	##이	O	O
+9	##에	O	O
+10	##게	O	O
+11	##는	O	O
+12	어렵	O	O
+13	##고	O	O
+14	재미없	O	O
+15	##는	O	O
+16	논리	O	O
+17	##로	O	O
+18	##는	O	O
+19	설득	O	O
+20	##하	O	O
+21	##기	O	O
+22	어렵	O	O
+23	##다	O	O
+24	.	O	O
+25	[SEP]	O	O

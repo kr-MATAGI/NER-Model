@@ -1,14 +1,53 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	그러니깐	O	O	O, B-CV, B-TM, B-LC, B-QT
-2	어	O	O	O, B-CV, B-TM, B-LC, B-AF
-3	~	O	O	O, I-CV, B-CV, I-AF, B-PS
-4	아이	O	O	O, B-CV, B-PS, B-AM, B-AF
-5	##를	O	O	O, I-CV, B-CV, B-PS, I-AF
-6	학부	B-CV	O	O, B-CV, B-OG, B-FD, B-QT
-7	즉	O	O	O, I-CV, B-QT, I-OG, I-QT
-8	부모	B-CV	B-CV	B-CV, O, B-OG, I-CV, B-TM
-9	##만	O	O	O, I-CV, I-QT, I-DT, I-OG
-10	알아	O	O	O, B-CV, B-TM, I-CV, B-PS
-11	##서	O	O	O, I-CV, I-AF, I-QT, I-OG
-12	[SEP]	O	O	O, B-CV, B-LC, B-TM, I-CV
+	text	label	preds
+0	[CLS]	O	O
+1	NH	B-OG	B-OG
+2	##투자증권	I-OG	I-OG
+3	##이	O	O
+4	내놓	O	O
+5	##은	O	O
+6	랩	O	O
+7	##어	O	O
+8	##카운	O	O
+9	##트	O	O
+10	상품	O	O
+11	‘	O	O
+12	NH	B-CV	B-AF
+13	트리플	I-CV	I-AF
+14	A	I-CV	I-AF
+15	(	O	O
+16	Ass	B-CV	O
+17	##et	I-CV	O
+18	All	I-CV	O
+19	##oc	I-CV	O
+20	##ation	I-CV	O
+21	Ac	I-CV	O
+22	##co	I-CV	O
+23	##unt	I-CV	O
+24	)	O	O
+25	’	O	O
+26	도	O	O
+27	개인	B-CV	B-CV
+28	##투자	I-CV	I-CV
+29	##자	I-CV	I-CV
+30	##들이	O	O
+31	변동성	O	O
+32	높	O	O
+33	##은	O	O
+34	증시	O	O
+35	##에	O	O
+36	##서도	O	O
+37	안정	O	O
+38	##적	O	O
+39	자산관리	O	O
+40	##가	O	O
+41	가능	O	O
+42	##하	O	O
+43	##다는	O	O
+44	점	O	O
+45	##을	O	O
+46	내세우	O	O
+47	##고	O	O
+48	있	O	O
+49	##다	O	O
+50	.	O	O
+51	[SEP]	O	O

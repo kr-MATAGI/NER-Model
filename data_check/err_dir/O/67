@@ -1,39 +1,29 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-AF
-1	이통	O	O	O, B-OG, B-TM, B-CV, B-AF
-2	##사	O	O	O, I-OG, I-CV, B-OG, I-TM
-3	통신망	O	O	O, B-TM, B-CV, I-OG, B-AF
-4	가운데	O	O	O, B-TM, B-LC, B-AF, B-QT
-5	엘	O	B-TR	B-TR, I-TR, O, B-TM, B-FD
-6	##티	O	I-TR	I-TR, I-TM, O, B-TR, I-QT
-7	##이	O	I-TR	I-TR, I-TM, O, B-TR, I-QT
-8	(	O	O	O, I-TR, I-TM, I-QT, I-OG
-9	LTE	O	B-TR	B-TR, O, I-TR, B-TM, B-FD
-10	)	O	O	O, I-TR, I-TM, I-QT, I-OG
-11	를	O	O	O, B-CV, B-LC, B-TM, B-OG
-12	빼	O	O	O, B-CV, B-OG, B-PS, B-LC
-13	##고	O	O	O, B-PS, I-OG, B-LC, B-OG
-14	##는	O	O	O, B-CV, B-LC, B-OG, B-PS
-15	감가상각	O	O	O, B-TR, B-CV, B-FD, B-TM
-16	##이	O	O	O, B-PS, B-OG, B-CV, I-CV
-17	끝나	O	O	O, B-CV, B-PS, B-OG, B-LC
-18	이론	O	O	O, B-FD, B-CV, B-TR, B-LC
-19	##상	O	O	O, I-TR, I-CV, I-OG, I-AF
-20	##으로	O	O	O, B-PS, B-LC, B-CV, B-TM
-21	##는	O	O	O, B-CV, B-LC, B-PS, B-TM
-22	원가	O	O	O, B-QT, B-CV, B-TM, B-PS
-23	##가	O	O	O, I-QT, B-PS, I-CV, I-AF
-24	제로	O	B-QT	B-QT, O, I-QT, B-CV, B-PS
-25	(	O	O	O, I-QT, I-CV, I-OG, B-CV
-26	0	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-PS
-27	##원	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-OG
-28	)	O	O	O, I-QT, I-OG, I-CV, B-CV
-29	라고	O	O	O, B-PS, B-QT, I-QT, B-OG
-30	해도	O	O	O, B-CV, B-PS, B-OG, B-LC
-31	틀리	O	O	O, B-CV, B-LC, B-TM, B-QT
-32	##지	O	O	O, I-CV, I-OG, I-QT, B-PS
-33	않	O	O	O, B-PS, I-CV, I-OG, B-CV
-34	##는	O	O	O, I-OG, I-CV, B-CV, B-PS
-35	##다	O	O	O, B-CV, I-OG, B-TM, I-CV
-36	.	O	O	O, B-LC, B-CV, B-OG, B-PS
-37	[SEP]	O	O	O, B-CV, B-LC, B-OG, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	크레인	O	B-AF
+2	굉음	O	O
+3	##과	O	O
+4	함께	O	O
+5	가로	B-TM	O
+6	##세	B-TM	O
+7	##로	I-TM	O
+8	2	B-QT	B-QT
+9	##m	I-QT	I-QT
+10	##를	O	O
+11	넘	O	O
+12	##는	O	O
+13	6	B-QT	B-QT
+14	.	I-QT	I-QT
+15	48	I-QT	I-QT
+16	##t	I-QT	I-QT
+17	##의	O	O
+18	옥	O	O
+19	##개	O	O
+20	##석	O	O
+21	##이	O	O
+22	들어올	O	O
+23	##려	O	O
+24	##졌	O	O
+25	##다	O	O
+26	.	O	O
+27	[SEP]	O	O

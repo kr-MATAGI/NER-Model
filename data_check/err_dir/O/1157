@@ -1,17 +1,45 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	유희	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-AF
-2	##관	I-PS	I-PS	I-PS, O, I-OG, B-PS, I-LC
-3	##은	O	O	O, I-PS, I-OG, B-CV, I-AF
-4	풀어	O	O	O, B-CV, B-TM, B-LC, B-PS
-5	##야	O	O	O, B-LC, B-PS, B-TM, B-CV
-6	할	O	O	O, B-PS, B-LC, B-TM, B-OG
-7	갈증	O	O	O, B-PS, B-LC, B-TM, B-CV
-8	##이	O	O	O, B-PS, B-OG, B-CV, I-PS
-9	아직	O	O	O, B-CV, B-TM, B-PS, B-LC
-10	하나	O	B-QT	B-QT, O, B-PS, I-QT, B-CV
-11	남	O	O	O, I-QT, B-PS, I-OG, B-CV
-12	##았	O	O	O, B-CV, B-PS, I-QT, I-OG
-13	##다	O	O	O, B-CV, B-PS, I-OG, B-TM
-14	.	O	O	O, B-PS, B-CV, B-LC, B-OG
-15	[SEP]	O	O	O, B-CV, B-PS, B-LC, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	유급	O	B-CV
+2	##보	O	I-CV
+3	##좌	O	I-CV
+4	##관	O	I-CV
+5	##제	O	O
+6	법	O	O
+7	##적	O	O
+8	근거	O	O
+9	##가	O	O
+10	마련	O	O
+11	##되	O	O
+12	##기	O	O
+13	전	O	O
+14	##에	O	O
+15	서울시	B-OG	B-OG
+16	##가	O	O
+17	무리	O	O
+18	##하	O	O
+19	##게	O	O
+20	유급	O	O
+21	##보	B-CV	B-CV
+22	##좌	I-CV	I-CV
+23	##관	I-CV	I-CV
+24	##을	O	O
+25	추진	O	O
+26	##하	O	O
+27	##는	O	O
+28	것	O	O
+29	##이	O	O
+30	법	O	O
+31	위	O	O
+32	##에	O	O
+33	군림	O	O
+34	##하	O	O
+35	##는	O	O
+36	것	O	O
+37	##이	O	O
+38	##라는	O	O
+39	비판	O	O
+40	##도	O	O
+41	나온다	O	O
+42	.	O	O
+43	[SEP]	O	O

@@ -1,22 +1,44 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	베어스	B-AF	B-AF	B-AF, B-LC, O, B-OG, B-PS
-2	##타운	I-AF	I-AF	I-AF, I-LC, O, I-OG, I-PS
-3	##은	O	O	O, I-AF, I-LC, I-OG, B-CV
-4	‘	O	O	O, B-CV, B-LC, B-OG, B-PS
-5	대중	O	O	O, B-CV, B-AF, B-LC, B-PS
-6	##스키	B-CV	O	O, I-CV, B-CV, I-AF, I-LC
-7	##장	O	O	O, I-CV, I-LC, I-AF, I-OG
-8	’	O	O	O, I-CV, I-AF, B-PS, B-CV
-9	의	O	O	O, B-PS, B-LC, B-AF, B-OG
-10	모습	O	O	O, B-CV, B-OG, B-PS, B-LC
-11	##으로	O	O	O, B-PS, B-LC, B-OG, B-TM
-12	스마트	O	O	O, B-TM, B-AF, B-CV, B-LC
-13	스키	O	B-CV	B-CV, I-CV, I-AF, O, B-AF
-14	대열	O	O	O, I-CV, I-AF, I-OG, I-EV
-15	##에	O	O	O, B-CV, B-OG, B-LC, B-TM
-16	합류	O	O	O, B-CV, B-OG, B-LC, B-TM
-17	##했	O	O	O, B-PS, B-LC, B-CV, B-OG
-18	##다	O	O	O, B-CV, I-OG, B-LC, B-OG
-19	.	O	O	O, B-LC, B-CV, B-OG, B-PS
-20	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-AF
+	text	label	preds
+0	[CLS]	O	O
+1	인터넷	O	O
+2	##에	O	O
+3	##서는	O	O
+4	‘	O	O
+5	단말기	B-CV	B-CV
+6	##유	I-CV	I-CV
+7	##통	I-CV	I-CV
+8	##구조	I-CV	I-CV
+9	##개	I-CV	I-CV
+10	##선	I-CV	I-CV
+11	##법	I-CV	I-CV
+12	(	O	O
+13	아래	O	O
+14	단통	B-CV	B-CV
+15	##법	I-CV	I-CV
+16	)	O	O
+17	’	O	O
+18	에	O	O
+19	빗대	O	O
+20	‘	O	O
+21	맥	B-CV	O
+22	##통	I-CV	O
+23	##법	I-CV	O
+24	’	O	O
+25	(	O	O
+26	맥주	B-CV	B-CV
+27	##유	I-CV	I-CV
+28	##통	I-CV	I-CV
+29	##법	I-CV	I-CV
+30	)	O	O
+31	이라	O	O
+32	##는	O	O
+33	신조어	O	O
+34	##가	O	O
+35	등장	O	O
+36	##하	O	O
+37	##기	O	O
+38	##도	O	O
+39	했	O	O
+40	##다	O	O
+41	.	O	O
+42	[SEP]	O	O

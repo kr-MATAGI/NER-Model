@@ -1,25 +1,24 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-AF
-1	이런	O	O	O, B-CV, B-TM, B-OG, B-LC
-2	임무	O	O	O, B-CV, B-TM, B-LC, B-EV
-3	##를	O	O	O, B-CV, I-OG, B-PS, I-CV
-4	맡	O	O	O, B-CV, B-OG, B-PS, B-TM
-5	##은	O	O	O, B-CV, B-PS, B-OG, B-LC
-6	시시	B-AF	B-PS	B-PS, O, B-AF, B-OG, B-CV
-7	##의	O	O	O, I-OG, I-AF, I-PS, I-EV
-8	외부	O	O	O, B-TM, B-CV, B-LC, B-TR
-9	디자인	O	O	O, B-FD, B-TM, B-CV, B-TR
-10	##은	O	O	O, B-CV, I-TM, I-CV, B-TM
-11	골프	B-CV	B-AF	B-AF, B-CV, O, B-PS, B-OG
-12	##나	O	O	O, I-AF, I-CV, I-OG, I-EV
-13	파사	B-AF	O	O, B-AF, B-PS, B-TM, B-OG
-14	##트	I-AF	I-AF	I-AF, O, I-OG, I-TM, I-PS
-15	##보	O	O	O, I-AF, I-OG, B-CV, I-EV
-16	##다	O	O	O, B-CV, I-AF, B-LC, B-TM
-17	날렵	O	O	O, B-TM, B-CV, B-LC, B-OG
-18	##한	O	O	O, B-OG, B-LC, B-PS, B-TM
-19	쪽	O	O	O, B-TM, B-OG, B-CV, B-PS
-20	##에	O	O	O, B-CV, I-OG, B-OG, I-AF
-21	속한다	O	O	O, B-CV, B-OG, B-TM, B-LC
-22	.	O	O	O, B-CV, B-LC, B-OG, B-TM
-23	[SEP]	O	O	O, B-CV, B-TM, B-LC, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	[	O	O
+2	2016	B-DT	B-DT
+3	##착	B-CV	O
+4	##한	I-CV	O
+5	##브	I-CV	O
+6	##랜드	I-CV	O
+7	대상	I-CV	O
+8	]	O	O
+9	영	B-OG	B-OG
+10	##림	I-OG	I-OG
+11	##임	I-OG	I-OG
+12	##업	I-OG	I-OG
+13	,	O	O
+14	원칙	O	O
+15	##을	O	O
+16	준수	O	O
+17	##하	O	O
+18	##는	O	O
+19	정직	O	O
+20	##한	O	O
+21	기업	O	O
+22	[SEP]	O	O

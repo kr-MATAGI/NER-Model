@@ -1,43 +1,47 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	지난해	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-QT
-2	12	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-3	##월	I-DT	I-DT	I-DT, O, B-DT, I-EV, I-PS
-4	현대차	B-EV	B-EV	B-EV, B-OG, O, B-AF, B-LC
-5	차이나	I-EV	I-EV	I-EV, B-EV, I-OG, B-LC, O
-6	레이디스	I-EV	I-EV	I-EV, O, B-EV, I-OG, I-AF
-7	오픈	I-EV	I-EV	I-EV, O, I-OG, I-AF, I-DT
-8	##에서	O	O	O, I-EV, I-OG, I-AF, I-DT
-9	우승	O	O	O, B-CV, B-PS, B-OG, B-TM
-10	##한	O	O	O, B-PS, B-LC, B-CV, B-OG
-11	김효주	B-PS	B-PS	B-PS, O, I-PS, B-OG, B-LC
-12	##는	O	O	O, I-PS, I-OG, B-CV, I-AF
-13	대상	B-CV	O	O, B-CV, B-EV, B-TM, B-TR
-14	##포	O	O	O, I-CV, I-TM, I-EV, I-AF
-15	##인트	O	O	O, I-CV, I-TM, I-EV, I-TR
-16	(	O	O	O, I-CV, B-CV, I-QT, I-OG
-17	202	B-QT	B-QT	B-QT, O, I-QT, B-TM, B-DT
-18	##점	I-QT	I-QT	I-QT, O, I-LC, I-TM, I-EV
-19	)	O	O	O, I-QT, I-OG, I-EV, I-TM
-20	는	O	O	O, B-CV, B-TM, I-QT, B-LC
-21	물론	O	O	O, B-TM, B-CV, B-LC, B-OG
-22	##이	O	O	O, B-PS, B-LC, B-CV, B-OG
-23	##고	O	O	O, B-PS, B-CV, B-LC, B-TM
-24	평균	O	O	O, B-TM, B-CV, B-QT, B-LC
-25	##타	O	O	O, B-TM, B-CV, I-TM, B-LC
-26	##수	O	O	O, I-TM, I-CV, B-TM, I-QT
-27	(	O	O	O, B-CV, B-LC, B-OG, I-CV
-28	71	B-QT	B-QT	B-QT, O, B-TM, I-QT, B-TI
-29	.	I-QT	I-QT	I-QT, O, I-TM, B-QT, I-LC
-30	16	I-QT	I-QT	I-QT, O, B-QT, I-TM, I-LC
-31	##타	I-QT	I-QT	I-QT, O, I-TM, I-LC, B-QT
-32	)	O	O	O, I-QT, I-OG, I-TM, I-EV
-33	에서	O	O	O, B-CV, B-LC, B-PS, B-OG
-34	선두	O	O	O, B-CV, B-TM, B-PS, B-QT
-35	##를	O	O	O, I-CV, I-QT, B-CV, B-PS
-36	달리	O	O	O, B-CV, B-TM, B-PS, B-QT
-37	##고	O	O	O, B-PS, B-CV, I-CV, B-QT
-38	있	O	O	O, B-CV, B-PS, B-TM, I-CV
-39	##다	O	O	O, B-CV, I-CV, B-PS, B-TM
-40	.	O	O	O, B-CV, B-LC, B-PS, B-OG
-41	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	제일	B-OG	B-OG
+2	##병원	I-OG	I-OG
+3	산부인과	B-FD	B-FD
+4	한정	B-PS	B-PS
+5	##렬	I-PS	I-PS
+6	교수	B-CV	O
+7	##팀	O	O
+8	##이	O	O
+9	35	B-QT	B-QT
+10	##12	I-QT	I-QT
+11	##명	I-QT	I-QT
+12	##의	O	O
+13	산모	B-CV	B-CV
+14	##를	O	O
+15	대상	O	O
+16	##으로	O	O
+17	조사	O	O
+18	##한	O	O
+19	결과	O	O
+20	,	O	O
+21	임신	O	O
+22	초기	O	O
+23	##에	O	O
+24	피임	B-TM	B-TM
+25	##약	I-TM	I-TM
+26	##을	O	O
+27	먹	O	O
+28	##은	O	O
+29	산모	B-CV	B-CV
+30	중	O	O
+31	인공	B-TM	B-TM
+32	##유산	I-TM	I-TM
+33	##을	O	O
+34	한	O	O
+35	사람	O	O
+36	##이	O	O
+37	11	B-QT	B-QT
+38	%	I-QT	I-QT
+39	인	O	O
+40	것	O	O
+41	##으로	O	O
+42	나타났	O	O
+43	##다	O	O
+44	.	O	O
+45	[SEP]	O	O

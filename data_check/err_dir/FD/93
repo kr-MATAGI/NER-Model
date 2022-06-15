@@ -1,13 +1,36 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	왜	O	O	O, B-CV, B-LC, B-OG, B-PS
-2	그	O	O	O, B-CV, B-LC, B-OG, B-PS
-3	서양	B-LC	B-LC	B-LC, O, B-OG, B-TM, I-LC
-4	##에서	O	O	O, I-LC, I-OG, I-AF, B-CV
-5	##는	O	O	O, B-CV, B-LC, B-OG, B-PS
-6	왜	O	O	O, B-LC, B-OG, B-CV, B-AF
-7	그리스	B-DT	B-FD	B-FD, B-LC, B-AF, B-TR, B-PS
-8	로마	B-DT	I-FD	I-FD, I-AF, B-FD, I-PS, I-TR
-9	신화	B-FD	I-FD	I-FD, I-AF, B-FD, O, I-TR
-10	##에서	O	O	O, I-FD, I-AF, I-OG, I-TR
-11	[SEP]	O	O	O, B-CV, B-LC, B-OG, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	지적	O	O
+2	갈증	O	O
+3	##을	O	O
+4	풀기	O	O
+5	위해	O	O
+6	하버드대	B-OG	B-OG
+7	##에	O	O
+8	##서	O	O
+9	도시	B-FD	O
+10	##설	I-FD	O
+11	##계	I-FD	O
+12	##를	O	O
+13	,	O	O
+14	MIT	B-OG	B-OG
+15	##공	I-OG	I-OG
+16	##대	I-OG	I-OG
+17	##에	O	O
+18	##서	O	O
+19	도시	B-FD	B-FD
+20	##계	I-FD	I-FD
+21	##획	I-FD	I-FD
+22	##학	I-FD	I-FD
+23	##으로	O	O
+24	각각	O	O
+25	석사	B-CV	B-CV
+26	##와	O	O
+27	박사	B-CV	B-CV
+28	학위	O	O
+29	##를	O	O
+30	받	O	O
+31	##았	O	O
+32	##다	O	O
+33	.	O	O
+34	[SEP]	O	O

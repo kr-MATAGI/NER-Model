@@ -1,17 +1,26 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-AF
-1	거리	O	O	O, B-CV, B-LC, B-QT, B-AF
-2	##에	O	O	O, B-CV, B-PS, I-AF, I-CV
-3	제	O	O	O, B-CV, B-PS, B-LC, B-QT
-4	또래	B-CV	O	O, B-CV, I-CV, B-QT, B-PS
-5	##가	O	O	O, I-CV, B-PS, B-CV, I-QT
-6	없	O	O	O, B-CV, B-PS, B-LC, B-OG
-7	##습	O	O	O, I-AF, B-CV, I-CV, I-OG
-8	##니다	O	O	O, B-LC, B-CV, I-AF, B-PS
-9	산	O	O	O, B-LC, B-CV, B-AF, B-PT
-10	##에	O	O	O, I-AF, B-CV, I-LC, I-CV
-11	올라	O	O	O, B-CV, B-LC, B-AF, B-PS
-12	가	O	O	O, B-CV, B-LC, B-PS, B-QT
-13	##있	O	O	O, I-AF, B-CV, I-CV, I-OG
-14	##고	O	O	O, I-AF, B-CV, B-PS, B-LC
-15	[SEP]	O	O	O, B-CV, B-LC, I-AF, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	그냥	O	O
+2	사실	O	O
+3	소환	B-CV	O
+4	##도	O	O
+5	안	O	O
+6	해고	O	O
+7	확인	O	O
+8	##만	O	O
+9	해서	O	O
+10	이	O	O
+11	시간	O	O
+12	보낸	O	O
+13	다음	O	O
+14	##에	O	O
+15	이제	O	O
+16	겨우	O	O
+17	불러	O	O
+18	##세	O	O
+19	##워서	O	O
+20	하	O	O
+21	##는	O	O
+22	거	O	O
+23	?	O	O
+24	[SEP]	O	O

@@ -1,44 +1,77 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-QT
-1	가발	O	O	O, B-CV, B-AM, B-AF, B-TM
-2	장사	O	O	O, I-CV, B-CV, I-TM, B-AM
-3	##를	O	O	O, I-CV, B-PS, B-CV, I-AF
-4	했	O	O	O, B-CV, B-PS, B-LC, B-QT
-5	##던	O	O	O, B-CV, B-PS, B-LC, I-CV
-6	박지원	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-7	##도	O	O	O, I-PS, I-OG, B-CV, I-AF
-8	정치	O	O	O, B-FD, B-CV, B-LC, B-PS
-9	##적	O	O	O, I-PS, I-CV, I-TR, B-PS
-10	망명	O	O	O, B-LC, B-PS, B-CV, B-EV
-11	생활	O	O	O, I-CV, B-PS, I-PS, I-EV
-12	##을	O	O	O, B-PS, B-CV, B-OG, B-LC
-13	하	O	O	O, B-PS, B-CV, B-OG, B-LC
-14	##던	O	O	O, B-PS, B-CV, B-LC, B-OG
-15	김대중	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-16	##을	O	O	O, I-PS, B-CV, I-OG, I-AF
-17	후원	O	O	O, B-CV, B-PS, B-OG, B-LC
-18	##한	O	O	O, B-PS, I-CV, B-LC, B-CV
-19	인연	O	O	O, B-CV, B-PS, B-LC, B-OG
-20	##으로	O	O	O, B-PS, B-CV, B-LC, I-CV
-21	'	O	O	O, B-PS, B-CV, B-LC, B-OG
-22	DJ	O	B-PS	B-PS, O, B-OG, B-EV, B-LC
-23	##의	O	O	O, I-PS, I-OG, B-PS, B-CV
-24	남자	O	O	O, I-PS, I-CV, B-CV, I-OG
-25	'	O	O	O, B-PS, I-CV, B-CV, B-QT
-26	가	O	O	O, B-PS, B-QT, B-OG, B-LC
-27	돼	O	O	O, B-PS, B-LC, B-CV, B-QT
-28	청와대	B-AF	B-OG	B-OG, B-AF, O, B-LC, B-PS
-29	비서실	B-CV	B-CV	B-CV, O, I-CV, I-AF, I-OG
-30	##장	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-AF
-31	##을	O	O	O, I-CV, I-OG, B-CV, B-PS
-32	지냈	O	O	O, B-CV, B-OG, B-PS, B-LC
-33	##고	O	O	O, B-PS, B-CV, B-LC, B-OG
-34	당대	B-CV	B-CV	B-CV, O, B-TM, B-OG, I-CV
-35	##표	I-CV	I-CV	I-CV, O, B-CV, I-TM, I-QT
-36	##에	O	O	O, I-CV, I-QT, I-OG, I-EV
-37	##까	O	O	O, B-PS, B-QT, B-LC, B-OG
-38	##지	O	O	O, B-PS, B-QT, B-LC, B-OG
-39	올랐	O	O	O, B-QT, B-CV, B-PS, B-OG
-40	##다	O	O	O, B-CV, I-QT, I-OG, I-CV
-41	.	O	O	O, B-PS, B-CV, B-LC, B-OG
-42	[SEP]	O	O	O, B-CV, B-PS, B-LC, I-CV
+	text	label	preds
+0	[CLS]	O	O
+1	7	B-DT	B-DT
+2	##일	I-DT	I-DT
+3	모금	O	O
+4	##회	O	O
+5	##에	O	O
+6	따르	O	O
+7	##면	O	O
+8	개봉	B-LC	B-LC
+9	##2	I-LC	I-LC
+10	##동	I-LC	I-LC
+11	##에	O	O
+12	##는	O	O
+13	카페	O	O
+14	##와	O	O
+15	동물	O	O
+16	##병원	O	O
+17	,	O	O
+18	해장국	O	O
+19	##집	O	O
+20	등	O	O
+21	매달	O	O
+22	3	B-QT	B-QT
+23	##만	I-QT	I-QT
+24	##원	I-QT	I-QT
+25	이상	I-QT	I-QT
+26	정기	O	O
+27	기부	O	O
+28	##하	O	O
+29	##는	O	O
+30	'	O	O
+31	착한	O	O
+32	가게	O	O
+33	'	O	O
+34	가	O	O
+35	25	B-QT	B-QT
+36	##곳	I-QT	I-QT
+37	,	O	O
+38	2	B-QT	B-QT
+39	##만	I-QT	I-QT
+40	##원	I-QT	I-QT
+41	이상	I-QT	I-QT
+42	기부	O	O
+43	##하	O	O
+44	##는	O	O
+45	'	O	O
+46	착한	O	O
+47	가정	O	O
+48	'	O	O
+49	이	O	O
+50	15	B-QT	B-QT
+51	##곳	I-QT	I-QT
+52	,	O	O
+53	홀	O	O
+54	##몸	O	O
+55	##노	O	O
+56	##인	O	O
+57	등	O	O
+58	소외	O	O
+59	계층	O	O
+60	##을	O	O
+61	일대	O	O
+62	##일	O	B-QT
+63	결연	O	O
+64	##으로	O	O
+65	후원	O	O
+66	##하	O	O
+67	##는	O	O
+68	사람	O	O
+69	##이	O	O
+70	13	B-QT	B-QT
+71	##명	I-QT	I-QT
+72	있	O	O
+73	##다	O	O
+74	.	O	O
+75	[SEP]	O	O

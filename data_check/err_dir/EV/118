@@ -1,26 +1,73 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-EV, I-OG, I-CV
-1	스프링	B-EV	O	O, B-EV, B-DT, B-LC, B-CV
-2	##캠프	I-EV	O	O, I-EV, I-DT, I-LC, I-OG
-3	초반	O	O	O, B-TI, B-DT, I-TI, I-DT
-4	##은	O	O	O, I-DT, B-CV, I-EV, B-LC
-5	물론	O	O	O, B-CV, B-LC, B-TM, B-QT
-6	##이	O	O	O, B-PS, B-LC, B-CV, B-OG
-7	##고	O	O	O, B-PS, I-EV, B-CV, I-OG
-8	재판	O	O	O, B-CV, B-PS, B-OG, B-LC
-9	결과	O	O	O, B-PS, B-CV, B-LC, B-OG
-10	##에	O	O	O, B-LC, B-PS, B-CV, B-OG
-11	따라	O	O	O, B-LC, B-PS, B-TM, B-OG
-12	시범	O	O	O, B-EV, B-CV, B-LC, I-EV
-13	##경기	O	O	O, I-EV, B-EV, I-CV, I-LC
-14	출전	O	O	O, I-EV, B-LC, B-CV, B-PS
-15	##에도	O	O	O, B-TM, B-LC, B-CV, B-OG
-16	지장	O	O	O, B-TM, B-CV, B-LC, B-QT
-17	##을	O	O	O, B-CV, B-PS, I-CV, B-TM
-18	받	O	O	O, B-CV, B-LC, B-TM, B-PS
-19	##을	O	O	O, B-LC, B-CV, B-PS, B-TM
-20	수	O	O	O, B-PS, B-QT, B-LC, B-TM
-21	있	O	O	O, B-CV, B-TM, B-QT, I-QT
-22	##다	O	O	O, B-CV, B-TM, B-QT, B-LC
-23	.	O	O	O, B-LC, B-PS, B-CV, I-EV
-24	[SEP]	O	O	O, B-CV, B-LC, I-EV, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	정부	B-OG	B-OG
+2	소식통	O	O
+3	##은	O	O
+4	""""	O	O
+5	폐쇄	O	O
+6	##를	O	O
+7	하	O	O
+8	##려면	O	O
+9	우리	O	O
+10	국민	B-CV	B-CV
+11	수백	O	O
+12	명	O	O
+13	##을	O	O
+14	먼저	O	O
+15	소개	O	O
+16	(	O	O
+17	疏	O	O
+18	開	O	O
+19	)	O	O
+20	해야	O	O
+21	하	O	O
+22	##는데	O	O
+23	북	O	B-OG
+24	##이	O	O
+25	그걸	O	O
+26	수수	O	O
+27	##방	O	O
+28	##관	O	O
+29	##하	O	O
+30	##진	O	O
+31	않	O	O
+32	##을	O	O
+33	것	O	O
+34	""""	O	O
+35	이라	O	O
+36	##며	O	O
+37	""""	O	O
+38	인민군	B-OG	B-OG
+39	5	B-QT	B-QT
+40	##개	I-QT	I-QT
+41	사단	O	O
+42	##이	O	O
+43	에워	O	O
+44	##싼	O	O
+45	개성	B-LC	B-LC
+46	##공단	I-LC	I-LC
+47	##에	O	O
+48	##서	O	O
+49	우리	O	O
+50	국민	B-CV	B-CV
+51	##을	O	O
+52	어떻게	O	O
+53	구출	O	O
+54	##하	O	O
+55	##느	O	O
+56	##냐	O	O
+57	##가	O	O
+58	개성	B-EV	B-LC
+59	##공단	I-EV	I-LC
+60	철수	I-EV	O
+61	작전	I-EV	O
+62	##의	O	O
+63	최대	O	O
+64	고민	O	O
+65	""""	O	O
+66	이라	O	O
+67	##고	O	O
+68	했	O	O
+69	##다	O	O
+70	.	O	O
+71	[SEP]	O	O

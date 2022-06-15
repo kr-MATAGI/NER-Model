@@ -1,23 +1,19 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-EV, I-OG, B-CV, I-CV
-1	비슷	O	O	O, B-CV, B-TM, B-OG, B-LC
-2	##한	O	O	O, B-PS, B-LC, B-OG, B-TM
-3	상황	O	O	O, B-CV, B-OG, B-LC, B-EV
-4	##이	O	O	O, B-PS, B-LC, B-OG, B-EV
-5	아시아	B-LC	B-LC	B-LC, B-OG, B-EV, O, B-AF
-6	##의	O	O	O, I-EV, I-LC, B-LC, I-OG
-7	한	B-LC	B-EV	B-EV, B-LC, I-EV, B-OG, B-PS
-8	·	O	I-EV	I-EV, I-LC, O, B-EV, I-AF
-9	일	B-LC	I-EV	I-EV, I-LC, B-LC, B-EV, I-PS
-10	축구	B-CV	I-EV	I-EV, B-EV, I-LC, B-CV, B-LC
-11	라이벌	O	I-EV	I-EV, O, B-EV, I-LC, I-AF
-12	##전	O	I-EV	I-EV, O, B-EV, I-LC, I-AF
-13	##에서	O	O	O, I-EV, I-AF, I-DT, I-OG
-14	##도	O	O	O, I-EV, B-CV, B-LC, B-EV
-15	벌어지	O	O	O, B-CV, I-EV, B-OG, B-LC
-16	##고	O	O	O, B-PS, B-LC, B-CV, I-EV
-17	있	O	O	O, I-EV, B-PS, B-CV, I-AF
-18	##었	O	O	O, B-CV, I-EV, B-PS, B-LC
-19	##다	O	O	O, B-CV, I-EV, B-PS, B-LC
-20	.	O	O	O, B-LC, I-EV, B-CV, B-PS
-21	[SEP]	O	O	O, I-EV, B-CV, B-LC, B-EV
+	text	label	preds
+0	[CLS]	O	O
+1	그분	O	O
+2	##들이	O	O
+3	알	O	B-CV
+4	권리	O	I-CV
+5	##가	O	O
+6	있	O	O
+7	##다	O	O
+8	.	O	O
+9	이렇게	O	O
+10	법원	B-OG	B-OG
+11	##이	O	O
+12	판단	O	O
+13	##한	O	O
+14	거	O	O
+15	##죠	O	O
+16	.	O	O
+17	[SEP]	O	O

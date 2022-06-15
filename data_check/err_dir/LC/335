@@ -1,69 +1,63 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	북한	B-LC	B-OG	B-OG, B-LC, O, B-PS, B-AF
-2	##이	O	O	O, I-OG, B-PS, B-OG, I-LC
-3	이날	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-4	처음	O	O	O, I-DT, B-CV, I-QT, B-TM
-5	공개	O	O	O, B-CV, B-TM, B-LC, B-OG
-6	##한	O	O	O, B-LC, B-OG, B-PS, B-CV
-7	ICBM	B-AF	B-AF	B-AF, O, I-AF, B-LC, B-OG
-8	##은	O	O	O, I-AF, I-EV, I-OG, B-CV
-9	▲	O	O	O, B-LC, B-QT, B-TM, B-PS
-10	##중국	B-LC	B-LC	B-LC, B-OG, O, I-LC, B-AF
-11	##에서	O	O	O, I-LC, I-OG, I-AF, B-CV
-12	도입	O	O	O, B-AF, B-TM, B-CV, B-LC
-13	##한	O	O	O, B-AF, B-LC, B-PS, B-TM
-14	바퀴	O	O	O, B-AF, B-TM, B-AM, B-LC
-15	16	B-QT	B-QT	B-QT, I-QT, O, I-AF, B-DT
-16	##개	I-QT	I-QT	I-QT, O, I-AF, I-LC, I-TM
-17	달린	O	O	O, I-QT, B-TM, B-AF, B-LC
-18	대형	O	O	O, B-AF, B-TM, B-LC, B-CV
-19	이동식	O	O	O, B-AF, I-AF, B-TM, B-LC
-20	발사	O	O	O, I-AF, B-AF, I-LC, I-TM
-21	차량	O	O	O, I-AF, B-AF, I-LC, B-LC
-22	##에	O	O	O, I-AF, B-AF, B-LC, B-TM
-23	원통	B-TM	O	O, B-TM, B-AF, B-LC, B-CV
-24	##형	I-TM	O	O, I-TM, I-AF, I-LC, I-CV
-25	발사	O	O	O, B-AF, I-AF, I-TM, B-LC
-26	##관	O	O	O, I-AF, I-LC, I-TM, B-AF
-27	##을	O	O	O, I-AF, B-CV, B-LC, B-TM
-28	실은	O	O	O, B-AF, B-LC, B-PS, B-TM
-29	형태	O	O	O, B-QT, B-TM, B-LC, B-PS
-30	▲	O	O	O, B-QT, B-LC, B-TM, B-PS
-31	##대	O	O	O, B-AF, B-TM, B-LC, B-MT
-32	##형	O	O	O, I-AF, I-TM, I-LC, I-CV
-33	트레일러	O	O	O, I-AF, B-AF, I-LC, I-TM
-34	##에	O	O	O, I-AF, B-LC, I-LC, B-CV
-35	실려	O	O	O, B-AF, B-LC, B-TM, B-PS
-36	이동하	O	O	O, B-AF, B-LC, B-TM, I-AF
-37	##는	O	O	O, B-AF, I-AF, B-LC, B-TM
-38	발사	O	O	O, B-AF, B-LC, B-TM, I-AF
-39	##관	O	O	O, I-AF, I-LC, B-AF, I-TM
-40	##을	O	O	O, I-AF, B-CV, B-PS, B-LC
-41	가진	O	O	O, B-LC, B-AF, B-TM, B-PS
-42	형태	O	O	O, B-QT, B-LC, B-TM, B-PS
-43	▲	O	O	O, B-QT, B-LC, B-TM, B-PS
-44	##무	B-LC	B-AF	B-AF, O, B-LC, B-OG, B-PS
-45	##수단	I-LC	I-AF	I-AF, I-OG, O, I-LC, I-PS
-46	미사일	B-AF	B-AF	B-AF, I-AF, O, I-OG, B-LC
-47	이동식	O	O	O, I-AF, B-AF, B-TM, I-LC
-48	발사	O	O	O, I-AF, B-AF, I-LC, I-TM
-49	차량	O	O	O, I-AF, B-AF, B-LC, I-LC
-50	##에	O	O	O, I-AF, B-LC, B-AF, B-CV
-51	기존	O	O	O, B-AF, B-LC, B-TM, B-CV
-52	K	B-AF	B-AF	B-AF, O, I-AF, B-TM, B-OG
-53	##N	I-AF	I-AF	I-AF, O, I-TM, I-OG, I-QT
-54	-	I-AF	I-AF	I-AF, O, I-TM, I-QT, I-OG
-55	08	I-AF	I-AF	I-AF, O, I-TM, I-QT, I-OG
-56	ICBM	B-AF	B-AF	B-AF, I-AF, O, I-TM, B-LC
-57	개조	O	O	O, I-AF, I-TM, I-EV, B-AF
-58	##형	O	O	O, I-AF, I-LC, I-TM, B-LC
-59	##을	O	O	O, B-CV, I-AF, B-LC, B-TM
-60	실은	O	O	O, B-LC, B-AF, B-PS, B-OG
-61	형태	O	O	O, B-QT, B-LC, B-TM, B-CV
-62	등	O	O	O, B-LC, B-PS, B-QT, B-TM
-63	3	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-EV
-64	##종	I-QT	I-QT	I-QT, O, I-EV, I-LC, I-DT
-65	##이다	O	O	O, I-QT, I-EV, B-CV, I-OG
-66	.	O	O	O, B-AF, B-LC, B-TM, B-PS
-67	[SEP]	O	O	O, B-AF, B-LC, B-TM, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	일본	B-LC	B-LC
+2	##의	O	O
+3	국제	O	O
+4	##정	O	O
+5	##치	O	O
+6	전문가	B-CV	B-CV
+7	##들	O	O
+8	##은	O	O
+9	중국	B-LC	B-OG
+10	##의	O	O
+11	군사	O	O
+12	##적	O	O
+13	팽창	O	O
+14	##과	O	O
+15	북한	B-LC	B-OG
+16	##의	O	O
+17	도발	O	O
+18	##로	O	O
+19	동아시아	B-LC	B-LC
+20	##지역	O	O
+21	안보	O	O
+22	##가	O	O
+23	불안	O	O
+24	##하	O	O
+25	##고	O	O
+26	전통	O	O
+27	##적	O	O
+28	##인	O	O
+29	우방	O	O
+30	##인	O	O
+31	미국	B-OG	B-OG
+32	##과	O	O
+33	##의	O	O
+34	관계	O	O
+35	역시	O	O
+36	후	B-LC	B-OG
+37	##텐	I-LC	I-OG
+38	##마	I-LC	I-OG
+39	미군	B-OG	I-OG
+40	##기지	I-OG	I-OG
+41	이전	O	O
+42	##문제	O	O
+43	##로	O	O
+44	꼬	O	O
+45	##인	O	O
+46	상태	O	O
+47	##에	O	O
+48	##서	O	O
+49	한국	B-LC	B-LC
+50	##의	O	O
+51	전략	O	O
+52	##적	O	O
+53	중요	O	O
+54	##성이	O	O
+55	높	O	O
+56	##아졌	O	O
+57	##다고	O	O
+58	분석	O	O
+59	##한다	O	O
+60	.	O	O
+61	[SEP]	O	O

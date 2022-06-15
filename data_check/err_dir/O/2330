@@ -1,9 +1,16 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	그러면	O	O	O, B-CV, B-TM, B-OG, B-QT
-2	##서	O	O	O, B-CV, B-QT, B-OG, B-TM
-3	또	O	O	O, B-CV, B-QT, B-LC, B-PS
-4	한	O	B-QT	B-QT, O, I-QT, B-DT, B-PS
-5	번	O	I-QT	I-QT, O, B-QT, I-DT, I-LC
-6	##도	O	O	O, I-QT, I-OG, I-EV, I-AF
-7	[SEP]	O	O	O, B-CV, I-QT, B-QT, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	시월	B-DT	B-DT
+2	##달	I-DT	I-DT
+3	##에	O	O
+4	갈라	O	O
+5	##면	O	O
+6	인자	O	O
+7	이	O	B-DT
+8	달	O	I-DT
+9	##에	O	O
+10	해야	O	O
+11	되	O	O
+12	##는데	O	O
+13	?	O	O
+14	[SEP]	O	O

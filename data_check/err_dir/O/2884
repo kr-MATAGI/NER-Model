@@ -1,63 +1,35 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	시의	B-OG	O	O, B-OG, B-CV, B-EV, B-FD
-2	##회	I-OG	O	O, I-OG, I-CV, I-EV, I-AF
-3	##는	O	O	O, I-OG, I-EV, I-CV, B-CV
-4	""""	O	O	O, B-LC, B-CV, B-PS, B-OG
-5	아산시	O	B-LC	B-LC, O, B-CV, B-PS, B-OG
-6	##민	O	O	O, I-CV, I-LC, B-CV, I-OG
-7	##에	O	O	O, I-CV, I-LC, B-PS, B-CV
-8	##게	O	O	O, B-LC, B-CV, B-PS, I-CV
-9	피해	O	O	O, B-LC, B-CV, I-CV, B-PS
-10	##가	O	O	O, B-PS, B-LC, B-OG, B-CV
-11	예상	O	O	O, B-CV, B-LC, B-PS, B-OG
-12	##되	O	O	O, B-PS, B-LC, B-OG, B-CV
-13	##는데	O	O	O, B-LC, B-OG, B-CV, B-PS
-14	##도	O	O	O, B-LC, B-OG, B-PS, B-CV
-15	아산시	O	B-OG	B-OG, O, B-LC, I-OG, B-CV
-16	##와	O	O	O, I-OG, I-LC, I-CV, B-LC
-17	사전	O	O	O, B-LC, B-CV, B-OG, B-PS
-18	##협	O	O	O, B-LC, B-CV, B-OG, I-LC
-19	##의	O	O	O, B-LC, I-LC, I-OG, B-CV
-20	##도	O	O	O, B-LC, B-PS, I-LC, I-OG
-21	없	O	O	O, B-LC, B-CV, B-PS, B-OG
-22	##었	O	O	O, B-LC, B-PS, B-CV, B-OG
-23	##고	O	O	O, B-LC, B-PS, I-LC, B-CV
-24	,	O	O	O, B-LC, B-CV, B-PS, B-OG
-25	아산	B-LC	B-LC	B-LC, O, B-OG, B-PS, B-AF
-26	##지역	O	O	O, I-LC, I-AF, B-LC, I-OG
-27	##에	O	O	O, B-LC, I-LC, B-CV, B-PS
-28	대한	O	O	O, B-LC, B-OG, B-PS, B-CV
-29	사전	O	O	O, B-LC, B-CV, B-PS, B-OG
-30	환경	O	O	O, B-LC, B-CV, B-TM, B-PS
-31	##성	O	O	O, B-LC, B-PS, B-CV, B-MT
-32	##검	O	O	O, B-CV, B-LC, I-LC, B-PS
-33	##토	O	O	O, B-LC, B-CV, I-LC, B-PS
-34	##를	O	O	O, B-LC, B-CV, B-OG, B-PS
-35	하	O	O	O, B-LC, B-DT, B-CV, B-PS
-36	##지	O	O	O, B-LC, B-PS, B-CV, I-LC
-37	않	O	O	O, B-LC, B-CV, B-PS, B-EV
-38	##은	O	O	O, B-LC, B-CV, B-PS, B-OG
-39	상태	O	O	O, B-LC, B-CV, B-EV, I-EV
-40	##에서	O	O	O, B-LC, B-PS, B-CV, I-EV
-41	주민	O	B-CV	B-CV, O, B-EV, B-TM, I-CV
-42	##설	O	O	O, I-CV, I-EV, I-OG, I-AF
-43	##명	O	O	O, I-EV, B-EV, B-CV, B-LC
-44	##회	O	O	O, I-EV, B-EV, B-CV, B-LC
-45	##를	O	O	O, B-CV, I-EV, B-LC, B-OG
-46	하	O	O	O, B-LC, B-CV, B-OG, B-PS
-47	##는	O	O	O, B-LC, B-CV, B-OG, B-PS
-48	것	O	O	O, B-LC, B-CV, B-OG, B-PS
-49	##은	O	O	O, B-LC, B-CV, B-OG, B-PS
-50	용납	O	O	O, B-CV, B-LC, B-OG, B-TM
-51	##할	O	O	O, B-PS, I-OG, B-LC, B-OG
-52	수	O	O	O, B-PS, B-LC, B-OG, I-OG
-53	없	O	O	O, B-CV, I-OG, B-PS, B-LC
-54	##다	O	O	O, B-CV, B-LC, I-OG, B-OG
-55	""""	O	O	O, B-CV, B-LC, B-TM, B-OG
-56	고	O	O	O, B-CV, B-LC, B-OG, B-TM
-57	주장	O	O	O, B-CV, B-LC, B-OG, B-TM
-58	##했	O	O	O, B-CV, I-OG, B-LC, B-PS
-59	##다	O	O	O, B-CV, B-LC, I-OG, B-OG
-60	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-61	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	건물	O	O
+2	내부	O	O
+3	##에	O	O
+4	##는	O	O
+5	산산조각	O	O
+6	##이	O	O
+7	난	O	O
+8	유리	O	B-MT
+9	파편	O	O
+10	##들이	O	O
+11	바닥	O	O
+12	##에	O	O
+13	깔려	O	O
+14	##있	O	O
+15	##었	O	O
+16	##고	O	O
+17	,	O	O
+18	건물	O	O
+19	내	O	O
+20	통로	O	O
+21	벽면	O	O
+22	곳곳	O	O
+23	##은	O	O
+24	시커	O	O
+25	##멓	O	O
+26	##게	O	O
+27	그을	O	O
+28	##려	O	O
+29	있	O	O
+30	##었	O	O
+31	##다	O	O
+32	.	O	O
+33	[SEP]	O	O

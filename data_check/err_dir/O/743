@@ -1,24 +1,13 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-EV
-1	인도	B-LC	B-LC	B-LC, B-OG, O, B-PS, B-CV
-2	·	O	O	O, I-LC, I-OG, B-LC, I-CV
-3	이스라엘	B-LC	B-LC	B-LC, B-OG, I-LC, O, B-PS
-4	친선	O	O	O, I-OG, I-LC, B-CV, B-OG
-5	다져	O	O	O, B-LC, I-OG, B-OG, B-PS
-6	…	O	O	O, B-PS, B-LC, B-OG, I-OG
-7	中	O	B-OG	B-OG, B-LC, O, B-CV, I-OG
-8	과	O	O	O, I-OG, B-OG, B-CV, B-PS
-9	서로	O	O	O, B-OG, B-CV, B-TM, B-LC
-10	껄끄	O	O	O, B-CV, B-OG, B-LC, B-PS
-11	##러운	O	O	O, B-OG, B-LC, B-PS, I-OG
-12	관계	O	O	O, B-CV, B-OG, B-PS, B-LC
-13	,	O	O	O, B-OG, B-CV, B-PS, I-OG
-14	대만	B-LC	B-LC	B-LC, B-OG, O, B-PS, B-CV
-15	총통	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-AF
-16	##은	O	O	O, I-CV, I-OG, B-CV, I-EV
-17	5	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-18	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-AF
-19	##전	I-DT	I-DT	I-DT, O, I-QT, B-DT, I-AF
-20	다녀	O	O	O, I-DT, B-CV, B-LC, B-OG
-21	##가	O	O	O, I-OG, B-LC, I-AF, B-OG
-22	[SEP]	O	O	O, B-LC, B-OG, B-CV, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	경제	B-TR	B-TR
+2	민주	I-TR	I-TR
+3	##화	I-TR	I-TR
+4	##와	O	O
+5	복지	O	O
+6	혹은	O	O
+7	뭐	O	O
+8	새로운	O	O
+9	보수	O	B-TR
+10	##를	O	O
+11	[SEP]	O	O

@@ -1,45 +1,9 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	주행	O	O	O, B-TM, B-AF, B-CV, B-LC
-2	##시	O	O	O, I-AF, B-LC, B-TM, B-PS
-3	강풍	O	O	O, B-TM, B-LC, B-AF, B-CV
-4	##을	O	O	O, B-CV, I-AF, I-OG, B-TM
-5	막아	O	O	O, B-TM, B-CV, B-LC, B-OG
-6	##주	O	O	O, B-TM, B-CV, B-PS, B-LC
-7	##는	O	O	O, B-TM, B-CV, B-LC, B-PS
-8	보온	O	O	O, B-TM, B-CV, I-TM, B-TR
-9	시스템	O	O	O, I-TM, B-TM, I-CV, I-AF
-10	##인	O	O	O, I-TM, B-TM, I-CV, B-CV
-11	에어	B-TM	B-TM	B-TM, O, B-AF, B-CV, B-OG
-12	##캡	I-TM	I-TM	I-TM, O, I-AF, I-CV, I-OG
-13	(	O	O	O, I-TM, I-CV, I-OG, I-AF
-14	AI	O	B-TM	B-TM, O, B-AF, B-OG, B-CV
-15	##RC	O	I-TM	I-TM, O, I-AF, I-OG, I-MT
-16	##AP	O	I-TM	I-TM, O, I-AF, I-OG, I-MT
-17	)	O	O	O, I-TM, I-OG, I-AF, I-CV
-18	과	O	O	O, B-CV, B-OG, B-TM, B-AF
-19	에어	B-TM	B-CV	B-CV, B-AF, B-TM, O, B-OG
-20	##스카	I-TM	I-CV	I-CV, I-AF, I-TM, O, I-OG
-21	##프	I-TM	I-CV	I-CV, I-AF, I-TM, O, I-OG
-22	(	O	O	O, I-CV, I-AF, I-OG, I-TM
-23	AI	O	O	O, B-TM, B-AF, B-OG, B-CV
-24	##RS	O	I-AF	I-AF, O, I-TM, I-OG, I-CV
-25	##CA	O	O	O, I-AF, I-TM, I-OG, I-CV
-26	##R	O	I-AF	I-AF, O, I-TM, I-OG, I-CV
-27	##F	O	I-AF	I-AF, I-TM, O, I-OG, I-CV
-28	)	O	O	O, I-AF, I-TM, I-OG, I-CV
-29	등	O	O	O, B-CV, B-LC, B-TM, B-OG
-30	##을	O	O	O, B-CV, B-LC, B-OG, B-TM
-31	적용	O	O	O, B-CV, B-TM, B-LC, B-OG
-32	,	O	O	O, B-LC, I-OG, B-PS, B-CV
-33	사계절	B-QT	B-QT	B-QT, O, B-TM, B-DT, B-TI
-34	안전	O	O	O, I-QT, B-LC, B-AF, I-AF
-35	##한	O	O	O, B-LC, B-TM, B-PS, B-AF
-36	오픈	O	O	O, B-TM, B-LC, B-AF, B-CV
-37	주행	O	O	O, B-TM, B-AF, B-LC, B-CV
-38	##이	O	O	O, B-PS, I-AF, B-LC, B-CV
-39	가능	O	O	O, B-TM, B-CV, B-LC, B-AF
-40	##하	O	O	O, B-LC, I-AF, B-CV, B-AF
-41	##다	O	O	O, B-CV, B-LC, B-TM, B-AF
-42	.	O	O	O, B-LC, B-TM, B-CV, B-AF
-43	[SEP]	O	O	O, B-LC, B-TM, B-CV, B-AF
+	text	label	preds
+0	[CLS]	O	O
+1	예	O	O
+2	.	O	O
+3	제	O	O
+4	이메일	O	B-TM
+5	##이	O	O
+6	.	O	O
+7	[SEP]	O	O

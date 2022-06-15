@@ -1,38 +1,37 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	'	O	O	O, B-LC, B-CV, B-DT, B-OG
-2	동양	B-LC	B-CV	B-CV, B-FD, B-LC, O, B-OG
-3	##화가	B-CV	B-CV	B-CV, I-CV, O, I-FD, B-FD
-4	김현	B-PS	B-PS	B-PS, O, I-PS, B-OG, B-LC
-5	##정	I-PS	I-PS	I-PS, O, I-OG, I-LC, B-PS
-6	##은	O	O	O, I-PS, B-CV, I-OG, B-LC
-7	전통	O	O	O, B-CV, B-FD, B-AF, B-LC
-8	한복	B-CV	B-CV	B-CV, O, I-CV, B-AF, B-AM
-9	##을	O	O	O, I-CV, I-AF, B-CV, I-OG
-10	입	O	O	O, B-CV, B-PS, B-LC, B-TM
-11	##은	O	O	O, B-CV, B-PS, B-LC, I-CV
-12	여성	O	O	O, B-CV, I-CV, I-AF, B-TM
-13	##이	O	O	O, B-PS, B-CV, B-LC, B-AF
-14	당구	B-CV	B-CV	B-CV, O, B-AF, B-TM, B-EV
-15	##를	O	O	O, I-CV, I-AF, I-EV, B-CV
-16	치	O	O	O, B-CV, B-PS, B-AF, B-LC
-17	##거나	O	O	O, B-CV, I-AF, B-PS, I-CV
-18	윗	O	B-CV	B-CV, O, B-TM, B-AM, B-AF
-19	##몸	O	I-CV	I-CV, O, B-CV, I-TM, I-AF
-20	##일으	O	I-CV	I-CV, O, I-TM, B-CV, I-AF
-21	##키	O	I-CV	I-CV, O, I-TM, I-AF, B-CV
-22	##기	O	I-CV	I-CV, O, I-TM, B-CV, I-AF
-23	##를	O	O	O, I-CV, I-AF, I-TM, B-CV
-24	하	O	O	O, B-CV, B-LC, B-PS, B-AF
-25	##는	O	O	O, B-CV, B-PS, B-LC, B-TM
-26	모습	O	O	O, B-CV, B-LC, B-TM, B-QT
-27	##을	O	O	O, B-CV, B-PS, B-LC, B-OG
-28	묘사	O	O	O, B-CV, B-FD, B-LC, B-OG
-29	##하면	O	O	O, B-CV, B-LC, B-FD, B-OG
-30	##서	O	O	O, B-CV, B-LC, B-OG, B-PS
-31	관습	O	O	O, B-CV, B-FD, I-CV, B-PS
-32	##에	O	O	O, B-CV, B-PS, B-LC, B-OG
-33	반항	O	O	O, B-CV, B-LC, B-OG, B-PS
-34	##한다	O	O	O, B-FD, B-CV, B-PS, B-LC
-35	.	O	O	O, B-CV, B-LC, B-PS, B-FD
-36	[SEP]	O	O	O, B-CV, B-LC, B-FD, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	'	O	O
+2	동양	B-LC	B-CV
+3	##화가	B-CV	I-CV
+4	김현정	B-PS	B-PS
+5	##은	O	O
+6	전통	O	O
+7	한복	B-CV	B-CV
+8	##을	O	O
+9	입	O	O
+10	##은	O	O
+11	여성	O	O
+12	##이	O	O
+13	당구	B-CV	B-CV
+14	##를	O	O
+15	치	O	O
+16	##거나	O	O
+17	윗	O	B-CV
+18	##몸	O	I-CV
+19	##일으	O	O
+20	##키	O	O
+21	##기	O	O
+22	##를	O	O
+23	하	O	O
+24	##는	O	O
+25	모습	O	O
+26	##을	O	O
+27	묘사	O	O
+28	##하면	O	O
+29	##서	O	O
+30	관습	O	O
+31	##에	O	O
+32	반항	O	O
+33	##한다	O	O
+34	.	O	O
+35	[SEP]	O	O

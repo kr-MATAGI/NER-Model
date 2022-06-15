@@ -1,10 +1,79 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-AF
-1	요	O	O	O, B-CV, B-LC, B-AF, B-OG
-2	보리	B-CV	B-CV	B-CV, O, B-OG, B-PT, B-AM
-3	##새	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-PT
-4	##우	I-CV	I-CV	I-CV, O, I-OG, B-CV, I-PT
-5	지	I-CV	B-CV	B-CV, I-CV, O, B-OG, B-PT
-6	##짐	I-CV	I-CV	I-CV, O, I-OG, B-CV, I-PT
-7	##이	O	O	O, I-CV, I-OG, I-AF, B-PS
-8	[SEP]	O	O	O, B-CV, I-CV, B-LC, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	윤	B-PS	B-PS
+2	##덕	I-PS	I-PS
+3	##원	I-PS	I-PS
+4	이마트	B-OG	B-OG
+5	상품	B-CV	B-CV
+6	##기획	I-CV	I-CV
+7	##자	I-CV	I-CV
+8	(	O	O
+9	MD	B-CV	B-CV
+10	)	O	O
+11	는	O	O
+12	“	O	O
+13	막걸리	B-CV	B-CV
+14	##는	O	O
+15	용량	O	O
+16	대비	O	O
+17	가격	O	O
+18	##이	O	O
+19	가장	O	O
+20	저렴	O	O
+21	##한	O	O
+22	주류	O	O
+23	##인	O	O
+24	데	O	O
+25	##다	O	O
+26	안주	B-CV	O
+27	없이	O	O
+28	##도	O	O
+29	즐길	O	O
+30	수	O	O
+31	있	O	O
+32	##어	O	O
+33	불황	O	O
+34	##에	O	O
+35	큰	O	O
+36	인기	O	O
+37	”	O	O
+38	라며	O	O
+39	“	O	O
+40	기존	O	O
+41	페트	O	O
+42	##상	O	O
+43	##품	O	O
+44	외	O	O
+45	##에도	O	O
+46	캔	O	O
+47	##이나	O	O
+48	병	O	O
+49	##에	O	O
+50	담긴	O	O
+51	막걸리	B-CV	B-CV
+52	##도	O	O
+53	나오	O	O
+54	##면	O	O
+55	##서	O	O
+56	젊	O	O
+57	##은	O	O
+58	층	O	O
+59	##들	O	O
+60	##에	O	O
+61	##게	O	O
+62	##도	O	O
+63	좋	O	O
+64	##은	O	O
+65	반응	O	O
+66	##을	O	O
+67	얻	O	O
+68	##고	O	O
+69	있	O	O
+70	##다	O	O
+71	”	O	O
+72	고	O	O
+73	말	O	O
+74	##했	O	O
+75	##다	O	O
+76	.	O	O
+77	[SEP]	O	O

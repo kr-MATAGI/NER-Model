@@ -1,35 +1,46 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	이를	O	O	O, B-CV, B-TM, B-OG, B-LC
-2	계기	O	O	O, B-CV, B-TM, B-OG, B-PS
-3	##로	O	O	O, B-PS, B-OG, B-CV, B-LC
-4	2007	B-DT	B-DT	B-DT, O, I-DT, B-LC, B-QT
-5	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-6	6	I-DT	I-DT	I-DT, O, B-DT, I-OG, I-PS
-7	##월	I-DT	I-DT	I-DT, O, B-DT, I-OG, I-QT
-8	진	B-OG	B-OG	B-OG, B-LC, O, I-OG, I-DT
-9	##안	I-OG	I-OG	I-OG, I-LC, O, I-PS, B-OG
-10	##군	I-OG	I-OG	I-OG, I-LC, O, I-PS, B-OG
-11	##과	O	O	O, I-OG, I-LC, B-PS, I-PS
-12	임	B-OG	B-OG	B-OG, B-LC, O, B-PS, I-OG
-13	##실	I-OG	I-OG	I-OG, I-LC, O, I-PS, B-OG
-14	##군	I-OG	I-OG	I-OG, I-LC, O, I-PS, I-CV
-15	##이	O	O	O, I-OG, B-PS, I-LC, B-CV
-16	전북	B-LC	B-LC	B-LC, B-OG, B-TM, O, B-AF
-17	동부	B-LC	I-LC	I-LC, I-OG, O, B-TM, B-LC
-18	##권	I-LC	I-LC	I-LC, I-OG, O, I-TM, I-AF
-19	고추	B-OG	B-OG	B-OG, I-OG, O, B-LC, B-TM
-20	##연합	I-OG	I-OG	I-OG, O, I-LC, I-TM, I-AF
-21	##사업	I-OG	I-OG	I-OG, O, B-OG, I-TM, I-LC
-22	##단	I-OG	I-OG	I-OG, O, I-LC, I-TM, I-CV
-23	##을	O	O	O, I-OG, I-AF, I-EV, I-CV
-24	꾸리	O	O	O, B-CV, B-OG, B-AF, B-PS
-25	##자	O	O	O, B-PS, B-CV, B-LC, I-OG
-26	단장	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-PT
-27	##을	O	O	O, I-CV, B-CV, I-EV, I-AF
-28	맡	O	O	O, B-CV, B-TM, B-OG, B-LC
-29	##게	O	O	O, B-CV, B-OG, B-PS, B-TM
-30	됐	O	O	O, B-CV, B-QT, B-OG, B-TM
-31	##다	O	O	O, B-CV, B-TM, B-OG, B-QT
-32	.	O	O	O, B-OG, B-LC, I-OG, B-PS
-33	[SEP]	O	O	O, I-OG, B-OG, B-CV, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	지난	B-DT	B-DT
+2	1	I-DT	I-DT
+3	##월	I-DT	I-DT
+4	1	B-QT	B-QT
+5	.	I-QT	I-QT
+6	66	I-QT	I-QT
+7	%	I-QT	I-QT
+8	하락	O	O
+9	##했	O	O
+10	##던	O	O
+11	용인	B-LC	B-OG
+12	##시	I-LC	I-OG
+13	##는	O	O
+14	지난	B-DT	B-DT
+15	4	I-DT	I-DT
+16	##월	I-DT	I-DT
+17	,	O	O
+18	올	B-DT	B-DT
+19	들어	O	O
+20	처음	O	O
+21	##으로	O	O
+22	0	B-QT	B-QT
+23	.	I-QT	I-QT
+24	15	I-QT	I-QT
+25	%	I-QT	I-QT
+26	올랐	O	O
+27	##고	O	O
+28	,	O	O
+29	5	B-DT	B-DT
+30	##월	I-DT	I-DT
+31	##에	O	O
+32	##는	O	O
+33	0	B-QT	B-QT
+34	.	I-QT	I-QT
+35	28	I-QT	I-QT
+36	%	I-QT	I-QT
+37	로	O	O
+38	상승	O	O
+39	##폭	O	O
+40	##이	O	O
+41	커졌	O	O
+42	##다	O	O
+43	.	O	O
+44	[SEP]	O	O

@@ -1,28 +1,17 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-EV, I-CV
-1	교수	O	B-OG	B-OG, O, B-CV, B-EV, I-OG
-2	##회의	O	I-OG	I-OG, O, I-CV, I-EV, I-AF
-3	##는	O	O	O, I-OG, I-EV, I-CV, I-AF
-4	“	O	O	O, B-CV, B-OG, B-LC, I-OG
-5	학교	O	O	O, B-OG, B-CV, I-OG, B-PS
-6	##의	O	O	O, I-OG, B-CV, B-PS, I-EV
-7	명예	O	O	O, B-CV, B-LC, B-OG, B-TM
-8	##를	O	O	O, B-CV, B-LC, B-OG, B-PS
-9	지키	O	O	O, B-CV, B-LC, B-OG, B-PS
-10	##지	O	O	O, B-CV, B-LC, B-PS, B-OG
-11	못한	O	O	O, B-CV, B-LC, B-PS, B-OG
-12	데	O	O	O, B-CV, B-LC, B-PS, B-OG
-13	대해	O	O	O, B-LC, B-PS, B-CV, B-OG
-14	책임지	O	O	O, B-CV, B-PS, B-LC, B-OG
-15	##는	O	O	O, B-PS, B-CV, B-OG, I-OG
-16	차원	O	O	O, B-CV, B-PS, B-LC, I-OG
-17	##에서	O	O	O, B-PS, B-CV, B-OG, B-LC
-18	내린	O	O	O, B-CV, B-PS, B-OG, B-LC
-19	결단	O	O	O, B-CV, B-OG, B-PS, B-LC
-20	”	O	O	O, B-CV, I-OG, I-EV, I-CV
-21	이라	O	O	O, B-CV, B-PS, B-OG, B-LC
-22	##고	O	O	O, B-CV, B-OG, I-OG, B-LC
-23	밝혔	O	O	O, B-CV, B-OG, B-LC, I-OG
-24	##다	O	O	O, B-CV, I-OG, B-OG, I-EV
-25	.	O	O	O, B-CV, B-PS, B-LC, B-OG
-26	[SEP]	O	O	O, B-CV, I-EV, B-LC, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	비문	O	O
+2	단일	O	O
+3	후보	O	B-CV
+4	##를	O	O
+5	뽑	O	O
+6	##자	O	O
+7	이런	O	O
+8	움직임	O	O
+9	##이	O	O
+10	또	O	O
+11	있	O	O
+12	##겠	O	O
+13	##죠	O	O
+14	.	O	O
+15	[SEP]	O	O

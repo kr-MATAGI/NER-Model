@@ -1,51 +1,30 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-EV, I-OG, I-CV
-1	삼성전자	B-OG	B-OG	B-OG, B-LC, B-PS, B-AF, O
-2	##는	O	O	O, I-OG, B-CV, I-EV, B-OG
-3	PC	B-TM	B-TM	B-TM, O, B-CV, B-AF, I-TM
-4	##를	O	O	O, I-TM, I-EV, I-AF, I-CV
-5	쓰	O	O	O, B-CV, B-LC, B-TM, B-OG
-6	##지	O	O	O, B-CV, B-LC, B-PS, B-TM
-7	않	O	O	O, B-LC, B-CV, B-PS, B-TM
-8	##은	O	O	O, B-LC, B-CV, B-TM, B-PS
-9	채	O	O	O, B-LC, B-TI, B-PS, B-TM
-10	일정	O	O	O, B-LC, B-TI, B-TM, B-CV
-11	시간	O	O	O, B-TI, I-TI, B-LC, B-CV
-12	##이	O	O	O, B-PS, B-LC, B-OG, I-TI
-13	경과	O	O	O, B-LC, B-CV, B-PS, B-OG
-14	##하면	O	O	O, B-LC, B-PS, B-TM, I-LC
-15	자동	O	O	O, B-TM, B-CV, B-LC, B-QT
-16	##으로	O	O	O, B-TM, B-LC, B-PS, B-CV
-17	전원	O	O	O, B-TM, B-CV, B-LC, B-QT
-18	##을	O	O	O, B-PS, B-TM, B-CV, B-LC
-19	끄	O	O	O, B-TM, B-CV, B-LC, B-PS
-20	##는	O	O	O, B-TM, B-CV, B-PS, B-LC
-21	소프트웨어	O	O	O, B-TM, B-CV, B-LC, I-TM
-22	##를	O	O	O, B-CV, B-LC, I-CV, I-TM
-23	보급	O	O	O, B-CV, B-LC, B-TM, B-OG
-24	##하고	O	O	O, B-CV, B-LC, B-OG, B-TM
-25	임직원	B-CV	B-CV	B-CV, O, B-EV, B-TM, B-QT
-26	절전	O	O	O, I-EV, I-CV, B-EV, B-CV
-27	캠페인	O	O	O, I-EV, I-TM, I-CV, B-CV
-28	‘	O	O	O, I-EV, B-EV, B-LC, B-CV
-29	빼	B-EV	B-EV	B-EV, B-TM, O, B-CV, B-QT
-30	##고	I-EV	I-TM	I-TM, I-EV, O, I-QT, I-TR
-31	,	I-EV	I-TM	I-TM, I-EV, O, I-QT, I-TR
-32	끄	I-EV	I-TM	I-TM, I-EV, O, I-QT, I-TR
-33	##고	I-EV	I-TM	I-TM, I-EV, O, I-QT, I-TR
-34	,	I-EV	I-TM	I-TM, I-EV, O, I-QT, I-TR
-35	걷	I-EV	I-TM	I-TM, I-EV, O, I-QT, I-TR
-36	##고	I-EV	I-TM	I-TM, I-EV, O, I-QT, I-TR
-37	’	O	O	O, I-EV, I-TM, I-QT, I-OG
-38	를	O	O	O, I-EV, B-CV, B-LC, B-EV
-39	포함	O	O	O, B-LC, B-CV, B-OG, B-TM
-40	##해	O	O	O, B-LC, B-OG, B-PS, B-TM
-41	다양	O	O	O, B-LC, B-TM, B-CV, B-QT
-42	##한	O	O	O, B-LC, B-OG, B-PS, B-TM
-43	사내	O	O	O, B-TM, B-CV, B-EV, B-LC
-44	캠페인	O	O	O, I-EV, B-CV, I-TM, B-EV
-45	##도	O	O	O, I-EV, B-CV, B-LC, B-OG
-46	전개	O	O	O, B-CV, B-TM, B-LC, B-OG
-47	##한다	O	O	O, B-CV, B-OG, I-OG, B-LC
-48	.	O	O	O, B-LC, B-CV, B-TM, I-EV
-49	[SEP]	O	O	O, B-LC, B-CV, B-TM, I-EV
+	text	label	preds
+0	[CLS]	O	O
+1	12	B-DT	B-DT
+2	##년	I-DT	I-DT
+3	##째	I-DT	I-DT
+4	운영	O	O
+5	중인	O	O
+6	전남	B-LC	B-LC
+7	해남	B-LC	B-LC
+8	미	B-AF	B-AF
+9	##황	I-AF	I-AF
+10	##사	I-AF	I-AF
+11	한문	B-EV	B-CV
+12	##학	I-EV	O
+13	##당	I-EV	O
+14	7	B-DT	B-DT
+15	##박	I-DT	I-DT
+16	##8	I-DT	I-DT
+17	##일	I-DT	I-DT
+18	과정	O	O
+19	##도	O	O
+20	올해	B-DT	B-DT
+21	수강	B-CV	B-CV
+22	##생	I-CV	I-CV
+23	##을	O	O
+24	모집	O	O
+25	중이	O	O
+26	##다	O	O
+27	.	O	O
+28	[SEP]	O	O

@@ -1,23 +1,33 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	천안	B-AF	B-AF	B-AF, B-LC, O, B-PS, B-EV
-2	##함	I-AF	I-AF	I-AF, O, I-LC, I-EV, I-PS
-3	##에	O	O	O, I-AF, I-EV, I-OG, I-QT
-4	가해	O	O	O, B-PS, B-LC, B-CV, B-TM
-5	##진	O	O	O, B-LC, B-PS, B-CV, I-QT
-6	충격	O	O	O, B-PS, B-LC, B-TM, B-OG
-7	##은	O	O	O, B-CV, B-LC, B-PS, B-OG
-8	일부	O	O	O, B-QT, B-LC, B-TM, B-PS
-9	중화	O	B-AF	B-AF, O, B-CV, B-TM, I-AF
-10	##기	O	I-AF	I-AF, O, I-CV, I-TM, I-OG
-11	##들	O	O	O, I-AF, I-OG, I-CV, I-TM
-12	##도	O	O	O, B-LC, B-CV, B-TM, I-AF
-13	바닷속	O	O	O, B-LC, B-TM, B-QT, I-LC
-14	##으로	O	O	O, B-LC, B-QT, B-TM, B-PS
-15	떨어	O	O	O, B-QT, B-LC, B-TM, B-PS
-16	##뜨릴	O	O	O, B-LC, B-QT, I-LC, B-PS
-17	만큼	O	O	O, B-PS, B-LC, B-QT, B-CV
-18	강했	O	O	O, B-LC, B-CV, B-OG, B-PS
-19	##다	O	O	O, B-CV, B-LC, I-QT, I-AF
-20	.	O	O	O, B-LC, B-PS, B-CV, B-AF
-21	[SEP]	O	O	O, B-LC, B-CV, I-AF, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	센터	O	O
+2	##는	O	O
+3	“	O	O
+4	낮	O	O
+5	##은	O	O
+6	시급	O	O
+7	,	O	O
+8	긴	O	O
+9	노동	O	O
+10	##시간	O	O
+11	,	O	O
+12	법조	O	O
+13	##차	O	O
+14	무시	O	O
+15	##되	O	O
+16	##는	O	O
+17	일터	O	O
+18	##가	O	O
+19	청소년	B-CV	B-CV
+20	·	O	O
+21	청년	O	O
+22	##들의	O	O
+23	인권	O	B-CV
+24	##을	O	O
+25	위협	O	O
+26	##하	O	O
+27	##고	O	O
+28	있	O	O
+29	##다	O	O
+30	.	O	O
+31	[SEP]	O	O

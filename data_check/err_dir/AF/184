@@ -1,11 +1,51 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	아주	O	O	O, B-OG, B-CV, B-LC, B-TM
-2	사천	B-AF	B-LC	B-LC, B-OG, O, B-AF, B-QT
-3	##성	I-AF	I-LC	I-LC, I-OG, I-AF, O, I-TM
-4	##에서	O	O	O, I-OG, I-AF, I-LC, I-QT
-5	가장	O	O	O, B-CV, I-AF, B-TM, B-QT
-6	많이	O	O	O, B-CV, B-QT, B-TM, B-OG
-7	쓰	O	O	O, B-CV, B-TM, B-AF, B-OG
-8	##는	O	O	O, B-CV, I-AF, I-CV, B-OG
-9	[SEP]	O	O	O, B-CV, B-LC, B-TM, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	공정	O	O
+2	##보	O	O
+3	##도	O	O
+4	##와	O	O
+5	낙하산	B-AF	O
+6	사장	B-CV	B-CV
+7	퇴진	O	O
+8	##을	O	O
+9	걸	O	O
+10	##고	O	O
+11	51	B-DT	B-DT
+12	##일	I-DT	I-DT
+13	##째	I-DT	I-DT
+14	파업	O	O
+15	##중	O	O
+16	##인	O	O
+17	한국	B-OG	B-OG
+18	##방송	I-OG	I-OG
+19	새	O	B-OG
+20	##노조	O	I-OG
+21	기자	B-CV	B-CV
+22	##들	O	O
+23	##은	O	O
+24	지상파	O	O
+25	방송	O	O
+26	##에	O	O
+27	##서	O	O
+28	내려놓	O	O
+29	##은	O	O
+30	마이크	O	B-TM
+31	##와	O	O
+32	노트북	B-TM	B-TM
+33	##을	O	O
+34	다시	O	O
+35	열	O	O
+36	##고	O	O
+37	<	O	O
+38	리	B-AF	B-AF
+39	##셋	I-AF	I-AF
+40	>	O	O
+41	에서	O	O
+42	눈부신	O	O
+43	활약	O	O
+44	##을	O	O
+45	하고	O	O
+46	있	O	O
+47	##다	O	O
+48	.	O	O
+49	[SEP]	O	O

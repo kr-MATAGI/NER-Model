@@ -1,9 +1,14 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-AF
-1	엑	B-TM	O	O, B-TM, B-CV, B-OG, B-AF
-2	##티브	I-TM	I-TM	I-TM, I-OG, O, I-CV, I-AF
-3	엑스	I-TM	I-TM	I-TM, I-OG, O, I-CV, I-AF
-4	지원	O	O	O, I-TM, I-OG, I-AF, I-CV
-5	안	O	O	O, B-CV, I-OG, I-AF, I-TM
-6	해	O	O	O, B-CV, B-TM, I-OG, B-LC
-7	[SEP]	O	O	O, B-CV, B-TM, B-LC, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	망상	B-TM	B-TM
+2	환	B-TM	I-TM
+3	##청	I-TM	I-TM
+4	##과	O	O
+5	같	O	O
+6	##은	O	O
+7	거	O	O
+8	##까	O	O
+9	##지	O	O
+10	생기	O	O
+11	##니까	O	O
+12	[SEP]	O	O

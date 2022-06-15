@@ -1,36 +1,33 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-EV, B-CV, I-CV, I-OG
-1	그	O	O	O, B-CV, B-PS, B-EV, B-OG
-2	##는	O	O	O, B-PS, B-CV, I-EV, B-LC
-3	2012	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-PS
-4	##년	I-DT	I-DT	I-DT, O, I-EV, I-PS, B-DT
-5	인사	B-EV	B-EV	B-EV, O, B-OG, I-EV, B-CV
-6	##청	I-EV	I-EV	I-EV, O, B-EV, I-OG, I-AF
-7	##문	I-EV	I-EV	I-EV, O, I-OG, B-EV, I-AF
-8	##회	I-EV	I-EV	I-EV, O, I-OG, I-AF, B-EV
-9	당시	O	O	O, I-EV, I-OG, I-AF, B-CV
-10	""""	O	O	O, B-PS, B-LC, B-CV, B-OG
-11	대검	B-AF	B-OG	B-OG, B-AF, O, B-CV, B-LC
-12	##에	O	O	O, I-OG, I-AF, I-EV, B-PS
-13	찔	O	O	O, B-TM, B-LC, B-PS, B-AM
-14	##린	O	O	O, B-TM, I-TM, B-PS, B-LC
-15	흔적	O	O	O, B-TM, B-PS, B-LC, B-CV
-16	##이	O	O	O, B-PS, B-LC, B-CV, B-AF
-17	있	O	O	O, B-PS, B-CV, B-LC, B-TM
-18	##는	O	O	O, B-PS, B-CV, B-LC, B-AF
-19	시신	O	O	O, B-TM, B-AF, B-CV, B-AM
-20	##을	O	O	O, I-AF, B-PS, B-CV, B-LC
-21	나	O	O	O, B-PS, B-CV, B-LC, B-TM
-22	##도	O	O	O, B-PS, B-LC, B-CV, B-TM
-23	직접	O	O	O, B-CV, B-LC, B-PS, B-TM
-24	봤	O	O	O, B-PS, B-CV, B-LC, B-TM
-25	##다	O	O	O, B-CV, B-PS, B-LC, I-EV
-26	""""	O	O	O, B-CV, B-LC, B-PS, B-TM
-27	고	O	O	O, B-CV, B-PS, B-LC, I-EV
-28	당시	O	O	O, B-CV, B-PS, B-LC, I-EV
-29	##를	O	O	O, B-CV, B-PS, B-LC, B-OG
-30	회고	O	O	O, B-CV, B-LC, B-TM, I-EV
-31	##했	O	O	O, B-PS, B-CV, B-LC, I-EV
-32	##다	O	O	O, B-CV, B-PS, B-LC, I-EV
-33	.	O	O	O, B-LC, B-PS, B-CV, I-EV
-34	[SEP]	O	O	O, B-CV, B-LC, B-PS, I-EV
+	text	label	preds
+0	[CLS]	O	O
+1	영상	B-OG	B-OG
+2	##자	I-OG	I-OG
+3	##료	I-OG	I-OG
+4	##원	I-OG	I-OG
+5	##은	O	O
+6	오	B-DT	B-DT
+7	##는	I-DT	I-DT
+8	3	I-DT	I-DT
+9	##월	I-DT	I-DT
+10	##1	I-DT	I-DT
+11	##일	I-DT	I-DT
+12	서울	B-LC	B-LC
+13	상암동	B-LC	B-LC
+14	시네마	B-AF	B-OG
+15	##테크	I-AF	I-OG
+16	코파	I-AF	I-OG
+17	(	O	O
+18	KO	B-AF	O
+19	##FA	I-AF	O
+20	)	O	O
+21	에서	O	O
+22	일반	O	O
+23	##에	O	O
+24	무료	O	O
+25	##로	O	O
+26	공개	O	O
+27	##할	O	O
+28	예정	O	O
+29	##이다	O	O
+30	.	O	O
+31	[SEP]	O	O

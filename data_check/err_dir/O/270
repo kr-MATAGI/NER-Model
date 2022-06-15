@@ -1,48 +1,47 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-AF, I-EV
-1	경기도	B-LC	B-LC	B-LC, B-OG, O, B-AF, B-PS
-2	화천	O	B-LC	B-LC, O, I-LC, B-OG, B-AF
-3	'	O	O	O, I-LC, B-LC, B-CV, I-AF
-4	이외	B-PS	B-PS	B-PS, O, B-AF, B-EV, B-OG
-5	##수	I-PS	I-PS	I-PS, O, I-AF, I-EV, I-OG
-6	집필	O	O	O, I-AF, I-PS, B-AF, I-LC
-7	##실	O	O	O, I-AF, I-LC, I-OG, I-EV
-8	'	O	O	O, I-AF, B-CV, B-LC, I-EV
-9	과	O	O	O, B-PS, B-LC, B-OG, B-AF
-10	서울	B-LC	B-LC	B-LC, O, B-OG, B-AF, B-PS
-11	광화문	B-LC	B-LC	B-LC, I-LC, O, B-AF, B-OG
-12	'	O	O	O, I-LC, I-AF, B-LC, B-CV
-13	트윈	O	B-AF	B-AF, O, B-LC, B-PS, B-OG
-14	##트리	O	I-AF	I-AF, O, I-OG, I-LC, I-PS
-15	'	O	O	O, I-AF, I-OG, B-CV, I-EV
-16	등	O	O	O, B-LC, B-PS, B-CV, B-AF
-17	##을	O	O	O, B-CV, B-PS, B-AF, B-OG
-18	설계	O	O	O, B-CV, B-FD, B-PS, B-OG
-19	##한	O	O	O, B-PS, B-CV, B-LC, I-CV
-20	조병	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-21	##수	I-PS	I-PS	I-PS, O, I-OG, I-LC, I-AF
-22	##씨	O	O	O, I-PS, B-CV, I-AF, I-OG
-23	##는	O	O	O, B-CV, B-LC, B-TM, B-PS
-24	이	O	O	O, B-PS, B-AF, B-LC, B-QT
-25	'	O	O	O, B-CV, B-LC, I-AF, B-AF
-26	땅	O	B-AF	B-AF, O, B-PS, B-LC, B-OG
-27	##집	O	I-AF	I-AF, O, I-PS, I-OG, I-LC
-28	'	O	O	O, I-AF, I-OG, I-EV, B-CV
-29	을	O	O	O, I-AF, B-CV, B-AF, B-PS
-30	비롯	O	O	O, B-CV, B-LC, B-PS, B-QT
-31	##해	O	O	O, B-QT, B-LC, I-QT, B-PS
-32	총	O	O	O, B-QT, B-LC, B-AF, I-QT
-33	3	B-QT	B-QT	B-QT, I-QT, O, I-LC, I-AF
-34	##개	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-35	##의	O	O	O, I-QT, I-AF, B-PS, I-OG
-36	건물	O	O	O, B-CV, B-AF, B-FD, B-PS
-37	##이	O	O	O, B-PS, B-CV, B-LC, B-OG
-38	자신	O	O	O, B-CV, B-PS, B-TM, B-FD
-39	##의	O	O	O, B-PS, B-CV, I-CV, I-AF
-40	대표작	O	O	O, B-FD, B-CV, B-PS, B-AF
-41	##이	O	O	O, B-PS, B-CV, I-AF, B-AF
-42	##라고	O	O	O, B-PS, B-CV, B-OG, I-AF
-43	했	O	O	O, B-CV, B-PS, B-TM, B-OG
-44	##다	O	O	O, B-CV, B-PS, I-CV, B-TM
-45	.	O	O	O, B-LC, B-PS, B-CV, B-AF
-46	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-AF
+	text	label	preds
+0	[CLS]	O	O
+1	아울러	O	O
+2	“	O	O
+3	은행	O	O
+4	##이나	O	O
+5	기업	O	O
+6	등	O	O
+7	민간	O	O
+8	##기업	O	O
+9	##들	O	O
+10	##은	O	O
+11	인턴	B-CV	B-CV
+12	##이	O	O
+13	또	O	O
+14	##하나	O	B-QT
+15	##의	O	O
+16	채용	O	O
+17	과정	O	O
+18	##이	O	O
+19	되	O	O
+20	##지	O	O
+21	않	O	O
+22	##도록	O	O
+23	정부	B-OG	B-OG
+24	##가	O	O
+25	인턴	B-CV	B-CV
+26	##을	O	O
+27	강요	O	O
+28	##하	O	O
+29	##는	O	O
+30	대신	O	O
+31	자율	O	O
+32	##로	O	O
+33	맡기	O	O
+34	##는	O	O
+35	것	O	O
+36	##이	O	O
+37	좋	O	O
+38	##다	O	O
+39	”	O	O
+40	고	O	O
+41	말	O	O
+42	##했	O	O
+43	##다	O	O
+44	.	O	O
+45	[SEP]	O	O

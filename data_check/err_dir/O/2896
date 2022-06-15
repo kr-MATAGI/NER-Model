@@ -1,19 +1,45 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, B-CV, I-OG, I-AF
-1	그럼	O	O	O, B-CV, B-PS, B-LC, B-OG
-2	지금	O	O	O, B-CV, B-PS, B-OG, B-QT
-3	물자	O	B-PS	B-PS, O, B-AM, B-CV, B-LC
-4	##라는	O	O	O, I-PS, I-CV, B-PS, I-QT
-5	수컷	O	O	O, B-AM, B-QT, B-CV, B-TM
-6	##의	O	O	O, I-CV, I-QT, B-PS, B-CV
-7	등	B-AM	B-AM	B-AM, O, B-TM, I-AM, B-TR
-8	위	B-TM	O	O, B-TM, I-TM, B-AM, I-AM
-9	##에서	O	O	O, B-PS, I-QT, I-TM, B-CV
-10	어른	O	O	O, B-CV, B-QT, B-PS, B-TM
-11	##이	O	O	O, B-PS, I-CV, B-CV, I-QT
-12	되	O	O	O, B-PS, B-CV, B-LC, B-QT
-13	##어가	O	O	O, B-CV, B-PS, I-QT, I-CV
-14	##는	O	O	O, B-CV, B-PS, B-OG, I-OG
-15	겁니까	O	O	O, B-CV, B-PS, B-OG, B-LC
-16	?	O	O	O, B-CV, B-OG, B-PS, I-OG
-17	[SEP]	O	O	O, B-CV, B-PS, B-LC, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	재즈	O	B-OG
+2	##사	O	I-OG
+3	##는	O	O
+4	현재	O	O
+5	수면	O	B-TM
+6	장애	O	I-TM
+7	치료제	O	O
+8	시장	O	O
+9	##에	O	O
+10	##서	O	O
+11	매년	O	O
+12	1	O	O
+13	##조	O	O
+14	##원	O	O
+15	이상의	O	O
+16	매출	O	O
+17	##을	O	O
+18	올리	O	O
+19	##는	O	O
+20	자이	B-AF	B-TM
+21	##렘	I-AF	I-TM
+22	##을	O	O
+23	판매	O	O
+24	중이	O	O
+25	##며	O	O
+26	,	O	O
+27	SK	B-TM	B-TM
+28	##L	I-TM	I-TM
+29	-	I-TM	I-TM
+30	N	I-TM	I-TM
+31	##0	I-TM	I-TM
+32	##5	I-TM	I-TM
+33	##를	O	O
+34	후속	O	O
+35	약물	O	O
+36	##로	O	O
+37	육성	O	O
+38	##한다	O	O
+39	##는	O	O
+40	계획	O	O
+41	##이다	O	O
+42	.	O	O
+43	[SEP]	O	O

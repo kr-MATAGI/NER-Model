@@ -1,39 +1,74 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, I-OG, B-CV, I-AF
-1	北	B-OG	B-LC	B-LC, B-OG, O, B-TM, B-AF
-2	,	O	O	O, I-OG, I-LC, I-AF, B-CV
-3	300	B-QT	B-QT	B-QT, O, I-QT, B-EV, B-DT
-4	##㎜	I-QT	I-QT	I-QT, O, I-OG, I-LC, I-EV
-5	신형	O	O	O, B-AF, B-TM, I-QT, B-CV
-6	방사	B-AF	B-AF	B-AF, O, I-AF, B-CV, B-OG
-7	##포	I-AF	I-AF	I-AF, O, I-CV, B-AF, I-TM
-8	시험	O	O	O, I-AF, B-CV, I-EV, I-CV
-9	##했	O	O	O, B-LC, I-AF, B-OG, B-CV
-10	##을	O	O	O, B-LC, B-CV, B-PS, B-OG
-11	##수도	O	O	O, B-PS, B-LC, I-LC, I-AF
-12	…	O	O	O, B-LC, B-OG, B-CV, B-PS
-13	기존	O	O	O, B-LC, B-CV, B-OG, B-PS
-14	사정	O	O	O, B-LC, B-CV, B-OG, B-PS
-15	##권	O	O	O, I-LC, B-LC, I-CV, I-PS
-16	넘어	O	O	O, B-LC, B-CV, B-TM, B-PS
-17	계룡	B-LC	B-LC	B-LC, B-AF, B-OG, O, B-PS
-18	##대	I-LC	I-LC	I-LC, I-AF, O, I-OG, I-PS
-19	##까	O	O	O, I-LC, I-AF, B-LC, I-OG
-20	##지	O	O	O, B-LC, B-OG, B-PS, I-LC
-21	(	O	O	O, B-OG, B-LC, B-CV, B-PS
-22	충남	B-LC	B-LC	B-LC, B-OG, O, B-PS, B-AF
-23	계룡	B-LC	B-LC	B-LC, B-OG, I-LC, O, B-AF
-24	##시	I-LC	I-LC	I-LC, I-OG, O, I-AF, B-LC
-25	,	O	O	O, I-LC, I-OG, I-AF, B-LC
-26	육	B-OG	B-OG	B-OG, O, B-LC, B-AF, B-EV
-27	·	I-OG	I-OG	I-OG, O, I-LC, I-EV, I-AF
-28	해	I-OG	I-OG	I-OG, O, I-LC, I-EV, B-OG
-29	·	I-OG	I-OG	I-OG, O, I-LC, I-EV, I-AF
-30	공	I-OG	I-OG	I-OG, O, B-OG, I-EV, I-LC
-31	3	B-QT	B-QT	B-QT, I-OG, B-OG, O, I-QT
-32	##군	I-QT	I-OG	I-OG, I-QT, O, I-EV, B-OG
-33	##본부	O	I-OG	I-OG, I-QT, O, I-EV, I-LC
-34	소재	O	O	O, I-OG, I-QT, I-EV, I-AF
-35	)	O	O	O, B-CV, B-LC, B-OG, I-OG
-36	위협	O	O	O, B-LC, B-CV, B-OG, B-TM
-37	[SEP]	O	O	O, B-LC, B-OG, B-CV, B-AF
+	text	label	preds
+0	[CLS]	O	O
+1	보고서	O	O
+2	##는	O	O
+3	이사회	O	O
+4	독립성	O	O
+5	강화	O	O
+6	,	O	O
+7	주주	O	B-CV
+8	##권	O	O
+9	강화	O	O
+10	,	O	O
+11	이해관계	O	B-CV
+12	##자	O	I-CV
+13	정보	O	O
+14	##공	O	O
+15	##개	O	O
+16	강화	O	O
+17	,	O	O
+18	회계	O	O
+19	·	O	O
+20	감사	O	O
+21	투명	O	O
+22	##성	O	O
+23	강화	O	O
+24	,	O	O
+25	일감	O	O
+26	##몰	O	O
+27	##아	O	O
+28	##주	O	O
+29	##기	O	O
+30	등	O	O
+31	내부	O	O
+32	##거래	O	O
+33	규제	O	O
+34	강화	O	O
+35	,	O	O
+36	중소기업	O	O
+37	보호	O	O
+38	등	O	O
+39	7	B-QT	B-QT
+40	##개	I-QT	I-QT
+41	주제	O	O
+42	##별	O	O
+43	##로	O	O
+44	상법	B-CV	B-CV
+45	,	O	O
+46	공정	B-CV	B-CV
+47	##거래	I-CV	I-CV
+48	##법	I-CV	I-CV
+49	,	O	O
+50	금융	B-CV	B-CV
+51	##관	I-CV	I-CV
+52	##련	I-CV	I-CV
+53	##법	I-CV	I-CV
+54	,	O	O
+55	세법	B-CV	B-CV
+56	등의	O	O
+57	시행령	O	O
+58	및	O	O
+59	하부	O	O
+60	규정	O	O
+61	##과	O	O
+62	관련	O	O
+63	##된	O	O
+64	36	B-QT	B-QT
+65	##개	I-QT	I-QT
+66	과제	O	O
+67	##를	O	O
+68	제시	O	O
+69	##했	O	O
+70	##다	O	O
+71	.	O	O
+72	[SEP]	O	O

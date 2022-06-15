@@ -1,30 +1,27 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	어	O	O	O, B-CV, B-LC, B-TM, B-OG
-2	그런	O	O	O, B-CV, B-LC, B-OG, B-PS
-3	##디	O	O	O, B-LC, B-PS, B-CV, I-LC
-4	다가	O	O	O, B-LC, B-PS, B-CV, B-OG
-5	그	O	O	O, B-CV, B-LC, B-PS, B-OG
-6	외할머니	B-CV	B-CV	B-CV, O, B-TM, I-CV, B-DT
-7	외할	B-CV	B-CV	B-CV, I-CV, O, B-TM, B-DT
-8	##아버지	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-TM
-9	##가	O	O	O, I-CV, I-OG, I-AF, B-CV
-10	어	O	O	O, B-CV, B-LC, B-OG, B-TM
-11	~	O	O	O, B-LC, B-CV, B-PS, I-CV
-12	저	O	O	O, B-CV, B-LC, B-PS, B-OG
-13	~	O	O	O, B-LC, B-PS, B-CV, B-OG
-14	미국	B-LC	B-LC	B-LC, B-OG, O, B-PS, B-AF
-15	외	B-OG	B-CV	B-CV, O, I-CV, B-AF, B-OG
-16	##창	I-OG	I-CV	I-CV, O, B-CV, I-OG, I-LC
-17	##조	I-OG	I-CV	I-CV, O, B-CV, I-OG, I-QT
-18	##부	I-OG	I-CV	I-CV, O, B-CV, I-OG, I-QT
-19	북한	B-LC	B-LC	B-LC, O, B-OG, I-CV, I-LC
-20	함경	B-LC	B-LC	B-LC, O, I-LC, B-OG, B-AF
-21	##도	I-LC	I-LC	I-LC, O, I-OG, B-LC, I-AF
-22	##에서	O	O	O, I-LC, I-AF, I-OG, B-LC
-23	내려	O	O	O, B-CV, B-LC, B-OG, B-TM
-24	오	O	O	O, B-CV, B-LC, B-PS, B-OG
-25	##셔	O	O	O, B-CV, B-LC, B-PS, I-AF
-26	가지	O	O	O, B-CV, B-PS, B-LC, B-OG
-27	##고	O	O	O, B-LC, B-PS, B-CV, B-OG
-28	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	자국	O	O
+2	프로	B-OG	B-OG
+3	##축구	I-OG	I-OG
+4	##리그	I-OG	I-OG
+5	##에도	O	O
+6	막대	O	O
+7	##한	O	O
+8	돈	O	O
+9	##을	O	O
+10	쏟아	O	O
+11	##붓	O	O
+12	##고	O	O
+13	있	O	O
+14	##는	O	O
+15	중국	B-OG	B-LC
+16	##도	O	O
+17	월드컵	B-EV	B-EV
+18	개최	O	O
+19	##에	O	O
+20	관심	O	O
+21	##이	O	O
+22	많	O	O
+23	##다	O	O
+24	.	O	O
+25	[SEP]	O	O

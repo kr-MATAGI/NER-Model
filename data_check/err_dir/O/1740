@@ -1,8 +1,43 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	'	O	O	O, B-CV, B-LC, B-OG, B-PS
-2	타격	O	O	O, B-CV, B-PS, B-TM, B-AF
-3	##왕	O	I-CV	I-CV, O, B-CV, I-PS, I-AF
-4	'	O	O	O, I-CV, B-CV, B-PS, I-AF
-5	이대호	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-6	[SEP]	O	O	O, I-PS, B-CV, I-AF, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	또	O	O
+2	F	B-AF	B-AF
+3	-	I-AF	I-AF
+4	35	I-AF	I-AF
+5	##A	I-AF	I-AF
+6	스텔스	B-AF	B-AF
+7	전투기	I-AF	I-AF
+8	도입	O	O
+9	,	O	O
+10	해상	B-AF	B-AF
+11	##작전	I-AF	I-AF
+12	##헬	I-AF	I-AF
+13	##기	I-AF	I-AF
+14	,	O	O
+15	해상	B-AF	B-AF
+16	##초	I-AF	I-AF
+17	##계	I-AF	I-AF
+18	##기	I-AF	I-AF
+19	-	I-AF	B-AF
+20	Ⅱ	I-AF	I-AF
+21	,	O	O
+22	장보고	B-AF	B-TM
+23	-	I-AF	I-TM
+24	Ⅱ	I-AF	I-TM
+25	/	I-AF	I-TM
+26	Ⅲ	I-AF	I-TM
+27	사업	O	I-TM
+28	등	O	O
+29	##에	O	O
+30	2	B-QT	B-QT
+31	##조	I-QT	I-QT
+32	##15	I-QT	I-QT
+33	##4	I-QT	I-QT
+34	##억	I-QT	I-QT
+35	##원	I-QT	I-QT
+36	##이	O	O
+37	반영	O	O
+38	##됐	O	O
+39	##다	O	O
+40	.	O	O
+41	[SEP]	O	O

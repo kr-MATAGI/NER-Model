@@ -1,32 +1,27 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-EV, I-OG, I-CV
-1	수원시	B-OG	B-OG	B-OG, O, B-PS, B-AF, I-OG
-2	##향	I-OG	I-OG	I-OG, O, I-LC, I-AF, I-PS
-3	##은	O	O	O, I-OG, I-AF, I-EV, B-CV
-4	먼저	O	O	O, B-DT, B-LC, B-OG, B-QT
-5	5	B-DT	B-DT	B-DT, I-DT, O, B-EV, B-QT
-6	##월	I-DT	I-DT	I-DT, B-DT, O, I-QT, I-EV
-7	##7	I-DT	I-DT	I-DT, B-DT, O, I-QT, I-EV
-8	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-OG
-9	상임	O	B-CV	B-CV, O, B-AF, B-OG, B-PS
-10	##지휘	B-CV	I-CV	I-CV, O, B-CV, I-AF, I-QT
-11	##자	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-TM
-12	김대	B-PS	B-PS	B-PS, O, I-PS, B-OG, B-AF
-13	##진	I-PS	I-PS	I-PS, O, I-OG, I-LC, I-QT
-14	##의	O	O	O, I-PS, B-CV, I-OG, I-CV
-15	지휘	O	O	O, B-CV, B-FD, B-TM, B-LC
-16	##로	O	O	O, B-PS, I-PS, I-CV, I-TR
-17	시	B-PS	B-PS	B-PS, O, B-AF, I-PS, B-OG
-18	##벨	I-PS	I-PS	I-PS, O, I-AF, B-PS, I-OG
-19	##리우스	I-PS	I-PS	I-PS, O, I-AF, B-PS, I-LC
-20	‘	O	O	O, I-PS, I-AF, B-CV, B-LC
-21	교향곡	B-AF	B-FD	B-FD, B-AF, O, I-AF, B-CV
-22	제	I-AF	B-QT	B-QT, I-AF, I-QT, I-FD, O
-23	##3	I-AF	I-QT	I-QT, I-AF, B-QT, I-TM, I-LC
-24	##번	I-AF	I-QT	I-QT, I-AF, B-QT, O, I-TM
-25	’	O	O	O, I-QT, I-AF, I-EV, B-CV
-26	을	O	O	O, B-CV, B-LC, B-OG, B-QT
-27	연주	O	O	O, B-CV, B-FD, B-EV, B-LC
-28	##한다	O	O	O, B-PS, B-CV, I-EV, B-LC
-29	.	O	O	O, B-LC, B-PS, B-OG, B-CV
-30	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	그래서	O	O
+2	그냥	O	O
+3	가장	O	O
+4	마음	O	O
+5	편하	O	O
+6	##게	O	O
+7	할	O	O
+8	##려면	O	O
+9	이제	O	O
+10	홈	O	B-TM
+11	##쇼	O	I-TM
+12	##핑	O	I-TM
+13	이제	O	O
+14	주말	B-DT	B-DT
+15	##에	O	O
+16	주로	O	O
+17	많이	O	O
+18	하	O	O
+19	##더라	O	O
+20	##구요	O	O
+21	.	O	O
+22	여행	O	O
+23	상품	O	O
+24	##이	O	O
+25	[SEP]	O	O

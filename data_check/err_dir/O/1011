@@ -1,52 +1,52 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	향후	O	O	O, B-PS, B-DT, B-OG, B-LC
-2	10	B-DT	B-DT	B-DT, I-DT, O, B-QT, B-OG
-3	##년	I-DT	I-DT	I-DT, O, B-DT, I-PS, I-QT
-4	##간	I-DT	I-DT	I-DT, O, B-DT, I-PS, I-QT
-5	이	O	O	O, B-PS, I-DT, B-QT, B-OG
-6	프로	O	B-CV	B-CV, O, I-CV, B-PS, B-EV
-7	##의	O	O	O, I-CV, B-PS, I-EV, I-PS
-8	차세대	O	O	O, B-CV, B-QT, B-PS, B-DT
-9	리더	B-CV	B-CV	B-CV, O, I-CV, B-PS, B-TM
-10	##를	O	O	O, I-CV, B-PS, B-CV, I-EV
-11	뽑	O	O	O, B-CV, B-PS, B-OG, B-LC
-12	##는	O	O	O, B-PS, B-CV, B-LC, B-OG
-13	##다는	O	O	O, B-PS, B-CV, B-OG, B-LC
-14	기치	O	O	O, B-CV, B-EV, B-PS, B-TM
-15	##를	O	O	O, I-EV, I-OG, B-PS, B-CV
-16	내걸	O	O	O, B-CV, B-PS, B-OG, B-TM
-17	##고	O	O	O, B-PS, B-OG, B-CV, I-OG
-18	,	O	O	O, B-CV, B-PS, B-OG, B-LC
-19	진짜	O	O	O, B-EV, B-CV, B-PS, B-AF
-20	선거	O	O	O, B-EV, B-CV, I-EV, B-FD
-21	비슷	O	O	O, I-EV, I-CV, B-PS, I-OG
-22	##하	O	O	O, B-PS, B-OG, B-LC, B-TM
-23	##게	O	O	O, B-PS, B-OG, B-LC, B-TM
-24	개그맨	B-CV	B-CV	B-CV, O, B-OG, B-TM, B-AF
-25	후보	B-CV	B-CV	B-CV, I-CV, O, B-TM, B-FD
-26	##들이	O	O	O, I-CV, B-CV, I-OG, I-EV
-27	공약	O	O	O, B-CV, B-TM, B-FD, I-CV
-28	##도	O	O	O, B-PS, B-CV, I-CV, B-OG
-29	내고	O	O	O, B-CV, B-PS, B-QT, B-LC
-30	,	O	O	O, B-PS, B-CV, B-LC, B-OG
-31	유세	O	O	O, B-CV, B-EV, B-TM, B-LC
-32	##도	O	O	O, I-EV, I-CV, B-PS, I-AF
-33	다니	O	O	O, B-CV, B-PS, B-LC, B-OG
-34	##고	O	O	O, B-PS, B-CV, B-LC, B-OG
-35	,	O	O	O, B-CV, B-PS, B-LC, B-OG
-36	TV	B-TM	B-TM	B-TM, O, B-AF, B-TR, B-LC
-37	##토	O	O	O, I-TM, I-EV, B-CV, B-TM
-38	##론	O	O	O, I-TM, I-EV, I-AF, I-CV
-39	##도	O	O	O, I-EV, I-AF, I-TM, I-CV
-40	하	O	O	O, B-CV, B-PS, B-OG, B-LC
-41	##는	O	O	O, B-PS, B-CV, B-LC, B-OG
-42	모습	O	O	O, B-CV, B-LC, B-OG, B-PS
-43	##이	O	O	O, B-PS, B-OG, B-CV, B-LC
-44	몇	O	O	O, B-PS, B-LC, B-OG, B-TM
-45	차례	O	O	O, B-CV, B-TM, B-LC, B-OG
-46	방송	O	O	O, B-TM, B-CV, B-OG, B-LC
-47	##됐	O	O	O, I-OG, B-CV, B-OG, I-AF
-48	##다	O	O	O, B-CV, I-OG, B-OG, B-LC
-49	.	O	O	O, B-CV, B-PS, B-LC, B-OG
-50	[SEP]	O	O	O, B-CV, B-PS, B-LC, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	이	O	O
+2	##들	O	O
+3	##은	O	O
+4	치의	B-FD	B-FD
+5	##학	I-FD	I-FD
+6	##대	O	O
+7	##학	O	O
+8	##원	O	O
+9	석	B-CV	B-CV
+10	·	I-CV	I-CV
+11	박사	I-CV	I-CV
+12	학위	B-CV	I-CV
+13	##생	I-CV	I-CV
+14	##들	O	O
+15	##에	O	O
+16	##게	O	O
+17	석사	O	B-CV
+18	##학	O	O
+19	##위	O	O
+20	##는	O	O
+21	500	B-QT	B-QT
+22	##만	I-QT	I-QT
+23	##∼	O	I-QT
+24	##15	B-QT	I-QT
+25	##00	I-QT	I-QT
+26	##만	I-QT	I-QT
+27	원	I-QT	I-QT
+28	,	O	O
+29	박사	B-CV	O
+30	##학	O	O
+31	##위	O	O
+32	##는	O	O
+33	2000	B-QT	B-QT
+34	##만	I-QT	I-QT
+35	##∼	O	I-QT
+36	##35	B-QT	I-QT
+37	##00	I-QT	I-QT
+38	##만	I-QT	I-QT
+39	원	I-QT	I-QT
+40	##을	O	O
+41	받	O	O
+42	##고	O	O
+43	대	O	O
+44	##필	O	O
+45	장사	O	O
+46	##를	O	O
+47	했	O	O
+48	##다	O	O
+49	.	O	O
+50	[SEP]	O	O

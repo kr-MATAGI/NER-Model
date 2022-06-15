@@ -1,23 +1,35 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-AF, B-CV, I-CV
-1	위성	B-TM	B-TM	B-TM, O, B-TR, I-TM, B-AF
-2	전파	O	I-TM	I-TM, O, B-TM, I-TR, I-AF
-3	수신	O	I-TM	I-TM, O, B-TM, I-TR, I-AF
-4	안테나	O	I-TM	I-TM, O, B-TM, I-TR, I-AF
-5	##를	O	O	O, I-TM, I-AF, I-OG, I-CV
-6	들	O	O	O, B-LC, B-AF, B-PS, B-CV
-7	##고	O	O	O, B-LC, I-AF, I-LC, B-PS
-8	옥상	O	O	O, B-LC, B-TM, B-CV, B-AF
-9	##과	O	O	O, I-AF, I-LC, B-PS, B-LC
-10	들판	O	O	O, B-LC, B-CV, I-LC, B-TM
-11	##을	O	O	O, B-LC, I-LC, B-PS, I-AF
-12	헤매	O	O	O, B-LC, B-CV, B-AF, B-TM
-13	##면서	O	O	O, B-LC, B-PS, B-CV, B-AF
-14	위성	B-TM	B-TM	B-TM, O, B-OG, B-CV, B-AF
-15	##과	O	O	O, I-TM, I-OG, I-AF, I-CV
-16	교신	O	O	O, B-CV, B-TM, B-EV, B-LC
-17	##을	O	O	O, B-CV, I-EV, I-OG, I-AF
-18	시도	O	O	O, B-CV, B-LC, B-TM, B-OG
-19	##한다	O	O	O, B-CV, B-LC, B-PS, B-OG
-20	.	O	O	O, B-LC, B-CV, B-PS, I-AF
-21	[SEP]	O	O	O, B-LC, B-CV, I-AF, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	2015	B-DT	B-DT
+2	##년	I-DT	I-DT
+3	6	I-DT	I-DT
+4	##월	I-DT	I-DT
+5	신시내티	B-OG	B-OG
+6	##에	O	O
+7	##서	O	O
+8	방출	O	O
+9	##된	O	O
+10	후	O	O
+11	빅	O	B-OG
+12	##리그	O	I-OG
+13	##를	O	O
+14	밟	O	O
+15	##지	O	O
+16	못	O	O
+17	##한	O	O
+18	마르	B-PS	B-PS
+19	##키	I-PS	I-PS
+20	##는	O	O
+21	WBC	B-EV	B-EV
+22	##를	O	O
+23	재기	O	O
+24	##의	O	O
+25	발판	O	O
+26	##으로	O	O
+27	삼	O	O
+28	##겠다	O	O
+29	##는	O	O
+30	각오	O	O
+31	##다	O	O
+32	.	O	O
+33	[SEP]	O	O

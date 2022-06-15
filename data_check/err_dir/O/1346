@@ -1,22 +1,18 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-EV, I-CV
-1	교육감	B-CV	B-CV	B-CV, O, B-OG, I-CV, B-EV
-2	##들	O	O	O, I-CV, I-OG, I-EV, I-AF
-3	##은	O	O	O, B-CV, B-OG, B-LC, I-EV
-4	정부	B-OG	B-OG	B-OG, O, B-LC, B-AF, B-PS
-5	##와	O	O	O, I-OG, I-AF, B-OG, I-EV
-6	새	B-OG	B-OG	B-OG, O, I-OG, B-LC, B-PS
-7	##누리	I-OG	I-OG	I-OG, O, B-OG, I-AF, I-LC
-8	##당	I-OG	I-OG	I-OG, O, I-LC, I-AF, I-EV
-9	##이	O	O	O, I-OG, B-PS, I-EV, B-CV
-10	민심	O	O	O, B-CV, I-OG, I-EV, I-AF
-11	##에	O	O	O, B-CV, B-PS, B-LC, B-OG
-12	귀	O	B-AM	B-AM, O, B-TR, B-TM, B-PS
-13	##를	O	O	O, I-AF, I-EV, I-QT, B-CV
-14	기울여야	O	O	O, B-CV, B-LC, B-PS, B-OG
-15	한다고	O	O	O, B-CV, B-LC, B-OG, B-PS
-16	촉구	O	O	O, B-CV, B-OG, B-LC, B-TM
-17	##했	O	O	O, B-CV, I-OG, B-PS, B-LC
-18	##다	O	O	O, B-CV, I-OG, B-LC, I-EV
-19	.	O	O	O, B-CV, B-OG, B-LC, B-PS
-20	[SEP]	O	O	O, B-CV, I-OG, B-OG, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	나중	O	O
+2	##에	O	O
+3	##는	O	O
+4	커서	O	O
+5	열심히	O	O
+6	해서	O	O
+7	꼭	O	O
+8	멋지	O	O
+9	##게	O	O
+10	골	O	B-TM
+11	##을	O	O
+12	넣	O	O
+13	##고	O	O
+14	싶어요	O	O
+15	.	O	O
+16	[SEP]	O	O

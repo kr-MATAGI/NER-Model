@@ -1,12 +1,78 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	공여	B-CV	B-CV	B-CV, O, I-CV, B-QT, B-AM
-2	##자	I-CV	O	O, I-CV, B-CV, I-QT, I-AM
-3	##가	O	O	O, I-CV, B-PS, I-QT, I-OG
-4	아니	O	O	O, B-CV, B-PS, B-LC, B-OG
-5	##다	O	O	O, I-OG, I-CV, B-PS, I-AF
-6	피해자	B-CV	B-CV	B-CV, O, B-OG, B-PS, B-TM
-7	##다	O	O	O, I-CV, I-OG, I-QT, I-AF
-8	삼성	B-OG	B-OG	B-OG, B-LC, O, B-PS, B-AF
-9	##은	O	O	O, I-OG, I-AF, I-CV, B-CV
-10	[SEP]	O	O	O, B-CV, I-OG, I-AF, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	검찰	B-OG	B-OG
+2	##이	O	O
+3	서울시	B-EV	B-LC
+4	공무원	I-EV	B-CV
+5	간첩	I-EV	I-EV
+6	##사건	I-EV	I-EV
+7	피고인	B-CV	B-CV
+8	유우	B-PS	B-PS
+9	##성	I-PS	I-PS
+10	(	O	O
+11	류	B-PS	B-PS
+12	##자	I-PS	I-PS
+13	##강	I-PS	I-PS
+14	·	O	O
+15	34	B-QT	B-QT
+16	)	O	O
+17	씨	O	O
+18	##가	O	O
+19	북한	B-LC	B-LC
+20	국가	B-OG	B-OG
+21	##안전	I-OG	I-OG
+22	##보	I-OG	I-OG
+23	##위	I-OG	I-OG
+24	##부	I-OG	I-OG
+25	##에	O	O
+26	노트북	B-TM	B-TM
+27	##컴	B-TM	I-TM
+28	##퓨	I-TM	I-TM
+29	##터	I-TM	I-TM
+30	##를	O	O
+31	건넨	O	O
+32	혐의	O	O
+33	(	O	O
+34	국가	B-CV	B-CV
+35	##보	I-CV	I-CV
+36	##안	I-CV	I-CV
+37	##법	I-CV	I-CV
+38	##상	O	O
+39	편의	O	O
+40	제공	O	O
+41	)	O	O
+42	를	O	O
+43	뒷받침	O	O
+44	##할	O	O
+45	새로운	O	O
+46	증거	O	O
+47	##를	O	O
+48	확보	O	O
+49	##했	O	O
+50	##다	O	O
+51	##며	O	O
+52	항소심	O	O
+53	재판부	O	O
+54	##인	O	O
+55	서울	B-OG	B-OG
+56	##고	I-OG	I-OG
+57	##법	I-OG	I-OG
+58	형사	O	O
+59	##7	O	O
+60	##부	O	O
+61	(	O	O
+62	부장	B-CV	B-CV
+63	##판	I-CV	O
+64	##사	I-CV	I-CV
+65	김흥	B-PS	B-PS
+66	##준	I-PS	I-PS
+67	)	O	O
+68	에	O	O
+69	변론	O	O
+70	재개	O	O
+71	##를	O	O
+72	신청	O	O
+73	##했	O	O
+74	##다	O	O
+75	.	O	O
+76	[SEP]	O	O

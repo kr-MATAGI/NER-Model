@@ -1,18 +1,16 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	연예인	O	B-CV	B-CV, O, I-CV, B-OG, B-PS
-2	##들이	O	O	O, I-CV, B-CV, I-OG, I-AF
-3	빌딩	O	O	O, B-AF, B-CV, B-LC, B-TM
-4	##을	O	O	O, I-AF, I-CV, B-PS, B-CV
-5	뭐	O	O	O, B-PS, B-CV, I-AF, B-LC
-6	샀	O	O	O, B-CV, B-PS, B-LC, B-QT
-7	##니	O	O	O, B-PS, I-PS, I-CV, I-AF
-8	가졌	O	O	O, B-CV, B-PS, B-LC, B-TM
-9	##니	O	O	O, B-PS, I-CV, I-PS, I-LC
-10	이런	O	O	O, B-CV, B-TM, B-PS, B-LC
-11	이야기	O	O	O, B-CV, B-TM, B-PS, I-CV
-12	##들	O	O	O, B-CV, B-PS, I-CV, B-OG
-13	많이	O	O	O, B-CV, B-OG, B-TM, B-QT
-14	나오	O	O	O, B-CV, B-TM, B-OG, B-LC
-15	##잖아요	O	O	O, B-CV, B-OG, B-TM, B-LC
-16	[SEP]	O	O	O, B-CV, B-PS, B-LC, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	대중	O	B-CV
+2	##들	O	O
+3	##에	O	O
+4	마음	O	O
+5	##을	O	O
+6	사로잡	O	O
+7	##기	O	O
+8	##도	O	O
+9	쉽	O	O
+10	##지	O	O
+11	않	O	O
+12	##은	O	O
+13	##데	O	O
+14	[SEP]	O	O

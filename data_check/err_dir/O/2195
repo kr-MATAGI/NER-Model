@@ -1,26 +1,18 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-AF
-1	20	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-2	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-3	동안	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-4	시행착오	O	O	O, B-TM, I-DT, B-EV, B-OG
-5	##를	O	O	O, I-OG, B-CV, I-EV, I-AF
-6	겪	O	O	O, B-OG, B-CV, B-LC, B-PS
-7	##은	O	O	O, B-OG, B-LC, B-CV, B-PS
-8	삼성	B-OG	B-OG	B-OG, O, B-AF, B-LC, B-PS
-9	야구단	O	I-OG	I-OG, O, B-OG, I-AF, I-EV
-10	##은	O	O	O, I-OG, I-AF, I-EV, B-CV
-11	성적	O	O	O, B-CV, I-OG, B-TM, I-AF
-12	##을	O	O	O, B-CV, B-OG, B-TM, B-LC
-13	내	O	O	O, B-CV, B-TM, B-LC, B-PS
-14	##며	O	O	O, B-LC, B-PS, B-TM, B-CV
-15	1	B-QT	B-TR	B-TR, O, B-QT, B-PS, I-TR
-16	##등	I-QT	I-TR	I-TR, O, I-QT, B-TR, I-PS
-17	##주의	O	I-TR	I-TR, O, I-QT, B-TR, I-PS
-18	##의	O	O	O, I-TR, I-QT, B-PS, I-PS
-19	전도사	B-CV	B-CV	B-CV, O, B-PS, B-OG, B-QT
-20	##가	O	O	O, I-CV, I-OG, I-QT, I-AF
-21	됐	O	O	O, B-CV, B-QT, B-LC, B-TM
-22	##다	O	O	O, B-CV, I-OG, I-CV, I-QT
-23	.	O	O	O, B-CV, B-OG, B-PS, B-LC
-24	[SEP]	O	O	O, B-CV, I-OG, B-OG, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	모두	O	O
+2	과학	B-FD	B-FD
+3	및	O	O
+4	공학	B-FD	B-FD
+5	박사	B-CV	B-CV
+6	##인	O	O
+7	동시	O	O
+8	##에	O	O
+9	트리	B-TR	B-TR
+10	##즈	I-TR	I-TR
+11	최고	O	B-CV
+12	##수	O	I-CV
+13	##들이	O	O
+14	##다	O	O
+15	.	O	O
+16	[SEP]	O	O

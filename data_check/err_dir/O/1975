@@ -1,23 +1,16 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	한국	B-LC	B-LC	B-LC, B-OG, O, B-PS, B-CV
-2	##은	O	O	O, I-OG, I-LC, I-AF, I-CV
-3	거론	O	O	O, B-CV, B-TM, B-LC, I-OG
-4	##하	O	O	O, B-LC, B-PS, B-OG, B-CV
-5	##지	O	O	O, B-LC, B-OG, B-CV, B-PS
-6	않	O	O	O, B-LC, B-CV, B-PS, I-OG
-7	##았	O	O	O, B-LC, B-CV, B-OG, I-OG
-8	##으나	O	O	O, B-LC, B-CV, B-TM, B-PS
-9	조선	O	B-LC	B-LC, B-OG, O, B-PS, B-AF
-10	(	O	O	O, I-OG, I-LC, I-AF, I-CV
-11	북한	B-LC	B-LC	B-LC, B-OG, O, I-LC, B-PS
-12	)	O	O	O, I-OG, I-LC, I-AF, I-CV
-13	에	O	O	O, B-LC, I-LC, B-PS, B-CV
-14	관한	O	O	O, B-LC, B-PS, B-OG, B-CV
-15	내용	O	O	O, B-CV, B-LC, B-OG, B-FD
-16	##은	O	O	O, B-CV, B-OG, B-LC, B-PS
-17	눈길	O	O	O, B-CV, B-TM, B-OG, B-LC
-18	##을	O	O	O, B-CV, I-OG, B-OG, I-CV
-19	끈다	O	O	O, B-CV, B-LC, B-OG, B-TM
-20	.	O	O	O, B-LC, B-CV, B-OG, B-PS
-21	[SEP]	O	O	O, B-CV, B-LC, B-OG, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	7	B-QT	B-QT
+2	##살	I-QT	I-QT
+3	딸아이	O	B-CV
+4	##도	O	O
+5	아빠	B-CV	B-CV
+6	##는	O	O
+7	‘	O	O
+8	주말	B-DT	B-DT
+9	손님	B-CV	B-CV
+10	’	O	O
+11	이	O	O
+12	##다	O	O
+13	.	O	O
+14	[SEP]	O	O

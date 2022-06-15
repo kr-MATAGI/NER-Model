@@ -1,22 +1,31 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-QT
-1	4	B-EV	B-EV	B-EV, O, B-QT, B-OG, B-LC
-2	##강	I-EV	I-EV	I-EV, I-QT, O, B-EV, I-AF
-3	진출	O	O	O, I-EV, B-CV, I-OG, B-OG
-4	팀	O	O	O, B-OG, B-CV, B-LC, B-TM
-5	중	O	O	O, B-TM, B-LC, B-PS, B-CV
-6	첼시	O	B-OG	B-OG, B-LC, O, B-PS, I-OG
-7	##만	O	O	O, I-OG, I-LC, I-PS, I-AF
-8	빼	O	O	O, B-PS, B-OG, I-OG, B-LC
-9	##고	O	O	O, B-PS, B-LC, B-OG, I-OG
-10	모두	O	O	O, B-QT, B-PS, B-OG, B-LC
-11	챔피언	B-OG	B-EV	B-EV, B-OG, O, B-CV, B-AF
-12	##스	I-OG	I-EV	I-EV, I-OG, O, I-CV, I-AF
-13	##리그	I-OG	I-EV	I-EV, I-OG, O, I-CV, I-AF
-14	우승	O	O	O, I-EV, I-OG, B-CV, I-AF
-15	경험	O	O	O, B-CV, B-TM, I-EV, B-LC
-16	##이	O	O	O, B-PS, B-CV, B-OG, B-LC
-17	있	O	O	O, B-CV, B-TM, I-OG, I-AF
-18	##다	O	O	O, B-CV, B-TM, I-OG, B-QT
-19	.	O	O	O, B-CV, B-LC, B-OG, B-PS
-20	[SEP]	O	O	O, B-CV, B-TM, B-OG, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	그	O	O
+2	사이	O	O
+3	호날두	B-PS	B-PS
+4	##는	O	O
+5	포르투갈	B-OG	B-OG
+6	대표	I-OG	I-OG
+7	##팀	I-OG	I-OG
+8	##을	O	O
+9	월드컵	B-EV	B-EV
+10	본선	B-EV	B-EV
+11	##으로	O	O
+12	이	O	O
+13	##끈	O	O
+14	활약	O	O
+15	등	O	O
+16	##으로	O	O
+17	지난해	B-DT	B-DT
+18	피파	B-OG	B-CV
+19	발	B-CV	I-CV
+20	##롱	I-CV	I-CV
+21	##도르	I-CV	I-CV
+22	##를	O	O
+23	손	B-AM	B-AM
+24	##에	O	O
+25	쥐	O	O
+26	##었	O	O
+27	##다	O	O
+28	.	O	O
+29	[SEP]	O	O

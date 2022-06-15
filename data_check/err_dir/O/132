@@ -1,31 +1,44 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-QT
-1	지금	O	O	O, B-CV, B-OG, B-TM, B-QT
-2	##은	O	O	O, B-CV, B-PS, B-OG, B-LC
-3	전자	B-CV	B-CV	B-CV, O, B-FD, B-TR, B-OG
-4	##감독	I-CV	I-CV	I-CV, O, B-CV, I-TR, I-OG
-5	##은	O	O	O, I-CV, I-OG, I-QT, B-CV
-6	이미	O	O	O, B-QT, B-OG, B-CV, B-TM
-7	육	B-QT	B-QT	B-QT, I-QT, O, B-DT, B-TI
-8	##분	I-QT	I-QT	I-QT, O, B-QT, I-DT, I-LC
-9	##에	I-QT	I-QT	I-QT, B-QT, O, I-LC, I-DT
-10	일	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-OG
-11	정도	I-QT	I-QT	I-QT, O, I-LC, I-DT, I-OG
-12	##까	O	I-QT	I-QT, O, I-DT, I-LC, B-QT
-13	##지	O	O	O, I-QT, B-QT, I-DT, I-TI
-14	감소	O	O	O, I-QT, B-QT, B-CV, B-TM
-15	##시	O	O	O, I-QT, B-CV, I-OG, B-PS
-16	##킬	O	O	O, B-CV, B-PS, B-TM, B-OG
-17	수	O	O	O, B-CV, B-QT, B-PS, B-TM
-18	있	O	O	O, B-CV, B-QT, B-PS, B-TM
-19	##다는	O	O	O, B-CV, B-PS, B-OG, I-QT
-20	거	O	O	O, B-CV, B-OG, B-PS, B-LC
-21	##는	O	O	O, B-CV, B-OG, B-PS, B-LC
-22	확인	O	O	O, B-CV, B-TM, B-QT, B-OG
-23	##을	O	O	O, B-CV, B-PS, I-OG, B-OG
-24	됐	O	O	O, B-CV, B-PS, B-OG, B-LC
-25	##어요	O	O	O, B-CV, B-OG, B-LC, I-OG
-26	.	O	O	O, B-CV, B-LC, B-PS, B-OG
-27	사실	O	O	O, B-CV, B-QT, B-TM, B-LC
-28	.	O	O	O, B-CV, B-OG, B-LC, B-PS
-29	[SEP]	O	O	O, B-CV, B-LC, B-QT, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	'	O	O
+2	100	B-QT	B-QT
+3	##인	I-QT	I-QT
+4	##의	O	I-AF
+5	배우	B-CV	I-AF
+6	…	O	I-AF
+7	'	O	O
+8	오디오	O	O
+9	북	O	O
+10	100	B-QT	B-QT
+11	##편	I-QT	I-QT
+12	##은	O	O
+13	한국	B-OG	B-OG
+14	##연	I-OG	I-OG
+15	##극	I-OG	I-OG
+16	##인	I-OG	I-OG
+17	##복지	I-OG	I-OG
+18	##재단	I-OG	I-OG
+19	##과	O	O
+20	EBS	B-OG	B-OG
+21	,	O	O
+22	커뮤니케이션	B-OG	B-OG
+23	##북	I-OG	I-OG
+24	##스	I-OG	I-OG
+25	출판사	O	I-OG
+26	##가	O	O
+27	2014	B-DT	B-DT
+28	##년	I-DT	I-DT
+29	##부터	I-DT	I-DT
+30	제작	O	O
+31	##하	O	O
+32	##기	O	O
+33	시작	O	O
+34	##해	O	O
+35	이번	O	O
+36	##에	O	O
+37	마무리	O	O
+38	##를	O	O
+39	지은	O	O
+40	것	O	O
+41	.	O	O
+42	[SEP]	O	O

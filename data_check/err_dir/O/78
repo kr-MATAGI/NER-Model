@@ -1,47 +1,33 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-AF, I-CV, B-CV
-1	이	O	O	O, B-AF, B-CV, B-LC, B-PS
-2	상가	O	O	O, B-AF, B-CV, B-LC, I-AF
-3	##는	O	O	O, B-LC, I-AF, B-CV, B-OG
-4	동	B-AF	B-AF	B-AF, B-LC, O, B-PS, B-OG
-5	##익	I-AF	I-AF	I-AF, O, I-LC, I-PS, B-AF
-6	##미	I-AF	I-AF	I-AF, I-LC, O, I-PS, I-OG
-7	##라	I-AF	I-AF	I-AF, I-LC, O, I-PS, I-OG
-8	##벨	I-AF	I-AF	I-AF, I-LC, O, I-PS, I-OG
-9	아파트	I-AF	I-AF	I-AF, O, I-LC, B-AF, I-OG
-10	1	B-QT	B-QT	B-QT, I-AF, O, I-QT, B-DT
-11	##층	I-QT	I-QT	I-QT, I-AF, O, I-LC, I-EV
-12	부분	O	O	O, I-QT, I-AF, B-TM, I-TM
-13	##에	O	O	O, B-CV, B-LC, B-OG, I-QT
-14	들어서	O	O	O, B-CV, B-OG, B-LC, B-AF
-15	##며	O	O	O, I-AF, B-LC, B-AF, B-QT
-16	아파트	O	O	O, B-AF, B-CV, I-AF, B-LC
-17	##와	O	O	O, B-LC, I-AF, B-CV, B-AF
-18	상가	O	O	O, B-AF, B-LC, B-CV, I-AF
-19	일대	O	O	O, B-LC, B-TM, B-CV, I-AF
-20	##는	O	O	O, B-LC, B-OG, B-PS, B-CV
-21	한국	B-OG	B-OG	B-OG, B-LC, O, B-AF, I-OG
-22	##토	I-OG	I-OG	I-OG, O, I-LC, B-OG, I-AF
-23	##지	I-OG	I-OG	I-OG, O, I-LC, I-AF, I-EV
-24	##주택	I-OG	I-OG	I-OG, O, I-LC, I-AF, I-EV
-25	##공사	I-OG	I-OG	I-OG, O, I-LC, I-AF, I-PS
-26	(	O	O	O, I-OG, I-DT, B-LC, I-EV
-27	LH	B-OG	B-OG	B-OG, O, I-OG, B-AF, B-LC
-28	)	O	O	O, I-OG, I-DT, I-EV, I-CV
-29	의	O	O	O, B-OG, B-LC, I-OG, B-PS
-30	현상	O	O	O, B-CV, B-LC, B-FD, B-PS
-31	##설	O	O	O, B-FD, I-FD, I-CV, B-CV
-32	##계	O	O	O, I-FD, I-CV, B-FD, B-LC
-33	공모	O	O	O, B-LC, B-CV, B-FD, B-PS
-34	##를	O	O	O, B-LC, B-CV, B-OG, B-PS
-35	통해	O	O	O, B-LC, B-OG, B-TM, B-CV
-36	유럽	O	B-LC	B-LC, O, B-OG, B-PS, I-LC
-37	##형	O	O	O, I-LC, I-PS, I-OG, I-AF
-38	특화	O	O	O, B-LC, I-LC, B-CV, B-OG
-39	##지역	O	O	O, I-LC, B-LC, I-QT, I-AF
-40	##으로	O	O	O, B-LC, B-OG, B-CV, B-PS
-41	조성	O	O	O, B-LC, B-OG, B-CV, B-TM
-42	##됐	O	O	O, B-LC, B-CV, B-OG, I-OG
-43	##다	O	O	O, B-CV, B-LC, B-OG, I-OG
-44	.	O	O	O, B-LC, B-OG, B-CV, B-PS
-45	[SEP]	O	O	O, B-LC, B-OG, B-CV, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	하지	O	O
+2	##만	O	O
+3	안	B-PS	B-PS
+4	후보자	B-CV	B-CV
+5	##는	O	O
+6	뒤	O	O
+7	##이	O	O
+8	##어	O	O
+9	""""	O	O
+10	(	O	O
+11	청와대	B-OG	B-OG
+12	##로	O	O
+13	##부터	O	O
+14	)	O	O
+15	며칠	O	O
+16	전	O	O
+17	,	O	O
+18	일주일	B-DT	B-DT
+19	정도	I-DT	I-DT
+20	전	O	I-DT
+21	##에	O	O
+22	질의	O	O
+23	##가	O	O
+24	왔	O	O
+25	##다	O	O
+26	""""	O	O
+27	고	O	O
+28	했	O	O
+29	##다	O	O
+30	.	O	O
+31	[SEP]	O	O

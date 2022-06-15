@@ -1,36 +1,57 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	풀무원	B-OG	B-OG	B-OG, O, B-LC, I-OG, B-AF
-2	,	O	O	O, I-OG, B-OG, I-AF, B-CV
-3	CJ	B-OG	B-OG	B-OG, O, I-OG, B-LC, B-AF
-4	,	O	O	O, I-OG, B-OG, I-AF, I-CV
-5	동원	B-OG	B-OG	B-OG, I-OG, O, B-AF, B-LC
-6	##F	I-OG	I-OG	I-OG, O, B-OG, I-AF, I-LC
-7	&	I-OG	I-OG	I-OG, O, B-OG, I-AF, I-LC
-8	B	I-OG	I-OG	I-OG, O, B-OG, I-AF, I-LC
-9	등	O	O	O, I-OG, B-OG, B-CV, I-AF
-10	다른	O	O	O, B-CV, B-TM, B-AF, B-OG
-11	포장	O	O	O, B-CV, B-TM, B-AF, B-OG
-12	##김치	O	B-CV	B-CV, O, I-CV, B-PT, B-TM
-13	업체	O	O	O, I-CV, B-CV, I-OG, I-AF
-14	##들	O	O	O, I-CV, B-CV, I-OG, B-PS
-15	##도	O	O	O, B-CV, B-LC, B-OG, B-TM
-16	10	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-OG
-17	##∼	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-OG
-18	##20	I-QT	I-QT	I-QT, B-QT, O, I-LC, I-OG
-19	%	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-OG
-20	가격	O	O	O, I-QT, B-CV, B-TM, I-CV
-21	##을	O	O	O, B-CV, B-OG, B-TM, I-QT
-22	인상	O	O	O, B-CV, B-TM, B-LC, B-OG
-23	##할	O	O	O, B-PS, B-OG, B-CV, B-LC
-24	예정	O	O	O, B-CV, B-TM, B-OG, B-PS
-25	##으로	O	O	O, B-CV, B-LC, B-PS, B-OG
-26	인상	O	O	O, B-CV, B-LC, B-TM, B-OG
-27	시기	O	O	O, B-LC, B-OG, B-CV, B-PS
-28	##를	O	O	O, B-CV, B-LC, B-OG, B-PS
-29	저울질	O	O	O, B-CV, B-LC, B-TM, B-OG
-30	##하고	O	O	O, B-CV, B-LC, B-OG, B-PS
-31	있	O	O	O, B-CV, B-LC, B-OG, B-PS
-32	##다	O	O	O, B-CV, B-TM, B-OG, I-OG
-33	.	O	O	O, B-OG, B-LC, B-CV, B-PS
-34	[SEP]	O	O	O, B-CV, B-OG, B-LC, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	멕시코	B-LC	B-LC
+2	##가	O	O
+3	포함	O	O
+4	##된	O	O
+5	남미	O	B-LC
+6	신흥	O	O
+7	##국	O	O
+8	주식	O	O
+9	##은	O	O
+10	9	B-QT	B-QT
+11	.	I-QT	I-QT
+12	82	I-QT	I-QT
+13	%	I-QT	I-QT
+14	수익	O	O
+15	##률	O	O
+16	##을	O	O
+17	기록	O	O
+18	##했	O	O
+19	##고	O	O
+20	나이지리아	B-LC	B-LC
+21	##와	O	O
+22	남아공	B-LC	B-LC
+23	##이	O	O
+24	포함	O	O
+25	##된	O	O
+26	글로벌	O	O
+27	신흥	O	O
+28	##국	O	O
+29	,	O	O
+30	베트남	B-LC	B-LC
+31	##이	O	O
+32	포함	O	O
+33	##된	O	O
+34	아시아	B-LC	B-LC
+35	신흥	O	O
+36	##국	O	O
+37	펀드	O	O
+38	##의	O	O
+39	수익	O	O
+40	##률	O	O
+41	##은	O	O
+42	각각	B-QT	B-QT
+43	7	I-QT	I-QT
+44	.	I-QT	I-QT
+45	83	I-QT	I-QT
+46	%	I-QT	I-QT
+47	,	O	O
+48	8	B-QT	B-QT
+49	.	I-QT	I-QT
+50	01	I-QT	I-QT
+51	%	I-QT	I-QT
+52	였	O	O
+53	##다	O	O
+54	.	O	O
+55	[SEP]	O	O

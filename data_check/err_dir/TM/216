@@ -1,31 +1,56 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-QT
-1	구원	O	B-CV	B-CV, O, B-TM, B-OG, B-PS
-2	투수	B-CV	I-CV	I-CV, B-CV, O, I-TM, I-OG
-3	고	B-PS	B-PS	B-PS, O, I-PS, B-OG, B-CV
-4	##효	I-PS	I-PS	I-PS, O, I-OG, B-PS, I-CV
-5	##준	I-PS	I-PS	I-PS, O, I-OG, I-LC, I-QT
-6	##의	O	O	O, I-PS, B-CV, B-TM, I-OG
-7	폭	B-TM	B-TM	B-TM, O, B-CV, B-TR, B-QT
-8	##투	I-TM	I-TM	I-TM, O, I-CV, I-QT, I-TR
-9	때	O	O	O, I-TM, B-TM, I-QT, I-EV
-10	3	B-TM	B-TM	B-TM, B-CV, O, I-TM, B-AF
-11	##루	I-TM	I-TM	I-TM, I-CV, O, I-QT, I-AF
-12	주자	B-CV	B-CV	B-CV, I-CV, O, I-TM, I-QT
-13	황	B-PS	B-PS	B-PS, O, I-PS, B-OG, B-CV
-14	##목	I-PS	I-PS	I-PS, O, I-OG, B-PS, I-LC
-15	##치	I-PS	I-PS	I-PS, O, B-PS, I-LC, I-OG
-16	##승	I-PS	I-PS	I-PS, O, I-LC, I-OG, B-LC
-17	##이	O	O	O, I-PS, B-CV, B-TM, B-LC
-18	홈	B-TM	O	O, B-TM, B-LC, I-TM, B-CV
-19	##을	O	O	O, I-TM, B-CV, B-TM, I-CV
-20	밟	O	O	O, B-TM, I-TM, B-CV, B-LC
-21	##아	O	O	O, I-TM, I-QT, I-LC, B-QT
-22	한	B-QT	B-QT	B-QT, O, I-QT, B-TM, B-LC
-23	점	I-QT	I-QT	I-QT, O, I-LC, I-TM, B-QT
-24	##을	O	O	O, I-QT, B-CV, I-OG, I-CV
-25	더	O	O	O, B-QT, B-TM, B-CV, B-DT
-26	따라갔	O	O	O, B-QT, I-QT, B-TM, B-OG
-27	##다	O	O	O, B-CV, I-QT, B-QT, B-TM
-28	.	O	O	O, B-TM, B-PS, B-CV, B-QT
-29	[SEP]	O	O	O, B-TM, B-CV, I-TM, B-QT
+	text	label	preds
+0	[CLS]	O	O
+1	G	B-AF	B-AF
+2	##3	I-AF	I-AF
+3	##는	O	O
+4	5	B-QT	B-QT
+5	.	I-QT	I-QT
+6	5	I-QT	I-QT
+7	##인	I-QT	I-QT
+8	##치	I-QT	I-QT
+9	크기	O	O
+10	##의	O	O
+11	Q	B-TM	B-TM
+12	##HD	I-TM	I-TM
+13	디스플레이	O	I-TM
+14	외	O	O
+15	##에도	O	O
+16	퀄컴	B-OG	B-OG
+17	##의	O	O
+18	스냅	B-AF	B-TM
+19	##드래	I-AF	I-TM
+20	##건	I-AF	I-TM
+21	##80	I-AF	I-TM
+22	##1	I-AF	I-TM
+23	프로세서	O	I-TM
+24	##에	O	O
+25	3	B-QT	B-QT
+26	##기	I-QT	I-QT
+27	##가	I-QT	I-QT
+28	##바이트	I-QT	I-QT
+29	(	O	O
+30	GB	O	O
+31	)	O	O
+32	램	B-TM	B-TM
+33	,	O	O
+34	32	B-QT	B-QT
+35	##G	I-QT	I-QT
+36	##B	I-QT	I-QT
+37	##의	O	O
+38	저장	O	O
+39	##공간	O	O
+40	,	O	O
+41	1300	B-QT	B-QT
+42	##만	I-QT	I-QT
+43	화소	I-QT	O
+44	후면	O	B-TM
+45	카메라	B-TM	I-TM
+46	##를	O	O
+47	장착	O	O
+48	##한	O	O
+49	것	O	O
+50	##으로	O	O
+51	알려졌	O	O
+52	##다	O	O
+53	.	O	O
+54	[SEP]	O	O

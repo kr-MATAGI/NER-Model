@@ -1,12 +1,35 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-AF
-1	대부분	O	O	O, B-CV, B-QT, B-TM, B-OG
-2	##이	O	O	O, B-PS, B-CV, B-OG, B-LC
-3	보호	B-CV	O	O, B-CV, I-CV, B-TM, B-TR
-4	##처분	I-CV	O	O, I-CV, B-CV, I-TM, I-TR
-5	##으로	O	O	O, I-CV, I-OG, I-AF, B-PS
-6	가	O	O	O, B-CV, B-OG, B-PS, B-QT
-7	##죠	O	O	O, B-CV, I-OG, I-AF, I-CV
-8	왜	O	O	O, B-CV, I-AF, B-OG, B-LC
-9	?	O	O	O, B-CV, B-OG, B-LC, B-TM
-10	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	아	B-OG	B-OG
+2	##너	I-OG	I-OG
+3	10	B-DT	B-DT
+4	##주	I-DT	I-DT
+5	##년	I-DT	I-DT
+6	행사장	O	O
+7	##에	O	O
+8	##서	O	O
+9	만났	O	O
+10	##던	O	O
+11	배우	B-CV	B-CV
+12	김보	B-PS	B-PS
+13	##성	I-PS	I-PS
+14	(	O	O
+15	51	B-QT	B-QT
+16	)	O	O
+17	은	O	O
+18	자신	O	O
+19	##을	O	O
+20	'	O	O
+21	나눔	O	B-CV
+22	·	O	I-CV
+23	의리	O	I-CV
+24	계몽	B-CV	I-CV
+25	##운동	I-CV	I-CV
+26	##가	I-CV	I-CV
+27	'	O	O
+28	라고	O	O
+29	소개	O	O
+30	##했	O	O
+31	##다	O	O
+32	.	O	O
+33	[SEP]	O	O

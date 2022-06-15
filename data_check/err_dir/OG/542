@@ -1,27 +1,36 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	13	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-PS
-2	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-3	현재	O	O	O, I-DT, B-CV, B-PS, B-QT
-4	고	B-PS	B-PS	B-PS, O, I-PS, B-LC, B-OG
-5	##씨	O	O	O, I-PS, B-CV, I-CV, I-LC
-6	##를	O	O	O, B-CV, B-PS, I-CV, I-PS
-7	포함	O	O	O, B-CV, B-PS, B-QT, B-TM
-8	##해	O	O	O, B-PS, B-LC, B-QT, B-OG
-9	21	B-QT	B-QT	B-QT, O, I-QT, B-PS, B-DT
-10	##명	I-QT	I-QT	I-QT, O, I-PS, I-LC, I-DT
-11	##의	O	O	O, I-QT, B-PS, I-PS, B-CV
-12	젊은이	O	O	O, B-CV, B-PS, I-CV, B-TM
-13	##가	O	O	O, B-PS, I-CV, I-PS, B-CV
-14	'	O	O	O, B-LC, B-OG, B-CV, B-TM
-15	잡	B-OG	B-TM	B-TM, B-OG, O, B-AF, B-LC
-16	##월드	I-OG	I-TM	I-TM, I-OG, O, I-AF, I-LC
-17	'	O	O	O, I-TM, I-OG, I-AF, I-QT
-18	에서	O	O	O, B-CV, B-PS, B-LC, B-AF
-19	일자리	O	O	O, B-CV, B-TM, B-AF, B-LC
-20	##를	O	O	O, B-CV, B-PS, I-CV, I-AF
-21	찾	O	O	O, B-CV, B-PS, B-TM, B-OG
-22	##았	O	O	O, B-PS, B-CV, I-CV, I-AF
-23	##다	O	O	O, B-CV, B-PS, I-CV, B-TM
-24	.	O	O	O, B-CV, B-PS, B-LC, B-TM
-25	[SEP]	O	O	O, B-CV, B-PS, B-TM, I-CV
+	text	label	preds
+0	[CLS]	O	O
+1	고분	B-OG	B-OG
+2	##문화	I-OG	I-OG
+3	##연구	I-OG	I-OG
+4	##회	I-OG	I-OG
+5	등	O	O
+6	16	B-QT	B-QT
+7	##개	I-QT	I-QT
+8	역사학	B-OG	O
+9	##회	I-OG	O
+10	##가	O	O
+11	""""	O	O
+12	서성	O	O
+13	##벽	O	O
+14	존재	O	O
+15	가능	O	O
+16	##성	O	O
+17	##은	O	O
+18	재판부	B-OG	O
+19	##가	O	O
+20	판단	O	O
+21	##할	O	O
+22	일	O	O
+23	##이	O	O
+24	아니	O	O
+25	##다	O	O
+26	""""	O	O
+27	라며	O	O
+28	성명서	O	O
+29	##를	O	O
+30	발표	O	O
+31	##했	O	O
+32	##다	O	O
+33	.	O	O
+34	[SEP]	O	O

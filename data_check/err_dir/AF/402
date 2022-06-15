@@ -1,50 +1,22 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	세월	B-AF	B-EV	B-EV, B-AF, B-PS, B-LC, I-EV
-2	##호	I-AF	I-EV	I-EV, I-AF, I-PS, I-LC, O
-3	침몰	O	I-EV	I-EV, I-AF, O, I-LC, I-OG
-4	사고	O	I-EV	I-EV, O, I-AF, I-LC, I-OG
-5	21	B-DT	B-DT	B-DT, I-DT, I-EV, O, I-AF
-6	##일	I-DT	I-DT	I-DT, O, B-DT, I-EV, I-QT
-7	##째	I-DT	I-DT	I-DT, O, B-DT, I-EV, I-QT
-8	##인	O	O	O, I-DT, B-CV, I-EV, I-AF
-9	6	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-10	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
-11	,	O	O	O, I-DT, B-CV, I-EV, I-AF
-12	피로	O	O	O, B-TM, B-LC, B-CV, B-PS
-13	##가	O	O	O, B-PS, B-LC, B-OG, B-CV
-14	누적	O	O	O, B-CV, B-LC, B-TM, B-PS
-15	##된	O	O	O, B-PS, B-LC, B-CV, B-OG
-16	기존	O	O	O, B-CV, B-LC, B-PS, B-TM
-17	민간	O	O	O, B-CV, B-OG, B-AF, B-LC
-18	잠수	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-AF
-19	##사	I-CV	I-CV	I-CV, O, B-CV, I-AF, I-OG
-20	##들	O	O	O, I-CV, I-AF, I-QT, I-OG
-21	##의	O	O	O, B-CV, B-PS, B-LC, B-TM
-22	대체	O	O	O, B-CV, B-TM, B-PS, B-AM
-23	##인	O	O	O, I-CV, B-CV, B-PS, I-TM
-24	##력	O	O	O, I-CV, B-CV, I-TM, I-QT
-25	##으로	O	O	O, B-CV, I-CV, B-PS, B-LC
-26	투입	O	O	O, B-CV, B-TM, B-LC, B-OG
-27	##됐	O	O	O, B-CV, B-PS, B-LC, B-OG
-28	##던	O	O	O, B-CV, B-LC, B-PS, B-TM
-29	잠수	B-CV	B-CV	B-CV, O, B-TM, B-AF, B-OG
-30	##사	I-CV	I-CV	I-CV, O, B-CV, I-AF, I-TM
-31	이광	B-PS	B-PS	B-PS, O, I-PS, B-OG, B-QT
-32	##욱	I-PS	I-PS	I-PS, O, I-OG, I-QT, I-LC
-33	(	O	O	O, I-PS, I-OG, B-CV, I-AF
-34	53	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-TM
-35	)	O	O	O, I-QT, I-OG, I-EV, I-DT
-36	씨	O	O	O, B-CV, I-QT, B-LC, B-PS
-37	##가	O	O	O, B-CV, B-PS, B-LC, B-TM
-38	수색	O	O	O, B-CV, B-TM, B-LC, B-EV
-39	##작	O	O	O, B-LC, B-CV, I-EV, I-LC
-40	##업	O	O	O, B-LC, I-LC, B-PS, I-EV
-41	##에	O	O	O, B-CV, B-LC, B-PS, B-OG
-42	참여	O	O	O, B-CV, B-LC, B-OG, B-TM
-43	##한	O	O	O, B-LC, B-CV, B-PS, B-OG
-44	첫날	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-45	숨졌	O	O	O, I-DT, B-CV, I-EV, I-QT
-46	##다	O	O	O, B-CV, B-TM, B-LC, I-EV
-47	.	O	O	O, B-LC, B-CV, B-PS, B-TM
-48	[SEP]	O	O	O, B-CV, B-LC, B-TM, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	'	O	O
+2	앤드	B-AF	B-AF
+3	##업	I-AF	I-AF
+4	바가지	I-AF	I-AF
+5	머리	I-AF	O
+6	'	O	O
+7	는	O	O
+8	디자이너	B-CV	B-CV
+9	'	O	O
+10	민영	B-PS	B-PS
+11	'	O	O
+12	의	O	O
+13	정감	O	O
+14	##가	O	O
+15	##는	O	O
+16	부	O	O
+17	##티	O	O
+18	##크	O	O
+19	.	O	O
+20	[SEP]	O	O

@@ -1,19 +1,32 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	네	O	O	O, B-CV, B-QT, B-TM, B-OG
-2	.	O	O	O, B-CV, B-PS, I-QT, I-OG
-3	일단	O	O	O, B-CV, B-AF, B-PS, B-FD
-4	우리	O	O	O, B-AF, I-AF, B-FD, B-CV
-5	풀어	B-AF	O	O, I-AF, B-AF, B-FD, B-CV
-6	##듣	I-AF	O	O, I-AF, I-FD, B-FD, I-PS
-7	##는	I-AF	O	O, I-AF, I-FD, B-FD, B-PS
-8	문화	I-AF	O	O, I-AF, B-FD, B-CV, B-AF
-9	##이	I-AF	O	O, I-AF, I-FD, B-FD, I-CV
-10	##야	I-AF	O	O, I-AF, I-FD, I-CV, B-FD
-11	##기	I-AF	O	O, I-AF, I-FD, I-CV, B-FD
-12	한	B-QT	O	O, B-QT, B-TI, B-DT, B-PS
-13	번	I-QT	O	O, I-QT, B-QT, I-LC, I-TI
-14	들어가	O	O	O, I-QT, B-CV, B-TM, B-OG
-15	볼까요	O	O	O, B-CV, B-QT, I-QT, B-TM
-16	?	O	O	O, B-CV, B-PS, B-OG, B-LC
-17	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-AF
+	text	label	preds
+0	[CLS]	O	O
+1	이	O	O
+2	장치	O	O
+3	##를	O	O
+4	무단	O	O
+5	##으로	O	O
+6	해체	O	O
+7	##한	O	O
+8	업자	O	B-CV
+9	##는	O	O
+10	자동차	B-AF	B-CV
+11	##관리	O	I-CV
+12	##법	O	I-CV
+13	##에	O	O
+14	따라	O	O
+15	3	B-DT	B-DT
+16	##년	I-DT	I-DT
+17	이하	I-DT	I-DT
+18	징역	B-CV	B-CV
+19	또는	O	O
+20	3000	B-QT	B-QT
+21	##만	I-QT	I-QT
+22	원	I-QT	I-QT
+23	이하	I-QT	I-QT
+24	벌금형	B-CV	B-CV
+25	##을	O	O
+26	받	O	O
+27	##는	O	O
+28	##다	O	O
+29	.	O	O
+30	[SEP]	O	O

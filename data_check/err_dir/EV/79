@@ -1,65 +1,46 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-EV, B-CV, I-CV, I-OG
-1	최	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
-2	##구	I-PS	I-PS	I-PS, O, I-OG, B-PS, I-LC
-3	##식	I-PS	I-PS	I-PS, O, I-OG, I-LC, B-PS
-4	한나라당	B-OG	B-OG	B-OG, B-LC, I-PS, B-AF, O
-5	의원	B-CV	B-CV	B-CV, O, I-CV, I-OG, I-EV
-6	수행	B-CV	B-CV	B-CV, O, I-CV, B-FD, B-OG
-7	##비	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-EV
-8	##서	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-EV
-9	##의	O	O	O, I-CV, I-EV, I-OG, I-QT
-10	중앙선	B-OG	B-OG	B-OG, B-EV, O, B-AF, B-CV
-11	##거	I-OG	I-OG	I-OG, I-EV, O, I-AF, B-OG
-12	##관리위원회	I-OG	I-OG	I-OG, I-EV, O, I-AF, I-TM
-13	누리집	O	O	O, I-EV, I-OG, B-TM, I-TM
-14	디	B-TM	B-TM	B-TM, O, I-TM, B-CV, B-TR
-15	##도	I-TM	I-TM	I-TM, O, I-TR, I-CV, I-EV
-16	##스	I-TM	I-TM	I-TM, O, I-CV, I-TR, I-EV
-17	(	O	O	O, I-TM, I-EV, I-CV, I-OG
-18	DD	O	B-TM	B-TM, O, I-TM, B-CV, B-TR
-19	##o	O	I-TM	I-TM, O, I-TR, I-CV, I-AF
-20	##S	O	I-TM	I-TM, O, I-CV, I-TR, I-AF
-21	·	O	O	O, I-TM, I-EV, I-CV, I-OG
-22	분산	B-TM	O	O, B-CV, B-TM, B-TR, B-EV
-23	##서비스	I-TM	O	O, I-TM, I-CV, I-TR, I-EV
-24	##거	I-TM	O	O, I-TM, I-CV, I-TR, I-EV
-25	##부	I-TM	O	O, I-TM, I-CV, I-TR, I-OG
-26	)	O	O	O, I-EV, I-CV, I-TM, I-TR
-27	공격	O	O	O, I-EV, B-EV, B-CV, B-PS
-28	사태	O	O	O, I-EV, B-EV, B-CV, B-PS
-29	##에	O	O	O, I-EV, B-CV, B-PS, B-LC
-30	대한	O	O	O, B-LC, B-PS, B-OG, B-EV
-31	수사	O	O	O, B-CV, B-LC, B-OG, B-PS
-32	##가	O	O	O, B-PS, B-LC, B-OG, B-CV
-33	윗선	O	O	O, B-TM, B-LC, B-CV, B-PS
-34	##으로	O	O	O, B-PS, B-LC, B-CV, I-EV
-35	번지	O	O	O, B-LC, B-CV, B-PS, B-OG
-36	##면서	O	O	O, B-LC, B-PS, B-OG, I-EV
-37	,	O	O	O, B-LC, B-CV, B-EV, B-OG
-38	‘	O	O	O, B-EV, B-LC, B-CV, B-OG
-39	디	B-EV	B-TM	B-TM, O, B-EV, B-CV, B-TR
-40	##도	I-EV	I-TM	I-TM, O, I-EV, I-TR, I-CV
-41	##스	I-EV	I-TM	I-TM, O, I-EV, I-TR, I-CV
-42	사태	I-EV	O	O, I-EV, I-TM, B-EV, I-AF
-43	’	O	O	O, I-EV, B-PS, B-LC, I-DT
-44	가	O	O	O, B-PS, B-LC, B-OG, I-EV
-45	19	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-PS
-46	##일	I-DT	I-DT	I-DT, O, B-DT, I-PS, I-EV
-47	출범	O	O	O, I-DT, B-CV, B-EV, I-EV
-48	##하	O	O	O, B-PS, B-LC, B-OG, I-EV
-49	##는	O	O	O, B-PS, B-LC, B-OG, B-DT
-50	한나라당	B-OG	B-OG	B-OG, O, B-PS, B-EV, B-LC
-51	‘	O	O	O, I-OG, I-EV, I-DT, B-CV
-52	박근혜	B-PS	B-PS	B-PS, O, B-OG, B-EV, B-AF
-53	비대위	O	O	O, B-CV, I-PS, I-EV, I-OG
-54	체제	O	O	O, I-CV, I-EV, I-OG, I-PS
-55	’	O	O	O, I-EV, I-CV, B-PS, I-OG
-56	의	O	O	O, B-LC, B-OG, B-PS, B-CV
-57	첫째	B-QT	B-QT	B-QT, O, I-QT, B-EV, B-DT
-58	과제	O	O	O, I-QT, I-EV, B-CV, I-DT
-59	##로	O	O	O, B-CV, B-LC, B-OG, B-EV
-60	떠올랐	O	O	O, B-LC, B-CV, B-EV, B-OG
-61	##다	O	O	O, B-CV, I-EV, B-LC, I-QT
-62	.	O	O	O, B-LC, B-CV, B-PS, B-EV
-63	[SEP]	O	O	O, B-LC, B-CV, I-EV, B-EV
+	text	label	preds
+0	[CLS]	O	O
+1	요즘	O	O
+2	정치	O	O
+3	##권	O	O
+4	최대	O	O
+5	이슈	O	O
+6	##인	O	O
+7	'	O	O
+8	국정원	B-EV	B-EV
+9	정치	I-EV	I-EV
+10	·	I-EV	I-EV
+11	선거	I-EV	I-EV
+12	개입	I-EV	I-EV
+13	의혹	I-EV	I-EV
+14	사건	I-EV	I-EV
+15	'	O	O
+16	'	O	O
+17	남북	B-EV	B-EV
+18	정상	I-EV	I-EV
+19	##회	I-EV	I-EV
+20	##담	I-EV	I-EV
+21	대화	I-EV	I-EV
+22	##록	I-EV	I-EV
+23	실종	I-EV	I-EV
+24	'	I-EV	O
+25	사건	I-EV	O
+26	,	O	O
+27	'	O	O
+28	전두환	B-EV	B-EV
+29	전	I-EV	I-EV
+30	대통령	I-EV	I-EV
+31	추징금	I-EV	I-EV
+32	집행	I-EV	I-EV
+33	사건	I-EV	I-EV
+34	'	O	O
+35	등	O	O
+36	##을	O	O
+37	모두	O	O
+38	2	O	O
+39	##차	O	O
+40	##장이	O	O
+41	지휘	O	O
+42	##한다	O	O
+43	.	O	O
+44	[SEP]	O	O

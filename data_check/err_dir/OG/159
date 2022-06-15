@@ -1,28 +1,38 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	신라면	B-OG	B-AF	B-AF, B-OG, O, B-LC, B-TM
-2	##세	I-OG	I-OG	I-OG, I-AF, O, B-AF, I-TM
-3	##점	I-OG	I-OG	I-OG, I-AF, O, I-TM, I-LC
-4	역시	O	O	O, I-AF, I-OG, I-EV, B-CV
-5	지난해	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-6	매출액	O	O	O, I-DT, B-CV, B-TM, B-LC
-7	##이	O	O	O, B-PS, B-OG, B-TM, B-CV
-8	2	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-LC
-9	##조	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-10	##61	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-11	##23	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-12	##억	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-13	원	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-14	##으로	O	O	O, I-QT, B-CV, B-OG, B-TM
-15	전년	B-DT	B-DT	B-DT, O, B-QT, I-DT, B-EV
-16	##보	O	O	O, I-DT, I-QT, I-EV, B-CV
-17	##다	O	O	O, B-QT, I-DT, I-QT, B-TM
-18	25	B-QT	B-QT	B-QT, I-QT, O, B-DT, B-LC
-19	.	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-20	2	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-21	%	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-22	늘	O	O	O, I-QT, B-CV, I-OG, B-TM
-23	##었	O	O	O, I-QT, B-CV, I-OG, I-AF
-24	##다	O	O	O, B-CV, B-TM, B-OG, I-OG
-25	.	O	O	O, B-CV, B-OG, B-LC, B-TM
-26	[SEP]	O	O	O, B-CV, B-TM, B-OG, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	울산	B-LC	B-LC
+2	장	B-LC	B-LC
+3	##생	I-LC	I-LC
+4	##포	I-LC	I-LC
+5	##는	O	O
+6	러시아	B-LC	B-LC
+7	태평양	B-LC	B-OG
+8	포	B-OG	I-OG
+9	##경	I-OG	I-OG
+10	##회사	I-OG	I-OG
+11	##가	O	O
+12	1899	B-DT	B-DT
+13	##년	I-DT	I-DT
+14	태평양	B-LC	B-LC
+15	일대	O	O
+16	##에	O	O
+17	##서	O	O
+18	잡	O	O
+19	##은	O	O
+20	고래	B-AM	B-AM
+21	##를	O	O
+22	해체	O	O
+23	##하	O	O
+24	##는	O	O
+25	장소	O	O
+26	##로	O	O
+27	선정	O	O
+28	##하면	O	O
+29	##서	O	O
+30	포	O	O
+31	##경기	O	O
+32	##지가	O	O
+33	됐	O	O
+34	##다	O	O
+35	.	O	O
+36	[SEP]	O	O

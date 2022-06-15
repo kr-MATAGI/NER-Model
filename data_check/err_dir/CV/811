@@ -1,26 +1,14 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-EV
-1	이	O	O	O, B-CV, B-PS, B-OG, B-AF
-2	책	O	O	O, B-AF, B-CV, B-FD, B-PS
-3	##의	O	O	O, B-CV, B-PS, B-LC, I-AF
-4	백미	B-CV	O	O, B-QT, B-CV, B-PS, B-FD
-5	(	O	O	O, I-QT, I-CV, I-AF, I-OG
-6	白	O	O	O, B-CV, B-LC, B-QT, B-TM
-7	[UNK]	O	O	O, B-LC, B-CV, B-PS, B-OG
-8	)	O	O	O, B-CV, B-LC, B-PS, B-OG
-9	는	O	O	O, B-CV, B-LC, B-OG, B-PS
-10	'	O	O	O, B-CV, B-LC, B-TM, B-QT
-11	밥	B-CV	B-CV	B-CV, O, B-PT, B-AF, I-CV
-12	'	O	O	O, I-CV, I-AF, B-CV, I-EV
-13	을	O	O	O, B-CV, B-PS, B-LC, B-TM
-14	주제	O	O	O, B-CV, B-PS, B-FD, B-LC
-15	##로	O	O	O, B-PS, B-CV, B-LC, B-OG
-16	한	O	O	O, B-QT, B-LC, B-PS, B-DT
-17	제	B-QT	B-QT	B-QT, O, I-QT, B-EV, B-DT
-18	##1	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-EV
-19	##부	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-EV
-20	##에	O	O	O, I-QT, I-OG, I-EV, I-AF
-21	있	O	O	O, B-CV, I-QT, B-LC, B-TM
-22	##다	O	O	O, B-CV, B-LC, B-OG, B-TM
-23	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-24	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-FD
+	text	label	preds
+0	[CLS]	O	O
+1	우리	O	O
+2	name	O	O
+3	##2	O	O
+4	##는	O	O
+5	브이	O	O
+6	##알	O	O
+7	##에	O	O
+8	##서	O	O
+9	알바	B-CV	O
+10	하	O	O
+11	##잖아	O	O
+12	[SEP]	O	O

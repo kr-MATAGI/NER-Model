@@ -1,9 +1,16 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, I-AF, B-CV
-1	한국	B-LC	B-LC	B-LC, B-OG, O, B-AF, B-PS
-2	##의	O	O	O, I-LC, I-AF, I-OG, I-PS
-3	차	O	B-CV	B-CV, O, B-AF, B-PT, B-EV
-4	##그림	O	O	O, I-AF, I-CV, I-FD, B-FD
-5	다	O	O	O, B-FD, B-QT, B-TR, B-TM
-6	##화	O	O	O, I-FD, I-TR, I-QT, I-AF
-7	[SEP]	O	O	O, I-AF, I-FD, I-QT, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	바리	O	B-CV
+2	##톤	O	I-CV
+3	둘	B-QT	B-QT
+4	뭐	O	O
+5	뭐	O	O
+6	또	O	O
+7	뭐	O	O
+8	##지	O	O
+9	?	O	O
+10	뭐	O	O
+11	##라	O	O
+12	그러	O	O
+13	##니	O	O
+14	[SEP]	O	O

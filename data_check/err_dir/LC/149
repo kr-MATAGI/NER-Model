@@ -1,47 +1,40 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-EV, I-OG, I-CV
-1	안성	B-LC	B-LC	B-LC, B-OG, O, B-PS, I-LC
-2	##시	I-LC	I-LC	I-LC, O, B-LC, I-OG, I-PS
-3	사	B-LC	B-AF	B-AF, B-LC, O, B-OG, B-PS
-4	##곡	I-LC	I-AF	I-AF, I-LC, O, I-OG, I-PS
-5	##당	I-LC	I-AF	I-AF, I-LC, O, I-OG, I-PS
-6	태평	B-AF	I-AF	I-AF, B-AF, O, I-LC, B-LC
-7	##무	I-AF	I-AF	I-AF, O, I-LC, I-PS, I-PT
-8	전수	I-AF	I-AF	I-AF, O, B-AF, I-LC, I-OG
-9	##관	I-AF	I-AF	I-AF, O, I-LC, I-OG, I-EV
-10	##에서	O	O	O, I-AF, I-EV, I-OG, I-LC
-11	##는	O	O	O, B-LC, B-CV, B-OG, B-AF
-12	중요	B-AF	B-AF	B-AF, O, B-CV, B-FD, I-AF
-13	##무	I-AF	I-AF	I-AF, O, I-CV, I-FD, I-OG
-14	##형	I-AF	I-AF	I-AF, O, I-CV, I-FD, I-TM
-15	##문화재	I-AF	I-AF	I-AF, O, I-CV, I-TM, I-QT
-16	92	I-AF	I-AF	I-AF, B-QT, I-QT, O, I-TM
-17	##호	I-AF	I-AF	I-AF, I-QT, O, I-TM, I-LC
-18	##인	O	O	O, I-AF, I-QT, I-TM, I-CV
-19	태평	B-FD	B-AF	B-AF, B-PT, I-AF, O, B-AM
-20	##무	I-FD	I-AF	I-AF, I-PT, O, I-AM, I-FD
-21	##가	O	O	O, I-AF, I-EV, I-CV, I-DT
-22	다음	B-DT	B-DT	B-DT, I-DT, O, B-QT, B-CV
-23	##달	I-DT	I-DT	I-DT, O, B-DT, I-AF, I-QT
-24	17	I-DT	I-DT	I-DT, B-DT, O, I-AF, I-QT
-25	##일	I-DT	I-DT	I-DT, O, B-DT, I-AF, I-QT
-26	##부터	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-AF
-27	매주	O	O	O, I-DT, B-DT, B-LC, B-CV
-28	토요일	B-DT	B-DT	B-DT, I-DT, O, B-LC, B-TI
-29	무료	O	O	O, B-CV, B-EV, B-TM, B-LC
-30	상설	O	O	O, B-EV, B-CV, B-LC, B-TM
-31	##공	O	O	O, I-EV, I-LC, I-CV, I-AF
-32	##연	O	O	O, I-EV, I-LC, I-CV, B-LC
-33	##마당	O	O	O, I-EV, I-LC, I-CV, I-TM
-34	##을	O	O	O, I-EV, B-CV, B-LC, B-PS
-35	통해	O	O	O, B-LC, B-CV, B-OG, B-TM
-36	일반	O	O	O, B-CV, B-LC, B-TM, B-FD
-37	시민	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-AF
-38	##들	O	O	O, I-CV, B-CV, I-EV, I-AF
-39	##에	O	O	O, B-CV, B-LC, B-TM, B-OG
-40	##게	O	O	O, B-CV, B-LC, B-TM, B-QT
-41	첫선	O	O	O, B-CV, B-LC, B-TM, B-QT
-42	##을	O	O	O, B-CV, B-OG, B-PS, I-EV
-43	보인다	O	O	O, B-CV, B-OG, B-LC, B-QT
-44	.	O	O	O, B-LC, B-CV, B-AF, B-PS
-45	[SEP]	O	O	O, B-LC, B-CV, I-AF, B-AF
+	text	label	preds
+0	[CLS]	O	O
+1	콘	B-PS	B-PS
+2	##돌	I-PS	I-PS
+3	##리	I-PS	I-PS
+4	##자	I-PS	I-PS
+5	라이스	I-PS	I-PS
+6	당시	O	O
+7	미국	B-LC	B-LC
+8	국무	B-CV	B-CV
+9	##장	I-CV	I-CV
+10	##관	I-CV	I-CV
+11	##은	O	O
+12	6	B-EV	B-EV
+13	##자	I-EV	I-EV
+14	##회	I-EV	I-EV
+15	##담	I-EV	I-EV
+16	미국	B-OG	B-OG
+17	측	O	O
+18	수석대표	B-CV	B-CV
+19	##였	O	O
+20	##던	O	O
+21	크리스토퍼	B-PS	B-PS
+22	힐	I-PS	I-PS
+23	미	B-LC	B-LC
+24	국무부	B-OG	B-OG
+25	동아시아	B-LC	B-LC
+26	##태평양	B-LC	O
+27	##담	O	O
+28	##당	O	O
+29	차관보	B-CV	B-CV
+30	##에	O	O
+31	##게	O	O
+32	전화	O	O
+33	##를	O	O
+34	걸	O	O
+35	##었	O	O
+36	##다	O	O
+37	.	O	O
+38	[SEP]	O	O

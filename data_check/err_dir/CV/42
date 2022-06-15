@@ -1,54 +1,36 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	국토	B-OG	B-OG	B-OG, O, B-LC, B-CV, B-AF
-2	##부	I-OG	I-OG	I-OG, O, I-CV, I-EV, I-AF
-3	##는	O	O	O, I-OG, B-CV, I-EV, I-AF
-4	행복	O	O	O, B-CV, B-AF, B-TM, B-LC
-5	##주택	O	O	O, I-CV, I-AF, I-TM, I-LC
-6	##에	O	O	O, I-AF, I-CV, B-PS, I-OG
-7	입주	O	O	O, B-CV, B-AF, B-TM, B-LC
-8	##할	O	O	O, B-PS, B-CV, I-AF, B-LC
-9	때	O	O	O, B-CV, B-TM, B-PS, B-LC
-10	주택	O	O	O, B-CV, B-TM, B-AF, B-LC
-11	청약	O	O	O, I-CV, B-CV, I-TM, I-AF
-12	##을	O	O	O, I-CV, B-CV, B-PS, I-AF
-13	할	O	O	O, B-CV, B-LC, B-TM, B-PS
-14	필요	O	O	O, B-TM, B-CV, B-LC, B-QT
-15	##는	O	O	O, B-LC, B-CV, B-TM, B-OG
-16	없	O	O	O, B-CV, B-LC, B-TM, B-PS
-17	##지만	O	O	O, B-CV, B-TM, I-AF, B-AF
-18	행복	O	O	O, B-CV, B-AF, B-TM, B-LC
-19	##주택	O	O	O, I-AF, I-CV, I-TM, I-LC
-20	##이	O	O	O, B-PS, I-AF, B-AF, B-LC
-21	앞	O	O	O, B-TM, B-AF, B-LC, B-AM
-22	##으로	O	O	O, B-PS, B-AF, I-AF, B-CV
-23	집	O	O	O, B-AF, I-AF, B-CV, B-LC
-24	##을	O	O	O, I-AF, B-CV, B-PS, I-CV
-25	장만	O	O	O, B-CV, B-TM, B-LC, I-AF
-26	##할	O	O	O, B-PS, B-LC, B-CV, B-OG
-27	수	O	O	O, B-PS, B-LC, B-CV, B-TM
-28	있	O	O	O, B-CV, B-PS, B-LC, B-TM
-29	##는	O	O	O, B-CV, B-LC, B-PS, B-TM
-30	‘	O	O	O, B-CV, B-LC, B-QT, B-OG
-31	징검다리	O	O	O, B-AF, B-LC, B-TM, B-PS
-32	’	O	O	O, I-AF, B-CV, I-CV, B-PS
-33	구실	O	O	O, B-LC, B-CV, B-TM, B-PS
-34	##을	O	O	O, B-CV, B-PS, B-OG, B-TM
-35	하도	O	O	O, B-CV, B-LC, B-TM, B-OG
-36	##록	O	O	O, B-CV, B-LC, B-OG, B-TM
-37	하	O	O	O, B-CV, B-PS, B-OG, B-LC
-38	##기	O	O	O, B-PS, B-CV, B-OG, B-LC
-39	위해	O	O	O, B-CV, B-PS, B-OG, B-LC
-40	청약	B-CV	O	O, B-CV, B-TM, B-OG, I-CV
-41	##저축	I-CV	O	O, I-CV, I-TM, B-CV, I-AF
-42	가입	O	O	O, I-CV, I-TM, B-CV, I-AF
-43	##을	O	O	O, B-CV, I-CV, B-PS, B-OG
-44	요건	O	O	O, B-CV, B-TM, B-OG, B-LC
-45	##으로	O	O	O, B-CV, B-OG, B-LC, B-PS
-46	했	O	O	O, B-CV, B-OG, B-LC, B-PS
-47	##다고	O	O	O, B-CV, I-OG, I-CV, B-OG
-48	설명	O	O	O, B-CV, B-OG, B-TM, B-LC
-49	##했	O	O	O, B-CV, I-OG, B-OG, I-CV
-50	##다	O	O	O, B-CV, I-OG, B-TM, I-CV
-51	.	O	O	O, B-CV, B-LC, B-PS, B-OG
-52	[SEP]	O	O	O, B-CV, B-LC, B-PS, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	야외	O	O
+2	수영장	O	O
+3	##인	O	O
+4	서울	B-LC	B-LC
+5	한강	B-LC	B-LC
+6	##시	I-LC	I-LC
+7	##민	I-LC	I-LC
+8	##공원	I-LC	I-LC
+9	수영장	O	O
+10	##도	O	O
+11	작년	B-CV	B-DT
+12	방문객	I-CV	B-CV
+13	56	B-QT	B-QT
+14	##만	I-QT	I-QT
+15	##99	I-QT	I-QT
+16	##20	I-QT	I-QT
+17	##명	I-QT	I-QT
+18	##보	O	O
+19	##다	O	O
+20	20	B-QT	B-QT
+21	##만	I-QT	I-QT
+22	##명	I-QT	I-QT
+23	줄어든	O	O
+24	36	B-QT	B-QT
+25	##만	I-QT	I-QT
+26	##59	I-QT	I-QT
+27	##67	I-QT	I-QT
+28	##명	I-QT	I-QT
+29	##만	I-QT	I-QT
+30	찾	O	O
+31	##았	O	O
+32	##다	O	O
+33	.	O	O
+34	[SEP]	O	O

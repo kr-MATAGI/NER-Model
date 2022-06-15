@@ -1,34 +1,38 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-EV, I-OG, I-CV, I-QT
-1	4	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-2	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-AF
-3	(	O	O	O, I-DT, B-LC, B-CV, I-EV
-4	현지	O	O	O, B-LC, B-CV, B-PS, B-EV
-5	##시	O	O	O, B-CV, B-LC, B-PS, I-EV
-6	##각	O	O	O, B-LC, B-CV, B-PS, I-EV
-7	)	O	O	O, B-LC, B-OG, B-PS, B-CV
-8	웨일	B-LC	B-LC	B-LC, O, B-OG, B-AF, B-PS
-9	##스	I-LC	I-LC	I-LC, O, I-AF, B-LC, I-OG
-10	뉴	I-LC	B-LC	B-LC, I-LC, O, B-AF, I-AF
-11	##포트	I-LC	I-LC	I-LC, I-AF, O, I-OG, B-LC
-12	##의	O	O	O, I-LC, B-LC, I-AF, I-OG
-13	셀	B-AF	B-AF	B-AF, B-OG, B-LC, O, B-PS
-14	##틱	I-AF	I-AF	I-AF, I-LC, I-OG, O, I-PS
-15	##매	I-AF	I-AF	I-AF, I-LC, I-OG, O, B-LC
-16	##너	I-AF	I-AF	I-AF, I-LC, I-OG, O, B-LC
-17	##리	I-AF	I-AF	I-AF, I-LC, I-OG, O, I-PS
-18	##조	I-AF	I-AF	I-AF, I-LC, I-OG, O, I-PS
-19	##트	I-AF	I-AF	I-AF, I-LC, I-OG, O, I-PS
-20	##의	O	O	O, I-AF, I-LC, I-OG, I-EV
-21	트	B-AF	B-AF	B-AF, B-LC, O, B-OG, I-AF
-22	##웬	I-AF	I-AF	I-AF, I-LC, O, I-OG, B-AF
-23	##티	I-AF	I-AF	I-AF, I-LC, O, I-OG, I-PS
-24	##텐	I-AF	I-AF	I-AF, I-LC, O, I-OG, I-PS
-25	##코스	I-AF	I-AF	I-AF, I-LC, O, I-OG, I-PS
-26	##에서	O	O	O, I-AF, I-LC, I-EV, I-OG
-27	열린	O	O	O, B-CV, I-EV, B-EV, B-LC
-28	대회	O	O	O, B-EV, I-EV, B-CV, B-LC
-29	마지막	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-30	##날	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
-31	.	O	O	O, I-DT, I-EV, B-CV, I-QT
-32	[SEP]	O	O	O, B-LC, B-CV, I-EV, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	북한	B-OG	B-OG
+2	##이	O	O
+3	13	B-DT	B-DT
+4	##일	I-DT	I-DT
+5	비무장	B-EV	B-EV
+6	##지대	I-EV	I-EV
+7	(	I-EV	I-EV
+8	DMZ	I-EV	I-EV
+9	)	I-EV	I-EV
+10	지뢰	I-EV	I-EV
+11	폭발	I-EV	I-EV
+12	사건	I-EV	I-EV
+13	##이	O	O
+14	북한	B-LC	B-OG
+15	##의	O	O
+16	소행	O	O
+17	##이	O	O
+18	##라는	O	O
+19	우리	O	O
+20	군	B-OG	B-OG
+21	당국	O	O
+22	##의	O	O
+23	발표	O	O
+24	##를	O	O
+25	“	O	O
+26	모	O	O
+27	##략	O	O
+28	##극	O	O
+29	”	O	O
+30	이라	O	O
+31	##며	O	O
+32	부인	O	O
+33	##했	O	O
+34	##다	O	O
+35	.	O	O
+36	[SEP]	O	O

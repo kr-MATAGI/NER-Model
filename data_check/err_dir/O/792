@@ -1,13 +1,52 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-AF
-1	[	O	O	O, B-OG, B-LC, B-CV, B-PS
-2	한겨레	O	B-OG	B-OG, O, B-AF, B-PS, B-CV
-3	프리	O	O	O, I-OG, I-AF, B-TR, B-CV
-4	##즘	O	O	O, I-OG, I-TR, I-AF, I-CV
-5	]	O	O	O, I-OG, I-AF, I-EV, B-LC
-6	지방	B-EV	B-EV	B-EV, O, B-CV, B-LC, B-OG
-7	##선거	I-EV	I-EV	I-EV, O, B-EV, I-AF, I-LC
-8	관전	O	O	O, I-EV, B-CV, B-PS, B-LC
-9	##법	O	O	O, I-CV, B-CV, I-AF, I-EV
-10	?	O	O	O, B-CV, B-LC, B-OG, I-AF
-11	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-AF
+	text	label	preds
+0	[CLS]	O	O
+1	함께	O	O
+2	발굴	O	O
+3	##된	O	O
+4	5	B-TI	B-TI
+5	##분	I-TI	I-TI
+6	분량	O	I-TI
+7	##의	O	O
+8	‘	O	O
+9	황해	B-LC	B-EV
+10	##도	I-LC	I-EV
+11	축산	O	I-EV
+12	##공	O	I-EV
+13	##진	O	I-EV
+14	##회	O	I-EV
+15	영상	O	I-EV
+16	’	O	O
+17	(	O	O
+18	제목	O	O
+19	미	O	O
+20	##상	O	O
+21	)	O	O
+22	은	O	O
+23	1924	B-DT	B-DT
+24	##년	I-DT	I-DT
+25	10	I-DT	I-DT
+26	##월	I-DT	I-DT
+27	황해	B-LC	B-LC
+28	##도	I-LC	I-LC
+29	사리	B-LC	B-LC
+30	##원	I-LC	I-LC
+31	##에	O	O
+32	##서	O	O
+33	열린	O	O
+34	공	O	B-AF
+35	##진	O	I-AF
+36	##회	O	I-AF
+37	##장	O	I-AF
+38	거리	O	O
+39	##를	O	O
+40	달리	O	O
+41	##는	O	O
+42	자동차	B-AF	B-AF
+43	##에	O	O
+44	##서	O	O
+45	촬영	O	O
+46	##한	O	O
+47	영상	O	O
+48	##이다	O	O
+49	.	O	O
+50	[SEP]	O	O

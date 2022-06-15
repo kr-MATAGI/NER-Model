@@ -1,36 +1,60 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	남	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
-2	##선	I-PS	I-PS	I-PS, O, I-LC, I-OG, B-PS
-3	##유	I-PS	I-PS	I-PS, O, I-LC, I-OG, B-PS
-4	양	O	O	O, B-CV, B-AM, B-TM, I-PS
-5	(	O	O	O, B-CV, B-PS, I-CV, B-QT
-6	5	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-TM
-7	)	O	O	O, I-QT, I-DT, I-OG, I-CV
-8	이	O	O	O, B-PS, B-AM, B-CV, B-LC
-9	고사리	B-PT	B-AM	B-AM, O, B-CV, B-PS, B-PT
-10	손	B-AM	B-AM	B-AM, I-AM, O, I-DT, B-PT
-11	##으로	O	O	O, B-PS, I-AM, B-AM, I-PS
-12	빈	O	O	O, B-TM, B-CV, B-AF, B-LC
-13	생수	O	O	O, B-CV, B-AF, B-MT, I-CV
-14	##통	O	O	O, I-CV, I-AF, I-TM, I-LC
-15	##을	O	O	O, B-PS, B-CV, B-TM, I-AF
-16	낯선	O	O	O, B-CV, B-TM, B-PS, B-LC
-17	기계	O	O	O, B-TM, B-CV, B-LC, B-AF
-18	##에	O	O	O, B-CV, B-PS, B-TM, B-LC
-19	넣	O	O	O, B-CV, B-TM, B-LC, B-PS
-20	##자	O	O	O, B-PS, B-CV, B-LC, B-TM
-21	바로	O	O	O, B-CV, B-TM, B-LC, B-PS
-22	덜	O	O	O, B-CV, B-LC, B-TM, B-PS
-23	##커	O	O	O, B-CV, B-LC, B-TM, B-PS
-24	##덩	O	O	O, B-CV, B-LC, B-TM, B-PS
-25	##거리	O	O	O, B-CV, B-LC, B-PS, B-TM
-26	##며	O	O	O, B-CV, B-PS, B-LC, B-TM
-27	압축	O	O	O, B-CV, B-TM, B-LC, B-PS
-28	##하	O	O	O, B-PS, B-CV, B-LC, B-TM
-29	##는	O	O	O, B-CV, B-PS, B-TM, I-AF
-30	소리	O	O	O, B-CV, B-TM, B-PS, B-QT
-31	##가	O	O	O, B-PS, B-CV, B-OG, B-LC
-32	들린다	O	O	O, B-CV, B-TM, B-LC, B-QT
-33	.	O	O	O, B-PS, B-CV, B-LC, B-AF
-34	[SEP]	O	O	O, B-CV, B-PS, B-LC, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	특히	O	O
+2	얼굴	B-AM	B-AM
+3	##에	O	O
+4	확대	O	O
+5	##경	O	O
+6	##을	O	O
+7	낀	O	O
+8	채	O	O
+9	가로	O	O
+10	##와	O	O
+11	세로	O	O
+12	##가	O	O
+13	각각	B-QT	B-QT
+14	5	I-QT	I-QT
+15	##c	I-QT	I-QT
+16	##m	I-QT	I-QT
+17	##인	O	O
+18	정사	B-TM	B-TM
+19	##각형	I-TM	I-TM
+20	은	O	B-MT
+21	##판	O	O
+22	##에	O	O
+23	좁	B-PT	B-MT
+24	##쌀	I-PT	I-PT
+25	##보	O	O
+26	##다	O	O
+27	작	O	O
+28	##은	B-MT	O
+29	은	O	B-MT
+30	알갱이	O	O
+31	##를	O	O
+32	하나하나	O	O
+33	붙이	O	O
+34	##는	O	O
+35	누	O	O
+36	##금	O	O
+37	작업	O	O
+38	##을	O	O
+39	선보이	O	O
+40	##자	O	O
+41	김	B-PS	B-PS
+42	대표	B-CV	B-CV
+43	##를	O	O
+44	둘러싼	O	O
+45	관람객	B-CV	B-CV
+46	##들	O	O
+47	##은	O	O
+48	그	O	O
+49	섬세	O	O
+50	##한	O	O
+51	기술	O	O
+52	##에	O	O
+53	놀라	O	O
+54	##워	O	O
+55	##했	O	O
+56	##다	O	O
+57	.	O	O
+58	[SEP]	O	O

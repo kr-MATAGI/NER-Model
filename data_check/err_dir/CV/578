@@ -1,39 +1,49 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	격	O	O	O, B-DT, B-PS, B-QT, B-CV
-2	##년	O	O	O, B-DT, I-DT, B-LC, B-PS
-3	##제	O	O	O, I-DT, B-PS, B-DT, B-LC
-4	##로	O	O	O, B-CV, B-PS, B-LC, B-QT
-5	열리	O	O	O, B-CV, B-PS, B-EV, B-TM
-6	##는	O	O	O, B-CV, B-PS, B-LC, B-QT
-7	2	B-CV	B-QT	B-QT, B-EV, O, B-TM, I-QT
-8	##차	I-CV	I-QT	I-QT, I-EV, O, I-TM, I-AF
-9	드래프트	I-CV	O	O, B-CV, B-EV, I-EV, I-QT
-10	##는	O	O	O, I-EV, I-CV, B-CV, I-QT
-11	각	O	O	O, B-OG, B-PS, B-CV, B-LC
-12	구단	O	O	O, B-OG, B-CV, I-OG, B-LC
-13	##이	O	O	O, B-PS, B-OG, I-OG, B-LC
-14	다른	O	O	O, B-OG, B-PS, B-CV, B-LC
-15	팀	O	O	O, B-OG, I-OG, B-CV, B-LC
-16	##의	O	O	O, B-PS, I-OG, B-CV, B-OG
-17	'	O	O	O, B-CV, B-LC, B-PS, B-OG
-18	보호	O	O	O, B-CV, B-PS, B-AF, I-CV
-19	선수	B-CV	B-CV	B-CV, I-CV, O, I-QT, B-QT
-20	40	B-QT	B-QT	B-QT, I-QT, I-CV, O, B-DT
-21	##인	I-QT	I-QT	I-QT, O, I-CV, I-EV, I-TM
-22	'	O	O	O, I-QT, B-CV, B-PS, B-TM
-23	명단	O	O	O, B-TM, B-LC, B-OG, B-CV
-24	##에서	O	O	O, B-TM, B-PS, B-LC, B-QT
-25	빠진	O	O	O, B-TM, B-LC, B-PS, B-QT
-26	선수	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-EV
-27	중	O	O	O, B-TM, B-QT, I-CV, B-PS
-28	필요	O	O	O, B-TM, B-QT, B-CV, B-PS
-29	##한	O	O	O, B-PS, B-LC, B-QT, B-TM
-30	선수	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-EV
-31	##를	O	O	O, I-CV, B-CV, I-AF, I-QT
-32	뽑	O	O	O, B-CV, B-TM, B-QT, B-OG
-33	##는	O	O	O, B-CV, B-PS, B-QT, B-TM
-34	제도	O	O	O, B-CV, I-CV, B-EV, B-PS
-35	##다	O	O	O, I-CV, B-CV, I-EV, B-PS
-36	.	O	O	O, B-CV, B-PS, B-LC, B-OG
-37	[SEP]	O	O	O, B-CV, B-PS, B-LC, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	인천	B-LC	B-LC
+2	11	B-QT	B-QT
+3	##세	I-QT	I-QT
+4	여아	O	O
+5	학대	O	O
+6	,	O	O
+7	부천	B-LC	B-LC
+8	초등	B-CV	B-CV
+9	##생	I-CV	I-CV
+10	시신	O	O
+11	훼손	O	O
+12	살해	O	B-CV
+13	,	O	O
+14	그리고	O	O
+15	부천	B-LC	B-EV
+16	여중생	B-CV	I-EV
+17	백	O	I-EV
+18	##골	O	I-EV
+19	시신	O	I-EV
+20	사건	O	I-EV
+21	##은	O	O
+22	학생	B-CV	B-CV
+23	##의	O	O
+24	안전	O	O
+25	##을	O	O
+26	최	O	O
+27	##일	O	O
+28	##선	O	O
+29	##에	O	O
+30	##서	O	O
+31	책임	O	O
+32	##져야	O	O
+33	할	O	O
+34	교육	O	O
+35	시스템	O	O
+36	##이	O	O
+37	망가진	O	O
+38	현실	O	O
+39	##을	O	O
+40	적나라	O	O
+41	##하	O	O
+42	##게	O	O
+43	보여	O	O
+44	##줬	O	O
+45	##다	O	O
+46	.	O	O
+47	[SEP]	O	O

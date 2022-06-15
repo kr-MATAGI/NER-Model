@@ -1,45 +1,46 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-EV, I-OG
-1	문	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-2	대통령	B-CV	B-CV	B-CV, I-PS, O, I-CV, B-OG
-3	##도	O	O	O, I-CV, B-CV, I-EV, I-OG
-4	지역	O	B-CV	B-CV, O, B-TM, I-CV, B-OG
-5	##인	O	I-CV	I-CV, O, B-CV, I-TM, I-OG
-6	##재	O	I-CV	I-CV, O, B-CV, I-OG, I-TM
-7	할당	O	I-CV	I-CV, O, B-CV, I-OG, I-TM
-8	##제	O	I-CV	I-CV, O, I-OG, B-CV, I-TM
-9	##를	O	O	O, I-CV, I-OG, I-EV, I-QT
-10	두고	O	O	O, B-CV, B-LC, B-OG, B-TM
-11	“	O	O	O, B-LC, B-CV, B-PS, B-OG
-12	지역	O	O	O, B-LC, B-CV, B-PS, B-OG
-13	##의	O	O	O, B-PS, B-LC, I-LC, I-OG
-14	새로운	O	O	O, B-LC, B-CV, B-PS, B-TM
-15	성장	O	O	O, B-LC, B-TM, B-PS, B-CV
-16	##동력	O	O	O, B-PS, B-LC, I-LC, I-TM
-17	##을	O	O	O, B-CV, B-PS, B-LC, B-OG
-18	만들	O	O	O, B-CV, B-LC, B-PS, B-TM
-19	##어내	O	O	O, B-CV, B-LC, B-PS, B-TM
-20	##는	O	O	O, B-PS, B-LC, B-CV, B-OG
-21	진정한	O	O	O, B-LC, B-PS, B-CV, B-OG
-22	혁신	O	O	O, B-TM, B-LC, B-OG, B-AF
-23	##도	O	O	O, I-LC, I-OG, I-TM, I-CV
-24	##시	O	O	O, I-LC, I-OG, I-CV, I-TM
-25	,	O	O	O, I-OG, B-PS, B-LC, B-CV
-26	진정한	O	O	O, B-LC, B-PS, B-CV, B-OG
-27	국가	O	B-TM	B-TM, O, B-TR, B-CV, B-OG
-28	균형발전	O	I-TM	I-TM, O, B-TM, I-TR, I-CV
-29	##사업	O	I-TM	I-TM, O, I-OG, I-CV, I-TR
-30	##이	O	O	O, I-TM, I-OG, I-CV, I-QT
-31	되	O	O	O, B-CV, B-LC, B-PS, B-QT
-32	##지	O	O	O, I-OG, B-CV, B-PS, I-QT
-33	않	O	O	O, B-PS, B-LC, B-CV, I-OG
-34	##을까	O	O	O, I-OG, I-QT, B-LC, B-PS
-35	생각	O	O	O, B-CV, B-PS, B-OG, B-TM
-36	##한다	O	O	O, I-OG, B-PS, B-LC, B-CV
-37	”	O	O	O, B-CV, I-OG, B-LC, B-TM
-38	고	O	O	O, B-CV, B-LC, B-OG, B-TM
-39	강조	O	O	O, B-CV, B-OG, B-TM, B-LC
-40	##했	O	O	O, B-CV, B-PS, I-CV, B-LC
-41	##다	O	O	O, B-CV, B-LC, I-EV, B-PS
-42	.	O	O	O, B-LC, B-PS, B-CV, B-OG
-43	[SEP]	O	O	O, B-LC, B-CV, B-PS, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	시민	B-CV	B-CV
+2	##의	O	O
+3	신하	O	B-CV
+4	##로	O	O
+5	##서	O	O
+6	시민	B-CV	B-CV
+7	##의	O	O
+8	뜻	O	O
+9	##에	O	O
+10	복종	O	O
+11	##해야	O	O
+12	하고	O	O
+13	,	O	O
+14	모든	O	O
+15	중요	O	O
+16	##한	O	O
+17	일	O	O
+18	##을	O	O
+19	시민	B-CV	B-CV
+20	##의	O	O
+21	대표	B-CV	O
+22	기구	O	O
+23	##인	O	O
+24	의회	O	O
+25	##와	O	O
+26	상의	O	O
+27	##해	O	O
+28	처리	O	O
+29	##해야	O	O
+30	한다는	O	O
+31	민주주의	B-TR	B-TR
+32	##의	O	O
+33	기본	O	O
+34	##을	O	O
+35	모르	O	O
+36	##는	O	O
+37	것	O	O
+38	같	O	O
+39	##기	O	O
+40	##도	O	O
+41	하	O	O
+42	##다	O	O
+43	.	O	O
+44	[SEP]	O	O

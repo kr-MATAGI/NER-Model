@@ -1,13 +1,16 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-EV
-1	김	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-2	전	O	O	O, I-PS, I-OG, I-EV, I-AF
-3	차관	B-CV	B-CV	B-CV, O, I-CV, B-EV, B-TM
-4	,	O	O	O, I-CV, I-EV, B-CV, I-OG
-5	국정	O	B-EV	B-EV, O, B-OG, B-CV, B-PS
-6	##농	O	I-EV	I-EV, O, I-OG, I-CV, I-AF
-7	##단	O	I-EV	I-EV, O, I-OG, I-CV, I-AF
-8	재판	O	O	O, I-EV, I-OG, I-CV, I-AF
-9	##서	O	O	O, I-EV, I-OG, I-CV, I-AF
-10	증언	O	O	O, B-CV, B-LC, B-OG, B-TM
-11	[SEP]	O	O	O, B-CV, B-LC, B-PS, I-EV
+	text	label	preds
+0	[CLS]	O	O
+1	천	B-QT	B-QT
+2	##칠	I-QT	I-QT
+3	##백	I-QT	I-QT
+4	##여	I-QT	I-QT
+5	##거	I-QT	I-QT
+6	##저	O	I-QT
+7	세계	O	O
+8	##적	O	O
+9	##인	O	O
+10	공항	O	O
+11	중	O	O
+12	##에	O	O
+13	##서	O	O
+14	[SEP]	O	O

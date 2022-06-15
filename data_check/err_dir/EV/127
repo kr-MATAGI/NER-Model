@@ -1,16 +1,55 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, I-EV, B-CV
-1	日	B-LC	B-LC	B-LC, B-OG, O, B-EV, B-CV
-2	도쿄	B-EV	B-OG	B-OG, B-EV, B-LC, I-EV, I-OG
-3	##도	I-EV	I-EV	I-EV, I-OG, O, B-OG, B-EV
-4	##의회	I-EV	I-EV	I-EV, I-OG, O, I-LC, I-AF
-5	선거	I-EV	I-EV	I-EV, O, I-OG, B-EV, I-AF
-6	自	O	O	O, B-OG, B-LC, I-EV, I-OG
-7	民	O	O	O, I-OG, B-OG, I-LC, I-EV
-8	黨	O	O	O, I-OG, I-LC, I-PS, B-OG
-9	압승	O	O	O, I-OG, B-OG, B-LC, B-CV
-10	…	O	O	O, I-OG, B-PS, B-LC, I-EV
-11	후보	B-CV	B-CV	B-CV, O, B-EV, I-CV, B-AF
-12	전원	O	O	O, B-QT, I-CV, B-CV, I-QT
-13	당선	O	O	O, B-QT, I-QT, B-CV, B-TM
-14	[SEP]	O	O	O, B-LC, B-OG, B-PS, B-CV
+	text	label	preds
+0	[CLS]	O	O
+1	데이비스	B-PS	B-PS
+2	씨	O	O
+3	##는	O	O
+4	지난해	B-DT	B-DT
+5	3	I-DT	I-DT
+6	##월	I-DT	I-DT
+7	엘리엇	B-EV	B-PS
+8	스피	I-EV	I-PS
+9	##처	I-EV	I-PS
+10	당시	O	O
+11	뉴욕	B-LC	B-LC
+12	주지사	B-CV	B-CV
+13	##가	O	O
+14	다른	O	O
+15	성매매	B-CV	B-CV
+16	조직	O	O
+17	##을	O	O
+18	통해	O	O
+19	성매매	B-CV	B-CV
+20	##를	O	O
+21	했	O	O
+22	##다가	O	O
+23	사임	O	O
+24	##할	O	O
+25	무렵	O	O
+26	검찰	B-OG	B-OG
+27	##에	O	O
+28	체포	O	O
+29	##돼	O	O
+30	혐의	O	O
+31	##를	O	O
+32	인정	O	O
+33	##한	O	O
+34	뒤	O	O
+35	징역	B-CV	B-CV
+36	3	B-DT	B-DT
+37	##개	I-DT	I-DT
+38	##월	I-DT	I-DT
+39	##과	O	O
+40	47	B-QT	B-QT
+41	##만	I-QT	I-QT
+42	##50	I-QT	I-QT
+43	##00	I-QT	I-QT
+44	##달	I-QT	I-QT
+45	##러	I-QT	I-QT
+46	##의	O	O
+47	벌금형	B-CV	B-CV
+48	##에	O	O
+49	처해	O	O
+50	##졌	O	O
+51	##다	O	O
+52	.	O	O
+53	[SEP]	O	O

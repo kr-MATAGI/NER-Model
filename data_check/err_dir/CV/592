@@ -1,58 +1,51 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	검찰	B-OG	B-OG	B-OG, O, B-AF, B-LC, B-PS
-2	특별	B-OG	O	O, B-OG, I-OG, B-CV, I-CV
-3	##수	I-OG	O	O, I-OG, B-OG, I-CV, B-CV
-4	##사	I-OG	O	O, I-OG, I-CV, B-OG, B-CV
-5	##본부	I-OG	O	O, I-OG, I-CV, B-OG, B-CV
-6	##는	O	O	O, I-OG, I-CV, B-PS, B-CV
-7	1	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-OG
-8	##일	I-DT	I-DT	I-DT, O, B-DT, I-OG, I-QT
-9	체육	O	B-CV	B-CV, O, B-FD, B-OG, B-EV
-10	##특	B-CV	I-CV	I-CV, B-CV, O, I-OG, I-QT
-11	##기	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-QT
-12	##생	I-CV	I-CV	I-CV, O, I-OG, B-CV, I-QT
-13	##으로	O	O	O, I-CV, B-PS, B-CV, I-OG
-14	이화여대	B-OG	B-OG	B-OG, O, B-AF, B-LC, B-EV
-15	##에	O	O	O, I-OG, I-AF, B-CV, I-EV
-16	부정	O	O	O, B-CV, B-TM, B-PS, B-LC
-17	입학	O	O	O, B-CV, I-CV, B-PS, I-EV
-18	##하고	O	O	O, I-CV, B-PS, B-CV, I-EV
-19	,	O	O	O, B-CV, B-PS, B-LC, B-OG
-20	학점	O	O	O, B-CV, B-PS, B-LC, B-TM
-21	##과	O	O	O, B-PS, B-CV, B-LC, B-TM
-22	출석	O	O	O, B-CV, B-PS, B-LC, B-TM
-23	등	O	O	O, B-PS, B-LC, B-CV, B-TM
-24	학사	B-CV	O	O, B-CV, B-EV, B-FD, B-OG
-25	특혜	O	O	O, I-CV, B-PS, B-CV, I-EV
-26	##를	O	O	O, B-CV, B-PS, I-CV, B-LC
-27	받	O	O	O, B-CV, B-PS, B-LC, B-TM
-28	##은	O	O	O, B-PS, B-CV, B-LC, I-CV
-29	혐의	O	O	O, B-CV, B-PS, I-CV, B-LC
-30	(	O	O	O, B-CV, B-PS, B-LC, I-CV
-31	업무	O	B-CV	B-CV, O, B-OG, B-TM, B-FD
-32	##방	O	I-CV	I-CV, O, B-CV, I-OG, I-TM
-33	##해	O	I-CV	I-CV, O, I-OG, B-CV, I-TM
-34	)	O	O	O, I-CV, I-OG, B-CV, I-QT
-35	등	O	O	O, B-CV, B-PS, B-LC, B-TM
-36	##으로	O	O	O, B-PS, B-CV, B-LC, B-OG
-37	최순	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-38	##실	I-PS	I-PS	I-PS, O, I-OG, I-LC, I-DT
-39	##씨	O	O	O, I-PS, B-CV, I-OG, I-AF
-40	##의	O	O	O, B-CV, B-PS, B-LC, B-TM
-41	딸	B-CV	B-CV	B-CV, O, B-PS, I-CV, B-PT
-42	정유라	B-PS	B-PS	B-PS, I-PS, O, B-OG, B-LC
-43	(	O	O	O, I-PS, B-CV, I-CV, I-OG
-44	21	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-LC
-45	)	O	O	O, I-QT, I-OG, I-DT, I-EV
-46	씨	O	O	O, B-CV, B-PS, B-LC, I-QT
-47	##에	O	O	O, B-CV, B-PS, B-TM, B-LC
-48	대해	O	O	O, B-CV, B-LC, B-OG, B-TM
-49	구속	O	O	O, B-CV, B-AF, B-OG, B-TM
-50	##영장	O	O	O, I-CV, I-AF, I-OG, B-CV
-51	##을	O	O	O, B-CV, I-CV, I-AF, I-OG
-52	청구	O	O	O, B-CV, B-OG, B-AF, B-LC
-53	##했	O	O	O, B-CV, B-PS, B-OG, B-LC
-54	##다	O	O	O, B-CV, B-LC, B-PS, B-TM
-55	.	O	O	O, B-CV, B-LC, B-PS, B-OG
-56	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	마리오	B-AF	B-AF
+2	##네트	I-AF	I-AF
+3	뮤직	O	O
+4	##비	O	O
+5	##디오	O	O
+6	화면	O	O
+7	캡처	O	O
+8	##걸	O	O
+9	##그룹	O	O
+10	##을	O	O
+11	내세우	O	O
+12	##는	O	O
+13	음반	O	O
+14	##제	O	O
+15	##작	O	O
+16	##업체	O	O
+17	##는	O	O
+18	음반	O	O
+19	##과	O	O
+20	콘텐츠	O	O
+21	구매력	O	O
+22	,	O	O
+23	충성	O	O
+24	##도	O	O
+25	##가	O	O
+26	높	O	O
+27	##은	O	O
+28	열혈	O	O
+29	남성	O	O
+30	##팬	B-CV	O
+31	##을	O	O
+32	잡	O	O
+33	##기	O	O
+34	위해	O	O
+35	경쟁	O	O
+36	##하	O	O
+37	##다	O	O
+38	보	O	O
+39	##니	O	O
+40	노출	O	O
+41	##이	O	O
+42	‘	O	O
+43	폭주	O	O
+44	’	O	O
+45	하고	O	O
+46	있	O	O
+47	##다	O	O
+48	.	O	O
+49	[SEP]	O	O

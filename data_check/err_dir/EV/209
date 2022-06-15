@@ -1,34 +1,13 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, B-CV, I-OG, I-EV
-1	제스	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
-2	가족	B-CV	B-CV	B-CV, O, I-PS, I-CV, B-OG
-3	##은	O	O	O, I-CV, B-CV, I-OG, I-EV
-4	탠	B-PS	B-PS	B-PS, O, B-OG, B-LC, B-AF
-5	##지	I-PS	I-PS	I-PS, I-OG, O, I-LC, I-CV
-6	##를	O	O	O, I-PS, I-OG, I-LC, B-PS
-7	스코틀랜드	B-LC	B-LC	B-LC, O, B-OG, I-LC, B-AF
-8	##에서	O	O	O, I-LC, I-PS, I-AF, B-LC
-9	열리	O	O	O, B-CV, B-LC, B-PS, B-QT
-10	##는	O	O	O, B-EV, B-LC, B-CV, B-PS
-11	수학	B-EV	B-FD	B-FD, B-EV, O, B-CV, B-TR
-12	올림피아	I-EV	B-EV	B-EV, I-EV, O, B-CV, B-QT
-13	##드	I-EV	I-EV	I-EV, O, B-EV, I-QT, I-AF
-14	##에	O	O	O, I-EV, B-CV, I-AF, I-QT
-15	참가	O	O	O, B-CV, B-EV, B-LC, I-EV
-16	##시	O	O	O, I-EV, B-LC, I-CV, B-PS
-17	##켜	O	O	O, B-LC, B-PS, I-LC, B-QT
-18	우승	O	O	O, B-CV, B-EV, B-PS, B-LC
-19	##상	O	O	O, I-CV, B-CV, I-EV, B-PS
-20	##금	O	O	O, I-CV, B-CV, I-EV, I-LC
-21	5000	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-PS
-22	##파	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-23	##운드	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-24	##로	O	O	O, I-QT, B-CV, B-PS, I-CV
-25	학비	O	O	O, B-CV, I-CV, B-TM, B-LC
-26	##를	O	O	O, I-CV, B-CV, I-QT, B-PS
-27	해결	O	O	O, B-CV, B-QT, B-PS, B-LC
-28	##하기	O	O	O, B-PS, B-CV, B-LC, B-QT
-29	##로	O	O	O, B-PS, B-CV, B-LC, I-QT
-30	한다	O	O	O, B-PS, B-CV, B-LC, I-PS
-31	.	O	O	O, B-PS, B-LC, B-CV, I-EV
-32	[SEP]	O	O	O, B-CV, B-PS, B-LC, I-EV
+	text	label	preds
+0	[CLS]	O	O
+1	미	B-OG	B-LC
+2	,	O	O
+3	2	B-EV	B-QT
+4	+	I-EV	I-QT
+5	2	I-EV	I-QT
+6	##회의	I-EV	O
+7	##서	O	O
+8	입법	O	O
+9	노력	O	O
+10	환영	O	O
+11	[SEP]	O	O

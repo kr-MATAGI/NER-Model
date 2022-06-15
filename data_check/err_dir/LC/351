@@ -1,19 +1,36 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	중부	B-LC	B-TM	B-TM, B-LC, O, B-OG, B-AF
-2	##와	O	O	O, I-TM, I-OG, I-LC, I-AF
-3	남부	B-LC	B-TM	B-TM, B-LC, O, B-OG, B-AF
-4	##내	I-LC	O	O, I-LC, B-LC, I-TM, B-TM
-5	##륙	I-LC	O	O, I-LC, B-LC, I-TM, I-QT
-6	##을	O	O	O, I-LC, B-LC, I-AF, I-TM
-7	중심	O	O	O, B-LC, B-TM, B-CV, B-AF
-8	##으로	O	O	O, B-LC, I-LC, B-CV, B-PS
-9	한파	O	O	O, B-CV, B-TM, B-EV, B-LC
-10	##특	O	O	O, I-CV, I-TM, I-LC, I-AF
-11	##보	O	O	O, I-CV, I-LC, I-AF, I-OG
-12	##가	O	O	O, B-PS, I-OG, I-CV, I-AF
-13	발효	O	O	O, B-CV, B-LC, B-TM, B-OG
-14	중	O	O	O, I-CV, I-OG, I-LC, I-AF
-15	##입니다	O	O	O, B-CV, B-LC, I-OG, B-OG
-16	.	O	O	O, B-LC, B-CV, B-TM, B-OG
-17	[SEP]	O	O	O, B-LC, B-CV, B-TM, I-LC
+	text	label	preds
+0	[CLS]	O	O
+1	김정	B-PS	B-PS
+2	전	O	O
+3	의원	B-CV	B-CV
+4	##은	O	O
+5	친	O	O
+6	##박	O	O
+7	##연대	O	O
+8	출신	O	O
+9	##으로	O	O
+10	비례	B-CV	B-CV
+11	##대표	I-CV	I-CV
+12	의원	B-CV	B-CV
+13	##을	O	O
+14	지냈	O	O
+15	##고	O	O
+16	조	B-PS	B-PS
+17	전	O	O
+18	부시장	B-CV	B-CV
+19	##은	O	O
+20	오세훈	B-PS	B-PS
+21	서울시	B-LC	O
+22	##장	O	O
+23	때	O	O
+24	서울시	O	B-LC
+25	여성	B-CV	B-CV
+26	##가족	I-CV	I-CV
+27	##정책	I-CV	I-CV
+28	##관	I-CV	I-CV
+29	##을	O	O
+30	역임	O	O
+31	##했	O	O
+32	##다	O	O
+33	.	O	O
+34	[SEP]	O	O

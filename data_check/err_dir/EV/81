@@ -1,56 +1,29 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	지난	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-LC
-2	18	I-DT	I-DT	I-DT, O, B-DT, I-EV, I-QT
-3	##일	I-DT	I-DT	I-DT, O, B-DT, I-EV, I-QT
-4	서울	B-LC	B-LC	B-LC, O, B-OG, I-LC, B-AF
-5	강남구	B-OG	B-LC	B-LC, I-LC, O, B-OG, B-AF
-6	삼성동	B-LC	B-LC	B-LC, O, I-LC, B-AF, B-OG
-7	한식	O	O	O, B-CV, B-AF, I-LC, B-OG
-8	##집	O	O	O, I-CV, I-AF, I-OG, I-LC
-9	##에서	O	O	O, I-CV, I-AF, B-CV, B-PS
-10	저녁	O	B-TI	B-TI, O, B-EV, B-CV, B-QT
-11	식사	O	O	O, I-TI, I-CV, I-EV, I-QT
-12	##를	O	O	O, I-CV, B-CV, I-EV, B-PS
-13	하	O	O	O, B-CV, B-PS, B-LC, B-DT
-14	##던	O	O	O, B-CV, B-LC, B-PS, B-TM
-15	사공	O	B-PS	B-PS, B-OG, O, I-PS, B-LC
-16	##일	O	I-PS	I-PS, I-OG, O, I-LC, I-QT
-17	(	O	O	O, I-PS, I-OG, I-AF, B-CV
-18	司	O	O	O, B-LC, B-CV, B-PS, B-TM
-19	空	O	O	O, B-PS, B-LC, B-CV, B-OG
-20	[UNK]	O	O	O, B-LC, B-PS, B-CV, B-OG
-21	)	O	O	O, B-LC, B-PS, B-CV, B-OG
-22	G	B-OG	B-EV	B-EV, O, B-OG, B-LC, I-EV
-23	##20	I-OG	I-EV	I-EV, O, B-EV, I-OG, I-LC
-24	##정	B-EV	I-EV	I-EV, O, B-EV, I-OG, I-LC
-25	##상	I-EV	I-EV	I-EV, O, I-OG, B-EV, I-LC
-26	##회의	I-EV	I-EV	I-EV, O, I-OG, I-LC, I-AF
-27	한국	B-EV	B-CV	B-CV, I-EV, B-LC, B-OG, B-EV
-28	##기획	I-EV	I-CV	I-CV, I-EV, I-OG, B-CV, O
-29	##조	I-EV	I-CV	I-CV, I-EV, B-CV, I-OG, O
-30	##정	I-EV	I-CV	I-CV, B-CV, I-OG, O, I-EV
-31	##위원	I-EV	I-CV	I-CV, B-CV, I-OG, O, I-EV
-32	##장	I-EV	I-CV	I-CV, O, B-CV, I-OG, I-EV
-33	(	O	O	O, I-CV, I-OG, I-EV, I-QT
-34	한국	B-CV	B-CV	B-CV, O, B-OG, B-LC, B-AF
-35	##무역	I-CV	I-CV	I-CV, B-CV, O, I-OG, I-EV
-36	##협회	I-CV	I-CV	I-CV, B-CV, O, I-OG, I-EV
-37	##장	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-EV
-38	)	O	O	O, I-CV, I-OG, I-EV, I-QT
-39	은	O	O	O, B-CV, B-TM, B-OG, B-LC
-40	비서	B-CV	B-CV	B-CV, O, I-CV, B-AF, B-FD
-41	##의	O	O	O, I-CV, I-OG, I-EV, I-AF
-42	연락	O	O	O, B-CV, B-TM, B-LC, I-EV
-43	##을	O	O	O, B-CV, B-OG, B-PS, B-LC
-44	받	O	O	O, B-CV, B-LC, B-OG, B-PS
-45	##고	O	O	O, B-LC, B-CV, B-OG, B-TM
-46	황급	O	O	O, B-CV, B-LC, B-TM, B-OG
-47	##하	O	O	O, B-LC, B-TM, B-OG, B-PS
-48	##게	O	O	O, B-LC, B-TM, B-OG, B-CV
-49	자리	O	O	O, B-CV, B-TM, B-AF, B-LC
-50	##를	O	O	O, B-CV, I-AF, I-CV, B-TM
-51	떴	O	O	O, B-CV, B-TM, B-AF, B-OG
-52	##다	O	O	O, B-CV, I-CV, I-EV, I-AF
-53	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-54	[SEP]	O	O	O, B-LC, B-CV, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	23	O	O
+2	##일로	O	O
+3	예정	O	O
+4	##한	O	O
+5	경기도	B-LC	B-LC
+6	김포시	B-LC	B-LC
+7	애기	B-LC	B-LC
+8	##봉	I-LC	I-LC
+9	통일	B-LC	B-AF
+10	##전	I-LC	I-AF
+11	##망	I-LC	I-AF
+12	##대	I-LC	I-AF
+13	##의	O	O
+14	크리스마스	B-EV	O
+15	##트리	I-EV	O
+16	점	I-EV	O
+17	##등	I-EV	O
+18	##식	I-EV	O
+19	##도	O	O
+20	취소	O	O
+21	##될	O	O
+22	가능	O	O
+23	##성이	O	O
+24	커졌	O	O
+25	##다	O	O
+26	.	O	O
+27	[SEP]	O	O

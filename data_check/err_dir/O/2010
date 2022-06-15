@@ -1,59 +1,53 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-EV, I-OG, B-CV, I-CV
-1	그러나	O	O	O, B-LC, B-OG, B-CV, B-TM
-2	군사	O	O	O, B-LC, B-CV, B-OG, B-PS
-3	##적	O	O	O, I-LC, B-LC, I-CV, B-PS
-4	개입	O	O	O, B-LC, B-CV, B-PS, B-OG
-5	없이	O	O	O, B-LC, B-PS, B-QT, I-EV
-6	시리아	B-LC	B-LC	B-LC, B-EV, O, B-OG, B-DT
-7	사태	O	O	O, I-EV, I-LC, B-EV, I-DT
-8	##를	O	O	O, I-EV, B-LC, B-PS, I-OG
-9	끝내	O	O	O, B-LC, B-CV, B-OG, B-PS
-10	##려	O	O	O, B-LC, B-PS, B-CV, B-OG
-11	##는	O	O	O, B-LC, B-PS, B-OG, B-CV
-12	의도	O	O	O, B-LC, B-CV, B-PS, B-OG
-13	##를	O	O	O, B-PS, B-CV, B-LC, B-OG
-14	담	O	O	O, B-LC, B-OG, B-PS, B-CV
-15	##은	O	O	O, B-LC, B-OG, B-PS, B-CV
-16	양국	O	O	O, B-LC, B-OG, B-CV, I-OG
-17	합의	O	O	O, B-OG, I-OG, B-CV, B-PS
-18	##는	O	O	O, I-OG, B-LC, B-PS, B-OG
-19	반군	B-OG	O	O, B-OG, B-CV, I-OG, B-EV
-20	##의	O	O	O, I-OG, B-PS, I-CV, I-EV
-21	무장	O	O	O, B-LC, B-CV, B-OG, B-TM
-22	##을	O	O	O, B-PS, B-LC, B-CV, B-OG
-23	돕	O	O	O, B-LC, B-PS, B-CV, B-OG
-24	##기	O	O	O, B-LC, B-PS, B-CV, B-OG
-25	위해	O	O	O, B-LC, B-CV, B-PS, B-OG
-26	석유	B-MT	B-MT	B-MT, O, B-CV, I-MT, B-LC
-27	##금	O	O	O, I-CV, B-CV, I-MT, I-LC
-28	##수	O	O	O, I-CV, B-CV, I-MT, I-LC
-29	##조치	O	O	O, I-CV, I-LC, B-CV, I-OG
-30	##를	O	O	O, I-CV, B-LC, B-CV, B-PS
-31	해제	O	O	O, B-CV, B-LC, I-CV, B-OG
-32	##하	O	O	O, B-LC, B-PS, B-OG, B-CV
-33	##는	O	O	O, B-LC, B-CV, B-OG, B-PS
-34	등	O	O	O, B-LC, B-OG, B-PS, B-CV
-35	보다	O	O	O, B-LC, B-OG, B-CV, B-PS
-36	적극	O	O	O, B-LC, B-OG, B-CV, B-TM
-37	##적으로	O	O	O, B-LC, B-OG, B-PS, I-LC
-38	나서	O	O	O, B-LC, B-OG, B-CV, B-PS
-39	##고	O	O	O, B-LC, B-OG, B-PS, B-CV
-40	있	O	O	O, B-LC, B-OG, B-CV, B-PS
-41	##는	O	O	O, B-LC, B-OG, B-CV, B-PS
-42	프랑스	B-LC	B-LC	B-LC, B-OG, O, B-AF, B-PS
-43	영국	B-LC	B-LC	B-LC, B-OG, I-LC, O, I-OG
-44	등	O	O	O, I-OG, I-LC, B-LC, B-OG
-45	##과	O	O	O, B-LC, B-OG, B-CV, B-TM
-46	충돌	O	O	O, B-LC, B-TM, B-OG, B-CV
-47	##할	O	O	O, B-LC, B-PS, B-OG, I-LC
-48	것	O	O	O, B-LC, B-PS, B-OG, B-CV
-49	##이	O	O	O, B-PS, B-OG, B-LC, B-CV
-50	##라고	O	O	O, B-LC, B-OG, B-PS, I-OG
-51	가디언	O	B-OG	B-OG, B-AF, O, B-LC, B-PS
-52	##은	O	O	O, I-OG, I-AF, I-EV, B-CV
-53	예상	O	O	O, B-CV, B-QT, B-OG, I-OG
-54	##했	O	O	O, I-OG, I-EV, B-PS, I-QT
-55	##다	O	O	O, B-CV, B-LC, I-OG, B-OG
-56	.	O	O	O, B-LC, B-PS, B-OG, B-CV
-57	[SEP]	O	O	O, B-LC, B-CV, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	투자자	B-CV	B-CV
+2	##와	O	O
+3	실수요자	O	B-CV
+4	모두	O	O
+5	##에	O	O
+6	##게	O	O
+7	매력	O	O
+8	##적	O	O
+9	##인	O	O
+10	송	B-LC	B-LC
+11	##산	I-LC	I-LC
+12	##신도	I-LC	I-LC
+13	##시	I-LC	I-LC
+14	##에	O	O
+15	브랜드	O	O
+16	타운	O	O
+17	##을	O	O
+18	형성	O	O
+19	##하	O	O
+20	##게	O	O
+21	될	O	O
+22	대	B-AF	B-AF
+23	##방	I-AF	I-AF
+24	노블	I-AF	I-AF
+25	##랜드	I-AF	I-AF
+26	##가	O	O
+27	첫	O	O
+28	단지	O	O
+29	##를	O	O
+30	11	B-DT	B-DT
+31	##월	I-DT	I-DT
+32	19	I-DT	I-DT
+33	##일	I-DT	I-DT
+34	##에	O	O
+35	오픈	O	O
+36	##해	O	O
+37	다시	O	O
+38	한	O	O
+39	##번	O	O
+40	주변	O	O
+41	부동산	O	O
+42	##시장	O	O
+43	##의	O	O
+44	관심	O	O
+45	##이	O	O
+46	커지	O	O
+47	##고	O	O
+48	있	O	O
+49	##다	O	O
+50	.	O	O
+51	[SEP]	O	O

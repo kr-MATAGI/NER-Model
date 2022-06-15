@@ -1,35 +1,37 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-EV, I-CV
-1	웨	B-OG	B-OG	B-OG, O, B-AF, I-OG, B-LC
-2	##스틴	I-OG	I-OG	I-OG, O, B-OG, I-AF, I-LC
-3	##조선	I-OG	I-OG	I-OG, O, I-AF, I-LC, I-CV
-4	##호텔	I-OG	I-OG	I-OG, O, I-AF, I-LC, I-CV
-5	##은	O	O	O, I-OG, I-AF, B-CV, I-EV
-6	나인	O	B-AF	B-AF, B-OG, B-CV, B-LC, B-PS
-7	##스	O	I-AF	I-AF, I-OG, I-CV, I-LC, O
-8	게이트	O	I-AF	I-AF, I-OG, I-CV, O, I-LC
-9	,	O	O	O, I-AF, I-OG, I-CV, I-LC
-10	베	B-OG	B-AF	B-AF, B-CV, B-OG, B-LC, B-PS
-11	##키아	I-OG	I-AF	I-AF, I-CV, I-OG, I-LC, O
-12	에	I-OG	I-AF	I-AF, I-CV, I-OG, B-AF, I-LC
-13	누	I-OG	I-AF	I-AF, I-CV, I-OG, I-LC, O
-14	##보	I-OG	I-AF	I-AF, I-CV, I-OG, I-LC, O
-15	,	O	O	O, I-AF, I-OG, I-CV, I-LC
-16	컴	B-OG	B-AF	B-AF, B-CV, B-OG, B-LC, O
-17	##파	I-OG	I-AF	I-AF, I-CV, I-OG, I-LC, O
-18	##스	I-OG	I-AF	I-AF, I-CV, I-OG, I-LC, O
-19	로즈	I-OG	I-AF	I-AF, I-OG, I-CV, I-LC, O
-20	##에서	O	O	O, I-AF, I-OG, I-CV, I-EV
-21	밸	B-DT	B-DT	B-DT, O, B-EV, B-AF, I-DT
-22	##런	I-DT	I-DT	I-DT, O, B-DT, I-AF, I-EV
-23	##타인데이	I-DT	I-DT	I-DT, O, B-DT, I-EV, I-AF
-24	##에	O	O	O, I-DT, I-EV, I-AF, B-CV
-25	어울리	O	O	O, B-LC, B-CV, B-OG, B-TM
-26	##는	O	O	O, B-CV, B-LC, B-TM, I-AF
-27	디너	O	O	O, B-CV, B-FD, B-EV, B-AF
-28	##를	O	O	O, I-CV, I-AF, I-EV, B-CV
-29	준비	O	O	O, B-OG, B-CV, B-TM, B-LC
-30	중	O	O	O, B-OG, B-LC, B-CV, I-OG
-31	##이다	O	O	O, B-CV, B-OG, I-OG, B-TM
-32	.	O	O	O, B-OG, B-LC, B-AF, I-OG
-33	[SEP]	O	O	O, B-OG, B-LC, I-OG, B-CV
+	text	label	preds
+0	[CLS]	O	O
+1	그러나	O	O
+2	손	B-PS	B-PS
+3	대표	B-CV	B-CV
+4	##는	O	O
+5	이	B-PS	B-PS
+6	대통령	B-CV	B-CV
+7	##이	O	O
+8	제	B-OG	B-OG
+9	##1	I-OG	I-OG
+10	##야	I-OG	I-OG
+11	##당	I-OG	I-OG
+12	대표	B-CV	B-CV
+13	##와	O	O
+14	대화	O	O
+15	##할	O	O
+16	진정	O	O
+17	##성	O	O
+18	##을	O	O
+19	보이지	O	O
+20	않	O	O
+21	##고	O	O
+22	있	O	O
+23	##다	O	O
+24	##며	O	O
+25	청와대	B-OG	B-AF
+26	회담	O	O
+27	##은	O	O
+28	거부	O	O
+29	##하	O	O
+30	##기	O	O
+31	##로	O	O
+32	했	O	O
+33	##다	O	O
+34	.	O	O
+35	[SEP]	O	O

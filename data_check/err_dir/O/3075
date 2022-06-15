@@ -1,23 +1,42 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, B-CV, I-OG, I-AF
-1	어	O	O	O, B-CV, B-PS, B-TM, B-OG
-2	시댁	O	B-CV	B-CV, O, B-OG, B-LC, I-CV
-3	##도	O	O	O, I-CV, B-PS, I-OG, I-EV
-4	이	O	O	O, B-PS, B-QT, B-LC, B-OG
-5	쪽	O	O	O, I-QT, I-LC, I-DT, I-OG
-6	##에	O	O	O, I-QT, B-PS, B-CV, I-OG
-7	살	O	O	O, B-CV, B-PS, B-LC, B-OG
-8	##고	O	O	O, B-PS, I-CV, B-CV, I-PS
-9	name	O	O	O, B-PS, B-CV, B-LC, I-PS
-10	##8	O	O	O, I-PS, I-LC, B-PS, I-CV
-11	##이	O	O	O, B-CV, B-PS, I-PS, I-CV
-12	##네	O	O	O, I-CV, I-PS, B-CV, B-PS
-13	##도	O	O	O, I-CV, B-CV, B-PS, I-PS
-14	살	O	O	O, B-CV, B-PS, B-LC, B-QT
-15	##고	O	O	O, B-PS, I-CV, B-CV, I-AF
-16	동생	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-PS
-17	##네	O	O	O, I-CV, I-AF, I-QT, I-EV
-18	##도	O	O	O, I-CV, B-PS, B-CV, I-QT
-19	사	O	O	O, B-CV, B-PS, B-QT, B-TM
-20	##는데	O	O	O, B-CV, B-PS, I-CV, B-LC
-21	[SEP]	O	O	O, B-CV, B-PS, B-LC, I-CV
+	text	label	preds
+0	[CLS]	O	O
+1	정보	B-FD	B-FD
+2	##기술	I-FD	I-FD
+3	(	O	O
+4	IT	B-FD	B-FD
+5	)	O	O
+6	업계	O	O
+7	관계자	B-CV	B-CV
+8	##는	O	O
+9	“	O	O
+10	이번	O	O
+11	조치	O	O
+12	##는	O	O
+13	경쟁사	O	O
+14	##에	O	O
+15	비해	O	O
+16	상대	O	O
+17	##적	O	O
+18	##으로	O	O
+19	약하	O	O
+20	##다는	O	O
+21	평가	O	O
+22	##를	O	O
+23	받아	O	O
+24	##온	O	O
+25	디자인	O	B-FD
+26	부문	O	O
+27	##의	O	O
+28	경쟁력	O	O
+29	##을	O	O
+30	끌어올리	O	O
+31	##기	O	O
+32	위한	O	O
+33	시도	O	O
+34	”	O	O
+35	라고	O	O
+36	분석	O	O
+37	##했	O	O
+38	##다	O	O
+39	.	O	O
+40	[SEP]	O	O

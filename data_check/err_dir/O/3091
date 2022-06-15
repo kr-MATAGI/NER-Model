@@ -1,31 +1,19 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	아니	O	O	O, B-CV, B-OG, B-TM, B-LC
-2	근데	O	O	O, B-CV, B-OG, B-PS, B-LC
-3	박사	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-OG
-4	##님	O	O	O, I-CV, I-AF, I-EV, I-OG
-5	그럼	O	O	O, B-OG, B-CV, B-LC, B-PS
-6	엔	B-OG	B-OG	B-OG, O, B-CV, B-LC, I-OG
-7	##피	I-OG	I-OG	I-OG, O, I-CV, I-LC, B-OG
-8	##티	I-OG	I-OG	I-OG, O, I-CV, I-LC, I-QT
-9	##는	O	O	O, I-OG, I-CV, I-AF, I-QT
-10	지금	O	O	O, B-CV, B-OG, B-TM, B-LC
-11	탈퇴	O	O	O, B-CV, B-LC, B-OG, B-PS
-12	##를	O	O	O, I-CV, B-CV, B-PS, I-OG
-13	한	O	O	O, B-CV, B-LC, B-OG, B-PS
-14	상태	O	O	O, B-CV, B-LC, B-OG, B-TM
-15	##고	O	O	O, B-PS, B-LC, B-OG, B-CV
-16	핵	O	B-MT	B-MT, O, B-AF, B-CV, B-PS
-17	##보	O	O	O, I-CV, B-CV, I-AF, I-LC
-18	##유국	O	O	O, I-CV, I-LC, I-OG, I-AF
-19	##으로	O	O	O, I-CV, B-PS, I-OG, B-LC
-20	좀	O	O	O, B-CV, B-LC, B-QT, B-TM
-21	지정	O	O	O, B-CV, B-LC, B-OG, B-PS
-22	##을	O	O	O, B-CV, B-PS, I-CV, I-OG
-23	해	O	O	O, B-LC, B-CV, B-PS, B-OG
-24	달라	O	O	O, B-CV, B-LC, B-PS, I-CV
-25	##는	O	O	O, B-CV, I-CV, B-PS, B-LC
-26	거	O	O	O, B-CV, B-OG, B-LC, B-PS
-27	##잖아요	O	O	O, B-CV, I-OG, I-AF, B-OG
-28	?	O	O	O, B-CV, B-LC, B-OG, I-AF
-29	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	저희	O	O
+2	노동	B-OG	B-OG
+3	##위원회	I-OG	I-OG
+4	##에	O	O
+5	신청	O	O
+6	##을	O	O
+7	하	O	O
+8	##는데	O	O
+9	그때	O	O
+10	##는	O	O
+11	조정	O	B-OG
+12	##위원회	O	I-OG
+13	##를	O	O
+14	구성	O	O
+15	##합니다	O	O
+16	.	O	O
+17	[SEP]	O	O

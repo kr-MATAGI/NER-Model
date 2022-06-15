@@ -1,17 +1,47 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	비빔	O	B-CV	B-CV, O, I-CV, B-TM, B-OG
-2	##국수	O	I-CV	I-CV, O, B-CV, I-TM, I-OG
-3	##를	O	O	O, I-CV, I-OG, I-AF, I-EV
-4	먹	O	O	O, B-CV, B-LC, I-CV, B-PS
-5	##고	O	O	O, B-CV, B-PS, B-LC, I-AF
-6	싶	O	O	O, B-CV, B-LC, B-PS, I-CV
-7	##다고	O	O	O, I-CV, B-CV, I-AF, I-OG
-8	얘기	O	O	O, B-CV, B-TM, I-CV, B-LC
-9	##를	O	O	O, B-CV, B-OG, B-PS, I-CV
-10	들	O	O	O, B-CV, B-LC, B-OG, B-PS
-11	##었	O	O	O, B-CV, I-CV, I-OG, B-LC
-12	##습	O	O	O, B-CV, I-CV, B-LC, I-OG
-13	##니다	O	O	O, B-CV, B-LC, I-CV, B-TM
-14	.	O	O	O, B-CV, B-LC, B-PS, B-OG
-15	[SEP]	O	O	O, B-CV, B-LC, I-OG, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	실제	O	O
+2	5	B-DT	B-DT
+3	##월	I-DT	I-DT
+4	한화	B-OG	B-OG
+5	##건설	I-OG	I-OG
+6	##이	O	O
+7	분양	O	O
+8	##한	O	O
+9	A	B-QT	B-LC
+10	##19	I-QT	I-LC
+11	##블	O	I-LC
+12	##록	O	I-LC
+13	##의	O	O
+14	‘	O	O
+15	한화	B-AF	B-AF
+16	꿈	I-AF	I-AF
+17	##에	I-AF	I-AF
+18	##그	I-AF	I-AF
+19	##린	I-AF	I-AF
+20	더	I-AF	I-AF
+21	##스타	I-AF	I-AF
+22	’	O	O
+23	는	O	O
+24	최고	O	O
+25	8	B-QT	B-QT
+26	대	I-QT	I-QT
+27	1	I-QT	I-QT
+28	##의	O	O
+29	청약	O	O
+30	##경	O	O
+31	##쟁	O	O
+32	##률	O	O
+33	##을	O	O
+34	보이	O	O
+35	##며	O	O
+36	1	B-QT	B-QT
+37	##순위	I-QT	I-QT
+38	청약	O	O
+39	##을	O	O
+40	모두	O	O
+41	마감	O	O
+42	##했	O	O
+43	##다	O	O
+44	.	O	O
+45	[SEP]	O	O

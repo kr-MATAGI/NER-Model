@@ -1,24 +1,41 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	짐	O	O	O, B-PS, B-AM, B-LC, B-AF
-2	##싼	O	O	O, I-PS, B-PS, I-AF, I-LC
-3	황제	B-CV	B-CV	B-CV, O, B-PS, B-AF, B-OG
-4	…	O	O	O, I-CV, I-PS, I-AF, I-OG
-5	페더	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-6	##러	I-PS	I-PS	I-PS, O, I-OG, I-LC, B-PS
-7	,	O	O	O, I-PS, I-OG, B-CV, I-EV
-8	프랑스	B-EV	B-LC	B-LC, B-EV, O, B-OG, B-AF
-9	오픈	I-EV	I-EV	I-EV, O, B-EV, I-LC, I-AF
-10	테니스	I-EV	B-CV	B-CV, I-EV, O, B-EV, I-CV
-11	8	I-EV	B-EV	B-EV, I-EV, B-QT, O, B-LC
-12	##강	I-EV	I-EV	I-EV, I-QT, I-LC, I-TM, O
-13	##서	O	O	O, I-EV, I-QT, B-CV, I-AF
-14	송	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
-15	##가	I-PS	I-PS	I-PS, O, I-OG, I-LC, B-PS
-16	##에	O	O	O, I-PS, I-OG, I-LC, I-AF
-17	##게	O	O	O, B-CV, B-TM, B-QT, I-QT
-18	3	B-QT	B-QT	B-QT, O, I-QT, B-EV, B-TM
-19	##대	I-QT	I-QT	I-QT, I-EV, O, I-TM, I-LC
-20	##0	I-QT	I-QT	I-QT, O, I-EV, I-LC, B-QT
-21	완패	O	O	O, I-QT, B-CV, B-TM, I-EV
-22	[SEP]	O	O	O, B-CV, B-PS, B-LC, I-EV
+	text	label	preds
+0	[CLS]	O	O
+1	홍보	O	O
+2	##와	O	O
+3	마케팅	O	O
+4	등	O	O
+5	사회	O	O
+6	경험	O	O
+7	##이	O	O
+8	풍부	O	O
+9	##한	O	O
+10	대학원생	B-CV	B-CV
+11	##들	O	O
+12	##은	O	O
+13	지난	B-DT	B-DT
+14	4	I-DT	I-DT
+15	##일	I-DT	I-DT
+16	'	O	O
+17	KAIST	B-EV	B-OG
+18	R	I-EV	I-EV
+19	##U	I-EV	I-EV
+20	##N	I-EV	I-EV
+21	2013	B-DT	B-DT
+22	'	O	O
+23	홈페이지	O	O
+24	(	O	O
+25	k	B-TM	B-TM
+26	##ai	I-TM	I-TM
+27	##st	I-TM	I-TM
+28	.	I-TM	I-TM
+29	don	I-TM	I-TM
+30	##us	I-TM	I-TM
+31	.	I-TM	I-TM
+32	org	I-TM	I-TM
+33	)	O	O
+34	를	O	O
+35	만들	O	O
+36	##었	O	O
+37	##다	O	O
+38	.	O	O
+39	[SEP]	O	O

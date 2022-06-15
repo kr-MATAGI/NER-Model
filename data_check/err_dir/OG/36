@@ -1,18 +1,34 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	이게	O	O	O, B-CV, B-LC, B-PS, B-OG
-2	그까	O	O	O, B-CV, B-LC, B-PS, B-OG
-3	만약	O	O	O, B-CV, B-PS, B-LC, B-QT
-4	##에	O	O	O, B-PS, B-CV, I-CV, B-LC
-5	또	O	O	O, B-CV, B-LC, B-QT, B-PS
-6	다른	O	O	O, B-CV, B-QT, B-PS, B-LC
-7	여아	B-OG	O	O, B-CV, I-CV, B-QT, B-TM
-8	##를	O	O	O, I-CV, B-CV, B-PS, I-QT
-9	만약	O	O	O, B-CV, B-PS, B-LC, B-QT
-10	##에	O	O	O, B-CV, I-CV, B-PS, I-AF
-11	납치	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-QT
-12	##를	O	O	O, I-CV, B-CV, I-EV, I-AF
-13	해	O	O	O, B-CV, B-LC, B-PS, I-CV
-14	##가지	O	O	O, B-CV, B-PS, I-CV, B-LC
-15	##고	O	O	O, B-CV, I-AF, I-CV, B-PS
-16	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-AF
+	text	label	preds
+0	[CLS]	O	O
+1	현재	O	O
+2	코스피	B-OG	O
+3	##20	I-OG	O
+4	##0	I-OG	O
+5	선물	O	O
+6	##은	O	O
+7	1	B-QT	B-QT
+8	##거래	I-QT	I-QT
+9	##단	I-QT	I-QT
+10	##위	I-QT	I-QT
+11	##가	O	O
+12	약	B-QT	B-QT
+13	1	I-QT	I-QT
+14	##억	I-QT	I-QT
+15	##30	I-QT	I-QT
+16	##00	I-QT	I-QT
+17	##만	I-QT	I-QT
+18	##원	I-QT	I-QT
+19	##이지	O	O
+20	##만	O	O
+21	미니	O	O
+22	선물	O	O
+23	##은	O	O
+24	2600	B-QT	B-QT
+25	##만	I-QT	I-QT
+26	##원	I-QT	I-QT
+27	수준	O	O
+28	##으로	O	O
+29	낮춰	O	O
+30	##진다	O	O
+31	.	O	O
+32	[SEP]	O	O

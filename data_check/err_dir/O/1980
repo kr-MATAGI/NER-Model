@@ -1,35 +1,56 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-AF, I-CV
-1	하지만	O	O	O, B-CV, B-OG, B-TM, B-LC
-2	이곳	O	O	O, B-LC, B-CV, B-OG, B-AF
-3	##은	O	O	O, B-LC, B-CV, B-OG, B-PS
-4	뉴질랜드	B-LC	B-LC	B-LC, O, B-OG, B-AF, B-PS
-5	유명	O	O	O, B-CV, I-LC, B-OG, B-LC
-6	회계	O	O	O, B-OG, B-CV, B-FD, I-OG
-7	##법인	O	O	O, I-OG, I-CV, B-OG, B-CV
-8	중	O	O	O, B-PS, I-OG, B-LC, B-CV
-9	하나	O	B-QT	B-QT, O, I-QT, B-PS, B-OG
-10	##인	O	O	O, I-QT, B-PS, I-OG, B-OG
-11	[UNK]	O	O	O, B-OG, B-LC, B-PS, B-CV
-12	회계	O	O	O, B-OG, B-CV, B-FD, I-OG
-13	##법인	O	O	O, I-OG, I-CV, B-OG, I-FD
-14	##이	O	O	O, B-PS, I-OG, B-OG, B-LC
-15	본사	O	O	O, B-CV, B-OG, B-AF, B-LC
-16	##로	O	O	O, I-OG, I-CV, I-AF, B-PS
-17	쓰	O	O	O, B-LC, B-CV, B-OG, B-PS
-18	##고	O	O	O, B-PS, B-OG, B-LC, I-OG
-19	있	O	O	O, B-PS, B-CV, B-OG, B-LC
-20	##고	O	O	O, B-CV, B-OG, B-LC, B-PS
-21	다른	O	O	O, B-OG, B-CV, B-LC, B-TM
-22	회사	O	O	O, B-CV, B-OG, I-OG, B-QT
-23	##가	O	O	O, B-PS, B-OG, B-CV, B-LC
-24	입주	O	O	O, B-CV, B-AF, B-OG, B-TM
-25	##해	O	O	O, B-PS, B-OG, B-LC, I-AF
-26	있	O	O	O, B-CV, B-PS, B-OG, I-AF
-27	##지	O	O	O, B-CV, B-OG, B-LC, I-OG
-28	##는	O	O	O, B-CV, B-OG, B-LC, I-OG
-29	않	O	O	O, B-CV, I-OG, B-LC, I-AF
-30	##았	O	O	O, B-CV, B-OG, I-OG, B-LC
-31	##다	O	O	O, B-CV, I-OG, B-LC, I-AF
-32	.	O	O	O, B-LC, B-OG, B-CV, B-PS
-33	[SEP]	O	O	O, B-CV, B-LC, B-OG, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	이런	O	O
+2	개념	O	O
+3	##을	O	O
+4	설명	O	O
+5	##하	O	O
+6	##기	O	O
+7	위해	O	O
+8	저자	B-CV	B-CV
+9	##는	O	O
+10	1910	B-DT	B-DT
+11	##년	I-DT	I-DT
+12	##대	I-DT	I-DT
+13	제	B-QT	B-QT
+14	##1	I-QT	I-QT
+15	##차	I-QT	I-QT
+16	세계	B-EV	B-EV
+17	##대	I-EV	I-EV
+18	##전	I-EV	I-EV
+19	솜	B-EV	B-EV
+20	전투	I-EV	I-EV
+21	##에	O	O
+22	##서	O	O
+23	독일군	B-OG	B-OG
+24	##과	O	O
+25	대치	O	O
+26	##하	O	O
+27	##던	O	O
+28	프랑스군	B-OG	B-OG
+29	##과	O	O
+30	영국	B-OG	B-OG
+31	##군	I-OG	I-OG
+32	사이	O	O
+33	##에	O	O
+34	오간	O	O
+35	기이	O	O
+36	##한	O	O
+37	협력	O	O
+38	##부터	O	O
+39	베인	O	B-OG
+40	##앤	O	I-OG
+41	##드	O	I-OG
+42	##컴	O	I-OG
+43	##퍼니	O	I-OG
+44	##의	O	O
+45	성공	O	O
+46	##까	O	O
+47	##지	O	O
+48	다양	O	O
+49	##한	O	O
+50	사례	O	O
+51	##를	O	O
+52	든다	O	O
+53	.	O	O
+54	[SEP]	O	O

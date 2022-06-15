@@ -1,57 +1,12 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-EV, B-CV, I-CV, I-OG
-1	미국	B-LC	B-LC	B-LC, B-OG, B-EV, O, B-AF
-2	공화	B-OG	B-OG	B-OG, B-EV, I-EV, I-OG, O
-3	##당	I-OG	I-EV	I-EV, I-OG, O, I-PS, I-LC
-4	전당	B-EV	B-EV	B-EV, O, I-EV, B-OG, I-OG
-5	##대	I-EV	I-EV	I-EV, O, I-OG, B-EV, I-AF
-6	##회	I-EV	I-EV	I-EV, O, I-OG, B-EV, I-AF
-7	(	O	O	O, I-EV, I-DT, I-OG, B-LC
-8	전대	O	O	O, B-EV, I-EV, B-LC, B-OG
-9	)	O	O	O, I-EV, I-DT, I-OG, I-CV
-10	를	O	O	O, B-LC, B-PS, B-DT, I-EV
-11	하루	B-DT	B-DT	B-DT, O, I-DT, B-LC, B-EV
-12	앞둔	O	O	O, I-DT, I-EV, B-LC, B-DT
-13	17	B-DT	B-DT	B-DT, I-DT, O, B-LC, B-EV
-14	##일	I-DT	I-DT	I-DT, O, B-DT, I-EV, I-PS
-15	,	O	O	O, I-DT, B-LC, B-OG, B-CV
-16	루이	B-LC	B-LC	B-LC, O, B-OG, I-LC, B-AF
-17	##지	I-LC	I-LC	I-LC, O, B-LC, I-AF, I-OG
-18	##애나	I-LC	I-LC	I-LC, O, B-LC, I-AF, I-PS
-19	##주	I-LC	I-LC	I-LC, O, B-LC, I-AF, I-PS
-20	배	B-LC	B-LC	B-LC, I-LC, O, B-AF, B-OG
-21	##턴	I-LC	I-LC	I-LC, O, I-AF, B-LC, I-OG
-22	루	I-LC	I-LC	I-LC, B-LC, O, I-AF, I-PS
-23	##지	I-LC	I-LC	I-LC, O, I-AF, B-LC, I-PS
-24	##에서	O	O	O, I-LC, I-AF, B-LC, I-EV
-25	벌어진	O	O	O, B-EV, B-CV, B-LC, I-EV
-26	경찰관	B-CV	B-CV	B-CV, B-EV, B-OG, O, I-EV
-27	3	B-QT	B-QT	B-QT, I-EV, I-QT, B-EV, B-DT
-28	##명	I-QT	I-QT	I-QT, I-EV, O, I-DT, I-AF
-29	피	O	O	O, B-EV, I-EV, I-QT, B-CV
-30	##격	O	O	O, I-EV, I-TM, I-AF, I-CV
-31	사건	O	O	O, I-EV, B-EV, I-AF, I-TM
-32	##은	O	O	O, I-EV, B-LC, B-PS, B-CV
-33	‘	O	O	O, B-LC, B-CV, B-OG, B-PS
-34	총기	O	B-AF	B-AF, O, I-AF, B-OG, B-CV
-35	’	O	O	O, I-AF, I-EV, I-OG, I-CV
-36	와	O	O	O, B-LC, B-CV, B-PS, B-TM
-37	‘	O	O	O, B-LC, B-CV, B-PS, B-OG
-38	폭력	O	O	O, B-CV, B-EV, B-LC, B-AF
-39	’	O	O	O, B-CV, B-PS, B-LC, I-EV
-40	에	O	O	O, B-LC, B-PS, B-CV, B-OG
-41	가뜩이나	O	O	O, B-LC, B-TM, B-CV, B-PS
-42	예민	O	O	O, B-LC, B-TM, B-PS, B-CV
-43	##해	O	O	O, B-PS, B-LC, B-TM, I-LC
-44	있	O	O	O, B-LC, B-PS, B-TM, B-CV
-45	##던	O	O	O, B-LC, B-PS, B-TM, B-CV
-46	클리블랜드	B-LC	B-LC	B-LC, O, B-OG, B-AF, I-LC
-47	##를	O	O	O, I-LC, B-CV, B-LC, I-AF
-48	바짝	O	O	O, B-LC, B-TM, B-QT, B-PS
-49	얼어붙	O	O	O, B-LC, B-TM, B-CV, B-PS
-50	##게	O	O	O, B-LC, B-PS, B-CV, I-LC
-51	만들	O	O	O, B-LC, B-CV, B-PS, B-TM
-52	##었	O	O	O, B-LC, B-CV, I-EV, B-PS
-53	##다	O	O	O, B-LC, B-CV, I-EV, B-EV
-54	.	O	O	O, B-LC, B-CV, I-EV, B-PS
-55	[SEP]	O	O	O, B-LC, B-CV, I-EV, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	나	O	O
+2	저쪽	O	O
+3	##에	O	O
+4	농협	B-OG	B-OG
+5	하나	I-OG	B-QT
+6	##로	I-OG	O
+7	고	O	O
+8	안	O	O
+9	##에	O	O
+10	[SEP]	O	O

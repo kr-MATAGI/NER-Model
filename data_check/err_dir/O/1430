@@ -1,19 +1,32 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	디지털	B-TM	B-TM	B-TM, O, B-TR, B-AF, B-EV
-2	카메라	I-TM	I-TM	I-TM, B-TM, O, I-TR, I-AF
-3	핵심	O	O	O, I-TM, B-CV, B-TM, I-QT
-4	기술	O	O	O, B-CV, B-LC, B-TM, I-CV
-5	개발	O	O	O, B-CV, B-LC, B-PS, B-TM
-6	##해	O	O	O, B-LC, B-PS, B-OG, I-OG
-7	…	O	O	O, B-LC, B-OG, B-PS, I-OG
-8	공학	O	B-FD	B-FD, O, B-CV, I-FD, B-OG
-9	##계	O	O	O, I-FD, I-OG, I-CV, I-TR
-10	##의	O	O	O, B-PS, I-OG, B-CV, I-EV
-11	노벨상	B-CV	B-CV	B-CV, O, B-AF, I-CV, B-PS
-12	,	O	O	O, I-CV, I-EV, I-AF, B-CV
-13	상금	O	O	O, B-CV, B-TM, B-QT, B-EV
-14	14	B-QT	B-QT	B-QT, I-QT, O, B-DT, B-PS
-15	##억	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-16	##원	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-17	[SEP]	O	O	O, I-QT, B-CV, I-AF, I-CV
+	text	label	preds
+0	[CLS]	O	O
+1	생명	B-OG	B-OG
+2	##보험	I-OG	I-OG
+3	##사회	I-OG	I-OG
+4	##공	I-OG	I-OG
+5	##헌	I-OG	I-OG
+6	##재단	I-OG	I-OG
+7	##은	O	O
+8	서울시	B-OG	B-OG
+9	##교육	I-OG	I-OG
+10	##청	I-OG	I-OG
+11	,	O	O
+12	중앙	B-OG	B-OG
+13	##자	I-OG	I-OG
+14	##살	I-OG	I-OG
+15	##예	I-OG	I-OG
+16	##방	I-OG	I-OG
+17	##센터	I-OG	I-OG
+18	##와	O	O
+19	함께	O	O
+20	청소년	B-CV	B-TM
+21	예방	O	I-TM
+22	지원	O	I-TM
+23	사업	O	I-TM
+24	##을	O	O
+25	벌이	O	O
+26	##고	O	O
+27	있	O	O
+28	##다	O	O
+29	.	O	O
+30	[SEP]	O	O

@@ -1,55 +1,29 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-EV, I-OG, B-CV, I-QT
-1	지난해	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-QT
-2	12	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
-3	##월	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
-4	취임	O	O	O, B-CV, B-EV, B-OG, B-PS
-5	##한	O	O	O, B-PS, I-CV, I-EV, I-OG
-6	박	B-PS	B-PS	B-PS, O, I-PS, B-OG, B-LC
-7	이사장	B-CV	B-CV	B-CV, O, I-PS, I-CV, B-EV
-8	##은	O	O	O, I-CV, I-EV, B-CV, I-OG
-9	1	B-DT	B-DT	B-DT, O, B-QT, I-DT, B-EV
-10	##년	I-DT	I-DT	I-DT, O, I-QT, B-DT, I-EV
-11	가까이	O	O	O, I-DT, B-LC, B-PS, B-DT
-12	언론	O	O	O, B-CV, B-TM, B-LC, B-EV
-13	인터뷰	O	O	O, I-EV, I-CV, B-LC, B-CV
-14	##를	O	O	O, B-LC, B-PS, B-OG, B-CV
-15	고사	O	O	O, B-LC, B-CV, B-TM, B-PS
-16	##해	O	O	O, B-LC, B-PS, B-DT, B-OG
-17	오	O	O	O, B-LC, B-PS, B-DT, B-OG
-18	##다가	O	O	O, B-LC, B-PS, I-EV, B-OG
-19	6	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-QT
-20	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
-21	50	B-DT	B-DT	B-DT, I-DT, O, B-EV, B-QT
-22	##주	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
-23	##년	I-DT	I-DT	I-DT, O, I-QT, I-EV, B-DT
-24	기념식	O	O	O, B-EV, I-EV, I-DT, B-CV
-25	##과	O	O	O, I-EV, B-LC, B-PS, I-DT
-26	7	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-QT
-27	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
-28	‘	O	O	O, B-EV, I-DT, B-LC, B-DT
-29	과학	O	B-EV	B-EV, O, I-EV, B-LC, B-CV
-30	##창	O	I-EV	I-EV, O, I-AF, B-EV, I-OG
-31	##의	O	I-EV	I-EV, O, I-AF, I-OG, I-LC
-32	##연	O	I-EV	I-EV, O, I-AF, I-LC, I-OG
-33	##례	O	I-EV	I-EV, O, I-AF, I-OG, I-LC
-34	##콘	O	I-EV	I-EV, O, I-AF, I-OG, I-LC
-35	##퍼런스	O	I-EV	I-EV, O, I-AF, I-LC, I-OG
-36	’	O	O	O, I-EV, B-LC, I-OG, I-DT
-37	개최	O	O	O, I-EV, B-LC, B-OG, B-CV
-38	##를	O	O	O, B-OG, B-LC, B-CV, I-EV
-39	앞두	O	O	O, B-LC, B-OG, B-CV, B-PS
-40	##고	O	O	O, B-LC, B-OG, B-PS, B-DT
-41	국내	O	O	O, B-LC, B-OG, B-CV, B-FD
-42	언론	O	O	O, B-CV, B-OG, I-OG, B-FD
-43	##으로	O	O	O, B-LC, B-PS, I-OG, B-CV
-44	##는	O	O	O, B-LC, B-OG, B-CV, B-TM
-45	본보	O	O	O, B-OG, B-CV, B-AF, B-LC
-46	##와	O	O	O, I-OG, B-LC, B-CV, B-DT
-47	첫	O	O	O, B-QT, B-EV, B-LC, B-CV
-48	인터뷰	O	O	O, I-QT, B-CV, I-EV, B-EV
-49	##를	O	O	O, I-EV, B-OG, B-CV, I-QT
-50	가졌	O	O	O, B-OG, B-CV, B-LC, B-EV
-51	##다	O	O	O, B-CV, B-LC, B-OG, I-EV
-52	.	O	O	O, B-LC, B-OG, B-CV, I-EV
-53	[SEP]	O	O	O, B-LC, B-CV, B-OG, I-EV
+	text	label	preds
+0	[CLS]	O	O
+1	바리스타	B-CV	B-CV
+2	##는	O	O
+3	고산	O	O
+4	##지역	O	O
+5	##에	O	O
+6	##서	O	O
+7	나	O	O
+8	##는	O	O
+9	귀한	O	O
+10	원두	O	B-CV
+11	##를	O	O
+12	맞춤	O	O
+13	로스	O	O
+14	##팅	O	O
+15	##해	O	O
+16	커피	B-CV	B-CV
+17	##의	O	O
+18	풍미	O	O
+19	##를	O	O
+20	살린	O	O
+21	프리미엄	O	O
+22	컵	O	O
+23	커피	B-CV	B-CV
+24	브랜드	O	O
+25	##다	O	O
+26	.	O	O
+27	[SEP]	O	O

@@ -1,123 +1,21 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-EV, I-CV, I-OG
-1	‘	O	O	O, B-OG, B-LC, B-DT, B-PS
-2	민주당	B-OG	B-OG	B-OG, I-OG, B-EV, B-LC, O
-3	4	I-OG	B-OG	B-OG, I-OG, B-EV, I-EV, B-LC
-4	##대	I-OG	I-OG	I-OG, I-EV, O, I-LC, I-CV
-5	##강	I-OG	I-OG	I-OG, I-EV, I-TM, I-LC, O
-6	##사업	I-OG	I-OG	I-OG, I-EV, I-TM, O, I-LC
-7	##저지	I-OG	I-OG	I-OG, I-EV, O, I-TM, I-CV
-8	특별	I-OG	I-OG	I-OG, O, I-EV, B-OG, I-CV
-9	##위원회	I-OG	I-OG	I-OG, O, I-EV, I-CV, I-LC
-10	’	O	O	O, I-OG, I-EV, B-OG, B-CV
-11	위원장	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-TM
-12	##을	O	O	O, I-CV, B-CV, B-PS, I-EV
-13	맡	O	O	O, B-CV, B-PS, B-LC, B-OG
-14	##고	O	O	O, B-PS, B-CV, B-LC, B-QT
-15	있	O	O	O, B-PS, B-CV, B-LC, B-QT
-16	##는	O	O	O, B-PS, B-LC, B-CV, B-OG
-17	이미	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
-18	##경	I-PS	I-PS	I-PS, O, I-OG, I-LC, B-PS
-19	사무총장	B-CV	B-CV	B-CV, O, I-PS, I-CV, B-TM
-20	##은	O	O	O, I-CV, I-EV, B-CV, I-OG
-21	이날	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-22	기자	O	O	O, I-DT, B-CV, I-EV, I-QT
-23	##회	O	O	O, I-EV, B-LC, B-CV, B-EV
-24	##견	O	O	O, I-EV, B-CV, B-LC, B-EV
-25	##을	O	O	O, B-CV, B-OG, B-LC, B-PS
-26	열	O	O	O, B-LC, B-CV, B-OG, B-PS
-27	##어	O	O	O, B-LC, B-OG, B-PS, B-CV
-28	“	O	O	O, B-LC, B-CV, B-OG, B-PS
-29	대	O	O	O, B-LC, B-PS, B-TM, B-CV
-30	##규모	O	O	O, B-LC, B-PS, B-TM, B-AF
-31	준설	O	O	O, B-LC, B-TM, B-AF, B-CV
-32	,	O	O	O, B-PS, B-LC, I-AF, B-CV
-33	대형	O	O	O, B-TM, B-AF, B-QT, B-LC
-34	보	O	O	O, B-AF, I-AF, B-LC, B-TM
-35	건설	O	O	O, I-AF, B-AF, B-LC, I-LC
-36	##을	O	O	O, B-PS, I-AF, B-CV, B-LC
-37	벌이	O	O	O, B-PS, B-LC, B-CV, B-OG
-38	##는	O	O	O, B-PS, B-LC, I-PS, B-OG
-39	엠	B-PS	B-PS	B-PS, O, I-PS, B-OG, B-LC
-40	##비	I-PS	I-PS	I-PS, O, I-OG, B-PS, I-LC
-41	(	O	O	O, I-PS, I-OG, B-PS, I-EV
-42	MB	B-PS	B-PS	B-PS, O, I-PS, B-OG, B-LC
-43	)	O	O	O, I-PS, B-PS, I-TR, I-EV
-44	식	O	O	O, I-PS, B-PS, B-TR, I-TR
-45	4	B-TM	B-TM	B-TM, I-TM, O, B-TR, B-LC
-46	##대	I-TM	I-TM	I-TM, O, I-TR, I-QT, B-TM
-47	##강	I-TM	I-TM	I-TM, O, I-TR, I-QT, I-OG
-48	사업	I-TM	I-TM	I-TM, O, I-TR, I-QT, I-OG
-49	##에	O	O	O, I-TM, I-QT, I-OG, I-TR
-50	대해선	O	O	O, B-LC, B-OG, B-CV, B-PS
-51	전혀	O	O	O, B-LC, B-OG, B-PS, B-CV
-52	동의	O	O	O, B-LC, B-CV, B-OG, B-PS
-53	##할	O	O	O, B-PS, B-LC, B-OG, B-CV
-54	수	O	O	O, B-PS, B-OG, B-LC, I-OG
-55	없	O	O	O, B-CV, I-OG, B-LC, B-PS
-56	##다	O	O	O, B-CV, B-LC, B-OG, B-PS
-57	”	O	O	O, B-CV, B-LC, B-OG, B-TM
-58	며	O	O	O, B-LC, B-OG, B-CV, B-TM
-59	“	O	O	O, B-CV, B-LC, B-OG, B-TM
-60	강	B-TM	O	O, B-TM, B-AF, I-TM, B-TR
-61	##살	I-TM	I-TM	I-TM, O, I-TR, B-TM, I-AF
-62	##리	I-TM	I-TM	I-TM, O, I-TR, I-AF, I-CV
-63	##기	I-TM	I-TM	I-TM, O, I-TR, I-AF, I-QT
-64	사업	I-TM	I-TM	I-TM, O, I-TR, I-AF, I-CV
-65	목적	O	O	O, I-TM, I-QT, B-CV, I-AF
-66	##은	O	O	O, B-LC, B-CV, B-OG, B-PS
-67	운하	O	O	O, B-TM, B-AF, B-LC, I-AF
-68	##용	O	O	O, I-AF, I-TM, B-LC, I-LC
-69	수량	O	O	O, B-LC, B-TM, B-AF, I-AF
-70	확보	O	O	O, B-TM, I-AF, B-LC, I-TM
-71	##가	O	O	O, B-PS, B-LC, I-AF, B-TM
-72	아니	O	O	O, B-LC, B-PS, B-CV, B-OG
-73	##라	O	O	O, B-LC, B-PS, B-OG, B-CV
-74	수질	B-TM	B-TM	B-TM, O, B-TR, I-TM, B-CV
-75	##개	I-TM	I-TM	I-TM, O, I-TR, I-CV, I-QT
-76	##선	I-TM	I-TM	I-TM, O, I-TR, I-CV, I-QT
-77	##사업	I-TM	I-TM	I-TM, O, I-TR, I-CV, I-QT
-78	##이	O	O	O, I-TM, B-PS, I-TR, I-QT
-79	우선시	O	O	O, B-LC, B-OG, B-CV, B-QT
-80	##돼	O	O	O, B-PS, B-LC, B-OG, I-PS
-81	##야	O	O	O, B-PS, B-LC, I-OG, I-PS
-82	하	O	O	O, B-LC, B-OG, B-PS, B-CV
-83	##며	O	O	O, B-LC, B-OG, B-TM, B-CV
-84	,	O	O	O, B-LC, B-CV, B-OG, B-PS
-85	4	B-LC	B-LC	B-LC, B-TM, O, B-OG, B-AF
-86	##대	I-LC	I-LC	I-LC, O, I-TM, B-LC, I-QT
-87	##강	I-LC	I-LC	I-LC, O, I-TM, I-QT, B-LC
-88	본	O	O	O, B-LC, I-LC, B-AF, B-TM
-89	##류	O	O	O, I-LC, B-LC, I-AF, I-TM
-90	##가	O	O	O, I-LC, B-LC, B-PS, I-AF
-91	아닌	O	O	O, B-LC, B-OG, B-PS, B-CV
-92	재해	O	O	O, B-LC, B-TM, B-CV, B-AF
-93	##에	O	O	O, B-LC, B-CV, B-PS, B-OG
-94	취약	O	O	O, B-LC, B-CV, B-OG, B-TM
-95	##하고	O	O	O, B-PS, B-LC, B-OG, B-TM
-96	정비	O	O	O, B-LC, B-CV, B-TM, B-PS
-97	##가	O	O	O, B-PS, B-LC, B-OG, B-CV
-98	시급	O	O	O, B-LC, B-PS, B-TM, B-AF
-99	##한	O	O	O, B-LC, B-PS, B-AF, B-TM
-100	지천	O	O	O, B-LC, B-AF, I-LC, B-TM
-101	·	O	O	O, I-LC, B-LC, I-AF, B-PS
-102	소하	O	O	O, B-LC, B-AF, B-CV, B-TM
-103	##천	O	O	O, I-LC, B-LC, I-AF, I-CV
-104	##을	O	O	O, B-LC, B-CV, I-LC, I-AF
-105	대상	O	O	O, B-LC, B-CV, B-TM, B-OG
-106	##으로	O	O	O, B-LC, B-PS, B-OG, B-CV
-107	강의	O	O	O, B-LC, B-PS, B-TM, B-AF
-108	특성	O	O	O, B-LC, B-CV, B-PS, B-TM
-109	##을	O	O	O, B-LC, B-CV, B-PS, B-OG
-110	고려	O	O	O, B-LC, B-CV, B-OG, B-TM
-111	##해서	O	O	O, B-LC, B-PS, B-OG, B-CV
-112	추진	O	O	O, B-CV, B-LC, B-OG, B-TM
-113	##해야	O	O	O, B-PS, B-LC, B-OG, B-CV
-114	한다	O	O	O, B-CV, B-OG, B-LC, B-TM
-115	”	O	O	O, B-CV, B-TM, B-LC, B-OG
-116	고	O	O	O, B-CV, B-TM, B-LC, B-QT
-117	말	O	O	O, B-CV, B-TM, B-LC, B-QT
-118	##했	O	O	O, B-CV, B-LC, B-PS, B-OG
-119	##다	O	O	O, B-CV, B-LC, B-TM, B-OG
-120	.	O	O	O, B-LC, B-PS, B-CV, B-OG
-121	[SEP]	O	O	O, B-LC, B-CV, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	아르헨티나	B-OG	B-LC
+2	팬	B-CV	B-CV
+3	##들의	O	O
+4	메시	B-PS	B-PS
+5	##에	O	O
+6	대한	O	O
+7	기대감	O	O
+8	##은	O	O
+9	실망	O	O
+10	##을	O	O
+11	넘어	O	O
+12	분노	O	O
+13	##로	O	O
+14	##까	O	O
+15	##지	O	O
+16	이어졌	O	O
+17	##다	O	O
+18	.	O	O
+19	[SEP]	O	O

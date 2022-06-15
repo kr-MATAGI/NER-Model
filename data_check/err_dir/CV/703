@@ -1,26 +1,50 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-EV, I-OG
-1	홈	O	O	O, B-LC, B-CV, B-EV, B-DT
-2	팀	O	O	O, I-EV, I-DT, I-CV, I-LC
-3	엘지	B-OG	B-OG	B-OG, O, I-OG, B-LC, B-PS
-4	##의	O	O	O, I-OG, I-AF, I-EV, B-CV
-5	줄	B-CV	B-TM	B-TM, O, B-AF, B-CV, B-LC
-6	##무늬	I-CV	I-TM	I-TM, O, B-TM, I-AF, I-CV
-7	유니폼	I-CV	B-CV	B-CV, I-TM, O, I-CV, I-AF
-8	##이	O	O	O, I-CV, I-AF, I-TM, B-CV
-9	아닌	O	O	O, B-CV, B-OG, B-LC, B-PS
-10	원정	O	O	O, B-LC, B-EV, B-CV, B-DT
-11	팀	O	O	O, I-EV, I-DT, I-LC, I-CV
-12	에스	B-OG	B-OG	B-OG, O, I-OG, B-LC, B-AF
-13	##케이	I-OG	I-OG	I-OG, O, I-LC, I-AF, I-EV
-14	##의	O	O	O, I-OG, I-AF, I-EV, I-CV
-15	빨간	O	O	O, B-TM, B-AF, B-LC, B-CV
-16	유니폼	B-CV	B-CV	B-CV, O, B-AF, I-CV, I-AF
-17	##을	O	O	O, I-CV, I-AF, B-CV, I-EV
-18	입	O	O	O, B-CV, B-TM, I-CV, B-LC
-19	##고	O	O	O, I-CV, B-CV, I-QT, I-AF
-20	있	O	O	O, B-CV, B-PS, B-LC, I-EV
-21	##었	O	O	O, B-CV, B-LC, I-OG, I-AF
-22	##다	O	O	O, B-CV, B-LC, I-OG, I-EV
-23	.	O	O	O, B-LC, B-CV, B-OG, B-PS
-24	[SEP]	O	O	O, B-CV, B-LC, B-OG, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	예	O	O
+2	##를	O	O
+3	들	O	O
+4	##면	O	O
+5	발달	O	B-CV
+6	장애인	B-CV	I-CV
+7	##이	O	O
+8	마트	O	O
+9	##에	O	O
+10	##서	O	O
+11	생활	O	O
+12	##용품	O	O
+13	##을	O	O
+14	사	O	O
+15	##거나	O	O
+16	은행	O	O
+17	##에	O	O
+18	##서	O	O
+19	통장	O	O
+20	##을	O	O
+21	개설	O	O
+22	##하	O	O
+23	##는	O	O
+24	자리	O	O
+25	##에	O	O
+26	후견인	B-CV	B-CV
+27	##이	O	O
+28	동행	O	O
+29	##해	O	O
+30	쉽	O	O
+31	##게	O	O
+32	설명	O	O
+33	##해	O	O
+34	##주	O	O
+35	##고	O	O
+36	,	O	O
+37	최종	O	O
+38	선택	O	O
+39	##은	O	O
+40	발달	O	O
+41	장애인	B-CV	O
+42	##이	O	O
+43	하	O	O
+44	##는	O	O
+45	식이	O	O
+46	##다	O	O
+47	.	O	O
+48	[SEP]	O	O

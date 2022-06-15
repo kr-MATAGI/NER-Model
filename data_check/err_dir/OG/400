@@ -1,28 +1,60 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, B-CV, I-OG, I-EV
-1	어제	O	B-DT	B-DT, O, I-DT, B-EV, B-CV
-2	오후	B-TI	B-TI	B-TI, I-TI, O, B-EV, I-DT
-3	##에	O	O	O, I-DT, I-TI, I-EV, I-QT
-4	국회	B-OG	B-OG	B-OG, B-AF, O, B-LC, B-EV
-5	정	B-OG	O	O, B-LC, B-AF, B-OG, B-CV
-6	##농	I-OG	O	O, I-LC, I-AF, I-OG, I-PS
-7	##관	I-OG	O	O, I-LC, I-AF, I-OG, I-PS
-8	##에	O	O	O, I-AF, I-LC, I-OG, I-PS
-9	전격	O	O	O, B-LC, B-CV, B-OG, B-PS
-10	##적인	O	O	O, B-LC, B-PS, B-OG, I-DT
-11	정의당	B-OG	B-OG	B-OG, O, B-LC, B-AF, B-PS
-12	심상정	B-PS	B-PS	B-PS, I-PS, O, B-OG, I-OG
-13	대표	B-CV	B-CV	B-CV, O, I-PS, I-CV, I-AF
-14	##를	O	O	O, I-CV, I-EV, B-CV, I-AF
-15	만나	O	O	O, B-CV, B-EV, B-LC, B-OG
-16	##고	O	O	O, B-LC, B-PS, B-OG, B-CV
-17	바로	O	O	O, B-LC, B-CV, B-OG, B-DT
-18	정동	O	B-LC	B-LC, O, B-AF, B-OG, B-TM
-19	##관	O	I-LC	I-LC, O, I-AF, I-OG, B-LC
-20	##으로	O	O	O, I-LC, I-AF, I-OG, I-QT
-21	가	O	O	O, B-CV, B-OG, B-AF, B-QT
-22	##버린	O	O	O, B-CV, I-AF, I-OG, I-QT
-23	거	O	O	O, B-CV, B-OG, B-LC, B-TM
-24	아닙니까	O	O	O, B-CV, I-OG, I-AF, B-LC
-25	.	O	O	O, B-CV, B-LC, B-OG, I-EV
-26	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	중국	B-OG	B-OG
+2	##사회	I-OG	I-OG
+3	##과학	I-OG	I-OG
+4	##원	I-OG	I-OG
+5	일본	B-LC	I-OG
+6	##연구소	O	I-OG
+7	##의	O	O
+8	우화	B-OG	B-PS
+9	##이	I-OG	I-PS
+10	##중	I-OG	I-PS
+11	(	O	O
+12	吳	O	O
+13	懷	O	O
+14	中	O	O
+15	)	O	O
+16	교수	B-CV	B-CV
+17	##는	O	O
+18	환	O	B-OG
+19	##구	O	I-OG
+20	##시	O	I-OG
+21	##보	O	I-OG
+22	##에	O	O
+23	""""	O	O
+24	정상	O	O
+25	국가	O	O
+26	##가	O	O
+27	군사력	O	O
+28	##을	O	O
+29	키우	O	O
+30	##려	O	O
+31	##는	O	O
+32	것	O	O
+33	##은	O	O
+34	비난	O	O
+35	##할	O	O
+36	바가	O	O
+37	아니	O	O
+38	##지만	O	O
+39	,	O	O
+40	일본	B-LC	B-LC
+41	##에	O	O
+42	대해선	O	O
+43	이웃	O	O
+44	##나라	O	O
+45	##들이	O	O
+46	심각	O	O
+47	##한	O	O
+48	물음	O	O
+49	##표	O	O
+50	##를	O	O
+51	붙인다	O	O
+52	""""	O	O
+53	고	O	O
+54	말	O	O
+55	##했	O	O
+56	##다	O	O
+57	.	O	O
+58	[SEP]	O	O

@@ -1,41 +1,15 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-EV, I-OG, B-CV, I-CV
-1	▷	O	O	O, B-LC, B-OG, B-DT, B-EV
-2	##지	B-DT	B-DT	B-DT, O, B-EV, I-DT, B-OG
-3	##난	I-DT	I-DT	I-DT, O, B-DT, I-EV, I-OG
-4	##해	I-DT	I-DT	I-DT, O, I-EV, B-DT, I-QT
-5	50	B-QT	B-QT	B-QT, I-QT, O, B-EV, I-DT
-6	##대	I-QT	I-QT	I-QT, O, I-EV, I-DT, I-OG
-7	##의	O	O	O, I-QT, I-EV, I-OG, B-PS
-8	포스	O	B-OG	B-OG, O, B-AF, B-LC, I-OG
-9	##텍	O	I-OG	I-OG, O, I-LC, I-AF, I-EV
-10	교수	B-CV	B-CV	B-CV, O, I-CV, I-OG, I-EV
-11	##가	O	O	O, I-CV, B-CV, I-OG, I-EV
-12	초등학생	B-CV	B-CV	B-CV, O, B-TM, B-PS, B-AM
-13	딸아이	O	O	O, B-CV, I-CV, B-PS, B-AM
-14	##에	O	O	O, I-CV, B-CV, B-PS, B-TM
-15	##게	O	O	O, B-CV, B-TM, B-PS, B-LC
-16	욕설	O	O	O, B-TM, B-CV, B-PS, I-CV
-17	문자	O	O	O, B-TM, B-CV, B-PS, I-TM
-18	##를	O	O	O, B-CV, B-PS, B-LC, I-CV
-19	보낸	O	O	O, B-CV, B-PS, B-LC, B-OG
-20	남자	O	O	O, B-CV, B-PS, I-CV, B-TM
-21	아이	O	O	O, B-CV, B-PS, I-CV, B-AM
-22	##를	O	O	O, B-CV, B-PS, I-CV, B-LC
-23	학교	O	O	O, B-CV, B-LC, B-PS, B-TM
-24	##로	O	O	O, B-CV, B-LC, B-TM, B-PS
-25	찾아가	O	O	O, B-CV, B-LC, B-TM, B-QT
-26	무릎	B-AM	B-AM	B-AM, O, B-TR, B-TM, B-PS
-27	##을	O	O	O, I-AF, B-CV, I-CV, I-EV
-28	꿇	O	O	O, B-CV, B-TM, B-LC, B-QT
-29	##게	O	O	O, B-CV, I-CV, B-PS, B-LC
-30	하고	O	O	O, B-CV, B-LC, B-QT, B-TM
-31	폭행	O	O	O, B-CV, B-LC, B-TM, I-EV
-32	##한	O	O	O, B-CV, B-PS, B-LC, B-QT
-33	사건	O	O	O, B-CV, I-EV, B-EV, B-LC
-34	##이	O	O	O, B-PS, B-CV, I-EV, B-LC
-35	발생	O	O	O, B-CV, I-EV, B-LC, B-OG
-36	##했	O	O	O, I-EV, I-OG, B-CV, I-AF
-37	##다	O	O	O, B-CV, I-EV, I-OG, B-LC
-38	.	O	O	O, B-CV, B-PS, B-LC, I-EV
-39	[SEP]	O	O	O, B-CV, B-PS, B-LC, I-EV
+	text	label	preds
+0	[CLS]	O	O
+1	평양	B-LC	B-LC
+2	##에	O	O
+3	##서	O	O
+4	경기	B-LC	B-LC
+5	##로	O	O
+6	남하	O	B-TM
+7	##한	O	O
+8	술	B-CV	B-CV
+9	##도	O	O
+10	있	O	O
+11	##다	O	O
+12	.	O	O
+13	[SEP]	O	O

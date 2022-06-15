@@ -1,5 +1,42 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-AF
-1	그릴	O	B-CV	B-CV, O, I-CV, B-OG, B-TM
-2	소스	B-CV	I-CV	I-CV, O, B-CV, I-OG, I-TM
-3	[SEP]	O	O	O, I-CV, I-OG, B-CV, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	14	B-DT	B-DT
+2	##일	I-DT	I-DT
+3	오전	B-TI	B-TI
+4	도쿄	B-LC	B-LC
+5	(	O	O
+6	東	O	O
+7	京	O	O
+8	)	O	O
+9	총리	B-CV	O
+10	##관	O	O
+11	##저	O	O
+12	주변	O	O
+13	##에	O	O
+14	##는	O	O
+15	안보	B-CV	O
+16	##법	I-CV	O
+17	##제	I-CV	O
+18	정비	O	O
+19	##에	O	O
+20	반대	O	O
+21	##하	O	O
+22	##는	O	O
+23	시민	O	O
+24	##단체	O	O
+25	관계자	B-CV	B-CV
+26	약	B-QT	B-QT
+27	500	I-QT	I-QT
+28	##명	I-QT	I-QT
+29	(	O	O
+30	주최	O	O
+31	측	O	O
+32	추산	O	O
+33	)	O	O
+34	이	O	O
+35	시위	O	O
+36	##를	O	O
+37	했	O	O
+38	##다	O	O
+39	.	O	O
+40	[SEP]	O	O

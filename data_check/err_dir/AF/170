@@ -1,16 +1,47 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, I-AF, B-CV
-1	내	O	O	O, B-CV, B-PS, B-LC, B-OG
-2	##가	O	O	O, B-PS, B-LC, B-CV, B-OG
-3	너	O	O	O, B-CV, B-LC, B-PS, B-TM
-4	##랑	O	O	O, B-PS, B-CV, B-LC, B-OG
-5	메세	B-AF	B-OG	B-OG, O, B-AF, B-EV, B-LC
-6	##나	I-AF	I-OG	I-OG, O, I-AF, I-LC, I-EV
-7	##를	O	O	O, I-OG, I-AF, I-EV, I-LC
-8	온	O	O	O, B-CV, B-AF, B-LC, B-PS
-9	적	O	O	O, B-PS, B-CV, B-LC, I-AF
-10	##이	O	O	O, B-PS, B-LC, B-CV, I-AF
-11	있	O	O	O, I-AF, B-CV, B-PS, B-LC
-12	##어	O	O	O, B-LC, I-AF, I-OG, B-PS
-13	?	O	O	O, B-CV, I-AF, B-PS, B-LC
-14	[SEP]	O	O	O, B-CV, B-LC, B-PS, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	문재인	B-PS	B-PS
+2	정부	B-OG	B-OG
+3	들어	O	O
+4	국정원	B-AF	B-OG
+5	##은	O	O
+6	내부	O	O
+7	개혁	O	O
+8	##을	O	O
+9	위해	O	O
+10	내	O	O
+11	·	O	O
+12	외부	O	O
+13	전문가	B-CV	B-CV
+14	13	B-QT	B-QT
+15	##명	I-QT	I-QT
+16	##으로	O	O
+17	이뤄진	O	O
+18	개혁	O	B-OG
+19	##발전	O	I-OG
+20	##위원회	O	I-OG
+21	##를	O	O
+22	설치	O	O
+23	##하	O	O
+24	##고	O	O
+25	산하	O	O
+26	##에	O	O
+27	국정원	B-AF	B-OG
+28	감찰	O	B-CV
+29	##실	O	I-CV
+30	##장	O	I-CV
+31	##을	O	O
+32	팀장	O	B-CV
+33	##으로	O	O
+34	하	O	O
+35	##는	O	O
+36	적폐	O	O
+37	##청	O	O
+38	##산	O	O
+39	##T	O	O
+40	##F	O	O
+41	##를	O	O
+42	꾸렸	O	O
+43	##다	O	O
+44	.	O	O
+45	[SEP]	O	O

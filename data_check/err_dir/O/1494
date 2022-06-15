@@ -1,13 +1,41 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, B-CV, I-OG, I-AF
-1	막	O	O	O, B-CV, B-TM, B-QT, B-OG
-2	복잡	O	O	O, B-TM, B-CV, B-LC, B-AF
-3	##하고	O	O	O, I-AF, B-PS, B-CV, I-CV
-4	정신	O	O	O, B-TM, B-LC, B-CV, B-TI
-5	##이	O	O	O, B-PS, I-AF, B-CV, I-CV
-6	하나	O	B-QT	B-QT, O, B-PS, B-LC, B-TM
-7	##도	O	O	O, I-QT, I-OG, I-LC, I-PS
-8	없	O	O	O, B-CV, B-TM, I-QT, B-PS
-9	##었	O	O	O, B-CV, I-AF, I-CV, B-OG
-10	##는데	O	O	O, B-CV, B-TM, I-AF, B-OG
-11	[SEP]	O	O	O, B-CV, B-LC, B-TM, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	‘	O	O
+2	신창	O	O
+3	##타이	O	O
+4	(	O	O
+5	新	O	O
+6	常	O	O
+7	態	O	O
+8	)	O	O
+9	.	O	O
+10	’	O	O
+11	2008	B-DT	B-DT
+12	##년	I-DT	I-DT
+13	금융	O	B-DT
+14	##위	O	I-DT
+15	##기	O	I-DT
+16	이후	O	I-DT
+17	세계	O	O
+18	경제	O	O
+19	##를	O	O
+20	일컫	O	O
+21	##는	O	O
+22	‘	O	O
+23	뉴	O	O
+24	노멀	O	O
+25	(	O	O
+26	New	O	O
+27	No	O	O
+28	##r	O	O
+29	##ma	O	O
+30	##l	O	O
+31	)	O	O
+32	’	O	O
+33	의	O	O
+34	중국	O	O
+35	##식	O	O
+36	표현	O	O
+37	##이다	O	O
+38	.	O	O
+39	[SEP]	O	O

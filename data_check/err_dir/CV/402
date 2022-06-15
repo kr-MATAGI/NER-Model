@@ -1,15 +1,15 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	어	O	O	O, B-CV, B-LC, B-TM, B-OG
-2	~	O	O	O, B-CV, I-CV, B-PS, B-LC
-3	후학	B-CV	O	O, B-CV, B-PS, I-CV, B-AF
-4	##들	O	O	O, I-CV, B-PS, I-AF, I-OG
-5	##을	O	O	O, B-CV, B-PS, I-CV, I-AF
-6	가르치	O	O	O, B-CV, B-PS, B-LC, B-OG
-7	##고	O	O	O, B-PS, B-CV, I-CV, B-LC
-8	계신	O	O	O, B-CV, B-PS, B-LC, B-OG
-9	대학	O	O	O, B-CV, B-OG, B-FD, B-AF
-10	교수	B-CV	B-CV	B-CV, O, I-CV, B-PS, B-FD
-11	##이	O	O	O, I-CV, B-PS, B-CV, I-EV
-12	##신	O	O	O, B-CV, B-PS, I-CV, B-LC
-13	[SEP]	O	O	O, B-CV, B-PS, I-CV, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	임	B-PS	B-PS
+2	##희	I-PS	I-PS
+3	##남	I-PS	I-PS
+4	##은	O	O
+5	한국	B-LC	B-LC
+6	남자	O	O
+7	100	B-QT	B-QT
+8	##m	I-QT	I-QT
+9	##의	O	O
+10	간판	O	O
+11	##스타	B-CV	O
+12	.	O	O
+13	[SEP]	O	O

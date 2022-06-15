@@ -1,14 +1,27 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, B-CV, I-OG, I-AF
-1	제일	O	O	O, B-CV, B-QT, B-TM, B-LC
-2	어려운	O	O	O, B-CV, B-AF, B-FD, B-PS
-3	게	O	O	O, B-CV, B-PS, I-AF, B-AF
-4	원	O	B-AF	B-AF, O, B-TM, B-PS, B-AM
-5	##석	O	I-AF	I-AF, O, I-TM, I-PS, I-AM
-6	##보	O	I-AF	I-AF, O, I-TM, I-TR, I-QT
-7	같	O	O	O, I-AF, I-QT, I-EV, I-TM
-8	##은	O	O	O, I-AF, B-CV, I-CV, B-PS
-9	거	O	O	O, B-CV, I-AF, B-PS, B-OG
-10	##예	O	O	O, B-CV, I-AF, I-OG, B-OG
-11	##요	O	O	O, B-CV, I-AF, I-OG, B-OG
-12	[SEP]	O	O	O, B-CV, I-AF, B-FD, B-AF
+	text	label	preds
+0	[CLS]	O	O
+1	3	B-QT	B-QT
+2	##m	I-QT	I-QT
+3	방수	O	O
+4	기능	O	O
+5	##이	O	O
+6	##기	O	O
+7	때문	O	O
+8	##에	O	O
+9	스킨	O	B-CV
+10	##스	O	I-CV
+11	##쿠버	O	I-CV
+12	##가	O	O
+13	아닌	O	O
+14	일반	O	O
+15	##적	O	O
+16	##인	O	O
+17	물놀이	O	O
+18	##에	O	O
+19	##서는	O	O
+20	충분	O	O
+21	##한	O	O
+22	수준	O	O
+23	##이다	O	O
+24	.	O	O
+25	[SEP]	O	O

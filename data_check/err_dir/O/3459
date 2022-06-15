@@ -1,44 +1,56 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-QT
-1	스톡	O	B-CV	B-CV, O, I-CV, B-AF, B-TM
-2	##옵션	O	I-CV	I-CV, O, B-CV, I-TM, I-TR
-3	##이	O	O	O, I-CV, B-PS, I-AF, I-OG
-4	뭔지	O	O	O, B-CV, B-PS, B-LC, B-TM
-5	##도	O	O	O, B-CV, B-PS, B-TM, B-LC
-6	모르	O	O	O, B-CV, B-PS, B-TM, B-QT
-7	##던	O	O	O, B-CV, B-PS, I-CV, B-LC
-8	시절	O	O	O, B-CV, B-PS, I-CV, B-TM
-9	##에	O	O	O, B-PS, B-CV, B-OG, I-CV
-10	증권	O	O	O, B-FD, B-CV, B-OG, I-FD
-11	##계	O	O	O, I-FD, I-OG, B-FD, B-PS
-12	##에서	O	O	O, B-PS, B-CV, B-LC, B-FD
-13	잔	O	O	O, B-PS, B-TM, B-CV, B-LC
-14	##뼈	O	O	O, B-TM, B-AM, B-PS, B-MT
-15	##가	O	O	O, B-PS, I-PS, B-LC, B-TM
-16	굵	O	O	O, B-PS, B-LC, B-CV, B-TM
-17	##은	O	O	O, B-PS, B-LC, I-PS, B-CV
-18	김	B-PS	B-PS	B-PS, O, I-PS, B-LC, B-OG
-19	행장	B-CV	B-CV	B-CV, O, I-PS, I-CV, B-TM
-20	##은	O	O	O, I-CV, B-CV, I-AF, I-OG
-21	주가	O	O	O, B-CV, B-TM, B-FD, B-PS
-22	상승	O	O	O, B-CV, B-PS, B-TM, I-CV
-23	이익	O	O	O, B-CV, B-TM, B-LC, B-PS
-24	##을	O	O	O, B-CV, B-PS, B-LC, B-OG
-25	최고	B-CV	B-CV	B-CV, O, B-TM, B-AF, B-PS
-26	##경영	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-QT
-27	##자	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-TM
-28	(	O	O	O, I-CV, I-OG, I-QT, B-CV
-29	CEO	B-CV	B-CV	B-CV, O, I-CV, B-PS, B-OG
-30	)	O	O	O, I-CV, B-CV, I-QT, I-OG
-31	몫	O	O	O, B-CV, B-QT, B-TM, B-LC
-32	##으로	O	O	O, B-CV, B-PS, B-LC, B-QT
-33	톡톡히	O	O	O, B-QT, B-PS, B-CV, B-LC
-34	챙긴	O	O	O, B-PS, B-QT, B-CV, I-QT
-35	‘	O	O	O, B-CV, B-PS, B-LC, I-QT
-36	꾀	O	B-AM	B-AM, O, B-PS, B-CV, B-TM
-37	##돌이	O	O	O, I-AM, I-CV, I-PS, I-TM
-38	’	O	O	O, B-CV, I-CV, B-PS, I-PS
-39	였	O	O	O, B-LC, B-PS, B-CV, B-OG
-40	##다	O	O	O, B-CV, B-LC, B-PS, B-OG
-41	.	O	O	O, B-CV, B-PS, B-LC, I-CV
-42	[SEP]	O	O	O, B-CV, B-LC, B-PS, I-CV
+	text	label	preds
+0	[CLS]	O	O
+1	이와	O	O
+2	함께	O	O
+3	점포	O	O
+4	##별	O	O
+5	스프링	B-TM	B-TM
+6	##클	I-TM	I-TM
+7	##러	I-TM	I-TM
+8	및	O	O
+9	소화기	O	O
+10	,	O	O
+11	구간	O	O
+12	##별	O	O
+13	화재	B-TM	B-TM
+14	##감	I-TM	I-TM
+15	##지기	I-TM	I-TM
+16	,	O	O
+17	소화	O	O
+18	##장치	O	O
+19	##함	O	O
+20	등	O	O
+21	##을	O	O
+22	설치	O	O
+23	##했	O	O
+24	##으며	O	O
+25	,	O	O
+26	아	O	O
+27	##케이드	O	O
+28	##는	O	O
+29	유독	O	B-MT
+30	##가스	O	I-MT
+31	배출	O	O
+32	예방	O	O
+33	##을	O	O
+34	위해	O	O
+35	개방	O	O
+36	##형	O	O
+37	##으로	O	O
+38	설계	O	O
+39	##하	O	O
+40	##는	O	O
+41	등	O	O
+42	화재	O	O
+43	##예	O	O
+44	##방	O	O
+45	##에도	O	O
+46	만	O	O
+47	##반	O	O
+48	##의	O	O
+49	준비	O	O
+50	##를	O	O
+51	갖췄	O	O
+52	##다	O	O
+53	.	O	O
+54	[SEP]	O	O

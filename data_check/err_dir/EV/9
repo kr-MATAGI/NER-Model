@@ -1,37 +1,69 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	지난해	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-QT
-2	글로벌	O	B-EV	B-EV, O, B-LC, I-EV, B-OG
-3	금융	B-EV	I-EV	I-EV, B-EV, O, B-LC, B-OG
-4	##위	I-EV	I-EV	I-EV, O, B-EV, I-OG, I-AF
-5	##기	I-EV	I-EV	I-EV, O, B-EV, I-OG, I-AF
-6	##가	O	O	O, I-EV, B-PS, I-OG, B-EV
-7	터진	O	O	O, I-EV, B-EV, B-PS, B-LC
-8	뒤	O	O	O, I-EV, B-LC, B-PS, B-EV
-9	중소형	O	O	O, B-CV, B-OG, B-TM, B-LC
-10	##주	O	O	O, I-CV, I-OG, I-LC, B-CV
-11	##들이	O	O	O, B-CV, I-CV, B-PS, B-LC
-12	강세	O	O	O, B-CV, B-TM, B-LC, B-OG
-13	##를	O	O	O, B-PS, B-CV, I-CV, I-OG
-14	보일	O	O	O, B-CV, B-PS, B-LC, B-TM
-15	때	O	O	O, B-PS, B-CV, B-LC, B-QT
-16	단기	O	O	O, B-CV, B-LC, B-TM, B-PS
-17	투자	O	O	O, B-CV, I-CV, B-PS, B-LC
-18	##를	O	O	O, B-CV, I-CV, B-PS, B-LC
-19	해	O	O	O, B-LC, B-PS, B-CV, B-TM
-20	약간	O	O	O, B-QT, B-CV, B-LC, B-TM
-21	##의	O	O	O, B-PS, B-LC, I-QT, B-QT
-22	수익	O	O	O, B-CV, B-TM, B-QT, B-LC
-23	##을	O	O	O, B-CV, B-PS, B-LC, I-CV
-24	올렸	O	O	O, B-CV, B-LC, B-PS, B-TM
-25	##던	O	O	O, B-CV, B-PS, B-LC, B-TM
-26	기억	O	O	O, B-CV, B-PS, B-LC, B-TM
-27	##이	O	O	O, B-PS, B-LC, B-CV, B-OG
-28	요즘	O	O	O, B-LC, B-PS, B-DT, B-CV
-29	계속	O	O	O, B-PS, B-LC, B-CV, B-TM
-30	떠오르	O	O	O, B-CV, B-PS, B-LC, B-TM
-31	##기	O	O	O, B-PS, B-CV, I-AF, I-CV
-32	때문	O	O	O, B-CV, B-PS, B-TM, B-LC
-33	##이다	O	O	O, B-CV, B-TM, I-CV, B-QT
-34	.	O	O	O, B-LC, B-PS, B-CV, I-EV
-35	[SEP]	O	O	O, B-CV, B-LC, B-PS, I-EV
+	text	label	preds
+0	[CLS]	O	O
+1	충남	B-LC	B-LC
+2	보령	B-EV	B-LC
+3	##시장	I-EV	B-CV
+4	선거	I-EV	I-EV
+5	##는	O	O
+6	한나라당	B-OG	B-OG
+7	신	B-PS	B-PS
+8	##준	I-PS	I-PS
+9	##희	I-PS	I-PS
+10	(	O	O
+11	72	B-QT	B-QT
+12	)	O	O
+13	현	O	O
+14	시장	B-CV	B-CV
+15	##과	O	O
+16	자유	B-OG	B-OG
+17	##선	I-OG	I-OG
+18	##진	I-OG	I-OG
+19	##당	I-OG	I-OG
+20	이시	B-PS	B-PS
+21	##우	I-PS	I-PS
+22	(	O	O
+23	61	B-QT	B-QT
+24	)	O	O
+25	전	O	O
+26	시장	B-CV	B-CV
+27	,	O	O
+28	민주당	B-OG	B-OG
+29	김기	B-PS	B-PS
+30	##호	I-PS	I-PS
+31	(	O	O
+32	48	B-QT	B-QT
+33	)	O	O
+34	후보	B-CV	B-CV
+35	##와	O	O
+36	무소	O	O
+37	##속	O	O
+38	김동	B-PS	B-PS
+39	##일	I-PS	I-PS
+40	(	O	O
+41	61	B-QT	B-QT
+42	)	O	O
+43	·	O	O
+44	임	B-PS	B-PS
+45	##세	I-PS	I-PS
+46	##빈	I-PS	I-PS
+47	(	O	O
+48	45	B-QT	B-QT
+49	)	O	O
+50	·	O	O
+51	양	B-PS	B-PS
+52	##창	I-PS	I-PS
+53	##용	I-PS	I-PS
+54	(	O	O
+55	42	B-QT	B-QT
+56	)	O	O
+57	후보	B-CV	B-CV
+58	등	O	O
+59	모두	O	O
+60	6	B-QT	B-QT
+61	##명	I-QT	I-QT
+62	##이	O	O
+63	출마	O	O
+64	##했	O	O
+65	##다	O	O
+66	.	O	O
+67	[SEP]	O	O

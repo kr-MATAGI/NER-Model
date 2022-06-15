@@ -1,40 +1,8 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	정부	B-OG	B-OG	B-OG, O, B-AF, B-LC, B-PS
-2	관계자	B-CV	B-CV	B-CV, I-CV, O, I-OG, B-OG
-3	##와	O	O	O, I-CV, I-OG, B-CV, I-EV
-4	금융	O	O	O, B-OG, B-CV, B-LC, B-FD
-5	##권	O	O	O, I-OG, I-CV, I-LC, I-AF
-6	수장	O	B-CV	B-CV, O, I-CV, B-PS, B-QT
-7	##들이	O	O	O, I-CV, B-CV, I-QT, I-OG
-8	내부	O	O	O, B-CV, B-TM, B-LC, B-PS
-9	검토	O	O	O, B-CV, B-TM, B-PS, B-LC
-10	수준	O	O	O, B-CV, B-PS, B-OG, B-LC
-11	##이	O	O	O, B-PS, B-OG, B-CV, B-LC
-12	##라는	O	O	O, B-CV, B-PS, B-OG, B-LC
-13	단서	O	O	O, B-PS, B-QT, B-CV, B-LC
-14	##를	O	O	O, B-CV, I-QT, B-PS, I-CV
-15	달	O	O	O, B-PS, B-CV, B-LC, B-EV
-16	##고	O	O	O, B-CV, B-PS, I-EV, B-LC
-17	있	O	O	O, B-CV, B-OG, B-LC, B-PS
-18	##지만	O	O	O, B-CV, B-LC, B-PS, B-OG
-19	,	O	O	O, B-CV, B-LC, B-OG, B-PS
-20	기존	O	O	O, B-CV, B-FD, B-QT, B-PS
-21	직원	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-EV
-22	##의	O	O	O, I-CV, B-CV, I-QT, I-EV
-23	임금	O	O	O, B-CV, I-CV, B-TR, B-TM
-24	삭감	O	O	O, I-CV, B-CV, B-TM, B-PS
-25	방안	O	O	O, B-CV, I-CV, B-LC, B-TM
-26	##에	O	O	O, B-CV, B-LC, B-OG, B-PS
-27	대한	O	O	O, B-LC, B-CV, B-OG, B-PS
-28	언급	O	O	O, B-CV, B-LC, B-TM, B-OG
-29	##을	O	O	O, B-CV, B-LC, B-OG, B-PS
-30	하	O	O	O, B-CV, B-LC, B-PS, B-OG
-31	##기	O	O	O, B-CV, B-LC, B-PS, B-OG
-32	시작	O	O	O, B-CV, B-LC, B-TM, B-PS
-33	##하	O	O	O, B-CV, B-PS, B-LC, B-OG
-34	##는	O	O	O, B-CV, B-LC, B-PS, B-OG
-35	양상	O	O	O, B-CV, B-LC, B-TM, B-OG
-36	##이다	O	O	O, B-CV, B-TM, B-QT, I-CV
-37	.	O	O	O, B-CV, B-LC, B-PS, B-OG
-38	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	하나	O	B-QT
+2	먹	O	O
+3	##었	O	O
+4	##는데	O	O
+5	##요	O	O
+6	[SEP]	O	O

@@ -1,24 +1,35 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	구	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-QT
-2	##십	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
-3	##구	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
-4	년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
-5	##도	O	I-DT	I-DT, O, B-DT, I-EV, I-QT
-6	##에	O	O	O, I-DT, B-OG, I-EV, B-DT
-7	군	B-CV	B-CV	B-CV, B-OG, O, B-AF, B-EV
-8	가산점	I-CV	I-CV	I-CV, B-CV, O, I-OG, I-EV
-9	제도	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-EV
-10	##가	O	O	O, I-CV, I-OG, I-EV, I-AF
-11	폐지	O	O	O, B-CV, B-OG, B-TM, I-CV
-12	##가	O	O	O, B-OG, B-PS, B-CV, B-LC
-13	되	O	O	O, B-CV, B-OG, B-PS, B-LC
-14	##면서	O	O	O, B-CV, B-LC, B-OG, B-PS
-15	화두	O	O	O, B-CV, B-TM, B-OG, B-QT
-16	##에	O	O	O, B-CV, B-OG, B-TM, B-LC
-17	오르	O	O	O, B-CV, B-OG, B-TM, B-QT
-18	##기	O	O	O, B-CV, B-OG, B-TM, B-PS
-19	시작	O	O	O, B-CV, B-TM, B-OG, I-EV
-20	##했	O	O	O, B-CV, B-OG, B-LC, B-PS
-21	##는데	O	O	O, B-CV, B-OG, B-LC, B-TM
-22	[SEP]	O	O	O, B-CV, B-OG, B-LC, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	조	B-PS	B-PS
+2	이사장	B-CV	B-CV
+3	##은	O	O
+4	이런	O	O
+5	공로	O	O
+6	등	O	O
+7	##을	O	O
+8	인정받	O	O
+9	##아	O	O
+10	지난	B-DT	B-DT
+11	5	I-DT	I-DT
+12	##월	I-DT	I-DT
+13	연세대	B-OG	B-OG
+14	창립	O	O
+15	130	B-DT	B-DT
+16	##주	I-DT	I-DT
+17	##년	I-DT	I-DT
+18	기념식	O	O
+19	##에	O	O
+20	##서	O	O
+21	'	O	O
+22	사회봉사	O	O
+23	##상	O	O
+24	개인	O	O
+25	부문	O	O
+26	대상	O	B-CV
+27	'	O	O
+28	을	O	O
+29	받	O	O
+30	##았	O	O
+31	##다	O	O
+32	.	O	O
+33	[SEP]	O	O

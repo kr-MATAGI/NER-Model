@@ -1,49 +1,33 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	그러나	O	O	O, B-CV, B-LC, B-OG, B-FD
-2	영화	O	O	O, B-FD, B-LC, B-CV, B-QT
-3	'	O	O	O, B-LC, B-CV, B-OG, B-PS
-4	아바타	B-AF	B-AF	B-AF, B-PS, B-LC, O, B-EV
-5	'	O	O	O, I-AF, I-EV, I-DT, I-PS
-6	'	O	O	O, B-LC, B-OG, B-CV, B-DT
-7	인	B-AF	B-AF	B-AF, B-PS, B-LC, O, B-EV
-8	##셉	I-AF	I-AF	I-AF, I-PS, O, B-AF, I-LC
-9	##션	I-AF	I-AF	I-AF, I-PS, O, I-LC, I-EV
-10	'	O	O	O, I-AF, I-EV, I-PS, B-LC
-11	등	O	O	O, B-LC, B-OG, B-CV, B-QT
-12	##에서	O	O	O, B-LC, B-OG, B-PS, B-CV
-13	볼	O	O	O, B-PS, B-QT, B-OG, B-CV
-14	수	O	O	O, B-PS, B-QT, I-QT, B-OG
-15	있	O	O	O, I-QT, B-QT, B-PS, B-CV
-16	##듯	O	O	O, B-PS, I-QT, B-LC, I-EV
-17	,	O	O	O, B-LC, B-OG, B-CV, B-PS
-18	인류	O	O	O, B-FD, B-LC, B-CV, B-OG
-19	문명	O	O	O, B-FD, I-FD, I-LC, I-CV
-20	##의	O	O	O, B-LC, B-PS, B-FD, B-OG
-21	미래	O	O	O, B-LC, B-FD, B-DT, B-QT
-22	##를	O	O	O, B-LC, B-CV, B-PS, B-OG
-23	그리	O	O	O, B-FD, B-LC, B-CV, B-OG
-24	##는	O	O	O, B-PS, B-LC, B-CV, B-QT
-25	동시	O	O	O, B-PS, B-LC, B-CV, B-TM
-26	##에	O	O	O, B-LC, B-PS, B-CV, B-OG
-27	인간	O	O	O, B-CV, B-LC, B-FD, B-PS
-28	##의	O	O	O, B-LC, B-PS, B-FD, B-CV
-29	본질	O	O	O, B-LC, B-CV, B-FD, B-QT
-30	##에	O	O	O, B-CV, B-PS, B-LC, B-TM
-31	대해서	O	O	O, B-LC, B-OG, B-CV, B-TM
-32	##도	O	O	O, B-LC, B-CV, B-PS, B-TM
-33	탐구	O	O	O, B-FD, B-LC, B-CV, B-QT
-34	##할	O	O	O, B-PS, B-LC, B-CV, I-QT
-35	수	O	O	O, B-PS, B-FD, B-LC, B-QT
-36	있	O	O	O, B-PS, B-FD, B-CV, B-LC
-37	##다는	O	O	O, B-PS, I-QT, B-LC, B-QT
-38	점	O	O	O, B-CV, B-LC, B-OG, B-PS
-39	##에서	O	O	O, B-CV, B-PS, B-OG, B-LC
-40	SF	O	B-FD	B-FD, O, B-TR, I-FD, B-AF
-41	##는	O	O	O, I-FD, I-OG, I-TR, I-QT
-42	매력	O	O	O, B-CV, B-FD, B-TM, B-LC
-43	##적인	O	O	O, I-CV, I-QT, B-CV, I-OG
-44	분야	O	O	O, B-CV, B-FD, B-PS, B-LC
-45	##다	O	O	O, B-CV, B-LC, B-OG, I-OG
-46	.	O	O	O, B-LC, B-FD, B-CV, B-PS
-47	[SEP]	O	O	O, B-LC, B-CV, B-FD, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	정치	B-CV	B-CV
+2	##자	I-CV	I-CV
+3	##금	I-CV	I-CV
+4	##법	I-CV	I-CV
+5	##상	O	O
+6	피	O	B-CV
+7	##선거	B-CV	I-CV
+8	##권	I-CV	I-CV
+9	박탈	O	O
+10	및	O	O
+11	당연	O	O
+12	##퇴직	O	O
+13	대상	O	O
+14	##이	O	O
+15	되	O	O
+16	##는	O	O
+17	'	O	O
+18	벌금	B-CV	B-CV
+19	100	B-QT	B-QT
+20	##만	I-QT	I-QT
+21	##원	I-QT	I-QT
+22	이상	I-QT	I-QT
+23	'	O	O
+24	보다	O	O
+25	한참	O	O
+26	높	O	O
+27	##은	O	O
+28	형량	O	O
+29	##이다	O	O
+30	.	O	O
+31	[SEP]	O	O

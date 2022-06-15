@@ -1,26 +1,38 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-EV, B-CV, I-OG, I-CV
-1	해외	O	O	O, B-CV, B-LC, B-EV, B-FD
-2	거장	O	B-CV	B-CV, O, I-CV, B-PS, B-EV
-3	##들	O	O	O, I-CV, I-EV, I-OG, B-CV
-4	##의	O	O	O, B-CV, B-PS, B-LC, I-EV
-5	작품	O	O	O, B-CV, B-FD, B-EV, B-PS
-6	128	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-EV
-7	##점	I-QT	I-QT	I-QT, O, I-EV, I-LC, I-PS
-8	##을	O	O	O, I-QT, I-EV, B-CV, B-LC
-9	한자	O	O	O, B-QT, B-EV, B-TM, B-LC
-10	##리에	O	O	O, I-QT, I-EV, I-LC, B-QT
-11	모은	O	O	O, B-EV, B-LC, B-QT, B-PS
-12	‘	B-EV	O	O, B-EV, I-EV, B-DT, B-LC
-13	나	I-EV	B-EV	B-EV, I-EV, O, B-CV, B-AF
-14	##의	I-EV	I-EV	I-EV, O, I-AF, B-EV, I-LC
-15	샤	I-EV	I-EV	I-EV, I-AF, B-EV, I-PS, I-LC
-16	##갈	I-EV	I-EV	I-EV, I-AF, I-PS, I-LC, O
-17	,	I-EV	I-EV	I-EV, I-AF, O, I-PS, I-LC
-18	당신	I-EV	I-EV	I-EV, I-AF, O, I-LC, I-TM
-19	##의	I-EV	I-EV	I-EV, I-AF, O, I-TM, I-LC
-20	피카소	I-EV	I-EV	I-EV, I-AF, I-PS, B-EV, I-LC
-21	’	I-EV	O	O, I-EV, B-EV, I-DT, I-AF
-22	전	I-EV	O	O, I-EV, B-EV, B-CV, B-PS
-23	.	O	O	O, I-EV, B-EV, I-DT, B-PS
-24	[SEP]	O	O	O, I-EV, B-EV, B-LC, B-CV
+	text	label	preds
+0	[CLS]	O	O
+1	인수위	B-OG	B-OG
+2	##는	O	O
+3	또	O	O
+4	대통령	B-CV	B-CV
+5	##이	O	O
+6	임명	O	O
+7	##하	O	O
+8	##는	O	O
+9	인사	B-CV	O
+10	##의	O	O
+11	공정성	O	O
+12	##을	O	O
+13	확보	O	O
+14	##하	O	O
+15	##기	O	O
+16	위해	O	O
+17	비서실	B-CV	B-CV
+18	##장	I-CV	I-CV
+19	##을	O	O
+20	위원장	B-CV	B-CV
+21	##으로	O	O
+22	하	O	O
+23	##는	O	O
+24	인사	O	B-OG
+25	##위원회	O	I-OG
+26	##를	O	O
+27	청와대	B-OG	B-OG
+28	##에	O	O
+29	설치	O	O
+30	##하	O	O
+31	##기	O	O
+32	##로	O	O
+33	했	O	O
+34	##다	O	O
+35	.	O	O
+36	[SEP]	O	O

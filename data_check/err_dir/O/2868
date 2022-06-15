@@ -1,26 +1,34 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, I-OG, B-CV, I-AF
-1	근데	O	O	O, B-CV, B-TM, B-OG, I-AF
-2	서울	B-LC	B-LC	B-LC, B-OG, O, B-AF, B-PS
-3	오	O	O	O, I-LC, I-AF, I-OG, B-CV
-4	##면	O	O	O, I-AF, I-OG, B-PS, B-CV
-5	재	O	B-CV	B-CV, O, B-PS, B-TM, B-QT
-6	##민	O	O	O, I-CV, B-CV, I-QT, I-TM
-7	없	O	O	O, I-CV, I-QT, I-AF, B-QT
-8	##을	O	O	O, I-CV, B-CV, I-AF, B-PS
-9	것	O	O	O, B-CV, B-PS, B-TM, I-CV
-10	같	O	O	O, B-CV, B-TM, I-CV, B-PS
-11	##아	O	O	O, B-CV, I-CV, B-PS, I-AF
-12	##요	O	O	O, B-CV, I-AF, I-CV, I-OG
-13	시골	O	O	O, B-LC, B-CV, B-TM, B-AF
-14	가야	O	O	O, B-CV, B-PS, I-AF, B-LC
-15	내	O	O	O, B-CV, B-AF, B-PS, B-LC
-16	##가	O	O	O, B-PS, I-AF, B-CV, B-AF
-17	운전	O	O	O, B-CV, B-AF, B-TM, I-AF
-18	##하	O	O	O, I-AF, B-CV, B-AF, I-CV
-19	##는	O	O	O, I-AF, B-CV, B-PS, B-AF
-20	재미	O	O	O, B-CV, I-AF, B-TM, B-PS
-21	##가	O	O	O, B-PS, I-AF, B-CV, I-CV
-22	있	O	O	O, B-CV, B-TM, I-AF, B-PS
-23	##는데	O	O	O, B-CV, I-AF, B-TM, I-CV
-24	[SEP]	O	O	O, B-CV, I-AF, B-LC, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	미국	B-LC	B-LC
+2	국립	O	B-OG
+3	##허	O	I-OG
+4	##리케	O	I-OG
+5	##인	O	I-OG
+6	##센터	O	I-OG
+7	##는	O	O
+8	""""	O	O
+9	어마	O	O
+10	##가	O	O
+11	11	B-DT	B-DT
+12	##일	I-DT	I-DT
+13	오전	B-TI	B-TI
+14	8	I-TI	I-TI
+15	##시	I-TI	I-TI
+16	##를	O	O
+17	기해	O	O
+18	열대	O	O
+19	##폭풍	O	O
+20	##으로	O	O
+21	세력	O	O
+22	##이	O	O
+23	약해	O	O
+24	##졌	O	O
+25	##다	O	O
+26	""""	O	O
+27	고	O	O
+28	발표	O	O
+29	##했	O	O
+30	##다	O	O
+31	.	O	O
+32	[SEP]	O	O

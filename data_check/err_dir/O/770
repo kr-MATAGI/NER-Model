@@ -1,43 +1,59 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	대검	B-OG	B-OG	B-OG, B-AF, O, B-LC, B-PS
-2	중앙	O	B-OG	B-OG, O, I-OG, B-CV, B-AF
-3	##수	O	I-OG	I-OG, O, B-OG, I-CV, I-AF
-4	##사	O	I-OG	I-OG, O, I-CV, B-OG, I-AF
-5	##부	O	I-OG	I-OG, O, I-CV, I-LC, I-AF
-6	산하	O	O	O, I-OG, B-OG, B-LC, B-PS
-7	저축	O	B-OG	B-OG, O, I-OG, B-CV, B-AF
-8	##은행	O	I-OG	I-OG, O, I-CV, B-OG, I-EV
-9	비리	O	I-OG	I-OG, O, B-OG, I-CV, B-CV
-10	합동	O	I-OG	I-OG, O, B-OG, I-CV, B-CV
-11	##수	O	I-OG	I-OG, O, I-CV, B-OG, I-EV
-12	##사	O	I-OG	I-OG, O, I-CV, B-OG, I-EV
-13	##단	O	I-OG	I-OG, O, I-CV, B-OG, I-EV
-14	(	O	O	O, I-OG, I-CV, I-EV, B-CV
-15	단장	B-CV	B-CV	B-CV, O, B-OG, B-PS, B-AF
-16	최	B-PS	B-PS	B-PS, B-OG, O, I-PS, I-OG
-17	##운	I-PS	I-PS	I-PS, I-OG, O, I-LC, B-PS
-18	##식	I-PS	I-PS	I-PS, I-OG, O, I-LC, I-QT
-19	)	O	O	O, I-PS, I-OG, B-CV, B-LC
-20	은	O	O	O, B-OG, B-LC, B-CV, B-PS
-21	이날	B-DT	B-DT	B-DT, O, I-DT, B-CV, B-QT
-22	솔로몬	B-OG	B-OG	B-OG, O, I-OG, I-DT, B-LC
-23	##저축	I-OG	I-OG	I-OG, O, I-LC, I-CV, I-AF
-24	##은행	I-OG	I-OG	I-OG, O, I-LC, I-CV, I-AF
-25	##으로	O	O	O, I-OG, I-AF, B-CV, I-CV
-26	##부터	O	O	O, B-CV, B-LC, B-TM, B-AF
-27	금품	O	O	O, B-CV, B-TM, B-QT, B-PS
-28	##을	O	O	O, B-CV, B-PS, I-CV, B-LC
-29	받	O	O	O, B-CV, B-PS, B-LC, B-TM
-30	##은	O	O	O, B-CV, B-PS, I-CV, B-LC
-31	혐의	O	O	O, B-CV, B-PS, B-LC, I-CV
-32	##로	O	O	O, B-PS, B-LC, B-CV, B-OG
-33	정	B-PS	B-PS	B-PS, B-OG, O, B-LC, I-PS
-34	의원	B-CV	B-CV	B-CV, I-PS, O, I-CV, I-AF
-35	##을	O	O	O, I-CV, B-CV, I-OG, I-EV
-36	불러	O	O	O, B-CV, B-LC, B-PS, B-TM
-37	조사	O	O	O, B-CV, B-LC, I-CV, I-EV
-38	##했	O	O	O, B-CV, B-LC, B-OG, B-PS
-39	##다	O	O	O, B-CV, B-LC, B-OG, I-OG
-40	.	O	O	O, B-LC, B-OG, B-CV, B-PS
-41	[SEP]	O	O	O, B-LC, B-CV, B-OG, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	보건복지부	B-OG	B-OG
+2	##는	O	O
+3	통계청	B-OG	B-OG
+4	##이	O	O
+5	최근	O	O
+6	발표	O	O
+7	##한	O	O
+8	‘	O	O
+9	한국	B-LC	B-AF
+10	##의	O	I-AF
+11	사회	O	I-AF
+12	##동	O	I-AF
+13	##향	O	I-AF
+14	2010	B-DT	B-DT
+15	’	O	O
+16	조사	O	O
+17	결과	O	O
+18	,	O	O
+19	우리	O	O
+20	##나라	O	O
+21	14	B-QT	B-QT
+22	##살	I-QT	I-QT
+23	이하	I-QT	I-QT
+24	어린이	O	O
+25	10	B-QT	B-QT
+26	##만	I-QT	I-QT
+27	##명	I-QT	I-QT
+28	##당	I-QT	I-QT
+29	안전사고	O	O
+30	사망자	B-CV	B-CV
+31	##는	O	O
+32	1999	B-DT	B-DT
+33	##년	I-DT	I-DT
+34	15	B-QT	B-QT
+35	.	I-QT	I-QT
+36	3	I-QT	I-QT
+37	##명	I-QT	I-QT
+38	##에	O	O
+39	##서	O	O
+40	2008	B-DT	B-DT
+41	##년	I-DT	I-DT
+42	6	B-QT	B-QT
+43	##명	I-QT	I-QT
+44	##으로	O	O
+45	크	O	O
+46	##게	O	O
+47	준	O	O
+48	것	O	O
+49	##으로	O	O
+50	나타났	O	O
+51	##다고	O	O
+52	26	B-DT	B-DT
+53	##일	I-DT	I-DT
+54	밝혔	O	O
+55	##다	O	O
+56	.	O	O
+57	[SEP]	O	O

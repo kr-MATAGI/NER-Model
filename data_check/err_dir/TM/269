@@ -1,43 +1,19 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	모바일게임	B-TM	B-TM	B-TM, O, B-AF, I-TM, B-QT
-2	##으로	O	O	O, I-TM, B-PS, I-QT, B-CV
-3	##는	O	O	O, B-TM, B-LC, B-CV, B-OG
-4	‘	O	O	O, B-CV, B-LC, B-TM, B-AF
-5	H	B-AF	B-AF	B-AF, O, B-TM, B-OG, B-CV
-6	##IT	I-AF	I-AF	I-AF, O, I-TM, I-OG, I-CV
-7	’	O	O	O, I-AF, I-OG, I-TM, I-CV
-8	를	O	O	O, B-CV, B-LC, B-PS, B-OG
-9	개발	O	O	O, B-CV, B-LC, B-PS, B-OG
-10	##한	O	O	O, B-LC, B-PS, B-OG, B-CV
-11	넷	B-OG	B-OG	B-OG, O, B-CV, B-LC, B-PS
-12	##게임	I-OG	I-OG	I-OG, O, I-PS, I-CV, I-LC
-13	##즈	I-OG	I-OG	I-OG, O, I-CV, I-PS, I-LC
-14	##의	O	O	O, I-OG, B-PS, B-CV, I-QT
-15	차기	O	O	O, B-TM, B-CV, B-LC, B-PS
-16	##작	O	O	O, B-CV, I-CV, B-PS, I-TM
-17	##인	O	O	O, B-PS, B-LC, B-CV, B-TM
-18	모바일	B-TM	B-TM	B-TM, O, B-AF, B-LC, B-TR
-19	멀티	O	O	O, B-TM, I-TM, B-AF, I-AF
-20	히어로	O	I-TM	I-TM, O, I-AF, B-TM, I-OG
-21	RPG	B-TM	I-TM	I-TM, O, I-AF, B-TM, B-AF
-22	‘	O	O	O, I-TM, I-AF, I-OG, B-CV
-23	오버	B-AF	B-AF	B-AF, O, B-OG, I-AF, B-PS
-24	##히트	I-AF	I-AF	I-AF, O, I-TM, I-OG, B-AF
-25	’	O	O	O, I-AF, I-OG, I-TM, B-CV
-26	가	O	O	O, B-LC, B-PS, B-OG, B-TM
-27	최근	O	O	O, B-DT, B-LC, B-TM, B-OG
-28	티저	O	O	O, B-TM, B-LC, B-EV, B-AF
-29	페이지	O	O	O, I-TM, I-EV, I-LC, I-AF
-30	##를	O	O	O, B-CV, B-LC, B-OG, B-TM
-31	오픈	O	O	O, B-LC, B-CV, B-TM, B-OG
-32	##하고	O	O	O, B-DT, B-LC, B-TM, B-OG
-33	연내	O	O	O, B-DT, B-TI, B-LC, B-QT
-34	출시	O	O	O, I-DT, B-LC, B-CV, I-EV
-35	##를	O	O	O, B-CV, B-LC, B-OG, B-PS
-36	준비	O	O	O, B-LC, B-CV, B-TM, B-OG
-37	##하고	O	O	O, B-LC, B-CV, B-TM, B-PS
-38	있	O	O	O, B-CV, B-LC, B-TM, B-OG
-39	##다	O	O	O, B-CV, B-LC, B-TM, B-OG
-40	.	O	O	O, B-LC, B-CV, B-TM, B-OG
-41	[SEP]	O	O	O, B-LC, B-CV, B-TM, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	올해	B-DT	B-DT
+2	대회	O	O
+3	##에	O	O
+4	##는	O	O
+5	한	O	O
+6	남자	O	O
+7	##의	O	O
+8	여인	O	O
+9	##으로	O	O
+10	코트	B-TM	B-CV
+11	##에	O	O
+12	나서	O	O
+13	##고	O	O
+14	있	O	O
+15	##다	O	O
+16	.	O	O
+17	[SEP]	O	O

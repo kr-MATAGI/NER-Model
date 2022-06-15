@@ -1,43 +1,25 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-EV, B-CV, I-CV
-1	■	O	O	O, B-LC, B-CV, B-PS, B-TM
-2	불	O	O	O, B-AF, B-PS, B-LC, B-MT
-3	##쏘	O	O	O, I-AF, B-AF, I-LC, B-PS
-4	##시	O	O	O, I-AF, B-PS, B-AF, I-LC
-5	##개	O	O	O, I-AF, I-LC, I-PS, B-PS
-6	같	O	O	O, I-AF, B-PS, B-CV, B-LC
-7	##던	O	O	O, B-LC, B-PS, B-CV, I-AF
-8	억새	B-PT	B-PT	B-PT, O, B-AM, B-LC, B-CV
-9	그러나	O	O	O, I-EV, B-LC, B-CV, I-AF
-10	야간	O	B-TI	B-TI, O, B-QT, B-LC, B-TM
-11	##에	O	O	O, I-TI, I-EV, I-QT, I-AF
-12	2	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-TI
-13	##만	I-QT	I-QT	I-QT, O, I-PS, I-LC, B-QT
-14	##명	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-15	##이	O	O	O, I-QT, B-PS, B-CV, B-LC
-16	산	O	O	O, B-LC, B-PT, B-CV, I-LC
-17	##꼭	O	O	O, B-LC, I-LC, B-CV, I-AF
-18	##대기	O	O	O, I-LC, B-LC, B-AM, I-AF
-19	##에서	O	O	O, B-CV, B-LC, B-PS, I-LC
-20	불	O	O	O, B-LC, B-AF, B-CV, B-PS
-21	##놀이	O	O	O, I-AF, I-LC, I-EV, I-CV
-22	##를	O	O	O, B-CV, I-AF, I-EV, B-PS
-23	하	O	O	O, B-CV, B-LC, B-PS, B-OG
-24	##는	O	O	O, B-CV, B-LC, B-OG, B-PS
-25	것	O	O	O, B-CV, B-OG, B-LC, B-PS
-26	자체	O	O	O, B-CV, B-PS, B-OG, B-LC
-27	##가	O	O	O, B-PS, B-OG, B-LC, B-CV
-28	무모	O	O	O, B-CV, B-LC, B-PS, B-AF
-29	##한	O	O	O, B-PS, B-LC, B-CV, I-AF
-30	일	O	O	O, B-CV, B-LC, B-OG, B-PS
-31	##이	O	O	O, B-PS, B-CV, B-OG, B-LC
-32	##었	O	O	O, B-CV, B-PS, B-LC, B-OG
-33	##다는	O	O	O, B-CV, B-LC, B-PS, B-OG
-34	지적	O	O	O, B-CV, B-LC, B-TM, B-OG
-35	##을	O	O	O, B-CV, B-PS, B-OG, I-CV
-36	받	O	O	O, B-CV, B-LC, B-PS, B-OG
-37	##고	O	O	O, B-CV, B-LC, B-PS, I-EV
-38	있	O	O	O, B-CV, B-LC, B-OG, I-EV
-39	##다	O	O	O, B-CV, B-LC, I-EV, I-OG
-40	.	O	O	O, B-LC, B-CV, B-PS, I-EV
-41	[SEP]	O	O	O, B-CV, B-LC, I-EV, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	우연히	O	O
+2	밴드	O	B-AF
+3	##스타	O	I-AF
+4	##킹	O	I-AF
+5	##을	O	O
+6	발견	O	O
+7	##해	O	O
+8	입	O	O
+9	##어	O	O
+10	##본	O	O
+11	그	O	O
+12	##는	O	O
+13	여자	O	O
+14	##로	O	O
+15	##서	O	O
+16	살아	O	O
+17	##보기	O	O
+18	##로	O	O
+19	결심	O	O
+20	##했	O	O
+21	##다	O	O
+22	.	O	O
+23	[SEP]	O	O

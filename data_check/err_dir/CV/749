@@ -1,13 +1,52 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	밀레	B-CV	O	O, B-OG, B-CV, B-TR, B-PS
-2	##니	I-CV	O	O, I-OG, I-CV, I-TR, I-MT
-3	##움	I-CV	O	O, I-OG, I-CV, I-TR, I-PS
-4	디	I-CV	O	O, I-OG, I-CV, I-TR, I-AF
-5	##벨	I-CV	O	O, I-OG, I-CV, I-TR, I-PS
-6	##롭	I-CV	O	O, I-OG, I-CV, I-TR, I-PS
-7	##먼트	I-CV	O	O, I-OG, I-CV, I-PS, I-TR
-8	골	I-CV	O	O, I-OG, B-PS, I-PS, I-CV
-9	##즈	I-CV	O	O, I-OG, I-CV, I-PS, I-PT
-10	##라고	O	O	O, I-OG, I-PS, I-CV, I-DT
-11	[SEP]	O	O	O, I-OG, B-CV, B-OG, I-CV
+	text	label	preds
+0	[CLS]	O	O
+1	금융	B-OG	B-OG
+2	##위	I-OG	I-OG
+3	관계자	B-CV	B-CV
+4	##는	O	O
+5	“	O	O
+6	고소득	B-CV	O
+7	##자	I-CV	O
+8	##에	O	O
+9	대한	O	O
+10	대출	O	O
+11	##이	O	O
+12	실제	O	O
+13	얼마나	O	O
+14	이뤄지고	O	O
+15	있	O	O
+16	##는지	O	O
+17	현황	O	O
+18	##을	O	O
+19	파악	O	O
+20	##하	O	O
+21	##고	O	O
+22	있	O	O
+23	##다	O	O
+24	”	O	O
+25	며	O	O
+26	“	O	O
+27	결과	O	O
+28	##를	O	O
+29	살펴본	O	O
+30	뒤	O	O
+31	소득	O	O
+32	##규	O	O
+33	##정	O	O
+34	##을	O	O
+35	추가	O	O
+36	##할	O	O
+37	것	O	O
+38	##인지	O	O
+39	여부	O	O
+40	##를	O	O
+41	검토	O	O
+42	##할	O	O
+43	것	O	O
+44	”	O	O
+45	이라	O	O
+46	##고	O	O
+47	밝혔	O	O
+48	##다	O	O
+49	.	O	O
+50	[SEP]	O	O

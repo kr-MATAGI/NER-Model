@@ -1,36 +1,13 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	야외	O	O	O, B-LC, B-TM, B-CV, B-AF
-2	수영장	O	O	O, B-LC, B-AF, B-CV, I-AF
-3	##인	O	O	O, I-AF, B-CV, B-PS, I-CV
-4	서울	B-LC	B-LC	B-LC, O, B-OG, B-AF, B-PS
-5	한강	B-LC	B-LC	B-LC, O, I-LC, B-AF, B-OG
-6	##시	I-LC	I-LC	I-LC, B-LC, O, I-AF, I-OG
-7	##민	I-LC	I-LC	I-LC, O, I-AF, B-LC, I-OG
-8	##공원	I-LC	I-LC	I-LC, O, I-AF, B-LC, I-OG
-9	수영장	O	O	O, I-LC, I-AF, B-AF, B-LC
-10	##도	O	O	O, I-AF, I-LC, B-CV, I-OG
-11	작년	B-CV	B-DT	B-DT, O, B-QT, I-DT, B-EV
-12	방문객	I-CV	B-CV	B-CV, O, I-DT, B-EV, B-TM
-13	56	B-QT	B-QT	B-QT, I-QT, B-DT, O, I-CV
-14	##만	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-DT
-15	##99	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-16	##20	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-17	##명	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-18	##보	O	O	O, I-QT, B-CV, I-CV, I-DT
-19	##다	O	O	O, B-DT, I-QT, B-QT, B-CV
-20	20	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-PS
-21	##만	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-22	##명	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-23	줄어든	O	O	O, I-QT, B-QT, B-CV, B-TM
-24	36	B-QT	B-QT	B-QT, I-QT, O, B-DT, B-PS
-25	##만	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-26	##59	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-27	##67	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-28	##명	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-29	##만	I-QT	I-QT	I-QT, O, I-LC, I-PS, I-TM
-30	찾	O	O	O, I-QT, B-CV, B-OG, B-TM
-31	##았	O	O	O, B-CV, I-AF, I-OG, I-QT
-32	##다	O	O	O, B-CV, B-TM, B-LC, I-OG
-33	.	O	O	O, B-LC, B-CV, B-PS, B-AF
-34	[SEP]	O	O	O, B-LC, B-CV, B-AF, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	근데	O	O
+2	일단	O	O
+3	유아	B-PS	B-PS
+4	##인	I-PS	I-PS
+5	##은	O	O
+6	영문	B-CV	O
+7	##명	O	O
+8	##으로	O	O
+9	된	O	O
+10	트위터	B-TM	B-TM
+11	[SEP]	O	O

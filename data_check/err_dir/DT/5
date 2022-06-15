@@ -1,13 +1,15 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	작년	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-CV
-2	올해	B-DT	I-DT	I-DT, B-DT, O, I-QT, I-TI
-3	연초	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-TI
-4	##까	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-OG
-5	##지	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-OG
-6	##는	O	O	O, I-DT, B-CV, B-OG, I-QT
-7	아무래도	O	O	O, B-CV, B-LC, B-OG, B-TM
-8	최순	B-PS	B-PS	B-PS, B-OG, B-LC, O, I-PS
-9	##실	I-PS	I-PS	I-PS, I-OG, O, I-DT, I-LC
-10	##입니다	O	O	O, I-PS, I-OG, I-AF, B-CV
-11	[SEP]	O	O	O, B-CV, B-OG, B-LC, B-DT
+	text	label	preds
+0	[CLS]	O	O
+1	시즌	B-DT	O
+2	후반부	I-DT	O
+3	##터	I-DT	O
+4	신	B-PS	B-PS
+5	감독	B-CV	B-CV
+6	##의	O	O
+7	칭찬	O	O
+8	##도	O	O
+9	들	O	O
+10	##었	O	O
+11	##다	O	O
+12	.	O	O
+13	[SEP]	O	O

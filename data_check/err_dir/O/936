@@ -1,100 +1,32 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-EV, I-OG
-1	유경	B-PS	B-PS	B-PS, B-OG, O, B-LC, I-PS
-2	##준	I-PS	I-PS	I-PS, I-OG, O, I-LC, I-QT
-3	한국	B-OG	B-OG	B-OG, O, I-OG, B-LC, I-PS
-4	##기술	I-OG	I-OG	I-OG, O, I-LC, B-OG, I-AF
-5	##교육	I-OG	I-OG	I-OG, O, I-LC, I-AF, I-PS
-6	##대	I-OG	I-OG	I-OG, O, I-LC, I-AF, I-EV
-7	교수	B-CV	B-CV	B-CV, O, I-CV, I-OG, B-AF
-8	##는	O	O	O, I-CV, I-OG, I-EV, I-AF
-9	""""	O	O	O, B-LC, B-CV, B-OG, B-PS
-10	정부	B-OG	B-OG	B-OG, O, B-PS, B-LC, B-AF
-11	##가	O	O	O, I-OG, B-PS, I-EV, B-CV
-12	그동안	O	O	O, B-LC, B-CV, B-PS, B-OG
-13	연금	O	B-CV	B-CV, O, I-CV, B-FD, B-TR
-14	개혁	O	O	O, I-CV, B-CV, B-PS, I-EV
-15	##을	O	O	O, B-PS, I-CV, B-CV, B-LC
-16	1995	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-17	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-18	,	O	O	O, I-DT, B-LC, B-DT, B-PS
-19	2000	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-20	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-21	,	O	O	O, I-DT, B-LC, B-DT, B-PS
-22	2007	B-DT	B-DT	B-DT, I-DT, O, B-QT, B-LC
-23	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-24	3	B-QT	B-QT	B-QT, O, I-QT, B-DT, I-DT
-25	##차례	I-QT	I-QT	I-QT, O, I-DT, I-EV, B-QT
-26	했	O	O	O, I-QT, B-PS, B-CV, B-LC
-27	##지만	O	O	O, B-PS, B-LC, B-CV, I-QT
-28	,	O	O	O, B-LC, B-CV, B-PS, B-OG
-29	매번	O	O	O, B-QT, B-PS, B-LC, B-CV
-30	기득	O	O	O, B-CV, B-PS, B-TR, B-LC
-31	##권	O	O	O, I-CV, I-PS, B-CV, B-PS
-32	##을	O	O	O, I-CV, B-PS, B-CV, I-PS
-33	인정	O	O	O, B-PS, B-CV, B-LC, B-OG
-34	##해	O	O	O, B-PS, B-LC, B-CV, I-PS
-35	##주	O	O	O, B-PS, B-CV, B-LC, I-PS
-36	##고	O	O	O, B-PS, B-LC, I-PS, B-CV
-37	신규	O	O	O, B-CV, B-PS, B-LC, B-OG
-38	공무원	B-CV	B-CV	B-CV, O, I-CV, B-AF, B-OG
-39	##들	O	O	O, I-CV, I-AF, B-CV, B-PS
-40	##만	O	O	O, B-PS, B-LC, B-QT, B-CV
-41	낮추	O	O	O, B-PS, B-LC, B-CV, B-QT
-42	##는	O	O	O, B-PS, B-LC, B-CV, B-QT
-43	개혁	O	O	O, B-CV, B-PS, B-LC, B-OG
-44	##을	O	O	O, B-PS, B-CV, B-LC, B-OG
-45	한	O	O	O, B-PS, B-LC, B-OG, B-CV
-46	결과	O	O	O, B-CV, B-PS, B-LC, B-QT
-47	""""	O	O	O, B-CV, B-LC, B-PS, B-OG
-48	라며	O	O	O, B-LC, B-PS, B-OG, B-CV
-49	""""	O	O	O, B-LC, B-CV, B-PS, B-OG
-50	결국	O	O	O, B-CV, B-LC, B-PS, B-QT
-51	은퇴자	B-CV	B-CV	B-CV, O, I-CV, B-AF, B-TM
-52	##들	O	O	O, I-CV, I-AF, B-PS, B-CV
-53	##은	O	O	O, B-CV, B-PS, B-LC, B-QT
-54	낸	O	O	O, B-CV, B-PS, B-QT, B-LC
-55	돈	O	O	O, B-CV, B-QT, B-PS, I-CV
-56	##의	O	O	O, B-PS, B-CV, B-QT, B-LC
-57	4	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-PS
-58	~	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-59	6	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-60	##배	I-QT	I-QT	I-QT, O, I-LC, I-PS, I-OG
-61	##를	O	O	O, I-QT, B-CV, I-OG, I-AF
-62	받	O	O	O, B-CV, B-PS, B-LC, I-QT
-63	##고	O	O	O, B-PS, B-LC, B-CV, B-OG
-64	,	O	O	O, B-CV, B-LC, B-PS, B-OG
-65	20	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-LC
-66	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-67	##에	O	O	O, I-DT, B-CV, I-EV, I-AF
-68	걸쳐	O	O	O, B-LC, B-PS, B-OG, I-DT
-69	연금	O	B-CV	B-CV, O, I-CV, B-AF, B-FD
-70	##을	O	O	O, I-CV, B-CV, I-AF, B-PS
-71	조금	O	O	O, B-CV, B-QT, B-LC, B-TM
-72	##씩	O	O	O, B-PS, B-LC, I-QT, B-OG
-73	깎	O	O	O, B-LC, B-CV, B-PS, B-OG
-74	##아	O	O	O, B-LC, B-PS, B-OG, B-CV
-75	재정	O	O	O, B-CV, B-LC, B-PS, B-TM
-76	부담	O	O	O, B-PS, B-CV, B-LC, B-TM
-77	##을	O	O	O, B-PS, B-LC, B-CV, B-OG
-78	후배	B-CV	B-CV	B-CV, O, B-AF, B-OG, B-TM
-79	공무원	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-AF
-80	##들	O	O	O, I-CV, B-CV, I-AF, I-OG
-81	##과	O	O	O, B-PS, B-CV, B-LC, B-OG
-82	국민	B-CV	B-CV	B-CV, O, B-OG, I-CV, B-AF
-83	##들	O	O	O, I-CV, I-AF, I-OG, I-EV
-84	##에	O	O	O, B-PS, B-CV, B-LC, B-TM
-85	##게	O	O	O, B-LC, B-PS, B-TM, B-CV
-86	떠	O	O	O, B-LC, B-CV, B-PS, B-TM
-87	##넘	O	O	O, B-PS, B-CV, B-LC, B-TM
-88	##겼	O	O	O, B-PS, B-CV, B-LC, B-QT
-89	##기	O	O	O, B-CV, B-PS, B-LC, B-QT
-90	때문	O	O	O, B-CV, B-PS, B-QT, B-LC
-91	""""	O	O	O, B-CV, B-LC, B-TM, B-PS
-92	이라	O	O	O, B-CV, B-PS, B-LC, B-TM
-93	##고	O	O	O, B-CV, B-QT, B-TM, B-LC
-94	말	O	O	O, B-CV, B-TM, B-QT, I-QT
-95	##했	O	O	O, B-CV, B-PS, B-LC, I-CV
-96	##다	O	O	O, B-CV, B-LC, B-TM, B-QT
-97	.	O	O	O, B-LC, B-PS, B-CV, B-OG
-98	[SEP]	O	O	O, B-LC, B-CV, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	이	O	O
+2	##들	O	O
+3	가운데	O	O
+4	장편	O	B-FD
+5	##기록	O	I-FD
+6	##영화	O	I-FD
+7	<	O	O
+8	고요	B-AF	B-AF
+9	##한	I-AF	I-AF
+10	아침	I-AF	I-AF
+11	##의	I-AF	I-AF
+12	나라	I-AF	I-AF
+13	>	O	O
+14	(	O	O
+15	1927	B-DT	B-DT
+16	)	O	O
+17	의	O	O
+18	고해	O	O
+19	##상도	O	O
+20	컬러	O	O
+21	착	O	O
+22	##색	O	O
+23	##본	O	O
+24	##도	O	O
+25	포함	O	O
+26	##돼	O	O
+27	있	O	O
+28	##다	O	O
+29	.	O	O
+30	[SEP]	O	O

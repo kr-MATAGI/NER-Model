@@ -1,18 +1,26 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	사정	O	O	O, B-OG, B-CV, I-OG, B-AF
-2	##기	O	O	O, I-OG, I-CV, B-CV, B-OG
-3	##관	O	O	O, I-OG, I-CV, B-CV, B-OG
-4	##들이	O	O	O, I-OG, I-CV, I-AF, B-CV
-5	항상	O	O	O, B-CV, B-PS, B-LC, B-OG
-6	민감	O	O	O, B-CV, B-LC, B-PS, B-TM
-7	##한	O	O	O, B-PS, B-LC, B-OG, B-CV
-8	어	O	O	O, B-CV, B-LC, B-PS, B-OG
-9	사찰	B-CV	O	O, B-CV, B-EV, B-AF, B-TM
-10	##도	O	O	O, I-CV, I-EV, I-AF, I-OG
-11	하	O	O	O, B-CV, B-PS, B-OG, B-LC
-12	##는	O	O	O, B-CV, B-OG, I-AF, B-PS
-13	것	O	O	O, B-CV, B-OG, B-LC, B-PS
-14	##이	O	O	O, B-CV, B-PS, B-OG, B-LC
-15	##고	O	O	O, B-CV, I-AF, I-OG, B-OG
-16	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	저희	O	O
+2	##가	O	O
+3	그	O	O
+4	소비자	B-OG	B-OG
+5	보호	I-OG	I-OG
+6	##원	I-OG	I-OG
+7	천	B-CV	B-DT
+8	##구	I-CV	I-DT
+9	##백	I-CV	I-DT
+10	##팔	I-CV	I-DT
+11	##십	I-CV	I-DT
+12	##칠	I-CV	I-DT
+13	##년	I-CV	I-DT
+14	##에	O	O
+15	소비자	B-CV	B-CV
+16	##보호	I-CV	I-CV
+17	기본법	I-CV	I-CV
+18	##에	O	O
+19	의해서	O	O
+20	만들어진	O	O
+21	기관	O	O
+22	##입니다	O	O
+23	.	O	O
+24	[SEP]	O	O

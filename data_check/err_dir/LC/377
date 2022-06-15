@@ -1,49 +1,48 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-EV, I-OG, B-CV, I-CV
-1	29	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-QT
-2	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
-3	오전	B-TI	B-TI	B-TI, I-TI, O, I-DT, B-EV
-4	중국	B-LC	B-LC	B-LC, I-LC, O, B-OG, I-TI
-5	산	B-LC	O	O, B-LC, I-LC, B-PS, B-OG
-6	##시	I-LC	O	O, I-LC, B-LC, I-PS, I-AF
-7	(	O	O	O, I-LC, B-LC, I-PS, B-PS
-8	[UNK]	O	O	O, B-LC, I-LC, B-PS, B-OG
-9	西	O	O	O, B-LC, I-LC, B-PS, B-OG
-10	)	O	O	O, B-LC, I-LC, B-PS, I-PS
-11	성	O	O	O, B-LC, I-LC, B-PS, I-PS
-12	시안	B-LC	B-LC	B-LC, O, I-LC, B-OG, B-AF
-13	(	O	I-LC	I-LC, O, B-LC, I-AF, I-PS
-14	西	O	I-LC	I-LC, O, B-LC, I-AF, I-PS
-15	安	O	I-LC	I-LC, O, B-LC, I-AF, I-PS
-16	)	O	I-LC	I-LC, O, B-LC, I-AF, I-PS
-17	시	O	I-LC	I-LC, O, B-LC, I-AF, I-PS
-18	두	B-LC	O	O, B-LC, I-LC, B-AF, B-PS
-19	##취	I-LC	O	O, I-LC, B-LC, I-AF, I-PS
-20	(	O	O	O, I-LC, B-LC, I-AF, I-PS
-21	[UNK]	O	O	O, B-LC, I-LC, B-PS, B-CV
-22	[UNK]	O	O	O, B-LC, I-LC, B-PS, B-CV
-23	)	O	O	O, B-LC, I-LC, B-PS, B-AF
-24	진	O	O	O, B-LC, I-LC, B-PS, B-AF
-25	##에서	O	O	O, B-LC, B-PS, I-LC, B-CV
-26	열린	O	O	O, B-EV, B-LC, B-CV, B-PS
-27	‘	O	O	O, B-LC, B-EV, B-OG, B-CV
-28	한국	O	B-OG	B-OG, B-LC, B-EV, O, B-AF
-29	##광	O	I-OG	I-OG, B-OG, I-EV, O, I-LC
-30	##복	O	I-OG	I-OG, I-EV, O, I-LC, I-CV
-31	##군	O	I-OG	I-OG, I-EV, O, I-LC, I-CV
-32	제	O	B-QT	B-QT, O, I-OG, I-QT, B-LC
-33	##2	O	I-QT	I-QT, O, I-OG, I-LC, B-QT
-34	##지대	O	I-QT	I-QT, O, I-LC, I-OG, B-QT
-35	(	O	O	O, I-QT, I-OG, I-LC, B-LC
-36	支	O	O	O, B-LC, B-CV, B-PS, B-TM
-37	[UNK]	O	O	O, B-LC, B-PS, I-LC, B-OG
-38	)	O	O	O, B-LC, B-PS, B-OG, B-CV
-39	주둔	O	O	O, B-LC, B-CV, B-AF, B-EV
-40	##지	O	O	O, I-LC, B-LC, I-AF, I-EV
-41	표	O	O	O, B-EV, B-LC, I-EV, B-AF
-42	##석	O	O	O, I-EV, I-LC, B-EV, I-AF
-43	제막	O	O	O, B-EV, I-EV, B-LC, B-CV
-44	##식	O	O	O, I-EV, I-LC, B-EV, I-AF
-45	’	O	O	O, I-EV, B-LC, B-CV, I-OG
-46	.	O	O	O, B-LC, B-PS, I-LC, I-EV
-47	[SEP]	O	O	O, B-LC, I-LC, B-PS, B-CV
+	text	label	preds
+0	[CLS]	O	O
+1	2007	B-DT	B-DT
+2	##년	I-DT	I-DT
+3	프랑크푸르트	B-LC	B-EV
+4	모터쇼	O	I-EV
+5	##에	O	O
+6	##서	O	O
+7	신차	O	O
+8	##발	O	O
+9	##표	O	O
+10	##회	O	O
+11	##를	O	O
+12	할	O	O
+13	때	O	O
+14	##에	O	O
+15	##는	O	O
+16	현대차	B-OG	B-OG
+17	##가	O	O
+18	도요타	B-OG	B-OG
+19	,	O	O
+20	스즈키	B-OG	B-OG
+21	,	O	O
+22	스	B-OG	B-OG
+23	##바	I-OG	I-OG
+24	##루	I-OG	I-OG
+25	등	O	O
+26	일본	B-LC	B-LC
+27	업체	O	O
+28	##와	O	O
+29	발표	O	O
+30	##가	O	O
+31	겹	O	O
+32	##쳤	O	O
+33	##고	O	O
+34	기아차	B-OG	B-OG
+35	##도	O	O
+36	랜드	B-OG	B-OG
+37	##로	I-OG	I-OG
+38	##버	I-OG	I-OG
+39	,	O	O
+40	볼보	B-OG	B-OG
+41	##와	O	O
+42	겹	O	O
+43	##쳤	O	O
+44	##다	O	O
+45	.	O	O
+46	[SEP]	O	O

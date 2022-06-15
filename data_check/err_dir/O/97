@@ -1,31 +1,16 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	서강대	B-OG	B-OG	B-OG, B-AF, O, B-LC, B-PS
-2	종교	O	O	O, B-CV, B-FD, I-OG, B-OG
-3	##학	O	O	O, I-OG, I-QT, I-FD, I-CV
-4	##과	O	O	O, I-OG, I-QT, I-LC, I-FD
-5	##를	O	O	O, B-CV, B-PS, I-OG, I-QT
-6	나온	O	O	O, B-PS, B-CV, B-OG, B-LC
-7	스님	B-CV	B-CV	B-CV, O, I-CV, B-PS, B-OG
-8	##은	O	O	O, I-CV, B-CV, I-OG, I-QT
-9	2006	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-LC
-10	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-11	1	I-DT	I-DT	I-DT, O, B-DT, I-PS, I-QT
-12	##월	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-13	전	O	I-DT	I-DT, O, I-OG, I-QT, I-PS
-14	조계종	B-OG	B-OG	B-OG, O, B-PS, I-OG, I-DT
-15	종	B-PS	B-CV	B-CV, O, I-CV, I-OG, B-OG
-16	##정	I-PS	I-CV	I-CV, O, B-CV, I-OG, I-QT
-17	법전	I-PS	B-PS	B-PS, O, B-CV, I-PS, I-CV
-18	##스	B-CV	B-CV	B-CV, I-CV, O, I-PS, I-QT
-19	##님	I-CV	I-CV	I-CV, O, B-CV, I-PS, I-OG
-20	##을	O	O	O, I-CV, B-CV, B-PS, I-OG
-21	은사	O	O	O, B-CV, I-CV, B-FD, B-TM
-22	##로	O	O	O, I-CV, B-PS, B-CV, B-LC
-23	해인사	B-AF	B-AF	B-AF, B-OG, B-LC, O, B-PS
-24	##에	O	O	O, I-AF, I-OG, I-EV, B-CV
-25	출가	O	O	O, B-CV, B-QT, B-PS, B-TM
-26	##했	O	O	O, I-CV, B-PS, B-CV, B-LC
-27	##다	O	O	O, B-CV, B-LC, B-OG, I-OG
-28	.	O	O	O, B-PS, B-CV, B-LC, B-OG
-29	[SEP]	O	O	O, B-CV, B-PS, B-LC, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	‘	O	O
+2	도가니	B-AF	B-AF
+3	’	O	O
+4	재수사	O	O
+5	14	B-QT	B-QT
+6	##명	I-QT	I-QT
+7	입건	O	O
+8	…	O	O
+9	성폭행	O	B-CV
+10	후유증	O	O
+11	근거	O	O
+12	##로	O	O
+13	처벌	O	O
+14	[SEP]	O	O

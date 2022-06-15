@@ -1,23 +1,37 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	그	O	O	O, B-CV, B-TM, B-OG, B-LC
-2	시너지	O	O	O, B-TM, B-CV, B-PS, B-LC
-3	효과	O	O	O, B-PS, I-EV, B-LC, I-TM
-4	##가	O	O	O, B-PS, B-LC, B-OG, B-CV
-5	기록	O	O	O, B-TM, B-CV, B-AM, B-AF
-6	향상	O	O	O, I-TM, I-CV, I-AF, B-TM
-7	##으로	O	O	O, B-PS, B-TM, B-QT, B-CV
-8	이어지	O	O	O, B-TM, B-LC, B-QT, B-PS
-9	##는	O	O	O, B-CV, B-PS, B-TM, I-QT
-10	경우	O	O	O, B-CV, B-TM, B-PS, B-QT
-11	##가	O	O	O, B-PS, B-CV, B-OG, B-LC
-12	많	O	O	O, B-CV, B-QT, B-OG, B-LC
-13	##다는	O	O	O, B-PS, B-LC, B-QT, I-OG
-14	게	O	O	O, B-PS, B-LC, B-OG, B-CV
-15	육상	O	B-CV	B-CV, O, I-CV, B-OG, B-TM
-16	##인	O	I-CV	I-CV, O, B-CV, I-OG, I-QT
-17	##들	O	O	O, I-CV, I-OG, I-QT, I-AF
-18	##의	O	O	O, B-CV, B-QT, B-PS, B-TM
-19	전언	O	O	O, B-CV, B-QT, B-TM, B-LC
-20	.	O	O	O, I-QT, I-CV, I-OG, B-CV
-21	[SEP]	O	O	O, B-CV, B-LC, B-TM, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	17	B-QT	B-QT
+2	##만	I-QT	I-QT
+3	D	O	I-QT
+4	##W	O	I-QT
+5	##T	O	I-QT
+6	새	O	O
+7	선박	B-AF	B-AF
+8	##의	O	O
+9	경우	O	O
+10	2008	B-DT	B-DT
+11	##년	I-DT	I-DT
+12	9500	B-QT	B-QT
+13	##만	I-QT	I-QT
+14	달러	I-QT	I-QT
+15	수준	O	O
+16	##이	O	O
+17	##던	O	O
+18	것	O	O
+19	##이	O	O
+20	올해	B-DT	B-DT
+21	1	I-DT	I-DT
+22	##월	I-DT	I-DT
+23	##에	O	O
+24	##는	O	O
+25	560	B-QT	B-QT
+26	##0	I-QT	I-QT
+27	##만	I-QT	I-QT
+28	달러	I-QT	I-QT
+29	##로	O	O
+30	##까	O	O
+31	##지	O	O
+32	떨어졌	O	O
+33	##다	O	O
+34	.	O	O
+35	[SEP]	O	O

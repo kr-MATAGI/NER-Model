@@ -1,38 +1,61 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-EV, I-CV, I-AF
-1	그	O	O	O, B-CV, B-PS, B-TM, I-EV
-2	##는	O	O	O, B-CV, B-PS, I-EV, I-CV
-3	""""	O	O	O, B-CV, B-LC, B-PS, B-TM
-4	20	B-QT	B-QT	B-QT, O, I-QT, B-EV, B-LC
-5	##㎝	I-QT	I-QT	I-QT, O, I-LC, I-EV, I-PS
-6	빗	O	O	O, I-QT, I-OG, I-EV, B-PS
-7	##겨	O	O	O, I-QT, I-AF, I-PS, B-PS
-8	창	B-AF	O	O, B-AF, B-TM, B-AM, B-CV
-9	##을	O	O	O, I-AF, I-CV, I-EV, I-TM
-10	맞	O	O	O, B-CV, B-PS, B-LC, I-EV
-11	##았	O	O	O, B-PS, B-CV, B-LC, I-EV
-12	##다면	O	O	O, B-TM, I-AF, B-PS, B-CV
-13	죽	O	O	O, B-CV, B-TM, B-PS, B-LC
-14	##었	O	O	O, B-PS, I-AF, B-CV, I-CV
-15	##고	O	O	O, B-PS, B-CV, I-AF, B-TM
-16	1	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-LC
-17	##㎝	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-18	빗	O	O	O, I-QT, B-CV, I-OG, I-EV
-19	##겨	O	O	O, I-QT, I-AF, B-PS, I-CV
-20	맞	O	O	O, B-CV, B-PS, B-LC, B-TM
-21	##았	O	O	O, B-CV, B-PS, B-LC, I-EV
-22	##다면	O	O	O, B-PS, B-TM, B-CV, B-LC
-23	선수	B-CV	B-CV	B-CV, O, I-CV, B-AF, B-TM
-24	##생활	O	O	O, I-CV, I-EV, B-CV, I-AF
-25	##이	O	O	O, B-PS, B-CV, B-OG, B-LC
-26	끝났	O	O	O, B-CV, B-TM, B-PS, B-QT
-27	##을	O	O	O, B-CV, B-PS, I-CV, B-TM
-28	것	O	O	O, B-CV, B-PS, B-TM, I-AF
-29	""""	O	O	O, B-CV, B-PS, B-TM, B-LC
-30	이라	O	O	O, B-CV, B-PS, I-CV, B-TM
-31	##고	O	O	O, B-CV, B-TM, I-CV, B-PS
-32	말	O	O	O, B-CV, B-TM, B-PS, I-CV
-33	##했	O	O	O, B-CV, B-PS, I-CV, I-EV
-34	##다	O	O	O, B-CV, B-PS, I-CV, I-EV
-35	.	O	O	O, B-PS, B-CV, B-LC, I-EV
-36	[SEP]	O	O	O, B-CV, B-PS, I-EV, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	청와대	B-AF	B-OG
+2	##가	O	O
+3	경찰청	B-OG	B-OG
+4	##에	O	O
+5	""""	O	O
+6	용산	B-LC	B-EV
+7	사태	O	I-EV
+8	##를	O	O
+9	통한	O	O
+10	촛불	B-EV	B-EV
+11	##시위	I-EV	I-EV
+12	확산	O	O
+13	##에	O	O
+14	대응	O	O
+15	##하	O	O
+16	##기	O	O
+17	위해	O	O
+18	군포	B-EV	B-EV
+19	##살	I-EV	I-EV
+20	##인	I-EV	I-EV
+21	##사건	I-EV	I-EV
+22	##을	O	O
+23	활용	O	O
+24	##하라	O	O
+25	""""	O	O
+26	는	O	O
+27	지침	O	O
+28	##을	O	O
+29	보냈	O	O
+30	##다는	O	O
+31	민주당	B-OG	B-OG
+32	##의	O	O
+33	의혹	O	O
+34	##제	O	O
+35	##기에	O	O
+36	대해	O	O
+37	,	O	O
+38	청와대	B-AF	B-OG
+39	##가	O	O
+40	13	B-DT	B-DT
+41	##일	I-DT	I-DT
+42	개인	O	O
+43	이메일	O	O
+44	##을	O	O
+45	경찰청	B-OG	B-OG
+46	##에	O	O
+47	보낸	O	O
+48	행정관	B-CV	B-CV
+49	##에	O	O
+50	대해	O	O
+51	구두	O	O
+52	##경	O	O
+53	##고	O	O
+54	조치	O	O
+55	##를	O	O
+56	내렸	O	O
+57	##다	O	O
+58	.	O	O
+59	[SEP]	O	O

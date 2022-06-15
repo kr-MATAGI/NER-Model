@@ -1,28 +1,39 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-EV, I-CV, I-OG
-1	오후	B-TI	B-TI	B-TI, O, I-TI, B-EV, B-QT
-2	##에	O	O	O, I-TI, I-EV, I-QT, I-DT
-3	##는	O	O	O, B-LC, B-OG, B-CV, B-TM
-4	명동	B-AF	B-AF	B-AF, B-OG, B-LC, O, B-PS
-5	##성	I-AF	I-OG	I-OG, I-AF, O, I-LC, B-AF
-6	##당	I-AF	I-OG	I-OG, I-AF, O, I-LC, I-EV
-7	##을	O	O	O, I-AF, I-OG, I-LC, I-EV
-8	방문	O	O	O, B-CV, B-LC, B-TM, B-AF
-9	##한	O	O	O, B-LC, B-PS, B-CV, I-AF
-10	뒤	O	O	O, B-LC, B-TM, B-CV, B-EV
-11	명동	B-LC	B-LC	B-LC, B-AF, O, B-OG, B-PS
-12	##거리	I-LC	I-AF	I-AF, O, I-LC, I-OG, I-EV
-13	##에서	O	O	O, I-AF, I-LC, I-OG, I-EV
-14	젊	O	O	O, B-CV, B-TM, B-LC, B-PS
-15	##은	O	O	O, I-CV, B-PS, B-CV, B-LC
-16	##층	O	O	O, I-CV, B-CV, B-PS, I-PS
-17	##의	O	O	O, B-CV, B-PS, I-CV, B-LC
-18	표	O	O	O, B-CV, B-PS, B-TM, B-LC
-19	##심	O	O	O, B-PS, I-CV, B-LC, B-AM
-20	잡	O	O	O, B-PS, B-CV, B-LC, B-TM
-21	##기에	O	O	O, B-CV, B-LC, B-TM, B-PS
-22	주력	O	O	O, B-CV, B-LC, B-TM, B-OG
-23	##했	O	O	O, B-CV, B-LC, B-PS, B-OG
-24	##다	O	O	O, B-CV, B-LC, B-PS, I-EV
-25	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-26	[SEP]	O	O	O, B-LC, B-CV, B-PS, I-EV
+	text	label	preds
+0	[CLS]	O	O
+1	정부	B-OG	B-OG
+2	당국자	O	B-CV
+3	##는	O	O
+4	“	O	O
+5	북한	B-LC	B-OG
+6	##이	O	O
+7	남북	B-OG	B-OG
+8	##관계	O	O
+9	##는	O	O
+10	물론	O	O
+11	##이	O	O
+12	##고	O	O
+13	국제	O	O
+14	##사회	O	O
+15	##에	O	O
+16	##서	O	O
+17	떳떳	O	O
+18	##해	O	O
+19	##지	O	O
+20	##려면	O	O
+21	최소한	O	O
+22	##의	O	O
+23	국제	O	O
+24	규범	O	O
+25	##과	O	O
+26	외교	O	O
+27	관행	O	O
+28	##을	O	O
+29	지켜야	O	O
+30	한다	O	O
+31	”	O	O
+32	고	O	O
+33	말	O	O
+34	##했	O	O
+35	##다	O	O
+36	.	O	O
+37	[SEP]	O	O

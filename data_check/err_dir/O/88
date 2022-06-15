@@ -1,39 +1,81 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-AF
-1	올	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-2	8	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-3	##월	I-DT	I-DT	I-DT, O, B-DT, I-PS, I-QT
-4	미국	B-LC	B-LC	B-LC, B-OG, O, B-EV, B-AF
-5	소아	O	B-OG	B-OG, O, B-FD, B-AF, I-OG
-6	##과학	O	I-OG	I-OG, O, I-AF, I-FD, I-EV
-7	##회	O	I-OG	I-OG, O, I-AF, I-FD, I-EV
-8	##지	O	I-OG	I-OG, O, I-AF, I-EV, I-FD
-9	##에	O	O	O, I-OG, I-AF, I-EV, I-DT
-10	실린	O	O	O, B-OG, B-LC, B-CV, B-PS
-11	자료	O	O	O, B-OG, B-CV, B-LC, B-AF
-12	##에	O	O	O, B-CV, B-OG, B-LC, I-AF
-13	따르	O	O	O, B-OG, B-LC, B-CV, B-PS
-14	##면	O	O	O, B-OG, B-LC, B-PS, B-CV
-15	세계	O	O	O, B-LC, B-OG, B-CV, B-PS
-16	굴지	O	O	O, B-OG, B-CV, B-LC, B-QT
-17	##의	O	O	O, I-OG, B-OG, B-LC, B-PS
-18	담배	B-CV	B-CV	B-CV, O, B-AF, B-PT, B-OG
-19	##회사	O	O	O, I-CV, I-OG, I-AF, B-CV
-20	##들	O	O	O, I-OG, I-CV, I-AF, B-LC
-21	##은	O	O	O, B-CV, B-OG, B-LC, B-TM
-22	최근	O	O	O, B-CV, B-LC, B-TM, B-QT
-23	광고비	O	O	O, B-CV, B-TM, B-OG, B-AF
-24	##용	O	O	O, B-CV, I-CV, B-TM, B-LC
-25	##의	O	O	O, B-LC, B-PS, B-CV, B-QT
-26	90	B-QT	B-QT	B-QT, I-QT, O, B-DT, B-OG
-27	%	I-QT	I-QT	I-QT, O, I-LC, I-PS, I-OG
-28	를	O	O	O, I-QT, B-LC, B-CV, B-TM
-29	담배	B-CV	B-CV	B-CV, O, B-AF, B-PT, B-TM
-30	##판	O	O	O, I-CV, B-CV, I-AF, I-OG
-31	##매	O	O	O, I-CV, B-CV, B-LC, I-OG
-32	##점	O	O	O, I-OG, I-CV, I-LC, B-LC
-33	##에	O	O	O, B-LC, B-CV, B-OG, B-PS
-34	썼	O	O	O, B-LC, B-CV, B-OG, B-TM
-35	##다	O	O	O, B-CV, B-OG, B-LC, B-TM
-36	.	O	O	O, B-LC, B-OG, B-CV, B-PS
-37	[SEP]	O	O	O, B-LC, B-OG, B-CV, B-AF
+	text	label	preds
+0	[CLS]	O	O
+1	김동	B-PS	B-PS
+2	##춘	I-PS	I-PS
+3	전	O	O
+4	‘	O	O
+5	진실	B-OG	B-OG
+6	##화	I-OG	I-OG
+7	##해	I-OG	I-OG
+8	##를	I-OG	I-OG
+9	위한	I-OG	I-OG
+10	과거사	I-OG	I-OG
+11	정리	I-OG	I-OG
+12	##위원회	I-OG	I-OG
+13	’	O	O
+14	(	O	O
+15	진실	B-OG	B-OG
+16	##화	I-OG	I-OG
+17	##해	I-OG	I-OG
+18	##위	I-OG	I-OG
+19	)	O	O
+20	상임위	B-CV	B-CV
+21	##원	I-CV	I-CV
+22	##은	O	O
+23	“	O	O
+24	마을	O	O
+25	공동체	O	O
+26	##가	O	O
+27	남아	O	O
+28	있	O	O
+29	##는	O	O
+30	지방	O	O
+31	##과	O	O
+32	달리	O	O
+33	서울	B-LC	B-LC
+34	##은	O	O
+35	인구	O	O
+36	이동	O	O
+37	##이	O	O
+38	많	O	O
+39	##아	O	O
+40	이	O	O
+41	폭격	O	O
+42	##으로	O	O
+43	얼마나	O	O
+44	많	O	O
+45	##은	O	O
+46	사람	O	O
+47	##이	O	O
+48	죽	O	O
+49	##고	O	O
+50	부상	O	O
+51	##했	O	O
+52	##는지	O	O
+53	##는	O	O
+54	잘	O	O
+55	알려	O	O
+56	##지	O	O
+57	##지	O	O
+58	않	O	O
+59	##았	O	O
+60	##다	O	O
+61	”	O	O
+62	며	O	O
+63	“	O	O
+64	우리	O	O
+65	##가	O	O
+66	이미	O	O
+67	잊어버	O	O
+68	##린	O	O
+69	큰	O	O
+70	비극	O	O
+71	가운데	O	O
+72	하나	O	B-QT
+73	”	O	O
+74	라고	O	O
+75	말	O	O
+76	##했	O	O
+77	##다	O	O
+78	.	O	O
+79	[SEP]	O	O

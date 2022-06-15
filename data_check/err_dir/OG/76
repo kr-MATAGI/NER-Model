@@ -1,31 +1,39 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	베네수엘라	B-LC	B-LC	B-LC, O, B-OG, B-PS, B-AF
-2	##의	O	O	O, I-LC, B-LC, I-OG, I-AF
-3	국립	B-OG	B-AF	B-AF, B-OG, B-LC, O, B-PS
-4	##현	I-OG	I-AF	I-AF, I-OG, I-LC, O, B-AF
-5	##대	I-OG	I-AF	I-AF, I-OG, O, I-LC, I-PS
-6	##미술	I-OG	I-AF	I-AF, I-OG, O, I-LC, I-PS
-7	##관	I-OG	I-AF	I-AF, I-OG, O, I-LC, I-PS
-8	,	O	O	O, I-AF, I-OG, I-EV, I-LC
-9	국립	B-OG	B-AF	B-AF, B-OG, O, B-LC, I-AF
-10	##미술	I-OG	I-AF	I-AF, I-OG, O, I-LC, I-PS
-11	##관	I-OG	I-AF	I-AF, I-OG, O, I-LC, I-EV
-12	##과	O	O	O, I-AF, I-OG, I-EV, B-LC
-13	교섭	O	O	O, B-LC, B-CV, B-OG, B-EV
-14	##으로	O	O	O, B-PS, B-LC, B-OG, B-CV
-15	마련	O	O	O, B-CV, B-LC, B-OG, B-EV
-16	##한	O	O	O, B-LC, B-OG, B-PS, B-CV
-17	자체	O	O	O, B-CV, B-EV, B-LC, B-QT
-18	기획	O	O	O, B-EV, B-CV, I-EV, B-FD
-19	##전	O	O	O, I-EV, I-CV, B-EV, B-CV
-20	##이	O	O	O, I-EV, B-PS, B-CV, B-OG
-21	##란	O	O	O, B-CV, B-OG, B-PS, B-LC
-22	점	O	O	O, B-CV, B-LC, B-TM, I-QT
-23	##에서	O	O	O, B-PS, B-CV, I-OG, B-LC
-24	의미	O	O	O, B-CV, B-OG, B-LC, B-QT
-25	##가	O	O	O, B-PS, B-OG, B-CV, I-OG
-26	깊	O	O	O, B-CV, B-OG, B-LC, I-OG
-27	##다	O	O	O, B-CV, I-OG, B-OG, B-LC
-28	.	O	O	O, B-LC, B-OG, B-CV, B-PS
-29	[SEP]	O	O	O, B-CV, B-LC, I-OG, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	8	B-DT	B-DT
+2	##년	I-DT	I-DT
+3	##간	I-DT	I-DT
+4	미국	B-LC	B-LC
+5	##의	O	O
+6	명문	O	O
+7	고교	O	O
+8	##와	O	O
+9	대학	O	O
+10	,	O	O
+11	대학원	O	O
+12	##을	O	O
+13	나와	O	O
+14	뉴욕	B-LC	B-LC
+15	##의	O	O
+16	투자	B-OG	O
+17	##은행	I-OG	O
+18	##에	O	O
+19	##서	O	O
+20	1	B-DT	B-DT
+21	##년	I-DT	I-DT
+22	##간	I-DT	I-DT
+23	일	O	O
+24	##하	O	O
+25	##던	O	O
+26	김	B-PS	B-PS
+27	##모	O	O
+28	##씨	O	O
+29	##는	O	O
+30	작년	B-DT	B-DT
+31	말	I-DT	I-DT
+32	한국	B-LC	B-LC
+33	##으로	O	O
+34	돌아왔	O	O
+35	##다	O	O
+36	.	O	O
+37	[SEP]	O	O

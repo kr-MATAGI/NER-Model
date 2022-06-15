@@ -1,21 +1,18 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	그때	O	O	O, B-CV, B-OG, B-PS, B-LC
-2	저	O	O	O, B-OG, B-CV, B-PS, B-AF
-3	##는	O	O	O, B-CV, I-OG, B-OG, B-PS
-4	법대	O	O	O, B-OG, B-FD, B-CV, B-AF
-5	##를	O	O	O, I-OG, I-CV, I-AF, B-CV
-6	가	O	O	O, B-CV, B-PS, B-QT, B-AF
-7	##고	O	O	O, B-PS, B-CV, B-QT, I-AF
-8	싶	O	O	O, B-CV, B-PS, B-LC, B-TM
-9	##었	O	O	O, B-CV, B-PS, I-CV, B-OG
-10	##어요	O	O	O, B-CV, I-OG, I-CV, B-OG
-11	.	O	O	O, B-CV, B-PS, B-LC, I-AF
-12	하도	O	O	O, B-CV, B-PS, B-TM, B-LC
-13	비리	O	B-CV	B-CV, O, I-CV, B-TM, B-FD
-14	##가	O	O	O, I-CV, B-PS, B-CV, I-AF
-15	많	O	O	O, B-CV, B-OG, I-CV, B-TM
-16	##고	O	O	O, B-CV, B-PS, B-OG, B-TM
-17	그러니까	O	O	O, B-CV, B-QT, B-TM, B-LC
-18	.	O	O	O, B-CV, B-LC, B-OG, B-PS
-19	[SEP]	O	O	O, B-CV, B-LC, B-PS, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	어	O	O
+2	~	O	O
+3	이것	O	O
+4	##이	O	O
+5	고위급	O	O
+6	##이	O	O
+7	모여서	O	O
+8	하	O	O
+9	##는	O	O
+10	마지막	O	O
+11	원조	O	B-EV
+12	회의	O	I-EV
+13	##가	O	O
+14	되	O	O
+15	##는데	O	O
+16	[SEP]	O	O

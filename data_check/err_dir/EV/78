@@ -1,25 +1,35 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-EV, B-CV, I-OG, I-CV
-1	지난	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-2	8	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-3	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-4	##에	O	O	O, I-DT, B-CV, I-EV, I-OG
-5	##는	O	O	O, B-LC, B-OG, B-CV, B-EV
-6	국내	O	O	O, B-LC, B-CV, B-OG, B-TM
-7	우량	O	O	O, B-CV, B-OG, B-LC, B-TM
-8	##게임	O	O	O, B-TM, I-TM, B-CV, I-OG
-9	##업체	O	O	O, I-OG, I-CV, I-TM, I-AF
-10	대표	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-AF
-11	##들	O	O	O, I-CV, B-CV, I-EV, I-OG
-12	##을	O	O	O, B-CV, B-LC, B-TM, B-OG
-13	초청	O	O	O, B-CV, B-EV, B-LC, B-TM
-14	##해	O	O	O, I-EV, B-LC, B-EV, B-CV
-15	정책	B-EV	O	O, B-EV, I-EV, B-CV, B-LC
-16	##간	I-EV	O	O, I-EV, B-EV, I-OG, I-TM
-17	##담회	I-EV	O	O, I-EV, B-EV, I-OG, I-LC
-18	##를	O	O	O, I-EV, I-OG, I-AF, B-CV
-19	개최	O	O	O, B-CV, I-EV, B-OG, B-LC
-20	##했	O	O	O, B-LC, I-EV, B-CV, B-OG
-21	##다	O	O	O, I-EV, B-CV, B-LC, B-EV
-22	.	O	O	O, B-LC, I-EV, B-CV, B-OG
-23	[SEP]	O	O	O, B-LC, I-EV, B-CV, B-EV
+	text	label	preds
+0	[CLS]	O	O
+1	[	O	O
+2	부산	B-LC	B-LC
+3	·	O	O
+4	경남	B-LC	B-LC
+5	]	O	O
+6	대규	O	O
+7	##모	O	O
+8	의료	O	O
+9	·	O	O
+10	건강	O	O
+11	##행사	O	O
+12	잇따라	O	O
+13	열려	O	O
+14	;	O	O
+15	부산	B-LC	B-LC
+16	##은	O	O
+17	국제	B-EV	O
+18	##의	I-EV	O
+19	##료	I-EV	O
+20	##관광	I-EV	O
+21	##컨	I-EV	O
+22	##벤션	I-EV	O
+23	창원	B-LC	B-LC
+24	##은	O	O
+25	경남	B-EV	B-EV
+26	##건	I-EV	I-EV
+27	##강	I-EV	I-EV
+28	##의	I-EV	I-EV
+29	##료	I-EV	I-EV
+30	##박	I-EV	I-EV
+31	##람	I-EV	I-EV
+32	##회	I-EV	I-EV
+33	[SEP]	O	O

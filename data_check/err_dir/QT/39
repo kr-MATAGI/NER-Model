@@ -1,38 +1,35 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-EV, I-AF
-1	보행	O	O	O, B-TM, B-AF, B-CV, B-LC
-2	##로	O	O	O, I-AF, I-TM, I-LC, I-CV
-3	양쪽	O	O	O, B-TM, I-TM, B-LC, B-CV
-4	##에	O	O	O, I-TM, B-CV, I-AF, B-TM
-5	1	B-QT	B-QT	B-QT, I-QT, O, B-DT, B-EV
-6	,	O	I-QT	I-QT, O, I-LC, B-QT, I-EV
-7	2	B-QT	I-QT	I-QT, B-QT, O, I-LC, I-PS
-8	##층	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-EV
-9	##짜	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-10	##리	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-11	점포	O	O	O, I-QT, B-CV, I-AF, B-AF
-12	##를	O	O	O, B-CV, B-OG, B-LC, B-TM
-13	연이	O	O	O, B-TM, B-LC, B-QT, B-AF
-14	##어	O	O	O, B-LC, B-PS, B-TM, B-OG
-15	배치	O	O	O, B-LC, B-OG, B-CV, B-TM
-16	##한	O	O	O, B-LC, B-PS, B-OG, B-CV
-17	유럽	O	O	O, B-LC, B-PS, B-OG, B-FD
-18	##형	O	O	O, I-LC, I-PS, I-AF, I-QT
-19	‘	O	O	O, B-LC, B-AF, B-CV, B-OG
-20	스트리트	O	O	O, B-AF, B-TM, B-LC, B-CV
-21	(	O	O	O, I-AF, I-OG, I-TM, I-CV
-22	St	O	O	O, B-AF, B-LC, B-TM, I-AF
-23	##ree	O	O	O, I-AF, I-LC, B-LC, I-TM
-24	##t	O	O	O, I-AF, I-LC, B-LC, I-TM
-25	)	O	O	O, I-AF, I-LC, I-OG, B-AF
-26	’	O	O	O, I-AF, B-CV, B-AF, B-LC
-27	상가	O	O	O, B-AF, B-CV, B-TM, I-AF
-28	##가	O	O	O, I-AF, B-CV, B-LC, B-PS
-29	관심	O	O	O, B-CV, B-TM, B-LC, B-OG
-30	##을	O	O	O, B-CV, I-AF, I-OG, I-CV
-31	끌	O	O	O, B-CV, B-LC, B-OG, B-TM
-32	##고	O	O	O, B-CV, B-LC, B-TM, I-OG
-33	있	O	O	O, B-CV, B-LC, B-OG, B-TM
-34	##다	O	O	O, B-CV, B-LC, B-TM, I-OG
-35	.	O	O	O, B-LC, B-AF, B-CV, B-OG
-36	[SEP]	O	O	O, B-LC, B-CV, B-AF, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	100	B-QT	B-EV
+2	##만	I-QT	I-EV
+3	##인	I-QT	I-EV
+4	만세	O	I-EV
+5	운동	O	I-EV
+6	##은	O	O
+7	‘	O	O
+8	매달	O	O
+9	1	B-QT	B-QT
+10	##만	I-QT	I-QT
+11	##원	I-QT	I-QT
+12	##씩	I-QT	I-QT
+13	100	B-QT	B-QT
+14	##만	I-QT	I-QT
+15	##명	I-QT	I-QT
+16	##이	O	O
+17	후원	O	O
+18	##하	O	O
+19	##자	O	O
+20	’	O	O
+21	는	O	O
+22	취지	O	O
+23	##의	O	O
+24	소액	O	O
+25	##중	O	O
+26	##심	O	O
+27	개인	O	O
+28	##나	O	O
+29	##눔	O	O
+30	운동	O	O
+31	##이다	O	O
+32	.	O	O
+33	[SEP]	O	O

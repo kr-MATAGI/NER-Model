@@ -1,18 +1,38 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, I-OG, B-CV, I-EV
-1	민주	O	B-OG	B-OG, O, B-PS, B-LC, B-AF
-2	·	O	O	O, I-OG, I-LC, I-EV, I-PS
-3	안철수	B-PS	B-PS	B-PS, I-PS, B-OG, O, B-LC
-4	##쪽	O	O	O, I-PS, I-OG, I-LC, B-LC
-5	‘	O	O	O, B-LC, B-OG, B-EV, B-PS
-6	통합	B-OG	B-OG	B-OG, O, B-AF, B-EV, I-OG
-7	##신	I-OG	I-OG	I-OG, O, I-EV, B-OG, I-AF
-8	##당	I-OG	I-OG	I-OG, O, I-EV, I-AF, I-LC
-9	’	O	O	O, I-OG, I-EV, B-EV, B-CV
-10	발기인	O	O	O, B-EV, B-CV, I-EV, B-OG
-11	##대	O	O	O, I-EV, B-EV, I-OG, I-CV
-12	##회	O	O	O, I-EV, I-OG, I-DT, I-LC
-13	16	B-DT	B-DT	B-DT, O, I-DT, B-QT, I-EV
-14	##일	I-DT	I-DT	I-DT, O, B-DT, I-EV, I-QT
-15	##에	O	O	O, I-DT, I-EV, I-OG, I-AF
-16	[SEP]	O	O	O, B-OG, B-LC, I-EV, B-EV
+	text	label	preds
+0	[CLS]	O	O
+1	근데	O	O
+2	그래도	O	O
+3	하고	O	O
+4	근데	O	O
+5	그거	O	O
+6	##는	O	O
+7	직장	O	O
+8	##에	O	O
+9	##서	O	O
+10	하	O	O
+11	##는	O	O
+12	거	O	O
+13	##는	O	O
+14	아무래도	O	O
+15	좀	O	O
+16	간단	O	O
+17	##한	O	O
+18	##거	O	O
+19	##다	O	O
+20	보	O	O
+21	##니까	O	O
+22	한	O	B-QT
+23	번	O	I-QT
+24	정밀	O	O
+25	##하	O	O
+26	##게	O	O
+27	할	O	O
+28	필요	O	O
+29	##는	O	O
+30	있	O	O
+31	##을	O	O
+32	것	O	O
+33	같	O	O
+34	##아	O	O
+35	.	O	O
+36	[SEP]	O	O

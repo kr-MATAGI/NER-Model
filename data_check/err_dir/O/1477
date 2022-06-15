@@ -1,44 +1,76 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	수능	B-EV	B-EV	B-EV, O, B-CV, B-FD, B-DT
-2	최저	O	O	O, B-CV, I-CV, I-EV, B-PS
-3	##학	O	O	O, I-CV, B-CV, B-PS, I-AF
-4	##력	O	O	O, I-CV, B-CV, B-PS, I-PS
-5	##기	O	O	O, I-CV, B-CV, B-PS, I-PS
-6	##준	O	O	O, I-CV, B-CV, B-PS, I-PS
-7	##은	O	O	O, I-CV, B-CV, B-LC, B-PS
-8	인문	O	B-FD	B-FD, O, B-CV, B-OG, B-TR
-9	##계	O	O	O, I-FD, I-OG, I-TR, I-CV
-10	##는	O	O	O, I-OG, I-FD, I-EV, I-AF
-11	수능	B-EV	B-EV	B-EV, O, B-CV, B-FD, I-EV
-12	4	B-QT	B-QT	B-QT, I-QT, I-EV, O, B-EV
-13	##개	I-QT	I-QT	I-QT, O, I-EV, I-LC, I-DT
-14	영역	O	O	O, I-QT, I-EV, B-CV, B-LC
-15	중	O	O	O, B-LC, B-TM, B-QT, B-OG
-16	2	B-QT	B-QT	B-QT, I-QT, O, B-DT, B-TM
-17	##개	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-18	영역	O	O	O, I-QT, I-LC, B-LC, B-CV
-19	##이	O	O	O, B-PS, B-LC, B-OG, B-CV
-20	각각	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-CV
-21	3	I-QT	I-QT	I-QT, B-QT, O, I-LC, I-DT
-22	##등	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-23	##급	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-DT
-24	이내	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-DT
-25	##거나	O	O	O, I-QT, I-OG, I-AF, I-CV
-26	,	O	O	O, B-CV, B-OG, B-LC, I-QT
-27	2	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-LC
-28	##개	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-DT
-29	영역	O	O	O, I-QT, B-CV, B-LC, I-LC
-30	등급	O	O	O, B-CV, B-LC, B-PS, B-TM
-31	##의	O	O	O, B-PS, B-LC, B-CV, B-OG
-32	합	O	O	O, B-QT, B-LC, B-CV, B-OG
-33	##이	O	O	O, B-PS, B-LC, B-OG, B-CV
-34	5	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-LC
-35	##등	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-DT
-36	##급	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-DT
-37	이내	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-DT
-38	##여	O	O	O, I-QT, B-LC, B-PS, B-OG
-39	##야	O	O	O, I-QT, B-LC, B-OG, I-OG
-40	한다	O	O	O, B-CV, B-LC, B-OG, I-OG
-41	.	O	O	O, B-LC, B-CV, B-PS, B-FD
-42	[SEP]	O	O	O, B-CV, B-LC, B-FD, B-QT
+	text	label	preds
+0	[CLS]	O	O
+1	영국	B-OG	B-LC
+2	##은	O	O
+3	2007	B-DT	B-DT
+4	##년	I-DT	I-DT
+5	런던	B-DT	B-DT
+6	테러	I-DT	I-DT
+7	이후	I-DT	I-DT
+8	행인	O	B-CV
+9	##을	O	O
+10	대상	O	O
+11	##으로	O	O
+12	무작위	O	O
+13	검문	O	O
+14	(	O	O
+15	St	O	O
+16	##op	O	O
+17	and	O	O
+18	Se	O	O
+19	##ar	O	O
+20	##ch	O	O
+21	)	O	O
+22	을	O	O
+23	강화	O	O
+24	##했	O	O
+25	##는데	O	O
+26	,	O	O
+27	런던	B-EV	B-EV
+28	테러	I-EV	I-EV
+29	발생	O	O
+30	이전	O	O
+31	##보	O	O
+32	##다	O	O
+33	흑인	B-CV	B-CV
+34	대상	O	O
+35	검문	O	O
+36	##이	O	O
+37	32	B-QT	B-QT
+38	##2	I-QT	I-QT
+39	%	I-QT	I-QT
+40	,	O	O
+41	아시아	B-CV	B-CV
+42	##인	I-CV	I-CV
+43	대상	O	O
+44	검문	O	O
+45	##이	O	O
+46	27	B-QT	B-QT
+47	##7	I-QT	I-QT
+48	%	I-QT	I-QT
+49	증가	O	O
+50	##하	O	O
+51	##는	O	O
+52	등	O	O
+53	백인	B-CV	B-CV
+54	(	O	O
+55	185	B-QT	B-QT
+56	%	I-QT	I-QT
+57	)	O	O
+58	에	O	O
+59	비해	O	O
+60	현저히	O	O
+61	높	O	O
+62	##아	O	O
+63	##져	O	O
+64	인종	O	O
+65	차별	O	O
+66	논란	O	O
+67	##이	O	O
+68	거세	O	O
+69	##게	O	O
+70	일	O	O
+71	##었	O	O
+72	##다	O	O
+73	.	O	O
+74	[SEP]	O	O

@@ -1,25 +1,7 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	헤이	B-CV	B-CV	B-CV, O, B-PT, B-LC, B-OG
-2	##즐	I-CV	I-CV	I-CV, O, B-CV, I-PT, I-OG
-3	##넛	I-CV	I-CV	I-CV, O, B-CV, I-PT, I-OG
-4	같	O	O	O, I-CV, I-OG, B-CV, I-AF
-5	##은	O	O	O, I-CV, B-CV, I-AF, B-LC
-6	경우	O	O	O, B-CV, B-OG, B-LC, B-QT
-7	##는	O	O	O, B-CV, B-OG, B-QT, B-PS
-8	백	B-QT	B-QT	B-QT, B-TI, B-LC, B-EV, I-QT
-9	##육	I-QT	I-QT	I-QT, B-QT, I-LC, I-TI, I-EV
-10	##십	I-QT	I-QT	I-QT, B-QT, I-LC, I-TI, O
-11	##도	I-QT	I-QT	I-QT, O, I-TI, I-LC, I-EV
-12	##에서	O	O	O, I-QT, I-TI, I-DT, I-EV
-13	약	O	O	O, B-TI, B-QT, B-DT, B-LC
-14	뭐	O	O	O, I-TI, I-QT, I-DT, B-TI
-15	팔	B-TI	B-TI	B-TI, I-TI, B-QT, O, I-QT
-16	분	I-TI	I-TI	I-TI, I-QT, O, I-TR, B-TI
-17	##에서	O	O	O, I-TI, I-QT, I-DT, I-LC
-18	십	B-TI	B-TI	B-TI, I-TI, B-QT, O, B-EV
-19	분	I-TI	I-TI	I-TI, I-QT, O, B-TI, I-TR
-20	정도	I-TI	I-TI	I-TI, I-QT, O, I-TR, B-TI
-21	사이	I-TI	O	O, I-TI, I-QT, I-DT, I-TR
-22	##에	O	O	O, B-OG, B-LC, I-TI, I-QT
-23	[SEP]	O	O	O, B-LC, B-CV, B-QT, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	이	B-TI	B-QT
+2	##십	I-TI	I-QT
+3	##오	I-TI	I-QT
+4	에	O	O
+5	[SEP]	O	O

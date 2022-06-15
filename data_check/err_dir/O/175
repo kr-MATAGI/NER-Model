@@ -1,5 +1,14 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	예	O	O	O, B-CV, B-OG, B-AF, B-PS
-2	꿀	O	B-CV	B-CV, O, I-CV, B-PT, B-OG
-3	[SEP]	O	O	O, I-CV, B-CV, I-AF, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	네	O	O
+2	.	O	O
+3	시월	B-DT	B-DT
+4	칠	I-DT	I-DT
+5	##일	I-DT	I-DT
+6	##에	O	O
+7	배고픈	O	B-AF
+8	자화상	B-PS	I-AF
+9	##님	O	O
+10	##께	O	O
+11	##서	O	O
+12	[SEP]	O	O

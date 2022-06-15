@@ -1,20 +1,36 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	뭐	O	O	O, B-CV, B-TM, B-OG, B-LC
-2	산	O	O	O, B-LC, B-PT, B-CV, B-MT
-3	##이	O	O	O, B-PS, B-LC, I-AF, I-LC
-4	있	O	O	O, B-CV, B-PS, I-AF, B-LC
-5	##으면	O	O	O, B-PS, I-AF, B-TM, B-LC
-6	깎	O	O	O, B-CV, B-LC, B-PS, B-TM
-7	##고	O	O	O, B-PS, I-AF, B-CV, B-LC
-8	해서	O	O	O, B-CV, B-LC, B-OG, B-TM
-9	인제	O	O	O, B-CV, B-TM, B-LC, B-OG
-10	뭐	O	O	O, B-CV, B-TM, B-OG, B-LC
-11	토	O	B-TM	B-TM, O, B-TR, B-LC, I-TM
-12	##곤	O	I-TM	I-TM, O, I-TR, I-QT, I-LC
-13	사업	O	I-TM	I-TM, O, I-TR, I-QT, I-LC
-14	##을	O	O	O, I-TM, I-OG, I-AF, I-CV
-15	엄청나	O	O	O, B-CV, B-OG, B-LC, B-TM
-16	##게	O	O	O, B-OG, B-LC, B-CV, B-TM
-17	해서	O	O	O, B-CV, B-OG, B-LC, B-TM
-18	[SEP]	O	O	O, B-CV, B-LC, I-AF, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	단	O	B-FD
+2	##색	O	I-FD
+3	##화	O	I-FD
+4	열풍	O	O
+5	##은	O	O
+6	서로	O	O
+7	다른	O	O
+8	필	O	O
+9	##법	O	O
+10	##으로	O	O
+11	비슷	O	O
+12	##한	O	O
+13	방향	O	O
+14	##의	O	O
+15	가치	O	O
+16	##를	O	O
+17	추구	O	O
+18	##한	O	O
+19	동시대	O	O
+20	작가	B-CV	B-CV
+21	##들의	O	O
+22	활동	O	O
+23	##이	O	O
+24	풍성	O	O
+25	##하	O	O
+26	##게	O	O
+27	재	O	O
+28	##평가	O	O
+29	##된	O	O
+30	드문	O	O
+31	사례	O	O
+32	##다	O	O
+33	.	O	O
+34	[SEP]	O	O

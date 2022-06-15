@@ -1,60 +1,64 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-EV, I-OG
-1	지난달	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-LC
-2	지역	O	B-EV	B-EV, O, B-CV, B-LC, I-EV
-3	예선	B-EV	I-EV	I-EV, B-EV, O, B-CV, B-LC
-4	##에서	O	O	O, I-EV, B-CV, I-CV, I-OG
-5	탈락	O	O	O, B-CV, B-LC, B-TM, B-OG
-6	##한	O	O	O, B-PS, B-LC, B-OG, B-CV
-7	한	O	O	O, B-PS, B-LC, B-OG, B-CV
-8	댄스	O	O	O, B-OG, B-FD, B-CV, B-PS
-9	##그룹	O	O	O, I-OG, I-PS, I-CV, I-FD
-10	리더	B-CV	B-CV	B-CV, O, B-PS, B-AF, I-PS
-11	##는	O	O	O, I-CV, B-CV, I-AF, I-OG
-12	""""	O	O	O, B-CV, B-LC, B-TM, B-PS
-13	내	O	O	O, B-CV, B-PS, B-LC, B-OG
-14	##가	O	O	O, B-PS, B-LC, B-OG, B-CV
-15	다른	O	O	O, B-CV, B-PS, B-LC, B-OG
-16	멤버	B-CV	B-CV	B-CV, O, B-PS, B-AF, I-CV
-17	##들	O	O	O, I-CV, I-PS, B-CV, I-AF
-18	##은	O	O	O, B-CV, B-PS, B-LC, B-TM
-19	배려	O	O	O, B-CV, B-LC, B-PS, B-TM
-20	##하	O	O	O, B-PS, B-LC, B-CV, B-DT
-21	##지	O	O	O, B-PS, B-LC, B-CV, B-OG
-22	않	O	O	O, B-PS, B-LC, B-CV, B-OG
-23	##은	O	O	O, B-PS, B-LC, B-CV, B-OG
-24	채	O	O	O, B-PS, B-LC, B-CV, B-QT
-25	이기	O	O	O, B-CV, B-LC, B-PS, B-TM
-26	##적인	O	O	O, B-PS, B-LC, B-CV, B-QT
-27	결정	O	O	O, B-CV, B-LC, B-PS, B-OG
-28	##을	O	O	O, B-PS, B-CV, B-LC, B-OG
-29	한	O	O	O, B-PS, B-CV, B-LC, B-OG
-30	것	O	O	O, B-PS, B-CV, B-LC, B-OG
-31	##처럼	O	O	O, B-LC, B-PS, B-CV, B-TM
-32	방송	O	O	O, B-CV, B-TM, B-LC, B-FD
-33	##에	O	O	O, B-CV, B-LC, B-PS, B-TM
-34	나가	O	O	O, B-CV, B-LC, B-PS, B-OG
-35	엄청난	O	O	O, B-LC, B-CV, B-TM, B-PS
-36	악	O	O	O, B-TM, B-CV, B-LC, B-PS
-37	##플	O	O	O, I-TM, I-CV, I-LC, I-PS
-38	##에	O	O	O, B-CV, I-CV, B-PS, B-LC
-39	시달려	O	O	O, B-LC, B-CV, B-TM, B-PS
-40	##야	O	O	O, B-CV, B-LC, B-PS, B-TM
-41	했	O	O	O, B-CV, B-PS, B-LC, B-OG
-42	##다	O	O	O, B-CV, B-PS, B-LC, B-OG
-43	""""	O	O	O, B-CV, B-TM, B-LC, B-PS
-44	며	O	O	O, B-CV, B-LC, B-TM, B-PS
-45	억울	O	O	O, B-CV, B-TM, B-LC, B-PS
-46	##함	O	O	O, B-PS, I-CV, B-LC, B-CV
-47	##을	O	O	O, B-CV, B-PS, B-LC, B-TM
-48	호소	O	O	O, B-CV, B-TM, B-LC, B-PS
-49	##하	O	O	O, B-PS, B-CV, B-LC, B-TM
-50	##는	O	O	O, B-CV, B-PS, B-LC, B-TM
-51	글	O	O	O, B-CV, B-TM, B-LC, B-PS
-52	##을	O	O	O, B-CV, B-LC, B-TM, B-PS
-53	인터넷	O	O	O, B-TM, B-CV, B-LC, B-OG
-54	##에	O	O	O, B-CV, B-TM, B-LC, B-OG
-55	올렸	O	O	O, B-CV, B-TM, B-LC, B-PS
-56	##다	O	O	O, B-CV, B-TM, B-LC, B-PS
-57	.	O	O	O, B-CV, B-LC, B-PS, B-TM
-58	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	정부	B-OG	B-OG
+2	핵심	O	O
+3	당국자	B-CV	B-CV
+4	##는	O	O
+5	16	B-DT	B-DT
+6	##일	I-DT	I-DT
+7	“	O	O
+8	다음	B-DT	B-DT
+9	##주	I-DT	I-DT
+10	중반	I-DT	I-DT
+11	베이징	B-LC	B-LC
+12	##에	O	O
+13	##서	O	O
+14	남북	B-EV	B-OG
+15	6	I-EV	B-EV
+16	##자	I-EV	I-EV
+17	##회	I-EV	I-EV
+18	##담	I-EV	I-EV
+19	수석대표	B-CV	B-CV
+20	간의	O	O
+21	회담	O	O
+22	##을	O	O
+23	개최	O	O
+24	##하	O	O
+25	##기	O	O
+26	##로	O	O
+27	남북	B-OG	B-OG
+28	##이	O	O
+29	최근	O	O
+30	합의	O	O
+31	##했	O	O
+32	##다	O	O
+33	”	O	O
+34	며	O	O
+35	“	O	O
+36	현재	O	O
+37	회의	O	O
+38	장소	O	O
+39	##와	O	O
+40	구체	O	O
+41	##적	O	O
+42	일시	O	O
+43	등	O	O
+44	##을	O	O
+45	협의	O	O
+46	##중	O	O
+47	##이	O	O
+48	##며	O	O
+49	,	O	O
+50	21	B-DT	B-DT
+51	##일	I-DT	I-DT
+52	열릴	O	O
+53	가능	O	O
+54	##성이	O	O
+55	있	O	O
+56	##다	O	O
+57	”	O	O
+58	고	O	O
+59	밝혔	O	O
+60	##다	O	O
+61	.	O	O
+62	[SEP]	O	O

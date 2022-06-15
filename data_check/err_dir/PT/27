@@ -1,22 +1,25 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	민주당	B-OG	B-OG	B-OG, O, B-AF, B-LC, B-PS
-2	역사	O	O	O, I-OG, B-FD, I-AF, B-OG
-3	##에서	O	O	O, B-PS, I-OG, B-CV, B-LC
-4	‘	O	O	O, B-CV, B-LC, B-PS, B-OG
-5	중도	O	O	O, B-TR, B-PS, B-EV, B-OG
-6	##개혁	O	O	O, I-TR, B-TR, I-PS, I-EV
-7	’	O	O	O, B-PS, I-TR, I-EV, I-OG
-8	은	O	O	O, B-PS, B-OG, B-LC, B-CV
-9	당	O	O	O, B-OG, B-PS, I-OG, B-AF
-10	상징물	O	O	O, B-CV, I-OG, I-AF, B-PS
-11	##인	O	O	O, B-CV, B-PS, B-OG, B-LC
-12	소나무	B-PT	B-PT	B-PT, O, B-CV, I-PT, B-LC
-13	##의	O	O	O, I-AF, I-OG, I-EV, I-CV
-14	뿌리	B-PT	O	O, B-PT, B-AM, I-PT, B-LC
-15	##만큼	O	O	O, I-OG, I-EV, I-DT, B-CV
-16	##이나	O	O	O, B-OG, B-PS, B-LC, B-TM
-17	깊	O	O	O, B-PS, B-LC, B-CV, B-OG
-18	##다	O	O	O, I-OG, B-CV, B-OG, I-QT
-19	.	O	O	O, B-LC, B-CV, B-OG, B-PS
-20	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	국내	O	O
+2	##에	O	O
+3	한	B-QT	B-QT
+4	##그	I-QT	I-QT
+5	##루	I-QT	I-QT
+6	##뿐	O	O
+7	##인	O	O
+8	북한	B-LC	B-LC
+9	産	O	O
+10	나무	B-PT	O
+11	'	O	O
+12	풍	B-PT	B-PT
+13	##산	I-PT	I-PT
+14	##가	I-PT	I-PT
+15	##문	I-PT	I-PT
+16	##비	I-PT	I-PT
+17	'	O	O
+18	가	O	O
+19	죽	O	O
+20	##어	O	O
+21	##간다	O	O
+22	##는데	O	O
+23	[SEP]	O	O

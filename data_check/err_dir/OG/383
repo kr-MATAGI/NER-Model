@@ -1,31 +1,56 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	지난해	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-2	##에	O	O	O, I-DT, I-EV, I-QT, I-OG
-3	##는	O	O	O, B-OG, B-LC, B-CV, I-DT
-4	서울시	B-OG	B-OG	B-OG, B-LC, O, B-PS, I-OG
-5	##와	O	O	O, I-OG, I-LC, B-OG, I-DT
-6	##의	O	O	O, I-OG, B-LC, B-OG, B-CV
-7	업무	O	O	O, B-OG, B-CV, B-TM, B-LC
-8	##협	O	O	O, I-OG, I-CV, I-EV, I-LC
-9	##력	O	O	O, I-OG, I-EV, I-CV, I-LC
-10	##을	O	O	O, I-OG, I-EV, B-CV, B-OG
-11	통해	O	O	O, B-LC, B-OG, B-CV, B-TM
-12	서울시	B-OG	B-LC	B-LC, O, B-AF, B-OG, B-PS
-13	문화유산	O	O	O, I-AF, I-LC, I-OG, B-FD
-14	100	B-QT	B-QT	B-QT, O, I-QT, I-AF, I-LC
-15	##점	I-QT	I-QT	I-QT, O, I-LC, I-AF, I-PS
-16	##의	O	O	O, I-QT, I-AF, I-OG, B-CV
-17	생생	O	O	O, B-CV, B-LC, B-TM, B-OG
-18	##한	O	O	O, B-LC, B-OG, B-PS, B-CV
-19	모습	O	O	O, B-CV, B-LC, B-TM, I-OG
-20	##을	O	O	O, B-CV, B-LC, B-OG, B-TM
-21	담	O	O	O, B-CV, B-LC, B-TM, B-OG
-22	##은	O	O	O, B-LC, B-CV, B-PS, B-OG
-23	콘텐츠	O	O	O, B-CV, B-LC, B-TM, B-OG
-24	##를	O	O	O, B-CV, B-OG, B-LC, B-TM
-25	개발	O	O	O, B-CV, B-LC, B-TM, B-OG
-26	##했	O	O	O, B-OG, B-LC, B-CV, I-OG
-27	##다	O	O	O, B-CV, B-OG, B-LC, I-OG
-28	.	O	O	O, B-LC, B-OG, B-CV, I-OG
-29	[SEP]	O	O	O, B-LC, B-CV, B-OG, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	재	B-OG	O
+2	##형	I-OG	O
+3	##저축	I-OG	O
+4	##은	O	O
+5	연	O	O
+6	2	O	O
+7	%	O	O
+8	대의	O	O
+9	고정	O	O
+10	##금리	O	O
+11	##를	O	O
+12	제공	O	O
+13	##하	O	O
+14	##는	O	O
+15	‘	O	O
+16	고정	O	O
+17	##형	O	O
+18	’	O	O
+19	과	O	O
+20	,	O	O
+21	가입	O	O
+22	뒤	O	O
+23	3	B-DT	B-DT
+24	##년	I-DT	I-DT
+25	동안	I-DT	I-DT
+26	##은	O	O
+27	연	O	O
+28	4	O	O
+29	%	O	O
+30	대의	O	O
+31	고정	O	O
+32	##금리	O	O
+33	##가	O	O
+34	적용	O	O
+35	##되	O	O
+36	##고	O	O
+37	이후	O	O
+38	변동	O	O
+39	##금리	O	O
+40	##로	O	O
+41	바뀌	O	O
+42	##는	O	O
+43	‘	O	O
+44	변동	O	O
+45	##형	O	O
+46	(	O	O
+47	혼합	O	O
+48	##형	O	O
+49	)	O	O
+50	’	O	O
+51	으로	O	O
+52	나뉜다	O	O
+53	.	O	O
+54	[SEP]	O	O

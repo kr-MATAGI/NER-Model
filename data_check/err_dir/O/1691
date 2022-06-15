@@ -1,44 +1,17 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-QT
-1	또	O	O	O, B-OG, B-TM, B-CV, B-AF
-2	F	B-AF	B-AF	B-AF, B-TM, O, B-OG, B-LC
-3	-	I-AF	I-AF	I-AF, I-TM, O, I-QT, I-OG
-4	35	I-AF	I-AF	I-AF, I-TM, I-QT, O, I-OG
-5	##A	I-AF	I-AF	I-AF, I-TM, I-QT, O, I-OG
-6	스텔	B-AF	B-AF	B-AF, I-AF, O, B-TM, I-TM
-7	##스	I-AF	I-AF	I-AF, O, I-TM, I-QT, I-OG
-8	전투기	I-AF	I-AF	I-AF, B-AF, O, I-TM, I-QT
-9	도입	O	O	O, I-AF, I-TM, B-CV, I-EV
-10	,	O	O	O, B-OG, B-LC, B-CV, B-TM
-11	해상	B-AF	B-AF	B-AF, B-TM, O, I-AF, B-OG
-12	##작전	I-AF	I-AF	I-AF, I-TM, O, I-QT, I-OG
-13	##헬	I-AF	I-AF	I-AF, I-TM, O, I-QT, B-AF
-14	##기	I-AF	I-AF	I-AF, I-TM, O, I-QT, I-LC
-15	,	O	O	O, I-AF, I-TM, I-QT, I-EV
-16	해상	B-AF	B-TM	B-TM, B-AF, B-LC, O, B-QT
-17	##초	I-AF	I-TM	I-TM, I-AF, O, I-QT, I-LC
-18	##계	I-AF	I-TM	I-TM, I-AF, O, I-QT, I-LC
-19	##기	I-AF	I-TM	I-TM, I-AF, O, I-QT, I-LC
-20	-	I-AF	I-TM	I-TM, I-AF, O, I-QT, I-LC
-21	Ⅱ	I-AF	I-TM	I-TM, I-AF, I-QT, O, I-LC
-22	,	O	O	O, I-TM, I-AF, I-QT, I-OG
-23	장보고	B-AF	B-TM	B-TM, B-AF, B-LC, I-TM, B-QT
-24	-	I-AF	I-TM	I-TM, I-AF, O, I-QT, I-LC
-25	Ⅱ	I-AF	I-TM	I-TM, I-AF, O, I-QT, I-LC
-26	/	I-AF	I-TM	I-TM, I-AF, O, I-QT, I-LC
-27	Ⅲ	I-AF	I-TM	I-TM, O, I-AF, I-QT, I-LC
-28	사업	O	I-TM	I-TM, O, I-AF, I-QT, I-LC
-29	등	O	O	O, I-TM, I-AF, I-QT, I-OG
-30	##에	O	O	O, B-CV, B-OG, B-LC, B-DT
-31	2	B-QT	B-QT	B-QT, O, B-TM, B-DT, I-QT
-32	##조	I-QT	I-QT	I-QT, B-QT, I-TM, O, I-LC
-33	##15	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-TM
-34	##4	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-TM
-35	##억	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-36	##원	I-QT	I-QT	I-QT, O, I-LC, I-PS, I-TM
-37	##이	O	O	O, I-QT, B-OG, B-CV, B-PS
-38	반영	O	O	O, B-CV, B-OG, B-TM, B-LC
-39	##됐	O	O	O, B-CV, B-OG, B-LC, B-PS
-40	##다	O	O	O, B-CV, B-OG, B-TM, B-LC
-41	.	O	O	O, B-LC, B-TM, B-AF, B-OG
-42	[SEP]	O	O	O, B-TM, B-LC, B-AF, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	봉	B-PS	B-PS
+2	선수	B-CV	B-CV
+3	##가	O	O
+4	선수	O	B-CV
+5	##생활	O	O
+6	##을	O	O
+7	시작	O	O
+8	##한	O	O
+9	건	O	O
+10	초등	O	O
+11	##학교	O	O
+12	일	B-QT	B-QT
+13	##학	I-QT	I-QT
+14	##년	I-QT	I-QT
+15	[SEP]	O	O

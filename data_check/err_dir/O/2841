@@ -1,24 +1,51 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, I-OG, B-CV, I-EV
-1	좀	O	O	O, B-CV, B-QT, B-LC, B-TM
-2	더	O	O	O, B-CV, B-QT, B-PS, B-OG
-3	드	O	O	O, B-CV, B-OG, B-LC, B-PS
-4	##시	O	O	O, B-CV, I-CV, B-PS, I-OG
-5	##는데	O	O	O, B-CV, B-PS, I-OG, I-CV
-6	콩	O	B-CV	B-CV, O, B-PT, B-MT, I-CV
-7	##은	O	O	O, I-CV, I-OG, B-CV, I-AF
-8	두	B-QT	O	O, B-QT, B-PS, B-LC, B-TM
-9	##면	I-QT	O	O, I-QT, B-PS, I-PS, B-QT
-10	둘	O	O	O, B-QT, B-PS, I-QT, B-LC
-11	##수록	O	O	O, I-QT, I-LC, I-PS, B-PS
-12	좀	O	O	O, I-QT, B-CV, B-TM, B-QT
-13	퍼지	O	O	O, B-CV, B-TM, B-PS, B-LC
-14	##는	O	O	O, B-PS, I-CV, I-OG, I-TM
-15	기질	O	O	O, B-PS, B-CV, B-TM, B-LC
-16	##이	O	O	O, B-PS, B-CV, I-CV, I-PS
-17	있	O	O	O, B-CV, B-PS, I-CV, B-OG
-18	##거	O	O	O, B-CV, B-PS, I-CV, B-OG
-19	##든	O	O	O, B-CV, I-OG, I-CV, B-PS
-20	##요	O	O	O, B-CV, I-OG, I-CV, B-OG
-21	?	O	O	O, B-CV, I-OG, I-CV, B-PS
-22	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	사전	O	O
+2	##조치	O	O
+3	##로	O	O
+4	##는	O	O
+5	핵무기	B-AF	B-AF
+6	생산	O	O
+7	##과	O	O
+8	실험	O	O
+9	중단	O	O
+10	,	O	O
+11	탄도	B-AF	B-AF
+12	##미사	I-AF	I-AF
+13	##일	I-AF	I-AF
+14	발사	O	O
+15	중단	O	O
+16	,	O	O
+17	국제	B-OG	B-OG
+18	##원	I-OG	I-OG
+19	##자	I-OG	I-OG
+20	##력	I-OG	I-OG
+21	##기구	I-OG	I-OG
+22	(	O	O
+23	IAEA	B-OG	B-OG
+24	)	O	O
+25	조사단	O	O
+26	##의	O	O
+27	영	O	B-LC
+28	##변	O	I-LC
+29	핵	O	B-AF
+30	##시설	O	O
+31	복귀	O	O
+32	,	O	O
+33	우라늄	B-MT	B-TM
+34	##농	O	I-TM
+35	##축	O	I-TM
+36	##프로	O	I-TM
+37	##그램	O	I-TM
+38	(	O	O
+39	UE	O	O
+40	##P	O	O
+41	)	O	O
+42	시설	O	O
+43	##에	O	O
+44	대한	O	O
+45	조사	O	O
+46	등이	O	O
+47	꼽힌다	O	O
+48	.	O	O
+49	[SEP]	O	O

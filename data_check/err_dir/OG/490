@@ -1,13 +1,36 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-AF
-1	속	O	O	O, B-PS, B-LC, B-CV, B-AF
-2	##끓	O	O	O, B-PS, B-LC, B-CV, B-AF
-3	##는	O	O	O, B-LC, B-PS, B-OG, I-LC
-4	평택	B-LC	B-LC	B-LC, B-OG, O, B-PS, B-AF
-5	-	O	O	O, I-LC, B-LC, I-OG, I-AF
-6	동두천	B-LC	B-LC	B-LC, B-OG, O, I-LC, B-PS
-7	…	O	O	O, I-LC, I-OG, I-AF, B-LC
-8	느긋	O	O	O, B-LC, B-OG, B-PS, B-CV
-9	##한	O	O	O, B-LC, B-PS, B-OG, I-LC
-10	서울시	B-OG	B-LC	B-LC, B-OG, O, B-PS, I-LC
-11	[SEP]	O	O	O, I-LC, B-LC, I-OG, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	러	B-EV	B-EV
+2	-	I-EV	I-EV
+3	일전	I-EV	I-EV
+4	##쟁	I-EV	I-EV
+5	##과	O	O
+6	을	B-OG	B-DT
+7	##사	I-OG	I-DT
+8	##조	I-OG	I-DT
+9	##약	I-OG	I-DT
+10	직후	O	I-DT
+11	##에도	O	O
+12	일본인	B-CV	B-CV
+13	##들이	O	O
+14	동해	B-LC	B-LC
+15	##를	O	O
+16	‘	O	O
+17	조선	B-LC	B-LC
+18	##해	I-LC	I-LC
+19	’	O	O
+20	로	O	O
+21	불렀	O	O
+22	##다는	O	O
+23	사실	O	O
+24	##이	O	O
+25	한	O	O
+26	기행	O	O
+27	##문	O	O
+28	##에	O	O
+29	##서	O	O
+30	확인	O	O
+31	##됐	O	O
+32	##다	O	O
+33	.	O	O
+34	[SEP]	O	O

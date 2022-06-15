@@ -1,41 +1,77 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	과거	O	O	O, B-LC, B-OG, B-PS, B-CV
-2	민주	O	O	O, B-TR, B-CV, B-FD, B-PS
-3	##화	O	O	O, I-TR, I-CV, I-FD, I-OG
-4	인사	B-CV	O	O, B-CV, I-CV, I-TR, B-PS
-5	##의	O	O	O, B-PS, I-CV, B-LC, B-CV
-6	피난처	O	O	O, B-CV, B-LC, B-PS, B-AF
-7	역할	O	O	O, I-CV, B-PS, B-CV, B-LC
-8	##을	O	O	O, B-PS, B-LC, B-OG, B-CV
-9	해온	O	O	O, B-LC, B-OG, B-CV, B-PS
-10	명동	B-AF	B-OG	B-OG, B-AF, O, B-LC, I-OG
-11	##성	I-AF	I-OG	I-OG, I-AF, O, B-OG, I-LC
-12	##당	I-AF	I-OG	I-OG, I-AF, O, I-LC, I-CV
-13	##은	O	O	O, I-OG, I-AF, B-CV, I-EV
-14	1990	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-OG
-15	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-OG
-16	##대	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-OG
-17	후반부	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-OG
-18	##터	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-OG
-19	농성	B-CV	B-CV	B-CV, O, I-CV, B-TM, I-DT
-20	##자	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-TM
-21	퇴거	O	O	O, I-CV, B-CV, B-TM, B-LC
-22	(	O	O	O, I-CV, B-LC, B-OG, B-CV
-23	[UNK]	O	O	O, B-LC, B-CV, B-OG, B-PS
-24	[UNK]	O	O	O, B-LC, B-CV, B-OG, B-PS
-25	)	O	O	O, B-LC, B-CV, B-OG, B-PS
-26	를	O	O	O, B-LC, B-CV, B-OG, B-PS
-27	요구	O	O	O, B-CV, B-LC, B-OG, B-TM
-28	##하고	O	O	O, B-LC, B-OG, B-CV, B-PS
-29	경찰	B-OG	B-OG	B-OG, B-AF, O, B-CV, B-LC
-30	##에	O	O	O, I-OG, I-AF, I-EV, I-CV
-31	시설	O	O	O, B-LC, B-CV, B-TM, B-PS
-32	##보호	O	O	O, I-LC, I-CV, B-LC, B-PS
-33	##를	O	O	O, B-LC, B-PS, B-CV, B-OG
-34	요청	O	O	O, B-CV, B-LC, B-OG, B-TM
-35	##하고	O	O	O, B-CV, B-LC, B-OG, B-PS
-36	있	O	O	O, B-LC, B-CV, B-PS, B-OG
-37	##다	O	O	O, B-CV, B-LC, I-OG, B-OG
-38	.	O	O	O, B-LC, B-OG, B-CV, B-PS
-39	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	민주	B-OG	B-OG
+2	##사회	I-OG	I-OG
+3	##를	I-OG	I-OG
+4	위한	I-OG	I-OG
+5	변호사	I-OG	I-OG
+6	모임	I-OG	I-OG
+7	##의	O	O
+8	백	B-PS	B-PS
+9	##주	I-PS	I-PS
+10	##선	I-PS	I-PS
+11	변호사	B-CV	B-CV
+12	##는	O	O
+13	“	O	O
+14	비합리	O	O
+15	##적	O	O
+16	##이	O	O
+17	##고	O	O
+18	부당	O	O
+19	##한	O	O
+20	인사	B-CV	O
+21	·	O	O
+22	전보	O	O
+23	##를	O	O
+24	방지	O	O
+25	##하	O	O
+26	##기	O	O
+27	위한	O	O
+28	취지	O	O
+29	##로	O	O
+30	만든	O	O
+31	규정	O	O
+32	##을	O	O
+33	무시	O	O
+34	##하	O	O
+35	##고	O	O
+36	업무	O	O
+37	지원	O	O
+38	기간	O	O
+39	##까	O	O
+40	##지	O	O
+41	포함	O	O
+42	##해	O	O
+43	,	O	O
+44	(	O	O
+45	전보	O	O
+46	제한	O	O
+47	기한	O	O
+48	##인	O	O
+49	)	O	O
+50	4	B-DT	B-DT
+51	##개	I-DT	I-DT
+52	##월	I-DT	I-DT
+53	##을	O	O
+54	채웠	O	O
+55	##다는	O	O
+56	경찰	B-OG	B-OG
+57	해명	O	O
+58	##은	O	O
+59	규정	O	O
+60	취지	O	O
+61	##를	O	O
+62	무력	O	O
+63	##화	O	O
+64	##한	O	O
+65	편법	O	O
+66	##적	O	O
+67	행정	O	O
+68	”	O	O
+69	이라	O	O
+70	##고	O	O
+71	비판	O	O
+72	##했	O	O
+73	##다	O	O
+74	.	O	O
+75	[SEP]	O	O

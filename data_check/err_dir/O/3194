@@ -1,27 +1,52 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-EV, I-OG
-1	서울	B-LC	B-LC	B-LC, O, B-OG, B-PS, B-AF
-2	창	O	B-LC	B-LC, I-LC, O, B-AF, B-OG
-3	##성동	O	I-LC	I-LC, O, I-AF, B-LC, I-PS
-4	##의	O	O	O, I-LC, I-AF, B-PS, I-PS
-5	프라이빗	O	O	O, B-AF, B-TM, B-OG, B-CV
-6	갤러리	O	O	O, I-AF, I-OG, I-TM, I-EV
-7	'	O	O	O, B-CV, I-CV, B-PS, I-EV
-8	토마스	O	B-AF	B-AF, B-LC, B-OG, O, B-PS
-9	파크	O	I-AF	I-AF, I-LC, I-OG, O, I-EV
-10	'	O	O	O, I-AF, I-OG, I-EV, I-LC
-11	에서	O	O	O, B-PS, B-CV, B-LC, B-AM
-12	,	O	O	O, B-PS, B-CV, I-PS, B-LC
-13	이	O	B-PS	B-PS, O, I-PS, B-CV, B-TR
-14	'	O	O	O, B-CV, I-PS, B-PS, I-CV
-15	글	O	O	O, B-CV, B-FD, B-AF, B-PS
-16	쓰	O	O	O, I-CV, I-AF, I-PS, B-PS
-17	##는	O	O	O, I-PS, I-CV, I-AF, B-PS
-18	화랑	O	O	O, B-CV, B-PS, I-CV, I-PS
-19	주인	O	B-CV	B-CV, O, I-CV, B-PS, I-PS
-20	'	O	O	O, I-CV, B-CV, B-PS, I-EV
-21	을	O	O	O, B-CV, B-PS, I-CV, B-OG
-22	만났	O	O	O, B-PS, B-CV, B-EV, B-OG
-23	##다	O	O	O, B-CV, B-PS, I-EV, I-CV
-24	.	O	O	O, B-CV, B-PS, B-LC, B-FD
-25	[SEP]	O	O	O, B-CV, B-PS, B-LC, B-FD
+	text	label	preds
+0	[CLS]	O	O
+1	실제	O	O
+2	인수위	O	B-OG
+3	##안	O	O
+4	##을	O	O
+5	기본	O	O
+6	##골	O	O
+7	##격	O	O
+8	##으로	O	O
+9	해	O	O
+10	##달라	O	O
+11	##는	O	O
+12	장관	B-CV	B-CV
+13	##의	O	O
+14	당부	O	O
+15	##에도	O	O
+16	,	O	O
+17	회의	O	O
+18	##에	O	O
+19	참석	O	O
+20	##한	O	O
+21	한	O	O
+22	위원	B-CV	B-CV
+23	##은	O	O
+24	“	O	O
+25	‘	O	O
+26	국민	B-CV	B-CV
+27	##행	I-CV	I-CV
+28	##복	I-CV	I-CV
+29	##연금	I-CV	I-CV
+30	’	O	O
+31	이라	O	O
+32	##는	O	O
+33	이름	O	O
+34	##부터	O	O
+35	‘	O	O
+36	행복	O	B-CV
+37	##기금	O	I-CV
+38	’	O	O
+39	과	O	O
+40	비슷	O	O
+41	##해	O	O
+42	혼돈	O	O
+43	##을	O	O
+44	준다는	O	O
+45	의견	O	O
+46	##이	O	O
+47	있	O	O
+48	##다	O	O
+49	.	O	O
+50	[SEP]	O	O

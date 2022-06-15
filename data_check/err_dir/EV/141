@@ -1,11 +1,20 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-EV, B-CV, I-CV
-1	◆	O	O	O, B-CV, B-LC, B-OG, B-PS
-2	##영	B-EV	B-LC	B-LC, B-EV, O, B-OG, B-AF
-3	##동	I-EV	I-LC	I-LC, I-EV, O, I-AF, I-OG
-4	난	I-EV	B-EV	B-EV, I-EV, B-LC, I-LC, O
-5	##계	I-EV	I-EV	I-EV, I-LC, I-AF, I-PS, O
-6	##국	I-EV	I-EV	I-EV, I-LC, O, I-AF, I-TM
-7	##악	I-EV	I-EV	I-EV, I-LC, O, I-AF, I-TM
-8	##축제	I-EV	I-EV	I-EV, I-LC, O, I-AF, I-TM
-9	[SEP]	O	O	O, I-EV, I-LC, I-OG, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	6	B-DT	B-DT
+2	##일	I-DT	I-DT
+3	오후	B-TI	B-TI
+4	하	O	B-EV
+5	##관	O	I-EV
+6	##의	O	I-EV
+7	##례	O	I-EV
+8	열	O	O
+9	##고	O	O
+10	5	B-EV	B-LC
+11	·	I-EV	I-LC
+12	18	I-EV	I-LC
+13	옛	O	O
+14	##묘	O	I-LC
+15	##지	O	I-LC
+16	##에	O	O
+17	안장	O	O
+18	[SEP]	O	O

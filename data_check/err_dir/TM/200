@@ -1,26 +1,87 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-EV, B-CV, I-OG, I-CV
-1	교육	O	O	O, B-LC, B-CV, B-EV, B-TM
-2	##센터	O	O	O, I-LC, I-AF, I-EV, I-OG
-3	##에서	O	O	O, B-CV, B-LC, B-PS, B-TM
-4	##는	O	O	O, B-CV, B-LC, B-TM, B-EV
-5	소프트웨어	O	O	O, B-FD, B-CV, B-TR, B-TM
-6	코딩	B-TM	O	O, B-FD, B-CV, I-FD, I-TR
-7	교육	O	O	O, I-CV, I-FD, I-TR, I-EV
-8	##을	O	O	O, I-EV, I-CV, B-CV, B-PS
-9	받	O	O	O, B-CV, B-LC, B-PS, I-EV
-10	##고	O	O	O, B-LC, B-PS, B-CV, I-EV
-11	,	O	O	O, B-CV, B-LC, B-EV, B-TM
-12	VR	B-TM	B-TM	B-TM, O, B-TR, B-EV, B-AF
-13	(	O	O	O, I-EV, I-TM, I-TR, I-QT
-14	가상현실	B-TM	B-TM	B-TM, O, B-TR, I-TM, B-QT
-15	)	O	O	O, I-EV, I-TM, I-TR, I-QT
-16	체험	O	O	O, I-EV, B-EV, B-CV, I-TM
-17	##을	O	O	O, I-EV, B-CV, I-AF, B-PS
-18	해	O	O	O, B-CV, B-LC, B-PS, I-EV
-19	##볼	O	O	O, I-EV, I-LC, B-PS, B-CV
-20	수	O	O	O, B-PS, B-LC, B-CV, I-EV
-21	있	O	O	O, B-CV, I-EV, B-LC, B-EV
-22	##다	O	O	O, B-CV, I-EV, B-LC, B-TM
-23	.	O	O	O, B-LC, I-EV, B-CV, B-PS
-24	[SEP]	O	O	O, B-CV, I-EV, B-LC, I-LC
+	text	label	preds
+0	[CLS]	O	O
+1	조민	B-PS	B-PS
+2	##석	I-PS	I-PS
+3	건축가	B-CV	B-CV
+4	##는	O	O
+5	“	O	O
+6	50	B-DT	B-DT
+7	##여	I-DT	I-DT
+8	##년	I-DT	I-DT
+9	전	I-DT	I-DT
+10	합동	B-LC	O
+11	언덕	I-LC	O
+12	위	O	O
+13	##에	O	O
+14	지어	O	O
+15	##진	O	O
+16	대사관	O	O
+17	##은	O	O
+18	처마	O	O
+19	##선	O	O
+20	##으로	O	O
+21	대표	O	O
+22	##되	O	O
+23	##는	O	O
+24	한국	B-LC	B-LC
+25	##의	O	O
+26	건축	O	O
+27	전통	O	O
+28	##과	O	O
+29	프랑스	B-LC	B-LC
+30	##의	O	O
+31	현대	O	O
+32	##건	O	O
+33	##축	O	O
+34	요소	O	O
+35	##가	O	O
+36	결합	O	O
+37	##돼	O	O
+38	시내	O	O
+39	##에	O	O
+40	##서	O	O
+41	가장	O	O
+42	중요	O	O
+43	##하	O	O
+44	##게	O	O
+45	부각	O	O
+46	##되	O	O
+47	##는	O	O
+48	건물	O	O
+49	##이	O	O
+50	##었	O	O
+51	##으나	O	O
+52	지금	O	O
+53	##은	O	O
+54	주변	O	O
+55	##을	O	O
+56	둘러싼	O	O
+57	고층	O	O
+58	##빌	O	O
+59	##딩	O	O
+60	##에	O	O
+61	가려	O	O
+62	##진	O	O
+63	상태	O	O
+64	##여서	O	O
+65	사방	B-TM	O
+66	##에	O	O
+67	새롭	O	O
+68	##게	O	O
+69	존재감	O	O
+70	##을	O	O
+71	부각	O	O
+72	##시	O	O
+73	##켜	O	O
+74	##야	O	O
+75	한다고	O	O
+76	생각	O	O
+77	##했	O	O
+78	##다	O	O
+79	”	O	O
+80	고	O	O
+81	말	O	O
+82	##했	O	O
+83	##다	O	O
+84	.	O	O
+85	[SEP]	O	O

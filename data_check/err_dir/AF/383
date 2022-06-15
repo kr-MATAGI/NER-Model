@@ -1,15 +1,45 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, I-AF, B-CV
-1	전자	B-AF	B-OG	B-OG, B-AF, O, B-TM, B-PS
-2	##불	I-AF	I-OG	I-OG, I-AF, O, I-TM, I-LC
-3	##전	I-AF	I-OG	I-OG, I-AF, O, I-TM, I-LC
-4	##이	O	O	O, I-OG, I-AF, I-TM, I-CV
-5	##란	O	O	O, I-AF, I-OG, B-TM, B-LC
-6	요	O	O	O, B-AF, B-TM, B-OG, B-LC
-7	잡지	O	O	O, B-AF, B-CV, B-OG, I-AF
-8	##가	O	O	O, I-AF, B-PS, I-OG, B-OG
-9	있	O	O	O, B-CV, B-OG, B-AF, B-LC
-10	##습	O	O	O, B-CV, B-LC, B-OG, I-AF
-11	##니다	O	O	O, B-CV, B-LC, I-OG, B-OG
-12	.	O	O	O, B-OG, B-LC, B-AF, B-CV
-13	[SEP]	O	O	O, B-CV, B-OG, B-AF, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	조선	B-AF	B-AF
+2	##왕	I-AF	I-AF
+3	##조	I-AF	I-AF
+4	##실록	I-AF	I-AF
+5	##을	O	O
+6	세	B-QT	B-QT
+7	번	I-QT	I-QT
+8	이상	I-QT	I-QT
+9	완	O	O
+10	##독	O	O
+11	##했	O	O
+12	##다는	O	O
+13	‘	O	O
+14	조선	B-AF	B-AF
+15	##왕	I-AF	I-DT
+16	##조	I-AF	I-DT
+17	500	I-AF	B-DT
+18	##년	I-AF	I-DT
+19	’	O	O
+20	작가	B-CV	B-CV
+21	신봉	B-PS	B-PS
+22	##승	I-PS	I-PS
+23	씨	O	O
+24	##는	O	O
+25	통치자	B-CV	B-CV
+26	##가	O	O
+27	전범	O	O
+28	##으로	O	O
+29	삼	O	O
+30	##아	O	O
+31	##야	O	O
+32	할	O	O
+33	모든	O	O
+34	것	O	O
+35	##이	O	O
+36	실록	O	O
+37	##에	O	O
+38	있	O	O
+39	##다고	O	O
+40	말	O	O
+41	##한다	O	O
+42	.	O	O
+43	[SEP]	O	O

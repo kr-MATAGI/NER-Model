@@ -1,40 +1,12 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	고구려	B-DT	B-DT	B-DT, B-LC, B-FD, B-AF, O
-2	벽화	O	O	O, B-FD, B-AF, I-AF, B-CV
-3	##부터	O	O	O, I-AF, I-DT, B-LC, B-PS
-4	조선	B-DT	B-DT	B-DT, O, I-DT, B-LC, B-TI
-5	##시대	I-DT	I-DT	I-DT, O, B-DT, I-AF, I-QT
-6	산수	B-FD	B-FD	B-FD, B-LC, B-AF, I-FD, O
-7	##화	I-FD	I-FD	I-FD, I-AF, I-TR, O, I-PT
-8	,	O	O	O, I-AF, I-FD, I-OG, I-EV
-9	중국	B-FD	B-FD	B-FD, B-LC, O, B-AF, I-FD
-10	##화	I-FD	I-FD	I-FD, O, I-AF, I-TR, I-LC
-11	##까	O	O	O, I-FD, I-AF, I-OG, I-QT
-12	##지	O	O	O, B-CV, B-LC, B-OG, B-PS
-13	다양	O	O	O, B-CV, B-OG, B-LC, B-TM
-14	##하	O	O	O, B-CV, B-PS, B-OG, B-LC
-15	##지만	O	O	O, B-CV, B-OG, B-LC, B-PS
-16	단원	B-PS	B-PS	B-PS, O, B-CV, B-AF, B-LC
-17	김홍	I-PS	I-PS	I-PS, B-PS, O, I-AF, I-LC
-18	##도	I-PS	I-PS	I-PS, O, I-LC, I-AF, I-OG
-19	,	O	O	O, I-PS, I-AF, B-CV, B-LC
-20	호	B-PS	B-PS	B-PS, B-AF, O, B-CV, B-LC
-21	##생	I-PS	I-PS	I-PS, I-AF, O, I-CV, I-LC
-22	##관	I-PS	I-PS	I-PS, I-AF, O, I-CV, I-LC
-23	최	I-PS	B-PS	B-PS, I-PS, O, B-LC, I-AF
-24	##북	I-PS	I-PS	I-PS, O, I-LC, I-AF, I-OG
-25	,	O	O	O, I-PS, I-AF, I-LC, B-CV
-26	산수	B-FD	B-FD	B-FD, O, B-AF, B-TR, B-LC
-27	##화	I-FD	I-FD	I-FD, O, I-TR, I-AF, B-FD
-28	대가	O	B-CV	B-CV, O, B-PS, I-CV, I-FD
-29	이인	B-PS	B-PS	B-PS, I-PS, O, B-LC, B-QT
-30	##문	I-PS	I-PS	I-PS, O, I-LC, I-QT, I-OG
-31	##의	O	O	O, I-PS, B-CV, I-AF, B-LC
-32	그림	O	O	O, B-FD, B-CV, B-LC, B-TM
-33	##이	O	O	O, B-PS, B-CV, B-LC, I-AF
-34	인상	O	O	O, B-CV, B-OG, B-TM, B-LC
-35	##적	O	O	O, I-AF, I-OG, I-CV, I-QT
-36	##이다	O	O	O, B-CV, I-OG, B-TM, B-QT
-37	.	O	O	O, B-LC, B-CV, B-PS, B-FD
-38	[SEP]	O	O	O, B-CV, B-FD, B-LC, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	한	O	B-QT
+2	##번	O	I-QT
+3	잠깐	O	O
+4	와서	O	O
+5	보고	O	O
+6	가시	O	O
+7	##면	O	O
+8	아	O	O
+9	이	O	O
+10	[SEP]	O	O

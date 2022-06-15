@@ -1,33 +1,70 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	얼굴	B-AM	B-AM	B-AM, O, B-TM, B-TR, B-PS
-2	보고	O	O	O, B-AM, I-AM, I-TR, B-PS
-3	말	O	O	O, B-TM, B-AM, B-CV, B-LC
-4	##하기	O	O	O, B-PS, B-TM, B-LC, B-CV
-5	불편	O	O	O, B-CV, B-TM, B-PS, B-LC
-6	##한	O	O	O, B-PS, B-LC, B-CV, I-CV
-7	사이	O	O	O, B-TM, B-LC, B-CV, B-PS
-8	##에서	O	O	O, B-CV, B-PS, B-LC, B-TM
-9	카카오톡	B-TM	B-TM	B-TM, B-OG, B-LC, B-AF, O
-10	,	O	O	O, I-TM, I-OG, I-AF, I-CV
-11	페이스북	B-TM	B-OG	B-OG, B-TM, B-AF, B-LC, O
-12	같	O	O	O, I-OG, I-AF, I-TM, I-CV
-13	##은	O	O	O, B-CV, B-LC, B-TM, B-OG
-14	SNS	O	O	O, B-TM, B-CV, I-TM, B-LC
-15	(	O	O	O, B-CV, B-OG, I-CV, B-LC
-16	소셜	O	O	O, B-TM, B-CV, B-LC, I-TM
-17	##네트	O	O	O, I-TM, I-CV, B-TM, I-LC
-18	##워	O	O	O, I-TM, I-CV, I-LC, B-TM
-19	##킹	O	O	O, I-TM, I-CV, I-LC, B-TM
-20	##서비스	O	O	O, I-TM, I-CV, I-LC, B-TM
-21	)	O	O	O, B-CV, I-CV, I-TM, B-LC
-22	는	O	O	O, B-LC, B-CV, B-TM, B-OG
-23	'	O	O	O, B-CV, B-LC, B-TM, B-PS
-24	윤활유	B-MT	B-MT	B-MT, O, B-AF, B-TM, B-TR
-25	'	O	O	O, I-CV, I-TM, I-AF, B-CV
-26	역	O	O	O, B-CV, B-QT, B-TM, B-PS
-27	##을	O	O	O, B-CV, B-PS, B-LC, B-TM
-28	톡톡히	O	O	O, B-QT, B-LC, B-TM, B-CV
-29	한다	O	O	O, B-CV, I-QT, B-LC, B-TM
-30	.	O	O	O, B-LC, B-CV, B-TM, B-PS
-31	[SEP]	O	O	O, B-CV, B-LC, B-TM, I-CV
+	text	label	preds
+0	[CLS]	O	O
+1	안	B-PS	B-PS
+2	전	O	O
+3	대표	B-CV	B-CV
+4	##는	O	O
+5	이날	B-DT	B-DT
+6	페이스북	B-TM	B-OG
+7	##에	O	O
+8	##서	O	O
+9	‘	O	O
+10	세월	B-EV	B-AF
+11	##호	I-EV	I-AF
+12	희생자	B-CV	B-CV
+13	##들	O	O
+14	##에	O	O
+15	보내	O	O
+16	##는	O	O
+17	편지	O	O
+18	’	O	O
+19	를	O	O
+20	공개	O	O
+21	##하	O	O
+22	##며	O	O
+23	“	O	O
+24	만	O	O
+25	##시	O	O
+26	##지	O	O
+27	##탄	O	O
+28	##이지	O	O
+29	##만	O	O
+30	이제	O	O
+31	##부터	O	O
+32	##라도	O	O
+33	뿌리	O	B-PT
+34	##째	O	O
+35	썩	O	O
+36	##어	O	O
+37	있	O	O
+38	##는	O	O
+39	대한민국	B-LC	B-LC
+40	##을	O	O
+41	바꾸	O	O
+42	##겠다	O	O
+43	”	O	O
+44	며	O	O
+45	“	O	O
+46	그것	O	O
+47	##이	O	O
+48	여러분	O	O
+49	##을	O	O
+50	지켜	O	O
+51	##주	O	O
+52	##지	O	O
+53	못	O	O
+54	##한	O	O
+55	것	O	O
+56	##에	O	O
+57	대한	O	O
+58	제	O	O
+59	사과	O	O
+60	##이	O	O
+61	##자	O	O
+62	도리	O	O
+63	”	O	O
+64	라고	O	O
+65	밝혔	O	O
+66	##다	O	O
+67	.	O	O
+68	[SEP]	O	O

@@ -1,25 +1,17 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	국민	O	O	O, B-CV, B-OG, I-CV, B-FD
-2	##소득	O	O	O, I-CV, I-OG, I-AF, I-TR
-3	##과	O	O	O, I-CV, I-AF, B-PS, I-OG
-4	행복	O	O	O, B-CV, I-AF, B-PS, B-TM
-5	##의	O	O	O, I-AF, B-PS, I-OG, I-CV
-6	상관	O	O	O, B-CV, B-TM, B-FD, B-PS
-7	##관계	O	O	O, I-CV, I-AF, I-TR, I-TM
-8	##에	O	O	O, B-CV, I-AF, I-CV, B-PS
-9	대해선	O	O	O, B-LC, B-CV, B-OG, B-PS
-10	미국	B-LC	B-LC	B-LC, B-OG, O, B-CV, B-PS
-11	경제학자	B-CV	B-CV	B-CV, O, I-CV, B-FD, B-OG
-12	리처드	O	B-PS	B-PS, O, I-PS, B-LC, B-OG
-13	이스	O	I-PS	I-PS, O, B-PS, I-LC, I-QT
-14	##털	O	I-PS	I-PS, O, I-LC, I-QT, I-OG
-15	##린	O	I-PS	I-PS, O, I-LC, I-QT, B-LC
-16	##의	O	O	O, I-PS, B-CV, I-LC, I-AF
-17	연구	B-CV	B-CV	B-CV, O, B-FD, I-CV, B-TM
-18	##가	I-CV	I-CV	I-CV, O, B-CV, I-QT, I-OG
-19	유명	O	O	O, I-CV, B-CV, I-QT, I-OG
-20	##하	O	O	O, B-CV, B-OG, B-LC, B-PS
-21	##다	O	O	O, B-CV, I-OG, I-CV, B-TM
-22	.	O	O	O, B-LC, B-CV, B-PS, B-FD
-23	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-FD
+	text	label	preds
+0	[CLS]	O	O
+1	“	O	O
+2	남	B-OG	B-LC
+3	‘	O	O
+4	자발	O	O
+5	##적	O	O
+6	탈	O	O
+7	##북	B-OG	O
+8	’	O	O
+9	북	O	B-LC
+10	‘	O	O
+11	유인	O	O
+12	납치	O	O
+13	’	O	O
+14	맞서	O	O
+15	[SEP]	O	O

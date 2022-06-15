@@ -1,14 +1,16 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-AF
-1	인간	O	O	O, B-CV, B-AM, B-PS, B-TM
-2	##에	O	O	O, B-PS, I-AF, I-CV, B-CV
-3	##게	O	O	O, B-CV, B-PS, B-AM, B-LC
-4	고기	B-CV	O	O, B-CV, B-AM, B-PT, B-MT
-5	##는	O	O	O, I-CV, I-AF, B-PS, B-CV
-6	약	O	O	O, B-TM, B-CV, B-AM, B-PS
-7	##이	O	O	O, B-PS, I-CV, I-AF, I-PS
-8	##자	O	O	O, B-PS, I-CV, I-PS, B-CV
-9	독	O	O	O, B-TM, B-CV, B-MT, B-AM
-10	##이다	O	O	O, I-CV, I-TM, I-AF, I-PS
-11	.	O	O	O, B-PS, B-CV, B-LC, B-TM
-12	[SEP]	O	O	O, B-CV, B-PS, I-AF, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	계몽	O	O
+2	##대장	B-CV	O
+3	.	O	O
+4	나중	O	O
+5	##에	O	O
+6	그	O	O
+7	사람	O	O
+8	##이	O	O
+9	그렇게	O	O
+10	되	O	O
+11	##드라	O	O
+12	##구	O	O
+13	.	O	O
+14	[SEP]	O	O

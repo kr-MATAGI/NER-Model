@@ -1,12 +1,45 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	대학	O	B-AF	B-AF, B-LC, B-EV, O, B-OG
-2	##로	O	I-AF	I-AF, I-LC, I-EV, O, I-OG
-3	뮤지컬	B-FD	B-FD	B-FD, O, I-AF, I-FD, I-EV
-4	史	O	O	O, I-FD, B-FD, I-EV, B-LC
-5	風	O	O	O, B-LC, I-FD, I-OG, I-LC
-6	이	O	O	O, B-PS, I-OG, I-PS, B-OG
-7	휩	O	O	O, B-CV, B-PS, B-LC, B-EV
-8	##쓴	O	O	O, B-CV, I-OG, I-EV, B-PS
-9	##다	O	O	O, B-CV, I-OG, B-LC, I-EV
-10	[SEP]	O	O	O, B-CV, B-LC, B-PS, I-EV
+	text	label	preds
+0	[CLS]	O	O
+1	이	B-PS	B-PS
+2	후보	B-CV	B-CV
+3	##측	O	O
+4	이	B-PS	B-PS
+5	##점	I-PS	I-PS
+6	##호	I-PS	I-PS
+7	언론	O	B-CV
+8	##특	O	I-CV
+9	##보	O	I-CV
+10	##는	O	O
+11	""""	O	O
+12	집안	O	O
+13	싸움	O	O
+14	##을	O	O
+15	접	O	O
+16	##고	O	O
+17	이제	O	O
+18	##는	O	O
+19	당	O	O
+20	후보	B-CV	B-CV
+21	##를	O	O
+22	중심	O	O
+23	##으로	O	O
+24	결집	O	O
+25	##하	O	O
+26	##고	O	O
+27	있	O	O
+28	##어	O	O
+29	,	O	O
+30	조만간	O	O
+31	그	O	O
+32	효과	O	O
+33	##가	O	O
+34	나타날	O	O
+35	것	O	O
+36	""""	O	O
+37	이라	O	O
+38	##고	O	O
+39	말	O	O
+40	##했	O	O
+41	##다	O	O
+42	.	O	O
+43	[SEP]	O	O

@@ -1,32 +1,28 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	그러나	O	O	O, B-CV, B-OG, B-TM, B-QT
-2	이런	O	O	O, B-CV, B-TM, B-LC, B-OG
-3	수치	O	O	O, B-CV, B-OG, B-LC, B-QT
-4	##는	O	O	O, B-CV, B-OG, B-LC, B-PS
-5	경제	B-OG	O	O, B-OG, B-LC, B-PS, B-EV
-6	##협	I-OG	I-OG	I-OG, O, B-OG, I-EV, I-LC
-7	##력	I-OG	I-OG	I-OG, O, B-OG, I-EV, I-LC
-8	##개발	I-OG	I-OG	I-OG, O, B-OG, I-LC, I-EV
-9	##기구	I-OG	O	O, I-OG, B-OG, I-LC, I-EV
-10	(	O	O	O, I-OG, B-CV, B-OG, B-LC
-11	OECD	B-OG	B-OG	B-OG, O, I-OG, B-CV, B-EV
-12	)	O	O	O, I-OG, I-EV, I-CV, B-CV
-13	회원국	O	B-CV	B-CV, O, B-OG, I-CV, B-PS
-14	평균	O	O	O, I-CV, I-OG, B-CV, B-PS
-15	##인	O	O	O, B-PS, B-CV, B-OG, B-LC
-16	5	B-QT	B-QT	B-QT, O, I-QT, B-PS, B-EV
-17	.	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-18	6	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-19	##명	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-20	##과	O	O	O, I-QT, B-CV, I-OG, I-AF
-21	견	O	O	O, B-CV, B-OG, B-TM, B-QT
-22	##줄	O	O	O, I-OG, I-CV, B-PS, I-LC
-23	때	O	O	O, I-OG, B-CV, B-PS, B-LC
-24	여전히	O	O	O, B-CV, B-TM, B-QT, B-OG
-25	높	O	O	O, B-CV, B-QT, B-TM, B-LC
-26	##은	O	O	O, B-PS, B-CV, B-LC, B-QT
-27	수준	O	O	O, B-CV, B-OG, B-QT, I-QT
-28	##이다	O	O	O, B-CV, B-TM, I-OG, B-QT
-29	.	O	O	O, B-OG, B-LC, B-CV, I-OG
-30	[SEP]	O	O	O, B-CV, B-OG, I-OG, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	이런	O	O
+2	메	B-AF	B-TM
+3	##세	I-AF	I-TM
+4	##나	I-AF	I-TM
+5	(	O	I-TM
+6	사회	O	I-TM
+7	##공	O	I-TM
+8	##헌	O	I-TM
+9	)	O	I-TM
+10	사업	O	I-TM
+11	##으로	O	O
+12	일본	B-OG	B-OG
+13	##과	O	O
+14	##의	O	O
+15	미술	O	O
+16	교류	O	O
+17	##에	O	O
+18	디딤돌	O	O
+19	##을	O	O
+20	놓	O	O
+21	##았	O	O
+22	##다는	O	O
+23	평가	O	O
+24	##다	O	O
+25	.	O	O
+26	[SEP]	O	O

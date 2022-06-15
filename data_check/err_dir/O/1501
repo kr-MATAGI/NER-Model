@@ -1,63 +1,23 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	이날	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-QT
-2	연석회의	B-EV	B-EV	B-EV, O, B-OG, I-EV, B-CV
-3	##에	O	O	O, I-EV, I-OG, I-DT, I-CV
-4	##는	O	O	O, B-CV, B-OG, B-LC, I-EV
-5	손학규	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
-6	대표	B-CV	B-CV	B-CV, O, I-CV, I-PS, B-OG
-7	등	O	O	O, I-CV, B-CV, B-LC, B-OG
-8	민주당	B-OG	B-OG	B-OG, O, B-EV, B-LC, B-PS
-9	최고위	O	B-CV	B-CV, O, I-CV, I-OG, B-OG
-10	##원	O	I-CV	I-CV, O, I-OG, B-CV, I-EV
-11	##단	O	O	O, I-CV, I-OG, B-CV, I-QT
-12	,	O	O	O, I-CV, B-PS, B-LC, I-OG
-13	이해찬	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-14	전	O	O	O, I-PS, B-CV, I-OG, I-EV
-15	총리	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-TM
-16	##와	O	O	O, I-CV, B-CV, I-OG, I-EV
-17	문재인	B-PS	B-PS	B-PS, B-OG, O, B-LC, I-PS
-18	노무현	B-OG	B-OG	B-OG, O, I-OG, I-PS, B-CV
-19	##재단	I-OG	I-OG	I-OG, O, I-PS, I-AF, I-CV
-20	이사장	B-CV	B-CV	B-CV, O, I-CV, I-OG, B-OG
-21	등	O	O	O, I-CV, B-CV, I-OG, I-EV
-22	‘	O	O	O, B-OG, B-LC, B-CV, B-PS
-23	혁신	O	O	O, B-OG, B-TR, B-EV, B-PS
-24	##과	O	I-OG	I-OG, O, B-OG, I-EV, I-TR
-25	통합	O	I-OG	I-OG, O, B-OG, I-EV, I-TR
-26	’	O	O	O, I-OG, B-OG, B-PS, I-EV
-27	의	O	O	O, B-OG, I-OG, B-CV, B-PS
-28	상임	O	O	O, B-CV, B-OG, I-CV, B-QT
-29	##대표	O	O	O, I-CV, B-CV, I-OG, I-QT
-30	##단	O	O	O, I-CV, I-OG, I-QT, B-CV
-31	,	O	O	O, I-CV, B-PS, B-LC, I-OG
-32	한국노총	B-OG	B-OG	B-OG, O, B-LC, B-EV, B-PS
-33	대표단	O	O	O, I-OG, B-CV, B-OG, I-CV
-34	,	O	O	O, I-OG, I-CV, B-CV, I-EV
-35	그리고	O	O	O, B-CV, B-OG, B-LC, B-AF
-36	진보	B-OG	B-OG	B-OG, O, B-CV, B-EV, B-AF
-37	##통	I-OG	I-OG	I-OG, O, I-CV, B-OG, I-EV
-38	##합	I-OG	I-OG	I-OG, O, I-CV, I-EV, I-AF
-39	##시	I-OG	I-OG	I-OG, O, B-OG, I-CV, B-CV
-40	##민	I-OG	I-OG	I-OG, O, I-CV, I-EV, I-AF
-41	##회의	I-OG	I-OG	I-OG, O, I-CV, I-EV, I-AF
-42	,	O	O	O, I-OG, B-CV, I-CV, I-EV
-43	복지	B-OG	B-OG	B-OG, O, B-AF, B-PS, I-OG
-44	##국	I-OG	I-OG	I-OG, O, I-AF, B-OG, I-CV
-45	##가	I-OG	I-OG	I-OG, O, I-AF, I-CV, I-LC
-46	##소사	I-OG	I-OG	I-OG, O, I-AF, I-CV, B-OG
-47	##이어티	I-OG	I-OG	I-OG, O, I-CV, I-AF, I-LC
-48	,	O	O	O, I-OG, B-CV, I-CV, I-AF
-49	민주	B-OG	B-OG	B-OG, O, B-CV, B-AF, I-OG
-50	##평	I-OG	I-OG	I-OG, O, I-CV, I-AF, B-OG
-51	##화	I-OG	I-OG	I-OG, O, I-CV, I-AF, I-EV
-52	##복지	I-OG	I-OG	I-OG, O, I-CV, I-AF, I-EV
-53	##포	I-OG	I-OG	I-OG, O, I-CV, I-AF, I-EV
-54	##럼	I-OG	I-OG	I-OG, O, I-CV, I-AF, I-EV
-55	대표	B-CV	B-CV	B-CV, O, I-CV, I-OG, B-OG
-56	##들이	O	O	O, I-CV, I-OG, B-CV, I-EV
-57	참석	O	O	O, B-CV, B-OG, B-EV, B-TM
-58	##했	O	O	O, B-CV, B-OG, B-PS, B-LC
-59	##다	O	O	O, B-CV, B-OG, B-LC, B-TM
-60	.	O	O	O, B-OG, B-LC, I-OG, B-CV
-61	[SEP]	O	O	O, B-OG, I-OG, B-LC, B-CV
+	text	label	preds
+0	[CLS]	O	O
+1	'	O	O
+2	김혜	B-AF	B-AF
+3	##수	I-AF	I-AF
+4	##의	I-AF	I-AF
+5	W	I-AF	I-AF
+6	'	O	O
+7	는	O	O
+8	오	B-DT	B-DT
+9	##는	I-DT	I-DT
+10	16	I-DT	I-DT
+11	##일	I-DT	I-DT
+12	밤	B-TI	B-TI
+13	11	I-TI	I-TI
+14	##시	I-TI	I-TI
+15	50	I-TI	I-TI
+16	##분	I-TI	I-TI
+17	첫	O	B-QT
+18	방송	O	I-QT
+19	된다	O	O
+20	.	O	O
+21	[SEP]	O	O

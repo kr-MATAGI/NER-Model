@@ -1,45 +1,45 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	한	O	O	O, B-LC, B-OG, B-TM, B-QT
-2	민간	O	O	O, B-OG, B-LC, B-TM, B-CV
-3	에너지	O	O	O, B-MT, B-FD, I-OG, B-OG
-4	##업체	O	O	O, I-OG, I-CV, I-TM, B-CV
-5	관계자	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-AF
-6	##는	O	O	O, I-CV, I-QT, B-CV, I-OG
-7	“	O	O	O, B-CV, B-LC, B-TM, B-OG
-8	민간	O	O	O, B-CV, B-OG, B-LC, B-FD
-9	##이	O	O	O, B-PS, B-CV, I-CV, I-OG
-10	참여	O	O	O, B-CV, B-PS, B-TM, I-OG
-11	##하	O	O	O, B-PS, B-OG, B-LC, B-CV
-12	##는	O	O	O, B-CV, B-PS, B-OG, B-LC
-13	전문	O	O	O, B-CV, B-OG, B-LC, B-TM
-14	##회사	O	O	O, B-CV, I-OG, B-OG, I-CV
-15	##라고	O	O	O, I-OG, B-PS, B-OG, B-CV
-16	해도	O	O	O, B-CV, B-LC, B-OG, B-TM
-17	결국	O	O	O, B-CV, B-TM, B-LC, B-PS
-18	공기업	O	O	O, B-CV, B-OG, I-CV, B-FD
-19	##이	O	O	O, B-PS, B-CV, I-CV, B-LC
-20	경영	O	O	O, B-CV, B-TM, I-CV, B-PS
-21	##권	O	O	O, I-CV, I-PS, I-LC, B-PS
-22	##을	O	O	O, B-PS, B-CV, I-CV, B-LC
-23	쥐	O	O	O, B-CV, B-PS, B-TM, B-LC
-24	##고	O	O	O, B-PS, B-LC, B-CV, B-TM
-25	낙하산	B-AF	O	O, B-AF, B-AM, B-PS, B-CV
-26	인사	O	B-CV	B-CV, O, I-CV, I-AF, B-AM
-27	##를	O	O	O, I-CV, I-AF, B-CV, B-PS
-28	내려	O	O	O, B-CV, B-TM, B-QT, B-LC
-29	보낼	O	O	O, B-PS, B-LC, B-TM, B-QT
-30	통로	O	O	O, B-TM, B-CV, B-LC, B-QT
-31	##로	O	O	O, B-LC, B-CV, B-PS, B-TM
-32	쓸	O	O	O, B-LC, B-TM, B-CV, B-PS
-33	가능	O	O	O, B-PS, B-CV, B-TM, B-QT
-34	##성이	O	O	O, B-PS, B-QT, B-CV, I-QT
-35	있	O	O	O, B-QT, B-CV, B-PS, B-TM
-36	##다	O	O	O, B-CV, I-QT, B-QT, B-PS
-37	”	O	O	O, B-CV, B-TM, B-QT, I-QT
-38	고	O	O	O, B-CV, B-QT, B-TM, B-LC
-39	우려	O	O	O, B-CV, B-QT, B-TM, I-QT
-40	##했	O	O	O, B-CV, I-QT, B-PS, B-QT
-41	##다	O	O	O, B-CV, B-TM, B-LC, B-QT
-42	.	O	O	O, B-PS, B-LC, B-CV, B-OG
-43	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	50	B-DT	B-DT
+2	##년	I-DT	I-DT
+3	##대	I-DT	I-DT
+4	##엔	O	O
+5	안	B-PS	B-PS
+6	##현	I-PS	I-PS
+7	##필	I-PS	I-PS
+8	'	O	O
+9	영어	B-AF	B-CV
+10	##실	I-AF	O
+11	##력	I-AF	O
+12	##기	I-AF	I-AF
+13	##초	I-AF	I-AF
+14	'	O	O
+15	70	B-DT	B-DT
+16	~	I-DT	I-DT
+17	80	I-DT	I-DT
+18	##년	I-DT	I-DT
+19	##대	I-DT	I-DT
+20	'	O	O
+21	성문	B-AF	B-AF
+22	'	O	O
+23	등	O	O
+24	문법	O	O
+25	위주	O	O
+26	##서	O	O
+27	88	B-EV	B-EV
+28	##올	I-EV	I-EV
+29	##림픽	I-EV	I-EV
+30	거치	O	O
+31	##며	O	O
+32	회화	O	O
+33	강조	O	O
+34	…	O	O
+35	2000	B-DT	B-DT
+36	##년	I-DT	I-DT
+37	이후	I-DT	I-DT
+38	스펙	O	O
+39	##용	O	O
+40	토익	B-EV	O
+41	##책	O	O
+42	강세	O	O
+43	[SEP]	O	O

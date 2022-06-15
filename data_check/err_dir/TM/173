@@ -1,48 +1,10 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-AF
-1	30	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-PS
-2	##만	I-QT	I-QT	I-QT, O, I-PS, I-LC, I-DT
-3	##명	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-4	##이	O	O	O, I-QT, B-PS, B-OG, B-CV
-5	넘	O	O	O, B-OG, B-PS, B-LC, B-CV
-6	##는	O	O	O, B-OG, B-PS, B-LC, B-CV
-7	노동자	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-TM
-8	##가	O	O	O, I-CV, B-PS, I-OG, I-QT
-9	일	O	O	O, B-LC, B-TM, B-CV, B-AF
-10	##하	O	O	O, B-LC, B-PS, B-CV, B-AF
-11	##는	O	O	O, B-LC, B-CV, B-PS, B-AF
-12	세계	O	O	O, B-LC, B-CV, B-TM, B-QT
-13	최대	O	O	O, B-QT, B-CV, B-PS, B-TM
-14	위탁	O	O	O, B-CV, B-AF, B-LC, B-TM
-15	##생산	O	O	O, I-AF, I-LC, I-CV, B-LC
-16	##시설	O	O	O, I-AF, I-LC, I-CV, B-LC
-17	##인	O	O	O, I-AF, B-LC, B-CV, I-LC
-18	폭스	B-OG	B-AF	B-AF, B-OG, O, B-LC, B-PS
-19	##콘	I-OG	I-OG	I-OG, I-AF, O, I-LC, I-TM
-20	선전	B-AF	B-AF	B-AF, I-AF, I-OG, B-LC, O
-21	공장	I-AF	I-AF	I-AF, I-OG, O, I-LC, B-AF
-22	##은	O	O	O, I-AF, I-OG, B-CV, I-CV
-23	애플	B-OG	B-OG	B-OG, B-LC, B-AF, O, B-PS
-24	##의	O	O	O, I-OG, I-AF, I-LC, B-CV
-25	아이폰	B-AF	B-AF	B-AF, B-PS, I-AF, B-LC, O
-26	,	O	O	O, I-AF, I-OG, B-CV, I-EV
-27	아이	B-AF	B-AF	B-AF, B-PS, I-AF, B-LC, O
-28	##팟	I-AF	I-AF	I-AF, I-PS, O, B-AF, I-LC
-29	,	O	O	O, I-AF, I-OG, B-CV, I-EV
-30	아이패드	B-AF	B-AF	B-AF, B-PS, I-AF, B-LC, O
-31	##를	O	O	O, I-AF, I-OG, I-EV, B-CV
-32	비롯	O	O	O, B-TM, B-CV, B-LC, B-OG
-33	##해	O	O	O, B-LC, B-OG, B-PS, B-TM
-34	,	O	O	O, B-OG, B-LC, B-CV, B-TM
-35	[UNK]	O	O	O, B-LC, B-TM, B-OG, B-CV
-36	컴퓨터	B-TM	B-TM	B-TM, O, B-AF, B-OG, I-TM
-37	,	O	O	O, I-TM, I-AF, I-OG, I-QT
-38	소니	B-OG	B-OG	B-OG, B-LC, O, B-AF, B-PS
-39	##의	O	O	O, I-OG, I-AF, I-QT, I-CV
-40	플레이스	B-TM	B-AF	B-AF, B-LC, B-PS, I-AF, O
-41	##테이션	I-TM	I-AF	I-AF, O, I-PS, I-TM, I-LC
-42	##을	O	O	O, I-AF, I-OG, B-CV, I-TM
-43	생산	O	O	O, B-LC, B-CV, B-TM, B-OG
-44	##한다	O	O	O, B-LC, B-OG, B-CV, B-PS
-45	.	O	O	O, B-LC, B-AF, B-OG, B-PS
-46	[SEP]	O	O	O, B-LC, B-AF, I-AF, B-CV
+	text	label	preds
+0	[CLS]	O	O
+1	첫째	B-QT	B-QT
+2	##는	O	O
+3	양방향	B-TM	O
+4	오픈	O	O
+5	이노베이션	O	O
+6	##입니다	O	O
+7	.	O	O
+8	[SEP]	O	O

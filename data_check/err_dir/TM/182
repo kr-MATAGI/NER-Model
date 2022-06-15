@@ -1,24 +1,28 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	삼성전자	B-OG	B-OG	B-OG, B-PS, O, B-LC, B-AF
-2	##가	O	O	O, I-OG, I-AF, B-PS, I-EV
-3	올	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-TI
-4	초	I-DT	I-DT	I-DT, O, I-PS, I-QT, I-TI
-5	인도	B-LC	B-LC	B-LC, B-OG, O, B-AF, I-LC
-6	##에서	O	O	O, I-LC, I-OG, I-AF, B-CV
-7	출시	O	O	O, B-CV, B-LC, B-TM, B-PS
-8	##한	O	O	O, B-PS, B-CV, B-AF, B-OG
-9	이조	B-TM	B-PS	B-PS, O, B-AF, B-OG, B-CV
-10	##식	I-TM	I-PS	I-PS, I-AF, O, I-OG, I-CV
-11	냉장고	I-TM	B-TM	B-TM, O, I-TM, B-CV, I-AF
-12	##가	O	O	O, I-TM, I-AF, I-CV, I-EV
-13	이런	O	O	O, B-CV, B-TM, B-OG, B-LC
-14	연구	O	O	O, B-CV, B-TM, B-LC, B-OG
-15	##를	O	O	O, B-CV, B-PS, I-EV, I-AF
-16	통해	O	O	O, B-PS, B-CV, B-OG, B-LC
-17	나온	O	O	O, B-CV, B-OG, B-PS, B-LC
-18	대표	O	O	O, B-CV, B-TM, B-LC, B-QT
-19	##적	O	O	O, B-PS, I-AF, I-QT, I-OG
-20	##이다	O	O	O, B-CV, B-TM, B-QT, B-OG
-21	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-22	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	2	B-TM	B-TM
+2	##사	I-TM	I-TM
+3	2	B-TM	B-TM
+4	##루	I-TM	I-TM
+5	##에	O	O
+6	##서	O	O
+7	우	B-TM	B-TM
+8	##전	I-TM	I-TM
+9	안타	I-TM	I-TM
+10	##가	O	O
+11	터졌	O	O
+12	##고	O	O
+13	,	O	O
+14	2	B-TM	B-TM
+15	##루	I-TM	I-CV
+16	주자	B-CV	I-CV
+17	저스틴	B-PS	B-PS
+18	모어	I-PS	I-PS
+19	##노	I-PS	I-PS
+20	##가	O	O
+21	홈	O	O
+22	##으로	O	O
+23	달렸	O	O
+24	##다	O	O
+25	.	O	O
+26	[SEP]	O	O

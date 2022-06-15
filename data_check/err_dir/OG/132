@@ -1,28 +1,39 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	13	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-2	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-3	잉글랜드	B-OG	B-LC	B-LC, B-OG, O, I-DT, B-EV
-4	골키퍼	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-PS
-5	로버트	B-PS	B-PS	B-PS, O, I-PS, B-OG, B-LC
-6	그린	I-PS	I-PS	I-PS, O, B-PS, I-OG, I-LC
-7	##의	O	O	O, I-PS, I-OG, B-TM, B-CV
-8	실수	O	O	O, B-TM, B-CV, B-QT, I-TM
-9	##로	O	O	O, B-CV, B-PS, B-TM, B-OG
-10	행운	O	O	O, B-TM, B-QT, B-CV, B-OG
-11	##의	O	O	O, B-PS, B-QT, B-LC, B-OG
-12	승점	O	O	O, B-TM, B-QT, B-CV, B-AF
-13	1	B-QT	B-QT	B-QT, I-QT, O, I-TM, I-AF
-14	##점	I-QT	I-QT	I-QT, O, I-TM, I-LC, I-AF
-15	##을	O	O	O, I-QT, B-CV, I-AF, I-TM
-16	따낸	O	O	O, B-OG, B-CV, B-LC, B-TM
-17	미국	B-OG	B-OG	B-OG, B-LC, O, I-OG, B-PS
-18	##의	O	O	O, I-OG, I-LC, I-AF, I-EV
-19	분위기	O	O	O, B-CV, I-OG, B-TM, B-OG
-20	##도	O	O	O, B-CV, B-OG, B-TM, I-OG
-21	나쁘	O	O	O, B-CV, B-QT, B-TM, B-OG
-22	##진	O	O	O, I-OG, I-QT, B-PS, B-LC
-23	않	O	O	O, I-OG, B-PS, I-QT, B-CV
-24	##다	O	O	O, B-CV, I-OG, B-TM, B-QT
-25	.	O	O	O, B-LC, B-CV, B-OG, B-PS
-26	[SEP]	O	O	O, B-CV, B-LC, B-TM, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	NSC	B-OG	B-OG
+2	##는	O	O
+3	헌법	B-CV	B-CV
+4	제	B-QT	B-QT
+5	##91	I-QT	I-QT
+6	##조	I-QT	I-QT
+7	##와	O	O
+8	NSC	B-OG	B-CV
+9	법	O	I-CV
+10	##을	O	O
+11	근거	O	O
+12	##로	O	O
+13	대통령	B-CV	B-CV
+14	##이	O	O
+15	의장	B-CV	B-CV
+16	##을	O	O
+17	맡	O	O
+18	##고	O	O
+19	국무총리	B-CV	B-CV
+20	,	O	O
+21	외교	B-CV	B-CV
+22	·	I-CV	I-CV
+23	국방	I-CV	I-CV
+24	·	I-CV	I-CV
+25	통일	I-CV	I-CV
+26	##장	I-CV	I-CV
+27	##관	I-CV	I-CV
+28	##과	O	O
+29	국가	B-CV	B-CV
+30	##정보	I-CV	I-CV
+31	##원	I-CV	I-CV
+32	##장	I-CV	I-CV
+33	등이	O	O
+34	위원	O	B-CV
+35	##이다	O	O
+36	.	O	O
+37	[SEP]	O	O

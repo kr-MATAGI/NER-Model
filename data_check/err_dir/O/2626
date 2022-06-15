@@ -1,28 +1,62 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-AF
-1	11	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-OG
-2	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-3	현대	B-OG	B-OG	B-OG, O, I-OG, B-AF, B-LC
-4	·	O	I-OG	I-OG, O, I-AF, B-OG, I-DT
-5	기아차	B-OG	I-OG	I-OG, B-OG, O, B-LC, B-PS
-6	##에	O	O	O, I-OG, I-AF, B-OG, I-EV
-7	따르	O	O	O, B-OG, B-CV, I-OG, B-TM
-8	##면	O	O	O, B-OG, I-OG, B-LC, B-PS
-9	설립	O	O	O, B-OG, B-CV, B-LC, B-AF
-10	이래	O	O	O, B-PS, I-OG, B-LC, I-AF
-11	지난해	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-OG
-12	##까	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-13	##지	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-14	국내외	O	O	O, I-DT, B-LC, B-CV, B-TM
-15	누적	O	O	O, B-LC, B-CV, B-TM, B-OG
-16	판매량	O	O	O, B-CV, B-TM, B-LC, B-AF
-17	##은	O	O	O, B-CV, B-OG, B-TM, B-LC
-18	89	B-QT	B-QT	B-QT, O, B-DT, I-QT, B-EV
-19	##92	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-20	##만	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-21	##11	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-22	##53	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-23	##대	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-24	##다	O	O	O, I-QT, I-OG, B-CV, I-AF
-25	.	O	O	O, B-OG, B-LC, B-CV, I-OG
-26	[SEP]	O	O	O, B-OG, B-LC, I-OG, B-CV
+	text	label	preds
+0	[CLS]	O	O
+1	지난달	B-DT	B-DT
+2	지역	O	B-EV
+3	예선	B-EV	B-EV
+4	##에	O	O
+5	##서	O	O
+6	탈락	O	O
+7	##한	O	O
+8	한	O	O
+9	댄스	O	O
+10	##그룹	O	O
+11	리더	B-CV	B-CV
+12	##는	O	O
+13	""""	O	O
+14	내	O	O
+15	##가	O	O
+16	다른	O	O
+17	멤버	B-CV	B-CV
+18	##들	O	O
+19	##은	O	O
+20	배려	O	O
+21	##하	O	O
+22	##지	O	O
+23	않	O	O
+24	##은	O	O
+25	채	O	O
+26	이기	O	O
+27	##적	O	O
+28	##인	O	O
+29	결정	O	O
+30	##을	O	O
+31	한	O	O
+32	것	O	O
+33	##처럼	O	O
+34	방송	O	O
+35	##에	O	O
+36	나가	O	O
+37	엄청난	O	O
+38	악	O	O
+39	##플	O	O
+40	##에	O	O
+41	시달려	O	O
+42	##야	O	O
+43	했	O	O
+44	##다	O	O
+45	""""	O	O
+46	며	O	O
+47	억울	O	O
+48	##함	O	O
+49	##을	O	O
+50	호소	O	O
+51	##하	O	O
+52	##는	O	O
+53	글	O	O
+54	##을	O	O
+55	인터넷	O	O
+56	##에	O	O
+57	올렸	O	O
+58	##다	O	O
+59	.	O	O
+60	[SEP]	O	O

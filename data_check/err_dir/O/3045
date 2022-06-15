@@ -1,10 +1,36 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, I-OG, I-AF, B-CV
-1	옆	B-TM	B-TM	B-TM, O, B-CV, B-LC, B-OG
-2	##에서	O	O	O, I-TM, I-AF, I-CV, I-OG
-3	내	O	O	O, B-CV, B-TM, B-OG, B-LC
-4	##가	O	O	O, B-PS, B-CV, B-LC, B-OG
-5	어시스트	O	B-TM	B-TM, O, B-CV, I-TM, B-TR
-6	자리	O	O	O, I-TM, I-CV, B-TM, I-QT
-7	##에서	O	O	O, B-CV, I-TM, I-AF, I-CV
-8	[SEP]	O	O	O, B-CV, B-TM, B-LC, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	선진	O	O
+2	##기술	O	O
+3	##실	O	O
+4	##증	O	O
+5	##기	O	O
+6	##는	O	O
+7	레이더	O	B-AF
+8	##에	O	O
+9	반사	O	O
+10	##되	O	O
+11	##지	O	O
+12	않	O	O
+13	##는	O	O
+14	탄소	B-MT	B-MT
+15	섬유	I-MT	B-MT
+16	##의	O	O
+17	전파	B-TM	O
+18	##흡	I-TM	O
+19	##수	I-TM	O
+20	##제	I-TM	O
+21	##를	O	O
+22	사용	O	O
+23	##해	O	O
+24	스텔스	O	B-AF
+25	성능	O	O
+26	##을	O	O
+27	갖춘	O	O
+28	것	O	O
+29	##으로	O	O
+30	알려져	O	O
+31	있	O	O
+32	##다	O	O
+33	.	O	O
+34	[SEP]	O	O

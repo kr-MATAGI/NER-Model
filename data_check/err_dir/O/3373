@@ -1,51 +1,10 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-EV, I-OG, I-CV
-1	최근	O	O	O, B-PS, B-LC, B-DT, B-CV
-2	자신	O	O	O, B-CV, B-PS, B-LC, B-TM
-3	##이	O	O	O, B-PS, B-CV, B-LC, B-OG
-4	진행	O	O	O, B-CV, B-PS, B-TM, B-LC
-5	##하	O	O	O, B-PS, B-CV, B-LC, B-OG
-6	##는	O	O	O, B-CV, B-PS, B-LC, B-OG
-7	NBC	O	B-OG	B-OG, O, B-AF, B-EV, B-FD
-8	방송	O	O	O, I-OG, I-EV, I-AF, I-FD
-9	리얼리티	O	O	O, B-FD, B-TM, B-AF, B-EV
-10	##쇼	O	O	O, I-FD, I-AF, I-EV, I-TM
-11	'	O	O	O, B-CV, B-LC, I-EV, B-PS
-12	어	O	B-AF	B-AF, O, B-PS, B-CV, B-LC
-13	##프	O	I-AF	I-AF, O, I-CV, I-PS, I-EV
-14	##렌	O	I-AF	I-AF, O, I-CV, I-EV, I-PS
-15	##티스	O	I-AF	I-AF, O, I-CV, I-EV, I-PS
-16	(	O	O	O, I-AF, I-CV, I-EV, B-CV
-17	견	O	B-AF	B-AF, O, B-CV, B-PS, I-AF
-18	##습	O	I-AF	I-AF, O, I-CV, I-PS, I-EV
-19	##생	O	I-AF	I-AF, O, I-CV, I-EV, I-PS
-20	)	O	O	O, I-AF, I-EV, I-CV, I-OG
-21	'	O	O	O, B-CV, B-LC, B-OG, B-PS
-22	의	O	O	O, B-CV, B-LC, B-PS, B-OG
-23	시청	O	O	O, B-TM, B-CV, B-LC, B-OG
-24	##률	O	O	O, I-OG, B-LC, I-QT, I-TM
-25	##이	O	O	O, B-PS, B-OG, B-CV, B-LC
-26	떨어진	O	O	O, B-CV, B-TM, B-LC, B-PS
-27	것	O	O	O, B-CV, B-LC, B-PS, B-OG
-28	##을	O	O	O, B-CV, B-PS, B-LC, B-OG
-29	두고	O	O	O, B-PS, B-CV, B-LC, B-OG
-30	과거	O	O	O, B-PS, B-CV, B-LC, B-DT
-31	진행자	B-CV	B-CV	B-CV, O, I-CV, B-PS, B-TM
-32	##였	O	O	O, I-CV, B-PS, B-CV, I-EV
-33	##던	O	O	O, B-PS, B-CV, B-LC, B-TM
-34	트럼프	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-35	대통령	B-CV	B-CV	B-CV, O, I-PS, I-CV, B-AF
-36	##이	O	O	O, I-CV, B-CV, B-PS, I-EV
-37	공개	O	O	O, B-CV, B-TM, B-LC, B-PS
-38	##적으로	O	O	O, B-PS, B-LC, B-CV, B-TM
-39	비판	O	O	O, B-CV, B-LC, B-TM, B-PS
-40	##한	O	O	O, B-PS, B-CV, B-LC, B-OG
-41	것	O	O	O, B-CV, B-LC, B-OG, B-PS
-42	##에	O	O	O, B-CV, B-PS, B-LC, B-OG
-43	대한	O	O	O, B-LC, B-PS, B-CV, B-OG
-44	반응	O	O	O, B-CV, B-PS, B-LC, B-TM
-45	##이	O	O	O, B-PS, B-CV, B-LC, B-OG
-46	##었	O	O	O, B-CV, B-OG, B-PS, B-LC
-47	##다	O	O	O, B-CV, B-LC, B-TM, I-EV
-48	.	O	O	O, B-PS, B-LC, B-CV, B-OG
-49	[SEP]	O	O	O, B-CV, B-PS, B-LC, I-EV
+	text	label	preds
+0	[CLS]	O	O
+1	돼지	O	B-CV
+2	등	O	O
+3	##갈	O	O
+4	##빈	O	O
+5	##데	O	O
+6	##요	O	O
+7	.	O	O
+8	[SEP]	O	O

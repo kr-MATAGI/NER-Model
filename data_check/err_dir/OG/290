@@ -1,47 +1,21 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	과속	O	O	O, B-CV, B-TM, B-AF, B-LC
-2	##과	O	O	O, I-AF, I-CV, B-PS, I-TM
-3	신호	O	O	O, B-CV, B-TM, B-AF, B-LC
-4	##위	O	O	O, I-CV, B-CV, I-TM, I-AF
-5	##반	O	O	O, I-CV, I-TM, B-CV, I-AF
-6	,	O	O	O, I-CV, I-AF, I-TM, I-OG
-7	불법	O	O	O, B-CV, I-CV, B-TM, B-AF
-8	주	O	I-CV	I-CV, O, B-CV, I-TM, B-TM
-9	·	O	I-CV	I-CV, O, I-TM, B-CV, I-AF
-10	정차	O	I-CV	I-CV, O, I-TM, B-CV, I-AF
-11	단속	O	O	O, I-CV, B-CV, I-TM, B-TM
-12	,	O	O	O, I-CV, B-CV, B-PS, I-TM
-13	구간	O	B-TM	B-TM, O, B-TR, B-CV, B-AF
-14	교통	B-TM	I-TM	I-TM, O, B-TM, I-TR, I-AF
-15	##정보	I-TM	I-TM	I-TM, O, I-TR, I-AF, I-CV
-16	##수	I-TM	I-TM	I-TM, O, I-TR, I-QT, I-AF
-17	##집	I-TM	I-TM	I-TM, O, I-TR, I-QT, I-AF
-18	##시스	I-TM	I-TM	I-TM, O, I-TR, I-QT, I-AF
-19	##템	I-TM	I-TM	I-TM, O, I-TR, I-AF, I-CV
-20	등	O	O	O, I-TM, I-QT, I-AF, B-CV
-21	교통	O	O	O, B-AF, B-TM, B-CV, B-LC
-22	##단	O	O	O, I-AF, I-TM, I-OG, I-LC
-23	##속	O	O	O, I-AF, I-OG, I-TM, I-CV
-24	CCTV	B-TM	B-TM	B-TM, O, I-TM, B-TR, B-CV
-25	##와	O	O	O, I-TM, I-AF, I-OG, I-CV
-26	관련	O	O	O, B-CV, B-TM, B-PS, B-LC
-27	##된	O	O	O, B-PS, B-LC, B-OG, B-CV
-28	선도	O	O	O, B-CV, B-PS, B-OG, B-LC
-29	기술	O	O	O, B-CV, B-PS, B-LC, B-FD
-30	##은	O	O	O, B-PS, B-LC, B-CV, B-OG
-31	대부분	O	O	O, B-PS, B-LC, B-OG, B-QT
-32	토	B-OG	O	O, B-PS, B-AF, B-OG, B-LC
-33	##페	I-OG	O	O, I-PS, I-OG, I-LC, I-AF
-34	##스	I-OG	O	O, I-PS, I-OG, I-LC, I-AF
-35	##에	O	O	O, I-PS, I-OG, I-AF, I-LC
-36	의해	O	O	O, B-LC, B-OG, B-PS, B-TM
-37	탄생	O	O	O, B-CV, B-PS, B-LC, B-OG
-38	##했	O	O	O, B-PS, B-LC, B-OG, B-CV
-39	##다고	O	O	O, B-PS, B-CV, B-QT, B-LC
-40	봐도	O	O	O, B-PS, B-CV, B-QT, B-OG
-41	좋	O	O	O, B-CV, B-QT, B-PS, I-CV
-42	##을	O	O	O, I-CV, B-PS, B-CV, I-AF
-43	정도	O	O	O, B-PS, B-CV, I-CV, I-QT
-44	.	O	O	O, B-PS, B-LC, B-CV, B-TM
-45	[SEP]	O	O	O, B-CV, B-TM, B-LC, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	중수	B-OG	B-CV
+2	##부	B-CV	I-CV
+3	##장	I-CV	I-CV
+4	시절	O	O
+5	외환은행	B-OG	B-OG
+6	헐값	O	O
+7	매각	O	O
+8	사건	O	O
+9	,	O	O
+10	현대차	B-OG	B-OG
+11	비자	O	I-EV
+12	##금	O	I-EV
+13	사건	O	I-EV
+14	##을	O	O
+15	지휘	O	O
+16	##했	O	O
+17	##다	O	O
+18	.	O	O
+19	[SEP]	O	O

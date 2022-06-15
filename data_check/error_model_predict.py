@@ -23,15 +23,18 @@ def error_predict_by_model(sent: str="", tokenizer_name: str="", model_path: str
     train_pos_data = np.load("./target_data/train_pos_tag.npy")
     dev_ids_data = np.load("./target_data/dev.npy")
     dev_pos_data = np.load("./target_data/dev_pos_tag.npy")
-    total_ids_data = np.vstack([train_ids_data, dev_ids_data])
-    total_pos_data = np.vstack([train_pos_data, dev_pos_data])
+    test_ids_data = np.load("./target_data/test.npy")
+    test_pos_data = np.load("./target_data/test_pos_tag.npy")
+    total_ids_data = np.vstack([train_ids_data, dev_ids_data, test_ids_data])
+    total_pos_data = np.vstack([train_pos_data, dev_pos_data, test_pos_data])
     print(f"train_ids_data.shape: {train_ids_data.shape}")
     print(f"train_pos_data.shape: {train_pos_data.shape}")
     print(f"dev_ids_data.shape: {dev_ids_data.shape}")
     print(f"dev_pos_data.shape: {dev_pos_data.shape}")
+    print(f"test_ids_data.shape: {test_ids_data.shape}")
+    print(f"test_pos_data.shape: {test_pos_data.shape}")
     print(f"total_ids_data.shape: {total_ids_data.shape}")
     print(f"total_pos_data.shape: {total_pos_data.shape}")
-
 
     model.eval()
     total_data_size = total_ids_data.shape[0]
@@ -67,13 +70,17 @@ def error_predict_by_model(sent: str="", tokenizer_name: str="", model_path: str
             conv_preds = ids_to_tag[preds[p_idx]]
             rows_list.append([text[p_idx], conv_label, conv_preds])
         pd_df = pd.DataFrame(rows_list, columns=columns)
-        print(pd_df)
+
+        print("text\tlabel\tpreds" )
+        for df_idx, df_item in pd_df.iterrows():
+            print(df_item["text"], df_item["label"], df_item["preds"])
+        return
 
 ### MAIN ###
 if "__main__" == __name__:
     print("[error_model_predict][__main__] __MAIN__")
 
-    target_sent = "12mm 두께의 패널을 가로 세로 1m 이하의 크기로 잘라 벽면에 붙였는데, 이런 공법은 철근콘크리트 구조의 건물에 주로 쓰인다."
+    target_sent = "히비스커스나 난 이런 걸 챙겨 먹었지 근데 내가 요즘 느껴 정말 영양부족이라는 걸"
     tokenizer_name = "monologg/koelectra-base-v3-discriminator"
     model_path = "./model/electra-pos-lstm-crf"
     error_predict_by_model(sent=target_sent, tokenizer_name=tokenizer_name, model_path=model_path)

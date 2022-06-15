@@ -1,23 +1,47 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	3	B-QT	B-QT	B-QT, I-QT, O, B-TM, B-DT
-2	##할	I-QT	I-QT	I-QT, O, I-LC, I-TM, I-OG
-3	가까운	O	O	O, I-QT, B-OG, B-TM, I-OG
-4	타율	B-TM	B-TM	B-TM, O, B-CV, B-AF, B-QT
-5	(	O	O	O, I-TM, I-QT, I-CV, I-OG
-6	0	B-QT	B-QT	B-QT, I-QT, O, B-LC, B-TM
-7	.	I-QT	I-QT	I-QT, O, I-TM, I-LC, B-QT
-8	29	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-TM
-9	##8	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-TM
-10	)	O	O	O, I-QT, I-OG, B-CV, I-TM
-11	에	O	O	O, B-OG, B-TM, B-LC, B-CV
-12	도루	B-TM	B-TM	B-TM, O, B-CV, I-TM, B-AF
-13	##와	O	O	O, I-TM, I-AF, I-QT, I-CV
-14	득점	O	B-TM	B-TM, O, B-QT, I-TM, B-TR
-15	모두	O	O	O, I-TM, I-QT, B-CV, B-TM
-16	10	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-LC
-17	##위	I-QT	I-QT	I-QT, O, I-LC, I-DT, I-OG
-18	##권	I-QT	O	O, I-QT, I-LC, I-TM, I-DT
-19	##이다	O	O	O, I-QT, B-CV, I-CV, I-TM
-20	.	O	O	O, B-TM, B-LC, B-OG, B-CV
-21	[SEP]	O	O	O, B-TM, B-CV, B-LC, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	이창	B-PS	B-PS
+2	##룡	I-PS	I-PS
+3	G	B-EV	B-OG
+4	##20	I-EV	I-OG
+5	##정	I-EV	I-OG
+6	##상	I-EV	I-OG
+7	##회의	I-EV	I-OG
+8	준비	O	I-OG
+9	##위원회	O	I-OG
+10	기획	B-CV	B-CV
+11	##조	I-CV	I-CV
+12	##정	I-CV	I-CV
+13	##단	I-CV	I-CV
+14	##장	I-CV	I-CV
+15	##의	O	O
+16	사퇴	O	O
+17	##로	O	O
+18	공석	O	O
+19	##이	O	O
+20	된	O	O
+21	금융	B-OG	B-OG
+22	##위원회	I-OG	I-OG
+23	부위	B-CV	B-CV
+24	##원	I-CV	I-CV
+25	##장	I-CV	I-CV
+26	##에	O	O
+27	##는	O	O
+28	권혁	B-PS	B-PS
+29	##세	I-PS	I-PS
+30	금융	B-OG	B-OG
+31	##위	I-OG	I-OG
+32	사무처	B-CV	B-CV
+33	##장	I-CV	I-CV
+34	(	O	O
+35	53	B-QT	B-QT
+36	)	O	O
+37	이	O	O
+38	뒤	O	O
+39	##를	O	O
+40	잇	O	O
+41	##게	O	O
+42	됐	O	O
+43	##다	O	O
+44	.	O	O
+45	[SEP]	O	O

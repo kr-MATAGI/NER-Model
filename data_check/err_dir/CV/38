@@ -1,20 +1,12 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	[	O	O	O, B-OG, B-LC, B-CV, B-AF
-2	NO	O	O	O, B-AF, B-TM, B-CV, B-OG
-3	##W	O	O	O, I-AF, I-OG, I-TM, I-QT
-4	]	O	O	O, I-AF, I-OG, B-PS, B-LC
-5	""""	O	O	O, B-CV, B-LC, B-TM, B-OG
-6	며	B-CV	O	O, B-CV, B-PS, B-AM, B-DT
-7	##늘	I-CV	O	O, I-CV, I-PS, B-CV, I-DT
-8	##아	I-CV	O	O, I-CV, I-PS, I-AM, I-EV
-9	,	O	O	O, I-CV, B-CV, I-AF, B-PS
-10	차례	O	O	O, B-CV, B-EV, B-AF, B-DT
-11	음식	O	O	O, I-CV, I-AF, B-CV, I-EV
-12	##은	O	O	O, I-CV, B-PS, B-CV, I-AF
-13	대행	O	O	O, B-CV, B-TM, B-EV, B-AF
-14	##에	O	O	O, I-CV, I-AF, I-EV, B-PS
-15	맡기	O	O	O, B-CV, B-LC, B-PS, B-TM
-16	##렴	O	O	O, B-CV, I-CV, I-AF, B-PS
-17	""""	O	O	O, B-CV, I-CV, B-LC, B-PS
-18	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-AF
+	text	label	preds
+0	[CLS]	O	O
+1	저기	O	O
+2	흙	O	O
+3	##생	B-CV	B-PT
+4	##강	I-CV	I-PT
+5	##이	O	O
+6	##라고	O	O
+7	그러	O	O
+8	##잖아요	O	O
+9	.	O	O
+10	[SEP]	O	O

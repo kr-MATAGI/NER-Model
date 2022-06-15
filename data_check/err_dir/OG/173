@@ -1,45 +1,39 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	함경	B-LC	B-LC	B-LC, B-OG, O, B-AF, B-PS
-2	##남도	I-LC	I-LC	I-LC, B-LC, O, I-OG, I-PS
-3	신흥	B-LC	B-LC	B-LC, O, I-LC, B-OG, B-PS
-4	태생	O	O	O, I-LC, I-CV, I-PS, B-CV
-5	##인	O	O	O, B-PS, I-CV, I-LC, I-PS
-6	이병	B-PS	B-PS	B-PS, O, I-PS, B-OG, B-LC
-7	##돈	I-PS	I-PS	I-PS, O, I-OG, I-LC, B-PS
-8	선생	B-CV	B-CV	B-CV, O, I-PS, I-CV, B-QT
-9	##은	O	O	O, I-CV, B-CV, I-EV, I-AF
-10	1942	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-LC
-11	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-12	2	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-13	##월	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-14	광복	B-OG	B-OG	B-OG, O, B-EV, B-LC, I-OG
-15	##군	I-OG	I-OG	I-OG, O, I-EV, I-LC, I-QT
-16	제	B-OG	B-QT	B-QT, O, I-OG, I-QT, B-OG
-17	##2	I-OG	I-QT	I-QT, O, I-OG, B-QT, I-LC
-18	##지대	I-OG	I-QT	I-QT, O, I-OG, I-LC, B-QT
-19	##에	O	O	O, I-QT, I-OG, B-CV, I-EV
-20	입대	O	O	O, B-CV, B-OG, B-LC, B-EV
-21	##해	O	O	O, B-LC, B-PS, I-CV, I-LC
-22	훈련	O	O	O, B-CV, B-LC, I-EV, B-PS
-23	##을	O	O	O, B-CV, B-PS, B-OG, B-LC
-24	받	O	O	O, B-CV, B-LC, B-PS, B-OG
-25	##았	O	O	O, B-CV, B-LC, B-PS, B-OG
-26	##고	O	O	O, B-PS, B-DT, B-LC, B-CV
-27	이듬해	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-LC
-28	중국	B-LC	B-LC	B-LC, B-OG, O, B-EV, B-AF
-29	전시	O	B-OG	B-OG, I-OG, O, B-CV, B-LC
-30	##간	O	I-OG	I-OG, O, I-EV, I-LC, I-CV
-31	##부	O	I-OG	I-OG, O, I-EV, I-CV, I-LC
-32	##훈련	O	I-OG	I-OG, O, I-EV, I-CV, I-LC
-33	##단	O	I-OG	I-OG, O, I-EV, I-CV, I-LC
-34	##에	O	O	O, I-OG, I-EV, I-AF, I-CV
-35	파견	O	O	O, B-CV, B-LC, B-OG, B-AF
-36	##돼	O	O	O, B-LC, B-PS, B-CV, I-CV
-37	교육	O	O	O, B-CV, B-LC, B-TM, B-QT
-38	##을	O	O	O, B-CV, B-PS, B-OG, B-LC
-39	받	O	O	O, B-CV, B-LC, B-PS, B-OG
-40	##았	O	O	O, B-CV, B-LC, B-PS, B-OG
-41	##다	O	O	O, B-CV, B-LC, I-OG, B-PS
-42	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-43	[SEP]	O	O	O, B-CV, B-LC, I-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	""""	O	O
+2	새	B-OG	B-OG
+3	##정	I-OG	I-OG
+4	##치	I-OG	I-OG
+5	##민주	I-OG	I-OG
+6	##연합	I-OG	I-OG
+7	의원	B-CV	B-CV
+8	상당수	O	O
+9	##가	O	O
+10	핵탄두	B-AF	B-AF
+11	##를	O	O
+12	장착	O	O
+13	##한	O	O
+14	북한	B-OG	B-LC
+15	##의	O	O
+16	미사일	B-AF	B-AF
+17	##이	O	O
+18	낮	O	O
+19	##은	O	O
+20	고도	O	O
+21	##로	O	O
+22	날아오	O	O
+23	##기	O	O
+24	때문	O	O
+25	##에	O	O
+26	사드	B-AF	B-AF
+27	##가	O	O
+28	필요	O	O
+29	없	O	O
+30	##다는	O	O
+31	주장	O	O
+32	##을	O	O
+33	하고	O	O
+34	있	O	O
+35	##다	O	O
+36	.	O	O
+37	[SEP]	O	O

@@ -1,33 +1,14 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	환경	O	O	O, B-OG, B-CV, B-FD, I-OG
-2	##단체	O	O	O, I-OG, I-CV, B-CV, B-OG
-3	##들	O	O	O, I-OG, I-CV, I-AF, I-EV
-4	##은	O	O	O, B-LC, B-CV, B-TM, B-OG
-5	댐	O	O	O, B-AF, B-LC, B-TM, B-CV
-6	건설	O	O	O, I-AF, B-LC, B-AF, I-LC
-7	##이	O	O	O, B-PS, B-LC, B-OG, I-AF
-8	세	O	B-LC	B-LC, B-AF, B-TM, O, B-OG
-9	##번	O	I-LC	I-LC, I-AF, O, I-QT, B-LC
-10	##강	O	I-LC	I-LC, I-QT, I-AF, O, B-LC
-11	하류	O	O	O, B-LC, I-LC, B-TM, I-AF
-12	##의	O	O	O, B-LC, I-LC, I-AF, B-PS
-13	생태	O	O	O, B-LC, B-TM, I-LC, B-CV
-14	##환경	O	O	O, I-LC, B-LC, B-PS, I-TM
-15	##을	O	O	O, B-LC, B-CV, B-PS, B-TM
-16	위협	O	O	O, B-LC, B-CV, B-TM, B-PS
-17	##하고	O	O	O, B-LC, B-PS, B-CV, B-TM
-18	,	O	O	O, B-LC, B-CV, B-TM, B-PS
-19	해안	O	O	O, B-LC, B-TM, B-AF, B-MT
-20	토사	O	O	O, I-LC, B-MT, B-LC, I-AF
-21	유출	O	O	O, I-LC, I-AF, I-TM, B-LC
-22	등	O	O	O, B-LC, I-LC, I-AF, B-PS
-23	##의	O	O	O, B-LC, B-PS, B-AF, B-TM
-24	위험	O	O	O, B-LC, B-TM, B-PS, I-LC
-25	##도	O	O	O, B-LC, I-LC, B-PS, B-TM
-26	있	O	O	O, B-LC, B-PS, B-CV, B-TM
-27	##다고	O	O	O, B-LC, B-PS, B-OG, B-CV
-28	주장	O	O	O, B-CV, B-TM, B-LC, B-OG
-29	##한다	O	O	O, B-CV, B-LC, I-OG, B-TM
-30	.	O	O	O, B-LC, B-PS, B-CV, B-AF
-31	[SEP]	O	O	O, B-LC, B-CV, B-TM, B-AF
+	text	label	preds
+0	[CLS]	O	O
+1	아니	O	O
+2	요번	O	O
+3	##에	O	O
+4	한국	B-LC	B-FD
+5	영화	O	I-FD
+6	되게	O	O
+7	뭔가	O	O
+8	많이	O	O
+9	떴	O	O
+10	##던	O	O
+11	##데	O	O
+12	[SEP]	O	O

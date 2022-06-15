@@ -1,34 +1,50 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-EV, I-CV
-1	조	B-OG	B-OG	B-OG, B-EV, O, B-CV, B-AF
-2	##평	I-OG	I-OG	I-OG, I-EV, O, I-CV, I-AF
-3	##통	I-OG	I-OG	I-OG, I-EV, O, I-CV, I-AF
-4	담화	O	I-OG	I-OG, O, I-EV, I-AF, I-CV
-5	##는	O	O	O, I-OG, I-EV, I-DT, I-AF
-6	그동안	O	O	O, B-OG, B-LC, B-PS, B-DT
-7	남측	B-OG	B-OG	B-OG, O, B-LC, B-CV, I-OG
-8	##이	O	O	O, I-OG, B-PS, B-CV, I-EV
-9	요구	O	O	O, B-CV, B-LC, B-OG, B-TM
-10	##해	O	O	O, B-LC, B-PS, B-OG, B-CV
-11	온	O	O	O, B-LC, B-PS, B-EV, B-DT
-12	‘	O	O	O, B-LC, B-EV, B-CV, B-DT
-13	천안	B-EV	B-EV	B-EV, B-AF, B-LC, B-PS, O
-14	##함	I-EV	I-EV	I-EV, I-AF, I-LC, I-PS, O
-15	##과	I-EV	O	O, I-EV, I-AF, I-DT, I-OG
-16	연평도	I-EV	B-EV	B-EV, B-LC, I-EV, B-AF, O
-17	도발	I-EV	I-EV	I-EV, O, I-AF, I-LC, I-DT
-18	##에	O	O	O, I-EV, I-AF, I-DT, I-OG
-19	대한	O	O	O, B-LC, B-PS, B-DT, B-OG
-20	책임	O	O	O, B-CV, B-LC, B-PS, B-TM
-21	있	O	O	O, B-PS, I-CV, B-CV, I-LC
-22	##는	O	O	O, B-LC, B-PS, I-PS, I-LC
-23	조치	O	O	O, B-LC, B-CV, B-DT, B-PS
-24	’	O	O	O, B-CV, B-LC, B-OG, B-PS
-25	를	O	O	O, B-LC, B-CV, B-OG, B-DT
-26	내놓	O	O	O, B-CV, B-OG, B-LC, B-DT
-27	##지	O	O	O, B-QT, B-LC, B-OG, B-PS
-28	않	O	O	O, B-LC, B-CV, I-QT, B-QT
-29	##았	O	O	O, B-CV, B-LC, B-OG, I-QT
-30	##다	O	O	O, B-CV, B-LC, I-OG, B-OG
-31	.	O	O	O, B-LC, B-CV, B-OG, B-PS
-32	[SEP]	O	O	O, B-CV, B-LC, B-OG, I-EV
+	text	label	preds
+0	[CLS]	O	O
+1	대한민국	B-LC	B-LC
+2	국가	B-CV	B-CV
+3	##대표	I-CV	I-CV
+4	선수	B-CV	B-CV
+5	##들	O	O
+6	##은	O	O
+7	31	B-DT	B-DT
+8	##일	I-DT	I-DT
+9	서울	B-LC	B-LC
+10	태	B-LC	B-LC
+11	##릉	I-LC	I-LC
+12	##선	I-LC	I-LC
+13	##수	I-LC	I-LC
+14	##촌	I-LC	I-LC
+15	##에	O	O
+16	##서	O	O
+17	열린	O	O
+18	평창	B-EV	B-EV
+19	##겨울	I-EV	I-EV
+20	##올	I-EV	I-EV
+21	##림픽	I-EV	I-EV
+22	G	B-DT	B-EV
+23	-	I-DT	I-EV
+24	100	I-DT	I-EV
+25	미디어	B-EV	I-EV
+26	##데이	I-EV	I-EV
+27	행사	O	I-EV
+28	##에	O	O
+29	참석	O	O
+30	##해	O	O
+31	국내	O	O
+32	##에	O	O
+33	##서	O	O
+34	처음	O	O
+35	열리	O	O
+36	##는	O	O
+37	겨울	B-EV	B-EV
+38	##올	I-EV	I-EV
+39	##림픽	I-EV	I-EV
+40	##에	O	O
+41	##서	O	O
+42	선전	O	O
+43	##을	O	O
+44	다짐	O	O
+45	##했	O	O
+46	##다	O	O
+47	.	O	O
+48	[SEP]	O	O

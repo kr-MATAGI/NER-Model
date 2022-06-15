@@ -1,44 +1,54 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-EV, I-OG, B-CV, I-CV
-1	강원	B-OG	B-OG	B-OG, B-LC, O, B-AF, B-PS
-2	##은	O	O	O, I-OG, I-EV, B-CV, I-LC
-3	제주	B-AF	B-AF	B-AF, B-LC, O, B-TM, B-PS
-4	##월드	I-AF	I-AF	I-AF, O, B-AF, I-LC, I-PS
-5	##컵	I-AF	I-AF	I-AF, O, B-AF, I-LC, I-PS
-6	##경기	I-AF	I-AF	I-AF, O, I-LC, B-AF, I-PS
-7	##장	I-AF	I-AF	I-AF, O, I-LC, B-AF, I-TM
-8	##에서	O	O	O, I-AF, I-EV, B-CV, I-QT
-9	열린	O	O	O, B-EV, B-CV, B-LC, B-OG
-10	제주	B-OG	B-OG	B-OG, B-LC, O, B-AF, B-PS
-11	##와	O	O	O, I-OG, I-EV, B-CV, B-OG
-12	##의	O	O	O, I-EV, B-EV, B-CV, B-LC
-13	B	B-OG	O	O, B-EV, B-QT, B-OG, B-LC
-14	##그룹	I-OG	O	O, I-EV, I-OG, I-QT, B-EV
-15	방문	O	O	O, B-EV, I-EV, B-CV, B-LC
-16	##경기	O	O	O, I-EV, B-EV, B-CV, I-OG
-17	##에서	O	O	O, I-EV, B-CV, B-LC, I-OG
-18	상대	O	O	O, B-CV, B-EV, B-TM, B-LC
-19	자책	B-TM	B-TM	B-TM, O, I-TM, B-CV, B-QT
-20	##골	I-TM	I-TM	I-TM, O, I-CV, I-QT, B-TM
-21	##로	O	O	O, I-TM, I-EV, I-QT, I-CV
-22	앞서	O	O	O, B-TM, B-CV, B-EV, B-LC
-23	나갔	O	O	O, B-CV, I-EV, B-LC, B-TM
-24	##지만	O	O	O, I-EV, B-LC, B-TM, B-CV
-25	후반	B-TI	B-TI	B-TI, B-EV, O, B-TM, B-QT
-26	추가	O	O	O, I-TI, B-TM, I-EV, I-TM
-27	##시간	O	O	O, I-TI, I-TM, I-EV, I-LC
-28	동점	B-TM	B-TM	B-TM, O, B-CV, B-QT, B-AF
-29	##골	I-TM	I-TM	I-TM, O, B-TM, I-AF, I-QT
-30	##을	O	O	O, I-TM, I-QT, I-AF, I-CV
-31	허용	O	O	O, B-TM, B-CV, B-LC, B-OG
-32	##하면	O	O	O, B-TM, B-LC, B-CV, B-QT
-33	##서	O	O	O, B-LC, B-CV, B-TM, B-QT
-34	1	B-QT	B-QT	B-QT, I-QT, B-TM, O, B-EV
-35	-	I-QT	I-QT	I-QT, O, B-QT, I-TM, I-LC
-36	1	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-TM
-37	##로	O	O	O, I-QT, I-EV, B-TM, B-CV
-38	비	O	O	O, B-TM, B-EV, B-CV, B-LC
-39	##겼	O	O	O, I-EV, I-TM, B-CV, I-CV
-40	##다	O	O	O, I-EV, B-CV, B-TM, B-LC
-41	.	O	O	O, B-LC, B-TM, B-CV, I-EV
-42	[SEP]	O	O	O, B-CV, B-LC, I-EV, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	당시	O	O
+2	협약	O	O
+3	##에	O	O
+4	국제	O	O
+5	##중	O	O
+6	##재	O	O
+7	##를	O	O
+8	명문화	O	O
+9	##한	O	O
+10	것	O	O
+11	##은	O	O
+12	용인	B-AF	B-AF
+13	##경	I-AF	I-AF
+14	##전	I-AF	I-AF
+15	##철	I-AF	I-AF
+16	##을	O	O
+17	위한	O	O
+18	민간	O	O
+19	##자	O	O
+20	##본	O	O
+21	투자액	O	O
+22	7000	B-QT	B-QT
+23	##여	I-QT	I-QT
+24	##억	I-QT	I-QT
+25	##원	I-QT	I-QT
+26	가운데	O	O
+27	해외	O	O
+28	##자	O	O
+29	##본	O	O
+30	##인	O	O
+31	캐나다	B-LC	B-LC
+32	봄	B-OG	O
+33	##바	I-OG	O
+34	##디어	I-OG	O
+35	##사의	O	O
+36	자금	O	O
+37	##이	O	O
+38	400	B-QT	B-QT
+39	##억	I-QT	I-QT
+40	~	I-QT	I-QT
+41	500	I-QT	I-QT
+42	##억	I-QT	I-QT
+43	##원	I-QT	I-QT
+44	##쯤	I-QT	I-QT
+45	포함	O	O
+46	##돼	O	O
+47	있	O	O
+48	##기	O	O
+49	때문	O	O
+50	##이다	O	O
+51	.	O	O
+52	[SEP]	O	O

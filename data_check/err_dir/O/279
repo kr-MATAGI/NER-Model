@@ -1,32 +1,29 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-EV, B-CV, I-CV, I-OG
-1	1944	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-LC
-2	##년	I-DT	I-DT	I-DT, O, I-QT, B-DT, I-PS
-3	평양	B-LC	B-LC	B-LC, O, B-OG, B-AF, B-PS
-4	##에서	O	O	O, B-PS, I-LC, B-LC, I-PS
-5	태어나	O	O	O, B-LC, B-PS, B-CV, I-LC
-6	월남	O	O	O, B-LC, B-PS, B-CV, B-EV
-7	##한	B-PS	O	O, B-PS, B-LC, I-PS, I-LC
-8	한	O	B-PS	B-PS, O, I-PS, B-LC, B-OG
-9	전	O	O	O, I-PS, B-PS, B-CV, I-LC
-10	총리	B-CV	B-CV	B-CV, O, B-OG, I-CV, B-LC
-11	##는	O	O	O, I-CV, B-PS, I-EV, B-CV
-12	1974	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-LC
-13	##년	I-DT	I-DT	I-DT, O, I-QT, B-DT, I-PS
-14	한국	B-OG	B-OG	B-OG, B-LC, O, B-AF, B-EV
-15	##크	I-OG	I-OG	I-OG, B-OG, O, I-EV, I-LC
-16	##리스	I-OG	I-OG	I-OG, O, B-OG, I-EV, I-LC
-17	##천	I-OG	I-OG	I-OG, O, B-OG, I-LC, I-EV
-18	##아	I-OG	I-OG	I-OG, O, I-LC, I-EV, I-AF
-19	##카	I-OG	I-OG	I-OG, O, I-LC, I-EV, I-AF
-20	##데미	I-OG	I-OG	I-OG, O, I-LC, I-EV, I-AF
-21	간사	B-CV	B-CV	B-CV, O, I-CV, I-OG, B-TM
-22	##로	O	O	O, I-CV, B-PS, I-EV, I-QT
-23	여성	O	O	O, B-CV, B-LC, B-EV, B-TM
-24	운동	O	O	O, I-EV, B-LC, B-CV, B-PS
-25	##에	O	O	O, B-CV, B-PS, B-LC, B-OG
-26	뛰어들	O	O	O, B-CV, B-LC, B-OG, B-PS
-27	##었	O	O	O, B-PS, B-CV, B-LC, B-OG
-28	##다	O	O	O, B-PS, B-CV, B-LC, I-EV
-29	.	O	O	O, B-LC, B-PS, B-OG, B-CV
-30	[SEP]	O	O	O, B-LC, B-PS, B-CV, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	하지	O	O
+2	##만	O	O
+3	이란	B-LC	B-LC
+4	핵	B-AF	O
+5	협상	O	O
+6	##에	O	O
+7	##서	O	O
+8	봤	O	O
+9	##던	O	O
+10	것	O	O
+11	##처럼	O	O
+12	서방	O	B-LC
+13	제재	O	O
+14	##가	O	O
+15	효과	O	O
+16	##를	O	O
+17	내면	O	O
+18	##서	O	O
+19	이란	B-OG	B-OG
+20	측이	O	O
+21	협상	O	O
+22	테이블	O	O
+23	##로	O	O
+24	나왔	O	O
+25	##다	O	O
+26	.	O	O
+27	[SEP]	O	O

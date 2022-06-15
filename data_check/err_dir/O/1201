@@ -1,24 +1,8 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-EV
-1	구단	O	O	O, B-OG, B-CV, B-PS, I-OG
-2	##의	O	O	O, B-PS, I-OG, B-CV, I-CV
-3	마이너	B-OG	B-OG	B-OG, O, B-EV, B-LC, B-TM
-4	##리그	I-OG	I-OG	I-OG, O, I-EV, I-LC, I-CV
-5	##행	O	O	O, I-OG, I-EV, I-CV, B-CV
-6	##을	O	O	O, B-CV, B-PS, B-OG, B-LC
-7	단호히	O	O	O, B-CV, B-OG, B-LC, B-QT
-8	거부	O	O	O, B-CV, B-LC, B-PS, B-OG
-9	##하고	O	O	O, B-PS, B-LC, B-CV, B-DT
-10	빅리그	O	B-OG	B-OG, O, B-LC, B-EV, B-AF
-11	##에서	O	O	O, I-OG, I-EV, I-CV, I-AF
-12	버티	O	O	O, B-CV, B-PS, B-DT, B-LC
-13	##며	O	O	O, B-LC, B-PS, I-DT, B-DT
-14	한	B-QT	O	O, B-DT, B-QT, B-EV, B-TI
-15	시즌	I-QT	I-DT	I-DT, O, I-QT, B-DT, I-EV
-16	##을	O	O	O, I-DT, I-QT, B-CV, I-EV
-17	성공	O	O	O, B-CV, B-LC, B-OG, B-TM
-18	##적으로	O	O	O, I-QT, I-DT, I-EV, B-CV
-19	보냈	O	O	O, B-CV, B-OG, B-LC, B-DT
-20	##다	O	O	O, B-CV, B-PS, B-LC, B-OG
-21	.	O	O	O, B-CV, B-LC, B-OG, B-PS
-22	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	어	O	O
+2	~	O	O
+3	유리	O	B-PS
+4	태자	O	B-CV
+5	이야기	O	O
+6	[SEP]	O	O

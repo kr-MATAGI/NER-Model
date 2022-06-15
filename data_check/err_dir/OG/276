@@ -1,22 +1,30 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-AF
-1	[	O	O	O, B-OG, B-LC, B-AF, B-PS
-2	오늘	B-DT	B-DT	B-DT, O, I-DT, B-CV, B-EV
-3	##과	O	O	O, I-DT, I-AF, I-OG, I-EV
-4	내일	B-DT	B-DT	B-DT, I-DT, O, B-LC, B-EV
-5	/	O	O	O, I-DT, B-OG, I-AF, B-PS
-6	방	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
-7	##형	I-PS	I-PS	I-PS, O, I-OG, B-PS, I-LC
-8	##남	I-PS	I-PS	I-PS, O, I-OG, I-LC, B-PS
-9	]	O	O	O, I-PS, I-OG, B-LC, B-OG
-10	남북	B-OG	B-LC	B-LC, B-OG, B-AF, O, B-TM
-11	##가스	B-MT	B-MT	B-MT, O, I-AF, I-MT, B-AF
-12	##관	O	O	O, I-AF, I-MT, I-TM, I-OG
-13	추진	O	O	O, I-AF, I-TM, I-OG, B-AF
-14	전	O	O	O, B-PS, B-LC, I-AF, B-OG
-15	MB	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-16	##가	O	O	O, I-PS, I-OG, I-AF, B-CV
-17	답	O	O	O, B-CV, B-LC, B-TM, B-QT
-18	##할	O	O	O, B-PS, B-LC, B-CV, B-TM
-19	일	O	O	O, B-CV, B-PS, B-QT, B-LC
-20	[SEP]	O	O	O, B-LC, B-CV, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	지난해	B-DT	B-DT
+2	칠	I-DT	I-DT
+3	##월	I-DT	I-DT
+4	##부터	I-DT	I-DT
+5	열흘	B-DT	B-DT
+6	##간	I-DT	I-DT
+7	진행	O	O
+8	##했	O	O
+9	##고	O	O
+10	자세	O	O
+11	##한	O	O
+12	내용	O	O
+13	##은	O	O
+14	좋	B-OG	B-OG
+15	##은	I-OG	I-OG
+16	##교사	I-OG	I-OG
+17	##운동	I-OG	I-EV
+18	홈페이지	O	O
+19	##에	O	O
+20	##서	O	O
+21	확인	O	O
+22	##할	O	O
+23	수	O	O
+24	있	O	O
+25	##습	O	O
+26	##니다	O	O
+27	.	O	O
+28	[SEP]	O	O

@@ -1,30 +1,70 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	냉전	B-EV	O	O, B-EV, B-DT, B-FD, B-LC
-2	당시	O	O	O, I-EV, I-DT, B-EV, I-TR
-3	핵무기	O	B-AF	B-AF, O, I-AF, B-MT, B-LC
-4	경쟁	O	O	O, I-AF, I-EV, B-CV, B-LC
-5	##과	O	O	O, B-PS, B-LC, I-AF, I-EV
-6	원자력	O	O	O, B-TR, B-TM, B-FD, B-OG
-7	##발전	O	O	O, I-TM, I-TR, I-OG, I-FD
-8	보급	O	O	O, B-LC, B-PS, B-CV, I-TM
-9	##으로	O	O	O, B-PS, B-LC, B-OG, B-CV
-10	‘	O	O	O, B-LC, B-CV, B-PS, B-OG
-11	잠재	O	O	O, B-PS, B-LC, B-CV, B-TM
-12	##적	O	O	O, B-PS, B-LC, I-PS, I-AF
-13	핵무기	O	B-AF	B-AF, O, I-AF, B-MT, B-LC
-14	’	O	O	O, I-AF, B-CV, I-OG, I-CV
-15	인	O	O	O, B-PS, B-LC, B-CV, B-AF
-16	핵	B-AF	B-AF	B-AF, O, B-MT, I-AF, B-LC
-17	##물	O	O	O, I-AF, I-LC, I-OG, I-PS
-18	##질	O	O	O, I-AF, B-LC, I-LC, B-PS
-19	##은	O	O	O, B-LC, B-CV, B-PS, B-OG
-20	세계	O	O	O, B-LC, B-CV, B-TM, B-OG
-21	곳곳	O	O	O, B-LC, B-CV, B-TM, B-PS
-22	##에	O	O	O, B-LC, B-CV, B-PS, B-TM
-23	차곡차곡	O	O	O, B-LC, B-CV, B-TM, B-PS
-24	쌓여	O	O	O, B-LC, B-PS, B-CV, B-OG
-25	있	O	O	O, B-LC, B-CV, B-PS, I-AF
-26	##다	O	O	O, B-CV, B-LC, B-PS, I-OG
-27	.	O	O	O, B-LC, B-PS, B-CV, B-AF
-28	[SEP]	O	O	O, B-LC, B-CV, I-AF, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	인사	B-CV	B-CV
+2	##청	I-CV	I-CV
+3	##문	I-CV	I-CV
+4	##회	I-CV	I-CV
+5	##법	I-CV	I-CV
+6	##에	O	O
+7	따르	O	O
+8	##면	O	O
+9	국회	B-OG	B-OG
+10	##는	O	O
+11	임명	O	O
+12	##동	O	O
+13	##의	O	O
+14	##안	O	O
+15	##이	O	O
+16	제출	O	O
+17	##된	O	O
+18	날	O	O
+19	##부터	O	O
+20	20	B-DT	B-DT
+21	##일	I-DT	I-DT
+22	이내	I-DT	I-DT
+23	##에	O	O
+24	인사	O	B-EV
+25	##청	O	I-EV
+26	##문	O	I-EV
+27	##회	O	I-EV
+28	심사	O	O
+29	##를	O	O
+30	마쳐	O	O
+31	##야	O	O
+32	하고	O	O
+33	,	O	O
+34	국회	B-OG	B-OG
+35	##가	O	O
+36	청문	O	O
+37	##보	O	O
+38	##고	O	O
+39	##서	O	O
+40	##를	O	O
+41	송	O	O
+42	##부	O	O
+43	##하	O	O
+44	##지	O	O
+45	못하	O	O
+46	##면	O	O
+47	대통령	B-CV	B-CV
+48	##은	O	O
+49	10	B-DT	B-DT
+50	##일	I-DT	I-DT
+51	이내	I-DT	I-DT
+52	범위	O	O
+53	##에	O	O
+54	##서	O	O
+55	기간	O	O
+56	##을	O	O
+57	정해	O	O
+58	보고서	O	O
+59	채택	O	O
+60	##을	O	O
+61	다시	O	O
+62	요청	O	O
+63	##할	O	O
+64	수	O	O
+65	있	O	O
+66	##다	O	O
+67	.	O	O
+68	[SEP]	O	O

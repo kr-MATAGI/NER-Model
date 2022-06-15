@@ -1,57 +1,22 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-EV, B-CV, I-OG, I-CV
-1	한국	B-OG	B-OG	B-OG, O, B-LC, B-PS, I-OG
-2	##갤	I-OG	I-OG	I-OG, O, B-OG, I-EV, I-LC
-3	##럽	I-OG	I-OG	I-OG, O, I-EV, I-LC, I-AF
-4	측은	O	O	O, I-OG, I-EV, I-AF, B-CV
-5	""""	O	O	O, B-LC, B-CV, B-OG, B-PS
-6	박	B-PS	B-PS	B-PS, O, B-OG, B-EV, I-PS
-7	대통령	B-CV	B-CV	B-CV, I-PS, O, I-CV, I-EV
-8	##의	O	O	O, I-CV, I-EV, B-CV, I-OG
-9	방미	O	O	O, B-LC, B-EV, B-CV, B-OG
-10	일정	O	O	O, I-EV, B-LC, B-PS, B-OG
-11	마지막	O	O	O, B-QT, B-LC, B-CV, B-PS
-12	##에	O	O	O, B-OG, B-PS, B-CV, I-EV
-13	불거진	O	O	O, B-CV, B-PS, B-LC, B-EV
-14	'	O	O	O, B-CV, B-LC, B-EV, B-OG
-15	윤창	B-EV	B-PS	B-PS, B-EV, B-OG, B-AF, I-EV
-16	##중	I-EV	I-PS	I-PS, I-EV, I-OG, I-AF, I-LC
-17	사건	I-EV	O	O, I-EV, I-PS, I-OG, I-AF
-18	'	O	O	O, I-EV, I-OG, B-CV, I-AF
-19	은	O	O	O, B-OG, B-CV, B-PS, B-LC
-20	이번	O	O	O, B-CV, B-PS, B-LC, B-OG
-21	여론	O	O	O, B-CV, B-PS, B-TM, B-LC
-22	##조사	O	O	O, I-EV, B-PS, B-CV, I-CV
-23	결과	O	O	O, B-CV, B-TM, B-OG, B-PS
-24	##에	O	O	O, B-OG, B-CV, B-LC, B-PS
-25	반영	O	O	O, B-CV, B-LC, B-TM, B-PS
-26	##되	O	O	O, B-LC, B-PS, B-CV, B-OG
-27	##지	O	O	O, B-PS, B-LC, B-CV, B-OG
-28	않	O	O	O, B-PS, B-LC, B-CV, B-OG
-29	##았	O	O	O, B-CV, B-PS, B-LC, B-OG
-30	##다	O	O	O, B-CV, B-OG, B-PS, B-LC
-31	""""	O	O	O, B-CV, B-LC, B-OG, B-PS
-32	며	O	O	O, B-OG, B-LC, B-CV, B-PS
-33	""""	O	O	O, B-LC, B-CV, B-OG, B-PS
-34	이번	O	O	O, B-CV, B-PS, B-LC, B-OG
-35	사건	O	O	O, I-EV, B-CV, B-EV, B-PS
-36	##이	O	O	O, B-PS, B-OG, B-LC, B-CV
-37	박	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-EV
-38	대통령	B-CV	B-CV	B-CV, I-PS, O, I-EV, B-EV
-39	귀국	O	O	O, I-EV, I-CV, B-CV, B-LC
-40	후	O	O	O, I-EV, B-PS, B-LC, B-OG
-41	부정	O	O	O, B-CV, B-LC, B-TM, B-PS
-42	##적	O	O	O, B-LC, B-PS, I-PS, I-LC
-43	영향	O	O	O, B-CV, B-LC, B-TM, B-PS
-44	##을	O	O	O, B-CV, B-OG, B-LC, B-PS
-45	미칠	O	O	O, B-LC, B-CV, B-OG, B-PS
-46	가능	O	O	O, B-CV, B-TM, B-LC, B-PS
-47	##성이	O	O	O, B-CV, B-PS, B-OG, B-LC
-48	있	O	O	O, B-CV, B-OG, B-PS, B-LC
-49	##다	O	O	O, B-CV, B-OG, I-OG, B-PS
-50	""""	O	O	O, B-CV, B-LC, B-TM, B-OG
-51	고	O	O	O, B-OG, B-CV, B-TM, B-LC
-52	했	O	O	O, B-CV, B-OG, B-TM, B-QT
-53	##다	O	O	O, B-CV, B-OG, I-OG, B-TM
-54	.	O	O	O, B-LC, B-PS, B-CV, B-OG
-55	[SEP]	O	O	O, B-CV, B-LC, I-EV, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	고창	B-PS	B-PS
+2	##성	I-PS	I-PS
+3	##과	O	O
+4	임태	B-PS	B-PS
+5	##훈	I-PS	I-PS
+6	##이	O	O
+7	8	B-EV	B-QT
+8	·	I-EV	I-QT
+9	9	I-EV	I-QT
+10	##회	I-EV	I-QT
+11	삼성	B-OG	B-OG
+12	타선	O	O
+13	##을	O	O
+14	무실점	B-TM	B-TM
+15	##으로	O	O
+16	막	O	O
+17	##았	O	O
+18	##다	O	O
+19	.	O	O
+20	[SEP]	O	O

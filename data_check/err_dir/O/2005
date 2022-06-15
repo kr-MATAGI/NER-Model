@@ -1,13 +1,19 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-QT
-1	지금	O	O	O, B-QT, B-CV, B-TM, B-OG
-2	서울	B-LC	B-LC	B-LC, O, B-OG, B-PS, B-AF
-3	기온	O	O	O, B-QT, I-QT, I-LC, B-CV
-4	영하	B-QT	B-QT	B-QT, I-QT, O, I-LC, B-DT
-5	팔	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-TI
-6	쩜	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-TI
-7	구	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-TI
-8	##돕	O	I-QT	I-QT, O, B-QT, I-TI, I-OG
-9	##니다	O	O	O, I-QT, I-OG, B-QT, I-TI
-10	.	O	O	O, I-QT, B-QT, B-CV, B-LC
-11	[SEP]	O	O	O, B-QT, I-QT, B-CV, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	‘	O	O
+2	서민	B-CV	B-CV
+3	세금	O	O
+4	##감	O	O
+5	##면	O	O
+6	’	O	O
+7	이라	O	O
+8	##더니	O	O
+9	…	O	O
+10	수혜자	B-CV	B-CV
+11	##에	O	O
+12	고소득	O	B-CV
+13	##층	O	I-CV
+14	‘	O	O
+15	수두룩	O	O
+16	’	O	O
+17	[SEP]	O	O

@@ -1,25 +1,7 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	여름	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-QT
-2	##방	O	O	O, I-DT, B-CV, I-EV, I-CV
-3	##학	O	O	O, I-DT, I-CV, I-EV, I-OG
-4	기간	O	O	O, I-DT, I-EV, I-CV, I-OG
-5	##에	O	O	O, B-PS, B-LC, B-CV, B-OG
-6	아이	O	O	O, B-CV, B-AM, B-PS, B-TM
-7	##들	O	O	O, B-PS, I-AF, I-CV, B-LC
-8	##에	O	O	O, B-CV, B-LC, B-PS, B-TM
-9	대한	O	O	O, B-LC, B-PS, B-OG, B-TM
-10	집중	O	O	O, B-LC, B-PS, B-CV, B-OG
-11	##적인	O	O	O, B-LC, B-TM, B-PS, B-TR
-12	심리	O	B-TR	B-TR, O, I-TR, B-TM, B-FD
-13	##치료	O	I-TR	I-TR, O, B-TR, I-TM, I-FD
-14	##를	O	O	O, I-TR, I-TM, I-QT, I-EV
-15	할	O	O	O, B-CV, B-LC, B-OG, B-DT
-16	예정	O	O	O, B-CV, B-TM, B-OG, I-CV
-17	”	O	O	O, B-CV, I-OG, B-LC, I-CV
-18	이라	O	O	O, B-CV, B-PS, B-LC, B-OG
-19	##고	O	O	O, B-CV, I-CV, I-OG, B-PS
-20	밝혔	O	O	O, B-CV, B-LC, I-CV, B-OG
-21	##다	O	O	O, B-CV, I-CV, B-LC, I-OG
-22	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-23	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	삼	B-QT	B-QT
+2	##단	I-QT	I-QT
+3	콤	O	I-TM
+4	##보	O	I-TM
+5	[SEP]	O	O

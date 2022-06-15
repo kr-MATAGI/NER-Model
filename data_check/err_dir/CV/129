@@ -1,48 +1,12 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-EV, I-CV
-1	엘지	B-OG	B-OG	B-OG, O, I-OG, B-PS, B-LC
-2	##전자	I-OG	I-OG	I-OG, O, I-LC, B-OG, I-AF
-3	##는	O	O	O, I-OG, B-CV, I-EV, I-AF
-4	같	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-OG
-5	##은	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-OG
-6	날	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-OG
-7	김치냉장고	B-TM	B-TM	B-TM, O, B-CV, B-AF, B-EV
-8	‘	O	O	O, I-TM, B-LC, I-EV, I-DT
-9	디오	B-AF	B-AF	B-AF, B-TM, B-OG, O, B-EV
-10	##스	I-AF	I-AF	I-AF, I-TM, O, I-OG, I-MT
-11	(	I-AF	I-AF	I-AF, I-TM, O, B-AF, B-TM
-12	DI	I-AF	I-AF	I-AF, I-TM, O, B-AF, B-TM
-13	##OS	I-AF	I-AF	I-AF, I-TM, O, I-OG, I-MT
-14	)	I-AF	I-AF	I-AF, I-TM, O, B-AF, I-CV
-15	김치	I-AF	I-AF	I-AF, I-TM, B-AF, B-TM, O
-16	##톡	I-AF	I-AF	I-AF, I-TM, O, I-CV, I-MT
-17	##톡	I-AF	I-AF	I-AF, I-TM, O, I-CV, I-OG
-18	’	O	O	O, I-AF, I-TM, I-CV, I-EV
-19	신	O	O	O, B-CV, B-LC, I-AF, B-TM
-20	##제품	O	O	O, I-AF, I-CV, B-LC, I-TM
-21	##을	O	O	O, B-LC, B-CV, B-OG, I-AF
-22	선보이	O	O	O, B-CV, B-OG, B-LC, B-TM
-23	##며	O	O	O, B-LC, B-OG, I-OG, B-PS
-24	‘	O	O	O, B-LC, B-CV, B-AF, B-TM
-25	유산균	O	B-TM	B-TM, B-AM, B-CV, B-AF, O
-26	##김치	B-CV	I-AF	I-AF, I-TM, I-CV, B-CV, I-AM
-27	+	O	O	O, I-TM, I-AF, I-CV, I-OG
-28	’	O	O	O, I-AF, I-TM, I-CV, I-QT
-29	기능	O	O	O, B-CV, B-LC, B-TM, B-PS
-30	##으로	O	O	O, B-LC, B-PS, B-CV, B-OG
-31	김치	O	O	O, B-CV, B-TM, B-PT, B-EV
-32	##맛	O	O	O, I-CV, I-TM, I-EV, I-AF
-33	##을	O	O	O, B-CV, B-LC, B-TM, B-OG
-34	잘	O	O	O, B-CV, B-LC, B-TM, B-OG
-35	살려	O	O	O, B-CV, B-LC, B-TM, B-OG
-36	##줄	O	O	O, B-CV, B-LC, B-TM, B-PS
-37	수	O	O	O, B-PS, B-CV, B-LC, B-OG
-38	있	O	O	O, B-CV, B-LC, B-PS, B-TM
-39	##다는	O	O	O, B-LC, B-CV, B-OG, B-PS
-40	점	O	O	O, B-CV, B-PS, B-LC, B-TM
-41	##을	O	O	O, B-CV, B-OG, B-PS, B-LC
-42	강조	O	O	O, B-CV, B-OG, B-LC, B-TM
-43	##했	O	O	O, I-OG, B-CV, B-LC, B-OG
-44	##다	O	O	O, B-CV, B-LC, B-OG, I-OG
-45	.	O	O	O, B-LC, B-CV, B-OG, I-OG
-46	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	사선	O	B-CV
+2	변호인	B-CV	I-CV
+3	##을	O	O
+4	보	O	O
+5	##게	O	O
+6	될지	O	O
+7	##는	O	O
+8	몰랐	O	O
+9	##는데	O	O
+10	[SEP]	O	O

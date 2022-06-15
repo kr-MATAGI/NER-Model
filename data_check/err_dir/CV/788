@@ -1,32 +1,71 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-EV, I-CV
-1	특히	O	O	O, B-OG, B-CV, B-QT, B-DT
-2	20	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-LC
-3	##일	I-DT	I-DT	I-DT, O, B-DT, I-OG, I-QT
-4	대전	B-OG	B-OG	B-OG, I-OG, B-LC, O, B-AF
-5	##지	I-OG	I-OG	I-OG, O, B-OG, I-LC, I-AF
-6	##법	I-OG	I-OG	I-OG, O, I-LC, I-AF, B-OG
-7	##에서	O	O	O, I-OG, I-EV, I-AF, B-CV
-8	##는	O	O	O, B-CV, I-OG, B-OG, I-EV
-9	단독	B-CV	O	O, B-CV, B-QT, B-OG, B-TM
-10	##판	I-CV	I-CV	I-CV, B-CV, O, I-QT, I-OG
-11	##사	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-QT
-12	##뿐	O	O	O, I-CV, I-OG, I-QT, B-CV
-13	아니	O	O	O, B-PS, B-OG, B-LC, B-QT
-14	##라	O	O	O, B-CV, B-OG, B-LC, B-PS
-15	배석	B-CV	B-CV	B-CV, O, B-QT, B-OG, I-CV
-16	##판	I-CV	I-CV	I-CV, O, B-CV, I-QT, I-OG
-17	##사	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-QT
-18	##도	O	O	O, I-CV, I-QT, I-OG, B-CV
-19	참여	O	O	O, B-CV, B-TM, B-QT, B-OG
-20	##하	O	O	O, B-PS, B-OG, B-LC, B-CV
-21	##는	O	O	O, B-CV, B-OG, B-LC, B-QT
-22	평판	O	O	O, B-CV, B-OG, B-EV, B-FD
-23	##사회	O	O	O, I-CV, I-OG, B-CV, I-EV
-24	##의	O	O	O, I-CV, I-OG, B-CV, I-EV
-25	##가	O	O	O, I-OG, I-EV, I-CV, B-PS
-26	소집	O	O	O, B-EV, B-OG, B-CV, I-EV
-27	##됐	O	O	O, I-EV, I-OG, B-CV, B-OG
-28	##다	O	O	O, B-CV, B-OG, I-OG, I-EV
-29	.	O	O	O, B-OG, B-LC, B-CV, I-OG
-30	[SEP]	O	O	O, B-OG, I-OG, B-CV, I-EV
+	text	label	preds
+0	[CLS]	O	O
+1	반발	O	O
+2	##이	O	O
+3	거세	O	O
+4	##지	O	O
+5	##자	O	O
+6	문	B-PS	B-PS
+7	위원장	B-CV	B-CV
+8	##은	O	O
+9	“	O	O
+10	재	O	O
+11	##도	O	O
+12	##입	O	O
+13	##을	O	O
+14	생각	O	O
+15	##하	O	O
+16	##긴	O	O
+17	했	O	O
+18	##지만	O	O
+19	모바일	B-EV	O
+20	투표	I-EV	O
+21	##는	O	O
+22	‘	O	O
+23	비밀	B-CV	O
+24	##선거	I-CV	O
+25	’	O	O
+26	란	O	O
+27	선거	O	O
+28	대원	O	O
+29	##칙	O	O
+30	##에	O	O
+31	위배	O	O
+32	##되	O	O
+33	##고	O	O
+34	100	B-QT	B-QT
+35	%	I-QT	I-QT
+36	신뢰	O	O
+37	##할	O	O
+38	수	O	O
+39	없	O	O
+40	##는	O	O
+41	법	O	O
+42	##적	O	O
+43	문제	O	O
+44	##가	O	O
+45	있	O	O
+46	##다	O	O
+47	”	O	O
+48	면서	O	O
+49	“	O	O
+50	특히	O	O
+51	특정	O	O
+52	계파	O	O
+53	##에	O	O
+54	유리	O	O
+55	##하	O	O
+56	##다면	O	O
+57	채택	O	O
+58	##할	O	O
+59	수	O	O
+60	없	O	O
+61	##다	O	O
+62	”	O	O
+63	며	O	O
+64	사과	O	O
+65	##했	O	O
+66	##다고	O	O
+67	한다	O	O
+68	.	O	O
+69	[SEP]	O	O

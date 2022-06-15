@@ -1,16 +1,23 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-EV
-1	여기	O	O	O, B-CV, B-TM, B-LC, B-FD
-2	육식	B-CV	O	O, B-CV, B-TR, I-CV, B-FD
-3	##이	O	O	O, I-CV, B-PS, I-TR, B-CV
-4	##라	O	O	O, I-CV, B-PS, B-CV, B-QT
-5	하	O	O	O, B-CV, B-QT, B-LC, B-TM
-6	##는	O	O	O, B-CV, B-LC, B-TM, B-PS
-7	것	O	O	O, B-CV, B-LC, B-TM, B-PS
-8	##은	O	O	O, B-CV, B-OG, B-TM, B-LC
-9	육류	B-CV	O	O, B-CV, I-CV, B-MT, B-TM
-10	##뿐	O	O	O, I-CV, B-CV, I-QT, I-TM
-11	##만	O	O	O, B-CV, B-TM, B-QT, I-CV
-12	아니	O	O	O, B-CV, B-OG, B-TM, B-LC
-13	##라	O	O	O, B-CV, B-OG, I-OG, B-LC
-14	[SEP]	O	O	O, B-CV, B-LC, B-TM, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	의무	B-CV	O
+2	##교육	I-CV	O
+3	##이	O	O
+4	중학교	O	O
+5	##로	O	O
+6	늘어나	O	O
+7	##는	O	O
+8	상황	O	O
+9	##을	O	O
+10	대비	O	O
+11	##해서	O	O
+12	의무	B-CV	O
+13	##교육	I-CV	O
+14	##의	O	O
+15	범위	O	O
+16	##를	O	O
+17	넓혔	O	O
+18	##습	O	O
+19	##니다	O	O
+20	.	O	O
+21	[SEP]	O	O

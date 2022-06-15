@@ -1,7 +1,36 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	마스크	B-CV	O	O, B-CV, B-TM, B-AM, B-AF
-2	포장	O	O	O, I-CV, I-TM, I-AF, B-CV
-3	##이	O	O	O, I-CV, I-AF, I-TM, B-PS
-4	##랑	O	O	O, B-CV, B-OG, I-AF, I-CV
-5	[SEP]	O	O	O, B-CV, B-TM, I-AF, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	갈	O	O
+2	때	O	O
+3	##는	O	O
+4	앞	O	O
+5	##으로	O	O
+6	##도	O	O
+7	많	O	O
+8	##고	O	O
+9	이제	O	O
+10	지금	O	O
+11	##은	O	O
+12	이제	O	O
+13	열심히	O	O
+14	이제	O	O
+15	제	O	O
+16	##가	O	O
+17	알바	B-CV	O
+18	같	O	O
+19	##은	O	O
+20	거	O	O
+21	##를	O	O
+22	해서	O	O
+23	이제	O	O
+24	몇	O	O
+25	천	O	O
+26	정도	O	O
+27	##는	O	O
+28	모을	O	O
+29	계획	O	O
+30	##이	O	O
+31	##에	O	O
+32	##요	O	O
+33	.	O	O
+34	[SEP]	O	O

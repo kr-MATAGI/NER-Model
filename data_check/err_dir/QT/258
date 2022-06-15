@@ -1,28 +1,8 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	이공	B-FD	O	O, B-FD, B-OG, B-CV, B-TR
-2	##계	I-FD	O	O, I-FD, I-OG, B-FD, I-TR
-3	우수	O	O	O, B-CV, B-OG, B-FD, B-LC
-4	##학	O	O	O, I-CV, I-OG, B-CV, B-FD
-5	##과	O	O	O, I-OG, I-CV, I-FD, I-QT
-6	등	O	O	O, B-CV, B-PS, B-LC, B-OG
-7	‘	B-QT	O	O, B-QT, B-OG, B-LC, B-PS
-8	가	I-QT	O	O, I-QT, I-OG, B-QT, B-OG
-9	’	I-QT	O	O, I-QT, I-OG, B-QT, B-OG
-10	군	I-QT	B-OG	B-OG, O, I-OG, I-QT, B-LC
-11	모집	O	O	O, I-OG, B-CV, I-QT, B-TM
-12	##인	O	O	O, B-CV, I-CV, B-QT, I-OG
-13	##원	O	O	O, B-CV, I-CV, B-LC, I-OG
-14	##이	O	O	O, B-PS, B-LC, B-OG, B-CV
-15	지난해	B-DT	B-DT	B-DT, O, B-QT, I-DT, B-EV
-16	##에	O	O	O, I-DT, I-QT, B-CV, I-EV
-17	비해	O	O	O, B-CV, B-TM, B-LC, B-OG
-18	크	O	O	O, B-QT, B-CV, B-LC, B-OG
-19	##게	O	O	O, B-LC, B-OG, B-QT, B-PS
-20	늘어난	O	O	O, B-QT, B-LC, B-OG, B-CV
-21	것	O	O	O, B-CV, B-OG, B-LC, B-PS
-22	##이	O	O	O, B-PS, B-CV, B-OG, B-LC
-23	특징	O	O	O, B-CV, B-TM, B-OG, B-QT
-24	##이다	O	O	O, B-CV, I-CV, B-TM, I-OG
-25	.	O	O	O, B-LC, B-CV, B-OG, B-PS
-26	[SEP]	O	O	O, B-CV, B-LC, I-OG, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	허허	O	O
+2	일	B-QT	O
+3	##도	O	O
+4	몰라	O	O
+5	.	O	O
+6	[SEP]	O	O

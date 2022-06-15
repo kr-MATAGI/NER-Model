@@ -1,69 +1,49 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	또	O	O	O, B-OG, B-CV, B-LC, B-TM
-2	지경	B-OG	B-OG	B-OG, O, B-CV, I-OG, B-PS
-3	##부	I-OG	I-OG	I-OG, O, I-CV, B-OG, I-EV
-4	##는	O	O	O, I-OG, I-EV, B-CV, I-CV
-5	전력	B-OG	O	O, B-OG, B-CV, I-OG, B-LC
-6	##거래소	I-OG	O	O, I-OG, I-CV, I-AF, B-OG
-7	##와	O	O	O, I-OG, I-AF, B-CV, B-PS
-8	한국전력	B-OG	B-OG	B-OG, O, I-OG, B-AF, B-LC
-9	##공사	I-OG	I-OG	I-OG, O, I-AF, I-CV, B-OG
-10	등	O	O	O, I-OG, B-CV, I-AF, I-CV
-11	##이	O	O	O, B-PS, B-OG, B-CV, B-LC
-12	참가	O	O	O, B-CV, B-OG, B-LC, B-PS
-13	##하	O	O	O, B-OG, B-PS, B-LC, B-CV
-14	##는	O	O	O, B-OG, B-LC, B-CV, B-PS
-15	전력	B-OG	O	O, B-OG, B-CV, I-OG, B-EV
-16	##수	I-OG	O	O, I-OG, B-OG, I-CV, I-EV
-17	##급	I-OG	O	O, I-OG, B-OG, I-CV, I-AF
-18	##대	I-OG	O	O, I-OG, B-OG, I-CV, I-EV
-19	##책	I-OG	O	O, I-OG, B-OG, I-CV, I-EV
-20	##본부	I-OG	O	O, I-OG, B-OG, I-CV, I-AF
-21	##를	O	O	O, I-OG, B-OG, B-CV, I-EV
-22	구성	O	O	O, B-OG, B-CV, B-LC, B-TM
-23	##해	O	O	O, B-LC, B-PS, B-OG, B-CV
-24	수급	O	O	O, B-LC, B-CV, B-OG, B-TM
-25	상황	O	O	O, B-LC, B-PS, B-CV, B-OG
-26	##을	O	O	O, B-LC, B-CV, B-OG, B-PS
-27	예의	O	O	O, B-LC, B-CV, B-PS, B-OG
-28	##주	O	O	O, B-LC, B-PS, I-LC, I-PS
-29	##시	O	O	O, B-LC, I-PS, I-LC, B-PS
-30	##하	O	O	O, B-LC, B-OG, B-PS, I-OG
-31	##는	O	O	O, B-LC, B-OG, B-CV, B-PS
-32	한편	O	O	O, B-LC, B-CV, B-OG, B-TM
-33	,	O	O	O, B-CV, B-LC, B-OG, B-PS
-34	불시	O	O	O, B-LC, B-CV, B-PS, B-EV
-35	##점	O	O	O, B-CV, B-LC, B-PS, I-LC
-36	##검	O	O	O, B-LC, B-CV, I-LC, B-PS
-37	##을	O	O	O, B-CV, B-LC, B-OG, B-PS
-38	통해	O	O	O, B-LC, B-OG, B-PS, B-CV
-39	에너지	O	O	O, B-MT, B-FD, B-TM, B-LC
-40	낭비	O	O	O, B-CV, B-LC, I-OG, B-PS
-41	##가	O	O	O, B-PS, B-OG, B-LC, B-CV
-42	심한	O	O	O, B-OG, B-LC, B-CV, B-PS
-43	공공	O	O	O, B-CV, B-OG, B-LC, B-FD
-44	##기	O	O	O, I-OG, I-CV, B-CV, I-AF
-45	##관	O	O	O, I-OG, I-CV, B-CV, B-LC
-46	및	O	O	O, B-LC, B-TM, B-CV, B-OG
-47	민간	O	O	O, B-OG, B-CV, B-LC, B-TM
-48	##기업	O	O	O, I-OG, I-CV, B-CV, I-AF
-49	##의	O	O	O, B-CV, B-LC, B-OG, B-PS
-50	명단	O	O	O, B-LC, B-TM, B-CV, B-OG
-51	##을	O	O	O, B-CV, B-LC, B-OG, B-PS
-52	발표	O	O	O, B-LC, B-CV, B-OG, B-TM
-53	##하고	O	O	O, B-LC, B-OG, B-CV, B-PS
-54	공공	O	O	O, B-CV, B-OG, B-LC, B-FD
-55	##기	O	O	O, I-OG, I-CV, I-AF, I-LC
-56	##관	O	O	O, I-OG, I-CV, I-AF, I-LC
-57	평가	O	O	O, B-CV, I-OG, B-LC, B-PS
-58	##에도	O	O	O, B-CV, B-LC, B-OG, B-TM
-59	반영	O	O	O, B-LC, B-CV, B-OG, B-TM
-60	##할	O	O	O, B-LC, B-OG, B-PS, B-CV
-61	방침	O	O	O, B-CV, B-LC, B-OG, B-TM
-62	##이	O	O	O, B-PS, B-OG, B-CV, B-LC
-63	##라고	O	O	O, B-OG, I-OG, B-CV, B-LC
-64	밝혔	O	O	O, B-CV, B-OG, B-LC, B-TM
-65	##다	O	O	O, B-CV, I-OG, B-OG, B-LC
-66	.	O	O	O, B-LC, B-OG, B-CV, B-PS
-67	[SEP]	O	O	O, B-LC, B-OG, B-CV, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	합	B-OG	O
+2	##수단	I-OG	O
+3	관계자	B-CV	B-CV
+4	##는	O	O
+5	“	O	O
+6	조사	O	O
+7	##도	O	O
+8	못	O	O
+9	##한다	O	O
+10	##면	O	O
+11	수사	O	O
+12	##기	O	O
+13	##관	O	O
+14	##이	O	O
+15	필요	O	O
+16	없	O	O
+17	##어지	O	O
+18	##고	O	O
+19	무죄	O	O
+20	##도	O	O
+21	늘어나	O	O
+22	##게	O	O
+23	되	O	O
+24	##는데	O	O
+25	이	O	O
+26	##는	O	O
+27	우리	O	O
+28	법	O	O
+29	##체	O	O
+30	##계	O	O
+31	##에	O	O
+32	맞	O	O
+33	##지	O	O
+34	않	O	O
+35	##는	O	O
+36	일	O	O
+37	”	O	O
+38	이라	O	O
+39	##며	O	O
+40	수사	O	O
+41	원칙	O	O
+42	##을	O	O
+43	강조	O	O
+44	##했	O	O
+45	##다	O	O
+46	.	O	O
+47	[SEP]	O	O

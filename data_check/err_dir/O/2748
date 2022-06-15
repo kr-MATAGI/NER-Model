@@ -1,19 +1,57 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-EV, I-CV
-1	종합	O	O	O, B-CV, B-PS, B-LC, B-OG
-2	##적으로	O	O	O, B-PS, B-LC, B-OG, B-CV
-3	대통령	B-CV	B-CV	B-CV, O, B-OG, B-AF, B-EV
-4	##이	O	O	O, I-CV, I-EV, I-OG, I-AF
-5	헌법	O	B-CV	B-CV, O, B-OG, B-AF, I-CV
-6	가치	O	O	O, I-CV, B-CV, I-EV, I-OG
-7	##에	O	O	O, B-CV, B-PS, B-LC, I-CV
-8	위배	O	O	O, B-CV, B-LC, B-TM, B-PS
-9	##됐	O	O	O, B-PS, B-LC, B-CV, B-OG
-10	##느	O	O	O, B-PS, B-LC, B-CV, B-OG
-11	##냐	O	O	O, B-PS, B-LC, I-PS, I-LC
-12	##를	O	O	O, B-CV, B-LC, B-PS, B-OG
-13	따지	O	O	O, B-CV, B-LC, B-PS, B-OG
-14	##기	O	O	O, B-CV, B-OG, B-PS, B-LC
-15	때문	O	O	O, B-CV, B-OG, B-LC, B-PS
-16	##에	O	O	O, B-CV, B-OG, B-LC, I-OG
-17	[SEP]	O	O	O, B-CV, B-LC, B-PS, I-EV
+	text	label	preds
+0	[CLS]	O	O
+1	그러나	O	O
+2	중국	B-LC	B-LC
+3	정부	B-OG	B-OG
+4	##는	O	O
+5	“	O	O
+6	시위	O	O
+7	##가	O	O
+8	중국	B-LC	B-LC
+9	체제	O	O
+10	##를	O	O
+11	흔드	O	O
+12	##려	O	O
+13	##는	O	O
+14	외	O	O
+15	##세	O	O
+16	##의	O	O
+17	조종	O	O
+18	##을	O	O
+19	받	O	O
+20	##고	O	O
+21	있	O	O
+22	##다	O	O
+23	”	O	O
+24	라며	O	O
+25	묵살	O	O
+26	##했	O	O
+27	##고	O	O
+28	,	O	O
+29	결국	O	O
+30	홍콩	B-LC	B-LC
+31	정부	B-OG	B-OG
+32	##는	O	O
+33	4	B-DT	B-DT
+34	##월	I-DT	I-DT
+35	##22	I-DT	I-DT
+36	##일	I-DT	I-DT
+37	원안	O	O
+38	##대로	O	O
+39	##인	O	O
+40	선거	O	O
+41	##안	O	O
+42	##을	O	O
+43	확정	O	O
+44	##해	O	O
+45	지난	B-DT	B-DT
+46	16	I-DT	I-DT
+47	##일	I-DT	I-DT
+48	입법	O	B-OG
+49	##회	O	I-OG
+50	##에	O	O
+51	제출	O	O
+52	##했	O	O
+53	##다	O	O
+54	.	O	O
+55	[SEP]	O	O

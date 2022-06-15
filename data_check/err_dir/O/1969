@@ -1,22 +1,51 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-AF
-1	[	O	O	O, B-LC, B-OG, B-AF, B-PS
-2	김지	B-PS	B-PS	B-PS, B-AF, O, B-LC, B-OG
-3	##영	I-PS	I-PS	I-PS, O, I-AF, I-OG, I-LC
-4	기자	B-CV	B-CV	B-CV, O, I-PS, I-AF, I-CV
-5	##의	O	O	O, I-AF, I-CV, I-PS, I-OG
-6	문학	O	B-FD	B-FD, O, I-FD, B-CV, B-AF
-7	##뜨	O	O	O, I-AF, I-FD, B-PS, I-OG
-8	##락	O	O	O, I-AF, I-PS, I-OG, I-LC
-9	]	O	O	O, I-AF, B-LC, B-PS, B-OG
-10	인터넷	O	O	O, B-TM, B-LC, B-CV, B-PS
-11	##세대	O	O	O, B-PS, B-CV, B-LC, I-CV
-12	당기	O	O	O, B-PS, B-LC, B-OG, B-CV
-13	##는	O	O	O, B-PS, B-LC, I-PS, B-CV
-14	복	O	O	O, B-CV, B-EV, B-AF, B-FD
-15	##간	O	O	O, I-CV, I-AF, I-QT, I-FD
-16	##본	O	O	O, I-CV, I-AF, I-QT, I-TR
-17	시집	O	O	O, B-CV, B-FD, B-AF, I-AF
-18	##의	O	O	O, I-AF, I-CV, B-PS, I-OG
-19	마력	O	O	O, B-LC, B-PS, B-AF, B-CV
-20	[SEP]	O	O	O, B-CV, B-LC, I-AF, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	경기도	B-OG	B-OG
+2	##교육	I-OG	I-OG
+3	##청	I-OG	I-OG
+4	##은	O	O
+5	학생	B-CV	B-CV
+6	##의	O	O
+7	집회	O	B-CV
+8	·	O	I-CV
+9	결사	O	I-CV
+10	자유	O	I-CV
+11	##가	O	O
+12	보장	O	O
+13	##되	O	O
+14	##는	O	O
+15	근거	O	O
+16	##로	O	O
+17	헌법	B-CV	B-CV
+18	##과	O	O
+19	초중	B-CV	B-CV
+20	##등	I-CV	I-CV
+21	##교육	I-CV	I-CV
+22	##법	I-CV	I-CV
+23	,	O	O
+24	유엔	B-OG	B-OG
+25	아동	O	B-CV
+26	##권	O	I-CV
+27	##리	O	I-CV
+28	##협	O	I-CV
+29	##약	O	I-CV
+30	,	O	O
+31	경기도	B-LC	B-LC
+32	학생	B-CV	B-CV
+33	##인	I-CV	I-CV
+34	##권	I-CV	I-CV
+35	##조	I-CV	I-CV
+36	##례	I-CV	I-CV
+37	관련	O	O
+38	조항	O	O
+39	##까	O	O
+40	##지	O	O
+41	붙	O	O
+42	##임자	O	O
+43	##료	O	O
+44	##로	O	O
+45	전달	O	O
+46	##했	O	O
+47	##다	O	O
+48	.	O	O
+49	[SEP]	O	O

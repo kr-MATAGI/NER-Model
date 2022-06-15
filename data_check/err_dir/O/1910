@@ -1,17 +1,68 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	그	O	O	O, B-CV, B-AF, B-LC, B-TM
-2	바늘	O	O	O, B-AM, B-AF, B-TM, B-PS
-3	##로	O	O	O, I-AF, I-CV, I-TM, B-PS
-4	자갈	O	O	O, B-MT, B-LC, B-CV, B-PT
-5	##밭	O	O	O, I-LC, I-AF, B-LC, I-CV
-6	##에서	O	O	O, B-LC, I-AF, I-LC, B-CV
-7	꽃	O	B-CV	B-CV, B-AM, O, B-PT, B-TM
-8	##우	O	I-CV	I-CV, I-AM, O, I-PT, B-AM
-9	##물	O	I-CV	I-CV, O, I-AM, I-PT, I-AF
-10	##을	O	O	O, I-CV, I-AF, I-EV, I-TM
-11	파	O	O	O, B-CV, B-LC, B-TM, B-OG
-12	##냈	O	O	O, B-CV, I-AF, B-LC, I-OG
-13	##다	O	O	O, B-CV, B-LC, I-AF, B-TM
-14	.	O	O	O, B-LC, B-CV, B-PS, I-AF
-15	[SEP]	O	O	O, B-CV, B-LC, I-AF, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	뒤	O	O
+2	##이	O	O
+3	##어	O	O
+4	연설	O	O
+5	##에	O	O
+6	나선	O	O
+7	푸틴	B-PS	B-PS
+8	대통령	B-CV	B-CV
+9	##은	O	O
+10	“	O	O
+11	아사드	B-PS	B-PS
+12	##의	O	O
+13	군대	O	O
+14	##와	O	O
+15	민병대	O	B-OG
+16	##를	O	O
+17	제외	O	O
+18	##하	O	O
+19	##고	O	O
+20	##는	O	O
+21	누구	O	O
+22	##도	O	O
+23	이슬람	B-OG	B-OG
+24	##국	I-OG	I-OG
+25	##가	I-OG	I-OG
+26	(	O	O
+27	IS	B-OG	B-OG
+28	)	O	O
+29	와	O	O
+30	진정	O	O
+31	##으로	O	O
+32	싸우	O	O
+33	##고	O	O
+34	있	O	O
+35	##지	O	O
+36	않	O	O
+37	##다	O	O
+38	”	O	O
+39	며	O	O
+40	“	O	O
+41	시리아	B-LC	B-LC
+42	정부	B-OG	B-OG
+43	및	O	O
+44	그	O	O
+45	군대	O	O
+46	##와	O	O
+47	협력	O	O
+48	##을	O	O
+49	거부	O	O
+50	##하	O	O
+51	##는	O	O
+52	것	O	O
+53	##은	O	O
+54	엄청난	O	O
+55	실수	O	O
+56	”	O	O
+57	가	O	O
+58	될	O	O
+59	것	O	O
+60	##이	O	O
+61	##라고	O	O
+62	주장	O	O
+63	##했	O	O
+64	##다	O	O
+65	.	O	O
+66	[SEP]	O	O

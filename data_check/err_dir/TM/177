@@ -1,79 +1,39 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-EV, I-OG, I-CV
-1	연구	O	O	O, B-CV, B-OG, B-FD, B-TM
-2	##팀	O	O	O, I-OG, I-CV, B-OG, B-CV
-3	조사	O	O	O, B-CV, B-LC, B-PS, B-TM
-4	결과	O	O	O, B-LC, B-TM, B-CV, B-PS
-5	2009	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-LC
-6	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-7	신종	B-TM	B-TM	B-TM, O, I-TM, B-CV, B-EV
-8	##플	I-TM	I-TM	I-TM, B-TM, O, I-CV, I-EV
-9	##루	I-TM	I-TM	I-TM, O, B-TM, I-CV, I-EV
-10	(	O	O	O, I-TM, B-CV, I-EV, B-TM
-11	H	O	B-TM	B-TM, I-TM, O, B-CV, B-AF
-12	##1	O	I-TM	I-TM, O, B-TM, I-CV, I-QT
-13	##N	O	I-TM	I-TM, O, B-TM, I-CV, I-QT
-14	##1	O	I-TM	I-TM, O, I-CV, I-AF, I-QT
-15	)	O	O	O, I-TM, B-CV, B-TM, I-EV
-16	감염	O	O	O, B-TM, B-CV, I-TM, B-AM
-17	환자	B-CV	B-CV	B-CV, O, I-CV, B-TM, I-TM
-18	9	B-QT	B-QT	B-QT, O, I-QT, B-DT, I-CV
-19	##명	I-QT	I-QT	I-QT, O, I-TM, B-QT, I-CV
-20	##에	O	O	O, I-QT, B-CV, I-CV, I-EV
-21	##게	O	O	O, B-CV, B-LC, B-OG, B-TM
-22	##서	O	O	O, B-CV, B-LC, B-TM, B-PS
-23	발견	O	O	O, B-CV, B-TM, B-OG, B-LC
-24	##된	O	O	O, B-PS, B-LC, B-CV, B-OG
-25	항체	O	O	O, B-TM, B-TR, B-CV, I-TM
-26	##는	O	O	O, I-TM, B-CV, I-AF, I-CV
-27	특이	O	O	O, B-CV, B-LC, B-TM, B-OG
-28	##하	O	O	O, B-PS, B-LC, B-OG, I-OG
-29	##게	O	O	O, B-LC, B-OG, B-PS, I-OG
-30	##도	O	O	O, B-LC, B-OG, B-PS, B-CV
-31	지난	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-32	10	I-DT	I-DT	I-DT, B-DT, O, I-QT, I-PS
-33	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-34	##간	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-35	나타난	O	O	O, I-DT, B-LC, B-CV, B-TM
-36	모든	O	O	O, B-TM, B-LC, B-AF, B-QT
-37	계절	B-TM	O	O, B-TM, I-TM, B-AF, B-TR
-38	##성	I-TM	O	O, I-TM, B-TM, I-TR, I-AF
-39	독감	I-TM	B-TM	B-TM, I-TM, O, B-CV, B-AM
-40	##바이	I-TM	I-TM	I-TM, B-TM, O, B-AM, B-CV
-41	##러스	I-TM	I-TM	I-TM, O, B-TM, I-CV, I-AM
-42	##는	O	O	O, I-TM, I-CV, B-CV, I-QT
-43	물론	O	O	O, B-LC, B-OG, B-TM, B-QT
-44	,	O	O	O, B-LC, B-CV, B-OG, B-PS
-45	1918	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-LC
-46	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-47	세계	O	O	O, I-DT, B-LC, B-CV, I-EV
-48	##를	O	O	O, B-LC, B-CV, B-PS, B-OG
-49	휩쓸	O	O	O, B-CV, B-LC, B-EV, B-PS
-50	##었	O	O	O, B-CV, B-LC, B-EV, B-TM
-51	##던	O	O	O, B-CV, B-EV, B-LC, B-TM
-52	스페인	B-LC	B-LC	B-LC, B-EV, B-TM, B-AF, B-CV
-53	독감	B-TM	I-TM	I-TM, B-TM, O, I-EV, I-AF
-54	##과	O	O	O, I-TM, I-EV, I-AF, I-CV
-55	심지어	O	O	O, B-TM, B-CV, B-QT, B-AF
-56	조류	B-TM	B-TM	B-TM, I-TM, O, B-CV, B-EV
-57	##인	I-TM	I-TM	I-TM, O, B-TM, I-QT, I-EV
-58	##플	I-TM	I-TM	I-TM, O, B-TM, I-QT, I-CV
-59	##루엔자	I-TM	I-TM	I-TM, O, B-TM, I-QT, I-CV
-60	(	I-TM	O	O, I-TM, B-CV, B-TM, I-EV
-61	H	I-TM	B-TM	B-TM, I-TM, O, B-CV, B-AF
-62	##5	I-TM	I-TM	I-TM, O, B-TM, I-QT, I-AF
-63	##N	I-TM	I-TM	I-TM, O, B-TM, I-QT, I-AF
-64	##1	I-TM	I-TM	I-TM, O, I-QT, I-AF, B-TM
-65	)	I-TM	O	O, I-TM, B-TM, B-CV, I-EV
-66	바이러스	I-TM	B-TM	B-TM, O, I-TM, B-CV, B-AM
-67	##에	O	O	O, I-TM, I-CV, B-CV, I-EV
-68	##까	O	O	O, B-CV, B-LC, B-OG, B-TM
-69	##지	O	O	O, B-LC, B-OG, B-CV, B-TM
-70	면역	O	O	O, B-TM, B-TR, B-LC, B-CV
-71	##반	O	O	O, I-TM, I-TR, B-LC, B-PS
-72	##응	O	O	O, B-LC, I-TM, B-PS, I-TR
-73	##을	O	O	O, B-CV, B-OG, B-LC, B-TM
-74	나타냈	O	O	O, B-CV, B-LC, B-OG, B-TM
-75	##다	O	O	O, B-CV, B-TM, B-LC, B-OG
-76	.	O	O	O, B-LC, B-TM, B-CV, B-PS
-77	[SEP]	O	O	O, B-LC, B-CV, B-TM, I-EV
+	text	label	preds
+0	[CLS]	O	O
+1	2004	B-DT	B-DT
+2	##년	I-DT	I-DT
+3	(	O	O
+4	ㅁ	B-TM	O
+5	##자	I-TM	O
+6	집	O	O
+7	)	O	O
+8	과	O	O
+9	2008	B-DT	B-DT
+10	##년	I-DT	I-DT
+11	(	O	O
+12	마을	O	O
+13	##집	O	O
+14	)	O	O
+15	,	O	O
+16	2009	B-DT	B-DT
+17	##년	I-DT	I-DT
+18	(	O	O
+19	땅	O	O
+20	##집	O	O
+21	)	O	O
+22	잇따라	O	O
+23	완성	O	O
+24	##된	O	O
+25	집	O	O
+26	##들	O	O
+27	##은	O	O
+28	모두	O	O
+29	하나	O	B-QT
+30	##의	O	O
+31	정서	O	O
+32	##에	O	O
+33	##서	O	O
+34	출발	O	O
+35	##한다	O	O
+36	.	O	O
+37	[SEP]	O	O

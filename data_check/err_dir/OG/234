@@ -1,22 +1,27 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	보	B-OG	B-PS	B-PS, B-OG, B-AF, O, B-LC
-2	##쉰	I-OG	I-PS	I-PS, I-OG, I-AF, O, I-LC
-3	##은	O	O	O, I-OG, I-PS, I-AF, B-CV
-4	이런	O	O	O, B-CV, B-TM, B-LC, B-OG
-5	상황	O	O	O, B-CV, B-OG, B-TM, B-LC
-6	##이	O	O	O, B-PS, B-OG, B-CV, B-LC
-7	앞	O	O	O, B-CV, B-LC, B-DT, B-TM
-8	##으로	O	O	O, B-PS, B-CV, B-OG, I-CV
-9	두	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-10	달	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-11	##간	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-12	지속	O	O	O, I-DT, B-CV, I-QT, I-OG
-13	##될	O	O	O, B-CV, B-PS, I-OG, I-AF
-14	것	O	O	O, B-CV, B-PS, I-OG, B-LC
-15	##이	O	O	O, B-PS, B-CV, B-OG, I-CV
-16	##라고	O	O	O, B-CV, I-OG, I-CV, I-AF
-17	전했	O	O	O, B-CV, B-OG, B-TM, B-LC
-18	##다	O	O	O, B-CV, I-OG, I-CV, I-QT
-19	.	O	O	O, B-CV, B-LC, B-OG, B-PS
-20	[SEP]	O	O	O, B-CV, B-LC, B-OG, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	한편	O	O
+2	박	B-PS	B-PS
+3	대통령	B-CV	B-CV
+4	##은	O	O
+5	10	B-DT	B-DT
+6	##일	I-DT	I-DT
+7	새벽	B-TI	B-TI
+8	##까	I-TI	I-TI
+9	##지	I-TI	I-TI
+10	관저	O	O
+11	##에	O	O
+12	##서	O	O
+13	북한	B-OG	B-LC
+14	동향	O	O
+15	등	O	O
+16	##에	O	O
+17	대해	O	O
+18	실시간	O	O
+19	보고	O	O
+20	##를	O	O
+21	받	O	O
+22	##았	O	O
+23	##다	O	O
+24	.	O	O
+25	[SEP]	O	O

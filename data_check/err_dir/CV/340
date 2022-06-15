@@ -1,29 +1,89 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, I-OG, B-CV, I-AF
-1	그	O	O	O, B-CV, B-OG, I-OG, I-CV
-2	~	O	O	O, B-CV, I-CV, I-OG, B-LC
-3	암튼	O	O	O, B-CV, B-LC, B-OG, B-PS
-4	내	O	O	O, B-CV, B-PS, B-OG, B-LC
-5	##가	O	O	O, B-PS, B-CV, B-OG, B-LC
-6	교원	B-CV	O	O, B-CV, I-CV, B-OG, B-FD
-7	##을	O	O	O, I-CV, I-OG, B-CV, I-EV
-8	다니	O	O	O, B-CV, B-PS, B-OG, B-LC
-9	##면서	O	O	O, B-CV, B-PS, B-OG, B-LC
-10	애	O	O	O, B-CV, B-PS, I-CV, B-TM
-11	##들	O	O	O, I-CV, B-CV, B-PS, I-AF
-12	##한	O	O	O, B-CV, B-PS, B-LC, B-OG
-13	##테	O	O	O, B-CV, B-PS, B-LC, B-QT
-14	초등	O	O	O, B-CV, B-OG, B-QT, B-FD
-15	##학교	O	O	O, I-OG, I-CV, I-QT, B-QT
-16	때	O	O	O, B-PS, I-DT, I-OG, I-CV
-17	##는	O	O	O, B-CV, B-PS, I-QT, I-DT
-18	이렇게	O	O	O, B-CV, B-QT, B-OG, B-TM
-19	도움	O	O	O, B-CV, B-TM, B-QT, B-LC
-20	##이	O	O	O, B-PS, B-CV, I-CV, B-OG
-21	됐	O	O	O, B-CV, B-PS, B-LC, B-OG
-22	##던	O	O	O, B-CV, I-CV, B-PS, B-OG
-23	거	O	O	O, B-CV, B-PS, B-OG, B-QT
-24	같	O	O	O, B-CV, B-PS, I-CV, I-OG
-25	##애	O	O	O, I-OG, I-CV, I-AF, B-CV
-26	.	O	O	O, B-CV, I-OG, B-LC, B-OG
-27	[SEP]	O	O	O, B-CV, B-PS, B-LC, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	김경	B-PS	B-PS
+2	##선	I-PS	I-PS
+3	노동부	B-OG	B-OG
+4	노동	B-CV	B-CV
+5	##관계	I-CV	I-CV
+6	##법	I-CV	I-CV
+7	##제과	I-CV	I-CV
+8	##장	I-CV	I-CV
+9	##은	O	O
+10	“	O	O
+11	I	B-CV	B-OG
+12	##LO	I-CV	I-OG
+13	##에	O	O
+14	##서는	O	O
+15	‘	O	O
+16	전임자	B-CV	B-CV
+17	급여	O	O
+18	’	O	O
+19	라는	O	O
+20	말	O	O
+21	##보	O	O
+22	##다	O	O
+23	근로	O	O
+24	##시간	O	O
+25	면제	O	O
+26	##를	O	O
+27	포함	O	O
+28	##한	O	O
+29	‘	O	O
+30	편의	O	O
+31	제공	O	O
+32	’	O	O
+33	이란	O	O
+34	용어	O	O
+35	##를	O	O
+36	사용	O	O
+37	##한다	O	O
+38	”	O	O
+39	며	O	O
+40	“	O	O
+41	근로자	B-CV	B-CV
+42	대표	B-CV	B-CV
+43	(	O	O
+44	우리	O	O
+45	##의	O	O
+46	노조	B-CV	B-CV
+47	##전	I-CV	I-CV
+48	##임자	I-CV	I-CV
+49	##에	O	O
+50	해당	O	O
+51	)	O	O
+52	의	O	O
+53	활동	O	O
+54	##에	O	O
+55	편의	O	O
+56	##를	O	O
+57	제공	O	O
+58	##하	O	O
+59	##는	O	O
+60	형태	O	O
+61	##가	O	O
+62	일반	O	O
+63	##적	O	O
+64	##이	O	O
+65	##기	O	O
+66	때문	O	O
+67	##에	O	O
+68	따로	O	O
+69	전임자	B-CV	B-CV
+70	##에	O	O
+71	대한	O	O
+72	규정	O	O
+73	##을	O	O
+74	둘	O	O
+75	필요	O	O
+76	##가	O	O
+77	없	O	O
+78	##는	O	O
+79	것	O	O
+80	”	O	O
+81	이라	O	O
+82	##고	O	O
+83	설명	O	O
+84	##했	O	O
+85	##다	O	O
+86	.	O	O
+87	[SEP]	O	O

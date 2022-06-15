@@ -1,34 +1,16 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, B-CV, I-OG, I-EV
-1	특히	O	O	O, B-CV, B-OG, B-TM, B-LC
-2	사령관	B-CV	B-CV	B-CV, O, B-OG, I-CV, B-PS
-3	(	O	O	O, I-CV, I-OG, B-CV, I-QT
-4	장성	B-CV	O	O, B-CV, B-QT, B-OG, B-PS
-5	##급	O	O	O, I-QT, I-CV, I-OG, I-PS
-6	)	O	O	O, I-QT, I-CV, B-CV, B-PS
-7	의	O	O	O, B-PS, B-CV, B-LC, B-OG
-8	지휘	O	O	O, B-CV, B-PS, B-LC, B-OG
-9	##를	O	O	O, B-PS, B-CV, B-LC, B-OG
-10	받	O	O	O, B-CV, B-PS, B-LC, B-OG
-11	##는	O	O	O, B-CV, B-PS, B-LC, B-OG
-12	법무	O	B-CV	B-CV, O, B-OG, B-FD, I-CV
-13	참모	B-CV	I-CV	I-CV, B-CV, O, I-OG, I-QT
-14	(	O	O	O, I-CV, I-OG, B-CV, I-QT
-15	대위	O	O	O, B-QT, B-CV, B-TM, B-OG
-16	##급	O	O	O, I-QT, I-CV, I-OG, B-QT
-17	)	O	O	O, I-QT, I-CV, B-CV, I-OG
-18	를	O	O	O, B-CV, B-PS, B-LC, B-OG
-19	위원장	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-TM
-20	##으로	O	O	O, I-CV, B-CV, B-PS, I-QT
-21	둔	O	O	O, B-OG, B-PS, B-LC, B-QT
-22	심의위	O	O	O, B-OG, B-CV, I-OG, B-PS
-23	##가	O	O	O, I-OG, I-CV, B-PS, I-EV
-24	제대로	O	O	O, B-LC, B-CV, B-OG, B-PS
-25	작동	O	O	O, B-CV, B-LC, B-OG, B-PS
-26	##할	O	O	O, B-PS, B-LC, B-CV, B-OG
-27	##지	O	O	O, B-LC, B-CV, B-OG, B-PS
-28	우려	O	O	O, B-CV, B-TM, B-QT, I-OG
-29	##가	O	O	O, B-CV, B-PS, I-OG, B-OG
-30	나온다	O	O	O, B-CV, B-TM, B-LC, B-QT
-31	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-32	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	약간	O	O
+2	두툼	O	O
+3	##하	O	O
+4	##게	O	O
+5	필러	O	B-TM
+6	##로	O	O
+7	다시	O	O
+8	벗겨	O	O
+9	##내	O	O
+10	##겠	O	O
+11	##습	O	O
+12	##니다	O	O
+13	.	O	O
+14	[SEP]	O	O

@@ -1,51 +1,21 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	이	O	O	O, B-OG, B-CV, B-TM, B-LC
-2	##밖	O	O	O, B-OG, B-CV, B-TM, I-OG
-3	##에	O	O	O, B-OG, B-LC, B-CV, B-PS
-4	루카	B-AF	B-OG	B-OG, B-AF, B-LC, B-PS, O
-5	마일	I-AF	I-AF	I-AF, B-CV, I-OG, I-CV, B-AF
-6	##드	I-AF	I-AF	I-AF, I-CV, I-OG, I-PS, I-LC
-7	(	O	O	O, I-AF, I-CV, I-OG, I-EV
-8	스틱	B-CV	O	O, B-TM, B-CV, B-AF, B-LC
-9	##형	I-CV	O	O, I-CV, I-TM, I-AF, I-OG
-10	원두	I-CV	B-CV	B-CV, I-CV, O, I-AF, I-TM
-11	)	O	O	O, I-CV, I-AF, I-OG, B-CV
-12	6	B-QT	B-QT	B-QT, O, B-DT, I-QT, B-OG
-13	%	I-QT	I-QT	I-QT, O, I-DT, I-LC, I-PS
-14	,	O	O	O, I-QT, I-OG, B-OG, B-CV
-15	스타	B-OG	B-OG	B-OG, B-AF, O, B-PS, B-CV
-16	##벅	I-OG	I-OG	I-OG, O, I-AF, I-PS, B-OG
-17	##스	I-OG	I-OG	I-OG, O, I-AF, I-PS, I-CV
-18	원두	O	B-CV	B-CV, O, I-CV, I-OG, B-AF
-19	(	O	O	O, I-CV, I-OG, B-CV, I-AF
-20	로스	B-CV	O	O, B-CV, B-AF, B-PT, B-MT
-21	##팅	I-CV	O	O, I-CV, B-CV, I-AF, I-TM
-22	원두	I-CV	I-CV	I-CV, O, B-CV, I-AF, I-TM
-23	)	O	O	O, I-CV, I-AF, I-OG, B-CV
-24	5	B-QT	B-QT	B-QT, O, B-DT, I-QT, B-PS
-25	%	I-QT	I-QT	I-QT, O, I-DT, I-LC, I-PS
-26	,	O	O	O, I-QT, I-OG, B-OG, B-CV
-27	레	B-AF	B-OG	B-OG, B-AF, B-PS, B-CV, B-LC
-28	##쓰	I-AF	I-OG	I-OG, I-AF, I-PS, O, I-CV
-29	##비	I-AF	I-OG	I-OG, I-AF, O, I-PS, I-CV
-30	마일	I-AF	I-AF	I-AF, B-CV, I-OG, I-CV, B-AF
-31	##드	I-AF	I-AF	I-AF, I-CV, I-OG, I-PS, I-LC
-32	(	O	O	O, I-AF, I-CV, I-OG, I-EV
-33	캔	B-CV	B-CV	B-CV, O, B-AF, B-TM, B-EV
-34	##커피	I-CV	I-CV	I-CV, B-CV, O, I-AF, I-TM
-35	)	O	O	O, I-CV, I-AF, I-OG, I-EV
-36	5	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-OG
-37	%	I-QT	I-QT	I-QT, O, I-DT, I-LC, I-OG
-38	,	O	O	O, I-QT, I-OG, B-CV, B-OG
-39	네스	B-AF	B-OG	B-OG, B-AF, O, B-PS, B-EV
-40	##프레소	I-AF	I-OG	I-OG, I-AF, O, I-PS, I-EV
-41	캡슐	I-AF	B-CV	B-CV, O, B-AF, I-AF, I-OG
-42	##커피	I-AF	I-CV	I-CV, B-CV, I-AF, O, I-OG
-43	4	B-QT	B-QT	B-QT, I-QT, I-CV, I-AF, B-DT
-44	%	I-QT	I-QT	I-QT, O, I-AF, I-OG, I-CV
-45	순이	O	O	O, I-QT, B-CV, B-TM, I-OG
-46	##었	O	O	O, B-CV, B-OG, B-TM, B-LC
-47	##다	O	O	O, B-CV, I-OG, B-OG, B-TM
-48	.	O	O	O, B-OG, B-LC, B-CV, I-OG
-49	[SEP]	O	O	O, B-CV, B-OG, B-LC, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	네	O	O
+2	##가	O	O
+3	미디어	B-AF	O
+4	##비	I-AF	O
+5	##평	I-AF	O
+6	##x	O	O
+7	진행자	B-CV	B-CV
+8	##야	O	O
+9	.	O	O
+10	또	O	O
+11	네	O	O
+12	##가	O	O
+13	이	O	O
+14	영화	O	O
+15	비평	O	O
+16	##을	O	O
+17	하	O	O
+18	##는데	O	O
+19	[SEP]	O	O

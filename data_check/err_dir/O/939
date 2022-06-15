@@ -1,21 +1,17 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	걔	O	O	O, B-CV, B-PS, B-TM, I-CV
-2	##한	O	O	O, B-CV, B-PS, I-CV, B-TM
-3	##테	O	O	O, B-CV, I-CV, B-TM, B-QT
-4	해	O	O	O, B-CV, B-TM, B-LC, B-AM
-5	##꼬	O	O	O, B-CV, I-CV, B-LC, B-AM
-6	##지	O	O	O, I-CV, I-LC, B-AM, I-AM
-7	##하	O	O	O, B-CV, B-PS, B-LC, I-CV
-8	##는	O	O	O, B-CV, B-TM, B-LC, B-PS
-9	거	O	O	O, B-CV, B-PS, B-OG, B-TM
-10	너	O	O	O, B-CV, B-PS, B-AM, B-TM
-11	##한	O	O	O, B-CV, B-PS, I-CV, B-AM
-12	##테	O	O	O, B-CV, I-CV, B-PS, B-LC
-13	##도	O	O	O, B-CV, B-PS, B-LC, B-DT
-14	똑같이	O	O	O, B-TM, B-CV, B-QT, B-PS
-15	덤	O	B-AF	B-AF, O, B-AM, B-TM, B-CV
-16	##터	O	I-AF	I-AF, O, I-TM, I-AM, I-CV
-17	##기	O	I-AF	I-AF, O, I-TM, I-AM, I-CV
-18	##로	O	O	O, I-AF, I-TM, I-CV, I-OG
-19	[SEP]	O	O	O, I-AF, B-CV, I-TM, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	스	O	B-CV
+2	##생	O	I-CV
+3	##님	O	I-CV
+4	##은	O	O
+5	표현	O	O
+6	그	O	O
+7	~	O	O
+8	걸	O	O
+9	연구	O	O
+10	##를	O	O
+11	하	O	O
+12	##셨	O	O
+13	##어요	O	O
+14	?	O	O
+15	[SEP]	O	O

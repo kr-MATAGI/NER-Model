@@ -1,60 +1,64 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	앞서	O	O	O, B-OG, B-LC, B-TM, B-CV
-2	사단	O	O	O, B-OG, B-CV, B-LC, B-TM
-3	##법인	O	O	O, I-OG, B-OG, I-CV, B-CV
-4	계명	O	B-OG	B-OG, O, I-OG, B-LC, B-PS
-5	1	B-QT	B-QT	B-QT, I-OG, I-QT, I-LC, O
-6	%	I-QT	I-QT	I-QT, I-OG, O, I-LC, I-TM
-7	사랑	O	I-OG	I-OG, O, B-OG, I-QT, B-CV
-8	##나	O	I-OG	I-OG, O, I-CV, I-TM, B-OG
-9	##누	O	I-OG	I-OG, O, I-CV, I-TM, I-EV
-10	##기	O	I-OG	I-OG, O, I-CV, I-TM, I-AF
-11	##는	O	O	O, I-OG, I-TM, I-CV, I-EV
-12	지난	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-OG
-13	1	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-OG
-14	##월	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-OG
-15	##에도	O	O	O, I-DT, B-CV, B-LC, I-QT
-16	콜	B-TM	B-TM	B-TM, O, B-CV, B-LC, B-EV
-17	##레라	I-TM	I-TM	I-TM, O, B-TM, I-CV, I-QT
-18	등	O	O	O, I-TM, I-EV, I-QT, I-OG
-19	전염병	B-TM	B-TM	B-TM, O, I-TM, B-LC, B-AF
-20	##으로	O	O	O, I-TM, I-AF, B-CV, I-CV
-21	고통	O	O	O, B-LC, B-OG, B-TM, B-CV
-22	##받	O	O	O, B-LC, B-PS, B-OG, B-CV
-23	##고	O	O	O, B-LC, B-PS, B-OG, B-CV
-24	있	O	O	O, B-LC, B-CV, B-OG, B-PS
-25	##는	O	O	O, B-LC, B-OG, B-CV, B-PS
-26	짐	B-LC	B-LC	B-LC, B-OG, O, B-PS, B-CV
-27	##바	I-LC	I-LC	I-LC, I-OG, O, B-LC, I-PS
-28	##브	I-LC	I-LC	I-LC, I-OG, O, B-LC, I-PS
-29	##웨	I-LC	I-LC	I-LC, I-OG, O, B-LC, I-PS
-30	##에	O	O	O, I-OG, I-LC, B-LC, I-QT
-31	1000	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-OG
-32	##만	I-QT	I-QT	I-QT, O, I-LC, I-OG, B-QT
-33	##원	I-QT	I-QT	I-QT, O, I-LC, I-OG, I-PS
-34	##의	O	O	O, I-QT, B-CV, I-OG, B-OG
-35	구호	O	O	O, B-CV, B-TM, B-QT, B-MT
-36	##기금	O	O	O, I-CV, I-TM, I-QT, I-TR
-37	##을	O	O	O, I-CV, B-CV, B-PS, B-LC
-38	전달	O	O	O, B-CV, B-OG, B-LC, B-TM
-39	##하	O	O	O, B-LC, B-PS, B-OG, B-DT
-40	##는	O	O	O, B-LC, B-OG, B-TM, B-CV
-41	등	O	O	O, B-LC, B-OG, B-TM, B-PS
-42	아프리카	B-LC	B-LC	B-LC, B-OG, O, I-LC, B-AF
-43	주민	B-CV	B-CV	B-CV, O, I-CV, I-LC, B-TM
-44	##들	O	O	O, I-CV, B-CV, I-EV, I-OG
-45	##을	O	O	O, B-CV, B-TM, B-OG, B-LC
-46	위한	O	O	O, B-LC, B-TM, B-CV, B-QT
-47	도움	O	O	O, B-TM, B-CV, B-LC, B-OG
-48	##의	O	O	O, B-PS, B-LC, B-CV, I-CV
-49	손길	O	O	O, B-LC, B-CV, B-TM, B-PS
-50	##을	O	O	O, B-CV, B-LC, B-OG, B-PS
-51	지속	O	O	O, B-LC, B-CV, B-TM, B-OG
-52	##적으로	O	O	O, B-LC, B-PS, B-TM, B-OG
-53	전하	O	O	O, B-LC, B-OG, B-CV, B-TM
-54	##고	O	O	O, B-LC, B-OG, I-OG, B-TM
-55	있	O	O	O, B-OG, B-LC, B-CV, B-TM
-56	##다	O	O	O, B-CV, B-OG, I-OG, B-LC
-57	.	O	O	O, B-LC, B-OG, B-CV, B-PS
-58	[SEP]	O	O	O, B-LC, B-CV, B-OG, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	태	B-CV	B-CV
+2	##왕	I-CV	I-CV
+3	##이	O	O
+4	정복	O	O
+5	군주	O	B-CV
+6	##가	O	O
+7	돼	O	O
+8	활약	O	O
+9	##하	O	O
+10	##는	O	O
+11	과정	O	O
+12	##은	O	O
+13	사료	O	O
+14	##에	O	O
+15	바탕	O	O
+16	##을	O	O
+17	뒀	O	O
+18	##지만	O	O
+19	,	O	O
+20	태	B-CV	B-CV
+21	##왕	I-CV	I-CV
+22	##이	O	O
+23	하늘	O	O
+24	##의	O	O
+25	영	O	O
+26	##체	O	O
+27	(	O	O
+28	[UNK]	O	O
+29	體	O	O
+30	)	O	O
+31	와	O	O
+32	접하	O	O
+33	##는	O	O
+34	순간	O	O
+35	##을	O	O
+36	비롯	O	O
+37	##해	O	O
+38	고구려	B-DT	B-DT
+39	##를	O	O
+40	이상	O	O
+41	##향	O	O
+42	##으로	O	O
+43	그린	O	O
+44	부분	O	O
+45	##에	O	O
+46	##선	O	O
+47	단군	B-PS	B-PS
+48	신화	O	I-FD
+49	##와	O	O
+50	도교	B-OG	B-FD
+51	(	O	O
+52	道	O	O
+53	敎	O	O
+54	)	O	O
+55	의	O	O
+56	상상력	O	O
+57	##을	O	O
+58	떠올리	O	O
+59	##게	O	O
+60	한다	O	O
+61	.	O	O
+62	[SEP]	O	O

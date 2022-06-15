@@ -1,32 +1,37 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	2008	B-DT	B-DT	B-DT, O, B-QT, B-EV, I-DT
-2	베이징	B-EV	B-EV	B-EV, B-LC, I-EV, O, B-AF
-3	여름	I-EV	I-EV	I-EV, B-EV, O, I-AF, B-CV
-4	##올	I-EV	I-EV	I-EV, O, B-EV, I-AF, I-CV
-5	##림픽	I-EV	I-EV	I-EV, O, B-EV, I-AF, I-CV
-6	여자	O	O	O, I-EV, B-CV, B-TM, B-EV
-7	역도	O	B-CV	B-CV, O, I-CV, I-EV, B-AF
-8	##에서	O	O	O, I-CV, I-EV, B-CV, I-AF
-9	금메달	B-CV	B-CV	B-CV, O, B-AF, I-CV, B-PS
-10	##을	O	O	O, I-CV, B-CV, I-EV, I-AF
-11	딴	O	O	O, B-PS, B-CV, B-LC, B-OG
-12	‘	O	O	O, B-PS, B-CV, B-OG, B-LC
-13	역도	O	B-CV	B-CV, B-EV, O, B-PS, B-OG
-14	##여	O	B-CV	B-CV, I-EV, I-CV, O, B-EV
-15	##제	O	I-CV	I-CV, I-EV, O, I-OG, I-PS
-16	’	O	O	O, I-CV, I-EV, B-PS, I-OG
-17	장미	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-18	##란	I-PS	I-PS	I-PS, O, I-OG, I-LC, B-PS
-19	(	O	O	O, I-PS, B-CV, I-OG, I-AF
-20	34	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-TM
-21	)	O	O	O, I-QT, I-OG, I-DT, B-CV
-22	이	O	O	O, B-PS, B-CV, B-OG, B-LC
-23	선수	B-CV	B-CV	B-CV, O, B-PS, B-EV, B-OG
-24	시절	O	O	O, I-CV, I-EV, B-CV, I-OG
-25	했	O	O	O, B-CV, B-TM, B-PS, B-OG
-26	##던	O	O	O, B-CV, B-PS, B-LC, B-OG
-27	얘기	O	O	O, B-CV, B-FD, B-TM, B-OG
-28	##다	O	O	O, B-CV, B-PS, B-OG, I-CV
-29	.	O	O	O, B-CV, B-PS, B-LC, B-OG
-30	[SEP]	O	O	O, B-CV, B-PS, B-LC, B-FD
+	text	label	preds
+0	[CLS]	O	O
+1	최근	O	O
+2	인도네시아	B-LC	B-LC
+3	정부	B-OG	B-OG
+4	##가	O	O
+5	고등	O	B-TM
+6	##훈련	O	I-TM
+7	##기	O	I-TM
+8	사업	O	I-TM
+9	##의	O	O
+10	평가	O	O
+11	##방	O	O
+12	##법	O	O
+13	##을	O	O
+14	점검	O	O
+15	##할	O	O
+16	계획	O	O
+17	##인	O	O
+18	것	O	O
+19	##으로	O	O
+20	알려져	O	O
+21	이번	O	O
+22	사건	O	O
+23	##이	O	O
+24	악재	O	O
+25	##로	O	O
+26	작용	O	O
+27	##할	O	O
+28	수도	O	O
+29	있	O	O
+30	##다는	O	O
+31	우려	O	O
+32	##가	O	O
+33	나온다	O	O
+34	.	O	O
+35	[SEP]	O	O

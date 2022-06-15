@@ -1,20 +1,38 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	이	O	O	O, B-PS, B-OG, B-LC, B-CV
-2	~	O	O	O, B-CV, B-PS, B-LC, I-CV
-3	그	O	O	O, B-CV, B-OG, B-PS, B-LC
-4	~	O	O	O, B-CV, B-PS, B-LC, I-CV
-5	보스	B-PS	O	O, B-CV, B-PS, B-EV, B-TR
-6	##캉스	I-PS	O	O, I-CV, I-PS, I-TR, I-EV
-7	라고	O	O	O, I-CV, I-AF, I-EV, I-OG
-8	하	O	O	O, B-CV, B-OG, B-LC, B-PS
-9	##는	O	O	O, B-CV, B-LC, B-PS, B-OG
-10	미국	B-LC	B-LC	B-LC, O, B-OG, B-PS, B-CV
-11	비수	B-TR	B-TR	B-TR, O, I-TR, B-PS, B-FD
-12	##정	I-TR	I-TR	I-TR, O, B-TR, I-PS, I-FD
-13	##주의	I-TR	I-TR	I-TR, O, B-TR, I-PS, I-FD
-14	계열	O	O	O, I-TR, B-CV, I-DT, I-OG
-15	##의	O	O	O, B-PS, I-OG, I-TR, I-CV
-16	학자	B-CV	B-CV	B-CV, O, B-FD, I-CV, B-DT
-17	##에	O	O	O, I-CV, B-CV, I-QT, I-EV
-18	[SEP]	O	O	O, B-CV, B-LC, I-CV, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	김	B-PS	O
+2	씨	O	O
+3	##와	O	O
+4	강	B-PS	B-PS
+5	씨	O	O
+6	##는	O	O
+7	2	B-DT	B-DT
+8	##년	I-DT	I-DT
+9	전부	I-DT	I-DT
+10	##터	I-DT	I-DT
+11	지난해	I-DT	I-DT
+12	9	I-DT	I-DT
+13	##월	I-DT	I-DT
+14	##까	I-DT	I-DT
+15	##지만	I-DT	I-DT
+16	해도	O	O
+17	김	B-PS	B-PS
+18	씨	O	O
+19	공장	O	O
+20	##에	O	O
+21	있	O	O
+22	##는	O	O
+23	배	O	B-TM
+24	##전	O	I-TM
+25	##반	O	I-TM
+26	##을	O	O
+27	함께	O	O
+28	쓰	O	O
+29	##고	O	O
+30	전기료	O	O
+31	##를	O	O
+32	나눠	O	O
+33	냈	O	O
+34	##다	O	O
+35	.	O	O
+36	[SEP]	O	O

@@ -1,79 +1,29 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-EV, I-OG
-1	이철	B-PS	B-PS	B-PS, B-OG, O, B-LC, I-PS
-2	##호	I-PS	I-PS	I-PS, I-OG, O, I-LC, I-QT
-3	한국	B-OG	B-OG	B-OG, O, I-OG, B-LC, B-AF
-4	##투자증권	I-OG	I-OG	I-OG, O, I-PS, I-LC, I-AF
-5	연구원	B-CV	B-CV	B-CV, O, I-CV, I-OG, B-TM
-6	##은	O	O	O, I-CV, I-OG, B-CV, I-EV
-7	“	O	O	O, B-CV, B-LC, B-OG, B-PS
-8	순이	O	O	O, B-TR, B-TM, B-OG, B-QT
-9	##자	O	O	O, I-TR, I-TM, I-OG, B-TR
-10	##마	O	O	O, I-TR, I-TM, I-OG, B-TR
-11	##진	O	O	O, I-TR, I-TM, I-OG, B-TR
-12	(	O	O	O, I-OG, B-CV, I-TM, I-TR
-13	N	O	O	O, B-TR, B-OG, B-TM, B-QT
-14	##IM	O	O	O, I-TR, I-TM, I-OG, B-TR
-15	)	O	O	O, I-OG, B-CV, I-TM, I-QT
-16	이	O	O	O, B-PS, B-OG, B-LC, B-CV
-17	전	O	O	O, B-DT, I-DT, B-QT, B-EV
-18	분기	O	O	O, I-DT, B-DT, I-QT, I-EV
-19	##보	O	O	O, I-DT, B-DT, B-PS, I-EV
-20	##다	O	O	O, I-DT, B-DT, B-LC, B-PS
-21	상승	O	O	O, B-CV, B-LC, B-OG, B-PS
-22	##하고	O	O	O, B-PS, B-LC, B-CV, B-OG
-23	대손	O	O	O, B-CV, B-TM, B-AF, B-TR
-24	##비용	O	O	O, I-CV, I-AF, I-TM, I-TR
-25	,	O	O	O, B-PS, B-LC, B-CV, B-OG
-26	판	O	O	O, B-CV, B-TM, B-AF, B-OG
-27	##관	O	O	O, I-CV, I-AF, I-OG, I-TM
-28	##비	O	O	O, I-CV, I-OG, I-AF, I-TM
-29	##도	O	O	O, B-PS, B-LC, B-OG, B-CV
-30	안정	O	O	O, B-CV, B-OG, B-PS, B-LC
-31	##됐	O	O	O, B-PS, I-OG, B-CV, B-LC
-32	##다	O	O	O, B-CV, B-PS, I-OG, B-LC
-33	”	O	O	O, B-CV, B-LC, B-OG, B-PS
-34	며	O	O	O, B-LC, B-CV, B-OG, B-TM
-35	“	O	O	O, B-CV, B-LC, B-PS, B-OG
-36	중소기업	O	O	O, B-OG, B-TM, B-LC, B-FD
-37	중심	O	O	O, B-PS, I-OG, B-CV, I-CV
-38	##의	O	O	O, B-PS, B-LC, B-CV, B-OG
-39	대출	O	O	O, B-CV, B-TM, B-AF, B-LC
-40	수요	O	O	O, B-CV, B-LC, B-PS, B-TM
-41	##가	O	O	O, B-PS, B-LC, B-CV, B-OG
-42	견고	O	O	O, B-LC, B-CV, B-OG, B-PS
-43	##하	O	O	O, B-LC, B-PS, B-OG, I-LC
-44	##게	O	O	O, B-LC, B-PS, B-OG, I-PS
-45	살아나	O	O	O, B-LC, B-CV, B-PS, B-OG
-46	##는	O	O	O, B-PS, B-LC, B-CV, B-OG
-47	데	O	O	O, B-PS, B-LC, B-OG, B-CV
-48	##다	O	O	O, B-PS, B-LC, B-OG, B-CV
-49	새	O	O	O, B-PS, B-CV, B-LC, B-OG
-50	행장	O	B-CV	B-CV, O, I-CV, B-OG, B-EV
-51	##의	O	O	O, I-CV, B-PS, B-CV, I-PS
-52	효율	O	O	O, B-TM, B-TR, B-LC, B-PS
-53	중심	O	O	O, I-TR, I-PS, B-TR, I-TM
-54	경영	O	O	O, B-CV, B-PS, B-TR, B-LC
-55	##방	O	O	O, I-CV, I-TR, B-CV, B-PS
-56	##침	O	O	O, I-TR, I-CV, B-PS, B-LC
-57	##으로	O	O	O, B-PS, B-LC, B-OG, B-CV
-58	올해	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-59	다시	O	O	O, I-DT, B-CV, I-QT, B-LC
-60	순이익	O	O	O, B-CV, B-TM, B-OG, B-TR
-61	1	B-QT	B-QT	B-QT, I-QT, O, B-DT, B-EV
-62	##조	I-QT	I-QT	I-QT, O, I-LC, I-EV, I-PS
-63	원	I-QT	I-QT	I-QT, O, I-LC, I-EV, I-OG
-64	클럽	O	O	O, I-QT, B-CV, I-OG, I-CV
-65	##에	O	O	O, I-QT, I-CV, I-OG, B-CV
-66	재가	O	O	O, B-CV, B-LC, B-TM, B-OG
-67	##입	O	O	O, I-CV, B-PS, I-OG, B-CV
-68	##할	O	O	O, B-PS, B-LC, B-CV, B-OG
-69	것	O	O	O, B-CV, B-PS, B-LC, B-OG
-70	”	O	O	O, B-CV, B-LC, B-TM, B-PS
-71	이라	O	O	O, B-CV, B-PS, B-TM, B-OG
-72	##고	O	O	O, B-CV, B-TM, B-QT, B-LC
-73	말	O	O	O, B-CV, B-TM, B-LC, B-QT
-74	##했	O	O	O, B-CV, B-PS, B-LC, B-OG
-75	##다	O	O	O, B-CV, B-LC, B-TM, B-OG
-76	.	O	O	O, B-LC, B-PS, B-CV, B-OG
-77	[SEP]	O	O	O, B-LC, B-CV, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	장	B-PS	B-PS
+2	회장	B-CV	B-CV
+3	##은	O	O
+4	태	O	O
+5	##스크	O	O
+6	##포스	O	O
+7	##팀	O	O
+8	(	O	O
+9	TF	O	B-OG
+10	##T	O	I-OG
+11	)	O	O
+12	을	O	O
+13	꾸려	O	O
+14	직접	O	O
+15	제철소	O	O
+16	건설	O	O
+17	##을	O	O
+18	진두지휘	O	O
+19	##했	O	O
+20	##지만	O	O
+21	장애물	O	O
+22	##은	O	O
+23	많	O	O
+24	##았	O	O
+25	##다	O	O
+26	.	O	O
+27	[SEP]	O	O

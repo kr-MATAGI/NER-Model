@@ -1,41 +1,40 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	시속	B-QT	B-QT	B-QT, O, I-QT, B-TI, B-DT
-2	37	I-QT	I-QT	I-QT, B-QT, O, I-LC, I-TI
-3	##㎞	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-4	##이상	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-OG
-5	낼	O	O	O, I-QT, B-CV, B-TM, B-OG
-6	수	O	O	O, B-CV, B-LC, B-PS, I-QT
-7	있	O	O	O, B-CV, B-PS, B-LC, B-TM
-8	##고	O	O	O, B-CV, B-PS, I-AF, I-OG
-9	,	O	O	O, B-CV, B-LC, B-OG, B-PS
-10	지휘관	B-CV	B-CV	B-CV, O, B-OG, I-CV, B-TM
-11	##이	O	O	O, B-PS, I-CV, I-AF, B-AF
-12	함수	O	O	O, B-AF, B-LC, B-TM, B-CV
-13	(	O	O	O, I-AF, I-CV, B-PS, I-LC
-14	[UNK]	O	O	O, B-LC, B-PS, B-CV, B-TM
-15	[UNK]	O	O	O, B-LC, B-PS, B-CV, B-TM
-16	)	O	O	O, B-LC, B-PS, B-AF, B-CV
-17	어뢰	O	O	O, B-AF, B-TM, B-LC, B-CV
-18	##관	O	O	O, I-AF, I-LC, I-TM, I-CV
-19	##부터	O	O	O, I-AF, B-LC, I-LC, B-PS
-20	함	O	B-AF	B-AF, O, B-TM, B-LC, B-CV
-21	##미	O	I-AF	I-AF, O, I-LC, I-TM, I-CV
-22	엔진	O	O	O, B-TM, B-AF, I-AF, B-LC
-23	##실	O	O	O, I-AF, I-LC, I-TM, I-CV
-24	##까	O	O	O, I-AF, B-LC, B-CV, B-PS
-25	##지	O	O	O, B-LC, B-CV, B-PS, B-TM
-26	한꺼번에	O	O	O, B-QT, B-TM, B-CV, B-LC
-27	보	O	O	O, B-TM, B-CV, B-LC, B-PS
-28	##면서	O	O	O, B-LC, B-PS, B-CV, B-TM
-29	작전	O	O	O, B-CV, B-AF, B-LC, B-TM
-30	##할	O	O	O, B-PS, B-LC, B-CV, I-AF
-31	수	O	O	O, B-CV, B-PS, B-LC, B-TM
-32	있	O	O	O, B-CV, B-LC, B-PS, B-TM
-33	##는	O	O	O, B-CV, B-LC, B-PS, B-OG
-34	효율	O	O	O, B-CV, B-TM, B-LC, B-OG
-35	##적인	O	O	O, I-AF, I-TM, I-QT, I-CV
-36	구조	O	O	O, B-CV, B-TM, B-AF, B-QT
-37	##다	O	O	O, B-CV, I-AF, I-CV, B-TM
-38	.	O	O	O, B-LC, B-PS, B-CV, I-AF
-39	[SEP]	O	O	O, B-LC, B-CV, I-AF, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	18	B-DT	B-DT
+2	##일	I-DT	I-DT
+3	맞붙	O	O
+4	##는	O	O
+5	3	B-QT	B-QT
+6	##위	I-QT	I-QT
+7	수원	B-OG	B-OG
+8	(	O	O
+9	승점	O	O
+10	68	B-QT	B-QT
+11	)	O	O
+12	과	O	O
+13	5	B-QT	B-QT
+14	##위	I-QT	I-QT
+15	울산	B-OG	B-OG
+16	(	O	O
+17	승점	O	B-QT
+18	59	B-QT	I-QT
+19	)	O	O
+20	은	O	O
+21	내년	B-DT	B-DT
+22	AFC	B-EV	B-EV
+23	챔피언	I-EV	I-EV
+24	##스	I-EV	I-EV
+25	##리그	I-EV	I-EV
+26	진출	O	O
+27	##을	O	O
+28	위한	O	O
+29	플레이오프	B-EV	B-EV
+30	출전	O	O
+31	##권	O	O
+32	##을	O	O
+33	놓	O	O
+34	##고	O	O
+35	경쟁	O	O
+36	##한다	O	O
+37	.	O	O
+38	[SEP]	O	O

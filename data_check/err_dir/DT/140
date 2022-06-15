@@ -1,38 +1,6 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	교육부	B-OG	B-OG	B-OG, B-LC, B-AF, B-PS, O
-2	##는	O	O	O, I-OG, I-DT, B-CV, I-EV
-3	지난해	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-LC
-4	2	B-DT	I-DT	I-DT, B-DT, O, I-EV, I-QT
-5	·	I-DT	I-DT	I-DT, O, B-DT, I-EV, I-QT
-6	8	I-DT	I-DT	I-DT, O, B-DT, I-EV, I-OG
-7	##월	I-DT	I-DT	I-DT, O, I-EV, B-DT, I-OG
-8	정년	O	O	O, B-EV, B-CV, I-EV, I-DT
-9	##퇴	O	O	O, I-EV, B-EV, I-CV, I-DT
-10	##임	O	O	O, I-EV, I-OG, B-EV, I-AF
-11	##식	O	O	O, I-EV, I-OG, I-AF, I-CV
-12	##과	O	O	O, I-EV, I-DT, B-CV, B-OG
-13	같	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-OG
-14	##은	I-DT	I-DT	I-DT, O, I-EV, B-DT, I-QT
-15	해	I-DT	I-DT	I-DT, O, B-DT, I-EV, I-QT
-16	5	I-DT	I-DT	I-DT, O, B-DT, I-EV, I-OG
-17	##월	I-DT	I-DT	I-DT, O, I-EV, B-DT, I-OG
-18	스승	B-DT	B-DT	B-DT, I-DT, B-EV, O, B-CV
-19	##의	I-DT	I-DT	I-DT, I-EV, O, I-AF, B-DT
-20	날	I-DT	I-DT	I-DT, I-EV, O, I-OG, I-CV
-21	##에	O	O	O, I-DT, I-EV, I-OG, I-AF
-22	시국	B-EV	B-EV	B-EV, O, B-CV, B-LC, B-OG
-23	##선언	I-EV	I-EV	I-EV, O, I-OG, B-EV, I-LC
-24	##에	O	O	O, I-EV, I-OG, I-AF, B-CV
-25	참여	O	O	O, B-CV, B-OG, B-TM, B-LC
-26	##했	O	O	O, B-CV, B-PS, B-LC, B-OG
-27	##던	O	O	O, B-CV, B-PS, B-LC, B-TM
-28	교원	B-CV	B-CV	B-CV, O, I-CV, B-FD, B-QT
-29	##을	O	O	O, I-CV, B-CV, B-TM, I-OG
-30	포상	O	O	O, B-CV, I-CV, B-OG, B-TM
-31	대상	O	O	O, B-CV, I-CV, B-TM, B-OG
-32	##에서	O	O	O, I-CV, B-CV, B-TM, B-LC
-33	뺐	O	O	O, B-CV, B-OG, B-TM, B-LC
-34	##다	O	O	O, B-CV, I-OG, I-CV, B-OG
-35	.	O	O	O, B-CV, B-LC, B-OG, B-PS
-36	[SEP]	O	O	O, B-CV, B-LC, B-OG, I-EV
+	text	label	preds
+0	[CLS]	O	O
+1	둘째	B-DT	B-DT
+2	날	I-DT	I-DT
+3	##부터	I-DT	O
+4	[SEP]	O	O

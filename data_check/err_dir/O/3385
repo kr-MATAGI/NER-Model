@@ -1,38 +1,8 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-EV
-1	0	B-QT	B-QT	B-QT, B-TM, I-QT, B-EV, O
-2	-	I-QT	I-QT	I-QT, I-TM, I-EV, O, I-LC
-3	0	I-QT	I-QT	I-QT, I-TM, I-EV, O, I-LC
-4	##으로	O	O	O, I-QT, I-EV, B-CV, B-OG
-5	팽팽	O	O	O, B-OG, B-LC, B-EV, B-TM
-6	##하	O	O	O, B-PS, B-LC, B-OG, I-EV
-7	##던	O	O	O, B-EV, B-LC, B-PS, B-OG
-8	8	B-EV	B-EV	B-EV, O, B-QT, B-OG, B-AF
-9	##회	I-EV	I-EV	I-EV, I-QT, O, I-AF, I-OG
-10	1	B-QT	B-TM	B-TM, B-QT, I-EV, B-EV, I-TM
-11	##아웃	I-QT	I-TM	I-TM, I-QT, I-EV, O, B-TM
-12	주자	B-CV	B-CV	B-CV, O, I-TM, I-CV, I-EV
-13	2	B-TM	B-TM	B-TM, O, I-TM, B-CV, B-QT
-14	##루	I-TM	I-TM	I-TM, O, I-QT, I-CV, B-TM
-15	##의	O	O	O, I-TM, I-QT, I-AF, I-CV
-16	기회	O	O	O, B-CV, B-TM, B-OG, B-PS
-17	##에서	O	O	O, B-CV, B-PS, B-LC, I-AF
-18	바깥쪽	O	B-TM	B-TM, O, B-CV, B-LC, B-OG
-19	##으로	O	O	O, I-TM, I-QT, I-AF, B-TM
-20	떨어지	O	O	O, B-TM, B-CV, B-QT, B-LC
-21	##는	O	O	O, B-TM, B-AF, B-CV, B-LC
-22	변화구	B-TM	B-TM	B-TM, O, B-CV, I-TM, B-AF
-23	##를	O	O	O, I-TM, I-AF, I-CV, I-QT
-24	쳐다보	O	O	O, B-CV, B-TM, B-QT, B-PS
-25	##기	O	O	O, B-PS, B-CV, I-QT, B-LC
-26	##만	O	O	O, B-PS, I-QT, B-QT, B-TM
-27	하	O	O	O, B-QT, B-PS, B-TM, B-LC
-28	##며	O	O	O, B-QT, B-PS, B-CV, I-QT
-29	당한	O	O	O, B-TM, B-QT, B-CV, B-LC
-30	삼진	B-TM	B-TM	B-TM, O, I-TM, B-CV, B-QT
-31	##은	O	O	O, I-TM, I-CV, I-QT, I-EV
-32	뼈아	O	O	O, B-CV, B-TM, B-QT, B-OG
-33	##팠	O	O	O, B-CV, I-CV, I-QT, B-TM
-34	##다	O	O	O, B-CV, B-TM, B-QT, B-LC
-35	.	O	O	O, B-LC, B-CV, B-TM, B-PS
-36	[SEP]	O	O	O, B-CV, B-TM, B-LC, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	그럼	O	O
+2	인제	O	O
+3	무침	O	B-CV
+4	##이	O	O
+5	##니까	O	O
+6	[SEP]	O	O

@@ -1,46 +1,43 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-EV, B-CV, I-CV, I-OG
-1	요즘	O	O	O, B-LC, B-PS, B-OG, B-CV
-2	정치	O	O	O, B-FD, B-OG, B-CV, B-LC
-3	##권	O	O	O, I-OG, I-FD, I-LC, B-PS
-4	최대	O	O	O, B-CV, B-PS, B-QT, B-TM
-5	이슈	O	O	O, B-CV, B-EV, B-FD, B-TM
-6	##인	O	O	O, B-PS, I-EV, B-CV, B-LC
-7	'	O	O	O, B-LC, B-DT, B-EV, B-CV
-8	국정원	B-EV	B-AF	B-AF, B-EV, B-OG, B-TM, B-LC
-9	정치	I-EV	O	O, I-EV, B-EV, I-AF, I-OG
-10	·	I-EV	O	O, I-EV, I-AF, I-OG, I-TM
-11	선거	I-EV	O	O, I-EV, B-EV, I-AF, I-TM
-12	개입	I-EV	I-EV	I-EV, O, I-AF, I-TM, B-EV
-13	의혹	I-EV	O	O, I-EV, I-AF, I-OG, B-EV
-14	사건	I-EV	O	O, I-EV, B-EV, I-OG, I-AF
-15	'	O	O	O, I-EV, B-LC, B-DT, I-DT
-16	'	O	O	O, B-EV, B-DT, B-LC, B-CV
-17	남북	B-EV	B-EV	B-EV, B-AF, B-LC, B-OG, I-EV
-18	정상	I-EV	I-EV	I-EV, O, I-AF, B-EV, I-OG
-19	##회	I-EV	I-EV	I-EV, O, I-AF, I-OG, I-TM
-20	##담	I-EV	I-EV	I-EV, I-AF, O, I-OG, I-TM
-21	대화	I-EV	I-EV	I-EV, O, I-AF, B-EV, I-TM
-22	##록	I-EV	I-EV	I-EV, O, I-AF, I-TM, I-LC
-23	실종	I-EV	I-EV	I-EV, O, I-AF, I-TM, I-OG
-24	'	I-EV	O	O, I-EV, I-AF, I-DT, I-OG
-25	사건	I-EV	O	O, I-EV, B-EV, B-CV, B-PS
-26	,	O	O	O, I-EV, B-LC, B-PS, B-CV
-27	'	O	O	O, B-LC, B-DT, B-EV, B-CV
-28	전두환	B-EV	B-EV	B-EV, B-PS, B-AF, B-LC, B-OG
-29	전	I-EV	I-EV	I-EV, O, I-AF, B-EV, I-PS
-30	대통령	I-EV	I-EV	I-EV, B-CV, B-EV, O, I-CV
-31	추징금	I-EV	I-EV	I-EV, B-CV, O, B-EV, I-CV
-32	집행	I-EV	O	O, I-EV, I-CV, I-AF, I-OG
-33	사건	I-EV	O	O, I-EV, I-CV, I-OG, I-AF
-34	'	O	O	O, I-EV, I-DT, B-CV, B-LC
-35	등	O	O	O, B-LC, B-CV, B-OG, B-PS
-36	##을	O	O	O, B-CV, B-LC, B-PS, B-OG
-37	모두	O	O	O, B-CV, B-PS, B-QT, B-OG
-38	2	O	O	O, B-CV, B-QT, B-PS, B-OG
-39	##차	O	O	O, I-CV, B-CV, I-QT, B-PS
-40	##장이	O	O	O, I-CV, B-PS, I-QT, B-CV
-41	지휘	O	O	O, B-CV, B-PS, B-LC, B-OG
-42	##한다	O	O	O, B-PS, B-CV, B-LC, I-OG
-43	.	O	O	O, B-LC, B-CV, B-EV, I-EV
-44	[SEP]	O	O	O, I-EV, B-LC, B-CV, B-EV
+	text	label	preds
+0	[CLS]	O	O
+1	중국	B-LC	B-LC
+2	##의	O	O
+3	항일	B-EV	B-EV
+4	##전쟁	I-EV	I-EV
+5	승리	O	O
+6	##와	O	O
+7	세계	O	B-EV
+8	반	B-EV	I-EV
+9	(	I-EV	I-EV
+10	反	I-EV	I-EV
+11	)	I-EV	I-EV
+12	파	I-EV	I-EV
+13	##시스트	I-EV	I-EV
+14	전쟁	I-EV	I-EV
+15	승리	O	O
+16	70	B-DT	B-DT
+17	##주	I-DT	I-DT
+18	##년	I-DT	I-DT
+19	##을	O	O
+20	기념	O	O
+21	##한	O	O
+22	이	O	O
+23	행사	O	O
+24	##에	O	O
+25	##는	O	O
+26	김정은	B-PS	B-PS
+27	북한	B-LC	B-LC
+28	노동당	B-OG	B-OG
+29	제	O	O
+30	##1	O	O
+31	##비	O	O
+32	##서도	O	O
+33	초청	O	O
+34	대상	O	O
+35	##인	O	O
+36	것	O	O
+37	##으로	O	O
+38	전해졌	O	O
+39	##다	O	O
+40	.	O	O
+41	[SEP]	O	O

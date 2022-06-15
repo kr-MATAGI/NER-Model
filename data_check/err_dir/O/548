@@ -1,20 +1,19 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	상당히	O	O	O, B-CV, B-OG, B-TM, B-LC
-2	그	O	O	O, B-CV, B-OG, B-PS, B-LC
-3	~	O	O	O, B-CV, B-PS, I-CV, B-LC
-4	내	O	O	O, B-CV, B-PS, B-LC, B-OG
-5	##가	O	O	O, B-PS, B-CV, B-LC, B-OG
-6	왜	O	O	O, B-CV, B-PS, B-LC, I-AF
-7	이런	O	O	O, B-CV, B-PS, B-LC, B-TM
-8	걸	O	O	O, B-PS, B-CV, B-QT, B-OG
-9	하나	O	B-QT	B-QT, O, I-QT, B-PS, B-TM
-10	실망	O	O	O, B-CV, I-QT, B-PS, B-TM
-11	할	O	O	O, I-CV, B-CV, B-PS, I-AF
-12	때	O	O	O, B-CV, B-PS, B-LC, B-QT
-13	##가	O	O	O, B-CV, B-PS, B-OG, I-AF
-14	많	O	O	O, B-CV, B-OG, B-TM, B-LC
-15	##거	O	O	O, B-CV, B-PS, I-CV, B-OG
-16	##든	O	O	O, B-CV, I-CV, I-OG, I-AF
-17	##요	O	O	O, B-CV, I-AF, B-LC, I-CV
-18	[SEP]	O	O	O, B-CV, B-LC, B-PS, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	멕시코	B-LC	B-LC
+2	파키스탄	B-LC	B-LC
+3	방글라데시	B-LC	B-LC
+4	베트남	B-LC	B-LC
+5	역시	O	O
+6	해외	O	O
+7	##파	O	O
+8	##견	O	O
+9	근로자	B-CV	B-CV
+10	##의	O	O
+11	송금	O	O
+12	##이	O	O
+13	한몫	O	B-QT
+14	##을	O	O
+15	한다	O	O
+16	.	O	O
+17	[SEP]	O	O

@@ -1,23 +1,30 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	북한	B-LC	B-OG	B-OG, B-LC, O, B-PS, B-TM
-2	##은	O	O	O, I-OG, I-LC, B-CV, I-EV
-3	잇따라	O	O	O, B-LC, B-CV, B-TM, B-OG
-4	대화	O	O	O, B-LC, B-CV, B-EV, B-TM
-5	공세	O	O	O, I-EV, B-LC, B-CV, B-PS
-6	##를	O	O	O, B-CV, I-EV, B-LC, B-OG
-7	펴	O	O	O, B-LC, B-CV, B-OG, B-PS
-8	##면서	O	O	O, B-LC, B-CV, B-PS, B-TM
-9	##도	O	O	O, B-LC, B-PS, B-CV, B-TM
-10	핵	B-AF	B-AF	B-AF, O, B-MT, I-AF, B-PS
-11	보유	O	O	O, I-AF, I-CV, B-CV, I-EV
-12	##를	O	O	O, B-LC, B-CV, B-TM, I-AF
-13	포기	O	O	O, B-LC, B-CV, B-OG, B-PS
-14	##하	O	O	O, B-LC, B-PS, B-OG, B-CV
-15	##지	O	O	O, B-LC, B-PS, B-OG, B-CV
-16	않	O	O	O, B-LC, B-PS, B-CV, I-OG
-17	##겠다	O	O	O, B-LC, B-CV, B-PS, B-OG
-18	##고	O	O	O, B-CV, B-LC, B-PS, B-OG
-19	한다	O	O	O, B-CV, B-LC, B-OG, B-TM
-20	.	O	O	O, B-LC, B-CV, B-OG, B-PS
-21	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	지난	B-DT	B-DT
+2	31	I-DT	I-DT
+3	##일	I-DT	I-DT
+4	‘	O	O
+5	한	B-EV	B-EV
+6	-	I-EV	I-EV
+7	아세안	I-EV	I-EV
+8	시	I-EV	I-EV
+9	##이	I-EV	I-EV
+10	##오	I-EV	I-EV
+11	(	I-EV	I-EV
+12	CEO	I-EV	I-EV
+13	)	I-EV	I-EV
+14	서	I-EV	I-EV
+15	##밋	I-EV	I-EV
+16	’	O	O
+17	이	O	O
+18	열린	O	O
+19	제주	B-LC	B-AF
+20	국제	B-AF	I-AF
+21	##컨	I-AF	I-AF
+22	##벤션	I-AF	I-AF
+23	##센터	I-AF	I-AF
+24	4	B-QT	B-QT
+25	##층	I-QT	I-QT
+26	회의실	O	O
+27	.	O	O
+28	[SEP]	O	O

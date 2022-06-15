@@ -1,43 +1,58 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-EV, I-CV
-1	반	O	O	O, B-PS, B-TR, B-LC, B-CV
-2	##긴	O	O	O, B-PS, B-TR, B-CV, B-LC
-3	##축	O	O	O, I-TR, I-CV, I-PS, I-EV
-4	##을	O	O	O, B-PS, I-PS, I-CV, B-CV
-5	내세운	O	O	O, B-OG, B-LC, B-PS, B-CV
-6	자유	B-OG	B-OG	B-OG, O, B-EV, I-OG, B-AF
-7	##국	I-OG	I-OG	I-OG, O, I-EV, B-OG, I-AF
-8	##민	I-OG	I-OG	I-OG, O, I-EV, I-AF, I-LC
-9	##당	I-OG	I-OG	I-OG, O, I-EV, I-AF, I-LC
-10	##과	O	O	O, I-OG, I-EV, B-PS, I-AF
-11	오성	B-EV	B-EV	B-EV, O, B-OG, B-CV, I-EV
-12	##운동	I-EV	I-EV	I-EV, O, I-OG, I-AF, I-LC
-13	##의	O	O	O, I-EV, I-OG, I-AF, B-CV
-14	득표율	O	O	O, B-TM, B-LC, B-CV, B-OG
-15	##을	O	O	O, B-CV, B-PS, B-LC, B-OG
-16	단순	O	O	O, B-CV, B-TM, B-LC, B-OG
-17	합산	O	O	O, B-TM, B-CV, B-OG, B-PS
-18	##하면	O	O	O, B-OG, B-CV, B-LC, B-PS
-19	55	B-QT	B-QT	B-QT, O, I-QT, B-EV, B-DT
-20	%	I-QT	I-QT	I-QT, O, I-EV, I-OG, I-LC
-21	로	O	O	O, I-QT, I-EV, I-OG, B-OG
-22	,	O	O	O, B-CV, B-LC, B-OG, I-QT
-23	강도	B-CV	O	O, B-LC, B-CV, B-PS, B-OG
-24	##높	O	O	O, B-LC, B-CV, B-PS, I-OG
-25	##은	O	O	O, B-LC, B-PS, B-OG, B-CV
-26	긴축	O	O	O, B-CV, B-PS, B-LC, B-TR
-27	##재	O	O	O, I-CV, B-CV, B-PS, I-EV
-28	##정	O	O	O, I-CV, I-PS, I-TR, B-CV
-29	##에	O	O	O, B-CV, B-PS, B-LC, I-CV
-30	대한	O	O	O, B-LC, B-OG, B-PS, B-CV
-31	여론	O	O	O, B-CV, B-LC, B-TM, B-PS
-32	##의	O	O	O, B-CV, B-PS, B-LC, B-TM
-33	반감	O	O	O, B-CV, B-PS, B-TM, B-LC
-34	##을	O	O	O, B-CV, I-CV, B-PS, B-OG
-35	확인	O	O	O, B-CV, B-TM, B-OG, B-PS
-36	##할	O	O	O, B-PS, B-CV, B-LC, B-OG
-37	수	O	O	O, B-PS, B-CV, B-QT, B-OG
-38	있	O	O	O, B-CV, B-PS, B-QT, B-LC
-39	##다	O	O	O, B-CV, B-LC, B-TM, I-EV
-40	.	O	O	O, B-LC, B-PS, B-CV, B-OG
-41	[SEP]	O	O	O, B-CV, B-LC, I-EV, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	최근	B-DT	B-DT
+2	5	I-DT	I-DT
+3	##년	I-DT	I-DT
+4	##간	I-DT	I-DT
+5	평균	O	O
+6	5	B-QT	B-QT
+7	%	I-QT	I-QT
+8	이상	I-QT	I-QT
+9	판매가	O	O
+10	감소	O	O
+11	##하	O	O
+12	##고	O	O
+13	있	O	O
+14	##는	O	O
+15	어려운	O	O
+16	국내	O	O
+17	위스키	B-CV	B-CV
+18	시장	O	O
+19	환경	O	O
+20	속	O	O
+21	##에	O	O
+22	##서	O	O
+23	골든	B-OG	B-OG
+24	##블	I-OG	I-OG
+25	##루	I-OG	I-OG
+26	##의	O	O
+27	이런	O	O
+28	지속	O	O
+29	##적	O	O
+30	##인	O	O
+31	상승	O	O
+32	##은	O	O
+33	최근	B-CV	O
+34	위스키	I-CV	B-CV
+35	시장	O	O
+36	##의	O	O
+37	트렌드	O	O
+38	##인	O	O
+39	저	O	O
+40	##도	O	O
+41	위스키	B-CV	B-CV
+42	##의	O	O
+43	리더	B-CV	B-CV
+44	##이	O	O
+45	##기	O	O
+46	때문	O	O
+47	##에	O	O
+48	가능	O	O
+49	##한	O	O
+50	것	O	O
+51	##으로	O	O
+52	분석	O	O
+53	##된	O	O
+54	##다	O	O
+55	.	O	O
+56	[SEP]	O	O

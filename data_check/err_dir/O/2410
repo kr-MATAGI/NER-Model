@@ -1,20 +1,31 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	근데	O	O	O, B-CV, B-OG, B-PS, B-LC
-2	이	O	O	O, B-PS, B-CV, B-OG, B-QT
-3	구성원	O	B-CV	B-CV, O, I-CV, B-PS, B-TM
-4	##들	O	O	O, I-CV, B-CV, I-AF, I-OG
-5	##은	O	O	O, B-CV, B-PS, I-CV, B-TM
-6	어느	O	O	O, B-PS, B-CV, B-LC, B-OG
-7	정도	O	O	O, B-PS, I-CV, B-CV, I-QT
-8	만족	O	O	O, B-CV, B-PS, B-LC, I-CV
-9	##하면	O	O	O, B-PS, B-CV, I-CV, I-PS
-10	##서	O	O	O, B-CV, B-PS, I-CV, B-LC
-11	일	O	O	O, B-CV, B-PS, B-TM, B-LC
-12	##하고	O	O	O, B-CV, I-CV, B-PS, I-AF
-13	있	O	O	O, B-CV, B-PS, I-CV, B-OG
-14	##거	O	O	O, B-CV, B-PS, I-CV, B-OG
-15	##든	O	O	O, B-CV, B-PS, I-CV, I-OG
-16	##요	O	O	O, B-CV, B-OG, I-OG, I-CV
-17	.	O	O	O, B-CV, B-PS, B-LC, I-OG
-18	[SEP]	O	O	O, B-CV, B-PS, I-CV, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	국산	O	O
+2	슈퍼	B-TM	B-TM
+3	##컴	I-TM	I-TM
+4	##퓨	I-TM	I-TM
+5	##터	I-TM	I-TM
+6	‘	O	O
+7	천둥	O	B-AF
+8	’	O	O
+9	이	O	O
+10	13	B-DT	B-DT
+11	##일	I-DT	I-DT
+12	‘	O	O
+13	세계	O	O
+14	슈퍼	B-TM	B-TM
+15	##컴	I-TM	I-TM
+16	##퓨	I-TM	I-TM
+17	##터	I-TM	I-TM
+18	톱	O	B-QT
+19	500	B-QT	B-QT
+20	’	O	O
+21	에서	O	O
+22	27	B-QT	B-QT
+23	##8	I-QT	I-QT
+24	##위	I-QT	I-QT
+25	##에	O	O
+26	올랐	O	O
+27	##다	O	O
+28	.	O	O
+29	[SEP]	O	O

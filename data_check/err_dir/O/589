@@ -1,23 +1,29 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-EV, B-CV, I-CV
-1	코란	B-AF	B-AF	B-AF, O, B-TM, B-EV, B-OG
-2	##도	I-AF	I-AF	I-AF, O, I-TM, I-EV, B-AF
-3	##시	I-AF	I-AF	I-AF, O, I-TM, I-EV, I-CV
-4	(	O	O	O, I-AF, I-EV, I-OG, I-DT
-5	C	O	B-AF	B-AF, O, B-OG, I-AF, B-TM
-6	)	O	O	O, I-AF, I-OG, I-EV, I-CV
-7	로	O	O	O, B-PS, B-LC, B-CV, B-OG
-8	명명	O	O	O, B-PS, B-TM, B-LC, B-CV
-9	##된	O	O	O, B-PS, B-LC, I-OG, I-AF
-10	신차	O	O	O, B-AF, B-CV, B-LC, B-PS
-11	##는	O	O	O, I-AF, B-CV, B-LC, I-EV
-12	7	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-QT
-13	##월	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-14	##말	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-15	##에	O	O	O, I-DT, B-CV, I-EV, I-OG
-16	출시	O	O	O, B-CV, B-LC, B-OG, B-TM
-17	##될	O	O	O, B-CV, B-LC, I-OG, B-OG
-18	예정	O	O	O, B-CV, B-OG, B-TM, B-LC
-19	##이다	O	O	O, B-CV, B-TM, B-OG, B-LC
-20	.	O	O	O, B-LC, B-OG, B-CV, B-PS
-21	[SEP]	O	O	O, B-LC, B-CV, B-OG, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	시간	O	O
+2	##강	O	O
+3	##사의	O	O
+4	임용	O	O
+5	기간	O	O
+6	##을	O	O
+7	1	O	B-DT
+8	##년	O	I-DT
+9	이상	O	I-DT
+10	##으로	O	O
+11	보장	O	O
+12	##하	O	O
+13	##는	O	O
+14	시간	B-CV	B-CV
+15	##강	I-CV	I-CV
+16	##사	I-CV	I-CV
+17	##법	O	I-CV
+18	##은	O	O
+19	시행	O	O
+20	##이	O	O
+21	1	B-DT	B-DT
+22	##년	I-DT	I-DT
+23	유예	O	O
+24	##됐	O	O
+25	##다	O	O
+26	.	O	O
+27	[SEP]	O	O

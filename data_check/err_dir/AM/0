@@ -1,20 +1,6 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	아프리카	B-LC	B-LC	B-LC, B-OG, B-CV, B-AF, O
-2	얼룩	B-AM	B-CV	B-CV, B-AM, I-CV, I-AM, I-LC
-3	##말	I-AM	I-CV	I-CV, I-AM, O, I-PT, I-AF
-4	##은	O	O	O, I-CV, I-AF, I-EV, I-TM
-5	덩치	O	O	O, B-CV, B-TM, B-AM, B-OG
-6	##가	O	O	O, B-PS, B-OG, I-AF, B-CV
-7	크	O	O	O, B-CV, B-TM, B-PS, B-OG
-8	##고	O	O	O, B-CV, I-AF, B-PS, I-OG
-9	몸	B-AM	B-AM	B-AM, O, B-TM, B-CV, B-PS
-10	##의	O	O	O, I-AF, I-PS, I-CV, I-TM
-11	줄	B-TM	B-TM	B-TM, O, B-LC, B-AF, B-CV
-12	##무늬	I-TM	I-TM	I-TM, O, B-TM, I-LC, I-AF
-13	##가	O	O	O, I-TM, I-AF, I-OG, B-PS
-14	화려	O	O	O, B-CV, B-PS, B-TM, B-OG
-15	##하	O	O	O, B-CV, I-AF, I-CV, I-OG
-16	##다	O	O	O, B-CV, I-AF, I-OG, B-TM
-17	.	O	O	O, B-LC, B-PS, B-CV, B-OG
-18	[SEP]	O	O	O, B-CV, I-AF, B-LC, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	허리	B-AM	B-TR
+2	수술	O	I-TR
+3	?	O	O
+4	[SEP]	O	O

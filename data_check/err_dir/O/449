@@ -1,77 +1,38 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-EV, I-CV
-1	공연	O	O	O, B-CV, B-OG, B-LC, B-TM
-2	제작사	O	O	O, B-OG, B-CV, B-LC, I-OG
-3	##인	O	O	O, I-OG, I-CV, B-OG, B-PS
-4	신시	B-OG	B-OG	B-OG, O, I-OG, B-PS, B-AF
-5	##컴	I-OG	I-OG	I-OG, O, I-AF, I-LC, I-PS
-6	##퍼니	I-OG	I-OG	I-OG, O, I-AF, I-CV, I-LC
-7	측은	O	O	O, I-OG, B-CV, I-AF, B-OG
-8	“	O	O	O, B-CV, B-LC, B-TM, B-OG
-9	감기	B-TM	B-TM	B-TM, O, B-CV, I-TM, B-AF
-10	기운	O	O	O, I-TM, I-CV, I-EV, I-OG
-11	##이	O	O	O, B-PS, B-OG, B-CV, B-LC
-12	있	O	O	O, B-PS, B-CV, B-OG, B-LC
-13	##던	O	O	O, B-PS, B-LC, B-CV, B-OG
-14	차	B-PS	B-PS	B-PS, O, I-PS, B-OG, B-LC
-15	씨	O	O	O, I-PS, B-CV, I-OG, I-AF
-16	##가	O	O	O, B-PS, B-LC, B-CV, B-QT
-17	1	B-QT	B-QT	B-QT, B-EV, B-TM, O, B-TI
-18	##막	I-QT	I-QT	I-QT, O, I-EV, I-TM, I-AF
-19	마지막	O	O	O, B-QT, B-TM, I-QT, B-EV
-20	곡	O	O	O, I-QT, I-TM, I-LC, I-AF
-21	##을	O	O	O, I-QT, B-CV, B-PS, I-AF
-22	진행	O	O	O, B-CV, B-TM, B-LC, B-OG
-23	##하	O	O	O, B-PS, B-LC, B-CV, B-OG
-24	##다가	O	O	O, B-CV, B-PS, B-LC, B-TM
-25	목	O	B-AM	B-AM, O, B-TM, B-TR, B-PS
-26	상태	O	O	O, I-TM, I-QT, B-LC, B-TM
-27	##가	O	O	O, B-PS, B-OG, B-LC, B-CV
-28	급속히	O	O	O, B-LC, B-TM, B-CV, B-OG
-29	악화	O	O	O, B-CV, B-LC, B-TM, B-OG
-30	##됐	O	O	O, B-PS, B-LC, B-CV, B-OG
-31	##다	O	O	O, B-CV, B-OG, B-PS, B-LC
-32	”	O	O	O, B-CV, B-OG, B-LC, B-PS
-33	며	O	O	O, B-CV, B-OG, B-LC, B-TM
-34	“	O	O	O, B-CV, B-LC, B-OG, B-TM
-35	2	B-QT	B-QT	B-QT, B-EV, B-TM, O, B-AF
-36	##막	I-QT	I-QT	I-QT, I-EV, O, I-TM, I-LC
-37	##을	O	O	O, I-QT, I-EV, B-CV, B-PS
-38	더블	B-QT	B-QT	B-QT, O, B-FD, B-TM, B-TR
-39	##이나	O	O	O, I-QT, I-AF, I-CV, I-TM
-40	커버	B-CV	B-CV	B-CV, O, B-FD, B-AF, B-OG
-41	배우	I-CV	I-CV	I-CV, B-CV, O, I-OG, I-AF
-42	##로	O	O	O, I-CV, B-CV, I-OG, I-AF
-43	교체	O	O	O, B-CV, B-LC, B-PS, B-TM
-44	##하면	O	O	O, B-LC, B-PS, B-CV, B-OG
-45	관객	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-FD
-46	##의	O	O	O, I-CV, B-PS, B-CV, I-EV
-47	몰입	O	O	O, B-CV, B-LC, B-TM, B-PS
-48	##이	O	O	O, B-PS, B-OG, B-LC, B-CV
-49	깨	O	O	O, B-CV, B-LC, B-OG, B-TM
-50	##질	O	O	O, B-LC, B-PS, B-CV, B-TM
-51	것	O	O	O, B-PS, B-CV, B-LC, B-OG
-52	##을	O	O	O, B-PS, B-CV, B-OG, B-LC
-53	우려	O	O	O, B-CV, B-PS, B-QT, B-LC
-54	##해	O	O	O, B-PS, B-LC, B-OG, B-CV
-55	성대	B-TM	B-TM	B-TM, O, B-AM, B-TR, I-TM
-56	부담	O	O	O, I-TM, I-QT, B-PS, I-CV
-57	##이	O	O	O, B-PS, B-OG, B-LC, B-CV
-58	큰	O	O	O, B-CV, B-LC, B-PS, B-QT
-59	솔로	O	O	O, B-QT, B-CV, B-FD, B-TM
-60	##곡	O	O	O, I-QT, I-LC, I-CV, I-FD
-61	##만	O	O	O, I-QT, I-AF, I-LC, B-PS
-62	빼	O	O	O, B-CV, B-OG, B-LC, B-PS
-63	##고	O	O	O, B-LC, B-PS, B-CV, B-OG
-64	공연	O	O	O, B-CV, B-FD, B-LC, B-TM
-65	##을	O	O	O, B-CV, B-OG, B-PS, B-LC
-66	지속	O	O	O, B-CV, B-LC, B-OG, B-TM
-67	##했	O	O	O, B-CV, B-OG, B-LC, B-PS
-68	##다	O	O	O, B-CV, B-OG, B-LC, B-PS
-69	”	O	O	O, B-CV, B-TM, B-LC, B-OG
-70	고	O	O	O, B-CV, B-TM, B-LC, B-OG
-71	설명	O	O	O, B-CV, B-TM, B-OG, B-LC
-72	##했	O	O	O, B-CV, B-OG, B-LC, I-OG
-73	##다	O	O	O, B-CV, B-TM, B-LC, B-OG
-74	.	O	O	O, B-LC, B-PS, B-CV, B-OG
-75	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	서울시	B-OG	B-OG
+2	##교육	I-OG	I-OG
+3	##청	I-OG	I-OG
+4	18	B-QT	B-QT
+5	##개	I-QT	I-QT
+6	##교	I-QT	I-QT
+7	공모	O	O
+8	…	O	O
+9	2015	B-DT	B-DT
+10	##년	I-DT	I-DT
+11	하반기	I-DT	I-DT
+12	100	B-QT	B-QT
+13	##곳	I-QT	I-QT
+14	##으로	O	O
+15	늘리	O	O
+16	##기	O	O
+17	##로	O	O
+18	曺	O	B-PS
+19	교육감	B-CV	B-CV
+20	낙마	O	O
+21	##땐	O	O
+22	정책	O	O
+23	##표	O	O
+24	##류	O	O
+25	우려	O	O
+26	…	O	O
+27	일선	O	O
+28	##학교	O	O
+29	##들	O	O
+30	호응	O	O
+31	크	O	O
+32	##지	O	O
+33	않	O	O
+34	##을	O	O
+35	##듯	O	O
+36	[SEP]	O	O

@@ -1,59 +1,18 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-EV, B-CV, I-AF, I-CV
-1	25	B-DT	B-DT	B-DT, O, I-DT, B-LC, B-EV
-2	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
-3	함경	B-LC	B-LC	B-LC, O, B-OG, B-AF, I-LC
-4	##남도	I-LC	I-LC	I-LC, O, B-LC, I-OG, I-AF
-5	신	B-AF	B-AF	B-AF, B-LC, B-OG, O, I-AF
-6	##포	I-AF	I-AF	I-AF, I-LC, I-OG, O, B-AF
-7	조선소	I-AF	I-AF	I-AF, I-LC, O, I-OG, B-AF
-8	##에서	O	O	O, I-AF, I-LC, B-LC, I-OG
-9	이뤄진	O	O	O, B-LC, B-TM, B-CV, B-EV
-10	사	O	O	O, B-LC, B-EV, B-CV, B-TM
-11	##출	O	O	O, I-EV, I-LC, B-LC, I-AF
-12	실험	O	O	O, I-EV, B-LC, B-EV, B-PS
-13	##은	O	O	O, B-LC, I-EV, B-CV, B-PS
-14	SL	B-AF	B-AF	B-AF, O, B-OG, B-TM, B-LC
-15	##BM	I-AF	I-AF	I-AF, O, I-TM, I-OG, B-AF
-16	##의	O	O	O, I-AF, I-EV, I-OG, I-TM
-17	핵심	O	O	O, B-CV, B-TM, B-LC, B-PS
-18	기술	O	O	O, B-CV, I-CV, B-LC, B-TM
-19	##로	O	O	O, B-LC, B-CV, B-PS, B-TM
-20	고압	O	O	O, B-TM, B-MT, B-LC, B-AF
-21	압축	O	O	O, B-MT, B-LC, B-TM, I-LC
-22	##공	O	O	O, B-MT, I-MT, I-LC, I-AF
-23	##기	O	O	O, I-LC, I-AF, I-MT, B-MT
-24	##를	O	O	O, B-LC, I-AF, B-CV, B-TM
-25	이용해	O	O	O, B-CV, B-TM, B-LC, B-AF
-26	탄도	B-AF	B-AF	B-AF, O, I-AF, B-TM, B-LC
-27	##미사	I-AF	I-AF	I-AF, O, B-AF, I-EV, I-TM
-28	##일	I-AF	I-AF	I-AF, O, B-AF, I-EV, I-TM
-29	##을	O	O	O, I-AF, I-EV, B-CV, I-OG
-30	물	O	O	O, B-LC, B-TM, B-AM, I-AF
-31	밖	O	O	O, B-TM, B-LC, B-AM, I-TM
-32	##으로	O	O	O, B-LC, I-TM, I-LC, B-TM
-33	내보	O	O	O, B-LC, B-TM, B-CV, B-PS
-34	##낸	O	O	O, B-LC, I-LC, B-PS, I-EV
-35	뒤	O	O	O, B-TM, B-LC, B-CV, B-QT
-36	엔진	B-TM	O	O, B-TM, B-AF, B-MT, B-CV
-37	##을	O	O	O, I-TM, I-AF, I-EV, B-CV
-38	점	O	O	O, B-CV, B-LC, B-EV, B-PS
-39	##화	O	O	O, I-EV, I-LC, B-LC, I-CV
-40	##하	O	O	O, B-LC, B-PS, B-CV, I-EV
-41	##는	O	O	O, B-LC, B-PS, B-CV, B-TM
-42	‘	O	O	O, B-LC, B-CV, B-OG, B-EV
-43	콜드	O	O	O, B-EV, B-TR, B-TM, B-AF
-44	론	O	O	O, I-TR, I-EV, I-TM, I-AF
-45	##치	O	O	O, I-TR, I-EV, I-TM, I-AF
-46	’	O	O	O, I-EV, I-TR, B-PS, I-AF
-47	방식	O	O	O, B-CV, B-LC, B-TM, I-EV
-48	##이	O	O	O, B-PS, B-CV, B-LC, B-OG
-49	##라고	O	O	O, B-LC, B-PS, B-CV, B-OG
-50	미	B-LC	B-LC	B-LC, O, B-OG, B-PS, B-AF
-51	고위	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-QT
-52	관리	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-QT
-53	##들이	O	O	O, I-CV, I-OG, I-QT, I-EV
-54	전했	O	O	O, B-CV, B-QT, B-LC, B-TM
-55	##다	O	O	O, B-CV, B-LC, B-TM, I-EV
-56	.	O	O	O, B-LC, B-PS, I-EV, B-CV
-57	[SEP]	O	O	O, B-LC, I-EV, B-CV, I-LC
+	text	label	preds
+0	[CLS]	O	O
+1	◆	O	O
+2	##노	O	O
+3	##년	O	O
+4	##층	O	O
+5	면역	B-TM	B-TM
+6	##증	I-TM	I-TM
+7	##강	I-TM	I-TM
+8	##제	I-TM	I-TM
+9	백신	B-TM	I-TM
+10	##으로	O	O
+11	예방	O	O
+12	효과	O	O
+13	최대	O	O
+14	90	B-QT	B-QT
+15	%	I-QT	I-QT
+16	[SEP]	O	O

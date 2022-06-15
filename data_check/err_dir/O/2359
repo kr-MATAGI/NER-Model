@@ -1,31 +1,37 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-EV, B-CV, I-CV
-1	국산	O	O	O, B-LC, B-TM, B-OG, B-CV
-2	슈퍼	B-TM	B-TM	B-TM, O, I-TM, B-AF, B-OG
-3	##컴	I-TM	I-TM	I-TM, O, B-TM, I-OG, I-QT
-4	##퓨	I-TM	I-TM	I-TM, O, B-TM, I-OG, I-QT
-5	##터	I-TM	I-TM	I-TM, O, I-OG, B-TM, I-QT
-6	‘	O	O	O, I-TM, B-OG, I-OG, B-LC
-7	천둥	O	B-AF	B-AF, B-OG, B-PS, O, B-TM
-8	’	O	O	O, I-OG, I-AF, I-TM, I-PS
-9	이	O	O	O, B-PS, B-OG, B-LC, I-OG
-10	13	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-11	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-12	‘	O	O	O, I-DT, B-OG, B-CV, B-LC
-13	세계	O	O	O, B-EV, B-LC, B-OG, B-AF
-14	슈퍼	B-TM	B-TM	B-TM, B-EV, O, I-EV, I-TM
-15	##컴	I-TM	I-TM	I-TM, I-EV, O, I-AF, I-OG
-16	##퓨	I-TM	I-TM	I-TM, O, I-EV, I-AF, I-OG
-17	##터	I-TM	I-TM	I-TM, O, I-EV, I-AF, I-QT
-18	톱	O	B-QT	B-QT, O, I-TM, I-QT, B-TM
-19	500	B-QT	I-QT	I-QT, B-QT, I-TM, O, I-AF
-20	’	O	O	O, I-QT, I-EV, I-DT, I-TM
-21	에서	O	O	O, B-CV, B-OG, B-LC, I-QT
-22	27	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-EV
-23	##8	I-QT	I-QT	I-QT, B-QT, O, I-LC, I-AF
-24	##위	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-AF
-25	##에	O	O	O, I-QT, I-OG, I-EV, I-AF
-26	올랐	O	O	O, B-CV, B-OG, B-LC, B-TM
-27	##다	O	O	O, B-CV, B-OG, B-LC, I-OG
-28	.	O	O	O, B-LC, B-OG, B-TM, B-CV
-29	[SEP]	O	O	O, B-LC, B-OG, B-TM, B-CV
+	text	label	preds
+0	[CLS]	O	O
+1	국가	O	O
+2	##고시	O	O
+3	출신	O	O
+4	##의	O	O
+5	전문	O	O
+6	관료	O	B-CV
+7	##들이	O	O
+8	대거	O	O
+9	발탁	O	O
+10	##됐	O	O
+11	##고	O	O
+12	,	O	O
+13	서울대	B-OG	B-OG
+14	출신	O	O
+15	##도	O	O
+16	절반	B-QT	B-QT
+17	##이나	O	O
+18	돼	O	O
+19	박	B-PS	B-PS
+20	대통령	B-CV	B-CV
+21	##의	O	O
+22	엘리트	B-CV	B-CV
+23	선호	O	O
+24	경향	O	O
+25	##을	O	O
+26	다시	O	O
+27	한	O	O
+28	##번	O	O
+29	확인	O	O
+30	##시	O	O
+31	##켜	O	O
+32	##줬	O	O
+33	##다	O	O
+34	.	O	O
+35	[SEP]	O	O

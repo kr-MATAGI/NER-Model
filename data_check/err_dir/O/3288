@@ -1,14 +1,82 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	마이	B-OG	B-OG	B-OG, B-AF, O, B-LC, I-OG
-2	##니치	I-OG	I-OG	I-OG, O, I-AF, B-OG, I-LC
-3	##신문	I-OG	I-OG	I-OG, O, I-AF, I-LC, I-EV
-4	##의	O	O	O, I-OG, I-AF, I-EV, I-QT
-5	20	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-6	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-OG
-7	##자	O	I-DT	I-DT, O, B-DT, I-QT, I-CV
-8	조	O	O	O, I-DT, B-CV, B-DT, B-AF
-9	##간	O	O	O, I-AF, I-CV, I-DT, I-FD
-10	기사	O	O	O, B-CV, I-AF, I-CV, B-FD
-11	.	O	O	O, I-AF, B-CV, B-OG, I-CV
-12	[SEP]	O	O	O, B-OG, B-CV, B-LC, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	트럼프	B-PS	B-PS
+2	대통령	B-CV	B-CV
+3	##은	O	O
+4	이날	B-DT	B-DT
+5	USA	B-OG	B-OG
+6	##투	I-OG	I-OG
+7	##데이	I-OG	I-OG
+8	##에	O	O
+9	기고	O	O
+10	##문	O	O
+11	##을	O	O
+12	싣	O	O
+13	##고	O	O
+14	""""	O	O
+15	(	O	O
+16	레이건	B-PS	B-PS
+17	##의	O	O
+18	감세	O	O
+19	##가	O	O
+20	있	O	O
+21	##었	O	O
+22	##던	O	O
+23	)	O	O
+24	1980	B-DT	B-DT
+25	##년	I-DT	I-DT
+26	##대	I-DT	I-DT
+27	##는	O	O
+28	우주	O	B-AF
+29	왕복	O	I-AF
+30	##선	O	I-AF
+31	##을	O	O
+32	이용해	O	O
+33	인류	O	O
+34	##의	O	O
+35	경계	O	O
+36	##를	O	O
+37	넓히	O	O
+38	##는	O	O
+39	등	O	O
+40	의외	O	O
+41	##의	O	O
+42	아이디어	O	O
+43	##가	O	O
+44	현실	O	O
+45	##로	O	O
+46	이뤄졌	O	O
+47	##던	O	O
+48	낙관	O	O
+49	##의	O	O
+50	시대	O	O
+51	""""	O	O
+52	라며	O	O
+53	""""	O	O
+54	이제	O	O
+55	경제	O	O
+56	##적	O	O
+57	굴복	O	O
+58	##의	O	O
+59	시대	O	O
+60	##는	O	O
+61	끝	O	O
+62	##났	O	O
+63	##고	O	O
+64	(	O	O
+65	감세	O	O
+66	##를	O	O
+67	통해	O	O
+68	)	O	O
+69	낙관	O	O
+70	##의	O	O
+71	시대	O	O
+72	##로	O	O
+73	되돌리	O	O
+74	##자	O	O
+75	""""	O	O
+76	라고	O	O
+77	했	O	O
+78	##다	O	O
+79	.	O	O
+80	[SEP]	O	O

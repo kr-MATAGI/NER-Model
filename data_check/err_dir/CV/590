@@ -1,31 +1,19 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	실제	O	O	O, B-FD, B-CV, B-PS, B-QT
-2	드라마	O	O	O, B-FD, I-FD, B-CV, B-AF
-3	##를	O	O	O, B-CV, B-PS, B-OG, I-AF
-4	이끌	O	O	O, B-CV, B-OG, B-QT, B-PS
-5	##고	O	O	O, B-CV, B-PS, B-QT, I-QT
-6	가	O	O	O, B-CV, B-PS, B-QT, B-OG
-7	##는	O	O	O, B-CV, B-PS, B-QT, I-QT
-8	인물	O	O	O, B-CV, B-PS, I-CV, B-FD
-9	##은	O	O	O, B-CV, B-PS, I-CV, B-OG
-10	간암	B-TM	B-TM	B-TM, O, B-TR, B-CV, B-LC
-11	선고	O	O	O, I-TM, I-CV, B-CV, I-AF
-12	##를	O	O	O, B-CV, B-OG, B-PS, I-AF
-13	받	O	O	O, B-PS, B-CV, B-OG, B-LC
-14	##은	O	O	O, B-PS, B-CV, B-LC, B-OG
-15	냉정	O	O	O, B-CV, B-PS, B-OG, B-LC
-16	##한	O	O	O, B-PS, B-CV, I-PS, B-LC
-17	채권	O	B-CV	B-CV, O, I-CV, B-OG, B-QT
-18	추심	B-CV	I-CV	I-CV, O, B-CV, I-QT, I-OG
-19	##원	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-QT
-20	태	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-QT
-21	##건	I-PS	I-PS	I-PS, O, I-OG, B-PS, I-QT
-22	##호	I-PS	I-PS	I-PS, O, I-OG, I-LC, B-PS
-23	(	O	O	O, I-PS, B-CV, I-OG, I-QT
-24	정재	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-25	##영	I-PS	I-PS	I-PS, O, I-OG, I-LC, I-QT
-26	)	O	O	O, I-PS, I-OG, B-CV, I-QT
-27	다	O	O	O, B-PS, B-CV, B-QT, B-LC
-28	.	O	O	O, B-CV, B-PS, B-LC, B-FD
-29	[SEP]	O	O	O, B-CV, B-PS, B-FD, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	네	O	O
+2	.	O	O
+3	단호박	B-CV	B-CV
+4	하고	O	O
+5	##는	O	O
+6	또	O	O
+7	늙	B-CV	O
+8	##은	I-CV	O
+9	호박	I-CV	B-CV
+10	##은	O	O
+11	단맛	O	O
+12	##이	O	O
+13	차이	O	O
+14	##가	O	O
+15	나	O	O
+16	##잖아	O	O
+17	[SEP]	O	O

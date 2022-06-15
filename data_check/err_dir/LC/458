@@ -1,48 +1,41 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-EV, I-OG, I-CV
-1	김진	B-PS	B-PS	B-PS, B-OG, O, B-LC, B-AF
-2	##광	I-PS	I-PS	I-PS, I-OG, O, I-LC, I-QT
-3	태백산	B-LC	B-CV	B-CV, B-OG, B-LC, O, B-AF
-4	##국	I-LC	I-CV	I-CV, I-OG, B-CV, I-LC, O
-5	##립	I-LC	I-CV	I-CV, I-OG, B-CV, O, I-LC
-6	##공원	I-LC	I-CV	I-CV, I-OG, O, B-CV, I-LC
-7	##사	B-CV	I-CV	I-CV, I-OG, B-CV, O, I-LC
-8	##무소	I-CV	I-CV	I-CV, I-OG, B-CV, O, I-AF
-9	##장	I-CV	I-CV	I-CV, I-OG, B-CV, O, I-AF
-10	##은	O	O	O, I-CV, I-OG, I-EV, I-QT
-11	“	O	O	O, B-LC, B-CV, B-TM, B-OG
-12	국립	O	O	O, B-LC, B-OG, B-AF, B-TM
-13	##공원	O	O	O, I-LC, I-OG, B-LC, I-AF
-14	지정	O	O	O, I-LC, I-OG, I-EV, I-AF
-15	##을	O	O	O, B-PS, B-CV, B-LC, B-OG
-16	계기	O	O	O, B-CV, B-LC, B-PS, B-OG
-17	##로	O	O	O, B-LC, B-PS, B-OG, B-CV
-18	태백산	B-LC	B-LC	B-LC, O, B-AF, B-OG, B-PS
-19	##의	O	O	O, I-LC, I-AF, B-LC, I-PS
-20	자연	O	O	O, B-LC, I-LC, B-CV, B-TM
-21	##자원	O	O	O, I-LC, I-CV, B-LC, I-TM
-22	##을	O	O	O, B-LC, B-CV, B-PS, B-TM
-23	체계	O	O	O, B-LC, B-CV, B-TM, B-PS
-24	##적으로	O	O	O, B-LC, I-LC, B-PS, I-QT
-25	보호	O	O	O, B-CV, B-LC, B-TM, B-OG
-26	##하고	O	O	O, B-LC, B-PS, B-CV, B-TM
-27	,	O	O	O, B-LC, B-CV, B-PS, B-OG
-28	지역	O	O	O, B-LC, B-CV, B-EV, B-TM
-29	##발전	O	O	O, I-LC, I-EV, B-LC, I-TM
-30	##에도	O	O	O, B-LC, B-CV, B-TM, B-PS
-31	도움	O	O	O, B-LC, B-TM, B-CV, B-QT
-32	##이	O	O	O, B-PS, B-LC, B-CV, B-OG
-33	될	O	O	O, B-LC, B-PS, B-CV, B-TM
-34	수	O	O	O, B-PS, B-LC, B-TM, B-CV
-35	있	O	O	O, B-LC, B-CV, B-PS, B-TM
-36	##도록	O	O	O, B-LC, B-PS, B-CV, B-TM
-37	노력	O	O	O, B-LC, B-CV, B-OG, B-TM
-38	##하	O	O	O, B-LC, B-PS, B-OG, B-CV
-39	##겠다	O	O	O, B-CV, B-LC, B-PS, I-OG
-40	”	O	O	O, B-CV, B-LC, B-TM, B-OG
-41	고	O	O	O, B-CV, B-LC, B-TM, B-PS
-42	말	O	O	O, B-CV, B-LC, B-TM, B-OG
-43	##했	O	O	O, B-CV, B-LC, B-PS, B-OG
-44	##다	O	O	O, B-CV, B-LC, B-TM, B-OG
-45	.	O	O	O, B-LC, B-PS, B-CV, I-EV
-46	[SEP]	O	O	O, B-LC, B-CV, B-PS, I-EV
+	text	label	preds
+0	[CLS]	O	O
+1	결국	O	O
+2	1945	B-DT	B-DT
+3	##년	I-DT	I-DT
+4	8	I-DT	I-DT
+5	##월	I-DT	I-DT
+6	6	I-DT	I-DT
+7	##일	I-DT	I-DT
+8	히로시마	B-LC	B-LC
+9	##에	O	O
+10	원자	B-AF	B-AF
+11	##폭탄	I-AF	I-AF
+12	'	O	O
+13	리틀	B-AF	B-AF
+14	보이	I-AF	I-AF
+15	'	O	O
+16	가	O	O
+17	투하	O	O
+18	##됐	O	O
+19	##고	O	O
+20	,	O	O
+21	사흘	B-DT	B-DT
+22	뒤	I-DT	I-DT
+23	나가사키	B-LC	B-EV
+24	원폭	O	I-EV
+25	투하	O	O
+26	그리고	O	O
+27	8	B-DT	B-DT
+28	##월	I-DT	I-DT
+29	15	I-DT	I-DT
+30	##일	I-DT	I-DT
+31	일본	B-LC	B-LC
+32	##의	O	O
+33	무조건	O	O
+34	항복	O	O
+35	##으로	O	O
+36	이어졌	O	O
+37	##다	O	O
+38	.	O	O
+39	[SEP]	O	O

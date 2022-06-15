@@ -1,36 +1,37 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	80	B-QT	B-QT	B-QT, O, B-EV, B-DT, I-QT
-2	##여	I-QT	I-QT	I-QT, O, I-EV, I-OG, I-DT
-3	##개	I-QT	I-QT	I-QT, O, I-EV, I-LC, B-QT
-4	##국	I-QT	I-QT	I-QT, O, I-EV, I-LC, I-OG
-5	400	B-QT	B-QT	B-QT, I-QT, O, B-DT, B-EV
-6	##여	I-QT	I-QT	I-QT, O, I-EV, I-LC, B-QT
-7	##개	I-QT	I-QT	I-QT, O, I-LC, I-EV, B-QT
-8	팀	O	O	O, I-QT, B-CV, B-OG, I-OG
-9	2	B-QT	B-QT	B-QT, I-QT, O, B-DT, B-EV
-10	##만	I-QT	I-QT	I-QT, O, B-QT, I-EV, I-LC
-11	##여	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-EV
-12	##명	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-EV
-13	##이	O	O	O, I-QT, B-CV, B-OG, B-PS
-14	참가	O	O	O, B-CV, B-TM, B-OG, B-AF
-15	##할	O	O	O, B-CV, B-PS, B-OG, B-LC
-16	것	O	O	O, B-CV, B-PS, B-OG, B-QT
-17	##이	O	O	O, B-PS, B-CV, B-OG, B-LC
-18	##라고	O	O	O, B-CV, B-OG, B-PS, B-QT
-19	홍보	O	O	O, B-CV, B-TM, B-OG, B-LC
-20	##했	O	O	O, B-OG, B-LC, B-CV, B-PS
-21	##던	O	O	O, B-OG, B-LC, B-CV, B-PS
-22	경남	B-LC	B-OG	B-OG, B-LC, O, I-OG, B-EV
-23	##도	I-LC	I-OG	I-OG, I-LC, O, B-OG, I-EV
-24	기대치	O	O	O, I-OG, B-CV, I-EV, I-AF
-25	##의	O	O	O, B-CV, I-OG, B-OG, I-EV
-26	절반	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-EV
-27	##에도	O	O	O, I-QT, I-EV, I-OG, I-DT
-28	못	O	O	O, B-CV, B-TM, B-OG, B-LC
-29	미치	O	O	O, B-CV, B-OG, B-LC, B-QT
-30	##는	O	O	O, B-CV, B-OG, B-LC, B-QT
-31	것	O	O	O, B-CV, B-OG, B-TM, B-LC
-32	##이다	O	O	O, B-CV, B-TM, I-OG, B-QT
-33	.	O	O	O, B-CV, B-OG, B-LC, B-PS
-34	[SEP]	O	O	O, B-CV, B-OG, I-EV, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	80	B-QT	B-QT
+2	##여	I-QT	I-QT
+3	##개	I-QT	I-QT
+4	##국	I-QT	I-QT
+5	400	B-QT	B-QT
+6	##여	I-QT	I-QT
+7	##개	I-QT	I-QT
+8	팀	O	O
+9	2	B-QT	B-QT
+10	##만	I-QT	I-QT
+11	##여	I-QT	I-QT
+12	##명	I-QT	I-QT
+13	##이	O	O
+14	참가	O	O
+15	##할	O	O
+16	것	O	O
+17	##이	O	O
+18	##라고	O	O
+19	홍보	O	O
+20	##했	O	O
+21	##던	O	O
+22	경남	B-LC	B-LC
+23	##도	I-LC	O
+24	기대	O	O
+25	##치	O	O
+26	##의	O	O
+27	절반	B-QT	B-QT
+28	##에도	O	O
+29	못	O	O
+30	미치	O	O
+31	##는	O	O
+32	것	O	O
+33	##이다	O	O
+34	.	O	O
+35	[SEP]	O	O

@@ -1,39 +1,53 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	현재	O	O	O, B-LC, B-CV, B-TM, B-OG
-2	상하이	B-LC	B-LC	B-LC, O, B-OG, B-AF, B-PS
-3	##에	O	O	O, I-LC, I-AF, I-OG, B-LC
-4	##선	O	O	O, B-LC, B-CV, B-PS, B-OG
-5	AI	B-TM	B-FD	B-FD, B-TM, B-TR, O, B-OG
-6	##가	O	O	O, I-OG, I-FD, I-TM, I-EV
-7	확산	O	O	O, B-CV, B-LC, B-TM, B-OG
-8	##하	O	O	O, B-LC, B-PS, B-OG, B-CV
-9	##는	O	O	O, B-LC, B-PS, B-CV, B-TM
-10	가운데	O	O	O, B-LC, B-TM, B-OG, B-AF
-11	시내	O	O	O, B-LC, I-LC, B-AF, B-CV
-12	쓰	B-LC	O	O, B-LC, B-PS, B-AF, I-LC
-13	##징	I-LC	O	O, I-LC, I-AF, I-PS, B-LC
-14	(	O	O	O, I-LC, I-AF, B-LC, I-PS
-15	[UNK]	O	O	O, B-LC, I-LC, B-PS, B-CV
-16	[UNK]	O	O	O, B-LC, B-PS, B-CV, B-OG
-17	)	O	O	O, B-LC, B-PS, B-CV, I-LC
-18	연못	O	O	O, B-LC, B-AF, B-PS, I-LC
-19	##에서	O	O	O, B-CV, B-PS, B-LC, B-TM
-20	물고기	B-AM	B-AM	B-AM, O, B-TM, B-PS, I-AM
-21	1000	B-QT	B-QT	B-QT, I-QT, O, B-DT, B-TM
-22	##마리	I-QT	I-QT	I-QT, O, I-LC, I-PS, I-TM
-23	이상	I-QT	I-QT	I-QT, O, I-LC, I-PS, I-TM
-24	##이	O	O	O, I-QT, B-PS, B-CV, B-LC
-25	죽	O	O	O, B-CV, B-TM, B-LC, B-QT
-26	##은	O	O	O, B-LC, B-CV, B-PS, B-TM
-27	채	O	O	O, B-LC, B-PS, B-CV, B-QT
-28	떠올라	O	O	O, B-LC, B-CV, B-PS, B-TM
-29	주민	B-CV	B-CV	B-CV, O, B-OG, B-TM, I-CV
-30	불안	O	O	O, I-CV, B-CV, I-EV, B-TM
-31	##을	O	O	O, B-CV, I-CV, B-PS, B-TM
-32	가중	O	O	O, B-CV, B-TM, B-LC, B-PS
-33	##하고	O	O	O, B-CV, B-LC, B-TM, I-QT
-34	있	O	O	O, B-CV, B-LC, B-TM, B-PS
-35	##다	O	O	O, B-CV, B-LC, B-TM, B-PS
-36	.	O	O	O, B-LC, B-PS, B-CV, B-OG
-37	[SEP]	O	O	O, B-LC, B-CV, B-PS, I-LC
+	text	label	preds
+0	[CLS]	O	O
+1	미국	B-OG	B-OG
+2	##은	O	O
+3	도쿄	B-LC	B-EV
+4	전범	O	I-EV
+5	##재판	O	I-EV
+6	##과	O	O
+7	샌프란시스코	B-OG	B-OG
+8	조약	I-OG	I-OG
+9	##에	O	O
+10	##서	O	O
+11	일본	B-OG	B-OG
+12	##의	O	O
+13	조선	B-LC	B-LC
+14	등	O	O
+15	##에	O	O
+16	대한	O	O
+17	범죄	O	O
+18	##행위	O	O
+19	처벌	O	O
+20	##과	O	O
+21	배상	O	O
+22	##을	O	O
+23	완전히	O	O
+24	누락	O	O
+25	##했	O	O
+26	##으며	O	O
+27	,	O	O
+28	그	O	O
+29	구멍	O	O
+30	##을	O	O
+31	한	B-OG	B-OG
+32	##일	I-OG	I-OG
+33	##협	I-OG	I-OG
+34	##정	I-OG	I-OG
+35	때	O	O
+36	일본	B-OG	B-LC
+37	##의	O	O
+38	유무	O	O
+39	##상	O	O
+40	차관	O	O
+41	5	B-QT	B-QT
+42	##억	I-QT	I-QT
+43	##달	I-QT	I-QT
+44	##러	I-QT	I-QT
+45	##로	O	O
+46	땜	O	O
+47	##질	O	O
+48	##했	O	O
+49	##다	O	O
+50	.	O	O
+51	[SEP]	O	O

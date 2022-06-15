@@ -1,17 +1,42 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	내년	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-LC
-2	중	B-LC	B-LC	B-LC, O, B-OG, I-LC, I-DT
-3	·	O	I-LC	I-LC, O, B-LC, I-DT, I-OG
-4	브라질	B-LC	I-LC	I-LC, B-LC, O, I-OG, I-PS
-5	등	O	O	O, I-LC, B-LC, I-OG, I-AF
-6	##서	O	O	O, B-LC, B-CV, I-LC, B-TM
-7	성장	O	O	O, B-CV, B-TM, B-OG, B-LC
-8	예상	O	O	O, B-CV, I-OG, B-OG, B-TM
-9	…	O	O	O, B-CV, I-OG, B-OG, B-LC
-10	“	O	O	O, B-CV, B-LC, B-OG, B-TM
-11	품질	O	O	O, B-CV, B-TM, B-LC, B-AF
-12	강화	O	O	O, I-CV, B-CV, I-OG, I-TM
-13	노력	O	O	O, B-CV, B-LC, B-TM, B-OG
-14	”	O	O	O, B-CV, B-OG, B-PS, B-LC
-15	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	무상급식	O	B-CV
+2	##과	O	O
+3	누리	O	O
+4	##과	O	O
+5	##정	O	O
+6	(	O	O
+7	3	B-QT	B-QT
+8	~	I-QT	I-QT
+9	5	I-QT	I-QT
+10	##살	I-QT	I-QT
+11	무상	O	O
+12	##보	O	O
+13	##육	O	O
+14	)	O	O
+15	예산	O	O
+16	논쟁	O	O
+17	##에	O	O
+18	##서	O	O
+19	촉발	O	O
+20	##된	O	O
+21	복지	O	O
+22	재원	O	O
+23	마련	O	O
+24	방안	O	O
+25	##을	O	O
+26	두고	O	O
+27	여야	O	O
+28	##의	O	O
+29	논의	O	O
+30	##가	O	O
+31	연일	O	O
+32	평행	O	O
+33	##선	O	O
+34	##만	O	O
+35	달리	O	O
+36	##고	O	O
+37	있	O	O
+38	##다	O	O
+39	.	O	O
+40	[SEP]	O	O

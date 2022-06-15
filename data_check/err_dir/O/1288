@@ -1,51 +1,19 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-EV, B-CV, I-CV
-1	‘	O	O	O, B-LC, B-OG, B-PS, B-CV
-2	제	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-EV
-3	##2	I-QT	I-QT	I-QT, B-QT, O, I-LC, I-EV
-4	##의	I-QT	I-QT	I-QT, O, I-PS, B-PS, I-AF
-5	난타	O	B-AF	B-AF, B-PS, I-AF, O, B-LC
-6	’	O	O	O, I-AF, I-PS, I-OG, I-EV
-7	로	O	O	O, B-LC, B-PS, B-OG, B-CV
-8	불리	O	O	O, B-LC, B-PS, B-OG, B-CV
-9	##며	O	O	O, B-LC, B-PS, B-OG, I-OG
-10	지난	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-OG
-11	10	I-DT	I-DT	I-DT, B-DT, O, I-QT, I-PS
-12	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-13	동안	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-14	한국	B-LC	B-LC	B-LC, O, I-LC, I-DT, B-OG
-15	공연	O	O	O, I-LC, B-LC, B-FD, B-CV
-16	##관광	O	O	O, I-LC, I-CV, I-FD, I-AF
-17	시장	O	O	O, B-CV, B-LC, I-LC, B-TM
-18	##을	O	O	O, I-CV, B-CV, B-PS, B-LC
-19	이끌	O	O	O, B-CV, B-LC, B-OG, B-TM
-20	##어	O	O	O, B-CV, B-LC, I-CV, B-PS
-21	##온	O	O	O, B-LC, B-CV, B-PS, B-TM
-22	논	B-FD	B-FD	B-FD, O, B-TR, B-AF, B-EV
-23	##버	I-FD	I-FD	I-FD, O, I-TR, B-FD, I-AF
-24	##벌	I-FD	I-FD	I-FD, O, I-TR, I-AF, B-FD
-25	퍼포먼스	I-FD	I-FD	I-FD, O, I-TR, B-FD, I-AF
-26	(	O	O	O, I-FD, I-OG, I-AF, I-EV
-27	비	B-FD	B-FD	B-FD, O, B-AF, I-FD, B-CV
-28	##언	I-FD	I-FD	I-FD, O, B-FD, I-AF, I-CV
-29	##어	I-FD	I-FD	I-FD, O, B-FD, I-CV, I-AF
-30	공연	I-FD	O	O, I-FD, B-FD, I-AF, I-EV
-31	)	O	O	O, I-EV, I-FD, I-CV, I-AF
-32	<	O	O	O, B-CV, B-LC, B-OG, B-AF
-33	점프	B-AF	B-AF	B-AF, B-PS, O, B-OG, B-LC
-34	>	O	O	O, I-AF, I-EV, I-OG, B-CV
-35	가	O	O	O, B-LC, B-OG, B-PS, B-CV
-36	지난주	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-37	공연	O	O	O, I-DT, I-EV, B-CV, I-QT
-38	##이	O	O	O, B-PS, B-OG, B-LC, B-CV
-39	중단	O	O	O, B-CV, B-TM, B-LC, B-EV
-40	##되	O	O	O, B-LC, B-OG, B-CV, B-PS
-41	##는	O	O	O, B-LC, B-OG, B-CV, B-TM
-42	초유	O	O	O, B-CV, B-LC, B-TM, B-OG
-43	##의	O	O	O, B-LC, I-EV, B-PS, B-OG
-44	사태	O	O	O, B-CV, B-EV, I-EV, B-LC
-45	##가	O	O	O, I-EV, B-OG, B-LC, I-OG
-46	벌어졌	O	O	O, B-CV, B-LC, B-OG, I-EV
-47	##다	O	O	O, B-CV, I-EV, B-LC, B-OG
-48	.	O	O	O, B-LC, B-CV, B-OG, B-PS
-49	[SEP]	O	O	O, B-CV, B-LC, B-OG, I-EV
+	text	label	preds
+0	[CLS]	O	O
+1	파	O	B-CV
+2	##채	O	I-CV
+3	##를	O	O
+4	이렇게	O	O
+5	준비	O	O
+6	##하	O	O
+7	##고	O	O
+8	저	O	O
+9	~	O	O
+10	양파	B-CV	B-CV
+11	##채	O	O
+12	준	O	O
+13	준비	O	O
+14	##하	O	O
+15	##구요	O	O
+16	.	O	O
+17	[SEP]	O	O

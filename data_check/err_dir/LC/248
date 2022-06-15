@@ -1,26 +1,26 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-EV, I-OG, B-CV, I-QT
-1	이번	O	O	O, B-EV, B-OG, B-LC, B-CV
-2	회담	O	O	O, B-EV, I-EV, B-OG, B-CV
-3	##에서	O	O	O, I-EV, I-OG, B-PS, B-LC
-4	이	O	O	O, B-OG, B-PS, B-LC, B-EV
-5	##들	O	O	O, B-LC, I-LC, I-OG, I-EV
-6	나라	O	O	O, B-LC, B-OG, I-LC, I-OG
-7	##가	O	O	O, B-LC, B-PS, B-OG, I-OG
-8	북한	B-LC	B-OG	B-OG, B-LC, O, B-PS, B-AF
-9	##과	O	O	O, I-OG, I-LC, B-OG, I-EV
-10	다양	O	O	O, B-LC, B-TM, B-OG, B-CV
-11	##한	O	O	O, B-LC, B-OG, B-PS, B-TM
-12	형태	O	O	O, B-LC, B-TM, B-PS, B-QT
-13	##의	O	O	O, B-PS, B-LC, B-OG, I-EV
-14	접촉	O	O	O, B-EV, B-LC, B-CV, B-OG
-15	##을	O	O	O, I-EV, B-PS, B-OG, B-CV
-16	가질	O	O	O, B-CV, B-LC, B-OG, B-TM
-17	수	O	O	O, B-PS, B-LC, B-OG, B-QT
-18	있	O	O	O, B-PS, B-LC, B-CV, I-EV
-19	##다는	O	O	O, B-LC, B-OG, B-PS, B-CV
-20	관측	O	O	O, B-CV, B-OG, B-LC, B-QT
-21	##이	O	O	O, B-PS, B-CV, B-OG, I-EV
-22	나온다	O	O	O, B-CV, B-OG, B-QT, B-LC
-23	.	O	O	O, B-LC, B-PS, B-OG, B-CV
-24	[SEP]	O	O	O, B-LC, B-CV, I-EV, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	그러나	O	O
+2	마포구	B-LC	B-OG
+3	쪽	O	O
+4	##은	O	O
+5	분양	O	O
+6	갈등	O	O
+7	##에	O	O
+8	자치단	O	B-OG
+9	##체	O	I-OG
+10	##가	O	O
+11	개입	O	O
+12	##하	O	O
+13	##는	O	O
+14	것	O	O
+15	##은	O	O
+16	적절	O	O
+17	##하	O	O
+18	##지	O	O
+19	않	O	O
+20	##다는	O	O
+21	태도	O	O
+22	##다	O	O
+23	.	O	O
+24	[SEP]	O	O

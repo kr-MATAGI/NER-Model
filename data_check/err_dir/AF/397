@@ -1,16 +1,86 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-QT
-1	16	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-QT
-2	##일	I-DT	I-DT	I-DT, O, B-DT, I-EV, I-QT
-3	오전	B-TI	B-TI	B-TI, I-TI, I-DT, O, B-EV
-4	11	I-TI	I-TI	I-TI, B-TI, O, I-DT, I-EV
-5	##시	I-TI	I-TI	I-TI, O, B-TI, I-QT, I-TR
-6	##경	I-TI	I-TI	I-TI, O, I-TR, I-QT, B-TI
-7	전남	B-LC	B-LC	B-LC, O, B-OG, I-TI, I-LC
-8	여수	B-EV	B-EV	B-EV, B-LC, B-AF, O, I-EV
-9	##엑스	I-EV	I-EV	I-EV, I-LC, O, I-AF, B-EV
-10	##포	I-EV	I-EV	I-EV, I-LC, O, I-AF, I-OG
-11	크루즈	B-AF	B-AF	B-AF, O, I-AF, I-EV, B-OG
-12	부두	B-AF	O	O, I-AF, I-LC, B-LC, I-EV
-13	.	O	O	O, I-AF, I-LC, I-OG, B-LC
-14	[SEP]	O	O	O, B-LC, B-OG, B-AF, B-CV
+	text	label	preds
+0	[CLS]	O	O
+1	이	O	O
+2	##들	O	O
+3	##은	O	O
+4	“	O	O
+5	대통령	B-CV	B-CV
+6	##이	O	O
+7	권력	O	O
+8	##을	O	O
+9	사적	O	O
+10	##으로	O	O
+11	오	O	O
+12	##용	O	O
+13	##하	O	O
+14	##고	O	O
+15	국기	O	O
+16	##를	O	O
+17	문란	O	O
+18	##하	O	O
+19	##게	O	O
+20	한	O	O
+21	비정	O	O
+22	##상	O	O
+23	사태	O	O
+24	##를	O	O
+25	접한	O	O
+26	교수	B-CV	B-CV
+27	##들	O	O
+28	##은	O	O
+29	부끄러움	O	O
+30	##을	O	O
+31	금할	O	O
+32	수	O	O
+33	없	O	O
+34	##다	O	O
+35	”	O	O
+36	며	O	O
+37	“	O	O
+38	더	O	O
+39	이상의	O	O
+40	사회	O	O
+41	혼란	O	O
+42	##과	O	O
+43	국	O	O
+44	##격	O	O
+45	추락	O	O
+46	##을	O	O
+47	방지	O	O
+48	##하	O	O
+49	##기	O	O
+50	위해	O	O
+51	대통령	B-CV	B-CV
+52	##은	O	O
+53	가능	O	O
+54	##한	O	O
+55	한	O	O
+56	빨리	O	O
+57	내각	O	O
+58	##과	O	O
+59	청와대	B-AF	B-OG
+60	비서	B-CV	O
+61	##진	I-CV	O
+62	##을	O	O
+63	전부	O	O
+64	사퇴	O	O
+65	##시	O	O
+66	##키	O	O
+67	##고	O	O
+68	거	O	O
+69	##국	O	O
+70	##중	O	O
+71	##립	O	O
+72	##내	O	O
+73	##각	O	O
+74	##을	O	O
+75	구성	O	O
+76	##해야	O	O
+77	한다	O	O
+78	”	O	O
+79	고	O	O
+80	지적	O	O
+81	##했	O	O
+82	##다	O	O
+83	.	O	O
+84	[SEP]	O	O

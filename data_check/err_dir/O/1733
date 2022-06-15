@@ -1,37 +1,32 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	휠체어	O	B-AF	B-AF, O, B-TM, I-AF, B-CV
-2	##를	O	O	O, I-AF, B-CV, I-OG, I-CV
-3	탄	O	O	O, B-CV, B-AF, B-PS, B-OG
-4	지	O	O	O, B-PS, B-CV, I-AF, B-QT
-5	35	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-PS
-6	##년	I-DT	I-DT	I-DT, O, I-QT, B-DT, I-PS
-7	된	O	O	O, I-DT, B-CV, B-PS, I-QT
-8	홍종	B-PS	B-PS	B-PS, B-OG, O, I-PS, B-LC
-9	##숙	I-PS	I-PS	I-PS, I-OG, O, B-PS, I-LC
-10	(	O	O	O, I-PS, I-OG, B-CV, I-AF
-11	55	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-TM
-12	)	O	O	O, I-QT, I-OG, I-DT, I-EV
-13	씨	O	O	O, B-CV, B-PS, I-QT, B-TM
-14	##는	O	O	O, B-CV, I-CV, B-PS, B-TM
-15	“	O	O	O, B-CV, B-PS, B-LC, B-TM
-16	이런	O	O	O, B-CV, B-LC, B-TM, B-PS
-17	곳	O	O	O, B-CV, B-PS, B-AF, I-AF
-18	##은	O	O	O, B-CV, B-PS, I-AF, I-CV
-19	아예	O	O	O, B-CV, B-QT, B-TM, B-PS
-20	들어갈	O	O	O, B-CV, B-TM, B-AF, B-LC
-21	엄두	O	O	O, B-CV, B-TM, B-QT, B-PS
-22	##도	O	O	O, B-CV, B-PS, I-AF, B-TM
-23	내지	O	O	O, B-CV, B-QT, B-TM, B-AF
-24	않	O	O	O, B-CV, B-PS, B-TM, B-QT
-25	##는	O	O	O, B-CV, B-PS, B-QT, I-AF
-26	##다	O	O	O, B-CV, B-PS, I-CV, I-AF
-27	”	O	O	O, B-CV, B-TM, B-PS, I-CV
-28	며	O	O	O, B-CV, B-TM, B-LC, B-PS
-29	고개	B-AM	B-AM	B-AM, O, I-AM, B-TR, B-PS
-30	##를	O	O	O, B-CV, I-AF, I-CV, I-QT
-31	저	O	O	O, B-CV, B-TM, B-LC, B-QT
-32	##었	O	O	O, B-CV, I-CV, B-PS, I-AF
-33	##다	O	O	O, B-CV, I-CV, B-TM, B-PS
-34	.	O	O	O, B-CV, B-PS, B-LC, B-AF
-35	[SEP]	O	O	O, B-CV, B-PS, B-LC, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	같	O	O
+2	##은	O	O
+3	면적	O	O
+4	##에	O	O
+5	##서	O	O
+6	고기	O	B-CV
+7	생산량	O	O
+8	##은	O	O
+9	3	B-QT	B-QT
+10	##배	I-QT	I-QT
+11	##나	O	O
+12	높	O	O
+13	##고	O	O
+14	,	O	O
+15	사료	O	O
+16	##는	O	O
+17	약	B-QT	B-QT
+18	3	I-QT	I-QT
+19	##분	I-QT	I-QT
+20	##의	I-QT	I-QT
+21	1	I-QT	I-QT
+22	##밖	O	O
+23	##에	O	O
+24	들	O	O
+25	##지	O	O
+26	않	O	O
+27	##는	O	O
+28	##다	O	O
+29	.	O	O
+30	[SEP]	O	O

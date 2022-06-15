@@ -1,33 +1,33 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	센터	O	O	O, B-OG, I-OG, B-AF, B-CV
-2	##는	O	O	O, I-OG, B-OG, B-CV, I-AF
-3	“	O	O	O, B-CV, I-OG, B-OG, B-LC
-4	낮	O	O	O, B-CV, B-LC, B-OG, B-PS
-5	##은	O	O	O, B-PS, B-CV, B-LC, B-OG
-6	시급	O	O	O, B-CV, B-PS, B-OG, B-LC
-7	,	O	O	O, B-PS, B-LC, B-CV, B-OG
-8	긴	O	O	O, B-LC, B-CV, B-AF, B-PS
-9	노동	O	O	O, B-CV, B-LC, B-FD, B-TM
-10	##시간	O	O	O, B-CV, B-TI, I-CV, B-PS
-11	,	O	O	O, B-PS, B-CV, B-LC, B-OG
-12	법조	O	O	O, B-CV, B-OG, B-FD, B-LC
-13	##차	O	O	O, B-PS, I-CV, B-OG, I-OG
-14	무시	O	O	O, B-CV, B-LC, B-OG, B-PS
-15	##되	O	O	O, B-LC, B-CV, B-PS, B-OG
-16	##는	O	O	O, B-LC, B-CV, B-PS, B-OG
-17	일터	O	O	O, B-CV, B-LC, B-FD, B-OG
-18	##가	O	O	O, B-PS, B-LC, B-OG, B-CV
-19	청소년	B-CV	B-CV	B-CV, O, B-OG, B-TM, I-CV
-20	·	O	O	O, I-CV, I-OG, I-AF, B-CV
-21	청년	O	O	O, B-CV, I-CV, B-TM, B-OG
-22	##들	O	O	O, I-CV, B-CV, B-PS, I-OG
-23	##의	O	O	O, B-CV, B-PS, B-LC, B-TM
-24	인권	O	B-CV	B-CV, O, I-CV, B-FD, B-TM
-25	##을	O	O	O, I-CV, B-CV, B-PS, I-OG
-26	위협	O	O	O, B-CV, B-TM, B-LC, B-PS
-27	##하고	O	O	O, B-CV, B-PS, B-LC, B-OG
-28	있	O	O	O, B-OG, B-PS, B-CV, B-LC
-29	##다	O	O	O, I-OG, B-OG, B-CV, B-PS
-30	.	O	O	O, B-CV, B-LC, B-OG, B-PS
-31	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	궂	O	O
+2	##은	O	O
+3	수비	O	B-CV
+4	##를	O	O
+5	도맡	O	O
+6	##아	O	O
+7	##한	O	O
+8	오리온	B-OG	B-OG
+9	이승	B-PS	B-PS
+10	##현	I-PS	I-PS
+11	##은	O	O
+12	양	O	O
+13	팀	O	O
+14	합쳐	O	O
+15	가장	O	O
+16	많	O	O
+17	##은	O	O
+18	32	B-TI	B-TI
+19	##분	I-TI	I-TI
+20	25	I-TI	I-TI
+21	##초	I-TI	I-TI
+22	##를	O	O
+23	뛰	O	O
+24	##며	O	O
+25	18	B-QT	B-QT
+26	##점	I-QT	I-QT
+27	##을	O	O
+28	보탰	O	O
+29	##다	O	O
+30	.	O	O
+31	[SEP]	O	O

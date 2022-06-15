@@ -1,60 +1,99 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	정	B-PS	B-PS	B-PS, B-OG, O, B-AF, B-LC
-2	위원장	B-CV	B-CV	B-CV, I-PS, I-CV, O, B-OG
-3	##은	O	O	O, I-CV, B-CV, I-OG, I-EV
-4	“	O	O	O, B-CV, B-LC, B-OG, B-TM
-5	시	O	O	O, B-TM, B-AF, B-TR, B-CV
-6	##디	O	O	O, I-TM, I-AF, I-TR, I-OG
-7	금리	O	O	O, B-CV, I-TM, I-CV, I-AF
-8	담합	O	O	O, B-CV, B-TM, B-LC, I-CV
-9	##에	O	O	O, I-CV, B-PS, B-CV, B-OG
-10	관련	O	O	O, B-OG, B-LC, B-CV, B-PS
-11	##된	O	O	O, B-OG, B-LC, B-PS, B-CV
-12	국민	B-CV	B-OG	B-OG, B-PS, O, B-LC, I-OG
-13	·	O	O	O, I-OG, I-AF, I-CV, I-LC
-14	케이	B-OG	B-OG	B-OG, O, I-OG, B-LC, B-AF
-15	##비	I-OG	I-OG	I-OG, O, B-OG, I-AF, I-LC
-16	(	I-OG	O	O, I-OG, B-OG, I-LC, I-AF
-17	KEB	I-OG	B-OG	B-OG, I-OG, O, B-LC, B-AF
-18	)	I-OG	I-OG	I-OG, O, I-AF, I-LC, B-OG
-19	하나	I-OG	B-OG	B-OG, I-OG, O, B-LC, B-AF
-20	·	O	O	O, I-OG, I-AF, I-LC, I-CV
-21	우리	B-OG	B-OG	B-OG, I-OG, O, B-LC, B-AF
-22	·	O	O	O, I-OG, I-AF, I-LC, I-CV
-23	농협	B-OG	B-OG	B-OG, I-OG, O, B-AF, B-LC
-24	·	O	O	O, I-OG, I-AF, I-LC, I-CV
-25	에스	B-OG	B-OG	B-OG, O, I-OG, B-AF, B-LC
-26	##시	I-OG	I-OG	I-OG, O, B-OG, I-AF, I-LC
-27	(	I-OG	I-OG	I-OG, O, B-OG, I-AF, I-CV
-28	SC	I-OG	I-OG	I-OG, B-OG, O, B-AF, B-LC
-29	)	I-OG	O	O, I-OG, I-AF, I-CV, I-LC
-30	제일	I-OG	B-OG	B-OG, I-OG, O, B-LC, B-AF
-31	·	O	O	O, I-OG, I-AF, I-LC, I-CV
-32	신한은행	B-OG	B-OG	B-OG, I-OG, O, B-LC, B-AF
-33	등	O	O	O, I-OG, B-CV, I-AF, B-LC
-34	6	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-EV
-35	##개	I-QT	I-QT	I-QT, O, I-LC, I-OG, I-PS
-36	은행	O	O	O, I-QT, B-CV, I-OG, B-OG
-37	##의	O	O	O, B-PS, B-CV, B-LC, B-OG
-38	제재	O	O	O, B-CV, B-OG, B-LC, B-PS
-39	수준	O	O	O, B-CV, I-CV, B-LC, B-PS
-40	##을	O	O	O, B-CV, B-LC, B-OG, B-PS
-41	결정	O	O	O, B-CV, B-LC, B-OG, B-PS
-42	##하기	O	O	O, B-LC, B-CV, B-PS, B-OG
-43	위한	O	O	O, B-LC, B-EV, B-CV, B-OG
-44	전원	O	O	O, B-EV, B-CV, B-LC, B-OG
-45	##회의	O	O	O, I-EV, B-EV, I-OG, B-CV
-46	##를	O	O	O, I-EV, B-CV, B-LC, I-OG
-47	6	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-OG
-48	##월	I-DT	I-DT	I-DT, O, B-DT, I-EV, I-PS
-49	중	I-DT	I-DT	I-DT, O, B-DT, I-EV, I-PS
-50	열	O	O	O, I-DT, B-CV, B-LC, B-OG
-51	예정	O	O	O, B-CV, B-OG, B-LC, B-TM
-52	”	O	O	O, B-CV, I-OG, B-LC, B-TM
-53	이라	O	O	O, B-CV, B-OG, B-PS, B-LC
-54	##고	O	O	O, B-CV, B-QT, B-TM, B-OG
-55	밝혔	O	O	O, B-CV, B-TM, B-OG, B-LC
-56	##다	O	O	O, B-CV, B-TM, B-OG, B-LC
-57	.	O	O	O, B-OG, B-LC, B-CV, B-PS
-58	[SEP]	O	O	O, B-OG, B-CV, B-LC, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	백	B-PS	B-PS
+2	회장	B-CV	B-CV
+3	##은	O	O
+4	“	O	O
+5	61	B-DT	B-DT
+6	##년	I-DT	I-DT
+7	마산	B-OG	B-AF
+8	##고	I-OG	I-AF
+9	운동장	O	O
+10	##에	O	O
+11	##서	O	O
+12	열린	O	O
+13	‘	O	O
+14	제	B-QT	B-QT
+15	##1	I-QT	I-QT
+16	##회	I-QT	I-QT
+17	3	B-EV	B-EV
+18	·	I-EV	I-EV
+19	15	I-EV	I-EV
+20	##의	I-EV	I-EV
+21	##거	I-EV	I-EV
+22	추도	I-EV	I-EV
+23	##제	I-EV	I-EV
+24	’	O	O
+25	에	O	O
+26	##는	O	O
+27	장면	B-PS	B-PS
+28	국무총리	B-CV	B-CV
+29	##와	O	O
+30	참의원	B-CV	B-CV
+31	·	O	O
+32	민의	B-OG	B-OG
+33	##원	I-OG	I-OG
+34	의장	B-CV	B-CV
+35	모두	O	O
+36	##가	O	O
+37	참석	O	O
+38	##하	O	O
+39	##는	O	O
+40	등	O	O
+41	3	B-EV	B-EV
+42	·	I-EV	I-EV
+43	15	I-EV	I-EV
+44	##는	O	O
+45	처음	O	O
+46	##부터	O	O
+47	사실	O	O
+48	##상	O	O
+49	국가	O	O
+50	##기념	O	O
+51	##일이	O	O
+52	##었	O	O
+53	##다	O	O
+54	”	O	O
+55	며	O	O
+56	“	O	O
+57	특히	O	O
+58	장	B-PS	B-PS
+59	총리	B-CV	B-CV
+60	##는	O	O
+61	추도	O	O
+62	##사	O	O
+63	##에	O	O
+64	##서	O	O
+65	‘	O	O
+66	3	B-EV	B-EV
+67	·	I-EV	I-EV
+68	15	I-EV	I-EV
+69	##는	O	O
+70	쓰러져	O	O
+71	##가	O	O
+72	##는	O	O
+73	민주	O	O
+74	##를	O	O
+75	바로	O	O
+76	세우	O	O
+77	##고	O	O
+78	제	B-OG	B-OG
+79	##2	I-OG	I-QT
+80	##공화국	I-OG	I-QT
+81	초석	O	O
+82	##을	O	O
+83	다진	O	O
+84	의거	O	O
+85	’	O	O
+86	라는	O	O
+87	평가	O	O
+88	##를	O	O
+89	했	O	O
+90	##다	O	O
+91	”	O	O
+92	고	O	O
+93	말	O	O
+94	##했	O	O
+95	##다	O	O
+96	.	O	O
+97	[SEP]	O	O

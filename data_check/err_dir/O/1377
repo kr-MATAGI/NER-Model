@@ -1,12 +1,67 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-AF
-1	시골	O	O	O, B-LC, B-CV, B-OG, B-TM
-2	##에	O	O	O, I-OG, I-AF, I-CV, B-PS
-3	군	O	B-OG	B-OG, O, B-CV, I-OG, B-AF
-4	하나	B-QT	B-QT	B-QT, O, I-QT, I-OG, B-DT
-5	쯤	I-QT	O	O, I-QT, B-QT, I-DT, I-OG
-6	되	O	O	O, I-QT, I-OG, B-OG, B-CV
-7	##겠	O	O	O, B-CV, I-OG, I-QT, B-OG
-8	##습	O	O	O, I-OG, B-CV, I-AF, B-OG
-9	##니다	O	O	O, B-CV, I-OG, B-OG, I-AF
-10	[SEP]	O	O	O, B-CV, I-OG, B-OG, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	이	B-PS	B-PS
+2	전	O	O
+3	시장	B-CV	B-CV
+4	##의	O	O
+5	변호인	B-CV	B-CV
+6	##들	O	O
+7	##은	O	O
+8	재판부	O	B-OG
+9	##에	O	O
+10	낸	O	O
+11	의견서	O	O
+12	##에	O	O
+13	##서	O	O
+14	“	O	O
+15	검찰	B-OG	B-OG
+16	##이	O	O
+17	제출	O	O
+18	##한	O	O
+19	신문	O	O
+20	##조	O	O
+21	##서는	O	O
+22	단순히	O	O
+23	꾸민	O	O
+24	것	O	O
+25	##이	O	O
+26	아니	O	O
+27	##라	O	O
+28	조작	O	O
+29	##된	O	O
+30	것	O	O
+31	”	O	O
+32	이라	O	O
+33	##며	O	O
+34	“	O	O
+35	이런	O	O
+36	사실	O	O
+37	##은	O	O
+38	검사	B-CV	B-CV
+39	##의	O	O
+40	수사	O	O
+41	##와	O	O
+42	조서	O	O
+43	##에	O	O
+44	대한	O	O
+45	기본	O	O
+46	##적	O	O
+47	##인	O	O
+48	믿음	O	O
+49	##마	O	O
+50	##저	O	O
+51	저버리	O	O
+52	##게	O	O
+53	만드	O	O
+54	##는	O	O
+55	중대	O	O
+56	##한	O	O
+57	범죄	O	O
+58	##행위	O	O
+59	”	O	O
+60	라고	O	O
+61	주장	O	O
+62	##했	O	O
+63	##다	O	O
+64	.	O	O
+65	[SEP]	O	O

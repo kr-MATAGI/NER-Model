@@ -1,14 +1,21 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	특히	O	O	O, B-CV, B-QT, B-OG, B-TM
-2	호박	B-CV	B-CV	B-CV, O, B-PT, I-CV, B-OG
-3	고구마	I-CV	B-CV	B-CV, I-CV, O, B-PT, I-PT
-4	아주	O	O	O, I-CV, B-CV, I-OG, I-QT
-5	잘	O	O	O, B-CV, I-CV, B-LC, B-OG
-6	어울리	O	O	O, B-CV, B-LC, B-OG, I-OG
-7	##구	O	O	O, I-OG, I-CV, B-CV, I-QT
-8	그렇	O	O	O, B-CV, B-OG, B-TM, B-LC
-9	##습	O	O	O, B-CV, I-OG, I-CV, I-AF
-10	##니다	O	O	O, B-CV, I-CV, B-OG, I-OG
-11	.	O	O	O, B-CV, B-LC, B-OG, I-OG
-12	[SEP]	O	O	O, B-CV, I-OG, B-LC, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	희귀	O	O
+2	##성	O	O
+3	때문	O	O
+4	##에	O	O
+5	그간	O	O
+6	홍	B-AF	B-OG
+7	##릉	I-AF	I-OG
+8	##수	I-AF	I-OG
+9	##목	I-AF	I-OG
+10	##원	I-AF	I-OG
+11	대표	B-CV	O
+12	나무	B-PT	O
+13	##로	O	O
+14	손꼽	O	O
+15	##혀	O	O
+16	##왔	O	O
+17	##다	O	O
+18	.	O	O
+19	[SEP]	O	O

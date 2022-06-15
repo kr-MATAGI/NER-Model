@@ -1,10 +1,22 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	기흥	O	B-LC	B-LC, O, B-AF, B-OG, B-CV
-2	##정	O	I-LC	I-LC, O, I-AF, I-OG, I-CV
-3	거기	O	O	O, I-AF, I-LC, I-OG, B-CV
-4	다	O	O	O, B-CV, B-QT, B-TM, B-OG
-5	들어	O	O	O, B-CV, B-TM, B-OG, B-QT
-6	있	O	O	O, B-CV, I-AF, I-OG, B-OG
-7	##어요	O	O	O, B-CV, I-OG, B-OG, I-AF
-8	[SEP]	O	O	O, B-CV, B-OG, B-LC, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	[	O	O
+2	오늘	B-DT	B-DT
+3	##과	O	O
+4	내일	B-DT	B-DT
+5	/	O	O
+6	방	B-PS	B-PS
+7	##형	I-PS	I-PS
+8	##남	I-PS	I-PS
+9	]	O	O
+10	남북	B-OG	B-AF
+11	##가스	B-MT	I-AF
+12	##관	O	I-AF
+13	추진	O	O
+14	전	O	O
+15	MB	B-PS	B-PS
+16	##가	O	O
+17	답	O	O
+18	##할	O	O
+19	일	O	O
+20	[SEP]	O	O

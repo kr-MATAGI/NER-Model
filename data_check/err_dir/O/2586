@@ -1,65 +1,124 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-QT
-1	사상	O	O	O, B-LC, B-CV, B-OG, B-QT
-2	최초	O	O	O, B-QT, B-LC, I-QT, B-DT
-3	##로	O	O	O, I-QT, B-LC, I-LC, B-PS
-4	중간	O	O	O, B-TM, B-LC, B-CV, B-AF
-5	물자	O	O	O, I-TM, I-CV, I-LC, B-CV
-6	지원	O	O	O, B-LC, I-LC, I-CV, B-CV
-7	없이	O	O	O, B-LC, B-QT, I-LC, B-TM
-8	북극	O	B-LC	B-LC, O, B-TM, B-AF, B-CV
-9	##점	O	I-LC	I-LC, O, I-TM, I-QT, I-AF
-10	##에	O	O	O, I-LC, I-QT, B-LC, I-AF
-11	도달	O	O	O, B-LC, B-CV, B-QT, B-TM
-12	##한	O	O	O, B-LC, B-CV, B-PS, B-QT
-13	기록	O	O	O, B-LC, B-CV, B-QT, B-TM
-14	(	O	O	O, B-CV, B-LC, B-OG, B-QT
-15	1990	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-LC
-16	##년	I-DT	I-DT	I-DT, O, I-QT, B-DT, I-PS
-17	)	O	O	O, I-DT, B-CV, I-QT, B-LC
-18	,	O	O	O, B-CV, B-LC, B-OG, B-PS
-19	사상	O	O	O, B-CV, B-LC, B-QT, B-OG
-20	최초	O	O	O, B-QT, B-LC, I-QT, B-TM
-21	##로	O	O	O, I-QT, B-LC, B-QT, I-LC
-22	혼자	O	O	O, B-LC, B-QT, B-TM, B-CV
-23	걸어서	O	O	O, B-LC, B-QT, B-TM, I-LC
-24	남극	O	B-LC	B-LC, O, B-TM, B-AF, I-LC
-25	##점	O	I-LC	I-LC, O, I-TM, I-QT, B-LC
-26	##에	O	O	O, I-LC, I-QT, B-LC, I-AF
-27	도달	O	O	O, B-LC, B-QT, B-TM, B-CV
-28	##한	O	O	O, B-LC, B-QT, I-LC, B-PS
-29	기록	O	O	O, B-LC, B-CV, B-QT, B-TM
-30	(	O	O	O, B-LC, B-CV, B-OG, B-QT
-31	1993	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-LC
-32	##년	I-DT	I-DT	I-DT, O, I-QT, B-DT, I-PS
-33	)	O	O	O, I-DT, B-CV, I-QT, B-LC
-34	,	O	O	O, B-CV, B-LC, B-OG, B-PS
-35	사상	O	O	O, B-LC, B-CV, B-QT, B-OG
-36	최초	O	O	O, B-QT, B-LC, I-QT, B-TM
-37	##로	O	O	O, I-QT, B-LC, B-QT, I-LC
-38	북극	O	B-LC	B-LC, O, B-TM, B-AF, B-CV
-39	##점	O	I-LC	I-LC, O, I-QT, I-TM, B-LC
-40	남극	O	B-LC	B-LC, O, B-AF, B-TM, I-LC
-41	##점	O	I-LC	I-LC, O, I-QT, B-LC, I-AF
-42	에베레스트	B-LC	B-LC	B-LC, O, B-AF, I-LC, B-OG
-43	‘	O	O	O, I-LC, B-LC, B-QT, I-QT
-44	세	O	B-QT	B-QT, O, B-LC, I-QT, B-TM
-45	극	O	I-QT	I-QT, O, I-LC, B-QT, B-LC
-46	##점	O	I-QT	I-QT, O, I-LC, B-QT, I-TM
-47	’	O	O	O, I-QT, I-LC, B-LC, B-QT
-48	에	O	O	O, B-LC, B-QT, B-CV, B-PS
-49	모두	O	O	O, B-QT, B-LC, B-TM, B-CV
-50	도달	O	O	O, B-LC, B-QT, B-TM, B-CV
-51	##한	O	O	O, B-LC, B-QT, B-PS, B-CV
-52	기록	O	O	O, B-LC, B-CV, B-QT, B-TM
-53	(	O	O	O, B-CV, B-LC, B-OG, B-QT
-54	1994	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-LC
-55	##년	I-DT	I-DT	I-DT, O, I-QT, B-DT, I-PS
-56	)	O	O	O, I-DT, B-CV, I-QT, B-OG
-57	을	O	O	O, B-CV, B-LC, B-OG, B-TM
-58	갖	O	O	O, B-CV, B-OG, B-LC, B-TM
-59	##고	O	O	O, B-LC, B-CV, I-AF, I-OG
-60	있	O	O	O, B-CV, B-LC, I-QT, B-PS
-61	##다	O	O	O, B-CV, B-LC, I-QT, I-OG
-62	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-63	[SEP]	O	O	O, B-LC, B-CV, I-LC, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	정병국	B-PS	B-PS
+2	신당	O	O
+3	창당	B-CV	B-CV
+4	##준	I-CV	I-CV
+5	##비	I-CV	I-CV
+6	##위원	I-CV	I-CV
+7	##장	I-CV	I-CV
+8	##은	O	O
+9	5	B-DT	B-DT
+10	##일	I-DT	I-DT
+11	오전	B-TI	B-TI
+12	국회	B-OG	B-OG
+13	의원	B-AF	B-AF
+14	##회관	I-AF	I-AF
+15	##에	O	O
+16	##서	O	O
+17	열린	O	O
+18	창당	O	B-EV
+19	##준	O	I-EV
+20	##비	O	I-EV
+21	##회의	O	I-EV
+22	##에	O	O
+23	##서	O	O
+24	“	O	O
+25	어제	B-DT	B-DT
+26	(	O	O
+27	4	B-DT	B-DT
+28	##일	I-DT	I-DT
+29	)	O	O
+30	그	O	O
+31	회의	O	O
+32	자리	O	O
+33	##에	O	O
+34	##서는	O	O
+35	(	O	O
+36	선거	O	O
+37	##연	O	O
+38	##령	O	O
+39	하향	O	O
+40	조정	O	O
+41	##에	O	O
+42	대해	O	O
+43	)	O	O
+44	전체	O	O
+45	##적	O	O
+46	##으로	O	O
+47	이견	O	O
+48	##이	O	O
+49	없	O	O
+50	##었	O	O
+51	##지만	O	O
+52	,	O	O
+53	당헌	O	O
+54	·	O	O
+55	당규	O	O
+56	##가	O	O
+57	정해	O	O
+58	##지	O	O
+59	##지	O	O
+60	않	O	O
+61	##은	O	O
+62	상황	O	O
+63	##에	O	O
+64	##서	O	O
+65	당론	O	O
+66	##으로	O	O
+67	하	O	O
+68	##는	O	O
+69	게	O	O
+70	맞	O	O
+71	##느	O	O
+72	##냐	O	O
+73	##는	O	O
+74	문제	O	O
+75	##가	O	O
+76	있	O	O
+77	##다	O	O
+78	”	O	O
+79	며	O	O
+80	“	O	O
+81	이견	O	O
+82	##이	O	O
+83	있	O	O
+84	##고	O	O
+85	,	O	O
+86	어제	B-DT	B-DT
+87	참석	O	O
+88	##하	O	O
+89	##지	O	O
+90	못	O	O
+91	##한	O	O
+92	분도	O	O
+93	있	O	O
+94	##으므로	O	O
+95	,	O	O
+96	이	O	O
+97	부분	O	O
+98	##도	O	O
+99	다른	O	O
+100	사안	O	O
+101	##과	O	O
+102	마찬가지	O	O
+103	##로	O	O
+104	추후	O	O
+105	토론	O	O
+106	등의	O	O
+107	과정	O	O
+108	##을	O	O
+109	거쳐	O	O
+110	당의	O	O
+111	입장	O	O
+112	##을	O	O
+113	정리	O	O
+114	##하	O	O
+115	##겠다	O	O
+116	”	O	O
+117	고	O	O
+118	말	O	O
+119	##했	O	O
+120	##다	O	O
+121	.	O	O
+122	[SEP]	O	O

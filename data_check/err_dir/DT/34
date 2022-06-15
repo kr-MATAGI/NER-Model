@@ -1,53 +1,44 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	이	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
-2	대통령	B-CV	B-CV	B-CV, I-PS, O, I-CV, B-OG
-3	##이	O	O	O, I-CV, B-PS, I-EV, B-CV
-4	이날	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-QT
-5	문책	O	O	O, B-CV, I-DT, B-EV, B-PS
-6	##성	O	O	O, I-CV, B-PS, I-EV, B-CV
-7	인사	B-CV	O	O, B-CV, I-CV, B-EV, B-FD
-8	##는	O	O	O, I-CV, B-PS, I-EV, B-LC
-9	부인	O	O	O, B-CV, B-PS, B-LC, B-OG
-10	##하면	O	O	O, B-PS, B-LC, B-CV, B-DT
-11	##서	O	O	O, B-LC, B-PS, B-CV, B-OG
-12	“	O	O	O, B-LC, B-PS, B-CV, B-OG
-13	(	O	O	O, B-LC, B-PS, B-CV, B-QT
-14	개각	O	O	O, B-CV, B-EV, B-OG, B-FD
-15	##은	O	O	O, B-PS, I-EV, I-CV, B-LC
-16	)	O	O	O, B-LC, B-PS, B-CV, B-OG
-17	필요	O	O	O, B-PS, B-LC, B-CV, B-TM
-18	##하면	O	O	O, B-PS, B-LC, B-OG, B-TM
-19	언제	O	O	O, B-PS, B-LC, B-TM, B-OG
-20	##든지	O	O	O, B-PS, B-LC, B-QT, B-OG
-21	할	O	O	O, B-PS, B-LC, B-CV, B-OG
-22	수	O	O	O, B-PS, B-LC, B-CV, B-OG
-23	있	O	O	O, B-PS, B-LC, B-CV, B-OG
-24	##다	O	O	O, B-PS, B-LC, B-CV, B-OG
-25	”	O	O	O, B-CV, B-LC, B-OG, B-PS
-26	고	O	O	O, B-PS, B-CV, B-LC, B-OG
-27	밝힌	O	O	O, B-PS, B-CV, B-LC, B-DT
-28	점	O	O	O, B-CV, B-PS, B-LC, B-OG
-29	##에	O	O	O, B-CV, B-PS, B-LC, B-OG
-30	비춰	O	O	O, B-LC, B-PS, B-OG, B-EV
-31	,	O	O	O, B-LC, B-PS, B-DT, B-EV
-32	4	B-DT	B-DT	B-DT, B-EV, B-QT, O, B-LC
-33	·	I-DT	I-DT	I-DT, I-EV, I-QT, O, I-LC
-34	27	I-DT	I-EV	I-EV, I-DT, I-QT, I-LC, O
-35	재보	I-DT	I-EV	I-EV, I-DT, O, I-QT, B-DT
-36	##궐	I-DT	I-EV	I-EV, I-DT, O, I-QT, I-LC
-37	##선거	I-DT	I-DT	I-DT, I-EV, O, I-QT, I-LC
-38	전후	I-DT	I-DT	I-DT, O, I-EV, B-DT, I-QT
-39	일부	O	O	O, I-DT, B-LC, I-EV, B-QT
-40	개각	O	O	O, B-CV, B-EV, B-OG, B-TM
-41	##이	O	O	O, B-PS, I-EV, B-OG, B-LC
-42	이뤄질	O	O	O, B-LC, B-CV, B-OG, B-PS
-43	가능	O	O	O, B-CV, B-LC, B-PS, B-OG
-44	##성	O	O	O, B-PS, B-LC, B-OG, B-CV
-45	##은	O	O	O, B-CV, B-OG, B-LC, B-PS
-46	여전히	O	O	O, B-QT, B-TM, B-CV, B-LC
-47	남아	O	O	O, B-QT, B-TM, B-CV, B-LC
-48	있	O	O	O, I-QT, B-LC, B-CV, B-PS
-49	##다	O	O	O, B-CV, B-LC, B-TM, B-QT
-50	.	O	O	O, B-LC, B-PS, B-CV, B-OG
-51	[SEP]	O	O	O, B-LC, B-CV, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	고대	B-DT	B-DT
+2	희	I-DT	B-LC
+3	##랍	I-DT	I-LC
+4	##의	O	O
+5	희극	B-CV	B-CV
+6	##작	I-CV	I-CV
+7	##가	I-CV	I-CV
+8	아리스토	B-PS	B-PS
+9	##파	I-PS	I-PS
+10	##네스	I-PS	I-PS
+11	##의	O	O
+12	〈	O	O
+13	류	B-AF	B-AF
+14	##시스트	I-AF	I-AF
+15	##라	I-AF	I-AF
+16	##테	I-AF	I-AF
+17	〉	O	O
+18	(	O	O
+19	기원전	B-DT	B-DT
+20	41	I-DT	I-DT
+21	##1	I-DT	I-DT
+22	)	O	O
+23	를	O	O
+24	현대	O	O
+25	##적	O	O
+26	##으로	O	O
+27	해석	O	O
+28	##한	O	O
+29	작품	O	O
+30	##으로	O	O
+31	,	O	O
+32	극단	B-OG	B-OG
+33	해적	I-OG	I-OG
+34	##의	O	O
+35	태도	O	O
+36	##와	O	O
+37	솜씨	O	O
+38	##가	O	O
+39	고스란히	O	O
+40	드러난다	O	O
+41	.	O	O
+42	[SEP]	O	O

@@ -1,71 +1,51 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	18	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-LC
-2	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-3	청와대	B-AF	B-OG	B-OG, B-AF, O, B-LC, B-PS
-4	##와	O	O	O, I-OG, I-AF, I-DT, I-EV
-5	넥슨	B-OG	B-OG	B-OG, B-AF, O, B-LC, B-PS
-6	쪽	O	O	O, I-OG, I-AF, I-DT, I-CV
-7	##의	O	O	O, B-CV, I-OG, B-PS, B-TM
-8	말	O	O	O, B-CV, B-AM, B-TM, B-PS
-9	##을	O	O	O, B-CV, B-PS, B-OG, B-LC
-10	종합	O	O	O, B-CV, B-OG, B-TM, B-LC
-11	##하면	O	O	O, B-OG, B-LC, B-PS, B-CV
-12	,	O	O	O, B-CV, B-OG, B-LC, B-PS
-13	넥슨	B-OG	B-OG	B-OG, O, B-AF, B-LC, I-OG
-14	##코	I-OG	I-OG	I-OG, O, B-OG, I-AF, I-LC
-15	##리아	I-OG	I-OG	I-OG, O, I-AF, I-LC, I-CV
-16	##는	O	O	O, I-OG, I-AF, B-CV, I-QT
-17	2011	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-LC
-18	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-19	3	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-20	##월	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-21	서울	B-LC	B-LC	B-LC, B-OG, O, B-AF, I-LC
-22	강남구	B-LC	B-LC	B-LC, I-LC, O, B-OG, B-AF
-23	역삼동	B-LC	B-LC	B-LC, I-LC, O, B-OG, B-AF
-24	82	B-QT	B-QT	B-QT, I-LC, B-LC, B-AF, B-TM
-25	##5	I-QT	I-QT	I-QT, I-LC, I-AF, B-QT, I-TM
-26	-	I-QT	I-QT	I-QT, I-LC, I-AF, O, I-TM
-27	20	I-QT	I-QT	I-QT, I-LC, I-AF, B-QT, I-TM
-28	일대	O	O	O, I-QT, I-LC, B-TM, I-AF
-29	33	B-QT	B-QT	B-QT, I-QT, O, B-LC, B-TM
-30	##71	I-QT	I-QT	I-QT, I-LC, B-QT, O, I-AF
-31	.	I-QT	I-QT	I-QT, I-LC, O, B-QT, I-AF
-32	8	I-QT	I-QT	I-QT, I-LC, B-QT, O, I-AF
-33	##㎡	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-34	(	O	O	O, I-QT, B-CV, I-LC, B-LC
-35	약	B-QT	B-QT	B-QT, I-QT, O, B-DT, B-LC
-36	102	I-QT	I-QT	I-QT, B-QT, I-LC, O, I-PS
-37	##0	I-QT	I-QT	I-QT, I-LC, O, B-QT, I-PS
-38	##평	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-39	)	O	O	O, I-QT, B-CV, B-LC, I-LC
-40	땅	O	O	O, B-CV, B-LC, B-AF, B-TM
-41	##을	O	O	O, B-CV, B-PS, B-LC, B-AF
-42	우	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
-43	수석	B-CV	B-CV	B-CV, O, I-CV, I-PS, B-TM
-44	##의	O	O	O, I-CV, B-CV, I-AF, I-EV
-45	아내	B-CV	B-CV	B-CV, O, B-OG, B-TM, B-PS
-46	등	O	O	O, I-CV, B-CV, B-PS, I-AF
-47	네	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-CV
-48	자매	I-QT	I-QT	I-QT, O, I-CV, I-DT, B-CV
-49	##로	O	O	O, I-QT, I-CV, I-EV, B-CV
-50	##부터	O	O	O, B-LC, B-TM, B-OG, B-QT
-51	136	B-QT	B-QT	B-QT, I-QT, O, B-DT, B-LC
-52	##4	I-QT	I-QT	I-QT, I-LC, B-QT, O, I-PS
-53	##억	I-QT	I-QT	I-QT, I-LC, O, B-QT, I-PS
-54	##90	I-QT	I-QT	I-QT, I-LC, O, B-QT, I-PS
-55	##00	I-QT	I-QT	I-QT, I-LC, O, B-QT, I-PS
-56	##만	I-QT	I-QT	I-QT, I-LC, O, I-PS, B-QT
-57	##원	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-58	(	O	O	O, I-QT, B-CV, I-CV, I-OG
-59	국세청	O	B-OG	B-OG, O, B-AF, B-CV, B-EV
-60	신고	O	O	O, I-OG, I-CV, B-CV, I-AF
-61	##기	O	O	O, I-CV, I-AF, I-OG, B-PS
-62	##준	O	O	O, I-CV, I-AF, I-DT, B-PS
-63	)	O	O	O, B-LC, B-CV, B-OG, B-PS
-64	에	O	O	O, B-CV, B-OG, B-LC, B-TM
-65	매입	O	O	O, B-CV, B-TM, B-LC, B-QT
-66	##했	O	O	O, B-PS, B-LC, B-CV, B-OG
-67	##다	O	O	O, B-CV, B-LC, B-OG, B-TM
-68	.	O	O	O, B-LC, B-OG, B-CV, B-PS
-69	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	중국	B-OG	B-LC
+2	##의	O	O
+3	부상	O	O
+4	##과	O	O
+5	북	B-LC	B-LC
+6	##핵	O	B-AF
+7	위협	O	O
+8	,	O	O
+9	한국	B-OG	B-LC
+10	우익	O	O
+11	##들의	O	O
+12	무분별	O	O
+13	##한	O	O
+14	‘	O	O
+15	핵	O	O
+16	##무장	O	O
+17	##론	O	O
+18	’	O	O
+19	등	O	O
+20	##에	O	O
+21	맞서	O	O
+22	##기	O	O
+23	위한	O	O
+24	안전장치	O	O
+25	##로	O	O
+26	그동안	O	O
+27	애써	O	O
+28	만들	O	O
+29	##고	O	O
+30	보관	O	O
+31	##해	O	O
+32	##온	O	O
+33	플루토늄	B-MT	B-MT
+34	##을	O	O
+35	포기	O	O
+36	##하	O	O
+37	##지	O	O
+38	않	O	O
+39	##겠다	O	O
+40	##는	O	O
+41	의사	O	O
+42	##를	O	O
+43	에	O	O
+44	##둘러	O	O
+45	밝힌	O	O
+46	셈	O	O
+47	##이다	O	O
+48	.	O	O
+49	[SEP]	O	O

@@ -1,28 +1,30 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	""""	O	O	O, B-CV, B-PS, B-LC, B-OG
-2	나	O	O	O, B-CV, B-PS, B-OG, B-LC
-3	##는	O	O	O, B-CV, B-PS, B-LC, B-OG
-4	기꺼이	O	O	O, B-CV, B-LC, B-PS, B-OG
-5	6	B-EV	B-EV	B-EV, B-AF, O, B-LC, B-QT
-6	·	I-EV	I-EV	I-EV, I-QT, O, I-AF, I-LC
-7	25	I-EV	I-EV	I-EV, I-AF, I-QT, O, I-LC
-8	##전쟁	I-EV	I-EV	I-EV, O, I-AF, I-QT, I-LC
-9	##에	O	O	O, I-EV, I-AF, I-OG, I-QT
-10	참전	O	O	O, B-CV, B-LC, B-OG, B-PS
-11	##해	O	O	O, B-LC, B-PS, B-OG, I-OG
-12	위대	O	O	O, B-LC, B-OG, B-CV, B-PS
-13	##한	O	O	O, B-LC, B-PS, B-OG, B-TR
-14	민주주의	B-TR	B-TR	B-TR, O, I-TR, B-PS, B-TM
-15	국가	O	O	O, I-TR, I-OG, I-QT, I-CV
-16	##를	O	O	O, I-OG, B-CV, B-LC, I-AF
-17	구한	O	O	O, B-LC, B-CV, B-OG, B-PS
-18	모든	O	O	O, B-PS, B-CV, B-QT, B-LC
-19	사람	O	O	O, B-CV, B-PS, B-QT, I-QT
-20	##을	O	O	O, B-CV, B-PS, B-LC, I-CV
-21	대표	B-CV	O	O, B-CV, B-PS, I-CV, B-TM
-22	##하고	O	O	O, I-CV, B-PS, B-CV, I-QT
-23	있	O	O	O, B-CV, B-PS, I-CV, B-LC
-24	##다	O	O	O, B-CV, B-LC, B-PS, I-CV
-25	.	O	O	O, B-CV, B-LC, B-PS, B-OG
-26	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	농	B-CV	B-CV
+2	##인	I-CV	I-CV
+3	##들이	O	O
+4	청	B-CV	O
+5	##인	I-CV	O
+6	##하	O	O
+7	##고	O	O
+8	똑같이	O	O
+9	병원	O	O
+10	##을	O	O
+11	이용	O	O
+12	##할	O	O
+13	수	O	O
+14	있	O	O
+15	##는	O	O
+16	환경	O	O
+17	##이	O	O
+18	좀	O	O
+19	됐	O	O
+20	##으면	O	O
+21	좋	O	O
+22	##겠다	O	O
+23	##고	O	O
+24	생각	O	O
+25	##을	O	O
+26	해요	O	O
+27	.	O	O
+28	[SEP]	O	O

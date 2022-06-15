@@ -1,8 +1,33 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, I-AF, B-CV
-1	오늘	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-CV
-2	하루	B-DT	O	O, B-DT, I-DT, B-TI, B-QT
-3	안	O	O	O, I-DT, I-QT, B-CV, I-EV
-4	가져왔	O	O	O, B-CV, B-OG, B-PS, B-LC
-5	##으면	O	O	O, I-OG, I-TM, I-AF, I-CV
-6	[SEP]	O	O	O, B-CV, I-OG, B-LC, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	오바마	B-PS	B-PS
+2	대통령	B-CV	B-CV
+3	##의	O	O
+4	도쿄	B-LC	B-LC
+5	방문	O	O
+6	##을	O	O
+7	열흘	B-DT	B-DT
+8	남짓	I-DT	O
+9	앞두	O	O
+10	##고	O	O
+11	##도	O	O
+12	양국	O	O
+13	외무	B-CV	B-CV
+14	##장	I-CV	I-CV
+15	##관	I-CV	I-CV
+16	회담	O	O
+17	##이	O	O
+18	'	O	O
+19	취소	O	O
+20	'	O	O
+21	되	O	O
+22	##는	O	O
+23	상황	O	O
+24	##에	O	O
+25	당혹	O	O
+26	##스	O	O
+27	##러	O	O
+28	##워	O	O
+29	##한다	O	O
+30	.	O	O
+31	[SEP]	O	O

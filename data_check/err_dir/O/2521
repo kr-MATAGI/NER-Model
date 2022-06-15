@@ -1,23 +1,49 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	주택	O	O	O, B-CV, B-AF, B-QT, B-LC
-2	##이	O	O	O, B-PS, I-AF, I-CV, I-OG
-3	아니	O	O	O, B-PS, B-LC, B-CV, B-QT
-4	##어	O	O	O, B-PS, B-LC, I-AF, B-CV
-5	##서	O	O	O, B-LC, B-CV, B-PS, B-OG
-6	새로	O	O	O, B-CV, B-AF, B-PS, B-QT
-7	지	O	O	O, B-CV, B-PS, B-AF, B-LC
-8	##을	O	O	O, B-CV, I-AF, I-CV, B-PS
-9	때	O	O	O, B-CV, B-PS, B-QT, B-OG
-10	국민	B-CV	B-CV	B-CV, B-OG, O, B-AF, I-CV
-11	##주택	I-CV	I-CV	I-CV, O, I-OG, I-AF, B-CV
-12	##기금	I-CV	I-CV	I-CV, O, I-OG, I-AF, I-QT
-13	대출	O	I-CV	I-CV, O, I-AF, I-OG, B-CV
-14	##도	O	O	O, I-CV, I-AF, I-OG, I-QT
-15	불가	O	O	O, B-CV, B-TM, B-QT, B-OG
-16	##능	O	O	O, I-QT, I-CV, I-OG, I-TM
-17	##했	O	O	O, B-CV, I-OG, B-OG, I-CV
-18	##습	O	O	O, B-CV, B-OG, B-LC, B-QT
-19	##니다	O	O	O, B-CV, B-OG, B-LC, B-QT
-20	.	O	O	O, B-CV, B-LC, I-OG, I-AF
-21	[SEP]	O	O	O, B-CV, I-AF, I-OG, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	[	O	O
+2	北	B-OG	B-LC
+3	미사일	B-AF	B-AF
+4	도발	O	O
+5	]	O	O
+6	트럼프	B-PS	B-PS
+7	“	O	O
+8	문재인	B-PS	B-PS
+9	대통령	B-CV	B-CV
+10	,	O	O
+11	北	B-OG	B-OG
+12	과	O	O
+13	##의	O	O
+14	대화	O	O
+15	##는	O	O
+16	특정	O	O
+17	상황	O	O
+18	##서	O	O
+19	이뤄져야	O	O
+20	”	O	O
+21	12	B-DT	B-DT
+22	##일	I-DT	I-DT
+23	강조	O	O
+24	…	O	O
+25	美	B-OG	B-OG
+26	대표단	O	O
+27	15	B-DT	B-DT
+28	##일	I-DT	I-DT
+29	방한	O	O
+30	,	O	O
+31	정상	B-EV	B-EV
+32	##회	I-EV	I-EV
+33	##담	I-EV	I-EV
+34	조율	O	O
+35	中	O	B-LC
+36	,	O	O
+37	일대	O	O
+38	##일로	O	O
+39	잔	O	O
+40	##칫	O	O
+41	##날	O	O
+42	재	O	O
+43	##뿌	O	O
+44	##린	O	O
+45	北	B-OG	B-OG
+46	비난	O	O
+47	[SEP]	O	O

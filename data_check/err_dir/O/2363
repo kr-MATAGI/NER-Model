@@ -1,50 +1,48 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	박광	B-PS	B-PS	B-PS, B-OG, O, B-LC, I-PS
-2	##온	I-PS	I-PS	I-PS, I-OG, O, B-PS, I-LC
-3	국정	B-OG	B-OG	B-OG, O, I-OG, B-CV, B-EV
-4	##기획	I-OG	I-OG	I-OG, O, I-EV, B-OG, I-CV
-5	##위	I-OG	I-OG	I-OG, O, I-EV, I-CV, I-AF
-6	대변인	B-CV	B-CV	B-CV, O, I-CV, I-OG, B-AF
-7	##은	O	O	O, I-CV, I-OG, I-EV, B-CV
-8	""""	O	O	O, B-LC, B-CV, B-PS, B-OG
-9	중기청	B-OG	B-OG	B-OG, O, B-CV, B-AF, B-LC
-10	##의	O	O	O, I-OG, B-PS, I-CV, I-AF
-11	중소	B-OG	B-OG	B-OG, O, B-CV, B-AF, I-OG
-12	##벤처	I-OG	I-OG	I-OG, O, B-OG, I-CV, I-EV
-13	##기업	I-OG	I-OG	I-OG, O, B-OG, I-CV, I-AF
-14	##부	I-OG	I-OG	I-OG, O, I-CV, I-LC, I-AF
-15	승격	O	O	O, I-OG, B-CV, B-TM, B-PS
-16	##과	O	O	O, B-PS, B-LC, I-OG, B-OG
-17	통상	O	O	O, B-CV, B-TM, B-LC, B-FD
-18	기능	O	O	O, I-CV, B-CV, I-TM, I-QT
-19	외교부	B-OG	B-OG	B-OG, O, B-AF, B-CV, I-OG
-20	이관	O	O	O, I-OG, B-CV, B-TM, B-PS
-21	,	O	O	O, B-PS, B-CV, B-LC, I-OG
-22	소방	O	B-OG	B-OG, O, B-CV, B-AF, B-FD
-23	##과	O	O	O, I-OG, B-PS, I-CV, I-AF
-24	해양경찰	B-OG	B-OG	B-OG, O, B-CV, B-AF, I-OG
-25	##의	O	O	O, I-OG, I-CV, B-PS, I-AF
-26	분리	O	O	O, B-TM, B-LC, B-CV, B-OG
-27	독립	O	O	O, B-LC, B-CV, B-PS, B-TM
-28	등	O	O	O, B-PS, B-LC, B-OG, B-CV
-29	최소한	O	O	O, B-PS, B-OG, B-LC, B-CV
-30	##의	O	O	O, B-PS, B-LC, B-OG, I-PS
-31	정부	B-OG	B-OG	B-OG, O, B-AF, B-LC, B-CV
-32	조직	O	O	O, I-OG, B-CV, I-CV, B-PS
-33	개편	O	O	O, B-CV, B-PS, B-LC, I-CV
-34	##안	O	O	O, B-PS, B-LC, I-CV, B-CV
-35	##을	O	O	O, B-PS, B-LC, B-OG, B-CV
-36	6	B-DT	B-DT	B-DT, O, B-EV, I-DT, B-OG
-37	##월	I-DT	I-DT	I-DT, O, B-DT, I-OG, I-EV
-38	국회	B-OG	B-OG	B-OG, B-AF, O, B-LC, I-DT
-39	##에	O	O	O, I-OG, I-EV, I-DT, I-AF
-40	제출	O	O	O, B-CV, B-LC, B-OG, B-PS
-41	##하	O	O	O, B-PS, B-LC, B-OG, B-CV
-42	##겠다	O	O	O, B-CV, B-LC, B-OG, B-PS
-43	""""	O	O	O, B-CV, B-LC, B-TM, B-OG
-44	고	O	O	O, B-CV, B-LC, B-OG, B-TM
-45	밝혔	O	O	O, B-CV, B-OG, B-LC, B-PS
-46	##다	O	O	O, B-CV, B-TM, B-LC, B-OG
-47	.	O	O	O, B-LC, B-OG, B-PS, B-CV
-48	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	최근	O	O
+2	##에	O	O
+3	##는	O	O
+4	윤리	O	O
+5	경영	O	O
+6	##과	O	O
+7	사회	O	O
+8	##적	O	O
+9	책임	O	O
+10	##이	O	O
+11	##라는	O	O
+12	기반	O	O
+13	아래	O	O
+14	환경	O	B-TM
+15	-	O	I-TM
+16	문화	O	I-TM
+17	진흥	O	I-TM
+18	사업	O	I-TM
+19	##을	O	O
+20	지원	O	O
+21	##하	O	O
+22	##며	O	O
+23	창립	O	O
+24	100	B-DT	B-DT
+25	##주	I-DT	I-DT
+26	##년	I-DT	I-DT
+27	##인	O	O
+28	2018	B-DT	B-DT
+29	##년	I-DT	I-DT
+30	##에	O	O
+31	##는	O	O
+32	평창	B-EV	B-EV
+33	겨울	I-EV	I-EV
+34	##올	I-EV	I-EV
+35	##림픽	I-EV	I-EV
+36	##의	O	O
+37	공식	O	O
+38	후원	O	O
+39	##을	O	O
+40	맡기	O	O
+41	##도	O	O
+42	하	O	O
+43	##였	O	O
+44	##다	O	O
+45	.	O	O
+46	[SEP]	O	O

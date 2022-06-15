@@ -1,43 +1,48 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-EV, B-CV, I-OG, I-CV
-1	후반	B-TI	B-TI	B-TI, B-EV, B-QT, O, B-TR
-2	39	I-TI	I-TI	I-TI, B-TI, I-EV, I-QT, I-TR
-3	##분	I-TI	I-TI	I-TI, I-QT, O, I-EV, I-TR
-4	잠	B-OG	B-OG	B-OG, B-LC, O, I-TI, I-OG
-5	##비아	I-OG	I-OG	I-OG, I-LC, O, B-OG, I-EV
-6	##에	O	O	O, I-OG, I-EV, I-QT, I-AF
-7	역전	O	B-TM	B-TM, O, B-QT, B-EV, B-TR
-8	골	B-TM	I-TM	I-TM, B-TM, O, I-QT, I-TR
-9	##을	O	O	O, I-TM, I-QT, I-EV, I-AF
-10	내줬	O	O	O, B-CV, B-OG, B-TM, B-LC
-11	##지만	O	O	O, I-EV, B-OG, I-OG, B-CV
-12	,	O	O	O, B-CV, B-LC, B-OG, B-PS
-13	이탈리아	B-OG	B-OG	B-OG, B-LC, O, B-EV, B-PS
-14	##는	O	O	O, I-OG, I-EV, I-LC, I-QT
-15	경기	O	O	O, B-EV, B-CV, I-EV, B-LC
-16	종료	O	O	O, I-EV, B-TI, B-EV, B-LC
-17	2	B-TI	B-TI	B-TI, B-EV, B-QT, O, I-TI
-18	##분	I-TI	I-TI	I-TI, I-EV, I-QT, O, I-TR
-19	##을	O	O	O, I-TI, I-EV, I-QT, I-AF
-20	남기	O	O	O, I-TI, I-QT, B-QT, I-EV
-21	##고	O	O	O, I-TI, I-QT, B-PS, B-QT
-22	프리킥	B-TM	B-TM	B-TM, O, B-CV, I-TM, B-AF
-23	##으로	O	O	O, I-TM, I-QT, I-EV, I-CV
-24	재	O	O	O, B-TM, B-LC, B-QT, B-AF
-25	##동	O	O	O, I-TM, B-TM, I-LC, I-QT
-26	##점	O	O	O, I-TM, I-LC, I-QT, I-AF
-27	골	B-TM	B-TM	B-TM, I-TM, O, B-QT, I-QT
-28	##을	O	O	O, I-TM, I-QT, I-AF, I-EV
-29	만들	O	O	O, B-LC, B-CV, B-OG, B-QT
-30	##며	O	O	O, B-LC, B-QT, B-OG, B-CV
-31	기어이	O	O	O, B-LC, B-QT, B-EV, B-TM
-32	승부	O	O	O, B-EV, B-LC, B-TM, B-CV
-33	##를	O	O	O, I-EV, B-LC, B-EV, B-OG
-34	연장	O	O	O, B-EV, B-TM, B-LC, B-TI
-35	##으로	O	O	O, I-EV, B-EV, B-LC, I-QT
-36	끌	O	O	O, B-EV, B-LC, I-EV, B-TM
-37	##고	O	O	O, I-EV, B-LC, B-EV, B-QT
-38	갔	O	O	O, B-EV, B-LC, B-QT, B-OG
-39	##다	O	O	O, I-EV, B-CV, B-LC, I-QT
-40	.	O	O	O, B-LC, I-EV, B-CV, B-OG
-41	[SEP]	O	O	O, I-EV, B-CV, B-LC, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	황정	B-PS	B-PS
+2	##임	I-PS	I-PS
+3	한국	B-OG	B-OG
+4	##여	I-OG	I-OG
+5	##성	I-OG	I-OG
+6	##정책	I-OG	I-OG
+7	##연구원	I-OG	I-OG
+8	선임	B-CV	B-CV
+9	##연구	I-CV	I-CV
+10	##위원	I-CV	I-CV
+11	##은	O	O
+12	“	O	O
+13	피해자	B-CV	B-CV
+14	##가	O	O
+15	고령	O	O
+16	##인	O	O
+17	점	O	O
+18	##을	O	O
+19	감안	O	O
+20	##해	O	O
+21	호스피스	O	B-TR
+22	·	O	O
+23	완화	O	O
+24	##의	O	O
+25	##료	O	O
+26	서비스	O	O
+27	##를	O	O
+28	도입	O	O
+29	##하	O	O
+30	##고	O	O
+31	,	O	O
+32	자녀	B-CV	B-CV
+33	##들의	O	O
+34	심리	O	O
+35	지원	O	O
+36	##도	O	O
+37	병행	O	O
+38	##해야	O	O
+39	한다	O	O
+40	”	O	O
+41	고	O	O
+42	제언	O	O
+43	##했	O	O
+44	##다	O	O
+45	.	O	O
+46	[SEP]	O	O

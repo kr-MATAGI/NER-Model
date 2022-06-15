@@ -1,12 +1,29 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-AF
-1	도가니	B-CV	B-TM	B-TM, O, B-TR, B-AM, B-AF
-2	##뼈	B-TM	I-TM	I-TM, B-TM, O, I-TR, I-AM
-3	##가	O	O	O, I-TM, I-AF, I-TR, I-CV
-4	많이	O	O	O, B-CV, B-OG, B-LC, B-TM
-5	들어가	O	O	O, B-CV, B-OG, B-TM, B-LC
-6	##는	O	O	O, B-CV, B-OG, I-AF, B-LC
-7	거	O	O	O, B-CV, B-OG, I-AF, B-PS
-8	##보	O	O	O, B-CV, I-AF, I-OG, B-OG
-9	##다	O	O	O, B-CV, B-OG, I-AF, B-TM
-10	[SEP]	O	O	O, B-CV, B-OG, B-LC, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	양	O	O
+2	팀	O	O
+3	##의	O	O
+4	공격수	B-CV	B-CV
+5	황희	B-PS	B-PS
+6	##찬	I-PS	I-PS
+7	##과	O	O
+8	김신	B-PS	B-PS
+9	##은	O	O
+10	청소년	B-CV	B-OG
+11	대표	O	I-OG
+12	##팀	O	I-OG
+13	##에	O	O
+14	##선	O	O
+15	'	O	O
+16	찰떡	O	O
+17	##궁	O	O
+18	##합	O	O
+19	'	O	O
+20	을	O	O
+21	자랑	O	O
+22	##하	O	O
+23	##는	O	O
+24	콤비	O	O
+25	##다	O	O
+26	.	O	O
+27	[SEP]	O	O

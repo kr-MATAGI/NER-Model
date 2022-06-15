@@ -1,20 +1,41 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	스물	B-QT	B-QT	B-QT, O, B-DT, I-QT, B-TI
-2	##아	I-QT	I-QT	I-QT, O, B-QT, I-DT, I-LC
-3	##홉	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-DT
-4	여덟	I-QT	B-QT	B-QT, O, I-QT, B-DT, B-CV
-5	먹	O	O	O, I-QT, B-QT, I-DT, I-CV
-6	##은	O	O	O, I-QT, I-CV, B-PS, I-DT
-7	젊	O	O	O, B-CV, B-QT, I-QT, B-TM
-8	##은	O	O	O, I-CV, I-QT, B-PS, I-PS
-9	승려	B-CV	B-CV	B-CV, O, I-CV, B-QT, I-QT
-10	##를	O	O	O, I-CV, I-QT, B-CV, I-AF
-11	만나	O	O	O, B-CV, B-OG, B-TM, B-QT
-12	##는데	O	O	O, B-CV, I-AF, B-OG, I-CV
-13	그거	O	O	O, B-CV, B-PS, B-TM, B-LC
-14	월	B-PS	O	O, B-CV, B-PS, B-OG, B-DT
-15	##운	I-PS	O	O, I-PS, I-CV, I-AF, I-LC
-16	##입니다	O	O	O, I-OG, I-CV, I-AF, I-EV
-17	.	O	O	O, B-CV, B-LC, B-PS, I-AF
-18	[SEP]	O	O	O, B-CV, B-TM, B-FD, I-CV
+	text	label	preds
+0	[CLS]	O	O
+1	2	B-DT	B-DT
+2	##월	I-DT	I-DT
+3	##에	O	O
+4	##는	O	O
+5	대만	B-LC	B-LC
+6	중서	B-TM	B-TM
+7	##부	I-TM	I-TM
+8	지역	O	O
+9	퉁	B-LC	B-LC
+10	##샤오	I-LC	I-LC
+11	##에	O	O
+12	건설	O	O
+13	##될	O	O
+14	가스	B-TM	B-TM
+15	##복	I-TM	I-TM
+16	##합	I-TM	I-TM
+17	##화	I-TM	I-TM
+18	##력	I-TM	I-TM
+19	##발전	I-TM	I-TM
+20	##소	I-TM	I-TM
+21	프로젝트	I-TM	I-TM
+22	##에	O	O
+23	##서	O	O
+24	1400	B-QT	B-QT
+25	##억	I-QT	I-QT
+26	원	I-QT	I-QT
+27	규모	O	O
+28	##의	O	O
+29	H	B-QT	B-TM
+30	##RS	I-QT	I-TM
+31	##G	I-QT	I-TM
+32	6	I-QT	B-QT
+33	##기	I-QT	I-QT
+34	##를	O	O
+35	수주	O	O
+36	##했	O	O
+37	##다	O	O
+38	.	O	O
+39	[SEP]	O	O

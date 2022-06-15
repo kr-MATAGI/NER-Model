@@ -1,33 +1,17 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	김	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-2	전	O	O	O, I-PS, B-CV, I-OG, I-AF
-3	대통령	B-CV	B-CV	B-CV, O, I-CV, B-EV, B-OG
-4	##의	O	O	O, I-CV, I-EV, I-AF, I-OG
-5	‘	O	O	O, B-CV, B-OG, B-LC, B-AF
-6	만인	B-AF	B-AF	B-AF, O, B-TM, B-CV, B-TR
-7	##보	I-AF	I-AF	I-AF, O, I-TR, I-TM, I-OG
-8	’	O	O	O, I-AF, I-OG, I-EV, I-QT
-9	는	O	O	O, B-OG, B-CV, B-LC, I-AF
-10	“	O	O	O, B-CV, B-LC, B-OG, B-TM
-11	내	O	O	O, B-CV, B-PS, B-LC, B-TM
-12	몸	B-AM	B-AM	B-AM, O, B-TM, B-QT, B-PS
-13	##의	O	O	O, I-QT, I-AF, B-PS, I-CV
-14	반	B-QT	O	O, B-QT, I-QT, B-TM, B-AM
-15	##이	O	O	O, I-QT, B-PS, I-PS, B-CV
-16	무너지	O	O	O, B-CV, B-PS, I-QT, B-QT
-17	##는	O	O	O, B-PS, B-CV, I-AF, I-QT
-18	것	O	O	O, B-CV, B-PS, I-AF, I-QT
-19	같	O	O	O, B-CV, B-PS, I-QT, B-TM
-20	##은	O	O	O, B-PS, B-CV, I-CV, I-AF
-21	심정	O	O	O, B-CV, B-TM, B-QT, B-PS
-22	”	O	O	O, B-CV, B-PS, B-TM, B-LC
-23	이라	O	O	O, B-CV, B-PS, B-QT, B-TM
-24	##는	O	O	O, B-CV, I-CV, I-QT, B-QT
-25	말	O	O	O, B-QT, I-QT, B-TM, B-FD
-26	##로	O	O	O, I-QT, B-CV, B-QT, B-OG
-27	마무리	O	O	O, B-QT, B-CV, B-TM, B-AF
-28	##된	O	O	O, I-QT, I-OG, B-CV, B-PS
-29	##다	O	O	O, B-CV, B-LC, I-OG, B-OG
-30	.	O	O	O, B-CV, B-PS, B-LC, B-FD
-31	[SEP]	O	O	O, B-CV, B-PS, B-FD, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	그	O	O
+2	우리	O	O
+3	학생	B-CV	B-CV
+4	##들이	O	O
+5	쓰	O	O
+6	##는	O	O
+7	불량	O	O
+8	언어	O	O
+9	##의	O	O
+10	반	B-QT	O
+11	##은	O	O
+12	욕설	O	O
+13	##이	O	O
+14	##고	O	O
+15	[SEP]	O	O

@@ -1,12 +1,51 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	이게	O	O	O, B-CV, B-OG, B-PS, B-LC
-2	지금	O	O	O, B-CV, B-OG, B-TM, B-AF
-3	시민	B-CV	O	O, B-FD, B-CV, B-TR, B-EV
-4	정치	O	I-FD	I-FD, O, B-FD, I-CV, I-TR
-5	##와	O	O	O, I-FD, I-CV, I-OG, I-AF
-6	관련	O	O	O, B-CV, B-TM, B-FD, B-LC
-7	##해서	O	O	O, B-LC, B-CV, B-PS, B-OG
-8	보	O	O	O, B-CV, B-OG, B-LC, B-TM
-9	##면	O	O	O, B-OG, B-CV, B-LC, B-PS
-10	[SEP]	O	O	O, B-CV, I-OG, B-OG, B-FD
+	text	label	preds
+0	[CLS]	O	O
+1	검경	O	B-OG
+2	등	O	O
+3	사정	O	O
+4	##기	O	O
+5	##관	O	O
+6	##을	O	O
+7	총괄	O	O
+8	##하	O	O
+9	##는	O	O
+10	민정	B-CV	B-CV
+11	##수	I-CV	I-CV
+12	##석	I-CV	I-CV
+13	##이	O	O
+14	청와대	B-OG	B-OG
+15	##가	O	O
+16	있	O	O
+17	##는	O	O
+18	수도	B-LC	O
+19	서울	B-LC	B-LC
+20	##의	O	O
+21	경비	B-CV	O
+22	##와	O	O
+23	대통령	B-CV	B-CV
+24	경호	O	O
+25	##를	O	O
+26	관할	O	O
+27	##하	O	O
+28	##는	O	O
+29	서울	B-OG	B-OG
+30	##청	I-OG	I-OG
+31	경비	O	B-CV
+32	##부	O	I-CV
+33	##장	O	I-CV
+34	##을	O	O
+35	모른다	O	O
+36	##는	O	O
+37	것	O	O
+38	##은	O	O
+39	앞뒤	O	O
+40	##가	O	O
+41	맞	O	O
+42	##지	O	O
+43	않	O	O
+44	##는	O	O
+45	##다는	O	O
+46	것	O	O
+47	##이다	O	O
+48	.	O	O
+49	[SEP]	O	O

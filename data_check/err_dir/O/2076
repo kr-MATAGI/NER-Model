@@ -1,21 +1,11 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	독일	O	B-LC	B-LC, O, B-OG, B-PS, B-CV
-2	##통일	O	O	O, I-LC, I-OG, I-CV, I-AF
-3	누가	O	O	O, B-LC, B-PS, B-CV, I-LC
-4	가장	O	O	O, B-CV, B-LC, B-PS, B-QT
-5	중요	O	O	O, B-CV, B-LC, B-PS, B-OG
-6	##한	O	O	O, B-LC, B-PS, B-OG, I-LC
-7	것	O	O	O, B-LC, B-OG, B-CV, B-PS
-8	##은	O	O	O, B-LC, B-CV, B-PS, B-OG
-9	동독	B-LC	B-LC	B-LC, O, B-OG, B-PS, B-AF
-10	주민	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-TM
-11	##이	O	O	O, I-CV, B-CV, I-OG, I-AF
-12	그걸	O	O	O, B-CV, B-OG, I-CV, I-AF
-13	원했	O	O	O, B-CV, B-PS, B-LC, B-OG
-14	##다는	O	O	O, B-CV, B-PS, I-CV, B-OG
-15	것	O	O	O, B-CV, B-PS, B-OG, B-LC
-16	##이	O	O	O, B-PS, B-CV, B-OG, B-LC
-17	##죠	O	O	O, B-CV, I-OG, B-OG, I-CV
-18	.	O	O	O, B-CV, B-PS, B-LC, I-OG
-19	[SEP]	O	O	O, B-CV, B-PS, B-LC, I-EV
+	text	label	preds
+0	[CLS]	O	O
+1	하루	B-DT	B-DT
+2	호흡	O	O
+3	맞춘	O	O
+4	南	O	B-LC
+5	北	O	I-LC
+6	,	O	O
+7	환상	O	O
+8	호흡	O	O
+9	[SEP]	O	O

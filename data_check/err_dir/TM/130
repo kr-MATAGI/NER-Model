@@ -1,32 +1,39 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-QT
-1	따라서	O	O	O, B-CV, B-TM, B-LC, B-OG
-2	본격	O	O	O, B-CV, B-LC, B-TM, B-QT
-3	##적으로	O	O	O, B-LC, B-PS, B-CV, I-QT
-4	운동	O	O	O, B-CV, B-TM, B-LC, B-EV
-5	##하기	O	O	O, B-CV, B-PS, I-CV, I-AF
-6	전	O	O	O, B-CV, B-PS, B-TM, B-LC
-7	##에	O	O	O, B-CV, B-PS, B-OG, B-LC
-8	관절	B-TM	B-TM	B-TM, O, B-TR, B-AM, B-CV
-9	##을	O	O	O, I-TM, I-AF, I-CV, B-CV
-10	움직여	O	O	O, B-TM, B-CV, B-LC, B-PS
-11	관절	B-TM	B-TM	B-TM, O, I-TM, B-AM, B-TR
-12	막	I-TM	O	O, I-TM, I-AF, I-MT, I-CV
-13	,	O	O	O, I-TM, I-AF, I-CV, B-TM
-14	힘줄	B-TM	B-TM	B-TM, O, B-AF, B-MT, I-TM
-15	,	O	O	O, I-TM, I-AF, B-CV, B-TM
-16	근육	B-TM	B-TM	B-TM, O, B-TR, B-AF, B-MT
-17	,	O	O	O, I-TM, B-TM, I-AF, I-CV
-18	인대	B-TM	B-TM	B-TM, O, B-TR, B-AF, I-TM
-19	##를	O	O	O, I-TM, B-TM, I-AF, I-QT
-20	서서히	O	O	O, B-TM, B-LC, B-QT, B-PS
-21	늘려	O	O	O, B-QT, B-TM, B-LC, B-PS
-22	주	O	O	O, B-PS, B-CV, B-TM, B-LC
-23	##는	O	O	O, B-CV, B-TM, B-PS, I-QT
-24	스트레칭	O	B-CV	B-CV, O, B-AF, B-TM, B-FD
-25	##을	O	O	O, I-CV, I-AF, I-EV, B-CV
-26	먼저	O	O	O, B-CV, B-TM, B-QT, B-LC
-27	해야	O	O	O, B-CV, B-OG, B-LC, B-TM
-28	한다	O	O	O, B-CV, B-LC, B-TM, B-OG
-29	.	O	O	O, B-LC, B-CV, B-TM, B-PS
-30	[SEP]	O	O	O, B-CV, B-TM, B-LC, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	광	B-LC	B-LC
+2	##릉	I-LC	I-LC
+3	수목원	I-LC	I-LC
+4	##에	O	O
+5	크	B-AM	B-AM
+6	##낙	I-AM	I-AM
+7	##새	I-AM	I-AM
+8	##의	O	O
+9	모형	O	O
+10	##을	O	O
+11	달아	O	O
+12	##놓	O	O
+13	##고	O	O
+14	그	O	O
+15	밑	B-TM	O
+16	##을	O	O
+17	지나가	O	O
+18	##면	O	O
+19	‘	O	O
+20	클락	O	O
+21	~	O	O
+22	클락	O	O
+23	~	O	O
+24	’	O	O
+25	하고	O	O
+26	울	O	O
+27	##도록	O	O
+28	만들	O	O
+29	##어	O	O
+30	놓	O	O
+31	##은	O	O
+32	적	O	O
+33	##이	O	O
+34	있	O	O
+35	##다	O	O
+36	.	O	O
+37	[SEP]	O	O

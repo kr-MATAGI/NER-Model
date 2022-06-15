@@ -1,72 +1,78 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	국가	B-OG	B-OG	B-OG, O, B-PS, B-LC, I-OG
-2	##인권	I-OG	I-OG	I-OG, O, B-OG, I-EV, I-AF
-3	##위원회	I-OG	I-OG	I-OG, O, I-EV, I-LC, I-AF
-4	##가	O	O	O, I-OG, B-PS, I-EV, I-AF
-5	2004	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-LC
-6	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-7	국내	O	O	O, I-DT, B-CV, B-LC, B-OG
-8	##에서	O	O	O, B-LC, B-PS, B-CV, B-OG
-9	원	O	O	O, B-CV, B-LC, B-EV, B-PS
-10	##폭	O	O	O, I-LC, I-CV, I-PS, I-EV
-11	피해자	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-TM
-12	##가	O	O	O, I-CV, B-PS, I-OG, I-AF
-13	가장	O	O	O, B-QT, B-LC, B-CV, B-PS
-14	많	O	O	O, B-LC, B-CV, B-OG, B-PS
-15	##아	O	O	O, B-LC, B-PS, B-OG, B-QT
-16	‘	O	O	O, B-LC, B-PS, B-CV, B-OG
-17	한국	B-LC	B-LC	B-LC, O, B-AF, B-OG, B-PS
-18	##의	O	O	O, I-LC, I-PS, I-AF, B-PS
-19	히로시마	B-LC	B-LC	B-LC, I-LC, O, B-PS, B-AF
-20	’	O	O	O, I-LC, I-AF, I-PS, B-LC
-21	라고	O	O	O, B-LC, B-PS, B-CV, B-OG
-22	불리	O	O	O, B-LC, B-CV, B-PS, B-OG
-23	##는	O	O	O, B-LC, B-PS, I-LC, B-OG
-24	경남	B-LC	B-LC	B-LC, O, B-OG, B-AF, B-PS
-25	합천	B-LC	B-LC	B-LC, I-LC, O, B-OG, B-AF
-26	##군	I-LC	I-LC	I-LC, O, I-OG, B-LC, I-AF
-27	##에서	O	O	O, I-LC, B-LC, I-AF, I-OG
-28	원	O	O	O, B-LC, B-CV, B-EV, B-QT
-29	##폭	O	O	O, I-LC, I-CV, I-PS, I-AF
-30	피해자	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-TM
-31	##의	O	O	O, I-CV, I-OG, B-CV, I-QT
-32	건강	O	O	O, B-LC, B-TM, B-CV, B-OG
-33	##실	O	O	O, B-LC, B-PS, I-OG, I-LC
-34	##태	O	O	O, B-LC, I-LC, I-OG, B-PS
-35	##를	O	O	O, B-CV, B-LC, B-OG, B-TM
-36	조사	O	O	O, B-CV, B-LC, B-OG, B-TM
-37	##한	O	O	O, B-PS, B-LC, B-OG, B-CV
-38	결과	O	O	O, B-CV, B-OG, B-LC, B-TM
-39	,	O	O	O, B-LC, B-CV, B-OG, B-PS
-40	원	O	O	O, B-CV, B-EV, B-LC, B-TM
-41	##폭	O	O	O, I-LC, I-CV, I-EV, I-PS
-42	직접	B-CV	B-CV	B-CV, O, B-QT, I-CV, B-EV
-43	##피	I-CV	B-CV	B-CV, I-CV, O, I-QT, I-EV
-44	##해	I-CV	I-CV	I-CV, O, B-CV, I-QT, I-OG
-45	##자	I-CV	I-CV	I-CV, O, B-CV, I-QT, I-OG
-46	##의	O	O	O, I-CV, I-QT, I-OG, B-PS
-47	우울증	B-TM	B-TM	B-TM, O, B-CV, I-TM, B-LC
-48	,	O	O	O, I-TM, I-CV, I-QT, I-AF
-49	빈혈	B-TM	B-TM	B-TM, O, I-TM, B-CV, B-LC
-50	,	O	O	O, I-TM, I-CV, I-AF, I-QT
-51	정신	B-TM	B-TM	B-TM, O, B-CV, I-TM, B-QT
-52	##분	I-TM	I-TM	I-TM, O, B-TM, I-QT, I-CV
-53	##열	I-TM	I-TM	I-TM, O, I-QT, B-TM, I-CV
-54	##증	I-TM	I-TM	I-TM, O, I-QT, B-TM, I-CV
-55	등	O	O	O, I-TM, I-QT, I-OG, I-CV
-56	유병	O	O	O, B-OG, B-CV, B-LC, B-TM
-57	##률	O	O	O, B-LC, I-OG, B-PS, B-OG
-58	##이	O	O	O, B-PS, B-OG, B-LC, B-CV
-59	국민	B-CV	B-CV	B-CV, O, B-OG, I-CV, B-TM
-60	평균	O	O	O, I-CV, I-OG, I-QT, B-CV
-61	##의	O	O	O, B-LC, B-CV, B-PS, B-OG
-62	최고	O	O	O, B-QT, B-CV, B-DT, B-LC
-63	93	B-QT	B-QT	B-QT, I-QT, O, B-DT, B-PS
-64	##배	I-QT	I-QT	I-QT, O, I-LC, I-DT, I-PS
-65	##에	O	O	O, I-QT, I-OG, B-CV, I-CV
-66	이르	O	O	O, B-LC, B-OG, B-QT, B-CV
-67	##렀	O	O	O, B-LC, B-OG, B-CV, I-OG
-68	##다	O	O	O, B-CV, B-LC, B-TM, I-OG
-69	.	O	O	O, B-LC, B-PS, B-OG, B-CV
-70	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	‘	O	O
+2	국민	B-CV	B-CV
+3	##행	I-CV	I-CV
+4	##복	I-CV	I-CV
+5	##연금	I-CV	I-CV
+6	’	O	O
+7	이	O	O
+8	모든	O	O
+9	노인	O	O
+10	##에	O	O
+11	##게	O	O
+12	지급	O	O
+13	##하	O	O
+14	##는	O	O
+15	세금	O	O
+16	기반	O	O
+17	##의	O	O
+18	기초	B-CV	B-CV
+19	##연금	I-CV	I-CV
+20	##과	O	O
+21	가입자	B-CV	O
+22	##들이	O	O
+23	낸	O	O
+24	보험료	O	B-CV
+25	##를	O	O
+26	기반	O	O
+27	##으로	O	O
+28	하	O	O
+29	##는	O	O
+30	국민연금	B-CV	B-CV
+31	##을	O	O
+32	포괄	O	O
+33	##하	O	O
+34	##는	O	O
+35	통합	O	O
+36	##적	O	O
+37	##인	O	O
+38	연금	O	B-CV
+39	##체	O	O
+40	##계	O	O
+41	##를	O	O
+42	가리키	O	O
+43	##는	O	O
+44	것	O	O
+45	##임	O	O
+46	##에도	O	O
+47	,	O	O
+48	이	O	O
+49	위원회	O	O
+50	##가	O	O
+51	국민연금	B-CV	B-CV
+52	##제	I-CV	I-CV
+53	##도	I-CV	I-CV
+54	##를	O	O
+55	제외	O	O
+56	##한	O	O
+57	기초	O	B-CV
+58	##연금	O	I-CV
+59	##제	O	I-CV
+60	##도	O	I-CV
+61	##만	O	O
+62	논의	O	O
+63	##하	O	O
+64	##도록	O	O
+65	한	O	O
+66	것	O	O
+67	##은	O	O
+68	맞	O	O
+69	##지	O	O
+70	않	O	O
+71	##는	O	O
+72	##다는	O	O
+73	지적도	O	O
+74	나온다	O	O
+75	.	O	O
+76	[SEP]	O	O

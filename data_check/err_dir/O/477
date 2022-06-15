@@ -1,22 +1,48 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	맞붙	O	O	O, B-CV, B-TM, B-LC, B-OG
-2	##인	O	O	O, B-PS, B-CV, B-LC, B-AF
-3	의자	O	O	O, B-CV, B-PS, B-AF, B-TM
-4	##를	O	O	O, B-CV, I-AF, I-CV, B-OG
-5	뒤집	O	O	O, B-CV, B-TM, B-PS, B-OG
-6	##으면	O	O	O, B-PS, I-AF, B-CV, B-LC
-7	등	O	O	O, B-AM, B-TM, B-CV, B-LC
-8	##받이	O	O	O, I-AM, I-TM, I-PS, I-CV
-9	##는	O	O	O, B-CV, B-LC, B-PS, I-AF
-10	안정	O	O	O, B-PS, B-LC, B-TM, B-CV
-11	##감	O	O	O, B-PS, I-PS, B-LC, I-LC
-12	있	O	O	O, B-PS, B-LC, I-PS, B-CV
-13	##으면서	O	O	O, B-PS, B-LC, B-CV, B-TM
-14	##도	O	O	O, B-PS, B-LC, B-CV, I-AF
-15	아름다운	O	O	O, B-LC, B-PS, B-AF, B-CV
-16	다리	O	B-AM	B-AM, O, B-TM, B-AF, B-TR
-17	##가	O	O	O, I-AF, I-CV, I-TM, B-PS
-18	된다	O	O	O, B-CV, B-TM, B-LC, B-PS
-19	.	O	O	O, B-CV, B-LC, B-PS, B-AF
-20	[SEP]	O	O	O, B-CV, B-LC, B-PS, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	‘	O	O
+2	위기	O	B-OG
+3	##의	O	I-OG
+4	스페인	B-LC	I-OG
+5	##호	O	I-OG
+6	’	O	O
+7	를	O	O
+8	이끌	O	O
+9	##게	O	O
+10	될	O	O
+11	라	B-PS	B-PS
+12	##호	I-PS	I-PS
+13	##이	I-PS	I-PS
+14	대표	B-CV	B-CV
+15	##를	O	O
+16	두고	O	O
+17	##선	O	O
+18	“	O	O
+19	유로존	O	O
+20	부채	O	O
+21	##위	O	O
+22	##기에	O	O
+23	휘말	O	O
+24	##린	O	O
+25	나라	O	O
+26	##의	O	O
+27	위기	O	O
+28	관리자	B-CV	B-CV
+29	역할	O	O
+30	##을	O	O
+31	맡기	O	O
+32	##엔	O	O
+33	조심	O	O
+34	##스럽	O	O
+35	##고	O	O
+36	온건	O	O
+37	##한	O	O
+38	인물	O	O
+39	”	O	O
+40	이라	O	O
+41	##는	O	O
+42	평가	O	O
+43	##가	O	O
+44	나온다	O	O
+45	.	O	O
+46	[SEP]	O	O

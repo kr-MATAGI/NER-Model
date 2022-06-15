@@ -1,15 +1,27 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, I-AF, I-OG, B-CV
-1	바리	O	B-FD	B-FD, B-CV, B-AF, B-OG, O
-2	##톤	O	I-CV	I-CV, I-FD, I-OG, I-AF, O
-3	둘	B-QT	B-QT	B-QT, O, I-QT, B-DT, I-OG
-4	뭐	O	O	O, I-QT, I-CV, I-AF, I-OG
-5	뭐	O	O	O, B-CV, I-AF, B-PS, I-CV
-6	또	O	O	O, B-CV, B-PS, B-LC, B-TM
-7	뭐	O	O	O, B-CV, B-PS, I-AF, I-CV
-8	##지	O	O	O, I-AF, I-CV, B-CV, B-PS
-9	?	O	O	O, B-CV, I-AF, I-CV, B-PS
-10	뭐	O	O	O, B-CV, B-PS, I-AF, B-TM
-11	##라	O	O	O, B-PS, I-CV, I-AF, B-CV
-12	그러니	O	O	O, B-CV, I-AF, B-PS, I-CV
-13	[SEP]	O	O	O, B-CV, I-CV, I-AF, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	■	O	O
+2	작가	B-CV	B-CV
+3	##도	O	O
+4	관객	B-CV	B-CV
+5	##도	O	O
+6	시대	O	O
+7	##도	O	O
+8	흔들	O	O
+9	##흔	O	O
+10	##들	O	O
+11	그	O	O
+12	##의	O	O
+13	신작	O	O
+14	##으로	O	O
+15	다가가	O	O
+16	##면	O	O
+17	어지	O	B-TM
+18	##럼	O	I-TM
+19	##증	O	I-TM
+20	##을	O	O
+21	느끼	O	O
+22	##게	O	O
+23	된다	O	O
+24	.	O	O
+25	[SEP]	O	O

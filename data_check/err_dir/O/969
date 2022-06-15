@@ -1,21 +1,74 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-AF
-1	동요	O	B-FD	B-FD, O, I-FD, B-CV, B-AF
-2	##부터	O	O	O, I-FD, I-OG, I-AF, B-FD
-3	팝	O	B-FD	B-FD, O, I-FD, B-CV, B-AF
-4	##송	O	I-FD	I-FD, O, B-FD, I-AF, I-CV
-5	,	O	O	O, I-FD, I-OG, I-AF, I-CV
-6	최신	O	O	O, B-FD, B-AF, B-LC, B-PS
-7	아이돌	B-CV	B-CV	B-CV, O, B-PS, B-AF, I-CV
-8	노래	O	O	O, I-CV, I-FD, I-AF, I-OG
-9	##까	O	O	O, I-AF, B-CV, B-PS, I-CV
-10	##지	O	O	O, B-LC, B-PS, B-OG, B-CV
-11	여러	O	O	O, B-PS, B-LC, B-OG, B-TM
-12	장르	O	O	O, B-FD, B-CV, B-PS, B-QT
-13	##를	O	O	O, B-CV, B-PS, I-OG, B-OG
-14	두루	O	O	O, B-CV, B-LC, B-TM, B-OG
-15	섭렵	O	O	O, B-CV, B-OG, B-PS, B-LC
-16	##했	O	O	O, B-CV, B-PS, B-OG, I-OG
-17	##다	O	O	O, B-CV, B-PS, I-OG, B-FD
-18	.	O	O	O, B-FD, B-CV, B-PS, B-LC
-19	[SEP]	O	O	O, B-FD, B-CV, I-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	군	B-OG	B-OG
+2	##은	O	O
+3	천안	B-AF	B-AF
+4	##함	I-AF	I-AF
+5	##을	O	O
+6	인양	O	O
+7	##한	O	O
+8	15	B-DT	B-DT
+9	##일	I-DT	I-DT
+10	##부터	I-DT	I-DT
+11	이날	B-DT	B-DT
+12	오전	B-TI	B-TI
+13	##까	I-TI	I-TI
+14	##지	I-TI	I-TI
+15	계속	O	O
+16	##된	O	O
+17	군의	O	O
+18	함	B-AF	O
+19	##미	I-AF	O
+20	내부	O	O
+21	수색	O	O
+22	##작	O	O
+23	##업	O	O
+24	##에도	O	O
+25	불구	O	O
+26	##하	O	O
+27	##고	O	O
+28	이창	B-PS	B-PS
+29	##기	I-PS	I-PS
+30	원사	B-CV	B-CV
+31	,	O	O
+32	최	B-PS	B-PS
+33	##한	I-PS	I-PS
+34	##권	I-PS	I-PS
+35	상사	B-CV	B-CV
+36	,	O	O
+37	박경	B-PS	B-PS
+38	##수	I-PS	I-PS
+39	중사	B-CV	B-CV
+40	,	O	O
+41	박성	B-PS	B-PS
+42	##균	I-PS	I-PS
+43	하사	B-CV	B-CV
+44	,	O	O
+45	박보	B-PS	B-PS
+46	##람	I-PS	I-PS
+47	하사	B-CV	B-CV
+48	,	O	O
+49	장진	B-PS	B-PS
+50	##선	I-PS	I-PS
+51	하사	B-CV	B-CV
+52	,	O	O
+53	강태	B-PS	B-PS
+54	##민	I-PS	I-PS
+55	일병	B-CV	B-CV
+56	,	O	O
+57	정태	B-PS	B-PS
+58	##준	I-PS	I-PS
+59	이병	B-CV	B-CV
+60	등	O	O
+61	8	B-QT	B-QT
+62	##명	I-QT	I-QT
+63	##의	O	O
+64	실종자	O	B-CV
+65	##를	O	O
+66	찾	O	O
+67	##지	O	O
+68	못	O	O
+69	##했	O	O
+70	##다	O	O
+71	.	O	O
+72	[SEP]	O	O

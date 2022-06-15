@@ -1,10 +1,81 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-EV, I-CV, B-CV
-1	무한도전	B-AF	B-AF	B-AF, O, B-PS, B-OG, B-EV
-2	·	O	O	O, I-AF, I-OG, I-EV, I-DT
-3	동네	B-AF	B-AF	B-AF, O, B-EV, B-OG, B-TM
-4	예체능	I-AF	I-AF	I-AF, O, I-EV, I-OG, I-TM
-5	·	O	O	O, I-AF, I-EV, I-OG, I-TM
-6	힐링	B-AF	O	O, B-EV, B-AF, B-TM, B-OG
-7	##캠프	I-AF	O	O, I-AF, I-EV, I-TM, I-OG
-8	[SEP]	O	O	O, I-EV, I-AF, I-OG, I-TM
+	text	label	preds
+0	[CLS]	O	O
+1	16	B-DT	B-DT
+2	##일	I-DT	I-DT
+3	서울	B-LC	B-LC
+4	성균관	B-OG	B-OG
+5	##대	I-OG	I-OG
+6	##에	O	O
+7	##서	O	O
+8	경기도	B-LC	B-LC
+9	실학	B-OG	B-OG
+10	##박	I-OG	I-OG
+11	##물	I-OG	I-OG
+12	##관	I-OG	I-OG
+13	##과	O	O
+14	성균관	B-OG	B-OG
+15	##대	I-OG	I-OG
+16	대동	B-OG	B-OG
+17	##문화	I-OG	I-OG
+18	##연구원	I-OG	I-OG
+19	##이	O	O
+20	공동	O	O
+21	주최	O	O
+22	##한	O	O
+23	심포지엄	O	O
+24	‘	O	O
+25	사람	O	B-EV
+26	##과	O	I-EV
+27	땅	O	I-EV
+28	,	O	I-EV
+29	택	B-AF	I-EV
+30	##리지	I-AF	I-EV
+31	##가	O	I-EV
+32	그리	O	I-EV
+33	##는	O	I-EV
+34	인문	O	I-EV
+35	##지	O	I-EV
+36	##리	O	I-EV
+37	’	O	O
+38	에서	O	O
+39	안대	B-PS	B-PS
+40	##회	I-PS	I-PS
+41	성균관	B-OG	B-OG
+42	##대	I-OG	I-OG
+43	한문	O	O
+44	##학	O	O
+45	##과	O	O
+46	교수	B-CV	B-CV
+47	##는	O	O
+48	“	O	O
+49	각	O	O
+50	지역	O	O
+51	##의	O	O
+52	전설	O	O
+53	##과	O	O
+54	설화	B-FD	O
+55	##를	O	O
+56	적극	O	O
+57	기록	O	O
+58	##한	O	O
+59	택	B-AF	B-AF
+60	##리지	I-AF	I-AF
+61	##는	O	O
+62	구비	B-FD	B-FD
+63	##문	I-FD	I-FD
+64	##학	I-FD	I-FD
+65	##과	O	O
+66	스토리텔링	O	O
+67	##의	O	O
+68	보고	O	O
+69	(	O	O
+70	寶	O	O
+71	庫	O	O
+72	)	O	O
+73	”	O	O
+74	라고	O	O
+75	말	O	O
+76	##했	O	O
+77	##다	O	O
+78	.	O	O
+79	[SEP]	O	O

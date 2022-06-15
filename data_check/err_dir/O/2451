@@ -1,34 +1,24 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-QT
-1	종부	O	B-CV	B-CV, O, B-OG, B-AF, I-CV
-2	##세	O	I-CV	I-CV, O, I-OG, I-AF, I-TM
-3	##가	O	O	O, I-CV, I-OG, I-AF, B-PS
-4	재산세	O	B-CV	B-CV, O, B-AF, B-OG, I-CV
-5	##로	O	O	O, I-CV, I-OG, I-AF, I-EV
-6	통합	O	O	O, B-OG, B-TM, B-PS, B-LC
-7	##되	O	O	O, B-PS, I-OG, B-OG, B-LC
-8	##면	O	O	O, B-OG, B-LC, B-PS, I-OG
-9	다	B-CV	B-CV	B-CV, O, B-OG, B-TM, B-QT
-10	##주택	I-CV	I-CV	I-CV, O, B-CV, I-QT, I-OG
-11	##자	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-QT
-12	##의	O	O	O, I-CV, I-OG, I-QT, B-PS
-13	세금	O	O	O, B-CV, B-TM, B-LC, B-OG
-14	부담	O	O	O, B-OG, B-TM, B-PS, B-LC
-15	##은	O	O	O, B-OG, B-PS, B-TM, B-LC
-16	줄어드	O	O	O, B-OG, B-PS, B-QT, B-TM
-17	##는	O	O	O, B-PS, B-TM, I-OG, I-QT
-18	반면	O	O	O, B-TM, B-LC, B-PS, B-CV
-19	,	O	O	O, B-CV, B-OG, B-LC, B-PS
-20	1	B-CV	B-CV	B-CV, O, B-QT, B-OG, B-PS
-21	##주택	I-CV	I-CV	I-CV, O, I-QT, B-CV, I-OG
-22	##자	I-CV	I-CV	I-CV, O, I-QT, I-OG, B-CV
-23	##의	O	O	O, I-CV, I-QT, I-OG, I-AF
-24	세금	O	O	O, B-CV, B-TM, B-LC, B-QT
-25	부담	O	O	O, B-TM, B-OG, B-CV, B-PS
-26	##이	O	O	O, B-PS, B-OG, B-CV, B-LC
-27	늘어날	O	O	O, B-CV, B-TM, B-OG, B-LC
-28	가능	O	O	O, B-CV, B-TM, B-OG, B-QT
-29	##성이	O	O	O, B-CV, I-OG, B-TM, B-OG
-30	크다	O	O	O, B-CV, B-TM, I-OG, B-QT
-31	.	O	O	O, B-LC, B-OG, B-PS, B-CV
-32	[SEP]	O	O	O, B-LC, B-CV, B-OG, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	그	O	O
+2	청소년	B-CV	B-CV
+3	##들이	O	O
+4	문화	O	O
+5	##적	O	O
+6	##으로	O	O
+7	셀러	O	B-CV
+8	##브리	O	I-CV
+9	##티	O	I-CV
+10	라고	O	O
+11	할	O	O
+12	만한	O	O
+13	부류	O	O
+14	##가	O	O
+15	세	B-QT	B-QT
+16	종류	I-QT	I-QT
+17	##가	O	O
+18	있	O	O
+19	##습	O	O
+20	##니다	O	O
+21	.	O	O
+22	[SEP]	O	O

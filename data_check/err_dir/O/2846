@@ -1,18 +1,19 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-AF
-1	[	O	O	O, B-OG, B-LC, B-PS, B-AF
-2	한겨레	O	B-OG	B-OG, O, B-AF, B-PS, B-CV
-3	프리	O	O	O, I-OG, I-AF, B-TR, I-TR
-4	##즘	O	O	O, I-OG, I-TR, I-AF, I-CV
-5	]	O	O	O, I-OG, I-AF, B-PS, I-EV
-6	내	O	O	O, B-AF, B-CV, B-PS, B-LC
-7	사전	O	O	O, B-AF, I-AF, B-CV, B-TM
-8	##에	O	O	O, I-AF, B-PS, I-CV, B-CV
-9	혈세	O	O	O, B-CV, B-AF, B-TM, B-PS
-10	##는	O	O	O, I-AF, I-CV, B-PS, B-CV
-11	없	O	O	O, I-AF, B-CV, B-PS, B-LC
-12	##다	O	O	O, I-AF, B-PS, I-OG, B-LC
-13	/	O	O	O, B-PS, B-LC, B-OG, I-AF
-14	권혁	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-AF
-15	##철	I-PS	I-PS	I-PS, O, I-OG, I-LC, B-PS
-16	[SEP]	O	O	O, I-PS, I-AF, I-OG, B-CV
+	text	label	preds
+0	[CLS]	O	O
+1	지금	O	O
+2	이거	O	O
+3	어	O	O
+4	대선	B-EV	B-EV
+5	##에	O	O
+6	나와야	O	O
+7	된다는	O	O
+8	황	O	O
+9	황교안	B-PS	B-PS
+10	권한	O	B-CV
+11	##대	O	I-CV
+12	##행	O	I-CV
+13	##은	O	O
+14	그건	O	O
+15	##요	O	O
+16	.	O	O
+17	[SEP]	O	O

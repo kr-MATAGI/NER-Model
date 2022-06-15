@@ -1,38 +1,64 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	같	B-DT	B-DT	B-DT, O, B-EV, B-LC, I-DT
-2	##은	I-DT	I-DT	I-DT, O, B-DT, I-EV, I-QT
-3	해	I-DT	I-DT	I-DT, O, B-DT, I-EV, I-QT
-4	종로구	B-LC	B-LC	B-LC, O, B-OG, I-LC, I-DT
-5	누	B-LC	B-LC	B-LC, O, I-LC, B-OG, B-AF
-6	##하	I-LC	I-LC	I-LC, O, B-LC, I-AF, I-PS
-7	##동	I-LC	I-LC	I-LC, O, B-LC, I-AF, I-PS
-8	##에	O	O	O, I-LC, I-AF, B-LC, B-CV
-9	있	O	O	O, B-PS, B-CV, B-LC, B-FD
-10	##는	O	O	O, B-CV, B-PS, B-FD, B-LC
-11	동양	B-CV	O	O, B-FD, B-LC, B-CV, I-FD
-12	##화가	I-CV	O	O, B-CV, I-CV, B-FD, I-FD
-13	청	B-PS	B-PS	B-PS, O, B-LC, I-PS, B-CV
-14	##전	I-PS	I-PS	I-PS, O, I-LC, I-CV, B-PS
-15	(	I-PS	O	O, I-PS, B-PS, I-LC, I-CV
-16	靑	I-PS	O	O, B-PS, I-PS, B-LC, I-LC
-17	田	I-PS	O	O, I-PS, B-PS, I-LC, I-CV
-18	)	I-PS	O	O, I-PS, B-PS, I-LC, I-CV
-19	이상	I-PS	B-PS	B-PS, O, I-PS, B-LC, B-CV
-20	##범	I-PS	I-PS	I-PS, O, I-LC, I-OG, B-PS
-21	##의	O	O	O, I-PS, B-CV, B-LC, I-AF
-22	가옥	O	O	O, B-LC, B-CV, B-TM, B-AF
-23	##이	O	O	O, B-PS, B-LC, B-CV, B-OG
-24	일대	O	O	O, B-LC, B-CV, B-TM, B-EV
-25	재개	O	O	O, B-TM, B-CV, B-LC, B-EV
-26	##발	O	O	O, I-EV, I-TM, I-LC, I-OG
-27	사업	O	O	O, B-LC, I-EV, B-PS, B-CV
-28	과정	O	O	O, B-CV, B-PS, B-LC, I-EV
-29	##에서	O	O	O, B-LC, B-CV, B-PS, B-TM
-30	사라질	O	O	O, B-CV, B-LC, B-TM, B-QT
-31	위기	O	O	O, B-CV, B-TM, B-QT, B-LC
-32	##에	O	O	O, B-CV, I-OG, B-PS, B-OG
-33	놓였	O	O	O, B-CV, B-LC, B-OG, B-QT
-34	##다	O	O	O, B-CV, B-LC, I-OG, B-TM
-35	.	O	O	O, B-LC, B-PS, B-CV, B-TM
-36	[SEP]	O	O	O, B-LC, B-CV, B-PS, I-LC
+	text	label	preds
+0	[CLS]	O	O
+1	정상회의	B-EV	B-EV
+2	뒤	O	O
+3	단체	O	O
+4	##사진	O	O
+5	##을	O	O
+6	찍	O	O
+7	##을	O	O
+8	때	O	O
+9	##는	O	O
+10	앞서	O	O
+11	걸어가	O	O
+12	##던	O	O
+13	두	B-PS	B-PS
+14	##스코	I-PS	I-PS
+15	마르코	I-PS	I-PS
+16	##비치	I-PS	I-PS
+17	몬테	I-PS	B-LC
+18	##네	I-PS	I-LC
+19	##그로	I-PS	I-LC
+20	총리	B-CV	B-CV
+21	##를	O	O
+22	언	O	O
+23	##짢	O	O
+24	##은	O	O
+25	표정	O	O
+26	##을	O	O
+27	지으며	O	O
+28	확	O	O
+29	밀	O	O
+30	##치	O	O
+31	##고	O	O
+32	##는	O	O
+33	아무	O	O
+34	일	O	O
+35	##도	O	O
+36	없	O	O
+37	##던	O	O
+38	것	O	O
+39	##처럼	O	O
+40	옷	O	O
+41	##매	O	O
+42	##무새	O	O
+43	##를	O	O
+44	만지	O	O
+45	##는	O	O
+46	모습	O	O
+47	##이	O	O
+48	소셜	O	O
+49	##미디어	O	O
+50	##를	O	O
+51	통해	O	O
+52	퍼지	O	O
+53	##면	O	O
+54	##서	O	O
+55	거센	O	O
+56	비판	O	O
+57	##을	O	O
+58	받	O	O
+59	##았	O	O
+60	##다	O	O
+61	.	O	O
+62	[SEP]	O	O

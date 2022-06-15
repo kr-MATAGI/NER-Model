@@ -1,25 +1,72 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, B-CV, I-OG, I-AF
-1	근데	O	O	O, B-CV, B-OG, B-TM, B-LC
-2	여기	O	O	O, B-CV, B-PS, B-OG, B-LC
-3	##서	O	O	O, B-CV, B-PS, B-LC, I-AF
-4	##의	O	O	O, B-CV, B-PS, B-LC, B-OG
-5	저	O	O	O, B-CV, B-PS, B-OG, B-LC
-6	##도	O	O	O, B-CV, B-PS, B-LC, B-AF
-7	한글	O	O	O, B-CV, B-TM, B-AM, B-FD
-8	##이	O	O	O, B-PS, I-CV, I-AF, B-CV
-9	뭔가	O	O	O, B-CV, B-PS, I-AF, I-CV
-10	##라고	O	O	O, B-CV, B-PS, B-TM, B-OG
-11	해	O	O	O, B-CV, B-PS, B-TM, B-LC
-12	갖	O	O	O, B-CV, B-PS, B-TM, I-OG
-13	##고	O	O	O, B-CV, B-PS, B-LC, B-TM
-14	우리	O	O	O, B-CV, B-AF, B-LC, B-FD
-15	한글	O	O	O, B-CV, B-AF, I-AF, B-FD
-16	연세	B-AF	O	O, B-AF, B-CV, B-PS, I-AF
-17	한국어	I-AF	B-CV	B-CV, I-AF, B-AF, I-CV, O
-18	사전	I-AF	O	O, I-AF, I-CV, B-AF, B-CV
-19	찾아	O	O	O, I-AF, I-CV, B-CV, I-OG
-20	##봤	O	O	O, B-CV, I-AF, B-TM, I-CV
-21	##어요	O	O	O, B-CV, I-CV, I-AF, I-OG
-22	.	O	O	O, B-CV, B-PS, B-LC, B-TM
-23	[SEP]	O	O	O, B-CV, I-AF, B-PS, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	4	B-DT	B-DT
+2	##월	I-DT	I-DT
+3	17	I-DT	I-DT
+4	##일	I-DT	I-DT
+5	##까	I-DT	I-DT
+6	##지	I-DT	I-DT
+7	서울	B-LC	B-LC
+8	남산	B-AF	B-AF
+9	##국	I-AF	I-AF
+10	##악	I-AF	I-AF
+11	##당	I-AF	I-AF
+12	##에	O	O
+13	##서	O	O
+14	공연	O	O
+15	##되	O	O
+16	##는	O	O
+17	극단	O	B-OG
+18	목화	B-OG	B-OG
+19	##의	O	O
+20	‘	O	O
+21	북	B-AF	B-AF
+22	##청사	I-AF	I-AF
+23	##자	I-AF	I-AF
+24	##야	I-AF	I-AF
+25	놀	I-AF	I-AF
+26	##자	I-AF	I-AF
+27	’	O	O
+28	와	O	O
+29	26	B-DT	B-DT
+30	##일	I-DT	I-DT
+31	##∼	I-DT	I-DT
+32	##4	I-DT	I-DT
+33	##월	I-DT	I-DT
+34	1	I-DT	I-DT
+35	##일	I-DT	I-DT
+36	서울	B-LC	B-LC
+37	##과	O	O
+38	경남	B-LC	B-LC
+39	통영	B-LC	B-LC
+40	##에	O	O
+41	##서	O	O
+42	아시아	B-LC	B-LC
+43	##지역	O	O
+44	초연	O	O
+45	##무	O	O
+46	##대	O	O
+47	##를	O	O
+48	갖	O	O
+49	##는	O	O
+50	힐	O	B-OG
+51	##리어	O	I-OG
+52	##드	O	I-OG
+53	앙상블	O	I-OG
+54	##의	O	O
+55	‘	O	O
+56	그	B-AF	B-AF
+57	집	I-AF	I-AF
+58	##에	I-AF	O
+59	갔	I-AF	O
+60	##지만	I-AF	O
+61	,	I-AF	O
+62	들어가	I-AF	O
+63	##지	I-AF	O
+64	않	I-AF	O
+65	##았	I-AF	O
+66	##다	I-AF	O
+67	’	O	O
+68	다	O	O
+69	.	O	O
+70	[SEP]	O	O

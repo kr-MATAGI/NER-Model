@@ -1,17 +1,52 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	“	O	O	O, B-CV, B-LC, B-OG, B-PS
-2	한	B-LC	B-LC	B-LC, B-OG, O, B-EV, B-CV
-3	·	O	I-LC	I-LC, O, B-LC, I-OG, I-EV
-4	일	B-LC	I-LC	I-LC, B-LC, B-OG, I-OG, O
-5	영유권	O	O	O, B-CV, B-LC, I-LC, I-CV
-6	##분	O	O	O, I-CV, I-EV, I-LC, B-CV
-7	##쟁	O	O	O, I-EV, I-CV, B-CV, B-LC
-8	어느	O	O	O, B-PS, B-LC, B-OG, B-CV
-9	##편	O	O	O, B-LC, B-TM, B-OG, B-QT
-10	##도	O	O	O, I-OG, B-CV, B-PS, I-QT
-11	안	O	O	O, B-CV, B-LC, B-TM, B-OG
-12	##들	O	O	O, B-CV, B-LC, B-PS, B-OG
-13	##것	O	O	O, B-CV, B-PS, B-LC, B-OG
-14	”	O	O	O, B-CV, B-LC, B-PS, I-OG
-15	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	공	B-PS	B-PS
+2	시장	B-CV	B-CV
+3	##은	O	O
+4	“	O	O
+5	서해안	B-LC	B-LC
+6	##과	O	O
+7	접한	O	O
+8	평택	B-LC	B-LC
+9	##호	I-LC	I-LC
+10	##는	O	O
+11	평택	O	B-LC
+12	최고	O	O
+13	##의	O	O
+14	관광	O	O
+15	##자원	O	O
+16	##이지	O	O
+17	##만	O	O
+18	그동안	O	O
+19	제대로	O	O
+20	활용	O	O
+21	##하	O	O
+22	##지	O	O
+23	못	O	O
+24	##했	O	O
+25	##다	O	O
+26	”	O	O
+27	며	O	O
+28	“	O	O
+29	적극	O	O
+30	##적	O	O
+31	##인	O	O
+32	개발	O	O
+33	##과	O	O
+34	홍보	O	O
+35	##로	O	O
+36	평택	O	B-LC
+37	##의	O	O
+38	명소	O	O
+39	##로	O	O
+40	거듭나	O	O
+41	##게	O	O
+42	하	O	O
+43	##겠다	O	O
+44	”	O	O
+45	고	O	O
+46	말	O	O
+47	##했	O	O
+48	##다	O	O
+49	.	O	O
+50	[SEP]	O	O

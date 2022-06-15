@@ -1,31 +1,36 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-QT
-1	지난해	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-2	총	O	O	O, B-QT, I-DT, I-QT, B-DT
-3	150	B-QT	B-QT	B-QT, I-QT, O, B-DT, I-DT
-4	##억	I-QT	I-QT	I-QT, O, I-DT, B-QT, I-LC
-5	원	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-DT
-6	##의	O	O	O, I-QT, I-OG, I-EV, B-CV
-7	매출	O	O	O, B-CV, B-TM, B-LC, I-QT
-8	##을	O	O	O, B-OG, B-CV, B-TM, I-OG
-9	올리	O	O	O, B-OG, B-CV, B-TM, B-LC
-10	##며	O	O	O, B-LC, B-CV, B-OG, B-TM
-11	녹차	B-CV	B-CV	B-CV, O, B-AF, B-OG, B-PT
-12	##음료	O	I-CV	I-CV, O, B-CV, I-OG, I-AF
-13	시장	O	O	O, I-CV, B-CV, B-TM, B-LC
-14	##에서	O	O	O, B-CV, B-LC, B-TM, B-OG
-15	점유	O	O	O, B-OG, B-TM, B-CV, B-LC
-16	##율	O	O	O, B-PS, I-QT, I-OG, B-LC
-17	42	B-QT	B-QT	B-QT, I-QT, O, B-DT, B-PS
-18	.	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-19	8	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-20	%	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-21	로	O	O	O, I-QT, B-CV, I-OG, B-OG
-22	1	B-QT	B-QT	B-QT, I-QT, O, B-DT, B-EV
-23	##위	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-24	##를	O	O	O, I-QT, I-OG, I-EV, I-AF
-25	차지	O	O	O, B-CV, B-OG, B-TM, B-LC
-26	##했	O	O	O, B-OG, I-OG, B-CV, B-LC
-27	##다	O	O	O, B-CV, B-OG, I-OG, B-LC
-28	.	O	O	O, B-LC, B-OG, B-CV, I-OG
-29	[SEP]	O	O	O, B-CV, B-LC, B-OG, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	이	O	O
+2	같	O	O
+3	##은	O	O
+4	염	O	O
+5	##전	O	O
+6	농가	O	O
+7	##의	O	O
+8	어려움	O	O
+9	##을	O	O
+10	해소	O	O
+11	##하	O	O
+12	##고	O	O
+13	천일염	B-CV	B-CV
+14	##을	O	O
+15	우리	O	O
+16	##나라	O	O
+17	##의	O	O
+18	대표	O	O
+19	식품	O	O
+20	##으로	O	O
+21	육성	O	O
+22	##하	O	O
+23	##기	O	O
+24	위해	O	O
+25	정부	B-OG	B-OG
+26	##가	O	O
+27	팔	O	B-AM
+28	##을	O	O
+29	걷어	O	O
+30	##붙	O	O
+31	##였	O	O
+32	##다	O	O
+33	.	O	O
+34	[SEP]	O	O

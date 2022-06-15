@@ -1,21 +1,19 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	전국	O	O	O, B-LC, B-CV, B-PS, B-OG
-2	##적으로	O	O	O, B-LC, B-PS, B-QT, B-CV
-3	200	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-EV
-4	##만	I-QT	I-QT	I-QT, O, I-PS, I-LC, I-EV
-5	##명	I-QT	I-QT	I-QT, O, I-LC, I-PS, I-EV
-6	##이	O	O	O, I-QT, B-PS, B-OG, I-OG
-7	넘	O	O	O, B-CV, B-OG, B-PS, B-LC
-8	##는	O	O	O, B-CV, B-OG, B-LC, B-PS
-9	특수	O	B-CV	B-CV, O, B-AF, B-TR, I-CV
-10	##고	O	O	O, I-CV, B-CV, I-AF, I-TR
-11	##용	O	I-CV	I-CV, O, B-CV, I-AF, I-TR
-12	노동자	B-CV	I-CV	I-CV, B-CV, O, I-AF, I-OG
-13	##는	O	O	O, I-CV, I-AF, I-OG, B-CV
-14	대표	O	O	O, B-CV, B-PS, B-LC, B-QT
-15	##적인	O	O	O, B-PS, B-LC, B-QT, I-QT
-16	비정규직	B-CV	B-CV	B-CV, O, B-OG, B-AF, B-TM
-17	##이다	O	O	O, I-CV, I-OG, B-CV, I-AF
-18	.	O	O	O, B-LC, B-PS, B-CV, B-OG
-19	[SEP]	O	O	O, B-CV, B-LC, B-PS, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	오늘	B-DT	B-DT
+2	##은	O	O
+3	당시	O	O
+4	사건	O	O
+5	##으로	O	O
+6	인해서	O	O
+7	사장	B-CV	B-CV
+8	##직	O	I-CV
+9	##에	O	O
+10	##서	O	O
+11	물러나	O	O
+12	##야	O	O
+13	##만	O	O
+14	했	O	O
+15	##던	O	O
+16	네	O	O
+17	[SEP]	O	O

@@ -1,34 +1,41 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-EV, I-CV
-1	3	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-EV
-2	##위	I-QT	I-QT	I-QT, O, I-EV, I-DT, I-OG
-3	SK	B-OG	B-OG	B-OG, I-QT, O, B-LC, I-OG
-4	##는	O	O	O, I-OG, I-QT, I-EV, B-CV
-5	사직	O	B-LC	B-LC, O, B-AF, B-EV, B-OG
-6	##에서	O	O	O, I-LC, I-AF, I-EV, I-OG
-7	2	B-QT	B-QT	B-QT, O, I-QT, B-EV, B-DT
-8	##위	I-QT	I-QT	I-QT, O, I-EV, I-LC, I-PS
-9	롯데	B-OG	B-OG	B-OG, I-QT, B-LC, I-OG, O
-10	##를	O	O	O, I-OG, I-QT, I-EV, I-AF
-11	3	B-QT	B-QT	B-QT, I-QT, O, B-EV, B-DT
-12	-	I-QT	I-QT	I-QT, O, B-QT, I-EV, I-LC
-13	1	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-14	##로	O	O	O, I-QT, I-EV, B-CV, I-OG
-15	누르	O	O	O, B-CV, B-QT, B-EV, I-QT
-16	##고	O	O	O, B-CV, B-QT, B-LC, B-OG
-17	두	B-QT	B-QT	B-QT, O, I-QT, B-EV, B-DT
-18	팀	I-QT	I-QT	I-QT, O, I-EV, B-QT, I-LC
-19	간	O	O	O, I-QT, B-CV, B-TM, I-EV
-20	##의	O	O	O, B-CV, B-LC, B-QT, B-TM
-21	승차	O	O	O, B-TM, B-QT, B-CV, B-OG
-22	##를	O	O	O, B-QT, B-CV, B-TM, B-OG
-23	0	B-QT	B-QT	B-QT, O, I-QT, B-EV, B-DT
-24	.	I-QT	I-QT	I-QT, O, B-QT, I-EV, I-LC
-25	5	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-26	##경기	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-EV
-27	##로	O	O	O, I-QT, B-CV, B-TM, I-EV
-28	좁	O	O	O, B-QT, B-TM, B-CV, I-QT
-29	##혔	O	O	O, B-CV, B-QT, I-QT, B-TM
-30	##다	O	O	O, B-CV, B-QT, I-QT, B-TM
-31	.	O	O	O, B-QT, B-LC, B-CV, B-OG
-32	[SEP]	O	O	O, B-CV, B-QT, B-LC, I-QT
+	text	label	preds
+0	[CLS]	O	O
+1	횡령	O	B-CV
+2	및	O	O
+3	사기	O	O
+4	혐의	O	O
+5	##로	O	O
+6	조사	O	O
+7	##를	O	O
+8	받	O	O
+9	##던	O	O
+10	김	B-PS	B-PS
+11	씨	O	O
+12	##는	O	O
+13	수개월	O	O
+14	동안	O	O
+15	자신	O	O
+16	##이	O	O
+17	불구	O	O
+18	##속	O	O
+19	수사	O	O
+20	##를	O	O
+21	받	O	O
+22	##도록	O	O
+23	김	B-PS	B-PS
+24	부장	B-CV	B-CV
+25	##검사	I-CV	I-CV
+26	##가	O	O
+27	검찰	B-OG	B-OG
+28	##에	O	O
+29	영향력	O	O
+30	##을	O	O
+31	행사	O	O
+32	##할	O	O
+33	것	O	O
+34	##을	O	O
+35	종용	O	O
+36	##했	O	O
+37	##다	O	O
+38	.	O	O
+39	[SEP]	O	O

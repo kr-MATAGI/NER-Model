@@ -1,24 +1,39 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	한겨	B-DT	O	O, B-DT, B-CV, B-TI, B-QT
-2	##울	I-DT	O	O, I-DT, B-DT, B-TI, B-CV
-3	##에	O	O	O, I-DT, B-CV, I-AF, I-QT
-4	##는	O	O	O, B-CV, B-OG, B-LC, B-TM
-5	뭐	O	O	O, B-CV, B-TM, B-QT, B-OG
-6	너무나	O	O	O, B-CV, B-DT, B-LC, B-QT
-7	쉽	O	O	O, B-CV, B-TM, B-LC, B-QT
-8	##게	O	O	O, B-CV, B-LC, B-PS, B-OG
-9	구할	O	O	O, B-CV, B-TM, B-LC, B-OG
-10	수	O	O	O, B-LC, B-PS, B-CV, B-TM
-11	있	O	O	O, B-CV, B-LC, B-TM, B-PS
-12	##는	O	O	O, B-CV, B-LC, B-PS, B-OG
-13	무	B-CV	B-CV	B-CV, O, B-PT, I-CV, B-OG
-14	##하고	O	O	O, I-CV, I-AF, I-OG, B-CV
-15	떡	B-CV	B-CV	B-CV, O, I-CV, B-PT, B-AM
-16	##이	O	O	O, I-CV, I-AF, B-CV, I-OG
-17	##기	O	O	O, B-CV, B-OG, B-TM, I-AF
-18	때문	O	O	O, B-CV, B-OG, B-TM, I-AF
-19	##에	O	O	O, B-CV, I-OG, I-AF, B-OG
-20	##요	O	O	O, B-CV, I-OG, B-OG, B-LC
-21	.	O	O	O, B-CV, B-LC, I-OG, I-AF
-22	[SEP]	O	O	O, B-CV, I-AF, I-OG, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	교육부	B-OG	B-OG
+2	##는	O	O
+3	지난해	B-DT	B-DT
+4	2	B-DT	I-DT
+5	·	I-DT	I-DT
+6	8	I-DT	I-DT
+7	##월	I-DT	I-DT
+8	정년	O	O
+9	##퇴	O	O
+10	##임	O	O
+11	##식	O	O
+12	##과	O	O
+13	같	B-DT	B-DT
+14	##은	I-DT	I-DT
+15	해	I-DT	I-DT
+16	5	I-DT	I-DT
+17	##월	I-DT	I-DT
+18	스승	B-DT	B-DT
+19	##의	I-DT	I-DT
+20	날	I-DT	I-DT
+21	##에	O	O
+22	시국	B-EV	B-EV
+23	##선언	I-EV	I-EV
+24	##에	O	O
+25	참여	O	O
+26	##했	O	O
+27	##던	O	O
+28	교원	B-CV	B-CV
+29	##을	O	O
+30	포상	O	O
+31	대상	O	O
+32	##에	O	O
+33	##서	O	O
+34	뺐	O	O
+35	##다	O	O
+36	.	O	O
+37	[SEP]	O	O

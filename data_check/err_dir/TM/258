@@ -1,29 +1,71 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	한국학	B-OG	B-OG	B-OG, B-AF, B-LC, O, B-PS
-2	##중	I-OG	I-OG	I-OG, I-AF, I-LC, O, I-PS
-3	##앙	I-OG	I-OG	I-OG, I-AF, I-LC, O, I-PS
-4	##연구원	I-OG	I-OG	I-OG, I-AF, I-LC, O, I-PS
-5	##의	O	O	O, I-OG, I-AF, B-OG, B-CV
-6	자료	O	O	O, B-LC, B-AF, B-TM, B-CV
-7	##창	O	O	O, B-LC, B-AF, I-AF, B-TM
-8	##고	O	O	O, B-LC, I-LC, I-AF, B-AF
-9	##인	O	O	O, B-LC, B-CV, B-PS, B-OG
-10	'	O	O	O, B-LC, B-CV, B-OG, B-TM
-11	왕실	B-TM	B-AF	B-AF, B-OG, O, B-EV, B-TM
-12	##도	I-TM	I-AF	I-AF, I-OG, O, I-TM, I-EV
-13	##서관	I-TM	I-AF	I-AF, I-OG, O, I-TM, I-EV
-14	장서	I-TM	I-AF	I-AF, B-AF, O, I-OG, I-TM
-15	##각	I-TM	I-AF	I-AF, O, I-OG, I-TM, I-EV
-16	디지털	I-TM	I-AF	I-AF, O, I-TM, I-OG, B-AF
-17	아카	I-TM	I-AF	I-AF, O, I-TM, I-OG, I-EV
-18	##이브	I-TM	I-AF	I-AF, O, I-TM, I-OG, I-LC
-19	'	O	O	O, I-AF, I-OG, I-TM, I-EV
-20	에도	O	O	O, B-LC, I-AF, B-CV, B-TM
-21	이	O	O	O, B-PS, B-AF, B-OG, I-AF
-22	자료	O	O	O, B-AF, B-CV, B-LC, B-TM
-23	##가	O	O	O, B-PS, B-LC, I-AF, B-OG
-24	없	O	O	O, B-CV, B-LC, B-TM, B-OG
-25	##다	O	O	O, B-CV, B-TM, B-LC, B-OG
-26	.	O	O	O, B-LC, B-AF, B-OG, B-CV
-27	[SEP]	O	O	O, B-LC, B-AF, B-CV, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	슈	O	B-OG
+2	##테	O	I-OG
+3	##글리	O	I-OG
+4	##츠	O	I-OG
+5	매장	O	O
+6	##에	O	O
+7	##서	O	O
+8	조	O	B-PS
+9	상무	O	B-CV
+10	##가	O	O
+11	파손	O	O
+12	##한	O	O
+13	것	O	O
+14	##과	O	O
+15	똑같	O	O
+16	##은	O	O
+17	형태	O	O
+18	##로	O	O
+19	훼손	O	O
+20	##된	O	O
+21	크리스탈	O	B-MT
+22	블루	O	I-TM
+23	세탁기	B-TM	B-TM
+24	3	B-QT	B-QT
+25	##대	I-QT	I-QT
+26	##를	O	O
+27	발견	O	O
+28	##해	O	O
+29	매장	O	O
+30	측	O	O
+31	협조	O	O
+32	##를	O	O
+33	얻어	O	O
+34	폐쇄	B-TM	B-TM
+35	##회	I-TM	I-TM
+36	##로	I-TM	I-TM
+37	(	O	I-TM
+38	CC	O	I-TM
+39	)	O	I-TM
+40	TV	B-TM	I-TM
+41	##를	O	O
+42	확인	O	O
+43	##한	O	O
+44	결과	O	O
+45	이	O	O
+46	중	O	O
+47	한	O	B-QT
+48	대	O	I-QT
+49	##를	O	O
+50	조	B-PS	B-PS
+51	사장	B-CV	B-CV
+52	##이	O	O
+53	손상	O	O
+54	##시	O	O
+55	##키	O	O
+56	##는	O	O
+57	모습	O	O
+58	##이	O	O
+59	찍혔	O	O
+60	##다는	O	O
+61	것	O	O
+62	##이	O	O
+63	삼성전자	B-OG	B-OG
+64	측	O	O
+65	##의	O	O
+66	설명	O	O
+67	##이다	O	O
+68	.	O	O
+69	[SEP]	O	O

@@ -1,47 +1,6 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-EV
-1	지난	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-QT
-2	22	I-DT	I-DT	I-DT, O, B-DT, I-PS, I-EV
-3	##일	I-DT	I-DT	I-DT, O, B-DT, I-EV, I-PS
-4	남북	B-OG	B-OG	B-OG, B-EV, B-LC, O, B-CV
-5	고위급	O	O	O, I-EV, B-EV, I-OG, B-OG
-6	접촉	O	I-EV	I-EV, O, I-OG, I-DT, I-CV
-7	##이	O	O	O, I-EV, I-OG, B-PS, B-OG
-8	시작	O	O	O, B-CV, B-OG, B-LC, B-PS
-9	##될	O	O	O, B-PS, B-CV, I-OG, B-LC
-10	때	O	O	O, B-CV, B-PS, B-OG, B-LC
-11	정부	B-OG	B-OG	B-OG, B-AF, O, B-EV, B-LC
-12	일각	O	O	O, I-OG, I-EV, B-CV, I-AF
-13	##에	O	O	O, B-CV, B-PS, I-OG, B-OG
-14	##선	O	O	O, B-LC, B-PS, B-OG, B-CV
-15	'	O	O	O, B-LC, B-PS, B-CV, B-OG
-16	남북	B-OG	B-OG	B-OG, B-LC, O, B-EV, B-PS
-17	협상	O	O	O, I-OG, I-EV, I-LC, B-CV
-18	경험	O	O	O, B-PS, B-LC, B-CV, I-EV
-19	##이	O	O	O, B-PS, B-LC, B-CV, I-PS
-20	전무	O	O	O, B-CV, B-PS, B-LC, B-TM
-21	##한	O	O	O, B-PS, B-LC, I-PS, I-LC
-22	김관진	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-23	〈	O	O	O, I-PS, B-CV, I-OG, B-LC
-24	사진	O	O	O, B-CV, B-LC, I-OG, B-TM
-25	〉	O	O	O, B-PS, B-LC, B-OG, B-QT
-26	청와대	B-AF	B-OG	B-OG, B-AF, O, B-LC, B-PS
-27	국가	O	O	O, I-AF, I-OG, B-CV, B-PS
-28	##안	O	O	O, I-CV, I-AF, I-OG, B-PS
-29	##보	O	O	O, I-CV, I-OG, B-PS, B-LC
-30	##실	O	O	O, B-LC, B-PS, I-LC, I-CV
-31	##장이	O	O	O, B-PS, B-LC, I-LC, I-OG
-32	잘	O	O	O, B-LC, B-CV, B-PS, B-OG
-33	##해	O	O	O, B-LC, B-PS, B-OG, B-CV
-34	##낼	O	O	O, B-LC, B-PS, B-CV, B-OG
-35	수	O	O	O, B-PS, B-LC, B-CV, B-OG
-36	있	O	O	O, B-CV, B-PS, B-LC, B-OG
-37	##을까	O	O	O, B-PS, B-LC, B-CV, B-OG
-38	'	O	O	O, B-CV, B-PS, B-LC, B-OG
-39	라는	O	O	O, B-PS, B-CV, B-QT, B-TM
-40	우려	O	O	O, B-CV, B-PS, B-TM, B-QT
-41	##가	O	O	O, B-PS, B-CV, I-CV, I-QT
-42	나왔	O	O	O, B-CV, B-TM, B-OG, B-QT
-43	##다	O	O	O, B-CV, B-TM, I-CV, B-QT
-44	.	O	O	O, B-PS, B-LC, B-CV, B-OG
-45	[SEP]	O	O	O, B-CV, B-PS, B-LC, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	파	B-CV	B-CV
+2	##슬리	I-CV	I-CV
+3	가루	O	I-CV
+4	[SEP]	O	O

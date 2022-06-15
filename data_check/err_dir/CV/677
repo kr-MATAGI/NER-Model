@@ -1,31 +1,7 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	리	B-PS	B-PS	B-PS, O, B-LC, B-OG, I-PS
-2	##영	I-PS	I-PS	I-PS, O, B-PS, I-LC, I-OG
-3	##희	I-PS	I-PS	I-PS, O, I-LC, I-OG, B-PS
-4	##가	O	O	O, I-PS, I-AF, B-CV, B-LC
-5	실존	O	O	O, B-CV, B-LC, B-TM, B-OG
-6	인물	O	O	O, B-CV, B-PS, I-CV, B-LC
-7	##일	O	O	O, B-PS, I-CV, B-CV, B-OG
-8	경우	O	O	O, B-OG, B-CV, B-LC, B-TM
-9	중국	B-LC	B-LC	B-LC, O, B-OG, B-AF, B-PS
-10	베이징	B-LC	B-LC	B-LC, O, I-LC, B-OG, B-AF
-11	(	O	O	O, I-LC, I-AF, B-LC, I-OG
-12	北	O	O	O, B-LC, B-PS, I-LC, B-OG
-13	京	O	O	O, B-LC, I-LC, B-PS, B-OG
-14	)	O	O	O, B-LC, I-LC, B-PS, B-CV
-15	에	O	O	O, B-LC, B-CV, B-PS, B-OG
-16	거주	O	O	O, B-LC, B-PS, B-CV, B-AF
-17	##하	O	O	O, B-PS, B-LC, B-CV, B-AF
-18	##던	O	O	O, B-PS, B-CV, B-LC, I-PS
-19	본	B-CV	O	O, B-CV, B-LC, B-QT, B-PS
-20	##처	I-CV	O	O, I-CV, I-LC, B-CV, I-QT
-21	신정	B-PS	B-PS	B-PS, O, I-PS, B-LC, B-OG
-22	##희	I-PS	I-PS	I-PS, O, I-LC, I-OG, B-PS
-23	##일	O	O	O, I-PS, I-AF, I-OG, B-CV
-24	가능	O	O	O, B-CV, B-QT, B-OG, B-TM
-25	##성이	O	O	O, B-CV, B-QT, I-QT, I-OG
-26	가장	O	O	O, B-CV, B-QT, B-TM, B-OG
-27	크다	O	O	O, B-CV, B-QT, B-TM, B-OG
-28	.	O	O	O, B-LC, B-PS, B-CV, B-OG
-29	[SEP]	O	O	O, B-LC, B-CV, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	처음	O	O
+2	##에	O	O
+3	시집	B-CV	O
+4	##와서	O	O
+5	[SEP]	O	O

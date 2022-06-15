@@ -1,26 +1,42 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	우리	O	O	O, B-LC, B-OG, B-CV, B-PS
-2	경제	O	O	O, B-FD, I-OG, I-LC, B-CV
-3	##의	O	O	O, B-PS, B-LC, I-OG, I-LC
-4	동맥	B-TM	O	O, B-TM, B-AF, B-LC, B-TR
-5	##을	O	O	O, I-TM, I-AF, B-CV, B-PS
-6	잇	O	O	O, B-LC, B-TM, B-CV, B-OG
-7	##고	O	O	O, B-TM, B-LC, B-PS, B-CV
-8	있	O	O	O, B-LC, B-TM, B-CV, B-OG
-9	##는	O	O	O, B-LC, B-TM, B-CV, B-OG
-10	물류	O	O	O, B-FD, B-TM, B-AF, B-LC
-11	##산업	O	O	O, I-TM, I-OG, I-LC, I-FD
-12	##의	O	O	O, I-OG, I-AF, B-CV, I-CV
-13	경쟁력	O	O	O, B-CV, B-LC, B-TM, B-OG
-14	강화	O	O	O, I-CV, I-TM, B-CV, I-OG
-15	##를	O	O	O, B-CV, B-LC, B-PS, I-OG
-16	위해	O	O	O, B-LC, B-PS, B-CV, B-TM
-17	헌신	O	O	O, B-CV, B-LC, B-OG, B-PS
-18	##하	O	O	O, B-PS, B-CV, B-LC, I-OG
-19	##겠	O	O	O, B-CV, B-PS, B-OG, I-OG
-20	##습	O	O	O, B-CV, I-CV, B-PS, I-OG
-21	##니다	O	O	O, B-CV, B-PS, B-LC, I-OG
-22	.	O	O	O, B-LC, B-CV, B-PS, B-TM
-23	”	O	O	O, B-CV, B-LC, B-OG, B-PS
-24	[SEP]	O	O	O, B-LC, B-CV, B-TM, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	양국	O	O
+2	외교부	B-OG	B-OG
+3	주관	O	O
+4	##으로	O	O
+5	시립	O	O
+6	##예술	O	O
+7	##단	O	O
+8	상호	O	O
+9	방문	O	O
+10	공연	O	O
+11	##과	O	O
+12	문화	B-TM	O
+13	·	I-TM	O
+14	학술	I-TM	O
+15	교류	I-TM	O
+16	사업	I-TM	O
+17	##을	O	O
+18	열기	O	O
+19	##로	O	O
+20	했	O	O
+21	##지만	O	O
+22	사드	B-AF	B-AF
+23	갈등	O	O
+24	##이	O	O
+25	고조	O	O
+26	##된	O	O
+27	올해	B-DT	B-DT
+28	3	I-DT	I-DT
+29	##월	I-DT	I-DT
+30	이후	I-DT	I-DT
+31	논의	O	O
+32	자체	O	O
+33	##를	O	O
+34	하지	O	O
+35	못하	O	O
+36	##고	O	O
+37	있	O	O
+38	##다	O	O
+39	.	O	O
+40	[SEP]	O	O

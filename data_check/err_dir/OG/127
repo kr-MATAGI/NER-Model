@@ -1,12 +1,43 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	북	B-OG	B-LC	B-LC, B-OG, O, B-TM, B-PS
-2	“	O	O	O, I-OG, I-LC, B-CV, B-LC
-3	불	O	O	O, B-LC, B-TM, B-AF, B-CV
-4	##바다	O	O	O, I-LC, I-TM, I-AF, I-CV
-5	직면	O	O	O, B-LC, I-LC, B-PS, B-AF
-6	##할	O	O	O, I-LC, B-LC, B-PS, I-AF
-7	##수도	O	O	O, I-LC, B-LC, I-AF, I-PS
-8	”	O	O	O, B-CV, I-LC, I-OG, I-AF
-9	위협	O	O	O, B-LC, B-TM, B-CV, B-PS
-10	[SEP]	O	O	O, B-LC, B-CV, I-LC, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	이	O	O
+2	컨소시엄	O	O
+3	##은	O	O
+4	지난해	B-DT	B-DT
+5	9	I-DT	I-DT
+6	##월	I-DT	I-DT
+7	1000	B-QT	B-QT
+8	##점	I-QT	I-QT
+9	만점	B-QT	B-QT
+10	##을	O	O
+11	기준	O	O
+12	##으로	O	O
+13	진행	O	O
+14	##된	O	O
+15	통합	O	O
+16	##복	O	O
+17	##권	O	O
+18	수탁	B-CV	B-CV
+19	##사업	I-CV	I-CV
+20	##자	I-CV	I-CV
+21	선정	O	O
+22	입찰	O	O
+23	당시	O	O
+24	불과	O	O
+25	4	B-QT	B-QT
+26	.	I-QT	I-QT
+27	80	I-QT	I-QT
+28	##6	I-QT	I-QT
+29	##점	I-QT	I-QT
+30	차로	O	O
+31	경쟁사	O	O
+32	##인	O	O
+33	연합	B-OG	O
+34	##복	I-OG	O
+35	##권	I-OG	O
+36	컨소시엄	I-OG	O
+37	##을	O	O
+38	이겼	O	O
+39	##다	O	O
+40	.	O	O
+41	[SEP]	O	O

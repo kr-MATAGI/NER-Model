@@ -1,17 +1,30 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	지난해	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-2	연극	B-FD	O	O, B-FD, I-FD, I-DT, B-OG
-3	##계	O	O	O, I-FD, I-OG, B-FD, I-EV
-4	##의	O	O	O, B-PS, B-CV, B-LC, B-OG
-5	키워드	O	O	O, B-CV, B-TM, B-OG, B-PS
-6	##는	O	O	O, B-CV, B-OG, B-PS, B-LC
-7	‘	O	O	O, B-CV, B-LC, B-OG, B-PS
-8	셰익스피어	B-PS	B-PS	B-PS, B-EV, O, B-AF, B-LC
-9	탄생	O	O	O, I-EV, I-PS, B-CV, I-AF
-10	450	B-DT	B-DT	B-DT, I-DT, B-QT, O, B-EV
-11	##주	I-DT	I-DT	I-DT, B-DT, I-QT, I-EV, O
-12	##년	I-DT	I-DT	I-DT, I-QT, O, B-DT, I-EV
-13	’	O	O	O, I-DT, B-CV, I-QT, I-EV
-14	.	O	O	O, B-CV, B-OG, B-LC, B-TM
-15	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-FD
+	text	label	preds
+0	[CLS]	O	O
+1	19	B-DT	B-DT
+2	##세기	I-DT	I-DT
+3	영국	B-LC	B-LC
+4	##이	O	O
+5	배경	O	O
+6	##인	O	O
+7	원작	O	O
+8	##소	B-FD	O
+9	##설	I-FD	O
+10	‘	O	O
+11	핑	B-AF	B-AF
+12	##거스	I-AF	I-AF
+13	##미스	I-AF	I-AF
+14	’	O	O
+15	를	O	O
+16	1930	B-DT	B-DT
+17	##년	I-DT	I-DT
+18	##대	I-DT	I-DT
+19	일제	B-DT	B-DT
+20	##강	I-DT	I-DT
+21	##점	I-DT	I-DT
+22	##기	I-DT	I-DT
+23	##로	O	O
+24	옮겨	O	O
+25	##왔	O	O
+26	##다	O	O
+27	.	O	O
+28	[SEP]	O	O

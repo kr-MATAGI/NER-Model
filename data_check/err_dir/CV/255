@@ -1,24 +1,32 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	파스텔	B-TM	B-TM	B-TM, O, B-AF, B-LC, B-QT
-2	핑크	I-TM	B-TM	B-TM, I-TM, O, B-CV, B-LC
-3	풍선	O	O	O, I-TM, B-TM, B-CV, B-AF
-4	장식	O	O	O, I-TM, I-AF, I-OG, B-CV
-5	##과	O	O	O, B-OG, B-CV, I-OG, B-LC
-6	초콜릿	B-CV	B-CV	B-CV, O, B-PT, B-AF, B-OG
-7	,	O	O	O, I-CV, I-OG, I-AF, B-CV
-8	레드	B-CV	B-TM	B-TM, O, B-CV, B-AF, B-AM
-9	##와	I-CV	O	O, I-CV, B-CV, I-TM, I-OG
-10	##인	I-CV	I-CV	I-CV, O, I-OG, I-TM, B-CV
-11	및	O	O	O, I-CV, I-OG, I-AF, I-TM
-12	테라스	O	O	O, B-CV, B-AF, B-TM, B-LC
-13	##의	O	O	O, I-AF, I-OG, B-CV, B-LC
-14	2	B-QT	B-QT	B-QT, O, B-DT, B-EV, B-CV
-15	##인	I-QT	I-QT	I-QT, O, I-EV, I-DT, I-LC
-16	조식	O	O	O, B-CV, I-QT, B-TM, B-DT
-17	##도	O	O	O, I-QT, I-CV, B-CV, B-OG
-18	포함	O	O	O, B-CV, B-TM, B-OG, B-QT
-19	##된	O	O	O, I-OG, B-OG, B-CV, I-AF
-20	##다	O	O	O, B-CV, I-OG, B-OG, B-TM
-21	.	O	O	O, B-LC, B-OG, I-OG, B-CV
-22	[SEP]	O	O	O, B-LC, B-CV, B-TM, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	그	O	O
+2	##는	O	O
+3	2007	B-DT	B-DT
+4	##년	I-DT	I-DT
+5	미	B-LC	B-LC
+6	하원	B-OG	B-OG
+7	##의	O	O
+8	일본군	B-OG	B-OG
+9	위안부	B-CV	B-CV
+10	결의안	I-CV	O
+11	통과	O	O
+12	##를	O	O
+13	주도	O	O
+14	##했	O	O
+15	##고	O	O
+16	최근	O	O
+17	##엔	O	O
+18	위안부	B-CV	B-CV
+19	할머니	B-CV	B-CV
+20	##의	O	O
+21	백악관	B-OG	B-OG
+22	및	O	O
+23	국무부	B-OG	B-OG
+24	면담	O	O
+25	##을	O	O
+26	주선	O	O
+27	##했	O	O
+28	##다	O	O
+29	.	O	O
+30	[SEP]	O	O

@@ -1,42 +1,25 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	대치	B-LC	B-AF	B-AF, B-LC, B-PS, B-OG, O
-2	##역	I-LC	I-AF	I-AF, I-LC, B-AF, I-PS, O
-3	사거리	O	I-AF	I-AF, B-AF, I-LC, O, B-QT
-4	주변	O	O	O, I-AF, I-LC, I-QT, B-CV
-5	아파트	O	O	O, B-CV, B-PS, B-TM, B-OG
-6	주민	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-TM
-7	##과	O	O	O, I-CV, I-OG, B-CV, B-PS
-8	상인	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-TM
-9	##들	O	O	O, I-CV, I-OG, I-EV, I-AF
-10	##은	O	O	O, B-CV, B-LC, B-OG, B-PS
-11	“	O	O	O, B-CV, B-LC, B-PS, B-OG
-12	언제	O	O	O, B-LC, B-PS, B-CV, B-OG
-13	또	O	O	O, B-LC, B-PS, B-CV, B-TM
-14	물	O	O	O, B-LC, B-PS, I-LC, B-CV
-15	##난	O	O	O, B-LC, I-LC, I-EV, B-EV
-16	##리	O	O	O, I-LC, B-LC, I-EV, B-PS
-17	##가	O	O	O, B-PS, B-LC, B-OG, I-EV
-18	날	O	O	O, B-LC, B-PS, B-CV, I-LC
-19	##지	O	O	O, B-PS, B-LC, B-CV, B-OG
-20	모르	O	O	O, B-CV, B-PS, B-LC, B-TM
-21	##는데	O	O	O, B-LC, B-PS, B-CV, B-TM
-22	왜	O	O	O, B-LC, B-CV, B-PS, B-OG
-23	아직	O	O	O, B-CV, B-LC, B-OG, B-TM
-24	공사	O	O	O, B-CV, B-LC, B-TM, B-PS
-25	##를	O	O	O, B-CV, B-PS, B-OG, B-LC
-26	시작	O	O	O, B-CV, B-LC, B-OG, B-PS
-27	##하	O	O	O, B-PS, B-LC, B-OG, B-CV
-28	##지	O	O	O, B-LC, B-PS, B-OG, B-CV
-29	않	O	O	O, B-LC, B-CV, B-PS, B-OG
-30	##느	O	O	O, B-LC, B-CV, B-PS, B-OG
-31	##냐	O	O	O, B-PS, B-LC, B-CV, B-OG
-32	”	O	O	O, B-CV, B-LC, B-OG, B-PS
-33	고	O	O	O, B-CV, B-LC, B-PS, B-OG
-34	시에	O	O	O, B-CV, B-PS, B-OG, B-LC
-35	항의	O	O	O, B-CV, B-LC, B-PS, I-CV
-36	##하고	O	O	O, B-CV, B-PS, B-LC, I-CV
-37	있	O	O	O, B-CV, B-LC, B-PS, B-OG
-38	##다	O	O	O, B-CV, B-LC, B-PS, B-OG
-39	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-40	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	특히	O	O
+2	2	B-QT	B-QT
+3	##차	I-QT	I-QT
+4	핵실험	O	O
+5	후	O	O
+6	공식	O	O
+7	반대	O	O
+8	##성	O	O
+9	##명	O	O
+10	##을	O	O
+11	낸	O	O
+12	중국	B-LC	B-OG
+13	##의	O	O
+14	태도	O	O
+15	##에	O	O
+16	배신감	O	O
+17	##을	O	O
+18	느끼	O	O
+19	##고	O	O
+20	있	O	O
+21	##다	O	O
+22	.	O	O
+23	[SEP]	O	O

@@ -1,18 +1,67 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	또	O	O	O, B-CV, B-LC, B-QT, B-TM
-2	어떻게	O	O	O, B-LC, B-PS, B-CV, B-QT
-3	발전	O	O	O, B-CV, B-LC, B-TM, B-PS
-4	##해	O	O	O, B-PS, B-LC, B-CV, B-OG
-5	나갈	O	O	O, B-CV, B-LC, B-PS, B-TM
-6	건지	O	O	O, B-PS, B-CV, B-LC, B-OG
-7	그런	O	O	O, B-CV, B-LC, B-TM, B-OG
-8	얘기	O	O	O, B-CV, B-TM, I-CV, B-PS
-9	##도	O	O	O, B-CV, I-CV, B-PS, B-LC
-10	좀	O	O	O, B-CV, B-QT, B-TM, B-LC
-11	한번	O	B-QT	B-QT, O, I-QT, B-PS, B-CV
-12	해	O	O	O, I-QT, B-CV, I-CV, I-DT
-13	주시	O	O	O, B-CV, B-PS, I-QT, I-CV
-14	##죠	O	O	O, B-CV, B-OG, I-CV, B-QT
-15	.	O	O	O, B-CV, B-LC, B-PS, B-OG
-16	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-QT
+	text	label	preds
+0	[CLS]	O	O
+1	여당	O	O
+2	관계자	B-CV	B-CV
+3	##는	O	O
+4	""""	O	O
+5	정권	O	O
+6	##의	O	O
+7	성격	O	O
+8	##에	O	O
+9	따라	O	O
+10	경찰의	O	O
+11	집회	O	O
+12	·	O	O
+13	시위	O	O
+14	관리	O	O
+15	기조	O	O
+16	##가	O	O
+17	손바닥	O	B-AM
+18	뒤집	O	O
+19	##듯	O	O
+20	바뀌	O	O
+21	##어	O	O
+22	왔	O	O
+23	##고	O	O
+24	,	O	O
+25	백남	O	B-PS
+26	##기	O	I-PS
+27	농민	O	B-CV
+28	사망	O	O
+29	사건	O	O
+30	등	O	O
+31	'	O	O
+32	폭력	O	O
+33	##적	O	O
+34	법치	O	B-TR
+35	##주의	O	I-TR
+36	'	O	O
+37	가	O	O
+38	자행	O	O
+39	##돼	O	O
+40	##왔	O	O
+41	##다	O	O
+42	""""	O	O
+43	며	O	O
+44	""""	O	O
+45	고강도	O	O
+46	경찰	B-OG	B-OG
+47	개혁	O	O
+48	##으로	O	O
+49	경찰의	O	O
+50	정치	O	O
+51	##적	O	O
+52	중립	O	O
+53	##성	O	O
+54	##과	O	O
+55	독립성	O	O
+56	##을	O	O
+57	제고	O	O
+58	##해야	O	O
+59	한다	O	O
+60	""""	O	O
+61	고	O	O
+62	했	O	O
+63	##다	O	O
+64	.	O	O
+65	[SEP]	O	O

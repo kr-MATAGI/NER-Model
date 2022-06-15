@@ -1,47 +1,11 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	[	O	O	O, B-LC, B-OG, B-PS, B-CV
-2	스위트	O	O	O, B-CV, B-AF, B-TM, B-PS
-3	골프	B-CV	B-CV	B-CV, I-CV, O, I-AF, I-TM
-4	]	O	O	O, I-CV, I-AF, I-EV, I-OG
-5	[	O	O	O, B-LC, B-PS, B-OG, B-CV
-6	신지애	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-7	##의	O	O	O, I-PS, I-OG, I-AF, B-CV
-8	""""	O	O	O, B-LC, B-CV, B-PS, B-OG
-9	골프	B-CV	B-CV	B-CV, O, B-AF, B-TM, B-EV
-10	##는	O	O	O, I-CV, I-AF, I-EV, I-OG
-11	자신감	O	O	O, B-PS, B-CV, B-AF, B-TM
-12	""""	O	O	O, I-AF, B-CV, B-PS, I-CV
-13	]	O	O	O, B-LC, B-PS, B-OG, B-CV
-14	(	O	O	O, B-LC, B-CV, B-OG, B-PS
-15	14	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-TM
-16	)	O	O	O, I-QT, I-DT, I-EV, I-AF
-17	로브	B-TM	B-TM	B-TM, B-CV, O, B-AF, B-EV
-18	##샷	I-TM	I-TM	I-TM, I-CV, O, I-AF, I-QT
-19	##은	O	O	O, I-TM, I-CV, I-AF, I-QT
-20	공	B-CV	B-CV	B-CV, O, B-AF, B-AM, B-PS
-21	아래	O	B-TM	B-TM, O, I-TM, B-CV, I-CV
-22	##를	O	O	O, I-TM, I-CV, I-AF, B-PS
-23	깎	O	O	O, B-PS, B-CV, B-LC, B-TM
-24	##아내	O	O	O, B-PS, B-CV, B-LC, I-CV
-25	##듯	O	O	O, B-PS, B-LC, B-CV, B-TM
-26	##이	O	O	O, B-PS, B-LC, I-PS, B-AM
-27	;	O	O	O, B-LC, B-PS, B-OG, B-CV
-28	일종	O	O	O, B-CV, B-LC, B-TM, B-PS
-29	##의	O	O	O, B-PS, B-LC, I-AF, B-OG
-30	잔디	B-PT	B-PT	B-PT, B-CV, O, B-TM, B-AM
-31	위	B-TM	B-TM	B-TM, O, I-TM, B-CV, B-AM
-32	벙커	B-TM	B-TM	B-TM, I-TM, B-CV, O, B-QT
-33	##샷	I-TM	I-TM	I-TM, O, B-TM, I-CV, I-QT
-34	…	O	O	O, I-TM, I-CV, I-AF, I-QT
-35	클럽	B-CV	B-CV	B-CV, O, B-AM, B-AF, B-PS
-36	페이스	O	O	O, B-TM, B-AM, I-CV, I-TM
-37	##를	O	O	O, I-CV, I-TM, I-AF, B-PS
-38	열	O	O	O, B-PS, B-TM, B-AM, B-LC
-39	##고	O	O	O, B-PS, B-LC, B-CV, B-OG
-40	부드럽	O	O	O, B-LC, B-TM, B-CV, B-PS
-41	##게	O	O	O, B-LC, B-PS, I-AF, I-LC
-42	풀	O	O	O, B-TM, B-AF, B-CV, B-AM
-43	스윙	B-TM	B-TM	B-TM, I-TM, O, B-CV, I-CV
-44	##해야	O	O	O, I-TM, I-CV, I-AF, I-QT
-45	[SEP]	O	O	O, B-LC, B-CV, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	연극	O	B-FD
+2	##계	O	O
+3	사정	O	O
+4	##도	O	O
+5	비슷	O	O
+6	##하	O	O
+7	##다	O	O
+8	.	O	O
+9	[SEP]	O	O

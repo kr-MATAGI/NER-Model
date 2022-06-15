@@ -1,39 +1,56 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-EV
-1	하	B-PS	B-PS	B-PS, B-OG, O, B-LC, I-PS
-2	##은	I-PS	I-PS	I-PS, B-PS, I-OG, O, I-LC
-3	##주	I-PS	I-PS	I-PS, O, I-OG, B-PS, I-LC
-4	##와	O	O	O, I-PS, B-CV, I-OG, I-AF
-5	나란히	O	O	O, B-TM, B-CV, B-QT, B-LC
-6	서면	O	O	O, B-LC, B-OG, B-CV, B-PS
-7	'	O	O	O, B-CV, B-PS, B-LC, I-CV
-8	높이	O	O	O, B-PS, B-TM, B-LC, B-QT
-9	'	O	O	O, B-CV, B-PS, B-LC, B-TM
-10	만큼	O	O	O, B-PS, B-CV, B-LC, B-OG
-11	##은	O	O	O, B-PS, B-OG, B-LC, B-CV
-12	남자	O	O	O, B-CV, B-TM, B-LC, B-OG
-13	프로	B-CV	B-CV	B-CV, O, B-TM, B-EV, I-CV
-14	##농	I-CV	I-CV	I-CV, O, B-CV, I-EV, I-TM
-15	##구	I-CV	I-CV	I-CV, O, B-CV, I-EV, I-TM
-16	동부	O	B-OG	B-OG, B-LC, O, B-PS, I-OG
-17	##의	O	O	O, I-OG, B-PS, I-PS, I-AF
-18	장대	O	O	O, B-PS, B-CV, B-AM, B-AF
-19	콤비	O	O	O, B-CV, B-PS, I-PS, I-CV
-20	김주성	B-PS	B-PS	B-PS, O, I-PS, B-OG, B-LC
-21	(	O	O	O, I-PS, B-CV, I-OG, I-AF
-22	205	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-LC
-23	##㎝	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-24	)	O	O	O, I-QT, I-OG, I-EV, B-CV
-25	-	O	O	O, B-PS, B-LC, B-CV, B-AF
-26	윤	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-27	##호영	I-PS	I-PS	I-PS, B-PS, O, I-OG, I-LC
-28	(	O	O	O, I-PS, B-CV, I-OG, I-QT
-29	197	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-LC
-30	##㎝	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-31	)	O	O	O, I-QT, I-OG, B-CV, I-EV
-32	부럽	O	O	O, B-CV, B-OG, B-TM, B-LC
-33	##지	O	O	O, I-OG, B-PS, I-QT, I-CV
-34	않	O	O	O, B-PS, B-LC, B-OG, I-OG
-35	##다	O	O	O, B-CV, B-LC, B-PS, B-OG
-36	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-37	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	서울대	B-OG	B-OG
+2	##가	O	O
+3	관악	B-LC	B-LC
+4	##캠	O	I-LC
+5	##퍼스	O	I-LC
+6	##에	O	O
+7	신축	O	O
+8	##하	O	O
+9	##는	O	O
+10	치의	B-FD	B-FD
+11	##학	I-FD	I-FD
+12	##대	O	O
+13	##학	O	O
+14	##원	O	O
+15	첨단	B-LC	O
+16	##복	I-LC	O
+17	##합	I-LC	O
+18	##연구	I-LC	O
+19	##단지	I-LC	O
+20	및	O	O
+21	치과	B-FD	B-FD
+22	##병원	O	O
+23	첨단	O	B-AF
+24	##치	B-FD	I-AF
+25	##과	I-FD	I-AF
+26	##의	O	I-AF
+27	##료	O	I-AF
+28	##센터	O	I-AF
+29	##는	O	O
+30	교육	O	O
+31	·	O	O
+32	연구	O	O
+33	##를	O	O
+34	위한	O	O
+35	치과	B-FD	B-FD
+36	##대	O	O
+37	##학	O	O
+38	##원	O	O
+39	##과	O	O
+40	임상	O	O
+41	##실	O	O
+42	##습	O	O
+43	·	O	O
+44	진료	O	O
+45	##를	O	O
+46	위한	O	O
+47	치과	O	B-FD
+48	##병원	O	O
+49	##으로	O	O
+50	이루어져	O	O
+51	있	O	O
+52	##다	O	O
+53	.	O	O
+54	[SEP]	O	O

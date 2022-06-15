@@ -1,63 +1,47 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	반도체	B-TM	B-TM	B-TM, O, B-AF, I-TM, B-OG
-2	·	O	O	O, I-TM, I-OG, I-AF, I-CV
-3	LCD	B-TM	B-TM	B-TM, O, B-OG, B-AF, I-TM
-4	주요	O	O	O, I-TM, B-TM, B-LC, B-CV
-5	부품	O	O	O, B-CV, B-LC, B-TM, B-MT
-6	업체	O	O	O, B-CV, B-OG, B-LC, I-CV
-7	에스	B-OG	B-OG	B-OG, O, I-OG, B-PS, B-LC
-8	##앤	I-OG	I-OG	I-OG, O, B-OG, I-LC, I-PS
-9	##에스	I-OG	I-OG	I-OG, O, B-OG, I-LC, I-CV
-10	##텍	I-OG	I-OG	I-OG, O, I-LC, B-OG, I-AF
-11	##은	O	O	O, I-OG, B-OG, B-LC, B-CV
-12	올	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-13	5	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-14	##월	I-DT	I-DT	I-DT, O, B-DT, I-PS, I-QT
-15	일본	B-LC	B-LC	B-LC, O, B-OG, B-AF, I-DT
-16	웨이	B-TM	O	O, B-TM, B-AF, B-LC, B-CV
-17	##퍼	I-TM	O	O, I-TM, I-AF, B-TM, I-EV
-18	(	O	O	O, I-TM, I-AF, I-OG, B-OG
-19	반도체	B-TM	B-TM	B-TM, O, B-AF, I-TM, B-CV
-20	##의	O	O	O, I-TM, I-AF, B-CV, I-OG
-21	원료	O	O	O, B-MT, B-LC, B-CV, B-AF
-22	##가	O	O	O, B-PS, B-LC, B-CV, B-AF
-23	되	O	O	O, B-LC, B-CV, B-PS, B-TM
-24	##는	O	O	O, B-LC, B-MT, B-PS, B-TM
-25	실리콘	B-MT	B-MT	B-MT, O, I-MT, B-TM, B-TR
-26	덩어리	O	O	O, B-MT, B-TM, B-LC, I-MT
-27	##를	O	O	O, B-LC, B-PS, B-TM, B-CV
-28	얇	O	O	O, B-TM, B-LC, B-QT, B-CV
-29	##게	O	O	O, B-LC, B-PS, B-QT, I-LC
-30	잘라	O	O	O, B-LC, B-PS, B-QT, B-TM
-31	##낸	O	O	O, B-LC, B-PS, B-QT, B-TM
-32	원	O	O	O, B-AF, B-QT, B-LC, B-TM
-33	##판	O	O	O, I-LC, B-MT, I-CV, I-AF
-34	)	O	O	O, B-OG, B-LC, I-OG, B-PS
-35	회사	O	O	O, B-OG, B-CV, B-AF, I-OG
-36	##와	O	O	O, I-OG, B-OG, B-LC, B-CV
-37	2	B-QT	B-QT	B-QT, O, I-QT, B-EV, B-TM
-38	##건	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-EV
-39	##의	O	O	O, I-QT, I-OG, I-EV, B-OG
-40	특허	O	O	O, B-CV, B-FD, B-TM, I-CV
-41	기술	O	O	O, I-CV, B-CV, I-FD, I-TR
-42	##에	O	O	O, I-CV, B-CV, B-PS, B-LC
-43	대해	O	O	O, B-LC, B-OG, B-CV, B-TM
-44	로열티	O	O	O, B-CV, B-LC, B-TM, B-MT
-45	##를	O	O	O, I-CV, B-CV, B-OG, B-LC
-46	받	O	O	O, B-CV, B-LC, B-OG, B-PS
-47	##고	O	O	O, B-LC, B-CV, B-PS, B-OG
-48	사용	O	O	O, B-CV, B-TM, I-CV, B-LC
-49	##권	O	O	O, I-CV, B-CV, I-LC, I-TM
-50	##을	O	O	O, I-CV, B-CV, B-LC, B-PS
-51	주	O	O	O, B-CV, B-OG, B-LC, B-PS
-52	##는	O	O	O, B-LC, B-OG, B-CV, B-PS
-53	내용	O	O	O, B-OG, B-CV, B-LC, B-TM
-54	##의	O	O	O, I-OG, B-PS, B-OG, B-LC
-55	계약	O	O	O, B-OG, B-CV, B-LC, B-TM
-56	##을	O	O	O, I-OG, B-OG, B-CV, I-CV
-57	맺	O	O	O, B-OG, B-CV, B-LC, B-TM
-58	##었	O	O	O, B-OG, I-OG, B-CV, B-LC
-59	##다	O	O	O, B-CV, B-OG, I-OG, B-LC
-60	.	O	O	O, B-LC, B-OG, B-CV, B-PS
-61	[SEP]	O	O	O, B-LC, B-CV, B-OG, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	앞선	O	O
+2	시리즈	O	O
+3	##의	O	O
+4	기능	O	O
+5	##성	O	O
+6	##을	O	O
+7	한	O	B-QT
+8	단계	O	I-QT
+9	업그레이드	O	O
+10	##한	O	O
+11	W	B-AF	B-AF
+12	##파	I-AF	I-AF
+13	##워	I-AF	I-AF
+14	##7	I-AF	I-AF
+15	시리즈	O	O
+16	##는	O	O
+17	일체	O	O
+18	##형	O	O
+19	무	O	O
+20	##브	O	O
+21	프레임	O	O
+22	##이	O	O
+23	올바른	O	O
+24	자세	O	O
+25	##의	O	O
+26	11	B-TM	B-QT
+27	##자	I-TM	I-QT
+28	워킹	O	O
+29	##을	O	O
+30	유도	O	O
+31	##하	O	O
+32	##고	O	O
+33	반발	O	O
+34	##탄	O	O
+35	##성	O	O
+36	##을	O	O
+37	높여	O	O
+38	안정	O	O
+39	##감	O	O
+40	##을	O	O
+41	더	O	O
+42	키웠	O	O
+43	##다	O	O
+44	.	O	O
+45	[SEP]	O	O

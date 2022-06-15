@@ -1,27 +1,38 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, I-EV, B-CV
-1	파주	B-LC	B-LC	B-LC, O, B-OG, B-PS, B-AF
-2	##출	I-LC	I-LC	I-LC, O, B-LC, I-OG, I-AF
-3	##판	I-LC	I-LC	I-LC, O, I-OG, B-LC, I-AF
-4	##도	I-LC	I-LC	I-LC, O, I-OG, B-LC, I-AF
-5	##시	I-LC	I-LC	I-LC, O, I-OG, B-LC, I-AF
-6	‘	O	O	O, I-LC, B-LC, I-OG, I-EV
-7	14	B-QT	B-QT	B-QT, B-EV, B-DT, O, I-QT
-8	##회	I-QT	I-QT	I-QT, I-EV, O, I-DT, I-LC
-9	어린이	B-EV	B-EV	B-EV, O, I-EV, B-TM, B-CV
-10	##책	I-EV	O	O, I-EV, B-EV, I-TM, I-OG
-11	##잔치	I-EV	I-EV	I-EV, O, I-TM, I-OG, I-AF
-12	’	O	O	O, I-EV, I-OG, I-AF, I-DT
-13	…	O	O	O, B-OG, B-LC, I-EV, B-CV
-14	5	B-DT	B-DT	B-DT, I-DT, O, B-QT, B-OG
-15	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-16	##부터	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-OG
-17	8	I-DT	I-DT	I-DT, B-DT, O, I-QT, I-PS
-18	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-OG
-19	##까	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-OG
-20	##지	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-OG
-21	다양	O	O	O, I-DT, B-CV, B-LC, I-OG
-22	##한	O	O	O, B-LC, B-OG, B-PS, B-TM
-23	체험	O	O	O, B-CV, B-EV, B-LC, I-EV
-24	##행사	O	O	O, I-EV, I-LC, I-CV, B-LC
-25	[SEP]	O	O	O, B-LC, I-EV, B-OG, B-CV
+	text	label	preds
+0	[CLS]	O	O
+1	인피니티	B-AF	B-OG
+2	##는	O	O
+3	겨울철	B-DT	B-DT
+4	고객	B-CV	B-CV
+5	##들의	O	O
+6	안전	O	O
+7	##하	O	O
+8	##고	O	O
+9	쾌적	O	O
+10	##한	O	O
+11	주행	O	O
+12	##을	O	O
+13	위해	O	O
+14	18	B-DT	B-DT
+15	##일	I-DT	I-DT
+16	##부터	I-DT	I-DT
+17	다음	I-DT	I-DT
+18	달	I-DT	I-DT
+19	20	I-DT	I-DT
+20	##일	I-DT	I-DT
+21	##까	I-DT	I-DT
+22	##지	I-DT	I-DT
+23	‘	O	O
+24	인피니티	B-EV	B-OG
+25	겨울철	I-EV	B-DT
+26	무상	I-EV	O
+27	##점	I-EV	O
+28	##검	I-EV	O
+29	서비스	I-EV	O
+30	캠페인	I-EV	O
+31	’	O	O
+32	을	O	O
+33	진행	O	O
+34	##한다	O	O
+35	.	O	O
+36	[SEP]	O	O

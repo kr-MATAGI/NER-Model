@@ -1,49 +1,70 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-EV, I-OG
-1	인	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
-2	##씨	O	O	O, I-PS, B-CV, I-AF, I-OG
-3	##가	O	O	O, B-PS, B-CV, B-LC, I-PS
-4	범행	O	O	O, B-CV, B-TM, I-CV, B-PS
-5	##을	O	O	O, B-PS, I-CV, B-CV, I-EV
-6	부인	O	O	O, B-CV, B-TM, B-PS, B-LC
-7	##하고	O	O	O, B-PS, B-CV, I-CV, I-PS
-8	숨진	O	O	O, B-CV, B-TM, B-LC, B-AF
-9	아내	B-CV	B-CV	B-CV, O, B-PS, I-CV, B-AF
-10	##의	O	O	O, I-CV, B-CV, B-PS, I-AF
-11	시신	O	O	O, B-TM, B-CV, B-AM, B-LC
-12	##도	O	O	O, B-PS, B-LC, B-CV, I-CV
-13	끝내	O	O	O, B-TM, B-LC, B-CV, B-QT
-14	찾	O	O	O, B-CV, B-LC, B-TM, B-PS
-15	##지	O	O	O, B-LC, B-PS, B-CV, B-TM
-16	못했	O	O	O, B-LC, B-CV, B-PS, B-TM
-17	##지만	O	O	O, B-CV, B-PS, B-LC, B-TM
-18	,	O	O	O, B-CV, B-PS, B-LC, B-TM
-19	범행	O	O	O, B-CV, B-PS, B-LC, B-TM
-20	##이	O	O	O, B-PS, B-CV, B-LC, B-OG
-21	일어난	O	O	O, B-CV, B-PS, B-LC, B-AF
-22	장소	O	O	O, B-CV, B-LC, B-TM, B-AF
-23	##인	B-PS	O	O, B-PS, B-LC, B-CV, I-CV
-24	인	O	B-PS	B-PS, O, I-PS, B-LC, B-CV
-25	##씨	O	O	O, I-PS, I-AF, B-CV, I-CV
-26	집	O	O	O, B-AF, B-LC, B-CV, B-TM
-27	안	O	O	O, B-TM, B-LC, B-CV, B-AF
-28	곳곳	O	O	O, B-TM, B-CV, B-LC, B-AF
-29	##에서	O	O	O, B-PS, B-CV, B-TM, B-LC
-30	아내	B-CV	B-CV	B-CV, O, B-PS, B-AF, B-TM
-31	##의	O	O	O, I-CV, B-PS, B-CV, B-TM
-32	혈	B-TM	O	O, B-TM, B-TR, I-TM, B-LC
-33	##흔	O	O	O, I-TM, I-TR, B-TM, I-MT
-34	(	O	O	O, I-TM, B-CV, I-CV, B-LC
-35	[UNK]	O	O	O, B-CV, B-LC, B-PS, B-TM
-36	[UNK]	O	O	O, B-CV, B-LC, B-PS, B-TM
-37	)	O	O	O, B-CV, B-LC, B-PS, B-TM
-38	이	O	O	O, B-PS, B-CV, B-LC, B-OG
-39	발견	O	O	O, B-CV, B-TM, B-PS, B-LC
-40	##됐	O	O	O, B-CV, B-PS, B-LC, I-CV
-41	##기	O	O	O, B-PS, B-CV, B-TM, I-CV
-42	때문	O	O	O, B-CV, B-PS, B-LC, B-TM
-43	##이	O	O	O, B-PS, B-CV, B-LC, B-OG
-44	##었	O	O	O, B-CV, B-LC, B-PS, I-CV
-45	##다	O	O	O, B-CV, B-TM, B-LC, I-CV
-46	.	O	O	O, B-LC, B-CV, B-PS, B-TM
-47	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	한	B-LC	O
+2	·	O	O
+3	미	B-LC	B-LC
+4	동맹	O	O
+5	60	B-DT	B-DT
+6	##주	I-DT	I-DT
+7	##년	I-DT	I-DT
+8	##을	O	O
+9	맞아	O	O
+10	'	O	O
+11	밴	B-PS	B-OG
+12	플리	I-PS	I-OG
+13	##트	I-PS	I-OG
+14	##가	O	I-OG
+15	(	O	O
+16	家	O	O
+17	)	O	O
+18	'	O	O
+19	를	O	O
+20	대표	O	O
+21	##해	O	O
+22	한국	B-LC	B-LC
+23	##을	O	O
+24	찾	O	O
+25	##은	O	O
+26	그	O	O
+27	##에	O	O
+28	##게	O	O
+29	백	B-PS	B-PS
+30	장군	B-CV	B-CV
+31	##이	O	O
+32	처음	O	O
+33	건넨	O	O
+34	말	O	O
+35	##은	O	O
+36	""""	O	O
+37	자네	O	O
+38	배고프	O	O
+39	##지	O	O
+40	?	O	O
+41	나	O	O
+42	##랑	O	O
+43	점심	O	O
+44	먹	O	O
+45	##어야	O	O
+46	##지	O	O
+47	(	O	O
+48	Ar	O	O
+49	##e	O	O
+50	you	O	O
+51	h	O	O
+52	##ung	O	O
+53	##ry	O	O
+54	?	O	O
+55	H	O	O
+56	##ave	O	O
+57	a	O	O
+58	l	O	O
+59	##un	O	O
+60	##ch	O	O
+61	with	O	O
+62	me	O	O
+63	)	O	O
+64	""""	O	O
+65	였	O	O
+66	##다	O	O
+67	.	O	O
+68	[SEP]	O	O

@@ -1,43 +1,49 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	진	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-2	부위원장	B-CV	B-CV	B-CV, O, I-CV, I-PS, B-OG
-3	##은	O	O	O, I-CV, B-CV, I-EV, I-OG
-4	친	O	O	O, B-PS, B-CV, B-LC, B-OG
-5	##박	O	O	O, B-PS, I-PS, B-LC, B-OG
-6	(	O	O	O, I-PS, B-PS, B-CV, B-LC
-7	친	O	O	O, B-PS, B-CV, B-LC, I-PS
-8	##박	B-PS	B-PS	B-PS, O, I-PS, B-LC, B-OG
-9	##근	I-PS	I-PS	I-PS, O, B-PS, I-OG, I-LC
-10	##혜	I-PS	I-PS	I-PS, O, B-PS, I-LC, I-OG
-11	)	O	O	O, I-PS, B-CV, B-LC, I-OG
-12	성향	O	O	O, B-PS, B-CV, B-OG, B-LC
-13	##이지	O	O	O, B-PS, B-CV, B-LC, B-OG
-14	##만	O	O	O, B-PS, I-PS, B-LC, B-CV
-15	비박	O	O	O, B-PS, B-CV, I-PS, B-LC
-16	(	O	O	O, B-PS, I-PS, B-CV, B-LC
-17	비박	O	O	O, B-PS, B-CV, B-LC, B-TR
-18	##근	O	B-PS	B-PS, O, I-PS, B-LC, B-CV
-19	##혜	O	O	O, I-PS, B-PS, I-LC, I-TR
-20	)	O	O	O, I-PS, B-PS, B-CV, B-LC
-21	계	O	O	O, B-PS, B-CV, B-OG, B-LC
-22	의원	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-TM
-23	##들	O	O	O, I-CV, B-PS, I-OG, B-CV
-24	##과	O	O	O, B-PS, B-CV, B-LC, B-OG
-25	##도	O	O	O, B-PS, B-LC, B-CV, B-OG
-26	가까워	O	O	O, B-PS, B-LC, B-CV, B-OG
-27	각종	O	O	O, B-CV, B-PS, B-OG, B-LC
-28	당직	O	O	O, B-CV, B-EV, B-PS, B-OG
-29	인선	O	O	O, B-CV, I-CV, B-PS, I-EV
-30	때	O	O	O, B-PS, I-CV, B-CV, B-OG
-31	##마다	O	O	O, B-PS, B-LC, B-OG, B-CV
-32	‘	O	O	O, B-CV, B-PS, B-LC, B-OG
-33	화합	O	O	O, B-PS, B-CV, B-LC, B-EV
-34	##카드	O	O	O, B-PS, B-AF, I-AF, B-CV
-35	’	O	O	O, B-CV, B-PS, I-AF, I-CV
-36	로	O	O	O, B-CV, B-PS, B-OG, B-LC
-37	거론	O	O	O, B-CV, B-PS, B-OG, B-LC
-38	##됐	O	O	O, B-CV, B-PS, B-OG, B-LC
-39	##다	O	O	O, B-CV, B-PS, B-LC, B-OG
-40	.	O	O	O, B-PS, B-LC, B-CV, B-OG
-41	[SEP]	O	O	O, B-PS, B-CV, B-LC, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	1975	B-DT	B-DT
+2	##년	I-DT	I-DT
+3	8	I-DT	I-DT
+4	##월	I-DT	I-DT
+5	동해	B-LC	B-LC
+6	##상	O	O
+7	##에	O	O
+8	##서	O	O
+9	오징어	B-AM	B-AM
+10	##잡이	O	O
+11	어선	O	B-AF
+12	'	O	O
+13	천왕	B-AF	B-AF
+14	##호	I-AF	I-AF
+15	'	O	O
+16	를	O	O
+17	탔	O	O
+18	##다가	O	O
+19	납	O	O
+20	##북	O	O
+21	##된	O	O
+22	권	B-PS	B-PS
+23	##용	I-PS	I-PS
+24	##만	I-PS	I-PS
+25	(	O	O
+26	76	B-QT	B-QT
+27	)	O	O
+28	씨	O	O
+29	##의	O	O
+30	아내	B-CV	B-CV
+31	김영	B-PS	B-PS
+32	##자	I-PS	I-PS
+33	(	O	O
+34	76	B-QT	B-QT
+35	)	O	O
+36	씨	O	O
+37	##는	O	O
+38	진	O	O
+39	##물	O	O
+40	같	O	O
+41	##은	O	O
+42	눈물	O	O
+43	##을	O	O
+44	흘렸	O	O
+45	##다	O	O
+46	.	O	O
+47	[SEP]	O	O

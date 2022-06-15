@@ -1,48 +1,30 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-EV, I-OG, I-CV
-1	이번	O	O	O, B-CV, B-LC, B-TM, B-OG
-2	대회	O	O	O, B-CV, B-EV, I-EV, B-PS
-3	##에	O	O	O, B-CV, I-EV, B-OG, B-PS
-4	##는	O	O	O, B-CV, B-OG, B-LC, B-TM
-5	전국	O	O	O, B-LC, B-CV, B-EV, B-OG
-6	어린이집	O	O	O, B-QT, B-CV, I-LC, B-TM
-7	4	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-PS
-8	##만	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-9	##25	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-10	##17	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-11	##개	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-12	원	O	O	O, I-QT, B-QT, B-CV, I-CV
-13	중	O	O	O, B-QT, I-QT, B-TM, B-PS
-14	410	B-QT	B-QT	B-QT, I-QT, O, B-PS, B-DT
-15	##개	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-16	원	O	I-QT	I-QT, O, B-QT, I-LC, I-CV
-17	##이	O	O	O, I-QT, B-PS, B-QT, B-CV
-18	신청	O	O	O, B-CV, I-QT, B-TM, B-LC
-19	##했	O	O	O, B-CV, B-LC, B-PS, B-OG
-20	##으며	O	O	O, B-LC, B-CV, B-OG, B-TM
-21	,	O	O	O, B-CV, B-LC, B-OG, B-PS
-22	한	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-23	달여	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
-24	##간	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-25	##의	O	O	O, I-DT, B-LC, B-CV, B-EV
-26	서류	O	O	O, B-LC, B-EV, B-CV, B-TM
-27	심사	O	O	O, I-EV, B-CV, B-LC, B-EV
-28	##와	O	O	O, B-LC, B-OG, B-CV, B-PS
-29	현장	O	O	O, B-LC, B-EV, B-CV, B-TM
-30	심사	O	O	O, I-EV, B-CV, B-EV, B-LC
-31	##를	O	O	O, B-CV, I-EV, B-LC, B-OG
-32	거쳐	O	O	O, B-LC, B-OG, B-CV, B-TM
-33	지난달	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-34	29	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-35	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-36	우수	O	O	O, B-CV, B-TM, B-LC, B-OG
-37	사례	O	O	O, I-CV, B-CV, I-TM, I-OG
-38	어린이집	O	O	O, B-CV, I-CV, B-QT, B-TM
-39	10	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-PS
-40	##곳	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-41	##을	O	O	O, I-QT, B-CV, B-OG, I-OG
-42	선정	O	O	O, B-CV, B-OG, B-LC, B-TM
-43	##했	O	O	O, B-CV, B-OG, B-LC, B-PS
-44	##다	O	O	O, B-CV, B-OG, I-EV, I-OG
-45	.	O	O	O, B-LC, B-CV, B-OG, B-PS
-46	[SEP]	O	O	O, B-CV, B-LC, B-OG, I-EV
+	text	label	preds
+0	[CLS]	O	O
+1	인터넷	O	O
+2	논	O	B-CV
+3	##객	O	I-CV
+4	##이	O	O
+5	구속	O	O
+6	##돼	O	O
+7	재판	O	O
+8	##까	O	O
+9	##지	O	O
+10	받	O	O
+11	##는	O	O
+12	모습	O	O
+13	##을	O	O
+14	보	O	O
+15	##면	O	O
+16	##서	O	O
+17	사람	O	O
+18	##들이	O	O
+19	입	B-AM	B-AM
+20	##을	O	O
+21	다물	O	O
+22	##어	O	O
+23	버렸	O	O
+24	##다는	O	O
+25	것	O	O
+26	##이다	O	O
+27	.	O	O
+28	[SEP]	O	O

@@ -1,29 +1,27 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	총리	B-OG	B-OG	B-OG, O, B-AF, B-CV, B-LC
-2	##실	I-OG	I-OG	I-OG, O, I-AF, I-CV, I-EV
-3	##은	O	O	O, I-OG, I-AF, I-EV, B-CV
-4	이날	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-QT
-5	오전	B-TI	B-TI	B-TI, I-TI, I-DT, B-EV, O
-6	11	I-TI	I-TI	I-TI, B-TI, I-DT, I-QT, I-TR
-7	##시	I-TI	I-TI	I-TI, B-TI, O, I-QT, I-TR
-8	##30	I-TI	I-TI	I-TI, B-TI, I-QT, O, I-TR
-9	##분	I-TI	I-TI	I-TI, O, B-TI, I-QT, I-TR
-10	##께	I-TI	I-TI	I-TI, O, B-TI, I-QT, I-TR
-11	##에	O	O	O, I-TI, B-LC, I-QT, B-OG
-12	##야	O	O	O, B-LC, I-LC, I-OG, I-TI
-13	출입	O	B-CV	B-CV, O, B-OG, B-TM, B-AF
-14	##기	B-CV	I-CV	I-CV, B-CV, O, I-OG, I-QT
-15	##자	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-QT
-16	##들	O	O	O, I-CV, I-OG, B-CV, I-QT
-17	##에	O	O	O, B-CV, B-TM, B-QT, B-LC
-18	##게	O	O	O, B-TM, B-CV, B-LC, B-QT
-19	문자	O	O	O, B-TM, B-QT, B-LC, B-CV
-20	##로	O	O	O, B-TM, B-CV, B-LC, B-PS
-21	발표	O	O	O, B-CV, B-TM, B-OG, B-LC
-22	사실	O	O	O, B-CV, B-LC, B-PS, B-OG
-23	##만	O	O	O, B-CV, B-QT, B-LC, B-TM
-24	알렸	O	O	O, B-CV, B-TM, B-LC, B-OG
-25	##다	O	O	O, B-CV, B-TM, B-LC, B-OG
-26	.	O	O	O, B-LC, B-CV, B-OG, B-TM
-27	[SEP]	O	O	O, B-CV, B-LC, I-OG, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	그러나	O	O
+2	이	O	O
+3	헌혈	O	O
+4	##용	O	O
+5	혈액	B-TM	B-TM
+6	##과	O	O
+7	팸	B-TM	B-TM
+8	##의	O	I-TM
+9	감염	B-TM	I-TM
+10	##과	O	O
+11	##의	O	O
+12	역학	O	O
+13	##적	O	O
+14	연관	O	O
+15	##성	O	O
+16	##은	O	O
+17	아직	O	O
+18	확인	O	O
+19	##되	O	O
+20	##지	O	O
+21	않	O	O
+22	##았	O	O
+23	##다	O	O
+24	.	O	O
+25	[SEP]	O	O

@@ -1,51 +1,16 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-EV, I-CV
-1	현재	O	O	O, B-LC, B-QT, B-CV, B-TM
-2	재보	B-EV	B-EV	B-EV, O, B-CV, B-OG, I-EV
-3	##궐	I-EV	I-EV	I-EV, O, B-EV, I-OG, I-CV
-4	##선거	I-EV	I-EV	I-EV, O, B-EV, I-OG, I-AF
-5	지역	O	O	O, I-EV, B-LC, I-LC, B-QT
-6	##으로	O	O	O, B-LC, B-PS, B-OG, I-EV
-7	##는	O	O	O, B-LC, B-OG, B-PS, B-CV
-8	무소	O	O	O, B-LC, B-OG, B-PS, B-CV
-9	##속	O	O	O, I-LC, I-OG, I-PS, B-PS
-10	김형	B-PS	B-PS	B-PS, O, I-PS, B-OG, B-LC
-11	##태	I-PS	I-PS	I-PS, O, I-OG, I-LC, B-PS
-12	의원	B-CV	B-CV	B-CV, O, I-PS, I-CV, B-TM
-13	##이	O	O	O, I-CV, B-PS, B-CV, B-LC
-14	의원	B-CV	B-CV	B-CV, O, B-TM, I-CV, B-AF
-15	##직	I-CV	I-CV	I-CV, O, B-CV, I-TM, I-AF
-16	##을	O	O	O, I-CV, B-PS, B-CV, I-EV
-17	상실	O	O	O, B-LC, B-CV, B-TM, B-PS
-18	##한	O	O	O, B-LC, B-PS, B-OG, B-CV
-19	경북	B-LC	B-LC	B-LC, O, B-OG, B-AF, B-TM
-20	포항	B-LC	B-LC	B-LC, I-LC, O, B-TM, B-AF
-21	##남	I-LC	I-LC	I-LC, O, B-LC, I-TM, B-TM
-22	·	O	O	O, I-LC, B-LC, I-TM, I-QT
-23	울릉	B-LC	B-LC	B-LC, I-LC, O, B-TM, I-TM
-24	##과	O	O	O, I-LC, B-LC, B-PS, I-AF
-25	지난달	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-26	25	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
-27	##일	I-DT	I-DT	I-DT, O, B-DT, I-EV, I-QT
-28	폐암	B-TM	B-TM	B-TM, O, B-LC, B-AF, B-EV
-29	##으로	O	O	O, I-TM, I-EV, I-AF, B-CV
-30	별세	O	O	O, B-LC, B-CV, B-OG, B-TM
-31	##한	O	O	O, B-LC, B-PS, B-OG, B-CV
-32	새	B-OG	B-OG	B-OG, O, B-PS, B-AF, B-LC
-33	##누리	I-OG	I-OG	I-OG, O, B-OG, I-EV, I-PS
-34	##당	I-OG	I-OG	I-OG, O, I-EV, I-AF, I-LC
-35	고	B-PS	B-PS	B-PS, O, I-PS, B-OG, I-OG
-36	##희	I-PS	I-PS	I-PS, O, I-OG, B-PS, I-LC
-37	##선	I-PS	I-PS	I-PS, O, I-LC, I-OG, B-PS
-38	전	O	O	O, I-PS, B-LC, B-CV, I-LC
-39	의원	B-CV	B-CV	B-CV, O, B-TM, B-AF, I-CV
-40	##의	O	O	O, I-CV, I-EV, B-LC, I-AF
-41	경기	B-LC	B-LC	B-LC, O, B-OG, B-AF, B-PS
-42	화성	B-LC	B-LC	B-LC, O, I-LC, B-OG, B-AF
-43	갑	I-LC	O	O, I-LC, B-LC, B-QT, I-QT
-44	##이	O	O	O, B-PS, B-LC, I-LC, B-OG
-45	결정	O	O	O, B-LC, B-CV, B-OG, B-QT
-46	##됐	O	O	O, B-LC, B-CV, B-PS, B-OG
-47	##다	O	O	O, B-LC, B-CV, B-QT, B-OG
-48	.	O	O	O, B-LC, B-PS, B-OG, B-CV
-49	[SEP]	O	O	O, B-LC, B-PS, B-CV, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	노량진	B-LC	B-LC
+2	수산	B-LC	I-LC
+3	##시장	I-LC	I-LC
+4	옥상	O	O
+5	##은	O	O
+6	평소	O	O
+7	출입	O	O
+8	##이	O	O
+9	통제	O	O
+10	##된	O	O
+11	공간	O	O
+12	##이다	O	O
+13	.	O	O
+14	[SEP]	O	O

@@ -1,27 +1,43 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-EV, I-CV, I-AF
-1	뉴욕	B-LC	B-LC	B-LC, O, B-AF, B-OG, B-PS
-2	케네디	B-LC	I-LC	I-LC, B-LC, O, I-AF, I-PS
-3	공항	I-LC	I-LC	I-LC, O, I-AF, B-LC, I-OG
-4	##과	O	O	O, I-LC, I-AF, B-LC, I-OG
-5	뉴	B-LC	B-LC	B-LC, O, B-AF, I-LC, B-OG
-6	##어	I-LC	I-LC	I-LC, O, B-LC, I-AF, I-OG
-7	##크	I-LC	I-LC	I-LC, O, I-AF, B-LC, I-OG
-8	공항	I-LC	I-LC	I-LC, O, I-AF, B-LC, I-OG
-9	,	O	O	O, I-LC, B-LC, I-AF, B-AF
-10	필라델피아	B-LC	B-LC	B-LC, O, I-LC, B-AF, B-OG
-11	국제공항	O	I-LC	I-LC, O, I-AF, B-LC, I-OG
-12	##의	O	O	O, I-LC, I-AF, B-LC, I-OG
-13	항공편	O	O	O, B-AF, B-CV, B-LC, B-TM
-14	##이	O	O	O, I-AF, B-LC, B-PS, B-AF
-15	취소	O	O	O, B-TM, B-CV, B-LC, B-AF
-16	##되	O	O	O, B-LC, I-AF, B-CV, B-AF
-17	##거나	O	O	O, I-AF, B-LC, I-OG, B-CV
-18	몇	O	O	O, B-TI, B-LC, B-PS, B-TM
-19	시간	O	O	O, B-TI, I-TI, B-LC, B-OG
-20	##씩	O	O	O, I-TI, B-LC, I-LC, B-PS
-21	지연	O	O	O, B-LC, B-TM, B-AF, B-CV
-22	##됐	O	O	O, B-LC, I-AF, I-OG, B-CV
-23	##다	O	O	O, B-LC, B-CV, B-OG, I-OG
-24	.	O	O	O, B-LC, B-AF, B-CV, I-LC
-25	[SEP]	O	O	O, B-LC, I-LC, B-CV, B-AF
+	text	label	preds
+0	[CLS]	O	O
+1	중국	B-OG	B-OG
+2	##이	O	O
+3	파리	B-LC	B-OG
+4	기후	B-OG	I-OG
+5	##변	I-OG	I-OG
+6	##화	I-OG	I-OG
+7	##협	I-OG	I-OG
+8	##약	I-OG	I-OG
+9	이행	O	O
+10	등	O	O
+11	환경	O	O
+12	##문제	O	O
+13	대응	O	O
+14	차원	O	O
+15	##에	O	O
+16	##서	O	O
+17	전반	O	O
+18	##적	O	O
+19	##인	O	O
+20	석탄	B-MT	B-MT
+21	생산	O	O
+22	##을	O	O
+23	줄이	O	O
+24	##는	O	O
+25	추세	O	O
+26	##여서	O	O
+27	,	O	O
+28	북한산	O	O
+29	석탄	B-MT	B-MT
+30	##이	O	O
+31	대체	O	O
+32	##재	O	O
+33	##로	O	O
+34	받아들여	O	O
+35	##진다는	O	O
+36	관측	O	O
+37	##도	O	O
+38	있	O	O
+39	##다	O	O
+40	.	O	O
+41	[SEP]	O	O

@@ -1,44 +1,37 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	케이티	B-OG	B-OG	B-OG, B-AF, B-PS, B-LC, O
-2	올레	I-OG	I-OG	I-OG, B-OG, I-AF, B-AF, I-PS
-3	##는	O	O	O, I-OG, I-AF, B-CV, I-EV
-4	최근	O	O	O, B-DT, B-LC, B-OG, B-TM
-5	독거	B-CV	O	O, B-CV, I-CV, B-TM, B-PS
-6	##노	I-CV	O	O, I-CV, B-CV, I-TM, I-OG
-7	##인	I-CV	O	O, I-CV, B-CV, I-TM, I-OG
-8	##의	O	O	O, I-CV, B-PS, I-OG, I-AF
-9	텔레비전	B-TM	B-TM	B-TM, O, B-CV, B-AF, B-QT
-10	##이	O	O	O, I-TM, B-PS, I-AF, B-CV
-11	24	B-TI	B-TI	B-TI, O, B-EV, B-QT, B-DT
-12	##시간	I-TI	I-TI	I-TI, O, B-TI, I-TR, I-EV
-13	동안	I-TI	I-TI	I-TI, O, I-TR, I-QT, I-EV
-14	켜	O	O	O, I-TI, B-LC, B-CV, B-TM
-15	##지	O	O	O, B-LC, B-CV, B-TM, B-PS
-16	##지	O	O	O, B-LC, B-CV, B-PS, B-TM
-17	않	O	O	O, B-CV, B-TM, B-LC, B-PS
-18	##으면	O	O	O, B-LC, B-PS, B-TM, B-OG
-19	119	B-OG	B-OG	B-OG, O, B-EV, B-QT, B-AF
-20	##센터	I-OG	I-OG	I-OG, O, I-QT, I-EV, I-AF
-21	##나	O	O	O, I-OG, I-AF, I-QT, I-EV
-22	자식	B-CV	B-CV	B-CV, O, B-AF, B-OG, B-TM
-23	##들	O	O	O, I-CV, I-AF, I-OG, B-CV
-24	##한	O	O	O, B-CV, B-TM, B-LC, B-QT
-25	##테	O	O	O, B-TM, B-CV, B-LC, B-QT
-26	자동	O	O	O, B-TM, B-LC, B-CV, B-QT
-27	##으로	O	O	O, B-LC, B-PS, B-TM, I-AF
-28	‘	O	O	O, B-LC, B-TM, B-AF, B-CV
-29	유고	O	O	O, B-AF, B-LC, B-TM, B-EV
-30	’	O	O	O, I-AF, I-TM, I-EV, I-LC
-31	문자	O	O	O, I-TM, I-AF, B-TM, B-CV
-32	##를	O	O	O, B-CV, I-AF, I-QT, I-CV
-33	전송	O	O	O, B-TM, B-CV, B-QT, B-LC
-34	##하	O	O	O, B-TM, B-CV, B-LC, B-PS
-35	##는	O	O	O, B-CV, B-TM, B-LC, B-PS
-36	서비스	O	O	O, B-CV, B-TM, B-LC, I-TM
-37	##를	O	O	O, B-CV, B-TM, I-CV, I-TM
-38	시작	O	O	O, B-CV, B-TM, B-OG, B-LC
-39	##했	O	O	O, B-CV, B-OG, B-LC, B-PS
-40	##다	O	O	O, B-CV, B-TM, B-LC, B-OG
-41	.	O	O	O, B-LC, B-CV, B-TM, B-OG
-42	[SEP]	O	O	O, B-CV, B-TM, B-LC, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	중국	B-LC	B-LC
+2	심	B-PS	B-OG
+3	##계	I-PS	I-OG
+4	##서	I-PS	I-OG
+5	(	O	O
+6	감사원	B-CV	B-OG
+7	)	O	O
+8	는	O	O
+9	지난	B-DT	B-DT
+10	8	I-DT	I-DT
+11	##월	I-DT	I-DT
+12	지방	B-OG	B-OG
+13	##정부	I-OG	I-OG
+14	부채	O	O
+15	##에	O	O
+16	대한	O	O
+17	일제	O	O
+18	조사	O	O
+19	##를	O	O
+20	시작	O	O
+21	##했	O	O
+22	##으며	O	O
+23	최근	O	O
+24	전체	O	O
+25	부채	O	O
+26	규모	O	O
+27	##를	O	O
+28	파악	O	O
+29	##한	O	O
+30	것	O	O
+31	##으로	O	O
+32	알려졌	O	O
+33	##다	O	O
+34	.	O	O
+35	[SEP]	O	O

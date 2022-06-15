@@ -1,49 +1,31 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-EV, I-CV
-1	연석회의	B-EV	B-EV	B-EV, O, B-OG, B-CV, B-TM
-2	##는	O	O	O, I-EV, I-OG, I-DT, I-CV
-3	또한	O	O	O, B-EV, B-OG, B-LC, B-DT
-4	총선	B-EV	B-EV	B-EV, O, I-EV, B-LC, B-CV
-5	공천	O	O	O, I-EV, B-CV, B-EV, B-PS
-6	##과	O	O	O, I-EV, B-PS, B-OG, B-LC
-7	관련	O	O	O, B-OG, B-LC, B-CV, B-PS
-8	##해서	O	O	O, B-LC, B-PS, B-OG, B-CV
-9	##는	O	O	O, B-OG, B-LC, B-PS, B-CV
-10	“	O	O	O, B-LC, B-CV, B-OG, B-PS
-11	지분	O	O	O, B-EV, B-CV, B-LC, B-PS
-12	나누	O	O	O, B-PS, I-EV, I-CV, I-PS
-13	##기	O	O	O, B-PS, I-PS, I-EV, I-LC
-14	##는	O	O	O, B-PS, B-LC, B-OG, I-EV
-15	없	O	O	O, B-CV, B-PS, B-OG, B-LC
-16	##으며	O	O	O, B-PS, B-LC, B-OG, B-CV
-17	,	O	O	O, B-CV, B-LC, B-PS, B-OG
-18	지역구	O	O	O, B-EV, B-LC, B-CV, B-PS
-19	##는	O	O	O, I-EV, B-PS, B-CV, B-LC
-20	국민	B-EV	O	O, B-EV, B-CV, B-OG, B-TR
-21	##경	I-EV	O	O, I-EV, B-EV, B-CV, I-CV
-22	##선	I-EV	O	O, I-EV, B-EV, I-CV, B-CV
-23	##을	O	O	O, I-EV, B-PS, I-OG, B-CV
-24	원칙	O	O	O, B-CV, B-LC, B-EV, B-PS
-25	##으로	O	O	O, B-PS, B-LC, B-CV, B-OG
-26	한다	O	O	O, B-PS, B-CV, B-OG, B-LC
-27	”	O	O	O, B-CV, B-PS, B-OG, B-LC
-28	면서도	O	O	O, B-CV, B-LC, B-OG, B-PS
-29	“	O	O	O, B-CV, B-LC, B-PS, B-OG
-30	새로운	O	O	O, B-PS, B-LC, B-OG, B-CV
-31	참여	O	O	O, B-PS, B-CV, B-LC, B-OG
-32	##세	O	O	O, B-PS, I-PS, I-OG, I-CV
-33	##력	O	O	O, I-PS, B-PS, B-LC, I-OG
-34	##을	O	O	O, B-PS, B-LC, B-CV, B-OG
-35	적극	O	O	O, B-LC, B-CV, B-OG, B-PS
-36	##적으로	O	O	O, B-PS, B-LC, I-LC, I-OG
-37	배려	O	O	O, B-CV, B-LC, B-PS, B-OG
-38	##할	O	O	O, B-PS, B-LC, B-OG, B-CV
-39	것	O	O	O, B-PS, B-CV, B-OG, B-LC
-40	”	O	O	O, B-CV, I-OG, I-EV, B-TM
-41	이라	O	O	O, B-PS, B-CV, B-OG, B-LC
-42	##고	O	O	O, B-CV, B-OG, I-OG, B-LC
-43	설명	O	O	O, B-CV, B-OG, B-LC, B-TM
-44	##했	O	O	O, B-PS, B-LC, B-OG, B-CV
-45	##다	O	O	O, B-CV, B-LC, B-OG, B-PS
-46	.	O	O	O, B-LC, B-PS, B-CV, B-OG
-47	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	그러나	O	O
+2	막상	O	O
+3	현장	O	O
+4	##에	O	O
+5	##선	O	O
+6	화합	O	O
+7	##적	O	O
+8	결합	O	O
+9	##단	O	O
+10	##계	O	O
+11	##에	O	O
+12	이르지	O	O
+13	못하	O	O
+14	##고	O	O
+15	선거	B-EV	O
+16	##운동	I-EV	O
+17	지원	O	O
+18	##을	O	O
+19	서로	O	O
+20	기피	O	O
+21	##하	O	O
+22	##는	O	O
+23	현상	O	O
+24	##까	O	O
+25	##지	O	O
+26	벌어졌	O	O
+27	##다	O	O
+28	.	O	O
+29	[SEP]	O	O

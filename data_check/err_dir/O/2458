@@ -1,35 +1,12 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	본래	O	O	O, B-CV, B-TM, B-LC, B-QT
-2	투표율	O	O	O, B-CV, B-TM, B-PS, B-EV
-3	##이	O	O	O, B-PS, B-OG, B-CV, B-LC
-4	높	O	O	O, B-CV, B-OG, B-LC, B-TM
-5	##았	O	O	O, B-CV, B-OG, B-LC, B-PS
-6	##던	O	O	O, B-CV, B-OG, B-LC, B-TM
-7	50	B-QT	B-QT	B-QT, O, I-QT, B-EV, B-DT
-8	##60	I-QT	I-QT	I-QT, O, B-QT, I-EV, I-LC
-9	##세대	I-QT	I-QT	I-QT, O, I-EV, I-LC, I-PS
-10	##는	O	O	O, I-QT, I-EV, B-CV, I-OG
-11	앞	O	O	O, B-TM, B-LC, B-PS, B-OG
-12	##으로	O	O	O, B-PS, B-LC, B-OG, B-TM
-13	수	O	O	O, B-PS, B-LC, B-TM, B-QT
-14	(	O	O	O, B-PS, B-LC, I-PS, I-LC
-15	數	O	O	O, B-PS, B-LC, B-QT, B-OG
-16	)	O	O	O, B-PS, B-LC, B-OG, B-TM
-17	까지	O	O	O, B-PS, B-LC, B-OG, B-QT
-18	늘어	O	O	O, B-LC, B-PS, B-OG, B-TM
-19	시간	O	O	O, B-LC, B-OG, B-TM, B-PS
-20	##이	O	O	O, B-PS, B-LC, B-OG, B-AF
-21	갈수록	O	O	O, B-LC, B-PS, B-OG, I-OG
-22	이	O	O	O, B-PS, B-OG, B-LC, B-CV
-23	##들	O	O	O, B-PS, B-CV, I-AF, I-PS
-24	손	O	B-AM	B-AM, O, B-TR, B-PS, B-TM
-25	##에서	O	O	O, I-AF, B-CV, I-EV, I-QT
-26	결	O	O	O, B-CV, B-TM, B-OG, B-QT
-27	##판	O	O	O, B-CV, B-LC, B-PS, I-EV
-28	##이	O	O	O, B-PS, B-OG, B-CV, B-LC
-29	날	O	O	O, B-CV, B-OG, B-LC, B-PS
-30	것	O	O	O, B-CV, B-OG, B-PS, B-TM
-31	##이다	O	O	O, B-CV, B-TM, I-EV, I-OG
-32	.	O	O	O, B-LC, B-PS, B-CV, B-OG
-33	[SEP]	O	O	O, B-CV, B-LC, B-PS, I-EV
+	text	label	preds
+0	[CLS]	O	O
+1	아저씨	O	O
+2	##들	O	O
+3	담배	O	B-CV
+4	피	O	O
+5	##는	O	O
+6	사람	O	O
+7	되게	O	O
+8	많	O	O
+9	##아	O	O
+10	[SEP]	O	O

@@ -1,53 +1,24 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	이어	O	O	O, B-CV, B-LC, B-OG, B-QT
-2	우리	O	O	O, B-OG, B-LC, B-CV, B-PS
-3	##측	O	O	O, I-OG, B-OG, I-QT, I-LC
-4	##은	O	O	O, B-CV, B-LC, B-OG, B-PS
-5	처음	O	O	O, B-CV, B-LC, B-OG, B-QT
-6	##에	O	O	O, B-CV, B-OG, B-LC, B-PS
-7	##는	O	O	O, B-CV, B-LC, B-OG, B-TM
-8	'	O	O	O, B-LC, B-CV, B-PS, B-DT
-9	천안	B-AF	B-AF	B-AF, B-EV, B-PS, B-LC, B-OG
-10	##함	I-AF	I-AF	I-AF, I-EV, I-PS, I-LC, O
-11	·	O	O	O, I-EV, I-AF, I-DT, I-LC
-12	연평도	B-LC	B-LC	B-LC, O, I-LC, B-EV, B-AF
-13	##에	O	O	O, I-LC, I-EV, I-AF, B-CV
-14	대한	O	O	O, B-LC, B-PS, B-OG, B-CV
-15	책임	O	O	O, B-LC, B-CV, B-PS, B-OG
-16	있	O	O	O, B-PS, B-LC, B-CV, I-PS
-17	##는	O	O	O, B-LC, B-PS, I-PS, B-CV
-18	조치	O	O	O, B-LC, B-CV, B-PS, I-LC
-19	##와	O	O	O, B-LC, B-PS, B-OG, B-CV
-20	추가	O	O	O, B-LC, B-CV, B-OG, B-TM
-21	##도	O	O	O, B-LC, B-CV, B-PS, I-LC
-22	##발	O	O	O, B-LC, B-PS, I-LC, B-CV
-23	방지	O	O	O, B-LC, B-PS, B-CV, B-OG
-24	확	O	O	O, B-LC, B-CV, B-PS, B-OG
-25	##약	O	O	O, B-LC, I-LC, B-PS, I-CV
-26	'	O	O	O, B-CV, B-LC, B-OG, B-PS
-27	을	O	O	O, B-CV, B-LC, B-PS, B-OG
-28	요구	O	O	O, B-CV, B-LC, B-OG, B-PS
-29	##하	O	O	O, B-CV, B-LC, B-OG, B-PS
-30	##다가	O	O	O, B-PS, B-LC, B-OG, B-CV
-31	'	O	O	O, B-LC, B-CV, B-PS, B-DT
-32	천안	B-EV	B-EV	B-EV, B-AF, B-LC, B-PS, O
-33	##함	I-EV	I-EV	I-EV, I-AF, I-LC, I-PS, I-QT
-34	폭침	I-EV	I-EV	I-EV, O, I-AF, I-LC, I-QT
-35	##과	O	O	O, I-EV, I-AF, B-LC, I-DT
-36	연평도	B-EV	B-EV	B-EV, B-LC, B-AF, I-EV, O
-37	포격	I-EV	I-EV	I-EV, O, I-AF, B-EV, I-LC
-38	##도	I-EV	I-EV	I-EV, O, B-EV, I-AF, I-LC
-39	##발	I-EV	O	O, I-EV, B-EV, I-LC, I-DT
-40	##에	O	O	O, I-EV, B-LC, B-PS, B-CV
-41	대하	O	O	O, B-LC, B-OG, B-CV, B-PS
-42	##여	O	O	O, B-PS, B-LC, I-OG, I-EV
-43	'	O	O	O, B-CV, B-LC, B-OG, B-PS
-44	로	O	O	O, B-LC, B-PS, B-OG, B-CV
-45	요구	O	O	O, B-CV, B-LC, B-OG, B-PS
-46	수위	O	O	O, B-CV, B-OG, B-PS, B-LC
-47	##를	O	O	O, B-CV, B-OG, B-LC, B-PS
-48	낮췄	O	O	O, B-OG, B-CV, B-LC, B-PS
-49	##다	O	O	O, B-CV, B-LC, B-OG, I-OG
-50	.	O	O	O, B-LC, B-CV, B-OG, B-PS
-51	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	해외	O	O
+2	거장	O	B-CV
+3	##들의	O	O
+4	작품	O	O
+5	128	B-QT	B-QT
+6	##점	I-QT	I-QT
+7	##을	O	O
+8	한자	O	O
+9	##리에	O	O
+10	모은	O	O
+11	‘	B-EV	O
+12	나의	I-EV	B-EV
+13	샤	I-EV	I-EV
+14	##갈	I-EV	I-EV
+15	,	I-EV	I-EV
+16	당신	I-EV	I-EV
+17	##의	I-EV	I-EV
+18	피카소	I-EV	I-EV
+19	’	I-EV	O
+20	전	I-EV	O
+21	.	O	O
+22	[SEP]	O	O

@@ -1,39 +1,22 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, B-CV, I-OG, I-AF
-1	[UNK]	O	O	O, B-CV, B-AM, B-LC, B-PS
-2	봐	O	O	O, B-CV, B-PS, B-AM, B-LC
-3	주	O	O	O, B-CV, B-PS, B-AM, I-CV
-4	##러	O	O	O, B-PS, I-CV, B-CV, B-LC
-5	온	O	O	O, B-CV, B-PS, B-LC, B-OG
-6	풍수	B-CV	O	O, B-CV, I-CV, B-FD, B-PS
-7	##가	I-CV	O	O, I-CV, B-CV, I-OG, I-PS
-8	##가	O	O	O, I-CV, B-PS, B-CV, I-OG
-9	수	O	O	O, B-CV, B-AM, B-PS, B-LC
-10	##맥	O	O	O, I-CV, I-LC, I-PS, I-AM
-11	##을	O	O	O, I-CV, I-AF, B-CV, I-PS
-12	찾	O	O	O, B-CV, B-PS, B-LC, B-OG
-13	##는	O	O	O, B-PS, B-CV, B-LC, B-OG
-14	##다	O	O	O, B-PS, B-LC, B-CV, B-OG
-15	##며	O	O	O, B-LC, B-PS, B-CV, B-TM
-16	‘	O	O	O, B-AF, B-CV, B-OG, B-LC
-17	L	O	B-AF	B-AF, O, B-TM, B-CV, B-AM
-18	##로드	O	I-AF	I-AF, O, I-TM, I-CV, I-OG
-19	’	O	O	O, I-AF, I-TM, I-CV, I-OG
-20	(	O	O	O, B-CV, B-OG, B-LC, I-AF
-21	L	B-TM	B-TM	B-TM, O, I-TM, B-AF, B-CV
-22	##자	I-TM	I-TM	I-TM, O, B-TM, I-QT, I-AF
-23	모양	I-TM	I-TM	I-TM, O, B-TM, I-QT, I-AF
-24	##으로	O	O	O, I-TM, I-AF, I-QT, I-OG
-25	굽	O	O	O, I-AF, I-TM, B-AF, B-AM
-26	##은	O	O	O, I-AF, I-TM, B-AM, B-TM
-27	금속	O	B-MT	B-MT, O, B-AF, B-TM, I-MT
-28	막대	O	O	O, I-AF, B-AF, B-AM, B-TM
-29	)	O	O	O, I-AF, I-CV, B-CV, I-TM
-30	를	O	O	O, B-CV, B-TM, B-OG, B-LC
-31	사용	O	O	O, B-CV, B-OG, B-AF, B-TM
-32	##하	O	O	O, B-CV, B-PS, B-OG, B-LC
-33	##더	O	O	O, B-CV, B-PS, B-OG, B-LC
-34	##군	O	O	O, I-OG, I-CV, I-AF, B-CV
-35	##요	O	O	O, I-CV, I-OG, I-AF, I-TM
-36	.	O	O	O, B-LC, B-CV, B-PS, I-AF
-37	[SEP]	O	O	O, B-CV, B-LC, B-TM, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	[	O	O
+2	한겨레	B-OG	B-OG
+3	]	O	O
+4	‘	O	O
+5	조종	B-PS	B-AF
+6	##현	I-PS	I-AF
+7	조정	B-PS	I-AF
+8	##래	I-PS	I-AF
+9	김	B-PS	I-AF
+10	##초	I-PS	I-AF
+11	##혜	I-PS	I-AF
+12	가족	B-CV	I-AF
+13	##문	O	I-AF
+14	##학	O	I-AF
+15	##관	O	I-AF
+16	’	O	O
+17	고흥	B-LC	B-LC
+18	##서	O	O
+19	개관	O	O
+20	[SEP]	O	O

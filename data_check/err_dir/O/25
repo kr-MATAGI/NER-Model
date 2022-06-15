@@ -1,32 +1,46 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, B-CV, I-OG, I-AF
-1	한	B-QT	B-QT	B-QT, O, B-DT, B-EV, B-LC
-2	번	I-QT	I-QT	I-QT, O, I-DT, I-EV, I-LC
-3	이번	B-DT	B-DT	B-DT, O, I-DT, I-QT, B-QT
-4	주	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
-5	##는	O	O	O, I-DT, I-QT, B-CV, I-AF
-6	바쁘	O	O	O, B-CV, B-LC, B-OG, B-TM
-7	##구	O	O	O, I-OG, I-LC, I-DT, B-PS
-8	다음	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-CV
-9	주	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
-10	##에	O	O	O, I-DT, B-CV, I-QT, I-AF
-11	내	O	O	O, B-CV, B-OG, B-LC, B-PS
-12	##가	O	O	O, B-PS, B-CV, B-OG, B-LC
-13	데려가	O	O	O, B-CV, B-OG, B-LC, B-AF
-14	##서	O	O	O, I-CV, B-CV, B-LC, B-PS
-15	그	O	O	O, B-CV, B-LC, B-OG, B-QT
-16	열	B-TI	B-TI	B-TI, B-QT, B-EV, O, I-TI
-17	##한	I-TI	I-TI	I-TI, I-QT, B-TI, O, I-TR
-18	##시	I-TI	I-TI	I-TI, I-QT, O, I-TR, B-TI
-19	때	O	I-TI	I-TI, O, I-QT, I-TR, I-DT
-20	하	O	O	O, I-TI, I-QT, B-CV, I-AF
-21	##는	O	O	O, B-CV, B-LC, B-TM, B-PS
-22	거	O	O	O, B-CV, B-OG, B-PS, B-LC
-23	있	O	O	O, B-CV, B-PS, B-TM, B-QT
-24	##으면	O	O	O, B-PS, B-CV, I-CV, I-AF
-25	##은	O	O	O, B-CV, B-LC, B-OG, B-TM
-26	말	O	O	O, B-AM, B-CV, B-QT, B-TM
-27	좀	O	O	O, I-QT, B-QT, B-PS, B-CV
-28	해	O	O	O, B-PS, B-QT, I-QT, B-AM
-29	줘	O	O	O, B-PS, I-QT, I-LC, I-AF
-30	[SEP]	O	O	O, B-CV, B-LC, B-PS, I-QT
+	text	label	preds
+0	[CLS]	O	O
+1	박주	B-PS	B-PS
+2	##원	I-PS	I-PS
+3	안산시	O	O
+4	##장	O	O
+5	##은	O	O
+6	""""	O	O
+7	평생	O	B-OG
+8	##학습	O	I-OG
+9	##센터	O	I-OG
+10	##는	O	O
+11	안산시	O	B-OG
+12	,	O	O
+13	안산	B-LC	B-OG
+14	##교육	O	I-OG
+15	##청	O	I-OG
+16	,	O	O
+17	관	O	B-OG
+18	##학	O	I-OG
+19	##협	O	I-OG
+20	##정	O	I-OG
+21	##대	O	I-OG
+22	##학	O	I-OG
+23	등	O	O
+24	평생	O	O
+25	##학습	O	O
+26	지원	O	O
+27	기관	O	O
+28	##의	O	O
+29	정책	O	O
+30	개발	O	O
+31	##을	O	O
+32	주로	O	O
+33	담당	O	O
+34	##하	O	O
+35	##게	O	O
+36	될	O	O
+37	것	O	O
+38	""""	O	O
+39	이라	O	O
+40	##고	O	O
+41	했	O	O
+42	##다	O	O
+43	.	O	O
+44	[SEP]	O	O

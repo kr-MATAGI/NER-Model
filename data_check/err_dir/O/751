@@ -1,9 +1,27 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	에	O	O	O, B-CV, B-OG, B-LC, B-TM
-2	~	O	O	O, I-OG, I-CV, B-CV, I-AF
-3	면	O	B-CV	B-CV, O, B-AM, B-PT, B-LC
-4	##피	O	I-CV	I-CV, O, I-AM, I-PT, I-MT
-5	##를	O	O	O, I-CV, I-OG, I-AF, I-TM
-6	위한	O	O	O, B-LC, B-PS, B-QT, B-TM
-7	[SEP]	O	O	O, B-CV, I-AF, I-CV, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	차남	B-CV	B-CV
+2	안드레아	B-PS	B-PS
+3	##스	I-PS	I-PS
+4	(	O	O
+5	24	B-QT	B-QT
+6	)	O	O
+7	도	O	O
+8	2011	B-DT	B-DT
+9	##년	I-DT	I-DT
+10	스물	B-QT	B-QT
+11	##둘	I-QT	I-QT
+12	나이	O	O
+13	##에	O	O
+14	베를린	B-OG	B-OG
+15	필	I-OG	I-OG
+16	##의	O	O
+17	클라	B-AF	B-AF
+18	##리	I-AF	I-AF
+19	##넷	I-AF	I-AF
+20	수석	O	B-CV
+21	##으로	O	O
+22	뽑혔	O	O
+23	##다	O	O
+24	.	O	O
+25	[SEP]	O	O

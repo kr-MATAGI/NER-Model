@@ -1,39 +1,9 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-AF, I-CV
-1	‘	O	O	O, B-AF, B-LC, B-CV, B-OG
-2	ELS	B-TM	B-AF	B-AF, B-TM, B-CV, O, B-OG
-3	34	I-TM	I-AF	I-AF, B-QT, I-TM, B-AF, I-QT
-4	##71	I-TM	I-AF	I-AF, I-QT, I-TM, I-LC, I-OG
-5	’	O	O	O, I-AF, I-QT, I-TM, I-CV
-6	호	O	O	O, I-AF, B-AF, B-PS, I-QT
-7	##는	O	O	O, I-AF, B-LC, B-CV, B-PS
-8	코스피	O	B-OG	B-OG, O, B-AF, B-LC, B-TM
-9	##20	O	B-QT	B-QT, I-OG, I-AF, O, I-LC
-10	##0	O	I-OG	I-OG, I-QT, O, I-AF, I-TM
-11	,	O	O	O, I-QT, I-AF, I-OG, B-LC
-12	HS	O	B-OG	B-OG, O, B-AF, B-TM, B-TR
-13	##C	O	I-OG	I-OG, I-AF, O, I-MT, I-TM
-14	##E	O	I-OG	I-OG, O, I-AF, I-MT, I-TM
-15	##I	O	I-OG	I-OG, O, I-AF, I-MT, I-TM
-16	##를	O	O	O, I-OG, I-AF, I-TM, I-QT
-17	기초	O	O	O, B-CV, B-TM, B-LC, B-AF
-18	##자산	O	O	O, I-CV, I-LC, I-TM, I-AF
-19	##으로	O	O	O, B-LC, B-CV, B-PS, I-CV
-20	하	O	O	O, B-LC, B-CV, B-PS, B-OG
-21	##는	O	O	O, B-CV, B-LC, B-PS, B-TM
-22	만기	O	O	O, B-CV, B-AF, B-PS, B-QT
-23	3	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-AF
-24	##년	I-DT	I-DT	I-DT, O, I-QT, B-DT, I-AF
-25	##의	O	O	O, I-DT, I-AF, B-PS, B-CV
-26	원금	O	O	O, B-CV, B-QT, B-TM, B-PS
-27	비	O	O	O, B-CV, B-PS, B-QT, B-TM
-28	##보	O	O	O, I-CV, B-CV, I-AF, I-QT
-29	##장	O	O	O, I-CV, I-AF, I-TM, I-TR
-30	##형	O	O	O, I-CV, I-AF, I-TR, I-TM
-31	스텝	O	O	O, B-TR, B-CV, B-TM, B-AF
-32	##다운	O	O	O, I-TM, I-TR, I-AF, I-CV
-33	구조	O	O	O, I-AF, I-TM, I-CV, I-TR
-34	상품	O	O	O, B-CV, I-AF, I-CV, B-AF
-35	##이다	O	O	O, I-CV, I-AF, B-CV, B-LC
-36	.	O	O	O, B-LC, B-AF, B-CV, B-TM
-37	[SEP]	O	O	O, B-LC, B-CV, B-AF, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	느	O	B-PT
+2	##릅	O	I-PT
+3	##나무	O	I-PT
+4	##물	O	O
+5	##입니다	O	O
+6	.	O	O
+7	[SEP]	O	O

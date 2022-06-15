@@ -1,22 +1,68 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	영화	O	O	O, B-FD, B-CV, B-TM, B-LC
-2	##여	O	O	O, B-CV, B-PS, B-LC, B-OG
-3	##서	O	O	O, B-LC, B-PS, B-CV, B-OG
-4	약간	O	O	O, B-TM, B-CV, B-AF, B-OG
-5	그	O	O	O, B-CV, B-OG, B-LC, B-AF
-6	뭐	O	O	O, B-PS, B-TM, B-CV, B-OG
-7	##랄	O	O	O, B-PS, B-LC, B-CV, B-OG
-8	##까	O	O	O, I-AF, B-PS, B-LC, I-PS
-9	아이	O	B-AF	B-AF, B-EV, O, B-LC, B-FD
-10	##애	O	I-AF	I-AF, O, I-EV, I-TM, I-PS
-11	아이	B-AF	I-AF	I-AF, I-EV, B-AF, I-PS, O
-12	캔	I-AF	I-AF	I-AF, I-EV, I-PS, O, I-LC
-13	스피	I-AF	I-AF	I-AF, I-EV, I-PS, I-LC, O
-14	##크	I-AF	I-AF	I-AF, I-EV, I-LC, I-PS, O
-15	##를	O	O	O, I-AF, I-EV, B-CV, I-QT
-16	연출	O	O	O, B-CV, B-FD, B-LC, B-TM
-17	##한	O	O	O, B-PS, B-LC, B-CV, B-OG
-18	것	O	O	O, B-CV, B-LC, B-PS, B-OG
-19	##과	O	O	O, B-CV, B-LC, B-OG, B-PS
-20	[SEP]	O	O	O, B-CV, B-LC, I-AF, B-AF
+	text	label	preds
+0	[CLS]	O	O
+1	3	B-DT	B-DT
+2	##일	I-DT	I-DT
+3	선사	O	O
+4	##가	O	O
+5	작성	O	O
+6	##한	O	O
+7	‘	O	O
+8	스텔라	B-AF	B-AF
+9	##데이	I-AF	I-AF
+10	##지	I-AF	I-AF
+11	##호	I-AF	I-AF
+12	사고	I-AF	O
+13	접수	I-AF	O
+14	·	I-AF	O
+15	긴급	I-AF	O
+16	구조	I-AF	O
+17	##진	I-AF	O
+18	##행	I-AF	O
+19	상황	I-AF	O
+20	보고서	I-AF	O
+21	’	O	O
+22	를	O	O
+23	보	O	O
+24	##면	O	O
+25	,	O	O
+26	이	O	O
+27	선박	B-AF	B-AF
+28	##에	O	O
+29	##서	O	O
+30	지난달	B-DT	B-DT
+31	31	I-DT	I-DT
+32	##일	I-DT	I-DT
+33	밤	B-TI	B-TI
+34	11	I-TI	I-TI
+35	##시	I-TI	I-TI
+36	##25	I-TI	I-TI
+37	##분	I-TI	I-TI
+38	(	O	O
+39	한국	B-LC	B-LC
+40	##시	O	O
+41	##각	O	O
+42	)	O	O
+43	조난	O	O
+44	##신호	O	O
+45	##가	O	O
+46	발신	O	O
+47	##됐	O	O
+48	##고	O	O
+49	,	O	O
+50	선사	O	O
+51	##는	O	O
+52	밤	B-TI	B-TI
+53	11	I-TI	I-TI
+54	##시	I-TI	I-TI
+55	##52	I-TI	I-TI
+56	##분	I-TI	I-TI
+57	##께	I-TI	I-TI
+58	조난	O	O
+59	##신호	O	O
+60	수신	O	O
+61	##을	O	O
+62	확인	O	O
+63	##했	O	O
+64	##다	O	O
+65	.	O	O
+66	[SEP]	O	O

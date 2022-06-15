@@ -1,19 +1,45 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	‘	O	O	O, B-CV, B-LC, B-OG, B-PS
-2	서민	B-CV	B-CV	B-CV, O, B-OG, B-AF, I-CV
-3	세금	O	O	O, I-CV, B-CV, B-TR, B-TM
-4	##감	O	O	O, I-CV, B-CV, I-TR, I-TM
-5	##면	O	O	O, I-CV, I-TR, I-TM, I-QT
-6	’	O	O	O, I-CV, B-PS, B-CV, I-QT
-7	이라	O	O	O, B-CV, B-PS, B-QT, I-CV
-8	##더니	O	O	O, I-CV, B-CV, I-QT, B-PS
-9	…	O	O	O, B-PS, B-CV, B-LC, B-OG
-10	수혜자	B-CV	B-CV	B-CV, O, I-CV, B-PS, B-OG
-11	##에	O	O	O, I-CV, I-OG, I-AF, B-CV
-12	고소득	O	B-CV	B-CV, O, I-CV, B-TM, B-OG
-13	##층	O	I-CV	I-CV, O, B-CV, I-TM, I-OG
-14	‘	O	O	O, I-CV, I-OG, I-QT, B-CV
-15	수두룩	O	O	O, B-CV, B-TM, B-OG, B-LC
-16	’	O	O	O, B-CV, B-OG, B-LC, B-PS
-17	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	재판부	O	O
+2	##는	O	O
+3	“	O	O
+4	종전	O	O
+5	##의	O	O
+6	학문	O	O
+7	##적	O	O
+8	공적	O	O
+9	등	O	O
+10	모든	O	O
+11	유리	O	O
+12	##한	O	O
+13	사정	O	O
+14	##을	O	O
+15	감안	O	O
+16	##하	O	O
+17	##더라	O	O
+18	##도	O	O
+19	파면	O	O
+20	처분	O	O
+21	##이	O	O
+22	징계	O	B-CV
+23	##재	O	I-CV
+24	##량	O	I-CV
+25	##권	O	I-CV
+26	범위	O	O
+27	##를	O	O
+28	일탈	O	O
+29	##하	O	O
+30	##거나	O	O
+31	남용	O	O
+32	##했	O	O
+33	##다고	O	O
+34	볼	O	O
+35	수	O	O
+36	없	O	O
+37	##다	O	O
+38	”	O	O
+39	고	O	O
+40	덧붙였	O	O
+41	##다	O	O
+42	.	O	O
+43	[SEP]	O	O

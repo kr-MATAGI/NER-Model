@@ -1,46 +1,38 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	일본	B-LC	B-LC	B-LC, O, B-OG, B-AF, B-PS
-2	규슈	B-LC	B-LC	B-LC, O, I-LC, B-OG, B-AF
-3	##지역	O	O	O, I-LC, B-LC, I-AF, I-OG
-4	##의	O	O	O, B-LC, B-CV, I-LC, B-PS
-5	대표	O	O	O, B-CV, B-LC, B-PS, B-TM
-6	##적	O	O	O, B-LC, B-PS, I-LC, I-CV
-7	항구	O	O	O, B-LC, B-CV, I-LC, B-AF
-8	##인	O	O	O, I-LC, B-LC, B-PS, I-CV
-9	하	O	O	O, B-LC, B-PS, B-AF, B-OG
-10	##카	O	O	O, I-LC, B-LC, I-PS, I-AF
-11	##타	O	O	O, I-LC, B-LC, I-PS, I-AF
-12	(	O	O	O, I-LC, B-LC, I-AF, I-PS
-13	[UNK]	O	O	O, B-LC, I-LC, B-PS, B-OG
-14	多	O	O	O, B-LC, I-LC, B-PS, B-OG
-15	)	O	O	O, B-LC, I-LC, B-PS, B-OG
-16	항의	O	O	O, B-LC, I-LC, B-PS, B-OG
-17	국제	O	B-LC	B-LC, O, B-AF, I-LC, B-OG
-18	##여	O	I-LC	I-LC, O, B-LC, I-AF, I-PS
-19	##객	O	I-LC	I-LC, O, I-AF, B-LC, I-PS
-20	##선	O	I-LC	I-LC, O, I-AF, B-LC, I-PS
-21	##터	O	I-LC	I-LC, O, I-AF, B-LC, I-PS
-22	##미	O	I-LC	I-LC, O, I-AF, B-LC, I-PS
-23	##널	O	I-LC	I-LC, O, I-AF, B-LC, I-PS
-24	매표소	O	O	O, B-AF, I-LC, I-AF, B-TM
-25	로비	O	O	O, B-TM, B-AF, B-CV, B-LC
-26	##에	O	O	O, B-CV, B-LC, I-AF, B-TM
-27	최근	O	O	O, B-LC, B-OG, B-CV, B-PS
-28	‘	O	O	O, B-LC, B-CV, B-OG, B-PS
-29	경북	B-LC	B-LC	B-LC, B-OG, O, B-PS, B-AF
-30	관광	O	O	O, I-LC, I-AF, I-OG, B-LC
-31	’	O	O	O, B-CV, I-AF, B-OG, I-OG
-32	을	O	O	O, B-CV, B-PS, B-OG, B-LC
-33	알리	O	O	O, B-CV, B-TM, B-LC, B-OG
-34	##는	O	O	O, B-CV, B-LC, B-OG, B-PS
-35	42	B-QT	B-QT	B-QT, O, B-EV, I-QT, B-DT
-36	##인	I-QT	I-QT	I-QT, O, I-EV, I-LC, I-PS
-37	##치	I-QT	I-QT	I-QT, O, I-EV, I-LC, I-PS
-38	TV	B-TM	B-TM	B-TM, I-QT, O, I-TM, B-OG
-39	##가	O	O	O, I-TM, I-QT, I-OG, I-EV
-40	설치	O	O	O, B-CV, B-LC, B-TM, B-OG
-41	##됐	O	O	O, B-CV, B-LC, B-OG, B-PS
-42	##다	O	O	O, B-CV, B-LC, B-OG, B-TM
-43	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-44	[SEP]	O	O	O, B-LC, B-CV, I-LC, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	CJ	B-OG	B-OG
+2	##그룹	I-OG	I-OG
+3	관계자	B-CV	B-CV
+4	##는	O	O
+5	“	O	O
+6	이	B-PS	B-PS
+7	회장	B-CV	B-CV
+8	##이	B-PS	O
+9	구두	O	O
+10	##로	O	O
+11	전한	O	O
+12	메시지	O	O
+13	##를	O	O
+14	비서실	O	O
+15	##에	O	O
+16	##서	O	O
+17	정리	O	O
+18	##했	O	O
+19	##으며	O	O
+20	모든	O	O
+21	문구	O	O
+22	##를	O	O
+23	이	O	B-PS
+24	회장	B-CV	B-CV
+25	##이	O	O
+26	직접	O	O
+27	확인	O	O
+28	##했	O	O
+29	##다	O	O
+30	”	O	O
+31	고	O	O
+32	말	O	O
+33	##했	O	O
+34	##다	O	O
+35	.	O	O
+36	[SEP]	O	O

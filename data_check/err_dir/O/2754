@@ -1,38 +1,10 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	23	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-2	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-3	실무	O	O	O, B-CV, B-OG, B-LC, B-EV
-4	##부	O	O	O, I-CV, I-OG, B-CV, B-LC
-5	##서	O	O	O, B-CV, B-LC, I-CV, B-PS
-6	##의	O	O	O, B-PS, B-LC, I-OG, B-CV
-7	면접	O	O	O, B-EV, B-LC, B-TR, B-TM
-8	##평가	O	O	O, I-EV, I-TR, I-LC, I-OG
-9	후	O	O	O, B-LC, B-OG, B-PS, I-EV
-10	합격자	O	B-CV	B-CV, O, I-CV, B-AF, B-OG
-11	##가	O	O	O, I-CV, B-PS, I-OG, I-EV
-12	선정	O	O	O, B-OG, B-LC, B-CV, B-PS
-13	##되	O	O	O, B-PS, B-LC, B-OG, I-OG
-14	##면	O	O	O, B-OG, B-LC, B-PS, I-OG
-15	시	O	O	O, B-OG, B-LC, B-PS, I-OG
-16	인사	B-OG	B-OG	B-OG, O, I-OG, B-CV, B-EV
-17	##위	I-OG	I-OG	I-OG, O, I-EV, I-CV, B-OG
-18	승인	O	O	O, I-OG, I-EV, B-LC, B-PS
-19	##을	O	O	O, I-OG, B-LC, B-OG, B-CV
-20	거쳐	O	O	O, B-LC, B-OG, B-PS, B-CV
-21	다음	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-22	##달	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-23	11	I-DT	I-DT	I-DT, O, B-DT, I-PS, I-QT
-24	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-OG
-25	##께	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-OG
-26	최종	O	O	O, I-DT, B-CV, B-LC, B-OG
-27	확정	O	O	O, B-LC, B-OG, B-CV, B-TM
-28	##된	O	O	O, B-LC, B-OG, I-OG, B-PS
-29	##다	O	O	O, B-CV, B-OG, B-LC, I-OG
-30	”	O	O	O, B-CV, B-LC, B-OG, I-OG
-31	고	O	O	O, B-CV, B-TM, B-LC, B-OG
-32	말	O	O	O, B-CV, B-TM, B-OG, B-LC
-33	##했	O	O	O, B-CV, B-OG, B-LC, I-OG
-34	##다	O	O	O, B-CV, B-LC, B-OG, B-TM
-35	.	O	O	O, B-LC, B-OG, B-PS, B-CV
-36	[SEP]	O	O	O, B-LC, B-OG, B-CV, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	보청기	O	B-TM
+2	하나	B-QT	B-QT
+3	놔	O	O
+4	드려야	O	O
+5	##겠	O	O
+6	##어요	O	O
+7	.	O	O
+8	[SEP]	O	O

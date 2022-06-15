@@ -1,31 +1,11 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	또	O	O	O, B-CV, B-OG, B-TM, B-LC
-2	해당	O	O	O, B-OG, B-LC, B-AF, B-TM
-3	버스	O	O	O, B-AF, B-OG, B-CV, I-AF
-4	##회사	O	O	O, I-AF, I-OG, I-CV, I-EV
-5	##의	O	O	O, B-CV, I-AF, I-OG, B-LC
-6	사업자	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-AF
-7	등록	O	O	O, I-CV, I-TM, B-CV, I-OG
-8	##을	O	O	O, B-CV, I-CV, B-TM, B-PS
-9	취소	O	O	O, B-CV, B-TM, B-OG, B-LC
-10	##하고	O	O	O, B-CV, B-LC, B-OG, B-PS
-11	,	O	O	O, B-CV, B-LC, B-OG, B-TM
-12	운전기사	B-CV	B-CV	B-CV, O, B-AF, I-CV, B-PT
-13	신원	I-CV	B-CV	B-CV, O, I-CV, B-TM, B-PT
-14	##확	I-CV	I-CV	I-CV, O, B-CV, I-TM, I-OG
-15	##인	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-TM
-16	##제	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-TM
-17	도입	O	O	O, I-CV, B-CV, I-OG, I-QT
-18	등	O	O	O, B-LC, B-CV, B-OG, B-PS
-19	안전	O	O	O, B-CV, B-TM, B-LC, B-QT
-20	대책	O	O	O, B-CV, I-CV, B-LC, B-TM
-21	##을	O	O	O, B-CV, B-OG, B-LC, B-PS
-22	강구	O	O	O, B-CV, B-LC, B-TM, B-OG
-23	##하	O	O	O, B-LC, B-CV, B-PS, B-OG
-24	##겠다	O	O	O, B-CV, B-OG, B-LC, B-PS
-25	##고	O	O	O, B-CV, B-OG, B-LC, B-PS
-26	밝혔	O	O	O, B-CV, B-OG, B-LC, B-PS
-27	##다	O	O	O, B-CV, B-OG, I-OG, B-LC
-28	.	O	O	O, B-LC, B-CV, B-OG, B-PS
-29	[SEP]	O	O	O, B-CV, B-LC, I-OG, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	긴	B-CV	O
+2	##팔	I-CV	O
+3	입	O	O
+4	##고	O	O
+5	다니	O	O
+6	##는	O	O
+7	사람	O	O
+8	##들	O	O
+9	[SEP]	O	O

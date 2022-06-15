@@ -1,30 +1,28 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	청와대	B-OG	B-OG	B-OG, B-AF, O, B-LC, B-PS
-2	참모	O	B-CV	B-CV, O, I-CV, I-OG, I-AF
-3	##들	O	O	O, I-CV, I-OG, I-AF, I-EV
-4	사이	O	O	O, B-CV, B-PS, B-TM, B-LC
-5	##에서	O	O	O, B-CV, B-PS, B-OG, B-LC
-6	##도	O	O	O, B-PS, B-CV, B-LC, B-OG
-7	“	O	O	O, B-CV, B-PS, B-LC, B-QT
-8	이번	O	O	O, B-PS, B-CV, B-OG, B-QT
-9	개편	O	O	O, B-CV, B-PS, B-OG, I-EV
-10	##으로	O	O	O, B-PS, B-CV, B-OG, B-LC
-11	역할	O	O	O, B-CV, B-PS, B-LC, B-QT
-12	##과	O	O	O, B-PS, B-OG, B-CV, B-LC
-13	비중	O	O	O, B-CV, B-PS, B-QT, B-TM
-14	##이	O	O	O, B-PS, B-OG, B-CV, B-LC
-15	가장	O	O	O, B-QT, B-CV, B-PS, B-LC
-16	커진	O	O	O, B-PS, B-CV, B-QT, B-OG
-17	이	O	O	O, B-PS, B-CV, B-OG, B-QT
-18	##는	O	O	O, B-PS, B-CV, B-LC, I-QT
-19	정	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-20	비서관	B-CV	B-CV	B-CV, O, I-CV, I-PS, B-OG
-21	”	O	O	O, I-CV, I-EV, I-OG, B-CV
-22	이라	O	O	O, B-PS, B-CV, I-CV, B-QT
-23	##는	O	O	O, B-CV, B-PS, B-QT, B-TM
-24	평가	O	O	O, B-CV, B-PS, B-QT, I-QT
-25	##가	O	O	O, B-PS, B-CV, B-QT, B-LC
-26	나온다	O	O	O, B-CV, B-QT, B-PS, B-TM
-27	.	O	O	O, B-PS, B-CV, B-LC, B-OG
-28	[SEP]	O	O	O, B-CV, B-PS, B-LC, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	그러	O	O
+2	##면	O	O
+3	이	O	O
+4	##들	O	O
+5	##은	O	O
+6	비싼	O	O
+7	옷	O	O
+8	##을	O	O
+9	골라	O	O
+10	##낸	O	O
+11	다음	O	O
+12	고물	O	O
+13	##상	O	O
+14	업자	O	B-CV
+15	##를	O	O
+16	조용히	O	O
+17	불러	O	O
+18	흥정	O	O
+19	##을	O	O
+20	시도	O	O
+21	##하	O	O
+22	##기	O	O
+23	##도	O	O
+24	한다	O	O
+25	.	O	O
+26	[SEP]	O	O

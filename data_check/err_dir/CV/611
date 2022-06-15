@@ -1,21 +1,46 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	그리고	O	O	O, B-CV, B-OG, B-TM, B-QT
-2	또	O	O	O, B-CV, B-TM, B-QT, B-OG
-3	외식	O	O	O, B-CV, B-TM, B-FD, I-CV
-4	##도	O	O	O, I-CV, B-CV, I-OG, B-PS
-5	많	O	O	O, B-CV, B-OG, B-TM, B-LC
-6	##아지	O	O	O, B-CV, I-OG, I-CV, B-PS
-7	##고	O	O	O, B-CV, B-PS, I-OG, I-AF
-8	이래서	O	O	O, B-CV, B-LC, B-OG, B-TM
-9	가정	O	O	O, B-CV, B-FD, B-OG, B-TM
-10	##에서	O	O	O, I-CV, B-CV, B-PS, I-OG
-11	김장	B-CV	O	O, B-CV, B-PT, B-EV, I-CV
-12	담그	O	O	O, B-CV, I-CV, B-PS, I-EV
-13	##는	O	O	O, B-CV, B-OG, B-LC, B-PS
-14	그	O	O	O, B-CV, B-OG, B-LC, B-TM
-15	과거	O	O	O, B-CV, B-LC, B-FD, B-OG
-16	##에	O	O	O, I-CV, B-CV, I-EV, I-AF
-17	비하	O	O	O, B-CV, B-OG, B-LC, B-TM
-18	##면	O	O	O, B-OG, B-LC, B-CV, B-PS
-19	[SEP]	O	O	O, B-CV, B-LC, B-OG, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	하지	O	O
+2	##만	O	O
+3	또	O	O
+4	다른	O	O
+5	게임	O	O
+6	업체	O	O
+7	테이크	B-OG	B-OG
+8	##투	I-OG	I-OG
+9	##인	I-OG	I-OG
+10	##터	I-OG	I-OG
+11	##랙	I-OG	I-OG
+12	##티브	I-OG	I-OG
+13	##가	O	O
+14	2005	B-DT	B-DT
+15	##년	I-DT	I-DT
+16	메이저	B-OG	B-OG
+17	##리그	I-OG	I-OG
+18	사무국	O	O
+19	##과	O	O
+20	독점	O	O
+21	이용	O	O
+22	##권	O	O
+23	##을	O	O
+24	맺	O	O
+25	##으면	O	O
+26	##서	O	O
+27	EA	B-OG	B-OG
+28	##는	O	O
+29	이후	O	O
+30	야구	B-CV	B-TM
+31	##게임	O	I-TM
+32	##에	O	O
+33	##서	O	O
+34	손	B-AM	B-AM
+35	##을	O	O
+36	떼	O	O
+37	##는	O	O
+38	아픔	O	O
+39	##을	O	O
+40	겪	O	O
+41	##었	O	O
+42	##다	O	O
+43	.	O	O
+44	[SEP]	O	O

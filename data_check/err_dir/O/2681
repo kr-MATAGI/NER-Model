@@ -1,40 +1,16 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-EV, B-CV, I-OG, I-CV
-1	모두	O	O	O, B-QT, B-TM, B-CV, B-OG
-2	111	B-QT	B-QT	B-QT, I-QT, O, B-DT, B-EV
-3	##0	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-EV
-4	##건	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-5	##에	O	O	O, I-QT, I-OG, I-EV, I-AF
-6	달하	O	O	O, B-OG, B-LC, B-AF, B-PS
-7	##는	O	O	O, I-OG, B-OG, I-AF, B-PS
-8	박물관	O	O	O, B-OG, B-AF, I-OG, B-CV
-9	##의	O	O	O, I-OG, I-AF, B-PS, I-EV
-10	오	B-PS	B-PS	B-PS, B-EV, O, B-AF, B-LC
-11	##구	I-PS	I-PS	I-PS, I-EV, O, I-AF, I-LC
-12	##라	I-PS	I-PS	I-PS, I-EV, O, I-LC, I-AF
-13	컬렉션	O	O	O, I-EV, I-PS, B-EV, I-AF
-14	##은	O	O	O, I-EV, I-AF, B-CV, I-OG
-15	본관	O	O	O, B-AF, B-LC, B-CV, B-TM
-16	왼쪽	B-TM	B-TM	B-TM, O, B-LC, B-OG, B-AF
-17	효	B-AF	B-AF	B-AF, B-LC, O, I-AF, B-OG
-18	##케이	I-AF	I-AF	I-AF, O, I-LC, I-OG, I-PS
-19	##관	I-AF	I-AF	I-AF, O, I-LC, I-OG, I-PS
-20	##의	O	O	O, I-AF, B-AF, I-LC, I-OG
-21	아시아	B-LC	B-AF	B-AF, O, B-LC, B-OG, I-AF
-22	##갤	O	I-AF	I-AF, O, I-LC, I-OG, I-EV
-23	##러리	O	I-AF	I-AF, O, I-LC, I-OG, I-EV
-24	##에	O	O	O, I-AF, I-EV, I-OG, I-QT
-25	극히	O	O	O, B-QT, B-TM, B-LC, B-DT
-26	일부	O	O	O, B-QT, I-QT, B-CV, B-PS
-27	##인	O	O	O, I-QT, B-PS, B-LC, B-CV
-28	20	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-PS
-29	##점	I-QT	I-QT	I-QT, O, I-LC, I-EV, I-PS
-30	##만	I-QT	I-QT	I-QT, O, I-LC, I-PS, I-EV
-31	전시	O	O	O, I-QT, B-CV, B-TM, B-OG
-32	##되	O	O	O, B-CV, B-LC, B-PS, I-QT
-33	##고	O	O	O, B-CV, B-LC, B-PS, B-QT
-34	있	O	O	O, B-CV, I-EV, B-LC, B-TM
-35	##었	O	O	O, B-CV, I-EV, B-LC, B-OG
-36	##다	O	O	O, B-CV, I-EV, B-LC, B-TM
-37	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-38	[SEP]	O	O	O, B-CV, B-LC, I-EV, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	그러	O	O
+2	##고	O	O
+3	나서	O	O
+4	봉하	O	B-LC
+5	##에	O	O
+6	##는	O	O
+7	이	B-DT	B-DT
+8	##년	I-DT	I-DT
+9	육	I-DT	I-DT
+10	##개	I-DT	I-DT
+11	##월	I-DT	I-DT
+12	있	O	O
+13	##다가	O	O
+14	[SEP]	O	O

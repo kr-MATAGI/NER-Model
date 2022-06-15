@@ -1,25 +1,36 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	일제	O	B-OG	B-OG, O, B-LC, B-DT, B-CV
-2	##는	O	O	O, I-OG, I-DT, I-EV, B-OG
-3	1913	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-4	##년	I-DT	I-DT	I-DT, O, I-QT, B-DT, I-PS
-5	환	B-AF	B-AF	B-AF, B-LC, O, B-OG, I-AF
-6	##구	I-AF	I-AF	I-AF, O, I-LC, I-OG, I-PS
-7	##단	I-AF	I-AF	I-AF, I-LC, O, I-OG, I-PS
-8	##을	O	O	O, I-AF, I-LC, I-OG, I-EV
-9	허물	O	O	O, B-CV, B-TM, B-LC, B-OG
-10	##고	O	O	O, B-LC, B-PS, B-CV, I-AF
-11	,	O	O	O, B-CV, B-LC, B-TM, B-OG
-12	그	O	O	O, B-CV, B-TM, B-LC, B-AF
-13	자리	O	O	O, B-TM, B-CV, B-AF, B-LC
-14	##에	O	O	O, B-CV, B-AF, B-TM, B-PS
-15	조선총독부	B-OG	B-AF	B-AF, B-OG, O, B-LC, B-PS
-16	철도	O	B-AF	B-AF, I-AF, O, I-OG, B-OG
-17	##호텔	O	I-AF	I-AF, O, I-OG, I-LC, I-CV
-18	##을	O	O	O, I-AF, I-OG, I-EV, I-CV
-19	지	O	O	O, B-CV, B-OG, B-LC, B-AF
-20	##었	O	O	O, B-CV, I-AF, I-OG, B-LC
-21	##다	O	O	O, B-CV, B-LC, B-TM, I-OG
-22	.	O	O	O, B-LC, B-CV, B-OG, B-AF
-23	[SEP]	O	O	O, B-CV, B-LC, B-OG, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	그러나	O	O
+2	권	B-PS	B-PS
+3	##씨	O	O
+4	부부	B-CV	B-CV
+5	##는	O	O
+6	""""	O	O
+7	독성	O	O
+8	##이	O	O
+9	있	O	O
+10	##는	O	O
+11	잡초	O	B-PT
+12	##도	O	O
+13	있	O	O
+14	##으니	O	O
+15	반드시	O	O
+16	자기	O	O
+17	##가	O	O
+18	아	O	O
+19	##는	O	O
+20	것	O	O
+21	##만	O	O
+22	채취	O	O
+23	##하	O	O
+24	##고	O	O
+25	먹	O	O
+26	##어야	O	O
+27	한다	O	O
+28	""""	O	O
+29	고	O	O
+30	당부	O	O
+31	##했	O	O
+32	##다	O	O
+33	.	O	O
+34	[SEP]	O	O

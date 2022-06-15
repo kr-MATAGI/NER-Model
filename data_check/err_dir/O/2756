@@ -1,8 +1,11 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-AF
-1	절반	O	B-QT	B-QT, O, I-QT, B-DT, B-CV
-2	##이	O	O	O, I-QT, I-OG, I-EV, I-CV
-3	안	O	O	O, I-QT, B-CV, B-OG, I-OG
-4	되	O	O	O, B-CV, I-OG, B-OG, B-LC
-5	##네	O	O	O, I-OG, I-AF, I-QT, B-CV
-6	[SEP]	O	O	O, B-CV, B-TM, B-LC, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	이	O	O
+2	~	O	O
+3	그	O	O
+4	인권	O	B-CV
+5	##이나	O	O
+6	민주	O	O
+7	##적	O	O
+8	##인	O	O
+9	[SEP]	O	O

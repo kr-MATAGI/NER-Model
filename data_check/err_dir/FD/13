@@ -1,46 +1,44 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-EV, I-CV
-1	박선	B-PS	B-PS	B-PS, B-OG, O, B-LC, I-PS
-2	##희	I-PS	I-PS	I-PS, I-OG, O, I-LC, I-QT
-3	상명	B-OG	B-OG	B-OG, O, B-LC, I-OG, I-PS
-4	##대	I-OG	I-OG	I-OG, O, I-LC, I-PS, I-AF
-5	교수	B-CV	B-CV	B-CV, O, I-CV, I-OG, B-TM
-6	##가	O	O	O, I-CV, I-OG, B-CV, I-EV
-7	‘	O	O	O, B-CV, B-LC, B-DT, B-OG
-8	선사	B-DT	B-DT	B-DT, O, B-FD, B-AF, B-LC
-9	및	O	O	O, I-AF, I-DT, I-EV, I-FD
-10	고조선	B-DT	B-DT	B-DT, I-DT, I-AF, O, B-LC
-11	’	O	O	O, I-DT, I-AF, I-EV, B-CV
-12	을	O	O	O, B-CV, B-LC, B-OG, B-PS
-13	주제	O	O	O, B-CV, B-LC, B-TM, B-PS
-14	##로	O	O	O, B-PS, B-LC, B-OG, B-CV
-15	,	O	O	O, B-OG, B-CV, B-PS, B-LC
-16	이재	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
-17	##범	I-PS	I-PS	I-PS, O, I-OG, I-LC, I-QT
-18	경기	B-OG	B-OG	B-OG, O, B-LC, I-OG, B-AF
-19	##대	I-OG	I-OG	I-OG, O, I-LC, I-PS, I-AF
-20	교수	B-CV	B-CV	B-CV, O, I-CV, I-OG, B-TM
-21	##가	O	O	O, I-CV, I-OG, I-EV, B-CV
-22	‘	O	O	O, B-CV, B-LC, B-OG, B-DT
-23	고려	B-DT	B-FD	B-FD, O, B-AF, B-LC, B-DT
-24	및	O	O	O, I-AF, I-FD, I-EV, B-FD
-25	조선사	B-FD	I-FD	I-FD, B-FD, O, I-AF, I-EV
-26	’	O	O	O, I-AF, I-FD, I-EV, I-OG
-27	를	O	O	O, B-CV, B-LC, B-OG, B-PS
-28	,	O	O	O, B-CV, B-OG, B-PS, B-LC
-29	한상	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
-30	##도	I-PS	I-PS	I-PS, O, I-OG, I-LC, I-QT
-31	건국대	B-OG	B-OG	B-OG, B-LC, I-OG, O, I-PS
-32	교수	B-CV	B-CV	B-CV, O, I-CV, I-OG, B-OG
-33	##가	O	O	O, I-CV, I-OG, B-CV, I-EV
-34	‘	O	O	O, B-LC, B-CV, B-DT, B-OG
-35	근현	B-FD	B-FD	B-FD, O, I-FD, B-TR, B-DT
-36	##대사	I-FD	I-FD	I-FD, O, B-FD, I-AF, I-TR
-37	’	O	O	O, I-FD, I-AF, I-OG, I-EV
-38	에	O	O	O, B-CV, B-LC, B-OG, B-TM
-39	관한	O	O	O, B-LC, B-CV, B-TM, B-OG
-40	발표	O	O	O, B-CV, B-FD, B-EV, B-TM
-41	##를	O	O	O, I-EV, B-CV, I-AF, I-CV
-42	한다	O	O	O, B-CV, B-OG, B-TM, B-EV
-43	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-44	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	현재	O	O
+2	서울	B-LC	B-LC
+3	지하철	B-AF	B-AF
+4	1	B-AF	B-AF
+5	~	I-AF	I-AF
+6	9	I-AF	I-AF
+7	##호	I-AF	I-AF
+8	##선	I-AF	I-AF
+9	,	O	O
+10	분당선	B-AF	B-AF
+11	등	O	O
+12	299	B-QT	B-QT
+13	##개	I-QT	I-QT
+14	역	O	O
+15	승강장	O	O
+16	스크린	O	O
+17	도어	O	O
+18	48	B-QT	B-QT
+19	##40	I-QT	I-QT
+20	##칸	I-QT	I-QT
+21	##에	O	O
+22	시가	O	O
+23	걸려	O	O
+24	있	O	O
+25	##는데	O	O
+26	,	O	O
+27	되	O	O
+28	##레	O	O
+29	시	B-FD	B-OG
+30	##와	O	O
+31	시민	B-CV	B-CV
+32	##을	O	O
+33	멀	O	O
+34	##어지	O	O
+35	##게	O	O
+36	하고	O	O
+37	있	O	O
+38	##다는	O	O
+39	비판	O	O
+40	##이다	O	O
+41	.	O	O
+42	[SEP]	O	O

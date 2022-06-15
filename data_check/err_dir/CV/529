@@ -1,33 +1,29 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, I-QT, B-CV
-1	동향	O	O	O, B-CV, B-LC, B-PS, B-TM
-2	선배	B-CV	B-CV	B-CV, O, I-CV, B-PS, B-TM
-3	이토	B-PS	B-PS	B-PS, O, I-PS, B-OG, B-LC
-4	##의	O	O	O, I-PS, B-PS, B-CV, I-OG
-5	총애	O	O	O, B-CV, B-PS, B-LC, B-OG
-6	속	O	O	O, I-OG, B-PS, B-LC, B-CV
-7	##에	O	O	O, B-PS, B-LC, B-OG, I-OG
-8	주	O	B-LC	B-LC, O, B-CV, B-OG, B-PS
-9	##프	B-LC	I-LC	I-LC, B-LC, O, I-CV, B-CV
-10	##랑스	I-LC	I-LC	I-LC, O, B-LC, I-CV, I-OG
-11	대사	B-CV	B-CV	B-CV, O, I-CV, I-LC, B-LC
-12	,	O	O	O, I-CV, I-OG, B-PS, B-CV
-13	내각	B-CV	O	O, B-CV, B-OG, B-PS, B-FD
-14	대신	I-CV	O	O, I-CV, B-CV, I-OG, I-QT
-15	등	O	O	O, I-CV, B-PS, B-QT, B-CV
-16	##을	O	O	O, B-CV, B-PS, B-LC, B-TM
-17	두루	O	O	O, B-CV, B-QT, B-LC, B-TM
-18	맡	O	O	O, B-CV, B-PS, B-QT, B-TM
-19	##았	O	O	O, B-PS, I-CV, I-QT, B-LC
-20	##고	O	O	O, B-PS, B-LC, B-CV, B-OG
-21	,	O	O	O, B-PS, B-CV, B-LC, B-OG
-22	이토	B-PS	B-PS	B-PS, O, I-PS, B-LC, B-OG
-23	사후	O	O	O, I-PS, B-CV, I-DT, I-EV
-24	2	B-QT	B-QT	B-QT, O, B-EV, I-QT, B-DT
-25	##대	I-QT	I-QT	I-QT, O, I-EV, I-PS, I-OG
-26	통감	B-CV	B-CV	B-CV, O, I-QT, I-CV, B-OG
-27	##에	O	O	O, I-CV, I-QT, I-OG, I-EV
-28	취임	O	O	O, B-CV, B-OG, B-QT, B-PS
-29	##한다	O	O	O, I-OG, B-PS, I-EV, I-QT
-30	.	O	O	O, B-PS, B-LC, B-CV, B-OG
-31	[SEP]	O	O	O, B-CV, B-PS, B-LC, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	동료	B-CV	B-CV
+2	교수	B-CV	B-CV
+3	##들	O	O
+4	##과	O	O
+5	'	O	O
+6	폴리	O	B-CV
+7	##페	O	I-CV
+8	##서	O	I-CV
+9	(	O	O
+10	정치	O	O
+11	교수	B-CV	I-CV
+12	)	O	O
+13	윤리	O	O
+14	규정	O	O
+15	'	O	O
+16	건의	O	O
+17	##문	O	O
+18	##을	O	O
+19	만들	O	O
+20	##어	O	O
+21	학교	O	O
+22	##에	O	O
+23	제출	O	O
+24	##했	O	O
+25	##다	O	O
+26	.	O	O
+27	[SEP]	O	O

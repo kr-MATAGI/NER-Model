@@ -1,14 +1,24 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, B-CV, I-OG, I-EV
-1	예	O	O	O, B-CV, B-OG, B-TM, B-LC
-2	.	O	O	O, B-PS, B-CV, B-LC, I-CV
-3	김	B-PS	B-PS	B-PS, B-OG, O, B-LC, I-PS
-4	##어	I-PS	I-PS	I-PS, B-PS, I-OG, O, I-LC
-5	##준	I-PS	I-PS	I-PS, O, I-OG, I-LC, B-PS
-6	공장장	B-CV	B-CV	B-CV, O, I-PS, I-CV, B-TM
-7	##에	O	O	O, I-CV, I-AF, I-EV, B-CV
-8	경제	O	B-FD	B-FD, B-CV, O, B-EV, B-TR
-9	선생	B-CV	I-CV	I-CV, B-CV, O, I-FD, I-QT
-10	##님	I-CV	I-CV	I-CV, O, B-CV, I-QT, I-FD
-11	.	O	O	O, I-CV, I-QT, I-OG, B-CV
-12	[SEP]	O	O	O, B-CV, B-LC, I-CV, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	이번	O	O
+2	인사	B-CV	O
+3	##에	O	O
+4	##서	O	O
+5	가장	O	O
+6	눈길	O	O
+7	##을	O	O
+8	끄	O	O
+9	##는	O	O
+10	인물	O	O
+11	##은	O	O
+12	노	B-PS	B-PS
+13	##태	I-PS	I-PS
+14	##강	I-PS	I-PS
+15	문체	B-OG	B-OG
+16	##부	I-OG	I-OG
+17	2	B-CV	B-CV
+18	##차	I-CV	I-CV
+19	##관	I-CV	I-CV
+20	##이다	O	O
+21	.	O	O
+22	[SEP]	O	O

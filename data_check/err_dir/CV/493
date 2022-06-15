@@ -1,15 +1,31 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-QT
-1	임	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-2	##희	I-PS	I-PS	I-PS, O, B-PS, I-OG, I-LC
-3	##남	I-PS	I-PS	I-PS, O, I-OG, B-PS, I-LC
-4	##은	O	O	O, I-PS, B-CV, I-OG, B-LC
-5	한국	B-LC	B-LC	B-LC, O, B-OG, B-CV, B-AF
-6	남자	O	O	O, I-LC, I-OG, B-CV, I-CV
-7	100	B-QT	B-QT	B-QT, I-QT, O, B-LC, B-DT
-8	##m	I-QT	I-QT	I-QT, O, I-LC, I-AF, B-QT
-9	##의	O	O	O, I-QT, B-CV, I-OG, I-AF
-10	간판	O	O	O, B-CV, B-PS, B-OG, B-AF
-11	##스타	B-CV	O	O, B-CV, I-CV, B-PS, I-PS
-12	.	O	O	O, I-CV, B-CV, I-OG, I-QT
-13	[SEP]	O	O	O, B-CV, B-PS, I-CV, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	구원	O	B-CV
+2	투수	B-CV	I-CV
+3	고	B-PS	B-PS
+4	##효	I-PS	I-PS
+5	##준	I-PS	I-PS
+6	##의	O	O
+7	폭	B-TM	B-TM
+8	##투	I-TM	I-TM
+9	때	O	O
+10	3	B-TM	B-TM
+11	##루	I-TM	I-TM
+12	주자	B-CV	B-CV
+13	황	B-PS	B-PS
+14	##목	I-PS	I-PS
+15	##치	I-PS	I-PS
+16	##승	I-PS	I-PS
+17	##이	O	O
+18	홈	B-TM	O
+19	##을	O	O
+20	밟	O	O
+21	##아	O	O
+22	한	B-QT	B-QT
+23	점	I-QT	I-QT
+24	##을	O	O
+25	더	O	O
+26	따라갔	O	O
+27	##다	O	O
+28	.	O	O
+29	[SEP]	O	O

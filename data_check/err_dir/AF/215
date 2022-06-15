@@ -1,44 +1,43 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-QT
-1	또	O	O	O, B-OG, B-TM, B-CV, B-AF
-2	F	B-AF	B-AF	B-AF, B-TM, O, B-OG, B-LC
-3	-	I-AF	I-AF	I-AF, I-TM, O, I-QT, I-OG
-4	35	I-AF	I-AF	I-AF, I-TM, I-QT, O, I-OG
-5	##A	I-AF	I-AF	I-AF, I-TM, I-QT, O, I-OG
-6	스텔	B-AF	B-AF	B-AF, I-AF, O, B-TM, I-TM
-7	##스	I-AF	I-AF	I-AF, O, I-TM, I-QT, I-OG
-8	전투기	I-AF	I-AF	I-AF, B-AF, O, I-TM, I-QT
-9	도입	O	O	O, I-AF, I-TM, B-CV, I-EV
-10	,	O	O	O, B-OG, B-LC, B-CV, B-TM
-11	해상	B-AF	B-AF	B-AF, B-TM, O, I-AF, B-OG
-12	##작전	I-AF	I-AF	I-AF, I-TM, O, I-QT, I-OG
-13	##헬	I-AF	I-AF	I-AF, I-TM, O, I-QT, B-AF
-14	##기	I-AF	I-AF	I-AF, I-TM, O, I-QT, I-LC
-15	,	O	O	O, I-AF, I-TM, I-QT, I-EV
-16	해상	B-AF	B-TM	B-TM, B-AF, B-LC, O, B-QT
-17	##초	I-AF	I-TM	I-TM, I-AF, O, I-QT, I-LC
-18	##계	I-AF	I-TM	I-TM, I-AF, O, I-QT, I-LC
-19	##기	I-AF	I-TM	I-TM, I-AF, O, I-QT, I-LC
-20	-	I-AF	I-TM	I-TM, I-AF, O, I-QT, I-LC
-21	Ⅱ	I-AF	I-TM	I-TM, I-AF, I-QT, O, I-LC
-22	,	O	O	O, I-TM, I-AF, I-QT, I-OG
-23	장보고	B-AF	B-TM	B-TM, B-AF, B-LC, I-TM, B-QT
-24	-	I-AF	I-TM	I-TM, I-AF, O, I-QT, I-LC
-25	Ⅱ	I-AF	I-TM	I-TM, I-AF, O, I-QT, I-LC
-26	/	I-AF	I-TM	I-TM, I-AF, O, I-QT, I-LC
-27	Ⅲ	I-AF	I-TM	I-TM, O, I-AF, I-QT, I-LC
-28	사업	O	I-TM	I-TM, O, I-AF, I-QT, I-LC
-29	등	O	O	O, I-TM, I-AF, I-QT, I-OG
-30	##에	O	O	O, B-CV, B-OG, B-LC, B-DT
-31	2	B-QT	B-QT	B-QT, O, B-TM, B-DT, I-QT
-32	##조	I-QT	I-QT	I-QT, B-QT, I-TM, O, I-LC
-33	##15	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-TM
-34	##4	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-TM
-35	##억	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-36	##원	I-QT	I-QT	I-QT, O, I-LC, I-PS, I-TM
-37	##이	O	O	O, I-QT, B-OG, B-CV, B-PS
-38	반영	O	O	O, B-CV, B-OG, B-TM, B-LC
-39	##됐	O	O	O, B-CV, B-OG, B-LC, B-PS
-40	##다	O	O	O, B-CV, B-OG, B-TM, B-LC
-41	.	O	O	O, B-LC, B-TM, B-AF, B-OG
-42	[SEP]	O	O	O, B-TM, B-LC, B-AF, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	미국	B-LC	B-LC
+2	트레인	B-OG	B-OG
+3	##사	I-OG	I-OG
+4	##에	O	O
+5	##서	O	O
+6	공급	O	O
+7	##받	O	O
+8	##는	O	O
+9	이	O	O
+10	장비	O	O
+11	##는	O	O
+12	대	O	O
+13	##온	O	O
+14	##도	O	O
+15	##차	O	O
+16	저유	O	O
+17	##량	O	O
+18	##시스	O	O
+19	##템	O	O
+20	설계	O	O
+21	방식	O	O
+22	##을	O	O
+23	채택	O	O
+24	##해	O	O
+25	국내	O	O
+26	최초	O	O
+27	##로	O	O
+28	3400	B-AF	B-QT
+29	##US	I-AF	I-QT
+30	##RT	I-AF	I-QT
+31	##급	O	O
+32	##의	O	O
+33	대용량	O	O
+34	##을	O	O
+35	갖춘	O	O
+36	것	O	O
+37	##이	O	O
+38	특징	O	O
+39	##이다	O	O
+40	.	O	O
+41	[SEP]	O	O

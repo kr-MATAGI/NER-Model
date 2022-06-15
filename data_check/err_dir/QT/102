@@ -1,15 +1,28 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-EV
-1	전기	O	O	O, B-CV, B-TM, B-MT, B-TR
-2	##요금	O	O	O, I-CV, B-CV, I-TM, I-TR
-3	못	O	O	O, B-CV, I-CV, B-PS, B-QT
-4	##낸	O	O	O, B-CV, B-PS, I-CV, B-TM
-5	이웃	O	B-CV	B-CV, O, I-CV, B-TM, B-PS
-6	돕	O	O	O, I-CV, B-CV, B-TM, I-QT
-7	##는	O	O	O, B-TM, I-CV, B-CV, B-PS
-8	‘	O	O	O, B-CV, B-LC, B-OG, B-TM
-9	한	B-QT	O	O, B-QT, B-TM, B-PS, B-TR
-10	##줄기	I-QT	O	O, I-QT, I-TM, I-PS, I-AM
-11	빛	O	O	O, B-PS, B-TM, B-QT, I-QT
-12	’	O	O	O, I-QT, I-TM, B-CV, I-OG
-13	[SEP]	O	O	O, B-CV, B-LC, B-TM, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	10	B-QT	B-DT
+2	##시	I-QT	I-DT
+3	##즌	I-QT	I-DT
+4	이상	I-QT	I-DT
+5	뛴	O	O
+6	KBL	B-OG	B-OG
+7	원년	O	O
+8	멤버	B-CV	B-CV
+9	중	O	O
+10	##에	O	O
+11	팀	O	O
+12	##을	O	O
+13	옮기	O	O
+14	##지	O	O
+15	않	O	O
+16	##은	O	O
+17	유일	O	O
+18	##한	O	O
+19	선수	B-CV	B-CV
+20	##이	O	O
+21	##기	O	O
+22	##도	O	O
+23	하	O	O
+24	##다	O	O
+25	.	O	O
+26	[SEP]	O	O

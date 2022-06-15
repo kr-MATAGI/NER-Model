@@ -1,9 +1,31 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	조선	B-CV	B-CV	B-CV, O, B-LC, B-OG, B-PS
-2	간장	I-CV	B-CV	B-CV, I-CV, O, I-OG, B-OG
-3	쪼끔	O	O	O, I-CV, I-OG, B-CV, I-QT
-4	넣	O	O	O, B-CV, I-CV, B-LC, B-OG
-5	##구요	O	O	O, B-CV, I-CV, I-OG, B-QT
-6	.	O	O	O, B-CV, B-LC, B-OG, B-PS
-7	[SEP]	O	O	O, B-CV, B-LC, B-OG, I-CV
+	text	label	preds
+0	[CLS]	O	O
+1	행정	B-CV	B-CV
+2	##인	I-CV	I-CV
+3	##턴	I-CV	I-CV
+4	,	O	O
+5	중소기업	O	O
+6	청년	B-CV	B-CV
+7	##인	I-CV	I-CV
+8	##턴	I-CV	I-CV
+9	,	O	O
+10	학습	O	B-CV
+11	##보	O	I-CV
+12	##조	O	I-CV
+13	인턴	B-CV	I-CV
+14	,	O	O
+15	대기	O	O
+16	##업	O	O
+17	인턴	B-CV	B-CV
+18	,	O	O
+19	금융	O	O
+20	##권	O	O
+21	인턴	B-CV	B-CV
+22	등	O	O
+23	유형	O	O
+24	##도	O	O
+25	다양	O	O
+26	##하	O	O
+27	##다	O	O
+28	.	O	O
+29	[SEP]	O	O

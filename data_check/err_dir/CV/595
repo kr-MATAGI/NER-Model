@@ -1,15 +1,22 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	어	O	O	O, B-CV, B-TM, B-LC, B-OG
-2	~	O	O	O, B-CV, I-CV, I-OG, B-LC
-3	불	O	O	O, B-CV, B-LC, B-TM, B-PS
-4	##필	O	O	O, B-CV, I-CV, B-PS, B-TM
-5	##요	O	O	O, I-CV, B-CV, I-TM, I-LC
-6	##한	O	O	O, B-LC, B-PS, B-CV, I-CV
-7	소송	B-CV	O	O, B-CV, B-TM, B-EV, I-CV
-8	##들이	O	O	O, I-CV, B-CV, I-EV, B-PS
-9	난	O	O	O, B-CV, B-LC, B-EV, B-TM
-10	##발	O	O	O, I-CV, I-LC, I-EV, I-AF
-11	##이	O	O	O, B-PS, B-OG, B-CV, I-OG
-12	됩니다	O	O	O, B-CV, B-LC, B-OG, B-TM
-13	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	베어스	B-AF	B-LC
+2	##타운	I-AF	I-LC
+3	##은	O	O
+4	‘	O	O
+5	대중	O	O
+6	##스키	B-CV	O
+7	##장	O	O
+8	’	O	O
+9	의	O	O
+10	모습	O	O
+11	##으로	O	O
+12	스마트	O	O
+13	스키	O	B-CV
+14	대열	O	O
+15	##에	O	O
+16	합류	O	O
+17	##했	O	O
+18	##다	O	O
+19	.	O	O
+20	[SEP]	O	O

@@ -1,35 +1,18 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	홍	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-2	감독	B-CV	B-CV	B-CV, O, I-PS, I-CV, B-OG
-3	##은	O	O	O, I-CV, I-EV, B-CV, I-OG
-4	20	B-EV	B-EV	B-EV, B-QT, B-DT, B-TM, I-EV
-5	##세	I-EV	I-EV	I-EV, I-QT, I-TM, I-DT, I-AF
-6	이하	I-EV	I-EV	I-EV, I-QT, I-TM, O, I-AF
-7	월드컵	I-EV	I-EV	I-EV, B-EV, O, I-QT, B-CV
-8	##을	O	O	O, I-EV, I-AF, I-QT, B-CV
-9	함께	O	O	O, B-CV, B-TM, B-OG, I-EV
-10	##했	O	O	O, B-CV, B-PS, B-LC, B-OG
-11	##던	O	O	O, B-CV, B-TM, B-LC, B-OG
-12	코칭스태프	B-CV	B-CV	B-CV, O, B-OG, I-CV, B-TM
-13	##와	O	O	O, I-CV, I-EV, I-OG, B-CV
-14	프로	O	B-CV	B-CV, O, B-EV, I-CV, B-FD
-15	및	O	O	O, I-CV, I-EV, I-OG, I-AF
-16	대학	O	O	O, B-CV, B-EV, B-FD, I-EV
-17	경기	O	O	O, I-EV, B-CV, B-EV, I-CV
-18	##를	O	O	O, I-EV, B-CV, I-CV, I-AF
-19	관전	O	O	O, B-CV, B-TM, B-LC, B-QT
-20	##하	O	O	O, B-PS, B-LC, B-CV, B-DT
-21	##며	O	O	O, B-CV, B-LC, B-PS, B-QT
-22	선수	B-CV	B-CV	B-CV, O, I-CV, B-EV, B-TM
-23	선발	O	O	O, I-CV, B-CV, B-TM, I-EV
-24	##에	O	O	O, B-CV, B-PS, B-TM, B-LC
-25	온	O	O	O, B-PS, B-QT, B-AM, B-TM
-26	신경	O	O	O, B-PS, B-CV, B-TM, I-QT
-27	##을	O	O	O, B-CV, B-PS, B-TM, B-OG
-28	쏟	O	O	O, B-CV, B-LC, B-PS, B-QT
-29	##고	O	O	O, B-CV, I-QT, B-TM, I-OG
-30	있	O	O	O, B-CV, B-TM, B-OG, B-QT
-31	##다	O	O	O, B-CV, B-TM, I-OG, B-QT
-32	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-33	[SEP]	O	O	O, B-CV, B-LC, B-PS, I-EV
+	text	label	preds
+0	[CLS]	O	O
+1	지구	O	B-LC
+2	##에	O	O
+3	##서	O	O
+4	제일	O	O
+5	깔끔	O	O
+6	##한	O	O
+7	지옥	O	O
+8	,	O	O
+9	미국	B-LC	B-LC
+10	##의	O	O
+11	'	O	O
+12	수퍼	O	O
+13	##맥스	O	O
+14	'	O	O
+15	감옥	O	O
+16	[SEP]	O	O

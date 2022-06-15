@@ -1,22 +1,47 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	사실상	O	O	O, B-PS, B-OG, B-LC, B-CV
-2	여권	O	O	O, B-OG, B-CV, B-PS, B-TR
-3	후보	B-CV	B-CV	B-CV, O, I-CV, B-PS, B-OG
-4	##인	O	O	O, B-PS, I-CV, I-PS, B-CV
-5	현	O	B-PS	B-PS, O, I-PS, B-LC, B-OG
-6	후보	B-CV	B-CV	B-CV, O, I-PS, I-CV, B-OG
-7	쪽	O	O	O, I-CV, B-PS, I-OG, I-QT
-8	##은	O	O	O, B-CV, B-PS, B-OG, B-LC
-9	전직	O	O	O, B-PS, B-CV, B-OG, B-LC
-10	공무원	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-PS
-11	출신	O	O	O, I-CV, B-CV, B-PS, I-OG
-12	##과	O	O	O, B-PS, B-OG, B-CV, B-LC
-13	한나라당	B-OG	B-OG	B-OG, O, B-PS, B-LC, B-AF
-14	당원	B-CV	B-CV	B-CV, O, I-CV, I-OG, B-OG
-15	##들이	O	O	O, I-CV, I-OG, B-CV, I-EV
-16	많	O	O	O, B-CV, B-OG, B-TM, B-QT
-17	##았	O	O	O, B-CV, B-OG, B-PS, I-OG
-18	##다	O	O	O, B-CV, I-OG, B-TM, B-OG
-19	.	O	O	O, B-PS, B-OG, B-CV, B-LC
-20	[SEP]	O	O	O, B-PS, B-CV, B-OG, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	정우택	B-PS	B-PS
+2	원내대표	B-CV	B-CV
+3	##도	O	O
+4	이날	B-DT	B-DT
+5	당직자	B-CV	B-CV
+6	회의	O	O
+7	##에	O	O
+8	##서	B-PS	O
+9	서	O	B-PS
+10	의원	B-CV	B-CV
+11	##을	O	O
+12	향해	O	O
+13	""""	O	O
+14	누구	O	O
+15	##보	O	O
+16	##다	O	O
+17	책임	O	O
+18	##을	O	O
+19	통감	O	O
+20	##해야	O	O
+21	할	O	O
+22	일부	O	O
+23	인사	O	B-CV
+24	##가	O	O
+25	기득권	O	O
+26	##에	O	O
+27	연연	O	O
+28	##하	O	O
+29	##거나	O	O
+30	결단	O	O
+31	##하	O	O
+32	##지	O	O
+33	못하	O	O
+34	##는	O	O
+35	모습	O	O
+36	##이	O	O
+37	너무	O	O
+38	안타깝	O	O
+39	##다	O	O
+40	""""	O	O
+41	고	O	O
+42	했	O	O
+43	##다	O	O
+44	.	O	O
+45	[SEP]	O	O

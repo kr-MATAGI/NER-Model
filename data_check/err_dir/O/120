@@ -1,53 +1,60 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	일부	O	O	O, B-LC, B-QT, B-PS, B-CV
-2	무슬림	B-CV	B-CV	B-CV, O, B-OG, B-LC, I-CV
-3	지식인	B-CV	B-CV	B-CV, O, I-CV, B-FD, B-OG
-4	##들	O	O	O, I-CV, I-OG, B-CV, I-EV
-5	##은	O	O	O, B-CV, B-LC, B-PS, B-OG
-6	미국	B-LC	B-LC	B-LC, B-OG, O, B-CV, B-PS
-7	내	O	O	O, I-LC, B-LC, B-PS, I-OG
-8	대립	O	O	O, B-PS, B-CV, B-LC, B-OG
-9	##이	O	O	O, B-PS, B-LC, B-OG, B-CV
-10	미국인	B-CV	B-CV	B-CV, O, B-OG, B-LC, B-TM
-11	##들	O	O	O, I-CV, I-OG, I-EV, I-AF
-12	##의	O	O	O, B-PS, B-CV, B-LC, B-OG
-13	정치	O	O	O, B-FD, B-CV, B-PS, B-LC
-14	##적	O	O	O, B-PS, I-PS, B-LC, I-TR
-15	가식	O	O	O, B-PS, B-CV, B-LC, B-FD
-16	##이	O	O	O, B-PS, B-LC, B-CV, B-OG
-17	##며	O	O	O, B-LC, B-PS, B-OG, B-CV
-18	오히려	O	O	O, B-PS, B-LC, B-OG, B-CV
-19	9	B-EV	B-EV	B-EV, B-AF, B-QT, B-DT, I-EV
-20	·	I-EV	I-EV	I-EV, I-QT, I-DT, I-AF, O
-21	11	I-EV	I-EV	I-EV, I-QT, I-AF, I-DT, I-LC
-22	##테	I-EV	I-EV	I-EV, I-AF, I-QT, O, I-DT
-23	##러	I-EV	I-EV	I-EV, I-AF, O, I-QT, I-DT
-24	##로	O	O	O, I-EV, I-AF, I-QT, I-DT
-25	입	O	O	O, B-TM, B-CV, B-LC, B-AM
-26	##은	O	O	O, B-PS, B-LC, B-CV, B-TM
-27	상처	O	O	O, B-TM, B-CV, B-AM, B-LC
-28	##를	O	O	O, B-CV, B-PS, I-CV, I-TM
-29	부각	O	O	O, B-CV, B-LC, B-PS, B-TM
-30	##하	O	O	O, B-PS, B-LC, B-CV, B-OG
-31	##려	O	O	O, B-PS, B-LC, B-CV, B-OG
-32	##는	O	O	O, B-LC, B-PS, B-CV, B-OG
-33	‘	O	O	O, B-LC, B-CV, B-PS, B-OG
-34	전형	O	O	O, B-CV, B-LC, B-PS, B-TM
-35	##적으로	O	O	O, B-LC, B-PS, I-LC, I-PS
-36	미국	O	B-LC	B-LC, O, B-OG, B-PS, B-FD
-37	##적인	O	O	O, I-LC, I-PS, B-LC, B-PS
-38	스펙	O	O	O, B-CV, B-LC, B-PS, B-FD
-39	##터	O	O	O, B-PS, B-LC, I-LC, I-CV
-40	##클	O	O	O, I-LC, I-CV, I-PS, B-PS
-41	’	O	O	O, B-CV, B-PS, B-LC, B-OG
-42	이라	O	O	O, B-PS, B-CV, B-LC, B-OG
-43	##고	O	O	O, B-PS, I-CV, B-LC, I-PS
-44	##까	O	O	O, B-PS, B-LC, B-CV, B-OG
-45	##지	O	O	O, B-PS, B-LC, I-PS, B-CV
-46	못	O	O	O, B-CV, B-PS, B-LC, B-OG
-47	박	O	O	O, B-PS, B-CV, B-LC, I-CV
-48	##는	O	O	O, B-CV, B-PS, B-LC, I-OG
-49	##다	O	O	O, B-CV, B-LC, B-TM, I-OG
-50	.	O	O	O, B-LC, B-PS, B-CV, B-FD
-51	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-FD
+	text	label	preds
+0	[CLS]	O	O
+1	이	O	B-PS
+2	관계자	B-CV	B-CV
+3	##는	O	O
+4	또	O	O
+5	“	O	O
+6	중국	B-OG	B-OG
+7	##이	O	O
+8	보유	O	O
+9	##한	O	O
+10	막대	O	O
+11	##한	O	O
+12	외환	O	O
+13	(	O	O
+14	3	B-DT	B-DT
+15	##월	I-DT	I-DT
+16	현재	O	O
+17	2	B-QT	B-QT
+18	##조	I-QT	I-QT
+19	##44	I-QT	I-QT
+20	##70	I-QT	I-QT
+21	##억	I-QT	I-QT
+22	달러	I-QT	I-QT
+23	)	O	O
+24	으로	O	O
+25	시장	O	O
+26	##에	O	O
+27	개입	O	O
+28	##해	O	O
+29	당국	O	O
+30	##이	O	O
+31	원	O	O
+32	##하	O	O
+33	##는	O	O
+34	수준	O	O
+35	##으로	O	O
+36	벗어나	O	O
+37	##지	O	O
+38	않	O	O
+39	##도록	O	O
+40	위안	B-CV	B-CV
+41	##화	I-CV	I-CV
+42	절상	O	O
+43	##에	O	O
+44	제동	O	O
+45	##을	O	O
+46	걸	O	O
+47	##었	O	O
+48	##을	O	O
+49	수도	O	O
+50	있	O	O
+51	##다	O	O
+52	”	O	O
+53	고	O	O
+54	말	O	O
+55	##했	O	O
+56	##다	O	O
+57	.	O	O
+58	[SEP]	O	O

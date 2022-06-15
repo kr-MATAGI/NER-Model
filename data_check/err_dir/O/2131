@@ -1,35 +1,15 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	30	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-2	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
-3	오전	B-TI	B-TI	B-TI, I-TI, O, I-DT, B-EV
-4	4	I-TI	I-TI	I-TI, B-TI, O, I-DT, I-QT
-5	##시	I-TI	I-TI	I-TI, O, I-QT, B-TI, I-TR
-6	##부터	I-TI	I-TI	I-TI, O, B-TI, I-QT, I-TR
-7	10	B-DT	B-DT	B-DT, I-TI, I-DT, O, B-LC
-8	##월	I-DT	I-DT	I-DT, B-DT, I-TI, O, I-QT
-9	5	I-DT	I-DT	I-DT, B-DT, O, I-TI, I-QT
-10	##일	I-DT	I-DT	I-DT, O, B-DT, I-TI, I-QT
-11	밤	B-TI	B-TI	B-TI, I-TI, I-DT, O, B-QT
-12	12	I-TI	I-TI	I-TI, B-TI, O, I-DT, I-QT
-13	##시	I-TI	I-TI	I-TI, O, B-TI, I-QT, I-TR
-14	##까	I-TI	I-TI	I-TI, O, I-QT, B-TI, I-TR
-15	##지	I-TI	I-TI	I-TI, O, I-QT, B-TI, I-TR
-16	개인	O	B-AF	B-AF, O, B-OG, B-CV, B-TM
-17	##택시	O	I-AF	I-AF, B-AF, O, I-OG, I-TM
-18	부제	O	O	O, B-CV, I-AF, B-QT, B-TM
-19	##를	O	O	O, I-AF, I-CV, I-EV, I-QT
-20	해제	O	O	O, B-CV, B-TM, B-OG, B-LC
-21	##해	O	O	O, B-LC, B-PS, B-OG, B-CV
-22	1	O	O	O, B-AF, B-PS, B-TM, B-OG
-23	##만	O	O	O, B-AF, B-PS, I-AF, B-LC
-24	##50	O	O	O, B-PS, I-AF, B-LC, B-TM
-25	##00	O	O	O, B-PS, B-LC, B-OG, B-AF
-26	##여	O	O	O, B-TM, B-LC, B-OG, I-AF
-27	대가	O	O	O, B-TM, B-LC, B-PS, B-AF
-28	추가	O	O	O, B-CV, I-AF, B-TM, B-LC
-29	##로	O	O	O, I-AF, B-LC, I-OG, B-CV
-30	운행	O	O	O, B-CV, B-LC, B-TM, B-AF
-31	##한다	O	O	O, I-AF, I-OG, B-CV, B-LC
-32	.	O	O	O, B-LC, B-AF, B-OG, B-PS
-33	[SEP]	O	O	O, B-LC, I-AF, B-AF, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	“	O	O
+2	전	O	O
+3	·	O	O
+4	월세	O	O
+5	올라	O	O
+6	서민	O	B-CV
+7	이중	O	B-QT
+8	##삼	O	O
+9	##중	O	O
+10	힘들	O	O
+11	##어	O	O
+12	”	O	O
+13	[SEP]	O	O

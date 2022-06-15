@@ -1,36 +1,22 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	실제로	O	O	O, B-CV, B-TM, B-OG, B-LC
-2	이날	B-DT	B-DT	B-DT, O, I-DT, B-OG, B-CV
-3	##까	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-4	##지	I-DT	I-DT	I-DT, O, B-DT, I-PS, I-QT
-5	자가	O	O	O, B-CV, B-TM, I-CV, B-OG
-6	(	O	O	O, I-CV, B-CV, I-TM, I-OG
-7	自	O	O	O, I-CV, I-TM, B-CV, I-LC
-8	家	O	O	O, I-CV, I-LC, B-CV, I-PS
-9	)	O	O	O, I-CV, B-CV, I-LC, I-PS
-10	격리	O	O	O, I-CV, B-CV, I-LC, I-TM
-11	대상자	O	O	O, I-CV, B-CV, I-OG, I-PS
-12	중	O	O	O, I-CV, B-PS, B-TM, B-QT
-13	4	B-QT	B-QT	B-QT, O, I-QT, B-PS, B-DT
-14	##명	I-QT	I-QT	I-QT, O, I-PS, I-LC, B-QT
-15	##이	O	O	O, I-QT, B-PS, B-CV, B-LC
-16	자택	O	O	O, B-LC, B-CV, B-AF, B-PS
-17	##을	O	O	O, B-CV, B-PS, B-LC, I-CV
-18	무단	O	O	O, B-CV, B-LC, B-TM, B-PS
-19	##으로	O	O	O, B-PS, B-LC, B-CV, I-CV
-20	이탈	O	O	O, B-CV, B-LC, B-PS, I-CV
-21	##한	O	O	O, I-CV, B-CV, B-PS, I-LC
-22	혐의	O	O	O, B-CV, I-CV, B-PS, B-TM
-23	(	O	O	O, B-CV, I-CV, B-OG, B-LC
-24	감염병	B-CV	B-TM	B-TM, O, B-CV, B-TR, B-FD
-25	예방법	I-CV	O	O, I-CV, B-CV, I-TM, I-TR
-26	위반	O	O	O, B-CV, I-CV, B-PS, I-TM
-27	)	O	O	O, I-CV, B-CV, B-PS, I-OG
-28	로	O	O	O, B-CV, B-PS, B-LC, B-OG
-29	고발	O	O	O, B-CV, B-TM, B-OG, B-LC
-30	##당	O	O	O, I-CV, I-OG, I-EV, I-LC
-31	##했	O	O	O, I-CV, I-OG, B-CV, I-EV
-32	##다	O	O	O, B-CV, I-OG, B-LC, I-CV
-33	.	O	O	O, B-CV, B-LC, B-PS, I-CV
-34	[SEP]	O	O	O, B-CV, B-LC, I-CV, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	지난해	B-DT	B-DT
+2	신인	B-CV	B-EV
+3	드래프트	O	I-EV
+4	##에	O	O
+5	##서는	O	O
+6	이대	B-PS	B-PS
+7	##성	I-PS	I-PS
+8	##을	O	O
+9	11	B-QT	B-QT
+10	##순위	I-QT	I-QT
+11	##로	O	O
+12	지명	O	O
+13	##해	O	O
+14	재	O	O
+15	##목	O	O
+16	##으로	O	O
+17	키웠	O	O
+18	##다	O	O
+19	.	O	O
+20	[SEP]	O	O

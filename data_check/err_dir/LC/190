@@ -1,44 +1,14 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-EV, I-OG, B-CV, I-CV
-1	박	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-2	대통령	B-CV	B-CV	B-CV, O, I-PS, I-CV, B-EV
-3	##이	O	O	O, I-EV, I-CV, B-PS, B-CV
-4	사과	O	O	O, B-CV, B-EV, B-PS, I-EV
-5	후	O	O	O, I-EV, B-PS, I-PS, I-DT
-6	처음	O	O	O, B-CV, B-QT, B-LC, B-PS
-7	##으로	O	O	O, B-PS, B-CV, B-LC, B-OG
-8	참석	O	O	O, B-CV, B-EV, B-LC, B-PS
-9	##한	O	O	O, B-PS, B-LC, B-CV, B-OG
-10	공식	O	O	O, B-CV, B-PS, B-EV, B-LC
-11	행사	O	O	O, I-EV, B-CV, B-EV, B-LC
-12	##인	O	O	O, I-EV, B-PS, B-CV, B-LC
-13	제	B-QT	B-QT	B-QT, O, B-EV, I-QT, B-DT
-14	##4	I-QT	I-QT	I-QT, B-QT, O, I-EV, I-LC
-15	##회	I-QT	I-QT	I-QT, O, I-EV, B-QT, I-LC
-16	대한민국	B-LC	B-EV	B-EV, B-LC, O, I-EV, B-DT
-17	지방	B-EV	I-EV	I-EV, B-EV, O, I-LC, B-LC
-18	##자치	I-EV	I-EV	I-EV, O, I-LC, B-EV, I-OG
-19	##박	I-EV	I-EV	I-EV, O, I-LC, B-EV, I-OG
-20	##람	I-EV	I-EV	I-EV, O, I-LC, I-OG, I-AF
-21	##회	I-EV	I-EV	I-EV, O, I-LC, I-OG, I-AF
-22	##에서	O	O	O, I-EV, I-AF, I-OG, B-CV
-23	##는	O	O	O, I-EV, B-CV, B-OG, B-LC
-24	대학생	B-CV	B-CV	B-CV, O, B-OG, B-EV, B-TM
-25	6	B-QT	B-QT	B-QT, I-QT, O, B-DT, I-CV
-26	##명	I-QT	I-QT	I-QT, O, B-QT, I-EV, I-LC
-27	##이	O	O	O, I-QT, I-EV, I-OG, B-PS
-28	기습	O	O	O, B-CV, B-LC, B-EV, B-TM
-29	시위	O	O	O, B-CV, I-EV, B-EV, B-LC
-30	##를	O	O	O, I-EV, B-CV, I-CV, I-AF
-31	벌이	O	O	O, B-CV, B-LC, B-OG, B-TM
-32	##다	O	O	O, B-LC, B-CV, B-PS, B-QT
-33	연행	O	O	O, B-CV, B-TM, B-LC, B-OG
-34	##되	O	O	O, B-LC, I-CV, I-EV, B-CV
-35	##는	O	O	O, B-LC, B-QT, B-CV, I-EV
-36	일	O	O	O, B-EV, B-CV, B-QT, B-LC
-37	##이	O	O	O, I-EV, B-CV, B-PS, B-OG
-38	발생	O	O	O, B-CV, I-EV, B-EV, B-LC
-39	##했	O	O	O, I-EV, B-CV, B-LC, I-OG
-40	##다	O	O	O, B-CV, I-EV, B-LC, B-EV
-41	.	O	O	O, B-LC, B-CV, I-EV, B-PS
-42	[SEP]	O	O	O, B-CV, I-EV, B-LC, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	中	B-OG	B-LC
+2	-	O	O
+3	인도	B-LC	B-OG
+4	“	O	O
+5	국경	O	O
+6	##분	O	O
+7	##쟁	O	O
+8	해법	O	O
+9	조속	O	O
+10	마련	O	O
+11	”	O	O
+12	[SEP]	O	O

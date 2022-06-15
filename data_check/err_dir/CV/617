@@ -1,20 +1,63 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	“	O	O	O, B-CV, B-PS, B-LC, B-TM
-2	10	B-QT	B-QT	B-QT, O, B-EV, I-QT, B-TM
-3	##승	I-QT	I-QT	I-QT, O, I-EV, I-TM, I-PS
-4	##은	O	O	O, I-QT, I-EV, I-OG, I-AF
-5	내	O	O	O, B-PS, B-CV, B-LC, B-QT
-6	야구	B-CV	O	O, B-CV, B-FD, B-EV, B-PS
-7	##인	O	O	O, I-CV, I-EV, I-FD, I-AF
-8	##생	O	O	O, I-CV, I-EV, I-FD, I-DT
-9	##의	O	O	O, B-PS, B-LC, B-CV, B-OG
-10	목표	O	O	O, B-CV, B-PS, B-QT, B-LC
-11	”	O	O	O, B-CV, B-PS, I-CV, I-EV
-12	라며	O	O	O, B-PS, B-LC, B-CV, B-OG
-13	의지	O	O	O, B-PS, B-CV, B-LC, B-TM
-14	##도	O	O	O, B-PS, I-CV, I-OG, B-CV
-15	강하	O	O	O, B-CV, B-PS, B-AF, B-LC
-16	##다	O	O	O, B-PS, B-CV, I-CV, I-OG
-17	.	O	O	O, B-PS, B-CV, B-LC, I-PS
-18	[SEP]	O	O	O, B-CV, B-PS, B-LC, I-EV
+	text	label	preds
+0	[CLS]	O	O
+1	송	B-PS	B-PS
+2	장관	B-CV	B-CV
+3	##은	O	O
+4	이날	B-DT	B-DT
+5	국회	B-OG	B-OG
+6	국방위	B-OG	B-OG
+7	##에	O	O
+8	##서	O	O
+9	'	O	O
+10	(	O	O
+11	북	B-LC	B-LC
+12	##핵	B-AF	B-AF
+13	##에	O	O
+14	대비	O	O
+15	##해	O	O
+16	)	O	O
+17	미국	B-OG	B-OG
+18	##이	O	O
+19	나토	B-OG	B-OG
+20	5	B-QT	B-QT
+21	##개	I-QT	I-QT
+22	회원국	B-CV	O
+23	##에	O	O
+24	전술	B-AF	B-AF
+25	##핵	I-AF	I-AF
+26	##을	O	O
+27	배치	O	O
+28	##한	O	O
+29	대책	O	O
+30	##을	O	O
+31	검토	O	O
+32	##해	O	O
+33	##볼	O	O
+34	용의	O	O
+35	##가	O	O
+36	있	O	O
+37	##느	O	O
+38	##냐	O	O
+39	'	O	O
+40	는	O	O
+41	무소	O	O
+42	##속	O	O
+43	이정현	B-PS	B-PS
+44	의원	B-CV	B-CV
+45	물음	O	O
+46	##에	O	O
+47	""""	O	O
+48	충분히	O	O
+49	검토	O	O
+50	##할	O	O
+51	용의	O	O
+52	##가	O	O
+53	있	O	O
+54	##다	O	O
+55	""""	O	O
+56	고	O	O
+57	말	O	O
+58	##했	O	O
+59	##다	O	O
+60	.	O	O
+61	[SEP]	O	O

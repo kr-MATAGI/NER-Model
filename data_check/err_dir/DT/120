@@ -1,12 +1,22 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	전두환	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
-2	정권	O	O	O, I-PS, I-DT, B-CV, B-DT
-3	아마	O	O	O, B-DT, I-DT, B-CV, B-QT
-4	말기	B-DT	O	O, B-DT, I-DT, B-QT, B-TI
-5	##쯤	I-DT	O	O, I-DT, B-DT, I-QT, I-TI
-6	됐	O	O	O, I-DT, B-CV, B-OG, I-QT
-7	##을	O	O	O, B-CV, B-OG, I-OG, I-CV
-8	거라	O	O	O, B-CV, B-OG, B-PS, I-OG
-9	##고	O	O	O, B-CV, I-OG, I-CV, I-AF
-10	[SEP]	O	O	O, B-CV, B-OG, B-LC, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	어	O	O
+2	몽골	B-LC	B-LC
+3	##에	O	O
+4	가면	O	O
+5	##은	O	O
+6	그	O	O
+7	이	O	O
+8	톤	O	O
+9	##유	O	O
+10	##쿠	O	O
+11	##크라	O	O
+12	##는	O	O
+13	그	O	O
+14	이	O	O
+15	돌	B-DT	B-LC
+16	##궐	I-DT	I-LC
+17	##의	O	O
+18	명장	B-CV	B-CV
+19	##이	O	O
+20	[SEP]	O	O

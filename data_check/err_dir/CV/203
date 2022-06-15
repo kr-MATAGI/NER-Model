@@ -1,44 +1,31 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	A	O	O	O, B-PS, B-CV, B-LC, B-TM
-2	씨	O	O	O, B-CV, B-PS, I-CV, I-EV
-3	##는	O	O	O, B-CV, B-PS, B-LC, B-TM
-4	특목고	O	O	O, B-OG, B-EV, B-CV, B-FD
-5	입시	O	O	O, I-EV, I-OG, B-CV, B-EV
-6	##에	O	O	O, B-CV, B-PS, I-EV, B-LC
-7	자기	O	O	O, B-CV, B-TR, B-PS, B-QT
-8	##주	O	O	O, I-CV, B-CV, I-TR, I-QT
-9	##도	O	O	O, I-CV, I-TR, B-CV, I-QT
-10	학습	O	O	O, I-CV, B-CV, I-TR, I-QT
-11	##전	O	O	O, I-CV, B-CV, I-TR, I-QT
-12	##형	O	O	O, I-CV, B-CV, I-TR, I-QT
-13	##이	O	O	O, B-PS, I-CV, B-CV, I-QT
-14	도입	O	O	O, B-CV, I-CV, B-PS, B-OG
-15	##된	O	O	O, B-PS, B-CV, I-CV, B-OG
-16	##다는	O	O	O, B-PS, B-CV, B-OG, B-LC
-17	소식	O	O	O, B-CV, B-LC, B-OG, B-PS
-18	##을	O	O	O, B-CV, B-PS, B-LC, B-OG
-19	접한	O	O	O, B-CV, B-TM, B-PS, B-LC
-20	뒤	O	O	O, B-CV, B-TM, B-LC, B-PS
-21	아들	B-CV	B-CV	B-CV, O, B-OG, B-PS, B-TM
-22	##을	O	O	O, I-CV, B-CV, I-EV, I-OG
-23	1	B-DT	B-DT	B-DT, O, B-QT, I-DT, B-OG
-24	##학	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-OG
-25	##기부	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-OG
-26	##터	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-OG
-27	방과	O	O	O, I-DT, B-OG, B-CV, I-OG
-28	##후	O	O	O, I-OG, I-CV, I-TM, I-LC
-29	##학교	O	O	O, I-OG, I-CV, I-TM, I-LC
-30	‘	O	O	O, B-CV, B-OG, B-LC, I-OG
-31	영어	B-CV	B-OG	B-OG, B-CV, O, B-LC, B-AF
-32	##심	O	I-OG	I-OG, O, I-AF, I-CV, I-LC
-33	##화	O	I-OG	I-OG, O, I-AF, I-CV, I-LC
-34	##반	O	I-OG	I-OG, O, I-AF, I-CV, I-LC
-35	’	O	O	O, I-OG, I-CV, B-CV, I-AF
-36	에	O	O	O, B-CV, B-OG, B-PS, B-TM
-37	등록	O	O	O, B-CV, B-TM, B-OG, B-LC
-38	##시	O	O	O, I-CV, B-CV, B-PS, B-LC
-39	##켰	O	O	O, B-LC, B-CV, B-PS, B-QT
-40	##다	O	O	O, B-CV, B-LC, B-TM, B-PS
-41	.	O	O	O, B-CV, B-LC, B-PS, B-OG
-42	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	《	O	O
+2	“	O	O
+3	한국인	B-CV	B-CV
+4	##이	O	O
+5	하루	B-DT	B-DT
+6	##에	O	O
+7	먹	O	O
+8	##는	O	O
+9	자장면	B-CV	B-CV
+10	##의	O	O
+11	면	B-CV	O
+12	##발	I-CV	O
+13	##을	O	O
+14	이	O	O
+15	##으면	O	O
+16	지구	B-LC	B-LC
+17	한	B-QT	B-QT
+18	바퀴	I-QT	I-QT
+19	반	I-QT	I-QT
+20	##을	O	O
+21	돌	O	O
+22	수	O	O
+23	있	O	O
+24	##는	O	O
+25	길이	O	O
+26	##다	O	O
+27	.	O	O
+28	”	O	O
+29	[SEP]	O	O

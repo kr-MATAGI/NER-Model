@@ -1,26 +1,34 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-EV, I-CV, I-OG, B-CV
-1	문	B-EV	B-EV	B-EV, O, B-AF, B-DT, B-OG
-2	##혁	I-EV	I-EV	I-EV, O, I-AF, I-DT, I-QT
-3	##이	O	O	O, I-EV, B-PS, I-DT, I-PS
-4	끝난	O	O	O, I-EV, B-PS, B-EV, B-LC
-5	뒤	O	O	O, I-EV, B-PS, I-DT, B-EV
-6	그	O	O	O, B-CV, B-PS, I-EV, B-OG
-7	##는	O	O	O, B-PS, B-CV, I-EV, B-LC
-8	이	O	O	O, B-PS, B-CV, B-OG, B-AF
-9	범죄	O	O	O, B-CV, B-PS, I-EV, I-CV
-10	##로	O	O	O, B-PS, B-CV, I-CV, I-EV
-11	조사	O	O	O, B-CV, B-LC, B-TM, B-PS
-12	##를	O	O	O, B-PS, B-CV, I-CV, I-EV
-13	받	O	O	O, B-CV, B-PS, B-LC, B-OG
-14	##았	O	O	O, B-CV, B-PS, B-LC, B-OG
-15	##으나	O	O	O, B-PS, B-LC, B-CV, B-TM
-16	수배	B-CV	O	O, B-CV, B-LC, B-OG, B-AF
-17	##령	I-CV	O	O, I-CV, I-LC, I-AF, I-OG
-18	##을	O	O	O, I-CV, B-PS, I-AF, I-OG
-19	피해	O	O	O, B-LC, B-PS, B-TM, B-CV
-20	도주	O	O	O, B-CV, B-LC, B-TM, B-AF
-21	##했	O	O	O, B-PS, I-CV, I-AF, I-LC
-22	##다	O	O	O, B-CV, B-PS, B-LC, I-EV
-23	.	O	O	O, B-PS, B-CV, B-LC, I-EV
-24	[SEP]	O	O	O, B-CV, B-PS, B-LC, I-EV
+	text	label	preds
+0	[CLS]	O	O
+1	북한	B-LC	B-LC
+2	##의	O	O
+3	조선	B-AF	B-AF
+4	##말	I-AF	I-AF
+5	##사전	I-AF	I-AF
+6	##에	O	O
+7	따르	O	O
+8	##면	O	O
+9	동무	B-CV	O
+10	##는	O	O
+11	'	O	O
+12	혁명	O	O
+13	대	O	O
+14	##오	O	O
+15	##에	O	O
+16	##서	O	O
+17	함께	O	O
+18	싸우	O	O
+19	##는	O	O
+20	사람	O	O
+21	##을	O	O
+22	친근	O	O
+23	##하	O	O
+24	##게	O	O
+25	이르	O	O
+26	##는	O	O
+27	말	O	O
+28	'	O	O
+29	이	O	O
+30	##다	O	O
+31	.	O	O
+32	[SEP]	O	O

@@ -1,29 +1,105 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-AF
-1	오히려	O	O	O, B-OG, B-CV, B-TM, B-PS
-2	신경	B-CV	B-FD	B-FD, B-CV, O, B-AF, B-TR
-3	##외과	I-CV	I-FD	I-FD, I-CV, B-FD, O, I-TR
-4	의사	I-CV	B-CV	B-CV, I-CV, I-FD, O, B-FD
-5	출신	O	O	O, I-CV, B-CV, I-OG, I-QT
-6	##의	O	O	O, B-PS, B-OG, B-CV, B-LC
-7	흑인	B-CV	B-CV	B-CV, O, B-TM, B-LC, I-CV
-8	보수	O	O	O, B-TR, I-TR, I-CV, B-TM
-9	논	O	O	O, B-CV, I-CV, B-PS, I-TR
-10	##객	O	O	O, I-CV, I-PS, B-CV, I-TR
-11	벤	B-PS	B-PS	B-PS, O, I-PS, B-OG, B-LC
-12	카	I-PS	I-PS	I-PS, O, B-PS, I-OG, I-LC
-13	##슨	I-PS	I-PS	I-PS, O, I-LC, I-OG, B-PS
-14	##이	O	O	O, I-PS, B-PS, B-LC, B-CV
-15	지지율	O	O	O, B-CV, B-TM, B-OG, B-QT
-16	##을	O	O	O, B-CV, B-TM, B-OG, B-PS
-17	끌어올리	O	O	O, B-CV, B-TM, B-OG, B-PS
-18	##며	O	O	O, B-PS, B-LC, B-OG, B-QT
-19	트럼프	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-20	뒤	O	O	O, B-TM, B-CV, I-PS, B-AM
-21	##를	O	O	O, B-TM, B-CV, I-TM, I-AF
-22	잇	O	O	O, B-TM, B-QT, B-CV, B-PS
-23	##고	O	O	O, B-CV, I-QT, B-TM, B-PS
-24	있	O	O	O, B-CV, B-TM, B-OG, B-PS
-25	##다	O	O	O, B-CV, I-OG, B-TM, B-OG
-26	.	O	O	O, B-PS, B-CV, B-LC, B-OG
-27	[SEP]	O	O	O, B-CV, B-PS, B-OG, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	고객	B-CV	B-CV
+2	##이	O	O
+3	에너지	O	O
+4	절약	O	O
+5	##을	O	O
+6	실천	O	O
+7	##하	O	O
+8	##겠다	O	O
+9	##는	O	O
+10	서명	O	O
+11	##을	O	O
+12	한	O	O
+13	후	O	O
+14	##에	O	O
+15	거래	O	O
+16	실적	O	O
+17	##에	O	O
+18	따라	O	O
+19	가산	O	O
+20	##금리	O	O
+21	##를	O	O
+22	받	O	O
+23	##는	O	O
+24	'	O	O
+25	신한	B-CV	B-AF
+26	희망	I-CV	I-AF
+27	##애	I-CV	I-AF
+28	(	I-CV	I-AF
+29	愛	I-CV	I-AF
+30	)	I-CV	I-AF
+31	너	I-CV	I-AF
+32	##지	I-CV	I-AF
+33	적금	I-CV	I-AF
+34	'	O	O
+35	,	O	O
+36	물	O	O
+37	·	O	O
+38	에너지	O	O
+39	·	O	O
+40	폐기물	O	O
+41	처리	O	O
+42	등	O	O
+43	기업	O	O
+44	##에	O	O
+45	투자	O	O
+46	##하	O	O
+47	##는	O	O
+48	'	O	O
+49	신한	B-CV	B-OG
+50	BN	I-CV	I-OG
+51	##P	I-CV	I-OG
+52	##P	I-CV	I-OG
+53	봉	I-CV	B-AF
+54	##쥬	I-CV	I-AF
+55	##르	I-CV	I-AF
+56	클린	I-CV	I-AF
+57	##월드	I-CV	I-AF
+58	주식	I-CV	I-AF
+59	##투자	I-CV	I-AF
+60	##신	I-CV	I-AF
+61	##탁	I-CV	I-AF
+62	'	O	O
+63	,	O	O
+64	환경	O	O
+65	책임	O	O
+66	##을	O	O
+67	다	O	O
+68	##하	O	O
+69	##는	O	O
+70	기업	O	O
+71	##에	O	O
+72	선별	O	O
+73	투자	O	O
+74	##하	O	O
+75	##는	O	O
+76	'	O	O
+77	톱	B-CV	B-AF
+78	##스	I-CV	I-AF
+79	(	I-CV	I-AF
+80	Top	I-CV	I-AF
+81	##s	I-CV	I-AF
+82	)	I-CV	I-AF
+83	아름다운	I-CV	I-AF
+84	SR	I-CV	I-AF
+85	##I	I-CV	I-AF
+86	주식	I-CV	I-AF
+87	##투자	I-CV	I-AF
+88	##신	I-CV	I-AF
+89	##탁	I-CV	I-AF
+90	1	I-CV	I-AF
+91	##호	I-CV	I-AF
+92	클래스	I-CV	I-AF
+93	A	I-CV	I-AF
+94	'	O	O
+95	등	O	O
+96	##을	O	O
+97	판매	O	O
+98	##하	O	O
+99	##고	O	O
+100	있	O	O
+101	##다	O	O
+102	.	O	O
+103	[SEP]	O	O

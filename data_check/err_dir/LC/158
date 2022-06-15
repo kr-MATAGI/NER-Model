@@ -1,26 +1,26 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-AF, I-CV
-1	바르	B-AF	B-AF	B-AF, B-LC, O, I-AF, B-PS
-2	##도	I-AF	I-AF	I-AF, O, I-LC, I-OG, I-PS
-3	박물관	I-AF	I-AF	I-AF, O, I-LC, I-OG, I-EV
-4	##은	O	O	O, I-AF, I-OG, I-EV, I-LC
-5	3	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-6	##월	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
-7	##에	O	O	O, I-DT, I-OG, I-AF, I-EV
-8	이슬람	B-LC	B-OG	B-OG, B-LC, B-CV, O, B-PS
-9	지하	B-CV	B-CV	B-CV, O, B-OG, I-CV, I-OG
-10	##디스	I-CV	I-CV	I-CV, O, I-OG, B-CV, I-PS
-11	##트	I-CV	I-CV	I-CV, O, I-OG, I-PT, I-AF
-12	##의	O	O	O, I-CV, I-OG, I-EV, B-PS
-13	테러	O	O	O, B-EV, B-CV, B-LC, B-PS
-14	공격	O	O	O, I-EV, I-CV, B-PS, I-LC
-15	##으로	O	O	O, I-EV, B-PS, B-CV, B-LC
-16	22	B-QT	B-QT	B-QT, O, I-QT, B-LC, B-PS
-17	##명	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-18	##이	O	O	O, I-QT, B-PS, B-CV, B-OG
-19	희생	O	O	O, B-CV, B-LC, B-QT, B-TM
-20	##된	O	O	O, B-LC, B-CV, B-PS, B-QT
-21	곳	O	O	O, B-LC, B-CV, B-AF, B-PS
-22	##이다	O	O	O, B-CV, I-AF, B-LC, I-OG
-23	.	O	O	O, B-LC, B-PS, B-CV, B-AF
-24	[SEP]	O	O	O, B-CV, B-LC, I-AF, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	바르	B-AF	B-AF
+2	##도	I-AF	I-AF
+3	박물관	I-AF	I-AF
+4	##은	O	O
+5	3	B-DT	B-DT
+6	##월	I-DT	I-DT
+7	##에	O	O
+8	이슬람	B-LC	B-OG
+9	지하	B-CV	B-CV
+10	##디스	I-CV	I-CV
+11	##트	I-CV	I-CV
+12	##의	O	O
+13	테러	O	O
+14	공격	O	O
+15	##으로	O	O
+16	22	B-QT	B-QT
+17	##명	I-QT	I-QT
+18	##이	O	O
+19	희생	O	O
+20	##된	O	O
+21	곳	O	O
+22	##이다	O	O
+23	.	O	O
+24	[SEP]	O	O

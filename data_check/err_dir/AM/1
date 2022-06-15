@@ -1,6 +1,22 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, I-OG, B-CV, I-AF
-1	허리	B-AM	B-TR	B-TR, B-AM, B-TM, O, I-TR
-2	수술	O	I-TR	I-TR, O, I-TM, B-TR, I-CV
-3	?	O	O	O, I-TR, I-EV, I-TM, I-CV
-4	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	유대인	B-CV	B-CV
+2	##은	O	O
+3	돼지고기	B-CV	B-CV
+4	##와	O	O
+5	조개	B-AM	B-CV
+6	##를	O	O
+7	,	O	O
+8	북미	B-LC	B-LC
+9	나	B-CV	B-LC
+10	##바	I-CV	I-LC
+11	##호	I-CV	I-LC
+12	인디언	I-CV	B-CV
+13	##들	O	O
+14	##은	O	O
+15	물고기	B-AM	B-AM
+16	##를	O	O
+17	금	O	O
+18	##한다	O	O
+19	.	O	O
+20	[SEP]	O	O

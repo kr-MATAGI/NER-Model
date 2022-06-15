@@ -1,23 +1,24 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	보	O	O	O, B-CV, B-OG, B-TM, B-PS
-2	##면	O	O	O, B-OG, B-LC, I-OG, B-PS
-3	##은	O	O	O, B-CV, B-PS, B-OG, B-LC
-4	뭐	O	O	O, B-CV, B-OG, B-LC, B-TM
-5	지난해	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-OG
-6	##에	O	O	O, I-DT, I-AF, I-QT, I-OG
-7	##는	O	O	O, B-CV, B-LC, I-DT, B-OG
-8	또	O	O	O, B-CV, B-LC, B-OG, B-TM
-9	파	B-PT	B-CV	B-CV, B-PT, O, B-AM, B-OG
-10	##가	O	O	O, I-CV, I-OG, I-AF, B-PS
-11	비쌌	O	O	O, B-CV, B-OG, B-TM, B-QT
-12	##다가	O	O	O, B-PS, B-OG, B-LC, I-CV
-13	이번	O	B-DT	B-DT, O, I-DT, B-QT, B-OG
-14	해	O	I-DT	I-DT, O, B-DT, I-QT, I-OG
-15	##엔	O	O	O, I-DT, I-OG, I-QT, I-AF
-16	또	O	O	O, B-CV, B-LC, B-OG, B-TM
-17	양파	B-PT	B-CV	B-CV, B-PT, O, B-AM, B-OG
-18	##가	O	O	O, I-CV, I-AF, I-OG, B-CV
-19	비쌌	O	O	O, B-CV, B-OG, B-TM, B-QT
-20	##다가	O	O	O, B-OG, I-AF, I-OG, I-CV
-21	[SEP]	O	O	O, B-CV, B-LC, B-OG, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	또	O	O
+2	선대	O	B-PS
+3	##인	O	I-PS
+4	국민	O	B-OG
+5	##정책	O	I-OG
+6	참여	O	B-CV
+7	##단	O	I-CV
+8	##장	O	I-CV
+9	##도	O	O
+10	트위터	B-TM	B-TM
+11	##를	O	O
+12	통해	O	O
+13	우	B-PS	B-PS
+14	교수	B-CV	B-CV
+15	##의	O	O
+16	주장	O	O
+17	##을	O	O
+18	비판	O	O
+19	##했	O	O
+20	##다	O	O
+21	.	O	O
+22	[SEP]	O	O

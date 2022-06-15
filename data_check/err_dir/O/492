@@ -1,43 +1,17 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-QT
-1	기프트	O	B-AF	B-AF, O, B-TM, B-OG, B-CV
-2	##카	O	I-AF	I-AF, O, I-OG, I-TM, I-CV
-3	주인공	B-CV	B-CV	B-CV, O, I-CV, I-AF, B-AF
-4	##으로	O	O	O, I-CV, I-AF, B-CV, I-OG
-5	선정	O	O	O, B-OG, B-CV, B-TM, B-LC
-6	##되	O	O	O, B-PS, I-OG, B-LC, B-CV
-7	##면	O	O	O, B-LC, B-OG, B-CV, B-PS
-8	현대차	B-OG	B-OG	B-OG, O, B-LC, B-AF, I-OG
-9	‘	O	O	O, I-OG, B-CV, I-AF, B-OG
-10	포터	B-AF	B-AF	B-AF, O, B-OG, B-PS, I-AF
-11	’	O	O	O, I-AF, I-OG, B-CV, I-DT
-12	와	O	O	O, B-CV, B-LC, B-OG, B-AF
-13	‘	O	O	O, B-LC, B-OG, B-CV, B-TM
-14	스타	B-AF	B-AF	B-AF, O, B-PS, B-OG, I-AF
-15	##렉스	I-AF	I-AF	I-AF, O, I-OG, I-PS, B-AF
-16	’	O	O	O, I-AF, I-OG, B-CV, B-LC
-17	,	O	O	O, B-OG, B-LC, B-CV, B-TM
-18	기아차	B-OG	B-OG	B-OG, O, B-LC, B-AF, I-OG
-19	‘	O	O	O, I-OG, B-CV, I-AF, B-LC
-20	봉	B-AF	B-AF	B-AF, O, B-OG, B-PS, I-AF
-21	##고	I-AF	I-AF	I-AF, O, I-OG, I-PS, I-LC
-22	’	O	O	O, I-AF, I-OG, B-CV, B-LC
-23	와	O	O	O, B-LC, B-OG, B-AF, B-CV
-24	‘	O	O	O, B-LC, B-OG, B-CV, B-TM
-25	레이	B-AF	B-AF	B-AF, O, B-PS, B-OG, I-AF
-26	’	O	O	O, I-AF, I-OG, B-CV, I-DT
-27	중	O	O	O, B-LC, B-OG, B-TM, B-QT
-28	창업	O	O	O, B-CV, B-TM, B-AF, B-LC
-29	계획	O	O	O, I-AF, I-TM, B-CV, B-TM
-30	##에	O	O	O, B-CV, B-PS, B-LC, B-TM
-31	가장	O	O	O, B-LC, B-CV, B-QT, B-TM
-32	적합	O	O	O, B-LC, B-TM, B-CV, B-QT
-33	##한	O	O	O, B-LC, B-PS, B-OG, B-TM
-34	차종	O	O	O, B-AF, B-CV, B-TM, B-LC
-35	##을	O	O	O, B-CV, B-OG, B-LC, I-AF
-36	지원	O	O	O, B-TM, B-CV, B-OG, B-LC
-37	##받	O	O	O, I-OG, B-PS, B-LC, B-OG
-38	##는	O	O	O, B-OG, B-LC, I-OG, B-CV
-39	##다	O	O	O, B-CV, B-OG, I-OG, B-LC
-40	.	O	O	O, B-LC, B-OG, B-AF, B-CV
-41	[SEP]	O	O	O, B-LC, B-CV, B-TM, B-AF
+	text	label	preds
+0	[CLS]	O	O
+1	커트	O	O
+2	##라인	O	O
+3	##이	O	O
+4	법대	O	O
+5	##보	O	O
+6	##다	O	O
+7	칠	O	B-QT
+8	점	O	I-QT
+9	##이	O	O
+10	높	O	O
+11	##았	O	O
+12	##을	O	O
+13	[UNK]	O	O
+14	.	O	O
+15	[SEP]	O	O

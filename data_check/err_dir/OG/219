@@ -1,61 +1,23 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	1980	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-2	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
-3	##대	I-DT	I-DT	I-DT, O, I-QT, B-DT, I-EV
-4	노동	O	O	O, B-EV, B-CV, I-EV, B-LC
-5	##운동	O	O	O, I-EV, B-EV, I-OG, I-TR
-6	##으로	O	O	O, I-EV, B-PS, I-OG, I-AF
-7	뜨거웠	O	O	O, B-LC, B-PS, B-OG, B-CV
-8	##던	O	O	O, B-LC, B-PS, B-OG, I-EV
-9	격변	O	O	O, B-PS, B-EV, B-LC, B-OG
-10	##의	O	O	O, B-PS, I-EV, I-PS, I-OG
-11	시절	O	O	O, B-PS, B-LC, I-EV, B-EV
-12	##도	O	O	O, I-EV, B-PS, B-LC, I-OG
-13	,	O	O	O, B-LC, B-PS, B-OG, B-CV
-14	1990	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-LC
-15	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-16	##대	I-DT	I-DT	I-DT, O, I-QT, B-DT, I-PS
-17	대한민국	B-LC	B-LC	B-LC, O, B-OG, I-LC, I-DT
-18	##을	O	O	O, I-LC, I-AF, I-OG, B-LC
-19	휩	O	O	O, B-PS, B-LC, B-CV, B-OG
-20	##쓴	O	O	O, B-PS, B-LC, B-OG, B-CV
-21	IMF	B-OG	B-EV	B-EV, B-OG, O, B-DT, B-AF
-22	##로	O	O	O, I-EV, I-OG, I-DT, I-PS
-23	대변	O	O	O, B-PS, B-LC, I-EV, B-EV
-24	##되	O	O	O, B-PS, I-EV, B-LC, I-PS
-25	##는	O	O	O, B-PS, B-LC, B-EV, I-EV
-26	외환	O	B-EV	B-EV, O, B-OG, I-EV, B-DT
-27	##위	O	I-EV	I-EV, O, B-EV, I-OG, I-DT
-28	##기	O	I-EV	I-EV, O, I-OG, I-DT, I-AF
-29	속	O	O	O, I-EV, I-OG, I-DT, I-AF
-30	##에서	O	O	O, B-PS, I-EV, B-OG, B-CV
-31	##도	O	O	O, B-PS, B-LC, B-OG, I-EV
-32	디	B-OG	B-OG	B-OG, O, B-LC, B-AF, B-PS
-33	##알	I-OG	I-OG	I-OG, O, I-LC, B-OG, I-AF
-34	액	I-OG	I-OG	I-OG, O, B-OG, I-LC, I-PS
-35	##시	I-OG	I-OG	I-OG, O, B-OG, I-LC, I-AF
-36	##온	I-OG	I-OG	I-OG, O, I-LC, B-OG, I-AF
-37	##의	O	O	O, I-OG, I-AF, B-PS, B-CV
-38	임직원	B-CV	B-CV	B-CV, O, B-AF, I-CV, B-OG
-39	##들	O	O	O, I-CV, I-AF, I-OG, I-QT
-40	##은	O	O	O, B-CV, B-PS, B-LC, B-TM
-41	손	B-AM	B-AM	B-AM, O, B-PS, B-TR, I-AM
-42	##을	O	O	O, I-CV, B-AM, I-PS, B-CV
-43	맞잡	O	O	O, B-AM, B-CV, B-PS, B-TM
-44	##고	O	O	O, B-PS, I-CV, I-PS, B-AM
-45	서로	O	O	O, B-CV, B-PS, B-TM, B-QT
-46	격려	O	O	O, B-CV, B-PS, I-CV, B-TM
-47	##하	O	O	O, B-PS, B-LC, B-CV, B-OG
-48	##며	O	O	O, B-PS, B-LC, B-CV, B-OG
-49	당당히	O	O	O, B-CV, B-LC, B-PS, B-OG
-50	그	O	O	O, B-LC, B-CV, B-OG, B-PS
-51	어려움	O	O	O, B-CV, B-LC, B-PS, B-OG
-52	##들	O	O	O, B-CV, B-PS, B-LC, B-OG
-53	##을	O	O	O, B-CV, B-LC, B-PS, B-OG
-54	이겨	O	O	O, B-CV, B-LC, B-PS, B-OG
-55	##내	O	O	O, B-CV, B-PS, B-LC, B-OG
-56	##었	O	O	O, B-CV, B-LC, B-PS, B-OG
-57	##다	O	O	O, B-CV, I-OG, B-LC, B-OG
-58	.	O	O	O, B-LC, B-PS, B-CV, B-OG
-59	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	한	B-PS	B-PS
+2	전	O	O
+3	총리	B-CV	B-CV
+4	##의	O	O
+5	또	O	O
+6	다른	O	O
+7	역할	O	O
+8	##은	O	O
+9	경제	O	O
+10	##개발	O	O
+11	경험	O	O
+12	##을	O	O
+13	개도국	B-OG	O
+14	##에	O	O
+15	설명	O	O
+16	##하	O	O
+17	##는	O	O
+18	것	O	O
+19	##이다	O	O
+20	.	O	O
+21	[SEP]	O	O

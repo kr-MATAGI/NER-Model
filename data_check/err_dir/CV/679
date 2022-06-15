@@ -1,20 +1,38 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, I-OG, B-CV, I-AF
-1	치	O	O	O, B-PS, B-CV, B-AM, B-TR
-2	의원	B-CV	B-CV	B-CV, O, I-CV, I-PS, B-OG
-3	##이	O	O	O, I-CV, B-PS, B-CV, I-PS
-4	그	O	O	O, B-CV, I-CV, B-TM, B-OG
-5	그걸로	O	O	O, B-CV, B-PS, B-TM, B-LC
-6	자기	O	O	O, B-CV, B-PS, I-CV, B-TM
-7	장사	B-CV	O	O, B-CV, B-TM, I-CV, B-AM
-8	##할	O	O	O, B-PS, I-CV, B-CV, B-LC
-9	##려고	O	O	O, B-PS, B-LC, B-OG, B-CV
-10	사람	O	O	O, B-CV, B-TM, B-AM, B-PS
-11	##들	O	O	O, B-CV, I-CV, B-PS, I-AF
-12	모을	O	O	O, B-CV, B-TM, B-OG, B-PS
-13	##려고	O	O	O, I-CV, I-OG, B-PS, I-AF
-14	하	O	O	O, B-CV, B-PS, B-OG, B-LC
-15	##네	O	O	O, I-CV, I-PS, I-OG, B-PS
-16	##하고	O	O	O, B-CV, I-CV, I-OG, I-AF
-17	사업	O	O	O, B-CV, B-TM, B-LC, B-EV
-18	[SEP]	O	O	O, B-CV, I-CV, B-PS, I-TM
+	text	label	preds
+0	[CLS]	O	O
+1	정책	B-CV	O
+2	당국자	I-CV	B-CV
+3	##는	O	O
+4	학교	O	O
+5	##나	O	O
+6	보건소	O	O
+7	##를	O	O
+8	추가	O	O
+9	##로	O	O
+10	지	O	O
+11	##을	O	O
+12	필요	O	O
+13	##가	O	O
+14	있	O	O
+15	##는지	O	O
+16	판단	O	O
+17	##할	O	O
+18	때	O	O
+19	정	B-PS	B-PS
+20	교수	O	B-CV
+21	##팀	O	O
+22	##의	O	O
+23	축	O	O
+24	##척	O	O
+25	지수	O	O
+26	##를	O	O
+27	유용	O	O
+28	##하	O	O
+29	##게	O	O
+30	활용	O	O
+31	##할	O	O
+32	수	O	O
+33	있	O	O
+34	##다	O	O
+35	.	O	O
+36	[SEP]	O	O

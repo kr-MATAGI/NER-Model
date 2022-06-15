@@ -1,18 +1,27 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	하지만	O	O	O, B-CV, B-TM, B-LC, B-PS
-2	현대인	O	O	O, B-CV, B-PS, I-CV, B-LC
-3	##들	O	O	O, I-CV, B-CV, I-AF, B-PS
-4	##은	O	O	O, B-CV, B-TM, B-LC, B-PS
-5	주로	O	O	O, B-TM, B-CV, B-LC, B-AF
-6	컴퓨터	B-TM	B-TM	B-TM, O, B-CV, I-TM, B-TR
-7	앞	O	B-TM	B-TM, O, I-TM, B-QT, B-CV
-8	##에서	O	O	O, I-TM, B-CV, I-QT, I-CV
-9	작업	O	O	O, B-CV, B-TM, I-TM, B-LC
-10	##을	O	O	O, B-CV, B-PS, I-AF, B-OG
-11	하고	O	O	O, B-CV, B-TM, B-PS, B-LC
-12	문서	O	O	O, B-CV, B-TM, B-LC, B-AF
-13	##를	O	O	O, B-CV, I-AF, B-PS, I-CV
-14	본다	O	O	O, B-CV, B-TM, B-PS, B-LC
-15	.	O	O	O, B-CV, B-LC, B-PS, I-AF
-16	[SEP]	O	O	O, B-CV, I-AF, B-TM, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	북아	B-LC	B-LC
+2	##현동	I-LC	I-LC
+3	##은	O	O
+4	2006	B-DT	B-DT
+5	##년	I-DT	I-DT
+6	아	O	B-AF
+7	##현	O	I-AF
+8	##뉴	O	I-AF
+9	##타운	O	I-AF
+10	지구	O	O
+11	##로	O	O
+12	지정	O	O
+13	##돼	O	O
+14	2011	B-DT	B-DT
+15	##년	I-DT	I-DT
+16	##까	I-DT	I-DT
+17	##지	I-DT	I-DT
+18	철거	O	O
+19	##가	O	O
+20	완료	O	O
+21	##될	O	O
+22	예정	O	O
+23	##이다	O	O
+24	.	O	O
+25	[SEP]	O	O

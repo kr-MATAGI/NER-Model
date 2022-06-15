@@ -1,20 +1,49 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	그게	O	O	O, B-CV, B-TM, B-OG, B-LC
-2	아니	O	O	O, B-CV, B-OG, B-PS, B-TM
-3	##고	O	O	O, B-OG, B-PS, B-CV, B-LC
-4	이양	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-5	##하	I-PS	I-PS	I-PS, O, I-OG, I-QT, I-LC
-6	선생	B-CV	B-CV	B-CV, O, I-CV, I-PS, B-QT
-7	##이	O	O	O, I-CV, B-PS, I-QT, B-CV
-8	##라고	O	O	O, B-PS, I-CV, B-CV, I-QT
-9	이양	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-10	##하	I-PS	I-PS	I-PS, O, I-OG, I-QT, I-LC
-11	선생	B-CV	B-CV	B-CV, O, I-CV, I-PS, B-QT
-12	영문	O	B-FD	B-FD, B-CV, O, B-TM, I-CV
-13	영문학	B-FD	B-FD	B-FD, I-FD, O, I-CV, B-CV
-14	##하	O	O	O, I-FD, I-CV, B-CV, I-AF
-15	##는	O	O	O, B-CV, B-QT, B-PS, B-TM
-16	양반	O	O	O, B-CV, B-QT, B-TM, I-QT
-17	.	O	O	O, I-CV, I-QT, B-CV, I-OG
-18	[SEP]	O	O	O, B-CV, B-PS, B-LC, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	엘지	B-OG	B-OG
+2	(	I-OG	I-OG
+3	LG	I-OG	I-OG
+4	)	I-OG	I-OG
+5	경제	I-OG	I-OG
+6	##연구원	I-OG	I-OG
+7	##은	O	O
+8	19	B-DT	B-DT
+9	##일	I-DT	I-DT
+10	‘	O	O
+11	2016	B-DT	B-DT
+12	##년	I-DT	I-DT
+13	국내	O	B-AF
+14	경제	O	I-AF
+15	진단	O	I-AF
+16	-	O	I-AF
+17	저성장	O	I-AF
+18	기조	O	I-AF
+19	##에	O	I-AF
+20	위험	O	I-AF
+21	요인	O	I-AF
+22	산재	O	I-AF
+23	’	O	O
+24	보고서	O	O
+25	##를	O	O
+26	내	O	O
+27	##어	O	O
+28	“	O	O
+29	지난해	B-DT	B-DT
+30	한국	B-LC	B-LC
+31	경제	O	O
+32	##는	O	O
+33	2	B-QT	B-QT
+34	%	I-QT	I-QT
+35	대	I-QT	I-QT
+36	중후	I-QT	I-QT
+37	##반	I-QT	I-QT
+38	성장	O	O
+39	##에	O	O
+40	머문	O	O
+41	것	O	O
+42	##으로	O	O
+43	추정	O	O
+44	##된	O	O
+45	##다	O	O
+46	.	O	O
+47	[SEP]	O	O

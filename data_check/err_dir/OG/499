@@ -1,88 +1,59 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-QT
-1	제주	B-OG	B-OG	B-OG, B-LC, O, B-PS, B-AF
-2	##는	O	O	O, I-OG, I-EV, B-CV, I-QT
-3	올해	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-4	K	B-OG	B-EV	B-EV, B-OG, B-FD, B-AF, B-CV
-5	##리그	I-OG	I-EV	I-EV, I-OG, I-FD, I-CV, I-AF
-6	15	B-QT	B-QT	B-QT, I-QT, I-EV, O, I-OG
-7	##개	I-QT	I-QT	I-QT, O, I-EV, I-LC, I-OG
-8	구단	O	O	O, I-QT, B-CV, B-OG, I-EV
-9	중	O	O	O, B-LC, B-PS, B-OG, B-CV
-10	유일	O	O	O, B-QT, B-LC, B-CV, B-TM
-11	##하	O	O	O, B-PS, B-LC, B-OG, B-QT
-12	##게	O	O	O, B-LC, B-PS, B-QT, I-QT
-13	홈	O	O	O, B-EV, B-TM, B-LC, B-CV
-14	무패	O	O	O, B-TM, B-EV, I-EV, B-CV
-15	##의	O	O	O, I-EV, I-TM, I-QT, I-CV
-16	기록	O	O	O, B-CV, B-LC, B-TM, B-OG
-17	##을	O	O	O, B-CV, B-OG, B-LC, B-PS
-18	갖	O	O	O, B-CV, B-OG, B-TM, B-LC
-19	##고	O	O	O, B-LC, B-PS, B-OG, B-TM
-20	있	O	O	O, B-LC, B-OG, B-PS, B-CV
-21	##었	O	O	O, B-CV, B-OG, B-LC, I-OG
-22	##고	O	O	O, B-LC, B-OG, B-PS, B-QT
-23	한편	O	O	O, B-QT, B-PS, B-CV, B-TM
-24	##으	O	O	O, I-QT, B-PS, B-QT, B-LC
-25	##론	O	O	O, I-QT, B-PS, B-QT, B-LC
-26	서울	B-OG	B-OG	B-OG, B-LC, O, B-EV, B-PS
-27	상대	O	O	O, I-OG, B-CV, I-EV, B-EV
-28	##로	O	O	O, B-PS, I-EV, B-LC, B-QT
-29	2006	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-30	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-31	##부터	I-DT	I-DT	I-DT, O, I-QT, B-DT, I-PS
-32	홈	O	O	O, B-EV, B-LC, B-CV, B-TM
-33	##에서	O	O	O, I-EV, B-EV, B-LC, B-CV
-34	한	O	B-QT	B-QT, O, I-QT, B-TM, B-EV
-35	번	O	I-QT	I-QT, O, I-EV, I-LC, I-TM
-36	##도	O	O	O, I-QT, I-EV, B-CV, B-PS
-37	이기	O	O	O, B-CV, B-EV, B-TM, B-LC
-38	##지	O	O	O, B-LC, B-CV, B-QT, B-PS
-39	못한	O	O	O, B-LC, B-CV, B-QT, B-TM
-40	징크스	O	O	O, B-CV, B-TM, B-EV, B-LC
-41	##가	O	O	O, B-PS, I-EV, B-OG, B-CV
-42	있	O	O	O, B-CV, B-OG, B-LC, B-QT
-43	##었	O	O	O, B-CV, B-OG, B-LC, B-PS
-44	##는데	O	O	O, B-LC, B-OG, B-QT, B-PS
-45	제주	B-OG	B-OG	B-OG, B-LC, O, B-PS, B-AF
-46	##가	O	O	O, I-OG, I-EV, I-LC, B-PS
-47	2	B-QT	B-QT	B-QT, O, I-QT, B-EV, B-TM
-48	-	I-QT	I-QT	I-QT, O, I-LC, I-EV, B-QT
-49	0	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-EV
-50	##으로	O	O	O, I-QT, B-CV, I-EV, B-OG
-51	앞서	O	O	O, B-TM, B-EV, B-CV, B-LC
-52	##다	O	O	O, B-QT, B-LC, I-EV, B-CV
-53	후반	B-TI	B-TI	B-TI, B-EV, B-TM, O, B-QT
-54	두	B-QT	B-QT	B-QT, I-QT, I-TI, O, B-TI
-55	골	I-QT	I-QT	I-QT, O, I-EV, I-TM, I-TI
-56	##을	O	O	O, I-QT, I-EV, B-CV, I-TM
-57	허용	O	O	O, B-CV, B-TM, B-LC, B-OG
-58	##해	O	O	O, B-LC, B-QT, B-OG, B-PS
-59	2	B-QT	B-QT	B-QT, O, I-QT, B-EV, B-TM
-60	-	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-EV
-61	2	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-EV
-62	##로	O	O	O, I-QT, I-EV, B-CV, B-TM
-63	비기	O	O	O, B-EV, B-CV, B-TM, B-LC
-64	##는	O	O	O, I-EV, I-QT, B-CV, B-LC
-65	바람	O	O	O, B-LC, B-CV, B-OG, B-QT
-66	##에	O	O	O, B-CV, B-OG, B-LC, B-QT
-67	결과	O	O	O, B-CV, B-OG, B-LC, B-TM
-68	##적으로	O	O	O, B-PS, B-LC, B-OG, B-QT
-69	제주	B-OG	B-OG	B-OG, B-LC, O, B-PS, B-AF
-70	##의	O	O	O, I-OG, I-EV, I-LC, I-AF
-71	홈	O	O	O, B-EV, B-TM, B-LC, B-CV
-72	무패	O	O	O, B-TM, B-EV, B-CV, B-TR
-73	기록	O	O	O, I-EV, I-TM, B-CV, I-CV
-74	##과	O	O	O, B-OG, B-PS, B-CV, B-LC
-75	서울	B-OG	B-OG	B-OG, B-LC, O, B-PS, B-EV
-76	상대	O	O	O, B-CV, I-EV, I-OG, B-EV
-77	홈	O	O	O, B-EV, B-TM, B-CV, B-LC
-78	무	O	O	O, B-TM, I-TM, B-EV, B-CV
-79	##승	O	O	O, I-TM, I-EV, B-TM, I-TR
-80	징크스	O	O	O, B-CV, B-TM, I-TM, B-EV
-81	모두	O	O	O, B-CV, I-EV, B-OG, I-CV
-82	유지	O	O	O, B-CV, B-LC, B-TM, B-QT
-83	##됐	O	O	O, B-CV, B-OG, B-PS, B-LC
-84	##다	O	O	O, B-CV, B-QT, B-TM, B-LC
-85	.	O	O	O, B-LC, B-CV, B-TM, B-PS
-86	[SEP]	O	O	O, B-CV, B-LC, I-EV, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	조	B-PS	B-PS
+2	의원	B-CV	B-CV
+3	##은	O	O
+4	“	O	O
+5	해운업	O	O
+6	##계	O	O
+7	관계자	B-CV	B-CV
+8	##의	O	O
+9	말	O	O
+10	##을	O	O
+11	들어	O	O
+12	##보	O	O
+13	##니	O	O
+14	,	O	O
+15	경인	B-LC	B-LC
+16	##운	I-LC	I-LC
+17	##하	I-LC	I-LC
+18	##를	O	O
+19	이용	O	O
+20	##할	O	O
+21	수	O	O
+22	있	O	O
+23	##는	O	O
+24	물동량	O	O
+25	##이	O	O
+26	불	O	O
+27	##투	O	O
+28	##명	O	O
+29	##한	O	O
+30	상황	O	O
+31	##에	O	O
+32	##서	O	O
+33	해운업	B-OG	O
+34	##계	I-OG	O
+35	##가	O	O
+36	값비싼	O	O
+37	아르	B-AF	B-AF
+38	##에스	I-AF	I-AF
+39	##선	I-AF	I-AF
+40	건조	O	O
+41	##계	O	O
+42	##획	O	O
+43	##을	O	O
+44	수립	O	O
+45	##하	O	O
+46	##는	O	O
+47	것	O	O
+48	##은	O	O
+49	어렵	O	O
+50	##다고	O	O
+51	한다	O	O
+52	”	O	O
+53	고	O	O
+54	전했	O	O
+55	##다	O	O
+56	.	O	O
+57	[SEP]	O	O

@@ -1,12 +1,27 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	안보	O	O	O, B-LC, B-TM, B-OG, B-CV
-2	##관광	O	O	O, I-LC, I-TM, I-OG, I-CV
-3	##도	O	O	O, I-LC, I-OG, I-TM, I-CV
-4	##시	O	O	O, I-LC, I-OG, I-TM, I-CV
-5	부문	O	O	O, I-OG, I-LC, I-TM, B-LC
-6	/	O	O	O, I-OG, I-AF, B-OG, B-LC
-7	청춘	O	O	O, B-LC, B-AF, B-TM, B-OG
-8	##양	B-LC	I-LC	I-LC, O, B-LC, I-AF, I-TM
-9	##구	I-LC	I-LC	I-LC, O, I-AF, I-OG, I-PS
-10	[SEP]	O	O	O, I-LC, I-AF, I-OG, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	하지	O	O
+2	##만	O	O
+3	이번	O	O
+4	평창	B-LC	B-EV
+5	대회	O	I-EV
+6	##에	O	O
+7	##선	O	O
+8	스페셜	B-EV	B-EV
+9	##올	I-EV	I-EV
+10	##림픽	I-EV	I-EV
+11	사상	O	O
+12	처음	O	O
+13	##으로	O	O
+14	거의	O	O
+15	전	O	O
+16	종목	O	O
+17	##에	O	O
+18	걸쳐	O	O
+19	통합	O	O
+20	스포츠	O	O
+21	경기	O	O
+22	##가	O	O
+23	열린다	O	O
+24	.	O	O
+25	[SEP]	O	O

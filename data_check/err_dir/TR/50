@@ -1,33 +1,48 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	초	B-TR	O	O, B-TR, B-LC, B-MT, B-TM
-2	##신	I-TR	O	O, I-TR, I-MT, I-TM, I-AF
-3	##성	I-TR	O	O, I-TR, I-MT, I-TM, I-AF
-4	##에	O	O	O, I-AF, I-OG, I-TM, I-TR
-5	##는	O	O	O, B-LC, B-OG, B-CV, B-TM
-6	태양	B-LC	B-LC	B-LC, O, B-OG, B-TM, B-AF
-7	##과	O	O	O, I-LC, I-AF, I-OG, B-CV
-8	비슷	O	O	O, B-TM, B-CV, B-LC, B-OG
-9	##한	O	O	O, B-LC, B-PS, B-OG, B-TM
-10	크기	O	O	O, B-CV, B-TM, B-QT, B-LC
-11	##인	O	O	O, B-CV, B-PS, B-OG, B-LC
-12	1	B-QT	B-QT	B-QT, O, I-QT, B-TM, B-LC
-13	##형	I-QT	I-QT	I-QT, O, I-LC, I-TM, B-QT
-14	(	O	O	O, I-QT, I-OG, I-AF, I-CV
-15	[UNK]	O	O	O, B-CV, B-LC, B-OG, B-TM
-16	)	O	O	O, B-CV, B-OG, B-LC, B-TM
-17	과	O	O	O, B-OG, B-CV, B-PS, B-LC
-18	,	O	O	O, B-CV, B-LC, B-OG, B-TM
-19	태양	B-LC	B-LC	B-LC, O, B-OG, B-TM, B-AF
-20	##의	O	O	O, I-LC, I-AF, I-OG, I-QT
-21	10	B-QT	B-QT	B-QT, I-QT, O, B-DT, B-LC
-22	##배	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-23	이상	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-24	##인	O	O	O, I-QT, B-CV, I-OG, I-AF
-25	2	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-TM
-26	##형	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-TM
-27	##이	O	O	O, I-QT, B-PS, I-OG, I-AF
-28	있	O	O	O, B-CV, B-OG, B-LC, I-QT
-29	##다	O	O	O, B-CV, B-LC, I-OG, B-OG
-30	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-31	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	핵연료	B-TR	O
+2	사이클	I-TR	O
+3	##이	O	O
+4	##란	O	O
+5	핵	B-AF	B-AF
+6	##발전	O	O
+7	뒤	O	O
+8	##에	O	O
+9	발생	O	O
+10	##하	O	O
+11	##는	O	O
+12	사용	O	O
+13	##후	O	O
+14	핵연료	B-MT	O
+15	##를	O	O
+16	재	O	O
+17	##처리	O	O
+18	##해	O	O
+19	나오	O	O
+20	##는	O	O
+21	플루토늄	B-MT	B-MT
+22	##을	O	O
+23	다시	O	O
+24	핵	B-AF	B-AF
+25	##발전	O	O
+26	##에	O	O
+27	활용	O	O
+28	##해	O	O
+29	추가	O	O
+30	##적	O	O
+31	##인	O	O
+32	에너지	O	O
+33	투입	O	O
+34	없이	O	O
+35	영원히	O	O
+36	전기	O	O
+37	##를	O	O
+38	생산	O	O
+39	##하	O	O
+40	##는	O	O
+41	구상	O	O
+42	##을	O	O
+43	뜻	O	O
+44	##한다	O	O
+45	.	O	O
+46	[SEP]	O	O

@@ -1,34 +1,28 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, B-CV, I-OG, I-EV
-1	피카소	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
-2	·	O	O	O, I-PS, I-AF, I-OG, B-CV
-3	이우	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-4	##환	I-PS	I-PS	I-PS, O, I-OG, I-LC, B-PS
-5	등	O	O	O, I-PS, B-CV, I-AF, B-LC
-6	작품	O	O	O, B-CV, B-LC, B-TM, B-FD
-7	일본	B-LC	B-LC	B-LC, O, B-OG, B-AF, B-PS
-8	##서	O	O	O, I-LC, B-LC, B-CV, I-AF
-9	수집	O	O	O, B-CV, B-LC, B-OG, B-TM
-10	##해	O	O	O, B-LC, B-PS, I-LC, B-OG
-11	국내	O	O	O, B-LC, B-CV, B-OG, B-TM
-12	##에	O	O	O, B-CV, B-LC, B-OG, B-PS
-13	1	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-LC
-14	##만	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-15	##점	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-16	기증	O	O	O, I-QT, B-CV, B-LC, B-OG
-17	‘	O	O	O, B-CV, B-PS, B-LC, B-OG
-18	한국	B-LC	B-LC	B-LC, B-OG, O, B-FD, B-PS
-19	##미술	B-FD	O	O, I-FD, B-FD, I-OG, I-LC
-20	##계	O	O	O, I-FD, I-OG, I-PS, I-LC
-21	숨	O	O	O, B-PS, B-LC, B-CV, I-PS
-22	##은	O	O	O, B-PS, I-PS, B-CV, B-LC
-23	은	O	B-CV	B-CV, O, I-CV, B-PS, B-QT
-24	##인	O	O	O, I-CV, B-CV, I-PS, I-QT
-25	’	O	O	O, I-CV, B-PS, B-CV, I-QT
-26	하정	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
-27	##웅	I-PS	I-PS	I-PS, O, I-OG, I-LC, B-PS
-28	##씨	O	O	O, I-PS, B-CV, I-OG, I-AF
-29	에세이	O	B-FD	B-FD, O, B-TM, B-AF, B-CV
-30	냈	O	O	O, I-FD, I-AF, I-CV, B-CV
-31	##다	O	O	O, B-CV, B-LC, B-TM, I-CV
-32	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-FD
+	text	label	preds
+0	[CLS]	O	O
+1	(	O	O
+2	혹시	O	O
+3	문학	O	O
+4	##적	O	O
+5	재능	O	O
+6	##이	O	O
+7	있	O	O
+8	##느	O	O
+9	##냐	O	O
+10	##고	O	O
+11	묻	O	O
+12	##자	O	O
+13	)	O	O
+14	아니	O	O
+15	##에	O	O
+16	##요	O	O
+17	,	O	O
+18	그	O	O
+19	아이	O	O
+20	##는	O	O
+21	이공	B-FD	O
+22	##계	I-FD	O
+23	##입니다	O	O
+24	.	O	O
+25	""""	O	O
+26	[SEP]	O	O

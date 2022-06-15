@@ -1,9 +1,31 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	온몸	O	B-AM	B-AM, O, B-TM, B-TR, B-PS
-2	##으로	O	O	O, I-QT, I-AF, I-TM, I-CV
-3	그거	O	O	O, B-CV, B-TM, B-LC, B-OG
-4	##를	O	O	O, B-CV, B-OG, B-PS, B-LC
-5	감내	O	O	O, B-CV, B-LC, B-TM, B-PS
-6	##하고	O	O	O, B-CV, I-AF, I-CV, B-OG
-7	[SEP]	O	O	O, B-CV, B-LC, B-TM, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	CNN	B-OG	B-OG
+2	방송	O	O
+3	##은	O	O
+4	""""	O	O
+5	미국	B-CV	B-CV
+6	##민	I-CV	I-CV
+7	##의	O	O
+8	3	B-QT	B-QT
+9	##분	I-QT	I-QT
+10	##의	I-QT	I-QT
+11	1	I-QT	I-QT
+12	##만	O	I-QT
+13	##이	O	O
+14	그	O	O
+15	##를	O	O
+16	기독교	B-CV	B-CV
+17	##인	I-CV	I-CV
+18	##으로	O	O
+19	제대로	O	O
+20	알고	O	O
+21	있	O	O
+22	##다	O	O
+23	""""	O	O
+24	고	O	O
+25	보도	O	O
+26	##했	O	O
+27	##다	O	O
+28	.	O	O
+29	[SEP]	O	O

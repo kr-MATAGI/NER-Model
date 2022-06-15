@@ -1,54 +1,7 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-EV, B-CV, I-OG, I-CV
-1	[UNK]	O	O	O, B-LC, B-PS, B-TM, B-OG
-2	악기	O	O	O, B-CV, B-AF, B-LC, B-PS
-3	2000	B-QT	B-QT	B-QT, O, I-QT, B-TM, B-DT
-4	##개	I-QT	I-QT	I-QT, O, I-LC, I-TM, I-EV
-5	##를	O	O	O, I-QT, I-EV, B-CV, I-AF
-6	한자	O	O	O, B-QT, B-TM, B-LC, B-EV
-7	##리에	O	O	O, I-QT, I-LC, B-QT, I-EV
-8	=	O	O	O, B-PS, B-LC, B-CV, B-EV
-9	10	B-DT	B-DT	B-DT, I-DT, O, B-QT, B-EV
-10	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-11	##부터	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-12	내년	I-DT	I-DT	I-DT, B-DT, O, I-QT, I-OG
-13	2	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-OG
-14	##월	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-OG
-15	13	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-OG
-16	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-OG
-17	##까	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-OG
-18	##지	I-DT	I-DT	I-DT, O, I-QT, B-DT, I-OG
-19	경기	B-LC	B-LC	B-LC, O, B-OG, I-LC, I-DT
-20	고양시	B-LC	B-LC	B-LC, I-LC, O, B-OG, B-AF
-21	일산	B-LC	B-LC	B-LC, I-LC, O, B-OG, B-AF
-22	킨텍스	B-AF	B-AF	B-AF, B-LC, I-AF, I-LC, O
-23	1	B-TM	B-QT	B-QT, B-TM, O, I-AF, I-LC
-24	##A	I-TM	I-QT	I-QT, O, I-LC, I-TM, I-AF
-25	##홀	I-TM	I-QT	I-QT, O, I-TM, I-LC, I-AF
-26	##에서	O	O	O, I-QT, I-EV, B-PS, B-CV
-27	열리	O	O	O, B-CV, B-EV, B-PS, B-OG
-28	##는	O	O	O, B-PS, B-CV, B-LC, B-OG
-29	‘	O	O	O, B-EV, B-LC, B-CV, B-DT
-30	시끌	B-AF	B-EV	B-EV, O, B-OG, I-EV, B-AF
-31	##벅	I-AF	I-EV	I-EV, O, I-AF, I-OG, I-TM
-32	##적	I-AF	I-EV	I-EV, O, I-AF, I-OG, I-TM
-33	악기	I-AF	I-EV	I-EV, O, I-AF, B-EV, I-OG
-34	##궁	I-AF	I-EV	I-EV, O, I-AF, I-OG, I-TM
-35	##전	I-AF	I-EV	I-EV, O, I-AF, I-OG, I-TM
-36	’	O	O	O, I-EV, I-AF, I-OG, B-CV
-37	은	O	O	O, I-EV, B-OG, B-LC, B-CV
-38	세계	O	O	O, B-LC, B-CV, B-PS, B-OG
-39	##에서	O	O	O, B-LC, B-PS, B-CV, I-LC
-40	온	O	O	O, B-PS, B-LC, B-CV, B-AF
-41	악기	O	O	O, B-AF, B-CV, I-AF, B-PS
-42	2000	B-QT	B-QT	B-QT, O, I-QT, B-TM, B-DT
-43	##여	I-QT	I-QT	I-QT, O, I-LC, I-TM, I-AF
-44	개	I-QT	I-QT	I-QT, O, I-LC, I-TM, I-AF
-45	##를	O	O	O, I-QT, B-CV, I-EV, I-AF
-46	만나	O	O	O, B-EV, B-CV, B-LC, B-QT
-47	##는	O	O	O, B-EV, I-EV, B-CV, B-PS
-48	악기	O	O	O, B-EV, B-CV, I-EV, B-AF
-49	체험	O	O	O, I-EV, B-EV, B-CV, I-CV
-50	##전	O	O	O, I-EV, B-EV, I-CV, I-QT
-51	.	O	O	O, I-EV, I-OG, B-LC, B-CV
-52	[SEP]	O	O	O, B-LC, I-EV, B-CV, B-EV
+	text	label	preds
+0	[CLS]	O	O
+1	오	O	B-CV
+2	.	O	I-CV
+3	블루	B-TM	I-CV
+4	.	O	O
+5	[SEP]	O	O

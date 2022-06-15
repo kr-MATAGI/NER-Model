@@ -1,24 +1,21 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	또	O	O	O, B-CV, B-TM, B-OG, B-QT
-2	선대	O	B-PS	B-PS, O, B-OG, B-LC, I-PS
-3	##인	O	I-PS	I-PS, O, I-OG, I-LC, B-PS
-4	국민	O	B-CV	B-CV, O, B-OG, I-CV, B-FD
-5	##정책	O	I-CV	I-CV, O, I-OG, I-FD, B-CV
-6	참여	O	I-CV	I-CV, B-CV, O, I-OG, I-AF
-7	##단	O	I-CV	I-CV, B-CV, O, I-OG, I-QT
-8	##장	O	I-CV	I-CV, O, B-CV, I-OG, I-QT
-9	##도	O	O	O, I-CV, I-OG, I-QT, B-CV
-10	트위터	B-TM	B-TM	B-TM, O, B-AF, B-LC, B-OG
-11	##를	O	O	O, I-TM, I-AF, I-OG, I-CV
-12	통해	O	O	O, B-LC, B-PS, B-CV, B-TM
-13	우	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-14	교수	B-CV	B-CV	B-CV, O, I-CV, I-PS, B-OG
-15	##의	O	O	O, I-CV, B-CV, I-EV, I-AF
-16	주장	O	O	O, B-CV, I-CV, B-TM, B-OG
-17	##을	O	O	O, B-CV, B-OG, B-PS, B-LC
-18	비판	O	O	O, B-CV, B-TM, B-LC, I-CV
-19	##했	O	O	O, B-CV, B-LC, B-OG, B-PS
-20	##다	O	O	O, B-CV, B-LC, B-OG, B-TM
-21	.	O	O	O, B-LC, B-PS, B-CV, B-OG
-22	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	중수	B-OG	B-CV
+2	##부	B-CV	I-CV
+3	##장	I-CV	I-CV
+4	시절	O	O
+5	외환은행	B-OG	B-OG
+6	헐값	O	O
+7	매각	O	O
+8	사건	O	O
+9	,	O	O
+10	현대차	B-OG	B-OG
+11	비자	O	I-EV
+12	##금	O	I-EV
+13	사건	O	I-EV
+14	##을	O	O
+15	지휘	O	O
+16	##했	O	O
+17	##다	O	O
+18	.	O	O
+19	[SEP]	O	O

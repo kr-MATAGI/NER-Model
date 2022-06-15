@@ -1,29 +1,32 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	그리고	O	O	O, B-CV, B-OG, B-PS, B-LC
-2	25	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-3	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
-4	동안	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
-5	운영	O	O	O, I-DT, B-CV, B-TM, B-OG
-6	##했	O	O	O, B-CV, B-OG, B-LC, B-PS
-7	##던	O	O	O, B-CV, B-TM, B-LC, B-PS
-8	장학사	B-TM	O	O, B-CV, B-TM, I-TM, B-TR
-9	##업	I-TM	O	O, I-TM, I-CV, I-TR, I-OG
-10	##을	O	O	O, I-CV, I-TM, B-CV, B-PS
-11	계속	O	O	O, B-CV, B-TM, B-LC, B-OG
-12	이어	O	O	O, B-CV, B-LC, B-OG, B-TM
-13	##가	O	O	O, B-CV, B-LC, B-PS, B-OG
-14	##길	O	O	O, B-CV, B-PS, B-TM, B-LC
-15	바란다	O	O	O, B-CV, B-OG, B-PS, B-LC
-16	##는	O	O	O, B-CV, I-OG, B-PS, I-CV
-17	내용	O	O	O, B-CV, B-PS, B-OG, B-TM
-18	##이	O	O	O, B-PS, B-CV, B-OG, I-OG
-19	있	O	O	O, B-CV, B-OG, B-PS, I-OG
-20	##다	O	O	O, B-CV, I-OG, I-CV, B-OG
-21	”	O	O	O, B-CV, B-OG, B-TM, I-OG
-22	고	O	O	O, B-CV, B-TM, I-CV, B-PS
-23	말	O	O	O, B-CV, B-TM, I-CV, B-OG
-24	##했	O	O	O, B-CV, B-PS, I-CV, B-OG
-25	##다	O	O	O, B-CV, I-OG, B-LC, B-TM
-26	.	O	O	O, B-CV, B-PS, B-LC, B-OG
-27	[SEP]	O	O	O, B-CV, B-PS, B-LC, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	특히	O	O
+2	박	B-PS	B-PS
+3	대통령	B-CV	B-CV
+4	##이	O	O
+5	향	B-TM	O
+6	##정신	I-TM	O
+7	##성	I-TM	O
+8	##의	I-TM	O
+9	##약	I-TM	O
+10	##품	I-TM	O
+11	처방	O	O
+12	##까	O	O
+13	##지	O	O
+14	받	O	O
+15	##은	O	O
+16	것	O	O
+17	아니	O	O
+18	##냐	O	O
+19	##는	O	O
+20	루머	O	O
+21	##가	O	O
+22	돌	O	O
+23	##면	O	O
+24	##서	O	O
+25	논란	O	O
+26	##이	O	O
+27	커졌	O	O
+28	##다	O	O
+29	.	O	O
+30	[SEP]	O	O

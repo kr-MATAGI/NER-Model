@@ -1,12 +1,45 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-AF
-1	도가니	B-CV	B-TM	B-TM, O, B-TR, B-AM, B-AF
-2	##뼈	B-TM	I-TM	I-TM, B-TM, O, I-TR, I-AM
-3	##가	O	O	O, I-TM, I-AF, I-TR, I-CV
-4	많이	O	O	O, B-CV, B-OG, B-LC, B-TM
-5	들어가	O	O	O, B-CV, B-OG, B-TM, B-LC
-6	##는	O	O	O, B-CV, B-OG, I-AF, B-LC
-7	거	O	O	O, B-CV, B-OG, I-AF, B-PS
-8	##보	O	O	O, B-CV, I-AF, I-OG, B-OG
-9	##다	O	O	O, B-CV, B-OG, I-AF, B-TM
-10	[SEP]	O	O	O, B-CV, B-OG, B-LC, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	이	O	O
+2	##는	O	O
+3	약	B-QT	B-QT
+4	5	I-QT	I-QT
+5	~	I-QT	I-QT
+6	6	I-QT	I-QT
+7	##m	I-QT	I-QT
+8	떨어진	O	O
+9	거리	O	O
+10	##로	O	O
+11	,	O	O
+12	반경	O	O
+13	2	B-QT	B-QT
+14	##m	I-QT	I-QT
+15	이내	I-QT	I-QT
+16	##에	O	O
+17	있	O	O
+18	##어	O	O
+19	감염	B-TM	O
+20	가능	O	O
+21	##성이	O	O
+22	높	O	O
+23	##은	O	O
+24	‘	O	O
+25	긴밀	O	O
+26	##한	O	O
+27	접촉	B-CV	O
+28	##자	I-CV	O
+29	’	O	O
+30	가	O	O
+31	아닌데	O	O
+32	##도	O	O
+33	추정	B-CV	B-CV
+34	##환	I-CV	I-CV
+35	##자	I-CV	I-CV
+36	진단	O	O
+37	##을	O	O
+38	받	O	O
+39	##은	O	O
+40	셈	O	O
+41	##이다	O	O
+42	.	O	O
+43	[SEP]	O	O

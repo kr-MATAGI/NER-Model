@@ -1,19 +1,28 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	아니	O	O	O, B-CV, B-PS, B-LC, B-OG
-2	의원	B-CV	B-CV	B-CV, O, B-PS, B-OG, B-AF
-3	##님	O	O	O, I-CV, B-PS, I-AF, I-OG
-4	도시	B-CV	O	O, B-CV, I-CV, B-PS, B-OG
-5	##건	I-CV	O	O, I-CV, B-CV, I-OG, I-QT
-6	##축	I-CV	O	O, I-CV, B-CV, I-OG, I-QT
-7	##가	I-CV	O	O, I-CV, B-CV, I-QT, I-OG
-8	##시	O	O	O, I-CV, B-PS, I-PS, I-OG
-9	##지만	O	O	O, I-CV, B-PS, I-PS, I-QT
-10	전	O	O	O, B-PS, B-CV, B-LC, B-QT
-11	국회의원	B-CV	B-CV	B-CV, O, B-OG, I-CV, B-PS
-12	##이	O	O	O, I-CV, B-PS, B-CV, I-AF
-13	##었	O	O	O, B-CV, B-OG, B-PS, I-CV
-14	##기	O	O	O, B-PS, B-OG, B-CV, B-LC
-15	때문	O	O	O, B-CV, B-PS, I-OG, I-AF
-16	##에	O	O	O, B-CV, I-OG, I-AF, B-OG
-17	[SEP]	O	O	O, B-CV, B-PS, B-LC, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	여기	O	O
+2	##에	O	O
+3	##는	O	O
+4	국악	B-FD	B-FD
+5	연주자	B-CV	B-CV
+6	,	O	O
+7	우리	O	B-CV
+8	##춤	B-CV	I-CV
+9	##꾼	I-CV	I-CV
+10	,	O	O
+11	한복	B-CV	B-CV
+12	##명	I-CV	B-CV
+13	##장	I-CV	I-CV
+14	,	O	O
+15	우리	O	O
+16	##문화	O	O
+17	애호가	B-CV	B-CV
+18	등	O	O
+19	다양	O	O
+20	##한	O	O
+21	사람	O	O
+22	##들이	O	O
+23	모였	O	O
+24	##다	O	O
+25	.	O	O
+26	[SEP]	O	O

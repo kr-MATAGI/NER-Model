@@ -1,41 +1,23 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-EV, I-CV
-1	이란	B-LC	B-LC	B-LC, B-OG, O, B-PS, B-AF
-2	정치	O	O	O, I-LC, I-OG, B-CV, B-FD
-3	##권	O	O	O, I-OG, I-LC, B-PS, I-PS
-4	##에	O	O	O, B-PS, B-CV, I-OG, B-LC
-5	##는	O	O	O, B-PS, B-LC, B-OG, B-CV
-6	강경파	O	O	O, B-OG, B-CV, B-TR, B-PS
-7	마	B-PS	B-PS	B-PS, O, I-PS, B-OG, B-LC
-8	##무	I-PS	I-PS	I-PS, O, I-OG, B-PS, I-LC
-9	##드	I-PS	I-PS	I-PS, O, B-PS, I-LC, I-OG
-10	아마	I-PS	I-PS	I-PS, B-PS, O, B-LC, I-LC
-11	##디	I-PS	I-PS	I-PS, O, I-LC, B-PS, B-LC
-12	##네	I-PS	I-PS	I-PS, O, B-PS, I-LC, B-LC
-13	##자	I-PS	I-PS	I-PS, O, B-PS, I-LC, B-LC
-14	##드	I-PS	I-PS	I-PS, O, I-LC, B-PS, B-LC
-15	전	O	O	O, I-PS, B-CV, B-LC, I-OG
-16	대통령	B-CV	B-CV	B-CV, O, B-AF, B-TM, B-OG
-17	##이	O	O	O, I-CV, B-PS, I-EV, I-PS
-18	있	O	O	O, B-PS, B-LC, B-QT, B-OG
-19	##는	O	O	O, B-PS, B-LC, B-OG, I-PS
-20	##가	O	O	O, B-PS, B-LC, B-QT, I-PS
-21	하	O	O	O, B-PS, B-LC, B-QT, B-OG
-22	##면	O	O	O, B-PS, I-QT, I-PS, B-LC
-23	이번	O	O	O, B-CV, B-LC, B-OG, B-QT
-24	협상	O	O	O, B-CV, B-PS, B-LC, B-EV
-25	##을	O	O	O, B-CV, B-PS, B-OG, I-EV
-26	성사	O	O	O, B-CV, B-OG, B-TM, B-LC
-27	##시	O	O	O, B-CV, B-PS, B-LC, B-OG
-28	##킨	O	O	O, B-PS, B-LC, B-OG, B-CV
-29	온건	O	B-OG	B-OG, O, B-CV, B-TR, B-PS
-30	##파	O	I-OG	I-OG, O, I-TR, I-CV, I-PS
-31	하산	B-PS	B-PS	B-PS, O, I-PS, B-OG, B-LC
-32	로	I-PS	I-PS	I-PS, B-PS, O, I-OG, I-LC
-33	##하니	I-PS	I-PS	I-PS, O, I-OG, I-LC, B-PS
-34	대통령	B-CV	B-CV	B-CV, O, I-PS, I-CV, B-OG
-35	##도	O	O	O, I-CV, I-PS, I-EV, I-QT
-36	있	O	O	O, B-PS, B-LC, B-QT, B-CV
-37	##다	O	O	O, B-CV, I-QT, I-OG, I-EV
-38	.	O	O	O, B-PS, B-LC, B-OG, B-CV
-39	[SEP]	O	O	O, B-PS, B-LC, B-CV, I-EV
+	text	label	preds
+0	[CLS]	O	O
+1	""""	O	O
+2	'	O	O
+3	헤드	O	B-AM
+4	(	O	O
+5	he	O	O
+6	##ad	O	O
+7	)	O	O
+8	'	O	O
+9	라고	O	O
+10	부르	O	O
+11	##는	O	O
+12	맥주	B-CV	B-CV
+13	위	O	B-TM
+14	##에	O	O
+15	얹	O	O
+16	##어지	O	O
+17	##는	O	O
+18	거품	O	O
+19	##이다	O	O
+20	.	O	O
+21	[SEP]	O	O

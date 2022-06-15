@@ -1,29 +1,35 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	그	O	O	O, B-CV, B-OG, B-PS, B-LC
-2	##는	O	O	O, B-CV, B-PS, B-LC, B-OG
-3	보수	B-TR	O	O, B-TR, I-TR, B-PS, B-OG
-4	야당	O	O	O, B-OG, I-OG, B-CV, I-TR
-5	##인	O	O	O, I-OG, B-PS, I-CV, B-CV
-6	신민	B-OG	B-OG	B-OG, O, I-OG, B-CV, B-PS
-7	##주	I-OG	I-OG	I-OG, O, B-OG, I-CV, I-AF
-8	##당	I-OG	I-OG	I-OG, O, I-CV, I-AF, I-LC
-9	##의	O	O	O, I-OG, B-PS, B-CV, I-EV
-10	5	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-11	##년	I-DT	I-DT	I-DT, O, I-QT, B-DT, I-PS
-12	반	I-DT	I-DT	I-DT, O, I-QT, I-TI, I-EV
-13	통치	O	O	O, B-TR, B-CV, I-DT, I-TR
-14	##가	O	O	O, B-PS, B-LC, I-EV, B-CV
-15	나라	O	O	O, B-LC, B-CV, B-PS, B-OG
-16	살림	O	O	O, B-CV, B-LC, B-PS, I-CV
-17	##을	O	O	O, B-CV, B-PS, B-LC, B-OG
-18	망	O	O	O, B-CV, B-LC, B-PS, B-TM
-19	##쳤	O	O	O, B-CV, B-PS, B-LC, I-CV
-20	##다	O	O	O, B-CV, B-PS, B-LC, I-CV
-21	##며	O	O	O, B-CV, B-LC, B-PS, B-OG
-22	책임	O	O	O, B-CV, B-LC, B-PS, B-OG
-23	##을	O	O	O, B-CV, B-PS, B-OG, B-LC
-24	돌렸	O	O	O, B-CV, B-LC, B-PS, B-OG
-25	##다	O	O	O, B-CV, I-CV, B-PS, I-EV
-26	.	O	O	O, B-CV, B-LC, B-PS, B-OG
-27	[SEP]	O	O	O, B-CV, B-LC, I-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	자칫	O	O
+2	첨예	O	O
+3	##한	O	O
+4	노선	O	O
+5	갈등	O	O
+6	##으로	O	O
+7	번지	O	O
+8	##거나	O	O
+9	,	O	O
+10	어렵	O	O
+11	##게	O	O
+12	추	O	O
+13	##슬러	O	O
+14	##온	O	O
+15	시민	O	O
+16	##사회	O	O
+17	·	O	O
+18	진보	B-TR	O
+19	##정	O	O
+20	##당	O	O
+21	##과	O	O
+22	##의	O	O
+23	연대	O	O
+24	틀	O	O
+25	##에	O	O
+26	균열	O	O
+27	##이	O	O
+28	생길	O	O
+29	수	O	O
+30	있	O	O
+31	##다	O	O
+32	.	O	O
+33	[SEP]	O	O

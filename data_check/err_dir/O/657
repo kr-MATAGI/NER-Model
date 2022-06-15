@@ -1,27 +1,9 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	이	O	O	O, B-CV, B-PS, B-TM, B-OG
-2	책	O	O	O, B-CV, B-AF, B-TM, B-PS
-3	##은	O	O	O, B-CV, I-AF, B-OG, B-LC
-4	러시아	B-LC	B-LC	B-LC, O, B-OG, B-AF, B-PS
-5	모스크바	B-LC	B-LC	B-LC, I-LC, O, B-OG, B-AF
-6	##에서	O	O	O, I-LC, I-AF, B-CV, I-OG
-7	일	O	O	O, B-CV, B-PS, B-LC, B-QT
-8	##하	O	O	O, B-PS, B-CV, B-LC, I-AF
-9	##는	O	O	O, B-CV, B-PS, B-LC, I-AF
-10	한국인	B-CV	B-CV	B-CV, O, B-TM, B-LC, I-CV
-11	항공기	B-AF	B-AF	B-AF, B-CV, O, I-CV, B-PS
-12	설계	O	B-CV	B-CV, I-CV, O, I-AF, I-TM
-13	##가	O	I-CV	I-CV, O, B-CV, I-AF, I-OG
-14	##가	O	O	O, I-CV, I-AF, I-OG, B-PS
-15	기록	O	O	O, B-CV, B-OG, B-LC, B-PS
-16	##한	O	O	O, B-PS, B-LC, B-CV, B-OG
-17	‘	O	O	O, B-CV, B-OG, B-LC, B-TM
-18	비	B-AF	B-AF	B-AF, O, I-AF, B-TM, B-CV
-19	##거	I-AF	I-AF	I-AF, O, B-AF, I-TM, I-CV
-20	제작	O	O	O, I-AF, B-AF, I-CV, I-LC
-21	##기	O	O	O, I-AF, I-LC, I-OG, I-CV
-22	’	O	O	O, I-AF, B-CV, I-OG, I-CV
-23	다	O	O	O, B-CV, B-OG, B-LC, I-AF
-24	.	O	O	O, B-LC, B-PS, B-CV, B-AF
-25	[SEP]	O	O	O, B-CV, B-LC, I-AF, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	네모	O	B-TM
+2	##낳	O	O
+3	##게	O	O
+4	잘라	O	O
+5	##가지	O	O
+6	##고	O	O
+7	[SEP]	O	O

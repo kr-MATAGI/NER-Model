@@ -1,33 +1,62 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	모	O	O	O, B-PS, B-LC, B-CV, B-OG
-2	상병	B-CV	B-CV	B-CV, O, I-CV, I-PS, B-OG
-3	##은	O	O	O, I-CV, B-PS, B-CV, I-EV
-4	그	O	O	O, B-CV, B-PS, B-LC, B-OG
-5	##의	O	O	O, B-PS, B-CV, B-LC, I-AF
-6	목	B-AM	B-AM	B-AM, O, I-AM, B-TR, B-TM
-7	##과	O	O	O, B-PS, I-CV, I-AF, B-CV
-8	얼굴	B-AM	B-AM	B-AM, O, I-AM, B-TM, B-TR
-9	##에	O	O	O, B-CV, I-CV, B-PS, I-DT
-10	'	O	O	O, B-CV, B-LC, B-PS, B-OG
-11	안티	B-TM	B-MT	B-MT, B-TM, B-CV, O, B-AF
-12	##푸	I-TM	I-MT	I-MT, I-TM, I-CV, O, I-AF
-13	##라	I-TM	I-MT	I-MT, I-TM, I-CV, O, I-AF
-14	##민	I-TM	I-MT	I-MT, I-TM, O, I-CV, I-AF
-15	'	O	O	O, I-TM, I-CV, I-MT, I-AF
-16	을	O	O	O, B-CV, B-PS, B-LC, B-OG
-17	바르	O	O	O, B-CV, B-PS, B-LC, B-OG
-18	##고	O	O	O, B-PS, B-LC, I-CV, B-CV
-19	##는	O	O	O, B-LC, B-CV, B-PS, B-OG
-20	몇	O	O	O, B-TI, B-LC, B-PS, B-OG
-21	시간	O	O	O, B-TI, I-TI, B-LC, I-LC
-22	동안	O	O	O, I-TI, B-TI, B-LC, I-LC
-23	씻	O	O	O, B-LC, B-CV, I-TI, I-LC
-24	##지	O	O	O, B-LC, B-CV, B-PS, I-LC
-25	못하	O	O	O, B-LC, B-CV, B-PS, I-LC
-26	##게	O	O	O, B-LC, B-PS, B-CV, I-LC
-27	했	O	O	O, B-PS, B-LC, B-CV, B-OG
-28	##다고	O	O	O, B-CV, B-PS, B-LC, I-CV
-29	한다	O	O	O, B-CV, B-LC, B-PS, B-OG
-30	.	O	O	O, B-LC, B-CV, B-PS, I-LC
-31	[SEP]	O	O	O, B-CV, B-LC, B-PS, I-LC
+	text	label	preds
+0	[CLS]	O	O
+1	공격	O	O
+2	성공	O	O
+3	##률	O	O
+4	2	B-QT	B-QT
+5	##위	I-QT	I-QT
+6	(	O	O
+7	56	B-QT	B-QT
+8	.	I-QT	I-QT
+9	5	I-QT	I-QT
+10	%	I-QT	I-QT
+11	)	O	O
+12	를	O	O
+13	달리	O	O
+14	##고	O	O
+15	있	O	O
+16	##는	O	O
+17	레프	B-CV	B-CV
+18	##트	I-CV	I-CV
+19	송	B-PS	B-PS
+20	##명	I-PS	I-PS
+21	##근	I-PS	I-PS
+22	(	O	O
+23	21	B-QT	B-QT
+24	)	O	O
+25	이나	O	O
+26	세트	B-TM	O
+27	성공	O	O
+28	2	B-QT	B-QT
+29	##위	I-QT	I-QT
+30	(	O	O
+31	세트	B-TM	O
+32	##당	O	O
+33	12	B-QT	B-QT
+34	.	I-QT	I-QT
+35	1	I-QT	I-QT
+36	##개	I-QT	I-QT
+37	)	O	O
+38	세터	B-CV	B-CV
+39	이민	B-PS	B-PS
+40	##규	I-PS	I-PS
+41	(	O	O
+42	21	B-QT	B-QT
+43	)	O	O
+44	모두	O	O
+45	예년	B-DT	B-DT
+46	신인왕	B-CV	B-CV
+47	##에	O	O
+48	##게	O	O
+49	뒤지	O	O
+50	##지	O	O
+51	않	O	O
+52	##는	O	O
+53	성적	O	O
+54	##을	O	O
+55	거두	O	O
+56	##고	O	O
+57	있	O	O
+58	##다	O	O
+59	.	O	O
+60	[SEP]	O	O

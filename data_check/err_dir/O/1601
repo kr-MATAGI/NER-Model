@@ -1,32 +1,21 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	최	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-2	전	O	O	O, I-PS, I-OG, I-AF, B-CV
-3	부총리	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-OG
-4	##는	O	O	O, I-CV, B-CV, I-EV, I-QT
-5	박근혜	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-6	대통령	B-CV	B-CV	B-CV, O, I-PS, I-CV, B-OG
-7	##의	O	O	O, I-CV, B-CV, I-EV, I-OG
-8	최	O	B-CV	B-CV, O, B-PS, I-CV, B-TM
-9	##측	O	I-CV	I-CV, O, B-CV, I-TM, I-AM
-10	##근	O	I-CV	I-CV, O, B-CV, I-TM, I-OG
-11	##이	O	O	O, B-PS, I-CV, B-CV, I-PS
-12	##라는	O	O	O, B-PS, B-CV, B-LC, B-OG
-13	점	O	O	O, B-CV, B-TM, B-PS, B-OG
-14	##에서	O	O	O, B-PS, B-CV, I-CV, B-LC
-15	이	O	O	O, B-PS, B-CV, B-OG, B-LC
-16	역시	O	O	O, B-CV, B-PS, B-LC, B-OG
-17	박	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-18	대통령	B-CV	B-CV	B-CV, O, I-PS, I-CV, B-EV
-19	##에	O	O	O, I-CV, B-CV, I-EV, I-AF
-20	대한	O	O	O, B-LC, B-PS, B-CV, B-TM
-21	압박	O	O	O, B-CV, B-PS, B-LC, B-TM
-22	##용	O	O	O, B-PS, I-CV, I-PS, I-QT
-23	카드	O	O	O, B-CV, B-AF, B-PS, B-QT
-24	##라는	O	O	O, B-PS, I-CV, I-AF, I-QT
-25	분석	O	O	O, B-CV, B-QT, B-OG, B-PS
-26	##도	O	O	O, B-CV, I-CV, I-QT, B-PS
-27	있	O	O	O, B-CV, B-QT, B-TM, B-PS
-28	##다	O	O	O, B-CV, I-QT, I-CV, B-QT
-29	.	O	O	O, B-PS, B-CV, B-LC, B-OG
-30	[SEP]	O	O	O, B-PS, B-CV, B-LC, I-EV
+	text	label	preds
+0	[CLS]	O	O
+1	부천	B-LC	B-LC
+2	##에	O	O
+3	##서	O	O
+4	서울	B-LC	B-LC
+5	##로	O	O
+6	출근	O	O
+7	##할	O	O
+8	때	O	O
+9	##마	O	O
+10	##다	O	O
+11	고	B-AF	B-AF
+12	##척	I-AF	I-AF
+13	##돔	I-AF	I-AF
+14	야구장	O	I-AF
+15	##과	O	O
+16	마주	O	O
+17	##한다	O	O
+18	.	O	O
+19	[SEP]	O	O

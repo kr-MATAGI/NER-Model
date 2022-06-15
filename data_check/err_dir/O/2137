@@ -1,30 +1,19 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	지금	O	O	O, B-CV, B-OG, B-TM, B-QT
-2	##까	O	O	O, B-CV, B-PS, B-LC, B-OG
-3	##지	O	O	O, B-PS, B-LC, B-CV, B-OG
-4	##는	O	O	O, B-CV, B-LC, B-PS, B-TM
-5	월세	O	O	O, B-CV, B-LC, B-AF, B-TM
-6	세입자	O	B-CV	B-CV, O, I-CV, B-PS, B-AF
-7	##가	O	O	O, I-CV, B-CV, I-AF, B-PS
-8	확정	O	O	O, B-CV, B-DT, B-EV, B-TM
-9	##일	O	O	O, I-CV, B-CV, B-DT, I-DT
-10	##자	O	O	O, I-CV, I-DT, B-CV, I-TR
-11	##를	O	O	O, I-CV, B-CV, I-QT, B-PS
-12	받	O	O	O, B-CV, B-LC, B-PS, B-OG
-13	##지	O	O	O, B-LC, B-CV, B-OG, B-PS
-14	않	O	O	O, B-LC, B-CV, B-OG, B-TM
-15	##으면	O	O	O, B-LC, B-CV, B-TM, B-OG
-16	소득	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-PT
-17	##공	I-CV	I-CV	I-CV, O, B-CV, I-TM, I-TR
-18	##제	I-CV	I-CV	I-CV, O, B-CV, I-TM, I-OG
-19	혜택	O	O	O, I-CV, I-TM, I-QT, I-OG
-20	##을	O	O	O, B-CV, I-CV, B-TM, B-OG
-21	받	O	O	O, B-CV, B-TM, B-LC, B-OG
-22	##을	O	O	O, B-CV, B-TM, B-PS, B-LC
-23	수	O	O	O, B-CV, B-TM, B-PS, B-QT
-24	없	O	O	O, B-CV, B-TM, B-QT, I-QT
-25	##었	O	O	O, B-CV, B-TM, B-OG, B-QT
-26	##다	O	O	O, B-CV, B-TM, I-OG, B-QT
-27	.	O	O	O, B-LC, B-CV, I-OG, B-PS
-28	[SEP]	O	O	O, B-CV, I-OG, B-LC, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	아래	O	B-TM
+2	##가	O	O
+3	헐	O	O
+4	##고	O	O
+5	고	B-TM	B-AM
+6	##름	I-TM	I-AM
+7	##이	O	O
+8	차고	O	O
+9	피	B-TM	B-TM
+10	##가	O	O
+11	엉	O	O
+12	##겨	O	O
+13	##붙	O	O
+14	##었	O	O
+15	##다	O	O
+16	.	O	O
+17	[SEP]	O	O

@@ -1,99 +1,61 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-EV, I-CV
-1	이	O	O	O, B-PS, B-OG, B-CV, B-TM
-2	##들	O	O	O, I-OG, B-PS, I-QT, I-PS
-3	단체	O	O	O, I-OG, B-CV, B-OG, B-PS
-4	##는	O	O	O, I-OG, B-OG, B-CV, B-LC
-5	“	O	O	O, B-LC, B-CV, B-OG, B-PS
-6	최근	O	O	O, B-LC, B-TM, B-PS, B-AF
-7	금호	B-LC	B-LC	B-LC, O, B-AF, B-OG, I-LC
-8	##강	I-LC	I-LC	I-LC, O, I-AF, B-LC, I-PS
-9	하류	B-TM	O	O, B-TM, B-LC, I-LC, B-AF
-10	4	B-QT	B-QT	B-QT, O, I-QT, B-LC, B-TM
-11	##개	I-QT	I-QT	I-QT, O, I-LC, I-TM, I-EV
-12	지점	O	O	O, I-QT, B-LC, B-TM, I-LC
-13	##에서	O	O	O, B-LC, B-PS, B-CV, B-OG
-14	채취	O	O	O, B-LC, B-TM, B-PS, B-CV
-15	##한	O	O	O, B-LC, B-PS, B-OG, B-TM
-16	오염	O	O	O, B-LC, B-TM, B-CV, B-PS
-17	토양	O	O	O, B-LC, I-LC, B-PS, B-MT
-18	##을	O	O	O, B-LC, B-PS, B-OG, B-CV
-19	국가	O	O	O, B-OG, B-CV, B-LC, I-OG
-20	##공	O	O	O, I-OG, I-CV, B-OG, B-CV
-21	##인	O	O	O, I-OG, I-CV, B-OG, I-QT
-22	##기	O	O	O, I-OG, I-CV, B-OG, B-CV
-23	##관	O	O	O, I-OG, I-CV, B-OG, I-QT
-24	##에	O	O	O, I-OG, B-PS, B-LC, B-CV
-25	맡겨	O	O	O, B-LC, B-CV, B-TM, B-PS
-26	분석	O	O	O, B-LC, B-CV, B-TM, B-PS
-27	##했	O	O	O, B-LC, B-PS, B-OG, B-CV
-28	##더니	O	O	O, B-LC, B-PS, B-OG, B-CV
-29	독성	O	O	O, B-MT, B-LC, B-CV, B-TM
-30	##물	O	O	O, I-CV, I-LC, B-PS, B-LC
-31	##질	O	O	O, I-LC, B-MT, I-CV, B-LC
-32	중금속	B-MT	O	O, B-MT, B-LC, I-MT, B-TM
-33	##인	O	O	O, B-LC, B-CV, B-PS, B-MT
-34	비	B-MT	B-MT	B-MT, O, I-MT, B-CV, B-TM
-35	##소	I-MT	I-MT	I-MT, O, B-MT, I-PT, I-TM
-36	,	O	O	O, I-MT, B-LC, I-AF, B-CV
-37	수은	B-MT	B-MT	B-MT, O, I-MT, B-CV, B-LC
-38	,	O	O	O, I-MT, B-CV, I-CV, I-AF
-39	니켈	B-MT	B-MT	B-MT, O, I-MT, B-CV, B-LC
-40	등	O	O	O, B-LC, I-MT, B-CV, I-CV
-41	##이	O	O	O, B-LC, B-PS, B-OG, B-CV
-42	미국	B-LC	B-LC	B-LC, B-OG, O, B-PS, B-AF
-43	해양	B-OG	B-OG	B-OG, O, I-OG, B-LC, B-AF
-44	##대기	I-OG	I-OG	I-OG, O, I-LC, B-OG, I-AF
-45	##청	I-OG	I-OG	I-OG, O, I-LC, I-AF, B-OG
-46	##과	O	O	O, I-OG, B-LC, I-LC, B-PS
-47	한국	B-LC	B-LC	B-LC, B-OG, O, B-AF, I-LC
-48	##의	O	O	O, I-LC, B-LC, I-OG, I-AF
-49	토양	O	O	O, B-LC, B-CV, B-TM, B-PS
-50	오염	O	O	O, B-LC, B-CV, B-PS, I-LC
-51	기준	O	O	O, B-LC, B-PS, B-CV, B-OG
-52	##을	O	O	O, B-LC, B-CV, B-PS, B-OG
-53	초과	O	O	O, B-LC, B-CV, B-OG, B-TM
-54	##해	O	O	O, B-LC, B-PS, B-OG, B-TM
-55	검출	O	O	O, B-LC, B-CV, B-TM, B-OG
-56	##됐	O	O	O, B-LC, B-PS, B-OG, B-CV
-57	##다	O	O	O, B-OG, I-OG, B-LC, B-CV
-58	”	O	O	O, B-LC, B-CV, B-OG, B-PS
-59	며	O	O	O, B-LC, B-OG, B-CV, B-TM
-60	“	O	O	O, B-LC, B-CV, B-OG, B-PS
-61	대	O	O	O, B-LC, B-TM, B-CV, B-PS
-62	##규모	O	O	O, B-LC, B-CV, B-AF, B-PS
-63	준설	O	O	O, B-CV, B-AF, B-LC, B-TM
-64	##과	O	O	O, B-LC, B-PS, B-OG, I-AF
-65	대형	O	O	O, B-AF, B-TM, B-CV, B-LC
-66	##보	O	O	O, I-AF, B-AF, I-LC, I-TM
-67	,	O	O	O, I-AF, B-LC, B-CV, B-PS
-68	낙	O	O	O, B-AF, B-LC, B-TM, B-MT
-69	##차	O	O	O, I-AF, I-LC, I-AM, I-CV
-70	##공	O	O	O, I-AF, I-LC, I-TM, I-CV
-71	등	O	O	O, I-AF, B-LC, I-LC, B-TM
-72	공사	O	O	O, B-LC, B-CV, B-TM, B-AF
-73	##로	O	O	O, B-LC, B-PS, B-CV, B-OG
-74	인한	O	O	O, B-LC, B-TM, B-CV, B-PS
-75	수질	O	O	O, B-LC, B-TM, B-MT, B-CV
-76	##오	O	O	O, B-LC, B-PS, I-LC, B-CV
-77	##염	O	O	O, B-LC, I-LC, B-PS, I-TM
-78	##은	O	O	O, B-LC, B-PS, B-OG, B-CV
-79	부산	B-LC	B-LC	B-LC, O, B-OG, B-PS, B-AF
-80	·	O	O	O, I-LC, I-OG, I-AF, B-LC
-81	경남	B-LC	B-LC	B-LC, O, I-LC, B-OG, B-PS
-82	주민	B-CV	B-CV	B-CV, O, I-CV, B-TM, I-LC
-83	##들	O	O	O, I-CV, I-OG, I-AF, I-EV
-84	##에	O	O	O, B-CV, B-LC, B-PS, B-TM
-85	##게	O	O	O, B-LC, B-TM, B-PS, B-CV
-86	식수	O	O	O, B-LC, B-TM, B-PS, B-CV
-87	재앙	O	O	O, B-LC, B-PS, I-LC, B-TM
-88	##을	O	O	O, B-CV, B-PS, B-OG, B-LC
-89	가져올	O	O	O, B-LC, B-PS, B-TM, B-CV
-90	것	O	O	O, B-LC, B-PS, B-CV, B-TM
-91	”	O	O	O, B-CV, B-TM, B-LC, B-OG
-92	이라	O	O	O, B-CV, B-PS, B-OG, B-LC
-93	##고	O	O	O, B-CV, B-OG, I-OG, B-LC
-94	밝혔	O	O	O, B-OG, B-CV, B-LC, I-OG
-95	##다	O	O	O, B-CV, I-OG, B-TM, B-LC
-96	.	O	O	O, B-LC, B-PS, B-CV, B-OG
-97	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	대한	B-OG	B-OG
+2	##빙	I-OG	I-OG
+3	##상	I-OG	I-OG
+4	##경기	I-OG	I-OG
+5	##연맹	I-OG	I-OG
+6	관계자	B-CV	B-CV
+7	##는	O	O
+8	“	O	O
+9	메드	B-PS	B-PS
+10	##베	I-PS	I-PS
+11	##데	I-PS	I-PS
+12	##바	I-PS	I-PS
+13	##는	O	O
+14	점프	O	O
+15	##를	O	O
+16	한	O	O
+17	뒤	O	O
+18	공중	O	O
+19	##에	O	O
+20	##서	O	O
+21	##의	O	O
+22	회전	O	O
+23	##력	O	O
+24	##이	O	O
+25	탁월	O	O
+26	##하	O	O
+27	##다	O	O
+28	.	O	O
+29	이	O	O
+30	때문	O	O
+31	##에	O	O
+32	난도	O	O
+33	높	O	O
+34	##은	O	O
+35	트리플	B-TM	B-TM
+36	(	I-TM	I-TM
+37	3	I-TM	I-TM
+38	##회전	I-TM	I-QT
+39	)	I-TM	O
+40	점프	I-TM	I-TM
+41	##의	O	O
+42	성공	O	O
+43	##률	O	O
+44	##이	O	O
+45	높	O	O
+46	##아	O	O
+47	고	O	O
+48	##득점	O	O
+49	##에	O	O
+50	유리	O	O
+51	##하	O	O
+52	##다	O	O
+53	”	O	O
+54	고	O	O
+55	평가	O	O
+56	##했	O	O
+57	##다	O	O
+58	.	O	O
+59	[SEP]	O	O

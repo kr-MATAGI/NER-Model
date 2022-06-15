@@ -1,78 +1,35 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	또	O	O	O, B-OG, B-CV, B-LC, B-PS
-2	나토	B-OG	B-OG	B-OG, I-OG, O, B-LC, B-AF
-3	##는	O	O	O, I-OG, I-EV, I-AF, B-CV
-4	새로	O	O	O, B-PS, B-CV, B-LC, B-OG
-5	당선	O	O	O, B-PS, B-CV, B-OG, B-LC
-6	##된	O	O	O, B-PS, B-LC, B-OG, I-PS
-7	프랑수아	B-PS	B-PS	B-PS, O, I-PS, B-LC, B-OG
-8	올	I-PS	I-PS	I-PS, B-PS, O, B-LC, I-LC
-9	##랑드	I-PS	I-PS	I-PS, O, B-PS, I-LC, B-LC
-10	프랑스	B-LC	B-LC	B-LC, B-OG, I-PS, I-LC, O
-11	대통령	B-CV	B-CV	B-CV, O, B-OG, I-PS, B-AF
-12	##이	O	O	O, I-CV, B-PS, B-CV, I-PS
-13	공약	O	O	O, B-CV, B-PS, B-LC, B-TM
-14	##대로	O	O	O, B-PS, B-LC, I-PS, B-DT
-15	아프간	B-LC	B-LC	B-LC, B-OG, O, B-AF, B-PS
-16	주둔	O	O	O, I-OG, I-LC, I-AF, B-CV
-17	프랑스	B-OG	B-OG	B-OG, B-LC, O, B-CV, I-OG
-18	##군	I-OG	I-OG	I-OG, O, I-LC, I-CV, B-OG
-19	##을	O	O	O, I-OG, I-AF, I-CV, I-EV
-20	연내	O	B-DT	B-DT, O, B-TI, B-QT, B-LC
-21	철	O	O	O, B-CV, B-LC, I-DT, B-OG
-22	##군	O	O	O, I-CV, B-LC, B-PS, I-OG
-23	##하	O	O	O, B-PS, B-LC, B-OG, B-CV
-24	##겠다	O	O	O, B-CV, B-PS, B-LC, B-OG
-25	##는	O	O	O, B-PS, B-LC, B-CV, B-OG
-26	방침	O	O	O, B-CV, B-LC, B-PS, B-TM
-27	##을	O	O	O, B-PS, B-CV, B-LC, B-OG
-28	고수	O	O	O, B-CV, B-LC, B-PS, B-TM
-29	##함	O	O	O, B-PS, B-LC, B-CV, B-OG
-30	##에	O	O	O, B-PS, B-LC, B-CV, B-OG
-31	따라	O	O	O, B-LC, B-PS, B-OG, B-CV
-32	이를	O	O	O, B-LC, B-PS, B-CV, B-OG
-33	묵인	O	O	O, B-LC, B-CV, B-OG, B-PS
-34	##하	O	O	O, B-PS, B-LC, B-OG, B-DT
-35	##는	O	O	O, B-CV, B-PS, B-LC, B-OG
-36	대신	O	O	O, B-CV, B-LC, B-PS, B-QT
-37	,	O	O	O, B-LC, B-PS, B-CV, B-OG
-38	철	O	O	O, B-CV, B-OG, B-LC, B-PS
-39	##군	O	O	O, I-CV, I-OG, I-LC, I-PS
-40	이후	O	O	O, B-PS, B-LC, I-PS, I-DT
-41	아프간	B-LC	B-OG	B-OG, B-LC, O, B-AF, B-CV
-42	치안	O	I-OG	I-OG, B-OG, O, B-CV, I-LC
-43	##군	O	I-OG	I-OG, O, I-LC, I-CV, B-OG
-44	역량	O	O	O, I-OG, B-CV, B-LC, B-TM
-45	강화	O	O	O, B-CV, B-LC, B-PS, B-TM
-46	##를	O	O	O, B-CV, B-PS, B-LC, B-OG
-47	위한	O	O	O, B-LC, B-PS, B-CV, B-OG
-48	분담	O	O	O, B-CV, B-LC, B-TM, B-PS
-49	##비용	O	O	O, I-CV, B-CV, I-LC, B-LC
-50	##으로	O	O	O, B-LC, B-CV, B-PS, B-OG
-51	연간	B-DT	B-DT	B-DT, O, I-DT, B-TI, B-QT
-52	2	B-QT	B-QT	B-QT, I-QT, B-DT, I-DT, O
-53	##억	I-QT	I-QT	I-QT, I-DT, O, B-QT, I-LC
-54	##50	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-55	##00	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-56	##만	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-57	##달	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-58	##러	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-59	(	O	O	O, I-QT, B-CV, B-OG, I-CV
-60	약	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-LC
-61	2900	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-DT
-62	##억	I-QT	I-QT	I-QT, O, I-LC, I-PS, I-DT
-63	##원	I-QT	I-QT	I-QT, O, I-LC, I-PS, I-DT
-64	)	O	O	O, I-QT, B-CV, B-LC, B-OG
-65	를	O	O	O, B-CV, B-LC, B-OG, B-TM
-66	지원	O	O	O, B-CV, B-LC, B-OG, B-TM
-67	##하	O	O	O, B-PS, B-LC, B-CV, B-OG
-68	##도록	O	O	O, B-LC, B-CV, B-PS, B-OG
-69	요청	O	O	O, B-CV, B-LC, B-OG, B-PS
-70	##한	O	O	O, B-CV, B-PS, B-LC, B-OG
-71	것	O	O	O, B-CV, B-OG, B-LC, B-PS
-72	##으로	O	O	O, B-CV, B-LC, B-TM, I-OG
-73	알려졌	O	O	O, B-CV, B-LC, B-TM, B-OG
-74	##다	O	O	O, B-CV, B-LC, B-TM, B-OG
-75	.	O	O	O, B-LC, B-PS, B-CV, B-OG
-76	[SEP]	O	O	O, B-LC, B-CV, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	해군	B-OG	B-OG
+2	관계자	B-CV	B-CV
+3	##들	O	O
+4	##은	O	O
+5	""""	O	O
+6	합참	O	B-OG
+7	통제	O	O
+8	##선	O	O
+9	##의	O	O
+10	위치	O	O
+11	##를	O	O
+12	북한	B-LC	B-OG
+13	##이	O	O
+14	알	O	O
+15	##면	O	O
+16	NLL	O	O
+17	무력	O	O
+18	##화	O	O
+19	시위	O	O
+20	등	O	O
+21	##에	O	O
+22	이용	O	O
+23	##할	O	O
+24	수	O	O
+25	있	O	O
+26	##다	O	O
+27	""""	O	O
+28	고	O	O
+29	우려	O	O
+30	##했	O	O
+31	##다	O	O
+32	.	O	O
+33	[SEP]	O	O

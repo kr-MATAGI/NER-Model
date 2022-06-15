@@ -1,43 +1,56 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	모바일게임	B-TM	B-TM	B-TM, O, B-AF, I-TM, B-QT
-2	##으로	O	O	O, I-TM, B-PS, I-QT, B-CV
-3	##는	O	O	O, B-TM, B-LC, B-CV, B-OG
-4	‘	O	O	O, B-CV, B-LC, B-TM, B-AF
-5	H	B-AF	B-AF	B-AF, O, B-TM, B-OG, B-CV
-6	##IT	I-AF	I-AF	I-AF, O, I-TM, I-OG, I-CV
-7	’	O	O	O, I-AF, I-OG, I-TM, I-CV
-8	를	O	O	O, B-CV, B-LC, B-PS, B-OG
-9	개발	O	O	O, B-CV, B-LC, B-PS, B-OG
-10	##한	O	O	O, B-LC, B-PS, B-OG, B-CV
-11	넷	B-OG	B-OG	B-OG, O, B-CV, B-LC, B-PS
-12	##게임	I-OG	I-OG	I-OG, O, I-PS, I-CV, I-LC
-13	##즈	I-OG	I-OG	I-OG, O, I-CV, I-PS, I-LC
-14	##의	O	O	O, I-OG, B-PS, B-CV, I-QT
-15	차기	O	O	O, B-TM, B-CV, B-LC, B-PS
-16	##작	O	O	O, B-CV, I-CV, B-PS, I-TM
-17	##인	O	O	O, B-PS, B-LC, B-CV, B-TM
-18	모바일	B-TM	B-TM	B-TM, O, B-AF, B-LC, B-TR
-19	멀티	O	O	O, B-TM, I-TM, B-AF, I-AF
-20	히어로	O	I-TM	I-TM, O, I-AF, B-TM, I-OG
-21	RPG	B-TM	I-TM	I-TM, O, I-AF, B-TM, B-AF
-22	‘	O	O	O, I-TM, I-AF, I-OG, B-CV
-23	오버	B-AF	B-AF	B-AF, O, B-OG, I-AF, B-PS
-24	##히트	I-AF	I-AF	I-AF, O, I-TM, I-OG, B-AF
-25	’	O	O	O, I-AF, I-OG, I-TM, B-CV
-26	가	O	O	O, B-LC, B-PS, B-OG, B-TM
-27	최근	O	O	O, B-DT, B-LC, B-TM, B-OG
-28	티저	O	O	O, B-TM, B-LC, B-EV, B-AF
-29	페이지	O	O	O, I-TM, I-EV, I-LC, I-AF
-30	##를	O	O	O, B-CV, B-LC, B-OG, B-TM
-31	오픈	O	O	O, B-LC, B-CV, B-TM, B-OG
-32	##하고	O	O	O, B-DT, B-LC, B-TM, B-OG
-33	연내	O	O	O, B-DT, B-TI, B-LC, B-QT
-34	출시	O	O	O, I-DT, B-LC, B-CV, I-EV
-35	##를	O	O	O, B-CV, B-LC, B-OG, B-PS
-36	준비	O	O	O, B-LC, B-CV, B-TM, B-OG
-37	##하고	O	O	O, B-LC, B-CV, B-TM, B-PS
-38	있	O	O	O, B-CV, B-LC, B-TM, B-OG
-39	##다	O	O	O, B-CV, B-LC, B-TM, B-OG
-40	.	O	O	O, B-LC, B-CV, B-TM, B-OG
-41	[SEP]	O	O	O, B-LC, B-CV, B-TM, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	서	B-PS	B-PS
+2	의원	B-CV	B-CV
+3	##은	O	O
+4	기자	O	O
+5	##회	O	O
+6	##견	O	O
+7	##에	O	O
+8	##서	O	O
+9	“	O	O
+10	역사	O	O
+11	##에	O	O
+12	남	O	O
+13	##을	O	O
+14	성공	O	O
+15	##한	O	O
+16	대통령	B-CV	B-CV
+17	##을	O	O
+18	만들	O	O
+19	##고	O	O
+20	우리	O	O
+21	조국	O	O
+22	##이	O	O
+23	역사	O	O
+24	속	O	O
+25	##에	O	O
+26	##서	O	O
+27	한	O	B-QT
+28	단계	O	I-QT
+29	더	O	O
+30	올라서	O	O
+31	##는	O	O
+32	데	O	O
+33	기여	O	O
+34	##하	O	O
+35	##겠다	O	O
+36	”	O	O
+37	며	O	O
+38	“	O	O
+39	박근혜	B-PS	B-PS
+40	정부	B-OG	B-OG
+41	##와	O	O
+42	정치	O	O
+43	운명	O	O
+44	##을	O	O
+45	함께	O	O
+46	##할	O	O
+47	것	O	O
+48	”	O	O
+49	이라	O	O
+50	##고	O	O
+51	밝혔	O	O
+52	##다	O	O
+53	.	O	O
+54	[SEP]	O	O

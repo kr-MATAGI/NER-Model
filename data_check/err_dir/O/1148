@@ -1,18 +1,12 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-QT
-1	고양	B-LC	B-LC	B-LC, O, B-OG, B-AF, B-EV
-2	행주	B-AF	B-LC	B-LC, B-EV, B-AF, O, B-PS
-3	##산성	I-AF	I-LC	I-LC, I-EV, I-AF, O, I-PS
-4	달	O	O	O, I-EV, B-EV, B-LC, I-LC
-5	##맞이	O	I-EV	I-EV, O, I-LC, I-AF, I-OG
-6	##는	O	O	O, I-EV, I-AF, I-OG, I-LC
-7	행주	B-AF	B-AF	B-AF, O, B-PT, B-CV, B-LC
-8	##대	I-AF	I-AF	I-AF, O, I-EV, I-PT, I-LC
-9	##첩	I-AF	I-AF	I-AF, O, I-CV, I-EV, I-PT
-10	##비	I-AF	I-AF	I-AF, O, I-EV, I-LC, I-PT
-11	주변	O	O	O, I-AF, I-LC, I-EV, I-QT
-12	##이	O	O	O, B-PS, I-AF, B-OG, B-LC
-13	제격	O	O	O, B-CV, B-LC, B-QT, B-OG
-14	##이다	O	O	O, B-CV, I-CV, I-QT, I-OG
-15	.	O	O	O, B-LC, B-CV, B-OG, B-PS
-16	[SEP]	O	O	O, B-LC, B-CV, I-AF, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	""""	O	O
+2	하나	O	B-QT
+3	##도	O	O
+4	부끄럽	O	O
+5	##지	O	O
+6	않	O	O
+7	##습	O	O
+8	##니다	O	O
+9	.	O	O
+10	[SEP]	O	O

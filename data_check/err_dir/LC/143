@@ -1,55 +1,70 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	아르헨티나	B-OG	B-OG	B-OG, B-LC, B-EV, B-PS, I-OG
-2	축구	I-OG	I-OG	I-OG, B-OG, B-LC, I-LC, I-EV
-3	##협회	I-OG	I-OG	I-OG, O, I-LC, I-EV, B-OG
-4	(	O	O	O, I-OG, B-OG, I-EV, B-PS
-5	AF	B-OG	B-OG	B-OG, O, I-OG, B-LC, B-EV
-6	##A	I-OG	I-OG	I-OG, O, I-LC, I-EV, B-OG
-7	)	O	O	O, I-OG, I-EV, B-OG, I-CV
-8	의	O	O	O, B-OG, I-OG, B-PS, B-CV
-9	호세	B-PS	B-PS	B-PS, O, I-PS, B-OG, B-LC
-10	루이스	I-PS	I-PS	I-PS, O, I-OG, B-PS, I-LC
-11	마이	I-PS	I-PS	I-PS, B-PS, O, I-OG, B-LC
-12	##즈	I-PS	I-PS	I-PS, O, I-OG, I-LC, B-PS
-13	##너	I-PS	I-PS	I-PS, O, I-OG, I-LC, B-PS
-14	실무	O	B-CV	B-CV, O, B-FD, I-CV, B-TM
-15	부회장	B-CV	B-CV	B-CV, I-CV, O, I-QT, B-QT
-16	##은	O	O	O, I-CV, I-QT, B-CV, I-OG
-17	""""	O	O	O, B-CV, B-LC, B-OG, B-PS
-18	한국	B-LC	B-OG	B-OG, B-LC, O, B-PS, B-CV
-19	##은	O	O	O, I-OG, I-LC, B-OG, B-CV
-20	기술	O	O	O, B-CV, B-LC, B-TM, B-PS
-21	##이	O	O	O, B-PS, B-OG, B-CV, B-LC
-22	부족	O	O	O, B-CV, B-PS, B-LC, B-TM
-23	##하	O	O	O, B-PS, B-LC, B-OG, I-OG
-24	##지만	O	O	O, B-PS, I-OG, B-LC, B-OG
-25	어려움	O	O	O, B-CV, B-LC, B-PS, B-OG
-26	##에	O	O	O, B-CV, B-PS, B-OG, B-LC
-27	맞서	O	O	O, B-CV, B-PS, B-LC, B-OG
-28	싸우	O	O	O, B-CV, B-LC, B-OG, B-PS
-29	##는	O	O	O, B-PS, B-CV, B-OG, B-LC
-30	팀	O	O	O, B-CV, B-OG, B-PS, I-OG
-31	""""	O	O	O, B-CV, I-OG, I-CV, B-PS
-32	이라	O	O	O, B-CV, B-OG, B-PS, B-LC
-33	##며	O	O	O, B-CV, B-OG, B-LC, I-OG
-34	""""	O	O	O, B-LC, B-CV, B-OG, B-PS
-35	한국	B-LC	B-OG	B-OG, B-LC, O, B-PS, B-AF
-36	##은	O	O	O, I-OG, B-OG, I-LC, I-PS
-37	유럽	B-OG	B-OG	B-OG, B-LC, I-OG, O, B-PS
-38	##팀	I-OG	I-OG	I-OG, O, I-LC, I-CV, I-EV
-39	##이	O	O	O, I-OG, B-PS, I-AF, I-CV
-40	포기	O	O	O, B-CV, B-TM, I-OG, B-AF
-41	##하	O	O	O, B-CV, B-LC, B-AF, B-OG
-42	##는	O	O	O, B-CV, B-AF, B-LC, B-TM
-43	공	O	B-CV	B-CV, O, B-AF, B-PS, B-PT
-44	##도	O	O	O, I-CV, I-AF, I-EV, B-CV
-45	끝	O	O	O, B-CV, B-TM, B-QT, B-LC
-46	##까	O	O	O, B-LC, B-PS, B-OG, B-TM
-47	##지	O	O	O, B-LC, B-PS, B-OG, B-TM
-48	쫓아가	O	O	O, B-LC, B-TM, B-CV, B-OG
-49	##서	O	O	O, B-LC, B-PS, B-OG, B-CV
-50	살려	O	O	O, B-CV, B-LC, B-TM, B-QT
-51	##낸다	O	O	O, B-LC, B-OG, B-CV, B-PS
-52	.	O	O	O, B-LC, B-OG, B-PS, B-CV
-53	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	8	B-DT	B-DT
+2	##일	I-DT	I-DT
+3	서울	B-LC	B-LC
+4	강남구	B-LC	B-LC
+5	신사동	B-LC	B-LC
+6	##에	O	O
+7	있	O	O
+8	##는	O	O
+9	광고	O	O
+10	##회사	O	O
+11	T	O	B-OG
+12	##B	O	I-OG
+13	##W	O	I-OG
+14	##A	O	I-OG
+15	##코	B-LC	I-OG
+16	##리아	I-LC	I-OG
+17	사무실	O	O
+18	##에	O	O
+19	##서	O	O
+20	만난	O	O
+21	강철	B-PS	B-PS
+22	##중	I-PS	I-PS
+23	T	O	B-OG
+24	##B	O	I-OG
+25	##W	O	I-OG
+26	##A	O	I-OG
+27	##코	B-LC	I-OG
+28	##리아	I-LC	I-OG
+29	사장	B-CV	B-CV
+30	(	O	O
+31	52	B-QT	B-QT
+32	)	O	O
+33	은	O	O
+34	“	O	O
+35	T	O	B-OG
+36	##B	O	I-OG
+37	##W	O	I-OG
+38	##A	O	I-OG
+39	##를	O	O
+40	경쟁	O	O
+41	##과	O	O
+42	자율	O	O
+43	##이	O	O
+44	존중	O	O
+45	##받	O	O
+46	##는	O	O
+47	‘	O	O
+48	건강	O	O
+49	##한	O	O
+50	시장	B-TR	B-TR
+51	##주의	I-TR	I-TR
+52	’	O	O
+53	가	O	O
+54	통하	O	O
+55	##는	O	O
+56	회사	O	O
+57	##로	O	O
+58	만들	O	O
+59	##고	O	O
+60	싶	O	O
+61	##다	O	O
+62	”	O	O
+63	고	O	O
+64	말	O	O
+65	##했	O	O
+66	##다	O	O
+67	.	O	O
+68	[SEP]	O	O

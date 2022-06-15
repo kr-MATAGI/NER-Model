@@ -1,24 +1,26 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, B-CV, I-OG, I-EV
-1	“	O	O	O, B-CV, B-LC, B-OG, B-TM
-2	6	B-EV	B-EV	B-EV, B-AF, O, B-QT, B-LC
-3	·	I-EV	I-EV	I-EV, I-QT, I-AF, O, I-LC
-4	25	I-EV	I-EV	I-EV, I-QT, I-AF, O, I-LC
-5	##전쟁	I-EV	I-EV	I-EV, O, I-AF, I-QT, I-LC
-6	##의	O	O	O, I-EV, I-AF, I-QT, I-OG
-7	참상	O	O	O, B-CV, B-LC, B-TM, B-OG
-8	생생	O	O	O, B-CV, B-LC, B-OG, B-TM
-9	##히	O	O	O, B-LC, B-OG, B-PS, B-CV
-10	그려	O	O	O, B-LC, B-CV, B-OG, B-PS
-11	韓	B-LC	B-LC	B-LC, B-OG, O, B-CV, I-LC
-12	-	O	I-LC	I-LC, O, B-LC, I-OG, B-OG
-13	美	B-LC	I-LC	I-LC, B-LC, O, I-OG, B-OG
-14	에	O	O	O, I-LC, I-OG, B-LC, I-EV
-15	잊혀진	O	O	O, B-LC, B-CV, B-OG, B-TM
-16	전쟁	O	O	O, B-EV, B-LC, B-CV, B-FD
-17	환기	O	O	O, B-CV, I-EV, B-LC, B-TM
-18	##시	O	O	O, B-LC, B-PS, B-CV, B-OG
-19	##킬	O	O	O, B-LC, B-PS, B-CV, B-OG
-20	것	O	O	O, B-CV, B-LC, B-PS, B-OG
-21	”	O	O	O, B-CV, B-PS, I-CV, B-LC
-22	[SEP]	O	O	O, B-LC, B-CV, B-FD, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	어린이	O	B-OG
+2	##병원	O	I-OG
+3	##에	O	O
+4	##서	O	O
+5	한	B-DT	B-DT
+6	달	I-DT	I-DT
+7	##가	I-DT	I-DT
+8	##량	I-DT	I-DT
+9	입원	O	O
+10	##치료	O	O
+11	##를	O	O
+12	받	O	O
+13	##은	O	O
+14	뒤	O	O
+15	외할머니	B-CV	B-CV
+16	##의	O	O
+17	보살핌	O	O
+18	##을	O	O
+19	받	O	O
+20	##고	O	O
+21	있	O	O
+22	##다	O	O
+23	.	O	O
+24	[SEP]	O	O

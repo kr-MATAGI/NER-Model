@@ -1,7 +1,60 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, I-AF, B-CV
-1	병원	B-CV	O	O, B-CV, B-TM, B-QT, B-AM
-2	##비	I-CV	O	O, I-CV, I-TM, I-AF, I-TR
-3	내야	O	O	O, B-CV, B-TM, I-CV, B-QT
-4	돼	O	O	O, B-CV, I-AF, I-CV, B-TM
-5	[SEP]	O	O	O, B-CV, B-TM, I-AF, B-QT
+	text	label	preds
+0	[CLS]	O	O
+1	여당	O	O
+2	국회의원	B-CV	B-CV
+3	##이	O	O
+4	##자	O	O
+5	의회	O	B-CV
+6	외교	B-CV	I-CV
+7	##위원	I-CV	I-CV
+8	##장	I-CV	I-CV
+9	##인	O	O
+10	무스	B-PS	B-PS
+11	##타	I-PS	I-PS
+12	##파	I-PS	I-PS
+13	알	I-PS	I-PS
+14	##페	I-PS	I-PS
+15	##키	I-PS	I-PS
+16	##는	O	O
+17	아랍	O	B-LC
+18	##위성	O	B-TM
+19	##방송	O	I-TM
+20	알자	B-OG	B-OG
+21	##지	I-OG	I-OG
+22	##라	I-OG	I-OG
+23	##에	O	O
+24	출연	O	O
+25	,	O	O
+26	""""	O	O
+27	세계	O	O
+28	어느	O	O
+29	곳	O	O
+30	##에	O	O
+31	##서도	O	O
+32	보안	O	O
+33	세력	O	O
+34	##으로	O	O
+35	혁명	O	O
+36	##을	O	O
+37	막	O	O
+38	##을	O	O
+39	수	O	O
+40	없	O	O
+41	##다	O	O
+42	.	O	O
+43	전례	O	O
+44	없	O	O
+45	##는	O	O
+46	개혁	O	O
+47	##이	O	O
+48	필요	O	O
+49	##한	O	O
+50	상황	O	O
+51	""""	O	O
+52	이라	O	O
+53	##고	O	O
+54	말	O	O
+55	##했	O	O
+56	##다	O	O
+57	.	O	O
+58	[SEP]	O	O

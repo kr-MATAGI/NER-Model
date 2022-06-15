@@ -1,35 +1,55 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-EV, I-OG
-1	2	B-QT	B-QT	B-QT, I-QT, B-EV, B-TM, O
-2	―	I-QT	I-QT	I-QT, I-EV, O, I-TM, B-QT
-3	0	I-QT	I-QT	I-QT, O, I-EV, I-LC, I-TM
-4	##으로	O	O	O, I-QT, I-EV, B-CV, B-OG
-5	앞선	O	O	O, B-EV, B-OG, B-CV, B-LC
-6	7	B-EV	B-EV	B-EV, I-EV, B-QT, O, B-AF
-7	##회	I-EV	I-EV	I-EV, I-QT, O, I-AF, I-OG
-8	##에	O	O	O, I-EV, I-QT, I-AF, I-OG
-9	##는	O	O	O, B-CV, I-EV, B-LC, B-PS
-10	다시	O	O	O, B-CV, B-PS, B-LC, B-OG
-11	탈	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-12	##보트	I-PS	I-PS	I-PS, O, B-PS, I-OG, I-LC
-13	##를	O	O	O, I-PS, B-CV, I-OG, I-AF
-14	상대	O	O	O, B-CV, B-TM, B-EV, B-LC
-15	##로	O	O	O, B-PS, I-EV, B-LC, I-DT
-16	오른쪽	B-TM	B-TM	B-TM, O, B-LC, B-OG, B-CV
-17	장외	O	O	O, B-TM, I-TM, B-QT, B-LC
-18	##로	O	O	O, I-TM, I-QT, B-TM, B-QT
-19	향하	O	O	O, B-TM, B-QT, B-LC, B-AF
-20	##는	O	O	O, B-TM, B-LC, B-QT, I-TM
-21	비거리	O	B-TM	B-TM, O, B-QT, I-TM, B-AF
-22	130	B-QT	B-QT	B-QT, I-QT, I-TM, O, B-TM
-23	##m	I-QT	I-QT	I-QT, I-TM, O, I-LC, B-QT
-24	##의	O	O	O, I-QT, I-AF, I-EV, I-TM
-25	시즌	O	O	O, B-DT, B-QT, B-OG, B-EV
-26	17	B-QT	B-QT	B-QT, I-QT, O, B-EV, B-TM
-27	##호	I-QT	I-QT	I-QT, O, I-EV, I-TM, I-AF
-28	홈런	B-TM	B-TM	B-TM, O, I-TM, I-QT, B-CV
-29	##을	O	O	O, I-TM, I-QT, I-AF, I-CV
-30	때렸	O	O	O, B-CV, B-OG, B-LC, B-TM
-31	##다	O	O	O, B-CV, B-TM, B-LC, B-QT
-32	.	O	O	O, B-CV, B-PS, B-LC, B-TM
-33	[SEP]	O	O	O, B-CV, B-TM, B-LC, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	이명박	B-PS	B-PS
+2	정부	B-OG	B-OG
+3	때	O	O
+4	영향력	O	O
+5	##이	O	O
+6	커	O	O
+7	‘	O	O
+8	왕	O	B-PS
+9	##차	O	B-CV
+10	##관	O	I-CV
+11	’	O	O
+12	으로	O	O
+13	불렸	O	O
+14	##던	O	O
+15	박영	B-PS	B-PS
+16	##준	I-PS	I-PS
+17	(	O	O
+18	53	B-QT	B-QT
+19	)	O	O
+20	전	O	O
+21	지식	B-OG	B-OG
+22	##경제	I-OG	I-OG
+23	##부	I-OG	I-OG
+24	차관	B-CV	B-CV
+25	##이	O	O
+26	지난	O	O
+27	정권	O	O
+28	때	O	O
+29	자원	O	O
+30	##외	O	O
+31	##교	O	O
+32	##의	O	O
+33	성과	O	O
+34	##로	O	O
+35	꼽혔	O	O
+36	##던	O	O
+37	아랍에미리트	B-LC	B-LC
+38	원전	O	O
+39	공사	O	O
+40	##와	O	O
+41	관련	O	O
+42	##해	O	O
+43	금품	O	O
+44	##을	O	O
+45	받	O	O
+46	##은	O	O
+47	혐의	O	O
+48	##로	O	O
+49	기소	O	O
+50	##됐	O	O
+51	##다	O	O
+52	.	O	O
+53	[SEP]	O	O

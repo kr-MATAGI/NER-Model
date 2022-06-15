@@ -1,26 +1,53 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-AF
-1	인터넷	O	O	O, B-TM, B-CV, B-LC, B-QT
-2	소셜	O	O	O, B-TM, I-TM, B-CV, B-QT
-3	##커	O	O	O, I-TM, B-TM, I-CV, I-OG
-4	##머스	O	O	O, I-TM, I-CV, I-OG, I-LC
-5	1	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-CV
-6	##위	I-QT	I-QT	I-QT, O, I-LC, I-TM, I-OG
-7	업체	O	O	O, B-CV, I-QT, B-OG, B-LC
-8	쿠팡	O	B-OG	B-OG, B-TM, O, B-AF, B-LC
-9	(	O	O	O, I-OG, I-AF, I-CV, B-CV
-10	Co	O	O	O, B-LC, B-PS, B-OG, B-AF
-11	##up	O	O	O, I-LC, B-LC, I-PS, I-OG
-12	##ang	O	O	O, I-LC, B-LC, I-PS, I-AF
-13	)	O	O	O, I-LC, B-LC, I-AF, I-OG
-14	본사	O	O	O, B-CV, B-LC, B-AF, B-OG
-15	주소지	O	O	O, B-LC, B-CV, I-CV, B-AF
-16	##는	O	O	O, B-LC, I-AF, B-CV, I-CV
-17	미국	B-LC	B-LC	B-LC, O, B-OG, I-LC, B-PS
-18	델	O	B-LC	B-LC, O, I-LC, B-PS, B-OG
-19	##라	O	I-LC	I-LC, O, B-LC, I-PS, I-OG
-20	##웨어	O	I-LC	I-LC, O, B-LC, I-PS, I-OG
-21	##주	O	I-LC	I-LC, O, B-LC, I-PS, I-AF
-22	##다	O	O	O, I-LC, B-LC, I-AF, I-OG
-23	.	O	O	O, B-LC, I-LC, B-OG, B-AF
-24	[SEP]	O	O	O, B-LC, I-LC, B-CV, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	그래서	O	O
+2	일반	O	O
+3	관객	B-CV	B-CV
+4	##들이	O	O
+5	부담	O	O
+6	없이	O	O
+7	공연	O	O
+8	##을	O	O
+9	즐길	O	O
+10	수	O	O
+11	있	O	O
+12	##도록	O	O
+13	3	B-TI	B-TI
+14	~	I-TI	I-TI
+15	5	I-TI	I-TI
+16	##시간	I-TI	I-TI
+17	##씩	I-TI	I-TI
+18	걸리	O	O
+19	##는	O	O
+20	완	O	O
+21	##창	O	O
+22	##이	O	O
+23	아니	O	O
+24	##라	O	O
+25	주요	O	O
+26	대목	O	O
+27	##만	O	O
+28	##을	O	O
+29	골라	O	O
+30	제자	B-CV	B-CV
+31	##들	O	O
+32	##과	O	O
+33	번갈	O	O
+34	##아	O	O
+35	1	B-TI	B-TI
+36	##시간	I-TI	I-TI
+37	##30	I-TI	I-TI
+38	##분	I-TI	I-TI
+39	##간	O	I-TI
+40	선보이	O	O
+41	##는	O	O
+42	눈	O	O
+43	##대	O	O
+44	##목	O	O
+45	공연	O	O
+46	##으로	O	O
+47	기획	O	O
+48	##했	O	O
+49	##다	O	O
+50	.	O	O
+51	[SEP]	O	O

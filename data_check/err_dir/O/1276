@@ -1,30 +1,40 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-EV, I-CV, I-OG
-1	핵무기	O	B-AF	B-AF, O, B-MT, I-AF, B-TM
-2	개발	O	O	O, I-AF, I-LC, B-LC, I-TM
-3	##을	O	O	O, B-LC, B-CV, B-PS, I-AF
-4	계속	O	O	O, B-LC, B-CV, B-PS, B-TM
-5	##하	O	O	O, B-LC, B-PS, B-OG, B-CV
-6	##는	O	O	O, B-LC, B-OG, B-PS, B-CV
-7	이란	B-LC	B-OG	B-OG, B-LC, O, B-PS, B-AF
-8	##에	O	O	O, I-OG, I-LC, I-AF, B-CV
-9	대한	O	O	O, B-LC, B-OG, B-CV, B-PS
-10	공격	O	O	O, B-CV, B-LC, B-TM, B-PS
-11	의지	O	O	O, B-CV, B-LC, B-PS, B-OG
-12	##를	O	O	O, B-CV, B-PS, B-LC, I-CV
-13	거듭	O	O	O, B-LC, B-CV, B-PS, B-OG
-14	밝히	O	O	O, B-CV, B-LC, B-PS, B-OG
-15	##고	O	O	O, B-LC, B-CV, B-PS, B-OG
-16	지난해	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-17	11	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-18	##월	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-19	##에	O	O	O, I-DT, B-CV, I-EV, I-OG
-20	##는	O	O	O, B-LC, B-OG, B-CV, B-TM
-21	가자	B-LC	B-LC	B-LC, O, B-OG, I-LC, B-AF
-22	##지구	I-LC	I-LC	I-LC, O, I-OG, B-LC, I-PS
-23	##를	O	O	O, I-LC, I-OG, I-AF, B-LC
-24	공격	O	O	O, B-CV, B-LC, B-TM, I-LC
-25	##했	O	O	O, B-LC, B-CV, B-PS, I-EV
-26	##다	O	O	O, B-CV, B-LC, B-PS, I-EV
-27	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-28	[SEP]	O	O	O, B-LC, B-CV, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	그러나	O	O
+2	<	B-OG	B-OG
+3	로이터	I-OG	I-OG
+4	>	I-OG	I-OG
+5	통신	I-OG	I-OG
+6	##은	O	O
+7	“	O	O
+8	미국	B-LC	B-LC
+9	##의	O	O
+10	한	O	O
+11	관리	O	B-CV
+12	##가	O	O
+13	피격	O	O
+14	비행	O	O
+15	##체	O	O
+16	##는	O	O
+17	러시아	B-LC	B-LC
+18	무인기	B-AF	B-AF
+19	##라고	O	O
+20	의심	O	O
+21	##한다	O	O
+22	##고	O	O
+23	말	O	O
+24	##했	O	O
+25	##지만	O	O
+26	자세	O	O
+27	##한	O	O
+28	언급	O	O
+29	##은	O	O
+30	거부	O	O
+31	##했	O	O
+32	##다	O	O
+33	”	O	O
+34	고	O	O
+35	전했	O	O
+36	##다	O	O
+37	.	O	O
+38	[SEP]	O	O

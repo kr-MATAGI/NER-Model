@@ -1,40 +1,16 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	영	O	B-LC	B-LC, B-OG, O, B-AF, B-PS
-2	##플	O	I-LC	I-LC, I-OG, O, I-AF, B-LC
-3	##라	O	I-LC	I-LC, I-OG, I-AF, O, B-LC
-4	##자	O	I-LC	I-LC, I-OG, I-AF, O, I-PS
-5	##의	O	O	O, I-LC, I-OG, I-AF, B-LC
-6	의류	O	O	O, B-CV, B-OG, B-LC, B-TM
-7	##업체	O	O	O, B-CV, B-OG, I-OG, I-CV
-8	유니클로	B-OG	B-OG	B-OG, O, B-AF, I-OG, B-PS
-9	매장	O	O	O, I-OG, I-AF, B-AF, I-EV
-10	##에서	O	O	O, I-OG, I-AF, B-LC, B-CV
-11	##도	O	O	O, B-CV, B-LC, B-OG, B-TM
-12	발열	B-CV	B-CV	B-CV, O, B-TM, B-AF, I-CV
-13	##내	I-CV	I-CV	I-CV, O, B-CV, I-TM, I-AF
-14	##의	I-CV	O	O, I-CV, I-AF, I-TM, B-CV
-15	히트	B-AF	B-AF	B-AF, B-TM, O, B-CV, B-OG
-16	##텍	I-AF	I-AF	I-AF, I-TM, O, I-CV, I-OG
-17	(	O	O	O, I-AF, I-CV, I-OG, I-TM
-18	H	O	O	O, B-AF, B-TM, B-CV, B-OG
-19	##EA	O	O	O, I-AF, I-TM, I-OG, I-CV
-20	##TT	O	O	O, I-AF, I-TM, I-OG, I-CV
-21	##EC	O	O	O, I-AF, I-TM, I-OG, I-CV
-22	##H	O	O	O, I-AF, I-TM, I-OG, I-CV
-23	)	O	O	O, I-AF, I-TM, I-OG, I-CV
-24	매출	O	O	O, B-CV, B-OG, B-TM, B-LC
-25	비중	O	O	O, B-CV, B-TM, B-OG, B-LC
-26	##이	O	O	O, B-OG, B-PS, B-CV, B-LC
-27	30	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-OG
-28	%	I-QT	I-QT	I-QT, O, I-OG, I-LC, I-PS
-29	에	O	O	O, I-QT, I-OG, I-EV, B-CV
-30	이르	O	O	O, B-OG, B-TM, B-LC, B-CV
-31	##는	O	O	O, I-OG, B-CV, B-TM, B-OG
-32	것	O	O	O, B-CV, B-TM, B-OG, B-PS
-33	##으로	O	O	O, B-CV, I-OG, B-TM, B-OG
-34	집계	O	O	O, B-CV, B-OG, B-TM, B-LC
-35	##됐	O	O	O, B-CV, I-OG, B-OG, B-LC
-36	##다	O	O	O, B-CV, B-OG, B-LC, B-TM
-37	.	O	O	O, B-LC, B-OG, B-CV, I-OG
-38	[SEP]	O	O	O, B-LC, B-OG, B-CV, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	사법연수원	B-CV	B-CV
+2	##장	I-CV	I-CV
+3	##을	O	O
+4	하	O	O
+5	##다가	O	O
+6	헌재	B-OG	B-CV
+7	##재판	B-CV	I-CV
+8	##관	I-CV	I-CV
+9	##에	O	O
+10	임명	O	O
+11	##됐	O	O
+12	##다	O	O
+13	.	O	O
+14	[SEP]	O	O

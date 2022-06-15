@@ -1,18 +1,27 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, B-CV, I-OG, I-AF
-1	49	B-DT	B-DT	B-DT, O, B-QT, I-DT, B-EV
-2	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-3	‘	O	O	O, I-DT, B-CV, B-LC, B-OG
-4	동네	O	O	O, B-PS, B-AM, B-LC, B-CV
-5	##의사	B-CV	O	O, B-CV, B-PS, I-PS, B-AM
-6	’	O	O	O, I-CV, I-PS, B-CV, B-PS
-7	안철수	B-PS	B-PS	B-PS, O, I-PS, B-LC, B-OG
-8	부친	B-CV	B-CV	B-CV, O, I-PS, B-OG, B-TM
-9	,	O	O	O, I-CV, B-CV, I-OG, I-QT
-10	사회	O	O	O, B-CV, B-FD, B-TR, B-TM
-11	##기	O	O	O, I-CV, B-CV, I-TR, I-FD
-12	##여	O	O	O, I-CV, I-TR, I-TM, I-FD
-13	중요	O	O	O, I-CV, B-CV, B-FD, B-LC
-14	##성	O	O	O, I-CV, B-CV, B-LC, B-PS
-15	가르쳐	O	O	O, B-CV, B-LC, I-CV, B-PS
-16	[SEP]	O	O	O, B-CV, B-LC, B-PS, I-CV
+	text	label	preds
+0	[CLS]	O	O
+1	일용직	B-CV	B-CV
+2	노동자	I-CV	B-CV
+3	##인	O	O
+4	아버지	B-CV	B-CV
+5	##는	O	O
+6	다짜고짜	O	O
+7	A	O	O
+8	씨	O	O
+9	##에	O	O
+10	##게	O	O
+11	“	O	O
+12	술	B-CV	B-CV
+13	마실	O	O
+14	돈	O	O
+15	##을	O	O
+16	내놔	O	O
+17	##라	O	O
+18	”	O	O
+19	며	O	O
+20	행패	O	O
+21	##를	O	O
+22	부렸	O	O
+23	##다	O	O
+24	.	O	O
+25	[SEP]	O	O

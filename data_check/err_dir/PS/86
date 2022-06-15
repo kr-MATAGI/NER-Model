@@ -1,52 +1,54 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	지난해	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-QT
-2	10	I-DT	I-DT	I-DT, O, B-DT, I-PS, I-QT
-3	##월	I-DT	I-DT	I-DT, O, I-PS, B-DT, I-QT
-4	샤	B-PS	B-PS	B-PS, I-PS, O, B-OG, B-LC
-5	##라	I-PS	I-PS	I-PS, O, I-OG, I-LC, B-PS
-6	##포	I-PS	I-PS	I-PS, O, I-OG, I-LC, B-PS
-7	##바	I-PS	I-PS	I-PS, O, I-LC, I-OG, B-PS
-8	##와	O	O	O, I-PS, B-CV, I-OG, B-LC
-9	약혼	O	O	O, B-CV, B-OG, B-LC, B-FD
-10	##한	O	O	O, B-PS, B-LC, I-CV, I-OG
-11	미국	B-OG	B-LC	B-LC, B-OG, B-CV, O, B-PS
-12	##프로	I-OG	B-CV	B-CV, I-CV, O, I-LC, I-PS
-13	##농	I-OG	I-CV	I-CV, B-CV, O, I-OG, I-EV
-14	##구	I-OG	I-CV	I-CV, O, B-CV, I-OG, I-EV
-15	뉴저지	B-OG	B-LC	B-LC, B-OG, O, I-CV, I-OG
-16	네	I-OG	B-OG	B-OG, I-OG, B-LC, I-LC, O
-17	##츠	I-OG	I-OG	I-OG, I-LC, O, I-PS, I-CV
-18	##의	O	O	O, I-OG, I-LC, I-AF, I-PS
-19	가드	B-CV	B-CV	B-CV, B-PS, O, B-AF, B-AM
-20	사	B-PS	I-PS	I-PS, B-PS, O, I-CV, I-LC
-21	##샤	I-PS	I-PS	I-PS, O, B-PS, I-LC, I-OG
-22	부	I-PS	I-PS	I-PS, O, B-PS, I-LC, B-LC
-23	##야	I-PS	I-PS	I-PS, O, I-LC, I-OG, B-PS
-24	##치	I-PS	I-PS	I-PS, O, I-LC, I-OG, B-PS
-25	##치	I-PS	I-PS	I-PS, O, I-LC, I-OG, B-LC
-26	(	O	O	O, I-PS, I-OG, B-CV, I-LC
-27	27	B-QT	B-QT	B-QT, O, I-QT, B-LC, B-DT
-28	·	O	O	O, I-QT, I-OG, I-DT, B-CV
-29	슬로	B-LC	B-LC	B-LC, B-OG, O, B-PS, B-CV
-30	##베	I-LC	I-LC	I-LC, I-OG, O, B-LC, I-PS
-31	##니아	I-LC	I-LC	I-LC, I-OG, O, B-LC, I-CV
-32	)	O	O	O, I-LC, I-OG, I-AF, I-CV
-33	가	O	O	O, B-PS, B-LC, B-CV, B-OG
-34	항상	O	O	O, B-CV, B-PS, B-TM, B-LC
-35	관중석	O	O	O, B-TM, B-CV, B-AF, B-LC
-36	##을	O	O	O, B-CV, I-AF, I-CV, B-PS
-37	지키	O	O	O, B-CV, B-LC, B-AF, B-PS
-38	##며	O	O	O, B-PS, B-LC, B-CV, B-OG
-39	간절	O	O	O, B-CV, B-TM, B-LC, B-PS
-40	##한	O	O	O, B-LC, B-PS, B-TM, B-OG
-41	응원	O	O	O, B-CV, B-TM, B-LC, B-AF
-42	##을	O	O	O, B-CV, I-AF, I-OG, B-PS
-43	보내	O	O	O, B-CV, B-PS, B-LC, B-OG
-44	##고	O	O	O, B-PS, B-CV, I-AF, B-LC
-45	있	O	O	O, B-CV, B-PS, B-LC, B-TM
-46	##기	O	O	O, B-PS, B-CV, I-AF, B-TM
-47	때문	O	O	O, B-CV, B-PS, B-TM, B-LC
-48	##이다	O	O	O, B-CV, B-TM, B-PS, I-OG
-49	.	O	O	O, B-PS, B-LC, B-CV, B-OG
-50	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	그러나	O	O
+2	성적	O	O
+3	호기심	O	O
+4	##을	O	O
+5	억누르	O	O
+6	##지	O	O
+7	못하	O	O
+8	##는	O	O
+9	전형	O	O
+10	##적	O	O
+11	##인	O	O
+12	주인공	B-CV	B-CV
+13	대신	O	O
+14	‘	O	O
+15	나	O	O
+16	##는	O	O
+17	왜	B-PS	O
+18	여자	B-CV	B-CV
+19	##친	I-CV	I-CV
+20	##구	I-CV	I-CV
+21	##를	O	O
+22	사귀	O	O
+23	##지	O	O
+24	않	O	O
+25	##는	O	O
+26	##가	O	O
+27	?	O	O
+28	’	O	O
+29	‘	O	O
+30	나	O	O
+31	##는	O	O
+32	왜	O	O
+33	야	O	O
+34	##한	O	O
+35	비디오	B-TM	B-TM
+36	따위	O	O
+37	##에	O	O
+38	관심	O	O
+39	##이	O	O
+40	없	O	O
+41	##을까	O	O
+42	?	O	O
+43	’	O	O
+44	고민	O	O
+45	##하	O	O
+46	##는	O	O
+47	주인공	B-CV	B-CV
+48	##이	O	O
+49	등장	O	O
+50	##한다	O	O
+51	.	O	O
+52	[SEP]	O	O

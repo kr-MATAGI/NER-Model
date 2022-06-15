@@ -1,38 +1,64 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	그래서	O	O	O, B-CV, B-OG, B-LC, B-PS
-2	이	O	O	O, B-PS, B-QT, B-OG, B-CV
-3	분	O	O	O, B-PS, B-CV, I-PS, I-QT
-4	##이	O	O	O, B-PS, B-CV, B-LC, B-OG
-5	한	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-6	칠	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-7	년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-8	간	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-TI
-9	##에	O	O	O, I-DT, B-CV, B-LC, B-OG
-10	걸쳐서	O	O	O, B-LC, B-PS, B-OG, B-CV
-11	그	O	O	O, B-CV, B-PS, B-LC, B-OG
-12	사부	B-CV	B-CV	B-CV, O, B-QT, B-PS, B-OG
-13	##님	O	O	O, I-CV, I-PS, I-QT, B-PS
-14	##께	O	O	O, B-PS, I-CV, B-CV, B-LC
-15	##서	O	O	O, B-PS, B-CV, B-LC, B-AF
-16	못	O	O	O, B-CV, B-LC, B-AF, B-QT
-17	##다	O	O	O, B-CV, I-AF, B-LC, I-QT
-18	##하	O	O	O, B-LC, B-PS, B-CV, I-AF
-19	##신	O	O	O, I-AF, B-LC, B-QT, B-PS
-20	대장	O	O	O, B-AF, B-CV, B-FD, B-QT
-21	##경	O	O	O, I-AF, I-CV, I-FD, I-LC
-22	##을	O	O	O, I-AF, B-CV, B-PS, I-CV
-23	이제	O	O	O, B-CV, B-TM, B-OG, B-LC
-24	그	O	O	O, B-CV, B-LC, B-OG, B-TM
-25	번역	O	O	O, B-CV, B-FD, B-LC, B-QT
-26	##을	O	O	O, B-CV, I-CV, B-PS, I-AF
-27	하	O	O	O, B-CV, B-LC, B-PS, B-OG
-28	##는	O	O	O, B-CV, B-LC, B-OG, B-PS
-29	이제	O	O	O, B-CV, B-OG, B-TM, B-LC
-30	총	O	B-AF	B-AF, O, B-OG, B-CV, B-PS
-31	저기	O	O	O, I-AF, B-CV, I-CV, I-OG
-32	지휘관	B-CV	B-CV	B-CV, O, B-OG, I-CV, B-AF
-33	##을	O	O	O, I-CV, B-CV, I-AF, I-OG
-34	짓	O	O	O, B-CV, B-PS, B-QT, B-LC
-35	##고	O	O	O, B-CV, B-LC, B-PS, B-OG
-36	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	김태	B-PS	B-PS
+2	##년	I-PS	I-PS
+3	의원	O	O
+4	##실	O	O
+5	##의	O	O
+6	정진	B-PS	B-PS
+7	##경	I-PS	I-PS
+8	비서	B-CV	B-CV
+9	##는	O	O
+10	""""	O	O
+11	최근	O	O
+12	교과서	O	O
+13	관련	O	O
+14	논란	O	O
+15	##에	O	O
+16	##서	O	O
+17	한국	B-OG	B-OG
+18	##현	I-OG	I-OG
+19	##대사	I-OG	I-OG
+20	##학	I-OG	I-OG
+21	##회	I-OG	I-OG
+22	##가	O	O
+23	이슈	O	O
+24	##로	O	O
+25	떠올랐	O	O
+26	##기	O	O
+27	때문	O	O
+28	##에	O	O
+29	,	O	O
+30	이	O	B-PS
+31	교수	B-CV	B-CV
+32	##들이	O	O
+33	강의	O	O
+34	##와	O	O
+35	연구	O	O
+36	##를	O	O
+37	소홀히	O	O
+38	하고	O	O
+39	대외	O	O
+40	활동	O	O
+41	##에	O	O
+42	몰두	O	O
+43	##하	O	O
+44	##는	O	O
+45	것	O	O
+46	##이	O	O
+47	아닌지	O	O
+48	확인	O	O
+49	##하	O	O
+50	##기	O	O
+51	위해	O	O
+52	자료	O	O
+53	##를	O	O
+54	요구	O	O
+55	##했	O	O
+56	##다	O	O
+57	""""	O	O
+58	고	O	O
+59	밝혔	O	O
+60	##다	O	O
+61	.	O	O
+62	[SEP]	O	O

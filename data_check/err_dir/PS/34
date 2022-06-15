@@ -1,21 +1,52 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, I-AF, B-CV
-1	[	O	O	O, B-OG, B-LC, B-AF, B-CV
-2	he	O	O	O, B-AF, B-FD, B-PS, B-OG
-3	-	O	O	O, I-AF, I-OG, I-TM, I-PS
-4	스토리	O	O	O, I-AF, I-OG, I-TM, I-FD
-5	]	O	O	O, I-OG, I-AF, I-TM, I-EV
-6	한국	B-LC	B-LC	B-LC, O, B-OG, B-AF, B-PS
-7	온	O	O	O, I-LC, I-AF, B-AF, B-CV
-8	##지	O	O	O, I-AF, B-CV, B-PS, B-LC
-9	17	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-PS
-10	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-11	…	O	O	O, I-DT, I-OG, I-AF, B-CV
-12	구로	B-LC	B-LC	B-LC, O, B-OG, B-AF, B-PS
-13	##동	I-LC	I-LC	I-LC, O, I-AF, B-LC, I-OG
-14	##의	O	O	O, I-LC, I-AF, B-PS, I-PS
-15	'	O	O	O, B-CV, B-LC, B-OG, B-AF
-16	김치	B-CV	B-CV	B-CV, O, B-AF, B-PT, B-PS
-17	산타	B-PS	B-CV	B-CV, I-CV, O, I-AF, B-OG
-18	'	O	O	O, I-CV, I-OG, I-AF, I-EV
-19	[SEP]	O	O	O, B-LC, B-CV, B-AF, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	인	B-PS	B-PS
+2	##씨	O	O
+3	##가	O	O
+4	범행	O	O
+5	##을	O	O
+6	부인	O	O
+7	##하	O	O
+8	##고	O	O
+9	숨진	O	O
+10	아내	B-CV	B-CV
+11	##의	O	O
+12	시신	O	O
+13	##도	O	O
+14	끝내	O	O
+15	찾	O	O
+16	##지	O	O
+17	못	O	O
+18	##했	O	O
+19	##지만	O	O
+20	,	O	O
+21	범행	O	O
+22	##이	O	O
+23	일어난	O	O
+24	장소	O	O
+25	##인	B-PS	O
+26	인	O	B-PS
+27	##씨	O	O
+28	집	O	O
+29	안	O	O
+30	곳곳	O	O
+31	##에	O	O
+32	##서	O	O
+33	아내	B-CV	B-CV
+34	##의	O	O
+35	혈	B-TM	O
+36	##흔	O	O
+37	(	O	O
+38	血	O	O
+39	[UNK]	O	O
+40	)	O	O
+41	이	O	O
+42	발견	O	O
+43	##됐	O	O
+44	##기	O	O
+45	때문	O	O
+46	##이	O	O
+47	##었	O	O
+48	##다	O	O
+49	.	O	O
+50	[SEP]	O	O

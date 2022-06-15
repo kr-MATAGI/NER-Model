@@ -1,47 +1,21 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-EV, B-CV, I-CV
-1	문	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-2	대표	B-CV	B-CV	B-CV, O, I-PS, I-CV, B-TM
-3	##와	O	O	O, I-CV, B-CV, I-EV, I-AF
-4	안	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-5	의원	B-CV	B-CV	B-CV, O, I-CV, I-PS, B-TM
-6	##은	O	O	O, I-CV, B-CV, I-EV, I-AF
-7	이날	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-QT
-8	오후	B-TI	B-TI	B-TI, I-TI, I-DT, B-EV, O
-9	6	I-TI	I-TI	I-TI, B-TI, I-EV, I-DT, I-QT
-10	##시	I-TI	I-TI	I-TI, O, I-QT, B-TI, I-TR
-11	##부터	I-TI	I-TI	I-TI, O, B-TI, I-QT, I-TR
-12	1	B-TI	B-TI	B-TI, I-TI, B-QT, O, B-EV
-13	##시간	I-TI	I-TI	I-TI, I-QT, B-TI, I-TR, O
-14	##20	I-TI	I-TI	I-TI, B-TI, I-QT, I-TR, O
-15	##분	I-TI	I-TI	I-TI, I-QT, O, I-TR, B-TI
-16	##가	I-TI	I-TI	I-TI, O, I-QT, I-TR, B-TI
-17	##량	I-TI	I-TI	I-TI, O, I-QT, I-TR, B-TI
-18	시내	O	O	O, I-TI, B-LC, I-QT, I-LC
-19	모	O	O	O, B-LC, B-CV, B-OG, B-TM
-20	##처	O	O	O, I-LC, B-LC, I-OG, I-QT
-21	##에서	O	O	O, B-LC, B-PS, B-CV, I-LC
-22	배석	O	B-CV	B-CV, O, B-TM, I-CV, B-PT
-23	##자	O	I-CV	I-CV, O, B-CV, I-TM, I-AM
-24	없이	O	O	O, I-CV, I-QT, I-OG, I-EV
-25	만나	O	O	O, B-CV, B-LC, B-OG, B-EV
-26	격	O	O	O, B-LC, B-CV, B-PS, B-TM
-27	##의	O	O	O, B-LC, B-PS, I-EV, I-LC
-28	없이	O	O	O, B-LC, B-PS, B-CV, B-OG
-29	진지	O	O	O, B-LC, B-TM, B-CV, B-OG
-30	##한	O	O	O, B-LC, B-PS, B-OG, B-CV
-31	대화	O	O	O, B-LC, B-CV, B-TM, B-EV
-32	##를	O	O	O, B-CV, I-EV, B-OG, B-LC
-33	나눴	O	O	O, B-CV, B-LC, B-OG, B-PS
-34	##다고	O	O	O, B-LC, I-EV, B-PS, I-OG
-35	회동	O	O	O, B-LC, B-EV, B-CV, B-OG
-36	##이	O	O	O, B-PS, B-OG, B-LC, I-EV
-37	끝난	O	O	O, B-CV, B-LC, B-OG, I-EV
-38	뒤	O	O	O, B-TM, B-LC, B-CV, B-PS
-39	김성수	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-40	대변인	B-CV	B-CV	B-CV, O, I-CV, I-PS, B-TM
-41	##이	O	O	O, I-CV, I-OG, I-AF, I-EV
-42	전했	O	O	O, B-CV, B-QT, B-LC, B-OG
-43	##다	O	O	O, B-CV, B-LC, B-OG, B-TM
-44	.	O	O	O, B-LC, B-PS, B-OG, B-CV
-45	[SEP]	O	O	O, B-LC, B-CV, B-OG, I-EV
+	text	label	preds
+0	[CLS]	O	O
+1	3	B-QT	B-QT
+2	##층	I-QT	I-QT
+3	##짜	O	I-QT
+4	##리	O	I-QT
+5	매장	O	O
+6	##을	O	O
+7	채운	O	O
+8	타이어	O	O
+9	##가	O	O
+10	수십	O	O
+11	종	O	O
+12	##은	O	O
+13	되	O	O
+14	##겠	O	O
+15	##더	O	O
+16	##군	O	O
+17	##요	O	O
+18	.	O	O
+19	[SEP]	O	O

@@ -1,34 +1,129 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	이	O	O	O, B-CV, B-OG, B-PS, B-TM
-2	제품	O	O	O, B-CV, B-TM, B-AF, B-OG
-3	##들	O	O	O, B-CV, B-PS, I-AF, I-CV
-4	##의	O	O	O, B-CV, B-OG, B-PS, B-TM
-5	홍보	O	O	O, B-CV, B-TM, B-LC, B-AF
-6	문구	O	O	O, B-CV, I-CV, B-TM, B-PS
-7	##에	O	O	O, B-CV, B-PS, B-OG, B-TM
-8	##는	O	O	O, B-OG, B-CV, B-LC, B-TM
-9	‘	O	O	O, B-CV, B-LC, B-PS, B-OG
-10	몸	B-AM	B-AM	B-AM, O, B-TM, B-TR, B-PS
-11	##에	O	O	O, I-TM, I-QT, I-AF, B-PS
-12	좋	O	O	O, B-CV, B-LC, B-PS, B-TM
-13	##은	O	O	O, B-PS, B-LC, B-CV, I-AF
-14	성분	O	O	O, B-CV, B-LC, B-PS, B-TM
-15	##이	O	O	O, B-PS, B-CV, B-LC, B-OG
-16	들어	O	O	O, B-CV, B-LC, B-TM, B-QT
-17	있	O	O	O, B-CV, B-PS, B-LC, B-TM
-18	##는	O	O	O, B-CV, B-PS, B-LC, I-AF
-19	기능	O	O	O, B-CV, B-TM, B-FD, B-AF
-20	##성	O	O	O, I-CV, I-TM, I-AF, B-CV
-21	음료	B-CV	O	O, B-CV, I-CV, B-FD, I-TM
-22	’	O	O	O, I-CV, B-CV, I-OG, B-PS
-23	라는	O	O	O, B-PS, B-CV, B-LC, B-QT
-24	메시지	O	O	O, B-CV, B-TM, B-PS, B-QT
-25	##가	O	O	O, B-PS, B-LC, B-CV, B-OG
-26	빠지	O	O	O, B-QT, B-TM, B-PS, B-CV
-27	##지	O	O	O, I-QT, B-PS, B-QT, I-AF
-28	않	O	O	O, B-QT, B-PS, I-QT, B-TM
-29	##는	O	O	O, I-QT, B-CV, B-QT, B-TM
-30	##다	O	O	O, B-CV, B-TM, I-QT, I-OG
-31	.	O	O	O, B-CV, B-PS, B-LC, B-OG
-32	[SEP]	O	O	O, B-CV, B-PS, B-LC, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	학생	O	B-CV
+2	##부	O	I-CV
+3	##종	O	I-CV
+4	##합	O	I-CV
+5	##전	O	I-CV
+6	##형	O	I-CV
+7	##은	O	O
+8	△	O	O
+9	##잠	B-CV	O
+10	##재	I-CV	O
+11	##능력	I-CV	O
+12	##우	I-CV	O
+13	##수	I-CV	O
+14	##자	I-CV	O
+15	##전	O	O
+16	##형	O	O
+17	(	O	O
+18	119	B-QT	B-QT
+19	##명	I-QT	I-QT
+20	)	O	O
+21	△	O	O
+22	##고	O	O
+23	##른	O	O
+24	##기	O	O
+25	##회전	O	O
+26	##형	O	O
+27	(	O	O
+28	20	B-QT	B-QT
+29	##명	I-QT	I-QT
+30	)	O	O
+31	글로벌	O	O
+32	##인	O	O
+33	##재	O	O
+34	##전	O	O
+35	##형	O	O
+36	(	O	O
+37	5	B-QT	B-QT
+38	##명	I-QT	I-QT
+39	)	O	O
+40	이	O	O
+41	##며	O	O
+42	,	O	O
+43	특기	B-CV	B-CV
+44	##자	I-CV	I-CV
+45	##전	O	O
+46	##형	O	O
+47	##은	O	O
+48	△	O	O
+49	##외	B-CV	B-CV
+50	##국	I-CV	I-CV
+51	##어	I-CV	I-CV
+52	##우	I-CV	I-CV
+53	##수	I-CV	I-CV
+54	##자	I-CV	I-CV
+55	##전	O	O
+56	##형	O	O
+57	(	O	O
+58	70	B-QT	B-QT
+59	##명	I-QT	I-QT
+60	)	O	O
+61	등의	O	O
+62	정원	O	O
+63	내	O	O
+64	모집	O	O
+65	##과	O	O
+66	△	O	O
+67	##특	O	B-CV
+68	##성	O	I-CV
+69	##화	O	I-CV
+70	##고	O	I-CV
+71	##교	O	I-CV
+72	##졸	O	I-CV
+73	##업자	O	I-CV
+74	##전	O	O
+75	##형	O	O
+76	(	O	O
+77	20	B-QT	B-QT
+78	##명	I-QT	I-QT
+79	)	O	O
+80	△	O	O
+81	##기	B-CV	B-CV
+82	##초	I-CV	I-CV
+83	##생활	I-CV	I-CV
+84	##수	I-CV	I-CV
+85	##급	I-CV	I-CV
+86	##자	I-CV	I-CV
+87	및	O	O
+88	차상	O	O
+89	##위	O	O
+90	##계	O	O
+91	##층	O	O
+92	##전	O	O
+93	##형	O	O
+94	(	O	O
+95	20	B-QT	B-QT
+96	##명	I-QT	I-QT
+97	)	O	O
+98	△	O	O
+99	##특	B-CV	B-CV
+100	##수	I-CV	I-CV
+101	##교육	I-CV	I-CV
+102	##대	I-CV	I-CV
+103	##상	I-CV	I-CV
+104	##자	I-CV	I-CV
+105	##전	O	O
+106	##형	O	O
+107	(	O	O
+108	7	B-QT	B-QT
+109	##명	I-QT	I-QT
+110	)	O	O
+111	△	O	O
+112	##재	B-CV	B-CV
+113	##외	I-CV	I-CV
+114	##국	I-CV	I-CV
+115	##민	I-CV	I-CV
+116	##과	O	O
+117	외국인	B-CV	B-CV
+118	##전	O	O
+119	##형	O	O
+120	(	O	O
+121	40	B-QT	B-QT
+122	##명	I-QT	I-QT
+123	)	O	O
+124	등의	O	O
+125	정원	O	O
+126	외	O	O
+127	[SEP]	O	O

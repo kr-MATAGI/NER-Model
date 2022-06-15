@@ -1,44 +1,55 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	미국	B-LC	B-LC	B-LC, B-OG, O, B-PS, B-AF
-2	##의	O	O	O, I-LC, I-OG, I-AF, B-LC
-3	경우	O	O	O, B-CV, B-LC, B-OG, B-TM
-4	,	O	O	O, B-CV, B-LC, B-OG, B-PS
-5	상환	O	O	O, B-CV, B-LC, B-TM, B-PS
-6	능력	O	O	O, B-LC, B-PS, B-CV, I-AF
-7	##을	O	O	O, B-CV, B-LC, B-PS, B-OG
-8	고려	O	O	O, B-CV, B-LC, B-TM, B-OG
-9	##하	O	O	O, B-PS, B-LC, B-CV, B-OG
-10	##지	O	O	O, B-LC, B-PS, B-CV, B-OG
-11	않	O	O	O, B-LC, B-PS, B-CV, B-TM
-12	##고	O	O	O, B-LC, B-PS, B-CV, B-OG
-13	집값	O	O	O, B-CV, B-LC, B-TM, B-AF
-14	##의	O	O	O, B-PS, B-LC, B-TM, B-QT
-15	100	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-LC
-16	%	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-17	가까이	O	O	O, I-QT, B-QT, B-TM, B-PS
-18	대출	O	O	O, B-CV, I-QT, B-LC, B-AF
-19	##해	O	O	O, B-PS, B-LC, B-CV, B-OG
-20	##준	O	O	O, B-CV, B-PS, B-LC, B-AF
-21	서브	O	B-AF	B-AF, B-CV, O, B-OG, B-TM
-22	##프라	O	I-AF	I-AF, I-CV, O, I-OG, I-TM
-23	##임	O	I-AF	I-AF, I-CV, O, I-TM, I-OG
-24	모기지	O	I-AF	I-AF, I-CV, O, I-TM, I-OG
-25	(	O	O	O, I-AF, I-CV, I-OG, I-EV
-26	비우	O	O	O, B-CV, B-AF, B-TM, B-AM
-27	##량	O	O	O, I-CV, I-AF, I-TM, B-CV
-28	주택	O	O	O, I-AF, I-CV, B-CV, B-AF
-29	##담	O	O	O, I-AF, I-CV, I-TM, B-CV
-30	##보	O	O	O, I-AF, I-CV, I-TM, B-CV
-31	##대	O	O	O, I-AF, I-CV, I-TM, B-CV
-32	##출	O	O	O, I-AF, I-CV, I-TM, I-LC
-33	)	O	O	O, I-AF, I-CV, B-CV, I-OG
-34	로	O	O	O, B-CV, B-PS, B-LC, B-TM
-35	인해	O	O	O, B-CV, B-TM, B-LC, B-OG
-36	집값	O	O	O, B-CV, B-LC, B-TM, B-QT
-37	##이	O	O	O, B-CV, B-PS, B-OG, B-LC
-38	급락	O	O	O, B-CV, B-TM, B-LC, B-OG
-39	##했	O	O	O, B-CV, B-LC, B-OG, I-OG
-40	##다	O	O	O, B-CV, B-LC, B-TM, I-OG
-41	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-42	[SEP]	O	O	O, B-LC, B-CV, B-PS, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	협력	O	B-CV
+2	##강	B-CV	I-CV
+3	##사	I-CV	I-CV
+4	##는	O	O
+5	대학	O	O
+6	##에	O	O
+7	##서	O	O
+8	해당	O	O
+9	교과목	O	O
+10	##을	O	O
+11	전공	O	O
+12	##하	O	O
+13	##고	O	O
+14	,	O	O
+15	교사	B-CV	B-CV
+16	자격증	O	O
+17	##을	O	O
+18	취득	O	O
+19	##한	O	O
+20	사람	O	O
+21	##으로	O	O
+22	정규	O	O
+23	교과	O	O
+24	수업	O	O
+25	시간	O	O
+26	##에	O	O
+27	학습	O	O
+28	부진	O	O
+29	진단	O	O
+30	##을	O	O
+31	받	O	O
+32	##은	O	O
+33	학생	B-CV	B-CV
+34	##의	O	O
+35	멘토	B-CV	B-CV
+36	역할	O	O
+37	##을	O	O
+38	하고	O	O
+39	,	O	O
+40	방과	O	O
+41	##후	O	O
+42	특별	O	O
+43	프로그램	O	O
+44	##을	O	O
+45	통해	O	O
+46	학생	B-CV	B-CV
+47	##들	O	O
+48	##을	O	O
+49	개별	O	O
+50	지도	O	O
+51	##한다	O	O
+52	.	O	O
+53	[SEP]	O	O

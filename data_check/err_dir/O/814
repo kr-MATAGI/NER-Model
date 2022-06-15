@@ -1,18 +1,17 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	네	O	O	O, B-QT, B-CV, B-TM, B-LC
-2	찔러	O	O	O, B-CV, B-LC, B-QT, B-TM
-3	보시	O	O	O, B-CV, B-PS, I-QT, I-CV
-4	##고	O	O	O, B-CV, B-PS, B-LC, I-QT
-5	약간	O	O	O, B-CV, B-TM, B-QT, B-LC
-6	뭐	O	O	O, B-CV, B-TM, B-PS, I-CV
-7	생	O	B-CV	B-CV, O, B-OG, B-AF, B-TM
-8	##고	B-CV	I-CV	I-CV, B-CV, O, I-OG, I-AF
-9	##구	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-TM
-10	##마	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-TM
-11	##도	O	O	O, I-CV, I-OG, I-AF, I-QT
-12	많이	O	O	O, B-CV, I-CV, B-TM, B-QT
-13	드	O	O	O, B-CV, B-OG, B-TM, B-PS
-14	##시	O	O	O, B-CV, I-CV, B-PS, B-LC
-15	##니까	O	O	O, B-CV, B-LC, B-TM, I-CV
-16	[SEP]	O	O	O, B-CV, B-TM, B-LC, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	보이지	O	O
+2	않	O	O
+3	##는	O	O
+4	싸움	O	O
+5	##에	O	O
+6	##서	O	O
+7	도요타	B-OG	B-OG
+8	##는	O	O
+9	현대	O	B-OG
+10	##에	O	O
+11	##게	O	O
+12	졌	O	O
+13	##다	O	O
+14	.	O	O
+15	[SEP]	O	O

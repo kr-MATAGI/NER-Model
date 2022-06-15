@@ -1,41 +1,27 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	고질	O	O	O, B-CV, B-PS, B-LC, B-TM
-2	##적인	O	O	O, B-PS, B-LC, B-TM, B-QT
-3	무릎	B-AM	B-AM	B-AM, O, B-TM, B-TR, B-PS
-4	부상	O	O	O, I-TM, B-TM, I-TR, B-CV
-5	##으로	O	O	O, B-PS, B-CV, B-LC, I-TM
-6	27	B-QT	B-QT	B-QT, O, I-QT, B-EV, B-DT
-7	##살	I-QT	I-QT	I-QT, O, I-LC, I-PS, I-EV
-8	##에	O	O	O, I-QT, I-OG, I-EV, I-AF
-9	은퇴	O	O	O, B-CV, B-TM, B-LC, B-PS
-10	##했	O	O	O, B-PS, B-CV, B-LC, B-OG
-11	##지만	O	O	O, B-PS, B-CV, B-LC, B-OG
-12	오랜	O	O	O, B-PS, B-CV, B-LC, B-OG
-13	농구	B-CV	B-CV	B-CV, O, B-PS, B-FD, I-CV
-14	##팬	B-CV	B-CV	B-CV, I-CV, O, I-PS, I-EV
-15	##들	O	O	O, I-CV, B-CV, B-PS, I-OG
-16	##은	O	O	O, B-PS, B-CV, B-LC, B-TM
-17	‘	O	O	O, B-PS, B-CV, B-LC, B-OG
-18	천재	O	O	O, B-PS, B-CV, B-AF, B-LC
-19	가드	B-CV	B-CV	B-CV, O, B-PS, I-CV, I-PS
-20	’	O	O	O, I-CV, B-PS, B-CV, I-PS
-21	,	O	O	O, B-PS, B-CV, B-LC, B-DT
-22	‘	O	O	O, B-PS, B-CV, B-LC, B-OG
-23	코트	B-TM	B-PS	B-PS, B-AM, O, B-TM, B-AF
-24	##의	O	I-PS	I-PS, O, B-PS, I-AF, I-AM
-25	여우	B-AM	B-AM	B-AM, I-PS, O, B-PS, I-AM
-26	’	O	O	O, I-PS, B-PS, B-CV, I-AF
-27	로	O	O	O, B-PS, B-LC, B-CV, B-QT
-28	불린	O	O	O, B-PS, B-LC, B-CV, I-PS
-29	그	O	O	O, B-PS, B-CV, B-LC, B-OG
-30	##의	O	O	O, B-PS, B-CV, I-PS, B-LC
-31	두뇌	O	O	O, B-TM, B-CV, B-AM, B-TR
-32	##플레이	O	O	O, I-TM, I-CV, I-TR, B-TM
-33	##를	O	O	O, B-CV, B-PS, I-TM, B-LC
-34	아직	O	O	O, B-CV, B-TM, B-LC, B-PS
-35	##도	O	O	O, B-PS, B-LC, B-CV, I-CV
-36	기억	O	O	O, B-CV, B-LC, B-TM, B-PS
-37	##한다	O	O	O, B-CV, B-PS, B-LC, B-TM
-38	.	O	O	O, B-PS, B-LC, B-CV, B-TM
-39	[SEP]	O	O	O, B-CV, B-PS, B-LC, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	초기	O	O
+2	##엔	O	O
+3	녹	O	O
+4	##인	O	O
+5	유리	O	B-MT
+6	##를	O	O
+7	틀	O	O
+8	##에	O	O
+9	붓	O	O
+10	##거나	O	O
+11	심	O	O
+12	주위	O	O
+13	##에	O	O
+14	유리	O	B-MT
+15	##를	O	O
+16	감	O	O
+17	##는	O	O
+18	등의	O	O
+19	방식	O	O
+20	##으로	O	O
+21	만들	O	O
+22	##었	O	O
+23	##다	O	O
+24	.	O	O
+25	[SEP]	O	O

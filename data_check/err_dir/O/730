@@ -1,19 +1,29 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	농	B-OG	B-OG	B-OG, O, B-EV, B-LC, B-CV
-2	##식	I-OG	I-OG	I-OG, O, I-EV, B-OG, I-CV
-3	##품	I-OG	I-OG	I-OG, O, I-EV, I-CV, B-OG
-4	##부	I-OG	I-OG	I-OG, O, I-EV, I-CV, I-QT
-5	,	O	O	O, I-OG, I-EV, B-CV, I-QT
-6	전국	O	O	O, B-LC, B-OG, B-CV, B-EV
-7	어린이집	O	O	O, B-OG, B-CV, B-AF, I-OG
-8	등	O	O	O, B-CV, B-PS, B-LC, I-EV
-9	대상	O	O	O, B-EV, B-CV, B-LC, I-EV
-10	식생활	O	B-EV	B-EV, O, I-EV, B-CV, B-OG
-11	##교육	O	I-EV	I-EV, O, B-EV, I-OG, I-CV
-12	우수	O	I-EV	I-EV, O, B-EV, I-OG, I-CV
-13	사례	O	I-EV	I-EV, O, I-CV, I-OG, I-TM
-14	경진	O	I-EV	I-EV, O, B-EV, I-OG, I-CV
-15	##대	O	I-EV	I-EV, O, I-OG, I-CV, I-AF
-16	##회	O	I-EV	I-EV, O, I-OG, B-EV, I-AF
-17	[SEP]	O	O	O, I-EV, I-OG, B-CV, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	유럽	B-LC	B-OG
+2	##중	O	I-OG
+3	##앙	O	I-OG
+4	銀	O	I-OG
+5	기준	O	O
+6	##금리	O	O
+7	0	B-QT	B-QT
+8	.	I-QT	I-QT
+9	05	I-QT	I-QT
+10	%	I-QT	I-QT
+11	로	O	O
+12	‘	O	O
+13	깜짝	O	O
+14	인하	O	O
+15	’	O	O
+16	…	O	O
+17	韓	O	B-OG
+18	銀	O	I-OG
+19	2014	B-DT	B-DT
+20	##년	I-DT	I-DT
+21	##내	I-DT	I-DT
+22	추가	O	O
+23	##인	O	O
+24	##하	O	O
+25	압박	O	O
+26	커져	O	O
+27	[SEP]	O	O

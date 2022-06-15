@@ -1,14 +1,71 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, I-OG, B-CV, I-AF
-1	써	O	O	O, B-CV, B-TM, B-OG, B-LC
-2	이랬	O	O	O, B-CV, B-OG, B-PS, B-TM
-3	##더니	O	O	O, B-CV, B-LC, I-AF, I-OG
-4	더	B-TM	B-OG	B-OG, B-LC, O, B-AF, B-EV
-5	캠프	I-TM	I-OG	I-OG, I-LC, O, I-AF, I-TM
-6	까	O	O	O, I-OG, I-AF, I-LC, I-EV
-7	##는데	O	O	O, B-CV, I-OG, I-AF, B-OG
-8	시간	O	O	O, B-TI, B-CV, B-OG, B-TM
-9	##이	O	O	O, B-CV, I-OG, B-PS, I-CV
-10	걸렸	O	O	O, B-CV, B-OG, B-LC, B-TM
-11	##고	O	O	O, B-CV, I-OG, I-CV, I-AF
-12	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	하	B-PS	B-PS
+2	사장	B-CV	B-CV
+3	##은	O	O
+4	ICT	B-FD	B-FD
+5	##노	O	O
+6	##믹스	O	O
+7	사회	O	O
+8	##의	O	O
+9	미래	O	O
+10	##를	O	O
+11	조명	O	O
+12	##하	O	O
+13	##며	O	O
+14	△	O	O
+15	##사	B-FD	B-FD
+16	##물	I-FD	I-FD
+17	##인	I-FD	I-FD
+18	##터	I-FD	I-FD
+19	##넷	I-FD	I-FD
+20	(	O	O
+21	IoT	B-FD	O
+22	·	O	O
+23	Intern	O	O
+24	##et	O	O
+25	of	O	O
+26	Th	O	O
+27	##ings	O	O
+28	)	O	O
+29	△	O	O
+30	##빅	O	B-TM
+31	##데이	O	I-TM
+32	##터	O	I-TM
+33	△	O	O
+34	##인	B-FD	O
+35	##공	I-FD	O
+36	##지능	I-FD	O
+37	△	O	O
+38	##3	B-QT	B-TM
+39	##차	I-QT	I-TM
+40	##원	I-QT	I-TM
+41	(	O	I-TM
+42	3	O	I-TM
+43	##D	O	I-TM
+44	)	O	I-TM
+45	프린터	B-TM	I-TM
+46	등	O	O
+47	4	B-QT	B-QT
+48	##대	I-QT	I-QT
+49	분야	O	O
+50	##를	O	O
+51	향후	O	O
+52	10	B-DT	B-DT
+53	##년	I-DT	I-DT
+54	##간	I-DT	I-DT
+55	가장	O	O
+56	치열	O	O
+57	##한	O	O
+58	경쟁	O	O
+59	##이	O	O
+60	벌어질	O	O
+61	최대	O	O
+62	격전	O	O
+63	산업	O	O
+64	##으로	O	O
+65	꼽	O	O
+66	##았	O	O
+67	##다	O	O
+68	.	O	O
+69	[SEP]	O	O

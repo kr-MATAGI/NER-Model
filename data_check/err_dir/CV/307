@@ -1,54 +1,21 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-QT
-1	한편	O	O	O, B-QT, B-OG, B-TM, B-LC
-2	고양시	B-OG	B-OG	B-OG, B-LC, O, I-OG, B-PS
-3	##는	O	O	O, I-OG, B-CV, B-OG, I-QT
-4	‘	O	O	O, B-LC, B-CV, B-OG, B-DT
-5	고양시	B-CV	B-CV	B-CV, B-LC, B-OG, B-AF, O
-6	국가	I-CV	B-CV	B-CV, I-CV, O, I-OG, I-AF
-7	##유	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-AF
-8	##공	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-AF
-9	##자	I-CV	I-CV	I-CV, O, I-OG, B-CV, I-AF
-10	등	I-CV	O	O, I-CV, B-CV, I-OG, I-AF
-11	##에	I-CV	O	O, I-CV, B-CV, I-OG, B-LC
-12	대한	I-CV	O	O, B-CV, I-CV, B-OG, I-OG
-13	예우	I-CV	O	O, I-CV, B-CV, I-OG, B-OG
-14	##와	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-AF
-15	지원	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-AF
-16	##에	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-AF
-17	관한	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-AF
-18	조례	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-AF
-19	’	O	O	O, I-CV, I-OG, B-CV, B-PS
-20	도	O	O	O, B-LC, B-PS, B-OG, B-CV
-21	개정	O	O	O, B-CV, B-OG, B-LC, B-PS
-22	##해	O	O	O, B-LC, B-PS, B-OG, I-DT
-23	,	O	O	O, B-CV, B-LC, B-OG, B-PS
-24	65	B-QT	B-QT	B-QT, I-QT, O, B-DT, B-LC
-25	##살	I-QT	I-QT	I-QT, O, I-LC, I-PS, I-OG
-26	이상	I-QT	I-QT	I-QT, O, I-LC, I-PS, I-OG
-27	참전	B-CV	B-CV	B-CV, O, I-QT, B-OG, I-CV
-28	##유	I-CV	I-CV	I-CV, O, B-CV, I-QT, I-OG
-29	##공	I-CV	I-CV	I-CV, O, B-CV, I-QT, I-OG
-30	##자	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-QT
-31	79	B-QT	B-QT	B-QT, I-CV, I-QT, O, B-DT
-32	##00	I-QT	I-QT	I-QT, O, B-QT, I-CV, I-LC
-33	##명	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-34	##에	O	O	O, I-QT, B-CV, I-CV, I-DT
-35	##게	O	O	O, B-CV, B-QT, B-DT, I-QT
-36	매달	O	O	O, B-QT, B-DT, B-CV, I-DT
-37	3	B-QT	B-QT	B-QT, I-QT, O, B-DT, B-CV
-38	##만	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-39	##원	I-QT	I-QT	I-QT, O, I-LC, I-PS, I-CV
-40	##의	O	O	O, I-QT, B-CV, B-PS, I-DT
-41	보훈	O	O	O, B-CV, I-CV, B-FD, B-OG
-42	##수	O	O	O, I-CV, B-CV, I-QT, I-OG
-43	##당	O	O	O, I-CV, B-CV, I-QT, I-OG
-44	##을	O	O	O, I-CV, I-QT, B-PS, I-OG
-45	확대	O	O	O, B-CV, B-LC, B-TM, B-QT
-46	##지	O	O	O, I-CV, B-CV, I-QT, I-OG
-47	##급	O	O	O, I-CV, I-QT, B-CV, I-OG
-48	##할	O	O	O, B-PS, I-CV, B-LC, I-OG
-49	방침	O	O	O, B-LC, B-CV, B-OG, B-TM
-50	##이다	O	O	O, B-CV, B-TM, B-OG, I-OG
-51	.	O	O	O, B-LC, B-OG, B-CV, B-PS
-52	[SEP]	O	O	O, B-LC, B-CV, B-OG, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	옷	O	O
+2	##이나	O	O
+3	구두	O	B-CV
+4	장신구	O	O
+5	##가	O	O
+6	유명	O	O
+7	디자이너	B-CV	B-CV
+8	무형	O	O
+9	문화재	O	O
+10	구두	O	B-CV
+11	##장	B-CV	I-CV
+12	##인	I-CV	I-CV
+13	등이	O	O
+14	만든	O	O
+15	제품	O	O
+16	##이	O	O
+17	##라	O	O
+18	##서	O	O
+19	[SEP]	O	O

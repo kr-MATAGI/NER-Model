@@ -1,10 +1,60 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	김치	O	B-CV	B-CV, O, I-CV, B-PT, B-TM
-2	##를	O	O	O, I-CV, B-CV, I-OG, I-AF
-3	담가	O	O	O, B-CV, B-LC, B-OG, B-PS
-4	##서	O	O	O, B-CV, I-CV, I-OG, I-AF
-5	드셔	O	O	O, B-CV, B-OG, B-LC, B-PS
-6	##요	O	O	O, B-CV, I-CV, I-OG, I-AF
-7	.	O	O	O, B-CV, B-LC, I-OG, B-PS
-8	[SEP]	O	O	O, B-CV, I-CV, I-OG, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	현장	O	O
+2	정리	O	O
+3	##를	O	O
+4	위해	O	O
+5	돌아온	O	O
+6	소방관	B-CV	B-CV
+7	##들이	O	O
+8	다른	O	O
+9	방	O	O
+10	##에	O	O
+11	##서	O	O
+12	옷	O	O
+13	##가지	O	O
+14	속	O	O
+15	##에	O	O
+16	묻혀	O	O
+17	있	O	O
+18	##던	O	O
+19	이아	O	O
+20	##무	O	O
+21	##개	O	O
+22	(	O	O
+23	21	O	B-QT
+24	)	O	O
+25	씨	O	O
+26	##와	O	O
+27	김	O	B-PS
+28	##아	O	O
+29	##무	O	O
+30	##개	O	O
+31	(	O	O
+32	21	O	B-QT
+33	)	O	O
+34	씨	O	O
+35	##를	O	O
+36	발견	O	O
+37	##한	O	O
+38	것	O	O
+39	##은	O	O
+40	숨진	O	O
+41	송	O	B-PS
+42	##씨	O	O
+43	##를	O	O
+44	발견	O	O
+45	##한	O	O
+46	지	O	O
+47	1	O	B-TI
+48	##시간	O	I-TI
+49	##40	O	I-TI
+50	##분	O	I-TI
+51	##이	B-PS	O
+52	지난	O	O
+53	시점	O	O
+54	##이	O	O
+55	##었	O	O
+56	##다	O	O
+57	.	O	O
+58	[SEP]	O	O

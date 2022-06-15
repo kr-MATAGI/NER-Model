@@ -1,59 +1,16 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	이	O	O	O, B-OG, B-LC, B-CV, B-TM
-2	##에	O	O	O, B-CV, B-LC, I-AF, I-OG
-3	따라	O	O	O, B-LC, B-OG, B-CV, B-PS
-4	2018	B-DT	B-DT	B-DT, I-DT, O, B-QT, B-OG
-5	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-6	##까	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-7	##지	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-8	35	B-QT	B-QT	B-QT, I-QT, I-DT, B-DT, O
-9	##5	I-QT	I-QT	I-QT, I-DT, O, I-LC, B-QT
-10	##억	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-11	원	I-QT	I-QT	I-QT, O, I-LC, I-PS, I-DT
-12	##을	O	O	O, I-QT, B-CV, B-OG, B-LC
-13	투입	O	O	O, B-CV, B-LC, B-TM, B-OG
-14	##해	O	O	O, B-LC, B-AF, B-PS, B-OG
-15	캠프	B-AF	B-AF	B-AF, O, B-LC, I-AF, B-OG
-16	##그리	I-AF	I-AF	I-AF, O, B-AF, I-LC, I-EV
-17	##브스	I-AF	I-AF	I-AF, O, I-LC, I-EV, B-AF
-18	내	O	O	O, B-TM, I-AF, B-LC, I-TM
-19	미군	B-OG	B-OG	B-OG, O, B-LC, B-CV, I-OG
-20	##시설	O	O	O, I-OG, I-AF, I-LC, I-CV
-21	60	B-QT	B-QT	B-QT, O, I-QT, B-LC, B-PS
-22	##여	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-23	개	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-24	동	O	O	O, I-QT, B-LC, B-TM, B-AF
-25	중	O	O	O, B-TM, B-LC, B-AF, B-CV
-26	34	B-QT	B-QT	B-QT, I-QT, O, B-LC, B-PS
-27	##개	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-28	동	O	O	O, I-QT, B-LC, B-TM, B-AF
-29	##을	O	O	O, B-CV, I-AF, I-LC, B-LC
-30	활용	O	O	O, B-LC, B-CV, B-TM, B-PS
-31	##해	O	O	O, B-LC, B-PS, B-OG, I-LC
-32	역사	O	B-LC	B-LC, O, B-AF, B-TM, B-CV
-33	##공원	O	I-LC	I-LC, O, I-AF, B-LC, I-TM
-34	(	O	O	O, I-LC, B-LC, I-AF, I-QT
-35	10	B-QT	B-QT	B-QT, O, I-QT, B-LC, B-TM
-36	##만	I-QT	I-QT	I-QT, I-LC, O, B-QT, I-PS
-37	##20	I-QT	I-QT	I-QT, I-LC, O, B-QT, I-PS
-38	##00	I-QT	I-QT	I-QT, I-LC, O, B-QT, I-PS
-39	##m	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-40	##²	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-41	)	O	O	O, I-QT, B-CV, B-LC, I-LC
-42	과	O	O	O, B-CV, B-LC, B-AF, B-OG
-43	문화	O	O	O, B-LC, B-CV, B-TM, B-AF
-44	##시설	O	O	O, I-LC, I-CV, I-AF, I-TM
-45	(	O	O	O, B-LC, B-CV, B-OG, I-CV
-46	1	B-QT	B-QT	B-QT, O, B-LC, I-QT, B-PS
-47	##만	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-48	##60	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-49	##00	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-50	##m	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-51	##²	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-52	)	O	O	O, I-QT, B-CV, B-LC, I-LC
-53	을	O	O	O, B-CV, B-LC, B-OG, B-TM
-54	조성	O	O	O, B-LC, B-CV, B-TM, B-OG
-55	##한다	O	O	O, B-LC, B-CV, B-OG, B-PS
-56	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-57	[SEP]	O	O	O, B-LC, B-CV, B-TM, I-LC
+	text	label	preds
+0	[CLS]	O	O
+1	이	O	O
+2	~	O	O
+3	입시	O	B-TR
+4	##주의	O	I-TR
+5	##에	O	O
+6	교육	O	O
+7	##에	O	O
+8	##서	O	O
+9	이게	O	O
+10	파생	O	O
+11	##되	O	O
+12	##는	O	O
+13	문제	O	O
+14	[SEP]	O	O

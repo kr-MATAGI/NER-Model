@@ -1,58 +1,18 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-EV, I-AF
-1	경기	B-OG	B-OG	B-OG, O, B-LC, B-AF, B-PS
-2	##지방	I-OG	I-OG	I-OG, O, B-OG, I-AF, I-LC
-3	##경찰	I-OG	I-OG	I-OG, O, B-OG, I-AF, I-LC
-4	##청	I-OG	I-OG	I-OG, O, I-AF, I-LC, I-CV
-5	광역	O	B-OG	B-OG, O, I-OG, B-CV, B-AF
-6	##수	O	I-OG	I-OG, O, B-OG, I-CV, I-AF
-7	##사	O	I-OG	I-OG, O, I-CV, B-OG, I-AF
-8	##대	O	I-OG	I-OG, O, I-CV, I-AF, I-EV
-9	##는	O	O	O, I-OG, I-CV, I-EV, B-PS
-10	2	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-11	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-OG
-12	17	B-QT	B-QT	B-QT, I-QT, O, I-DT, B-DT
-13	##억	I-QT	I-QT	I-QT, O, I-DT, I-PS, I-LC
-14	##원	I-QT	I-QT	I-QT, O, I-LC, I-PS, I-DT
-15	##의	O	O	O, I-QT, B-PS, B-CV, B-LC
-16	보험금	O	O	O, B-CV, B-TM, B-AF, B-PS
-17	##을	O	O	O, B-PS, B-CV, I-CV, B-LC
-18	노리	O	O	O, B-CV, B-PS, B-LC, B-TM
-19	##고	O	O	O, B-PS, B-LC, B-CV, I-PS
-20	후배	B-CV	B-CV	B-CV, O, I-CV, B-AF, B-TM
-21	##를	O	O	O, I-CV, B-CV, B-PS, I-AF
-22	가스	O	O	O, B-MT, B-TM, I-MT, B-AF
-23	##에	O	O	O, B-PS, B-CV, I-AF, I-CV
-24	중독	O	O	O, B-TM, B-LC, B-CV, B-MT
-25	##시	O	O	O, B-PS, B-LC, B-CV, I-CV
-26	##켜	O	O	O, B-LC, B-PS, I-LC, I-CV
-27	살해	O	O	O, B-CV, B-TM, I-CV, B-LC
-28	##한	O	O	O, B-PS, I-CV, B-CV, B-LC
-29	혐의	O	O	O, B-CV, B-PS, B-LC, I-CV
-30	##로	O	O	O, B-PS, B-CV, B-LC, B-TM
-31	오	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-32	##모	O	O	O, I-PS, B-CV, B-PS, I-AF
-33	(	O	O	O, B-CV, B-PS, B-LC, B-TM
-34	33	B-QT	B-QT	B-QT, O, I-QT, B-PS, B-LC
-35	)	O	O	O, I-QT, B-PS, B-CV, I-PS
-36	씨	O	O	O, B-CV, B-PS, B-LC, B-TM
-37	등	O	O	O, B-PS, B-CV, B-LC, B-TM
-38	4	B-QT	B-QT	B-QT, O, I-QT, B-PS, B-DT
-39	##명	I-QT	I-QT	I-QT, O, I-PS, I-LC, I-OG
-40	##을	O	O	O, I-QT, B-CV, B-PS, I-EV
-41	구속	O	O	O, B-CV, B-TM, B-OG, B-PS
-42	##하고	O	O	O, I-CV, B-PS, B-CV, B-LC
-43	김	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-44	##모	O	O	O, I-PS, B-CV, B-PS, I-AF
-45	(	O	O	O, B-CV, B-PS, B-LC, B-TM
-46	33	B-QT	B-QT	B-QT, O, I-QT, B-PS, B-LC
-47	)	O	O	O, I-QT, B-CV, B-PS, I-EV
-48	씨	O	O	O, B-CV, B-PS, B-LC, B-TM
-49	##를	O	O	O, B-CV, B-PS, B-LC, B-TM
-50	불구	O	B-CV	B-CV, O, B-TM, I-CV, B-OG
-51	##속	O	I-CV	I-CV, O, B-CV, I-OG, I-TM
-52	입건	O	I-CV	I-CV, O, B-CV, I-OG, I-TM
-53	##했	O	O	O, I-CV, B-PS, I-OG, B-LC
-54	##다	O	O	O, B-CV, B-LC, B-PS, I-CV
-55	.	O	O	O, B-PS, B-LC, B-CV, B-TM
-56	[SEP]	O	O	O, B-PS, B-CV, B-LC, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	입시	O	O
+2	짓눌	O	O
+3	##렸	O	O
+4	##나	O	O
+5	…	O	O
+6	高	B-QT	B-QT
+7	3	I-QT	I-QT
+8	,	O	O
+9	키는	O	O
+10	줄	O	O
+11	##고	O	O
+12	살	O	B-AM
+13	##은	O	O
+14	쪘	O	O
+15	##다	O	O
+16	[SEP]	O	O

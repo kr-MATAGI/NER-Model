@@ -1,18 +1,35 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, B-CV, I-OG, I-AF
-1	어	O	O	O, B-CV, B-TM, B-OG, B-LC
-2	그래	O	O	O, B-CV, B-PS, B-TM, I-CV
-3	애	O	O	O, B-CV, B-PS, B-AM, I-CV
-4	학교	O	O	O, B-CV, I-CV, B-TM, B-OG
-5	보내	O	O	O, B-CV, I-CV, B-QT, B-PS
-6	놓	O	O	O, I-CV, B-CV, B-PS, B-TM
-7	##고	O	O	O, I-CV, B-CV, B-PS, I-QT
-8	여성	O	O	O, B-OG, B-AF, B-EV, B-CV
-9	##회관	O	O	O, I-OG, I-AF, I-LC, I-EV
-10	가	O	O	O, I-OG, I-AF, B-CV, I-EV
-11	##서	O	O	O, B-CV, B-PS, B-LC, B-QT
-12	오전	B-TI	B-TI	B-TI, O, B-QT, I-TI, B-EV
-13	내	I-TI	O	O, I-TI, I-QT, I-DT, I-CV
-14	그거	O	O	O, B-CV, I-CV, B-TM, B-QT
-15	하고	O	O	O, B-CV, B-TM, I-CV, B-QT
-16	[SEP]	O	O	O, B-CV, B-LC, I-CV, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	2022	B-DT	B-DT
+2	##년	I-DT	I-DT
+3	##부터	I-DT	I-DT
+4	##는	O	O
+5	탐방	O	O
+6	##로	O	O
+7	,	O	O
+8	야간	B-TI	O
+9	조명	O	O
+10	##시설	O	O
+11	등	O	O
+12	##을	O	O
+13	순차	O	O
+14	##적	O	O
+15	##으로	O	O
+16	설치	O	O
+17	##해	O	O
+18	202	B-DT	B-DT
+19	##4	I-DT	I-DT
+20	##년	I-DT	I-DT
+21	##에	O	O
+22	산성	O	O
+23	복원	O	O
+24	사업	O	O
+25	##을	O	O
+26	마무리	O	O
+27	##하	O	O
+28	##겠다	O	O
+29	##는	O	O
+30	계획	O	O
+31	##이다	O	O
+32	.	O	O
+33	[SEP]	O	O

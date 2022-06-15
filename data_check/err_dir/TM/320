@@ -1,19 +1,60 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-QT
-1	피안	B-TM	O	O, B-TM, B-QT, B-TR, B-AF
-2	##타	I-TM	O	O, I-TM, I-QT, I-TR, B-TM
-3	##율	I-TM	O	O, I-TM, I-QT, I-TR, B-TM
-4	##도	O	O	O, I-TM, I-QT, I-OG, I-TR
-5	1	B-QT	B-QT	B-QT, B-EV, B-TI, B-DT, B-AF
-6	##회	I-QT	I-QT	I-QT, I-EV, I-AF, I-TI, I-TM
-7	##에	O	O	O, I-QT, I-EV, I-AF, I-OG
-8	0	B-QT	B-QT	B-QT, I-QT, O, B-TM, B-EV
-9	.	I-QT	I-QT	I-QT, O, I-EV, B-QT, I-TM
-10	302	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-TM
-11	##로	O	O	O, I-QT, B-CV, I-EV, I-OG
-12	가장	O	O	O, B-CV, B-QT, I-QT, B-TM
-13	높	O	O	O, B-CV, B-QT, B-TM, I-QT
-14	##았	O	O	O, B-CV, B-QT, B-TM, I-QT
-15	##다	O	O	O, B-CV, B-TM, B-QT, I-QT
-16	.	O	O	O, B-CV, B-QT, B-PS, B-TM
-17	[SEP]	O	O	O, B-CV, B-TM, B-QT, I-QT
+	text	label	preds
+0	[CLS]	O	O
+1	12	B-DT	B-DT
+2	##월	I-DT	I-DT
+3	1	I-DT	I-DT
+4	##일	I-DT	I-DT
+5	서울	B-LC	B-LC
+6	청계	B-LC	B-LC
+7	##광장	I-LC	I-LC
+8	##에	O	O
+9	##서	O	O
+10	대통령	B-OG	B-OG
+11	##직	I-OG	I-OG
+12	##속	I-OG	I-OG
+13	청년	I-OG	I-OG
+14	##위원회	I-OG	I-OG
+15	##와	O	O
+16	함께	O	O
+17	진행	O	O
+18	##하	O	O
+19	##는	O	O
+20	‘	O	O
+21	청춘	B-TM	B-EV
+22	##과	I-TM	I-EV
+23	하이	I-TM	I-EV
+24	##파이	I-TM	I-EV
+25	##브	I-TM	I-EV
+26	’	O	O
+27	프로젝트	O	O
+28	##는	O	O
+29	폭	O	O
+30	10	B-QT	B-QT
+31	##m	I-QT	I-QT
+32	,	O	O
+33	높이	O	O
+34	2	B-QT	B-QT
+35	.	I-QT	I-QT
+36	4	I-QT	I-QT
+37	##m	I-QT	I-QT
+38	##의	I-QT	O
+39	대형	O	O
+40	캔버스	O	O
+41	##에	O	O
+42	그라	B-FD	B-FD
+43	##피	I-FD	I-FD
+44	##티	I-FD	I-FD
+45	형태	O	O
+46	##의	O	O
+47	미술	O	O
+48	##작	O	O
+49	##품	O	O
+50	##을	O	O
+51	제작	O	O
+52	##하	O	O
+53	##는	O	O
+54	아트	O	O
+55	퍼포먼스	O	O
+56	##다	O	O
+57	.	O	O
+58	[SEP]	O	O

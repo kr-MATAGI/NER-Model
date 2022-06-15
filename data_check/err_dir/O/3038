@@ -1,32 +1,49 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, I-OG, I-EV, B-CV
-1	한국	B-LC	B-LC	B-LC, B-OG, O, B-CV, B-PS
-2	승마	B-CV	B-CV	B-CV, O, I-CV, B-FD, I-LC
-3	사상	O	O	O, I-CV, I-OG, B-CV, I-EV
-4	처음	O	O	O, B-QT, B-EV, B-CV, B-DT
-5	아시안	B-EV	B-EV	B-EV, O, B-LC, B-OG, I-EV
-6	##게임	I-EV	I-EV	I-EV, O, B-EV, I-OG, I-AF
-7	종합	O	O	O, I-EV, B-CV, B-EV, B-TM
-8	##마	O	O	O, B-CV, I-CV, I-EV, B-FD
-9	##술	O	O	O, I-CV, I-EV, I-TM, I-TR
-10	개인	O	O	O, B-EV, I-EV, B-CV, B-QT
-11	,	O	O	O, I-EV, I-DT, B-EV, I-QT
-12	단체전	O	B-EV	B-EV, O, I-EV, B-CV, B-QT
-13	##을	O	O	O, I-EV, I-CV, I-OG, I-DT
-14	휩	O	O	O, B-CV, B-PS, B-LC, B-OG
-15	##쓴	O	O	O, B-DT, B-CV, B-PS, B-LC
-16	날	O	O	O, B-DT, I-DT, B-CV, B-LC
-17	그	O	O	O, B-CV, B-PS, I-CV, I-EV
-18	##는	O	O	O, B-CV, B-PS, B-LC, I-EV
-19	머릿속	O	O	O, B-TM, B-AM, B-PS, B-LC
-20	##에	O	O	O, B-PS, B-CV, B-LC, B-TM
-21	김형	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-22	##칠	I-PS	I-PS	I-PS, O, B-PS, I-OG, I-LC
-23	##을	O	O	O, I-PS, B-CV, I-OG, B-PS
-24	떠올리	O	O	O, B-CV, B-TM, B-LC, B-PS
-25	##고	O	O	O, B-PS, B-CV, B-LC, B-TM
-26	있	O	O	O, B-CV, B-PS, B-TM, B-LC
-27	##었	O	O	O, B-CV, B-PS, B-LC, I-CV
-28	##다	O	O	O, B-CV, B-PS, I-CV, B-LC
-29	.	O	O	O, B-PS, B-CV, B-LC, I-EV
-30	[SEP]	O	O	O, B-CV, B-PS, I-EV, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	코스닥	O	O
+2	##시장	O	O
+3	##에	O	O
+4	##서	O	O
+5	상	B-OG	B-OG
+6	##신	I-OG	I-OG
+7	##이	I-OG	I-OG
+8	##디	I-OG	I-OG
+9	##피	I-OG	I-OG
+10	##는	O	O
+11	750	B-QT	B-QT
+12	##원	I-QT	I-QT
+13	(	O	O
+14	15	B-QT	B-QT
+15	%	I-QT	I-QT
+16	)	O	O
+17	오른	O	O
+18	57	B-QT	B-QT
+19	##50	I-QT	I-QT
+20	##원	I-QT	I-QT
+21	##에	O	O
+22	,	O	O
+23	넥스	O	B-OG
+24	##콘	O	I-OG
+25	##테크	O	I-OG
+26	##는	O	O
+27	93	B-QT	B-QT
+28	##0	I-QT	I-QT
+29	##원	I-QT	I-QT
+30	(	O	O
+31	9	B-QT	B-QT
+32	.	I-QT	I-QT
+33	8	I-QT	I-QT
+34	%	I-QT	I-QT
+35	)	O	O
+36	오른	O	O
+37	1	B-QT	B-QT
+38	##만	I-QT	I-QT
+39	##40	I-QT	I-QT
+40	##0	I-QT	I-QT
+41	##원	I-QT	I-QT
+42	##에	O	O
+43	마감	O	O
+44	##했	O	O
+45	##다	O	O
+46	.	O	O
+47	[SEP]	O	O

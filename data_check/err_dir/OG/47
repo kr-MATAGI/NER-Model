@@ -1,45 +1,53 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	이	O	O	O, B-OG, B-CV, B-PS, B-LC
-2	##는	O	O	O, B-CV, B-LC, B-OG, B-PS
-3	박	B-PS	B-PS	B-PS, B-OG, O, B-LC, I-PS
-4	##길	I-PS	I-PS	I-PS, I-OG, O, B-PS, I-LC
-5	##연	I-PS	I-PS	I-PS, O, I-OG, I-LC, B-LC
-6	북한	B-LC	B-LC	B-LC, B-OG, O, I-PS, I-LC
-7	외무성	B-OG	B-OG	B-OG, B-AF, O, I-OG, B-LC
-8	부상	B-CV	B-CV	B-CV, O, I-CV, I-OG, B-OG
-9	##이	O	O	O, I-CV, B-PS, I-EV, B-CV
-10	지난달	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-QT
-11	28	I-DT	I-DT	I-DT, O, B-DT, I-PS, I-EV
-12	##일	I-DT	I-DT	I-DT, O, B-DT, I-EV, I-PS
-13	유엔	B-OG	B-EV	B-EV, B-OG, O, B-LC, B-AF
-14	##총	I-OG	I-EV	I-EV, O, I-OG, B-EV, I-AF
-15	##회	I-OG	I-EV	I-EV, O, I-OG, I-AF, I-LC
-16	기조연설	O	O	O, I-EV, B-CV, B-EV, B-LC
-17	##에서	O	O	O, I-EV, I-CV, B-CV, I-OG
-18	밝힌	O	O	O, B-CV, B-PS, B-LC, B-TM
-19	내용	O	O	O, B-CV, B-PS, B-FD, B-LC
-20	##을	O	O	O, B-CV, B-PS, B-LC, B-OG
-21	되풀이	O	O	O, B-CV, B-LC, B-PS, B-QT
-22	##한	O	O	O, B-LC, B-PS, B-OG, B-CV
-23	것	O	O	O, B-PS, B-OG, B-LC, B-CV
-24	##으로	O	O	O, B-PS, B-OG, B-LC, B-CV
-25	북한	B-OG	B-OG	B-OG, B-LC, O, B-PS, B-AF
-26	##의	O	O	O, I-OG, B-PS, I-LC, B-OG
-27	핵	B-AF	B-AF	B-AF, O, B-MT, I-AF, B-PS
-28	폐기	O	O	O, I-AF, I-EV, B-CV, I-PS
-29	의지	O	O	O, B-PS, B-LC, B-CV, B-OG
-30	##와	O	O	O, B-LC, B-PS, B-CV, B-OG
-31	##는	O	O	O, B-LC, B-OG, B-CV, B-TM
-32	거리	O	O	O, B-LC, B-PS, B-TM, B-QT
-33	##가	O	O	O, B-PS, B-LC, B-OG, B-CV
-34	멀	O	O	O, B-LC, B-PS, B-TM, B-OG
-35	##다는	O	O	O, B-PS, B-LC, B-OG, B-TM
-36	게	O	O	O, B-PS, B-LC, B-OG, B-CV
-37	한국	B-LC	B-LC	B-LC, B-OG, O, B-PS, B-AF
-38	정부	B-OG	B-OG	B-OG, B-LC, B-AF, I-OG, O
-39	##의	O	O	O, I-OG, B-CV, I-AF, I-CV
-40	평가	O	O	O, B-CV, B-PS, B-TR, B-QT
-41	##다	O	O	O, B-CV, I-CV, I-OG, B-TM
-42	.	O	O	O, B-LC, B-PS, B-OG, B-CV
-43	[SEP]	O	O	O, B-LC, B-PS, B-CV, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	월스트리트	B-LC	B-OG
+2	투자	B-OG	I-OG
+3	##은행	I-OG	I-OG
+4	직원	B-CV	B-CV
+5	전모	O	O
+6	##씨	O	O
+7	##도	O	O
+8	""""	O	O
+9	미국	B-LC	B-LC
+10	회사	O	O
+11	내	O	O
+12	##에	O	O
+13	아시아	B-CV	B-CV
+14	##인	I-CV	I-CV
+15	몫	O	O
+16	##은	O	O
+17	정해져	O	O
+18	있	O	O
+19	##는데	O	O
+20	,	O	O
+21	중국	B-LC	B-LC
+22	파트너	B-CV	B-CV
+23	##들의	O	O
+24	영향	O	O
+25	##은	O	O
+26	커지	O	O
+27	##는	O	O
+28	반면	O	O
+29	한국	B-LC	B-LC
+30	파트너	B-CV	B-CV
+31	##들	O	O
+32	##은	O	O
+33	외부	O	O
+34	도움	O	O
+35	##이	O	O
+36	거의	O	O
+37	없	O	O
+38	##어	O	O
+39	입지	O	O
+40	##가	O	O
+41	점점	O	O
+42	줄어들	O	O
+43	##고	O	O
+44	있	O	O
+45	##다	O	O
+46	""""	O	O
+47	고	O	O
+48	전했	O	O
+49	##다	O	O
+50	.	O	O
+51	[SEP]	O	O

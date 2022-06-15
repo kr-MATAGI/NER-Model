@@ -1,43 +1,33 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-EV, I-OG
-1	한	O	O	O, B-QT, B-LC, B-PS, B-OG
-2	아동	O	B-FD	B-FD, O, B-CV, I-FD, B-AF
-3	##극	O	I-FD	I-FD, O, B-FD, I-AF, I-CV
-4	제작자	B-CV	B-CV	B-CV, O, I-CV, I-FD, B-FD
-5	##는	O	O	O, I-CV, I-QT, B-CV, I-OG
-6	""""	O	O	O, B-CV, B-LC, B-TM, B-QT
-7	많	O	O	O, B-OG, B-LC, B-QT, B-PS
-8	##은	O	O	O, B-PS, B-OG, B-LC, B-CV
-9	아동	O	O	O, B-FD, B-CV, B-OG, B-AF
-10	##극	O	O	O, I-FD, B-FD, I-OG, I-AF
-11	##이	O	O	O, I-FD, B-PS, I-OG, I-AF
-12	공연	O	O	O, B-CV, B-FD, B-TM, B-LC
-13	자체	O	O	O, B-CV, I-EV, B-PS, I-AF
-14	##를	O	O	O, B-CV, B-TM, B-LC, B-PS
-15	취소	O	O	O, B-CV, B-TM, B-LC, B-QT
-16	##한	O	O	O, B-PS, B-LC, B-CV, B-OG
-17	상황	O	O	O, B-CV, B-TM, B-LC, B-QT
-18	##인	O	O	O, B-PS, B-CV, B-OG, B-LC
-19	##데	O	O	O, B-LC, B-OG, B-CV, I-OG
-20	어떻게	O	O	O, B-LC, B-QT, B-CV, B-TM
-21	'	O	O	O, B-CV, B-LC, B-QT, B-OG
-22	1	B-QT	B-QT	B-QT, I-QT, O, B-OG, B-DT
-23	+	I-QT	I-QT	I-QT, B-QT, O, I-OG, I-LC
-24	1	I-QT	I-QT	I-QT, B-QT, O, I-OG, I-LC
-25	'	O	O	O, I-QT, I-OG, B-CV, I-EV
-26	지원	O	O	O, B-CV, B-TM, B-OG, B-LC
-27	##을	O	O	O, B-CV, B-OG, B-PS, B-TM
-28	받	O	O	O, B-CV, B-LC, B-OG, B-TM
-29	##을	O	O	O, B-CV, B-LC, B-OG, B-PS
-30	수	O	O	O, B-CV, B-TM, B-PS, B-LC
-31	있	O	O	O, B-CV, B-TM, B-QT, B-LC
-32	##겠	O	O	O, B-CV, B-TM, I-OG, B-QT
-33	##느	O	O	O, B-CV, I-OG, B-QT, I-CV
-34	##냐	O	O	O, I-OG, I-QT, B-QT, B-CV
-35	""""	O	O	O, B-CV, B-TM, B-LC, I-QT
-36	고	O	O	O, B-CV, B-TM, B-QT, B-FD
-37	말	O	O	O, B-CV, B-TM, B-QT, I-QT
-38	##했	O	O	O, B-CV, I-OG, I-CV, B-PS
-39	##다	O	O	O, B-CV, B-TM, B-QT, I-EV
-40	.	O	O	O, B-CV, B-LC, B-PS, B-OG
-41	[SEP]	O	O	O, B-CV, B-LC, I-EV, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	나리	B-PS	B-PS
+2	##스	I-PS	I-PS
+3	##는	O	O
+4	""""	O	O
+5	우리	O	O
+6	##는	O	O
+7	화장품	O	O
+8	##이	O	O
+9	아니	O	O
+10	##라	O	O
+11	자연	O	O
+12	친화	O	O
+13	##적	O	O
+14	##인	O	O
+15	핀란드	O	B-LC
+16	##의	O	O
+17	헤	O	O
+18	##리티	O	O
+19	##지	O	O
+20	(	O	O
+21	유산	O	O
+22	)	O	O
+23	를	O	O
+24	판매	O	O
+25	##한다	O	O
+26	""""	O	O
+27	고	O	O
+28	했	O	O
+29	##다	O	O
+30	.	O	O
+31	[SEP]	O	O

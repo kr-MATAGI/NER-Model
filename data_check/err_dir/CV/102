@@ -1,23 +1,26 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-AF
-1	[	O	O	O, B-LC, B-OG, B-PS, B-CV
-2	미래	O	O	O, B-LC, B-AF, B-PS, B-OG
-3	##로	O	O	O, B-PS, I-AF, I-OG, I-PS
-4	뛰	O	O	O, B-PS, B-LC, B-OG, B-CV
-5	##는	O	O	O, B-PS, B-LC, I-AF, I-OG
-6	한국	B-LC	B-LC	B-LC, O, B-OG, I-LC, B-CV
-7	##기업	O	O	O, I-OG, I-LC, B-OG, B-CV
-8	]	O	O	O, I-OG, B-PS, B-LC, I-AF
-9	신	O	O	O, B-CV, B-TM, B-AF, B-MT
-10	##소	O	O	O, I-CV, I-AF, B-CV, I-TM
-11	##재	O	O	O, I-CV, I-AF, I-TM, I-FD
-12	탄소	B-MT	B-MT	B-MT, O, B-TM, B-CV, I-MT
-13	##섬유	I-MT	I-MT	I-MT, O, I-TM, B-MT, I-CV
-14	-	O	O	O, I-MT, I-TM, I-AF, I-OG
-15	폴리	B-CV	B-MT	B-MT, O, I-MT, B-CV, B-TM
-16	##케	I-CV	I-MT	I-MT, O, I-TM, B-MT, I-CV
-17	##톤	I-CV	I-MT	I-MT, O, I-TM, I-CV, B-MT
-18	원천	O	O	O, I-MT, I-TM, B-LC, B-TM
-19	기술력	O	O	O, B-LC, B-CV, B-TM, B-OG
-20	자랑	O	O	O, B-LC, B-OG, B-CV, B-TM
-21	[SEP]	O	O	O, B-LC, B-CV, B-AF, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	그	O	O
+2	시절	O	O
+3	##을	O	O
+4	약간	O	O
+5	우리	O	O
+6	##가	O	O
+7	좀	O	O
+8	속	O	O
+9	##된	O	O
+10	말	O	O
+11	##로	O	O
+12	식민지	B-CV	O
+13	##였	O	O
+14	##나	O	O
+15	이런	O	O
+16	생각	O	O
+17	##도	O	O
+18	갖	O	O
+19	##고	O	O
+20	있	O	O
+21	##더라	O	O
+22	##구요	O	O
+23	.	O	O
+24	[SEP]	O	O

@@ -1,13 +1,83 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	하	O	O	O, B-CV, B-OG, B-TM, B-AF
-2	##는	O	O	O, B-CV, B-PS, I-AF, I-OG
-3	거	O	O	O, B-CV, B-PS, B-OG, I-OG
-4	같	O	O	O, B-CV, B-PS, B-OG, B-TM
-5	##대	O	O	O, I-OG, I-AF, I-TM, I-LC
-6	그	O	O	O, B-CV, B-AF, B-LC, B-OG
-7	차체	O	B-AF	B-AF, O, B-TM, B-CV, I-AF
-8	자체	O	O	O, I-AF, I-DT, I-CV, I-TM
-9	##가	O	O	O, I-AF, B-PS, B-CV, B-LC
-10	.	O	O	O, B-CV, B-LC, B-OG, B-TM
-11	[SEP]	O	O	O, B-CV, B-LC, B-OG, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	홍	B-PS	B-PS
+2	대표	B-CV	B-CV
+3	##는	O	O
+4	인사	O	O
+5	문제	O	O
+6	##에	O	O
+7	대해서	O	O
+8	##도	O	O
+9	""""	O	O
+10	인사	O	O
+11	##는	O	O
+12	믿	O	O
+13	##을	O	O
+14	만한	O	O
+15	사람	O	O
+16	,	O	O
+17	'	O	O
+18	노블	O	O
+19	##레스	O	O
+20	오	O	O
+21	##블리	O	O
+22	##주	O	O
+23	'	O	O
+24	하	O	O
+25	##는	O	O
+26	사람	O	O
+27	,	O	O
+28	(	O	O
+29	주변	O	O
+30	##에	O	O
+31	##서	O	O
+32	)	O	O
+33	따라갈	O	O
+34	만한	O	O
+35	사람	O	O
+36	##으로	O	O
+37	해야	O	O
+38	국민	B-CV	B-CV
+39	##이	O	O
+40	따라	O	O
+41	##온다	O	O
+42	""""	O	O
+43	면서	O	O
+44	""""	O	O
+45	이	O	B-PS
+46	정부	B-OG	B-OG
+47	초기	O	O
+48	##부터	O	O
+49	인사	O	B-EV
+50	##청	O	I-EV
+51	##문	O	I-EV
+52	##회	O	I-EV
+53	##를	O	O
+54	할	O	O
+55	때	O	O
+56	##마	O	O
+57	##다	O	O
+58	장관	B-CV	B-CV
+59	##될	O	O
+60	사람	O	O
+61	##들이	O	O
+62	낙마	O	O
+63	##를	O	O
+64	하	O	O
+65	##니	O	O
+66	국민	B-CV	B-CV
+67	##이	O	O
+68	자꾸	O	O
+69	실망	O	O
+70	##하	O	O
+71	##고	O	O
+72	마음	O	O
+73	##이	O	O
+74	떠나	O	O
+75	##간다	O	O
+76	""""	O	O
+77	고	O	O
+78	했	O	O
+79	##다	O	O
+80	.	O	O
+81	[SEP]	O	O

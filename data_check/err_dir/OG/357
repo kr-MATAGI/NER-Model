@@ -1,34 +1,49 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	[	O	O	O, B-LC, B-OG, B-PS, B-CV
-2	'	O	O	O, B-LC, B-PS, B-DT, B-OG
-3	내일	B-DT	B-DT	B-DT, O, B-LC, B-EV, I-DT
-4	##의	O	O	O, I-DT, B-LC, B-PS, I-LC
-5	韓	B-LC	B-LC	B-LC, O, B-OG, I-LC, B-CV
-6	國	I-LC	I-LC	I-LC, O, B-LC, I-OG, I-PS
-7	'	O	O	O, I-LC, B-LC, I-OG, B-PS
-8	을	O	O	O, B-LC, B-PS, B-OG, I-LC
-9	꿈꾸	O	O	O, B-LC, B-PS, B-OG, B-CV
-10	##는	O	O	O, B-LC, B-PS, B-OG, I-LC
-11	나라	O	O	O, B-LC, B-OG, I-LC, B-CV
-12	##들	O	O	O, I-OG, I-LC, B-LC, I-AF
-13	]	O	O	O, B-LC, B-PS, B-OG, B-CV
-14	(	O	O	O, B-LC, B-OG, B-CV, B-PS
-15	5	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-EV
-16	)	O	O	O, I-QT, I-DT, I-OG, I-EV
-17	한국	B-OG	B-LC	B-LC, B-OG, O, B-PS, B-AF
-18	##이	O	O	O, I-OG, I-LC, B-PS, I-PS
-19	세운	O	O	O, B-OG, I-OG, B-CV, B-LC
-20	학교	O	O	O, B-OG, B-AF, B-CV, B-TM
-21	10	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-EV
-22	##여	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-23	##곳	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-24	,	O	O	O, I-QT, B-LC, B-OG, B-CV
-25	명문	O	O	O, B-LC, B-CV, B-OG, B-PS
-26	'	O	O	O, B-LC, B-PS, B-CV, B-OG
-27	코리아	B-LC	B-LC	B-LC, O, B-OG, B-AF, B-PS
-28	교육	O	O	O, B-LC, I-LC, B-CV, B-PS
-29	##벨트	O	O	O, B-LC, I-LC, B-PS, B-AF
-30	'	O	O	O, I-LC, B-LC, B-CV, I-AF
-31	로	O	O	O, B-LC, B-OG, B-PS, B-CV
-32	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	[	O	O
+2	北	B-OG	B-LC
+3	미사일	B-AF	B-AF
+4	도발	O	O
+5	]	O	O
+6	트럼프	B-PS	B-PS
+7	“	O	O
+8	문재인	B-PS	B-PS
+9	대통령	B-CV	B-CV
+10	,	O	O
+11	北	B-OG	B-OG
+12	과	O	O
+13	##의	O	O
+14	대화	O	O
+15	##는	O	O
+16	특정	O	O
+17	상황	O	O
+18	##서	O	O
+19	이뤄져야	O	O
+20	”	O	O
+21	12	B-DT	B-DT
+22	##일	I-DT	I-DT
+23	강조	O	O
+24	…	O	O
+25	美	B-OG	B-OG
+26	대표단	O	O
+27	15	B-DT	B-DT
+28	##일	I-DT	I-DT
+29	방한	O	O
+30	,	O	O
+31	정상	B-EV	B-EV
+32	##회	I-EV	I-EV
+33	##담	I-EV	I-EV
+34	조율	O	O
+35	中	O	B-LC
+36	,	O	O
+37	일대	O	O
+38	##일로	O	O
+39	잔	O	O
+40	##칫	O	O
+41	##날	O	O
+42	재	O	O
+43	##뿌	O	O
+44	##린	O	O
+45	北	B-OG	B-OG
+46	비난	O	O
+47	[SEP]	O	O

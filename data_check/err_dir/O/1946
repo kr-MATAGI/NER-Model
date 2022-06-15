@@ -1,37 +1,34 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	정부	B-OG	B-OG	B-OG, O, B-LC, B-AF, B-CV
-2	##는	O	O	O, I-OG, I-EV, B-CV, I-AF
-3	광복	B-EV	B-EV	B-EV, O, B-LC, B-DT, B-AF
-4	70	B-DT	B-DT	B-DT, I-DT, I-EV, B-EV, O
-5	##주	I-DT	I-DT	I-DT, I-EV, O, I-QT, B-DT
-6	##년	I-DT	I-DT	I-DT, O, I-EV, I-QT, B-DT
-7	##을	O	O	O, I-DT, I-EV, I-QT, I-OG
-8	맞아	O	O	O, B-CV, B-LC, B-OG, B-PS
-9	최태원	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-10	SK	B-OG	B-OG	B-OG, O, I-OG, B-CV, I-PS
-11	##그룹	I-OG	I-OG	I-OG, O, I-PS, I-LC, I-AF
-12	회장	B-CV	B-CV	B-CV, O, I-CV, I-OG, B-AF
-13	등	O	O	O, I-CV, B-CV, I-OG, I-QT
-14	총	O	O	O, B-QT, B-DT, B-TM, B-PS
-15	65	B-QT	B-QT	B-QT, I-QT, O, B-DT, B-PS
-16	##27	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-17	##명	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-18	##을	O	O	O, I-QT, B-CV, B-PS, B-TM
-19	특별	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-OG
-20	##사	I-CV	I-CV	I-CV, O, B-CV, I-TM, I-QT
-21	##면	I-CV	I-CV	I-CV, O, B-CV, I-TM, I-QT
-22	,	O	O	O, I-CV, I-QT, I-OG, I-AF
-23	감	O	O	O, B-CV, I-CV, B-TM, B-OG
-24	##형	O	I-CV	I-CV, O, B-CV, I-TM, I-OG
-25	,	O	O	O, I-CV, B-PS, I-OG, I-QT
-26	복권	O	O	O, B-CV, I-CV, B-TM, B-QT
-27	##했	O	O	O, I-CV, B-PS, I-OG, I-AF
-28	##다고	O	O	O, B-OG, B-LC, B-PS, B-CV
-29	13	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-30	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-31	발표	O	O	O, I-DT, B-CV, B-OG, I-OG
-32	##했	O	O	O, B-CV, B-OG, B-LC, I-OG
-33	##다	O	O	O, B-CV, B-LC, B-OG, I-OG
-34	.	O	O	O, B-LC, B-CV, B-OG, B-PS
-35	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	이번	O	O
+2	사태	O	O
+3	직후	O	O
+4	##에도	O	O
+5	“	O	O
+6	샬	B-LC	B-LC
+7	##러	I-LC	I-LC
+8	##츠	I-LC	I-LC
+9	##빌	I-LC	I-LC
+10	##로	O	O
+11	돌아가	O	O
+12	우리	O	O
+13	##의	O	O
+14	반대	O	B-CV
+15	##자	O	I-CV
+16	##들	O	O
+17	##을	O	O
+18	모두	O	O
+19	굴복	O	O
+20	##시	O	O
+21	##키	O	O
+22	##겠다	O	O
+23	”	O	O
+24	고	O	O
+25	호	O	O
+26	##언	O	O
+27	##장	O	O
+28	##담	O	O
+29	##했	O	O
+30	##다	O	O
+31	.	O	O
+32	[SEP]	O	O

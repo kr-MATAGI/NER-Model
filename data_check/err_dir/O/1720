@@ -1,39 +1,26 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	공사	O	B-OG	B-OG, O, B-CV, I-OG, B-AF
-2	##가	O	O	O, I-OG, B-PS, I-CV, I-EV
-3	재	O	O	O, B-LC, B-CV, B-TM, B-OG
-4	##공	O	O	O, B-LC, B-PS, B-CV, I-OG
-5	##모	O	O	O, B-LC, I-OG, I-EV, B-PS
-6	##한	O	O	O, B-LC, B-PS, B-OG, B-CV
-7	결과	O	O	O, B-OG, B-CV, B-LC, B-TM
-8	2	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-EV
-9	##개	I-QT	I-QT	I-QT, O, I-LC, I-DT, I-PS
-10	컨소시엄	O	O	O, B-OG, I-QT, I-OG, B-CV
-11	##이	O	O	O, I-OG, B-PS, B-OG, B-LC
-12	190	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-PS
-13	##억	I-QT	I-QT	I-QT, O, I-LC, I-PS, I-OG
-14	##∼	I-QT	I-QT	I-QT, O, I-LC, I-DT, B-QT
-15	##19	I-QT	I-QT	I-QT, B-QT, O, I-LC, I-DT
-16	##8	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-17	##억	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-18	원	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-DT
-19	##을	O	O	O, I-QT, B-CV, B-OG, I-OG
-20	들여	O	O	O, B-AF, B-LC, B-OG, B-TM
-21	월미	B-AF	B-AF	B-AF, B-LC, O, B-OG, I-AF
-22	##은	I-AF	I-AF	I-AF, B-AF, O, I-LC, I-OG
-23	##하	I-AF	I-AF	I-AF, O, B-AF, I-LC, I-OG
-24	##레일	I-AF	I-AF	I-AF, O, I-LC, I-OG, B-AF
-25	##을	O	O	O, I-AF, B-AF, I-EV, B-LC
-26	레일	O	O	O, B-AF, B-TM, B-AM, B-CV
-27	##바이	O	O	O, I-AF, I-TM, B-AF, I-CV
-28	##크로	O	O	O, I-AF, I-TM, I-LC, I-CV
-29	재개	O	O	O, I-AF, B-LC, B-TM, I-TM
-30	##통	O	O	O, I-AF, I-TM, I-LC, I-OG
-31	##하기	O	O	O, B-LC, B-CV, B-PS, B-OG
-32	##로	O	O	O, B-CV, B-LC, B-OG, B-TM
-33	제안	O	O	O, B-CV, B-LC, B-TM, B-AF
-34	##했	O	O	O, I-OG, B-LC, B-CV, B-PS
-35	##다	O	O	O, B-CV, I-OG, B-LC, B-TM
-36	.	O	O	O, B-LC, B-PS, B-OG, B-TM
-37	[SEP]	O	O	O, B-LC, B-CV, B-TM, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	아랍에미리트	B-LC	B-TM
+2	(	O	I-TM
+3	UAE	B-LC	I-TM
+4	)	O	I-TM
+5	원자력	B-TM	I-TM
+6	##발전	I-TM	I-TM
+7	##사업	I-TM	I-TM
+8	프로젝트	I-TM	I-TM
+9	##에	O	O
+10	한전	B-OG	B-OG
+11	컨소시엄	O	O
+12	##이	O	O
+13	최종	B-CV	O
+14	##사업	I-CV	O
+15	##자	I-CV	O
+16	##로	O	O
+17	선정	O	O
+18	##됐	O	O
+19	##다는	O	O
+20	전화	O	O
+21	##였	O	O
+22	##다	O	O
+23	.	O	O
+24	[SEP]	O	O

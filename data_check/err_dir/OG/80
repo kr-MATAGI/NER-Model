@@ -1,22 +1,12 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	한국	B-LC	B-LC	B-LC, B-OG, O, B-PS, B-CV
-2	선수	B-CV	B-CV	B-CV, I-CV, O, B-OG, I-OG
-3	##들	O	O	O, I-CV, I-OG, I-AF, I-EV
-4	##은	O	O	O, B-CV, B-TM, B-OG, B-LC
-5	아르헨티나	B-OG	B-LC	B-LC, B-OG, O, B-PS, B-AF
-6	##의	O	O	O, I-OG, I-LC, I-AF, B-CV
-7	개인기	O	O	O, B-TM, B-CV, B-LC, I-AF
-8	##와	O	O	O, B-CV, B-TM, B-OG, B-PS
-9	패스	B-TM	B-TM	B-TM, O, B-TR, B-CV, I-TM
-10	플레이	I-TM	O	O, I-TM, I-CV, B-TM, I-TR
-11	##에	O	O	O, I-TM, B-CV, I-CV, I-AF
-12	고전	O	O	O, B-CV, B-TM, B-LC, B-OG
-13	##했	O	O	O, B-LC, B-CV, B-OG, B-PS
-14	##음	O	O	O, B-CV, B-PS, B-LC, B-TM
-15	##을	O	O	O, B-CV, B-PS, B-TM, B-OG
-16	인정	O	O	O, B-CV, B-TM, B-LC, B-OG
-17	##했	O	O	O, B-CV, B-LC, B-PS, I-CV
-18	##다	O	O	O, B-CV, B-TM, B-LC, I-OG
-19	.	O	O	O, B-CV, B-LC, B-TM, B-OG
-20	[SEP]	O	O	O, B-CV, B-TM, B-LC, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	◇	O	O
+2	日	B-OG	B-LC
+3	,	O	O
+4	미국	B-LC	B-LC
+5	##도	O	O
+6	아베노	B-CV	B-CV
+7	##믹스	I-CV	I-CV
+8	용인	O	O
+9	주장	O	O
+10	[SEP]	O	O

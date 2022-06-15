@@ -1,49 +1,79 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-EV, I-OG, I-CV
-1	박수	B-PS	B-PS	B-PS, B-OG, O, B-LC, B-AF
-2	##현	I-PS	I-PS	I-PS, I-OG, O, I-DT, I-LC
-3	청와대	B-AF	B-OG	B-OG, B-AF, O, B-LC, I-OG
-4	대변인	B-CV	B-CV	B-CV, O, I-CV, I-OG, B-OG
-5	##은	O	O	O, I-CV, I-OG, I-EV, I-AF
-6	이날	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-QT
-7	브리핑	O	O	O, I-DT, B-CV, I-EV, B-OG
-8	##에서	O	O	O, I-EV, I-OG, B-LC, I-AF
-9	“	O	O	O, B-LC, B-CV, B-OG, B-PS
-10	3	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-QT
-11	##일	I-DT	I-DT	I-DT, O, B-DT, I-OG, I-QT
-12	민정	O	B-OG	B-OG, O, B-AF, B-CV, I-OG
-13	##비	O	I-OG	I-OG, O, I-AF, I-CV, I-EV
-14	##서관	O	I-OG	I-OG, O, I-AF, I-CV, I-EV
-15	##실	O	I-OG	I-OG, O, I-AF, I-CV, I-LC
-16	공간	O	O	O, I-OG, I-AF, B-TM, B-CV
-17	##을	O	O	O, B-CV, B-TM, B-LC, I-AF
-18	재배치	O	O	O, B-CV, B-TM, B-OG, B-LC
-19	##하	O	O	O, B-PS, B-OG, B-LC, B-CV
-20	##던	O	O	O, B-PS, B-LC, B-OG, B-TM
-21	중	O	O	O, B-LC, B-PS, B-TM, B-QT
-22	한	O	B-QT	B-QT, O, B-TM, B-AF, B-LC
-23	캐	O	I-QT	I-QT, O, B-QT, I-LC, I-AF
-24	##비	O	I-QT	I-QT, O, I-LC, I-AF, I-TM
-25	##닛	O	I-QT	I-QT, O, I-LC, I-AF, I-TM
-26	##에서	O	O	O, I-QT, I-AF, B-PS, B-CV
-27	이전	O	O	O, B-PS, B-OG, B-CV, B-LC
-28	정부	B-OG	B-OG	B-OG, O, B-AF, B-LC, B-EV
-29	민정	O	B-OG	B-OG, O, I-OG, B-AF, B-CV
-30	##비	O	I-OG	I-OG, O, I-AF, I-CV, I-LC
-31	##서관	O	I-OG	I-OG, O, I-AF, I-CV, I-LC
-32	##실	O	I-OG	I-OG, O, I-AF, I-CV, I-LC
-33	##에서	O	O	O, I-OG, I-AF, I-CV, B-PS
-34	생산	O	O	O, B-CV, B-TM, B-LC, I-AF
-35	##한	O	O	O, B-PS, B-LC, B-CV, B-OG
-36	문건	O	O	O, B-CV, B-TM, B-AF, B-LC
-37	##을	O	O	O, B-CV, B-PS, I-AF, B-LC
-38	발견	O	O	O, B-CV, B-TM, B-QT, B-OG
-39	##했	O	O	O, B-CV, B-PS, B-LC, I-AF
-40	##다	O	O	O, B-CV, B-LC, B-PS, I-AF
-41	”	O	O	O, B-CV, B-LC, B-TM, B-PS
-42	고	O	O	O, B-CV, B-LC, B-TM, B-QT
-43	말	O	O	O, B-CV, B-LC, B-TM, I-EV
-44	##했	O	O	O, B-CV, B-LC, B-PS, B-OG
-45	##다	O	O	O, B-CV, B-LC, B-OG, B-TM
-46	.	O	O	O, B-LC, B-OG, B-PS, B-CV
-47	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	롯데	B-OG	B-OG
+2	##그룹	I-OG	I-OG
+3	##은	O	O
+4	2008	B-DT	B-DT
+5	##년	I-DT	I-DT
+6	신동빈	B-PS	B-PS
+7	부회장	B-CV	B-CV
+8	##을	O	O
+9	비롯	O	O
+10	##해	O	O
+11	8	B-QT	B-QT
+12	##개	I-QT	I-QT
+13	계열사	O	O
+14	대표	B-CV	B-CV
+15	##이	I-CV	I-CV
+16	##사	I-CV	I-CV
+17	##와	O	O
+18	협력	O	O
+19	##회사	O	O
+20	대표	B-CV	B-CV
+21	등	O	O
+22	250	B-QT	B-QT
+23	##여	I-QT	I-QT
+24	##명	I-QT	I-QT
+25	##이	O	O
+26	참석	O	O
+27	##한	O	O
+28	가운데	O	O
+29	자율	O	O
+30	##적	O	O
+31	##인	O	O
+32	공정	O	O
+33	##거래	O	O
+34	##문화	O	O
+35	정착	O	O
+36	##을	O	O
+37	위한	O	O
+38	'	O	O
+39	상생	O	B-EV
+40	##협	O	I-EV
+41	##력	O	I-EV
+42	및	O	I-EV
+43	공정	O	I-EV
+44	##거래	O	I-EV
+45	협약	O	I-EV
+46	##식	O	I-EV
+47	'	O	O
+48	을	O	O
+49	가진	O	O
+50	후	O	O
+51	롯데제과	B-OG	B-OG
+52	·	O	O
+53	롯데	B-OG	B-OG
+54	##건설	I-OG	I-OG
+55	등	O	O
+56	계열사	O	O
+57	##별	O	O
+58	##로	O	O
+59	진행	O	O
+60	##하	O	O
+61	##던	O	O
+62	상생	O	O
+63	경영	O	O
+64	##을	O	O
+65	그룹	O	O
+66	차원	O	O
+67	##에	O	O
+68	##서	O	O
+69	체계	O	O
+70	##적	O	O
+71	##으로	O	O
+72	조직	O	O
+73	##화	O	O
+74	##했	O	O
+75	##다	O	O
+76	.	O	O
+77	[SEP]	O	O

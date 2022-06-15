@@ -1,20 +1,30 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-AF
-1	실리콘밸리	B-AF	B-LC	B-LC, B-AF, O, B-OG, B-PS
-2	본사	I-AF	O	O, I-AF, B-CV, B-AF, I-LC
-3	##와	O	O	O, I-AF, I-OG, B-CV, I-CV
-4	똑같	O	O	O, B-CV, B-TM, B-OG, B-LC
-5	##은	O	O	O, B-OG, B-CV, B-PS, B-LC
-6	시설	O	O	O, B-CV, B-OG, B-PS, B-AF
-7	##을	O	O	O, B-CV, B-OG, B-PS, I-OG
-8	갖췄	O	O	O, B-CV, B-OG, B-PS, B-LC
-9	##으며	O	O	O, B-CV, B-OG, B-LC, I-OG
-10	,	O	O	O, B-CV, B-OG, B-LC, B-PS
-11	직원	B-CV	B-CV	B-CV, O, B-TM, I-CV, B-EV
-12	3000	B-QT	B-QT	B-QT, I-QT, B-DT, O, I-CV
-13	##명	I-QT	I-QT	I-QT, O, I-DT, I-PS, I-CV
-14	##이	O	O	O, I-QT, B-PS, B-CV, B-OG
-15	근무	O	O	O, B-CV, B-TM, B-AF, B-OG
-16	##한다	O	O	O, B-CV, I-OG, I-AF, I-CV
-17	.	O	O	O, B-CV, B-PS, B-LC, B-OG
-18	[SEP]	O	O	O, B-CV, I-AF, B-PS, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	이	O	O
+2	자리	O	O
+3	##에	O	O
+4	청주	B-AF	B-OG
+5	##고	I-AF	I-OG
+6	##인	I-AF	I-OG
+7	##쇄	I-AF	I-OG
+8	##박	I-AF	I-OG
+9	##물	I-AF	I-OG
+10	##관	I-AF	I-OG
+11	##을	O	O
+12	세우	O	O
+13	##고	O	O
+14	매년	O	O
+15	직	B-AF	O
+16	##지	I-AF	O
+17	##를	O	O
+18	주제	O	O
+19	##로	O	O
+20	한	O	O
+21	축제	O	O
+22	##도	O	O
+23	열	O	O
+24	##고	O	O
+25	있	O	O
+26	##다	O	O
+27	.	O	O
+28	[SEP]	O	O

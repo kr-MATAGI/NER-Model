@@ -1,45 +1,50 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	성	B-PS	B-PS	B-PS, B-OG, O, B-LC, I-PS
-2	##백	I-PS	I-PS	I-PS, I-OG, O, I-LC, B-PS
-3	##린	I-PS	I-PS	I-PS, I-OG, O, I-LC, B-OG
-4	연세대	B-OG	B-OG	B-OG, B-LC, B-AF, I-PS, I-OG
-5	생명	O	O	O, B-OG, I-OG, B-FD, B-LC
-6	##과학	O	O	O, I-OG, I-FD, I-AF, B-FD
-7	##대	O	O	O, I-OG, I-FD, I-AF, I-LC
-8	교수	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-TM
-9	##는	O	O	O, I-CV, I-OG, I-EV, B-CV
-10	“	O	O	O, B-CV, B-TM, B-LC, B-OG
-11	사이	B-TM	B-TM	B-TM, B-TR, O, B-EV, I-TM
-12	##토	I-TM	I-TM	I-TM, I-TR, O, I-QT, I-EV
-13	##카	I-TM	I-TM	I-TM, I-TR, O, I-EV, I-QT
-14	##인	I-TM	I-TM	I-TM, I-TR, O, I-EV, I-CV
-15	폭풍	O	O	O, I-TM, I-TR, I-EV, I-AF
-16	##은	O	O	O, I-TM, I-EV, B-CV, I-AF
-17	우리	O	O	O, B-LC, B-CV, B-PS, B-OG
-18	몸	B-AM	B-AM	B-AM, O, I-AM, B-TM, B-TR
-19	##의	O	O	O, B-LC, B-PS, B-CV, B-TM
-20	면역	O	O	O, B-TM, B-TR, B-CV, B-LC
-21	##체	O	O	O, I-TM, I-TR, I-CV, I-LC
-22	##계	O	O	O, I-TM, I-TR, I-CV, I-LC
-23	##가	O	O	O, B-PS, B-LC, B-TM, B-CV
-24	신종	O	O	O, B-TM, B-AF, B-AM, B-EV
-25	바이러스	B-TM	I-TM	I-TM, B-TM, O, I-AF, I-AM
-26	##처럼	O	O	O, I-TM, I-AF, I-EV, B-CV
-27	낯선	O	O	O, B-TM, B-CV, B-LC, B-PS
-28	바이러스	B-TM	B-TM	B-TM, O, I-TM, B-CV, B-AM
-29	##와	O	O	O, I-TM, I-AF, B-CV, I-CV
-30	만났	O	O	O, B-TM, B-CV, B-LC, B-OG
-31	##을	O	O	O, B-CV, B-TM, B-PS, I-TM
-32	때	O	O	O, B-CV, B-TM, B-PS, B-LC
-33	일어날	O	O	O, B-CV, B-TM, B-OG, B-LC
-34	수	O	O	O, B-CV, B-TM, I-OG, B-PS
-35	있	O	O	O, B-CV, I-OG, B-TM, I-QT
-36	##다	O	O	O, B-CV, I-OG, I-AF, I-QT
-37	”	O	O	O, B-CV, B-TM, B-LC, B-OG
-38	고	O	O	O, B-CV, B-TM, B-QT, B-LC
-39	설명	O	O	O, B-CV, B-TM, I-CV, I-QT
-40	##했	O	O	O, B-CV, I-CV, B-OG, B-LC
-41	##다	O	O	O, B-CV, B-TM, B-LC, I-OG
-42	.	O	O	O, B-CV, B-LC, B-TM, B-OG
-43	[SEP]	O	O	O, B-CV, B-TM, B-LC, B-FD
+	text	label	preds
+0	[CLS]	O	O
+1	2	B-DT	B-DT
+2	##일	I-DT	I-DT
+3	정부	B-OG	B-OG
+4	관계자	B-CV	B-CV
+5	##에	O	O
+6	따르	O	O
+7	##면	O	O
+8	해경	B-OG	B-OG
+9	##은	O	O
+10	이날	B-DT	B-DT
+11	강릉	B-LC	B-LC
+12	동북	B-TM	B-TM
+13	##방	I-TM	I-TM
+14	먼	O	O
+15	해상	O	O
+16	##에	O	O
+17	##서	O	O
+18	북한	B-LC	B-LC
+19	선박	B-AF	B-AF
+20	##을	O	O
+21	발견	O	O
+22	##해	O	O
+23	함정	O	B-AF
+24	##을	O	O
+25	보내	O	O
+26	남자	O	O
+27	4	B-QT	B-QT
+28	##명	I-QT	I-QT
+29	##과	O	O
+30	여자	O	O
+31	1	B-QT	B-QT
+32	##명	I-QT	I-QT
+33	##이	O	O
+34	타고	O	O
+35	있	O	O
+36	##던	O	O
+37	선박	B-AF	B-AF
+38	##을	O	O
+39	남쪽	B-TM	B-LC
+40	##으로	O	O
+41	유도	O	O
+42	##한	O	O
+43	것	O	O
+44	##으로	O	O
+45	알려졌	O	O
+46	##다	O	O
+47	.	O	O
+48	[SEP]	O	O

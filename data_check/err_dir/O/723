@@ -1,29 +1,52 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, B-CV, I-OG, I-AF
-1	일부	O	O	O, B-TM, B-LC, B-CV, B-AM
-2	유선	O	B-TM	B-TM, O, I-TM, B-TR, B-AM
-3	##을	O	O	O, I-TM, B-TM, I-CV, B-CV
-4	자극	O	O	O, I-TM, B-CV, B-TM, I-CV
-5	##하	O	O	O, B-PS, B-CV, I-TM, I-CV
-6	##는	O	O	O, B-CV, B-TM, B-PS, B-LC
-7	약물	O	O	O, B-CV, B-TM, B-FD, B-AF
-8	(	O	O	O, I-CV, B-CV, B-LC, B-PS
-9	소화	O	B-TM	B-TM, O, B-AF, B-CV, B-MT
-10	##제	O	I-TM	I-TM, O, I-MT, I-CV, I-AF
-11	등	O	O	O, I-TM, B-LC, I-AF, I-CV
-12	)	O	O	O, B-CV, B-LC, B-PS, B-OG
-13	을	O	O	O, B-CV, B-PS, B-LC, B-AF
-14	먹	O	O	O, B-CV, I-CV, B-PS, B-LC
-15	##어도	O	O	O, B-LC, B-TM, B-CV, B-PS
-16	맑	O	O	O, B-LC, B-TM, B-CV, B-AF
-17	##은	O	O	O, B-LC, I-LC, I-AF, B-PS
-18	물	O	O	O, B-AM, B-LC, B-TM, I-LC
-19	##이나	O	O	O, B-LC, B-PS, I-LC, B-TM
-20	젖	O	O	O, B-AM, B-TM, B-LC, B-CV
-21	##이	O	O	O, B-PS, B-LC, I-TM, B-AM
-22	나올	O	O	O, B-LC, B-CV, B-TM, I-AF
-23	수	O	O	O, B-LC, B-PS, B-TM, B-CV
-24	있	O	O	O, B-CV, B-LC, B-PS, B-TM
-25	##다	O	O	O, B-CV, B-LC, B-TM, B-PS
-26	.	O	O	O, B-LC, B-CV, B-TM, B-PS
-27	[SEP]	O	O	O, B-CV, B-LC, B-TM, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	그러나	O	O
+2	어업	O	O
+3	##보	O	O
+4	##상	O	O
+5	##은	O	O
+6	당초	O	O
+7	마스터	B-PS	O
+8	##플랜	O	O
+9	##에	O	O
+10	##서	O	O
+11	제시	O	O
+12	##한	O	O
+13	4	B-LC	B-TM
+14	##대	I-LC	I-TM
+15	##강	I-LC	I-TM
+16	살리	O	I-TM
+17	##기	O	I-TM
+18	사업	O	I-TM
+19	##의	O	O
+20	토지	O	O
+21	##보	O	O
+22	##상	O	O
+23	##비	O	O
+24	(	O	O
+25	1	B-QT	B-QT
+26	##조	I-QT	I-QT
+27	##50	I-QT	I-QT
+28	##00	I-QT	I-QT
+29	##억	I-QT	I-QT
+30	##원	I-QT	I-QT
+31	)	O	O
+32	에	O	O
+33	##는	O	O
+34	제외	O	O
+35	##된	O	O
+36	금액	O	O
+37	##이	O	O
+38	##어	O	O
+39	##서	O	O
+40	보상	O	O
+41	##비	O	O
+42	증가	O	O
+43	요인	O	O
+44	##으로	O	O
+45	작용	O	O
+46	##할	O	O
+47	전망	O	O
+48	##이다	O	O
+49	.	O	O
+50	[SEP]	O	O

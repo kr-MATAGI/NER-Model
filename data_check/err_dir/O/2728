@@ -1,16 +1,41 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-AF
-1	현대차	B-OG	B-OG	B-OG, O, B-AF, B-LC, I-OG
-2	‘	O	O	O, I-OG, I-AF, B-CV, B-AF
-3	씽	O	B-AF	B-AF, O, B-TM, B-OG, B-LC
-4	##씽	O	I-AF	I-AF, O, I-TM, I-OG, I-TR
-5	’	O	O	O, I-AF, I-TM, I-OG, B-CV
-6	3	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-7	##분	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-AF
-8	##기	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-AF
-9	영업	O	O	O, I-DT, B-TM, B-CV, B-QT
-10	##익	O	O	O, I-CV, I-QT, I-TM, I-TR
-11	2	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-LC
-12	##조	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-13	육박	O	O	O, I-QT, I-DT, I-OG, I-TM
-14	[SEP]	O	O	O, B-TM, I-QT, B-OG, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	비슷	O	O
+2	##한	O	O
+3	소송	O	O
+4	##을	O	O
+5	진행	O	O
+6	##하	O	O
+7	##는	O	O
+8	에스	B-OG	B-OG
+9	##케이	I-OG	I-OG
+10	(	I-OG	I-OG
+11	SK	I-OG	I-OG
+12	)	I-OG	I-OG
+13	텔레콤	I-OG	I-OG
+14	##과	O	O
+15	엘지	B-OG	B-OG
+16	(	I-OG	I-OG
+17	LG	I-OG	I-OG
+18	)	I-OG	I-OG
+19	유	I-OG	I-OG
+20	##플러스	I-OG	I-OG
+21	##까	O	O
+22	##지	O	O
+23	포함	O	O
+24	##하면	O	O
+25	약	B-QT	B-QT
+26	4500	I-QT	I-QT
+27	##억	I-QT	I-QT
+28	##원	I-QT	I-QT
+29	##의	O	O
+30	부가가치세	O	B-CV
+31	##를	O	O
+32	돌려	O	O
+33	##줘야	O	O
+34	할	O	O
+35	수도	O	O
+36	있	O	O
+37	##다	O	O
+38	.	O	O
+39	[SEP]	O	O

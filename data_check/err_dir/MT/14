@@ -1,53 +1,32 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-EV, I-CV
-1	내	B-MT	B-MT	B-MT, O, B-CV, I-MT, B-TR
-2	##열	I-MT	I-MT	I-MT, O, B-MT, I-TR, I-CV
-3	##유리	I-MT	I-MT	I-MT, O, B-MT, I-TM, I-PT
-4	##는	O	O	O, I-MT, I-OG, I-AF, I-CV
-5	원료	O	O	O, B-MT, B-LC, B-CV, B-TM
-6	자체	O	O	O, B-LC, B-PS, B-CV, B-OG
-7	##가	O	O	O, B-PS, B-LC, B-OG, B-TM
-8	열	O	O	O, B-TM, B-LC, B-MT, B-TR
-9	##에	O	O	O, B-LC, B-PS, B-CV, I-EV
-10	강한	O	O	O, B-LC, B-OG, B-CV, B-PS
-11	반면	O	O	O, B-LC, B-OG, B-TM, B-PS
-12	,	O	O	O, B-LC, B-CV, B-OG, B-PS
-13	강화	O	B-MT	B-MT, O, I-MT, B-CV, B-FD
-14	##유리	B-MT	I-MT	I-MT, O, B-MT, I-PT, I-TM
-15	##는	O	O	O, I-MT, I-AF, I-OG, I-EV
-16	원료	O	O	O, B-MT, B-LC, B-CV, B-TM
-17	##는	O	O	O, B-LC, B-PS, B-CV, B-TM
-18	열	O	O	O, B-TM, B-LC, B-MT, B-TR
-19	##에	O	O	O, B-LC, B-PS, B-CV, I-TM
-20	약하	O	O	O, B-LC, B-CV, B-OG, B-TM
-21	##지만	O	O	O, B-LC, B-PS, B-OG, B-CV
-22	물리	O	O	O, B-LC, B-PS, B-TM, B-MT
-23	##적	O	O	O, B-LC, B-PS, I-LC, B-MT
-24	힘	O	O	O, B-LC, B-PS, I-LC, B-CV
-25	##으로	O	O	O, B-PS, B-LC, B-OG, B-CV
-26	내	O	O	O, B-TR, B-TM, B-LC, B-MT
-27	##열	O	O	O, B-MT, B-TR, I-TR, B-LC
-28	##성	O	O	O, I-TR, B-LC, B-PS, I-PS
-29	##을	O	O	O, B-CV, B-LC, B-OG, B-PS
-30	부여	O	O	O, B-CV, B-LC, B-PS, B-OG
-31	##한	O	O	O, B-PS, B-LC, B-OG, B-CV
-32	것	O	O	O, B-PS, B-LC, B-CV, B-OG
-33	##이	O	O	O, B-PS, B-CV, B-LC, B-OG
-34	##라	O	O	O, B-LC, B-CV, B-OG, B-PS
-35	작	O	O	O, B-CV, B-LC, B-TM, B-PS
-36	##은	O	O	O, B-LC, B-PS, B-OG, B-TM
-37	흠집	O	O	O, B-LC, B-TM, B-CV, B-PS
-38	##과	O	O	O, B-PS, B-LC, B-OG, B-CV
-39	낮	O	O	O, B-LC, B-CV, B-TM, B-PS
-40	##은	O	O	O, B-LC, B-PS, B-TM, B-OG
-41	열	O	O	O, B-TM, B-LC, B-MT, B-TR
-42	##에도	O	O	O, B-LC, I-EV, B-CV, B-PS
-43	쉽	O	O	O, B-LC, B-TM, B-CV, B-OG
-44	##게	O	O	O, B-LC, B-OG, B-CV, B-PS
-45	폭발	O	O	O, B-LC, B-AF, B-TM, B-CV
-46	##할	O	O	O, B-LC, B-CV, B-OG, B-PS
-47	수	O	O	O, B-CV, B-LC, B-TM, B-OG
-48	있	O	O	O, B-CV, B-LC, B-TM, I-AF
-49	##다	O	O	O, B-CV, B-LC, B-TM, B-OG
-50	.	O	O	O, B-LC, B-PS, B-CV, B-OG
-51	[SEP]	O	O	O, B-LC, B-CV, B-PS, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	하지	O	O
+2	##만	O	O
+3	이	O	O
+4	거품	O	O
+5	맨	O	O
+6	윗부분	O	O
+7	##에	O	O
+8	텁	O	O
+9	##텁	O	O
+10	##한	O	O
+11	쓴맛	O	O
+12	##과	O	O
+13	쇠	B-MT	O
+14	##맛	O	O
+15	##을	O	O
+16	연상	O	O
+17	##시	O	O
+18	##키	O	O
+19	##는	O	O
+20	시	O	O
+21	##큼	O	O
+22	##한	O	O
+23	맛	O	O
+24	##이	O	O
+25	들어	O	O
+26	##있	O	O
+27	##다	O	O
+28	.	O	O
+29	""""	O	O
+30	[SEP]	O	O

@@ -1,27 +1,25 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	신	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-2	감독	B-CV	B-CV	B-CV, O, I-PS, I-CV, B-EV
-3	최고	O	O	O, I-CV, B-CV, I-EV, I-AF
-4	##의	O	O	O, B-PS, B-LC, I-CV, I-AF
-5	타이틀	O	O	O, B-CV, B-PS, B-TM, B-LC
-6	##은	O	O	O, B-CV, B-PS, B-OG, I-EV
-7	2010	B-DT	B-DT	B-DT, O, B-QT, B-EV, I-DT
-8	아시아	B-EV	B-EV	B-EV, B-OG, I-EV, B-LC, B-PS
-9	##축구연맹	I-EV	I-EV	I-EV, I-OG, I-PS, I-LC, I-AF
-10	챔피언	I-EV	I-EV	I-EV, B-EV, O, I-OG, B-OG
-11	##스	I-EV	I-EV	I-EV, I-OG, O, I-AF, I-LC
-12	##리그	I-EV	I-EV	I-EV, I-OG, O, I-AF, I-LC
-13	##에서	O	O	O, I-EV, I-OG, I-AF, B-CV
-14	성남	B-OG	B-OG	B-OG, B-LC, O, I-OG, B-AF
-15	일화	O	I-OG	I-OG, O, I-LC, I-EV, B-OG
-16	##를	O	O	O, I-OG, I-AF, I-EV, I-LC
-17	이끌	O	O	O, B-CV, B-LC, B-PS, B-OG
-18	##고	O	O	O, B-PS, B-LC, B-CV, B-QT
-19	나가	O	O	O, B-PS, B-CV, B-LC, B-OG
-20	차지	O	O	O, B-CV, B-PS, B-QT, B-TM
-21	##한	O	O	O, B-PS, B-LC, B-CV, B-OG
-22	우승컵	O	O	O, B-CV, B-AF, B-TM, B-EV
-23	##이다	O	O	O, B-CV, I-CV, I-EV, I-AF
-24	.	O	O	O, B-CV, B-PS, B-LC, B-OG
-25	[SEP]	O	O	O, B-CV, I-EV, B-PS, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	문화방송	B-OG	B-OG
+2	노조	O	I-OG
+3	##는	O	O
+4	배	B-PS	B-PS
+5	아나운서	B-CV	B-CV
+6	##의	O	O
+7	주장	O	O
+8	##에	O	O
+9	대해	O	O
+10	“	O	O
+11	근거	O	O
+12	##를	O	O
+13	제시	O	O
+14	##하라	O	O
+15	”	O	O
+16	고	O	O
+17	반박	O	O
+18	##한	O	O
+19	바	O	O
+20	있	O	O
+21	##다	O	O
+22	.	O	O
+23	[SEP]	O	O

@@ -1,61 +1,43 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	미	B-LC	B-LC	B-LC, B-OG, O, B-PS, B-AF
-2	연방	B-OG	B-OG	B-OG, I-OG, O, B-LC, B-AF
-3	##수	I-OG	I-OG	I-OG, B-OG, O, I-LC, I-EV
-4	##사	I-OG	I-OG	I-OG, O, B-OG, I-LC, I-EV
-5	##국	I-OG	I-OG	I-OG, O, B-OG, I-LC, I-EV
-6	(	O	O	O, I-OG, I-EV, I-AF, B-CV
-7	FBI	B-OG	B-OG	B-OG, I-OG, O, B-AF, B-LC
-8	)	O	O	O, I-OG, I-EV, I-AF, I-DT
-9	관계자	B-CV	B-CV	B-CV, O, B-OG, I-CV, B-TM
-10	##는	O	O	O, I-CV, I-OG, B-OG, I-EV
-11	<	O	O	O, B-OG, B-LC, B-AF, B-DT
-12	엘	B-OG	B-OG	B-OG, I-OG, B-AF, O, B-PS
-13	##에이	I-OG	I-OG	I-OG, O, I-AF, B-OG, I-LC
-14	타임스	I-OG	I-OG	I-OG, O, I-AF, B-OG, I-LC
-15	>	O	O	O, I-OG, I-AF, B-OG, I-EV
-16	에	O	O	O, B-OG, I-OG, B-LC, B-DT
-17	파	B-PS	B-PS	B-PS, B-OG, O, I-PS, B-LC
-18	##루	I-PS	I-PS	I-PS, I-OG, O, I-LC, B-PS
-19	##크	I-PS	I-PS	I-PS, O, I-OG, I-LC, I-CV
-20	##가	O	O	O, I-PS, I-OG, B-LC, I-AF
-21	극단	B-CV	B-CV	B-CV, O, B-OG, B-TM, B-AF
-22	##주의자	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-TM
-23	##로	O	O	O, I-CV, B-PS, I-OG, I-QT
-24	의심	O	O	O, B-PS, B-OG, B-CV, B-TM
-25	##되	O	O	O, B-PS, B-CV, B-OG, B-LC
-26	##는	O	O	O, B-PS, B-CV, B-OG, B-LC
-27	몇	O	O	O, B-PS, B-CV, B-LC, B-QT
-28	##명	O	O	O, B-PS, I-QT, B-QT, I-PS
-29	##과	O	O	O, B-CV, B-PS, B-LC, B-OG
-30	접촉	O	O	O, B-CV, B-TM, B-LC, B-PS
-31	##을	O	O	O, B-OG, B-PS, B-CV, B-LC
-32	했으며	O	O	O, B-CV, B-OG, B-LC, B-PS
-33	,	O	O	O, B-CV, B-OG, B-LC, B-PS
-34	잠재	O	O	O, B-PS, B-CV, B-LC, B-TM
-35	##적	O	O	O, B-PS, B-LC, I-PS, B-OG
-36	테러	O	O	O, B-CV, B-EV, B-AF, B-PS
-37	용의자	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-PS
-38	##로	O	O	O, I-CV, B-PS, I-QT, I-OG
-39	감시	O	O	O, B-CV, B-LC, B-PS, B-OG
-40	##를	O	O	O, B-PS, B-CV, B-OG, I-OG
-41	받	O	O	O, B-PS, B-LC, B-CV, B-OG
-42	##고	O	O	O, B-PS, B-LC, B-CV, B-QT
-43	있	O	O	O, B-PS, B-CV, B-LC, B-TM
-44	##는	O	O	O, B-PS, B-LC, B-CV, B-QT
-45	적어도	O	O	O, B-QT, B-PS, B-CV, B-LC
-46	한명	O	B-QT	B-QT, O, I-QT, B-CV, B-PS
-47	이상	O	I-QT	I-QT, O, B-QT, I-LC, I-CV
-48	##의	O	O	O, I-QT, B-PS, B-QT, B-CV
-49	극단	B-CV	B-CV	B-CV, O, B-OG, B-TM, B-AF
-50	##주의자	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-QT
-51	##와	O	O	O, I-CV, I-OG, I-QT, B-CV
-52	연락	O	O	O, B-LC, B-CV, B-TM, B-PS
-53	##을	O	O	O, B-CV, B-OG, B-PS, B-LC
-54	했	O	O	O, B-CV, B-PS, B-OG, B-LC
-55	##다고	O	O	O, B-OG, B-CV, B-LC, B-PS
-56	밝혔	O	O	O, B-OG, B-CV, B-LC, B-DT
-57	##다	O	O	O, B-CV, B-OG, I-OG, B-LC
-58	.	O	O	O, B-LC, B-OG, B-PS, B-CV
-59	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	4	B-TI	B-TI
+2	##회	I-TI	I-TI
+3	초	I-TI	I-TI
+4	##가	O	O
+5	끝	O	O
+6	##난	O	O
+7	뒤	O	O
+8	공수	O	O
+9	교대	O	O
+10	시간	O	O
+11	##에	O	O
+12	장내	O	O
+13	카메라	B-TM	B-TM
+14	##가	O	O
+15	싸이	B-PS	B-PS
+16	##를	O	O
+17	비추	O	O
+18	##자	O	O
+19	싸이	B-PS	B-PS
+20	##는	O	O
+21	젠	B-AF	B-AF
+22	##틀	I-AF	I-AF
+23	##맨	I-AF	I-AF
+24	음악	O	O
+25	##에	O	O
+26	맞춰	O	O
+27	‘	O	O
+28	시	O	B-AF
+29	##건	O	I-AF
+30	##방	O	I-AF
+31	##춤	O	I-AF
+32	’	O	O
+33	을	O	O
+34	춰	O	O
+35	분위기	O	O
+36	##를	O	O
+37	띄	O	O
+38	##웠	O	O
+39	##다	O	O
+40	.	O	O
+41	[SEP]	O	O

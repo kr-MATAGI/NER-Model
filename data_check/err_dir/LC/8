@@ -1,11 +1,50 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	그럼	O	O	O, B-CV, B-DT, B-OG, B-LC
-2	신라	B-LC	B-DT	B-DT, B-LC, B-PS, O, I-DT
-3	##랑	O	O	O, I-DT, I-LC, I-AF, I-PS
-4	이	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-5	천	I-DT	I-DT	I-DT, B-DT, O, I-QT, B-QT
-6	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
-7	간	I-DT	I-DT	I-DT, O, B-DT, I-QT, B-LC
-8	##에	O	O	O, I-DT, B-CV, I-AF, B-OG
-9	[SEP]	O	O	O, B-CV, B-DT, B-LC, I-DT
+	text	label	preds
+0	[CLS]	O	O
+1	하지	O	O
+2	##만	O	O
+3	아랍에미리트	B-LC	B-OG
+4	##는	O	O
+5	사우디아라비아	B-LC	B-OG
+6	##가	O	O
+7	주도	O	O
+8	##하	O	O
+9	##는	O	O
+10	아랍	B-OG	B-OG
+11	##동	I-OG	I-OG
+12	##맹	I-OG	I-OG
+13	##군	I-OG	I-OG
+14	##으로	O	O
+15	예멘	B-LC	B-EV
+16	내전	O	I-EV
+17	##에	O	O
+18	참가	O	O
+19	##하	O	O
+20	##고	O	O
+21	있	O	O
+22	##어	O	O
+23	,	O	O
+24	분쟁	O	O
+25	##지역	O	O
+26	무기	O	O
+27	수출	O	O
+28	##을	O	O
+29	금지	O	O
+30	##한	O	O
+31	일본	B-LC	B-OG
+32	##의	O	O
+33	‘	O	O
+34	방위	B-CV	B-CV
+35	##장	I-CV	I-CV
+36	##비	I-CV	I-CV
+37	이전	I-CV	I-CV
+38	3	I-CV	B-QT
+39	##원	I-CV	I-QT
+40	##칙	I-CV	I-QT
+41	’	O	O
+42	위반	O	O
+43	가능	O	O
+44	##성이	O	O
+45	있	O	O
+46	##다	O	O
+47	.	O	O
+48	[SEP]	O	O

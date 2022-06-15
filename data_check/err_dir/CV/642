@@ -1,46 +1,32 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	최	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-2	감독	B-CV	B-CV	B-CV, I-CV, I-PS, O, I-OG
-3	##은	O	O	O, I-CV, B-CV, I-OG, I-EV
-4	최근	O	O	O, B-LC, B-PS, B-OG, B-DT
-5	우즈베키스탄	B-OG	B-OG	B-OG, B-LC, O, B-PS, I-OG
-6	(	O	O	O, I-OG, I-EV, I-LC, I-DT
-7	2	B-QT	B-QT	B-QT, I-QT, O, B-EV, B-LC
-8	-	I-QT	I-QT	I-QT, O, I-EV, I-LC, I-OG
-9	2	I-QT	I-QT	I-QT, O, I-LC, I-EV, I-OG
-10	무승부	O	O	O, B-TM, I-QT, B-CV, B-LC
-11	)	O	O	O, B-OG, B-LC, B-PS, B-CV
-12	이란	B-OG	B-OG	B-OG, B-LC, O, B-PS, I-OG
-13	(	O	O	O, I-OG, I-EV, I-CV, I-LC
-14	0	B-QT	B-QT	B-QT, I-QT, O, B-EV, B-LC
-15	-	I-QT	I-QT	I-QT, O, I-EV, I-LC, I-OG
-16	1	I-QT	I-QT	I-QT, O, I-LC, I-EV, B-QT
-17	패	O	O	O, I-QT, B-TM, I-TM, B-CV
-18	)	O	O	O, B-OG, I-QT, B-CV, I-EV
-19	과	O	O	O, B-CV, B-OG, B-LC, B-DT
-20	##의	O	O	O, B-EV, B-PS, B-LC, I-EV
-21	월드컵	B-EV	B-EV	B-EV, O, I-EV, B-CV, B-LC
-22	예선	B-EV	B-EV	B-EV, I-EV, O, B-CV, B-LC
-23	##에서	O	O	O, I-EV, I-DT, I-AF, B-CV
-24	측면	O	B-CV	B-CV, O, B-TM, B-AM, B-LC
-25	수비	B-CV	I-CV	I-CV, B-CV, O, I-TM, I-OG
-26	##와	O	O	O, I-CV, I-OG, I-TM, B-CV
-27	중앙	O	B-CV	B-CV, O, B-TM, B-OG, B-LC
-28	수비	B-CV	I-CV	I-CV, B-CV, O, I-TM, I-OG
-29	##가	O	O	O, I-CV, I-OG, B-PS, I-QT
-30	동시	O	O	O, B-TM, B-CV, B-PS, B-LC
-31	##에	O	O	O, B-PS, B-LC, I-QT, B-OG
-32	집중력	O	O	O, B-TM, B-LC, B-CV, B-OG
-33	##을	O	O	O, B-CV, B-OG, B-LC, B-PS
-34	잃	O	O	O, B-CV, B-TM, B-LC, B-PS
-35	##어	O	O	O, B-LC, B-PS, B-TM, B-CV
-36	승리	O	O	O, B-CV, B-TM, B-LC, B-OG
-37	##를	O	O	O, B-CV, B-OG, B-PS, B-LC
-38	놓쳤	O	O	O, B-CV, B-TM, B-OG, B-LC
-39	##다고	O	O	O, B-CV, B-PS, B-LC, B-OG
-40	보고	O	O	O, B-CV, B-PS, B-QT, B-OG
-41	있	O	O	O, B-CV, B-QT, B-OG, B-PS
-42	##다	O	O	O, B-CV, B-TM, B-QT, I-OG
-43	.	O	O	O, B-LC, B-OG, B-PS, B-CV
-44	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	3	B-QT	B-QT
+2	##라	I-QT	I-QT
+3	##운드	I-QT	I-QT
+4	##까	O	O
+5	##지	O	O
+6	합계	O	O
+7	10	B-QT	B-QT
+8	##언	I-QT	I-QT
+9	##더	I-QT	I-QT
+10	##파	I-QT	I-QT
+11	200	O	O
+12	##타로	O	O
+13	공동	B-CV	O
+14	선두	I-CV	O
+15	##가	O	O
+16	된	O	O
+17	앤서니	O	O
+18	김은	O	O
+19	마지막	B-DT	B-DT
+20	날	I-DT	I-DT
+21	파란색	B-TM	B-TM
+22	##을	O	O
+23	입	O	O
+24	##겠다	O	O
+25	##고	O	O
+26	공언	O	O
+27	##했	O	O
+28	##다	O	O
+29	.	O	O
+30	[SEP]	O	O

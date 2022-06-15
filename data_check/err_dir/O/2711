@@ -1,24 +1,33 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, I-EV, B-CV, I-OG
-1	박	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-2	후보	B-CV	B-CV	B-CV, O, I-PS, I-CV, B-EV
-3	##의	O	O	O, I-CV, I-EV, B-PS, I-PS
-4	보수	O	B-TR	B-TR, O, I-TR, B-TM, B-FD
-5	회귀	O	O	O, I-TR, B-TR, B-PS, I-EV
-6	행보	O	O	O, B-LC, B-PS, B-OG, B-CV
-7	##가	O	O	O, B-PS, B-LC, B-OG, B-CV
-8	결국	O	O	O, B-PS, B-LC, B-CV, B-OG
-9	패	O	O	O, B-LC, B-PS, B-CV, B-OG
-10	##착	O	O	O, B-PS, B-LC, I-PS, I-LC
-11	##이	O	O	O, B-PS, B-LC, B-OG, B-CV
-12	될까	O	O	O, B-PS, B-LC, B-CV, B-OG
-13	걱정	O	O	O, B-CV, B-PS, B-TM, B-OG
-14	##스럽	O	O	O, B-PS, I-OG, I-CV, I-EV
-15	##다	O	O	O, B-CV, I-OG, B-PS, I-CV
-16	”	O	O	O, B-CV, I-OG, B-PS, B-LC
-17	고	O	O	O, B-CV, I-OG, I-CV, B-LC
-18	말	O	O	O, B-CV, I-CV, I-OG, I-QT
-19	##했	O	O	O, B-CV, B-PS, I-CV, I-OG
-20	##다	O	O	O, B-CV, B-LC, I-OG, B-PS
-21	.	O	O	O, B-PS, B-LC, B-CV, B-OG
-22	[SEP]	O	O	O, B-CV, B-LC, B-PS, I-EV
+	text	label	preds
+0	[CLS]	O	O
+1	생략	O	O
+2	가능	O	O
+3	##한	O	O
+4	거	O	O
+5	그러니까	O	O
+6	그	O	O
+7	~	O	O
+8	그	O	O
+9	~	O	O
+10	저기	O	O
+11	섭	O	O
+12	##스	O	O
+13	##튜	O	O
+14	##어	O	O
+15	##빌	O	I-CV
+16	##러	O	I-CV
+17	##티	O	I-CV
+18	저기	O	O
+19	저	O	O
+20	~	O	O
+21	저	O	O
+22	~	O	O
+23	저	O	O
+24	~	O	O
+25	저	O	O
+26	~	O	O
+27	교체	O	O
+28	가능	O	O
+29	##성	O	O
+30	여부	O	O
+31	[SEP]	O	O

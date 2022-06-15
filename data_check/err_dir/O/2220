@@ -1,28 +1,46 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, B-CV, I-OG, I-EV
-1	어제	O	B-DT	B-DT, O, I-DT, B-EV, B-CV
-2	오후	B-TI	B-TI	B-TI, I-TI, O, B-EV, I-DT
-3	##에	O	O	O, I-DT, I-TI, I-EV, I-QT
-4	국회	B-OG	B-OG	B-OG, B-AF, O, B-LC, B-EV
-5	정	B-OG	O	O, B-LC, B-AF, B-OG, B-CV
-6	##농	I-OG	O	O, I-LC, I-AF, I-OG, I-PS
-7	##관	I-OG	O	O, I-LC, I-AF, I-OG, I-PS
-8	##에	O	O	O, I-AF, I-LC, I-OG, I-PS
-9	전격	O	O	O, B-LC, B-CV, B-OG, B-PS
-10	##적인	O	O	O, B-LC, B-PS, B-OG, I-DT
-11	정의당	B-OG	B-OG	B-OG, O, B-LC, B-AF, B-PS
-12	심상정	B-PS	B-PS	B-PS, I-PS, O, B-OG, I-OG
-13	대표	B-CV	B-CV	B-CV, O, I-PS, I-CV, I-AF
-14	##를	O	O	O, I-CV, I-EV, B-CV, I-AF
-15	만나	O	O	O, B-CV, B-EV, B-LC, B-OG
-16	##고	O	O	O, B-LC, B-PS, B-OG, B-CV
-17	바로	O	O	O, B-LC, B-CV, B-OG, B-DT
-18	정동	O	B-LC	B-LC, O, B-AF, B-OG, B-TM
-19	##관	O	I-LC	I-LC, O, I-AF, I-OG, B-LC
-20	##으로	O	O	O, I-LC, I-AF, I-OG, I-QT
-21	가	O	O	O, B-CV, B-OG, B-AF, B-QT
-22	##버린	O	O	O, B-CV, I-AF, I-OG, I-QT
-23	거	O	O	O, B-CV, B-OG, B-LC, B-TM
-24	아닙니까	O	O	O, B-CV, I-OG, I-AF, B-LC
-25	.	O	O	O, B-CV, B-LC, B-OG, I-EV
-26	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	정	B-PS	B-PS
+2	##삼	I-PS	I-PS
+3	##현	I-PS	I-PS
+4	변호사	B-CV	B-CV
+5	##는	O	O
+6	“	O	O
+7	정부	B-OG	B-OG
+8	##가	O	O
+9	공무원	B-CV	B-CV
+10	##을	O	O
+11	동원	O	O
+12	##해	O	O
+13	개인	O	O
+14	간	O	O
+15	녹음	O	O
+16	내용	O	O
+17	##을	O	O
+18	(	O	O
+19	휴	O	O
+20	##진	O	O
+21	)	O	O
+22	증거	O	O
+23	##로	O	O
+24	삼	O	O
+25	##아	O	O
+26	보고	O	O
+27	##하	O	O
+28	##도록	O	O
+29	한	O	O
+30	것	O	O
+31	##은	O	O
+32	민간인	O	B-CV
+33	사찰	O	O
+34	##이나	O	O
+35	다름없	O	O
+36	##는	O	O
+37	행위	O	O
+38	”	O	O
+39	라고	O	O
+40	지적	O	O
+41	##했	O	O
+42	##다	O	O
+43	.	O	O
+44	[SEP]	O	O

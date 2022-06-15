@@ -1,44 +1,36 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-EV, I-OG
-1	이재오	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-2	의원	B-CV	B-CV	B-CV, O, I-PS, I-CV, B-TM
-3	##도	O	O	O, I-CV, B-CV, I-EV, I-QT
-4	23	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-5	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-6	자신	O	O	O, B-CV, I-DT, B-TM, B-LC
-7	##의	O	O	O, B-PS, I-CV, B-CV, B-LC
-8	트위터	B-TM	B-TM	B-TM, O, B-AF, B-LC, B-OG
-9	##에	O	O	O, I-TM, I-OG, I-CV, I-AF
-10	“	O	O	O, B-LC, B-CV, B-OG, B-PS
-11	완전	B-CV	B-CV	B-CV, O, B-TR, I-CV, B-PT
-12	##국	I-CV	B-CV	B-CV, I-CV, O, I-TR, B-TR
-13	##민	I-CV	I-CV	I-CV, O, B-CV, I-TR, I-OG
-14	##경	I-CV	I-CV	I-CV, O, B-CV, I-TR, I-TM
-15	##선	I-CV	I-CV	I-CV, O, B-CV, I-TR, I-OG
-16	##제	I-CV	I-CV	I-CV, O, B-CV, I-TR, I-OG
-17	관련	O	O	O, I-CV, I-OG, I-QT, B-CV
-18	법안	O	O	O, I-CV, B-CV, B-PS, B-LC
-19	##의	O	O	O, B-PS, B-CV, B-LC, I-CV
-20	처리	O	O	O, B-CV, B-LC, B-OG, B-TM
-21	##를	O	O	O, B-PS, B-LC, B-OG, B-CV
-22	위한	O	O	O, B-LC, B-QT, B-PS, B-OG
-23	‘	O	O	O, B-LC, B-OG, B-CV, B-PS
-24	원	O	O	O, B-QT, B-EV, B-DT, B-TR
-25	##포	O	O	O, I-QT, I-EV, B-QT, I-TR
-26	##인트	O	O	O, I-QT, B-QT, I-EV, I-TR
-27	개원	O	O	O, I-QT, I-EV, B-OG, B-EV
-28	’	O	O	O, I-EV, I-QT, I-OG, B-PS
-29	을	O	O	O, B-PS, B-LC, B-CV, B-OG
-30	여야	O	O	O, B-OG, B-LC, B-CV, B-PS
-31	지도부	O	O	O, I-OG, B-OG, B-CV, B-PS
-32	##에	O	O	O, I-OG, B-LC, B-CV, B-PS
-33	제안	O	O	O, B-CV, B-EV, B-LC, B-OG
-34	##한다	O	O	O, B-PS, I-EV, I-OG, B-LC
-35	”	O	O	O, B-CV, B-LC, B-TM, B-PS
-36	는	O	O	O, B-CV, B-LC, B-TM, B-QT
-37	글	O	O	O, B-CV, B-TM, B-LC, B-EV
-38	##을	O	O	O, B-CV, B-PS, B-LC, B-OG
-39	올렸	O	O	O, B-CV, B-LC, B-PS, B-OG
-40	##다	O	O	O, B-CV, B-LC, I-EV, B-PS
-41	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-42	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	바른	B-OG	B-OG
+2	##정	I-OG	I-OG
+3	##당	I-OG	I-OG
+4	하태경	B-PS	B-PS
+5	의원	B-CV	B-CV
+6	##은	O	O
+7	21	B-DT	B-DT
+8	##일	I-DT	I-DT
+9	북한	B-OG	B-OG
+10	##이	O	O
+11	외국인	B-CV	B-CV
+12	청부	B-CV	I-CV
+13	살인	I-CV	I-CV
+14	##업자	I-CV	I-CV
+15	##를	O	O
+16	국내	O	O
+17	##에	O	O
+18	잠입	O	O
+19	##시	O	O
+20	##켜	O	O
+21	고위급	O	O
+22	탈북자	B-CV	B-CV
+23	##에	O	O
+24	대한	O	O
+25	테러	O	O
+26	##를	O	O
+27	시도	O	O
+28	##했	O	O
+29	##다고	O	O
+30	주장	O	O
+31	##했	O	O
+32	##다	O	O
+33	.	O	O
+34	[SEP]	O	O

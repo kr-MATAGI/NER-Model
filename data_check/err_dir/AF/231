@@ -1,49 +1,58 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	남성	O	O	O, B-CV, B-TM, B-OG, I-CV
-2	##들	O	O	O, I-CV, B-CV, B-PS, I-OG
-3	##은	O	O	O, B-CV, B-LC, B-OG, B-TM
-4	'	O	O	O, B-LC, B-CV, B-OG, B-AF
-5	디	B-AF	B-AF	B-AF, B-PS, B-OG, B-LC, B-EV
-6	##셈	I-AF	I-AF	I-AF, I-PS, I-OG, I-LC, O
-7	##버	I-AF	I-AF	I-AF, I-PS, I-OG, I-LC, O
-8	'	O	O	O, I-AF, I-OG, I-EV, I-PS
-9	(	O	O	O, B-CV, B-OG, B-LC, I-AF
-10	3	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-EV
-11	##위	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-EV
-12	)	O	O	O, I-QT, B-CV, I-OG, I-CV
-13	가	O	O	O, B-PS, B-CV, B-OG, B-LC
-14	아닌	O	O	O, B-OG, B-LC, B-CV, B-PS
-15	'	O	O	O, B-LC, B-OG, B-CV, B-PS
-16	위키	B-AF	B-OG	B-OG, B-AF, B-PS, B-LC, O
-17	##드	I-AF	I-OG	I-OG, I-PS, I-AF, I-LC, O
-18	'	O	O	O, I-OG, I-AF, I-PS, B-CV
-19	와	O	O	O, B-AF, B-LC, B-OG, B-CV
-20	'	O	O	O, B-LC, B-CV, B-OG, B-AF
-21	맘	B-AF	B-AF	B-AF, B-PS, B-OG, B-LC, O
-22	##마	I-AF	I-AF	I-AF, I-PS, I-OG, I-LC, O
-23	##미아	I-AF	I-AF	I-AF, I-PS, I-OG, I-LC, O
-24	!	I-AF	I-AF	I-AF, I-PS, I-OG, O, I-LC
-25	'	O	O	O, I-AF, I-OG, I-PS, B-CV
-26	를	O	O	O, B-CV, B-LC, B-OG, B-AF
-27	나란히	O	O	O, B-QT, B-LC, B-TM, B-CV
-28	1	B-QT	B-QT	B-QT, I-QT, O, B-DT, B-CV
-29	,	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-OG
-30	2	I-QT	I-QT	I-QT, B-QT, O, I-LC, I-PS
-31	##위	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-32	##로	O	O	O, I-QT, B-CV, I-OG, B-OG
-33	들어	O	O	O, B-CV, B-OG, B-LC, B-PS
-34	잘	O	O	O, B-CV, B-LC, B-PS, B-AF
-35	알려진	O	O	O, B-LC, B-CV, B-PS, B-QT
-36	대작	O	O	O, B-CV, B-AF, B-FD, B-OG
-37	##을	O	O	O, B-CV, B-PS, I-AF, B-OG
-38	선호	O	O	O, B-CV, B-OG, B-LC, B-AF
-39	##하	O	O	O, B-CV, B-PS, B-LC, B-OG
-40	##는	O	O	O, B-CV, B-LC, B-PS, B-TM
-41	경향	O	O	O, B-CV, B-TM, B-LC, B-OG
-42	##을	O	O	O, B-CV, I-CV, B-PS, B-OG
-43	뚜렷이	O	O	O, B-CV, B-TM, B-OG, B-LC
-44	드러냈	O	O	O, B-CV, B-LC, B-OG, I-CV
-45	##다	O	O	O, B-CV, B-LC, B-OG, I-OG
-46	.	O	O	O, B-LC, B-CV, B-OG, B-PS
-47	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-AF
+	text	label	preds
+0	[CLS]	O	O
+1	서울시	B-OG	B-OG
+2	##는	O	O
+3	6	B-DT	B-DT
+4	##일	I-DT	I-DT
+5	자전거	B-AF	B-AF
+6	##를	O	O
+7	타고	O	O
+8	지하철	B-AF	B-AF
+9	1	B-AF	B-AF
+10	·	I-AF	I-AF
+11	2	I-AF	I-AF
+12	##호	I-AF	I-AF
+13	##선	I-AF	I-AF
+14	신도	B-LC	B-LC
+15	##림	I-LC	I-LC
+16	##역	I-LC	I-LC
+17	##과	O	O
+18	4	B-AF	B-AF
+19	##호	I-AF	I-AF
+20	##선	I-AF	I-AF
+21	수유	B-LC	B-LC
+22	##역	I-LC	I-LC
+23	##을	O	O
+24	이용	O	O
+25	##하	O	O
+26	##는	O	O
+27	시민	B-CV	B-CV
+28	##에	O	O
+29	##게	O	O
+30	300	B-QT	B-QT
+31	~	I-QT	I-QT
+32	500	I-QT	I-QT
+33	##원	I-QT	I-QT
+34	##을	O	O
+35	되돌려	O	O
+36	##주	O	O
+37	##는	O	O
+38	'	O	O
+39	자전거	B-AF	B-CV
+40	환승	O	I-CV
+41	보상	O	I-CV
+42	##제	O	I-CV
+43	'	O	O
+44	를	O	O
+45	오	B-DT	B-DT
+46	##는	I-DT	I-DT
+47	8	I-DT	I-DT
+48	##월	I-DT	I-DT
+49	##부터	I-DT	I-DT
+50	시행	O	O
+51	##한다	O	O
+52	##고	O	O
+53	밝혔	O	O
+54	##다	O	O
+55	.	O	O
+56	[SEP]	O	O

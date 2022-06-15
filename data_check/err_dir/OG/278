@@ -1,25 +1,41 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	화학	O	B-FD	B-FD, O, I-FD, B-TR, B-OG
-2	원료	O	O	O, I-FD, B-MT, I-CV, I-AF
-3	##가	O	O	O, B-PS, B-CV, I-AF, I-CV
-4	대세	O	O	O, B-CV, B-PS, B-QT, B-LC
-5	##였	O	O	O, B-PS, B-CV, I-CV, B-LC
-6	##던	O	O	O, B-CV, B-PS, B-LC, B-OG
-7	1970	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-LC
-8	##년	I-DT	I-DT	I-DT, O, I-QT, B-DT, I-PS
-9	##대	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-10	##에	O	O	O, I-DT, B-CV, I-OG, I-AF
-11	루	B-OG	B-PS	B-PS, B-OG, B-LC, O, I-PS
-12	##메	I-OG	I-PS	I-PS, I-OG, O, I-LC, B-PS
-13	##네	I-OG	I-PS	I-PS, I-OG, O, I-LC, I-AF
-14	##는	O	O	O, I-PS, I-OG, B-CV, I-AF
-15	반대	O	O	O, B-CV, B-LC, B-TM, B-OG
-16	##의	O	O	O, B-PS, I-AF, B-CV, I-OG
-17	길	O	O	O, B-LC, B-CV, B-PS, B-OG
-18	##을	O	O	O, B-CV, I-OG, I-AF, B-OG
-19	걸	O	O	O, B-CV, B-OG, B-LC, B-AF
-20	##었	O	O	O, B-CV, I-OG, B-OG, B-LC
-21	##다	O	O	O, B-CV, I-OG, I-CV, B-TM
-22	.	O	O	O, B-CV, B-PS, B-LC, B-OG
-23	[SEP]	O	O	O, B-CV, B-PS, I-OG, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	또	O	O
+2	시청	B-OG	O
+3	고속	O	O
+4	##교통	O	O
+5	##망	O	O
+6	대응	O	O
+7	##T	O	O
+8	##F	O	O
+9	##팀	O	O
+10	##이	O	O
+11	국토	B-OG	B-OG
+12	##부	I-OG	I-OG
+13	##를	O	O
+14	찾아가	O	O
+15	실무	O	O
+16	차원	O	O
+17	협의	O	O
+18	##를	O	O
+19	벌였	O	O
+20	##고	O	O
+21	,	O	O
+22	전주	B-PS	B-PS
+23	##수	I-PS	I-PS
+24	부시장	B-CV	B-CV
+25	##이	O	O
+26	고위	B-CV	B-CV
+27	##공	I-CV	I-CV
+28	##직자	I-CV	I-CV
+29	##를	O	O
+30	대상	O	O
+31	##으로	O	O
+32	지역	O	O
+33	여론	O	O
+34	##을	O	O
+35	전달	O	O
+36	##했	O	O
+37	##다	O	O
+38	.	O	O
+39	[SEP]	O	O

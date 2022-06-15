@@ -1,24 +1,8 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	일대	O	O	O, B-QT, B-TM, B-LC, B-PS
-2	##일	O	B-QT	B-QT, O, B-DT, I-QT, B-PS
-3	##로	O	O	O, I-QT, I-DT, B-PS, B-QT
-4	대	O	O	O, B-QT, B-LC, B-CV, B-PS
-5	##필	O	O	O, B-QT, I-QT, B-PS, B-LC
-6	##한	O	O	O, B-PS, B-LC, B-OG, B-QT
-7	대학생	B-CV	B-CV	B-CV, O, B-OG, B-EV, B-TM
-8	##을	O	O	O, I-CV, I-EV, B-CV, I-OG
-9	잡	O	O	O, B-TM, B-CV, B-OG, B-LC
-10	##기	O	O	O, B-LC, B-OG, B-TM, B-CV
-11	##는	O	O	O, B-CV, B-TM, B-LC, B-OG
-12	불가	O	O	O, B-TM, B-QT, B-CV, B-OG
-13	##능	O	O	O, B-QT, B-PS, I-QT, B-TM
-14	##에	O	O	O, I-QT, I-OG, B-PS, I-AF
-15	가깝	O	O	O, B-LC, B-CV, B-OG, B-PS
-16	##다	O	O	O, I-OG, B-CV, I-QT, I-AF
-17	”	O	O	O, B-CV, I-OG, I-QT, B-QT
-18	고	O	O	O, B-CV, I-OG, I-QT, B-QT
-19	전했	O	O	O, B-CV, B-OG, B-QT, I-QT
-20	##다	O	O	O, B-CV, I-OG, I-QT, B-TM
-21	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-22	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	이제	O	O
+2	우리	O	O
+3	##가	O	O
+4	바이오	B-FD	B-TR
+5	##경제	O	I-TR
+6	[SEP]	O	O

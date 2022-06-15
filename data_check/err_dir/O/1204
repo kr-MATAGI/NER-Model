@@ -1,63 +1,11 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-QT
-1	전문가	B-CV	B-CV	B-CV, O, B-OG, I-CV, B-FD
-2	##들	O	O	O, I-CV, I-OG, I-QT, I-AF
-3	##은	O	O	O, B-CV, B-LC, B-PS, B-OG
-4	주부	B-CV	B-CV	B-CV, O, B-OG, I-CV, B-AF
-5	##와	O	O	O, I-CV, I-OG, B-PS, I-AF
-6	젊	O	O	O, B-CV, B-LC, B-OG, B-PS
-7	##은	O	O	O, B-PS, B-LC, I-CV, I-OG
-8	여성	O	O	O, B-CV, B-PS, I-OG, B-LC
-9	##의	O	O	O, B-PS, B-LC, B-CV, B-OG
-10	판타지	B-FD	B-FD	B-FD, O, B-TR, B-CV, I-FD
-11	##를	O	O	O, I-FD, B-PS, I-AF, I-OG
-12	자극	O	O	O, B-CV, B-LC, B-PS, B-TM
-13	##한	O	O	O, B-LC, B-PS, B-OG, B-CV
-14	<	O	O	O, B-LC, B-PS, B-OG, B-CV
-15	[UNK]	O	O	O, B-LC, B-PS, B-CV, B-OG
-16	>	O	O	O, B-LC, B-CV, B-PS, B-OG
-17	과	O	O	O, B-PS, B-LC, B-OG, B-CV
-18	<	O	O	O, B-LC, B-CV, B-OG, B-AF
-19	신	B-AF	B-AF	B-AF, O, B-PS, B-LC, B-CV
-20	##품	I-AF	I-AF	I-AF, O, I-PS, I-LC, I-CV
-21	>	O	O	O, I-AF, B-CV, I-CV, I-EV
-22	,	O	O	O, B-LC, B-PS, B-CV, B-OG
-23	영웅	O	O	O, B-CV, B-AF, B-FD, B-PS
-24	##과	O	O	O, I-AF, B-PS, I-CV, I-OG
-25	로맨스	O	B-FD	B-FD, O, I-FD, B-CV, B-TR
-26	등	O	O	O, I-FD, I-AF, B-PS, B-LC
-27	전형	O	O	O, B-CV, B-FD, B-LC, B-QT
-28	##적인	O	O	O, B-LC, B-FD, B-QT, B-PS
-29	드라마	O	O	O, B-FD, B-CV, I-FD, B-LC
-30	요소	O	O	O, B-LC, B-CV, B-PS, B-FD
-31	##를	O	O	O, B-PS, B-LC, B-CV, B-OG
-32	갖춘	O	O	O, B-LC, B-PS, B-QT, B-CV
-33	<	O	O	O, B-LC, B-CV, B-OG, B-AF
-34	각시	B-AF	B-AF	B-AF, O, B-PS, I-AF, B-LC
-35	##탈	I-AF	I-AF	I-AF, O, I-PS, I-LC, I-CV
-36	>	O	O	O, I-AF, I-EV, I-CV, B-CV
-37	과	O	O	O, B-LC, B-PS, B-CV, B-OG
-38	달리	O	O	O, B-LC, B-CV, B-AF, B-OG
-39	<	O	O	O, B-LC, B-CV, B-AF, B-OG
-40	추적	B-AF	B-AF	B-AF, O, B-PS, I-AF, B-LC
-41	##자	I-AF	I-AF	I-AF, O, I-PS, I-LC, B-AF
-42	>	O	O	O, I-AF, I-EV, B-CV, I-CV
-43	와	O	O	O, B-LC, B-CV, B-OG, B-PS
-44	<	O	O	O, B-LC, B-CV, B-OG, B-AF
-45	유령	B-AF	B-AF	B-AF, O, B-PS, I-AF, B-LC
-46	>	O	O	O, I-AF, I-OG, B-CV, I-EV
-47	은	O	O	O, B-LC, B-CV, B-OG, B-PS
-48	기존	O	O	O, B-CV, B-LC, B-FD, B-PS
-49	인기	O	O	O, B-FD, B-CV, B-LC, B-TM
-50	드라마	O	O	O, B-FD, I-FD, B-CV, I-CV
-51	##의	O	O	O, B-PS, B-LC, B-CV, B-OG
-52	문법	O	O	O, B-CV, B-LC, B-TM, B-PS
-53	##을	O	O	O, B-CV, B-LC, B-PS, B-OG
-54	완전히	O	O	O, B-LC, B-CV, B-QT, B-PS
-55	깨	O	O	O, B-CV, B-LC, B-QT, B-PS
-56	##뜨렸	O	O	O, B-CV, B-LC, B-PS, B-QT
-57	##다고	O	O	O, B-LC, B-CV, B-PS, B-OG
-58	지적	O	O	O, B-CV, B-OG, B-LC, B-TM
-59	##한다	O	O	O, B-CV, B-LC, B-PS, I-OG
-60	.	O	O	O, B-LC, B-CV, B-PS, B-AF
-61	[SEP]	O	O	O, B-LC, B-CV, B-AF, B-FD
+	text	label	preds
+0	[CLS]	O	O
+1	이	O	O
+2	정보	O	B-OG
+3	##협	O	I-OG
+4	##정	O	I-OG
+5	##이	O	O
+6	맺	O	O
+7	##어졌	O	O
+8	##고	O	O
+9	[SEP]	O	O

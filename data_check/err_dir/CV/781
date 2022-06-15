@@ -1,39 +1,18 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-QT
-1	‘	O	O	O, B-OG, B-AF, B-CV, B-LC
-2	왕	B-AF	B-AF	B-AF, O, B-CV, B-OG, B-PS
-3	##뚜	I-AF	I-AF	I-AF, O, I-OG, I-TM, I-CV
-4	##껑	I-AF	I-AF	I-AF, O, I-TM, I-OG, I-CV
-5	’	O	O	O, I-AF, I-OG, I-TM, B-CV
-6	제품	O	O	O, B-CV, B-TM, B-LC, B-OG
-7	##을	O	O	O, B-CV, B-LC, B-OG, B-PS
-8	뒤집	O	O	O, B-TM, B-CV, B-OG, B-AF
-9	##으면	O	O	O, B-TM, B-PS, B-CV, B-LC
-10	모자	B-TM	B-TM	B-TM, O, B-CV, B-AF, B-LC
-11	모양	I-TM	I-TM	I-TM, O, I-CV, I-AF, B-TM
-12	##과	O	O	O, I-TM, I-CV, I-OG, I-AF
-13	비슷	O	O	O, B-TM, B-CV, B-OG, B-LC
-14	##하	O	O	O, B-CV, B-PS, B-LC, B-OG
-15	##다는	O	O	O, B-CV, B-PS, B-LC, B-TM
-16	데	O	O	O, B-CV, B-LC, B-PS, B-OG
-17	##서	O	O	O, B-CV, B-PS, B-LC, B-TM
-18	착안	O	O	O, B-CV, B-TM, B-OG, B-LC
-19	##했	O	O	O, B-OG, B-PS, B-CV, B-LC
-20	##으며	O	O	O, B-CV, B-LC, B-TM, B-OG
-21	스냅	B-CV	O	O, B-CV, B-AF, B-TM, B-OG
-22	##백	I-CV	O	O, I-CV, I-AF, I-TM, I-OG
-23	,	O	O	O, I-CV, I-AF, I-OG, I-TM
-24	버	B-CV	B-CV	B-CV, O, B-AF, B-OG, B-TM
-25	##킷	I-CV	I-CV	I-CV, O, I-AF, I-OG, I-TM
-26	##햇	I-CV	I-CV	I-CV, O, I-AF, I-OG, I-TM
-27	,	O	O	O, I-CV, I-AF, I-OG, I-TM
-28	비니	B-CV	B-CV	B-CV, O, B-AF, B-TM, B-OG
-29	등	O	O	O, I-CV, I-AF, I-OG, B-CV
-30	##의	O	O	O, B-CV, B-TM, B-QT, B-LC
-31	제품	O	O	O, B-CV, B-TM, B-LC, B-OG
-32	##으로	O	O	O, B-CV, B-TM, B-LC, B-OG
-33	구성	O	O	O, B-CV, B-OG, B-TM, B-LC
-34	##됐	O	O	O, B-OG, B-CV, I-OG, B-LC
-35	##다	O	O	O, B-CV, B-OG, B-LC, B-TM
-36	.	O	O	O, B-CV, B-LC, B-OG, B-TM
-37	[SEP]	O	O	O, B-CV, B-LC, B-TM, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	가운	B-CV	B-CV
+2	속	O	O
+3	평상	O	B-CV
+4	##복	O	I-CV
+5	##도	O	O
+6	위생	B-CV	O
+7	##복	I-CV	O
+8	##으로	O	O
+9	…	O	O
+10	연세대	B-OG	B-OG
+11	세브	B-OG	B-OG
+12	##란	I-OG	I-OG
+13	##스	I-OG	I-OG
+14	##병원	I-OG	I-OG
+15	시행	O	O
+16	[SEP]	O	O

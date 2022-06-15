@@ -1,33 +1,12 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	획일	O	O	O, B-CV, B-TM, B-LC, B-QT
-2	##적	O	O	O, B-LC, B-CV, B-PS, B-TM
-3	##이	O	O	O, B-PS, B-CV, B-LC, B-OG
-4	##고	O	O	O, B-LC, B-PS, B-OG, B-CV
-5	딱딱	O	O	O, B-TM, B-CV, B-LC, B-AF
-6	##한	O	O	O, B-LC, B-TM, B-CV, B-OG
-7	관공서	O	O	O, B-OG, B-AF, B-CV, B-FD
-8	이미지	O	O	O, B-CV, I-OG, I-AF, I-CV
-9	##를	O	O	O, B-CV, B-LC, B-TM, B-OG
-10	벗어나	O	O	O, B-CV, B-OG, B-LC, B-TM
-11	건물	O	O	O, B-CV, B-TM, B-AF, B-QT
-12	앞쪽	B-TM	B-TM	B-TM, O, B-LC, B-OG, B-QT
-13	한	O	B-QT	B-QT, O, B-TM, I-TM, I-QT
-14	모서리	O	I-QT	I-QT, O, I-TM, I-LC, B-TM
-15	##가	O	O	O, I-QT, I-TM, B-PS, B-TM
-16	밖	O	O	O, B-TM, B-QT, B-TR, B-CV
-17	##으로	O	O	O, I-TM, B-TM, I-QT, B-QT
-18	튀어나오	O	O	O, B-TM, B-QT, B-LC, I-TM
-19	##게	O	O	O, I-QT, B-TM, B-QT, I-TM
-20	하	O	O	O, B-TM, B-QT, B-LC, B-CV
-21	##는	O	O	O, B-CV, I-QT, B-TM, B-LC
-22	등	O	O	O, B-LC, B-TM, B-CV, B-OG
-23	독창	O	O	O, B-CV, B-TM, B-LC, B-QT
-24	##적	O	O	O, B-PS, B-LC, I-QT, B-TM
-25	디자인	O	O	O, B-TM, B-FD, B-TR, B-CV
-26	##으로	O	O	O, I-TM, B-CV, I-OG, I-CV
-27	지어	O	O	O, B-CV, B-OG, B-QT, B-AF
-28	##졌	O	O	O, B-CV, I-OG, I-AF, B-OG
-29	##다	O	O	O, B-CV, B-TM, B-LC, B-OG
-30	.	O	O	O, B-CV, B-LC, B-PS, B-OG
-31	[SEP]	O	O	O, B-CV, B-LC, B-TM, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	올	B-DT	B-DT
+2	연말	O	I-DT
+3	##에	O	O
+4	##는	O	O
+5	해야	O	O
+6	되	O	O
+7	##겠	O	O
+8	##어	O	O
+9	.	O	O
+10	[SEP]	O	O

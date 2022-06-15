@@ -1,12 +1,58 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	그	O	O	O, B-CV, B-TM, B-OG, B-LC
-2	~	O	O	O, B-CV, B-LC, I-CV, B-PS
-3	옆	O	B-TM	B-TM, O, B-LC, B-CV, B-OG
-4	동네	O	O	O, I-TM, I-LC, B-LC, I-OG
-5	##가	O	O	O, B-PS, B-LC, I-LC, I-AF
-6	너무	O	O	O, B-CV, B-LC, B-OG, B-TM
-7	슬퍼	O	O	O, B-CV, B-LC, B-TM, B-FD
-8	가지	O	O	O, B-CV, B-PS, I-CV, I-OG
-9	##고	O	O	O, B-CV, I-AF, I-OG, I-CV
-10	[SEP]	O	O	O, B-CV, B-LC, B-TM, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	문재인	B-PS	B-PS
+2	새	B-OG	B-OG
+3	##정	I-OG	I-OG
+4	##치	I-OG	I-OG
+5	##민주	I-OG	I-OG
+6	##연합	I-OG	I-OG
+7	대표	B-CV	B-CV
+8	##는	O	O
+9	“	O	O
+10	진실	O	O
+11	##과	O	O
+12	정의	O	O
+13	##와	O	O
+14	인권	O	B-CV
+15	##을	O	O
+16	지키	O	O
+17	##는	O	O
+18	마지막	O	O
+19	보루	O	O
+20	##가	O	O
+21	사법부	B-OG	B-OG
+22	##일	O	O
+23	것	O	O
+24	##이	O	O
+25	##라는	O	O
+26	국민	B-CV	B-CV
+27	##의	O	O
+28	기대	O	O
+29	##가	O	O
+30	오늘	B-DT	B-DT
+31	참담	O	O
+32	##하	O	O
+33	##게	O	O
+34	무너졌	O	O
+35	##다	O	O
+36	”	O	O
+37	며	O	O
+38	“	O	O
+39	안타까움	O	O
+40	##과	O	O
+41	실망	O	O
+42	##을	O	O
+43	넘어	O	O
+44	원통	O	O
+45	##하	O	O
+46	##고	O	O
+47	참담	O	O
+48	##하	O	O
+49	##다	O	O
+50	”	O	O
+51	고	O	O
+52	말	O	O
+53	##했	O	O
+54	##다	O	O
+55	.	O	O
+56	[SEP]	O	O

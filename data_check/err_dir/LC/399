@@ -1,25 +1,74 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-EV, B-CV, I-CV, I-OG
-1	부임	O	O	O, B-CV, B-OG, B-PS, B-LC
-2	5	B-DT	B-DT	B-DT, I-DT, O, B-QT, B-EV
-3	##개	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
-4	##월	I-DT	I-DT	I-DT, O, B-DT, I-EV, I-QT
-5	만	I-DT	I-DT	I-DT, O, I-EV, I-QT, B-DT
-6	##에	O	O	O, I-DT, I-EV, I-QT, B-PS
-7	한국	B-LC	B-LC	B-LC, B-OG, O, B-CV, B-PS
-8	축구	B-CV	B-CV	B-CV, I-CV, O, I-OG, B-OG
-9	##를	O	O	O, I-CV, I-OG, I-EV, B-CV
-10	호주	B-LC	B-LC	B-LC, O, B-OG, B-AF, B-PS
-11	시드니	B-LC	I-LC	I-LC, B-LC, O, I-AF, I-OG
-12	##에서	O	O	O, I-LC, I-AF, B-LC, I-EV
-13	열리	O	O	O, B-EV, B-CV, B-PS, B-LC
-14	##는	O	O	O, B-EV, B-PS, I-EV, B-CV
-15	아시안	B-EV	B-EV	B-EV, O, I-EV, B-OG, B-LC
-16	##컵	I-EV	I-EV	I-EV, O, B-EV, I-AF, I-OG
-17	결승	B-EV	B-EV	B-EV, I-EV, O, B-CV, B-QT
-18	##에	O	O	O, I-EV, I-AF, I-QT, I-OG
-19	올려놓	O	O	O, B-CV, B-OG, B-LC, B-QT
-20	##았	O	O	O, I-EV, B-CV, B-PS, I-OG
-21	##다	O	O	O, B-CV, B-PS, I-EV, I-OG
-22	.	O	O	O, B-LC, B-PS, B-CV, I-EV
-23	[SEP]	O	O	O, B-LC, B-CV, I-EV, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	하지	O	O
+2	##만	O	O
+3	이	B-PS	B-PS
+4	총리	B-CV	B-CV
+5	##는	O	O
+6	2012	B-DT	B-DT
+7	##년	I-DT	I-DT
+8	12	I-DT	I-DT
+9	##월	I-DT	I-DT
+10	##7	I-DT	I-DT
+11	##일	I-DT	I-DT
+12	충남	B-LC	B-LC
+13	천안시	B-LC	B-LC
+14	동남	B-LC	B-LC
+15	##구	I-LC	I-LC
+16	병	B-LC	B-LC
+17	##천	I-LC	I-LC
+18	##면	I-LC	I-LC
+19	아우	B-LC	B-AF
+20	##내	I-LC	I-AF
+21	##장	I-LC	I-AF
+22	##터	I-LC	I-LC
+23	##에	O	O
+24	##서	O	O
+25	박	B-PS	B-PS
+26	후보	B-CV	B-CV
+27	지지	O	O
+28	##를	O	O
+29	호소	O	O
+30	##하	O	O
+31	##며	O	O
+32	“	O	O
+33	박	B-PS	B-PS
+34	후보	B-CV	B-CV
+35	##는	O	O
+36	수도권	B-LC	B-LC
+37	2000	B-QT	B-QT
+38	##만	I-QT	I-QT
+39	##표	I-QT	I-QT
+40	##가	O	O
+41	날아가	O	O
+42	##는데도	O	O
+43	500	B-QT	B-QT
+44	##만	I-QT	I-QT
+45	##표	I-QT	I-QT
+46	##밖	O	O
+47	##에	O	O
+48	안	O	O
+49	되	O	O
+50	##는	O	O
+51	충청	B-LC	B-CV
+52	##인	O	I-CV
+53	##과	O	O
+54	##의	O	O
+55	약속	O	O
+56	##을	O	O
+57	지키	O	O
+58	##기	O	O
+59	위해	O	O
+60	정치	O	O
+61	##적	O	O
+62	생명	O	O
+63	##을	O	O
+64	걸	O	O
+65	##고	O	O
+66	세종시	B-LC	B-LC
+67	약속	O	O
+68	##을	O	O
+69	지켰	O	O
+70	##다	O	O
+71	.	O	O
+72	[SEP]	O	O

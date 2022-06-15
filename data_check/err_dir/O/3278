@@ -1,14 +1,23 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	믹	O	B-TM	B-TM, O, B-AF, B-OG, B-TR
-2	##서	O	I-TM	I-TM, O, B-TM, I-AF, I-OG
-3	##에다	O	O	O, I-TM, I-OG, I-QT, I-AF
-4	갈아	O	O	O, B-CV, B-OG, B-QT, B-LC
-5	##주	O	O	O, B-CV, B-PS, I-OG, I-CV
-6	##시	O	O	O, B-CV, B-OG, B-PS, I-OG
-7	##는	O	O	O, B-CV, B-PS, B-OG, I-AF
-8	거	O	O	O, B-CV, B-OG, B-PS, I-OG
-9	##예	O	O	O, B-CV, I-OG, B-OG, B-PS
-10	##요	O	O	O, B-CV, I-OG, B-OG, I-CV
-11	.	O	O	O, B-CV, B-OG, B-LC, B-PS
-12	[SEP]	O	O	O, B-CV, B-OG, I-OG, I-CV
+	text	label	preds
+0	[CLS]	O	O
+1	그	O	O
+2	##는	O	O
+3	공격수	B-CV	B-CV
+4	##가	O	O
+5	아닌	O	O
+6	날개	O	B-AM
+7	자리	O	O
+8	##로	O	O
+9	경기	O	O
+10	##에	O	O
+11	나서	O	O
+12	##거나	O	O
+13	아예	O	O
+14	출전	O	O
+15	##하	O	O
+16	##지	O	O
+17	못	O	O
+18	##했	O	O
+19	##다	O	O
+20	.	O	O
+21	[SEP]	O	O

@@ -1,13 +1,49 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, I-AF, B-CV
-1	챔	B-EV	B-EV	B-EV, O, B-OG, B-DT, I-EV
-2	##스	I-EV	I-EV	I-EV, O, I-OG, I-AF, B-EV
-3	##서	O	O	O, I-EV, I-DT, I-OG, I-AF
-4	만난	O	O	O, B-LC, B-CV, I-EV, B-OG
-5	남북한	B-OG	B-LC	B-LC, B-OG, O, B-PS, B-AF
-6	,	O	O	O, I-OG, I-LC, I-AF, B-CV
-7	싸울	O	O	O, B-CV, B-LC, B-OG, B-AF
-8	##수록	O	O	O, B-PS, I-AF, I-OG, I-EV
-9	즐거웠	O	O	O, B-CV, B-LC, B-OG, B-PS
-10	##다	O	O	O, B-CV, I-OG, I-AF, I-CV
-11	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	동아	B-OG	B-OG
+2	##S	I-OG	I-OG
+3	##T	I-OG	I-OG
+4	##는	O	O
+5	임직원	B-CV	B-CV
+6	##들의	O	O
+7	불법	O	O
+8	리베이트	O	O
+9	##를	O	O
+10	감시	O	O
+11	##하	O	O
+12	##는	O	O
+13	전담	O	O
+14	##조	O	O
+15	##직	O	O
+16	##을	O	O
+17	대표	B-CV	B-CV
+18	##이	I-CV	I-CV
+19	##사	I-CV	I-CV
+20	직속	O	O
+21	##으로	O	O
+22	개편	O	O
+23	##했	O	O
+24	##으며	O	O
+25	유한	B-OG	B-OG
+26	##양	I-OG	I-OG
+27	##행	I-OG	I-OG
+28	##과	O	O
+29	종	B-OG	B-OG
+30	##근	I-OG	I-OG
+31	##당	I-OG	I-OG
+32	##도	O	O
+33	영업	O	O
+34	부서	O	O
+35	##와	O	O
+36	분리	O	O
+37	##된	O	O
+38	CP	B-OG	O
+39	전담	I-OG	O
+40	##조	I-OG	O
+41	##직	I-OG	O
+42	##을	O	O
+43	강화	O	O
+44	##했	O	O
+45	##다	O	O
+46	.	O	O
+47	[SEP]	O	O

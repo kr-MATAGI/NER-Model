@@ -1,29 +1,26 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	비타민	B-MT	B-MT	B-MT, O, I-MT, B-CV, B-TM
-2	##E	I-MT	I-MT	I-MT, B-MT, I-PT, O, I-TM
-3	##는	O	O	O, I-MT, I-TM, I-CV, I-OG
-4	견과	B-CV	B-CV	B-CV, O, B-PT, B-TM, I-CV
-5	##류	I-CV	I-CV	I-CV, O, I-PT, I-MT, I-TM
-6	·	O	O	O, I-CV, I-OG, I-DT, I-TM
-7	오일	B-CV	O	O, B-CV, B-PT, I-CV, B-TM
-8	등	O	O	O, I-CV, B-CV, B-LC, B-TM
-9	##에	O	O	O, B-CV, B-LC, B-OG, B-TM
-10	,	O	O	O, B-LC, B-CV, B-OG, B-PS
-11	비타민	B-MT	B-MT	B-MT, O, B-CV, I-MT, B-TM
-12	##C	I-MT	I-MT	I-MT, O, B-MT, I-PT, I-TM
-13	##는	O	O	O, I-MT, I-CV, I-TM, I-AF
-14	오렌지	B-PT	B-PT	B-PT, B-CV, O, B-LC, B-AF
-15	·	O	O	O, I-CV, I-AF, I-OG, I-DT
-16	딸기	B-PT	B-PT	B-PT, B-CV, O, B-AF, B-AM
-17	같	O	O	O, I-CV, B-CV, I-AF, I-EV
-18	##은	O	O	O, B-LC, B-CV, B-TM, B-OG
-19	과	O	O	O, B-CV, B-TM, B-PT, B-LC
-20	##채	O	O	O, I-CV, I-TM, I-LC, I-PT
-21	##류	O	O	O, I-CV, I-TM, I-LC, I-OG
-22	##에	O	O	O, I-CV, B-CV, B-LC, B-PS
-23	풍부	O	O	O, B-CV, B-LC, B-OG, B-TM
-24	##하	O	O	O, B-CV, B-LC, B-OG, I-OG
-25	##다	O	O	O, B-CV, B-OG, B-LC, I-CV
-26	.	O	O	O, B-LC, B-CV, I-CV, I-OG
-27	[SEP]	O	O	O, B-CV, B-LC, I-CV, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	미국	B-LC	B-LC
+2	##의	O	O
+3	에프	B-OG	B-OG
+4	##엠	I-OG	I-OG
+5	##씨	I-OG	I-OG
+6	##에스	I-OG	I-OG
+7	##나	O	O
+8	엔	B-OG	B-CV
+9	##엘	I-OG	I-CV
+10	##알	I-OG	I-CV
+11	##비	I-OG	I-CV
+12	##에다	O	O
+13	##가	O	O
+14	유럽	B-LC	B-LC
+15	##의	O	O
+16	노동법	B-CV	B-OG
+17	##원	I-CV	I-OG
+18	제도	I-CV	O
+19	##를	O	O
+20	이렇게	O	O
+21	종합	O	O
+22	##해서	O	O
+23	만든	O	O
+24	[SEP]	O	O

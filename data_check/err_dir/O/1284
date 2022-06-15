@@ -1,14 +1,33 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, B-CV, I-OG, I-AF
-1	왜	O	O	O, B-CV, B-LC, B-OG, B-PS
-2	나	O	O	O, B-CV, B-OG, B-TM, B-LC
-3	##는	O	O	O, B-CV, I-OG, B-TM, I-CV
-4	그런	O	O	O, B-CV, B-TM, B-LC, B-QT
-5	걸	O	O	O, B-CV, B-OG, B-LC, B-QT
-6	하나	O	B-QT	B-QT, O, I-QT, B-PS, B-TM
-7	##도	O	O	O, I-QT, I-DT, I-OG, I-LC
-8	못	O	O	O, B-CV, I-QT, B-TM, B-QT
-9	하고	O	O	O, B-CV, B-QT, B-TM, I-QT
-10	있	O	O	O, B-CV, B-QT, B-TM, B-LC
-11	##지	O	O	O, I-OG, I-CV, I-QT, B-CV
-12	[SEP]	O	O	O, B-CV, B-TM, B-LC, I-CV
+	text	label	preds
+0	[CLS]	O	O
+1	수비	O	O
+2	##형	O	O
+3	레프	O	B-CV
+4	##트	O	I-CV
+5	##인	O	O
+6	송	B-PS	B-PS
+7	##희	I-PS	I-PS
+8	##채	I-PS	I-PS
+9	##는	O	O
+10	이날	B-DT	B-DT
+11	공격	O	O
+12	##에	O	O
+13	##서도	O	O
+14	활약	O	O
+15	##하	O	O
+16	##며	O	O
+17	14	B-QT	B-QT
+18	##점	I-QT	I-QT
+19	(	O	O
+20	성공	O	O
+21	##률	O	O
+22	68	B-QT	B-QT
+23	.	I-QT	I-QT
+24	75	I-QT	I-QT
+25	%	I-QT	I-QT
+26	)	O	O
+27	을	O	O
+28	올렸	O	O
+29	##다	O	O
+30	.	O	O
+31	[SEP]	O	O

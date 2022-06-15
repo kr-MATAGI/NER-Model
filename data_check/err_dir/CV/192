@@ -1,11 +1,51 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-AF
-1	가정	O	O	O, B-CV, B-FD, B-TM, B-LC
-2	##용	O	O	O, I-CV, I-AF, I-FD, B-CV
-3	전기료	B-CV	O	O, B-CV, B-TM, B-FD, B-QT
-4	##에	O	O	O, I-CV, I-AF, B-CV, B-PS
-5	##만	O	O	O, B-LC, B-PS, B-QT, B-TM
-6	누진	B-CV	B-CV	B-CV, O, B-TM, B-OG, B-AF
-7	##제	I-CV	I-CV	I-CV, O, B-CV, I-TM, I-OG
-8	적용	O	O	O, I-CV, I-OG, I-AF, I-TM
-9	[SEP]	O	O	O, B-CV, I-CV, B-LC, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	먼저	O	O
+2	시도	O	O
+3	##교육	O	B-OG
+4	##청	O	I-OG
+5	##의	O	O
+6	재정	B-CV	O
+7	자율	I-CV	O
+8	##권	I-CV	O
+9	확대	O	O
+10	##를	O	O
+11	위해	O	O
+12	특별	O	O
+13	##교	O	O
+14	##부	O	O
+15	##금	O	O
+16	##의	O	O
+17	비율	O	O
+18	##을	O	O
+19	4	B-QT	B-QT
+20	%	I-QT	I-QT
+21	에서	O	O
+22	3	B-QT	B-QT
+23	%	I-QT	I-QT
+24	로	O	O
+25	낮춰	O	O
+26	교육부	B-OG	B-OG
+27	##가	O	O
+28	가져왔	O	O
+29	##던	O	O
+30	약	O	O
+31	4000	O	O
+32	##억	O	O
+33	원의	O	O
+34	예산	O	O
+35	##을	O	O
+36	시도	O	O
+37	##교육	O	B-OG
+38	##청	O	I-OG
+39	##이	O	O
+40	자체	O	O
+41	##적	O	O
+42	##으로	O	O
+43	쓰	O	O
+44	##게	O	O
+45	할	O	O
+46	방침	O	O
+47	##이다	O	O
+48	.	O	O
+49	[SEP]	O	O

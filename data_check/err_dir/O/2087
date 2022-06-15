@@ -1,38 +1,27 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, I-OG, B-CV, I-AF
-1	하루	B-DT	B-DT	B-DT, O, I-DT, B-CV, B-QT
-2	2	B-QT	B-QT	B-QT, I-QT, B-DT, I-DT, O
-3	##갑	I-QT	I-QT	I-QT, O, I-DT, I-EV, I-LC
-4	이상	I-QT	I-QT	I-QT, O, I-LC, I-DT, I-EV
-5	담배	B-CV	B-CV	B-CV, O, B-AF, B-PT, B-TM
-6	##를	O	O	O, I-CV, I-AF, B-CV, I-QT
-7	피웠	O	O	O, B-CV, B-PS, B-LC, B-OG
-8	##던	O	O	O, B-PS, B-CV, I-CV, B-LC
-9	애	O	B-CV	B-CV, O, I-CV, B-PS, B-OG
-10	##연	O	O	O, I-CV, B-CV, I-OG, I-QT
-11	##가	O	O	O, I-CV, B-CV, I-OG, I-QT
-12	##였	O	O	O, I-CV, B-PS, I-OG, I-QT
-13	##는데	O	O	O, B-PS, I-CV, B-CV, I-QT
-14	,	O	O	O, B-CV, B-PS, B-LC, B-OG
-15	금연	O	O	O, B-TM, B-CV, B-TR, B-FD
-16	##을	O	O	O, B-PS, I-CV, I-TM, B-CV
-17	권하	O	O	O, B-CV, B-OG, B-PS, B-TM
-18	##던	O	O	O, B-PS, B-CV, I-CV, B-OG
-19	후배	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-AF
-20	##들	O	O	O, I-CV, I-OG, I-AF, B-CV
-21	##에	O	O	O, B-CV, B-TM, B-PS, I-CV
-22	##게	O	O	O, B-CV, B-TM, B-LC, B-PS
-23	""""	O	O	O, B-CV, B-LC, B-PS, B-TM
-24	난	O	O	O, B-PS, B-CV, B-LC, B-OG
-25	뻐	O	O	O, B-PS, B-CV, B-TM, B-LC
-26	##끔	O	O	O, I-PS, I-AF, I-TM, I-LC
-27	담배	B-CV	B-CV	B-CV, O, B-AF, B-TM, B-PT
-28	##여	O	O	O, I-CV, I-AF, I-PS, I-OG
-29	""""	O	O	O, B-CV, I-CV, B-TM, B-PS
-30	라며	O	O	O, B-LC, B-PS, B-TM, B-CV
-31	이해	O	O	O, B-CV, B-TM, B-PS, B-LC
-32	##를	O	O	O, B-CV, B-PS, I-OG, I-AF
-33	구했	O	O	O, B-CV, B-PS, B-OG, B-LC
-34	##다	O	O	O, B-CV, B-PS, I-CV, I-OG
-35	.	O	O	O, B-CV, B-PS, B-LC, I-CV
-36	[SEP]	O	O	O, B-CV, B-PS, B-LC, I-CV
+	text	label	preds
+0	[CLS]	O	O
+1	어	O	O
+2	~	O	O
+3	그러니까	O	O
+4	이런	O	O
+5	것	O	O
+6	##들이	O	O
+7	선행	O	O
+8	##이	O	O
+9	돼야	O	O
+10	그	O	O
+11	제너	O	O
+12	##러	O	O
+13	##틱	O	O
+14	제너	O	B-TR
+15	##러	O	I-TR
+16	##티브	O	I-TR
+17	그래	O	I-TR
+18	##머	O	I-TR
+19	##가	O	O
+20	어떻게	O	O
+21	작동	O	O
+22	##을	O	O
+23	할	O	O
+24	텐데	O	O
+25	[SEP]	O	O

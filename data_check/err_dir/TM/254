@@ -1,19 +1,41 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	그	O	O	O, B-TM, B-CV, B-LC, B-OG
-2	중간	B-TM	O	O, B-TM, B-CV, B-LC, B-QT
-3	##의	O	O	O, B-CV, I-CV, B-PS, I-TM
-4	역할	O	O	O, B-CV, I-CV, B-QT, B-PS
-5	##을	O	O	O, B-CV, I-CV, B-PS, I-QT
-6	했	O	O	O, B-CV, B-PS, B-QT, B-TM
-7	##던	O	O	O, B-CV, I-CV, B-PS, B-TM
-8	사람	O	O	O, B-CV, I-CV, B-PS, B-QT
-9	##들	O	O	O, I-CV, B-CV, B-PS, I-QT
-10	##과	O	O	O, B-CV, B-PS, I-CV, B-OG
-11	오랜	O	O	O, B-LC, B-DT, B-TI, B-CV
-12	시간	O	O	O, I-DT, B-LC, B-TI, B-PS
-13	있	O	O	O, B-CV, B-LC, B-TM, B-OG
-14	##었	O	O	O, B-CV, B-OG, B-LC, B-PS
-15	##죠	O	O	O, B-CV, I-OG, I-CV, I-AF
-16	.	O	O	O, B-CV, B-LC, B-PS, B-OG
-17	[SEP]	O	O	O, B-CV, B-LC, I-CV, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	현재	O	O
+2	상하이	B-LC	B-LC
+3	##에	O	O
+4	##선	O	O
+5	AI	B-TM	B-FD
+6	##가	O	O
+7	확산	O	O
+8	##하	O	O
+9	##는	O	O
+10	가운데	O	O
+11	시내	O	O
+12	쓰	B-LC	B-LC
+13	##징	I-LC	I-LC
+14	(	O	O
+15	[UNK]	O	O
+16	[UNK]	O	O
+17	)	O	O
+18	연못	O	O
+19	##에	O	O
+20	##서	O	O
+21	물고기	B-AM	B-AM
+22	1000	B-QT	B-QT
+23	##마리	I-QT	I-QT
+24	이상	I-QT	I-QT
+25	##이	O	O
+26	죽	O	O
+27	##은	O	O
+28	채	O	O
+29	떠올라	O	O
+30	주민	B-CV	B-CV
+31	불안	O	O
+32	##을	O	O
+33	가중	O	O
+34	##하	O	O
+35	##고	O	O
+36	있	O	O
+37	##다	O	O
+38	.	O	O
+39	[SEP]	O	O

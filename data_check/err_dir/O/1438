@@ -1,22 +1,33 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	한	O	O	O, B-PS, B-QT, B-LC, B-OG
-2	선대위	O	B-OG	B-OG, O, B-CV, B-EV, B-AF
-3	관계자	B-CV	B-CV	B-CV, O, I-CV, I-OG, B-OG
-4	##는	O	O	O, I-CV, I-OG, I-EV, I-QT
-5	“	O	O	O, B-CV, B-OG, B-PS, B-LC
-6	마지막	O	O	O, B-PS, B-QT, B-EV, B-OG
-7	순간	O	O	O, B-PS, I-EV, B-OG, I-OG
-8	##에	O	O	O, B-PS, I-EV, B-CV, I-OG
-9	소위	O	O	O, B-PS, B-LC, B-OG, B-EV
-10	‘	O	O	O, B-PS, B-LC, B-OG, B-CV
-11	아름다운	O	O	O, B-PS, B-LC, B-EV, B-OG
-12	단일	O	O	O, B-EV, B-TR, B-PS, B-TM
-13	##화	O	O	O, I-TR, I-EV, I-OG, I-PS
-14	’	O	O	O, I-EV, I-OG, B-PS, B-OG
-15	가	O	O	O, B-PS, B-OG, B-LC, I-OG
-16	된	O	O	O, B-OG, B-PS, B-CV, B-EV
-17	셈	O	O	O, B-PS, B-CV, I-EV, B-OG
-18	##이다	O	O	O, B-CV, I-OG, I-EV, B-OG
-19	.	O	O	O, B-PS, B-LC, B-CV, B-OG
-20	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	2	B-QT	B-QT
+2	##차	I-QT	I-QT
+3	조사의	O	O
+4	결론	O	O
+5	##대로	O	O
+6	##면	O	O
+7	6	B-QT	B-QT
+8	##명	I-QT	I-QT
+9	##이	O	O
+10	사망	O	O
+11	##한	O	O
+12	전원	O	B-LC
+13	##마을	O	I-LC
+14	##의	O	O
+15	산사태	O	O
+16	##의	O	O
+17	강우	O	O
+18	##빈	O	O
+19	##도	O	O
+20	##는	O	O
+21	‘	O	O
+22	20	B-DT	B-DT
+23	##년	I-DT	I-DT
+24	이하	I-DT	I-DT
+25	’	O	O
+26	에	O	O
+27	불과	O	O
+28	##했	O	O
+29	##다	O	O
+30	.	O	O
+31	[SEP]	O	O

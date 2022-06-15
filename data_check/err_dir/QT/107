@@ -1,14 +1,37 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	萬	O	O	O, B-PS, B-AF, B-AM, B-LC
-2	手	O	O	O, I-PS, I-AF, B-PS, B-AM
-3	,	O	O	O, I-AF, I-PS, I-CV, B-CV
-4	또	O	O	O, B-QT, B-LC, B-TM, B-PS
-5	하나	B-QT	O	O, B-QT, I-QT, B-PS, B-LC
-6	##의	O	O	O, I-QT, I-AF, I-PS, B-PS
-7	기록	O	O	O, B-CV, B-TM, B-LC, B-PS
-8	‘	O	O	O, B-CV, B-OG, B-LC, B-TM
-9	400	B-QT	B-QT	B-QT, O, I-QT, B-EV, B-DT
-10	##승	I-QT	I-QT	I-QT, O, I-EV, I-LC, I-AF
-11	’	O	O	O, I-QT, I-OG, I-EV, B-CV
-12	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-AF
+	text	label	preds
+0	[CLS]	O	O
+1	지난해	B-DT	B-DT
+2	준우승	O	O
+3	##팀	O	O
+4	서울	B-OG	B-OG
+5	##경	I-OG	I-OG
+6	##희	I-OG	I-OG
+7	##고	I-OG	I-OG
+8	##도	O	O
+9	광양	B-OG	B-OG
+10	##제철	I-OG	I-OG
+11	##고	I-OG	I-OG
+12	##와	O	O
+13	전후	B-TI	B-TI
+14	##반	I-TI	I-TI
+15	2	B-QT	B-QT
+16	##대	I-QT	I-QT
+17	##2	I-QT	I-QT
+18	무승부	B-QT	O
+19	이후	O	O
+20	승부차기	B-TM	B-TM
+21	(	O	O
+22	4	B-QT	B-QT
+23	##대	I-QT	I-QT
+24	##2	I-QT	I-QT
+25	)	O	O
+26	승리	O	O
+27	##로	O	O
+28	가까스로	O	O
+29	16	B-EV	B-EV
+30	##강	I-EV	I-EV
+31	##에	O	O
+32	올랐	O	O
+33	##다	O	O
+34	.	O	O
+35	[SEP]	O	O

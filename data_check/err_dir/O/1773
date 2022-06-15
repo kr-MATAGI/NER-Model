@@ -1,52 +1,16 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-QT
-1	현	O	B-CV	B-CV, O, B-TM, B-AM, B-QT
-2	##생	O	I-CV	I-CV, O, B-CV, I-AM, I-TM
-3	##인	O	I-CV	I-CV, O, B-CV, I-AM, I-TM
-4	##류	O	I-CV	I-CV, O, I-TM, I-AM, B-CV
-5	(	O	O	O, I-CV, B-CV, I-QT, I-OG
-6	호모	B-CV	B-CV	B-CV, O, I-CV, B-AM, B-TM
-7	##사	I-CV	I-CV	I-CV, O, B-CV, I-TM, I-AM
-8	##피	I-CV	I-CV	I-CV, O, I-TM, B-CV, I-AM
-9	##엔	I-CV	I-CV	I-CV, O, I-TM, B-CV, I-AM
-10	##스	I-CV	I-CV	I-CV, O, I-TM, I-AM, B-CV
-11	)	O	O	O, I-CV, I-OG, I-QT, I-TM
-12	와	O	O	O, B-CV, B-LC, B-PS, B-OG
-13	네	B-CV	B-CV	B-CV, O, B-AM, B-TM, B-LC
-14	##안	I-CV	I-CV	I-CV, O, I-TM, I-AM, B-CV
-15	##데르	I-CV	I-CV	I-CV, O, I-TM, B-CV, I-AM
-16	##탈	I-CV	I-CV	I-CV, O, I-TM, B-CV, I-AM
-17	##인	I-CV	I-CV	I-CV, O, I-TM, B-CV, I-AM
-18	,	O	O	O, I-CV, B-CV, I-QT, I-OG
-19	혼	O	O	O, B-QT, B-TM, B-CV, B-PS
-20	##종	O	O	O, I-QT, I-CV, I-TM, I-LC
-21	자식	B-CV	B-CV	B-CV, O, I-CV, I-QT, B-AM
-22	낳	O	O	O, I-CV, B-CV, I-QT, I-TM
-23	##았	O	O	O, B-CV, B-LC, B-PS, B-OG
-24	##을	O	O	O, B-LC, B-CV, B-PS, B-OG
-25	것	O	O	O, B-LC, B-PS, B-OG, B-CV
-26	;	O	O	O, B-LC, B-OG, B-PS, B-CV
-27	獨	O	O	O, B-LC, B-OG, B-PS, B-CV
-28	연구	O	O	O, B-CV, I-OG, B-FD, B-LC
-29	##결	O	O	O, I-CV, I-OG, I-LC, B-PS
-30	##과	O	O	O, I-OG, I-CV, B-LC, I-LC
-31	사이언스	B-OG	B-OG	B-OG, B-AF, O, B-TM, B-LC
-32	##지	I-OG	I-OG	I-OG, I-AF, O, I-LC, I-TM
-33	게재	O	O	O, I-OG, I-AF, B-CV, B-LC
-34	현	O	O	O, B-CV, B-TM, B-AM, B-QT
-35	##생	O	O	O, I-CV, B-CV, I-TM, I-AM
-36	##인	O	O	O, I-CV, B-CV, I-TM, I-AM
-37	##류	O	O	O, I-CV, I-TM, I-AM, B-CV
-38	##와	O	O	O, I-CV, B-LC, B-PS, B-CV
-39	유전자	B-TM	B-TM	B-TM, O, B-AM, B-TR, B-CV
-40	공유	O	O	O, B-CV, I-TM, B-TM, B-LC
-41	1	B-QT	B-QT	B-QT, O, I-QT, B-OG, B-DT
-42	~	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-OG
-43	4	I-QT	I-QT	I-QT, B-QT, O, I-LC, I-OG
-44	%	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-OG
-45	로	O	O	O, I-QT, B-LC, I-OG, B-CV
-46	지역	O	O	O, B-LC, B-OG, B-CV, B-TM
-47	##차	O	O	O, B-PS, B-LC, B-TM, B-CV
-48	##이	O	O	O, B-PS, B-LC, B-OG, B-CV
-49	보여	O	O	O, B-LC, B-CV, I-OG, B-OG
-50	[SEP]	O	O	O, B-LC, B-CV, B-TM, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	오늘	B-DT	B-DT
+2	아마추어	B-CV	B-CV
+3	곤충	O	B-AM
+4	애호가	B-CV	B-CV
+5	황의	B-PS	B-PS
+6	##웅	I-PS	I-PS
+7	##씨	O	O
+8	초대	O	O
+9	##하	O	O
+10	##겠	O	O
+11	##습	O	O
+12	##니다	O	O
+13	.	O	O
+14	[SEP]	O	O

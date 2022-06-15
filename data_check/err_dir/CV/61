@@ -1,39 +1,13 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	4	B-QT	B-QT	B-QT, O, I-QT, B-EV, B-DT
-2	##대	I-QT	I-QT	I-QT, O, I-EV, I-DT, I-OG
-3	프로	O	O	O, B-FD, B-CV, I-QT, B-OG
-4	##스포츠	O	O	O, I-FD, I-CV, B-FD, I-OG
-5	종목	O	O	O, I-FD, B-FD, I-CV, I-OG
-6	##은	O	O	O, I-OG, B-PS, B-OG, B-CV
-7	아니	O	O	O, B-CV, B-OG, B-LC, B-PS
-8	##지만	O	O	O, I-OG, B-PS, B-CV, B-LC
-9	젊	O	O	O, B-CV, B-LC, B-PS, B-TM
-10	##은	O	O	O, B-PS, B-LC, I-CV, I-PS
-11	##층	O	O	O, I-PS, B-PS, I-LC, B-LC
-12	##에	O	O	O, B-CV, B-LC, B-PS, B-OG
-13	큰	O	O	O, B-LC, B-CV, B-OG, B-TM
-14	영향	O	O	O, B-CV, B-LC, B-TM, B-PS
-15	##을	O	O	O, B-CV, B-PS, B-LC, B-OG
-16	끼치	O	O	O, B-CV, B-LC, B-PS, B-QT
-17	##는	O	O	O, B-CV, B-PS, B-LC, B-OG
-18	e	B-CV	B-FD	B-FD, O, B-CV, B-EV, B-AF
-19	##스포츠	I-CV	I-FD	I-FD, O, I-CV, I-TM, I-EV
-20	##의	O	O	O, I-CV, I-FD, I-EV, I-OG
-21	경우	O	O	O, B-CV, B-OG, B-TM, B-PS
-22	징계	O	O	O, B-CV, B-PS, B-LC, I-OG
-23	##를	O	O	O, B-CV, B-PS, B-OG, B-LC
-24	받	O	O	O, B-PS, B-CV, B-LC, B-OG
-25	##은	O	O	O, B-PS, B-CV, B-LC, B-OG
-26	선수	B-CV	B-CV	B-CV, O, I-CV, B-EV, B-TM
-27	##가	O	O	O, I-CV, I-EV, I-AF, B-PS
-28	관련	O	O	O, B-CV, B-TM, B-LC, B-FD
-29	분야	O	O	O, B-CV, B-FD, B-LC, B-PS
-30	##에서	O	O	O, B-CV, B-LC, B-PS, B-TM
-31	버젓이	O	O	O, B-CV, B-LC, B-TM, B-PS
-32	활동	O	O	O, B-CV, B-LC, B-PS, B-TM
-33	##하기	O	O	O, B-CV, B-PS, B-LC, B-OG
-34	##도	O	O	O, B-CV, B-LC, I-OG, B-TM
-35	한다	O	O	O, B-CV, B-TM, B-LC, I-OG
-36	.	O	O	O, B-CV, B-PS, B-LC, B-FD
-37	[SEP]	O	O	O, B-CV, B-FD, B-PS, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	농구	B-CV	O
+2	##대	O	O
+3	##가	O	O
+4	있	O	O
+5	##어	O	O
+6	##서	O	O
+7	농구	O	B-CV
+8	시합	O	O
+9	##을	O	O
+10	해서	O	O
+11	[SEP]	O	O

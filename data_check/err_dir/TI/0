@@ -1,26 +1,25 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-AF
-1	창단	O	O	O, B-OG, B-LC, B-CV, B-FD
-2	86	B-DT	B-DT	B-DT, I-DT, O, B-QT, B-OG
-3	##년	I-DT	I-DT	I-DT, O, I-QT, I-OG, B-DT
-4	英	B-LC	B-LC	B-LC, B-OG, O, I-DT, I-LC
-5	무용단	O	O	O, I-OG, B-OG, I-LC, B-FD
-6	‘	O	O	O, I-OG, B-OG, B-LC, B-CV
-7	램	B-OG	B-OG	B-OG, O, I-OG, B-PS, B-AF
-8	##버트	I-OG	I-OG	I-OG, O, I-LC, I-AF, I-PS
-9	##댄	I-OG	I-OG	I-OG, O, I-AF, I-LC, I-PS
-10	##스	I-OG	I-OG	I-OG, O, I-LC, I-AF, I-PS
-11	##컴	I-OG	I-OG	I-OG, O, I-LC, I-PS, I-AF
-12	##퍼니	I-OG	I-OG	I-OG, O, I-PS, I-LC, I-AF
-13	’	O	O	O, I-OG, I-AF, B-CV, B-LC
-14	내	O	O	O, B-LC, B-TM, B-CV, B-EV
-15	##한	O	O	O, I-LC, B-LC, I-EV, I-AF
-16	…	O	O	O, B-LC, B-OG, B-PS, B-CV
-17	초가	B-DT	B-TI	B-TI, B-DT, O, B-CV, B-EV
-18	##을	I-DT	I-AF	I-AF, O, I-TI, I-LC, I-EV
-19	##밤	B-TI	I-AF	I-AF, I-TI, B-TI, O, I-CV
-20	,	O	O	O, I-AF, I-CV, I-EV, I-TI
-21	춤	O	O	O, B-CV, B-LC, B-AF, B-FD
-22	##출	O	O	O, I-AF, B-CV, I-CV, I-LC
-23	##까요	O	O	O, I-AF, I-LC, I-CV, B-LC
-24	[SEP]	O	O	O, B-LC, B-OG, B-CV, B-AF
+	text	label	preds
+0	[CLS]	O	O
+1	창단	O	O
+2	86	B-DT	B-DT
+3	##년	I-DT	I-DT
+4	英	B-LC	B-LC
+5	무용단	O	O
+6	‘	O	O
+7	램	B-OG	B-OG
+8	##버트	I-OG	I-OG
+9	##댄	I-OG	I-OG
+10	##스	I-OG	I-OG
+11	##컴	I-OG	I-OG
+12	##퍼니	I-OG	I-OG
+13	’	O	O
+14	내한	O	O
+15	…	O	O
+16	초	B-DT	B-DT
+17	##가을	I-DT	I-DT
+18	##밤	B-TI	I-TI
+19	,	O	O
+20	춤	O	O
+21	##출	O	O
+22	##까요	O	O
+23	[SEP]	O	O

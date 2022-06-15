@@ -1,17 +1,31 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	그랬	O	O	O, B-CV, B-OG, B-LC, B-AF
-2	##더니	O	O	O, B-CV, B-OG, B-PS, B-LC
-3	그	O	O	O, B-CV, B-OG, B-DT, B-LC
-4	다음	O	B-DT	B-DT, O, I-DT, B-CV, B-QT
-5	날	O	I-DT	I-DT, O, B-DT, I-CV, I-QT
-6	열	B-TI	B-TI	B-TI, I-TI, O, B-QT, I-DT
-7	시	I-TI	I-TI	I-TI, B-TI, O, I-DT, I-QT
-8	##까	I-TI	I-TI	I-TI, O, B-TI, I-QT, I-TR
-9	##지	I-TI	I-TI	I-TI, O, B-TI, I-QT, I-TR
-10	리	B-AF	B-AF	B-AF, O, I-AF, B-OG, B-TM
-11	##무진	I-AF	I-AF	I-AF, O, B-AF, I-OG, I-TM
-12	##을	O	O	O, I-AF, I-OG, I-CV, B-CV
-13	보낸	O	O	O, B-OG, B-CV, B-LC, B-AF
-14	##대	O	O	O, I-OG, I-AF, I-EV, B-OG
-15	[SEP]	O	O	O, B-CV, B-LC, I-AF, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	구원	O	B-CV
+2	투수	B-CV	I-CV
+3	고	B-PS	B-PS
+4	##효	I-PS	I-PS
+5	##준	I-PS	I-PS
+6	##의	O	O
+7	폭	B-TM	B-TM
+8	##투	I-TM	I-TM
+9	때	O	O
+10	3	B-TM	B-TM
+11	##루	I-TM	I-TM
+12	주자	B-CV	B-CV
+13	황	B-PS	B-PS
+14	##목	I-PS	I-PS
+15	##치	I-PS	I-PS
+16	##승	I-PS	I-PS
+17	##이	O	O
+18	홈	B-TM	O
+19	##을	O	O
+20	밟	O	O
+21	##아	O	O
+22	한	B-QT	B-QT
+23	점	I-QT	I-QT
+24	##을	O	O
+25	더	O	O
+26	따라갔	O	O
+27	##다	O	O
+28	.	O	O
+29	[SEP]	O	O

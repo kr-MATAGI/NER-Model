@@ -1,75 +1,83 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-EV, I-CV, I-OG
-1	이상	B-PS	B-PS	B-PS, B-OG, O, B-LC, I-PS
-2	##원	I-PS	I-PS	I-PS, I-OG, O, I-LC, I-QT
-3	연세	B-OG	B-OG	B-OG, I-OG, B-AF, O, I-PS
-4	##바	I-OG	I-OG	I-OG, O, I-AF, I-PS, I-LC
-5	##른	I-OG	I-OG	I-OG, O, I-AF, I-LC, I-PS
-6	##병원	I-OG	I-OG	I-OG, O, I-AF, I-LC, B-OG
-7	원장	B-CV	B-CV	B-CV, O, I-CV, I-OG, B-TM
-8	##은	O	O	O, I-CV, I-OG, I-EV, B-CV
-9	“	O	O	O, B-CV, B-LC, B-TM, B-OG
-10	노년층	O	O	O, B-CV, B-LC, B-TM, B-PS
-11	##의	O	O	O, B-PS, I-CV, B-CV, B-LC
-12	무릎	B-AM	B-TM	B-TM, B-AM, O, B-TR, B-CV
-13	퇴행	B-TM	I-TM	I-TM, B-TM, O, I-TR, I-AM
-14	##성	I-TM	I-TM	I-TM, O, B-TM, I-TR, I-CV
-15	관절염	I-TM	I-TM	I-TM, O, B-TM, I-CV, I-QT
-16	##은	O	O	O, I-TM, I-CV, I-OG, I-EV
-17	활동	O	O	O, B-LC, B-TM, B-CV, B-OG
-18	제약	O	O	O, B-LC, B-PS, B-TM, B-CV
-19	##이	O	O	O, B-PS, B-LC, B-OG, B-CV
-20	많	O	O	O, B-CV, B-LC, B-PS, B-TM
-21	##고	O	O	O, B-PS, B-LC, B-CV, B-TM
-22	,	O	O	O, B-CV, B-LC, B-PS, B-TM
-23	통증	O	O	O, B-TM, B-LC, B-CV, B-PS
-24	##으로	O	O	O, B-PS, B-LC, B-CV, B-TM
-25	인한	O	O	O, B-LC, B-TM, B-PS, B-CV
-26	스트레스	O	O	O, B-TM, B-PS, B-LC, B-CV
-27	##가	O	O	O, B-PS, B-LC, B-CV, B-OG
-28	심해	O	O	O, B-LC, B-PS, B-CV, B-TM
-29	적절	O	O	O, B-LC, B-CV, B-PS, B-TM
-30	##한	O	O	O, B-LC, B-PS, B-OG, B-TM
-31	치료	O	O	O, B-LC, B-CV, B-PS, B-TM
-32	##가	O	O	O, B-PS, B-LC, B-OG, B-CV
-33	필요	O	O	O, B-LC, B-CV, B-PS, B-OG
-34	##하	O	O	O, B-PS, B-LC, B-OG, I-PS
-35	##다	O	O	O, B-CV, B-PS, B-LC, I-OG
-36	”	O	O	O, B-CV, B-LC, B-TM, B-PS
-37	며	O	O	O, B-CV, B-LC, B-OG, B-TM
-38	“	O	O	O, B-LC, B-CV, B-OG, B-TM
-39	연세	B-OG	B-OG	B-OG, O, B-AF, B-PS, B-LC
-40	##바	I-OG	I-OG	I-OG, O, I-AF, I-LC, B-OG
-41	##른	I-OG	I-OG	I-OG, O, I-AF, I-LC, B-OG
-42	##병원	I-OG	I-OG	I-OG, O, I-AF, I-LC, B-OG
-43	##은	O	O	O, I-OG, B-CV, I-AF, I-EV
-44	의료	O	O	O, B-LC, B-CV, B-TM, B-OG
-45	사각지대	O	O	O, B-CV, B-LC, B-PS, B-OG
-46	##에	O	O	O, B-PS, B-CV, B-LC, I-CV
-47	있	O	O	O, B-LC, B-CV, B-PS, B-OG
-48	##는	O	O	O, B-LC, B-CV, B-TM, B-OG
-49	저소득층	O	O	O, B-CV, B-TM, B-LC, B-OG
-50	퇴행	B-TM	B-TM	B-TM, O, I-TM, B-CV, B-TR
-51	##성	I-TM	I-TM	I-TM, O, B-TM, I-CV, I-TR
-52	관절염	I-TM	I-TM	I-TM, O, B-TM, I-CV, I-QT
-53	어르신	O	O	O, B-CV, I-TM, I-CV, B-TM
-54	##들	O	O	O, I-CV, B-CV, I-TM, B-PS
-55	##께	O	O	O, B-CV, B-LC, B-PS, B-TM
-56	건강	O	O	O, B-TM, B-PS, B-CV, B-LC
-57	##과	O	O	O, B-PS, B-LC, B-CV, B-TM
-58	희망	O	O	O, B-TM, B-PS, B-CV, B-LC
-59	##을	O	O	O, B-CV, B-PS, I-AF, I-CV
-60	드리	O	O	O, B-CV, B-PS, B-LC, B-OG
-61	##도록	O	O	O, B-LC, B-PS, B-TM, B-CV
-62	최선	O	O	O, B-LC, B-OG, B-CV, B-TM
-63	##을	O	O	O, B-CV, I-OG, B-PS, B-OG
-64	다	O	O	O, B-LC, B-OG, B-CV, B-PS
-65	##할	O	O	O, B-PS, B-OG, B-LC, B-CV
-66	것	O	O	O, B-CV, B-OG, B-LC, B-PS
-67	”	O	O	O, B-CV, B-LC, B-TM, B-PS
-68	이라	O	O	O, B-CV, B-TM, B-PS, B-LC
-69	##고	O	O	O, B-CV, B-TM, B-QT, B-OG
-70	전했	O	O	O, B-CV, B-OG, B-TM, B-QT
-71	##다	O	O	O, B-CV, I-EV, B-TM, I-CV
-72	.	O	O	O, B-LC, B-PS, B-CV, B-OG
-73	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	조	B-PS	B-PS
+2	교육감	B-CV	B-CV
+3	##뿐	O	O
+4	##만	O	O
+5	아니	O	O
+6	##라	O	O
+7	,	O	O
+8	장	B-PS	B-PS
+9	##휘	I-PS	I-PS
+10	##국	I-PS	I-PS
+11	광주시	B-LC	B-LC
+12	##교육	B-CV	B-CV
+13	##감	I-CV	I-CV
+14	##도	O	O
+15	지난	B-DT	B-DT
+16	2	I-DT	I-DT
+17	##일	I-DT	I-DT
+18	자신	O	O
+19	##의	O	O
+20	사회	B-TM	O
+21	##적	I-TM	O
+22	##관계	I-TM	O
+23	##망	I-TM	O
+24	##서비스	I-TM	O
+25	(	O	O
+26	SNS	O	O
+27	)	O	O
+28	에	O	O
+29	“	O	O
+30	지금	O	O
+31	국민	B-CV	B-CV
+32	##은	O	O
+33	최순	B-PS	B-PS
+34	##실	I-PS	I-PS
+35	##씨	O	O
+36	등의	O	O
+37	국정	O	O
+38	##농	O	O
+39	##단	O	O
+40	##에	O	O
+41	꼭두각시	O	O
+42	##처럼	O	O
+43	놀	O	O
+44	##아	O	O
+45	##난	O	O
+46	정권	O	O
+47	##을	O	O
+48	극도	O	O
+49	##로	O	O
+50	불신	O	O
+51	##해	O	O
+52	역사	B-FD	B-FD
+53	##교	O	O
+54	##과	O	O
+55	##서	O	O
+56	국정	O	O
+57	##화	O	O
+58	##도	O	O
+59	그대로	O	O
+60	추진	O	O
+61	##하	O	O
+62	##기	O	O
+63	##는	O	O
+64	어렵	O	O
+65	##게	O	O
+66	됐	O	O
+67	##다	O	O
+68	”	O	O
+69	며	O	O
+70	국정	O	O
+71	##교	O	O
+72	##과	O	O
+73	##서	O	O
+74	정책	O	O
+75	포기	O	O
+76	##를	O	O
+77	촉구	O	O
+78	##했	O	O
+79	##다	O	O
+80	.	O	O
+81	[SEP]	O	O

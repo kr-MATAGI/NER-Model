@@ -1,17 +1,32 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, B-CV, I-OG, I-EV
-1	장모	O	B-CV	B-CV, O, B-PS, B-AM, B-QT
-2	(	O	O	O, I-CV, B-CV, B-PS, I-EV
-3	43	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-TM
-4	)	O	O	O, I-QT, I-DT, I-OG, I-EV
-5	씨	O	O	O, B-PS, B-CV, I-QT, I-CV
-6	##는	O	O	O, B-CV, B-PS, B-TM, B-LC
-7	하염없이	O	O	O, B-PS, B-LC, B-QT, B-TM
-8	아들	B-CV	B-CV	B-CV, O, B-PS, I-CV, B-AF
-9	##의	O	O	O, I-CV, B-CV, I-AF, B-PS
-10	이름	O	O	O, B-CV, B-TM, B-PS, B-LC
-11	##을	O	O	O, B-CV, B-PS, I-CV, I-AF
-12	불렀	O	O	O, B-CV, B-PS, B-LC, B-TM
-13	##다	O	O	O, B-CV, I-CV, B-PS, I-AF
-14	.	O	O	O, B-CV, B-PS, B-LC, I-CV
-15	[SEP]	O	O	O, B-CV, B-PS, B-LC, I-CV
+	text	label	preds
+0	[CLS]	O	O
+1	6	B-QT	B-QT
+2	##량	I-QT	I-QT
+3	열차	O	B-AF
+4	##의	O	O
+5	비중	O	O
+6	##을	O	O
+7	점차	O	O
+8	늘려	O	O
+9	내년	B-DT	B-DT
+10	말	I-DT	I-DT
+11	##까	I-DT	I-DT
+12	##지	I-DT	I-DT
+13	28	B-QT	B-QT
+14	##대	I-QT	I-QT
+15	##는	O	O
+16	4	B-QT	B-QT
+17	##량	I-QT	I-QT
+18	,	O	O
+19	17	B-QT	B-QT
+20	##대	I-QT	I-QT
+21	##는	O	O
+22	6	B-QT	B-QT
+23	##량	I-QT	I-QT
+24	##으로	O	O
+25	운행	O	O
+26	##할	O	O
+27	예정	O	O
+28	##이다	O	O
+29	.	O	O
+30	[SEP]	O	O

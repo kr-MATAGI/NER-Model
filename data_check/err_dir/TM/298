@@ -1,46 +1,37 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-EV, I-OG, I-CV
-1	대구시	B-OG	B-OG	B-OG, B-LC, O, B-PS, B-AF
-2	##는	O	O	O, I-OG, B-CV, I-AF, I-EV
-3	이	O	O	O, B-PS, B-CV, B-OG, B-LC
-4	같	O	O	O, B-CV, B-TM, B-LC, B-OG
-5	##은	O	O	O, B-CV, B-PS, B-LC, B-TM
-6	내용	O	O	O, B-CV, B-LC, B-TM, B-PS
-7	##을	O	O	O, B-CV, B-OG, B-LC, B-PS
-8	담	O	O	O, B-LC, B-CV, B-TM, B-OG
-9	##은	O	O	O, B-LC, B-OG, B-PS, B-CV
-10	‘	O	O	O, B-LC, B-OG, B-CV, B-DT
-11	2020	B-DT	B-DT	B-DT, O, B-QT, I-DT, B-EV
-12	대구	B-TM	B-LC	B-LC, B-AF, B-EV, O, B-PS
-13	##도	I-TM	I-AF	I-AF, O, I-LC, I-EV, I-TM
-14	##시	I-TM	I-AF	I-AF, O, I-LC, I-EV, I-CV
-15	##기	I-TM	I-AF	I-AF, O, I-LC, I-EV, I-TM
-16	##본	I-TM	I-AF	I-AF, O, I-LC, I-TM, I-CV
-17	##계	I-TM	I-AF	I-AF, O, I-LC, I-TM, I-CV
-18	##획	I-TM	I-AF	I-AF, O, I-LC, I-TM, I-CV
-19	일부	O	O	O, I-AF, I-TM, I-CV, I-LC
-20	##변	O	O	O, I-AF, I-CV, I-TM, I-LC
-21	##경	O	O	O, I-AF, I-CV, I-TM, I-LC
-22	계획안	O	O	O, I-AF, I-CV, I-LC, I-TM
-23	’	O	O	O, I-AF, I-CV, I-TM, I-EV
-24	을	O	O	O, B-CV, B-LC, B-OG, B-PS
-25	마련	O	O	O, B-CV, B-OG, B-LC, B-TM
-26	##해	O	O	O, B-LC, B-OG, B-PS, B-CV
-27	다음	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-28	달	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
-29	10	I-DT	I-DT	I-DT, B-DT, O, I-QT, I-AF
-30	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-AF
-31	대구	B-AF	B-AF	B-AF, B-LC, O, I-AF, B-OG
-32	##문화	I-AF	I-AF	I-AF, O, I-LC, I-PS, I-OG
-33	##예술	I-AF	I-AF	I-AF, O, I-LC, I-PS, I-OG
-34	##회관	I-AF	I-AF	I-AF, O, I-LC, I-PS, I-OG
-35	##에서	O	O	O, I-AF, I-EV, B-CV, I-LC
-36	공청회	B-EV	O	O, B-EV, B-CV, I-EV, B-LC
-37	##를	O	O	O, I-EV, I-AF, I-OG, B-CV
-38	연다고	O	O	O, B-CV, B-OG, B-LC, B-AF
-39	21	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-40	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
-41	밝혔	O	O	O, I-DT, B-OG, B-CV, B-LC
-42	##다	O	O	O, B-CV, B-OG, B-LC, B-TM
-43	.	O	O	O, B-LC, B-OG, B-CV, B-PS
-44	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	당시	O	O
+2	페더러	B-PS	B-PS
+3	##는	O	O
+4	규정	O	O
+5	##대로	O	O
+6	머리	B-AM	B-AM
+7	##끝	I-AM	I-AM
+8	##부터	O	O
+9	발끝	B-AM	B-AM
+10	##까	O	O
+11	##지	O	O
+12	흰색	B-TM	B-TM
+13	복장	O	O
+14	##을	O	O
+15	착용	O	O
+16	##했	O	O
+17	##지만	O	O
+18	,	O	O
+19	그	O	O
+20	##의	O	O
+21	테니스	B-CV	B-CV
+22	##화	I-CV	I-CV
+23	밑바닥	O	O
+24	##이	O	O
+25	오렌지	B-TM	B-TM
+26	색깔	I-TM	O
+27	##이	O	O
+28	##란	O	O
+29	게	O	O
+30	문제	O	O
+31	##가	O	O
+32	됐	O	O
+33	##다	O	O
+34	.	O	O
+35	[SEP]	O	O

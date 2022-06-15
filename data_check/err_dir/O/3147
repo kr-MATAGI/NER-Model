@@ -1,13 +1,19 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	동해안	B-LC	B-LC	B-LC, O, B-AF, B-OG, B-TM
-2	경제자유구역	O	I-LC	I-LC, O, B-LC, I-AF, B-AF
-3	##은	O	O	O, I-LC, I-AF, I-OG, I-TM
-4	반드시	O	O	O, B-LC, B-CV, B-TM, B-QT
-5	지정	O	O	O, B-CV, B-LC, B-OG, B-TM
-6	##받	O	O	O, I-OG, B-LC, B-CV, I-AF
-7	##을	O	O	O, B-CV, B-LC, B-PS, I-AF
-8	각오	O	O	O, B-CV, B-LC, B-OG, B-TM
-9	##다	O	O	O, B-CV, I-OG, I-AF, B-OG
-10	.	O	O	O, B-CV, B-LC, B-OG, B-PS
-11	[SEP]	O	O	O, B-CV, B-LC, I-OG, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	그러나	O	O
+2	올해	B-DT	B-DT
+3	##는	O	O
+4	'	O	O
+5	완	O	B-TM
+6	##투	O	I-TM
+7	##형	O	O
+8	선발투수	B-CV	B-CV
+9	'	O	O
+10	로	O	O
+11	변신	O	O
+12	##하	O	O
+13	##고	O	O
+14	있	O	O
+15	##다	O	O
+16	.	O	O
+17	[SEP]	O	O

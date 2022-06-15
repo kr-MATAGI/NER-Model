@@ -1,13 +1,13 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-AF
-1	도	B-OG	B-OG	B-OG, O, B-CV, B-LC, B-PS
-2	##공	I-OG	I-OG	I-OG, O, I-CV, I-LC, I-PS
-3	,	O	O	O, I-OG, I-AF, I-CV, B-CV
-4	김천	B-LC	B-LC	B-LC, B-OG, O, B-AF, B-PS
-5	혁신	I-LC	I-LC	I-LC, O, I-OG, I-AF, B-LC
-6	##도	I-LC	I-LC	I-LC, O, I-OG, I-AF, I-TM
-7	##시	I-LC	I-LC	I-LC, O, I-OG, I-AF, I-TM
-8	청사	B-LC	O	O, B-AF, B-LC, B-OG, B-TM
-9	##터	I-LC	O	O, I-LC, I-AF, I-OG, I-TM
-10	계약	O	O	O, I-OG, I-AF, I-LC, I-TM
-11	[SEP]	O	O	O, I-OG, I-AF, B-LC, I-LC
+	text	label	preds
+0	[CLS]	O	O
+1	도	B-OG	B-OG
+2	##공	I-OG	I-OG
+3	,	O	O
+4	김천	B-LC	B-LC
+5	혁신	I-LC	I-LC
+6	##도	I-LC	I-LC
+7	##시	I-LC	I-LC
+8	청사	B-LC	B-AF
+9	##터	I-LC	O
+10	계약	O	O
+11	[SEP]	O	O

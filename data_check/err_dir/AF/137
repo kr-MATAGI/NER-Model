@@ -1,30 +1,49 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	이	O	O	O, B-PS, B-CV, B-OG, B-QT
-2	모든	O	O	O, B-QT, B-PS, B-LC, B-CV
-3	진료	O	O	O, B-CV, B-FD, B-TR, B-TM
-4	##는	O	O	O, B-CV, B-PS, B-OG, B-LC
-5	서울	B-LC	B-LC	B-LC, B-OG, O, B-AF, B-PS
-6	강남구	B-LC	B-LC	B-LC, I-LC, B-OG, O, B-AF
-7	압구정	B-AF	B-LC	B-LC, B-AF, O, I-LC, B-OG
-8	##로	I-AF	O	O, I-AF, I-LC, I-OG, B-AF
-9	##의	O	O	O, I-AF, B-AF, I-LC, I-OG
-10	청	B-AF	B-OG	B-OG, B-AF, O, B-PS, I-AF
-11	##박	I-AF	I-OG	I-OG, I-AF, O, I-PS, I-LC
-12	##병원	I-AF	I-OG	I-OG, I-AF, O, I-LC, I-PS
-13	빌딩	I-AF	O	O, I-AF, B-AF, I-OG, I-LC
-14	4	B-QT	B-QT	B-QT, I-AF, O, I-QT, B-DT
-15	##∼	I-QT	I-QT	I-QT, I-AF, O, I-LC, B-QT
-16	##6	I-QT	I-QT	I-QT, B-QT, I-LC, O, I-AF
-17	##층	I-QT	I-QT	I-QT, O, I-LC, I-AF, B-QT
-18	웰	B-AF	B-AF	B-AF, B-OG, O, B-LC, B-PS
-19	##에이징	I-AF	I-AF	I-AF, O, I-OG, I-LC, I-PS
-20	##센터	I-AF	I-AF	I-AF, O, I-OG, I-LC, I-PS
-21	##에서	O	O	O, I-AF, I-OG, I-EV, B-CV
-22	운영	O	O	O, B-CV, B-TM, B-OG, B-QT
-23	##되	O	O	O, B-CV, B-OG, B-PS, B-LC
-24	##고	O	O	O, B-CV, B-TM, B-PS, B-QT
-25	있	O	O	O, B-CV, B-OG, B-TM, B-PS
-26	##다	O	O	O, B-CV, B-TM, I-AF, B-OG
-27	.	O	O	O, B-LC, B-OG, B-AF, B-CV
-28	[SEP]	O	O	O, I-AF, B-CV, B-LC, B-AF
+	text	label	preds
+0	[CLS]	O	O
+1	이	B-PS	B-PS
+2	##씨	O	O
+3	##는	O	O
+4	2010	B-DT	B-DT
+5	##년	I-DT	I-DT
+6	12	I-DT	I-DT
+7	##월	I-DT	I-DT
+8	최	B-PS	B-PS
+9	##씨	O	O
+10	##에	O	O
+11	##게	O	O
+12	의약품	O	O
+13	납품	O	O
+14	대가	O	O
+15	##로	O	O
+16	승용차	B-AF	B-AF
+17	##를	O	O
+18	요구	O	O
+19	##해	O	O
+20	,	O	O
+21	지난해	B-DT	B-DT
+22	1	I-DT	I-DT
+23	##월	I-DT	I-DT
+24	초	I-DT	I-DT
+25	83	B-QT	B-QT
+26	##00	I-QT	I-QT
+27	##만	I-QT	I-QT
+28	##원	I-QT	I-QT
+29	상당	O	O
+30	##의	O	O
+31	에쿠스	B-AF	B-AF
+32	##승용	I-AF	B-AF
+33	##차	I-AF	I-AF
+34	##를	O	O
+35	넘겨	O	O
+36	##받	O	O
+37	##아	O	O
+38	타고	O	O
+39	다닌	O	O
+40	혐의	O	O
+41	##를	O	O
+42	받	O	O
+43	##고	O	O
+44	있	O	O
+45	##다	O	O
+46	.	O	O
+47	[SEP]	O	O

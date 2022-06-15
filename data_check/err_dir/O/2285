@@ -1,7 +1,43 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-AF
-1	삼	B-QT	B-QT	B-QT, B-TM, O, B-CV, B-TR
-2	##단	I-QT	I-QT	I-QT, I-TM, O, I-TR, I-CV
-3	콤	O	O	O, I-QT, I-TM, B-TM, B-QT
-4	##보	O	I-TM	I-TM, I-QT, O, I-CV, I-TR
-5	[SEP]	O	O	O, I-TM, I-QT, I-CV, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	물론	O	O
+2	이	O	O
+3	제품	O	O
+4	##들	O	O
+5	##은	O	O
+6	굽	O	O
+7	##이	O	O
+8	높	O	O
+9	##더라	O	O
+10	##도	O	O
+11	고	O	O
+12	##반	O	O
+13	##발	O	O
+14	##성	O	O
+15	쿠션	O	O
+16	##을	O	O
+17	깔	O	O
+18	##아	O	O
+19	힐	O	B-CV
+20	##의	O	O
+21	단점	O	O
+22	##인	O	O
+23	체중	O	O
+24	쏠림	O	O
+25	##을	O	O
+26	분산	O	O
+27	##하	O	O
+28	##고	O	O
+29	걸	O	O
+30	##을	O	O
+31	때	O	O
+32	충격	O	O
+33	##을	O	O
+34	완화	O	O
+35	##하	O	O
+36	##도록	O	O
+37	제작	O	O
+38	##됐	O	O
+39	##다	O	O
+40	.	O	O
+41	[SEP]	O	O

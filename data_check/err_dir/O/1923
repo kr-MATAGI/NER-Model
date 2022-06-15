@@ -1,32 +1,34 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	이	O	O	O, B-PS, B-CV, B-OG, B-AF
-2	사진	O	O	O, B-CV, B-TM, B-LC, B-AF
-3	##은	O	O	O, B-CV, B-OG, B-PS, B-LC
-4	지난	B-DT	B-DT	B-DT, O, I-DT, B-LC, B-QT
-5	18	I-DT	I-DT	I-DT, O, B-DT, I-PS, I-QT
-6	##일	I-DT	I-DT	I-DT, O, B-DT, I-PS, I-QT
-7	재미	B-OG	B-OG	B-OG, B-LC, O, B-EV, B-AF
-8	##연합	I-OG	I-OG	I-OG, I-LC, O, I-EV, I-AF
-9	감리	I-OG	I-OG	I-OG, B-OG, O, B-AF, B-LC
-10	##교회	I-OG	I-OG	I-OG, O, I-AF, I-LC, I-EV
-11	김영철	B-PS	B-PS	B-PS, O, I-PS, I-OG, B-OG
-12	(	O	O	O, I-PS, I-OG, B-CV, I-AF
-13	미국	B-LC	B-LC	B-LC, O, B-OG, I-LC, B-AF
-14	캘리포니아	B-LC	B-LC	B-LC, I-LC, O, B-OG, I-PS
-15	거주	O	O	O, I-LC, I-OG, B-LC, I-AF
-16	)	O	O	O, B-CV, B-LC, B-OG, B-PS
-17	목사	B-CV	B-CV	B-CV, O, B-TM, B-OG, I-CV
-18	##가	O	O	O, I-CV, B-PS, B-CV, I-OG
-19	기념	O	O	O, B-OG, B-AF, B-CV, I-OG
-20	##재단	O	I-OG	I-OG, O, I-AF, B-OG, I-CV
-21	##으로	O	O	O, I-OG, I-AF, B-CV, I-CV
-22	보내온	O	O	O, B-CV, B-AF, B-PS, B-TM
-23	편지	O	O	O, B-TM, B-AF, B-CV, B-FD
-24	##에	O	O	O, B-CV, I-AF, I-EV, B-OG
-25	담겨	O	O	O, B-CV, B-LC, B-TM, B-OG
-26	있	O	O	O, B-CV, B-PS, B-LC, B-OG
-27	##었	O	O	O, B-CV, B-OG, I-OG, B-LC
-28	##다	O	O	O, B-CV, I-OG, B-OG, B-TM
-29	.	O	O	O, B-LC, B-OG, B-PS, B-CV
-30	[SEP]	O	O	O, B-LC, B-CV, B-OG, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	윤	B-PS	B-PS
+2	##소	I-PS	I-PS
+3	##정	I-PS	I-PS
+4	##은	O	O
+5	2	B-TI	B-TI
+6	##시간	I-TI	I-TI
+7	공연	O	O
+8	내내	O	O
+9	줄	O	B-AM
+10	##담	O	I-AM
+11	##배	O	I-AM
+12	##를	O	O
+13	피우	O	O
+14	##면	O	O
+15	##서	O	O
+16	예민	O	O
+17	##하면	O	O
+18	##서도	O	O
+19	사람	O	O
+20	##을	O	O
+21	이해	O	O
+22	##하	O	O
+23	##려	O	O
+24	하	O	O
+25	##는	O	O
+26	박사의	O	O
+27	모습	O	O
+28	##을	O	O
+29	표현	O	O
+30	##한다	O	O
+31	.	O	O
+32	[SEP]	O	O

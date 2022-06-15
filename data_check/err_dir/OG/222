@@ -1,31 +1,37 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-EV, I-CV
-1	We	B-OG	O	O, B-OG, B-PS, B-AF, B-EV
-2	##e	I-OG	O	O, I-OG, I-PS, I-AF, I-EV
-3	##k	I-OG	O	O, I-OG, I-PS, I-AF, I-EV
-4	##ly	I-OG	O	O, I-OG, I-AF, I-PS, I-EV
-5	BI	I-OG	O	O, I-OG, I-AF, I-PS, B-PS
-6	##Z	I-OG	I-PS	I-PS, O, I-OG, I-AF, I-EV
-7	##와	O	O	O, I-OG, I-EV, I-AF, I-PS
-8	##의	O	O	O, I-EV, B-CV, B-LC, B-EV
-9	인터뷰	O	O	O, B-EV, B-CV, B-LC, I-EV
-10	##가	O	O	O, B-PS, B-LC, I-EV, B-OG
-11	예정	O	O	O, B-DT, B-CV, B-OG, B-LC
-12	##된	O	O	O, B-DT, I-DT, B-PS, B-OG
-13	이	O	B-DT	B-DT, O, I-DT, B-QT, B-OG
-14	날	O	I-DT	I-DT, O, B-DT, I-QT, I-EV
-15	그	O	O	O, I-DT, B-CV, B-OG, B-PS
-16	##는	O	O	O, B-CV, B-LC, I-EV, B-PS
-17	약속	O	O	O, B-LC, B-CV, B-OG, B-TM
-18	시간	O	O	O, B-TI, B-OG, B-CV, B-LC
-19	##을	O	O	O, B-CV, B-PS, B-OG, I-CV
-20	30	B-TI	B-TI	B-TI, O, B-EV, B-QT, I-TI
-21	##분	I-TI	I-TI	I-TI, O, I-QT, I-TR, B-TI
-22	넘겨	O	O	O, I-TI, I-QT, I-EV, B-LC
-23	허겁지겁	O	O	O, B-LC, B-OG, B-CV, B-TM
-24	연구실	O	O	O, B-LC, B-AF, B-TM, B-CV
-25	##로	O	O	O, I-AF, B-CV, B-PS, B-LC
-26	돌아왔	O	O	O, B-CV, B-LC, B-OG, B-PS
-27	##다	O	O	O, B-CV, B-TM, I-EV, I-OG
-28	.	O	O	O, B-LC, B-PS, B-CV, B-OG
-29	[SEP]	O	O	O, B-CV, B-LC, I-EV, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	왼손	B-AM	B-AM
+2	##에	O	O
+3	다이아몬드	B-MT	B-MT
+4	약혼	O	O
+5	##반	O	O
+6	##지	O	O
+7	##를	O	O
+8	낀	O	O
+9	샤	B-PS	B-PS
+10	##라	I-PS	I-PS
+11	##포	I-PS	I-PS
+12	##바	I-PS	I-PS
+13	##는	O	O
+14	“	O	O
+15	부	B-PS	B-PS
+16	##야	I-PS	I-PS
+17	##치	I-PS	I-PS
+18	##치	I-PS	I-PS
+19	##가	O	O
+20	LA	B-OG	B-OG
+21	레이	I-OG	I-OG
+22	##커스	I-OG	I-OG
+23	##에	O	O
+24	##서	O	O
+25	뉴저지	B-OG	B-LC
+26	##로	O	O
+27	옮겨	O	O
+28	자주	O	O
+29	보	O	O
+30	##기	O	O
+31	힘들	O	O
+32	##어졌	O	O
+33	##다	O	O
+34	.	O	O
+35	[SEP]	O	O

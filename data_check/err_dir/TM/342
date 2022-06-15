@@ -1,35 +1,11 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-EV, I-CV
-1	현재	O	O	O, B-QT, B-OG, B-TM, B-LC
-2	동부	B-TM	B-OG	B-OG, O, B-EV, B-LC, B-TM
-3	콘퍼런스	O	I-OG	I-OG, O, I-EV, B-OG, I-LC
-4	5	B-QT	B-QT	B-QT, I-QT, O, I-OG, I-EV
-5	##위	I-QT	I-QT	I-QT, O, I-EV, I-OG, B-QT
-6	##인	O	O	O, I-QT, I-OG, I-EV, B-CV
-7	애틀랜타	B-OG	B-OG	B-OG, B-LC, O, B-PS, I-OG
-8	##는	O	O	O, I-OG, I-EV, I-AF, B-OG
-9	리그	O	O	O, I-OG, I-EV, B-EV, B-OG
-10	##에서	O	O	O, B-CV, I-EV, B-PS, I-OG
-11	둘째	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-CV
-12	##로	O	O	O, I-QT, I-OG, I-EV, I-DT
-13	많	O	O	O, B-CV, B-OG, B-LC, B-TM
-14	##은	O	O	O, B-OG, B-CV, B-QT, B-LC
-15	57	B-QT	B-QT	B-QT, O, I-QT, B-EV, B-DT
-16	##골	I-QT	I-QT	I-QT, O, I-EV, I-TM, I-LC
-17	##을	O	O	O, I-QT, I-EV, B-CV, I-OG
-18	터뜨리	O	O	O, B-CV, B-OG, B-LC, B-TM
-19	##며	O	O	O, B-OG, B-LC, B-CV, B-PS
-20	팬	B-CV	B-CV	B-CV, O, B-OG, B-AF, I-CV
-21	##들	O	O	O, I-CV, I-OG, I-EV, B-CV
-22	##에	O	O	O, B-CV, I-CV, B-TM, B-LC
-23	##게	O	O	O, B-CV, B-LC, B-TM, B-QT
-24	화끈	O	O	O, B-CV, B-LC, B-TM, B-OG
-25	##한	O	O	O, B-LC, B-PS, B-OG, B-TM
-26	축구	B-CV	B-CV	B-CV, O, B-FD, B-OG, B-AF
-27	##를	O	O	O, I-CV, I-OG, I-AF, I-EV
-28	선보이	O	O	O, B-CV, B-OG, B-TM, B-LC
-29	##고	O	O	O, B-CV, B-OG, B-PS, B-TM
-30	있	O	O	O, B-CV, B-OG, B-PS, I-OG
-31	##다	O	O	O, B-CV, I-OG, B-OG, I-EV
-32	.	O	O	O, B-CV, B-OG, B-LC, B-PS
-33	[SEP]	O	O	O, B-CV, B-OG, B-LC, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	홈페이지	O	O
+2	뭐	O	O
+3	이메일	B-TM	O
+4	전화	O	O
+5	##도	O	O
+6	안	O	O
+7	받	O	O
+8	##고	O	O
+9	[SEP]	O	O

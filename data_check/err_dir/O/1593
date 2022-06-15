@@ -1,22 +1,27 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	퇴직금	B-CV	B-CV	B-CV, O, I-CV, B-AF, B-TM
-2	##이나	O	O	O, I-CV, I-AF, B-PS, B-CV
-3	연금	O	B-CV	B-CV, O, I-CV, B-AF, B-TM
-4	##만	O	O	O, I-CV, B-PS, B-QT, I-QT
-5	##으로	O	O	O, B-PS, B-LC, B-TM, B-CV
-6	노후	O	O	O, B-LC, B-CV, B-PS, B-DT
-7	##를	O	O	O, B-PS, B-CV, I-EV, B-LC
-8	보낼	O	O	O, B-LC, B-DT, B-PS, B-OG
-9	수	O	O	O, B-PS, B-CV, B-TM, B-LC
-10	없	O	O	O, B-CV, B-PS, B-TM, I-AF
-11	##어	O	O	O, B-LC, B-PS, B-CV, B-TM
-12	고령	O	O	O, B-CV, B-LC, B-TM, B-PS
-13	##에도	O	O	O, B-CV, B-PS, I-CV, I-OG
-14	일	O	O	O, B-CV, B-LC, B-TM, B-OG
-15	##을	O	O	O, B-CV, B-PS, I-OG, B-OG
-16	한다는	O	O	O, B-PS, B-CV, B-LC, B-OG
-17	것	O	O	O, B-CV, B-PS, B-OG, B-TM
-18	##이다	O	O	O, B-CV, I-CV, I-OG, B-TM
-19	.	O	O	O, B-PS, B-CV, B-LC, B-OG
-20	[SEP]	O	O	O, B-CV, B-PS, B-LC, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	그러나	O	O
+2	검찰	B-OG	B-OG
+3	등	O	O
+4	공안	B-OG	B-OG
+5	당국	O	I-OG
+6	##이	O	O
+7	발	B-AM	B-AM
+8	빠르	O	O
+9	##게	O	O
+10	움직이	O	O
+11	##고	O	O
+12	있	O	O
+13	##어	O	O
+14	시기	O	O
+15	##가	O	O
+16	앞당겨	O	O
+17	##질	O	O
+18	것	O	O
+19	##이	O	O
+20	##라는	O	O
+21	분석	O	O
+22	##도	O	O
+23	나온다	O	O
+24	.	O	O
+25	[SEP]	O	O

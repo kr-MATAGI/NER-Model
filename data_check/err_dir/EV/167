@@ -1,43 +1,30 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-EV, I-CV
-1	한바탕	O	O	O, B-EV, B-DT, B-LC, B-QT
-2	논란	O	O	O, B-EV, I-EV, B-CV, B-LC
-3	##이	O	O	O, B-PS, I-EV, B-EV, B-OG
-4	벌어진	O	O	O, I-EV, B-EV, B-PS, B-LC
-5	이후	O	O	O, B-LC, B-PS, B-EV, I-EV
-6	잊혀	O	O	O, B-CV, B-TM, B-LC, B-PS
-7	##지	O	O	O, I-CV, I-TM, I-LC, B-CV
-8	##는	O	O	O, B-LC, B-PS, I-CV, I-OG
-9	듯	O	O	O, B-CV, B-TM, B-PS, B-LC
-10	##했	O	O	O, B-CV, B-PS, B-LC, B-OG
-11	##던	O	O	O, B-CV, B-LC, B-EV, I-EV
-12	원정	B-EV	O	O, B-EV, B-CV, I-EV, B-AF
-13	##녀	I-EV	O	O, I-EV, I-CV, B-CV, I-AF
-14	사건	I-EV	O	O, I-EV, I-CV, I-AF, I-OG
-15	##은	O	O	O, I-EV, I-CV, B-CV, I-AF
-16	최근	O	O	O, B-LC, B-OG, B-DT, B-PS
-17	서울	B-OG	B-OG	B-OG, B-LC, B-AF, O, I-OG
-18	##지방	I-OG	I-OG	I-OG, O, I-AF, I-LC, B-OG
-19	##경찰	I-OG	I-OG	I-OG, O, B-OG, I-AF, I-LC
-20	##청	I-OG	I-OG	I-OG, O, I-AF, I-LC, I-PS
-21	국제	B-OG	B-OG	B-OG, O, I-OG, B-CV, B-AF
-22	##범죄	I-OG	I-OG	I-OG, O, B-OG, I-CV, I-AF
-23	##수	I-OG	I-OG	I-OG, O, I-CV, B-OG, I-AF
-24	##사	I-OG	I-OG	I-OG, O, I-CV, I-AF, B-OG
-25	##대	I-OG	I-OG	I-OG, O, I-CV, I-AF, I-EV
-26	##가	O	O	O, I-OG, B-PS, B-LC, I-EV
-27	일본	B-LC	B-LC	B-LC, O, B-OG, B-AF, B-PS
-28	원정	O	O	O, B-LC, I-LC, B-CV, B-AF
-29	성매매	B-CV	B-CV	B-CV, O, B-OG, B-AF, B-TM
-30	##를	O	O	O, I-CV, I-OG, I-AF, I-EV
-31	단속	O	O	O, B-CV, B-LC, B-OG, B-TM
-32	##하	O	O	O, B-LC, B-OG, B-PS, B-CV
-33	##는	O	O	O, B-CV, B-LC, B-OG, B-PS
-34	과정	O	O	O, B-CV, B-OG, B-LC, B-TM
-35	##에서	O	O	O, B-OG, B-LC, B-CV, B-PS
-36	실체	O	O	O, B-LC, B-CV, B-OG, B-TM
-37	##가	O	O	O, B-PS, B-OG, B-CV, B-LC
-38	드러났	O	O	O, B-CV, B-OG, B-LC, I-OG
-39	##다	O	O	O, B-CV, I-OG, B-LC, B-OG
-40	.	O	O	O, B-LC, B-OG, B-CV, B-PS
-41	[SEP]	O	O	O, B-LC, B-CV, B-OG, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	2009	B-DT	B-DT
+2	##년	I-DT	I-DT
+3	국내	O	O
+4	프로	B-CV	B-CV
+5	##농	I-CV	I-CV
+6	##구	I-CV	I-CV
+7	동부	B-OG	B-OG
+8	##는	O	O
+9	삼성	B-OG	B-OG
+10	##과	O	O
+11	3	B-TI	B-TI
+12	##시간	I-TI	I-TI
+13	17	I-TI	I-TI
+14	##분	I-TI	I-TI
+15	58	I-TI	I-TI
+16	##초	I-TI	I-TI
+17	동안	I-TI	I-TI
+18	5	B-QT	B-QT
+19	##차	I-QT	I-QT
+20	연장	B-EV	O
+21	##을	O	O
+22	치른	O	O
+23	끝	O	O
+24	##에	O	O
+25	이겼	O	O
+26	##다	O	O
+27	.	O	O
+28	[SEP]	O	O

@@ -1,20 +1,14 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	이렇게	O	O	O, B-CV, B-OG, B-PS, B-TM
-2	말	O	O	O, B-CV, B-PS, B-AM, I-CV
-3	##을	O	O	O, B-CV, B-PS, B-OG, I-CV
-4	하	O	O	O, B-PS, B-CV, B-LC, B-OG
-5	##면서	O	O	O, B-PS, B-CV, B-LC, B-OG
-6	건축	O	O	O, B-FD, I-FD, B-CV, B-TR
-7	##에	O	O	O, I-FD, I-AF, I-CV, I-OG
-8	대한	O	O	O, B-PS, B-LC, B-OG, B-CV
-9	새로운	O	O	O, B-CV, B-PS, B-OG, B-FD
-10	철학	B-FD	O	O, B-FD, B-TR, I-FD, B-CV
-11	##을	O	O	O, B-CV, B-PS, I-CV, I-OG
-12	펼친	O	O	O, B-CV, B-PS, B-OG, B-QT
-13	이가	O	O	O, B-PS, B-CV, B-OG, B-FD
-14	있	O	O	O, B-CV, B-PS, B-OG, I-CV
-15	##습	O	O	O, B-CV, B-PS, B-OG, I-OG
-16	##니다	O	O	O, B-CV, B-PS, B-OG, I-OG
-17	.	O	O	O, B-CV, B-PS, B-LC, B-OG
-18	[SEP]	O	O	O, B-CV, B-PS, B-FD, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	올	B-DT	B-DT
+2	##가을	I-DT	I-DT
+3	##엔	O	O
+4	‘	O	O
+5	실험	O	B-FD
+6	연극	B-FD	I-FD
+7	’	O	O
+8	바람	O	O
+9	##이	O	O
+10	분	O	O
+11	##다	O	O
+12	[SEP]	O	O

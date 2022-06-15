@@ -1,22 +1,29 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-EV, I-OG
-1	겨울	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-TI
-2	훈련	O	O	O, I-DT, I-EV, B-CV, I-CV
-3	동안	O	O	O, I-DT, B-PS, I-EV, B-LC
-4	멘	O	B-PS	B-PS, O, B-CV, B-OG, I-PS
-5	##털	O	I-PS	I-PS, O, I-OG, I-CV, I-AF
-6	코치	B-CV	B-CV	B-CV, O, I-CV, I-PS, B-OG
-7	##와	O	O	O, I-CV, I-OG, B-CV, I-PS
-8	함께	O	O	O, B-CV, B-TM, B-LC, B-DT
-9	정신력	O	O	O, B-CV, B-TM, B-LC, B-PS
-10	##을	O	O	O, B-CV, B-PS, I-CV, B-TM
-11	보강	O	O	O, B-CV, B-TM, B-LC, B-PS
-12	##하	O	O	O, B-PS, B-CV, B-LC, I-CV
-13	##겠다	O	O	O, B-CV, B-PS, I-CV, B-LC
-14	”	O	O	O, B-CV, B-PS, I-CV, B-LC
-15	고	O	O	O, B-CV, B-PS, I-CV, B-LC
-16	말	O	O	O, B-CV, I-CV, B-PS, B-OG
-17	##했	O	O	O, B-PS, B-CV, I-CV, I-OG
-18	##다	O	O	O, B-CV, B-PS, B-LC, I-CV
-19	.	O	O	O, B-CV, B-PS, B-LC, I-EV
-20	[SEP]	O	O	O, B-CV, B-PS, B-LC, I-CV
+	text	label	preds
+0	[CLS]	O	O
+1	중	O	O
+2	·	O	O
+3	장기	O	O
+4	로드맵	O	O
+5	##에	O	O
+6	##는	O	O
+7	국내외	O	O
+8	북한	B-LC	B-LC
+9	인권	O	B-CV
+10	##개	O	O
+11	##선	O	O
+12	정책	O	O
+13	및	O	O
+14	제도	O	O
+15	정비	O	O
+16	##를	O	O
+17	모색	O	O
+18	##하	O	O
+19	##는	O	O
+20	내용	O	O
+21	##이	O	O
+22	담	O	O
+23	##길	O	O
+24	예정	O	O
+25	##이다	O	O
+26	.	O	O
+27	[SEP]	O	O

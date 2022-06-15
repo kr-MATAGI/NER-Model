@@ -1,39 +1,29 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-EV
-1	공직	O	O	O, B-CV, B-EV, B-FD, I-CV
-2	생활	O	O	O, I-CV, B-CV, I-EV, B-PS
-3	##을	O	O	O, B-CV, B-PS, B-OG, B-LC
-4	하	O	O	O, B-CV, B-LC, B-PS, B-OG
-5	##는	O	O	O, B-PS, B-LC, B-CV, B-OG
-6	동안	O	O	O, B-LC, B-PS, B-CV, B-DT
-7	서울대	B-OG	B-OG	B-OG, B-AF, B-LC, O, B-PS
-8	##에서	O	O	O, I-OG, I-AF, I-DT, I-EV
-9	석사	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-FD
-10	,	O	O	O, I-CV, B-PS, I-QT, I-OG
-11	미국	B-LC	B-LC	B-LC, B-OG, O, B-PS, B-AF
-12	미시	B-OG	B-OG	B-OG, O, I-OG, B-LC, B-AF
-13	##간	I-OG	I-OG	I-OG, O, I-LC, I-AF, B-OG
-14	##대	I-OG	I-OG	I-OG, O, I-LC, I-AF, I-EV
-15	##에서	O	O	O, I-OG, I-AF, B-CV, I-EV
-16	정책	O	B-FD	B-FD, O, I-FD, B-TR, B-CV
-17	##학	O	I-FD	I-FD, O, B-FD, I-TR, I-AF
-18	박사	B-CV	B-CV	B-CV, O, I-CV, I-FD, B-FD
-19	학위	O	O	O, I-CV, I-QT, B-CV, I-EV
-20	##를	O	O	O, B-CV, B-PS, I-CV, B-LC
-21	받	O	O	O, B-CV, B-LC, B-PS, B-OG
-22	##았	O	O	O, B-PS, B-CV, B-LC, B-OG
-23	##고	O	O	O, B-PS, B-LC, I-OG, B-CV
-24	,	O	O	O, B-CV, B-LC, B-PS, B-OG
-25	세계	B-OG	B-OG	B-OG, O, B-AF, B-LC, B-PS
-26	##은행	I-OG	I-OG	I-OG, O, I-AF, I-LC, B-OG
-27	##에	O	O	O, I-OG, I-AF, B-CV, I-EV
-28	파견	O	O	O, B-CV, B-LC, B-PS, B-OG
-29	##돼	O	O	O, B-LC, B-PS, B-CV, B-DT
-30	일	O	O	O, B-CV, B-LC, B-TM, B-PS
-31	##한	O	O	O, B-LC, B-PS, B-CV, B-DT
-32	경험	O	O	O, B-CV, B-PS, B-LC, B-TM
-33	##도	O	O	O, B-PS, B-CV, B-LC, I-AF
-34	있	O	O	O, B-CV, B-PS, B-LC, B-OG
-35	##다	O	O	O, B-CV, B-PS, B-LC, I-OG
-36	.	O	O	O, B-LC, B-PS, B-CV, B-OG
-37	[SEP]	O	O	O, B-LC, B-CV, B-PS, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	조선	B-LC	B-DT
+2	##조	O	I-DT
+3	##의	O	O
+4	왕	B-CV	B-CV
+5	##들이	O	O
+6	신하	B-CV	B-CV
+7	##들	O	O
+8	##과	O	O
+9	고전	O	B-FD
+10	##의	O	O
+11	내용	O	O
+12	##을	O	O
+13	놓	O	O
+14	##고	O	O
+15	토론	O	O
+16	##하	O	O
+17	##는	O	O
+18	경연	O	O
+19	(	O	O
+20	經	O	O
+21	[UNK]	O	O
+22	)	O	O
+23	도	O	O
+24	그렇	O	O
+25	##다	O	O
+26	.	O	O
+27	[SEP]	O	O

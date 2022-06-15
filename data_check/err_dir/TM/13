@@ -1,34 +1,24 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	눈	B-AM	B-AM	B-AM, O, B-TM, B-TR, B-PS
-2	##에	O	O	O, I-AF, I-CV, I-TM, I-QT
-3	띄	O	O	O, B-CV, B-OG, B-PS, B-TM
-4	##는	O	O	O, B-PS, B-CV, B-OG, I-AF
-5	건	O	O	O, B-CV, B-PS, B-LC, B-TM
-6	핫	B-TM	O	O, B-TM, B-AF, B-PS, B-AM
-7	##코	I-TM	O	O, I-TM, I-PS, I-AF, I-CV
-8	##너	I-TM	O	O, I-TM, I-PS, I-AF, I-CV
-9	##를	O	O	O, I-AF, I-TM, I-PS, B-CV
-10	지키	O	O	O, B-CV, B-PS, B-AF, B-TM
-11	##는	O	O	O, B-CV, B-PS, B-TM, B-LC
-12	3	B-CV	B-CV	B-CV, B-TM, O, B-AF, B-EV
-13	##루	I-CV	I-CV	I-CV, B-CV, O, I-TM, I-AF
-14	##수	I-CV	I-CV	I-CV, O, I-TM, B-CV, I-OG
-15	##가	O	O	O, I-CV, I-AF, I-OG, I-QT
-16	포수	B-CV	B-CV	B-CV, O, B-TM, B-AF, B-OG
-17	##나	O	O	O, I-CV, I-AF, I-OG, B-CV
-18	1	B-CV	B-CV	B-CV, O, B-TM, B-AF, B-OG
-19	##루	I-CV	I-CV	I-CV, B-CV, O, I-TM, I-EV
-20	##수	I-CV	I-CV	I-CV, O, I-TM, B-CV, I-OG
-21	##와	O	O	O, I-CV, I-OG, I-AF, I-QT
-22	비슷	O	O	O, B-CV, B-TM, B-OG, I-CV
-23	##하	O	O	O, B-LC, B-PS, B-OG, B-TM
-24	##게	O	O	O, B-LC, B-OG, B-PS, B-TM
-25	체중	O	O	O, B-AM, B-TM, B-CV, B-LC
-26	##이	O	O	O, B-PS, B-CV, B-OG, B-LC
-27	많이	O	O	O, B-CV, B-TM, B-OG, B-LC
-28	나간다는	O	O	O, B-CV, B-TM, B-AF, B-LC
-29	사실	O	O	O, B-PS, B-CV, I-CV, I-AF
-30	##이다	O	O	O, B-CV, I-CV, I-AF, I-QT
-31	.	O	O	O, B-CV, B-PS, B-LC, B-OG
-32	[SEP]	O	O	O, B-CV, B-PS, I-AF, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	또	O	O
+2	탄소	B-MT	B-MT
+3	배출	O	O
+4	##을	O	O
+5	줄이	O	O
+6	##기	O	O
+7	위해	O	O
+8	포장	O	O
+9	##재	O	O
+10	##를	O	O
+11	줄인	O	O
+12	상품	O	O
+13	##을	O	O
+14	사도	O	O
+15	그린	B-TM	O
+16	마일리지	O	O
+17	##가	O	O
+18	적립	O	O
+19	##된	O	O
+20	##다	O	O
+21	.	O	O
+22	[SEP]	O	O

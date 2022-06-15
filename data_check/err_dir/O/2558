@@ -1,20 +1,75 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-EV, I-OG, I-CV
-1	수천	O	O	O, B-PS, B-CV, B-LC, B-QT
-2	관중	O	B-CV	B-CV, O, I-CV, B-PS, B-OG
-3	##의	O	O	O, I-CV, B-PS, B-CV, I-OG
-4	박수	O	O	O, B-TM, B-CV, B-LC, B-AF
-5	##와	O	O	O, B-PS, I-AF, B-OG, B-CV
-6	환호	O	O	O, B-CV, B-TM, B-AF, B-LC
-7	속	O	O	O, B-CV, B-TM, B-LC, B-PS
-8	##에	O	O	O, B-CV, B-OG, B-PS, I-AF
-9	한	O	O	O, B-QT, B-LC, B-PS, B-OG
-10	중년	O	O	O, B-CV, B-QT, I-QT, B-PS
-11	여성	O	O	O, I-CV, I-QT, B-CV, I-OG
-12	##이	O	O	O, B-PS, B-CV, B-OG, B-AF
-13	불	O	O	O, B-CV, B-AF, B-PS, B-MT
-14	##을	O	O	O, B-CV, I-AF, I-CV, B-PS
-15	붙였	O	O	O, B-CV, B-PS, B-AF, B-LC
-16	##다	O	O	O, B-CV, I-EV, I-AF, I-CV
-17	.	O	O	O, B-PS, B-CV, B-LC, B-OG
-18	[SEP]	O	O	O, B-CV, B-PS, B-AF, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	그러나	O	O
+2	알	O	O
+3	##박	O	O
+4	##기	O	O
+5	목적	O	O
+6	##이	O	O
+7	없	O	O
+8	##는데도	O	O
+9	민간	O	O
+10	건설사	O	O
+11	##의	O	O
+12	무분별	O	O
+13	##한	O	O
+14	매도	B-CV	B-CV
+15	##청	I-CV	I-CV
+16	##구	I-CV	I-CV
+17	##권	I-CV	I-CV
+18	행사	O	O
+19	##로	O	O
+20	개인	O	O
+21	##의	O	O
+22	의사	O	O
+23	##와	O	O
+24	상관없이	O	O
+25	소유	B-CV	B-CV
+26	##권	I-CV	I-CV
+27	##을	O	O
+28	잃	O	O
+29	##게	O	O
+30	돼	O	O
+31	,	O	O
+32	헌법	B-CV	B-CV
+33	##상	O	O
+34	재산	B-CV	B-CV
+35	##권	I-CV	I-CV
+36	##이나	O	O
+37	거주	O	B-CV
+38	##이	O	I-CV
+39	##전	O	I-CV
+40	##의	O	I-CV
+41	자유	O	I-CV
+42	##를	O	O
+43	침해	O	O
+44	##받	O	O
+45	##고	O	O
+46	있	O	O
+47	##다는	O	O
+48	지적	O	O
+49	##과	O	O
+50	함께	O	O
+51	,	O	O
+52	건설사	O	O
+53	##에	O	O
+54	땅	O	O
+55	##을	O	O
+56	수용	O	O
+57	##당	O	O
+58	##할	O	O
+59	처지	O	O
+60	##에	O	O
+61	놓인	O	O
+62	땅	O	O
+63	주인	B-CV	B-CV
+64	##들의	O	O
+65	위헌	O	O
+66	##소송	O	O
+67	##이	O	O
+68	잇따르	O	O
+69	##고	O	O
+70	있	O	O
+71	##다	O	O
+72	.	O	O
+73	[SEP]	O	O

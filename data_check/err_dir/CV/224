@@ -1,29 +1,53 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	그	O	O	O, B-CV, B-OG, B-LC, B-PS
-2	스웨덴	B-LC	B-LC	B-LC, O, B-OG, I-LC, B-AF
-3	##의	O	O	O, I-LC, I-AF, I-OG, I-PS
-4	어느	O	O	O, B-CV, B-PS, B-QT, B-FD
-5	여류	B-CV	O	O, B-CV, B-FD, B-QT, B-OG
-6	작가	I-CV	B-CV	B-CV, I-CV, O, I-QT, I-PS
-7	##가	O	O	O, I-CV, I-QT, B-CV, B-PS
-8	쓰	O	O	O, B-FD, B-CV, B-AF, B-OG
-9	##신	O	O	O, I-AF, B-FD, I-CV, I-OG
-10	건데	O	O	O, B-CV, B-OG, B-PS, B-LC
-11	그	O	O	O, B-LC, B-CV, B-OG, B-AF
-12	히말라야	B-LC	B-LC	B-LC, O, I-LC, B-TM, B-OG
-13	산맥	I-LC	I-LC	I-LC, O, B-LC, I-AF, I-TM
-14	밑	O	O	O, B-TM, I-TM, B-LC, I-LC
-15	##에	O	O	O, I-TM, I-AF, I-OG, I-CV
-16	있	O	O	O, B-CV, B-LC, B-OG, B-TM
-17	##는	O	O	O, B-LC, B-CV, B-OG, B-PS
-18	라	B-LC	B-LC	B-LC, O, I-LC, B-OG, B-AF
-19	##다	I-LC	I-LC	I-LC, O, B-LC, I-AF, I-PS
-20	##크	I-LC	I-LC	I-LC, O, B-LC, I-AF, I-PS
-21	##란	O	I-LC	I-LC, O, B-LC, I-AF, I-QT
-22	지역	O	O	O, I-LC, B-LC, I-QT, I-AF
-23	##의	O	O	O, I-LC, I-AF, I-OG, B-FD
-24	이야기	O	O	O, B-FD, B-CV, B-AF, B-OG
-25	##입니다	O	O	O, I-AF, B-CV, I-OG, I-CV
-26	.	O	O	O, B-LC, B-CV, B-FD, B-AF
-27	[SEP]	O	O	O, B-CV, B-LC, B-FD, B-AF
+	text	label	preds
+0	[CLS]	O	O
+1	이와	O	O
+2	관련	O	O
+3	##해	O	O
+4	이날	B-DT	B-DT
+5	박근혜	B-PS	B-PS
+6	대통령	B-CV	B-CV
+7	##은	O	O
+8	수석	B-CV	B-EV
+9	##비	I-CV	I-EV
+10	##서관	I-CV	I-EV
+11	##회의	O	I-EV
+12	##에	O	O
+13	##서	O	O
+14	“	O	O
+15	노동	O	O
+16	##시장	O	O
+17	##의	O	O
+18	경직	O	O
+19	##성	O	O
+20	,	O	O
+21	일부	O	O
+22	대기	O	O
+23	##업	O	O
+24	노조	O	O
+25	##의	O	O
+26	이기주의	B-TR	B-TR
+27	등	O	O
+28	##은	O	O
+29	노사	O	O
+30	간	O	O
+31	,	O	O
+32	노	O	O
+33	##노	O	O
+34	간	O	O
+35	갈등	O	O
+36	##을	O	O
+37	일으켜	O	O
+38	사회	O	O
+39	##통	O	O
+40	##합	O	O
+41	##을	O	O
+42	가로막	O	O
+43	##는	O	O
+44	##다	O	O
+45	”	O	O
+46	고	O	O
+47	지적	O	O
+48	##했	O	O
+49	##다	O	O
+50	.	O	O
+51	[SEP]	O	O

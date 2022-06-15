@@ -1,18 +1,36 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	강남구	B-OG	B-OG	B-OG, B-LC, B-PS, O, B-AF
-2	##는	O	O	O, I-OG, B-CV, I-AF, B-OG
-3	대	B-LC	B-AF	B-AF, B-LC, B-PS, O, I-AF
-4	##모	I-LC	I-AF	I-AF, I-LC, O, I-PS, I-EV
-5	##산성	I-LC	I-AF	I-AF, I-LC, O, I-PS, I-EV
-6	##의	O	O	O, I-AF, I-EV, I-LC, B-CV
-7	문화재	O	O	O, B-TM, B-CV, B-FD, B-LC
-8	지정	O	O	O, I-TM, I-CV, I-AF, I-LC
-9	##도	O	O	O, I-OG, B-LC, B-CV, I-AF
-10	함께	O	O	O, B-TM, B-OG, B-LC, B-QT
-11	추진	O	O	O, B-OG, B-CV, B-TM, B-LC
-12	##할	O	O	O, B-CV, B-OG, B-LC, B-PS
-13	방침	O	O	O, B-CV, B-TM, B-OG, B-LC
-14	##이다	O	O	O, B-CV, B-TM, I-OG, B-OG
-15	.	O	O	O, B-LC, B-OG, B-TM, B-CV
-16	[SEP]	O	O	O, B-CV, B-TM, B-LC, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	이	O	O
+2	신문	O	O
+3	##은	O	O
+4	일본	B-LC	B-LC
+5	방위	B-OG	B-OG
+6	##성	I-OG	I-OG
+7	간부	B-CV	B-CV
+8	##가	O	O
+9	“	O	O
+10	결과	O	O
+11	##적	O	O
+12	##으로	O	O
+13	억지	O	O
+14	효과	O	O
+15	##가	O	O
+16	커져	O	O
+17	,	O	O
+18	북한	B-LC	B-OG
+19	##이	O	O
+20	도발	O	O
+21	##을	O	O
+22	하	O	O
+23	##기	O	O
+24	어려워졌	O	O
+25	##다	O	O
+26	”	O	O
+27	고	O	O
+28	말	O	O
+29	##했	O	O
+30	##다고	O	O
+31	전했	O	O
+32	##다	O	O
+33	.	O	O
+34	[SEP]	O	O

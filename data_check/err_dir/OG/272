@@ -1,63 +1,16 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	부평구	B-OG	B-OG	B-OG, B-LC, O, I-OG, B-PS
-2	##는	O	O	O, I-OG, I-LC, B-OG, I-AF
-3	‘	O	O	O, B-OG, B-LC, I-OG, B-PS
-4	캠프	B-OG	B-LC	B-LC, B-AF, O, B-OG, B-EV
-5	##마켓	I-OG	I-LC	I-LC, O, I-AF, I-OG, B-LC
-6	주변	I-OG	O	O, I-LC, I-AF, I-OG, B-LC
-7	##지역	I-OG	O	O, I-LC, I-AF, B-LC, I-OG
-8	환경	I-OG	O	O, B-LC, B-TM, I-LC, B-CV
-9	##오	I-OG	O	O, I-LC, I-TM, B-LC, I-CV
-10	##염	I-OG	O	O, I-LC, I-OG, I-TM, I-CV
-11	조사	I-OG	O	O, B-LC, B-CV, I-OG, I-LC
-12	##를	I-OG	O	O, B-OG, I-OG, B-LC, B-PS
-13	위한	I-OG	O	O, B-OG, B-LC, I-OG, B-PS
-14	부평구	I-OG	B-OG	B-OG, B-LC, O, I-OG, B-CV
-15	민관	I-OG	B-OG	B-OG, I-OG, O, B-CV, I-CV
-16	##공	I-OG	I-OG	I-OG, O, B-OG, I-CV, I-EV
-17	##동	I-OG	I-OG	I-OG, O, I-CV, B-OG, I-EV
-18	##조사	I-OG	I-OG	I-OG, O, B-OG, I-CV, I-EV
-19	##단	I-OG	I-OG	I-OG, O, I-CV, B-OG, I-EV
-20	’	O	O	O, I-OG, B-OG, B-PS, I-EV
-21	이	O	O	O, B-PS, B-OG, B-LC, I-OG
-22	지난	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-OG
-23	2	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-OG
-24	##월	I-DT	I-DT	I-DT, O, B-DT, I-OG, I-QT
-25	##부터	I-DT	I-DT	I-DT, O, B-DT, I-OG, I-QT
-26	한국	B-OG	B-OG	B-OG, O, I-OG, B-LC, I-DT
-27	##농	I-OG	I-OG	I-OG, O, B-OG, I-LC, I-CV
-28	##어	I-OG	I-OG	I-OG, O, B-OG, I-LC, I-CV
-29	##촌	I-OG	I-OG	I-OG, O, B-OG, I-LC, I-CV
-30	##공사	I-OG	I-OG	I-OG, O, I-LC, I-CV, B-OG
-31	등	O	O	O, I-OG, I-AF, I-EV, I-QT
-32	##에	O	O	O, B-CV, B-OG, I-OG, B-LC
-33	의뢰	O	O	O, B-LC, B-CV, B-OG, B-TM
-34	##해	O	O	O, B-LC, B-OG, B-PS, I-LC
-35	캠프	B-LC	B-LC	B-LC, B-AF, O, B-OG, B-EV
-36	##마켓	I-LC	I-LC	I-LC, O, I-AF, I-OG, B-LC
-37	주변	O	O	O, I-LC, B-LC, B-TM, I-AF
-38	##지역	O	O	O, I-LC, B-LC, B-CV, B-TM
-39	환경	O	O	O, B-LC, B-CV, B-TM, B-MT
-40	##기	O	O	O, B-LC, B-CV, I-LC, B-MT
-41	##초	O	O	O, B-LC, I-LC, B-CV, I-CV
-42	##조사	O	O	O, B-LC, I-LC, B-CV, I-CV
-43	##를	O	O	O, B-CV, B-OG, B-LC, B-TM
-44	벌인	O	O	O, B-CV, B-LC, B-OG, B-TM
-45	결과	O	O	O, B-CV, B-LC, B-OG, B-TM
-46	,	O	O	O, B-LC, B-CV, B-OG, B-PS
-47	토양	O	O	O, B-LC, B-CV, B-TM, B-MT
-48	오염	O	O	O, B-LC, I-LC, I-TM, B-CV
-49	##이	O	O	O, B-PS, B-OG, B-LC, B-CV
-50	심각	O	O	O, B-CV, B-LC, B-OG, B-TM
-51	##한	O	O	O, B-LC, B-OG, B-PS, B-CV
-52	수준	O	O	O, B-CV, B-LC, B-OG, I-OG
-53	##으로	O	O	O, B-CV, B-OG, B-LC, B-PS
-54	나타났	O	O	O, B-LC, B-CV, B-OG, B-PS
-55	##다고	O	O	O, B-LC, B-OG, B-CV, B-PS
-56	23	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-LC
-57	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-58	밝혔	O	O	O, I-DT, B-OG, B-LC, I-OG
-59	##다	O	O	O, B-CV, B-LC, B-OG, I-OG
-60	.	O	O	O, B-LC, B-OG, I-OG, B-PS
-61	[SEP]	O	O	O, B-LC, B-OG, I-OG, B-CV
+	text	label	preds
+0	[CLS]	O	O
+1	현대	B-OG	B-OG
+2	·	O	I-OG
+3	기아차	B-OG	I-OG
+4	“	O	O
+5	수출	O	O
+6	-	O	O
+7	내수	O	O
+8	##용	O	O
+9	강판	O	B-MT
+10	차이	O	O
+11	없	O	O
+12	##다	O	O
+13	”	O	O
+14	[SEP]	O	O

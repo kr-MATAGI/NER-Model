@@ -1,27 +1,19 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-EV, B-CV, I-OG, I-CV
-1	구	B-PS	B-EV	B-EV, B-LC, B-AF, B-DT, B-PS
-2	##텐	I-PS	I-EV	I-EV, I-LC, I-AF, B-EV, I-DT
-3	##베르크	I-PS	I-EV	I-EV, I-LC, I-AF, I-DT, I-PS
-4	특별	O	I-EV	I-EV, I-AF, O, B-EV, I-LC
-5	##전	O	I-EV	I-EV, O, I-AF, I-LC, I-DT
-6	##에서	O	O	O, I-EV, I-AF, I-DT, I-OG
-7	##는	O	O	O, B-OG, B-CV, I-EV, B-LC
-8	독일	B-LC	B-LC	B-LC, B-OG, O, B-CV, B-PS
-9	장인	B-CV	B-CV	B-CV, O, I-CV, B-OG, I-OG
-10	##이	O	O	O, I-CV, B-PS, B-CV, I-EV
-11	15	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-QT
-12	##세기	I-DT	I-DT	I-DT, O, I-EV, I-QT, B-DT
-13	인쇄	O	O	O, I-DT, B-CV, B-FD, B-TR
-14	##술	O	O	O, I-TR, I-CV, I-FD, I-LC
-15	##을	O	O	O, B-CV, B-PS, B-LC, I-EV
-16	시연	O	O	O, B-CV, B-LC, B-EV, B-TM
-17	##하	O	O	O, B-CV, B-PS, B-LC, I-EV
-18	##는	O	O	O, B-CV, B-LC, B-PS, B-EV
-19	시간	O	O	O, B-LC, B-CV, B-EV, B-TI
-20	##도	O	O	O, B-CV, I-EV, B-LC, B-OG
-21	마련	O	O	O, B-CV, B-OG, B-QT, B-EV
-22	##했	O	O	O, I-EV, B-PS, B-CV, B-OG
-23	##다	O	O	O, B-CV, I-EV, I-OG, B-LC
-24	.	O	O	O, B-LC, B-CV, I-EV, B-PS
-25	[SEP]	O	O	O, B-CV, I-EV, B-LC, B-EV
+	text	label	preds
+0	[CLS]	O	O
+1	결국	O	O
+2	##은	O	O
+3	우	B-PS	B-PS
+4	##병	I-PS	I-PS
+5	##우	I-PS	I-PS
+6	##의	O	O
+7	장인	B-CV	B-CV
+8	##이	O	O
+9	##라고	O	O
+10	하	O	O
+11	##는	O	O
+12	이상	B-PS	B-PS
+13	##달	I-PS	I-PS
+14	김장	B-PS	B-CV
+15	##자	I-PS	I-CV
+16	.	O	O
+17	[SEP]	O	O

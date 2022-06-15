@@ -1,27 +1,54 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, I-EV, B-CV
-1	신해	B-EV	B-EV	B-EV, O, B-LC, B-AF, B-DT
-2	##혁명	I-EV	I-EV	I-EV, O, I-AF, I-LC, I-QT
-3	(	O	O	O, I-EV, I-OG, I-DT, I-AF
-4	1911	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-LC
-5	##년	I-DT	I-DT	I-DT, O, I-QT, B-DT, I-EV
-6	)	O	O	O, I-DT, I-EV, B-CV, I-OG
-7	으로	O	O	O, B-PS, B-LC, B-OG, B-EV
-8	청나라	B-DT	B-LC	B-LC, B-OG, O, B-DT, B-AF
-9	##가	O	O	O, I-OG, I-LC, B-PS, I-PS
-10	멸망	O	O	O, B-CV, B-LC, B-OG, I-OG
-11	##한	O	O	O, B-LC, B-PS, B-OG, I-LC
-12	뒤	O	O	O, B-LC, B-CV, B-PS, B-OG
-13	티베트	B-LC	B-LC	B-LC, B-OG, O, B-CV, I-LC
-14	##는	O	O	O, I-LC, I-OG, I-AF, I-PS
-15	잠시	O	O	O, B-LC, B-QT, B-CV, B-DT
-16	##나	O	O	O, B-LC, B-PS, I-LC, B-QT
-17	##마	O	O	O, I-LC, I-PS, I-QT, B-PS
-18	독립	O	O	O, B-LC, B-EV, I-LC, B-CV
-19	##의	O	O	O, I-LC, I-EV, B-PS, B-LC
-20	봄	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-TI
-21	##을	O	O	O, I-DT, I-EV, I-QT, I-AF
-22	누렸	O	O	O, B-CV, B-LC, B-PS, I-EV
-23	##다	O	O	O, B-CV, I-EV, I-CV, B-LC
-24	.	O	O	O, B-LC, B-CV, B-PS, I-EV
-25	[SEP]	O	O	O, B-LC, B-CV, I-EV, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	부문	O	O
+2	##별	O	O
+3	수상자	B-CV	B-CV
+4	##들	O	O
+5	##에	O	O
+6	##게	O	O
+7	주어지	O	O
+8	##는	O	O
+9	상금	O	O
+10	##은	O	O
+11	2001	B-DT	B-DT
+12	##년	I-DT	I-DT
+13	이후	I-DT	I-DT
+14	지난해	I-DT	B-DT
+15	##까	I-DT	I-DT
+16	##지	I-DT	I-DT
+17	1000	B-QT	B-QT
+18	##만	I-QT	I-QT
+19	##크로	I-QT	I-QT
+20	##네	I-QT	I-QT
+21	(	O	O
+22	약	B-QT	B-QT
+23	17	I-QT	I-QT
+24	##억	I-QT	I-QT
+25	##원	I-QT	I-QT
+26	)	O	O
+27	였으나	O	O
+28	,	O	O
+29	금융	B-EV	B-EV
+30	##위	I-EV	I-EV
+31	##기	I-EV	I-EV
+32	때문	O	O
+33	##에	O	O
+34	올해	B-DT	B-DT
+35	##에	O	O
+36	##는	O	O
+37	800	B-QT	B-QT
+38	##만	I-QT	I-QT
+39	##크로	I-QT	I-QT
+40	##네	I-QT	I-QT
+41	(	O	O
+42	13	B-QT	B-QT
+43	##억	I-QT	I-QT
+44	##여	I-QT	I-QT
+45	##원	I-QT	I-QT
+46	)	O	O
+47	로	O	O
+48	줄	O	O
+49	##었	O	O
+50	##다	O	O
+51	.	O	O
+52	[SEP]	O	O

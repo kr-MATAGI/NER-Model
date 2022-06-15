@@ -1,34 +1,49 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-EV, I-CV
-1	토론회	O	O	O, B-EV, I-EV, B-CV, B-LC
-2	##에	O	O	O, I-EV, B-CV, B-OG, I-OG
-3	##는	O	O	O, B-OG, B-CV, B-LC, B-PS
-4	국민	B-CV	B-OG	B-OG, O, B-CV, B-EV, B-AF
-5	##모	O	I-OG	I-OG, O, I-CV, I-EV, I-AF
-6	##임	O	I-OG	I-OG, O, I-CV, I-EV, I-AF
-7	합류	O	O	O, I-OG, I-EV, B-CV, I-CV
-8	##설	O	O	O, B-PS, B-LC, B-CV, B-TM
-9	##이	O	O	O, B-PS, B-OG, B-CV, B-LC
-10	돌	O	O	O, B-CV, B-PS, B-OG, B-LC
-11	##았	O	O	O, B-CV, B-PS, B-OG, B-LC
-12	##던	O	O	O, B-CV, B-PS, B-OG, B-LC
-13	천정배	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-14	새	B-OG	B-OG	B-OG, O, I-OG, I-PS, B-AF
-15	##정	I-OG	I-OG	I-OG, O, B-OG, I-AF, I-LC
-16	##치	I-OG	I-OG	I-OG, O, I-AF, I-LC, B-OG
-17	##연합	I-OG	I-OG	I-OG, O, I-LC, I-AF, I-EV
-18	상임	B-CV	B-CV	B-CV, O, I-CV, B-AF, B-TM
-19	##고	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-TM
-20	##문	I-CV	I-CV	I-CV, O, I-OG, B-CV, I-TM
-21	##이	O	O	O, I-CV, B-CV, B-PS, I-OG
-22	토론자	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-AF
-23	##로	O	O	O, I-CV, B-CV, I-EV, I-AF
-24	나설	O	O	O, B-CV, B-OG, B-LC, B-PS
-25	예정	O	O	O, B-CV, B-OG, B-QT, B-PS
-26	##이	O	O	O, B-PS, B-CV, B-OG, B-LC
-27	##라	O	O	O, B-OG, B-CV, B-LC, B-PS
-28	눈길	O	O	O, B-CV, B-TM, B-OG, B-QT
-29	##을	O	O	O, B-CV, B-OG, I-OG, I-AF
-30	끈다	O	O	O, B-CV, B-QT, B-OG, I-OG
-31	.	O	O	O, B-OG, B-PS, B-LC, B-CV
-32	[SEP]	O	O	O, B-CV, B-OG, B-PS, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	1998	B-DT	B-DT
+2	##년	I-DT	I-DT
+3	국내	O	O
+4	건축	O	B-CV
+5	##전	B-CV	I-CV
+6	##문	I-CV	I-CV
+7	##가	I-CV	I-CV
+8	##들이	O	O
+9	선정	O	O
+10	##한	O	O
+11	‘	O	O
+12	한국	B-LC	B-LC
+13	50	B-DT	B-DT
+14	##년	I-DT	I-DT
+15	걸작	O	O
+16	건축물	O	O
+17	20	B-QT	B-QT
+18	##선	I-QT	I-QT
+19	’	O	O
+20	에서	O	O
+21	김수	B-PS	B-PS
+22	##근	I-PS	I-PS
+23	##의	O	O
+24	공간	O	B-AF
+25	사옥	O	I-AF
+26	##과	O	O
+27	함께	O	O
+28	1	B-QT	B-QT
+29	##위	I-QT	I-QT
+30	##에	O	O
+31	오르	O	O
+32	##는	O	O
+33	등	O	O
+34	한국	B-LC	B-LC
+35	현대	O	O
+36	##건	O	O
+37	##축	O	O
+38	##사의	O	O
+39	대표	O	O
+40	##적	O	O
+41	##인	O	O
+42	명작	O	O
+43	##으로	O	O
+44	손꼽	O	O
+45	##힌다	O	O
+46	.	O	O
+47	[SEP]	O	O

@@ -1,8 +1,17 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, I-OG, B-CV, I-AF
-1	새우	B-CV	B-CV	B-CV, O, B-OG, B-AF, B-PT
-2	과자	I-CV	B-CV	B-CV, I-CV, O, I-OG, I-AF
-3	막	O	O	O, I-CV, I-OG, I-AF, B-CV
-4	맛	O	O	O, B-CV, B-TM, I-CV, B-LC
-5	##이	O	O	O, B-PS, B-OG, B-CV, I-OG
-6	[SEP]	O	O	O, B-CV, I-OG, I-AF, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	요즘	O	O
+2	교수	B-CV	B-CV
+3	##님	O	O
+4	##께	O	O
+5	##서는	O	O
+6	이제	O	O
+7	방송	O	B-CV
+8	프로듀서	B-CV	I-CV
+9	##도	O	O
+10	하	O	O
+11	##셨	O	O
+12	##기	O	O
+13	때문	O	O
+14	##에	O	O
+15	[SEP]	O	O

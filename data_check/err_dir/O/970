@@ -1,43 +1,26 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, B-CV, I-OG, I-EV
-1	이재용	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-2	삼성전자	B-OG	B-OG	B-OG, B-AF, I-OG, I-PS, B-LC
-3	부회장	B-CV	B-CV	B-CV, I-CV, O, I-OG, I-PS
-4	(	O	O	O, I-CV, I-OG, I-EV, B-CV
-5	49	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-TM
-6	·	O	O	O, I-QT, I-DT, I-OG, I-EV
-7	구속	O	B-CV	B-CV, O, B-TM, B-OG, I-CV
-8	기소	O	I-CV	I-CV, O, B-CV, I-TM, I-OG
-9	)	O	O	O, I-CV, I-OG, B-CV, I-TM
-10	의	O	O	O, B-CV, B-PS, B-LC, I-CV
-11	1	B-QT	B-QT	B-QT, O, B-EV, B-DT, I-QT
-12	##심	I-QT	I-QT	I-QT, O, I-EV, I-TM, I-DT
-13	재판	O	O	O, B-CV, I-QT, I-CV, I-EV
-14	##이	O	O	O, B-PS, B-OG, B-CV, B-LC
-15	끝	O	O	O, B-CV, B-OG, B-LC, B-PS
-16	##남	O	O	O, B-PS, B-OG, B-LC, B-CV
-17	##에	O	O	O, B-CV, B-PS, B-LC, B-OG
-18	따라	O	O	O, B-LC, B-OG, B-PS, B-CV
-19	검찰	B-OG	B-OG	B-OG, B-AF, O, B-LC, B-CV
-20	##은	O	O	O, I-OG, B-CV, I-EV, I-AF
-21	최	B-PS	B-PS	B-PS, O, I-PS, B-OG, B-LC
-22	씨	O	O	O, I-PS, I-OG, B-CV, I-AF
-23	##의	O	O	O, B-CV, B-PS, B-LC, I-CV
-24	딸	B-CV	B-CV	B-CV, O, B-PS, B-EV, B-AF
-25	정유라	B-PS	B-PS	B-PS, I-PS, O, B-OG, B-LC
-26	씨	O	O	O, I-PS, B-CV, I-CV, I-EV
-27	(	O	O	O, B-CV, B-LC, B-QT, B-TM
-28	21	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-TI
-29	)	O	O	O, I-QT, I-DT, I-EV, I-OG
-30	의	O	O	O, B-CV, B-PS, B-LC, I-QT
-31	형사	O	O	O, B-CV, I-CV, B-FD, B-TM
-32	처벌	O	O	O, I-CV, B-CV, I-TM, I-FD
-33	여부	O	O	O, I-CV, B-PS, B-CV, B-LC
-34	##도	O	O	O, B-LC, B-PS, B-CV, B-OG
-35	조만간	O	O	O, B-DT, B-LC, B-PS, B-QT
-36	결정	O	O	O, B-CV, B-LC, B-OG, B-PS
-37	##할	O	O	O, B-PS, B-LC, B-CV, B-OG
-38	방침	O	O	O, B-CV, B-TM, B-LC, B-OG
-39	##이다	O	O	O, B-CV, B-TM, B-LC, B-QT
-40	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-41	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	뭣	O	O
+2	##하	O	O
+3	##러	O	O
+4	이쪽	O	O
+5	##에다	O	O
+6	그	O	O
+7	~	O	O
+8	좀	O	O
+9	막말	O	O
+10	##로	O	O
+11	거지	O	B-CV
+12	##같	O	O
+13	##은	O	O
+14	건물	O	O
+15	##을	O	O
+16	하나	B-QT	B-QT
+17	지어	O	O
+18	##놓	O	O
+19	##고	O	O
+20	말	O	O
+21	##이	O	O
+22	##야	O	O
+23	.	O	O
+24	[SEP]	O	O

@@ -1,11 +1,41 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	하루	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-TI
-2	호흡	O	O	O, I-DT, B-CV, B-PS, B-TM
-3	맞춘	O	O	O, B-CV, B-LC, B-OG, B-TM
-4	南	O	B-LC	B-LC, B-OG, O, B-TM, B-CV
-5	北	O	I-LC	I-LC, I-OG, O, B-LC, I-CV
-6	,	O	O	O, I-OG, I-LC, B-CV, I-CV
-7	환상	O	O	O, B-CV, B-TM, B-LC, B-AF
-8	호흡	O	O	O, B-CV, B-LC, B-PS, B-TM
-9	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	불신	O	O
+2	이유로	O	O
+3	##는	O	O
+4	'	O	O
+5	솔직	O	O
+6	##하	O	O
+7	##지	O	O
+8	못	O	O
+9	##한	O	O
+10	응답	O	O
+11	'	O	O
+12	이	O	O
+13	많이	O	O
+14	꼽혔	O	O
+15	##지만	O	O
+16	,	O	O
+17	'	O	O
+18	대중	O	B-CV
+19	##의	O	O
+20	속마음	O	O
+21	##을	O	O
+22	읽	O	O
+23	##는	O	O
+24	과학	O	B-FD
+25	'	O	O
+26	이란	O	O
+27	여론	O	O
+28	##조사	O	O
+29	##의	O	O
+30	존재	O	O
+31	이유	O	O
+32	##를	O	O
+33	스스로	O	O
+34	부정	O	O
+35	##한	O	O
+36	셈	O	O
+37	##이다	O	O
+38	.	O	O
+39	[SEP]	O	O

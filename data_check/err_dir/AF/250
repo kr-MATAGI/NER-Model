@@ -1,14 +1,35 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	저희	O	O	O, B-CV, B-OG, B-AF, B-LC
-2	그	O	O	O, B-CV, B-OG, B-AF, B-LC
-3	외	B-AF	B-OG	B-OG, O, B-AF, B-PS, B-CV
-4	##솔	I-AF	I-OG	I-OG, O, I-AF, I-PS, I-CV
-5	##관	I-AF	O	O, I-OG, I-AF, I-PS, I-CV
-6	연	O	O	O, B-DT, B-QT, B-CV, B-PS
-7	연	O	O	O, I-DT, I-QT, B-QT, B-DT
-8	연	O	O	O, I-QT, I-DT, B-QT, B-DT
-9	그	O	O	O, B-CV, B-OG, I-QT, B-PS
-10	신학	B-FD	B-FD	B-FD, O, B-OG, B-CV, B-LC
-11	대학	O	O	O, I-OG, I-FD, I-QT, I-CV
-12	[SEP]	O	O	O, I-OG, B-CV, I-CV, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	그	O	O
+2	##는	O	O
+3	27	B-DT	B-DT
+4	##일	I-DT	I-DT
+5	서울	B-LC	B-LC
+6	영등포구	B-LC	B-LC
+7	태영	B-AF	B-AF
+8	##빌	I-AF	I-AF
+9	##딩	I-AF	I-AF
+10	국제	B-AF	O
+11	##회의	I-AF	O
+12	##장	I-AF	O
+13	##에	O	O
+14	##서	O	O
+15	열리	O	O
+16	##는	O	O
+17	‘	O	O
+18	아시아	B-EV	B-EV
+19	##지역	I-EV	I-EV
+20	다문화	I-EV	I-EV
+21	##사회	I-EV	I-EV
+22	발전	I-EV	I-EV
+23	##을	I-EV	I-EV
+24	위한	I-EV	I-EV
+25	국제	I-EV	I-EV
+26	콘퍼런스	I-EV	I-EV
+27	’	O	O
+28	에서	O	O
+29	토론자	B-CV	B-CV
+30	##로	O	O
+31	나선다	O	O
+32	.	O	O
+33	[SEP]	O	O

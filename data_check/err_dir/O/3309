@@ -1,14 +1,32 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-EV, I-OG
-1	(	O	B-PS	B-PS, O, B-LC, B-QT, B-AM
-2	신	B-PS	I-PS	I-PS, B-PS, O, I-LC, I-OG
-3	)	O	I-PS	I-PS, O, I-LC, B-PS, I-OG
-4	세	B-PS	I-PS	I-PS, B-PS, O, B-LC, B-OG
-5	##경	I-PS	I-PS	I-PS, O, I-LC, I-OG, B-PS
-6	씨	O	O	O, I-PS, I-LC, B-CV, B-PS
-7	##도	O	O	O, B-CV, I-PS, B-PS, B-AM
-8	많이	O	O	O, B-CV, B-PS, I-CV, B-LC
-9	땄	O	O	O, B-CV, B-PS, B-AM, B-TM
-10	##어요	O	O	O, I-CV, B-CV, B-PS, I-EV
-11	.	O	O	O, B-PS, B-CV, B-AM, I-CV
-12	[SEP]	O	O	O, B-CV, B-PS, I-CV, B-AM
+	text	label	preds
+0	[CLS]	O	O
+1	누가	O	O
+2	만드	O	O
+3	##느	O	O
+4	##냐	O	O
+5	##에	O	O
+6	따라	O	O
+7	순	O	B-CV
+8	##무	O	I-CV
+9	김치	O	I-CV
+10	맛	O	O
+11	##이	O	O
+12	제각각	O	O
+13	##이	O	O
+14	##었	O	O
+15	##고	O	O
+16	,	O	O
+17	비닐	O	O
+18	##팩	O	O
+19	##에	O	O
+20	담아	O	O
+21	팔	O	O
+22	##아	O	O
+23	##선	O	O
+24	경쟁력	O	O
+25	##이	O	O
+26	없	O	O
+27	##었	O	O
+28	##다	O	O
+29	.	O	O
+30	[SEP]	O	O

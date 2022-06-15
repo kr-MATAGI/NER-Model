@@ -1,5 +1,28 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, I-AF, B-CV
-1	절임	O	B-CV	B-CV, O, B-TM, B-PT, B-OG
-2	##배추	B-CV	I-CV	I-CV, O, B-CV, I-OG, I-TM
-3	[SEP]	O	O	O, I-CV, I-OG, I-TM, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	여기	O	O
+2	##에	O	O
+3	##는	O	O
+4	국악	B-FD	B-FD
+5	연주자	B-CV	B-CV
+6	,	O	O
+7	우리	O	B-CV
+8	##춤	B-CV	I-CV
+9	##꾼	I-CV	I-CV
+10	,	O	O
+11	한복	B-CV	B-CV
+12	##명	I-CV	B-CV
+13	##장	I-CV	I-CV
+14	,	O	O
+15	우리	O	O
+16	##문화	O	O
+17	애호가	B-CV	B-CV
+18	등	O	O
+19	다양	O	O
+20	##한	O	O
+21	사람	O	O
+22	##들이	O	O
+23	모였	O	O
+24	##다	O	O
+25	.	O	O
+26	[SEP]	O	O

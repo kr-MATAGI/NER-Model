@@ -1,41 +1,7 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-EV, B-CV, I-OG, I-CV
-1	그러나	O	O	O, B-CV, B-OG, B-LC, B-TM
-2	이런	O	O	O, B-PS, B-CV, B-OG, B-LC
-3	태도	O	O	O, B-LC, B-OG, B-CV, B-PS
-4	##로	O	O	O, B-PS, B-LC, B-OG, B-CV
-5	##는	O	O	O, B-LC, B-OG, B-CV, B-TM
-6	공단	O	O	O, B-LC, B-EV, B-CV, I-EV
-7	폐쇄	O	O	O, B-LC, B-CV, I-EV, B-PS
-8	##까	O	O	O, B-PS, B-LC, B-CV, B-QT
-9	##지	O	O	O, B-PS, B-LC, B-OG, B-QT
-10	염두	O	O	O, B-QT, B-PS, B-LC, B-CV
-11	##에	O	O	O, B-PS, B-LC, B-OG, B-CV
-12	둔	O	O	O, B-LC, B-OG, B-PS, B-EV
-13	북쪽	O	B-OG	B-OG, B-TM, B-LC, O, B-AF
-14	##의	O	O	O, I-OG, I-TM, I-EV, B-PS
-15	파	O	O	O, B-LC, B-PS, B-OG, B-EV
-16	##상	O	O	O, I-LC, I-EV, B-LC, I-PS
-17	공세	O	O	O, B-LC, I-EV, B-PS, I-LC
-18	##에	O	O	O, B-CV, B-LC, I-EV, B-PS
-19	맞서	O	O	O, B-LC, B-OG, B-TM, B-CV
-20	개성	B-LC	B-LC	B-LC, B-OG, O, I-LC, B-AF
-21	##공단	I-LC	I-LC	I-LC, O, I-OG, I-AF, B-LC
-22	##의	O	O	O, I-LC, I-OG, I-AF, B-LC
-23	생존	O	O	O, B-LC, B-CV, B-TM, B-QT
-24	##을	O	O	O, B-PS, B-CV, B-LC, B-TM
-25	보장	O	O	O, B-CV, B-LC, B-TM, B-QT
-26	##하기	O	O	O, B-LC, B-PS, B-CV, B-TM
-27	힘든	O	O	O, B-CV, B-TM, B-LC, B-OG
-28	상황	O	O	O, B-CV, B-TM, B-LC, B-QT
-29	##에	O	O	O, B-CV, B-PS, I-EV, B-QT
-30	직면	O	O	O, B-CV, B-LC, B-TM, B-OG
-31	##했	O	O	O, B-PS, B-LC, B-OG, B-CV
-32	##다는	O	O	O, B-PS, B-LC, B-CV, I-OG
-33	지적	O	O	O, B-CV, B-PS, B-TM, B-LC
-34	##이	O	O	O, B-PS, B-CV, B-OG, B-LC
-35	제기	O	O	O, B-CV, B-PS, B-QT, B-TR
-36	##된	O	O	O, I-OG, I-EV, B-PS, I-TR
-37	##다	O	O	O, B-CV, I-EV, I-OG, B-PS
-38	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-39	[SEP]	O	O	O, B-LC, B-CV, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	내일	O	B-DT
+2	이제	O	O
+3	뭐	O	O
+4	##가	O	O
+5	[SEP]	O	O

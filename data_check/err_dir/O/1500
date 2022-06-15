@@ -1,36 +1,26 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-EV, I-QT, I-CV
-1	일본	B-LC	B-LC	B-LC, O, B-OG, I-LC, B-AF
-2	##에서	O	O	O, I-LC, I-OG, I-AF, I-QT
-3	##만	O	O	O, B-QT, I-QT, B-PS, I-OG
-4	240	O	O	O, B-QT, I-QT, B-PS, B-OG
-5	##만	O	O	O, I-QT, B-QT, I-OG, B-PS
-6	부가	O	O	O, I-QT, B-QT, I-OG, B-PS
-7	판매	O	O	O, I-QT, B-CV, I-OG, B-QT
-8	##된	O	O	O, B-PS, B-CV, I-QT, B-LC
-9	만화	O	O	O, B-FD, B-CV, B-LC, B-AF
-10	##를	O	O	O, I-AF, B-CV, B-PS, I-OG
-11	원작	O	O	O, B-FD, B-CV, B-LC, B-TM
-12	##으로	O	O	O, B-LC, B-PS, B-CV, B-OG
-13	2009	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-14	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-15	##부터	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-16	TV	B-TM	B-TM	B-TM, B-FD, O, B-TR, B-EV
-17	##드라마	O	I-FD	I-FD, O, B-FD, I-TM, I-TR
-18	시리즈	O	O	O, I-FD, B-FD, B-CV, I-AF
-19	##가	O	O	O, B-PS, B-LC, B-OG, B-CV
-20	방송	O	O	O, B-FD, B-CV, B-TM, B-LC
-21	##됐	O	O	O, B-CV, I-OG, B-LC, I-AF
-22	##고	O	O	O, B-LC, B-CV, I-OG, B-OG
-23	,	O	O	O, B-LC, B-CV, B-OG, B-PS
-24	2015	B-DT	B-DT	B-DT, I-DT, O, B-QT, B-EV
-25	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-26	##에	O	O	O, I-DT, I-QT, B-CV, I-EV
-27	##는	O	O	O, B-CV, B-LC, B-FD, B-OG
-28	영화	O	O	O, B-FD, B-QT, B-CV, B-LC
-29	##로	O	O	O, I-QT, I-OG, I-EV, B-LC
-30	개봉	O	O	O, B-CV, B-LC, I-OG, B-FD
-31	##했	O	O	O, I-OG, B-OG, B-CV, B-LC
-32	##다	O	O	O, B-CV, I-OG, B-LC, B-OG
-33	.	O	O	O, B-LC, B-CV, B-FD, I-OG
-34	[SEP]	O	O	O, B-CV, B-FD, B-LC, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	특히	O	O
+2	1960	B-DT	B-DT
+3	##년	I-DT	I-DT
+4	##대	I-DT	I-DT
+5	발광	B-TM	B-TM
+6	##소	I-TM	I-TM
+7	##자	I-TM	I-TM
+8	(	O	O
+9	LED	O	B-TM
+10	)	O	O
+11	등	O	O
+12	광	O	O
+13	##원	O	O
+14	개발	O	O
+15	##로	O	O
+16	응용	O	O
+17	##분	O	O
+18	##야	O	O
+19	##가	O	O
+20	확대	O	O
+21	##됐	O	O
+22	##다	O	O
+23	.	O	O
+24	[SEP]	O	O

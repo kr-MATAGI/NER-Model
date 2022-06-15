@@ -1,48 +1,85 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	도시	O	O	O, B-CV, B-LC, B-PS, B-FD
-2	##에	O	O	O, B-PS, B-CV, B-LC, I-CV
-3	사	O	O	O, B-PS, B-CV, B-LC, B-QT
-4	##는	O	O	O, B-CV, B-PS, B-LC, B-OG
-5	엘리트	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-PS
-6	##들	O	O	O, I-CV, B-CV, I-OG, I-AF
-7	##을	O	O	O, B-CV, B-PS, B-LC, B-TM
-8	지지	O	O	O, B-CV, B-PS, B-TR, B-LC
-9	##기	O	O	O, I-CV, B-PS, B-CV, B-LC
-10	##반	O	O	O, I-CV, B-CV, B-PS, B-LC
-11	##으로	O	O	O, B-PS, B-LC, I-CV, B-CV
-12	삼	O	O	O, B-PS, B-LC, B-CV, B-OG
-13	##아	O	O	O, B-PS, B-LC, B-CV, B-OG
-14	연	O	O	O, B-CV, B-PS, B-OG, B-EV
-15	경제성장	O	O	O, B-CV, B-FD, B-PS, B-OG
-16	##률	O	O	O, B-PS, B-LC, B-QT, I-OG
-17	최소	O	O	O, B-QT, B-DT, B-CV, B-TM
-18	7	B-QT	B-QT	B-QT, I-QT, O, B-DT, I-LC
-19	%	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-20	달성	O	O	O, I-QT, B-CV, B-TM, B-LC
-21	,	O	O	O, B-CV, I-QT, B-PS, B-LC
-22	건강	O	O	O, B-CV, B-TM, B-FD, B-TR
-23	##보험	O	O	O, I-CV, I-TM, I-TR, I-OG
-24	확대	O	O	O, I-CV, I-TM, B-PS, B-CV
-25	,	O	O	O, B-CV, B-PS, B-LC, I-CV
-26	교도소	O	O	O, B-CV, B-TM, B-FD, B-LC
-27	신설	O	O	O, I-CV, B-CV, B-PS, I-AF
-28	,	O	O	O, B-CV, B-PS, B-LC, B-OG
-29	일자리	O	O	O, B-TM, B-CV, B-LC, B-AF
-30	창출	O	O	O, I-CV, I-TM, I-AF, B-PS
-31	등	O	O	O, B-CV, B-PS, B-TM, B-LC
-32	##을	O	O	O, B-CV, B-TM, B-PS, B-OG
-33	역설	O	O	O, B-CV, B-PS, B-EV, B-FD
-34	##했	O	O	O, B-PS, B-CV, I-EV, I-CV
-35	##지만	O	O	O, B-PS, B-LC, B-CV, B-QT
-36	페루	B-LC	B-CV	B-CV, O, B-LC, I-CV, B-TM
-37	##인	O	I-CV	I-CV, O, B-CV, I-LC, I-QT
-38	전체	O	O	O, I-CV, B-QT, B-CV, B-TM
-39	##를	O	O	O, B-CV, B-QT, B-TM, B-PS
-40	사로잡	O	O	O, B-CV, B-QT, B-TM, B-LC
-41	##지	O	O	O, B-CV, B-LC, I-QT, B-QT
-42	##는	O	O	O, B-CV, B-LC, B-TM, B-OG
-43	못했	O	O	O, B-CV, B-LC, B-QT, B-TM
-44	##다	O	O	O, B-CV, B-LC, I-EV, I-QT
-45	.	O	O	O, B-CV, B-LC, B-PS, B-FD
-46	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-FD
+	text	label	preds
+0	[CLS]	O	O
+1	센	B-PS	B-PS
+2	##고	I-PS	I-PS
+3	##쿠	I-PS	I-PS
+4	장관	B-CV	B-CV
+5	##은	O	O
+6	이날	B-DT	B-DT
+7	도쿄	B-OG	B-LC
+8	외국	I-OG	B-OG
+9	##특	I-OG	I-OG
+10	##파	I-OG	I-OG
+11	##원	I-OG	I-OG
+12	##협회	I-OG	I-OG
+13	(	O	O
+14	FC	B-OG	B-OG
+15	##C	I-OG	I-OG
+16	##J	I-OG	I-OG
+17	)	O	O
+18	주최	O	O
+19	회견	O	O
+20	##에	O	O
+21	##서	O	O
+22	한	B-OG	B-OG
+23	·	I-OG	I-OG
+24	일	I-OG	I-OG
+25	청구	I-OG	I-OG
+26	##권	I-OG	I-OG
+27	##협	I-OG	I-OG
+28	##정	I-OG	I-OG
+29	##으로	O	O
+30	정부	B-OG	B-OG
+31	청구	B-CV	B-CV
+32	##권	I-CV	I-CV
+33	##과	O	O
+34	함께	O	O
+35	개인	O	B-CV
+36	##청	O	I-CV
+37	##구	O	I-CV
+38	##권	O	I-CV
+39	##도	O	O
+40	소멸	O	O
+41	##됐	O	O
+42	##다는	O	O
+43	일본	B-LC	B-LC
+44	정부	B-OG	B-OG
+45	##의	O	O
+46	공식	O	O
+47	입장	O	O
+48	##에	O	O
+49	대해	O	O
+50	""""	O	O
+51	법률	O	O
+52	##적	O	O
+53	##으로	O	O
+54	정당	O	O
+55	##성이	O	O
+56	있	O	O
+57	##다고	O	O
+58	해서	O	O
+59	그것	O	O
+60	##만	O	O
+61	##으로	O	O
+62	좋	O	O
+63	##은	O	O
+64	##가	O	O
+65	,	O	O
+66	모두	O	O
+67	해결	O	O
+68	##된	O	O
+69	것	O	O
+70	##인	O	O
+71	##가	O	O
+72	##라는	O	O
+73	문제	O	O
+74	##가	O	O
+75	있	O	O
+76	##다	O	O
+77	""""	O	O
+78	고	O	O
+79	말	O	O
+80	##했	O	O
+81	##다	O	O
+82	.	O	O
+83	[SEP]	O	O

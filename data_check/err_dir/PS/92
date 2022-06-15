@@ -1,46 +1,40 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	또	O	O	O, B-CV, B-OG, B-PS, B-LC
-2	장자	B-CV	B-CV	B-CV, O, B-PS, I-CV, B-AF
-3	##인	O	O	O, I-CV, B-CV, B-PS, I-PS
-4	양	B-PS	B-PS	B-PS, O, B-LC, I-PS, B-CV
-5	##녕	I-PS	I-PS	I-PS, O, I-LC, B-PS, I-OG
-6	##대군	I-PS	B-CV	B-CV, O, I-PS, I-CV, I-AF
-7	대신	O	O	O, I-CV, B-CV, B-PS, B-QT
-8	셋째	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-EV
-9	아들	B-CV	B-CV	B-CV, O, I-QT, I-CV, B-PS
-10	충	B-PS	B-PS	B-PS, O, I-PS, B-LC, B-OG
-11	##녕	I-PS	I-PS	I-PS, O, I-LC, B-PS, I-OG
-12	##대군	I-PS	B-CV	B-CV, I-PS, O, B-PS, I-CV
-13	(	O	O	O, I-CV, B-CV, I-PS, I-AF
-14	세종	B-PS	B-PS	B-PS, O, B-LC, B-OG, I-PS
-15	)	O	O	O, I-PS, B-CV, I-OG, I-AF
-16	을	O	O	O, B-CV, B-PS, B-LC, B-TM
-17	후계자	B-CV	B-CV	B-CV, O, I-CV, B-PS, B-AF
-18	##로	O	O	O, I-CV, B-CV, B-PS, I-EV
-19	세우	O	O	O, B-OG, B-CV, B-PS, B-LC
-20	##면서	O	O	O, B-PS, B-LC, B-OG, B-CV
-21	""""	O	O	O, B-CV, B-LC, B-PS, B-OG
-22	국가	O	O	O, B-CV, B-PS, I-OG, I-CV
-23	##에서	O	O	O, B-PS, I-CV, B-CV, I-OG
-24	##는	O	O	O, B-PS, B-CV, B-LC, I-PS
-25	택	O	B-PS	B-PS, O, B-CV, B-LC, B-AF
-26	##현	O	I-PS	I-PS, O, I-LC, I-AF, I-CV
-27	(	O	O	O, I-PS, B-CV, I-CV, I-AF
-28	[UNK]	O	O	O, B-PS, B-CV, B-LC, B-TM
-29	[UNK]	O	O	O, B-PS, B-CV, B-LC, B-OG
-30	·	O	O	O, B-CV, B-LC, B-PS, B-OG
-31	현명	O	O	O, B-PS, B-CV, B-LC, B-AF
-32	##한	O	O	O, B-PS, I-PS, B-LC, I-LC
-33	이를	O	O	O, B-PS, I-PS, B-CV, B-LC
-34	택	O	O	O, B-PS, B-CV, B-LC, I-PS
-35	##함	O	O	O, I-PS, B-PS, I-LC, I-CV
-36	)	O	O	O, B-CV, B-LC, I-CV, B-PS
-37	해야	O	O	O, B-PS, B-LC, B-CV, B-OG
-38	한다	O	O	O, B-PS, B-CV, B-LC, B-OG
-39	""""	O	O	O, B-CV, B-LC, B-TM, B-OG
-40	고	O	O	O, B-CV, B-OG, B-LC, B-PS
-41	했	O	O	O, B-CV, B-OG, B-PS, B-LC
-42	##다	O	O	O, B-CV, I-CV, B-PS, I-OG
-43	.	O	O	O, B-PS, B-CV, B-LC, B-OG
-44	[SEP]	O	O	O, B-CV, B-PS, B-LC, I-CV
+	text	label	preds
+0	[CLS]	O	O
+1	맨	O	O
+2	위쪽	B-TM	B-TM
+3	##에	O	O
+4	남쪽	B-LC	B-LC
+5	김택	B-PS	B-PS
+6	##수	I-PS	I-PS
+7	,	O	O
+8	북쪽	B-LC	B-TM
+9	리	B-PS	B-PS
+10	##근	I-PS	I-PS
+11	##상	I-PS	I-PS
+12	선수	B-CV	B-CV
+13	서명	B-PS	O
+14	##이	I-PS	O
+15	,	O	O
+16	한반도	B-LC	B-LC
+17	오른	B-TM	B-TM
+18	##편	I-TM	I-TM
+19	위	B-TM	B-TM
+20	##와	O	O
+21	중간	B-TM	B-TM
+22	##에	O	O
+23	##는	O	O
+24	북쪽	B-LC	B-TM
+25	리	B-PS	B-PS
+26	##분	I-PS	I-PS
+27	##희	I-PS	I-PS
+28	·	O	O
+29	유	B-PS	B-PS
+30	##순	I-PS	I-PS
+31	##복	I-PS	I-PS
+32	선수	B-CV	B-CV
+33	##의	O	O
+34	서명	O	O
+35	##이	O	O
+36	보인다	O	O
+37	.	O	O
+38	[SEP]	O	O

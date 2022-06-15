@@ -1,26 +1,23 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	'	O	O	O, B-CV, B-LC, B-DT, B-QT
-2	9	B-DT	B-EV	B-EV, B-QT, B-DT, B-TI, B-AF
-3	·	I-DT	I-EV	I-EV, I-QT, I-DT, I-TI, I-AF
-4	15	I-DT	I-EV	I-EV, I-QT, I-DT, I-AF, I-TI
-5	'	O	O	O, I-EV, I-QT, I-DT, I-AF
-6	는	O	O	O, B-CV, B-LC, B-OG, B-PS
-7	전력	O	O	O, B-FD, B-OG, B-CV, B-TM
-8	##산업	O	O	O, I-OG, I-CV, I-FD, I-TM
-9	관계자	B-CV	B-CV	B-CV, O, I-CV, B-QT, B-DT
-10	##들	O	O	O, I-CV, I-OG, I-QT, B-CV
-11	##에	O	O	O, B-CV, B-PS, B-TM, B-OG
-12	##겐	O	O	O, B-LC, B-CV, B-QT, B-PS
-13	'	O	O	O, B-CV, B-DT, B-LC, B-QT
-14	9	B-EV	B-EV	B-EV, B-QT, B-DT, B-TI, B-AF
-15	·	I-EV	I-EV	I-EV, I-QT, I-DT, I-TI, I-AF
-16	11	I-EV	I-EV	I-EV, I-QT, I-DT, I-AF, I-TI
-17	'	O	O	O, I-EV, I-QT, I-DT, I-AF
-18	만큼	O	O	O, B-PS, B-LC, B-OG, B-DT
-19	아찔	O	O	O, B-QT, B-TM, B-CV, B-OG
-20	##한	O	O	O, B-PS, B-QT, B-LC, B-OG
-21	숫자	O	O	O, B-QT, B-CV, B-FD, B-PS
-22	##다	O	O	O, B-CV, I-QT, B-OG, B-TM
-23	.	O	O	O, B-CV, B-LC, B-FD, B-OG
-24	[SEP]	O	O	O, B-CV, B-FD, B-LC, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	역시	O	O
+2	2009	B-DT	B-DT
+3	##년	I-DT	I-DT
+4	4	I-DT	I-DT
+5	##월	I-DT	I-DT
+6	(	I-DT	O
+7	86	I-DT	B-DT
+8	.	I-DT	I-DT
+9	7	I-DT	I-DT
+10	)	I-DT	O
+11	이후	I-DT	O
+12	2	O	O
+13	##년	O	O
+14	##9	O	O
+15	##개	O	O
+16	##월	O	O
+17	만의	O	O
+18	최저치	O	O
+19	##다	O	O
+20	.	O	O
+21	[SEP]	O	O

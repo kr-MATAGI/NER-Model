@@ -1,20 +1,26 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-EV
-1	박	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-2	대통령	B-CV	B-CV	B-CV, O, I-PS, I-CV, B-OG
-3	만난	O	O	O, I-CV, I-EV, B-CV, I-OG
-4	자	B-PS	B-PS	B-PS, O, B-CV, B-OG, B-LC
-5	##승	I-PS	I-PS	I-PS, O, I-OG, I-CV, I-LC
-6	스님	B-CV	B-CV	B-CV, I-PS, I-CV, O, I-AF
-7	“	O	O	O, I-CV, I-OG, B-CV, I-EV
-8	나무	B-PT	O	O, B-PT, I-PT, B-CV, B-AF
-9	##는	O	O	O, I-AF, I-OG, I-CV, I-EV
-10	꽃	B-PT	B-PT	B-PT, O, I-PT, B-CV, B-AM
-11	##을	O	O	O, I-AF, I-OG, I-CV, I-EV
-12	버려야	O	O	O, B-PS, I-AF, I-OG, B-TM
-13	열매	B-PT	B-PT	B-PT, O, I-PT, B-CV, B-EV
-14	맺	O	O	O, I-AF, I-PT, I-OG, I-CV
-15	##는	O	O	O, I-AF, B-PS, I-OG, B-LC
-16	##다	O	O	O, I-AF, I-OG, B-PS, I-PS
-17	”	O	O	O, B-CV, B-LC, I-OG, B-TM
-18	[SEP]	O	O	O, B-PS, B-CV, B-LC, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	히	B-PT	B-OG
+2	##비스	I-PT	I-OG
+3	##커스	I-PT	I-OG
+4	##나	O	O
+5	난	O	O
+6	이런	O	O
+7	걸	O	O
+8	챙겨	O	O
+9	먹	O	O
+10	##었	O	O
+11	##지	O	O
+12	근데	O	O
+13	내	O	O
+14	##가	O	O
+15	요즘	O	O
+16	느껴	O	O
+17	정말	O	O
+18	영양	O	B-TM
+19	##부	O	I-TM
+20	##족	O	I-TM
+21	##이	O	O
+22	##라는	O	O
+23	걸	O	O
+24	[SEP]	O	O

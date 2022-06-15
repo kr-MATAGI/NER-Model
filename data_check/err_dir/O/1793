@@ -1,22 +1,17 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-AF
-1	주인공	B-CV	B-CV	B-CV, O, I-CV, B-AF, B-PS
-2	##은	O	O	O, I-CV, B-CV, I-AF, I-OG
-3	준수	O	O	O, B-CV, B-TM, I-CV, B-LC
-4	##한	O	O	O, B-PS, B-LC, B-OG, I-PS
-5	외모	O	O	O, B-CV, B-TM, B-LC, B-PS
-6	##와	O	O	O, B-PS, B-CV, B-OG, I-CV
-7	실력	O	O	O, B-CV, B-TM, B-LC, I-CV
-8	##을	O	O	O, B-CV, B-PS, B-OG, B-LC
-9	갖춘	O	O	O, B-LC, B-PS, B-OG, B-CV
-10	지바	O	B-OG	B-OG, B-LC, O, B-EV, B-AF
-11	롯데	B-OG	I-OG	I-OG, B-OG, O, I-LC, I-EV
-12	##의	O	O	O, I-OG, I-AF, I-EV, I-CV
-13	투수	B-CV	B-CV	B-CV, O, B-PS, B-AF, B-TM
-14	이대	B-PS	B-PS	B-PS, I-PS, O, B-OG, B-LC
-15	##은	I-PS	I-PS	I-PS, O, I-OG, I-QT, I-LC
-16	(	O	O	O, I-PS, I-OG, B-CV, I-AF
-17	26	B-QT	B-QT	B-QT, O, I-QT, B-TM, B-LC
-18	)	O	O	O, I-QT, I-OG, I-AF, I-DT
-19	.	O	O	O, B-CV, I-QT, B-OG, B-LC
-20	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	‘	O	O
+2	괴물	O	B-PS
+3	’	O	O
+4	테	B-PS	B-PS
+5	##임	I-PS	I-PS
+6	##즈	I-PS	I-PS
+7	,	O	O
+8	깜찍	O	O
+9	##한	O	O
+10	휴대	B-TM	B-TM
+11	##전	I-TM	I-TM
+12	##화	I-TM	I-TM
+13	케이스	O	O
+14	눈길	O	O
+15	[SEP]	O	O

@@ -1,14 +1,21 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-EV, I-CV, B-CV
-1	회담	O	O	O, B-EV, B-CV, B-LC, B-OG
-2	주역	B-CV	O	O, B-CV, I-CV, B-PS, I-EV
-3	##들	O	O	O, I-CV, I-EV, B-PS, I-OG
-4	##에	O	O	O, B-CV, B-LC, B-PS, B-OG
-5	##게	O	O	O, B-LC, B-PS, B-CV, B-TM
-6	길	O	O	O, B-PS, B-LC, B-AF, B-TM
-7	##을	O	O	O, B-PS, I-AF, B-CV, B-LC
-8	묻	O	O	O, B-PS, B-LC, B-CV, B-AF
-9	##다	O	O	O, B-PS, I-EV, I-PS, I-AF
-10	’	O	O	O, B-CV, B-LC, I-EV, B-PS
-11	.	O	O	O, B-CV, B-LC, B-OG, B-PS
-12	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	김형	B-PS	B-PS
+2	##오	I-PS	I-PS
+3	국회	B-CV	B-CV
+4	##의	I-CV	I-CV
+5	##장	I-CV	I-CV
+6	##은	O	O
+7	6	B-DT	B-DT
+8	##일	I-DT	I-DT
+9	질서	B-CV	O
+10	##유	I-CV	O
+11	##지	I-CV	O
+12	##권	I-CV	O
+13	발동	O	O
+14	##을	O	O
+15	해제	O	O
+16	##했	O	O
+17	##다	O	O
+18	.	O	O
+19	[SEP]	O	O

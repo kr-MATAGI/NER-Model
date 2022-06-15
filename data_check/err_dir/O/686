@@ -1,37 +1,72 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-EV
-1	■	O	O	O, B-LC, B-CV, B-OG, B-PS
-2	안철수	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
-3	,	O	O	O, I-PS, I-OG, B-CV, I-AF
-4	19	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-5	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
-6	오후	B-TI	B-TI	B-TI, I-TI, B-EV, I-DT, B-DT
-7	3	I-TI	I-TI	I-TI, B-TI, I-EV, I-DT, I-QT
-8	##시	I-TI	I-TI	I-TI, I-QT, I-EV, O, I-LC
-9	구세	B-AF	B-AF	B-AF, B-OG, B-LC, O, B-PS
-10	##군	I-AF	I-AF	I-AF, I-LC, O, I-OG, I-PS
-11	##아트	I-AF	I-AF	I-AF, I-LC, O, I-OG, I-PS
-12	##홀	I-AF	I-AF	I-AF, I-LC, O, I-OG, I-PS
-13	##서	O	O	O, I-AF, I-LC, I-EV, B-LC
-14	대선	B-EV	B-EV	B-EV, O, B-CV, B-AF, I-EV
-15	##출	O	O	O, I-EV, I-AF, B-CV, I-CV
-16	##마	O	O	O, I-EV, I-CV, I-AF, B-PS
-17	입장	O	O	O, B-CV, B-LC, B-TM, B-PS
-18	발표	O	O	O, B-CV, B-LC, B-OG, B-PS
-19	安	B-PS	B-PS	B-PS, O, B-OG, B-LC, B-CV
-20	,	O	O	O, I-PS, B-CV, I-OG, I-AF
-21	文	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-22	후보	B-CV	B-CV	B-CV, O, I-CV, I-PS, B-TM
-23	##확	O	O	O, I-CV, B-CV, I-EV, B-TM
-24	##정	O	O	O, I-CV, B-LC, B-PS, B-CV
-25	바로	O	O	O, B-PS, B-LC, B-CV, B-DT
-26	다음	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-CV
-27	##날	I-DT	I-DT	I-DT, O, B-DT, I-CV, I-QT
-28	‘	O	O	O, I-DT, B-CV, B-LC, B-OG
-29	출마	O	O	O, B-CV, B-LC, B-TM, B-EV
-30	##선언	O	O	O, I-EV, I-CV, B-CV, I-TM
-31	예고	O	O	O, B-CV, I-EV, B-LC, B-OG
-32	’	O	O	O, B-CV, B-LC, B-PS, B-OG
-33	견제	O	B-TM	B-TM, B-CV, O, B-AF, B-QT
-34	##구	O	I-TM	I-TM, I-CV, O, I-QT, I-AF
-35	[SEP]	O	O	O, I-TM, I-CV, I-EV, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	한나라당	B-OG	B-OG
+2	서민	O	B-OG
+3	##정책	O	I-OG
+4	##특위	O	I-OG
+5	##를	O	O
+6	대변	O	O
+7	##해	O	O
+8	김기현	B-PS	B-PS
+9	의원	B-CV	B-CV
+10	##이	O	O
+11	중소기업	O	O
+12	조합	O	O
+13	##에	O	O
+14	납품	O	O
+15	##단	O	O
+16	##가	O	O
+17	조정	O	O
+18	협상	O	O
+19	##권	O	O
+20	##을	O	O
+21	부여	O	O
+22	##하	O	O
+23	##고	O	O
+24	중소기업	O	O
+25	##의	O	O
+26	기술	O	O
+27	##을	O	O
+28	가로채	O	O
+29	##는	O	O
+30	대기	O	O
+31	##업	O	O
+32	##에	O	O
+33	대해	O	O
+34	손해	O	O
+35	##액	O	O
+36	##의	O	O
+37	3	B-QT	B-QT
+38	##배	I-QT	I-QT
+39	이내	I-QT	I-QT
+40	##에	O	O
+41	##서	O	O
+42	배상	O	O
+43	##하	O	O
+44	##도록	O	O
+45	하	O	O
+46	##는	O	O
+47	법안	O	O
+48	##을	O	O
+49	낸	O	O
+50	##데	O	O
+51	##다	O	O
+52	,	O	O
+53	정무	B-OG	B-OG
+54	##위	I-OG	I-OG
+55	소속	O	O
+56	일부	O	O
+57	한나라당	B-OG	B-OG
+58	의원	B-CV	B-CV
+59	##들	O	O
+60	##도	O	O
+61	정부안	O	O
+62	##에	O	O
+63	불만	O	O
+64	##을	O	O
+65	드러냈	O	O
+66	##기	O	O
+67	때문	O	O
+68	##이다	O	O
+69	.	O	O
+70	[SEP]	O	O

@@ -1,25 +1,53 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	석	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
-2	선장	B-CV	B-CV	B-CV, O, I-PS, I-CV, I-QT
-3	##은	O	O	O, I-CV, B-CV, I-EV, I-QT
-4	몸	B-AM	B-AM	B-AM, O, B-TM, B-TR, B-PS
-5	##에	O	O	O, I-QT, I-CV, I-TM, I-EV
-6	6	B-QT	B-QT	B-QT, O, I-QT, B-TM, B-LC
-7	##군데	I-QT	I-QT	I-QT, O, I-LC, I-TM, B-QT
-8	##의	O	O	O, I-QT, B-PS, B-TM, B-CV
-9	총	O	B-TM	B-TM, O, B-CV, I-TM, B-QT
-10	##상	O	I-TM	I-TM, O, I-QT, I-CV, B-TM
-11	(	O	O	O, I-TM, I-CV, I-QT, I-OG
-12	또는	O	O	O, B-TM, B-CV, B-QT, B-LC
-13	상처	O	O	O, B-TM, I-TM, B-CV, B-QT
-14	)	O	O	O, I-TM, B-CV, I-CV, B-LC
-15	을	O	O	O, B-CV, B-PS, B-TM, B-LC
-16	입	O	O	O, B-CV, B-TM, B-LC, B-PS
-17	##은	O	O	O, B-CV, I-CV, B-PS, B-LC
-18	것	O	O	O, B-CV, B-TM, B-LC, B-PS
-19	##으로	O	O	O, B-CV, B-TM, B-LC, I-OG
-20	알려졌	O	O	O, B-CV, B-LC, B-OG, B-TM
-21	##다	O	O	O, B-CV, I-OG, I-CV, B-LC
-22	.	O	O	O, B-CV, B-LC, B-TM, B-PS
-23	[SEP]	O	O	O, B-CV, B-TM, B-LC, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	‘	O	O
+2	제	B-QT	B-QT
+3	##2	I-QT	I-QT
+4	##의	I-QT	O
+5	난	O	B-AF
+6	##타	O	I-AF
+7	’	O	O
+8	로	O	O
+9	불리	O	O
+10	##며	O	O
+11	지난	B-DT	B-DT
+12	10	I-DT	I-DT
+13	##년	I-DT	I-DT
+14	동안	I-DT	I-DT
+15	한국	B-LC	B-LC
+16	공연	O	O
+17	##관광	O	O
+18	시장	O	O
+19	##을	O	O
+20	이끌	O	O
+21	##어	O	O
+22	##온	O	O
+23	논	B-FD	B-TR
+24	##버	I-FD	I-TR
+25	##벌	I-FD	I-TR
+26	퍼포먼스	I-FD	I-TR
+27	(	O	O
+28	비	B-FD	O
+29	##언	I-FD	O
+30	##어	I-FD	O
+31	공연	I-FD	O
+32	)	O	O
+33	<	O	O
+34	점프	B-AF	B-AF
+35	>	O	O
+36	가	O	O
+37	지난주	B-DT	B-DT
+38	공연	O	O
+39	##이	O	O
+40	중단	O	O
+41	##되	O	O
+42	##는	O	O
+43	초	O	O
+44	##유	O	O
+45	##의	O	O
+46	사태	O	O
+47	##가	O	O
+48	벌어졌	O	O
+49	##다	O	O
+50	.	O	O
+51	[SEP]	O	O

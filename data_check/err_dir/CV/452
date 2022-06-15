@@ -1,48 +1,40 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	연인	B-CV	O	O, B-CV, B-PS, B-OG, I-CV
-2	##의	O	O	O, I-CV, B-PS, I-OG, I-AF
-3	배신	O	O	O, B-CV, B-PS, B-LC, B-TM
-4	##으로	O	O	O, B-PS, B-CV, B-LC, B-OG
-5	절망	O	O	O, B-CV, B-PS, B-LC, B-OG
-6	##한	O	O	O, B-PS, B-CV, I-PS, B-LC
-7	엘	B-PS	B-PS	B-PS, O, I-PS, B-OG, B-LC
-8	##비	I-PS	I-PS	I-PS, O, I-OG, I-LC, B-PS
-9	##라	I-PS	I-PS	I-PS, O, I-OG, I-LC, B-PS
-10	##가	O	O	O, I-PS, B-PS, B-LC, I-OG
-11	광	O	O	O, B-LC, B-PS, B-CV, B-AF
-12	##란	O	O	O, B-PS, B-LC, I-LC, I-PS
-13	##에	O	O	O, B-PS, B-LC, I-PS, I-AF
-14	빠지	O	O	O, B-LC, B-PS, B-OG, B-AF
-15	##는	O	O	O, B-LC, B-PS, B-OG, B-CV
-16	2	B-QT	B-QT	B-QT, B-EV, B-TM, B-TI, O
-17	##막	I-QT	I-QT	I-QT, I-EV, O, I-TM, I-AF
-18	##에서	O	O	O, I-QT, I-EV, I-DT, I-OG
-19	페	B-PS	B-PS	B-PS, B-OG, B-AF, O, I-PS
-20	##레	I-PS	I-PS	I-PS, I-OG, I-AF, O, I-LC
-21	##차	I-PS	I-PS	I-PS, I-OG, I-AF, O, I-LC
-22	##트	I-PS	I-PS	I-PS, I-OG, I-LC, O, I-AF
-23	##코	I-PS	I-PS	I-PS, I-OG, I-LC, I-AF, O
-24	##는	O	O	O, I-PS, I-OG, I-AF, I-QT
-25	변화	O	O	O, B-PS, B-LC, B-CV, B-OG
-26	##무쌍	O	O	O, B-PS, B-LC, B-CV, B-OG
-27	##하	O	O	O, B-PS, B-LC, B-OG, I-PS
-28	##게	O	O	O, B-PS, B-LC, B-OG, I-PS
-29	돌변	O	O	O, B-PS, B-LC, B-CV, B-OG
-30	##하	O	O	O, B-PS, B-LC, B-CV, B-OG
-31	##는	O	O	O, B-PS, B-CV, B-LC, B-OG
-32	감정	O	O	O, B-CV, B-PS, B-LC, B-FD
-33	##을	O	O	O, B-CV, B-PS, B-LC, B-OG
-34	고음	O	O	O, B-TM, B-LC, B-CV, B-FD
-35	##을	O	O	O, B-CV, I-CV, B-PS, B-LC
-36	넘나들	O	O	O, B-CV, B-LC, B-PS, B-OG
-37	##며	O	O	O, B-LC, B-OG, B-PS, B-CV
-38	호소력	O	O	O, B-CV, B-PS, B-FD, B-LC
-39	짙	O	O	O, B-CV, B-PS, B-LC, I-CV
-40	##은	O	O	O, B-LC, B-PS, B-CV, B-OG
-41	목소리	O	O	O, B-CV, B-LC, B-PS, B-FD
-42	##에	O	O	O, B-CV, B-OG, B-LC, B-PS
-43	담아냈	O	O	O, B-LC, B-CV, B-OG, B-PS
-44	##다	O	O	O, B-CV, B-LC, B-PS, B-OG
-45	.	O	O	O, B-PS, B-LC, B-CV, B-OG
-46	[SEP]	O	O	O, B-CV, B-PS, B-LC, B-FD
+	text	label	preds
+0	[CLS]	O	O
+1	한편	O	O
+2	,	O	O
+3	통일부	B-OG	B-OG
+4	##는	O	O
+5	개성	B-LC	B-LC
+6	##공단	I-LC	I-LC
+7	입주	O	O
+8	##기업	O	O
+9	##들이	O	O
+10	신청	O	O
+11	##한	O	O
+12	경제	B-CV	O
+13	##협	I-CV	O
+14	##력	I-CV	O
+15	##보험	I-CV	O
+16	##금	I-CV	O
+17	지급	O	O
+18	##에	O	O
+19	대한	O	O
+20	심의	O	O
+21	##가	O	O
+22	곧	O	O
+23	마무리	O	O
+24	##돼	O	O
+25	이르	O	O
+26	##면	O	O
+27	이번	B-DT	B-DT
+28	##주부	I-DT	I-DT
+29	##터	I-DT	I-DT
+30	지급	O	O
+31	##이	O	O
+32	시작	O	O
+33	##된	O	O
+34	##다고	O	O
+35	밝혔	O	O
+36	##다	O	O
+37	.	O	O
+38	[SEP]	O	O

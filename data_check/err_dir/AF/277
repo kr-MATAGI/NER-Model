@@ -1,22 +1,27 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-QT
-1	한반도	B-LC	B-LC	B-LC, O, B-OG, B-AF, B-DT
-2	허리	O	B-AM	B-AM, O, B-TM, I-LC, I-AM
-3	##께	O	O	O, I-AM, I-TM, I-LC, B-AM
-4	##에	O	O	O, I-TM, B-TM, I-AF, B-CV
-5	##는	O	O	O, B-CV, B-OG, B-TM, B-LC
-6	‘	O	O	O, B-LC, B-CV, B-TM, B-OG
-7	부른다	O	O	O, B-AF, B-PS, B-LC, B-OG
-8	아리랑	B-AF	B-TM	B-TM, B-LC, B-AF, O, B-CV
-9	’	O	O	O, I-AF, I-TM, I-LC, I-EV
-10	이란	O	O	O, B-TM, B-PS, B-LC, B-CV
-11	필자	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-QT
-12	미상	O	O	O, I-CV, B-TM, I-TM, B-PS
-13	##의	O	O	O, B-PS, B-TM, B-LC, B-OG
-14	글씨	O	O	O, B-TM, B-CV, B-LC, B-OG
-15	##도	O	O	O, B-CV, B-OG, B-PS, B-LC
-16	적혀	O	O	O, B-CV, B-TM, B-LC, B-QT
-17	있	O	O	O, B-CV, B-TM, B-LC, B-OG
-18	##다	O	O	O, B-CV, B-TM, I-OG, B-OG
-19	.	O	O	O, B-LC, B-CV, B-TM, B-OG
-20	[SEP]	O	O	O, B-CV, B-LC, B-TM, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	2005	B-DT	B-DT
+2	##년	I-DT	I-DT
+3	5	I-DT	I-DT
+4	##월	I-DT	I-DT
+5	개관	O	O
+6	##한	O	O
+7	고래	B-AF	B-OG
+8	##박	I-AF	I-OG
+9	##물	I-AF	I-OG
+10	##관	I-AF	I-OG
+11	##의	O	O
+12	지난달	B-DT	B-DT
+13	말	I-DT	I-DT
+14	##까	I-DT	I-DT
+15	##지	I-DT	I-DT
+16	##의	O	O
+17	누적	O	O
+18	관광객	B-CV	B-CV
+19	##은	O	O
+20	126	B-QT	B-QT
+21	##만	I-QT	I-QT
+22	##여	I-QT	I-QT
+23	명	I-QT	I-QT
+24	.	O	O
+25	[SEP]	O	O

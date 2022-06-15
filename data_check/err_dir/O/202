@@ -1,36 +1,48 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-EV, I-OG, B-CV, I-CV
-1	10	B-DT	B-DT	B-DT, I-DT, O, B-EV, B-QT
-2	##월	I-DT	I-DT	I-DT, B-DT, O, I-QT, I-EV
-3	##3	I-DT	I-DT	I-DT, B-DT, O, I-QT, I-PS
-4	~	I-DT	I-DT	I-DT, B-DT, O, I-QT, I-EV
-5	5	I-DT	I-DT	I-DT, B-DT, O, I-QT, I-OG
-6	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-OG
-7	자라	B-LC	B-LC	B-LC, O, B-AF, B-OG, B-EV
-8	##섬	I-LC	I-LC	I-LC, O, I-AF, B-LC, I-OG
-9	##에서	O	O	O, I-LC, I-AF, I-EV, I-OG
-10	열리	O	O	O, B-CV, B-OG, I-EV, B-EV
-11	##는	O	O	O, B-CV, B-OG, B-PS, B-LC
-12	이	O	O	O, B-PS, B-CV, B-OG, B-EV
-13	축제	O	O	O, B-EV, I-EV, B-CV, B-PS
-14	##는	O	O	O, I-EV, B-CV, B-PS, I-OG
-15	누적	O	O	O, B-CV, B-LC, B-QT, B-TM
-16	##관	O	B-CV	B-CV, O, I-CV, B-PT, I-QT
-17	##객	O	I-CV	I-CV, O, B-CV, I-QT, I-TM
-18	##수	O	O	O, I-CV, I-QT, B-QT, I-OG
-19	140	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-PS
-20	##만	I-QT	I-QT	I-QT, O, I-PS, I-LC, B-QT
-21	##명	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-22	##을	O	O	O, I-QT, B-CV, I-EV, I-OG
-23	넘기	O	O	O, B-CV, B-OG, B-TM, B-QT
-24	##며	O	O	O, B-LC, B-OG, I-QT, B-QT
-25	아시아	B-LC	B-LC	B-LC, O, B-OG, B-PS, I-LC
-26	최대	O	O	O, I-LC, B-QT, B-CV, B-LC
-27	재즈	B-FD	B-FD	B-FD, O, I-FD, B-EV, B-CV
-28	페스티벌	O	O	O, I-EV, I-FD, B-EV, I-CV
-29	##로	O	O	O, I-EV, I-OG, I-CV, I-AF
-30	자리매김	O	O	O, B-CV, B-OG, B-QT, B-EV
-31	##했	O	O	O, I-EV, B-CV, B-PS, B-LC
-32	##다	O	O	O, B-CV, I-EV, I-OG, B-EV
-33	.	O	O	O, B-LC, B-CV, I-EV, B-PS
-34	[SEP]	O	O	O, B-CV, I-EV, B-LC, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	1962	B-DT	B-DT
+2	칠레	B-LC	B-EV
+3	대회	O	I-EV
+4	##에	O	O
+5	##서	O	O
+6	브라질	B-OG	B-OG
+7	##이	O	O
+8	2	B-QT	B-QT
+9	##연	I-QT	I-QT
+10	##속	I-QT	I-QT
+11	우승	O	O
+12	##을	O	O
+13	차지	O	O
+14	##한	O	O
+15	이후	O	O
+16	,	O	O
+17	잉글랜드	B-OG	B-OG
+18	·	O	O
+19	브라질	B-OG	B-OG
+20	·	O	O
+21	서독	B-OG	B-OG
+22	·	O	O
+23	아르헨티나	B-OG	B-OG
+24	·	O	O
+25	이탈리아	B-OG	B-OG
+26	·	O	O
+27	아르헨티나	B-OG	B-OG
+28	·	O	O
+29	서독	B-OG	B-OG
+30	·	O	O
+31	브라질	B-OG	B-OG
+32	·	O	O
+33	프랑스	B-OG	B-OG
+34	·	O	O
+35	브라질	B-OG	B-OG
+36	·	O	O
+37	이탈리아	B-OG	B-OG
+38	##가	O	O
+39	우승	O	O
+40	트로피	O	O
+41	##를	O	O
+42	들	O	O
+43	##었	O	O
+44	##다	O	O
+45	.	O	O
+46	[SEP]	O	O

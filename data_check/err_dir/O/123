@@ -1,43 +1,58 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-QT
-1	'	O	O	O, B-LC, B-OG, B-CV, B-DT
-2	100	B-QT	B-AF	B-AF, B-QT, B-PS, B-EV, B-CV
-3	##인	I-QT	I-AF	I-AF, I-QT, I-EV, I-PS, I-TM
-4	##의	O	I-AF	I-AF, O, I-PS, I-EV, I-QT
-5	배우	B-CV	I-AF	I-AF, B-CV, O, I-CV, B-AF
-6	…	O	I-AF	I-AF, O, I-CV, I-OG, I-TM
-7	'	O	O	O, I-AF, I-OG, I-CV, B-CV
-8	오디오	O	O	O, B-TM, B-FD, B-AF, B-CV
-9	북	O	O	O, I-TM, I-AF, B-TM, I-FD
-10	100	B-QT	B-QT	B-QT, I-QT, I-AF, I-TM, B-AF
-11	##편	I-QT	I-QT	I-QT, I-AF, I-TM, O, I-EV
-12	##은	O	O	O, I-QT, I-AF, I-EV, B-CV
-13	한국	B-OG	B-OG	B-OG, B-LC, O, B-AF, B-PS
-14	##연	I-OG	I-OG	I-OG, O, B-OG, I-LC, I-QT
-15	##극	I-OG	I-OG	I-OG, O, I-LC, B-OG, I-QT
-16	##인	I-OG	I-OG	I-OG, O, I-LC, I-QT, B-OG
-17	##복지	I-OG	I-OG	I-OG, O, I-LC, I-QT, B-OG
-18	##재단	I-OG	I-OG	I-OG, O, I-LC, I-QT, I-PS
-19	##과	O	O	O, I-OG, I-AF, B-OG, I-QT
-20	EBS	B-OG	B-OG	B-OG, O, I-OG, B-AF, B-LC
-21	,	O	O	O, I-OG, B-OG, I-DT, I-AF
-22	커뮤니케이션	B-OG	B-OG	B-OG, O, I-OG, B-AF, B-LC
-23	##북	I-OG	I-OG	I-OG, O, B-OG, I-AF, I-LC
-24	##스	I-OG	I-OG	I-OG, O, I-AF, B-OG, I-LC
-25	출판사	O	I-OG	I-OG, O, B-OG, I-AF, I-CV
-26	##가	O	O	O, I-OG, B-PS, I-AF, B-CV
-27	2014	B-DT	B-DT	B-DT, I-DT, O, B-QT, B-OG
-28	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-OG
-29	##부터	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-OG
-30	제작	O	O	O, I-DT, B-CV, B-TM, I-QT
-31	##하기	O	O	O, B-CV, B-OG, B-LC, B-QT
-32	시작	O	O	O, B-CV, B-OG, B-TM, B-LC
-33	##해	O	O	O, B-LC, B-OG, B-CV, B-PS
-34	이번	O	O	O, B-CV, B-OG, B-QT, B-LC
-35	##에	O	O	O, B-CV, B-OG, B-QT, I-QT
-36	마무리	O	O	O, B-CV, B-QT, B-TM, B-LC
-37	##를	O	O	O, B-CV, B-OG, I-OG, B-PS
-38	지은	O	O	O, B-CV, B-OG, B-QT, B-LC
-39	것	O	O	O, B-CV, B-OG, B-LC, I-OG
-40	.	O	O	O, B-OG, B-LC, I-OG, B-CV
-41	[SEP]	O	O	O, B-OG, I-OG, B-LC, B-CV
+	text	label	preds
+0	[CLS]	O	O
+1	1932	B-DT	B-DT
+2	##년	I-DT	I-DT
+3	만주	B-LC	B-LC
+4	하얼빈	B-LC	B-LC
+5	근교	O	O
+6	##에	O	O
+7	세워진	O	O
+8	73	B-OG	B-OG
+9	##1	I-OG	I-OG
+10	##부대	I-OG	I-OG
+11	##는	O	O
+12	존재	O	O
+13	자체	O	O
+14	##를	O	O
+15	철저	O	O
+16	##하	O	O
+17	##게	O	O
+18	비밀	O	O
+19	##에	O	O
+20	부친	O	O
+21	채	O	O
+22	포로	O	B-CV
+23	##로	O	O
+24	붙잡	O	O
+25	##은	O	O
+26	중국인	B-CV	B-CV
+27	##과	O	O
+28	한국인	B-CV	B-CV
+29	러시아인	B-CV	B-CV
+30	등	O	O
+31	##을	O	O
+32	상대	O	O
+33	##로	O	O
+34	각종	O	O
+35	세균	B-AM	B-AM
+36	실험	O	O
+37	##과	O	O
+38	독	B-MT	O
+39	##가스	I-MT	O
+40	실험	O	O
+41	등	O	O
+42	##을	O	O
+43	자행	O	O
+44	##한	O	O
+45	일제	B-OG	O
+46	전쟁	O	O
+47	##범죄	O	O
+48	##의	O	O
+49	대표	O	B-CV
+50	격	O	O
+51	##으로	O	O
+52	지목	O	O
+53	##된	O	O
+54	##다	O	O
+55	.	O	O
+56	[SEP]	O	O

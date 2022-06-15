@@ -1,37 +1,44 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	2005	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-2	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-3	##에	O	O	O, I-DT, B-CV, I-QT, I-AF
-4	##는	O	O	O, B-CV, B-OG, B-TM, B-LC
-5	만성	O	O	O, B-TM, B-CV, B-LC, B-FD
-6	##질	O	O	O, I-TM, B-TM, I-LC, B-LC
-7	##환	O	O	O, I-TM, I-LC, I-CV, B-TM
-8	##에	O	O	O, I-TM, B-CV, I-AF, I-OG
-9	의한	O	O	O, B-LC, B-TM, B-OG, B-PS
-10	척수	B-TM	B-TM	B-TM, O, B-TR, I-TM, B-AM
-11	출혈	O	I-TM	I-TM, O, B-TM, I-TR, I-EV
-12	##로	O	O	O, I-TM, I-EV, B-CV, I-QT
-13	하	B-AM	B-AM	B-AM, O, B-TM, B-TR, B-CV
-14	##반	I-AM	I-AM	I-AM, I-TM, O, I-TR, I-CV
-15	##신	I-AM	I-AM	I-AM, I-TM, O, I-CV, I-TR
-16	##을	O	O	O, I-TM, I-AM, I-CV, B-AM
-17	못	O	O	O, B-CV, B-TM, B-QT, B-PS
-18	쓰	O	O	O, B-TM, B-CV, B-AM, B-AF
-19	##게	O	O	O, B-CV, B-TM, B-PS, B-QT
-20	된	O	O	O, B-CV, B-PS, B-TM, B-LC
-21	여성	O	O	O, B-CV, B-TM, B-OG, B-LC
-22	장애인	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-OG
-23	강	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-24	##미	I-PS	I-PS	I-PS, O, I-OG, B-PS, I-LC
-25	##숙	I-PS	I-PS	I-PS, O, I-OG, I-LC, B-PS
-26	(	O	O	O, I-PS, I-OG, B-CV, I-QT
-27	42	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-TI
-28	)	O	O	O, I-QT, I-OG, I-DT, I-EV
-29	씨	O	O	O, B-CV, I-QT, B-TM, B-OG
-30	##가	O	O	O, B-CV, B-PS, B-OG, B-LC
-31	합류	O	O	O, B-CV, B-TM, I-OG, B-OG
-32	##했	O	O	O, B-CV, B-PS, B-OG, I-OG
-33	##다	O	O	O, B-CV, I-OG, B-OG, B-TM
-34	.	O	O	O, B-CV, B-TM, B-LC, B-PS
-35	[SEP]	O	O	O, B-CV, B-TM, B-LC, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	왕	O	B-CV
+2	노릇	O	O
+3	하	O	O
+4	##느	O	O
+5	##라고	O	O
+6	매일	O	O
+7	업무	O	O
+8	##가	O	O
+9	바쁘	O	O
+10	##니까	O	O
+11	아예	O	O
+12	공식	O	O
+13	스케줄	O	O
+14	##에다	O	O
+15	신하	O	B-CV
+16	##들	O	O
+17	##과	O	O
+18	##의	O	O
+19	독서	O	O
+20	토론	O	O
+21	과목	O	O
+22	##을	O	O
+23	집어넣	O	O
+24	##어	O	O
+25	##서	O	O
+26	의무	O	O
+27	##적	O	O
+28	##으로	O	O
+29	하도	O	O
+30	##록	O	O
+31	한	O	O
+32	것	O	O
+33	##이	O	O
+34	조선	O	B-DT
+35	##의	O	O
+36	정치	O	O
+37	##제	O	O
+38	##도	O	O
+39	##였	O	O
+40	##다	O	O
+41	.	O	O
+42	[SEP]	O	O

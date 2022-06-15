@@ -1,9 +1,22 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-AF
-1	아무리	O	O	O, B-CV, B-LC, B-OG, B-TM
-2	정치학	O	B-FD	B-FD, O, I-FD, B-CV, B-OG
-3	##계	O	O	O, I-FD, B-FD, I-OG, I-QT
-4	##에	O	O	O, B-PS, B-CV, I-AF, I-OG
-5	산다고	O	O	O, B-PS, B-QT, B-CV, B-AF
-6	해도	O	O	O, B-CV, I-QT, B-OG, B-TM
-7	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-QT
+	text	label	preds
+0	[CLS]	O	O
+1	반군	O	B-OG
+2	##은	O	O
+3	이	O	O
+4	##를	O	O
+5	비웃	O	O
+6	##기	O	O
+7	##라도	O	O
+8	하	O	O
+9	##듯	O	O
+10	정부	B-OG	B-OG
+11	##에	O	O
+12	가장	O	O
+13	수치	O	O
+14	##스러운	O	O
+15	패배	O	O
+16	##를	O	O
+17	안겼	O	O
+18	##다	O	O
+19	.	O	O
+20	[SEP]	O	O

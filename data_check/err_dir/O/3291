@@ -1,17 +1,9 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, B-CV, I-OG, I-AF
-1	고기	O	B-CV	B-CV, O, B-AM, B-PT, I-CV
-2	##까	O	O	O, I-CV, B-CV, B-PS, I-AF
-3	##지	O	O	O, B-PS, B-QT, B-DT, B-CV
-4	##난	O	O	O, B-CV, B-PS, B-QT, I-QT
-5	했었	O	O	O, B-CV, B-PS, B-LC, B-OG
-6	##어야	O	O	O, B-CV, B-PS, I-CV, B-QT
-7	했	O	O	O, B-CV, B-PS, B-OG, B-LC
-8	##는데	O	O	O, B-CV, B-PS, B-LC, B-OG
-9	고	O	O	O, B-CV, B-PS, B-QT, B-LC
-10	다음	O	O	O, B-CV, I-CV, B-PS, B-QT
-11	얘길	O	O	O, B-CV, I-CV, B-TM, I-QT
-12	해	O	O	O, B-CV, B-OG, B-TM, B-QT
-13	##버렸	O	O	O, B-CV, I-CV, I-OG, I-QT
-14	##어요	O	O	O, B-CV, I-CV, I-OG, I-QT
-15	[SEP]	O	O	O, B-CV, I-CV, B-QT, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	서울	O	B-LC
+2	##형	O	O
+3	사회	O	O
+4	##적	O	O
+5	##기업	O	O
+6	##인	O	O
+7	[SEP]	O	O

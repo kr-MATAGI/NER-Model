@@ -1,25 +1,54 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	교육부	B-OG	B-OG	B-OG, B-LC, B-AF, O, B-EV
-2	##의	O	O	O, I-OG, B-OG, I-EV, I-DT
-3	사학	B-OG	O	O, B-CV, B-OG, B-FD, B-EV
-4	##법인	I-OG	O	O, I-CV, I-OG, I-EV, I-TR
-5	책무	O	O	O, I-CV, I-OG, I-EV, B-CV
-6	##성	O	O	O, I-OG, I-CV, I-EV, I-TR
-7	평가	O	O	O, I-CV, I-OG, I-EV, I-TR
-8	##에서	O	O	O, I-OG, I-EV, I-CV, B-CV
-9	만점	O	B-QT	B-QT, O, I-QT, B-EV, B-CV
-10	##을	O	O	O, I-QT, I-EV, I-OG, I-CV
-11	받	O	O	O, B-CV, B-OG, B-TM, B-LC
-12	##은	O	O	O, B-OG, B-CV, B-LC, B-QT
-13	학교	O	O	O, B-OG, B-CV, B-QT, B-AF
-14	##가	O	O	O, B-OG, B-PS, I-OG, B-CV
-15	육	B-QT	B-QT	B-QT, I-QT, O, B-DT, B-EV
-16	##십	I-QT	I-QT	I-QT, B-QT, O, I-LC, I-EV
-17	##오	I-QT	I-QT	I-QT, B-QT, O, I-LC, I-PS
-18	퍼센트	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-EV
-19	##인	O	O	O, I-QT, B-CV, I-OG, B-OG
-20	것	O	O	O, B-CV, B-QT, I-QT, B-TM
-21	##으로	O	O	O, B-CV, I-QT, I-OG, B-QT
-22	나타나	O	O	O, B-CV, B-OG, B-LC, B-PS
-23	[SEP]	O	O	O, B-CV, B-OG, I-OG, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	대통령	B-CV	B-CV
+2	소속	O	O
+3	경제	B-OG	B-OG
+4	##사회	I-OG	I-OG
+5	##발전	I-OG	I-OG
+6	##노	I-OG	I-OG
+7	##사	I-OG	I-OG
+8	##정	I-OG	I-OG
+9	##위원회	I-OG	I-OG
+10	(	O	O
+11	노사정	B-OG	B-OG
+12	##위	I-OG	I-OG
+13	)	O	O
+14	는	O	O
+15	9	B-DT	B-DT
+16	##일	I-DT	I-DT
+17	서울	B-LC	B-LC
+18	종로구	B-LC	B-LC
+19	정부서울청사	B-AF	B-AF
+20	##에	O	O
+21	##서	O	O
+22	7	B-QT	B-QT
+23	##차	I-QT	I-QT
+24	‘	O	O
+25	노동	B-OG	B-OG
+26	##시장	I-OG	I-OG
+27	구조	I-OG	I-OG
+28	##개	I-OG	I-OG
+29	##선	I-OG	I-OG
+30	특별	I-OG	I-OG
+31	##위원회	I-OG	I-OG
+32	’	O	O
+33	(	O	O
+34	특위	O	O
+35	)	O	O
+36	를	O	O
+37	열	O	O
+38	##어	O	O
+39	비정규직	B-CV	B-CV
+40	대책	O	O
+41	##이	O	O
+42	포함	O	O
+43	##된	O	O
+44	노사정	B-OG	O
+45	##의	O	O
+46	제안	O	O
+47	##을	O	O
+48	공유	O	O
+49	##했	O	O
+50	##다	O	O
+51	.	O	O
+52	[SEP]	O	O

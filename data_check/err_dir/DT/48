@@ -1,62 +1,39 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	아울러	O	O	O, B-OG, B-LC, B-CV, B-QT
-2	계약	O	O	O, B-CV, B-OG, B-PS, B-LC
-3	##을	O	O	O, B-PS, B-OG, B-CV, B-LC
-4	체결	O	O	O, B-CV, B-PS, B-OG, B-LC
-5	##한	O	O	O, B-PS, B-OG, B-LC, B-CV
-6	투자자	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-PS
-7	##가	O	O	O, B-PS, I-CV, I-OG, B-CV
-8	추천	O	O	O, B-CV, B-PS, B-LC, B-OG
-9	##한	O	O	O, B-PS, B-LC, B-CV, B-OG
-10	사외	B-CV	B-CV	B-CV, O, B-TM, I-CV, B-OG
-11	##이	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-QT
-12	##사	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-TM
-13	##가	O	O	O, I-CV, B-PS, I-OG, B-LC
-14	선임	O	O	O, B-CV, B-OG, B-EV, B-PS
-15	##될	O	O	O, B-PS, B-LC, B-CV, I-CV
-16	수	O	O	O, B-LC, B-PS, B-DT, B-QT
-17	있	O	O	O, B-DT, B-LC, B-PS, B-QT
-18	##도록	O	O	O, B-LC, I-DT, B-DT, I-LC
-19	연내	B-DT	O	O, B-DT, B-LC, I-DT, B-TI
-20	이사회	O	O	O, B-EV, B-OG, I-EV, B-CV
-21	##와	O	O	O, I-EV, I-OG, B-PS, B-LC
-22	임시	O	O	O, B-EV, B-OG, B-CV, B-LC
-23	##주	O	O	O, I-EV, B-EV, I-OG, B-CV
-24	##총	O	O	O, I-EV, I-OG, B-EV, I-CV
-25	##을	O	O	O, I-EV, I-OG, B-CV, B-LC
-26	열	O	O	O, B-LC, B-OG, B-PS, B-CV
-27	##고	O	O	O, B-LC, B-OG, B-PS, I-OG
-28	,	O	O	O, B-LC, B-CV, B-OG, B-PS
-29	대주주	B-CV	B-CV	B-CV, O, B-OG, B-PS, I-CV
-30	##인	O	O	O, I-CV, I-OG, B-PS, B-CV
-31	예보	B-OG	B-OG	B-OG, O, B-CV, B-PS, I-OG
-32	##와	O	O	O, I-OG, B-OG, I-CV, I-PS
-33	##의	O	O	O, I-OG, B-OG, B-LC, B-CV
-34	경영	B-OG	O	O, B-OG, B-CV, I-OG, B-AF
-35	##정	I-OG	O	O, I-OG, I-CV, B-OG, I-AF
-36	##상	I-OG	O	O, I-OG, I-CV, B-OG, I-AF
-37	##화	I-OG	O	O, I-OG, I-CV, I-AF, B-OG
-38	##이	I-OG	O	O, I-OG, B-OG, I-CV, I-AF
-39	##행	I-OG	O	O, I-OG, I-CV, B-OG, I-AF
-40	##약	I-OG	O	O, I-OG, I-CV, B-OG, I-AF
-41	##정	I-OG	O	O, I-OG, B-OG, I-CV, I-AF
-42	(	O	O	O, I-OG, I-CV, I-AF, B-LC
-43	MOU	B-OG	O	O, B-OG, B-AF, B-LC, I-OG
-44	)	O	O	O, I-OG, I-EV, I-CV, I-AF
-45	을	O	O	O, B-LC, B-OG, B-CV, B-PS
-46	해지	O	O	O, B-OG, B-LC, I-OG, B-CV
-47	##해	O	O	O, B-LC, I-OG, B-PS, B-OG
-48	정부	B-OG	B-OG	B-OG, O, B-LC, B-AF, B-PS
-49	##의	O	O	O, I-OG, B-PS, I-AF, I-EV
-50	공식	O	O	O, B-CV, B-LC, B-TM, B-PS
-51	##적	O	O	O, B-LC, B-PS, B-CV, B-OG
-52	경영	O	O	O, B-CV, B-LC, B-TM, B-OG
-53	간섭	O	O	O, B-CV, B-LC, B-PS, B-TM
-54	고리	O	O	O, B-PS, B-LC, B-CV, B-TM
-55	##를	O	O	O, B-CV, B-OG, I-EV, B-LC
-56	없앨	O	O	O, B-CV, B-QT, B-LC, B-OG
-57	방침	O	O	O, B-OG, B-LC, B-CV, B-TM
-58	##이다	O	O	O, B-CV, B-OG, I-OG, B-LC
-59	.	O	O	O, B-LC, B-PS, B-OG, B-CV
-60	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	이에	O	O
+2	대해	O	O
+3	행정자치부	B-OG	B-OG
+4	박	B-PS	B-PS
+5	##순	I-PS	I-PS
+6	##영	I-PS	I-PS
+7	지방	B-CV	B-CV
+8	##인	I-CV	I-CV
+9	##사	I-CV	I-CV
+10	##제	I-CV	I-CV
+11	##도	I-CV	I-CV
+12	##과	I-CV	I-CV
+13	##장	I-CV	I-CV
+14	##은	O	O
+15	“	O	O
+16	관공서	O	O
+17	공휴일	O	O
+18	##에	O	O
+19	관한	O	O
+20	규정	O	O
+21	##상	O	O
+22	공무원	B-CV	B-CV
+23	##이	O	O
+24	근로자	B-DT	B-CV
+25	##의	I-DT	O
+26	날	I-DT	O
+27	##에	O	O
+28	쉬	O	O
+29	##는	O	O
+30	것	O	O
+31	##은	O	O
+32	맞	O	O
+33	##지	O	O
+34	않	O	O
+35	##다	O	O
+36	.	O	O
+37	[SEP]	O	O

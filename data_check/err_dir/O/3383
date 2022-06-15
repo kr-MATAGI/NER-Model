@@ -1,10 +1,68 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, I-OG, B-CV, I-AF
-1	마도	O	B-LC	B-LC, O, B-CV, B-DT, B-PS
-2	있	O	O	O, I-LC, B-QT, B-LC, B-PS
-3	##구	O	O	O, I-LC, I-QT, B-LC, I-DT
-4	[UNK]	O	O	O, B-LC, B-CV, B-PS, I-LC
-5	있	O	O	O, B-CV, B-LC, B-OG, B-PS
-6	##습	O	O	O, I-AF, I-OG, I-LC, B-LC
-7	##니다	O	O	O, B-LC, I-AF, I-OG, B-PS
-8	[SEP]	O	O	O, B-LC, B-CV, B-PS, B-QT
+	text	label	preds
+0	[CLS]	O	O
+1	이	B-PS	B-PS
+2	후보자	B-CV	B-CV
+3	동생	B-CV	B-CV
+4	##이	B-PS	B-PS
+5	이	O	B-PS
+6	후보자	B-CV	B-CV
+7	##가	O	O
+8	충남	B-LC	B-LC
+9	##지사	B-CV	B-CV
+10	##로	O	O
+11	있	O	O
+12	##던	O	O
+13	2008	B-DT	B-DT
+14	##년	I-DT	I-DT
+15	천안시	B-LC	B-LC
+16	아파트	O	O
+17	시행	O	O
+18	##사업	O	O
+19	##과	O	O
+20	관련	O	O
+21	##해	O	O
+22	변호사	B-CV	B-CV
+23	##법	I-CV	I-CV
+24	위반	O	O
+25	혐의	O	O
+26	##로	O	O
+27	2011	B-DT	B-DT
+28	##년	I-DT	I-DT
+29	구속	O	O
+30	##된	O	O
+31	사건	O	O
+32	##에	O	O
+33	대해	O	O
+34	,	O	O
+35	이	B-PS	B-PS
+36	후보자	B-CV	B-CV
+37	##는	O	O
+38	“	O	O
+39	공소장	O	O
+40	##에	O	O
+41	‘	O	O
+42	도지사	B-CV	B-CV
+43	##인	O	O
+44	이완구	B-PS	B-PS
+45	##의	O	O
+46	반대	O	O
+47	##에도	O	O
+48	불구	O	O
+49	##하	O	O
+50	##고	O	O
+51	’	O	O
+52	라고	O	O
+53	명시	O	O
+54	##돼	O	O
+55	있	O	O
+56	##다	O	O
+57	”	O	O
+58	며	O	O
+59	무관	O	O
+60	##함	O	O
+61	##을	O	O
+62	주장	O	O
+63	##했	O	O
+64	##다	O	O
+65	.	O	O
+66	[SEP]	O	O

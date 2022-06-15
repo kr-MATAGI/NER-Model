@@ -1,15 +1,24 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-AF
-1	오	B-QT	B-QT	B-QT, O, B-EV, B-DT, I-QT
-2	번	I-QT	I-QT	I-QT, O, I-EV, B-QT, I-DT
-3	육	B-QT	B-QT	B-QT, I-QT, O, B-EV, B-DT
-4	번	I-QT	I-QT	I-QT, O, B-QT, I-EV, I-LC
-5	트랙	O	I-QT	I-QT, O, I-EV, B-QT, I-OG
-6	##에	O	O	O, I-QT, I-EV, I-CV, I-AF
-7	나란히	O	O	O, B-QT, B-TM, B-LC, B-CV
-8	있	O	O	O, I-QT, B-CV, B-QT, B-PS
-9	##는	O	O	O, B-CV, I-AF, I-QT, B-PS
-10	곡	O	O	O, B-FD, B-CV, B-PS, B-AF
-11	##인	O	O	O, I-AF, I-CV, B-CV, B-PS
-12	##데	O	O	O, B-CV, I-AF, B-OG, B-QT
-13	[SEP]	O	O	O, B-CV, I-AF, B-QT, B-AF
+	text	label	preds
+0	[CLS]	O	O
+1	육	B-QT	B-QT
+2	##십	I-QT	I-QT
+3	세	O	I-QT
+4	육	B-QT	B-QT
+5	##십	I-QT	I-QT
+6	##오	I-QT	I-QT
+7	세	I-QT	I-QT
+8	이상	I-QT	I-QT
+9	##이	O	O
+10	사	B-QT	B-QT
+11	##십	I-QT	I-QT
+12	##사	I-QT	I-QT
+13	점	I-QT	I-QT
+14	일	B-QT	I-QT
+15	퍼센트	I-QT	I-QT
+16	이렇게	O	O
+17	나와	O	O
+18	있	O	O
+19	##습	O	O
+20	##니다	O	O
+21	.	O	O
+22	[SEP]	O	O

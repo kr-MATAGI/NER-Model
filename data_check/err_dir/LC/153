@@ -1,56 +1,71 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-QT
-1	또	O	O	O, B-CV, B-QT, B-PS, B-LC
-2	##다른	O	O	O, I-QT, B-QT, B-PS, B-CV
-3	공	B-LC	B-PS	B-PS, O, B-CV, B-AF, B-LC
-4	##길	I-LC	I-PS	I-PS, O, I-LC, B-PS, I-AF
-5	역	I-LC	O	O, I-PS, B-CV, I-CV, B-FD
-6	##에	O	O	O, B-CV, I-CV, B-PS, B-LC
-7	##는	O	O	O, B-CV, B-LC, B-OG, B-PS
-8	뮤지컬	B-FD	B-FD	B-FD, O, I-FD, B-CV, B-AF
-9	<	O	O	O, I-FD, I-CV, I-OG, I-DT
-10	쟈	B-AF	B-AF	B-AF, B-PS, O, B-EV, B-LC
-11	##나	I-AF	I-AF	I-AF, O, I-PS, I-EV, I-LC
-12	##돈	I-AF	I-AF	I-AF, O, I-PS, I-EV, I-CV
-13	##트	I-AF	I-AF	I-AF, O, I-PS, I-EV, I-CV
-14	>	O	O	O, I-AF, I-EV, I-CV, I-OG
-15	에서	O	O	O, B-CV, B-LC, B-PS, I-AF
-16	인상	O	O	O, B-CV, B-TM, B-PS, B-OG
-17	##적인	O	O	O, B-PS, B-QT, B-LC, B-CV
-18	게이	B-CV	O	O, B-CV, B-TM, B-FD, I-CV
-19	연기	O	O	O, I-CV, B-CV, B-FD, I-FD
-20	##를	O	O	O, I-CV, B-CV, B-PS, I-QT
-21	펼쳤	O	O	O, B-CV, B-OG, B-LC, B-PS
-22	##던	O	O	O, B-CV, B-PS, B-LC, B-OG
-23	배우	B-CV	B-CV	B-CV, O, B-PS, I-CV, B-AF
-24	김호	B-PS	B-PS	B-PS, O, I-PS, B-OG, B-CV
-25	##영	I-PS	I-PS	I-PS, O, I-OG, I-QT, I-LC
-26	(	O	O	O, I-PS, I-OG, B-CV, I-QT
-27	28	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-TM
-28	)	O	O	O, I-QT, I-DT, I-OG, B-CV
-29	씨	O	O	O, B-CV, I-QT, B-PS, B-LC
-30	##가	O	O	O, B-PS, B-CV, B-LC, B-OG
-31	2006	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-PS
-32	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-33	##에	O	O	O, I-DT, B-CV, I-QT, I-EV
-34	이어	O	O	O, B-PS, B-QT, B-LC, I-DT
-35	다시	O	O	O, B-QT, B-CV, B-PS, I-QT
-36	더블	O	O	O, B-QT, B-CV, B-TM, B-FD
-37	##캐	O	O	O, I-QT, I-CV, I-TR, I-TM
-38	##스	O	O	O, I-QT, I-CV, I-TR, I-FD
-39	##팅	O	O	O, I-QT, I-CV, I-TR, I-TM
-40	##됐	O	O	O, I-QT, I-CV, B-CV, B-PS
-41	##으며	O	O	O, B-CV, B-PS, B-QT, B-LC
-42	장생	B-PS	B-PS	B-PS, O, B-LC, B-AF, B-AM
-43	##은	O	O	O, I-PS, B-CV, I-CV, I-AF
-44	이승훈	B-PS	B-PS	B-PS, O, I-PS, B-OG, B-LC
-45	(	O	O	O, I-PS, B-CV, I-OG, I-AF
-46	42	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-TM
-47	)	O	O	O, I-QT, I-DT, I-OG, I-CV
-48	씨	O	O	O, B-CV, I-QT, B-PS, B-LC
-49	##가	O	O	O, B-CV, B-PS, B-LC, B-OG
-50	맡	O	O	O, B-CV, B-PS, B-QT, B-LC
-51	##았	O	O	O, B-CV, B-PS, B-QT, B-LC
-52	##다	O	O	O, B-CV, B-QT, B-LC, I-OG
-53	.	O	O	O, B-CV, B-LC, B-PS, B-OG
-54	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-FD
+	text	label	preds
+0	[CLS]	O	O
+1	동아일보	B-OG	B-OG
+2	##는	O	O
+3	한국	B-OG	B-OG
+4	##언	I-OG	I-OG
+5	##론	I-OG	I-OG
+6	##진흥	I-OG	I-OG
+7	##재단	I-OG	I-OG
+8	##의	O	O
+9	후원	O	O
+10	##을	O	O
+11	받아	O	O
+12	홍보	O	O
+13	##업체	O	O
+14	##인	O	O
+15	미디	B-OG	B-OG
+16	##컴	I-OG	I-OG
+17	##과	O	O
+18	함께	O	O
+19	전국	O	O
+20	##적	O	O
+21	관심	O	O
+22	##이	O	O
+23	쏠려	O	O
+24	있	O	O
+25	##는	O	O
+26	종로	B-LC	B-LC
+27	중구	B-LC	B-LC
+28	동대문	B-LC	B-LC
+29	##을	I-LC	I-LC
+30	도봉	B-LC	B-LC
+31	##갑	I-LC	I-LC
+32	은평	B-LC	B-LC
+33	##을	I-LC	O
+34	서대문	B-LC	B-LC
+35	##갑	I-LC	O
+36	영등포	B-LC	B-LC
+37	##을	I-LC	I-LC
+38	동작	B-LC	O
+39	##을	I-LC	O
+40	관악	B-LC	B-LC
+41	##을	I-LC	I-LC
+42	강남	B-LC	B-LC
+43	##을	I-LC	I-LC
+44	등	O	O
+45	서울	B-LC	B-LC
+46	10	B-QT	B-QT
+47	##곳	I-QT	I-QT
+48	##의	O	O
+49	여야	O	O
+50	후보	B-CV	B-CV
+51	##와	O	O
+52	관련	O	O
+53	##된	O	O
+54	트위터	B-TM	B-TM
+55	발생	O	O
+56	추이	O	O
+57	##를	O	O
+58	26	B-DT	B-DT
+59	##일	I-DT	I-DT
+60	##부터	I-DT	I-DT
+61	29	I-DT	I-DT
+62	##일	I-DT	I-DT
+63	##까	I-DT	I-DT
+64	##지	I-DT	I-DT
+65	분석	O	O
+66	##했	O	O
+67	##다	O	O
+68	.	O	O
+69	[SEP]	O	O

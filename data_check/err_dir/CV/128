@@ -1,40 +1,23 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	연말	B-CV	O	O, B-CV, I-CV, B-TM, B-EV
-2	##정	I-CV	O	O, I-CV, B-CV, I-TM, I-TR
-3	##산	I-CV	O	O, I-CV, B-CV, I-TM, I-OG
-4	##을	O	O	O, I-CV, I-EV, I-OG, B-CV
-5	통해	O	O	O, B-PS, B-CV, B-OG, B-LC
-6	납세자	B-CV	B-CV	B-CV, O, B-OG, I-CV, B-TM
-7	##에	O	O	O, I-CV, B-CV, I-AF, I-OG
-8	##게	O	O	O, B-CV, B-PS, B-LC, B-QT
-9	더	O	O	O, B-CV, B-QT, B-PS, B-TM
-10	받	O	O	O, B-CV, B-PS, B-QT, B-TM
-11	##은	O	O	O, B-PS, B-CV, B-QT, B-LC
-12	돈	O	O	O, B-CV, I-CV, I-QT, B-QT
-13	##을	O	O	O, B-CV, B-PS, B-QT, B-LC
-14	돌려주	O	O	O, B-CV, B-QT, B-PS, B-LC
-15	##는	O	O	O, B-CV, B-PS, B-LC, B-QT
-16	환급	O	O	O, B-CV, B-TM, B-EV, I-CV
-17	##이	O	O	O, B-PS, I-CV, B-CV, I-EV
-18	아니	O	O	O, B-CV, B-PS, B-LC, B-OG
-19	##라	O	O	O, B-CV, B-PS, B-LC, B-OG
-20	18	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-EV
-21	##세	I-QT	I-QT	I-QT, O, I-LC, I-EV, I-PS
-22	이상	I-QT	I-QT	I-QT, O, I-LC, I-EV, I-PS
-23	##의	O	O	O, I-QT, B-PS, B-CV, B-LC
-24	성인	O	O	O, B-CV, I-CV, B-TM, B-FD
-25	모두	O	O	O, B-CV, I-CV, B-PS, B-QT
-26	##에	O	O	O, B-CV, B-PS, B-TM, B-QT
-27	##게	O	O	O, B-CV, B-PS, B-QT, B-TM
-28	현금	O	O	O, B-CV, B-TM, B-QT, B-MT
-29	##을	O	O	O, B-CV, B-PS, I-CV, B-TM
-30	살포	O	O	O, B-CV, B-TM, B-QT, B-PS
-31	##하	O	O	O, B-CV, B-PS, B-LC, B-OG
-32	##는	O	O	O, B-CV, B-PS, B-LC, B-TM
-33	화끈	O	O	O, B-CV, B-TM, B-LC, B-PS
-34	##한	O	O	O, B-PS, B-LC, B-OG, I-AF
-35	방식	O	O	O, B-CV, B-TM, B-LC, B-QT
-36	##이다	O	O	O, B-CV, B-TM, I-CV, I-QT
-37	.	O	O	O, B-CV, B-PS, B-LC, I-AF
-38	[SEP]	O	O	O, B-CV, B-PS, B-LC, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	비슷	O	O
+2	##한	O	O
+3	상황	O	O
+4	##이	O	O
+5	아시아	B-LC	B-LC
+6	##의	O	O
+7	한	B-LC	B-EV
+8	·	O	I-EV
+9	일	B-LC	I-EV
+10	축구	B-CV	I-EV
+11	라이벌	O	I-EV
+12	##전	O	I-EV
+13	##에	O	O
+14	##서도	O	O
+15	벌어지	O	O
+16	##고	O	O
+17	있	O	O
+18	##었	O	O
+19	##다	O	O
+20	.	O	O
+21	[SEP]	O	O

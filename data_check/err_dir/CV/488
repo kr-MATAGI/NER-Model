@@ -1,85 +1,84 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-EV, I-CV, I-OG
-1	아마	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
-2	##르	I-PS	I-PS	I-PS, O, I-OG, I-LC, B-PS
-3	##사	I-PS	I-PS	I-PS, O, I-OG, I-LC, B-PS
-4	##나	I-PS	I-PS	I-PS, O, I-OG, I-LC, B-PS
-5	소장	B-CV	B-CV	B-CV, O, I-CV, I-PS, B-AF
-6	##은	O	O	O, I-CV, I-EV, B-CV, I-OG
-7	“	O	O	O, B-CV, B-LC, B-PS, B-OG
-8	1992	B-DT	B-DT	B-DT, O, B-QT, I-DT, B-LC
-9	##년	I-DT	I-DT	I-DT, O, I-QT, B-DT, I-PS
-10	몽골	B-LC	B-LC	B-LC, B-OG, O, I-LC, I-DT
-11	##에서	O	O	O, I-LC, B-LC, I-OG, I-DT
-12	헌재	B-OG	B-OG	B-OG, O, B-AF, I-OG, B-CV
-13	##를	O	O	O, I-OG, I-AF, B-OG, I-EV
-14	설립	O	O	O, B-OG, B-LC, I-OG, B-PS
-15	##할	O	O	O, B-PS, I-OG, B-LC, B-OG
-16	때	O	O	O, B-PS, B-LC, B-CV, B-OG
-17	많	O	O	O, B-LC, B-OG, B-PS, B-TM
-18	##은	O	O	O, B-LC, B-PS, B-OG, I-OG
-19	나라	O	O	O, B-LC, B-PS, B-CV, B-OG
-20	##의	O	O	O, B-LC, B-PS, B-CV, B-OG
-21	헌법	B-CV	B-CV	B-CV, O, B-OG, B-AF, B-FD
-22	##재판	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-AF
-23	제도	I-CV	O	O, I-CV, B-CV, I-OG, I-AF
-24	##를	O	O	O, I-CV, I-OG, I-AF, B-PS
-25	참고	O	O	O, B-LC, B-CV, B-TM, B-OG
-26	##했	O	O	O, B-LC, B-PS, B-OG, B-CV
-27	##으며	O	O	O, B-LC, B-PS, B-OG, B-CV
-28	4	B-DT	B-DT	B-DT, O, B-QT, I-DT, B-LC
-29	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-30	앞서	O	O	O, I-DT, B-OG, B-PS, I-QT
-31	헌재	O	O	O, B-OG, B-AF, I-OG, B-FD
-32	##를	O	O	O, I-OG, I-AF, B-OG, B-PS
-33	만든	O	O	O, B-OG, B-LC, B-PS, B-QT
-34	한국	B-LC	B-LC	B-LC, B-OG, O, B-PS, B-AF
-35	##도	O	O	O, I-LC, I-OG, B-LC, I-PS
-36	그	O	O	O, B-LC, B-TM, B-QT, B-OG
-37	가운데	O	O	O, B-QT, B-TM, B-LC, B-OG
-38	하나	O	O	O, B-QT, I-QT, B-PS, B-LC
-39	##였	O	O	O, I-QT, B-PS, I-OG, B-LC
-40	##다	O	O	O, B-CV, B-LC, I-QT, B-PS
-41	”	O	O	O, B-CV, B-LC, B-PS, B-OG
-42	며	O	O	O, B-CV, B-LC, B-OG, B-PS
-43	“	O	O	O, B-CV, B-LC, B-PS, B-OG
-44	특히	O	O	O, B-TR, B-LC, B-EV, B-PS
-45	민주	O	O	O, B-TR, I-TR, B-EV, B-PS
-46	##화	O	O	O, I-TR, I-EV, I-PS, I-OG
-47	##로	O	O	O, B-PS, I-TR, I-EV, I-PS
-48	헌법	B-CV	B-CV	B-CV, O, B-OG, B-AF, B-FD
-49	##을	O	O	O, I-CV, I-OG, I-AF, I-EV
-50	개정	O	O	O, B-CV, B-LC, B-PS, B-OG
-51	##한	O	O	O, B-PS, B-LC, B-OG, B-CV
-52	뒤	O	O	O, B-PS, B-LC, B-OG, B-TM
-53	헌재	B-OG	B-OG	B-OG, O, B-AF, I-OG, B-CV
-54	##를	O	O	O, I-OG, I-AF, I-EV, I-CV
-55	만들	O	O	O, B-OG, B-LC, B-CV, B-PS
-56	##었	O	O	O, B-PS, B-LC, B-OG, B-CV
-57	##다는	O	O	O, B-PS, B-LC, B-OG, B-CV
-58	점	O	O	O, B-LC, B-PS, B-CV, B-OG
-59	##에서	O	O	O, B-PS, B-LC, B-OG, B-CV
-60	유사	O	O	O, B-LC, B-CV, B-PS, B-OG
-61	##점	O	O	O, B-PS, B-LC, I-PS, I-CV
-62	##이	O	O	O, B-PS, B-OG, B-LC, B-CV
-63	많	O	O	O, B-PS, B-LC, B-OG, B-CV
-64	##아	O	O	O, B-LC, B-PS, B-OG, I-OG
-65	,	O	O	O, B-LC, B-CV, B-PS, B-OG
-66	한국	B-LC	B-LC	B-LC, B-OG, O, B-PS, B-AF
-67	##의	O	O	O, I-LC, B-LC, I-OG, B-PS
-68	법률	O	O	O, B-CV, B-LC, B-FD, B-TM
-69	##과	O	O	O, B-PS, B-LC, B-OG, B-CV
-70	제도	O	O	O, B-CV, B-LC, B-PS, I-CV
-71	##를	O	O	O, B-LC, B-CV, B-PS, B-OG
-72	깊	O	O	O, B-LC, B-TM, B-CV, B-PS
-73	##게	O	O	O, B-LC, B-PS, B-OG, I-LC
-74	검토	O	O	O, B-LC, B-CV, B-TM, B-OG
-75	##했	O	O	O, B-LC, B-PS, B-OG, B-CV
-76	##다	O	O	O, B-CV, B-LC, B-PS, B-OG
-77	”	O	O	O, B-CV, B-LC, B-PS, B-TM
-78	고	O	O	O, B-CV, B-LC, B-TM, B-PS
-79	말	O	O	O, B-CV, B-TM, B-LC, I-CV
-80	##했	O	O	O, B-CV, B-PS, I-CV, B-LC
-81	##다	O	O	O, B-CV, B-LC, B-TM, B-PS
-82	.	O	O	O, B-LC, B-PS, B-OG, B-CV
-83	[SEP]	O	O	O, B-LC, B-CV, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	'	O	O
+2	어	B-AF	B-AF
+3	##프	I-AF	I-AF
+4	##렌	I-AF	I-AF
+5	##티스	I-AF	I-AF
+6	'	O	O
+7	는	O	O
+8	트럼프	B-PS	B-PS
+9	기업	O	O
+10	##의	O	O
+11	입사	B-CV	B-CV
+12	##자	I-CV	I-CV
+13	##를	O	O
+14	선발	O	O
+15	##하	O	O
+16	##는	O	O
+17	서바이벌	O	O
+18	프로그램	O	O
+19	##으로	O	O
+20	,	O	O
+21	트럼프	B-PS	B-PS
+22	##는	O	O
+23	자신	O	O
+24	##의	O	O
+25	후임	B-CV	O
+26	##으로	O	O
+27	슈	B-PS	B-PS
+28	##워	I-PS	I-PS
+29	##제	I-PS	I-PS
+30	##네	I-PS	I-PS
+31	##거	I-PS	I-PS
+32	##가	O	O
+33	진행	O	O
+34	##을	O	O
+35	맡	O	O
+36	##은	O	O
+37	뒤	O	O
+38	시청	O	O
+39	##률	O	O
+40	##이	O	O
+41	하락	O	O
+42	##하	O	O
+43	##자	O	O
+44	""""	O	O
+45	대단	O	O
+46	##한	O	O
+47	영화배우	B-CV	B-CV
+48	##인	O	O
+49	슈	B-PS	B-PS
+50	##워	I-PS	I-PS
+51	##제	I-PS	I-PS
+52	##네	I-PS	I-PS
+53	##거	I-PS	I-PS
+54	##가	O	O
+55	'	O	O
+56	어	B-AF	B-AF
+57	##프	I-AF	I-AF
+58	##렌	I-AF	I-AF
+59	##티스	I-AF	I-AF
+60	'	O	O
+61	진행	O	O
+62	##을	O	O
+63	맡	O	O
+64	##은	O	O
+65	뒤	O	O
+66	시청	O	O
+67	##률	O	O
+68	##이	O	O
+69	곤두박질	O	O
+70	##쳤	O	O
+71	##다	O	O
+72	.	O	O
+73	완전히	O	O
+74	재앙	O	O
+75	""""	O	O
+76	이라	O	O
+77	##고	O	O
+78	말	O	O
+79	##했	O	O
+80	##다	O	O
+81	.	O	O
+82	[SEP]	O	O

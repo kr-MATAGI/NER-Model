@@ -1,33 +1,67 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-EV
-1	김	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-2	감독	B-CV	B-CV	B-CV, O, I-PS, I-CV, B-PS
-3	##을	O	O	O, I-CV, B-CV, I-PS, I-OG
-4	향한	O	O	O, B-LC, B-PS, B-OG, B-TM
-5	팬	B-CV	B-CV	B-CV, O, B-OG, B-PS, I-CV
-6	##덤	O	O	O, I-CV, I-PS, I-OG, B-PS
-7	(	O	O	O, I-CV, I-OG, B-CV, B-LC
-8	팬	O	B-CV	B-CV, O, B-OG, B-PS, B-AF
-9	집단	O	O	O, I-CV, I-OG, I-PS, I-AF
-10	##과	O	O	O, B-PS, I-OG, B-CV, B-OG
-11	그	O	O	O, B-CV, B-PS, B-OG, B-LC
-12	문화	O	O	O, B-CV, B-PS, B-FD, B-OG
-13	)	O	O	O, I-CV, B-CV, B-PS, B-LC
-14	이	O	O	O, B-PS, B-OG, B-LC, B-CV
-15	본격	O	O	O, B-PS, B-CV, B-OG, B-LC
-16	##화	O	O	O, B-PS, B-LC, B-OG, B-CV
-17	##한	O	O	O, B-PS, B-LC, B-OG, B-CV
-18	것	O	O	O, B-CV, B-OG, B-PS, B-LC
-19	##은	O	O	O, B-PS, B-OG, B-LC, B-CV
-20	2007	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-21	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-22	LG	B-OG	B-OG	B-OG, O, B-LC, B-AF, B-CV
-23	사령탑	O	O	O, B-CV, I-OG, I-CV, I-EV
-24	##으로	O	O	O, B-CV, B-PS, I-CV, I-OG
-25	취임	O	O	O, B-CV, B-PS, B-EV, B-LC
-26	##하면	O	O	O, I-CV, B-PS, B-CV, I-DT
-27	##서	O	O	O, I-DT, B-PS, I-CV, B-DT
-28	##부터	O	O	O, I-DT, B-PS, I-QT, I-PS
-29	##다	O	O	O, B-CV, B-PS, B-LC, B-OG
-30	.	O	O	O, B-PS, B-LC, B-CV, B-OG
-31	[SEP]	O	O	O, B-CV, B-PS, B-LC, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	고려대	B-OG	B-OG
+2	의대	O	O
+3	동기	B-CV	B-CV
+4	##생	I-CV	I-CV
+5	##인	O	O
+6	배	B-PS	B-PS
+7	##씨	O	O
+8	##와	O	O
+9	박아	O	O
+10	##무	O	O
+11	##개	O	O
+12	(	O	O
+13	23	B-QT	B-QT
+14	)	O	O
+15	씨	O	O
+16	,	O	O
+17	한	B-PS	B-PS
+18	##아	O	O
+19	##무	O	O
+20	##개	O	O
+21	(	O	O
+22	24	B-QT	B-QT
+23	)	O	O
+24	씨	O	O
+25	##는	O	O
+26	지난	B-DT	B-DT
+27	5	I-DT	I-DT
+28	##월	I-DT	I-DT
+29	동기	O	B-CV
+30	여학생	O	O
+31	##과	O	O
+32	경기도	B-LC	B-LC
+33	가평	B-LC	B-LC
+34	##으로	O	O
+35	여행	O	O
+36	##을	O	O
+37	갔	O	O
+38	##다가	O	O
+39	민박	O	O
+40	##집	O	O
+41	##에	O	O
+42	##서	O	O
+43	술	B-CV	B-CV
+44	##에	O	O
+45	취한	O	O
+46	피해자	B-CV	B-CV
+47	##를	O	O
+48	집단	B-CV	O
+49	성추행	I-CV	I-CV
+50	##한	O	O
+51	혐의	O	O
+52	(	O	O
+53	특수강	B-CV	B-CV
+54	##제	I-CV	I-CV
+55	##추	I-CV	I-CV
+56	##행	I-CV	I-CV
+57	)	O	O
+58	등	O	O
+59	##으로	O	O
+60	구속	O	B-CV
+61	기소	O	I-CV
+62	##됐	O	O
+63	##다	O	O
+64	.	O	O
+65	[SEP]	O	O

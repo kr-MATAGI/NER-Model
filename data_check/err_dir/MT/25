@@ -1,14 +1,14 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-EV, I-OG, I-CV, B-CV
-1	[	O	O	O, B-LC, B-OG, B-CV, B-DT
-2	대구	B-LC	B-LC	B-LC, O, B-OG, I-LC, B-PS
-3	·	O	O	O, I-LC, I-OG, I-AF, I-EV
-4	경북	B-LC	B-LC	B-LC, I-LC, O, B-OG, B-PS
-5	]	O	O	O, I-LC, B-LC, I-OG, I-EV
-6	호미	B-LC	B-LC	B-LC, O, B-AF, B-OG, I-LC
-7	##곶	I-LC	I-LC	I-LC, O, I-AF, B-LC, I-OG
-8	##서	O	O	O, I-LC, I-EV, B-LC, I-AF
-9	철	B-MT	O	O, B-EV, B-MT, B-TR, B-AM
-10	사진	O	O	O, I-EV, I-TR, I-AF, I-DT
-11	전시회	O	O	O, I-EV, B-EV, I-AF, I-TR
-12	[SEP]	O	O	O, I-EV, B-LC, B-CV, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	[	O	O
+2	대구	B-LC	B-LC
+3	·	O	O
+4	경북	B-LC	B-LC
+5	]	O	O
+6	호미	B-LC	B-LC
+7	##곶	I-LC	I-LC
+8	##서	O	O
+9	철	B-MT	O
+10	사진	O	O
+11	전시회	O	O
+12	[SEP]	O	O

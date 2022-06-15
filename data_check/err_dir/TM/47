@@ -1,30 +1,46 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	한국	B-LC	B-LC	B-LC, B-OG, O, B-CV, B-PS
-2	축구	B-CV	B-CV	B-CV, O, I-CV, I-OG, B-OG
-3	사상	O	O	O, I-CV, I-OG, I-EV, I-QT
-4	첫	O	O	O, B-QT, B-LC, B-EV, B-PS
-5	올림픽	B-EV	B-EV	B-EV, O, B-CV, B-DT, I-EV
-6	메달	O	O	O, I-EV, B-CV, I-CV, I-AF
-7	획득	O	O	O, I-EV, I-CV, I-TM, I-AF
-8	##을	O	O	O, B-CV, B-OG, B-TM, B-LC
-9	위해서	O	O	O, B-LC, B-CV, B-TM, B-PS
-10	##는	O	O	O, B-CV, B-TM, B-LC, B-OG
-11	골	B-TM	O	O, B-TM, B-AM, B-CV, B-TR
-12	##결	O	O	O, I-TM, B-TM, I-PS, I-TR
-13	##정	O	O	O, I-TM, I-PS, I-TR, B-TM
-14	##력	O	O	O, I-TM, I-PS, B-TM, I-TR
-15	##을	O	O	O, I-TM, B-CV, B-TM, B-LC
-16	높이	O	O	O, B-CV, B-TM, B-LC, B-PS
-17	##는	O	O	O, B-LC, B-PS, B-CV, B-OG
-18	게	O	O	O, B-LC, B-PS, B-OG, B-CV
-19	시급	O	O	O, B-CV, B-TM, B-LC, B-PS
-20	##한	O	O	O, B-LC, B-PS, B-TM, B-CV
-21	과제	O	O	O, B-CV, B-TM, B-LC, B-PS
-22	##로	O	O	O, B-CV, B-PS, B-QT, B-TM
-23	떠올랐	O	O	O, B-TM, B-QT, B-LC, B-PS
-24	##기	O	O	O, B-PS, I-QT, B-TM, I-TM
-25	때문	O	O	O, B-CV, B-TM, B-PS, B-QT
-26	##이다	O	O	O, B-CV, B-TM, I-CV, B-QT
-27	.	O	O	O, B-LC, B-TM, B-PS, B-CV
-28	[SEP]	O	O	O, B-TM, B-CV, B-LC, I-TM
+	text	label	preds
+0	[CLS]	O	O
+1	김진	B-PS	B-PS
+2	##수	I-PS	I-PS
+3	##는	O	O
+4	지난	B-DT	B-DT
+5	11	I-DT	I-DT
+6	##일	I-DT	I-DT
+7	수원	B-OG	B-OG
+8	삼성	I-OG	I-OG
+9	원정	B-EV	B-EV
+10	경기	I-EV	I-EV
+11	##에	O	O
+12	##서	O	O
+13	동료	B-CV	B-CV
+14	##의	O	O
+15	골	B-TM	B-TM
+16	##을	O	O
+17	어시스트	B-TM	O
+18	##했	O	O
+19	##고	O	O
+20	,	O	O
+21	앞서	O	O
+22	개막전	B-EV	B-EV
+23	(	O	O
+24	4	B-DT	B-DT
+25	##일	I-DT	I-DT
+26	)	O	O
+27	홈경기	B-EV	B-EV
+28	##에	O	O
+29	##선	O	O
+30	전남	B-OG	B-OG
+31	드래곤	I-OG	I-OG
+32	##즈	I-OG	I-OG
+33	골문	O	O
+34	##에	O	O
+35	직접	O	O
+36	프리킥	B-TM	B-TM
+37	##을	O	O
+38	꽂	O	O
+39	##아	O	O
+40	##넣	O	O
+41	##었	O	O
+42	##다	O	O
+43	.	O	O
+44	[SEP]	O	O

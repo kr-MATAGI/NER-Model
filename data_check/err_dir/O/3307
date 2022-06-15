@@ -1,36 +1,27 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-QT
-1	롯데	B-OG	B-OG	B-OG, B-LC, O, B-AF, I-OG
-2	##는	O	O	O, I-OG, B-CV, I-CV, I-AF
-3	이대호	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-AF
-4	##의	O	O	O, I-PS, B-CV, I-OG, I-AF
-5	홈런	B-TM	B-TM	B-TM, O, B-AF, B-QT, B-CV
-6	##포	I-TM	I-TM	I-TM, O, I-AF, I-QT, B-TM
-7	##가	O	O	O, I-TM, I-AF, I-QT, I-OG
-8	침묵	O	O	O, B-TM, B-CV, B-LC, I-TM
-9	##하	O	O	O, B-LC, B-CV, B-PS, B-OG
-10	##는	O	O	O, B-CV, B-LC, B-TM, B-PS
-11	것	O	O	O, B-CV, B-LC, B-TM, B-PS
-12	##을	O	O	O, B-CV, B-TM, B-LC, B-PS
-13	비롯	O	O	O, B-CV, B-TM, B-LC, B-OG
-14	##해	O	O	O, B-PS, B-LC, B-OG, B-CV
-15	김주	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-16	##찬	I-PS	I-PS	I-PS, O, I-OG, B-PS, I-LC
-17	·	O	O	O, I-PS, I-OG, I-AF, I-QT
-18	조성	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-19	##환	I-PS	I-PS	I-PS, O, I-OG, B-PS, I-LC
-20	·	O	O	O, I-PS, I-OG, I-AF, B-CV
-21	홍성흔	B-PS	B-PS	B-PS, B-OG, O, I-PS, B-LC
-22	·	O	O	O, I-PS, I-OG, I-AF, B-CV
-23	강민호	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-AF
-24	등	O	O	O, I-PS, B-CV, I-OG, I-AF
-25	중심	O	B-CV	B-CV, O, B-TM, B-AF, B-AM
-26	##타자	B-CV	I-CV	I-CV, O, B-CV, I-TM, I-QT
-27	##들이	O	O	O, I-CV, B-CV, I-QT, I-OG
-28	동반	O	O	O, B-TM, B-CV, B-QT, B-LC
-29	부진	O	O	O, B-TM, B-CV, B-LC, B-OG
-30	##에	O	O	O, B-CV, I-CV, I-TM, I-OG
-31	빠졌	O	O	O, B-CV, B-OG, B-LC, B-TM
-32	##다	O	O	O, B-CV, B-TM, I-OG, B-OG
-33	.	O	O	O, B-CV, B-LC, B-PS, B-OG
-34	[SEP]	O	O	O, B-CV, B-LC, B-TM, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	레이	B-PS	B-PS
+2	##옌	I-PS	I-PS
+3	##은	O	O
+4	유럽	B-OG	B-OG
+5	##연합	I-OG	I-OG
+6	(	O	I-OG
+7	EU	B-OG	I-OG
+8	)	O	I-OG
+9	위원회	O	I-OG
+10	##에	O	O
+11	##서	O	O
+12	일	O	O
+13	##했	O	O
+14	##던	O	O
+15	부친	B-CV	B-CV
+16	때문	O	O
+17	##에	O	O
+18	벨기에	B-LC	B-LC
+19	브뤼셀	B-LC	B-LC
+20	##에	O	O
+21	##서	O	O
+22	태어났	O	O
+23	##다	O	O
+24	.	O	O
+25	[SEP]	O	O

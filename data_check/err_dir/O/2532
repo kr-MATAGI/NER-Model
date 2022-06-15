@@ -1,40 +1,22 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	부상	O	O	O, B-CV, B-TM, B-LC, B-PS
-2	##을	O	O	O, B-CV, B-PS, B-LC, I-EV
-3	딛	O	O	O, B-PS, B-CV, B-LC, B-TM
-4	##고	O	O	O, B-PS, B-LC, I-PS, B-CV
-5	일어	O	O	O, B-LC, B-CV, B-TM, B-EV
-6	##선	O	O	O, B-PS, I-PS, I-LC, B-LC
-7	‘	O	O	O, B-LC, B-CV, B-PS, I-PS
-8	빛	O	B-PS	B-PS, O, B-LC, I-PS, B-OG
-9	##고	O	I-PS	I-PS, O, B-PS, I-LC, I-AF
-10	##을	O	I-PS	I-PS, O, I-LC, B-PS, I-AF
-11	전사	B-CV	I-PS	I-PS, O, B-CV, B-PS, I-LC
-12	’	O	O	O, I-PS, I-CV, B-PS, B-CV
-13	이승기	B-PS	B-PS	B-PS, O, I-PS, B-OG, B-LC
-14	(	O	O	O, I-PS, B-CV, I-OG, I-AF
-15	23	B-QT	B-QT	B-QT, O, B-DT, I-QT, B-TM
-16	·	O	O	O, I-QT, I-DT, I-OG, B-CV
-17	광주	B-OG	B-OG	B-OG, B-LC, O, B-AF, B-PS
-18	FC	I-OG	I-OG	I-OG, O, I-LC, B-OG, I-AF
-19	·	O	O	O, I-OG, I-AF, I-CV, I-QT
-20	사진	O	O	O, B-CV, B-TM, B-QT, B-LC
-21	)	O	O	O, B-CV, I-CV, B-LC, B-PS
-22	가	O	O	O, B-PS, B-CV, B-LC, B-OG
-23	일생	O	O	O, B-QT, B-PS, B-LC, B-DT
-24	한	B-QT	B-QT	B-QT, O, I-QT, B-TM, B-PS
-25	번	I-QT	I-QT	I-QT, O, I-LC, I-PS, I-TM
-26	##의	O	O	O, I-QT, B-PS, I-EV, I-PS
-27	기회	O	O	O, B-CV, B-PS, B-QT, B-LC
-28	##만	O	O	O, B-PS, B-QT, I-QT, B-LC
-29	주어지	O	O	O, B-CV, B-QT, B-PS, B-LC
-30	##는	O	O	O, B-CV, B-PS, B-QT, B-LC
-31	신인	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-EV
-32	##상	I-CV	I-CV	I-CV, O, B-CV, I-TM, I-EV
-33	##을	O	O	O, I-CV, I-EV, B-CV, I-AF
-34	받	O	O	O, B-CV, B-LC, B-PS, B-TM
-35	##았	O	O	O, B-CV, B-PS, B-LC, I-CV
-36	##다	O	O	O, B-CV, B-LC, I-CV, B-PS
-37	.	O	O	O, B-CV, B-LC, B-PS, B-OG
-38	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	어	O	O
+2	그래	O	O
+3	##가지	O	O
+4	##고	O	O
+5	그게	O	O
+6	그	O	O
+7	자기	O	O
+8	전	O	B-DT
+9	날	O	I-DT
+10	##에	O	O
+11	그거	O	O
+12	약간	O	O
+13	화장	O	O
+14	##솜	O	O
+15	##처럼	O	O
+16	돼	O	O
+17	있	O	O
+18	##어	O	O
+19	.	O	O
+20	[SEP]	O	O

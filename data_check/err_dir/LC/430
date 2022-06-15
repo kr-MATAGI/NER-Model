@@ -1,62 +1,26 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-EV, I-OG
-1	김	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
-2	##씨	O	O	O, I-PS, B-CV, I-OG, I-EV
-3	##는	O	O	O, B-CV, B-LC, B-TM, B-PS
-4	29	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-5	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-6	박	B-PS	B-PS	B-PS, O, I-PS, B-OG, B-LC
-7	대통령	B-CV	B-CV	B-CV, O, I-PS, I-CV, I-AF
-8	##과	O	O	O, I-CV, B-CV, I-EV, I-AF
-9	편지	O	O	O, B-TM, B-CV, B-EV, B-LC
-10	##를	O	O	O, B-CV, B-PS, I-EV, B-LC
-11	주고받	O	O	O, B-CV, B-LC, B-TM, B-PS
-12	##은	O	O	O, B-LC, B-CV, B-PS, B-OG
-13	일화	O	O	O, B-CV, B-LC, B-TM, B-FD
-14	##를	O	O	O, B-CV, B-PS, B-LC, B-OG
-15	포함	O	O	O, B-LC, B-CV, B-TM, B-OG
-16	,	O	O	O, B-LC, B-PS, B-OG, B-CV
-17	언론인	O	B-CV	B-CV, O, I-CV, B-FD, B-OG
-18	##으로	O	O	O, I-CV, B-CV, B-PS, I-OG
-19	,	O	O	O, B-CV, B-LC, B-PS, B-OG
-20	또	O	O	O, B-LC, B-PS, B-CV, B-OG
-21	한국	B-LC	B-OG	B-OG, B-LC, B-EV, O, B-AF
-22	##기	B-OG	I-OG	I-OG, O, I-LC, I-EV, B-OG
-23	##독	I-OG	I-OG	I-OG, O, I-LC, I-EV, I-CV
-24	##교	I-OG	I-OG	I-OG, O, I-LC, I-EV, I-FD
-25	100	B-DT	B-DT	B-DT, B-QT, I-DT, O, I-OG
-26	##주	I-DT	I-DT	I-DT, I-QT, B-DT, O, I-EV
-27	##년	I-DT	I-DT	I-DT, O, I-QT, B-DT, I-EV
-28	기념사업	O	O	O, I-DT, I-TM, B-TM, I-QT
-29	##의	O	O	O, B-PS, B-LC, I-TM, B-CV
-30	핵심	O	O	O, B-CV, B-PS, B-LC, B-TM
-31	##으로	O	O	O, B-PS, B-CV, B-LC, I-CV
-32	살아온	O	O	O, B-LC, B-PS, B-QT, B-CV
-33	일생	O	O	O, B-CV, B-LC, B-PS, B-TM
-34	##을	O	O	O, B-CV, B-PS, B-LC, B-TM
-35	돌아보	O	O	O, B-CV, B-TM, B-LC, B-FD
-36	##는	O	O	O, B-CV, B-TM, B-LC, B-PS
-37	회고록	O	O	O, B-FD, B-TM, B-CV, B-AF
-38	'	O	O	O, I-CV, B-CV, B-LC, I-FD
-39	미안	B-AF	B-AF	B-AF, O, B-CV, I-AF, B-PS
-40	##합니다	I-AF	I-AF	I-AF, O, B-AF, I-CV, I-TM
-41	,	I-AF	I-AF	I-AF, O, B-AF, I-TM, I-CV
-42	고맙	I-AF	I-AF	I-AF, O, B-AF, I-CV, I-TM
-43	##습	I-AF	I-AF	I-AF, O, I-CV, I-TM, B-AF
-44	##니다	I-AF	I-AF	I-AF, O, I-CV, I-TM, I-PS
-45	'	O	O	O, I-AF, I-CV, B-CV, I-TM
-46	(	O	O	O, B-CV, B-LC, B-OG, I-AF
-47	홍성	B-OG	B-OG	B-OG, O, B-AF, B-LC, B-PS
-48	##사	I-OG	I-OG	I-OG, O, I-AF, I-LC, I-TM
-49	)	O	O	O, I-OG, I-AF, I-CV, B-CV
-50	를	O	O	O, B-CV, B-LC, B-TM, B-OG
-51	펴내	O	O	O, B-CV, B-LC, B-OG, B-TM
-52	##고	O	O	O, B-LC, B-CV, B-PS, I-EV
-53	출판	O	O	O, B-EV, B-CV, B-LC, B-TM
-54	##기념	O	O	O, I-EV, B-EV, I-LC, B-CV
-55	##회	O	O	O, I-EV, B-EV, B-LC, B-CV
-56	##를	O	O	O, B-CV, I-EV, B-LC, B-OG
-57	가졌	O	O	O, B-CV, B-LC, B-TM, B-OG
-58	##다	O	O	O, B-CV, B-LC, B-TM, B-PS
-59	.	O	O	O, B-LC, B-CV, B-PS, B-TM
-60	[SEP]	O	O	O, B-CV, B-LC, B-TM, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	22	B-DT	B-DT
+2	##일	I-DT	I-DT
+3	오후	B-TI	B-TI
+4	7	I-TI	I-TI
+5	##시	I-TI	I-TI
+6	예술	B-AF	B-AF
+7	##의	I-AF	I-AF
+8	##전	I-AF	I-AF
+9	##당	I-AF	I-AF
+10	콘서트홀	O	O
+11	##에	O	O
+12	##서	O	O
+13	열리	O	O
+14	##는	O	O
+15	‘	O	O
+16	아시아	B-LC	B-EV
+17	그랜드	O	I-EV
+18	피아노	B-AF	I-EV
+19	콘서트	O	I-EV
+20	’	O	O
+21	에서	O	O
+22	##다	O	O
+23	.	O	O
+24	[SEP]	O	O

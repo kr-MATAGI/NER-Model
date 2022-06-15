@@ -1,68 +1,27 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	제일	B-OG	B-OG	B-OG, B-AF, O, B-LC, B-PS
-2	##2	I-OG	I-OG	I-OG, O, I-AF, I-LC, B-OG
-3	##저축	I-OG	I-OG	I-OG, O, I-AF, I-LC, I-EV
-4	##은행	I-OG	I-OG	I-OG, O, I-AF, I-LC, I-EV
-5	##의	O	O	O, I-OG, I-AF, B-CV, B-PS
-6	후	B-CV	B-CV	B-CV, O, B-AF, B-TM, B-MT
-7	##순위	I-CV	I-CV	I-CV, O, I-AF, I-TM, B-CV
-8	##채	I-CV	I-CV	I-CV, O, I-AF, I-TM, I-OG
-9	##를	O	O	O, I-CV, I-AF, I-TM, I-OG
-10	가지	O	O	O, B-CV, B-QT, B-PS, B-TM
-11	##고	O	O	O, B-PS, B-QT, I-QT, B-CV
-12	있	O	O	O, B-PS, B-CV, B-QT, B-LC
-13	##는	O	O	O, B-PS, B-QT, B-CV, B-LC
-14	한	O	O	O, B-QT, B-PS, B-LC, B-OG
-15	투자자	B-CV	B-CV	B-CV, O, I-CV, I-QT, B-TM
-16	##는	O	O	O, I-CV, I-QT, B-CV, I-EV
-17	“	O	O	O, B-CV, B-LC, B-TM, B-OG
-18	제일	B-OG	B-OG	B-OG, B-AF, O, B-LC, B-EV
-19	##저축	I-OG	I-OG	I-OG, I-AF, O, I-LC, I-EV
-20	##은행	I-OG	I-OG	I-OG, I-AF, O, I-LC, I-EV
-21	장충	I-OG	B-LC	B-LC, B-AF, I-OG, O, B-OG
-22	##지	I-OG	I-OG	I-OG, O, I-LC, I-AF, I-QT
-23	##점	I-OG	I-OG	I-OG, O, I-LC, I-AF, I-QT
-24	##에	O	O	O, I-OG, I-AF, I-QT, I-LC
-25	만기	O	O	O, B-CV, B-AF, B-TM, I-CV
-26	##가	O	O	O, B-PS, I-CV, I-AF, B-CV
-27	된	O	O	O, B-CV, B-PS, B-LC, B-TM
-28	예금	O	O	O, B-CV, I-CV, B-AF, B-TM
-29	##을	O	O	O, I-CV, B-PS, B-CV, I-AF
-30	찾	O	O	O, B-CV, B-TM, B-PS, B-LC
-31	##으	O	O	O, B-PS, B-LC, B-CV, B-TM
-32	##러	O	O	O, B-LC, B-PS, B-TM, B-CV
-33	갔	O	O	O, B-CV, B-TM, B-LC, B-OG
-34	##다가	O	O	O, B-CV, B-TM, B-LC, B-PS
-35	창구	O	O	O, B-CV, B-TM, B-LC, B-AF
-36	직원	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-OG
-37	##이	O	O	O, I-CV, B-PS, B-CV, I-AF
-38	후	B-CV	B-CV	B-CV, O, B-AF, B-TM, B-PT
-39	##순위	I-CV	I-CV	I-CV, O, I-AF, I-TM, B-CV
-40	##채	I-CV	I-CV	I-CV, O, I-AF, I-TM, I-OG
-41	##를	O	O	O, I-CV, I-AF, I-TM, I-OG
-42	권유	O	O	O, B-CV, B-TM, B-LC, B-PS
-43	##해	O	O	O, B-PS, B-LC, I-AF, B-CV
-44	가입	O	O	O, B-CV, B-TM, B-AF, B-LC
-45	##했	O	O	O, B-PS, B-CV, B-LC, B-OG
-46	##는데	O	O	O, B-CV, B-LC, B-PS, B-TM
-47	나중	O	O	O, B-CV, B-PS, B-TM, B-LC
-48	##에	O	O	O, B-PS, B-CV, B-LC, I-AF
-49	알고	O	O	O, B-CV, B-PS, B-TM, B-LC
-50	보	O	O	O, B-CV, B-PS, B-LC, B-TM
-51	##니	O	O	O, B-PS, B-LC, B-CV, B-OG
-52	제일	B-OG	B-OG	B-OG, B-AF, O, B-LC, B-PS
-53	##2	I-OG	I-OG	I-OG, O, I-AF, I-LC, I-EV
-54	##저축	I-OG	I-OG	I-OG, O, I-AF, I-LC, I-EV
-55	##은행	I-OG	I-OG	I-OG, O, I-AF, I-LC, I-EV
-56	채권	O	O	O, B-CV, I-CV, I-OG, I-AF
-57	##이	O	O	O, I-CV, I-AF, B-PS, B-CV
-58	##었	O	O	O, B-CV, I-AF, B-PS, B-LC
-59	##다	O	O	O, B-CV, I-AF, B-TM, B-LC
-60	”	O	O	O, B-CV, B-TM, B-LC, B-QT
-61	고	O	O	O, B-CV, B-TM, B-QT, B-LC
-62	말	O	O	O, B-CV, B-TM, I-QT, I-CV
-63	##했	O	O	O, B-CV, B-PS, B-LC, I-CV
-64	##다	O	O	O, B-CV, B-TM, B-LC, B-QT
-65	.	O	O	O, B-LC, B-PS, B-CV, B-OG
-66	[SEP]	O	O	O, B-CV, B-LC, B-PS, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	1	B-QT	B-QT
+2	##호	I-QT	I-QT
+3	##점	I-QT	I-QT
+4	##의	O	O
+5	위치	O	O
+6	##를	O	O
+7	상하이	B-LC	B-LC
+8	패션	O	O
+9	중심	O	O
+10	##의	O	O
+11	팍	B-OG	B-AF
+12	##슨	I-OG	I-AF
+13	##백화점	I-OG	I-AF
+14	##으로	O	O
+15	정한	O	O
+16	것	O	O
+17	##도	O	O
+18	프리미엄	O	O
+19	##전	O	O
+20	##략	O	O
+21	##이	O	O
+22	##었	O	O
+23	##다	O	O
+24	.	O	O
+25	[SEP]	O	O

@@ -1,12 +1,33 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-AF
-1	오바마	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-2	-	O	O	O, I-PS, I-EV, B-CV, B-EV
-3	시진핑	B-PS	B-PS	B-PS, I-PS, O, B-OG, B-LC
-4	7	B-DT	B-DT	B-DT, I-DT, O, I-PS, B-EV
-5	##일	I-DT	I-DT	I-DT, O, B-DT, I-PS, I-QT
-6	첫	O	O	O, B-EV, B-QT, I-DT, B-LC
-7	정상	B-EV	O	O, B-EV, I-EV, B-CV, B-LC
-8	##회	I-EV	O	O, I-EV, B-EV, I-OG, I-LC
-9	##담	I-EV	O	O, I-EV, I-OG, B-EV, I-LC
-10	[SEP]	O	O	O, I-EV, I-OG, B-EV, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	아메리칸	B-EV	B-OG
+2	##리그	I-EV	I-OG
+3	챔피언십	I-EV	B-EV
+4	##시	I-EV	I-EV
+5	##리	I-EV	I-EV
+6	##즈	I-EV	I-EV
+7	1	B-EV	B-EV
+8	##차	I-EV	I-EV
+9	##전	I-EV	I-EV
+10	##에	O	O
+11	##선	O	O
+12	디트로이트	B-OG	B-OG
+13	타이거	I-OG	I-OG
+14	##스	I-OG	I-OG
+15	##가	O	O
+16	홈	O	O
+17	##팀	O	O
+18	보스턴	B-OG	B-OG
+19	레드	I-OG	I-OG
+20	##삭	I-OG	I-OG
+21	##스	I-OG	I-OG
+22	##를	O	O
+23	1	B-QT	B-QT
+24	##대	I-QT	I-QT
+25	##0	I-QT	I-QT
+26	##으로	O	O
+27	잡아	O	O
+28	##냈	O	O
+29	##다	O	O
+30	.	O	O
+31	[SEP]	O	O

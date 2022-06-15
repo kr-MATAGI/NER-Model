@@ -1,67 +1,30 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	특혜	O	O	O, B-PS, B-TR, B-CV, B-LC
-2	##성	O	O	O, B-PS, I-PS, I-TR, I-CV
-3	형	O	O	O, B-CV, B-TM, B-EV, B-TR
-4	##집행	O	O	O, I-CV, I-TM, I-TR, I-EV
-5	##정지	O	O	O, I-CV, I-TM, I-EV, I-TR
-6	##가	O	O	O, B-PS, I-CV, I-EV, I-OG
-7	아니	O	O	O, B-PS, B-CV, B-LC, B-OG
-8	##냐	O	O	O, B-PS, I-PS, I-QT, B-CV
-9	##는	O	O	O, B-CV, B-PS, B-TM, I-CV
-10	지적	O	O	O, B-CV, B-PS, B-OG, B-TM
-11	##에	O	O	O, B-CV, I-CV, I-EV, B-PS
-12	대해	O	O	O, B-OG, B-CV, B-LC, B-PS
-13	전	B-PS	B-PS	B-PS, O, I-PS, B-OG, B-LC
-14	##씨	O	O	O, I-PS, B-CV, I-AF, I-EV
-15	##의	O	O	O, B-CV, B-LC, B-TM, B-PS
-16	형	O	O	O, B-CV, B-TM, B-TR, B-EV
-17	##집행	O	O	O, I-CV, I-TM, I-TR, B-CV
-18	##정지	O	O	O, I-CV, I-TM, I-TR, I-EV
-19	업무	O	O	O, I-CV, B-CV, I-TM, B-LC
-20	##를	O	O	O, B-CV, B-PS, B-LC, B-OG
-21	관할	O	O	O, B-OG, B-CV, B-LC, B-TM
-22	##하	O	O	O, B-OG, B-PS, B-CV, B-LC
-23	##는	O	O	O, B-OG, B-CV, B-PS, B-LC
-24	수원	B-OG	B-OG	B-OG, B-LC, O, I-OG, B-AF
-25	##지	I-OG	I-OG	I-OG, B-OG, O, I-LC, I-AF
-26	##검	I-OG	I-OG	I-OG, O, I-LC, B-OG, I-AF
-27	성남	B-OG	B-OG	B-OG, I-OG, O, B-LC, B-AF
-28	##지	I-OG	I-OG	I-OG, O, B-OG, I-CV, I-LC
-29	##청	I-OG	I-OG	I-OG, O, I-CV, I-AF, I-LC
-30	##은	O	O	O, I-OG, B-CV, I-EV, I-CV
-31	전	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-32	##씨	O	O	O, I-PS, B-CV, I-AF, I-OG
-33	##가	O	O	O, B-PS, B-CV, B-LC, B-TM
-34	실제로	O	O	O, B-PS, B-CV, B-TM, B-LC
-35	아픈	O	O	O, B-TM, B-CV, B-LC, B-PS
-36	##지	O	O	O, B-LC, B-PS, B-TM, B-CV
-37	수시로	O	O	O, B-LC, B-TM, B-PS, B-CV
-38	임	O	O	O, B-TR, B-CV, B-TM, B-EV
-39	##검	O	O	O, I-TR, I-TM, I-CV, I-OG
-40	(	O	O	O, I-CV, B-CV, I-OG, I-EV
-41	질환	O	O	O, B-TM, B-CV, B-LC, B-PS
-42	##을	O	O	O, B-PS, B-CV, B-LC, B-TM
-43	앓	O	O	O, B-CV, B-PS, B-TM, B-LC
-44	##는	O	O	O, B-PS, B-CV, B-LC, B-TM
-45	형	O	B-CV	B-CV, O, I-CV, B-OG, B-TM
-46	##집행	O	I-CV	I-CV, O, B-CV, I-OG, I-TM
-47	##정지	O	I-CV	I-CV, O, B-CV, I-OG, I-TM
-48	##자	O	I-CV	I-CV, O, B-CV, I-OG, I-TM
-49	##에	O	O	O, I-CV, B-CV, I-OG, I-AF
-50	대한	O	O	O, B-LC, B-OG, B-TM, B-CV
-51	검사	O	O	O, B-CV, B-TR, B-TM, B-FD
-52	)	O	O	O, I-CV, B-CV, I-EV, I-OG
-53	을	O	O	O, B-CV, B-PS, B-LC, B-OG
-54	한	O	O	O, B-CV, B-PS, B-OG, B-LC
-55	결과	O	O	O, B-CV, B-PS, B-LC, I-EV
-56	이	O	O	O, B-PS, B-CV, B-OG, B-LC
-57	##처럼	O	O	O, B-CV, B-PS, B-LC, B-TM
-58	결정	O	O	O, B-CV, B-PS, B-OG, B-LC
-59	##했	O	O	O, B-PS, B-OG, B-CV, B-LC
-60	##다고	O	O	O, B-CV, B-PS, B-OG, B-LC
-61	해명	O	O	O, B-CV, B-TM, B-OG, B-LC
-62	##했	O	O	O, B-CV, B-PS, I-CV, B-OG
-63	##다	O	O	O, B-CV, B-PS, I-CV, B-TM
-64	.	O	O	O, B-CV, B-LC, B-PS, B-OG
-65	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	나	O	O
+2	##한	O	O
+3	##테	O	O
+4	앞	O	B-TM
+5	##에	O	O
+6	타	O	O
+7	##라는	O	O
+8	거야	O	O
+9	그래서	O	O
+10	아니	O	O
+11	##요	O	O
+12	그냥	O	O
+13	사모님	B-CV	B-CV
+14	##이	O	O
+15	앞	O	B-TM
+16	##에	O	O
+17	타	O	O
+18	##시고	O	O
+19	저	O	O
+20	##는	O	O
+21	그냥	O	O
+22	뒤	O	B-TM
+23	##에	O	O
+24	타	O	O
+25	##겠다	O	O
+26	그랬	O	O
+27	##지	O	O
+28	[SEP]	O	O

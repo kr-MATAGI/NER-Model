@@ -1,28 +1,8 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-EV, I-CV
-1	정경	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-AF
-2	##화	I-PS	I-PS	I-PS, O, I-OG, I-LC, I-AF
-3	##는	O	O	O, I-PS, B-CV, I-OG, I-AF
-4	11	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-AF
-5	##월	I-DT	I-DT	I-DT, O, B-DT, I-PS, I-AF
-6	##19	I-DT	I-DT	I-DT, O, B-DT, I-PS, I-AF
-7	##일	I-DT	I-DT	I-DT, O, B-DT, I-PS, I-QT
-8	서울	B-LC	B-LC	B-LC, O, B-OG, I-DT, I-LC
-9	서초동	B-LC	B-LC	B-LC, O, I-LC, B-AF, B-OG
-10	예술	B-AF	B-AF	B-AF, B-LC, O, I-AF, B-PS
-11	##의	I-AF	I-AF	I-AF, I-LC, O, B-AF, I-PS
-12	##전	I-AF	I-AF	I-AF, O, I-LC, I-OG, I-PS
-13	##당	I-AF	I-AF	I-AF, O, I-LC, I-OG, I-PS
-14	콘서트홀	O	O	O, I-AF, B-AF, B-FD, B-QT
-15	##에서	O	O	O, I-AF, B-CV, I-EV, I-QT
-16	이번	O	O	O, B-CV, B-TM, B-OG, B-PS
-17	음반	O	O	O, B-CV, B-PS, B-AF, B-TM
-18	##에	O	O	O, B-CV, I-AF, B-OG, I-OG
-19	실린	O	O	O, B-CV, B-PS, B-OG, B-TM
-20	프로그램	O	O	O, B-CV, B-FD, B-PS, B-AF
-21	##으로	O	O	O, B-CV, B-PS, B-LC, B-OG
-22	관객	O	B-CV	B-CV, O, B-OG, I-CV, B-FD
-23	##과	O	O	O, I-CV, B-CV, I-EV, I-OG
-24	만난다	O	O	O, B-CV, B-TM, B-EV, B-OG
-25	.	O	O	O, B-LC, B-AF, B-PS, B-OG
-26	[SEP]	O	O	O, B-CV, B-AF, B-LC, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	이	O	O
+2	~	O	O
+3	아동	B-CV	B-CV
+4	학대	I-CV	I-CV
+5	사건	O	I-CV
+6	[SEP]	O	O

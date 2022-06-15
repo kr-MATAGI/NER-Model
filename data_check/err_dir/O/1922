@@ -1,59 +1,16 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-EV, I-CV, I-OG
-1	A	O	O	O, B-FD, B-LC, B-CV, B-TM
-2	##화	O	O	O, B-FD, B-CV, B-AF, I-FD
-3	##장	O	O	O, I-CV, I-FD, I-OG, I-AF
-4	##품	O	O	O, I-CV, I-OG, I-FD, I-AF
-5	브랜드	O	O	O, I-OG, I-AF, I-CV, B-CV
-6	관계자	B-CV	B-CV	B-CV, O, I-CV, B-FD, B-TM
-7	##는	O	O	O, I-CV, I-QT, I-EV, I-OG
-8	""""	O	O	O, B-CV, B-LC, B-TM, B-QT
-9	한국	O	B-LC	B-LC, O, B-OG, B-AF, B-PS
-10	백화점	O	O	O, I-LC, I-AF, I-OG, B-AF
-11	##의	O	O	O, I-AF, B-CV, I-OG, B-AF
-12	화장품	O	O	O, B-CV, B-AF, B-FD, I-AF
-13	매장	O	O	O, B-CV, I-AF, B-AF, I-OG
-14	##에서	O	O	O, B-CV, B-PS, B-LC, B-AF
-15	##는	O	O	O, B-CV, B-TM, B-LC, B-PS
-16	샘플	O	O	O, B-CV, B-TM, B-AF, B-LC
-17	##이나	O	O	O, B-TM, B-CV, B-LC, B-AF
-18	파우	O	O	O, B-CV, B-TM, B-AF, B-LC
-19	##치	O	O	O, I-CV, I-AF, I-TM, I-OG
-20	,	O	O	O, B-CV, B-TM, B-LC, B-PS
-21	핸드백	O	O	O, B-CV, B-AF, B-TM, B-FD
-22	등	O	O	O, I-CV, B-CV, B-TM, B-PS
-23	##을	O	O	O, B-CV, B-LC, B-PS, B-TM
-24	사은품	O	O	O, B-CV, B-TM, B-QT, B-AF
-25	##으로	O	O	O, B-PS, B-CV, B-LC, B-TM
-26	주	O	O	O, B-CV, B-PS, B-LC, B-OG
-27	##는	O	O	O, B-CV, B-PS, B-LC, B-TM
-28	게	O	O	O, B-PS, B-LC, B-CV, B-OG
-29	관행	O	O	O, B-CV, B-FD, B-QT, B-TM
-30	##으로	O	O	O, B-PS, B-CV, I-CV, B-LC
-31	굳어졌	O	O	O, B-CV, B-LC, B-QT, B-TM
-32	##다	O	O	O, B-CV, I-CV, I-QT, B-PS
-33	""""	O	O	O, B-CV, B-TM, B-LC, B-FD
-34	며	O	O	O, B-LC, B-CV, B-TM, B-OG
-35	""""	O	O	O, B-CV, B-LC, B-TM, B-QT
-36	수지	O	O	O, B-CV, B-LC, B-PS, B-TM
-37	##를	O	O	O, B-PS, B-CV, B-LC, B-OG
-38	맞추	O	O	O, B-LC, B-CV, B-PS, B-OG
-39	##려면	O	O	O, B-LC, B-CV, B-PS, B-TM
-40	이런	O	O	O, B-LC, B-TM, B-CV, B-QT
-41	홍보	O	O	O, B-CV, B-TM, B-LC, B-AF
-42	##비용	O	O	O, I-CV, B-CV, B-LC, I-LC
-43	##을	O	O	O, B-CV, B-LC, B-PS, B-TM
-44	판매	O	O	O, B-CV, B-TM, B-LC, B-AF
-45	##가	O	O	O, B-CV, I-CV, B-TM, B-QT
-46	##격	O	O	O, B-CV, B-TM, B-LC, B-QT
-47	##에	O	O	O, B-CV, B-TM, B-LC, B-OG
-48	포함	O	O	O, B-CV, B-TM, B-LC, B-QT
-49	##하	O	O	O, B-PS, B-LC, B-CV, B-OG
-50	##게	O	O	O, B-CV, B-TM, B-LC, B-PS
-51	된다	O	O	O, B-CV, B-TM, B-LC, B-QT
-52	""""	O	O	O, B-CV, B-TM, B-LC, B-QT
-53	고	O	O	O, B-QT, B-TM, B-CV, B-LC
-54	했	O	O	O, B-QT, B-CV, B-TM, B-LC
-55	##다	O	O	O, B-CV, I-QT, B-TM, B-QT
-56	.	O	O	O, B-LC, B-CV, B-PS, B-FD
-57	[SEP]	O	O	O, B-CV, B-LC, B-FD, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	차	O	B-AF
+2	차	O	B-AF
+3	타고	O	O
+4	가	O	O
+5	##서	O	O
+6	콘	O	O
+7	##도	O	O
+8	##가	O	O
+9	##서	O	O
+10	놀	O	O
+11	##면	O	O
+12	되	O	O
+13	##지	O	O
+14	[SEP]	O	O

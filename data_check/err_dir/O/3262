@@ -1,20 +1,22 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	나	O	O	O, B-PS, B-CV, B-QT, B-OG
-2	?	O	O	O, B-PS, B-CV, B-LC, B-OG
-3	몰	O	O	O, B-CV, B-OG, B-PS, B-LC
-4	몰라요	O	O	O, B-PS, B-CV, B-OG, B-LC
-5	어쨌든	O	O	O, B-PS, B-CV, B-OG, B-LC
-6	반	O	O	O, B-OG, B-CV, B-QT, B-PS
-7	##에서	O	O	O, I-OG, B-PS, I-CV, I-QT
-8	##도	O	O	O, B-PS, B-CV, B-OG, B-LC
-9	어쨌든	O	O	O, B-PS, B-CV, B-OG, B-QT
-10	십	O	B-QT	B-QT, O, I-QT, B-OG, B-DT
-11	등	O	I-QT	I-QT, O, I-LC, I-OG, I-EV
-12	안	O	O	O, I-QT, I-LC, I-OG, I-TM
-13	##엔	O	O	O, I-QT, I-OG, B-CV, I-CV
-14	항상	O	O	O, B-CV, B-QT, B-PS, B-OG
-15	들	O	O	O, B-CV, B-OG, B-AF, B-PS
-16	##었	O	O	O, B-CV, I-OG, I-AF, B-OG
-17	##어요	O	O	O, B-CV, B-OG, I-OG, I-CV
-18	[SEP]	O	O	O, B-CV, B-PS, B-OG, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	그렇	O	O
+2	##다면	O	O
+3	박테리아	O	B-AM
+4	##가	O	O
+5	입	B-AM	B-AM
+6	안	O	O
+7	##에	O	O
+8	##서	O	O
+9	가장	O	O
+10	많이	O	O
+11	서식	O	O
+12	##하	O	O
+13	##는	O	O
+14	곳	O	O
+15	##이	O	O
+16	어디	O	O
+17	##일	O	O
+18	##까요	O	O
+19	?	O	O
+20	[SEP]	O	O

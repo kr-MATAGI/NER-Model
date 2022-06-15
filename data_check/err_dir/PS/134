@@ -1,37 +1,73 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	인간	O	O	O, B-PS, B-CV, B-AM, B-LC
-2	##에	O	O	O, B-PS, I-PS, B-CV, B-AM
-3	대한	O	O	O, B-PS, B-LC, I-PS, B-OG
-4	이해	O	O	O, B-PS, I-PS, B-CV, B-LC
-5	##가	O	O	O, B-PS, I-PS, B-LC, B-OG
-6	깊	O	O	O, B-PS, I-PS, B-CV, B-LC
-7	##었	O	O	O, B-PS, I-PS, B-CV, B-OG
-8	##던	O	O	O, B-PS, I-PS, B-CV, B-LC
-9	이	B-PS	O	O, B-PS, I-PS, B-TR, B-QT
-10	평론가	B-CV	B-CV	B-CV, O, I-CV, I-PS, B-FD
-11	##도	O	O	O, I-CV, B-PS, I-PS, I-EV
-12	정치인	B-CV	B-CV	B-CV, O, I-CV, B-FD, B-OG
-13	##은	O	O	O, I-CV, B-PS, B-CV, I-EV
-14	자신	O	O	O, B-PS, B-CV, B-LC, I-CV
-15	##이	O	O	O, B-PS, B-CV, I-PS, B-LC
-16	무엇	O	O	O, B-PS, I-PS, B-CV, B-LC
-17	##을	O	O	O, B-PS, B-CV, B-OG, B-LC
-18	잘못	O	O	O, B-CV, B-PS, B-LC, B-OG
-19	##했	O	O	O, B-PS, B-CV, B-LC, B-OG
-20	##는지	O	O	O, B-PS, B-LC, B-CV, I-PS
-21	반성	O	O	O, B-PS, B-CV, I-PS, B-LC
-22	(	O	O	O, B-PS, I-PS, B-CV, B-LC
-23	反	O	O	O, B-PS, B-LC, B-CV, B-TM
-24	[UNK]	O	O	O, B-PS, B-CV, B-LC, B-OG
-25	)	O	O	O, B-PS, B-LC, B-CV, B-OG
-26	조차	O	O	O, B-PS, B-CV, B-LC, B-OG
-27	없	O	O	O, B-PS, B-CV, B-LC, B-QT
-28	##는	O	O	O, B-PS, I-PS, B-CV, B-LC
-29	인간	O	O	O, B-CV, B-PS, I-PS, B-AM
-30	##으로	O	O	O, B-PS, I-PS, I-CV, B-CV
-31	보	O	O	O, B-PS, B-CV, I-PS, B-OG
-32	##았	O	O	O, B-CV, B-PS, I-CV, I-PS
-33	##다	O	O	O, B-CV, B-PS, I-CV, B-LC
-34	.	O	O	O, B-PS, B-CV, B-LC, I-CV
-35	[SEP]	O	O	O, B-PS, B-CV, B-LC, I-CV
+	text	label	preds
+0	[CLS]	O	O
+1	200	B-QT	B-QT
+2	##여	I-QT	I-QT
+3	##쪽	I-QT	I-QT
+4	분량	O	O
+5	##의	O	O
+6	이	B-PS	O
+7	책	O	O
+8	##은	O	O
+9	이	O	B-PS
+10	작가	B-CV	B-CV
+11	##가	O	O
+12	1906	B-DT	B-DT
+13	##년	I-DT	I-DT
+14	4	I-DT	I-DT
+15	##월	I-DT	I-DT
+16	##16	I-DT	I-DT
+17	##일	I-DT	I-DT
+18	##부터	I-DT	I-DT
+19	5	I-DT	I-DT
+20	##월	I-DT	I-DT
+21	##3	I-DT	I-DT
+22	##일	I-DT	I-DT
+23	##까	I-DT	I-DT
+24	##지	I-DT	I-DT
+25	18	B-DT	B-DT
+26	##일	I-DT	I-DT
+27	동안	I-DT	I-DT
+28	울산	B-LC	B-LC
+29	장	B-LC	B-LC
+30	##생	I-LC	I-LC
+31	##포	I-LC	I-LC
+32	##에	O	O
+33	머물	O	O
+34	##며	O	O
+35	두	B-QT	B-QT
+36	차례	I-QT	I-QT
+37	일본	B-LC	B-LC
+38	##의	O	O
+39	고래	B-AF	O
+40	##잡이	I-AF	O
+41	##배	I-AF	B-AF
+42	##를	O	O
+43	타고	O	O
+44	바다	O	O
+45	##로	O	O
+46	나가	O	O
+47	##서	O	O
+48	경험	O	O
+49	##한	O	O
+50	일	O	O
+51	,	O	O
+52	잡	O	O
+53	##은	O	O
+54	고래	B-AM	B-AM
+55	##의	O	O
+56	해체	O	O
+57	과정	O	O
+58	,	O	O
+59	장	B-LC	B-LC
+60	##생	I-LC	I-LC
+61	##포	I-LC	I-LC
+62	마을	I-LC	I-LC
+63	##의	O	O
+64	풍경	O	O
+65	등	O	O
+66	##을	O	O
+67	기록	O	O
+68	##했	O	O
+69	##다	O	O
+70	.	O	O
+71	[SEP]	O	O

@@ -1,36 +1,37 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-EV, B-CV, I-CV
-1	[	O	O	O, B-LC, B-OG, B-PS, B-CV
-2	강유	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-3	##현	I-PS	I-PS	I-PS, O, I-OG, I-LC, B-PS
-4	기자	B-CV	B-CV	B-CV, O, I-PS, I-CV, B-TM
-5	##의	O	O	O, I-CV, I-AF, I-EV, B-PS
-6	제네바	B-LC	B-EV	B-EV, B-LC, O, B-AF, I-EV
-7	모터쇼	O	I-EV	I-EV, O, I-AF, B-EV, I-LC
-8	현장	O	O	O, I-EV, B-LC, I-AF, I-OG
-9	]	O	O	O, B-OG, B-LC, B-PS, I-EV
-10	250	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-OG
-11	##여	I-QT	I-QT	I-QT, O, B-QT, I-OG, I-EV
-12	업체	I-QT	I-QT	I-QT, O, I-OG, I-EV, I-LC
-13	참가	O	O	O, I-QT, B-CV, B-LC, B-TM
-14	‘	O	O	O, B-LC, B-OG, B-PS, B-CV
-15	유럽	B-LC	B-LC	B-LC, O, B-OG, B-AF, B-PS
-16	자동차	B-AF	B-AF	B-AF, O, I-AF, B-OG, B-LC
-17	시장	O	O	O, B-CV, I-AF, B-LC, I-EV
-18	풍	O	O	O, B-LC, B-OG, B-EV, B-CV
-19	##향	O	O	O, B-LC, I-EV, B-PS, I-LC
-20	##계	O	O	O, B-LC, I-EV, B-PS, I-OG
-21	’	O	O	O, B-CV, B-OG, B-PS, B-LC
-22	…	O	O	O, B-LC, B-OG, B-PS, B-CV
-23	16	B-DT	B-DT	B-DT, I-DT, O, B-QT, B-OG
-24	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-25	##까	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
-26	##지	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
-27	새	O	O	O, I-DT, B-LC, B-PS, B-EV
-28	트렌드	O	O	O, B-LC, B-CV, B-EV, B-OG
-29	[UNK]	O	O	O, B-LC, B-PS, B-DT, B-CV
-30	프레스	O	O	O, B-DT, B-EV, B-QT, B-TI
-31	##데이	O	O	O, I-DT, I-EV, I-QT, B-DT
-32	막	O	O	O, I-DT, I-EV, B-LC, B-EV
-33	올라	O	O	O, B-LC, B-CV, B-OG, B-EV
-34	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	[	O	O
+2	강유	B-PS	B-PS
+3	##현	I-PS	I-PS
+4	기자	B-CV	B-CV
+5	##의	O	O
+6	제네바	B-LC	B-EV
+7	모터쇼	O	I-EV
+8	현장	O	O
+9	]	O	O
+10	250	B-QT	B-QT
+11	##여	I-QT	I-QT
+12	업체	I-QT	I-QT
+13	참가	O	O
+14	‘	O	O
+15	유럽	B-LC	B-LC
+16	자동차	B-AF	B-AF
+17	시장	O	O
+18	풍	O	O
+19	##향	O	O
+20	##계	O	O
+21	’	O	O
+22	…	O	O
+23	16	B-DT	B-DT
+24	##일	I-DT	I-DT
+25	##까	I-DT	I-DT
+26	##지	I-DT	I-DT
+27	새	O	O
+28	트렌드	O	O
+29	선	O	O
+30	##봬	O	O
+31	프레스	O	O
+32	##데이	O	O
+33	막	O	O
+34	올라	O	O
+35	[SEP]	O	O

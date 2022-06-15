@@ -1,46 +1,38 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	다른	O	O	O, B-CV, B-OG, B-PS, B-TM
-2	주주	O	B-CV	B-CV, O, B-OG, I-CV, B-PS
-3	##사인	O	O	O, I-CV, B-CV, B-PS, B-OG
-4	윈	B-OG	B-OG	B-OG, O, B-PS, I-OG, B-AF
-5	##디	I-OG	I-OG	I-OG, O, I-PS, I-CV, B-OG
-6	##플랜	I-OG	I-OG	I-OG, O, I-PS, I-CV, I-LC
-7	##은	O	O	O, I-OG, B-CV, B-TM, I-AF
-8	지난해	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-9	8	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-10	##월	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-11	복권	B-TM	B-TM	B-TM, O, I-TM, B-OG, B-EV
-12	##사업	I-TM	I-TM	I-TM, O, I-OG, I-TR, B-TM
-13	솔루션	O	O	O, B-TM, I-TM, B-CV, B-LC
-14	유지	O	O	O, B-CV, I-TM, B-TM, I-CV
-15	##보	O	O	O, I-CV, I-TM, B-CV, I-TR
-16	##수	O	O	O, I-CV, I-TM, B-CV, I-TR
-17	업무	O	O	O, B-CV, B-TM, B-LC, I-CV
-18	##를	O	O	O, B-CV, B-OG, B-LC, B-TM
-19	맡	O	O	O, B-CV, B-LC, B-OG, B-TM
-20	##을	O	O	O, B-CV, B-LC, B-PS, B-OG
-21	뿐	O	O	O, B-LC, B-CV, B-TM, B-PS
-22	아니	O	O	O, B-LC, B-TM, B-PS, B-CV
-23	##라	O	O	O, B-TM, B-CV, B-LC, B-AF
-24	단말기	O	O	O, B-TM, B-CV, B-AF, B-LC
-25	납품	O	O	O, B-CV, B-TM, B-LC, I-TM
-26	##을	O	O	O, B-CV, B-OG, B-LC, B-TM
-27	총괄	O	O	O, B-CV, B-LC, B-TM, B-OG
-28	##하기	O	O	O, B-PS, B-LC, B-OG, B-TM
-29	##로	O	O	O, B-OG, B-CV, B-PS, B-LC
-30	하	O	O	O, B-OG, B-LC, B-PS, B-TM
-31	##는	O	O	O, B-LC, B-OG, B-PS, B-TM
-32	확	O	O	O, B-AF, B-OG, B-LC, B-TM
-33	##약	O	O	O, I-OG, B-LC, B-AF, B-PS
-34	##서	O	O	O, B-LC, B-OG, B-AF, B-PS
-35	##를	O	O	O, B-OG, B-LC, B-CV, B-PS
-36	나눔	B-OG	B-OG	B-OG, O, B-PS, I-OG, B-LC
-37	##로	I-OG	I-OG	I-OG, O, I-PS, B-OG, I-LC
-38	##또	I-OG	I-OG	I-OG, O, I-PS, I-QT, I-CV
-39	##와	O	O	O, I-OG, I-QT, I-AF, B-CV
-40	체결	O	O	O, B-OG, B-LC, B-AF, B-CV
-41	##했	O	O	O, I-OG, B-OG, B-CV, B-LC
-42	##다	O	O	O, B-CV, B-OG, B-TM, I-OG
-43	.	O	O	O, B-LC, B-OG, B-CV, B-PS
-44	[SEP]	O	O	O, B-LC, B-OG, B-CV, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	뉴욕	B-LC	B-LC
+2	시	I-LC	I-LC
+3	브루클린	B-LC	B-LC
+4	등의	O	O
+5	폐	B-CV	B-CV
+6	##식	I-CV	I-CV
+7	##용	I-CV	I-CV
+8	##유	I-CV	I-CV
+9	##를	O	O
+10	수거	O	O
+11	##하	O	O
+12	##는	O	O
+13	M	O	B-OG
+14	&	O	I-OG
+15	E	O	I-OG
+16	##소	O	I-OG
+17	##프	O	I-OG
+18	##의	O	O
+19	에드워드	B-PS	B-PS
+20	군	I-PS	I-PS
+21	##더슨	I-PS	I-PS
+22	사장	B-CV	B-CV
+23	##은	O	O
+24	“	O	O
+25	올	B-DT	B-DT
+26	들어	O	O
+27	도둑	B-CV	B-CV
+28	##들이	O	O
+29	기승	O	O
+30	##을	O	O
+31	부리	O	O
+32	##고	O	O
+33	있	O	O
+34	##다	O	O
+35	.	O	O
+36	[SEP]	O	O

@@ -1,9 +1,23 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	그	O	O	O, B-CV, B-TM, B-LC, B-OG
-2	정도	O	O	O, B-CV, B-PS, B-LC, I-CV
-3	##의	O	O	O, B-PS, B-CV, I-AF, I-CV
-4	작업	B-CV	O	O, B-CV, B-TM, B-QT, B-AM
-5	##비	I-CV	O	O, I-CV, I-TM, I-AF, I-TR
-6	##라는	O	O	O, I-CV, B-CV, B-OG, B-LC
-7	[SEP]	O	O	O, B-CV, B-LC, B-OG, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	[	O	O
+2	세법	B-CV	B-CV
+3	개정안	O	O
+4	합의	O	O
+5	]	O	O
+6	고소득	B-CV	O
+7	##자	I-CV	O
+8	9	B-QT	B-QT
+9	##만	I-QT	I-QT
+10	##여	I-QT	I-QT
+11	##명	I-QT	I-QT
+12	,	O	O
+13	所	B-CV	B-CV
+14	得	I-CV	I-CV
+15	稅	I-CV	I-CV
+16	최대	O	O
+17	450	B-QT	B-QT
+18	##만	I-QT	I-QT
+19	##원	I-QT	I-QT
+20	늘어	O	O
+21	[SEP]	O	O

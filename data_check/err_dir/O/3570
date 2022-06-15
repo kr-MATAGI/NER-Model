@@ -1,21 +1,22 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-EV, I-CV
-1	남녀	O	O	O, B-OG, I-OG, B-LC, B-CV
-2	아이스하키	B-CV	B-CV	B-CV, B-OG, I-OG, O, I-CV
-3	##팀	O	I-OG	I-OG, O, I-CV, B-OG, I-EV
-4	##은	O	O	O, I-OG, I-CV, I-EV, B-CV
-5	메달	O	O	O, B-CV, B-TM, B-LC, B-EV
-6	획득	O	O	O, B-CV, B-TM, I-EV, B-LC
-7	##은	O	O	O, B-CV, B-OG, B-LC, B-TM
-8	어렵	O	O	O, B-CV, B-TM, B-OG, B-LC
-9	##지만	O	O	O, B-PS, B-CV, I-OG, B-OG
-10	새로운	O	O	O, B-PS, B-LC, B-CV, B-OG
-11	지평	O	O	O, B-PS, B-CV, B-LC, B-TM
-12	##을	O	O	O, B-CV, I-EV, I-OG, I-AF
-13	열	O	O	O, B-PS, B-CV, B-OG, B-LC
-14	##겠다	O	O	O, B-CV, I-EV, I-QT, I-OG
-15	##고	O	O	O, B-CV, I-OG, I-CV, B-OG
-16	밝혔	O	O	O, B-CV, B-OG, B-LC, B-TM
-17	##다	O	O	O, B-CV, I-EV, I-OG, I-CV
-18	.	O	O	O, B-CV, B-PS, B-OG, B-LC
-19	[SEP]	O	O	O, B-CV, I-EV, I-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	겨울	B-DT	B-DT
+2	훈련	O	O
+3	동안	O	O
+4	멘	O	B-CV
+5	##털	O	I-CV
+6	코치	B-CV	I-CV
+7	##와	O	O
+8	함께	O	O
+9	정신력	O	O
+10	##을	O	O
+11	보강	O	O
+12	##하	O	O
+13	##겠다	O	O
+14	”	O	O
+15	고	O	O
+16	말	O	O
+17	##했	O	O
+18	##다	O	O
+19	.	O	O
+20	[SEP]	O	O

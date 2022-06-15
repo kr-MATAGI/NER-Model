@@ -1,22 +1,32 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	이호준	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-2	##은	O	O	O, I-PS, B-CV, I-OG, I-AF
-3	만	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-EV
-4	39	I-QT	I-QT	I-QT, B-QT, O, I-LC, I-PS
-5	##세	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-6	##의	O	O	O, I-QT, B-PS, I-EV, I-OG
-7	나이	O	O	O, I-QT, B-CV, B-OG, B-TM
-8	##로	O	O	O, I-QT, B-PS, B-CV, I-OG
-9	개인	O	O	O, B-CV, B-QT, B-PS, B-LC
-10	한	B-QT	O	O, B-QT, B-DT, B-EV, B-PS
-11	시즌	I-QT	O	O, I-QT, I-DT, I-EV, I-PS
-12	최고	O	O	O, B-QT, I-QT, B-CV, B-PS
-13	기록	O	O	O, B-CV, I-QT, B-TM, B-QT
-14	##에	O	O	O, B-CV, I-QT, B-OG, I-CV
-15	도전	O	O	O, B-CV, B-TM, B-OG, B-LC
-16	##하고	O	O	O, B-CV, B-TM, I-CV, B-PS
-17	있	O	O	O, B-CV, B-TM, B-PS, B-QT
-18	##다	O	O	O, B-CV, B-TM, I-OG, B-QT
-19	.	O	O	O, B-CV, B-PS, B-OG, B-LC
-20	[SEP]	O	O	O, B-CV, B-PS, I-EV, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	미	B-AF	B-OG
+2	##슐	I-AF	I-OG
+3	##랭	I-AF	I-OG
+4	가이드	I-AF	I-OG
+5	##에	O	O
+6	##서	O	O
+7	별	O	B-CV
+8	셋	B-QT	I-QT
+9	##을	O	O
+10	받	O	O
+11	##기	O	O
+12	##도	O	O
+13	한	O	O
+14	램	B-PS	B-PS
+15	##지	I-PS	I-PS
+16	##는	O	O
+17	전	O	O
+18	세계	O	O
+19	20	B-QT	B-QT
+20	##곳	I-QT	I-QT
+21	##에	O	O
+22	##서	O	O
+23	레스토랑	O	O
+24	##을	O	O
+25	운영	O	O
+26	##해	O	O
+27	##왔	O	O
+28	##다	O	O
+29	.	O	O
+30	[SEP]	O	O

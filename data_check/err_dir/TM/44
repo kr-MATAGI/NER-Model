@@ -1,22 +1,56 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	정책	O	O	O, B-CV, B-PS, I-CV, B-FD
-2	##이나	O	O	O, B-PS, B-CV, B-OG, I-AF
-3	공약	O	O	O, B-CV, B-PS, I-CV, B-FD
-4	##이	O	O	O, B-PS, B-CV, B-OG, B-LC
-5	피부	B-TM	O	O, B-TM, B-AM, B-TR, B-LC
-6	##에	O	O	O, I-TM, B-CV, I-QT, I-CV
-7	와	O	O	O, B-LC, B-TM, B-CV, B-PS
-8	닿	O	O	O, B-LC, B-PS, I-OG, B-TM
-9	##지	O	O	O, B-LC, B-PS, I-OG, B-CV
-10	않	O	O	O, B-LC, B-PS, B-CV, I-OG
-11	##았	O	O	O, B-CV, B-LC, B-PS, B-OG
-12	##지만	O	O	O, B-CV, B-OG, B-LC, I-OG
-13	나름	O	O	O, B-CV, B-PS, B-OG, B-LC
-14	##의	O	O	O, B-PS, B-CV, B-OG, B-LC
-15	기준	O	O	O, B-CV, B-PS, B-OG, I-OG
-16	##도	O	O	O, B-CV, B-PS, I-OG, B-OG
-17	세웠	O	O	O, B-CV, B-OG, B-PS, B-TM
-18	##다	O	O	O, B-CV, I-OG, I-CV, I-QT
-19	.	O	O	O, B-CV, B-PS, B-LC, B-OG
-20	[SEP]	O	O	O, B-CV, B-PS, B-LC, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	이	O	O
+2	외	O	O
+3	##에	O	O
+4	독자	O	O
+5	구동	B-TM	B-TM
+6	##모	I-TM	I-TM
+7	##터	I-TM	I-TM
+8	,	O	O
+9	세계	O	O
+10	2	B-QT	B-QT
+11	##번	I-QT	I-QT
+12	##째	I-QT	I-QT
+13	차세대	O	O
+14	회생	O	B-TM
+15	##제	O	I-TM
+16	##동	O	I-TM
+17	브레이크	B-TM	I-TM
+18	##시스	I-TM	I-TM
+19	##템	I-TM	I-TM
+20	,	O	O
+21	국내	O	O
+22	최초	O	O
+23	인	B-TM	B-TM
+24	##휠	I-TM	I-TM
+25	##시스	I-TM	I-TM
+26	##템	I-TM	I-TM
+27	등	O	O
+28	선행	O	O
+29	##부터	O	O
+30	양산	O	O
+31	단계	O	O
+32	##까	O	O
+33	##지	O	O
+34	폭	O	O
+35	넓	O	O
+36	##은	O	O
+37	영역	O	O
+38	##에	O	O
+39	##서	O	O
+40	친환경	O	O
+41	##차	O	O
+42	##와	O	O
+43	관련	O	O
+44	##된	O	O
+45	핵심	O	O
+46	기술력	O	O
+47	##을	O	O
+48	보유	O	O
+49	##하	O	O
+50	##고	O	O
+51	있	O	O
+52	##다	O	O
+53	.	O	O
+54	[SEP]	O	O

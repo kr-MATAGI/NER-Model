@@ -1,27 +1,55 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	청와대	B-OG	B-OG	B-OG, B-AF, O, B-LC, B-PS
-2	국민	B-CV	B-CV	B-CV, O, B-TM, B-OG, B-EV
-3	##청	I-CV	O	O, I-CV, I-TM, B-CV, I-EV
-4	##원	I-CV	O	O, I-CV, I-TM, I-EV, I-OG
-5	##까	O	O	O, I-CV, I-TM, I-EV, I-OG
-6	##지	O	O	O, B-PS, B-QT, B-DT, B-LC
-7	부른	O	O	O, B-PS, B-QT, B-CV, B-OG
-8	‘	O	O	O, B-OG, B-CV, B-LC, B-EV
-9	프로	B-CV	B-CV	B-CV, O, B-EV, I-CV, B-OG
-10	##배	I-CV	I-CV	I-CV, B-CV, O, I-EV, I-OG
-11	##구	I-CV	I-CV	I-CV, O, I-EV, B-CV, I-OG
-12	오심	O	O	O, B-TM, B-CV, B-EV, I-CV
-13	’	O	O	O, I-EV, I-CV, I-OG, B-PS
-14	관계자	B-CV	B-CV	B-CV, O, B-OG, B-EV, B-TM
-15	##들이	O	O	O, I-CV, I-EV, I-OG, B-CV
-16	사상	O	O	O, B-CV, B-QT, B-LC, B-OG
-17	최고	O	O	O, B-QT, B-CV, B-LC, B-PS
-18	##의	O	O	O, B-PS, B-QT, B-OG, B-LC
-19	중징계	O	O	O, B-CV, B-TM, B-QT, B-EV
-20	##를	O	O	O, I-CV, B-CV, I-EV, I-OG
-21	받	O	O	O, B-CV, B-OG, B-LC, B-TM
-22	##았	O	O	O, B-CV, B-OG, B-LC, I-OG
-23	##다	O	O	O, B-CV, B-LC, I-OG, B-TM
-24	.	O	O	O, B-CV, B-PS, B-LC, B-OG
-25	[SEP]	O	O	O, B-CV, I-OG, I-EV, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	미국	B-LC	B-LC
+2	공화	B-OG	B-OG
+3	##당	I-OG	I-OG
+4	전당	B-EV	B-EV
+5	##대	I-EV	I-EV
+6	##회	I-EV	I-EV
+7	(	O	O
+8	전대	O	O
+9	)	O	O
+10	를	O	O
+11	하루	B-DT	B-DT
+12	앞둔	O	O
+13	17	B-DT	B-DT
+14	##일	I-DT	I-DT
+15	,	O	O
+16	루이지애나	B-LC	B-LC
+17	##주	I-LC	I-LC
+18	배	B-LC	B-LC
+19	##턴	I-LC	I-LC
+20	루	I-LC	I-LC
+21	##지	I-LC	I-LC
+22	##에	O	O
+23	##서	O	O
+24	벌어진	O	O
+25	경찰관	B-CV	B-EV
+26	3	B-QT	I-EV
+27	##명	I-QT	I-EV
+28	피격	O	I-EV
+29	사건	O	I-EV
+30	##은	O	O
+31	‘	O	O
+32	총기	O	B-AF
+33	’	O	O
+34	와	O	O
+35	‘	O	O
+36	폭력	O	O
+37	’	O	O
+38	에	O	O
+39	가뜩이나	O	O
+40	예민	O	O
+41	##해	O	O
+42	있	O	O
+43	##던	O	O
+44	클리블랜드	B-LC	B-LC
+45	##를	O	O
+46	바짝	O	O
+47	얼어붙	O	O
+48	##게	O	O
+49	만들	O	O
+50	##었	O	O
+51	##다	O	O
+52	.	O	O
+53	[SEP]	O	O

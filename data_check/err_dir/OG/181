@@ -1,5 +1,16 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-EV
-1	델	B-OG	O	O, B-PS, B-LC, B-OG, B-CV
-2	.	O	O	O, I-OG, I-LC, I-PS, I-AF
-3	[SEP]	O	O	O, B-CV, B-LC, I-OG, I-CV
+	text	label	preds
+0	[CLS]	O	O
+1	그건	O	O
+2	삼	B-OG	O
+3	##보	I-OG	O
+4	컴퓨터	I-OG	B-TM
+5	팔	B-TM	O
+6	##팔	I-TM	O
+7	트라이	I-TM	O
+8	##젠	I-TM	O
+9	투	I-TM	O
+10	라고	O	O
+11	하	O	O
+12	##는	O	O
+13	건데요	O	O
+14	[SEP]	O	O

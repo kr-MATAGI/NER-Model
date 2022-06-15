@@ -1,36 +1,33 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	여권	O	O	O, B-OG, B-CV, B-LC, B-TR
-2	##의	O	O	O, I-OG, B-PS, I-CV, I-EV
-3	잠재	O	O	O, B-PS, B-OG, B-LC, B-CV
-4	##적	O	O	O, B-PS, B-LC, I-PS, I-OG
-5	대선	B-EV	B-EV	B-EV, O, B-CV, B-AF, B-OG
-6	주자	B-CV	B-CV	B-CV, O, I-EV, I-CV, B-EV
-7	5	B-QT	B-QT	B-QT, I-QT, B-DT, O, I-CV
-8	##명	I-QT	I-QT	I-QT, I-EV, O, I-DT, I-PS
-9	##이	O	O	O, I-QT, I-EV, B-PS, I-DT
-10	1	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-QT
-11	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
-12	‘	O	O	O, I-DT, B-EV, B-LC, B-DT
-13	최순	B-EV	B-PS	B-PS, B-EV, I-EV, B-AF, B-LC
-14	##실	I-EV	I-PS	I-PS, I-EV, I-AF, I-LC, O
-15	게이트	I-EV	O	O, I-EV, I-PS, B-EV, I-AF
-16	’	O	O	O, I-EV, I-OG, I-DT, B-LC
-17	에	O	O	O, B-CV, B-OG, B-LC, B-PS
-18	따른	O	O	O, B-LC, B-PS, B-OG, B-DT
-19	당	O	O	O, B-OG, B-LC, B-EV, B-PS
-20	수습	O	O	O, B-CV, I-CV, B-PS, I-OG
-21	##책	O	O	O, I-CV, B-CV, B-PS, B-LC
-22	##으로	O	O	O, B-PS, B-LC, B-OG, B-CV
-23	지도부	O	O	O, B-CV, B-OG, B-LC, B-TM
-24	사퇴	O	O	O, B-CV, I-CV, B-PS, B-LC
-25	후	O	O	O, B-LC, B-PS, B-OG, B-DT
-26	재	O	O	O, B-OG, B-LC, B-EV, B-PS
-27	##창	O	O	O, I-OG, B-PS, B-OG, I-LC
-28	##당	O	O	O, I-OG, I-LC, I-EV, B-PS
-29	##을	O	O	O, I-OG, B-CV, B-LC, B-PS
-30	요구	O	O	O, B-CV, B-LC, B-OG, B-TM
-31	##했	O	O	O, B-CV, B-OG, B-LC, I-OG
-32	##다	O	O	O, B-CV, I-OG, B-LC, B-OG
-33	.	O	O	O, B-LC, B-PS, B-CV, B-OG
-34	[SEP]	O	O	O, B-LC, B-CV, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	복지부	B-OG	B-OG
+2	##는	O	O
+3	18	B-DT	B-DT
+4	##일	I-DT	I-DT
+5	'	O	O
+6	국가	B-EV	O
+7	방역	I-EV	O
+8	체계	I-EV	O
+9	개편	I-EV	O
+10	방안	I-EV	O
+11	'	O	O
+12	공청회	O	B-EV
+13	##를	O	O
+14	열	O	O
+15	##고	O	O
+16	이	O	O
+17	같	O	O
+18	##은	O	O
+19	내용	O	O
+20	##을	O	O
+21	제시	O	O
+22	##할	O	O
+23	예정	O	O
+24	##이	O	O
+25	##라고	O	O
+26	17	B-DT	B-DT
+27	##일	I-DT	I-DT
+28	밝혔	O	O
+29	##다	O	O
+30	.	O	O
+31	[SEP]	O	O

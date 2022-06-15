@@ -1,36 +1,37 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	담벼락	O	O	O, B-CV, B-TM, B-AF, B-LC
-2	##에	O	O	O, B-CV, B-PS, B-TM, B-LC
-3	있	O	O	O, B-CV, B-TM, B-PS, B-LC
-4	##는	O	O	O, B-CV, B-TM, B-LC, B-PS
-5	먼지	O	O	O, B-MT, B-CV, B-PS, B-AF
-6	##를	O	O	O, B-CV, B-PS, I-AF, B-LC
-7	털	O	O	O, B-CV, B-PS, B-LC, B-TM
-8	##고	O	O	O, B-LC, B-PS, B-CV, B-OG
-9	여기저기	O	O	O, B-CV, B-TM, B-LC, B-AF
-10	끼	O	O	O, B-CV, B-LC, B-PS, B-TM
-11	##어	O	O	O, B-LC, B-PS, B-TM, B-CV
-12	있	O	O	O, B-CV, B-LC, B-TM, B-PS
-13	##는	O	O	O, B-TM, B-LC, B-CV, B-PS
-14	이끼	B-PT	O	O, B-PT, I-PT, B-CV, B-MT
-15	##를	O	O	O, B-CV, I-CV, B-PS, B-LC
-16	뜯어	O	O	O, B-LC, B-CV, B-TM, B-OG
-17	##낸	O	O	O, I-LC, B-CV, B-LC, B-PS
-18	후	O	O	O, B-LC, B-TM, B-PS, B-OG
-19	분홍색	B-TM	B-TM	B-TM, O, I-TM, B-CV, B-LC
-20	##과	O	O	O, I-TM, I-AF, I-CV, I-QT
-21	하늘	B-TM	B-TM	B-TM, O, B-CV, B-LC, I-TM
-22	##색	I-TM	I-TM	I-TM, O, I-QT, B-TM, I-CV
-23	,	O	O	O, I-TM, I-QT, I-OG, I-CV
-24	흰색	B-TM	B-TM	B-TM, O, B-CV, I-TM, B-LC
-25	등	O	O	O, I-TM, I-QT, I-CV, B-CV
-26	##으로	O	O	O, B-CV, B-OG, B-LC, B-PS
-27	바탕	O	O	O, B-TM, B-CV, B-AF, B-LC
-28	##색	O	O	O, I-TM, I-CV, B-TM, I-LC
-29	##을	O	O	O, B-CV, B-PS, I-CV, B-LC
-30	삼	O	O	O, B-LC, B-PS, B-OG, B-CV
-31	##았	O	O	O, B-CV, B-LC, B-OG, I-OG
-32	##다	O	O	O, B-CV, B-LC, B-OG, I-OG
-33	.	O	O	O, B-LC, B-CV, B-PS, B-TM
-34	[SEP]	O	O	O, B-CV, B-LC, B-TM, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	콩	B-PT	B-CV
+2	##을	O	O
+3	갈	O	O
+4	##면	O	O
+5	콩	B-CV	B-CV
+6	##물	I-CV	O
+7	##과	O	O
+8	비지	B-CV	B-CV
+9	##가	O	O
+10	생성	O	O
+11	##되	O	O
+12	##는데	O	O
+13	,	O	O
+14	끓인	O	O
+15	콩	B-CV	B-CV
+16	##물	I-CV	O
+17	##은	O	O
+18	간수	B-CV	B-CV
+19	##와	O	O
+20	엉	O	O
+21	##켜	O	O
+22	두부	B-CV	B-CV
+23	##가	O	O
+24	되	O	O
+25	##고	O	O
+26	,	O	O
+27	비지	B-CV	B-CV
+28	##는	O	O
+29	요리	O	O
+30	##로	O	O
+31	식탁	O	O
+32	##에	O	O
+33	오른다	O	O
+34	.	O	O
+35	[SEP]	O	O

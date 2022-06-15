@@ -1,42 +1,43 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	경북	B-LC	B-LC	B-LC, O, B-OG, B-PS, I-LC
-2	청도	B-LC	B-LC	B-LC, I-LC, B-OG, O, B-PS
-3	##군	I-LC	I-LC	I-LC, O, I-OG, B-LC, I-PS
-4	##에서	O	O	O, I-LC, B-CV, B-LC, I-OG
-5	소	B-AM	B-AM	B-AM, O, B-TM, B-CV, B-AF
-6	300	B-QT	B-QT	B-QT, I-QT, O, B-DT, I-AF
-7	##마리	I-QT	I-QT	I-QT, O, I-LC, I-AF, B-QT
-8	##를	O	O	O, I-QT, B-CV, B-PS, I-AF
-9	키우	O	O	O, B-CV, B-PS, B-LC, B-TM
-10	##는	O	O	O, B-CV, B-PS, B-LC, B-OG
-11	축산업	O	B-CV	B-CV, O, I-CV, B-OG, B-TM
-12	##자	O	I-CV	I-CV, O, B-CV, I-OG, I-QT
-13	A	O	O	O, I-CV, B-PS, B-CV, B-QT
-14	씨	O	O	O, B-CV, I-CV, B-PS, I-QT
-15	##는	O	O	O, B-CV, B-PS, B-TM, B-LC
-16	한우	B-AM	B-AM	B-AM, O, B-CV, B-TM, B-PS
-17	수요	O	O	O, B-CV, I-CV, B-TM, I-TM
-18	##가	O	O	O, B-PS, B-CV, B-LC, B-TM
-19	더	O	O	O, B-CV, B-TM, B-PS, B-LC
-20	늘	O	O	O, B-PS, B-CV, B-TM, B-LC
-21	것	O	O	O, B-PS, B-CV, B-TM, B-LC
-22	##으로	O	O	O, B-CV, B-PS, B-TM, I-CV
-23	보고	O	O	O, B-CV, B-TM, B-PS, B-AM
-24	사업	O	O	O, B-CV, B-TM, B-LC, B-PS
-25	규모	O	O	O, B-CV, B-TM, B-LC, B-PS
-26	##를	O	O	O, B-CV, B-TM, B-PS, B-OG
-27	키우	O	O	O, B-CV, B-PS, B-LC, B-TM
-28	##려	O	O	O, B-CV, B-PS, B-TM, B-QT
-29	하지만	O	O	O, B-CV, B-TM, B-PS, B-QT
-30	송아지	B-AM	B-AM	B-AM, O, B-CV, B-TM, B-PS
-31	구입	O	O	O, B-CV, I-CV, B-PS, B-QT
-32	대금	O	O	O, B-CV, I-CV, B-QT, B-PS
-33	##을	O	O	O, B-CV, B-TM, B-PS, B-LC
-34	마련	O	O	O, B-CV, B-TM, B-LC, B-QT
-35	##할	O	O	O, B-LC, B-PS, B-CV, B-TM
-36	길이	O	O	O, B-TM, B-PS, B-CV, B-LC
-37	없	O	O	O, B-TM, B-CV, B-LC, B-QT
-38	##다	O	O	O, B-CV, B-TM, I-TM, I-QT
-39	.	O	O	O, B-LC, B-CV, B-PS, B-TM
-40	[SEP]	O	O	O, B-CV, B-TM, B-LC, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	세계	O	O
+2	##적	O	O
+3	##으로	O	O
+4	환율	O	O
+5	갈등	O	O
+6	##이	O	O
+7	고조	O	O
+8	##되	O	O
+9	##는	O	O
+10	상황	O	O
+11	##에	O	O
+12	##서	O	O
+13	원화	B-CV	B-CV
+14	가치	O	O
+15	##를	O	O
+16	절상	O	O
+17	##하라	O	O
+18	##는	O	O
+19	압력	O	O
+20	요인	O	O
+21	##으로	O	O
+22	작용	O	O
+23	##할	O	O
+24	수	O	O
+25	있	O	O
+26	##어	O	O
+27	외환	O	B-OG
+28	##당	O	I-OG
+29	##국	O	I-OG
+30	##과	O	O
+31	기업	O	O
+32	##들의	O	O
+33	대비	O	O
+34	##가	O	O
+35	필요	O	O
+36	##한	O	O
+37	것	O	O
+38	##으로	O	O
+39	보인다	O	O
+40	.	O	O
+41	[SEP]	O	O

@@ -1,21 +1,30 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-AF
-1	아마	O	O	O, B-CV, B-OG, B-TM, B-QT
-2	파	B-CV	B-CV	B-CV, O, B-TM, B-OG, I-CV
-3	##닭	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-TM
-4	세팅	O	O	O, I-CV, I-OG, B-CV, I-EV
-5	##도	O	O	O, I-CV, I-OG, B-PS, I-AF
-6	하	O	O	O, B-CV, B-OG, B-PS, B-LC
-7	##기	O	O	O, B-PS, B-OG, B-CV, B-LC
-8	전	O	O	O, B-CV, B-PS, B-OG, B-LC
-9	##에	O	O	O, B-CV, B-OG, B-PS, I-CV
-10	식구	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-OG
-11	##들이	O	O	O, I-CV, B-CV, I-QT, I-AF
-12	반	B-QT	O	O, B-QT, B-CV, I-QT, B-TM
-13	##은	O	O	O, I-QT, B-QT, I-CV, B-CV
-14	집어	O	O	O, I-QT, B-QT, B-CV, B-TM
-15	먹	O	O	O, I-QT, B-CV, B-QT, B-TM
-16	##더라	O	O	O, B-CV, I-QT, I-CV, I-OG
-17	##구요	O	O	O, B-CV, I-CV, I-OG, I-QT
-18	.	O	O	O, B-CV, B-PS, B-OG, I-OG
-19	[SEP]	O	O	O, B-CV, I-CV, I-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	실제로	O	O
+2	현대차	B-OG	B-OG
+3	울산	B-AF	B-AF
+4	##공	I-AF	I-AF
+5	##장	I-AF	I-AF
+6	##은	O	O
+7	2012	B-DT	B-DT
+8	~	I-DT	I-DT
+9	14	I-DT	I-DT
+10	##년	I-DT	I-DT
+11	3	B-DT	B-DT
+12	##년	I-DT	I-DT
+13	##간	I-DT	I-DT
+14	신규	O	O
+15	채용	O	O
+16	##이	O	O
+17	사실	O	O
+18	##상	O	O
+19	'	O	O
+20	제로	B-QT	O
+21	(	O	O
+22	0	B-QT	O
+23	)	O	O
+24	'	O	O
+25	상태	O	O
+26	##다	O	O
+27	.	O	O
+28	[SEP]	O	O

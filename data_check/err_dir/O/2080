@@ -1,25 +1,22 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	문화방송	B-OG	B-OG	B-OG, O, B-PS, I-OG, B-AF
-2	노조	O	I-OG	I-OG, O, B-OG, I-EV, I-CV
-3	##는	O	O	O, I-OG, I-EV, I-CV, B-CV
-4	배	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-5	아나운서	B-CV	B-CV	B-CV, O, I-PS, I-CV, B-OG
-6	##의	O	O	O, I-CV, I-OG, B-CV, I-EV
-7	주장	O	O	O, B-CV, B-OG, B-TM, B-LC
-8	##에	O	O	O, B-CV, B-OG, B-LC, B-PS
-9	대해	O	O	O, B-CV, B-OG, B-LC, B-PS
-10	“	O	O	O, B-CV, B-LC, B-OG, B-PS
-11	근거	O	O	O, B-PS, B-CV, B-LC, B-TM
-12	##를	O	O	O, B-PS, B-LC, B-CV, B-OG
-13	제시	O	O	O, B-CV, B-LC, B-PS, B-OG
-14	##하라	O	O	O, B-PS, B-CV, B-LC, I-AF
-15	”	O	O	O, B-CV, B-OG, B-LC, B-TM
-16	고	O	O	O, B-CV, B-LC, B-OG, B-PS
-17	반박	O	O	O, B-CV, B-LC, B-TM, B-OG
-18	##한	O	O	O, B-CV, B-PS, B-LC, B-OG
-19	바	O	O	O, B-CV, B-OG, B-LC, B-TM
-20	있	O	O	O, B-CV, B-OG, I-OG, I-CV
-21	##다	O	O	O, B-CV, I-OG, B-OG, B-LC
-22	.	O	O	O, B-OG, B-LC, B-CV, B-PS
-23	[SEP]	O	O	O, B-CV, B-OG, B-LC, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	오이	B-OG	B-OG
+2	##씨	I-OG	I-OG
+3	##디	I-OG	I-OG
+4	##에	O	O
+5	그	O	O
+6	원조	O	O
+7	규모	O	O
+8	##는	O	O
+9	지	O	B-OG
+10	##이	O	I-OG
+11	##피	O	I-OG
+12	대비	O	O
+13	어느	O	O
+14	정도	O	O
+15	되	O	O
+16	##겠	O	O
+17	##습	O	O
+18	##니까	O	O
+19	?	O	O
+20	[SEP]	O	O

@@ -1,55 +1,35 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	27	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-LC
-2	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-3	서울시	B-LC	B-LC	B-LC, B-OG, O, I-DT, B-AF
-4	##의	O	O	O, I-OG, I-LC, B-OG, I-DT
-5	‘	O	O	O, B-OG, B-LC, B-AF, B-CV
-6	서울	B-LC	B-LC	B-LC, B-AF, B-TM, B-OG, B-PS
-7	##부	O	I-LC	I-LC, I-AF, I-TM, I-OG, B-LC
-8	##동산	O	I-LC	I-LC, I-AF, I-TM, I-OG, I-PS
-9	##정보	O	I-LC	I-LC, I-AF, I-TM, I-OG, O
-10	##광장	O	I-LC	I-LC, I-AF, I-TM, I-OG, O
-11	’	O	O	O, I-AF, I-LC, I-OG, I-TM
-12	집계	O	O	O, B-CV, B-OG, B-TM, I-AF
-13	##를	O	O	O, B-CV, I-AF, B-OG, I-OG
-14	보	O	O	O, B-OG, B-CV, B-TM, B-LC
-15	##면	O	O	O, B-OG, B-LC, B-PS, I-OG
-16	,	O	O	O, B-LC, B-CV, B-OG, B-PS
-17	26	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-18	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
-19	기준	O	O	O, I-DT, B-DT, B-OG, I-AF
-20	6	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-LC
-21	##월	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
-22	서울	B-LC	B-LC	B-LC, O, B-OG, B-AF, I-DT
-23	아파트	O	O	O, I-AF, B-AF, B-CV, I-LC
-24	매매	O	O	O, B-CV, I-AF, B-AF, B-TM
-25	거래량	O	O	O, B-CV, B-AF, B-LC, B-TM
-26	(	O	O	O, B-CV, B-OG, B-LC, B-PS
-27	신고	O	O	O, B-CV, B-AF, B-OG, B-PS
-28	##일	O	O	O, I-AF, I-OG, B-PS, I-DT
-29	기준	O	O	O, B-PS, I-AF, B-CV, B-OG
-30	)	O	O	O, B-CV, B-LC, B-OG, B-TM
-31	은	O	O	O, B-OG, B-LC, B-CV, B-PS
-32	1	B-QT	B-QT	B-QT, O, I-QT, B-PS, B-DT
-33	##만	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-34	##17	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-35	##35	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-36	##건	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-37	##으로	O	O	O, I-QT, B-CV, B-OG, I-AF
-38	하루	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-QT
-39	평균	O	O	O, I-DT, I-QT, B-CV, I-EV
-40	45	B-QT	B-QT	B-QT, I-QT, O, B-DT, B-LC
-41	##1	I-QT	I-QT	I-QT, B-QT, O, I-LC, I-PS
-42	.	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-43	3	I-QT	I-QT	I-QT, B-QT, O, I-LC, I-PS
-44	##건	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-45	##이	O	O	O, I-QT, B-CV, B-PS, B-OG
-46	신고	O	O	O, B-CV, B-TM, B-OG, B-LC
-47	##된	O	O	O, B-CV, B-PS, B-OG, B-LC
-48	것	O	O	O, B-CV, B-OG, B-TM, B-LC
-49	##으로	O	O	O, B-CV, I-OG, B-TM, I-AF
-50	나타났	O	O	O, B-CV, B-OG, B-LC, B-TM
-51	##다	O	O	O, B-CV, B-TM, B-OG, B-LC
-52	.	O	O	O, B-LC, B-OG, B-CV, B-PS
-53	[SEP]	O	O	O, B-LC, B-CV, B-OG, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	이	O	B-PS
+2	관계자	B-CV	B-CV
+3	##는	O	O
+4	“	O	O
+5	필요	O	O
+6	##하면	O	O
+7	검찰	B-OG	B-OG
+8	수사	O	O
+9	##를	O	O
+10	통해서	O	O
+11	##라도	O	O
+12	투명	O	O
+13	##하	O	O
+14	##고	O	O
+15	의혹	O	O
+16	없이	O	O
+17	조사	O	O
+18	##하라	O	O
+19	##는	O	O
+20	뜻	O	O
+21	##으로	O	O
+22	말씀	O	O
+23	##하	O	O
+24	##신	O	O
+25	것	O	O
+26	”	O	O
+27	이라	O	O
+28	##고	O	O
+29	설명	O	O
+30	##했	O	O
+31	##다	O	O
+32	.	O	O
+33	[SEP]	O	O

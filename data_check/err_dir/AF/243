@@ -1,41 +1,64 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	과거	O	O	O, B-LC, B-OG, B-PS, B-CV
-2	민주	O	O	O, B-TR, B-CV, B-FD, B-PS
-3	##화	O	O	O, I-TR, I-CV, I-FD, I-OG
-4	인사	B-CV	O	O, B-CV, I-CV, I-TR, B-PS
-5	##의	O	O	O, B-PS, I-CV, B-LC, B-CV
-6	피난처	O	O	O, B-CV, B-LC, B-PS, B-AF
-7	역할	O	O	O, I-CV, B-PS, B-CV, B-LC
-8	##을	O	O	O, B-PS, B-LC, B-OG, B-CV
-9	해온	O	O	O, B-LC, B-OG, B-CV, B-PS
-10	명동	B-AF	B-OG	B-OG, B-AF, O, B-LC, I-OG
-11	##성	I-AF	I-OG	I-OG, I-AF, O, B-OG, I-LC
-12	##당	I-AF	I-OG	I-OG, I-AF, O, I-LC, I-CV
-13	##은	O	O	O, I-OG, I-AF, B-CV, I-EV
-14	1990	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-OG
-15	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-OG
-16	##대	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-OG
-17	후반부	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-OG
-18	##터	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-OG
-19	농성	B-CV	B-CV	B-CV, O, I-CV, B-TM, I-DT
-20	##자	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-TM
-21	퇴거	O	O	O, I-CV, B-CV, B-TM, B-LC
-22	(	O	O	O, I-CV, B-LC, B-OG, B-CV
-23	[UNK]	O	O	O, B-LC, B-CV, B-OG, B-PS
-24	[UNK]	O	O	O, B-LC, B-CV, B-OG, B-PS
-25	)	O	O	O, B-LC, B-CV, B-OG, B-PS
-26	를	O	O	O, B-LC, B-CV, B-OG, B-PS
-27	요구	O	O	O, B-CV, B-LC, B-OG, B-TM
-28	##하고	O	O	O, B-LC, B-OG, B-CV, B-PS
-29	경찰	B-OG	B-OG	B-OG, B-AF, O, B-CV, B-LC
-30	##에	O	O	O, I-OG, I-AF, I-EV, I-CV
-31	시설	O	O	O, B-LC, B-CV, B-TM, B-PS
-32	##보호	O	O	O, I-LC, I-CV, B-LC, B-PS
-33	##를	O	O	O, B-LC, B-PS, B-CV, B-OG
-34	요청	O	O	O, B-CV, B-LC, B-OG, B-TM
-35	##하고	O	O	O, B-CV, B-LC, B-OG, B-PS
-36	있	O	O	O, B-LC, B-CV, B-PS, B-OG
-37	##다	O	O	O, B-CV, B-LC, I-OG, B-OG
-38	.	O	O	O, B-LC, B-OG, B-CV, B-PS
-39	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	이에	O	O
+2	따라	O	O
+3	북한	B-OG	B-LC
+4	##의	O	O
+5	핵과	O	O
+6	미사일	B-AF	B-AF
+7	##을	O	O
+8	최대한	O	O
+9	차단	O	O
+10	·	O	O
+11	억제	O	O
+12	##한다	O	O
+13	##는	O	O
+14	계획	O	O
+15	##에	O	O
+16	따라	O	O
+17	고고	O	O
+18	##도	O	O
+19	무인	B-AF	B-AF
+20	##정	I-AF	I-AF
+21	##찰	I-AF	I-AF
+22	##기	I-AF	I-AF
+23	,	O	O
+24	탄도	O	B-AF
+25	##탄	O	I-AF
+26	조기	O	O
+27	##경	O	O
+28	##보	O	O
+29	레이더	B-AF	B-AF
+30	,	O	O
+31	해상	O	B-AF
+32	##요	O	I-AF
+33	##격	O	I-AF
+34	유도	B-AF	I-AF
+35	##탄	I-AF	I-AF
+36	,	O	O
+37	핵	O	B-AF
+38	##폭	O	O
+39	##발	O	O
+40	때	O	O
+41	발생	O	O
+42	##하	O	O
+43	##는	O	O
+44	전자기	O	B-TM
+45	##펄	O	I-TM
+46	##스	O	I-TM
+47	(	O	I-TM
+48	EM	O	I-TM
+49	##P	O	I-TM
+50	)	O	I-TM
+51	방호	O	I-TM
+52	시스템	O	I-TM
+53	등	O	O
+54	##을	O	O
+55	도입	O	O
+56	##하	O	O
+57	##기	O	O
+58	##로	O	O
+59	했	O	O
+60	##다	O	O
+61	.	O	O
+62	[SEP]	O	O

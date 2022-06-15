@@ -1,30 +1,65 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	정현	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-2	##은	O	O	O, I-PS, B-CV, I-OG, I-AF
-3	1	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-4	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-5	사이	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-6	랭킹	O	O	O, I-DT, B-CV, B-TM, B-OG
-7	##을	O	O	O, B-CV, B-TM, B-OG, B-PS
-8	200	B-QT	B-QT	B-QT, B-DT, O, I-QT, B-EV
-9	##계	I-QT	I-QT	I-QT, O, I-DT, I-EV, I-OG
-10	##단	I-QT	I-QT	I-QT, O, I-DT, I-LC, I-EV
-11	넘	O	O	O, I-QT, B-CV, I-OG, I-EV
-12	##게	O	O	O, B-OG, B-CV, B-LC, B-TM
-13	끌어올렸	O	O	O, B-CV, B-TM, B-OG, B-PS
-14	##는데	O	O	O, B-CV, B-PS, B-OG, B-LC
-15	최근	O	O	O, B-CV, B-PS, B-LC, B-OG
-16	체계	O	O	O, B-CV, B-LC, B-PS, B-TM
-17	##적인	O	O	O, B-LC, B-CV, B-PS, B-TM
-18	훈련	O	O	O, B-CV, B-TM, B-LC, B-PS
-19	##을	O	O	O, B-CV, B-PS, B-LC, I-CV
-20	받	O	O	O, B-CV, B-PS, B-LC, B-TM
-21	##으며	O	O	O, B-PS, B-CV, B-LC, B-TM
-22	키운	O	O	O, B-CV, B-TM, B-PS, B-LC
-23	서브	O	B-TM	B-TM, O, B-CV, I-TM, B-AF
-24	실력	O	O	O, I-TM, I-CV, B-CV, I-AF
-25	덕분	O	O	O, B-CV, B-TM, B-QT, B-PS
-26	##이다	O	O	O, B-CV, I-CV, B-TM, I-TM
-27	.	O	O	O, B-CV, B-PS, B-LC, B-TM
-28	[SEP]	O	O	O, B-CV, B-LC, B-TM, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	그	O	O
+2	##는	O	O
+3	경제	O	O
+4	##제	O	O
+5	##재	O	O
+6	##는	O	O
+7	비	O	O
+8	##효과	O	O
+9	##적	O	O
+10	##이	O	O
+11	##고	O	O
+12	비	O	O
+13	##생	O	O
+14	##산	O	O
+15	##적	O	O
+16	##이	O	O
+17	##라	O	O
+18	##며	O	O
+19	“	O	O
+20	과거	O	O
+21	쿠바	O	B-LC
+22	##를	O	O
+23	방문	O	O
+24	##해	O	O
+25	지도층	O	O
+26	##들	O	O
+27	##을	O	O
+28	만난	O	O
+29	결과	O	O
+30	미국	B-OG	B-LC
+31	##의	O	O
+32	경제	O	O
+33	##제	O	O
+34	##재	O	O
+35	##로	O	O
+36	이	O	O
+37	##들	O	O
+38	##은	O	O
+39	전혀	O	O
+40	영향	O	O
+41	##을	O	O
+42	받	O	O
+43	##지	O	O
+44	않	O	O
+45	##았	O	O
+46	##고	O	O
+47	,	O	O
+48	대신	O	O
+49	국민	B-CV	B-CV
+50	##들	O	O
+51	##만	O	O
+52	고통	O	O
+53	##을	O	O
+54	받	O	O
+55	##았	O	O
+56	##다	O	O
+57	”	O	O
+58	고	O	O
+59	지적	O	O
+60	##했	O	O
+61	##다	O	O
+62	.	O	O
+63	[SEP]	O	O

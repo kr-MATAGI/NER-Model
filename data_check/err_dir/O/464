@@ -1,10 +1,51 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	아	O	O	O, B-CV, B-OG, B-TM, B-LC
-2	~	O	O	O, B-CV, B-LC, B-PS, I-CV
-3	이천	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-4	##팔	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
-5	학년도	O	I-DT	I-DT, O, B-DT, I-QT, I-EV
-6	##부터	O	I-DT	I-DT, O, B-DT, I-QT, I-EV
-7	##는	O	O	O, I-DT, B-CV, I-QT, I-EV
-8	[SEP]	O	O	O, B-CV, B-LC, B-OG, I-DT
+	text	label	preds
+0	[CLS]	O	O
+1	엘지	B-OG	B-OG
+2	##전자	I-OG	I-OG
+3	##는	O	O
+4	같	B-DT	B-DT
+5	##은	I-DT	I-DT
+6	날	I-DT	I-DT
+7	김치	B-TM	B-TM
+8	##냉	I-TM	I-TM
+9	##장	I-TM	I-TM
+10	##고	I-TM	I-TM
+11	‘	O	O
+12	디오	B-AF	B-TM
+13	##스	I-AF	I-TM
+14	(	I-AF	I-TM
+15	DI	I-AF	I-TM
+16	##OS	I-AF	I-TM
+17	)	I-AF	I-TM
+18	김치	I-AF	I-TM
+19	##톡	I-AF	I-TM
+20	##톡	I-AF	I-TM
+21	’	O	O
+22	신제	O	O
+23	##품	O	O
+24	##을	O	O
+25	선보이	O	O
+26	##며	O	O
+27	‘	O	O
+28	유산균	O	B-CV
+29	##김치	B-CV	B-CV
+30	+	O	I-CV
+31	’	O	O
+32	기능	O	O
+33	##으로	O	O
+34	김치	O	B-CV
+35	##맛	O	O
+36	##을	O	O
+37	잘	O	O
+38	살려	O	O
+39	##줄	O	O
+40	수	O	O
+41	있	O	O
+42	##다는	O	O
+43	점	O	O
+44	##을	O	O
+45	강조	O	O
+46	##했	O	O
+47	##다	O	O
+48	.	O	O
+49	[SEP]	O	O

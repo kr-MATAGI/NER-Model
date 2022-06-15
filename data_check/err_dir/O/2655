@@ -1,44 +1,46 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	바젤	B-OG	B-OG	B-OG, O, B-PS, B-LC, B-AF
-2	##위원회	I-OG	I-OG	I-OG, O, I-EV, I-AF, I-PS
-3	##는	O	O	O, I-OG, I-EV, I-AF, B-CV
-4	또	O	O	O, B-LC, B-CV, B-OG, B-TM
-5	단기	O	O	O, B-CV, B-LC, B-AF, B-TM
-6	##유	O	O	O, I-CV, I-AF, B-CV, B-MT
-7	##동	O	O	O, I-CV, I-AF, B-LC, B-MT
-8	##성	O	O	O, B-LC, I-AF, B-PS, B-MT
-9	##비	O	O	O, I-AF, I-LC, B-LC, I-TM
-10	##율	O	O	O, B-LC, B-PS, I-AF, I-LC
-11	##에	O	O	O, B-CV, B-OG, B-LC, B-TM
-12	포함	O	O	O, B-CV, B-TM, B-LC, B-OG
-13	##되	O	O	O, B-LC, B-PS, B-CV, B-OG
-14	##는	O	O	O, B-LC, B-OG, B-TM, B-CV
-15	자산	O	O	O, B-CV, B-LC, B-TM, B-AF
-16	##을	O	O	O, B-LC, B-CV, B-OG, B-TM
-17	신용	O	O	O, B-CV, B-QT, B-LC, B-FD
-18	##등	O	O	O, B-QT, I-QT, I-CV, I-LC
-19	##급	O	O	O, I-QT, B-QT, B-PS, I-OG
-20	BB	B-QT	B-QT	B-QT, O, I-QT, B-PS, B-OG
-21	##B	I-QT	I-QT	I-QT, O, I-OG, B-QT, I-LC
-22	-	I-QT	I-QT	I-QT, O, I-OG, B-QT, I-LC
-23	이상	I-QT	I-QT	I-QT, O, I-OG, I-LC, B-QT
-24	##인	O	O	O, I-QT, I-CV, I-LC, I-OG
-25	회사채	O	O	O, B-AF, B-CV, B-FD, B-MT
-26	##와	O	O	O, I-AF, B-LC, B-AF, B-CV
-27	우량	O	O	O, B-CV, B-AF, B-LC, B-OG
-28	모기지	O	B-AF	B-AF, O, B-CV, I-AF, I-CV
-29	##담	O	I-AF	I-AF, O, I-CV, B-CV, B-AF
-30	##보	O	I-AF	I-AF, O, I-CV, I-TM, I-OG
-31	##부	O	I-AF	I-AF, O, I-CV, I-TM, I-OG
-32	##증권	O	I-AF	I-AF, O, I-CV, I-TM, I-OG
-33	등	O	O	O, I-AF, I-CV, I-OG, I-TM
-34	##까	O	O	O, B-LC, B-TM, B-CV, B-OG
-35	##지도	O	O	O, B-TM, B-LC, B-QT, B-OG
-36	확대	O	O	O, B-LC, B-OG, B-TM, B-CV
-37	##하기	O	O	O, B-LC, B-OG, B-PS, I-OG
-38	##로	O	O	O, B-OG, I-OG, B-CV, B-PS
-39	했	O	O	O, B-OG, B-LC, B-CV, B-PS
-40	##다	O	O	O, B-CV, I-OG, B-OG, B-LC
-41	.	O	O	O, B-LC, B-OG, B-AF, B-PS
-42	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-AF
+	text	label	preds
+0	[CLS]	O	O
+1	급여	O	O
+2	5500	B-QT	B-QT
+3	##만	I-QT	I-QT
+4	원	I-QT	I-QT
+5	이하	I-QT	I-QT
+6	근로자	B-CV	B-CV
+7	##는	O	O
+8	정부안	O	O
+9	##대로	O	O
+10	12	B-QT	B-QT
+11	%	I-QT	I-QT
+12	공제	O	O
+13	##를	O	O
+14	해	O	O
+15	주지	O	O
+16	##만	O	O
+17	,	O	O
+18	연봉	O	O
+19	5500	B-QT	B-QT
+20	##만	I-QT	I-QT
+21	##∼	I-QT	I-QT
+22	##70	I-QT	I-QT
+23	##00	I-QT	I-QT
+24	##만	I-QT	I-QT
+25	원	I-QT	I-QT
+26	소득	B-CV	B-CV
+27	##자	I-CV	I-CV
+28	##는	O	O
+29	현	O	O
+30	수준	O	O
+31	##인	O	O
+32	10	B-QT	B-QT
+33	%	I-QT	I-QT
+34	까지	O	I-QT
+35	##만	O	I-QT
+36	공제	O	O
+37	##해	O	O
+38	주기	O	O
+39	##로	O	O
+40	결정	O	O
+41	##했	O	O
+42	##다	O	O
+43	.	O	O
+44	[SEP]	O	O

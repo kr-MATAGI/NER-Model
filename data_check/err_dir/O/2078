@@ -1,30 +1,56 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-EV, I-CV, I-OG
-1	그	O	O	O, B-CV, B-OG, B-PS, B-LC
-2	##는	O	O	O, B-CV, B-PS, B-LC, I-EV
-3	1990	B-DT	B-DT	B-DT, I-DT, O, B-QT, B-LC
-4	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-5	##대	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-6	후반	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-TI
-7	##에	O	O	O, I-DT, B-LC, B-CV, B-OG
-8	아시아	B-LC	B-LC	B-LC, O, B-OG, B-AF, I-LC
-9	##에서	O	O	O, I-LC, I-EV, B-LC, I-OG
-10	발생	O	O	O, B-CV, B-EV, B-LC, I-EV
-11	##했	O	O	O, B-PS, B-LC, B-EV, B-OG
-12	##던	O	O	O, B-EV, B-LC, I-EV, B-PS
-13	금융	O	B-EV	B-EV, O, I-EV, B-CV, B-OG
-14	위기	O	I-EV	I-EV, O, B-EV, I-OG, I-AF
-15	##가	O	O	O, I-EV, B-PS, I-OG, B-LC
-16	이번	O	O	O, B-LC, B-DT, B-EV, B-PS
-17	미국	B-LC	B-LC	B-LC, O, B-OG, B-EV, I-LC
-18	##발	O	O	O, I-EV, I-LC, I-OG, I-AF
-19	위기	O	O	O, B-EV, I-EV, B-CV, B-PS
-20	##의	O	O	O, I-EV, B-PS, B-CV, B-OG
-21	리허설	O	O	O, B-LC, B-EV, B-CV, B-AF
-22	##이	O	O	O, B-PS, I-EV, B-CV, B-LC
-23	##었	O	O	O, B-CV, B-PS, B-LC, I-EV
-24	##다고	O	O	O, B-CV, I-EV, B-PS, B-OG
-25	했	O	O	O, B-CV, B-PS, B-OG, B-LC
-26	##다	O	O	O, B-CV, I-EV, B-PS, B-LC
-27	.	O	O	O, B-LC, B-PS, B-CV, I-EV
-28	[SEP]	O	O	O, B-LC, B-CV, I-EV, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	안	B-PS	B-PS
+2	대사	B-CV	B-CV
+3	##는	O	O
+4	또	O	O
+5	""""	O	O
+6	올해	B-DT	B-DT
+7	한	B-LC	B-LC
+8	·	O	O
+9	미	B-LC	B-LC
+10	동맹	O	O
+11	60	B-DT	B-DT
+12	##주	I-DT	I-DT
+13	##년	I-DT	I-DT
+14	##을	O	O
+15	계기	O	O
+16	##로	O	O
+17	양국	O	O
+18	간	O	O
+19	협력	O	O
+20	##을	O	O
+21	강화	O	O
+22	##하	O	O
+23	##기	O	O
+24	위해	O	O
+25	미국	B-LC	B-LC
+26	당국자	B-CV	B-CV
+27	##들	O	O
+28	##과	O	O
+29	인적	O	O
+30	네트	O	O
+31	##워	O	O
+32	##킹	O	O
+33	##을	O	O
+34	확대	O	O
+35	##하	O	O
+36	##는	O	O
+37	것	O	O
+38	##을	O	O
+39	주미	O	B-OG
+40	대사관	O	I-OG
+41	##의	O	O
+42	핵심	O	O
+43	과제	O	O
+44	##로	O	O
+45	추진	O	O
+46	##할	O	O
+47	것	O	O
+48	""""	O	O
+49	이라	O	O
+50	##고	O	O
+51	했	O	O
+52	##다	O	O
+53	.	O	O
+54	[SEP]	O	O

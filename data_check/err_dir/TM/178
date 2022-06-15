@@ -1,62 +1,24 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	저장	O	O	O, B-TM, B-CV, B-LC, B-PS
-2	##된	O	O	O, B-CV, B-PS, B-TM, B-LC
-3	파일	O	O	O, B-TM, B-CV, B-LC, B-AF
-4	2800	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-PS
-5	##여	I-QT	I-QT	I-QT, O, I-LC, I-PS, I-DT
-6	##개	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-7	가운데	B-TM	O	O, B-TM, I-QT, B-OG, B-LC
-8	인사	O	O	O, B-CV, I-CV, B-FD, B-TM
-9	지원	O	O	O, I-CV, B-CV, B-TM, B-PS
-10	##을	O	O	O, B-PS, B-CV, B-TM, B-LC
-11	위한	O	O	O, B-PS, B-LC, B-TM, B-QT
-12	‘	O	O	O, B-CV, B-LC, B-TM, B-QT
-13	이력서	O	O	O, B-CV, B-TM, B-AF, B-EV
-14	’	O	O	O, I-CV, B-CV, B-PS, I-AF
-15	또는	O	O	O, B-TM, B-QT, B-CV, B-PS
-16	‘	O	O	O, B-CV, B-TM, B-LC, B-QT
-17	자기	O	O	O, B-CV, B-AF, B-TM, B-PS
-18	##소	O	O	O, I-CV, I-AF, B-CV, I-TM
-19	##개	O	O	O, I-CV, I-AF, I-TM, B-CV
-20	##서	O	O	O, I-CV, I-AF, B-CV, I-TM
-21	’	O	O	O, B-CV, B-PS, B-TM, I-CV
-22	형식	O	O	O, B-TM, B-QT, B-CV, B-LC
-23	##을	O	O	O, B-CV, B-PS, B-TM, B-LC
-24	띤	O	O	O, B-CV, B-TM, B-PS, B-LC
-25	파일	O	O	O, B-CV, B-TM, B-LC, B-PS
-26	##은	O	O	O, B-LC, B-CV, B-PS, B-TM
-27	‘	O	O	O, B-LC, B-CV, B-TM, B-OG
-28	유	B-PS	B-PS	B-PS, O, B-LC, B-AF, I-PS
-29	##○○	O	O	O, I-PS, I-AF, B-CV, I-CV
-30	이력서	O	O	O, B-TM, B-CV, B-AF, I-AF
-31	’	O	O	O, I-AF, I-CV, B-CV, B-PS
-32	,	O	O	O, B-CV, B-LC, B-TM, B-PS
-33	‘	O	O	O, B-LC, B-CV, B-TM, B-PS
-34	박	B-PS	B-PS	B-PS, O, B-LC, B-AF, I-PS
-35	##○○	O	O	O, I-PS, B-CV, I-AF, I-CV
-36	이력서	O	O	O, B-TM, B-AF, B-CV, I-AF
-37	’	O	O	O, B-CV, I-AF, I-CV, B-PS
-38	단	O	O	O, B-TM, B-CV, B-QT, B-LC
-39	2	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-PS
-40	##개	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-41	##뿐	O	O	O, I-QT, B-PS, B-TM, B-LC
-42	##인	O	O	O, B-PS, B-CV, B-LC, B-OG
-43	##데	O	O	O, B-LC, B-TM, B-OG, B-QT
-44	,	O	O	O, B-CV, B-LC, B-OG, B-TM
-45	두	B-QT	B-QT	B-QT, O, I-QT, B-PS, B-DT
-46	사람	I-QT	I-QT	I-QT, O, I-EV, I-LC, I-PS
-47	모두	O	O	O, I-QT, B-CV, B-TM, B-PS
-48	동지	B-OG	O	O, B-OG, B-CV, B-LC, B-PS
-49	##상	I-OG	O	O, I-OG, B-OG, B-LC, I-CV
-50	##고	I-OG	O	O, I-OG, I-LC, I-CV, I-PS
-51	또는	O	O	O, I-OG, I-CV, I-LC, I-AF
-52	영일	B-LC	B-LC	B-LC, O, B-OG, B-CV, B-PS
-53	출신	O	O	O, I-LC, I-CV, B-CV, I-OG
-54	##인	O	O	O, I-CV, B-PS, B-CV, I-LC
-55	것	O	O	O, B-CV, B-PS, B-TM, I-CV
-56	##으로	O	O	O, B-CV, I-CV, B-PS, B-TM
-57	드러났	O	O	O, B-CV, B-LC, B-TM, B-PS
-58	##다	O	O	O, B-CV, B-TM, I-CV, B-LC
-59	.	O	O	O, B-CV, B-LC, B-TM, B-PS
-60	[SEP]	O	O	O, B-CV, B-TM, B-LC, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	어떻게	O	O
+2	##든	O	O
+3	왼손	B-AM	B-AM
+4	투수	B-CV	B-CV
+5	##의	O	O
+6	장점	O	O
+7	##을	O	O
+8	살려	O	O
+9	##보	O	O
+10	##려고	O	O
+11	변칙	O	O
+12	투구	B-TM	O
+13	폼	O	O
+14	##까	O	O
+15	##지	O	O
+16	주문	O	O
+17	##했	O	O
+18	##던	O	O
+19	것	O	O
+20	##이다	O	O
+21	.	O	O
+22	[SEP]	O	O

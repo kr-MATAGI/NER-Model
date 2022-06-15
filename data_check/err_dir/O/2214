@@ -1,41 +1,26 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	현재	O	O	O, B-CV, B-TM, B-LC, B-QT
-2	장기	O	O	O, B-AF, B-CV, B-TM, B-LC
-3	##임	O	O	O, I-AF, I-CV, B-AF, I-TM
-4	##대	O	O	O, I-AF, I-CV, I-TM, I-LC
-5	##주택	O	O	O, I-AF, I-CV, I-TM, I-LC
-6	##의	O	O	O, I-AF, I-CV, I-TM, B-PS
-7	보급	O	O	O, B-CV, B-TM, B-LC, B-AF
-8	##률	O	O	O, B-LC, I-AF, B-PS, I-TM
-9	##은	O	O	O, B-CV, B-TM, B-OG, B-LC
-10	전체	O	O	O, B-TM, B-CV, B-QT, B-AF
-11	주택	O	O	O, B-AF, I-AF, B-CV, B-TM
-12	##의	O	O	O, B-PS, B-CV, B-QT, I-AF
-13	5	B-QT	B-QT	B-QT, O, I-QT, B-LC, B-DT
-14	.	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-15	6	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-16	%	I-QT	I-QT	I-QT, O, I-LC, I-PS, I-OG
-17	인데	O	O	O, I-QT, B-PS, B-CV, B-OG
-18	,	O	O	O, B-CV, I-QT, B-OG, B-LC
-19	이를	O	O	O, B-QT, B-PS, B-TM, B-CV
-20	갑	O	O	O, B-QT, I-QT, B-PS, B-AM
-21	##절	O	I-QT	I-QT, O, I-LC, B-QT, I-OG
-22	이상	O	O	O, I-QT, B-QT, I-LC, I-PS
-23	##으로	O	O	O, I-QT, B-QT, B-PS, B-LC
-24	높여	O	O	O, I-QT, B-QT, B-LC, B-PS
-25	취약	O	O	O, B-CV, I-CV, B-PS, B-TM
-26	##계	O	O	O, I-CV, B-CV, I-QT, I-TM
-27	##층	O	O	O, I-CV, B-CV, I-QT, I-TM
-28	##의	O	O	O, I-CV, B-CV, B-PS, B-QT
-29	주거	O	O	O, B-CV, I-CV, B-PS, B-TM
-30	##안	O	O	O, I-CV, B-CV, I-TM, I-TR
-31	##정	O	O	O, I-CV, I-TM, I-LC, I-TR
-32	##을	O	O	O, I-CV, B-CV, B-PS, I-QT
-33	꾀하	O	O	O, B-CV, B-QT, B-OG, B-TM
-34	##겠다	O	O	O, B-CV, I-QT, I-CV, B-PS
-35	##는	O	O	O, B-CV, B-TM, B-OG, I-CV
-36	뜻	O	O	O, B-CV, B-TM, B-QT, B-PS
-37	##이다	O	O	O, B-CV, B-TM, I-CV, I-QT
-38	.	O	O	O, B-LC, B-PS, B-CV, B-TM
-39	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	112	B-QT	B-QT
+2	##신	O	I-QT
+3	##고	O	I-QT
+4	##를	O	O
+5	받	O	O
+6	##고	O	O
+7	이번	O	O
+8	##에도	O	O
+9	비슷	O	O
+10	##한	O	O
+11	사건	O	O
+12	##일	O	O
+13	것	O	O
+14	##이	O	O
+15	##라고	O	O
+16	생각	O	O
+17	##했	O	O
+18	##다	O	O
+19	”	O	O
+20	고	O	O
+21	했	O	O
+22	##다	O	O
+23	.	O	O
+24	[SEP]	O	O

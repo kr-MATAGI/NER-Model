@@ -1,70 +1,25 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	정부	B-OG	B-OG	B-OG, O, B-LC, B-PS, B-AF
-2	##가	O	O	O, I-OG, B-PS, B-OG, B-CV
-3	우리	B-OG	B-OG	B-OG, O, B-CV, B-AF, B-LC
-4	##금융	I-OG	I-OG	I-OG, O, B-OG, I-CV, I-LC
-5	우선	O	B-CV	B-CV, O, I-CV, I-OG, B-QT
-6	##협	O	I-CV	I-CV, O, B-CV, I-OG, I-QT
-7	##상	O	I-CV	I-CV, O, B-CV, I-OG, I-QT
-8	##대	O	I-CV	I-CV, O, B-CV, I-OG, I-QT
-9	##상	O	I-CV	I-CV, O, B-CV, I-OG, I-QT
-10	##자	O	I-CV	I-CV, O, B-CV, I-OG, I-QT
-11	##를	O	O	O, I-CV, B-PS, B-LC, B-CV
-12	내년	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-13	1	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-OG
-14	##분	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-OG
-15	##기	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-OG
-16	(	I-DT	I-DT	I-DT, O, B-DT, B-LC, I-QT
-17	1	I-DT	I-DT	I-DT, B-DT, O, B-QT, B-LC
-18	~	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-OG
-19	3	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-OG
-20	##월	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-OG
-21	)	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-OG
-22	까지	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-TI
-23	선정	O	O	O, I-DT, B-OG, B-LC, B-CV
-24	##하기	O	O	O, B-PS, B-LC, B-OG, B-CV
-25	##로	O	O	O, B-CV, B-PS, B-OG, B-LC
-26	한	O	O	O, B-OG, B-PS, B-CV, B-LC
-27	것	O	O	O, B-OG, B-PS, B-LC, B-CV
-28	##과	O	O	O, B-CV, B-OG, B-LC, B-PS
-29	관련	O	O	O, B-OG, B-LC, B-CV, B-TM
-30	,	O	O	O, B-LC, B-PS, B-OG, B-CV
-31	어	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-32	회장	B-CV	B-CV	B-CV, O, I-PS, I-CV, B-PS
-33	##은	O	O	O, I-CV, B-CV, I-EV, I-QT
-34	""""	O	O	O, B-LC, B-CV, B-PS, B-OG
-35	(	O	O	O, B-LC, B-PS, B-OG, B-CV
-36	입찰	O	O	O, B-CV, B-LC, B-EV, B-PS
-37	##이	O	O	O, B-PS, B-OG, B-LC, B-CV
-38	실제로	O	O	O, B-LC, B-PS, B-CV, B-QT
-39	진행	O	O	O, B-OG, B-LC, B-CV, B-PS
-40	##될	O	O	O, B-LC, B-PS, B-OG, B-CV
-41	)	O	O	O, B-LC, B-PS, B-CV, B-OG
-42	6	B-DT	B-DT	B-DT, O, I-DT, B-LC, B-EV
-43	##개	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-44	##월	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-45	뒤	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-OG
-46	##에도	O	O	O, I-DT, B-LC, B-CV, B-PS
-47	은행	O	O	O, B-OG, B-CV, B-TM, B-LC
-48	##이	O	O	O, B-PS, B-OG, B-LC, B-CV
-49	좋아	O	O	O, B-CV, B-LC, B-OG, B-TM
-50	##질	O	O	O, B-PS, B-LC, B-OG, B-CV
-51	수	O	O	O, B-PS, B-LC, B-OG, I-OG
-52	없	O	O	O, B-CV, B-PS, B-LC, B-OG
-53	##다고	O	O	O, B-PS, B-CV, B-LC, B-OG
-54	생각	O	O	O, B-CV, B-PS, B-LC, B-TM
-55	##한다	O	O	O, B-CV, B-PS, B-LC, B-OG
-56	""""	O	O	O, B-CV, B-TM, B-LC, B-PS
-57	면서	O	O	O, B-LC, B-PS, B-CV, B-QT
-58	우리	B-OG	B-OG	B-OG, O, B-AF, B-LC, B-CV
-59	##금융	I-OG	I-OG	I-OG, O, B-OG, I-LC, I-CV
-60	인수	O	O	O, I-OG, B-CV, I-CV, I-AF
-61	가능	O	O	O, B-PS, B-CV, B-TM, B-OG
-62	##성	O	O	O, B-PS, B-LC, B-OG, B-CV
-63	##을	O	O	O, B-CV, B-OG, B-PS, B-TM
-64	일축	O	O	O, B-CV, B-TM, B-QT, B-OG
-65	##했	O	O	O, B-CV, B-PS, B-LC, I-CV
-66	##다	O	O	O, B-CV, B-LC, B-OG, B-TM
-67	.	O	O	O, B-LC, B-PS, B-OG, B-CV
-68	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	4	B-QT	B-QT
+2	##차	I-QT	I-QT
+3	##선	I-QT	I-QT
+4	도로	O	O
+5	위쪽	O	B-TM
+6	##엔	O	O
+7	잘	O	O
+8	정비	O	O
+9	##된	O	O
+10	아파트	O	O
+11	단지	O	O
+12	##가	O	O
+13	들어서	O	O
+14	있	O	O
+15	##고	O	O
+16	,	O	O
+17	아래쪽	O	O
+18	##은	O	O
+19	서민	B-CV	B-CV
+20	주택가	O	O
+21	##다	O	O
+22	.	O	O
+23	[SEP]	O	O

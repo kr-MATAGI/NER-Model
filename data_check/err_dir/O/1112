@@ -1,30 +1,22 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	동부	B-OG	B-OG	B-OG, O, B-LC, I-OG, B-PS
-2	##는	O	O	O, I-OG, B-CV, I-AF, I-EV
-3	김주성	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-4	##이	O	O	O, I-PS, B-PS, B-CV, I-AF
-5	전반	O	B-TI	B-TI, O, B-EV, B-QT, I-TI
-6	착	O	O	O, I-TI, B-TM, I-TM, I-EV
-7	##지	O	O	O, I-TM, I-PS, I-LC, I-AF
-8	도중	O	O	O, B-TM, B-PS, B-CV, B-LC
-9	허리	O	B-AM	B-AM, O, B-TM, B-TR, I-AM
-10	##를	O	O	O, I-TM, I-AM, I-TR, B-TM
-11	삐	O	O	O, B-TM, B-LC, B-PS, B-CV
-12	##긋	O	O	O, I-TM, B-PS, I-PS, I-LC
-13	##해	O	O	O, B-LC, B-PS, B-TM, I-PS
-14	후반	O	B-TI	B-TI, O, B-EV, B-QT, I-TI
-15	내내	O	O	O, I-TI, B-TI, I-DT, I-QT
-16	벤치	O	O	O, B-CV, B-TM, B-LC, B-AF
-17	##를	O	O	O, B-CV, I-CV, I-AF, B-TM
-18	지키	O	O	O, B-CV, B-LC, B-TM, B-PS
-19	##면서	O	O	O, B-QT, B-CV, B-LC, B-TM
-20	3	B-QT	B-QT	B-QT, O, B-EV, I-QT, B-TM
-21	##연	I-QT	I-QT	I-QT, O, I-EV, B-QT, I-LC
-22	##승	I-QT	I-QT	I-QT, O, I-EV, I-LC, I-OG
-23	##이	O	O	O, I-QT, I-EV, B-CV, B-OG
-24	좌절	O	O	O, B-CV, B-OG, B-TM, B-QT
-25	##됐	O	O	O, B-CV, I-OG, B-OG, I-EV
-26	##다	O	O	O, B-CV, B-TM, B-QT, B-OG
-27	.	O	O	O, B-LC, B-CV, B-PS, B-TM
-28	[SEP]	O	O	O, B-CV, B-LC, B-TM, I-EV
+	text	label	preds
+0	[CLS]	O	O
+1	해체	O	O
+2	위기	O	O
+3	##에	O	O
+4	놓인	O	O
+5	신한	O	B-OG
+6	##류	O	I-OG
+7	##의	O	O
+8	주역	O	B-CV
+9	카라	B-PS	B-PS
+10	##가	O	O
+11	1	B-QT	B-QT
+12	##위	I-QT	I-QT
+13	(	O	O
+14	12	B-QT	B-QT
+15	##점	I-QT	I-QT
+16	)	O	O
+17	였	O	O
+18	##다	O	O
+19	.	O	O
+20	[SEP]	O	O

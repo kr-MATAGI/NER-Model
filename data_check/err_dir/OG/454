@@ -1,20 +1,46 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-EV
-1	北	B-OG	B-LC	B-LC, B-OG, O, B-TM, B-CV
-2	,	O	O	O, I-OG, B-CV, I-LC, B-LC
-3	워싱턴	B-LC	B-LC	B-LC, B-OG, O, B-PS, B-AF
-4	향해	O	O	O, I-OG, I-LC, B-CV, B-LC
-5	화해	O	O	O, B-CV, B-LC, B-PS, B-OG
-6	손짓	O	O	O, B-LC, B-CV, B-PS, B-OG
-7	?	O	O	O, I-OG, B-PS, B-CV, I-CV
-8	;	O	O	O, B-LC, B-PS, B-CV, B-OG
-9	강석	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
-10	##주	I-PS	I-PS	I-PS, O, I-OG, I-LC, B-PS
-11	등	O	O	O, I-PS, B-CV, B-LC, B-PS
-12	對	O	O	O, B-LC, B-OG, B-CV, B-TM
-13	美	O	O	O, B-LC, B-OG, I-LC, B-CV
-14	외교	O	O	O, B-CV, I-CV, B-LC, I-LC
-15	##라인	O	O	O, I-CV, B-CV, B-PS, I-LC
-16	모두	O	O	O, B-PS, B-CV, B-QT, B-TM
-17	승진	O	O	O, B-CV, B-OG, B-TM, B-LC
-18	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	김	B-PS	B-PS
+2	부장	B-CV	B-CV
+3	##검사	I-CV	I-CV
+4	##는	O	O
+5	연수원	O	O
+6	동기	B-CV	B-CV
+7	##인	O	O
+8	의정부	B-OG	B-OG
+9	##지	I-OG	I-OG
+10	##검	I-OG	O
+11	고양	B-OG	B-OG
+12	##지	I-OG	I-OG
+13	##청	I-OG	I-OG
+14	노아	O	O
+15	##무	O	O
+16	##개	O	O
+17	차장	B-CV	B-CV
+18	##검사	I-CV	I-CV
+19	##를	O	O
+20	미리	O	O
+21	찾아가	O	O
+22	고소	O	O
+23	##가	O	O
+24	접수	O	O
+25	##되	O	O
+26	##면	O	O
+27	사건	O	O
+28	##을	O	O
+29	잘	O	O
+30	처리	O	O
+31	##해	O	O
+32	##달라	O	O
+33	##는	O	O
+34	취지	O	O
+35	##로	O	O
+36	부탁	O	O
+37	##을	O	O
+38	하	O	O
+39	##기	O	O
+40	##도	O	O
+41	했	O	O
+42	##다	O	O
+43	.	O	O
+44	[SEP]	O	O

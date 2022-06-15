@@ -1,34 +1,33 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, I-OG, B-CV, I-AF
-1	독서실	O	O	O, B-OG, B-AF, B-CV, B-LC
-2	총무	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-FD
-3	,	O	O	O, I-CV, I-OG, I-AF, B-PS
-4	구로	B-OG	B-LC	B-LC, B-AF, O, B-OG, B-PS
-5	##공단	I-OG	I-LC	I-LC, I-AF, O, I-OG, B-LC
-6	비닐	O	O	O, B-MT, I-AF, I-LC, B-AF
-7	##공	O	O	O, I-AF, I-LC, I-OG, I-MT
-8	##장	O	O	O, I-AF, I-LC, I-OG, I-CV
-9	,	O	O	O, I-AF, B-LC, I-LC, I-OG
-10	김포	B-LC	B-LC	B-LC, O, B-OG, B-AF, I-LC
-11	##의	O	O	O, I-LC, I-AF, I-OG, I-PS
-12	주물	O	O	O, B-MT, B-AF, B-CV, B-LC
-13	##공	O	O	O, I-AF, I-LC, I-CV, I-OG
-14	##장	O	O	O, I-AF, I-LC, I-CV, I-OG
-15	,	O	O	O, B-LC, I-AF, B-PS, I-OG
-16	액세서리	O	O	O, B-CV, B-LC, B-TM, B-AF
-17	가	O	O	O, B-CV, B-LC, B-OG, B-AF
-18	##내	O	O	O, I-CV, I-OG, I-LC, I-AF
-19	수공	O	O	O, B-CV, B-OG, B-LC, I-CV
-20	##업체	O	O	O, I-CV, I-OG, I-LC, I-QT
-21	등지	O	O	O, B-CV, I-OG, B-LC, B-PS
-22	##를	O	O	O, B-CV, B-LC, B-PS, B-TM
-23	이리저리	O	O	O, B-LC, B-CV, B-PS, B-TM
-24	옮겨	O	O	O, B-LC, B-CV, B-PS, B-TM
-25	##다니	O	O	O, B-LC, B-PS, I-LC, B-CV
-26	##며	O	O	O, B-LC, B-PS, I-LC, B-CV
-27	일	O	O	O, B-CV, B-LC, B-OG, B-TM
-28	##했	O	O	O, B-PS, B-LC, B-CV, B-OG
-29	##지	O	O	O, B-LC, B-PS, B-CV, B-OG
-30	##요	O	O	O, I-LC, I-OG, B-LC, I-PS
-31	.	O	O	O, B-LC, I-LC, B-CV, B-PS
-32	[SEP]	O	O	O, B-LC, B-CV, I-LC, B-AF
+	text	label	preds
+0	[CLS]	O	O
+1	영암	B-OG	B-OG
+2	F	I-OG	I-OG
+3	##1	I-OG	I-OG
+4	서킷	I-OG	I-OG
+5	##이	O	O
+6	지난해	B-DT	B-DT
+7	개장	O	O
+8	##했	O	O
+9	##기	O	O
+10	때문	O	O
+11	##에	O	O
+12	드라이버	B-CV	B-CV
+13	##들	O	O
+14	##은	O	O
+15	영암	B-OG	B-AF
+16	F	I-OG	I-AF
+17	##1	I-OG	I-AF
+18	서킷	I-OG	I-AF
+19	##보	O	O
+20	##다는	O	O
+21	태백	B-AF	B-AF
+22	##레이	I-AF	I-AF
+23	##싱	I-AF	I-AF
+24	##파크	I-AF	I-AF
+25	##에	O	O
+26	더	O	O
+27	익숙	O	O
+28	##하	O	O
+29	##다	O	O
+30	.	O	O
+31	[SEP]	O	O

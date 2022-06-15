@@ -1,33 +1,22 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	[	O	O	O, B-LC, B-OG, B-CV, B-PS
-2	월	B-AF	O	O, B-CV, B-AF, B-LC, B-TM
-3	##요	I-AF	O	O, I-CV, I-AF, I-TM, I-PS
-4	##바	I-AF	B-CV	B-CV, I-CV, O, I-AF, I-TM
-5	##둑	I-AF	I-CV	I-CV, O, I-TM, I-AF, B-CV
-6	]	O	O	O, I-CV, I-AF, I-TM, I-OG
-7	여성	O	O	O, B-CV, B-LC, B-TM, B-PS
-8	##이	O	O	O, B-PS, B-CV, B-LC, B-OG
-9	##냐	O	O	O, B-PS, I-PS, B-LC, B-CV
-10	,	O	O	O, B-PS, B-LC, B-CV, B-OG
-11	시니어	B-CV	B-CV	B-CV, O, B-AF, I-CV, B-TM
-12	(	O	O	O, I-CV, B-CV, B-PS, I-EV
-13	45	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-EV
-14	##세	I-QT	I-QT	I-QT, O, I-LC, I-EV, I-PS
-15	이상	I-QT	I-QT	I-QT, O, I-LC, I-PS, I-EV
-16	남성	O	O	O, I-QT, B-CV, B-TM, B-LC
-17	)	O	O	O, B-CV, B-PS, B-LC, B-OG
-18	냐	O	O	O, B-PS, B-LC, B-CV, B-EV
-19	…	O	O	O, B-LC, B-PS, B-CV, B-OG
-20	최후	O	B-CV	B-CV, O, B-AF, B-AM, B-PS
-21	##승	O	I-CV	I-CV, B-CV, O, I-AF, B-AM
-22	##자	O	I-CV	I-CV, O, B-CV, I-AF, I-TM
-23	놓	O	O	O, I-CV, B-CV, B-PS, B-LC
-24	##고	O	O	O, B-LC, B-CV, B-PS, B-TM
-25	'	O	O	O, B-LC, B-CV, B-OG, B-PS
-26	2	B-QT	B-QT	B-QT, O, I-QT, B-EV, B-TM
-27	##대	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-EV
-28	##2	I-QT	I-QT	I-QT, B-QT, O, I-LC, I-OG
-29	'	O	O	O, I-QT, B-CV, I-EV, I-OG
-30	대결	O	O	O, B-CV, B-LC, B-TM, B-EV
-31	[SEP]	O	O	O, B-LC, B-CV, B-PS, B-AF
+	text	label	preds
+0	[CLS]	O	O
+1	진짜	O	O
+2	북	B-AF	B-LC
+3	##핵	I-AF	B-AF
+4	##문제	O	O
+5	##를	O	O
+6	얘기	O	O
+7	##하	O	O
+8	##는데	O	O
+9	여자	O	O
+10	분이	O	O
+11	나오	O	O
+12	##셔	O	O
+13	가지	O	O
+14	##고	O	O
+15	너무	O	O
+16	반가	O	O
+17	##웠	O	O
+18	##어요	O	O
+19	.	O	O
+20	[SEP]	O	O

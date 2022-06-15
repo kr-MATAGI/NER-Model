@@ -1,12 +1,60 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	연고	O	B-TR	B-TR, O, I-TR, B-PS, B-TM
-2	##주의	O	I-TR	I-TR, O, B-TR, I-TM, I-FD
-3	##라	O	O	O, I-TR, I-AF, I-QT, I-OG
-4	##거나	O	O	O, B-CV, B-OG, B-LC, B-PS
-5	좀	O	O	O, B-CV, B-TM, B-LC, B-OG
-6	편의	O	B-TR	B-TR, O, I-TR, B-PS, B-FD
-7	##주의	O	I-TR	I-TR, O, B-TR, I-FD, I-TM
-8	##라	O	O	O, I-TR, I-AF, I-OG, I-QT
-9	##거나	O	O	O, B-CV, B-OG, B-LC, B-PS
-10	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	이달	B-DT	B-DT
+2	중순	I-DT	I-DT
+3	##부터	I-DT	I-DT
+4	정조	B-PS	B-DT
+5	##때	O	I-DT
+6	체계	O	O
+7	##적	O	O
+8	##으로	O	O
+9	정리	O	O
+10	##된	O	O
+11	민족	O	O
+12	##전	O	O
+13	##통	O	O
+14	무예	O	O
+15	##인	O	O
+16	'	O	O
+17	무예	B-FD	O
+18	##24	I-FD	B-QT
+19	##기	I-FD	I-QT
+20	'	O	O
+21	공연	O	O
+22	##을	O	O
+23	비롯	O	O
+24	##해	O	O
+25	정조	B-PS	B-PS
+26	##의	O	O
+27	친	O	O
+28	##위	O	O
+29	##부대	O	O
+30	##인	O	O
+31	장	B-EV	B-EV
+32	##용	I-EV	I-EV
+33	##영	I-EV	I-EV
+34	(	I-EV	I-EV
+35	壯	I-EV	I-EV
+36	勇	I-EV	O
+37	營	I-EV	I-EV
+38	)	I-EV	I-EV
+39	수위	I-EV	I-EV
+40	##의식	I-EV	I-EV
+41	,	O	O
+42	토요	B-DT	O
+43	##상	O	O
+44	##설	O	O
+45	##공	O	O
+46	##연	O	O
+47	등	O	O
+48	공연	O	O
+49	##프로	O	O
+50	##그램	O	O
+51	##이	O	O
+52	차례	O	O
+53	##로	O	O
+54	시작	O	O
+55	##된	O	O
+56	##다	O	O
+57	.	O	O
+58	[SEP]	O	O

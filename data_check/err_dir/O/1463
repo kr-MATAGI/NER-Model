@@ -1,44 +1,129 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	2007	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-2	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-3	3	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-4	##월	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-5	경마	B-LC	B-LC	B-LC, O, B-AF, B-TM, B-OG
-6	##공원	I-LC	I-LC	I-LC, O, I-AF, I-OG, I-TM
-7	안	O	O	O, B-TM, I-LC, I-TM, B-LC
-8	##에	O	O	O, B-OG, I-TM, I-OG, I-AF
-9	개점	O	O	O, B-OG, B-CV, B-TM, B-AF
-10	##한	O	O	O, B-OG, I-OG, B-PS, B-LC
-11	아름다운	O	B-OG	B-OG, O, I-OG, B-AF, B-TM
-12	가게	O	I-OG	I-OG, O, I-AF, I-CV, I-TM
-13	##는	O	O	O, I-OG, I-AF, I-EV, I-TM
-14	지금	O	O	O, B-CV, B-TM, B-QT, B-LC
-15	##까	O	O	O, B-LC, I-QT, B-QT, B-PS
-16	##지	O	O	O, B-LC, B-PS, I-QT, I-OG
-17	2	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-LC
-18	##천	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-19	##여	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-20	##만	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-21	##원	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-22	##의	O	O	O, I-QT, B-CV, B-OG, I-OG
-23	수익	O	O	O, B-TM, B-CV, I-QT, B-QT
-24	##을	O	O	O, B-CV, B-OG, B-PS, B-TM
-25	올려	O	O	O, B-LC, B-CV, B-TM, B-QT
-26	95	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-LC
-27	##가	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-EV
-28	##구	I-QT	I-QT	I-QT, O, I-LC, I-OG, I-EV
-29	##와	O	O	O, I-QT, I-OG, B-CV, B-TM
-30	5	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-EV
-31	##개	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-OG
-32	단체	O	O	O, I-QT, I-OG, B-CV, I-CV
-33	##에	O	O	O, B-CV, B-TM, I-QT, B-OG
-34	생필품	O	O	O, B-CV, B-TM, B-QT, B-LC
-35	##과	O	O	O, B-CV, B-OG, B-PS, B-TM
-36	성금	O	O	O, B-CV, B-TM, B-QT, B-LC
-37	##을	O	O	O, B-CV, B-OG, B-TM, I-CV
-38	전달	O	O	O, B-CV, B-TM, B-OG, B-LC
-39	##했	O	O	O, B-CV, I-OG, B-OG, B-LC
-40	##다	O	O	O, B-CV, B-OG, I-OG, B-TM
-41	.	O	O	O, B-LC, B-CV, B-OG, B-TM
-42	[SEP]	O	O	O, B-CV, B-OG, I-OG, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	중앙	B-OG	B-OG
+2	##대	I-OG	I-OG
+3	##는	O	O
+4	“	O	O
+5	이	O	B-PS
+6	학생	B-CV	B-CV
+7	##은	O	O
+8	1	B-QT	B-QT
+9	##차	I-QT	I-QT
+10	검사	O	O
+11	##에	O	O
+12	##서	O	O
+13	음성	O	O
+14	판정	O	O
+15	##을	O	O
+16	받	O	O
+17	##았	O	O
+18	##으며	O	O
+19	재검	O	O
+20	대상	O	O
+21	##도	O	O
+22	아닌	O	O
+23	것	O	O
+24	##으로	O	O
+25	확인	O	O
+26	##됐	O	O
+27	##다	O	O
+28	”	O	O
+29	며	O	O
+30	“	O	O
+31	15	B-DT	B-DT
+32	##일	I-DT	I-DT
+33	##부터	I-DT	I-DT
+34	법학	B-FD	B-AF
+35	##관	O	I-AF
+36	폐쇄	O	O
+37	##를	O	O
+38	해제	O	O
+39	##하	O	O
+40	##고	O	O
+41	15	B-DT	B-DT
+42	##일	I-DT	I-DT
+43	법학	B-FD	B-AF
+44	##관	O	I-AF
+45	##에	O	O
+46	##서	O	O
+47	예정	O	O
+48	##된	O	O
+49	시험	O	O
+50	##을	O	O
+51	뺀	O	O
+52	나머지	O	O
+53	시험	O	O
+54	##은	O	O
+55	예정	O	O
+56	##대로	O	O
+57	치르	O	O
+58	##기	O	O
+59	##로	O	O
+60	했	O	O
+61	##다	O	O
+62	”	O	O
+63	고	O	O
+64	밝혔	O	O
+65	##지만	O	O
+66	,	O	O
+67	이날	B-DT	B-DT
+68	밤	B-TI	B-TI
+69	학내	O	O
+70	커뮤니티	O	O
+71	##에	O	O
+72	메르스	B-OG	B-OG
+73	##대	I-OG	I-OG
+74	##책	I-OG	I-OG
+75	##위	I-OG	I-OG
+76	명의	O	O
+77	##로	O	O
+78	“	O	O
+79	처음	O	O
+80	##진	O	O
+81	##료	O	O
+82	##시	O	O
+83	역학	O	O
+84	##적	O	O
+85	##으로	O	O
+86	메르스	B-TM	B-TM
+87	가능	O	O
+88	##성이	O	O
+89	떨어져서	O	O
+90	2	B-QT	B-QT
+91	##차	I-QT	I-QT
+92	검사	O	O
+93	##가	O	O
+94	필요	O	O
+95	##하	O	O
+96	##지	O	O
+97	않	O	O
+98	##을	O	O
+99	것	O	O
+100	##으로	O	O
+101	보고	O	O
+102	##받	O	O
+103	##았	O	O
+104	##으나	O	O
+105	금	B-DT	B-DT
+106	##일	I-DT	I-DT
+107	발열	B-TM	B-TM
+108	##이	O	O
+109	지속	O	O
+110	##되	O	O
+111	##어	O	O
+112	다시	O	O
+113	삼성	B-AF	B-OG
+114	##병원	I-AF	I-OG
+115	응급실	O	O
+116	##을	O	O
+117	방문	O	O
+118	##하	O	O
+119	##였	O	O
+120	##고	O	O
+121	2	B-QT	B-QT
+122	##차	I-QT	I-QT
+123	검사	O	O
+124	##를	O	O
+125	저녁	B-TI	B-TI
+126	##에	O	O
+127	[SEP]	O	O

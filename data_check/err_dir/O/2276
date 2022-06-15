@@ -1,27 +1,58 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	과연	O	O	O, B-OG, B-LC, B-PS, B-TM
-2	페이스북	B-OG	B-OG	B-OG, B-LC, B-AF, B-TM, B-PS
-3	앱	O	O	O, B-TM, I-TM, I-OG, B-CV
-4	경제	O	O	O, I-TM, I-CV, I-OG, B-TM
-5	##가	O	O	O, B-PS, I-TM, B-CV, B-LC
-6	앞	O	O	O, B-LC, B-CV, B-TM, B-PS
-7	##으로	O	O	O, B-PS, B-CV, I-AF, I-DT
-8	##도	O	O	O, B-PS, B-LC, B-CV, B-DT
-9	계속	O	O	O, B-PS, B-LC, B-TM, B-CV
-10	희망	O	O	O, B-TM, B-AF, B-PS, B-CV
-11	##을	O	O	O, B-PS, I-AF, B-CV, B-AF
-12	줄지	O	O	O, B-PS, B-LC, B-TM, B-CV
-13	,	O	O	O, B-CV, I-AF, B-PS, B-LC
-14	아니면	O	O	O, B-CV, B-PS, B-LC, B-TM
-15	중세	O	B-DT	B-DT, O, B-LC, B-TI, B-OG
-16	기독교	B-OG	B-OG	B-OG, O, B-FD, I-OG, B-CV
-17	##처럼	O	O	O, I-OG, I-DT, I-CV, I-AF
-18	타락	O	O	O, B-CV, B-TM, B-LC, B-OG
-19	##하	O	O	O, B-PS, B-LC, B-OG, B-DT
-20	##게	O	O	O, B-CV, B-LC, B-TM, B-PS
-21	될지	O	O	O, B-LC, B-PS, B-CV, B-TM
-22	궁금	O	O	O, B-CV, B-TM, B-OG, B-PS
-23	##합니다	O	O	O, B-CV, I-OG, I-CV, I-AF
-24	.	O	O	O, B-LC, B-CV, B-PS, B-TM
-25	[SEP]	O	O	O, B-CV, B-LC, B-TM, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	문	B-PS	B-PS
+2	##철	I-PS	I-PS
+3	##상	I-PS	I-PS
+4	전국	B-OG	B-OG
+5	##금속	I-OG	I-OG
+6	##노조	I-OG	I-OG
+7	부산	B-CV	B-CV
+8	##양	I-CV	I-CV
+9	##산지	I-CV	I-CV
+10	##부	I-CV	I-CV
+11	##장	I-CV	I-CV
+12	##은	O	O
+13	“	O	O
+14	회사	O	O
+15	##의	O	O
+16	손해배상	O	B-CV
+17	청구	O	O
+18	##소송	O	O
+19	등이	O	O
+20	최	B-PS	B-PS
+21	##씨	O	O
+22	##를	O	O
+23	죽음	O	O
+24	##으로	O	O
+25	내	O	O
+26	##몬	O	O
+27	것	O	O
+28	##이	O	O
+29	명확	O	O
+30	##한	O	O
+31	##데	O	O
+32	##도	O	O
+33	아직	O	O
+34	##까	O	O
+35	##지	O	O
+36	근본	O	O
+37	문제	O	O
+38	해결	O	O
+39	##을	O	O
+40	위해	O	O
+41	협상	O	O
+42	##을	O	O
+43	요청	O	O
+44	##하	O	O
+45	##지	O	O
+46	않	O	O
+47	##는	O	O
+48	것	O	O
+49	##은	O	O
+50	기본	O	O
+51	도리	O	O
+52	##가	O	O
+53	아니	O	O
+54	##다	O	O
+55	.	O	O
+56	[SEP]	O	O

@@ -1,102 +1,28 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	한화그룹	B-OG	B-OG	B-OG, B-LC, O, B-AF, B-PS
-2	##의	O	O	O, I-OG, B-PS, B-CV, B-OG
-3	비자금	O	O	O, B-CV, B-TM, B-PS, B-LC
-4	조성	O	O	O, I-CV, B-CV, I-TM, I-PS
-5	의혹	O	O	O, B-PS, I-CV, B-CV, B-LC
-6	##을	O	O	O, B-CV, B-PS, B-LC, B-OG
-7	수사	O	O	O, B-CV, B-OG, B-LC, B-PS
-8	##중	O	O	O, B-PS, B-LC, I-OG, B-OG
-9	##인	O	O	O, B-PS, B-LC, B-OG, B-CV
-10	서울	B-OG	B-OG	B-OG, B-LC, B-AF, O, B-EV
-11	##서	I-OG	I-OG	I-OG, B-OG, O, I-LC, I-AF
-12	##부지	I-OG	I-OG	I-OG, O, I-LC, B-OG, I-AF
-13	##검	I-OG	I-OG	I-OG, O, I-LC, I-AF, B-OG
-14	형사	O	O	O, B-QT, B-TM, I-OG, B-LC
-15	##5	O	O	O, B-QT, I-QT, I-OG, I-LC
-16	##부	O	O	O, I-QT, B-QT, I-LC, I-TM
-17	(	O	O	O, I-QT, B-PS, B-CV, B-LC
-18	부장	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-OG
-19	이원	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-20	##곤	I-PS	I-PS	I-PS, O, I-OG, I-LC, I-QT
-21	)	O	O	O, I-PS, I-OG, B-CV, B-LC
-22	는	O	O	O, B-LC, B-OG, B-CV, B-PS
-23	한화그룹	B-OG	B-OG	B-OG, B-LC, O, B-PS, B-AF
-24	##이	O	O	O, I-OG, B-PS, I-PS, B-OG
-25	계열사	O	O	O, B-CV, B-LC, B-OG, B-TM
-26	##를	O	O	O, B-CV, B-LC, B-OG, B-PS
-27	동원	O	O	O, B-LC, B-CV, B-OG, B-PS
-28	##해	O	O	O, B-PS, B-LC, B-OG, B-CV
-29	사실상	O	O	O, B-PS, B-LC, B-OG, B-CV
-30	김	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
-31	회장	B-CV	B-CV	B-CV, O, I-PS, I-CV, B-OG
-32	일가	O	O	O, I-CV, B-CV, I-OG, I-EV
-33	##가	O	O	O, B-PS, B-LC, B-OG, B-CV
-34	소유	O	O	O, B-CV, B-PS, B-LC, B-TM
-35	##한	O	O	O, B-PS, B-LC, B-OG, B-CV
-36	업체	O	O	O, B-CV, B-PS, B-LC, B-OG
-37	##에	O	O	O, B-PS, B-CV, B-LC, B-OG
-38	수천억	O	O	O, B-LC, B-PS, B-CV, B-TM
-39	##원	O	O	O, B-CV, B-PS, B-LC, I-CV
-40	##을	O	O	O, B-CV, B-LC, B-PS, B-OG
-41	부당	O	O	O, B-CV, I-CV, B-PS, B-LC
-42	##지원	O	O	O, I-CV, B-CV, I-LC, I-PS
-43	##한	O	O	O, I-CV, B-PS, B-CV, I-PS
-44	혐의	O	O	O, B-CV, I-CV, B-PS, B-LC
-45	(	O	O	O, B-PS, B-LC, I-CV, B-CV
-46	특가	B-CV	B-CV	B-CV, O, B-OG, I-CV, B-FD
-47	##법	I-CV	I-CV	I-CV, O, I-OG, B-CV, I-TM
-48	##의	O	O	O, I-CV, I-OG, B-PS, B-CV
-49	업무상	O	B-CV	B-CV, O, I-CV, B-TM, B-FD
-50	횡령	B-CV	I-CV	I-CV, B-CV, O, I-OG, I-TM
-51	·	O	O	O, I-CV, B-CV, I-OG, I-TM
-52	배임	O	I-CV	I-CV, O, B-CV, I-OG, I-TM
-53	,	O	O	O, I-CV, B-PS, B-CV, B-LC
-54	증권	B-CV	B-CV	B-CV, B-OG, O, I-CV, B-AF
-55	##거래	I-CV	I-CV	I-CV, O, I-OG, B-CV, I-TM
-56	##법	I-CV	I-CV	I-CV, O, I-OG, B-CV, I-TM
-57	##의	O	O	O, I-CV, I-OG, B-PS, B-CV
-58	사기	O	O	O, B-CV, I-CV, B-PS, B-TM
-59	##적	O	O	O, I-CV, B-CV, I-TM, I-PS
-60	부정	O	O	O, I-CV, B-CV, I-TM, B-PS
-61	##거래	O	O	O, I-CV, B-CV, I-TM, I-QT
-62	등	O	O	O, I-CV, B-PS, B-CV, B-LC
-63	)	O	O	O, B-PS, B-LC, B-CV, I-CV
-64	로	O	O	O, B-PS, B-LC, B-OG, B-CV
-65	그룹	O	O	O, B-OG, B-CV, B-PS, B-TM
-66	재무	O	O	O, B-CV, I-CV, B-TM, B-FD
-67	##담	O	O	O, I-CV, B-CV, I-OG, I-TM
-68	##당	O	O	O, I-CV, I-OG, I-TM, I-LC
-69	최고	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-PS
-70	##책	I-CV	I-CV	I-CV, O, B-CV, I-TM, I-QT
-71	##임자	I-CV	I-CV	I-CV, O, B-CV, I-TM, I-OG
-72	##를	O	O	O, I-CV, B-CV, B-PS, I-QT
-73	지낸	O	O	O, B-CV, B-PS, B-LC, B-TM
-74	홍	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-75	##동	I-PS	I-PS	I-PS, O, I-OG, B-PS, I-LC
-76	##옥	I-PS	I-PS	I-PS, O, I-OG, B-PS, I-LC
-77	(	O	O	O, I-PS, B-LC, B-CV, I-OG
-78	62	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-TM
-79	)	O	O	O, I-QT, I-DT, I-EV, I-OG
-80	여	B-OG	B-AF	B-AF, B-OG, B-LC, O, B-PS
-81	##천	I-OG	I-AF	I-AF, I-OG, I-LC, O, I-PS
-82	##엔	I-OG	I-AF	I-AF, I-OG, I-LC, O, I-PS
-83	##시	I-OG	I-AF	I-AF, I-OG, I-LC, O, I-PS
-84	##시	I-OG	I-AF	I-AF, I-OG, I-LC, O, I-PS
-85	(	O	O	O, I-AF, I-OG, I-LC, I-CV
-86	NC	B-OG	B-AF	B-AF, B-OG, O, B-LC, B-TM
-87	##C	I-OG	I-AF	I-AF, I-OG, O, I-LC, I-CV
-88	)	O	O	O, I-OG, I-AF, I-EV, I-CV
-89	사장	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-PT
-90	##에	O	O	O, I-CV, B-CV, I-EV, I-QT
-91	대해	O	O	O, B-CV, B-LC, B-OG, B-TM
-92	구속	O	O	O, B-CV, B-AF, B-TM, B-OG
-93	##영장	O	O	O, I-CV, B-CV, I-AF, I-TM
-94	##을	O	O	O, I-CV, B-CV, B-PS, B-LC
-95	재청	O	O	O, B-CV, B-OG, B-LC, B-AF
-96	##구	O	O	O, I-CV, I-OG, I-AF, B-CV
-97	##했	O	O	O, B-LC, B-PS, B-OG, B-CV
-98	##다	O	O	O, B-CV, B-LC, B-OG, I-OG
-99	.	O	O	O, B-LC, B-PS, B-CV, B-OG
-100	[SEP]	O	O	O, B-LC, B-CV, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	카라	B-OG	B-OG
+2	##카스	I-OG	I-OG
+3	유스	I-OG	I-OG
+4	오케스트라	I-OG	I-OG
+5	##는	O	O
+6	아브	B-PS	B-PS
+7	##레	I-PS	I-PS
+8	##우	I-PS	I-PS
+9	(	O	O
+10	74	B-QT	B-QT
+11	)	O	O
+12	박사	B-CV	B-CV
+13	##가	O	O
+14	36	B-DT	B-DT
+15	##년	I-DT	I-DT
+16	전	I-DT	I-DT
+17	만든	O	O
+18	국립	O	O
+19	아동	O	O
+20	·	O	O
+21	청소년	B-CV	I-OG
+22	연주	O	O
+23	##단	O	O
+24	##이다	O	O
+25	.	O	O
+26	[SEP]	O	O

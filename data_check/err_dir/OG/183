@@ -1,46 +1,67 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-EV, I-OG, B-CV, I-CV
-1	개인	O	O	O, B-CV, B-PS, B-LC, B-EV
-2	수상자	B-CV	B-CV	B-CV, O, I-CV, B-PS, B-OG
-3	##인	O	O	O, I-CV, B-PS, I-EV, I-OG
-4	지선	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-5	스님	B-CV	B-CV	B-CV, O, I-CV, I-PS, I-AF
-6	##은	O	O	O, I-CV, I-EV, B-CV, I-OG
-7	무등산	B-LC	B-LC	B-LC, O, B-OG, B-AF, B-EV
-8	자락	O	O	O, I-LC, B-TM, B-LC, I-TM
-9	##의	O	O	O, B-PS, I-LC, B-LC, I-AF
-10	문	B-OG	B-AF	B-AF, B-OG, O, B-PS, B-LC
-11	##빈	I-OG	I-AF	I-AF, I-OG, O, I-PS, I-LC
-12	##정사	I-OG	I-AF	I-AF, I-OG, O, I-PS, I-LC
-13	주지	B-CV	B-CV	B-CV, O, I-AF, I-CV, I-EV
-14	##로	O	O	O, I-CV, B-PS, I-EV, I-AF
-15	5	B-EV	B-EV	B-EV, B-DT, B-QT, B-AF, B-LC
-16	·	I-EV	I-EV	I-EV, I-QT, I-DT, I-LC, I-AF
-17	18	I-EV	I-EV	I-EV, I-QT, I-LC, I-AF, I-DT
-18	##민	I-EV	I-EV	I-EV, I-QT, I-LC, I-AF, O
-19	##중	I-EV	I-EV	I-EV, I-QT, I-LC, O, I-AF
-20	##항	I-EV	I-EV	I-EV, I-QT, I-LC, I-AF, O
-21	##쟁	I-EV	I-EV	I-EV, O, I-LC, I-QT, I-AF
-22	##을	O	O	O, I-EV, I-AF, I-QT, I-OG
-23	겪	O	O	O, B-CV, B-LC, I-EV, B-OG
-24	##은	O	O	O, B-LC, B-PS, B-CV, B-OG
-25	뒤	O	O	O, B-LC, B-PS, I-EV, B-EV
-26	지속	O	O	O, B-LC, B-CV, B-PS, I-EV
-27	##적인	O	O	O, B-LC, B-PS, I-EV, B-EV
-28	시위	O	O	O, I-EV, B-EV, B-LC, B-CV
-29	##와	O	O	O, I-EV, B-PS, B-LC, I-OG
-30	강연	O	O	O, B-CV, B-LC, B-EV, I-EV
-31	##으로	O	O	O, B-PS, I-EV, B-LC, B-OG
-32	민주	O	O	O, B-EV, B-CV, B-LC, B-TR
-33	##화	O	O	O, I-EV, I-LC, I-TR, I-OG
-34	##운동	O	O	O, I-EV, I-LC, I-OG, I-TR
-35	##과	O	O	O, I-EV, B-PS, I-OG, B-LC
-36	자주	B-EV	O	O, B-EV, B-LC, B-CV, B-OG
-37	##통일	I-EV	O	O, I-EV, I-LC, I-OG, I-TR
-38	##운동	I-EV	O	O, I-EV, I-OG, I-LC, I-TR
-39	##을	O	O	O, I-EV, I-OG, B-CV, I-AF
-40	이끌	O	O	O, B-LC, B-OG, B-CV, I-EV
-41	##었	O	O	O, B-CV, B-LC, B-PS, I-EV
-42	##다	O	O	O, B-CV, I-EV, B-LC, I-OG
-43	.	O	O	O, B-LC, B-PS, I-EV, B-CV
-44	[SEP]	O	O	O, I-EV, B-LC, B-CV, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	ML	B-OG	B-OG
+2	##S	I-OG	I-OG
+3	(	O	O
+4	미국	B-LC	B-OG
+5	##프로	B-OG	I-OG
+6	##축구	I-OG	I-OG
+7	##리그	I-OG	I-OG
+8	)	O	O
+9	밴쿠버	B-LC	B-OG
+10	화이트	B-OG	I-OG
+11	##캡	I-OG	I-OG
+12	##스	I-OG	I-OG
+13	##에	O	O
+14	##서	O	O
+15	뛰	O	O
+16	##고	O	O
+17	있	O	O
+18	##는	O	O
+19	축구	B-CV	B-CV
+20	선수	B-CV	B-CV
+21	이영	B-PS	B-PS
+22	##표	I-PS	I-PS
+23	##는	O	O
+24	지난달	B-DT	B-DT
+25	자기	O	O
+26	트위터	B-TM	B-TM
+27	##에	O	O
+28	""""	O	O
+29	인구	O	O
+30	12	B-QT	B-QT
+31	##만	I-QT	I-QT
+32	##명	I-QT	I-QT
+33	##의	O	O
+34	이곳	O	O
+35	작	O	O
+36	##은	O	O
+37	마을	O	O
+38	##에	O	O
+39	있	O	O
+40	##는	O	O
+41	아마추어	B-CV	B-CV
+42	대학	O	O
+43	축구	O	B-CV
+44	##팀	O	O
+45	시즌	O	O
+46	티켓	O	O
+47	##이	O	O
+48	한국	B-LC	B-LC
+49	돈	O	O
+50	##으로	O	O
+51	4	B-QT	B-QT
+52	##만	I-QT	I-QT
+53	##3	I-QT	I-QT
+54	##천	I-QT	I-QT
+55	##원	I-QT	I-QT
+56	##이	O	O
+57	##네	O	O
+58	##요	O	O
+59	""""	O	O
+60	라고	O	O
+61	적	O	O
+62	##었	O	O
+63	##다	O	O
+64	.	O	O
+65	[SEP]	O	O

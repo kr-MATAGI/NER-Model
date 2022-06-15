@@ -1,12 +1,62 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-AF
-1	크림	O	B-CV	B-CV, O, I-CV, B-OG, B-TM
-2	##이	O	O	O, I-CV, B-CV, I-OG, B-PS
-3	첨가	O	O	O, B-CV, I-CV, B-PS, B-LC
-4	##되	O	O	O, B-CV, B-PS, I-CV, B-LC
-5	##면	O	O	O, B-CV, B-OG, B-LC, B-PS
-6	더	O	O	O, B-CV, B-OG, B-LC, B-PS
-7	이렇게	O	O	O, B-CV, B-OG, B-LC, B-TM
-8	깊	O	O	O, B-CV, B-LC, B-OG, B-TM
-9	##은	O	O	O, B-CV, B-OG, B-LC, I-OG
-10	[SEP]	O	O	O, B-CV, B-OG, B-LC, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	원	B-PS	B-PS
+2	의원	B-CV	B-CV
+3	##이	O	O
+4	발의	O	O
+5	##한	O	O
+6	국회법	B-CV	B-CV
+7	개정안	O	O
+8	##은	O	O
+9	불	O	O
+10	##체	O	O
+11	##포	O	O
+12	특권	O	O
+13	##의	O	O
+14	남용	O	O
+15	##을	O	O
+16	막	O	O
+17	##기	O	O
+18	위해	O	O
+19	‘	O	O
+20	체포	O	O
+21	##동	O	O
+22	##의	O	O
+23	##요	O	O
+24	##청	O	O
+25	##안	O	O
+26	##을	O	O
+27	72	B-TI	B-TI
+28	##시간	I-TI	I-TI
+29	내	O	I-TI
+30	표결	O	O
+31	##하	O	O
+32	##지	O	O
+33	않	O	O
+34	##을	O	O
+35	때	O	O
+36	##는	O	O
+37	그	O	O
+38	기간	O	O
+39	##이	O	O
+40	경과	O	O
+41	##한	O	O
+42	뒤	O	O
+43	처음	O	O
+44	##으로	O	O
+45	개회	O	O
+46	##하	O	O
+47	##는	O	O
+48	본회의	O	O
+49	##에	O	O
+50	자동	O	O
+51	상정	O	O
+52	##되	O	O
+53	##도록	O	O
+54	한다	O	O
+55	’	O	O
+56	는	O	O
+57	내용	O	O
+58	##이다	O	O
+59	.	O	O
+60	[SEP]	O	O

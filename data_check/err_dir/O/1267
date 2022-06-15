@@ -1,41 +1,59 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-EV, I-OG, I-CV
-1	앞	O	O	O, B-CV, B-TM, B-OG, B-LC
-2	##으로	O	O	O, B-CV, B-OG, B-PS, I-OG
-3	##는	O	O	O, B-CV, B-OG, B-LC, B-TM
-4	미술	O	B-FD	B-FD, O, B-OG, B-CV, I-FD
-5	##대	O	O	O, I-FD, I-OG, I-CV, I-EV
-6	##학	O	O	O, I-CV, I-OG, I-FD, B-CV
-7	입학	O	O	O, B-CV, I-CV, B-FD, B-QT
-8	##사정	O	O	O, I-CV, B-CV, I-QT, I-FD
-9	##관	O	O	O, I-CV, B-CV, I-QT, I-FD
-10	##전	O	O	O, I-CV, B-CV, I-QT, I-TM
-11	##형	O	O	O, I-CV, B-CV, I-QT, I-TM
-12	##에	O	O	O, I-CV, B-CV, I-QT, B-PS
-13	대비	O	O	O, B-CV, B-TM, B-LC, B-AF
-14	##해	O	O	O, B-AF, B-LC, B-FD, B-CV
-15	미술	O	O	O, B-FD, B-CV, B-AF, B-TR
-16	##활	O	O	O, I-AF, I-FD, I-CV, I-EV
-17	##동	O	O	O, I-AF, I-FD, I-CV, I-EV
-18	##보	O	O	O, I-AF, I-FD, I-CV, B-AF
-19	##고	O	O	O, I-AF, I-FD, I-CV, B-AF
-20	##서	O	O	O, I-AF, I-FD, I-CV, I-EV
-21	##와	O	O	O, I-AF, B-CV, B-PS, I-EV
-22	면접	O	O	O, B-CV, B-TM, B-AF, I-AF
-23	##에	O	O	O, B-CV, I-AF, I-EV, B-TM
-24	대비	O	O	O, B-CV, B-TM, B-OG, B-LC
-25	##하	O	O	O, B-CV, B-OG, B-PS, B-LC
-26	##는	O	O	O, B-OG, B-CV, B-LC, B-TM
-27	학원	O	O	O, B-CV, B-OG, B-AF, B-TM
-28	##이	O	O	O, B-OG, B-PS, B-CV, B-LC
-29	늘어날	O	O	O, B-CV, B-TM, B-OG, B-LC
-30	것	O	O	O, B-CV, I-OG, B-PS, B-OG
-31	##으로	O	O	O, B-CV, I-OG, I-AF, B-PS
-32	보인다	O	O	O, B-CV, I-OG, B-QT, B-OG
-33	”	O	O	O, B-CV, B-TM, I-OG, B-QT
-34	고	O	O	O, B-CV, B-TM, I-OG, B-LC
-35	말	O	O	O, B-CV, B-TM, I-QT, I-OG
-36	##했	O	O	O, B-CV, I-OG, I-QT, B-PS
-37	##다	O	O	O, B-CV, B-TM, B-LC, I-OG
-38	.	O	O	O, B-CV, B-LC, B-PS, B-OG
-39	[SEP]	O	O	O, B-CV, I-OG, B-LC, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	지난	B-DT	B-DT
+2	18	I-DT	I-DT
+3	##일	I-DT	I-DT
+4	서울	B-LC	B-LC
+5	강남구	B-OG	B-LC
+6	삼성	B-LC	B-LC
+7	##동	I-LC	I-LC
+8	한식	O	B-CV
+9	##집	O	O
+10	##에	O	O
+11	##서	O	O
+12	저녁	O	O
+13	식사	O	O
+14	##를	O	O
+15	하	O	O
+16	##던	O	O
+17	사	O	B-PS
+18	##공	O	I-PS
+19	##일	O	I-PS
+20	(	O	O
+21	司	O	O
+22	空	O	O
+23	[UNK]	O	O
+24	)	O	O
+25	G	B-OG	B-EV
+26	##20	I-OG	I-EV
+27	##정	B-EV	I-EV
+28	##상	I-EV	I-EV
+29	##회의	I-EV	I-EV
+30	한국	B-EV	B-CV
+31	##기획	I-EV	I-CV
+32	##조	I-EV	I-CV
+33	##정	I-EV	I-CV
+34	##위원	I-EV	I-CV
+35	##장	I-EV	I-CV
+36	(	O	O
+37	한국	B-CV	B-CV
+38	##무역	I-CV	I-CV
+39	##협회	I-CV	I-CV
+40	##장	I-CV	I-CV
+41	)	O	O
+42	은	O	O
+43	비서	B-CV	B-CV
+44	##의	O	O
+45	연락	O	O
+46	##을	O	O
+47	받	O	O
+48	##고	O	O
+49	황급	O	O
+50	##하	O	O
+51	##게	O	O
+52	자리	O	O
+53	##를	O	O
+54	떴	O	O
+55	##다	O	O
+56	.	O	O
+57	[SEP]	O	O

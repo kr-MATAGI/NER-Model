@@ -1,34 +1,42 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	이	O	O	O, B-OG, B-AF, B-LC, B-PS
-2	##로	O	O	O, B-CV, B-OG, B-LC, B-TM
-3	##써	O	O	O, B-LC, B-OG, B-CV, B-TM
-4	경기도	B-OG	B-OG	B-OG, B-LC, O, B-PS, I-OG
-5	##는	O	O	O, I-OG, I-LC, I-AF, B-CV
-6	공간	O	O	O, B-TM, B-QT, B-LC, B-CV
-7	200	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-LC
-8	##㎡	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-9	##를	O	O	O, I-QT, B-CV, I-OG, B-TM
-10	확보	O	O	O, B-TM, B-LC, B-CV, B-QT
-11	,	O	O	O, B-LC, B-PS, B-OG, I-OG
-12	도내	O	O	O, B-LC, B-OG, B-CV, B-TM
-13	기업	O	O	O, B-CV, B-OG, B-LC, I-OG
-14	##들이	O	O	O, B-LC, B-CV, B-PS, B-OG
-15	유럽	B-LC	B-LC	B-LC, O, B-OG, B-AF, B-EV
-16	##시장	O	O	O, I-LC, B-LC, B-CV, I-AF
-17	수출	O	O	O, B-LC, B-CV, B-TM, I-LC
-18	확대	O	O	O, B-LC, B-CV, B-TM, B-OG
-19	##에	O	O	O, B-LC, B-OG, B-CV, B-PS
-20	한발	O	B-QT	B-QT, O, B-TI, B-TM, B-DT
-21	더	O	O	O, I-QT, B-QT, I-DT, I-TI
-22	다가갈	O	O	O, I-QT, B-QT, B-LC, B-TM
-23	수	O	O	O, B-LC, B-PS, B-QT, B-TM
-24	있	O	O	O, B-LC, B-QT, B-CV, B-TM
-25	##도록	O	O	O, B-LC, B-QT, B-TM, B-CV
-26	교두보	O	O	O, B-LC, B-TM, B-CV, B-OG
-27	##를	O	O	O, B-CV, B-OG, I-OG, B-TM
-28	마련	O	O	O, B-CV, B-LC, B-OG, B-TM
-29	##했	O	O	O, B-LC, B-CV, B-OG, B-PS
-30	##다	O	O	O, B-CV, B-OG, B-LC, I-OG
-31	.	O	O	O, B-LC, B-OG, B-CV, B-TM
-32	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	덴마크	B-LC	B-LC
+2	롤	B-LC	B-LC
+3	##란드	I-LC	I-LC
+4	##섬	I-LC	I-LC
+5	##의	O	O
+6	경우	O	O
+7	##도	O	O
+8	신재	O	B-FD
+9	##생	O	I-FD
+10	##에	O	I-FD
+11	##너지	O	I-FD
+12	관련	O	O
+13	시설	O	O
+14	및	O	O
+15	기관	O	O
+16	입주	O	O
+17	##로	O	O
+18	당초	O	O
+19	40	B-QT	B-QT
+20	%	I-QT	I-QT
+21	에	O	O
+22	육박	O	O
+23	##했	O	O
+24	##던	O	O
+25	실업	O	O
+26	##률	O	O
+27	##이	O	O
+28	3	B-QT	B-QT
+29	%	I-QT	I-QT
+30	로	O	O
+31	떨어지	O	O
+32	##는	O	O
+33	경제	O	O
+34	##적	O	O
+35	효과	O	O
+36	##를	O	O
+37	봤	O	O
+38	##다	O	O
+39	.	O	O
+40	[SEP]	O	O

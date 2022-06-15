@@ -1,38 +1,67 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, B-CV, I-EV, I-OG
-1	주택	B-OG	B-OG	B-OG, O, I-OG, B-PS, B-LC
-2	##공사	I-OG	I-OG	I-OG, O, B-OG, I-PS, I-CV
-3	##가	O	O	O, B-PS, I-OG, B-LC, I-PS
-4	이	O	O	O, B-PS, B-LC, B-AM, B-AF
-5	순천	B-LC	B-LC	B-LC, O, I-LC, B-AF, B-PS
-6	##독	B-LC	I-LC	I-LC, B-LC, O, I-AF, I-PS
-7	##일	I-LC	I-LC	I-LC, O, B-LC, I-AF, I-PS
-8	##마을	I-LC	I-LC	I-LC, O, I-AF, B-LC, I-PS
-9	##을	O	O	O, I-LC, B-LC, B-PS, I-AF
-10	임대	O	O	O, B-LC, B-AF, B-TM, B-CV
-11	##주택	O	O	O, I-LC, I-AF, B-LC, I-CV
-12	##단지	O	O	O, I-LC, I-AF, B-LC, I-CV
-13	##로	O	O	O, I-LC, B-LC, B-PS, I-AF
-14	짓	O	O	O, B-LC, B-OG, B-PS, B-AF
-15	##는	O	O	O, B-LC, B-PS, B-CV, B-OG
-16	방식	O	O	O, B-LC, B-CV, B-TM, B-PS
-17	등	O	O	O, B-LC, B-PS, B-CV, B-TM
-18	##을	O	O	O, B-PS, B-LC, B-CV, B-OG
-19	고민	O	O	O, B-LC, B-CV, B-PS, B-TM
-20	##하	O	O	O, B-PS, B-LC, B-OG, B-CV
-21	##다	O	O	O, B-LC, B-PS, B-CV, B-OG
-22	'	O	O	O, B-LC, B-CV, B-PS, B-TM
-23	적자	O	O	O, B-CV, B-LC, B-TM, B-AF
-24	보전	O	O	O, I-LC, I-CV, I-TM, I-OG
-25	'	O	O	O, B-CV, B-LC, B-PS, B-TM
-26	문제	O	O	O, B-LC, B-PS, B-CV, B-TM
-27	##로	O	O	O, B-LC, B-PS, B-CV, B-TM
-28	어려움	O	O	O, B-LC, B-CV, B-TM, B-OG
-29	##을	O	O	O, B-CV, I-OG, B-OG, B-LC
-30	겪	O	O	O, B-LC, B-CV, B-OG, B-PS
-31	##기	O	O	O, B-LC, B-PS, B-OG, I-OG
-32	##도	O	O	O, B-LC, I-OG, B-CV, B-PS
-33	했	O	O	O, B-LC, B-CV, B-OG, B-PS
-34	##다	O	O	O, B-CV, B-LC, B-TM, I-OG
-35	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-36	[SEP]	O	O	O, B-LC, B-CV, I-LC, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	유	B-PS	B-PS
+2	##소연	I-PS	I-PS
+3	##이	O	O
+4	25	B-DT	B-DT
+5	##일	I-DT	I-DT
+6	(	O	O
+7	한국	B-LC	B-LC
+8	##시	O	O
+9	##각	O	O
+10	)	O	O
+11	캐나다	B-LC	B-LC
+12	온	B-LC	B-LC
+13	##타리	I-LC	I-LC
+14	##오	I-LC	I-LC
+15	##주	I-LC	I-LC
+16	런던	B-LC	B-LC
+17	헌트	B-AF	B-AF
+18	##앤	I-AF	I-AF
+19	##드	I-AF	I-AF
+20	##컨	I-AF	I-AF
+21	##트리	I-AF	I-AF
+22	##클럽	I-AF	I-AF
+23	(	O	O
+24	파	B-QT	B-QT
+25	##72	I-QT	I-QT
+26	·	O	O
+27	66	B-QT	B-QT
+28	##56	I-QT	I-QT
+29	##야	I-QT	I-QT
+30	##드	I-QT	I-QT
+31	)	O	O
+32	에서	O	O
+33	열린	O	O
+34	미국	B-EV	B-EV
+35	##여	I-EV	I-EV
+36	##자	I-EV	I-EV
+37	##프로	I-EV	I-EV
+38	##골	I-EV	I-EV
+39	##프	I-EV	I-EV
+40	(	I-EV	I-EV
+41	LPGA	I-EV	I-EV
+42	)	I-EV	I-EV
+43	투어	I-EV	I-EV
+44	캐나다	B-LC	B-EV
+45	퍼시픽	B-EV	I-EV
+46	여자	I-EV	I-EV
+47	##오	I-EV	I-EV
+48	##픈	I-EV	I-EV
+49	##에	O	O
+50	##서	O	O
+51	최종	O	O
+52	합계	O	O
+53	23	B-QT	B-QT
+54	##언	I-QT	I-QT
+55	##더	I-QT	I-QT
+56	##파	I-QT	I-QT
+57	265	O	O
+58	##타로	O	O
+59	우승	O	O
+60	##을	O	O
+61	차지	O	O
+62	##했	O	O
+63	##다	O	O
+64	.	O	O
+65	[SEP]	O	O

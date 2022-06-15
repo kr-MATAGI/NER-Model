@@ -1,32 +1,68 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	엘	B-PS	B-PS	B-PS, O, I-PS, B-OG, B-LC
-2	##머	I-PS	I-PS	I-PS, O, I-OG, B-PS, I-LC
-3	##는	O	O	O, I-PS, B-CV, I-OG, I-AF
-4	이후	O	O	O, B-CV, B-OG, B-LC, B-PS
-5	은행	O	O	O, B-CV, B-OG, B-TM, B-PS
-6	##에	O	O	O, B-CV, B-PS, I-OG, B-OG
-7	앙	O	O	O, B-CV, B-TM, B-PS, B-AM
-8	##심	O	O	O, I-CV, I-PS, B-PS, I-TM
-9	##을	O	O	O, B-PS, B-CV, B-LC, I-PS
-10	품	O	O	O, B-PS, B-LC, B-CV, B-TM
-11	##고	O	O	O, B-PS, I-PS, B-CV, B-LC
-12	상사	O	B-CV	B-CV, O, I-CV, B-AF, B-OG
-13	##에	O	O	O, I-CV, B-CV, I-EV, I-AF
-14	##게	O	O	O, B-CV, B-LC, B-TM, B-PS
-15	폭탄	O	B-AF	B-AF, O, B-CV, B-MT, B-PS
-16	테러	O	O	O, I-AF, I-EV, B-CV, I-CV
-17	##를	O	O	O, I-EV, I-AF, I-CV, B-CV
-18	가하	O	O	O, B-CV, B-LC, B-OG, B-TM
-19	##겠다	O	O	O, B-CV, B-PS, B-LC, B-TM
-20	##고	O	O	O, B-CV, B-PS, B-TM, B-LC
-21	공갈	O	O	O, B-CV, B-TM, B-AF, B-PS
-22	협박	O	O	O, I-CV, B-CV, B-PS, I-TM
-23	##을	O	O	O, I-CV, B-CV, B-PS, I-AF
-24	한	O	O	O, B-CV, B-PS, B-LC, B-OG
-25	것	O	O	O, B-CV, B-PS, I-CV, B-LC
-26	##으로	O	O	O, B-CV, B-PS, B-LC, I-CV
-27	드러났	O	O	O, B-CV, B-LC, B-OG, B-PS
-28	##다	O	O	O, B-CV, I-OG, B-LC, I-CV
-29	.	O	O	O, B-CV, B-PS, B-LC, B-OG
-30	[SEP]	O	O	O, B-CV, B-PS, B-LC, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	시인	B-CV	B-CV
+2	황	B-PS	B-PS
+3	##지우	I-PS	I-PS
+4	,	O	O
+5	나	B-PS	B-PS
+6	##희	I-PS	I-PS
+7	##덕	I-PS	I-PS
+8	##의	O	O
+9	작품	O	O
+10	##을	O	O
+11	영어	B-CV	B-CV
+12	##로	O	O
+13	공동	O	O
+14	##번	O	O
+15	##역	O	O
+16	##해	O	O
+17	소개	O	O
+18	##한	O	O
+19	적	O	O
+20	##이	O	O
+21	있	O	O
+22	##는	O	O
+23	크리스토퍼	B-PS	B-PS
+24	메릴	I-PS	I-PS
+25	(	O	O
+26	51	B-QT	B-QT
+27	)	O	O
+28	미국	B-LC	B-LC
+29	아이오	B-OG	B-OG
+30	##와	I-OG	I-OG
+31	##대	I-OG	I-OG
+32	교수	B-CV	B-CV
+33	##가	O	O
+34	자신	O	O
+35	##의	O	O
+36	책	O	O
+37	<	O	O
+38	숨	B-AF	B-AF
+39	##은	I-AF	I-AF
+40	신	I-AF	I-AF
+41	##을	I-AF	I-AF
+42	찾아	I-AF	I-AF
+43	##서	I-AF	I-AF
+44	>	O	O
+45	(	O	O
+46	민	O	B-OG
+47	##음	O	I-OG
+48	##사	O	I-OG
+49	펴	O	O
+50	##냄	O	O
+51	)	O	O
+52	의	O	O
+53	번역	O	O
+54	·	O	O
+55	출간	O	O
+56	##에	O	O
+57	맞춰	O	O
+58	20	B-DT	B-DT
+59	##일	I-DT	I-DT
+60	한국	B-LC	B-LC
+61	##을	O	O
+62	찾	O	O
+63	##았	O	O
+64	##다	O	O
+65	.	O	O
+66	[SEP]	O	O

@@ -1,24 +1,52 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	집안	O	O	O, B-CV, B-TM, B-OG, B-LC
-2	##에	O	O	O, B-CV, B-PS, B-TM, B-OG
-3	가사	B-CV	B-CV	B-CV, O, B-OG, B-TM, B-FD
-4	##도	I-CV	I-CV	I-CV, B-CV, O, I-OG, I-QT
-5	##우	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-QT
-6	##미	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-TM
-7	##를	O	O	O, I-CV, I-OG, I-AF, I-QT
-8	여럿	O	O	O, B-QT, B-TM, B-CV, B-LC
-9	두고	O	O	O, B-CV, B-LC, B-PS, B-OG
-10	,	O	O	O, B-CV, B-OG, B-PS, B-LC
-11	시어머니	B-CV	B-CV	B-CV, O, B-OG, B-PS, I-CV
-12	##와	O	O	O, I-CV, I-OG, I-AF, B-CV
-13	함께	O	O	O, B-CV, B-TM, B-PS, B-OG
-14	셋째	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-EV
-15	며느리	B-CV	B-CV	B-CV, I-QT, O, I-CV, B-PS
-16	남상	O	B-PS	B-PS, O, B-OG, I-PS, B-CV
-17	##미	O	I-PS	I-PS, O, I-OG, I-QT, I-LC
-18	##를	O	O	O, I-PS, I-OG, B-CV, I-AF
-19	구박	O	O	O, B-CV, B-LC, B-TM, B-OG
-20	##한다	O	O	O, B-CV, B-PS, B-LC, I-OG
-21	.	O	O	O, B-CV, B-LC, B-PS, B-OG
-22	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	그	O	O
+2	##는	O	O
+3	""""	O	O
+4	내년	B-DT	B-DT
+5	코리아	B-EV	B-EV
+6	페스티벌	I-EV	I-EV
+7	##은	O	O
+8	한국	B-LC	B-EV
+9	유물	O	I-EV
+10	전시회	O	I-EV
+11	##를	O	O
+12	크	O	O
+13	##게	O	O
+14	열	O	O
+15	##고	O	O
+16	판소리	B-FD	B-FD
+17	·	O	O
+18	김치	B-CV	B-CV
+19	·	O	O
+20	탈	B-FD	O
+21	##춤	I-FD	O
+22	같	O	O
+23	##은	O	O
+24	한국	B-LC	B-LC
+25	문화	O	O
+26	##를	O	O
+27	소개	O	O
+28	##하	O	O
+29	##는	O	O
+30	등	O	O
+31	독일	B-LC	B-LC
+32	##에	O	O
+33	한국	B-LC	B-LC
+34	##을	O	O
+35	알리	O	O
+36	##는	O	O
+37	축제	O	O
+38	##가	O	O
+39	될	O	O
+40	것	O	O
+41	""""	O	O
+42	이라	O	O
+43	##며	O	O
+44	의	O	O
+45	##욕	O	O
+46	##을	O	O
+47	보였	O	O
+48	##다	O	O
+49	.	O	O
+50	[SEP]	O	O

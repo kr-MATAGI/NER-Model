@@ -1,17 +1,29 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-EV, I-OG, B-CV, I-CV
-1	선수	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-EV
-2	##들이	O	O	O, I-CV, I-EV, B-CV, I-QT
-3	천연	B-PT	O	O, B-LC, B-TM, B-PT, B-MT
-4	##잔	I-PT	I-LC	I-LC, O, I-PT, I-MT, I-TM
-5	##디	I-PT	I-LC	I-LC, O, I-PT, I-TM, I-MT
-6	##에서	O	O	O, I-LC, I-AF, I-CV, I-TM
-7	본격	O	O	O, B-CV, B-LC, B-QT, B-PS
-8	##적으로	O	O	O, B-LC, I-AF, B-PS, I-QT
-9	뛴	O	O	O, B-CV, B-LC, B-QT, B-PS
-10	첫	O	O	O, B-QT, B-CV, B-PS, B-EV
-11	대회	O	O	O, I-EV, B-CV, I-QT, B-EV
-12	##였	O	O	O, I-EV, B-CV, I-QT, I-CV
-13	##다	O	O	O, B-CV, I-EV, I-OG, B-EV
-14	.	O	O	O, B-CV, I-EV, B-PS, B-LC
-15	[SEP]	O	O	O, B-CV, I-EV, I-QT, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	아	O	O
+2	나	O	O
+3	##는	O	O
+4	저기	O	O
+5	고기	B-CV	B-CV
+6	##도	O	O
+7	안	O	O
+8	사	O	O
+9	먹	O	O
+10	##고	O	O
+11	저기	O	O
+12	배추	B-PT	B-CV
+13	##만	O	O
+14	사	O	O
+15	먹	O	O
+16	##을	O	O
+17	##래	O	O
+18	하고	O	O
+19	배추	B-PT	B-CV
+20	##만	O	O
+21	사시	O	O
+22	##는	O	O
+23	분도	O	O
+24	있	O	O
+25	##잖아요	O	O
+26	.	O	O
+27	[SEP]	O	O

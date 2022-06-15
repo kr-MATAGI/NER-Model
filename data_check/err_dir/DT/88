@@ -1,128 +1,55 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-EV, I-CV, I-OG
-1	총	O	O	O, B-AF, B-AM, B-PS, B-TM
-2	##신	O	O	O, I-AF, I-AM, I-TM, I-LC
-3	##이	O	O	O, I-AF, B-PS, I-PS, B-AF
-4	긴	O	O	O, B-AF, B-TM, I-AF, B-CV
-5	소총	B-AF	B-AF	B-AF, O, I-AF, B-CV, B-TM
-6	##을	O	O	O, I-AF, B-CV, I-CV, I-OG
-7	들	O	O	O, B-LC, B-PS, B-CV, B-AF
-8	##고	O	O	O, B-PS, B-LC, B-CV, B-AF
-9	있	O	O	O, B-LC, B-PS, B-CV, B-TM
-10	##는	O	O	O, B-LC, B-CV, B-PS, B-TM
-11	군인	B-CV	B-CV	B-CV, O, B-OG, B-AF, I-CV
-12	##의	O	O	O, I-CV, B-CV, I-AF, I-EV
-13	모습	O	O	O, B-CV, B-TM, B-LC, B-QT
-14	##을	O	O	O, B-PS, B-LC, B-CV, B-OG
-15	원통	O	B-TM	B-TM, O, B-CV, B-AF, B-TR
-16	##형	O	I-TM	I-TM, O, I-QT, B-TM, I-TR
-17	##으로	O	O	O, I-TM, I-QT, I-CV, I-OG
-18	말	O	O	O, I-QT, B-PS, B-QT, B-CV
-19	##면	O	O	O, I-QT, B-PS, B-OG, I-DT
-20	그	O	O	O, B-CV, B-LC, B-AF, B-PS
-21	총	O	O	O, B-AF, B-PS, B-AM, B-LC
-22	##구	O	O	O, I-AF, I-LC, I-PS, I-AM
-23	##가	O	O	O, I-AF, B-PS, B-LC, I-PS
-24	자신	O	O	O, B-CV, B-PS, B-LC, B-AF
-25	##의	O	O	O, B-PS, B-CV, B-LC, I-AF
-26	뒤통수	B-AM	B-AM	B-AM, O, B-TM, I-AM, B-TR
-27	##를	O	O	O, I-AF, B-CV, I-CV, I-QT
-28	겨누	O	O	O, B-LC, B-TM, B-CV, B-PS
-29	##게	O	O	O, B-CV, B-LC, B-PS, B-QT
-30	되	O	O	O, B-CV, B-LC, B-PS, B-QT
-31	##는	O	O	O, B-LC, B-CV, B-OG, B-PS
-32	'	O	O	O, B-LC, B-CV, B-OG, B-DT
-33	뿌린	B-AF	O	O, B-AF, B-PT, B-PS, B-CV
-34	대로	I-AF	I-AF	I-AF, O, I-PS, I-OG, I-TM
-35	거두	I-AF	I-AF	I-AF, O, I-TM, I-OG, I-PS
-36	##리	I-AF	I-AF	I-AF, O, I-TM, I-OG, I-PS
-37	##라	I-AF	I-AF	I-AF, O, I-TM, I-OG, I-PS
-38	(	O	O	O, I-AF, I-OG, I-CV, I-EV
-39	What	O	O	O, B-AF, B-LC, B-PS, I-AF
-40	go	O	O	O, I-AF, I-OG, I-LC, I-PS
-41	##es	O	O	O, I-AF, I-OG, I-LC, I-TM
-42	ar	O	O	O, I-AF, I-OG, I-LC, I-TM
-43	##ound	O	O	O, I-AF, I-OG, I-LC, I-TM
-44	com	O	O	O, I-AF, I-OG, I-LC, I-TM
-45	##es	O	O	O, I-AF, I-OG, I-LC, I-TM
-46	ar	O	O	O, I-AF, I-OG, I-LC, I-TM
-47	##ound	O	O	O, I-AF, I-OG, I-LC, I-TM
-48	·	O	O	O, I-AF, B-CV, B-LC, I-OG
-49	2009	O	B-DT	B-DT, O, B-QT, I-DT, B-EV
-50	##년	O	I-DT	I-DT, O, B-DT, I-QT, I-PS
-51	공익	O	O	O, B-CV, B-OG, B-FD, B-TM
-52	##광	O	O	O, I-CV, B-CV, I-OG, I-TM
-53	##고	O	O	O, I-CV, I-OG, I-TM, B-CV
-54	##부	O	O	O, I-CV, I-OG, I-TM, I-EV
-55	##문	O	O	O, I-CV, I-OG, I-TM, I-EV
-56	금상	B-CV	B-CV	B-CV, O, I-CV, B-EV, B-QT
-57	)	O	O	O, I-CV, I-EV, I-QT, B-CV
-58	'	O	O	O, B-CV, B-LC, B-OG, B-TM
-59	,	O	O	O, B-CV, B-OG, B-LC, B-PS
-60	음주운전	O	B-CV	B-CV, O, B-EV, B-AF, B-PS
-61	사고	O	O	O, I-EV, I-CV, I-AF, B-CV
-62	##로	O	O	O, B-PS, B-CV, B-LC, B-AF
-63	부서진	O	O	O, B-AF, B-LC, B-CV, B-TM
-64	차	O	B-AF	B-AF, O, I-AF, B-CV, B-OG
-65	##의	O	O	O, I-AF, B-CV, I-CV, I-EV
-66	부품	O	O	O, B-CV, B-MT, B-AF, B-TM
-67	##들	O	O	O, B-LC, B-CV, B-PS, I-AF
-68	##로	O	O	O, B-LC, B-CV, B-QT, B-PS
-69	만든	O	O	O, B-LC, B-CV, B-OG, B-QT
-70	'	O	O	O, B-LC, B-CV, B-OG, B-DT
-71	휠체어	B-AF	B-AF	B-AF, O, B-CV, B-TM, I-AF
-72	(	O	O	O, I-AF, I-CV, I-EV, B-CV
-73	2008	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-74	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
-75	올해	B-DT	B-CV	B-CV, B-DT, B-EV, O, I-DT
-76	##의	O	I-CV	I-CV, O, I-EV, I-DT, B-CV
-77	대상	B-CV	I-CV	I-CV, O, I-EV, B-CV, B-EV
-78	)	O	O	O, I-CV, I-EV, I-DT, I-QT
-79	'	O	O	O, B-CV, B-LC, B-OG, B-TM
-80	,	O	O	O, B-CV, B-LC, B-OG, B-PS
-81	교통사고	O	O	O, B-CV, B-TM, B-AF, B-LC
-82	##로	O	O	O, B-CV, B-PS, I-AF, B-LC
-83	왼	B-AM	B-AM	B-AM, O, B-TM, B-CV, B-TR
-84	##다리	I-AM	I-AM	I-AM, O, I-TM, B-AM, I-CV
-85	##를	O	O	O, I-TM, I-CV, I-AF, I-QT
-86	잃	O	O	O, B-CV, B-TM, B-LC, B-AF
-87	##은	O	O	O, B-CV, B-PS, B-LC, B-TM
-88	사람	O	O	O, B-CV, B-PS, B-TM, B-AF
-89	##이	O	O	O, B-PS, B-CV, B-AF, B-LC
-90	철	O	O	O, B-MT, B-AF, B-TM, B-CV
-91	##로	O	O	O, I-AF, I-LC, I-MT, I-CV
-92	옆	O	O	O, B-TM, I-TM, B-CV, B-AF
-93	##에	O	O	O, I-TM, I-AF, B-CV, B-TM
-94	횡단	O	O	O, B-TM, B-AF, B-CV, B-LC
-95	##금	O	O	O, I-AF, I-LC, I-TM, I-CV
-96	##지	O	O	O, I-AF, I-LC, I-CV, I-TM
-97	표지판	O	O	O, I-AF, I-LC, I-CV, I-TM
-98	##을	O	O	O, B-CV, B-PS, B-LC, I-AF
-99	들	O	O	O, B-LC, B-CV, B-TM, B-PS
-100	##고	O	O	O, B-LC, B-CV, B-PS, B-AF
-101	서	O	O	O, B-LC, B-AF, B-TM, B-CV
-102	있	O	O	O, B-LC, B-CV, B-PS, B-TM
-103	##는	O	O	O, B-LC, B-CV, B-OG, B-PS
-104	'	O	O	O, B-LC, B-CV, B-OG, B-DT
-105	인간	B-AF	B-AF	B-AF, O, B-TM, B-LC, B-CV
-106	교통	I-AF	I-AF	I-AF, O, B-AF, I-LC, I-TM
-107	##표	I-AF	I-AF	I-AF, O, I-LC, I-TM, B-AF
-108	##지	I-AF	I-AF	I-AF, O, I-LC, I-TM, I-EV
-109	##판	I-AF	I-AF	I-AF, O, I-LC, I-TM, I-EV
-110	(	O	O	O, I-AF, I-EV, I-CV, B-CV
-111	2014	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-112	##년	I-DT	I-DT	I-DT, O, I-QT, B-DT, I-EV
-113	올해	B-DT	B-CV	B-CV, B-DT, B-EV, O, I-DT
-114	##의	O	I-CV	I-CV, O, I-EV, I-DT, B-CV
-115	대상	B-CV	I-CV	I-CV, I-EV, O, B-CV, B-EV
-116	)	O	O	O, I-CV, I-EV, I-DT, I-QT
-117	'	O	O	O, B-CV, B-LC, B-OG, B-TM
-118	등	O	O	O, B-CV, B-LC, B-OG, B-AF
-119	##이	O	O	O, B-LC, B-CV, B-OG, B-PS
-120	그런	O	O	O, B-CV, B-AF, B-OG, B-LC
-121	작품	O	O	O, B-CV, B-FD, B-LC, B-AF
-122	##들이	O	O	O, I-CV, I-AF, B-CV, I-EV
-123	##었	O	O	O, B-CV, B-LC, B-OG, B-FD
-124	##다	O	O	O, B-CV, B-TM, B-LC, B-QT
-125	.	O	O	O, B-LC, B-CV, B-AF, B-PS
-126	[SEP]	O	O	O, B-LC, B-CV, B-AF, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	이	O	O
+2	때문	O	O
+3	##에	O	O
+4	2008	B-DT	B-DT
+5	,	I-DT	O
+6	2009	I-DT	B-DT
+7	##년	I-DT	I-DT
+8	휴전	O	O
+9	이후	O	O
+10	5	B-DT	B-DT
+11	##년	I-DT	I-DT
+12	만	I-DT	I-DT
+13	##에	O	O
+14	또	O	O
+15	##다	O	O
+16	##시	O	O
+17	충돌	O	O
+18	##이	O	O
+19	일어난	O	O
+20	것	O	O
+21	##처럼	O	O
+22	이번	O	O
+23	휴전	O	O
+24	합의	O	O
+25	##도	O	O
+26	평화	O	O
+27	##를	O	O
+28	향해	O	O
+29	한	O	O
+30	걸음	O	O
+31	다가	O	O
+32	##선	O	O
+33	것	O	O
+34	##처럼	O	O
+35	보였	O	O
+36	##지만	O	O
+37	결과	O	O
+38	##는	O	O
+39	항상	O	O
+40	제자리	O	O
+41	##일	O	O
+42	수	O	O
+43	있	O	O
+44	##다는	O	O
+45	비관	O	O
+46	##적	O	O
+47	전망	O	O
+48	##이	O	O
+49	제기	O	O
+50	##된	O	O
+51	##다	O	O
+52	.	O	O
+53	[SEP]	O	O

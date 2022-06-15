@@ -1,17 +1,64 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-EV, I-OG, B-CV, I-CV
-1	피자	B-EV	B-OG	B-OG, B-EV, O, B-AF, B-PS
-2	##헛	I-EV	I-OG	I-OG, I-EV, O, I-AF, I-PS
-3	사건	I-EV	O	O, I-EV, I-OG, B-EV, B-CV
-4	##은	O	O	O, I-EV, I-OG, B-CV, I-AF
-5	20	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-6	##개	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
-7	##월	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
-8	##만	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
-9	##에	O	O	O, I-DT, I-EV, B-CV, I-QT
-10	과징금	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-AF
-11	##이	O	O	O, I-CV, B-PS, I-EV, B-CV
-12	내려졌	O	O	O, B-CV, B-OG, B-LC, B-PS
-13	##다	O	O	O, B-CV, I-EV, I-OG, I-CV
-14	.	O	O	O, B-OG, B-CV, B-LC, I-EV
-15	[SEP]	O	O	O, B-CV, I-EV, B-OG, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	월스트리트	B-OG	B-OG
+2	##저	I-OG	I-OG
+3	##널	I-OG	I-OG
+4	(	O	O
+5	WSJ	B-OG	B-OG
+6	)	O	O
+7	도	O	O
+8	이날	B-DT	B-DT
+9	사설	O	O
+10	##에	O	O
+11	##서	O	O
+12	""""	O	O
+13	2	B-EV	B-QT
+14	##차	I-EV	I-QT
+15	세계	I-EV	B-EV
+16	##대	I-EV	I-EV
+17	##전	I-EV	I-EV
+18	##을	O	O
+19	누가	O	O
+20	일으켰	O	O
+21	##는지	O	O
+22	##는	O	O
+23	'	O	O
+24	지구	B-LC	B-LC
+25	##가	O	O
+26	태양	B-LC	B-LC
+27	##을	O	O
+28	돈다	O	O
+29	'	O	O
+30	는	O	O
+31	것	O	O
+32	##과	O	O
+33	마찬가지	O	O
+34	##로	O	O
+35	이론	O	O
+36	##의	O	O
+37	여지	O	O
+38	##가	O	O
+39	없	O	O
+40	##는	O	O
+41	문제	O	O
+42	##인	O	O
+43	##데	O	O
+44	,	O	O
+45	유독	O	O
+46	아베	B-PS	B-PS
+47	##만	O	O
+48	'	O	O
+49	새로운	O	O
+50	해석	O	O
+51	'	O	O
+52	을	O	O
+53	하고	O	O
+54	있	O	O
+55	##다	O	O
+56	""""	O	O
+57	고	O	O
+58	지적	O	O
+59	##했	O	O
+60	##다	O	O
+61	.	O	O
+62	[SEP]	O	O

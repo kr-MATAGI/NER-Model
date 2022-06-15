@@ -1,12 +1,22 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	[	O	O	O, B-OG, B-LC, B-CV, B-AF
-2	만물	O	O	O, B-AF, B-PS, B-CV, I-AF
-3	##상	O	O	O, I-AF, I-OG, I-PS, I-CV
-4	]	O	O	O, I-AF, B-PS, B-CV, I-OG
-5	닭	B-AM	B-CV	B-CV, O, B-AM, B-PT, B-AF
-6	##값	O	O	O, I-CV, I-AF, I-AM, I-TM
-7	##과	O	O	O, I-CV, I-AF, B-PS, B-CV
-8	치킨	O	B-CV	B-CV, O, B-AM, B-PT, B-AF
-9	##값	O	O	O, I-CV, I-AF, I-TM, B-CV
-10	[SEP]	O	O	O, B-CV, I-CV, I-AF, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	미국	B-LC	B-LC
+2	영화	O	I-FD
+3	매체	O	O
+4	##가	O	O
+5	‘	O	O
+6	유	O	B-CV
+7	##색	O	I-CV
+8	##인	O	I-CV
+9	##종	O	I-CV
+10	##이	O	O
+11	주인공	B-CV	B-CV
+12	’	O	O
+13	이라	O	O
+14	##고	O	O
+15	한	O	O
+16	게	O	O
+17	발단	O	O
+18	##이다	O	O
+19	.	O	O
+20	[SEP]	O	O

@@ -1,83 +1,27 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	전립	B-TM	B-TM	B-TM, O, B-TR, B-AM, I-TM
-2	##샘	I-TM	I-TM	I-TM, O, I-TR, B-TM, I-MT
-3	자가	O	O	O, I-TM, B-TM, B-CV, I-TR
-4	체크	O	O	O, I-TM, B-CV, I-CV, B-PS
-5	##는	O	O	O, B-CV, B-LC, I-TM, B-OG
-6	△	O	O	O, B-TM, B-CV, B-LC, B-QT
-7	##배	O	O	O, B-TR, B-TM, B-AM, B-CV
-8	##뇨	O	O	O, I-TR, I-TM, I-CV, I-MT
-9	후	O	O	O, I-TM, I-TR, I-PS, I-EV
-10	소변	O	O	O, B-TM, I-TM, B-LC, B-AM
-11	##이	O	O	O, B-PS, B-LC, B-CV, B-OG
-12	남	O	O	O, B-CV, B-TM, B-LC, B-PS
-13	##은	O	O	O, B-PS, B-CV, B-LC, B-OG
-14	느낌	O	O	O, B-CV, B-PS, B-TM, B-LC
-15	##이	O	O	O, B-PS, B-CV, B-OG, B-LC
-16	든다	O	O	O, B-CV, B-PS, B-LC, B-TM
-17	△	O	O	O, B-TM, B-LC, B-CV, B-QT
-18	##소	O	O	O, B-TM, B-AM, B-CV, I-TM
-19	##변이	O	O	O, I-TM, B-TM, I-AM, I-LC
-20	끊기	O	O	O, B-TM, I-TM, B-LC, B-CV
-21	##거나	O	O	O, B-PS, I-TM, B-TM, B-LC
-22	가늘	O	O	O, B-TM, B-LC, B-CV, B-AM
-23	##게	O	O	O, I-TM, B-PS, B-LC, B-TM
-24	나온다	O	O	O, B-CV, B-TM, B-LC, B-PS
-25	△	O	O	O, B-TM, B-QT, B-LC, B-CV
-26	##소	O	B-TM	B-TM, O, B-AM, B-CV, B-TR
-27	##변	O	I-TM	I-TM, O, I-AM, I-CV, I-TR
-28	##을	O	O	O, I-TM, I-CV, I-AF, B-CV
-29	참	O	O	O, B-LC, B-TM, B-CV, B-PS
-30	##기	O	O	O, B-PS, B-LC, B-TM, B-CV
-31	##가	O	O	O, B-PS, B-CV, B-LC, B-TM
-32	힘들	O	O	O, B-CV, B-TM, B-LC, B-PS
-33	##고	O	O	O, B-PS, B-LC, B-CV, B-TM
-34	자주	O	O	O, B-TM, B-CV, B-LC, B-PS
-35	본다	O	O	O, B-TM, B-LC, B-CV, B-PS
-36	△	O	O	O, B-TM, B-LC, B-QT, B-CV
-37	##소	O	O	O, B-TM, B-AM, B-LC, B-CV
-38	##변이	O	O	O, I-TM, I-LC, I-AM, B-TM
-39	마	O	O	O, B-TM, B-LC, B-PS, I-TM
-40	##려	O	O	O, I-TM, I-LC, B-PS, B-LC
-41	##워	O	O	O, B-LC, B-PS, B-TM, I-TM
-42	잠	O	O	O, B-TM, B-TI, B-CV, B-LC
-43	##을	O	O	O, B-CV, I-TM, B-LC, I-AF
-44	자주	O	O	O, B-LC, B-TM, B-CV, B-PS
-45	깬	O	O	O, B-LC, B-CV, B-TM, B-TI
-46	##다	O	O	O, B-CV, B-LC, B-PS, B-TM
-47	△	O	O	O, B-LC, B-QT, B-TM, B-CV
-48	##힘	O	O	O, B-TM, B-MT, B-AM, B-CV
-49	##을	O	O	O, B-PS, I-TM, I-AF, I-PS
-50	주어	O	O	O, B-PS, I-PS, B-LC, B-CV
-51	##야	O	O	O, B-PS, B-LC, B-TM, I-PS
-52	소변	O	O	O, B-TM, B-LC, B-CV, B-AM
-53	##이	O	O	O, B-PS, B-LC, B-CV, I-TM
-54	나온다	O	O	O, B-CV, B-LC, B-TM, B-OG
-55	등	O	O	O, B-TM, B-CV, B-PS, B-LC
-56	##으로	O	O	O, B-CV, B-TM, B-PS, B-LC
-57	해당	O	O	O, B-CV, B-TM, B-LC, B-PS
-58	사항	O	O	O, B-CV, B-PS, B-LC, I-CV
-59	##이	O	O	O, B-PS, B-LC, B-CV, B-OG
-60	있	O	O	O, B-CV, B-PS, B-LC, B-OG
-61	##으면	O	O	O, B-LC, B-TM, B-PS, B-OG
-62	미리	O	O	O, B-TM, B-CV, B-LC, B-PS
-63	보령	B-OG	B-TM	B-TM, B-AF, B-OG, O, B-CV
-64	-	O	I-TM	I-TM, O, I-AF, I-OG, I-MT
-65	쏘	B-AF	I-TM	I-TM, B-TM, I-AF, I-OG, I-MT
-66	##팔	I-AF	I-TM	I-TM, I-AF, I-OG, I-MT, O
-67	##메	I-AF	I-TM	I-TM, I-AF, I-OG, I-MT, I-CV
-68	##토	I-AF	I-TM	I-TM, I-AF, I-MT, I-OG, I-CV
-69	##골	I-AF	I-TM	I-TM, I-AF, I-MT, I-OG, I-CV
-70	##드	I-AF	I-TM	I-TM, I-AF, I-MT, I-OG, I-CV
-71	##칸	I-AF	I-TM	I-TM, I-AF, I-MT, I-OG, O
-72	##을	O	O	O, I-TM, I-AF, I-OG, I-CV
-73	섭취	O	O	O, B-CV, B-TM, B-LC, B-OG
-74	##하	O	O	O, B-LC, B-PS, B-CV, B-OG
-75	##는	O	O	O, B-CV, B-LC, B-TM, B-OG
-76	것	O	O	O, B-LC, B-CV, B-TM, B-OG
-77	##이	O	O	O, B-PS, B-CV, B-LC, B-OG
-78	좋	O	O	O, B-CV, B-TM, B-LC, B-OG
-79	##다	O	O	O, B-CV, B-TM, I-CV, I-OG
-80	.	O	O	O, B-TM, B-LC, B-PS, B-CV
-81	[SEP]	O	O	O, B-TM, B-CV, B-LC, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	이런	O	O
+2	낙관	O	O
+3	##론	O	O
+4	##과	O	O
+5	비관	O	O
+6	##론	O	O
+7	##을	O	O
+8	극복	O	O
+9	##한	O	O
+10	사람	O	O
+11	##이	O	O
+12	미국	B-LC	B-LC
+13	##의	O	O
+14	부동산	O	O
+15	재벌	O	O
+16	샘	O	B-PS
+17	젤	O	I-PS
+18	(	O	O
+19	Z	O	O
+20	##ell	O	O
+21	)	O	O
+22	이	O	O
+23	##다	O	O
+24	.	O	O
+25	[SEP]	O	O

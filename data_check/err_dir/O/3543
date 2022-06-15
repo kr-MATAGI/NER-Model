@@ -1,16 +1,40 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	그래서	O	O	O, B-CV, B-LC, B-OG, B-PS
-2	일반	O	O	O, B-CV, B-FD, B-OG, B-LC
-3	어	O	O	O, B-CV, I-CV, B-FD, B-PS
-4	~	O	O	O, I-CV, I-OG, I-AF, B-CV
-5	경영	O	O	O, B-CV, B-FD, B-TR, B-AF
-6	컨설턴트	O	B-CV	B-CV, I-CV, O, I-FD, B-FD
-7	##하고	O	O	O, I-CV, B-CV, I-OG, I-QT
-8	비슷	O	O	O, B-CV, B-TM, I-CV, B-OG
-9	##한	O	O	O, B-CV, B-LC, B-PS, I-CV
-10	일	O	O	O, B-CV, B-TM, B-LC, B-QT
-11	##들	O	O	O, B-CV, I-CV, B-OG, I-OG
-12	##을	O	O	O, B-CV, B-OG, B-TM, B-PS
-13	합니다	O	O	O, B-CV, B-OG, B-LC, B-TM
-14	[SEP]	O	O	O, B-CV, B-LC, B-OG, I-CV
+	text	label	preds
+0	[CLS]	O	O
+1	정치	B-CV	B-CV
+2	##부	I-CV	I-CV
+3	##장	I-CV	I-CV
+4	##과	O	O
+5	보도	O	B-CV
+6	##본부	B-CV	I-CV
+7	##장	I-CV	I-CV
+8	등	O	O
+9	요직	O	O
+10	##을	O	O
+11	거친	O	O
+12	최	O	B-PS
+13	수석	O	B-CV
+14	##은	O	O
+15	2011	B-DT	B-DT
+16	##년	I-DT	I-DT
+17	9	I-DT	I-DT
+18	##월	I-DT	I-DT
+19	청와대	B-AF	B-OG
+20	홍보	B-CV	B-CV
+21	##수	I-CV	I-CV
+22	##석	I-CV	I-CV
+23	##으로	O	O
+24	발표	O	O
+25	##될	O	O
+26	당시	O	O
+27	에스	B-OG	B-OG
+28	##비	I-OG	I-OG
+29	##에스	I-OG	I-OG
+30	방송	O	O
+31	##지	O	O
+32	##원	O	O
+33	##본부	O	O
+34	##장이	O	O
+35	##었	O	O
+36	##다	O	O
+37	.	O	O
+38	[SEP]	O	O

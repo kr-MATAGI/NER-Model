@@ -1,15 +1,30 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	이	B-QT	B-QT	B-QT, O, B-DT, B-EV, B-TM
-2	삼	I-QT	B-QT	B-QT, I-QT, O, B-DT, I-DT
-3	단계	I-QT	I-QT	I-QT, O, I-EV, I-DT, I-LC
-4	##로	O	O	O, I-QT, I-EV, I-CV, I-OG
-5	저	O	O	O, B-CV, B-OG, B-QT, I-QT
-6	##는	O	O	O, B-CV, B-OG, I-QT, I-OG
-7	나눠서	O	O	O, B-CV, B-OG, B-TM, B-PS
-8	저	O	O	O, B-CV, B-OG, B-PS, B-QT
-9	##는	O	O	O, B-CV, B-OG, I-OG, B-TM
-10	생각	O	O	O, B-CV, B-TM, B-OG, B-QT
-11	##을	O	O	O, B-CV, B-OG, I-OG, B-PS
-12	해요	O	O	O, B-CV, B-OG, I-OG, I-AF
-13	[SEP]	O	O	O, B-CV, B-OG, B-TM, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	IC	B-OG	B-OG
+2	##A	I-OG	I-OG
+3	##O	I-OG	I-OG
+4	##의	O	O
+5	이번	O	O
+6	조치	O	O
+7	##로	O	O
+8	북한	B-OG	B-OG
+9	##의	O	O
+10	GPS	B-TM	B-TM
+11	교란	O	O
+12	행위	O	O
+13	##에	O	O
+14	대한	O	O
+15	국제	O	O
+16	##사회	O	O
+17	##의	O	O
+18	대응	O	O
+19	수위	O	O
+20	##도	O	O
+21	한층	B-QT	O
+22	강화	O	O
+23	##될	O	O
+24	것	O	O
+25	##으로	O	O
+26	보인다	O	O
+27	.	O	O
+28	[SEP]	O	O

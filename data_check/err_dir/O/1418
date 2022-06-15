@@ -1,29 +1,80 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	[	O	O	O, B-OG, B-LC, B-CV, B-PS
-2	연말	O	B-CV	B-CV, O, I-CV, B-PT, B-OG
-3	##정	O	I-CV	I-CV, O, B-CV, I-OG, I-TM
-4	##산	O	I-CV	I-CV, O, B-CV, I-OG, I-TM
-5	후폭풍	O	O	O, I-CV, B-PS, I-OG, I-EV
-6	]	O	O	O, B-OG, B-LC, B-PS, I-OG
-7	野	O	B-OG	B-OG, O, I-OG, B-LC, B-CV
-8	“	O	O	O, I-OG, I-EV, B-OG, B-PS
-9	법인세	B-CV	B-CV	B-CV, O, B-OG, B-AF, I-CV
-10	올려	O	O	O, I-CV, I-OG, B-CV, I-AF
-11	환급금	O	O	O, B-CV, B-TM, B-LC, B-AF
-12	재원	O	O	O, B-CV, I-CV, B-TM, B-PS
-13	마련	O	O	O, B-PS, I-CV, B-CV, B-LC
-14	”	O	O	O, B-OG, B-PS, B-LC, B-CV
-15	與	O	B-OG	B-OG, O, B-LC, B-CV, B-PS
-16	“	O	O	O, I-OG, I-EV, I-CV, B-CV
-17	경제	O	O	O, B-CV, B-LC, B-PS, B-OG
-18	##살	O	O	O, B-PS, B-LC, I-EV, I-OG
-19	##리	O	O	O, B-PS, I-OG, B-LC, I-EV
-20	##기	O	O	O, B-PS, B-LC, B-OG, I-OG
-21	찬물	O	O	O, B-CV, B-LC, B-OG, B-PS
-22	…	O	O	O, B-CV, B-OG, B-LC, I-OG
-23	절대	O	O	O, B-CV, B-LC, B-OG, B-TM
-24	안	O	O	O, B-CV, B-OG, B-LC, B-TM
-25	##돼	O	O	O, B-OG, B-CV, I-OG, B-LC
-26	”	O	O	O, B-CV, B-OG, B-LC, I-OG
-27	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	이철	B-PS	B-PS
+2	##호	I-PS	I-PS
+3	한국	B-OG	B-OG
+4	##투자증권	I-OG	I-OG
+5	연구원	B-CV	B-CV
+6	##은	O	O
+7	“	O	O
+8	순이	O	O
+9	##자	O	O
+10	##마	O	O
+11	##진	O	O
+12	(	O	O
+13	N	O	O
+14	##IM	O	O
+15	)	O	O
+16	이	O	O
+17	전	O	B-DT
+18	분기	O	I-DT
+19	##보	O	O
+20	##다	O	O
+21	상승	O	O
+22	##하	O	O
+23	##고	O	O
+24	대손	O	O
+25	##비용	O	O
+26	,	O	O
+27	판	O	O
+28	##관	O	O
+29	##비	O	O
+30	##도	O	O
+31	안정	O	O
+32	##됐	O	O
+33	##다	O	O
+34	”	O	O
+35	며	O	O
+36	“	O	O
+37	중소기업	O	O
+38	중심	O	O
+39	##의	O	O
+40	대출	O	O
+41	수요	O	O
+42	##가	O	O
+43	견고	O	O
+44	##하	O	O
+45	##게	O	O
+46	살아나	O	O
+47	##는	O	O
+48	데	O	O
+49	##다	O	O
+50	새	O	O
+51	행장	O	B-CV
+52	##의	O	O
+53	효율	O	O
+54	중심	O	O
+55	경영	O	O
+56	##방	O	O
+57	##침	O	O
+58	##으로	O	O
+59	올해	B-DT	B-DT
+60	다시	O	O
+61	순이익	O	O
+62	1	B-QT	B-QT
+63	##조	I-QT	I-QT
+64	원	I-QT	I-QT
+65	클럽	O	O
+66	##에	O	O
+67	재가	O	O
+68	##입	O	O
+69	##할	O	O
+70	것	O	O
+71	”	O	O
+72	이라	O	O
+73	##고	O	O
+74	말	O	O
+75	##했	O	O
+76	##다	O	O
+77	.	O	O
+78	[SEP]	O	O

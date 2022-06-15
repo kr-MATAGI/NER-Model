@@ -1,22 +1,7 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	양	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-2	##씨	O	O	O, I-PS, B-CV, I-OG, I-AF
-3	##의	O	O	O, B-CV, B-PS, I-CV, B-TM
-4	'	O	O	O, B-CV, B-LC, B-OG, B-TM
-5	단골	O	O	O, B-CV, B-OG, B-AF, B-PS
-6	헌혈	O	B-AF	B-AF, B-OG, O, I-OG, I-AF
-7	##의	O	I-AF	I-AF, I-OG, O, I-LC, I-EV
-8	집	O	I-AF	I-AF, I-OG, O, I-LC, I-EV
-9	'	O	O	O, I-AF, I-OG, I-EV, B-CV
-10	은	O	O	O, B-CV, B-OG, B-PS, B-TM
-11	직장	O	O	O, B-CV, B-TM, B-EV, B-OG
-12	근처	O	O	O, B-TM, B-CV, B-LC, I-CV
-13	영등포	B-LC	B-LC	B-LC, O, B-AF, B-OG, B-PS
-14	##역	I-LC	I-LC	I-LC, O, B-LC, I-AF, I-OG
-15	앞	B-TM	B-TM	B-TM, O, I-TM, I-LC, B-CV
-16	##에	O	O	O, I-TM, I-AF, I-QT, B-CV
-17	있	O	O	O, B-CV, B-TM, B-LC, B-OG
-18	##다	O	O	O, B-CV, B-TM, I-CV, B-PS
-19	.	O	O	O, B-CV, B-LC, B-OG, B-PS
-20	[SEP]	O	O	O, B-CV, B-LC, B-TM, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	미	O	B-CV
+2	##음	O	I-CV
+3	##이나	O	O
+4	이렇게	O	O
+5	[SEP]	O	O

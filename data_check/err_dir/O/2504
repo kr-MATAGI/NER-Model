@@ -1,38 +1,37 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	제	B-QT	B-OG	B-OG, B-QT, O, B-CV, B-LC
-2	##1	I-QT	I-OG	I-OG, I-QT, O, B-OG, I-CV
-3	##야	O	I-OG	I-OG, O, I-QT, I-CV, B-OG
-4	##당	O	I-OG	I-OG, O, I-QT, I-CV, B-OG
-5	##인	O	O	O, I-OG, I-CV, I-QT, B-CV
-6	자유	B-OG	B-OG	B-OG, O, B-LC, B-PS, I-OG
-7	##한	I-OG	I-OG	I-OG, O, B-OG, I-CV, I-LC
-8	##국	I-OG	I-OG	I-OG, O, I-CV, B-OG, I-QT
-9	##당	I-OG	I-OG	I-OG, O, I-QT, I-CV, I-LC
-10	##은	O	O	O, I-OG, B-CV, I-EV, I-QT
-11	“	O	O	O, B-CV, B-LC, B-OG, B-TM
-12	위장	O	O	O, B-CV, B-EV, B-PS, B-LC
-13	협	O	O	O, B-CV, B-FD, B-EV, B-PS
-14	##치	O	O	O, I-EV, I-CV, I-FD, I-PS
-15	##쇼	O	O	O, I-EV, B-PS, I-CV, I-AF
-16	”	O	O	O, B-CV, I-EV, I-CV, B-PS
-17	,	O	O	O, B-CV, B-LC, B-PS, B-OG
-18	“	O	O	O, B-CV, B-LC, B-TM, B-OG
-19	소	B-AM	B-AM	B-AM, O, B-TM, B-PS, B-TR
-20	##가	O	O	O, B-AM, I-AM, B-PS, I-AF
-21	웃	O	O	O, B-AM, B-CV, I-AF, B-PS
-22	##을	O	O	O, B-PS, B-AM, I-AF, B-CV
-23	일	O	O	O, B-QT, B-CV, B-PS, B-AM
-24	”	O	O	O, B-CV, I-CV, I-QT, I-EV
-25	등	O	O	O, B-CV, B-LC, B-TM, B-PS
-26	격한	O	O	O, B-TM, B-CV, B-LC, B-PS
-27	표현	O	O	O, B-CV, B-FD, B-LC, B-OG
-28	##을	O	O	O, B-CV, B-OG, B-PS, B-LC
-29	써	O	O	O, B-CV, B-LC, B-OG, B-TM
-30	##가	O	O	O, B-LC, B-OG, B-PS, B-CV
-31	##며	O	O	O, B-LC, B-OG, B-CV, B-TM
-32	반발	O	O	O, B-CV, B-OG, B-TM, B-LC
-33	##했	O	O	O, B-CV, B-OG, B-LC, I-OG
-34	##다	O	O	O, B-CV, B-OG, B-LC, I-OG
-35	.	O	O	O, B-CV, B-LC, B-OG, B-PS
-36	[SEP]	O	O	O, B-CV, B-LC, B-OG, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	주민	O	B-EV
+2	##투표	O	I-EV
+3	##가	O	O
+4	실시	O	O
+5	##될	O	O
+6	8	B-DT	B-DT
+7	##월	I-DT	I-DT
+8	20	I-DT	I-DT
+9	~	I-DT	I-DT
+10	25	I-DT	I-DT
+11	##일	I-DT	I-DT
+12	##은	O	O
+13	여름휴가	O	O
+14	끝	O	O
+15	무렵	O	O
+16	##이	O	O
+17	##어	O	O
+18	##서	O	O
+19	유권자	B-CV	B-CV
+20	##의	O	O
+21	관심	O	O
+22	##을	O	O
+23	끄	O	O
+24	##는	O	O
+25	것	O	O
+26	##도	O	O
+27	쉽	O	O
+28	##지	O	O
+29	않	O	O
+30	##을	O	O
+31	것	O	O
+32	##으로	O	O
+33	보인다	O	O
+34	.	O	O
+35	[SEP]	O	O

@@ -1,45 +1,5 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	이런	O	O	O, B-LC, B-CV, B-TM, B-OG
-2	노력	O	O	O, B-LC, B-OG, B-CV, B-TM
-3	끝	O	O	O, B-PS, B-OG, B-LC, B-CV
-4	##에	O	O	O, B-OG, B-LC, B-CV, B-PS
-5	후쿠	O	B-LC	B-LC, B-OG, B-PS, O, B-CV
-6	##이	O	I-LC	I-LC, I-OG, I-PS, O, B-LC
-7	##현	O	I-LC	I-LC, I-OG, I-PS, O, B-LC
-8	##은	O	O	O, I-OG, I-LC, B-LC, B-CV
-9	지난	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-10	1	I-DT	I-DT	I-DT, O, B-DT, I-PS, I-QT
-11	##일	I-DT	I-DT	I-DT, O, B-DT, I-PS, I-OG
-12	##로	O	O	O, I-DT, B-CV, I-OG, I-EV
-13	예정	O	O	O, B-CV, B-LC, B-TM, B-OG
-14	##됐	O	O	O, B-LC, B-OG, B-CV, B-PS
-15	##던	O	O	O, B-LC, B-CV, B-TM, B-OG
-16	벌	O	O	O, B-CV, B-LC, B-TM, I-EV
-17	##채	O	O	O, I-CV, B-LC, B-CV, I-AF
-18	##를	O	O	O, B-CV, B-LC, B-OG, B-PS
-19	당분간	O	O	O, B-DT, B-LC, B-CV, B-QT
-20	연기	O	O	O, B-CV, B-LC, B-DT, B-OG
-21	##하고	O	O	O, B-LC, B-CV, B-PS, B-OG
-22	마을	O	O	O, B-LC, B-CV, B-TM, B-OG
-23	주민	B-CV	B-CV	B-CV, O, B-TM, I-CV, B-OG
-24	##과	O	O	O, I-CV, I-OG, B-CV, I-QT
-25	지역	O	O	O, B-CV, B-LC, B-TM, B-OG
-26	##의	O	O	O, B-CV, B-LC, B-PS, B-TM
-27	여론	O	O	O, B-CV, B-LC, B-TM, B-OG
-28	##을	O	O	O, B-CV, B-LC, B-PS, B-OG
-29	조사	O	O	O, B-CV, B-LC, B-TM, B-OG
-30	##하고	O	O	O, B-LC, B-CV, B-PS, B-DT
-31	난	O	O	O, B-LC, B-DT, B-PS, B-CV
-32	다음	O	O	O, B-LC, B-CV, B-PS, B-OG
-33	##에	O	O	O, B-CV, B-OG, B-LC, B-PS
-34	보호	O	O	O, B-CV, B-LC, B-TM, B-OG
-35	여부	O	O	O, B-CV, B-LC, B-PS, I-CV
-36	##를	O	O	O, B-CV, B-OG, B-LC, B-TM
-37	결정	O	O	O, B-CV, B-LC, B-OG, B-TM
-38	##하기	O	O	O, B-CV, B-LC, B-OG, B-PS
-39	##로	O	O	O, B-CV, B-OG, I-OG, B-LC
-40	했	O	O	O, B-CV, B-LC, B-OG, B-PS
-41	##다	O	O	O, B-CV, I-OG, I-EV, B-LC
-42	.	O	O	O, B-LC, B-CV, B-OG, B-PS
-43	[SEP]	O	O	O, B-CV, B-LC, B-OG, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	네	O	O
+2	오일	O	B-CV
+3	[SEP]	O	O

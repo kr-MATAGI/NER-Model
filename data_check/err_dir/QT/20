@@ -1,25 +1,57 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	저	O	O	O, B-CV, B-PS, B-OG, B-LC
-2	##는	O	O	O, B-CV, B-PS, B-QT, B-TM
-3	제일	O	O	O, B-QT, B-CV, B-DT, B-PS
-4	먼저	O	O	O, B-QT, B-CV, B-TM, B-DT
-5	떠오른	O	O	O, B-QT, B-TM, B-CV, B-PS
-6	게	O	O	O, B-PS, B-DT, B-QT, B-CV
-7	고	B-QT	B-DT	B-DT, O, B-QT, B-EV, B-TI
-8	##삼	I-QT	I-DT	I-DT, O, I-QT, B-DT, I-EV
-9	겨울	B-DT	I-DT	I-DT, B-DT, O, I-QT, B-QT
-10	##이	O	O	O, I-DT, B-PS, I-QT, I-EV
-11	##었	O	O	O, B-CV, B-PS, B-OG, I-DT
-12	##는데	O	O	O, B-CV, B-OG, B-PS, B-LC
-13	생각	O	O	O, B-CV, B-TM, B-QT, B-PS
-14	##해	O	O	O, B-PS, B-CV, I-AF, B-OG
-15	보	O	O	O, B-CV, B-PS, B-TM, I-AF
-16	##니까	O	O	O, B-CV, I-AF, B-PS, I-QT
-17	또	O	O	O, B-CV, B-TM, B-LC, B-OG
-18	그런	O	O	O, B-CV, B-OG, B-LC, B-TM
-19	거	O	O	O, B-CV, I-AF, B-PS, I-OG
-20	##예	O	O	O, B-CV, I-AF, I-OG, B-PS
-21	##요	O	O	O, B-CV, I-OG, I-AF, I-CV
-22	.	O	O	O, B-CV, B-PS, B-LC, I-AF
-23	[SEP]	O	O	O, B-CV, I-AF, B-PS, B-FD
+	text	label	preds
+0	[CLS]	O	O
+1	강성	B-PS	B-PS
+2	##훈	I-PS	I-PS
+3	##은	O	O
+4	18	B-QT	B-QT
+5	##번	I-QT	I-QT
+6	##홀	I-QT	I-QT
+7	(	O	O
+8	파	B-QT	B-QT
+9	##4	I-QT	I-QT
+10	)	O	O
+11	에서	O	O
+12	계속	O	O
+13	##된	O	O
+14	첫	B-QT	B-QT
+15	번	I-QT	I-QT
+16	##째	I-QT	I-QT
+17	연장	O	O
+18	##에	O	O
+19	##서	O	O
+20	두	B-QT	B-QT
+21	번	I-QT	I-QT
+22	##째	I-QT	I-QT
+23	샷	I-QT	I-QT
+24	##을	O	O
+25	홀	B-QT	B-TM
+26	2	I-QT	B-QT
+27	##m	I-QT	I-QT
+28	##에	O	O
+29	붙였	O	O
+30	##지만	O	O
+31	버디	B-TM	B-TM
+32	퍼트	B-TM	B-TM
+33	##에	O	O
+34	실패	O	O
+35	##했	O	O
+36	##고	O	O
+37	우승컵	O	O
+38	##은	O	O
+39	1	B-QT	B-QT
+40	.	I-QT	I-QT
+41	5	I-QT	I-QT
+42	##m	I-QT	I-QT
+43	버디	B-TM	B-TM
+44	퍼트	B-TM	B-TM
+45	##를	O	O
+46	성공	O	O
+47	##한	O	O
+48	자이	B-PS	B-PS
+49	##디	I-PS	I-PS
+50	##에	O	O
+51	##게	O	O
+52	돌아갔	O	O
+53	##다	O	O
+54	.	O	O
+55	[SEP]	O	O

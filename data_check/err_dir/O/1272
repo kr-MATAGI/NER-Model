@@ -1,23 +1,5 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	어떤	O	O	O, B-PS, B-LC, B-CV, B-OG
-2	법	O	O	O, B-CV, I-CV, B-FD, B-TR
-3	##적	O	O	O, I-CV, B-CV, I-TR, I-OG
-4	##제	O	O	O, I-CV, B-CV, I-TR, I-FD
-5	##도	O	O	O, I-CV, B-CV, I-TR, I-FD
-6	##가	O	O	O, B-PS, I-CV, B-LC, B-OG
-7	지금	O	O	O, B-CV, B-PS, B-LC, B-OG
-8	보호	O	O	O, B-CV, B-PS, B-LC, I-CV
-9	##하고	O	O	O, B-PS, B-CV, B-LC, I-AF
-10	기다리	O	O	O, B-PS, B-CV, B-LC, B-AF
-11	##고	O	O	O, B-PS, B-CV, B-LC, B-OG
-12	계신	O	O	O, B-PS, B-CV, B-LC, B-OG
-13	##지	O	O	O, B-PS, B-CV, B-LC, B-OG
-14	한번	O	B-QT	B-QT, O, B-CV, I-QT, B-PS
-15	소개	O	O	O, I-QT, B-CV, I-CV, B-TM
-16	##를	O	O	O, B-CV, B-OG, I-OG, B-PS
-17	해	O	O	O, B-OG, B-CV, B-LC, B-PS
-18	주시	O	O	O, B-CV, B-OG, B-PS, B-LC
-19	##죠	O	O	O, B-CV, B-OG, I-OG, I-EV
-20	.	O	O	O, B-CV, B-LC, B-PS, B-OG
-21	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	가지	O	B-CV
+2	인제	O	O
+3	[SEP]	O	O

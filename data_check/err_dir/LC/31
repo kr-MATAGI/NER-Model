@@ -1,33 +1,11 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-EV, I-OG, I-CV, B-CV
-1	칠레	B-LC	B-OG	B-OG, B-LC, O, I-OG, B-PS
-2	##는	O	O	O, I-OG, I-LC, I-EV, I-DT
-3	지난	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-LC
-4	7	I-DT	I-DT	I-DT, O, B-DT, I-EV, I-PS
-5	##월	I-DT	I-DT	I-DT, O, I-EV, B-DT, I-PS
-6	코	B-OG	B-EV	B-EV, I-EV, B-LC, O, B-DT
-7	##파	I-OG	I-EV	I-EV, I-DT, O, I-LC, B-EV
-8	아메리카	I-OG	I-EV	I-EV, I-LC, I-DT, B-LC, O
-9	(	O	O	O, I-EV, I-DT, I-OG, I-LC
-10	남미	B-OG	B-EV	B-EV, B-LC, B-DT, I-EV, B-PS
-11	##축구	I-OG	I-EV	I-EV, I-DT, O, I-LC, I-AF
-12	##선	I-OG	I-EV	I-EV, I-DT, O, I-LC, I-AF
-13	##수	I-OG	I-EV	I-EV, I-DT, O, I-LC, I-AF
-14	##권	I-OG	I-EV	I-EV, O, I-DT, I-LC, I-AF
-15	)	O	O	O, I-EV, I-DT, I-OG, I-AF
-16	에서	O	O	O, I-EV, B-DT, I-DT, B-LC
-17	우승	O	O	O, B-CV, B-EV, I-EV, B-LC
-18	##한	O	O	O, I-EV, B-PS, I-DT, B-LC
-19	이후	O	O	O, I-DT, I-EV, B-DT, B-PS
-20	지금	O	O	O, B-CV, B-LC, B-PS, B-OG
-21	##까	O	O	O, B-PS, B-LC, B-OG, B-CV
-22	##지	O	O	O, B-PS, B-LC, I-DT, I-PS
-23	뜨거운	O	O	O, B-LC, B-CV, B-PS, B-TM
-24	축구	B-CV	B-CV	B-CV, O, B-OG, B-AF, B-FD
-25	열기	O	O	O, I-CV, I-EV, B-CV, I-AF
-26	##에	O	O	O, B-CV, I-CV, I-EV, I-AF
-27	휩싸여	O	O	O, B-CV, B-OG, B-LC, B-TM
-28	있	O	O	O, B-CV, B-LC, B-OG, B-PS
-29	##다	O	O	O, B-CV, I-OG, B-LC, B-OG
-30	.	O	O	O, B-LC, B-PS, B-CV, B-OG
-31	[SEP]	O	O	O, B-LC, B-CV, I-EV, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	•	O	O
+2	김준	B-PS	B-PS
+3	##규	I-PS	I-PS
+4	총장	B-CV	B-CV
+5	,	O	O
+6	캐나다	B-LC	B-OG
+7	##에	O	O
+8	요청	O	O
+9	[SEP]	O	O

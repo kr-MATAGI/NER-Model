@@ -1,26 +1,69 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	지난	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-LC
-2	##겨울	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-3	##엔	O	O	O, I-DT, B-CV, B-OG, I-QT
-4	AI	B-TM	B-FD	B-FD, B-TM, B-TR, O, B-OG
-5	##가	O	O	O, I-TM, I-OG, I-EV, I-TR
-6	전국	O	O	O, B-LC, B-CV, B-OG, B-PS
-7	##으로	O	O	O, B-LC, B-PS, B-CV, I-LC
-8	확산	O	O	O, B-LC, B-PS, B-CV, B-TM
-9	##돼	O	O	O, B-LC, B-PS, B-OG, B-CV
-10	3700	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-LC
-11	##만	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-12	##마리	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-13	##의	O	O	O, I-QT, B-PS, B-CV, I-AF
-14	닭	B-AM	B-AM	B-AM, O, B-CV, B-TM, B-PS
-15	·	O	O	O, I-CV, I-AF, I-AM, I-QT
-16	오리	B-AM	B-AM	B-AM, O, I-AM, B-TM, B-CV
-17	##를	O	O	O, I-CV, I-AF, B-CV, I-QT
-18	살	O	O	O, B-CV, B-TM, B-LC, B-QT
-19	##처분	O	O	O, I-TM, I-CV, I-QT, I-OG
-20	##했	O	O	O, B-CV, B-PS, B-LC, B-OG
-21	##었	O	O	O, B-CV, B-OG, B-LC, I-OG
-22	##다	O	O	O, B-CV, I-OG, B-LC, B-OG
-23	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-24	[SEP]	O	O	O, B-CV, B-LC, B-PS, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	탑	O	O
+2	##의	O	O
+3	균열	O	O
+4	##을	O	O
+5	수리	O	O
+6	##하	O	O
+7	##기	O	O
+8	위해	O	O
+9	지난해	B-DT	B-DT
+10	위쪽	B-TM	O
+11	상	O	O
+12	##륜	O	O
+13	##부	O	O
+14	##부터	O	O
+15	시작	O	O
+16	##된	O	O
+17	석탑	O	O
+18	해체	O	O
+19	##수리	O	O
+20	작업	O	O
+21	##이	O	O
+22	2	B-QT	B-QT
+23	##층	I-QT	I-QT
+24	옥	O	O
+25	##개	O	O
+26	##석	O	O
+27	##에	O	O
+28	이르	O	O
+29	##러	O	O
+30	,	O	O
+31	그	O	O
+32	아래	O	O
+33	2	B-QT	B-QT
+34	##층	I-QT	I-QT
+35	탑	O	O
+36	##신	O	O
+37	(	O	O
+38	몸	O	O
+39	##돌	O	O
+40	)	O	O
+41	에	O	O
+42	있	O	O
+43	##는	O	O
+44	사리	O	O
+45	##공	O	O
+46	(	O	O
+47	사리	O	O
+48	##와	O	O
+49	사리	O	O
+50	##장	O	O
+51	##엄	O	O
+52	##구	O	O
+53	##를	O	O
+54	넣	O	O
+55	##는	O	O
+56	구멍	O	O
+57	)	O	O
+58	이	O	O
+59	공개	O	O
+60	##되	O	O
+61	##는	O	O
+62	순간	O	O
+63	##이	O	O
+64	##었	O	O
+65	##다	O	O
+66	.	O	O
+67	[SEP]	O	O

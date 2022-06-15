@@ -1,32 +1,37 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-QT, I-EV
-1	두	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-EV
-2	회사	I-QT	I-QT	I-QT, O, I-EV, I-OG, I-DT
-3	##가	O	O	O, I-QT, B-PS, I-EV, I-OG
-4	통합	O	O	O, B-OG, B-TM, B-CV, B-EV
-5	##하면	O	O	O, B-OG, I-OG, B-LC, B-PS
-6	아르	B-OG	B-OG	B-OG, B-LC, O, B-PS, I-OG
-7	##셀	I-OG	I-OG	I-OG, I-LC, O, I-PS, I-AF
-8	##로	I-OG	I-OG	I-OG, I-LC, O, I-PS, I-AF
-9	##미	I-OG	I-OG	I-OG, I-LC, O, I-PS, I-AF
-10	##탈	I-OG	I-OG	I-OG, I-LC, O, I-PS, I-AF
-11	##과	O	O	O, I-OG, I-LC, I-AF, I-PS
-12	허	B-LC	B-OG	B-OG, B-LC, O, I-OG, B-PS
-13	##베이	I-LC	I-OG	I-OG, I-LC, O, I-PS, I-AF
-14	·	O	O	O, I-OG, I-LC, I-AF, I-PS
-15	서	B-LC	B-OG	B-OG, I-OG, B-LC, O, B-PS
-16	##우	I-LC	I-OG	I-OG, I-LC, O, I-PS, B-OG
-17	##강	I-LC	I-OG	I-OG, I-LC, O, I-PS, I-AF
-18	합병	O	O	O, I-OG, I-LC, B-CV, B-OG
-19	회사	O	O	O, I-OG, B-OG, B-PS, B-CV
-20	##에	O	O	O, B-CV, B-OG, I-OG, B-LC
-21	이어	O	O	O, B-LC, B-OG, B-QT, B-CV
-22	세계	O	O	O, B-LC, B-CV, B-QT, B-TM
-23	3	B-QT	B-QT	B-QT, I-QT, O, B-DT, B-EV
-24	##위	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-EV
-25	##에	O	O	O, I-QT, I-OG, I-EV, B-CV
-26	오르	O	O	O, B-CV, B-OG, B-TM, B-QT
-27	##게	O	O	O, B-OG, B-CV, B-TM, B-LC
-28	된다	O	O	O, B-CV, B-OG, B-QT, B-TM
-29	.	O	O	O, B-OG, B-LC, I-OG, B-PS
-30	[SEP]	O	O	O, I-OG, B-OG, B-LC, B-CV
+	text	label	preds
+0	[CLS]	O	O
+1	울산	B-OG	B-OG
+2	현대	I-OG	I-OG
+3	골키퍼	B-CV	B-CV
+4	김병	B-PS	B-PS
+5	##지	I-PS	I-PS
+6	(	O	O
+7	46	B-QT	B-QT
+8	)	O	O
+9	가	O	O
+10	하프	B-TI	B-TI
+11	##타임	I-TI	I-TI
+12	때	I-TI	O
+13	은퇴	O	O
+14	##식	O	O
+15	##을	O	O
+16	한	O	O
+17	울산	B-LC	B-OG
+18	경기	O	O
+19	##에	O	O
+20	##서는	O	O
+21	울산	B-OG	B-OG
+22	현대	I-OG	I-OG
+23	##가	O	O
+24	포항	B-OG	B-OG
+25	스틸	I-OG	I-OG
+26	##러스	I-OG	I-OG
+27	##를	O	O
+28	1	B-QT	B-QT
+29	-	I-QT	I-QT
+30	0	I-QT	I-QT
+31	##으로	O	O
+32	눌렀	O	O
+33	##다	O	O
+34	.	O	O
+35	[SEP]	O	O

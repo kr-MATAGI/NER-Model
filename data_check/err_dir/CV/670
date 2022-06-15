@@ -1,8 +1,29 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	네	O	O	O, B-CV, B-QT, B-DT, B-TM
-2	움	B-CV	O	O, B-CV, I-CV, B-TM, B-PT
-3	##파	I-CV	O	O, I-CV, B-CV, I-TM, I-OG
-4	##에다	O	O	O, I-CV, I-QT, I-OG, I-AF
-5	##가	O	O	O, B-CV, I-CV, B-QT, B-PS
-6	[SEP]	O	O	O, B-CV, B-LC, B-QT, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	투표	O	O
+2	##용지	O	O
+3	7	B-QT	B-QT
+4	##장	I-QT	I-QT
+5	가운데	O	O
+6	소속	O	O
+7	정당	O	O
+8	표시	O	O
+9	없이	O	O
+10	후보	B-CV	B-CV
+11	이름	O	O
+12	##만	O	O
+13	죽	O	O
+14	나열	O	O
+15	##된	O	O
+16	걸	O	O
+17	보고	O	O
+18	찍	O	O
+19	##어야	O	O
+20	하	O	O
+21	##는	O	O
+22	게	O	O
+23	교육감	B-CV	B-EV
+24	선거	O	I-EV
+25	##다	O	O
+26	.	O	O
+27	[SEP]	O	O

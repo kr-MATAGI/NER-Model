@@ -1,65 +1,10 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	미국	B-LC	B-LC	B-LC, B-OG, O, B-PS, B-AF
-2	##의	O	O	O, I-LC, I-OG, B-LC, I-AF
-3	버락	B-PS	B-PS	B-PS, B-OG, O, I-PS, B-LC
-4	오바마	I-PS	I-PS	I-PS, B-PS, O, I-OG, I-LC
-5	행정부	B-OG	B-OG	B-OG, O, I-PS, I-OG, B-AF
-6	##와	O	O	O, I-OG, B-OG, I-PS, I-AF
-7	의회	O	O	O, B-OG, I-OG, B-CV, B-AF
-8	##는	O	O	O, I-OG, B-CV, B-PS, B-LC
-9	‘	O	O	O, B-CV, B-LC, B-OG, B-DT
-10	경기	O	B-CV	B-CV, O, I-CV, B-AF, B-OG
-11	##부	O	I-CV	I-CV, O, B-CV, I-AF, I-OG
-12	##양	O	I-CV	I-CV, O, B-CV, I-OG, I-TM
-13	##법	O	I-CV	I-CV, O, B-CV, I-OG, I-TM
-14	’	O	O	O, I-CV, I-OG, B-CV, I-AF
-15	등	O	O	O, B-LC, B-CV, B-OG, B-TM
-16	##을	O	O	O, B-CV, B-LC, B-OG, B-PS
-17	통해	O	O	O, B-LC, B-OG, B-CV, B-TM
-18	청년층	O	O	O, B-CV, B-TM, B-LC, B-OG
-19	##의	O	O	O, B-CV, B-PS, B-LC, I-CV
-20	직업훈련	O	O	O, B-CV, B-TM, B-LC, B-TR
-21	##과	O	O	O, B-PS, B-LC, B-CV, I-CV
-22	고용	O	O	O, B-CV, B-TM, B-LC, B-PS
-23	##확	O	O	O, I-CV, B-CV, I-TM, B-PS
-24	##대	O	O	O, I-CV, I-TM, I-LC, I-PS
-25	##를	O	O	O, B-PS, B-CV, I-CV, B-LC
-26	위해	O	O	O, B-LC, B-QT, B-CV, B-PS
-27	15	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-PS
-28	##억	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-29	##달	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-30	##러	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-31	##를	O	O	O, I-QT, B-CV, I-CV, I-OG
-32	지원	O	O	O, B-CV, B-OG, B-LC, B-TM
-33	##했	O	O	O, B-PS, B-LC, B-CV, B-OG
-34	##고	O	O	O, B-LC, B-CV, B-PS, B-OG
-35	비	O	O	O, B-CV, B-LC, B-PS, I-CV
-36	##숙	O	O	O, I-CV, B-CV, I-LC, B-LC
-37	##련	O	O	O, I-CV, B-CV, I-LC, I-PS
-38	청년	O	O	O, I-CV, B-CV, I-TM, I-LC
-39	등	O	O	O, I-CV, B-CV, B-PS, I-TM
-40	##을	O	O	O, B-CV, I-CV, B-PS, B-LC
-41	고용	O	O	O, B-CV, I-CV, B-TM, B-PS
-42	##하	O	O	O, B-PS, B-CV, I-CV, B-LC
-43	##는	O	O	O, B-CV, B-PS, I-CV, B-LC
-44	기업	O	O	O, B-CV, I-CV, B-OG, B-TM
-45	##에	O	O	O, B-CV, I-CV, B-OG, B-PS
-46	##는	O	O	O, B-LC, B-CV, B-OG, B-TM
-47	1	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-LC
-48	##명	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-49	##당	I-QT	I-QT	I-QT, O, I-LC, I-PS, I-OG
-50	1200	B-QT	B-QT	B-QT, I-QT, O, B-DT, B-CV
-51	~	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-DT
-52	2400	I-QT	I-QT	I-QT, B-QT, O, I-LC, I-PS
-53	##달	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-54	##러	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-55	##의	O	O	O, I-QT, B-CV, B-PS, I-CV
-56	세금	O	O	O, B-CV, I-CV, B-TM, B-QT
-57	##을	O	O	O, I-CV, B-CV, B-PS, B-LC
-58	공제	O	O	O, B-CV, B-QT, B-TM, I-CV
-59	##해	O	O	O, I-CV, B-PS, I-QT, B-LC
-60	##줬	O	O	O, B-CV, B-PS, B-LC, I-CV
-61	##다	O	O	O, B-CV, B-LC, B-OG, I-CV
-62	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-63	[SEP]	O	O	O, B-CV, B-LC, B-PS, I-CV
+	text	label	preds
+0	[CLS]	O	O
+1	[UNK]	O	O
+2	,	O	O
+3	美	O	B-LC
+4	에	O	O
+5	도전	O	O
+6	##하	O	O
+7	##다	O	O
+8	[SEP]	O	O

@@ -1,13 +1,36 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	여기	O	O	O, B-CV, B-PS, B-OG, B-QT
-2	발	B-OG	B-OG	B-OG, B-PS, B-AF, B-LC, O
-3	##모스	I-OG	I-OG	I-OG, I-PS, I-AF, O, I-LC
-4	한	I-OG	B-CV	B-CV, I-OG, B-OG, O, I-PS
-5	##의원	I-OG	I-OG	I-OG, I-CV, O, I-PS, B-CV
-6	##이	O	O	O, I-OG, I-CV, I-AF, I-PS
-7	있	O	O	O, B-CV, B-OG, B-PS, B-QT
-8	##습	O	O	O, B-CV, B-OG, I-OG, I-AF
-9	##니다	O	O	O, B-CV, I-OG, B-OG, B-LC
-10	.	O	O	O, B-CV, B-PS, B-OG, B-LC
-11	[SEP]	O	O	O, B-CV, I-OG, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	심미	O	O
+2	##안	O	O
+3	##이	O	O
+4	뛰어났	O	O
+5	##던	O	O
+6	그	O	O
+7	##는	O	O
+8	백	O	O
+9	##자와	O	O
+10	민화	B-FD	O
+11	(	O	O
+12	民	O	O
+13	畵	O	O
+14	)	O	O
+15	,	O	O
+16	전통	O	O
+17	공예품	O	O
+18	##에	O	O
+19	심취	O	O
+20	##했	O	O
+21	##고	O	O
+22	고분	B-OG	O
+23	발굴	I-OG	O
+24	##단	I-OG	O
+25	##을	O	O
+26	따라다니	O	O
+27	##며	O	O
+28	벽화	O	O
+29	##를	O	O
+30	공부	O	O
+31	##했	O	O
+32	##다	O	O
+33	.	O	O
+34	[SEP]	O	O

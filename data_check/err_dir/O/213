@@ -1,45 +1,9 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	리버	O	O	O, B-AF, B-TM, B-FD, B-PS
-2	##브	O	O	O, I-AF, I-TM, I-FD, I-TR
-3	(	O	O	O, I-AF, I-TM, I-OG, I-CV
-4	re	O	O	O, B-LC, B-PS, B-OG, B-FD
-5	##ver	O	O	O, B-PS, B-LC, I-LC, I-PS
-6	##b	O	O	O, I-PS, I-LC, B-PS, I-OG
-7	·	O	O	O, B-PS, B-LC, B-CV, B-OG
-8	[UNK]	O	O	O, B-LC, B-CV, B-PS, B-OG
-9	[UNK]	O	O	O, B-LC, B-PS, B-CV, B-OG
-10	)	O	O	O, B-PS, B-LC, B-CV, B-OG
-11	를	O	O	O, B-PS, B-LC, B-OG, B-CV
-12	일절	O	O	O, B-QT, B-CV, B-PS, B-DT
-13	넣	O	O	O, B-PS, B-CV, B-OG, B-LC
-14	##지	O	O	O, B-PS, B-LC, I-QT, B-QT
-15	않	O	O	O, B-PS, B-LC, B-OG, B-CV
-16	##은	O	O	O, B-PS, B-LC, B-OG, B-CV
-17	그	O	O	O, B-PS, B-CV, B-FD, B-OG
-18	##의	O	O	O, B-PS, B-CV, B-LC, B-FD
-19	음색	O	O	O, B-CV, B-FD, B-PS, B-LC
-20	##과	O	O	O, B-PS, B-OG, B-LC, B-CV
-21	창	O	O	O, B-FD, B-CV, B-PS, B-LC
-22	##법	O	O	O, I-CV, I-FD, I-PS, I-AF
-23	##은	O	O	O, B-LC, B-OG, B-PS, B-CV
-24	전래	B-FD	B-FD	B-FD, O, B-AF, I-FD, B-LC
-25	##동	I-FD	I-FD	I-FD, O, B-FD, I-AF, I-TR
-26	##화	I-FD	I-FD	I-FD, O, B-FD, I-AF, I-TR
-27	##를	O	O	O, I-FD, I-AF, I-QT, I-OG
-28	전문	O	O	O, B-CV, B-LC, B-FD, B-PS
-29	##으로	O	O	O, B-PS, B-LC, B-CV, B-QT
-30	낭독	O	O	O, B-CV, B-FD, B-LC, B-PS
-31	##하	O	O	O, B-PS, B-LC, B-CV, I-AF
-32	##는	O	O	O, B-CV, B-LC, B-PS, B-FD
-33	성우	O	B-CV	B-CV, O, B-FD, I-CV, B-TM
-34	##처럼	O	O	O, I-CV, B-PS, B-CV, I-OG
-35	회화	O	O	O, B-FD, B-TR, B-CV, B-LC
-36	##적	O	O	O, B-PS, I-FD, I-TR, I-QT
-37	##이	O	O	O, B-PS, B-LC, B-CV, B-FD
-38	##며	O	O	O, B-LC, B-PS, B-OG, B-CV
-39	친근	O	O	O, B-FD, B-CV, B-LC, B-PS
-40	##하	O	O	O, B-PS, B-LC, B-FD, B-CV
-41	##다	O	O	O, B-CV, B-LC, B-PS, B-FD
-42	.	O	O	O, B-LC, B-PS, B-CV, B-FD
-43	[SEP]	O	O	O, B-CV, B-LC, B-FD, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	한약	O	B-CV
+2	##재	O	I-CV
+3	##에	O	O
+4	대한	O	O
+5	신뢰	O	O
+6	##를	O	O
+7	[SEP]	O	O

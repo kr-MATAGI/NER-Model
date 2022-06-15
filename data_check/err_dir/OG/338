@@ -1,21 +1,32 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-EV, I-OG, B-CV, I-CV
-1	중수	B-OG	B-CV	B-CV, O, B-OG, B-FD, B-TM
-2	##부	B-CV	I-CV	I-CV, B-CV, O, I-OG, I-QT
-3	##장	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-QT
-4	시절	O	O	O, I-CV, B-PS, B-CV, B-LC
-5	외환은행	B-OG	B-OG	B-OG, O, B-EV, B-AF, B-LC
-6	헐	O	O	O, I-EV, B-EV, I-OG, B-CV
-7	##값	O	O	O, I-EV, I-OG, I-LC, I-TM
-8	매각	O	O	O, I-EV, I-OG, B-EV, I-TM
-9	사건	O	O	O, I-EV, I-OG, B-EV, I-LC
-10	,	O	O	O, I-EV, B-PS, B-CV, B-LC
-11	현대차	B-OG	B-OG	B-OG, B-EV, O, B-AF, B-LC
-12	비자금	O	O	O, I-EV, I-OG, B-EV, B-CV
-13	사건	O	O	O, I-EV, I-OG, I-CV, I-AF
-14	##을	O	O	O, I-EV, B-CV, I-OG, B-PS
-15	지휘	O	O	O, B-CV, B-OG, B-LC, B-TM
-16	##했	O	O	O, B-PS, B-LC, B-CV, I-EV
-17	##다	O	O	O, B-CV, B-PS, B-LC, B-OG
-18	.	O	O	O, B-LC, B-CV, B-PS, I-EV
-19	[SEP]	O	O	O, B-LC, I-EV, B-CV, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	―	O	O
+2	미	B-DT	B-DT
+3	·	I-DT	I-DT
+4	중	I-DT	I-DT
+5	정상	I-DT	I-DT
+6	##회	I-DT	I-DT
+7	##담	I-DT	I-DT
+8	직후	I-DT	I-DT
+9	호주	B-LC	B-LC
+10	##로	O	O
+11	가	O	O
+12	##던	O	O
+13	칼빈	B-OG	B-AF
+14	##슨	I-OG	I-AF
+15	항모	I-OG	B-AF
+16	전단	I-OG	I-AF
+17	##이	O	O
+18	한반도	B-LC	B-LC
+19	인근	O	O
+20	서태	B-LC	B-LC
+21	##평	I-LC	I-LC
+22	##양	I-LC	I-LC
+23	해역	I-LC	I-LC
+24	##으로	O	O
+25	이동	O	O
+26	배치	O	O
+27	##됐	O	O
+28	##다	O	O
+29	.	O	O
+30	[SEP]	O	O

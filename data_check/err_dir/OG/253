@@ -1,41 +1,47 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-QT
-1	이	O	O	O, B-OG, B-CV, B-PS, B-TM
-2	##들이	O	O	O, B-CV, B-OG, B-QT, B-PS
-3	짓	O	O	O, B-AF, B-CV, B-TM, B-LC
-4	##기	O	O	O, B-QT, B-AF, I-AF, B-PS
-5	##로	O	O	O, B-CV, B-QT, B-PS, I-AF
-6	한	O	O	O, B-QT, B-TM, B-CV, B-AF
-7	주택	O	O	O, B-AF, B-CV, B-TM, B-LC
-8	##은	O	O	O, I-AF, B-CV, B-TM, I-QT
-9	△	O	O	O, B-QT, B-LC, B-CV, B-TM
-10	##롯	B-OG	B-LC	B-LC, B-AF, B-OG, B-PS, B-TM
-11	##데	I-OG	I-LC	I-LC, I-AF, I-OG, I-PS, O
-12	75	B-QT	B-QT	B-QT, I-LC, I-AF, I-QT, I-OG
-13	##4	I-QT	I-QT	I-QT, I-LC, B-QT, I-AF, O
-14	##채	I-QT	I-QT	I-QT, O, I-LC, I-AF, B-QT
-15	△	O	O	O, I-QT, I-AF, B-QT, I-LC
-16	##두	B-OG	B-LC	B-LC, B-AF, B-OG, O, B-PS
-17	##산	I-OG	I-LC	I-LC, I-AF, I-OG, I-PS, O
-18	99	B-QT	B-QT	B-QT, I-LC, I-QT, I-AF, O
-19	##7	I-QT	I-QT	I-QT, I-LC, B-QT, I-AF, O
-20	##채	I-QT	I-QT	I-QT, O, I-LC, I-AF, B-QT
-21	△	O	O	O, I-QT, B-QT, I-LC, I-AF
-22	##금	B-OG	B-LC	B-LC, B-AF, B-OG, O, B-PS
-23	##호	I-OG	I-LC	I-LC, I-AF, I-OG, I-PS, O
-24	720	B-QT	B-QT	B-QT, I-LC, I-QT, I-AF, O
-25	##채	I-QT	I-QT	I-QT, I-LC, O, I-AF, I-PS
-26	△	O	O	O, I-QT, B-QT, I-LC, I-AF
-27	##효	B-OG	B-LC	B-LC, B-AF, B-OG, O, B-PS
-28	##성	I-OG	I-LC	I-LC, I-AF, I-OG, O, I-PS
-29	57	B-QT	B-QT	B-QT, I-LC, I-QT, I-AF, I-OG
-30	##2	I-QT	I-QT	I-QT, I-LC, B-QT, I-AF, I-PS
-31	##채	I-QT	I-QT	I-QT, O, I-LC, I-AF, B-QT
-32	등	O	O	O, I-QT, B-TM, B-QT, I-AF
-33	모두	O	O	O, B-QT, B-TM, I-QT, B-CV
-34	304	B-QT	B-QT	B-QT, I-QT, O, B-DT, B-PS
-35	##3	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-36	##채	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-37	##다	O	O	O, I-QT, B-CV, I-OG, B-TM
-38	.	O	O	O, B-LC, B-QT, B-TM, B-AF
-39	[SEP]	O	O	O, B-QT, B-LC, B-TM, B-CV
+	text	label	preds
+0	[CLS]	O	O
+1	과속	O	O
+2	##과	O	O
+3	신호	O	O
+4	##위	O	O
+5	##반	O	O
+6	,	O	O
+7	불법	O	O
+8	주	O	O
+9	·	O	O
+10	정차	O	O
+11	단속	O	O
+12	,	O	O
+13	구간	O	B-TM
+14	교통	B-TM	I-TM
+15	##정보	I-TM	I-TM
+16	##수	I-TM	I-TM
+17	##집	I-TM	I-TM
+18	##시스	I-TM	I-TM
+19	##템	I-TM	I-TM
+20	등	O	O
+21	교통	O	O
+22	##단	O	O
+23	##속	O	O
+24	CCTV	B-TM	B-TM
+25	##와	O	O
+26	관련	O	O
+27	##된	O	O
+28	선도	O	O
+29	기술	O	O
+30	##은	O	O
+31	대부분	O	O
+32	토	B-OG	B-PS
+33	##페	I-OG	I-PS
+34	##스	I-OG	I-PS
+35	##에	O	O
+36	의해	O	O
+37	탄생	O	O
+38	##했	O	O
+39	##다고	O	O
+40	봐도	O	O
+41	좋	O	O
+42	##을	O	O
+43	정도	O	O
+44	.	O	O
+45	[SEP]	O	O

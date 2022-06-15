@@ -1,44 +1,30 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	그러나	O	O	O, B-OG, B-TM, B-CV, B-LC
-2	공공	O	O	O, B-CV, B-TM, B-OG, I-CV
-3	##기	O	O	O, I-CV, B-CV, I-TM, I-OG
-4	##관	O	O	O, I-CV, I-TM, B-CV, I-OG
-5	청년	O	I-CV	I-CV, B-CV, O, I-TM, B-TM
-6	##고	O	I-CV	I-CV, O, B-CV, I-TM, I-OG
-7	##용	O	I-CV	I-CV, O, I-TM, B-CV, I-OG
-8	##의	O	I-CV	I-CV, O, B-CV, I-TM, I-OG
-9	##무	O	I-CV	I-CV, O, I-TM, B-CV, I-OG
-10	##제	O	I-CV	I-CV, O, I-TM, B-CV, I-OG
-11	##는	O	O	O, I-CV, I-OG, I-TM, I-AF
-12	부처	O	O	O, B-OG, B-CV, B-PS, B-LC
-13	간	O	O	O, B-PS, B-LC, B-OG, I-OG
-14	이견	O	O	O, B-OG, B-CV, B-LC, B-PS
-15	##이	O	O	O, B-PS, B-OG, B-LC, B-CV
-16	크	O	O	O, B-CV, B-PS, B-OG, B-LC
-17	##고	O	O	O, B-PS, B-OG, B-LC, B-CV
-18	공공	O	O	O, B-CV, B-OG, B-TM, B-FD
-19	##기	O	O	O, I-CV, I-OG, I-TM, I-LC
-20	##관	O	O	O, I-OG, I-CV, I-LC, I-TM
-21	선진	O	O	O, B-CV, B-LC, B-PS, B-TM
-22	##화	O	O	O, I-CV, I-OG, I-TM, I-LC
-23	방안	O	O	O, I-CV, B-CV, B-LC, I-OG
-24	##에	O	O	O, B-LC, B-PS, B-CV, B-OG
-25	배치	O	O	O, B-CV, B-TM, B-LC, B-PS
-26	##된	O	O	O, B-PS, B-LC, B-CV, B-OG
-27	##다는	O	O	O, B-PS, B-LC, B-OG, B-TM
-28	지적	O	O	O, B-CV, B-TM, B-LC, B-PS
-29	##이	O	O	O, B-PS, B-OG, B-CV, B-LC
-30	많	O	O	O, B-CV, B-OG, B-LC, B-PS
-31	##아	O	O	O, B-LC, B-OG, B-PS, B-TM
-32	이번	O	O	O, B-EV, B-CV, B-OG, B-DT
-33	종합	O	O	O, B-CV, B-OG, B-EV, I-EV
-34	##대	O	O	O, I-OG, I-EV, B-CV, I-TM
-35	##책	O	O	O, I-OG, B-CV, I-EV, B-OG
-36	##에서	O	O	O, B-OG, B-LC, B-CV, B-PS
-37	빠질	O	O	O, B-OG, B-TM, B-CV, B-LC
-38	것	O	O	O, B-PS, B-CV, B-OG, B-TM
-39	##으로	O	O	O, B-CV, B-TM, B-QT, B-OG
-40	보인다	O	O	O, B-CV, B-TM, B-OG, B-QT
-41	.	O	O	O, B-LC, B-OG, B-PS, B-CV
-42	[SEP]	O	O	O, B-LC, B-OG, B-CV, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	박현	B-PS	B-PS
+2	##정	I-PS	I-PS
+3	서울시	B-OG	B-OG
+4	##향	I-OG	I-OG
+5	당시	O	O
+6	대표	B-CV	B-CV
+7	##가	O	O
+8	직원	B-CV	B-CV
+9	##들	O	O
+10	##에	O	O
+11	##게	O	O
+12	막말	O	O
+13	##과	O	O
+14	명예훼손	O	B-CV
+15	##을	O	O
+16	했	O	O
+17	##다는	O	O
+18	의혹	O	O
+19	##을	O	O
+20	받	O	O
+21	##고	O	O
+22	불명예	O	O
+23	퇴진	O	O
+24	##한	O	O
+25	사건	O	O
+26	##이다	O	O
+27	.	O	O
+28	[SEP]	O	O

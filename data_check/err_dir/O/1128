@@ -1,9 +1,15 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	재일	O	B-CV	B-CV, O, B-LC, B-OG, B-FD
-2	동포	O	I-CV	I-CV, B-CV, O, I-OG, I-QT
-3	##하고	O	O	O, I-CV, I-OG, I-AF, I-EV
-4	납부	O	O	O, B-CV, B-OG, B-TM, B-LC
-5	거부	O	O	O, B-CV, B-OG, B-LC, B-TM
-6	##하고	O	O	O, B-CV, B-OG, I-OG, B-PS
-7	[SEP]	O	O	O, B-CV, B-LC, B-OG, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	바로	O	O
+2	경	B-CV	B-CV
+3	##빙	I-CV	I-CV
+4	(	O	O
+5	競	O	O
+6	氷	O	O
+7	)	O	O
+8	의	O	O
+9	한	O	B-QT
+10	장면	O	I-QT
+11	##이다	O	O
+12	.	O	O
+13	[SEP]	O	O

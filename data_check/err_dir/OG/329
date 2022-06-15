@@ -1,69 +1,93 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-EV, I-OG
-1	한국	B-OG	B-OG	B-OG, B-LC, O, B-AF, I-OG
-2	##국제	I-OG	I-OG	I-OG, O, B-OG, I-LC, I-EV
-3	##교	I-OG	I-OG	I-OG, O, I-LC, I-EV, I-AF
-4	##류	I-OG	I-OG	I-OG, O, I-LC, I-EV, I-AF
-5	##재단	I-OG	I-OG	I-OG, O, I-LC, I-EV, I-AF
-6	(	O	O	O, I-OG, B-CV, I-EV, I-CV
-7	이사장	B-CV	B-CV	B-CV, O, B-OG, B-AF, I-CV
-8	김병	B-PS	B-PS	B-PS, B-OG, O, I-PS, B-LC
-9	##국	I-PS	I-PS	I-PS, I-OG, O, I-LC, I-QT
-10	)	O	O	O, I-PS, I-OG, B-CV, B-LC
-11	초청	O	O	O, B-CV, B-LC, B-EV, B-OG
-12	##으로	O	O	O, B-PS, I-EV, I-CV, B-LC
-13	3	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-14	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-15	방한	O	O	O, B-LC, B-CV, I-DT, B-EV
-16	##한	O	O	O, B-LC, B-PS, B-OG, B-CV
-17	그	O	O	O, B-CV, B-LC, B-PS, B-OG
-18	##는	O	O	O, B-CV, B-PS, B-LC, I-EV
-19	기자	B-CV	B-CV	B-CV, O, B-OG, I-CV, B-AF
-20	##의	O	O	O, I-CV, B-CV, I-EV, I-AF
-21	명함	O	O	O, B-CV, B-TM, B-LC, B-AF
-22	##을	O	O	O, B-CV, B-PS, B-OG, I-EV
-23	보고	O	O	O, B-PS, B-LC, B-CV, B-DT
-24	""""	O	O	O, B-LC, B-CV, B-PS, B-TM
-25	석	B-DT	B-DT	B-DT, O, B-QT, I-DT, B-EV
-26	달째	I-DT	I-DT	I-DT, O, I-QT, B-DT, I-TI
-27	한국어	B-CV	B-CV	B-CV, O, B-LC, B-FD, B-OG
-28	##를	O	O	O, I-CV, I-AF, B-CV, I-OG
-29	배우	O	O	O, B-CV, B-LC, B-PS, B-TM
-30	##고	O	O	O, B-PS, B-LC, B-CV, I-AF
-31	있	O	O	O, B-PS, B-CV, B-LC, B-TM
-32	##는데	O	O	O, B-LC, B-CV, B-PS, I-AF
-33	재미있	O	O	O, B-CV, I-AF, B-LC, B-AF
-34	##어요	O	O	O, B-PS, I-AF, B-CV, B-LC
-35	.	O	O	O, B-CV, B-LC, B-PS, B-TM
-36	이걸	O	O	O, B-CV, B-LC, B-QT, B-PS
-37	읽	O	O	O, B-CV, B-LC, B-AF, B-TM
-38	##어	O	O	O, B-CV, I-AF, B-PS, B-LC
-39	##볼	O	O	O, B-PS, B-LC, B-CV, B-QT
-40	##까요	O	O	O, B-QT, B-PS, I-AF, I-QT
-41	?	O	O	O, I-QT, B-PS, I-AF, B-QT
-42	조	B-OG	O	O, B-QT, B-PS, B-CV, B-AF
-43	…	I-OG	O	O, I-QT, B-QT, I-AF, I-CV
-44	선	I-OG	O	O, I-QT, B-QT, I-AF, B-PS
-45	…	I-OG	O	O, I-QT, B-QT, I-AF, I-CV
-46	일	I-OG	O	O, I-QT, B-QT, I-AF, I-CV
-47	…	I-OG	O	O, I-QT, B-QT, I-AF, I-CV
-48	보	I-OG	I-QT	I-QT, O, B-QT, I-AF, I-CV
-49	,	O	O	O, I-QT, I-AF, I-CV, B-QT
-50	맞	O	O	O, I-QT, B-QT, B-PS, I-AF
-51	##죠	O	O	O, I-QT, I-AF, I-CV, B-PS
-52	?	O	O	O, B-PS, B-CV, I-AF, I-QT
-53	""""	O	O	O, B-CV, B-LC, B-TM, B-PS
-54	더듬	O	O	O, B-TM, B-AM, B-QT, B-PS
-55	##더	O	O	O, I-TM, B-TM, I-LC, B-LC
-56	##듬	O	O	O, I-TM, I-QT, I-LC, B-PS
-57	읽	O	O	O, B-CV, B-OG, B-TM, B-LC
-58	##더니	O	O	O, B-LC, B-PS, B-TM, B-CV
-59	큰	O	O	O, B-TM, B-CV, B-QT, B-PS
-60	소리	O	O	O, I-QT, B-QT, B-TM, B-PS
-61	##로	O	O	O, B-PS, I-QT, B-CV, I-AF
-62	껄껄	O	O	O, B-TM, B-QT, B-CV, B-AF
-63	웃	O	O	O, B-TM, B-CV, B-PS, I-QT
-64	##었	O	O	O, B-CV, B-PS, B-TM, I-AF
-65	##다	O	O	O, B-CV, B-TM, B-LC, B-PS
-66	.	O	O	O, B-CV, B-LC, B-PS, B-OG
-67	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	9	B-DT	B-DT
+2	##일	I-DT	I-DT
+3	경기도	B-LC	B-LC
+4	고양시	B-LC	B-LC
+5	고양	B-AF	B-AF
+6	##체육	I-AF	I-AF
+7	##관	I-AF	I-AF
+8	##에	O	O
+9	##서	O	O
+10	열린	O	O
+11	'	O	O
+12	포스코건설	B-OG	B-EV
+13	2011	B-DT	B-DT
+14	코리아	B-EV	B-EV
+15	##컵	I-EV	I-EV
+16	고양	I-EV	I-EV
+17	국제	I-EV	I-EV
+18	##체	I-EV	I-EV
+19	##조	I-EV	I-EV
+20	##대	I-EV	I-EV
+21	##회	I-EV	I-EV
+22	'	O	O
+23	에서	O	O
+24	양	B-PS	B-PS
+25	##학	I-PS	I-PS
+26	##선	I-PS	I-PS
+27	##은	O	O
+28	공중	O	O
+29	##에	O	O
+30	##서	O	O
+31	세	B-QT	B-QT
+32	바퀴	I-QT	I-QT
+33	(	O	O
+34	108	B-QT	B-QT
+35	##0	I-QT	I-QT
+36	##도	I-QT	I-QT
+37	)	O	O
+38	를	O	O
+39	회전	O	O
+40	##하	O	O
+41	##는	O	O
+42	신기	O	O
+43	##술	O	O
+44	##을	O	O
+45	펼쳐	O	O
+46	1	B-QT	B-QT
+47	,	I-QT	I-QT
+48	2	I-QT	I-QT
+49	##차	I-QT	I-QT
+50	시기	O	O
+51	평균	O	O
+52	16	B-QT	B-QT
+53	.	I-QT	I-QT
+54	650	I-QT	I-QT
+55	##점	I-QT	I-QT
+56	##을	O	O
+57	획득	O	O
+58	##하	O	O
+59	##며	O	O
+60	15	B-QT	B-QT
+61	.	I-QT	I-QT
+62	98	I-QT	I-QT
+63	##7	I-QT	I-QT
+64	##점	I-QT	I-QT
+65	##을	O	O
+66	기록	O	O
+67	##한	O	O
+68	세계	B-EV	B-EV
+69	##선	I-EV	I-EV
+70	##수	I-EV	I-EV
+71	##권	I-EV	I-EV
+72	챔피언	B-CV	B-CV
+73	토마	B-PS	B-PS
+74	부	I-PS	I-PS
+75	##엘	I-PS	I-PS
+76	(	O	O
+77	25	B-QT	B-QT
+78	·	O	O
+79	프랑스	B-LC	B-LC
+80	)	O	O
+81	을	O	O
+82	제치	O	O
+83	##고	O	O
+84	1	B-QT	B-QT
+85	##위	I-QT	I-QT
+86	##를	O	O
+87	차지	O	O
+88	##했	O	O
+89	##다	O	O
+90	.	O	O
+91	[SEP]	O	O

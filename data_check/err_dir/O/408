@@ -1,32 +1,58 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	교양	O	O	O, B-CV, B-FD, B-TM, B-PS
-2	과정	O	O	O, B-CV, I-CV, I-OG, B-PS
-3	##이	O	O	O, B-PS, B-CV, B-OG, B-LC
-4	내	O	O	O, B-CV, B-OG, B-PS, B-LC
-5	##가	O	O	O, B-CV, B-PS, B-OG, B-LC
-6	보	O	O	O, B-CV, B-PS, B-TM, B-OG
-7	##기	O	O	O, B-PS, B-CV, B-LC, B-TM
-8	##엔	O	O	O, B-CV, B-OG, B-LC, B-PS
-9	아마	O	O	O, B-OG, B-LC, B-CV, B-TM
-10	한국	B-LC	B-OG	B-OG, B-LC, O, B-FD, B-AF
-11	##대	O	I-OG	I-OG, O, I-FD, I-LC, I-AF
-12	##학	O	I-OG	I-OG, O, I-FD, I-LC, I-AF
-13	중	O	O	O, I-OG, I-AF, I-EV, B-PS
-14	##에	O	O	O, B-CV, I-OG, I-AF, B-OG
-15	제일	O	O	O, B-QT, B-CV, B-LC, B-PS
-16	잘	O	O	O, B-CV, B-OG, B-LC, B-TM
-17	되	O	O	O, B-CV, B-LC, B-OG, B-TM
-18	##고	O	O	O, B-CV, B-PS, I-OG, B-LC
-19	있	O	O	O, B-CV, B-LC, B-PS, B-OG
-20	##지	O	O	O, B-CV, B-PS, B-OG, B-LC
-21	않	O	O	O, B-CV, B-LC, B-QT, B-PS
-22	##을까	O	O	O, B-CV, B-OG, I-OG, B-PS
-23	하	O	O	O, B-CV, B-OG, B-PS, B-TM
-24	##는	O	O	O, B-CV, B-OG, B-PS, B-TM
-25	그	O	O	O, B-CV, B-OG, B-PS, B-TM
-26	짐작	O	O	O, B-CV, B-TM, B-QT, B-OG
-27	##을	O	O	O, B-CV, I-OG, B-PS, B-OG
-28	해	O	O	O, B-CV, B-OG, B-LC, B-TM
-29	.	O	O	O, B-CV, I-OG, B-OG, B-TM
-30	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	한편	O	O
+2	‘	O	O
+3	자원	O	O
+4	##외	O	O
+5	##교	O	O
+6	’	O	O
+7	비리	O	O
+8	의혹	O	O
+9	##을	O	O
+10	수사	O	O
+11	##하	O	O
+12	##는	O	O
+13	서울	B-OG	B-OG
+14	##중	I-OG	I-OG
+15	##앙	I-OG	I-OG
+16	##지	I-OG	I-OG
+17	##검	I-OG	I-OG
+18	특수	O	I-OG
+19	##1	O	O
+20	##부	O	O
+21	(	O	O
+22	부장	B-CV	B-CV
+23	임관	B-PS	B-PS
+24	##혁	I-PS	I-PS
+25	)	O	O
+26	는	O	O
+27	캐나다	B-LC	B-LC
+28	정유	O	B-MT
+29	##회사	O	O
+30	하	B-OG	B-OG
+31	##베스	I-OG	I-OG
+32	##트	I-OG	I-OG
+33	##를	O	O
+34	비싼	O	O
+35	값	O	O
+36	##에	O	O
+37	인수	O	O
+38	##한	O	O
+39	의혹	O	O
+40	##과	O	O
+41	관련	O	O
+42	##해	O	O
+43	이날	B-DT	B-DT
+44	한국	B-OG	B-OG
+45	##석	I-OG	I-OG
+46	##유	I-OG	I-OG
+47	##공사	I-OG	I-OG
+48	울산	I-OG	B-AF
+49	본사	I-OG	I-AF
+50	사무실	O	O
+51	##을	O	O
+52	압수수색	O	O
+53	##했	O	O
+54	##다	O	O
+55	.	O	O
+56	[SEP]	O	O

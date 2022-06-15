@@ -1,39 +1,24 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-EV, I-CV
-1	김	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
-2	교수	B-CV	B-CV	B-CV, O, I-PS, I-CV, B-AF
-3	##는	O	O	O, I-CV, I-EV, B-CV, I-OG
-4	“	O	O	O, B-CV, B-LC, B-TM, B-OG
-5	이달	O	B-DT	B-DT, O, I-DT, B-OG, B-CV
-6	말	O	I-DT	I-DT, O, B-DT, I-QT, I-PS
-7	##까	O	I-DT	I-DT, O, B-DT, I-QT, I-OG
-8	##지	O	I-DT	I-DT, O, B-DT, I-QT, I-OG
-9	##는	O	O	O, I-DT, B-CV, B-OG, I-OG
-10	표준	O	O	O, B-CV, B-AF, B-OG, B-LC
-11	##계약	O	O	O, I-AF, I-CV, I-OG, B-CV
-12	##서	O	O	O, I-AF, I-CV, I-OG, B-AF
-13	최종	O	O	O, B-LC, B-CV, B-PS, B-QT
-14	문안	O	O	O, B-LC, B-CV, B-AF, B-PS
-15	수정	O	O	O, B-CV, B-LC, B-PS, B-OG
-16	##을	O	O	O, B-CV, B-LC, B-OG, B-PS
-17	거쳐	O	O	O, B-LC, B-PS, B-OG, B-TM
-18	최종	O	O	O, B-LC, B-QT, B-PS, B-AF
-19	##안	O	O	O, B-QT, B-LC, B-PS, I-QT
-20	##을	O	O	O, B-LC, B-CV, B-PS, B-OG
-21	공정거래위	B-OG	B-OG	B-OG, O, B-AF, B-LC, B-EV
-22	##원회	I-OG	I-OG	I-OG, O, I-AF, I-EV, I-QT
-23	##에	O	O	O, I-OG, I-EV, I-QT, I-AF
-24	제출	O	O	O, B-CV, B-LC, B-TM, B-OG
-25	##할	O	O	O, B-LC, B-CV, B-PS, B-OG
-26	수	O	O	O, B-CV, B-LC, B-TM, B-QT
-27	있	O	O	O, B-CV, B-TM, B-QT, I-EV
-28	##을	O	O	O, B-CV, I-EV, B-TM, B-PS
-29	것	O	O	O, B-CV, B-PS, B-TM, B-LC
-30	”	O	O	O, B-CV, B-TM, I-OG, I-EV
-31	이라	O	O	O, B-CV, B-TM, B-PS, B-QT
-32	##고	O	O	O, B-CV, B-QT, B-TM, I-OG
-33	말	O	O	O, B-CV, B-TM, B-QT, I-QT
-34	##했	O	O	O, B-CV, B-TM, I-OG, B-QT
-35	##다	O	O	O, B-CV, B-TM, B-LC, B-QT
-36	.	O	O	O, B-LC, B-CV, B-OG, B-PS
-37	[SEP]	O	O	O, B-CV, B-LC, B-OG, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	석	B-PS	B-PS
+2	선장	B-CV	B-CV
+3	##은	O	O
+4	몸	B-AM	B-AM
+5	##에	O	O
+6	6	B-QT	B-QT
+7	##군데	I-QT	I-QT
+8	##의	O	O
+9	총상	O	B-TM
+10	(	O	O
+11	또는	O	O
+12	상처	O	O
+13	)	O	O
+14	을	O	O
+15	입	O	O
+16	##은	O	O
+17	것	O	O
+18	##으로	O	O
+19	알려졌	O	O
+20	##다	O	O
+21	.	O	O
+22	[SEP]	O	O

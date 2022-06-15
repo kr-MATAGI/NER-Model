@@ -1,15 +1,11 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-QT
-1	거기	O	O	O, B-CV, B-TM, B-PS, B-QT
-2	##에	O	O	O, B-CV, I-CV, B-PS, B-TM
-3	다진	B-CV	O	O, B-CV, B-AF, B-TM, B-LC
-4	마늘	I-CV	B-CV	B-CV, I-CV, O, B-PT, B-OG
-5	##을	O	O	O, I-CV, B-CV, I-OG, I-QT
-6	살짝	O	O	O, B-CV, B-QT, B-TM, B-PS
-7	익혀	O	O	O, B-CV, B-PS, I-CV, B-QT
-8	듬뿍	O	O	O, B-CV, B-PS, B-QT, I-CV
-9	얹	O	O	O, B-CV, I-CV, B-PS, I-QT
-10	##어낸	O	O	O, B-CV, I-CV, I-QT, B-PS
-11	##다	O	O	O, B-CV, I-CV, I-QT, B-QT
-12	.	O	O	O, B-CV, I-CV, B-PS, B-LC
-13	[SEP]	O	O	O, B-CV, I-CV, B-PS, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	어	O	O
+2	##어	O	O
+3	자연	B-CV	O
+4	##인	I-CV	O
+5	##이	O	O
+6	##네	O	O
+7	자연	B-CV	O
+8	##인	I-CV	O
+9	[SEP]	O	O

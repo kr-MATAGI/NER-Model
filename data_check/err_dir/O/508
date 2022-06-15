@@ -1,46 +1,41 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-EV, I-OG, B-CV, I-CV
-1	대한민국	B-LC	B-LC	B-LC, B-OG, O, B-AF, B-PS
-2	국가	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-AF
-3	##대표	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-EV
-4	선수	B-CV	B-CV	B-CV, I-CV, O, B-EV, I-EV
-5	##들	O	O	O, I-CV, I-EV, I-OG, I-AF
-6	##은	O	O	O, B-CV, B-LC, B-OG, B-PS
-7	31	B-DT	B-DT	B-DT, O, B-EV, I-DT, B-OG
-8	##일	I-DT	I-DT	I-DT, O, I-EV, B-DT, I-PS
-9	서울	B-LC	B-LC	B-LC, B-OG, O, B-AF, B-PS
-10	태릉	B-LC	B-LC	B-LC, I-LC, O, B-AF, B-OG
-11	##선	I-LC	I-LC	I-LC, I-AF, O, B-LC, I-PS
-12	##수	I-LC	I-LC	I-LC, I-AF, O, B-LC, I-PS
-13	##촌	I-LC	I-LC	I-LC, I-AF, O, I-PS, B-LC
-14	##에서	O	O	O, I-LC, I-AF, I-EV, B-LC
-15	열린	O	O	O, B-EV, B-LC, I-EV, B-DT
-16	평창	B-EV	B-EV	B-EV, B-LC, B-PS, O, B-AF
-17	##겨울	I-EV	I-EV	I-EV, O, B-EV, I-AF, I-LC
-18	##올	I-EV	I-EV	I-EV, O, B-EV, I-AF, I-OG
-19	##림픽	I-EV	I-EV	I-EV, O, I-AF, I-OG, I-LC
-20	G	B-DT	B-EV	B-EV, I-EV, B-DT, O, B-OG
-21	-	I-DT	I-EV	I-EV, I-DT, O, I-OG, I-AF
-22	100	I-DT	I-EV	I-EV, I-DT, O, B-DT, I-OG
-23	미디어	B-EV	B-EV	B-EV, B-DT, O, I-EV, I-DT
-24	##데이	I-EV	I-EV	I-EV, I-DT, O, I-OG, I-AF
-25	행사	O	I-EV	I-EV, O, I-DT, I-OG, I-AF
-26	##에	O	O	O, I-EV, I-DT, I-OG, I-AF
-27	참석	O	O	O, B-LC, B-CV, B-EV, B-OG
-28	##해	O	O	O, B-LC, B-PS, I-EV, B-OG
-29	국내	O	O	O, B-LC, B-CV, B-PS, I-EV
-30	##에서	O	O	O, B-LC, B-PS, B-CV, B-OG
-31	처음	O	O	O, B-QT, B-LC, B-CV, B-EV
-32	열리	O	O	O, B-EV, I-EV, B-PS, B-CV
-33	##는	O	O	O, B-EV, I-EV, B-LC, B-PS
-34	겨울	B-EV	B-EV	B-EV, O, I-EV, B-CV, B-LC
-35	##올	I-EV	I-EV	I-EV, O, B-EV, I-CV, I-AF
-36	##림픽	I-EV	I-EV	I-EV, O, B-EV, I-AF, I-CV
-37	##에서	O	O	O, I-EV, I-AF, I-OG, I-QT
-38	선전	O	O	O, B-LC, B-CV, I-EV, B-OG
-39	##을	O	O	O, B-CV, B-OG, B-PS, I-EV
-40	다짐	O	O	O, B-CV, B-LC, B-OG, I-EV
-41	##했	O	O	O, B-LC, B-PS, B-CV, B-OG
-42	##다	O	O	O, B-CV, B-LC, I-EV, B-PS
-43	.	O	O	O, B-LC, I-EV, B-PS, B-EV
-44	[SEP]	O	O	O, I-EV, B-LC, B-CV, B-EV
+	text	label	preds
+0	[CLS]	O	O
+1	1997	B-DT	B-DT
+2	##년	I-DT	I-DT
+3	현대차	O	B-OG
+4	터키	O	B-AF
+5	공장	O	I-AF
+6	가동	O	O
+7	##을	O	O
+8	시작	O	O
+9	##으로	O	O
+10	해외	O	O
+11	생산	O	O
+12	##을	O	O
+13	시작	O	O
+14	##한	O	O
+15	현대	B-OG	B-OG
+16	·	O	I-OG
+17	기아차	O	I-OG
+18	##는	O	O
+19	해외	O	O
+20	생산	O	O
+21	##시설	O	O
+22	확충	O	O
+23	##에	O	O
+24	주력	O	O
+25	##해	O	O
+26	현재	O	O
+27	연간	B-DT	B-DT
+28	기준	O	O
+29	해외	O	O
+30	생산	O	O
+31	##능력	O	O
+32	##이	O	O
+33	29	O	O
+34	##3	O	O
+35	##만	O	O
+36	대에	O	O
+37	이른다	O	O
+38	.	O	O
+39	[SEP]	O	O

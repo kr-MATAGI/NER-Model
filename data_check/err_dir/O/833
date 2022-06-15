@@ -1,38 +1,26 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-EV, I-CV
-1	동영상	O	O	O, B-TM, B-CV, B-LC, B-FD
-2	##과	O	O	O, B-TM, B-AF, B-CV, B-PS
-3	사업	O	O	O, B-TM, B-CV, B-AF, B-LC
-4	보고서	O	O	O, B-TM, I-TM, B-CV, B-AF
-5	##를	O	O	O, B-CV, B-TM, I-AF, B-PS
-6	대문	O	B-TM	B-TM, O, B-CV, B-QT, I-TM
-7	##화	O	I-TM	I-TM, O, B-TM, I-QT, I-CV
-8	##면	O	I-TM	I-TM, O, B-TM, I-QT, I-CV
-9	‘	O	O	O, I-TM, B-TM, B-QT, B-LC
-10	위원회	O	O	O, B-OG, B-EV, B-AF, B-CV
-11	활동	O	O	O, I-OG, I-AF, I-EV, I-TM
-12	’	O	O	O, I-TM, B-QT, B-TM, I-AF
-13	난	O	O	O, B-TM, I-TM, B-QT, I-QT
-14	##에	O	O	O, I-QT, I-TM, B-CV, B-TM
-15	올리	O	O	O, B-TM, B-LC, B-CV, B-PS
-16	##려고	O	O	O, B-PS, B-TM, I-QT, B-LC
-17	전원	B-OG	B-OG	B-OG, O, B-EV, B-AF, B-CV
-18	##위	I-OG	I-OG	I-OG, O, I-EV, I-AF, I-TM
-19	관리자	B-CV	B-CV	B-CV, O, I-OG, I-CV, I-EV
-20	페이지	O	O	O, B-TM, I-CV, I-TM, I-OG
-21	비밀	O	O	O, B-TM, B-CV, B-LC, B-AF
-22	##번	O	O	O, I-TM, I-CV, B-TM, B-CV
-23	##호	O	O	O, I-TM, I-CV, B-TM, B-CV
-24	##를	O	O	O, B-CV, B-OG, B-TM, B-LC
-25	입력	O	O	O, B-CV, B-TM, B-LC, B-OG
-26	##했	O	O	O, B-CV, B-OG, B-TM, B-LC
-27	##으나	O	O	O, B-TM, B-LC, B-CV, B-OG
-28	열리	O	O	O, B-TM, B-CV, B-LC, B-OG
-29	##지	O	O	O, B-TM, B-CV, B-LC, B-PS
-30	않	O	O	O, B-TM, B-CV, B-LC, B-OG
-31	##는	O	O	O, B-TM, B-CV, B-LC, B-PS
-32	##다고	O	O	O, B-CV, I-OG, I-AF, B-LC
-33	했	O	O	O, B-CV, B-OG, B-TM, B-LC
-34	##다	O	O	O, B-CV, B-TM, I-OG, B-OG
-35	.	O	O	O, B-TM, B-LC, B-CV, B-OG
-36	[SEP]	O	O	O, B-TM, B-CV, B-LC, I-TM
+	text	label	preds
+0	[CLS]	O	O
+1	유럽	B-LC	B-LC
+2	국가	O	O
+3	##들	O	O
+4	##은	O	O
+5	상여금	O	O
+6	,	O	O
+7	숙식	O	O
+8	##비	O	O
+9	,	O	O
+10	휴가	O	O
+11	##비	O	O
+12	,	O	O
+13	각종	O	O
+14	수당	O	O
+15	##까	O	O
+16	##지	O	O
+17	포함	O	O
+18	##해	O	O
+19	최저임금	O	B-CV
+20	##을	O	O
+21	산출	O	O
+22	##한다	O	O
+23	.	O	O
+24	[SEP]	O	O

@@ -1,16 +1,21 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	“	O	O	O, B-CV, B-LC, B-PS, B-OG
-2	핵실험	O	O	O, B-LC, B-AF, B-MT, B-CV
-3	강행	O	O	O, B-CV, B-LC, I-AF, I-OG
-4	##땐	O	O	O, B-LC, B-CV, B-PS, I-OG
-5	중국	B-LC	B-OG	B-OG, B-LC, O, B-PS, B-CV
-6	##도	O	O	O, I-OG, I-LC, B-LC, I-AF
-7	북	B-OG	B-LC	B-LC, B-OG, O, B-TM, B-PS
-8	고립	O	O	O, I-OG, I-LC, B-LC, B-OG
-9	##에	O	O	O, B-LC, I-OG, B-PS, B-OG
-10	합류	O	O	O, B-LC, B-OG, B-CV, B-TM
-11	##할	O	O	O, B-LC, B-PS, I-OG, I-LC
-12	것	O	O	O, B-PS, B-LC, I-OG, I-LC
-13	”	O	O	O, B-CV, B-LC, I-OG, B-PS
-14	[SEP]	O	O	O, B-LC, B-CV, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	민사	B-OG	O
+2	##고	I-OG	O
+3	##만	O	O
+4	작년	B-DT	B-DT
+5	29	B-QT	B-QT
+6	##명	I-QT	I-QT
+7	##에	O	O
+8	##서	O	O
+9	다소	O	O
+10	늘어난	O	O
+11	33	B-QT	B-QT
+12	##명	I-QT	I-QT
+13	##을	O	O
+14	합격	O	O
+15	##시	O	O
+16	##켰	O	O
+17	##다	O	O
+18	.	O	O
+19	[SEP]	O	O

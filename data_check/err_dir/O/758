@@ -1,95 +1,54 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-EV, I-CV, I-OG
-1	그렇지만	O	O	O, B-CV, B-OG, B-LC, B-PS
-2	국군	B-OG	B-OG	B-OG, O, B-CV, B-AF, I-OG
-3	##이	O	O	O, I-OG, B-PS, B-CV, I-CV
-4	된	O	O	O, B-CV, B-PS, B-LC, B-QT
-5	지	O	O	O, B-PS, B-CV, B-LC, B-DT
-6	열흘	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-LC
-7	만	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-8	##에	O	O	O, I-DT, B-PS, I-QT, I-EV
-9	같	O	O	O, B-CV, B-LC, B-PS, B-OG
-10	##은	O	O	O, B-PS, B-OG, B-LC, B-CV
-11	귀순	B-CV	B-CV	B-CV, O, B-OG, B-AF, B-PS
-12	##장	I-CV	I-CV	I-CV, B-CV, O, I-OG, I-AF
-13	##교	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-QT
-14	신분	O	O	O, I-CV, B-PS, B-CV, I-OG
-15	##으로	O	O	O, B-PS, B-CV, B-OG, B-LC
-16	수색	O	O	O, B-OG, B-CV, B-AF, B-EV
-17	##대	O	O	O, I-OG, B-OG, I-AF, I-CV
-18	##에	O	O	O, I-OG, B-CV, I-AF, I-CV
-19	함께	O	O	O, B-CV, B-TM, B-QT, B-LC
-20	있	O	O	O, B-CV, B-QT, B-TM, B-PS
-21	##던	O	O	O, B-CV, B-PS, B-LC, B-QT
-22	김유	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
-23	##택	I-PS	I-PS	I-PS, O, I-OG, I-LC, I-QT
-24	(	O	O	O, I-PS, B-CV, I-OG, B-LC
-25	신의	B-OG	B-OG	B-OG, B-LC, O, B-AF, B-PS
-26	##주	I-OG	I-OG	I-OG, I-LC, O, I-AF, I-PS
-27	##동	I-OG	I-OG	I-OG, I-LC, O, I-AF, B-OG
-28	##중	I-OG	I-OG	I-OG, I-LC, O, I-AF, I-QT
-29	동창	B-CV	B-CV	B-CV, O, I-CV, I-OG, B-TM
-30	)	O	O	O, I-CV, B-CV, I-OG, B-PS
-31	이	O	O	O, B-PS, B-CV, B-LC, B-OG
-32	인민군	B-CV	B-OG	B-OG, O, B-CV, B-AF, B-LC
-33	##의	O	O	O, I-OG, I-AF, I-EV, B-AF
-34	총	B-AF	B-AF	B-AF, O, I-AF, B-CV, B-TM
-35	##에	O	O	O, I-AF, I-EV, I-OG, B-CV
-36	맞아	O	O	O, B-TM, B-LC, B-CV, B-QT
-37	전사	O	O	O, B-TM, B-CV, B-EV, B-LC
-38	##하	O	O	O, B-LC, I-EV, B-PS, B-CV
-39	##는	O	O	O, B-LC, B-CV, B-PS, B-QT
-40	장면	O	O	O, B-CV, B-LC, B-QT, B-TM
-41	##을	O	O	O, B-CV, B-PS, B-LC, I-EV
-42	목격	O	O	O, B-CV, B-LC, B-EV, B-TM
-43	##했	O	O	O, B-PS, B-LC, B-CV, I-EV
-44	##을	O	O	O, B-CV, B-LC, B-PS, I-EV
-45	때	O	O	O, B-CV, B-LC, B-PS, B-OG
-46	,	O	O	O, B-CV, B-PS, B-LC, B-OG
-47	또	O	O	O, B-CV, B-LC, B-PS, B-OG
-48	닷새	B-DT	B-DT	B-DT, O, I-DT, B-LC, B-QT
-49	후	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
-50	작전	O	O	O, B-OG, I-DT, B-CV, B-LC
-51	##에	O	O	O, B-CV, B-PS, B-LC, I-OG
-52	나간	O	O	O, B-CV, B-LC, B-OG, B-PS
-53	수색	O	O	O, B-OG, B-CV, B-AF, I-OG
-54	##대	O	O	O, I-OG, I-CV, B-OG, I-AF
-55	동료	B-CV	B-CV	B-CV, O, I-CV, I-OG, B-AF
-56	5	B-QT	B-QT	B-QT, O, I-QT, I-CV, B-DT
-57	##명	I-QT	I-QT	I-QT, O, I-OG, I-CV, I-LC
-58	##이	O	O	O, I-QT, B-PS, B-CV, I-EV
-59	안경	O	B-CV	B-CV, O, I-CV, B-AM, B-TM
-60	##과	O	O	O, I-CV, B-PS, B-CV, I-AF
-61	신발	O	B-CV	B-CV, O, I-CV, B-AM, B-TM
-62	##까	O	O	O, I-CV, B-PS, B-CV, B-TM
-63	##지	O	O	O, B-PS, B-CV, B-LC, B-QT
-64	벗겨	O	O	O, B-CV, B-TM, B-LC, B-PS
-65	##진	O	O	O, B-CV, B-TM, B-LC, B-PS
-66	알몸	O	O	O, B-AM, B-CV, B-TM, B-QT
-67	시체	O	O	O, B-CV, B-TM, B-AM, B-AF
-68	##가	O	O	O, B-PS, I-CV, I-AF, B-CV
-69	된	O	O	O, B-LC, B-QT, B-CV, B-OG
-70	처참	O	O	O, B-LC, B-TM, B-CV, B-QT
-71	##한	O	O	O, B-LC, B-PS, B-OG, I-LC
-72	광경	O	O	O, B-CV, B-LC, B-TM, B-OG
-73	##을	O	O	O, B-CV, B-LC, B-PS, B-OG
-74	봤	O	O	O, B-CV, B-LC, B-PS, B-TM
-75	##을	O	O	O, B-CV, B-PS, B-LC, I-EV
-76	때	O	O	O, B-CV, B-PS, B-LC, I-EV
-77	##에	O	O	O, B-CV, B-PS, B-LC, B-OG
-78	##는	O	O	O, B-CV, B-LC, B-PS, B-OG
-79	인민군	B-CV	B-OG	B-OG, O, B-CV, B-AF, B-LC
-80	##에	O	O	O, I-OG, I-CV, I-EV, I-AF
-81	대한	O	O	O, B-LC, B-PS, B-CV, B-OG
-82	분노	O	O	O, B-PS, B-CV, B-TM, B-LC
-83	##로	O	O	O, B-PS, B-LC, B-CV, I-AF
-84	눈	B-AM	B-AM	B-AM, O, B-TR, B-TM, B-PS
-85	##이	O	O	O, B-PS, I-PS, B-AM, B-TM
-86	뒤집	O	O	O, B-TM, B-LC, B-QT, B-EV
-87	##힐	O	O	O, I-TM, I-LC, B-LC, B-PS
-88	지경	O	O	O, B-PS, B-LC, I-EV, I-LC
-89	##이	O	O	O, B-PS, B-OG, B-CV, B-LC
-90	##었	O	O	O, B-CV, B-LC, B-OG, I-OG
-91	##다	O	O	O, B-CV, B-LC, I-EV, B-TM
-92	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-93	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	장애인	B-CV	B-CV
+2	##차	I-CV	I-CV
+3	##별	I-CV	I-CV
+4	##금	I-CV	I-CV
+5	##지	I-CV	I-CV
+6	##법	I-CV	I-CV
+7	8	B-QT	B-QT
+8	##조	I-QT	I-QT
+9	##는	O	O
+10	‘	O	O
+11	국가	O	O
+12	및	O	O
+13	지방	O	B-OG
+14	##자치단체	O	I-OG
+15	##는	O	O
+16	장애인	B-CV	B-CV
+17	등	O	O
+18	##에	O	O
+19	##게	O	O
+20	정당	O	O
+21	##한	O	O
+22	편의	O	O
+23	##가	O	O
+24	제공	O	O
+25	##될	O	O
+26	수	O	O
+27	있	O	O
+28	##도록	O	O
+29	필요	O	O
+30	##한	O	O
+31	기술	O	O
+32	##적	O	O
+33	·	O	O
+34	행정	O	O
+35	##적	O	O
+36	·	O	O
+37	재정	O	O
+38	##적	O	O
+39	지원	O	O
+40	##을	O	O
+41	하여	O	O
+42	##야	O	O
+43	한다	O	O
+44	’	O	O
+45	고	O	O
+46	규정	O	O
+47	##하	O	O
+48	##고	O	O
+49	있	O	O
+50	##다	O	O
+51	.	O	O
+52	[SEP]	O	O

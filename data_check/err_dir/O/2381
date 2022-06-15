@@ -1,34 +1,45 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-EV, I-CV
-1	방통	B-OG	B-OG	B-OG, O, B-EV, B-AF, B-CV
-2	##위	I-OG	I-OG	I-OG, O, I-EV, I-AF, I-CV
-3	국감	O	O	O, I-EV, I-OG, B-EV, B-CV
-4	##서	O	O	O, I-EV, B-LC, B-PS, B-CV
-5	막말	O	O	O, B-CV, B-TM, B-LC, B-PS
-6	…	O	O	O, I-CV, B-PS, B-LC, I-EV
-7	또	O	O	O, B-LC, B-CV, B-OG, B-PS
-8	파행	O	O	O, B-CV, B-TM, B-LC, B-OG
-9	…	O	O	O, B-OG, B-LC, B-PS, B-CV
-10	한국	B-OG	B-OG	B-OG, O, B-LC, B-PS, B-AF
-11	##당	I-OG	I-OG	I-OG, O, I-LC, I-PS, B-OG
-12	“	O	O	O, I-OG, I-EV, B-CV, I-QT
-13	국회	B-OG	B-OG	B-OG, O, B-AF, B-LC, B-EV
-14	윤리	B-OG	B-OG	B-OG, O, I-OG, B-CV, B-EV
-15	##위	I-OG	I-OG	I-OG, O, I-CV, I-EV, I-AF
-16	제소	O	O	O, B-CV, I-OG, I-CV, I-EV
-17	##할	O	O	O, B-PS, I-CV, B-LC, I-OG
-18	것	O	O	O, B-PS, B-CV, B-LC, B-OG
-19	”	O	O	O, B-LC, B-OG, B-CV, B-PS
-20	방문	O	B-OG	B-OG, O, B-CV, B-EV, B-AF
-21	##진	O	I-OG	I-OG, O, I-CV, I-EV, I-AF
-22	6	B-DT	B-DT	B-DT, O, I-DT, I-OG, B-QT
-23	##일	I-DT	I-DT	I-DT, O, B-DT, I-OG, I-QT
-24	##경	I-DT	I-DT	I-DT, O, I-QT, I-OG, B-DT
-25	‘	O	O	O, I-DT, B-LC, B-CV, B-OG
-26	김장	B-PS	B-PS	B-PS, B-OG, O, I-PS, B-AF
-27	##겸	I-PS	I-PS	I-PS, I-OG, B-PS, O, I-LC
-28	해임	O	O	O, B-CV, I-PS, B-LC, B-TM
-29	##안	O	O	O, I-CV, B-PS, I-EV, B-LC
-30	’	O	O	O, B-LC, B-CV, B-OG, B-PS
-31	처리	O	O	O, B-OG, B-LC, B-CV, B-PS
-32	[SEP]	O	O	O, B-LC, B-OG, B-CV, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	7	B-DT	B-DT
+2	##월	I-DT	I-DT
+3	##부터	I-DT	I-DT
+4	백	B-TM	B-TM
+5	##내	I-TM	I-TM
+6	##장	I-TM	I-TM
+7	편도	B-TM	B-TM
+8	맹	B-TM	I-TM
+9	##장	I-TM	I-TM
+10	항문	B-TM	B-TM
+11	탈	O	I-TM
+12	##장	O	I-TM
+13	자궁	B-TM	B-TM
+14	제왕	B-TR	I-TM
+15	##절	I-TR	I-TM
+16	##개	I-TR	I-TM
+17	등	O	O
+18	7	B-QT	B-QT
+19	##가지	I-QT	I-QT
+20	질병	O	O
+21	##군	O	O
+22	##의	O	O
+23	입원	O	O
+24	수술	O	O
+25	##에	O	O
+26	대해	O	O
+27	종합	O	O
+28	##병원	O	O
+29	##과	O	O
+30	대학	O	O
+31	##병원	O	O
+32	##에	O	O
+33	##서도	O	O
+34	‘	O	O
+35	정찰	O	B-CV
+36	##제	O	I-CV
+37	’	O	O
+38	가	O	O
+39	시행	O	O
+40	##된	O	O
+41	##다	O	O
+42	.	O	O
+43	[SEP]	O	O

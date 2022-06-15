@@ -1,19 +1,73 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-EV, I-CV
-1	상위	O	O	O, B-CV, B-TM, B-OG, B-QT
-2	##권	O	O	O, I-OG, I-CV, I-LC, I-QT
-3	팀	O	O	O, I-OG, B-OG, B-CV, B-PS
-4	감독	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-EV
-5	##들이	O	O	O, I-CV, B-CV, I-OG, I-EV
-6	복싱	O	B-EV	B-EV, B-CV, O, I-EV, B-TM
-7	데이	O	I-EV	I-EV, O, I-CV, B-EV, I-DT
-8	매치	O	O	O, I-EV, I-AF, I-DT, I-CV
-9	##를	O	O	O, I-EV, I-AF, B-CV, I-OG
-10	두려워하	O	O	O, B-CV, B-OG, B-LC, B-TM
-11	##는	O	O	O, B-CV, B-PS, B-OG, B-TM
-12	이유	O	O	O, B-CV, B-TM, B-OG, B-QT
-13	##가	O	O	O, B-PS, I-AF, B-OG, B-CV
-14	이것	O	O	O, B-PS, B-TM, B-LC, B-CV
-15	##이다	O	O	O, B-CV, I-CV, I-QT, I-AF
-16	.	O	O	O, B-CV, B-LC, B-OG, B-PS
-17	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	방산	O	O
+2	비리	O	O
+3	##가	O	O
+4	해군	O	B-OG
+5	##에	O	O
+6	집중	O	O
+7	##된	O	O
+8	이유로	O	O
+9	합	O	B-OG
+10	##수단	O	I-OG
+11	관계자	B-CV	B-CV
+12	##는	O	O
+13	""""	O	O
+14	해군	O	B-OG
+15	함정	O	B-AF
+16	##에	O	O
+17	수백	O	O
+18	~	O	O
+19	수천	O	O
+20	##개	O	O
+21	장비	O	O
+22	##가	O	O
+23	들어가	O	O
+24	##는데	O	O
+25	각각	O	O
+26	납품	O	O
+27	계약	O	O
+28	##이	O	O
+29	이뤄져	O	O
+30	부정	O	O
+31	##이	O	O
+32	개입	O	O
+33	##할	O	O
+34	여지	O	O
+35	##가	O	O
+36	많	O	O
+37	##았	O	O
+38	##다	O	O
+39	""""	O	O
+40	며	O	O
+41	""""	O	O
+42	같	O	O
+43	##은	O	O
+44	함정	O	B-AF
+45	##에	O	O
+46	탑승	O	O
+47	##하면	O	O
+48	##서	O	O
+49	생긴	O	O
+50	끈끈	O	O
+51	##한	O	O
+52	선후배	B-CV	B-CV
+53	문화	O	O
+54	##가	O	O
+55	방산	O	O
+56	비리	O	O
+57	##라는	O	O
+58	부작용	O	O
+59	##으로	O	O
+60	이어진	O	O
+61	측면	O	O
+62	##도	O	O
+63	있	O	O
+64	##다	O	O
+65	""""	O	O
+66	고	O	O
+67	설명	O	O
+68	##했	O	O
+69	##다	O	O
+70	.	O	O
+71	[SEP]	O	O

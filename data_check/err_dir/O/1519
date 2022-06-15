@@ -1,24 +1,29 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	휴대	B-TM	B-TM	B-TM, O, B-CV, B-TR, B-QT
-2	##전	I-TM	I-TM	I-TM, O, B-TM, I-CV, I-QT
-3	##화	I-TM	I-TM	I-TM, O, I-CV, I-QT, B-TM
-4	##를	O	O	O, I-TM, I-CV, I-OG, I-AF
-5	뒤	O	O	O, B-TM, B-CV, B-AF, B-AM
-6	##에	O	O	O, I-TM, I-AF, B-TM, B-CV
-7	테이프	O	B-TM	B-TM, O, B-MT, B-CV, B-TR
-8	##로	O	O	O, I-TM, I-AF, I-CV, B-CV
-9	붙여서	O	O	O, B-CV, B-TM, B-LC, B-OG
-10	도어	B-TM	O	O, B-TM, B-AF, B-CV, B-AM
-11	##록	I-TM	O	O, I-TM, I-AF, I-CV, B-TM
-12	비밀	O	O	O, B-CV, I-AF, I-CV, I-TM
-13	##번	O	O	O, I-CV, B-CV, I-AF, I-TM
-14	##호	O	O	O, I-CV, B-CV, I-AF, B-LC
-15	##를	O	O	O, B-CV, I-AF, I-CV, B-OG
-16	알아낼	O	O	O, B-CV, B-LC, B-TM, B-PS
-17	##려고	O	O	O, B-CV, B-PS, B-TM, B-LC
-18	저렇게	O	O	O, B-CV, B-TM, B-QT, B-OG
-19	했	O	O	O, B-CV, B-OG, B-TM, B-LC
-20	##대요	O	O	O, B-CV, I-OG, I-AF, B-TM
-21	.	O	O	O, B-CV, B-LC, B-TM, B-PS
-22	[SEP]	O	O	O, B-CV, B-TM, B-LC, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	하지	O	O
+2	##만	O	O
+3	리그	O	O
+4	막판	O	O
+5	##엔	O	O
+6	각	O	O
+7	팀	O	O
+8	##의	O	O
+9	순위	O	O
+10	##가	O	O
+11	확정	O	O
+12	##되	O	O
+13	##면	O	O
+14	##서	O	O
+15	주전	O	B-CV
+16	##들이	O	O
+17	빠진	O	O
+18	경기	O	O
+19	##가	O	O
+20	이어져	O	O
+21	주목	O	O
+22	##도	O	O
+23	##가	O	O
+24	떨어졌	O	O
+25	##다	O	O
+26	.	O	O
+27	[SEP]	O	O

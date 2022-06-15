@@ -1,18 +1,35 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-EV, I-CV, I-AF
-1	[	O	O	O, B-LC, B-OG, B-CV, B-PS
-2	문화	O	O	O, B-CV, B-AF, B-EV, B-FD
-3	##나들	O	O	O, I-AF, I-EV, I-CV, I-OG
-4	##이	O	O	O, I-AF, B-PS, I-CV, I-OG
-5	어디	O	O	O, I-AF, B-AF, B-PS, B-LC
-6	##로	O	O	O, I-AF, B-PS, I-LC, I-OG
-7	할까	O	O	O, I-AF, B-LC, B-PS, I-LC
-8	]	O	O	O, B-LC, B-PS, I-AF, B-CV
-9	대	B-EV	B-EV	B-EV, O, B-DT, B-LC, B-PS
-10	##보	I-EV	O	O, I-EV, I-DT, I-LC, B-DT
-11	##름	I-EV	O	O, I-EV, I-DT, I-LC, I-PS
-12	특별	O	O	O, I-EV, I-DT, I-LC, I-AF
-13	국악	B-FD	B-FD	B-FD, O, I-FD, I-EV, B-OG
-14	##공	O	O	O, I-EV, I-FD, I-AF, I-OG
-15	##연	O	O	O, I-EV, I-FD, I-AF, I-OG
-16	[SEP]	O	O	O, I-EV, I-AF, B-CV, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	하	B-LC	B-LC
+2	##노버	I-LC	I-LC
+3	경찰	B-OG	B-OG
+4	##은	O	O
+5	폭탄	B-EV	B-AF
+6	테러	I-EV	O
+7	공격	O	O
+8	가능	O	O
+9	##성	O	O
+10	##에	O	O
+11	대한	O	O
+12	정보	O	O
+13	##를	O	O
+14	입수	O	O
+15	##했	O	O
+16	##다	O	O
+17	##며	O	O
+18	,	O	O
+19	경기	O	O
+20	시작	O	O
+21	1	B-TI	B-TI
+22	##시간	I-TI	I-TI
+23	##30	I-TI	I-TI
+24	##분	I-TI	I-TI
+25	전	I-TI	I-TI
+26	##에	O	O
+27	경기	O	O
+28	##를	O	O
+29	취소	O	O
+30	##했	O	O
+31	##다	O	O
+32	.	O	O
+33	[SEP]	O	O

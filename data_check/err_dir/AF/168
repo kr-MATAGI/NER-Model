@@ -1,26 +1,13 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	고구려	B-DT	B-DT	B-DT, O, B-LC, I-DT, B-PS
-2	무용	B-AF	B-AF	B-AF, O, I-AF, B-LC, B-EV
-3	##총	I-AF	I-AF	I-AF, O, I-LC, I-EV, I-PS
-4	(	O	O	O, I-AF, I-EV, I-OG, I-CV
-5	[UNK]	O	O	O, B-LC, B-CV, B-PS, B-TM
-6	[UNK]	O	O	O, B-CV, B-LC, B-PS, B-OG
-7	[UNK]	O	O	O, B-LC, B-CV, B-PS, B-OG
-8	)	O	O	O, B-LC, B-CV, B-PS, B-OG
-9	수렵	B-AF	O	O, B-AF, B-LC, B-FD, B-CV
-10	##도	I-AF	O	O, I-AF, I-LC, I-FD, I-CV
-11	(	O	O	O, I-AF, I-OG, I-CV, I-LC
-12	[UNK]	O	O	O, B-LC, B-CV, B-TM, B-PS
-13	[UNK]	O	O	O, B-CV, B-LC, B-PS, B-OG
-14	圖	O	O	O, B-LC, B-CV, B-TM, B-PS
-15	)	O	O	O, B-CV, B-LC, B-OG, B-PS
-16	의	O	O	O, B-PS, B-LC, B-CV, B-OG
-17	그	O	O	O, B-LC, B-CV, B-AF, B-TM
-18	포즈	O	O	O, B-LC, B-AF, B-TM, B-AM
-19	##였	O	O	O, I-AF, B-PS, I-CV, B-CV
-20	##던	O	O	O, B-CV, B-LC, B-OG, B-PS
-21	것	O	O	O, B-CV, B-OG, B-LC, B-PS
-22	##이다	O	O	O, B-CV, I-EV, I-OG, I-CV
-23	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-24	[SEP]	O	O	O, B-CV, B-LC, I-AF, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	서늘	B-AF	B-OG
+2	##한	I-AF	I-OG
+3	마음	I-AF	I-OG
+4	##썰	I-AF	I-OG
+5	제	B-QT	O
+6	이장	I-QT	B-CV
+7	일상	B-AF	B-AF
+8	##의	I-AF	I-AF
+9	온도	I-AF	I-AF
+10	.	O	O
+11	[SEP]	O	O

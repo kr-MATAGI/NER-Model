@@ -1,27 +1,14 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	그리스	B-LC	B-LC	B-LC, O, B-OG, B-PS, B-AF
-2	##에	O	O	O, I-LC, I-AF, I-OG, I-EV
-3	비하	O	O	O, B-CV, B-LC, B-OG, B-TM
-4	##면	O	O	O, B-OG, B-PS, B-LC, I-OG
-5	공무원	O	B-CV	B-CV, O, B-OG, B-AF, B-FD
-6	##단체	O	O	O, I-CV, I-OG, I-EV, I-AF
-7	건전	O	O	O, B-CV, B-OG, I-OG, B-FD
-8	##하	O	O	O, B-PS, I-OG, B-OG, B-LC
-9	##다	O	O	O, I-OG, B-CV, B-OG, B-PS
-10	”	O	O	O, B-CV, B-LC, B-PS, B-OG
-11	며	O	O	O, B-CV, B-LC, B-OG, B-PS
-12	“	O	O	O, B-CV, B-LC, B-OG, B-PS
-13	다만	O	O	O, B-CV, B-OG, B-TM, B-PS
-14	국민	B-CV	B-CV	B-CV, O, B-OG, I-CV, B-PS
-15	##의	O	O	O, I-CV, B-CV, I-OG, I-AF
-16	시선	O	O	O, B-CV, B-PS, B-TM, B-OG
-17	##이	O	O	O, B-PS, B-CV, B-OG, B-LC
-18	왜	O	O	O, B-CV, B-LC, B-PS, B-OG
-19	차가운	O	O	O, B-CV, B-PS, B-OG, B-LC
-20	##지	O	O	O, B-PS, B-CV, I-CV, B-LC
-21	반성	O	O	O, B-CV, B-LC, B-PS, B-TM
-22	##해야	O	O	O, B-PS, B-LC, B-CV, I-CV
-23	한다	O	O	O, B-CV, B-LC, I-OG, B-OG
-24	.	O	O	O, B-LC, B-CV, B-OG, B-PS
-25	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	기존	O	O
+2	재무	O	B-CV
+3	##관	O	I-CV
+4	##료	O	I-CV
+5	‘	O	O
+6	관	O	O
+7	##치	O	O
+8	##금융	O	O
+9	’	O	O
+10	과	O	O
+11	거리	O	O
+12	[SEP]	O	O

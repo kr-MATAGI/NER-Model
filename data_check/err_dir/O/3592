@@ -1,19 +1,42 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	볶	O	O	O, B-CV, B-OG, B-LC, B-TM
-2	##을	O	O	O, I-CV, B-CV, I-OG, B-PS
-3	때	O	O	O, B-CV, B-PS, I-CV, B-OG
-4	다진	O	B-CV	B-CV, O, B-OG, I-CV, B-AF
-5	마늘	B-CV	I-CV	I-CV, B-CV, O, I-OG, I-AF
-6	처음	O	O	O, I-CV, B-CV, I-OG, I-QT
-7	##에	O	O	O, B-CV, I-CV, B-OG, B-PS
-8	그	O	O	O, B-CV, B-OG, B-AF, B-PS
-9	향신	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-TM
-10	##채	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-TM
-11	##하고	O	O	O, I-CV, B-CV, I-OG, I-QT
-12	같이	O	O	O, B-CV, B-QT, B-TM, I-CV
-13	넣	O	O	O, B-CV, B-OG, I-CV, B-TM
-14	##었	O	O	O, B-CV, I-CV, I-OG, B-OG
-15	##었	O	O	O, B-CV, B-OG, B-TM, I-CV
-16	##는데	O	O	O, B-CV, B-OG, B-LC, B-QT
-17	[SEP]	O	O	O, B-CV, I-CV, B-TM, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	부인	O	B-CV
+2	##이	O	O
+3	##자	O	O
+4	유아	O	O
+5	##기	O	O
+6	정서	O	O
+7	·	O	O
+8	행동	O	O
+9	##문제	O	O
+10	전문가	B-CV	B-CV
+11	##인	O	O
+12	레	B-PS	B-PS
+13	##슬리	I-PS	I-PS
+14	레스	I-PS	I-PS
+15	##콜	I-PS	I-PS
+16	##라	I-PS	I-PS
+17	브	B-OG	B-OG
+18	##린	I-OG	I-OG
+19	##모어	I-OG	I-OG
+20	##대	I-OG	I-OG
+21	교수	B-CV	B-CV
+22	##와	O	O
+23	함께	O	O
+24	그	O	O
+25	##가	O	O
+26	최근	O	O
+27	연세대	B-OG	B-OG
+28	학술	O	O
+29	##대	O	O
+30	##회	O	O
+31	##에	O	O
+32	참여	O	O
+33	##하	O	O
+34	##기	O	O
+35	위해	O	O
+36	방한	O	O
+37	##했	O	O
+38	##다	O	O
+39	.	O	O
+40	[SEP]	O	O

@@ -1,17 +1,56 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-AF
-1	황교안	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-2	총리	B-CV	B-CV	B-CV, O, I-PS, B-OG, I-CV
-3	##도	O	O	O, I-CV, I-AF, I-OG, B-CV
-4	인적	O	O	O, B-CV, B-PS, B-TR, B-LC
-5	##쇄	O	O	O, B-PS, B-TR, B-CV, I-TR
-6	##신	O	O	O, I-CV, I-TR, B-PS, I-PS
-7	대상	O	O	O, B-CV, B-PS, B-OG, I-CV
-8	##이지	O	O	O, B-CV, B-OG, B-PS, B-LC
-9	대선	O	B-EV	B-EV, O, B-CV, B-AF, B-LC
-10	##후	O	B-CV	B-CV, I-CV, O, I-EV, B-TM
-11	##보	O	I-CV	I-CV, O, B-CV, I-EV, I-OG
-12	##는	O	O	O, I-CV, I-OG, I-EV, I-QT
-13	아니	O	O	O, B-CV, I-CV, B-TM, B-OG
-14	.	O	O	O, B-CV, I-OG, B-OG, I-CV
-15	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	입학	B-CV	B-CV
+2	##처	I-CV	I-CV
+3	##장	I-CV	I-CV
+4	출신	O	O
+5	##의	O	O
+6	한	O	O
+7	교수	B-CV	B-CV
+8	##는	O	O
+9	“	O	O
+10	입시	O	O
+11	공정성	O	O
+12	##을	O	O
+13	위해	O	O
+14	보관	O	O
+15	##비용	O	O
+16	##은	O	O
+17	대학	O	O
+18	##이	O	O
+19	당연히	O	O
+20	부담	O	O
+21	##해야	O	O
+22	할	O	O
+23	문제	O	O
+24	”	O	O
+25	라면서	O	O
+26	“	O	O
+27	교육부	B-OG	B-OG
+28	##가	O	O
+29	고교	O	B-TM
+30	교육	O	I-TM
+31	##정	O	I-TM
+32	##상	O	I-TM
+33	##화	O	I-TM
+34	지원	O	I-TM
+35	##사업	O	I-TM
+36	예산	O	O
+37	##에	O	O
+38	##서	O	O
+39	비용	O	O
+40	##을	O	O
+41	쓰	O	O
+42	##게	O	O
+43	하	O	O
+44	##는	O	O
+45	것	O	O
+46	##도	O	O
+47	방법	O	O
+48	”	O	O
+49	이라	O	O
+50	##고	O	O
+51	했	O	O
+52	##다	O	O
+53	.	O	O
+54	[SEP]	O	O

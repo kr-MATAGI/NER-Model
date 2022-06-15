@@ -1,22 +1,55 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-AF
-1	그런	O	O	O, B-CV, B-TM, B-OG, B-LC
-2	식	O	O	O, B-PS, B-CV, B-LC, B-TM
-3	##으로	O	O	O, B-PS, B-CV, B-LC, I-AF
-4	만만	O	O	O, B-CV, B-PS, B-OG, B-AM
-5	##해서	O	O	O, B-PS, I-AF, I-CV, B-LC
-6	거기	O	O	O, B-CV, B-LC, B-TM, B-PS
-7	##서	O	O	O, B-PS, B-CV, B-LC, B-AM
-8	##부터	O	O	O, B-PS, B-LC, I-DT, I-AF
-9	갑자기	O	O	O, B-PS, B-CV, B-LC, B-OG
-10	며느리	B-CV	B-CV	B-CV, O, B-PS, B-OG, B-AF
-11	##가	O	O	O, I-CV, I-AF, B-PS, I-QT
-12	복	O	B-AM	B-AM, O, B-CV, B-TM, B-PT
-13	##댕이	O	I-AM	I-AM, O, I-CV, I-TM, I-PT
-14	##가	O	O	O, I-CV, I-AF, I-TM, B-PS
-15	되	O	O	O, B-CV, B-QT, B-OG, B-LC
-16	##는	O	O	O, B-CV, I-AF, I-OG, B-OG
-17	거	O	O	O, B-CV, B-OG, I-OG, I-AF
-18	##야	O	O	O, I-OG, I-AF, I-CV, B-OG
-19	.	O	O	O, B-CV, B-PS, B-LC, I-AF
-20	[SEP]	O	O	O, B-CV, B-PS, I-AF, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	딸	B-CV	B-CV
+2	채	B-PS	B-PS
+3	##경	I-PS	I-PS
+4	##이	O	I-PS
+5	(	O	O
+6	가명	O	O
+7	·	O	O
+8	15	B-QT	B-QT
+9	)	O	O
+10	의	O	O
+11	휴지	O	O
+12	##통	O	O
+13	##에	O	O
+14	##서	O	O
+15	공	O	O
+16	##책	O	O
+17	여러	O	O
+18	권	O	O
+19	##이	O	O
+20	찢어진	O	O
+21	채	O	O
+22	발견	O	O
+23	##됐	O	O
+24	##을	O	O
+25	때	O	O
+26	주부	B-CV	B-CV
+27	박모	O	O
+28	씨	O	O
+29	(	O	O
+30	43	B-QT	B-QT
+31	)	O	O
+32	는	O	O
+33	그	O	O
+34	무섭	O	O
+35	##다는	O	O
+36	‘	O	O
+37	중	B-QT	B-QT
+38	##2	I-QT	I-QT
+39	##병	O	I-CV
+40	’	O	O
+41	이	O	O
+42	조금	O	O
+43	늦	O	O
+44	##게	O	O
+45	찾아온	O	O
+46	줄	O	O
+47	##로	O	O
+48	##만	O	O
+49	알	O	O
+50	##았	O	O
+51	##다	O	O
+52	.	O	O
+53	[SEP]	O	O

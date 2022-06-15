@@ -1,23 +1,26 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-QT
-1	지난해	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-2	19	B-QT	B-QT	B-QT, I-QT, I-DT, O, B-EV
-3	##개	I-QT	I-QT	I-QT, O, I-EV, I-DT, I-TM
-4	홈런	B-TM	B-TM	B-TM, O, I-TM, I-QT, B-CV
-5	##을	O	O	O, I-TM, I-QT, I-AF, I-CV
-6	터뜨린	O	O	O, B-OG, B-PS, B-CV, B-LC
-7	강민호	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-AF
-8	##의	O	O	O, I-PS, I-AF, I-OG, B-CV
-9	올	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-10	시즌	I-DT	I-DT	I-DT, O, I-QT, I-PS, I-EV
-11	홈런	B-TM	B-TM	B-TM, O, B-CV, I-TM, B-AF
-12	##은	O	O	O, I-TM, I-AF, I-CV, I-EV
-13	단	B-QT	O	O, B-QT, B-TM, B-CV, B-LC
-14	한	I-QT	B-QT	B-QT, O, I-QT, B-TM, B-PS
-15	개	I-QT	I-QT	I-QT, O, I-LC, I-TM, I-PS
-16	##에	O	O	O, I-QT, I-OG, I-AF, B-CV
-17	불과	O	O	O, B-QT, B-LC, I-QT, B-TM
-18	##하	O	O	O, I-QT, B-CV, B-LC, B-PS
-19	##다	O	O	O, B-CV, B-QT, B-TM, I-QT
-20	.	O	O	O, B-CV, B-LC, B-PS, B-OG
-21	[SEP]	O	O	O, B-CV, B-TM, B-LC, B-QT
+	text	label	preds
+0	[CLS]	O	O
+1	11	B-DT	B-DT
+2	##일	I-DT	I-DT
+3	(	O	O
+4	현지	O	O
+5	시간	O	O
+6	)	O	O
+7	독일	B-LC	B-LC
+8	프랑크푸르트	B-LC	B-LC
+9	##를	O	O
+10	떠나	O	O
+11	인천	B-LC	B-LC
+12	##으로	O	O
+13	향하	O	O
+14	##는	O	O
+15	루프	B-OG	B-OG
+16	##트	I-OG	I-OG
+17	##한	I-OG	I-OG
+18	##자	I-OG	I-OG
+19	LH	B-QT	B-TM
+20	##71	I-QT	I-TM
+21	##2	I-QT	I-TM
+22	##편	O	I-QT
+23	.	O	O
+24	[SEP]	O	O

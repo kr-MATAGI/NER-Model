@@ -1,11 +1,37 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	총각	O	B-CV	B-CV, O, I-CV, B-QT, B-TM
-2	때	O	O	O, I-CV, I-AF, I-OG, I-DT
-3	##는	O	O	O, B-CV, I-CV, I-AF, I-OG
-4	아주	O	O	O, B-CV, B-TM, B-OG, B-QT
-5	효자	O	O	O, B-CV, B-PS, B-QT, I-CV
-6	##였	O	O	O, I-CV, I-OG, B-CV, I-QT
-7	##었	O	O	O, B-CV, B-PS, I-CV, B-OG
-8	##대	O	O	O, I-AF, I-OG, I-CV, B-PS
-9	[SEP]	O	O	O, B-CV, I-AF, I-OG, I-CV
+	text	label	preds
+0	[CLS]	O	O
+1	답	O	O
+2	공론화	O	B-OG
+3	##위	O	I-OG
+4	##가	O	O
+5	시민	B-CV	B-CV
+6	##배	I-CV	I-CV
+7	##심	I-CV	I-CV
+8	##원	I-CV	I-CV
+9	##단	I-CV	I-CV
+10	##의	O	O
+11	결정	O	O
+12	내용	O	O
+13	##을	O	O
+14	정부	B-OG	B-OG
+15	##에	O	O
+16	제출	O	O
+17	##하면	O	O
+18	,	O	O
+19	정부	B-OG	B-OG
+20	##는	O	O
+21	국무회의	B-OG	B-OG
+22	##에	O	O
+23	##서	O	O
+24	공론화	O	B-OG
+25	##위	O	I-OG
+26	##의	O	O
+27	권고	O	O
+28	##안	O	O
+29	##을	O	O
+30	심의	O	O
+31	·	O	O
+32	의결	O	O
+33	##한다	O	O
+34	.	O	O
+35	[SEP]	O	O

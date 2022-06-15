@@ -1,56 +1,70 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-EV, I-CV, I-OG
-1	서울	B-OG	B-OG	B-OG, B-LC, O, B-AF, B-EV
-2	##중	I-OG	I-OG	I-OG, O, B-OG, I-LC, I-EV
-3	##앙	I-OG	I-OG	I-OG, O, I-LC, B-OG, I-EV
-4	##지	I-OG	I-OG	I-OG, B-OG, O, I-LC, I-EV
-5	##검	I-OG	I-OG	I-OG, O, B-OG, I-LC, I-EV
-6	##의	O	O	O, I-OG, I-EV, B-PS, I-AF
-7	한	O	O	O, B-PS, B-QT, B-LC, B-OG
-8	검사	B-CV	B-CV	B-CV, O, I-CV, I-QT, B-OG
-9	##는	O	O	O, I-CV, I-QT, I-EV, I-OG
-10	""""	O	O	O, B-LC, B-CV, B-PS, B-OG
-11	그간	O	O	O, B-LC, B-PS, B-OG, B-CV
-12	남기	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-13	##춘	I-PS	I-PS	I-PS, O, I-OG, I-LC, B-PS
-14	전	O	O	O, I-PS, B-LC, I-OG, I-LC
-15	서울	O	B-LC	B-LC, O, B-OG, B-AF, B-CV
-16	##서	O	O	O, B-LC, I-LC, B-CV, B-AF
-17	##부지	O	O	O, I-LC, B-LC, I-CV, I-AF
-18	##검	O	O	O, B-LC, I-LC, B-CV, B-AF
-19	##장이	O	O	O, B-LC, I-LC, B-PS, I-OG
-20	왜	O	O	O, B-LC, B-OG, B-PS, I-LC
-21	한화그룹	B-OG	B-OG	B-OG, O, B-LC, I-OG, B-PS
-22	수사	O	O	O, I-OG, I-LC, I-EV, B-LC
-23	도중	O	O	O, B-LC, B-PS, I-LC, B-CV
-24	##에	O	O	O, B-PS, B-LC, B-CV, B-OG
-25	사표	O	O	O, B-CV, B-LC, B-PS, B-AF
-26	##를	O	O	O, B-PS, B-CV, B-LC, B-OG
-27	냈	O	O	O, B-LC, B-PS, B-CV, B-OG
-28	##는지	O	O	O, B-LC, B-PS, B-OG, B-CV
-29	의문	O	O	O, B-LC, B-CV, B-PS, B-OG
-30	##이	O	O	O, B-PS, B-OG, B-CV, B-LC
-31	##었	O	O	O, B-PS, B-CV, B-OG, B-LC
-32	##는데	O	O	O, B-PS, B-LC, B-OG, B-CV
-33	이제야	O	O	O, B-LC, B-PS, B-OG, B-CV
-34	알	O	O	O, B-PS, B-LC, B-CV, B-OG
-35	것	O	O	O, B-PS, B-LC, B-CV, I-OG
-36	같	O	O	O, B-PS, B-CV, B-LC, I-OG
-37	##다	O	O	O, B-CV, B-PS, B-LC, B-OG
-38	""""	O	O	O, B-CV, B-LC, B-PS, B-TM
-39	며	O	O	O, B-LC, B-CV, B-OG, B-PS
-40	""""	O	O	O, B-LC, B-CV, B-PS, B-TM
-41	외압	O	O	O, B-CV, B-PS, B-LC, B-OG
-42	##의	O	O	O, B-PS, B-CV, I-CV, B-LC
-43	실체	O	O	O, B-CV, B-PS, B-LC, B-TM
-44	##를	O	O	O, B-CV, B-PS, B-LC, B-OG
-45	명백히	O	O	O, B-LC, B-CV, B-PS, B-OG
-46	밝혀야	O	O	O, B-PS, B-LC, B-CV, B-OG
-47	한다	O	O	O, B-PS, B-LC, B-CV, B-OG
-48	""""	O	O	O, B-CV, B-LC, B-TM, B-PS
-49	고	O	O	O, B-CV, B-LC, B-TM, B-QT
-50	말	O	O	O, B-CV, B-TM, B-LC, I-EV
-51	##했	O	O	O, B-CV, B-PS, B-LC, I-EV
-52	##다	O	O	O, B-CV, B-LC, B-PS, B-TM
-53	.	O	O	O, B-LC, B-PS, B-CV, B-OG
-54	[SEP]	O	O	O, B-LC, B-CV, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	2002	B-DT	B-DT
+2	##년	I-DT	I-DT
+3	솔트	O	B-LC
+4	##레이크	O	I-LC
+5	(	O	O
+6	미국	B-LC	B-LC
+7	)	O	O
+8	,	O	O
+9	2006	B-DT	B-DT
+10	##년	I-DT	I-DT
+11	토리	B-LC	B-LC
+12	##노	I-LC	I-LC
+13	(	O	O
+14	이탈리아	B-LC	B-LC
+15	)	O	O
+16	,	O	O
+17	2010	B-DT	B-DT
+18	##년	I-DT	I-DT
+19	밴쿠버	B-LC	B-LC
+20	(	O	O
+21	캐나다	B-LC	B-LC
+22	)	O	O
+23	,	O	O
+24	2014	B-DT	B-DT
+25	##년	I-DT	I-DT
+26	소치	B-LC	B-LC
+27	(	O	O
+28	러시아	B-LC	B-LC
+29	)	O	O
+30	등	O	O
+31	그동안	O	O
+32	동계	B-EV	B-EV
+33	##올	I-EV	I-EV
+34	##림픽	I-EV	I-EV
+35	##이	O	O
+36	북미	B-LC	B-LC
+37	##와	O	O
+38	유럽	B-LC	B-LC
+39	##을	O	O
+40	오가	O	O
+41	##며	O	O
+42	열린	O	O
+43	만큼	O	O
+44	2018	B-DT	B-DT
+45	##년	I-DT	I-DT
+46	##에	O	O
+47	##는	O	O
+48	아시아	B-LC	B-LC
+49	대륙	O	O
+50	##에	O	O
+51	##서	O	O
+52	올림픽	B-EV	B-EV
+53	##이	O	O
+54	개최	O	O
+55	##될	O	O
+56	가능	O	O
+57	##성이	O	O
+58	높	O	O
+59	##다는	O	O
+60	것	O	O
+61	##이	O	O
+62	일반	O	O
+63	##적	O	O
+64	##인	O	O
+65	전망	O	O
+66	##이다	O	O
+67	.	O	O
+68	[SEP]	O	O

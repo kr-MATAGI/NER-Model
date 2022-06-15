@@ -1,56 +1,30 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	휴대폰	B-TM	B-TM	B-TM, O, B-AF, I-TM, B-LC
-2	##에	O	O	O, I-TM, I-AF, I-QT, I-OG
-3	카드	O	O	O, B-TM, B-CV, I-TM, B-AF
-4	기능	O	O	O, I-TM, B-TM, I-CV, I-AF
-5	##이	O	O	O, B-PS, B-CV, B-LC, I-TM
-6	내장	O	O	O, B-TM, B-CV, B-LC, B-PS
-7	##된	O	O	O, B-TM, B-PS, B-CV, I-TM
-8	모바일	O	B-TM	B-TM, O, B-AF, I-TM, B-CV
-9	##카드	O	I-TM	I-TM, O, B-TM, I-AF, I-CV
-10	##는	O	O	O, I-TM, I-AF, B-CV, I-OG
-11	유심	B-TM	B-TM	B-TM, O, I-TM, B-AF, B-CV
-12	(	I-TM	I-TM	I-TM, O, B-TM, I-AF, I-CV
-13	US	I-TM	I-TM	I-TM, O, B-TM, I-AF, I-OG
-14	##IM	I-TM	I-TM	I-TM, O, B-TM, I-AF, I-OG
-15	)	I-TM	I-TM	I-TM, O, B-TM, I-AF, I-OG
-16	칩	I-TM	I-TM	I-TM, O, B-TM, I-AF, I-CV
-17	##과	O	O	O, I-TM, I-AF, I-OG, B-TM
-18	무선	B-TM	B-TM	B-TM, O, B-TR, I-TM, B-AF
-19	##주	I-TM	I-TM	I-TM, O, B-TM, I-TR, I-AF
-20	##파	I-TM	I-TM	I-TM, O, I-TR, B-TM, I-AF
-21	##수	I-TM	I-TM	I-TM, O, I-TR, B-TM, I-AF
-22	(	I-TM	I-TM	I-TM, O, B-TM, I-TR, I-AF
-23	RF	I-TM	I-TM	I-TM, O, B-TM, I-TR, I-AF
-24	)	I-TM	I-TM	I-TM, O, B-TM, I-AF, I-TR
-25	안테나	I-TM	I-TM	I-TM, O, B-TM, I-TR, I-AF
-26	##가	O	O	O, I-TM, I-AF, I-QT, I-OG
-27	함께	O	O	O, B-QT, B-TM, B-CV, B-LC
-28	장착	O	O	O, B-TM, B-CV, B-LC, B-OG
-29	##돼	O	O	O, B-LC, B-PS, B-CV, B-TM
-30	있	O	O	O, B-TM, B-LC, B-CV, B-PS
-31	##어야	O	O	O, B-TM, B-LC, I-AF, B-QT
-32	결제	O	O	O, B-TM, B-CV, B-AF, B-OG
-33	##가	O	O	O, B-PS, B-OG, B-CV, B-LC
-34	가능	O	O	O, B-TM, B-CV, B-LC, B-OG
-35	##한	O	O	O, B-CV, B-TM, B-OG, B-PS
-36	##데	O	O	O, B-CV, B-TM, B-LC, B-OG
-37	,	O	O	O, B-CV, B-LC, B-OG, B-TM
-38	지금	O	O	O, B-CV, B-TM, B-LC, B-OG
-39	##까	O	O	O, B-PS, B-LC, B-CV, B-TM
-40	##지	O	O	O, B-PS, B-LC, I-LC, I-QT
-41	출시	O	O	O, B-CV, B-TM, B-LC, B-PS
-42	##된	O	O	O, B-LC, B-PS, B-TM, B-CV
-43	스마트폰	B-TM	B-TM	B-TM, O, B-AF, I-TM, B-TR
-44	##에	O	O	O, I-TM, I-AF, I-OG, I-QT
-45	##는	O	O	O, B-TM, B-LC, B-CV, B-OG
-46	RF	O	O	O, B-TM, B-AM, B-TR, B-QT
-47	##안	O	O	O, I-TM, B-TM, B-AM, I-TR
-48	##테	O	O	O, I-TM, B-TM, I-QT, I-LC
-49	##나가	O	O	O, I-TM, B-TM, I-QT, I-LC
-50	없	O	O	O, I-TM, B-TM, B-CV, B-LC
-51	##었	O	O	O, B-CV, B-TM, B-OG, B-LC
-52	##다	O	O	O, B-CV, B-TM, I-OG, B-LC
-53	.	O	O	O, B-TM, B-LC, B-CV, I-TM
-54	[SEP]	O	O	O, B-TM, I-TM, B-CV, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	공주	B-LC	B-LC
+2	시민	B-CV	B-CV
+3	##들	O	O
+4	##도	O	O
+5	자율	O	B-OG
+6	##방	O	I-OG
+7	##범	O	I-OG
+8	##대	O	I-OG
+9	##와	O	O
+10	모범	B-OG	B-OG
+11	##운전	I-OG	I-OG
+12	##자	I-OG	I-OG
+13	##회	I-OG	I-OG
+14	,	O	O
+15	해병	B-OG	B-OG
+16	##전	I-OG	I-OG
+17	##우회	I-OG	I-OG
+18	등의	O	O
+19	단체	O	O
+20	##를	O	O
+21	통해	O	O
+22	적극	O	O
+23	돕	O	O
+24	##고	O	O
+25	있	O	O
+26	##다	O	O
+27	.	O	O
+28	[SEP]	O	O

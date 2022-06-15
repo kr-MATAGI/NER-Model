@@ -1,51 +1,84 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	심사	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-AF
-2	##위원	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-QT
-3	##들	O	O	O, I-CV, B-PS, I-OG, I-QT
-4	##은	O	O	O, B-PS, B-CV, B-LC, B-OG
-5	이	B-PS	B-PS	B-PS, O, I-PS, B-OG, B-LC
-6	작가	B-CV	B-CV	B-CV, O, I-PS, I-CV, B-PS
-7	##의	O	O	O, B-PS, I-CV, I-PS, I-EV
-8	군더더기	O	O	O, B-PS, B-TM, B-FD, B-CV
-9	없	O	O	O, B-PS, I-PS, B-LC, B-CV
-10	##는	O	O	O, B-PS, B-LC, B-OG, B-CV
-11	문장	O	O	O, B-FD, B-CV, B-TM, B-LC
-12	##과	O	O	O, B-PS, B-LC, B-OG, B-CV
-13	한	O	B-TI	B-TI, O, B-DT, B-EV, B-LC
-14	##여름	B-DT	B-TI	B-TI, B-DT, I-DT, I-TI, O
-15	##밤	B-TI	B-TI	B-TI, I-TI, O, I-DT, I-EV
-16	##의	O	O	O, I-TI, B-PS, I-EV, I-DT
-17	열기	O	O	O, B-CV, B-PS, B-LC, B-TM
-18	##처럼	O	O	O, B-PS, B-LC, B-CV, B-OG
-19	뜨거운	O	O	O, B-PS, B-LC, B-AF, B-CV
-20	에너지	O	O	O, B-PS, B-LC, B-CV, I-EV
-21	##를	O	O	O, B-PS, B-CV, B-LC, B-OG
-22	격	O	O	O, B-PS, B-CV, B-LC, B-TM
-23	##찬	O	O	O, B-PS, I-PS, B-CV, I-CV
-24	##했	O	O	O, B-PS, B-CV, B-LC, B-OG
-25	##지만	O	O	O, B-PS, B-CV, B-LC, B-QT
-26	,	O	O	O, B-PS, B-CV, B-LC, B-OG
-27	외부	O	O	O, B-LC, B-TM, B-PS, B-CV
-28	##의	O	O	O, B-PS, B-LC, I-PS, B-OG
-29	우연	O	O	O, B-PS, B-CV, B-FD, B-LC
-30	##성	O	O	O, B-PS, I-PS, I-LC, I-TR
-31	##을	O	O	O, B-PS, B-CV, B-LC, B-OG
-32	끌어들여	O	O	O, B-PS, B-LC, B-QT, B-CV
-33	사건	O	O	O, B-CV, B-LC, B-PS, I-EV
-34	##을	O	O	O, B-PS, B-CV, B-LC, B-OG
-35	해결	O	O	O, B-CV, B-LC, B-PS, B-QT
-36	##하	O	O	O, B-PS, B-LC, B-CV, B-OG
-37	##려	O	O	O, B-PS, B-LC, B-CV, I-PS
-38	##는	O	O	O, B-PS, B-LC, B-CV, B-OG
-39	몇몇	O	O	O, B-PS, B-LC, B-QT, B-CV
-40	구성	O	O	O, B-CV, B-PS, B-LC, B-OG
-41	##에	O	O	O, B-PS, B-CV, B-LC, B-OG
-42	대해서	O	O	O, B-PS, B-LC, B-OG, B-CV
-43	##는	O	O	O, B-PS, B-LC, B-OG, B-CV
-44	의견	O	O	O, B-PS, B-CV, B-OG, B-TM
-45	##이	O	O	O, B-PS, B-OG, B-CV, I-PS
-46	엇갈렸	O	O	O, B-CV, B-PS, I-PS, B-TM
-47	##다	O	O	O, B-CV, I-CV, I-EV, B-TM
-48	.	O	O	O, B-PS, B-LC, B-CV, B-OG
-49	[SEP]	O	O	O, B-CV, B-PS, B-LC, B-FD
+	text	label	preds
+0	[CLS]	O	O
+1	김기	B-PS	B-PS
+2	##문	I-PS	I-PS
+3	(	O	O
+4	56	B-QT	B-QT
+5	)	O	O
+6	포항	B-OG	B-OG
+7	##공	I-OG	I-OG
+8	##대	I-OG	I-OG
+9	첨단	O	O
+10	##재료	O	O
+11	##과학	O	O
+12	##부	O	O
+13	교수	B-CV	B-CV
+14	연구	O	O
+15	##팀	O	O
+16	##은	O	O
+17	19	B-DT	B-DT
+18	##일	I-DT	I-DT
+19	나노	B-QT	O
+20	(	O	O
+21	[UNK]	O	O
+22	10	B-QT	B-QT
+23	##억	I-QT	I-QT
+24	##분	I-QT	I-QT
+25	##의	I-QT	I-QT
+26	1	I-QT	I-QT
+27	##m	I-QT	I-QT
+28	)	O	O
+29	크기	O	O
+30	##에	O	O
+31	호박	B-TM	B-TM
+32	모양	I-TM	I-TM
+33	##을	O	O
+34	한	O	O
+35	화합물	O	O
+36	‘	O	O
+37	쿠	B-MT	B-MT
+38	##커	I-MT	I-MT
+39	##비	I-MT	I-MT
+40	##투	I-MT	I-MT
+41	##릴	I-MT	I-MT
+42	’	O	O
+43	로	O	O
+44	세포	O	O
+45	##에	O	O
+46	##서	O	O
+47	세포	O	B-TM
+48	##막	O	I-TM
+49	단백질	B-MT	B-MT
+50	##을	O	O
+51	처음	O	O
+52	분리	O	O
+53	##하	O	O
+54	##는	O	O
+55	데	O	O
+56	성공	O	O
+57	##해	O	O
+58	논문	O	O
+59	##이	O	O
+60	국제	O	O
+61	저널	O	O
+62	<	O	O
+63	네이처	B-AF	B-AF
+64	>	O	O
+65	자매	O	O
+66	##지	O	O
+67	##인	O	O
+68	<	O	O
+69	네이처	B-AF	B-AF
+70	케미	I-AF	I-AF
+71	##스트	I-AF	I-AF
+72	##리	I-AF	I-AF
+73	>	O	O
+74	20	B-DT	O
+75	##일치	I-DT	O
+76	##에	O	O
+77	실린	O	O
+78	##다고	O	O
+79	밝혔	O	O
+80	##다	O	O
+81	.	O	O
+82	[SEP]	O	O

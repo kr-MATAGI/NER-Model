@@ -1,51 +1,38 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	2009	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-2	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
-3	##에	O	O	O, I-DT, B-CV, I-EV, I-OG
-4	##는	O	O	O, B-OG, B-LC, B-CV, B-TM
-5	녹색	O	O	O, B-TM, B-TR, B-CV, B-MT
-6	##경영	O	O	O, I-TM, I-TR, I-CV, I-LC
-7	중장	O	O	O, B-TM, I-TM, B-LC, B-CV
-8	##기	O	O	O, I-TM, I-LC, I-TR, I-CV
-9	로드맵	O	O	O, B-TM, B-LC, I-TM, B-CV
-10	##인	O	O	O, B-CV, B-PS, B-LC, I-CV
-11	‘	O	O	O, B-CV, B-LC, B-OG, B-PS
-12	에코	B-OG	O	O, B-TM, B-AF, B-TR, B-CV
-13	매니지먼트	I-OG	O	O, I-TM, I-AF, I-TR, I-OG
-14	(	O	O	O, I-TM, I-AF, I-OG, I-CV
-15	E	O	O	O, B-DT, B-EV, B-LC, B-PS
-16	##co	O	O	O, I-EV, I-DT, I-LC, I-TM
-17	-	O	O	O, I-EV, I-DT, I-LC, I-TM
-18	Management	O	O	O, I-EV, I-LC, I-DT, B-LC
-19	2013	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-QT
-20	)	O	O	O, I-DT, I-EV, I-QT, B-CV
-21	’	O	O	O, B-CV, B-OG, B-LC, B-PS
-22	을	O	O	O, B-CV, B-OG, B-LC, B-PS
-23	발표	O	O	O, B-CV, B-OG, B-TM, B-LC
-24	##하고	O	O	O, B-CV, B-OG, B-LC, B-PS
-25	회사	O	O	O, B-CV, B-OG, B-PS, B-AF
-26	##의	O	O	O, I-OG, B-PS, B-CV, I-AF
-27	경영	O	O	O, B-CV, B-TM, B-LC, B-FD
-28	##이	O	O	O, I-CV, B-CV, I-AF, B-PS
-29	##념	O	O	O, I-CV, B-CV, I-OG, I-TM
-30	##과	O	O	O, B-LC, B-PS, B-OG, B-CV
-31	경영	O	O	O, B-CV, B-TM, B-LC, B-FD
-32	##원	O	O	O, I-CV, B-CV, I-AF, I-OG
-33	##칙	O	O	O, I-CV, B-CV, I-TM, B-LC
-34	##에	O	O	O, B-CV, B-LC, B-OG, B-PS
-35	근거	O	O	O, B-CV, B-LC, B-TM, B-OG
-36	##한	O	O	O, B-LC, B-OG, B-PS, B-TM
-37	녹색	B-TM	O	O, B-TM, B-TR, B-MT, B-CV
-38	##경영	O	O	O, I-TM, I-TR, I-CV, I-LC
-39	가치	O	O	O, B-CV, I-CV, I-TM, B-LC
-40	##체	O	O	O, I-CV, B-CV, B-LC, B-PS
-41	##계	O	O	O, B-CV, B-LC, I-CV, B-PS
-42	##를	O	O	O, B-CV, B-OG, B-LC, B-TM
-43	새롭	O	O	O, B-OG, B-TM, B-CV, B-LC
-44	##게	O	O	O, I-OG, B-LC, B-OG, B-PS
-45	정립	O	O	O, B-CV, B-LC, B-TM, B-OG
-46	##했	O	O	O, B-OG, B-CV, B-LC, I-OG
-47	##다	O	O	O, B-CV, B-OG, I-OG, B-LC
-48	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-49	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	김문수	B-PS	B-PS
+2	경기도	O	O
+3	##지사	O	O
+4	##가	O	O
+5	14	B-DT	B-DT
+6	##일	I-DT	I-DT
+7	""""	O	O
+8	(	O	O
+9	무상급식	B-CV	B-CV
+10	##을	O	O
+11	놓	O	O
+12	##고	O	O
+13	)	O	O
+14	경기도	B-OG	B-LC
+15	##가	O	O
+16	서울시	B-OG	B-LC
+17	##처럼	O	O
+18	싸움	O	O
+19	##질	O	O
+20	##을	O	O
+21	못	O	O
+22	##해서	O	O
+23	안	O	O
+24	하	O	O
+25	##는	O	O
+26	것	O	O
+27	##이	O	O
+28	아니	O	O
+29	##다	O	O
+30	""""	O	O
+31	고	O	O
+32	말	O	O
+33	##했	O	O
+34	##다	O	O
+35	.	O	O
+36	[SEP]	O	O

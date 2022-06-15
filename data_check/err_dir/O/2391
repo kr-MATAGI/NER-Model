@@ -1,42 +1,18 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	정상	O	O	O, B-TM, B-CV, B-AF, B-LC
-2	##에	O	O	O, I-AF, I-CV, I-TM, B-CV
-3	##는	O	O	O, B-CV, B-OG, B-LC, B-TM
-4	삼국	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-5	##시대	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-AF
-6	##부터	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-OG
-7	하늘	O	O	O, B-AM, B-LC, B-TM, B-AF
-8	##에	O	O	O, I-AF, I-LC, B-PS, I-EV
-9	제사	O	O	O, B-CV, I-AF, B-EV, B-AF
-10	##를	O	O	O, I-AF, I-EV, B-CV, B-PS
-11	지내	O	O	O, B-CV, B-LC, B-EV, B-PS
-12	##던	O	O	O, B-LC, B-CV, B-PS, B-TM
-13	국내	O	O	O, B-LC, B-CV, B-OG, B-PS
-14	최대	O	O	O, B-LC, B-QT, B-PS, B-CV
-15	규모	O	O	O, B-CV, B-OG, B-AF, B-PS
-16	##의	O	O	O, B-AF, I-AF, B-LC, B-CV
-17	천	O	B-AF	B-AF, O, B-LC, B-PS, B-OG
-18	##제	O	I-AF	I-AF, O, I-LC, I-OG, I-PS
-19	##단	O	I-AF	I-AF, O, I-LC, I-OG, I-PS
-20	(	O	O	O, I-AF, I-OG, I-EV, B-CV
-21	중요	O	B-AF	B-AF, O, I-AF, B-TM, B-CV
-22	##민	O	I-AF	I-AF, O, I-TM, I-CV, I-OG
-23	##속	O	I-AF	I-AF, O, I-TM, I-CV, I-QT
-24	##문화재	O	I-AF	I-AF, O, I-TM, I-QT, I-CV
-25	228	B-QT	I-AF	I-AF, B-QT, I-QT, I-TM, B-AF
-26	##호	I-QT	I-AF	I-AF, I-QT, I-TM, O, I-LC
-27	)	O	O	O, I-AF, I-QT, I-TM, I-CV
-28	이	O	O	O, B-PS, B-OG, B-LC, B-CV
-29	있	O	O	O, B-CV, B-LC, B-OG, I-AF
-30	##어	O	O	O, B-LC, B-OG, B-CV, B-PS
-31	해	O	O	O, B-DT, B-LC, B-PS, B-OG
-32	##마다	O	O	O, I-DT, B-PS, B-LC, B-DT
-33	개천	B-DT	B-DT	B-DT, B-EV, O, I-DT, B-QT
-34	##절	I-DT	I-DT	I-DT, I-EV, O, I-AF, I-QT
-35	##에	O	O	O, I-DT, I-EV, I-AF, I-QT
-36	제	O	O	O, B-CV, B-EV, B-FD, B-AF
-37	##를	O	O	O, I-EV, I-AF, I-CV, B-CV
-38	올린다	O	O	O, B-CV, B-EV, B-DT, I-EV
-39	.	O	O	O, B-LC, B-CV, I-EV, I-AF
-40	[SEP]	O	O	O, B-CV, B-LC, I-AF, I-EV
+	text	label	preds
+0	[CLS]	O	O
+1	에이	O	B-QT
+2	뭐	O	O
+3	그게	O	O
+4	청약	O	B-CV
+5	##해서	O	O
+6	되	O	O
+7	##기	O	O
+8	##만	O	O
+9	하	O	O
+10	##면은	O	O
+11	붓	O	O
+12	##는	O	O
+13	거	O	O
+14	##는	O	O
+15	뭐	O	O
+16	[SEP]	O	O

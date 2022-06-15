@@ -1,29 +1,24 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-QT
-1	그리고	O	O	O, B-CV, B-TM, B-OG, B-QT
-2	PC	B-TM	B-TM	B-TM, O, B-CV, B-AF, B-LC
-3	,	O	O	O, I-TM, I-AF, I-OG, I-CV
-4	스마트폰	B-TM	B-TM	B-TM, O, B-AF, B-LC, B-CV
-5	,	O	O	O, I-TM, I-AF, I-CV, I-OG
-6	태블릿	B-TM	B-TM	B-TM, O, B-AF, B-CV, B-LC
-7	##P	I-TM	I-TM	I-TM, O, B-TM, I-AF, I-CV
-8	##C	I-TM	I-TM	I-TM, O, I-AF, I-CV, I-OG
-9	등	O	O	O, I-TM, I-AF, I-CV, I-OG
-10	기기	O	O	O, B-CV, B-TM, B-LC, B-OG
-11	##나	O	O	O, B-OG, B-LC, B-TM, B-CV
-12	사	B-TM	B-TM	B-TM, O, B-OG, B-AF, B-CV
-13	##파리	I-TM	I-TM	I-TM, O, I-OG, B-TM, I-AF
-14	크롬	B-TM	I-TM	I-TM, B-TM, O, I-OG, I-AF
-15	등	O	O	O, I-TM, B-TM, I-AF, B-CV
-16	웹	B-TM	B-TM	B-TM, O, B-CV, I-TM, B-TR
-17	##브라	I-TM	I-TM	I-TM, O, B-TM, I-CV, I-TR
-18	##우	I-TM	I-TM	I-TM, O, I-CV, B-TM, I-OG
-19	##저	I-TM	I-TM	I-TM, O, I-CV, I-OG, B-TM
-20	##도	O	O	O, I-TM, I-CV, I-OG, I-QT
-21	따질	O	O	O, B-CV, B-OG, B-TM, B-LC
-22	필요	O	O	O, B-CV, B-TM, B-OG, B-LC
-23	##가	O	O	O, B-OG, B-PS, B-CV, I-OG
-24	없	O	O	O, B-CV, B-TM, B-OG, B-QT
-25	##다	O	O	O, B-CV, B-TM, I-CV, I-OG
-26	.	O	O	O, B-TM, B-CV, B-LC, B-OG
-27	[SEP]	O	O	O, B-TM, B-CV, I-TM, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	파스텔	B-TM	O
+2	핑크	I-TM	B-TM
+3	풍선	O	O
+4	장식	O	O
+5	##과	O	O
+6	초콜릿	B-CV	B-CV
+7	,	O	O
+8	레드	B-CV	B-CV
+9	##와	I-CV	I-CV
+10	##인	I-CV	I-CV
+11	및	O	O
+12	테라스	O	O
+13	##의	O	O
+14	2	B-QT	B-QT
+15	##인	I-QT	I-QT
+16	조식	O	O
+17	##도	O	O
+18	포함	O	O
+19	##된	O	O
+20	##다	O	O
+21	.	O	O
+22	[SEP]	O	O

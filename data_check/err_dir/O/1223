@@ -1,26 +1,37 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	북유럽	B-LC	B-LC	B-LC, O, B-OG, B-FD, B-CV
-2	신발	O	O	O, B-CV, I-LC, I-CV, I-OG
-3	브랜드	O	O	O, B-CV, I-CV, I-OG, B-OG
-4	##인	O	O	O, I-CV, B-CV, I-OG, B-OG
-5	스코	O	B-OG	B-OG, O, I-OG, B-PS, B-AF
-6	##노	O	I-OG	I-OG, O, I-AF, I-PS, I-CV
-7	##는	O	O	O, I-OG, I-AF, I-CV, B-OG
-8	패딩	O	B-CV	B-CV, O, I-CV, B-AF, B-AM
-9	##과	O	O	O, I-CV, B-CV, I-AF, B-TM
-10	털	O	O	O, B-AM, B-CV, B-PT, B-MT
-11	소재	O	O	O, I-CV, I-MT, I-AM, I-TM
-12	##로	O	O	O, I-CV, B-CV, B-PS, B-LC
-13	보온성	O	O	O, B-TM, B-CV, B-TR, B-PS
-14	##을	O	O	O, I-CV, B-CV, I-OG, I-TM
-15	높인	O	O	O, B-CV, B-LC, B-PS, B-OG
-16	‘	O	O	O, B-CV, B-AF, B-OG, B-LC
-17	노아	O	B-AF	B-AF, B-OG, O, B-PS, B-TM
-18	크리스티	O	I-AF	I-AF, I-OG, O, I-PS, B-AF
-19	’	O	O	O, I-OG, I-AF, B-CV, I-EV
-20	를	O	O	O, B-CV, B-AF, B-OG, B-LC
-21	선보였	O	O	O, B-CV, B-OG, B-LC, B-TM
-22	##다	O	O	O, B-CV, B-OG, I-OG, B-LC
-23	.	O	O	O, B-LC, B-CV, B-OG, B-PS
-24	[SEP]	O	O	O, B-CV, B-LC, B-OG, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	추	O	O
+2	##웠	O	O
+3	##던	O	O
+4	그	O	O
+5	겨울	B-DT	B-DT
+6	##날	O	I-DT
+7	,	O	O
+8	57	B-QT	B-QT
+9	##세	I-QT	I-QT
+10	##의	O	O
+11	범인	B-CV	B-CV
+12	##은	O	O
+13	계단	O	O
+14	길	O	O
+15	##을	O	O
+16	올라온	O	O
+17	나영	B-PS	B-PS
+18	##이	O	O
+19	##를	O	O
+20	낚	O	O
+21	##아	O	O
+22	##채	O	O
+23	골목	O	O
+24	초입	O	O
+25	##의	O	O
+26	교회	O	O
+27	건물	O	O
+28	화장실	O	O
+29	##로	O	O
+30	끌	O	O
+31	##고	O	O
+32	갔	O	O
+33	##다	O	O
+34	.	O	O
+35	[SEP]	O	O

@@ -1,21 +1,22 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-AF
-1	박	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-2	##금	I-PS	I-PS	I-PS, O, I-OG, B-PS, I-LC
-3	##철	I-PS	I-PS	I-PS, O, I-OG, B-PS, I-LC
-4	명인	B-CV	B-CV	B-CV, O, I-CV, I-PS, B-OG
-5	##은	O	O	O, I-CV, I-OG, B-CV, I-AF
-6	쌀	B-PT	B-CV	B-CV, O, B-PT, I-CV, B-MT
-7	##을	O	O	O, I-CV, B-CV, I-AF, I-OG
-8	씻	O	O	O, B-CV, B-PS, B-TM, B-LC
-9	##을	O	O	O, B-PS, B-CV, B-OG, I-OG
-10	때	O	O	O, B-PS, B-CV, B-OG, B-TM
-11	아기	O	O	O, B-AM, B-CV, B-TM, B-PS
-12	다루	O	O	O, B-AM, B-CV, B-PS, I-CV
-13	##듯	O	O	O, B-CV, B-PS, B-TM, B-QT
-14	조심	O	O	O, B-CV, B-TM, B-PS, B-LC
-15	##스	O	O	O, B-PS, B-CV, I-CV, B-LC
-16	##러웠	O	O	O, B-CV, B-PS, B-OG, I-OG
-17	##다	O	O	O, B-CV, I-OG, B-TM, B-PS
-18	.	O	O	O, B-PS, B-CV, B-LC, I-OG
-19	[SEP]	O	O	O, B-CV, B-PS, I-OG, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	박	B-PS	B-PS
+2	##금	I-PS	I-PS
+3	##철	I-PS	I-PS
+4	명인	B-CV	B-CV
+5	##은	O	O
+6	쌀	B-PT	B-CV
+7	##을	O	O
+8	씻	O	O
+9	##을	O	O
+10	때	O	O
+11	아기	O	O
+12	다루	O	O
+13	##듯	O	O
+14	조심	O	O
+15	##스	O	O
+16	##러	O	O
+17	##웠	O	O
+18	##다	O	O
+19	.	O	O
+20	[SEP]	O	O

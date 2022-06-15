@@ -1,8 +1,17 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-AF
-1	초등	O	O	O, B-QT, B-CV, B-OG, B-DT
-2	3	B-QT	B-QT	B-QT, I-QT, O, B-DT, I-DT
-3	##학년	I-QT	I-QT	I-QT, O, I-DT, I-OG, B-QT
-4	##부터	O	I-QT	I-QT, O, I-DT, I-OG, I-CV
-5	.	O	O	O, I-QT, I-OG, B-CV, B-OG
-6	[SEP]	O	O	O, B-CV, B-OG, I-QT, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	[	O	O
+2	수도권	B-LC	B-LC
+3	]	O	O
+4	吳	B-PS	B-PS
+5	시장	B-CV	B-CV
+6	캠프	O	O
+7	##에	O	O
+8	市	B-OG	O
+9	정무	O	B-CV
+10	##직	O	I-CV
+11	핵심	O	O
+12	##간	O	O
+13	##부들	O	O
+14	합류	O	O
+15	[SEP]	O	O

@@ -1,73 +1,21 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-EV, I-OG, I-CV
-1	신	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
-2	의원	B-CV	B-CV	B-CV, O, I-PS, I-CV, B-TM
-3	##은	O	O	O, I-CV, B-CV, I-EV, I-OG
-4	또	O	O	O, B-CV, B-LC, B-OG, B-TM
-5	""""	O	O	O, B-LC, B-CV, B-OG, B-PS
-6	W	B-OG	B-OG	B-OG, O, B-EV, B-AF, B-CV
-7	##CC	I-OG	I-OG	I-OG, O, I-EV, I-AF, B-OG
-8	개최	O	O	O, I-OG, I-EV, I-AF, I-CV
-9	##와	O	O	O, B-LC, B-PS, B-OG, I-OG
-10	해군기지	O	B-OG	B-OG, O, B-AF, B-CV, I-OG
-11	갈등	O	O	O, I-OG, I-EV, B-CV, I-CV
-12	해결	O	O	O, B-CV, B-LC, I-EV, I-OG
-13	,	O	O	O, B-LC, B-PS, B-CV, B-OG
-14	신	O	O	O, B-LC, B-AF, B-TM, B-CV
-15	##공항	O	O	O, I-LC, B-LC, I-AF, I-TM
-16	건설	O	O	O, I-LC, B-LC, I-AF, I-TM
-17	등	O	O	O, B-LC, B-PS, B-CV, B-OG
-18	##의	O	O	O, B-LC, B-PS, B-OG, B-CV
-19	지역	O	O	O, B-LC, B-TM, B-CV, B-EV
-20	현안	O	O	O, B-LC, I-LC, B-PS, B-TM
-21	해결	O	O	O, B-CV, B-PS, B-LC, I-EV
-22	##을	O	O	O, B-PS, B-CV, B-LC, B-OG
-23	위해서	O	O	O, B-PS, B-LC, B-OG, B-CV
-24	##는	O	O	O, B-OG, B-LC, B-PS, B-CV
-25	중앙	B-OG	B-OG	B-OG, O, B-LC, I-OG, B-CV
-26	##정부	I-OG	I-OG	I-OG, O, B-OG, I-EV, I-LC
-27	##와	O	O	O, I-OG, B-PS, I-EV, I-AF
-28	국회	B-OG	B-OG	B-OG, O, B-LC, B-AF, I-OG
-29	##의	O	O	O, I-OG, B-PS, I-EV, I-AF
-30	전폭	O	O	O, B-LC, B-TM, B-OG, B-CV
-31	##적인	O	O	O, B-LC, B-PS, I-OG, I-PS
-32	지원	O	O	O, B-LC, B-CV, B-OG, B-PS
-33	##과	O	O	O, B-PS, B-OG, B-LC, I-OG
-34	제주도	B-OG	B-OG	B-OG, B-LC, O, B-PS, B-AF
-35	##의	O	O	O, I-OG, I-PS, I-LC, B-PS
-36	중앙	O	O	O, B-CV, B-LC, B-OG, B-TM
-37	교섭	O	O	O, B-CV, I-CV, B-LC, I-OG
-38	##력	O	O	O, B-LC, B-PS, I-PS, I-OG
-39	##이	O	O	O, B-PS, B-LC, B-OG, B-CV
-40	무엇	O	O	O, B-CV, B-PS, B-LC, B-OG
-41	##보	O	O	O, B-PS, B-CV, B-LC, B-OG
-42	##다	O	O	O, B-LC, B-PS, B-OG, B-CV
-43	중요	O	O	O, B-CV, B-TM, B-LC, B-OG
-44	##하	O	O	O, B-PS, B-OG, B-LC, I-OG
-45	##다	O	O	O, I-OG, B-CV, B-PS, B-LC
-46	""""	O	O	O, B-CV, B-LC, B-TM, B-OG
-47	며	O	O	O, B-CV, B-LC, B-OG, B-TM
-48	""""	O	O	O, B-LC, B-CV, B-PS, B-OG
-49	하지만	O	O	O, B-OG, B-PS, B-CV, B-LC
-50	제주도	B-OG	B-OG	B-OG, B-LC, O, B-PS, I-OG
-51	##가	O	O	O, I-OG, B-PS, B-OG, I-PS
-52	보여준	O	O	O, B-PS, B-LC, B-CV, B-TM
-53	중앙	O	O	O, B-OG, B-CV, B-LC, B-TM
-54	절충	O	O	O, I-CV, I-OG, B-CV, I-LC
-55	능력	O	O	O, B-PS, B-LC, I-CV, I-PS
-56	##은	O	O	O, B-PS, B-LC, B-CV, B-OG
-57	도민	B-CV	B-CV	B-CV, O, B-OG, B-TM, I-CV
-58	##들	O	O	O, I-CV, B-CV, I-OG, I-EV
-59	##을	O	O	O, B-CV, B-PS, B-TM, B-LC
-60	실망	O	O	O, B-CV, B-TM, B-PS, B-LC
-61	##시	O	O	O, B-PS, B-LC, B-CV, I-CV
-62	##키	O	O	O, B-PS, B-LC, B-CV, I-CV
-63	##고	O	O	O, B-CV, B-PS, B-LC, B-TM
-64	있	O	O	O, B-CV, B-PS, B-LC, B-TM
-65	##다	O	O	O, B-CV, B-PS, B-LC, I-EV
-66	""""	O	O	O, B-CV, B-LC, B-TM, B-PS
-67	고	O	O	O, B-CV, B-LC, B-TM, B-OG
-68	덧붙였	O	O	O, B-CV, B-TM, B-QT, B-OG
-69	##다	O	O	O, B-CV, I-EV, I-CV, I-QT
-70	.	O	O	O, B-LC, B-PS, B-CV, B-OG
-71	[SEP]	O	O	O, B-LC, B-CV, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	맞아	O	O
+2	그렇	O	O
+3	##다	O	O
+4	##며	O	O
+5	내려	O	O
+6	가지	O	O
+7	##고	O	O
+8	거기	O	O
+9	배	O	B-AF
+10	타고	O	O
+11	들어갈	O	O
+12	때	O	O
+13	엄청	O	O
+14	복잡	O	O
+15	##하	O	O
+16	##던	O	O
+17	##데	O	O
+18	?	O	O
+19	[SEP]	O	O

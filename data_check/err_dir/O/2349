@@ -1,61 +1,21 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	페루	B-LC	B-LC	B-LC, B-OG, O, B-PS, B-AF
-2	선거관리위원회	B-OG	B-OG	B-OG, I-OG, O, B-CV, B-AF
-3	##는	O	O	O, I-OG, I-EV, B-CV, B-OG
-4	대선	B-EV	B-EV	B-EV, O, B-CV, I-EV, B-OG
-5	결선	O	B-EV	B-EV, I-EV, O, B-CV, B-OG
-6	##투	O	I-EV	I-EV, O, B-EV, I-OG, I-AF
-7	##표	O	I-EV	I-EV, O, I-OG, I-AF, B-EV
-8	##의	O	O	O, I-EV, I-OG, I-AF, I-CV
-9	개표	O	O	O, B-LC, B-TM, B-OG, B-CV
-10	##가	O	O	O, B-PS, B-OG, B-LC, B-CV
-11	약	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-PS
-12	88	I-QT	I-QT	I-QT, B-QT, O, I-LC, I-PS
-13	%	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-14	진행	O	O	O, I-QT, B-CV, B-TM, B-OG
-15	##된	O	O	O, B-PS, B-LC, B-OG, B-CV
-16	상황	O	O	O, B-CV, B-TM, B-OG, B-LC
-17	##에서	O	O	O, B-PS, B-CV, B-OG, B-LC
-18	우	B-PS	B-PS	B-PS, O, B-LC, B-OG, I-PS
-19	##말라	I-PS	I-PS	I-PS, O, B-PS, I-LC, I-OG
-20	후보	B-CV	B-CV	B-CV, O, I-PS, I-CV, B-TM
-21	##가	O	O	O, I-CV, I-EV, I-AF, I-QT
-22	51	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-PS
-23	.	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-24	3	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-25	%	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-26	를	O	O	O, I-QT, B-CV, I-EV, I-OG
-27	득표	O	O	O, B-CV, B-TM, I-QT, B-QT
-28	##해	O	O	O, B-PS, B-LC, B-QT, B-CV
-29	48	B-QT	B-QT	B-QT, O, I-QT, B-PS, B-DT
-30	.	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-31	7	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-32	%	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-33	를	O	O	O, I-QT, B-CV, I-OG, I-EV
-34	얻	O	O	O, B-CV, B-PS, B-TM, B-QT
-35	##은	O	O	O, B-PS, B-CV, B-LC, B-OG
-36	우파	O	O	O, B-TR, B-OG, B-CV, B-TM
-37	진영	O	O	O, B-PS, B-OG, I-OG, B-TR
-38	##의	O	O	O, B-PS, I-OG, B-LC, I-PS
-39	게이	B-PS	B-PS	B-PS, O, I-PS, B-LC, B-OG
-40	##코	I-PS	I-PS	I-PS, O, B-PS, I-OG, I-LC
-41	후지	I-PS	I-PS	I-PS, B-PS, O, B-LC, I-LC
-42	##모리	I-PS	I-PS	I-PS, O, I-LC, I-OG, B-PS
-43	후보	B-CV	B-CV	B-CV, O, I-PS, I-CV, B-TM
-44	(	O	O	O, I-CV, B-CV, I-OG, I-QT
-45	36	B-QT	B-QT	B-QT, I-QT, O, B-LC, B-DT
-46	)	O	O	O, I-QT, I-OG, I-EV, I-DT
-47	를	O	O	O, B-CV, B-TM, B-LC, B-OG
-48	근소	O	O	O, B-CV, B-TM, B-QT, B-LC
-49	##한	O	O	O, B-PS, B-LC, B-OG, B-TM
-50	차로	O	O	O, B-CV, B-TM, B-LC, B-OG
-51	제	O	O	O, B-CV, B-PS, B-LC, B-QT
-52	##쳤	O	O	O, B-CV, B-PS, B-LC, B-OG
-53	##다고	O	O	O, B-PS, B-LC, B-CV, B-OG
-54	6	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-55	##일	I-DT	I-DT	I-DT, O, I-EV, I-QT, B-DT
-56	밝혔	O	O	O, I-DT, B-OG, B-CV, I-OG
-57	##다	O	O	O, B-CV, I-OG, B-OG, B-LC
-58	.	O	O	O, B-LC, B-PS, B-CV, B-OG
-59	[SEP]	O	O	O, B-CV, B-LC, B-PS, I-EV
+	text	label	preds
+0	[CLS]	O	O
+1	그것	O	O
+2	##도	O	O
+3	저	O	O
+4	##는	O	O
+5	좀	O	O
+6	힘들	O	O
+7	##긴	O	O
+8	했	O	O
+9	##는데	O	O
+10	십	O	B-QT
+11	##이	O	I-QT
+12	센	O	I-QT
+13	##가	O	O
+14	그럴	O	O
+15	거	O	O
+16	##예	O	O
+17	##요	O	O
+18	.	O	O
+19	[SEP]	O	O

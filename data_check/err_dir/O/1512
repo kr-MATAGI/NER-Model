@@ -1,15 +1,111 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	그래	O	O	O, B-CV, B-OG, B-LC, B-TM
-2	갖	O	O	O, B-CV, B-PS, I-OG, I-AF
-3	##고	O	O	O, B-PS, I-OG, I-AF, I-CV
-4	그	B-DT	B-DT	B-DT, O, I-DT, B-OG, B-EV
-5	날	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
-6	내	O	O	O, I-DT, B-CV, B-OG, B-LC
-7	##가	O	O	O, B-PS, B-CV, B-OG, B-LC
-8	얘	O	O	O, B-CV, B-PS, B-LC, B-AF
-9	##를	O	O	O, B-CV, B-PS, I-AF, I-CV
-10	군대	O	B-OG	B-OG, O, B-CV, B-AF, I-OG
-11	보내	O	O	O, I-OG, B-CV, I-CV, I-AF
-12	##면서	O	O	O, B-CV, I-OG, B-PS, B-LC
-13	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	그	O	O
+2	##는	O	O
+3	""""	O	O
+4	지난해	B-DT	B-DT
+5	북한	B-OG	B-OG
+6	##이	O	O
+7	과거	O	O
+8	##와	O	O
+9	달리	O	O
+10	자제	O	O
+11	##력	O	O
+12	##을	O	O
+13	잃	O	O
+14	##고	O	O
+15	(	O	O
+16	천안	B-AF	B-AF
+17	##함	I-AF	I-AF
+18	##과	O	O
+19	연평도	B-LC	B-LC
+20	공격	O	I-EV
+21	등	O	O
+22	)	O	O
+23	도발	O	O
+24	행위	O	O
+25	##를	O	O
+26	감행	O	O
+27	##한	B-LC	O
+28	것	O	O
+29	##은	O	O
+30	권력	O	O
+31	##승	O	O
+32	##계	O	O
+33	##와	O	O
+34	연관	O	O
+35	##된	O	O
+36	것	O	O
+37	##일	O	O
+38	수	O	O
+39	있	O	O
+40	##지만	O	O
+41	그만큼	O	O
+42	정치	O	O
+43	·	O	O
+44	경제	O	O
+45	##가	O	O
+46	절박	O	O
+47	##한	O	O
+48	상황	O	O
+49	##으로	O	O
+50	흘러가	O	O
+51	##고	O	O
+52	있	O	O
+53	##다는	O	O
+54	것	O	O
+55	##을	O	O
+56	방증	O	O
+57	##하	O	O
+58	##는	O	O
+59	것	O	O
+60	""""	O	O
+61	이라	O	O
+62	##며	O	O
+63	""""	O	O
+64	한	O	B-LC
+65	·	O	O
+66	미	B-LC	B-LC
+67	정부	B-OG	B-OG
+68	모두	O	O
+69	당분간	O	O
+70	북한	B-OG	B-OG
+71	##에	O	O
+72	대한	O	O
+73	압박	O	O
+74	##을	O	O
+75	누그러	O	O
+76	##뜨릴	O	O
+77	기미	O	O
+78	##가	O	O
+79	없	O	O
+80	##기	O	O
+81	때문	O	O
+82	##에	O	O
+83	북한	B-OG	B-OG
+84	##은	O	O
+85	한	B-OG	B-OG
+86	·	O	O
+87	미	B-OG	B-OG
+88	##를	O	O
+89	대화	O	O
+90	##로	O	O
+91	끌어들이	O	O
+92	##기	O	O
+93	위해	O	O
+94	도발	O	O
+95	##을	O	O
+96	중단	O	O
+97	##하	O	O
+98	##지	O	O
+99	않	O	O
+100	##을	O	O
+101	것	O	O
+102	""""	O	O
+103	이라	O	O
+104	##고	O	O
+105	예측	O	O
+106	##했	O	O
+107	##다	O	O
+108	.	O	O
+109	[SEP]	O	O

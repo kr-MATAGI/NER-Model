@@ -1,15 +1,10 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-EV, B-CV, I-CV, I-OG
-1	지경	O	B-OG	B-OG, O, B-LC, B-AF, B-PS
-2	##부	O	I-OG	I-OG, O, I-CV, I-EV, B-OG
-3	“	O	O	O, I-OG, I-EV, I-CV, B-CV
-4	UAE	B-LC	B-LC	B-LC, O, B-OG, B-EV, B-AF
-5	##에서	O	O	O, I-LC, I-OG, I-EV, I-AF
-6	중요	O	O	O, B-EV, B-CV, B-TM, B-LC
-7	##한	O	O	O, I-EV, B-PS, B-LC, I-OG
-8	회의	O	O	O, B-EV, I-EV, B-LC, B-CV
-9	있	O	O	O, I-EV, B-CV, I-OG, I-AF
-10	##었	O	O	O, B-CV, I-EV, B-LC, B-PS
-11	##다	O	O	O, I-EV, B-CV, B-LC, B-PS
-12	”	O	O	O, B-CV, B-LC, B-OG, B-PS
-13	[SEP]	O	O	O, B-CV, B-LC, I-EV, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	몇	O	O
+2	백	O	B-QT
+3	##원	O	I-QT
+4	##은	O	O
+5	아니	O	O
+6	##잖아	O	O
+7	.	O	O
+8	[SEP]	O	O

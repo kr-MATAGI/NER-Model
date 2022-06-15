@@ -1,41 +1,36 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	북한	B-LC	B-LC	B-LC, B-OG, O, B-PS, B-AF
-2	##의	O	O	O, I-OG, I-LC, B-LC, B-OG
-3	핵	B-AF	B-AF	B-AF, O, B-MT, I-AF, B-PS
-4	##과	O	O	O, I-AF, I-OG, B-LC, B-CV
-5	미사일	B-AF	B-AF	B-AF, O, B-MT, I-AF, B-LC
-6	공격	O	O	O, I-AF, B-CV, I-CV, B-LC
-7	가능	O	O	O, B-LC, B-PS, I-AF, B-CV
-8	##성	O	O	O, B-LC, B-PS, B-OG, B-CV
-9	##에	O	O	O, B-LC, B-OG, B-CV, B-PS
-10	대해	O	O	O, B-LC, B-OG, B-PS, B-TM
-11	미국	B-LC	B-LC	B-LC, B-OG, O, B-PS, B-CV
-12	##의	O	O	O, I-LC, I-OG, B-LC, B-CV
-13	핵	B-AF	B-AF	B-AF, O, B-MT, I-AF, B-PS
-14	##우	O	O	O, I-CV, I-AF, B-CV, I-MT
-15	##산	O	O	O, I-CV, I-AF, I-LC, I-TM
-16	##과	O	O	O, B-LC, B-PS, I-AF, I-CV
-17	재래식	O	O	O, B-AF, B-CV, B-TM, B-AM
-18	무기	O	O	O, I-AF, I-CV, B-CV, B-AF
-19	,	O	O	O, I-AF, B-LC, B-PS, B-CV
-20	미사일	B-AF	B-AF	B-AF, O, I-AF, B-MT, B-LC
-21	##방	O	I-AF	I-AF, O, B-AF, B-CV, I-OG
-22	##어	O	I-AF	I-AF, O, B-AF, I-CV, I-LC
-23	등	O	O	O, I-AF, B-LC, B-PS, B-TM
-24	모든	O	O	O, B-LC, B-TM, B-PS, B-OG
-25	군사	O	O	O, B-CV, B-AF, B-TM, B-LC
-26	##능력	O	O	O, I-AF, I-CV, I-LC, I-TM
-27	##을	O	O	O, B-LC, B-CV, B-TM, B-PS
-28	동원	O	O	O, B-LC, B-TM, B-CV, B-OG
-29	##해	O	O	O, B-LC, B-PS, B-OG, I-LC
-30	사전	O	O	O, B-LC, B-CV, B-TM, B-PS
-31	##에	O	O	O, B-LC, B-OG, B-PS, B-CV
-32	억제	O	O	O, B-LC, B-CV, B-TM, B-OG
-33	##하	O	O	O, B-LC, B-PS, B-OG, B-CV
-34	##겠다	O	O	O, B-CV, B-LC, B-PS, B-OG
-35	##는	O	O	O, B-CV, B-OG, B-PS, B-TM
-36	내용	O	O	O, B-CV, B-PS, B-LC, B-OG
-37	##이다	O	O	O, B-CV, I-CV, B-PS, I-OG
-38	.	O	O	O, B-LC, B-PS, B-AF, B-OG
-39	[SEP]	O	O	O, B-LC, B-AF, B-CV, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	연구	B-CV	B-CV
+2	##진	I-CV	I-CV
+3	##은	O	O
+4	보석	B-AM	B-AM
+5	##딱	I-AM	I-AM
+6	##정	I-AM	I-AM
+7	##벌레	I-AM	I-AM
+8	##는	O	O
+9	버려진	O	O
+10	맥주	O	B-CV
+11	##병	O	O
+12	##의	O	O
+13	색깔	O	O
+14	##과	O	O
+15	모양	O	O
+16	##에	O	O
+17	헷갈	O	O
+18	##려	O	O
+19	병	O	O
+20	위	O	O
+21	##에	O	O
+22	올라가	O	O
+23	짝	O	O
+24	##짓기	O	O
+25	##를	O	O
+26	시도	O	O
+27	##한다	O	O
+28	##는	O	O
+29	사실	O	O
+30	##을	O	O
+31	밝혀냈	O	O
+32	##다	O	O
+33	.	O	O
+34	[SEP]	O	O

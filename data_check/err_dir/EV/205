@@ -1,67 +1,22 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-EV, I-OG, I-CV, B-CV
-1	유소연	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
-2	##이	O	O	O, I-PS, B-PS, I-EV, I-OG
-3	25	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-LC
-4	##일	I-DT	I-DT	I-DT, O, B-DT, I-EV, I-PS
-5	(	O	O	O, I-DT, I-EV, B-LC, B-CV
-6	한국	B-LC	B-LC	B-LC, O, B-OG, I-LC, B-AF
-7	##시	O	O	O, I-LC, B-LC, I-DT, I-EV
-8	##각	O	O	O, I-DT, I-LC, B-LC, I-EV
-9	)	O	O	O, B-LC, B-PS, B-OG, I-DT
-10	캐나다	B-LC	B-LC	B-LC, O, B-OG, I-LC, B-AF
-11	온	B-LC	B-LC	B-LC, I-LC, O, B-OG, B-AF
-12	##타리	I-LC	I-LC	I-LC, O, B-LC, I-AF, I-PS
-13	##오	I-LC	I-LC	I-LC, O, B-LC, I-AF, I-PS
-14	##주	I-LC	I-LC	I-LC, O, I-AF, B-LC, I-PS
-15	런던	B-LC	B-LC	B-LC, I-LC, O, B-AF, B-OG
-16	헌	B-AF	B-AF	B-AF, I-AF, B-LC, O, B-PS
-17	##트	I-AF	I-AF	I-AF, I-LC, O, I-PS, B-AF
-18	##앤	I-AF	I-AF	I-AF, I-LC, O, I-PS, B-AF
-19	##드	I-AF	I-AF	I-AF, I-LC, O, I-PS, B-AF
-20	##컨	I-AF	I-AF	I-AF, I-LC, O, I-PS, B-AF
-21	##트리	I-AF	I-AF	I-AF, I-LC, O, I-PS, I-QT
-22	##클럽	I-AF	I-AF	I-AF, I-LC, O, I-PS, I-QT
-23	(	O	O	O, I-AF, I-LC, I-EV, I-QT
-24	파	B-QT	B-QT	B-QT, O, B-TM, I-QT, B-TI
-25	##72	I-QT	I-QT	I-QT, I-TM, O, I-LC, I-AF
-26	·	O	O	O, I-QT, I-DT, I-EV, I-OG
-27	66	B-QT	B-QT	B-QT, O, B-TM, B-EV, I-QT
-28	##56	I-QT	I-QT	I-QT, B-QT, O, I-TM, I-LC
-29	##야	I-QT	I-QT	I-QT, O, I-TM, B-QT, I-LC
-30	##드	I-QT	I-QT	I-QT, O, I-TM, I-LC, I-AF
-31	)	O	O	O, I-QT, I-EV, I-TM, I-OG
-32	에서	O	O	O, B-PS, B-LC, B-CV, B-EV
-33	열린	O	O	O, B-EV, B-CV, B-LC, B-PS
-34	미국	B-EV	B-EV	B-EV, B-LC, I-EV, B-PS, B-AF
-35	##여	I-EV	I-EV	I-EV, B-EV, O, I-LC, I-AF
-36	##자	I-EV	I-EV	I-EV, O, I-LC, B-EV, I-AF
-37	##프로	I-EV	I-EV	I-EV, O, B-EV, I-AF, I-LC
-38	##골	I-EV	I-EV	I-EV, O, I-AF, I-LC, B-EV
-39	##프	I-EV	I-EV	I-EV, O, I-AF, B-EV, I-LC
-40	(	I-EV	I-EV	I-EV, O, B-EV, I-AF, I-LC
-41	LPGA	I-EV	I-EV	I-EV, B-EV, O, I-LC, I-AF
-42	)	I-EV	I-EV	I-EV, O, I-LC, I-AF, B-EV
-43	투어	I-EV	I-EV	I-EV, O, I-LC, I-AF, B-EV
-44	캐나다	B-LC	B-EV	B-EV, I-EV, B-LC, O, B-AF
-45	퍼시픽	B-EV	I-EV	I-EV, I-LC, B-EV, B-LC, O
-46	여자	I-EV	I-EV	I-EV, O, I-LC, B-EV, I-AF
-47	##오	I-EV	I-EV	I-EV, O, B-EV, I-LC, I-AF
-48	##픈	I-EV	I-EV	I-EV, O, B-EV, I-LC, I-AF
-49	##에서	O	O	O, I-EV, I-AF, B-LC, I-DT
-50	최종	O	O	O, B-LC, B-EV, B-QT, B-TM
-51	합계	O	O	O, B-QT, B-EV, B-LC, B-TM
-52	23	B-QT	B-QT	B-QT, B-TM, B-EV, O, B-AF
-53	##언	I-QT	I-QT	I-QT, I-TM, I-EV, I-AF, O
-54	##더	I-QT	I-QT	I-QT, I-TM, I-EV, O, I-AF
-55	##파	I-QT	I-QT	I-QT, I-TM, O, I-EV, I-AF
-56	265	B-QT	B-QT	B-QT, I-QT, B-TM, I-TM, O
-57	##타	I-QT	I-QT	I-QT, I-TM, O, I-EV, I-AF
-58	##로	O	O	O, I-QT, I-TM, I-EV, I-OG
-59	우승	O	O	O, B-CV, B-TM, B-EV, B-LC
-60	##을	O	O	O, B-CV, I-EV, B-PS, B-OG
-61	차지	O	O	O, B-CV, B-OG, B-LC, B-PS
-62	##했	O	O	O, B-PS, B-LC, B-CV, B-OG
-63	##다	O	O	O, B-CV, B-LC, B-PS, B-OG
-64	.	O	O	O, B-LC, B-PS, I-EV, B-CV
-65	[SEP]	O	O	O, B-LC, I-EV, B-CV, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	물론	O	O
+2	뭐	O	O
+3	인제	O	O
+4	이게	O	O
+5	조기	B-EV	B-EV
+6	##대	I-EV	B-EV
+7	##선	I-EV	I-EV
+8	##이	O	O
+9	##고	O	O
+10	또	O	O
+11	정권	O	O
+12	##교	O	O
+13	##체	O	O
+14	열망	O	O
+15	##이	O	O
+16	크	O	O
+17	##다	O	O
+18	보	O	O
+19	##니까	O	O
+20	[SEP]	O	O

@@ -1,36 +1,97 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-EV, I-OG, I-CV
-1	이	O	O	O, B-OG, B-CV, B-PS, B-EV
-2	자리	O	O	O, B-CV, I-EV, B-EV, I-QT
-3	##에	O	O	O, B-CV, I-EV, B-OG, B-PS
-4	##는	O	O	O, B-CV, B-OG, B-LC, B-TM
-5	시드니	B-LC	B-LC	B-LC, O, B-OG, B-AF, B-PS
-6	랜	B-LC	B-LC	B-LC, O, I-LC, B-AF, B-PS
-7	##츠	I-LC	I-LC	I-LC, O, I-AF, I-PS, I-OG
-8	사우스	I-LC	B-LC	B-LC, I-LC, O, B-AF, I-AF
-9	##필드	I-LC	I-LC	I-LC, O, I-AF, B-LC, I-PS
-10	시의	B-CV	B-CV	B-CV, O, I-CV, I-AF, I-LC
-11	##원	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-AF
-12	,	O	O	O, I-CV, I-OG, B-CV, I-QT
-13	미시	B-LC	B-LC	B-LC, O, B-OG, B-EV, B-AF
-14	##간	I-LC	I-LC	I-LC, O, B-LC, I-OG, I-AF
-15	주	I-LC	I-LC	I-LC, O, I-EV, I-OG, I-AF
-16	한국	B-EV	B-EV	B-EV, B-LC, I-EV, I-LC, B-AF
-17	##전쟁	I-EV	I-EV	I-EV, I-LC, O, I-AF, I-TM
-18	참전	O	B-CV	B-CV, O, I-EV, I-CV, B-OG
-19	##용	B-CV	I-CV	I-CV, O, B-CV, I-EV, I-OG
-20	##사	I-CV	I-CV	I-CV, O, I-OG, B-CV, I-EV
-21	,	O	O	O, I-CV, I-OG, B-CV, I-QT
-22	한인	O	B-CV	B-CV, O, B-LC, B-OG, I-CV
-23	##사회	O	O	O, I-CV, I-OG, B-CV, I-FD
-24	인사	O	O	O, B-CV, I-CV, B-FD, B-QT
-25	등	O	O	O, I-CV, B-CV, B-QT, B-TM
-26	150	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-PS
-27	##여	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-28	명	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-29	##이	O	O	O, I-QT, B-CV, B-PS, B-OG
-30	참석	O	O	O, B-CV, B-TM, B-EV, B-OG
-31	##했	O	O	O, I-EV, B-PS, B-CV, B-LC
-32	##다	O	O	O, B-CV, B-OG, B-LC, I-EV
-33	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-34	[SEP]	O	O	O, B-CV, B-LC, I-EV, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	안	B-PS	B-PS
+2	후보	B-CV	B-CV
+3	##는	O	O
+4	25	B-DT	B-DT
+5	##일	I-DT	I-DT
+6	서울	B-LC	B-LC
+7	종로구	B-LC	B-LC
+8	##의	O	O
+9	사회	O	O
+10	##적	O	O
+11	기업인	B-CV	O
+12	마이크	B-OG	B-OG
+13	##임	I-OG	I-OG
+14	##팩트	I-OG	I-OG
+15	##에	O	O
+16	##서	O	O
+17	‘	O	O
+18	복지	O	O
+19	##와	O	O
+20	성장	O	O
+21	##이	O	O
+22	선	O	O
+23	##순환	O	O
+24	##하	O	O
+25	##는	O	O
+26	혁신	O	O
+27	##경제	O	O
+28	’	O	O
+29	를	O	O
+30	주제	O	O
+31	##로	O	O
+32	2	B-QT	B-QT
+33	##차	I-QT	I-QT
+34	정책	O	O
+35	##네트	O	O
+36	##워크	O	O
+37	포럼	O	O
+38	##을	O	O
+39	열	O	O
+40	##고	O	O
+41	“	O	O
+42	우리	O	O
+43	사회	O	O
+44	##의	O	O
+45	성장	O	O
+46	##은	O	O
+47	‘	O	O
+48	포용	O	O
+49	##적	O	O
+50	성장	O	O
+51	’	O	O
+52	이어	O	O
+53	##야	O	O
+54	한다	O	O
+55	”	O	O
+56	며	O	O
+57	“	O	O
+58	사회	O	O
+59	##안전	O	O
+60	##망	O	O
+61	##을	O	O
+62	통해	O	O
+63	일자리	O	O
+64	##를	O	O
+65	만들	O	O
+66	##고	O	O
+67	일자리	O	O
+68	##를	O	O
+69	통해	O	O
+70	만들어진	O	O
+71	재원	O	O
+72	##이	O	O
+73	경제	O	O
+74	##민주	O	O
+75	##화	O	O
+76	##와	O	O
+77	복지	O	O
+78	##로	O	O
+79	연결	O	O
+80	##되	O	O
+81	##는	O	O
+82	선	O	O
+83	##순환	O	O
+84	구조	O	O
+85	##를	O	O
+86	만들	O	O
+87	것	O	O
+88	”	O	O
+89	이라	O	O
+90	##고	O	O
+91	말	O	O
+92	##했	O	O
+93	##다	O	O
+94	.	O	O
+95	[SEP]	O	O

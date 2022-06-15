@@ -1,30 +1,20 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-EV, B-CV, I-CV, I-OG
-1	11	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-QT
-2	##일	I-DT	I-DT	I-DT, O, I-EV, B-DT, I-QT
-3	오후	B-TI	B-TI	B-TI, B-EV, I-TI, I-DT, B-LC
-4	2	I-TI	I-TI	I-TI, I-EV, B-TI, I-QT, I-DT
-5	##시	I-TI	I-TI	I-TI, I-EV, I-LC, I-QT, O
-6	만	B-LC	B-LC	B-LC, O, I-LC, B-AF, B-OG
-7	##해	I-LC	I-LC	I-LC, O, B-LC, I-AF, I-OG
-8	##마을	I-LC	I-LC	I-LC, O, I-AF, B-LC, I-OG
-9	내	O	O	O, I-LC, B-LC, B-TM, I-AF
-10	문인	O	B-CV	B-CV, B-AF, O, B-PS, B-OG
-11	##의	O	I-AF	I-AF, O, I-OG, I-LC, I-CV
-12	##집	O	I-AF	I-AF, O, I-LC, I-OG, I-PS
-13	##에서	O	O	O, I-AF, I-EV, I-LC, B-LC
-14	##는	O	O	O, B-EV, B-LC, B-CV, I-EV
-15	'	O	O	O, B-EV, B-LC, B-CV, B-DT
-16	님	O	B-EV	B-EV, O, B-CV, I-EV, B-LC
-17	##의	O	I-EV	I-EV, O, I-AF, I-LC, I-TM
-18	침묵	O	I-EV	I-EV, O, I-AF, I-LC, I-TM
-19	전국	O	I-EV	I-EV, O, B-EV, I-AF, I-LC
-20	시조	O	I-EV	I-EV, O, B-EV, I-AF, B-CV
-21	##낭	O	I-EV	I-EV, O, I-AF, I-CV, I-LC
-22	##송	O	I-EV	I-EV, O, I-AF, I-CV, I-LC
-23	대회	O	I-EV	I-EV, O, I-AF, I-LC, I-CV
-24	'	O	O	O, I-EV, I-AF, I-DT, B-LC
-25	가	O	O	O, I-EV, B-LC, B-EV, B-PS
-26	열린다	O	O	O, B-EV, I-EV, B-CV, B-LC
-27	.	O	O	O, B-LC, I-EV, B-EV, B-CV
-28	[SEP]	O	O	O, I-EV, B-LC, B-EV, B-CV
+	text	label	preds
+0	[CLS]	O	O
+1	아	O	O
+2	연	O	O
+3	한	B-QT	B-QT
+4	육	I-QT	I-QT
+5	##천	I-QT	I-QT
+6	명	I-QT	I-QT
+7	정도	I-QT	I-QT
+8	##를	O	O
+9	우리	O	O
+10	##가	O	O
+11	배	O	B-QT
+12	##불	O	O
+13	##러	O	O
+14	##서	O	O
+15	각	O	O
+16	분야	O	O
+17	##에	O	O
+18	[SEP]	O	O

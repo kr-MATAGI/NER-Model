@@ -1,23 +1,37 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	당시	O	O	O, B-CV, B-OG, B-TM, B-LC
-2	두	B-PS	B-QT	B-QT, B-PS, B-DT, B-EV, O
-3	전	O	I-QT	I-QT, O, I-DT, I-EV, I-PS
-4	대통령	B-CV	I-QT	I-QT, B-CV, B-QT, O, I-EV
-5	##의	O	O	O, I-QT, B-CV, I-CV, I-EV
-6	뇌물	O	O	O, B-CV, B-PS, B-OG, B-TM
-7	액수	O	O	O, B-CV, I-CV, B-PS, B-OG
-8	##에	O	O	O, B-CV, B-PS, B-TM, B-OG
-9	대한	O	O	O, B-LC, B-OG, B-CV, B-PS
-10	조사	O	O	O, B-CV, B-PS, B-OG, B-LC
-11	##는	O	O	O, B-CV, B-PS, B-OG, B-LC
-12	그야말로	O	O	O, B-TM, B-CV, B-LC, B-OG
-13	주먹	O	O	O, B-TM, B-CV, B-AM, B-TR
-14	##구	O	O	O, I-TM, B-TM, B-CV, B-PS
-15	##구	O	O	O, I-TM, I-CV, B-CV, B-TM
-16	##식	O	O	O, B-CV, B-PS, B-LC, B-TM
-17	##이	O	O	O, B-PS, B-OG, B-CV, B-LC
-18	##었	O	O	O, B-CV, B-OG, B-LC, B-PS
-19	##다	O	O	O, B-CV, B-LC, I-OG, I-EV
-20	.	O	O	O, B-CV, B-LC, B-PS, B-OG
-21	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	클린턴	B-PS	B-PS
+2	전	O	O
+3	대통령	B-CV	B-CV
+4	##은	O	O
+5	“	O	O
+6	15	B-QT	B-QT
+7	##파	I-QT	I-QT
+8	##운드	I-QT	I-QT
+9	(	O	O
+10	6	B-QT	B-QT
+11	.	I-QT	I-QT
+12	8	I-QT	I-QT
+13	##㎏	I-QT	I-QT
+14	)	O	O
+15	를	O	O
+16	감량	O	O
+17	##해	O	O
+18	##달라	O	O
+19	”	O	O
+20	는	O	O
+21	첼시	B-PS	B-OG
+22	##의	O	O
+23	부탁	O	O
+24	##으로	O	O
+25	체중	O	O
+26	##조	O	O
+27	##절	O	O
+28	##을	O	O
+29	끝낸	O	O
+30	모습	O	O
+31	##으로	O	O
+32	나타났	O	O
+33	##다	O	O
+34	.	O	O
+35	[SEP]	O	O

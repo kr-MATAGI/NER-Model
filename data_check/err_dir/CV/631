@@ -1,20 +1,38 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	거기	O	O	O, B-CV, B-OG, B-LC, B-TM
-2	##를	O	O	O, B-CV, B-OG, B-PS, I-OG
-3	통해서	O	O	O, B-CV, B-PS, B-OG, B-TM
-4	소송	B-CV	O	O, B-CV, B-TM, B-EV, B-FD
-5	##까	O	O	O, I-CV, B-PS, I-OG, B-CV
-6	##지도	O	O	O, B-PS, B-OG, B-DT, I-OG
-7	저희	O	O	O, B-OG, B-CV, B-LC, B-AF
-8	##가	O	O	O, I-OG, B-PS, B-OG, B-LC
-9	지원	O	O	O, B-CV, B-TM, B-LC, B-OG
-10	##을	O	O	O, B-CV, I-OG, B-OG, B-PS
-11	해	O	O	O, B-CV, B-LC, B-PS, B-OG
-12	드리	O	O	O, B-CV, B-PS, B-LC, B-OG
-13	##고	O	O	O, B-CV, B-PS, I-OG, I-CV
-14	있	O	O	O, B-CV, B-OG, B-PS, I-OG
-15	##습	O	O	O, B-CV, B-OG, I-OG, B-LC
-16	##니다	O	O	O, B-CV, B-OG, B-LC, B-TM
-17	.	O	O	O, B-CV, B-LC, B-OG, B-PS
-18	[SEP]	O	O	O, B-CV, B-OG, B-LC, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	검찰	B-OG	B-OG
+2	##은	O	O
+3	오	B-DT	B-DT
+4	##는	I-DT	I-DT
+5	18	I-DT	I-DT
+6	##일	I-DT	I-DT
+7	오전	B-TI	B-TI
+8	문	B-PS	B-PS
+9	##씨	O	O
+10	##를	O	O
+11	불러	O	O
+12	국정원	B-OG	B-OG
+13	##의	O	O
+14	이런	O	O
+15	사이버	O	O
+16	공작	O	O
+17	##과	O	O
+18	관련	O	O
+19	##해	O	O
+20	문화	O	O
+21	·	O	O
+22	예술	O	O
+23	##계	O	O
+24	인사	B-CV	O
+25	##들의	O	O
+26	피해	O	O
+27	사실	O	O
+28	##을	O	O
+29	직접	O	O
+30	확인	O	O
+31	##한다	O	O
+32	##는	O	O
+33	방침	O	O
+34	##이다	O	O
+35	.	O	O
+36	[SEP]	O	O

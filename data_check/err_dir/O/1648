@@ -1,75 +1,73 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	이	O	O	O, B-OG, B-CV, B-AF, B-PS
-2	책	O	O	O, B-CV, B-AF, B-TM, B-LC
-3	##은	O	O	O, B-CV, B-OG, B-LC, B-PS
-4	어	O	B-OG	B-OG, O, B-AF, B-CV, I-OG
-5	##문	O	I-OG	I-OG, O, B-OG, I-AF, I-CV
-6	##생활	O	I-OG	I-OG, O, I-AF, I-CV, B-OG
-7	##사	O	I-OG	I-OG, O, B-OG, I-AF, I-CV
-8	##연구소	O	I-OG	I-OG, O, B-OG, I-AF, I-CV
-9	##가	O	O	O, I-OG, B-PS, I-AF, B-OG
-10	2008	B-DT	B-DT	B-DT, I-DT, O, B-QT, B-LC
-11	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-12	7	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-13	##월	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-14	##부터	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-15	3	B-DT	B-DT	B-DT, I-DT, O, B-QT, B-LC
-16	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-AF
-17	##간	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-AF
-18	진행	O	O	O, I-DT, B-LC, B-CV, B-OG
-19	##한	O	O	O, B-LC, B-OG, B-PS, I-DT
-20	‘	O	O	O, B-LC, B-OG, B-CV, B-PS
-21	조선	B-DT	B-DT	B-DT, O, B-AF, B-LC, B-EV
-22	##시대	I-DT	I-DT	I-DT, O, I-AF, I-EV, I-LC
-23	한글	O	O	O, B-TM, B-CV, I-AF, B-AF
-24	##편	O	O	O, I-AF, I-TM, I-CV, B-CV
-25	##지	O	O	O, I-AF, I-TM, I-CV, I-FD
-26	##의	O	O	O, I-AF, I-TM, I-CV, I-LC
-27	수집	O	O	O, B-LC, I-AF, B-PS, B-CV
-28	·	O	O	O, I-AF, I-LC, I-OG, I-TM
-29	정리	O	O	O, I-AF, I-LC, B-LC, I-OG
-30	##와	O	O	O, B-LC, B-PS, I-AF, I-LC
-31	어휘	O	O	O, B-AF, B-CV, B-FD, I-AF
-32	·	O	O	O, I-AF, I-TM, I-CV, I-FD
-33	서	O	O	O, B-AF, B-CV, B-TM, I-AF
-34	##체	O	O	O, I-AF, I-TM, I-CV, I-FD
-35	사전	O	O	O, I-AF, I-TM, I-CV, I-FD
-36	##의	O	O	O, I-AF, I-TM, I-LC, I-CV
-37	편찬	O	O	O, I-AF, B-LC, I-LC, I-TM
-38	연구	O	O	O, I-AF, I-LC, I-TM, B-LC
-39	’	O	O	O, B-PS, B-CV, B-LC, B-OG
-40	의	O	O	O, B-PS, B-LC, B-OG, B-CV
-41	성과	O	O	O, B-CV, B-TM, B-LC, B-AF
-42	##물	O	O	O, I-CV, I-LC, I-TM, I-AF
-43	##로	O	O	O, B-LC, B-OG, B-PS, B-CV
-44	,	O	O	O, B-LC, B-OG, B-CV, B-PS
-45	2013	B-DT	B-DT	B-DT, I-DT, O, B-QT, B-LC
-46	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-47	##에	O	O	O, I-DT, B-CV, I-QT, B-OG
-48	##는	O	O	O, B-LC, B-CV, B-OG, B-TM
-49	한글	O	O	O, B-CV, B-TM, B-AF, B-FD
-50	##편	O	O	O, I-CV, I-TM, I-AF, B-CV
-51	##지	O	O	O, I-AF, I-CV, I-TM, I-FD
-52	판독	O	O	O, I-AF, I-TM, I-CV, B-CV
-53	##문	O	O	O, I-AF, I-TM, I-CV, I-LC
-54	##을	O	O	O, B-CV, I-AF, B-LC, B-TM
-55	실은	O	O	O, B-LC, B-AF, B-DT, B-PS
-56	‘	O	O	O, B-LC, B-CV, B-OG, B-PS
-57	조선	B-DT	B-AF	B-AF, O, I-AF, B-DT, B-EV
-58	##시대	I-DT	I-AF	I-AF, O, I-DT, B-AF, I-PS
-59	한글	O	I-AF	I-AF, B-AF, O, B-CV, I-TM
-60	##편	O	I-AF	I-AF, O, I-TM, B-AF, I-CV
-61	##지	O	I-AF	I-AF, O, I-TM, I-CV, B-AF
-62	판독	O	I-AF	I-AF, O, B-AF, I-TM, I-CV
-63	##자료	O	I-AF	I-AF, O, I-TM, B-AF, I-CV
-64	##집	O	I-AF	I-AF, O, I-TM, I-CV, B-AF
-65	’	O	O	O, I-AF, I-CV, I-TM, B-CV
-66	을	O	O	O, B-CV, B-LC, B-OG, B-PS
-67	펴내	O	O	O, B-OG, B-CV, B-LC, B-DT
-68	##기	O	O	O, B-OG, B-LC, B-CV, B-PS
-69	##도	O	O	O, B-LC, B-CV, I-OG, B-OG
-70	했	O	O	O, B-LC, B-CV, B-OG, B-TM
-71	##다	O	O	O, B-CV, B-LC, B-TM, I-OG
-72	.	O	O	O, B-LC, B-OG, B-PS, B-CV
-73	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	김	B-PS	B-PS
+2	연구원	B-CV	B-CV
+3	역시	O	O
+4	“	O	O
+5	유입	O	O
+6	인원	O	O
+7	##이	O	O
+8	늘어날	O	O
+9	##수록	O	O
+10	실화	O	O
+11	##나	O	O
+12	방화	O	O
+13	가능	O	O
+14	##성이	O	O
+15	높	O	O
+16	##아	O	O
+17	##진다는	O	O
+18	점	O	O
+19	##을	O	O
+20	고려	O	O
+21	##하면	O	O
+22	사람	O	O
+23	##의	O	O
+24	눈	B-AM	B-AM
+25	##이	O	O
+26	닿	O	O
+27	##지	O	O
+28	않	O	O
+29	##는	O	O
+30	장소	O	O
+31	##에	O	O
+32	대한	O	O
+33	방재	O	O
+34	##대	O	O
+35	##책	O	O
+36	##을	O	O
+37	서둘러야	O	O
+38	한다	O	O
+39	”	O	O
+40	며	O	O
+41	“	O	O
+42	마을	O	O
+43	##에	O	O
+44	입장	O	O
+45	##하	O	O
+46	##는	O	O
+47	관람객	O	B-CV
+48	##에	O	O
+49	##게	O	O
+50	철저	O	O
+51	##한	O	O
+52	사전	O	O
+53	교육	O	O
+54	##을	O	O
+55	시키	O	O
+56	##는	O	O
+57	방법	O	O
+58	##도	O	O
+59	고려	O	O
+60	##할	O	O
+61	필요	O	O
+62	##가	O	O
+63	있	O	O
+64	##다	O	O
+65	”	O	O
+66	고	O	O
+67	제안	O	O
+68	##했	O	O
+69	##다	O	O
+70	.	O	O
+71	[SEP]	O	O

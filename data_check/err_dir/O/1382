@@ -1,39 +1,27 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-QT
-1	먼저	O	O	O, B-TM, B-OG, B-LC, B-QT
-2	‘	O	O	O, B-OG, B-DT, B-LC, B-CV
-3	중학	O	B-AF	B-AF, O, B-FD, B-OG, B-CV
-4	역사	B-FD	I-AF	I-AF, B-FD, I-FD, O, B-AF
-5	교과서	O	I-AF	I-AF, O, I-FD, I-OG, I-EV
-6	2	B-QT	I-AF	I-AF, B-QT, O, B-AF, I-QT
-7	’	O	O	O, I-QT, I-AF, I-DT, I-EV
-8	154	B-QT	B-QT	B-QT, I-QT, B-EV, O, B-DT
-9	##쪽	I-QT	I-QT	I-QT, O, I-EV, I-AF, I-DT
-10	##에	O	O	O, I-QT, I-EV, B-CV, I-AF
-11	나오	O	O	O, B-CV, B-OG, B-LC, B-DT
-12	##는	O	O	O, B-CV, B-OG, B-LC, B-TM
-13	‘	O	O	O, B-DT, B-LC, B-CV, B-QT
-14	제	B-QT	B-QT	B-QT, B-EV, I-QT, O, B-AF
-15	##2	I-QT	I-QT	I-QT, I-EV, B-QT, I-AF, O
-16	##차	I-QT	I-QT	I-QT, I-EV, O, I-AF, B-QT
-17	남북	B-EV	B-EV	B-EV, I-EV, B-AF, I-QT, B-LC
-18	적십자	I-EV	I-EV	I-EV, I-AF, B-EV, I-QT, O
-19	회담	I-EV	I-EV	I-EV, I-AF, O, I-QT, I-OG
-20	’	O	O	O, I-EV, I-AF, I-OG, I-DT
-21	사진	O	O	O, B-LC, B-CV, B-OG, B-DT
-22	##설	O	O	O, B-LC, B-CV, B-PS, B-OG
-23	##명	O	O	O, B-LC, B-CV, I-DT, B-PS
-24	##에	O	O	O, B-CV, B-OG, B-LC, B-PS
-25	나오	O	O	O, B-CV, B-OG, B-LC, B-DT
-26	##는	O	O	O, B-CV, B-OG, B-LC, B-PS
-27	연도	O	O	O, B-LC, B-DT, B-CV, B-OG
-28	##가	O	O	O, B-PS, B-OG, B-CV, B-LC
-29	잘못	O	O	O, B-CV, B-OG, B-TM, B-LC
-30	##됐	O	O	O, B-CV, B-OG, B-LC, B-PS
-31	##다는	O	O	O, B-CV, B-OG, I-OG, B-LC
-32	지적	O	O	O, B-CV, B-TM, B-OG, B-LC
-33	##이	O	O	O, B-CV, B-OG, B-PS, B-LC
-34	나왔	O	O	O, B-CV, B-OG, B-TM, B-LC
-35	##다	O	O	O, B-CV, I-OG, B-TM, I-CV
-36	.	O	O	O, B-CV, B-LC, B-OG, B-PS
-37	[SEP]	O	O	O, B-CV, B-LC, B-OG, I-EV
+	text	label	preds
+0	[CLS]	O	O
+1	아버지	B-CV	B-CV
+2	김남	B-PS	B-PS
+3	##철	I-PS	I-PS
+4	(	O	O
+5	40	B-QT	B-QT
+6	)	O	O
+7	씨	O	O
+8	##는	O	O
+9	아들	B-CV	B-CV
+10	##에	O	O
+11	##게	O	O
+12	미술	O	B-TR
+13	·	O	I-TR
+14	음악	O	I-TR
+15	치료	O	I-TR
+16	##를	O	O
+17	받	O	O
+18	##게	O	O
+19	했	O	O
+20	##지만	O	O
+21	소용없	O	O
+22	##었	O	O
+23	##다	O	O
+24	.	O	O
+25	[SEP]	O	O

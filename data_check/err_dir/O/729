@@ -1,18 +1,33 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-EV, B-CV, I-OG, I-CV
-1	신세계	B-OG	B-OG	B-OG, O, B-AF, B-PS, B-LC
-2	##는	O	O	O, I-OG, I-EV, I-AF, B-CV
-3	경기	O	O	O, B-EV, B-CV, B-LC, I-EV
-4	막판	O	O	O, B-TI, B-TM, B-EV, B-LC
-5	3	B-TI	B-TI	B-TI, I-TI, O, B-EV, B-QT
-6	##분	I-TI	I-TI	I-TI, O, I-EV, I-TR, I-QT
-7	사이	O	I-TI	I-TI, O, I-TR, I-QT, I-EV
-8	실책	O	O	O, B-TM, I-TM, B-CV, B-AF
-9	3	B-QT	B-QT	B-QT, I-QT, O, I-TM, B-TM
-10	##개	I-QT	I-QT	I-QT, O, I-TM, I-LC, B-QT
-11	##가	O	O	O, I-QT, I-AF, B-CV, I-TM
-12	뼈아	O	O	O, B-CV, B-TM, B-QT, B-LC
-13	##팠	O	O	O, B-CV, B-LC, I-CV, B-OG
-14	##다	O	O	O, B-CV, B-TM, B-OG, B-LC
-15	.	O	O	O, B-CV, B-TM, B-LC, B-OG
-16	[SEP]	O	O	O, B-CV, B-TM, I-EV, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	복지부	B-OG	B-OG
+2	##는	O	O
+3	18	B-DT	B-DT
+4	##일	I-DT	I-DT
+5	'	O	O
+6	국가	B-EV	O
+7	방역	I-EV	O
+8	체계	I-EV	O
+9	개편	I-EV	O
+10	방안	I-EV	O
+11	'	O	O
+12	공청회	O	B-EV
+13	##를	O	O
+14	열	O	O
+15	##고	O	O
+16	이	O	O
+17	같	O	O
+18	##은	O	O
+19	내용	O	O
+20	##을	O	O
+21	제시	O	O
+22	##할	O	O
+23	예정	O	O
+24	##이	O	O
+25	##라고	O	O
+26	17	B-DT	B-DT
+27	##일	I-DT	I-DT
+28	밝혔	O	O
+29	##다	O	O
+30	.	O	O
+31	[SEP]	O	O

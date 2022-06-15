@@ -1,32 +1,26 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-AF
-1	단지	O	O	O, B-LC, B-AF, B-TM, B-CV
-2	##에서	O	O	O, B-LC, B-PS, B-AF, I-AF
-3	차로	O	O	O, B-AF, B-QT, B-TI, B-LC
-4	5	B-TI	B-TI	B-TI, I-TI, O, B-QT, B-EV
-5	##분	I-TI	I-TI	I-TI, I-QT, O, I-TR, B-TI
-6	거리	O	O	O, I-TI, I-QT, B-LC, B-QT
-7	##인	O	O	O, B-LC, B-AF, B-PS, I-AF
-8	고속철도	O	B-AF	B-AF, O, I-AF, B-LC, B-TM
-9	(	O	O	O, I-AF, B-CV, I-CV, I-OG
-10	KTX	B-AF	B-AF	B-AF, O, I-AF, B-LC, B-OG
-11	)	O	O	O, I-AF, B-LC, I-OG, B-AF
-12	천안	B-LC	B-LC	B-LC, O, B-AF, B-OG, I-LC
-13	##아산	I-LC	I-LC	I-LC, O, B-LC, I-AF, I-PS
-14	##역	I-LC	I-LC	I-LC, O, I-AF, B-LC, I-PS
-15	##을	O	O	O, I-LC, I-AF, B-LC, I-OG
-16	통해	O	O	O, B-LC, B-OG, B-AF, B-TM
-17	서울	B-LC	B-LC	B-LC, O, B-AF, B-OG, I-LC
-18	##까	O	O	O, I-LC, I-AF, B-LC, I-DT
-19	##지	O	O	O, B-TI, I-LC, I-TI, I-DT
-20	30	B-TI	B-TI	B-TI, I-TI, O, B-EV, B-QT
-21	##분	I-TI	I-TI	I-TI, O, B-TI, I-QT, I-TR
-22	##대	I-TI	I-TI	I-TI, O, I-TR, I-QT, B-TI
-23	##면	O	I-TI	I-TI, O, I-TR, I-QT, I-DT
-24	닿	O	O	O, I-TI, I-QT, B-LC, B-CV
-25	##을	O	O	O, B-LC, B-CV, B-OG, B-TM
-26	수	O	O	O, B-LC, B-CV, B-TM, B-OG
-27	있	O	O	O, B-LC, B-CV, B-QT, B-TM
-28	##다	O	O	O, B-LC, B-CV, B-TM, B-OG
-29	.	O	O	O, B-LC, B-AF, B-CV, I-AF
-30	[SEP]	O	O	O, B-LC, I-AF, B-AF, B-CV
+	text	label	preds
+0	[CLS]	O	O
+1	경북	B-LC	B-LC
+2	상주	B-LC	B-LC
+3	##의	O	O
+4	골동	O	B-CV
+5	##상	O	I-CV
+6	배	B-PS	B-PS
+7	##모	O	O
+8	##씨	O	O
+9	##가	O	O
+10	""""	O	O
+11	집	O	O
+12	##을	O	O
+13	수리	O	O
+14	##하	O	O
+15	##다	O	O
+16	발견	O	O
+17	##했	O	O
+18	##다	O	O
+19	""""	O	O
+20	고	O	O
+21	했	O	O
+22	##다	O	O
+23	.	O	O
+24	[SEP]	O	O

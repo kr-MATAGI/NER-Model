@@ -1,26 +1,48 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-EV, I-OG
-1	그러나	O	O	O, B-LC, B-EV, B-CV, B-OG
-2	외환	O	B-EV	B-EV, O, B-OG, I-EV, B-CV
-3	위기	O	I-EV	I-EV, O, I-OG, I-DT, I-AF
-4	여파	O	O	O, I-EV, I-OG, I-DT, I-AF
-5	##에서	O	O	O, B-LC, B-CV, B-PS, B-OG
-6	채	O	O	O, B-LC, B-TM, B-OG, B-PS
-7	못	O	O	O, B-LC, B-PS, B-CV, B-TM
-8	벗어난	O	O	O, B-PS, B-LC, B-OG, B-QT
-9	한국	B-LC	B-LC	B-LC, O, I-LC, B-OG, B-PS
-10	##에서	O	O	O, I-LC, I-AF, B-LC, B-CV
-11	김	B-PS	B-PS	B-PS, O, B-LC, I-PS, B-OG
-12	##씨	O	O	O, I-PS, B-CV, I-OG, I-AF
-13	가족	B-CV	B-CV	B-CV, O, B-OG, B-TM, B-AF
-14	##의	O	O	O, I-CV, B-CV, I-EV, I-AF
-15	'	O	O	O, B-CV, B-LC, B-TM, B-OG
-16	코리안	O	B-CV	B-CV, B-LC, O, B-OG, B-PS
-17	드림	O	O	O, I-CV, B-CV, I-TM, I-EV
-18	'	O	O	O, I-CV, B-CV, I-EV, I-OG
-19	은	O	O	O, B-CV, B-PS, B-OG, B-TM
-20	산산조각	O	O	O, B-TM, B-QT, B-CV, B-AF
-21	났	O	O	O, I-TM, B-CV, I-OG, I-AF
-22	##다	O	O	O, B-CV, I-OG, I-EV, B-TM
-23	.	O	O	O, B-LC, B-CV, B-PS, I-EV
-24	[SEP]	O	O	O, B-CV, B-LC, I-EV, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	조사단	O	O
+2	##은	O	O
+3	일본	B-LC	B-LC
+4	현지	O	O
+5	언론	O	O
+6	##기	O	O
+7	##관	O	O
+8	등	O	O
+9	##에	O	O
+10	이	O	O
+11	나무	O	O
+12	##가	O	O
+13	자연	O	O
+14	##문화재	O	O
+15	##로	O	O
+16	보호	O	O
+17	##해야	O	O
+18	할	O	O
+19	노	O	O
+20	##거	O	O
+21	##수	O	O
+22	##라는	O	O
+23	것	O	O
+24	##을	O	O
+25	알리	O	O
+26	##는	O	O
+27	한편	O	O
+28	후쿠	B-LC	B-PS
+29	##이	I-LC	I-PS
+30	##현	I-LC	I-PS
+31	지사	O	B-CV
+32	##와	O	O
+33	일본	B-LC	B-LC
+34	신사	B-OG	B-OG
+35	##총	I-OG	I-OG
+36	##회	I-OG	I-OG
+37	등	O	O
+38	##에도	O	O
+39	나무	O	O
+40	보호	O	O
+41	##를	O	O
+42	요청	O	O
+43	##했	O	O
+44	##다	O	O
+45	.	O	O
+46	[SEP]	O	O

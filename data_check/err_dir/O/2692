@@ -1,24 +1,32 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, I-OG, B-CV, I-AF
-1	2013	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-2	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-3	백두대간	B-LC	B-LC	B-LC, B-TM, O, B-AF, B-OG
-4	##의	O	O	O, I-AF, I-LC, I-OG, B-LC
-5	남	O	B-LC	B-LC, B-TM, O, B-OG, B-AF
-6	##과	O	O	O, I-LC, I-TM, B-LC, B-PS
-7	북	O	B-LC	B-LC, B-TM, O, B-OG, I-LC
-8	##을	O	O	O, I-LC, I-TM, I-AF, I-OG
-9	아울러	O	O	O, B-LC, B-QT, B-CV, B-TM
-10	종주	O	O	O, B-CV, B-LC, B-PS, B-OG
-11	##한	O	O	O, B-PS, B-LC, B-CV, B-OG
-12	사람	O	O	O, B-CV, B-PS, B-TM, B-LC
-13	##은	O	O	O, B-CV, B-PS, B-LC, B-OG
-14	뉴질랜드	B-LC	B-LC	B-LC, O, B-OG, B-AF, B-PS
-15	경찰관	B-CV	B-CV	B-CV, O, B-OG, I-CV, B-AF
-16	로저	O	B-PS	B-PS, O, I-PS, B-OG, B-CV
-17	셰	O	I-PS	I-PS, O, B-PS, I-OG, I-LC
-18	##퍼드	O	I-PS	I-PS, O, I-OG, I-LC, I-QT
-19	##였	O	O	O, I-PS, I-OG, I-AF, I-LC
-20	##다	O	O	O, B-CV, B-LC, I-OG, B-TM
-21	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-22	[SEP]	O	O	O, B-LC, B-CV, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	더	B-OG	B-OG
+2	##민주	I-OG	O
+3	##는	O	O
+4	이번	O	O
+5	경선	O	B-EV
+6	##에	O	O
+7	##서는	O	O
+8	‘	O	O
+9	노무현	B-OG	B-OG
+10	재단	I-OG	I-OG
+11	기획	B-CV	B-CV
+12	##위원	I-CV	I-CV
+13	’	O	O
+14	등	O	O
+15	비상	O	O
+16	##근	O	O
+17	##직	O	O
+18	##은	O	O
+19	경력	O	O
+20	##으로	O	O
+21	인정	O	O
+22	##하	O	O
+23	##지	O	O
+24	않	O	O
+25	##기	O	O
+26	##로	O	O
+27	했	O	O
+28	##다	O	O
+29	.	O	O
+30	[SEP]	O	O

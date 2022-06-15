@@ -1,45 +1,25 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	◆	O	O	O, B-LC, B-OG, B-PS, B-TM
-2	##문화	O	O	O, B-FD, I-FD, B-CV, B-TM
-3	·	O	O	O, I-FD, I-OG, I-LC, I-TM
-4	관광	O	O	O, B-FD, I-FD, B-TM, I-TM
-5	분야	O	O	O, I-FD, I-OG, I-TM, B-FD
-6	=	O	O	O, B-PS, B-LC, B-OG, B-CV
-7	아시아	B-EV	B-EV	B-EV, B-LC, O, B-AF, B-OG
-8	##경기	I-EV	I-EV	I-EV, O, I-LC, I-AF, B-EV
-9	##대	I-EV	I-EV	I-EV, O, I-AF, I-LC, I-OG
-10	##회	I-EV	I-EV	I-EV, O, I-AF, I-LC, I-OG
-11	관련	O	O	O, I-EV, I-AF, I-OG, B-LC
-12	경기장	O	O	O, B-AF, B-LC, B-CV, B-TM
-13	##과	O	O	O, B-OG, B-PS, B-LC, B-CV
-14	도로	O	O	O, B-AF, B-LC, B-CV, B-TM
-15	건설	O	O	O, B-CV, B-LC, B-TM, B-OG
-16	46	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-PS
-17	##40	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-18	##억	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-19	##원	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-20	,	O	O	O, I-QT, B-OG, B-LC, B-CV
-21	중구	B-LC	B-LC	B-LC, B-AF, O, B-OG, B-TM
-22	문화	O	O	O, B-AF, I-AF, B-CV, B-OG
-23	##회관	O	O	O, I-AF, I-OG, I-CV, I-LC
-24	건립	O	O	O, I-AF, B-CV, I-OG, B-TM
-25	36	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-LC
-26	##억	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-27	##원	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-28	,	O	O	O, I-QT, B-OG, B-LC, B-CV
-29	공공	O	O	O, B-CV, B-TM, B-AF, B-FD
-30	도서관	O	O	O, B-TM, B-FD, B-CV, I-CV
-31	확충	O	O	O, B-CV, B-TM, B-LC, B-PS
-32	140	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-PS
-33	##억	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-34	##원	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-35	,	O	O	O, I-QT, B-LC, B-OG, I-AF
-36	로봇	B-LC	B-AF	B-AF, B-LC, B-TM, O, B-EV
-37	##랜드	I-LC	I-LC	I-LC, I-AF, O, I-TM, I-EV
-38	조성	O	O	O, I-AF, I-LC, I-TM, I-QT
-39	130	B-QT	B-QT	B-QT, I-QT, O, B-DT, B-LC
-40	##억	I-QT	I-QT	I-QT, I-LC, O, I-PS, B-QT
-41	##원	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-42	.	O	O	O, I-QT, I-OG, B-OG, I-AF
-43	[SEP]	O	O	O, B-LC, B-AF, B-CV, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	뭐	O	O
+2	하	O	O
+3	##다	O	O
+4	못	O	O
+5	##해	O	O
+6	우리	O	O
+7	집	O	O
+8	근처	O	O
+9	##에	O	O
+10	있	O	O
+11	##는	O	O
+12	수색	B-LC	B-OG
+13	##동	I-LC	I-OG
+14	성당	O	I-OG
+15	##도	O	O
+16	한	B-QT	B-QT
+17	번	I-QT	I-QT
+18	##도	O	O
+19	안	O	O
+20	가	O	O
+21	##봤	O	O
+22	##는데	O	O
+23	[SEP]	O	O

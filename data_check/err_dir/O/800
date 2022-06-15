@@ -1,21 +1,51 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	[	O	O	O, B-OG, B-LC, B-DT, B-PS
-2	한겨레	B-OG	B-OG	B-OG, O, I-OG, B-AF, B-LC
-3	]	O	O	O, I-OG, I-AF, I-DT, I-EV
-4	‘	O	O	O, B-LC, B-CV, B-OG, B-DT
-5	조종	B-PS	B-AF	B-AF, B-PS, B-LC, B-EV, B-OG
-6	##현	I-PS	I-AF	I-AF, I-PS, I-LC, I-EV, I-OG
-7	조정	B-PS	I-AF	I-AF, B-AF, I-PS, B-PS, B-LC
-8	##래	I-PS	I-AF	I-AF, I-PS, I-LC, I-EV, I-OG
-9	김	B-PS	I-AF	I-AF, B-AF, I-PS, B-PS, B-LC
-10	##초	I-PS	I-AF	I-AF, I-PS, I-LC, O, I-EV
-11	##혜	I-PS	I-AF	I-AF, I-PS, I-LC, I-OG, I-EV
-12	가족	B-CV	I-AF	I-AF, B-AF, O, B-CV, I-PS
-13	##문학	O	I-AF	I-AF, O, I-LC, I-EV, I-CV
-14	##관	O	I-AF	I-AF, O, I-LC, I-CV, I-EV
-15	’	O	O	O, I-AF, I-EV, I-OG, I-CV
-16	고흥	B-LC	B-LC	B-LC, O, B-OG, B-AF, I-LC
-17	##서	O	O	O, I-LC, I-AF, B-LC, I-EV
-18	개관	O	O	O, B-CV, B-EV, B-LC, B-AF
-19	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-AF
+	text	label	preds
+0	[CLS]	O	O
+1	먼저	O	O
+2	시도	O	O
+3	##교육	O	B-OG
+4	##청	O	I-OG
+5	##의	O	O
+6	재정	B-CV	O
+7	자율	I-CV	O
+8	##권	I-CV	O
+9	확대	O	O
+10	##를	O	O
+11	위해	O	O
+12	특별	O	O
+13	##교	O	O
+14	##부	O	O
+15	##금	O	O
+16	##의	O	O
+17	비율	O	O
+18	##을	O	O
+19	4	B-QT	B-QT
+20	%	I-QT	I-QT
+21	에서	O	O
+22	3	B-QT	B-QT
+23	%	I-QT	I-QT
+24	로	O	O
+25	낮춰	O	O
+26	교육부	B-OG	B-OG
+27	##가	O	O
+28	가져왔	O	O
+29	##던	O	O
+30	약	O	O
+31	4000	O	O
+32	##억	O	O
+33	원의	O	O
+34	예산	O	O
+35	##을	O	O
+36	시도	O	O
+37	##교육	O	B-OG
+38	##청	O	I-OG
+39	##이	O	O
+40	자체	O	O
+41	##적	O	O
+42	##으로	O	O
+43	쓰	O	O
+44	##게	O	O
+45	할	O	O
+46	방침	O	O
+47	##이다	O	O
+48	.	O	O
+49	[SEP]	O	O

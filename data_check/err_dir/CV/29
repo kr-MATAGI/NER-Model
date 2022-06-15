@@ -1,99 +1,28 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, B-PS, I-EV
-1	21	B-DT	B-DT	B-DT, O, B-PS, I-DT, B-LC
-2	##일	I-DT	I-DT	I-DT, O, B-DT, I-PS, I-EV
-3	금융	O	O	O, B-CV, B-PS, B-LC, I-DT
-4	##계	O	O	O, B-PS, B-CV, I-CV, B-LC
-5	##와	O	O	O, B-PS, B-CV, B-LC, I-PS
-6	검찰	B-OG	B-OG	B-OG, O, B-LC, B-PS, B-CV
-7	설명	O	O	O, B-CV, B-PS, I-OG, I-CV
-8	##을	O	O	O, B-PS, B-CV, B-LC, I-CV
-9	종합	O	O	O, B-PS, B-CV, B-LC, I-CV
-10	##하면	O	O	O, B-PS, B-CV, B-LC, I-CV
-11	,	O	O	O, B-PS, B-CV, B-LC, B-OG
-12	서울	B-OG	B-OG	B-OG, B-LC, O, B-PS, B-AF
-13	##중	I-OG	I-OG	I-OG, B-OG, O, I-LC, I-PS
-14	##앙	I-OG	I-OG	I-OG, I-LC, O, B-OG, I-EV
-15	##지	I-OG	I-OG	I-OG, B-OG, O, I-LC, I-EV
-16	##검	I-OG	I-OG	I-OG, O, I-LC, B-OG, I-PS
-17	‘	O	O	O, I-OG, B-PS, B-CV, B-LC
-18	전두환	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-19	일가	O	O	O, B-CV, I-PS, I-OG, B-OG
-20	미납	O	O	O, B-CV, I-CV, B-OG, B-LC
-21	추징금	O	B-CV	B-CV, O, I-CV, B-OG, B-PS
-22	특별	O	O	O, I-CV, I-OG, B-OG, B-CV
-23	##집행	O	O	O, I-OG, I-CV, B-CV, B-OG
-24	##팀	O	O	O, I-OG, I-CV, B-OG, B-CV
-25	’	O	O	O, B-PS, B-CV, I-CV, I-OG
-26	(	O	O	O, B-PS, B-CV, I-CV, I-PS
-27	팀장	B-CV	B-CV	B-CV, O, I-CV, B-PS, B-TM
-28	김형	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-29	##준	I-PS	I-PS	I-PS, O, I-OG, B-PS, I-LC
-30	)	O	O	O, I-PS, B-CV, B-PS, B-LC
-31	은	O	O	O, B-PS, B-CV, B-LC, B-OG
-32	전	B-PS	B-PS	B-PS, O, I-PS, B-LC, B-OG
-33	전	O	O	O, B-CV, I-PS, B-PS, I-CV
-34	대통령	B-CV	B-CV	B-CV, O, I-CV, B-PS, I-PS
-35	##의	O	O	O, B-PS, I-CV, B-CV, I-PS
-36	부인	B-CV	B-CV	B-CV, O, I-CV, B-PS, B-TM
-37	이씨	O	O	O, B-PS, I-CV, B-CV, B-QT
-38	##가	O	O	O, B-PS, B-CV, I-PS, B-LC
-39	서울	B-LC	B-LC	B-LC, O, B-PS, B-OG, I-LC
-40	대	B-LC	B-LC	B-LC, O, I-LC, B-PS, B-OG
-41	##현동	I-LC	I-LC	I-LC, O, B-LC, I-PS, I-AF
-42	##에	O	O	O, B-PS, I-LC, B-CV, I-PS
-43	있	O	O	O, B-PS, B-CV, B-LC, I-PS
-44	##는	O	O	O, B-PS, B-CV, I-PS, B-LC
-45	엔	B-OG	B-OG	B-OG, B-AF, O, B-LC, B-PS
-46	##에이	I-OG	I-OG	I-OG, I-AF, O, I-LC, I-PS
-47	##치	I-OG	I-OG	I-OG, I-AF, O, I-LC, B-OG
-48	(	I-OG	I-OG	I-OG, I-AF, O, B-OG, B-AF
-49	NH	I-OG	I-OG	I-OG, I-AF, O, B-OG, B-AF
-50	)	I-OG	I-OG	I-OG, I-AF, O, I-LC, I-CV
-51	농협	I-OG	I-OG	I-OG, I-AF, B-OG, B-AF, O
-52	##은행	I-OG	I-OG	I-OG, I-AF, O, I-LC, B-OG
-53	신촌	I-OG	I-OG	I-OG, I-AF, B-AF, B-OG, B-LC
-54	##지	I-OG	I-OG	I-OG, I-AF, O, I-LC, I-CV
-55	##점	I-OG	I-OG	I-OG, O, I-AF, I-LC, I-CV
-56	##에	O	O	O, B-PS, B-CV, I-AF, I-OG
-57	30	B-QT	B-QT	B-QT, O, B-PS, I-QT, B-CV
-58	##억	I-QT	I-QT	I-QT, O, I-PS, I-LC, I-CV
-59	##원	I-QT	I-QT	I-QT, O, I-LC, I-PS, I-CV
-60	##의	O	O	O, B-PS, B-CV, I-QT, I-PS
-61	연금	B-CV	O	O, B-CV, I-CV, B-AF, B-TM
-62	정기예금	O	O	O, B-CV, I-CV, B-AF, B-TM
-63	##에	O	O	O, B-PS, I-CV, B-CV, I-AF
-64	가입	O	O	O, B-CV, B-PS, I-CV, B-TM
-65	##한	O	O	O, B-PS, B-CV, I-CV, B-LC
-66	뒤	O	O	O, B-CV, B-PS, I-CV, B-TM
-67	매달	O	O	O, B-CV, B-PS, B-QT, B-LC
-68	1200	B-QT	B-QT	B-QT, O, B-PS, I-QT, B-CV
-69	##만	I-QT	I-QT	I-QT, O, I-PS, I-LC, I-CV
-70	##원	I-QT	I-QT	I-QT, O, I-PS, I-LC, I-CV
-71	##씩	I-QT	I-QT	I-QT, O, I-PS, I-LC, I-CV
-72	받아	O	O	O, B-CV, I-QT, B-PS, B-TM
-73	##가	O	O	O, B-PS, B-CV, I-CV, B-AM
-74	##는	O	O	O, B-PS, B-CV, I-CV, I-PS
-75	사실	O	O	O, B-CV, B-PS, I-CV, B-LC
-76	##을	O	O	O, B-PS, B-CV, I-PS, B-LC
-77	확인	O	O	O, B-CV, B-PS, I-CV, B-LC
-78	##하고	O	O	O, B-PS, B-CV, I-CV, B-LC
-79	최근	O	O	O, B-PS, B-CV, B-LC, B-OG
-80	법원	B-OG	B-OG	B-OG, O, B-LC, I-OG, B-AF
-81	##으로	O	O	O, B-PS, B-CV, I-OG, I-CV
-82	##부터	O	O	O, B-PS, B-CV, B-LC, I-CV
-83	압수수색	O	O	O, B-CV, B-AF, B-TM, B-PS
-84	영장	O	O	O, B-CV, I-CV, B-PS, B-AF
-85	##을	O	O	O, B-PS, B-CV, I-CV, B-LC
-86	발부	O	O	O, B-CV, B-PS, B-LC, B-TM
-87	##받	O	O	O, B-PS, B-CV, B-LC, I-CV
-88	##아	O	O	O, B-PS, B-CV, B-LC, I-PS
-89	이씨	O	O	O, B-CV, B-PS, B-QT, B-TM
-90	##의	O	O	O, B-PS, B-CV, I-CV, I-PS
-91	예금	O	O	O, B-CV, B-TM, I-CV, B-LC
-92	##을	O	O	O, B-PS, B-CV, I-CV, B-LC
-93	압류	O	O	O, B-CV, B-PS, B-TM, B-LC
-94	##했	O	O	O, B-PS, B-CV, I-CV, B-LC
-95	##다	O	O	O, B-PS, B-CV, I-CV, B-LC
-96	.	O	O	O, B-PS, B-CV, B-LC, B-TM
-97	[SEP]	O	O	O, B-PS, B-CV, B-LC, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	그래서	O	O
+2	어쨌든	O	O
+3	이	O	O
+4	분	O	O
+5	##은	O	O
+6	남아	O	O
+7	##서	O	O
+8	그	O	O
+9	경전	O	O
+10	##을	O	O
+11	번역	O	O
+12	##할	O	O
+13	수	O	O
+14	있	O	O
+15	##는	O	O
+16	후	B-CV	O
+17	##학	I-CV	O
+18	##을	O	O
+19	몇	O	O
+20	분	O	O
+21	양성	O	O
+22	##을	O	O
+23	한	O	O
+24	거야	O	O
+25	.	O	O
+26	[SEP]	O	O

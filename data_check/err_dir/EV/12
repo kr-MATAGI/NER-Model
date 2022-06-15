@@ -1,69 +1,101 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	충남	B-LC	B-LC	B-LC, O, B-EV, B-OG, B-AF
-2	보령	B-EV	B-LC	B-LC, O, B-EV, I-LC, I-EV
-3	##시장	I-EV	B-CV	B-CV, I-EV, O, B-EV, I-LC
-4	선거	I-EV	I-EV	I-EV, O, B-EV, I-CV, I-LC
-5	##는	O	O	O, I-EV, B-CV, B-PS, I-CV
-6	한나라당	B-OG	B-OG	B-OG, O, B-PS, B-LC, B-CV
-7	신	B-PS	B-PS	B-PS, I-PS, B-OG, O, I-OG
-8	##준	I-PS	I-PS	I-PS, I-OG, O, B-PS, I-LC
-9	##희	I-PS	I-PS	I-PS, O, I-OG, I-LC, B-PS
-10	(	O	O	O, I-PS, B-CV, I-OG, B-LC
-11	72	B-QT	B-QT	B-QT, O, I-QT, B-TM, B-TI
-12	)	O	O	O, I-QT, I-DT, I-EV, I-OG
-13	현	O	O	O, B-CV, B-PS, B-DT, B-LC
-14	시장	B-CV	B-CV	B-CV, O, I-CV, B-EV, B-TM
-15	##과	O	O	O, I-CV, B-PS, I-EV, B-OG
-16	자유	B-OG	B-OG	B-OG, O, B-PS, B-CV, B-LC
-17	##선	I-OG	I-OG	I-OG, O, B-OG, I-CV, I-EV
-18	##진	I-OG	I-OG	I-OG, O, I-LC, I-CV, I-EV
-19	##당	I-OG	I-OG	I-OG, O, I-LC, I-PS, I-AF
-20	이시	B-PS	B-PS	B-PS, O, I-PS, B-OG, I-OG
-21	##우	I-PS	I-PS	I-PS, I-OG, O, I-LC, B-PS
-22	(	O	O	O, I-PS, B-CV, I-OG, B-LC
-23	61	B-QT	B-QT	B-QT, O, I-QT, B-TM, B-TI
-24	)	O	O	O, I-QT, I-DT, I-EV, I-OG
-25	전	O	O	O, B-CV, B-PS, B-LC, B-DT
-26	시장	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-EV
-27	,	O	O	O, I-CV, B-CV, B-PS, I-EV
-28	민주당	B-OG	B-OG	B-OG, O, B-PS, B-LC, B-CV
-29	김기	B-PS	B-PS	B-PS, I-PS, B-OG, O, I-OG
-30	##호	I-PS	I-PS	I-PS, I-OG, O, I-LC, I-QT
-31	(	O	O	O, I-PS, I-OG, B-CV, I-QT
-32	48	B-QT	B-QT	B-QT, O, I-QT, B-TM, B-TI
-33	)	O	O	O, I-QT, I-DT, I-OG, I-EV
-34	후보	B-CV	B-CV	B-CV, O, B-TM, B-EV, I-CV
-35	##와	O	O	O, I-CV, I-EV, B-CV, I-OG
-36	무소	O	O	O, B-OG, B-CV, B-LC, B-TM
-37	##속	O	O	O, I-OG, I-CV, I-LC, B-OG
-38	김동	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-39	##일	I-PS	I-PS	I-PS, I-OG, O, I-LC, B-PS
-40	(	O	O	O, I-PS, I-OG, B-CV, I-QT
-41	61	B-QT	B-QT	B-QT, O, I-QT, B-TM, B-TI
-42	)	O	O	O, I-QT, I-DT, I-OG, I-EV
-43	·	O	O	O, B-PS, B-CV, B-LC, I-QT
-44	임	B-PS	B-PS	B-PS, B-OG, O, B-LC, I-PS
-45	##세	I-PS	I-PS	I-PS, I-OG, O, B-PS, I-LC
-46	##빈	I-PS	I-PS	I-PS, O, I-OG, I-LC, B-PS
-47	(	O	O	O, I-PS, B-CV, I-OG, B-LC
-48	45	B-QT	B-QT	B-QT, O, I-QT, B-TM, B-TI
-49	)	O	O	O, I-QT, I-DT, I-OG, I-EV
-50	·	O	O	O, B-PS, B-CV, B-LC, I-QT
-51	양	B-PS	B-PS	B-PS, B-OG, O, B-LC, I-PS
-52	##창	I-PS	I-PS	I-PS, I-OG, O, B-PS, I-LC
-53	##용	I-PS	I-PS	I-PS, O, I-OG, I-LC, B-PS
-54	(	O	O	O, I-PS, B-CV, I-OG, B-LC
-55	42	B-QT	B-QT	B-QT, O, I-QT, B-TM, B-TI
-56	)	O	O	O, I-QT, I-DT, I-OG, I-EV
-57	후보	B-CV	B-CV	B-CV, O, B-TM, B-EV, I-CV
-58	등	O	O	O, I-CV, B-CV, I-EV, I-QT
-59	모두	O	O	O, B-CV, B-QT, B-OG, B-PS
-60	6	B-QT	B-QT	B-QT, O, I-QT, B-TM, B-DT
-61	##명	I-QT	I-QT	I-QT, O, I-LC, I-PS, I-EV
-62	##이	O	O	O, I-QT, B-PS, B-CV, I-EV
-63	출마	O	O	O, B-CV, B-TM, B-EV, B-OG
-64	##했	O	O	O, B-PS, B-LC, B-CV, B-OG
-65	##다	O	O	O, B-CV, B-LC, B-PS, B-OG
-66	.	O	O	O, B-LC, B-PS, B-CV, B-OG
-67	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	전날	B-DT	B-DT
+2	북한	B-OG	B-OG
+3	##이	O	O
+4	7	B-DT	B-DT
+5	##일	I-DT	I-DT
+6	(	O	O
+7	현지	O	O
+8	##시	O	O
+9	##각	O	O
+10	)	O	O
+11	유엔	B-OG	B-OG
+12	안전	I-OG	I-OG
+13	##보	I-OG	I-OG
+14	##장이	I-OG	I-OG
+15	##사회	I-OG	I-OG
+16	전체	O	O
+17	##회의	O	O
+18	##에	O	O
+19	##서	O	O
+20	통과	O	O
+21	##될	O	O
+22	예정	O	O
+23	##인	O	O
+24	북한	B-OG	B-LC
+25	핵실험	O	O
+26	##에	O	O
+27	대한	O	O
+28	제재	O	O
+29	결의안	O	O
+30	##과	O	O
+31	한미	B-LC	B-OG
+32	군사	B-EV	O
+33	##합	I-EV	O
+34	##동	I-EV	O
+35	##훈련	I-EV	O
+36	##을	O	O
+37	비난	O	O
+38	##하	O	O
+39	##며	O	O
+40	핵실험	O	O
+41	##에	O	O
+42	이은	O	O
+43	2	B-QT	B-QT
+44	,	I-QT	I-QT
+45	3	I-QT	I-QT
+46	##차	I-QT	I-QT
+47	대응	O	O
+48	조처	O	O
+49	및	O	O
+50	정전	B-OG	B-OG
+51	##협	I-OG	I-OG
+52	##정	I-OG	I-OG
+53	백지화	O	O
+54	,	O	O
+55	판문점	B-LC	B-LC
+56	대표부	O	O
+57	활동	O	O
+58	중단	O	O
+59	등	O	O
+60	##을	O	O
+61	위협	O	O
+62	##한	O	O
+63	데	O	O
+64	대해	O	O
+65	그	O	O
+66	##는	O	O
+67	“	O	O
+68	이번	O	O
+69	키리	B-EV	B-EV
+70	##졸	I-EV	I-EV
+71	##브	I-EV	I-EV
+72	및	O	O
+73	독수리	B-EV	B-EV
+74	연습	I-EV	I-EV
+75	##은	O	O
+76	북측	B-OG	B-OG
+77	##에도	O	O
+78	이미	O	O
+79	통보	O	O
+80	##된	O	O
+81	한반도	B-LC	B-LC
+82	방어	O	O
+83	##를	O	O
+84	위한	O	O
+85	연례	O	O
+86	##적	O	O
+87	##인	O	O
+88	한	B-EV	B-EV
+89	-	I-EV	I-EV
+90	미	I-EV	I-EV
+91	연합	I-EV	I-EV
+92	##훈련	I-EV	O
+93	”	O	O
+94	이라	O	O
+95	##고	O	O
+96	밝혔	O	O
+97	##다	O	O
+98	.	O	O
+99	[SEP]	O	O

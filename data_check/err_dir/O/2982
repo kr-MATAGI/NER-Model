@@ -1,16 +1,52 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	대중	O	B-CV	B-CV, O, I-CV, B-OG, B-PS
-2	##들	O	O	O, I-CV, B-CV, I-OG, I-AF
-3	##에	O	O	O, B-CV, B-PS, I-CV, B-LC
-4	마음	O	O	O, B-CV, B-TM, B-LC, B-AM
-5	##을	O	O	O, B-CV, B-PS, B-LC, I-AF
-6	사로잡	O	O	O, B-CV, B-LC, B-TM, B-PS
-7	##기	O	O	O, B-CV, B-LC, B-PS, B-OG
-8	##도	O	O	O, B-CV, I-OG, I-AF, B-LC
-9	쉽	O	O	O, B-CV, B-TM, B-OG, B-LC
-10	##지	O	O	O, I-OG, B-CV, B-OG, I-AF
-11	않	O	O	O, B-CV, B-OG, B-LC, I-OG
-12	##은	O	O	O, B-CV, B-OG, B-LC, I-OG
-13	##데	O	O	O, B-CV, B-OG, B-TM, I-OG
-14	[SEP]	O	O	O, B-CV, B-LC, I-AF, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	고급	O	O
+2	세단	O	B-AF
+3	##의	O	O
+4	대명사	O	O
+5	##인	O	O
+6	마	B-OG	B-OG
+7	##세라	I-OG	I-OG
+8	##티	I-OG	I-OG
+9	##도	O	O
+10	지난해	B-DT	B-DT
+11	프랑크푸르트	B-LC	B-EV
+12	모터쇼	O	I-EV
+13	##를	O	O
+14	통해	O	O
+15	공개	O	O
+16	##한	O	O
+17	마	B-OG	B-OG
+18	##세라	I-OG	I-OG
+19	##티	I-OG	I-OG
+20	최초	O	O
+21	##의	O	O
+22	4	B-QT	B-QT
+23	##인	I-QT	I-QT
+24	##승	I-QT	I-QT
+25	컨	B-AF	B-AF
+26	##버터	I-AF	I-AF
+27	##블	I-AF	I-AF
+28	모델	O	O
+29	##인	O	O
+30	그란	B-AF	B-AF
+31	##카	I-AF	I-AF
+32	##브리	I-AF	I-AF
+33	##오	I-AF	I-AF
+34	(	O	O
+35	Gr	O	O
+36	##an	O	O
+37	##C	O	O
+38	##ab	O	O
+39	##ri	O	O
+40	##o	O	O
+41	)	O	O
+42	를	O	O
+43	최근	O	O
+44	국내	O	O
+45	##에	O	O
+46	출시	O	O
+47	##했	O	O
+48	##다	O	O
+49	.	O	O
+50	[SEP]	O	O

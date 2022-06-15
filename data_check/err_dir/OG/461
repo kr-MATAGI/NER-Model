@@ -1,39 +1,29 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-EV, I-OG, I-CV
-1	한	B-LC	B-LC	B-LC, B-OG, O, B-EV, B-PS
-2	·	O	O	O, I-OG, I-LC, B-OG, I-EV
-3	미	B-LC	B-LC	B-LC, I-LC, I-OG, B-OG, O
-4	연합	O	O	O, I-OG, B-OG, B-CV, I-LC
-5	전력	O	O	O, I-OG, B-OG, I-CV, I-AF
-6	##이	O	O	O, I-OG, B-PS, I-EV, B-CV
-7	참가	O	O	O, B-CV, B-OG, B-LC, B-EV
-8	##한	O	O	O, B-LC, B-EV, I-EV, B-OG
-9	이날	B-DT	B-DT	B-DT, I-DT, O, B-EV, B-LC
-10	통합	B-EV	B-EV	B-EV, O, I-EV, B-CV, B-OG
-11	##화	I-EV	I-EV	I-EV, O, I-OG, B-EV, I-AF
-12	##력	I-EV	I-EV	I-EV, O, I-OG, I-AF, I-LC
-13	##훈련	I-EV	I-EV	I-EV, O, I-OG, I-AF, I-LC
-14	##에	O	O	O, I-EV, I-OG, I-AF, B-CV
-15	##는	O	O	O, B-OG, B-CV, B-LC, I-EV
-16	육	B-OG	B-OG	B-OG, O, B-LC, B-CV, B-EV
-17	·	I-OG	I-OG	I-OG, O, I-EV, B-OG, I-CV
-18	해	I-OG	I-OG	I-OG, O, B-OG, I-EV, I-AF
-19	·	I-OG	I-OG	I-OG, O, I-EV, I-CV, I-LC
-20	공군	I-OG	I-OG	I-OG, O, B-OG, I-EV, I-CV
-21	등	O	O	O, I-OG, I-EV, B-CV, B-PS
-22	합동	O	O	O, B-CV, B-OG, B-LC, B-AF
-23	전력	O	O	O, I-OG, I-CV, B-CV, B-OG
-24	##과	O	O	O, I-OG, B-PS, B-LC, B-OG
-25	주한	O	B-OG	B-OG, O, B-CV, B-LC, B-AF
-26	미군	B-OG	I-OG	I-OG, B-OG, O, B-CV, I-CV
-27	,	O	O	O, I-OG, I-EV, B-CV, I-CV
-28	특수	O	O	O, B-EV, B-FD, B-CV, B-OG
-29	##전	O	O	O, I-EV, I-CV, I-FD, I-OG
-30	전력	O	O	O, I-OG, B-CV, I-CV, B-OG
-31	등	O	O	O, I-OG, I-CV, B-PS, B-CV
-32	##이	O	O	O, B-PS, B-OG, B-CV, B-LC
-33	참가	O	O	O, B-CV, B-OG, B-LC, B-AF
-34	##했	O	O	O, B-CV, B-LC, I-OG, B-PS
-35	##다	O	O	O, B-CV, B-LC, B-OG, I-EV
-36	.	O	O	O, B-OG, B-LC, B-CV, B-PS
-37	[SEP]	O	O	O, B-CV, B-OG, B-LC, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	그러나	O	O
+2	박근혜	B-PS	B-PS
+3	당선인	B-CV	B-CV
+4	##은	O	O
+5	인수위	B-OG	B-OG
+6	법	B-OG	O
+7	##질서	I-OG	O
+8	·	I-OG	O
+9	사회	I-OG	O
+10	##안전	I-OG	O
+11	##분	I-OG	O
+12	##과	I-OG	O
+13	국정	O	O
+14	##과	O	O
+15	##제	O	O
+16	토론회	O	O
+17	##에	O	O
+18	##서	O	O
+19	“	O	O
+20	법	O	O
+21	적용	O	O
+22	##이	O	O
+23	공정	O	O
+24	##해야	O	O
+25	한다	O	O
+26	.	O	O
+27	[SEP]	O	O

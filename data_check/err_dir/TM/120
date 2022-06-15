@@ -1,30 +1,13 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-QT
-1	양	B-AM	B-AM	B-AM, O, B-CV, B-TM, B-QT
-2	##발	I-AM	I-AM	I-AM, O, I-CV, B-AM, I-QT
-3	##을	O	O	O, I-AM, I-CV, B-AM, I-QT
-4	모두	O	O	O, B-AM, B-PS, B-TM, B-QT
-5	사용	O	O	O, B-AM, B-PS, B-CV, B-TM
-6	##하고	O	O	O, B-PS, I-PS, B-CV, I-CV
-7	머리	B-AM	B-AM	B-AM, O, B-CV, B-TM, B-PS
-8	##까	O	O	O, I-AM, I-PS, I-CV, I-DT
-9	##지	O	O	O, B-PS, B-AM, I-PS, I-DT
-10	잘	O	O	O, B-CV, B-PS, B-OG, B-LC
-11	쓰	O	O	O, B-PS, B-AM, B-CV, B-LC
-12	##는	O	O	O, B-PS, I-PS, B-CV, B-LC
-13	그	O	O	O, B-PS, B-CV, I-PS, B-OG
-14	##는	O	O	O, B-PS, B-CV, I-PS, I-CV
-15	어떤	O	O	O, B-CV, B-TM, B-PS, B-LC
-16	위치	O	O	O, B-CV, B-TM, B-PS, B-LC
-17	##에서	O	O	O, B-PS, B-TM, B-CV, B-LC
-18	##도	O	O	O, B-TM, B-CV, B-PS, B-LC
-19	슈팅	B-TM	O	O, B-TM, I-TM, B-CV, B-AF
-20	##이	O	O	O, B-PS, I-TM, I-CV, I-AF
-21	가능	O	O	O, B-PS, B-CV, B-TM, B-LC
-22	##한	O	O	O, B-PS, B-CV, B-LC, I-PS
-23	‘	O	O	O, B-CV, B-PS, B-OG, B-LC
-24	득점	O	O	O, B-TM, B-CV, B-AF, B-PS
-25	기계	O	O	O, B-CV, B-PS, I-CV, B-AM
-26	’	O	O	O, I-CV, B-CV, B-PS, I-PS
-27	.	O	O	O, B-CV, B-OG, B-PS, I-CV
-28	[SEP]	O	O	O, B-CV, B-PS, B-TM, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	렛	B-TM	O
+2	##츠	I-TM	O
+3	코리안	I-TM	I-CV
+4	##이	O	O
+5	##란	O	O
+6	것	O	O
+7	##이	O	O
+8	있	O	O
+9	##어요	O	O
+10	.	O	O
+11	[SEP]	O	O

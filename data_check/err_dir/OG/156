@@ -1,31 +1,49 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	각	O	O	O, B-QT, B-TM, B-CV, B-OG
-2	부문	O	O	O, I-QT, B-TM, B-CV, I-TM
-3	##의	O	O	O, B-CV, B-PS, B-LC, B-OG
-4	장	O	O	O, B-CV, B-PS, B-TM, B-AM
-5	##은	O	O	O, I-CV, B-CV, B-PS, B-OG
-6	기존	O	O	O, B-CV, B-OG, B-LC, B-PS
-7	##처럼	O	O	O, B-PS, B-LC, B-OG, B-CV
-8	소비자	B-OG	B-CV	B-CV, O, B-OG, B-AF, B-TM
-9	##가	I-OG	O	O, I-CV, I-OG, I-TM, I-AF
-10	##전	I-OG	O	O, I-CV, I-TM, I-QT, I-EV
-11	##은	O	O	O, B-CV, B-PS, B-LC, I-CV
-12	윤	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-13	##부	I-PS	I-PS	I-PS, O, I-OG, B-PS, I-LC
-14	##근	I-PS	I-PS	I-PS, O, I-OG, I-LC, B-PS
-15	,	O	O	O, I-PS, I-OG, B-CV, B-LC
-16	정보	B-FD	B-FD	B-FD, O, B-TR, B-AF, B-TM
-17	##기술	I-FD	I-FD	I-FD, O, I-TR, B-FD, I-AF
-18	·	O	O	O, I-FD, I-OG, I-AF, I-QT
-19	모바일	B-TM	B-TM	B-TM, O, B-TR, B-LC, B-FD
-20	##은	O	O	O, I-TM, B-CV, I-AF, I-OG
-21	신종	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-22	##균	I-PS	I-PS	I-PS, O, I-OG, B-PS, I-LC
-23	사장	B-CV	B-CV	B-CV, O, I-CV, B-TM, I-PS
-24	##이	O	O	O, I-CV, B-PS, B-CV, I-OG
-25	맡	O	O	O, B-CV, B-OG, B-TM, B-LC
-26	##는	O	O	O, B-CV, B-OG, B-PS, I-OG
-27	##다	O	O	O, B-CV, B-OG, I-OG, B-PS
-28	.	O	O	O, B-PS, B-CV, B-LC, B-OG
-29	[SEP]	O	O	O, B-CV, B-PS, B-LC, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	개인	O	O
+2	수상자	B-CV	B-CV
+3	##인	O	O
+4	지선	B-PS	B-PS
+5	스님	B-CV	B-CV
+6	##은	O	O
+7	무등	B-LC	B-LC
+8	##산	I-LC	I-LC
+9	자락	O	O
+10	##의	O	O
+11	문	B-OG	B-AF
+12	##빈	I-OG	I-AF
+13	##정	I-OG	I-AF
+14	##사	I-OG	I-AF
+15	주지	B-CV	B-CV
+16	##로	O	O
+17	5	B-EV	B-EV
+18	·	I-EV	I-EV
+19	18	I-EV	I-EV
+20	##민	I-EV	I-EV
+21	##중	I-EV	I-EV
+22	##항	I-EV	I-EV
+23	##쟁	I-EV	I-EV
+24	##을	O	O
+25	겪	O	O
+26	##은	O	O
+27	뒤	O	O
+28	지속	O	O
+29	##적	O	O
+30	##인	O	O
+31	시위	O	O
+32	##와	O	O
+33	강연	O	O
+34	##으로	O	O
+35	민주	O	O
+36	##화	O	O
+37	##운동	O	O
+38	##과	O	O
+39	자주	B-EV	O
+40	##통일	I-EV	O
+41	##운동	I-EV	O
+42	##을	O	O
+43	이끌	O	O
+44	##었	O	O
+45	##다	O	O
+46	.	O	O
+47	[SEP]	O	O

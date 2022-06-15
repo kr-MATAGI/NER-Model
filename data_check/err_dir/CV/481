@@ -1,83 +1,46 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, B-CV, I-OG, I-EV
-1	‘	O	O	O, B-LC, B-EV, B-CV, B-OG
-2	정운	B-PS	B-PS	B-PS, B-EV, B-AF, B-OG, I-EV
-3	##호	I-PS	I-PS	I-PS, I-EV, I-AF, I-OG, I-LC
-4	게이트	O	O	O, I-EV, B-EV, I-PS, I-OG
-5	’	O	O	O, I-EV, B-EV, B-PS, B-LC
-6	에	O	O	O, B-CV, B-PS, I-EV, B-LC
-7	연루	O	O	O, B-CV, B-PS, B-LC, B-OG
-8	##된	O	O	O, B-PS, B-LC, B-CV, B-OG
-9	홍	B-PS	B-PS	B-PS, B-OG, O, I-PS, B-LC
-10	##만	I-PS	I-PS	I-PS, O, I-OG, B-PS, I-LC
-11	##표	I-PS	I-PS	I-PS, O, I-OG, B-PS, I-LC
-12	변호사	B-CV	B-CV	B-CV, I-PS, O, I-CV, B-OG
-13	(	O	O	O, I-CV, I-OG, B-CV, I-QT
-14	57	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-TM
-15	·	O	O	O, I-QT, I-DT, I-OG, I-EV
-16	구속	O	O	O, B-CV, B-TM, B-OG, I-CV
-17	기소	O	O	O, I-CV, B-CV, I-OG, I-TM
-18	)	O	O	O, I-CV, I-OG, B-CV, B-PS
-19	의	O	O	O, B-PS, B-CV, B-LC, B-OG
-20	고교	O	O	O, B-CV, B-OG, B-FD, B-QT
-21	후배	B-CV	B-CV	B-CV, I-CV, O, I-QT, I-EV
-22	##인	O	O	O, I-CV, I-OG, B-PS, I-EV
-23	법조	O	O	O, B-CV, B-FD, B-OG, B-EV
-24	브로커	B-CV	B-CV	B-CV, I-CV, O, I-QT, I-OG
-25	이민	B-PS	B-PS	B-PS, O, I-PS, B-OG, I-CV
-26	##희	I-PS	I-PS	I-PS, I-OG, O, I-QT, B-PS
-27	씨	O	O	O, I-PS, I-OG, I-QT, I-AF
-28	(	O	O	O, B-CV, B-LC, B-OG, B-QT
-29	56	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-TM
-30	·	O	O	O, I-QT, I-DT, I-OG, I-EV
-31	수감	B-CV	O	O, B-CV, B-TM, B-LC, B-MT
-32	중	O	O	O, I-CV, I-OG, I-TM, I-LC
-33	)	O	O	O, B-CV, I-CV, I-OG, B-PS
-34	는	O	O	O, B-CV, B-LC, B-PS, B-OG
-35	올	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-PS
-36	1	I-DT	I-DT	I-DT, O, B-DT, I-PS, I-QT
-37	##월	I-DT	I-DT	I-DT, O, B-DT, I-PS, I-QT
-38	##부터	I-DT	I-DT	I-DT, O, B-DT, I-PS, I-OG
-39	4	B-DT	B-DT	B-DT, I-DT, O, B-LC, B-EV
-40	##개	I-DT	I-DT	I-DT, O, B-DT, I-PS, I-QT
-41	##월	I-DT	I-DT	I-DT, O, B-DT, I-PS, I-OG
-42	동안	I-DT	I-DT	I-DT, O, B-DT, I-PS, I-CV
-43	검찰	B-OG	B-OG	B-OG, B-AF, I-DT, B-LC, B-PS
-44	##의	O	O	O, I-OG, B-CV, I-CV, B-OG
-45	수배	O	O	O, B-CV, B-OG, B-LC, B-PS
-46	##를	O	O	O, I-CV, I-OG, B-PS, B-CV
-47	받	O	O	O, B-LC, B-CV, B-PS, B-OG
-48	##고	O	O	O, B-LC, B-PS, B-CV, B-AF
-49	도주	O	O	O, B-LC, B-CV, B-AF, B-TM
-50	##할	O	O	O, B-PS, I-LC, B-LC, I-AF
-51	때	O	O	O, B-CV, B-LC, B-PS, B-OG
-52	수사	O	O	O, B-OG, B-CV, B-LC, I-OG
-53	##기	O	O	O, I-OG, B-OG, I-CV, B-CV
-54	##관	O	O	O, I-OG, B-OG, I-CV, B-LC
-55	##의	O	O	O, B-LC, B-OG, B-PS, I-OG
-56	추적	O	O	O, B-CV, B-LC, B-TM, B-OG
-57	##을	O	O	O, B-PS, B-CV, I-OG, B-LC
-58	피하	O	O	O, B-LC, B-CV, B-TM, B-PS
-59	##기	O	O	O, B-PS, B-LC, B-CV, B-TM
-60	위해	O	O	O, B-LC, B-PS, B-CV, B-TM
-61	이른바	O	O	O, B-LC, B-CV, B-TM, B-PS
-62	‘	O	O	O, B-CV, B-LC, B-OG, B-PS
-63	대포	B-TM	B-TM	B-TM, O, B-AF, B-CV, I-TM
-64	##폰	I-TM	I-TM	I-TM, O, I-AF, I-CV, B-TM
-65	(	O	O	O, I-TM, I-AF, I-CV, I-OG
-66	차명	O	O	O, B-TM, B-CV, B-LC, B-AF
-67	휴대	B-TM	B-TM	B-TM, I-TM, O, B-CV, B-AF
-68	##전	I-TM	I-TM	I-TM, O, I-CV, B-TM, I-AF
-69	##화	I-TM	I-TM	I-TM, O, I-CV, I-AF, I-QT
-70	)	O	O	O, I-TM, I-CV, I-OG, I-AF
-71	’	O	O	O, B-CV, B-LC, B-OG, B-PS
-72	을	O	O	O, B-CV, B-LC, B-PS, B-OG
-73	사용	O	O	O, B-CV, B-LC, B-TM, B-PS
-74	##한	O	O	O, B-PS, B-LC, B-CV, B-OG
-75	것	O	O	O, B-CV, B-PS, B-LC, B-OG
-76	##으로	O	O	O, B-CV, B-LC, B-PS, B-OG
-77	최근	O	O	O, B-QT, B-LC, B-DT, B-PS
-78	드러났	O	O	O, B-CV, B-LC, B-OG, B-PS
-79	##다	O	O	O, B-CV, B-LC, B-TM, B-PS
-80	.	O	O	O, B-LC, B-PS, B-CV, B-OG
-81	[SEP]	O	O	O, B-LC, B-CV, B-PS, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	이때	O	O
+2	여배우	O	O
+3	##들	O	O
+4	##은	O	O
+5	마치	O	O
+6	격투기	O	B-CV
+7	라운드	O	B-CV
+8	걸	O	I-CV
+9	##이	O	O
+10	##라도	O	O
+11	되	O	O
+12	##는	O	O
+13	양	O	O
+14	라운드	O	O
+15	##를	O	O
+16	바꿔	O	O
+17	##가	O	O
+18	##며	O	O
+19	등장	O	O
+20	##하	O	O
+21	##고	O	O
+22	,	O	O
+23	상대	O	O
+24	##역	O	O
+25	##이	O	O
+26	되	O	O
+27	##는	O	O
+28	남	O	B-CV
+29	##배우	B-CV	I-CV
+30	##들	O	O
+31	##은	O	O
+32	관객	B-CV	B-CV
+33	##과	O	O
+34	함께	O	O
+35	객석	O	O
+36	##에	O	O
+37	앉	O	O
+38	##아	O	O
+39	있	O	O
+40	##다	O	O
+41	등장	O	O
+42	##한다	O	O
+43	.	O	O
+44	[SEP]	O	O

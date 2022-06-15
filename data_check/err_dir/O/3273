@@ -1,32 +1,69 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	김	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
-2	본부	B-CV	B-CV	B-CV, O, I-CV, I-PS, B-TM
-3	##장	I-CV	I-CV	I-CV, O, B-CV, I-PS, I-OG
-4	##은	O	O	O, I-CV, I-EV, I-OG, I-QT
-5	이날	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-6	협의	O	O	O, I-DT, I-EV, B-CV, I-QT
-7	뒤	O	O	O, B-LC, B-PS, B-OG, B-TM
-8	기자	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-AF
-9	##들	O	O	O, I-CV, I-OG, I-EV, I-AF
-10	##을	O	O	O, B-CV, B-LC, B-OG, B-TM
-11	만나	O	O	O, B-LC, B-CV, B-OG, B-EV
-12	,	O	O	O, B-CV, B-OG, B-LC, B-PS
-13	유엔	B-OG	B-OG	B-OG, O, B-CV, B-EV, B-PS
-14	대북	O	O	O, B-CV, I-CV, I-OG, I-EV
-15	##제	O	I-CV	I-CV, O, I-OG, B-CV, I-EV
-16	##재	O	I-CV	I-CV, O, I-OG, B-CV, I-EV
-17	결의	O	I-CV	I-CV, O, I-OG, B-CV, I-EV
-18	##의	O	O	O, I-CV, I-OG, I-EV, B-PS
-19	철저	O	O	O, B-LC, B-OG, B-CV, B-PS
-20	##한	O	O	O, B-LC, B-OG, B-PS, I-LC
-21	이행	O	O	O, B-LC, I-OG, B-CV, I-LC
-22	##을	O	O	O, B-LC, B-OG, B-PS, B-CV
-23	중국	B-OG	B-OG	B-OG, B-LC, O, B-PS, B-CV
-24	쪽	O	O	O, I-OG, I-LC, B-OG, B-CV
-25	##에	O	O	O, B-CV, B-OG, B-LC, I-OG
-26	강조	O	O	O, B-CV, B-LC, B-OG, B-TM
-27	##했	O	O	O, B-LC, B-CV, B-OG, B-PS
-28	##다	O	O	O, B-CV, B-LC, B-OG, I-OG
-29	.	O	O	O, B-LC, B-OG, B-CV, B-PS
-30	[SEP]	O	O	O, B-LC, B-CV, B-OG, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	국외	O	O
+2	##에	O	O
+3	독일	B-LC	B-LC
+4	사민	B-TR	B-TR
+5	##주의	I-TR	I-TR
+6	##를	O	O
+7	소개	O	O
+8	##하	O	O
+9	##고	O	O
+10	후원	O	O
+11	##하	O	O
+12	##는	O	O
+13	구실	O	O
+14	##을	O	O
+15	해온	O	O
+16	프리드리히	B-OG	B-OG
+17	에버	I-OG	I-OG
+18	##트	I-OG	I-OG
+19	재단	I-OG	I-OG
+20	##과	O	O
+21	복지	O	B-OG
+22	##국	O	I-OG
+23	##가	O	O
+24	소사이어티	O	B-OG
+25	,	O	O
+26	한국노총	B-OG	B-OG
+27	,	O	O
+28	민주	B-OG	B-OG
+29	##노총	I-OG	I-OG
+30	,	O	O
+31	글로벌	B-OG	B-OG
+32	##정	I-OG	I-OG
+33	##치	I-OG	I-OG
+34	##경제	I-OG	I-OG
+35	##연구소	I-OG	I-OG
+36	##는	O	O
+37	2	B-DT	B-DT
+38	##일	I-DT	I-DT
+39	‘	O	O
+40	글로벌	B-DT	B-DT
+41	금융	I-DT	I-DT
+42	##위	I-DT	I-DT
+43	##기	I-DT	I-DT
+44	이후	I-DT	I-DT
+45	사회	B-TR	B-TR
+46	##민주	I-TR	I-TR
+47	##주의	I-TR	I-TR
+48	##와	O	O
+49	노동	O	O
+50	##운동	O	O
+51	,	O	O
+52	어디	O	O
+53	##로	O	O
+54	갈까	O	O
+55	?	O	O
+56	’	O	O
+57	라는	O	O
+58	제목	O	O
+59	##의	O	O
+60	토론회	O	O
+61	##를	O	O
+62	공동	O	O
+63	##주	O	O
+64	##최	O	O
+65	##한다	O	O
+66	.	O	O
+67	[SEP]	O	O

@@ -1,38 +1,22 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	특히	O	O	O, B-CV, B-TM, B-OG, B-QT
-2	최근	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-OG
-3	1	I-DT	I-DT	I-DT, B-DT, O, I-QT, I-PS
-4	##년	I-DT	I-DT	I-DT, B-DT, O, I-QT, I-PS
-5	##간	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-6	고소득	O	B-CV	B-CV, O, I-CV, I-DT, B-OG
-7	##층	O	I-CV	I-CV, O, B-CV, I-OG, I-TM
-8	##의	O	O	O, I-CV, B-CV, I-OG, B-PS
-9	조세	O	O	O, B-CV, B-TR, B-EV, B-TM
-10	##부	O	O	O, I-CV, B-CV, B-LC, B-TM
-11	##담	O	O	O, I-CV, I-TM, B-PS, B-LC
-12	##은	O	O	O, B-PS, B-LC, B-CV, B-OG
-13	재정	O	O	O, B-EV, B-LC, B-TR, B-PS
-14	##위	O	O	O, I-EV, B-EV, I-LC, I-TR
-15	##기	O	O	O, I-EV, I-LC, I-OG, I-TR
-16	##로	O	O	O, I-EV, B-PS, I-OG, B-LC
-17	세율	O	O	O, B-CV, B-LC, B-TM, B-OG
-18	##을	O	O	O, B-CV, B-OG, B-LC, B-PS
-19	올린	O	O	O, B-LC, B-OG, B-QT, B-CV
-20	일부	O	O	O, B-LC, B-QT, B-OG, B-TM
-21	유럽	B-LC	B-LC	B-LC, O, B-OG, I-LC, B-AF
-22	국가	O	O	O, I-LC, I-OG, I-AF, B-LC
-23	##를	O	O	O, I-OG, B-LC, I-LC, B-CV
-24	제외	O	O	O, B-CV, B-LC, B-TM, B-OG
-25	##하면	O	O	O, B-LC, B-PS, B-OG, B-CV
-26	사실상	O	O	O, B-CV, B-QT, B-LC, B-OG
-27	가장	O	O	O, B-CV, B-QT, B-LC, B-TM
-28	많이	O	O	O, B-CV, B-OG, B-QT, B-TM
-29	늘어난	O	O	O, B-CV, B-OG, B-QT, B-TM
-30	것	O	O	O, B-CV, B-OG, B-PS, B-QT
-31	##으로	O	O	O, B-CV, I-OG, B-QT, B-TM
-32	분석	O	O	O, B-CV, B-TM, B-OG, B-QT
-33	##됐	O	O	O, B-CV, I-OG, B-LC, B-OG
-34	##다	O	O	O, B-CV, B-QT, B-TM, B-LC
-35	.	O	O	O, B-LC, B-CV, B-OG, B-PS
-36	[SEP]	O	O	O, B-CV, B-LC, B-OG, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	뭐	O	O
+2	압수수색	O	B-CV
+3	##할	O	O
+4	수	O	O
+5	있	O	O
+6	##는	O	O
+7	권한	O	O
+8	같	O	O
+9	##은	O	O
+10	게	O	O
+11	있	O	O
+12	##으면	O	O
+13	##은	O	O
+14	더	O	O
+15	많이	O	O
+16	밝힐	O	O
+17	수	O	O
+18	있	O	O
+19	##지만	O	O
+20	[SEP]	O	O

@@ -1,40 +1,41 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	2	B-QT	B-QT	B-QT, B-EV, O, B-TM, B-AF
-2	##부	I-QT	I-QT	I-QT, I-EV, O, I-TM, I-AF
-3	‘	O	O	O, I-QT, I-EV, I-DT, B-LC
-4	제주	B-LC	B-LC	B-LC, O, B-AF, B-EV, B-CV
-5	##를	O	O	O, I-AF, I-LC, I-EV, I-OG
-6	…	O	O	O, I-AF, I-LC, I-OG, I-EV
-7	’	O	O	O, I-AF, I-EV, I-OG, I-LC
-8	은	O	O	O, B-CV, B-PS, B-LC, B-OG
-9	두	B-QT	B-QT	B-QT, O, I-QT, B-EV, B-DT
-10	사람	I-QT	I-QT	I-QT, O, I-EV, I-LC, I-DT
-11	##의	O	O	O, I-QT, B-PS, I-EV, I-AF
-12	아들	B-CV	B-CV	B-CV, O, B-PS, I-CV, B-AM
-13	오	B-PS	B-PS	B-PS, O, I-PS, B-LC, B-CV
-14	##레스테	I-PS	I-PS	I-PS, O, I-LC, I-CV, I-OG
-15	##스	I-PS	I-PS	I-PS, O, I-LC, I-CV, I-AF
-16	##가	O	O	O, I-PS, B-PS, B-LC, I-LC
-17	아비	B-CV	B-CV	B-CV, O, B-PS, B-AF, I-CV
-18	##의	O	O	O, I-CV, B-PS, B-CV, I-AF
-19	복수	O	O	O, B-CV, B-PS, B-LC, B-TM
-20	##를	O	O	O, B-PS, B-CV, I-CV, I-AF
-21	위해	O	O	O, B-PS, B-CV, B-LC, B-QT
-22	어미	B-CV	B-CV	B-CV, O, B-PS, I-CV, B-AF
-23	##와	O	O	O, I-CV, B-PS, B-CV, I-AF
-24	그	O	O	O, B-CV, B-PS, B-LC, B-OG
-25	##의	O	O	O, B-PS, B-CV, B-LC, B-OG
-26	정부	B-CV	B-OG	B-OG, O, B-CV, B-AF, B-LC
-27	아이	B-PS	B-PS	B-PS, B-CV, O, B-LC, I-PS
-28	##기	I-PS	I-PS	I-PS, O, I-CV, I-LC, I-OG
-29	##스토	I-PS	I-PS	I-PS, O, I-CV, I-LC, I-OG
-30	##스	I-PS	I-PS	I-PS, O, I-CV, I-LC, I-AF
-31	##를	O	O	O, I-PS, I-CV, B-CV, I-QT
-32	처단	O	O	O, B-CV, B-TM, B-LC, B-QT
-33	##하	O	O	O, B-CV, B-PS, B-LC, B-QT
-34	##는	O	O	O, B-CV, B-LC, B-PS, B-QT
-35	내용	O	O	O, B-FD, B-CV, B-LC, B-OG
-36	##이다	O	O	O, B-CV, I-OG, I-CV, I-QT
-37	.	O	O	O, B-PS, B-LC, B-CV, B-OG
-38	[SEP]	O	O	O, B-CV, B-PS, B-LC, B-FD
+	text	label	preds
+0	[CLS]	O	O
+1	잉글랜드	B-OG	B-OG
+2	대표	B-CV	B-CV
+3	출신	O	O
+4	축구	B-CV	B-CV
+5	##전	B-CV	I-CV
+6	##문	I-CV	I-CV
+7	##가	I-CV	I-CV
+8	크리스	B-PS	B-PS
+9	와	I-PS	I-PS
+10	##들	I-PS	I-PS
+11	##은	O	O
+12	“	O	O
+13	이번	O	O
+14	월드컵	B-EV	B-EV
+15	##에	O	O
+16	##서	O	O
+17	독일	B-LC	B-LC
+18	##의	O	O
+19	젊	O	O
+20	##은	O	O
+21	선수	B-CV	B-CV
+22	##들	O	O
+23	##은	O	O
+24	전	O	O
+25	세계	O	O
+26	축구	B-CV	B-CV
+27	##팬	B-CV	B-CV
+28	##을	O	O
+29	깜짝	O	O
+30	놀라	O	O
+31	##게	O	O
+32	하	O	O
+33	##는	O	O
+34	활약	O	O
+35	##을	O	O
+36	펼쳤	O	O
+37	##다	O	O
+38	.	O	O
+39	[SEP]	O	O

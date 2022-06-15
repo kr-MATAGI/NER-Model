@@ -1,17 +1,30 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, I-EV, B-CV
-1	한국	B-LC	B-LC	B-LC, B-OG, O, I-LC, B-PS
-2	##에서	O	O	O, I-LC, B-LC, I-OG, B-CV
-3	치맥	O	B-CV	B-CV, O, B-AF, B-OG, B-EV
-4	##이	O	O	O, I-CV, I-AF, B-PS, I-OG
-5	인기	O	O	O, B-CV, B-LC, B-PS, B-OG
-6	##라	O	O	O, B-PS, B-OG, B-CV, B-LC
-7	##죠	O	O	O, I-OG, B-LC, I-AF, B-PS
-8	?	O	O	O, B-PS, B-LC, I-OG, B-CV
-9	""""	O	O	O, B-CV, B-LC, B-PS, B-OG
-10	(	O	O	O, B-CV, B-OG, B-LC, B-PS
-11	아인	B-PS	B-OG	B-OG, B-CV, B-PS, O, B-AF
-12	##리	I-PS	I-OG	I-OG, I-CV, O, I-PS, I-AF
-13	##슈	I-PS	I-OG	I-OG, I-CV, O, I-PS, I-AF
-14	)	O	O	O, I-OG, I-CV, I-AF, I-QT
-15	[SEP]	O	O	O, B-LC, B-CV, I-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	그래서	O	O
+2	2011	B-DT	B-DT
+3	##년	I-DT	I-DT
+4	6	I-DT	I-DT
+5	##월	I-DT	I-DT
+6	##부터	I-DT	I-DT
+7	매달	O	O
+8	두	B-QT	B-QT
+9	차례	I-QT	I-QT
+10	모여	O	O
+11	베리	B-PS	B-PS
+12	##만	I-PS	I-PS
+13	작품	O	O
+14	##을	O	O
+15	연구	O	O
+16	##하	O	O
+17	##는	O	O
+18	‘	O	O
+19	베리	B-PS	B-EV
+20	##만	I-PS	I-EV
+21	포럼	O	I-EV
+22	’	O	O
+23	은	O	O
+24	특별	O	O
+25	##하	O	O
+26	##다	O	O
+27	.	O	O
+28	[SEP]	O	O

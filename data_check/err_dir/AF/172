@@ -1,11 +1,20 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	그	O	O	O, B-CV, B-OG, B-TM, B-LC
-2	이후	O	O	O, B-CV, I-CV, I-AF, B-TM
-3	##에	O	O	O, B-CV, B-OG, B-PS, B-TM
-4	동이	B-AF	O	O, B-LC, B-PS, B-AF, B-PT
-5	뿌리	B-AF	O	O, B-PT, I-PT, B-AM, I-LC
-6	깊	I-AF	O	O, I-PT, I-LC, I-AF, I-PS
-7	##은	I-AF	O	O, I-PT, B-PT, I-LC, I-AF
-8	나무	I-AF	O	O, I-PT, B-PT, I-LC, I-AM
-9	[SEP]	O	O	O, I-AF, B-CV, I-PT, I-LC
+	text	label	preds
+0	[CLS]	O	O
+1	""""	O	O
+2	창	B-AF	B-OG
+3	##경원	I-AF	I-OG
+4	사자	B-AM	B-AM
+5	##와	O	O
+6	내	O	O
+7	처지	O	O
+8	다를	O	O
+9	게	O	O
+10	없	O	O
+11	##다	O	O
+12	##며	O	O
+13	토로	O	O
+14	##하	O	O
+15	##셨	O	O
+16	##죠	O	O
+17	""""	O	O
+18	[SEP]	O	O

@@ -1,59 +1,27 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	70	B-DT	B-DT	B-DT, I-DT, O, B-QT, B-LC
-2	~	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-3	80	I-DT	I-DT	I-DT, B-DT, O, I-QT, I-PS
-4	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-5	전	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-CV
-6	평양	B-LC	B-LC	B-LC, O, B-OG, I-LC, B-AF
-7	##과	O	O	O, I-LC, B-LC, I-AF, I-DT
-8	평안	B-LC	B-LC	B-LC, O, B-OG, B-AF, I-LC
-9	##도	I-LC	I-LC	I-LC, O, B-LC, I-OG, I-AF
-10	일대	O	O	O, I-LC, B-LC, I-OG, I-AF
-11	##의	O	O	O, B-LC, B-AF, B-CV, B-PS
-12	성당	O	O	O, B-AF, B-CV, B-OG, I-AF
-13	부근	O	O	O, B-TM, B-CV, B-LC, I-AF
-14	##에서	O	O	O, B-CV, B-PS, B-LC, B-OG
-15	찍힌	O	O	O, B-CV, B-LC, B-PS, B-OG
-16	그	O	O	O, B-CV, B-LC, B-OG, B-PS
-17	##들	O	O	O, B-CV, B-LC, B-PS, I-AF
-18	##의	O	O	O, B-CV, B-LC, B-PS, B-AF
-19	사진	O	O	O, B-CV, B-LC, B-FD, B-TM
-20	##은	O	O	O, B-LC, B-CV, B-PS, B-OG
-21	시인	B-CV	B-CV	B-CV, O, I-CV, B-FD, B-PS
-22	백석	B-PS	B-PS	B-PS, O, I-PS, B-OG, B-LC
-23	(	O	O	O, I-PS, B-CV, I-OG, I-CV
-24	1912	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-LC
-25	~	I-DT	I-DT	I-DT, O, I-QT, B-DT, I-PS
-26	1996	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-27	)	O	O	O, I-DT, B-CV, B-LC, I-QT
-28	이	O	O	O, B-PS, B-LC, B-CV, B-OG
-29	평안	B-LC	B-LC	B-LC, O, B-OG, B-AF, I-LC
-30	##도	I-LC	I-LC	I-LC, O, B-LC, I-OG, I-AF
-31	사람	O	O	O, I-LC, B-CV, I-AF, I-CV
-32	##과	O	O	O, I-LC, I-AF, B-LC, I-CV
-33	풍속	O	O	O, B-CV, B-LC, B-FD, I-AF
-34	##들	O	O	O, B-LC, B-CV, I-AF, I-CV
-35	##에	O	O	O, B-CV, B-LC, B-PS, B-DT
-36	대해	O	O	O, B-LC, B-CV, B-DT, B-PS
-37	썼	O	O	O, B-CV, B-LC, B-FD, B-AF
-38	##던	O	O	O, B-LC, B-CV, B-FD, B-AF
-39	‘	O	O	O, B-CV, B-LC, B-DT, B-OG
-40	여우	B-AF	O	O, B-AF, B-AM, B-CV, B-LC
-41	##난	I-AF	O	O, I-AF, I-AM, I-CV, I-LC
-42	##골	I-AF	O	O, I-AF, I-AM, I-CV, I-LC
-43	##족	I-AF	O	O, I-AF, I-CV, I-AM, I-LC
-44	’	O	O	O, I-AF, I-CV, I-LC, I-TM
-45	같	O	O	O, I-AF, B-LC, B-CV, I-CV
-46	##은	O	O	O, B-LC, B-CV, B-PS, B-OG
-47	여러	O	O	O, B-LC, B-CV, B-AF, B-PS
-48	향토	O	B-FD	B-FD, O, B-CV, B-AF, I-FD
-49	##시	O	I-FD	I-FD, O, B-FD, I-AF, I-OG
-50	##들	O	O	O, I-FD, I-AF, I-OG, I-CV
-51	##의	O	O	O, B-CV, B-LC, B-PS, B-OG
-52	정경	O	O	O, B-CV, B-FD, B-LC, B-AF
-53	그	O	O	O, B-PS, B-CV, B-LC, B-OG
-54	자체	O	O	O, B-QT, B-DT, B-PS, B-LC
-55	##다	O	O	O, B-CV, I-QT, B-LC, B-OG
-56	.	O	O	O, B-LC, B-CV, B-AF, B-PS
-57	[SEP]	O	O	O, B-LC, B-CV, B-FD, B-AF
+	text	label	preds
+0	[CLS]	O	O
+1	잘	O	O
+2	드	O	O
+3	##는	O	O
+4	명품	O	O
+5	가위	O	O
+6	##는	O	O
+7	007	B-AF	B-AF
+8	##에	O	O
+9	나오	O	O
+10	##는	O	O
+11	명	O	O
+12	##차	O	O
+13	'	O	O
+14	애	B-AF	B-PS
+15	##스턴	I-AF	I-PS
+16	마틴	I-AF	I-PS
+17	'	O	O
+18	같	O	O
+19	##다는	O	O
+20	이야기	O	O
+21	##가	O	O
+22	인상	O	O
+23	##적	O	O
+24	.	O	O
+25	[SEP]	O	O

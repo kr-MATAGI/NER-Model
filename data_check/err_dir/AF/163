@@ -1,80 +1,45 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-EV, B-CV, I-CV, I-OG
-1	폐막식	O	O	O, B-EV, B-LC, B-CV, I-EV
-2	##에	O	O	O, I-EV, I-OG, I-DT, B-CV
-3	##선	O	O	O, B-LC, B-CV, B-OG, B-EV
-4	뉴	O	O	O, B-CV, B-FD, B-TR, B-TM
-5	##커	O	O	O, I-CV, I-FD, I-TR, I-TM
-6	##런	O	O	O, I-CV, I-FD, I-TM, I-TR
-7	##츠	O	O	O, I-CV, I-FD, I-TM, I-TR
-8	부문	O	O	O, I-CV, I-TM, I-EV, I-FD
-9	##에	O	O	O, I-EV, I-CV, I-QT, I-OG
-10	상영	O	O	O, B-LC, B-OG, B-CV, B-TM
-11	##된	O	O	O, B-LC, B-OG, B-PS, B-CV
-12	아시아	B-LC	B-LC	B-LC, O, B-OG, B-CV, B-FD
-13	신인	B-CV	B-CV	B-CV, I-CV, O, I-LC, B-FD
-14	감독	B-CV	I-CV	I-CV, B-CV, O, I-EV, I-QT
-15	##의	O	O	O, I-CV, I-OG, I-QT, I-EV
-16	장편	O	B-FD	B-FD, O, B-TM, B-TR, B-CV
-17	영화	O	I-FD	I-FD, O, B-FD, I-OG, I-TR
-18	중	O	O	O, B-TM, I-FD, B-LC, B-QT
-19	두	B-QT	B-QT	B-QT, O, I-QT, B-LC, B-TM
-20	편	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-TM
-21	##을	O	O	O, I-QT, B-CV, I-EV, B-LC
-22	선정	O	O	O, B-CV, B-LC, B-OG, B-TM
-23	##해	O	O	O, B-LC, B-PS, B-CV, I-QT
-24	'	O	O	O, B-CV, B-LC, B-DT, B-OG
-25	뉴	B-AF	B-CV	B-CV, O, I-CV, B-TM, B-EV
-26	##커	I-AF	I-CV	I-CV, O, B-CV, I-TM, I-EV
-27	##런	I-AF	I-CV	I-CV, O, I-TM, B-CV, I-EV
-28	##츠	I-AF	I-CV	I-CV, O, I-TM, B-CV, I-EV
-29	##상	I-AF	I-CV	I-CV, O, I-TM, I-EV, I-OG
-30	'	O	O	O, I-CV, I-EV, I-QT, I-OG
-31	(	O	O	O, B-CV, B-LC, B-OG, I-CV
-32	상금	O	O	O, B-CV, B-TM, B-QT, I-CV
-33	3	B-QT	B-QT	B-QT, I-QT, I-CV, O, B-CV
-34	##만	I-QT	I-QT	I-QT, O, I-CV, I-LC, I-TM
-35	##달	I-QT	I-QT	I-QT, O, I-LC, I-CV, I-TM
-36	##러	I-QT	I-QT	I-QT, O, I-LC, I-CV, I-TM
-37	)	O	O	O, I-QT, I-CV, B-CV, I-EV
-38	을	O	O	O, B-CV, B-LC, B-OG, B-PS
-39	,	O	O	O, B-CV, B-LC, B-OG, B-PS
-40	'	O	O	O, B-CV, B-LC, B-EV, B-DT
-41	플래시	B-TR	B-AF	B-AF, B-CV, B-EV, B-TM, O
-42	포워드	I-TR	I-AF	I-AF, I-CV, I-TM, I-EV, O
-43	'	O	O	O, I-EV, I-CV, I-AF, I-TM
-44	부문	O	O	O, I-EV, B-CV, B-TM, B-LC
-45	##에	O	O	O, B-CV, B-LC, B-OG, B-PS
-46	상영	O	O	O, B-LC, B-CV, B-OG, B-TM
-47	##된	O	O	O, B-LC, B-PS, B-OG, B-CV
-48	비아	O	B-CV	B-CV, O, B-LC, B-PS, B-TM
-49	##시아	O	I-CV	I-CV, O, B-CV, I-PS, I-TM
-50	##권	O	O	O, I-CV, I-PS, I-TM, I-LC
-51	신인	B-CV	B-CV	B-CV, O, I-CV, B-FD, B-QT
-52	감독	B-CV	I-CV	I-CV, B-CV, O, I-QT, I-EV
-53	##의	O	O	O, I-CV, I-OG, I-QT, I-EV
-54	장편	O	B-FD	B-FD, O, B-TR, B-CV, B-TM
-55	영화	O	I-FD	I-FD, O, B-FD, I-OG, I-TR
-56	한	B-QT	B-QT	B-QT, O, I-QT, I-FD, B-TM
-57	편	I-QT	I-QT	I-QT, O, I-LC, I-TM, I-AF
-58	##을	O	O	O, I-QT, B-CV, I-EV, I-AF
-59	선정	O	O	O, B-CV, B-LC, B-OG, B-TM
-60	##해	O	O	O, B-LC, B-PS, B-CV, I-QT
-61	'	O	O	O, B-CV, B-LC, B-DT, B-OG
-62	플래시	B-CV	B-CV	B-CV, I-CV, O, B-TM, B-EV
-63	포워드	I-CV	I-CV	I-CV, O, B-CV, I-TM, I-EV
-64	##상	I-CV	I-CV	I-CV, O, I-TM, I-EV, B-CV
-65	'	O	O	O, I-CV, I-EV, I-QT, I-OG
-66	(	O	O	O, B-CV, B-LC, B-OG, I-CV
-67	상금	O	O	O, B-CV, B-TM, B-QT, B-LC
-68	3	B-QT	B-QT	B-QT, I-QT, O, I-CV, B-CV
-69	##만	I-QT	I-QT	I-QT, O, I-LC, I-CV, I-PS
-70	##달	I-QT	I-QT	I-QT, O, I-LC, I-PS, I-CV
-71	##러	I-QT	I-QT	I-QT, O, I-LC, I-PS, I-CV
-72	)	O	O	O, I-QT, B-CV, I-CV, B-LC
-73	을	O	O	O, B-CV, B-LC, B-OG, B-PS
-74	각각	O	O	O, B-CV, B-LC, B-OG, B-DT
-75	수여	O	O	O, B-CV, B-LC, B-OG, B-PS
-76	##한다	O	O	O, B-CV, B-LC, B-PS, B-OG
-77	.	O	O	O, B-LC, B-CV, I-EV, B-OG
-78	[SEP]	O	O	O, B-LC, B-CV, I-EV, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	‘	O	O
+2	정의	B-AF	B-AF
+3	##란	I-AF	I-AF
+4	무엇	I-AF	I-AF
+5	##인	I-AF	I-AF
+6	##가	I-AF	O
+7	’	O	O
+8	열풍	O	O
+9	##을	O	O
+10	불러온	O	O
+11	마이클	B-PS	B-PS
+12	샌	I-PS	I-PS
+13	##델	I-PS	I-PS
+14	하버드대	B-OG	B-OG
+15	교수	B-CV	B-CV
+16	##가	O	O
+17	정의	O	O
+18	##와	O	O
+19	윤리	O	O
+20	##문제	O	O
+21	##를	O	O
+22	제기	O	O
+23	##할	O	O
+24	때	O	O
+25	자주	O	O
+26	드	O	O
+27	##는	O	O
+28	사례	O	O
+29	##가	O	O
+30	실제	O	O
+31	‘	O	O
+32	대리	B-CV	B-CV
+33	##모	I-CV	I-CV
+34	(	O	O
+35	代	O	O
+36	理	O	O
+37	母	O	O
+38	)	O	O
+39	’	O	O
+40	사연	O	O
+41	##이다	O	O
+42	.	O	O
+43	[SEP]	O	O

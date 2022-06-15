@@ -1,8 +1,15 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, I-OG, B-CV, I-AF
-1	불고기	B-CV	B-CV	B-CV, O, B-TM, B-AF, B-OG
-2	양념	B-CV	I-CV	I-CV, B-CV, O, I-OG, I-AF
-3	불고기	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-FD
-4	양념	B-CV	I-CV	I-CV, B-CV, O, I-OG, I-TM
-5	이거	O	O	O, I-CV, B-CV, I-AF, I-QT
-6	[SEP]	O	O	O, B-CV, I-CV, B-TM, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	다문화	B-CV	O
+2	##가족	I-CV	B-CV
+3	##은	O	O
+4	도시	O	O
+5	##보	O	O
+6	##다	O	O
+7	농촌	O	O
+8	##에	O	O
+9	많이	O	O
+10	거주	O	O
+11	##한다	O	O
+12	.	O	O
+13	[SEP]	O	O

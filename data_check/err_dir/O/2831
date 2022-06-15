@@ -1,14 +1,12 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, B-CV, I-OG, I-EV
-1	아니	O	O	O, B-CV, B-PS, B-LC, B-OG
-2	##죠	O	O	O, I-CV, I-OG, B-CV, I-AF
-3	.	O	O	O, I-AF, B-PS, B-CV, I-OG
-4	경찰청	O	B-CV	B-CV, O, B-OG, B-AF, I-CV
-5	##장	O	I-CV	I-CV, O, B-CV, I-OG, I-EV
-6	##은	O	O	O, I-CV, I-OG, I-AF, I-EV
-7	정당	O	O	O, B-CV, B-PS, B-FD, B-OG
-8	##한	O	O	O, I-CV, B-PS, I-PS, I-OG
-9	정책	O	O	O, B-CV, B-FD, B-PS, B-QT
-10	그죠	O	O	O, B-CV, I-CV, B-OG, I-QT
-11	?	O	O	O, I-CV, B-CV, I-AF, I-OG
-12	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	대법	O	B-OG
+2	“	O	O
+3	대형	O	O
+4	##마트	O	O
+5	의무	O	O
+6	##휴	O	O
+7	##업	O	O
+8	정당	O	O
+9	”	O	O
+10	[SEP]	O	O

@@ -1,9 +1,69 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-AF, I-CV
-1	우린	O	O	O, B-AF, B-CV, B-OG, B-LC
-2	공항	B-AF	O	O, B-AF, B-LC, B-OG, B-TM
-3	철도	I-AF	O	O, B-AF, I-AF, I-OG, B-CV
-4	##를	O	O	O, I-AF, I-OG, I-CV, B-CV
-5	안	O	O	O, B-CV, B-TM, B-LC, I-AF
-6	타고	O	O	O, B-CV, I-AF, B-OG, B-AF
-7	[SEP]	O	O	O, B-CV, B-AF, B-LC, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	특히	O	O
+2	초기	O	O
+3	##에	O	O
+4	등장	O	O
+5	##했	O	O
+6	##던	O	O
+7	Wi	B-AF	B-OG
+8	##i	I-AF	I-OG
+9	##의	O	O
+10	골프	B-CV	B-TM
+11	게임	O	I-TM
+12	##들이	O	O
+13	단순히	O	O
+14	휘두르	O	O
+15	##는	O	O
+16	속도	O	O
+17	##만	O	O
+18	반영	O	O
+19	##했	O	O
+20	##던	O	O
+21	것	O	O
+22	##과	O	O
+23	달리	O	O
+24	이	O	O
+25	게임	O	O
+26	##은	O	O
+27	Wi	B-AF	B-OG
+28	##i	I-AF	I-OG
+29	컨트롤러	O	O
+30	##에	O	O
+31	'	O	O
+32	모션	O	B-TM
+33	플러스	O	I-TM
+34	(	O	O
+35	m	O	O
+36	##ot	O	O
+37	##ion	O	O
+38	pl	O	O
+39	##us	O	O
+40	)	O	O
+41	'	O	O
+42	라는	O	O
+43	새로운	O	O
+44	주변	O	O
+45	##기	O	O
+46	##기	O	O
+47	##를	O	O
+48	추가	O	O
+49	장착	O	O
+50	,	O	O
+51	각도	O	O
+52	조정	O	O
+53	##과	O	O
+54	구	O	O
+55	##질	O	O
+56	선택	O	O
+57	##처럼	O	O
+58	세밀	O	O
+59	##한	O	O
+60	동작	O	O
+61	##도	O	O
+62	할	O	O
+63	수	O	O
+64	있	O	O
+65	##다	O	O
+66	.	O	O
+67	[SEP]	O	O

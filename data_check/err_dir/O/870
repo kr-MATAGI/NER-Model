@@ -1,33 +1,57 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	생활	O	O	O, B-FD, B-CV, B-AF, B-PS
-2	##영	B-CV	B-CV	B-CV, I-CV, O, B-FD, I-FD
-3	##어	I-CV	I-CV	I-CV, O, I-FD, B-CV, I-OG
-4	교육	O	O	O, I-CV, I-AF, B-CV, B-PS
-5	##의	O	O	O, B-PS, I-CV, I-AF, B-CV
-6	대명사	O	O	O, B-CV, B-PS, B-QT, B-AF
-7	##인	O	O	O, B-PS, I-CV, B-CV, I-AF
-8	민	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-9	교수	B-CV	B-CV	B-CV, O, I-PS, I-CV, B-OG
-10	##가	O	O	O, I-CV, B-CV, I-OG, I-AF
-11	15	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-12	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-13	'	O	O	O, I-DT, B-CV, B-LC, B-OG
-14	결국	O	B-AF	B-AF, O, B-PS, I-AF, B-CV
-15	,	O	I-AF	I-AF, O, I-PS, B-AF, I-OG
-16	좋	O	I-AF	I-AF, O, B-AF, B-PS, B-CV
-17	##은	O	I-AF	I-AF, O, I-PS, B-AF, I-CV
-18	사람	O	I-AF	I-AF, O, B-AF, I-PS, I-CV
-19	##이	O	I-AF	I-AF, O, B-AF, I-PS, I-OG
-20	성공	O	I-AF	I-AF, O, B-AF, I-PS, B-CV
-21	##한다	O	I-AF	I-AF, O, I-PS, B-AF, I-CV
-22	'	O	O	O, I-AF, B-CV, I-CV, I-OG
-23	라는	O	O	O, B-TM, B-CV, I-AF, B-LC
-24	제목	O	O	O, B-TM, B-CV, B-QT, B-AF
-25	##의	O	O	O, I-AF, B-PS, I-CV, I-QT
-26	책	O	O	O, B-CV, B-TM, B-AF, B-LC
-27	##을	O	O	O, B-CV, B-OG, B-TM, B-LC
-28	냈	O	O	O, B-CV, B-OG, B-LC, B-TM
-29	##다	O	O	O, B-CV, B-LC, I-OG, B-OG
-30	.	O	O	O, B-PS, B-CV, B-AF, B-LC
-31	[SEP]	O	O	O, B-CV, B-PS, I-AF, B-AF
+	text	label	preds
+0	[CLS]	O	O
+1	지난	B-DT	B-DT
+2	5	I-DT	I-DT
+3	##일	I-DT	I-DT
+4	공개	O	O
+5	##된	O	O
+6	3	B-DT	B-DT
+7	##월	I-DT	I-DT
+8	연방	B-OG	B-OG
+9	##공	I-OG	I-OG
+10	##개	I-OG	I-OG
+11	##시장	I-OG	I-OG
+12	##위원회	I-OG	I-OG
+13	(	O	O
+14	FOMC	B-OG	B-OG
+15	)	O	O
+16	의사	O	O
+17	##록	O	O
+18	##에	O	O
+19	##서	O	O
+20	미	B-LC	B-LC
+21	연방	B-OG	B-OG
+22	##준	I-OG	I-OG
+23	##비	I-OG	I-OG
+24	##제	I-OG	I-OG
+25	##도	I-OG	I-OG
+26	위원	B-CV	B-CV
+27	##들이	O	O
+28	그동안	O	O
+29	사들인	O	O
+30	자산	O	O
+31	##의	O	O
+32	재	O	O
+33	##투자	O	O
+34	중단	O	O
+35	필요	O	O
+36	##성	O	O
+37	##을	O	O
+38	주장	O	O
+39	##한	O	O
+40	것	O	O
+41	##도	O	O
+42	원화	O	B-CV
+43	약세	O	O
+44	요인	O	O
+45	##으로	O	O
+46	작용	O	O
+47	##할	O	O
+48	것	O	O
+49	##이	O	O
+50	##란	O	O
+51	분석	O	O
+52	##이	O	O
+53	나온다	O	O
+54	.	O	O
+55	[SEP]	O	O

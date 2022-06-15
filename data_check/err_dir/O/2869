@@ -1,39 +1,36 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	어쩌면	O	O	O, B-CV, B-LC, B-PS, B-TM
-2	우리	O	O	O, B-CV, B-OG, B-PS, B-LC
-3	##는	O	O	O, B-PS, B-CV, B-LC, B-OG
-4	우리	O	O	O, B-CV, B-AF, B-OG, B-LC
-5	앞	O	B-TM	B-TM, O, B-TR, B-CV, B-AM
-6	##에	O	O	O, I-TM, I-AF, I-CV, B-CV
-7	놓인	O	O	O, B-CV, B-LC, B-OG, B-TM
-8	커다란	O	O	O, B-CV, B-LC, B-PS, B-TM
-9	‘	O	O	O, B-CV, B-LC, B-PS, B-OG
-10	적대	O	O	O, B-CV, B-LC, B-AF, B-PS
-11	##의	O	O	O, B-PS, I-AF, I-LC, I-OG
-12	벽	O	O	O, B-LC, B-CV, B-PS, B-TM
-13	’	O	O	O, B-CV, B-PS, I-AF, I-EV
-14	을	O	O	O, B-CV, B-PS, B-LC, B-OG
-15	넘	O	O	O, B-CV, B-LC, B-PS, B-QT
-16	##을	O	O	O, B-CV, B-PS, B-LC, I-EV
-17	수	O	O	O, B-PS, B-LC, B-CV, B-QT
-18	있	O	O	O, B-PS, B-LC, B-CV, I-EV
-19	##을	O	O	O, B-PS, B-LC, B-CV, I-EV
-20	때	O	O	O, B-PS, I-EV, I-QT, B-CV
-21	##에	O	O	O, B-PS, B-LC, I-QT, I-EV
-22	##만	O	O	O, B-PS, B-LC, I-QT, B-QT
-23	그	O	O	O, B-LC, B-CV, B-PS, B-OG
-24	실체	O	O	O, B-CV, B-LC, B-PS, B-TM
-25	##적	O	O	O, B-PS, B-LC, B-TM, I-QT
-26	진실	O	O	O, B-CV, B-PS, B-TM, B-FD
-27	##에	O	O	O, B-CV, I-CV, I-AF, B-PS
-28	도달	O	O	O, B-LC, B-TM, B-QT, B-CV
-29	##할	O	O	O, B-PS, B-LC, I-QT, I-LC
-30	수	O	O	O, B-PS, B-LC, B-QT, I-QT
-31	있	O	O	O, B-LC, B-QT, I-QT, B-PS
-32	##을	O	O	O, B-LC, B-CV, B-PS, I-LC
-33	##지	O	O	O, B-PS, B-LC, I-LC, B-CV
-34	모르	O	O	O, B-CV, B-LC, B-TM, B-PS
-35	##겠다	O	O	O, B-CV, I-CV, I-OG, I-EV
-36	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-37	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	우루과이	B-EV	B-EV
+2	##전	I-EV	I-EV
+3	##에	O	O
+4	##서	O	O
+5	허정	B-PS	B-PS
+6	##무	I-PS	I-PS
+7	감독	B-CV	B-CV
+8	##과	O	O
+9	태극	O	B-CV
+10	##전	O	I-CV
+11	##사	O	I-CV
+12	##들이	O	O
+13	흘린	O	O
+14	아쉬움	O	O
+15	##과	O	O
+16	안타까움	O	O
+17	##의	O	O
+18	눈물	O	O
+19	##이	O	O
+20	4	B-DT	B-DT
+21	##년	I-DT	I-DT
+22	뒤	I-DT	I-DT
+23	##엔	O	O
+24	기쁨	O	O
+25	##과	O	O
+26	환희	O	O
+27	##의	O	O
+28	눈물	O	O
+29	##로	O	O
+30	이어지	O	O
+31	##길	O	O
+32	바란다	O	O
+33	.	O	O
+34	[SEP]	O	O

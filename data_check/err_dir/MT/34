@@ -1,33 +1,48 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	건강	O	O	O, B-CV, B-TM, B-LC, B-PS
-2	##을	O	O	O, I-CV, I-AF, B-PS, I-TM
-3	위해	O	O	O, B-CV, B-TM, B-PS, B-LC
-4	비타민	B-MT	B-MT	B-MT, O, B-CV, B-TM, I-MT
-5	##A	I-MT	I-MT	I-MT, O, I-TM, I-PT, B-MT
-6	·	I-MT	O	O, I-MT, I-CV, I-TM, I-AF
-7	C	I-MT	I-MT	I-MT, O, B-MT, I-TM, I-CV
-8	·	I-MT	O	O, I-MT, I-CV, I-TM, I-QT
-9	E	I-MT	I-MT	I-MT, O, B-MT, I-TM, I-CV
-10	,	O	O	O, B-CV, I-CV, I-TM, B-LC
-11	코	B-MT	B-MT	B-MT, O, I-MT, B-CV, B-PT
-12	##엔	I-MT	I-MT	I-MT, O, I-PT, B-MT, I-TM
-13	##자	I-MT	I-MT	I-MT, O, I-TM, I-PT, B-MT
-14	##임	I-MT	I-MT	I-MT, O, I-TM, I-PT, B-MT
-15	##Q	I-MT	I-MT	I-MT, O, I-TM, I-PT, B-MT
-16	##10	I-MT	I-MT	I-MT, O, I-TM, I-PT, B-MT
-17	같	O	O	O, I-MT, I-TM, I-CV, B-CV
-18	##은	O	O	O, B-CV, B-LC, B-TM, B-OG
-19	항산	O	O	O, B-TM, B-MT, B-TR, B-CV
-20	##화	O	O	O, I-TM, I-TR, I-MT, I-CV
-21	물질	O	O	O, I-TM, I-CV, I-MT, I-TR
-22	##을	O	O	O, I-TM, I-CV, B-CV, I-AF
-23	챙겨	O	O	O, B-CV, B-LC, B-TM, I-CV
-24	먹	O	O	O, B-CV, B-TM, B-LC, I-CV
-25	##는	O	O	O, B-CV, I-CV, B-PS, B-LC
-26	사람	O	O	O, B-CV, I-CV, B-TM, B-AM
-27	##이	O	O	O, B-PS, B-CV, I-CV, B-LC
-28	많	O	O	O, B-CV, B-TM, I-CV, B-PS
-29	##다	O	O	O, B-CV, I-CV, B-TM, I-OG
-30	.	O	O	O, B-CV, B-LC, I-CV, B-PS
-31	[SEP]	O	O	O, B-CV, B-TM, I-CV, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	그러나	O	O
+2	은	B-MT	O
+3	전문가	B-CV	B-CV
+4	##들의	O	O
+5	말	O	O
+6	##을	O	O
+7	인용	O	O
+8	##해	O	O
+9	,	O	O
+10	“	O	O
+11	그리스	B-LC	B-LC
+12	##의	O	O
+13	부채	O	O
+14	상환	O	O
+15	##이	O	O
+16	몇	O	O
+17	년	O	O
+18	연기	O	O
+19	##된	O	O
+20	##다고	O	O
+21	해도	O	O
+22	,	O	O
+23	그리스	B-LC	B-LC
+24	##는	O	O
+25	결국	O	O
+26	상환	O	O
+27	##일이	O	O
+28	도래	O	O
+29	##하	O	O
+30	##는	O	O
+31	부채	O	O
+32	##들	O	O
+33	##을	O	O
+34	갚	O	O
+35	##을	O	O
+36	수	O	O
+37	없	O	O
+38	##을	O	O
+39	것	O	O
+40	”	O	O
+41	이라	O	O
+42	##고	O	O
+43	전했	O	O
+44	##다	O	O
+45	.	O	O
+46	[SEP]	O	O

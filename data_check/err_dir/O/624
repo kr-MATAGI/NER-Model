@@ -1,21 +1,41 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	시작	O	O	O, B-CV, B-TM, B-OG, B-LC
-2	##은	O	O	O, B-PS, B-CV, B-OG, B-LC
-3	이상	O	B-PS	B-PS, O, B-OG, B-AF, B-TR
-4	##한	O	I-PS	I-PS, O, B-PS, I-OG, I-AF
-5	실장	B-CV	B-CV	B-CV, O, I-CV, I-PS, B-TM
-6	##님	O	O	O, I-CV, I-AF, B-CV, I-EV
-7	사연	O	O	O, B-CV, B-FD, B-PS, B-AF
-8	##부터	O	O	O, B-PS, I-CV, I-PS, I-AF
-9	먼저	O	O	O, B-CV, B-OG, B-LC, B-QT
-10	시작	O	O	O, B-CV, B-OG, B-TM, B-LC
-11	##을	O	O	O, B-CV, B-OG, I-OG, I-AF
-12	하도	O	O	O, B-CV, B-OG, B-TM, B-QT
-13	##록	O	O	O, B-CV, B-OG, B-LC, B-TM
-14	하	O	O	O, B-OG, B-CV, B-LC, B-TM
-15	##겠	O	O	O, B-CV, B-OG, B-LC, I-OG
-16	##습	O	O	O, B-CV, B-OG, I-OG, B-LC
-17	##니다	O	O	O, B-CV, B-OG, I-OG, B-LC
-18	.	O	O	O, B-CV, B-LC, B-OG, B-PS
-19	[SEP]	O	O	O, B-CV, B-OG, B-LC, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	그렇게	O	O
+2	시작	O	O
+3	##해	O	O
+4	지금	O	O
+5	##까	O	O
+6	##지	O	O
+7	서	B-PS	B-PS
+8	대표	B-CV	B-CV
+9	##의	O	O
+10	'	O	O
+11	나눔	O	O
+12	'	O	O
+13	은	O	O
+14	위안부	B-CV	B-CV
+15	피해	O	O
+16	할머니	B-CV	B-CV
+17	4	B-QT	B-QT
+18	##명	I-QT	I-QT
+19	##과	O	O
+20	무	O	B-CV
+21	##연	O	I-CV
+22	##고	O	I-CV
+23	##자	O	I-CV
+24	·	O	O
+25	기초	O	B-CV
+26	##생활	O	I-CV
+27	##수	O	I-CV
+28	##급	O	I-CV
+29	##자	O	I-CV
+30	33	B-QT	B-QT
+31	##명	I-QT	I-QT
+32	##의	O	O
+33	장례식	O	O
+34	##을	O	O
+35	대신	O	O
+36	치렀	O	O
+37	##다	O	O
+38	.	O	O
+39	[SEP]	O	O

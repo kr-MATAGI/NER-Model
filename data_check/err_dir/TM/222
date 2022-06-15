@@ -1,67 +1,29 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	작가	B-CV	B-CV	B-CV, O, B-FD, I-CV, B-OG
-2	##가	O	O	O, I-CV, B-PS, B-CV, I-EV
-3	‘	O	O	O, B-CV, B-PS, B-LC, B-OG
-4	오토	B-TM	O	O, B-TM, B-TR, B-AF, B-EV
-5	##매	I-TM	O	O, I-TM, I-TR, I-AF, I-MT
-6	##틱	I-TM	O	O, I-TM, I-TR, I-AF, I-MT
-7	##파	I-TM	O	O, I-TM, I-TR, I-AF, I-EV
-8	##일	I-TM	O	O, I-TM, I-TR, I-AF, I-EV
-9	##럿	I-TM	O	O, I-TM, I-TR, I-AF, I-EV
-10	(	O	O	O, I-TM, I-AF, I-TR, I-EV
-11	자동	O	O	O, B-AF, B-TM, B-CV, B-PS
-12	##조	O	O	O, I-AF, I-TM, I-TR, I-CV
-13	##정	O	O	O, I-AF, I-TM, I-TR, I-CV
-14	##장치	O	O	O, I-AF, I-TM, I-TR, I-CV
-15	)	O	O	O, I-AF, I-TM, B-CV, I-CV
-16	’	O	O	O, B-CV, B-PS, B-OG, B-LC
-17	이라	O	O	O, B-PS, B-CV, B-OG, B-LC
-18	##고	O	O	O, B-CV, B-PS, B-OG, I-CV
-19	전시	O	O	O, B-CV, B-FD, B-PS, B-AF
-20	##제	O	O	O, I-CV, B-CV, I-AF, B-PS
-21	##목	O	O	O, I-CV, B-CV, B-PS, I-AF
-22	##을	O	O	O, B-PS, B-CV, B-OG, B-LC
-23	단	O	O	O, B-PS, B-CV, B-OG, B-LC
-24	것	O	O	O, B-CV, B-PS, I-CV, B-OG
-25	##처럼	O	O	O, B-CV, B-PS, B-LC, I-CV
-26	작품	O	O	O, B-FD, B-CV, B-PS, B-EV
-27	##들	O	O	O, B-PS, I-EV, B-CV, I-OG
-28	##은	O	O	O, B-CV, B-LC, B-OG, B-PS
-29	기기	O	O	O, B-CV, B-LC, B-TM, B-PS
-30	부위	O	O	O, B-LC, B-PS, B-TM, B-CV
-31	##의	O	O	O, B-PS, B-LC, B-OG, B-CV
-32	굴곡	O	O	O, B-TM, B-LC, B-TR, B-PS
-33	##선	O	O	O, I-TM, I-LC, I-PS, I-TR
-34	,	O	O	O, B-LC, B-PS, B-CV, B-OG
-35	뻗	O	O	O, B-LC, B-TM, B-PS, B-AF
-36	##어나	O	O	O, B-LC, I-LC, B-PS, I-AF
-37	##온	O	O	O, B-LC, B-PS, B-TM, B-AM
-38	막대	O	O	O, B-TM, B-AM, B-LC, B-CV
-39	##나	O	O	O, B-LC, B-PS, I-AF, B-TM
-40	돌출	O	O	O, B-TM, B-LC, B-CV, B-AF
-41	##부	O	O	O, I-TM, I-LC, I-CV, I-PS
-42	등	O	O	O, B-LC, B-PS, B-TM, B-OG
-43	##이	O	O	O, B-PS, B-LC, B-OG, B-CV
-44	영	O	O	O, B-LC, B-PS, B-TM, B-CV
-45	##낙	O	O	O, I-LC, I-PS, I-TM, B-PS
-46	##없이	O	O	O, I-PS, I-LC, B-LC, I-TM
-47	가전제품	O	O	O, B-TM, B-CV, B-LC, B-FD
-48	##이나	O	O	O, B-LC, B-CV, B-PS, B-OG
-49	헬스	O	O	O, B-TM, B-CV, B-AF, B-AM
-50	##머	O	O	O, I-TM, I-CV, I-AF, B-TM
-51	##신	O	O	O, I-TM, I-CV, I-AF, I-MT
-52	,	O	O	O, I-TM, I-AF, I-CV, B-CV
-53	각종	O	O	O, B-CV, B-TM, B-LC, B-AF
-54	생활	O	O	O, B-CV, B-TM, B-FD, B-AF
-55	##용	O	O	O, I-CV, I-AF, I-TM, B-CV
-56	기기	O	O	O, I-CV, I-AF, I-TM, B-CV
-57	등	O	O	O, B-CV, B-LC, B-PS, I-CV
-58	##의	O	O	O, B-CV, B-LC, B-PS, B-OG
-59	외양	O	O	O, B-CV, B-LC, B-TM, B-PS
-60	##을	O	O	O, B-CV, B-PS, B-LC, B-OG
-61	닮	O	O	O, B-CV, B-LC, B-TM, B-PS
-62	##았	O	O	O, B-PS, B-CV, B-LC, I-CV
-63	##다	O	O	O, B-CV, B-LC, B-OG, B-PS
-64	.	O	O	O, B-LC, B-CV, B-PS, B-AF
-65	[SEP]	O	O	O, B-CV, B-LC, B-PS, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	이	O	O
+2	바둑	B-CV	B-CV
+3	##은	O	O
+4	앞	B-TM	O
+5	##으로	O	O
+6	##도	O	O
+7	40	O	O
+8	##여	O	O
+9	수가	O	O
+10	더	O	O
+11	이어지	O	O
+12	##거	O	O
+13	##니	O	O
+14	##와	O	O
+15	쌍방	O	O
+16	손	B-AM	B-AM
+17	떨리	O	O
+18	##는	O	O
+19	마지막	O	O
+20	드라마	O	O
+21	##가	O	O
+22	남아	O	O
+23	있	O	O
+24	##었	O	O
+25	##다	O	O
+26	.	O	O
+27	[SEP]	O	O

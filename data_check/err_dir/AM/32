@@ -1,15 +1,26 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, I-QT, I-EV
-1	'	O	O	O, B-LC, B-PS, B-CV, B-OG
-2	새	B-AM	O	O, B-AM, B-AF, B-PS, B-TM
-3	'	O	O	O, I-AF, I-PS, I-DT, B-PS
-4	와	O	O	O, B-PS, B-LC, B-AF, B-OG
-5	'	O	O	O, B-LC, B-PS, B-CV, B-OG
-6	꿈	O	O	O, B-AF, B-PS, B-LC, B-AM
-7	'	O	O	O, I-AF, I-PS, I-OG, B-PS
-8	,	O	O	O, B-PS, B-LC, B-OG, I-AF
-9	'	O	O	O, B-LC, B-CV, B-PS, B-OG
-10	전설	O	O	O, B-AF, B-PS, B-LC, B-OG
-11	'	O	O	O, I-AF, I-PS, I-OG, I-LC
-12	.	O	O	O, B-LC, B-PS, B-OG, B-CV
-13	[SEP]	O	O	O, B-LC, B-CV, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	천장	B-TM	B-TM
+2	##관	I-TM	I-TM
+3	##절	I-TM	I-TM
+4	##증	I-TM	I-TM
+5	##후	I-TM	I-TM
+6	##군	I-TM	I-TM
+7	때문	O	O
+8	##에	O	O
+9	생기	O	O
+10	##는	O	O
+11	통증	O	O
+12	##은	O	O
+13	허리	B-TM	B-TM
+14	##디스	I-TM	I-TM
+15	##크	I-TM	I-TM
+16	##처럼	O	O
+17	한쪽	O	O
+18	둔	B-AM	B-TM
+19	##부	I-AM	I-TM
+20	##에	O	O
+21	잘	O	O
+22	나타난다	O	O
+23	.	O	O
+24	[SEP]	O	O

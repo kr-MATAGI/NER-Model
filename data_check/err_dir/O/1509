@@ -1,65 +1,70 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-EV, I-CV
-1	샌	B-LC	B-LC	B-LC, B-OG, O, B-PS, B-AF
-2	##타	I-LC	I-LC	I-LC, I-OG, O, I-PS, B-LC
-3	##클	I-LC	I-LC	I-LC, I-OG, O, I-PS, I-AF
-4	##래	I-LC	I-LC	I-LC, I-OG, O, I-PS, I-AF
-5	##라	I-LC	I-LC	I-LC, I-OG, O, I-PS, I-AF
-6	스티븐	I-LC	I-OG	I-OG, B-LC, B-OG, I-LC, O
-7	##스크	I-LC	I-OG	I-OG, I-LC, O, I-PS, I-AF
-8	##리	I-LC	I-OG	I-OG, I-LC, O, I-PS, I-AF
-9	##크	I-LC	I-OG	I-OG, I-LC, O, I-PS, I-AF
-10	##의	O	O	O, I-OG, I-LC, I-AF, I-PS
-11	포르	B-AF	B-OG	B-OG, B-AF, O, B-PS, I-OG
-12	##셰	I-AF	I-OG	I-OG, I-AF, O, I-PS, I-CV
-13	매장	O	B-CV	B-CV, O, I-CV, I-AF, I-OG
-14	매니저	B-CV	I-CV	I-CV, B-CV, O, I-OG, I-QT
-15	##인	O	O	O, I-CV, B-PS, B-CV, I-QT
-16	리처드	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-17	레	I-PS	I-PS	I-PS, O, B-PS, I-OG, I-LC
-18	##빈	I-PS	I-PS	I-PS, O, I-OG, I-LC, B-PS
-19	##슨	I-PS	I-PS	I-PS, O, I-LC, I-OG, B-LC
-20	씨	O	O	O, I-PS, B-CV, I-OG, I-LC
-21	##는	O	O	O, B-CV, B-TM, B-LC, B-OG
-22	“	O	O	O, B-CV, B-LC, B-OG, B-TM
-23	벤처	O	O	O, B-CV, B-FD, B-OG, B-TM
-24	##기업	O	O	O, I-OG, I-CV, I-TM, I-FD
-25	##에	O	O	O, I-OG, B-PS, B-CV, I-CV
-26	있	O	O	O, B-PS, B-CV, B-QT, B-TM
-27	##는	O	O	O, B-PS, B-LC, B-CV, B-OG
-28	많	O	O	O, B-CV, B-PS, B-TM, B-LC
-29	##은	O	O	O, B-PS, B-CV, B-LC, I-CV
-30	사람	O	O	O, B-CV, I-CV, B-PS, B-TM
-31	##들이	O	O	O, B-CV, B-PS, B-LC, I-CV
-32	돈	O	O	O, B-CV, B-TM, B-AM, B-LC
-33	쓸	O	O	O, B-TM, B-PS, B-LC, B-CV
-34	곳	O	O	O, B-CV, B-AM, B-TM, B-PS
-35	##을	O	O	O, B-CV, B-PS, B-TM, B-OG
-36	찾아	O	O	O, B-CV, B-TM, B-LC, B-PS
-37	나설	O	O	O, B-CV, B-LC, B-PS, B-TM
-38	것	O	O	O, B-CV, B-PS, B-LC, B-TM
-39	”	O	O	O, B-CV, B-TM, B-PS, B-LC
-40	이라	O	O	O, B-CV, B-PS, B-OG, B-TM
-41	##며	O	O	O, B-CV, B-LC, B-OG, B-TM
-42	“	O	O	O, B-CV, B-LC, B-TM, B-OG
-43	향후	O	O	O, B-LC, B-PS, B-CV, B-DT
-44	수개월	O	O	O, B-LC, B-CV, B-PS, B-DT
-45	동안	O	O	O, B-LC, I-DT, B-PS, B-DT
-46	더	O	O	O, B-LC, B-CV, B-OG, B-PS
-47	많	O	O	O, B-LC, B-TM, B-OG, B-CV
-48	##은	O	O	O, B-LC, B-PS, B-OG, B-CV
-49	매출	O	O	O, B-CV, B-TM, B-LC, B-OG
-50	##을	O	O	O, B-CV, B-PS, B-TM, B-OG
-51	기대	O	O	O, B-CV, B-TM, B-PS, B-LC
-52	##하고	O	O	O, B-CV, B-PS, B-OG, B-TM
-53	있	O	O	O, B-CV, B-PS, B-TM, B-OG
-54	##다	O	O	O, B-CV, B-TM, B-OG, I-OG
-55	”	O	O	O, B-CV, B-TM, B-OG, B-LC
-56	고	O	O	O, B-OG, B-QT, B-LC, B-TM
-57	AP	B-OG	B-OG	B-OG, B-LC, O, B-AF, I-OG
-58	##통신	I-OG	I-OG	I-OG, O, I-LC, I-AF, I-EV
-59	##에	O	O	O, I-OG, I-EV, I-AF, I-QT
-60	전했	O	O	O, B-CV, I-OG, B-OG, B-QT
-61	##다	O	O	O, B-CV, I-OG, B-TM, B-OG
-62	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-63	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	제너럴	B-OG	B-OG
+2	##모	I-OG	I-OG
+3	##터스	I-OG	I-OG
+4	등	O	O
+5	미국	B-LC	B-LC
+6	##의	O	O
+7	자동차	B-AF	B-AF
+8	3	B-QT	B-QT
+9	##사	I-QT	I-QT
+10	(	O	O
+11	‘	O	O
+12	빅	B-QT	B-QT
+13	##3	I-QT	I-QT
+14	’	O	O
+15	)	O	O
+16	는	O	O
+17	월간	O	B-DT
+18	판매량	O	O
+19	##이	O	O
+20	1980	B-DT	B-DT
+21	##년	I-DT	I-DT
+22	##대	I-DT	I-DT
+23	초	I-DT	I-DT
+24	수준	O	O
+25	##으로	O	O
+26	떨어져	O	O
+27	사실	O	O
+28	##상	O	O
+29	‘	O	O
+30	식물	O	O
+31	##기업	O	O
+32	’	O	O
+33	상태	O	O
+34	##이	O	O
+35	##고	O	O
+36	,	O	O
+37	최강	O	O
+38	##의	O	O
+39	경쟁력	O	O
+40	##을	O	O
+41	자랑	O	O
+42	##하	O	O
+43	##는	O	O
+44	일본	B-LC	B-LC
+45	##의	O	O
+46	도요타	B-OG	B-OG
+47	##조	O	O
+48	##차	O	O
+49	최악	O	O
+50	##의	O	O
+51	경영	O	O
+52	위기	O	O
+53	##를	O	O
+54	맞아	O	O
+55	정부	B-OG	B-OG
+56	##에	O	O
+57	구제	O	O
+58	##금융	O	O
+59	##을	O	O
+60	요청	O	O
+61	##하	O	O
+62	##고	O	O
+63	있	O	O
+64	##는	O	O
+65	상황	O	O
+66	##이다	O	O
+67	.	O	O
+68	[SEP]	O	O

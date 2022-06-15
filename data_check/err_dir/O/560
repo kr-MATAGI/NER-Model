@@ -1,11 +1,57 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	그	O	O	O, B-CV, B-TM, B-LC, B-OG
-2	~	O	O	O, B-CV, I-CV, B-LC, B-PS
-3	살	O	B-AM	B-AM, O, B-TM, B-CV, B-PT
-4	바깥	O	O	O, B-TM, B-AM, I-TM, B-CV
-5	부분	O	O	O, I-TM, I-AM, I-CV, I-LC
-6	##이	O	O	O, I-TM, B-PS, I-CV, B-CV
-7	있	O	O	O, B-CV, B-TM, B-LC, B-OG
-8	##고	O	O	O, B-CV, I-AF, I-CV, I-OG
-9	[SEP]	O	O	O, B-CV, B-LC, B-TM, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	<	O	O
+2	비빔	B-AF	B-AF
+3	##툰	I-AF	I-AF
+4	>	O	O
+5	을	O	O
+6	계기	O	O
+7	##로	O	O
+8	오랜	O	O
+9	꿈	O	O
+10	##이	O	O
+11	##었	O	O
+12	##던	O	O
+13	어린이	O	O
+14	과학	B-FD	B-FD
+15	학습	O	O
+16	##만	O	O
+17	##화	O	I-FD
+18	##를	O	O
+19	몇몇	O	O
+20	잡지	O	O
+21	##에	O	O
+22	연재	O	O
+23	##하	O	O
+24	##게	O	O
+25	됐	O	O
+26	##지만	O	O
+27	,	O	O
+28	한	B-QT	B-QT
+29	##곳	I-QT	I-QT
+30	##에	O	O
+31	머무르	O	O
+32	##기	O	O
+33	##보	O	O
+34	##다	O	O
+35	새로운	O	O
+36	변화	O	O
+37	##를	O	O
+38	꿈꾸	O	O
+39	##는	O	O
+40	게	O	O
+41	창작	B-CV	O
+42	##자	I-CV	O
+43	##로	O	O
+44	##서	O	O
+45	##의	O	O
+46	당연	O	O
+47	##한	O	O
+48	욕구	O	O
+49	##와	O	O
+50	의무	O	O
+51	##라는	O	O
+52	것	O	O
+53	##이다	O	O
+54	.	O	O
+55	[SEP]	O	O

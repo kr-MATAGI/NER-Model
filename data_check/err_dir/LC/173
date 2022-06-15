@@ -1,44 +1,27 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-EV, I-CV, B-CV
-1	“	O	O	O, B-LC, B-CV, B-PS, B-OG
-2	베트남	B-EV	B-EV	B-EV, O, B-LC, I-EV, B-AF
-3	##전	I-EV	I-EV	I-EV, O, I-AF, I-LC, I-OG
-4	##에서	O	O	O, I-EV, I-AF, I-OG, B-LC
-5	옛	O	O	O, B-LC, B-OG, B-DT, B-CV
-6	소련	B-LC	B-LC	B-LC, O, B-CV, B-OG, I-LC
-7	##제	O	O	O, I-CV, I-LC, I-DT, I-OG
-8	AK	B-AF	B-AF	B-AF, I-AF, O, B-TM, B-OG
-9	-	I-AF	I-AF	I-AF, O, I-TM, I-OG, B-AF
-10	47	I-AF	I-AF	I-AF, I-TM, O, B-AF, I-QT
-11	자동	B-AF	I-AF	I-AF, B-AF, O, I-TM, B-CV
-12	소총	I-AF	I-AF	I-AF, B-AF, O, I-TM, I-CV
-13	##을	O	O	O, I-AF, I-CV, I-TM, I-OG
-14	사용	O	O	O, B-CV, B-LC, B-TM, I-AF
-15	##해	O	O	O, B-LC, B-OG, B-PS, B-TM
-16	미국	B-LC	B-OG	B-OG, B-LC, O, I-OG, B-CV
-17	##의	O	O	O, I-OG, I-LC, I-AF, I-CV
-18	침입	O	O	O, B-LC, B-CV, B-TM, I-OG
-19	##에	O	O	O, B-LC, B-OG, B-CV, B-PS
-20	저항	O	O	O, B-LC, B-OG, B-CV, B-TM
-21	##했	O	O	O, B-LC, B-PS, B-OG, B-CV
-22	##던	O	O	O, B-LC, B-OG, B-PS, B-CV
-23	베트남	B-LC	B-OG	B-OG, B-LC, O, I-OG, B-PS
-24	##이	O	O	O, I-OG, I-LC, B-PS, I-PS
-25	이제	O	O	O, B-LC, B-PS, B-CV, B-OG
-26	##는	O	O	O, B-LC, B-OG, B-PS, B-CV
-27	러시아	B-LC	B-OG	B-OG, B-LC, O, B-PS, B-CV
-28	##의	O	O	O, I-OG, I-LC, I-AF, I-PS
-29	힘	O	O	O, B-LC, I-OG, B-CV, B-TM
-30	##을	O	O	O, B-LC, B-PS, B-CV, B-TM
-31	빌려	O	O	O, B-LC, B-PS, B-CV, B-TM
-32	중국	B-LC	B-OG	B-OG, B-LC, O, B-PS, B-AF
-33	##을	O	O	O, I-OG, I-LC, I-AF, B-CV
-34	견제	O	O	O, B-CV, B-LC, B-TM, B-OG
-35	##하	O	O	O, B-LC, B-PS, B-OG, B-CV
-36	##려	O	O	O, B-LC, B-PS, B-OG, B-CV
-37	하고	O	O	O, B-LC, B-CV, B-TM, B-OG
-38	있	O	O	O, B-LC, B-CV, B-PS, B-OG
-39	##다	O	O	O, B-LC, B-CV, B-PS, I-OG
-40	.	O	O	O, B-LC, B-PS, B-OG, B-CV
-41	”	O	O	O, B-LC, B-CV, B-PS, B-OG
-42	[SEP]	O	O	O, B-LC, B-CV, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	특히	O	O
+2	북한	B-LC	B-OG
+3	당국	O	I-OG
+4	##은	O	O
+5	이번	O	O
+6	화폐	O	O
+7	##개혁	O	O
+8	##을	O	O
+9	하	O	O
+10	##면	O	O
+11	##서	O	O
+12	주민	B-CV	B-CV
+13	##들의	O	O
+14	시장	O	O
+15	##화	O	O
+16	수준	O	O
+17	##을	O	O
+18	절감	O	O
+19	##했	O	O
+20	##을	O	O
+21	것	O	O
+22	##으로	O	O
+23	보인다	O	O
+24	.	O	O
+25	[SEP]	O	O

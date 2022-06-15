@@ -1,20 +1,37 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	매콤	O	O	O, B-CV, B-LC, B-OG, B-TM
-2	##한	O	O	O, B-CV, B-PS, B-LC, I-CV
-3	맛	O	O	O, B-CV, I-CV, B-PS, B-LC
-4	##이	O	O	O, B-PS, B-CV, B-LC, B-OG
-5	나	O	O	O, B-CV, B-LC, B-OG, B-PS
-6	##는	O	O	O, B-CV, I-CV, B-PS, B-LC
-7	매콤	O	B-CV	B-CV, O, B-TM, B-AF, B-OG
-8	산적	B-CV	I-CV	I-CV, B-CV, O, I-AF, I-TM
-9	##그라	I-CV	I-CV	I-CV, B-CV, O, I-OG, I-TM
-10	##탕	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-TM
-11	##을	O	O	O, I-CV, I-OG, I-AF, B-CV
-12	준비	O	O	O, B-CV, B-OG, B-LC, B-TM
-13	##하	O	O	O, B-OG, B-LC, B-CV, I-OG
-14	##겠	O	O	O, B-CV, B-OG, B-LC, I-OG
-15	##습	O	O	O, B-CV, I-OG, B-OG, B-LC
-16	##니다	O	O	O, B-CV, I-OG, B-OG, B-LC
-17	.	O	O	O, B-CV, B-LC, I-OG, B-OG
-18	[SEP]	O	O	O, B-CV, B-LC, B-OG, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	'	O	O
+2	동양	B-LC	B-CV
+3	##화가	B-CV	I-CV
+4	김현정	B-PS	B-PS
+5	##은	O	O
+6	전통	O	O
+7	한복	B-CV	B-CV
+8	##을	O	O
+9	입	O	O
+10	##은	O	O
+11	여성	O	O
+12	##이	O	O
+13	당구	B-CV	B-CV
+14	##를	O	O
+15	치	O	O
+16	##거나	O	O
+17	윗	O	B-CV
+18	##몸	O	I-CV
+19	##일으	O	O
+20	##키	O	O
+21	##기	O	O
+22	##를	O	O
+23	하	O	O
+24	##는	O	O
+25	모습	O	O
+26	##을	O	O
+27	묘사	O	O
+28	##하면	O	O
+29	##서	O	O
+30	관습	O	O
+31	##에	O	O
+32	반항	O	O
+33	##한다	O	O
+34	.	O	O
+35	[SEP]	O	O

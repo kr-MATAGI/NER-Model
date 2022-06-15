@@ -1,28 +1,39 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	그런데	O	O	O, B-CV, B-OG, B-LC, B-TM
-2	최근	O	O	O, B-LC, B-CV, B-PS, B-OG
-3	유로	B-CV	B-CV	B-CV, O, I-CV, B-AF, B-MT
-4	-	O	O	O, I-CV, B-PS, B-QT, I-AF
-5	달러	B-CV	B-CV	B-CV, O, I-CV, B-AF, B-MT
-6	환율	O	O	O, I-CV, B-CV, B-TM, B-FD
-7	##은	O	O	O, I-CV, B-CV, B-TM, I-QT
-8	급락	O	O	O, B-TM, B-CV, B-LC, B-OG
-9	##하고	O	O	O, B-PS, B-LC, B-CV, B-OG
-10	원	O	B-CV	B-CV, O, B-AF, B-PT, B-MT
-11	-	O	O	O, I-CV, B-QT, B-PS, I-AF
-12	달러	O	B-CV	B-CV, O, I-CV, B-AF, B-MT
-13	환율	O	O	O, I-CV, B-TM, B-CV, B-QT
-14	##이	O	O	O, B-PS, B-OG, B-CV, B-LC
-15	급상승	O	O	O, B-TM, B-CV, B-LC, B-OG
-16	##해	O	O	O, B-LC, B-PS, B-OG, B-CV
-17	불리	O	O	O, B-TM, B-CV, B-LC, B-OG
-18	##하	O	O	O, B-LC, B-PS, B-OG, I-CV
-19	##게	O	O	O, B-LC, B-OG, I-OG, B-CV
-20	작용	O	O	O, B-CV, B-LC, B-TM, I-QT
-21	##한다	O	O	O, B-PS, B-CV, B-LC, I-CV
-22	##는	O	O	O, B-CV, B-TM, B-LC, I-OG
-23	것	O	O	O, B-CV, B-OG, B-PS, B-TM
-24	##이다	O	O	O, B-CV, I-OG, I-QT, I-CV
-25	.	O	O	O, B-LC, B-PS, B-CV, B-OG
-26	[SEP]	O	O	O, B-LC, B-CV, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	특히	O	O
+2	타자	B-CV	B-CV
+3	##에	O	O
+4	##게	O	O
+5	가장	O	O
+6	불리	O	O
+7	##한	O	O
+8	볼	O	B-TM
+9	##카운	O	I-TM
+10	##트	O	I-TM
+11	##인	O	O
+12	투스	B-TM	B-TM
+13	##트라	I-TM	I-TM
+14	##이크	I-TM	I-TM
+15	-	O	O
+16	노	B-TM	O
+17	##볼	I-TM	O
+18	상황	O	O
+19	##에	O	O
+20	##서	O	O
+21	타율	B-TM	B-TM
+22	##이	O	O
+23	0	B-QT	B-QT
+24	.	I-QT	I-QT
+25	350	I-QT	I-QT
+26	(	O	O
+27	20	B-QT	B-QT
+28	##타	I-QT	I-QT
+29	##수	I-QT	I-QT
+30	7	B-QT	B-QT
+31	##안	I-QT	I-QT
+32	##타	I-QT	I-QT
+33	)	O	O
+34	이	O	O
+35	##다	O	O
+36	.	O	O
+37	[SEP]	O	O

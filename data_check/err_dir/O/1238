@@ -1,39 +1,40 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	이스라엘	B-OG	B-OG	B-OG, B-LC, O, B-PS, B-TM
-2	##은	O	O	O, I-OG, I-LC, B-CV, B-OG
-3	하마	B-OG	B-OG	B-OG, O, B-AF, B-LC, I-OG
-4	##스	I-OG	I-OG	I-OG, O, I-LC, I-AF, I-PS
-5	전력	O	O	O, I-OG, B-CV, B-OG, B-TM
-6	##의	O	O	O, B-LC, B-TM, B-PS, B-CV
-7	상당	O	O	O, B-QT, B-LC, B-TM, B-DT
-8	부분	O	O	O, I-QT, I-LC, B-QT, I-TM
-9	##을	O	O	O, I-QT, B-PS, B-CV, B-LC
-10	파괴	O	O	O, B-CV, B-TM, B-LC, B-PS
-11	##했	O	O	O, B-PS, B-LC, B-CV, B-OG
-12	##다고	O	O	O, B-PS, B-LC, B-OG, B-CV
-13	보고	O	O	O, B-LC, B-PS, B-OG, B-CV
-14	가자	B-LC	B-LC	B-LC, O, B-OG, I-LC, B-AF
-15	##지구	I-LC	I-LC	I-LC, O, B-LC, I-OG, I-PS
-16	일부	O	O	O, I-LC, B-TM, B-QT, B-LC
-17	##에서	O	O	O, B-LC, B-PS, I-QT, B-OG
-18	지상	O	B-CV	B-CV, B-OG, O, B-AF, B-FD
-19	##군	O	I-CV	I-CV, I-OG, O, I-AF, I-QT
-20	##을	O	O	O, I-CV, I-OG, I-AF, I-QT
-21	철수	O	O	O, B-CV, B-OG, B-LC, B-TM
-22	##시	O	O	O, B-LC, B-OG, B-CV, B-PS
-23	##키	O	O	O, B-LC, B-CV, B-OG, B-PS
-24	##며	O	O	O, B-LC, B-OG, B-CV, B-PS
-25	‘	O	O	O, B-LC, B-CV, B-OG, B-PS
-26	일방	O	O	O, B-LC, B-CV, B-OG, B-PS
-27	##적	O	O	O, B-LC, B-CV, B-PS, B-EV
-28	휴전	O	O	O, B-CV, B-EV, B-LC, B-OG
-29	’	O	O	O, I-CV, I-EV, B-CV, I-OG
-30	움직임	O	O	O, B-CV, B-LC, B-TM, B-PS
-31	##을	O	O	O, B-CV, B-OG, B-PS, B-LC
-32	보이	O	O	O, B-CV, B-OG, B-LC, B-TM
-33	##고	O	O	O, B-CV, B-LC, B-OG, B-PS
-34	있	O	O	O, B-CV, B-LC, B-OG, B-PS
-35	##다	O	O	O, B-CV, B-LC, B-OG, I-OG
-36	.	O	O	O, B-LC, B-CV, B-OG, B-PS
-37	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	또	O	O
+2	지난해	B-DT	B-DT
+3	개통	O	O
+4	##한	O	O
+5	경	B-AF	B-AF
+6	##춘	I-AF	I-AF
+7	고속도로	I-AF	I-AF
+8	및	O	O
+9	경	B-AF	B-AF
+10	##춘	I-AF	I-AF
+11	##전	I-AF	I-TM
+12	##철	I-AF	I-TM
+13	복선	O	I-TM
+14	##화	O	I-TM
+15	사업	O	I-TM
+16	완공	O	O
+17	##을	O	O
+18	앞두	O	O
+19	##고	O	O
+20	대학생	B-CV	B-CV
+21	등	O	O
+22	젊은이	O	O
+23	##들	O	O
+24	##을	O	O
+25	겨냥	O	O
+26	##한	O	O
+27	수상	B-CV	O
+28	레포츠	I-CV	O
+29	천국	O	O
+30	##을	O	O
+31	만들	O	O
+32	##어	O	O
+33	가	O	O
+34	##고	O	O
+35	있	O	O
+36	##다	O	O
+37	.	O	O
+38	[SEP]	O	O

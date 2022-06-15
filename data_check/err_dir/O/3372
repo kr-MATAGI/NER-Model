@@ -1,29 +1,38 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	박	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-2	전	O	O	O, I-PS, I-OG, I-AF, B-CV
-3	대표	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-EV
-4	##는	O	O	O, I-CV, I-EV, I-AF, I-QT
-5	2003	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-6	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-7	노무현	B-PS	B-PS	B-PS, O, I-PS, B-OG, B-LC
-8	대통령	B-CV	B-CV	B-CV, O, I-PS, I-CV, B-EV
-9	당선	O	O	O, I-CV, B-CV, I-EV, I-OG
-10	후	O	O	O, B-PS, B-LC, B-OG, I-OG
-11	야권	O	O	O, B-OG, B-CV, B-LC, B-PS
-12	##이	O	O	O, B-PS, B-OG, I-OG, B-LC
-13	열린	O	B-OG	B-OG, O, I-OG, B-PS, B-LC
-14	##우리	O	I-OG	I-OG, O, B-OG, I-LC, I-AF
-15	##당	O	I-OG	I-OG, O, I-LC, I-AF, I-CV
-16	##과	O	O	O, I-OG, B-PS, I-AF, I-EV
-17	민주당	B-OG	B-OG	B-OG, O, B-AF, I-OG, B-LC
-18	##으로	O	O	O, I-OG, B-PS, I-AF, I-EV
-19	갈라	O	O	O, B-OG, B-LC, B-PS, B-TM
-20	##설	O	O	O, B-PS, B-LC, I-OG, B-OG
-21	때	O	O	O, B-PS, B-OG, B-CV, B-QT
-22	민주당	B-OG	B-OG	B-OG, O, B-AF, B-LC, B-PS
-23	##을	O	O	O, I-OG, I-AF, I-EV, B-CV
-24	지켰	O	O	O, B-CV, B-LC, B-OG, I-OG
-25	##다	O	O	O, B-CV, I-OG, B-LC, B-TM
-26	.	O	O	O, B-OG, B-PS, B-LC, B-CV
-27	[SEP]	O	O	O, B-OG, B-LC, B-PS, B-CV
+	text	label	preds
+0	[CLS]	O	O
+1	반대	O	O
+2	##를	O	O
+3	거듭	O	O
+4	##하	O	O
+5	##는	O	O
+6	자유	B-OG	B-OG
+7	##한	I-OG	I-OG
+8	##국	I-OG	I-OG
+9	##당	I-OG	I-OG
+10	##을	O	O
+11	배제	O	O
+12	##한	O	O
+13	채	O	O
+14	민주당	B-OG	B-OG
+15	##과	O	O
+16	국민	B-OG	B-OG
+17	##의	I-OG	I-OG
+18	##당	I-OG	I-OG
+19	·	O	O
+20	바른	B-OG	B-OG
+21	##정	I-OG	I-OG
+22	##당	I-OG	I-OG
+23	##이	O	O
+24	손발	O	B-AM
+25	##을	O	O
+26	맞추	O	O
+27	##는	O	O
+28	모습	O	O
+29	##을	O	O
+30	보여	O	O
+31	##줬	O	O
+32	##기	O	O
+33	때문	O	O
+34	##이다	O	O
+35	.	O	O
+36	[SEP]	O	O

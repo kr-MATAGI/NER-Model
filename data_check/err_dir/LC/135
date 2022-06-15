@@ -1,24 +1,129 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	하이브리드	B-AF	B-AF	B-AF, O, B-TM, I-AF, B-LC
-2	고급	O	O	O, I-AF, B-AF, B-LC, B-CV
-3	승용차	B-AF	B-AF	B-AF, I-AF, O, B-OG, B-LC
-4	메이커	O	O	O, B-CV, B-OG, I-OG, I-AF
-5	##인	O	O	O, B-OG, I-OG, B-CV, I-CV
-6	피스	B-OG	B-OG	B-OG, O, I-OG, B-PS, B-LC
-7	##커	I-OG	I-OG	I-OG, O, I-LC, I-PS, I-AF
-8	##는	O	O	O, I-OG, I-AF, I-LC, I-CV
-9	최근	O	O	O, B-AF, B-LC, B-OG, B-DT
-10	팰	B-LC	B-AF	B-AF, B-OG, B-LC, O, B-TM
-11	##러	I-LC	I-AF	I-AF, I-OG, O, I-LC, I-TM
-12	##앨	I-LC	I-AF	I-AF, I-OG, O, I-LC, B-AF
-13	##토	I-LC	I-AF	I-AF, I-OG, O, I-LC, I-TM
-14	##에	O	O	O, I-AF, I-OG, I-LC, I-TM
-15	신규	O	O	O, B-LC, B-CV, B-OG, B-AF
-16	매장	O	O	O, B-CV, B-LC, B-OG, B-AF
-17	##을	O	O	O, B-OG, I-OG, B-CV, I-AF
-18	열	O	O	O, B-OG, B-LC, B-CV, B-AF
-19	##었	O	O	O, B-OG, B-LC, I-OG, B-CV
-20	##다	O	O	O, I-OG, B-OG, B-CV, B-LC
-21	.	O	O	O, B-OG, B-LC, B-AF, I-OG
-22	[SEP]	O	O	O, B-OG, I-OG, B-LC, B-AF
+	text	label	preds
+0	[CLS]	O	O
+1	시에	O	O
+2	따르	O	O
+3	##면	O	O
+4	,	O	O
+5	이와	O	O
+6	같	O	O
+7	##은	O	O
+8	조치	O	O
+9	##가	O	O
+10	이루	O	O
+11	##어질	O	O
+12	경우	O	O
+13	▲	O	O
+14	##1	B-QT	B-QT
+15	##단	I-QT	I-QT
+16	##계	I-QT	I-QT
+17	재개	O	O
+18	##발	O	O
+19	##사업	O	O
+20	단	B-LC	B-LC
+21	##대	I-LC	I-LC
+22	##구역	I-LC	O
+23	##은	O	O
+24	전체	O	O
+25	220	B-QT	B-QT
+26	##억	I-QT	I-QT
+27	##원	I-QT	I-QT
+28	##대	I-QT	I-QT
+29	,	O	O
+30	세대	O	O
+31	##별	O	O
+32	3000	B-QT	B-QT
+33	##만	I-QT	I-QT
+34	##원	I-QT	I-QT
+35	##대	I-QT	I-QT
+36	,	O	O
+37	중동	B-LC	B-LC
+38	##3	B-QT	B-QT
+39	##구역	I-QT	I-QT
+40	##의	O	O
+41	경우	O	O
+42	전체	O	O
+43	150	B-QT	B-QT
+44	##억	I-QT	I-QT
+45	##원	I-QT	I-QT
+46	##대	I-QT	I-QT
+47	,	O	O
+48	가구	O	O
+49	##별	O	O
+50	4000	B-QT	B-QT
+51	##만	I-QT	I-QT
+52	##원	I-QT	I-QT
+53	##대	I-QT	I-QT
+54	##의	O	O
+55	사업	O	O
+56	##성	O	O
+57	개선	O	O
+58	##효과	O	O
+59	##가	O	O
+60	▲	O	O
+61	##2	B-QT	B-QT
+62	##단	I-QT	I-QT
+63	##계	I-QT	I-QT
+64	주택	O	B-TM
+65	##재	O	I-TM
+66	##개발	O	I-TM
+67	##사업	O	I-TM
+68	##의	O	O
+69	경우	O	O
+70	신흥	B-LC	B-LC
+71	##2	B-QT	B-QT
+72	##구역	I-QT	I-QT
+73	전체	O	O
+74	108	B-QT	B-QT
+75	##0	I-QT	I-QT
+76	##억	I-QT	I-QT
+77	##원	I-QT	I-QT
+78	##대	I-QT	I-QT
+79	가구	O	O
+80	##별	O	O
+81	5000	B-QT	B-QT
+82	##만	I-QT	I-QT
+83	##원	I-QT	I-QT
+84	##대	I-QT	I-QT
+85	,	O	O
+86	중	B-LC	B-LC
+87	##1	B-QT	I-QT
+88	##구역	I-QT	I-QT
+89	전체	O	O
+90	410	B-QT	B-QT
+91	##억	I-QT	I-QT
+92	##원	I-QT	I-QT
+93	##대	I-QT	I-QT
+94	가구	O	O
+95	##별	O	O
+96	3000	B-QT	B-QT
+97	##만	I-QT	I-QT
+98	##원	I-QT	I-QT
+99	##대	I-QT	I-QT
+100	,	O	O
+101	금	B-LC	B-LC
+102	##광	I-LC	I-LC
+103	##1	B-QT	B-QT
+104	##구역	I-QT	I-QT
+105	전체	O	O
+106	102	B-QT	B-QT
+107	##0	I-QT	I-QT
+108	##억	I-QT	I-QT
+109	##원	I-QT	I-QT
+110	##대	I-QT	I-QT
+111	가구	O	O
+112	##별	O	O
+113	4000	B-QT	B-QT
+114	##만	I-QT	I-QT
+115	##원	I-QT	I-QT
+116	##대	I-QT	I-QT
+117	##의	O	O
+118	사업	O	O
+119	##성	O	O
+120	개선	O	O
+121	##효과	O	O
+122	##가	O	O
+123	예상	O	O
+124	##된	O	O
+125	##다	O	O
+126	.	O	O
+127	[SEP]	O	O

@@ -1,30 +1,61 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	샤	B-PS	B-PS	B-PS, B-OG, O, B-LC, I-PS
-2	##라	I-PS	I-PS	I-PS, I-OG, O, I-LC, B-PS
-3	##포	I-PS	I-PS	I-PS, I-OG, O, I-LC, I-EV
-4	##바	I-PS	I-PS	I-PS, I-OG, O, I-LC, I-EV
-5	##의	O	O	O, I-PS, B-CV, I-OG, I-AF
-6	3	B-QT	B-EV	B-EV, B-QT, O, B-TM, B-AF
-7	##회전	I-QT	I-EV	I-EV, I-QT, I-TM, B-EV, I-AF
-8	상대	O	O	O, I-EV, B-CV, I-QT, I-AF
-9	##는	O	O	O, B-CV, B-PS, B-OG, I-EV
-10	러시아	B-LC	B-LC	B-LC, O, B-OG, B-PS, I-LC
-11	모스크바	B-LC	B-LC	B-LC, I-LC, O, B-OG, B-PS
-12	태생	O	O	O, I-LC, B-PS, B-CV, I-PS
-13	##의	O	O	O, B-PS, B-CV, I-PS, B-LC
-14	19	B-QT	B-QT	B-QT, O, I-QT, B-PS, B-DT
-15	##살	I-QT	I-QT	I-QT, O, I-EV, I-PS, I-LC
-16	신예	O	O	O, B-CV, B-PS, I-QT, B-OG
-17	소피아	B-PS	B-PS	B-PS, I-PS, O, B-OG, B-LC
-18	케	I-PS	I-PS	I-PS, O, B-PS, I-OG, I-LC
-19	##닌	I-PS	I-PS	I-PS, O, I-OG, I-LC, B-PS
-20	(	O	O	O, I-PS, B-CV, I-OG, B-LC
-21	139	B-QT	B-QT	B-QT, O, I-QT, B-EV, B-TM
-22	##위	I-QT	I-QT	I-QT, O, I-EV, I-LC, I-OG
-23	·	O	O	O, I-QT, I-OG, B-CV, I-CV
-24	미국	B-LC	B-LC	B-LC, B-OG, O, B-CV, B-PS
-25	)	O	O	O, I-LC, I-OG, B-CV, I-CV
-26	이다	O	O	O, B-CV, B-PS, B-TM, B-OG
-27	.	O	O	O, B-PS, B-LC, B-CV, B-OG
-28	[SEP]	O	O	O, B-CV, B-PS, B-LC, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	앞서	O	O
+2	사단	O	O
+3	##법인	O	O
+4	계명	O	B-OG
+5	1	B-QT	I-OG
+6	%	I-QT	I-OG
+7	사랑	O	I-OG
+8	##나	O	I-OG
+9	##누	O	I-OG
+10	##기	O	I-OG
+11	##는	O	O
+12	지난	B-DT	B-DT
+13	1	I-DT	I-DT
+14	##월	I-DT	I-DT
+15	##에도	O	O
+16	콜	B-TM	B-TM
+17	##레라	I-TM	I-TM
+18	등	O	O
+19	전염병	B-TM	B-TM
+20	##으로	O	O
+21	고통	O	O
+22	##받	O	O
+23	##고	O	O
+24	있	O	O
+25	##는	O	O
+26	짐	B-LC	B-LC
+27	##바	I-LC	I-LC
+28	##브	I-LC	I-LC
+29	##웨	I-LC	I-LC
+30	##에	O	O
+31	1000	B-QT	B-QT
+32	##만	I-QT	I-QT
+33	##원	I-QT	I-QT
+34	##의	O	O
+35	구호	O	O
+36	##기금	O	O
+37	##을	O	O
+38	전달	O	O
+39	##하	O	O
+40	##는	O	O
+41	등	O	O
+42	아프리카	B-LC	B-LC
+43	주민	B-CV	B-CV
+44	##들	O	O
+45	##을	O	O
+46	위한	O	O
+47	도움	O	O
+48	##의	O	O
+49	손길	O	O
+50	##을	O	O
+51	지속	O	O
+52	##적	O	O
+53	##으로	O	O
+54	전하	O	O
+55	##고	O	O
+56	있	O	O
+57	##다	O	O
+58	.	O	O
+59	[SEP]	O	O

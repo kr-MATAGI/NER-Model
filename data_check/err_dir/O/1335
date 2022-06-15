@@ -1,52 +1,73 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	조선	B-OG	B-OG	B-OG, B-AF, O, B-PS, B-LC
-2	##신보	I-OG	I-OG	I-OG, I-AF, O, I-LC, I-PS
-3	##는	O	O	O, I-OG, I-AF, I-EV, I-QT
-4	이어	O	O	O, B-LC, B-OG, B-TM, B-CV
-5	“	O	O	O, B-LC, B-CV, B-OG, B-TM
-6	5	B-DT	B-DT	B-DT, O, I-DT, B-OG, B-LC
-7	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-8	##간	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-9	다음	O	O	O, I-DT, B-TM, B-LC, B-DT
-10	과제	O	O	O, B-LC, I-DT, B-CV, B-PS
-11	##인	O	O	O, B-LC, B-PS, B-TM, B-CV
-12	정지	O	B-TM	B-TM, O, B-TR, I-TM, B-OG
-13	##위성	B-TM	I-TM	I-TM, O, B-TM, I-TR, I-OG
-14	개발	O	O	O, I-TM, B-LC, B-TM, I-QT
-15	##에	O	O	O, B-CV, B-LC, B-OG, B-PS
-16	착수	O	O	O, B-LC, B-TM, B-CV, B-OG
-17	##하	O	O	O, B-LC, B-OG, B-PS, B-CV
-18	##며	O	O	O, B-LC, B-OG, B-TM, B-QT
-19	‘	O	O	O, B-TM, B-LC, B-AF, B-CV
-20	광명	B-TM	B-TM	B-TM, B-AF, O, I-TM, B-LC
-21	##성	I-TM	I-TM	I-TM, I-AF, O, I-TR, I-LC
-22	##3	B-QT	B-QT	B-QT, I-TM, I-AF, I-QT, I-LC
-23	##호	I-QT	I-QT	I-QT, I-AF, I-TM, I-LC, O
-24	’	O	O	O, I-QT, I-AF, I-TM, B-CV
-25	를	O	O	O, B-CV, B-TM, B-LC, B-PS
-26	탑재	O	O	O, B-TM, B-CV, B-LC, B-AF
-27	##한	O	O	O, B-LC, B-PS, B-AF, B-TM
-28	‘	O	O	O, B-AF, B-LC, B-TM, B-CV
-29	은하	B-TM	B-AF	B-AF, B-TM, B-LC, B-QT, O
-30	##3	B-QT	B-QT	B-QT, I-AF, I-QT, I-TM, I-LC
-31	##호	I-QT	I-QT	I-QT, I-AF, I-TM, I-LC, B-QT
-32	’	O	O	O, I-QT, I-AF, I-TM, I-EV
-33	보다	O	O	O, B-QT, B-CV, B-LC, B-TM
-34	더	O	O	O, B-QT, B-TM, B-LC, B-CV
-35	큰	O	O	O, B-TM, B-AF, B-QT, B-LC
-36	대형	O	O	O, B-TM, B-AF, B-AM, B-CV
-37	운반	O	B-AF	B-AF, O, I-AF, B-TM, B-AM
-38	##로	B-AF	I-AF	I-AF, O, B-AF, I-TM, I-CV
-39	##켓	I-AF	I-AF	I-AF, O, I-TM, I-CV, I-AM
-40	개발	O	O	O, I-AF, I-TM, B-TM, B-LC
-41	##이	O	O	O, B-PS, B-LC, B-OG, B-TM
-42	시작	O	O	O, B-TM, B-CV, B-LC, B-OG
-43	##된	O	O	O, B-LC, B-CV, B-OG, B-TM
-44	##다	O	O	O, B-LC, B-CV, B-TM, I-OG
-45	”	O	O	O, B-CV, B-TM, B-LC, B-OG
-46	고	O	O	O, B-CV, B-LC, B-TM, B-OG
-47	덧붙였	O	O	O, B-TM, B-OG, B-CV, B-QT
-48	##다	O	O	O, B-CV, I-OG, B-TM, I-QT
-49	.	O	O	O, B-LC, B-TM, B-OG, B-CV
-50	[SEP]	O	O	O, B-TM, B-LC, B-CV, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	이에	O	O
+2	대해	O	O
+3	유진	O	B-OG
+4	##기업	O	I-OG
+5	외의	O	O
+6	주주	O	O
+7	##사	O	O
+8	##들	O	O
+9	##은	O	O
+10	“	O	O
+11	복권	O	B-OG
+12	##위	O	I-OG
+13	##가	O	O
+14	SG	B-OG	B-OG
+15	&	I-OG	I-OG
+16	G	I-OG	I-OG
+17	,	O	O
+18	윈	B-OG	B-OG
+19	##디	I-OG	I-OG
+20	##플랜	I-OG	I-OG
+21	등이	O	O
+22	나눔	B-OG	B-OG
+23	##로	I-OG	I-OG
+24	##또	I-OG	I-OG
+25	##와	O	O
+26	체결	O	O
+27	##한	O	O
+28	확	O	O
+29	##약	O	O
+30	##서	O	O
+31	##나	O	O
+32	약정	O	O
+33	##서	O	O
+34	##의	O	O
+35	법	O	O
+36	##적	O	O
+37	효력	O	O
+38	##에	O	O
+39	대해	O	O
+40	유권	O	O
+41	##해	O	O
+42	##석	O	O
+43	##을	O	O
+44	내리	O	O
+45	##지	O	O
+46	않	O	O
+47	##는	O	O
+48	등	O	O
+49	제대로	O	O
+50	된	O	O
+51	조정	O	O
+52	##역	O	O
+53	##할	O	O
+54	##을	O	O
+55	하지	O	O
+56	않	O	O
+57	##아	O	O
+58	사업	O	O
+59	##이	O	O
+60	표류	O	O
+61	##하	O	O
+62	##고	O	O
+63	있	O	O
+64	##다	O	O
+65	”	O	O
+66	고	O	O
+67	비판	O	O
+68	##했	O	O
+69	##다	O	O
+70	.	O	O
+71	[SEP]	O	O

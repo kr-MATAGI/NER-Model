@@ -1,35 +1,35 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	만년	O	O	O, B-TM, B-CV, B-TR, B-QT
-2	##필	O	O	O, I-TM, B-TM, I-CV, I-QT
-3	·	O	O	O, I-TM, I-OG, I-CV, B-LC
-4	수성	O	B-TM	B-TM, O, B-CV, I-TM, B-TR
-5	##펜	O	I-TM	I-TM, O, B-TM, I-CV, I-QT
-6	##에	O	O	O, I-TM, B-PS, B-CV, B-LC
-7	내	O	O	O, B-TM, B-CV, B-LC, B-PS
-8	얼굴	B-AM	B-TM	B-TM, B-AM, I-TM, O, B-CV
-9	모양	O	I-TM	I-TM, O, B-TM, I-AM, I-TR
-10	##의	O	O	O, I-TM, I-AF, I-OG, I-CV
-11	클	O	O	O, B-CV, B-PS, B-TM, B-LC
-12	##립	O	O	O, I-CV, I-TM, I-LC, I-PS
-13	##이	O	O	O, B-PS, B-LC, B-OG, B-CV
-14	끼워	O	O	O, B-CV, B-PS, B-LC, B-TM
-15	##진	O	O	O, B-PS, B-CV, B-LC, B-TM
-16	‘	O	O	O, B-CV, B-LC, B-OG, B-AF
-17	브라운	O	B-AF	B-AF, B-CV, B-TM, O, B-LC
-18	에디션	O	I-AF	I-AF, O, I-CV, I-TM, B-CV
-19	’	O	O	O, I-AF, I-CV, I-OG, I-TM
-20	은	O	O	O, B-CV, B-LC, B-OG, B-PS
-21	이미	O	O	O, B-LC, B-CV, B-OG, B-TM
-22	완	O	O	O, B-LC, B-CV, B-OG, B-TM
-23	##판	O	O	O, I-OG, I-LC, I-CV, B-LC
-24	##됐	O	O	O, B-LC, B-PS, I-OG, B-CV
-25	##고	O	O	O, B-LC, I-OG, B-PS, B-CV
-26	,	O	O	O, B-LC, B-CV, B-OG, B-PS
-27	재생	O	O	O, B-LC, B-CV, B-OG, B-TM
-28	##산	O	O	O, I-LC, I-CV, I-OG, I-TM
-29	##에	O	O	O, I-OG, B-PS, B-LC, B-CV
-30	들어갔	O	O	O, B-CV, B-LC, B-OG, B-PS
-31	##대	O	O	O, I-OG, B-OG, B-LC, I-AF
-32	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-33	[SEP]	O	O	O, B-LC, B-CV, B-TM, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	‘	O	O
+2	서	B-PS	B-PS
+3	##갑	I-PS	I-PS
+4	##원	I-PS	I-PS
+5	부상	O	B-CV
+6	’	O	O
+7	엔	O	O
+8	손	B-AM	B-AM
+9	##놓	O	O
+10	##고	O	O
+11	…	O	O
+12	‘	O	O
+13	차명	B-PS	B-PS
+14	##진	I-PS	I-PS
+15	부상	O	B-CV
+16	’	O	O
+17	은	O	O
+18	수사	O	O
+19	##의	O	O
+20	##뢰	O	O
+21	/	O	O
+22	국회	B-OG	B-OG
+23	##사	I-OG	I-OG
+24	##무	I-OG	I-OG
+25	##처	I-OG	I-OG
+26	,	O	O
+27	폭행	O	O
+28	##사건	O	O
+29	‘	O	O
+30	여야	O	O
+31	차별	O	O
+32	’	O	O
+33	[SEP]	O	O

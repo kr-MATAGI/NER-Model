@@ -1,12 +1,35 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-AF
-1	[UNK]	O	O	O, B-LC, B-OG, B-CV, B-TM
-2	뉴질랜드	B-LC	B-LC	B-LC, O, B-OG, B-AF, B-PS
-3	17	B-OG	B-QT	B-QT, O, I-QT, I-LC, B-LC
-4	##개	I-OG	I-QT	I-QT, O, I-LC, I-PS, I-OG
-5	법인	I-OG	O	O, B-CV, I-QT, B-OG, I-OG
-6	모두	O	O	O, I-OG, I-CV, B-CV, B-TM
-7	페이퍼	O	O	O, B-CV, B-TM, B-AF, B-OG
-8	##컴	O	O	O, I-CV, I-OG, I-TM, I-AF
-9	##퍼니	O	O	O, I-CV, I-OG, I-AF, I-TM
-10	[SEP]	O	O	O, B-CV, I-CV, I-OG, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	권오	B-PS	B-PS
+2	##철	I-PS	I-PS
+3	하이닉스	B-OG	B-OG
+4	##반도	I-OG	I-OG
+5	##체	I-OG	I-OG
+6	대표	B-CV	B-CV
+7	##이	I-CV	I-CV
+8	##사	I-CV	I-CV
+9	사장	B-CV	B-CV
+10	양	O	B-TM
+11	##옆	O	I-TM
+12	##으로	O	O
+13	박상	B-PS	B-PS
+14	##훈	I-PS	I-PS
+15	제조	O	O
+16	총괄	B-CV	B-CV
+17	##부	I-CV	I-CV
+18	##사장	I-CV	I-CV
+19	##과	O	O
+20	김준	B-PS	B-PS
+21	##호	I-PS	I-PS
+22	코퍼	B-OG	O
+23	##레이트	I-OG	O
+24	##센터	I-OG	O
+25	총괄	B-CV	B-CV
+26	##부	I-CV	I-CV
+27	##사장	I-CV	I-CV
+28	##이	O	O
+29	앉	O	O
+30	##았	O	O
+31	##다	O	O
+32	.	O	O
+33	[SEP]	O	O

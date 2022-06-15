@@ -1,47 +1,39 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-EV, B-CV, I-OG, I-CV
-1	그러나	O	O	O, B-OG, B-LC, B-PS, B-CV
-2	미	B-LC	B-LC	B-LC, B-OG, O, B-PS, B-AF
-3	하원	B-OG	B-OG	B-OG, B-LC, I-OG, O, I-LC
-4	세입	B-OG	B-OG	B-OG, O, I-OG, B-CV, B-EV
-5	##위원회	I-OG	I-OG	I-OG, O, I-EV, I-CV, B-OG
-6	##가	O	O	O, I-OG, B-PS, I-EV, B-LC
-7	지난	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-LC
-8	24	I-DT	I-DT	I-DT, O, B-DT, I-PS, I-EV
-9	##일	I-DT	I-DT	I-DT, O, B-DT, I-PS, I-OG
-10	중국	B-LC	B-LC	B-LC, B-OG, O, B-PS, I-DT
-11	##의	O	O	O, I-OG, I-LC, B-LC, B-OG
-12	위안	B-CV	B-CV	B-CV, O, B-AF, B-OG, B-LC
-13	##화	I-CV	I-CV	I-CV, O, I-OG, B-CV, I-AF
-14	절상	O	O	O, I-CV, I-OG, B-CV, B-LC
-15	##을	O	O	O, B-PS, B-LC, B-OG, B-CV
-16	압박	O	O	O, B-CV, B-LC, B-PS, B-TM
-17	##하	O	O	O, B-PS, B-LC, B-CV, B-OG
-18	##는	O	O	O, B-LC, B-CV, B-PS, B-OG
-19	‘	O	O	O, B-CV, B-LC, B-OG, B-PS
-20	환율	O	B-CV	B-CV, O, B-OG, I-CV, B-AF
-21	##개혁	O	I-CV	I-CV, O, B-CV, I-OG, I-AF
-22	##법	O	I-CV	I-CV, O, B-CV, I-OG, I-AF
-23	##안	O	I-CV	I-CV, O, B-CV, I-OG, I-AF
-24	’	O	O	O, I-CV, I-OG, B-PS, B-CV
-25	을	O	O	O, B-LC, B-OG, B-CV, B-PS
-26	통과	O	O	O, B-LC, B-OG, B-CV, B-PS
-27	##시	O	O	O, B-LC, B-OG, B-PS, I-EV
-28	##킨	O	O	O, B-LC, B-PS, B-OG, I-LC
-29	뒤	O	O	O, B-LC, B-PS, I-EV, B-DT
-30	이번	O	O	O, B-LC, B-CV, B-PS, B-OG
-31	조처	O	O	O, B-CV, B-LC, B-PS, I-EV
-32	##를	O	O	O, B-CV, B-PS, B-LC, B-OG
-33	발표	O	O	O, B-CV, B-OG, B-LC, B-PS
-34	##한	O	O	O, B-LC, B-PS, B-OG, B-CV
-35	것	O	O	O, B-OG, B-LC, B-PS, B-CV
-36	##이	O	O	O, B-PS, B-LC, B-OG, B-CV
-37	##라	O	O	O, B-OG, B-LC, B-PS, B-CV
-38	경고	O	O	O, B-CV, B-LC, B-PS, B-OG
-39	##적	O	O	O, B-PS, B-LC, I-EV, I-CV
-40	성격	O	O	O, B-CV, B-PS, B-LC, B-OG
-41	##이	O	O	O, B-PS, B-OG, B-LC, B-CV
-42	묻	O	O	O, B-CV, B-LC, B-PS, B-OG
-43	##어난다	O	O	O, B-CV, B-PS, B-LC, I-EV
-44	.	O	O	O, B-LC, B-PS, B-OG, B-CV
-45	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	J	O	O
+2	##씨	O	O
+3	##는	O	O
+4	4	B-DT	B-DT
+5	##년	I-DT	I-DT
+6	##동안	I-DT	I-DT
+7	48	B-QT	B-QT
+8	##차례	I-QT	I-QT
+9	납부	O	O
+10	##한	O	O
+11	상태	O	O
+12	##에	O	O
+13	##서	O	O
+14	4	B-QT	B-QT
+15	##개	I-QT	I-QT
+16	계좌	O	O
+17	##를	O	O
+18	한	O	B-QT
+19	계좌	O	I-QT
+20	##로	O	O
+21	통합	O	O
+22	##해	O	O
+23	줄	O	O
+24	것	O	O
+25	##을	O	O
+26	상조	O	O
+27	##업체	O	O
+28	##에	O	O
+29	요구	O	O
+30	##했	O	O
+31	##으나	O	O
+32	거절	O	O
+33	##당	O	O
+34	##했	O	O
+35	##다	O	O
+36	.	O	O
+37	[SEP]	O	O

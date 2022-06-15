@@ -1,18 +1,62 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-EV, I-CV, I-OG
-1	그러나	O	O	O, B-CV, B-LC, B-QT, B-TM
-2	유로	O	B-CV	B-CV, O, B-AF, B-MT, B-TM
-3	##시스	O	O	O, I-CV, I-AF, I-TM, B-CV
-4	##템	O	O	O, I-CV, I-AF, I-TM, I-OG
-5	##의	O	O	O, I-CV, I-AF, I-EV, I-TM
-6	붕괴	O	O	O, B-CV, B-EV, I-EV, B-LC
-7	##와	O	O	O, I-EV, B-CV, I-CV, B-PS
-8	같	O	O	O, B-CV, B-LC, B-TM, B-PS
-9	##은	O	O	O, B-LC, B-PS, B-CV, B-OG
-10	그러	O	O	O, B-CV, B-LC, B-EV, B-OG
-11	##한	O	O	O, B-LC, B-PS, B-CV, B-OG
-12	최악	O	O	O, B-CV, B-QT, B-EV, B-DT
-13	상황	O	O	O, I-EV, B-CV, I-QT, I-CV
-14	##은	O	O	O, B-CV, I-EV, B-OG, B-LC
-15	어	O	O	O, B-CV, B-LC, B-AF, B-OG
-16	[SEP]	O	O	O, B-CV, I-CV, I-EV, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	이	B-PS	B-PS
+2	전	O	O
+3	의원	B-CV	B-CV
+4	##은	O	O
+5	“	O	O
+6	친	O	O
+7	##이	O	O
+8	##계	O	O
+9	인사	O	B-CV
+10	##는	O	O
+11	물론	O	O
+12	##이	O	O
+13	##고	O	O
+14	민주당	B-OG	B-OG
+15	전직	O	O
+16	의원	B-CV	B-CV
+17	##들	O	O
+18	##도	O	O
+19	김	B-PS	B-PS
+20	전	O	O
+21	총리	B-CV	B-CV
+22	##를	O	O
+23	돕	O	O
+24	##겠다	O	O
+25	##는	O	O
+26	의사	O	O
+27	##를	O	O
+28	전해	O	O
+29	##왔	O	O
+30	##다	O	O
+31	”	O	O
+32	며	O	O
+33	“	O	O
+34	친	O	O
+35	##박	O	O
+36	,	O	O
+37	친	O	O
+38	##이	O	O
+39	,	O	O
+40	DJ	B-PS	B-PS
+41	##계	O	O
+42	##를	O	O
+43	아우르	O	O
+44	##는	O	O
+45	다국적	O	O
+46	연합군	O	O
+47	##으로	O	O
+48	캠프	O	O
+49	##가	O	O
+50	꾸려	O	O
+51	##질	O	O
+52	것	O	O
+53	##이다	O	O
+54	”	O	O
+55	라고	O	O
+56	말	O	O
+57	##했	O	O
+58	##다	O	O
+59	.	O	O
+60	[SEP]	O	O

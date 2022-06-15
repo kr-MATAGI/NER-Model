@@ -1,38 +1,17 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	인피니티	B-AF	B-AF	B-AF, B-OG, O, B-TM, B-PS
-2	##는	O	O	O, I-OG, I-AF, I-EV, B-CV
-3	겨울철	B-DT	B-DT	B-DT, O, B-TI, B-EV, I-DT
-4	고객	B-CV	B-CV	B-CV, O, I-DT, I-CV, B-EV
-5	##들	O	O	O, I-CV, I-EV, I-AF, B-CV
-6	##의	O	O	O, B-LC, B-CV, B-PS, B-TM
-7	안전	O	O	O, B-LC, B-TM, B-CV, B-AF
-8	##하고	O	O	O, B-LC, B-PS, B-OG, B-TM
-9	쾌적	O	O	O, B-LC, B-TM, B-CV, B-AF
-10	##한	O	O	O, B-LC, B-PS, B-TM, B-OG
-11	주행	O	O	O, B-LC, B-CV, B-TM, B-AF
-12	##을	O	O	O, B-PS, B-CV, I-AF, B-LC
-13	위해	O	O	O, B-LC, B-TM, B-OG, B-PS
-14	18	B-DT	B-DT	B-DT, I-DT, O, B-QT, B-CV
-15	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-16	##부터	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-17	다음	I-DT	I-DT	I-DT, B-DT, O, I-QT, B-CV
-18	달	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-CV
-19	20	I-DT	I-DT	I-DT, B-DT, O, I-QT, I-OG
-20	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-OG
-21	##까	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-OG
-22	##지	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-23	‘	O	O	O, I-DT, B-CV, B-LC, B-OG
-24	인피니티	B-EV	B-EV	B-EV, B-AF, B-TM, O, B-OG
-25	겨울철	I-EV	B-DT	B-DT, I-EV, B-EV, I-DT, I-AF
-26	무상	I-EV	O	O, I-EV, I-DT, I-TM, I-AF
-27	##점	I-EV	O	O, I-EV, I-CV, I-TM, I-TR
-28	##검	I-EV	O	O, I-EV, I-TM, I-CV, I-TR
-29	서비스	I-EV	O	O, I-EV, I-TM, I-CV, I-TR
-30	캠페인	I-EV	O	O, I-EV, I-TM, I-TR, I-CV
-31	’	O	O	O, I-EV, I-TM, I-OG, I-CV
-32	을	O	O	O, B-CV, B-OG, B-LC, I-EV
-33	진행	O	O	O, B-CV, B-OG, B-LC, B-TM
-34	##한다	O	O	O, B-OG, B-CV, B-LC, B-TM
-35	.	O	O	O, B-LC, B-OG, B-CV, I-OG
-36	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	시민	B-EV	O
+2	##혁명	I-EV	O
+3	##이	O	O
+4	시작	O	O
+5	##된	O	O
+6	정국	O	O
+7	##인	O	O
+8	##데	O	O
+9	뭐	O	O
+10	과거	O	O
+11	##의	O	O
+12	일	O	O
+13	가지	O	O
+14	##고	O	O
+15	[SEP]	O	O

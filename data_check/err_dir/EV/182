@@ -1,35 +1,36 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-EV, I-CV
-1	1	B-TI	B-TI	B-TI, B-QT, O, B-EV, I-TI
-2	##시	I-TI	I-TI	I-TI, B-TI, I-QT, I-EV, O
-3	30	I-TI	I-TI	I-TI, B-TI, I-QT, O, I-TR
-4	##분	I-TI	I-TI	I-TI, O, I-QT, B-TI, I-TR
-5	##부터	I-TI	I-TI	I-TI, O, B-TI, I-QT, I-TR
-6	5	I-TI	I-TI	I-TI, B-TI, I-QT, O, I-TR
-7	##시	I-TI	I-TI	I-TI, O, I-QT, B-TI, I-TR
-8	30	I-TI	I-TI	I-TI, B-TI, O, I-QT, I-TR
-9	##분	I-TI	I-TI	I-TI, O, B-TI, I-QT, I-TR
-10	##까	I-TI	I-TI	I-TI, O, B-TI, I-QT, I-TR
-11	##지	I-TI	I-TI	I-TI, O, I-TR, I-QT, B-TI
-12	올림피아	B-EV	B-EV	B-EV, O, I-EV, B-AF, I-TI
-13	##드	I-EV	I-EV	I-EV, O, I-AF, I-TI, B-EV
-14	시험	I-EV	O	O, I-EV, B-EV, I-AF, I-OG
-15	##을	O	O	O, I-EV, I-AF, I-OG, B-CV
-16	치르	O	O	O, B-CV, B-LC, B-OG, I-EV
-17	##는	O	O	O, B-LC, B-CV, B-OG, B-PS
-18	4	B-TI	B-TI	B-TI, B-EV, O, B-QT, I-TI
-19	##시간	I-TI	I-TI	I-TI, O, I-EV, B-TI, I-QT
-20	내내	O	I-TI	I-TI, O, I-DT, B-TI, I-QT
-21	부모	B-CV	B-CV	B-CV, O, B-OG, I-CV, B-TM
-22	##들	O	O	O, I-CV, I-AF, I-EV, B-CV
-23	##도	O	O	O, B-CV, B-LC, B-TM, B-PS
-24	시험장	O	O	O, B-LC, B-CV, B-AF, B-TM
-25	밖에	O	O	O, B-TM, B-LC, B-CV, B-QT
-26	##서	O	O	O, B-PS, B-CV, B-LC, B-TM
-27	마음	O	O	O, B-TM, B-CV, B-PS, B-AM
-28	##을	O	O	O, B-CV, B-PS, B-OG, B-TM
-29	졸	O	O	O, B-TM, B-CV, B-LC, B-PS
-30	##였	O	O	O, B-CV, B-PS, B-OG, I-AF
-31	##다	O	O	O, B-CV, B-TM, I-AF, I-OG
-32	.	O	O	O, B-LC, B-PS, B-CV, I-EV
-33	[SEP]	O	O	O, B-LC, B-CV, I-EV, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	제스	B-PS	B-PS
+2	가족	B-CV	B-CV
+3	##은	O	O
+4	탠	B-PS	B-PS
+5	##지	I-PS	I-PS
+6	##를	O	O
+7	스코틀랜드	B-LC	B-LC
+8	##에	O	O
+9	##서	O	O
+10	열리	O	O
+11	##는	O	O
+12	수학	B-EV	B-FD
+13	올림피아	I-EV	B-EV
+14	##드	I-EV	I-EV
+15	##에	O	O
+16	참가	O	O
+17	##시	O	O
+18	##켜	O	O
+19	우승	O	O
+20	##상	O	O
+21	##금	O	O
+22	5000	B-QT	B-QT
+23	##파	I-QT	I-QT
+24	##운드	I-QT	I-QT
+25	##로	O	O
+26	학비	O	O
+27	##를	O	O
+28	해결	O	O
+29	##하	O	O
+30	##기	O	O
+31	##로	O	O
+32	한다	O	O
+33	.	O	O
+34	[SEP]	O	O

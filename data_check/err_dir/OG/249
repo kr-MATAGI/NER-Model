@@ -1,25 +1,26 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	그러나	O	O	O, B-OG, B-CV, B-PS, B-QT
-2	윤	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-3	장관	B-CV	B-CV	B-CV, O, I-PS, I-CV, B-OG
-4	##은	O	O	O, I-CV, B-CV, I-EV, I-OG
-5	12	B-OG	B-DT	B-DT, O, B-OG, I-DT, B-EV
-6	·	I-OG	I-DT	I-DT, O, I-OG, I-EV, I-QT
-7	28	I-OG	I-DT	I-DT, O, I-OG, I-EV, I-QT
-8	합의	I-OG	I-DT	I-DT, O, I-OG, I-EV, I-QT
-9	이후	O	I-DT	I-DT, O, I-OG, I-EV, I-QT
-10	단	O	O	O, I-DT, I-EV, I-OG, I-QT
-11	한번	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-LC
-12	##도	O	O	O, I-QT, I-DT, I-EV, I-LC
-13	이	O	O	O, B-PS, B-OG, B-CV, B-TM
-14	방침	O	O	O, B-CV, B-OG, I-QT, B-TM
-15	##을	O	O	O, B-CV, B-PS, B-OG, B-LC
-16	언급	O	O	O, B-CV, B-TM, B-QT, B-LC
-17	##한	O	O	O, B-CV, B-PS, B-DT, B-LC
-18	적	O	O	O, B-CV, B-QT, B-PS, B-LC
-19	##이	O	O	O, B-PS, B-CV, B-LC, B-OG
-20	없	O	O	O, B-CV, B-TM, B-LC, B-QT
-21	##다	O	O	O, B-CV, B-TM, B-OG, B-QT
-22	.	O	O	O, B-CV, B-PS, B-OG, B-LC
-23	[SEP]	O	O	O, B-CV, B-OG, B-PS, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	교육부	B-OG	B-OG
+2	##의	O	O
+3	사학	B-OG	O
+4	##법인	I-OG	O
+5	책무	O	O
+6	##성	O	O
+7	평가	O	O
+8	##에	O	O
+9	##서	O	O
+10	만점	O	B-QT
+11	##을	O	O
+12	받	O	O
+13	##은	O	O
+14	학교	O	O
+15	##가	O	O
+16	육	B-QT	B-QT
+17	##십	I-QT	I-QT
+18	##오	I-QT	I-QT
+19	퍼센트	I-QT	I-QT
+20	##인	O	O
+21	것	O	O
+22	##으로	O	O
+23	나타나	O	O
+24	[SEP]	O	O

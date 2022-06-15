@@ -1,35 +1,20 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-EV, B-CV, I-CV
-1	오	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-QT
-2	##는	I-DT	I-DT	I-DT, O, B-DT, I-EV, I-QT
-3	6	I-DT	I-DT	I-DT, B-DT, O, I-EV, I-QT
-4	##월	I-DT	I-DT	I-DT, O, I-EV, B-DT, I-QT
-5	2	I-DT	I-DT	I-DT, O, B-DT, I-EV, I-QT
-6	##일	I-DT	I-DT	I-DT, O, I-EV, B-DT, I-QT
-7	실시	O	O	O, I-DT, I-EV, B-CV, B-EV
-8	##되	O	O	O, B-LC, I-EV, B-PS, B-OG
-9	##는	O	O	O, B-LC, B-EV, I-EV, B-OG
-10	제	B-QT	B-QT	B-QT, O, B-EV, I-QT, B-DT
-11	##5	I-QT	I-QT	I-QT, I-EV, B-QT, O, I-LC
-12	##회	I-QT	I-QT	I-QT, I-EV, O, I-LC, B-QT
-13	전국	O	B-EV	B-EV, O, B-LC, I-EV, I-QT
-14	##동	O	I-EV	I-EV, O, B-LC, I-LC, B-EV
-15	##시	O	I-EV	I-EV, I-LC, O, B-LC, I-OG
-16	지방	B-EV	I-EV	I-EV, B-EV, O, B-LC, I-LC
-17	##선거	I-EV	I-EV	I-EV, O, I-LC, B-EV, I-AF
-18	##에서	O	O	O, I-EV, I-AF, I-OG, I-LC
-19	유권자	B-CV	B-CV	B-CV, O, B-OG, I-CV, B-AF
-20	##들	O	O	O, I-CV, I-OG, I-EV, I-AF
-21	##은	O	O	O, B-CV, B-QT, B-TM, B-OG
-22	모두	O	O	O, B-QT, B-CV, B-TM, B-PS
-23	8	B-QT	B-QT	B-QT, O, I-QT, B-EV, B-DT
-24	##장	I-QT	I-QT	I-QT, O, I-EV, I-LC, B-QT
-25	##의	O	O	O, I-QT, I-EV, I-OG, I-AF
-26	투표	O	O	O, B-TM, B-CV, B-AF, B-MT
-27	##용지	O	O	O, I-TM, I-LC, B-MT, I-CV
-28	##를	O	O	O, B-CV, I-AF, I-TM, I-EV
-29	받	O	O	O, B-CV, B-TM, B-OG, B-QT
-30	##게	O	O	O, B-QT, B-CV, B-LC, I-OG
-31	된다	O	O	O, B-CV, B-QT, B-LC, I-EV
-32	.	O	O	O, B-LC, B-CV, I-EV, B-OG
-33	[SEP]	O	O	O, B-CV, B-LC, I-EV, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	지역인	O	B-CV
+2	##재	O	I-CV
+3	할당	O	I-CV
+4	##제	O	I-CV
+5	##는	O	O
+6	문	B-PS	B-PS
+7	대통령	B-CV	B-CV
+8	##이	O	O
+9	대선	B-EV	B-EV
+10	후보	B-CV	B-CV
+11	시절	O	O
+12	##부터	O	O
+13	강조	O	O
+14	##한	O	O
+15	사항	O	O
+16	##이다	O	O
+17	.	O	O
+18	[SEP]	O	O

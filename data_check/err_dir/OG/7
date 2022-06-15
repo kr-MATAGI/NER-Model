@@ -1,17 +1,55 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, B-CV, I-OG, I-EV
-1	“	O	O	O, B-CV, B-LC, B-OG, B-PS
-2	한일	B-OG	B-OG	B-OG, O, B-LC, B-CV, B-AF
-3	##협	I-OG	O	O, I-OG, I-LC, I-CV, B-OG
-4	##정	I-OG	O	O, I-OG, I-CV, I-LC, I-AF
-5	체결	O	O	O, I-OG, I-CV, I-AF, I-EV
-6	##과	O	O	O, B-LC, I-OG, B-CV, B-PS
-7	##정	O	O	O, B-LC, B-CV, B-OG, B-PS
-8	밝혀	O	O	O, B-LC, B-OG, B-CV, B-PS
-9	갈등	O	O	O, B-LC, B-CV, B-TM, B-PS
-10	##현	O	O	O, B-LC, B-CV, B-PS, B-FD
-11	##안	O	O	O, B-LC, I-LC, I-CV, B-PS
-12	풀	O	O	O, B-LC, B-PS, B-CV, B-OG
-13	##자	O	O	O, B-LC, I-CV, I-LC, B-CV
-14	”	O	O	O, B-CV, B-PS, B-LC, B-OG
-15	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	특히	O	O
+2	,	O	O
+3	맥	B-PS	B-PS
+4	##팔	I-PS	I-PS
+5	##런	I-PS	I-PS
+6	##드	I-PS	I-PS
+7	부	B-CV	B-CV
+8	##보	I-CV	I-CV
+9	##좌	I-CV	I-CV
+10	##관	I-CV	I-CV
+11	##은	O	O
+12	이	O	O
+13	자리	O	O
+14	##에	O	O
+15	##서	O	O
+16	미국	B-OG	B-OG
+17	##이	O	O
+18	북한	B-OG	B-LC
+19	##을	O	O
+20	핵	B-AF	B-AF
+21	##보	O	O
+22	##유국	O	O
+23	##으로	O	O
+24	인정	O	O
+25	##하	O	O
+26	##는	O	O
+27	방안	O	O
+28	##부터	O	O
+29	북한	B-OG	B-LC
+30	##에	O	O
+31	대한	O	O
+32	군사	O	O
+33	##행	O	O
+34	##동	O	O
+35	##을	O	O
+36	하	O	O
+37	##는	O	O
+38	방안	O	O
+39	##에	O	O
+40	이르	O	O
+41	##기	O	O
+42	##까	O	O
+43	##지	O	O
+44	모든	O	O
+45	옵션	O	O
+46	##을	O	O
+47	내	O	O
+48	##도록	O	O
+49	지시	O	O
+50	##했	O	O
+51	##다	O	O
+52	.	O	O
+53	[SEP]	O	O

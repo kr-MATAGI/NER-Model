@@ -1,15 +1,49 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, I-OG, B-CV, I-AF
-1	꼭	O	O	O, B-CV, B-PS, B-LC, B-OG
-2	당내	O	O	O, B-OG, B-LC, B-EV, B-CV
-3	##에서	O	O	O, I-OG, B-PS, I-EV, B-CV
-4	한	O	B-QT	B-QT, O, B-PS, I-QT, B-EV
-5	번	O	I-QT	I-QT, O, B-QT, I-LC, I-PS
-6	끝	O	O	O, I-QT, B-PS, B-CV, B-LC
-7	##까	O	O	O, I-QT, B-PS, B-QT, I-LC
-8	##지	O	O	O, I-QT, I-PS, I-LC, B-QT
-9	해	O	O	O, B-LC, B-CV, B-PS, B-QT
-10	보	O	O	O, B-PS, B-EV, B-CV, B-OG
-11	##자	O	O	O, I-EV, B-CV, I-QT, I-OG
-12	.	O	O	O, B-CV, B-LC, B-PS, I-EV
-13	[SEP]	O	O	O, B-CV, B-QT, B-LC, I-QT
+	text	label	preds
+0	[CLS]	O	O
+1	2013	B-DT	B-DT
+2	##년	I-DT	I-DT
+3	##부터	I-DT	I-DT
+4	강의	O	O
+5	##한	O	O
+6	‘	O	O
+7	분자	O	B-FD
+8	##요	O	I-FD
+9	##리학	O	I-FD
+10	’	O	O
+11	수업	O	O
+12	내용	O	O
+13	##을	O	O
+14	묶	O	O
+15	##은	O	O
+16	이	O	O
+17	책	O	O
+18	##은	O	O
+19	얼핏	O	O
+20	보	O	O
+21	##면	O	O
+22	최근	O	O
+23	우리	O	O
+24	사회	O	O
+25	##의	O	O
+26	요리	O	O
+27	붐	O	O
+28	##에	O	O
+29	발맞춰	O	O
+30	과학	O	O
+31	##에	O	O
+32	근거	O	O
+33	##한	O	O
+34	이야기	O	O
+35	##를	O	O
+36	첨가	O	O
+37	##해	O	O
+38	엮	O	O
+39	##은	O	O
+40	,	O	O
+41	흔한	O	O
+42	읽	O	O
+43	##을거리	O	O
+44	##로	O	O
+45	보인다	O	O
+46	.	O	O
+47	[SEP]	O	O

@@ -1,42 +1,40 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-QT
-1	특수	B-OG	B-OG	B-OG, O, B-CV, B-AF, B-FD
-2	##수	I-OG	I-OG	I-OG, O, I-CV, I-FD, B-OG
-3	##사	I-OG	I-OG	I-OG, O, I-CV, I-FD, B-OG
-4	##과	I-OG	I-OG	I-OG, O, I-CV, I-FD, I-QT
-5	##의	O	O	O, I-OG, I-CV, I-AF, B-PS
-6	전신	O	O	O, B-QT, B-DT, B-OG, B-CV
-7	##인	O	O	O, B-PS, I-DT, I-QT, B-CV
-8	이른바	O	O	O, B-OG, B-LC, B-CV, B-PS
-9	'	O	O	O, B-OG, B-LC, B-CV, B-PS
-10	사직	B-LC	B-LC	B-LC, B-OG, O, B-AF, B-PS
-11	##동	I-LC	I-LC	I-LC, I-OG, O, I-AF, I-PS
-12	##팀	O	I-OG	I-OG, O, I-LC, B-OG, I-AF
-13	(	O	O	O, I-OG, I-AF, I-LC, B-CV
-14	경찰청	B-OG	B-OG	B-OG, B-AF, O, B-CV, B-LC
-15	조사	O	O	O, B-OG, I-OG, B-CV, B-LC
-16	##과	O	O	O, I-OG, I-CV, I-LC, I-AF
-17	)	O	O	O, I-OG, B-CV, B-OG, I-CV
-18	'	O	O	O, B-OG, B-CV, B-PS, B-LC
-19	은	O	O	O, B-OG, B-PS, B-CV, B-LC
-20	과거	O	O	O, B-DT, B-LC, B-PS, B-OG
-21	김대중	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
-22	정부	B-OG	B-OG	B-OG, I-OG, O, I-PS, B-CV
-23	시절	O	O	O, I-OG, I-DT, B-CV, B-OG
-24	청와대	B-OG	B-OG	B-OG, B-AF, O, B-LC, B-EV
-25	##의	O	O	O, I-OG, I-AF, B-PS, I-EV
-26	하	O	O	O, B-CV, B-PS, B-LC, B-EV
-27	##명	O	O	O, I-PS, I-CV, I-LC, I-EV
-28	(	O	O	O, I-CV, B-CV, B-LC, I-EV
-29	下	O	O	O, B-LC, B-PS, B-CV, B-TM
-30	命	O	O	O, B-PS, B-LC, I-PS, I-LC
-31	)	O	O	O, B-LC, B-CV, B-PS, B-OG
-32	수사	O	O	O, B-CV, B-PS, B-LC, B-TM
-33	##를	O	O	O, B-CV, B-PS, B-LC, B-OG
-34	전담	O	O	O, B-CV, B-OG, B-LC, B-TM
-35	##한	O	O	O, B-LC, B-OG, B-PS, B-CV
-36	바	O	O	O, B-LC, B-CV, B-OG, B-TM
-37	있	O	O	O, B-OG, B-CV, B-LC, B-TM
-38	##다	O	O	O, B-CV, B-OG, B-LC, I-OG
-39	.	O	O	O, B-LC, B-OG, B-CV, B-PS
-40	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	보	O	O
+2	##송	O	O
+3	##보	O	O
+4	##송	O	O
+5	##한	O	O
+6	털	O	B-AM
+7	,	O	O
+8	꿀	O	B-CV
+9	##처럼	O	O
+10	노란	O	O
+11	눈	B-AM	B-AM
+12	,	O	O
+13	모	O	O
+14	##난	O	O
+15	데	O	O
+16	하나	O	O
+17	없이	O	O
+18	동	O	O
+19	##글	O	O
+20	##동	O	O
+21	##글	O	O
+22	##한	O	O
+23	새끼	O	O
+24	늑대	B-AM	B-AM
+25	##에	O	O
+26	##게	O	O
+27	20	B-QT	B-QT
+28	##대	I-QT	I-QT
+29	철학자	B-CV	B-CV
+30	##는	O	O
+31	한눈	O	O
+32	##에	O	O
+33	반	O	O
+34	##해	O	O
+35	##버린	O	O
+36	##다	O	O
+37	.	O	O
+38	[SEP]	O	O

@@ -1,29 +1,26 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-AF
-1	서울	B-LC	B-LC	B-LC, O, B-OG, B-AF, B-PS
-2	중랑	B-LC	B-LC	B-LC, I-LC, O, B-OG, B-AF
-3	##구	I-LC	I-LC	I-LC, O, B-LC, I-OG, I-AF
-4	##에	O	O	O, I-LC, I-OG, I-AF, I-PS
-5	있	O	O	O, B-CV, B-PS, B-OG, B-AF
-6	##는	O	O	O, B-PS, I-AF, B-CV, I-OG
-7	현안	B-OG	O	O, B-OG, B-CV, B-AF, B-PS
-8	##과	I-OG	O	O, I-OG, B-CV, I-CV, B-OG
-9	##의원	I-OG	O	O, I-OG, I-CV, I-AF, I-PS
-10	관계자	B-CV	B-CV	B-CV, I-CV, O, I-OG, B-FD
-11	##는	O	O	O, I-CV, I-OG, I-AF, B-CV
-12	“	O	O	O, B-CV, B-LC, B-OG, B-TM
-13	평소	O	O	O, B-DT, B-CV, I-DT, B-PS
-14	##보	O	O	O, I-DT, B-DT, B-CV, B-PS
-15	##다	O	O	O, I-DT, B-DT, B-QT, B-TI
-16	10	B-QT	B-QT	B-QT, I-QT, O, B-DT, B-TI
-17	~	I-QT	I-QT	I-QT, O, I-DT, B-QT, I-LC
-18	20	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-DT
-19	%	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-20	정도	I-QT	I-QT	I-QT, O, I-LC, I-PS, I-DT
-21	환자	B-CV	B-CV	B-CV, O, I-QT, B-OG, I-CV
-22	##들이	O	O	O, I-CV, I-QT, B-CV, I-OG
-23	늘	O	O	O, B-CV, B-OG, B-TM, I-CV
-24	##었	O	O	O, B-CV, I-AF, I-OG, I-CV
-25	##다	O	O	O, B-CV, I-OG, I-AF, I-CV
-26	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-27	[SEP]	O	O	O, B-CV, B-LC, I-OG, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	그	O	O
+2	##는	O	O
+3	이	O	O
+4	단체	O	O
+5	##에	O	O
+6	##서	O	O
+7	내	O	O
+8	##는	O	O
+9	국군	B-OG	B-AF
+10	포로	B-CV	I-AF
+11	백서	O	I-AF
+12	##를	O	O
+13	보고	O	O
+14	""""	O	O
+15	놀라	O	O
+16	##웠	O	O
+17	##다	O	O
+18	""""	O	O
+19	고	O	O
+20	말	O	O
+21	##했	O	O
+22	##다	O	O
+23	.	O	O
+24	[SEP]	O	O

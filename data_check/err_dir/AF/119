@@ -1,25 +1,65 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-QT
-1	드라마	O	O	O, B-FD, B-CV, B-QT, I-FD
-2	##뿐	O	O	O, I-OG, B-CV, B-FD, B-TM
-3	아니	O	O	O, B-OG, B-CV, B-TM, B-LC
-4	##라	O	O	O, B-OG, B-LC, B-CV, B-FD
-5	예능	O	O	O, B-FD, B-CV, I-FD, B-TM
-6	##에서	O	O	O, B-CV, B-PS, B-LC, I-AF
-7	##도	O	O	O, B-LC, B-PS, B-CV, B-OG
-8	이런	O	O	O, B-LC, B-TM, B-CV, B-AF
-9	'	O	O	O, B-CV, B-LC, B-OG, B-PS
-10	메이	B-AF	B-AF	B-AF, O, B-PS, B-CV, B-TM
-11	##킹	I-AF	O	O, I-AF, I-PS, I-CV, I-TM
-12	##필	I-AF	O	O, I-AF, I-PS, I-CV, I-TM
-13	##름	I-AF	O	O, I-AF, I-PS, I-CV, I-TM
-14	##쇼	I-AF	O	O, I-AF, I-PS, I-CV, I-TM
-15	'	O	O	O, I-AF, I-CV, I-EV, B-CV
-16	가	O	O	O, B-PS, B-LC, B-OG, I-AF
-17	속속	O	O	O, B-LC, B-QT, B-PS, B-TM
-18	나오	O	O	O, B-CV, B-OG, B-LC, B-TM
-19	##고	O	O	O, I-OG, I-AF, B-PS, B-CV
-20	있	O	O	O, B-CV, B-OG, B-LC, B-PS
-21	##다	O	O	O, B-CV, I-OG, B-LC, B-OG
-22	.	O	O	O, B-LC, B-CV, B-FD, B-PS
-23	[SEP]	O	O	O, B-CV, B-LC, B-FD, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	이	O	B-PS
+2	관계자	B-CV	B-CV
+3	##는	O	O
+4	“	O	O
+5	김	B-PS	O
+6	씨	O	O
+7	##가	O	O
+8	사망	O	O
+9	전날	B-DT	B-DT
+10	##인	O	O
+11	16	B-DT	B-DT
+12	##일	I-DT	I-DT
+13	현지	O	O
+14	선박	B-AF	O
+15	##대	O	O
+16	##리	O	O
+17	##점	O	O
+18	사장	B-CV	B-CV
+19	##인	O	O
+20	김종	B-PS	B-PS
+21	##규	I-PS	I-PS
+22	씨	O	O
+23	,	O	O
+24	금	B-AF	B-AF
+25	##미	I-AF	I-AF
+26	##30	I-AF	I-AF
+27	##5	I-AF	I-AF
+28	##호	I-AF	I-AF
+29	선장	B-CV	B-CV
+30	##인	O	O
+31	김대	B-PS	B-PS
+32	##근	I-PS	I-PS
+33	씨	O	O
+34	(	O	O
+35	55	B-QT	B-QT
+36	)	O	O
+37	와	O	O
+38	저녁	B-TI	B-TI
+39	##을	O	O
+40	먹	O	O
+41	##었	O	O
+42	##으며	O	O
+43	김대	B-PS	B-PS
+44	##근	I-PS	I-PS
+45	씨	O	O
+46	##는	O	O
+47	사망	O	O
+48	##한	O	O
+49	김	B-PS	B-PS
+50	씨	O	O
+51	##와	O	O
+52	다른	O	O
+53	방	O	O
+54	##에	O	O
+55	묵	O	O
+56	##었	O	O
+57	##다	O	O
+58	”	O	O
+59	고	O	O
+60	전했	O	O
+61	##다	O	O
+62	.	O	O
+63	[SEP]	O	O

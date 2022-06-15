@@ -1,14 +1,18 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	‘	O	O	O, B-LC, B-OG, B-CV, B-DT
-2	서울시	B-LC	B-LC	B-LC, B-OG, O, B-AF, B-PS
-3	도시	B-AF	B-OG	B-OG, B-AF, I-OG, O, B-LC
-4	##재	I-AF	I-OG	I-OG, I-AF, O, I-EV, I-LC
-5	##생	I-AF	I-OG	I-OG, I-AF, O, I-EV, I-LC
-6	##지원	I-AF	I-OG	I-OG, I-AF, O, I-EV, I-LC
-7	##센터	I-AF	I-OG	I-OG, I-AF, O, I-EV, I-LC
-8	’	O	O	O, I-OG, I-AF, I-EV, B-CV
-9	문	O	O	O, B-AM, B-TM, B-AF, B-PS
-10	열	O	O	O, B-PS, I-AF, B-CV, B-AF
-11	##어	O	O	O, I-AF, B-LC, B-PS, I-EV
-12	[SEP]	O	O	O, B-LC, B-OG, B-CV, B-AF
+	text	label	preds
+0	[CLS]	O	O
+1	그러	O	O
+2	##려면	O	O
+3	한국	O	O
+4	##판	O	O
+5	클	B-AF	B-AF
+6	##림	I-AF	I-AF
+7	##베	I-AF	I-AF
+8	보고서	I-AF	O
+9	##부터	O	O
+10	만들	O	O
+11	필요	O	O
+12	##가	O	O
+13	있	O	O
+14	##다	O	O
+15	.	O	O
+16	[SEP]	O	O

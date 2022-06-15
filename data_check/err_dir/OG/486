@@ -1,12 +1,28 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	예	O	O	O, B-CV, B-OG, B-TM, B-FD
-2	.	O	O	O, B-CV, B-LC, I-CV, I-OG
-3	그	O	O	O, B-CV, B-OG, B-FD, B-TM
-4	~	O	O	O, B-CV, I-CV, B-LC, I-OG
-5	에이	B-OG	B-FD	B-FD, B-TR, B-EV, B-AF, B-LC
-6	##씨	I-OG	I-FD	I-FD, I-TR, I-OG, I-AF, I-EV
-7	##아이	I-OG	I-FD	I-FD, I-TR, I-OG, I-AF, I-EV
-8	##라고	O	O	O, I-OG, I-FD, I-AF, I-EV
-9	해서	O	O	O, B-CV, B-OG, B-LC, B-TM
-10	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-FD
+	text	label	preds
+0	[CLS]	O	O
+1	3	B-EV	B-EV
+2	,	I-EV	I-EV
+3	4	I-EV	I-EV
+4	##차	I-EV	I-EV
+5	##전	I-EV	I-EV
+6	##은	O	O
+7	10	B-DT	B-DT
+8	~	I-DT	I-DT
+9	11	I-DT	I-DT
+10	##일	I-DT	I-DT
+11	애리조	B-OG	B-LC
+12	##나	I-OG	I-LC
+13	##의	O	O
+14	홈	O	O
+15	##인	O	O
+16	애리조	B-LC	B-LC
+17	##나	I-LC	I-LC
+18	##주	I-LC	I-LC
+19	피닉스	B-AF	B-LC
+20	체이스	I-AF	B-AF
+21	##필드	I-AF	I-AF
+22	##에	O	O
+23	##서	O	O
+24	열린다	O	O
+25	.	O	O
+26	[SEP]	O	O

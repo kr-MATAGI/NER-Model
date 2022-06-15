@@ -1,29 +1,9 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, I-EV, B-CV
-1	미제	O	O	O, B-CV, B-FD, B-LC, B-EV
-2	사건	O	O	O, I-EV, B-CV, I-CV, B-FD
-3	##을	O	O	O, I-EV, B-CV, B-PS, I-CV
-4	엑스	O	B-TM	B-TM, O, B-TR, B-EV, B-CV
-5	##파	O	I-TM	I-TM, O, I-TR, I-EV, I-AF
-6	##일	O	I-TM	I-TM, O, I-TR, I-EV, I-AF
-7	(	O	O	O, I-TM, I-EV, I-OG, I-QT
-8	X	O	O	O, B-TM, B-LC, B-PS, B-EV
-9	-	O	O	O, I-EV, I-TM, B-LC, I-LC
-10	f	O	O	O, B-LC, I-EV, I-LC, I-TM
-11	##ile	O	O	O, B-LC, I-LC, I-EV, B-PS
-12	)	O	O	O, I-EV, B-CV, B-LC, I-OG
-13	로	O	O	O, B-PS, B-LC, B-CV, B-QT
-14	표기	O	O	O, B-CV, B-OG, B-LC, B-TM
-15	##할	O	O	O, B-PS, B-CV, B-LC, B-OG
-16	때	O	O	O, B-CV, B-PS, B-OG, B-TM
-17	##도	O	O	O, B-CV, B-PS, I-OG, B-LC
-18	여기	O	O	O, B-CV, B-PS, B-LC, B-OG
-19	##에서	O	O	O, B-PS, B-CV, B-LC, B-OG
-20	파생	O	O	O, B-CV, B-TM, B-PS, B-LC
-21	##한	O	O	O, B-PS, B-LC, B-OG, B-CV
-22	의미	O	O	O, B-PS, B-CV, I-OG, B-QT
-23	##라	O	O	O, B-PS, B-OG, I-OG, B-LC
-24	하	O	O	O, B-OG, B-LC, B-PS, B-CV
-25	##겠다	O	O	O, I-OG, I-EV, B-CV, I-CV
-26	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-27	[SEP]	O	O	O, B-CV, B-LC, I-EV, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	그니까	O	O
+2	다	O	O
+3	저녁	B-TI	B-TI
+4	무렵	O	I-TI
+5	##에	O	O
+6	와서	O	O
+7	[SEP]	O	O

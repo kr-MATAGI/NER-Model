@@ -1,57 +1,79 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-EV, B-CV, I-CV, I-OG
-1	문	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
-2	후보	B-CV	B-CV	B-CV, O, B-EV, I-CV, I-PS
-3	##는	O	O	O, I-CV, I-EV, B-CV, I-OG
-4	이날	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-LC
-5	전북	B-LC	B-LC	B-LC, O, B-OG, I-DT, I-LC
-6	무주	B-LC	B-LC	B-LC, I-LC, O, B-OG, B-PS
-7	##군	I-LC	I-LC	I-LC, O, B-LC, I-OG, I-PS
-8	무주	B-AF	B-AF	B-AF, O, B-LC, B-OG, I-AF
-9	##리	I-AF	I-AF	I-AF, I-LC, O, I-OG, B-AF
-10	##조	I-AF	I-AF	I-AF, O, I-LC, I-OG, I-PS
-11	##트	I-AF	I-AF	I-AF, I-LC, O, I-OG, I-PS
-12	##에서	O	O	O, I-AF, I-EV, I-LC, I-OG
-13	열린	O	O	O, B-EV, B-LC, B-CV, I-EV
-14	전국	O	O	O, B-EV, B-LC, I-EV, B-OG
-15	지역	O	I-EV	I-EV, O, B-EV, B-CV, B-OG
-16	##위원회	O	I-EV	I-EV, O, I-OG, I-CV, I-AF
-17	사무국	B-CV	I-EV	I-EV, B-CV, O, B-EV, I-CV
-18	##장	I-CV	I-EV	I-EV, O, I-CV, I-OG, I-AF
-19	워크숍	O	O	O, I-EV, B-EV, I-OG, I-CV
-20	##에	O	O	O, I-EV, I-OG, I-CV, B-CV
-21	참석	O	O	O, B-LC, B-CV, B-EV, B-OG
-22	##해	O	O	O, B-LC, B-PS, I-EV, I-LC
-23	“	O	O	O, B-LC, B-CV, B-PS, I-EV
-24	후보	B-CV	B-CV	B-CV, O, B-EV, B-TM, B-AF
-25	단일	O	O	O, I-EV, B-TM, B-EV, B-PS
-26	##화	O	O	O, I-EV, I-TR, I-TM, I-CV
-27	##만	O	O	O, I-EV, B-PS, I-TR, B-LC
-28	##으로	O	O	O, B-PS, B-LC, B-QT, B-OG
-29	승리	O	O	O, B-CV, B-LC, B-TM, B-EV
-30	##가	O	O	O, B-PS, B-LC, B-OG, I-EV
-31	보장	O	O	O, B-CV, B-LC, B-TM, B-PS
-32	##되	O	O	O, B-PS, B-LC, B-CV, I-EV
-33	##지	O	O	O, B-PS, B-LC, B-CV, I-EV
-34	않	O	O	O, B-PS, B-CV, B-LC, B-TM
-35	##는	O	O	O, I-EV, B-PS, B-LC, B-CV
-36	##다	O	O	O, I-EV, B-CV, B-LC, B-PS
-37	”	O	O	O, B-CV, B-LC, B-PS, I-EV
-38	며	O	O	O, B-LC, B-CV, B-EV, B-OG
-39	“	O	O	O, B-LC, B-CV, B-PS, B-EV
-40	단일	O	O	O, B-EV, B-TM, B-TR, B-LC
-41	##화	O	O	O, I-EV, I-TR, I-TM, I-LC
-42	##를	O	O	O, I-EV, I-OG, I-TM, B-PS
-43	넘어서	O	O	O, B-CV, B-LC, B-PS, B-OG
-44	통합	O	O	O, B-EV, B-PS, B-LC, B-TM
-45	##을	O	O	O, I-EV, B-PS, B-CV, B-LC
-46	이뤄	O	O	O, B-LC, B-CV, B-PS, B-OG
-47	##야	O	O	O, B-PS, B-LC, I-EV, B-OG
-48	한다	O	O	O, B-LC, B-PS, B-CV, I-EV
-49	”	O	O	O, B-CV, B-LC, I-EV, B-TM
-50	고	O	O	O, B-CV, B-LC, B-TM, I-EV
-51	말	O	O	O, B-CV, B-EV, B-LC, I-EV
-52	##했	O	O	O, B-PS, I-EV, B-LC, B-CV
-53	##다	O	O	O, B-CV, I-EV, B-LC, B-PS
-54	.	O	O	O, B-LC, I-EV, B-PS, B-CV
-55	[SEP]	O	O	O, I-EV, B-LC, B-CV, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	김성	B-PS	B-PS
+2	##식	I-PS	I-PS
+3	선대위	B-OG	B-OG
+4	전략	B-CV	B-CV
+5	##본부	I-CV	I-CV
+6	##장	I-CV	I-CV
+7	##은	O	O
+8	마지막	O	O
+9	행	O	O
+10	##선지	O	O
+11	##로	O	O
+12	충청	B-LC	B-LC
+13	지역	O	O
+14	##을	O	O
+15	택한	O	O
+16	배경	O	O
+17	##에	O	O
+18	대해	O	O
+19	“	O	O
+20	충청	B-LC	B-LC
+21	##은	O	O
+22	카이	B-OG	B-OG
+23	##스트	I-OG	I-OG
+24	##와	O	O
+25	대덕	B-LC	B-LC
+26	##연구	I-LC	I-LC
+27	##단지	I-LC	I-LC
+28	등이	O	O
+29	있	O	O
+30	##는	O	O
+31	과학	O	B-FD
+32	##기술	O	I-FD
+33	##의	O	O
+34	도시	O	O
+35	##로	O	O
+36	‘	O	O
+37	미래	O	O
+38	’	O	O
+39	를	O	O
+40	상징	O	O
+41	##하	O	O
+42	##고	O	O
+43	,	O	O
+44	영호	B-LC	B-LC
+45	##남	I-LC	I-LC
+46	##의	O	O
+47	편	O	O
+48	##가	O	O
+49	##르기	O	O
+50	##식	O	O
+51	지역	O	O
+52	##대	O	O
+53	##결	O	O
+54	구도	O	O
+55	##를	O	O
+56	넘어서	O	O
+57	‘	O	O
+58	국민	O	O
+59	##통	O	O
+60	##합	O	O
+61	’	O	O
+62	의	O	O
+63	의미	O	O
+64	##를	O	O
+65	담	O	O
+66	##고	O	O
+67	있	O	O
+68	##는	O	O
+69	지역	O	O
+70	”	O	O
+71	이라	O	O
+72	##고	O	O
+73	설명	O	O
+74	##했	O	O
+75	##다	O	O
+76	.	O	O
+77	[SEP]	O	O

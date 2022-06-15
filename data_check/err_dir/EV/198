@@ -1,41 +1,25 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	1998	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-QT
-2	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
-3	박세리	B-PS	B-PS	B-PS, O, I-PS, B-OG, B-LC
-4	##가	O	O	O, I-PS, I-EV, B-CV, B-PS
-5	US	B-EV	B-EV	B-EV, B-LC, O, I-EV, B-OG
-6	##오	I-EV	I-EV	I-EV, O, B-EV, I-LC, I-AF
-7	##픈	I-EV	I-EV	I-EV, O, I-LC, I-AF, B-EV
-8	우승	O	O	O, I-EV, B-CV, B-EV, B-PS
-9	##을	O	O	O, I-EV, B-CV, B-OG, B-PS
-10	하	O	O	O, B-CV, B-OG, B-LC, B-TM
-11	##면서	O	O	O, B-LC, B-PS, B-OG, B-QT
-12	미	B-LC	B-LC	B-LC, B-EV, O, B-OG, B-PS
-13	LPGA	B-EV	I-EV	I-EV, B-EV, O, B-LC, I-LC
-14	투어	I-EV	I-EV	I-EV, O, I-LC, I-AF, B-EV
-15	##에	O	O	O, I-EV, I-AF, I-OG, B-CV
-16	몰려	O	O	O, B-OG, B-CV, B-LC, B-TM
-17	##간	O	O	O, B-LC, B-OG, B-CV, B-PS
-18	한국	B-LC	B-LC	B-LC, B-OG, O, B-CV, B-PS
-19	선수	B-CV	B-CV	B-CV, O, I-CV, I-EV, B-AF
-20	##들	O	O	O, I-CV, B-CV, I-OG, I-EV
-21	##을	O	O	O, B-CV, B-TM, B-OG, B-LC
-22	적	O	O	O, B-CV, B-TM, B-OG, B-LC
-23	##지	O	O	O, B-OG, B-LC, B-PS, I-OG
-24	않	O	O	O, B-LC, B-OG, B-PS, I-OG
-25	##은	O	O	O, B-LC, B-OG, B-PS, B-CV
-26	미국	B-LC	B-LC	B-LC, B-OG, O, B-CV, B-PS
-27	팬	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-AF
-28	##들	O	O	O, I-CV, I-OG, B-CV, I-AF
-29	##과	O	O	O, B-OG, B-CV, B-TM, B-LC
-30	언론	O	O	O, B-CV, B-OG, B-TM, B-AF
-31	##들	O	O	O, B-CV, I-CV, I-OG, B-PS
-32	##은	O	O	O, B-CV, B-TM, B-LC, B-OG
-33	차가운	O	O	O, B-TM, B-CV, B-PS, B-TR
-34	시선	O	O	O, B-CV, B-TM, B-PS, B-AM
-35	##으로	O	O	O, B-CV, B-PS, I-QT, B-OG
-36	바라봤	O	O	O, B-CV, B-TM, B-OG, B-QT
-37	##다	O	O	O, B-CV, I-OG, I-CV, I-QT
-38	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-39	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	2002	B-DT	B-DT
+2	##년	I-DT	I-DT
+3	대선	B-EV	B-DT
+4	땐	O	I-DT
+5	정몽준	B-PS	B-PS
+6	국민	B-OG	B-OG
+7	##통	I-OG	I-OG
+8	##합	I-OG	I-OG
+9	##21	I-OG	I-OG
+10	대선	B-EV	B-EV
+11	후보	B-CV	B-CV
+12	측	O	O
+13	##의	O	O
+14	대변인	B-CV	B-CV
+15	##으로	O	O
+16	활동	O	O
+17	##하	O	O
+18	##기	O	O
+19	##도	O	O
+20	했	O	O
+21	##다	O	O
+22	.	O	O
+23	[SEP]	O	O

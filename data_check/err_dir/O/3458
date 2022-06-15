@@ -1,57 +1,56 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-EV, I-AF
-1	경찰	B-OG	B-OG	B-OG, O, B-CV, B-AF, B-PS
-2	##은	O	O	O, I-OG, B-CV, I-CV, I-EV
-3	""""	O	O	O, B-CV, B-LC, B-TM, B-PS
-4	범인	B-CV	B-CV	B-CV, O, B-PS, I-CV, B-AF
-5	김	B-PS	B-PS	B-PS, O, I-PS, B-OG, B-LC
-6	##씨	O	O	O, I-PS, B-CV, I-CV, I-EV
-7	##의	O	O	O, B-CV, B-PS, B-AF, B-TM
-8	옵티	B-AF	B-AF	B-AF, O, B-TM, B-OG, I-AF
-9	##마	I-AF	I-AF	I-AF, O, I-TM, I-OG, B-AF
-10	리	I-AF	I-AF	I-AF, B-AF, O, I-TM, I-OG
-11	##갈	I-AF	I-AF	I-AF, O, I-TM, I-CV, B-AF
-12	차량	O	I-AF	I-AF, O, B-AF, I-TM, I-CV
-13	##은	O	O	O, I-AF, B-CV, B-PS, I-CV
-14	자신	O	O	O, B-CV, B-PS, B-TM, B-LC
-15	##의	O	O	O, B-CV, B-PS, I-CV, I-AF
-16	집	O	O	O, B-CV, B-AF, B-LC, B-TM
-17	##과	O	O	O, B-CV, B-PS, B-LC, B-TM
-18	200	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-LC
-19	##m	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-20	##가	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-21	##량	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-22	떨어진	O	O	O, I-QT, B-TM, B-LC, B-CV
-23	도로변	O	O	O, B-TM, B-LC, B-AF, B-CV
-24	##에	O	O	O, B-CV, B-PS, B-TM, B-AF
-25	주차	O	O	O, B-TM, B-CV, B-AF, B-LC
-26	##돼	O	O	O, B-PS, B-LC, B-CV, I-AF
-27	있	O	O	O, B-PS, B-CV, B-TM, B-LC
-28	##었	O	O	O, B-CV, B-PS, B-TM, B-LC
-29	##고	O	O	O, B-CV, B-TM, B-PS, B-LC
-30	차	B-AF	B-AF	B-AF, O, B-TM, I-AF, B-CV
-31	안	O	O	O, B-TM, I-AF, I-TM, B-LC
-32	##에서	O	O	O, B-PS, B-CV, I-AF, I-TM
-33	범행	O	O	O, B-CV, B-TM, B-PS, B-LC
-34	##에	O	O	O, B-PS, B-CV, I-CV, I-AF
-35	사용	O	O	O, B-AF, B-CV, B-TM, B-PS
-36	##한	O	O	O, B-PS, B-CV, I-AF, B-LC
-37	것	O	O	O, B-PS, B-CV, B-TM, B-AF
-38	##으로	O	O	O, B-PS, B-CV, B-TM, I-AF
-39	보이	O	O	O, B-TM, B-PS, B-AF, B-CV
-40	##는	O	O	O, B-TM, B-PS, B-CV, I-AF
-41	공기	B-AF	B-AF	B-AF, O, I-AF, B-TM, B-OG
-42	##총	I-AF	I-AF	I-AF, O, I-TM, B-AF, I-OG
-43	1	B-QT	B-QT	B-QT, I-AF, I-QT, O, I-TM
-44	##정	I-QT	I-QT	I-QT, I-AF, O, I-LC, I-TM
-45	##이	O	O	O, I-QT, I-AF, B-PS, B-CV
-46	발견	O	O	O, B-CV, B-TM, I-AF, B-LC
-47	##됐	O	O	O, B-CV, B-PS, I-AF, B-LC
-48	##다	O	O	O, B-CV, B-PS, B-TM, B-LC
-49	""""	O	O	O, B-CV, B-TM, B-LC, B-PS
-50	고	O	O	O, B-CV, B-TM, B-LC, B-QT
-51	말	O	O	O, B-CV, B-TM, B-QT, B-OG
-52	##했	O	O	O, B-CV, B-PS, B-LC, B-OG
-53	##다	O	O	O, B-CV, B-TM, B-PS, B-LC
-54	.	O	O	O, B-PS, B-CV, B-LC, B-AF
-55	[SEP]	O	O	O, B-CV, B-PS, B-TM, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	장	O	O
+2	##독	O	O
+3	##대	O	O
+4	##가	O	O
+5	올	O	O
+6	##망	O	O
+7	##졸	O	O
+8	##망	O	O
+9	자리	O	O
+10	잡	O	O
+11	##은	O	O
+12	무대	O	O
+13	##에	O	O
+14	##서는	O	O
+15	여자	O	O
+16	##도	O	O
+17	배워야	O	O
+18	한다며	O	O
+19	딸	B-CV	B-CV
+20	##도	O	O
+21	서울	B-LC	B-LC
+22	##로	O	O
+23	보내	O	O
+24	##고	O	O
+25	,	O	O
+26	살림	O	O
+27	##에	O	O
+28	지쳐	O	O
+29	홍어	O	B-CV
+30	껍질	O	O
+31	##을	O	O
+32	벗기	O	O
+33	##지	O	O
+34	않	O	O
+35	##고	O	O
+36	제사	O	O
+37	##상	O	O
+38	##에	O	O
+39	올리	O	O
+40	##겠다	O	O
+41	##고	O	O
+42	선언	O	O
+43	##하	O	O
+44	##는	O	O
+45	엄마	B-CV	B-CV
+46	##와	O	O
+47	가족	B-CV	B-CV
+48	##들의	O	O
+49	모습	O	O
+50	##이	O	O
+51	펼쳐졌	O	O
+52	##다	O	O
+53	.	O	O
+54	[SEP]	O	O

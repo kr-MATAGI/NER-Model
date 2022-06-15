@@ -1,18 +1,31 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	판교	B-AF	B-LC	B-LC, B-AF, O, B-OG, B-TM
-2	나들목	I-AF	I-LC	I-LC, O, I-AF, B-LC, I-TM
-3	##부터	O	O	O, I-LC, I-AF, I-DT, I-QT
-4	반포	B-LC	B-LC	B-LC, O, B-AF, I-LC, B-PS
-5	##까	O	O	O, I-LC, I-AF, I-DT, I-PS
-6	##지	O	O	O, B-QT, I-DT, I-LC, B-TI
-7	십이	B-QT	B-QT	B-QT, B-TI, I-QT, B-LC, O
-8	##킬	I-QT	I-QT	I-QT, I-LC, I-TI, O, I-PS
-9	##로	I-QT	I-QT	I-QT, I-LC, O, I-TI, I-PS
-10	##미터	I-QT	I-QT	I-QT, O, I-LC, I-TI, I-PS
-11	구간	O	O	O, I-QT, I-LC, I-TI, I-AF
-12	##도	O	O	O, I-QT, B-CV, I-AF, B-LC
-13	정체	O	O	O, B-TM, B-CV, B-AF, B-LC
-14	##구요	O	O	O, I-AF, I-CV, I-TM, B-CV
-15	.	O	O	O, B-LC, B-CV, B-QT, I-AF
-16	[SEP]	O	O	O, B-LC, B-CV, B-QT, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	청와대	B-AF	B-OG
+2	##는	O	O
+3	그동안	O	O
+4	국세	O	O
+5	##행정	O	O
+6	##선	O	O
+7	##진	O	O
+8	##화	O	O
+9	실무	O	O
+10	##태	O	O
+11	##스크	O	O
+12	##포스	O	O
+13	(	O	O
+14	TF	O	O
+15	)	O	O
+16	를	O	O
+17	구성	O	O
+18	##해	O	O
+19	국세청	B-OG	B-OG
+20	개혁	O	O
+21	##방	O	O
+22	##안	O	O
+23	##을	O	O
+24	다듬	O	O
+25	##어	O	O
+26	##왔	O	O
+27	##다	O	O
+28	.	O	O
+29	[SEP]	O	O

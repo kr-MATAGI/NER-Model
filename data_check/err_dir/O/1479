@@ -1,23 +1,64 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	아시아	O	B-EV	B-EV, B-LC, O, B-OG, B-AF
-2	##경기	O	I-EV	I-EV, O, I-LC, I-OG, B-EV
-3	첫	O	O	O, I-EV, B-LC, B-QT, I-OG
-4	바둑	O	B-CV	B-CV, O, B-EV, B-TM, B-AF
-5	금메달	B-CV	B-CV	B-CV, O, I-CV, I-EV, B-AF
-6	(	O	O	O, I-CV, I-EV, B-CV, I-AF
-7	혼	O	O	O, B-CV, B-TM, B-LC, B-TR
-8	##성	O	O	O, I-CV, B-CV, I-TM, I-TR
-9	##복	O	O	O, I-CV, I-TM, B-CV, I-TR
-10	##식	O	O	O, I-CV, I-TM, I-TR, B-CV
-11	)	O	O	O, I-CV, B-CV, I-TM, B-OG
-12	의	O	O	O, B-PS, B-CV, B-OG, B-LC
-13	주인공	B-CV	B-CV	B-CV, O, I-CV, B-PS, B-TM
-14	이슬	O	O	O, B-PS, I-CV, B-AM, B-CV
-15	##아가	O	O	O, B-PS, I-PS, I-CV, B-CV
-16	양보	O	O	O, B-CV, B-PS, B-TM, B-OG
-17	##를	O	O	O, B-CV, B-PS, B-OG, I-OG
-18	했	O	O	O, B-CV, B-OG, B-PS, B-LC
-19	##다	O	O	O, B-CV, I-CV, I-OG, B-LC
-20	.	O	O	O, B-CV, B-PS, B-LC, B-OG
-21	[SEP]	O	O	O, B-CV, B-PS, B-LC, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	“	O	O
+2	(	O	O
+3	학대	O	B-CV
+4	##를	O	O
+5	)	O	O
+6	알고	O	O
+7	##도	O	O
+8	”	O	O
+9	신고	O	O
+10	##하	O	O
+11	##지	O	O
+12	않	O	O
+13	##았	O	O
+14	##을	O	O
+15	때	O	O
+16	300	B-QT	B-QT
+17	##만	I-QT	I-QT
+18	##원	I-QT	I-QT
+19	이하	I-QT	I-QT
+20	##의	O	O
+21	과태료	O	O
+22	##가	O	O
+23	부과	O	O
+24	##되	O	O
+25	##었	O	O
+26	##으나	O	O
+27	,	O	O
+28	특례법	O	B-CV
+29	##에	O	O
+30	따라	O	O
+31	“	O	O
+32	아동	B-CV	B-CV
+33	##학	I-CV	I-CV
+34	##대	I-CV	I-CV
+35	범죄	I-CV	O
+36	##를	O	O
+37	알	O	O
+38	##게	O	O
+39	된	O	O
+40	경우	O	O
+41	##나	O	O
+42	그	O	O
+43	의심	O	O
+44	##이	O	O
+45	있	O	O
+46	##는	O	O
+47	경우	O	O
+48	##에	O	O
+49	##는	O	O
+50	아보	B-OG	B-OG
+51	##전	I-OG	I-OG
+52	또는	O	O
+53	수사	O	O
+54	##기	O	O
+55	##관	O	O
+56	##에	O	O
+57	신고	O	O
+58	##해야	O	O
+59	”	O	O
+60	한다	O	O
+61	.	O	O
+62	[SEP]	O	O

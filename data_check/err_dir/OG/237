@@ -1,43 +1,29 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	역시	O	O	O, B-CV, B-DT, B-EV, B-LC
-2	한국	B-EV	B-EV	B-EV, B-LC, B-AF, O, B-OG
-3	##전쟁	I-EV	I-EV	I-EV, O, I-AF, I-LC, I-QT
-4	##이	O	O	O, I-EV, B-PS, I-AF, I-OG
-5	한창	O	O	O, B-CV, B-OG, B-PS, B-LC
-6	##이	O	O	O, B-PS, B-OG, B-LC, B-CV
-7	##던	O	O	O, B-PS, B-OG, I-OG, B-CV
-8	때	O	O	O, B-CV, B-OG, B-PS, B-LC
-9	##부터	O	O	O, I-DT, B-PS, B-OG, I-OG
-10	미국	B-OG	B-OG	B-OG, B-LC, O, B-PS, B-CV
-11	##은	O	O	O, I-OG, I-LC, I-EV, B-OG
-12	한	B-OG	B-LC	B-LC, B-OG, O, B-CV, I-OG
-13	-	O	O	O, I-LC, I-OG, B-LC, I-PS
-14	일	B-OG	B-LC	B-LC, B-OG, I-LC, I-OG, O
-15	국교	O	O	O, I-LC, I-OG, B-CV, B-LC
-16	##정	O	O	O, B-LC, I-LC, I-CV, I-OG
-17	##상	O	O	O, B-LC, I-CV, I-LC, B-CV
-18	##화	O	O	O, I-LC, I-OG, I-CV, I-EV
-19	##를	O	O	O, B-CV, I-OG, B-PS, B-LC
-20	압박	O	O	O, B-CV, B-LC, B-OG, B-PS
-21	##했	O	O	O, B-LC, B-PS, B-CV, B-OG
-22	##고	O	O	O, B-CV, B-PS, B-LC, B-OG
-23	,	O	O	O, B-CV, B-LC, B-PS, B-EV
-24	쿠데타	O	O	O, B-EV, B-LC, I-EV, B-CV
-25	##로	O	O	O, I-EV, B-PS, I-OG, B-CV
-26	집권	O	O	O, B-CV, B-LC, B-PS, B-OG
-27	##한	O	O	O, B-PS, B-LC, B-OG, I-EV
-28	박정희	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-29	군사	B-OG	B-OG	B-OG, O, B-CV, I-OG, B-AF
-30	##정부	I-OG	I-OG	I-OG, O, B-OG, I-CV, I-AF
-31	##가	O	O	O, I-OG, I-EV, I-AF, B-PS
-32	1965	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-33	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-34	그	O	O	O, I-DT, B-CV, I-OG, I-EV
-35	요구	O	O	O, B-CV, B-LC, B-OG, B-TM
-36	##를	O	O	O, B-CV, B-OG, B-LC, B-PS
-37	수용	O	O	O, B-CV, B-LC, B-OG, B-PS
-38	##했	O	O	O, B-CV, B-LC, B-OG, B-PS
-39	##다	O	O	O, B-CV, I-OG, B-LC, B-OG
-40	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-41	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	북한	B-OG	B-LC
+2	미얀마	B-OG	B-LC
+3	파키스탄	B-LC	B-LC
+4	등	O	O
+5	중국	B-LC	B-LC
+6	##의	O	O
+7	이른바	O	O
+8	3	B-QT	B-QT
+9	##대	I-QT	I-QT
+10	동맹국	O	O
+11	중	O	O
+12	파키스탄	B-LC	B-LC
+13	##에	O	O
+14	##만	O	O
+15	각별	O	O
+16	##한	O	O
+17	애정	O	O
+18	##을	O	O
+19	표시	O	O
+20	##한	O	O
+21	점	O	O
+22	##이	O	O
+23	눈길	O	O
+24	##을	O	O
+25	끈다	O	O
+26	.	O	O
+27	[SEP]	O	O

@@ -1,12 +1,12 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	“	O	O	O, B-CV, B-LC, B-TM, B-OG
-2	엄한	O	O	O, B-CV, B-PS, B-LC, B-OG
-3	처벌	O	O	O, B-CV, B-PS, I-CV, B-LC
-4	##해	O	O	O, B-PS, B-CV, B-LC, B-OG
-5	##도	O	O	O, B-LC, B-PS, B-CV, B-TM
-6	매춘	O	B-CV	B-CV, O, I-CV, B-FD, B-TM
-7	근절	O	O	O, I-CV, B-TM, B-CV, I-TM
-8	못해	O	O	O, B-TM, B-LC, B-QT, B-CV
-9	”	O	O	O, B-CV, B-LC, B-TM, I-OG
-10	[SEP]	O	O	O, B-CV, B-LC, B-TM, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	푸틴	B-PS	B-PS
+2	'	O	O
+3	舊	O	O
+4	소련	B-LC	B-OG
+5	##국	O	I-OG
+6	경제	O	I-OG
+7	##연합	O	I-OG
+8	'	O	O
+9	추진	O	O
+10	[SEP]	O	O

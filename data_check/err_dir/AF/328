@@ -1,47 +1,42 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-EV, I-CV
-1	버스	B-AF	O	O, B-EV, B-AF, B-CV, B-TM
-2	##대	O	O	O, I-EV, B-EV, B-CV, I-AF
-3	##란	O	O	O, I-EV, I-AF, B-EV, I-LC
-4	##이	O	O	O, I-EV, B-PS, B-OG, B-LC
-5	예상	O	O	O, B-CV, B-OG, B-PS, I-EV
-6	##됨	O	O	O, I-OG, B-PS, I-EV, B-LC
-7	##에	O	O	O, B-PS, I-OG, B-LC, B-CV
-8	따라	O	O	O, B-LC, B-OG, B-PS, B-TM
-9	국토	B-OG	B-OG	B-OG, O, I-OG, B-LC, B-AF
-10	##해	I-OG	I-OG	I-OG, O, I-EV, I-CV, B-OG
-11	##양	I-OG	I-OG	I-OG, O, I-EV, I-CV, B-OG
-12	##부	I-OG	I-OG	I-OG, O, I-EV, I-CV, I-QT
-13	##는	O	O	O, I-OG, I-EV, B-CV, I-QT
-14	지하철	B-AF	B-AF	B-AF, O, I-AF, B-OG, B-CV
-15	##을	O	O	O, I-AF, I-OG, B-CV, I-CV
-16	연장	O	O	O, B-LC, B-AF, B-CV, B-TM
-17	·	O	O	O, I-AF, B-LC, I-LC, B-PS
-18	증	O	O	O, B-AF, B-CV, B-LC, B-TM
-19	##편	O	O	O, I-AF, I-LC, I-CV, B-LC
-20	운행	O	O	O, B-LC, B-AF, B-CV, I-AF
-21	##하고	O	O	O, B-LC, B-CV, I-AF, B-AF
-22	노선	O	O	O, B-AF, B-CV, B-LC, B-TM
-23	##버스	O	O	O, I-AF, B-AF, I-CV, I-LC
-24	구간	O	O	O, I-AF, B-LC, B-AF, B-CV
-25	##에	O	O	O, B-LC, I-AF, B-CV, B-PS
-26	전세	O	O	O, B-AF, B-CV, B-LC, I-AF
-27	##버스	O	O	O, I-AF, B-AF, I-CV, B-CV
-28	##를	O	O	O, I-AF, B-CV, B-LC, B-TM
-29	대체	O	O	O, B-LC, B-CV, B-TM, B-AF
-30	투입	O	O	O, B-LC, B-AF, B-OG, B-CV
-31	##하기	O	O	O, B-LC, B-PS, B-AF, B-OG
-32	##로	O	O	O, B-LC, B-CV, B-TM, B-OG
-33	하	O	O	O, B-LC, B-OG, B-DT, B-QT
-34	##는	O	O	O, B-LC, B-CV, B-OG, I-DT
-35	등	O	O	O, B-LC, B-OG, B-TM, B-CV
-36	비상	O	O	O, B-CV, B-TM, B-EV, B-AF
-37	수송	O	O	O, B-CV, B-TM, I-CV, B-LC
-38	##대	O	O	O, I-CV, B-CV, I-TM, I-LC
-39	##책	O	O	O, I-CV, I-TM, I-LC, B-LC
-40	마련	O	O	O, B-LC, B-CV, B-TM, B-PS
-41	##에	O	O	O, B-LC, B-CV, B-OG, B-TM
-42	나섰	O	O	O, B-LC, B-CV, B-OG, B-TM
-43	##다	O	O	O, B-CV, B-LC, I-OG, B-OG
-44	.	O	O	O, B-LC, B-OG, B-AF, B-PS
-45	[SEP]	O	O	O, B-LC, B-CV, B-AF, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	한편	O	O
+2	현대산업개발	B-OG	B-OG
+3	##은	O	O
+4	이날	B-DT	B-DT
+5	오후	B-TI	B-TI
+6	서울	B-LC	B-LC
+7	삼성	B-LC	B-LC
+8	##동	I-LC	I-LC
+9	아이파크	B-AF	B-AF
+10	##타	I-AF	I-AF
+11	##워	I-AF	I-AF
+12	##에	O	O
+13	##서	O	O
+14	포니	B-AF	B-AM
+15	##를	O	O
+16	디자인	O	O
+17	##한	O	O
+18	조르	B-PS	B-PS
+19	##제	I-PS	I-PS
+20	##토	I-PS	I-PS
+21	주지	I-PS	I-PS
+22	##아	I-PS	I-PS
+23	##로	I-PS	I-PS
+24	##에	O	O
+25	##게	O	O
+26	'	O	O
+27	제	B-QT	B-QT
+28	##9	I-QT	I-QT
+29	##회	I-QT	I-QT
+30	포니	B-CV	B-CV
+31	##정	I-CV	I-CV
+32	혁신	I-CV	I-CV
+33	##상	I-CV	I-CV
+34	'	O	O
+35	을	O	O
+36	수여	O	O
+37	##했	O	O
+38	##다	O	O
+39	.	O	O
+40	[SEP]	O	O

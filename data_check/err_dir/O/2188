@@ -1,22 +1,25 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-EV
-1	근데	O	O	O, B-CV, B-OG, B-TM, B-QT
-2	참	O	O	O, B-PS, B-CV, B-FD, B-QT
-3	하나	O	B-QT	B-QT, O, I-QT, B-CV, B-EV
-4	연주	O	O	O, B-FD, I-QT, B-CV, I-FD
-5	만드	O	O	O, I-AF, I-FD, I-OG, I-CV
-6	##는데	O	O	O, B-PS, B-CV, I-AF, I-OG
-7	##도	O	O	O, B-PS, B-CV, B-OG, B-LC
-8	이렇게	O	O	O, B-CV, B-PS, B-TM, B-QT
-9	손	B-AM	B-AM	B-AM, O, B-TR, B-PS, B-TM
-10	##이	O	O	O, B-PS, I-PS, I-AF, I-AM
-11	가구	O	O	O, B-CV, B-PS, B-OG, B-TM
-12	마음	O	O	O, B-CV, B-PS, B-TM, B-OG
-13	##도	O	O	O, B-CV, B-PS, B-OG, I-AF
-14	안	O	O	O, B-CV, B-PS, B-TM, B-LC
-15	모아	O	O	O, B-PS, B-CV, B-TM, B-LC
-16	##지구	O	O	O, B-PS, I-OG, I-QT, I-LC
-17	힘들	O	O	O, B-CV, B-TM, B-OG, B-LC
-18	##었	O	O	O, B-CV, I-OG, I-CV, B-OG
-19	##는데	O	O	O, B-CV, B-TM, I-OG, B-OG
-20	[SEP]	O	O	O, B-CV, B-PS, B-TM, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	집회	O	B-CV
+2	·	O	I-CV
+3	시위	O	I-CV
+4	자유	O	I-CV
+5	보장	O	O
+6	##을	O	O
+7	위해	O	O
+8	집시	B-CV	B-CV
+9	##법	I-CV	I-CV
+10	외	O	O
+11	##에	O	O
+12	경찰관	B-CV	B-CV
+13	직무	B-CV	I-CV
+14	##집행	I-CV	I-CV
+15	##법	I-CV	I-CV
+16	##도	O	O
+17	고쳐야	O	O
+18	한다는	O	O
+19	지적	O	O
+20	##이	O	O
+21	나온다	O	O
+22	.	O	O
+23	[SEP]	O	O

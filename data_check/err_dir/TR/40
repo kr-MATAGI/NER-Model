@@ -1,30 +1,45 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	신기	O	O	O, B-CV, B-FD, I-CV, B-TM
-2	##술	O	O	O, I-CV, I-TR, I-FD, I-TM
-3	##은	O	O	O, B-PS, I-CV, B-LC, B-CV
-4	(	O	O	O, B-LC, B-CV, B-PS, B-OG
-5	새로운	O	O	O, B-CV, B-LC, B-PS, B-TM
-6	시장	O	O	O, B-CV, B-LC, B-TM, B-PS
-7	##을	O	O	O, I-CV, B-PS, B-CV, I-AF
-8	성장	O	O	O, B-CV, B-LC, B-PS, I-CV
-9	##시	O	O	O, B-PS, B-LC, B-CV, I-LC
-10	##키	O	O	O, B-PS, B-LC, B-CV, I-LC
-11	##는	O	O	O, B-PS, B-LC, B-CV, I-PS
-12	것	O	O	O, B-PS, B-LC, B-CV, B-QT
-13	##이지	O	O	O, B-PS, B-LC, B-CV, B-DT
-14	)	O	O	O, B-LC, B-PS, B-CV, B-OG
-15	기존	O	O	O, B-CV, B-LC, B-PS, B-TM
-16	시장	O	O	O, B-CV, B-LC, B-TM, B-PS
-17	##을	O	O	O, I-CV, B-PS, B-CV, B-LC
-18	나눠	O	O	O, B-CV, B-QT, B-PS, B-LC
-19	먹	O	O	O, B-PS, B-CV, B-QT, I-QT
-20	##는	O	O	O, B-PS, B-CV, B-LC, I-QT
-21	제로	B-TR	O	O, B-QT, B-LC, B-TM, B-PS
-22	##섬	I-TR	O	O, I-QT, I-LC, I-TM, B-QT
-23	##이	O	O	O, I-QT, B-PS, I-AF, I-LC
-24	아니	O	O	O, B-CV, B-LC, B-PS, I-AF
-25	##다	O	O	O, B-CV, I-OG, B-LC, I-AF
-26	.	O	O	O, B-LC, B-CV, B-PS, B-FD
-27	""""	O	O	O, B-CV, B-LC, B-TM, B-OG
-28	[SEP]	O	O	O, B-CV, B-LC, B-PS, I-CV
+	text	label	preds
+0	[CLS]	O	O
+1	7	B-DT	B-DT
+2	##월	I-DT	I-DT
+3	##부터	I-DT	I-DT
+4	백	B-TM	B-TM
+5	##내	I-TM	I-TM
+6	##장	I-TM	I-TM
+7	편도	B-TM	B-TM
+8	맹	B-TM	I-TM
+9	##장	I-TM	I-TM
+10	항문	B-TM	B-TM
+11	탈	O	I-TM
+12	##장	O	I-TM
+13	자궁	B-TM	B-TM
+14	제왕	B-TR	I-TM
+15	##절	I-TR	I-TM
+16	##개	I-TR	I-TM
+17	등	O	O
+18	7	B-QT	B-QT
+19	##가지	I-QT	I-QT
+20	질병	O	O
+21	##군	O	O
+22	##의	O	O
+23	입원	O	O
+24	수술	O	O
+25	##에	O	O
+26	대해	O	O
+27	종합	O	O
+28	##병원	O	O
+29	##과	O	O
+30	대학	O	O
+31	##병원	O	O
+32	##에	O	O
+33	##서도	O	O
+34	‘	O	O
+35	정찰	O	B-CV
+36	##제	O	I-CV
+37	’	O	O
+38	가	O	O
+39	시행	O	O
+40	##된	O	O
+41	##다	O	O
+42	.	O	O
+43	[SEP]	O	O

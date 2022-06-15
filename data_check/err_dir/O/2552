@@ -1,30 +1,31 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	과학	O	B-FD	B-FD, O, I-FD, B-TR, B-CV
-2	##에	O	O	O, I-FD, I-TR, I-AF, I-OG
-3	기반	O	O	O, B-PS, B-TM, B-CV, B-LC
-4	##을	O	O	O, B-PS, B-CV, B-LC, B-OG
-5	둔	O	O	O, B-PS, B-LC, B-CV, B-OG
-6	정책	O	O	O, B-CV, B-PS, I-CV, B-FD
-7	##으로	O	O	O, B-PS, I-CV, B-CV, B-OG
-8	비용	O	O	O, B-CV, B-TM, B-PS, B-LC
-9	절감	O	O	O, I-CV, I-TM, B-CV, B-TM
-10	##과	O	O	O, B-PS, B-CV, B-LC, B-OG
-11	편의	O	O	O, B-CV, B-TM, B-PS, B-LC
-12	##성	O	O	O, B-PS, I-CV, I-TM, B-LC
-13	향상	O	O	O, B-CV, I-CV, B-PS, I-TM
-14	##이	O	O	O, B-PS, B-LC, B-CV, B-QT
-15	##라는	O	O	O, B-PS, B-QT, B-LC, B-TM
-16	두	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-EV
-17	마리	I-QT	I-QT	I-QT, O, I-LC, I-PS, I-EV
-18	토끼	B-AM	B-AM	B-AM, O, I-QT, B-TM, I-AM
-19	##를	O	O	O, I-QT, B-PS, I-PS, I-TM
-20	모두	O	O	O, B-QT, B-PS, B-TM, B-LC
-21	잡	O	O	O, B-QT, I-QT, B-PS, B-CV
-22	##으	O	O	O, I-QT, B-CV, B-PS, B-QT
-23	##려	O	O	O, B-CV, B-PS, I-QT, B-QT
-24	##는	O	O	O, B-CV, B-OG, B-PS, B-TM
-25	것	O	O	O, B-CV, B-OG, B-PS, B-TM
-26	##이다	O	O	O, B-CV, I-OG, B-TM, I-CV
-27	.	O	O	O, B-PS, B-CV, B-LC, B-TM
-28	[SEP]	O	O	O, B-CV, B-PS, B-LC, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	‘	O	O
+2	이달	B-DT	B-AF
+3	##에	O	I-AF
+4	만나	O	I-AF
+5	##는	O	I-AF
+6	시	B-FD	I-AF
+7	’	O	O
+8	10	B-DT	B-DT
+9	##월	I-DT	I-DT
+10	추천	O	O
+11	##작	O	O
+12	##으로	O	O
+13	이민	B-PS	B-PS
+14	##하	I-PS	I-PS
+15	시인	B-CV	B-CV
+16	(	O	O
+17	45	B-QT	B-QT
+18	)	O	O
+19	의	O	O
+20	‘	O	O
+21	거리의	B-AF	B-AF
+22	식사	I-AF	I-AF
+23	’	O	O
+24	를	O	O
+25	선정	O	O
+26	##했	O	O
+27	##다	O	O
+28	.	O	O
+29	[SEP]	O	O

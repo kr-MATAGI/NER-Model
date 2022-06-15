@@ -1,55 +1,89 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	김재원	B-PS	B-PS	B-PS, B-OG, O, B-LC, I-PS
-2	새	B-OG	B-OG	B-OG, I-OG, O, I-PS, B-LC
-3	##누리	I-OG	I-OG	I-OG, O, I-EV, I-PS, I-LC
-4	##당	I-OG	I-OG	I-OG, O, I-EV, I-LC, I-PS
-5	원내	B-CV	B-CV	B-CV, O, B-TM, I-CV, B-AF
-6	##수	I-CV	I-CV	I-CV, B-CV, O, I-OG, I-EV
-7	##석	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-TM
-8	##부대	I-CV	I-CV	I-CV, B-CV, O, I-OG, I-TM
-9	##표	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-TM
-10	##도	O	O	O, I-CV, I-QT, I-OG, I-EV
-11	“	O	O	O, B-CV, B-LC, B-OG, I-CV
-12	여야	O	O	O, B-OG, B-CV, B-PS, B-LC
-13	합의	O	O	O, B-OG, B-CV, B-PS, B-LC
-14	##가	O	O	O, B-PS, B-OG, B-LC, B-CV
-15	돼	O	O	O, B-CV, B-PS, B-LC, B-OG
-16	국회	B-OG	B-OG	B-OG, B-AF, O, B-EV, B-LC
-17	출석	O	O	O, I-OG, I-EV, I-AF, B-CV
-18	##을	O	O	O, B-CV, B-PS, B-LC, B-OG
-19	요구	O	O	O, B-CV, B-LC, B-PS, B-OG
-20	##했	O	O	O, B-PS, B-CV, B-LC, B-OG
-21	##다면	O	O	O, B-PS, B-LC, B-CV, B-OG
-22	사의	O	O	O, B-CV, B-PS, B-OG, B-FD
-23	##를	O	O	O, B-CV, B-PS, B-OG, B-LC
-24	갖	O	O	O, B-CV, B-PS, B-LC, B-OG
-25	##고	O	O	O, B-PS, B-CV, B-LC, B-OG
-26	있	O	O	O, B-PS, B-CV, B-LC, B-OG
-27	##어도	O	O	O, B-PS, B-LC, I-OG, B-OG
-28	최선	O	O	O, B-CV, B-LC, B-PS, B-OG
-29	##을	O	O	O, B-PS, B-LC, B-CV, B-OG
-30	다	O	O	O, B-LC, B-PS, B-CV, B-OG
-31	##해	O	O	O, B-LC, B-PS, B-OG, B-CV
-32	업무	O	O	O, B-CV, B-LC, B-PS, B-EV
-33	##를	O	O	O, B-CV, B-PS, B-LC, B-OG
-34	집행	O	O	O, B-CV, B-LC, B-PS, B-OG
-35	##하	O	O	O, B-PS, B-CV, B-LC, B-OG
-36	##는	O	O	O, B-PS, B-CV, B-LC, B-OG
-37	게	O	O	O, B-PS, B-LC, B-CV, B-OG
-38	공직자	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-EV
-39	##의	O	O	O, I-CV, B-CV, I-EV, I-AF
-40	자세	O	O	O, B-CV, I-CV, B-QT, B-PS
-41	”	O	O	O, B-CV, I-CV, I-QT, B-PS
-42	라며	O	O	O, B-LC, B-CV, B-OG, B-PS
-43	이례	O	O	O, B-CV, B-LC, B-OG, B-TM
-44	##적으로	O	O	O, B-LC, B-PS, I-OG, B-OG
-45	청와대	B-AF	B-OG	B-OG, B-AF, O, B-LC, B-PS
-46	##를	O	O	O, I-OG, I-AF, I-EV, B-CV
-47	향해	O	O	O, B-CV, B-LC, B-TM, B-OG
-48	유감	O	O	O, B-CV, B-TM, B-LC, I-CV
-49	##을	O	O	O, B-CV, I-CV, B-OG, B-PS
-50	표했	O	O	O, B-CV, B-LC, B-OG, B-TM
-51	##다	O	O	O, B-CV, B-TM, I-CV, I-EV
-52	.	O	O	O, B-CV, B-LC, B-PS, B-OG
-53	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	새	B-OG	B-OG
+2	##누리	I-OG	I-OG
+3	##당	I-OG	I-OG
+4	내	O	O
+5	친	O	O
+6	##박	O	O
+7	##계	O	O
+8	##이	O	O
+9	##자	O	O
+10	청와대	B-OG	B-OG
+11	정무	B-CV	B-CV
+12	##특	I-CV	I-CV
+13	##보	I-CV	I-CV
+14	##인	O	O
+15	윤상현	B-PS	B-PS
+16	〈	O	O
+17	사진	O	O
+18	〉	O	O
+19	의원	B-CV	B-CV
+20	##은	O	O
+21	고	O	B-AF
+22	(	O	I-AF
+23	高	O	I-AF
+24	)	O	I-AF
+25	고도	O	I-AF
+26	미사일	B-AF	I-AF
+27	방어	O	I-AF
+28	체제	O	I-AF
+29	##인	O	O
+30	사드	B-AF	B-AF
+31	(	O	O
+32	THAAD	O	O
+33	)	O	O
+34	배치	O	O
+35	문제	O	O
+36	##와	O	O
+37	관련	O	O
+38	##한	O	O
+39	의원	B-CV	B-CV
+40	##총	O	O
+41	##회	O	O
+42	소집	O	O
+43	##에	O	O
+44	대해	O	O
+45	""""	O	O
+46	정보	O	O
+47	##와	O	O
+48	전략	O	O
+49	##이	O	O
+50	부족	O	O
+51	##한	O	O
+52	상황	O	O
+53	##에	O	O
+54	##서	O	O
+55	의원	O	B-CV
+56	##들이	O	O
+57	모여	O	O
+58	논의	O	O
+59	##한다	O	O
+60	##고	O	O
+61	해서	O	O
+62	제대로	O	O
+63	된	O	O
+64	결론	O	O
+65	##에	O	O
+66	이	O	O
+67	##를	O	O
+68	수	O	O
+69	없	O	O
+70	##고	O	O
+71	,	O	O
+72	결과	O	O
+73	##적	O	O
+74	##으로	O	O
+75	국가	O	O
+76	전략	O	O
+77	##에	O	O
+78	도움	O	O
+79	##이	O	O
+80	안	O	O
+81	된다	O	O
+82	""""	O	O
+83	고	O	O
+84	했	O	O
+85	##다	O	O
+86	.	O	O
+87	[SEP]	O	O

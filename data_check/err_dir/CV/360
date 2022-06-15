@@ -1,55 +1,27 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-EV
-1	평생	O	O	O, B-CV, B-TM, B-TR, B-LC
-2	##고	O	O	O, I-CV, B-CV, I-TR, I-TM
-3	##용	O	O	O, I-CV, I-TR, I-TM, I-AF
-4	##보	O	O	O, I-CV, B-CV, I-TM, I-TR
-5	##장	O	O	O, I-CV, I-TM, I-TR, I-AF
-6	등	O	O	O, I-CV, B-PS, B-LC, B-CV
-7	##으로	O	O	O, B-PS, B-LC, B-OG, B-CV
-8	계층	O	O	O, B-CV, B-LC, B-PS, B-TM
-9	##격	O	O	O, B-PS, B-LC, I-LC, B-CV
-10	##차	O	O	O, B-PS, B-LC, B-OG, B-CV
-11	##가	O	O	O, B-PS, B-LC, B-OG, B-CV
-12	작	O	O	O, B-PS, B-LC, B-CV, B-OG
-13	##은	O	O	O, B-LC, B-PS, B-OG, B-CV
-14	나라	O	O	O, B-LC, B-PS, I-LC, B-OG
-15	##라는	O	O	O, B-PS, B-LC, B-OG, I-OG
-16	평판	O	O	O, B-LC, B-PS, B-CV, B-OG
-17	##을	O	O	O, B-CV, B-PS, B-OG, B-LC
-18	얻	O	O	O, B-PS, B-LC, B-CV, B-OG
-19	##었	O	O	O, B-LC, B-PS, B-CV, B-OG
-20	##던	O	O	O, B-LC, B-PS, B-CV, B-OG
-21	일본	B-LC	B-LC	B-LC, B-OG, O, B-AF, B-PS
-22	##도	O	O	O, I-LC, I-OG, I-AF, B-LC
-23	1990	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-LC
-24	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-25	##대	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-26	거품	O	O	O, B-LC, I-DT, B-PS, B-EV
-27	##이	O	O	O, B-PS, B-LC, I-EV, B-OG
-28	꺼진	O	O	O, B-PS, B-LC, I-EV, I-PS
-29	이후	O	O	O, B-LC, B-PS, I-EV, I-PS
-30	니트	O	B-CV	B-CV, O, B-TM, B-OG, B-LC
-31	##족	O	I-CV	I-CV, O, B-CV, I-OG, I-TM
-32	##이나	O	O	O, I-CV, I-OG, I-QT, B-PS
-33	프리	B-CV	B-CV	B-CV, O, B-TM, B-FD, B-OG
-34	##터	I-CV	O	O, I-CV, I-TM, I-OG, I-TR
-35	##가	O	O	O, I-CV, B-PS, I-QT, I-OG
-36	큰	O	O	O, B-LC, B-CV, B-PS, B-FD
-37	사회	O	O	O, B-FD, B-CV, B-TR, B-QT
-38	##문제	O	O	O, B-FD, I-FD, I-CV, I-QT
-39	##가	O	O	O, B-PS, B-LC, B-OG, B-QT
-40	될	O	O	O, B-LC, B-PS, B-CV, B-QT
-41	정도	O	O	O, B-LC, B-PS, B-CV, B-QT
-42	##로	O	O	O, B-PS, B-LC, B-OG, B-QT
-43	격차	O	O	O, B-LC, B-PS, B-CV, B-TM
-44	##가	O	O	O, B-PS, B-LC, B-OG, B-TM
-45	확대	O	O	O, B-LC, B-PS, B-TM, B-CV
-46	##일	O	O	O, B-LC, B-PS, B-QT, B-CV
-47	##로	O	O	O, I-LC, I-PS, B-PS, B-LC
-48	##에	O	O	O, B-LC, B-PS, I-PS, I-LC
-49	있	O	O	O, B-LC, B-PS, B-QT, B-OG
-50	##습	O	O	O, B-LC, B-CV, B-PS, I-OG
-51	##니다	O	O	O, B-LC, B-CV, B-PS, I-OG
-52	.	O	O	O, B-LC, B-PS, B-CV, B-OG
-53	[SEP]	O	O	O, B-LC, B-PS, B-CV, I-LC
+	text	label	preds
+0	[CLS]	O	O
+1	근데	O	O
+2	그르	O	O
+3	##실	O	O
+4	경우	O	O
+5	##엔	O	O
+6	##요	O	O
+7	섬유	B-MT	B-MT
+8	##소	I-MT	I-MT
+9	##만	O	O
+10	남	O	O
+11	##게	O	O
+12	돼서	O	O
+13	아우	B-CV	O
+14	나물	I-CV	B-CV
+15	##이	O	O
+16	너무	O	O
+17	질	O	O
+18	##겨	O	O
+19	이러	O	O
+20	##실	O	O
+21	수가	O	O
+22	있	O	O
+23	##어요	O	O
+24	.	O	O
+25	[SEP]	O	O

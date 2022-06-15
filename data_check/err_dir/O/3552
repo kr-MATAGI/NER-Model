@@ -1,23 +1,10 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	플라스틱	B-MT	B-MT	B-MT, O, B-TR, I-MT, B-FD
-2	같	O	O	O, I-CV, I-AF, I-OG, I-TM
-3	##은	O	O	O, B-CV, B-LC, I-AF, B-PS
-4	재료	O	O	O, B-CV, B-PS, B-LC, B-AF
-5	##가	O	O	O, B-CV, B-PS, I-AF, B-OG
-6	아니	O	O	O, B-CV, B-PS, B-LC, B-OG
-7	##고	O	O	O, B-PS, B-LC, B-OG, B-CV
-8	이것	O	O	O, B-CV, B-PS, B-LC, B-QT
-9	##은	O	O	O, B-PS, B-CV, B-LC, B-OG
-10	세	O	O	O, B-DT, B-QT, B-TI, B-EV
-11	세월	O	I-DT	I-DT, O, I-QT, I-TI, B-DT
-12	##을	O	O	O, I-QT, I-DT, B-CV, B-PS
-13	배반	O	O	O, B-PS, B-CV, B-LC, B-TR
-14	##하	O	O	O, B-PS, I-AF, B-CV, B-LC
-15	##는	O	O	O, B-PS, B-CV, B-LC, B-OG
-16	재료	O	O	O, B-CV, B-PS, B-LC, B-AF
-17	##거	O	O	O, B-CV, I-AF, B-PS, I-CV
-18	##든	O	O	O, B-CV, B-LC, I-AF, B-OG
-19	##요	O	O	O, B-LC, B-CV, I-AF, I-OG
-20	.	O	O	O, B-CV, B-LC, B-PS, I-AF
-21	[SEP]	O	O	O, B-CV, B-LC, I-AF, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	그	O	O
+2	다음	O	O
+3	##에	O	O
+4	어	O	O
+5	~	O	O
+6	앤	O	B-OG
+7	##지오	O	I-OG
+8	[SEP]	O	O

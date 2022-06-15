@@ -1,45 +1,19 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-EV, I-OG
-1	유급	O	B-CV	B-CV, O, I-CV, B-TM, B-AF
-2	##보	O	I-CV	I-CV, B-CV, O, I-TM, I-QT
-3	##좌	O	I-CV	I-CV, O, B-CV, I-OG, I-TM
-4	##관	O	I-CV	I-CV, O, B-CV, I-OG, I-TM
-5	##제	O	I-CV	I-CV, O, B-CV, I-OG, I-TM
-6	법	O	O	O, I-CV, B-CV, B-PS, B-LC
-7	##적	O	O	O, I-CV, B-LC, B-PS, I-PS
-8	근거	O	O	O, B-PS, B-CV, B-LC, B-OG
-9	##가	O	O	O, B-PS, B-LC, B-OG, B-CV
-10	마련	O	O	O, B-LC, B-CV, B-PS, B-OG
-11	##되	O	O	O, B-PS, B-LC, I-PS, I-LC
-12	##기	O	O	O, B-PS, I-PS, B-LC, I-LC
-13	전	O	O	O, B-PS, B-LC, I-PS, B-OG
-14	##에	O	O	O, B-PS, B-LC, B-OG, B-CV
-15	서울시	B-OG	B-OG	B-OG, B-LC, O, B-PS, B-AF
-16	##가	O	O	O, I-OG, B-PS, I-LC, I-PS
-17	무리	O	O	O, B-CV, B-LC, B-TM, B-PS
-18	##하	O	O	O, B-PS, B-LC, B-OG, B-TM
-19	##게	O	O	O, B-LC, B-PS, B-OG, I-PS
-20	유급	O	B-CV	B-CV, O, B-AF, B-TM, B-OG
-21	##보	B-CV	B-CV	B-CV, I-CV, O, B-OG, I-AF
-22	##좌	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-TM
-23	##관	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-TM
-24	##을	O	O	O, I-CV, I-OG, I-EV, I-AF
-25	추진	O	O	O, B-OG, B-CV, B-LC, B-TM
-26	##하	O	O	O, B-PS, B-LC, B-OG, B-CV
-27	##는	O	O	O, B-PS, B-LC, B-CV, B-OG
-28	것	O	O	O, B-PS, B-LC, B-CV, B-OG
-29	##이	O	O	O, B-PS, B-CV, B-LC, B-OG
-30	법	O	O	O, B-CV, B-PS, I-CV, B-TM
-31	위	O	O	O, B-TM, B-CV, B-AM, B-TR
-32	##에	O	O	O, B-PS, I-CV, B-CV, I-TM
-33	군림	O	O	O, B-CV, B-PS, B-AM, B-LC
-34	##하	O	O	O, B-PS, B-LC, I-PS, B-CV
-35	##는	O	O	O, B-PS, B-LC, B-CV, I-PS
-36	것	O	O	O, B-PS, B-CV, B-LC, B-AM
-37	##이	O	O	O, B-PS, I-PS, B-CV, I-CV
-38	##라는	O	O	O, B-PS, I-PS, B-LC, I-CV
-39	비판	O	O	O, B-CV, B-TR, B-PS, B-TM
-40	##도	O	O	O, B-CV, I-CV, B-PS, I-EV
-41	나온다	O	O	O, B-CV, B-QT, B-TM, B-PS
-42	.	O	O	O, B-PS, B-LC, B-CV, B-OG
-43	[SEP]	O	O	O, B-PS, B-LC, B-CV, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	도시	O	O
+2	숲	O	O
+3	서울	B-LC	B-LC
+4	숲	I-LC	O
+5	같	O	O
+6	##은	O	O
+7	걸	O	O
+8	또	O	O
+9	해	O	B-LC
+10	##달	O	O
+11	##란	O	O
+12	나라	O	O
+13	##도	O	O
+14	있	O	O
+15	##어요	O	O
+16	.	O	O
+17	[SEP]	O	O

@@ -1,16 +1,32 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-AF
-1	막걸리	B-CV	B-CV	B-CV, O, B-PT, B-AF, B-OG
-2	##가	O	O	O, I-CV, I-OG, I-AF, B-CV
-3	이달	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-OG
-4	중	O	I-DT	I-DT, O, B-DT, I-QT, I-TI
-5	중소기업	O	O	O, B-OG, B-TM, B-LC, B-CV
-6	적합	O	O	O, I-OG, B-OG, B-TM, B-LC
-7	##업	O	O	O, I-OG, B-CV, B-TM, B-LC
-8	##종	O	O	O, I-OG, B-OG, B-LC, B-TM
-9	##에서	O	O	O, B-CV, B-LC, B-TM, B-OG
-10	제외	O	O	O, B-TM, B-CV, B-OG, B-QT
-11	##된	O	O	O, I-OG, B-LC, I-CV, B-PS
-12	##다	O	O	O, I-OG, B-CV, B-LC, B-OG
-13	.	O	O	O, B-LC, B-OG, I-OG, B-CV
-14	[SEP]	O	O	O, I-OG, B-LC, B-CV, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	정부	B-OG	B-OG
+2	##가	O	O
+3	지난	B-DT	B-DT
+4	4	I-DT	I-DT
+5	##월	I-DT	I-DT
+6	발표	O	O
+7	##한	O	O
+8	'	O	O
+9	역사	O	B-FD
+10	##교육	O	O
+11	강화	O	O
+12	방안	O	O
+13	'	O	O
+14	에	O	O
+15	따라	O	O
+16	한국사	B-FD	B-FD
+17	과목	O	O
+18	##은	O	O
+19	내년	B-DT	B-DT
+20	고교	O	O
+21	입학	B-CV	B-CV
+22	##생	I-CV	I-CV
+23	##부터	O	O
+24	필수	O	O
+25	##과	O	O
+26	##목	O	O
+27	##이	O	O
+28	된다	O	O
+29	.	O	O
+30	[SEP]	O	O

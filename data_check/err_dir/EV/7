@@ -1,88 +1,31 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-EV, I-CV, I-OG
-1	주요	O	O	O, B-PS, B-LC, B-QT, B-TM
-2	당직	O	O	O, B-CV, B-EV, B-PS, B-OG
-3	##을	O	O	O, I-CV, B-PS, I-EV, B-CV
-4	맡	O	O	O, B-CV, B-LC, B-PS, B-EV
-5	##고	O	O	O, B-PS, B-LC, B-CV, B-QT
-6	있	O	O	O, B-PS, B-CV, B-LC, B-QT
-7	##는	O	O	O, B-PS, B-LC, B-OG, B-CV
-8	한나라당	B-OG	B-OG	B-OG, O, B-PS, B-LC, B-AF
-9	##의	O	O	O, I-OG, I-EV, I-PS, I-AF
-10	한	O	O	O, B-PS, B-QT, B-EV, B-OG
-11	재선	O	O	O, B-CV, B-EV, B-PS, B-QT
-12	의원	B-CV	B-CV	B-CV, I-CV, O, I-EV, I-QT
-13	##은	O	O	O, I-CV, I-EV, I-QT, B-CV
-14	“	O	O	O, B-CV, B-LC, B-PS, B-OG
-15	박	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-16	전	O	O	O, I-PS, I-EV, I-OG, B-CV
-17	대표	B-CV	B-CV	B-CV, O, I-CV, B-EV, B-TM
-18	##가	O	O	O, I-CV, B-PS, I-EV, B-CV
-19	지원	O	O	O, B-LC, B-CV, B-PS, B-TM
-20	##유	O	O	O, B-LC, B-PS, B-CV, I-LC
-21	##세	O	O	O, B-LC, I-LC, B-PS, I-CV
-22	##에	O	O	O, B-PS, B-LC, B-CV, B-OG
-23	나선	O	O	O, B-LC, B-CV, B-PS, B-OG
-24	영남	B-LC	B-LC	B-LC, O, B-OG, B-PS, I-LC
-25	##과	O	O	O, I-LC, I-AF, I-OG, I-EV
-26	충청	B-LC	B-LC	B-LC, O, B-OG, B-PS, I-LC
-27	##권	I-LC	I-LC	I-LC, O, I-OG, B-LC, I-PS
-28	등	O	O	O, I-LC, B-LC, I-OG, I-EV
-29	8	B-QT	B-QT	B-QT, O, I-QT, B-EV, B-LC
-30	##곳	I-QT	I-QT	I-QT, O, I-LC, I-EV, I-PS
-31	##의	O	O	O, I-QT, I-EV, B-EV, B-CV
-32	기초	B-EV	O	O, B-EV, B-CV, I-EV, B-TM
-33	##단체	I-EV	I-EV	I-EV, O, B-CV, I-CV, B-EV
-34	##장	I-EV	O	O, I-EV, I-CV, B-CV, B-EV
-35	선거	I-EV	O	O, I-EV, I-CV, B-EV, B-CV
-36	##는	O	O	O, I-EV, I-CV, B-PS, B-CV
-37	초반	O	O	O, B-TI, B-QT, B-DT, I-TI
-38	##의	O	O	O, B-PS, B-LC, I-EV, B-OG
-39	불리	O	O	O, B-LC, B-PS, B-CV, B-OG
-40	##함	O	O	O, B-PS, B-LC, I-PS, I-LC
-41	##을	O	O	O, B-PS, B-CV, B-LC, B-OG
-42	뒤집	O	O	O, B-PS, B-CV, B-LC, B-OG
-43	##고	O	O	O, B-PS, B-LC, B-OG, B-CV
-44	한나라당	B-OG	B-OG	B-OG, O, B-LC, B-PS, B-AF
-45	##이	O	O	O, I-OG, B-PS, I-PS, I-EV
-46	모두	O	O	O, B-QT, B-CV, B-PS, B-LC
-47	이겼	O	O	O, B-CV, B-PS, B-EV, B-LC
-48	##다	O	O	O, B-CV, B-PS, I-EV, B-LC
-49	”	O	O	O, B-CV, B-LC, B-PS, I-EV
-50	며	O	O	O, B-LC, B-CV, B-OG, B-PS
-51	“	O	O	O, B-LC, B-CV, B-PS, B-EV
-52	박근혜	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-53	##의	O	O	O, I-PS, B-PS, B-CV, I-EV
-54	힘	O	O	O, B-CV, B-PS, B-LC, B-TM
-55	##이	O	O	O, B-PS, B-LC, B-OG, B-CV
-56	여전	O	O	O, B-CV, B-PS, B-LC, B-TM
-57	##한	O	O	O, B-PS, B-LC, B-CV, B-OG
-58	것	O	O	O, B-PS, B-LC, B-CV, B-OG
-59	##으로	O	O	O, B-PS, B-CV, B-LC, B-OG
-60	확인	O	O	O, B-PS, B-CV, B-LC, B-OG
-61	##된	O	O	O, B-PS, B-LC, I-EV, B-OG
-62	만큼	O	O	O, B-PS, B-LC, B-OG, B-EV
-63	박	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-64	전	O	O	O, I-PS, I-EV, B-CV, I-AF
-65	대표	B-CV	B-CV	B-CV, O, I-CV, B-EV, B-TM
-66	##를	O	O	O, I-CV, I-EV, B-PS, I-QT
-67	중심	O	O	O, B-LC, B-CV, B-PS, B-TM
-68	##으로	O	O	O, B-PS, B-LC, B-QT, B-CV
-69	내년	B-DT	B-DT	B-DT, O, B-EV, I-DT, B-CV
-70	총선	B-EV	B-EV	B-EV, O, B-CV, I-EV, B-AF
-71	##과	O	O	O, I-EV, I-AF, I-CV, I-DT
-72	대선	B-EV	B-EV	B-EV, O, B-CV, I-EV, B-AF
-73	##을	O	O	O, I-EV, I-AF, I-CV, I-OG
-74	치를	O	O	O, B-CV, B-LC, B-OG, I-EV
-75	수	O	O	O, B-CV, B-PS, B-LC, B-OG
-76	##밖	O	O	O, B-PS, B-CV, B-LC, B-TM
-77	##에	O	O	O, B-LC, B-PS, I-OG, B-OG
-78	없	O	O	O, B-CV, B-TM, B-LC, B-PS
-79	##다	O	O	O, B-CV, B-LC, B-PS, B-TM
-80	”	O	O	O, B-CV, B-LC, B-TM, B-QT
-81	고	O	O	O, B-CV, B-LC, B-QT, B-TM
-82	말	O	O	O, B-CV, B-TM, B-QT, B-LC
-83	##했	O	O	O, B-CV, B-PS, B-LC, I-EV
-84	##다	O	O	O, B-CV, B-LC, B-PS, B-TM
-85	.	O	O	O, B-LC, B-PS, B-CV, I-EV
-86	[SEP]	O	O	O, B-LC, B-CV, B-PS, I-EV
+	text	label	preds
+0	[CLS]	O	O
+1	10	B-DT	B-DT
+2	##일	I-DT	I-DT
+3	끝	O	O
+4	##난	O	O
+5	전국	B-EV	B-EV
+6	##선	I-EV	I-EV
+7	##수	I-EV	I-EV
+8	##권	I-EV	I-EV
+9	##대	I-EV	I-EV
+10	##회	I-EV	I-EV
+11	주니어	I-EV	O
+12	남자	I-EV	O
+13	싱글	I-EV	O
+14	##에	O	O
+15	##서	O	O
+16	우승	O	O
+17	##한	O	O
+18	이동	B-PS	B-PS
+19	##원	I-PS	I-PS
+20	(	O	O
+21	13	B-QT	B-QT
+22	·	O	O
+23	과천	B-OG	B-OG
+24	##초	I-OG	I-OG
+25	)	O	O
+26	이	O	O
+27	주인공	B-CV	B-CV
+28	.	O	O
+29	[SEP]	O	O

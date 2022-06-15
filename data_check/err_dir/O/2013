@@ -1,42 +1,13 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	그래서	O	O	O, B-CV, B-LC, B-TM, B-OG
-2	죽	O	O	O, B-CV, B-TM, B-PS, B-LC
-3	##게	O	O	O, B-PS, B-CV, I-AF, B-LC
-4	된	O	O	O, B-PS, B-CV, B-QT, B-LC
-5	사람	O	O	O, B-CV, B-AM, I-CV, B-PS
-6	##도	O	O	O, B-PS, B-CV, I-CV, B-TM
-7	살려	O	O	O, B-CV, B-TM, B-PS, B-LC
-8	##준다	O	O	O, I-CV, B-PS, I-AF, I-PS
-9	##는	O	O	O, B-PS, B-LC, I-AF, B-CV
-10	기도	O	O	O, B-AF, B-TM, B-CV, B-AM
-11	##발	O	O	O, I-AF, I-TM, I-CV, I-LC
-12	##이	O	O	O, B-PS, I-AF, B-CV, B-LC
-13	있	O	O	O, B-CV, B-PS, B-LC, B-AF
-14	##는	O	O	O, B-CV, B-PS, B-LC, B-TM
-15	것	O	O	O, B-PS, B-CV, I-AF, B-LC
-16	##으로	O	O	O, B-CV, B-PS, B-LC, B-TM
-17	회자	O	O	O, B-CV, B-PS, B-TM, B-LC
-18	##되	O	O	O, B-PS, B-LC, B-CV, I-CV
-19	##는	O	O	O, B-LC, B-CV, B-PS, B-OG
-20	유명	O	O	O, B-CV, B-OG, B-AF, B-LC
-21	##사	O	O	O, B-CV, I-CV, I-AF, I-OG
-22	##찰	O	O	O, I-AF, I-CV, I-OG, I-LC
-23	##의	O	O	O, I-AF, I-OG, B-AF, I-CV
-24	기도	O	O	O, B-CV, B-AF, B-LC, I-AF
-25	##처	O	O	O, I-AF, I-LC, I-CV, I-OG
-26	##엔	O	O	O, B-CV, I-AF, B-TM, B-LC
-27	밤낮	O	B-TI	B-TI, O, B-QT, B-TM, B-EV
-28	##을	O	O	O, I-TI, I-EV, I-QT, I-AF
-29	가리	O	O	O, B-LC, B-CV, B-TM, B-OG
-30	##지	O	O	O, B-LC, B-PS, B-OG, B-TM
-31	않	O	O	O, B-LC, B-PS, B-TM, B-OG
-32	##고	O	O	O, B-LC, B-PS, B-TM, B-OG
-33	기도	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-OG
-34	##객	I-CV	I-CV	I-CV, O, B-CV, I-AM, I-TM
-35	##들이	O	O	O, I-CV, B-CV, I-AF, I-OG
-36	몰려	O	O	O, B-CV, B-TM, B-LC, B-OG
-37	##든	O	O	O, B-CV, B-LC, B-PS, I-AF
-38	##다	O	O	O, B-CV, I-AF, B-TM, I-OG
-39	.	O	O	O, B-CV, B-LC, B-PS, I-AF
-40	[SEP]	O	O	O, B-CV, B-LC, I-AF, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	농업	O	B-FD
+2	##하면	O	O
+3	지금	O	O
+4	##까	O	O
+5	##지	O	O
+6	##는	O	O
+7	먹	O	O
+8	##는	O	O
+9	거	O	O
+10	.	O	O
+11	[SEP]	O	O

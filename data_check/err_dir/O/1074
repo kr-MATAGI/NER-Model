@@ -1,43 +1,105 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	빌	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
-2	##보	I-PS	I-PS	I-PS, O, I-OG, I-LC, B-PS
-3	##는	O	O	O, I-PS, I-OG, I-AF, I-LC
-4	일행	O	O	O, B-CV, B-OG, B-AF, B-PS
-5	##과	O	O	O, B-PS, B-CV, I-OG, I-CV
-6	떨어져	O	O	O, B-LC, B-TM, B-CV, B-PS
-7	고	O	B-LC	B-LC, O, B-AF, B-TM, B-CV
-8	##블	O	I-LC	I-LC, O, I-AF, B-LC, I-TM
-9	##린	O	I-LC	I-LC, O, I-AF, B-LC, I-TM
-10	동굴	O	I-LC	I-LC, O, I-AF, B-LC, I-TM
-11	##에서	O	O	O, I-LC, I-AF, B-PS, B-CV
-12	헤매	O	O	O, B-CV, B-LC, B-TM, B-PS
-13	##다	O	O	O, B-PS, B-LC, B-CV, B-TM
-14	괴물	O	O	O, B-PS, B-CV, B-AF, B-AM
-15	골	B-PS	B-PS	B-PS, O, I-PS, B-LC, B-CV
-16	##룸	I-PS	I-PS	I-PS, O, I-LC, B-PS, I-OG
-17	(	O	O	O, I-PS, B-CV, I-OG, I-AF
-18	앤디	B-PS	B-PS	B-PS, O, I-PS, B-LC, B-OG
-19	서	I-PS	I-PS	I-PS, O, B-PS, I-LC, I-OG
-20	##키스	I-PS	I-PS	I-PS, O, I-LC, I-OG, B-PS
-21	)	O	O	O, I-PS, B-CV, I-OG, B-LC
-22	과	O	O	O, B-PS, B-CV, B-LC, B-TM
-23	마주치	O	O	O, B-CV, B-TM, B-PS, B-QT
-24	##고	O	O	O, B-PS, I-PS, I-CV, B-CV
-25	,	O	O	O, B-CV, B-PS, B-LC, B-OG
-26	골	B-PS	B-PS	B-PS, O, B-LC, B-OG, B-AF
-27	##룸	I-PS	I-PS	I-PS, O, I-LC, I-OG, B-PS
-28	##이	O	O	O, I-PS, B-PS, B-CV, I-AF
-29	흘린	O	O	O, B-CV, B-MT, B-AF, B-TM
-30	‘	O	O	O, B-CV, B-QT, B-TM, B-LC
-31	절대	O	O	O, B-AF, B-CV, B-AM, B-QT
-32	##반	O	O	O, I-AF, I-CV, B-CV, B-AM
-33	##지	O	O	O, I-AF, I-CV, I-QT, I-MT
-34	’	O	O	O, I-CV, I-AF, B-CV, I-QT
-35	를	O	O	O, B-CV, B-PS, B-TM, B-QT
-36	우연히	O	O	O, B-CV, B-QT, B-TM, B-PS
-37	줍	O	O	O, B-CV, B-QT, B-TM, I-QT
-38	##게	O	O	O, I-QT, B-CV, B-QT, B-PS
-39	된다	O	O	O, B-CV, B-PS, B-QT, B-LC
-40	.	O	O	O, B-PS, B-CV, B-LC, B-AF
-41	[SEP]	O	O	O, B-CV, B-PS, B-LC, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	한국	B-OG	B-OG
+2	##방송	I-OG	I-OG
+3	양대	O	O
+4	노조	O	O
+5	##와	O	O
+6	16	B-QT	B-QT
+7	##개	I-QT	I-QT
+8	직	O	O
+9	##능	O	O
+10	협회	O	O
+11	##는	O	O
+12	임시	O	O
+13	##이	O	O
+14	##사회	O	O
+15	##를	O	O
+16	이틀	B-DT	B-DT
+17	앞둔	O	O
+18	16	B-DT	B-DT
+19	##일	I-DT	I-DT
+20	오후	B-TI	B-TI
+21	서울	B-LC	B-LC
+22	여의도	B-LC	B-LC
+23	한국	B-AF	B-AF
+24	##방송	I-AF	I-AF
+25	신관	O	O
+26	앞	B-TM	B-TM
+27	##에	O	O
+28	##서	O	O
+29	공동	O	O
+30	##기	O	O
+31	##자	O	O
+32	##회	O	O
+33	##견	O	O
+34	##을	O	O
+35	열	O	O
+36	##어	O	O
+37	“	O	O
+38	이사회	O	O
+39	##는	O	O
+40	법	O	O
+41	개정	O	O
+42	이전	O	O
+43	##에	O	O
+44	시민	B-CV	B-CV
+45	·	O	O
+46	언론	O	O
+47	##단체	O	O
+48	등	O	O
+49	##을	O	O
+50	포함	O	O
+51	##한	O	O
+52	국민대	O	O
+53	##표	O	O
+54	##들이	O	O
+55	참여	O	O
+56	##하	O	O
+57	##는	O	O
+58	사장	B-CV	B-OG
+59	##추	O	I-OG
+60	##천	O	I-OG
+61	##위원회	O	I-OG
+62	##를	O	O
+63	구성	O	O
+64	##하	O	O
+65	##고	O	O
+66	,	O	O
+67	이	O	O
+68	위원회	O	O
+69	##가	O	O
+70	추천	O	O
+71	##한	O	O
+72	사장	B-CV	B-CV
+73	후보	B-CV	B-CV
+74	##들	O	O
+75	##을	O	O
+76	‘	O	O
+77	특별	B-CV	B-CV
+78	##다수	I-CV	I-CV
+79	##제	I-CV	I-CV
+80	’	O	O
+81	(	O	O
+82	3	B-QT	B-QT
+83	##분	I-QT	I-QT
+84	##의	I-QT	I-QT
+85	##2	I-QT	I-QT
+86	이상	I-QT	I-QT
+87	찬성	O	O
+88	)	O	O
+89	로	O	O
+90	선출	O	O
+91	##할	O	O
+92	것	O	O
+93	##을	O	O
+94	합의	O	O
+95	##해	O	O
+96	##달라	O	O
+97	”	O	O
+98	고	O	O
+99	제안	O	O
+100	##했	O	O
+101	##다	O	O
+102	.	O	O
+103	[SEP]	O	O

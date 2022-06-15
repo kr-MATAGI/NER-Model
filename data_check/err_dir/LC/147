@@ -1,40 +1,55 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	콘	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
-2	##돌	I-PS	I-PS	I-PS, O, B-PS, I-OG, I-LC
-3	##리	I-PS	I-PS	I-PS, O, B-PS, I-LC, I-OG
-4	##자	I-PS	I-PS	I-PS, O, I-LC, B-PS, I-OG
-5	라이스	I-PS	I-PS	I-PS, B-PS, O, B-LC, I-LC
-6	당시	O	O	O, I-PS, B-CV, I-OG, B-OG
-7	미국	B-LC	B-LC	B-LC, B-OG, O, B-CV, B-AF
-8	국무	B-CV	B-CV	B-CV, I-CV, O, B-OG, I-OG
-9	##장	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-EV
-10	##관	I-CV	I-CV	I-CV, O, I-OG, B-CV, I-EV
-11	##은	O	O	O, I-CV, I-OG, B-CV, I-EV
-12	6	B-EV	B-EV	B-EV, O, B-OG, B-QT, B-AF
-13	##자	I-EV	I-EV	I-EV, O, I-QT, B-EV, I-OG
-14	##회	I-EV	I-EV	I-EV, O, I-OG, I-QT, I-AF
-15	##담	I-EV	I-EV	I-EV, O, I-OG, I-AF, I-QT
-16	미국	B-OG	B-OG	B-OG, B-LC, I-OG, I-EV, O
-17	측	O	O	O, I-OG, I-EV, I-LC, I-DT
-18	수석대표	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-QT
-19	##였	O	O	O, I-CV, B-CV, B-PS, I-QT
-20	##던	O	O	O, B-PS, B-CV, B-LC, B-TM
-21	크리스토퍼	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
-22	힐	I-PS	I-PS	I-PS, O, I-OG, B-PS, I-LC
-23	미	B-LC	B-LC	B-LC, B-OG, O, I-PS, I-LC
-24	국무부	B-OG	B-OG	B-OG, B-LC, B-AF, I-OG, O
-25	동아시아	B-LC	B-LC	B-LC, O, B-OG, B-TM, I-LC
-26	##태평양	B-LC	I-LC	I-LC, O, B-LC, I-OG, I-TM
-27	##담	O	O	O, I-LC, I-OG, I-TM, I-QT
-28	##당	O	O	O, I-LC, I-OG, I-QT, I-TM
-29	차관보	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-QT
-30	##에	O	O	O, I-CV, B-CV, I-QT, I-AF
-31	##게	O	O	O, B-TM, B-CV, B-LC, B-OG
-32	전화	O	O	O, B-TM, B-CV, B-QT, B-AF
-33	##를	O	O	O, B-CV, I-TM, I-AF, I-OG
-34	걸	O	O	O, B-CV, B-OG, B-LC, B-TM
-35	##었	O	O	O, B-CV, B-OG, I-OG, B-LC
-36	##다	O	O	O, B-CV, B-TM, B-LC, I-OG
-37	.	O	O	O, B-LC, B-PS, B-OG, B-CV
-38	[SEP]	O	O	O, B-LC, B-CV, B-TM, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	아르헨티나	B-OG	B-OG
+2	축구	I-OG	I-OG
+3	##협회	I-OG	I-OG
+4	(	O	O
+5	AF	B-OG	B-OG
+6	##A	I-OG	I-OG
+7	)	O	O
+8	의	O	O
+9	호세	B-PS	B-PS
+10	루이스	I-PS	I-PS
+11	마이	I-PS	I-PS
+12	##즈	I-PS	I-PS
+13	##너	I-PS	I-PS
+14	실무	O	B-CV
+15	부회장	B-CV	I-CV
+16	##은	O	O
+17	""""	O	O
+18	한국	B-LC	B-OG
+19	##은	O	O
+20	기술	O	O
+21	##이	O	O
+22	부족	O	O
+23	##하	O	O
+24	##지만	O	O
+25	어려움	O	O
+26	##에	O	O
+27	맞서	O	O
+28	싸우	O	O
+29	##는	O	O
+30	팀	O	O
+31	""""	O	O
+32	이라	O	O
+33	##며	O	O
+34	""""	O	O
+35	한국	B-LC	B-OG
+36	##은	O	O
+37	유럽	B-OG	B-OG
+38	##팀	I-OG	I-OG
+39	##이	O	O
+40	포기	O	O
+41	##하	O	O
+42	##는	O	O
+43	공	O	B-CV
+44	##도	O	O
+45	끝	O	O
+46	##까	O	O
+47	##지	O	O
+48	쫓아가	O	O
+49	##서	O	O
+50	살려	O	O
+51	##낸다	O	O
+52	.	O	O
+53	[SEP]	O	O

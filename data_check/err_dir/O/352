@@ -1,41 +1,16 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, B-CV, I-EV, I-OG
-1	독일	B-LC	B-LC	B-LC, B-AF, B-OG, O, B-EV
-2	상공	O	B-AF	B-AF, O, I-AF, B-OG, I-OG
-3	##회의	O	I-AF	I-AF, O, I-OG, I-LC, I-EV
-4	##소	O	I-AF	I-AF, O, I-OG, I-LC, I-EV
-5	##에서	O	O	O, I-AF, I-OG, B-PS, I-EV
-6	브리지	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
-7	##트	I-PS	I-PS	I-PS, I-OG, O, I-LC, B-PS
-8	셸	I-PS	I-PS	I-PS, I-OG, O, B-PS, I-LC
-9	##레	I-PS	I-PS	I-PS, I-OG, O, I-LC, I-AF
-10	직업	B-CV	B-CV	B-CV, O, I-CV, I-PS, B-FD
-11	##교육	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-AF
-12	##국장	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-AF
-13	##을	O	O	O, I-CV, B-CV, I-OG, I-AF
-14	만난	O	O	O, B-CV, B-LC, B-PS, B-QT
-15	건	O	O	O, B-PS, B-CV, B-LC, B-OG
-16	한국	B-LC	B-LC	B-LC, O, B-OG, I-LC, B-PS
-17	##에서	O	O	O, I-LC, B-PS, B-LC, I-PS
-18	노동	O	O	O, B-TR, B-CV, B-FD, B-PS
-19	##개혁	O	O	O, I-TR, B-TR, I-CV, B-PS
-20	##의	O	O	O, B-PS, I-TR, I-PS, B-TR
-21	모델	O	O	O, B-CV, B-TR, B-PS, B-LC
-22	##로	O	O	O, B-PS, B-LC, I-PS, I-CV
-23	하	B-TR	B-LC	B-LC, B-PS, B-OG, O, B-CV
-24	##르	I-TR	I-PS	I-PS, I-LC, I-OG, O, I-CV
-25	##츠	I-TR	I-LC	I-LC, I-PS, I-OG, O, I-CV
-26	개혁	I-TR	O	O, I-PS, I-OG, I-EV, I-LC
-27	열풍	O	O	O, I-EV, B-PS, I-PS, I-TR
-28	##이	O	O	O, B-PS, B-CV, B-LC, B-OG
-29	불	O	O	O, B-PS, B-CV, B-LC, B-OG
-30	##던	O	O	O, B-PS, B-CV, B-LC, B-OG
-31	2015	B-DT	B-DT	B-DT, O, I-DT, B-LC, B-QT
-32	##년	I-DT	I-DT	I-DT, O, B-DT, I-PS, I-QT
-33	10	I-DT	I-DT	I-DT, O, B-DT, I-PS, I-QT
-34	##월	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-35	##이	O	O	O, I-DT, B-PS, B-CV, B-LC
-36	##었	O	O	O, B-CV, B-PS, B-LC, I-DT
-37	##다	O	O	O, B-CV, B-PS, B-LC, I-EV
-38	.	O	O	O, B-PS, B-LC, B-CV, I-EV
-39	[SEP]	O	O	O, B-PS, B-LC, B-CV, I-EV
+	text	label	preds
+0	[CLS]	O	O
+1	소방서	O	B-OG
+2	멀	O	O
+3	##었	O	O
+4	##다면	O	O
+5	…	O	O
+6	車	O	O
+7	로	O	O
+8	2	B-TI	B-TI
+9	##분	I-TI	I-TI
+10	거리	O	O
+11	##라	O	O
+12	바로	O	O
+13	출동	O	O
+14	[SEP]	O	O

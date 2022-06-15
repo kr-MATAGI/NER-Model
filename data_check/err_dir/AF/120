@@ -1,65 +1,49 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	케이블	O	O	O, B-TM, B-OG, B-QT, I-TM
-2	채널	B-AF	B-OG	B-OG, I-OG, O, I-TM, B-AF
-3	##C	I-AF	I-OG	I-OG, B-OG, O, I-AF, I-TM
-4	##G	I-AF	I-OG	I-OG, O, I-AF, I-TM, B-OG
-5	##V	I-AF	I-OG	I-OG, I-AF, O, I-TM, I-LC
-6	##는	O	O	O, I-OG, I-AF, I-TM, I-EV
-7	배우	B-CV	B-CV	B-CV, O, B-AF, B-PS, B-OG
-8	한상	B-PS	B-PS	B-PS, I-PS, O, B-OG, B-CV
-9	##진	I-PS	I-PS	I-PS, O, I-OG, I-QT, I-LC
-10	##이	O	O	O, I-PS, B-PS, B-LC, I-OG
-11	이다	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-12	##희	I-PS	I-PS	I-PS, O, I-OG, I-LC, I-QT
-13	,	O	O	O, I-PS, I-OG, B-CV, I-AF
-14	임	B-PS	B-PS	B-PS, B-OG, O, I-PS, B-LC
-15	##주	I-PS	I-PS	I-PS, I-OG, O, I-LC, B-PS
-16	##환	I-PS	I-PS	I-PS, O, I-OG, I-LC, I-QT
-17	등	O	O	O, I-PS, B-LC, B-CV, I-QT
-18	다른	O	O	O, B-LC, B-QT, B-CV, B-PS
-19	배우	B-CV	B-CV	B-CV, O, I-CV, B-AF, B-PS
-20	##와	O	O	O, I-CV, I-AF, B-CV, I-OG
-21	스태프	B-CV	B-CV	B-CV, O, I-CV, B-AF, B-TM
-22	10	B-QT	B-QT	B-QT, I-QT, O, B-DT, I-CV
-23	##여	I-QT	I-QT	I-QT, O, I-CV, I-PS, B-QT
-24	##명	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-25	##을	O	O	O, I-QT, B-CV, B-TM, B-OG
-26	이끌	O	O	O, B-LC, B-OG, B-CV, B-TM
-27	##고	O	O	O, B-LC, B-PS, B-OG, B-QT
-28	하루	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-29	10	B-QT	B-QT	B-QT, I-QT, I-DT, B-DT, B-TI
-30	##만	I-QT	I-QT	I-QT, I-DT, O, I-LC, I-EV
-31	##원	I-QT	I-QT	I-QT, O, I-LC, I-DT, I-PS
-32	##의	O	O	O, I-QT, B-PS, B-LC, I-EV
-33	예산	O	O	O, B-LC, B-TM, B-CV, B-OG
-34	##으로	O	O	O, B-PS, B-LC, B-OG, B-CV
-35	4	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-36	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
-37	만	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
-38	##에	O	O	O, I-DT, I-AF, I-EV, I-OG
-39	단편	B-FD	B-FD	B-FD, O, B-AF, B-TM, B-TR
-40	##영화	I-FD	I-FD	I-FD, O, B-FD, I-TR, I-AF
-41	##를	O	O	O, I-FD, I-AF, I-OG, I-EV
-42	찍	O	O	O, B-CV, B-OG, B-LC, B-TM
-43	##는	O	O	O, B-CV, B-PS, B-LC, B-TM
-44	과정	O	O	O, B-CV, B-LC, B-TM, B-OG
-45	##을	O	O	O, B-CV, B-LC, B-OG, B-PS
-46	담	O	O	O, B-LC, B-CV, B-OG, B-PS
-47	##은	O	O	O, B-LC, B-CV, B-PS, B-QT
-48	리얼리티	O	O	O, B-FD, B-TM, B-CV, B-AF
-49	##쇼	O	O	O, I-FD, I-TM, I-AF, I-CV
-50	'	O	O	O, B-LC, B-CV, I-EV, I-CV
-51	나	B-AF	B-AF	B-AF, B-EV, B-TM, B-PS, O
-52	##도	I-AF	I-AF	I-AF, I-EV, I-TM, O, I-PS
-53	영화	I-AF	I-AF	I-AF, I-EV, I-TM, I-PS, I-CV
-54	##감독	I-AF	I-AF	I-AF, I-CV, I-EV, I-TM, I-PS
-55	##이다	I-AF	I-AF	I-AF, I-CV, I-TM, O, I-EV
-56	'	O	O	O, I-AF, I-EV, I-CV, I-TM
-57	를	O	O	O, B-LC, B-CV, B-DT, B-OG
-58	방영	O	O	O, B-TM, B-LC, B-CV, B-OG
-59	##할	O	O	O, B-OG, B-LC, B-CV, B-TM
-60	예정	O	O	O, B-TM, B-CV, B-QT, B-OG
-61	##이다	O	O	O, B-CV, B-TM, I-OG, I-QT
-62	.	O	O	O, B-LC, B-OG, B-PS, B-CV
-63	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	신청	B-AF	O
+2	##사	I-AF	O
+3	전체	O	O
+4	부지	O	O
+5	##의	O	O
+6	약	B-QT	B-QT
+7	9	I-QT	I-QT
+8	%	I-QT	I-QT
+9	를	O	O
+10	차지	O	O
+11	##하	O	O
+12	##는	O	O
+13	발굴	O	O
+14	##조사	O	O
+15	터	O	O
+16	(	O	O
+17	45	B-QT	B-QT
+18	##22	I-QT	I-QT
+19	##㎡	I-QT	I-QT
+20	)	O	O
+21	에	O	O
+22	##는	O	O
+23	석	O	O
+24	##축	O	O
+25	,	O	O
+26	그을	O	O
+27	##음	O	O
+28	##이	O	O
+29	남아	O	O
+30	있	O	O
+31	##는	O	O
+32	구	O	O
+33	##들	O	O
+34	,	O	O
+35	건물	O	O
+36	기단	O	O
+37	,	O	O
+38	기둥	O	O
+39	##자리	O	O
+40	등이	O	O
+41	그대로	O	O
+42	남아	O	O
+43	있	O	O
+44	##었	O	O
+45	##다	O	O
+46	.	O	O
+47	[SEP]	O	O

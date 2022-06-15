@@ -1,55 +1,23 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	무소	O	O	O, B-LC, B-OG, B-PS, B-TR
-2	##속	O	O	O, I-OG, I-LC, I-PS, I-TR
-3	안철수	B-PS	B-PS	B-PS, O, I-PS, B-OG, B-LC
-4	후보	B-CV	B-CV	B-CV, O, I-PS, I-CV, B-OG
-5	측	O	O	O, I-CV, B-PS, B-OG, B-LC
-6	정연	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-7	##순	I-PS	I-PS	I-PS, O, I-OG, B-PS, I-LC
-8	대변인	B-CV	B-CV	B-CV, O, B-TM, B-OG, I-CV
-9	##은	O	O	O, I-CV, I-EV, B-CV, I-OG
-10	“	O	O	O, B-CV, B-LC, B-OG, B-PS
-11	대통령	B-CV	B-CV	B-CV, O, B-OG, B-PS, B-EV
-12	##의	O	O	O, I-CV, I-EV, B-CV, I-OG
-13	재직	O	O	O, B-CV, B-PS, B-LC, B-OG
-14	중	O	O	O, B-PS, I-CV, B-CV, I-PS
-15	소추	O	O	O, B-CV, I-CV, B-OG, B-PS
-16	##금	O	O	O, I-CV, B-CV, I-OG, I-TR
-17	##지	O	O	O, I-CV, I-OG, B-CV, I-TR
-18	규정	O	O	O, I-CV, B-CV, I-OG, I-TR
-19	##에	O	O	O, I-CV, B-PS, B-CV, I-OG
-20	따른	O	O	O, B-LC, B-PS, B-CV, B-OG
-21	면죄부	O	B-AF	B-AF, O, I-AF, B-MT, B-CV
-22	##에	O	O	O, I-AF, I-CV, I-EV, I-OG
-23	대해서	O	O	O, B-LC, B-PS, B-CV, B-OG
-24	##는	O	O	O, B-LC, B-PS, B-OG, B-CV
-25	(	O	O	O, B-LC, B-CV, B-PS, B-OG
-26	퇴임	O	O	O, B-CV, B-PS, B-LC, B-EV
-27	후	O	O	O, B-PS, I-CV, I-PS, I-EV
-28	)	O	O	O, B-LC, B-PS, B-CV, B-OG
-29	추가	O	O	O, B-LC, B-PS, B-CV, B-OG
-30	##적인	O	O	O, B-PS, B-LC, B-CV, I-EV
-31	수사	O	O	O, B-CV, B-PS, B-LC, B-OG
-32	##를	O	O	O, B-PS, B-CV, B-LC, B-OG
-33	비롯	O	O	O, B-LC, B-PS, B-OG, B-CV
-34	##한	O	O	O, B-PS, B-LC, B-OG, B-CV
-35	사법	O	O	O, B-CV, B-PS, B-TR, B-LC
-36	##적	O	O	O, B-PS, I-PS, I-CV, B-CV
-37	심판	O	O	O, B-CV, B-PS, I-CV, B-OG
-38	##이	O	O	O, B-PS, I-CV, B-CV, B-LC
-39	기다리	O	O	O, B-PS, B-CV, B-LC, B-OG
-40	##고	O	O	O, B-PS, B-LC, B-CV, I-AF
-41	있	O	O	O, B-PS, B-CV, B-LC, B-OG
-42	##음	O	O	O, B-PS, B-LC, B-CV, I-CV
-43	##을	O	O	O, B-CV, B-PS, B-LC, B-OG
-44	명심	O	O	O, B-CV, B-PS, B-LC, B-TM
-45	##하기	O	O	O, B-PS, B-CV, I-CV, I-EV
-46	바란다	O	O	O, B-CV, B-PS, B-LC, B-OG
-47	”	O	O	O, B-CV, B-LC, B-TM, B-OG
-48	고	O	O	O, B-CV, B-LC, B-TM, B-OG
-49	말	O	O	O, B-CV, B-TM, B-LC, B-OG
-50	##했	O	O	O, B-CV, B-PS, B-LC, I-OG
-51	##다	O	O	O, B-CV, B-LC, B-TM, B-OG
-52	.	O	O	O, B-LC, B-PS, B-CV, B-OG
-53	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	사실	O	O
+2	저	O	O
+3	##는	O	O
+4	약간	O	O
+5	뜨거운	O	B-AF
+6	사이다	B-CV	I-AF
+7	##가	O	O
+8	학교	O	O
+9	##와	O	O
+10	##도	O	O
+11	약간	O	O
+12	같	O	O
+13	##은	O	O
+14	곳	O	O
+15	##이	O	O
+16	##었	O	O
+17	##거	O	O
+18	##든	O	O
+19	##요	O	O
+20	.	O	O
+21	[SEP]	O	O

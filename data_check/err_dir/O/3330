@@ -1,34 +1,60 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	최근	O	O	O, B-CV, B-LC, B-TM, B-AF
-2	육	O	B-CV	B-CV, O, B-AM, B-PT, B-TM
-3	##계	O	I-CV	I-CV, O, I-AM, I-PT, I-TM
-4	도매	O	O	O, B-CV, I-CV, B-QT, B-OG
-5	##가	O	O	O, I-CV, I-OG, I-LC, I-QT
-6	##가	O	O	O, B-PS, I-OG, B-OG, B-LC
-7	뛰	O	O	O, B-CV, B-OG, B-TM, B-LC
-8	##면서	O	O	O, I-OG, B-LC, B-OG, B-PS
-9	대형	O	O	O, B-OG, B-CV, B-TM, B-AF
-10	##마트	O	O	O, I-OG, I-CV, I-TM, I-AF
-11	3	B-QT	B-QT	B-QT, O, I-QT, B-DT, I-OG
-12	##사	I-QT	I-QT	I-QT, O, I-OG, I-DT, I-EV
-13	##는	O	O	O, I-QT, I-OG, B-CV, B-OG
-14	지난	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-15	9	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-16	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-17	주요	O	O	O, I-DT, B-CV, B-AF, B-LC
-18	닭고기	B-CV	B-CV	B-CV, O, B-PT, B-AM, B-AF
-19	제품	O	O	O, I-CV, B-CV, I-AF, B-AF
-20	##을	O	O	O, B-LC, B-CV, B-QT, B-PS
-21	5	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-OG
-22	~	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-23	8	I-QT	I-QT	I-QT, B-QT, O, I-LC, I-PS
-24	%	I-QT	I-QT	I-QT, O, I-LC, I-PS, I-OG
-25	일제히	O	O	O, I-QT, B-QT, B-TM, B-DT
-26	인상	O	O	O, B-CV, B-TM, B-OG, I-QT
-27	##한	O	O	O, B-OG, B-PS, B-LC, B-CV
-28	바	O	O	O, B-CV, B-TM, B-OG, B-LC
-29	있	O	O	O, B-CV, B-OG, B-LC, B-TM
-30	##다	O	O	O, B-CV, B-OG, I-OG, B-LC
-31	.	O	O	O, B-LC, B-OG, B-CV, B-PS
-32	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	최근	O	O
+2	미국	B-LC	B-LC
+3	##에	O	O
+4	##서는	O	O
+5	위	B-TM	B-TM
+6	신경	O	I-TM
+7	##에	O	O
+8	전기	B-TR	B-TR
+9	##자	I-TR	I-TR
+10	##극	I-TR	I-TR
+11	##을	O	O
+12	줘	O	O
+13	비만	O	B-TM
+14	##을	O	O
+15	치료	O	O
+16	##하	O	O
+17	##는	O	O
+18	전자	B-TM	B-TM
+19	##약	I-TM	I-TM
+20	##이	O	O
+21	FDA	B-OG	B-OG
+22	(	O	O
+23	미국	B-OG	B-OG
+24	식품	I-OG	I-OG
+25	##의	I-OG	I-OG
+26	##약	I-OG	I-OG
+27	##국	I-OG	I-OG
+28	)	O	O
+29	허가	O	O
+30	##를	O	O
+31	받	O	O
+32	##았	O	O
+33	##으며	O	O
+34	,	O	O
+35	기도	B-TM	B-TM
+36	(	O	I-TM
+37	氣	O	I-TM
+38	道	O	I-TM
+39	)	O	O
+40	신경	O	O
+41	##을	O	O
+42	자극	O	O
+43	##해	O	O
+44	수면	B-TM	B-TM
+45	무	I-TM	I-TM
+46	##호흡	I-TM	I-TM
+47	##증	I-TM	I-TM
+48	##을	O	O
+49	치료	O	O
+50	##하	O	O
+51	##는	O	O
+52	전자	B-TM	B-TM
+53	##약	I-TM	I-TM
+54	##도	O	O
+55	나왔	O	O
+56	##다	O	O
+57	.	O	O
+58	[SEP]	O	O

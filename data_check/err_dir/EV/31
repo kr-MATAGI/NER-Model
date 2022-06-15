@@ -1,28 +1,68 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, B-CV, I-EV, I-OG
-1	김	B-PS	B-PS	B-PS, O, B-LC, I-PS, B-OG
-2	##군	O	O	O, I-PS, I-LC, B-CV, I-OG
-3	어머니	B-CV	B-CV	B-CV, O, B-OG, B-TM, B-AF
-4	##는	O	O	O, I-CV, B-CV, I-EV, I-TM
-5	기근	O	O	O, B-TM, B-CV, B-LC, B-PS
-6	##이	O	O	O, B-PS, B-CV, B-OG, B-LC
-7	극심	O	O	O, B-CV, B-PS, B-LC, I-PS
-8	##해	O	O	O, B-LC, B-PS, I-LC, B-CV
-9	'	O	O	O, B-CV, B-LC, B-PS, B-DT
-10	고난	B-EV	O	O, B-EV, B-LC, B-PS, B-AF
-11	##의	I-EV	O	O, I-EV, I-PS, I-DT, I-LC
-12	행군	I-EV	O	O, I-EV, B-PS, B-EV, B-LC
-13	'	O	O	O, I-EV, I-DT, B-PS, B-CV
-14	이라	O	O	O, B-PS, B-LC, B-CV, B-DT
-15	불리	O	O	O, B-PS, B-LC, B-CV, I-EV
-16	##던	O	O	O, B-CV, B-PS, B-LC, I-EV
-17	1998	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-18	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-19	##에	O	O	O, I-DT, B-CV, I-EV, I-CV
-20	굶	O	O	O, B-TM, B-CV, B-LC, B-QT
-21	##어	O	O	O, I-TM, I-CV, B-TM, I-LC
-22	죽	O	O	O, B-CV, B-TM, I-TM, I-CV
-23	##었	O	O	O, B-CV, I-CV, B-TM, B-PS
-24	##다	O	O	O, B-CV, B-LC, B-TM, B-PS
-25	.	O	O	O, B-LC, B-PS, B-CV, I-EV
-26	[SEP]	O	O	O, B-CV, B-LC, B-PS, I-EV
+	text	label	preds
+0	[CLS]	O	O
+1	케리	B-PS	B-PS
+2	장관	B-CV	B-CV
+3	##은	O	O
+4	이날	B-DT	B-DT
+5	워싱턴	B-LC	B-LC
+6	미	B-LC	B-LC
+7	국무부	B-OG	B-OG
+8	청사	O	O
+9	##에	O	O
+10	##서	O	O
+11	열린	O	O
+12	한	B-EV	B-EV
+13	-	I-EV	I-EV
+14	미	I-EV	I-EV
+15	외교	I-EV	I-EV
+16	·	I-EV	I-EV
+17	국방	I-EV	I-EV
+18	##장	I-EV	I-EV
+19	##관	I-EV	I-EV
+20	(	I-EV	I-EV
+21	2	I-EV	I-OG
+22	+	I-EV	I-OG
+23	2	I-EV	I-OG
+24	)	I-EV	I-EV
+25	회의	I-EV	I-EV
+26	뒤	O	O
+27	윤병세	B-PS	B-PS
+28	외교부	B-OG	B-OG
+29	장관	B-CV	B-CV
+30	##과	O	O
+31	가진	O	O
+32	공동	O	O
+33	기자	O	O
+34	##회	O	O
+35	##견	O	O
+36	##에	O	O
+37	##서	O	O
+38	이렇게	O	O
+39	밝힌	O	O
+40	뒤	O	O
+41	“	O	O
+42	그러나	O	O
+43	미국	B-OG	B-OG
+44	##과	O	O
+45	동맹	O	O
+46	##들이	O	O
+47	선택지	O	O
+48	##의	O	O
+49	하나	B-QT	B-QT
+50	##로	O	O
+51	테이블	O	O
+52	##에	O	O
+53	##서	O	O
+54	내려놓	O	O
+55	##지	O	O
+56	##는	O	O
+57	않	O	O
+58	##을	O	O
+59	것	O	O
+60	”	O	O
+61	이라	O	O
+62	##고	O	O
+63	덧붙였	O	O
+64	##다	O	O
+65	.	O	O
+66	[SEP]	O	O

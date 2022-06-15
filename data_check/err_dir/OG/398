@@ -1,47 +1,12 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	나	B-OG	B-PS	B-PS, B-OG, B-LC, O, B-AF
-2	##힐	I-OG	I-PS	I-PS, I-OG, I-LC, O, B-PS
-3	##이	O	O	O, I-PS, I-OG, B-PS, B-CV
-4	다음	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-5	달	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-6	14	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-7	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-8	만기	O	O	O, I-DT, B-CV, I-CV, B-LC
-9	##인	O	O	O, B-PS, B-LC, B-OG, B-CV
-10	35	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-OG
-11	##억	I-QT	I-QT	I-QT, O, I-PS, I-LC, I-EV
-12	달러	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-13	##의	O	O	O, I-QT, B-CV, I-OG, I-EV
-14	채권	O	O	O, B-CV, I-CV, B-AF, B-TM
-15	##을	O	O	O, I-CV, B-PS, B-CV, B-OG
-16	갚	O	O	O, B-LC, B-OG, B-CV, B-PS
-17	##지	O	O	O, B-LC, B-PS, B-OG, B-CV
-18	못할	O	O	O, B-LC, B-PS, B-CV, B-OG
-19	위기	O	O	O, B-LC, B-OG, B-PS, B-CV
-20	##에	O	O	O, B-PS, B-OG, B-CV, B-LC
-21	처하	O	O	O, B-LC, B-OG, B-QT, B-DT
-22	##자	O	O	O, B-LC, B-PS, B-OG, I-OG
-23	두	B-LC	B-LC	B-LC, B-OG, O, B-PS, B-AF
-24	##바이	I-LC	I-LC	I-LC, I-OG, O, B-LC, I-PS
-25	재무	B-OG	B-OG	B-OG, I-OG, O, B-CV, B-AF
-26	##부	I-OG	I-OG	I-OG, O, I-LC, I-CV, I-AF
-27	##는	O	O	O, I-OG, I-AF, I-EV, B-PS
-28	지난주	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-OG
-29	채권	O	O	O, B-OG, B-CV, I-DT, I-OG
-30	##단	O	O	O, I-OG, I-CV, B-OG, I-LC
-31	##에	O	O	O, I-OG, B-LC, B-PS, B-OG
-32	6	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-LC
-33	##개	I-DT	I-DT	I-DT, B-DT, O, I-QT, I-PS
-34	##월	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-35	##의	O	O	O, I-DT, B-PS, B-DT, B-LC
-36	채무	O	O	O, B-CV, B-LC, B-PS, B-OG
-37	##상	O	O	O, B-LC, B-CV, I-CV, B-PS
-38	##환	O	O	O, B-LC, B-PS, I-CV, B-CV
-39	유예	O	O	O, B-LC, B-PS, B-CV, B-OG
-40	##를	O	O	O, B-LC, B-OG, B-CV, B-PS
-41	신청	O	O	O, B-CV, B-LC, B-OG, B-PS
-42	##했	O	O	O, B-LC, B-CV, B-OG, B-PS
-43	##다	O	O	O, B-CV, B-OG, B-LC, B-TM
-44	.	O	O	O, B-LC, B-OG, B-PS, B-CV
-45	[SEP]	O	O	O, B-LC, B-OG, B-CV, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	예	O	O
+2	.	O	O
+3	그	O	O
+4	~	O	O
+5	에이	B-OG	B-FD
+6	##씨	I-OG	I-FD
+7	##아이	I-OG	I-FD
+8	##라고	O	O
+9	해서	O	O
+10	[SEP]	O	O

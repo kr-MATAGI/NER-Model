@@ -1,12 +1,33 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, I-AF, B-CV
-1	아저씨	O	O	O, B-CV, B-TM, I-CV, B-PS
-2	##들	O	O	O, B-PS, B-CV, I-AF, I-CV
-3	담배	O	B-CV	B-CV, O, B-AF, B-TM, B-PT
-4	피	O	O	O, I-CV, B-CV, B-PS, B-TM
-5	##는	O	O	O, B-CV, B-TM, B-PS, B-QT
-6	사람	O	O	O, B-CV, B-TM, B-AM, B-QT
-7	되게	O	O	O, B-CV, B-TM, I-CV, I-QT
-8	많	O	O	O, B-CV, B-TM, B-QT, B-OG
-9	##아	O	O	O, I-OG, B-CV, I-AF, I-CV
-10	[SEP]	O	O	O, B-CV, B-TM, B-PS, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	""""	O	O
+2	도시	O	O
+3	##에	O	O
+4	##서	O	O
+5	취미	O	O
+6	##로	O	O
+7	벌	O	O
+8	##을	O	O
+9	기르	O	O
+10	##는	O	O
+11	사람	O	O
+12	##들	O	O
+13	##은	O	O
+14	일부	O	O
+15	전업	O	O
+16	양	O	B-CV
+17	##봉	O	I-CV
+18	##업자	O	I-CV
+19	##처럼	O	O
+20	항생제	B-TM	B-TM
+21	##나	O	O
+22	농약	O	O
+23	##을	O	O
+24	사용	O	O
+25	##하	O	O
+26	##지	O	O
+27	않	O	O
+28	##아	O	O
+29	##요	O	O
+30	.	O	O
+31	[SEP]	O	O

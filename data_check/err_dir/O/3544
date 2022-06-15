@@ -1,43 +1,6 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-EV, I-OG, I-CV
-1	외교통상부	B-OG	B-OG	B-OG, O, B-AF, B-LC, B-CV
-2	당국자	B-CV	B-CV	B-CV, O, I-CV, I-OG, B-OG
-3	##는	O	O	O, I-CV, I-OG, I-EV, B-CV
-4	“	O	O	O, B-LC, B-CV, B-OG, B-PS
-5	일본	B-LC	B-LC	B-LC, O, B-OG, B-PS, B-AF
-6	정부	B-OG	B-OG	B-OG, I-OG, O, B-AF, B-LC
-7	##의	O	O	O, I-OG, I-AF, I-EV, I-CV
-8	주요	O	O	O, B-CV, B-PS, B-QT, B-LC
-9	인사	O	B-CV	B-CV, O, I-CV, B-QT, B-PS
-10	##들이	O	O	O, I-CV, B-PS, B-CV, I-QT
-11	일본군	B-OG	B-OG	B-OG, O, B-CV, B-LC, B-EV
-12	위안부	B-CV	B-CV	B-CV, O, I-CV, I-OG, B-OG
-13	동원	O	O	O, I-CV, I-OG, I-EV, B-CV
-14	##의	O	O	O, B-PS, B-LC, B-CV, B-OG
-15	강제성	O	O	O, B-CV, B-LC, B-TM, B-PS
-16	##을	O	O	O, B-CV, B-PS, I-CV, B-LC
-17	부정	O	O	O, B-CV, B-LC, B-PS, B-TM
-18	##하	O	O	O, B-PS, B-CV, B-LC, B-OG
-19	##는	O	O	O, B-PS, B-CV, B-LC, B-TM
-20	듯	O	O	O, B-PS, B-CV, B-TM, B-LC
-21	##한	O	O	O, B-PS, B-LC, I-PS, B-TM
-22	발언	O	O	O, B-CV, B-LC, B-PS, B-TM
-23	##을	O	O	O, B-CV, B-PS, B-LC, B-OG
-24	한	O	O	O, B-LC, B-CV, B-PS, B-OG
-25	것	O	O	O, B-LC, B-CV, B-PS, B-OG
-26	##에	O	O	O, B-CV, B-LC, B-PS, B-OG
-27	대해	O	O	O, B-LC, B-PS, B-OG, B-CV
-28	깊	O	O	O, B-PS, B-CV, B-LC, B-TM
-29	##은	O	O	O, B-PS, B-LC, B-OG, I-PS
-30	실망	O	O	O, B-CV, B-PS, B-LC, B-TM
-31	##을	O	O	O, B-CV, B-PS, I-AF, I-OG
-32	금할	O	O	O, B-PS, B-CV, B-LC, B-TM
-33	수	O	O	O, B-PS, B-LC, B-OG, B-QT
-34	없	O	O	O, B-PS, B-CV, B-LC, I-OG
-35	##다	O	O	O, B-CV, B-PS, B-LC, I-OG
-36	”	O	O	O, B-CV, B-LC, B-TM, B-OG
-37	고	O	O	O, B-CV, B-LC, B-TM, B-QT
-38	밝혔	O	O	O, B-CV, B-LC, B-OG, B-TM
-39	##다	O	O	O, B-CV, B-LC, B-TM, I-EV
-40	.	O	O	O, B-LC, B-PS, B-CV, B-OG
-41	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	보약	O	B-TM
+2	밥상	O	O
+3	##으로	O	O
+4	[SEP]	O	O

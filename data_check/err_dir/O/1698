@@ -1,39 +1,76 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-EV, I-OG
-1	남자	O	O	O, B-CV, B-QT, B-TM, B-OG
-2	73	B-QT	B-QT	B-QT, O, I-QT, B-CV, B-DT
-3	##㎏	I-QT	I-QT	I-QT, O, I-EV, I-TM, I-OG
-4	##급	I-QT	O	O, I-QT, I-OG, I-CV, I-TM
-5	방귀	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-6	##만	I-PS	I-PS	I-PS, I-OG, O, I-LC, I-QT
-7	(	O	O	O, I-PS, I-OG, B-CV, I-QT
-8	남양주시	B-OG	B-OG	B-OG, B-LC, O, B-AF, I-OG
-9	##청	I-OG	I-OG	I-OG, I-LC, O, I-AF, I-PS
-10	)	O	O	O, I-OG, I-EV, I-AF, I-CV
-11	은	O	O	O, B-CV, B-PS, B-OG, B-LC
-12	8	B-EV	B-EV	B-EV, O, B-QT, B-OG, B-LC
-13	##강	I-EV	I-EV	I-EV, O, I-QT, I-AF, I-LC
-14	##에서	O	O	O, I-EV, I-QT, I-OG, I-AF
-15	일본	B-LC	B-LC	B-LC, B-OG, O, B-PS, B-CV
-16	##의	O	O	O, I-OG, I-LC, I-PS, B-PS
-17	아키	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
-18	##모토	I-PS	I-PS	I-PS, O, I-OG, I-LC, B-PS
-19	히로	I-PS	I-PS	I-PS, O, B-PS, I-LC, B-LC
-20	##유키	I-PS	I-PS	I-PS, O, I-LC, I-OG, B-LC
-21	##에	O	O	O, I-PS, I-OG, B-CV, I-LC
-22	##게	O	O	O, B-CV, B-LC, B-TM, B-QT
-23	패한	O	O	O, B-CV, B-EV, B-TM, B-LC
-24	뒤	O	O	O, B-EV, B-CV, I-EV, B-TM
-25	패자	O	B-EV	B-EV, O, B-CV, B-OG, I-EV
-26	##부	O	I-EV	I-EV, O, I-OG, I-AF, I-LC
-27	##활	O	I-EV	I-EV, O, I-OG, I-AF, I-LC
-28	##전	O	I-EV	I-EV, O, I-AF, I-LC, I-OG
-29	##을	O	O	O, I-EV, I-AF, I-OG, I-QT
-30	통해	O	O	O, B-OG, B-CV, B-LC, B-TM
-31	동메달	B-CV	B-CV	B-CV, O, B-EV, B-TM, B-AF
-32	##을	O	O	O, I-CV, I-EV, I-AF, B-CV
-33	추가	O	O	O, B-CV, B-TM, B-OG, B-LC
-34	##했	O	O	O, B-CV, B-PS, B-LC, B-OG
-35	##다	O	O	O, B-CV, B-LC, B-PS, B-OG
-36	.	O	O	O, B-LC, B-CV, B-PS, I-EV
-37	[SEP]	O	O	O, B-CV, B-LC, I-EV, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	이	O	O
+2	책	O	O
+3	##은	O	O
+4	어	O	B-OG
+5	##문	O	I-OG
+6	##생활	O	I-OG
+7	##사	O	I-OG
+8	##연구소	O	I-OG
+9	##가	O	O
+10	2008	B-DT	B-DT
+11	##년	I-DT	I-DT
+12	7	I-DT	I-DT
+13	##월	I-DT	I-DT
+14	##부터	I-DT	I-DT
+15	3	B-DT	B-DT
+16	##년	I-DT	I-DT
+17	##간	I-DT	I-DT
+18	진행	O	O
+19	##한	O	O
+20	‘	O	O
+21	조선	B-DT	B-DT
+22	##시대	I-DT	I-DT
+23	한글	O	O
+24	##편	O	O
+25	##지	O	O
+26	##의	O	O
+27	수집	O	O
+28	·	O	O
+29	정리	O	O
+30	##와	O	O
+31	어휘	O	O
+32	·	O	O
+33	서	O	O
+34	##체	O	O
+35	사전	O	O
+36	##의	O	O
+37	편찬	O	O
+38	연구	O	O
+39	’	O	O
+40	의	O	O
+41	성과	O	O
+42	##물	O	O
+43	##로	O	O
+44	,	O	O
+45	2013	B-DT	B-DT
+46	##년	I-DT	I-DT
+47	##에	O	O
+48	##는	O	O
+49	한글	O	O
+50	##편	O	O
+51	##지	O	O
+52	판독	O	O
+53	##문	O	O
+54	##을	O	O
+55	실은	O	O
+56	‘	O	O
+57	조선	B-DT	B-AF
+58	##시대	I-DT	I-AF
+59	한글	O	I-AF
+60	##편	O	I-AF
+61	##지	O	I-AF
+62	판독	O	I-AF
+63	##자	O	I-AF
+64	##료	O	I-AF
+65	##집	O	I-AF
+66	’	O	O
+67	을	O	O
+68	펴	O	O
+69	##내기	O	O
+70	##도	O	O
+71	했	O	O
+72	##다	O	O
+73	.	O	O
+74	[SEP]	O	O

@@ -1,63 +1,9 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-EV, I-CV
-1	새	B-OG	B-OG	B-OG, O, B-LC, B-PS, B-AF
-2	##정	I-OG	I-OG	I-OG, O, B-OG, I-EV, I-LC
-3	##치	I-OG	I-OG	I-OG, O, I-EV, I-LC, B-OG
-4	##민주	I-OG	I-OG	I-OG, O, B-OG, I-EV, I-LC
-5	##연합	I-OG	I-OG	I-OG, O, I-EV, I-LC, B-OG
-6	##의	O	O	O, I-OG, B-PS, I-EV, B-CV
-7	공천	O	O	O, B-TR, B-CV, B-PS, B-EV
-8	혁신안	O	O	O, B-PS, B-TR, B-CV, B-LC
-9	처리	O	O	O, B-PS, B-LC, B-CV, I-EV
-10	##를	O	O	O, B-PS, B-LC, B-CV, B-OG
-11	위한	O	O	O, B-LC, B-PS, B-OG, B-CV
-12	중앙	O	B-OG	B-OG, O, B-EV, B-CV, I-OG
-13	##위원회	O	I-OG	I-OG, O, I-EV, B-OG, I-CV
-14	개최	O	O	O, I-OG, I-EV, B-CV, I-AF
-15	여부	O	O	O, B-PS, B-LC, B-CV, B-OG
-16	##를	O	O	O, B-CV, B-PS, B-LC, B-OG
-17	두고	O	O	O, B-LC, B-PS, B-CV, B-OG
-18	첨예	O	O	O, B-PS, B-LC, B-CV, B-OG
-19	##하	O	O	O, B-PS, B-LC, B-OG, B-CV
-20	##게	O	O	O, B-PS, B-LC, B-OG, I-PS
-21	각	O	O	O, B-LC, B-OG, B-PS, B-TM
-22	##을	O	O	O, B-PS, B-CV, B-LC, B-OG
-23	세워	O	O	O, B-LC, B-PS, B-OG, B-CV
-24	##왔	O	O	O, B-PS, B-CV, B-LC, I-EV
-25	##던	O	O	O, B-PS, B-CV, B-LC, B-OG
-26	문재인	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-27	대표	B-CV	B-CV	B-CV, O, I-PS, I-CV, B-TM
-28	##와	O	O	O, I-CV, B-CV, B-PS, I-EV
-29	안철수	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
-30	의원	B-CV	B-CV	B-CV, O, I-PS, I-CV, B-TM
-31	##이	O	O	O, I-CV, B-PS, I-EV, B-CV
-32	15	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-33	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-34	철	O	O	O, B-LC, B-PS, B-CV, I-DT
-35	##통	O	O	O, B-PS, B-LC, B-CV, B-TM
-36	보안	O	O	O, B-LC, B-PS, B-CV, B-OG
-37	속	O	O	O, B-PS, B-LC, B-CV, I-OG
-38	##에	O	O	O, B-LC, B-PS, B-CV, B-OG
-39	배석	O	B-CV	B-CV, O, B-TM, I-CV, B-PT
-40	##자	O	I-CV	I-CV, O, B-CV, I-TM, I-QT
-41	없이	O	O	O, I-CV, B-PS, B-CV, I-QT
-42	단	O	O	O, B-CV, B-PS, B-QT, B-TM
-43	##둘	O	B-QT	B-QT, O, I-QT, B-CV, B-PS
-44	##이	O	O	O, B-PS, I-QT, I-PS, B-LC
-45	만나	O	O	O, B-CV, B-LC, B-EV, B-TM
-46	담판	O	O	O, B-CV, B-EV, B-LC, B-TM
-47	##을	O	O	O, I-EV, B-CV, I-OG, B-OG
-48	시도	O	O	O, B-CV, B-LC, B-OG, B-EV
-49	##했	O	O	O, B-LC, B-CV, B-PS, B-OG
-50	##으나	O	O	O, B-LC, B-QT, B-PS, B-OG
-51	가시	O	O	O, B-LC, B-TM, B-CV, B-PS
-52	##적	O	O	O, B-PS, B-LC, I-QT, I-LC
-53	합의	O	O	O, B-LC, B-TM, B-CV, B-QT
-54	##에	O	O	O, B-CV, B-LC, B-OG, B-QT
-55	이르	O	O	O, B-LC, B-OG, B-QT, B-TM
-56	##지	O	O	O, B-LC, B-PS, B-OG, B-QT
-57	##는	O	O	O, B-LC, B-CV, B-OG, B-TM
-58	못했	O	O	O, B-CV, B-LC, B-TM, B-QT
-59	##다	O	O	O, B-CV, I-EV, B-LC, I-OG
-60	.	O	O	O, B-LC, B-PS, B-CV, B-OG
-61	[SEP]	O	O	O, B-LC, B-CV, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	막	O	O
+2	피	O	B-TM
+3	철	O	O
+4	##철	O	O
+5	흐르	O	O
+6	##고	O	O
+7	[SEP]	O	O

@@ -1,45 +1,8 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	전날	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-QT
-2	##에도	O	O	O, I-DT, B-LC, B-OG, I-EV
-3	북	O	B-LC	B-LC, B-OG, O, B-AF, B-EV
-4	핵실험	O	O	O, B-LC, I-EV, B-AF, B-EV
-5	##과	O	O	O, I-EV, I-AF, I-OG, I-LC
-6	관련	O	O	O, B-LC, B-OG, B-CV, B-TM
-7	##해	O	O	O, B-LC, B-OG, B-PS, I-LC
-8	소련	B-LC	B-LC	B-LC, B-OG, O, I-LC, B-PS
-9	붕괴	O	O	O, I-LC, I-OG, I-EV, I-AF
-10	##를	O	O	O, B-LC, B-CV, B-PS, B-OG
-11	예	O	O	O, B-LC, B-CV, B-OG, B-TM
-12	##로	O	O	O, B-PS, B-LC, B-CV, I-EV
-13	들	O	O	O, B-LC, B-OG, B-CV, B-PS
-14	##며	O	O	O, B-LC, B-OG, I-LC, B-PS
-15	‘	O	O	O, B-LC, B-PS, B-CV, B-OG
-16	스스로	O	O	O, B-LC, B-CV, B-PS, B-OG
-17	무너지	O	O	O, B-CV, B-LC, B-PS, B-OG
-18	##는	O	O	O, B-PS, B-LC, B-CV, B-OG
-19	길	O	O	O, B-LC, B-PS, B-CV, B-OG
-20	##을	O	O	O, B-PS, B-CV, B-LC, B-OG
-21	자초	O	O	O, B-CV, B-LC, B-PS, B-TM
-22	##하	O	O	O, B-PS, B-LC, B-CV, B-OG
-23	##는	O	O	O, B-LC, B-PS, B-CV, B-OG
-24	것	O	O	O, B-PS, B-LC, B-CV, B-OG
-25	’	O	O	O, B-CV, B-OG, B-LC, B-PS
-26	이라	O	O	O, B-CV, B-PS, B-LC, B-OG
-27	##고	O	O	O, B-CV, B-LC, B-OG, B-PS
-28	하	O	O	O, B-LC, B-CV, B-OG, B-PS
-29	##는	O	O	O, B-LC, B-CV, B-PS, B-OG
-30	등	O	O	O, B-LC, B-OG, B-PS, B-CV
-31	대북	O	O	O, B-CV, B-LC, B-TM, B-OG
-32	발언	O	O	O, I-CV, B-CV, B-LC, B-PS
-33	##을	O	O	O, B-CV, B-OG, B-PS, B-LC
-34	‘	O	O	O, B-LC, B-OG, B-CV, B-PS
-35	위험	O	O	O, B-LC, B-CV, B-PS, B-OG
-36	##수	O	O	O, B-LC, I-LC, B-PS, B-QT
-37	##위	O	O	O, I-LC, I-QT, B-LC, I-PS
-38	’	O	O	O, B-CV, I-OG, B-OG, B-LC
-39	까지	O	O	O, B-PS, B-QT, B-LC, B-OG
-40	끌어올렸	O	O	O, B-LC, B-CV, B-OG, B-TM
-41	##다	O	O	O, B-CV, B-LC, B-OG, B-TM
-42	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-43	[SEP]	O	O	O, B-LC, B-CV, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	국정	O	O
+2	##조사	O	O
+3	특위	O	B-OG
+4	활동	O	O
+5	##을	O	O
+6	[SEP]	O	O

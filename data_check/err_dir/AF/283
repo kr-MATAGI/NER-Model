@@ -1,60 +1,55 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-EV, I-CV
-1	이	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
-2	대통령	B-CV	B-CV	B-CV, O, I-PS, B-OG, I-CV
-3	##은	O	O	O, I-CV, I-EV, B-CV, I-OG
-4	이날	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-QT
-5	청와대	B-AF	B-OG	B-OG, B-AF, B-EV, B-LC, O
-6	##에서	O	O	O, I-OG, I-AF, I-EV, I-DT
-7	열린	O	O	O, B-OG, B-EV, B-LC, B-PS
-8	법무부	B-OG	B-OG	B-OG, B-AF, O, B-LC, B-EV
-9	·	O	O	O, I-OG, I-EV, I-DT, B-OG
-10	국민	B-OG	B-OG	B-OG, O, I-OG, B-AF, B-EV
-11	##권	I-OG	I-OG	I-OG, O, I-EV, I-CV, B-OG
-12	##익	I-OG	I-OG	I-OG, O, I-EV, I-CV, B-OG
-13	##위원회	I-OG	I-OG	I-OG, O, I-EV, I-CV, I-AF
-14	·	O	O	O, I-OG, I-EV, B-OG, B-PS
-15	법제	B-OG	B-OG	B-OG, O, I-OG, B-CV, B-AF
-16	##처	I-OG	I-OG	I-OG, O, I-EV, I-CV, I-AF
-17	##의	O	O	O, I-OG, I-EV, B-EV, B-CV
-18	내년도	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-QT
-19	업무	O	O	O, B-EV, I-EV, B-CV, B-LC
-20	##보	O	O	O, I-EV, B-EV, I-OG, I-AF
-21	##고	O	O	O, I-EV, I-OG, I-AF, I-LC
-22	##에서	O	O	O, I-EV, B-LC, B-PS, I-OG
-23	“	O	O	O, B-OG, B-LC, B-PS, B-CV
-24	검찰	B-OG	B-OG	B-OG, B-AF, O, B-LC, B-CV
-25	##이	O	O	O, I-OG, B-PS, I-EV, I-AF
-26	그동안	O	O	O, B-CV, B-LC, B-PS, B-OG
-27	눈	B-AM	B-AM	B-AM, O, B-PS, B-TR, B-TM
-28	##에	O	O	O, I-EV, I-AF, I-QT, I-TR
-29	보이	O	O	O, B-TM, B-LC, B-CV, B-OG
-30	##지	O	O	O, B-PS, B-OG, B-LC, B-CV
-31	않	O	O	O, B-PS, B-LC, B-OG, B-CV
-32	##아	O	O	O, B-PS, B-LC, B-OG, I-OG
-33	##도	O	O	O, B-PS, B-LC, B-OG, B-CV
-34	상당히	O	O	O, B-LC, B-CV, B-PS, B-OG
-35	긍정	O	O	O, B-TM, B-PS, B-LC, B-CV
-36	##적인	O	O	O, B-PS, I-QT, B-LC, I-PS
-37	변화	O	O	O, B-CV, B-LC, B-PS, B-OG
-38	##를	O	O	O, B-CV, B-PS, B-OG, B-LC
-39	일궈	O	O	O, B-CV, B-LC, B-OG, B-PS
-40	##낸	O	O	O, B-PS, B-CV, B-LC, B-OG
-41	것	O	O	O, B-PS, B-CV, B-LC, B-OG
-42	##을	O	O	O, B-CV, B-PS, B-OG, B-LC
-43	안다	O	O	O, B-CV, B-PS, B-LC, B-TM
-44	”	O	O	O, B-CV, B-PS, B-LC, B-OG
-45	며	O	O	O, B-LC, B-CV, B-PS, B-OG
-46	이렇게	O	O	O, B-CV, B-LC, B-TM, B-OG
-47	말	O	O	O, B-CV, B-LC, B-PS, B-TM
-48	##했	O	O	O, B-PS, B-LC, B-CV, B-OG
-49	##다고	O	O	O, B-LC, B-PS, B-OG, I-OG
-50	김은	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
-51	##혜	I-PS	I-PS	I-PS, I-OG, O, I-LC, B-PS
-52	청와대	B-AF	B-OG	B-OG, B-AF, B-LC, O, I-PS
-53	대변인	B-CV	B-CV	B-CV, O, I-CV, I-AF, I-OG
-54	##이	O	O	O, I-CV, I-AF, I-OG, I-EV
-55	전했	O	O	O, B-CV, B-OG, B-LC, B-TM
-56	##다	O	O	O, B-CV, B-LC, B-OG, B-PS
-57	.	O	O	O, B-LC, B-PS, B-OG, B-CV
-58	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	1998	B-DT	B-DT
+2	##년	I-DT	I-DT
+3	전주	B-EV	B-EV
+4	##대사	I-EV	I-EV
+5	##습	I-EV	I-EV
+6	민요	B-FD	O
+7	##부	O	O
+8	##문	O	O
+9	장원	B-CV	B-CV
+10	##을	O	O
+11	차지	O	O
+12	##하	O	O
+13	##며	O	O
+14	명	B-CV	B-CV
+15	##창	I-CV	I-CV
+16	##에	O	O
+17	오른	O	O
+18	그	O	O
+19	##는	O	O
+20	송	B-AF	O
+21	##서	I-AF	O
+22	##율	I-AF	O
+23	##창	I-AF	O
+24	##의	O	O
+25	대중	O	O
+26	##화	O	O
+27	##를	O	O
+28	위해	O	O
+29	서울	B-LC	B-LC
+30	종묘	B-LC	B-LC
+31	옆	B-TM	B-TM
+32	송	B-AF	B-OG
+33	##서	I-AF	I-OG
+34	##율	I-AF	I-OG
+35	##창	I-AF	I-OG
+36	##보	I-AF	I-OG
+37	##존	I-AF	I-OG
+38	##회	I-AF	I-OG
+39	전수	I-AF	O
+40	##관	I-AF	O
+41	##에	O	O
+42	##서	O	O
+43	일반인	B-CV	B-CV
+44	##을	O	O
+45	상대	O	O
+46	##로	O	O
+47	강의	O	O
+48	##를	O	O
+49	하고	O	O
+50	있	O	O
+51	##다	O	O
+52	.	O	O
+53	[SEP]	O	O

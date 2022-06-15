@@ -1,21 +1,69 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	그	O	O	O, B-CV, B-OG, B-TM, B-LC
-2	다음	O	O	O, B-CV, B-QT, B-TM, B-PS
-3	##에	O	O	O, B-CV, B-OG, B-QT, B-PS
-4	이제	O	O	O, B-CV, B-OG, B-TM, B-QT
-5	하나	O	B-QT	B-QT, O, B-CV, I-QT, B-PS
-6	할	O	O	O, I-QT, B-CV, I-CV, I-EV
-7	수	O	O	O, B-CV, B-QT, I-QT, B-PS
-8	있	O	O	O, B-CV, B-QT, I-QT, B-LC
-9	##는	O	O	O, B-CV, B-QT, B-OG, B-LC
-10	건	O	O	O, B-CV, B-PS, B-OG, B-LC
-11	이	O	O	O, B-CV, B-PS, B-QT, B-TR
-12	대	O	O	O, B-CV, B-TR, I-CV, B-FD
-13	##증	O	O	O, I-CV, B-CV, I-TR, I-FD
-14	##요	O	O	O, I-CV, B-CV, I-TR, I-FD
-15	##법	O	O	O, I-CV, B-CV, I-TR, I-FD
-16	##이	O	O	O, I-CV, B-CV, B-PS, I-QT
-17	##에	O	O	O, B-CV, I-CV, B-OG, B-QT
-18	##요	O	O	O, B-CV, B-OG, B-LC, B-QT
-19	[SEP]	O	O	O, B-CV, B-QT, B-LC, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	이	B-PS	B-PS
+2	소장	B-CV	B-CV
+3	##이	O	O
+4	인용	O	O
+5	##한	O	O
+6	짧	O	O
+7	##은	O	O
+8	시	O	B-FD
+9	##는	O	O
+10	일제	B-DT	B-DT
+11	강점기	I-DT	I-DT
+12	거지	O	O
+13	소녀	O	O
+14	##와	O	O
+15	맹	O	O
+16	##인	O	O
+17	아버지	B-CV	B-CV
+18	##의	O	O
+19	'	O	O
+20	고단	O	O
+21	##하	O	O
+22	##지만	O	O
+23	의	O	O
+24	##연	O	O
+25	##한	O	O
+26	삶	O	O
+27	'	O	O
+28	을	O	O
+29	주제	O	O
+30	##로	O	O
+31	,	O	O
+32	‘	O	O
+33	조선총독부	B-OG	B-OG
+34	##가	O	O
+35	있	O	O
+36	##을	O	O
+37	때	O	O
+38	/	O	O
+39	청계천	B-LC	B-LC
+40	##변	I-LC	I-LC
+41	10	B-QT	B-QT
+42	##전	I-QT	I-QT
+43	균일	O	O
+44	##상	O	O
+45	밥	O	O
+46	##집	O	O
+47	문턱	O	O
+48	##엔	O	O
+49	/	O	O
+50	거지	O	O
+51	##소녀	O	O
+52	##가	O	O
+53	거지	O	O
+54	##장	O	O
+55	##님	O	O
+56	어버이	B-CV	B-CV
+57	##를	O	O
+58	/	O	O
+59	이끌	O	O
+60	##고	O	O
+61	와	O	O
+62	서	O	O
+63	있	O	O
+64	##었	O	O
+65	##다	O	O
+66	.	O	O
+67	[SEP]	O	O

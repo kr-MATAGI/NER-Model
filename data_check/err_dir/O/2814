@@ -1,23 +1,32 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, I-OG, B-CV, I-EV
-1	‘	O	O	O, B-PS, B-LC, B-CV, B-OG
-2	천지	B-AF	B-PS	B-PS, B-AF, O, B-EV, B-LC
-3	##창	I-AF	I-AF	I-AF, I-PS, O, B-PS, I-LC
-4	##조	I-AF	I-AF	I-AF, I-PS, O, I-LC, I-OG
-5	’	O	O	O, I-AF, I-PS, I-EV, B-PS
-6	,	O	O	O, B-PS, B-LC, B-CV, B-OG
-7	‘	O	O	O, B-PS, B-LC, B-CV, B-OG
-8	최후	B-AF	B-AF	B-AF, O, B-PS, B-EV, B-CV
-9	##의	I-AF	I-AF	I-AF, O, I-PS, I-EV, I-OG
-10	심판	I-AF	I-AF	I-AF, O, I-PS, I-EV, B-PS
-11	’	O	O	O, I-AF, I-PS, I-EV, I-CV
-12	등	O	O	O, B-PS, B-LC, B-CV, B-OG
-13	##으로	O	O	O, B-PS, B-LC, I-PS, B-CV
-14	르네상스	O	B-DT	B-DT, O, B-LC, B-FD, B-EV
-15	전성기	O	O	O, I-DT, B-CV, B-PS, B-DT
-16	##를	O	O	O, B-PS, B-CV, I-DT, B-OG
-17	연	O	O	O, B-PS, B-CV, B-OG, B-LC
-18	천재	O	O	O, B-CV, B-PS, B-AF, I-CV
-19	##다	O	O	O, I-CV, I-PS, B-PS, B-CV
-20	.	O	O	O, B-PS, B-LC, B-CV, I-PS
-21	[SEP]	O	O	O, B-PS, B-CV, B-LC, I-PS
+	text	label	preds
+0	[CLS]	O	O
+1	특히	O	O
+2	20	B-DT	B-DT
+3	##일	I-DT	I-DT
+4	대전	B-OG	B-OG
+5	##지	I-OG	I-OG
+6	##법	I-OG	I-OG
+7	##에	O	O
+8	##서는	O	O
+9	단독	B-CV	B-CV
+10	##판	I-CV	I-CV
+11	##사	I-CV	I-CV
+12	##뿐	O	O
+13	아니	O	O
+14	##라	O	O
+15	배석	B-CV	B-CV
+16	##판	I-CV	I-CV
+17	##사	I-CV	I-CV
+18	##도	O	O
+19	참여	O	O
+20	##하	O	O
+21	##는	O	O
+22	평판	O	B-OG
+23	##사회	O	I-OG
+24	##의	O	I-OG
+25	##가	O	O
+26	소집	O	O
+27	##됐	O	O
+28	##다	O	O
+29	.	O	O
+30	[SEP]	O	O

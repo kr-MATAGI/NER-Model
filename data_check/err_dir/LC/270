@@ -1,59 +1,32 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-EV
-1	후	B-LC	B-PS	B-PS, O, B-LC, B-OG, I-PS
-2	##수리	I-LC	I-PS	I-PS, O, I-OG, I-LC, I-AF
-3	(	O	O	O, I-PS, I-OG, B-LC, I-LC
-4	[UNK]	O	O	O, B-LC, B-PS, B-OG, B-CV
-5	[UNK]	O	O	O, B-PS, B-LC, B-OG, B-CV
-6	立	O	O	O, B-PS, B-LC, B-OG, B-CV
-7	)	O	O	O, B-PS, B-LC, B-OG, B-CV
-8	중산	B-OG	B-OG	B-OG, O, B-PS, I-OG, B-AF
-9	(	I-OG	I-OG	I-OG, O, B-OG, I-AF, I-LC
-10	中	I-OG	I-OG	I-OG, O, B-OG, I-AF, I-CV
-11	山	I-OG	I-OG	I-OG, O, I-AF, B-OG, I-LC
-12	)	I-OG	I-OG	I-OG, O, I-AF, I-LC, I-CV
-13	대	I-OG	I-OG	I-OG, O, I-AF, I-CV, B-OG
-14	교수	B-CV	B-CV	B-CV, O, I-OG, I-CV, B-AF
-15	##는	O	O	O, I-CV, I-OG, I-EV, I-QT
-16	“	O	O	O, B-LC, B-CV, B-PS, B-OG
-17	(	O	O	O, B-PS, B-LC, B-OG, B-CV
-18	후진타오	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
-19	집권	O	O	O, B-CV, I-PS, B-OG, B-PS
-20	##기	O	O	O, B-PS, B-DT, I-DT, I-CV
-21	##인	O	O	O, I-PS, B-PS, I-DT, I-CV
-22	)	O	O	O, B-LC, B-PS, B-CV, B-OG
-23	2003	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-LC
-24	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-25	이후	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-26	중국	B-LC	B-LC	B-LC, B-OG, O, B-AF, I-DT
-27	##은	O	O	O, I-OG, I-LC, B-CV, B-OG
-28	국내	O	O	O, B-TM, B-LC, B-QT, B-CV
-29	##총	O	O	O, I-LC, B-QT, I-QT, I-TR
-30	##생산	O	O	O, I-TM, I-TR, I-LC, I-QT
-31	(	O	O	O, B-LC, B-PS, B-CV, I-QT
-32	GDP	O	O	O, B-LC, B-TR, B-TM, B-QT
-33	)	O	O	O, B-LC, B-PS, I-OG, I-QT
-34	증가	O	O	O, B-TM, B-LC, B-OG, B-PS
-35	##율	O	O	O, B-LC, B-PS, B-OG, B-TM
-36	##이	O	O	O, B-PS, B-OG, B-LC, B-TM
-37	떨어지	O	O	O, B-LC, B-TM, B-OG, B-CV
-38	##는	O	O	O, B-LC, B-OG, B-TM, B-PS
-39	것	O	O	O, B-LC, B-OG, B-CV, B-TM
-40	##을	O	O	O, B-CV, B-LC, B-OG, B-PS
-41	막	O	O	O, B-LC, B-CV, B-PS, B-OG
-42	##기	O	O	O, B-LC, B-PS, B-CV, B-TM
-43	위해	O	O	O, B-LC, B-PS, B-CV, B-TM
-44	고정	O	O	O, B-CV, B-MT, I-CV, B-AF
-45	##자산	O	O	O, I-CV, I-AF, B-CV, I-MT
-46	투자	O	O	O, I-CV, B-CV, B-LC, B-PS
-47	##를	O	O	O, B-CV, I-CV, B-LC, B-OG
-48	늘리	O	O	O, B-CV, B-LC, B-OG, B-PS
-49	##고	O	O	O, B-LC, B-PS, B-CV, B-OG
-50	통화	O	O	O, B-CV, B-MT, I-CV, B-TR
-51	공급	O	O	O, I-CV, B-CV, B-PS, B-LC
-52	##을	O	O	O, B-CV, B-LC, B-TM, B-OG
-53	확대	O	O	O, B-LC, B-CV, B-TM, B-PS
-54	##했	O	O	O, B-LC, B-PS, B-OG, B-CV
-55	##다	O	O	O, B-LC, I-OG, B-CV, B-PS
-56	.	O	O	O, B-LC, B-PS, B-OG, B-CV
-57	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	미국	B-LC	B-OG
+2	##은	O	O
+3	테러	O	O
+4	##와	O	O
+5	##의	O	O
+6	전쟁	O	O
+7	##에	O	O
+8	##서	O	O
+9	중국	B-LC	B-OG
+10	##의	O	O
+11	지지	O	O
+12	##를	O	O
+13	얻	O	O
+14	##기	O	O
+15	위해	O	O
+16	소수	O	O
+17	##민	O	O
+18	##족	O	O
+19	인권	B-CV	B-CV
+20	문제	O	O
+21	##에	O	O
+22	대한	O	O
+23	개입	O	O
+24	##의	O	O
+25	정도	O	O
+26	##를	O	O
+27	낮췄	O	O
+28	##다	O	O
+29	.	O	O
+30	[SEP]	O	O

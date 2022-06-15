@@ -1,29 +1,51 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-EV, I-CV
-1	MB	B-OG	B-OG	B-OG, B-AF, O, B-EV, B-TM
-2	##T	I-OG	I-OG	I-OG, I-AF, O, I-CV, I-TM
-3	마사	B-CV	O	O, I-AF, B-CV, B-AF, I-OG
-4	##이	I-CV	O	O, I-AF, I-CV, I-OG, I-LC
-5	##워	I-CV	O	O, I-AF, I-CV, I-OG, I-LC
-6	##킹	I-CV	O	O, I-CV, I-AF, I-OG, I-TM
-7	슈즈	I-CV	O	O, I-AF, I-CV, B-CV, I-EV
-8	상품권	O	O	O, I-CV, I-AF, B-CV, I-TM
-9	##은	O	O	O, I-AF, I-CV, I-EV, I-TM
-10	전국	O	O	O, B-LC, B-AF, B-OG, B-PS
-11	154	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-LC
-12	##개	I-QT	I-QT	I-QT, O, I-LC, I-EV, I-AF
-13	MB	B-OG	B-OG	B-OG, B-AF, O, B-LC, B-EV
-14	##T	I-OG	I-OG	I-OG, I-AF, O, I-LC, I-EV
-15	마사	B-OG	B-AF	B-AF, O, I-AF, B-LC, I-OG
-16	##이	I-OG	I-AF	I-AF, O, I-LC, I-OG, I-PS
-17	##워	I-OG	I-AF	I-AF, O, I-LC, I-OG, I-EV
-18	##킹	I-OG	I-AF	I-AF, O, I-LC, I-OG, I-CV
-19	##센터	I-OG	I-AF	I-AF, O, I-LC, I-OG, I-CV
-20	##에서	O	O	O, I-AF, I-LC, I-OG, I-EV
-21	구입	O	O	O, B-CV, B-TM, B-LC, B-OG
-22	##할	O	O	O, B-LC, B-TM, B-PS, B-CV
-23	수	O	O	O, B-TM, B-LC, B-CV, B-OG
-24	있	O	O	O, B-CV, B-TM, B-LC, B-OG
-25	##다	O	O	O, B-CV, B-OG, B-TM, B-LC
-26	.	O	O	O, B-LC, B-OG, I-OG, I-AF
-27	[SEP]	O	O	O, B-LC, I-AF, I-OG, B-CV
+	text	label	preds
+0	[CLS]	O	O
+1	최근	O	O
+2	한	O	O
+3	자산운용	B-CV	O
+4	##사	I-CV	O
+5	##가	O	O
+6	내놓	O	O
+7	##은	O	O
+8	‘	O	O
+9	은퇴	O	O
+10	##준	O	O
+11	##비	O	O
+12	##지수	O	O
+13	’	O	O
+14	를	O	O
+15	보	O	O
+16	##면	O	O
+17	,	O	O
+18	뜻밖에	O	O
+19	##도	O	O
+20	50	B-QT	B-QT
+21	##대	I-QT	I-QT
+22	##보	O	O
+23	##다	O	O
+24	30	B-QT	B-QT
+25	##대	I-QT	I-QT
+26	##가	O	O
+27	각종	O	O
+28	연금	O	O
+29	등	O	O
+30	미래	O	O
+31	재무	O	O
+32	##설	O	O
+33	##계	O	O
+34	##에	O	O
+35	더	O	O
+36	많	O	O
+37	##은	O	O
+38	신경	O	O
+39	##을	O	O
+40	쓰	O	O
+41	##고	O	O
+42	있	O	O
+43	##는	O	O
+44	것	O	O
+45	##으로	O	O
+46	나타났	O	O
+47	##다	O	O
+48	.	O	O
+49	[SEP]	O	O

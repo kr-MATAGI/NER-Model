@@ -1,7 +1,37 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-QT, B-CV, I-CV
-1	이	B-TI	B-QT	B-QT, B-DT, B-EV, O, B-TI
-2	##십	I-TI	I-QT	I-QT, I-DT, I-EV, I-TI, O
-3	##오	I-TI	I-QT	I-QT, I-DT, I-EV, O, I-TI
-4	에	O	O	O, I-QT, I-DT, I-EV, I-OG
-5	[SEP]	O	O	O, I-QT, B-CV, I-EV, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	울산	B-OG	B-OG
+2	현대	I-OG	I-OG
+3	골키퍼	B-CV	B-CV
+4	김병	B-PS	B-PS
+5	##지	I-PS	I-PS
+6	(	O	O
+7	46	B-QT	B-QT
+8	)	O	O
+9	가	O	O
+10	하프	B-TI	B-TI
+11	##타임	I-TI	I-TI
+12	때	I-TI	O
+13	은퇴	O	O
+14	##식	O	O
+15	##을	O	O
+16	한	O	O
+17	울산	B-LC	B-OG
+18	경기	O	O
+19	##에	O	O
+20	##서는	O	O
+21	울산	B-OG	B-OG
+22	현대	I-OG	I-OG
+23	##가	O	O
+24	포항	B-OG	B-OG
+25	스틸	I-OG	I-OG
+26	##러스	I-OG	I-OG
+27	##를	O	O
+28	1	B-QT	B-QT
+29	-	I-QT	I-QT
+30	0	I-QT	I-QT
+31	##으로	O	O
+32	눌렀	O	O
+33	##다	O	O
+34	.	O	O
+35	[SEP]	O	O

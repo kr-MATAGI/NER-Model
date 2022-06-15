@@ -1,12 +1,40 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	이제	O	O	O, B-CV, B-OG, B-TM, B-PS
-2	여성	O	O	O, B-CV, B-TM, I-CV, B-PS
-3	##이	O	O	O, B-PS, B-CV, I-AF, B-AF
-4	또	O	O	O, B-CV, B-PS, B-TM, B-AM
-5	헤드	B-AM	O	O, B-AM, B-CV, B-TM, B-PS
-6	##라는	O	O	O, I-CV, I-AF, I-QT, B-PS
-7	것	O	O	O, B-CV, B-PS, I-CV, B-LC
-8	때문	O	O	O, B-CV, B-PS, I-AF, B-OG
-9	##에	O	O	O, B-CV, B-OG, I-AF, I-OG
-10	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	이	B-PS	B-PS
+2	씨	O	O
+3	##의	O	O
+4	매도	O	O
+5	물량	O	O
+6	##은	O	O
+7	적	O	O
+8	##었	O	O
+9	##지만	O	O
+10	불안	O	O
+11	##을	O	O
+12	느낀	O	O
+13	개미	B-AM	B-CV
+14	##들이	O	O
+15	대거	O	O
+16	매도	O	O
+17	##에	O	O
+18	가세	O	O
+19	##하면	O	O
+20	##서	O	O
+21	주가	O	O
+22	##가	O	O
+23	15	B-DT	B-DT
+24	##일	I-DT	I-DT
+25	이후	I-DT	I-DT
+26	4	B-DT	B-DT
+27	##거래	I-DT	I-DT
+28	##일	I-DT	I-DT
+29	연속	O	O
+30	하한	O	O
+31	##가	O	O
+32	##를	O	O
+33	면치	O	O
+34	못	O	O
+35	##했	O	O
+36	##다	O	O
+37	.	O	O
+38	[SEP]	O	O

@@ -1,70 +1,41 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-EV, I-CV, I-OG
-1	이	B-PS	B-PS	B-PS, O, B-QT, B-OG, B-TR
-2	관계자	B-CV	B-CV	B-CV, O, I-CV, B-TM, I-PS
-3	##는	O	O	O, I-CV, I-EV, I-QT, B-CV
-4	""""	O	O	O, B-PS, B-LC, B-CV, B-OG
-5	이전	O	O	O, B-PS, B-LC, B-OG, B-CV
-6	정부	B-OG	B-OG	B-OG, O, B-LC, B-PS, B-CV
-7	때	O	O	O, I-OG, I-DT, I-EV, B-PS
-8	##는	O	O	O, B-PS, B-LC, B-OG, I-DT
-9	전면전	O	O	O, B-EV, B-LC, B-CV, B-OG
-10	가능	O	O	O, B-PS, I-EV, B-LC, I-CV
-11	##성	O	O	O, B-PS, I-PS, B-LC, I-EV
-12	때문	O	O	O, B-PS, B-LC, I-PS, B-OG
-13	##에	O	O	O, B-PS, B-LC, B-OG, B-EV
-14	연평도	B-LC	B-EV	B-EV, B-LC, B-AF, O, B-PS
-15	도발	O	I-EV	I-EV, O, I-LC, I-AF, B-EV
-16	##에	O	O	O, I-EV, I-AF, I-DT, B-PS
-17	대해서	O	O	O, B-LC, B-OG, B-PS, B-CV
-18	##도	O	O	O, B-LC, B-PS, B-OG, B-EV
-19	북한	B-LC	B-LC	B-LC, B-OG, O, B-AF, B-PS
-20	해안	B-AF	B-AF	B-AF, O, I-AF, B-LC, B-OG
-21	##포	I-AF	I-AF	I-AF, O, I-LC, I-OG, B-AF
-22	진지	O	O	O, I-AF, B-AF, I-LC, B-LC
-23	##에	O	O	O, I-AF, I-LC, B-LC, B-PS
-24	대한	O	O	O, B-LC, B-PS, B-OG, B-TM
-25	정밀	O	O	O, B-LC, B-AF, B-CV, B-TM
-26	타격	O	O	O, B-LC, B-CV, I-LC, B-TM
-27	(	O	O	O, B-LC, B-CV, B-PS, B-OG
-28	공습	O	O	O, B-CV, B-LC, B-AF, B-TM
-29	)	O	O	O, I-CV, I-EV, I-AF, B-CV
-30	을	O	O	O, B-LC, B-PS, B-OG, B-CV
-31	못	O	O	O, B-LC, B-PS, B-OG, B-CV
-32	했	O	O	O, B-PS, B-LC, B-OG, B-CV
-33	##지만	O	O	O, B-PS, B-LC, B-OG, B-CV
-34	박근혜	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-35	대통령	B-CV	B-CV	B-CV, O, I-PS, I-CV, B-TM
-36	##은	O	O	O, I-CV, I-EV, I-AF, B-CV
-37	다를	O	O	O, B-PS, B-LC, B-OG, B-CV
-38	것	O	O	O, B-PS, B-LC, B-CV, B-OG
-39	""""	O	O	O, B-CV, B-LC, B-PS, B-TM
-40	이라	O	O	O, B-PS, B-CV, B-OG, B-LC
-41	##며	O	O	O, B-LC, B-CV, B-PS, B-OG
-42	""""	O	O	O, B-LC, B-CV, B-PS, B-OG
-43	상황	O	O	O, B-LC, B-PS, B-CV, B-OG
-44	##이	O	O	O, B-PS, B-OG, B-LC, B-CV
-45	발생	O	O	O, B-PS, B-CV, B-LC, B-OG
-46	##하면	O	O	O, B-PS, B-LC, B-OG, B-CV
-47	다시	O	O	O, B-PS, B-LC, B-CV, B-QT
-48	한	O	O	O, B-QT, B-PS, I-QT, B-CV
-49	번	O	O	O, I-QT, B-QT, I-PS, B-PS
-50	결단	O	O	O, I-QT, B-PS, B-LC, B-CV
-51	##을	O	O	O, B-PS, B-CV, B-OG, B-LC
-52	해야	O	O	O, B-PS, B-LC, B-OG, B-CV
-53	##겠	O	O	O, B-PS, B-LC, B-CV, B-OG
-54	##지만	O	O	O, B-PS, B-LC, B-OG, B-CV
-55	지금	O	O	O, B-PS, B-LC, B-OG, B-QT
-56	박	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-57	대통령	B-CV	B-CV	B-CV, O, I-PS, I-CV, B-TM
-58	##은	O	O	O, I-CV, I-EV, B-CV, I-AF
-59	단호	O	O	O, B-CV, B-PS, B-LC, B-OG
-60	##하	O	O	O, B-PS, B-LC, B-OG, I-PS
-61	##다	O	O	O, I-OG, B-CV, B-OG, B-LC
-62	""""	O	O	O, B-CV, B-LC, B-TM, B-PS
-63	고	O	O	O, B-CV, B-TM, B-LC, B-QT
-64	말	O	O	O, B-CV, B-TM, B-QT, I-EV
-65	##했	O	O	O, B-CV, B-PS, B-LC, I-EV
-66	##다	O	O	O, B-CV, B-LC, B-TM, B-PS
-67	.	O	O	O, B-LC, B-PS, B-CV, B-OG
-68	[SEP]	O	O	O, B-LC, B-CV, B-PS, I-EV
+	text	label	preds
+0	[CLS]	O	O
+1	모두	O	O
+2	111	B-QT	B-QT
+3	##0	I-QT	I-QT
+4	##건	I-QT	I-QT
+5	##에	O	O
+6	달	O	O
+7	##하	O	O
+8	##는	O	O
+9	박물관	O	O
+10	##의	O	O
+11	오	B-PS	B-PS
+12	##구	I-PS	I-PS
+13	##라	I-PS	I-PS
+14	컬렉션	O	O
+15	##은	O	O
+16	본관	O	O
+17	왼쪽	B-TM	B-TM
+18	효	B-AF	B-AF
+19	##케이	I-AF	I-AF
+20	##관	I-AF	I-AF
+21	##의	O	O
+22	아시아	B-LC	B-AF
+23	##갤	O	I-AF
+24	##러리	O	I-AF
+25	##에	O	O
+26	극히	O	O
+27	일부	O	O
+28	##인	O	O
+29	20	B-QT	B-QT
+30	##점	I-QT	I-QT
+31	##만	I-QT	I-QT
+32	전시	O	O
+33	##되	O	O
+34	##고	O	O
+35	있	O	O
+36	##었	O	O
+37	##다	O	O
+38	.	O	O
+39	[SEP]	O	O

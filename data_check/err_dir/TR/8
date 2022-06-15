@@ -1,44 +1,27 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	▷	O	O	O, B-LC, B-OG, B-PS, B-CV
-2	##수원	B-LC	B-LC	B-LC, B-OG, O, B-PS, B-AF
-3	20	B-QT	B-QT	B-QT, I-LC, I-QT, B-LC, O
-4	##대	I-QT	I-QT	I-QT, I-LC, O, I-PS, I-EV
-5	여성	O	O	O, I-QT, I-OG, I-AF, B-CV
-6	##을	O	O	O, B-CV, B-PS, B-TM, I-CV
-7	살해	O	O	O, B-CV, I-CV, B-TM, B-PS
-8	##한	O	O	O, B-PS, I-CV, B-CV, B-LC
-9	오	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
-10	##원	I-PS	I-PS	I-PS, O, B-PS, I-OG, I-LC
-11	##춘	I-PS	I-PS	I-PS, O, I-LC, I-OG, B-PS
-12	##이	O	O	O, I-PS, B-CV, I-AF, B-PS
-13	사이	B-TR	O	O, B-TR, B-TM, B-CV, B-FD
-14	##코	I-TR	O	O, I-TR, I-TM, I-AF, I-CV
-15	##패스	I-TR	O	O, I-TR, I-TM, I-AF, I-OG
-16	검사	I-TR	O	O, I-TM, I-TR, I-OG, I-AF
-17	(	O	O	O, I-TM, I-OG, I-TR, I-CV
-18	PC	B-TR	O	O, B-TR, B-TM, B-CV, B-OG
-19	##L	I-TR	O	O, I-TR, I-TM, I-OG, I-AF
-20	)	O	O	O, I-TM, I-OG, I-TR, I-EV
-21	에서	O	O	O, B-CV, B-PS, B-OG, B-LC
-22	유영	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
-23	##철	I-PS	I-PS	I-PS, O, I-OG, B-PS, I-LC
-24	(	O	O	O, I-PS, B-CV, I-OG, I-AF
-25	34	B-QT	B-QT	B-QT, O, I-QT, B-EV, B-OG
-26	##점	I-QT	I-QT	I-QT, O, I-LC, I-PS, I-EV
-27	)	O	O	O, I-QT, I-OG, I-EV, B-CV
-28	보다	O	O	O, B-CV, I-QT, B-TM, B-OG
-29	낮	O	O	O, B-QT, B-TM, B-CV, B-LC
-30	##은	O	O	O, I-QT, B-QT, B-PS, B-CV
-31	점수	O	O	O, B-QT, I-QT, B-CV, B-TM
-32	(	O	O	O, B-CV, B-LC, B-OG, I-QT
-33	22	B-QT	B-QT	B-QT, O, I-QT, B-PS, B-EV
-34	##점	I-QT	I-QT	I-QT, O, I-LC, I-EV, I-PS
-35	)	O	O	O, I-QT, I-OG, I-EV, B-CV
-36	를	O	O	O, B-CV, B-OG, I-QT, B-TM
-37	받	O	O	O, B-CV, B-TM, B-PS, B-QT
-38	##았	O	O	O, B-CV, B-PS, I-CV, B-OG
-39	##다고	O	O	O, B-CV, B-OG, I-OG, B-LC
-40	한다	O	O	O, B-CV, B-OG, B-LC, B-TM
-41	.	O	O	O, B-CV, B-LC, B-PS, B-OG
-42	[SEP]	O	O	O, B-CV, B-LC, B-PS, I-EV
+	text	label	preds
+0	[CLS]	O	O
+1	그런데	O	O
+2	저	O	O
+3	##는	O	O
+4	뭐	O	O
+5	보수	B-TR	B-TR
+6	쪽	O	O
+7	##이	O	O
+8	지금	O	O
+9	뭐	O	O
+10	제	B-QT	B-QT
+11	##삼	I-QT	I-QT
+12	지대	I-QT	I-QT
+13	##다	O	O
+14	보수	B-TR	O
+15	##단	O	O
+16	##일	O	O
+17	##화	O	O
+18	##다	O	O
+19	이야기	O	O
+20	##되	O	O
+21	##고	O	O
+22	있	O	O
+23	##지마	O	O
+24	##는	O	O
+25	[SEP]	O	O

@@ -1,27 +1,12 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-EV, I-OG, I-CV
-1	2008	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-2	##년	I-DT	I-DT	I-DT, O, I-QT, B-DT, I-EV
-3	베이징	B-EV	B-EV	B-EV, B-LC, O, B-AF, B-OG
-4	올림픽	I-EV	I-EV	I-EV, B-EV, O, B-CV, I-AF
-5	##에	O	O	O, I-EV, I-AF, I-OG, I-CV
-6	이어	O	O	O, I-EV, B-LC, B-OG, B-CV
-7	사상	O	O	O, B-CV, B-LC, B-QT, B-OG
-8	최초	O	O	O, B-QT, B-DT, B-LC, B-PS
-9	##로	O	O	O, I-QT, B-PS, I-EV, B-LC
-10	육상	O	B-CV	B-CV, O, B-AF, B-TM, B-LC
-11	단거리	O	O	O, B-CV, I-CV, B-TM, B-AF
-12	세	B-QT	B-QT	B-QT, O, I-QT, I-CV, B-TM
-13	종목	I-QT	I-QT	I-QT, O, I-CV, I-TM, I-LC
-14	##을	O	O	O, I-QT, I-EV, I-CV, B-PS
-15	올림픽	B-EV	B-EV	B-EV, O, B-CV, B-LC, I-EV
-16	##에서	O	O	O, I-EV, I-DT, I-QT, I-AF
-17	2	B-QT	B-QT	B-QT, O, B-EV, I-QT, B-DT
-18	##회	I-QT	I-QT	I-QT, O, I-EV, I-LC, B-QT
-19	연속	O	O	O, I-QT, I-EV, I-DT, B-TM
-20	석권	O	O	O, B-CV, I-QT, B-TM, B-QT
-21	##한	O	O	O, B-CV, B-PS, B-OG, B-LC
-22	것	O	O	O, B-CV, B-OG, B-PS, B-LC
-23	##이다	O	O	O, B-CV, I-EV, B-TM, B-QT
-24	.	O	O	O, B-CV, B-PS, B-LC, I-EV
-25	[SEP]	O	O	O, B-CV, I-EV, B-PS, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	한	B-TI	B-TI
+2	시간	I-TI	I-TI
+3	몇	O	I-TI
+4	분	O	I-TI
+5	정도	O	I-TI
+6	##로	O	O
+7	할려고	O	O
+8	합니다	O	O
+9	.	O	O
+10	[SEP]	O	O

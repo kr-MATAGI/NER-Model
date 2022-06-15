@@ -1,22 +1,23 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, I-OG, B-CV, I-AF
-1	궁리	O	O	O, B-CV, B-TM, B-FD, B-QT
-2	끝	O	O	O, B-PS, B-CV, B-TM, I-AF
-3	##에	O	O	O, B-CV, B-PS, B-OG, B-TM
-4	친구	B-CV	B-CV	B-CV, O, B-OG, B-TM, I-CV
-5	##들	O	O	O, I-CV, I-OG, I-AF, I-TM
-6	##과	O	O	O, B-CV, B-TM, B-LC, B-OG
-7	당	O	O	O, B-CV, B-OG, B-QT, B-PS
-8	##번	O	O	O, I-OG, I-QT, I-CV, I-LC
-9	##을	O	O	O, B-CV, I-OG, I-CV, I-QT
-10	정해	O	O	O, B-OG, B-CV, B-LC, B-AF
-11	노루	O	B-AM	B-AM, O, I-AM, B-TM, B-PT
-12	##들	O	O	O, I-AF, I-QT, I-AM, I-TM
-13	##을	O	O	O, B-CV, B-TM, I-AF, B-LC
-14	돌보	O	O	O, B-CV, B-LC, B-TM, B-OG
-15	##기	O	O	O, I-OG, B-CV, B-PS, B-LC
-16	##로	O	O	O, B-CV, I-OG, B-PS, B-OG
-17	했	O	O	O, B-CV, B-LC, B-OG, B-TM
-18	##다	O	O	O, B-CV, I-OG, I-CV, I-AF
-19	.	O	O	O, B-CV, B-LC, B-PS, B-OG
-20	[SEP]	O	O	O, B-CV, B-LC, I-OG, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	일차	O	O
+2	##적	O	O
+3	가치	O	O
+4	##에	O	O
+5	##서	O	O
+6	이	O	B-QT
+7	##차	O	I-QT
+8	##적	O	O
+9	가치	O	O
+10	##로	O	O
+11	##의	O	O
+12	전환	O	O
+13	##이	O	O
+14	그것	O	O
+15	못지않	O	O
+16	##게	O	O
+17	힘들	O	O
+18	##다고	O	O
+19	봐요	O	O
+20	.	O	O
+21	[SEP]	O	O

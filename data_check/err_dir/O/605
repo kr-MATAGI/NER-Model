@@ -1,43 +1,13 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-QT
-1	이	O	O	O, B-QT, B-CV, B-OG, B-TM
-2	##는	O	O	O, B-CV, B-OG, B-LC, B-TM
-3	1	B-QT	B-QT	B-QT, B-EV, O, B-TM, B-DT
-4	##심	I-QT	I-QT	I-QT, I-EV, O, I-TM, I-TR
-5	판결	O	O	O, I-QT, I-EV, B-CV, I-CV
-6	보상	O	O	O, B-CV, B-PS, I-CV, B-FD
-7	##액	O	O	O, I-CV, B-CV, I-QT, B-PS
-8	##인	O	O	O, B-CV, B-PS, B-OG, B-LC
-9	희생자	B-CV	B-CV	B-CV, O, B-OG, B-AF, B-PS
-10	1	B-QT	B-QT	B-QT, I-QT, O, B-DT, I-CV
-11	##억	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-12	##원	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-13	,	O	O	O, I-QT, B-CV, I-OG, B-OG
-14	배우자	B-CV	B-CV	B-CV, O, B-OG, B-AF, B-TM
-15	5000	B-QT	B-QT	B-QT, I-QT, O, B-DT, I-CV
-16	##만	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-DT
-17	##원	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-18	,	O	O	O, I-QT, B-CV, B-OG, I-OG
-19	부모	B-CV	B-CV	B-CV, O, B-OG, B-AF, B-TM
-20	·	O	O	O, I-CV, I-QT, I-OG, I-AF
-21	자식	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-PS
-22	각	B-QT	B-QT	B-QT, O, I-QT, B-DT, I-CV
-23	2000	I-QT	I-QT	I-QT, O, B-QT, I-DT, I-LC
-24	##만	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-25	##원	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-26	,	O	O	O, I-QT, B-CV, B-TM, B-OG
-27	형제	B-CV	B-CV	B-CV, O, B-AF, B-OG, B-TM
-28	1000	B-QT	B-QT	B-QT, I-QT, O, B-DT, I-CV
-29	##만	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-DT
-30	##원	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-31	##의	O	O	O, I-QT, B-CV, B-OG, B-TM
-32	갑	O	B-QT	B-QT, O, I-QT, B-DT, B-PS
-33	##절	O	I-QT	I-QT, O, I-LC, I-DT, I-PS
-34	##가	O	I-QT	I-QT, O, B-QT, I-LC, I-PS
-35	##량	O	I-QT	I-QT, O, I-LC, I-PS, I-OG
-36	되	O	O	O, I-QT, B-QT, B-LC, B-OG
-37	##는	O	O	O, I-QT, B-QT, B-TM, B-OG
-38	금액	O	O	O, B-QT, I-QT, B-CV, B-TM
-39	##이다	O	O	O, B-CV, I-QT, B-TM, B-QT
-40	.	O	O	O, B-QT, B-CV, B-LC, I-QT
-41	[SEP]	O	O	O, B-CV, B-QT, I-QT, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	유럽	B-LC	B-LC
+2	정치	B-FD	B-FD
+3	##사상	O	I-FD
+4	##을	O	O
+5	전공	O	O
+6	##하시	O	O
+7	##는	O	O
+8	분이	O	O
+9	##시	O	O
+10	##니까	O	O
+11	[SEP]	O	O

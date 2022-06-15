@@ -1,60 +1,49 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-QT
-1	보고서	O	O	O, B-OG, B-CV, B-DT, B-AF
-2	##는	O	O	O, B-OG, B-CV, B-PS, B-LC
-3	먼저	O	O	O, B-OG, B-LC, B-CV, B-DT
-4	‘	O	O	O, B-OG, B-LC, B-PS, B-CV
-5	탈핵	B-OG	B-OG	B-OG, O, B-EV, B-CV, I-OG
-6	에너지	I-OG	I-OG	I-OG, O, I-EV, B-OG, I-CV
-7	교수	I-OG	I-OG	I-OG, B-CV, O, B-OG, I-CV
-8	모임	I-OG	I-OG	I-OG, O, I-CV, I-EV, I-AF
-9	’	O	O	O, I-OG, I-EV, I-CV, B-OG
-10	,	O	O	O, B-OG, B-LC, B-PS, I-OG
-11	‘	O	O	O, B-OG, B-LC, B-CV, B-PS
-12	탈핵	B-OG	B-OG	B-OG, O, B-CV, I-OG, B-EV
-13	법률가	I-OG	I-OG	I-OG, B-CV, O, B-OG, I-CV
-14	모임	I-OG	I-OG	I-OG, O, I-CV, I-EV, I-AF
-15	해바라기	I-OG	B-OG	B-OG, O, I-OG, B-CV, B-AF
-16	’	O	O	O, I-OG, B-OG, I-CV, I-EV
-17	,	O	O	O, B-OG, B-LC, I-OG, B-PS
-18	‘	O	O	O, B-OG, B-LC, B-CV, B-PS
-19	반	B-OG	B-OG	B-OG, O, B-CV, B-EV, B-AF
-20	##핵	I-OG	I-OG	I-OG, B-OG, O, I-EV, B-CV
-21	의사	I-OG	I-OG	I-OG, O, B-OG, I-EV, I-CV
-22	##회	I-OG	I-OG	I-OG, O, I-EV, I-CV, I-AF
-23	’	O	O	O, I-OG, I-EV, I-CV, I-AF
-24	등	O	O	O, B-OG, B-CV, B-TM, B-PS
-25	##의	O	O	O, B-OG, B-CV, I-OG, B-PS
-26	모임	O	O	O, B-OG, B-CV, I-OG, B-PS
-27	##을	O	O	O, B-OG, B-CV, B-PS, B-LC
-28	분석	O	O	O, B-CV, B-OG, B-LC, B-TM
-29	##하	O	O	O, B-OG, B-PS, B-LC, I-OG
-30	##며	O	O	O, B-OG, B-LC, B-PS, B-DT
-31	“	O	O	O, B-LC, B-OG, B-CV, B-PS
-32	(	O	O	O, B-OG, B-LC, B-CV, B-PS
-33	이	O	O	O, B-OG, B-PS, B-CV, B-LC
-34	##들이	O	O	O, I-OG, B-PS, B-OG, B-CV
-35	)	O	O	O, B-LC, B-PS, B-OG, B-CV
-36	19	B-QT	B-QT	B-QT, O, B-EV, I-QT, B-DT
-37	##대	I-QT	I-QT	I-QT, O, I-EV, I-OG, I-DT
-38	총선	B-EV	B-EV	B-EV, O, I-EV, B-DT, I-QT
-39	##을	O	O	O, I-EV, I-DT, I-QT, I-OG
-40	전후	O	O	O, I-DT, B-DT, B-OG, B-PS
-41	##해	O	O	O, I-DT, B-LC, B-PS, B-DT
-42	제도	O	O	O, B-LC, B-CV, B-OG, B-FD
-43	정치	O	O	O, B-FD, B-LC, B-CV, B-OG
-44	##권	O	O	O, I-LC, B-LC, B-PS, I-OG
-45	##으로	O	O	O, B-LC, B-PS, B-OG, B-CV
-46	활동	O	O	O, B-LC, B-OG, B-PS, B-CV
-47	무대	O	O	O, B-LC, B-PS, B-CV, B-TM
-48	##를	O	O	O, B-OG, B-CV, B-PS, B-LC
-49	확대	O	O	O, B-LC, B-CV, B-PS, B-OG
-50	##하고	O	O	O, B-PS, B-LC, B-CV, B-OG
-51	있	O	O	O, B-PS, B-OG, B-LC, B-CV
-52	##다	O	O	O, B-OG, B-LC, B-PS, B-CV
-53	”	O	O	O, B-CV, B-OG, I-OG, B-LC
-54	고	O	O	O, B-CV, B-OG, B-LC, B-QT
-55	봤	O	O	O, B-OG, B-CV, B-PS, B-QT
-56	##다	O	O	O, B-CV, I-OG, B-OG, I-QT
-57	.	O	O	O, B-OG, B-LC, B-CV, I-OG
-58	[SEP]	O	O	O, B-OG, B-LC, B-CV, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	BBC	B-OG	B-OG
+2	##는	O	O
+3	바라	B-PS	B-PS
+4	##크	I-PS	I-PS
+5	장관	B-CV	B-CV
+6	##이	O	O
+7	중국	B-OG	B-LC
+8	군	I-OG	B-OG
+9	(	O	O
+10	軍	O	O
+11	)	O	O
+12	관계자	B-CV	B-CV
+13	##는	O	O
+14	물론	O	O
+15	정부	B-OG	B-OG
+16	고위	O	B-CV
+17	인사	O	I-CV
+18	##와	O	O
+19	만나	O	O
+20	이란	B-LC	B-LC
+21	핵	B-AF	B-AF
+22	##위	O	O
+23	##협	O	O
+24	,	O	O
+25	중동	B-EV	B-EV
+26	##평	I-EV	I-EV
+27	##화	I-EV	I-EV
+28	##협상	I-EV	I-EV
+29	,	O	O
+30	역내	O	O
+31	테러	O	O
+32	문제	O	O
+33	등	O	O
+34	다양	O	O
+35	##한	O	O
+36	문제	O	O
+37	##에	O	O
+38	대해	O	O
+39	논의	O	O
+40	##할	O	O
+41	것	O	O
+42	##이	O	O
+43	##라고	O	O
+44	전했	O	O
+45	##다	O	O
+46	.	O	O
+47	[SEP]	O	O

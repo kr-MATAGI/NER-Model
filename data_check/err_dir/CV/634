@@ -1,73 +1,11 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	구리시	B-OG	B-OG	B-OG, B-LC, O, B-PS, B-AF
-2	##는	O	O	O, I-OG, I-LC, B-OG, I-EV
-3	8	B-DT	B-DT	B-DT, O, I-DT, B-LC, B-EV
-4	##일	I-DT	I-DT	I-DT, O, B-DT, I-PS, I-QT
-5	오후	B-TI	B-TI	B-TI, B-LC, O, B-EV, I-TI
-6	서울	B-LC	B-LC	B-LC, B-AF, B-OG, O, B-PS
-7	조선	B-AF	B-AF	B-AF, B-OG, I-AF, B-LC, I-OG
-8	##호텔	I-AF	I-AF	I-AF, I-OG, O, I-LC, I-PS
-9	##에서	O	O	O, I-AF, I-OG, I-EV, I-LC
-10	미국	B-LC	B-LC	B-LC, O, B-CV, B-OG, B-PS
-11	##계	O	O	O, I-CV, I-LC, B-CV, I-AF
-12	섬유	B-MT	B-MT	B-MT, O, B-CV, B-PT, B-FD
-13	·	O	O	O, I-CV, B-CV, I-LC, I-MT
-14	식품	O	O	O, I-CV, B-CV, I-LC, B-LC
-15	·	O	O	O, I-CV, B-CV, B-LC, B-PS
-16	유통	O	O	O, B-CV, I-CV, B-LC, B-TM
-17	·	O	O	O, I-CV, B-CV, I-OG, I-LC
-18	투자	O	O	O, B-CV, I-CV, B-LC, B-TM
-19	제조업	O	O	O, B-CV, I-CV, B-OG, B-LC
-20	##체인	O	O	O, I-CV, I-OG, B-CV, B-OG
-21	‘	O	O	O, B-OG, B-LC, B-CV, I-OG
-22	비	B-OG	B-OG	B-OG, O, I-OG, B-LC, B-PS
-23	##바	I-OG	I-OG	I-OG, O, I-LC, B-OG, I-AF
-24	비나	I-OG	I-OG	I-OG, O, B-OG, I-LC, I-CV
-25	(	O	O	O, I-OG, B-OG, I-LC, I-CV
-26	V	O	O	O, B-LC, B-OG, B-PS, I-OG
-27	##iv	O	O	O, B-LC, I-OG, I-LC, B-OG
-28	##a	O	O	O, B-LC, I-OG, I-LC, B-OG
-29	V	O	O	O, B-LC, I-OG, I-LC, B-OG
-30	##ina	O	O	O, I-OG, I-LC, B-LC, B-OG
-31	)	O	O	O, I-OG, B-OG, I-LC, B-LC
-32	’	O	O	O, I-OG, B-OG, B-LC, B-CV
-33	컨소시엄	O	O	O, B-OG, I-OG, B-CV, B-LC
-34	##과	O	O	O, I-OG, B-OG, B-LC, I-CV
-35	“	O	O	O, B-LC, B-OG, B-CV, B-PS
-36	월드	B-AF	B-AF	B-AF, B-EV, B-LC, O, B-PS
-37	##디	I-AF	I-AF	I-AF, B-AF, I-EV, O, I-PS
-38	##자	I-AF	I-AF	I-AF, I-EV, O, B-AF, I-PS
-39	##인	I-AF	I-AF	I-AF, O, I-EV, B-AF, I-LC
-40	##센터	I-AF	I-AF	I-AF, O, I-EV, B-AF, I-LC
-41	건립	O	O	O, I-AF, I-EV, B-CV, B-LC
-42	##에	O	O	O, B-OG, B-LC, B-CV, B-PS
-43	20	B-QT	B-QT	B-QT, O, B-DT, B-LC, B-OG
-44	##억	I-QT	I-QT	I-QT, O, I-LC, I-PS, I-DT
-45	달러	I-QT	I-QT	I-QT, O, I-LC, I-PS, I-OG
-46	(	O	O	O, I-QT, I-OG, B-CV, B-OG
-47	한화	B-CV	O	O, B-OG, B-CV, B-QT, B-AF
-48	2	B-QT	B-QT	B-QT, I-QT, O, B-DT, I-LC
-49	##조	I-QT	I-QT	I-QT, O, I-LC, I-PS, I-DT
-50	##원	I-QT	I-QT	I-QT, O, I-LC, I-PS, I-DT
-51	상당	I-QT	O	O, I-QT, I-LC, I-DT, I-TM
-52	)	O	O	O, I-QT, B-OG, B-CV, B-LC
-53	를	O	O	O, B-OG, B-LC, B-CV, B-PS
-54	투자	O	O	O, B-OG, B-LC, B-CV, B-TM
-55	##한다	O	O	O, B-LC, B-OG, B-PS, B-CV
-56	”	O	O	O, B-CV, B-OG, B-LC, B-TM
-57	는	O	O	O, B-OG, B-LC, B-CV, B-TM
-58	내용	O	O	O, B-LC, B-OG, B-TM, B-CV
-59	##의	O	O	O, I-OG, B-PS, B-OG, B-LC
-60	투자	O	O	O, B-OG, B-CV, B-TM, B-LC
-61	##협	O	O	O, I-OG, I-EV, B-OG, I-AF
-62	##약	O	O	O, I-OG, I-EV, I-AF, B-OG
-63	(	O	O	O, I-OG, I-EV, I-AF, B-CV
-64	MOU	B-OG	O	O, B-OG, B-AF, B-EV, B-LC
-65	)	O	O	O, I-OG, I-EV, I-AF, I-CV
-66	을	O	O	O, B-OG, B-LC, B-CV, B-AF
-67	체결	O	O	O, B-OG, B-LC, B-EV, B-AF
-68	##했	O	O	O, B-LC, I-OG, B-OG, I-EV
-69	##다	O	O	O, B-LC, I-OG, B-CV, B-OG
-70	.	O	O	O, B-LC, B-OG, B-PS, B-CV
-71	[SEP]	O	O	O, B-LC, B-OG, I-OG, B-CV
+	text	label	preds
+0	[CLS]	O	O
+1	그	O	O
+2	서번트	B-CV	O
+3	##라는	O	O
+4	게	O	O
+5	공복	B-CV	O
+6	##이	O	O
+7	##라는	O	O
+8	그	O	O
+9	[SEP]	O	O

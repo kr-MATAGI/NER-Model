@@ -1,35 +1,85 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	본격	O	O	O, B-CV, B-TM, B-LC, B-QT
-2	##적인	O	O	O, B-CV, B-QT, B-LC, I-AF
-3	한식	B-CV	B-CV	B-CV, O, I-CV, B-FD, B-OG
-4	코스	O	O	O, I-CV, I-OG, I-AF, B-CV
-5	##는	O	O	O, B-CV, I-CV, I-AF, I-OG
-6	잡채	B-CV	B-CV	B-CV, O, I-CV, B-PT, B-TM
-7	##→	O	O	O, I-CV, I-OG, I-AF, I-QT
-8	##모	B-CV	B-CV	B-CV, O, B-AF, B-TM, B-PT
-9	##둠	I-CV	I-CV	I-CV, O, B-CV, I-AF, I-OG
-10	##전	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-AF
-11	##→	O	O	O, I-CV, I-OG, I-AF, I-QT
-12	##불	B-CV	B-CV	B-CV, O, I-CV, B-PT, B-TM
-13	##고기	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-AF
-14	##→	O	O	O, I-CV, I-OG, I-AF, I-QT
-15	##흰	O	O	O, B-CV, B-TM, B-AM, B-PT
-16	쌀밥	B-CV	B-CV	B-CV, I-CV, O, B-PT, I-TM
-17	##과	O	O	O, I-CV, B-CV, I-AF, I-OG
-18	시금치	B-CV	B-CV	B-CV, O, B-PT, B-AM, B-TM
-19	조개	I-CV	I-CV	I-CV, B-CV, O, B-AM, B-PT
-20	된장	I-CV	B-CV	B-CV, I-CV, O, B-PT, B-TM
-21	##국	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-AF
-22	##→	O	O	O, I-CV, I-OG, I-AF, I-QT
-23	##인	B-CV	B-CV	B-CV, O, B-AF, B-OG, B-TM
-24	##삼	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-AF
-25	##캔	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-AF
-26	##디	I-CV	I-CV	I-CV, O, I-OG, I-AF, I-TM
-27	등	O	O	O, I-CV, I-OG, I-AF, I-QT
-28	##의	O	O	O, B-CV, I-CV, B-OG, B-TM
-29	순이	O	O	O, B-CV, B-TM, B-QT, B-DT
-30	##었	O	O	O, B-CV, B-OG, B-QT, I-CV
-31	##다	O	O	O, B-CV, I-OG, I-CV, B-QT
-32	.	O	O	O, B-LC, B-CV, B-OG, B-TM
-33	[SEP]	O	O	O, B-CV, B-LC, B-TM, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	10	B-DT	B-DT
+2	##일	I-DT	I-DT
+3	헬스	B-OG	B-OG
+4	##데이	I-OG	I-OG
+5	##뉴스	I-OG	I-OG
+6	등	O	O
+7	##에	O	O
+8	따르	O	O
+9	##면	O	O
+10	미국	B-LC	B-LC
+11	워싱턴	B-OG	B-OG
+12	##대	I-OG	I-OG
+13	의대	O	O
+14	롤	B-PS	B-PS
+15	##런	I-PS	I-PS
+16	##드	I-PS	I-PS
+17	월터	I-PS	I-PS
+18	박사	B-CV	O
+19	##팀	O	O
+20	##이	O	O
+21	워싱턴	B-LC	B-LC
+22	주	I-LC	I-LC
+23	##에	O	O
+24	거주	O	O
+25	##하	O	O
+26	##는	O	O
+27	50	B-QT	B-QT
+28	##∼	I-QT	I-QT
+29	##76	I-QT	I-QT
+30	##세	I-QT	I-QT
+31	남녀	O	O
+32	6	B-QT	B-QT
+33	##만	I-QT	I-QT
+34	##50	I-QT	I-QT
+35	##00	I-QT	I-QT
+36	##명	I-QT	I-QT
+37	##을	O	O
+38	대상	O	O
+39	##으로	O	O
+40	연구	O	O
+41	##한	O	O
+42	결과	O	O
+43	아세	B-TM	B-TM
+44	##트	I-TM	I-TM
+45	##아	I-TM	I-TM
+46	##미	I-TM	I-TM
+47	##노	I-TM	I-TM
+48	##펜	I-TM	I-TM
+49	##을	O	O
+50	일주일	B-DT	B-DT
+51	##에	O	O
+52	최소한	O	O
+53	4	B-QT	B-QT
+54	##번	I-QT	I-QT
+55	##씩	I-QT	I-QT
+56	,	O	O
+57	4	B-DT	B-DT
+58	##년	I-DT	I-DT
+59	이상	I-DT	I-DT
+60	복용	O	O
+61	##한	O	O
+62	사람	O	O
+63	##들	O	O
+64	##은	O	O
+65	혈액	B-TM	B-TM
+66	##암	I-TM	I-TM
+67	##에	O	O
+68	걸릴	O	O
+69	위험	O	O
+70	##이	O	O
+71	2	B-QT	B-QT
+72	##배	I-QT	I-QT
+73	가까이	O	O
+74	높	O	O
+75	##아	O	O
+76	##진	O	O
+77	것	O	O
+78	##으로	O	O
+79	조사	O	O
+80	##됐	O	O
+81	##다	O	O
+82	.	O	O
+83	[SEP]	O	O

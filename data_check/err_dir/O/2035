@@ -1,48 +1,28 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-EV, I-OG, B-CV, I-QT
-1	지난달	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-QT
-2	28	I-DT	I-DT	I-DT, O, B-DT, I-EV, I-PS
-3	##일	I-DT	I-DT	I-DT, O, B-DT, I-EV, I-PS
-4	열린	O	O	O, I-DT, B-CV, B-LC, I-EV
-5	전국	O	O	O, B-EV, B-LC, B-CV, B-OG
-6	수석	O	O	O, B-CV, I-EV, B-EV, I-CV
-7	##부	O	I-EV	I-EV, O, I-CV, B-CV, I-OG
-8	##장	O	O	O, I-CV, I-EV, B-CV, I-OG
-9	##판	O	O	O, I-CV, I-EV, B-CV, I-OG
-10	##사회	O	O	O, I-EV, I-CV, I-OG, B-CV
-11	##의	O	O	O, I-EV, I-OG, I-CV, B-EV
-12	##에서	O	O	O, I-EV, I-OG, I-CV, B-PS
-13	##는	O	O	O, B-OG, I-EV, B-LC, B-CV
-14	성폭력	O	B-CV	B-CV, O, B-FD, B-EV, I-CV
-15	범죄	O	O	O, I-CV, B-CV, I-EV, I-OG
-16	가해자	O	B-CV	B-CV, O, I-CV, B-EV, B-OG
-17	##에	O	O	O, I-CV, I-EV, I-OG, B-CV
-18	##게	O	O	O, B-LC, B-CV, B-TM, B-PS
-19	피해	O	O	O, B-CV, B-LC, B-TM, B-PS
-20	여성	O	O	O, B-CV, B-TM, B-LC, I-CV
-21	##의	O	O	O, B-CV, B-TM, B-LC, B-PS
-22	주소	O	O	O, B-CV, B-TM, B-LC, B-PS
-23	등	O	O	O, B-LC, B-PS, B-TM, B-CV
-24	신상	O	O	O, B-CV, B-TM, B-LC, B-PS
-25	##정보	O	O	O, I-CV, I-LC, I-TM, I-PS
-26	##가	O	O	O, B-PS, B-LC, B-CV, B-OG
-27	담긴	O	O	O, B-LC, B-TM, B-CV, B-PS
-28	형사	O	O	O, B-CV, B-EV, I-CV, B-AF
-29	##배상	O	O	O, I-CV, B-CV, I-EV, I-OG
-30	##명령	O	O	O, I-CV, B-CV, I-OG, I-EV
-31	각하	O	O	O, I-CV, B-CV, I-OG, I-AF
-32	결정	O	O	O, I-CV, I-OG, I-AF, I-EV
-33	##문	O	O	O, I-OG, I-AF, I-CV, I-EV
-34	##이	O	O	O, B-PS, B-LC, B-CV, B-OG
-35	전달	O	O	O, B-CV, B-LC, B-TM, B-OG
-36	##된	O	O	O, B-PS, B-LC, B-CV, B-OG
-37	사례	O	O	O, B-CV, B-LC, B-OG, B-TM
-38	##가	O	O	O, B-PS, B-LC, B-CV, B-OG
-39	언급	O	O	O, B-CV, B-LC, B-TM, B-OG
-40	##된	O	O	O, B-CV, B-LC, B-PS, B-OG
-41	것	O	O	O, B-CV, B-LC, B-OG, B-PS
-42	##으로	O	O	O, B-CV, B-LC, I-OG, B-TM
-43	알려졌	O	O	O, B-LC, B-CV, B-OG, B-TM
-44	##다	O	O	O, B-CV, I-EV, B-LC, I-OG
-45	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-46	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	•	O	O
+2	민노당	B-OG	B-OG
+3	압박	O	O
+4	##에	O	O
+5	지도부	O	O
+6	굴복	O	O
+7	…	O	O
+8	孫	O	B-PS
+9	대표	O	B-CV
+10	,	O	O
+11	진보	O	O
+12	##진	O	O
+13	##영	O	O
+14	손	B-AM	B-AM
+15	잡아	O	O
+16	…	O	O
+17	최고위	B-CV	B-CV
+18	##원	I-CV	I-CV
+19	7	B-QT	B-QT
+20	##명	I-QT	I-QT
+21	""""	O	O
+22	비준	O	O
+23	안	O	O
+24	##돼	O	O
+25	""""	O	O
+26	[SEP]	O	O

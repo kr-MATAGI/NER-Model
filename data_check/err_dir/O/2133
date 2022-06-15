@@ -1,35 +1,39 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-QT
-1	일본	B-LC	B-LC	B-LC, O, B-OG, B-AF, I-LC
-2	열도	O	I-LC	I-LC, O, B-LC, I-AF, I-OG
-3	##로	O	O	O, I-LC, B-LC, B-PS, I-AF
-4	이주	O	O	O, B-CV, B-LC, B-PS, B-QT
-5	##한	O	O	O, B-LC, B-PS, I-LC, I-CV
-6	원형	B-CV	B-CV	B-CV, O, B-LC, B-TM, I-CV
-7	##덧	I-CV	I-CV	I-CV, O, B-CV, I-LC, I-OG
-8	##띠	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-TM
-9	##토	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-TM
-10	##기	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-TM
-11	##인	I-CV	I-CV	I-CV, O, I-OG, B-CV, I-TM
-12	##들	O	O	O, I-CV, I-OG, I-AF, I-QT
-13	##은	O	O	O, B-LC, B-CV, B-TM, B-PS
-14	점점	O	O	O, B-LC, B-PS, B-CV, B-OG
-15	야	B-CV	B-CV	B-CV, B-LC, O, B-OG, B-FD
-16	##요	I-CV	I-CV	I-CV, I-LC, O, I-OG, I-PS
-17	##이	I-CV	I-CV	I-CV, I-LC, O, I-OG, I-PS
-18	##문화	I-CV	I-CV	I-CV, O, I-LC, I-OG, B-CV
-19	##에	O	O	O, I-CV, I-OG, I-LC, I-AF
-20	동화	O	O	O, B-LC, B-CV, B-PS, B-FD
-21	,	O	O	O, B-LC, B-PS, I-LC, I-QT
-22	흡수	O	O	O, B-LC, B-CV, B-PS, B-TM
-23	##돼	O	O	O, B-LC, B-PS, I-LC, I-OG
-24	가	O	O	O, B-LC, B-PS, B-CV, B-TM
-25	##는	O	O	O, B-LC, B-PS, I-OG, B-TM
-26	현상	O	O	O, B-LC, B-CV, B-PS, B-FD
-27	##을	O	O	O, B-CV, I-OG, I-AF, B-PS
-28	보이	O	O	O, B-CV, B-OG, B-LC, B-TM
-29	##고	O	O	O, I-OG, I-QT, B-LC, I-AF
-30	있	O	O	O, B-CV, B-LC, B-FD, B-PS
-31	##다	O	O	O, B-CV, B-LC, B-TM, I-OG
-32	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-33	[SEP]	O	O	O, B-LC, B-CV, I-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	하루	B-DT	B-DT
+2	2	B-QT	B-QT
+3	##갑	I-QT	I-QT
+4	이상	I-QT	I-QT
+5	담배	B-CV	B-CV
+6	##를	O	O
+7	피웠	O	O
+8	##던	O	O
+9	애	O	B-CV
+10	##연	O	I-CV
+11	##가	O	I-CV
+12	##였	O	O
+13	##는데	O	O
+14	,	O	O
+15	금연	O	O
+16	##을	O	O
+17	권	O	O
+18	##하	O	O
+19	##던	O	O
+20	후배	B-CV	B-CV
+21	##들	O	O
+22	##에	O	O
+23	##게	O	O
+24	""""	O	O
+25	난	O	O
+26	뻐	O	O
+27	##끔	O	O
+28	담배	B-CV	B-CV
+29	##여	O	O
+30	""""	O	O
+31	라며	O	O
+32	이해	O	O
+33	##를	O	O
+34	구했	O	O
+35	##다	O	O
+36	.	O	O
+37	[SEP]	O	O

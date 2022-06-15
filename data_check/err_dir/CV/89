@@ -1,30 +1,11 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-QT
-1	현재	O	O	O, B-CV, B-QT, B-TM, B-LC
-2	농업	O	O	O, B-CV, B-FD, B-LC, B-TM
-3	##생산	O	O	O, I-CV, I-AF, I-FD, I-TM
-4	##액	O	O	O, I-CV, I-TM, I-AF, I-FD
-5	대비	O	O	O, B-TM, B-CV, B-QT, B-LC
-6	농업	O	O	O, B-CV, I-CV, B-PT, B-MT
-7	##보	B-CV	O	O, I-CV, B-CV, I-MT, I-AF
-8	##조	I-CV	O	O, I-CV, B-CV, I-OG, I-AF
-9	##금	I-CV	O	O, I-CV, B-CV, I-OG, I-MT
-10	비중	O	O	O, I-CV, B-QT, B-TM, B-CV
-11	##은	O	O	O, B-LC, B-CV, B-OG, B-TM
-12	우리나라	O	O	O, B-LC, B-OG, B-CV, B-QT
-13	##가	O	O	O, B-PS, B-LC, B-OG, I-OG
-14	4	B-QT	B-QT	B-QT, O, I-QT, B-LC, B-EV
-15	.	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-16	6	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-17	%	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-18	로	O	O	O, I-QT, B-OG, B-LC, I-OG
-19	주요	O	O	O, B-OG, B-LC, B-TM, B-CV
-20	선진국	O	O	O, B-OG, B-LC, B-CV, I-OG
-21	가운데	O	O	O, I-OG, B-TM, B-LC, B-CV
-22	가장	O	O	O, B-LC, B-CV, B-QT, B-TM
-23	낮	O	O	O, B-QT, B-LC, B-TM, B-CV
-24	##은	O	O	O, B-LC, B-PS, I-QT, B-QT
-25	수준	O	O	O, B-CV, B-QT, B-LC, B-TM
-26	##이다	O	O	O, B-CV, B-TM, I-QT, I-OG
-27	.	O	O	O, B-LC, B-OG, B-CV, B-PS
-28	[SEP]	O	O	O, B-LC, B-CV, B-OG, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	인도	B-LC	B-LC
+2	‘	O	O
+3	집단	B-CV	O
+4	성폭행	I-CV	B-CV
+5	’	O	O
+6	항의	O	O
+7	##시위	O	O
+8	확산	O	O
+9	[SEP]	O	O

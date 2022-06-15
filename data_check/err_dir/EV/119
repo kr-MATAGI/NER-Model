@@ -1,82 +1,33 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-EV, I-CV
-1	KBS	B-OG	B-OG	B-OG, O, B-AF, I-OG, B-LC
-2	##측	O	O	O, I-OG, B-OG, I-AF, I-QT
-3	##은	O	O	O, B-CV, I-OG, B-OG, B-LC
-4	""""	O	O	O, B-CV, B-LC, B-OG, B-TM
-5	토론	O	O	O, B-LC, B-EV, B-CV, B-FD
-6	전반	O	O	O, B-TI, B-QT, B-FD, B-DT
-7	##에	O	O	O, B-PS, B-OG, B-LC, B-CV
-8	걸쳐	O	O	O, B-LC, B-PS, B-OG, B-QT
-9	의원	B-CV	B-CV	B-CV, O, B-OG, B-EV, I-CV
-10	##들이	O	O	O, I-CV, B-CV, I-EV, I-OG
-11	'	O	O	O, B-LC, B-PS, B-CV, B-EV
-12	민주당	B-OG	B-OG	B-OG, B-EV, O, B-PS, B-LC
-13	최고위	B-CV	B-CV	B-CV, O, I-EV, I-CV, B-EV
-14	##원	I-CV	I-CV	I-CV, O, I-EV, I-OG, B-CV
-15	·	O	O	O, I-EV, I-CV, I-OG, B-EV
-16	문방	O	B-CV	B-CV, O, B-EV, B-OG, B-FD
-17	##위원	O	I-CV	I-CV, O, I-EV, I-OG, B-CV
-18	연석회의	B-EV	O	O, B-EV, I-EV, B-CV, B-QT
-19	도청	O	O	O, I-EV, B-EV, B-CV, B-LC
-20	논란	O	O	O, I-EV, B-EV, I-CV, I-AF
-21	'	O	O	O, I-EV, B-CV, B-PS, B-OG
-22	등	O	O	O, B-LC, B-CV, B-PS, B-OG
-23	##을	O	O	O, B-CV, B-LC, B-PS, B-OG
-24	놓	O	O	O, B-LC, B-PS, B-CV, B-TM
-25	##고	O	O	O, B-PS, B-LC, B-CV, B-OG
-26	설전	O	O	O, B-CV, B-LC, B-EV, B-TM
-27	##을	O	O	O, B-CV, I-EV, B-OG, B-PS
-28	벌이	O	O	O, B-CV, B-LC, B-EV, B-PS
-29	##는	O	O	O, B-LC, B-PS, B-CV, B-OG
-30	바람	O	O	O, B-LC, B-CV, B-OG, B-PS
-31	##에	O	O	O, B-LC, B-CV, B-OG, B-PS
-32	제대로	O	O	O, B-LC, B-CV, B-QT, B-TM
-33	시청	O	O	O, B-CV, B-TM, B-QT, B-TR
-34	##료	O	O	O, I-CV, I-TR, I-TM, I-QT
-35	문제	O	O	O, I-CV, B-LC, B-CV, B-PS
-36	##를	O	O	O, B-CV, B-LC, B-OG, B-PS
-37	다루	O	O	O, B-LC, B-CV, B-OG, B-TM
-38	##기	O	O	O, B-LC, B-OG, B-PS, B-CV
-39	어렵	O	O	O, B-CV, B-LC, B-OG, B-TM
-40	##게	O	O	O, B-LC, B-OG, B-CV, B-TM
-41	되	O	O	O, B-CV, B-LC, B-TM, B-QT
-42	##자	O	O	O, B-PS, B-LC, B-OG, I-OG
-43	사회	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-TM
-44	##자	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-TM
-45	##가	O	O	O, I-CV, B-PS, I-OG, I-QT
-46	즉석	O	O	O, B-LC, B-CV, B-TM, B-OG
-47	##에서	O	O	O, B-PS, B-LC, B-OG, B-CV
-48	편성	O	B-CV	B-CV, O, I-CV, B-OG, B-TM
-49	책임자	B-CV	I-CV	I-CV, O, B-CV, I-OG, I-QT
-50	##에	O	O	O, I-CV, B-CV, B-PS, I-OG
-51	##게	O	O	O, B-LC, B-CV, B-TM, B-OG
-52	방송	O	O	O, B-TM, B-CV, B-LC, B-FD
-53	연장	O	O	O, B-CV, B-OG, B-LC, B-TM
-54	가능	O	O	O, B-OG, B-CV, B-LC, B-PS
-55	여부	O	O	O, B-LC, B-CV, B-PS, B-OG
-56	##를	O	O	O, B-OG, B-CV, B-PS, B-LC
-57	물	O	O	O, B-CV, B-LC, B-PS, B-OG
-58	##었	O	O	O, B-CV, B-OG, B-LC, B-PS
-59	##고	O	O	O, B-PS, B-LC, B-CV, B-OG
-60	,	O	O	O, B-CV, B-LC, B-OG, B-PS
-61	담당	O	O	O, B-CV, B-OG, B-TM, B-LC
-62	PD	B-CV	B-CV	B-CV, I-CV, O, B-QT, B-PT
-63	##와	O	O	O, I-CV, I-OG, B-PS, B-CV
-64	편성	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-TM
-65	##책	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-QT
-66	##임자	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-QT
-67	##가	O	O	O, I-CV, B-PS, I-OG, I-QT
-68	상의	O	O	O, B-CV, B-LC, B-TM, B-OG
-69	##해	O	O	O, B-LC, B-PS, B-OG, B-CV
-70	연장	O	O	O, B-CV, B-LC, B-OG, B-TM
-71	##을	O	O	O, B-OG, B-PS, B-CV, B-LC
-72	결정	O	O	O, B-CV, B-OG, B-LC, B-PS
-73	##했	O	O	O, B-OG, B-PS, B-LC, B-CV
-74	##다	O	O	O, B-CV, B-OG, B-LC, B-PS
-75	""""	O	O	O, B-CV, B-LC, B-OG, B-TM
-76	고	O	O	O, B-CV, B-OG, B-LC, B-TM
-77	밝혔	O	O	O, B-CV, B-OG, B-TM, B-LC
-78	##다	O	O	O, B-CV, B-OG, I-OG, B-TM
-79	.	O	O	O, B-LC, B-CV, B-OG, B-PS
-80	[SEP]	O	O	O, B-LC, B-CV, B-OG, I-EV
+	text	label	preds
+0	[CLS]	O	O
+1	오진	B-PS	B-PS
+2	##혁	I-PS	I-PS
+3	##이	O	O
+4	리커	B-EV	B-CV
+5	##브	I-EV	I-CV
+6	남자	I-EV	O
+7	개인전	I-EV	O
+8	##에	O	O
+9	##서	O	O
+10	금메달	B-CV	B-CV
+11	##을	O	O
+12	따지	O	O
+13	못	O	O
+14	##했	O	O
+15	##다면	O	O
+16	이번	O	O
+17	대회	O	O
+18	양궁	B-CV	B-CV
+19	##은	O	O
+20	여자	O	O
+21	선수	B-CV	B-CV
+22	##들	O	O
+23	##만	O	O
+24	##의	O	O
+25	잔치	O	O
+26	##가	O	O
+27	될	O	O
+28	뻔했	O	O
+29	##다	O	O
+30	.	O	O
+31	[SEP]	O	O

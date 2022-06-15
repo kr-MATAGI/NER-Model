@@ -1,24 +1,21 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	또	O	O	O, B-QT, B-PS, B-CV, B-OG
-2	다른	O	O	O, B-QT, I-QT, B-PS, B-CV
-3	한	O	O	O, B-QT, I-QT, B-PS, B-CV
-4	측	O	I-QT	I-QT, O, I-OG, B-QT, I-LC
-5	##에서	O	O	O, I-QT, B-PS, B-QT, B-CV
-6	##는	O	O	O, B-PS, B-CV, B-OG, B-LC
-7	지금	O	O	O, B-OG, B-PS, B-CV, B-LC
-8	박원순	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-9	시장	B-CV	B-CV	B-CV, O, I-PS, I-CV, B-TM
-10	##이	O	O	O, I-CV, B-CV, B-PS, I-EV
-11	그	O	O	O, B-CV, B-OG, B-LC, B-TM
-12	당시	O	O	O, B-CV, B-OG, B-PS, B-LC
-13	그	O	O	O, B-CV, B-OG, B-PS, B-LC
-14	참여	B-OG	O	O, B-OG, B-CV, B-LC, B-EV
-15	연대	I-OG	O	O, B-OG, I-OG, B-CV, B-LC
-16	##를	O	O	O, I-OG, I-EV, B-CV, I-CV
-17	마쳤	O	O	O, B-CV, B-OG, B-LC, B-PS
-18	##습	O	O	O, B-CV, B-OG, B-LC, I-OG
-19	##니다	O	O	O, B-CV, B-OG, B-LC, B-PS
-20	##만	O	O	O, B-PS, B-LC, B-CV, I-OG
-21	##은	O	O	O, B-CV, B-OG, B-PS, B-LC
-22	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	켜졌	O	O
+2	##는데	O	O
+3	고	O	O
+4	부분	O	O
+5	##이	O	O
+6	이제	O	O
+7	세계	O	O
+8	##적	O	O
+9	##인	O	O
+10	당시	O	O
+11	##의	O	O
+12	그	O	O
+13	곤충	O	B-CV
+14	##학자	B-CV	I-CV
+15	파	B-PS	B-PS
+16	##브르	I-PS	I-PS
+17	##하	O	O
+18	##고	O	O
+19	[SEP]	O	O

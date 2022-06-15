@@ -1,43 +1,74 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	전문가	B-CV	B-CV	B-CV, O, B-OG, I-CV, B-QT
-2	##들	O	O	O, I-CV, I-OG, I-QT, I-AF
-3	##은	O	O	O, B-CV, B-TM, B-OG, B-PS
-4	현재	O	O	O, B-OG, B-LC, B-PS, B-CV
-5	우리	O	O	O, B-OG, B-LC, I-OG, B-PS
-6	군	B-OG	O	O, I-OG, B-OG, B-CV, I-CV
-7	##이	O	O	O, I-OG, B-PS, B-OG, B-LC
-8	전략	O	O	O, B-CV, B-AF, B-TM, B-LC
-9	##무기	O	O	O, I-CV, I-AF, I-TM, B-CV
-10	##로	O	O	O, B-PS, I-CV, I-AF, B-LC
-11	##서	O	O	O, B-LC, B-PS, B-CV, B-OG
-12	집중	O	O	O, B-LC, B-TM, B-AF, B-PS
-13	개발	O	O	O, B-LC, B-TM, B-CV, B-AF
-14	중	O	O	O, B-LC, B-PS, B-AF, B-TM
-15	##인	O	O	O, B-PS, B-LC, B-AF, B-TM
-16	순항	O	B-AF	B-AF, O, I-AF, B-TM, B-LC
-17	(	O	I-AF	I-AF, O, I-TM, B-AF, I-OG
-18	크루즈	B-AF	I-AF	I-AF, O, B-AF, I-TM, I-OG
-19	)	O	I-AF	I-AF, O, I-TM, B-AF, I-OG
-20	미사일	B-AF	I-AF	I-AF, B-AF, O, I-TM, I-CV
-21	##의	O	O	O, I-AF, I-TM, I-CV, I-OG
-22	한계	O	O	O, B-CV, B-LC, B-TM, I-AF
-23	##를	O	O	O, B-CV, B-PS, I-AF, B-LC
-24	감안	O	O	O, B-CV, B-TM, B-LC, B-PS
-25	##해	O	O	O, B-PS, B-LC, I-OG, B-OG
-26	볼	O	O	O, B-PS, I-OG, B-LC, B-OG
-27	때	O	O	O, B-CV, B-PS, B-OG, B-TM
-28	##도	O	O	O, B-PS, B-LC, B-CV, B-OG
-29	탄도	B-AF	B-AF	B-AF, O, I-AF, B-TM, B-LC
-30	##미사	I-AF	I-AF	I-AF, O, B-AF, I-TM, I-OG
-31	##일	I-AF	I-AF	I-AF, O, I-TM, B-AF, I-CV
-32	사거리	O	B-QT	B-QT, O, B-TM, I-AF, B-TI
-33	연장	O	O	O, I-QT, I-TM, I-AF, I-DT
-34	##이	O	O	O, B-PS, B-OG, B-LC, B-CV
-35	필요	O	O	O, B-CV, B-OG, B-LC, B-TM
-36	##하	O	O	O, B-PS, B-OG, B-LC, B-CV
-37	##다고	O	O	O, B-CV, B-OG, I-OG, B-TM
-38	말	O	O	O, B-CV, B-TM, B-OG, I-OG
-39	##한다	O	O	O, B-CV, B-PS, I-OG, B-TM
-40	.	O	O	O, B-LC, B-PS, B-OG, B-CV
-41	[SEP]	O	O	O, B-LC, B-CV, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	하지	O	O
+2	##만	O	O
+3	이	B-PS	B-PS
+4	총리	B-CV	B-CV
+5	##는	O	O
+6	2012	B-DT	B-DT
+7	##년	I-DT	I-DT
+8	12	I-DT	I-DT
+9	##월	I-DT	I-DT
+10	##7	I-DT	I-DT
+11	##일	I-DT	I-DT
+12	충남	B-LC	B-LC
+13	천안시	B-LC	B-LC
+14	동남	B-LC	B-LC
+15	##구	I-LC	I-LC
+16	병	B-LC	B-LC
+17	##천	I-LC	I-LC
+18	##면	I-LC	I-LC
+19	아우	B-LC	B-AF
+20	##내	I-LC	I-AF
+21	##장	I-LC	I-AF
+22	##터	I-LC	I-LC
+23	##에	O	O
+24	##서	O	O
+25	박	B-PS	B-PS
+26	후보	B-CV	B-CV
+27	지지	O	O
+28	##를	O	O
+29	호소	O	O
+30	##하	O	O
+31	##며	O	O
+32	“	O	O
+33	박	B-PS	B-PS
+34	후보	B-CV	B-CV
+35	##는	O	O
+36	수도권	B-LC	B-LC
+37	2000	B-QT	B-QT
+38	##만	I-QT	I-QT
+39	##표	I-QT	I-QT
+40	##가	O	O
+41	날아가	O	O
+42	##는데도	O	O
+43	500	B-QT	B-QT
+44	##만	I-QT	I-QT
+45	##표	I-QT	I-QT
+46	##밖	O	O
+47	##에	O	O
+48	안	O	O
+49	되	O	O
+50	##는	O	O
+51	충청	B-LC	B-CV
+52	##인	O	I-CV
+53	##과	O	O
+54	##의	O	O
+55	약속	O	O
+56	##을	O	O
+57	지키	O	O
+58	##기	O	O
+59	위해	O	O
+60	정치	O	O
+61	##적	O	O
+62	생명	O	O
+63	##을	O	O
+64	걸	O	O
+65	##고	O	O
+66	세종시	B-LC	B-LC
+67	약속	O	O
+68	##을	O	O
+69	지켰	O	O
+70	##다	O	O
+71	.	O	O
+72	[SEP]	O	O

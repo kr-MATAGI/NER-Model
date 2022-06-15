@@ -1,57 +1,9 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	한	O	O	O, B-PS, B-QT, B-OG, B-LC
-2	교수	B-CV	B-CV	B-CV, O, I-CV, I-QT, B-QT
-3	##는	O	O	O, I-CV, I-QT, B-CV, I-EV
-4	""""	O	O	O, B-CV, B-LC, B-PS, B-OG
-5	그	O	O	O, B-PS, B-CV, B-OG, B-LC
-6	교수	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-TM
-7	##의	O	O	O, I-CV, I-AF, B-PS, I-EV
-8	처남	B-CV	B-CV	B-CV, O, B-PS, I-CV, B-TM
-9	##이	O	O	O, I-CV, B-PS, B-CV, I-AF
-10	4	B-DT	B-DT	B-DT, O, B-QT, I-DT, B-EV
-11	##년	I-DT	I-DT	I-DT, O, I-QT, B-DT, I-OG
-12	##제	O	I-DT	I-DT, O, I-QT, I-OG, I-PS
-13	사립대	O	O	O, B-OG, B-CV, B-FD, I-OG
-14	총장	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-PS
-15	##이	O	O	O, B-PS, I-CV, B-CV, I-EV
-16	##고	O	O	O, B-PS, B-CV, B-OG, B-LC
-17	장인	B-CV	B-CV	B-CV, O, I-CV, B-PS, B-OG
-18	##이	O	O	O, B-PS, I-CV, B-CV, B-OG
-19	한	O	O	O, B-OG, B-QT, B-LC, B-PS
-20	전문대	O	O	O, B-OG, I-OG, B-CV, B-FD
-21	이사장	B-CV	B-CV	B-CV, O, I-CV, B-QT, B-PS
-22	##이다	O	O	O, I-CV, B-PS, B-CV, I-QT
-23	.	O	O	O, B-PS, B-CV, B-LC, B-OG
-24	이	O	O	O, B-PS, B-OG, B-TM, B-LC
-25	때문	O	O	O, B-PS, B-CV, B-LC, I-AF
-26	##에	O	O	O, B-PS, B-LC, B-CV, B-OG
-27	교수	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-TM
-28	##들	O	O	O, I-CV, I-AF, I-OG, B-CV
-29	##도	O	O	O, B-PS, B-CV, B-LC, B-TM
-30	그	O	O	O, B-CV, B-PS, B-LC, B-TM
-31	##를	O	O	O, B-PS, B-CV, I-AF, B-TM
-32	무서워	O	O	O, B-PS, B-CV, B-TM, B-AM
-33	##하고	O	O	O, B-PS, B-CV, B-LC, I-PS
-34	학교	O	O	O, B-CV, B-OG, I-OG, B-AF
-35	##에서	O	O	O, B-PS, B-LC, B-CV, B-OG
-36	##도	O	O	O, B-PS, B-LC, B-CV, B-OG
-37	김	B-PS	B-PS	B-PS, O, I-PS, B-LC, B-OG
-38	교수	B-CV	B-CV	B-CV, O, I-PS, I-CV, B-TM
-39	##를	O	O	O, I-CV, I-AF, B-CV, I-OG
-40	쉽	O	O	O, B-TM, B-CV, B-LC, B-OG
-41	##게	O	O	O, B-LC, B-PS, B-CV, B-OG
-42	다룰	O	O	O, B-CV, B-TM, B-LC, B-AF
-43	수	O	O	O, B-PS, B-CV, B-OG, B-TM
-44	없	O	O	O, B-CV, B-TM, B-PS, B-LC
-45	##었	O	O	O, B-CV, B-TM, B-PS, B-OG
-46	##을	O	O	O, B-CV, B-PS, B-TM, B-OG
-47	것	O	O	O, B-CV, B-PS, B-TM, B-QT
-48	""""	O	O	O, B-CV, B-TM, I-QT, I-CV
-49	이라	O	O	O, B-CV, B-PS, B-TM, B-QT
-50	##고	O	O	O, B-CV, B-QT, B-TM, I-QT
-51	말	O	O	O, B-CV, B-TM, I-QT, B-QT
-52	##했	O	O	O, B-CV, B-PS, I-QT, B-TM
-53	##다	O	O	O, B-CV, B-TM, B-PS, I-OG
-54	.	O	O	O, B-PS, B-CV, B-LC, B-OG
-55	[SEP]	O	O	O, B-CV, B-PS, B-LC, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	남녀	O	O
+2	모두	O	O
+3	귀	B-AM	B-AM
+4	보이	O	O
+5	##는	O	O
+6	머리	O	B-AM
+7	[SEP]	O	O

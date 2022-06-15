@@ -1,62 +1,61 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	특히	O	O	O, B-AF, B-TM, B-OG, B-LC
-2	폴로	B-AF	B-AF	B-AF, O, B-PS, B-TM, I-AF
-3	모델	O	O	O, I-AF, I-EV, B-AF, B-CV
-4	##을	O	O	O, I-AF, I-EV, B-AF, B-PS
-5	베이스	O	O	O, B-AF, B-TM, B-LC, B-CV
-6	##로	O	O	O, B-AF, I-AF, B-LC, B-PS
-7	한	O	O	O, B-AF, B-LC, B-TM, B-PS
-8	신형	O	O	O, B-AF, B-TM, B-CV, B-LC
-9	크로스	B-AF	B-AF	B-AF, O, I-AF, B-TM, B-CV
-10	##폴	I-AF	I-AF	I-AF, O, I-TM, I-CV, B-AF
-11	##로	I-AF	I-AF	I-AF, O, I-TM, I-CV, B-AF
-12	##는	O	O	O, I-AF, I-TM, I-EV, I-CV
-13	디젤	B-MT	B-AF	B-AF, B-TM, O, B-MT, I-AF
-14	엔진	O	I-AF	I-AF, I-TM, O, B-TM, B-AF
-15	##의	O	O	O, I-AF, I-TM, I-EV, I-OG
-16	경우	O	O	O, B-LC, B-OG, B-TM, B-CV
-17	연료	O	O	O, B-MT, B-CV, B-TM, B-FD
-18	##소	O	O	O, B-MT, B-PS, I-CV, B-CV
-19	##비	O	O	O, B-MT, B-PS, B-LC, I-CV
-20	##효	O	O	O, B-LC, B-PS, B-TM, B-OG
-21	##율	O	O	O, B-LC, B-PS, B-TM, B-OG
-22	##이	O	O	O, B-PS, B-OG, B-LC, B-TM
-23	L	O	O	O, B-PS, B-LC, B-QT, B-OG
-24	##당	O	O	O, I-QT, I-OG, I-LC, I-PS
-25	23	B-QT	B-QT	B-QT, I-QT, O, B-DT, B-LC
-26	.	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-27	3	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-28	##k	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-29	##m	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-30	##에	O	O	O, I-QT, I-OG, B-CV, I-AF
-31	이르	O	O	O, B-LC, B-OG, B-PS, B-TM
-32	##고	O	O	O, B-LC, B-PS, I-OG, I-AF
-33	,	O	O	O, B-CV, B-LC, B-AF, B-TM
-34	이산화	B-MT	B-MT	B-MT, O, B-TM, B-AF, I-MT
-35	##탄	I-MT	I-MT	I-MT, B-MT, O, I-TM, I-AF
-36	##소	I-MT	I-MT	I-MT, O, I-TM, B-MT, I-AF
-37	배출	O	O	O, I-MT, B-MT, I-AF, I-TM
-38	##량	O	O	O, I-AF, B-LC, I-MT, I-OG
-39	##은	O	O	O, B-LC, B-TM, B-OG, B-CV
-40	km	O	O	O, B-QT, B-LC, B-OG, B-AF
-41	##당	O	O	O, I-QT, I-LC, I-OG, I-PS
-42	113	B-QT	B-QT	B-QT, I-QT, O, B-DT, B-LC
-43	##g	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-44	##으로	O	O	O, I-QT, B-LC, B-OG, B-PS
-45	유럽	B-LC	B-LC	B-LC, O, B-OG, B-AF, B-FD
-46	환경	O	O	O, B-CV, I-LC, I-OG, B-FD
-47	기준	O	O	O, B-CV, I-CV, B-PS, I-OG
-48	##인	O	O	O, B-PS, B-CV, I-CV, B-LC
-49	‘	O	O	O, B-LC, B-CV, B-QT, B-PS
-50	유로	B-CV	B-CV	B-CV, O, B-AF, I-CV, B-OG
-51	5	I-CV	B-QT	B-QT, I-QT, O, I-CV, I-AF
-52	##기	I-CV	I-QT	I-QT, O, I-CV, B-QT, I-OG
-53	##준	I-CV	I-QT	I-QT, O, I-OG, I-LC, I-CV
-54	’	O	O	O, I-QT, B-CV, I-CV, I-OG
-55	을	O	O	O, B-CV, B-LC, B-OG, B-PS
-56	만족	O	O	O, B-LC, B-CV, B-OG, B-TM
-57	##시	O	O	O, B-LC, B-PS, B-OG, I-OG
-58	##킨다	O	O	O, B-LC, B-CV, B-OG, B-PS
-59	.	O	O	O, B-LC, B-AF, B-PS, B-OG
-60	[SEP]	O	O	O, B-LC, B-AF, B-CV, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	특히	O	O
+2	폴로	B-AF	B-AF
+3	모델	O	O
+4	##을	O	O
+5	베이스	O	O
+6	##로	O	O
+7	한	O	O
+8	신형	O	O
+9	크로스	B-AF	B-AF
+10	##폴	I-AF	I-AF
+11	##로	I-AF	I-AF
+12	##는	O	O
+13	디젤	B-MT	B-TM
+14	엔진	O	I-TM
+15	##의	O	O
+16	경우	O	O
+17	연료	O	O
+18	##소	O	O
+19	##비	O	O
+20	##효	O	O
+21	##율	O	O
+22	##이	O	O
+23	L	O	O
+24	##당	O	O
+25	23	B-QT	B-QT
+26	.	I-QT	I-QT
+27	3	I-QT	I-QT
+28	##k	I-QT	I-QT
+29	##m	I-QT	I-QT
+30	##에	O	O
+31	이르	O	O
+32	##고	O	O
+33	,	O	O
+34	이산화	B-MT	B-MT
+35	##탄소	I-MT	I-MT
+36	배출	O	O
+37	##량	O	O
+38	##은	O	O
+39	km	O	O
+40	##당	O	O
+41	113	B-QT	B-QT
+42	##g	I-QT	I-QT
+43	##으로	O	O
+44	유럽	B-LC	B-LC
+45	환경	O	O
+46	기준	O	O
+47	##인	O	O
+48	‘	O	O
+49	유로	B-CV	B-CV
+50	5	I-CV	B-QT
+51	##기	I-CV	O
+52	##준	I-CV	O
+53	’	O	O
+54	을	O	O
+55	만족	O	O
+56	##시	O	O
+57	##킨다	O	O
+58	.	O	O
+59	[SEP]	O	O

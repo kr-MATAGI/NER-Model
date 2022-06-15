@@ -1,36 +1,31 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-EV, I-OG, B-CV, I-QT
-1	카	B-PS	B-LC	B-LC, B-OG, B-EV, O, B-PS
-2	##일	I-PS	I-LC	I-LC, I-OG, O, I-EV, I-PS
-3	##라	I-PS	I-LC	I-LC, I-OG, O, I-EV, I-PS
-4	##시	I-PS	I-LC	I-LC, I-OG, O, I-EV, I-PS
-5	##의	O	O	O, I-OG, I-EV, I-LC, I-AF
-6	캠페인	O	O	O, I-EV, B-EV, B-CV, B-OG
-7	##은	O	O	O, I-EV, B-OG, B-PS, B-LC
-8	140	B-QT	B-QT	B-QT, O, B-EV, B-DT, I-QT
-9	##여	I-QT	I-QT	I-QT, O, I-EV, I-LC, I-DT
-10	개국	I-QT	I-QT	I-QT, O, I-LC, I-EV, I-OG
-11	시민	O	O	O, B-CV, I-QT, B-OG, I-CV
-12	##단체	O	O	O, I-CV, I-OG, I-QT, B-CV
-13	##가	O	O	O, B-PS, I-OG, I-CV, B-OG
-14	참여	O	O	O, B-CV, B-OG, B-LC, B-TM
-15	##하	O	O	O, B-LC, B-OG, B-PS, B-CV
-16	##는	O	O	O, B-LC, B-OG, B-CV, B-PS
-17	국제	O	O	O, B-LC, B-OG, B-CV, B-EV
-18	조직	O	O	O, I-OG, I-EV, B-CV, I-CV
-19	'	O	O	O, B-LC, B-CV, B-PS, B-OG
-20	아동	B-OG	O	O, B-CV, B-TM, B-FD, B-TR
-21	노동	I-OG	O	O, I-CV, B-CV, I-TR, I-TM
-22	##을	I-OG	O	O, I-CV, I-OG, I-EV, I-TM
-23	근절	I-OG	O	O, I-OG, I-CV, I-EV, B-OG
-24	##하	I-OG	O	O, I-OG, B-OG, I-EV, B-PS
-25	##는	I-OG	O	O, I-OG, B-OG, I-EV, B-LC
-26	글로벌	I-OG	O	O, B-OG, I-OG, B-LC, B-EV
-27	행진	I-OG	O	O, I-OG, I-EV, B-OG, I-LC
-28	'	O	O	O, I-OG, I-EV, B-CV, B-OG
-29	으로	O	O	O, B-CV, B-OG, B-LC, B-PS
-30	확대	O	O	O, B-CV, B-LC, B-OG, B-EV
-31	##됐	O	O	O, I-EV, I-OG, B-OG, B-LC
-32	##다	O	O	O, B-OG, I-OG, B-CV, I-EV
-33	.	O	O	O, B-LC, B-OG, B-CV, I-OG
-34	[SEP]	O	O	O, B-CV, B-LC, B-OG, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	러시아	B-OG	B-LC
+2	##는	O	O
+3	소련	B-LC	B-LC
+4	시절	O	O
+5	##을	O	O
+6	포함	O	O
+7	##해	O	O
+8	올림픽	B-EV	B-EV
+9	피겨	B-CV	B-CV
+10	##에	O	O
+11	##서	O	O
+12	##만	O	O
+13	50	B-QT	B-QT
+14	##개	I-QT	I-QT
+15	##의	O	O
+16	메달	O	O
+17	(	O	O
+18	총	O	O
+19	메달	O	O
+20	수	O	O
+21	1	B-QT	B-QT
+22	##위	I-QT	I-QT
+23	)	O	O
+24	을	O	O
+25	획득	O	O
+26	##했	O	O
+27	##다	O	O
+28	.	O	O
+29	[SEP]	O	O

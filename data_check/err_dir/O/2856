@@ -1,57 +1,25 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	한	O	O	O, B-LC, B-OG, B-QT, B-PS
-2	금융	O	O	O, B-CV, B-OG, B-AF, I-OG
-3	##권	O	O	O, I-OG, I-CV, I-AF, I-LC
-4	관계자	B-CV	B-CV	B-CV, O, I-CV, B-AF, B-PS
-5	##는	O	O	O, I-CV, I-QT, I-OG, I-EV
-6	“	O	O	O, B-CV, B-LC, B-TM, B-OG
-7	주로	O	O	O, B-LC, B-OG, B-TM, B-CV
-8	자오	O	O	O, B-OG, B-LC, B-PS, B-AF
-9	##퉁	O	O	O, I-OG, I-LC, I-PS, I-AF
-10	(	O	O	O, I-OG, I-LC, I-AF, I-PS
-11	[UNK]	O	O	O, B-LC, B-OG, B-PS, I-OG
-12	通	O	O	O, B-LC, I-OG, B-OG, I-LC
-13	)	O	O	O, B-LC, I-OG, B-OG, B-PS
-14	은행	O	O	O, I-OG, B-OG, B-LC, I-LC
-15	##에서	O	O	O, B-PS, B-LC, I-OG, B-CV
-16	수수료	O	O	O, B-CV, B-LC, B-TM, B-PS
-17	##를	O	O	O, B-CV, B-PS, B-LC, B-OG
-18	받	O	O	O, B-CV, B-LC, B-PS, B-OG
-19	##고	O	O	O, B-CV, B-PS, B-LC, B-TM
-20	원화	O	B-CV	B-CV, O, B-AF, I-CV, B-MT
-21	##를	O	O	O, I-CV, B-CV, B-PS, I-AF
-22	위안	B-CV	B-CV	B-CV, O, B-AF, B-MT, B-OG
-23	##화	I-CV	I-CV	I-CV, O, I-AF, I-MT, I-OG
-24	##로	O	O	O, I-CV, I-AF, I-OG, B-CV
-25	환전	O	O	O, B-CV, B-TM, B-LC, B-OG
-26	##해	O	O	O, B-LC, B-PS, B-OG, B-CV
-27	주지	O	O	O, B-CV, B-PS, B-LC, B-OG
-28	##만	O	O	O, B-CV, B-LC, I-QT, B-QT
-29	,	O	O	O, B-LC, B-CV, B-OG, B-PS
-30	일부	O	O	O, B-LC, B-OG, B-QT, B-TM
-31	소형	O	O	O, B-OG, B-CV, B-LC, B-TM
-32	은행	O	O	O, I-OG, B-OG, B-CV, I-CV
-33	##들	O	O	O, I-OG, B-PS, I-AF, B-LC
-34	##은	O	O	O, B-LC, B-CV, B-PS, B-OG
-35	별도	O	O	O, B-CV, B-LC, B-TM, B-OG
-36	##의	O	O	O, B-PS, B-LC, B-OG, B-CV
-37	수수료	O	O	O, B-CV, B-LC, B-PS, B-TM
-38	##를	O	O	O, B-CV, B-PS, B-LC, B-OG
-39	받	O	O	O, B-CV, B-LC, B-PS, B-OG
-40	##고	O	O	O, B-LC, B-PS, B-CV, B-AF
-41	금고	O	O	O, B-TM, B-AF, B-CV, B-LC
-42	##에	O	O	O, B-CV, B-PS, I-AF, B-LC
-43	원화	O	B-CV	B-CV, O, B-AF, B-MT, B-PT
-44	##를	O	O	O, I-CV, I-AF, B-CV, I-OG
-45	보관	O	O	O, B-CV, B-TM, B-LC, B-QT
-46	##해	O	O	O, B-PS, B-LC, B-CV, I-AF
-47	주기	O	O	O, B-CV, B-PS, B-LC, B-AF
-48	##도	O	O	O, B-LC, B-PS, B-CV, B-OG
-49	한다	O	O	O, B-CV, B-PS, B-LC, B-OG
-50	”	O	O	O, B-CV, B-TM, B-LC, I-OG
-51	고	O	O	O, B-CV, B-TM, B-QT, B-LC
-52	전했	O	O	O, B-CV, B-QT, B-TM, B-LC
-53	##다	O	O	O, B-CV, I-QT, B-TM, I-OG
-54	.	O	O	O, B-LC, B-PS, B-CV, B-OG
-55	[SEP]	O	O	O, B-LC, B-CV, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	'	O	O
+2	폴리	O	O
+3	##페	O	O
+4	##서	O	O
+5	'	O	O
+6	논란	O	O
+7	##의	O	O
+8	핵심	O	O
+9	##인	O	O
+10	장관	B-CV	B-CV
+11	##이나	O	O
+12	청와대	B-AF	B-OG
+13	비서	O	B-CV
+14	##에	O	O
+15	대해선	O	O
+16	말	O	O
+17	##하	O	O
+18	##지	O	O
+19	않	O	O
+20	##았	O	O
+21	##다	O	O
+22	.	O	O
+23	[SEP]	O	O

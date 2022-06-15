@@ -1,57 +1,31 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-EV
-1	구체	O	O	O, B-LC, B-PS, B-CV, B-OG
-2	##적으로	O	O	O, B-PS, B-LC, B-OG, B-CV
-3	,	O	O	O, B-PS, B-LC, B-OG, B-CV
-4	김성수	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-5	##는	O	O	O, I-PS, I-OG, B-CV, I-DT
-6	1943	B-DT	O	O, B-DT, B-PS, B-LC, B-OG
-7	##년	I-DT	O	O, I-DT, B-PS, B-DT, B-LC
-8	8	I-DT	O	O, B-PS, B-DT, B-LC, I-DT
-9	##월	I-DT	O	O, B-PS, I-DT, B-DT, B-LC
-10	##5	I-DT	O	O, B-PS, B-DT, B-LC, B-OG
-11	##일치	I-DT	O	O, I-DT, B-PS, B-DT, I-OG
-12	<	O	O	O, B-OG, B-LC, B-PS, B-CV
-13	매일	B-OG	B-OG	B-OG, B-AF, O, I-OG, B-PS
-14	##신보	I-OG	I-OG	I-OG, I-AF, O, I-LC, B-OG
-15	>	O	O	O, I-OG, I-AF, I-EV, I-DT
-16	에	O	O	O, B-CV, B-OG, B-PS, B-LC
-17	기고	O	O	O, B-CV, B-PS, B-LC, B-OG
-18	##한	O	O	O, B-PS, B-LC, B-CV, B-OG
-19	글	O	O	O, B-CV, B-LC, B-PS, B-OG
-20	##에서	O	O	O, B-LC, B-PS, B-OG, B-CV
-21	“	O	O	O, B-LC, B-CV, B-PS, B-OG
-22	징병	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-TM
-23	##제	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-TM
-24	실시	O	O	O, I-CV, I-OG, I-EV, B-CV
-25	##로	O	O	O, B-PS, I-CV, B-LC, B-OG
-26	비로소	O	O	O, B-PS, B-LC, B-OG, B-CV
-27	조선인	B-CV	B-CV	B-CV, O, B-LC, B-OG, I-CV
-28	##이	O	O	O, I-CV, B-PS, I-OG, I-QT
-29	명실상부	O	O	O, B-CV, B-PS, B-LC, B-OG
-30	##한	O	O	O, B-PS, B-LC, B-OG, B-CV
-31	황	O	O	O, B-LC, B-CV, B-OG, B-PS
-32	##국	O	O	O, I-LC, I-CV, I-OG, I-PS
-33	##의	O	O	O, I-OG, B-PS, I-PS, I-CV
-34	신민	B-CV	O	O, B-CV, I-CV, B-LC, B-PS
-35	##으로	O	O	O, I-CV, B-PS, I-OG, I-LC
-36	되	O	O	O, B-PS, B-LC, B-CV, B-QT
-37	##었	O	O	O, B-PS, I-CV, B-LC, I-OG
-38	##다	O	O	O, B-PS, I-OG, B-LC, B-CV
-39	”	O	O	O, B-CV, B-LC, B-PS, B-OG
-40	고	O	O	O, B-CV, B-LC, B-PS, B-TM
-41	주장	O	O	O, B-CV, B-LC, B-PS, B-TM
-42	##하	O	O	O, B-PS, B-LC, B-CV, B-DT
-43	##는	O	O	O, B-PS, B-LC, B-CV, B-DT
-44	등	O	O	O, B-LC, B-PS, B-OG, B-CV
-45	여러	O	O	O, B-LC, B-PS, B-CV, B-QT
-46	차례	O	O	O, B-LC, B-PS, B-QT, B-CV
-47	학	B-CV	B-CV	B-CV, O, B-OG, I-CV, B-FD
-48	##병	I-CV	O	O, I-CV, B-CV, I-OG, I-EV
-49	지원	O	O	O, I-CV, I-OG, B-CV, B-PS
-50	##을	O	O	O, B-CV, B-PS, B-OG, B-LC
-51	독려	O	O	O, B-CV, B-LC, I-CV, B-PS
-52	##했	O	O	O, B-PS, B-LC, B-CV, B-OG
-53	##다	O	O	O, B-CV, B-LC, B-PS, B-OG
-54	.	O	O	O, B-LC, B-PS, B-CV, B-OG
-55	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	녹음	O	O
+2	##에	O	O
+3	사용	O	O
+4	##한	O	O
+5	바이올린	B-AF	B-AF
+6	##은	O	O
+7	바흐	B-PS	B-PS
+8	##가	O	O
+9	활동	O	O
+10	##하	O	O
+11	##던	O	O
+12	시절	O	O
+13	만들어진	O	O
+14	173	B-DT	B-DT
+15	##4	I-DT	I-DT
+16	##년	I-DT	I-DT
+17	##산	I-DT	O
+18	‘	O	O
+19	과	B-AF	B-AF
+20	##르	I-AF	I-AF
+21	##니	I-AF	I-AF
+22	##에	I-AF	I-AF
+23	##리	I-AF	I-AF
+24	델	I-AF	I-AF
+25	제수	I-AF	I-AF
+26	’	O	O
+27	다	O	O
+28	.	O	O
+29	[SEP]	O	O

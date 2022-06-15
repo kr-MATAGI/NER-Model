@@ -1,87 +1,55 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	김성	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
-2	##칠	I-PS	I-PS	I-PS, O, I-OG, I-LC, I-QT
-3	서울대	B-OG	B-OG	B-OG, B-LC, B-AF, O, I-OG
-4	사학	O	O	O, B-CV, B-QT, I-OG, B-TM
-5	##과	O	O	O, B-QT, I-QT, I-OG, B-TM
-6	교수	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-OG
-7	##는	O	O	O, I-CV, B-CV, I-QT, I-OG
-8	회고록	O	O	O, B-FD, B-CV, B-AF, B-TM
-9	##에서	O	O	O, I-CV, I-AF, I-FD, I-EV
-10	“	O	O	O, B-LC, B-CV, B-PS, B-OG
-11	용산	B-LC	B-LC	B-LC, O, B-AF, B-OG, B-PS
-12	##과	O	O	O, I-LC, I-AF, B-CV, B-LC
-13	살	B-AM	O	O, B-AM, B-LC, B-TM, B-PT
-14	##을	O	O	O, B-PS, B-CV, B-LC, I-AF
-15	맞대	O	O	O, B-LC, B-CV, B-TM, B-PS
-16	##고	O	O	O, B-LC, B-PS, B-AM, B-TM
-17	있	O	O	O, B-PS, B-LC, B-CV, B-TM
-18	##는	O	O	O, B-LC, B-PS, B-CV, B-OG
-19	해방	B-LC	B-LC	B-LC, O, B-OG, B-AF, B-PS
-20	##촌	I-LC	I-LC	I-LC, O, I-OG, I-AF, I-PS
-21	사람	O	O	O, I-LC, B-CV, I-AF, I-CV
-22	##들	O	O	O, I-LC, I-AF, I-CV, B-PS
-23	수천	O	O	O, B-PS, B-LC, B-CV, B-AM
-24	##명	O	O	O, B-PS, B-AM, I-LC, B-LC
-25	##이	O	O	O, B-PS, B-LC, B-CV, B-AM
-26	맹	O	O	O, B-CV, B-AF, B-TM, B-AM
-27	##폭	O	O	O, I-CV, I-AF, I-AM, I-TM
-28	##을	O	O	O, I-CV, I-AF, B-PS, I-TM
-29	입	O	O	O, B-AM, B-CV, I-AF, I-CV
-30	##고	O	O	O, B-PS, I-AF, I-CV, B-LC
-31	무고	O	O	O, B-CV, B-LC, B-TM, B-PS
-32	##하	O	O	O, B-PS, B-LC, I-LC, I-AF
-33	##게	O	O	O, B-LC, B-PS, I-LC, I-AF
-34	죽	O	O	O, B-CV, B-QT, B-LC, B-TM
-35	##었	O	O	O, B-CV, B-PS, I-AF, B-LC
-36	##다	O	O	O, B-CV, B-LC, B-PS, I-AF
-37	”	O	O	O, B-CV, B-LC, B-OG, B-TM
-38	고	O	O	O, B-CV, B-LC, B-OG, B-TM
-39	적	O	O	O, B-CV, B-LC, B-OG, B-PS
-40	##었	O	O	O, B-CV, I-CV, B-LC, B-PS
-41	##고	O	O	O, B-CV, B-LC, B-PS, B-OG
-42	,	O	O	O, B-CV, B-LC, B-OG, B-PS
-43	소설가	B-CV	B-CV	B-CV, O, B-TM, B-OG, I-CV
-44	이범	B-PS	B-PS	B-PS, O, I-PS, B-OG, B-AF
-45	##선	I-PS	I-PS	I-PS, O, I-OG, I-LC, I-AF
-46	##은	O	O	O, I-PS, B-CV, I-OG, I-AF
-47	작품	O	O	O, B-FD, B-CV, B-LC, B-AF
-48	<	O	O	O, B-LC, B-CV, B-PS, B-OG
-49	오	B-AF	B-AF	B-AF, B-PS, B-LC, O, I-AF
-50	##발	I-AF	I-AF	I-AF, I-PS, O, I-LC, B-AF
-51	##탄	I-AF	I-AF	I-AF, O, I-PS, I-LC, I-OG
-52	>	O	O	O, I-AF, I-EV, B-CV, I-OG
-53	(	O	O	O, B-CV, B-LC, B-OG, I-AF
-54	1959	B-DT	B-DT	B-DT, O, B-QT, I-DT, B-EV
-55	##년	I-DT	I-DT	I-DT, O, I-QT, B-DT, I-PS
-56	)	O	O	O, I-DT, B-CV, I-EV, B-LC
-57	을	O	O	O, B-LC, B-CV, B-OG, B-PS
-58	통해	O	O	O, B-LC, B-CV, B-OG, B-PS
-59	용산	B-LC	B-EV	B-EV, B-LC, B-AF, O, B-PS
-60	폭격	O	I-EV	I-EV, O, I-AF, I-LC, B-EV
-61	##의	O	O	O, I-EV, I-AF, I-LC, I-OG
-62	충격	O	O	O, I-EV, B-LC, B-CV, B-PS
-63	##을	O	O	O, B-CV, B-LC, B-PS, B-OG
-64	이기	O	O	O, B-CV, B-PS, B-LC, B-TM
-65	##지	O	O	O, B-PS, B-CV, B-LC, B-TM
-66	못하	O	O	O, B-CV, B-PS, B-LC, B-TM
-67	##고	O	O	O, B-CV, B-PS, B-LC, B-TM
-68	정신	O	B-CV	B-CV, O, B-TM, B-AF, B-FD
-69	##이상	O	I-CV	I-CV, O, I-TM, B-CV, I-AM
-70	##자	O	I-CV	I-CV, O, I-TM, B-CV, I-TR
-71	##가	O	O	O, I-CV, B-PS, I-TM, I-QT
-72	된	O	O	O, B-CV, B-LC, B-QT, B-PS
-73	주인공	B-CV	B-CV	B-CV, O, I-CV, B-AF, B-TM
-74	송	B-PS	B-PS	B-PS, O, I-PS, B-OG, B-LC
-75	##철	I-PS	I-PS	I-PS, O, I-OG, I-LC, B-PS
-76	##호	I-PS	I-PS	I-PS, O, I-LC, I-OG, B-PS
-77	어머니	B-CV	B-CV	B-CV, O, I-PS, B-TM, B-AF
-78	##의	O	O	O, I-CV, B-CV, I-AF, I-EV
-79	비극	O	O	O, B-CV, B-TM, B-LC, B-FD
-80	##을	O	O	O, B-CV, B-OG, B-LC, B-PS
-81	고발	O	O	O, B-CV, B-LC, B-TM, B-FD
-82	##했	O	O	O, B-CV, B-LC, B-PS, B-OG
-83	##다	O	O	O, B-CV, B-LC, B-OG, I-OG
-84	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-85	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-FD
+	text	label	preds
+0	[CLS]	O	O
+1	'	O	O
+2	조선	B-CV	B-CV
+3	##세	I-CV	I-CV
+4	##법	I-CV	I-CV
+5	'	O	O
+6	은	O	O
+7	조선	B-DT	B-DT
+8	##시대	I-DT	I-DT
+9	##의	O	O
+10	무예	O	O
+11	##훈련	O	O
+12	교	O	O
+13	##범	O	O
+14	##인	O	O
+15	무예	B-AF	O
+16	##도	I-AF	O
+17	##보	I-AF	O
+18	##통	I-AF	O
+19	##지	I-AF	O
+20	##에	O	O
+21	나오	O	O
+22	##는	O	O
+23	본국	O	O
+24	##검	O	O
+25	##법	O	O
+26	##보	O	O
+27	##다	O	O
+28	앞서	O	O
+29	##는	O	O
+30	우리	O	O
+31	##나라	O	O
+32	##에	O	O
+33	##서	O	O
+34	가장	O	O
+35	오래	O	O
+36	##된	O	O
+37	검	O	O
+38	##법	O	O
+39	##으로	O	O
+40	,	O	O
+41	전후	O	B-TM
+42	##좌	B-TM	I-TM
+43	##우	B-TM	I-TM
+44	##의	O	O
+45	공격	O	O
+46	자세	O	O
+47	##가	O	O
+48	묘사	O	O
+49	##돼	O	O
+50	있	O	O
+51	##다	O	O
+52	.	O	O
+53	[SEP]	O	O

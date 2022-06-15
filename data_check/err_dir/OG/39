@@ -1,26 +1,60 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	시스템	O	O	O, B-TM, B-CV, B-EV, B-AF
-2	오류	O	O	O, B-CV, B-TM, I-TM, I-CV
-3	##라면	O	O	O, I-TM, I-CV, I-EV, I-AF
-4	3	B-QT	B-QT	B-QT, O, B-EV, B-DT, I-QT
-5	##개	I-QT	I-QT	I-QT, O, I-EV, I-DT, I-PS
-6	소위원회	B-OG	O	O, B-OG, B-CV, B-EV, I-QT
-7	관리자	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-TM
-8	페이지	O	O	O, I-CV, B-TM, I-TM, I-EV
-9	##들	O	O	O, B-CV, I-CV, I-AF, I-TM
-10	##도	O	O	O, B-CV, B-LC, B-TM, B-OG
-11	열리	O	O	O, B-TM, B-CV, B-QT, B-OG
-12	##지	O	O	O, B-CV, B-TM, B-OG, B-LC
-13	않	O	O	O, B-CV, B-TM, B-LC, B-OG
-14	##아	O	O	O, B-CV, B-LC, B-OG, B-TM
-15	##야	O	O	O, B-CV, B-TM, B-QT, B-LC
-16	하	O	O	O, B-CV, B-TM, B-OG, B-QT
-17	##는데	O	O	O, B-CV, B-TM, B-OG, B-QT
-18	그렇	O	O	O, B-CV, B-TM, B-OG, B-QT
-19	##지	O	O	O, B-CV, B-LC, B-OG, B-TM
-20	않	O	O	O, B-CV, I-OG, I-EV, B-TM
-21	##았	O	O	O, B-CV, B-TM, B-QT, B-OG
-22	##다	O	O	O, B-CV, B-TM, I-OG, B-OG
-23	.	O	O	O, B-CV, B-LC, B-TM, B-OG
-24	[SEP]	O	O	O, B-CV, B-TM, B-LC, I-EV
+	text	label	preds
+0	[CLS]	O	O
+1	조현	B-PS	B-PS
+2	##오	I-PS	I-PS
+3	경찰청	B-CV	B-CV
+4	##장	I-CV	I-CV
+5	내정자	B-CV	B-CV
+6	##가	O	O
+7	올해	B-DT	B-DT
+8	3	I-DT	I-DT
+9	##월	I-DT	I-DT
+10	말	I-DT	I-DT
+11	서울	B-CV	B-CV
+12	##지방	I-CV	I-CV
+13	##경찰	I-CV	I-CV
+14	##청	I-CV	I-CV
+15	##장	I-CV	I-CV
+16	자격	O	O
+17	##으로	O	O
+18	경찰	B-OG	O
+19	##간	O	O
+20	##부들	O	O
+21	##을	O	O
+22	대상	O	O
+23	##으로	O	O
+24	교육	O	O
+25	##을	O	O
+26	하	O	O
+27	##는	O	O
+28	과정	O	O
+29	##에	O	O
+30	##서	O	O
+31	노무현	B-PS	B-PS
+32	전	O	O
+33	대통령	B-CV	B-CV
+34	##이	O	O
+35	차명	O	O
+36	##계	O	O
+37	##좌	O	O
+38	##가	O	O
+39	발견	O	O
+40	##돼	O	O
+41	자살	O	O
+42	##했	O	O
+43	##다는	O	O
+44	취지	O	O
+45	##의	O	O
+46	발언	O	O
+47	##을	O	O
+48	한	O	O
+49	사실	O	O
+50	##이	O	O
+51	13	B-DT	B-DT
+52	##일	I-DT	I-DT
+53	뒤늦	O	O
+54	##게	O	O
+55	알려졌	O	O
+56	##다	O	O
+57	.	O	O
+58	[SEP]	O	O

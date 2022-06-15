@@ -1,21 +1,37 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	복지	O	O	O, B-CV, B-TM, B-FD, B-OG
-2	##관	O	O	O, I-CV, I-OG, I-AF, B-CV
-3	##이	O	O	O, B-PS, B-CV, I-AF, B-OG
-4	##든	O	O	O, B-LC, B-PS, B-CV, B-OG
-5	상담	O	O	O, B-CV, B-TM, B-FD, B-AF
-6	##센터	O	O	O, I-CV, I-AF, I-OG, B-CV
-7	##든	O	O	O, B-PS, B-LC, B-TM, B-CV
-8	소아	B-FD	B-FD	B-FD, B-TM, B-TR, B-CV, B-AF
-9	##정신	I-FD	I-FD	I-FD, I-TM, I-TR, I-CV, I-QT
-10	##과	I-FD	I-TM	I-TM, I-FD, I-TR, I-CV, O
-11	##든	O	O	O, I-TM, I-QT, I-OG, I-CV
-12	가까이	O	O	O, B-CV, B-TM, B-LC, B-QT
-13	있	O	O	O, B-CV, B-TM, B-PS, B-LC
-14	##는	O	O	O, B-CV, B-TM, B-LC, B-PS
-15	데	O	O	O, B-PS, B-CV, B-LC, B-TM
-16	##서	O	O	O, B-CV, B-PS, B-TM, B-LC
-17	도움	O	O	O, B-CV, B-TM, B-QT, B-LC
-18	##을	O	O	O, B-CV, I-CV, I-AF, B-PS
-19	[SEP]	O	O	O, B-CV, B-LC, B-TM, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	86	B-DT	B-DT
+2	##년	I-DT	I-DT
+3	경북	B-OG	B-OG
+4	##대	I-OG	I-OG
+5	교수	B-CV	B-CV
+6	##로	O	O
+7	오	O	O
+8	##던	O	O
+9	즈음	O	O
+10	'	O	O
+11	신문	O	B-AF
+12	##의	O	I-AF
+13	기호	B-FD	I-AF
+14	##학	I-FD	I-AF
+15	'	O	O
+16	에	O	O
+17	끌	O	O
+18	##렸	O	O
+19	##으며	O	O
+20	,	O	O
+21	그때	O	O
+22	##부터	O	O
+23	기호	B-FD	B-FD
+24	##학	I-FD	I-FD
+25	##에	O	O
+26	대한	O	O
+27	관심	O	O
+28	##이	O	O
+29	책	O	O
+30	발간	O	O
+31	##으로	O	O
+32	이어졌	O	O
+33	##다	O	O
+34	.	O	O
+35	[SEP]	O	O

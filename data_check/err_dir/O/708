@@ -1,53 +1,56 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-EV, B-CV, I-OG, I-CV
-1	영화제	O	O	O, B-EV, I-EV, B-CV, B-LC
-2	##에	O	O	O, I-EV, B-EV, B-CV, B-PS
-3	##는	O	O	O, I-EV, B-LC, B-OG, B-CV
-4	전	O	O	O, B-LC, B-PS, B-OG, B-EV
-5	세계	O	O	O, B-LC, I-LC, I-EV, B-PS
-6	33	B-QT	B-QT	B-QT, O, B-EV, I-QT, B-LC
-7	##개	I-QT	I-QT	I-QT, O, I-EV, I-LC, I-DT
-8	##국	I-QT	I-QT	I-QT, O, I-EV, I-LC, I-OG
-9	##에서	O	O	O, I-QT, I-EV, B-CV, B-LC
-10	출품	O	O	O, B-CV, B-LC, B-OG, B-TM
-11	##된	O	O	O, B-OG, B-LC, B-CV, B-PS
-12	61	B-QT	B-QT	B-QT, O, I-QT, B-EV, B-DT
-13	##편	I-QT	I-QT	I-QT, O, I-EV, I-LC, I-DT
-14	##의	O	O	O, I-QT, I-EV, B-CV, I-OG
-15	다큐멘터리	B-FD	B-FD	B-FD, O, B-CV, I-FD, B-EV
-16	영화	I-FD	I-FD	I-FD, O, B-FD, I-CV, I-OG
-17	##가	O	O	O, I-FD, I-OG, I-EV, I-QT
-18	'	O	O	O, B-LC, B-CV, B-OG, B-EV
-19	국제	O	O	O, B-EV, B-CV, B-LC, B-OG
-20	##경	O	O	O, I-EV, I-OG, I-CV, I-TM
-21	##쟁	O	O	O, I-EV, I-OG, I-CV, I-TM
-22	##부	O	O	O, I-EV, I-OG, I-CV, I-TM
-23	##문	O	O	O, I-EV, I-OG, I-CV, I-AF
-24	'	O	O	O, I-EV, I-OG, I-QT, I-DT
-25	과	O	O	O, B-OG, B-CV, B-LC, B-EV
-26	'	O	O	O, B-LC, B-EV, B-CV, B-DT
-27	DMZ	B-LC	B-EV	B-EV, B-LC, B-AF, O, B-OG
-28	##초	O	I-EV	I-EV, O, I-AF, I-OG, I-LC
-29	##이스	O	I-EV	I-EV, O, I-AF, I-OG, I-LC
-30	'	O	O	O, I-EV, I-AF, I-OG, I-QT
-31	'	O	O	O, B-LC, B-CV, B-OG, B-EV
-32	글로벌	O	O	O, B-EV, B-LC, B-AF, B-OG
-33	비전	O	O	O, I-EV, I-TM, I-AF, I-OG
-34	'	O	O	O, I-EV, I-OG, I-AF, I-TM
-35	'	O	O	O, B-LC, B-EV, B-OG, B-CV
-36	한국	B-LC	B-LC	B-LC, B-EV, B-OG, B-AF, O
-37	스펙트럼	O	O	O, I-EV, I-AF, I-LC, I-OG
-38	'	O	O	O, I-EV, I-OG, I-AF, I-LC
-39	'	O	O	O, B-LC, B-CV, B-OG, B-EV
-40	스페셜	O	B-EV	B-EV, O, B-AF, B-LC, B-TM
-41	포커스	O	I-EV	I-EV, O, I-AF, I-TM, I-OG
-42	'	O	O	O, I-EV, I-OG, I-AF, I-QT
-43	등	O	O	O, B-LC, B-CV, B-OG, B-EV
-44	8	B-QT	B-QT	B-QT, B-EV, O, B-TM, I-QT
-45	##개	I-QT	I-QT	I-QT, I-EV, O, I-LC, I-TM
-46	섹션	O	O	O, I-QT, I-EV, I-OG, B-EV
-47	##을	O	O	O, I-EV, B-CV, I-QT, B-OG
-48	통해	O	O	O, B-LC, B-OG, B-CV, B-TM
-49	선보인다	O	O	O, B-EV, B-CV, I-EV, B-LC
-50	.	O	O	O, B-LC, I-EV, B-CV, B-EV
-51	[SEP]	O	O	O, B-LC, B-CV, I-EV, B-EV
+	text	label	preds
+0	[CLS]	O	O
+1	작가	O	B-CV
+2	##의	O	O
+3	책	O	O
+4	##을	O	O
+5	여러	O	O
+6	권	O	O
+7	번역	O	O
+8	##한	O	O
+9	정영	B-PS	B-PS
+10	##목	I-PS	I-PS
+11	##씨	O	O
+12	##는	O	O
+13	작가	O	B-CV
+14	##의	O	O
+15	글	O	O
+16	##이	O	O
+17	이번	O	O
+18	##에도	O	O
+19	“	O	O
+20	문명	O	O
+21	##과	O	O
+22	사회	O	O
+23	##에	O	O
+24	관한	O	O
+25	깊	O	O
+26	##고	O	O
+27	은근	O	O
+28	##한	O	O
+29	통찰	O	O
+30	,	O	O
+31	그러나	O	O
+32	결코	O	O
+33	개인	O	O
+34	감정	O	O
+35	##의	O	O
+36	미세	O	O
+37	##한	O	O
+38	움직임	O	O
+39	##과	O	O
+40	따로	O	O
+41	놀	O	O
+42	##지	O	O
+43	않	O	O
+44	##는	O	O
+45	통찰	O	O
+46	##들	O	O
+47	##에	O	O
+48	이른다	O	O
+49	”	O	O
+50	고	O	O
+51	평했	O	O
+52	##다	O	O
+53	.	O	O
+54	[SEP]	O	O

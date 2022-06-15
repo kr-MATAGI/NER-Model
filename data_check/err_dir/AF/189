@@ -1,7 +1,59 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-AF
-1	열	B-AF	O	O, B-AF, B-QT, B-PS, B-CV
-2	##녀	I-AF	I-QT	I-QT, O, I-AF, I-PS, I-CV
-3	춘향	I-AF	B-PS	B-PS, I-PS, I-AF, B-AF, B-LC
-4	?	O	O	O, I-PS, I-AF, I-QT, B-CV
-5	[SEP]	O	O	O, B-CV, I-AF, B-OG, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	김정	B-PS	B-PS
+2	##주	I-PS	I-PS
+3	엔	B-OG	B-OG
+4	##엑스	I-OG	I-OG
+5	##씨	I-OG	I-OG
+6	(	O	O
+7	넥슨	B-OG	B-OG
+8	##지	I-OG	I-OG
+9	##주	I-OG	I-OG
+10	##회사	I-OG	I-OG
+11	)	O	O
+12	대표	B-CV	B-CV
+13	##가	O	O
+14	세운	O	O
+15	넥슨	B-OG	B-OG
+16	##코	I-OG	I-OG
+17	##리아	I-OG	I-OG
+18	##가	O	O
+19	수십억	O	O
+20	##원	O	O
+21	##의	O	O
+22	손해	O	O
+23	##를	O	O
+24	무릅쓰	O	O
+25	##고	O	O
+26	우	B-PS	B-PS
+27	##병	I-PS	I-PS
+28	##우	I-PS	I-PS
+29	청와대	B-AF	B-OG
+30	민정	B-CV	B-CV
+31	##수	I-CV	I-CV
+32	##석	I-CV	I-CV
+33	처	O	B-CV
+34	##가	O	I-CV
+35	소유	O	O
+36	##의	O	O
+37	1300	B-QT	B-QT
+38	##억	I-QT	I-QT
+39	##원	I-QT	I-QT
+40	##대	I-QT	I-QT
+41	부동산	O	O
+42	##을	O	O
+43	샀	O	O
+44	##다가	O	O
+45	1	B-DT	B-DT
+46	##년	I-DT	I-DT
+47	##여	I-DT	I-DT
+48	만	I-DT	I-DT
+49	##에	O	O
+50	처분	O	O
+51	##한	O	O
+52	것	O	O
+53	##으로	O	O
+54	드러났	O	O
+55	##다	O	O
+56	.	O	O
+57	[SEP]	O	O

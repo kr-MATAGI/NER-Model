@@ -1,37 +1,23 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-EV
-1	레드	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-2	##냅	I-PS	I-PS	I-PS, O, B-PS, I-OG, I-LC
-3	감독	B-CV	B-CV	B-CV, O, I-PS, I-CV, B-OG
-4	##은	O	O	O, I-CV, B-CV, I-EV, I-OG
-5	지난	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-QT
-6	6	I-DT	I-DT	I-DT, O, B-DT, I-PS, I-EV
-7	##일	I-DT	I-DT	I-DT, O, B-DT, I-PS, I-EV
-8	토트넘	B-EV	B-EV	B-EV, B-LC, O, B-AF, B-OG
-9	##전	I-EV	I-EV	I-EV, O, I-AF, B-EV, I-DT
-10	(	O	O	O, I-EV, I-AF, I-OG, I-DT
-11	0	B-QT	B-QT	B-QT, O, I-QT, B-EV, B-DT
-12	##대	I-QT	I-QT	I-QT, I-EV, O, B-QT, I-LC
-13	##0	I-QT	I-QT	I-QT, O, B-QT, I-EV, I-LC
-14	무승부	O	O	O, I-QT, B-TM, B-CV, B-OG
-15	)	O	O	O, B-CV, I-EV, B-OG, I-OG
-16	등	O	O	O, B-OG, B-LC, B-CV, B-PS
-17	강팀	O	O	O, B-CV, B-OG, B-EV, B-AF
-18	##을	O	O	O, B-CV, I-OG, I-EV, B-OG
-19	상대	O	O	O, B-CV, B-OG, B-LC, B-EV
-20	##할	O	O	O, B-PS, I-OG, B-LC, I-EV
-21	때	O	O	O, B-PS, B-CV, B-LC, B-OG
-22	박지성	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-23	##을	O	O	O, I-PS, B-CV, I-OG, I-AF
-24	수비	O	B-CV	B-CV, O, B-TM, B-AF, I-CV
-25	##형	O	O	O, I-CV, I-TM, I-AF, B-CV
-26	미드필더	B-CV	B-CV	B-CV, I-CV, O, I-TM, I-AF
-27	##로	O	O	O, I-CV, B-CV, I-TM, I-QT
-28	기용	O	O	O, B-CV, B-TM, B-LC, B-PS
-29	##해	O	O	O, B-LC, B-PS, I-CV, B-OG
-30	효과	O	O	O, B-CV, B-LC, B-TM, B-OG
-31	##를	O	O	O, B-CV, I-OG, B-OG, I-CV
-32	봤	O	O	O, B-CV, B-OG, B-LC, I-OG
-33	##다	O	O	O, B-CV, I-OG, B-LC, B-TM
-34	.	O	O	O, B-LC, B-OG, B-CV, B-PS
-35	[SEP]	O	O	O, B-LC, B-CV, B-OG, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	당시	O	O
+2	두	B-PS	B-QT
+3	전	O	I-QT
+4	대통령	B-CV	I-QT
+5	##의	O	O
+6	뇌물	O	O
+7	액수	O	O
+8	##에	O	O
+9	대한	O	O
+10	조사	O	O
+11	##는	O	O
+12	그야말로	O	O
+13	주먹	O	O
+14	##구	O	O
+15	##구	O	O
+16	##식	O	O
+17	##이	O	O
+18	##었	O	O
+19	##다	O	O
+20	.	O	O
+21	[SEP]	O	O

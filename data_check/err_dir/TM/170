@@ -1,46 +1,13 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-EV, I-OG, I-AF
-1	앞선	O	O	O, B-LC, B-TM, B-CV, B-PS
-2	시리즈	O	O	O, B-CV, B-TM, B-LC, B-AF
-3	##의	O	O	O, B-PS, B-LC, B-CV, B-OG
-4	기능	O	O	O, B-TM, B-CV, B-LC, B-PS
-5	##성	O	O	O, I-CV, I-TM, I-LC, I-PS
-6	##을	O	O	O, B-LC, B-PS, B-CV, B-OG
-7	한	O	B-QT	B-QT, O, I-QT, B-DT, B-TM
-8	단계	O	I-QT	I-QT, O, I-LC, I-PS, I-TM
-9	업그레이드	O	O	O, I-QT, B-PS, B-CV, B-LC
-10	##한	O	O	O, B-PS, B-LC, B-AF, B-OG
-11	W	B-AF	B-AF	B-AF, O, B-TM, B-OG, B-PS
-12	##파	I-AF	I-AF	I-AF, B-AF, O, I-OG, I-TM
-13	##워	I-AF	I-AF	I-AF, O, B-AF, I-TM, I-OG
-14	##7	I-AF	I-AF	I-AF, O, I-TM, B-AF, I-OG
-15	시리즈	O	O	O, I-AF, I-EV, I-TM, B-AF
-16	##는	O	O	O, I-AF, I-EV, B-LC, B-PS
-17	일체	O	O	O, B-TM, B-LC, B-CV, B-AF
-18	##형	O	O	O, I-TM, I-AF, B-TM, I-LC
-19	무	O	O	O, B-TM, B-AF, B-CV, B-MT
-20	##브	O	O	O, I-TM, I-AF, I-CV, I-MT
-21	프레임	O	O	O, I-TM, I-AF, I-CV, I-TR
-22	##이	O	O	O, B-PS, I-AF, I-TM, B-LC
-23	올바른	O	O	O, B-CV, B-LC, B-TM, B-AF
-24	자세	O	O	O, B-CV, B-TM, B-LC, B-AF
-25	##의	O	O	O, B-PS, B-LC, B-CV, B-TM
-26	11	B-TM	B-QT	B-QT, O, B-TM, B-EV, B-CV
-27	##자	I-TM	I-QT	I-QT, O, I-EV, I-TM, I-AF
-28	워킹	O	O	O, B-CV, I-QT, B-TM, I-TM
-29	##을	O	O	O, I-AF, I-CV, B-CV, B-PS
-30	유도	O	O	O, B-CV, B-TM, B-LC, B-OG
-31	##하고	O	O	O, B-LC, B-CV, B-PS, B-TM
-32	반발	O	O	O, B-TM, B-CV, B-LC, B-AF
-33	##탄	O	O	O, B-PS, B-LC, I-AF, B-MT
-34	##성	O	O	O, B-LC, B-PS, I-AF, I-PS
-35	##을	O	O	O, B-CV, B-LC, B-PS, B-TM
-36	높여	O	O	O, B-LC, B-CV, B-PS, B-OG
-37	안정	O	O	O, B-TM, B-LC, B-CV, B-PS
-38	##감	O	O	O, B-PS, B-LC, I-PS, I-LC
-39	##을	O	O	O, B-CV, B-LC, B-PS, B-OG
-40	더	O	O	O, B-LC, B-CV, B-TM, B-QT
-41	키웠	O	O	O, B-LC, B-CV, B-PS, I-QT
-42	##다	O	O	O, B-CV, B-LC, B-TM, B-PS
-43	.	O	O	O, B-LC, B-PS, B-CV, B-AF
-44	[SEP]	O	O	O, B-LC, B-CV, B-PS, B-AF
+	text	label	preds
+0	[CLS]	O	O
+1	인	B-TM	B-TR
+2	##바	I-TM	I-TR
+3	##디	I-TM	I-TR
+4	##인	O	O
+5	##데	O	O
+6	씨티	B-TR	B-TR
+7	##를	O	O
+8	찍	O	O
+9	##어	O	O
+10	?	O	O
+11	[SEP]	O	O

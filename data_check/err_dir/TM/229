@@ -1,40 +1,49 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	첫	O	O	O, B-QT, B-TM, B-PS, B-CV
-2	추정	B-CV	B-CV	B-CV, O, I-QT, I-CV, B-QT
-3	##환	I-CV	I-CV	I-CV, B-CV, O, I-QT, I-TM
-4	##자	I-CV	I-CV	I-CV, O, B-CV, I-QT, I-OG
-5	##가	O	O	O, I-CV, B-PS, B-CV, I-QT
-6	머문	O	O	O, B-CV, B-LC, B-AF, B-TM
-7	종교	O	O	O, B-TM, B-CV, B-FD, B-AF
-8	##시설	O	O	O, I-AF, I-OG, I-CV, I-LC
-9	##에	O	O	O, B-CV, I-AF, B-PS, I-OG
-10	##는	O	O	O, B-CV, B-TM, B-OG, B-QT
-11	40	B-QT	B-QT	B-QT, O, I-QT, B-EV, B-DT
-12	##명	I-QT	I-QT	I-QT, O, B-QT, I-EV, I-LC
-13	##이	O	O	O, I-QT, B-PS, B-CV, B-OG
-14	함께	O	O	O, B-TM, B-CV, B-QT, B-PS
-15	살	O	O	O, B-TM, B-CV, B-LC, B-PS
-16	##고	O	O	O, B-CV, B-TM, B-PS, B-LC
-17	있	O	O	O, B-CV, B-PS, B-TM, B-LC
-18	##어	O	O	O, B-LC, B-PS, B-TM, B-QT
-19	,	O	O	O, B-CV, B-LC, B-PS, B-TM
-20	2	B-QT	B-QT	B-QT, O, B-TM, B-EV, I-QT
-21	##차	I-QT	I-QT	I-QT, O, I-TM, I-EV, B-QT
-22	감염	B-TM	O	O, B-TM, I-TM, I-QT, B-CV
-23	##이	O	O	O, I-TM, B-PS, I-QT, B-CV
-24	된	O	O	O, B-CV, B-PS, B-QT, B-TM
-25	환자	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-QT
-26	##가	O	O	O, I-CV, I-QT, I-OG, I-AF
-27	더	O	O	O, B-QT, B-TM, B-CV, B-PS
-28	늘어나	O	O	O, B-QT, B-CV, B-PS, B-TM
-29	##는	O	O	O, B-PS, B-CV, B-TM, B-QT
-30	것	O	O	O, B-PS, B-CV, B-LC, B-QT
-31	아니	O	O	O, B-PS, B-CV, B-QT, I-QT
-32	##냐	O	O	O, B-PS, I-QT, B-QT, B-LC
-33	##는	O	O	O, B-CV, B-TM, B-PS, B-OG
-34	우려	O	O	O, B-CV, B-TM, B-QT, B-PS
-35	##가	O	O	O, B-PS, B-CV, I-QT, I-OG
-36	나온다	O	O	O, B-CV, B-TM, B-QT, B-PS
-37	.	O	O	O, B-PS, B-LC, B-CV, B-OG
-38	[SEP]	O	O	O, B-CV, B-PS, B-LC, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	1	B-TI	B-TI
+2	##회	I-TI	I-TI
+3	##초	I-TI	I-TI
+4	땅볼	B-TM	B-TM
+5	##로	O	O
+6	선취	O	O
+7	타점	B-TM	B-TM
+8	##을	O	O
+9	올린	O	O
+10	벨	B-PS	B-PS
+11	##린	I-PS	I-PS
+12	##저	I-PS	I-PS
+13	##는	O	O
+14	1	B-QT	B-QT
+15	-	I-QT	I-QT
+16	0	I-QT	I-QT
+17	##으로	O	O
+18	앞선	O	O
+19	5	B-TI	B-TI
+20	##회	I-TI	I-TI
+21	##초	I-TI	I-TI
+22	선두	O	O
+23	타자	B-CV	B-CV
+24	##로	O	O
+25	나와	O	O
+26	상대	O	O
+27	선발	B-CV	B-CV
+28	잭	B-PS	B-PS
+29	그	I-PS	I-PS
+30	##링	I-PS	I-PS
+31	##키	I-PS	I-PS
+32	##의	O	O
+33	공	B-CV	B-CV
+34	##을	O	O
+35	받아	O	O
+36	##쳐	O	O
+37	좌	B-TM	O
+38	##중간	I-TM	O
+39	담장	O	O
+40	##을	O	O
+41	시원	O	O
+42	##하	O	O
+43	##게	O	O
+44	넘겼	O	O
+45	##다	O	O
+46	.	O	O
+47	[SEP]	O	O

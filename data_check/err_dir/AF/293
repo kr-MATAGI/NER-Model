@@ -1,53 +1,15 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	삼성전자	B-OG	B-OG	B-OG, B-PS, B-LC, B-AF, O
-2	##와	O	O	O, I-OG, I-AF, I-PS, B-OG
-3	미국	B-LC	B-LC	B-LC, B-OG, O, B-AF, B-PS
-4	##의	O	O	O, I-LC, I-OG, B-LC, I-AF
-5	이동	O	O	O, B-OG, B-TM, B-CV, B-AF
-6	##통신	O	O	O, I-OG, I-CV, I-TM, I-AF
-7	##업체	O	O	O, I-OG, I-CV, B-CV, I-TM
-8	##인	O	O	O, I-OG, I-CV, B-CV, B-OG
-9	T	B-OG	B-OG	B-OG, O, I-OG, B-LC, B-AF
-10	##모	I-OG	I-OG	I-OG, O, I-LC, I-AF, I-CV
-11	##바일	I-OG	I-OG	I-OG, O, I-LC, I-AF, I-CV
-12	##이	O	O	O, I-OG, B-PS, I-AF, B-LC
-13	21	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-14	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-OG
-15	##부터	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-OG
-16	갤럭시	B-AF	B-AF	B-AF, I-AF, B-OG, O, B-PS
-17	##S	I-AF	I-AF	I-AF, B-AF, O, I-PS, I-OG
-18	(	O	O	O, I-AF, I-OG, I-EV, I-DT
-19	미국	B-LC	B-LC	B-LC, O, B-OG, B-AF, B-PS
-20	##명	O	O	O, I-LC, B-CV, I-OG, B-LC
-21	바이	B-AF	B-OG	B-OG, B-LC, O, B-AF, B-PS
-22	##브	I-AF	I-OG	I-OG, I-LC, O, I-AF, I-PS
-23	##런트	I-AF	I-OG	I-OG, I-LC, O, I-AF, I-PS
-24	)	O	O	O, I-OG, I-AF, I-LC, I-CV
-25	의	O	O	O, B-LC, B-TM, B-OG, B-CV
-26	안드로이드	B-TM	B-TM	B-TM, O, B-AF, B-TR, I-TM
-27	2	B-QT	B-QT	B-QT, I-TM, I-QT, I-AF, O
-28	.	I-QT	I-QT	I-QT, I-TM, O, I-AF, B-QT
-29	2	I-QT	I-QT	I-QT, B-QT, O, I-TM, I-LC
-30	##버	I-QT	I-QT	I-QT, O, B-QT, I-TM, I-LC
-31	##전	I-QT	I-QT	I-QT, O, I-LC, I-TM, B-QT
-32	(	O	O	O, I-QT, B-CV, I-CV, B-OG
-33	프로	B-AF	B-TM	B-TM, B-AF, B-OG, O, B-LC
-34	##요	I-AF	I-TM	I-TM, I-AF, I-OG, O, I-LC
-35	)	O	O	O, I-TM, I-OG, I-AF, I-LC
-36	운영	B-TM	O	O, B-TM, B-CV, I-TM, B-AF
-37	##체	I-TM	O	O, I-TM, B-TM, I-CV, I-TR
-38	##제	I-TM	O	O, I-TM, I-CV, B-TM, I-AF
-39	(	O	O	O, I-TM, B-CV, I-CV, B-LC
-40	OS	B-TM	B-TM	B-TM, O, I-TM, B-AF, B-CV
-41	)	O	O	O, I-TM, I-CV, B-LC, I-OG
-42	업그레이드	O	O	O, B-TM, B-CV, B-LC, B-AF
-43	##를	O	O	O, B-CV, B-LC, B-OG, I-EV
-44	시작	O	O	O, B-CV, B-LC, B-OG, B-TM
-45	##했	O	O	O, B-LC, B-OG, B-CV, B-PS
-46	##다고	O	O	O, B-LC, B-OG, B-CV, B-DT
-47	이날	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-CV
-48	밝혔	O	O	O, I-DT, B-CV, B-OG, I-QT
-49	##다	O	O	O, B-CV, B-LC, B-OG, B-TM
-50	.	O	O	O, B-LC, B-OG, B-TM, B-CV
-51	[SEP]	O	O	O, B-LC, B-OG, B-TM, B-CV
+	text	label	preds
+0	[CLS]	O	O
+1	‘	O	O
+2	에너지	O	O
+3	사채	O	O
+4	<	O	O
+5	私	B-AF	O
+6	債	I-AF	O
+7	>	O	O
+8	’	O	O
+9	에	O	O
+10	빠진	O	O
+11	10	B-QT	B-QT
+12	##대	I-QT	I-QT
+13	[SEP]	O	O

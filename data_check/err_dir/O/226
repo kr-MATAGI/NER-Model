@@ -1,13 +1,16 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	뭐	O	O	O, B-CV, B-OG, B-FD, B-TM
-2	국악	B-FD	B-FD	B-FD, O, I-FD, B-TR, B-CV
-3	이라든지	O	O	O, I-FD, I-AF, I-OG, B-PS
-4	또	O	O	O, B-CV, B-OG, B-LC, B-TM
-5	우리	O	O	O, B-FD, B-CV, B-AF, B-OG
-6	전통	O	B-FD	B-FD, O, B-CV, I-FD, B-AF
-7	미술	B-FD	I-FD	I-FD, B-FD, O, I-AF, I-OG
-8	##이	O	O	O, I-FD, I-AF, I-OG, I-CV
-9	##라	O	O	O, B-CV, B-LC, B-QT, B-PS
-10	##든지	O	O	O, B-CV, B-OG, B-LC, B-PS
-11	[SEP]	O	O	O, B-CV, B-FD, B-LC, B-AF
+	text	label	preds
+0	[CLS]	O	O
+1	서양	B-LC	B-FD
+2	음악	O	I-FD
+3	##을	O	O
+4	많이	O	O
+5	배우	O	O
+6	##지만	O	O
+7	우리	O	O
+8	국악	B-FD	B-FD
+9	##을	O	O
+10	많이	O	O
+11	안	O	O
+12	배우	O	O
+13	##고	O	O
+14	[SEP]	O	O

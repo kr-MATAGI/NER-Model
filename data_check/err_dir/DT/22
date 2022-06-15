@@ -1,27 +1,57 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	""""	O	O	O, B-CV, B-LC, B-TM, B-OG
-2	9	B-EV	B-DT	B-DT, B-EV, O, I-DT, B-QT
-3	·	I-EV	I-DT	I-DT, I-EV, O, I-QT, B-DT
-4	11	I-EV	I-DT	I-DT, I-EV, O, B-DT, I-QT
-5	다음	B-DT	I-DT	I-DT, B-DT, I-EV, O, I-AF
-6	##날	I-DT	I-DT	I-DT, O, I-EV, B-DT, I-QT
-7	한국	B-OG	B-OG	B-OG, B-LC, O, I-DT, I-OG
-8	##이	O	O	O, I-OG, B-PS, I-LC, I-EV
-9	도와	O	O	O, B-OG, B-CV, B-LC, B-TM
-10	##주	O	O	O, B-CV, I-OG, B-PS, I-CV
-11	##겠다	O	O	O, B-CV, B-PS, I-CV, B-OG
-12	했	O	O	O, B-CV, B-OG, B-PS, B-TM
-13	##지만	O	O	O, B-LC, B-PS, B-OG, B-CV
-14	美	B-LC	B-LC	B-LC, B-OG, O, B-TM, B-CV
-15	뿌리	O	O	O, B-PT, I-OG, I-LC, I-PT
-16	깊	O	O	O, I-OG, I-AF, B-CV, I-LC
-17	##은	O	O	O, B-LC, B-TM, B-PS, B-OG
-18	관료	B-TR	B-TR	B-TR, O, B-TM, I-TR, B-FD
-19	##주의	I-TR	I-TR	I-TR, O, I-TM, I-CV, B-TR
-20	때문	O	O	O, I-TR, I-TM, I-AF, I-CV
-21	##에	O	O	O, B-CV, B-LC, B-TM, B-OG
-22	시간	O	O	O, B-LC, B-TM, B-OG, B-TI
-23	걸려	O	O	O, B-CV, B-LC, B-OG, B-TM
-24	""""	O	O	O, B-CV, B-LC, B-TM, B-OG
-25	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	이	O	O
+2	##는	O	O
+3	야권	O	O
+4	후보	B-CV	B-CV
+5	단일화	O	O
+6	논의	O	O
+7	##가	O	O
+8	이뤄지기	O	O
+9	전인	O	O
+10	지난	B-DT	B-DT
+11	10	I-DT	I-DT
+12	##월	I-DT	I-DT
+13	5	B-DT	I-DT
+14	·	I-DT	I-DT
+15	6	I-DT	I-DT
+16	##일	I-DT	I-DT
+17	조사	O	O
+18	##에	O	O
+19	##서	O	O
+20	‘	O	O
+21	당선	O	O
+22	가능	O	O
+23	##성이	O	O
+24	가장	O	O
+25	높	O	O
+26	##은	O	O
+27	후보	B-CV	B-CV
+28	’	O	O
+29	로	O	O
+30	박근혜	B-PS	B-PS
+31	후보	B-CV	B-CV
+32	##가	O	O
+33	46	B-QT	B-QT
+34	.	I-QT	I-QT
+35	8	I-QT	I-QT
+36	%	I-QT	I-QT
+37	의	O	O
+38	높	O	O
+39	##은	O	O
+40	점수	O	O
+41	##를	O	O
+42	얻	O	O
+43	##은	O	O
+44	것	O	O
+45	##과	O	O
+46	비교	O	O
+47	##하면	O	O
+48	확연	O	O
+49	##하	O	O
+50	##게	O	O
+51	달라진	O	O
+52	수치	O	O
+53	##다	O	O
+54	.	O	O
+55	[SEP]	O	O

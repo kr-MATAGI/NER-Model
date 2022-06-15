@@ -1,24 +1,19 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	조광래	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-2	축구	B-CV	O	O, B-CV, B-OG, I-OG, B-FD
-3	##대표	O	O	O, I-OG, I-CV, I-AF, I-EV
-4	##팀	O	O	O, I-OG, I-CV, I-AF, I-EV
-5	감독	B-CV	B-CV	B-CV, O, I-CV, I-OG, B-PS
-6	##의	O	O	O, I-CV, I-OG, I-AF, B-CV
-7	눈	B-AM	B-AM	B-AM, O, B-TR, I-AM, B-PS
-8	##에	O	O	O, I-QT, I-CV, I-AF, I-TM
-9	띄	O	O	O, B-CV, B-OG, B-LC, B-TM
-10	##어	O	O	O, B-CV, B-LC, I-OG, B-OG
-11	올해	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-12	10	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-13	##월	I-DT	I-DT	I-DT, O, B-DT, I-PS, I-QT
-14	처음	O	O	O, I-DT, B-CV, B-QT, I-QT
-15	태극	O	O	O, B-CV, B-PS, B-AF, B-TM
-16	##마크	O	O	O, I-CV, I-AF, I-TM, I-EV
-17	##를	O	O	O, B-CV, I-CV, I-AF, I-OG
-18	달	O	O	O, B-CV, B-PS, B-LC, B-TM
-19	##았	O	O	O, B-CV, I-CV, I-OG, I-EV
-20	##다	O	O	O, B-CV, I-OG, B-TM, I-CV
-21	.	O	O	O, B-CV, B-PS, B-OG, I-OG
-22	[SEP]	O	O	O, B-CV, I-OG, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	어	O	O
+2	~	O	O
+3	그	O	O
+4	~	O	O
+5	자유	O	O
+6	##로운	O	O
+7	시민	B-CV	B-CV
+8	그	O	O
+9	##다	O	O
+10	##음	O	O
+11	##에	O	O
+12	공화	B-CV	B-TR
+13	##정	I-CV	I-TR
+14	##의	O	O
+15	요소	O	O
+16	##를	O	O
+17	[SEP]	O	O

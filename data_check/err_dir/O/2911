@@ -1,23 +1,21 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	짧	O	O	O, B-LC, B-CV, B-PS, B-OG
-2	##게	O	O	O, B-LC, B-PS, I-LC, B-OG
-3	본인	O	O	O, B-CV, B-LC, B-PS, B-TM
-4	##이	O	O	O, B-PS, B-LC, B-CV, B-OG
-5	충청도	O	B-LC	B-LC, O, B-CV, B-PS, B-OG
-6	##지사	O	B-CV	B-CV, O, I-CV, I-LC, B-LC
-7	##가	O	O	O, I-CV, B-PS, I-EV, I-OG
-8	아니	O	O	O, B-PS, B-CV, B-LC, B-OG
-9	##라	O	O	O, B-LC, B-OG, B-PS, B-CV
-10	전국	O	O	O, B-LC, B-CV, B-PS, I-LC
-11	##을	O	O	O, B-LC, B-PS, I-LC, B-CV
-12	내	O	O	O, B-CV, B-LC, B-PS, B-OG
-13	##가	O	O	O, B-PS, B-LC, B-OG, B-CV
-14	아우르	O	O	O, B-CV, B-LC, B-OG, B-PS
-15	##는	O	O	O, B-PS, B-LC, B-CV, B-OG
-16	지도자	B-CV	B-CV	B-CV, O, I-CV, B-PS, B-OG
-17	될	O	O	O, I-CV, B-CV, I-EV, I-OG
-18	수	O	O	O, B-CV, B-PS, B-QT, B-LC
-19	있	O	O	O, B-CV, I-OG, B-LC, B-PS
-20	##다	O	O	O, B-CV, B-OG, I-OG, B-LC
-21	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	유진	B-PS	B-PS
+2	##룡	I-PS	I-PS
+3	“	O	O
+4	배우자	B-CV	B-CV
+5	위장전입	B-CV	B-CV
+6	…	O	O
+7	사과	O	O
+8	##드	O	O
+9	##린다	O	O
+10	”	O	O
+11	전관예우	O	O
+12	·	O	O
+13	상속	O	B-CV
+14	##상가	O	I-CV
+15	탈세	O	O
+16	의혹	O	O
+17	##은	O	O
+18	부인	O	O
+19	[SEP]	O	O

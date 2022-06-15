@@ -1,51 +1,33 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-EV, I-CV
-1	지난해	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-2	물류	O	O	O, I-DT, B-LC, B-TM, B-CV
-3	##센터	O	O	O, I-AF, I-LC, B-LC, I-OG
-4	##를	O	O	O, B-CV, B-LC, B-TM, B-OG
-5	확장	O	O	O, B-CV, B-LC, B-OG, B-TM
-6	##한	O	O	O, B-LC, B-OG, B-PS, B-CV
-7	아우디	B-OG	B-OG	B-OG, I-OG, O, B-AF, B-LC
-8	##폭	I-OG	I-OG	I-OG, B-OG, O, I-PS, I-AF
-9	##스	I-OG	I-OG	I-OG, O, B-OG, I-LC, I-PS
-10	##바겐	I-OG	I-OG	I-OG, B-OG, O, I-PS, I-LC
-11	##코	I-OG	I-OG	I-OG, B-OG, O, I-LC, I-QT
-12	##리아	I-OG	I-OG	I-OG, O, I-QT, B-OG, I-LC
-13	##에	O	O	O, I-OG, I-AF, I-QT, B-CV
-14	이어	O	O	O, B-OG, B-LC, B-QT, B-PS
-15	벤츠	B-OG	B-OG	B-OG, I-OG, O, B-AF, B-LC
-16	##코	I-OG	I-OG	I-OG, B-OG, O, I-AF, I-LC
-17	##리아	I-OG	I-OG	I-OG, O, I-AF, B-OG, I-LC
-18	##도	O	O	O, I-OG, I-AF, I-QT, B-CV
-19	부품	O	O	O, B-LC, B-AF, B-TM, B-CV
-20	물류	O	O	O, B-LC, B-AF, B-CV, B-TM
-21	##센터	O	O	O, I-LC, I-AF, B-LC, I-CV
-22	##를	O	O	O, B-CV, B-TM, B-LC, B-OG
-23	확장	O	O	O, B-LC, B-CV, B-TM, B-OG
-24	운영	O	O	O, B-LC, B-OG, B-CV, B-TM
-25	##하면	O	O	O, B-LC, B-OG, B-CV, B-PS
-26	##서	O	O	O, B-LC, B-OG, B-CV, B-TM
-27	수입	O	O	O, B-OG, B-CV, B-LC, B-AF
-28	##차	O	B-AF	B-AF, O, I-AF, B-OG, I-OG
-29	업계	O	O	O, I-AF, I-OG, B-CV, I-CV
-30	##의	O	O	O, B-CV, B-PS, B-LC, B-TM
-31	부품	O	O	O, B-CV, B-TM, B-MT, B-LC
-32	값	O	O	O, B-CV, B-TM, B-QT, I-CV
-33	인하	O	O	O, B-CV, B-TM, B-QT, B-PS
-34	##와	O	O	O, B-LC, B-PS, B-OG, B-TM
-35	수리	O	O	O, B-CV, B-LC, B-TM, B-PS
-36	##기	O	O	O, B-LC, B-CV, B-PS, B-TM
-37	##간	O	O	O, B-LC, B-CV, B-PS, B-TM
-38	단축	O	O	O, B-CV, B-LC, B-TM, B-OG
-39	##으로	O	O	O, B-LC, B-TM, B-OG, B-PS
-40	이어질	O	O	O, B-LC, B-TM, B-OG, B-PS
-41	##지	O	O	O, B-LC, B-PS, B-OG, B-TM
-42	관심	O	O	O, B-CV, B-TM, B-OG, B-LC
-43	##을	O	O	O, B-CV, I-OG, I-EV, B-OG
-44	모으	O	O	O, B-CV, B-LC, B-TM, B-OG
-45	##고	O	O	O, B-CV, B-QT, B-LC, I-OG
-46	있	O	O	O, B-CV, B-LC, B-TM, B-OG
-47	##다	O	O	O, B-CV, B-TM, B-LC, B-QT
-48	.	O	O	O, B-LC, B-OG, B-PS, B-CV
-49	[SEP]	O	O	O, B-LC, B-CV, B-OG, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	이	O	O
+2	때문	O	O
+3	##에	O	O
+4	소득	O	O
+5	##이	O	O
+6	높	O	O
+7	##은	O	O
+8	사람	O	O
+9	##일	O	O
+10	##지	O	O
+11	##라도	O	O
+12	신용	O	O
+13	##등	O	O
+14	##급	O	O
+15	조건	O	O
+16	##만	O	O
+17	충족	O	O
+18	##되	O	O
+19	##면	O	O
+20	햇살	O	B-AF
+21	##론	O	I-AF
+22	대출	O	O
+23	자격	O	O
+24	##을	O	O
+25	얻	O	O
+26	##을	O	O
+27	수	O	O
+28	있	O	O
+29	##다	O	O
+30	.	O	O
+31	[SEP]	O	O

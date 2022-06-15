@@ -1,28 +1,37 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	지난해	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-2	칠월	I-DT	I-DT	I-DT, B-DT, O, I-EV, I-QT
-3	##부터	I-DT	I-DT	I-DT, O, B-DT, I-EV, I-QT
-4	열흘	B-DT	B-DT	B-DT, I-DT, O, B-QT, B-EV
-5	##간	I-DT	I-DT	I-DT, O, I-EV, I-QT, B-DT
-6	진행	O	O	O, I-DT, B-CV, I-EV, B-OG
-7	##했	O	O	O, B-OG, B-CV, B-LC, B-PS
-8	##고	O	O	O, B-OG, B-CV, B-LC, I-OG
-9	자세	O	O	O, B-TM, B-LC, B-OG, B-CV
-10	##한	O	O	O, B-LC, B-OG, B-PS, B-TM
-11	내용	O	O	O, B-TM, B-CV, B-OG, B-LC
-12	##은	O	O	O, B-OG, B-LC, B-CV, B-TM
-13	좋	B-OG	B-EV	B-EV, B-TM, O, B-CV, B-OG
-14	##은	I-OG	I-EV	I-EV, I-TM, O, I-CV, I-OG
-15	##교사	I-OG	I-EV	I-EV, I-TM, I-CV, O, I-OG
-16	##운동	I-OG	I-EV	I-EV, I-TM, O, I-CV, I-OG
-17	홈페이지	O	O	O, I-TM, I-EV, I-OG, B-TM
-18	##에서	O	O	O, B-OG, B-CV, B-TM, I-OG
-19	확인	O	O	O, B-CV, B-TM, B-OG, B-QT
-20	##할	O	O	O, B-PS, B-TM, B-OG, I-OG
-21	수	O	O	O, B-TM, B-CV, B-PS, B-OG
-22	있	O	O	O, B-TM, B-CV, B-QT, B-PS
-23	##습	O	O	O, B-CV, B-OG, B-TM, B-LC
-24	##니다	O	O	O, B-CV, B-TM, B-OG, B-LC
-25	.	O	O	O, B-TM, B-OG, B-LC, B-CV
-26	[SEP]	O	O	O, B-TM, B-CV, B-OG, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	여자	O	O
+2	##농	B-OG	B-CV
+3	##구	I-OG	I-CV
+4	##대표	I-OG	O
+5	##팀	I-OG	O
+6	소집	O	O
+7	##에	O	O
+8	응하	O	O
+9	##지	O	O
+10	않	O	O
+11	##았	O	O
+12	##던	O	O
+13	김지	B-PS	B-PS
+14	##윤	I-PS	I-PS
+15	(	O	O
+16	34	B-QT	B-QT
+17	·	O	O
+18	신세계	B-OG	B-OG
+19	)	O	O
+20	이	O	O
+21	막판	O	O
+22	합류	O	O
+23	##하	O	O
+24	##기	O	O
+25	##로	O	O
+26	해	O	O
+27	엔트리	O	O
+28	12	B-QT	B-QT
+29	##명	I-QT	I-QT
+30	##이	O	O
+31	채워	O	O
+32	##졌	O	O
+33	##다	O	O
+34	.	O	O
+35	[SEP]	O	O

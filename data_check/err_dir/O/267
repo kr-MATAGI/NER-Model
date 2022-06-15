@@ -1,37 +1,76 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-AF, I-OG
-1	불교	B-OG	B-OG	B-OG, B-CV, O, B-FD, B-PS
-2	##신	O	B-CV	B-CV, I-CV, O, I-OG, I-QT
-3	##자	O	I-CV	I-CV, O, B-CV, I-OG, I-QT
-4	##였	O	O	O, I-CV, B-PS, B-CV, I-OG
-5	##던	O	O	O, B-PS, B-CV, I-CV, B-LC
-6	김	B-PS	B-PS	B-PS, O, I-PS, B-OG, B-LC
-7	##씨	O	O	O, I-PS, B-CV, I-OG, I-AF
-8	##는	O	O	O, B-CV, B-PS, I-CV, B-TM
-9	평소	O	O	O, B-PS, B-CV, B-LC, B-DT
-10	""""	O	O	O, B-LC, B-CV, B-PS, B-TM
-11	불교	B-OG	B-OG	B-OG, O, B-CV, B-AF, B-FD
-12	문화재	O	O	O, I-OG, I-AF, I-CV, B-AF
-13	박물관	O	O	O, I-AF, I-OG, I-LC, I-CV
-14	##을	O	O	O, I-AF, I-OG, B-CV, B-PS
-15	만드	O	O	O, B-CV, B-LC, B-PS, B-TM
-16	##는	O	O	O, B-PS, B-CV, B-LC, I-AF
-17	게	O	O	O, B-PS, B-LC, B-CV, B-OG
-18	꿈	O	O	O, B-CV, B-PS, B-LC, B-FD
-19	""""	O	O	O, B-CV, I-CV, B-PS, B-TM
-20	이라	O	O	O, B-PS, B-CV, I-CV, B-LC
-21	##고	O	O	O, B-PS, B-CV, I-CV, I-QT
-22	말	O	O	O, B-CV, B-PS, B-LC, B-TM
-23	##해	O	O	O, B-PS, B-LC, I-PS, I-CV
-24	##왔	O	O	O, B-PS, B-LC, I-PS, B-CV
-25	##다는	O	O	O, B-PS, I-PS, B-LC, I-LC
-26	게	O	O	O, B-PS, B-LC, B-CV, B-OG
-27	고	O	B-FD	B-FD, O, B-CV, B-OG, B-TR
-28	##미술	O	I-FD	I-FD, O, B-FD, I-OG, I-TR
-29	관계자	B-CV	B-CV	B-CV, O, I-CV, I-FD, B-FD
-30	##들	O	O	O, I-CV, B-CV, I-AF, I-QT
-31	##의	O	O	O, B-CV, B-PS, I-CV, B-TM
-32	얘기	O	O	O, B-CV, B-QT, B-TM, I-CV
-33	##다	O	O	O, B-CV, I-CV, B-PS, I-QT
-34	.	O	O	O, B-PS, B-CV, B-LC, I-CV
-35	[SEP]	O	O	O, B-CV, B-PS, I-CV, B-FD
+	text	label	preds
+0	[CLS]	O	O
+1	이스라엘	B-LC	B-LC
+2	전직	O	O
+3	수영	B-CV	B-CV
+4	국가	B-CV	B-CV
+5	##대표	I-CV	I-CV
+6	##로	O	O
+7	이스라엘	B-OG	B-LC
+8	·	O	O
+9	키프로스	B-OG	B-LC
+10	2	B-QT	B-QT
+11	##개	I-QT	I-QT
+12	##국	I-QT	I-QT
+13	입장권	O	O
+14	판매	O	O
+15	대행	O	O
+16	##을	O	O
+17	맡	O	O
+18	##고	O	O
+19	있	O	O
+20	##는	O	O
+21	요	B-PS	B-PS
+22	##아	I-PS	I-PS
+23	##프	I-PS	I-PS
+24	브룩	I-PS	I-PS
+25	(	O	O
+26	40	B-QT	B-QT
+27	)	O	O
+28	은	O	O
+29	남자	O	O
+30	100	B-QT	B-QT
+31	##m	I-QT	I-QT
+32	육상	B-CV	B-CV
+33	##경기	O	O
+34	AA	O	B-QT
+35	##급	O	I-QT
+36	입장권	O	O
+37	##을	O	O
+38	포함	O	O
+39	##해	O	O
+40	여러	O	O
+41	경기	O	O
+42	##의	O	O
+43	입장권	O	O
+44	수백	O	O
+45	장	O	O
+46	##을	O	O
+47	선데이	B-OG	B-OG
+48	##타임	I-OG	I-OG
+49	##스	I-OG	I-OG
+50	기자	B-CV	B-CV
+51	##에	O	O
+52	##게	O	O
+53	6	B-QT	B-QT
+54	##만	I-QT	I-QT
+55	##60	I-QT	I-QT
+56	##00	I-QT	I-QT
+57	##파	I-QT	I-QT
+58	##운드	I-QT	I-QT
+59	(	O	O
+60	약	B-QT	B-QT
+61	1	I-QT	I-QT
+62	##억	I-QT	I-QT
+63	##20	I-QT	I-QT
+64	##00	I-QT	I-QT
+65	##만	I-QT	I-QT
+66	원	I-QT	I-QT
+67	)	O	O
+68	에	O	O
+69	팔려	O	O
+70	##고	O	O
+71	했	O	O
+72	##다	O	O
+73	.	O	O
+74	[SEP]	O	O

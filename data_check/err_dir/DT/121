@@ -1,42 +1,56 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	이	O	O	O, B-CV, B-OG, B-TM, B-PS
-2	##는	O	O	O, B-CV, B-OG, B-LC, B-TM
-3	부동산	O	O	O, B-CV, B-LC, B-TM, B-AF
-4	활황	O	O	O, B-CV, I-EV, I-CV, I-AF
-5	##이	O	O	O, B-PS, B-LC, B-OG, B-CV
-6	본격	O	O	O, B-LC, B-CV, B-OG, B-PS
-7	##화	O	O	O, B-PS, B-LC, B-OG, I-OG
-8	##한	O	O	O, B-DT, B-LC, B-PS, B-OG
-9	지난해	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-OG
-10	2	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-OG
-11	##분	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-OG
-12	##기부	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-OG
-13	##터	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-OG
-14	가계	O	O	O, B-CV, I-DT, I-CV, B-TM
-15	##빚	O	O	O, I-CV, I-AF, I-TM, B-CV
-16	##이	O	O	O, B-PS, B-OG, B-LC, I-CV
-17	전분	B-DT	O	O, B-DT, B-OG, B-LC, B-EV
-18	##기	I-DT	O	O, I-DT, B-DT, I-OG, I-EV
-19	대비	O	O	O, I-DT, B-DT, B-PS, B-LC
-20	30	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-PS
-21	##조	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-22	~	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-23	40	I-QT	I-QT	I-QT, B-QT, O, I-LC, I-PS
-24	##조	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-25	##원	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-26	##씩	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-27	늘어났	O	O	O, I-QT, B-CV, B-OG, B-TM
-28	##던	O	O	O, B-CV, B-TM, B-OG, I-QT
-29	점	O	O	O, B-CV, B-TM, B-OG, B-LC
-30	##을	O	O	O, B-CV, B-OG, B-PS, B-TM
-31	고려	O	O	O, B-CV, B-TM, B-OG, B-QT
-32	##하면	O	O	O, B-LC, B-CV, B-PS, B-OG
-33	증가	O	O	O, B-CV, B-OG, B-TM, B-LC
-34	##폭	O	O	O, B-OG, B-TM, B-CV, B-LC
-35	##은	O	O	O, B-CV, B-OG, B-TM, B-LC
-36	줄어든	O	O	O, B-CV, B-OG, B-QT, B-TM
-37	것	O	O	O, B-CV, B-OG, B-TM, B-LC
-38	##이다	O	O	O, B-CV, B-TM, I-OG, I-CV
-39	.	O	O	O, B-LC, B-OG, B-CV, B-PS
-40	[SEP]	O	O	O, B-CV, B-LC, B-OG, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	2007	B-DT	B-DT
+2	##년	I-DT	I-DT
+3	설	B-DT	B-DT
+4	연휴	I-DT	I-DT
+5	직후	I-DT	O
+6	##인	O	O
+7	2	B-DT	B-DT
+8	##월	I-DT	I-DT
+9	20	I-DT	I-DT
+10	,	I-DT	I-DT
+11	21	I-DT	I-DT
+12	##일	I-DT	I-DT
+13	##과	O	O
+14	올해	B-DT	B-DT
+15	설	I-DT	I-DT
+16	직후	I-DT	I-DT
+17	##인	O	O
+18	1	B-DT	B-DT
+19	##월	I-DT	I-DT
+20	24	I-DT	I-DT
+21	,	I-DT	I-DT
+22	25	I-DT	I-DT
+23	##일	I-DT	I-DT
+24	##의	O	O
+25	매출	O	O
+26	##을	O	O
+27	비교	O	O
+28	##해	O	O
+29	본	O	O
+30	결과	O	O
+31	남성	O	O
+32	고객	B-CV	B-CV
+33	##이	O	O
+34	여성	O	O
+35	의류	O	O
+36	##와	O	O
+37	해외	O	O
+38	패션	O	O
+39	핸드백	O	B-CV
+40	,	O	O
+41	액세서리	O	O
+42	##를	O	O
+43	구입	O	O
+44	##하	O	O
+45	##는	O	O
+46	비중	O	O
+47	##은	O	O
+48	41	B-QT	B-QT
+49	%	I-QT	I-QT
+50	증가	O	O
+51	##했	O	O
+52	##다	O	O
+53	.	O	O
+54	[SEP]	O	O

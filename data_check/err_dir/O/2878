@@ -1,30 +1,11 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	숨	O	O	O, B-TM, B-AM, B-LC, B-AF
-2	##을	O	O	O, B-PS, B-TM, I-AF, B-CV
-3	들이마	O	O	O, B-TM, B-PS, B-AM, B-LC
-4	##실	O	O	O, I-TM, I-PS, I-AF, B-PS
-5	때	O	O	O, B-PS, I-AF, I-EV, I-TM
-6	##에	O	O	O, B-PS, B-TM, B-CV, B-LC
-7	증상	O	O	O, B-TM, B-CV, B-LC, B-PS
-8	##이	O	O	O, B-PS, B-OG, B-CV, B-LC
-9	생기	O	O	O, B-CV, B-PS, B-TM, B-OG
-10	##면	O	O	O, B-TM, B-LC, I-TM, B-OG
-11	기	B-TM	B-TM	B-TM, O, I-TM, B-CV, B-LC
-12	##흉	I-TM	I-TM	I-TM, O, B-TM, I-QT, I-CV
-13	·	O	O	O, I-TM, I-QT, I-OG, I-CV
-14	늑	B-TM	B-TM	B-TM, O, I-TM, B-CV, B-LC
-15	##막염	I-TM	I-TM	I-TM, O, B-TM, I-QT, I-CV
-16	·	O	O	O, I-TM, I-QT, I-OG, I-AF
-17	천식	B-TM	B-TM	B-TM, O, I-TM, B-CV, B-LC
-18	같	O	O	O, I-TM, I-CV, I-AF, I-QT
-19	##은	O	O	O, B-TM, B-LC, B-CV, B-OG
-20	호흡기	O	B-TM	B-TM, O, B-CV, I-TM, B-FD
-21	##질	O	I-TM	I-TM, O, I-CV, B-TM, I-QT
-22	##환	O	I-TM	I-TM, O, I-CV, I-LC, I-QT
-23	##일	O	O	O, I-TM, I-CV, I-OG, I-EV
-24	수	O	O	O, B-PS, B-TM, B-OG, B-LC
-25	있	O	O	O, B-TM, B-CV, B-PS, I-OG
-26	##다	O	O	O, B-CV, B-TM, I-OG, I-TM
-27	.	O	O	O, B-TM, B-LC, B-CV, B-PS
-28	[SEP]	O	O	O, B-TM, I-TM, B-CV, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	일	B-QT	B-QT
+2	이	B-QT	I-QT
+3	삼	B-QT	I-QT
+4	경비	O	B-AF
+5	##정	O	I-AF
+6	##에	O	O
+7	가	O	O
+8	##서	O	O
+9	[SEP]	O	O

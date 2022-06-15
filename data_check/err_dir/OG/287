@@ -1,54 +1,51 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-EV, I-OG
-1	저우	B-PS	B-PS	B-PS, B-OG, O, B-LC, I-PS
-2	##젠	I-PS	I-PS	I-PS, O, I-OG, B-PS, I-LC
-3	##핑	I-PS	I-PS	I-PS, O, I-OG, I-LC, B-PS
-4	##에	O	O	O, I-PS, I-OG, B-CV, I-AF
-5	따르	O	O	O, B-OG, B-CV, B-LC, B-TM
-6	##면	O	O	O, B-OG, B-LC, B-PS, B-CV
-7	중국	B-OG	B-LC	B-LC, B-OG, O, B-PS, B-CV
-8	##은	O	O	O, I-OG, I-LC, B-LC, I-AF
-9	내년	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-10	실험	O	O	O, B-AF, B-TM, I-DT, B-AM
-11	##용	O	O	O, I-AF, I-LC, I-PS, I-TM
-12	우주	O	B-AF	B-AF, O, B-LC, B-TM, I-AF
-13	##정	O	I-AF	I-AF, O, I-LC, B-AF, I-CV
-14	##거	O	I-AF	I-AF, O, I-LC, I-CV, I-AM
-15	##장	O	I-AF	I-AF, O, I-LC, I-CV, I-TM
-16	##인	O	O	O, I-AF, I-LC, I-CV, B-LC
-17	'	O	O	O, B-LC, B-AF, B-CV, B-TM
-18	톈	B-AF	B-AF	B-AF, B-LC, O, B-PS, B-TM
-19	##궁	I-AF	I-AF	I-AF, I-LC, O, I-PS, I-TM
-20	2	I-AF	B-QT	B-QT, I-AF, I-QT, I-LC, O
-21	##호	I-AF	I-QT	I-QT, I-AF, O, I-LC, I-TM
-22	'	O	O	O, I-QT, I-AF, B-LC, B-CV
-23	를	O	O	O, B-LC, B-AF, B-CV, B-PS
-24	쏘아	O	O	O, B-LC, B-AF, B-TM, B-CV
-25	올린	O	O	O, B-LC, B-PS, I-LC, I-AF
-26	뒤	O	O	O, B-AF, B-LC, B-TM, B-AM
-27	유인	O	O	O, B-AF, B-TM, B-LC, B-AM
-28	우주선	B-AF	B-AF	B-AF, I-AF, O, B-TM, B-LC
-29	'	O	O	O, I-AF, B-LC, B-CV, I-LC
-30	선	B-AF	B-AF	B-AF, B-LC, B-PS, B-TM, O
-31	##저우	I-AF	I-AF	I-AF, I-LC, I-TM, O, I-PS
-32	11	I-AF	B-QT	B-QT, I-AF, I-QT, I-LC, I-TM
-33	##호	I-AF	I-QT	I-QT, I-AF, O, I-LC, I-TM
-34	'	O	O	O, I-QT, I-AF, B-LC, B-CV
-35	를	O	O	O, B-LC, B-CV, B-AF, B-TM
-36	발사	O	O	O, B-LC, B-AF, B-OG, B-CV
-37	##해	O	O	O, B-LC, I-LC, B-PS, I-AF
-38	톈	B-AF	B-AF	B-AF, B-LC, B-PS, O, B-OG
-39	##궁	I-AF	I-AF	I-AF, I-LC, O, I-PS, I-TM
-40	2	I-AF	B-QT	B-QT, I-AF, I-QT, I-LC, O
-41	##호	I-AF	I-QT	I-QT, I-AF, O, I-LC, I-TM
-42	##와	O	O	O, I-QT, I-AF, I-TM, I-EV
-43	도	O	O	O, B-CV, B-LC, B-TM, B-EV
-44	##킹	O	O	O, I-LC, I-CV, I-TM, I-EV
-45	##을	O	O	O, B-CV, B-LC, B-PS, B-OG
-46	시도	O	O	O, B-CV, B-LC, B-TM, B-OG
-47	##한다	O	O	O, B-LC, B-CV, B-PS, B-OG
-48	##는	O	O	O, B-LC, B-CV, B-PS, B-OG
-49	계획	O	O	O, B-CV, B-LC, B-TM, B-OG
-50	##이다	O	O	O, B-CV, B-LC, B-TM, B-PS
-51	.	O	O	O, B-LC, B-AF, B-PS, B-OG
-52	[SEP]	O	O	O, B-LC, B-AF, B-CV, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	2003	B-DT	B-DT
+2	##년	I-DT	I-DT
+3	이후	I-DT	I-DT
+4	6	B-EV	B-EV
+5	##자	I-EV	I-EV
+6	##회	I-EV	I-EV
+7	##담	I-EV	I-EV
+8	##을	O	O
+9	통해	O	O
+10	북한	B-OG	B-LC
+11	핵	B-AF	B-AF
+12	문제	O	O
+13	해결	O	O
+14	##의	O	O
+15	간사	B-CV	O
+16	##국	O	O
+17	역할	O	O
+18	##을	O	O
+19	자임	O	O
+20	##했	O	O
+21	##던	O	O
+22	중국	B-LC	B-OG
+23	##은	O	O
+24	북한	B-OG	B-OG
+25	##의	O	O
+26	핵실험	O	O
+27	##과	O	O
+28	장거리	O	O
+29	미사일	B-AF	B-AF
+30	발사	O	O
+31	실험	O	O
+32	##으로	O	O
+33	영향력	O	O
+34	부재	O	O
+35	##를	O	O
+36	드러낸	O	O
+37	것	O	O
+38	##에	O	O
+39	당혹	O	O
+40	##감	O	O
+41	##을	O	O
+42	감추	O	O
+43	##지	O	O
+44	못하	O	O
+45	##고	O	O
+46	있	O	O
+47	##다	O	O
+48	.	O	O
+49	[SEP]	O	O

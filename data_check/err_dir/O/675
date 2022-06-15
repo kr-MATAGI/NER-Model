@@ -1,34 +1,51 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-QT
-1	또	O	O	O, B-OG, B-CV, B-TM, B-LC
-2	러시아	B-LC	B-OG	B-OG, B-LC, O, B-PS, B-TM
-3	##는	O	O	O, I-OG, I-LC, B-OG, I-AF
-4	베트남	B-LC	B-LC	B-LC, B-OG, O, I-OG, B-PS
-5	##의	O	O	O, I-OG, I-LC, I-AF, B-OG
-6	첫	O	O	O, B-QT, B-LC, B-TM, B-AF
-7	핵	O	B-AF	B-AF, O, B-MT, I-AF, B-LC
-8	##발전	O	O	O, I-AF, I-LC, B-AF, B-LC
-9	##소	O	O	O, I-AF, I-LC, B-LC, B-AF
-10	건설	O	O	O, B-LC, I-AF, B-AF, I-LC
-11	##을	O	O	O, B-CV, B-OG, I-AF, B-TM
-12	돕	O	O	O, B-OG, B-TM, B-LC, B-CV
-13	##고	O	O	O, I-OG, B-LC, B-TM, B-OG
-14	있	O	O	O, B-LC, B-OG, I-OG, B-CV
-15	##고	O	O	O, B-LC, B-CV, B-OG, B-TM
-16	헬기	B-AF	B-AF	B-AF, O, I-AF, B-OG, B-TM
-17	##도	O	O	O, I-AF, I-OG, B-CV, I-CV
-18	함께	O	O	O, B-CV, B-TM, B-OG, B-QT
-19	생산	O	O	O, B-TM, B-CV, B-LC, B-OG
-20	##하	O	O	O, B-LC, B-OG, B-PS, B-AF
-21	##는	O	O	O, B-LC, B-TM, B-OG, B-CV
-22	등	O	O	O, B-LC, B-TM, B-OG, B-QT
-23	다방면	O	O	O, B-TM, B-QT, B-LC, B-OG
-24	##의	O	O	O, B-LC, B-OG, B-PS, B-TM
-25	합작	O	O	O, B-TM, B-LC, B-CV, B-OG
-26	사업	O	O	O, I-TM, B-LC, B-TM, I-LC
-27	##도	O	O	O, B-LC, I-OG, B-OG, B-CV
-28	추진	O	O	O, B-TM, B-OG, B-LC, B-CV
-29	중	O	O	O, B-LC, B-OG, I-OG, B-PS
-30	##이다	O	O	O, B-CV, I-OG, B-TM, B-OG
-31	.	O	O	O, B-LC, B-OG, B-TM, B-CV
-32	[SEP]	O	O	O, B-LC, B-TM, B-CV, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	이와	O	O
+2	함께	O	O
+3	매년	O	O
+4	청년	O	O
+5	미	O	B-CV
+6	##취업	O	I-CV
+7	##자	O	I-CV
+8	##를	O	O
+9	기존	O	O
+10	직원	B-CV	B-CV
+11	##의	O	O
+12	3	B-QT	B-QT
+13	%	I-QT	I-QT
+14	또는	O	O
+15	5	B-QT	B-QT
+16	%	I-QT	I-QT
+17	이상	I-QT	I-QT
+18	의무	O	O
+19	채용	O	O
+20	##토록	O	O
+21	하	O	O
+22	##는	O	O
+23	청년	B-CV	B-CV
+24	##고	I-CV	I-CV
+25	##용	I-CV	I-CV
+26	##촉	I-CV	I-CV
+27	##진	I-CV	I-CV
+28	##법	I-CV	I-CV
+29	##안	I-CV	I-CV
+30	##에	O	O
+31	대해서	O	O
+32	##도	O	O
+33	‘	O	O
+34	부담	O	O
+35	된다	O	O
+36	’	O	O
+37	는	O	O
+38	응답	O	O
+39	##이	O	O
+40	71	B-QT	B-QT
+41	.	I-QT	I-QT
+42	7	I-QT	I-QT
+43	%	I-QT	I-QT
+44	를	O	O
+45	차지	O	O
+46	##했	O	O
+47	##다	O	O
+48	.	O	O
+49	[SEP]	O	O

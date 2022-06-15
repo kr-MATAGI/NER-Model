@@ -1,39 +1,76 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-QT
-1	그	O	O	O, B-CV, B-PS, B-LC, B-OG
-2	##는	O	O	O, B-PS, B-CV, B-LC, B-OG
-3	2001	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-OG
-4	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-5	##부터	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-6	축산	B-OG	O	O, B-OG, I-OG, B-CV, B-LC
-7	##과학	I-OG	O	O, I-OG, B-OG, I-CV, I-AF
-8	##원	I-OG	O	O, I-OG, B-OG, I-CV, I-AF
-9	##에서	O	O	O, I-OG, B-CV, B-PS, I-QT
-10	일	O	O	O, B-CV, B-LC, B-OG, B-PS
-11	##하면	O	O	O, B-LC, B-CV, B-PS, B-OG
-12	##서	O	O	O, B-LC, B-CV, B-PS, B-TM
-13	유전자	O	O	O, B-TM, B-LC, B-MT, B-CV
-14	##원	O	O	O, I-TM, I-LC, I-CV, I-TR
-15	이용	O	O	O, B-LC, I-LC, I-TM, B-PS
-16	##과	O	O	O, B-PS, B-LC, B-OG, B-CV
-17	생물	O	O	O, B-TM, B-LC, B-MT, B-TR
-18	##다	O	O	O, I-LC, I-TM, I-TR, I-MT
-19	##양	O	O	O, I-LC, I-TR, I-TM, I-OG
-20	##성	O	O	O, I-LC, I-TR, I-TM, I-PS
-21	보존	O	O	O, I-LC, I-TR, I-OG, I-TM
-22	등	O	O	O, B-LC, B-CV, B-PS, I-OG
-23	##을	O	O	O, B-PS, B-LC, B-CV, B-OG
-24	위한	O	O	O, B-LC, B-PS, B-OG, B-TM
-25	국제	O	O	O, B-LC, B-CV, B-PS, B-OG
-26	무대	O	O	O, B-CV, B-LC, B-PS, B-OG
-27	##에서	O	O	O, B-LC, B-PS, B-CV, B-OG
-28	한국	B-LC	B-LC	B-LC, B-OG, O, B-PS, B-AF
-29	정부	B-OG	B-OG	B-OG, I-OG, O, B-LC, B-CV
-30	대표	B-CV	B-CV	B-CV, O, I-CV, I-OG, B-OG
-31	##로	O	O	O, I-CV, I-OG, B-CV, I-EV
-32	활동	O	O	O, B-CV, B-LC, B-OG, B-PS
-33	##해	O	O	O, B-PS, B-LC, B-CV, B-OG
-34	##왔	O	O	O, B-PS, B-LC, B-CV, I-OG
-35	##다	O	O	O, B-CV, B-LC, B-PS, B-OG
-36	.	O	O	O, B-LC, B-PS, B-CV, B-OG
-37	[SEP]	O	O	O, B-LC, B-CV, B-PS, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	영국	B-OG	B-LC
+2	##은	O	O
+3	2007	B-DT	B-DT
+4	##년	I-DT	I-DT
+5	런던	B-DT	B-DT
+6	테러	I-DT	I-DT
+7	이후	I-DT	I-DT
+8	행인	O	B-CV
+9	##을	O	O
+10	대상	O	O
+11	##으로	O	O
+12	무작위	O	O
+13	검문	O	O
+14	(	O	O
+15	St	O	O
+16	##op	O	O
+17	and	O	O
+18	Se	O	O
+19	##ar	O	O
+20	##ch	O	O
+21	)	O	O
+22	을	O	O
+23	강화	O	O
+24	##했	O	O
+25	##는데	O	O
+26	,	O	O
+27	런던	B-EV	B-EV
+28	테러	I-EV	I-EV
+29	발생	O	O
+30	이전	O	O
+31	##보	O	O
+32	##다	O	O
+33	흑인	B-CV	B-CV
+34	대상	O	O
+35	검문	O	O
+36	##이	O	O
+37	32	B-QT	B-QT
+38	##2	I-QT	I-QT
+39	%	I-QT	I-QT
+40	,	O	O
+41	아시아	B-CV	B-CV
+42	##인	I-CV	I-CV
+43	대상	O	O
+44	검문	O	O
+45	##이	O	O
+46	27	B-QT	B-QT
+47	##7	I-QT	I-QT
+48	%	I-QT	I-QT
+49	증가	O	O
+50	##하	O	O
+51	##는	O	O
+52	등	O	O
+53	백인	B-CV	B-CV
+54	(	O	O
+55	185	B-QT	B-QT
+56	%	I-QT	I-QT
+57	)	O	O
+58	에	O	O
+59	비해	O	O
+60	현저히	O	O
+61	높	O	O
+62	##아	O	O
+63	##져	O	O
+64	인종	O	O
+65	차별	O	O
+66	논란	O	O
+67	##이	O	O
+68	거세	O	O
+69	##게	O	O
+70	일	O	O
+71	##었	O	O
+72	##다	O	O
+73	.	O	O
+74	[SEP]	O	O

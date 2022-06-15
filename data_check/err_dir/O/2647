@@ -1,61 +1,14 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	감염	O	O	O, B-TM, B-CV, B-LC, B-AM
-2	경로	O	O	O, I-TM, B-TM, B-LC, I-LC
-3	##가	O	O	O, B-PS, B-LC, B-OG, B-CV
-4	불	O	O	O, B-CV, B-TM, B-LC, B-PS
-5	##확	O	O	O, B-CV, I-CV, B-PS, I-TM
-6	##실	O	O	O, I-CV, I-TM, I-LC, B-LC
-7	##해	O	O	O, B-PS, B-LC, I-PS, I-LC
-8	염려	O	O	O, B-CV, B-PS, B-OG, B-LC
-9	##를	O	O	O, B-PS, B-CV, B-OG, B-LC
-10	키웠	O	O	O, B-CV, B-PS, B-OG, B-LC
-11	##던	O	O	O, B-CV, B-TM, B-PS, B-LC
-12	추정	O	B-CV	B-CV, O, B-TM, B-PS, B-AF
-13	##환	B-CV	I-CV	I-CV, B-CV, O, I-QT, I-TM
-14	##자	I-CV	I-CV	I-CV, O, B-CV, I-TM, I-OG
-15	##인	O	O	O, I-CV, B-PS, B-CV, I-OG
-16	50	B-QT	B-QT	B-QT, O, I-QT, B-PS, B-OG
-17	##대	I-QT	I-QT	I-QT, O, I-PS, I-OG, I-LC
-18	남성	O	O	O, I-QT, B-CV, B-TM, I-CV
-19	버스	B-AF	B-AF	B-AF, O, B-OG, B-CV, B-FD
-20	운전사	B-CV	B-CV	B-CV, I-CV, O, I-AF, I-OG
-21	##는	O	O	O, I-CV, I-AF, B-CV, I-EV
-22	신종	B-TM	B-TM	B-TM, O, B-CV, B-EV, I-TM
-23	플루	I-TM	I-TM	I-TM, O, I-CV, I-EV, I-QT
-24	##와	O	O	O, I-TM, I-EV, I-QT, I-CV
-25	무관	O	O	O, B-CV, B-PS, B-TM, B-LC
-26	##한	O	O	O, B-PS, B-LC, B-CV, B-TM
-27	것	O	O	O, B-CV, B-PS, B-TM, B-OG
-28	##으로	O	O	O, B-PS, B-CV, B-LC, B-TM
-29	밝혀졌	O	O	O, B-CV, B-PS, B-LC, B-TM
-30	##지만	O	O	O, B-CV, B-PS, B-TM, B-LC
-31	,	O	O	O, B-CV, B-LC, B-PS, B-OG
-32	이번	O	O	O, B-PS, B-CV, B-LC, B-TM
-33	##엔	O	O	O, B-PS, B-CV, B-LC, B-TM
-34	신종	B-TM	B-TM	B-TM, O, B-CV, B-EV, I-TM
-35	플루	I-TM	I-TM	I-TM, O, I-CV, I-EV, B-TM
-36	확진	O	O	O, B-CV, I-TM, B-PS, B-TM
-37	##환	O	O	O, B-CV, B-PS, B-TM, B-LC
-38	##자와	O	O	O, B-PS, I-CV, B-CV, B-LC
-39	지난	O	B-DT	B-DT, O, I-DT, B-QT, B-LC
-40	26	O	I-DT	I-DT, O, B-DT, I-PS, I-QT
-41	##일	O	I-DT	I-DT, O, B-DT, I-PS, I-QT
-42	같	O	O	O, I-DT, B-CV, B-TM, B-LC
-43	##은	O	O	O, B-PS, B-LC, B-OG, B-CV
-44	비행기	O	B-AF	B-AF, O, B-OG, I-AF, B-CV
-45	##를	O	O	O, I-AF, I-OG, B-CV, I-CV
-46	탔	O	O	O, B-CV, B-PS, B-LC, B-OG
-47	##던	O	O	O, B-CV, B-PS, B-LC, B-TM
-48	한	O	O	O, B-PS, B-QT, B-LC, B-CV
-49	여성	O	O	O, B-CV, B-TM, I-QT, B-PS
-50	##이	O	O	O, B-PS, B-CV, B-LC, B-OG
-51	추정	O	B-CV	B-CV, O, B-TM, B-PS, B-AF
-52	##환	B-CV	I-CV	I-CV, B-CV, O, I-TM, I-QT
-53	##자	I-CV	I-CV	I-CV, O, B-CV, I-TM, I-OG
-54	##로	O	O	O, I-CV, B-PS, I-QT, B-CV
-55	판정	O	O	O, B-CV, B-PS, B-LC, B-OG
-56	##됐	O	O	O, B-CV, B-PS, B-LC, B-OG
-57	##다	O	O	O, B-CV, B-LC, B-TM, B-PS
-58	.	O	O	O, B-PS, B-CV, B-LC, B-TM
-59	[SEP]	O	O	O, B-CV, B-PS, B-LC, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	어	O	O
+2	이번	O	B-DT
+3	주	O	I-DT
+4	##엔	O	O
+5	아빠	B-CV	B-CV
+6	막	O	O
+7	엄마	B-CV	B-CV
+8	오늘	B-DT	B-DT
+9	집	O	O
+10	##에	O	O
+11	##서	O	O
+12	[SEP]	O	O

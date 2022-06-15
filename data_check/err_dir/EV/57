@@ -1,23 +1,54 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-EV, B-CV, I-CV
-1	A	B-EV	B-OG	B-OG, B-EV, O, B-LC, B-AF
-2	##LC	I-EV	I-OG	I-OG, I-EV, O, B-OG, I-AF
-3	##에	O	O	O, I-OG, I-EV, I-AF, I-CV
-4	미국	B-LC	B-LC	B-LC, B-OG, O, I-LC, B-AF
-5	·	O	O	O, I-LC, I-OG, B-LC, I-EV
-6	영국	B-LC	B-LC	B-LC, B-OG, O, I-LC, B-PS
-7	·	O	O	O, I-LC, B-LC, I-OG, I-DT
-8	일본	B-LC	B-LC	B-LC, B-OG, I-LC, O, B-PS
-9	전직	O	O	O, B-CV, B-PS, I-LC, I-CV
-10	수반	B-CV	B-CV	B-CV, O, I-CV, B-PS, B-QT
-11	##이	O	O	O, I-CV, B-PS, B-CV, I-EV
-12	한꺼번에	O	O	O, B-QT, B-PS, B-LC, B-CV
-13	참석	O	O	O, B-CV, B-EV, B-PS, B-OG
-14	##하	O	O	O, B-PS, B-OG, B-LC, B-CV
-15	##는	O	O	O, B-CV, B-LC, B-OG, B-QT
-16	것	O	O	O, B-LC, B-CV, B-OG, B-PS
-17	##은	O	O	O, B-CV, B-LC, B-OG, I-OG
-18	처음	O	O	O, B-QT, B-CV, B-LC, B-PS
-19	##이다	O	O	O, B-CV, I-QT, I-EV, I-OG
-20	.	O	O	O, B-LC, B-OG, B-PS, B-CV
-21	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	애초	O	O
+2	한	B-LC	B-LC
+3	·	I-LC	O
+4	미	I-LC	B-LC
+5	군	B-OG	B-OG
+6	당국	O	O
+7	##은	O	O
+8	지난해	B-DT	B-DT
+9	열린	O	O
+10	한	B-EV	B-OG
+11	-	I-EV	I-OG
+12	미	I-EV	I-OG
+13	안보	I-EV	I-OG
+14	##협	I-EV	I-OG
+15	##의	I-EV	I-OG
+16	##회의	I-EV	I-OG
+17	(	O	O
+18	SC	B-EV	B-EV
+19	##M	I-EV	I-EV
+20	)	O	O
+21	에서	O	O
+22	2014	B-DT	B-DT
+23	##년	I-DT	I-DT
+24	##까	I-DT	I-DT
+25	##지	I-DT	I-DT
+26	‘	O	O
+27	맞춤	O	O
+28	##형	O	O
+29	억제	O	O
+30	전략	O	O
+31	’	O	O
+32	을	O	O
+33	마련	O	O
+34	##하	O	O
+35	##기	O	O
+36	##로	O	O
+37	합의	O	O
+38	##했	O	O
+39	##지만	O	O
+40	,	O	O
+41	이번	O	O
+42	##에	O	O
+43	이	O	O
+44	##를	O	O
+45	1	B-DT	B-DT
+46	##년	I-DT	I-DT
+47	앞당겨	O	O
+48	발표	O	O
+49	##했	O	O
+50	##다	O	O
+51	.	O	O
+52	[SEP]	O	O

@@ -1,69 +1,39 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	질병관리본부	B-OG	B-OG	B-OG, O, B-AF, B-LC, B-CV
-2	##는	O	O	O, I-OG, B-CV, B-OG, I-AF
-3	최근	O	O	O, B-LC, B-TM, B-DT, B-PS
-4	인플루엔자	B-TM	B-TM	B-TM, O, I-TM, B-CV, B-AF
-5	의심	O	O	O, I-TM, B-CV, B-TM, B-PS
-6	환자	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-OG
-7	비율	O	O	O, I-CV, B-TM, I-QT, I-OG
-8	##이	O	O	O, B-PS, B-OG, B-CV, B-LC
-9	전체	O	O	O, B-TM, B-QT, B-OG, B-LC
-10	외래	O	B-CV	B-CV, O, I-CV, B-TM, B-AF
-11	##환	O	I-CV	I-CV, B-CV, O, I-QT, I-TM
-12	##자	O	I-CV	I-CV, O, B-CV, I-OG, I-TM
-13	1000	B-QT	B-QT	B-QT, I-QT, O, I-CV, B-DT
-14	##명	I-QT	I-QT	I-QT, O, I-CV, B-QT, I-LC
-15	가운데	O	O	O, B-TM, I-QT, B-QT, B-LC
-16	23	B-QT	B-QT	B-QT, I-QT, O, B-DT, B-TM
-17	##명	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-TM
-18	##으로	O	O	O, I-QT, B-CV, B-OG, I-EV
-19	지난해	B-DT	B-DT	B-DT, O, B-QT, B-EV, I-DT
-20	최고	O	O	O, I-DT, B-CV, B-QT, B-PS
-21	##치	O	O	O, B-PS, I-QT, B-LC, B-QT
-22	(	O	O	O, B-CV, B-OG, B-LC, I-OG
-23	44	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-LC
-24	##명	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-25	)	O	O	O, I-QT, I-OG, I-EV, B-CV
-26	에	O	O	O, B-CV, B-OG, B-LC, I-QT
-27	견줘	O	O	O, B-CV, B-TM, B-LC, B-OG
-28	절반	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-TM
-29	수준	O	O	O, I-QT, I-EV, I-OG, I-DT
-30	##이	O	O	O, B-PS, B-CV, B-OG, B-LC
-31	##기	O	O	O, B-OG, B-PS, B-CV, B-LC
-32	##는	O	O	O, B-LC, B-CV, B-PS, B-TM
-33	하지만	O	O	O, B-CV, B-LC, B-TM, B-OG
-34	유행	O	O	O, B-CV, B-TM, B-LC, B-QT
-35	수준	O	O	O, B-CV, B-LC, B-PS, I-OG
-36	##인	O	O	O, B-CV, B-PS, B-LC, B-OG
-37	2	B-QT	B-QT	B-QT, O, I-QT, B-EV, B-DT
-38	.	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-EV
-39	9	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-40	##명	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-41	##을	O	O	O, I-QT, B-CV, I-OG, I-EV
-42	크	O	O	O, B-CV, B-OG, B-TM, B-LC
-43	##게	O	O	O, B-LC, B-OG, B-PS, B-TM
-44	넘어서	O	O	O, B-CV, B-LC, B-TM, B-OG
-45	##고	O	O	O, B-CV, B-PS, B-LC, B-TM
-46	있	O	O	O, B-CV, B-PS, B-LC, B-OG
-47	##기	O	O	O, B-CV, B-LC, B-OG, B-PS
-48	때문	O	O	O, B-CV, B-LC, B-OG, B-TM
-49	##에	O	O	O, B-CV, B-LC, B-OG, B-TM
-50	확인	O	O	O, B-CV, B-TM, B-LC, B-OG
-51	##되	O	O	O, B-LC, B-PS, B-CV, B-OG
-52	##지	O	O	O, B-LC, B-CV, B-PS, B-OG
-53	않	O	O	O, B-LC, B-CV, B-TM, B-OG
-54	##은	O	O	O, B-LC, B-CV, B-PS, B-OG
-55	사망자	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-TM
-56	##가	O	O	O, I-CV, I-QT, I-OG, B-CV
-57	더	O	O	O, B-QT, B-CV, B-TM, B-LC
-58	있	O	O	O, B-QT, B-CV, B-LC, B-TM
-59	##을	O	O	O, B-CV, B-PS, B-TM, B-OG
-60	것	O	O	O, B-CV, B-PS, B-OG, B-TM
-61	##으로	O	O	O, B-CV, B-OG, B-PS, B-TM
-62	추정	O	O	O, B-CV, B-TM, B-OG, B-QT
-63	##하고	O	O	O, B-CV, B-TM, B-OG, I-OG
-64	있	O	O	O, B-CV, B-TM, B-OG, B-LC
-65	##다	O	O	O, B-CV, B-TM, B-OG, I-OG
-66	.	O	O	O, B-LC, B-CV, B-OG, B-PS
-67	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	금융	O	O
+2	##권	O	O
+3	##에	O	O
+4	##선	O	O
+5	저축	O	B-DT
+6	##은행	O	I-DT
+7	사태	O	I-DT
+8	이후	O	I-DT
+9	금감원	B-OG	B-OG
+10	임직원	B-CV	B-CV
+11	##들이	O	O
+12	금융	O	O
+13	##회사	O	O
+14	감사	B-CV	B-CV
+15	등	O	O
+16	##으로	O	O
+17	내려가	O	O
+18	##는	O	O
+19	길이	O	O
+20	막히	O	O
+21	##면	O	O
+22	##서	O	O
+23	민간	O	O
+24	협회	O	O
+25	##로	O	O
+26	방향	O	O
+27	##을	O	O
+28	선회	O	O
+29	##하	O	O
+30	##고	O	O
+31	있	O	O
+32	##다는	O	O
+33	관측	O	O
+34	##이	O	O
+35	나온다	O	O
+36	.	O	O
+37	[SEP]	O	O

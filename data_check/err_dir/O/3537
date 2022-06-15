@@ -1,19 +1,87 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	여름	B-DT	B-DT	B-DT, O, I-DT, B-TI, B-LC
-2	한복	O	O	O, I-DT, B-CV, B-PS, B-QT
-3	##판	O	O	O, B-LC, I-LC, B-PS, I-QT
-4	인제	B-LC	B-LC	B-LC, B-OG, O, B-AF, B-PS
-5	##군	I-LC	I-LC	I-LC, O, I-OG, I-PS, I-AF
-6	만	B-LC	B-LC	B-LC, I-LC, O, B-OG, B-AF
-7	##해	I-LC	I-LC	I-LC, O, I-AF, I-OG, B-LC
-8	##마을	I-LC	I-LC	I-LC, O, I-AF, I-OG, B-LC
-9	,	O	O	O, I-LC, I-AF, I-OG, B-LC
-10	詩	O	B-FD	B-FD, O, B-AF, B-CV, B-EV
-11	·	O	O	O, I-FD, I-AF, I-LC, I-OG
-12	書	O	O	O, B-FD, I-FD, B-AF, B-LC
-13	·	O	O	O, I-FD, I-LC, I-AF, I-OG
-14	[UNK]	O	O	O, B-FD, B-LC, I-FD, B-PS
-15	향기	O	O	O, B-LC, B-PS, B-CV, B-AF
-16	가득	O	O	O, B-PS, B-LC, B-CV, B-OG
-17	[SEP]	O	O	O, B-LC, B-CV, I-LC, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	황	B-PS	B-PS
+2	회장	B-CV	B-CV
+3	##이	O	O
+4	미르	B-OG	B-OG
+5	·	O	O
+6	케이스	B-OG	B-OG
+7	##포츠	I-OG	I-OG
+8	##재단	I-OG	I-OG
+9	##에	O	O
+10	총	O	O
+11	18	B-QT	B-QT
+12	##억	I-QT	I-QT
+13	##원	I-QT	I-QT
+14	##의	O	O
+15	회	O	O
+16	##삿	O	O
+17	##돈	O	O
+18	##을	O	O
+19	대	O	O
+20	##고	O	O
+21	,	O	O
+22	박근혜	B-PS	B-PS
+23	전	O	O
+24	대통령	B-CV	B-CV
+25	##의	O	O
+26	요구	O	O
+27	##를	O	O
+28	받아	O	O
+29	최순	B-PS	B-PS
+30	##실	I-PS	I-PS
+31	측근	O	O
+32	##을	O	O
+33	광고	O	O
+34	##담	O	O
+35	##당	O	O
+36	고위	B-CV	B-CV
+37	##임	I-CV	I-CV
+38	##원	I-CV	I-CV
+39	##으로	O	O
+40	영입	O	O
+41	##하	O	O
+42	##고	O	O
+43	최순	B-PS	B-PS
+44	##실	I-PS	I-PS
+45	소유	O	O
+46	회사	O	O
+47	##를	O	O
+48	광고	O	O
+49	##대	O	O
+50	##행사	O	O
+51	##로	O	O
+52	선정	O	O
+53	##해	O	O
+54	물량	O	O
+55	##을	O	O
+56	몰아주	O	O
+57	##는	O	O
+58	등	O	O
+59	국정	O	B-EV
+60	##농	O	I-EV
+61	##단	O	I-EV
+62	사태	O	I-EV
+63	##를	O	O
+64	지원	O	O
+65	##한	O	O
+66	것	O	O
+67	##으로	O	O
+68	드러난	O	O
+69	것	O	O
+70	##과	O	O
+71	관련	O	O
+72	##해	O	O
+73	공식	O	O
+74	##적	O	O
+75	##으로	O	O
+76	사과	O	O
+77	##하	O	O
+78	##기	O	O
+79	##는	O	O
+80	이번	O	O
+81	##이	O	O
+82	처음	O	O
+83	##이다	O	O
+84	.	O	O
+85	[SEP]	O	O

@@ -1,32 +1,65 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-AF
-1	1990	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-LC
-2	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-3	##대	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-4	한국	B-LC	B-LC	B-LC, O, B-OG, I-LC, B-FD
-5	가요	O	O	O, I-LC, I-OG, I-FD, B-FD
-6	##계	O	O	O, I-OG, B-PS, B-FD, B-CV
-7	##에서	O	O	O, B-PS, B-CV, B-LC, B-OG
-8	J	O	B-FD	B-FD, O, B-OG, B-TR, I-FD
-9	##팝	O	I-FD	I-FD, O, I-OG, B-FD, I-TR
-10	표절	O	O	O, B-CV, I-FD, B-PS, I-EV
-11	논란	O	O	O, I-EV, B-PS, B-CV, I-CV
-12	##이	O	O	O, B-PS, B-OG, B-CV, B-LC
-13	일어날	O	O	O, B-PS, B-CV, B-OG, B-LC
-14	때	O	O	O, B-PS, B-CV, B-OG, I-EV
-15	##마다	O	O	O, B-PS, B-CV, B-OG, B-LC
-16	표절	O	O	O, B-CV, B-PS, B-TM, B-FD
-17	대상	O	O	O, B-PS, B-CV, I-CV, B-OG
-18	##으로	O	O	O, B-PS, B-CV, B-OG, B-LC
-19	거론	O	O	O, B-CV, B-PS, B-OG, B-LC
-20	##됐	O	O	O, B-PS, B-CV, B-OG, B-LC
-21	##던	O	O	O, B-PS, B-OG, B-CV, B-LC
-22	일본	B-LC	B-LC	B-LC, O, B-OG, B-FD, I-LC
-23	그룹	O	O	O, I-OG, I-LC, I-PS, B-PS
-24	##이	O	O	O, B-PS, I-OG, I-PS, I-AF
-25	##기	O	O	O, B-PS, I-OG, I-PS, B-OG
-26	##도	O	O	O, I-OG, I-PS, B-PS, B-LC
-27	했	O	O	O, B-PS, I-OG, B-OG, I-PS
-28	##다	O	O	O, I-OG, B-PS, I-PS, B-CV
-29	.	O	O	O, B-PS, B-CV, B-LC, B-OG
-30	[SEP]	O	O	O, B-PS, B-CV, B-LC, B-FD
+	text	label	preds
+0	[CLS]	O	O
+1	미국	B-LC	B-LC
+2	##의	O	O
+3	버락	B-PS	B-PS
+4	오바마	I-PS	I-PS
+5	행정부	B-OG	B-OG
+6	##와	O	O
+7	의회	O	O
+8	##는	O	O
+9	‘	O	O
+10	경기	O	B-CV
+11	##부	O	I-CV
+12	##양	O	I-CV
+13	##법	O	I-CV
+14	’	O	O
+15	등	O	O
+16	##을	O	O
+17	통해	O	O
+18	청년층	O	O
+19	##의	O	O
+20	직업훈련	O	O
+21	##과	O	O
+22	고용	O	O
+23	##확	O	O
+24	##대	O	O
+25	##를	O	O
+26	위해	O	O
+27	15	B-QT	B-QT
+28	##억	I-QT	I-QT
+29	##달	I-QT	I-QT
+30	##러	I-QT	I-QT
+31	##를	O	O
+32	지원	O	O
+33	##했	O	O
+34	##고	O	O
+35	비	O	O
+36	##숙	O	O
+37	##련	O	O
+38	청년	O	O
+39	등	O	O
+40	##을	O	O
+41	고용	O	O
+42	##하	O	O
+43	##는	O	O
+44	기업	O	O
+45	##에	O	O
+46	##는	O	O
+47	1	B-QT	B-QT
+48	##명	I-QT	I-QT
+49	##당	I-QT	I-QT
+50	1200	B-QT	B-QT
+51	~	I-QT	I-QT
+52	2400	I-QT	I-QT
+53	##달	I-QT	I-QT
+54	##러	I-QT	I-QT
+55	##의	O	O
+56	세금	O	O
+57	##을	O	O
+58	공제	O	O
+59	##해	O	O
+60	##줬	O	O
+61	##다	O	O
+62	.	O	O
+63	[SEP]	O	O

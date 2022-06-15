@@ -1,13 +1,52 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	충남	B-OG	B-OG	B-OG, B-LC, O, B-EV, B-PS
-2	##고	I-OG	I-OG	I-OG, I-LC, O, I-EV, I-QT
-3	동창	I-OG	B-OG	B-OG, I-OG, B-CV, O, B-AF
-4	##산	I-OG	I-OG	I-OG, O, I-EV, I-CV, I-LC
-5	##악	I-OG	I-OG	I-OG, O, I-CV, I-EV, I-LC
-6	##회	I-OG	I-OG	I-OG, O, I-CV, I-EV, I-QT
-7	송	B-PS	B-PS	B-PS, I-PS, O, I-OG, B-OG
-8	##원	I-PS	I-PS	I-PS, I-OG, O, B-PS, I-LC
-9	##빈	I-PS	I-PS	I-PS, O, I-OG, I-LC, I-QT
-10	##씨	O	O	O, I-PS, I-OG, I-QT, I-AF
-11	[SEP]	O	O	O, B-CV, B-OG, I-OG, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	1982	B-DT	B-DT
+2	##년	I-DT	I-DT
+3	<	O	O
+4	영	B-OG	B-AF
+5	##매	I-OG	I-AF
+6	##거진	I-OG	I-AF
+7	>	O	O
+8	에	O	O
+9	연재	O	O
+10	##를	O	O
+11	시작	O	O
+12	##한	O	O
+13	아키라	B-AF	B-AF
+14	##는	O	O
+15	세련	O	O
+16	##되	O	O
+17	##고	O	O
+18	웅	O	O
+19	##대	O	O
+20	##한	O	O
+21	그림	O	O
+22	스타일	O	O
+23	,	O	O
+24	작가	B-CV	B-CV
+25	##의	O	O
+26	독특	O	O
+27	##한	O	O
+28	세계관	O	O
+29	##에	O	O
+30	근거	O	O
+31	##한	O	O
+32	묵시	O	O
+33	##록	O	O
+34	##적	O	O
+35	##인	O	O
+36	내용	O	O
+37	,	O	O
+38	긴장감	O	O
+39	##이	O	O
+40	넘치	O	O
+41	##는	O	O
+42	줄거리	O	O
+43	##로	O	O
+44	인기	O	O
+45	##를	O	O
+46	끌	O	O
+47	##었	O	O
+48	##다	O	O
+49	.	O	O
+50	[SEP]	O	O

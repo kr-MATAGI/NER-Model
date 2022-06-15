@@ -1,23 +1,37 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	이후	O	O	O, B-DT, B-OG, B-LC, B-EV
-2	내각	O	B-OG	B-OG, O, I-OG, B-CV, B-LC
-3	법제	O	I-OG	I-OG, O, B-OG, B-CV, I-CV
-4	##국	O	I-OG	I-OG, O, B-OG, I-CV, I-EV
-5	##이	O	O	O, I-OG, B-PS, B-OG, I-EV
-6	이런	O	O	O, B-CV, I-OG, B-LC, B-OG
-7	행위	O	O	O, B-CV, B-PS, B-OG, B-LC
-8	##가	O	O	O, B-PS, B-CV, B-OG, B-LC
-9	헌법	B-CV	B-CV	B-CV, O, B-OG, B-AF, B-FD
-10	##에	O	O	O, I-CV, I-OG, I-AF, I-EV
-11	부합	O	O	O, B-CV, B-OG, B-LC, B-PS
-12	##한다	O	O	O, B-PS, B-LC, B-OG, B-CV
-13	##고	O	O	O, B-PS, B-LC, B-OG, B-CV
-14	해석	O	O	O, B-CV, B-PS, I-QT, B-OG
-15	##하면	O	O	O, B-CV, B-OG, B-LC, B-PS
-16	최종	O	O	O, B-CV, B-OG, B-LC, B-QT
-17	확정	O	O	O, B-CV, B-OG, B-LC, I-OG
-18	##된	O	O	O, B-CV, B-OG, I-OG, B-LC
-19	##다	O	O	O, B-CV, I-OG, B-OG, B-LC
-20	.	O	O	O, B-OG, B-CV, B-LC, B-PS
-21	[SEP]	O	O	O, B-CV, B-OG, I-OG, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	웨	B-OG	B-OG
+2	##스틴	I-OG	I-OG
+3	##조선	I-OG	I-OG
+4	##호텔	I-OG	I-OG
+5	##은	O	O
+6	나인	O	B-AF
+7	##스	O	I-AF
+8	게이트	O	I-AF
+9	,	O	O
+10	베	B-OG	B-AF
+11	##키아	I-OG	I-AF
+12	에	I-OG	I-AF
+13	누	I-OG	I-AF
+14	##보	I-OG	I-AF
+15	,	O	O
+16	컴	B-OG	B-AF
+17	##파	I-OG	I-AF
+18	##스	I-OG	I-AF
+19	로즈	I-OG	I-AF
+20	##에	O	O
+21	##서	O	O
+22	밸	B-DT	B-DT
+23	##런	I-DT	I-DT
+24	##타인	I-DT	I-DT
+25	##데이	I-DT	I-DT
+26	##에	O	O
+27	어울리	O	O
+28	##는	O	O
+29	디너	O	O
+30	##를	O	O
+31	준비	O	O
+32	중이	O	O
+33	##다	O	O
+34	.	O	O
+35	[SEP]	O	O

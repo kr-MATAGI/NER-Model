@@ -1,41 +1,13 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-QT
-1	자세	O	O	O, B-TM, B-OG, B-CV, B-LC
-2	##한	O	O	O, B-OG, B-LC, B-PS, B-TM
-3	내용	O	O	O, B-OG, B-CV, B-LC, B-TM
-4	##은	O	O	O, B-OG, B-LC, B-CV, B-PS
-5	시	O	B-OG	B-OG, O, B-CV, B-PS, B-LC
-6	보건	B-OG	O	O, B-OG, I-OG, B-CV, B-FD
-7	##정책	I-OG	I-OG	I-OG, O, I-CV, B-OG, I-FD
-8	##과	I-OG	O	O, I-OG, I-CV, B-OG, I-FD
-9	(	O	O	O, I-OG, I-CV, B-CV, I-QT
-10	02	B-QT	B-QT	B-QT, I-QT, O, B-DT, B-TM
-11	-	I-QT	I-QT	I-QT, O, I-LC, I-OG, B-QT
-12	370	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-13	##7	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-14	-	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-15	92	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-16	##82	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-17	)	O	O	O, I-QT, B-CV, B-OG, I-OG
-18	로	O	O	O, B-OG, B-LC, B-PS, B-TM
-19	전화	O	O	O, B-CV, B-TM, B-LC, B-OG
-20	##하	O	O	O, B-PS, B-LC, B-OG, B-TM
-21	##거나	O	O	O, B-LC, B-OG, B-TM, B-CV
-22	홈페이지	O	O	O, B-CV, B-LC, B-TM, B-OG
-23	(	O	O	O, B-LC, B-CV, B-OG, B-TM
-24	bl	B-TM	B-TM	B-TM, O, B-QT, I-TM, B-CV
-25	##ut	I-TM	I-TM	I-TM, I-QT, O, B-TM, I-AF
-26	##ou	I-TM	I-TM	I-TM, O, I-QT, I-AF, I-OG
-27	##ch	I-TM	I-TM	I-TM, I-QT, O, I-AF, I-OG
-28	.	I-TM	I-TM	I-TM, O, I-QT, I-AF, I-OG
-29	net	I-TM	I-TM	I-TM, O, I-QT, I-AF, I-OG
-30	)	O	O	O, I-TM, I-QT, I-OG, I-AF
-31	를	O	O	O, B-OG, B-CV, B-LC, B-TM
-32	통해	O	O	O, B-LC, B-OG, B-TM, B-CV
-33	확인	O	O	O, B-CV, B-TM, B-OG, B-LC
-34	##할	O	O	O, B-TM, B-PS, B-OG, B-LC
-35	수	O	O	O, B-TM, B-CV, B-OG, B-LC
-36	있	O	O	O, B-CV, B-TM, B-OG, B-QT
-37	##다	O	O	O, B-CV, B-OG, B-TM, B-LC
-38	.	O	O	O, B-LC, B-OG, B-TM, B-CV
-39	[SEP]	O	O	O, B-LC, B-TM, B-CV, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	이제	O	O
+2	산림청	B-OG	B-OG
+3	직원	B-CV	B-CV
+4	지방	B-OG	B-CV
+5	##자치단체	I-OG	I-CV
+6	##공	B-CV	B-CV
+7	##무원	I-CV	I-CV
+8	전	O	O
+9	직원	B-CV	B-CV
+10	##이	O	O
+11	[SEP]	O	O

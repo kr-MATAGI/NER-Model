@@ -1,35 +1,8 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-EV
-1	1920	B-DT	B-DT	B-DT, O, B-QT, I-DT, B-EV
-2	##년	I-DT	I-DT	I-DT, O, I-QT, B-DT, I-PS
-3	‘	O	O	O, I-DT, B-LC, B-CV, B-OG
-4	제비	B-AF	B-OG	B-OG, B-AF, B-CV, O, B-PT
-5	##원	I-AF	I-AF	I-AF, I-OG, I-CV, O, I-LC
-6	’	O	O	O, I-OG, I-AF, I-CV, I-EV
-7	이라	O	O	O, B-CV, I-CV, I-AF, B-PS
-8	##는	O	O	O, I-CV, I-AF, B-CV, I-QT
-9	상표	O	O	O, B-CV, I-CV, B-PS, B-TM
-10	##를	O	O	O, I-CV, B-PS, I-AF, I-OG
-11	달	O	O	O, B-CV, B-LC, B-PS, B-TM
-12	##고	O	O	O, B-PS, I-CV, B-LC, I-LC
-13	처음	O	O	O, B-CV, B-LC, B-QT, B-TM
-14	대량	O	O	O, B-LC, B-CV, B-TM, B-OG
-15	##생산	O	O	O, B-CV, B-LC, B-TM, I-OG
-16	##이	O	O	O, B-PS, B-OG, B-LC, B-CV
-17	됐으나	O	O	O, B-LC, B-CV, B-QT, B-TM
-18	,	O	O	O, B-LC, B-CV, B-OG, B-DT
-19	1962	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-20	##년	I-DT	I-DT	I-DT, O, I-QT, B-DT, I-PS
-21	순	O	O	O, B-CV, B-LC, B-OG, B-PT
-22	##곡	O	O	O, I-CV, I-LC, I-PT, I-OG
-23	소주	B-CV	B-CV	B-CV, I-CV, O, B-AF, I-AF
-24	금지	O	O	O, I-CV, B-CV, I-OG, I-LC
-25	##령	O	O	O, I-CV, I-LC, I-OG, I-EV
-26	##으로	O	O	O, I-CV, I-OG, B-PS, I-EV
-27	잠시	O	O	O, B-QT, B-LC, B-CV, B-TM
-28	명맥	O	O	O, B-CV, B-TM, B-LC, I-QT
-29	##이	O	O	O, B-PS, B-OG, B-CV, B-LC
-30	끊겼	O	O	O, B-CV, B-LC, B-TM, B-QT
-31	##다	O	O	O, B-CV, I-OG, I-CV, B-TM
-32	.	O	O	O, B-LC, B-CV, B-PS, I-OG
-33	[SEP]	O	O	O, B-CV, B-LC, I-OG, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	엘	B-AF	B-TM
+2	##오	I-AF	I-TM
+3	##엘	I-AF	I-TM
+4	##이	O	O
+5	##라는	O	O
+6	[SEP]	O	O

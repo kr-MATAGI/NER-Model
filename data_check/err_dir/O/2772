@@ -1,12 +1,19 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	허브	B-CV	B-CV	B-CV, O, B-PT, I-CV, B-OG
-2	##랑	O	O	O, I-CV, I-OG, I-AF, B-CV
-3	그	O	O	O, B-CV, B-OG, B-QT, I-CV
-4	다음	O	O	O, B-CV, B-QT, B-DT, B-PS
-5	##에	O	O	O, B-CV, B-PS, B-OG, B-QT
-6	오	O	B-CV	B-CV, O, B-PT, B-QT, B-LC
-7	오일	B-CV	I-CV	I-CV, B-CV, O, I-QT, I-OG
-8	##하고	O	O	O, I-CV, I-QT, I-OG, B-CV
-9	같이	O	O	O, B-CV, I-CV, B-OG, B-QT
-10	[SEP]	O	O	O, B-CV, I-CV, B-LC, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	나	O	O
+2	##도	O	O
+3	그렇게	O	O
+4	택시	O	B-AF
+5	##비	O	O
+6	요금	O	O
+7	비싸	O	O
+8	##다	O	O
+9	##하	O	O
+10	##는	O	O
+11	얘기	O	O
+12	##를	O	O
+13	들	O	O
+14	##었	O	O
+15	##어	O	O
+16	##서	O	O
+17	[SEP]	O	O

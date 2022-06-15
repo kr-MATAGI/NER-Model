@@ -1,30 +1,17 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	가	B-LC	B-LC	B-LC, B-OG, O, B-PS, B-AF
-2	##봉	I-LC	I-LC	I-LC, I-OG, O, I-PS, B-LC
-3	,	O	O	O, I-LC, I-OG, I-PS, I-AF
-4	自	O	B-CV	B-CV, O, B-OG, I-CV, B-LC
-5	國	O	I-CV	I-CV, O, B-CV, I-OG, I-LC
-6	법	O	I-CV	I-CV, O, B-CV, I-OG, I-FD
-7	어	O	O	O, I-CV, B-CV, I-OG, I-AF
-8	##겼	O	O	O, I-CV, B-CV, B-PS, B-LC
-9	##단	O	O	O, B-PS, B-LC, I-CV, B-CV
-10	이유로	O	O	O, B-LC, B-PS, B-CV, B-OG
-11	중국	B-LC	B-LC	B-LC, B-OG, O, B-PS, B-AF
-12	##의	O	O	O, I-OG, I-LC, I-AF, I-PS
-13	석유	B-MT	B-MT	B-MT, O, B-CV, I-MT, B-AF
-14	채굴	B-CV	O	O, B-CV, I-CV, I-MT, B-MT
-15	##권	I-CV	O	O, I-CV, B-CV, I-MT, I-TM
-16	회수	O	O	O, B-OG, B-LC, I-CV, B-CV
-17	…	O	O	O, I-OG, I-CV, B-LC, B-OG
-18	가나	B-LC	B-LC	B-LC, B-OG, O, B-PS, B-CV
-19	""""	O	O	O, I-OG, I-LC, I-CV, B-CV
-20	불법	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-AF
-21	##체	I-CV	I-CV	I-CV, O, B-CV, I-AM, I-TM
-22	##류	I-CV	I-CV	I-CV, O, B-CV, I-TM, I-OG
-23	##자	I-CV	I-CV	I-CV, O, B-CV, I-TM, I-OG
-24	추방	O	O	O, I-CV, B-CV, B-TM, B-QT
-25	##할	O	O	O, I-CV, B-CV, B-PS, B-LC
-26	것	O	O	O, B-CV, B-PS, I-CV, B-LC
-27	""""	O	O	O, B-CV, I-CV, B-LC, B-PS
-28	[SEP]	O	O	O, B-CV, B-LC, I-CV, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	아	O	O
+2	.	O	O
+3	네	O	O
+4	.	O	O
+5	제	O	O
+6	##가	O	O
+7	그	O	O
+8	~	O	O
+9	이전	O	O
+10	##에	O	O
+11	근무	O	O
+12	##하	O	O
+13	##던	O	O
+14	직장인	B-CV	O
+15	[SEP]	O	O

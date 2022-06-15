@@ -1,21 +1,42 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	“	O	O	O, B-CV, B-LC, B-PS, B-DT
-2	중공	B-OG	B-OG	B-OG, O, B-CV, B-EV, B-LC
-3	##군	I-OG	I-OG	I-OG, O, I-CV, I-EV, I-LC
-4	##의	O	O	O, I-OG, I-EV, B-PS, I-AF
-5	인해	O	B-TR	B-TR, O, B-TM, B-AM, B-AF
-6	##전	O	I-TR	I-TR, O, I-TM, I-AF, I-FD
-7	##술	O	I-TR	I-TR, O, I-TM, I-AF, I-CV
-8	##에	O	O	O, I-TR, I-AF, I-TM, I-CV
-9	정말	O	O	O, B-CV, B-OG, B-TM, I-AF
-10	많	O	O	O, B-CV, B-QT, B-PS, B-TM
-11	##은	O	O	O, B-PS, B-CV, B-LC, B-OG
-12	전우	B-CV	B-CV	B-CV, O, I-CV, B-AF, B-PS
-13	##가	O	O	O, I-CV, I-AF, B-PS, B-CV
-14	죽	O	O	O, B-CV, B-TM, B-QT, B-OG
-15	##었	O	O	O, B-CV, I-AF, I-CV, I-OG
-16	##습	O	O	O, B-CV, I-AF, I-OG, I-CV
-17	##니다	O	O	O, B-CV, B-LC, B-TM, I-OG
-18	.	O	O	O, B-CV, B-LC, B-PS, B-OG
-19	[SEP]	O	O	O, B-CV, B-LC, I-AF, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	이	O	O
+2	보고서	O	O
+3	##는	O	O
+4	또	O	O
+5	“	O	O
+6	1995	B-DT	B-DT
+7	##년	I-DT	I-DT
+8	한	B-OG	B-OG
+9	-	I-OG	I-OG
+10	미	I-OG	I-OG
+11	연례	I-OG	I-OG
+12	##안	I-OG	I-OG
+13	##보	I-OG	I-OG
+14	##협	I-OG	I-OG
+15	##의	I-OG	I-OG
+16	##회	I-OG	I-OG
+17	##에	O	O
+18	##서	O	O
+19	한	B-OG	B-OG
+20	-	I-OG	I-OG
+21	미	I-OG	I-OG
+22	미사일	I-OG	I-OG
+23	협약	I-OG	I-OG
+24	##이	O	O
+25	우리	O	O
+26	정부	B-OG	B-OG
+27	##의	O	O
+28	미사일	B-AF	B-AF
+29	개발	O	O
+30	주권	O	B-CV
+31	##을	O	O
+32	침해	O	O
+33	##한다	O	O
+34	##는	O	O
+35	지적	O	O
+36	##이	O	O
+37	나왔	O	O
+38	##다	O	O
+39	.	O	O
+40	[SEP]	O	O

@@ -1,40 +1,54 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-QT
-1	지난	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-OG
-2	1	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-3	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-OG
-4	##부터	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-OG
-5	지역	O	O	O, I-DT, B-LC, B-CV, B-OG
-6	등	O	O	O, I-AF, I-OG, B-LC, I-LC
-7	##에	O	O	O, B-LC, B-CV, B-PS, B-OG
-8	따라	O	O	O, B-LC, B-OG, B-PS, B-TM
-9	50	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-LC
-10	~	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-OG
-11	60	I-QT	I-QT	I-QT, B-QT, O, I-LC, I-OG
-12	%	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-OG
-13	로	O	O	O, I-QT, B-LC, B-OG, B-PS
-14	다르	O	O	O, B-LC, B-OG, B-TM, B-CV
-15	##던	O	O	O, B-LC, B-TM, B-OG, B-PS
-16	은행	O	O	O, B-TM, B-CV, B-LC, B-OG
-17	##권	O	O	O, I-TM, I-LC, I-OG, I-AF
-18	엘	O	B-TM	B-TM, O, B-TR, B-AF, B-CV
-19	##티브	O	I-TM	I-TM, O, I-TR, I-AF, I-CV
-20	##이	O	I-TM	I-TM, O, I-TR, I-OG, I-CV
-21	##와	O	O	O, I-TM, I-OG, I-AF, I-CV
-22	디	O	B-TM	B-TM, O, B-TR, B-AF, B-CV
-23	##티아	O	I-TM	I-TM, O, I-TR, I-AF, I-OG
-24	##이	O	I-TM	I-TM, O, I-TR, I-OG, I-AF
-25	##가	O	O	O, I-TM, I-OG, I-AF, I-QT
-26	각각	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-OG
-27	70	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-DT
-28	%	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-OG
-29	와	O	O	O, I-QT, I-OG, B-QT, I-DT
-30	60	B-QT	B-QT	B-QT, I-QT, O, B-DT, B-OG
-31	%	I-QT	I-QT	I-QT, O, I-LC, I-OG, B-QT
-32	까지	O	O	O, I-QT, I-OG, B-OG, B-CV
-33	상향	O	O	O, B-TM, B-CV, B-QT, B-OG
-34	조정	O	O	O, I-QT, B-CV, I-OG, I-CV
-35	##됐	O	O	O, B-CV, B-LC, B-OG, I-OG
-36	##다	O	O	O, B-CV, B-LC, B-TM, I-OG
-37	.	O	O	O, B-LC, B-OG, B-TM, B-PS
-38	[SEP]	O	O	O, B-LC, B-CV, B-TM, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	핵심	O	O
+2	##은	O	O
+3	여수	B-EV	B-EV
+4	##엑스	I-EV	I-EV
+5	##포	I-EV	I-EV
+6	유치	O	O
+7	당시	O	O
+8	'	O	O
+9	여수	O	B-LC
+10	'	O	O
+11	라는	O	O
+12	개최	O	O
+13	##도	O	O
+14	##시	O	O
+15	##를	O	O
+16	먼저	O	O
+17	정하	O	O
+18	##고	O	O
+19	한국	B-LC	B-LC
+20	##이	O	O
+21	다른	O	O
+22	나라	O	O
+23	##와	O	O
+24	개최	O	O
+25	##를	O	O
+26	놓	O	O
+27	##고	O	O
+28	경쟁	O	O
+29	##했	O	O
+30	##던	O	O
+31	것	O	O
+32	##처럼	O	O
+33	,	O	O
+34	이번	O	O
+35	##에도	O	O
+36	개최	O	O
+37	##국	O	O
+38	선정	O	O
+39	이전	O	O
+40	##에	O	O
+41	개최	O	O
+42	##도	O	O
+43	##시	O	O
+44	##를	O	O
+45	우선	O	O
+46	정하	O	O
+47	##자	O	O
+48	##는	O	O
+49	것	O	O
+50	##이다	O	O
+51	.	O	O
+52	[SEP]	O	O

@@ -1,30 +1,51 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	나	O	O	O, B-CV, B-PS, B-TM, B-OG
-2	##한	O	O	O, B-CV, B-PS, B-TM, B-LC
-3	##테	O	O	O, B-CV, B-PS, I-AF, I-CV
-4	앞	O	B-TM	B-TM, O, B-QT, B-CV, B-LC
-5	##에	O	O	O, I-TM, I-QT, I-AF, I-CV
-6	타	O	O	O, B-CV, B-AF, B-OG, B-PS
-7	##라는	O	O	O, B-CV, I-AF, B-PS, I-OG
-8	거	O	O	O, B-CV, B-PS, B-OG, B-LC
-9	##야	O	O	O, I-OG, I-AF, I-QT, I-CV
-10	그래서	O	O	O, B-CV, B-LC, B-OG, B-TM
-11	아니요	O	O	O, B-CV, B-TM, B-LC, B-OG
-12	그냥	O	O	O, B-CV, B-OG, B-LC, B-TM
-13	사모님	B-CV	B-CV	B-CV, O, B-TM, B-PS, B-OG
-14	##이	O	O	O, I-CV, B-PS, B-CV, I-AF
-15	앞	O	O	O, B-TM, B-QT, B-CV, B-LC
-16	##에	O	O	O, I-TM, I-QT, I-CV, I-AF
-17	타	O	O	O, B-CV, B-AF, B-OG, B-LC
-18	##시고	O	O	O, B-CV, I-AF, B-OG, B-PS
-19	저	O	O	O, B-CV, B-OG, B-LC, B-PS
-20	##는	O	O	O, B-CV, I-AF, B-TM, B-OG
-21	그냥	O	O	O, B-CV, B-TM, B-OG, B-QT
-22	뒤	O	B-TM	B-TM, O, B-CV, B-LC, B-QT
-23	##에	O	O	O, I-TM, I-AF, I-CV, I-QT
-24	타	O	O	O, B-CV, B-AF, B-OG, B-LC
-25	##겠다	O	O	O, B-CV, I-AF, I-CV, B-QT
-26	그랬	O	O	O, B-CV, B-OG, B-TM, B-LC
-27	##지	O	O	O, B-CV, I-AF, B-OG, B-LC
-28	[SEP]	O	O	O, B-CV, B-LC, B-AF, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	그동안	O	O
+2	전자	O	O
+3	##금융	O	O
+4	##거래	O	O
+5	##를	O	O
+6	할	O	O
+7	##때	O	O
+8	##는	O	O
+9	공인	B-TM	B-TM
+10	##인	I-TM	I-TM
+11	##증	I-TM	I-TM
+12	##서	I-TM	I-TM
+13	##를	O	O
+14	사용	O	O
+15	##해야	O	O
+16	했	O	O
+17	##고	O	O
+18	이	O	O
+19	##를	O	O
+20	위해서	O	O
+21	##는	O	O
+22	액티브	O	B-TM
+23	##엑스	O	I-TM
+24	보안	O	O
+25	##프로	O	O
+26	##그램	O	O
+27	##을	O	O
+28	깔	O	O
+29	##아	O	O
+30	##야	O	O
+31	해	O	O
+32	소비자	B-CV	B-CV
+33	##들의	O	O
+34	인터넷	O	O
+35	접근	O	O
+36	##을	O	O
+37	어렵	O	O
+38	##게	O	O
+39	한다는	O	O
+40	비판	O	O
+41	##이	O	O
+42	끊이	O	O
+43	##지	O	O
+44	않	O	O
+45	##아	O	O
+46	##왔	O	O
+47	##다	O	O
+48	.	O	O
+49	[SEP]	O	O

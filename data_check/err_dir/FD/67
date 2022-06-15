@@ -1,19 +1,74 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	“	O	O	O, B-CV, B-LC, B-OG, B-PS
-2	이중	B-PS	B-PS	B-PS, O, B-OG, B-AF, B-LC
-3	##환	I-PS	I-PS	I-PS, O, I-OG, I-LC, I-AF
-4	##의	O	O	O, I-PS, B-LC, I-AF, B-FD
-5	‘	O	O	O, B-LC, B-CV, B-OG, B-AF
-6	택	B-AF	B-AF	B-AF, B-PS, I-AF, B-LC, B-EV
-7	##리지	I-AF	I-AF	I-AF, I-PS, I-LC, O, I-EV
-8	’	O	O	O, I-AF, I-EV, I-OG, I-QT
-9	는	O	O	O, B-LC, B-CV, B-OG, I-AF
-10	구비	B-FD	B-FD	B-FD, O, I-FD, B-AF, B-TR
-11	##문학	I-FD	I-FD	I-FD, O, B-FD, I-AF, I-TR
-12	##과	O	O	O, I-FD, I-AF, I-OG, I-QT
-13	스토리텔링	B-FD	O	O, B-FD, B-TM, B-TR, B-LC
-14	##의	O	O	O, B-PS, I-AF, B-CV, B-LC
-15	보고	O	O	O, B-CV, B-QT, B-PS, B-LC
-16	”	O	O	O, I-OG, B-CV, I-QT, B-LC
-17	[SEP]	O	O	O, B-LC, B-CV, B-FD, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	정희	B-PS	B-PS
+2	##준	I-PS	I-PS
+3	동아	B-OG	B-OG
+4	##대	I-OG	I-OG
+5	생활	O	O
+6	##체육	O	O
+7	##학	O	O
+8	##과	O	O
+9	교수	B-CV	B-CV
+10	(	O	O
+11	스포츠	B-FD	O
+12	##사회	I-FD	O
+13	##학	I-FD	O
+14	)	O	O
+15	는	O	O
+16	“	O	O
+17	자치단	O	O
+18	##체	O	O
+19	##장이	O	O
+20	예산	O	O
+21	상황	O	O
+22	등	O	O
+23	##을	O	O
+24	고려	O	O
+25	##하	O	O
+26	##지	O	O
+27	않	O	O
+28	##고	O	O
+29	국제	O	O
+30	##행사	O	O
+31	##를	O	O
+32	유치	O	O
+33	##하	O	O
+34	##는	O	O
+35	것	O	O
+36	##이	O	O
+37	문제	O	O
+38	”	O	O
+39	라며	O	O
+40	“	O	O
+41	행사	O	O
+42	뒤	O	O
+43	도로	O	O
+44	·	O	O
+45	경기장	O	O
+46	등	O	O
+47	빈	O	O
+48	##껍	O	O
+49	##데기	O	O
+50	##만	O	O
+51	남	O	O
+52	##고	O	O
+53	,	O	O
+54	빚	O	O
+55	##더미	O	O
+56	##에	O	O
+57	오르	O	O
+58	##는	O	O
+59	악순환	O	O
+60	##이	O	O
+61	지속	O	O
+62	##되	O	O
+63	##고	O	O
+64	있	O	O
+65	##다	O	O
+66	”	O	O
+67	고	O	O
+68	지적	O	O
+69	##했	O	O
+70	##다	O	O
+71	.	O	O
+72	[SEP]	O	O

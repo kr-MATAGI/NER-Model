@@ -1,20 +1,52 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-EV, I-OG, I-CV, B-CV
-1	“	O	O	O, B-CV, B-LC, B-PS, B-TM
-2	위대	O	O	O, B-CV, B-FD, B-AF, B-PS
-3	##한	O	O	O, I-AF, B-LC, B-PS, I-EV
-4	로	B-FD	B-FD	B-FD, O, B-AF, B-CV, I-FD
-5	##큰	I-FD	I-FD	I-FD, I-AF, O, B-FD, I-CV
-6	##롤	I-FD	I-FD	I-FD, O, I-AF, I-CV, B-FD
-7	공연	O	O	O, I-FD, B-FD, I-EV, I-AF
-8	하나	O	B-QT	B-QT, O, I-QT, B-TM, B-LC
-9	##가	O	O	O, I-QT, B-PS, I-EV, I-AF
-10	세상	O	O	O, B-LC, B-CV, B-TM, B-PS
-11	##을	O	O	O, B-CV, B-PS, I-AF, I-OG
-12	바꿀	O	O	O, B-PS, B-LC, B-CV, B-OG
-13	수	O	O	O, B-PS, B-LC, B-CV, B-OG
-14	있	O	O	O, I-AF, B-CV, I-OG, I-EV
-15	##다	O	O	O, I-OG, I-AF, I-EV, B-CV
-16	.	O	O	O, B-PS, B-LC, B-CV, I-EV
-17	”	O	O	O, B-CV, B-LC, B-OG, B-TM
-18	[SEP]	O	O	O, B-CV, I-EV, B-PS, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	‘	O	O
+2	카	B-AF	B-AF
+3	##논	I-AF	I-AF
+4	…	O	I-AF
+5	’	O	O
+6	은	O	O
+7	연극	B-FD	B-FD
+8	속	O	O
+9	##에	O	O
+10	##서	O	O
+11	펼쳐지	O	O
+12	##는	O	O
+13	고대	O	B-DT
+14	그리스	B-LC	I-DT
+15	##와	O	O
+16	연극	B-FD	B-FD
+17	##을	O	O
+18	만드	O	O
+19	##는	O	O
+20	현재	O	O
+21	##를	O	O
+22	통해	O	O
+23	‘	O	O
+24	안티	B-AF	B-AF
+25	##고	I-AF	I-AF
+26	##네	I-AF	I-AF
+27	’	O	O
+28	를	O	O
+29	둘러싼	O	O
+30	두	O	O
+31	개의	O	O
+32	세계	O	O
+33	##가	O	O
+34	음악	B-FD	B-FD
+35	##극	I-FD	I-FD
+36	카	B-AF	B-AF
+37	##논	I-AF	I-AF
+38	##처럼	O	O
+39	평행	O	O
+40	##하	O	O
+41	##게	O	O
+42	존재	O	O
+43	##하	O	O
+44	##는	O	O
+45	모습	O	O
+46	##을	O	O
+47	그렸	O	O
+48	##다	O	O
+49	.	O	O
+50	[SEP]	O	O

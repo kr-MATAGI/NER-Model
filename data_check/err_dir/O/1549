@@ -1,52 +1,20 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	U	B-EV	B-OG	B-OG, B-EV, B-LC, B-AF, O
-2	-	I-EV	I-OG	I-OG, I-EV, O, I-AF, I-CV
-3	20	I-EV	I-OG	I-OG, I-EV, O, I-AF, I-CV
-4	월드컵	I-EV	I-OG	I-OG, I-EV, B-OG, O, I-AF
-5	##팀	O	I-OG	I-OG, O, I-EV, B-OG, I-AF
-6	세계	O	O	O, I-OG, I-EV, B-LC, B-PS
-7	##수	O	O	O, B-PS, B-LC, B-CV, I-OG
-8	##준	O	O	O, I-PS, I-LC, I-OG, B-PS
-9	이끈	O	O	O, B-PS, B-LC, B-OG, B-CV
-10	이광	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-11	##종	I-PS	I-PS	I-PS, O, I-OG, B-PS, I-LC
-12	감독	B-CV	B-CV	B-CV, O, I-PS, I-CV, B-OG
-13	27	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-14	##일	I-DT	I-DT	I-DT, O, B-DT, I-EV, I-QT
-15	##밤	B-TI	B-TI	B-TI, I-TI, I-DT, O, B-LC
-16	나이지리아	B-OG	B-OG	B-OG, B-LC, I-OG, O, B-AF
-17	##와	O	O	O, I-OG, B-LC, I-EV, I-LC
-18	최종	O	O	O, B-EV, B-LC, B-QT, B-CV
-19	3	B-EV	B-EV	B-EV, O, I-EV, B-QT, B-AF
-20	##차	I-EV	I-EV	I-EV, I-QT, O, B-EV, I-AF
-21	##전	I-EV	I-EV	I-EV, O, I-QT, I-AF, I-LC
-22	李	B-PS	B-PS	B-PS, O, I-EV, I-PS, B-OG
-23	감독	B-CV	B-CV	B-CV, O, I-CV, I-PS, I-EV
-24	,	O	O	O, I-CV, B-CV, I-EV, I-OG
-25	15	B-QT	B-QT	B-QT, I-QT, O, B-EV, B-DT
-26	##세	I-QT	I-QT	I-QT, O, I-EV, I-LC, I-OG
-27	이하	I-QT	I-QT	I-QT, O, I-EV, I-LC, I-OG
-28	팀	O	O	O, I-QT, I-OG, B-OG, B-CV
-29	##부터	O	O	O, B-PS, I-QT, I-OG, B-LC
-30	전담	O	O	O, B-CV, B-PS, B-LC, B-OG
-31	조련	O	O	O, B-CV, B-PS, B-LC, I-CV
-32	…	O	O	O, B-PS, B-LC, I-CV, B-OG
-33	공격	O	O	O, B-CV, B-TM, B-LC, B-AF
-34	-	O	O	O, B-LC, B-PS, I-CV, B-TM
-35	수비	O	B-CV	B-CV, O, I-CV, B-TM, B-FD
-36	##라인	O	O	O, I-CV, B-CV, B-TM, B-LC
-37	간격	O	O	O, B-TM, B-LC, B-PS, B-OG
-38	세밀	O	O	O, B-LC, B-PS, B-OG, B-TM
-39	##하	O	O	O, B-PS, B-LC, B-OG, I-PS
-40	##게	O	O	O, B-PS, B-LC, B-OG, I-PS
-41	유지	O	O	O, B-LC, B-CV, B-OG, B-PS
-42	…	O	O	O, B-LC, B-PS, B-CV, B-OG
-43	상대	O	O	O, B-CV, B-LC, B-OG, B-TM
-44	강한	O	O	O, B-CV, B-LC, B-OG, B-PS
-45	압박	O	O	O, B-CV, B-LC, B-PS, B-TM
-46	##도	O	O	O, B-PS, B-LC, B-CV, B-OG
-47	끄떡	O	O	O, B-CV, B-LC, B-OG, B-TM
-48	##없이	O	O	O, B-LC, B-PS, B-CV, B-OG
-49	견뎌	O	O	O, B-LC, B-PS, B-OG, B-CV
-50	[SEP]	O	O	O, B-LC, B-CV, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	결국	O	O
+2	그	O	O
+3	~	O	O
+4	까	O	O
+5	.	O	O
+6	물론	O	O
+7	사람	O	O
+8	##의	O	O
+9	눈	O	B-AM
+10	##을	O	O
+11	전혀	O	O
+12	안	O	O
+13	거친	O	O
+14	건	O	O
+15	아니	O	O
+16	##지만	O	O
+17	.	O	O
+18	[SEP]	O	O

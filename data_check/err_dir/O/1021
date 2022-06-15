@@ -1,9 +1,20 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	중간	O	O	O, B-TM, B-CV, B-LC, B-AF
-2	##에	O	O	O, I-TM, I-AF, I-QT, I-OG
-3	또	O	O	O, B-LC, B-QT, B-CV, B-AF
-4	다른	O	O	O, B-AF, B-QT, B-PS, B-LC
-5	차	O	B-AF	B-AF, O, B-OG, I-AF, B-CV
-6	##를	O	O	O, I-AF, I-OG, I-CV, I-EV
-7	[SEP]	O	O	O, B-CV, I-AF, B-LC, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	반	O	B-QT
+2	지하	O	O
+3	##가	O	O
+4	있	O	O
+5	##고	O	O
+6	테라스	O	O
+7	##가	O	O
+8	적당히	O	O
+9	있	O	O
+10	##고	O	O
+11	그	O	O
+12	앞	O	O
+13	##에	O	O
+14	인제	O	O
+15	잔디	B-PT	B-PT
+16	깔	O	O
+17	##고	O	O
+18	[SEP]	O	O

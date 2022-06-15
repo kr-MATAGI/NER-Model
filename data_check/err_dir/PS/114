@@ -1,11 +1,45 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	대표	O	O	O, B-CV, B-PS, B-LC, B-QT
-2	##적인	O	O	O, B-QT, I-QT, B-PS, I-AF
-3	사람	O	O	O, B-CV, B-PS, B-OG, B-QT
-4	##이	O	O	O, B-PS, B-CV, B-OG, B-LC
-5	토크	B-PS	B-AF	B-AF, B-OG, B-PS, B-CV, B-LC
-6	##베리	I-PS	I-OG	I-OG, I-AF, I-PS, I-CV, I-LC
-7	##입니다	O	O	O, I-OG, I-AF, I-CV, I-PS
-8	.	O	O	O, B-CV, I-AF, I-OG, B-LC
-9	[SEP]	O	O	O, B-CV, I-AF, B-LC, I-CV
+	text	label	preds
+0	[CLS]	O	O
+1	그	O	O
+2	뒤	O	O
+3	##로	O	O
+4	오늘	B-DT	B-DT
+5	##은	O	O
+6	이	O	O
+7	병원	O	O
+8	,	O	O
+9	내일	B-DT	B-DT
+10	##은	O	O
+11	저	O	O
+12	병원	O	O
+13	##을	O	O
+14	찾	O	O
+15	##게	O	O
+16	됐	O	O
+17	##고	O	O
+18	마치	O	O
+19	눈덩이	O	O
+20	커지	O	O
+21	##듯	O	O
+22	미국	B-LC	B-LC
+23	##에	O	O
+24	##서	O	O
+25	,	O	O
+26	일본	B-LC	B-LC
+27	##에	O	O
+28	##서	O	O
+29	또	O	O
+30	여기저기	O	O
+31	##서	O	O
+32	'	O	O
+33	성	B-PS	B-CV
+34	##룡	I-PS	I-CV
+35	자선	O	I-CV
+36	##기금	O	I-CV
+37	'	O	O
+38	이	O	O
+39	설립	O	O
+40	##됐	O	O
+41	##다	O	O
+42	.	O	O
+43	[SEP]	O	O

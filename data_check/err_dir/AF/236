@@ -1,54 +1,54 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	반도체	O	B-TM	B-TM, O, I-TM, B-TR, B-OG
-2	##나	O	O	O, I-TM, I-AF, I-OG, I-QT
-3	TF	B-AF	B-TM	B-TM, O, B-TR, B-OG, B-AF
-4	##T	I-AF	I-TM	I-TM, O, B-TM, I-OG, I-AF
-5	-	I-AF	I-TM	I-TM, O, I-AF, I-OG, I-TR
-6	LCD	I-AF	I-TM	I-TM, O, B-TM, I-OG, I-AF
-7	패널	O	O	O, I-TM, B-TM, B-CV, I-AF
-8	##에	O	O	O, I-TM, B-CV, B-LC, B-PS
-9	회로	O	O	O, B-TM, B-CV, B-AF, B-LC
-10	모양	O	O	O, I-TM, B-TM, I-AF, I-CV
-11	##을	O	O	O, I-TM, B-CV, B-PS, B-LC
-12	새겨	O	O	O, B-CV, B-TM, B-LC, B-PS
-13	넣	O	O	O, B-CV, B-PS, B-LC, B-TM
-14	##기	O	O	O, B-PS, B-CV, B-LC, B-OG
-15	위해	O	O	O, B-LC, B-PS, B-CV, B-TM
-16	쓰	O	O	O, B-CV, B-LC, B-AF, B-TM
-17	##는	O	O	O, B-CV, B-LC, B-TM, B-AF
-18	'	O	O	O, B-CV, B-LC, B-TM, B-AF
-19	포토	B-AF	B-TM	B-TM, O, B-AF, B-CV, B-MT
-20	마스크	I-AF	I-TM	I-TM, O, I-AF, I-CV, I-MT
-21	'	O	O	O, I-TM, I-AF, I-CV, B-CV
-22	라는	O	O	O, B-LC, B-PS, B-CV, B-TM
-23	부품	O	O	O, B-CV, B-TM, B-MT, B-AF
-24	##과	O	O	O, B-CV, B-PS, B-LC, B-TM
-25	이를	O	O	O, B-CV, B-LC, B-TM, B-QT
-26	만드	O	O	O, B-CV, B-LC, B-TM, B-PS
-27	##는	O	O	O, B-CV, B-MT, B-LC, B-TM
-28	원재료	O	O	O, B-MT, B-CV, B-AF, B-TM
-29	##인	O	O	O, I-CV, B-MT, B-CV, B-PS
-30	'	O	O	O, B-CV, B-LC, B-TM, B-AF
-31	블	B-AF	B-TM	B-TM, O, B-AF, B-MT, B-CV
-32	##랭	I-AF	I-TM	I-TM, O, I-MT, I-AF, I-CV
-33	##크	I-AF	I-TM	I-TM, O, I-AF, I-MT, I-CV
-34	마스크	I-AF	I-TM	I-TM, O, I-AF, I-MT, I-CV
-35	'	O	O	O, I-TM, I-AF, I-CV, B-CV
-36	관련	O	O	O, B-LC, B-CV, B-PS, B-TM
-37	기술	O	O	O, B-CV, B-LC, B-TM, B-PS
-38	##로	O	O	O, B-LC, B-PS, B-CV, B-OG
-39	,	O	O	O, B-LC, B-OG, B-CV, B-TM
-40	일본	B-LC	B-LC	B-LC, B-OG, O, B-CV, B-AF
-41	회사	O	O	O, I-OG, I-LC, I-CV, B-CV
-42	##들	O	O	O, I-OG, B-PS, I-CV, B-LC
-43	##의	O	O	O, B-LC, B-PS, B-CV, B-OG
-44	독	O	O	O, B-LC, B-CV, B-PS, B-AF
-45	##무대	O	O	O, B-LC, B-CV, B-PS, I-LC
-46	##였	O	O	O, B-LC, B-PS, B-CV, B-OG
-47	##던	O	O	O, B-LC, B-CV, B-OG, B-TM
-48	분야	O	O	O, B-CV, B-LC, B-TM, B-FD
-49	##에서	O	O	O, B-LC, B-CV, B-PS, B-OG
-50	##다	O	O	O, B-LC, B-CV, B-TM, B-PS
-51	.	O	O	O, B-LC, B-CV, B-TM, B-PS
-52	[SEP]	O	O	O, B-LC, B-CV, B-TM, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	<	O	O
+2	요미우리	B-OG	B-OG
+3	##신문	I-OG	I-OG
+4	>	O	O
+5	은	O	O
+6	31	B-DT	B-DT
+7	##일	I-DT	I-DT
+8	“	O	O
+9	북한	B-OG	B-OG
+10	##은	O	O
+11	작년	B-DT	B-DT
+12	12	I-DT	I-DT
+13	##월	I-DT	I-DT
+14	##의	O	O
+15	장거리	B-AF	O
+16	탄도	I-AF	B-AF
+17	##미사	I-AF	I-AF
+18	##일	I-AF	I-AF
+19	발사	O	O
+20	##를	O	O
+21	인공위성	B-TM	B-TM
+22	발사	O	O
+23	##라고	O	O
+24	주장	O	O
+25	##하	O	O
+26	##기	O	O
+27	때문	O	O
+28	##에	O	O
+29	국제	O	O
+30	##사회	O	O
+31	##가	O	O
+32	한국	B-LC	B-OG
+33	##의	O	O
+34	인공위성	B-TM	B-TM
+35	발사	O	O
+36	##를	O	O
+37	인정	O	O
+38	##할	O	O
+39	경우	O	O
+40	‘	O	O
+41	이중	O	O
+42	##기	O	O
+43	##준	O	O
+44	’	O	O
+45	이라	O	O
+46	##고	O	O
+47	비판	O	O
+48	##할	O	O
+49	것	O	O
+50	##이다	O	O
+51	.	O	O
+52	[SEP]	O	O

@@ -1,7 +1,38 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-AF
-1	도	B-PS	B-PS	B-PS, O, B-CV, B-LC, B-AF
-2	##올	I-PS	I-PS	I-PS, O, I-CV, I-LC, I-AF
-3	김용	I-PS	B-PS	B-PS, I-PS, O, B-LC, B-OG
-4	##옥	I-PS	I-PS	I-PS, O, I-OG, I-LC, I-AF
-5	[SEP]	O	O	O, I-PS, B-CV, I-AF, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	김	B-PS	O
+2	씨	O	O
+3	##는	O	O
+4	10	B-DT	B-DT
+5	##년	I-DT	I-DT
+6	전부	I-DT	I-DT
+7	##터	I-DT	I-DT
+8	당뇨병	B-TM	B-TM
+9	##도	O	O
+10	앓	O	O
+11	##았	O	O
+12	##던	O	O
+13	것	O	O
+14	##으로	O	O
+15	조사	O	O
+16	##돼	O	O
+17	사고	O	O
+18	전	O	O
+19	저	B-TM	B-TM
+20	##혈	I-TM	I-TM
+21	##당	I-TM	I-TM
+22	쇼크	I-TM	I-TM
+23	##를	O	O
+24	일으켜	O	O
+25	정신	O	O
+26	##을	O	O
+27	잃	O	O
+28	##었	O	O
+29	##을	O	O
+30	우려	O	O
+31	##도	O	O
+32	제기	O	O
+33	##된	O	O
+34	##다	O	O
+35	.	O	O
+36	[SEP]	O	O

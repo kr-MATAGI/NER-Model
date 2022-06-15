@@ -1,55 +1,67 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-EV, B-CV, I-OG, I-CV
-1	정부	B-OG	B-OG	B-OG, O, B-EV, B-AF, B-LC
-2	당국자	B-CV	B-CV	B-CV, O, I-CV, I-OG, I-EV
-3	##는	O	O	O, I-CV, I-EV, I-OG, I-QT
-4	“	O	O	O, B-CV, B-LC, B-EV, B-QT
-5	2	B-QT	B-QT	B-QT, B-EV, O, B-DT, I-EV
-6	##차	I-QT	I-QT	I-QT, I-EV, O, I-DT, I-OG
-7	회담	O	I-EV	I-EV, O, I-QT, B-EV, I-OG
-8	##에	O	O	O, I-EV, I-OG, I-QT, I-AF
-9	##선	O	O	O, B-LC, B-OG, B-EV, B-PS
-10	1	B-QT	B-QT	B-QT, B-EV, O, I-QT, B-DT
-11	##차	I-QT	I-QT	I-QT, I-EV, O, I-DT, I-OG
-12	남북	B-EV	B-EV	B-EV, I-EV, B-LC, B-OG, O
-13	##회	I-EV	I-EV	I-EV, O, I-OG, B-EV, I-QT
-14	##담	I-EV	I-EV	I-EV, O, I-OG, I-LC, I-AF
-15	##과	O	O	O, I-EV, I-OG, B-LC, I-DT
-16	뉴욕	B-LC	B-LC	B-LC, B-EV, O, B-OG, B-AF
-17	미	B-EV	I-EV	I-EV, B-EV, B-LC, B-OG, I-LC
-18	-	I-EV	I-EV	I-EV, O, I-LC, I-OG, I-AF
-19	북	I-EV	I-EV	I-EV, I-LC, B-LC, I-OG, O
-20	회담	I-EV	I-EV	I-EV, O, I-OG, I-LC, I-AF
-21	##을	O	O	O, I-EV, I-OG, I-AF, B-CV
-22	통해	O	O	O, B-LC, B-OG, B-PS, B-CV
-23	협의	O	O	O, B-LC, B-CV, B-PS, B-OG
-24	##된	O	O	O, B-LC, B-PS, B-CV, B-OG
-25	비핵화	O	O	O, B-CV, B-LC, B-PS, B-TM
-26	사전	O	O	O, B-LC, B-PS, B-CV, B-TM
-27	##조	O	O	O, B-LC, B-CV, B-PS, B-OG
-28	##처	O	O	O, I-LC, B-LC, B-PS, I-CV
-29	##를	O	O	O, B-CV, B-LC, B-PS, B-OG
-30	포함	O	O	O, B-LC, B-CV, B-OG, B-PS
-31	##해	O	O	O, B-LC, B-PS, B-OG, B-CV
-32	비핵화	O	O	O, B-CV, B-LC, B-PS, B-TM
-33	##와	O	O	O, B-CV, B-PS, B-LC, I-CV
-34	관련	O	O	O, B-LC, B-CV, B-TM, B-PS
-35	##한	O	O	O, B-LC, B-PS, B-OG, B-TM
-36	다양	O	O	O, B-LC, B-TM, B-QT, B-CV
-37	##한	O	O	O, B-LC, B-PS, B-OG, B-TM
-38	이슈	O	O	O, B-CV, B-LC, B-PS, B-TM
-39	##들	O	O	O, B-LC, B-CV, B-PS, I-QT
-40	##을	O	O	O, B-CV, B-LC, B-OG, B-TM
-41	포괄	O	O	O, B-LC, B-CV, B-TM, B-PS
-42	##적으로	O	O	O, B-LC, B-PS, I-QT, I-LC
-43	논의	O	O	O, B-CV, B-LC, B-EV, B-TM
-44	##할	O	O	O, B-PS, B-LC, B-CV, B-OG
-45	예정	O	O	O, B-CV, B-EV, B-QT, B-TM
-46	”	O	O	O, B-CV, I-EV, I-OG, B-LC
-47	이라	O	O	O, B-CV, B-OG, B-PS, B-LC
-48	##고	O	O	O, B-CV, B-QT, B-TM, B-LC
-49	말	O	O	O, B-CV, B-QT, B-TM, B-LC
-50	##했	O	O	O, B-CV, I-EV, B-LC, B-PS
-51	##다	O	O	O, B-CV, B-LC, B-TM, I-EV
-52	.	O	O	O, B-LC, B-PS, B-CV, B-OG
-53	[SEP]	O	O	O, B-LC, B-CV, I-EV, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	이란	B-OG	B-OG
+2	##은	O	O
+3	미국	B-OG	B-OG
+4	##의	O	O
+5	반대	O	O
+6	##에도	O	O
+7	불구	O	O
+8	##하	O	O
+9	##고	O	O
+10	지난달	B-DT	B-DT
+11	미사일	B-AF	B-AF
+12	발사	O	O
+13	시험	O	O
+14	##을	O	O
+15	강행	O	O
+16	##한	O	O
+17	데	O	O
+18	이어	O	O
+19	17	B-DT	B-DT
+20	##일	I-DT	I-DT
+21	테헤란	B-LC	B-LC
+22	남부	B-TM	B-TM
+23	이	B-PS	B-LC
+24	##맘	I-PS	I-LC
+25	호	I-PS	I-LC
+26	##메이	I-PS	I-LC
+27	##니	I-PS	I-LC
+28	묘역	O	I-LC
+29	##에	O	O
+30	##서	O	O
+31	열린	O	O
+32	열병식	B-EV	B-EV
+33	##에	O	O
+34	##서	O	O
+35	러시아	B-LC	B-LC
+36	##제	O	O
+37	S	B-AF	B-AF
+38	-	I-AF	I-AF
+39	300	I-AF	I-AF
+40	지대	I-AF	B-AF
+41	##공	I-AF	I-AF
+42	##미사	I-AF	I-AF
+43	##일	I-AF	I-AF
+44	##을	O	O
+45	공개	O	O
+46	##하	O	O
+47	##는	O	O
+48	등	O	O
+49	무력	O	O
+50	##시위	O	O
+51	##를	O	O
+52	벌여	O	O
+53	주변	O	O
+54	##국	O	O
+55	##과	O	O
+56	##의	O	O
+57	긴장	O	O
+58	수위	O	O
+59	##를	O	O
+60	높이	O	O
+61	##고	O	O
+62	있	O	O
+63	##다	O	O
+64	.	O	O
+65	[SEP]	O	O

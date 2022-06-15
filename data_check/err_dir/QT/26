@@ -1,35 +1,53 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	정부	B-OG	B-OG	B-OG, O, B-AF, B-LC, B-PS
-2	##가	O	O	O, I-OG, B-PS, B-CV, I-AF
-3	도입	O	O	O, B-CV, B-TM, I-OG, B-OG
-4	##을	O	O	O, B-PS, B-CV, B-OG, B-LC
-5	추진	O	O	O, B-OG, B-CV, B-TM, B-LC
-6	##하	O	O	O, B-OG, B-LC, B-PS, B-CV
-7	##는	O	O	O, B-OG, B-LC, B-CV, B-PS
-8	초중	O	O	O, B-OG, B-CV, B-FD, I-OG
-9	##고	O	O	O, I-OG, I-CV, B-OG, B-CV
-10	##교	O	O	O, I-OG, I-CV, B-OG, I-AF
-11	가을	B-DT	B-CV	B-CV, O, I-CV, B-DT, B-AF
-12	##학	O	I-CV	I-CV, O, B-CV, I-OG, I-AF
-13	##기	O	I-CV	I-CV, O, B-CV, I-OG, I-AF
-14	##제	O	I-CV	I-CV, O, B-CV, I-OG, I-TM
-15	전환	O	O	O, I-CV, I-OG, I-EV, I-AF
-16	##에	O	O	O, B-PS, B-CV, B-OG, I-CV
-17	12	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-OG
-18	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-19	##간	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-20	최대	B-QT	O	O, B-QT, I-DT, I-QT, B-DT
-21	10	I-QT	B-QT	B-QT, I-QT, O, B-DT, B-PS
-22	##조	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-DT
-23	원	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-24	##이	O	O	O, I-QT, B-PS, B-OG, B-CV
-25	필요	O	O	O, B-CV, B-TM, B-OG, B-QT
-26	##하	O	O	O, B-PS, B-OG, B-CV, B-LC
-27	##다는	O	O	O, B-CV, B-OG, B-TM, I-OG
-28	분석	O	O	O, B-CV, B-TM, B-OG, B-PS
-29	##이	O	O	O, B-CV, B-PS, B-OG, I-CV
-30	나왔	O	O	O, B-CV, B-OG, B-TM, B-QT
-31	##다	O	O	O, B-CV, B-TM, B-QT, I-OG
-32	.	O	O	O, B-OG, B-LC, B-PS, B-CV
-33	[SEP]	O	O	O, B-CV, B-OG, I-OG, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	이웃	B-CV	O
+2	일본	B-LC	B-LC
+3	##은	O	O
+4	지방	O	B-OG
+5	##자치단체	O	I-OG
+6	##들의	O	O
+7	경제	O	O
+8	사정	O	O
+9	##에	O	O
+10	따라	O	O
+11	A	B-QT	B-QT
+12	~	I-QT	I-QT
+13	D	I-QT	I-QT
+14	##의	O	O
+15	4	B-QT	B-QT
+16	##등	I-QT	I-QT
+17	##급	I-QT	O
+18	##으로	O	O
+19	구분	O	O
+20	##해	O	O
+21	최저임금	B-CV	B-CV
+22	편차	O	O
+23	##를	O	O
+24	두	O	O
+25	##는데	O	O
+26	가장	O	O
+27	비싼	O	O
+28	'	O	O
+29	A	B-QT	B-QT
+30	##급	I-QT	I-QT
+31	지역	O	O
+32	'	O	O
+33	으로	O	O
+34	분류	O	O
+35	##된	O	O
+36	수도	O	O
+37	도쿄	B-LC	B-LC
+38	##는	O	O
+39	88	B-QT	B-QT
+40	##8	I-QT	I-QT
+41	##엔	I-QT	I-QT
+42	(	O	O
+43	약	B-QT	B-QT
+44	820	I-QT	I-QT
+45	##0	I-QT	I-QT
+46	##원	I-QT	I-QT
+47	)	O	O
+48	이	O	O
+49	##다	O	O
+50	.	O	O
+51	[SEP]	O	O

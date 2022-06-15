@@ -1,30 +1,53 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	지방	O	B-OG	B-OG, O, B-CV, I-OG, B-LC
-2	##자치단체	O	I-OG	I-OG, O, I-CV, B-OG, B-CV
-3	##가	O	O	O, I-OG, B-PS, I-CV, I-EV
-4	지방	O	O	O, B-OG, B-CV, I-OG, B-FD
-5	공기업	O	O	O, I-OG, I-CV, B-CV, I-AF
-6	##의	O	O	O, I-OG, I-CV, I-AF, I-EV
-7	경영	O	O	O, B-CV, B-LC, B-TM, B-OG
-8	##에	O	O	O, B-CV, B-LC, B-PS, B-OG
-9	직접	O	O	O, B-LC, B-CV, B-TM, B-QT
-10	참여	O	O	O, B-LC, B-TM, B-CV, B-OG
-11	##하	O	O	O, B-LC, B-PS, B-OG, B-CV
-12	##는	O	O	O, B-LC, B-CV, B-OG, B-PS
-13	것	O	O	O, B-LC, B-CV, B-OG, B-PS
-14	##은	O	O	O, B-LC, B-CV, B-OG, B-PS
-15	강원도	B-LC	B-LC	B-LC, O, B-OG, B-AF, B-PS
-16	태백	B-LC	B-LC	B-LC, O, I-LC, B-AF, B-OG
-17	##의	O	O	O, I-LC, I-AF, I-OG, B-AF
-18	오	B-AF	B-AF	B-AF, B-OG, B-LC, O, B-PS
-19	##투리	I-AF	I-AF	I-AF, I-OG, O, I-LC, I-PS
-20	##조	I-AF	I-AF	I-AF, I-OG, O, I-LC, I-PS
-21	##트	I-AF	I-AF	I-AF, I-OG, I-LC, O, I-PS
-22	이후	O	O	O, I-AF, I-OG, I-LC, I-PS
-23	처음	O	O	O, B-QT, I-AF, I-QT, B-LC
-24	##으로	O	O	O, I-QT, B-PS, B-OG, B-LC
-25	알려졌	O	O	O, B-CV, B-LC, B-QT, B-OG
-26	##다	O	O	O, B-CV, I-OG, B-LC, I-QT
-27	.	O	O	O, B-LC, B-OG, B-PS, I-OG
-28	[SEP]	O	O	O, B-LC, I-OG, B-OG, B-CV
+	text	label	preds
+0	[CLS]	O	O
+1	미국	B-OG	B-OG
+2	##은	O	O
+3	도쿄	B-LC	B-EV
+4	전범	O	I-EV
+5	##재판	O	I-EV
+6	##과	O	O
+7	샌프란시스코	B-OG	B-OG
+8	조약	I-OG	I-OG
+9	##에	O	O
+10	##서	O	O
+11	일본	B-OG	B-OG
+12	##의	O	O
+13	조선	B-LC	B-LC
+14	등	O	O
+15	##에	O	O
+16	대한	O	O
+17	범죄	O	O
+18	##행위	O	O
+19	처벌	O	O
+20	##과	O	O
+21	배상	O	O
+22	##을	O	O
+23	완전히	O	O
+24	누락	O	O
+25	##했	O	O
+26	##으며	O	O
+27	,	O	O
+28	그	O	O
+29	구멍	O	O
+30	##을	O	O
+31	한	B-OG	B-OG
+32	##일	I-OG	I-OG
+33	##협	I-OG	I-OG
+34	##정	I-OG	I-OG
+35	때	O	O
+36	일본	B-OG	B-LC
+37	##의	O	O
+38	유무	O	O
+39	##상	O	O
+40	차관	O	O
+41	5	B-QT	B-QT
+42	##억	I-QT	I-QT
+43	##달	I-QT	I-QT
+44	##러	I-QT	I-QT
+45	##로	O	O
+46	땜	O	O
+47	##질	O	O
+48	##했	O	O
+49	##다	O	O
+50	.	O	O
+51	[SEP]	O	O

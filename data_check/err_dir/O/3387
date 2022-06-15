@@ -1,9 +1,28 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, I-OG, B-CV, I-AF
-1	허	O	B-PS	B-PS, O, B-OG, B-CV, B-AF
-2	##유	O	I-PS	I-PS, O, I-OG, I-CV, I-QT
-3	진짜	O	O	O, I-PS, I-OG, I-QT, B-CV
-4	너무	O	O	O, B-CV, B-OG, B-TM, I-OG
-5	##했	O	O	O, B-CV, I-OG, I-AF, I-CV
-6	##다	O	O	O, I-OG, B-CV, I-AF, I-CV
-7	[SEP]	O	O	O, B-CV, B-PS, I-OG, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	이전	O	O
+2	정부	B-OG	B-OG
+3	지우	O	O
+4	##기	O	O
+5	##를	O	O
+6	위해	O	O
+7	서두르	O	O
+8	##지	O	O
+9	말	O	O
+10	##고	O	O
+11	국민	B-CV	B-CV
+12	건강	O	B-CV
+13	##권	O	I-CV
+14	##을	O	O
+15	위해	O	O
+16	더	O	O
+17	바람직	O	O
+18	##한	O	O
+19	대안	O	O
+20	##을	O	O
+21	찾아보	O	O
+22	##라는	O	O
+23	취지	O	O
+24	##다	O	O
+25	.	O	O
+26	[SEP]	O	O

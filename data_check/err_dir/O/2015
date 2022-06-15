@@ -1,22 +1,71 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	경찰	B-OG	B-OG	B-OG, O, B-CV, B-AF, B-LC
-2	##은	O	O	O, I-OG, I-CV, B-CV, I-EV
-3	소변	O	B-TR	B-TR, O, B-TM, B-AM, I-TR
-4	##검사	O	O	O, I-TR, I-TM, B-TR, I-CV
-5	##에	O	O	O, I-TR, I-TM, I-EV, I-CV
-6	이어	O	O	O, B-LC, B-OG, B-CV, B-TM
-7	가	O	O	O, B-TM, B-LC, B-TR, B-CV
-8	##택	O	O	O, I-TM, I-LC, I-TR, I-CV
-9	##수	O	O	O, I-TM, I-TR, I-LC, I-CV
-10	##색	O	O	O, I-TM, I-TR, I-LC, I-CV
-11	##까	O	O	O, I-LC, I-CV, I-TM, B-LC
-12	##지	O	O	O, B-LC, B-CV, B-OG, B-PS
-13	일사	O	O	O, B-CV, B-LC, B-OG, B-TM
-14	##천리	O	O	O, B-LC, B-CV, B-TM, B-OG
-15	##로	O	O	O, B-OG, B-CV, B-LC, I-OG
-16	진행	O	O	O, B-CV, B-OG, B-TM, B-LC
-17	##했	O	O	O, B-CV, B-OG, B-LC, I-OG
-18	##다	O	O	O, B-CV, B-LC, B-TM, I-OG
-19	.	O	O	O, B-LC, B-CV, B-OG, B-TM
-20	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	18	B-DT	B-DT
+2	##일	I-DT	I-DT
+3	청와대	B-AF	B-OG
+4	##와	O	O
+5	넥슨	B-OG	B-OG
+6	쪽	O	O
+7	##의	O	O
+8	말	O	O
+9	##을	O	O
+10	종합	O	O
+11	##하면	O	O
+12	,	O	O
+13	넥슨	B-OG	B-OG
+14	##코	I-OG	I-OG
+15	##리아	I-OG	I-OG
+16	##는	O	O
+17	2011	B-DT	B-DT
+18	##년	I-DT	I-DT
+19	3	I-DT	I-DT
+20	##월	I-DT	I-DT
+21	서울	B-LC	B-LC
+22	강남구	B-LC	B-LC
+23	역삼동	B-LC	B-LC
+24	82	B-QT	B-QT
+25	##5	I-QT	I-QT
+26	-	I-QT	I-QT
+27	20	I-QT	I-QT
+28	일대	O	O
+29	33	B-QT	B-QT
+30	##71	I-QT	I-QT
+31	.	I-QT	I-QT
+32	8	I-QT	I-QT
+33	##㎡	I-QT	I-QT
+34	(	O	O
+35	약	B-QT	B-QT
+36	102	I-QT	I-QT
+37	##0	I-QT	I-QT
+38	##평	I-QT	I-QT
+39	)	O	O
+40	땅	O	O
+41	##을	O	O
+42	우	B-PS	B-PS
+43	수석	B-CV	B-CV
+44	##의	O	O
+45	아내	B-CV	B-CV
+46	등	O	O
+47	네	B-QT	B-QT
+48	자매	I-QT	I-QT
+49	##로	O	O
+50	##부터	O	O
+51	136	B-QT	B-QT
+52	##4	I-QT	I-QT
+53	##억	I-QT	I-QT
+54	##90	I-QT	I-QT
+55	##00	I-QT	I-QT
+56	##만	I-QT	I-QT
+57	##원	I-QT	I-QT
+58	(	O	O
+59	국세청	O	B-OG
+60	신고	O	O
+61	##기	O	O
+62	##준	O	O
+63	)	O	O
+64	에	O	O
+65	매입	O	O
+66	##했	O	O
+67	##다	O	O
+68	.	O	O
+69	[SEP]	O	O

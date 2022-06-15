@@ -1,23 +1,48 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	한	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
-2	전	O	O	O, I-PS, B-CV, I-OG, B-PS
-3	총리	B-CV	B-CV	B-CV, O, B-OG, I-CV, B-TM
-4	##의	O	O	O, I-CV, I-EV, I-OG, B-CV
-5	또	O	O	O, B-QT, B-LC, B-PS, B-CV
-6	다른	O	O	O, B-QT, B-PS, I-QT, B-CV
-7	역할	O	O	O, B-CV, I-QT, B-PS, B-QT
-8	##은	O	O	O, B-CV, B-PS, B-LC, B-OG
-9	경제	O	O	O, B-CV, B-LC, B-TM, B-FD
-10	##개발	O	O	O, I-CV, I-LC, B-LC, I-TR
-11	경험	O	O	O, B-LC, B-PS, B-CV, B-TR
-12	##을	O	O	O, B-CV, B-PS, B-LC, B-OG
-13	개도국	B-OG	O	O, B-OG, B-LC, B-CV, B-TM
-14	##에	O	O	O, I-OG, B-CV, I-CV, I-EV
-15	설명	O	O	O, B-CV, B-LC, B-TM, B-PS
-16	##하	O	O	O, B-PS, B-LC, B-CV, B-OG
-17	##는	O	O	O, B-PS, B-CV, B-LC, B-OG
-18	것	O	O	O, B-CV, B-PS, B-LC, B-EV
-19	##이다	O	O	O, B-CV, I-CV, I-EV, I-OG
-20	.	O	O	O, B-CV, B-LC, B-PS, B-FD
-21	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-FD
+	text	label	preds
+0	[CLS]	O	O
+1	남쪽	B-OG	B-LC
+2	##의	O	O
+3	노	B-PS	B-PS
+4	##순	I-PS	I-PS
+5	##호	I-PS	I-PS
+6	(	O	O
+7	50	B-QT	B-QT
+8	)	O	O
+9	씨	O	O
+10	##는	O	O
+11	작별	O	O
+12	##의	O	O
+13	시간	O	O
+14	##이	O	O
+15	다가오	O	O
+16	##자	O	O
+17	22	B-DT	B-DT
+18	##년	I-DT	I-DT
+19	전	I-DT	I-DT
+20	동진	B-AF	B-AF
+21	##27	I-AF	I-AF
+22	##호	I-AF	I-AF
+23	##를	O	O
+24	탔	O	O
+25	##다가	O	O
+26	납	O	O
+27	##북	O	O
+28	##된	O	O
+29	동생	B-CV	B-CV
+30	성호	B-PS	B-PS
+31	(	O	O
+32	48	B-QT	B-QT
+33	)	O	O
+34	씨	O	O
+35	##를	O	O
+36	부	O	O
+37	##둥	O	O
+38	##켜	O	O
+39	##안	O	O
+40	##고	O	O
+41	떨어질	O	O
+42	##줄	O	O
+43	몰랐	O	O
+44	##다	O	O
+45	.	O	O
+46	[SEP]	O	O

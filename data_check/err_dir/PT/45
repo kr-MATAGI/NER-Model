@@ -1,13 +1,10 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	씨	B-PT	O	O, B-PT, B-CV, I-PT, B-MT
-2	##를	O	O	O, I-CV, B-CV, I-OG, I-AF
-3	빼	O	O	O, B-CV, B-LC, B-OG, I-OG
-4	##낸	O	O	O, B-CV, B-LC, B-PS, I-CV
-5	뒤	O	O	O, B-CV, B-TM, B-LC, B-PS
-6	곱	O	O	O, B-CV, B-OG, B-LC, B-TM
-7	##게	O	O	O, I-CV, I-OG, B-CV, I-LC
-8	다진	O	O	O, B-CV, I-CV, I-OG, B-LC
-9	##다	O	O	O, B-CV, I-CV, I-OG, B-PS
-10	.	O	O	O, B-CV, B-LC, B-OG, I-CV
-11	[SEP]	O	O	O, B-CV, B-LC, I-CV, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	그리고	O	O
+2	마늘	B-CV	B-CV
+3	파	B-CV	B-CV
+4	##슬리	I-CV	I-CV
+5	줄기	B-PT	B-CV
+6	그리고	O	O
+7	타임	O	B-CV
+8	[SEP]	O	O

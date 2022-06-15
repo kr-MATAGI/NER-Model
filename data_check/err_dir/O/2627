@@ -1,37 +1,16 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-QT
-1	이	O	O	O, B-PS, B-CV, B-MT, B-TM
-2	소재	O	O	O, B-MT, B-CV, B-TM, B-PS
-3	##로	O	O	O, B-PS, B-CV, B-TM, B-LC
-4	인공	B-TM	B-TM	B-TM, O, B-TR, B-MT, B-CV
-5	##근	I-TM	I-TM	I-TM, B-TM, O, I-MT, I-TR
-6	##육	I-TM	I-TM	I-TM, O, I-MT, I-TR, I-AM
-7	##을	O	O	O, I-TM, I-CV, I-OG, B-CV
-8	만들	O	O	O, B-CV, B-LC, B-OG, B-PS
-9	##면	O	O	O, B-PS, B-LC, B-CV, B-TM
-10	의	O	O	O, B-CV, B-AM, B-PS, B-AF
-11	##수	O	O	O, I-CV, I-AM, I-PS, I-TM
-12	##나	O	O	O, I-CV, I-AF, I-TM, I-LC
-13	의	O	O	O, B-CV, B-AM, B-PS, B-LC
-14	##족	O	O	O, I-CV, I-AM, I-TM, I-PS
-15	,	O	O	O, I-CV, B-LC, I-AF, B-PS
-16	사람	O	O	O, B-AM, B-TM, B-CV, B-LC
-17	##처럼	O	O	O, B-TM, B-AM, B-CV, I-TM
-18	자연	O	O	O, B-TM, B-CV, B-AM, B-LC
-19	##스럽	O	O	O, I-TM, I-LC, B-TM, B-PS
-20	##게	O	O	O, B-TM, B-CV, B-LC, B-PS
-21	움직이	O	O	O, B-TM, B-LC, B-AM, B-CV
-22	##는	O	O	O, B-TM, B-CV, B-LC, B-PS
-23	로봇	O	B-TM	B-TM, O, B-AF, I-TM, B-CV
-24	##을	O	O	O, I-TM, I-AF, I-CV, I-OG
-25	개발	O	O	O, B-CV, B-TM, B-LC, B-OG
-26	##하	O	O	O, B-LC, B-PS, B-OG, B-CV
-27	##는	O	O	O, B-LC, B-CV, B-OG, B-TM
-28	데	O	O	O, B-LC, B-CV, B-TM, B-OG
-29	유용	O	O	O, B-CV, B-TM, B-LC, B-FD
-30	##할	O	O	O, B-PS, I-LC, I-TM, I-CV
-31	것	O	O	O, B-CV, B-PS, B-TM, B-OG
-32	##으로	O	O	O, B-CV, I-OG, B-TM, I-CV
-33	보인다	O	O	O, B-CV, B-TM, I-OG, I-QT
-34	.	O	O	O, B-LC, B-TM, B-CV, B-PS
-35	[SEP]	O	O	O, B-CV, B-TM, B-LC, I-TM
+	text	label	preds
+0	[CLS]	O	O
+1	비정규직	B-CV	B-CV
+2	##은	O	O
+3	아무래도	O	O
+4	기간제	O	B-CV
+5	근로자	B-CV	B-CV
+6	##두	O	O
+7	있	O	O
+8	##고	O	O
+9	도급	O	B-CV
+10	근로자	B-CV	I-CV
+11	##두	O	O
+12	이러	O	O
+13	##니까	O	O
+14	[SEP]	O	O

@@ -1,13 +1,23 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, I-AF, B-CV
-1	팔	B-QT	B-QT	B-QT, O, B-DT, I-QT, B-LC
-2	##십	I-QT	I-QT	I-QT, O, I-DT, I-LC, I-PS
-3	구	B-QT	I-QT	I-QT, B-QT, O, B-DT, I-DT
-4	##십	I-QT	I-QT	I-QT, O, I-DT, I-LC, I-PS
-5	팔	B-QT	B-QT	B-QT, I-QT, B-DT, O, B-LC
-6	##십	I-QT	I-QT	I-QT, O, I-DT, I-LC, I-PS
-7	구	B-QT	I-QT	I-QT, B-QT, B-DT, O, I-DT
-8	##십	I-QT	I-QT	I-QT, O, I-LC, I-DT, I-PS
-9	정도	I-QT	I-QT	I-QT, O, I-LC, I-DT, I-OG
-10	?	O	O	O, I-QT, I-OG, B-CV, I-CV
-11	[SEP]	O	O	O, B-CV, I-QT, B-QT, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	3	B-QT	B-QT
+2	##할	I-QT	I-QT
+3	가까운	O	O
+4	타율	B-TM	B-TM
+5	(	O	O
+6	0	B-QT	B-QT
+7	.	I-QT	I-QT
+8	29	I-QT	I-QT
+9	##8	I-QT	I-QT
+10	)	O	O
+11	에	O	O
+12	도루	B-TM	B-TM
+13	##와	O	O
+14	득점	O	O
+15	모두	O	O
+16	10	B-QT	B-QT
+17	##위	I-QT	I-QT
+18	##권	I-QT	O
+19	##이다	O	O
+20	.	O	O
+21	[SEP]	O	O

@@ -1,56 +1,69 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-EV, B-CV, I-OG, I-CV
-1	오바마	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
-2	대통령	B-CV	B-CV	B-CV, O, I-PS, B-OG, B-EV
-3	##은	O	O	O, I-CV, I-EV, B-CV, I-OG
-4	1957	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-5	##년	I-DT	I-DT	I-DT, O, I-QT, B-DT, I-EV
-6	소련	B-OG	B-LC	B-LC, B-OG, O, I-DT, I-LC
-7	##이	O	O	O, B-PS, I-OG, I-LC, B-LC
-8	스	B-TM	B-TM	B-TM, B-AF, B-OG, O, B-TR
-9	##푸	I-TM	I-TM	I-TM, I-AF, I-OG, B-TM, O
-10	##트니	I-TM	I-TM	I-TM, I-AF, I-OG, O, B-TM
-11	##크	I-TM	I-TM	I-TM, I-OG, O, I-AF, I-LC
-12	인공위성	B-TM	B-TM	B-TM, I-TM, O, B-AF, B-LC
-13	##을	O	O	O, I-TM, I-AF, I-OG, I-EV
-14	먼저	O	O	O, B-LC, B-CV, B-OG, B-TM
-15	쏘아	O	O	O, B-LC, B-CV, B-OG, B-TM
-16	올려	O	O	O, B-LC, B-OG, B-PS, B-CV
-17	충격	O	O	O, B-LC, B-CV, B-TM, B-PS
-18	##을	O	O	O, B-CV, B-PS, B-OG, B-LC
-19	주	O	O	O, B-PS, B-OG, B-CV, B-LC
-20	##었	O	O	O, B-CV, B-LC, B-OG, B-PS
-21	##지만	O	O	O, B-LC, B-OG, B-PS, B-CV
-22	미국	B-LC	B-LC	B-LC, B-OG, O, B-PS, B-CV
-23	##은	O	O	O, I-OG, I-LC, I-EV, B-LC
-24	교육	O	O	O, B-LC, B-CV, B-TM, I-LC
-25	##과	O	O	O, B-PS, B-LC, B-CV, B-OG
-26	연구	O	O	O, B-CV, B-LC, B-FD, B-TM
-27	##에	O	O	O, B-CV, B-PS, B-LC, I-CV
-28	대한	O	O	O, B-LC, B-OG, B-CV, B-TM
-29	투자	O	O	O, B-CV, B-LC, B-PS, B-TM
-30	##와	O	O	O, B-PS, B-LC, B-CV, B-OG
-31	창조	O	O	O, B-LC, B-CV, B-TM, B-PS
-32	##적	O	O	O, B-LC, B-PS, I-LC, I-PS
-33	혁신	O	O	O, B-LC, B-CV, B-TM, B-PS
-34	등	O	O	O, B-LC, B-PS, B-CV, B-OG
-35	##을	O	O	O, B-LC, B-PS, B-CV, B-OG
-36	통해	O	O	O, B-LC, B-PS, B-OG, B-CV
-37	극복	O	O	O, B-LC, B-OG, B-CV, B-EV
-38	##했	O	O	O, B-LC, B-PS, B-OG, B-CV
-39	##듯	O	O	O, B-LC, B-PS, B-OG, B-CV
-40	##이	O	O	O, B-PS, B-LC, B-OG, B-CV
-41	다시	O	O	O, B-LC, B-CV, B-OG, B-PS
-42	미래	O	O	O, B-LC, B-EV, B-TM, B-CV
-43	##의	O	O	O, B-LC, B-PS, I-EV, I-LC
-44	승리	O	O	O, B-LC, B-CV, I-EV, B-EV
-45	##를	O	O	O, B-LC, I-EV, B-PS, B-CV
-46	위해	O	O	O, B-LC, B-PS, B-CV, B-OG
-47	나아가	O	O	O, B-LC, B-CV, B-OG, B-EV
-48	##자	O	O	O, B-CV, B-LC, B-PS, B-OG
-49	##고	O	O	O, B-CV, B-LC, B-PS, B-OG
-50	호소	O	O	O, B-CV, B-LC, B-EV, B-OG
-51	##했	O	O	O, B-CV, I-EV, B-PS, B-LC
-52	##다	O	O	O, B-CV, I-EV, B-LC, I-OG
-53	.	O	O	O, B-LC, B-PS, B-CV, I-EV
-54	[SEP]	O	O	O, B-LC, B-CV, B-PS, I-EV
+	text	label	preds
+0	[CLS]	O	O
+1	천막	O	O
+2	철거	O	O
+3	##에	O	O
+4	반발	O	O
+5	##한	O	O
+6	민노총	B-OG	B-OG
+7	공	B-OG	B-OG
+8	##투	I-OG	I-OG
+9	##위	I-OG	I-OG
+10	##는	O	O
+11	이날	B-DT	B-DT
+12	오후	B-TI	B-TI
+13	서울	B-LC	B-LC
+14	종로	B-OG	B-AF
+15	##경찰	I-OG	I-AF
+16	##서	I-OG	I-AF
+17	앞	B-TM	B-TM
+18	##에	O	O
+19	##서	O	O
+20	기자	O	O
+21	##회	O	O
+22	##견	O	O
+23	##을	O	O
+24	열	O	O
+25	##고	O	O
+26	""""	O	O
+27	생존	B-CV	B-CV
+28	##권	I-CV	I-CV
+29	문제	O	O
+30	##를	O	O
+31	해결	O	O
+32	##해	O	O
+33	달라	O	O
+34	##는	O	O
+35	노동자	B-CV	B-CV
+36	##에	O	O
+37	##게	O	O
+38	문재인	B-PS	B-PS
+39	정권	O	O
+40	##은	O	O
+41	강제	O	O
+42	철거	O	O
+43	·	O	O
+44	불법	O	O
+45	연행	O	O
+46	##을	O	O
+47	통해	O	O
+48	생존	B-CV	B-CV
+49	##권	I-CV	I-CV
+50	##을	O	O
+51	말살	O	O
+52	##하	O	O
+53	##고	O	O
+54	정면	O	O
+55	##으로	O	O
+56	총	O	B-AF
+57	##부리	O	O
+58	##를	O	O
+59	겨	O	O
+60	##눴	O	O
+61	##다	O	O
+62	""""	O	O
+63	고	O	O
+64	했	O	O
+65	##다	O	O
+66	.	O	O
+67	[SEP]	O	O

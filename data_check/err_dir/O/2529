@@ -1,50 +1,55 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-AF
-1	반면	O	O	O, B-CV, B-TM, B-LC, B-QT
-2	##에	O	O	O, B-CV, B-LC, B-OG, B-PS
-3	일본	B-LC	B-LC	B-LC, O, B-OG, B-PS, I-LC
-4	맞벌이	O	O	O, B-CV, I-CV, I-LC, B-QT
-5	주부	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-TM
-6	##는	O	O	O, I-CV, I-OG, I-AF, B-CV
-7	회사	O	O	O, B-CV, B-TM, B-OG, B-FD
-8	일	O	O	O, B-CV, B-TM, I-CV, B-LC
-9	##에	O	O	O, B-PS, B-CV, B-DT, B-LC
-10	5	B-TI	B-TI	B-TI, B-QT, B-EV, O, B-LC
-11	.	I-TI	I-TI	I-TI, B-TI, I-QT, I-TR, I-EV
-12	3	I-TI	I-TI	I-TI, B-TI, I-QT, I-TR, I-EV
-13	##시간	I-TI	I-TI	I-TI, B-TI, I-QT, I-TR, O
-14	,	O	O	O, I-TI, I-QT, I-AF, I-EV
-15	집안일	O	O	O, B-CV, B-TM, B-LC, B-QT
-16	##에	O	O	O, B-PS, B-CV, B-DT, B-LC
-17	4	B-TI	B-TI	B-TI, B-QT, B-EV, I-TI, B-LC
-18	.	I-TI	I-TI	I-TI, B-TI, I-QT, I-TR, I-EV
-19	8	I-TI	I-TI	I-TI, B-TI, I-QT, I-TR, I-EV
-20	##시간	I-TI	I-TI	I-TI, I-QT, B-TI, I-TR, O
-21	##을	O	O	O, I-TI, I-QT, I-EV, I-AF
-22	투입	O	O	O, B-CV, B-TM, B-LC, B-OG
-23	##했	O	O	O, B-PS, B-CV, B-LC, B-OG
-24	##고	O	O	O, B-CV, B-LC, I-AF, B-PS
-25	,	O	O	O, B-CV, B-LC, B-OG, B-TM
-26	미국	B-LC	B-LC	B-LC, B-OG, O, I-LC, B-PS
-27	##은	O	O	O, I-LC, I-AF, I-OG, B-LC
-28	각각	O	B-QT	B-QT, O, B-DT, B-TI, B-EV
-29	5	B-TI	I-TI	I-TI, B-TI, I-QT, I-DT, I-EV
-30	.	I-TI	I-TI	I-TI, I-QT, B-TI, I-EV, I-TR
-31	1	I-TI	I-TI	I-TI, I-QT, B-TI, I-TR, I-EV
-32	##시간	I-TI	I-TI	I-TI, I-QT, B-TI, I-TR, O
-33	,	O	O	O, I-TI, I-QT, I-EV, I-AF
-34	4	B-TI	B-TI	B-TI, I-TI, B-QT, B-EV, B-LC
-35	.	I-TI	I-TI	I-TI, I-QT, B-TI, I-TR, I-EV
-36	5	I-TI	I-TI	I-TI, I-QT, B-TI, I-TR, I-EV
-37	##시간	I-TI	I-TI	I-TI, I-QT, B-TI, I-TR, O
-38	##으로	O	O	O, I-TI, I-QT, I-EV, I-AF
-39	집안일	O	O	O, B-CV, B-TM, B-LC, I-AF
-40	비중	O	O	O, B-CV, B-TM, B-OG, B-LC
-41	##이	O	O	O, B-PS, B-OG, B-CV, B-LC
-42	이보	O	O	O, B-CV, B-QT, B-OG, B-TM
-43	##다	O	O	O, B-CV, I-QT, B-QT, B-TM
-44	더	O	O	O, B-QT, B-CV, B-OG, B-LC
-45	컸	O	O	O, B-CV, B-OG, B-QT, B-TM
-46	##다	O	O	O, B-CV, B-TM, I-CV, I-OG
-47	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-48	[SEP]	O	O	O, B-CV, B-LC, I-AF, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	지리산	B-LC	B-LC
+2	##에	O	O
+3	##서	O	O
+4	함께	O	O
+5	항일	O	B-EV
+6	##운동	O	I-EV
+7	##을	O	O
+8	하	O	O
+9	##며	O	O
+10	해방	O	O
+11	##을	O	O
+12	맞	O	O
+13	##고	O	O
+14	결혼	O	O
+15	##도	O	O
+16	하지	O	O
+17	##만	O	O
+18	,	O	O
+19	그	O	O
+20	##들의	O	O
+21	삶	O	O
+22	##은	O	O
+23	4	B-EV	B-EV
+24	·	I-EV	I-EV
+25	3	I-EV	I-EV
+26	##항	I-EV	I-EV
+27	##쟁	I-EV	I-EV
+28	,	O	O
+29	여	B-EV	B-EV
+30	##순	I-EV	I-EV
+31	##항	I-EV	I-EV
+32	##쟁	I-EV	I-EV
+33	,	O	O
+34	한국	B-EV	B-EV
+35	##전쟁	I-EV	I-EV
+36	##과	O	O
+37	분단	O	O
+38	##을	O	O
+39	차례	O	O
+40	##로	O	O
+41	겪	O	O
+42	##으며	O	O
+43	예측	O	O
+44	##할	O	O
+45	수	O	O
+46	없	O	O
+47	##는	O	O
+48	방향	O	O
+49	##으로	O	O
+50	나아	O	O
+51	##간다	O	O
+52	.	O	O
+53	[SEP]	O	O

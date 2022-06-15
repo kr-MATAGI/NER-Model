@@ -1,24 +1,51 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, B-CV, I-OG, I-EV
-1	이용	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
-2	(	O	O	O, I-PS, B-CV, I-OG, I-CV
-3	울산	B-OG	B-LC	B-LC, B-OG, B-PS, O, B-AF
-4	)	O	O	O, I-OG, I-LC, I-PS, B-CV
-5	은	O	O	O, B-CV, B-PS, I-CV, I-OG
-6	“	O	O	O, B-CV, B-PS, B-OG, B-LC
-7	대표	O	O	O, B-CV, B-PS, B-OG, I-CV
-8	##팀	O	O	O, I-OG, I-CV, B-CV, B-PS
-9	분위기	O	O	O, B-CV, B-PS, I-CV, I-PS
-10	메이커	O	O	O, B-CV, I-CV, B-PS, I-PS
-11	##는	O	O	O, B-PS, I-CV, I-PS, B-CV
-12	주영	B-PS	B-PS	B-PS, O, I-PS, B-LC, B-OG
-13	##이	O	I-PS	I-PS, O, B-PS, I-LC, I-OG
-14	형	O	B-CV	B-CV, O, I-CV, I-PS, B-TM
-15	##이다	O	O	O, I-CV, I-PS, B-CV, B-PS
-16	”	O	O	O, B-CV, I-CV, B-PS, B-LC
-17	고	O	O	O, B-CV, I-CV, B-PS, B-QT
-18	말	O	O	O, B-CV, I-CV, B-PS, I-QT
-19	##했	O	O	O, B-CV, B-PS, I-CV, I-OG
-20	##다	O	O	O, B-CV, B-PS, I-CV, B-LC
-21	.	O	O	O, B-PS, B-CV, I-CV, B-LC
-22	[SEP]	O	O	O, B-CV, B-PS, I-CV, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	중국	B-OG	B-LC
+2	##의	O	O
+3	부상	O	O
+4	##과	O	O
+5	북	B-LC	B-LC
+6	##핵	O	B-AF
+7	위협	O	O
+8	,	O	O
+9	한국	B-OG	B-LC
+10	우익	O	O
+11	##들의	O	O
+12	무분별	O	O
+13	##한	O	O
+14	‘	O	O
+15	핵	O	O
+16	##무장	O	O
+17	##론	O	O
+18	’	O	O
+19	등	O	O
+20	##에	O	O
+21	맞서	O	O
+22	##기	O	O
+23	위한	O	O
+24	안전장치	O	O
+25	##로	O	O
+26	그동안	O	O
+27	애써	O	O
+28	만들	O	O
+29	##고	O	O
+30	보관	O	O
+31	##해	O	O
+32	##온	O	O
+33	플루토늄	B-MT	B-MT
+34	##을	O	O
+35	포기	O	O
+36	##하	O	O
+37	##지	O	O
+38	않	O	O
+39	##겠다	O	O
+40	##는	O	O
+41	의사	O	O
+42	##를	O	O
+43	에	O	O
+44	##둘러	O	O
+45	밝힌	O	O
+46	셈	O	O
+47	##이다	O	O
+48	.	O	O
+49	[SEP]	O	O

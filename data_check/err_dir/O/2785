@@ -1,74 +1,16 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	조현	B-PS	B-PS	B-PS, B-OG, O, B-LC, I-PS
-2	##민	I-PS	I-PS	I-PS, I-OG, O, I-LC, I-QT
-3	대한	B-OG	B-OG	B-OG, I-OG, O, B-LC, I-PS
-4	##외	I-OG	I-OG	I-OG, O, B-OG, I-EV, I-LC
-5	##상	I-OG	I-OG	I-OG, O, I-EV, B-OG, I-LC
-6	##학	I-OG	I-OG	I-OG, O, I-EV, B-OG, I-LC
-7	##회	I-OG	I-OG	I-OG, O, I-EV, I-LC, I-AF
-8	이사장	B-CV	B-CV	B-CV, I-OG, O, I-CV, B-OG
-9	(	O	O	O, I-CV, I-OG, B-CV, I-EV
-10	부산대	B-OG	B-OG	B-OG, B-AF, B-LC, O, B-PS
-11	##병원	I-OG	I-OG	I-OG, I-AF, O, I-LC, I-PS
-12	권역	B-CV	B-CV	B-CV, O, B-FD, B-AF, I-CV
-13	##외	I-CV	I-CV	I-CV, B-CV, O, I-OG, I-AF
-14	##상	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-FD
-15	##센터	I-CV	I-CV	I-CV, B-CV, O, I-OG, I-TM
-16	##장	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-TM
-17	)	O	O	O, I-CV, I-OG, I-QT, B-CV
-18	은	O	O	O, B-CV, B-TM, B-OG, B-LC
-19	""""	O	O	O, B-CV, B-LC, B-TM, B-OG
-20	현재	O	O	O, B-CV, B-PS, B-LC, B-OG
-21	센터	O	O	O, B-CV, B-OG, B-PS, I-OG
-22	##에서	O	O	O, B-CV, B-PS, B-LC, B-DT
-23	근무	O	O	O, B-CV, B-TM, B-LC, B-PS
-24	##하	O	O	O, B-PS, B-CV, B-LC, B-OG
-25	##는	O	O	O, B-CV, B-PS, B-QT, B-LC
-26	전담	O	O	O, B-CV, B-PS, B-QT, B-OG
-27	전문의	B-CV	B-CV	B-CV, I-CV, O, B-OG, I-QT
-28	##에	O	O	O, I-CV, B-CV, I-QT, I-OG
-29	##게	O	O	O, B-LC, B-TM, B-PS, B-CV
-30	##만	O	O	O, B-QT, B-PS, I-QT, B-LC
-31	인건비	O	O	O, B-CV, B-TM, B-MT, B-QT
-32	지원	O	O	O, B-CV, B-TM, I-CV, B-OG
-33	##이	O	O	O, B-PS, B-OG, B-LC, B-CV
-34	이뤄지는	O	O	O, B-CV, B-TM, B-OG, B-LC
-35	##데	O	O	O, B-CV, B-OG, B-TM, B-LC
-36	의사	B-CV	B-CV	B-CV, O, B-OG, I-CV, B-TM
-37	##보	O	O	O, I-CV, I-QT, I-OG, B-CV
-38	##다	O	O	O, B-QT, B-TM, B-CV, I-QT
-39	훨씬	O	O	O, B-QT, B-LC, B-TM, B-CV
-40	많	O	O	O, B-QT, B-CV, B-PS, B-LC
-41	##은	O	O	O, B-PS, B-LC, B-OG, B-QT
-42	간호사	B-CV	B-CV	B-CV, O, B-OG, B-TM, I-CV
-43	,	O	O	O, I-CV, I-OG, B-CV, I-AF
-44	응급	B-CV	B-CV	B-CV, O, B-FD, B-OG, B-TM
-45	##구조	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-FD
-46	##사	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-FD
-47	,	O	O	O, I-CV, I-OG, I-QT, I-AF
-48	방사선	B-CV	B-CV	B-CV, B-FD, O, B-OG, B-TM
-49	##사	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-FD
-50	등	O	O	O, I-CV, I-OG, I-QT, I-AF
-51	##에	O	O	O, B-CV, B-TM, B-LC, B-OG
-52	대한	O	O	O, B-LC, B-OG, B-QT, B-TM
-53	지원	O	O	O, B-CV, B-TM, B-LC, B-OG
-54	##이	O	O	O, B-PS, B-LC, B-OG, B-TM
-55	없	O	O	O, B-LC, B-CV, B-TM, B-PS
-56	##어	O	O	O, B-LC, B-TM, B-QT, B-PS
-57	'	O	O	O, B-LC, B-CV, B-QT, B-TM
-58	반쪽	O	B-QT	B-QT, O, B-TM, I-QT, B-LC
-59	지원	O	O	O, I-QT, I-TM, B-TM, B-CV
-60	'	O	O	O, B-CV, B-PS, B-LC, B-TM
-61	에	O	O	O, B-CV, B-LC, B-PS, B-TM
-62	그치	O	O	O, B-LC, B-CV, B-TM, B-QT
-63	##고	O	O	O, B-TM, B-PS, B-LC, B-QT
-64	있	O	O	O, B-CV, B-TM, B-LC, B-OG
-65	##다	O	O	O, B-CV, B-TM, B-LC, I-OG
-66	""""	O	O	O, B-CV, B-TM, B-LC, B-QT
-67	고	O	O	O, B-CV, B-TM, B-QT, B-LC
-68	말	O	O	O, B-CV, B-TM, B-QT, I-QT
-69	##했	O	O	O, B-CV, B-PS, B-LC, B-OG
-70	##다	O	O	O, B-CV, B-TM, B-LC, B-OG
-71	.	O	O	O, B-LC, B-CV, B-OG, B-PS
-72	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	이	O	O
+2	##는	O	O
+3	지난해	B-DT	B-DT
+4	전체	O	O
+5	출국	O	B-CV
+6	##자	O	I-CV
+7	수의	O	O
+8	33	B-QT	B-QT
+9	%	I-QT	I-QT
+10	에	O	O
+11	해당	O	O
+12	##한다	O	O
+13	.	O	O
+14	[SEP]	O	O

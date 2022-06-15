@@ -1,30 +1,76 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-EV
-1	러시아	B-OG	B-LC	B-LC, B-OG, O, B-PS, B-CV
-2	##는	O	O	O, I-OG, I-LC, I-AF, B-OG
-3	소련	B-LC	B-LC	B-LC, B-OG, O, B-PS, I-LC
-4	시절	O	O	O, I-LC, I-OG, I-DT, I-PS
-5	##을	O	O	O, B-CV, I-OG, I-DT, B-PS
-6	포함	O	O	O, B-LC, B-DT, B-CV, B-OG
-7	##해	O	O	O, B-LC, B-PS, B-EV, B-DT
-8	올림픽	B-EV	B-EV	B-EV, O, B-CV, B-DT, B-LC
-9	피겨	B-CV	B-CV	B-CV, O, I-EV, I-CV, B-FD
-10	##에서	O	O	O, I-CV, I-EV, I-AF, B-CV
-11	##만	O	O	O, I-DT, B-QT, B-PS, I-QT
-12	50	B-QT	B-QT	B-QT, O, I-QT, B-LC, B-DT
-13	##개	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-14	##의	O	O	O, I-QT, I-EV, B-PS, B-CV
-15	메달	O	O	O, B-CV, B-TM, B-LC, B-PS
-16	(	O	O	O, I-CV, B-CV, B-PS, B-OG
-17	총	O	O	O, B-QT, B-LC, B-TM, B-PS
-18	메달	O	O	O, B-CV, B-TM, B-AF, B-PS
-19	수	O	O	O, B-QT, B-PS, I-CV, B-TM
-20	1	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-PS
-21	##위	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-22	)	O	O	O, I-QT, I-OG, I-CV, I-EV
-23	을	O	O	O, B-CV, B-OG, B-PS, B-LC
-24	획득	O	O	O, B-CV, B-TM, B-LC, B-OG
-25	##했	O	O	O, B-OG, B-LC, B-CV, B-PS
-26	##다	O	O	O, B-CV, I-OG, B-OG, B-LC
-27	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-28	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	평소	O	O
+2	'	O	O
+3	단체장	B-CV	B-CV
+4	##의	O	O
+5	정당	B-CV	O
+6	##공	I-CV	O
+7	##천	I-CV	O
+8	제도	I-CV	O
+9	##가	O	O
+10	정치	O	O
+11	##부패	O	O
+12	##의	O	O
+13	온	O	O
+14	##상	O	O
+15	'	O	O
+16	이라	O	O
+17	##는	O	O
+18	지론	O	O
+19	##을	O	O
+20	펼쳐	O	O
+21	##온	O	O
+22	그	O	O
+23	##는	O	O
+24	작년	B-DT	B-DT
+25	##부터	I-DT	I-DT
+26	전국	O	B-OG
+27	시장	B-CV	I-OG
+28	·	O	I-OG
+29	군수	B-CV	I-OG
+30	·	O	I-OG
+31	구청장	B-OG	I-OG
+32	##협	I-OG	I-OG
+33	##의	I-OG	I-OG
+34	##회	I-OG	I-OG
+35	정당	O	O
+36	##공	O	O
+37	##천	O	O
+38	##폐	O	O
+39	##지	O	O
+40	특별	B-CV	B-CV
+41	##위원	I-CV	I-CV
+42	##장	I-CV	I-CV
+43	##과	O	O
+44	'	O	O
+45	기초	B-OG	B-EV
+46	##지방	I-OG	I-EV
+47	##선거	I-OG	I-EV
+48	정당	I-OG	I-OG
+49	##공	I-OG	I-OG
+50	##천	I-OG	I-OG
+51	##폐	I-OG	I-OG
+52	##지	I-OG	I-OG
+53	##를	I-OG	I-OG
+54	위한	I-OG	I-OG
+55	국민	I-OG	I-OG
+56	##운동	I-OG	I-OG
+57	##본부	I-OG	I-OG
+58	'	O	O
+59	상임	B-CV	B-CV
+60	##대표	I-CV	I-CV
+61	##로	O	O
+62	활동	O	O
+63	##하	O	O
+64	##며	O	O
+65	일찌감치	O	O
+66	무소	O	O
+67	##속	O	O
+68	출마	O	O
+69	##를	O	O
+70	선언	O	O
+71	##했	O	O
+72	##다	O	O
+73	.	O	O
+74	[SEP]	O	O

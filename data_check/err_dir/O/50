@@ -1,27 +1,43 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-EV, I-AF
-1	그러나	O	O	O, B-PS, B-CV, B-QT, B-LC
-2	뻔한	O	O	O, B-PS, B-CV, B-QT, B-TR
-3	공무원	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-FD
-4	월급	O	O	O, I-CV, B-CV, B-PS, I-EV
-5	##을	O	O	O, B-PS, B-CV, I-CV, I-PS
-6	감안	O	O	O, B-PS, B-CV, B-QT, I-CV
-7	##하면	O	O	O, B-PS, I-PS, B-CV, B-LC
-8	결국	O	O	O, B-PS, B-CV, I-PS, B-QT
-9	전	O	B-PS	B-PS, O, I-PS, B-LC, B-CV
-10	원장	B-CV	B-CV	B-CV, O, I-CV, I-PS, B-PS
-11	##의	O	O	O, I-CV, B-PS, B-CV, I-PS
-12	재산	O	O	O, B-CV, I-CV, B-PS, B-TM
-13	형성	O	O	O, I-CV, B-PS, B-CV, I-PS
-14	##에	O	O	O, B-PS, B-CV, B-QT, I-CV
-15	실제	O	O	O, B-PS, B-CV, B-QT, I-PS
-16	기여	O	O	O, B-PS, B-CV, I-CV, I-PS
-17	##한	O	O	O, B-PS, B-CV, B-QT, I-PS
-18	사람	O	O	O, B-PS, B-CV, I-CV, I-PS
-19	##은	O	O	O, B-PS, B-CV, I-CV, I-PS
-20	남편	B-CV	B-CV	B-CV, O, I-CV, B-PS, B-TM
-21	이모	O	O	O, B-PS, B-CV, I-CV, B-QT
-22	##씨	O	O	O, I-CV, B-PS, I-PS, B-CV
-23	##이다	O	O	O, B-PS, B-CV, I-CV, I-PS
-24	.	O	O	O, B-PS, B-CV, I-CV, I-PS
-25	[SEP]	O	O	O, B-PS, B-CV, I-CV, I-PS
+	text	label	preds
+0	[CLS]	O	O
+1	SK	B-OG	B-OG
+2	##이	I-OG	I-OG
+3	##노	I-OG	I-OG
+4	##베이션	I-OG	I-OG
+5	##은	O	O
+6	충남	B-LC	B-LC
+7	서산	B-LC	B-LC
+8	##에	O	O
+9	위치	O	O
+10	##한	O	O
+11	전기차	B-AF	B-AF
+12	배터리	O	B-TM
+13	공장	O	O
+14	설비	O	O
+15	##를	O	O
+16	기존	O	O
+17	대비	O	O
+18	두	B-QT	B-QT
+19	배	I-QT	I-QT
+20	규모	O	O
+21	##로	O	O
+22	증설	O	O
+23	##하	O	O
+24	##는	O	O
+25	공사	O	O
+26	##를	O	O
+27	올해	B-DT	B-DT
+28	7	I-DT	I-DT
+29	##월	I-DT	I-DT
+30	마무리	O	O
+31	##하	O	O
+32	##고	O	O
+33	본격	O	O
+34	##적	O	O
+35	##인	O	O
+36	생산	O	O
+37	##에	O	O
+38	들어갔	O	O
+39	##다	O	O
+40	.	O	O
+41	[SEP]	O	O

@@ -1,23 +1,20 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	장애인	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-TM
-2	##과	O	O	O, I-CV, B-CV, B-PS, I-OG
-3	비장	O	B-CV	B-CV, O, I-CV, B-TM, B-OG
-4	##애	O	I-CV	I-CV, O, B-CV, I-OG, I-TM
-5	##인	O	I-CV	I-CV, O, I-OG, B-CV, I-TM
-6	##의	O	O	O, I-CV, B-PS, B-CV, I-OG
-7	편견	O	O	O, B-CV, B-PS, B-TM, B-OG
-8	##의	O	O	O, B-PS, I-AF, B-CV, I-OG
-9	벽	O	O	O, B-CV, B-PS, B-TM, B-AF
-10	##을	O	O	O, B-CV, I-AF, B-PS, I-CV
-11	허물	O	O	O, B-CV, B-PS, B-LC, B-QT
-12	##기	O	O	O, B-PS, B-CV, B-LC, I-EV
-13	위한	O	O	O, B-PS, B-LC, B-CV, B-AF
-14	봉	B-PS	B-AF	B-AF, B-PS, B-EV, B-LC, O
-15	##선	B-CV	I-AF	I-AF, I-PS, O, I-EV, I-LC
-16	##수	I-CV	I-AF	I-AF, I-PS, O, I-EV, I-LC
-17	##의	O	O	O, I-AF, I-EV, I-PS, B-CV
-18	은빛	B-TM	O	O, B-TM, B-TR, B-LC, B-AF
-19	질주	O	O	O, B-AF, I-AF, B-CV, I-TM
-20	##는	O	O	O, I-AF, B-CV, I-CV, I-EV
-21	[SEP]	O	O	O, B-CV, B-PS, B-LC, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	KT	B-OG	B-OG
+2	올레	B-OG	B-OG
+3	##TV	I-OG	I-OG
+4	,	O	O
+5	안부	B-TM	O
+6	##알	I-TM	O
+7	##리	I-TM	O
+8	##미	I-TM	O
+9	·	I-TM	O
+10	일정	I-TM	O
+11	##알	I-TM	O
+12	##리	I-TM	O
+13	##미	I-TM	O
+14	서비스	I-TM	O
+15	2	B-QT	B-QT
+16	##종	I-QT	I-QT
+17	내놔	O	O
+18	[SEP]	O	O

@@ -1,34 +1,24 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	버핏	O	B-CV	B-CV, O, B-AF, B-OG, B-PS
-2	##세	O	I-CV	I-CV, O, I-OG, I-AF, B-CV
-3	도입	O	O	O, I-CV, B-CV, I-EV, I-OG
-4	##이	O	O	O, B-PS, B-OG, B-LC, B-CV
-5	무산	O	O	O, B-CV, B-TM, B-LC, B-EV
-6	##된	O	O	O, B-CV, B-PS, B-OG, B-LC
-7	배경	O	O	O, B-CV, B-TM, B-LC, B-PS
-8	##에	O	O	O, B-CV, B-PS, B-TM, B-LC
-9	##는	O	O	O, B-CV, B-LC, B-PS, B-OG
-10	‘	O	O	O, B-CV, B-LC, B-PS, B-OG
-11	증세	O	O	O, B-CV, B-PS, B-TR, B-TM
-12	##는	O	O	O, B-PS, B-CV, I-AF, I-CV
-13	선거	O	O	O, B-EV, B-CV, B-PS, B-FD
-14	##엔	O	O	O, I-EV, B-PS, I-TR, I-CV
-15	독	O	O	O, B-PS, B-CV, B-TM, B-AM
-16	’	O	O	O, B-CV, I-CV, B-PS, I-AF
-17	이라	O	O	O, B-PS, B-CV, B-LC, B-TR
-18	##는	O	O	O, B-PS, B-CV, B-LC, I-PS
-19	정치	O	O	O, B-CV, B-FD, B-PS, B-OG
-20	##권	O	O	O, B-PS, I-CV, I-OG, I-TR
-21	##의	O	O	O, B-PS, B-CV, B-LC, B-TM
-22	이런	O	O	O, B-CV, B-PS, B-TM, B-TR
-23	생리	O	O	O, B-CV, B-TR, B-TM, B-PS
-24	##가	O	O	O, B-PS, B-CV, B-LC, B-OG
-25	작동	O	O	O, B-CV, B-TM, B-LC, B-PS
-26	##하고	O	O	O, B-PS, B-CV, B-LC, I-CV
-27	있	O	O	O, B-PS, B-CV, B-LC, B-TM
-28	##는	O	O	O, B-CV, B-PS, B-TM, I-CV
-29	것	O	O	O, B-CV, B-PS, B-TM, B-OG
-30	##이다	O	O	O, B-CV, I-CV, B-TM, I-EV
-31	.	O	O	O, B-CV, B-PS, B-LC, B-FD
-32	[SEP]	O	O	O, B-CV, B-LC, B-PS, I-EV
+	text	label	preds
+0	[CLS]	O	O
+1	해외	O	O
+2	거장	O	B-CV
+3	##들의	O	O
+4	작품	O	O
+5	128	B-QT	B-QT
+6	##점	I-QT	I-QT
+7	##을	O	O
+8	한자	O	O
+9	##리에	O	O
+10	모은	O	O
+11	‘	B-EV	O
+12	나의	I-EV	B-EV
+13	샤	I-EV	I-EV
+14	##갈	I-EV	I-EV
+15	,	I-EV	I-EV
+16	당신	I-EV	I-EV
+17	##의	I-EV	I-EV
+18	피카소	I-EV	I-EV
+19	’	I-EV	O
+20	전	I-EV	O
+21	.	O	O
+22	[SEP]	O	O

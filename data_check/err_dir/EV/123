@@ -1,35 +1,24 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-EV, B-CV, I-OG, I-CV
-1	하	B-LC	B-LC	B-LC, B-OG, O, B-PS, B-AF
-2	##노버	I-LC	I-LC	I-LC, I-OG, O, I-PS, B-LC
-3	경찰	B-OG	B-OG	B-OG, I-OG, B-AF, B-CV, O
-4	##은	O	O	O, I-OG, I-EV, I-AF, B-CV
-5	폭탄	B-EV	B-AF	B-AF, O, B-CV, B-PS, B-EV
-6	테러	I-EV	O	O, I-AF, I-EV, B-CV, I-CV
-7	공격	O	O	O, I-EV, B-CV, I-AF, I-CV
-8	가능	O	O	O, B-CV, I-EV, B-PS, B-LC
-9	##성	O	O	O, B-LC, B-PS, B-CV, B-OG
-10	##에	O	O	O, B-CV, B-LC, B-OG, I-EV
-11	대한	O	O	O, B-LC, B-OG, B-PS, B-TM
-12	정보	O	O	O, B-CV, B-LC, B-TM, B-PS
-13	##를	O	O	O, B-CV, B-LC, B-OG, B-PS
-14	입수	O	O	O, B-CV, B-LC, B-TM, B-PS
-15	##했	O	O	O, B-PS, B-LC, B-CV, B-OG
-16	##다	O	O	O, B-LC, B-CV, B-OG, B-PS
-17	##며	O	O	O, B-LC, B-CV, B-OG, B-TM
-18	,	O	O	O, B-CV, B-LC, B-EV, I-EV
-19	경기	O	O	O, B-CV, B-EV, I-EV, B-LC
-20	시작	O	O	O, I-EV, B-CV, I-CV, I-AF
-21	1	B-TI	B-TI	B-TI, O, B-EV, B-QT, I-TI
-22	##시간	I-TI	I-TI	I-TI, I-EV, O, B-TI, I-QT
-23	##30	I-TI	I-TI	I-TI, O, I-QT, I-TR, I-EV
-24	##분	I-TI	I-TI	I-TI, O, I-QT, I-TR, I-EV
-25	전	I-TI	I-TI	I-TI, O, I-TR, I-QT, I-EV
-26	##에	O	O	O, I-TI, I-EV, I-QT, I-AF
-27	경기	O	O	O, B-CV, B-EV, B-LC, B-TM
-28	##를	O	O	O, B-CV, I-EV, I-CV, B-OG
-29	취소	O	O	O, B-CV, B-TM, B-LC, B-OG
-30	##했	O	O	O, B-CV, B-LC, B-OG, I-EV
-31	##다	O	O	O, B-CV, B-LC, I-EV, I-OG
-32	.	O	O	O, B-LC, B-CV, B-OG, B-PS
-33	[SEP]	O	O	O, B-CV, B-LC, I-EV, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	만약	O	O
+2	'	O	O
+3	우주	O	B-EV
+4	올림픽	B-EV	I-EV
+5	'	O	O
+6	이	O	O
+7	열려	O	O
+8	지구	O	B-LC
+9	대표	B-CV	B-CV
+10	한	O	B-QT
+11	명	O	I-QT
+12	##을	O	O
+13	보내	O	O
+14	##야	O	O
+15	한다면	O	O
+16	누구	O	O
+17	##를	O	O
+18	선발	O	O
+19	##할	O	O
+20	##까	O	O
+21	.	O	O
+22	[SEP]	O	O

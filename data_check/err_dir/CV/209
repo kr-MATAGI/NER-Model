@@ -1,9 +1,39 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	그	O	O	O, B-CV, B-OG, B-LC, B-TM
-2	쌀	B-CV	B-CV	B-CV, B-PT, O, B-AM, B-OG
-3	알	I-CV	O	O, B-AM, I-CV, B-PT, B-CV
-4	##에	O	O	O, I-CV, I-AF, B-CV, I-QT
-5	스며	O	O	O, B-CV, B-PS, B-LC, B-TM
-6	##든	O	O	O, B-PS, I-CV, B-CV, I-AF
-7	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	이명박	B-PS	B-PS
+2	대통령	B-CV	B-CV
+3	##과	O	O
+4	한나라당	B-OG	B-OG
+5	최고위	B-CV	B-CV
+6	##원	I-CV	I-CV
+7	및	O	O
+8	중진	O	B-CV
+9	의원	B-CV	I-CV
+10	##들의	O	O
+11	2	B-DT	B-DT
+12	##일	I-DT	I-DT
+13	오찬	O	O
+14	##회	O	O
+15	##동	O	O
+16	##이	O	O
+17	끝	O	O
+18	##나	O	O
+19	##자	O	O
+20	##마자	O	O
+21	친	O	O
+22	##이	O	O
+23	##와	O	O
+24	친	O	O
+25	##박	O	O
+26	진영	O	O
+27	##이	O	O
+28	다시	O	O
+29	노골	O	O
+30	##적	O	O
+31	##으로	O	O
+32	다투	O	O
+33	##고	O	O
+34	있	O	O
+35	##다	O	O
+36	.	O	O
+37	[SEP]	O	O

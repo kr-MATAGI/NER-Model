@@ -1,50 +1,74 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-EV, I-CV
-1	2003	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-QT
-2	##년	I-DT	I-DT	I-DT, O, I-QT, I-EV, B-DT
-3	이후	I-DT	I-DT	I-DT, O, I-EV, I-QT, I-OG
-4	6	B-EV	B-EV	B-EV, O, B-OG, B-QT, B-DT
-5	##자	I-EV	I-EV	I-EV, O, I-DT, I-QT, I-OG
-6	##회	I-EV	I-EV	I-EV, O, I-OG, I-QT, I-DT
-7	##담	I-EV	I-EV	I-EV, O, I-OG, I-AF, I-QT
-8	##을	O	O	O, I-EV, I-OG, I-AF, I-DT
-9	통해	O	O	O, B-LC, B-OG, B-PS, B-TM
-10	북한	B-OG	B-LC	B-LC, B-OG, O, B-PS, B-AF
-11	핵	B-AF	B-AF	B-AF, O, B-MT, I-AF, B-LC
-12	문제	O	O	O, I-AF, I-LC, I-EV, I-OG
-13	해결	O	O	O, B-LC, I-EV, B-CV, B-PS
-14	##의	O	O	O, B-LC, B-PS, B-OG, B-CV
-15	간사	B-CV	O	O, B-CV, B-LC, B-OG, B-PS
-16	##국	O	O	O, I-CV, I-LC, B-LC, I-OG
-17	역할	O	O	O, I-CV, B-CV, B-LC, I-LC
-18	##을	O	O	O, B-PS, I-CV, B-LC, B-CV
-19	자임	O	O	O, B-LC, B-CV, B-OG, B-PS
-20	##했	O	O	O, B-LC, B-PS, B-OG, I-OG
-21	##던	O	O	O, B-LC, B-OG, B-PS, B-CV
-22	중국	B-LC	B-OG	B-OG, B-LC, O, I-OG, B-PS
-23	##은	O	O	O, I-OG, I-LC, B-OG, B-CV
-24	북한	B-OG	B-OG	B-OG, B-LC, O, B-PS, B-AF
-25	##의	O	O	O, I-OG, I-LC, I-EV, I-AF
-26	핵실험	O	O	O, B-LC, B-AF, B-TM, B-EV
-27	##과	O	O	O, B-LC, B-PS, B-AF, I-AF
-28	장거리	O	B-AF	B-AF, O, B-LC, B-TM, B-EV
-29	미사일	B-AF	I-AF	I-AF, B-AF, O, I-EV, B-MT
-30	발사	O	O	O, I-AF, I-EV, I-LC, I-TM
-31	실험	O	O	O, I-EV, I-AF, I-LC, B-LC
-32	##으로	O	O	O, B-LC, B-OG, B-PS, I-EV
-33	영향력	O	O	O, B-LC, B-CV, B-TM, B-OG
-34	부재	O	O	O, B-LC, B-PS, B-CV, B-TM
-35	##를	O	O	O, B-PS, B-LC, B-CV, B-OG
-36	드러낸	O	O	O, B-LC, B-CV, B-TM, B-PS
-37	것	O	O	O, B-LC, B-OG, B-CV, B-PS
-38	##에	O	O	O, B-LC, B-PS, B-OG, B-CV
-39	당혹감	O	O	O, B-CV, B-LC, B-OG, B-TM
-40	##을	O	O	O, B-CV, I-OG, I-CV, B-OG
-41	감추	O	O	O, B-LC, B-CV, B-OG, B-TM
-42	##지	O	O	O, B-LC, I-OG, B-PS, B-CV
-43	못하	O	O	O, B-LC, B-CV, B-OG, B-PS
-44	##고	O	O	O, B-LC, I-OG, B-OG, B-CV
-45	있	O	O	O, B-LC, B-CV, B-OG, B-TM
-46	##다	O	O	O, B-CV, B-LC, I-EV, I-OG
-47	.	O	O	O, B-LC, B-PS, B-CV, B-OG
-48	[SEP]	O	O	O, B-LC, B-CV, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	여기	O	O
+2	##에	O	O
+3	23	B-DT	B-DT
+4	##년	I-DT	I-DT
+5	##의	O	O
+6	전통	O	O
+7	##을	O	O
+8	자랑	O	O
+9	##하	O	O
+10	##는	O	O
+11	이윤	B-PS	B-PS
+12	##택	I-PS	I-PS
+13	선생	B-CV	B-CV
+14	##의	O	O
+15	가마	B-AF	B-OG
+16	##골	I-AF	I-OG
+17	##소	I-AF	I-OG
+18	##극장	I-AF	I-OG
+19	(	O	O
+20	☎	O	O
+21	##15	B-QT	B-QT
+22	##88	I-QT	I-QT
+23	-	I-QT	I-QT
+24	91	I-QT	I-QT
+25	##55	I-QT	I-QT
+26	)	O	O
+27	이	O	O
+28	거제	B-LC	B-LC
+29	##동	I-LC	I-LC
+30	##에	O	O
+31	##서	O	O
+32	다음	B-DT	B-DT
+33	달	I-DT	I-DT
+34	9	I-DT	I-DT
+35	##일	I-DT	I-DT
+36	,	O	O
+37	부산	B-OG	B-OG
+38	##M	I-OG	I-OG
+39	##BC	I-OG	I-OG
+40	##와	O	O
+41	롯데	B-OG	B-OG
+42	##백화점	I-OG	I-OG
+43	##이	O	O
+44	만나	O	O
+45	만든	O	O
+46	지역	O	O
+47	최초	O	O
+48	##의	O	O
+49	뮤지컬	B-FD	B-FD
+50	전용	O	O
+51	##극장	O	O
+52	,	O	O
+53	'	O	O
+54	MBC	B-AF	B-AF
+55	##롯	I-AF	I-AF
+56	##데	I-AF	I-AF
+57	##아트	I-AF	I-AF
+58	##홀	I-AF	I-AF
+59	'	O	O
+60	이	O	O
+61	다음	B-DT	B-DT
+62	달	I-DT	I-DT
+63	29	I-DT	I-DT
+64	##일	I-DT	I-DT
+65	각각	O	O
+66	문	O	O
+67	##을	O	O
+68	열	O	O
+69	예정	O	O
+70	##이다	O	O
+71	.	O	O
+72	[SEP]	O	O

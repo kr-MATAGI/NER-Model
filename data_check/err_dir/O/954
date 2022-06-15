@@ -1,55 +1,47 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	임시	B-AF	B-AF	B-AF, B-LC, O, B-PS, B-OG
-2	##정부	I-AF	I-AF	I-AF, O, I-PS, B-AF, I-LC
-3	##청사	I-AF	I-AF	I-AF, O, I-LC, I-PS, B-AF
-4	##는	O	O	O, I-AF, I-EV, B-CV, I-OG
-5	백범	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-6	김구	I-PS	I-PS	I-PS, O, B-PS, I-OG, I-LC
-7	선생	B-CV	B-CV	B-CV, O, I-PS, I-CV, B-TM
-8	##이	O	O	O, I-CV, B-PS, I-PS, B-CV
-9	‘	O	O	O, B-CV, B-LC, B-PS, B-DT
-10	백범	B-AF	B-AF	B-AF, B-PS, O, B-CV, B-EV
-11	##일	I-AF	I-AF	I-AF, O, I-PS, B-AF, I-LC
-12	##지	I-AF	I-AF	I-AF, O, I-PS, I-LC, I-OG
-13	’	O	O	O, I-AF, I-EV, B-CV, I-PS
-14	를	O	O	O, B-CV, B-LC, B-PS, B-OG
-15	집필	O	O	O, B-CV, B-LC, B-FD, B-OG
-16	##했	O	O	O, B-PS, B-LC, B-OG, B-CV
-17	##고	O	O	O, B-LC, B-OG, B-PS, B-CV
-18	,	O	O	O, B-LC, B-OG, B-CV, B-PS
-19	일제	O	B-OG	B-OG, O, B-LC, B-DT, B-EV
-20	##의	O	O	O, I-OG, B-PS, I-LC, B-OG
-21	간	O	O	O, B-LC, B-PS, B-CV, B-TM
-22	##담	O	O	O, I-LC, B-LC, I-AF, B-PS
-23	##을	O	O	O, B-PS, B-LC, B-CV, B-TM
-24	서늘	O	O	O, B-LC, B-TM, B-CV, B-PS
-25	##하	O	O	O, B-LC, B-PS, I-LC, I-AF
-26	##게	O	O	O, B-LC, B-PS, B-OG, B-CV
-27	만든	O	O	O, B-LC, B-OG, B-PS, B-CV
-28	‘	O	O	O, B-OG, B-LC, B-PS, B-CV
-29	한인	B-OG	B-OG	B-OG, I-OG, O, B-LC, B-AF
-30	##애	I-OG	I-OG	I-OG, O, B-OG, I-LC, I-AF
-31	##국	I-OG	I-OG	I-OG, O, B-OG, I-LC, I-AF
-32	##단	I-OG	I-OG	I-OG, O, I-LC, I-AF, I-CV
-33	’	O	O	O, I-OG, B-OG, I-EV, B-PS
-34	이	O	O	O, B-PS, B-OG, B-LC, B-AF
-35	조직	O	O	O, B-OG, B-LC, I-OG, B-CV
-36	##돼	O	O	O, B-LC, B-PS, I-OG, I-LC
-37	윤	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-38	##봉	I-PS	I-PS	I-PS, O, B-PS, I-LC, I-OG
-39	##길	I-PS	I-PS	I-PS, O, I-LC, I-OG, B-PS
-40	이봉	B-PS	B-PS	B-PS, I-PS, O, B-LC, B-OG
-41	##창	I-PS	I-PS	I-PS, O, I-LC, I-OG, I-AF
-42	의사	B-CV	B-CV	B-CV, O, I-PS, I-CV, B-AF
-43	##의	O	O	O, I-CV, I-EV, I-AF, B-CV
-44	의거	O	O	O, B-EV, B-CV, B-LC, I-EV
-45	##를	O	O	O, I-EV, B-CV, B-PS, B-OG
-46	준비	O	O	O, B-CV, B-LC, B-OG, B-PS
-47	##한	O	O	O, B-LC, B-PS, B-OG, B-CV
-48	역사	O	O	O, B-LC, B-CV, B-PS, B-OG
-49	##적	O	O	O, B-LC, B-PS, I-LC, I-PS
-50	장소	O	O	O, B-LC, B-CV, B-PS, B-OG
-51	##다	O	O	O, B-CV, B-LC, B-OG, B-PS
-52	.	O	O	O, B-LC, B-PS, B-OG, B-CV
-53	[SEP]	O	O	O, B-LC, B-CV, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	이날	B-DT	B-DT
+2	##도	O	O
+3	을지로	B-LC	B-LC
+4	##입	I-LC	I-LC
+5	##구역	I-LC	I-LC
+6	##에	O	O
+7	산다는	O	O
+8	노숙인	B-CV	B-CV
+9	이모	O	O
+10	##씨	O	O
+11	##가	O	O
+12	한	O	O
+13	손	O	B-AM
+14	##에	O	O
+15	성경	O	B-AF
+16	글귀	O	O
+17	##와	O	O
+18	자신	O	O
+19	##이	B-PS	O
+20	지은	O	O
+21	시가	O	O
+22	적힌	O	O
+23	손바닥	B-AM	B-AM
+24	##만	O	O
+25	한	O	O
+26	수첩	O	O
+27	##을	O	O
+28	쥐	O	O
+29	##고	O	O
+30	야	B-PS	B-PS
+31	##고	I-PS	I-PS
+32	##보	I-PS	I-PS
+33	수녀	B-CV	B-CV
+34	##를	O	O
+35	따라	O	O
+36	덕수궁	B-LC	B-LC
+37	지하	O	O
+38	##도	O	O
+39	##까	O	O
+40	##지	O	O
+41	돌	O	O
+42	##았	O	O
+43	##다	O	O
+44	.	O	O
+45	[SEP]	O	O

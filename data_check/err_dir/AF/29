@@ -1,65 +1,13 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-EV, I-CV
-1	또한	O	O	O, B-LC, B-TM, B-OG, B-AF
-2	초대	O	O	O, B-AF, B-OG, B-TM, B-LC
-3	##형	O	O	O, I-AF, I-OG, B-AF, I-TM
-4	##유	B-AF	O	O, B-AF, I-AF, B-MT, B-LC
-5	##조선	I-AF	I-AF	I-AF, O, I-OG, B-AF, I-LC
-6	##을	O	O	O, I-AF, I-OG, I-TM, B-CV
-7	비롯	O	O	O, B-OG, B-TM, B-LC, B-CV
-8	##해	O	O	O, B-LC, B-AF, B-OG, I-AF
-9	드릴	B-AF	B-AF	B-AF, O, B-TM, I-AF, B-CV
-10	##십	I-AF	I-AF	I-AF, O, I-TM, I-CV, I-OG
-11	(	O	O	O, I-AF, I-TM, I-OG, I-CV
-12	수심	O	O	O, B-LC, B-AF, B-PS, B-TM
-13	##이	O	O	O, B-PS, B-LC, B-OG, B-AF
-14	깊	O	O	O, B-LC, B-PS, I-AF, B-CV
-15	##거나	O	O	O, B-LC, I-AF, B-PS, I-LC
-16	파도	O	O	O, B-LC, B-AF, B-PS, B-MT
-17	##가	O	O	O, B-PS, B-LC, B-OG, B-AF
-18	심해	O	O	O, B-LC, B-PS, B-AF, B-TM
-19	고정	O	O	O, B-LC, B-TM, B-AF, B-CV
-20	##된	O	O	O, B-LC, B-PS, I-AF, B-AF
-21	구조물	O	O	O, B-LC, B-AF, I-AF, B-CV
-22	##을	O	O	O, B-LC, B-PS, B-AF, B-CV
-23	설치	O	O	O, B-LC, B-AF, B-CV, B-PS
-24	##할	O	O	O, B-LC, B-PS, B-AF, B-OG
-25	수	O	O	O, B-LC, B-PS, B-TM, B-AF
-26	없	O	O	O, B-LC, B-TM, B-CV, B-AF
-27	##는	O	O	O, B-LC, B-TM, B-AF, I-LC
-28	해상	O	O	O, B-LC, B-AF, I-LC, B-TM
-29	##에서	O	O	O, B-LC, I-LC, I-AF, B-AF
-30	원유	B-MT	B-MT	B-MT, O, I-MT, B-AF, B-LC
-31	##와	O	O	O, I-AF, B-LC, I-LC, B-TM
-32	가스	B-MT	O	O, B-MT, I-MT, B-TR, B-AF
-33	시추	O	O	O, I-MT, B-MT, I-TR, I-AF
-34	##작	O	O	O, I-AF, I-LC, I-TM, I-TR
-35	##업	O	O	O, B-LC, I-LC, I-AF, I-TM
-36	##을	O	O	O, B-CV, B-LC, B-OG, B-TM
-37	수행	O	O	O, B-LC, B-CV, B-TM, B-AF
-38	##할	O	O	O, B-LC, B-AF, B-PS, B-CV
-39	수	O	O	O, B-LC, B-AF, B-TM, B-CV
-40	있	O	O	O, B-LC, B-AF, B-CV, B-TM
-41	##는	O	O	O, B-AF, B-LC, B-TM, B-CV
-42	선박	B-AF	B-AF	B-AF, O, B-TM, I-AF, B-LC
-43	형태	O	O	O, I-AF, I-TM, I-OG, I-CV
-44	##의	O	O	O, I-AF, I-TM, I-OG, B-AF
-45	시추	O	O	O, B-AF, I-AF, B-TM, B-CV
-46	##설	O	O	O, I-AF, B-AF, I-TM, I-LC
-47	##비	O	O	O, I-AF, B-AF, I-OG, I-LC
-48	)	O	O	O, I-AF, I-OG, B-LC, B-CV
-49	등	O	O	O, B-LC, B-OG, B-AF, B-TM
-50	규모	O	O	O, B-LC, B-TM, B-CV, B-OG
-51	##가	O	O	O, B-PS, B-LC, B-OG, B-CV
-52	큰	O	O	O, B-LC, B-CV, B-TM, B-OG
-53	고부	O	O	O, B-AF, B-TM, B-LC, B-CV
-54	##가	O	O	O, I-AF, I-LC, I-TM, I-OG
-55	##가치	O	O	O, I-AF, I-LC, I-TM, I-OG
-56	선박	B-AF	B-AF	B-AF, O, I-AF, B-TM, B-OG
-57	건조	O	O	O, I-AF, I-OG, I-TM, I-EV
-58	##도	O	O	O, B-LC, I-AF, B-TM, B-OG
-59	가능	O	O	O, B-OG, B-TM, B-LC, B-AF
-60	##해졌	O	O	O, I-OG, I-AF, I-TM, B-LC
-61	##다	O	O	O, I-OG, B-LC, B-CV, B-TM
-62	.	O	O	O, B-LC, B-AF, B-OG, B-PS
-63	[SEP]	O	O	O, B-LC, B-AF, I-AF, B-CV
+	text	label	preds
+0	[CLS]	O	O
+1	지난달	B-DT	B-DT
+2	30	I-DT	I-DT
+3	##일	I-DT	I-DT
+4	강원	B-LC	B-LC
+5	원주시	B-LC	B-LC
+6	한솔	B-AF	B-LC
+7	##오	I-AF	I-LC
+8	##크	I-AF	I-LC
+9	##밸리	I-AF	I-LC
+10	.	O	O
+11	[SEP]	O	O

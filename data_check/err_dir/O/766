@@ -1,48 +1,41 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	함께	O	O	O, B-CV, B-LC, B-OG, B-TM
-2	발굴	O	O	O, B-LC, B-CV, B-OG, B-TM
-3	##된	O	O	O, B-LC, B-CV, B-PS, B-OG
-4	5	B-TI	B-TI	B-TI, B-QT, O, B-EV, B-TR
-5	##분	I-TI	I-TI	I-TI, O, I-QT, I-TR, B-TI
-6	분량	O	I-TI	I-TI, O, I-QT, I-TR, B-TI
-7	##의	O	O	O, I-TI, B-LC, I-QT, B-OG
-8	‘	O	O	O, B-LC, B-OG, B-CV, B-DT
-9	황해	B-LC	B-LC	B-LC, B-EV, B-AF, O, B-OG
-10	##도	I-LC	I-LC	I-LC, I-EV, B-LC, O, I-AF
-11	축산	O	O	O, I-EV, B-EV, B-AF, I-LC
-12	##공	O	I-EV	I-EV, O, I-AF, I-OG, B-EV
-13	##진	O	I-EV	I-EV, O, I-AF, I-OG, B-EV
-14	##회	O	I-EV	I-EV, O, I-AF, I-OG, I-LC
-15	영상	O	O	O, I-EV, I-AF, B-EV, I-OG
-16	’	O	O	O, I-EV, I-AF, I-OG, I-DT
-17	(	O	O	O, B-CV, B-OG, B-LC, I-OG
-18	제목	O	O	O, B-TM, B-OG, B-LC, B-CV
-19	미상	O	O	O, B-TM, B-OG, B-LC, B-CV
-20	)	O	O	O, I-OG, B-CV, B-LC, B-OG
-21	은	O	O	O, B-OG, B-LC, B-CV, B-PS
-22	1924	B-DT	B-DT	B-DT, O, I-DT, B-LC, B-EV
-23	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-24	10	I-DT	I-DT	I-DT, O, B-DT, I-PS, I-QT
-25	##월	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-26	황해	B-LC	B-LC	B-LC, O, B-OG, B-AF, I-LC
-27	##도	I-LC	I-LC	I-LC, O, I-AF, B-LC, I-OG
-28	사리	B-LC	B-LC	B-LC, I-LC, B-AF, O, I-AF
-29	##원	I-LC	I-LC	I-LC, I-AF, O, I-PS, I-OG
-30	##에서	O	O	O, I-LC, I-AF, B-LC, I-OG
-31	열린	O	O	O, B-AF, B-LC, I-AF, B-PS
-32	공	O	B-CV	B-CV, O, B-PS, B-AF, B-EV
-33	##진	O	I-CV	I-CV, O, B-CV, I-AF, I-PS
-34	##회장	O	I-CV	I-CV, O, B-CV, I-AF, I-EV
-35	거리	O	O	O, I-AF, B-QT, I-CV, I-LC
-36	##를	O	O	O, I-AF, I-QT, I-CV, B-LC
-37	달리	O	O	O, B-AF, B-LC, B-OG, B-CV
-38	##는	O	O	O, B-AF, I-AF, B-LC, B-PS
-39	자동차	B-AF	B-AF	B-AF, O, I-AF, B-OG, B-CV
-40	##에서	O	O	O, I-AF, B-CV, I-OG, I-EV
-41	촬영	O	O	O, B-CV, B-TM, B-LC, B-QT
-42	##한	O	O	O, B-LC, B-PS, B-OG, B-CV
-43	영상	O	O	O, B-CV, B-TM, B-LC, B-FD
-44	##이다	O	O	O, B-CV, B-LC, I-CV, I-AF
-45	.	O	O	O, B-LC, B-OG, B-AF, B-CV
-46	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-AF
+	text	label	preds
+0	[CLS]	O	O
+1	예전	O	O
+2	사극	O	B-FD
+3	뮤지컬	B-FD	I-FD
+4	##들이	O	O
+5	주로	O	O
+6	대	O	O
+7	##극장	O	O
+8	##용	O	O
+9	##으로	O	O
+10	제작	O	O
+11	##됐	O	O
+12	##고	O	O
+13	공연	O	O
+14	기간	O	O
+15	##도	O	O
+16	짧	O	O
+17	##았	O	O
+18	##던	O	O
+19	반면	O	O
+20	요즘	O	O
+21	##은	O	O
+22	소극장	O	O
+23	##용	O	O
+24	##으로	O	O
+25	제작	O	O
+26	##해	O	O
+27	장기	O	O
+28	공연	O	O
+29	##을	O	O
+30	통해	O	O
+31	짭짤	O	O
+32	##한	O	O
+33	재미	O	O
+34	##를	O	O
+35	보고	O	O
+36	있	O	O
+37	##다	O	O
+38	.	O	O
+39	[SEP]	O	O

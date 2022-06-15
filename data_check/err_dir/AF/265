@@ -1,26 +1,46 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, I-AF, B-CV
-1	[	O	O	O, B-OG, B-LC, B-CV, B-AF
-2	Mon	B-AF	O	O, B-AF, B-LC, B-OG, B-PS
-3	##ey	I-AF	O	O, I-AF, I-OG, I-LC, I-PS
-4	&	I-AF	O	O, I-AF, I-OG, I-PS, B-PS
-5	life	I-AF	O	O, I-AF, I-OG, I-PS, B-LC
-6	]	O	O	O, I-AF, B-LC, B-PS, I-OG
-7	[UNK]	O	O	O, B-LC, B-PS, B-CV, B-OG
-8	6	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-TI
-9	##∼	I-QT	I-QT	I-QT, O, B-QT, I-DT, I-LC
-10	##7	I-QT	I-QT	I-QT, B-QT, O, I-LC, I-DT
-11	%	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-DT
-12	대	I-QT	I-QT	I-QT, O, I-LC, I-DT, I-PS
-13	수익	O	O	O, I-QT, B-CV, B-TM, B-LC
-14	기대	O	O	O, B-CV, B-PS, I-CV, I-QT
-15	…	O	O	O, B-CV, B-LC, B-PS, B-TM
-16	분산	O	O	O, B-CV, B-TM, B-TR, B-FD
-17	##투자	O	O	O, I-CV, I-AF, I-TM, I-TR
-18	##로	O	O	O, I-CV, I-AF, B-PS, B-CV
-19	주식	O	O	O, B-CV, B-FD, B-TM, B-AF
-20	##보	O	O	O, I-CV, B-CV, I-AF, I-TM
-21	##다	O	O	O, B-CV, B-LC, I-CV, B-TM
-22	안정	O	O	O, B-CV, B-TM, B-LC, B-OG
-23	##적	O	O	O, I-CV, B-LC, I-OG, B-PS
-24	[SEP]	O	O	O, B-LC, B-CV, B-PS, B-AF
+	text	label	preds
+0	[CLS]	O	O
+1	203	B-DT	B-DT
+2	##5	I-DT	I-DT
+3	##년	I-DT	I-DT
+4	##까	I-DT	I-DT
+5	##지	I-DT	I-DT
+6	원전	O	O
+7	##을	O	O
+8	39	B-QT	B-QT
+9	##기	I-QT	I-QT
+10	##가	I-QT	I-QT
+11	##량	I-QT	I-QT
+12	##으로	O	O
+13	늘리	O	O
+14	##기	O	O
+15	##로	O	O
+16	한	O	O
+17	정부	B-OG	B-OG
+18	##의	O	O
+19	증	O	O
+20	##핵	B-AF	O
+21	정책	O	O
+22	(	O	O
+23	2	B-QT	B-QT
+24	##차	I-QT	I-QT
+25	에너지	O	O
+26	##기	O	O
+27	##본	O	O
+28	##계	O	O
+29	##획	O	O
+30	)	O	O
+31	이	O	O
+32	확정	O	O
+33	##된	O	O
+34	이후	O	O
+35	처음	O	O
+36	##으로	O	O
+37	지어	O	O
+38	##지	O	O
+39	##는	O	O
+40	신규	O	O
+41	원전	O	O
+42	##이다	O	O
+43	.	O	O
+44	[SEP]	O	O

@@ -1,37 +1,75 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-QT
-1	그	O	O	O, B-CV, B-LC, B-TM, B-OG
-2	결과	O	O	O, B-CV, B-LC, B-TM, B-PS
-3	가야	B-DT	B-DT	B-DT, B-FD, B-LC, O, B-AF
-4	##는	O	O	O, I-DT, I-AF, B-CV, I-OG
-5	역사	O	B-FD	B-FD, O, I-FD, B-AF, B-CV
-6	교육	O	O	O, I-FD, I-CV, I-OG, B-CV
-7	##에서	O	O	O, B-CV, B-LC, B-OG, B-TM
-8	##도	O	O	O, B-LC, B-CV, B-OG, B-PS
-9	비중	O	O	O, B-CV, B-TM, B-OG, B-QT
-10	##이	O	O	O, B-PS, B-OG, B-LC, B-CV
-11	너무	O	O	O, B-CV, B-LC, B-PS, B-TM
-12	적	O	O	O, B-CV, B-LC, B-TM, B-PS
-13	##고	O	O	O, B-LC, B-CV, B-PS, B-TM
-14	왕	B-TM	O	O, B-TM, B-LC, B-AF, B-OG
-15	##경	I-TM	O	O, I-TM, I-LC, I-AF, I-OG
-16	(	I-TM	O	O, I-TM, I-LC, I-AF, I-OG
-17	王	I-TM	O	O, I-TM, I-LC, B-TM, I-AF
-18	京	I-TM	O	O, I-TM, I-LC, B-TM, B-LC
-19	)	I-TM	O	O, I-TM, I-LC, B-TM, I-OG
-20	정비	I-TM	O	O, I-TM, B-TM, I-LC, I-OG
-21	사업	I-TM	O	O, I-TM, I-LC, B-TM, I-OG
-22	##에서	O	O	O, I-TM, B-CV, B-LC, I-OG
-23	##도	O	O	O, B-LC, B-CV, B-OG, B-TM
-24	배제	O	O	O, B-CV, B-QT, B-TM, B-LC
-25	##되	O	O	O, B-CV, B-LC, B-PS, B-QT
-26	##는	O	O	O, B-LC, B-QT, B-CV, B-PS
-27	등	O	O	O, B-QT, B-LC, B-TM, B-PS
-28	홀대	O	O	O, B-CV, B-QT, B-LC, B-TM
-29	##받	O	O	O, I-QT, B-CV, I-CV, B-PS
-30	##아	O	O	O, I-QT, B-QT, B-LC, B-PS
-31	왔	O	O	O, B-CV, B-PS, B-QT, I-QT
-32	##어요	O	O	O, I-QT, B-CV, I-OG, B-LC
-33	.	O	O	O, B-LC, B-CV, B-TM, B-PS
-34	""""	O	O	O, B-CV, B-LC, B-TM, B-OG
-35	[SEP]	O	O	O, B-CV, B-LC, B-TM, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	이상	B-PS	B-PS
+2	##원	I-PS	I-PS
+3	연세	B-OG	B-OG
+4	##바	I-OG	I-OG
+5	##른	I-OG	I-OG
+6	##병원	I-OG	I-OG
+7	원장	B-CV	B-CV
+8	##은	O	O
+9	“	O	O
+10	노년층	O	O
+11	##의	O	O
+12	무릎	B-AM	B-TM
+13	퇴행	B-TM	I-TM
+14	##성	I-TM	I-TM
+15	관절염	I-TM	I-TM
+16	##은	O	O
+17	활동	O	O
+18	제약	O	O
+19	##이	O	O
+20	많	O	O
+21	##고	O	O
+22	,	O	O
+23	통증	O	O
+24	##으로	O	O
+25	인한	O	O
+26	스트레스	O	O
+27	##가	O	O
+28	심해	O	O
+29	적절	O	O
+30	##한	O	O
+31	치료	O	O
+32	##가	O	O
+33	필요	O	O
+34	##하	O	O
+35	##다	O	O
+36	”	O	O
+37	며	O	O
+38	“	O	O
+39	연세	B-OG	B-OG
+40	##바	I-OG	I-OG
+41	##른	I-OG	I-OG
+42	##병원	I-OG	I-OG
+43	##은	O	O
+44	의료	O	O
+45	사각지대	O	O
+46	##에	O	O
+47	있	O	O
+48	##는	O	O
+49	저소득층	O	O
+50	퇴행	B-TM	B-TM
+51	##성	I-TM	I-TM
+52	관절염	I-TM	I-TM
+53	어르신	O	O
+54	##들	O	O
+55	##께	O	O
+56	건강	O	O
+57	##과	O	O
+58	희망	O	O
+59	##을	O	O
+60	드리	O	O
+61	##도록	O	O
+62	최선	O	O
+63	##을	O	O
+64	다	O	O
+65	##할	O	O
+66	것	O	O
+67	”	O	O
+68	이라	O	O
+69	##고	O	O
+70	전했	O	O
+71	##다	O	O
+72	.	O	O
+73	[SEP]	O	O

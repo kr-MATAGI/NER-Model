@@ -1,19 +1,68 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	이	O	O	O, B-LC, B-PS, B-DT, B-QT
-2	땅	O	O	O, I-LC, B-LC, I-PS, B-CV
-3	##의	O	O	O, I-LC, B-PS, B-LC, B-AM
-4	곤충	O	B-AM	B-AM, O, B-TM, I-AM, B-PS
-5	##을	O	O	O, B-CV, B-PS, I-AF, I-CV
-6	연구	O	O	O, B-CV, B-PS, B-LC, B-QT
-7	##한	O	O	O, B-PS, B-CV, B-LC, B-QT
-8	큰	O	O	O, B-CV, B-PS, B-QT, B-AM
-9	학자	B-CV	B-CV	B-CV, O, I-CV, I-QT, B-QT
-10	##가	O	O	O, I-CV, I-QT, B-PS, B-CV
-11	한	B-QT	B-QT	B-QT, O, I-QT, B-PS, B-TI
-12	분	I-QT	I-QT	I-QT, O, I-PS, I-LC, I-TI
-13	계셨	O	O	O, I-QT, B-CV, I-CV, B-PS
-14	##습	O	O	O, B-CV, I-QT, B-LC, I-AF
-15	##니다	O	O	O, B-CV, B-LC, B-PS, B-OG
-16	.	O	O	O, B-CV, B-PS, B-LC, I-AF
-17	[SEP]	O	O	O, B-CV, B-PS, B-LC, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	조선일보	B-OG	B-OG
+2	##와	O	O
+3	기업	B-OG	B-OG
+4	##은행	I-OG	I-OG
+5	##이	O	O
+6	'	O	O
+7	청년	B-TM	B-TM
+8	취업	I-TM	I-TM
+9	1	I-TM	I-TM
+10	##만	I-TM	I-TM
+11	##명	I-TM	I-TM
+12	프로젝트	I-TM	I-TM
+13	'	O	O
+14	의	O	O
+15	일환	O	O
+16	##으로	O	O
+17	개최	O	O
+18	##하	O	O
+19	##는	O	O
+20	'	O	O
+21	UC	B-EV	B-TM
+22	##C	I-EV	I-TM
+23	이력서	I-EV	I-EV
+24	콘테스트	I-EV	I-EV
+25	'	O	O
+26	에	O	O
+27	참여	O	O
+28	##하	O	O
+29	##려면	O	O
+30	우선	O	O
+31	30	B-TI	B-TI
+32	##초	I-TI	I-TI
+33	~	I-TI	I-TI
+34	1	I-TI	I-TI
+35	##분	I-TI	I-TI
+36	분량	O	I-TI
+37	##의	O	O
+38	UC	O	O
+39	##C	O	O
+40	이력서	O	O
+41	##를	O	O
+42	만들	O	O
+43	##어	O	O
+44	콘테스트	O	O
+45	메인	O	O
+46	페이지	O	O
+47	(	O	O
+48	http	B-TM	B-TM
+49	:	I-TM	I-TM
+50	/	I-TM	I-TM
+51	/	I-TM	I-TM
+52	u	I-TM	I-TM
+53	##cc	I-TM	I-TM
+54	##up	I-TM	I-TM
+55	.	I-TM	I-TM
+56	ch	I-TM	I-TM
+57	##os	I-TM	I-TM
+58	##un	I-TM	I-TM
+59	.	I-TM	I-TM
+60	com	I-TM	I-TM
+61	)	O	O
+62	에	O	O
+63	올려야	O	O
+64	한다	O	O
+65	.	O	O
+66	[SEP]	O	O

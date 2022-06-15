@@ -1,24 +1,47 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	‘	O	O	O, B-CV, B-PS, B-LC, B-OG
-2	아리랑	O	B-TM	B-TM, O, B-AF, B-LC, B-EV
-3	홍보	O	B-CV	B-CV, O, I-CV, I-TM, I-AF
-4	대사	O	I-CV	I-CV, O, B-CV, I-TM, I-QT
-5	’	O	O	O, I-CV, B-PS, B-CV, B-QT
-6	로	O	O	O, B-PS, B-CV, B-QT, B-LC
-7	뽑	O	O	O, B-PS, B-CV, B-OG, B-LC
-8	##힐	O	O	O, B-PS, B-LC, B-CV, B-OG
-9	만큼	O	O	O, B-PS, B-LC, B-OG, B-CV
-10	느린	O	O	O, B-CV, B-TM, B-PS, B-LC
-11	공	O	B-CV	B-CV, O, B-AF, B-PS, I-CV
-12	##으로	O	O	O, I-CV, B-CV, I-AF, B-PS
-13	승부	O	O	O, B-CV, B-TM, B-LC, B-PS
-14	##하	O	O	O, B-PS, B-CV, B-OG, B-LC
-15	##는	O	O	O, B-CV, B-PS, B-TM, B-OG
-16	타입	O	O	O, B-CV, B-PS, B-TM, B-LC
-17	##이	O	O	O, B-PS, B-CV, B-OG, I-CV
-18	##기	O	O	O, B-CV, B-PS, B-TM, I-CV
-19	때문	O	O	O, B-CV, B-PS, B-TM, I-CV
-20	##이다	O	O	O, B-CV, B-TM, I-CV, I-OG
-21	.	O	O	O, B-PS, B-CV, B-LC, B-OG
-22	[SEP]	O	O	O, B-CV, B-PS, B-LC, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	조선	B-DT	B-DT
+2	전기	I-DT	I-DT
+3	도로는	O	O
+4	지금	O	O
+5	##의	O	O
+6	아스팔트	B-MT	B-MT
+7	도로	O	O
+8	##를	O	O
+9	닦	O	O
+10	##는	O	O
+11	방식	O	O
+12	##과	O	O
+13	흡사	O	O
+14	##하	O	O
+15	##게	O	O
+16	잡	O	O
+17	##석	O	O
+18	##과	O	O
+19	자갈	O	O
+20	·	O	O
+21	흙	O	O
+22	등	O	O
+23	##을	O	O
+24	다진	O	O
+25	다음	O	O
+26	##에	O	O
+27	회색	B-TM	B-TM
+28	모래	O	B-MT
+29	##를	O	O
+30	깔	O	O
+31	##았	O	O
+32	##고	O	O
+33	,	O	O
+34	조선	B-DT	B-DT
+35	중	I-DT	I-DT
+36	·	I-DT	I-DT
+37	후기	I-DT	I-DT
+38	도로는	O	O
+39	박석	O	O
+40	##을	O	O
+41	깔	O	O
+42	##았	O	O
+43	##다	O	O
+44	.	O	O
+45	[SEP]	O	O

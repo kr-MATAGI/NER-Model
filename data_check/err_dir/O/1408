@@ -1,39 +1,20 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-EV, I-CV
-1	이런	O	O	O, B-TM, B-OG, B-CV, B-LC
-2	가운데	O	O	O, B-OG, B-TM, B-LC, B-TR
-3	보수	O	O	O, B-TR, I-TR, B-OG, B-CV
-4	진영	O	O	O, I-TR, I-OG, B-TR, I-CV
-5	##에	O	O	O, I-OG, B-PS, B-CV, I-TR
-6	##선	O	O	O, B-LC, B-TR, B-OG, B-PS
-7	좌파	O	O	O, B-OG, B-TR, B-CV, B-PS
-8	집권	O	O	O, B-PS, B-CV, I-OG, I-EV
-9	##을	O	O	O, B-PS, B-CV, B-LC, I-EV
-10	막	O	O	O, B-PS, B-LC, B-OG, B-EV
-11	##기	O	O	O, B-PS, B-LC, B-CV, B-OG
-12	위해	O	O	O, B-PS, B-LC, B-CV, B-TM
-13	‘	O	O	O, B-LC, B-CV, B-PS, B-OG
-14	태극기	O	O	O, B-EV, B-TM, B-CV, B-AF
-15	민심	O	O	O, I-EV, B-PS, B-CV, I-TR
-16	’	O	O	O, I-EV, B-CV, B-PS, B-OG
-17	을	O	O	O, B-PS, B-LC, B-OG, B-CV
-18	한	O	B-QT	B-QT, O, I-QT, B-TM, B-PS
-19	##곳	O	I-QT	I-QT, O, I-LC, B-QT, I-TM
-20	##으로	O	O	O, I-QT, B-PS, B-LC, B-CV
-21	결집	O	O	O, B-LC, B-PS, B-EV, B-CV
-22	##하	O	O	O, B-PS, B-LC, I-EV, B-CV
-23	##자	O	O	O, B-PS, B-LC, B-CV, I-EV
-24	##며	O	O	O, B-LC, B-PS, B-OG, B-CV
-25	‘	O	O	O, B-LC, B-CV, B-OG, B-PS
-26	보수	O	O	O, B-TR, B-CV, B-OG, B-TM
-27	단일	O	O	O, I-TR, B-CV, I-CV, I-EV
-28	##화	O	O	O, I-CV, I-TR, I-EV, I-OG
-29	’	O	O	O, I-EV, B-PS, I-OG, I-CV
-30	목소리	O	O	O, B-CV, B-LC, B-OG, B-PS
-31	##가	O	O	O, B-PS, B-CV, B-OG, B-LC
-32	커지	O	O	O, B-CV, B-LC, B-OG, B-QT
-33	##고	O	O	O, B-CV, B-PS, I-OG, B-LC
-34	있	O	O	O, B-CV, B-LC, B-PS, B-OG
-35	##다	O	O	O, B-CV, B-LC, B-PS, I-EV
-36	.	O	O	O, B-LC, B-PS, B-CV, B-OG
-37	[SEP]	O	O	O, B-LC, B-CV, B-PS, I-EV
+	text	label	preds
+0	[CLS]	O	O
+1	새	O	B-AM
+2	##를	O	O
+3	바라보	O	O
+4	##기	O	O
+5	##는	O	O
+6	##커녕	O	O
+7	새	O	B-AM
+8	##소리	O	O
+9	##를	O	O
+10	듣	O	O
+11	##는	O	O
+12	것	O	O
+13	##도	O	O
+14	싫	O	O
+15	##었	O	O
+16	##다	O	O
+17	.	O	O
+18	[SEP]	O	O

@@ -1,12 +1,39 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	“	O	O	O, B-CV, B-LC, B-OG, B-TM
-2	민관	O	B-OG	B-OG, O, B-EV, B-CV, I-OG
-3	##협	O	I-OG	I-OG, O, I-EV, B-OG, I-CV
-4	##의회	O	I-OG	I-OG, O, I-EV, B-OG, I-CV
-5	거부	O	O	O, I-OG, B-CV, I-EV, B-LC
-6	,	O	O	O, I-OG, B-CV, B-LC, I-AF
-7	일방	O	O	O, B-CV, B-LC, B-TM, B-PS
-8	통보	O	O	O, B-CV, B-LC, B-PS, B-OG
-9	”	O	O	O, B-CV, B-LC, I-OG, B-PS
-10	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	CS	O	B-OG
+2	##P	O	I-OG
+3	##는	O	O
+4	2015	B-DT	B-DT
+5	##년	I-DT	I-DT
+6	##까	I-DT	I-DT
+7	##지	I-DT	I-DT
+8	연간	B-DT	B-DT
+9	생산	O	O
+10	능력	O	O
+11	300	B-QT	B-QT
+12	##만	I-QT	I-QT
+13	t	I-QT	I-QT
+14	규모	O	O
+15	##의	O	O
+16	고로	B-AF	B-AF
+17	제철소	I-AF	I-AF
+18	##를	O	O
+19	가동	O	O
+20	##한	O	O
+21	뒤	O	O
+22	이후	O	O
+23	300	B-QT	B-QT
+24	##만	I-QT	I-QT
+25	t	I-QT	I-QT
+26	규모	O	O
+27	##의	O	O
+28	고로	B-AF	B-AF
+29	##를	O	O
+30	추가	O	O
+31	##로	O	O
+32	건설	O	O
+33	##할	O	O
+34	계획	O	O
+35	##이다	O	O
+36	.	O	O
+37	[SEP]	O	O

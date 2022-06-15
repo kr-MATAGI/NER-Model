@@ -1,54 +1,38 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-EV, I-OG
-1	“	O	O	O, B-CV, B-LC, B-PS, B-OG
-2	지금	O	O	O, B-LC, B-PS, B-CV, B-QT
-3	이라크	B-LC	B-LC	B-LC, B-OG, O, B-AF, I-LC
-4	##엔	O	O	O, I-LC, I-AF, I-OG, I-PS
-5	아무것	O	O	O, B-LC, B-CV, B-PS, B-AF
-6	##도	O	O	O, B-PS, B-LC, B-CV, B-OG
-7	없	O	O	O, B-CV, B-PS, B-LC, B-AF
-8	##다	O	O	O, B-PS, I-AF, B-CV, I-OG
-9	.	O	O	O, B-LC, B-PS, B-CV, I-AF
-10	사	B-PS	B-LC	B-LC, B-PS, B-OG, O, B-AF
-11	##담	I-PS	I-LC	I-LC, I-PS, I-OG, O, B-LC
-12	##이	O	O	O, I-PS, B-PS, I-LC, I-OG
-13	30	B-DT	B-DT	B-DT, O, I-DT, B-LC, B-OG
-14	##년	I-DT	I-DT	I-DT, O, B-DT, I-PS, I-QT
-15	동안	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-16	이라크	B-LC	B-LC	B-LC, O, B-OG, I-LC, I-DT
-17	##를	O	O	O, I-LC, I-AF, I-OG, B-LC
-18	건설	O	O	O, B-LC, B-CV, B-OG, B-PS
-19	##했	O	O	O, B-PS, B-LC, B-OG, B-AF
-20	##는데	O	O	O, B-LC, B-PS, I-AF, B-OG
-21	,	O	O	O, B-LC, B-PS, B-CV, B-OG
-22	지금	O	O	O, B-CV, B-PS, B-LC, I-AF
-23	##은	O	O	O, B-PS, B-LC, B-CV, B-OG
-24	모두	O	O	O, B-PS, B-LC, B-QT, B-CV
-25	파괴	O	O	O, B-LC, B-CV, B-PS, B-AF
-26	##됐	O	O	O, B-PS, B-LC, I-AF, B-CV
-27	##다	O	O	O, B-LC, B-PS, I-AF, B-CV
-28	.	O	O	O, B-LC, B-PS, B-CV, I-AF
-29	우리	O	O	O, B-PS, B-CV, B-LC, B-AM
-30	모두	O	O	O, B-PS, B-CV, B-LC, B-AM
-31	##는	O	O	O, B-LC, B-PS, B-CV, B-OG
-32	미국	B-LC	B-LC	B-LC, B-OG, O, B-PS, B-CV
-33	##과	O	O	O, I-LC, I-OG, I-PS, B-PS
-34	영국	B-LC	B-LC	B-LC, B-OG, O, I-LC, B-CV
-35	##의	O	O	O, I-LC, I-OG, I-PS, B-PS
-36	희생자	B-CV	B-CV	B-CV, O, I-CV, B-PS, B-QT
-37	##다	O	O	O, I-CV, I-AF, I-OG, B-PS
-38	.	O	O	O, B-LC, B-PS, B-CV, I-AF
-39	그	O	O	O, B-CV, B-LC, B-PS, B-AF
-40	##들	O	O	O, B-PS, I-AF, B-LC, B-CV
-41	##은	O	O	O, B-PS, B-LC, B-CV, B-TM
-42	우리나라	O	O	O, B-CV, B-LC, B-AM, B-PS
-43	##를	O	O	O, B-CV, B-PS, B-LC, I-CV
-44	죽였	O	O	O, B-CV, B-PS, B-LC, B-TM
-45	##다	O	O	O, B-CV, B-PS, B-LC, I-CV
-46	”	O	O	O, B-CV, B-LC, B-PS, I-CV
-47	고	O	O	O, B-CV, B-LC, B-PS, I-CV
-48	말	O	O	O, B-CV, I-CV, B-LC, I-QT
-49	##했	O	O	O, B-PS, I-CV, B-CV, B-LC
-50	##다	O	O	O, B-CV, B-LC, B-PS, I-OG
-51	.	O	O	O, B-LC, B-PS, B-CV, B-AF
-52	[SEP]	O	O	O, B-LC, B-CV, B-PS, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	CJ	B-OG	B-OG
+2	##그룹	I-OG	I-OG
+3	관계자	B-CV	B-CV
+4	##는	O	O
+5	“	O	O
+6	이	B-PS	B-PS
+7	회장	B-CV	B-CV
+8	##이	B-PS	O
+9	구두	O	O
+10	##로	O	O
+11	전한	O	O
+12	메시지	O	O
+13	##를	O	O
+14	비서실	O	O
+15	##에	O	O
+16	##서	O	O
+17	정리	O	O
+18	##했	O	O
+19	##으며	O	O
+20	모든	O	O
+21	문구	O	O
+22	##를	O	O
+23	이	O	B-PS
+24	회장	B-CV	B-CV
+25	##이	O	O
+26	직접	O	O
+27	확인	O	O
+28	##했	O	O
+29	##다	O	O
+30	”	O	O
+31	고	O	O
+32	말	O	O
+33	##했	O	O
+34	##다	O	O
+35	.	O	O
+36	[SEP]	O	O

@@ -1,15 +1,39 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	어	O	O	O, B-CV, B-TM, B-FD, B-OG
-2	~	O	O	O, I-AF, I-OG, I-CV, B-CV
-3	씨	B-OG	B-AF	B-AF, B-PS, B-OG, B-TR, B-EV
-4	##에스	I-OG	I-AF	I-AF, I-PS, I-TR, I-FD, O
-5	##아이	I-OG	I-AF	I-AF, I-TR, I-PS, I-FD, I-OG
-6	##라고	O	O	O, I-AF, I-OG, I-EV, I-TR
-7	많이	O	O	O, B-CV, B-LC, B-TM, B-OG
-8	들어	O	O	O, B-CV, B-AF, B-PS, B-FD
-9	##보	O	O	O, B-CV, I-CV, I-AF, I-OG
-10	##셨	O	O	O, B-CV, B-LC, B-OG, B-PS
-11	##죠	O	O	O, B-CV, B-OG, B-LC, I-OG
-12	?	O	O	O, B-CV, B-LC, B-PS, I-OG
-13	[SEP]	O	O	O, B-CV, B-LC, B-FD, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	씨티	B-OG	B-OG
+2	##그룹	I-OG	I-OG
+3	##은	O	O
+4	지난해	B-DT	B-DT
+5	1	I-DT	I-DT
+6	##월	I-DT	I-DT
+7	사들였	O	O
+8	##던	O	O
+9	일본	B-LC	B-LC
+10	##의	O	O
+11	닛	B-LC	B-OG
+12	##코	I-LC	I-OG
+13	코디	B-OG	I-OG
+14	##얼	I-OG	I-OG
+15	증권사	I-OG	I-OG
+16	##를	O	O
+17	79	B-QT	B-QT
+18	##억	I-QT	I-QT
+19	##달	I-QT	I-QT
+20	##러	I-QT	I-QT
+21	##에	O	O
+22	일본	B-LC	B-LC
+23	미쓰	B-OG	B-OG
+24	##이스	I-OG	I-OG
+25	##미	I-OG	I-OG
+26	##토	I-OG	I-OG
+27	##모	I-OG	I-OG
+28	은행	I-OG	I-OG
+29	##에	O	O
+30	팔	O	O
+31	##기	O	O
+32	##로	O	O
+33	합의	O	O
+34	##했	O	O
+35	##다	O	O
+36	.	O	O
+37	[SEP]	O	O

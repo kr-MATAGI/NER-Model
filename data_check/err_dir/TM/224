@@ -1,14 +1,106 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	저소득층	O	O	O, B-CV, B-TM, B-OG, B-TR
-2	소녀	O	O	O, B-CV, I-CV, B-PS, I-TM
-3	##들이	O	O	O, I-CV, B-CV, B-PS, I-AF
-4	겪	O	O	O, B-CV, B-PS, B-TM, B-LC
-5	##어	O	O	O, B-CV, B-LC, B-PS, B-TM
-6	##온	O	O	O, B-LC, B-CV, B-PS, B-TM
-7	생리	B-TM	O	O, B-TM, I-TM, B-TR, B-CV
-8	##기	O	O	O, I-TM, I-CV, I-TR, B-CV
-9	##간	O	O	O, I-TM, I-CV, I-TR, B-CV
-10	##의	O	O	O, I-CV, B-PS, I-TM, B-LC
-11	빈곤	O	O	O, B-CV, B-TM, B-LC, B-PS
-12	[SEP]	O	O	O, B-CV, I-CV, I-TM, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	이에	O	O
+2	대해	O	O
+3	국토	B-OG	B-OG
+4	##부	I-OG	I-OG
+5	쪽	O	O
+6	##은	O	O
+7	“	O	O
+8	토양	B-TM	B-CV
+9	##환경	I-TM	I-CV
+10	##보	I-TM	I-CV
+11	##전	I-TM	I-CV
+12	##법	I-TM	I-CV
+13	##상	I-TM	O
+14	‘	I-TM	O
+15	토양	I-TM	O
+16	##오	I-TM	O
+17	##염	I-TM	O
+18	우려	I-TM	O
+19	기준	I-TM	O
+20	’	O	O
+21	(	O	O
+22	토양	O	O
+23	##기	O	O
+24	##준	O	O
+25	)	O	O
+26	을	O	O
+27	활용	O	O
+28	##해	O	O
+29	올해	B-DT	B-DT
+30	##도	O	O
+31	강	O	O
+32	##바닥	O	O
+33	퇴적	O	O
+34	##토	O	O
+35	##의	O	O
+36	오염	O	O
+37	##도	O	O
+38	##를	O	O
+39	분기	O	O
+40	##별	O	O
+41	,	O	O
+42	구간	O	O
+43	##별	O	O
+44	##로	O	O
+45	조사	O	O
+46	##했	O	O
+47	##고	O	O
+48	,	O	O
+49	퍼	O	O
+50	##낸	O	O
+51	흙	O	O
+52	##을	O	O
+53	농지	O	O
+54	##에	O	O
+55	매립	O	O
+56	##한	O	O
+57	뒤	O	O
+58	##에도	O	O
+59	정밀	O	O
+60	조사	O	O
+61	##를	O	O
+62	하고	O	O
+63	있	O	O
+64	##다	O	O
+65	”	O	O
+66	고	O	O
+67	밝혔	O	O
+68	##지만	O	O
+69	,	O	O
+70	토양	O	O
+71	기준	O	O
+72	##은	O	O
+73	육상	O	O
+74	토양	O	O
+75	##에	O	O
+76	적용	O	O
+77	##하	O	O
+78	##는	O	O
+79	잣대	O	O
+80	##여서	O	O
+81	강	O	O
+82	##바닥	O	O
+83	퇴적	O	O
+84	##토	O	O
+85	##의	O	O
+86	영향	O	O
+87	##을	O	O
+88	조사	O	O
+89	##하	O	O
+90	##기에	O	O
+91	##는	O	O
+92	적절	O	O
+93	##하	O	O
+94	##지	O	O
+95	않	O	O
+96	##다는	O	O
+97	게	O	O
+98	환경	O	O
+99	전문가	B-CV	B-CV
+100	##들의	O	O
+101	지적	O	O
+102	##이다	O	O
+103	.	O	O
+104	[SEP]	O	O

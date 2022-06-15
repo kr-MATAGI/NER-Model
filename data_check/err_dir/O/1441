@@ -1,48 +1,18 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	예산	B-OG	B-OG	B-OG, O, I-OG, B-AF, B-EV
-2	##정책	I-OG	I-OG	I-OG, O, B-OG, I-EV, I-AF
-3	##처	I-OG	I-OG	I-OG, O, I-AF, I-EV, I-CV
-4	김상	B-PS	B-PS	B-PS, O, B-OG, I-PS, I-OG
-5	##우	I-PS	I-PS	I-PS, O, I-OG, I-LC, I-QT
-6	평가	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-OG
-7	##관	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-TM
-8	##은	O	O	O, I-CV, I-QT, I-OG, I-EV
-9	""""	O	O	O, B-CV, B-LC, B-TM, B-OG
-10	민자	O	O	O, B-CV, B-TM, B-OG, B-FD
-11	사업	O	O	O, I-TM, I-CV, I-OG, I-AF
-12	##의	O	O	O, I-TM, I-OG, I-AF, B-PS
-13	적격	O	O	O, B-OG, B-LC, B-CV, B-TM
-14	##성	O	O	O, I-OG, B-PS, B-LC, I-LC
-15	##을	O	O	O, B-CV, B-PS, I-OG, B-OG
-16	판정	O	O	O, B-CV, B-LC, B-OG, B-PS
-17	##할	O	O	O, B-PS, B-CV, B-LC, B-OG
-18	때	O	O	O, B-CV, B-PS, B-LC, B-OG
-19	좀	O	O	O, B-LC, B-PS, B-CV, B-QT
-20	##더	O	O	O, B-PS, B-QT, B-LC, I-QT
-21	엄격	O	O	O, B-LC, B-CV, B-OG, B-PS
-22	##한	O	O	O, B-PS, B-LC, B-OG, B-CV
-23	기준	O	O	O, B-CV, I-OG, B-LC, B-PS
-24	##을	O	O	O, B-CV, B-PS, B-OG, B-LC
-25	적용	O	O	O, B-CV, B-LC, B-OG, B-PS
-26	##하면	O	O	O, B-CV, B-PS, B-LC, B-OG
-27	이용객	O	B-CV	B-CV, O, B-TM, I-CV, B-AF
-28	없	O	O	O, I-CV, I-AF, B-CV, I-EV
-29	##는	O	O	O, B-CV, B-TM, B-LC, I-AF
-30	전시	O	O	O, B-FD, B-TM, B-CV, B-EV
-31	·	O	O	O, I-FD, I-AF, I-TM, I-OG
-32	공연	O	O	O, I-FD, B-FD, I-TM, I-AF
-33	시설	O	O	O, I-AF, I-FD, B-FD, I-TM
-34	난립	O	O	O, B-CV, B-TM, B-LC, I-AF
-35	##을	O	O	O, B-CV, B-TM, B-OG, I-AF
-36	막	O	O	O, B-CV, B-TM, B-OG, B-LC
-37	##을	O	O	O, B-CV, B-PS, B-LC, B-OG
-38	수	O	O	O, B-CV, B-PS, B-LC, B-QT
-39	있	O	O	O, B-CV, B-TM, B-QT, I-QT
-40	##다	O	O	O, B-CV, I-OG, I-QT, I-CV
-41	""""	O	O	O, B-CV, B-TM, B-LC, B-FD
-42	고	O	O	O, B-CV, B-TM, B-QT, B-LC
-43	했	O	O	O, B-CV, B-TM, B-OG, B-QT
-44	##다	O	O	O, B-CV, B-TM, I-QT, I-OG
-45	.	O	O	O, B-LC, B-PS, B-CV, B-OG
-46	[SEP]	O	O	O, B-CV, B-LC, I-EV, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	‘	O	O
+2	정보	O	B-CV
+3	##인	O	I-CV
+4	##권	O	I-CV
+5	’	O	O
+6	은	O	O
+7	정보	O	O
+8	##사회	O	O
+9	##와	O	O
+10	함께	O	O
+11	등장	O	O
+12	##한	O	O
+13	개념	O	O
+14	##이다	O	O
+15	.	O	O
+16	[SEP]	O	O

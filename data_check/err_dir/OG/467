@@ -1,65 +1,43 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-EV, I-QT
-1	박근혜	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-2	대통령	B-CV	B-CV	B-CV, O, I-PS, I-CV, B-PS
-3	동생	B-CV	B-CV	B-CV, O, I-CV, B-PS, B-AM
-4	지만	B-PS	B-PS	B-PS, O, I-PS, B-OG, B-LC
-5	##씨	O	O	O, I-PS, I-CV, B-CV, I-QT
-6	##와	O	O	O, B-PS, B-CV, I-PS, B-QT
-7	육사	B-OG	B-OG	B-OG, O, B-CV, B-PS, B-AF
-8	동기	B-CV	B-CV	B-CV, O, I-CV, I-OG, B-PS
-9	##인	O	O	O, B-PS, I-CV, I-PS, B-QT
-10	전	B-PS	B-PS	B-PS, O, I-PS, B-LC, B-OG
-11	전	O	O	O, I-PS, B-PS, B-CV, I-QT
-12	사령관	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-PS
-13	##은	O	O	O, B-PS, I-CV, I-PS, B-CV
-14	1983	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-PS
-15	##년	I-DT	I-DT	I-DT, O, I-PS, I-QT, B-DT
-16	미얀마	B-LC	B-LC	B-LC, B-EV, O, B-OG, B-AF
-17	아웅	B-LC	B-LC	B-LC, B-EV, I-EV, I-LC, O
-18	##산	I-LC	I-LC	I-LC, I-EV, I-AF, O, B-LC
-19	테러	O	I-EV	I-EV, O, B-EV, I-LC, B-LC
-20	당시	O	O	O, I-EV, B-PS, B-CV, I-AF
-21	이기	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
-22	##백	I-PS	I-PS	I-PS, O, I-OG, I-LC, B-PS
-23	합참	B-CV	B-CV	B-CV, O, B-OG, B-AF, B-TM
-24	##의	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-PS
-25	##장	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-QT
-26	전속	O	O	O, B-CV, I-CV, B-QT, B-TM
-27	##부	O	I-CV	I-CV, B-CV, O, I-QT, B-QT
-28	##관	O	I-CV	I-CV, O, B-CV, I-QT, I-OG
-29	##으로	O	O	O, B-PS, I-CV, B-QT, I-PS
-30	이	B-PS	B-PS	B-PS, O, I-PS, B-LC, B-OG
-31	의장	B-CV	B-CV	B-CV, O, I-CV, I-PS, B-PS
-32	##을	O	O	O, I-CV, B-PS, B-CV, I-PS
-33	구조	O	O	O, B-CV, B-PS, B-TM, I-CV
-34	##했	O	O	O, B-PS, I-PS, B-LC, B-CV
-35	##고	O	O	O, B-PS, I-PS, B-CV, I-CV
-36	,	O	O	O, B-PS, B-CV, B-LC, B-QT
-37	지난해	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-QT
-38	7	I-DT	I-DT	I-DT, O, B-DT, I-PS, I-QT
-39	##월	I-DT	I-DT	I-DT, O, B-DT, I-PS, I-QT
-40	전역	O	O	O, B-EV, B-CV, B-OG, I-DT
-41	##식	O	O	O, I-EV, I-DT, I-CV, I-OG
-42	때	O	O	O, I-DT, I-EV, I-CV, I-OG
-43	##는	O	O	O, B-PS, B-LC, I-EV, B-OG
-44	한국군	B-OG	B-OG	B-OG, B-CV, O, B-LC, B-AF
-45	최초	O	O	O, I-OG, B-QT, B-PS, I-QT
-46	##로	O	O	O, B-PS, I-QT, B-QT, B-CV
-47	미군	B-OG	B-OG	B-OG, B-CV, O, B-AF, B-LC
-48	통합	B-OG	B-CV	B-CV, B-OG, O, I-CV, I-OG
-49	##특	I-OG	I-CV	I-CV, I-OG, O, B-CV, I-AF
-50	##수	I-OG	I-CV	I-CV, I-OG, O, B-CV, I-AF
-51	##전	I-OG	I-CV	I-CV, I-OG, O, B-CV, I-AF
-52	##사	I-OG	I-CV	I-CV, I-OG, O, B-CV, I-AF
-53	##령	I-OG	I-CV	I-CV, I-OG, O, I-AF, B-CV
-54	##부	I-OG	I-CV	I-CV, I-OG, O, I-AF, I-QT
-55	훈장	O	I-CV	I-CV, O, I-OG, B-CV, I-AF
-56	##을	O	O	O, I-CV, I-OG, I-AF, B-PS
-57	받	O	O	O, B-CV, B-PS, I-CV, B-TM
-58	##기	O	O	O, B-PS, I-CV, B-CV, I-PS
-59	##도	O	O	O, B-PS, I-QT, B-CV, I-PS
-60	했	O	O	O, B-PS, B-CV, B-LC, B-QT
-61	##다	O	O	O, B-CV, B-PS, I-CV, B-QT
-62	.	O	O	O, B-PS, B-CV, B-LC, I-CV
-63	[SEP]	O	O	O, B-PS, B-CV, B-LC, I-CV
+	text	label	preds
+0	[CLS]	O	O
+1	이스라엘	B-OG	B-OG
+2	##이	O	O
+3	시리아	B-OG	B-OG
+4	##와	O	O
+5	##도	O	O
+6	평화	O	O
+7	##적	O	O
+8	관계	O	O
+9	##를	O	O
+10	형성	O	O
+11	##해	O	O
+12	,	O	O
+13	하마스	B-OG	B-OG
+14	##와	O	O
+15	헤	B-OG	B-OG
+16	##즈	I-OG	I-OG
+17	##볼	I-OG	I-OG
+18	##라	I-OG	I-OG
+19	등	O	O
+20	반미	O	O
+21	이슬람	B-OG	B-LC
+22	무장	O	O
+23	##세	O	O
+24	##력	O	O
+25	##들의	O	O
+26	최대	O	O
+27	지원자	B-CV	B-CV
+28	##인	O	O
+29	이란	B-OG	B-LC
+30	##을	O	O
+31	고립	O	O
+32	##시	O	O
+33	##킨다	O	O
+34	##는	O	O
+35	전략	O	O
+36	##도	O	O
+37	깔려	O	O
+38	있	O	O
+39	##다	O	O
+40	.	O	O
+41	[SEP]	O	O

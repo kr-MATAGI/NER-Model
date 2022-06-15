@@ -1,9 +1,37 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	바질	B-PS	B-CV	B-CV, B-PS, B-PT, O, B-OG
-2	##이	O	O	O, I-PS, B-PS, I-CV, B-CV
-3	놀라	O	O	O, B-TM, B-PS, B-CV, B-OG
-4	외쳤	O	O	O, B-CV, B-TM, B-LC, B-PS
-5	##다	O	O	O, B-CV, I-OG, I-AF, I-EV
-6	.	O	O	O, B-CV, B-PS, B-TM, B-LC
-7	[SEP]	O	O	O, B-CV, B-PS, B-TM, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	여론	O	O
+2	##이	B-PS	O
+3	진정	O	O
+4	##되	O	O
+5	##기	O	O
+6	##는	O	O
+7	##커녕	O	O
+8	악화	O	O
+9	쪽	O	O
+10	##으로	O	O
+11	##만	O	O
+12	흘러가	O	O
+13	##자	O	O
+14	이	O	B-PS
+15	총리	B-CV	B-CV
+16	##도	O	O
+17	거취	O	O
+18	문제	O	O
+19	##를	O	O
+20	박	B-PS	B-PS
+21	대통령	B-CV	B-CV
+22	##의	O	O
+23	귀국	O	O
+24	전	O	O
+25	##에	O	O
+26	정리	O	O
+27	##할	O	O
+28	필요	O	O
+29	##를	O	O
+30	느낀	O	O
+31	##것	O	O
+32	##으로	O	O
+33	보인다	O	O
+34	.	O	O
+35	[SEP]	O	O

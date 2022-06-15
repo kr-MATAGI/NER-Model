@@ -1,47 +1,37 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-QT
-1	서울시	B-OG	B-OG	B-OG, B-LC, O, I-OG, B-AF
-2	##교육	I-OG	I-OG	I-OG, O, B-OG, I-LC, I-AF
-3	##청	I-OG	I-OG	I-OG, O, I-LC, I-AF, B-OG
-4	##이	O	O	O, I-OG, B-PS, B-CV, B-OG
-5	‘	O	O	O, B-CV, B-LC, B-OG, B-PS
-6	수포	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-PS
-7	##자	I-CV	I-CV	I-CV, O, B-CV, I-QT, I-TM
-8	’	O	O	O, I-CV, B-CV, B-PS, I-QT
-9	(	O	O	O, B-CV, B-OG, B-LC, B-PS
-10	수학	B-CV	B-FD	B-FD, O, B-CV, B-AF, B-TR
-11	##포	I-CV	B-CV	B-CV, I-CV, O, I-FD, I-QT
-12	##기	I-CV	I-CV	I-CV, O, B-CV, I-QT, I-TM
-13	##자	I-CV	I-CV	I-CV, O, B-CV, I-QT, I-TM
-14	)	O	O	O, I-CV, I-QT, B-CV, I-OG
-15	없	O	O	O, B-CV, B-TM, B-LC, B-QT
-16	##는	O	O	O, B-LC, B-TM, B-OG, B-CV
-17	학교	O	O	O, B-OG, I-OG, B-CV, B-TM
-18	##를	O	O	O, I-OG, B-CV, B-OG, I-AF
-19	만들	O	O	O, B-CV, B-LC, B-OG, B-TM
-20	##기	O	O	O, B-PS, B-LC, B-OG, B-TM
-21	위해	O	O	O, B-LC, B-OG, B-TM, B-PS
-22	서울	B-LC	B-LC	B-LC, B-OG, O, B-AF, B-PS
-23	중고	O	O	O, I-OG, B-OG, B-FD, I-LC
-24	##교	O	O	O, I-OG, I-AF, I-LC, I-CV
-25	교실	O	O	O, B-AF, I-OG, B-OG, B-LC
-26	##에	O	O	O, B-CV, B-PS, B-OG, B-LC
-27	교과	O	O	O, B-OG, B-FD, B-CV, B-LC
-28	교사	B-CV	B-CV	B-CV, O, I-CV, I-OG, B-OG
-29	외	O	O	O, I-CV, I-OG, I-QT, B-CV
-30	##에	O	O	O, B-PS, B-OG, B-QT, B-CV
-31	협력	O	B-CV	B-CV, O, B-TM, B-OG, B-FD
-32	##강	B-CV	B-CV	B-CV, I-CV, O, I-QT, I-OG
-33	##사	I-CV	I-CV	I-CV, O, B-CV, I-QT, I-OG
-34	##를	O	O	O, I-CV, I-OG, I-QT, B-CV
-35	한	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-PS
-36	명	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-37	더	O	O	O, I-QT, B-QT, B-TM, B-OG
-38	두	O	O	O, I-QT, B-LC, B-OG, B-QT
-39	##는	O	O	O, I-QT, B-TM, B-LC, B-PS
-40	사업	O	O	O, B-TM, B-CV, B-LC, I-TM
-41	##을	O	O	O, B-CV, B-OG, I-TM, I-CV
-42	추진	O	O	O, B-OG, B-TM, B-LC, B-CV
-43	##한다	O	O	O, B-LC, B-OG, I-OG, B-CV
-44	.	O	O	O, B-LC, B-OG, B-CV, B-PS
-45	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	이	B-PS	B-PS
+2	씨	O	O
+3	##는	O	O
+4	“	O	O
+5	딸	B-CV	B-CV
+6	##은	O	O
+7	지난해	B-DT	B-DT
+8	7	I-DT	I-DT
+9	##월	I-DT	I-DT
+10	장마철	O	O
+11	##에	O	O
+12	중장	O	O
+13	##비	O	O
+14	기사	O	B-CV
+15	##인	O	O
+16	내	O	O
+17	##가	O	O
+18	허리	B-TM	B-TM
+19	디스크	I-TM	I-TM
+20	##로	O	O
+21	일	O	O
+22	##을	O	O
+23	못하	O	O
+24	##자	O	O
+25	휴학	O	O
+26	##해서	O	O
+27	자격증	O	O
+28	##을	O	O
+29	따	O	O
+30	##겠다	O	O
+31	##고	O	O
+32	했	O	O
+33	##다	O	O
+34	.	O	O
+35	[SEP]	O	O

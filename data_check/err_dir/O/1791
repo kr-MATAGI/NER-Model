@@ -1,43 +1,29 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	이	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-2	위원장	B-CV	B-CV	B-CV, O, I-PS, I-CV, B-PS
-3	##은	O	O	O, I-CV, B-CV, I-EV, I-OG
-4	“	O	O	O, B-CV, B-PS, B-LC, I-CV
-5	김정은	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-6	##을	O	O	O, I-PS, I-OG, B-CV, I-AF
-7	찬양	O	O	O, B-CV, B-PS, B-LC, B-FD
-8	##한다	O	O	O, B-PS, B-LC, B-CV, I-CV
-9	##기	O	O	O, B-PS, I-PS, I-QT, B-LC
-10	##보	O	O	O, B-PS, B-CV, B-LC, B-OG
-11	##다는	O	O	O, B-PS, B-CV, B-LC, B-OG
-12	적도	O	O	O, B-CV, B-PS, B-LC, B-OG
-13	잘	O	O	O, B-PS, B-CV, B-LC, I-CV
-14	알아	O	O	O, B-PS, B-CV, B-LC, I-PS
-15	##야	O	O	O, B-PS, I-PS, I-CV, B-CV
-16	한다는	O	O	O, B-PS, B-CV, B-LC, I-PS
-17	차원	O	O	O, B-PS, B-CV, B-QT, B-LC
-18	##에서	O	O	O, B-PS, B-CV, I-QT, B-QT
-19	방송	O	O	O, B-CV, B-TM, B-PS, B-OG
-20	##한	O	O	O, B-PS, B-CV, B-OG, I-CV
-21	게	O	O	O, B-PS, B-CV, B-OG, B-LC
-22	아닌가	O	O	O, B-PS, B-OG, I-OG, B-LC
-23	생각	O	O	O, B-CV, B-PS, I-OG, B-OG
-24	##한다	O	O	O, I-OG, B-PS, B-CV, I-AF
-25	”	O	O	O, B-CV, B-PS, B-LC, B-OG
-26	며	O	O	O, B-CV, B-LC, B-PS, B-TM
-27	“	O	O	O, B-CV, B-PS, B-LC, B-TM
-28	개인	O	O	O, B-CV, B-PS, B-LC, B-OG
-29	##적으로	O	O	O, B-PS, I-CV, B-CV, I-QT
-30	##는	O	O	O, B-PS, B-CV, B-LC, B-OG
-31	김정은	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-32	##을	O	O	O, I-PS, I-OG, B-CV, I-AF
-33	폭	O	B-CV	B-CV, O, B-PS, B-OG, B-AM
-34	##군	O	I-CV	I-CV, O, I-PS, I-AM, I-OG
-35	정도	O	O	O, I-CV, I-QT, I-PS, I-OG
-36	##로	O	O	O, I-QT, I-CV, B-PS, I-PS
-37	보고	O	O	O, B-PS, B-CV, I-QT, B-OG
-38	있	O	O	O, B-CV, B-PS, I-OG, I-QT
-39	##다	O	O	O, B-CV, I-OG, B-TM, B-LC
-40	.	O	O	O, B-PS, B-CV, B-LC, B-OG
-41	[SEP]	O	O	O, B-CV, B-PS, B-LC, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	김	B-PS	B-PS
+2	씨	O	O
+3	##는	O	O
+4	인천	B-LC	B-LC
+5	##에	O	O
+6	##서	O	O
+7	짐	O	O
+8	세	B-QT	B-QT
+9	개	I-QT	I-QT
+10	##를	O	O
+11	싸	O	O
+12	##들	O	O
+13	##고	O	O
+14	서울	B-LC	B-LC
+15	영등포	B-LC	B-LC
+16	##역	I-LC	I-LC
+17	##으로	O	O
+18	향하	O	O
+19	##는	O	O
+20	88	B-QT	B-QT
+21	##번	I-QT	I-QT
+22	버스	O	B-AF
+23	##에	O	O
+24	올랐	O	O
+25	##다	O	O
+26	.	O	O
+27	[SEP]	O	O

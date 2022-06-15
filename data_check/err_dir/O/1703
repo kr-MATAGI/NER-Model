@@ -1,32 +1,45 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	지난	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-2	5	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-3	##월	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-4	##에	O	O	O, I-DT, B-CV, I-EV, I-OG
-5	미국	B-LC	B-LC	B-LC, B-OG, B-CV, O, B-AF
-6	변호사	B-CV	B-CV	B-CV, O, I-CV, B-OG, I-OG
-7	자격	O	O	O, I-CV, I-OG, B-CV, I-EV
-8	##을	O	O	O, I-CV, B-PS, B-CV, I-OG
-9	받	O	O	O, B-CV, B-PS, B-LC, B-OG
-10	##은	O	O	O, B-PS, B-LC, I-CV, B-CV
-11	후	O	O	O, B-PS, I-DT, B-DT, B-LC
-12	##로	O	O	O, I-DT, B-PS, I-PS, I-OG
-13	##도	O	O	O, B-PS, B-LC, I-DT, B-OG
-14	계속	O	O	O, B-LC, B-PS, B-QT, B-OG
-15	국군	B-OG	B-OG	B-OG, B-CV, O, B-EV, B-AF
-16	포로	O	I-CV	I-CV, B-CV, O, I-OG, I-EV
-17	문제	O	O	O, I-CV, I-EV, I-OG, I-QT
-18	##를	O	O	O, B-CV, B-OG, B-PS, B-LC
-19	국제	O	O	O, B-CV, B-LC, B-OG, B-TM
-20	##사회	O	O	O, B-CV, B-LC, I-OG, I-QT
-21	##에	O	O	O, B-CV, B-LC, B-PS, B-TM
-22	알리	O	O	O, B-CV, B-LC, B-TM, B-OG
-23	##는	O	O	O, B-CV, B-LC, B-PS, B-QT
-24	일	O	O	O, B-CV, B-LC, B-TM, B-QT
-25	##을	O	O	O, B-CV, B-PS, B-OG, B-TM
-26	하고	O	O	O, B-CV, B-QT, B-TM, B-LC
-27	있	O	O	O, B-CV, B-PS, I-QT, B-LC
-28	##다	O	O	O, B-CV, I-OG, B-TM, B-LC
-29	.	O	O	O, B-CV, B-LC, B-PS, B-OG
-30	[SEP]	O	O	O, B-CV, B-LC, I-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	이	O	O
+2	자리	O	O
+3	##에	O	O
+4	##는	O	O
+5	후	B-PS	B-PS
+6	전	O	O
+7	총서	B-CV	B-CV
+8	##기	I-CV	I-CV
+9	##의	O	O
+10	유족	B-CV	B-CV
+11	##과	O	O
+12	함께	O	O
+13	,	O	O
+14	원자	B-PS	B-PS
+15	##바오	I-PS	I-PS
+16	(	O	O
+17	溫	O	O
+18	家	O	O
+19	寶	O	O
+20	)	O	O
+21	총리	B-CV	B-CV
+22	##와	O	O
+23	쩡	B-PS	B-PS
+24	##칭	I-PS	I-PS
+25	##훙	I-PS	I-PS
+26	(	O	O
+27	曾	O	O
+28	慶	O	O
+29	紅	O	O
+30	)	O	O
+31	국가	O	B-CV
+32	부주석	B-CV	I-CV
+33	등	O	O
+34	현직	O	O
+35	최고	O	O
+36	##지도	O	O
+37	##부들	O	O
+38	##이	O	O
+39	참석	O	O
+40	##했	O	O
+41	##다	O	O
+42	.	O	O
+43	[SEP]	O	O

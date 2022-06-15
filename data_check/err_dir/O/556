@@ -1,61 +1,36 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	국방부	B-OG	B-OG	B-OG, O, B-AF, B-LC, B-CV
-2	##는	O	O	O, I-OG, I-EV, I-AF, B-CV
-3	“	O	O	O, B-CV, B-LC, B-OG, B-TM
-4	단일	O	O	O, B-QT, B-CV, B-LC, B-PS
-5	전구	O	O	O, B-CV, I-QT, B-PS, B-LC
-6	##로	O	O	O, I-QT, I-CV, I-OG, I-EV
-7	구성	O	O	O, B-LC, B-OG, B-PS, B-TM
-8	##된	O	O	O, B-LC, B-PS, B-OG, B-CV
-9	한반도	B-LC	B-LC	B-LC, O, B-OG, I-LC, B-AF
-10	작전	O	O	O, B-LC, I-LC, B-CV, B-OG
-11	##환경	O	O	O, B-LC, I-LC, I-OG, B-PS
-12	##의	O	O	O, B-LC, B-PS, B-CV, B-OG
-13	특수	O	O	O, B-LC, B-CV, B-PS, B-OG
-14	##성	O	O	O, I-LC, B-LC, I-PS, B-PS
-15	##을	O	O	O, B-CV, B-LC, B-PS, B-OG
-16	고려	O	O	O, B-LC, B-CV, B-OG, B-PS
-17	##해	O	O	O, B-LC, B-PS, B-OG, B-CV
-18	별도	O	O	O, B-LC, B-OG, B-TM, B-QT
-19	##의	O	O	O, B-PS, B-LC, B-OG, B-QT
-20	합동	B-OG	B-OG	B-OG, O, B-AF, B-CV, B-EV
-21	##군	I-OG	I-OG	I-OG, O, B-OG, I-AF, I-CV
-22	##사	I-OG	I-OG	I-OG, O, I-AF, B-OG, I-CV
-23	##령	I-OG	I-OG	I-OG, O, I-AF, B-OG, I-CV
-24	##부	I-OG	I-OG	I-OG, O, I-AF, I-CV, I-EV
-25	##를	O	O	O, I-OG, I-AF, I-EV, I-CV
-26	창설	O	O	O, B-OG, B-CV, B-LC, B-AF
-27	##하	O	O	O, B-PS, B-LC, B-OG, B-AF
-28	##지	O	O	O, B-LC, B-PS, B-CV, B-OG
-29	않	O	O	O, B-LC, B-CV, B-PS, B-OG
-30	##고	O	O	O, B-LC, B-PS, B-OG, B-CV
-31	합참	O	O	O, B-CV, B-LC, B-OG, B-AF
-32	##의	O	O	O, I-CV, I-OG, I-LC, I-AF
-33	##장이	O	O	O, I-OG, I-LC, B-PS, I-CV
-34	전구	O	O	O, B-CV, B-QT, B-PS, B-OG
-35	##사	B-CV	B-CV	B-CV, I-CV, O, I-QT, B-QT
-36	##령관	I-CV	I-CV	I-CV, O, B-CV, I-QT, I-OG
-37	구실	O	O	O, I-CV, I-QT, I-OG, B-PS
-38	##을	O	O	O, B-CV, B-OG, B-LC, I-CV
-39	수행	O	O	O, B-CV, B-LC, B-TM, B-PS
-40	##할	O	O	O, B-LC, B-PS, B-CV, B-OG
-41	수	O	O	O, B-PS, B-LC, B-CV, B-TM
-42	있	O	O	O, B-CV, B-LC, B-PS, B-OG
-43	##도록	O	O	O, B-LC, B-PS, B-OG, B-CV
-44	합참	O	B-OG	B-OG, O, B-AF, B-CV, B-EV
-45	##의	O	O	O, I-OG, I-AF, I-CV, I-EV
-46	편성	O	O	O, B-CV, I-OG, B-LC, B-TM
-47	##과	O	O	O, B-PS, B-LC, B-OG, B-CV
-48	기능	O	O	O, B-CV, B-LC, B-TM, B-OG
-49	##을	O	O	O, B-CV, B-OG, B-LC, B-PS
-50	보강	O	O	O, B-CV, B-LC, B-OG, B-TM
-51	##했	O	O	O, B-OG, B-CV, B-LC, B-PS
-52	##다	O	O	O, B-CV, I-OG, B-OG, B-LC
-53	”	O	O	O, B-CV, B-TM, B-LC, B-OG
-54	고	O	O	O, B-CV, B-LC, B-TM, B-OG
-55	말	O	O	O, B-CV, B-TM, B-LC, B-OG
-56	##했	O	O	O, B-CV, B-LC, B-OG, B-PS
-57	##다	O	O	O, B-CV, B-LC, B-OG, B-TM
-58	.	O	O	O, B-LC, B-OG, B-PS, B-CV
-59	[SEP]	O	O	O, B-LC, B-CV, B-OG, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	남	B-PS	B-PS
+2	##선	I-PS	I-PS
+3	##유	I-PS	I-PS
+4	양	O	O
+5	(	O	O
+6	5	B-QT	B-QT
+7	)	O	O
+8	이	O	O
+9	고사리	B-PT	B-AM
+10	손	B-AM	B-AM
+11	##으로	O	O
+12	빈	O	O
+13	생수	O	B-CV
+14	##통	O	O
+15	##을	O	O
+16	낯선	O	O
+17	기계	O	O
+18	##에	O	O
+19	넣	O	O
+20	##자	O	O
+21	바로	O	O
+22	덜	O	O
+23	##커	O	O
+24	##덩	O	O
+25	##거리	O	O
+26	##며	O	O
+27	압축	O	O
+28	##하	O	O
+29	##는	O	O
+30	소리	O	O
+31	##가	O	O
+32	들린다	O	O
+33	.	O	O
+34	[SEP]	O	O

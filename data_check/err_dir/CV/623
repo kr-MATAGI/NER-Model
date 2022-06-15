@@ -1,25 +1,27 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	서울대	B-CV	B-CV	B-CV, O, B-OG, B-PS, B-AF
-2	##생	I-CV	O	O, I-CV, I-OG, B-CV, I-QT
-3	##이	O	O	O, B-PS, I-CV, B-CV, I-OG
-4	아니	O	O	O, B-PS, B-CV, I-CV, B-LC
-5	##어도	O	O	O, B-PS, B-CV, I-OG, I-CV
-6	가입	O	O	O, B-CV, B-TM, B-AF, B-OG
-7	##할	O	O	O, B-PS, B-CV, I-CV, I-AF
-8	순	O	O	O, B-TM, B-CV, B-PS, B-LC
-9	있	O	O	O, B-TM, B-CV, I-TM, B-PS
-10	##지만	O	O	O, B-CV, B-TM, B-PS, B-LC
-11	상대방	O	O	O, B-CV, B-TM, B-PS, B-AF
-12	##이	O	O	O, B-PS, B-CV, I-CV, B-LC
-13	원치	O	O	O, B-CV, B-PS, B-TM, B-LC
-14	않	O	O	O, B-PS, B-CV, B-LC, I-CV
-15	##으면	O	O	O, B-CV, B-PS, B-TM, B-LC
-16	매칭	O	O	O, B-CV, B-TM, B-OG, B-AF
-17	대상	O	O	O, B-CV, B-TM, B-OG, B-LC
-18	##에서	O	O	O, B-CV, B-TM, B-PS, B-LC
-19	배제	O	O	O, B-CV, B-TM, B-QT, B-OG
-20	##된	O	O	O, B-CV, I-CV, I-OG, I-AF
-21	##다	O	O	O, B-CV, I-OG, B-TM, I-CV
-22	.	O	O	O, B-CV, B-PS, B-TM, B-LC
-23	[SEP]	O	O	O, B-CV, B-TM, B-PS, I-CV
+	text	label	preds
+0	[CLS]	O	O
+1	문	B-EV	B-EV
+2	##혁	I-EV	I-EV
+3	##이	O	O
+4	끝	O	O
+5	##난	O	O
+6	뒤	O	O
+7	그	O	O
+8	##는	O	O
+9	이	O	O
+10	범죄	O	O
+11	##로	O	O
+12	조사	O	O
+13	##를	O	O
+14	받	O	O
+15	##았	O	O
+16	##으나	O	O
+17	수배	B-CV	O
+18	##령	I-CV	O
+19	##을	O	O
+20	피해	O	O
+21	도주	O	O
+22	##했	O	O
+23	##다	O	O
+24	.	O	O
+25	[SEP]	O	O

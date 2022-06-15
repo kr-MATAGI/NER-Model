@@ -1,43 +1,58 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	왕	O	B-CV	B-CV, O, I-CV, B-PS, B-AF
-2	노릇	O	O	O, I-CV, B-CV, B-PS, I-PS
-3	하	O	O	O, I-CV, B-PS, B-CV, B-LC
-4	##느	O	O	O, B-PS, B-LC, B-CV, I-CV
-5	##라고	O	O	O, B-PS, B-LC, B-CV, B-DT
-6	매일	O	O	O, B-CV, B-LC, B-DT, B-PS
-7	업무	O	O	O, B-CV, B-LC, B-TM, B-EV
-8	##가	O	O	O, B-PS, I-CV, B-LC, B-CV
-9	바쁘	O	O	O, B-CV, B-LC, B-TM, B-OG
-10	##니까	O	O	O, I-CV, B-PS, I-OG, B-CV
-11	아예	O	O	O, B-CV, B-PS, B-LC, B-OG
-12	공식	O	O	O, B-CV, B-LC, B-FD, B-TM
-13	스케줄	O	O	O, B-CV, B-LC, I-CV, B-PS
-14	##에다	O	O	O, B-CV, B-OG, B-LC, B-PS
-15	신하	O	B-CV	B-CV, O, B-AF, I-CV, B-PS
-16	##들	O	O	O, I-CV, B-CV, I-OG, I-AF
-17	##과	O	O	O, B-CV, B-TM, B-LC, B-FD
-18	##의	O	O	O, B-CV, B-LC, B-TM, B-PS
-19	독서	O	O	O, B-CV, B-FD, B-EV, B-LC
-20	토론	O	O	O, B-CV, B-FD, I-CV, I-EV
-21	과목	O	O	O, B-CV, I-CV, B-PS, B-LC
-22	##을	O	O	O, B-CV, B-OG, B-PS, B-LC
-23	집어넣	O	O	O, B-CV, B-LC, B-OG, B-TM
-24	##어	O	O	O, B-CV, B-LC, B-PS, B-OG
-25	##서	O	O	O, B-LC, B-CV, B-OG, B-PS
-26	의무	O	O	O, B-CV, B-LC, B-QT, B-TM
-27	##적으로	O	O	O, B-CV, B-LC, I-CV, I-AF
-28	하도	O	O	O, B-CV, B-LC, B-TM, B-OG
-29	##록	O	O	O, B-CV, B-LC, I-CV, B-PS
-30	한	O	O	O, B-CV, B-LC, B-PS, B-DT
-31	것	O	O	O, B-CV, B-PS, B-LC, B-OG
-32	##이	O	O	O, B-PS, B-LC, B-CV, B-OG
-33	조선	O	B-DT	B-DT, B-LC, O, B-FD, B-AF
-34	##의	O	O	O, I-DT, I-AF, I-PS, I-FD
-35	정치	O	O	O, B-CV, B-FD, B-AF, I-AF
-36	##제	O	O	O, I-CV, I-FD, I-AF, B-CV
-37	##도	O	O	O, I-CV, I-FD, I-AF, I-TR
-38	##였	O	O	O, I-CV, I-AF, I-FD, I-OG
-39	##다	O	O	O, B-CV, I-CV, I-AF, B-LC
-40	.	O	O	O, B-CV, B-LC, B-PS, B-FD
-41	[SEP]	O	O	O, B-CV, B-LC, B-FD, I-CV
+	text	label	preds
+0	[CLS]	O	O
+1	한편	O	O
+2	검찰	B-OG	B-OG
+3	##은	O	O
+4	이	B-PS	B-PS
+5	회장	B-CV	B-CV
+6	##을	O	O
+7	명예훼손	B-CV	B-CV
+8	혐의	O	O
+9	##로	O	O
+10	고소	O	O
+11	##한	O	O
+12	박	B-PS	B-PS
+13	전	O	O
+14	차관	B-CV	B-CV
+15	,	O	O
+16	곽	B-PS	B-PS
+17	##승	I-PS	I-PS
+18	##준	I-PS	I-PS
+19	(	O	O
+20	51	B-QT	B-QT
+21	)	O	O
+22	대통령	B-CV	B-CV
+23	직속	O	O
+24	미래	B-CV	B-CV
+25	##기획	I-CV	I-CV
+26	##위원	I-CV	I-CV
+27	##장	I-CV	I-CV
+28	,	O	O
+29	임재	B-PS	B-PS
+30	##현	I-PS	I-PS
+31	(	O	O
+32	42	B-QT	B-QT
+33	)	O	O
+34	대통령	B-OG	B-OG
+35	##실	I-OG	I-OG
+36	정책	B-CV	B-CV
+37	##홍	I-CV	I-CV
+38	##보	I-CV	I-CV
+39	##비	I-CV	I-CV
+40	##서관	I-CV	I-CV
+41	등	O	O
+42	3	B-QT	B-QT
+43	##명	I-QT	I-QT
+44	##의	O	O
+45	서면	O	O
+46	진술서	O	O
+47	##를	O	O
+48	받아	O	O
+49	고소	O	B-CV
+50	##인	O	I-CV
+51	조사	O	O
+52	##를	O	O
+53	했	O	O
+54	##다	O	O
+55	.	O	O
+56	[SEP]	O	O

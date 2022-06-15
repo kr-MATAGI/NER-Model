@@ -1,47 +1,39 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, I-EV, B-CV
-1	1962	B-DT	B-DT	B-DT, O, B-EV, B-QT, I-DT
-2	칠레	B-LC	B-EV	B-EV, B-LC, O, I-EV, B-OG
-3	대회	O	I-EV	I-EV, O, B-EV, I-DT, I-LC
-4	##에서	O	O	O, I-EV, I-DT, I-OG, B-LC
-5	브라질	B-OG	B-OG	B-OG, B-LC, O, B-PS, I-OG
-6	##이	O	O	O, I-OG, I-LC, B-PS, I-EV
-7	2	B-QT	B-QT	B-QT, O, B-EV, I-QT, B-DT
-8	##연	I-QT	I-QT	I-QT, O, I-EV, I-LC, B-QT
-9	##속	I-QT	I-QT	I-QT, O, I-EV, I-LC, I-PS
-10	우승	O	O	O, I-QT, B-CV, I-EV, I-OG
-11	##을	O	O	O, B-CV, B-OG, B-LC, B-PS
-12	차지	O	O	O, B-CV, B-LC, B-OG, B-PS
-13	##한	O	O	O, B-LC, B-OG, B-PS, B-CV
-14	이후	O	O	O, B-CV, B-PS, B-LC, I-EV
-15	,	O	O	O, B-LC, B-OG, B-PS, B-CV
-16	잉글랜드	B-OG	B-OG	B-OG, B-LC, O, B-PS, B-TM
-17	·	O	O	O, I-OG, I-LC, I-EV, I-DT
-18	브라질	B-OG	B-OG	B-OG, B-LC, O, B-PS, I-OG
-19	·	O	O	O, I-OG, I-LC, I-EV, I-DT
-20	서독	B-OG	B-OG	B-OG, B-LC, O, B-TM, B-PS
-21	·	O	O	O, I-OG, I-LC, I-EV, I-AF
-22	아르헨티나	B-OG	B-OG	B-OG, B-LC, O, B-PS, B-TM
-23	·	O	O	O, I-OG, I-LC, I-EV, I-AF
-24	이탈리아	B-OG	B-OG	B-OG, B-LC, O, B-PS, B-TM
-25	·	O	O	O, I-OG, I-LC, I-EV, I-DT
-26	아르헨티나	B-OG	B-LC	B-LC, B-OG, O, B-TM, B-PS
-27	·	O	O	O, I-OG, I-LC, I-EV, I-DT
-28	서독	B-OG	B-LC	B-LC, B-OG, O, B-TM, B-PS
-29	·	O	O	O, I-OG, I-LC, I-AF, I-EV
-30	브라질	B-OG	B-OG	B-OG, B-LC, O, B-PS, I-OG
-31	·	O	O	O, I-OG, I-LC, I-EV, I-AF
-32	프랑스	B-OG	B-OG	B-OG, B-LC, O, B-PS, I-OG
-33	·	O	O	O, I-OG, I-LC, I-AF, I-EV
-34	브라질	B-OG	B-OG	B-OG, B-LC, O, B-PS, I-OG
-35	·	O	O	O, I-OG, I-LC, I-DT, I-EV
-36	이탈리아	B-OG	B-OG	B-OG, B-LC, O, I-OG, B-PS
-37	##가	O	O	O, I-OG, I-LC, I-AF, B-PS
-38	우승	O	O	O, B-CV, B-LC, B-TM, B-OG
-39	트로피	O	O	O, B-CV, B-AF, B-TM, B-PS
-40	##를	O	O	O, B-CV, I-AF, I-CV, I-OG
-41	들	O	O	O, B-CV, B-LC, B-PS, B-OG
-42	##었	O	O	O, B-CV, I-OG, B-LC, B-OG
-43	##다	O	O	O, B-CV, B-LC, I-OG, B-OG
-44	.	O	O	O, B-LC, B-OG, B-CV, B-PS
-45	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	씨티	B-OG	B-OG
+2	##그룹	I-OG	I-OG
+3	##은	O	O
+4	지난해	B-DT	B-DT
+5	1	I-DT	I-DT
+6	##월	I-DT	I-DT
+7	사들였	O	O
+8	##던	O	O
+9	일본	B-LC	B-LC
+10	##의	O	O
+11	닛	B-LC	B-OG
+12	##코	I-LC	I-OG
+13	코디	B-OG	I-OG
+14	##얼	I-OG	I-OG
+15	증권사	I-OG	I-OG
+16	##를	O	O
+17	79	B-QT	B-QT
+18	##억	I-QT	I-QT
+19	##달	I-QT	I-QT
+20	##러	I-QT	I-QT
+21	##에	O	O
+22	일본	B-LC	B-LC
+23	미쓰	B-OG	B-OG
+24	##이스	I-OG	I-OG
+25	##미	I-OG	I-OG
+26	##토	I-OG	I-OG
+27	##모	I-OG	I-OG
+28	은행	I-OG	I-OG
+29	##에	O	O
+30	팔	O	O
+31	##기	O	O
+32	##로	O	O
+33	합의	O	O
+34	##했	O	O
+35	##다	O	O
+36	.	O	O
+37	[SEP]	O	O

@@ -1,33 +1,39 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, B-CV, I-OG, I-AF
-1	그날	B-DT	B-DT	B-DT, O, I-DT, B-CV, B-OG
-2	밤잠	O	O	O, B-TI, I-DT, B-OG, B-PS
-3	##에서	O	O	O, B-PS, B-CV, I-AF, B-LC
-4	깨	O	O	O, B-CV, B-OG, B-LC, B-PS
-5	##어보	O	O	O, B-PS, B-CV, I-OG, B-OG
-6	##니	O	O	O, B-PS, B-CV, B-OG, B-LC
-7	연대	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-TM
-8	##장	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-TM
-9	##께	O	O	O, I-CV, B-PS, I-OG, B-CV
-10	##서	O	O	O, B-PS, B-LC, B-CV, I-CV
-11	잠든	O	O	O, B-CV, B-PS, B-LC, B-TI
-12	나	O	O	O, B-CV, B-PS, B-LC, B-OG
-13	##에	O	O	O, B-PS, B-CV, B-LC, B-AM
-14	##게	O	O	O, B-CV, B-PS, B-LC, B-TM
-15	자신	O	O	O, B-CV, B-PS, B-TM, B-LC
-16	##의	O	O	O, B-CV, I-CV, B-PS, I-AF
-17	외투	O	O	O, B-CV, I-CV, B-AM, B-PT
-18	##를	O	O	O, I-CV, B-PS, B-CV, I-AF
-19	벗	O	O	O, B-CV, B-PS, B-QT, B-TM
-20	##어	O	O	O, B-PS, B-CV, I-CV, B-LC
-21	덮어	O	O	O, B-CV, B-PS, B-QT, B-LC
-22	##주	O	O	O, B-PS, B-CV, B-LC, I-CV
-23	##고	O	O	O, B-CV, B-PS, B-LC, I-CV
-24	옆	O	B-TM	B-TM, O, B-CV, B-LC, B-TR
-25	##에서	O	O	O, I-TM, I-CV, B-CV, I-AF
-26	자고	O	O	O, B-CV, B-LC, B-PS, B-TM
-27	있	O	O	O, B-CV, B-PS, B-LC, I-AF
-28	##었	O	O	O, B-CV, B-PS, B-LC, I-AF
-29	##다	O	O	O, B-CV, B-LC, I-CV, B-TM
-30	.	O	O	O, B-CV, B-PS, B-LC, B-AM
-31	[SEP]	O	O	O, B-CV, B-PS, B-LC, I-CV
+	text	label	preds
+0	[CLS]	O	O
+1	반면	O	O
+2	시민	B-CV	B-CV
+3	##배	I-CV	I-CV
+4	##심	I-CV	I-CV
+5	##원	I-CV	I-CV
+6	##제	I-CV	I-CV
+7	##는	O	O
+8	1970	B-DT	B-DT
+9	##년	I-DT	I-DT
+10	##대	I-DT	I-DT
+11	중반	O	I-DT
+12	미국	B-LC	B-LC
+13	비	O	O
+14	##영	O	O
+15	##리	O	O
+16	##기구	O	O
+17	제	B-OG	B-OG
+18	##퍼슨	I-OG	I-OG
+19	##센터	I-OG	I-OG
+20	##가	O	O
+21	사회	O	O
+22	##적	O	O
+23	합의	O	O
+24	형성	O	O
+25	##을	O	O
+26	위해	O	O
+27	고안	O	O
+28	##한	O	O
+29	시민	B-CV	B-CV
+30	참여	O	O
+31	의사	O	O
+32	##결	O	O
+33	##정	O	O
+34	방식	O	O
+35	##이다	O	O
+36	.	O	O
+37	[SEP]	O	O

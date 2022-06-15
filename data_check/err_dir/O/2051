@@ -1,15 +1,61 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-EV
-1	한	O	B-QT	B-QT, O, I-QT, B-DT, B-PS
-2	번	O	I-QT	I-QT, O, B-QT, I-LC, I-PS
-3	가	O	O	O, I-QT, B-CV, I-OG, B-OG
-4	##서	O	O	O, I-QT, B-CV, B-OG, B-LC
-5	해	O	O	O, B-CV, B-OG, B-QT, B-LC
-6	##주	O	O	O, B-CV, I-QT, B-LC, I-OG
-7	##셔	O	O	O, B-CV, B-LC, B-OG, I-OG
-8	##야	O	O	O, B-CV, B-LC, I-OG, B-OG
-9	##겠	O	O	O, B-CV, B-OG, B-LC, I-OG
-10	##는데	O	O	O, B-CV, B-OG, I-OG, B-LC
-11	##요	O	O	O, B-CV, B-OG, B-LC, I-OG
-12	?	O	O	O, B-CV, B-LC, B-PS, B-OG
-13	[SEP]	O	O	O, B-CV, B-LC, B-OG, I-EV
+	text	label	preds
+0	[CLS]	O	O
+1	그러나	O	O
+2	1987	B-DT	B-DT
+3	##년	I-DT	I-DT
+4	민주	O	O
+5	##와	O	O
+6	인권	O	B-CV
+7	##을	O	O
+8	요구	O	O
+9	##하	O	O
+10	##며	O	O
+11	전국	O	O
+12	각지	O	O
+13	##에	O	O
+14	##서	O	O
+15	벌어진	O	O
+16	학생	B-CV	B-CV
+17	시위	O	O
+18	##에	O	O
+19	유화	O	O
+20	##적	O	O
+21	##으로	O	O
+22	대처	O	O
+23	##하	O	O
+24	##고	O	O
+25	,	O	O
+26	정치	O	O
+27	개혁	O	O
+28	차원	O	O
+29	##에	O	O
+30	##서	O	O
+31	덩샤오핑	B-PS	B-PS
+32	##을	O	O
+33	비롯	O	O
+34	##한	O	O
+35	당	O	O
+36	원로	B-CV	B-CV
+37	##들이	O	O
+38	일선	O	O
+39	##에	O	O
+40	##서	O	O
+41	은퇴	O	O
+42	##할	O	O
+43	것	O	O
+44	##을	O	O
+45	주장	O	O
+46	##했	O	O
+47	##다가	O	O
+48	당내	O	O
+49	원로	O	O
+50	회의	O	O
+51	##에	O	O
+52	##서	O	O
+53	실	O	O
+54	##각	O	O
+55	##당	O	O
+56	##했	O	O
+57	##다	O	O
+58	.	O	O
+59	[SEP]	O	O

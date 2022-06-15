@@ -1,32 +1,63 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-EV
-1	코스피	B-OG	O	O, B-OG, B-LC, B-AF, B-FD
-2	##가	O	O	O, I-OG, B-PS, I-AF, B-OG
-3	1	B-QT	B-QT	B-QT, I-QT, O, B-LC, B-PS
-4	,	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-OG
-5	750	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-6	선	I-QT	I-QT	I-QT, O, I-LC, I-TM, I-OG
-7	아래	O	O	O, B-TM, I-QT, I-TM, B-QT
-8	##로	O	O	O, I-QT, I-TM, B-TM, B-PS
-9	급락	O	O	O, B-OG, B-TM, B-CV, B-LC
-10	##했	O	O	O, I-OG, B-PS, B-CV, B-OG
-11	##고	O	O	O, B-PS, B-LC, B-CV, B-OG
-12	원	B-CV	B-CV	B-CV, O, B-AF, B-MT, B-LC
-13	-	O	O	O, I-CV, B-PS, B-CV, B-QT
-14	달러	B-CV	B-CV	B-CV, O, I-CV, B-AF, B-MT
-15	환율	O	O	O, I-CV, B-CV, B-QT, B-TM
-16	##은	O	O	O, I-CV, B-CV, B-PS, B-OG
-17	30	B-QT	B-QT	B-QT, O, I-QT, B-LC, B-PS
-18	##원	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-19	##이나	O	O	O, I-QT, I-OG, B-CV, B-PS
-20	급등	O	O	O, B-TM, B-CV, B-QT, B-LC
-21	(	O	O	O, B-CV, B-LC, B-OG, I-OG
-22	원화	B-CV	B-CV	B-CV, O, I-CV, B-AF, B-MT
-23	가치	O	O	O, I-CV, B-CV, B-QT, B-PS
-24	##는	O	O	O, B-CV, B-LC, B-TM, B-PS
-25	하락	O	O	O, B-CV, B-TM, B-OG, B-LC
-26	)	O	O	O, B-CV, I-OG, B-LC, I-CV
-27	했	O	O	O, B-CV, B-PS, B-LC, B-OG
-28	##다	O	O	O, B-CV, I-OG, B-LC, B-OG
-29	.	O	O	O, B-LC, B-CV, B-OG, B-PS
-30	[SEP]	O	O	O, B-LC, B-CV, B-OG, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	부평구	B-OG	B-OG
+2	##는	O	O
+3	‘	O	O
+4	캠프	B-OG	B-LC
+5	##마켓	I-OG	I-LC
+6	주변	I-OG	O
+7	##지역	I-OG	O
+8	환경	I-OG	O
+9	##오	I-OG	O
+10	##염	I-OG	O
+11	조사	I-OG	O
+12	##를	I-OG	O
+13	위한	I-OG	O
+14	부평구	I-OG	B-OG
+15	민관	I-OG	I-OG
+16	##공	I-OG	I-OG
+17	##동	I-OG	I-OG
+18	##조사	I-OG	I-OG
+19	##단	I-OG	I-OG
+20	’	O	O
+21	이	O	O
+22	지난	B-DT	B-DT
+23	2	I-DT	I-DT
+24	##월	I-DT	I-DT
+25	##부터	I-DT	I-DT
+26	한국	B-OG	B-OG
+27	##농	I-OG	I-OG
+28	##어	I-OG	I-OG
+29	##촌	I-OG	I-OG
+30	##공사	I-OG	I-OG
+31	등	O	O
+32	##에	O	O
+33	의뢰	O	O
+34	##해	O	O
+35	캠프	B-LC	B-LC
+36	##마켓	I-LC	I-LC
+37	주변	O	O
+38	##지역	O	O
+39	환경	O	O
+40	##기	O	O
+41	##초	O	O
+42	##조사	O	O
+43	##를	O	O
+44	벌인	O	O
+45	결과	O	O
+46	,	O	O
+47	토양	O	O
+48	오염	O	O
+49	##이	O	O
+50	심각	O	O
+51	##한	O	O
+52	수준	O	O
+53	##으로	O	O
+54	나타났	O	O
+55	##다고	O	O
+56	23	B-DT	B-DT
+57	##일	I-DT	I-DT
+58	밝혔	O	O
+59	##다	O	O
+60	.	O	O
+61	[SEP]	O	O

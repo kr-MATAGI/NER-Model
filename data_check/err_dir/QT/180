@@ -1,54 +1,9 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	경찰	B-OG	B-OG	B-OG, B-AF, O, B-CV, B-LC
-2	##에	O	O	O, I-OG, I-CV, I-AF, I-EV
-3	따르	O	O	O, B-OG, B-CV, I-OG, B-PS
-4	##면	O	O	O, B-OG, B-PS, B-LC, B-CV
-5	홍	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-6	교수	B-CV	B-CV	B-CV, O, I-PS, I-CV, B-OG
-7	##는	O	O	O, I-CV, B-CV, I-EV, I-OG
-8	2008	B-DT	B-DT	B-DT, I-DT, O, B-QT, B-CV
-9	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-10	3	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-11	##월	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-12	##부터	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-13	지난해	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-14	11	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-15	##월	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-16	##까	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-17	##지	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-18	총	O	O	O, B-QT, I-QT, I-DT, B-DT
-19	12	B-QT	B-QT	B-QT, I-QT, O, I-DT, I-LC
-20	##명	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-DT
-21	##의	O	O	O, I-QT, B-CV, B-PS, B-LC
-22	논문	O	O	O, B-CV, B-FD, B-TM, B-AF
-23	##을	O	O	O, B-CV, B-PS, B-LC, B-OG
-24	대신	O	O	O, B-CV, B-QT, B-TM, B-PS
-25	써	O	O	O, B-LC, B-CV, B-OG, B-PS
-26	주고	O	O	O, B-CV, B-PS, B-LC, B-TM
-27	학위	O	O	O, B-CV, B-LC, B-EV, B-PS
-28	논문	O	O	O, B-FD, B-CV, B-EV, B-LC
-29	심사	O	O	O, I-EV, B-PS, B-CV, B-LC
-30	##까	O	O	O, B-CV, B-PS, I-EV, B-LC
-31	##지	O	O	O, B-CV, B-PS, B-LC, B-OG
-32	통과	O	O	O, B-CV, B-OG, B-LC, B-TM
-33	##시	O	O	O, B-LC, B-CV, B-OG, B-PS
-34	##켜	O	O	O, B-LC, B-PS, B-CV, B-OG
-35	주	O	O	O, B-CV, B-PS, B-LC, B-TM
-36	##는	O	O	O, B-CV, B-PS, B-LC, B-TM
-37	대가	O	O	O, B-CV, B-QT, B-TM, B-PS
-38	##로	O	O	O, B-CV, B-PS, I-CV, I-QT
-39	총	O	B-QT	B-QT, O, I-QT, B-CV, B-DT
-40	3	B-QT	I-QT	I-QT, B-QT, O, I-LC, B-DT
-41	##억	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-42	##20	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-43	##00	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-44	##만	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-45	원	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-46	##을	O	O	O, I-QT, B-CV, B-OG, I-CV
-47	받	O	O	O, B-CV, B-PS, I-QT, B-TM
-48	##은	O	O	O, B-CV, B-PS, I-CV, I-QT
-49	혐의	O	O	O, B-CV, B-PS, I-CV, B-OG
-50	##다	O	O	O, B-CV, B-PS, I-CV, B-OG
-51	.	O	O	O, B-CV, B-LC, B-PS, B-OG
-52	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	또	O	O
+2	아빠	B-CV	B-CV
+3	##하	O	O
+4	##고	O	O
+5	둘	B-QT	B-QT
+6	##이	I-QT	O
+7	[SEP]	O	O

@@ -1,65 +1,61 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-EV, I-OG
-1	이	O	O	O, B-PS, B-OG, B-QT, B-TR
-2	관계자	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-PS
-3	##는	O	O	O, I-CV, B-CV, I-EV, I-QT
-4	“	O	O	O, B-CV, B-LC, B-PS, B-TM
-5	김	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
-6	씨	O	O	O, I-PS, B-CV, I-OG, I-AF
-7	##가	O	O	O, B-PS, B-CV, B-LC, B-TM
-8	사망	O	O	O, B-CV, B-TM, B-LC, B-PS
-9	전날	B-DT	B-DT	B-DT, O, I-DT, B-CV, B-QT
-10	##인	O	O	O, I-DT, B-CV, B-PS, I-EV
-11	16	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-PS
-12	##일	I-DT	I-DT	I-DT, O, B-DT, I-PS, I-QT
-13	현지	O	O	O, B-LC, B-CV, I-DT, B-OG
-14	선박	B-AF	O	O, B-AF, B-OG, B-CV, B-LC
-15	##대	O	O	O, I-OG, I-CV, I-AF, I-LC
-16	##리	O	O	O, I-OG, I-CV, I-AF, I-LC
-17	##점	O	O	O, I-OG, I-CV, I-AF, I-LC
-18	사장	B-CV	B-CV	B-CV, O, I-CV, B-QT, B-PS
-19	##인	O	O	O, I-CV, B-PS, B-CV, I-AF
-20	김종	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-21	##규	I-PS	I-PS	I-PS, O, I-OG, B-PS, I-LC
-22	씨	O	O	O, I-PS, B-CV, B-LC, I-OG
-23	,	O	O	O, B-CV, B-PS, B-LC, B-OG
-24	금	B-AF	B-AF	B-AF, B-OG, B-LC, O, B-PS
-25	##미	I-AF	I-AF	I-AF, I-OG, O, I-LC, I-PS
-26	##30	I-AF	I-AF	I-AF, I-OG, I-QT, I-LC, O
-27	##5	I-AF	I-AF	I-AF, I-QT, I-OG, I-LC, O
-28	##호	I-AF	I-AF	I-AF, I-QT, I-OG, O, I-LC
-29	선장	B-CV	B-CV	B-CV, O, I-AF, I-CV, I-QT
-30	##인	O	O	O, I-CV, I-AF, B-PS, B-CV
-31	김대	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-32	##근	I-PS	I-PS	I-PS, O, I-OG, B-PS, I-LC
-33	씨	O	O	O, I-PS, B-CV, B-LC, I-OG
-34	(	O	O	O, B-CV, B-LC, B-PS, B-QT
-35	55	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-TI
-36	)	O	O	O, I-QT, I-DT, B-CV, I-OG
-37	와	O	O	O, B-CV, B-LC, B-TM, B-PS
-38	저녁	B-TI	B-TI	B-TI, O, B-CV, B-EV, B-QT
-39	##을	O	O	O, B-CV, I-TI, I-CV, I-EV
-40	먹	O	O	O, B-CV, B-LC, B-TM, B-QT
-41	##었	O	O	O, B-CV, B-PS, B-LC, B-OG
-42	##으며	O	O	O, B-PS, B-CV, B-LC, B-OG
-43	김대	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-44	##근	I-PS	I-PS	I-PS, O, I-OG, B-PS, I-LC
-45	씨	O	O	O, I-PS, B-CV, B-LC, I-OG
-46	##는	O	O	O, B-CV, B-LC, B-PS, B-TM
-47	사망	O	O	O, B-CV, B-TM, B-LC, B-PS
-48	##한	O	O	O, B-PS, B-CV, B-LC, B-OG
-49	김	B-PS	B-PS	B-PS, O, I-PS, B-OG, B-LC
-50	씨	O	O	O, I-PS, B-CV, I-AF, I-OG
-51	##와	O	O	O, B-CV, B-LC, B-TM, B-PS
-52	다른	O	O	O, B-CV, B-LC, B-TM, B-PS
-53	방	O	O	O, B-CV, B-LC, B-TM, B-PS
-54	##에	O	O	O, B-CV, B-PS, B-LC, I-AF
-55	묵	O	O	O, B-CV, B-LC, B-TM, B-QT
-56	##었	O	O	O, B-CV, B-PS, B-LC, B-QT
-57	##다	O	O	O, B-CV, B-PS, B-LC, B-TM
-58	”	O	O	O, B-CV, B-TM, B-LC, B-QT
-59	고	O	O	O, B-CV, B-TM, B-LC, B-QT
-60	전했	O	O	O, B-CV, B-TM, B-QT, B-OG
-61	##다	O	O	O, B-CV, B-TM, B-LC, I-CV
-62	.	O	O	O, B-CV, B-LC, B-PS, B-OG
-63	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	‘	O	O
+2	일	B-QT	B-PS
+3	고수	I-QT	I-PS
+4	이	B-QT	I-PS
+5	명	I-QT	B-CV
+6	##창	I-QT	I-CV
+7	’	O	O
+8	의	O	O
+9	판소리	B-FD	B-FD
+10	격식	O	O
+11	##답	O	O
+12	##게	O	O
+13	중요	B-AF	O
+14	##무	I-AF	O
+15	##형	I-AF	O
+16	##문화재	I-AF	O
+17	제	I-AF	B-QT
+18	##5	I-AF	I-QT
+19	##호	I-AF	I-QT
+20	판소리	B-FD	B-FD
+21	고법	O	O
+22	예능	B-CV	B-CV
+23	##보	I-CV	I-CV
+24	##유	I-CV	I-CV
+25	##자	I-CV	I-CV
+26	정철	B-PS	B-PS
+27	##호	I-PS	I-PS
+28	,	O	O
+29	송	B-PS	B-PS
+30	##원	I-PS	I-PS
+31	##조	I-PS	I-PS
+32	고수	B-CV	B-CV
+33	##를	O	O
+34	비롯	O	O
+35	##해	O	O
+36	김	B-PS	B-PS
+37	##청	I-PS	I-PS
+38	##만	I-PS	I-PS
+39	,	O	O
+40	조영	B-PS	B-PS
+41	##제	I-PS	I-PS
+42	,	O	O
+43	조용	B-PS	B-PS
+44	##수	I-PS	I-PS
+45	##씨	O	O
+46	등	O	O
+47	유명	O	O
+48	고수	B-CV	B-CV
+49	10	B-QT	B-QT
+50	##명	I-QT	I-QT
+51	##이	O	O
+52	소리	B-AF	B-AF
+53	##북	I-AF	I-AF
+54	##을	O	O
+55	잡	O	O
+56	##는	O	O
+57	##다	O	O
+58	.	O	O
+59	[SEP]	O	O

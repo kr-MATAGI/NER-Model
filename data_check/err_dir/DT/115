@@ -1,20 +1,38 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	수정	O	O	O, B-OG, B-CV, B-PS, B-LC
-2	##이	O	O	O, B-PS, B-OG, B-LC, B-AF
-3	이뤄지면	O	O	O, B-OG, B-PS, B-LC, B-CV
-4	올해	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-5	이학	B-DT	O	O, B-EV, B-DT, B-AF, B-QT
-6	##기	I-DT	O	O, I-DT, I-QT, I-EV, I-AF
-7	##와	O	O	O, I-DT, I-EV, I-QT, I-AF
-8	내년도	O	B-DT	B-DT, O, I-DT, B-QT, B-EV
-9	교과	O	O	O, B-OG, B-AF, B-EV, B-TM
-10	##선	O	O	O, I-OG, I-AF, I-EV, I-TM
-11	새로운	O	O	O, I-OG, I-AF, I-EV, I-DT
-12	내용	O	O	O, B-CV, B-OG, B-PS, B-QT
-13	##으로	O	O	O, B-CV, B-OG, B-PS, B-LC
-14	인쇄	O	O	O, B-OG, B-TM, B-CV, B-AF
-15	##가	O	O	O, I-OG, B-OG, B-PS, I-AF
-16	되	O	O	O, B-CV, B-OG, B-LC, B-TM
-17	##고	O	O	O, B-OG, B-CV, I-OG, I-AF
-18	[SEP]	O	O	O, B-OG, B-CV, B-LC, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	5	B-DT	B-EV
+2	·	I-DT	I-EV
+3	24	I-DT	I-EV
+4	##가	O	O
+5	풀리지	O	O
+6	않	O	O
+7	##으면	O	O
+8	근본	O	O
+9	##적	O	O
+10	방향	O	O
+11	##전환	O	O
+12	##이	O	O
+13	힘들	O	O
+14	##다	O	O
+15	’	O	O
+16	는	O	O
+17	의견	O	O
+18	##이	O	O
+19	있	O	O
+20	##지만	O	O
+21	그런	O	O
+22	정책	O	O
+23	문제	O	O
+24	##는	O	O
+25	이야기	O	O
+26	하지	O	O
+27	않	O	O
+28	##는	O	O
+29	##다	O	O
+30	”	O	O
+31	고	O	O
+32	말	O	O
+33	##했	O	O
+34	##다	O	O
+35	.	O	O
+36	[SEP]	O	O

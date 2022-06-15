@@ -1,77 +1,27 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	이를	O	O	O, B-CV, B-TM, B-PS, B-QT
-2	본	O	O	O, B-PS, B-CV, B-QT, B-LC
-3	누리꾼	B-CV	B-CV	B-CV, O, I-CV, B-PS, B-TM
-4	so	O	O	O, B-PS, B-LC, B-OG, B-CV
-5	##n	O	O	O, I-PS, I-CV, I-LC, I-OG
-6	##g	O	O	O, I-PS, I-LC, I-CV, I-TM
-7	*	O	O	O, I-PS, I-LC, I-TM, I-CV
-8	*	O	O	O, I-PS, I-LC, I-TM, B-PS
-9	은	O	O	O, B-PS, I-PS, B-CV, I-QT
-10	“	O	O	O, B-PS, B-CV, B-LC, B-QT
-11	‘	O	O	O, B-PS, B-CV, B-LC, B-OG
-12	안보	O	O	O, B-CV, B-PS, B-LC, B-FD
-13	’	O	O	O, B-PS, I-CV, B-CV, I-EV
-14	에	O	O	O, B-PS, B-CV, B-QT, B-LC
-15	군인	B-CV	B-CV	B-CV, O, B-OG, I-CV, B-AF
-16	##들	O	O	O, I-CV, B-PS, B-CV, I-OG
-17	##만	O	O	O, B-PS, B-QT, B-CV, B-LC
-18	채운	O	O	O, B-PS, B-CV, B-LC, B-OG
-19	이전	O	O	O, B-PS, B-CV, B-OG, B-LC
-20	인사	O	O	O, B-CV, I-CV, B-PS, B-FD
-21	##와	O	O	O, I-CV, B-PS, B-CV, I-EV
-22	차원	O	O	O, B-PS, B-CV, B-LC, B-OG
-23	##이	O	O	O, B-PS, I-PS, B-OG, B-CV
-24	다르	O	O	O, B-PS, I-PS, B-LC, B-CV
-25	##다	O	O	O, B-PS, I-PS, B-CV, B-LC
-26	”	O	O	O, B-CV, B-PS, I-OG, B-QT
-27	고	O	O	O, B-CV, B-PS, B-QT, I-CV
-28	했	O	O	O, B-PS, B-CV, B-QT, B-OG
-29	##고	O	O	O, B-PS, I-CV, I-QT, I-PS
-30	,	O	O	O, B-CV, B-PS, B-LC, B-OG
-31	도선	O	B-PS	B-PS, O, B-OG, B-LC, B-CV
-32	*	O	O	O, I-PS, I-LC, I-OG, I-CV
-33	은	O	O	O, B-PS, I-PS, I-CV, I-QT
-34	“	O	O	O, B-PS, B-CV, B-LC, I-CV
-35	예전	O	O	O, B-PS, B-CV, B-LC, B-OG
-36	정권	O	O	O, B-CV, B-PS, B-OG, I-PS
-37	##은	O	O	O, B-PS, B-CV, I-CV, I-PS
-38	공신	O	O	O, B-CV, B-PS, I-CV, B-OG
-39	##들	O	O	O, I-CV, B-PS, I-PS, I-OG
-40	한자	B-QT	B-QT	B-QT, O, B-TM, B-CV, B-DT
-41	##리	I-QT	I-QT	I-QT, O, I-LC, I-PS, I-CV
-42	챙겨	O	O	O, I-QT, B-PS, B-CV, B-LC
-43	##준다	O	O	O, B-PS, B-CV, I-QT, I-CV
-44	##는	O	O	O, B-PS, I-PS, B-CV, I-QT
-45	느낌	O	O	O, B-PS, B-CV, B-QT, B-LC
-46	##이	O	O	O, B-PS, B-CV, B-OG, B-LC
-47	##었	O	O	O, B-PS, B-CV, B-OG, B-LC
-48	##는데	O	O	O, B-PS, B-CV, B-LC, B-QT
-49	이번	O	O	O, B-PS, B-CV, B-LC, B-OG
-50	인사	O	O	O, B-CV, B-PS, I-CV, B-EV
-51	##는	O	O	O, B-PS, I-CV, B-CV, I-EV
-52	큰	O	O	O, B-PS, B-CV, B-QT, B-FD
-53	그림	O	O	O, B-PS, B-CV, B-FD, B-QT
-54	##에	O	O	O, B-PS, B-CV, I-PS, I-CV
-55	조각	O	O	O, B-CV, B-PS, B-QT, B-FD
-56	##들	O	O	O, B-PS, I-CV, I-PS, I-QT
-57	##을	O	O	O, B-PS, B-CV, B-LC, B-QT
-58	맞추	O	O	O, B-PS, B-CV, B-LC, B-QT
-59	##는	O	O	O, B-PS, B-CV, B-LC, B-QT
-60	실용	O	O	O, B-PS, B-CV, B-QT, B-FD
-61	##적인	O	O	O, B-PS, I-PS, I-QT, I-CV
-62	느낌	O	O	O, B-PS, B-CV, B-QT, B-LC
-63	”	O	O	O, B-CV, B-PS, I-CV, I-QT
-64	이라	O	O	O, B-PS, B-CV, B-OG, B-LC
-65	##며	O	O	O, B-PS, I-QT, I-CV, B-LC
-66	이번	O	O	O, B-PS, B-CV, B-LC, B-OG
-67	인선	O	O	O, B-CV, B-PS, B-OG, B-EV
-68	##을	O	O	O, I-CV, B-PS, B-CV, I-OG
-69	긍정	O	O	O, B-CV, B-PS, B-TM, B-QT
-70	##적으로	O	O	O, I-QT, I-CV, I-TR, I-TM
-71	평가	O	O	O, I-QT, B-PS, I-CV, B-CV
-72	##했	O	O	O, B-PS, B-CV, I-CV, I-QT
-73	##다	O	O	O, B-CV, B-TM, I-CV, I-OG
-74	.	O	O	O, B-PS, B-CV, B-LC, B-OG
-75	[SEP]	O	O	O, B-CV, B-PS, B-LC, I-QT
+	text	label	preds
+0	[CLS]	O	O
+1	그리스	B-LC	B-LC
+2	##에	O	O
+3	비하	O	O
+4	##면	O	O
+5	공무원	O	B-CV
+6	##단체	O	O
+7	건전	O	O
+8	##하	O	O
+9	##다	O	O
+10	”	O	O
+11	며	O	O
+12	“	O	O
+13	다만	O	O
+14	국민	B-CV	B-CV
+15	##의	O	O
+16	시선	O	O
+17	##이	O	O
+18	왜	O	O
+19	차가운	O	O
+20	##지	O	O
+21	반성	O	O
+22	##해야	O	O
+23	한다	O	O
+24	.	O	O
+25	[SEP]	O	O

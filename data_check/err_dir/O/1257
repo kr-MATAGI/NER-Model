@@ -1,19 +1,63 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-EV
-1	佛	O	B-LC	B-LC, B-OG, O, B-PS, B-CV
-2	경찰	B-OG	B-OG	B-OG, I-OG, O, B-CV, B-LC
-3	,	O	O	O, I-OG, I-AF, I-CV, I-EV
-4	15	B-TI	B-TI	B-TI, B-EV, O, B-QT, B-TR
-5	##분	I-TI	I-TI	I-TI, B-TI, O, I-EV, I-TR
-6	간격	O	O	O, I-TI, I-QT, B-LC, B-TM
-7	##으로	O	O	O, B-LC, B-PS, B-OG, B-CV
-8	형제	B-CV	B-CV	B-CV, O, B-AF, B-TM, B-PS
-9	테러	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-AF
-10	##범	I-CV	I-CV	I-CV, O, B-CV, I-TM, I-AM
-11	##과	O	O	O, I-CV, B-CV, I-OG, I-EV
-12	식품	O	O	O, B-CV, B-EV, B-LC, B-TM
-13	##점	O	O	O, I-CV, B-CV, I-EV, I-LC
-14	인질	B-CV	O	O, B-CV, B-EV, I-CV, B-LC
-15	##극	O	O	O, I-CV, I-EV, B-CV, B-EV
-16	진압	O	O	O, I-EV, B-LC, B-CV, B-OG
-17	[SEP]	O	O	O, B-LC, B-CV, I-EV, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	12	B-DT	B-DT
+2	##월	I-DT	I-DT
+3	8	I-DT	I-DT
+4	##일	I-DT	I-DT
+5	##부터	I-DT	I-DT
+6	매주	O	O
+7	목요일	B-DT	B-DT
+8	4	B-QT	B-QT
+9	##차례	I-QT	I-QT
+10	연	O	B-AF
+11	##낙	O	I-AF
+12	##재	O	I-AF
+13	세미나	O	O
+14	##실	O	O
+15	##에	O	O
+16	##서	O	O
+17	열리	O	O
+18	##는	O	O
+19	‘	O	O
+20	영상	O	B-EV
+21	##으로	O	I-EV
+22	만나	O	I-EV
+23	##는	O	I-EV
+24	최승	B-PS	I-EV
+25	##희	I-PS	I-EV
+26	##의	O	I-EV
+27	삶	O	I-EV
+28	##과	O	I-EV
+29	예술	O	I-EV
+30	’	O	O
+31	행사	O	O
+32	##에	O	O
+33	##선	O	O
+34	월	O	O
+35	##북	O	O
+36	이후	O	O
+37	##인	O	O
+38	1954	B-DT	B-DT
+39	##년	I-DT	I-DT
+40	최승	B-PS	B-PS
+41	##희	I-PS	I-PS
+42	##가	O	O
+43	안무	O	O
+44	##한	O	O
+45	무용	O	B-FD
+46	##극	O	I-FD
+47	‘	O	O
+48	사도	O	B-AF
+49	##성	O	I-AF
+50	##의	O	I-AF
+51	이야기	O	I-AF
+52	’	O	O
+53	를	O	O
+54	영상	O	O
+55	##으로	O	O
+56	만날	O	O
+57	수	O	O
+58	있	O	O
+59	##다	O	O
+60	.	O	O
+61	[SEP]	O	O

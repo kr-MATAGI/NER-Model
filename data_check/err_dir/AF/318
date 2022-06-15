@@ -1,26 +1,52 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-AF
-1	'	O	O	O, B-PS, B-CV, B-LC, B-OG
-2	집	B-AF	O	O, B-CV, B-PS, B-AF, B-EV
-3	##밥	I-AF	O	O, I-CV, I-PS, I-AF, I-TM
-4	백	I-AF	B-PS	B-PS, B-CV, O, I-PS, B-QT
-5	##선	I-AF	I-CV	I-CV, B-CV, I-PS, O, I-QT
-6	##생	I-AF	I-CV	I-CV, O, I-PS, I-QT, B-CV
-7	'	O	O	O, I-CV, B-PS, I-QT, B-CV
-8	에	O	O	O, B-PS, B-CV, B-OG, B-LC
-9	대한	O	O	O, B-PS, B-LC, B-CV, B-OG
-10	시시	O	O	O, B-PS, B-CV, B-AF, B-TM
-11	##비	O	O	O, I-PS, I-AF, B-PS, I-CV
-12	##비	O	O	O, I-PS, I-AF, I-CV, I-TM
-13	##는	O	O	O, B-PS, B-CV, I-PS, B-OG
-14	이	O	O	O, B-PS, B-QT, B-TR, B-CV
-15	프로	O	B-CV	B-CV, O, I-CV, B-PS, I-PS
-16	##에	O	O	O, I-CV, B-CV, I-QT, I-AF
-17	대한	O	O	O, B-PS, B-LC, B-OG, B-TM
-18	기대치	O	O	O, B-CV, B-PS, B-OG, B-TM
-19	##에서	O	O	O, B-CV, B-PS, B-OG, B-TM
-20	비롯	O	O	O, B-CV, B-PS, B-TM, B-OG
-21	##된	O	O	O, B-CV, B-PS, I-OG, I-AF
-22	##다	O	O	O, B-CV, I-OG, B-OG, B-TM
-23	.	O	O	O, B-PS, B-CV, B-LC, B-OG
-24	[SEP]	O	O	O, B-CV, B-PS, B-LC, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	박수	B-PS	B-PS
+2	##현	I-PS	I-PS
+3	청와대	B-AF	B-OG
+4	대변인	B-CV	B-CV
+5	##은	O	O
+6	이날	B-DT	B-DT
+7	브리핑	O	O
+8	##에	O	O
+9	##서	O	O
+10	“	O	O
+11	3	B-DT	B-DT
+12	##일	I-DT	I-DT
+13	민정	O	B-OG
+14	##비	O	I-OG
+15	##서관	O	I-OG
+16	##실	O	I-OG
+17	공간	O	O
+18	##을	O	O
+19	재배치	O	O
+20	##하	O	O
+21	##던	O	O
+22	중	O	O
+23	한	O	O
+24	캐	O	O
+25	##비	O	O
+26	##닛	O	O
+27	##에	O	O
+28	##서	O	O
+29	이전	O	O
+30	정부	B-OG	B-OG
+31	민정	O	B-OG
+32	##비	O	I-OG
+33	##서관	O	I-OG
+34	##실	O	I-OG
+35	##에	O	O
+36	##서	O	O
+37	생산	O	O
+38	##한	O	O
+39	문건	O	O
+40	##을	O	O
+41	발견	O	O
+42	##했	O	O
+43	##다	O	O
+44	”	O	O
+45	고	O	O
+46	말	O	O
+47	##했	O	O
+48	##다	O	O
+49	.	O	O
+50	[SEP]	O	O

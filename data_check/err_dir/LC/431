@@ -1,20 +1,37 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-QT
-1	중소기업	B-OG	B-OG	B-OG, O, B-LC, I-OG, B-AF
-2	##중	I-OG	I-OG	I-OG, O, I-CV, I-EV, B-OG
-3	##앙	I-OG	I-OG	I-OG, O, I-CV, I-EV, I-QT
-4	##회	I-OG	I-OG	I-OG, O, I-CV, I-QT, I-EV
-5	##가	O	O	O, I-OG, I-QT, B-CV, I-EV
-6	‘	O	O	O, B-OG, B-AF, B-LC, B-CV
-7	제	B-QT	B-QT	B-QT, B-OG, I-OG, B-AF, I-QT
-8	##2	I-QT	I-QT	I-QT, I-OG, I-AF, B-QT, I-LC
-9	##개	B-LC	I-OG	I-OG, I-QT, B-OG, O, I-AF
-10	##성	I-LC	I-OG	I-OG, I-QT, O, B-OG, I-AF
-11	##공단	I-LC	I-OG	I-OG, I-QT, O, I-AF, I-LC
-12	’	O	O	O, I-OG, I-QT, I-AF, B-CV
-13	설립	O	O	O, B-CV, B-OG, B-TM, B-AF
-14	추진	O	O	O, B-CV, B-TM, B-OG, B-LC
-15	##에	O	O	O, B-CV, B-OG, B-LC, B-TM
-16	나선다	O	O	O, B-OG, B-LC, B-CV, B-TM
-17	.	O	O	O, B-OG, B-LC, B-CV, I-OG
-18	[SEP]	O	O	O, B-OG, B-LC, B-CV, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	시	B-PS	B-PS
+2	주석	B-CV	B-CV
+3	##은	O	O
+4	인도	B-LC	B-OG
+5	##가	O	O
+6	상하이	B-OG	B-OG
+7	##협	I-OG	I-OG
+8	##력	I-OG	I-OG
+9	##기구	I-OG	I-OG
+10	(	O	O
+11	SC	B-OG	B-OG
+12	##O	I-OG	I-OG
+13	)	O	O
+14	의	O	O
+15	옵	B-CV	B-CV
+16	##서	I-CV	I-CV
+17	##버	I-CV	I-CV
+18	##에	O	O
+19	##서	O	O
+20	정식	O	O
+21	회원국	B-CV	O
+22	##으로	O	O
+23	가입	O	O
+24	##하	O	O
+25	##는	O	O
+26	것	O	O
+27	##을	O	O
+28	지원	O	O
+29	##하	O	O
+30	##기	O	O
+31	##로	O	O
+32	했	O	O
+33	##다	O	O
+34	.	O	O
+35	[SEP]	O	O

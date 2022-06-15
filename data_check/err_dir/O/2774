@@ -1,15 +1,45 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, I-OG, B-CV, I-AF
-1	그래서	O	O	O, B-CV, B-OG, B-TM, B-LC
-2	왜	O	O	O, B-CV, B-TM, B-OG, B-LC
-3	기운	O	O	O, B-TM, B-AM, B-CV, B-LC
-4	없	O	O	O, I-TM, B-PS, I-AF, B-CV
-5	##는	O	O	O, B-PS, I-AF, B-CV, I-CV
-6	사람	O	O	O, B-CV, I-CV, I-AF, B-PS
-7	##들	O	O	O, B-CV, I-CV, B-PS, I-AF
-8	보양	O	B-CV	B-CV, O, B-TM, I-CV, B-PT
-9	##식	O	I-CV	I-CV, O, B-CV, I-TM, I-OG
-10	##이	O	O	O, I-CV, B-CV, B-PS, I-AF
-11	##라고	O	O	O, B-CV, I-CV, B-OG, I-AF
-12	그러면은	O	O	O, B-CV, B-TM, B-OG, B-LC
-13	[SEP]	O	O	O, B-CV, B-TM, I-CV, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	케이티	B-AF	B-AF
+2	##엑스	I-AF	I-AF
+3	(	O	O
+4	KTX	B-AF	B-AF
+5	)	O	O
+6	등	O	O
+7	열차	O	B-AF
+8	##는	O	O
+9	5	B-DT	B-DT
+10	##월	I-DT	I-DT
+11	한	B-DT	B-DT
+12	##달	I-DT	I-DT
+13	##간	I-DT	I-DT
+14	가족	O	O
+15	##관계	O	O
+16	##증	O	O
+17	##명	O	O
+18	##서	O	O
+19	등	O	O
+20	##을	O	O
+21	제출	O	O
+22	##한	O	O
+23	3	B-QT	B-QT
+24	##인	I-QT	I-QT
+25	이상	I-QT	I-QT
+26	가족	B-CV	B-CV
+27	##이	O	O
+28	함께	O	O
+29	이용	O	O
+30	##하면	O	O
+31	운임	O	O
+32	20	B-QT	B-QT
+33	%	I-QT	I-QT
+34	를	O	O
+35	할인	O	O
+36	##해	O	O
+37	##주	O	O
+38	##기	O	O
+39	##로	O	O
+40	했	O	O
+41	##다	O	O
+42	.	O	O
+43	[SEP]	O	O

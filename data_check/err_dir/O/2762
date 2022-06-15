@@ -1,39 +1,28 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	문수	B-AF	B-AF	B-AF, B-LC, O, B-PS, B-EV
-2	##야구	I-AF	I-AF	I-AF, B-AF, O, I-PS, I-LC
-3	##장	I-AF	I-AF	I-AF, O, I-EV, I-PS, I-LC
-4	##은	O	O	O, I-AF, I-EV, B-CV, I-OG
-5	울산시	B-OG	B-OG	B-OG, B-LC, O, B-PS, I-OG
-6	##가	O	O	O, I-OG, B-PS, B-OG, I-LC
-7	450	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-OG
-8	##억	I-QT	I-QT	I-QT, O, I-LC, I-PS, I-OG
-9	##원	I-QT	I-QT	I-QT, O, I-LC, I-PS, I-OG
-10	##을	O	O	O, I-QT, B-CV, B-OG, I-OG
-11	들여	O	O	O, B-TM, B-CV, B-LC, B-AF
-12	관람	O	O	O, B-TM, B-CV, B-AF, B-QT
-13	##석	O	O	O, I-CV, B-CV, B-TM, I-TM
-14	1	B-QT	B-QT	B-QT, O, I-QT, B-PS, B-DT
-15	##만	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-16	##20	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-17	##88	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-18	##석	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-19	(	O	O	O, I-QT, B-CV, B-OG, I-OG
-20	내야	O	B-TM	B-TM, O, B-CV, B-AM, B-TR
-21	스탠드	O	O	O, I-TM, B-TM, I-CV, B-CV
-22	80	B-QT	B-QT	B-QT, I-QT, O, I-TM, B-DT
-23	##88	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-TM
-24	##석	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-25	,	O	O	O, I-QT, I-AF, B-CV, I-OG
-26	외야	O	B-TM	B-TM, O, B-CV, B-AM, B-AF
-27	잔디	B-PT	B-PT	B-PT, O, I-PT, B-CV, I-TM
-28	4000	B-QT	B-QT	B-QT, I-QT, O, I-PT, B-PT
-29	##석	I-QT	I-QT	I-QT, O, I-LC, I-TM, B-QT
-30	)	O	O	O, I-QT, I-OG, B-CV, I-CV
-31	규모	O	O	O, B-CV, B-TM, B-OG, B-LC
-32	##로	O	O	O, B-CV, B-OG, B-TM, B-LC
-33	지	O	O	O, B-CV, B-AF, B-PS, B-QT
-34	##었	O	O	O, B-CV, B-PS, B-OG, B-LC
-35	##다	O	O	O, B-CV, I-OG, B-TM, B-LC
-36	.	O	O	O, B-LC, B-CV, B-TM, B-OG
-37	[SEP]	O	O	O, B-CV, B-LC, B-TM, B-AF
+	text	label	preds
+0	[CLS]	O	O
+1	꽃	O	B-EV
+2	##전	O	I-EV
+3	##시	O	I-EV
+4	##회	O	I-EV
+5	기간	O	O
+6	##에	O	O
+7	노래	O	O
+8	##하	O	O
+9	##는	O	O
+10	분수	O	O
+11	##대	O	O
+12	##는	O	O
+13	매일	O	O
+14	저녁	B-TI	B-TI
+15	7	I-TI	I-TI
+16	##시	I-TI	I-TI
+17	##30	I-TI	I-TI
+18	##분	I-TI	I-TI
+19	~	I-TI	I-TI
+20	8	I-TI	I-TI
+21	##시	I-TI	I-TI
+22	##30	I-TI	I-TI
+23	##분	I-TI	I-TI
+24	열린다	O	O
+25	.	O	O
+26	[SEP]	O	O

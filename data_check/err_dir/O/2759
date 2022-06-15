@@ -1,11 +1,28 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	그리고	O	O	O, B-CV, B-QT, B-TM, B-OG
-2	꿀	O	B-CV	B-CV, O, I-CV, B-OG, B-TM
-3	##은	O	O	O, I-CV, B-CV, I-OG, I-AF
-4	항상	O	O	O, B-CV, B-PS, B-QT, I-CV
-5	쪼금	O	O	O, B-CV, B-QT, B-OG, B-PS
-6	들어가	O	O	O, B-CV, B-OG, B-PS, B-LC
-7	##요	O	O	O, B-CV, B-OG, I-CV, I-OG
-8	.	O	O	O, B-CV, B-OG, I-OG, B-LC
-9	[SEP]	O	O	O, B-CV, B-OG, B-LC, I-CV
+	text	label	preds
+0	[CLS]	O	O
+1	사상	B-LC	B-LC
+2	##구	I-LC	I-LC
+3	##에	O	O
+4	##서는	O	O
+5	19	B-QT	B-QT
+6	##대	I-QT	I-QT
+7	총선	B-DT	B-DT
+8	때	I-DT	I-DT
+9	문재인	B-PS	B-PS
+10	대표	B-CV	B-CV
+11	##와	O	O
+12	붙	O	O
+13	##었	O	O
+14	##던	O	O
+15	손수	B-PS	B-PS
+16	##조	I-PS	I-PS
+17	예비	O	B-CV
+18	##후	B-CV	I-CV
+19	##보	I-CV	I-CV
+20	##가	O	O
+21	뛰	O	O
+22	##고	O	O
+23	있	O	O
+24	##다	O	O
+25	.	O	O
+26	[SEP]	O	O

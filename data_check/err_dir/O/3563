@@ -1,16 +1,43 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	무디스	B-OG	B-OG	B-OG, O, B-PS, I-OG, B-AF
-2	-	O	O	O, I-OG, I-CV, I-AF, I-PS
-3	S	O	B-OG	B-OG, O, I-OG, B-CV, B-PS
-4	&	O	I-OG	I-OG, O, I-CV, I-AF, I-QT
-5	P	O	I-OG	I-OG, O, I-CV, I-QT, I-AF
-6	##등	O	O	O, I-OG, I-CV, B-PS, I-PS
-7	국가	O	O	O, B-CV, B-QT, B-FD, B-LC
-8	##신	O	O	O, B-CV, I-CV, B-FD, B-PS
-9	##용	O	O	O, I-CV, I-OG, B-PS, I-QT
-10	##등	O	O	O, B-CV, I-CV, B-PS, B-QT
-11	##급	O	O	O, I-CV, I-OG, B-PS, B-CV
-12	하락	O	O	O, B-CV, B-TM, B-PS, B-LC
-13	경고	O	O	O, B-CV, B-PS, B-OG, B-TM
-14	[SEP]	O	O	O, B-CV, I-CV, I-OG, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	홍콩	B-LC	B-LC
+2	자치	O	O
+3	##를	O	O
+4	주장	O	O
+5	##하	O	O
+6	##는	O	O
+7	범	O	O
+8	##민주	O	O
+9	##파	O	O
+10	성향	O	O
+11	의원	B-CV	B-CV
+12	27	B-QT	B-QT
+13	##명	I-QT	I-QT
+14	##은	O	O
+15	“	O	O
+16	선거	O	B-OG
+17	##안	O	I-OG
+18	##이	O	O
+19	홍콩	B-CV	B-CV
+20	##인	I-CV	I-CV
+21	##들의	O	O
+22	진정	O	O
+23	##한	O	O
+24	행정	B-CV	B-CV
+25	##장	I-CV	I-CV
+26	##관	I-CV	I-CV
+27	선택	O	O
+28	##권	O	O
+29	##을	O	O
+30	침해	O	O
+31	##한다	O	O
+32	”	O	O
+33	며	O	O
+34	반대	O	O
+35	##할	O	O
+36	뜻	O	O
+37	##을	O	O
+38	나타냈	O	O
+39	##다	O	O
+40	.	O	O
+41	[SEP]	O	O

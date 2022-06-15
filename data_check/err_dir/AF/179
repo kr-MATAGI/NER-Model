@@ -1,45 +1,55 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	‘	O	O	O, B-CV, B-LC, B-OG, B-PS
-2	정의	B-AF	O	O, B-AF, B-TR, B-FD, B-EV
-3	##란	I-AF	O	O, I-AF, I-TR, I-EV, I-FD
-4	무엇	I-AF	O	O, I-AF, I-TR, I-EV, I-FD
-5	##인	I-AF	O	O, I-AF, I-TR, I-EV, I-FD
-6	##가	I-AF	O	O, I-AF, I-TR, I-EV, I-OG
-7	’	O	O	O, I-AF, I-EV, I-OG, I-TR
-8	열풍	O	O	O, B-CV, B-PS, B-EV, I-EV
-9	##을	O	O	O, B-CV, B-PS, B-OG, I-EV
-10	불러온	O	O	O, B-PS, B-LC, B-CV, B-OG
-11	마이클	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-12	샌	I-PS	I-PS	I-PS, B-PS, O, I-OG, I-LC
-13	##델	I-PS	I-PS	I-PS, O, I-OG, B-PS, I-LC
-14	하버드대	B-OG	B-OG	B-OG, B-LC, B-AF, I-PS, O
-15	교수	B-CV	B-CV	B-CV, O, I-CV, I-OG, B-OG
-16	##가	O	O	O, I-CV, B-CV, I-OG, B-PS
-17	정의	O	O	O, B-FD, B-CV, B-TR, I-CV
-18	##와	O	O	O, B-PS, B-CV, I-CV, I-AF
-19	윤리	O	O	O, B-FD, B-CV, I-FD, B-TR
-20	##문제	O	O	O, I-FD, I-CV, B-FD, I-TR
-21	##를	O	O	O, B-CV, I-CV, B-PS, B-TM
-22	제기	O	O	O, B-CV, B-TM, B-LC, B-FD
-23	##할	O	O	O, B-CV, B-PS, B-LC, B-TM
-24	때	O	O	O, B-CV, B-PS, B-QT, B-TM
-25	자주	O	O	O, B-CV, B-PS, B-TM, B-QT
-26	드	O	O	O, B-CV, B-PS, B-TM, B-LC
-27	##는	O	O	O, B-CV, B-TM, B-PS, B-LC
-28	사례	O	O	O, B-CV, B-FD, B-PS, B-TM
-29	##가	O	O	O, B-PS, B-CV, B-LC, B-OG
-30	실제	O	O	O, B-CV, B-PS, B-LC, B-AF
-31	‘	O	O	O, B-CV, B-PS, B-LC, B-AF
-32	대리	B-CV	B-CV	B-CV, O, I-CV, B-AF, B-TM
-33	##모	I-CV	I-CV	I-CV, O, B-CV, I-AF, I-TM
-34	(	O	O	O, I-CV, I-AF, I-OG, B-CV
-35	代	O	O	O, B-PS, B-LC, B-CV, I-CV
-36	理	O	O	O, B-PS, B-LC, B-CV, I-CV
-37	母	O	O	O, B-PS, B-LC, B-CV, I-PS
-38	)	O	O	O, B-PS, B-LC, B-CV, I-CV
-39	’	O	O	O, B-CV, B-PS, B-LC, B-AF
-40	사연	O	O	O, B-CV, B-PS, B-LC, B-AF
-41	##이다	O	O	O, B-CV, I-CV, B-PS, B-LC
-42	.	O	O	O, B-PS, B-CV, B-LC, B-FD
-43	[SEP]	O	O	O, B-CV, B-PS, B-FD, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	저우	B-PS	B-OG
+2	##젠	I-PS	I-OG
+3	##핑	I-PS	I-OG
+4	##에	O	O
+5	따르	O	O
+6	##면	O	O
+7	중국	B-OG	B-OG
+8	##은	O	O
+9	내년	B-DT	B-DT
+10	실험	O	O
+11	##용	O	O
+12	우주	O	B-LC
+13	##정	O	O
+14	##거	O	O
+15	##장	O	O
+16	##인	O	O
+17	'	O	O
+18	톈	B-AF	B-AF
+19	##궁	I-AF	I-AF
+20	2	I-AF	B-QT
+21	##호	I-AF	I-QT
+22	'	O	O
+23	를	O	O
+24	쏘	O	O
+25	##아	O	O
+26	올린	O	O
+27	뒤	O	O
+28	유인	O	O
+29	우주선	B-AF	B-AF
+30	'	O	O
+31	선	B-AF	B-AF
+32	##저우	I-AF	I-AF
+33	11	I-AF	B-QT
+34	##호	I-AF	I-QT
+35	'	O	O
+36	를	O	O
+37	발사	O	O
+38	##해	O	O
+39	톈	B-AF	B-AF
+40	##궁	I-AF	I-AF
+41	2	I-AF	B-QT
+42	##호	I-AF	I-QT
+43	##와	O	O
+44	도	O	O
+45	##킹	O	O
+46	##을	O	O
+47	시도	O	O
+48	##한다	O	O
+49	##는	O	O
+50	계획	O	O
+51	##이다	O	O
+52	.	O	O
+53	[SEP]	O	O

@@ -1,29 +1,24 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	수박	B-CV	B-PT	B-PT, B-CV, O, B-EV, B-OG
-2	당도	O	O	O, I-CV, I-OG, B-CV, I-EV
-3	##는	O	O	O, B-CV, B-TM, B-PS, B-LC
-4	물론	O	O	O, B-TM, B-CV, B-OG, B-LC
-5	##이	O	O	O, B-PS, B-CV, B-OG, B-LC
-6	##고	O	O	O, B-CV, B-PS, B-LC, B-OG
-7	폭탄	B-CV	B-CV	B-CV, O, B-AF, I-CV, B-OG
-8	##주	I-CV	I-CV	I-CV, O, B-CV, I-AF, I-OG
-9	도수	O	O	O, I-CV, B-QT, B-TM, I-AF
-10	##를	O	O	O, B-CV, B-TM, B-PS, B-LC
-11	직접	O	O	O, B-CV, B-TM, B-LC, B-QT
-12	맛보	O	O	O, B-CV, B-TM, B-LC, B-QT
-13	##지	O	O	O, B-LC, B-PS, B-CV, B-TM
-14	않	O	O	O, B-LC, B-CV, B-PS, B-TM
-15	##고	O	O	O, B-PS, B-LC, I-QT, B-TM
-16	##도	O	O	O, B-CV, B-LC, B-TM, B-PS
-17	알아낼	O	O	O, B-CV, B-TM, B-LC, B-OG
-18	수	O	O	O, B-CV, B-TM, B-LC, B-PS
-19	있	O	O	O, B-CV, B-LC, B-TM, B-OG
-20	##는	O	O	O, B-CV, B-OG, B-LC, B-PS
-21	기술	O	O	O, B-CV, B-LC, B-TM, B-FD
-22	##이	O	O	O, B-CV, B-PS, B-OG, B-LC
-23	개발	O	O	O, B-CV, B-TM, B-LC, B-OG
-24	##됐	O	O	O, B-CV, I-OG, I-CV, I-EV
-25	##다	O	O	O, B-CV, B-TM, I-OG, B-LC
-26	.	O	O	O, B-CV, B-LC, B-PS, B-OG
-27	[SEP]	O	O	O, B-CV, B-LC, I-EV, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	[	O	O
+2	CEO	B-CV	O
+3	&	O	O
+4	]	O	O
+5	㈜	B-OG	B-OG
+6	##도	I-OG	I-OG
+7	##스코	I-OG	I-OG
+8	,	O	O
+9	35	B-DT	B-DT
+10	##년	I-DT	I-DT
+11	외	O	O
+12	##길	O	O
+13	…	O	O
+14	고품질	O	O
+15	특수강	O	O
+16	·	O	O
+17	열	O	O
+18	##처리	O	O
+19	‘	O	O
+20	메카	O	O
+21	’	O	O
+22	[SEP]	O	O

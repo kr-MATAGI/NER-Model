@@ -1,66 +1,54 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-QT
-1	이	O	O	O, B-OG, B-LC, B-PS, B-CV
-2	##에	O	O	O, B-CV, B-OG, B-LC, I-OG
-3	따라	O	O	O, B-LC, B-OG, B-PS, B-CV
-4	북한	B-OG	B-LC	B-LC, B-OG, O, B-PS, B-AF
-5	##의	O	O	O, I-OG, I-LC, B-LC, I-AF
-6	핵	O	B-AF	B-AF, O, I-AF, B-MT, B-PS
-7	##과	O	O	O, I-AF, I-OG, B-TM, B-CV
-8	미사일	B-AF	B-AF	B-AF, O, I-AF, B-MT, B-PS
-9	##을	O	O	O, I-AF, I-OG, B-CV, B-LC
-10	최대한	O	O	O, B-LC, B-TM, B-QT, B-PS
-11	차단	O	O	O, B-TM, B-LC, B-CV, B-PS
-12	·	O	O	O, B-PS, I-LC, B-LC, I-QT
-13	억제	O	O	O, B-LC, B-CV, B-PS, B-TM
-14	##한다	O	O	O, B-LC, B-PS, B-OG, B-CV
-15	##는	O	O	O, B-PS, B-LC, B-OG, B-CV
-16	계획	O	O	O, B-CV, B-PS, B-LC, B-TM
-17	##에	O	O	O, B-CV, B-PS, B-OG, B-LC
-18	따라	O	O	O, B-LC, B-OG, B-PS, B-TM
-19	고고	O	B-AF	B-AF, O, B-LC, B-TM, I-AF
-20	##도	O	I-AF	I-AF, O, I-TM, I-LC, I-OG
-21	무인	B-AF	B-AF	B-AF, I-AF, O, B-CV, B-TM
-22	##정	I-AF	I-AF	I-AF, O, B-AF, I-TM, I-CV
-23	##찰	I-AF	I-AF	I-AF, O, B-AF, I-TM, I-CV
-24	##기	I-AF	I-AF	I-AF, O, I-TM, I-CV, I-QT
-25	,	O	O	O, I-AF, I-CV, I-OG, I-QT
-26	탄도	O	B-AF	B-AF, O, I-AF, B-LC, B-TM
-27	##탄	O	I-AF	I-AF, O, B-AF, I-TM, I-LC
-28	조기	O	O	O, I-AF, I-TM, B-TM, B-CV
-29	##경	O	O	O, I-AF, I-TM, B-TM, I-LC
-30	##보	O	O	O, I-AF, I-TM, I-LC, I-CV
-31	레이더	B-AF	B-AF	B-AF, O, B-TM, I-AF, I-TM
-32	,	O	O	O, I-AF, I-TM, I-QT, I-CV
-33	해상	O	B-AF	B-AF, O, I-AF, B-LC, B-CV
-34	##요	O	I-AF	I-AF, O, B-AF, I-CV, I-LC
-35	##격	O	I-AF	I-AF, O, I-CV, I-LC, I-OG
-36	유도	B-AF	I-AF	I-AF, B-AF, O, I-TM, I-CV
-37	##탄	I-AF	I-AF	I-AF, O, B-AF, I-TM, I-CV
-38	,	O	O	O, I-AF, I-CV, I-QT, I-OG
-39	핵	O	B-AF	B-AF, O, B-MT, I-AF, B-PS
-40	##폭	O	O	O, I-AF, B-CV, I-CV, I-EV
-41	##발	O	O	O, I-AF, I-CV, I-LC, I-EV
-42	때	O	O	O, I-AF, I-LC, I-DT, B-PS
-43	발생	O	O	O, B-TM, B-LC, B-CV, B-OG
-44	##하	O	O	O, B-TM, B-LC, B-OG, B-AF
-45	##는	O	O	O, B-TM, B-AF, B-LC, B-OG
-46	전자	O	B-TM	B-TM, O, B-AF, B-MT, B-TR
-47	##기	O	I-TM	I-TM, O, I-AF, I-MT, I-TR
-48	##펄	O	I-TM	I-TM, O, I-AF, I-MT, I-TR
-49	##스	O	I-TM	I-TM, O, I-AF, I-MT, I-TR
-50	(	O	O	O, I-TM, I-AF, I-QT, B-LC
-51	EM	O	O	O, B-AF, B-TM, B-MT, B-LC
-52	##P	O	O	O, I-TM, I-AF, I-MT, I-TR
-53	)	O	O	O, I-TM, I-AF, I-LC, I-OG
-54	방호	O	O	O, B-TM, B-CV, B-AF, B-MT
-55	시스템	O	O	O, I-TM, I-AF, I-CV, B-TM
-56	등	O	O	O, B-LC, I-TM, B-CV, I-AF
-57	##을	O	O	O, B-CV, B-LC, B-OG, B-TM
-58	도입	O	O	O, B-CV, B-LC, B-OG, B-TM
-59	##하기	O	O	O, B-LC, B-OG, B-CV, B-PS
-60	##로	O	O	O, B-OG, B-CV, I-OG, B-LC
-61	했	O	O	O, B-OG, B-LC, B-CV, B-PS
-62	##다	O	O	O, B-CV, B-LC, B-OG, I-OG
-63	.	O	O	O, B-LC, B-AF, B-PS, B-OG
-64	[SEP]	O	O	O, B-LC, I-AF, B-AF, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	신한	B-OG	B-OG
+2	##카드	I-OG	I-OG
+3	##의	O	O
+4	'	O	O
+5	GS	B-AF	B-AF
+6	##칼	I-AF	I-OG
+7	##텍스	I-AF	I-AF
+8	샤인	I-AF	B-AF
+9	##카드	I-AF	I-AF
+10	'	O	O
+11	와	O	O
+12	'	O	O
+13	SK	B-AF	B-AF
+14	##에	I-AF	I-AF
+15	##너지	I-AF	I-AF
+16	오일	I-AF	B-AF
+17	##링	I-AF	I-AF
+18	##카드	I-AF	I-AF
+19	'	O	O
+20	는	O	O
+21	전달	B-DT	B-DT
+22	카드	O	O
+23	##결제	O	O
+24	금액	O	O
+25	##이	O	O
+26	30	B-QT	B-QT
+27	##만	I-QT	I-QT
+28	##원	I-QT	I-QT
+29	이상	I-QT	I-QT
+30	##이	O	O
+31	##면	O	O
+32	월	O	O
+33	1	B-QT	B-QT
+34	##만	I-QT	I-QT
+35	##원	I-QT	I-QT
+36	이내	I-QT	I-QT
+37	##에	O	O
+38	##서	O	O
+39	택시	O	O
+40	##요금	O	O
+41	##을	O	O
+42	5	B-QT	B-QT
+43	~	I-QT	I-QT
+44	7	I-QT	I-QT
+45	%	I-QT	I-QT
+46	청구	O	O
+47	##할	O	O
+48	##인	O	O
+49	##해	O	O
+50	준다	O	O
+51	.	O	O
+52	[SEP]	O	O

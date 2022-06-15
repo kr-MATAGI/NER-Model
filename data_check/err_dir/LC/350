@@ -1,23 +1,16 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-QT
-1	그리고	O	O	O, B-CV, B-LC, B-TM, B-QT
-2	9	B-DT	B-DT	B-DT, I-DT, O, B-QT, B-OG
-3	##월	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-OG
-4	##부터	I-DT	I-DT	I-DT, O, B-DT, I-OG, I-QT
-5	##는	O	O	O, I-DT, B-CV, I-OG, B-OG
-6	전국	B-OG	B-OG	B-OG, O, B-AF, B-LC, B-EV
-7	##언	I-OG	I-OG	I-OG, O, B-OG, I-AF, I-LC
-8	##론	I-OG	I-OG	I-OG, O, I-AF, I-LC, I-EV
-9	##노조	I-OG	I-OG	I-OG, O, I-AF, I-LC, I-EV
-10	한국	B-LC	B-OG	B-OG, I-OG, B-AF, O, B-LC
-11	##방송	O	I-OG	I-OG, O, I-AF, I-LC, I-CV
-12	계약직	B-CV	B-CV	B-CV, O, I-CV, I-OG, B-OG
-13	##지부	I-CV	I-CV	I-CV, B-CV, O, I-OG, I-QT
-14	##장	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-QT
-15	##을	O	O	O, I-CV, I-OG, I-QT, B-CV
-16	맡	O	O	O, B-CV, B-TM, B-LC, B-OG
-17	##고	O	O	O, B-CV, B-PS, I-CV, I-OG
-18	있	O	O	O, B-CV, B-PS, I-OG, B-LC
-19	##다	O	O	O, B-CV, B-LC, I-OG, B-TM
-20	.	O	O	O, B-OG, B-LC, I-OG, B-CV
-21	[SEP]	O	O	O, I-OG, B-OG, B-CV, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	그런데	O	O
+2	북한	B-LC	B-OG
+3	##의	O	O
+4	4	B-QT	B-QT
+5	##차	I-QT	I-QT
+6	핵실험	O	O
+7	##이	O	O
+8	찬물	O	O
+9	##을	O	O
+10	끼얹	O	O
+11	##었	O	O
+12	##다	O	O
+13	.	O	O
+14	[SEP]	O	O

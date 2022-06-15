@@ -1,26 +1,32 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-AF
-1	‘	O	O	O, B-CV, B-PS, B-LC, B-QT
-2	코트	B-TM	B-TM	B-TM, O, B-AF, B-PS, B-LC
-3	##의	O	O	O, I-PS, B-PS, I-AF, I-TM
-4	신사	O	I-PS	I-PS, O, B-CV, B-PS, I-AF
-5	’	O	O	O, I-PS, I-CV, I-AF, B-CV
-6	안	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-7	##준호	I-PS	I-PS	I-PS, O, I-OG, B-PS, I-LC
-8	삼성	B-OG	B-OG	B-OG, B-LC, O, I-PS, I-OG
-9	감독	B-CV	B-CV	B-CV, O, I-CV, I-OG, I-PS
-10	##은	O	O	O, I-CV, I-OG, B-CV, I-AF
-11	초반	O	B-TI	B-TI, O, B-QT, I-TI, B-EV
-12	7	B-QT	B-QT	B-QT, I-QT, O, B-TI, I-TI
-13	##위	I-QT	I-QT	I-QT, O, I-TI, I-EV, I-TM
-14	성적표	O	O	O, I-QT, B-CV, I-EV, B-TM
-15	##가	O	O	O, B-OG, B-PS, B-CV, B-LC
-16	마음	O	O	O, B-CV, B-TM, B-OG, B-AF
-17	##에	O	O	O, B-CV, B-OG, I-AF, I-OG
-18	들	O	O	O, B-CV, B-OG, B-TM, B-PS
-19	##지	O	O	O, B-CV, I-OG, I-QT, I-AF
-20	않	O	O	O, B-CV, B-TM, I-OG, B-OG
-21	##는	O	O	O, B-CV, I-OG, B-TM, B-OG
-22	##다	O	O	O, B-CV, I-OG, I-QT, B-TM
-23	.	O	O	O, B-PS, B-CV, B-LC, B-OG
-24	[SEP]	O	O	O, B-CV, B-PS, B-OG, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	한국	B-LC	B-FD
+2	영화	O	I-FD
+3	##가	O	O
+4	쏟아지	O	O
+5	##던	O	O
+6	해	O	O
+7	##에	O	O
+8	##는	O	O
+9	예고편	O	O
+10	##에도	O	O
+11	경쟁	O	O
+12	##이	O	O
+13	붙	O	O
+14	##으며	O	O
+15	영화	O	O
+16	##의	O	O
+17	본질	O	O
+18	##과	O	O
+19	다른	O	O
+20	‘	O	O
+21	낚시	O	O
+22	##용	O	O
+23	’	O	O
+24	예고편	O	O
+25	##이	O	O
+26	속출	O	O
+27	##했	O	O
+28	##다	O	O
+29	.	O	O
+30	[SEP]	O	O

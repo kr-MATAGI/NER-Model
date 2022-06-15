@@ -1,43 +1,88 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	일본	B-LC	B-LC	B-LC, B-OG, O, B-PS, B-AF
-2	##의	O	O	O, I-LC, I-OG, B-LC, I-AF
-3	대표	O	O	O, B-LC, B-CV, B-PS, B-OG
-4	##적인	O	O	O, B-PS, B-LC, B-TR, I-PS
-5	지	B-OG	O	O, B-OG, B-TR, B-FD, B-LC
-6	##한	I-OG	O	O, I-OG, I-TR, I-FD, I-LC
-7	##파	I-OG	O	O, I-OG, I-TR, I-FD, I-PS
-8	언론인	B-CV	B-CV	B-CV, O, I-CV, B-FD, I-OG
-9	##인	O	O	O, I-CV, B-PS, B-CV, I-OG
-10	와	B-PS	B-PS	B-PS, O, B-LC, I-PS, B-OG
-11	##카	I-PS	I-PS	I-PS, O, I-LC, I-OG, B-PS
-12	##미	I-PS	I-PS	I-PS, O, I-LC, I-OG, B-PS
-13	##야	I-PS	I-PS	I-PS, O, I-LC, I-OG, B-LC
-14	요시	I-PS	I-PS	I-PS, O, B-PS, I-LC, B-LC
-15	##부	I-PS	I-PS	I-PS, O, I-LC, I-OG, B-LC
-16	##미	I-PS	I-PS	I-PS, O, I-LC, I-OG, B-LC
-17	(	O	O	O, I-PS, I-OG, B-LC, B-CV
-18	[UNK]	O	O	O, B-LC, B-PS, B-CV, B-OG
-19	宮	O	O	O, B-PS, B-LC, B-CV, B-TM
-20	[UNK]	O	O	O, B-PS, B-LC, B-CV, B-OG
-21	文	O	O	O, B-PS, B-LC, B-CV, B-TM
-22	·	O	O	O, B-CV, B-PS, B-LC, B-OG
-23	65	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-TM
-24	)	O	O	O, I-QT, I-DT, I-OG, I-CV
-25	전	O	O	O, B-PS, B-CV, B-LC, B-OG
-26	아사히	B-OG	B-OG	B-OG, O, B-AF, B-LC, I-OG
-27	##신문	I-OG	I-OG	I-OG, O, I-AF, I-LC, I-CV
-28	주	B-CV	O	O, B-CV, I-CV, I-OG, B-QT
-29	##필	I-CV	O	O, I-CV, B-CV, I-QT, I-OG
-30	##이	O	O	O, I-CV, B-PS, I-PS, B-CV
-31	그	O	O	O, B-CV, B-PS, B-LC, B-TM
-32	##의	O	O	O, B-CV, B-PS, B-LC, B-TM
-33	경험	O	O	O, B-CV, B-TM, B-LC, B-FD
-34	##을	O	O	O, B-CV, B-PS, B-LC, B-OG
-35	담아	O	O	O, B-CV, B-LC, B-TM, B-OG
-36	책	O	O	O, B-CV, B-TM, B-LC, B-OG
-37	##을	O	O	O, B-CV, B-OG, B-LC, B-PS
-38	펴냈	O	O	O, B-CV, B-LC, B-OG, B-TM
-39	##다	O	O	O, B-CV, B-LC, B-TM, B-OG
-40	.	O	O	O, B-LC, B-PS, B-CV, B-OG
-41	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	이용	B-PS	B-PS
+2	##호	I-PS	I-PS
+3	국민	B-OG	B-OG
+4	##의	I-OG	I-OG
+5	##당	I-OG	I-OG
+6	원내	O	B-CV
+7	##대	B-CV	I-CV
+8	##변	I-CV	I-CV
+9	##인	I-CV	I-CV
+10	##은	O	O
+11	“	O	O
+12	대기	O	O
+13	##업	O	O
+14	독과점	O	O
+15	##을	O	O
+16	막	O	O
+17	##는	O	O
+18	‘	O	O
+19	공정성	B-CV	B-CV
+20	##장	I-CV	I-CV
+21	##법	I-CV	I-CV
+22	’	O	O
+23	,	O	O
+24	정치인	B-CV	B-CV
+25	##의	O	O
+26	공공	O	O
+27	##기	O	O
+28	##관	O	O
+29	취업	O	O
+30	##을	O	O
+31	제한	O	O
+32	##하	O	O
+33	##는	O	O
+34	‘	O	O
+35	낙하산	B-CV	B-CV
+36	금지법	I-CV	I-CV
+37	’	O	O
+38	,	O	O
+39	청년	O	O
+40	##용	O	O
+41	임대	O	O
+42	##주택	O	O
+43	##을	O	O
+44	지원	O	O
+45	##하	O	O
+46	##는	O	O
+47	‘	O	O
+48	컴백	B-CV	B-CV
+49	##홈	I-CV	I-CV
+50	##법	I-CV	I-CV
+51	’	O	O
+52	등	O	O
+53	기존	O	O
+54	##에	O	O
+55	밝힌	O	O
+56	법안	O	O
+57	##들	O	O
+58	##을	O	O
+59	비롯	O	O
+60	##해	O	O
+61	제	B-QT	B-QT
+62	##2	I-QT	I-QT
+63	##의	O	O
+64	가습기	B-TM	B-EV
+65	살균제	O	I-EV
+66	사태	O	I-EV
+67	##를	O	O
+68	막	O	O
+69	##을	O	O
+70	‘	O	O
+71	제조	B-CV	B-CV
+72	##물	I-CV	I-CV
+73	##책	I-CV	I-CV
+74	##임	I-CV	I-CV
+75	##법	I-CV	I-CV
+76	’	O	O
+77	등이	O	O
+78	최우선	O	O
+79	입법	O	O
+80	과제	O	O
+81	”	O	O
+82	라고	O	O
+83	밝혔	O	O
+84	##다	O	O
+85	.	O	O
+86	[SEP]	O	O

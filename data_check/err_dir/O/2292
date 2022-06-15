@@ -1,20 +1,36 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	그것	O	O	O, B-CV, B-TM, B-QT, B-OG
-2	##도	O	O	O, B-CV, B-PS, I-AF, B-QT
-3	저	O	O	O, B-CV, B-OG, B-PS, B-QT
-4	##는	O	O	O, B-CV, I-QT, B-PS, I-AF
-5	좀	O	O	O, B-QT, B-CV, B-LC, B-TM
-6	힘들	O	O	O, B-CV, B-TM, B-QT, B-LC
-7	##긴	O	O	O, B-PS, I-QT, I-CV, I-OG
-8	했	O	O	O, B-CV, B-PS, B-OG, B-LC
-9	##는데	O	O	O, B-QT, B-CV, B-PS, B-LC
-10	십이	O	B-QT	B-QT, O, I-QT, B-TI, B-LC
-11	센	O	I-QT	I-QT, O, I-LC, I-OG, I-TI
-12	##가	O	O	O, I-QT, B-QT, I-OG, I-AF
-13	그럴	O	O	O, B-CV, I-QT, B-TM, B-OG
-14	거	O	O	O, B-CV, B-OG, B-PS, I-AF
-15	##예	O	O	O, B-CV, B-PS, I-OG, I-AF
-16	##요	O	O	O, B-CV, I-OG, I-AF, B-QT
-17	.	O	O	O, B-CV, B-LC, I-AF, B-PS
-18	[SEP]	O	O	O, B-CV, I-AF, I-OG, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	지난달	B-DT	B-DT
+2	26	I-DT	I-DT
+3	##일	I-DT	I-DT
+4	천안	B-EV	B-AF
+5	##함	I-EV	I-EV
+6	침몰	I-EV	I-EV
+7	사고	I-EV	I-EV
+8	##로	O	O
+9	실종	O	O
+10	##된	O	O
+11	장병	B-CV	B-CV
+12	##들이	O	O
+13	이날	B-DT	B-DT
+14	20	B-DT	B-DT
+15	##일	I-DT	I-DT
+16	만	I-DT	I-DT
+17	##에	O	O
+18	배	O	B-AM
+19	##꼬리	O	I-AM
+20	(	O	O
+21	함	O	O
+22	##미	O	O
+23	)	O	O
+24	와	O	O
+25	함께	O	O
+26	주검	O	O
+27	##으로	O	O
+28	물	O	O
+29	밖	O	O
+30	##으로	O	O
+31	나왔	O	O
+32	##다	O	O
+33	.	O	O
+34	[SEP]	O	O

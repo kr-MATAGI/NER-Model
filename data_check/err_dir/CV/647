@@ -1,28 +1,12 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	수백	O	O	O, B-LC, B-PS, B-CV, B-TM
-2	##억	O	O	O, B-CV, B-LC, B-PS, B-TM
-3	달러	B-CV	O	O, B-CV, B-LC, I-CV, B-PS
-4	자산	O	O	O, B-CV, I-CV, B-LC, I-LC
-5	##을	O	O	O, B-PS, I-CV, B-CV, B-LC
-6	지닌	O	O	O, B-LC, B-PS, B-OG, B-CV
-7	'	O	O	O, B-OG, B-LC, B-CV, B-PS
-8	카타르	B-OG	B-OG	B-OG, B-LC, I-OG, O, B-AF
-9	##재단	I-OG	I-OG	I-OG, O, I-CV, I-LC, I-AF
-10	'	O	O	O, I-OG, B-CV, I-CV, B-PS
-11	이사장	B-CV	B-CV	B-CV, O, B-TM, I-CV, B-AF
-12	##을	O	O	O, I-CV, B-CV, B-PS, I-OG
-13	맡	O	O	O, B-CV, B-PS, B-LC, B-OG
-14	##아	O	O	O, B-PS, B-LC, I-CV, I-PS
-15	나라	O	O	O, B-LC, B-PS, B-OG, B-CV
-16	##의	O	O	O, B-LC, B-PS, I-LC, I-OG
-17	경제	O	O	O, B-FD, B-TM, B-LC, B-CV
-18	·	O	O	O, I-TM, I-FD, I-LC, I-CV
-19	사회	O	O	O, I-TM, B-FD, I-FD, B-TM
-20	개발	O	O	O, I-TM, I-FD, B-TM, I-CV
-21	프로젝트	O	O	O, I-TM, B-TM, I-CV, B-CV
-22	##를	O	O	O, B-CV, B-PS, B-OG, B-LC
-23	책임	O	O	O, B-CV, B-LC, B-PS, B-OG
-24	##진다	O	O	O, B-PS, B-CV, I-CV, B-LC
-25	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-26	[SEP]	O	O	O, B-LC, B-CV, B-PS, I-CV
+	text	label	preds
+0	[CLS]	O	O
+1	한	O	O
+2	거기	O	O
+3	한식	B-CV	B-OG
+4	세계	O	I-OG
+5	##화	O	I-OG
+6	재단	O	I-OG
+7	있	O	O
+8	##잖아요	O	O
+9	.	O	O
+10	[SEP]	O	O

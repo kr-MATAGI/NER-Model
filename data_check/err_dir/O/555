@@ -1,46 +1,25 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	약	O	O	O, B-CV, B-TM, B-PS, B-FD
-2	##을	O	O	O, B-PS, B-CV, B-LC, B-OG
-3	써서	O	O	O, B-CV, B-PS, B-LC, B-TM
-4	혈압	O	B-TM	B-TM, O, B-TR, B-QT, B-LC
-5	##을	O	O	O, I-TM, B-CV, I-CV, I-AF
-6	내려	O	O	O, B-CV, B-PS, B-LC, B-TM
-7	버리	O	O	O, B-PS, B-CV, B-LC, B-TM
-8	##면	O	O	O, B-PS, B-CV, B-LC, B-TM
-9	##은	O	O	O, B-PS, B-CV, B-LC, B-OG
-10	더	O	O	O, B-TM, B-LC, B-PS, B-CV
-11	저	B-TM	B-TM	B-TM, O, I-TM, B-CV, B-TR
-12	##혈압	I-TM	I-TM	I-TM, O, B-TM, I-QT, I-TR
-13	##이	O	O	O, I-TM, B-PS, I-OG, I-QT
-14	되	O	O	O, B-CV, B-PS, B-LC, B-OG
-15	##어	O	O	O, B-PS, B-CV, B-LC, B-TM
-16	##서	O	O	O, B-PS, B-LC, B-CV, B-OG
-17	더	O	O	O, B-PS, B-LC, B-CV, B-OG
-18	강력	O	O	O, B-CV, B-LC, B-PS, B-TM
-19	##하	O	O	O, B-PS, B-LC, B-OG, B-CV
-20	##게	O	O	O, B-PS, B-LC, B-OG, B-CV
-21	혈압	O	B-TM	B-TM, O, B-TR, B-QT, B-LC
-22	##을	O	O	O, I-TM, I-CV, I-AF, I-OG
-23	올리	O	O	O, B-CV, B-PS, B-LC, B-TM
-24	##려고	O	O	O, B-PS, B-CV, B-LC, I-OG
-25	하	O	O	O, B-PS, B-CV, B-LC, B-OG
-26	##는	O	O	O, B-PS, B-CV, B-LC, B-OG
-27	어	O	O	O, B-PS, B-CV, B-LC, B-OG
-28	~	O	O	O, B-PS, B-LC, B-CV, I-CV
-29	이	O	O	O, B-PS, B-LC, B-OG, B-CV
-30	~	O	O	O, B-PS, B-CV, B-LC, I-QT
-31	이	O	O	O, B-PS, B-LC, B-OG, B-CV
-32	~	O	O	O, B-PS, B-CV, B-LC, I-PS
-33	몸	B-AM	B-AM	B-AM, O, B-PS, B-TR, B-TM
-34	##에	O	O	O, I-CV, I-AF, I-EV, I-QT
-35	이	O	O	O, B-PS, B-OG, B-LC, B-CV
-36	생리	O	O	O, B-TR, B-FD, B-CV, B-TM
-37	##적인	O	O	O, I-TR, I-CV, I-QT, I-TM
-38	반응	O	O	O, B-PS, B-LC, B-CV, B-TM
-39	##이	O	O	O, B-PS, B-CV, B-OG, B-LC
-40	나타나	O	O	O, B-CV, B-OG, B-PS, B-LC
-41	##게	O	O	O, B-CV, B-OG, B-PS, I-OG
-42	됩니다	O	O	O, B-CV, B-LC, B-OG, B-PS
-43	.	O	O	O, B-CV, B-PS, B-LC, B-OG
-44	[SEP]	O	O	O, B-CV, B-PS, B-LC, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	에이	O	O
+2	대학	O	O
+3	##의	O	O
+4	경우	O	O
+5	교과	O	B-CV
+6	##성	O	I-CV
+7	##적	O	I-CV
+8	##우	O	I-CV
+9	##수	O	I-CV
+10	##자	O	I-CV
+11	전형	O	O
+12	##은	O	O
+13	상위	O	B-QT
+14	팔	B-QT	B-QT
+15	##십	I-QT	I-QT
+16	퍼센트	I-QT	I-QT
+17	##에	O	O
+18	학생	O	O
+19	##부	O	O
+20	평균	O	O
+21	등급	O	O
+22	##이	O	O
+23	[SEP]	O	O

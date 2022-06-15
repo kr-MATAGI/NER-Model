@@ -1,29 +1,12 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	이완구	B-PS	B-PS	B-PS, B-OG, O, I-PS, B-LC
-2	국무총리	B-CV	B-CV	B-CV, O, I-PS, B-EV, B-TM
-3	후보자	B-CV	B-CV	B-CV, I-CV, O, B-TM, B-AF
-4	##가	O	O	O, I-CV, I-EV, B-CV, I-AF
-5	25	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-QT
-6	##일	I-DT	I-DT	I-DT, O, B-DT, I-EV, I-QT
-7	새	B-OG	B-OG	B-OG, O, B-EV, B-AF, B-LC
-8	##누리	I-OG	I-OG	I-OG, O, I-EV, I-AF, I-LC
-9	##당	I-OG	I-OG	I-OG, O, I-EV, I-LC, I-AF
-10	원내대표	O	B-CV	B-CV, O, I-CV, I-OG, B-TM
-11	##직	O	I-CV	I-CV, O, B-CV, I-OG, I-TM
-12	공식	O	O	O, I-CV, B-PS, B-CV, I-QT
-13	사퇴	O	O	O, B-CV, B-OG, B-LC, B-PS
-14	##와	O	O	O, B-CV, B-LC, B-OG, B-PS
-15	함께	O	O	O, B-LC, B-CV, B-OG, B-EV
-16	본격	O	O	O, B-LC, B-EV, B-CV, B-TM
-17	##적인	O	O	O, B-EV, B-LC, I-EV, B-PS
-18	인사	O	B-EV	B-EV, O, B-CV, B-OG, I-EV
-19	##청	O	I-EV	I-EV, O, B-EV, I-OG, I-AF
-20	##문	O	I-EV	I-EV, O, I-OG, B-EV, I-AF
-21	##회	O	I-EV	I-EV, O, I-OG, B-EV, I-AF
-22	준비	O	O	O, I-EV, I-OG, I-AF, B-CV
-23	##에	O	O	O, I-EV, B-CV, B-OG, B-LC
-24	들어갔	O	O	O, B-CV, B-LC, B-OG, B-TM
-25	##다	O	O	O, B-CV, B-LC, B-OG, I-OG
-26	.	O	O	O, B-LC, B-OG, B-PS, B-CV
-27	[SEP]	O	O	O, I-EV, B-CV, B-LC, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	바로	O	O
+2	딜	O	B-CV
+3	##이	O	O
+4	들어가	O	O
+5	##네	O	O
+6	##요	O	O
+7	.	O	O
+8	예	O	O
+9	.	O	O
+10	[SEP]	O	O

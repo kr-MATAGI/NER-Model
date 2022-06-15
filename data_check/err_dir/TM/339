@@ -1,17 +1,13 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	새	B-TM	O	O, B-DT, B-TM, B-TR, B-QT
-2	##천	I-TM	O	O, I-TM, I-DT, I-TR, I-QT
-3	##년	I-TM	O	O, I-DT, I-TM, I-TR, I-QT
-4	계획	I-TM	O	O, I-TM, I-TR, I-DT, I-QT
-5	##이	O	O	O, I-TM, I-DT, I-QT, I-EV
-6	##라는	O	O	O, B-CV, B-LC, B-OG, B-PS
-7	걸	O	O	O, B-CV, B-OG, B-PS, B-LC
-8	세워	O	O	O, B-CV, B-TM, B-QT, B-LC
-9	##논	O	O	O, I-CV, I-QT, I-TM, B-CV
-10	게	O	O	O, B-CV, B-PS, B-OG, B-LC
-11	있	O	O	O, B-CV, B-OG, B-TM, B-PS
-12	##습	O	O	O, B-CV, B-OG, I-OG, B-LC
-13	##니다	O	O	O, B-CV, B-OG, B-LC, I-OG
-14	##만	O	O	O, B-PS, B-LC, I-OG, I-QT
-15	[SEP]	O	O	O, B-CV, B-LC, B-TM, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	월경	B-TM	O
+2	전	I-TM	O
+3	불쾌	I-TM	B-TM
+4	##장	I-TM	I-TM
+5	##애	I-TM	I-TM
+6	##라는	O	O
+7	진단	O	O
+8	##이	O	O
+9	있	O	O
+10	##어요	O	O
+11	[SEP]	O	O

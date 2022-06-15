@@ -1,13 +1,26 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-AF
-1	제	B-QT	B-QT	B-QT, B-DT, O, B-CV, I-QT
-2	##2	I-QT	I-QT	I-QT, I-DT, I-EV, I-OG, B-QT
-3	##인	O	I-QT	I-QT, O, I-DT, B-QT, I-CV
-4	##생	O	I-QT	I-QT, O, I-DT, I-EV, I-CV
-5	종합	B-OG	O	O, B-OG, I-OG, I-QT, I-TM
-6	##설	I-OG	O	O, I-OG, B-OG, I-QT, I-TM
-7	##계	I-OG	O	O, I-OG, I-TM, B-OG, I-AF
-8	협동조합	I-OG	O	O, I-OG, B-OG, I-TM, I-AF
-9	##도	O	O	O, I-OG, I-AF, I-CV, I-TM
-10	출범	O	O	O, B-OG, B-CV, B-TM, I-OG
-11	[SEP]	O	O	O, I-OG, B-OG, B-CV, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	올해	B-DT	B-DT
+2	윤상	B-PS	B-PS
+3	등	O	O
+4	베테랑	O	B-CV
+5	싱어	B-CV	B-CV
+6	##송	I-CV	I-CV
+7	##라이터	I-CV	I-CV
+8	##들이	O	O
+9	복귀	O	O
+10	음반	O	O
+11	##을	O	O
+12	냈	O	O
+13	##지만	O	O
+14	전성기	O	O
+15	##만큼	O	O
+16	##의	O	O
+17	폭발	O	O
+18	##력	O	O
+19	##은	O	O
+20	없	O	O
+21	##었	O	O
+22	##다	O	O
+23	.	O	O
+24	[SEP]	O	O

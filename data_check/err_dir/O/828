@@ -1,17 +1,55 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	‘	O	O	O, B-CV, B-LC, B-OG, B-DT
-2	길	O	B-AF	B-AF, O, B-TM, B-EV, B-CV
-3	##을	O	I-AF	I-AF, O, I-TM, I-OG, I-EV
-4	찾아	O	I-AF	I-AF, O, I-TM, I-EV, I-OG
-5	##서	O	I-AF	I-AF, O, I-TM, I-OG, I-CV
-6	’	O	O	O, I-AF, I-EV, I-OG, B-CV
-7	연재	O	O	O, B-CV, B-TM, B-LC, B-OG
-8	앞두	O	O	O, I-EV, B-PS, B-OG, B-LC
-9	##고	O	O	O, B-CV, B-PS, B-LC, B-OG
-10	별세	O	O	O, B-CV, B-TM, B-LC, B-EV
-11	##한	O	O	O, B-PS, I-CV, B-LC, I-EV
-12	오재	B-PS	B-PS	B-PS, O, B-OG, B-AF, I-PS
-13	##식	I-PS	I-PS	I-PS, O, I-OG, B-PS, I-AF
-14	선생	B-CV	B-CV	B-CV, O, I-CV, I-PS, B-TM
-15	[SEP]	O	O	O, I-CV, I-EV, B-CV, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	1998	B-DT	B-DT
+2	##년	I-DT	I-DT
+3	8	I-DT	I-DT
+4	##월	I-DT	I-DT
+5	‘	O	O
+6	광명	B-AF	B-TM
+7	##성	I-AF	I-TM
+8	1	I-AF	I-TM
+9	##호	I-AF	I-TM
+10	’	O	O
+11	,	O	O
+12	2009	B-DT	B-DT
+13	##년	I-DT	I-DT
+14	4	I-DT	I-DT
+15	##월	I-DT	I-DT
+16	‘	O	O
+17	광명	B-TM	B-TM
+18	##성	I-TM	I-TM
+19	2	B-QT	I-TM
+20	##호	I-QT	I-TM
+21	’	O	O
+22	발사	O	O
+23	때	O	O
+24	각각	O	O
+25	쏴	O	O
+26	올린	O	O
+27	장거리	O	B-AF
+28	##로	O	I-AF
+29	##켓	O	I-AF
+30	##의	O	O
+31	1	B-QT	B-QT
+32	##단	I-QT	I-QT
+33	추진	O	O
+34	##체	O	O
+35	##엔	O	O
+36	붉	B-TM	B-TM
+37	##은	I-TM	I-TM
+38	##색	I-TM	I-TM
+39	페인트	O	B-MT
+40	##로	O	O
+41	‘	O	O
+42	조선	B-LC	B-LC
+43	’	O	O
+44	이라	O	O
+45	##는	O	O
+46	글자	O	O
+47	##가	O	O
+48	쓰여	O	O
+49	있	O	O
+50	##었	O	O
+51	##다	O	O
+52	.	O	O
+53	[SEP]	O	O

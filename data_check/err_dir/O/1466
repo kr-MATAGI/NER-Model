@@ -1,38 +1,80 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	경인	B-OG	B-OG	B-OG, O, B-LC, I-OG, B-AF
-2	##교	I-OG	I-OG	I-OG, O, I-LC, B-OG, I-AF
-3	##대	I-OG	I-OG	I-OG, O, I-LC, I-AF, I-QT
-4	##는	O	O	O, I-OG, I-AF, B-CV, I-EV
-5	대학	O	O	O, B-OG, B-LC, B-CV, B-PS
-6	자체	O	O	O, I-OG, B-OG, B-PS, B-LC
-7	유아	O	O	O, B-OG, B-FD, B-CV, B-AF
-8	##교육	O	O	O, I-OG, I-FD, I-AF, I-LC
-9	##연구소	O	O	O, I-OG, I-AF, I-LC, I-FD
-10	##에서	O	O	O, I-OG, B-PS, I-AF, B-CV
-11	개발	O	O	O, B-CV, B-TM, B-LC, B-PS
-12	##한	O	O	O, B-PS, B-LC, B-OG, B-CV
-13	여러	O	O	O, B-CV, B-LC, B-QT, B-TM
-14	가지	O	O	O, B-QT, B-TM, B-PS, B-LC
-15	아동	O	O	O, B-TM, B-CV, B-FD, B-TR
-16	##지도	O	O	O, I-TM, I-CV, I-FD, I-TR
-17	프로그램	O	O	O, I-TM, I-CV, I-FD, B-CV
-18	##을	O	O	O, B-CV, I-CV, B-PS, B-OG
-19	보유	O	O	O, B-CV, B-TM, B-OG, B-LC
-20	##하고	O	O	O, B-PS, B-LC, B-OG, I-OG
-21	있	O	O	O, B-CV, B-OG, B-PS, B-LC
-22	##고	O	O	O, B-CV, B-PS, I-OG, B-OG
-23	,	O	O	O, B-CV, B-PS, B-LC, B-OG
-24	예비	B-CV	B-CV	B-CV, O, B-FD, B-AF, B-QT
-25	##교사	I-CV	B-CV	B-CV, I-CV, O, I-QT, B-QT
-26	##인	O	O	O, I-CV, B-CV, B-PS, I-OG
-27	교대	B-CV	B-CV	B-CV, O, I-CV, B-QT, B-OG
-28	##생	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-QT
-29	##들이	O	O	O, I-CV, B-CV, I-OG, I-QT
-30	지도	O	B-CV	B-CV, O, B-TM, B-FD, I-CV
-31	교사	B-CV	B-CV	B-CV, I-CV, O, I-QT, B-FD
-32	##로	O	O	O, I-CV, B-CV, I-QT, I-OG
-33	참여	O	O	O, B-CV, I-CV, B-PS, B-TM
-34	##한다	O	O	O, B-CV, B-OG, B-PS, B-LC
-35	.	O	O	O, B-CV, B-LC, B-PS, B-OG
-36	[SEP]	O	O	O, B-CV, B-LC, B-PS, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	권	B-PS	B-PS
+2	##씨	O	O
+3	##는	O	O
+4	“	O	O
+5	업체	O	O
+6	##에	O	O
+7	##서	O	O
+8	관절	O	B-TM
+9	때문	O	O
+10	##에	O	O
+11	걸어	O	O
+12	##다니	O	O
+13	##는	O	O
+14	모습	O	O
+15	##이	O	O
+16	보	O	O
+17	##기에	O	O
+18	좋	O	O
+19	##지	O	O
+20	않	O	O
+21	##다는	O	O
+22	이유로	O	O
+23	계약	O	O
+24	##을	O	O
+25	못하	O	O
+26	##겠다	O	O
+27	##고	O	O
+28	했	O	O
+29	##다	O	O
+30	”	O	O
+31	며	O	O
+32	“	O	O
+33	관절	O	B-TM
+34	##이	O	O
+35	아파	O	O
+36	약간	O	O
+37	‘	O	O
+38	오다	O	O
+39	##리	O	O
+40	’	O	O
+41	가	O	O
+42	됐	O	O
+43	##지만	O	O
+44	5	B-DT	B-DT
+45	##년	I-DT	I-DT
+46	동안	I-DT	I-DT
+47	지각	O	O
+48	##이나	O	O
+49	결	O	O
+50	##근	O	O
+51	##을	O	O
+52	한	O	B-QT
+53	번	O	I-QT
+54	##도	O	O
+55	해본	O	O
+56	적	O	O
+57	##이	O	O
+58	없	O	O
+59	##고	O	O
+60	,	O	O
+61	일	O	O
+62	##을	O	O
+63	못	O	O
+64	##했	O	O
+65	##다고	O	O
+66	지적	O	O
+67	##받	O	O
+68	##은	O	O
+69	적도	O	O
+70	없	O	O
+71	##다	O	O
+72	”	O	O
+73	고	O	O
+74	말	O	O
+75	##했	O	O
+76	##다	O	O
+77	.	O	O
+78	[SEP]	O	O

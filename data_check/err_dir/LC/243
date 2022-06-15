@@ -1,41 +1,52 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, I-EV, B-CV
-1	""""	O	O	O, B-PS, B-LC, B-CV, B-OG
-2	(	O	O	O, B-LC, B-PS, B-OG, B-CV
-3	차	B-PS	B-PS	B-PS, I-PS, O, B-LC, B-OG
-4	)	O	O	O, I-PS, B-LC, I-LC, I-DT
-5	중국	B-LC	B-OG	B-OG, B-LC, O, I-OG, B-PS
-6	##은	O	O	O, I-OG, I-LC, B-CV, I-PS
-7	지난해	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-8	원자	B-PS	B-PS	B-PS, I-PS, O, B-OG, I-DT
-9	##바오	I-PS	I-PS	I-PS, O, B-PS, I-OG, I-LC
-10	총리	B-CV	B-CV	B-CV, O, I-PS, I-CV, B-OG
-11	##의	O	O	O, I-CV, I-EV, I-DT, I-OG
-12	방북	O	O	O, B-EV, B-LC, B-CV, B-OG
-13	이후	O	O	O, I-DT, I-EV, I-OG, I-LC
-14	,	O	O	O, B-LC, B-PS, I-DT, B-OG
-15	(	O	O	O, B-LC, B-PS, B-OG, B-DT
-16	북	B-LC	B-LC	B-LC, O, B-OG, B-AF, I-LC
-17	##핵	B-AF	B-AF	B-AF, I-AF, O, B-MT, B-LC
-18	문제	O	O	O, I-AF, I-EV, I-LC, I-DT
-19	##의	O	O	O, B-LC, B-PS, I-EV, B-CV
-20	완전	O	O	O, B-LC, B-DT, B-PS, B-OG
-21	##한	O	O	O, B-LC, B-PS, I-LC, B-OG
-22	해결	O	O	O, B-LC, I-LC, B-PS, B-CV
-23	##보	O	O	O, B-LC, B-PS, B-CV, B-OG
-24	##다는	O	O	O, B-LC, I-DT, B-PS, B-DT
-25	)	O	O	O, B-LC, B-PS, B-CV, B-OG
-26	현	O	O	O, B-LC, B-PS, B-CV, B-QT
-27	상태	O	O	O, B-CV, B-LC, B-PS, I-DT
-28	##에서	O	O	O, B-PS, B-LC, B-CV, I-DT
-29	##의	O	O	O, B-LC, B-PS, B-OG, B-CV
-30	안정	O	O	O, B-LC, B-CV, B-PS, B-OG
-31	##을	O	O	O, B-PS, B-LC, B-CV, B-OG
-32	원하	O	O	O, B-CV, B-PS, B-LC, B-OG
-33	##는	O	O	O, B-PS, B-LC, B-CV, B-OG
-34	정책	O	O	O, B-CV, B-PS, B-LC, I-CV
-35	##을	O	O	O, I-CV, B-CV, B-PS, I-OG
-36	취했	O	O	O, B-CV, B-LC, B-PS, B-OG
-37	##다	O	O	O, B-LC, I-OG, B-CV, I-CV
-38	.	O	O	O, B-LC, B-PS, B-CV, B-OG
-39	[SEP]	O	O	O, B-LC, B-CV, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	‘	O	O
+2	카	B-AF	B-AF
+3	##논	I-AF	I-AF
+4	…	O	I-AF
+5	’	O	O
+6	은	O	O
+7	연극	B-FD	B-FD
+8	속	O	O
+9	##에	O	O
+10	##서	O	O
+11	펼쳐지	O	O
+12	##는	O	O
+13	고대	O	B-DT
+14	그리스	B-LC	I-DT
+15	##와	O	O
+16	연극	B-FD	B-FD
+17	##을	O	O
+18	만드	O	O
+19	##는	O	O
+20	현재	O	O
+21	##를	O	O
+22	통해	O	O
+23	‘	O	O
+24	안티	B-AF	B-AF
+25	##고	I-AF	I-AF
+26	##네	I-AF	I-AF
+27	’	O	O
+28	를	O	O
+29	둘러싼	O	O
+30	두	O	O
+31	개의	O	O
+32	세계	O	O
+33	##가	O	O
+34	음악	B-FD	B-FD
+35	##극	I-FD	I-FD
+36	카	B-AF	B-AF
+37	##논	I-AF	I-AF
+38	##처럼	O	O
+39	평행	O	O
+40	##하	O	O
+41	##게	O	O
+42	존재	O	O
+43	##하	O	O
+44	##는	O	O
+45	모습	O	O
+46	##을	O	O
+47	그렸	O	O
+48	##다	O	O
+49	.	O	O
+50	[SEP]	O	O

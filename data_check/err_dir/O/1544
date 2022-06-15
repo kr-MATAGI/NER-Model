@@ -1,40 +1,20 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-EV, I-CV, I-QT
-1	7	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-QT
-2	##월	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
-3	개막	O	O	O, I-DT, I-EV, B-CV, B-LC
-4	##한	O	O	O, B-PS, B-LC, I-DT, B-OG
-5	이후	O	O	O, B-LC, B-PS, I-DT, B-CV
-6	숨	O	O	O, B-AM, B-PS, B-LC, B-TM
-7	가	O	O	O, B-PS, B-LC, I-PS, I-LC
-8	##쁘	O	O	O, B-LC, B-PS, I-PS, I-LC
-9	##게	O	O	O, B-LC, B-PS, I-PS, B-OG
-10	달려온	O	O	O, B-LC, B-CV, B-EV, B-OG
-11	‘	O	O	O, B-LC, B-EV, B-DT, B-OG
-12	2011	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-13	코리아	B-EV	B-EV	B-EV, I-EV, B-OG, B-LC, O
-14	##스피	I-EV	I-EV	I-EV, O, B-EV, I-OG, I-AF
-15	##드	I-EV	I-EV	I-EV, O, I-OG, I-AF, I-LC
-16	##페	I-EV	I-EV	I-EV, O, I-OG, I-AF, B-EV
-17	##스티벌	I-EV	I-EV	I-EV, O, I-OG, I-AF, B-EV
-18	(	O	O	O, I-EV, I-OG, I-DT, I-AF
-19	KS	B-EV	B-EV	B-EV, O, B-OG, I-EV, B-LC
-20	##F	I-EV	I-EV	I-EV, O, I-OG, I-LC, I-AF
-21	)	O	O	O, I-EV, I-OG, I-DT, I-AF
-22	’	O	O	O, I-EV, B-LC, B-PS, B-OG
-23	이	O	O	O, B-PS, B-LC, B-OG, B-EV
-24	12	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-QT
-25	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
-26	마지막	O	O	O, B-QT, I-DT, B-EV, B-DT
-27	4	B-EV	B-EV	B-EV, O, B-QT, B-AF, B-DT
-28	##차	I-EV	I-EV	I-EV, I-QT, O, B-EV, I-AF
-29	##전	I-EV	I-EV	I-EV, I-QT, O, I-AF, I-DT
-30	##만	O	I-EV	I-EV, O, I-QT, I-DT, I-LC
-31	##을	O	O	O, I-EV, I-QT, I-DT, I-AF
-32	남겨	O	O	O, B-LC, B-QT, B-OG, B-TM
-33	##놓	O	O	O, B-LC, I-QT, B-QT, B-EV
-34	##고	O	O	O, I-QT, B-LC, I-EV, B-QT
-35	있	O	O	O, B-LC, B-PS, B-CV, B-DT
-36	##다	O	O	O, B-CV, B-LC, I-EV, B-OG
-37	.	O	O	O, B-LC, B-PS, I-EV, B-CV
-38	[SEP]	O	O	O, B-LC, I-EV, B-CV, B-EV
+	text	label	preds
+0	[CLS]	O	O
+1	제	B-PS	B-PS
+2	##에	I-PS	I-PS
+3	##거	I-PS	I-PS
+4	사장	B-CV	B-CV
+5	##은	O	O
+6	수입	O	O
+7	##차	O	B-AF
+8	부품	O	O
+9	가격	O	O
+10	논란	O	O
+11	##에	O	O
+12	관한	O	O
+13	의견	O	O
+14	##도	O	O
+15	내놨	O	O
+16	##다	O	O
+17	.	O	O
+18	[SEP]	O	O

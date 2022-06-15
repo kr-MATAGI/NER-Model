@@ -1,30 +1,19 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-EV, I-OG, I-CV
-1	그러나	O	O	O, B-CV, B-LC, B-OG, B-TM
-2	일본	B-LC	B-DT	B-DT, B-LC, B-EV, O, B-AF
-3	후쿠시마	B-DT	I-DT	I-DT, B-DT, I-EV, O, I-LC
-4	원전	I-DT	I-DT	I-DT, I-EV, B-DT, O, I-AF
-5	참사	I-DT	I-DT	I-DT, O, I-EV, B-DT, I-AF
-6	이후	I-DT	I-DT	I-DT, O, I-EV, B-DT, I-AF
-7	‘	O	O	O, I-DT, I-EV, B-LC, B-CV
-8	원전	O	O	O, B-EV, B-LC, B-CV, B-TM
-9	불안감	O	O	O, I-EV, B-PS, B-LC, B-CV
-10	’	O	O	O, B-PS, I-EV, B-CV, B-OG
-11	확산	O	O	O, B-CV, B-PS, B-TM, B-LC
-12	##과	O	O	O, B-PS, B-LC, B-CV, B-OG
-13	거액	O	O	O, B-CV, B-TM, B-LC, B-QT
-14	##의	O	O	O, B-CV, B-PS, B-LC, B-OG
-15	국비	O	O	O, B-CV, B-FD, B-OG, B-TM
-16	확보	O	O	O, I-CV, I-OG, B-CV, B-PS
-17	##에	O	O	O, B-PS, B-LC, B-CV, B-OG
-18	대한	O	O	O, B-LC, B-OG, B-PS, B-TM
-19	의구심	O	O	O, B-CV, B-TM, B-PS, B-LC
-20	##으로	O	O	O, B-CV, B-PS, I-CV, I-EV
-21	논란	O	O	O, B-CV, B-TM, B-LC, B-OG
-22	##이	O	O	O, B-PS, B-OG, B-CV, B-LC
-23	커지	O	O	O, B-CV, B-LC, B-QT, B-TM
-24	##고	O	O	O, B-CV, B-PS, B-LC, B-TM
-25	있	O	O	O, B-CV, B-LC, B-PS, B-TM
-26	##다	O	O	O, B-CV, I-EV, B-LC, I-OG
-27	.	O	O	O, B-LC, B-PS, B-CV, B-OG
-28	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	1	B-DT	B-DT
+2	##년	I-DT	I-DT
+3	##새	I-DT	O
+4	26	B-QT	B-QT
+5	##1	I-QT	I-QT
+6	%	I-QT	I-QT
+7	급등	O	O
+8	…	O	O
+9	신세계	B-OG	B-OG
+10	##건설	I-OG	I-OG
+11	株	O	O
+12	價	O	O
+13	연일	O	O
+14	'	O	O
+15	신세계	O	B-OG
+16	'	O	O
+17	[SEP]	O	O

@@ -1,53 +1,32 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-EV, I-CV
-1	실제	O	O	O, B-CV, B-LC, B-OG, B-TM
-2	15	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-QT
-3	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
-4	국제	O	O	O, B-LC, B-EV, B-OG, I-DT
-5	금융	O	O	O, I-OG, B-FD, I-EV, I-AF
-6	##시장	O	O	O, I-OG, I-EV, I-AF, I-LC
-7	##에서	O	O	O, B-LC, B-CV, B-PS, I-EV
-8	일본	B-LC	B-LC	B-LC, B-OG, O, B-AF, B-PS
-9	##의	O	O	O, I-LC, I-OG, I-AF, B-LC
-10	국가	O	O	O, B-CV, B-TR, B-EV, B-LC
-11	##부	O	O	O, I-CV, I-EV, B-CV, I-TR
-12	##도	O	O	O, I-CV, I-TR, I-EV, I-LC
-13	위험	O	O	O, I-CV, B-PS, I-EV, I-AF
-14	##을	O	O	O, B-CV, B-OG, B-PS, I-AF
-15	나타내	O	O	O, B-LC, B-CV, B-OG, B-PS
-16	##는	O	O	O, B-LC, B-OG, B-PS, B-CV
-17	일본	B-LC	B-LC	B-LC, B-OG, O, B-AF, B-PS
-18	5	B-DT	B-DT	B-DT, I-DT, B-LC, O, B-AF
-19	##년	I-DT	I-DT	I-DT, O, I-AF, I-QT, I-LC
-20	만기	O	O	O, I-DT, I-AF, I-OG, I-CV
-21	국채	O	O	O, B-CV, B-AF, I-AF, B-LC
-22	신용	B-AF	O	O, B-CV, B-AF, I-AF, B-TR
-23	##부	I-AF	O	O, I-CV, I-AF, I-TR, I-TM
-24	##도	I-AF	O	O, I-AF, I-CV, I-TR, I-TM
-25	##스	I-AF	O	O, I-AF, I-CV, I-TR, I-TM
-26	##와	I-AF	O	O, I-AF, I-CV, I-TR, I-TM
-27	##프	I-AF	O	O, I-AF, I-CV, I-TR, I-TM
-28	(	I-AF	O	O, I-CV, I-AF, B-CV, B-PS
-29	CD	I-AF	O	O, B-AF, B-CV, B-PS, B-MT
-30	##S	I-AF	O	O, I-AF, I-CV, I-TR, I-MT
-31	)	I-AF	O	O, I-AF, I-CV, I-TR, I-TM
-32	프리미엄	I-AF	O	O, I-AF, I-CV, B-CV, I-TR
-33	##이	O	O	O, I-AF, B-PS, I-CV, B-CV
-34	18	B-QT	B-QT	B-QT, O, I-QT, B-LC, B-DT
-35	##b	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-36	##p	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-37	상승	O	O	O, I-QT, B-CV, B-TM, B-LC
-38	##한	O	O	O, B-LC, B-QT, B-OG, B-PS
-39	114	B-QT	B-QT	B-QT, I-QT, O, B-DT, B-LC
-40	##b	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-41	##p	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-42	##로	O	O	O, I-QT, I-OG, I-EV, B-CV
-43	사상	O	O	O, B-CV, B-QT, B-LC, B-OG
-44	최고	O	O	O, B-QT, I-QT, B-CV, B-PS
-45	##치	O	O	O, I-QT, B-PS, B-LC, B-OG
-46	##를	O	O	O, B-CV, I-OG, B-OG, I-QT
-47	기록	O	O	O, B-CV, B-OG, B-LC, B-TM
-48	##했	O	O	O, B-CV, B-LC, B-OG, I-OG
-49	##다	O	O	O, B-CV, B-LC, I-OG, B-OG
-50	.	O	O	O, B-LC, B-PS, B-CV, B-OG
-51	[SEP]	O	O	O, B-LC, B-CV, I-OG, I-EV
+	text	label	preds
+0	[CLS]	O	O
+1	그	O	O
+2	##의	O	O
+3	말	O	O
+4	##은	O	O
+5	2004	B-DT	B-DT
+6	##년	I-DT	I-DT
+7	5	I-DT	I-DT
+8	##월	I-DT	I-DT
+9	중국	B-LC	B-LC
+10	톈진	B-LC	B-LC
+11	(	O	O
+12	天	O	O
+13	津	O	O
+14	)	O	O
+15	의	O	O
+16	도요타	B-AF	B-OG
+17	공장	I-AF	O
+18	##에	O	O
+19	##서	O	O
+20	현대차	O	B-OG
+21	##를	O	O
+22	분해	O	O
+23	##했	O	O
+24	##다는	O	O
+25	것	O	O
+26	##이	O	O
+27	##었	O	O
+28	##다	O	O
+29	.	O	O
+30	[SEP]	O	O

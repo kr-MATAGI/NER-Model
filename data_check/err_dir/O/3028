@@ -1,26 +1,16 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-EV, I-CV
-1	또	O	O	O, B-CV, B-TM, B-LC, B-AF
-2	탄	O	B-AF	B-AF, O, B-MT, B-AM, B-TM
-3	##두	O	I-AF	I-AF, O, I-TM, I-AM, I-MT
-4	##중	O	O	O, I-AF, I-TM, I-LC, B-QT
-5	##량	O	O	O, I-AF, I-LC, I-QT, I-TM
-6	##을	O	O	O, B-CV, I-AF, B-LC, I-QT
-7	높여	O	O	O, B-CV, B-LC, B-TM, B-PS
-8	##서	O	O	O, B-LC, B-CV, B-PS, B-TM
-9	위력	O	O	O, B-AF, B-LC, B-CV, B-TM
-10	##있	O	O	O, I-AF, I-LC, I-OG, B-LC
-11	##는	O	O	O, B-LC, B-CV, B-OG, B-TM
-12	그런	O	O	O, B-LC, B-CV, B-AF, B-OG
-13	어	O	O	O, B-AF, B-TM, B-CV, B-LC
-14	~	O	O	O, I-AF, I-CV, I-LC, I-OG
-15	미사일	B-AF	B-AF	B-AF, O, I-AF, B-MT, B-CV
-16	##을	O	O	O, I-AF, B-CV, I-OG, I-EV
-17	쏠	O	O	O, B-AF, B-LC, B-CV, B-PS
-18	수	O	O	O, I-AF, B-CV, B-LC, I-OG
-19	있	O	O	O, B-CV, B-LC, I-AF, B-TM
-20	##다	O	O	O, B-CV, B-LC, I-AF, B-OG
-21	##라는	O	O	O, B-CV, B-OG, B-LC, B-QT
-22	점	O	O	O, B-CV, B-LC, B-TM, B-OG
-23	##에	O	O	O, B-CV, B-OG, I-EV, B-LC
-24	[SEP]	O	O	O, B-CV, B-LC, B-AF, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	여기	O	O
+2	##에	O	O
+3	컨	O	B-CV
+4	##디	O	I-CV
+5	##셔	O	I-CV
+6	##너	O	I-CV
+7	##라는	O	O
+8	구운	O	O
+9	##흙	O	O
+10	##을	O	O
+11	뿌	O	O
+12	##립니다	O	O
+13	.	O	O
+14	[SEP]	O	O

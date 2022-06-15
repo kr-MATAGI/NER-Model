@@ -1,44 +1,35 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-EV, I-CV
-1	서병수	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-2	사무총장	B-CV	B-CV	B-CV, O, I-PS, I-CV, B-EV
-3	##은	O	O	O, I-CV, I-EV, B-CV, I-OG
-4	24	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-QT
-5	##일	I-DT	I-DT	I-DT, O, B-DT, I-EV, I-QT
-6	<	O	O	O, I-DT, B-OG, B-LC, B-CV
-7	한겨레	B-OG	B-OG	B-OG, O, B-AF, I-OG, B-LC
-8	>	O	O	O, I-OG, I-DT, I-AF, I-EV
-9	와의	O	O	O, B-OG, B-CV, I-OG, B-LC
-10	통화	O	O	O, B-LC, B-OG, I-EV, B-EV
-11	##에서	O	O	O, I-EV, B-LC, I-OG, B-OG
-12	“	O	O	O, B-LC, B-EV, B-PS, B-CV
-13	대선	B-EV	B-EV	B-EV, O, B-CV, B-AF, I-EV
-14	후보	B-CV	B-CV	B-CV, I-EV, O, I-CV, B-EV
-15	##를	O	O	O, I-CV, I-EV, B-CV, I-AF
-16	선출	O	O	O, B-EV, B-CV, I-EV, B-LC
-17	##하	O	O	O, B-EV, I-EV, B-PS, B-LC
-18	##는	O	O	O, B-EV, I-EV, B-LC, B-CV
-19	전당	B-EV	O	O, B-EV, I-EV, B-CV, B-LC
-20	##대	I-EV	O	O, I-EV, B-EV, I-OG, I-CV
-21	##회	I-EV	O	O, I-EV, B-EV, I-OG, I-LC
-22	##를	O	O	O, I-EV, I-OG, B-PS, B-LC
-23	8	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-LC
-24	##월	I-DT	I-DT	I-DT, O, B-DT, I-EV, I-PS
-25	##20	I-DT	I-DT	I-DT, O, B-DT, I-EV, I-PS
-26	##일	I-DT	I-DT	I-DT, O, B-DT, I-EV, I-QT
-27	##에	O	O	O, I-DT, I-EV, B-CV, B-LC
-28	하	O	O	O, B-OG, B-LC, B-EV, B-CV
-29	##는	O	O	O, B-LC, B-CV, B-OG, B-PS
-30	것	O	O	O, B-LC, B-CV, B-OG, B-PS
-31	##은	O	O	O, B-LC, B-CV, B-OG, B-PS
-32	이미	O	O	O, B-PS, B-LC, B-OG, B-CV
-33	정해진	O	O	O, B-LC, B-PS, B-CV, B-OG
-34	것	O	O	O, B-CV, B-PS, B-LC, B-OG
-35	”	O	O	O, B-CV, I-OG, I-EV, B-LC
-36	이라	O	O	O, B-CV, B-PS, B-OG, B-LC
-37	##고	O	O	O, B-CV, B-LC, B-OG, I-OG
-38	말	O	O	O, B-CV, B-LC, B-OG, B-TM
-39	##했	O	O	O, B-LC, B-CV, B-PS, B-OG
-40	##다	O	O	O, B-CV, B-LC, B-OG, I-OG
-41	.	O	O	O, B-LC, B-OG, B-CV, B-PS
-42	[SEP]	O	O	O, B-LC, B-CV, B-OG, I-EV
+	text	label	preds
+0	[CLS]	O	O
+1	1	B-TI	B-TI
+2	##시	I-TI	I-TI
+3	30	I-TI	I-TI
+4	##분	I-TI	I-TI
+5	##부터	I-TI	I-TI
+6	5	I-TI	I-TI
+7	##시	I-TI	I-TI
+8	30	I-TI	I-TI
+9	##분	I-TI	I-TI
+10	##까	I-TI	I-TI
+11	##지	I-TI	I-TI
+12	올림피아	B-EV	B-EV
+13	##드	I-EV	I-EV
+14	시험	I-EV	O
+15	##을	O	O
+16	치르	O	O
+17	##는	O	O
+18	4	B-TI	B-TI
+19	##시간	I-TI	I-TI
+20	내내	O	I-TI
+21	부모	B-CV	B-CV
+22	##들	O	O
+23	##도	O	O
+24	시험장	O	O
+25	밖에	O	O
+26	##서	O	O
+27	마음	O	O
+28	##을	O	O
+29	졸	O	O
+30	##였	O	O
+31	##다	O	O
+32	.	O	O
+33	[SEP]	O	O

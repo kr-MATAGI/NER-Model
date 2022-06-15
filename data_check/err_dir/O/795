@@ -1,61 +1,41 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-EV, I-OG, I-CV
-1	다음	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-QT
-2	달	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
-3	13	I-DT	I-DT	I-DT, B-DT, O, I-EV, I-QT
-4	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
-5	첫	O	O	O, B-QT, I-DT, B-EV, B-LC
-6	민주당	B-OG	B-OG	B-OG, O, B-EV, B-LC, B-CV
-7	대선	B-EV	B-EV	B-EV, O, I-EV, B-CV, I-OG
-8	후보	B-CV	B-CV	B-CV, I-EV, O, I-CV, B-EV
-9	TV	B-TM	B-TM	B-TM, O, I-TM, B-AF, B-OG
-10	토론	O	O	O, I-EV, I-TM, I-CV, I-QT
-11	,	O	O	O, B-CV, I-EV, B-OG, B-LC
-12	22	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-13	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-14	크리스토퍼	B-PS	B-PS	B-PS, B-OG, I-PS, O, B-LC
-15	스티븐	I-PS	I-PS	I-PS, O, I-OG, B-PS, I-DT
-16	##스	I-PS	I-PS	I-PS, O, I-LC, I-OG, I-DT
-17	대사	B-CV	B-CV	B-CV, O, I-CV, I-PS, B-LC
-18	등	O	O	O, I-CV, B-PS, I-EV, B-LC
-19	미국인	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-EV
-20	4	B-QT	B-QT	B-QT, I-QT, O, B-DT, I-CV
-21	##명	I-QT	I-QT	I-QT, O, I-PS, I-LC, I-DT
-22	##이	O	O	O, I-QT, B-PS, B-CV, B-LC
-23	숨진	O	O	O, B-LC, B-EV, B-DT, I-EV
-24	리비아	O	B-LC	B-LC, O, B-EV, B-AF, B-OG
-25	[UNK]	O	O	O, I-EV, I-LC, B-LC, I-DT
-26	사건	O	O	O, I-EV, B-LC, B-EV, I-LC
-27	하원	B-OG	B-OG	B-OG, O, B-EV, B-LC, I-EV
-28	청문회	O	O	O, I-EV, B-EV, I-OG, B-LC
-29	출두	O	O	O, I-EV, B-LC, B-CV, B-PS
-30	등	O	O	O, B-PS, B-LC, B-OG, I-EV
-31	'	O	O	O, B-LC, B-PS, B-DT, B-OG
-32	10	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-LC
-33	##월	I-DT	I-DT	I-DT, O, B-DT, I-EV, I-PS
-34	고비	O	O	O, B-PS, B-EV, B-LC, B-TR
-35	##론	O	O	O, I-PS, I-EV, I-TR, I-LC
-36	'	O	O	O, I-EV, B-LC, B-PS, I-PS
-37	을	O	O	O, B-PS, B-LC, B-OG, B-EV
-38	뚫	O	O	O, B-PS, B-LC, B-OG, B-EV
-39	##고	O	O	O, B-PS, B-LC, I-PS, B-OG
-40	힐러리	B-PS	B-PS	B-PS, O, I-PS, B-OG, B-LC
-41	##가	O	O	O, I-PS, B-PS, B-LC, I-OG
-42	반전	O	O	O, B-LC, B-CV, B-PS, B-OG
-43	##의	O	O	O, B-PS, B-LC, B-OG, I-EV
-44	계기	O	O	O, B-LC, B-PS, B-OG, B-CV
-45	##를	O	O	O, B-PS, B-LC, B-OG, B-CV
-46	만들	O	O	O, B-PS, B-LC, B-OG, B-EV
-47	##지가	O	O	O, B-LC, B-PS, B-EV, B-OG
-48	미국	B-LC	B-LC	B-LC, O, B-OG, B-EV, B-AF
-49	대선	B-EV	B-EV	B-EV, O, I-EV, B-CV, B-LC
-50	##의	O	O	O, I-EV, I-AF, I-OG, I-CV
-51	최대	O	O	O, B-LC, B-QT, B-CV, B-TM
-52	분수령	O	O	O, B-LC, B-EV, B-CV, B-PS
-53	##이	O	O	O, B-PS, B-OG, B-LC, B-CV
-54	될	O	O	O, B-LC, B-PS, B-CV, B-OG
-55	것	O	O	O, B-CV, B-LC, B-PS, B-OG
-56	##으로	O	O	O, B-CV, B-OG, B-LC, B-TM
-57	보인다	O	O	O, B-CV, B-LC, B-OG, B-TM
-58	.	O	O	O, B-LC, B-PS, B-OG, B-CV
-59	[SEP]	O	O	O, B-LC, B-CV, B-PS, I-EV
+	text	label	preds
+0	[CLS]	O	O
+1	대검	B-OG	B-OG
+2	중앙	O	B-OG
+3	##수사	O	I-OG
+4	##부	O	I-OG
+5	산하	O	O
+6	저축	O	B-OG
+7	##은행	O	I-OG
+8	비리	O	I-OG
+9	합동	O	I-OG
+10	##수사	O	I-OG
+11	##단	O	I-OG
+12	(	O	O
+13	단장	B-CV	B-CV
+14	최	B-PS	B-PS
+15	##운	I-PS	I-PS
+16	##식	I-PS	I-PS
+17	)	O	O
+18	은	O	O
+19	이날	B-DT	B-DT
+20	솔로몬	B-OG	B-OG
+21	##저축	I-OG	I-OG
+22	##은행	I-OG	I-OG
+23	##으로	O	O
+24	##부터	O	O
+25	금품	O	O
+26	##을	O	O
+27	받	O	O
+28	##은	O	O
+29	혐의	O	O
+30	##로	O	O
+31	정	B-PS	B-PS
+32	의원	B-CV	B-CV
+33	##을	O	O
+34	불러	O	O
+35	조사	O	O
+36	##했	O	O
+37	##다	O	O
+38	.	O	O
+39	[SEP]	O	O

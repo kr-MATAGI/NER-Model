@@ -1,37 +1,67 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	하지만	O	O	O, B-CV, B-OG, B-LC, B-PS
-2	시사	O	O	O, B-LC, B-OG, B-PS, B-CV
-3	(	O	O	O, I-LC, I-OG, B-LC, B-PS
-4	西	O	O	O, B-LC, B-OG, B-PS, I-LC
-5	[UNK]	O	O	O, B-LC, B-PS, I-LC, B-OG
-6	)	O	O	O, B-LC, B-OG, B-PS, I-LC
-7	군	O	O	O, B-LC, B-OG, B-PS, B-CV
-8	##도	O	O	O, I-LC, I-OG, B-LC, I-PS
-9	##에서	O	O	O, I-OG, I-LC, B-LC, B-PS
-10	중국	B-LC	B-OG	B-OG, B-LC, O, B-PS, I-OG
-11	##과	O	O	O, I-OG, I-LC, B-CV, B-OG
-12	영토	O	O	O, B-LC, B-OG, B-CV, B-PS
-13	갈등	O	O	O, B-PS, B-LC, I-LC, B-CV
-14	##을	O	O	O, B-PS, B-OG, B-CV, I-OG
-15	빚	O	O	O, B-OG, B-PS, B-LC, B-CV
-16	##는	O	O	O, B-OG, B-LC, B-PS, I-OG
-17	베트남	B-LC	B-OG	B-OG, B-LC, O, I-OG, B-PS
-18	##이	O	O	O, I-OG, B-PS, I-LC, I-PS
-19	적극	O	O	O, B-LC, B-CV, B-TM, B-OG
-20	구애	O	O	O, B-CV, B-LC, B-OG, B-PS
-21	##하면	O	O	O, I-CV, B-CV, B-LC, B-PS
-22	##서	O	O	O, B-CV, B-LC, B-OG, B-QT
-23	다시	O	O	O, B-LC, B-CV, B-OG, B-PS
-24	동남아시아	B-LC	B-LC	B-LC, O, B-OG, B-TM, I-LC
-25	진출	O	O	O, I-LC, B-CV, I-OG, I-EV
-26	##의	O	O	O, B-LC, B-PS, B-CV, B-OG
-27	교두보	O	O	O, B-LC, B-CV, B-QT, B-TM
-28	삼	O	O	O, B-PS, B-LC, I-QT, B-CV
-29	##아	O	O	O, B-LC, B-PS, B-CV, B-OG
-30	돌아오	O	O	O, B-CV, B-LC, B-PS, B-QT
-31	##고	O	O	O, B-CV, B-LC, B-PS, I-EV
-32	있	O	O	O, B-CV, B-LC, B-PS, I-OG
-33	##다	O	O	O, B-CV, B-LC, I-OG, B-PS
-34	.	O	O	O, B-LC, B-PS, B-CV, B-OG
-35	[SEP]	O	O	O, B-LC, B-CV, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	그	O	O
+2	##는	O	O
+3	""""	O	O
+4	당시	O	O
+5	유가족	B-CV	B-CV
+6	##들이	O	O
+7	분열	O	O
+8	##되	O	O
+9	##지	O	O
+10	않	O	O
+11	##고	O	O
+12	한	O	O
+13	몸	B-AM	B-AM
+14	##처럼	O	O
+15	움직여	O	O
+16	해군	B-OG	B-OG
+17	##과	O	O
+18	특별	O	O
+19	##한	O	O
+20	마찰	O	O
+21	없이	O	O
+22	사태	O	O
+23	##를	O	O
+24	마무리	O	O
+25	##한	O	O
+26	것	O	O
+27	##은	O	O
+28	잘	O	O
+29	##한	O	O
+30	일	O	O
+31	""""	O	O
+32	이라	O	O
+33	##면	O	O
+34	##서	O	O
+35	""""	O	O
+36	접근성	O	O
+37	##이	O	O
+38	떨어지	O	O
+39	##는	O	O
+40	평택	B-LC	B-LC
+41	해군	B-OG	B-OG
+42	##2	I-OG	I-OG
+43	##함	I-OG	I-OG
+44	##대	I-OG	I-OG
+45	##에	O	O
+46	천안	B-LC	B-AF
+47	##함	I-LC	I-AF
+48	안보	I-LC	B-LC
+49	##공원	I-LC	I-LC
+50	##을	O	O
+51	마련	O	O
+52	##한	O	O
+53	것	O	O
+54	##은	O	O
+55	다소	O	O
+56	아쉬운	O	O
+57	부분	O	O
+58	""""	O	O
+59	이라	O	O
+60	##고	O	O
+61	말	O	O
+62	##했	O	O
+63	##다	O	O
+64	.	O	O
+65	[SEP]	O	O

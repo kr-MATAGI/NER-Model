@@ -1,17 +1,12 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	뭐	O	O	O, B-CV, B-TM, B-OG, I-CV
-2	업무	B-CV	B-CV	B-CV, O, B-TM, B-OG, B-FD
-3	##방	I-CV	I-CV	I-CV, O, B-CV, I-TM, I-OG
-4	##해	I-CV	I-CV	I-CV, O, I-TM, I-OG, B-CV
-5	##로	O	O	O, I-CV, B-CV, I-OG, I-QT
-6	고소	B-CV	O	O, B-CV, I-CV, B-TM, B-AM
-7	##를	O	O	O, I-CV, B-CV, I-AF, I-EV
-8	하고	O	O	O, B-CV, I-CV, B-PS, B-TM
-9	막	O	O	O, B-CV, B-TM, B-OG, B-QT
-10	이러	O	O	O, B-CV, B-TM, B-LC, B-OG
-11	##지	O	O	O, B-CV, B-OG, B-TM, B-LC
-12	##는	O	O	O, B-CV, B-TM, B-OG, B-LC
-13	않	O	O	O, B-CV, B-LC, B-OG, B-TM
-14	##으면서	O	O	O, B-CV, B-LC, B-PS, B-OG
-15	[SEP]	O	O	O, B-CV, B-LC, B-TM, I-CV
+	text	label	preds
+0	[CLS]	O	O
+1	예	O	O
+2	그	O	O
+3	~	O	O
+4	멍	B-CV	B-CV
+5	##게	I-CV	I-CV
+6	비빔	O	I-CV
+7	비빔밥	B-CV	I-CV
+8	##인	O	O
+9	##데	O	O
+10	[SEP]	O	O

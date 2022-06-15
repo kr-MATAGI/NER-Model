@@ -1,18 +1,49 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-EV, I-OG, B-CV, I-CV
-1	이달	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-CV
-2	들어	O	O	O, I-DT, I-QT, I-OG, I-EV
-3	네	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-EV
-4	차례	I-QT	I-QT	I-QT, O, I-EV, I-DT, B-QT
-5	지역구	O	O	O, I-QT, B-LC, B-EV, B-OG
-6	##에서	O	O	O, I-EV, B-CV, B-LC, B-PS
-7	의정	B-EV	O	O, B-EV, B-CV, B-FD, B-LC
-8	##보	I-EV	O	O, I-EV, B-EV, I-OG, I-CV
-9	##고	I-EV	O	O, I-EV, B-EV, I-OG, I-LC
-10	##회	I-EV	O	O, I-EV, B-EV, I-OG, B-LC
-11	##를	O	O	O, I-EV, B-CV, I-OG, B-OG
-12	개최	O	O	O, B-CV, B-LC, B-EV, B-OG
-13	##했	O	O	O, B-CV, I-EV, B-OG, B-LC
-14	##다	O	O	O, B-CV, B-LC, I-EV, B-PS
-15	.	O	O	O, B-LC, B-CV, I-EV, B-EV
-16	[SEP]	O	O	O, I-EV, B-CV, B-LC, B-EV
+	text	label	preds
+0	[CLS]	O	O
+1	팀	B-OG	B-OG
+2	GM	I-OG	I-OG
+3	##P	I-OG	I-OG
+4	##는	O	O
+5	FI	B-EV	B-OG
+6	##NA	I-EV	I-OG
+7	청문회	I-EV	I-EV
+8	##가	O	O
+9	열리	O	O
+10	##기	O	O
+11	전	O	O
+12	##까	O	O
+13	##지	O	O
+14	비밀	O	O
+15	##을	O	O
+16	지켜야	O	O
+17	하	O	O
+18	##는	O	O
+19	규정	O	O
+20	##이	O	O
+21	있	O	O
+22	##음	O	O
+23	##에도	O	O
+24	'	O	O
+25	억울	O	O
+26	##하	O	O
+27	##게	O	O
+28	약물	O	O
+29	양성	O	O
+30	##반	O	O
+31	##응	O	O
+32	##이	O	O
+33	나왔	O	O
+34	##다	O	O
+35	'	O	O
+36	고	O	O
+37	여론	O	O
+38	##에	O	O
+39	호소	O	O
+40	##하	O	O
+41	##는	O	O
+42	전략	O	O
+43	##을	O	O
+44	썼	O	O
+45	##다	O	O
+46	.	O	O
+47	[SEP]	O	O

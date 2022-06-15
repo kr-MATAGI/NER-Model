@@ -1,11 +1,60 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, B-CV, I-OG, I-AF
-1	한번	O	B-QT	B-QT, O, I-QT, B-CV, B-TM
-2	잠깐	O	O	O, I-QT, B-CV, B-QT, B-PS
-3	와서	O	O	O, B-CV, B-PS, B-QT, I-QT
-4	보고	O	O	O, B-CV, B-QT, B-TM, B-PS
-5	가시	O	O	O, B-CV, B-QT, B-PS, B-TM
-6	##면	O	O	O, B-PS, I-QT, B-OG, B-QT
-7	아	O	O	O, B-CV, B-QT, B-PS, B-TM
-8	이	O	O	O, B-PS, B-QT, B-CV, B-OG
-9	[SEP]	O	O	O, B-CV, I-QT, B-PS, B-QT
+	text	label	preds
+0	[CLS]	O	O
+1	박선	B-PS	B-PS
+2	##규	I-PS	I-PS
+3	언론	O	B-CV
+4	##2	O	I-CV
+5	##비	B-CV	I-CV
+6	##서관	I-CV	I-CV
+7	##과	O	O
+8	정동	B-PS	B-PS
+9	##기	I-PS	I-PS
+10	민정	B-CV	B-CV
+11	##수	I-CV	I-CV
+12	##석	I-CV	I-CV
+13	##을	O	O
+14	포함	O	O
+15	##한	O	O
+16	7	B-QT	B-QT
+17	##명	I-QT	I-QT
+18	##은	O	O
+19	예금	O	O
+20	증가	O	O
+21	등	O	O
+22	##으로	O	O
+23	1	B-QT	B-QT
+24	##억	I-QT	I-QT
+25	원	I-QT	I-QT
+26	이상	I-QT	I-QT
+27	늘	O	O
+28	##었	O	O
+29	##고	O	O
+30	,	O	O
+31	김태	B-PS	B-PS
+32	##효	I-PS	I-PS
+33	대외	B-CV	B-CV
+34	##전	I-CV	I-CV
+35	##략	I-CV	I-CV
+36	##비	I-CV	I-CV
+37	##서관	I-CV	I-CV
+38	##과	O	O
+39	김은	B-PS	B-PS
+40	##혜	I-PS	I-PS
+41	부대	B-CV	B-CV
+42	##변	I-CV	I-CV
+43	##인	I-CV	I-CV
+44	##을	O	O
+45	비롯	O	O
+46	##한	O	O
+47	6	B-QT	B-QT
+48	##명	I-QT	I-QT
+49	##은	O	O
+50	1	B-QT	B-QT
+51	##억	I-QT	I-QT
+52	원	I-QT	I-QT
+53	이상	I-QT	I-QT
+54	감소	O	O
+55	##했	O	O
+56	##다	O	O
+57	.	O	O
+58	[SEP]	O	O

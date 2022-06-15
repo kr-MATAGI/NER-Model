@@ -1,22 +1,53 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-EV, B-CV, I-CV
-1	[	O	O	O, B-LC, B-OG, B-CV, B-PS
-2	남북	B-OG	B-OG	B-OG, B-LC, O, B-PS, B-CV
-3	##대	O	O	O, I-OG, I-EV, B-CV, I-LC
-4	##화	O	O	O, I-OG, I-EV, B-LC, I-LC
-5	급물살	O	O	O, B-LC, B-OG, B-PS, B-AF
-6	]	O	O	O, B-LC, B-OG, I-OG, B-PS
-7	출구	O	O	O, B-LC, B-OG, B-TM, B-PS
-8	찾	O	O	O, B-LC, B-OG, B-PS, B-CV
-9	##는	O	O	O, B-LC, B-OG, B-PS, B-TM
-10	北	B-LC	B-OG	B-OG, B-LC, O, B-CV, B-TM
-11	,	O	O	O, I-OG, I-LC, I-EV, B-LC
-12	현충	B-DT	B-DT	B-DT, O, B-EV, I-DT, B-AF
-13	##일	I-DT	I-DT	I-DT, O, I-EV, B-DT, I-AF
-14	##에	O	O	O, I-DT, I-EV, I-OG, I-AF
-15	대화	O	O	O, B-LC, B-OG, B-EV, B-CV
-16	##의	O	O	O, B-PS, I-EV, B-LC, I-OG
-17	손	B-AM	B-AM	B-AM, O, B-PS, B-TR, B-AF
-18	내밀	O	O	O, B-LC, B-OG, B-CV, B-PS
-19	##다	O	O	O, B-LC, B-OG, I-OG, I-EV
-20	[SEP]	O	O	O, B-LC, B-OG, B-CV, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	월스트리트	B-LC	B-OG
+2	투자	B-OG	I-OG
+3	##은행	I-OG	I-OG
+4	직원	B-CV	B-CV
+5	전모	O	O
+6	##씨	O	O
+7	##도	O	O
+8	""""	O	O
+9	미국	B-LC	B-LC
+10	회사	O	O
+11	내	O	O
+12	##에	O	O
+13	아시아	B-CV	B-CV
+14	##인	I-CV	I-CV
+15	몫	O	O
+16	##은	O	O
+17	정해져	O	O
+18	있	O	O
+19	##는데	O	O
+20	,	O	O
+21	중국	B-LC	B-LC
+22	파트너	B-CV	B-CV
+23	##들의	O	O
+24	영향	O	O
+25	##은	O	O
+26	커지	O	O
+27	##는	O	O
+28	반면	O	O
+29	한국	B-LC	B-LC
+30	파트너	B-CV	B-CV
+31	##들	O	O
+32	##은	O	O
+33	외부	O	O
+34	도움	O	O
+35	##이	O	O
+36	거의	O	O
+37	없	O	O
+38	##어	O	O
+39	입지	O	O
+40	##가	O	O
+41	점점	O	O
+42	줄어들	O	O
+43	##고	O	O
+44	있	O	O
+45	##다	O	O
+46	""""	O	O
+47	고	O	O
+48	전했	O	O
+49	##다	O	O
+50	.	O	O
+51	[SEP]	O	O

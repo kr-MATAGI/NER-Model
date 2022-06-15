@@ -1,35 +1,16 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-EV, I-CV
-1	이	O	O	O, B-OG, B-PS, B-CV, B-LC
-2	##는	O	O	O, B-CV, B-LC, B-OG, B-PS
-3	박광	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
-4	##태	I-PS	I-PS	I-PS, O, I-OG, B-PS, I-LC
-5	광주시장	O	B-CV	B-CV, O, B-LC, I-PS, B-OG
-6	##이	O	O	O, B-PS, B-CV, I-CV, B-LC
-7	당시	O	O	O, B-CV, B-OG, B-LC, I-EV
-8	광역	O	O	O, B-LC, B-CV, B-OG, B-TM
-9	##경제	O	O	O, I-LC, I-CV, I-OG, I-TM
-10	##권	O	O	O, I-LC, I-CV, I-OG, I-TM
-11	권역	O	O	O, B-LC, I-LC, B-CV, B-TM
-12	재조	O	O	O, I-LC, I-CV, B-LC, I-TM
-13	##정	O	O	O, I-LC, I-CV, B-LC, I-TM
-14	##을	O	O	O, B-PS, B-LC, B-CV, I-LC
-15	요구	O	O	O, B-CV, B-LC, B-OG, B-PS
-16	##하	O	O	O, B-PS, B-LC, B-CV, B-OG
-17	##며	O	O	O, B-LC, B-CV, B-OG, B-PS
-18	강력	O	O	O, B-CV, B-LC, B-TM, B-OG
-19	##하	O	O	O, B-PS, B-LC, B-OG, I-LC
-20	##게	O	O	O, B-LC, B-PS, B-OG, B-CV
-21	반발	O	O	O, B-CV, B-LC, B-PS, B-TM
-22	##했	O	O	O, B-LC, B-PS, B-CV, B-OG
-23	##던	O	O	O, B-LC, B-CV, B-PS, B-OG
-24	것	O	O	O, B-CV, B-LC, B-OG, B-PS
-25	##과	O	O	O, B-CV, B-LC, B-PS, B-OG
-26	비교	O	O	O, B-CV, B-TM, I-EV, B-LC
-27	##되	O	O	O, B-PS, I-OG, I-EV, B-LC
-28	##기	O	O	O, I-OG, B-PS, I-EV, B-LC
-29	##도	O	O	O, I-OG, I-EV, B-LC, I-QT
-30	했	O	O	O, B-CV, B-LC, I-EV, B-OG
-31	##다	O	O	O, B-CV, I-EV, B-LC, I-OG
-32	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-33	[SEP]	O	O	O, B-LC, B-CV, I-EV, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	넷째	B-QT	B-QT
+2	그	O	O
+3	거	O	O
+4	##국	O	O
+5	##내	O	O
+6	##각	O	O
+7	##을	O	O
+8	과도	O	B-OG
+9	##정부	O	I-OG
+10	##로	O	O
+11	구성	O	O
+12	##하	O	O
+13	##고	O	O
+14	[SEP]	O	O

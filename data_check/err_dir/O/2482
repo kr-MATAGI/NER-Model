@@ -1,43 +1,45 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	미국	B-LC	B-LC	B-LC, B-OG, O, B-AF, B-PS
-2	##의	O	O	O, I-LC, I-OG, B-LC, B-PS
-3	시장	B-OG	O	O, B-CV, B-OG, B-LC, B-TM
-4	##조사	I-OG	O	O, I-OG, I-CV, B-CV, I-LC
-5	##기	I-OG	O	O, I-OG, I-CV, B-CV, B-PS
-6	##관	I-OG	O	O, I-OG, I-CV, B-CV, B-OG
-7	I	I-OG	B-OG	B-OG, O, I-OG, B-AF, B-LC
-8	##HS	I-OG	I-OG	I-OG, O, B-OG, I-AF, I-CV
-9	##에	O	O	O, I-OG, I-AF, I-CV, I-EV
-10	따르	O	O	O, B-OG, I-OG, B-LC, B-CV
-11	##면	O	O	O, B-OG, B-LC, B-PS, B-CV
-12	지난해	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-13	전	O	O	O, B-LC, I-DT, B-OG, B-PS
-14	세계	O	O	O, B-LC, I-LC, B-OG, B-PS
-15	##에서	O	O	O, B-LC, B-AF, I-LC, B-PS
-16	친환경	O	B-AF	B-AF, O, B-CV, B-OG, I-AF
-17	##차	O	I-AF	I-AF, O, B-AF, I-OG, I-CV
-18	##는	O	O	O, I-AF, I-OG, I-CV, B-CV
-19	200	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-LC
-20	##만	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-21	대	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-22	가량	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-23	##이	O	O	O, I-QT, B-PS, B-OG, B-CV
-24	팔렸	O	O	O, B-CV, B-OG, B-LC, B-TM
-25	##고	O	O	O, B-LC, B-CV, B-OG, B-PS
-26	2020	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-27	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-28	##에	O	O	O, I-DT, I-AF, B-CV, I-EV
-29	##는	O	O	O, B-CV, B-QT, B-LC, B-OG
-30	600	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-EV
-31	##만	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-DT
-32	대	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-33	##에	O	O	O, I-QT, I-OG, B-CV, I-EV
-34	달할	O	O	O, B-LC, B-OG, B-QT, B-PS
-35	것	O	O	O, B-PS, B-CV, B-OG, B-QT
-36	##으로	O	O	O, B-CV, B-OG, B-PS, I-OG
-37	전망	O	O	O, B-OG, B-CV, B-TM, B-QT
-38	##된	O	O	O, I-OG, B-CV, B-PS, B-OG
-39	##다	O	O	O, B-CV, I-OG, B-TM, B-OG
-40	.	O	O	O, B-LC, B-OG, B-PS, B-CV
-41	[SEP]	O	O	O, B-LC, B-OG, B-CV, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	성	B-PS	B-PS
+2	##백	I-PS	I-PS
+3	##린	I-PS	I-PS
+4	연세대	B-OG	B-OG
+5	생명	O	O
+6	##과학	O	O
+7	##대	O	O
+8	교수	B-CV	B-CV
+9	##는	O	O
+10	“	O	O
+11	사이	B-TM	B-TM
+12	##토	I-TM	I-TM
+13	##카	I-TM	I-TM
+14	##인	I-TM	I-TM
+15	폭풍	O	I-TM
+16	##은	O	O
+17	우리	O	O
+18	몸	B-AM	B-AM
+19	##의	O	O
+20	면역	O	O
+21	##체	O	O
+22	##계	O	O
+23	##가	O	O
+24	신종	O	O
+25	바이러스	B-TM	B-TM
+26	##처럼	O	O
+27	낯선	O	O
+28	바이러스	B-TM	B-TM
+29	##와	O	O
+30	만났	O	O
+31	##을	O	O
+32	때	O	O
+33	일어날	O	O
+34	수	O	O
+35	있	O	O
+36	##다	O	O
+37	”	O	O
+38	고	O	O
+39	설명	O	O
+40	##했	O	O
+41	##다	O	O
+42	.	O	O
+43	[SEP]	O	O

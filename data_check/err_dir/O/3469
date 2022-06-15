@@ -1,38 +1,42 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-EV, I-CV
-1	보고서	O	O	O, B-OG, B-AF, B-CV, B-PS
-2	##는	O	O	O, B-OG, I-OG, B-LC, B-PS
-3	한국	B-LC	B-OG	B-OG, B-LC, O, B-PS, B-AF
-4	##에	O	O	O, I-OG, I-LC, B-OG, B-LC
-5	비용	O	O	O, B-LC, B-CV, I-OG, B-OG
-6	분담	O	O	O, B-LC, B-CV, B-OG, B-PS
-7	##을	O	O	O, B-LC, B-PS, B-OG, B-CV
-8	요구	O	O	O, B-CV, B-LC, B-OG, B-TM
-9	##할	O	O	O, B-LC, B-OG, B-PS, B-CV
-10	근거	O	O	O, B-LC, B-CV, B-OG, B-PS
-11	##로	O	O	O, B-LC, B-OG, B-PS, B-TM
-12	괌	O	B-LC	B-LC, B-OG, O, B-PS, B-AF
-13	##의	O	O	O, I-OG, I-LC, B-OG, B-LC
-14	군사력	O	O	O, B-CV, B-LC, B-TM, B-AF
-15	증강	O	O	O, B-LC, B-PS, B-CV, I-CV
-16	##이	O	O	O, B-PS, B-LC, B-OG, B-CV
-17	북한	B-LC	B-OG	B-OG, B-LC, O, B-PS, B-AF
-18	##의	O	O	O, I-OG, I-LC, B-LC, I-AF
-19	핵	B-AF	B-AF	B-AF, O, I-AF, B-MT, B-LC
-20	·	O	O	O, I-AF, I-LC, I-EV, I-CV
-21	미사일	B-AF	B-AF	B-AF, O, I-AF, B-MT, B-LC
-22	위협	O	O	O, I-AF, B-CV, I-EV, I-CV
-23	##에	O	O	O, B-CV, B-LC, B-PS, I-AF
-24	대한	O	O	O, B-LC, B-OG, B-PS, B-CV
-25	대응	O	O	O, B-LC, B-CV, B-PS, B-OG
-26	##의	O	O	O, B-LC, B-PS, B-OG, B-CV
-27	일환	O	O	O, B-LC, B-QT, B-PS, B-CV
-28	##이	O	O	O, B-PS, B-LC, B-OG, B-CV
-29	##라는	O	O	O, B-LC, B-PS, B-OG, B-CV
-30	점	O	O	O, B-CV, B-LC, B-TM, B-PS
-31	##을	O	O	O, B-CV, B-PS, B-LC, B-OG
-32	제시	O	O	O, B-CV, B-LC, B-OG, B-TM
-33	##했	O	O	O, B-LC, B-OG, I-OG, B-CV
-34	##다	O	O	O, I-OG, B-CV, B-OG, B-LC
-35	.	O	O	O, B-LC, B-OG, B-CV, B-PS
-36	[SEP]	O	O	O, B-LC, B-OG, B-CV, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	김한길	B-PS	B-PS
+2	대표	B-CV	B-CV
+3	##의	O	O
+4	노	B-PS	B-PS
+5	##웅	I-PS	I-PS
+6	##래	I-PS	I-PS
+7	비서실	B-CV	B-CV
+8	##장	I-CV	I-CV
+9	##은	O	O
+10	""""	O	O
+11	대화	O	O
+12	##의	O	O
+13	원칙	O	O
+14	##을	O	O
+15	밝힌	O	O
+16	것	O	O
+17	##일	O	O
+18	뿐	O	O
+19	아직	O	O
+20	3	B-QT	B-EV
+21	##자	I-QT	I-EV
+22	회담	O	I-EV
+23	##과	O	O
+24	관련	O	O
+25	##해	O	O
+26	구체	O	O
+27	##적	O	O
+28	제안	O	O
+29	##이	O	O
+30	오가	O	O
+31	##진	O	O
+32	않	O	O
+33	##았	O	O
+34	##다	O	O
+35	""""	O	O
+36	고	O	O
+37	했	O	O
+38	##다	O	O
+39	.	O	O
+40	[SEP]	O	O

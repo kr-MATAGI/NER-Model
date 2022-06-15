@@ -1,36 +1,26 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	오늘날	O	O	O, B-DT, B-CV, B-LC, B-FD
-2	일반인	O	B-CV	B-CV, O, I-CV, B-FD, B-OG
-3	##들	O	O	O, I-CV, B-CV, I-OG, I-AF
-4	##의	O	O	O, B-CV, B-LC, B-PS, B-FD
-5	일상	O	O	O, B-CV, B-FD, B-LC, I-CV
-6	##적인	O	O	O, B-CV, B-FD, I-CV, I-QT
-7	언어	O	O	O, B-CV, B-FD, I-CV, B-LC
-8	##와	O	O	O, B-CV, B-LC, B-PS, I-CV
-9	##는	O	O	O, B-CV, B-LC, B-OG, B-TM
-10	꽤	O	O	O, B-CV, B-OG, B-LC, B-TM
-11	거리	O	O	O, B-CV, B-TM, B-LC, B-PS
-12	##가	O	O	O, B-PS, B-OG, B-LC, B-CV
-13	있	O	O	O, B-CV, B-OG, B-LC, B-TM
-14	##는데	O	O	O, B-CV, B-LC, B-OG, B-PS
-15	좀	O	O	O, B-LC, B-CV, B-DT, B-QT
-16	더	O	O	O, B-LC, B-CV, B-FD, B-PS
-17	일상	O	O	O, B-FD, B-CV, B-LC, B-QT
-18	##적인	O	O	O, B-FD, B-CV, I-FD, I-CV
-19	언어	O	O	O, B-CV, B-FD, I-CV, I-FD
-20	##로	O	O	O, B-CV, I-CV, B-PS, B-LC
-21	번역	O	O	O, B-CV, B-FD, B-QT, B-LC
-22	##돼	O	O	O, B-LC, B-PS, I-CV, B-CV
-23	##야	O	O	O, B-LC, B-CV, B-PS, B-OG
-24	할	O	O	O, B-CV, B-LC, B-PS, B-OG
-25	것	O	O	O, B-CV, B-PS, B-LC, B-FD
-26	##인	O	O	O, B-CV, B-PS, B-OG, B-LC
-27	##데	O	O	O, B-CV, B-LC, B-OG, B-QT
-28	그렇게	O	O	O, B-CV, B-LC, B-OG, B-QT
-29	번역	O	O	O, B-CV, B-FD, B-QT, B-TM
-30	되	O	O	O, I-CV, B-LC, B-CV, B-PS
-31	##어야	O	O	O, B-CV, B-PS, I-CV, B-LC
-32	합니다	O	O	O, B-CV, B-LC, B-OG, B-QT
-33	.	O	O	O, B-CV, B-LC, B-FD, B-PS
-34	[SEP]	O	O	O, B-CV, B-LC, B-FD, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	벨기에	B-LC	B-LC
+2	‘	O	O
+3	3	B-QT	B-QT
+4	%	I-QT	I-QT
+5	고용	O	O
+6	’	O	O
+7	안	O	O
+8	##할	O	O
+9	##땐	O	O
+10	벌금	B-CV	O
+11	/	O	O
+12	미	B-LC	B-LC
+13	·	O	O
+14	영	O	B-LC
+15	##선	O	O
+16	세제	O	O
+17	##지	O	O
+18	##원	O	O
+19	·	O	O
+20	임금	O	O
+21	##보	O	O
+22	##조	O	O
+23	##도	O	O
+24	[SEP]	O	O

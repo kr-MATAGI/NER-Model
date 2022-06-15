@@ -1,31 +1,47 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	정부	B-OG	B-OG	B-OG, B-LC, B-AF, O, B-PS
-2	##가	O	O	O, I-OG, B-PS, I-AF, B-OG
-3	중상	O	O	O, B-CV, B-TM, B-LC, B-PS
-4	(	O	O	O, I-CV, B-PS, B-CV, I-LC
-5	重	O	O	O, I-CV, B-PS, B-CV, B-LC
-6	[UNK]	O	O	O, B-PS, B-LC, B-CV, I-CV
-7	)	O	O	O, B-PS, B-CV, B-LC, I-CV
-8	환자	B-CV	B-CV	B-CV, O, I-CV, B-PS, B-TM
-9	##를	O	O	O, I-CV, B-CV, B-PS, I-OG
-10	치료	O	O	O, B-CV, B-LC, B-TM, B-PS
-11	##하	O	O	O, B-PS, B-LC, B-CV, B-OG
-12	##는	O	O	O, B-LC, B-CV, B-OG, B-AF
-13	권역	O	B-OG	B-OG, B-AF, O, B-EV, B-CV
-14	##외	O	I-OG	I-OG, I-AF, O, I-EV, B-OG
-15	##상	O	I-OG	I-OG, I-AF, O, I-EV, I-CV
-16	##센터	O	I-OG	I-OG, I-AF, O, I-EV, I-CV
-17	##에	O	O	O, I-OG, I-AF, I-EV, I-CV
-18	대한	O	O	O, B-LC, B-OG, B-TM, B-DT
-19	지원	O	O	O, B-CV, B-TM, B-LC, B-OG
-20	##책	O	O	O, I-CV, I-LC, I-TM, B-LC
-21	##을	O	O	O, B-CV, B-LC, B-OG, B-PS
-22	조만간	O	O	O, B-DT, B-LC, B-QT, B-TM
-23	마련	O	O	O, B-CV, B-LC, I-DT, B-DT
-24	##하기	O	O	O, B-LC, B-PS, B-DT, B-OG
-25	##로	O	O	O, B-LC, B-CV, B-PS, I-OG
-26	했	O	O	O, B-LC, B-CV, B-OG, B-DT
-27	##다	O	O	O, B-CV, B-LC, I-OG, B-OG
-28	.	O	O	O, B-LC, B-PS, B-OG, B-CV
-29	[SEP]	O	O	O, B-LC, B-CV, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	사	O	B-CV
+2	##약	O	I-CV
+3	##을	O	O
+4	받아	O	O
+5	##든	O	O
+6	조광	B-PS	B-PS
+7	##조	I-PS	I-PS
+8	##는	O	O
+9	‘	O	O
+10	밝	O	O
+11	##고	O	O
+12	밝	O	O
+13	##은	O	O
+14	햇빛	O	O
+15	##이	O	O
+16	세상	O	O
+17	##을	O	O
+18	굽	O	O
+19	##어	O	O
+20	##보	O	O
+21	##고	O	O
+22	있	O	O
+23	##으니	O	O
+24	거짓	O	O
+25	없	O	O
+26	##는	O	O
+27	내	O	O
+28	마음	O	O
+29	##을	O	O
+30	훤	O	O
+31	##하	O	O
+32	##게	O	O
+33	비춰	O	O
+34	주리	O	O
+35	##라	O	O
+36	’	O	O
+37	는	O	O
+38	절	O	O
+39	##명	O	O
+40	##시	O	O
+41	##를	O	O
+42	남겼	O	O
+43	##다	O	O
+44	.	O	O
+45	[SEP]	O	O

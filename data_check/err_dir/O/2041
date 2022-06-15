@@ -1,27 +1,13 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	어	O	O	O, B-CV, B-TM, B-LC, B-OG
-2	~	O	O	O, B-CV, I-CV, I-AF, I-TM
-3	그러니까	O	O	O, B-CV, B-LC, B-TM, B-PS
-4	이런	O	O	O, B-CV, B-TM, B-LC, B-PS
-5	것	O	O	O, B-CV, B-PS, B-LC, B-QT
-6	##들이	O	O	O, B-PS, B-CV, B-LC, B-QT
-7	선행	O	O	O, B-CV, B-QT, B-TM, B-LC
-8	##이	O	O	O, B-PS, B-CV, I-CV, B-LC
-9	돼야	O	O	O, B-PS, I-CV, I-PS, B-CV
-10	그	O	O	O, B-CV, B-LC, B-TR, B-TM
-11	제너	O	O	O, B-TR, B-TM, B-FD, B-CV
-12	##러	O	O	O, I-TR, I-TM, I-FD, I-CV
-13	##틱	O	O	O, I-TR, I-TM, I-FD, I-CV
-14	제너	O	O	O, B-TR, I-TR, B-FD, B-TM
-15	##러	O	O	O, I-TR, B-TR, I-TM, I-FD
-16	##티브	O	O	O, I-TR, I-TM, B-TR, I-FD
-17	그래	O	O	O, B-TR, I-TR, B-TM, I-TM
-18	##머	O	I-TR	I-TR, O, I-TM, B-TR, I-FD
-19	##가	O	O	O, I-TR, I-TM, I-QT, B-CV
-20	어떻게	O	O	O, B-CV, B-TM, B-LC, B-OG
-21	작동	O	O	O, B-CV, B-TM, B-LC, B-PS
-22	##을	O	O	O, B-CV, I-OG, B-OG, I-AF
-23	할	O	O	O, B-CV, B-PS, B-LC, B-TM
-24	텐데	O	O	O, B-CV, B-LC, B-TM, B-OG
-25	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	▷	O	O
+2	##그	O	O
+3	##렇	O	O
+4	##다면	O	O
+5	메르스	B-TM	B-EV
+6	사태	O	I-EV
+7	##의	O	O
+8	책임	O	O
+9	##은	O	O
+10	?	O	O
+11	[SEP]	O	O

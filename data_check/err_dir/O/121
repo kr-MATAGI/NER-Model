@@ -1,8 +1,44 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, I-OG, B-CV, I-EV
-1	다진	O	B-CV	B-CV, O, B-PT, B-MT, I-CV
-2	마늘	B-CV	I-CV	I-CV, B-CV, O, B-PT, I-PT
-3	아	O	O	O, I-CV, B-CV, I-OG, I-QT
-4	아니	O	O	O, B-CV, I-CV, B-TM, B-OG
-5	근데	O	O	O, B-CV, B-OG, B-TM, B-LC
-6	[SEP]	O	O	O, B-CV, B-LC, B-TM, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	구자	B-PS	B-PS
+2	##홍	I-PS	I-PS
+3	LS	O	B-OG
+4	회장	B-CV	B-CV
+5	(	O	O
+6	사진	O	O
+7	)	O	O
+8	이	O	O
+9	올해	B-DT	B-DT
+10	초	I-DT	I-DT
+11	발표	O	O
+12	##한	O	O
+13	경영	O	O
+14	##철	O	O
+15	##학	O	O
+16	‘	O	O
+17	LS	B-OG	O
+18	##파	O	O
+19	##트	O	O
+20	##너	O	O
+21	##십	O	O
+22	’	O	O
+23	을	O	O
+24	전파	O	O
+25	##하	O	O
+26	##기	O	O
+27	위해	O	O
+28	국내외	O	O
+29	사업장	O	O
+30	##을	O	O
+31	돌	O	O
+32	##며	O	O
+33	현장	O	O
+34	경영	O	O
+35	##을	O	O
+36	강화	O	O
+37	##하	O	O
+38	##고	O	O
+39	있	O	O
+40	##다	O	O
+41	.	O	O
+42	[SEP]	O	O

@@ -1,8 +1,48 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, B-CV, I-OG, I-AF
-1	예	B-PS	B-PS	B-PS, B-LC, O, B-OG, B-AF
-2	##솔	I-PS	I-PS	I-PS, I-LC, O, I-OG, I-AF
-3	##이	I-PS	O	O, I-PS, B-PS, I-LC, I-AF
-4	##요	O	O	O, I-PS, B-CV, I-AF, B-PS
-5	?	O	O	O, B-PS, B-CV, B-LC, I-AF
-6	[SEP]	O	O	O, B-CV, B-PS, B-LC, I-CV
+	text	label	preds
+0	[CLS]	O	O
+1	남경필	B-PS	B-PS
+2	한나라당	B-OG	B-OG
+3	국회의원	B-CV	B-CV
+4	부인	B-CV	B-CV
+5	##이	B-PS	O
+6	연루	O	O
+7	##된	O	O
+8	고소	O	O
+9	##사건	O	O
+10	처리	O	O
+11	##과	O	O
+12	##정	O	O
+13	##을	O	O
+14	탐	O	O
+15	##문	O	O
+16	##한	O	O
+17	행위	O	O
+18	##에	O	O
+19	대해선	O	O
+20	이	O	B-PS
+21	전	O	O
+22	지원	B-CV	B-CV
+23	##관	I-CV	I-CV
+24	##과	O	O
+25	김	B-PS	B-PS
+26	##충	I-PS	I-PS
+27	##곤	I-PS	I-PS
+28	전	O	O
+29	점검	O	O
+30	##1	O	O
+31	##팀	B-CV	B-CV
+32	##장	I-CV	I-CV
+33	##에	O	O
+34	##게	O	O
+35	직권	O	O
+36	##남	O	O
+37	##용	O	O
+38	혐의	O	O
+39	##를	O	O
+40	적용	O	O
+41	##해	O	O
+42	기소	O	O
+43	##했	O	O
+44	##다	O	O
+45	.	O	O
+46	[SEP]	O	O

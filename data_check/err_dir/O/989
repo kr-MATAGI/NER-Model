@@ -1,20 +1,43 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	반	O	O	O, B-QT, B-DT, B-TM, B-AM
-2	지하	O	O	O, I-QT, B-TM, B-LC, I-LC
-3	##가	O	O	O, I-QT, B-PS, I-AF, I-CV
-4	있	O	O	O, B-CV, B-PS, B-LC, B-TM
-5	##고	O	O	O, B-CV, B-LC, B-PS, B-TM
-6	테라스	O	O	O, B-TM, B-CV, B-QT, B-LC
-7	##가	O	O	O, B-PS, B-CV, I-CV, I-AF
-8	적당히	O	O	O, B-QT, B-TM, B-LC, B-CV
-9	있	O	O	O, B-CV, B-PS, I-QT, B-LC
-10	##고	O	O	O, B-CV, B-LC, B-OG, B-PS
-11	그	O	O	O, B-CV, B-LC, B-TM, B-OG
-12	앞	O	B-TM	B-TM, O, B-QT, B-TR, B-CV
-13	##에	O	O	O, I-TM, B-CV, I-QT, I-CV
-14	인제	O	O	O, B-LC, B-CV, B-AF, B-TM
-15	잔디	B-PT	B-PT	B-PT, B-CV, O, I-PT, B-AM
-16	깔	O	O	O, I-CV, B-CV, I-EV, I-AF
-17	##고	O	O	O, B-CV, B-LC, B-OG, B-PS
-18	[SEP]	O	O	O, B-CV, B-LC, B-TM, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	부장	B-CV	B-CV
+2	##판	I-CV	I-CV
+3	##사	I-CV	I-CV
+4	출신	O	O
+5	##인	O	O
+6	한	O	O
+7	법조인	B-CV	B-CV
+8	##은	O	O
+9	“	O	O
+10	이	B-PS	B-PS
+11	화백	B-CV	B-CV
+12	##의	O	O
+13	주장	O	O
+14	##이	O	O
+15	거짓	O	O
+16	##일	O	O
+17	경우	O	O
+18	국가	O	O
+19	감정	O	O
+20	##기	O	O
+21	##관	O	O
+22	##에	O	O
+23	대한	O	O
+24	명예훼손	B-CV	B-CV
+25	##은	O	O
+26	물론	O	O
+27	##이	O	O
+28	##고	O	O
+29	법정	O	O
+30	##에	O	O
+31	##서	O	O
+32	위증	O	B-CV
+33	##죄	O	I-CV
+34	##로	O	O
+35	처벌	O	O
+36	##될	O	O
+37	수도	O	O
+38	있	O	O
+39	##다	O	O
+40	.	O	O
+41	[SEP]	O	O

@@ -1,39 +1,25 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-EV, I-CV
-1	국토	B-OG	B-OG	B-OG, O, B-LC, B-AF, B-CV
-2	##해	I-OG	I-OG	I-OG, O, I-CV, B-OG, I-EV
-3	##양	I-OG	I-OG	I-OG, O, I-CV, I-EV, B-OG
-4	##부	I-OG	I-OG	I-OG, O, I-CV, I-EV, I-LC
-5	##는	O	O	O, I-OG, I-EV, B-CV, I-CV
-6	21	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-LC
-7	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-8	경기도	B-LC	B-LC	B-LC, B-OG, O, B-AF, B-PS
-9	부천	B-LC	B-LC	B-LC, O, B-OG, I-LC, B-AF
-10	소사	B-LC	B-LC	B-LC, I-LC, O, B-OG, B-AF
-11	##동	I-LC	I-LC	I-LC, O, B-LC, I-AF, I-OG
-12	##과	O	O	O, I-LC, I-AF, B-LC, B-CV
-13	안산	B-LC	B-LC	B-LC, O, B-OG, B-AF, B-PS
-14	원시	B-LC	B-LC	B-LC, I-LC, O, B-OG, B-PS
-15	##동	I-LC	I-LC	I-LC, O, B-LC, I-AF, I-PS
-16	##을	O	O	O, I-LC, I-AF, B-LC, I-OG
-17	잇	O	O	O, B-LC, B-TM, B-AF, B-OG
-18	##는	O	O	O, B-TM, B-LC, B-AF, B-QT
-19	소사	B-LC	B-LC	B-LC, O, B-AF, B-OG, B-TM
-20	~	O	O	O, I-TM, I-LC, B-TM, I-AF
-21	원시	B-LC	B-LC	B-LC, I-TM, B-TM, I-LC, O
-22	복선	B-AF	B-TM	B-TM, I-TM, B-AF, O, I-AF
-23	##전	I-AF	I-TM	I-TM, I-AF, O, I-LC, I-OG
-24	##철	I-AF	I-TM	I-TM, I-AF, O, I-LC, I-CV
-25	민간	O	I-TM	I-TM, O, B-TM, I-AF, B-AF
-26	##투자	O	I-TM	I-TM, O, I-AF, I-OG, I-CV
-27	##사업	O	I-TM	I-TM, O, I-AF, I-OG, I-CV
-28	##의	O	O	O, I-TM, I-OG, I-AF, I-CV
-29	협약	O	O	O, B-CV, B-LC, B-OG, B-AF
-30	##을	O	O	O, B-CV, B-OG, B-LC, I-AF
-31	체결	O	O	O, B-LC, B-CV, B-OG, B-TM
-32	##했	O	O	O, B-LC, B-OG, B-PS, B-CV
-33	##다고	O	O	O, B-LC, B-OG, B-CV, B-DT
-34	밝혔	O	O	O, B-LC, B-OG, B-CV, B-DT
-35	##다	O	O	O, B-CV, B-LC, I-OG, B-OG
-36	.	O	O	O, B-LC, B-OG, B-TM, B-AF
-37	[SEP]	O	O	O, B-LC, B-OG, B-TM, B-CV
+	text	label	preds
+0	[CLS]	O	O
+1	매일	O	O
+2	밤	B-TI	B-TI
+3	진실	O	O
+4	##의	O	O
+5	촛불	O	O
+6	##을	O	O
+7	밝히	O	O
+8	##는	O	O
+9	성숙	O	O
+10	##한	O	O
+11	국민	B-CV	B-CV
+12	##들이	O	O
+13	국정원	B-AF	B-OG
+14	##을	O	O
+15	개혁	O	O
+16	##하	O	O
+17	##고	O	O
+18	##야	O	O
+19	말	O	O
+20	것	O	O
+21	##이다	O	O
+22	.	O	O
+23	[SEP]	O	O

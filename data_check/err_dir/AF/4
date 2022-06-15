@@ -1,14 +1,27 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-AF, I-CV, I-EV
-1	1995	B-DT	B-DT	B-DT, O, B-QT, I-DT, B-EV
-2	:	O	O	O, I-DT, I-OG, I-AF, I-QT
-3	연구	O	O	O, B-TM, B-AF, B-CV, I-AF
-4	##용	O	O	O, I-AF, I-TM, I-LC, I-CV
-5	원자로	O	B-TM	B-TM, O, I-TM, B-AF, B-MT
-6	‘	O	O	O, B-AF, I-TM, B-TM, I-AF
-7	하나	B-AF	B-AF	B-AF, B-TM, O, B-QT, B-OG
-8	##로	I-AF	I-TM	I-TM, I-AF, O, I-QT, I-OG
-9	’	O	O	O, I-AF, I-TM, I-OG, I-QT
-10	자력	O	O	O, B-LC, B-TM, B-OG, B-PS
-11	설계	O	O	O, I-TM, I-OG, B-CV, I-TR
-12	[SEP]	O	O	O, B-TM, B-CV, B-AF, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	용	O	O
+2	##비어	O	O
+3	##천	O	O
+4	##가와	O	O
+5	석	B-AF	B-LC
+6	##보	I-AF	I-LC
+7	##상	I-AF	I-LC
+8	##절	I-AF	I-LC
+9	##과	O	O
+10	월	B-AF	B-LC
+11	##인	I-AF	I-LC
+12	##천	I-AF	I-LC
+13	##강	I-AF	I-LC
+14	##지	I-AF	I-LC
+15	##곡	I-AF	I-LC
+16	##을	O	O
+17	대놓	O	O
+18	##고	O	O
+19	같이	O	O
+20	얘길	O	O
+21	했어요	O	O
+22	저희	O	O
+23	##들이	O	O
+24	.	O	O
+25	[SEP]	O	O

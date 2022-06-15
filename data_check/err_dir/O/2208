@@ -1,18 +1,28 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	퓰	O	B-PS	B-PS, O, B-OG, B-AF, B-CV
-2	##리	O	I-PS	I-PS, O, I-OG, I-AF, I-CV
-3	##처	O	I-PS	I-PS, O, I-OG, I-AF, I-CV
-4	[UNK]	O	O	O, I-PS, I-OG, I-AF, B-PS
-5	선택	O	O	O, B-CV, B-LC, B-PS, B-OG
-6	##은	O	O	O, B-LC, B-PS, B-CV, B-OG
-7	…	O	O	O, B-LC, B-PS, B-OG, B-CV
-8	국익	O	O	O, B-CV, B-LC, B-FD, B-OG
-9	##보	O	O	O, B-PS, B-CV, B-QT, B-LC
-10	##다	O	O	O, B-LC, B-PS, B-CV, I-QT
-11	국민	B-CV	B-CV	B-CV, O, B-OG, B-EV, B-AF
-12	##의	O	O	O, I-CV, I-AF, B-CV, I-OG
-13	알	O	O	O, B-CV, B-PS, B-AM, B-TM
-14	##권	O	O	O, I-CV, I-TR, I-PS, I-TM
-15	##리	O	O	O, I-CV, I-PS, I-TR, I-TM
-16	[SEP]	O	O	O, I-CV, B-LC, B-CV, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	▶	O	O
+2	##미	B-LC	B-LC
+3	##국	I-LC	I-LC
+4	기업	O	O
+5	##은	O	O
+6	밤	O	B-TI
+7	##늦	O	O
+8	##도록	O	O
+9	사무실	O	O
+10	##에	O	O
+11	남아	O	O
+12	일	O	O
+13	##하	O	O
+14	##는	O	O
+15	사람	O	O
+16	##을	O	O
+17	별로	O	O
+18	좋	O	O
+19	##아	O	O
+20	##하	O	O
+21	##지	O	O
+22	않	O	O
+23	##는	O	O
+24	##다	O	O
+25	.	O	O
+26	[SEP]	O	O

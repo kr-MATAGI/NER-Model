@@ -1,31 +1,34 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	(	O	O	O, B-OG, B-CV, B-PS, B-LC
-2	이상	O	B-PS	B-PS, O, B-LC, B-OG, B-CV
-3	##은	O	I-PS	I-PS, O, B-PS, I-LC, I-OG
-4	정치	O	O	O, B-OG, B-FD, B-CV, B-LC
-5	##부	O	O	O, I-OG, I-FD, I-LC, I-CV
-6	출신	O	O	O, I-OG, B-CV, B-PS, I-CV
-7	에디	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-OG
-8	##터	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-TM
-9	한	B-QT	B-QT	B-QT, O, I-QT, I-CV, B-DT
-10	명	I-QT	I-QT	I-QT, O, I-PS, I-LC, I-CV
-11	##과	O	O	O, I-QT, B-PS, B-CV, B-OG
-12	법조	O	O	O, B-FD, B-OG, B-CV, B-LC
-13	##팀	O	O	O, I-OG, I-CV, I-FD, B-OG
-14	출신	O	O	O, B-CV, B-PS, I-OG, I-CV
-15	팀장	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-OG
-16	한	B-QT	B-QT	B-QT, O, I-QT, I-CV, B-DT
-17	명	I-QT	I-QT	I-QT, O, I-PS, I-LC, B-QT
-18	##과	O	O	O, I-QT, B-CV, B-TM, B-OG
-19	나눈	O	O	O, B-CV, B-TM, B-PS, B-QT
-20	대화	O	O	O, B-TM, B-CV, B-QT, B-AM
-21	##를	O	O	O, B-CV, B-PS, B-OG, B-TM
-22	섞	O	O	O, B-CV, B-OG, B-LC, B-PS
-23	##어	O	O	O, B-CV, B-OG, B-PS, B-LC
-24	구성	O	O	O, B-CV, B-OG, B-LC, B-TM
-25	##했	O	O	O, B-OG, B-PS, B-CV, B-LC
-26	##다	O	O	O, B-CV, B-OG, B-LC, B-PS
-27	.	O	O	O, B-CV, B-LC, B-PS, B-OG
-28	)	O	O	O, B-CV, B-OG, B-LC, B-TM
-29	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	이날	B-DT	B-DT
+2	법정	O	O
+3	##에	O	O
+4	##서는	O	O
+5	지난달	B-DT	B-DT
+6	25	I-DT	I-DT
+7	##일	I-DT	I-DT
+8	재판부	O	O
+9	##가	O	O
+10	직권	O	O
+11	##으로	O	O
+12	선정	O	O
+13	##한	O	O
+14	박	B-PS	B-PS
+15	전	O	O
+16	대통령	B-CV	B-CV
+17	##의	O	O
+18	국	O	B-CV
+19	##선	O	I-CV
+20	##변	B-CV	I-CV
+21	##호	I-CV	I-CV
+22	##인	I-CV	I-CV
+23	5	B-QT	B-QT
+24	##명	I-QT	I-QT
+25	##이	O	O
+26	처음	O	O
+27	모습	O	O
+28	##을	O	O
+29	드러냈	O	O
+30	##다	O	O
+31	.	O	O
+32	[SEP]	O	O

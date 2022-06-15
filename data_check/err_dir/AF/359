@@ -1,26 +1,32 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	고맙	O	O	O, B-CV, B-OG, B-PS, B-LC
-2	##습	O	O	O, I-OG, I-CV, I-AF, B-PS
-3	##니다	O	O	O, I-OG, B-PS, I-AF, I-EV
-4	네	O	O	O, B-CV, B-EV, B-QT, B-LC
-5	.	O	O	O, B-PS, I-QT, I-CV, I-DT
-6	장관	B-CV	B-CV	B-CV, O, B-OG, B-PS, I-CV
-7	##님	O	O	O, I-CV, I-EV, I-AF, I-OG
-8	나오	O	O	O, B-CV, B-PS, I-CV, B-LC
-9	##시	O	O	O, B-CV, B-PS, I-AF, B-LC
-10	##는	O	O	O, B-CV, B-PS, B-LC, I-AF
-11	거	O	O	O, B-PS, B-CV, B-LC, B-OG
-12	서	B-AF	B-PS	B-PS, O, B-CV, B-TR, B-AF
-13	##편	I-AF	I-PS	I-PS, O, I-CV, I-TR, I-AF
-14	##제	I-AF	O	O, I-PS, I-CV, I-TR, I-AF
-15	##는	O	O	O, I-PS, I-CV, I-AF, I-QT
-16	제	O	O	O, B-CV, B-LC, B-PS, B-OG
-17	##가	O	O	O, B-PS, B-CV, B-LC, B-OG
-18	지금	O	O	O, B-CV, B-LC, B-OG, B-PS
-19	인제	O	O	O, B-CV, B-LC, B-OG, B-PS
-20	기억	O	O	O, B-CV, B-TM, B-LC, B-PS
-21	##이	O	O	O, B-PS, B-CV, B-LC, B-OG
-22	남	O	O	O, B-CV, B-LC, B-PS, B-TM
-23	##는데	O	O	O, B-CV, B-LC, I-AF, B-PS
-24	[SEP]	O	O	O, B-CV, B-LC, B-PS, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	이	O	O
+2	밖에	O	O
+3	아우디	B-OG	B-OG
+4	##는	O	O
+5	조만간	O	O
+6	뉴	B-AF	B-AF
+7	##아	I-AF	I-AF
+8	##우	I-AF	I-AF
+9	##디	I-AF	I-AF
+10	A	I-AF	B-AF
+11	##5	I-AF	I-AF
+12	카	I-AF	I-AF
+13	##브리	I-AF	I-AF
+14	##올	I-AF	I-AF
+15	##렛	I-AF	I-AF
+16	,	O	O
+17	뉴	B-AF	B-AF
+18	##아	I-AF	I-AF
+19	##우	I-AF	I-AF
+20	##디	I-AF	I-AF
+21	R	I-AF	B-AF
+22	##8	I-AF	I-AF
+23	스파이더	I-AF	I-AF
+24	##를	O	O
+25	출시	O	O
+26	##할	O	O
+27	예정	O	O
+28	##이다	O	O
+29	.	O	O
+30	[SEP]	O	O

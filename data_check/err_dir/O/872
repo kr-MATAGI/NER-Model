@@ -1,7 +1,36 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, I-AF, B-CV
-1	그래야	O	O	O, B-CV, B-LC, B-TM, B-OG
-2	##지	O	O	O, B-CV, I-CV, B-PS, B-LC
-3	기름	O	B-CV	B-CV, O, B-MT, I-CV, B-PT
-4	##이	O	O	O, I-CV, I-AF, I-OG, I-EV
-5	[SEP]	O	O	O, B-CV, I-CV, B-LC, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	시속	B-QT	B-QT
+2	십	I-QT	I-QT
+3	##에	O	O
+4	##서	O	O
+5	십	B-QT	B-QT
+6	##오	I-QT	I-QT
+7	##키	I-QT	I-QT
+8	##로	I-QT	I-QT
+9	##미터	I-QT	I-QT
+10	속도	O	O
+11	##로	O	O
+12	정문	O	O
+13	##에	O	O
+14	##서	O	O
+15	대학	O	O
+16	##본	O	O
+17	##불	O	O
+18	지나	O	O
+19	공학	O	B-AF
+20	##관	O	I-AF
+21	##까	O	O
+22	##지	O	O
+23	일	B-QT	B-QT
+24	##점	I-QT	I-QT
+25	이	I-QT	I-QT
+26	##키	I-QT	I-QT
+27	##로	I-QT	I-QT
+28	##미터	I-QT	I-QT
+29	거	O	O
+30	##릴	O	O
+31	왕복	O	O
+32	##합니다	O	O
+33	.	O	O
+34	[SEP]	O	O

@@ -1,13 +1,12 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-EV
-1	[	O	O	O, B-OG, B-LC, B-DT, B-AF
-2	조선	O	B-OG	B-OG, B-AF, O, I-OG, B-LC
-3	##데스	O	I-OG	I-OG, O, I-AF, B-OG, I-TM
-4	##크	O	I-OG	I-OG, O, I-AF, I-CV, I-TM
-5	]	O	O	O, I-OG, I-AF, I-EV, I-DT
-6	뒤바	O	O	O, B-PS, B-LC, B-OG, B-CV
-7	##뀐	O	O	O, B-PS, B-LC, I-AF, I-PS
-8	벼랑	O	O	O, B-AF, B-LC, B-TM, B-PS
-9	끝	O	O	O, I-AF, I-PS, I-LC, B-PS
-10	전술	O	O	O, B-CV, B-AF, B-TM, B-LC
-11	[SEP]	O	O	O, B-CV, B-LC, I-AF, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	의	B-CV	B-CV
+2	##붓	I-CV	I-CV
+3	##아들	I-CV	I-CV
+4	최	O	B-PS
+5	##모	O	O
+6	씨	O	O
+7	##에	O	O
+8	따르	O	O
+9	##면	O	O
+10	[SEP]	O	O

@@ -1,29 +1,18 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-EV, I-OG, B-CV, I-CV
-1	우	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-2	명예	B-CV	B-CV	B-CV, O, I-CV, I-PS, B-TM
-3	##주	I-CV	I-CV	I-CV, O, B-CV, I-PS, I-EV
-4	##석	I-CV	I-CV	I-CV, O, B-CV, I-PS, I-TM
-5	##은	O	O	O, I-CV, I-EV, B-CV, I-OG
-6	13	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-7	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
-8	시진핑	B-PS	B-PS	B-PS, O, I-PS, B-OG, I-DT
-9	주석	B-CV	B-CV	B-CV, O, I-PS, I-CV, B-EV
-10	##과	O	O	O, I-CV, I-EV, B-CV, B-EV
-11	국공	B-OG	B-EV	B-EV, O, B-OG, B-CV, I-EV
-12	(	O	O	O, I-EV, I-OG, I-CV, I-DT
-13	國	O	O	O, I-EV, I-OG, B-OG, I-DT
-14	共	O	O	O, I-EV, I-OG, I-DT, B-OG
-15	·	O	O	O, I-EV, I-OG, I-DT, I-AF
-16	국민당	B-OG	B-OG	B-OG, I-OG, O, I-EV, B-EV
-17	##과	O	O	O, I-OG, I-EV, B-EV, I-DT
-18	공산당	B-OG	B-OG	B-OG, O, B-EV, I-OG, I-EV
-19	)	O	O	O, I-EV, I-OG, B-EV, I-DT
-20	수뇌	O	O	O, I-EV, B-EV, I-OG, B-CV
-21	회담	O	I-EV	I-EV, O, I-OG, B-EV, I-CV
-22	##을	O	O	O, I-EV, I-OG, I-AF, B-CV
-23	가질	O	O	O, B-CV, B-OG, B-EV, I-EV
-24	예정	O	O	O, B-CV, B-OG, I-EV, B-LC
-25	##이다	O	O	O, B-CV, I-EV, I-OG, B-LC
-26	.	O	O	O, B-LC, B-OG, I-EV, B-EV
-27	[SEP]	O	O	O, I-EV, B-EV, B-LC, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	서강대	B-OG	B-OG
+2	##에	O	O
+3	##서도	O	O
+4	이번	O	B-DT
+5	주	O	I-DT
+6	##에	O	O
+7	##는	O	O
+8	체육관	O	O
+9	오픈	O	O
+10	##을	O	O
+11	못	O	O
+12	##한다	O	O
+13	해	O	O
+14	가지	O	O
+15	##고	O	O
+16	[SEP]	O	O

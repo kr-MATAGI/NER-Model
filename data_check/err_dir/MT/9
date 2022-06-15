@@ -1,24 +1,97 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	주로	O	O	O, B-TM, B-LC, B-CV, B-OG
-2	가스	B-MT	O	O, B-MT, B-FD, B-TR, B-TM
-3	##사고	O	O	O, I-TM, I-CV, I-AF, I-EV
-4	예방	O	O	O, B-CV, I-TM, I-CV, I-AF
-5	##을	O	O	O, B-CV, B-PS, I-CV, B-TM
-6	위한	O	O	O, B-CV, B-LC, B-TM, B-PS
-7	기술	O	O	O, B-CV, B-TM, B-FD, B-LC
-8	봉사	O	O	O, I-CV, B-CV, I-TM, I-OG
-9	##로	O	O	O, I-CV, I-OG, B-PS, B-CV
-10	,	O	O	O, B-CV, B-LC, B-OG, B-PS
-11	대표	O	O	O, B-LC, B-CV, B-PS, B-TM
-12	##적인	O	O	O, B-PS, B-LC, I-QT, B-QT
-13	것	O	O	O, B-PS, B-LC, B-OG, B-CV
-14	##이	O	O	O, B-PS, B-LC, B-OG, B-AF
-15	가스	O	O	O, B-TM, B-MT, B-TR, B-CV
-16	##시설	O	O	O, I-TM, I-MT, I-CV, I-TR
-17	무료	O	I-TM	I-TM, O, B-TM, I-CV, I-TR
-18	개선	O	I-TM	I-TM, O, I-CV, I-TR, I-OG
-19	##사업	O	I-TM	I-TM, O, I-CV, I-TR, I-OG
-20	##이다	O	O	O, I-TM, I-CV, I-OG, I-QT
-21	.	O	O	O, B-CV, I-TM, B-TM, B-LC
-22	[SEP]	O	O	O, B-CV, B-TM, I-TM, I-CV
+	text	label	preds
+0	[CLS]	O	O
+1	정	B-PS	B-PS
+2	회장	B-CV	B-CV
+3	##은	O	O
+4	""""	O	O
+5	멕시코	B-LC	B-LC
+6	##에	O	O
+7	##는	O	O
+8	이미	O	O
+9	두	O	O
+10	개의	O	O
+11	서비스	O	O
+12	##센터	O	O
+13	##와	O	O
+14	물류	O	O
+15	##기지	O	O
+16	##를	O	O
+17	운영	O	O
+18	##하	O	O
+19	##고	O	O
+20	있	O	O
+21	##고	O	O
+22	미국	B-LC	B-LC
+23	동남	B-TM	B-TM
+24	##부	I-TM	I-TM
+25	##에	O	O
+26	서비스	O	O
+27	##센터	O	O
+28	##를	O	O
+29	추가	O	O
+30	##로	O	O
+31	건설	O	O
+32	##해	O	O
+33	CG	B-MT	B-AF
+34	##L	I-MT	I-AF
+35	##공	O	I-AF
+36	##장	O	I-AF
+37	##을	O	O
+38	거점	O	O
+39	##으로	O	O
+40	자동차	B-AF	B-AF
+41	##강	O	B-MT
+42	##판	O	I-MT
+43	사업	O	O
+44	##을	O	O
+45	계속	O	O
+46	확장	O	O
+47	##할	O	O
+48	생각	O	O
+49	""""	O	O
+50	이라	O	O
+51	##며	O	O
+52	""""	O	O
+53	2010	B-DT	B-DT
+54	##년	I-DT	I-DT
+55	##에	I-DT	I-DT
+56	##서	I-DT	I-DT
+57	2012	I-DT	I-DT
+58	##년	I-DT	I-DT
+59	사이	I-DT	I-DT
+60	##에	O	O
+61	##는	O	O
+62	800	B-QT	B-QT
+63	##만	I-QT	I-QT
+64	##t	I-QT	I-QT
+65	##의	O	O
+66	자동차	B-AF	B-AF
+67	##강	O	B-MT
+68	##판	O	I-MT
+69	##을	O	O
+70	개발	O	O
+71	·	O	O
+72	생산	O	O
+73	##해	O	O
+74	명실	O	O
+75	##공	O	O
+76	##히	O	O
+77	기술	O	O
+78	##을	O	O
+79	리드	O	O
+80	##하	O	O
+81	##는	O	O
+82	글로벌	O	O
+83	철강	B-MT	B-MT
+84	##사	O	O
+85	##로	O	O
+86	발돋움	O	O
+87	##하	O	O
+88	##겠다	O	O
+89	""""	O	O
+90	고	O	O
+91	말	O	O
+92	##했	O	O
+93	##다	O	O
+94	.	O	O
+95	[SEP]	O	O

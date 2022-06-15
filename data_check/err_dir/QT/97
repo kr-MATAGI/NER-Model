@@ -1,32 +1,36 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	국어	B-FD	B-FD	B-FD, O, I-FD, B-AF, B-TR
-2	##학	I-FD	I-FD	I-FD, O, B-FD, I-AF, I-OG
-3	##은	O	O	O, I-FD, I-AF, I-OG, I-QT
-4	그때	O	O	O, B-CV, B-TM, B-OG, B-LC
-5	왠	O	O	O, B-PS, B-CV, B-QT, B-LC
-6	일인	O	O	O, B-QT, B-CV, I-QT, B-LC
-7	##지	O	O	O, I-QT, B-QT, I-LC, I-CV
-8	일	B-QT	O	O, B-QT, I-QT, B-CV, B-PS
-9	##집	I-QT	I-QT	I-QT, O, I-LC, I-PS, I-CV
-10	##나	O	O	O, I-QT, B-QT, B-PS, B-CV
-11	##오	O	O	O, I-QT, B-QT, B-PS, B-CV
-12	##고	O	O	O, I-QT, B-PS, B-QT, I-CV
-13	이	B-QT	O	O, B-QT, B-PS, B-LC, B-CV
-14	##집	I-QT	O	O, I-QT, B-QT, I-PS, I-LC
-15	##이	O	O	O, I-QT, B-PS, B-CV, I-AF
-16	뭐	O	O	O, B-CV, I-QT, B-TM, I-AF
-17	~	O	O	O, B-CV, I-QT, B-LC, B-QT
-18	굉장히	O	O	O, B-CV, B-TM, B-LC, B-QT
-19	오래	O	O	O, B-QT, B-CV, B-LC, B-PS
-20	있	O	O	O, B-CV, B-QT, B-TM, I-QT
-21	##다가	O	O	O, B-CV, B-QT, I-QT, B-LC
-22	나와서	O	O	O, B-CV, B-QT, B-TM, B-LC
-23	읽	O	O	O, B-CV, B-TM, B-QT, B-AF
-24	##을	O	O	O, B-CV, I-AF, B-TM, I-OG
-25	수	O	O	O, B-CV, B-TM, B-LC, B-QT
-26	##가	O	O	O, B-CV, I-AF, B-TM, B-OG
-27	없	O	O	O, B-CV, B-TM, B-QT, I-AF
-28	##었	O	O	O, B-CV, B-TM, B-OG, B-LC
-29	##고	O	O	O, B-CV, I-AF, B-TM, I-OG
-30	[SEP]	O	O	O, B-CV, I-AF, B-LC, B-QT
+	text	label	preds
+0	[CLS]	O	O
+1	마흔	B-QT	B-QT
+2	살	I-QT	I-QT
+3	넘	I-QT	O
+4	##게	I-QT	O
+5	현역	O	O
+6	##으로	O	O
+7	뛰	O	O
+8	##는	O	O
+9	선수	B-CV	B-CV
+10	##들	O	O
+11	##도	O	O
+12	더러	O	O
+13	있	O	O
+14	##으나	O	O
+15	,	O	O
+16	해	O	O
+17	##마	O	O
+18	##다	O	O
+19	이	O	O
+20	##들	O	O
+21	##에	O	O
+22	##겐	O	O
+23	‘	O	O
+24	은퇴	O	O
+25	’	O	O
+26	라는	O	O
+27	그림자	O	O
+28	##가	O	O
+29	짙	O	O
+30	##게	O	O
+31	드리	O	O
+32	##운다	O	O
+33	.	O	O
+34	[SEP]	O	O

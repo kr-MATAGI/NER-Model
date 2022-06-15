@@ -1,43 +1,12 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	접수	O	O	O, B-TM, B-CV, B-OG, B-LC
-2	##결	O	O	O, B-TM, B-CV, B-OG, B-PS
-3	##과	O	O	O, B-PS, B-CV, B-OG, B-LC
-4	자격	O	O	O, B-CV, B-LC, B-TM, B-OG
-5	##조건	O	O	O, I-OG, B-LC, B-PS, I-CV
-6	##을	O	O	O, B-CV, B-PS, B-OG, B-LC
-7	갖춘	O	O	O, B-PS, B-LC, B-QT, B-CV
-8	8	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-EV
-9	##명	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-10	##의	O	O	O, I-QT, B-PS, I-OG, I-EV
-11	후보	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-AF
-12	##가	O	O	O, I-CV, I-QT, I-AF, B-PS
-13	신청	O	O	O, B-CV, B-TM, B-OG, B-AF
-14	##했	O	O	O, B-CV, B-PS, B-OG, B-LC
-15	##고	O	O	O, B-CV, I-OG, I-AF, B-PS
-16	,	O	O	O, B-CV, B-OG, B-LC, B-TM
-17	이	O	O	O, B-PS, B-OG, B-CV, B-QT
-18	##들	O	O	O, B-CV, I-OG, B-PS, I-AF
-19	##은	O	O	O, B-CV, B-LC, B-OG, B-TM
-20	의사	B-CV	O	O, B-CV, B-TM, B-QT, I-CV
-21	##직	O	O	O, I-CV, I-QT, I-TM, B-CV
-22	5	B-QT	B-QT	B-QT, O, I-QT, I-CV, B-DT
-23	##명	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-24	##과	O	O	O, I-QT, B-CV, I-OG, I-AF
-25	간호	O	B-CV	B-CV, O, B-TM, I-CV, B-QT
-26	##직	O	O	O, I-CV, I-QT, I-TM, B-CV
-27	출신	O	O	O, I-CV, B-CV, B-PS, I-QT
-28	1	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-PS
-29	##명	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-30	,	O	O	O, I-QT, B-CV, I-OG, B-TM
-31	보건	O	O	O, B-CV, B-TM, B-QT, B-FD
-32	##직	O	O	O, I-CV, I-QT, B-CV, I-TM
-33	공무원	B-CV	B-CV	B-CV, I-CV, O, I-QT, B-QT
-34	2	B-QT	B-QT	B-QT, I-QT, I-CV, O, B-DT
-35	##명	I-QT	I-QT	I-QT, O, B-QT, I-CV, I-LC
-36	등	O	O	O, I-QT, B-CV, B-TM, I-AF
-37	##이	O	O	O, B-CV, B-PS, B-OG, B-TM
-38	##었	O	O	O, B-CV, B-OG, B-TM, B-PS
-39	##다	O	O	O, B-CV, B-TM, I-OG, B-OG
-40	.	O	O	O, B-CV, B-PS, B-LC, B-OG
-41	[SEP]	O	O	O, B-CV, B-PS, B-LC, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	■	O	O
+2	10	B-DT	B-DT
+3	##일	I-DT	I-DT
+4	크로아티아	B-EV	B-EV
+5	##전	I-EV	I-EV
+6	‘	O	O
+7	키	O	B-CV
+8	플레이어	B-CV	I-CV
+9	’	O	O
+10	[SEP]	O	O

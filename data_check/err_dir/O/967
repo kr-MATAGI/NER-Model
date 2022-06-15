@@ -1,21 +1,52 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	산업	O	B-OG	B-OG, O, I-OG, B-LC, B-CV
-2	##부	O	I-OG	I-OG, O, I-CV, I-EV, B-OG
-3	##는	O	O	O, I-OG, B-CV, I-EV, I-CV
-4	국내	O	O	O, B-LC, B-OG, B-TM, B-FD
-5	원전	O	O	O, B-AF, B-FD, B-TM, B-LC
-6	해체	O	O	O, I-AF, B-CV, I-OG, B-LC
-7	기술	O	O	O, B-LC, B-CV, B-PS, B-OG
-8	##을	O	O	O, B-CV, B-OG, B-LC, I-OG
-9	선진국	O	O	O, B-OG, B-LC, B-CV, B-EV
-10	대비	O	O	O, I-OG, B-QT, B-TM, B-CV
-11	70	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-LC
-12	%	I-QT	I-QT	I-QT, O, I-LC, I-OG, I-PS
-13	수준	O	O	O, I-QT, I-OG, B-QT, I-EV
-14	##으로	O	O	O, I-QT, B-QT, B-OG, B-PS
-15	평가	O	O	O, B-CV, I-QT, B-OG, I-OG
-16	##했	O	O	O, B-OG, B-CV, B-LC, B-PS
-17	##다	O	O	O, B-CV, B-LC, I-OG, B-OG
-18	.	O	O	O, B-LC, B-OG, B-CV, B-PS
-19	[SEP]	O	O	O, B-LC, B-OG, B-CV, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	검찰	B-OG	B-OG
+2	##이	O	O
+3	추	B-PS	B-PS
+4	전	O	O
+5	국장	B-CV	B-CV
+6	##의	O	O
+7	공소장	O	O
+8	##에	O	O
+9	우	B-PS	B-PS
+10	전	O	O
+11	수석	B-CV	B-CV
+12	##과	O	O
+13	최	B-PS	B-PS
+14	전	O	O
+15	차장	B-CV	B-CV
+16	##을	O	O
+17	공범	O	B-CV
+18	##으로	O	O
+19	적시	O	O
+20	##한	O	O
+21	것	O	O
+22	##은	O	O
+23	조사	O	O
+24	과정	O	O
+25	##에	O	O
+26	##서	O	O
+27	불법	O	O
+28	##적	O	O
+29	##인	O	O
+30	사찰	O	O
+31	결과	O	O
+32	##가	O	O
+33	‘	O	O
+34	비선	O	O
+35	보고	O	O
+36	’	O	O
+37	되	O	O
+38	##는	O	O
+39	구체	O	O
+40	##적	O	O
+41	##인	O	O
+42	과정	O	O
+43	##이	O	O
+44	확인	O	O
+45	##됐	O	O
+46	##기	O	O
+47	때문	O	O
+48	##이다	O	O
+49	.	O	O
+50	[SEP]	O	O

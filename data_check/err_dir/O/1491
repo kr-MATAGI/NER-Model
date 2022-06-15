@@ -1,44 +1,34 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-EV, I-CV, I-OG, I-QT
-1	예상	O	O	O, B-CV, B-PS, B-OG, B-TM
-2	밖	O	O	O, B-PS, B-CV, B-TM, B-LC
-3	##의	O	O	O, B-PS, B-CV, B-OG, B-LC
-4	공동	O	O	O, B-CV, B-OG, B-PS, B-TM
-5	선두	B-CV	O	O, B-CV, I-CV, B-PS, B-OG
-6	##에	O	O	O, I-CV, I-OG, B-PS, I-QT
-7	오른	O	O	O, B-PS, B-OG, B-LC, B-CV
-8	레	B-PS	B-PS	B-PS, O, I-PS, B-OG, B-LC
-9	##시	I-PS	I-PS	I-PS, O, I-OG, B-PS, I-LC
-10	##먼	I-PS	I-PS	I-PS, O, B-PS, I-OG, I-LC
-11	##은	O	O	O, I-PS, I-EV, I-OG, B-LC
-12	2006	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-13	##년	I-DT	I-DT	I-DT, O, I-PS, I-QT, B-DT
-14	한국	B-EV	B-EV	B-EV, B-LC, B-AF, I-EV, B-OG
-15	##프로	I-EV	I-EV	I-EV, O, B-EV, I-DT, I-LC
-16	##골	I-EV	I-EV	I-EV, O, I-AF, I-LC, I-DT
-17	##프	I-EV	I-EV	I-EV, O, I-AF, I-LC, I-DT
-18	##투어	I-EV	I-EV	I-EV, O, I-AF, I-LC, I-DT
-19	(	O	O	O, I-EV, I-DT, B-EV, B-DT
-20	KG	B-EV	B-EV	B-EV, I-EV, O, B-LC, B-AF
-21	##T	I-EV	I-EV	I-EV, O, I-LC, I-AF, I-DT
-22	)	O	O	O, I-EV, I-DT, B-EV, I-OG
-23	지산	B-AF	B-EV	B-EV, B-LC, I-EV, B-AF, B-PS
-24	##리	I-AF	I-EV	I-EV, I-LC, I-AF, O, I-PS
-25	##조	I-AF	I-EV	I-EV, I-LC, I-AF, O, I-OG
-26	##트	I-AF	I-EV	I-EV, I-LC, I-AF, O, I-OG
-27	오픈	O	I-EV	I-EV, O, I-AF, I-LC, I-DT
-28	##에서	O	O	O, I-EV, I-DT, B-LC, B-PS
-29	우승	O	O	O, B-CV, B-EV, B-PS, B-LC
-30	##하	O	O	O, B-PS, B-LC, I-EV, I-CV
-31	##는	O	O	O, B-PS, B-LC, B-CV, I-EV
-32	등	O	O	O, B-LC, B-PS, B-OG, B-EV
-33	한국	B-LC	B-LC	B-LC, B-OG, O, I-LC, B-PS
-34	##에서	O	O	O, I-LC, I-PS, I-OG, I-EV
-35	##도	O	O	O, B-LC, B-PS, I-EV, I-LC
-36	선수	B-CV	B-CV	B-CV, O, B-EV, I-CV, B-PS
-37	생활	O	O	O, I-CV, I-EV, I-OG, I-DT
-38	##을	O	O	O, B-CV, B-PS, I-EV, I-CV
-39	했	O	O	O, B-PS, B-CV, B-LC, B-OG
-40	##다	O	O	O, B-CV, B-LC, B-PS, I-EV
-41	.	O	O	O, B-PS, B-LC, I-EV, B-CV
-42	[SEP]	O	O	O, B-LC, B-PS, I-EV, B-CV
+	text	label	preds
+0	[CLS]	O	O
+1	현대	B-OG	B-OG
+2	##는	O	O
+3	대기	O	O
+4	##업	O	O
+5	##이	O	O
+6	##라는	O	O
+7	말	O	O
+8	##이	O	O
+9	무색	O	O
+10	##할	O	O
+11	만큼	O	O
+12	사	O	O
+13	##세	O	O
+14	(	O	O
+15	社	O	O
+16	勢	O	O
+17	)	O	O
+18	가	O	O
+19	위축	O	O
+20	##됐	O	O
+21	##고	O	O
+22	현대차	B-OG	B-OG
+23	##는	O	O
+24	글로벌	O	O
+25	자동차	B-AF	B-OG
+26	##그룹	O	I-OG
+27	##으로	O	O
+28	성장	O	O
+29	##했	O	O
+30	##다	O	O
+31	.	O	O
+32	[SEP]	O	O

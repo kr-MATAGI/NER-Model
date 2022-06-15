@@ -1,56 +1,40 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-EV, I-CV
-1	존	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
-2	킹	I-PS	I-PS	I-PS, O, I-OG, B-PS, I-LC
-3	<	O	O	O, B-OG, I-OG, I-PS, B-LC
-4	시	B-OG	B-OG	B-OG, O, I-OG, B-AF, B-LC
-5	##엔	I-OG	I-OG	I-OG, O, I-AF, B-OG, I-LC
-6	##엔	I-OG	I-OG	I-OG, O, I-AF, B-OG, I-LC
-7	>	O	O	O, I-OG, B-OG, I-AF, I-CV
-8	국내	O	O	O, B-CV, B-LC, I-OG, B-PS
-9	##담	O	O	O, I-OG, I-CV, B-PS, I-LC
-10	##당	O	O	O, I-QT, I-OG, I-CV, I-LC
-11	총괄	B-CV	O	O, B-CV, I-CV, B-QT, B-PS
-12	기자	I-CV	B-CV	B-CV, I-CV, O, I-QT, B-OG
-13	##는	O	O	O, I-CV, I-QT, I-OG, B-CV
-14	“	O	O	O, B-CV, B-LC, B-PS, B-OG
-15	오바마	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-16	대통령	B-CV	B-CV	B-CV, O, I-PS, I-CV, B-EV
-17	##이	O	O	O, I-CV, I-EV, B-PS, I-AF
-18	토론회	O	O	O, B-EV, I-EV, B-CV, B-LC
-19	##를	O	O	O, I-EV, B-CV, B-PS, B-LC
-20	지배했	O	O	O, B-CV, B-PS, B-LC, B-OG
-21	##다	O	O	O, B-CV, B-PS, I-OG, I-CV
-22	”	O	O	O, B-CV, B-LC, B-PS, B-OG
-23	며	O	O	O, B-LC, B-CV, B-OG, B-TM
-24	“	O	O	O, B-CV, B-LC, B-OG, B-PS
-25	그러나	O	O	O, B-PS, B-CV, B-LC, B-OG
-26	롬니	B-PS	B-PS	B-PS, O, I-PS, B-OG, B-LC
-27	후보	B-CV	B-CV	B-CV, O, I-PS, I-CV, B-EV
-28	##는	O	O	O, I-CV, I-EV, I-AF, B-CV
-29	1	B-QT	B-QT	B-QT, B-EV, O, B-TM, B-DT
-30	##차	I-QT	I-QT	I-QT, I-EV, O, I-TM, I-DT
-31	토론	O	O	O, I-EV, I-QT, B-EV, I-OG
-32	##에서	O	O	O, I-EV, B-CV, I-QT, B-LC
-33	딴	O	O	O, B-PS, B-LC, B-QT, B-TM
-34	점수	O	O	O, B-QT, I-QT, B-CV, B-PS
-35	##를	O	O	O, B-CV, B-LC, B-PS, B-OG
-36	잃	O	O	O, B-CV, B-LC, B-TM, B-QT
-37	##지	O	O	O, B-LC, B-CV, B-PS, B-QT
-38	않	O	O	O, B-LC, B-PS, B-CV, B-QT
-39	##는	O	O	O, B-LC, B-PS, B-QT, B-CV
-40	안전	O	O	O, B-LC, B-PS, B-TM, B-CV
-41	##한	O	O	O, B-PS, B-LC, I-LC, I-PS
-42	길	O	O	O, B-LC, B-PS, B-QT, I-LC
-43	##을	O	O	O, B-PS, B-CV, B-LC, B-OG
-44	선택	O	O	O, B-CV, B-LC, B-PS, B-QT
-45	##한	O	O	O, B-PS, B-CV, B-LC, B-OG
-46	것	O	O	O, B-PS, B-CV, B-LC, B-OG
-47	같	O	O	O, B-CV, B-PS, I-OG, B-LC
-48	##다	O	O	O, B-CV, I-OG, I-CV, I-EV
-49	”	O	O	O, B-CV, B-TM, B-OG, B-LC
-50	고	O	O	O, B-CV, B-TM, B-QT, B-LC
-51	평했	O	O	O, B-CV, B-QT, B-TM, B-PS
-52	##다	O	O	O, B-CV, B-TM, I-CV, B-QT
-53	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-54	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	정치	B-CV	B-CV
+2	##부	I-CV	I-CV
+3	##장	I-CV	I-CV
+4	##과	O	O
+5	보도	O	B-CV
+6	##본부	B-CV	I-CV
+7	##장	I-CV	I-CV
+8	등	O	O
+9	요직	O	O
+10	##을	O	O
+11	거친	O	O
+12	최	O	B-PS
+13	수석	O	B-CV
+14	##은	O	O
+15	2011	B-DT	B-DT
+16	##년	I-DT	I-DT
+17	9	I-DT	I-DT
+18	##월	I-DT	I-DT
+19	청와대	B-AF	B-OG
+20	홍보	B-CV	B-CV
+21	##수	I-CV	I-CV
+22	##석	I-CV	I-CV
+23	##으로	O	O
+24	발표	O	O
+25	##될	O	O
+26	당시	O	O
+27	에스	B-OG	B-OG
+28	##비	I-OG	I-OG
+29	##에스	I-OG	I-OG
+30	방송	O	O
+31	##지	O	O
+32	##원	O	O
+33	##본부	O	O
+34	##장이	O	O
+35	##었	O	O
+36	##다	O	O
+37	.	O	O
+38	[SEP]	O	O

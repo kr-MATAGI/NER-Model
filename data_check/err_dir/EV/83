@@ -1,39 +1,65 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, I-OG, I-EV, B-CV
-1	1994	B-DT	B-DT	B-DT, O, B-QT, I-DT, B-EV
-2	##년	I-DT	I-DT	I-DT, O, I-QT, B-DT, I-EV
-3	미국	B-EV	B-EV	B-EV, O, B-LC, B-OG, B-AF
-4	##월드	I-EV	I-EV	I-EV, B-EV, O, I-OG, I-AF
-5	##컵	I-EV	I-EV	I-EV, O, B-EV, I-OG, I-AF
-6	독일	B-OG	B-OG	B-OG, B-LC, I-EV, I-OG, O
-7	##과	O	O	O, I-OG, I-EV, B-OG, B-CV
-8	##의	O	O	O, I-EV, B-EV, I-OG, B-LC
-9	조별	O	B-EV	B-EV, O, I-EV, B-OG, B-CV
-10	예선	B-EV	I-EV	I-EV, B-EV, O, I-OG, B-OG
-11	마지막	O	O	O, I-EV, B-EV, B-QT, B-DT
-12	경기	O	O	O, I-EV, B-EV, B-CV, B-LC
-13	##에	O	O	O, I-EV, B-CV, I-CV, I-OG
-14	##선	O	O	O, B-LC, B-CV, B-TM, I-EV
-15	경기	O	O	O, B-CV, B-EV, B-LC, I-EV
-16	시작	O	O	O, B-CV, B-TM, I-EV, B-LC
-17	12	B-TI	B-TI	B-TI, B-EV, O, B-QT, I-TI
-18	##분	I-TI	I-TI	I-TI, O, I-EV, I-QT, I-TR
-19	만	O	I-TI	I-TI, O, I-QT, I-EV, I-TR
-20	##에	O	O	O, I-TI, I-QT, B-QT, I-EV
-21	첫	B-QT	O	O, B-QT, B-TM, B-EV, B-AF
-22	골	I-QT	B-TM	B-TM, I-QT, I-TM, O, B-QT
-23	##을	O	O	O, I-QT, I-TM, I-AF, I-CV
-24	내주	O	O	O, B-CV, B-TM, B-LC, B-QT
-25	##는	O	O	O, B-TM, B-CV, B-LC, B-QT
-26	등	O	O	O, B-TM, B-QT, B-LC, B-CV
-27	전반	B-TI	B-TI	B-TI, O, B-EV, B-QT, I-TI
-28	##에	O	O	O, I-TI, I-QT, I-EV, I-TM
-29	##만	O	O	O, I-QT, I-TI, B-QT, I-DT
-30	3	B-QT	B-QT	B-QT, B-TM, O, I-QT, B-TI
-31	##골	I-QT	I-QT	I-QT, I-TM, O, I-EV, I-LC
-32	##을	O	O	O, I-QT, I-TM, I-EV, B-CV
-33	먹	O	O	O, B-CV, I-QT, B-QT, B-TM
-34	##었	O	O	O, B-CV, B-TM, I-QT, B-QT
-35	##다	O	O	O, B-CV, B-TM, I-QT, B-QT
-36	.	O	O	O, B-CV, B-LC, I-EV, B-OG
-37	[SEP]	O	O	O, B-CV, I-EV, B-LC, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	최근	O	O
+2	몇	O	O
+3	달	O	O
+4	##간	O	O
+5	북한	B-OG	B-OG
+6	##이	O	O
+7	대륙	B-AF	B-AF
+8	##간	I-AF	I-AF
+9	##탄	I-AF	I-AF
+10	##도	I-AF	I-AF
+11	##미사	I-AF	I-AF
+12	##일	I-AF	I-AF
+13	(	O	O
+14	ICBM	B-AF	B-AF
+15	)	O	O
+16	을	O	O
+17	2	B-QT	B-QT
+18	##차례	I-QT	I-QT
+19	발사	O	O
+20	##하	O	O
+21	##는	O	O
+22	등	O	O
+23	한반도	B-LC	B-LC
+24	정세	O	O
+25	##는	O	O
+26	급격히	O	O
+27	악화	O	O
+28	##됐	O	O
+29	##지만	O	O
+30	,	O	O
+31	문	B-PS	B-PS
+32	대통령	B-CV	B-CV
+33	##의	O	O
+34	대북	O	O
+35	정책	O	O
+36	##은	O	O
+37	여전히	O	O
+38	'	O	O
+39	6	B-EV	B-EV
+40	·	I-EV	I-EV
+41	15	I-EV	I-EV
+42	선언	I-EV	I-EV
+43	17	I-EV	B-DT
+44	##주	I-EV	I-DT
+45	##년	I-EV	I-DT
+46	축사	I-EV	O
+47	'	O	O
+48	,	O	O
+49	'	O	O
+50	7	B-DT	B-DT
+51	##월	I-DT	I-DT
+52	베를린	B-LC	B-LC
+53	구상	O	O
+54	'	O	O
+55	에	O	O
+56	머물러	O	O
+57	있	O	O
+58	##다는	O	O
+59	지적	O	O
+60	##이	O	O
+61	나온다	O	O
+62	.	O	O
+63	[SEP]	O	O

@@ -1,22 +1,23 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-EV, I-CV, B-CV
-1	미	B-LC	B-LC	B-LC, B-OG, O, B-PS, B-AF
-2	국무부	B-OG	B-OG	B-OG, I-OG, B-LC, O, B-AF
-3	##는	O	O	O, I-OG, I-EV, I-AF, B-LC
-4	이스라엘	B-LC	B-LC	B-LC, B-OG, O, B-PS, B-AF
-5	##의	O	O	O, I-LC, B-LC, I-OG, I-EV
-6	유엔	B-AF	B-OG	B-OG, O, B-AF, I-OG, B-EV
-7	##학교	I-AF	I-OG	I-OG, O, I-AF, I-EV, I-LC
-8	포격	O	O	O, I-EV, I-OG, I-AF, B-CV
-9	##을	O	O	O, I-EV, I-AF, I-OG, B-CV
-10	두고	O	O	O, B-LC, B-OG, B-DT, B-PS
-11	3	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-QT
-12	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-13	이례	O	O	O, I-DT, B-LC, B-CV, B-OG
-14	##적으로	O	O	O, B-LC, B-OG, B-PS, I-EV
-15	“	O	O	O, B-LC, B-CV, B-OG, B-PS
-16	수치	O	O	O, B-LC, B-CV, B-FD, B-PS
-17	##스럽	O	O	O, I-EV, I-AF, I-OG, I-LC
-18	##다	O	O	O, B-LC, I-OG, B-CV, I-EV
-19	.	O	O	O, B-LC, B-OG, B-CV, B-PS
-20	[SEP]	O	O	O, B-LC, B-CV, B-OG, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	<	O	O
+2	반지	B-AF	B-AF
+3	##의	I-AF	I-AF
+4	제왕	I-AF	I-AF
+5	>	O	O
+6	에서	O	O
+7	반지	B-AF	B-OG
+8	##원	I-AF	I-OG
+9	##정	I-AF	I-OG
+10	##대	I-AF	I-OG
+11	##가	O	O
+12	폐기	O	O
+13	##하	O	O
+14	##려	O	O
+15	##는	O	O
+16	바로	O	O
+17	그	O	O
+18	반지	O	O
+19	##다	O	O
+20	.	O	O
+21	[SEP]	O	O

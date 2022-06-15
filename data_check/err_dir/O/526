@@ -1,59 +1,20 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	특히	O	O	O, B-OG, B-CV, B-TM, B-LC
-2	대한항공	B-OG	B-OG	B-OG, O, B-LC, B-AF, I-OG
-3	##의	O	O	O, I-OG, I-AF, I-CV, I-EV
-4	경우	O	O	O, B-CV, B-TM, B-OG, B-LC
-5	사내	B-CV	B-CV	B-CV, O, B-TM, B-FD, B-OG
-6	##이	I-CV	I-CV	I-CV, B-CV, O, I-QT, I-OG
-7	##사	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-QT
-8	6	B-QT	B-QT	B-QT, O, I-CV, I-QT, B-DT
-9	##명	I-QT	I-QT	I-QT, O, B-QT, I-CV, I-PS
-10	가운데	O	O	O, B-TM, I-QT, B-QT, B-LC
-11	4	B-QT	B-QT	B-QT, I-QT, O, B-DT, B-TM
-12	##명	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-TM
-13	##이	O	O	O, I-QT, B-PS, B-LC, B-OG
-14	오너	O	B-CV	B-CV, O, B-PS, I-CV, B-OG
-15	일가	O	O	O, B-CV, I-CV, B-PS, B-QT
-16	##인	O	O	O, B-PS, B-CV, I-CV, B-OG
-17	##데	O	O	O, B-PS, B-LC, B-OG, B-CV
-18	,	O	O	O, B-CV, B-LC, B-OG, B-PS
-19	독립	O	O	O, B-CV, B-PS, B-LC, B-TM
-20	##적인	O	O	O, B-PS, B-LC, I-PS, B-CV
-21	위치	O	O	O, B-CV, B-PS, B-LC, B-TM
-22	##에서	O	O	O, B-PS, B-LC, B-CV, I-PS
-23	이	O	O	O, B-PS, B-OG, B-CV, B-LC
-24	##들	O	O	O, B-PS, I-PS, B-CV, B-LC
-25	##을	O	O	O, B-PS, B-CV, B-LC, B-TM
-26	견제	O	O	O, B-CV, B-PS, B-TR, B-TM
-27	##해야	O	O	O, B-PS, B-CV, I-CV, I-PS
-28	할	O	O	O, B-CV, B-PS, B-TM, B-LC
-29	사외	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-OG
-30	##이	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-QT
-31	##사	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-QT
-32	##들	O	O	O, I-CV, I-OG, I-QT, B-CV
-33	##조	O	O	O, B-PS, B-LC, B-CV, B-OG
-34	##차	O	O	O, B-OG, B-LC, B-PS, B-TM
-35	대부분	O	O	O, B-QT, B-OG, B-LC, B-TM
-36	대한항공	B-OG	B-OG	B-OG, O, B-LC, B-AF, I-OG
-37	##과	O	O	O, I-OG, B-CV, I-AF, B-PS
-38	이해관계	O	O	O, B-CV, B-TM, B-LC, B-OG
-39	##에	O	O	O, B-CV, B-OG, B-PS, B-LC
-40	얽혀	O	O	O, B-LC, B-TM, B-CV, B-OG
-41	있	O	O	O, B-PS, B-LC, B-CV, B-OG
-42	##어	O	O	O, B-LC, B-PS, B-OG, B-CV
-43	‘	O	O	O, B-CV, B-LC, B-OG, B-PS
-44	이해	O	O	O, B-CV, B-TM, B-LC, B-PS
-45	##상	O	O	O, B-PS, B-LC, B-CV, B-EV
-46	##충	O	O	O, B-PS, I-LC, I-EV, I-PS
-47	문제	O	O	O, B-PS, B-LC, B-CV, I-EV
-48	’	O	O	O, B-CV, B-OG, B-LC, B-PS
-49	에서	O	O	O, B-LC, B-CV, B-PS, B-OG
-50	자유	O	O	O, B-CV, B-LC, B-TM, B-OG
-51	##롭	O	O	O, B-PS, I-OG, I-LC, B-LC
-52	##지	O	O	O, B-LC, I-OG, B-PS, I-LC
-53	않	O	O	O, B-LC, B-CV, B-PS, I-OG
-54	##았	O	O	O, B-CV, B-LC, B-OG, B-PS
-55	##다	O	O	O, B-CV, B-TM, B-LC, B-OG
-56	.	O	O	O, B-LC, B-PS, B-CV, B-OG
-57	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	저자	O	B-CV
+2	##는	O	O
+3	일본	B-EV	B-EV
+4	후쿠시마	I-EV	I-EV
+5	원전	I-EV	I-EV
+6	사고	I-EV	I-EV
+7	##에	O	O
+8	관해	O	O
+9	‘	O	O
+10	과학	O	B-FD
+11	##은	O	O
+12	완벽	O	O
+13	##하	O	O
+14	##지	O	O
+15	않	O	O
+16	##다	O	O
+17	.	O	O
+18	[SEP]	O	O

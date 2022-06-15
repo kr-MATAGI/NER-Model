@@ -1,33 +1,89 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	우즈	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-2	##는	O	O	O, I-PS, B-CV, I-OG, I-EV
-3	올	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-QT
-4	2	I-DT	I-DT	I-DT, O, I-EV, I-QT, I-PS
-5	##월	I-DT	I-DT	I-DT, O, I-EV, I-QT, I-PS
-6	피닉스	B-EV	B-EV	B-EV, O, I-EV, B-LC, B-CV
-7	##오	I-EV	I-EV	I-EV, O, I-AF, B-EV, I-LC
-8	##픈	I-EV	I-EV	I-EV, O, I-AF, I-LC, I-QT
-9	##에서	O	O	O, I-EV, I-AF, I-QT, I-OG
-10	프로	O	B-CV	B-CV, O, I-CV, B-TM, B-EV
-11	데뷔	O	O	O, I-CV, I-EV, I-QT, I-OG
-12	최악	O	O	O, B-CV, B-QT, B-TM, B-PS
-13	##의	O	O	O, B-TM, B-QT, B-PS, B-OG
-14	스코어	O	O	O, B-TM, B-QT, B-OG, B-CV
-15	(	O	O	O, B-CV, I-QT, I-OG, I-TM
-16	2	B-EV	B-EV	B-EV, B-QT, O, B-DT, B-AF
-17	##라	I-EV	I-EV	I-EV, I-QT, O, I-AF, B-EV
-18	##운드	I-EV	I-EV	I-EV, I-QT, O, I-AF, I-OG
-19	82	B-QT	B-QT	B-QT, I-EV, I-QT, B-EV, B-TM
-20	##타	I-QT	I-QT	I-QT, I-EV, I-TM, I-AF, O
-21	)	O	O	O, I-QT, I-EV, I-OG, I-TM
-22	를	O	O	O, B-CV, B-OG, B-TM, B-LC
-23	기록	O	O	O, B-CV, B-TM, B-OG, B-LC
-24	##하	O	O	O, B-LC, B-CV, B-PS, B-OG
-25	##며	O	O	O, B-LC, B-CV, B-QT, B-OG
-26	컷	O	O	O, B-TM, B-EV, B-QT, B-CV
-27	탈락	O	O	O, B-CV, I-EV, B-TM, I-TM
-28	##했	O	O	O, B-CV, I-OG, I-EV, B-OG
-29	##다	O	O	O, B-CV, I-OG, B-LC, B-OG
-30	.	O	O	O, B-LC, B-CV, B-OG, B-PS
-31	[SEP]	O	O	O, B-CV, B-LC, I-EV, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	17	B-DT	B-DT
+2	##일	I-DT	I-DT
+3	서울	B-OG	B-OG
+4	##중	I-OG	I-OG
+5	##앙	I-OG	I-OG
+6	##지	I-OG	I-OG
+7	##법	I-OG	I-OG
+8	형사	O	O
+9	##21	O	O
+10	##부	O	O
+11	(	O	O
+12	재판장	B-CV	B-CV
+13	이범	B-PS	B-PS
+14	##균	I-PS	I-PS
+15	)	O	O
+16	심리	O	O
+17	##로	O	O
+18	열린	O	O
+19	원세훈	B-PS	B-PS
+20	(	O	O
+21	63	B-QT	B-QT
+22	)	O	O
+23	전	O	O
+24	국정원	B-CV	B-CV
+25	##장	I-CV	I-CV
+26	##의	O	O
+27	대선	B-EV	B-EV
+28	##개	O	O
+29	##입	O	O
+30	혐의	O	O
+31	재판	O	O
+32	##에	O	O
+33	##서	O	O
+34	,	O	O
+35	증인	B-CV	B-CV
+36	##으로	O	O
+37	나온	O	O
+38	국정원	B-OG	B-OG
+39	심리전	O	O
+40	##단	O	O
+41	트위터	O	B-TM
+42	##팀	O	O
+43	직원	B-CV	B-CV
+44	김	B-PS	B-PS
+45	##아	O	O
+46	##무	O	O
+47	##개	O	O
+48	(	O	O
+49	59	B-QT	B-QT
+50	)	O	O
+51	씨	O	O
+52	##는	O	O
+53	자신	O	O
+54	##이	O	O
+55	사용	O	O
+56	##한	O	O
+57	휴대	O	O
+58	##전	O	O
+59	##화나	O	O
+60	전자	B-TM	B-TM
+61	##우	I-TM	I-TM
+62	##편	I-TM	I-TM
+63	계정	O	O
+64	##이	O	O
+65	맞	O	O
+66	##는지	O	O
+67	묻	O	O
+68	##는	O	O
+69	기본	O	O
+70	##적	O	O
+71	##인	O	O
+72	질문	O	O
+73	##에	O	O
+74	##조	O	O
+75	##차	O	O
+76	“	O	O
+77	모르	O	O
+78	##겠다	O	O
+79	”	O	O
+80	며	O	O
+81	답	O	O
+82	##을	O	O
+83	회피	O	O
+84	##했	O	O
+85	##다	O	O
+86	.	O	O
+87	[SEP]	O	O

@@ -1,16 +1,57 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	되게	O	O	O, B-CV, B-OG, B-LC, B-TM
-2	피곤	O	O	O, B-TM, B-CV, B-TR, B-AM
-3	##한	O	O	O, I-TM, B-PS, B-TM, B-CV
-4	할	O	B-CV	B-CV, O, I-CV, B-AM, B-TM
-5	##머	O	I-CV	I-CV, O, B-CV, I-AM, I-TM
-6	##닌	O	I-CV	I-CV, O, I-TM, B-CV, I-AM
-7	##데	O	O	O, I-CV, B-CV, I-OG, I-QT
-8	뭔가	O	O	O, B-CV, B-OG, B-TM, B-LC
-9	사연	O	O	O, B-CV, B-LC, B-TM, B-AF
-10	##이	O	O	O, B-PS, B-CV, B-OG, B-LC
-11	숨겨져	O	O	O, B-CV, B-LC, B-PS, B-OG
-12	있	O	O	O, B-CV, B-PS, B-OG, B-LC
-13	##는	O	O	O, B-CV, B-OG, I-AF, B-LC
-14	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	6	B-EV	B-EV
+2	·	I-EV	I-EV
+3	25	I-EV	I-EV
+4	##전쟁	I-EV	I-EV
+5	##에	O	O
+6	참전	O	O
+7	##한	O	O
+8	영국	B-LC	B-LC
+9	##의	O	O
+10	대표	O	O
+11	##적	O	O
+12	전투	O	O
+13	##부대	O	O
+14	##인	O	O
+15	미들	O	B-OG
+16	##섹	O	I-OG
+17	##스	O	I-OG
+18	연대	O	I-OG
+19	##는	O	O
+20	서울	B-LC	B-LC
+21	탈환	O	O
+22	##과	O	O
+23	평양	B-LC	B-LC
+24	수복	O	O
+25	,	O	O
+26	중공	B-OG	B-OG
+27	##군	I-OG	I-OG
+28	##의	O	O
+29	제	B-QT	B-QT
+30	##1	I-QT	I-QT
+31	##차	I-QT	I-QT
+32	춘	O	B-EV
+33	##계	O	I-EV
+34	대공	O	I-EV
+35	##세	O	I-EV
+36	##를	O	O
+37	저지	O	O
+38	##한	O	O
+39	가평	B-EV	B-EV
+40	##전	I-EV	I-EV
+41	##투	I-EV	I-EV
+42	등	O	O
+43	##에	O	O
+44	##서	O	O
+45	용맹	O	O
+46	##을	O	O
+47	떨	O	O
+48	##친	O	O
+49	것	O	O
+50	##으로	O	O
+51	유명	O	O
+52	##하	O	O
+53	##다	O	O
+54	.	O	O
+55	[SEP]	O	O

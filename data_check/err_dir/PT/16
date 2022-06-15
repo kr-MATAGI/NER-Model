@@ -1,24 +1,6 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	선생	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-OG
-2	##님	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-QT
-3	그	O	O	O, I-CV, B-CV, I-EV, I-OG
-4	청송	B-LC	B-PT	B-PT, O, B-CV, B-LC, B-AM
-5	##대	I-LC	I-PT	I-PT, B-PT, O, I-CV, I-LC
-6	##라는	O	O	O, I-PT, I-CV, I-AF, I-LC
-7	그	O	O	O, B-CV, B-LC, B-PS, I-AF
-8	~	O	O	O, I-CV, I-LC, B-PS, B-LC
-9	말	O	O	O, B-AM, I-LC, I-CV, B-PS
-10	##이	O	O	O, B-PS, B-CV, B-OG, B-LC
-11	한자	B-CV	B-CV	B-CV, O, B-TM, B-FD, B-QT
-12	##로	O	O	O, I-CV, I-QT, I-AF, I-TM
-13	그	O	O	O, B-CV, B-LC, B-OG, B-TM
-14	소나무	B-PT	B-PT	B-PT, O, B-CV, I-PT, B-LC
-15	##를	O	O	O, I-CV, I-AF, I-OG, I-EV
-16	듣	O	O	O, B-CV, B-PS, B-LC, B-OG
-17	##는	O	O	O, B-CV, B-LC, B-PS, B-OG
-18	나무	B-PT	O	O, B-PT, B-AM, I-PT, B-LC
-19	##더라	O	O	O, I-CV, I-OG, I-AF, B-CV
-20	##구요	O	O	O, B-CV, I-OG, B-LC, I-AF
-21	.	O	O	O, B-CV, B-LC, B-OG, I-OG
-22	[SEP]	O	O	O, B-CV, B-LC, I-AF, B-AF
+	text	label	preds
+0	[CLS]	O	O
+1	그래서	O	O
+2	또	O	O
+3	참외	B-PT	B-CV
+4	[SEP]	O	O

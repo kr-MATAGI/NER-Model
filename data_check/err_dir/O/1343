@@ -1,40 +1,47 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-AF
-1	뉴욕	B-LC	B-LC	B-LC, B-OG, O, B-AF, B-PS
-2	시	I-LC	I-LC	I-LC, O, I-OG, B-LC, I-AF
-3	브루	B-LC	B-LC	B-LC, O, I-LC, B-OG, B-AF
-4	##클린	I-LC	I-LC	I-LC, O, B-LC, I-OG, I-AF
-5	등	O	O	O, I-LC, B-LC, I-AF, I-OG
-6	##의	O	O	O, B-LC, I-LC, B-PS, B-AF
-7	폐	B-CV	B-CV	B-CV, O, B-AF, B-MT, B-TM
-8	##식	I-CV	I-CV	I-CV, O, B-CV, I-AF, I-TM
-9	##용	I-CV	I-CV	I-CV, O, B-CV, I-AF, I-TM
-10	##유	I-CV	I-CV	I-CV, O, I-MT, I-AF, I-TM
-11	##를	O	O	O, I-CV, I-AF, I-OG, I-TM
-12	수거	O	O	O, B-CV, B-OG, B-LC, B-TM
-13	##하	O	O	O, B-OG, B-PS, B-LC, B-AF
-14	##는	O	O	O, B-OG, B-LC, B-PS, B-AF
-15	M	O	B-OG	B-OG, O, I-OG, B-PS, B-LC
-16	&	O	I-OG	I-OG, O, B-OG, I-AF, I-PS
-17	E	O	I-OG	I-OG, O, B-OG, I-AF, I-PS
-18	##소	O	I-OG	I-OG, O, B-OG, I-AF, I-PS
-19	##프	O	I-OG	I-OG, O, B-OG, I-PS, I-AF
-20	##의	O	O	O, I-OG, I-AF, I-PS, I-CV
-21	에드워드	B-PS	B-PS	B-PS, B-OG, O, I-PS, B-LC
-22	군더	I-PS	I-PS	I-PS, I-OG, O, I-LC, B-PS
-23	##슨	I-PS	I-PS	I-PS, I-OG, O, I-LC, I-AF
-24	사장	B-CV	B-CV	B-CV, O, I-PS, I-CV, B-OG
-25	##은	O	O	O, I-CV, I-OG, I-QT, I-AF
-26	“	O	O	O, B-CV, B-LC, B-OG, B-TM
-27	올	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-PS
-28	들어	O	O	O, I-DT, I-QT, I-OG, I-PS
-29	도둑	B-CV	B-CV	B-CV, O, B-AF, B-PS, B-AM
-30	##들이	O	O	O, I-CV, B-PS, I-AF, I-OG
-31	기승	O	O	O, B-CV, B-LC, B-PS, B-OG
-32	##을	O	O	O, I-AF, I-OG, B-CV, B-PS
-33	부리	O	O	O, B-PS, B-LC, I-AF, I-OG
-34	##고	O	O	O, B-PS, I-AF, B-LC, I-OG
-35	있	O	O	O, B-CV, I-AF, B-PS, B-LC
-36	##다	O	O	O, B-CV, I-AF, I-OG, B-LC
-37	.	O	O	O, B-LC, B-PS, B-OG, I-OG
-38	[SEP]	O	O	O, B-LC, B-OG, I-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	[	O	O
+2	스위트	O	O
+3	골프	B-CV	B-CV
+4	]	O	O
+5	[	O	O
+6	신지애	B-PS	B-PS
+7	##의	O	O
+8	""""	O	O
+9	골프	B-CV	B-CV
+10	##는	O	O
+11	자신감	O	O
+12	""""	O	O
+13	]	O	O
+14	(	O	O
+15	14	B-QT	B-QT
+16	)	O	O
+17	로브	B-TM	B-TM
+18	##샷	I-TM	I-TM
+19	##은	O	O
+20	공	B-CV	B-CV
+21	아래	O	B-TM
+22	##를	O	O
+23	깎	O	O
+24	##아내	O	O
+25	##듯	O	O
+26	##이	O	O
+27	;	O	O
+28	일종	O	O
+29	##의	O	O
+30	잔디	B-PT	B-PT
+31	위	B-TM	B-TM
+32	벙커	B-TM	B-TM
+33	##샷	I-TM	I-TM
+34	…	O	O
+35	클럽	B-CV	B-CV
+36	페이스	O	O
+37	##를	O	O
+38	열	O	O
+39	##고	O	O
+40	부드럽	O	O
+41	##게	O	O
+42	풀	O	O
+43	스윙	B-TM	B-TM
+44	##해야	O	O
+45	[SEP]	O	O

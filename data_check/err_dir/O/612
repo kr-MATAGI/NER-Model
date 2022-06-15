@@ -1,39 +1,39 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	반면	O	O	O, B-CV, B-TM, B-LC, B-OG
-2	시민	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-OG
-3	##배	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-TM
-4	##심	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-TM
-5	##원	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-TM
-6	##제	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-TM
-7	##는	O	O	O, I-CV, I-OG, I-EV, I-AF
-8	1970	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-LC
-9	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-10	##대	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-11	중반	O	I-DT	I-DT, O, B-DT, I-TI, I-QT
-12	미국	B-LC	B-LC	B-LC, B-OG, O, I-LC, I-DT
-13	비	O	O	O, B-OG, B-LC, I-LC, I-OG
-14	##영	O	O	O, I-OG, B-OG, B-LC, I-LC
-15	##리	O	O	O, I-OG, I-LC, B-OG, B-LC
-16	##기구	O	O	O, I-OG, I-LC, B-OG, I-CV
-17	제	B-OG	B-OG	B-OG, B-AF, O, I-OG, B-PS
-18	##퍼슨	I-OG	I-OG	I-OG, O, I-AF, I-LC, B-OG
-19	##센터	I-OG	I-OG	I-OG, O, I-AF, I-LC, I-PS
-20	##가	O	O	O, I-OG, I-AF, B-LC, B-PS
-21	사회	O	O	O, B-CV, B-TR, B-FD, B-TM
-22	##적	O	O	O, B-LC, I-TR, I-CV, B-PS
-23	합의	O	O	O, B-CV, B-LC, B-TM, B-PS
-24	형성	O	O	O, B-CV, I-CV, B-PS, B-LC
-25	##을	O	O	O, B-CV, B-PS, B-LC, B-OG
-26	위해	O	O	O, B-LC, B-PS, B-CV, B-TM
-27	고안	O	O	O, B-CV, B-LC, B-TM, B-PS
-28	##한	O	O	O, B-PS, B-LC, B-CV, B-OG
-29	시민	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-FD
-30	참여	O	O	O, I-CV, B-CV, B-PS, B-TM
-31	의사	O	O	O, B-CV, B-TR, B-FD, B-TM
-32	##결	O	O	O, I-CV, I-TR, B-CV, B-TR
-33	##정	O	O	O, I-CV, B-CV, B-PS, I-TR
-34	방식	O	O	O, B-CV, I-CV, B-TM, B-PS
-35	##이다	O	O	O, B-CV, I-CV, B-TM, B-OG
-36	.	O	O	O, B-LC, B-CV, B-OG, B-PS
-37	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	그	O	O
+2	##는	O	O
+3	통진	B-OG	B-OG
+4	##당	I-OG	I-OG
+5	해산	O	O
+6	##에	O	O
+7	대해서	O	O
+8	##는	O	O
+9	""""	O	O
+10	정당	O	B-CV
+11	##의	O	I-CV
+12	자유	O	I-CV
+13	##에	O	O
+14	관한	O	O
+15	헌법	O	O
+16	##적	O	O
+17	한계	O	O
+18	##를	O	O
+19	고려	O	O
+20	##해	O	O
+21	(	O	O
+22	해산	O	O
+23	##이	O	O
+24	##라는	O	O
+25	)	O	O
+26	결론	O	O
+27	##이	O	O
+28	옳	O	O
+29	##다고	O	O
+30	생각	O	O
+31	##한다	O	O
+32	""""	O	O
+33	고	O	O
+34	했	O	O
+35	##다	O	O
+36	.	O	O
+37	[SEP]	O	O

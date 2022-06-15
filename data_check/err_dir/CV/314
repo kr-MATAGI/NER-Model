@@ -1,27 +1,38 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-QT
-1	학습지	O	O	O, B-CV, B-OG, B-AF, B-TM
-2	교사	B-CV	B-CV	B-CV, I-CV, O, B-OG, B-DT
-3	,	O	O	O, I-CV, I-OG, B-CV, I-QT
-4	골프장	O	O	O, B-CV, B-AF, B-OG, B-TM
-5	캐디	B-CV	B-CV	B-CV, I-CV, O, B-PT, I-AF
-6	,	O	O	O, I-CV, I-OG, B-CV, I-QT
-7	[UNK]	O	O	O, B-CV, B-OG, B-LC, B-TM
-8	배달	O	B-CV	B-CV, O, I-CV, B-TM, B-QT
-9	##원	O	I-CV	I-CV, O, B-CV, I-QT, I-TM
-10	등	O	O	O, I-CV, B-CV, B-QT, I-QT
-11	이른바	O	O	O, B-CV, B-QT, B-TM, B-LC
-12	특수	O	O	O, B-CV, I-CV, B-PS, B-OG
-13	##고	O	O	O, I-CV, B-CV, I-QT, I-TM
-14	##용	O	O	O, I-CV, B-CV, I-OG, I-TM
-15	노동자	B-CV	I-CV	I-CV, B-CV, O, I-QT, I-OG
-16	##의	O	O	O, I-CV, B-CV, I-OG, I-QT
-17	처지	O	O	O, B-CV, B-OG, B-TM, B-QT
-18	##는	O	O	O, B-CV, B-OG, B-TM, B-LC
-19	말	O	O	O, B-CV, B-QT, B-DT, B-TM
-20	그대로	O	O	O, B-PS, B-QT, I-QT, I-DT
-21	특수	O	O	O, B-CV, B-OG, B-FD, B-PS
-22	##하	O	O	O, I-OG, B-PS, I-PS, I-CV
-23	##다	O	O	O, B-CV, I-OG, I-QT, I-CV
-24	.	O	O	O, B-LC, B-CV, B-OG, B-PS
-25	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-FD
+	text	label	preds
+0	[CLS]	O	O
+1	6	B-EV	B-EV
+2	##자	I-EV	I-EV
+3	##회	I-EV	I-EV
+4	##담	I-EV	I-EV
+5	참가	O	O
+6	##국	O	O
+7	##이	O	O
+8	##자	O	O
+9	안보리	B-OG	B-OG
+10	상임	B-CV	O
+11	##이	I-CV	O
+12	##사	I-CV	O
+13	##국	O	O
+14	##인	O	O
+15	러시아	B-LC	B-LC
+16	##가	O	O
+17	‘	O	O
+18	우리	O	O
+19	##도	O	O
+20	한반도	B-LC	B-LC
+21	문제	O	O
+22	##의	O	O
+23	중요	O	O
+24	##한	O	O
+25	당사국	O	O
+26	’	O	O
+27	이란	O	O
+28	존재감	O	O
+29	##을	O	O
+30	드러내	O	O
+31	##려	O	O
+32	한	O	O
+33	것	O	O
+34	##이다	O	O
+35	.	O	O
+36	[SEP]	O	O

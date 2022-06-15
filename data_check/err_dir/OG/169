@@ -1,64 +1,26 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	그	O	O	O, B-CV, B-OG, B-PS, B-LC
-2	##는	O	O	O, B-CV, B-PS, B-LC, B-OG
-3	경제	O	O	O, B-CV, B-FD, B-TR, B-PS
-4	##제	O	O	O, I-CV, B-CV, I-TR, I-FD
-5	##재	O	O	O, I-CV, B-CV, I-TR, I-FD
-6	##는	O	O	O, I-CV, B-PS, B-LC, B-CV
-7	비	O	O	O, B-LC, B-PS, B-CV, B-TR
-8	##효과	O	O	O, B-CV, B-FD, B-LC, B-TR
-9	##적	O	O	O, B-PS, B-LC, I-TR, I-PS
-10	##이	O	O	O, B-PS, B-LC, B-OG, B-CV
-11	##고	O	O	O, B-PS, B-LC, I-PS, B-OG
-12	비	O	O	O, B-LC, B-CV, B-PS, B-FD
-13	##생산	O	O	O, B-FD, B-LC, B-CV, B-TR
-14	##적	O	O	O, B-PS, B-LC, I-TR, I-PS
-15	##이	O	O	O, B-PS, B-OG, B-LC, B-CV
-16	##라	O	O	O, B-PS, B-LC, B-OG, B-CV
-17	##며	O	O	O, B-LC, B-OG, B-CV, B-TM
-18	“	O	O	O, B-CV, B-LC, B-OG, B-PS
-19	과거	O	O	O, B-LC, B-CV, B-PS, B-OG
-20	쿠바	O	B-LC	B-LC, O, B-OG, B-PS, B-AF
-21	##를	O	O	O, I-LC, I-OG, I-AF, B-LC
-22	방문	O	O	O, B-CV, B-LC, B-PS, B-OG
-23	##해	O	O	O, B-LC, B-PS, B-OG, B-CV
-24	지도층	O	O	O, B-CV, B-PS, I-CV, B-QT
-25	##들	O	O	O, I-CV, B-CV, B-PS, I-AF
-26	##을	O	O	O, B-CV, B-PS, B-LC, B-QT
-27	만난	O	O	O, B-CV, B-EV, B-LC, B-PS
-28	결과	O	O	O, B-CV, B-LC, B-PS, I-EV
-29	미국	B-OG	B-LC	B-LC, B-OG, O, B-PS, B-AF
-30	##의	O	O	O, I-OG, B-CV, I-LC, I-CV
-31	경제	O	O	O, B-CV, I-CV, B-PS, B-FD
-32	##제	O	O	O, I-CV, B-CV, I-EV, B-PS
-33	##재	O	O	O, I-CV, B-CV, I-EV, I-OG
-34	##로	O	O	O, I-CV, B-PS, B-LC, I-EV
-35	이	O	O	O, B-PS, B-OG, B-LC, B-CV
-36	##들	O	O	O, B-PS, B-CV, B-LC, I-OG
-37	##은	O	O	O, B-LC, B-CV, B-PS, B-OG
-38	전혀	O	O	O, B-LC, B-QT, B-OG, B-TM
-39	영향	O	O	O, B-LC, B-CV, B-PS, B-OG
-40	##을	O	O	O, B-CV, B-OG, B-LC, B-PS
-41	받	O	O	O, B-LC, B-CV, B-OG, B-PS
-42	##지	O	O	O, B-LC, B-PS, B-CV, B-OG
-43	않	O	O	O, B-LC, B-PS, B-CV, I-QT
-44	##았	O	O	O, B-CV, B-LC, B-PS, B-OG
-45	##고	O	O	O, B-PS, B-LC, B-CV, I-OG
-46	,	O	O	O, B-CV, B-LC, B-PS, B-OG
-47	대신	O	O	O, B-CV, B-LC, B-PS, B-TM
-48	국민	B-CV	B-CV	B-CV, O, B-OG, I-CV, B-TM
-49	##들	O	O	O, I-CV, I-EV, B-CV, I-OG
-50	##만	O	O	O, B-PS, B-LC, B-QT, B-CV
-51	고통	O	O	O, B-CV, B-LC, B-QT, B-TM
-52	##을	O	O	O, B-CV, B-PS, B-OG, B-LC
-53	받	O	O	O, B-CV, B-LC, B-PS, B-OG
-54	##았	O	O	O, B-CV, B-LC, B-PS, B-OG
-55	##다	O	O	O, B-CV, B-PS, B-LC, I-OG
-56	”	O	O	O, B-CV, B-LC, B-TM, B-OG
-57	고	O	O	O, B-CV, B-TM, B-OG, B-LC
-58	지적	O	O	O, B-CV, B-LC, B-OG, B-PS
-59	##했	O	O	O, B-CV, B-PS, B-OG, B-LC
-60	##다	O	O	O, B-CV, B-LC, B-OG, I-OG
-61	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-62	[SEP]	O	O	O, B-CV, B-LC, B-PS, I-EV
+	text	label	preds
+0	[CLS]	O	O
+1	미국	B-LC	B-LC
+2	##의	O	O
+3	에프	B-OG	B-OG
+4	##엠	I-OG	I-OG
+5	##씨	I-OG	I-OG
+6	##에스	I-OG	I-OG
+7	##나	O	O
+8	엔	B-OG	B-CV
+9	##엘	I-OG	I-CV
+10	##알	I-OG	I-CV
+11	##비	I-OG	I-CV
+12	##에다	O	O
+13	##가	O	O
+14	유럽	B-LC	B-LC
+15	##의	O	O
+16	노동법	B-CV	B-OG
+17	##원	I-CV	I-OG
+18	제도	I-CV	O
+19	##를	O	O
+20	이렇게	O	O
+21	종합	O	O
+22	##해서	O	O
+23	만든	O	O
+24	[SEP]	O	O

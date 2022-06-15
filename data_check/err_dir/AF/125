@@ -1,39 +1,46 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	가짜	O	O	O, B-CV, B-AF, B-PS, B-TM
-2	기자	B-CV	B-CV	B-CV, O, I-CV, B-PS, B-AF
-3	##는	O	O	O, I-CV, I-AF, B-CV, I-QT
-4	신분증	O	O	O, B-CV, B-TM, B-AF, B-LC
-5	##도	O	O	O, B-PS, B-CV, I-CV, B-LC
-6	없이	O	O	O, B-TM, B-CV, B-LC, B-PS
-7	무선	O	B-TM	B-TM, O, B-AF, I-TM, B-QT
-8	##호	O	I-TM	I-TM, O, I-AF, B-TM, I-QT
-9	##출	O	I-TM	I-TM, O, I-AF, B-TM, I-QT
-10	##기	O	I-TM	I-TM, O, I-AF, I-QT, I-CV
-11	##만	O	O	O, I-TM, I-AF, I-QT, I-CV
-12	보여	O	O	O, B-CV, B-LC, B-PS, B-OG
-13	##주	O	O	O, B-LC, B-PS, B-CV, B-TM
-14	##며	O	O	O, B-LC, B-PS, B-CV, B-OG
-15	여성	O	O	O, B-CV, B-TM, B-LC, B-OG
-16	##을	O	O	O, B-CV, B-TM, B-PS, B-OG
-17	농	O	O	O, B-CV, B-TM, B-LC, B-PS
-18	##락	O	O	O, I-CV, I-LC, I-QT, I-TM
-19	##했	O	O	O, B-CV, B-PS, B-LC, I-CV
-20	##고	O	O	O, B-CV, B-PS, B-LC, I-CV
-21	,	O	O	O, B-CV, B-LC, B-PS, B-OG
-22	청와대	B-AF	B-OG	B-OG, B-AF, B-PS, B-LC, O
-23	직원	B-CV	B-CV	B-CV, O, I-CV, I-AF, I-OG
-24	사칭	O	O	O, B-CV, I-CV, B-PS, I-AF
-25	##범	O	I-CV	I-CV, O, B-CV, I-TM, I-PS
-26	##도	O	O	O, I-CV, I-AF, I-QT, I-OG
-27	삐	B-TM	B-TM	B-TM, O, B-AF, B-CV, I-TM
-28	##삐	I-TM	I-TM	I-TM, O, I-CV, B-TM, I-AF
-29	##로	O	O	O, I-TM, I-QT, I-AF, I-CV
-30	사람	O	O	O, B-CV, B-TM, B-PS, B-AF
-31	##들	O	O	O, B-CV, I-CV, B-PS, I-AF
-32	##을	O	O	O, B-CV, B-PS, B-TM, B-OG
-33	속	O	O	O, B-CV, B-PS, B-LC, B-TM
-34	##였	O	O	O, I-CV, B-CV, B-PS, B-LC
-35	##다	O	O	O, B-CV, I-CV, B-TM, B-LC
-36	.	O	O	O, B-CV, B-LC, B-PS, B-TM
-37	[SEP]	O	O	O, B-CV, B-TM, B-LC, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	안성	B-LC	B-LC
+2	##시	I-LC	I-LC
+3	사	B-LC	B-AF
+4	##곡	I-LC	I-AF
+5	##당	I-LC	I-AF
+6	태평	B-AF	B-AF
+7	##무	I-AF	I-AF
+8	전수	I-AF	I-AF
+9	##관	I-AF	I-AF
+10	##에	O	O
+11	##서는	O	O
+12	중요	B-AF	O
+13	##무	I-AF	O
+14	##형	I-AF	O
+15	##문화재	I-AF	O
+16	92	I-AF	B-QT
+17	##호	I-AF	I-AF
+18	##인	O	O
+19	태평	O	O
+20	##무가	O	O
+21	다음	B-DT	B-DT
+22	##달	I-DT	I-DT
+23	17	I-DT	I-DT
+24	##일	I-DT	I-DT
+25	##부터	I-DT	I-DT
+26	매주	O	O
+27	토요일	B-DT	B-DT
+28	무료	O	O
+29	상설	O	O
+30	##공	O	O
+31	##연	O	O
+32	##마당	O	O
+33	##을	O	O
+34	통해	O	O
+35	일반	O	O
+36	시민	B-CV	B-CV
+37	##들	O	O
+38	##에	O	O
+39	##게	O	O
+40	첫선	O	O
+41	##을	O	O
+42	보인다	O	O
+43	.	O	O
+44	[SEP]	O	O

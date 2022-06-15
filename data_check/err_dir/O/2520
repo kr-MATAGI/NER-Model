@@ -1,53 +1,26 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-EV, I-CV, I-OG
-1	유대인	B-CV	B-CV	B-CV, O, B-LC, B-OG, B-PS
-2	##인	O	O	O, I-CV, B-PS, I-QT, I-OG
-3	앨런	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-4	더	I-PS	I-PS	I-PS, O, B-PS, I-OG, I-LC
-5	##쇼	I-PS	I-PS	I-PS, O, I-OG, I-LC, B-PS
-6	##비	I-PS	I-PS	I-PS, O, I-LC, I-OG, B-LC
-7	##츠	I-PS	I-PS	I-PS, O, I-LC, I-OG, B-LC
-8	하버드대	B-OG	B-OG	B-OG, B-LC, B-AF, I-PS, I-OG
-9	로스쿨	B-OG	B-OG	B-OG, I-OG, B-CV, O, B-AF
-10	교수	B-CV	B-CV	B-CV, O, I-CV, I-OG, B-OG
-11	##는	O	O	O, I-CV, I-OG, I-EV, B-CV
-12	5	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-13	##일	I-DT	I-DT	I-DT, O, B-DT, I-PS, I-QT
-14	CNN	B-OG	B-OG	B-OG, B-AF, O, B-TM, B-EV
-15	‘	O	O	O, I-OG, I-AF, I-DT, I-EV
-16	투	B-AF	B-AF	B-AF, O, B-EV, B-TM, B-PS
-17	##나이	I-AF	I-AF	I-AF, O, I-EV, I-TM, I-PS
-18	##트	I-AF	I-AF	I-AF, O, I-EV, I-TM, I-TR
-19	쇼	I-AF	I-AF	I-AF, O, I-EV, I-TM, I-TR
-20	’	O	O	O, I-AF, I-EV, I-CV, I-TM
-21	에	O	O	O, B-CV, B-LC, B-OG, I-EV
-22	출연	O	O	O, B-CV, B-LC, B-TM, B-PS
-23	##해	O	O	O, B-LC, B-PS, I-LC, I-DT
-24	“	O	O	O, B-CV, B-LC, B-PS, B-OG
-25	다윗	B-PS	B-PS	B-PS, B-AF, B-EV, B-LC, O
-26	##의	O	I-EV	I-EV, O, I-AF, I-PS, I-LC
-27	별	O	I-EV	I-EV, O, I-AF, I-PS, B-EV
-28	사건	O	O	O, I-EV, I-AF, I-PS, I-LC
-29	##은	O	O	O, I-EV, I-AF, B-CV, B-PS
-30	트럼프	B-PS	B-PS	B-PS, B-OG, B-AF, O, I-PS
-31	##를	O	O	O, I-PS, I-AF, B-CV, I-EV
-32	지지	O	O	O, B-CV, B-TM, B-PS, B-OG
-33	##하	O	O	O, B-PS, B-CV, B-LC, B-TM
-34	##던	O	O	O, B-CV, B-PS, B-LC, B-TM
-35	일부	O	O	O, B-QT, B-PS, B-CV, B-LC
-36	유대인	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-PS
-37	##의	O	O	O, I-CV, B-CV, I-QT, I-OG
-38	마음	O	O	O, B-TM, B-CV, B-PS, B-QT
-39	##도	O	O	O, B-TM, B-PS, B-CV, B-LC
-40	돌아서	O	O	O, B-TM, B-PS, B-CV, B-QT
-41	##게	O	O	O, B-PS, B-TM, I-TM, B-QT
-42	만들	O	O	O, B-TM, B-CV, B-PS, B-LC
-43	것	O	O	O, B-CV, B-PS, B-LC, I-QT
-44	”	O	O	O, B-CV, B-TM, I-EV, B-PS
-45	이라	O	O	O, B-CV, B-PS, B-LC, B-TM
-46	##고	O	O	O, B-CV, B-TM, B-QT, B-LC
-47	말	O	O	O, B-CV, B-TM, I-QT, B-LC
-48	##했	O	O	O, B-CV, B-PS, B-LC, I-EV
-49	##다	O	O	O, B-CV, B-LC, B-PS, B-TM
-50	.	O	O	O, B-PS, B-LC, B-CV, B-OG
-51	[SEP]	O	O	O, B-CV, B-LC, B-PS, I-EV
+	text	label	preds
+0	[CLS]	O	O
+1	모텔	O	O
+2	##방	O	O
+3	##에	O	O
+4	장부	O	O
+5	보관	O	O
+6	·	O	O
+7	옆	O	B-TM
+8	사무실	O	O
+9	##에	O	O
+10	매출	O	O
+11	##조작	O	O
+12	비밀	O	O
+13	##전	O	O
+14	##산	O	O
+15	##실	O	O
+16	…	O	O
+17	고소득	O	O
+18	자영업	B-CV	B-CV
+19	##자	I-CV	I-CV
+20	,	O	O
+21	현금	O	O
+22	빼돌려	O	O
+23	탈세	O	O
+24	[SEP]	O	O

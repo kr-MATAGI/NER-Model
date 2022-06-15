@@ -1,77 +1,32 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-EV, I-OG
-1	디지털	B-TM	O	O, B-TM, B-AF, B-CV, I-TM
-2	##록	I-TM	O	O, I-TM, I-AF, B-TM, I-CV
-3	업체	O	O	O, B-CV, I-TM, B-OG, B-LC
-4	대양	B-OG	B-OG	B-OG, O, I-OG, B-LC, B-PS
-5	##D	I-OG	I-OG	I-OG, O, B-OG, I-AF, I-LC
-6	&	I-OG	I-OG	I-OG, O, I-LC, I-AF, I-CV
-7	T	I-OG	I-OG	I-OG, O, I-LC, I-AF, B-OG
-8	이행	B-PS	B-PS	B-PS, O, I-PS, B-CV, I-OG
-9	##문	I-PS	I-PS	I-PS, O, I-OG, I-LC, B-PS
-10	대리	B-CV	B-CV	B-CV, O, I-CV, I-PS, B-TM
-11	##는	O	O	O, I-CV, I-QT, I-TM, I-OG
-12	""""	O	O	O, B-CV, B-LC, B-TM, I-CV
-13	한국	B-LC	B-LC	B-LC, O, B-OG, B-PS, I-LC
-14	##에	O	O	O, I-LC, B-LC, I-AF, I-OG
-15	##선	O	O	O, B-LC, B-CV, I-LC, B-PS
-16	열쇠	B-CV	B-CV	B-CV, O, I-CV, B-AF, B-PT
-17	##공	I-CV	I-CV	I-CV, O, B-CV, I-TM, I-AF
-18	##들이	O	O	O, I-CV, I-AF, B-PS, B-CV
-19	해	O	O	O, B-TM, B-AF, B-LC, B-AM
-20	##정	O	O	O, I-AF, I-TM, I-LC, I-AM
-21	##구	O	O	O, I-AF, I-TM, I-LC, I-AM
-22	(	O	O	O, I-AF, I-TM, I-CV, B-CV
-23	열쇠	O	O	O, B-CV, B-AF, B-AM, B-TM
-24	따	O	O	O, I-AF, B-CV, B-PS, I-CV
-25	##는	O	O	O, B-PS, B-TM, B-CV, B-AM
-26	만능	O	O	O, B-CV, B-TM, B-PS, B-AM
-27	기계	O	O	O, B-CV, B-AF, B-AM, B-TM
-28	)	O	O	O, B-CV, I-CV, B-LC, I-AF
-29	를	O	O	O, B-CV, B-TM, B-PS, B-LC
-30	이용해	O	O	O, B-CV, B-PS, B-TM, B-LC
-31	저지르	O	O	O, B-CV, B-PS, B-TM, I-CV
-32	##는	O	O	O, B-PS, B-CV, B-LC, B-TM
-33	범죄	O	O	O, B-CV, B-FD, I-CV, B-PS
-34	##가	O	O	O, B-PS, B-LC, B-CV, I-CV
-35	많	O	O	O, B-PS, B-CV, B-LC, B-OG
-36	##아	O	O	O, B-PS, B-LC, B-CV, B-OG
-37	##서	O	O	O, B-PS, B-LC, B-CV, I-LC
-38	##인지	O	O	O, B-LC, B-PS, B-CV, B-TM
-39	기계	O	O	O, B-CV, B-TM, B-FD, B-LC
-40	##식	O	O	O, I-AF, I-TM, I-CV, I-TR
-41	열쇠	O	O	O, B-CV, B-AF, B-TM, B-AM
-42	##가	O	O	O, B-PS, B-LC, B-CV, I-AF
-43	안전	O	O	O, B-CV, B-TM, B-LC, B-AF
-44	##하	O	O	O, B-PS, B-LC, B-CV, B-OG
-45	##지	O	O	O, B-CV, B-LC, B-PS, B-TM
-46	않	O	O	O, B-CV, B-LC, B-PS, B-TM
-47	##다고	O	O	O, B-CV, B-LC, B-PS, B-OG
-48	여긴다	O	O	O, B-CV, B-LC, B-TM, B-PS
-49	.	O	O	O, B-CV, B-TM, B-LC, B-PS
-50	첨단	O	O	O, B-FD, B-CV, B-TM, B-TR
-51	디지털	O	O	O, B-FD, B-TR, I-FD, B-CV
-52	기술	O	O	O, I-FD, I-TR, I-CV, B-FD
-53	##에	O	O	O, B-CV, I-CV, B-PS, B-LC
-54	대한	O	O	O, B-LC, B-PS, B-CV, B-OG
-55	신뢰도	O	O	O, B-CV, B-LC, B-PS, B-TM
-56	높	O	O	O, B-CV, B-PS, B-LC, B-TM
-57	##아	O	O	O, B-LC, B-PS, B-TM, B-CV
-58	초반	O	O	O, B-CV, B-LC, B-TM, B-OG
-59	##부터	O	O	O, I-QT, I-DT, I-CV, I-PS
-60	디지털	B-TM	B-TM	B-TM, O, B-AF, B-CV, B-OG
-61	##록	I-TM	O	O, I-TM, I-AF, I-CV, B-TM
-62	##에	O	O	O, I-TM, I-AF, I-CV, B-CV
-63	대한	O	O	O, B-LC, B-CV, B-OG, B-PS
-64	불신	O	O	O, B-CV, B-LC, B-TM, B-PS
-65	##이	O	O	O, B-PS, B-CV, B-OG, B-LC
-66	작	O	O	O, B-CV, B-TM, B-PS, B-LC
-67	##았	O	O	O, B-CV, I-CV, B-TM, B-PS
-68	##다	O	O	O, B-CV, I-CV, B-TM, I-OG
-69	""""	O	O	O, B-CV, B-TM, B-LC, I-CV
-70	고	O	O	O, B-CV, I-CV, B-TM, B-QT
-71	말	O	O	O, B-CV, I-CV, B-TM, I-QT
-72	##했	O	O	O, B-CV, I-CV, I-QT, B-PS
-73	##다	O	O	O, B-CV, B-TM, B-LC, B-QT
-74	.	O	O	O, B-LC, B-CV, B-PS, B-TM
-75	[SEP]	O	O	O, B-CV, B-LC, B-TM, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	모	O	O
+2	상병	B-CV	B-CV
+3	##은	O	O
+4	그	O	O
+5	##의	O	O
+6	목과	O	O
+7	얼굴	B-AM	B-AM
+8	##에	O	O
+9	'	O	O
+10	안티	B-TM	B-MT
+11	##푸	I-TM	I-MT
+12	##라	I-TM	I-MT
+13	##민	I-TM	I-MT
+14	'	O	O
+15	을	O	O
+16	바르	O	O
+17	##고	O	O
+18	##는	O	O
+19	몇	O	O
+20	시간	O	O
+21	동안	O	O
+22	씻	O	O
+23	##지	O	O
+24	못하	O	O
+25	##게	O	O
+26	했	O	O
+27	##다고	O	O
+28	한다	O	O
+29	.	O	O
+30	[SEP]	O	O

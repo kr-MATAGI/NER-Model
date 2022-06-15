@@ -1,44 +1,15 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-EV, B-CV, I-OG, I-QT
-1	각	O	O	O, B-LC, B-OG, B-TM, B-PS
-2	조	O	O	O, B-OG, B-CV, B-LC, B-PS
-3	2	B-QT	B-QT	B-QT, I-QT, O, B-EV, B-DT
-4	##위	I-QT	I-QT	I-QT, O, I-EV, I-LC, I-OG
-5	##를	O	O	O, I-QT, I-EV, I-OG, B-CV
-6	차지	O	O	O, B-CV, B-OG, B-TM, B-EV
-7	##한	O	O	O, B-PS, B-LC, B-OG, B-CV
-8	세	B-QT	B-QT	B-QT, O, I-QT, B-EV, B-DT
-9	팀	I-QT	I-QT	I-QT, O, I-EV, I-LC, I-OG
-10	##은	O	O	O, I-QT, I-EV, B-CV, B-EV
-11	플레이오프	B-EV	B-EV	B-EV, O, B-CV, B-OG, B-TM
-12	##를	O	O	O, I-EV, I-OG, I-AF, B-CV
-13	치러	O	O	O, B-LC, B-OG, B-CV, I-EV
-14	승리	O	O	O, B-CV, B-LC, B-OG, B-TM
-15	##한	O	O	O, B-LC, B-PS, B-OG, B-CV
-16	한	O	B-QT	B-QT, O, I-QT, B-LC, B-PS
-17	팀	O	I-QT	I-QT, O, I-LC, I-EV, I-PS
-18	##이	O	O	O, I-QT, B-PS, I-EV, B-CV
-19	아프리카	B-LC	B-LC	B-LC, B-EV, O, B-AF, B-OG
-20	##지역	O	I-EV	I-EV, O, B-EV, I-LC, B-LC
-21	예선	B-EV	B-EV	B-EV, I-EV, O, B-LC, B-CV
-22	4	B-QT	B-QT	B-QT, I-EV, I-QT, O, B-EV
-23	##위	I-QT	I-QT	I-QT, O, I-EV, I-LC, I-OG
-24	팀	I-QT	O	O, I-QT, B-CV, B-OG, I-EV
-25	##과	O	O	O, B-CV, I-OG, I-EV, I-AF
-26	마지막	O	O	O, B-QT, B-CV, B-LC, B-TM
-27	한	B-QT	B-QT	B-QT, O, I-QT, B-TM, B-PS
-28	장	I-QT	I-QT	I-QT, O, I-LC, I-EV, I-TM
-29	##의	O	O	O, I-QT, B-PS, I-EV, B-LC
-30	런던	B-LC	B-LC	B-LC, O, B-EV, B-AF, B-CV
-31	##행	O	O	O, I-LC, I-AF, I-EV, B-AF
-32	(	O	O	O, B-LC, B-TM, B-CV, B-AF
-33	行	O	O	O, B-TM, B-LC, B-AF, B-CV
-34	)	O	O	O, B-LC, B-CV, B-AF, I-AF
-35	티켓	O	O	O, B-TM, B-AF, B-CV, B-LC
-36	##을	O	O	O, B-CV, I-AF, I-EV, B-LC
-37	놓	O	O	O, B-CV, B-LC, B-EV, B-TM
-38	##고	O	O	O, B-CV, I-EV, B-LC, B-EV
-39	대결	O	O	O, B-CV, B-EV, I-EV, B-LC
-40	##한다	O	O	O, I-EV, B-CV, B-EV, B-PS
-41	.	O	O	O, B-LC, B-CV, I-EV, B-PS
-42	[SEP]	O	O	O, B-CV, I-EV, B-LC, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	그	O	O
+2	##다	O	O
+3	##음	O	O
+4	##에	O	O
+5	오늘	B-DT	B-DT
+6	이제	O	O
+7	또	O	O
+8	세	B-QT	O
+9	가진	I-QT	O
+10	뭐	O	O
+11	##냐	O	O
+12	##하면	O	O
+13	[SEP]	O	O

@@ -1,13 +1,51 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	""""	O	O	O, B-CV, B-LC, B-OG, B-TM
-2	美	O	B-OG	B-OG, O, B-LC, B-CV, I-OG
-3	軍	O	I-OG	I-OG, O, B-OG, I-LC, I-CV
-4	드론	B-TM	B-TM	B-TM, B-AF, O, I-OG, I-TM
-5	희생자	B-CV	B-CV	B-CV, O, I-CV, B-TM, I-AF
-6	90	B-QT	B-QT	B-QT, I-QT, B-DT, I-CV, O
-7	%	I-QT	I-QT	I-QT, O, I-OG, I-LC, I-AF
-8	가	O	O	O, I-QT, I-OG, I-AF, B-PS
-9	민간인	B-CV	B-CV	B-CV, O, B-OG, B-QT, B-TM
-10	""""	O	O	O, I-CV, I-QT, I-OG, I-EV
-11	[SEP]	O	O	O, B-OG, B-LC, B-CV, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	학술	O	O
+2	·	O	O
+3	교육	O	O
+4	(	O	O
+5	202	B-QT	B-QT
+6	##억	I-QT	I-QT
+7	원	I-QT	I-QT
+8	)	O	O
+9	,	O	O
+10	서민	B-CV	B-CV
+11	##금융	O	I-CV
+12	(	O	O
+13	136	B-QT	B-QT
+14	##억	I-QT	I-QT
+15	원	I-QT	I-QT
+16	)	O	O
+17	,	O	O
+18	메	O	B-OG
+19	##세	O	O
+20	##나	O	O
+21	·	O	O
+22	체육	O	O
+23	(	O	O
+24	102	B-QT	B-QT
+25	##억	I-QT	I-QT
+26	원	I-QT	I-QT
+27	)	O	O
+28	,	O	O
+29	환경	O	O
+30	(	O	O
+31	2	B-QT	B-QT
+32	##억	I-QT	I-QT
+33	원	I-QT	I-QT
+34	)	O	O
+35	,	O	O
+36	글로벌	O	O
+37	(	O	O
+38	1	B-QT	B-QT
+39	##억	I-QT	I-QT
+40	원	I-QT	I-QT
+41	)	O	O
+42	등이	O	O
+43	뒤	O	O
+44	##를	O	O
+45	이	O	O
+46	##었	O	O
+47	##다	O	O
+48	.	O	O
+49	[SEP]	O	O

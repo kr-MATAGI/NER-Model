@@ -1,53 +1,54 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	현지	O	O	O, B-LC, B-OG, B-CV, B-PS
-2	일간	O	O	O, B-OG, B-LC, B-CV, I-OG
-3	<	O	O	O, B-OG, I-OG, B-LC, B-AF
-4	데일리	B-OG	B-OG	B-OG, I-OG, B-AF, O, B-LC
-5	네이션	I-OG	I-OG	I-OG, O, I-AF, I-LC, B-OG
-6	>	O	O	O, I-OG, I-AF, B-OG, I-CV
-7	은	O	O	O, I-OG, B-OG, B-LC, B-CV
-8	알리	B-PS	B-PS	B-PS, O, B-LC, B-OG, I-PS
-9	로	I-PS	I-PS	I-PS, O, I-LC, B-PS, I-OG
-10	##바	I-PS	I-PS	I-PS, O, I-LC, I-OG, B-LC
-11	만	B-LC	B-LC	B-LC, I-PS, I-LC, B-OG, O
-12	##데	I-LC	I-LC	I-LC, I-PS, B-LC, I-OG, O
-13	##라	I-LC	I-LC	I-LC, I-PS, B-LC, I-OG, O
-14	주지사	B-CV	B-CV	B-CV, O, B-OG, I-LC, I-CV
-15	##가	O	O	O, I-CV, I-OG, B-CV, I-AF
-16	인터뷰	O	O	O, B-CV, B-TM, B-LC, B-OG
-17	##에서	O	O	O, B-CV, B-OG, B-LC, B-PS
-18	“	O	O	O, B-LC, B-OG, B-CV, B-PS
-19	(	O	O	O, B-LC, B-OG, B-PS, B-CV
-20	무슬림	B-CV	B-CV	B-CV, O, B-OG, B-LC, B-PS
-21	승객	B-CV	B-CV	B-CV, I-CV, O, B-OG, B-AF
-22	##들이	O	O	O, I-CV, I-OG, B-CV, I-AF
-23	무장	O	B-CV	B-CV, O, B-OG, B-AF, I-CV
-24	##대원	O	I-CV	I-CV, O, I-OG, B-CV, I-AF
-25	##들	O	O	O, I-CV, I-OG, I-AF, I-QT
-26	##에	O	O	O, B-CV, B-OG, B-LC, B-TM
-27	##게	O	O	O, B-LC, B-CV, B-TM, B-OG
-28	)	O	O	O, B-LC, B-CV, B-OG, B-PS
-29	‘	O	O	O, B-LC, B-CV, B-OG, B-PS
-30	모든	O	O	O, B-PS, B-LC, B-CV, B-AF
-31	승객	B-CV	B-CV	B-CV, O, B-OG, I-CV, B-AF
-32	##을	O	O	O, I-CV, I-OG, I-AF, B-CV
-33	죽이	O	O	O, B-CV, B-LC, B-PS, B-QT
-34	##거나	O	O	O, B-PS, I-QT, I-AF, I-CV
-35	아니면	O	O	O, B-CV, B-LC, B-PS, B-QT
-36	떠나	O	O	O, B-CV, B-LC, B-PS, B-OG
-37	##라	O	O	O, B-PS, B-CV, B-LC, B-QT
-38	’	O	O	O, B-CV, B-LC, B-OG, B-PS
-39	고	O	O	O, B-CV, B-LC, B-QT, B-PS
-40	했	O	O	O, B-CV, B-LC, B-PS, B-OG
-41	##다	O	O	O, B-CV, B-LC, B-PS, B-OG
-42	”	O	O	O, B-CV, B-LC, B-OG, B-TM
-43	고	O	O	O, B-CV, B-LC, B-OG, B-TM
-44	말	O	O	O, B-CV, B-LC, B-TM, B-PS
-45	##했	O	O	O, B-PS, B-LC, B-CV, B-OG
-46	##다고	O	O	O, B-LC, B-OG, B-CV, B-PS
-47	보도	O	O	O, B-OG, B-CV, B-LC, I-OG
-48	##했	O	O	O, I-OG, B-OG, B-LC, B-CV
-49	##다	O	O	O, B-CV, B-LC, I-OG, B-OG
-50	.	O	O	O, B-LC, B-OG, B-CV, B-PS
-51	[SEP]	O	O	O, B-LC, B-CV, B-OG, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	타이거	B-PS	B-PS
+2	우즈	I-PS	I-PS
+3	##의	O	O
+4	칩	B-TM	B-TM
+5	##샷	I-TM	I-TM
+6	입	O	I-TM
+7	##스	O	I-TM
+8	(	O	O
+9	y	O	O
+10	##ip	O	O
+11	##s	O	O
+12	·	O	O
+13	샷	B-TM	B-TM
+14	실패	O	O
+15	불안	O	O
+16	증세	O	O
+17	)	O	O
+18	가	O	O
+19	미국	B-LC	B-LC
+20	골프	B-CV	B-CV
+21	채널	O	O
+22	##이	O	O
+23	꼽	O	O
+24	##은	O	O
+25	'	O	O
+26	2015	B-DT	B-DT
+27	##년	I-DT	I-DT
+28	골프	O	B-CV
+29	##계	O	O
+30	##에	O	O
+31	##서	O	O
+32	가장	O	O
+33	놀라운	O	I-AF
+34	뉴스	O	I-AF
+35	10	B-QT	I-AF
+36	(	O	O
+37	Top	B-QT	O
+38	10	I-QT	O
+39	Su	O	O
+40	##r	O	O
+41	##pr	O	O
+42	##ise	O	O
+43	##s	O	O
+44	)	O	O
+45	'	O	O
+46	1	B-QT	B-QT
+47	##위	I-QT	I-QT
+48	##에	O	O
+49	올랐	O	O
+50	##다	O	O
+51	.	O	O
+52	[SEP]	O	O

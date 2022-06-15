@@ -1,17 +1,75 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-AF
-1	커트	O	O	O, B-CV, B-OG, B-PS, B-AF
-2	##라인	O	O	O, I-OG, I-AF, I-CV, B-PS
-3	##이	O	O	O, B-PS, B-OG, B-CV, B-LC
-4	법대	O	O	O, B-OG, B-CV, B-FD, B-EV
-5	##보	O	O	O, I-OG, I-CV, I-AF, B-CV
-6	##다	O	O	O, B-QT, B-CV, B-TM, B-LC
-7	칠	O	B-QT	B-QT, O, I-QT, B-DT, B-LC
-8	점	O	I-QT	I-QT, O, I-DT, I-LC, B-QT
-9	##이	O	O	O, I-QT, B-PS, I-OG, B-CV
-10	높	O	O	O, B-CV, B-QT, B-TM, B-OG
-11	##았	O	O	O, B-CV, B-OG, B-TM, I-QT
-12	##을	O	O	O, B-CV, B-TM, B-PS, B-LC
-13	[UNK]	O	O	O, B-CV, B-OG, B-PS, B-LC
-14	.	O	O	O, B-CV, B-LC, B-OG, B-PS
-15	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	축사	O	O
+2	##에	O	O
+3	##서	O	O
+4	김남	B-PS	B-PS
+5	##조	I-PS	I-PS
+6	시인	B-CV	B-CV
+7	##은	O	O
+8	""""	O	O
+9	'	O	O
+10	손잡	O	B-AF
+11	##고	O	I-AF
+12	##오르	O	I-AF
+13	##는	O	I-AF
+14	##집	O	I-AF
+15	'	O	O
+16	이라	O	O
+17	##는	O	O
+18	한글	O	O
+19	현판	O	O
+20	##처럼	O	O
+21	이곳	O	O
+22	##에	O	O
+23	오	O	O
+24	##는	O	O
+25	사람	O	O
+26	##들이	O	O
+27	평화	O	O
+28	##를	O	O
+29	얻어	O	O
+30	##서	O	O
+31	내려가	O	O
+32	##는	O	O
+33	곳	O	O
+34	##이	O	O
+35	되	O	O
+36	##기	O	O
+37	##를	O	O
+38	기대	O	O
+39	##한다	O	O
+40	""""	O	O
+41	고	O	O
+42	말	O	O
+43	##했	O	O
+44	##고	O	O
+45	,	O	O
+46	이수	B-PS	B-PS
+47	##성	I-PS	I-PS
+48	전	O	O
+49	국무총리	B-CV	B-CV
+50	##는	O	O
+51	""""	O	O
+52	모두	O	O
+53	손잡	O	O
+54	##고	O	O
+55	올라와	O	O
+56	겸손	O	O
+57	##하	O	O
+58	##게	O	O
+59	사	O	O
+60	##는	O	O
+61	법	O	O
+62	##을	O	O
+63	배우	O	O
+64	##기	O	O
+65	##를	O	O
+66	바란다	O	O
+67	""""	O	O
+68	고	O	O
+69	말	O	O
+70	##했	O	O
+71	##다	O	O
+72	.	O	O
+73	[SEP]	O	O

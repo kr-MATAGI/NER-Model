@@ -1,14 +1,9 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	‘	O	O	O, B-CV, B-EV, B-LC, B-OG
-2	서	B-EV	B-EV	B-EV, B-CV, B-PS, B-AF, O
-3	##별	I-EV	I-EV	I-EV, I-CV, I-PS, I-AF, O
-4	##관	I-EV	I-EV	I-EV, I-CV, I-PS, I-AF, O
-5	청문회	I-EV	O	O, I-EV, B-EV, B-CV, I-CV
-6	’	O	O	O, I-EV, I-OG, I-CV, I-AF
-7	내달	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-QT
-8	8	I-DT	I-DT	I-DT, B-DT, O, I-EV, I-QT
-9	~	I-DT	I-DT	I-DT, O, B-DT, I-EV, I-QT
-10	9	I-DT	I-DT	I-DT, O, I-EV, B-DT, I-QT
-11	##일	I-DT	I-DT	I-DT, O, I-QT, I-EV, B-DT
-12	[SEP]	O	O	O, I-DT, I-EV, B-CV, I-CV
+	text	label	preds
+0	[CLS]	O	O
+1	이렇게	O	O
+2	어떻게	O	O
+3	국정	B-EV	B-CV
+4	##농	I-EV	I-CV
+5	##단	I-EV	I-CV
+6	세력	O	O
+7	[SEP]	O	O

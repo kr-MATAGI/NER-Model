@@ -1,37 +1,23 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	일선	O	O	O, B-CV, B-OG, B-LC, B-PS
-2	경찰관	B-CV	B-CV	B-CV, B-OG, O, I-CV, B-AF
-3	##들	O	O	O, I-CV, I-OG, I-AF, I-QT
-4	##은	O	O	O, B-CV, B-TM, I-CV, I-AF
-5	""""	O	O	O, B-CV, B-LC, B-TM, B-PS
-6	사면	B-CV	O	O, B-CV, B-PS, B-TM, B-EV
-7	##으로	O	O	O, I-CV, B-PS, I-EV, I-AF
-8	다시	O	O	O, B-CV, B-PS, B-TM, I-AF
-9	운전	O	O	O, B-CV, B-AF, B-TM, B-PS
-10	##할	O	O	O, B-PS, B-CV, I-AF, B-AF
-11	수	O	O	O, B-PS, B-CV, B-TM, B-AF
-12	있	O	O	O, B-CV, B-PS, B-TM, B-QT
-13	##게	O	O	O, B-CV, B-PS, B-TM, B-QT
-14	된	O	O	O, B-CV, B-PS, B-TM, B-QT
-15	사람	O	O	O, B-CV, I-CV, B-PS, B-AM
-16	중	O	O	O, B-PS, B-CV, B-TM, I-CV
-17	다시	O	O	O, B-CV, B-TM, B-PS, B-LC
-18	단속	O	O	O, B-CV, B-OG, B-TM, B-PS
-19	##에	O	O	O, B-CV, I-CV, B-PS, I-OG
-20	걸리	O	O	O, B-CV, B-LC, B-PS, B-TM
-21	##거나	O	O	O, B-CV, B-TM, I-AF, B-PS
-22	사고	O	O	O, B-CV, B-TM, B-AF, B-QT
-23	##를	O	O	O, B-CV, I-AF, B-TM, B-PS
-24	내	O	O	O, B-CV, B-TM, B-AF, B-LC
-25	##는	O	O	O, B-CV, B-PS, B-TM, I-AF
-26	경우	O	O	O, B-CV, B-TM, B-PS, B-AF
-27	##가	O	O	O, B-PS, B-CV, I-AF, B-LC
-28	많	O	O	O, B-CV, B-TM, B-PS, B-QT
-29	##다	O	O	O, B-CV, I-CV, I-AF, I-OG
-30	""""	O	O	O, B-CV, B-TM, B-LC, I-CV
-31	고	O	O	O, B-CV, B-TM, I-CV, B-QT
-32	말	O	O	O, B-CV, B-TM, I-CV, I-QT
-33	##한다	O	O	O, B-CV, B-PS, B-TM, I-AF
-34	.	O	O	O, B-CV, B-PS, B-TM, B-LC
-35	[SEP]	O	O	O, B-CV, B-TM, B-PS, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	“	O	O
+2	교육	B-CV	O
+3	##정책	I-CV	O
+4	##을	O	O
+5	집행	O	O
+6	##하	O	O
+7	##는	O	O
+8	사람	O	O
+9	##도	O	O
+10	주민	B-CV	B-CV
+11	##이	O	O
+12	뽑	O	O
+13	##고	O	O
+14	정당	O	O
+15	##도	O	O
+16	뽑	O	O
+17	##더라	O	O
+18	##고	O	O
+19	##요	O	O
+20	.	O	O
+21	[SEP]	O	O

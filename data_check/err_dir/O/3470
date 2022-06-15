@@ -1,23 +1,27 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	그	O	O	O, B-CV, B-PS, B-OG, B-FD
-2	##의	O	O	O, B-PS, B-CV, I-AF, B-AF
-3	전투	O	B-CV	B-CV, O, B-AF, B-OG, B-FD
-4	##복	O	I-CV	I-CV, O, I-AF, I-OG, B-CV
-5	오른쪽	B-TM	B-TM	B-TM, O, B-LC, B-AF, I-TM
-6	팔	B-AM	B-AM	B-AM, O, I-AM, B-TM, I-TM
-7	##엔	O	O	O, I-TM, I-AF, I-CV, I-QT
-8	유엔	B-OG	B-AF	B-AF, B-OG, O, B-CV, B-TM
-9	##기	O	I-AF	I-AF, O, I-OG, I-TM, I-CV
-10	,	O	O	O, I-AF, I-OG, I-EV, I-CV
-11	왼쪽	B-TM	B-TM	B-TM, O, B-LC, B-OG, B-AF
-12	팔	B-AM	B-AM	B-AM, I-AM, O, I-TM, B-TM
-13	##엔	O	O	O, I-TM, I-QT, I-AF, B-CV
-14	태극기	O	O	O, B-AF, B-TM, B-CV, B-OG
-15	##가	O	O	O, I-AF, I-TM, I-OG, I-EV
-16	달려	O	O	O, B-CV, B-LC, B-TM, B-OG
-17	있	O	O	O, B-CV, B-PS, I-AF, I-OG
-18	##었	O	O	O, B-CV, B-LC, B-TM, B-PS
-19	##다	O	O	O, B-CV, B-PS, B-LC, I-OG
-20	.	O	O	O, B-CV, B-LC, B-PS, B-OG
-21	[SEP]	O	O	O, B-CV, I-AF, B-LC, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	그러나	O	O
+2	외환	O	B-EV
+3	위기	O	I-EV
+4	여파	O	O
+5	##에	O	O
+6	##서	O	O
+7	채	O	O
+8	못	O	O
+9	벗어난	O	O
+10	한국	B-LC	B-LC
+11	##에	O	O
+12	##서	O	O
+13	김	B-PS	B-PS
+14	##씨	O	O
+15	가족의	O	O
+16	'	O	O
+17	코리안	O	B-CV
+18	드림	O	O
+19	'	O	O
+20	은	O	O
+21	산산조각	O	O
+22	났	O	O
+23	##다	O	O
+24	.	O	O
+25	[SEP]	O	O

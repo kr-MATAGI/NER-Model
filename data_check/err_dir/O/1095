@@ -1,76 +1,41 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	7	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-OG
-2	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-OG
-3	모금	O	O	O, B-OG, B-CV, I-OG, B-AF
-4	##회	O	I-OG	I-OG, O, I-CV, I-AF, I-EV
-5	##에	O	O	O, I-OG, I-CV, I-AF, I-EV
-6	따르	O	O	O, B-OG, I-OG, B-CV, B-PS
-7	##면	O	O	O, B-OG, I-OG, B-LC, B-PS
-8	개봉	B-LC	B-LC	B-LC, B-OG, B-AF, O, B-PS
-9	##2	I-LC	I-LC	I-LC, B-LC, B-QT, I-OG, I-AF
-10	##동	I-LC	I-LC	I-LC, I-QT, I-AF, O, I-OG
-11	##에	O	O	O, I-LC, I-QT, I-OG, I-AF
-12	##는	O	O	O, B-CV, B-OG, B-TM, B-LC
-13	카페	O	O	O, B-CV, B-OG, B-TM, B-FD
-14	##와	O	O	O, B-CV, B-OG, B-TM, B-PS
-15	동물	O	O	O, B-CV, B-OG, B-TM, B-AF
-16	##병원	O	O	O, I-OG, I-CV, B-CV, I-AF
-17	,	O	O	O, I-OG, B-CV, I-CV, B-PS
-18	해장국	O	O	O, B-CV, B-OG, B-AF, B-TM
-19	##집	O	O	O, I-CV, I-OG, B-CV, I-AF
-20	등	O	O	O, B-CV, B-PS, B-TM, B-OG
-21	매달	O	O	O, B-DT, B-CV, B-QT, B-PS
-22	3	B-QT	B-QT	B-QT, I-QT, O, B-CV, B-DT
-23	##만	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-24	##원	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-25	이상	I-QT	I-QT	I-QT, O, I-LC, I-CV, I-PS
-26	정기	O	O	O, I-QT, B-CV, B-TM, B-OG
-27	기부	O	O	O, B-CV, B-TM, B-OG, B-PS
-28	##하	O	O	O, B-PS, B-CV, B-OG, B-LC
-29	##는	O	O	O, B-CV, B-OG, B-PS, B-TM
-30	'	O	O	O, B-OG, B-CV, B-LC, B-PS
-31	착한	O	O	O, B-OG, B-CV, B-AF, I-OG
-32	가게	O	O	O, I-OG, B-OG, I-CV, I-AF
-33	'	O	O	O, I-OG, B-CV, I-CV, B-PS
-34	가	O	O	O, B-PS, B-OG, B-CV, B-AF
-35	25	B-QT	B-QT	B-QT, O, I-QT, B-LC, B-PS
-36	##곳	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-37	,	O	O	O, I-QT, B-CV, I-OG, B-PS
-38	2	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-TM
-39	##만	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-40	##원	I-QT	I-QT	I-QT, O, I-LC, I-PS, I-TM
-41	이상	I-QT	I-QT	I-QT, O, I-LC, I-TM, I-PS
-42	기부	O	O	O, B-CV, I-QT, B-TM, B-OG
-43	##하	O	O	O, B-CV, B-PS, B-OG, B-LC
-44	##는	O	O	O, B-CV, B-OG, B-PS, B-LC
-45	'	O	O	O, B-OG, B-CV, B-LC, B-PS
-46	착한	O	B-OG	B-OG, O, B-CV, B-AF, B-TM
-47	가정	O	I-OG	I-OG, O, B-OG, I-AF, I-CV
-48	'	O	O	O, I-OG, B-CV, I-CV, I-AF
-49	이	O	O	O, B-PS, B-OG, B-CV, B-AF
-50	15	B-QT	B-QT	B-QT, O, I-QT, B-PS, B-DT
-51	##곳	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-52	,	O	O	O, I-QT, B-CV, I-OG, B-PS
-53	홀몸	O	O	O, B-CV, I-CV, B-TM, B-OG
-54	##노	O	O	O, I-CV, B-CV, I-TM, I-QT
-55	##인	O	O	O, I-CV, B-CV, I-TM, I-QT
-56	등	O	O	O, I-CV, B-CV, B-PS, B-TM
-57	소외	O	O	O, B-CV, I-CV, B-TM, B-PS
-58	계층	O	O	O, I-CV, B-CV, I-OG, I-TM
-59	##을	O	O	O, I-CV, B-CV, B-PS, B-TM
-60	일대	O	O	O, B-QT, B-TM, B-CV, B-DT
-61	##일	O	B-QT	B-QT, O, I-QT, B-DT, B-TM
-62	결연	O	O	O, I-QT, B-TM, B-CV, B-QT
-63	##으로	O	O	O, B-PS, I-QT, B-CV, B-TM
-64	후원	O	O	O, B-CV, B-OG, B-TM, I-CV
-65	##하	O	O	O, I-CV, B-CV, B-PS, B-LC
-66	##는	O	O	O, B-CV, B-PS, B-TM, I-CV
-67	사람	O	O	O, B-CV, I-CV, B-TM, B-PS
-68	##이	O	O	O, B-PS, I-CV, B-CV, B-OG
-69	13	B-QT	B-QT	B-QT, O, I-QT, B-PS, B-DT
-70	##명	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-71	있	O	O	O, I-QT, B-CV, B-TM, I-OG
-72	##다	O	O	O, B-CV, B-OG, B-TM, I-QT
-73	.	O	O	O, B-CV, B-OG, B-PS, B-LC
-74	[SEP]	O	O	O, B-CV, B-OG, B-TM, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	내년도	O	B-DT
+2	예산안	O	O
+3	처리	O	O
+4	##를	O	O
+5	두고	O	O
+6	대치	O	O
+7	##하	O	O
+8	##던	O	O
+9	여야	O	O
+10	##는	O	O
+11	예산안	O	O
+12	통과	O	O
+13	##의	O	O
+14	마지	O	O
+15	##노선	O	O
+16	##인	O	O
+17	이달	B-DT	B-DT
+18	말	I-DT	I-DT
+19	##을	O	O
+20	목	O	O
+21	##전	O	O
+22	##에	O	O
+23	둔	O	O
+24	28	B-DT	B-DT
+25	##일	I-DT	I-DT
+26	서로	O	O
+27	조금	O	O
+28	##씩	O	O
+29	양보	O	O
+30	##하	O	O
+31	##며	O	O
+32	협상	O	O
+33	##의	O	O
+34	물꼬	O	O
+35	##를	O	O
+36	텄	O	O
+37	##다	O	O
+38	.	O	O
+39	[SEP]	O	O

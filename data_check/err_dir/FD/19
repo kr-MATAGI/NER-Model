@@ -1,35 +1,36 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-EV, I-OG
-1	정치	B-FD	O	O, B-FD, B-TR, I-FD, B-CV
-2	##에	O	O	O, I-FD, I-OG, B-CV, B-PS
-3	관여	O	O	O, B-CV, B-LC, B-TM, B-PS
-4	##하면	O	O	O, B-PS, B-LC, B-CV, B-OG
-5	안	O	O	O, B-CV, B-PS, B-LC, B-OG
-6	된다	O	O	O, B-CV, B-PS, I-OG, B-OG
-7	”	O	O	O, B-CV, B-PS, I-CV, B-TM
-8	며	O	O	O, B-CV, B-PS, B-LC, B-OG
-9	“	O	O	O, B-CV, B-LC, B-PS, B-TM
-10	과학	B-FD	B-FD	B-FD, O, B-TR, I-FD, B-CV
-11	##을	O	O	O, I-FD, I-CV, I-EV, I-OG
-12	잘	O	O	O, B-CV, B-PS, B-LC, B-TM
-13	##해서	O	O	O, B-PS, B-LC, B-CV, B-OG
-14	국	O	O	O, B-CV, B-PS, B-EV, B-LC
-15	##리	O	O	O, I-CV, B-CV, I-TR, I-AM
-16	##민	O	O	O, I-CV, B-CV, I-TR, I-AM
-17	##복	O	O	O, I-CV, I-TR, I-AM, I-TM
-18	증진	O	O	O, I-CV, I-TM, I-TR, I-LC
-19	##에	O	O	O, I-CV, B-PS, B-CV, B-LC
-20	기여	O	O	O, B-CV, B-LC, B-PS, B-TM
-21	##하고	O	O	O, B-CV, B-LC, B-PS, B-TM
-22	일자리	O	O	O, B-TM, B-CV, B-LC, B-QT
-23	##라도	O	O	O, B-PS, I-TM, I-CV, I-AF
-24	더	O	O	O, B-CV, B-LC, B-TM, B-QT
-25	만들	O	O	O, B-CV, B-LC, B-PS, B-TM
-26	##어야	O	O	O, B-PS, B-CV, B-LC, I-QT
-27	한다	O	O	O, B-CV, B-PS, B-LC, B-OG
-28	”	O	O	O, B-CV, B-TM, I-CV, B-PS
-29	는	O	O	O, B-CV, B-PS, B-OG, B-TM
-30	주장	O	O	O, B-CV, B-TR, I-CV, B-PS
-31	##이다	O	O	O, B-CV, I-CV, B-PS, I-EV
-32	.	O	O	O, B-CV, B-PS, B-LC, I-CV
-33	[SEP]	O	O	O, B-CV, B-PS, B-LC, I-CV
+	text	label	preds
+0	[CLS]	O	O
+1	정치	B-FD	O
+2	##에	O	O
+3	관여	O	O
+4	##하면	O	O
+5	안	O	O
+6	된다	O	O
+7	”	O	O
+8	며	O	O
+9	“	O	O
+10	과학	B-FD	B-FD
+11	##을	O	O
+12	잘	O	O
+13	##해서	O	O
+14	국	O	O
+15	##리	O	O
+16	##민	O	O
+17	##복	O	O
+18	증진	O	O
+19	##에	O	O
+20	기여	O	O
+21	##하	O	O
+22	##고	O	O
+23	일자리	O	O
+24	##라도	O	O
+25	더	O	O
+26	만들	O	O
+27	##어야	O	O
+28	한다	O	O
+29	”	O	O
+30	는	O	O
+31	주장	O	O
+32	##이다	O	O
+33	.	O	O
+34	[SEP]	O	O

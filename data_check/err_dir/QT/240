@@ -1,25 +1,13 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-EV
-1	2008	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-2	##년	I-DT	I-DT	I-DT, O, I-QT, B-DT, I-PS
-3	7	B-QT	B-QT	B-QT, B-TM, I-QT, B-EV, I-DT
-4	##골	I-QT	I-QT	I-QT, I-TM, I-EV, O, B-TM
-5	##3	B-QT	I-QT	I-QT, B-QT, I-TM, B-TM, O
-6	##도	I-QT	I-QT	I-QT, I-TM, O, B-QT, B-TM
-7	##움	I-QT	I-QT	I-QT, I-TM, O, I-TR, I-EV
-8	(	O	O	O, I-QT, I-TM, B-CV, I-EV
-9	25	B-QT	B-QT	B-QT, O, B-TM, I-QT, B-EV
-10	##경기	I-QT	I-QT	I-QT, O, I-TM, I-EV, B-QT
-11	)	O	O	O, I-QT, I-EV, I-TM, I-OG
-12	을	O	O	O, B-CV, B-OG, B-PS, B-TM
-13	기록	O	O	O, B-CV, B-OG, B-LC, B-PS
-14	##하	O	O	O, B-PS, B-LC, B-CV, B-OG
-15	##며	O	O	O, B-OG, B-LC, B-PS, B-CV
-16	화려	O	O	O, B-CV, B-PS, B-LC, B-OG
-17	##하	O	O	O, B-PS, B-LC, I-OG, B-OG
-18	##게	O	O	O, B-PS, I-OG, B-LC, B-OG
-19	성장	O	O	O, B-CV, B-OG, B-LC, B-PS
-20	##했	O	O	O, B-PS, I-OG, B-CV, I-CV
-21	##다	O	O	O, B-CV, B-PS, I-OG, B-LC
-22	.	O	O	O, B-PS, B-LC, B-CV, B-OG
-23	[SEP]	O	O	O, B-CV, B-LC, B-PS, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	무려	O	O
+2	오	B-QT	O
+3	##천	I-QT	O
+4	만	I-QT	O
+5	명의	I-QT	O
+6	생명	O	O
+7	##을	O	O
+8	앗	O	O
+9	##아	O	O
+10	##간	O	O
+11	[SEP]	O	O

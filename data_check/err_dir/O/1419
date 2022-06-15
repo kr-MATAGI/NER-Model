@@ -1,76 +1,11 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-EV, I-CV
-1	영국	B-OG	B-LC	B-LC, B-OG, O, B-PS, B-AF
-2	##은	O	O	O, I-OG, I-LC, I-DT, I-EV
-3	2007	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-4	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
-5	런던	B-DT	B-DT	B-DT, B-LC, B-EV, O, I-DT
-6	테러	I-DT	I-DT	I-DT, O, I-EV, B-DT, I-LC
-7	이후	I-DT	I-DT	I-DT, O, I-EV, I-AF, I-LC
-8	행인	O	B-CV	B-CV, O, I-CV, I-DT, B-AF
-9	##을	O	O	O, I-CV, B-CV, I-EV, I-AF
-10	대상	O	O	O, B-CV, B-LC, B-TM, B-EV
-11	##으로	O	O	O, B-LC, B-PS, B-CV, B-OG
-12	무작위	O	O	O, B-TM, B-CV, B-PS, B-LC
-13	검문	O	O	O, B-LC, B-CV, B-PS, B-TM
-14	(	O	O	O, B-CV, I-CV, B-LC, I-OG
-15	St	O	O	O, B-LC, B-PS, B-OG, B-CV
-16	##op	O	O	O, B-LC, B-PS, I-LC, B-OG
-17	and	O	O	O, B-LC, B-PS, I-LC, B-OG
-18	Se	O	O	O, B-LC, B-PS, I-LC, B-OG
-19	##ar	O	O	O, B-LC, B-PS, I-LC, B-OG
-20	##ch	O	O	O, B-LC, I-LC, B-PS, B-OG
-21	)	O	O	O, B-CV, B-LC, B-OG, I-OG
-22	을	O	O	O, B-OG, B-CV, B-LC, B-PS
-23	강화	O	O	O, B-CV, B-LC, B-OG, B-PS
-24	##했	O	O	O, B-LC, B-PS, B-OG, B-CV
-25	##는데	O	O	O, B-LC, B-CV, B-OG, B-PS
-26	,	O	O	O, B-LC, B-CV, B-DT, B-EV
-27	런던	B-EV	B-LC	B-LC, B-EV, B-DT, O, B-AF
-28	테러	I-EV	I-EV	I-EV, O, I-DT, I-LC, B-EV
-29	발생	O	O	O, I-DT, I-EV, I-AF, I-LC
-30	이전	O	O	O, I-DT, I-EV, B-DT, B-LC
-31	##보	O	O	O, I-DT, B-PS, B-DT, B-LC
-32	##다	O	O	O, I-DT, B-LC, B-DT, B-PS
-33	흑인	B-CV	B-CV	B-CV, O, B-TM, B-LC, I-CV
-34	대상	O	O	O, I-CV, B-CV, B-TM, B-LC
-35	검문	O	O	O, B-LC, B-OG, B-CV, B-PS
-36	##이	O	O	O, B-PS, B-OG, B-LC, B-CV
-37	32	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-LC
-38	##2	I-QT	I-QT	I-QT, B-QT, O, I-LC, I-PS
-39	%	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-40	,	O	O	O, I-QT, B-CV, I-OG, I-EV
-41	아시아	B-CV	B-CV	B-CV, O, B-LC, I-CV, B-TM
-42	##인	I-CV	I-CV	I-CV, O, B-CV, I-QT, I-TM
-43	대상	O	O	O, I-CV, B-CV, B-TM, B-QT
-44	검문	O	O	O, B-LC, B-OG, B-TM, B-PS
-45	##이	O	O	O, B-PS, B-OG, B-LC, B-CV
-46	27	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-LC
-47	##7	I-QT	I-QT	I-QT, B-QT, O, I-LC, I-PS
-48	%	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-49	증가	O	O	O, I-QT, B-OG, B-CV, B-LC
-50	##하	O	O	O, B-LC, B-OG, B-PS, B-CV
-51	##는	O	O	O, B-LC, B-CV, B-OG, B-TM
-52	등	O	O	O, B-LC, B-OG, B-TM, B-PS
-53	백인	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-OG
-54	(	O	O	O, I-CV, I-OG, B-CV, I-QT
-55	185	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-LC
-56	%	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-57	)	O	O	O, I-QT, I-OG, I-EV, B-CV
-58	에	O	O	O, B-CV, I-QT, B-LC, B-OG
-59	비해	O	O	O, B-CV, B-TM, B-LC, B-OG
-60	현저히	O	O	O, B-OG, B-LC, B-QT, B-CV
-61	높	O	O	O, B-CV, B-LC, B-OG, B-TM
-62	##아	O	O	O, B-LC, B-CV, B-OG, B-PS
-63	##져	O	O	O, B-LC, B-CV, B-OG, B-PS
-64	인종	O	O	O, B-CV, B-TR, B-TM, B-FD
-65	차별	O	O	O, I-CV, I-TR, B-CV, I-TM
-66	논란	O	O	O, I-CV, B-CV, B-PS, I-TR
-67	##이	O	O	O, B-PS, B-CV, B-OG, B-LC
-68	거세	O	O	O, B-LC, B-CV, B-OG, B-QT
-69	##게	O	O	O, I-OG, I-EV, I-QT, B-LC
-70	일	O	O	O, B-CV, B-LC, B-PS, B-QT
-71	##었	O	O	O, B-CV, I-OG, I-EV, B-OG
-72	##다	O	O	O, B-CV, B-LC, I-OG, B-TM
-73	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-74	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	이게	O	O
+2	무슨	O	O
+3	방송법	O	B-CV
+4	##에도	O	O
+5	걸리	O	O
+6	##지도	O	O
+7	않	O	O
+8	##고	O	O
+9	[SEP]	O	O

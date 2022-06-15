@@ -1,37 +1,31 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	2000	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-2	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-3	##에	O	O	O, I-DT, B-CV, I-EV, I-OG
-4	태어난	O	O	O, B-CV, B-PS, B-LC, B-TM
-5	뿌	O	B-AF	B-AF, O, B-PS, B-OG, B-TM
-6	##까	O	I-AF	I-AF, O, I-PS, I-TM, I-AM
-7	##는	O	O	O, I-AF, I-OG, I-TM, I-PS
-8	유럽	B-LC	B-LC	B-LC, B-OG, O, I-LC, B-AF
-9	##은	O	O	O, I-LC, I-AF, I-OG, B-LC
-10	물론	O	O	O, B-LC, B-CV, B-TM, B-OG
-11	세계	O	O	O, B-LC, B-CV, B-TM, B-OG
-12	곳곳	O	O	O, B-LC, B-TM, B-CV, B-AF
-13	##에서	O	O	O, B-LC, B-PS, B-CV, B-OG
-14	,	O	O	O, B-CV, B-LC, B-OG, B-PS
-15	일본	B-LC	B-LC	B-LC, B-OG, O, B-PS, I-LC
-16	##이	O	O	O, I-LC, I-OG, B-PS, I-PS
-17	자랑	O	O	O, B-CV, I-AF, I-OG, B-LC
-18	##하	O	O	O, B-PS, B-LC, B-AF, B-CV
-19	##는	O	O	O, B-CV, B-PS, I-AF, B-LC
-20	캐릭터	O	O	O, B-CV, B-PS, B-AF, B-FD
-21	‘	O	O	O, B-CV, B-LC, B-PS, B-OG
-22	헬로	O	B-PS	B-PS, B-AF, O, B-LC, B-AM
-23	키	O	O	O, I-AF, I-PS, B-AM, I-AM
-24	##티	O	O	O, I-AF, I-PS, I-AM, I-CV
-25	’	O	O	O, I-AF, I-PS, I-CV, B-CV
-26	보다	O	O	O, B-CV, B-PS, I-AF, B-LC
-27	더	O	O	O, B-LC, B-CV, B-TM, B-OG
-28	인기	O	O	O, B-CV, B-LC, B-TM, B-OG
-29	##를	O	O	O, B-CV, I-OG, I-AF, B-OG
-30	얻	O	O	O, B-CV, B-TM, B-LC, B-PS
-31	##고	O	O	O, B-CV, B-PS, B-LC, B-TM
-32	있	O	O	O, B-CV, B-PS, I-OG, B-LC
-33	##다	O	O	O, B-CV, B-PS, I-OG, B-TM
-34	.	O	O	O, B-LC, B-CV, B-PS, I-AF
-35	[SEP]	O	O	O, B-CV, B-LC, B-PS, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	한편	O	O
+2	리비아	B-LC	B-LC
+3	##의	O	O
+4	원유	B-MT	B-MT
+5	##생	O	O
+6	##산	O	O
+7	재개	O	O
+8	##는	O	O
+9	유가	O	O
+10	##를	O	O
+11	떨어뜨려	O	O
+12	글로벌	O	O
+13	인플레이션	O	B-TR
+14	##을	O	O
+15	진정	O	O
+16	##시	O	O
+17	##키	O	O
+18	##는	O	O
+19	데	O	O
+20	기여	O	O
+21	##할	O	O
+22	것	O	O
+23	##이	O	O
+24	##라는	O	O
+25	전망	O	O
+26	##도	O	O
+27	나온다	O	O
+28	.	O	O
+29	[SEP]	O	O

@@ -1,37 +1,74 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-EV, I-CV
-1	금융	O	O	O, B-OG, B-LC, B-CV, B-FD
-2	##권	O	O	O, I-OG, I-LC, I-CV, I-FD
-3	##에	O	O	O, I-OG, B-PS, B-CV, B-OG
-4	##선	O	O	O, B-DT, B-EV, B-OG, B-LC
-5	저축	O	O	O, B-DT, B-EV, B-OG, B-AF
-6	##은행	O	O	O, I-DT, I-EV, I-OG, I-CV
-7	사태	O	O	O, I-DT, I-EV, B-DT, I-OG
-8	이후	O	I-DT	I-DT, O, I-EV, B-DT, I-OG
-9	금감원	B-OG	B-OG	B-OG, B-AF, O, B-EV, B-LC
-10	임직원	B-CV	B-CV	B-CV, O, I-CV, I-OG, I-EV
-11	##들이	O	O	O, I-CV, I-OG, I-EV, B-CV
-12	금융	O	O	O, B-CV, B-OG, B-TM, B-FD
-13	##회사	O	O	O, I-OG, I-CV, I-EV, I-AF
-14	감사	B-CV	B-CV	B-CV, O, I-CV, B-FD, B-OG
-15	등	O	O	O, I-CV, I-OG, B-PS, I-EV
-16	##으로	O	O	O, B-PS, B-TM, B-CV, B-LC
-17	내려가	O	O	O, B-PS, B-TM, B-CV, B-LC
-18	##는	O	O	O, B-PS, B-LC, B-TM, B-CV
-19	길이	O	O	O, B-PS, B-TM, B-AF, B-LC
-20	막히	O	O	O, B-CV, B-TM, B-QT, B-OG
-21	##면서	O	O	O, B-PS, B-LC, B-CV, B-OG
-22	민간	O	O	O, B-CV, B-OG, B-TM, B-FD
-23	협회	O	O	O, I-OG, B-OG, I-CV, B-CV
-24	##로	O	O	O, B-PS, I-OG, B-LC, B-CV
-25	방향	O	O	O, B-TM, B-OG, B-LC, B-PS
-26	##을	O	O	O, B-PS, B-OG, B-CV, B-LC
-27	선회	O	O	O, B-CV, B-LC, B-PS, B-QT
-28	##하고	O	O	O, B-PS, B-LC, B-CV, B-OG
-29	있	O	O	O, B-PS, B-LC, B-OG, B-CV
-30	##다는	O	O	O, B-PS, I-OG, B-LC, B-OG
-31	관측	O	O	O, B-CV, B-OG, B-QT, B-TM
-32	##이	O	O	O, B-PS, B-CV, B-OG, I-OG
-33	나온다	O	O	O, B-CV, B-QT, B-OG, B-LC
-34	.	O	O	O, B-PS, B-LC, B-OG, B-CV
-35	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	최희	B-PS	B-PS
+2	##갑	I-PS	I-PS
+3	아주	B-OG	B-OG
+4	##대	I-OG	I-OG
+5	교수	B-CV	B-CV
+6	(	O	O
+7	경제학	B-FD	B-FD
+8	)	O	O
+9	는	O	O
+10	“	O	O
+11	부동산	O	O
+12	개발	O	O
+13	##을	O	O
+14	통한	O	O
+15	경기	O	O
+16	활성	O	O
+17	##화가	O	O
+18	창조	O	O
+19	##경제	O	O
+20	##와	O	O
+21	어떤	O	O
+22	맥락	O	O
+23	##에	O	O
+24	##서	O	O
+25	맞닿	O	O
+26	##는	O	O
+27	것	O	O
+28	##인지	O	O
+29	알	O	O
+30	수가	O	O
+31	없	O	O
+32	##다	O	O
+33	”	O	O
+34	며	O	O
+35	“	O	O
+36	정보	O	B-FD
+37	##통신	O	I-FD
+38	##기술	O	I-FD
+39	,	O	O
+40	고부	O	O
+41	##가	O	O
+42	##가치	O	O
+43	서비스업	O	O
+44	##과	O	O
+45	부동산	O	O
+46	개발	O	O
+47	##이	O	O
+48	어떤	O	O
+49	측면	O	O
+50	##에	O	O
+51	##서	O	O
+52	뒷받침	O	O
+53	##이	O	O
+54	될	O	O
+55	수	O	O
+56	있	O	O
+57	##는지	O	O
+58	구체	O	O
+59	##적	O	O
+60	##인	O	O
+61	설명	O	O
+62	##이	O	O
+63	필요	O	O
+64	##하	O	O
+65	##다	O	O
+66	”	O	O
+67	고	O	O
+68	지적	O	O
+69	##했	O	O
+70	##다	O	O
+71	.	O	O
+72	[SEP]	O	O

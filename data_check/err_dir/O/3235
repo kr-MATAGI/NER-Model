@@ -1,21 +1,26 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-AF
-1	알루미늄	O	B-MT	B-MT, O, B-CV, B-TR, B-TM
-2	레일	O	O	O, I-AF, I-MT, I-TM, B-AF
-3	##을	O	O	O, I-AF, B-CV, I-OG, I-CV
-4	활용	O	O	O, B-TM, B-CV, B-LC, B-OG
-5	##해	O	O	O, B-LC, B-OG, B-PS, B-CV
-6	창	O	O	O, B-TM, B-CV, B-AF, B-LC
-7	##을	O	O	O, I-AF, B-CV, B-PS, I-EV
-8	열	O	O	O, B-PS, B-CV, B-QT, I-AF
-9	##고	O	O	O, B-PS, I-AF, B-CV, I-EV
-10	닫	O	O	O, B-CV, B-PS, B-TM, B-QT
-11	##을	O	O	O, B-CV, B-PS, I-AF, B-OG
-12	때	O	O	O, B-CV, B-PS, B-TM, B-LC
-13	사용	O	O	O, B-CV, B-TM, B-OG, B-LC
-14	##하기	O	O	O, B-CV, B-TM, B-PS, B-LC
-15	##가	O	O	O, B-CV, B-PS, B-OG, B-LC
-16	쉽	O	O	O, B-CV, B-TM, B-OG, B-LC
-17	##다	O	O	O, B-CV, I-CV, I-OG, B-TM
-18	.	O	O	O, B-CV, B-LC, B-PS, B-OG
-19	[SEP]	O	O	O, B-CV, I-AF, B-LC, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	도서관	O	O
+2	##에	O	O
+3	##선	O	O
+4	독일	B-LC	B-LC
+5	철학자	B-CV	B-CV
+6	알베르	B-PS	B-PS
+7	##투스	I-PS	I-PS
+8	마그	I-PS	I-PS
+9	##누스	I-PS	I-PS
+10	,	O	O
+11	독일	B-LC	B-LC
+12	신비주의	O	B-TR
+13	사상가	B-CV	B-CV
+14	야	B-PS	B-PS
+15	##코프	I-PS	I-PS
+16	뵈	I-PS	I-PS
+17	##메	I-PS	I-PS
+18	##의	O	O
+19	저작	O	O
+20	##을	O	O
+21	탐구	O	O
+22	##한다	O	O
+23	.	O	O
+24	[SEP]	O	O

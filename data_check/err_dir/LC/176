@@ -1,23 +1,45 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	박영	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
-2	##준	I-PS	I-PS	I-PS, I-OG, O, I-LC, B-PS
-3	등	O	O	O, I-PS, B-CV, I-OG, B-LC
-4	통	B-LC	B-OG	B-OG, B-PS, O, B-LC, B-AF
-5	##의	I-LC	I-OG	I-OG, I-PS, O, I-LC, I-AF
-6	##동	I-LC	I-OG	I-OG, I-PS, O, I-LC, I-AF
-7	멤버	B-CV	B-CV	B-CV, O, I-CV, I-PS, I-OG
-8	##들	O	O	O, I-CV, I-OG, I-PS, I-AF
-9	##은	O	O	O, B-CV, B-LC, B-PS, B-TM
-10	이명박	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
-11	정권	O	O	O, I-PS, B-OG, I-OG, B-CV
-12	출범	O	O	O, I-OG, B-OG, B-PS, B-CV
-13	##과	O	O	O, I-OG, B-PS, B-CV, I-EV
-14	함께	O	O	O, B-CV, B-LC, B-PS, B-OG
-15	대거	O	O	O, B-LC, B-QT, B-TM, B-CV
-16	청와대	B-OG	B-OG	B-OG, B-AF, B-LC, O, B-PS
-17	##에	O	O	O, I-OG, I-AF, I-EV, B-CV
-18	들어갔	O	O	O, B-CV, I-OG, B-OG, B-LC
-19	##다	O	O	O, B-CV, I-OG, B-TM, B-LC
-20	.	O	O	O, B-OG, B-LC, B-PS, B-CV
-21	[SEP]	O	O	O, B-CV, I-OG, B-OG, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	“	O	O
+2	베트남	B-EV	B-EV
+3	##전	I-EV	I-EV
+4	##에	O	O
+5	##서	O	O
+6	옛	O	O
+7	소련	B-LC	B-LC
+8	##제	O	O
+9	AK	B-AF	B-AF
+10	-	I-AF	I-AF
+11	47	I-AF	I-AF
+12	자동	B-AF	I-AF
+13	소총	I-AF	I-AF
+14	##을	O	O
+15	사용	O	O
+16	##해	O	O
+17	미국	B-LC	B-OG
+18	##의	O	O
+19	침입	O	O
+20	##에	O	O
+21	저항	O	O
+22	##했	O	O
+23	##던	O	O
+24	베트남	B-LC	B-OG
+25	##이	O	O
+26	이제	O	O
+27	##는	O	O
+28	러시아	B-LC	B-OG
+29	##의	O	O
+30	힘	O	O
+31	##을	O	O
+32	빌려	O	O
+33	중국	B-LC	B-OG
+34	##을	O	O
+35	견제	O	O
+36	##하	O	O
+37	##려	O	O
+38	하고	O	O
+39	있	O	O
+40	##다	O	O
+41	.	O	O
+42	”	O	O
+43	[SEP]	O	O

@@ -1,29 +1,20 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	투표	O	O	O, B-TM, B-CV, B-EV, B-QT
-2	##용지	O	O	O, I-TM, I-CV, I-EV, B-MT
-3	7	B-QT	B-QT	B-QT, O, I-QT, B-EV, B-TM
-4	##장	I-QT	I-QT	I-QT, O, I-EV, I-TM, I-LC
-5	가운데	O	O	O, B-TM, I-QT, I-TM, B-CV
-6	소속	O	O	O, B-OG, B-CV, B-LC, B-PS
-7	정당	O	O	O, I-OG, B-OG, B-CV, I-CV
-8	표시	O	O	O, I-OG, I-CV, B-PS, B-CV
-9	없이	O	O	O, B-PS, B-CV, B-LC, B-TM
-10	후보	B-CV	B-CV	B-CV, O, B-EV, B-AF, B-TM
-11	이름	O	O	O, I-CV, B-CV, B-TM, I-AF
-12	##만	O	O	O, B-PS, I-CV, B-QT, B-LC
-13	죽	O	O	O, B-TM, B-QT, B-CV, B-PS
-14	나열	O	O	O, B-CV, B-TM, B-QT, B-LC
-15	##된	O	O	O, B-CV, B-PS, B-LC, B-OG
-16	걸	O	O	O, B-CV, B-TM, B-PS, B-OG
-17	보고	O	O	O, B-CV, B-QT, B-TM, B-PS
-18	찍	O	O	O, B-CV, B-PS, B-TM, B-LC
-19	##어야	O	O	O, B-CV, B-PS, B-LC, B-TM
-20	하	O	O	O, B-CV, B-OG, B-LC, B-PS
-21	##는	O	O	O, B-CV, B-TM, B-LC, B-OG
-22	게	O	O	O, B-PS, B-EV, B-CV, B-LC
-23	교육감	B-CV	B-EV	B-EV, B-CV, O, I-EV, B-TM
-24	선거	O	I-EV	I-EV, O, B-EV, I-CV, B-CV
-25	##다	O	O	O, I-EV, I-AF, I-CV, I-OG
-26	.	O	O	O, B-CV, B-LC, I-EV, B-PS
-27	[SEP]	O	O	O, B-CV, B-TM, B-LC, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	학교	O	B-CV
+2	##위원	B-CV	I-CV
+3	##과	O	O
+4	외부	O	O
+5	##위원	B-CV	B-CV
+6	##만	O	O
+7	참석	O	O
+8	##한	O	O
+9	채	O	O
+10	올해	B-DT	B-DT
+11	예산안	O	O
+12	##은	O	O
+13	통과	O	O
+14	##됐	O	O
+15	##습	O	O
+16	##니다	O	O
+17	.	O	O
+18	[SEP]	O	O

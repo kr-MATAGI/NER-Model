@@ -1,20 +1,46 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	몸	B-AM	B-AM	B-AM, O, B-TR, B-TM, B-PS
-2	##으로	O	O	O, I-AF, I-QT, I-EV, B-PS
-3	수류	B-AF	B-AF	B-AF, O, I-AF, B-LC, B-TM
-4	##탄	I-AF	I-AF	I-AF, O, B-AF, I-QT, I-EV
-5	막	O	O	O, I-AF, I-EV, I-QT, B-CV
-6	##은	O	O	O, B-LC, B-CV, B-PS, B-OG
-7	한국	B-CV	B-CV	B-CV, B-LC, O, B-OG, B-TM
-8	##계	I-CV	I-CV	I-CV, O, I-LC, B-CV, I-TM
-9	병사	O	B-CV	B-CV, I-CV, O, B-OG, B-AF
-10	,	O	O	O, I-CV, I-OG, B-CV, I-QT
-11	평택	B-LC	B-LC	B-LC, B-OG, B-AF, O, B-EV
-12	미군	B-OG	B-OG	B-OG, I-OG, O, B-AF, B-LC
-13	##기지	I-OG	I-OG	I-OG, O, I-AF, I-EV, I-LC
-14	##서	O	O	O, I-OG, I-AF, I-EV, I-QT
-15	'	O	O	O, B-LC, I-OG, B-CV, B-PS
-16	부활	O	O	O, B-LC, B-CV, B-TM, B-PS
-17	'	O	O	O, B-CV, B-LC, I-EV, B-OG
-18	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	빚	O	O
+2	##도	O	O
+3	없	O	O
+4	##고	O	O
+5	기술	O	O
+6	##도	O	O
+7	있	O	O
+8	##는데	O	O
+9	사장	B-CV	B-CV
+10	##님	O	O
+11	##과	O	O
+12	기술	O	B-CV
+13	##진	O	I-CV
+14	##이	O	O
+15	다	O	O
+16	같이	O	O
+17	나이	O	O
+18	##를	O	O
+19	먹	O	O
+20	##고	O	O
+21	젊	O	O
+22	##은	O	O
+23	직원	B-CV	B-CV
+24	##은	O	O
+25	새로	O	O
+26	들어오	O	O
+27	##지	O	O
+28	않	O	O
+29	##아	O	O
+30	스스로	O	O
+31	회사	O	O
+32	문	O	O
+33	##을	O	O
+34	닫	O	O
+35	##는	O	O
+36	경우	O	O
+37	##가	O	O
+38	많	O	O
+39	##았	O	O
+40	##다는	O	O
+41	분석	O	O
+42	##이다	O	O
+43	.	O	O
+44	[SEP]	O	O

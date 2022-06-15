@@ -1,57 +1,19 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-EV, I-CV, I-OG
-1	미	B-LC	B-LC	B-LC, B-OG, O, B-PS, B-AF
-2	상원	B-OG	B-OG	B-OG, I-OG, O, B-LC, B-AF
-3	##도	O	O	O, I-OG, I-LC, I-EV, B-OG
-4	북한	B-LC	B-LC	B-LC, B-OG, O, B-PS, B-AF
-5	##의	O	O	O, I-OG, I-LC, B-LC, B-CV
-6	원유	O	B-MT	B-MT, O, I-MT, B-AF, B-LC
-7	수입	O	O	O, B-CV, I-CV, B-LC, B-MT
-8	제재	O	O	O, I-CV, B-CV, B-PS, I-TM
-9	등	O	O	O, B-LC, B-PS, I-CV, B-OG
-10	초	O	O	O, B-LC, B-PS, B-CV, B-TR
-11	##강	O	O	O, I-CV, B-LC, I-LC, B-CV
-12	##력	O	O	O, I-CV, I-PS, I-LC, B-LC
-13	제재	O	O	O, B-CV, I-CV, B-PS, B-FD
-14	##안	O	O	O, I-CV, B-CV, I-TR, B-PS
-15	##을	O	O	O, I-CV, B-LC, B-CV, B-PS
-16	담	O	O	O, B-LC, B-CV, B-PS, B-TM
-17	##은	O	O	O, B-LC, B-PS, B-OG, B-CV
-18	‘	O	O	O, B-CV, B-LC, B-OG, B-AF
-19	북한	B-CV	B-CV	B-CV, B-LC, B-OG, B-AF, B-PS
-20	·	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-AF
-21	러시아	I-CV	I-CV	I-CV, B-CV, B-LC, I-OG, I-AF
-22	·	I-CV	I-CV	I-CV, O, I-OG, B-CV, I-AF
-23	이란	I-CV	I-CV	I-CV, I-OG, B-CV, I-AF, I-LC
-24	제재	I-CV	I-CV	I-CV, O, I-OG, B-CV, I-AF
-25	패키지	I-CV	I-CV	I-CV, O, I-OG, B-CV, I-AF
-26	##법	I-CV	I-CV	I-CV, O, I-OG, I-AF, B-CV
-27	’	O	O	O, I-CV, I-AF, I-OG, B-CV
-28	안	O	O	O, B-CV, I-CV, B-LC, B-PS
-29	##을	O	O	O, B-LC, I-CV, B-CV, B-PS
-30	이르	O	O	O, B-DT, B-LC, B-OG, B-PS
-31	##면	O	O	O, I-DT, B-LC, B-PS, I-LC
-32	이번	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-TI
-33	주	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-TI
-34	내	I-DT	I-DT	I-DT, O, B-DT, I-TI, I-PS
-35	##에	O	O	O, I-DT, B-LC, B-OG, B-CV
-36	통과	O	O	O, B-LC, B-CV, B-OG, B-TM
-37	##시	O	O	O, B-LC, B-OG, B-PS, I-LC
-38	##킬	O	O	O, B-LC, B-PS, B-OG, B-CV
-39	계획	O	O	O, B-LC, B-OG, B-PS, B-CV
-40	##이	O	O	O, B-PS, B-LC, B-OG, B-CV
-41	##라고	O	O	O, B-LC, B-OG, B-PS, B-CV
-42	뉴욕	B-OG	B-OG	B-OG, B-AF, O, B-LC, B-PS
-43	##타임	I-OG	I-OG	I-OG, I-AF, O, B-OG, I-LC
-44	##스	I-OG	I-OG	I-OG, I-AF, O, I-LC, I-EV
-45	(	O	O	O, I-OG, I-AF, I-EV, I-CV
-46	NYT	B-OG	B-OG	B-OG, B-AF, O, B-TM, I-OG
-47	)	O	O	O, I-OG, I-AF, I-EV, I-CV
-48	등	O	O	O, B-LC, B-CV, B-OG, I-OG
-49	##이	O	O	O, B-PS, B-LC, B-OG, B-CV
-50	이날	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-CV
-51	보도	O	O	O, I-DT, B-CV, B-OG, I-QT
-52	##했	O	O	O, B-LC, B-CV, B-OG, I-OG
-53	##다	O	O	O, B-CV, B-LC, B-OG, B-PS
-54	.	O	O	O, B-LC, B-OG, B-PS, B-CV
-55	[SEP]	O	O	O, B-LC, B-OG, B-CV, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	25	B-DT	B-DT
+2	##일	I-DT	I-DT
+3	오전	B-TI	B-TI
+4	6	I-TI	I-TI
+5	##시	I-TI	I-TI
+6	##경	I-TI	I-TI
+7	서울	B-LC	B-LC
+8	동작구	B-LC	B-LC
+9	흑	B-LC	B-LC
+10	##석	I-LC	I-LC
+11	##동	I-LC	I-LC
+12	중앙	B-OG	B-OG
+13	##대	I-OG	I-OG
+14	본관	O	O
+15	앞	O	B-TM
+16	.	O	O
+17	[SEP]	O	O

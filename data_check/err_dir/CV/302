@@ -1,57 +1,20 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-EV, B-CV, I-CV, I-OG
-1	문	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
-2	후보	B-CV	B-CV	B-CV, O, B-EV, I-CV, I-PS
-3	##는	O	O	O, I-CV, I-EV, B-CV, I-OG
-4	이날	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-LC
-5	전북	B-LC	B-LC	B-LC, O, B-OG, I-DT, I-LC
-6	무주	B-LC	B-LC	B-LC, I-LC, O, B-OG, B-PS
-7	##군	I-LC	I-LC	I-LC, O, B-LC, I-OG, I-PS
-8	무주	B-AF	B-AF	B-AF, O, B-LC, B-OG, I-AF
-9	##리	I-AF	I-AF	I-AF, I-LC, O, I-OG, B-AF
-10	##조	I-AF	I-AF	I-AF, O, I-LC, I-OG, I-PS
-11	##트	I-AF	I-AF	I-AF, I-LC, O, I-OG, I-PS
-12	##에서	O	O	O, I-AF, I-EV, I-LC, I-OG
-13	열린	O	O	O, B-EV, B-LC, B-CV, I-EV
-14	전국	O	O	O, B-EV, B-LC, I-EV, B-OG
-15	지역	O	I-EV	I-EV, O, B-EV, B-CV, B-OG
-16	##위원회	O	I-EV	I-EV, O, I-OG, I-CV, I-AF
-17	사무국	B-CV	I-EV	I-EV, B-CV, O, B-EV, I-CV
-18	##장	I-CV	I-EV	I-EV, O, I-CV, I-OG, I-AF
-19	워크숍	O	O	O, I-EV, B-EV, I-OG, I-CV
-20	##에	O	O	O, I-EV, I-OG, I-CV, B-CV
-21	참석	O	O	O, B-LC, B-CV, B-EV, B-OG
-22	##해	O	O	O, B-LC, B-PS, I-EV, I-LC
-23	“	O	O	O, B-LC, B-CV, B-PS, I-EV
-24	후보	B-CV	B-CV	B-CV, O, B-EV, B-TM, B-AF
-25	단일	O	O	O, I-EV, B-TM, B-EV, B-PS
-26	##화	O	O	O, I-EV, I-TR, I-TM, I-CV
-27	##만	O	O	O, I-EV, B-PS, I-TR, B-LC
-28	##으로	O	O	O, B-PS, B-LC, B-QT, B-OG
-29	승리	O	O	O, B-CV, B-LC, B-TM, B-EV
-30	##가	O	O	O, B-PS, B-LC, B-OG, I-EV
-31	보장	O	O	O, B-CV, B-LC, B-TM, B-PS
-32	##되	O	O	O, B-PS, B-LC, B-CV, I-EV
-33	##지	O	O	O, B-PS, B-LC, B-CV, I-EV
-34	않	O	O	O, B-PS, B-CV, B-LC, B-TM
-35	##는	O	O	O, I-EV, B-PS, B-LC, B-CV
-36	##다	O	O	O, I-EV, B-CV, B-LC, B-PS
-37	”	O	O	O, B-CV, B-LC, B-PS, I-EV
-38	며	O	O	O, B-LC, B-CV, B-EV, B-OG
-39	“	O	O	O, B-LC, B-CV, B-PS, B-EV
-40	단일	O	O	O, B-EV, B-TM, B-TR, B-LC
-41	##화	O	O	O, I-EV, I-TR, I-TM, I-LC
-42	##를	O	O	O, I-EV, I-OG, I-TM, B-PS
-43	넘어서	O	O	O, B-CV, B-LC, B-PS, B-OG
-44	통합	O	O	O, B-EV, B-PS, B-LC, B-TM
-45	##을	O	O	O, I-EV, B-PS, B-CV, B-LC
-46	이뤄	O	O	O, B-LC, B-CV, B-PS, B-OG
-47	##야	O	O	O, B-PS, B-LC, I-EV, B-OG
-48	한다	O	O	O, B-LC, B-PS, B-CV, I-EV
-49	”	O	O	O, B-CV, B-LC, I-EV, B-TM
-50	고	O	O	O, B-CV, B-LC, B-TM, I-EV
-51	말	O	O	O, B-CV, B-EV, B-LC, I-EV
-52	##했	O	O	O, B-PS, I-EV, B-LC, B-CV
-53	##다	O	O	O, B-CV, I-EV, B-LC, B-PS
-54	.	O	O	O, B-LC, I-EV, B-PS, B-CV
-55	[SEP]	O	O	O, I-EV, B-LC, B-CV, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	또	O	O
+2	성인	B-CV	O
+3	용품	O	O
+4	리뷰	O	O
+5	영상	O	O
+6	##x	O	O
+7	##x	O	O
+8	여성	O	O
+9	크리에이터	B-CV	B-CV
+10	##는	O	O
+11	경고	O	O
+12	없이	O	O
+13	채널	O	O
+14	##이	O	O
+15	삭제	O	O
+16	##되	O	O
+17	##는데	O	O
+18	[SEP]	O	O

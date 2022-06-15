@@ -1,10 +1,14 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	교장	O	B-CV	B-CV, O, B-OG, I-CV, B-TM
-2	##공	O	I-CV	I-CV, O, B-CV, I-OG, I-TM
-3	##모	O	I-CV	I-CV, O, B-CV, I-OG, I-TM
-4	##제	O	I-CV	I-CV, O, I-OG, B-CV, I-TM
-5	확대	O	O	O, I-CV, I-OG, B-CV, I-EV
-6	문제	O	O	O, B-CV, I-CV, B-LC, B-PS
-7	##도	O	O	O, B-CV, I-CV, B-LC, B-OG
-8	[SEP]	O	O	O, B-CV, B-LC, B-OG, I-CV
+	text	label	preds
+0	[CLS]	O	O
+1	저	O	O
+2	##는	O	O
+3	스물	B-QT	B-QT
+4	##아	I-QT	I-QT
+5	##홉	I-QT	I-QT
+6	살	O	I-QT
+7	##에	O	O
+8	갔	O	O
+9	##다	O	O
+10	왔어요	O	O
+11	.	O	O
+12	[SEP]	O	O

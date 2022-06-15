@@ -1,32 +1,24 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-EV, B-CV, I-CV
-1	낮	B-TI	B-TI	B-TI, O, B-EV, B-LC, B-TM
-2	경기	O	O	O, I-EV, B-CV, B-EV, I-TI
-3	##로	O	O	O, I-EV, B-OG, B-PS, B-LC
-4	치러진	O	O	O, B-OG, B-LC, B-EV, B-CV
-5	넥센	B-OG	B-OG	B-OG, B-LC, O, B-AF, I-OG
-6	##과	O	O	O, I-OG, I-AF, I-EV, B-OG
-7	두산	B-OG	B-OG	B-OG, B-LC, I-OG, O, B-AF
-8	##의	O	O	O, I-OG, I-EV, B-OG, I-DT
-9	준	B-EV	B-EV	B-EV, O, I-EV, B-AF, B-OG
-10	##플레이	I-EV	I-EV	I-EV, B-EV, O, I-AF, I-OG
-11	##오프	I-EV	I-EV	I-EV, O, B-EV, I-AF, I-OG
-12	2	B-QT	B-EV	B-EV, I-EV, B-QT, B-AF, B-DT
-13	·	I-QT	I-EV	I-EV, I-QT, I-AF, O, I-DT
-14	3	I-QT	I-EV	I-EV, I-QT, I-AF, I-LC, B-EV
-15	##차	I-QT	I-EV	I-EV, I-QT, I-AF, I-LC, O
-16	##전	I-QT	I-EV	I-EV, I-QT, I-AF, O, I-LC
-17	##에서	O	O	O, I-EV, I-AF, I-QT, B-CV
-18	##도	O	O	O, B-CV, I-EV, B-OG, B-LC
-19	기교	O	B-TR	B-TR, O, B-TM, B-FD, B-CV
-20	##파	O	O	O, I-TR, I-CV, I-TM, I-FD
-21	투수	B-CV	B-CV	B-CV, I-CV, O, I-TR, I-TM
-22	##들이	O	O	O, I-CV, B-CV, I-EV, I-QT
-23	맹	O	O	O, B-LC, B-OG, B-CV, B-TM
-24	##위	O	O	O, B-LC, B-PS, I-LC, I-PS
-25	##를	O	O	O, B-CV, B-LC, B-OG, B-PS
-26	떨	O	O	O, B-LC, B-OG, B-CV, B-PS
-27	##쳤	O	O	O, B-CV, B-LC, B-OG, B-PS
-28	##다	O	O	O, B-CV, B-LC, B-OG, B-TM
-29	.	O	O	O, B-LC, B-CV, B-OG, B-PS
-30	[SEP]	O	O	O, B-CV, B-LC, I-EV, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	이호	B-PS	B-PS
+2	##준	I-PS	I-PS
+3	##은	O	O
+4	만	B-QT	B-QT
+5	39	I-QT	I-QT
+6	##세	I-QT	I-QT
+7	##의	O	O
+8	나이	O	O
+9	##로	O	O
+10	개인	O	O
+11	한	B-QT	O
+12	시즌	I-QT	O
+13	최고	O	O
+14	기록	O	O
+15	##에	O	O
+16	도전	O	O
+17	##하	O	O
+18	##고	O	O
+19	있	O	O
+20	##다	O	O
+21	.	O	O
+22	[SEP]	O	O

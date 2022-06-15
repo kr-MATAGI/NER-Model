@@ -1,11 +1,55 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, I-OG, B-CV, I-AF
-1	그냥	O	O	O, B-QT, B-CV, B-OG, B-TM
-2	육	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-TI
-3	##학년	I-QT	I-QT	I-QT, O, I-DT, I-OG, I-EV
-4	##이	O	O	O, I-QT, B-PS, I-DT, I-OG
-5	##야	O	O	O, I-QT, I-OG, B-QT, I-DT
-6	열세	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-CV
-7	##살	I-QT	I-QT	I-QT, O, I-DT, I-OG, I-PS
-8	##부터	O	I-QT	I-QT, O, I-DT, I-OG, I-PS
-9	[SEP]	O	O	O, I-QT, B-CV, I-OG, B-QT
+	text	label	preds
+0	[CLS]	O	O
+1	안철수	B-PS	B-PS
+2	무소	O	O
+3	##속	O	O
+4	의원	B-CV	B-CV
+5	##의	O	O
+6	새	B-OG	B-OG
+7	##정	I-OG	I-OG
+8	##치	I-OG	I-OG
+9	##연합	I-OG	I-OG
+10	##이	O	O
+11	기초	O	B-EV
+12	##선거	O	I-EV
+13	정당	O	O
+14	##공	O	O
+15	##천	O	O
+16	폐지	O	O
+17	약속	O	O
+18	##을	O	O
+19	지키	O	O
+20	##는	O	O
+21	명분	O	O
+22	##을	O	O
+23	택하	O	O
+24	##면	O	O
+25	##서	O	O
+26	,	O	O
+27	6	B-EV	B-EV
+28	·	I-EV	I-EV
+29	4	I-EV	I-EV
+30	지방	I-EV	I-EV
+31	##선거	I-EV	I-EV
+32	##에	O	O
+33	출마	O	O
+34	##하	O	O
+35	##려	O	O
+36	##던	O	O
+37	기초	O	B-EV
+38	##선거	O	I-EV
+39	예비	B-CV	B-CV
+40	##후	I-CV	I-CV
+41	##보	I-CV	I-CV
+42	##들이	O	O
+43	술	O	O
+44	##렁이	O	O
+45	##는	O	O
+46	혼돈	O	O
+47	##을	O	O
+48	겪	O	O
+49	##고	O	O
+50	있	O	O
+51	##다	O	O
+52	.	O	O
+53	[SEP]	O	O

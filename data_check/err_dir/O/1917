@@ -1,21 +1,28 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	녹취	O	O	O, B-CV, B-TM, B-LC, B-EV
-2	##는	O	O	O, B-CV, I-EV, B-OG, B-PS
-3	유명	O	B-CV	B-CV, O, I-CV, B-OG, B-TM
-4	##인	O	I-CV	I-CV, O, B-CV, I-OG, I-QT
-5	##뿐	O	O	O, I-CV, I-OG, I-QT, I-EV
-6	아니	O	O	O, B-PS, B-LC, B-OG, B-QT
-7	##라	O	O	O, B-OG, B-CV, B-PS, B-LC
-8	일반인	B-CV	B-CV	B-CV, O, B-OG, I-CV, B-QT
-9	##에	O	O	O, I-CV, I-OG, I-QT, I-EV
-10	##게	O	O	O, B-CV, B-LC, I-CV, B-TM
-11	##도	O	O	O, B-CV, B-LC, B-OG, B-PS
-12	자연	O	O	O, B-CV, B-FD, B-TM, B-LC
-13	##스러운	O	O	O, B-PS, I-OG, I-CV, I-QT
-14	일	O	O	O, B-CV, B-QT, B-OG, B-FD
-15	##이	O	O	O, B-CV, B-PS, B-OG, I-QT
-16	됐	O	O	O, B-CV, B-QT, B-TM, I-CV
-17	##다	O	O	O, B-CV, B-TM, I-OG, I-CV
-18	.	O	O	O, B-CV, B-PS, B-OG, B-FD
-19	[SEP]	O	O	O, B-CV, B-FD, I-OG, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	땅	O	O
+2	위	O	O
+3	##에	O	O
+4	##서	O	O
+5	그렇게	O	O
+6	흔하	O	O
+7	##던	O	O
+8	물	O	O
+9	,	O	O
+10	공기	O	B-MT
+11	,	O	O
+12	그리고	O	O
+13	적	O	O
+14	##은	O	O
+15	식량	O	O
+16	##을	O	O
+17	33	B-QT	B-QT
+18	##명	I-QT	I-QT
+19	##은	O	O
+20	아끼	O	O
+21	##고	O	O
+22	또	O	O
+23	아꼈	O	O
+24	##다	O	O
+25	.	O	O
+26	[SEP]	O	O

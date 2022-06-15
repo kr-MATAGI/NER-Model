@@ -1,22 +1,24 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-EV, I-OG, B-CV, I-CV
-1	이	O	O	O, B-CV, B-PS, B-OG, B-LC
-2	제품	O	O	O, B-CV, B-TM, B-AF, B-LC
-3	##도	O	O	O, B-CV, I-EV, B-LC, B-PS
-4	독일	B-LC	B-LC	B-LC, O, B-OG, B-EV, B-DT
-5	‘	O	O	O, I-EV, B-LC, B-EV, I-DT
-6	IF	B-EV	B-EV	B-EV, I-EV, O, B-CV, B-OG
-7	디자인	I-EV	I-EV	I-EV, O, I-OG, I-DT, B-EV
-8	어워드	I-EV	I-EV	I-EV, O, I-OG, I-CV, I-TM
-9	’	O	O	O, I-EV, I-DT, I-OG, B-LC
-10	에서	O	O	O, I-EV, B-LC, B-EV, B-CV
-11	제품	O	O	O, B-CV, B-TM, B-EV, B-QT
-12	디자인	O	O	O, B-CV, I-CV, B-FD, B-TR
-13	본	B-CV	O	O, I-CV, B-CV, I-QT, B-QT
-14	##상	I-CV	O	O, I-CV, I-QT, I-TR, I-TM
-15	##을	O	O	O, I-CV, I-QT, B-CV, I-EV
-16	수상	O	O	O, B-CV, I-CV, B-EV, B-TM
-17	##했	O	O	O, I-CV, I-EV, B-LC, B-PS
-18	##다	O	O	O, B-CV, B-LC, B-OG, B-PS
-19	.	O	O	O, B-LC, B-CV, I-EV, B-PS
-20	[SEP]	O	O	O, B-CV, B-LC, I-EV, B-EV
+	text	label	preds
+0	[CLS]	O	O
+1	다만	O	O
+2	자율	O	O
+3	##적	O	O
+4	##인	O	O
+5	운영	O	O
+6	##을	O	O
+7	위해	O	O
+8	독자	O	O
+9	##적	O	O
+10	##인	O	O
+11	인사	B-CV	B-CV
+12	##권	I-CV	I-CV
+13	##과	O	O
+14	예산	B-CV	O
+15	##권	I-CV	O
+16	##을	O	O
+17	주	O	O
+18	##는	O	O
+19	내용	O	O
+20	##이다	O	O
+21	.	O	O
+22	[SEP]	O	O

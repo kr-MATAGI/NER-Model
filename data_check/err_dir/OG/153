@@ -1,11 +1,5 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, B-CV, I-OG, I-EV
-1	사드	B-AF	B-AF	B-AF, O, B-EV, B-TM, B-PS
-2	##문제	O	O	O, I-EV, I-AF, I-DT, B-CV
-3	때	O	O	O, I-DT, I-EV, B-DT, B-PS
-4	##도	O	O	O, I-DT, B-OG, B-PS, B-LC
-5	중국	B-OG	B-LC	B-LC, B-OG, O, B-TM, B-PS
-6	##에서	O	O	O, I-OG, I-LC, I-AF, B-CV
-7	우리나라	O	O	O, B-LC, B-CV, I-OG, B-OG
-8	##랑	O	O	O, B-CV, B-OG, B-LC, I-OG
-9	[SEP]	O	O	O, B-CV, B-LC, B-OG, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	델	B-OG	B-AF
+2	.	O	O
+3	[SEP]	O	O

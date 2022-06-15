@@ -1,28 +1,20 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	전당	O	B-EV	B-EV, O, B-LC, B-OG, B-CV
-2	##대	O	I-EV	I-EV, O, B-EV, I-OG, I-AF
-3	##회	O	I-EV	I-EV, O, I-OG, B-EV, I-LC
-4	국면	O	O	O, I-EV, I-OG, B-PS, I-DT
-5	##에서	O	O	O, I-EV, B-PS, B-LC, B-OG
-6	‘	O	O	O, B-LC, B-CV, B-OG, B-PS
-7	재협상	O	O	O, B-TR, B-LC, B-PS, B-EV
-8	신중	O	O	O, B-TR, I-TR, B-PS, B-LC
-9	##론	O	O	O, I-TR, I-PS, B-TR, B-PS
-10	’	O	O	O, B-CV, I-TR, B-PS, B-OG
-11	을	O	O	O, B-PS, B-OG, B-CV, B-LC
-12	펼친	O	O	O, B-PS, B-LC, B-OG, B-CV
-13	손학규	B-PS	B-PS	B-PS, O, I-PS, B-OG, B-LC
-14	대표	B-CV	B-CV	B-CV, O, I-PS, I-CV, B-TM
-15	##와	O	O	O, I-CV, B-CV, B-PS, I-EV
-16	정세균	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
-17	최고위	B-CV	B-CV	B-CV, O, I-CV, B-TM, I-PS
-18	##원	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-QT
-19	##을	O	O	O, I-CV, B-CV, I-EV, I-OG
-20	겨냥	O	O	O, B-CV, B-TM, B-LC, B-PS
-21	##한	O	O	O, B-PS, B-LC, I-CV, B-CV
-22	발언	O	O	O, B-CV, B-PS, B-LC, B-OG
-23	##으로	O	O	O, B-CV, I-CV, B-PS, I-OG
-24	보인다	O	O	O, B-CV, B-OG, B-LC, B-TM
-25	.	O	O	O, B-LC, B-PS, B-CV, B-OG
-26	[SEP]	O	O	O, B-CV, B-LC, B-PS, I-EV
+	text	label	preds
+0	[CLS]	O	O
+1	저쪽	O	O
+2	##에다	O	O
+3	##가	O	O
+4	술	B-CV	B-CV
+5	##을	O	O
+6	따르	O	O
+7	##라고	O	O
+8	하고	O	O
+9	여직	B-CV	B-CV
+10	##원	I-CV	I-CV
+11	##들의	O	O
+12	무릎	B-AM	B-AM
+13	위로	O	O
+14	슬라이딩	O	B-TM
+15	##을	O	O
+16	하	O	O
+17	##는	O	O
+18	[SEP]	O	O

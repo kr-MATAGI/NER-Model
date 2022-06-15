@@ -1,31 +1,29 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	이	O	O	O, B-PS, B-OG, B-LC, B-CV
-2	대중	O	B-CV	B-CV, O, I-CV, B-PS, B-OG
-3	##을	O	O	O, I-CV, B-CV, I-OG, B-PS
-4	상당	O	O	O, B-QT, B-DT, B-CV, B-LC
-5	##부분	O	O	O, I-QT, I-CV, I-LC, I-PS
-6	포섭	O	O	O, B-CV, B-LC, B-PS, B-QT
-7	##하	O	O	O, B-PS, B-LC, B-CV, B-OG
-8	##였	O	O	O, B-LC, B-PS, B-QT, B-CV
-9	##던	O	O	O, B-LC, B-PS, B-OG, B-CV
-10	과거	O	O	O, B-LC, B-OG, B-CV, B-TR
-11	##의	O	O	O, B-PS, B-LC, B-OG, I-DT
-12	사회주의	O	B-TR	B-TR, O, I-TR, B-CV, B-PS
-13	##권	O	O	O, I-TR, I-CV, I-LC, I-PS
-14	##은	O	O	O, I-CV, I-OG, B-CV, I-AF
-15	대중	O	B-CV	B-CV, O, B-OG, I-CV, B-PS
-16	##에	O	O	O, I-CV, I-OG, B-CV, I-AF
-17	##게	O	O	O, B-CV, B-LC, B-TM, B-PS
-18	##서	O	O	O, B-LC, B-CV, B-TM, B-PS
-19	버림	O	O	O, B-CV, B-TM, B-LC, B-QT
-20	받	O	O	O, B-CV, B-PS, I-OG, B-LC
-21	##으면서	O	O	O, B-LC, B-CV, B-PS, B-QT
-22	소멸	O	O	O, B-CV, B-TM, B-LC, B-QT
-23	##되	O	O	O, B-PS, B-LC, B-CV, I-QT
-24	##어	O	O	O, I-OG, I-QT, B-LC, B-CV
-25	갔	O	O	O, B-CV, B-LC, B-PS, B-OG
-26	##습	O	O	O, B-CV, I-OG, I-AF, I-QT
-27	##니다	O	O	O, B-CV, B-LC, B-OG, B-PS
-28	.	O	O	O, B-CV, B-LC, B-PS, B-OG
-29	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	과장	O	B-CV
+2	##급	O	O
+3	이상	O	O
+4	간부	B-CV	B-CV
+5	중	O	O
+6	##에	O	O
+7	##서	O	O
+8	전문대	O	O
+9	##학	O	O
+10	##에	O	O
+11	##서	O	O
+12	근무	O	O
+13	##한	O	O
+14	경험	O	O
+15	##이	O	O
+16	있	O	O
+17	##는	O	O
+18	사람	O	O
+19	한	B-QT	B-QT
+20	사람	I-QT	I-QT
+21	##밖	O	O
+22	##에	O	O
+23	없	O	O
+24	##습	O	O
+25	##니다	O	O
+26	.	O	O
+27	[SEP]	O	O

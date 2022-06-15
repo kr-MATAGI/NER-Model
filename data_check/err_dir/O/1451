@@ -1,40 +1,36 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	작가	B-CV	B-CV	B-CV, O, I-CV, B-FD, B-OG
-2	##는	O	O	O, I-CV, B-CV, B-PS, I-QT
-3	‘	O	O	O, B-CV, B-LC, B-PS, I-CV
-4	이미	O	O	O, B-CV, B-PS, B-TM, B-LC
-5	죽	O	O	O, B-CV, B-TM, B-PS, B-LC
-6	##었	O	O	O, B-CV, B-PS, I-CV, B-LC
-7	##는데	O	O	O, B-PS, B-CV, B-LC, B-OG
-8	꼭	O	O	O, B-CV, B-LC, B-PS, B-QT
-9	그렇게	O	O	O, B-LC, B-CV, B-PS, B-TM
-10	서둘러	O	O	O, B-QT, B-LC, B-PS, B-TM
-11	모든	O	O	O, B-LC, B-PS, B-QT, B-CV
-12	것	O	O	O, B-CV, B-PS, B-LC, B-QT
-13	##을	O	O	O, B-CV, B-LC, B-PS, B-TM
-14	한	O	B-QT	B-QT, O, B-TM, I-QT, B-PS
-15	##목	O	I-QT	I-QT, O, I-LC, I-TM, I-PS
-16	##에	O	O	O, I-QT, I-CV, I-OG, B-CV
-17	되짚	O	O	O, B-CV, B-LC, I-QT, B-TM
-18	##어야	O	O	O, B-LC, B-CV, B-PS, B-OG
-19	할	O	O	O, B-LC, B-CV, B-PS, B-DT
-20	필요	O	O	O, B-CV, B-LC, B-DT, B-PS
-21	##가	O	O	O, B-PS, B-LC, B-CV, I-CV
-22	있	O	O	O, B-CV, B-LC, B-PS, I-CV
-23	##겠	O	O	O, B-CV, I-CV, B-PS, B-LC
-24	##느	O	O	O, B-CV, B-PS, I-CV, B-LC
-25	##냐	O	O	O, I-CV, B-PS, B-CV, I-PS
-26	’	O	O	O, B-CV, B-PS, B-OG, I-CV
-27	는	O	O	O, B-CV, B-PS, B-LC, B-DT
-28	듯	O	O	O, B-PS, B-TM, B-CV, B-AM
-29	찬찬히	O	O	O, B-TM, B-QT, B-LC, B-PS
-30	기억	O	O	O, B-CV, B-TM, B-LC, B-PS
-31	##의	O	O	O, B-CV, B-PS, B-LC, B-TM
-32	구석구석	O	O	O, B-TM, B-CV, B-LC, B-QT
-33	##을	O	O	O, B-CV, B-TM, B-OG, B-LC
-34	더듬	O	O	O, B-CV, B-TM, B-LC, B-OG
-35	##는	O	O	O, B-CV, B-OG, B-TM, B-LC
-36	##다	O	O	O, B-CV, B-TM, B-PS, B-LC
-37	.	O	O	O, B-CV, B-LC, B-PS, B-OG
-38	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	백	B-PS	B-PS
+2	작가	B-CV	B-CV
+3	##가	O	O
+4	모은	O	O
+5	리플	O	O
+6	##릿	O	O
+7	100	B-QT	B-QT
+8	##여	I-QT	I-QT
+9	##장	I-QT	I-QT
+10	##은	O	O
+11	지난	B-DT	B-DT
+12	20	I-DT	I-DT
+13	##년	I-DT	I-DT
+14	한국	B-LC	B-LC
+15	##의	O	O
+16	미술	O	B-FD
+17	##과	O	O
+18	사회	O	O
+19	##로	O	O
+20	여행	O	O
+21	##을	O	O
+22	떠날	O	O
+23	수	O	O
+24	있	O	O
+25	##는	O	O
+26	그럴듯	O	O
+27	##한	O	O
+28	사료	O	O
+29	##가	O	O
+30	되	O	O
+31	##었	O	O
+32	##다	O	O
+33	.	O	O
+34	[SEP]	O	O

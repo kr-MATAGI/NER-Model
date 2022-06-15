@@ -1,48 +1,23 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-AF
-1	[	O	O	O, B-OG, B-LC, B-CV, B-PS
-2	더	O	O	O, B-AF, B-LC, B-PS, B-CV
-3	나	O	O	O, I-AF, I-PS, I-OG, I-CV
-4	##은	O	O	O, I-AF, B-LC, B-PS, B-AF
-5	미래	O	O	O, B-AF, I-AF, B-LC, B-CV
-6	]	O	O	O, I-AF, B-LC, B-PS, B-OG
-7	난민	O	B-CV	B-CV, O, B-OG, B-AF, I-CV
-8	신청자	B-CV	B-CV	B-CV, I-CV, O, B-PS, B-OG
-9	,	O	O	O, I-CV, B-CV, I-AF, I-OG
-10	법	O	O	O, B-CV, I-CV, B-PS, B-FD
-11	지키	O	O	O, I-CV, B-PS, B-CV, B-LC
-12	##고	O	O	O, B-PS, B-LC, I-AF, B-QT
-13	굶	O	O	O, B-TM, B-AM, B-CV, B-LC
-14	##어	O	O	O, I-CV, I-LC, I-TM, I-AM
-15	죽	O	O	O, I-LC, I-CV, B-LC, B-CV
-16	##든지	O	O	O, B-PS, I-LC, B-LC, I-PS
-17	…	O	O	O, B-LC, B-PS, B-OG, B-CV
-18	법	O	O	O, B-CV, I-CV, B-PS, B-LC
-19	어기	O	O	O, I-CV, B-PS, B-CV, B-LC
-20	##고	O	O	O, B-LC, B-PS, B-CV, B-QT
-21	살	O	O	O, B-LC, B-CV, B-PS, B-QT
-22	##든지	O	O	O, B-PS, B-LC, I-LC, I-PS
-23	;	O	O	O, B-LC, B-PS, B-OG, B-CV
-24	UN	B-CV	B-OG	B-OG, B-EV, O, B-CV, B-AF
-25	##난	I-CV	I-OG	I-OG, I-EV, O, I-CV, B-OG
-26	##민	I-CV	I-OG	I-OG, I-EV, O, I-CV, B-OG
-27	##협	I-CV	I-OG	I-OG, I-EV, O, I-CV, B-OG
-28	##약	I-CV	I-OG	I-OG, I-EV, O, I-CV, I-DT
-29	60	B-DT	B-DT	B-DT, I-DT, O, I-OG, B-QT
-30	##주	I-DT	I-DT	I-DT, B-DT, O, I-QT, I-EV
-31	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
-32	앞둔	O	O	O, I-DT, B-LC, B-OG, B-PS
-33	한국	B-LC	B-LC	B-LC, B-OG, O, B-AF, B-PS
-34	##의	O	O	O, I-LC, B-LC, B-PS, I-OG
-35	난민	O	O	O, B-CV, I-CV, B-OG, B-PS
-36	##보호	O	O	O, I-CV, B-PS, B-CV, I-LC
-37	실태	O	O	O, B-LC, B-PS, I-CV, B-CV
-38	김구	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-39	선생	B-CV	B-CV	B-CV, O, I-PS, I-CV, B-OG
-40	·	O	O	O, I-CV, B-PS, I-PS, I-OG
-41	김대중	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-42	前	O	O	O, I-PS, B-LC, B-PS, I-OG
-43	대통령	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-AF
-44	망명	O	O	O, I-CV, B-CV, B-LC, B-TM
-45	##도	O	O	O, I-CV, B-PS, B-LC, I-LC
-46	[SEP]	O	O	O, B-LC, B-CV, B-PS, B-AF
+	text	label	preds
+0	[CLS]	O	O
+1	유감	O	O
+2	##없이	O	O
+3	싸우	O	O
+4	##는	O	O
+5	게	O	O
+6	아마	B-CV	O
+7	##의	O	O
+8	특권	O	O
+9	##이	O	O
+10	##라고	O	O
+11	##들	O	O
+12	하	O	O
+13	##는데	O	O
+14	왜	O	O
+15	이런	O	O
+16	현상	O	O
+17	##이	O	O
+18	생겼	O	O
+19	##을까	O	O
+20	.	O	O
+21	[SEP]	O	O

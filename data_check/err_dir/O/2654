@@ -1,26 +1,32 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, I-OG, B-CV, I-AF
-1	""""	O	O	O, B-CV, B-LC, B-PS, B-DT
-2	종	O	O	O, B-OG, B-CV, B-LC, B-PS
-3	##갓집	O	O	O, I-OG, I-CV, I-LC, I-PS
-4	맏	O	B-CV	B-CV, O, I-CV, B-PS, B-QT
-5	##며	B-CV	I-CV	I-CV, O, B-CV, I-PS, I-OG
-6	##느리	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-PS
-7	##를	O	O	O, I-CV, I-OG, I-QT, I-EV
-8	40	B-DT	B-DT	B-DT, O, B-QT, I-DT, B-EV
-9	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-10	넘	O	O	O, I-DT, B-CV, I-EV, I-QT
-11	##게	O	O	O, B-LC, I-DT, B-OG, I-OG
-12	하고	O	O	O, B-CV, B-LC, B-DT, B-PS
-13	나서	O	O	O, B-CV, B-LC, B-PS, B-DT
-14	시조	O	B-FD	B-FD, O, B-AF, B-TR, I-FD
-15	##를	O	O	O, I-FD, I-AF, I-CV, I-EV
-16	습	O	O	O, B-FD, B-CV, B-TR, B-LC
-17	##작	O	O	O, I-FD, I-TR, I-CV, I-TM
-18	##하기	O	O	O, B-CV, I-CV, B-LC, I-AF
-19	시작	O	O	O, B-CV, B-TM, B-LC, B-OG
-20	##했	O	O	O, B-CV, B-LC, B-OG, B-PS
-21	##습	O	O	O, B-CV, B-LC, I-CV, I-EV
-22	##니다	O	O	O, B-LC, B-CV, B-PS, I-EV
-23	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-24	[SEP]	O	O	O, B-CV, B-LC, I-OG, I-EV
+	text	label	preds
+0	[CLS]	O	O
+1	후보	B-CV	O
+2	##군	O	O
+3	##의	O	O
+4	지원서	O	O
+5	##만	O	O
+6	제출	O	O
+7	##된	O	O
+8	상태	O	O
+9	##에	O	O
+10	##서	O	O
+11	가운	O	B-CV
+12	##을	O	O
+13	입	O	O
+14	##은	O	O
+15	의사	B-CV	B-CV
+16	##들이	O	O
+17	이례	O	O
+18	##적	O	O
+19	##으로	O	O
+20	길거리	O	O
+21	##로	O	O
+22	몰려	O	O
+23	나온	O	O
+24	이유	O	O
+25	##는	O	O
+26	무엇	O	O
+27	##일	O	O
+28	##까	O	O
+29	?	O	O
+30	[SEP]	O	O

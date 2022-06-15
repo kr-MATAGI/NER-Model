@@ -1,12 +1,36 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	디렉	B-TR	O	O, B-TR, B-PS, B-AM, B-TM
-2	##셔널	I-TR	O	O, I-TR, I-AM, I-PS, I-FD
-3	띠	I-TR	O	O, I-TR, B-TR, I-PS, I-AF
-4	##오리	I-TR	O	O, I-TR, I-AM, I-PS, I-AF
-5	##라는	O	O	O, I-TR, I-PS, B-TR, I-AF
-6	건데	O	O	O, I-TR, B-CV, B-TR, B-PS
-7	이	O	O	O, B-PS, B-CV, B-TR, B-FD
-8	이론	O	O	O, B-TR, B-CV, I-TR, B-FD
-9	##은	O	O	O, I-CV, I-TR, B-CV, I-EV
-10	[SEP]	O	O	O, B-CV, B-TR, B-FD, I-TR
+	text	label	preds
+0	[CLS]	O	O
+1	A	O	O
+2	.	O	O
+3	생태계	O	O
+4	##를	O	O
+5	파괴	O	O
+6	##하	O	O
+7	##는	O	O
+8	지구	B-TR	O
+9	온난화	I-TR	O
+10	현상	I-TR	O
+11	##은	O	O
+12	이산화	B-MT	B-MT
+13	##탄소	I-MT	I-MT
+14	##를	O	O
+15	다량	O	O
+16	배출	O	O
+17	##하	O	O
+18	##는	O	O
+19	석유	B-MT	B-MT
+20	,	O	O
+21	석탄	B-MT	B-MT
+22	,	O	O
+23	천연가스	B-MT	B-MT
+24	등	O	O
+25	화석	O	O
+26	##연료	O	O
+27	##를	O	O
+28	과다	O	O
+29	사용	O	O
+30	##해	O	O
+31	발생	O	O
+32	##합니다	O	O
+33	.	O	O
+34	[SEP]	O	O

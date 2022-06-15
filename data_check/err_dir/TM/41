@@ -1,13 +1,47 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, I-OG, B-CV, I-EV
-1	템포	B-TM	B-AF	B-AF, B-OG, B-TM, B-CV, O
-2	##로리	I-TM	I-AF	I-AF, I-OG, I-TM, I-CV, I-MT
-3	##로	O	O	O, I-TM, I-AF, I-OG, I-CV
-4	##는	O	O	O, B-CV, I-AF, I-TM, I-CV
-5	좋	O	O	O, B-CV, B-TM, B-LC, B-OG
-6	##기	O	O	O, I-CV, B-LC, B-CV, B-PS
-7	##는	O	O	O, B-CV, B-TM, I-AF, I-OG
-8	하	O	O	O, B-TM, B-LC, B-CV, B-PS
-9	##겠	O	O	O, B-CV, I-CV, I-AF, I-OG
-10	##지만	O	O	O, B-CV, B-TM, B-OG, I-AF
-11	[SEP]	O	O	O, B-CV, B-TM, B-LC, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	지난	B-DT	B-DT
+2	9	I-DT	I-DT
+3	##일	I-DT	I-DT
+4	애틀랜타	B-OG	B-OG
+5	##를	O	O
+6	상대	O	O
+7	##로	O	O
+8	한	O	O
+9	등판	O	O
+10	##에	O	O
+11	##서	O	O
+12	볼넷	B-TM	B-TM
+13	2	B-QT	B-QT
+14	##개	I-QT	I-QT
+15	##를	O	O
+16	내주	O	O
+17	##며	O	O
+18	다소	O	O
+19	흔들리	O	O
+20	##는	O	O
+21	모습	O	O
+22	##을	O	O
+23	보여	O	O
+24	##줬	O	O
+25	##던	O	O
+26	오승환	B-PS	B-PS
+27	##이	O	O
+28	##었	O	O
+29	##지만	O	O
+30	이틀	B-DT	B-DT
+31	뒤	I-DT	I-DT
+32	등판	O	O
+33	##한	O	O
+34	이날	B-DT	B-DT
+35	경기	O	O
+36	##에	O	O
+37	##선	O	O
+38	완벽	O	O
+39	##한	O	O
+40	피칭	B-TM	O
+41	##으로	O	O
+42	돌아왔	O	O
+43	##다	O	O
+44	.	O	O
+45	[SEP]	O	O

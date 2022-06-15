@@ -1,57 +1,24 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-EV, I-OG, I-CV
-1	대교	B-OG	B-OG	B-OG, O, I-OG, B-PS, B-AF
-2	##스포츠	I-OG	I-OG	I-OG, O, B-OG, I-AF, I-EV
-3	##단	I-OG	I-OG	I-OG, O, I-AF, B-OG, I-EV
-4	서명	B-PS	B-PS	B-PS, O, B-OG, I-PS, I-OG
-5	##원	I-PS	I-PS	I-PS, I-OG, O, I-LC, I-QT
-6	단장	B-CV	B-CV	B-CV, O, I-CV, I-PS, B-TM
-7	(	O	O	O, I-CV, I-OG, B-CV, I-EV
-8	그룹	O	O	O, B-OG, B-CV, B-PS, B-EV
-9	비서실	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-OG
-10	##장	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-TM
-11	)	O	O	O, I-CV, I-OG, I-EV, B-CV
-12	은	O	O	O, B-CV, B-LC, B-PS, B-OG
-13	""""	O	O	O, B-CV, B-LC, B-OG, B-PS
-14	고양시	B-LC	B-OG	B-OG, O, B-LC, I-OG, B-PS
-15	##와	O	O	O, I-OG, B-OG, B-CV, I-LC
-16	##의	O	O	O, B-LC, B-OG, B-PS, B-CV
-17	성공	O	O	O, B-LC, B-CV, B-OG, B-EV
-18	##적인	O	O	O, B-LC, B-PS, I-EV, I-OG
-19	제휴	O	O	O, B-OG, B-LC, B-CV, B-EV
-20	##가	O	O	O, B-PS, I-OG, B-LC, I-EV
-21	최근	O	O	O, B-LC, B-EV, B-CV, B-PS
-22	세계	O	O	O, B-LC, B-CV, B-EV, I-EV
-23	##대	O	O	O, I-EV, B-LC, I-LC, B-EV
-24	##회	O	O	O, I-EV, B-LC, B-EV, B-PS
-25	##에서	O	O	O, B-LC, B-CV, B-PS, I-EV
-26	좋	O	O	O, B-LC, B-CV, B-OG, B-TM
-27	##은	O	O	O, B-LC, B-PS, B-CV, B-OG
-28	성적	O	O	O, B-CV, B-LC, B-TM, B-OG
-29	##을	O	O	O, B-CV, B-PS, B-LC, B-OG
-30	내면	O	O	O, B-CV, B-LC, B-OG, B-TM
-31	##서	O	O	O, B-LC, B-CV, B-OG, B-PS
-32	각광	O	O	O, B-LC, B-CV, B-OG, B-TM
-33	##을	O	O	O, B-CV, B-PS, B-LC, B-OG
-34	받	O	O	O, B-LC, B-CV, B-PS, B-OG
-35	##고	O	O	O, B-PS, B-LC, B-CV, B-TM
-36	있	O	O	O, B-LC, B-CV, B-PS, B-OG
-37	##는	O	O	O, B-LC, B-CV, B-OG, B-PS
-38	우리	O	O	O, B-OG, B-CV, B-LC, B-AF
-39	여자	O	O	O, B-CV, B-OG, B-LC, B-TM
-40	##축구	B-CV	B-CV	B-CV, O, B-OG, B-FD, I-CV
-41	##의	O	O	O, I-CV, I-OG, I-EV, B-CV
-42	발전	O	O	O, B-LC, B-TM, B-CV, B-OG
-43	방향	O	O	O, B-CV, B-LC, B-TM, B-OG
-44	##을	O	O	O, B-CV, B-PS, B-LC, B-OG
-45	제시	O	O	O, B-CV, B-LC, B-TM, B-OG
-46	##했	O	O	O, B-PS, B-LC, B-CV, B-OG
-47	##으면	O	O	O, B-CV, B-PS, B-LC, B-TM
-48	한다	O	O	O, B-CV, B-OG, B-LC, B-PS
-49	""""	O	O	O, B-CV, B-LC, B-TM, B-OG
-50	고	O	O	O, B-CV, B-LC, B-TM, B-QT
-51	말	O	O	O, B-CV, B-TM, B-LC, I-EV
-52	##했	O	O	O, B-CV, B-PS, B-LC, I-EV
-53	##다	O	O	O, B-CV, B-LC, B-TM, B-OG
-54	.	O	O	O, B-LC, B-CV, B-OG, B-PS
-55	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	미국	B-LC	B-OG
+2	원자력	B-OG	I-OG
+3	##규	I-OG	I-OG
+4	##제	I-OG	I-OG
+5	##위원회	I-OG	I-OG
+6	(	O	O
+7	N	B-OG	B-OG
+8	##RC	I-OG	I-OG
+9	)	O	O
+10	는	O	O
+11	조만간	O	O
+12	인허가	O	O
+13	##를	O	O
+14	할	O	O
+15	방침	O	O
+16	##인	O	O
+17	것	O	O
+18	##으로	O	O
+19	알려졌	O	O
+20	##다	O	O
+21	.	O	O
+22	[SEP]	O	O

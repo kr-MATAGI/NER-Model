@@ -1,9 +1,44 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	아	O	O	O, B-CV, B-TM, B-OG, B-LC
-2	지금	O	O	O, B-CV, B-OG, B-TM, B-QT
-3	아	O	O	O, B-CV, B-OG, B-TM, B-QT
-4	저희	O	O	O, B-CV, B-OG, B-PS, B-LC
-5	##는	O	O	O, B-CV, I-OG, B-PS, I-CV
-6	야자	O	B-PT	B-PT, O, B-CV, B-AM, B-OG
-7	[SEP]	O	O	O, I-CV, B-CV, I-OG, I-EV
+	text	label	preds
+0	[CLS]	O	O
+1	1996	B-DT	B-DT
+2	##년	I-DT	I-DT
+3	15	B-QT	B-QT
+4	##대	I-QT	I-QT
+5	총선	B-EV	B-EV
+6	당시	O	O
+7	서울	B-LC	B-LC
+8	서대문	B-LC	B-LC
+9	##에	O	O
+10	한나라당	B-OG	B-OG
+11	##의	O	O
+12	전신	O	O
+13	##인	O	O
+14	신한	B-OG	B-OG
+15	##국	I-OG	I-OG
+16	##당	I-OG	I-OG
+17	후보	B-CV	B-CV
+18	##로	O	O
+19	출마	O	O
+20	##해	O	O
+21	낙선	O	O
+22	##했	O	O
+23	##을	O	O
+24	때	O	O
+25	종로	O	B-LC
+26	##에	O	O
+27	##서	O	O
+28	국회의원	B-CV	B-CV
+29	##에	O	O
+30	당선	O	O
+31	##된	O	O
+32	이	B-PS	B-PS
+33	대통령	B-CV	B-CV
+34	##과	O	O
+35	처음	O	O
+36	인연	O	O
+37	##을	O	O
+38	맺	O	O
+39	##었	O	O
+40	##다	O	O
+41	.	O	O
+42	[SEP]	O	O

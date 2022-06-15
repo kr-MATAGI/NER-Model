@@ -1,54 +1,62 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-EV, I-CV
-1	세종	O	B-OG	B-OG, O, B-AF, B-PS, B-LC
-2	##쪽	O	O	O, I-OG, I-AF, I-PS, I-LC
-3	##은	O	O	O, I-OG, B-CV, I-QT, I-AF
-4	“	O	O	O, B-CV, B-LC, B-OG, B-TM
-5	합의	O	O	O, B-CV, B-OG, B-LC, B-TM
-6	##에	O	O	O, B-OG, B-PS, B-CV, B-LC
-7	앞서	O	O	O, B-LC, B-OG, B-CV, B-TM
-8	가처분	O	O	O, B-CV, B-LC, B-TM, B-OG
-9	신청	O	O	O, B-CV, B-LC, I-EV, B-OG
-10	##을	O	O	O, B-CV, B-OG, B-PS, I-OG
-11	통해	O	O	O, B-OG, B-LC, B-CV, B-PS
-12	약자	O	O	O, B-CV, I-CV, B-PS, B-OG
-13	##인	O	O	O, I-CV, B-PS, B-CV, I-OG
-14	신인	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-PS
-15	##의	O	O	O, I-CV, B-CV, I-OG, I-EV
-16	처지	O	O	O, B-CV, B-OG, B-TM, B-QT
-17	##를	O	O	O, B-CV, B-PS, B-LC, B-OG
-18	악용	O	O	O, B-CV, B-LC, B-PS, B-TM
-19	##한	O	O	O, B-PS, B-LC, B-OG, B-CV
-20	불공정	O	O	O, B-CV, B-TM, B-OG, B-PS
-21	계약	O	O	O, I-CV, B-CV, B-PS, I-EV
-22	##은	O	O	O, B-PS, B-CV, B-OG, B-LC
-23	무효	O	O	O, B-CV, B-OG, B-TM, B-QT
-24	##라는	O	O	O, B-PS, B-QT, B-CV, I-OG
-25	판결	O	O	O, B-CV, B-OG, B-PS, B-TM
-26	##을	O	O	O, B-CV, B-PS, B-OG, I-CV
-27	끌어내	O	O	O, B-OG, B-LC, B-CV, B-TM
-28	기존	O	O	O, B-LC, B-FD, B-OG, B-CV
-29	연예계	O	O	O, B-FD, B-LC, B-CV, B-OG
-30	불공정	O	O	O, B-CV, B-FD, B-PS, B-TM
-31	관행	O	O	O, B-CV, I-CV, B-FD, B-PS
-32	##을	O	O	O, B-CV, B-PS, I-CV, B-OG
-33	개선	O	O	O, B-CV, B-TM, B-OG, B-LC
-34	##하	O	O	O, B-PS, B-CV, B-LC, B-OG
-35	##는	O	O	O, B-CV, B-LC, B-OG, B-PS
-36	계기	O	O	O, B-CV, B-QT, B-TM, B-EV
-37	##를	O	O	O, B-CV, I-EV, B-OG, I-OG
-38	마련	O	O	O, B-CV, B-EV, B-OG, B-LC
-39	##했	O	O	O, B-PS, B-OG, B-CV, B-LC
-40	##다는	O	O	O, B-PS, B-OG, B-LC, B-CV
-41	데	O	O	O, B-LC, B-OG, B-PS, B-CV
-42	의의	O	O	O, B-CV, B-OG, B-EV, B-LC
-43	##가	O	O	O, B-PS, B-OG, B-CV, I-OG
-44	있	O	O	O, B-CV, B-OG, B-QT, I-EV
-45	##다	O	O	O, B-CV, I-OG, B-OG, I-EV
-46	”	O	O	O, B-CV, B-TM, I-OG, B-OG
-47	고	O	O	O, B-CV, B-TM, B-QT, B-LC
-48	말	O	O	O, B-CV, B-TM, B-QT, B-OG
-49	##했	O	O	O, B-CV, B-OG, I-OG, B-LC
-50	##다	O	O	O, B-CV, B-TM, B-OG, I-OG
-51	.	O	O	O, B-CV, B-LC, B-PS, B-OG
-52	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	시의	B-OG	O
+2	##회	I-OG	O
+3	##는	O	O
+4	""""	O	O
+5	아산시	O	O
+6	##민	O	O
+7	##에	O	O
+8	##게	O	O
+9	피해	O	O
+10	##가	O	O
+11	예상	O	O
+12	##되	O	O
+13	##는데도	O	O
+14	아산시	O	B-OG
+15	##와	O	O
+16	사전	O	O
+17	##협	O	O
+18	##의	O	O
+19	##도	O	O
+20	없	O	O
+21	##었	O	O
+22	##고	O	O
+23	,	O	O
+24	아산	B-LC	B-LC
+25	##지역	O	O
+26	##에	O	O
+27	대한	O	O
+28	사전	O	O
+29	환경	O	O
+30	##성	O	O
+31	##검	O	O
+32	##토	O	O
+33	##를	O	O
+34	하지	O	O
+35	않	O	O
+36	##은	O	O
+37	상태	O	O
+38	##에	O	O
+39	##서	O	O
+40	주민	O	B-CV
+41	##설	O	O
+42	##명	O	O
+43	##회	O	O
+44	##를	O	O
+45	하	O	O
+46	##는	O	O
+47	것	O	O
+48	##은	O	O
+49	용납	O	O
+50	##할	O	O
+51	수	O	O
+52	없	O	O
+53	##다	O	O
+54	""""	O	O
+55	고	O	O
+56	주장	O	O
+57	##했	O	O
+58	##다	O	O
+59	.	O	O
+60	[SEP]	O	O

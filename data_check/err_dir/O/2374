@@ -1,45 +1,51 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-QT
-1	한편	O	O	O, B-QT, B-TM, B-CV, B-OG
-2	<	O	O	O, B-OG, B-LC, I-QT, B-PS
-3	아사히	B-OG	B-OG	B-OG, O, B-AF, I-OG, B-LC
-4	##신문	I-OG	I-OG	I-OG, O, I-AF, I-LC, I-QT
-5	>	O	O	O, I-OG, I-AF, I-QT, B-CV
-6	과	O	O	O, B-OG, B-PS, B-LC, B-CV
-7	<	O	O	O, B-OG, B-LC, B-PS, B-CV
-8	요미우리	B-OG	B-OG	B-OG, O, B-AF, I-OG, B-LC
-9	##신문	I-OG	I-OG	I-OG, O, I-AF, I-LC, I-CV
-10	>	O	O	O, I-OG, B-CV, I-AF, I-QT
-11	의	O	O	O, B-OG, B-CV, B-PS, B-LC
-12	이번	O	O	O, B-CV, B-OG, B-TM, B-QT
-13	조사	O	O	O, B-CV, B-PS, B-OG, B-LC
-14	##에서	O	O	O, B-OG, B-CV, B-PS, B-LC
-15	##는	O	O	O, B-OG, B-LC, B-CV, B-TM
-16	‘	O	O	O, B-CV, B-LC, B-OG, B-PS
-17	소비세	O	B-CV	B-CV, O, I-CV, B-AF, B-PS
-18	##율	O	O	O, I-CV, B-QT, I-QT, B-PS
-19	10	B-QT	B-QT	B-QT, I-QT, O, B-DT, B-LC
-20	%	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-21	인상	O	O	O, I-QT, B-CV, I-CV, B-TM
-22	’	O	O	O, B-CV, I-QT, B-PS, I-CV
-23	을	O	O	O, B-CV, B-PS, B-LC, B-OG
-24	공약	O	O	O, B-CV, B-PS, B-LC, I-CV
-25	##한	O	O	O, B-PS, B-LC, B-CV, B-OG
-26	자민	B-OG	B-OG	B-OG, O, B-AF, B-LC, B-PS
-27	##당	I-OG	I-OG	I-OG, O, I-LC, I-AF, I-PS
-28	##에	O	O	O, I-OG, B-CV, I-AF, I-EV
-29	대한	O	O	O, B-LC, B-OG, B-PS, B-TM
-30	지지율	O	O	O, B-CV, B-TM, B-OG, B-LC
-31	##도	O	O	O, B-CV, B-LC, B-PS, B-OG
-32	1	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-LC
-33	~	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-DT
-34	2	I-QT	I-QT	I-QT, B-QT, O, I-LC, I-PS
-35	%	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-36	포인트	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-EV
-37	떨어진	O	O	O, I-QT, B-TM, B-CV, B-OG
-38	것	O	O	O, B-CV, B-TM, B-OG, B-QT
-39	##으로	O	O	O, B-CV, B-TM, I-QT, B-LC
-40	나타났	O	O	O, B-CV, B-OG, B-TM, B-LC
-41	##다	O	O	O, B-CV, B-TM, B-LC, B-QT
-42	.	O	O	O, B-LC, B-OG, B-CV, B-PS
-43	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	이	O	O
+2	##들	O	O
+3	##은	O	O
+4	A	B-EV	B-EV
+5	##Y	I-EV	I-EV
+6	##P	I-EV	I-EV
+7	##뿐	O	O
+8	아니	O	O
+9	##라	O	O
+10	서울	B-OG	B-EV
+11	##모	I-OG	I-EV
+12	##의	I-OG	I-EV
+13	##유	I-OG	I-EV
+14	##엔	I-OG	I-EV
+15	##회의	I-OG	I-EV
+16	(	O	O
+17	M	B-OG	B-EV
+18	##U	I-OG	I-EV
+19	##NO	I-OG	I-EV
+20	##S	I-OG	I-EV
+21	)	O	O
+22	,	O	O
+23	국제	B-OG	B-EV
+24	##모	I-OG	I-EV
+25	##의	I-OG	I-EV
+26	##유	I-OG	I-EV
+27	##엔	I-OG	I-EV
+28	##회의	I-OG	I-EV
+29	(	O	O
+30	TH	O	B-EV
+31	##IM	O	I-EV
+32	##U	O	I-EV
+33	##N	O	I-EV
+34	)	O	O
+35	등	O	O
+36	다양	O	O
+37	##한	O	O
+38	모의	O	O
+39	##회의	O	O
+40	##에	O	O
+41	참가	O	O
+42	경력	O	O
+43	##이	O	O
+44	있	O	O
+45	##는	O	O
+46	실력	O	O
+47	##파	O	O
+48	.	O	O
+49	[SEP]	O	O

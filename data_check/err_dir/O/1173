@@ -1,21 +1,29 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-AF
-1	눈썹	B-AM	B-AM	B-AM, O, B-TR, B-TM, I-AM
-2	없	O	O	O, I-AF, I-QT, I-CV, B-CV
-3	##는	O	O	O, B-CV, B-LC, B-PS, B-TM
-4	커다란	O	O	O, B-CV, B-TM, B-AF, B-PS
-5	눈	O	B-AM	B-AM, O, I-AM, B-CV, B-TM
-6	##망울	O	I-AM	I-AM, O, B-AM, I-PT, I-CV
-7	,	O	O	O, I-CV, I-AF, I-QT, I-AM
-8	흐릿	O	O	O, B-TM, B-LC, B-CV, B-AF
-9	##한	O	O	O, B-PS, B-TM, B-LC, B-CV
-10	얼굴	B-AM	B-AM	B-AM, O, B-CV, B-TM, I-AM
-11	윤곽	O	O	O, B-TM, I-TM, B-LC, I-AM
-12	등	O	O	O, B-CV, B-LC, B-PS, B-TM
-13	##이	O	O	O, B-PS, B-OG, B-CV, B-LC
-14	묘한	O	O	O, B-CV, B-OG, B-TM, B-LC
-15	긴장감	O	O	O, B-TM, B-PS, B-CV, B-AF
-16	##을	O	O	O, B-CV, I-AF, I-OG, B-PS
-17	준다	O	O	O, B-CV, B-PS, B-OG, B-LC
-18	.	O	O	O, B-CV, B-LC, B-PS, I-AF
-19	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	고기	B-CV	B-CV
+2	##를	O	O
+3	먹	O	O
+4	##었	O	O
+5	##을	O	O
+6	때	O	O
+7	우리	O	O
+8	스테이크	B-CV	B-CV
+9	같	O	O
+10	##은	O	O
+11	거	O	O
+12	먹	O	O
+13	##으면	O	O
+14	미디	O	B-TM
+15	##엄	O	I-TM
+16	먹	O	O
+17	##었	O	O
+18	##을	O	O
+19	때	O	O
+20	##가	O	O
+21	제일	O	O
+22	맛있	O	O
+23	##다고	O	O
+24	하	O	O
+25	##잖아요	O	O
+26	.	O	O
+27	[SEP]	O	O

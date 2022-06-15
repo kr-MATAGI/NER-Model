@@ -1,37 +1,47 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	주말	B-DT	O	O, B-DT, B-CV, B-AF, B-EV
-2	##영	B-CV	B-CV	B-CV, O, B-FD, B-AF, B-EV
-3	##어	I-CV	O	O, I-CV, I-FD, I-AF, I-TM
-4	##교	O	O	O, I-AF, I-TM, I-CV, I-FD
-5	##실	O	O	O, I-TM, I-AF, I-OG, I-EV
-6	##과	O	O	O, B-PS, B-OG, B-LC, I-AF
-7	국영	O	B-FD	B-FD, O, B-CV, B-AF, B-EV
-8	##수	B-FD	I-FD	I-FD, O, B-FD, I-AF, I-CV
-9	수업	O	O	O, I-FD, I-AF, I-TM, I-EV
-10	,	O	O	O, B-CV, B-PS, I-AF, I-OG
-11	장학금	O	O	O, B-CV, B-TM, B-FD, B-OG
-12	지원	O	O	O, I-CV, I-TM, I-OG, B-TM
-13	등	O	O	O, B-PS, B-CV, B-TM, B-OG
-14	##이	B-PS	B-PS	B-PS, O, I-PS, B-CV, B-OG
-15	주요	O	O	O, B-CV, B-TM, B-PS, B-QT
-16	사업	O	O	O, B-CV, B-TM, I-TM, I-CV
-17	##인	O	B-PS	B-PS, O, I-PS, B-CV, B-QT
-18	##데	O	O	O, B-PS, I-PS, B-CV, B-QT
-19	,	O	O	O, B-PS, B-CV, B-OG, I-PS
-20	이	O	B-PS	B-PS, O, I-PS, B-OG, B-LC
-21	위원	B-CV	B-CV	B-CV, O, I-CV, I-PS, B-TM
-22	##의	O	O	O, B-PS, I-CV, I-PS, B-CV
-23	가족	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-OG
-24	전원	O	O	O, B-QT, B-PS, I-QT, I-CV
-25	##이	O	O	O, B-PS, I-QT, I-PS, B-QT
-26	'	O	O	O, B-PS, B-CV, I-PS, B-OG
-27	큰	B-OG	B-OG	B-OG, B-PS, O, B-CV, B-AF
-28	##샘	I-OG	I-OG	I-OG, O, I-PS, I-CV, I-AF
-29	'	O	O	O, I-OG, I-CV, I-PS, I-AF
-30	후원	O	O	O, B-CV, B-TM, B-PS, B-OG
-31	##에	O	O	O, B-PS, B-CV, I-CV, I-OG
-32	나섰	O	O	O, B-PS, B-CV, B-OG, B-LC
-33	##다	O	O	O, B-CV, I-OG, B-OG, I-CV
-34	.	O	O	O, B-PS, B-CV, B-LC, B-OG
-35	[SEP]	O	O	O, B-CV, B-PS, B-LC, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	앞선	O	O
+2	시리즈	O	O
+3	##의	O	O
+4	기능	O	O
+5	##성	O	O
+6	##을	O	O
+7	한	O	B-QT
+8	단계	O	I-QT
+9	업그레이드	O	O
+10	##한	O	O
+11	W	B-AF	B-AF
+12	##파	I-AF	I-AF
+13	##워	I-AF	I-AF
+14	##7	I-AF	I-AF
+15	시리즈	O	O
+16	##는	O	O
+17	일체	O	O
+18	##형	O	O
+19	무	O	O
+20	##브	O	O
+21	프레임	O	O
+22	##이	O	O
+23	올바른	O	O
+24	자세	O	O
+25	##의	O	O
+26	11	B-TM	B-QT
+27	##자	I-TM	I-QT
+28	워킹	O	O
+29	##을	O	O
+30	유도	O	O
+31	##하	O	O
+32	##고	O	O
+33	반발	O	O
+34	##탄	O	O
+35	##성	O	O
+36	##을	O	O
+37	높여	O	O
+38	안정	O	O
+39	##감	O	O
+40	##을	O	O
+41	더	O	O
+42	키웠	O	O
+43	##다	O	O
+44	.	O	O
+45	[SEP]	O	O

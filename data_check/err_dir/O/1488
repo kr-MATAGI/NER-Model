@@ -1,25 +1,23 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	교육부	B-OG	B-OG	B-OG, B-LC, B-AF, O, B-EV
-2	##의	O	O	O, I-OG, B-OG, I-EV, I-DT
-3	사학	B-OG	O	O, B-CV, B-OG, B-FD, B-EV
-4	##법인	I-OG	O	O, I-CV, I-OG, I-EV, I-TR
-5	책무	O	O	O, I-CV, I-OG, I-EV, B-CV
-6	##성	O	O	O, I-OG, I-CV, I-EV, I-TR
-7	평가	O	O	O, I-CV, I-OG, I-EV, I-TR
-8	##에서	O	O	O, I-OG, I-EV, I-CV, B-CV
-9	만점	O	B-QT	B-QT, O, I-QT, B-EV, B-CV
-10	##을	O	O	O, I-QT, I-EV, I-OG, I-CV
-11	받	O	O	O, B-CV, B-OG, B-TM, B-LC
-12	##은	O	O	O, B-OG, B-CV, B-LC, B-QT
-13	학교	O	O	O, B-OG, B-CV, B-QT, B-AF
-14	##가	O	O	O, B-OG, B-PS, I-OG, B-CV
-15	육	B-QT	B-QT	B-QT, I-QT, O, B-DT, B-EV
-16	##십	I-QT	I-QT	I-QT, B-QT, O, I-LC, I-EV
-17	##오	I-QT	I-QT	I-QT, B-QT, O, I-LC, I-PS
-18	퍼센트	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-EV
-19	##인	O	O	O, I-QT, B-CV, I-OG, B-OG
-20	것	O	O	O, B-CV, B-QT, I-QT, B-TM
-21	##으로	O	O	O, B-CV, I-QT, I-OG, B-QT
-22	나타나	O	O	O, B-CV, B-OG, B-LC, B-PS
-23	[SEP]	O	O	O, B-CV, B-OG, I-OG, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	클래식	B-FD	B-FD
+2	초보	B-CV	B-CV
+3	##자	I-CV	I-CV
+4	##는	O	O
+5	'	O	O
+6	라	B-PS	B-OG
+7	##흐	I-PS	I-OG
+8	##마니	I-PS	I-PS
+9	##노프	I-PS	I-OG
+10	'	O	O
+11	마니아	B-CV	B-CV
+12	(	O	O
+13	man	O	O
+14	##ia	O	O
+15	)	O	O
+16	는	O	O
+17	'	O	O
+18	조르	O	B-OG
+19	##바	O	I-OG
+20	'	O	O
+21	[SEP]	O	O

@@ -1,26 +1,10 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	일본	B-LC	B-OG	B-OG, B-LC, O, B-PS, B-AF
-2	##은	O	O	O, I-OG, B-OG, I-LC, B-CV
-3	그동안	O	O	O, B-LC, B-OG, B-DT, B-CV
-4	필리핀	B-LC	B-LC	B-LC, B-OG, O, B-PS, B-AF
-5	##에	O	O	O, I-OG, I-LC, I-AF, B-CV
-6	40	B-QT	B-QT	B-QT, O, B-DT, I-QT, B-LC
-7	##m	I-QT	I-QT	I-QT, O, I-LC, I-OG, I-AF
-8	##급	O	I-QT	I-QT, O, I-LC, I-OG, I-AF
-9	중형	O	B-AF	B-AF, O, B-TM, B-OG, B-QT
-10	순	O	B-AF	B-AF, I-AF, O, B-TM, B-CV
-11	##시	O	I-AF	I-AF, O, I-TM, I-QT, B-AF
-12	##선	O	I-AF	I-AF, O, I-QT, I-TM, I-CV
-13	10	B-QT	B-QT	B-QT, I-AF, I-QT, O, B-DT
-14	##척	I-QT	I-QT	I-QT, I-AF, O, I-TM, I-LC
-15	##의	O	O	O, I-QT, I-AF, I-OG, B-OG
-16	공여	O	O	O, B-OG, B-LC, B-AF, B-TM
-17	##를	O	O	O, I-AF, I-OG, B-CV, B-OG
-18	결정	O	O	O, B-CV, B-LC, B-OG, B-TM
-19	##한	O	O	O, B-LC, B-OG, B-PS, B-CV
-20	바	O	O	O, B-CV, B-OG, B-LC, B-TM
-21	있	O	O	O, B-OG, B-CV, B-LC, I-OG
-22	##다	O	O	O, B-CV, I-OG, B-OG, B-LC
-23	.	O	O	O, B-LC, B-OG, B-CV, B-AF
-24	[SEP]	O	O	O, B-LC, B-OG, B-CV, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	野	O	B-OG
+2	""""	O	O
+3	도와	O	O
+4	##줘	O	O
+5	##요	O	O
+6	안철수	B-PS	B-PS
+7	""""	O	O
+8	[SEP]	O	O

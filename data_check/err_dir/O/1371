@@ -1,18 +1,25 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	작가	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-PS
-2	##의	O	O	O, I-CV, B-CV, B-PS, I-AF
-3	뉴저지	B-LC	B-LC	B-LC, O, B-AF, B-OG, B-PS
-4	자택	O	O	O, I-LC, B-CV, I-AF, B-LC
-5	##에도	O	O	O, I-AF, B-CV, I-CV, I-LC
-6	이끼	O	B-PT	B-PT, O, B-MT, B-CV, B-AM
-7	정원	O	O	O, I-PT, B-PT, I-AF, I-LC
-8	##이	O	O	O, B-PS, I-AF, I-CV, I-OG
-9	잘	O	O	O, B-CV, B-OG, B-LC, B-TM
-10	꾸며	O	O	O, B-CV, B-LC, B-PS, B-OG
-11	##져	O	O	O, B-LC, I-OG, B-PS, B-CV
-12	있	O	O	O, B-CV, B-PS, B-LC, I-OG
-13	##다고	O	O	O, B-CV, B-PS, B-LC, I-OG
-14	한다	O	O	O, B-CV, B-LC, B-OG, B-PS
-15	.	O	O	O, B-PS, B-CV, B-LC, I-OG
-16	[SEP]	O	O	O, B-CV, B-LC, B-PS, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	‘	O	O
+2	기사	B-CV	B-AF
+3	##식	O	I-AF
+4	##당	O	I-AF
+5	’	O	O
+6	동네	O	O
+7	##였	O	O
+8	##던	O	O
+9	마포구	B-LC	B-LC
+10	연남동	B-LC	B-LC
+11	##은	O	O
+12	하루하루	O	O
+13	그렇게	O	O
+14	예술	O	O
+15	##마을	O	O
+16	##로	O	O
+17	변해	O	O
+18	##가	O	O
+19	##고	O	O
+20	있	O	O
+21	##다	O	O
+22	.	O	O
+23	[SEP]	O	O

@@ -1,46 +1,8 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	또	O	O	O, B-CV, B-OG, B-TM, B-LC
-2	분양	O	O	O, B-CV, B-AF, B-PS, B-TM
-3	##권	O	O	O, I-CV, I-AF, I-LC, I-TM
-4	##을	O	O	O, I-CV, I-AF, B-CV, B-PS
-5	팔	O	O	O, B-CV, B-TM, B-LC, B-QT
-6	##거나	O	O	O, B-PS, B-LC, B-QT, B-CV
-7	전세	O	O	O, B-CV, B-TM, B-AF, B-LC
-8	##로	O	O	O, I-CV, B-PS, I-AF, B-CV
-9	내놓	O	O	O, B-CV, B-LC, B-PS, B-TM
-10	##길	O	O	O, B-PS, B-LC, B-CV, B-QT
-11	원하	O	O	O, B-CV, B-PS, B-LC, B-OG
-12	##는	O	O	O, B-PS, B-CV, B-OG, B-TM
-13	계약자	O	B-CV	B-CV, O, I-CV, B-PS, B-AF
-14	##에	O	O	O, I-CV, B-CV, I-OG, I-AF
-15	##겐	O	O	O, B-CV, B-OG, B-LC, B-TM
-16	중개업	O	O	O, B-CV, B-OG, B-AF, I-OG
-17	##소	O	O	O, I-OG, I-CV, I-AF, I-LC
-18	##에	O	O	O, I-OG, B-PS, B-CV, I-CV
-19	법정	O	O	O, B-CV, B-FD, B-QT, I-CV
-20	중개	B-CV	O	O, I-CV, B-CV, I-QT, I-OG
-21	##수수	I-CV	O	O, I-CV, B-CV, I-QT, I-OG
-22	##료	I-CV	O	O, I-CV, B-CV, I-OG, I-QT
-23	##보	O	O	O, I-CV, B-CV, I-QT, I-OG
-24	##다	O	O	O, B-CV, B-OG, B-QT, B-LC
-25	높	O	O	O, B-CV, B-QT, B-LC, B-TM
-26	##은	O	O	O, B-LC, B-OG, B-CV, B-PS
-27	‘	O	O	O, B-CV, B-OG, B-LC, B-PS
-28	촉진	O	O	O, B-CV, B-QT, B-TM, B-PS
-29	##비	O	O	O, I-CV, I-QT, I-TM, I-LC
-30	’	O	O	O, B-CV, B-PS, I-CV, B-OG
-31	를	O	O	O, B-CV, B-TM, B-OG, B-PS
-32	지급	O	O	O, B-CV, B-PS, B-TM, B-LC
-33	##해	O	O	O, B-LC, B-PS, B-CV, B-OG
-34	거래	O	O	O, B-CV, B-TM, B-LC, B-OG
-35	##를	O	O	O, B-CV, B-TM, B-OG, B-LC
-36	활성	O	O	O, B-CV, B-TM, B-LC, B-OG
-37	##화	O	O	O, I-TM, I-LC, I-CV, I-OG
-38	##시	O	O	O, B-LC, B-PS, I-OG, I-LC
-39	##키	O	O	O, B-LC, B-PS, B-CV, I-OG
-40	##고	O	O	O, B-CV, B-LC, B-PS, B-OG
-41	있	O	O	O, B-CV, B-OG, B-PS, B-TM
-42	##다	O	O	O, B-CV, I-OG, B-TM, B-LC
-43	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-44	[SEP]	O	O	O, B-CV, B-LC, B-PS, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	또	O	O
+2	학생	B-CV	B-EV
+3	##감	O	I-EV
+4	##소문	O	I-EV
+5	##제	O	I-EV
+6	[SEP]	O	O

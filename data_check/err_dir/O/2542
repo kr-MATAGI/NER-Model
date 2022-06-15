@@ -1,36 +1,57 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, I-OG, I-EV, B-CV
-1	김정	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
-2	전	O	O	O, I-PS, I-OG, I-LC, B-PS
-3	의원	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-OG
-4	##은	O	O	O, I-CV, I-EV, B-PS, I-OG
-5	친	O	O	O, B-PS, B-LC, B-OG, B-EV
-6	##박	O	O	O, B-PS, B-OG, B-LC, I-PS
-7	##연대	O	O	O, I-OG, I-PS, B-PS, B-OG
-8	출신	O	O	O, I-OG, I-PS, B-PS, I-EV
-9	##으로	O	O	O, B-PS, B-LC, B-OG, B-CV
-10	비례	B-CV	B-CV	B-CV, O, B-OG, I-CV, B-AF
-11	##대표	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-EV
-12	의원	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-TM
-13	##을	O	O	O, I-CV, B-PS, B-CV, I-OG
-14	지냈	O	O	O, B-LC, B-PS, B-CV, B-OG
-15	##고	O	O	O, B-PS, B-LC, B-OG, B-CV
-16	조	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-17	전	O	O	O, I-PS, I-OG, I-LC, B-PS
-18	부시장	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-OG
-19	##은	O	O	O, I-CV, B-PS, I-EV, B-LC
-20	오세훈	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
-21	서울시	B-LC	O	O, B-LC, I-PS, B-OG, B-EV
-22	##장	O	O	O, I-LC, B-LC, I-EV, I-PS
-23	때	O	O	O, I-LC, I-PS, I-EV, I-DT
-24	서울시	O	B-LC	B-LC, O, B-OG, B-PS, B-AF
-25	여성	B-CV	B-CV	B-CV, O, B-OG, I-CV, B-FD
-26	##가족	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-FD
-27	##정책	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-QT
-28	##관	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-QT
-29	##을	O	O	O, I-CV, I-OG, B-CV, B-PS
-30	역임	O	O	O, B-LC, B-CV, B-PS, B-OG
-31	##했	O	O	O, B-LC, B-PS, B-OG, I-EV
-32	##다	O	O	O, B-LC, B-PS, B-CV, I-OG
-33	.	O	O	O, B-PS, B-LC, B-OG, B-CV
-34	[SEP]	O	O	O, B-PS, B-LC, B-CV, I-EV
+	text	label	preds
+0	[CLS]	O	O
+1	하	B-PS	B-PS
+2	##성	I-PS	I-PS
+3	##민	I-PS	I-PS
+4	SK	B-OG	B-OG
+5	##텔	I-OG	I-OG
+6	##레	I-OG	I-OG
+7	##콤	I-OG	I-OG
+8	사장	B-CV	B-CV
+9	##이	O	O
+10	29	B-DT	B-DT
+11	##일	I-DT	I-DT
+12	서울	B-LC	B-LC
+13	중구	B-LC	B-LC
+14	명동	B-LC	B-LC
+15	전국	B-AF	B-AF
+16	##은행	I-AF	I-AF
+17	##연합	I-AF	I-AF
+18	##회관	I-AF	I-AF
+19	##에	O	O
+20	##서	O	O
+21	열린	O	O
+22	‘	O	O
+23	ICT	B-EV	B-EV
+24	발전	I-EV	I-EV
+25	대	I-EV	I-EV
+26	##토	I-EV	I-EV
+27	##론	I-EV	I-EV
+28	##회	I-EV	I-EV
+29	’	O	O
+30	에	O	O
+31	기조연설	O	B-CV
+32	##자	O	I-CV
+33	##로	O	O
+34	참석	O	O
+35	##해	O	O
+36	미래	O	O
+37	30	B-DT	B-DT
+38	##년	I-DT	I-DT
+39	##의	O	O
+40	ICT	B-FD	B-FD
+41	발전	O	O
+42	##을	O	O
+43	화두	O	O
+44	##로	O	O
+45	‘	O	O
+46	ICT	B-FD	B-FD
+47	##노	O	O
+48	##믹스	O	O
+49	’	O	O
+50	를	O	O
+51	제시	O	O
+52	##했	O	O
+53	##다	O	O
+54	.	O	O
+55	[SEP]	O	O

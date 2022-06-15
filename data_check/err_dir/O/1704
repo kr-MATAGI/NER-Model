@@ -1,16 +1,46 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	현대	B-OG	B-OG	B-OG, O, I-OG, B-AF, B-LC
-2	·	O	I-OG	I-OG, O, I-AF, I-LC, I-CV
-3	기아차	B-OG	I-OG	I-OG, B-OG, O, B-LC, B-AF
-4	“	O	O	O, I-OG, B-CV, I-AF, I-EV
-5	수출	O	O	O, B-LC, B-TM, B-CV, I-OG
-6	-	O	O	O, B-PS, B-LC, I-AF, I-OG
-7	내수	O	O	O, B-LC, B-CV, B-TM, I-AF
-8	##용	O	O	O, I-AF, B-LC, I-LC, B-PS
-9	강판	O	B-MT	B-MT, O, I-MT, B-AF, B-TM
-10	차이	O	O	O, B-CV, I-AF, I-CV, I-TM
-11	없	O	O	O, B-CV, B-LC, B-OG, I-AF
-12	##다	O	O	O, B-CV, I-OG, B-LC, B-OG
-13	”	O	O	O, B-CV, B-LC, B-OG, B-TM
-14	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-AF
+	text	label	preds
+0	[CLS]	O	O
+1	독자	B-CV	B-CV
+2	##님	O	O
+3	##들	O	O
+4	##도	O	O
+5	영국	B-LC	B-LC
+6	의회	O	O
+7	웹	O	O
+8	##사이	O	O
+9	##트	O	O
+10	(	O	O
+11	par	B-TM	B-TM
+12	##l	I-TM	I-TM
+13	##iam	I-TM	I-TM
+14	##ent	I-TM	I-TM
+15	.	I-TM	I-TM
+16	u	I-TM	I-TM
+17	##k	I-TM	I-TM
+18	)	O	O
+19	에	O	O
+20	들어가	O	O
+21	영국	B-LC	B-LC
+22	총리	B-CV	B-CV
+23	##가	O	O
+24	야당	O	O
+25	##과	O	O
+26	얼마나	O	O
+27	치열	O	O
+28	##하	O	O
+29	##고	O	O
+30	유쾌	O	O
+31	##하	O	O
+32	##게	O	O
+33	토론	O	O
+34	##하	O	O
+35	##는지	O	O
+36	##를	O	O
+37	한	O	B-QT
+38	##번	O	I-QT
+39	구경	O	O
+40	##하시	O	O
+41	##기	O	O
+42	바란다	O	O
+43	.	O	O
+44	[SEP]	O	O

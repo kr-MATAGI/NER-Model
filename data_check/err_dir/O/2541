@@ -1,60 +1,9 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	누리	O	B-OG	B-OG, O, B-PS, I-OG, B-LC
-2	知	O	I-OG	I-OG, O, B-OG, I-LC, I-PS
-3	봉사	O	I-OG	I-OG, O, I-CV, B-OG, I-LC
-4	##단	O	I-OG	I-OG, O, I-CV, I-LC, I-TM
-5	##은	O	O	O, I-OG, B-CV, I-CV, I-AF
-6	김영	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
-7	##표	I-PS	I-PS	I-PS, I-OG, O, I-LC, B-PS
-8	사장	B-CV	B-CV	B-CV, O, I-PS, I-CV, B-OG
-9	##과	O	O	O, I-CV, B-CV, I-OG, B-OG
-10	노조	O	O	O, B-CV, B-LC, B-AF, B-TM
-11	##위원	O	O	O, I-CV, B-CV, I-OG, I-LC
-12	##장이	O	O	O, B-CV, B-PS, B-LC, I-CV
-13	함께	O	O	O, B-CV, B-LC, B-OG, B-PS
-14	##하	O	O	O, B-PS, B-CV, B-LC, B-OG
-15	##는	O	O	O, B-CV, B-LC, B-PS, B-OG
-16	노사	O	B-CV	B-CV, O, I-CV, B-OG, B-FD
-17	##공	O	I-CV	I-CV, O, B-CV, I-OG, I-QT
-18	##동	O	I-CV	I-CV, O, B-CV, I-OG, I-QT
-19	##단	O	I-CV	I-CV, O, B-CV, I-OG, I-QT
-20	##장	O	I-CV	I-CV, O, B-CV, I-OG, I-QT
-21	##을	O	O	O, I-CV, I-OG, B-CV, I-QT
-22	필두	O	O	O, B-CV, B-LC, B-TM, B-OG
-23	##로	O	O	O, B-LC, B-OG, B-PS, I-OG
-24	본사	O	O	O, B-LC, B-CV, B-AF, B-OG
-25	봉사	O	O	O, B-CV, I-OG, I-CV, B-OG
-26	##단	O	O	O, I-OG, I-CV, I-LC, I-AF
-27	외	O	O	O, B-LC, B-TM, B-PS, B-CV
-28	14	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-LC
-29	##개	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-30	지역	O	O	O, B-OG, B-CV, B-LC, I-QT
-31	##본부	O	O	O, I-OG, I-CV, I-LC, I-AF
-32	봉사	O	O	O, I-OG, I-CV, B-CV, I-LC
-33	##단	O	O	O, I-OG, I-CV, I-LC, I-AF
-34	,	O	O	O, B-LC, B-CV, B-PS, I-OG
-35	179	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-EV
-36	##개	I-QT	I-QT	I-QT, O, I-LC, I-PS, I-OG
-37	지사	O	O	O, B-CV, B-OG, B-LC, I-QT
-38	##봉사	O	O	O, I-CV, I-OG, B-CV, B-OG
-39	##단	O	O	O, I-CV, I-OG, B-CV, I-LC
-40	등	O	O	O, B-LC, B-PS, I-CV, I-OG
-41	##이	O	O	O, B-LC, B-PS, B-OG, B-CV
-42	전국	O	O	O, B-LC, B-CV, B-OG, I-LC
-43	단위	O	O	O, B-LC, I-LC, B-CV, B-PS
-44	##의	O	O	O, B-LC, B-PS, B-CV, B-OG
-45	네트워크	O	O	O, B-LC, B-CV, B-TM, B-OG
-46	##를	O	O	O, B-CV, B-OG, B-LC, I-OG
-47	구성	O	O	O, B-LC, B-CV, B-TM, B-OG
-48	##해	O	O	O, B-LC, B-PS, B-OG, B-CV
-49	지역	O	O	O, B-LC, B-CV, B-TM, I-LC
-50	##밀	O	O	O, B-LC, I-LC, B-CV, B-PS
-51	##착	O	O	O, I-LC, I-CV, B-LC, I-OG
-52	활동	O	O	O, B-LC, B-CV, B-TM, I-LC
-53	##을	O	O	O, B-CV, B-OG, B-LC, B-TM
-54	진행	O	O	O, B-CV, B-LC, B-OG, B-TM
-55	중	O	O	O, B-LC, B-OG, B-PS, B-CV
-56	##이다	O	O	O, B-CV, B-OG, I-OG, B-LC
-57	.	O	O	O, B-LC, B-CV, B-OG, B-PS
-58	[SEP]	O	O	O, B-LC, B-CV, B-OG, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	이런	O	O
+2	견과	O	B-CV
+3	##류	O	I-CV
+4	먹	O	O
+5	##었	O	O
+6	##다고	O	O
+7	[SEP]	O	O

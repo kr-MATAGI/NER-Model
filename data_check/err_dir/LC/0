@@ -1,129 +1,129 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	'	O	O	O, B-CV, B-OG, B-LC, B-DT
-2	보통	O	O	O, B-CV, I-CV, B-OG, B-FD
-3	'	O	O	O, I-CV, B-CV, I-OG, B-PS
-4	평가	O	O	O, B-CV, I-CV, B-PS, I-OG
-5	대상	O	O	O, I-CV, I-OG, B-CV, I-EV
-6	##은	O	O	O, B-CV, B-OG, I-CV, B-LC
-7	국제	B-OG	B-OG	B-OG, O, B-LC, B-PS, B-CV
-8	##방송	I-OG	I-OG	I-OG, O, I-LC, B-OG, I-PS
-9	##교	I-OG	I-OG	I-OG, O, I-LC, I-CV, I-PS
-10	##류	I-OG	I-OG	I-OG, O, I-LC, I-CV, I-PS
-11	##재단	I-OG	I-OG	I-OG, O, I-LC, I-PS, I-CV
-12	정국	B-PS	B-PS	B-PS, O, I-PS, B-OG, I-OG
-13	##록	I-PS	I-PS	I-PS, O, I-OG, I-LC, B-PS
-14	사장	B-CV	B-CV	B-CV, O, I-CV, I-PS, B-OG
-15	(	O	O	O, I-CV, B-CV, I-OG, I-EV
-16	이명박	B-PS	B-PS	B-PS, B-OG, O, B-EV, B-LC
-17	대선	O	B-EV	B-EV, O, B-CV, I-EV, B-PS
-18	##캠프	O	O	O, I-EV, I-OG, I-PS, I-CV
-19	방송	O	O	O, B-CV, B-FD, B-TM, I-CV
-20	##특	O	O	O, I-CV, B-CV, I-FD, I-AF
-21	##보	O	O	O, I-CV, B-CV, I-FD, I-TR
-22	)	O	O	O, I-CV, B-CV, B-LC, B-PS
-23	,	O	O	O, B-OG, B-CV, B-LC, B-PS
-24	부산항	B-OG	B-OG	B-OG, O, B-LC, B-PS, I-OG
-25	##만	I-OG	I-OG	I-OG, O, I-LC, I-CV, B-OG
-26	##공사	I-OG	I-OG	I-OG, O, I-LC, I-PS, I-CV
-27	노	B-PS	B-PS	B-PS, O, I-PS, B-OG, I-OG
-28	##기	I-PS	I-PS	I-PS, O, I-OG, I-LC, B-PS
-29	##태	I-PS	I-PS	I-PS, O, I-OG, I-LC, B-PS
-30	사장	B-CV	B-CV	B-CV, O, I-PS, I-CV, B-LC
-31	(	O	O	O, I-CV, B-CV, I-OG, B-LC
-32	국회의원	B-CV	B-CV	B-CV, O, B-OG, B-LC, B-EV
-33	)	O	O	O, I-CV, I-OG, I-EV, B-CV
-34	,	O	O	O, B-OG, B-CV, B-LC, B-PS
-35	한국가스	B-OG	B-OG	B-OG, O, B-LC, B-PS, I-OG
-36	##안전	I-OG	I-OG	I-OG, O, I-LC, I-PS, I-CV
-37	##공사	I-OG	I-OG	I-OG, O, I-LC, I-PS, I-CV
-38	박	B-PS	B-PS	B-PS, O, I-PS, B-OG, I-OG
-39	##환	I-PS	I-PS	I-PS, O, I-OG, I-LC, B-PS
-40	##규	I-PS	I-PS	I-PS, O, I-OG, I-LC, B-PS
-41	사장	B-CV	B-CV	B-CV, O, I-PS, I-CV, B-OG
-42	(	O	O	O, I-CV, B-CV, I-OG, B-OG
-43	한나라당	B-OG	B-OG	B-OG, O, B-LC, B-PS, B-EV
-44	충북	B-LC	B-OG	B-OG, I-OG, O, B-LC, B-EV
-45	##도	I-LC	I-OG	I-OG, O, B-OG, I-LC, I-EV
-46	##당	O	I-OG	I-OG, O, I-EV, I-LC, I-CV
-47	부위원장	B-CV	B-CV	B-CV, O, I-CV, I-OG, B-OG
-48	)	O	O	O, I-CV, I-OG, I-EV, B-CV
-49	,	O	O	O, B-OG, B-CV, B-LC, B-PS
-50	한국	B-OG	B-OG	B-OG, B-LC, O, B-PS, B-CV
-51	##광	I-OG	I-OG	I-OG, O, I-LC, B-OG, I-CV
-52	##해	I-OG	I-OG	I-OG, O, I-LC, I-CV, I-AF
-53	##관리	I-OG	I-OG	I-OG, O, I-LC, I-CV, I-PS
-54	##공단	I-OG	I-OG	I-OG, O, I-LC, I-PS, I-CV
-55	이이	B-PS	B-PS	B-PS, O, I-PS, B-OG, I-OG
-56	##재	I-PS	I-PS	I-PS, O, I-OG, I-LC, B-PS
-57	이사장	B-CV	B-CV	B-CV, O, I-CV, I-PS, B-TM
-58	(	O	O	O, I-CV, B-CV, I-OG, I-EV
-59	대통령	B-CV	B-CV	B-CV, B-OG, O, B-EV, B-PS
-60	인수위	B-OG	B-OG	B-OG, O, B-CV, I-OG, B-EV
-61	자문	B-CV	B-CV	B-CV, O, I-CV, B-OG, I-OG
-62	##위원	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-EV
-63	)	O	O	O, I-CV, I-OG, I-EV, B-CV
-64	,	O	O	O, B-OG, B-CV, B-LC, B-PS
-65	한국	B-OG	B-OG	B-OG, B-LC, O, B-PS, B-CV
-66	##마	I-OG	I-OG	I-OG, O, I-LC, B-OG, I-CV
-67	##사회	I-OG	I-OG	I-OG, O, I-LC, I-PS, I-CV
-68	김광	B-PS	B-PS	B-PS, O, B-OG, I-PS, I-OG
-69	##원	I-PS	I-PS	I-PS, O, I-OG, I-LC, B-PS
-70	회장	B-CV	B-CV	B-CV, O, I-CV, I-PS, B-TM
-71	(	O	O	O, I-CV, B-CV, I-OG, I-EV
-72	국회의원	B-CV	B-CV	B-CV, O, B-OG, B-LC, B-EV
-73	)	O	O	O, I-CV, I-OG, I-EV, B-CV
-74	,	O	O	O, B-OG, B-CV, B-LC, B-PS
-75	한국	B-OG	B-OG	B-OG, B-LC, O, B-PS, B-CV
-76	##승	I-OG	I-OG	I-OG, O, I-LC, B-OG, I-CV
-77	##강	I-OG	I-OG	I-OG, O, I-LC, B-OG, I-CV
-78	##기	I-OG	I-OG	I-OG, O, I-LC, I-CV, B-OG
-79	##안전	I-OG	I-OG	I-OG, O, I-LC, I-CV, B-OG
-80	##관리	I-OG	I-OG	I-OG, O, I-LC, I-CV, I-PS
-81	##원	I-OG	I-OG	I-OG, O, I-LC, I-PS, I-CV
-82	김남	B-PS	B-PS	B-PS, O, I-PS, B-OG, I-OG
-83	##덕	I-PS	I-PS	I-PS, O, I-OG, I-LC, B-PS
-84	원장	B-CV	B-CV	B-CV, O, I-CV, I-PS, B-TM
-85	(	O	O	O, I-CV, I-OG, B-CV, B-LC
-86	한나라당	B-OG	B-OG	B-OG, O, B-LC, B-PS, B-CV
-87	선대위	O	B-OG	B-OG, O, I-OG, B-CV, B-EV
-88	부위원장	B-CV	B-CV	B-CV, O, I-CV, I-OG, B-OG
-89	)	O	O	O, I-CV, I-OG, I-EV, B-CV
-90	,	O	O	O, B-CV, B-OG, B-LC, B-PS
-91	한국	B-OG	B-OG	B-OG, B-LC, O, B-PS, B-CV
-92	##컨	I-OG	I-OG	I-OG, O, I-LC, B-OG, I-CV
-93	##테이너	I-OG	I-OG	I-OG, O, I-LC, I-CV, B-OG
-94	##부	I-OG	I-OG	I-OG, O, I-LC, I-CV, I-AF
-95	##두	I-OG	I-OG	I-OG, O, I-LC, I-CV, I-AF
-96	##공단	I-OG	I-OG	I-OG, O, I-LC, I-PS, I-CV
-97	이상	B-PS	B-PS	B-PS, O, I-PS, I-OG, B-OG
-98	##조	I-PS	I-PS	I-PS, O, I-OG, I-LC, B-PS
-99	이사장	B-CV	B-CV	B-CV, O, I-CV, I-PS, B-TM
-100	(	O	O	O, I-CV, B-CV, I-OG, I-EV
-101	밀양시	O	O	O, B-LC, B-CV, B-PS, B-DT
-102	##장	O	O	O, B-CV, I-CV, B-LC, I-LC
-103	)	O	O	O, I-CV, B-LC, B-CV, I-EV
-104	,	O	O	O, B-OG, B-CV, B-LC, B-PS
-105	수도권	B-OG	B-OG	B-OG, B-LC, O, B-PS, B-CV
-106	##매	I-OG	I-OG	I-OG, O, B-OG, I-LC, B-LC
-107	##립	I-OG	I-OG	I-OG, O, I-LC, I-CV, B-OG
-108	##지	I-OG	I-OG	I-OG, O, I-LC, B-OG, I-CV
-109	##관리	I-OG	I-OG	I-OG, O, I-LC, I-CV, I-PS
-110	##공사	I-OG	I-OG	I-OG, O, I-LC, I-PS, I-CV
-111	조	B-PS	B-PS	B-PS, O, I-PS, B-OG, I-OG
-112	##춘	I-PS	I-PS	I-PS, O, I-OG, I-LC, B-PS
-113	##구	I-PS	I-PS	I-PS, O, I-OG, I-LC, B-PS
-114	사장	B-CV	B-CV	B-CV, O, I-PS, I-CV, B-LC
-115	(	O	O	O, I-CV, B-CV, I-OG, B-LC
-116	한나라당	B-OG	B-OG	B-OG, O, B-LC, B-PS, B-AF
-117	선대위	O	B-OG	B-OG, O, I-OG, B-CV, B-EV
-118	부	B-CV	B-CV	B-CV, O, I-CV, B-TM, I-OG
-119	##본부	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-QT
-120	##장	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-QT
-121	)	O	O	O, I-CV, I-OG, I-QT, B-CV
-122	,	O	O	O, B-CV, B-OG, B-LC, B-PS
-123	한국	B-OG	B-OG	B-OG, B-LC, O, B-PS, B-AF
-124	##폴리	I-OG	I-OG	I-OG, O, I-LC, B-OG, I-AF
-125	##텍	I-OG	I-OG	I-OG, O, I-LC, I-CV, I-PS
-126	허	B-PS	B-PS	B-PS, O, B-LC, I-PS, B-AF
-127	[SEP]	O	O	O, I-OG, I-PS, I-EV, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	'	O	O
+2	보통	O	O
+3	'	O	O
+4	평가	O	O
+5	대상	O	O
+6	##은	O	O
+7	국제	B-OG	B-OG
+8	##방송	I-OG	I-OG
+9	##교	I-OG	I-OG
+10	##류	I-OG	I-OG
+11	##재단	I-OG	I-OG
+12	정국	B-PS	B-PS
+13	##록	I-PS	I-PS
+14	사장	B-CV	B-CV
+15	(	O	O
+16	이명박	B-PS	B-PS
+17	대선	O	B-EV
+18	##캠프	O	O
+19	방송	O	B-CV
+20	##특	O	I-CV
+21	##보	O	I-CV
+22	)	O	O
+23	,	O	O
+24	부산항	B-OG	B-OG
+25	##만	I-OG	I-OG
+26	##공사	I-OG	I-OG
+27	노	B-PS	B-PS
+28	##기	I-PS	I-PS
+29	##태	I-PS	I-PS
+30	사장	B-CV	B-CV
+31	(	O	O
+32	국회의원	B-CV	B-CV
+33	)	O	O
+34	,	O	O
+35	한국	B-OG	B-OG
+36	##가스	I-OG	I-OG
+37	##안전	I-OG	I-OG
+38	##공사	I-OG	I-OG
+39	박	B-PS	B-PS
+40	##환	I-PS	I-PS
+41	##규	I-PS	I-PS
+42	사장	B-CV	B-CV
+43	(	O	O
+44	한나라당	B-OG	B-OG
+45	충북	B-LC	I-OG
+46	##도	I-LC	I-OG
+47	##당	O	I-OG
+48	부위	B-CV	B-CV
+49	##원	I-CV	I-CV
+50	##장	I-CV	I-CV
+51	)	O	O
+52	,	O	O
+53	한국	B-OG	B-OG
+54	##광	I-OG	I-OG
+55	##해	I-OG	I-OG
+56	##관리	I-OG	I-OG
+57	##공단	I-OG	I-OG
+58	이이	B-PS	B-PS
+59	##재	I-PS	I-PS
+60	이사장	B-CV	B-CV
+61	(	O	O
+62	대통령	B-CV	B-CV
+63	인수위	B-OG	B-OG
+64	자문	B-CV	B-CV
+65	##위원	I-CV	I-CV
+66	)	O	O
+67	,	O	O
+68	한국	B-OG	B-OG
+69	##마	I-OG	I-OG
+70	##사회	I-OG	I-OG
+71	김광	B-PS	B-PS
+72	##원	I-PS	I-PS
+73	회장	B-CV	B-CV
+74	(	O	O
+75	국회의원	B-CV	B-CV
+76	)	O	O
+77	,	O	O
+78	한국	B-OG	B-OG
+79	##승	I-OG	I-OG
+80	##강	I-OG	I-OG
+81	##기	I-OG	I-OG
+82	##안전	I-OG	I-OG
+83	##관리	I-OG	I-OG
+84	##원	I-OG	I-OG
+85	김남	B-PS	B-PS
+86	##덕	I-PS	I-PS
+87	원장	B-CV	B-CV
+88	(	O	O
+89	한나라당	B-OG	B-OG
+90	선대위	O	B-OG
+91	부위	B-CV	B-CV
+92	##원	I-CV	I-CV
+93	##장	I-CV	I-CV
+94	)	O	O
+95	,	O	O
+96	한국	B-OG	B-OG
+97	##컨	I-OG	I-OG
+98	##테이너	I-OG	I-OG
+99	##부	I-OG	I-OG
+100	##두	I-OG	I-OG
+101	##공단	I-OG	I-OG
+102	이상	B-PS	B-PS
+103	##조	I-PS	I-PS
+104	이사장	B-CV	B-CV
+105	(	O	O
+106	밀양	B-LC	B-LC
+107	##시장	B-CV	B-CV
+108	)	O	O
+109	,	O	O
+110	수도권	B-OG	B-OG
+111	##매	I-OG	I-OG
+112	##립	I-OG	I-OG
+113	##지	I-OG	I-OG
+114	##관리	I-OG	I-OG
+115	##공사	I-OG	I-OG
+116	조	B-PS	B-PS
+117	##춘	I-PS	I-PS
+118	##구	I-PS	I-PS
+119	사장	B-CV	B-CV
+120	(	O	O
+121	한나라당	B-OG	B-OG
+122	선대위	O	B-OG
+123	부	B-CV	B-CV
+124	##본부	I-CV	I-CV
+125	##장	I-CV	I-CV
+126	)	O	O
+127	[SEP]	O	O

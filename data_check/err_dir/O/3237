@@ -1,40 +1,67 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, B-CV, I-OG, I-EV
-1	靑	O	B-OG	B-OG, O, B-AF, B-CV, B-PS
-2	서	O	O	O, B-CV, B-PS, I-OG, B-LC
-3	언론사	O	O	O, B-CV, B-OG, I-OG, I-CV
-4	정치	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-FD
-5	##부	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-QT
-6	##장	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-QT
-7	##단	I-CV	I-CV	I-CV, O, I-OG, B-CV, I-QT
-8	##과	O	O	O, I-CV, I-OG, B-CV, I-EV
-9	만찬	O	O	O, B-CV, B-EV, B-LC, I-CV
-10	“	O	O	O, I-CV, B-CV, B-PS, I-EV
-11	윤창	B-PS	B-PS	B-PS, O, I-PS, B-OG, B-LC
-12	##중	I-PS	I-PS	I-PS, O, I-OG, I-LC, B-PS
-13	##이	O	O	O, I-PS, B-CV, B-PS, B-LC
-14	그런	O	O	O, B-CV, B-LC, B-OG, B-TM
-15	인물	O	O	O, B-CV, B-PS, B-LC, I-CV
-16	##이	O	O	O, B-PS, B-CV, B-LC, B-OG
-17	##었	O	O	O, B-PS, B-CV, B-LC, B-OG
-18	##나	O	O	O, B-PS, B-CV, B-LC, B-OG
-19	…	O	O	O, B-PS, B-CV, B-LC, B-OG
-20	실망	O	O	O, B-CV, B-PS, B-OG, B-LC
-21	수사	O	O	O, B-CV, B-OG, B-PS, B-LC
-22	##결	O	O	O, B-CV, I-CV, B-PS, B-LC
-23	##과	O	O	O, B-CV, B-PS, I-CV, B-LC
-24	봐서	O	O	O, B-PS, B-LC, B-CV, B-OG
-25	필요	O	O	O, B-CV, B-LC, B-PS, B-OG
-26	##하면	O	O	O, B-PS, B-CV, B-LC, I-CV
-27	추가	O	O	O, B-CV, B-LC, B-PS, B-OG
-28	조치	O	O	O, B-CV, B-LC, B-PS, I-CV
-29	”	O	O	O, B-CV, B-PS, B-LC, B-OG
-30	[UNK]	O	O	O, B-CV, B-LC, B-PS, B-OG
-31	직권	O	O	O, B-CV, I-CV, B-TM, B-PS
-32	##면	O	O	O, I-CV, B-CV, B-PS, B-PT
-33	##직	O	O	O, I-CV, B-CV, I-TM, I-OG
-34	…	O	O	O, I-CV, B-PS, B-CV, I-OG
-35	공무원	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-FD
-36	신분	O	O	O, I-CV, B-CV, B-TM, B-PS
-37	박탈	O	O	O, I-CV, B-CV, B-PS, I-QT
-38	[SEP]	O	O	O, I-CV, B-CV, B-PS, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	그러나	O	O
+2	당시	O	O
+3	나	O	O
+4	##는	O	O
+5	주요	O	O
+6	일간지	O	O
+7	##는	O	O
+8	##커녕	O	O
+9	인터넷	O	O
+10	신문	O	O
+11	##조	O	O
+12	##차	O	O
+13	보	O	O
+14	##지	O	O
+15	않	O	O
+16	##았	O	O
+17	##던	O	O
+18	터	O	O
+19	##라	O	O
+20	'	O	O
+21	△	O	O
+22	##△	O	O
+23	##위원회	O	B-OG
+24	'	O	O
+25	'	O	O
+26	○○	O	O
+27	##계	O	O
+28	##파	O	O
+29	'	O	O
+30	등과	O	O
+31	같	O	O
+32	##은	O	O
+33	용어	O	O
+34	##가	O	O
+35	익숙	O	O
+36	##하	O	O
+37	##지	O	O
+38	않	O	O
+39	##았	O	O
+40	##고	O	O
+41	,	O	O
+42	과거	O	O
+43	여러	O	O
+44	정부	B-OG	B-OG
+45	##의	O	O
+46	정책	O	O
+47	##과	O	O
+48	성향	O	O
+49	##에	O	O
+50	대한	O	O
+51	나의	O	O
+52	주관	O	O
+53	##이	O	O
+54	거의	O	O
+55	없	O	O
+56	##다는	O	O
+57	점	O	O
+58	##을	O	O
+59	깨달	O	O
+60	##았	O	O
+61	##기	O	O
+62	때문	O	O
+63	##이다	O	O
+64	.	O	O
+65	[SEP]	O	O

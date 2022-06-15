@@ -1,15 +1,12 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	시즌	B-DT	O	O, B-DT, I-DT, B-OG, B-CV
-2	후반부	I-DT	O	O, B-DT, I-DT, B-TI, B-QT
-3	##터	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-TI
-4	신	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-5	감독	B-CV	B-CV	B-CV, O, I-PS, I-CV, B-OG
-6	##의	O	O	O, I-CV, B-CV, I-OG, I-EV
-7	칭찬	O	O	O, B-CV, I-CV, B-TM, I-OG
-8	##도	O	O	O, B-CV, I-OG, I-AF, I-CV
-9	들	O	O	O, B-CV, B-OG, B-PS, I-OG
-10	##었	O	O	O, B-CV, I-OG, I-CV, I-AF
-11	##다	O	O	O, B-CV, I-OG, I-CV, B-QT
-12	.	O	O	O, B-CV, I-OG, B-PS, B-OG
-13	[SEP]	O	O	O, B-CV, I-OG, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	메이지	B-PS	B-DT
+2	5	B-DT	I-DT
+3	##년	I-DT	I-DT
+4	##인	O	O
+5	187	B-DT	B-DT
+6	##2	I-DT	I-DT
+7	##년	I-DT	I-DT
+8	##입니다	O	O
+9	.	O	O
+10	[SEP]	O	O

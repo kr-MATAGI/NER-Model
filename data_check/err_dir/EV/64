@@ -1,27 +1,23 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	이승	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-2	##준	I-PS	I-PS	I-PS, O, I-OG, B-PS, I-LC
-3	##의	O	O	O, I-PS, B-CV, I-OG, I-AF
-4	동생	B-CV	B-CV	B-CV, O, B-TM, I-CV, B-EV
-5	##인	O	O	O, I-CV, I-EV, B-CV, I-AF
-6	이동	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-7	##준	I-PS	I-PS	I-PS, O, I-OG, I-LC, B-PS
-8	##은	O	O	O, I-PS, I-OG, B-CV, I-AF
-9	혼혈	O	O	O, B-CV, B-TM, B-FD, B-LC
-10	##이지	O	O	O, B-PS, B-CV, I-CV, I-EV
-11	##만	O	O	O, B-LC, B-OG, B-CV, B-PS
-12	연세대	B-OG	B-OG	B-OG, B-LC, O, B-AF, B-PS
-13	재학	O	O	O, I-OG, B-CV, I-EV, I-AF
-14	중	O	O	O, B-PS, B-LC, I-OG, I-EV
-15	국내	O	O	O, B-EV, B-LC, B-CV, B-DT
-16	선수	B-CV	B-CV	B-CV, O, B-EV, I-EV, I-CV
-17	신인	B-EV	B-CV	B-CV, B-EV, I-EV, O, I-CV
-18	드래프트	I-EV	O	O, I-EV, I-CV, B-EV, B-CV
-19	##를	O	O	O, I-EV, I-CV, I-OG, B-CV
-20	통해	O	O	O, B-CV, B-LC, B-OG, B-TM
-21	데뷔	O	O	O, B-CV, I-EV, B-TM, B-EV
-22	##했	O	O	O, B-CV, B-PS, I-EV, I-OG
-23	##다	O	O	O, B-CV, I-OG, I-EV, B-PS
-24	.	O	O	O, B-PS, B-CV, B-LC, I-EV
-25	[SEP]	O	O	O, B-CV, B-PS, I-EV, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	짐	O	O
+2	##싼	O	O
+3	황제	B-CV	B-CV
+4	…	O	O
+5	페더러	B-PS	B-PS
+6	,	O	O
+7	프랑스	B-EV	B-EV
+8	오픈	I-EV	I-EV
+9	테니스	I-EV	B-CV
+10	8	I-EV	B-EV
+11	##강	I-EV	I-EV
+12	##서	O	O
+13	송	B-PS	B-PS
+14	##가	I-PS	I-PS
+15	##에	O	O
+16	##게	O	O
+17	3	B-QT	B-QT
+18	##대	I-QT	I-QT
+19	##0	I-QT	I-QT
+20	완패	O	O
+21	[SEP]	O	O

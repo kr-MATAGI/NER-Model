@@ -1,32 +1,65 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	재고량	O	O	O, B-CV, B-TM, B-LC, B-PS
-2	##이	O	O	O, B-PS, B-CV, B-OG, B-LC
-3	떨어질	O	O	O, B-CV, B-LC, B-TM, B-PS
-4	경우	O	O	O, B-CV, B-LC, B-TM, B-PS
-5	재주	O	O	O, B-CV, B-LC, B-TM, B-OG
-6	##문	O	O	O, B-CV, B-LC, I-CV, B-PS
-7	##하	O	O	O, B-LC, B-PS, B-OG, B-CV
-8	##는	O	O	O, B-LC, B-CV, B-OG, B-PS
-9	데	O	O	O, B-LC, B-PS, B-OG, B-CV
-10	##도	O	O	O, B-LC, B-PS, B-CV, B-OG
-11	수개월	O	O	O, B-LC, B-DT, B-TI, B-OG
-12	##이	O	O	O, B-PS, B-LC, B-OG, B-CV
-13	걸릴	O	O	O, B-LC, B-PS, B-OG, B-DT
-14	수	O	O	O, B-PS, B-LC, B-TM, B-CV
-15	있	O	O	O, B-CV, B-PS, B-TM, B-LC
-16	##기	O	O	O, B-CV, B-PS, B-TM, B-LC
-17	때문	O	O	O, B-CV, B-LC, B-PS, B-TM
-18	##에	O	O	O, B-CV, B-LC, B-TM, B-PS
-19	1	B-DT	B-DT	B-DT, O, B-QT, I-DT, B-EV
-20	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-AF
-21	##치	O	I-DT	I-DT, O, I-QT, B-DT, I-AF
-22	##를	O	O	O, I-DT, B-CV, I-QT, I-AF
-23	미리	O	O	O, B-CV, B-LC, B-QT, B-PS
-24	주문	O	O	O, B-CV, B-LC, B-TM, B-OG
-25	##하	O	O	O, B-CV, B-PS, B-OG, B-LC
-26	##는	O	O	O, B-CV, B-OG, B-TM, B-AF
-27	것	O	O	O, B-CV, B-OG, B-TM, B-LC
-28	##이다	O	O	O, B-CV, I-CV, I-OG, B-TM
-29	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-30	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	더	B-OG	B-OG
+2	##민주	I-OG	I-OG
+3	대의원	B-CV	B-CV
+4	##과	O	O
+5	권리	B-CV	B-CV
+6	##당	I-CV	I-CV
+7	##원	I-CV	I-CV
+8	등	O	O
+9	2000	B-QT	B-QT
+10	##명	I-QT	I-QT
+11	##은	O	O
+12	성명	O	O
+13	##을	O	O
+14	내	O	O
+15	##어	O	O
+16	“	O	O
+17	시험	O	O
+18	##을	O	O
+19	내	O	O
+20	##는	O	O
+21	출제	O	B-CV
+22	##자	O	I-CV
+23	##가	O	O
+24	수험	B-CV	B-CV
+25	##생	I-CV	I-CV
+26	##에	O	O
+27	##게	O	O
+28	1	B-QT	B-QT
+29	##대	I-QT	I-QT
+30	##1	I-QT	I-QT
+31	과외	O	O
+32	##를	O	O
+33	하	O	O
+34	##는	O	O
+35	꼴	O	O
+36	##이	O	O
+37	된	O	O
+38	부정	O	O
+39	의혹	O	O
+40	##에	O	O
+41	당원	B-CV	B-CV
+42	##으로	O	O
+43	##서	O	O
+44	너무	O	O
+45	##도	O	O
+46	창피	O	O
+47	##하	O	O
+48	##고	O	O
+49	수치	O	O
+50	##스럽	O	O
+51	##다	O	O
+52	”	O	O
+53	며	O	O
+54	공관	B-CV	B-CV
+55	##위원	I-CV	I-CV
+56	##들의	O	O
+57	사퇴	O	O
+58	##를	O	O
+59	요구	O	O
+60	##했	O	O
+61	##다	O	O
+62	.	O	O
+63	[SEP]	O	O

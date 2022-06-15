@@ -1,46 +1,17 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-EV, I-OG
-1	유	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
-2	##씨	O	O	O, I-PS, B-CV, I-OG, I-AF
-3	##는	O	O	O, B-CV, B-TM, I-CV, I-EV
-4	“	O	O	O, B-CV, B-TM, B-LC, B-PS
-5	복식	O	B-TR	B-TR, O, B-TM, I-TR, B-FD
-6	##호흡	O	I-TR	I-TR, O, I-TM, B-TR, I-FD
-7	##으로	O	O	O, I-TR, I-TM, I-EV, I-QT
-8	소리	O	O	O, B-TM, B-CV, I-TM, B-PS
-9	##를	O	O	O, B-CV, B-PS, B-TM, I-AF
-10	내	O	O	O, B-CV, B-PS, B-TM, B-LC
-11	##니	O	O	O, B-PS, B-CV, B-TM, B-LC
-12	건강	O	O	O, B-TM, B-CV, B-LC, B-PS
-13	##에도	O	O	O, B-CV, B-PS, B-TM, B-LC
-14	좋	O	O	O, B-CV, B-PS, B-TM, B-LC
-15	##다	O	O	O, B-CV, I-CV, B-PS, B-TM
-16	”	O	O	O, B-CV, B-TM, B-PS, I-CV
-17	며	O	O	O, B-CV, B-LC, B-PS, B-TM
-18	“	O	O	O, B-CV, B-LC, B-TM, B-PS
-19	선비	B-CV	B-CV	B-CV, O, I-CV, B-AF, B-PS
-20	##들이	O	O	O, I-CV, B-CV, I-AF, I-EV
-21	오랫동안	O	O	O, B-CV, B-TM, B-LC, B-PS
-22	지치	O	O	O, B-CV, B-TM, B-LC, B-PS
-23	##지	O	O	O, B-CV, B-LC, B-PS, I-AF
-24	않	O	O	O, B-LC, B-CV, B-PS, B-TM
-25	##고	O	O	O, B-CV, B-LC, B-TM, B-PS
-26	앉	O	O	O, B-CV, B-TM, B-LC, B-PS
-27	##아	O	O	O, B-CV, B-LC, B-PS, B-TM
-28	##서	O	O	O, B-CV, B-LC, B-PS, B-TM
-29	공부	O	O	O, B-CV, B-TM, B-LC, B-PS
-30	##할	O	O	O, B-PS, B-CV, B-LC, I-AF
-31	수	O	O	O, B-PS, B-CV, B-LC, B-TM
-32	있	O	O	O, B-CV, B-TM, B-PS, B-LC
-33	##었	O	O	O, B-CV, B-TM, B-LC, B-PS
-34	##던	O	O	O, B-CV, B-PS, B-TM, B-LC
-35	비법	O	O	O, B-CV, B-TM, B-PS, B-LC
-36	”	O	O	O, B-CV, I-CV, B-PS, B-TM
-37	이기	O	O	O, B-PS, B-CV, B-LC, B-QT
-38	##도	O	O	O, B-CV, I-CV, B-TM, I-QT
-39	하	O	O	O, B-PS, B-CV, B-TM, B-LC
-40	##다고	O	O	O, I-CV, B-CV, I-QT, B-PS
-41	덧붙였	O	O	O, B-CV, B-TM, B-QT, B-PS
-42	##다	O	O	O, B-CV, I-CV, I-TM, I-QT
-43	.	O	O	O, B-CV, B-PS, B-LC, B-TM
-44	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	NE	O	B-OG
+2	##W	O	I-OG
+3	,	O	O
+4	영화관	O	O
+5	사업	O	O
+6	진출	O	O
+7	…	O	O
+8	1	B-QT	B-QT
+9	##호	I-QT	I-QT
+10	##점	I-QT	I-QT
+11	경주	B-LC	B-LC
+12	보문	B-LC	B-LC
+13	##에	O	O
+14	개점	O	O
+15	[SEP]	O	O

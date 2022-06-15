@@ -1,10 +1,59 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-EV, I-CV
-1	[UNK]	O	O	O, B-LC, B-CV, B-PS, B-OG
-2	,	O	O	O, B-CV, B-LC, B-PS, B-OG
-3	美	O	B-LC	B-LC, O, B-OG, B-CV, B-TM
-4	에	O	O	O, I-LC, I-OG, B-LC, I-AF
-5	도전	O	O	O, B-CV, B-LC, B-PS, B-OG
-6	##하	O	O	O, B-LC, B-PS, B-CV, I-OG
-7	##다	O	O	O, B-LC, B-PS, I-OG, B-CV
-8	[SEP]	O	O	O, B-LC, B-CV, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	서울	B-OG	B-OG
+2	##고	I-OG	I-OG
+3	##법	I-OG	I-OG
+4	춘천	I-OG	B-OG
+5	##재판	I-OG	O
+6	##부	I-OG	O
+7	(	O	O
+8	재판장	B-CV	B-CV
+9	윤재	B-PS	B-PS
+10	##윤	I-PS	I-PS
+11	법원장	B-CV	B-CV
+12	)	O	O
+13	는	O	O
+14	지난	O	O
+15	6	B-EV	B-EV
+16	·	I-EV	I-EV
+17	2	I-EV	I-EV
+18	지방	I-EV	I-EV
+19	##선거	I-EV	I-EV
+20	당시	O	O
+21	선거	O	O
+22	구민	B-CV	B-CV
+23	##을	O	O
+24	호	O	O
+25	##별	O	O
+26	##방	O	O
+27	##문	O	O
+28	##하	O	O
+29	##고	O	O
+30	기부	O	O
+31	##행위	O	O
+32	##를	O	O
+33	한	O	O
+34	혐의	O	O
+35	##로	O	O
+36	1	B-QT	B-QT
+37	##심	I-QT	I-QT
+38	##에	O	O
+39	##서	O	O
+40	벌금	B-CV	B-CV
+41	300	B-QT	B-QT
+42	##만	I-QT	I-QT
+43	##원	I-QT	I-QT
+44	##이	B-PS	B-PS
+45	선고	O	O
+46	##된	O	O
+47	이	O	B-PS
+48	군수	B-CV	B-CV
+49	##에	O	O
+50	대한	O	O
+51	항소	O	O
+52	##를	O	O
+53	기각	O	O
+54	##했	O	O
+55	##다	O	O
+56	.	O	O
+57	[SEP]	O	O

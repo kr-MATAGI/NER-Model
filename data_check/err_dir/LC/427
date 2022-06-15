@@ -1,42 +1,37 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	만	B-PS	B-PS	B-PS, B-LC, B-OG, I-PS, O
-2	##시	I-PS	I-PS	I-PS, I-OG, I-LC, O, B-PS
-3	##즈	I-PS	I-PS	I-PS, I-OG, I-LC, O, I-CV
-4	##는	O	O	O, I-PS, I-OG, I-EV, B-CV
-5	2002	B-DT	B-DT	B-DT, O, B-EV, B-QT, I-DT
-6	한	B-EV	B-EV	B-EV, I-EV, B-LC, B-AF, B-OG
-7	·	I-EV	I-EV	I-EV, I-LC, I-AF, B-EV, I-PS
-8	일	I-EV	I-EV	I-EV, I-LC, I-AF, I-OG, B-LC
-9	월드컵	I-EV	I-EV	I-EV, I-LC, I-AF, O, B-EV
-10	3	B-EV	B-EV	B-EV, I-EV, B-QT, B-AF, B-LC
-11	-	I-EV	I-EV	I-EV, I-QT, I-AF, I-LC, I-DT
-12	4	I-EV	I-EV	I-EV, I-QT, I-AF, I-LC, B-EV
-13	##위	I-EV	I-EV	I-EV, I-QT, I-AF, I-LC, I-TM
-14	##전	I-EV	I-EV	I-EV, I-QT, I-AF, O, I-LC
-15	##에서	O	O	O, I-EV, I-AF, I-QT, B-CV
-16	한국	B-LC	B-OG	B-OG, B-LC, O, B-EV, B-PS
-17	##을	O	O	O, I-OG, I-EV, B-CV, I-LC
-18	상대	O	O	O, B-CV, B-EV, B-OG, B-TM
-19	##로	O	O	O, I-EV, B-PS, B-CV, I-OG
-20	두	B-QT	B-QT	B-QT, O, I-QT, B-EV, B-TM
-21	골	I-QT	I-QT	I-QT, I-EV, O, I-TM, I-LC
-22	##을	O	O	O, I-QT, I-EV, I-OG, B-CV
-23	뽑아내	O	O	O, B-CV, B-OG, B-LC, B-TM
-24	##며	O	O	O, B-LC, B-CV, B-OG, B-PS
-25	3	B-QT	B-QT	B-QT, I-QT, B-EV, O, B-TM
-26	##대	I-QT	I-QT	I-QT, I-EV, O, I-LC, I-TM
-27	##2	I-QT	I-QT	I-QT, O, I-EV, B-QT, I-LC
-28	승리	O	O	O, I-QT, I-EV, B-CV, I-OG
-29	##를	O	O	O, B-CV, B-OG, I-QT, I-OG
-30	이끌	O	O	O, B-CV, B-OG, B-LC, B-TM
-31	##었	O	O	O, B-CV, B-OG, B-LC, B-PS
-32	##던	O	O	O, B-LC, B-CV, B-OG, B-PS
-33	터키	B-OG	B-LC	B-LC, B-OG, O, B-PS, B-EV
-34	##의	O	O	O, I-OG, I-LC, I-PS, I-AF
-35	축구	B-CV	B-CV	B-CV, O, B-FD, B-PS, B-OG
-36	스타	B-CV	B-CV	B-CV, I-CV, O, I-QT, I-PS
-37	##였	O	O	O, I-CV, B-CV, I-OG, I-EV
-38	##다	O	O	O, B-CV, I-CV, B-TM, B-OG
-39	.	O	O	O, B-LC, B-PS, B-CV, B-OG
-40	[SEP]	O	O	O, B-CV, B-LC, I-EV, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	그	O	O
+2	##에	O	O
+3	따르	O	O
+4	##면	O	O
+5	현재	O	O
+6	일본	B-LC	B-OG
+7	##은	O	O
+8	해	O	O
+9	##사	O	O
+10	분야	O	O
+11	인력	O	O
+12	양성	O	O
+13	##을	O	O
+14	등	O	O
+15	##한	O	O
+16	##시	O	O
+17	##해	O	O
+18	한국	B-LC	B-LC
+19	인력	O	O
+20	##들이	O	O
+21	선박	O	B-AF
+22	관리	O	O
+23	##를	O	O
+24	해	O	O
+25	##줄	O	O
+26	정도	O	O
+27	##로	O	O
+28	어려운	O	O
+29	상황	O	O
+30	##이	O	O
+31	##라고	O	O
+32	덧붙였	O	O
+33	##다	O	O
+34	.	O	O
+35	[SEP]	O	O

@@ -1,33 +1,16 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	영상	B-OG	O	O, B-CV, B-OG, B-AF, B-LC
-2	##자료	I-OG	O	O, I-CV, I-OG, I-AF, B-CV
-3	##원	I-OG	O	O, I-CV, I-OG, I-AF, B-CV
-4	##은	O	O	O, I-CV, I-OG, I-AF, I-EV
-5	오	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-6	##는	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-AF
-7	3	I-DT	I-DT	I-DT, B-DT, O, I-QT, I-AF
-8	##월	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
-9	##1	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-AF
-10	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-AF
-11	서울	B-LC	B-LC	B-LC, O, B-OG, B-AF, I-DT
-12	상암동	B-LC	B-LC	B-LC, I-LC, O, B-AF, B-OG
-13	시네마	B-AF	B-AF	B-AF, B-OG, B-EV, B-LC, O
-14	##테크	I-AF	I-AF	I-AF, I-OG, I-EV, O, I-LC
-15	코	I-AF	I-AF	I-AF, I-OG, I-EV, I-LC, O
-16	##파	I-AF	I-AF	I-AF, I-OG, I-EV, I-LC, O
-17	(	O	O	O, I-AF, I-OG, I-EV, I-LC
-18	KO	B-AF	B-OG	B-OG, B-AF, B-EV, O, B-LC
-19	##FA	I-AF	I-OG	I-OG, I-AF, O, I-EV, I-LC
-20	)	O	O	O, I-OG, I-EV, I-AF, I-LC
-21	에서	O	O	O, B-CV, B-LC, B-PS, B-OG
-22	일반	O	O	O, B-CV, B-TM, B-QT, B-FD
-23	##에	O	O	O, I-CV, I-QT, B-CV, B-QT
-24	무료	O	O	O, B-QT, B-TM, B-CV, B-TR
-25	##로	O	O	O, I-QT, I-CV, I-TM, I-DT
-26	공개	O	O	O, B-CV, B-TM, B-LC, I-QT
-27	##할	O	O	O, B-PS, B-LC, B-OG, B-CV
-28	예정	O	O	O, B-CV, B-OG, B-TM, B-QT
-29	##이다	O	O	O, B-CV, B-OG, B-TM, I-OG
-30	.	O	O	O, B-LC, B-OG, B-CV, B-PS
-31	[SEP]	O	O	O, B-LC, B-CV, B-OG, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	천재	O	O
+2	가드	B-CV	B-CV
+3	폴	B-PS	B-PS
+4	,	O	O
+5	클리	B-OG	B-OG
+6	##퍼스	I-OG	I-OG
+7	##로	O	O
+8	…	O	O
+9	볼	O	O
+10	##만	O	O
+11	##해진	O	O
+12	LA	B-OG	B-EV
+13	더비	I-OG	I-EV
+14	[SEP]	O	O

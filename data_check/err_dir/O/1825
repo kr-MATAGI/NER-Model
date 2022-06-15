@@ -1,11 +1,37 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	아니	O	O	O, B-CV, B-LC, B-PS, B-TM
-2	근데	O	O	O, B-CV, B-LC, B-PS, B-OG
-3	우리	O	O	O, B-CV, B-PS, B-LC, B-AF
-4	이모	O	B-CV	B-CV, O, I-CV, B-AM, B-TM
-5	##델	O	I-CV	I-CV, O, B-CV, I-TM, I-AM
-6	##님	O	O	O, I-CV, B-CV, I-AF, I-EV
-7	##께	O	O	O, I-CV, B-PS, B-CV, B-LC
-8	##서	O	O	O, B-CV, B-LC, B-PS, I-CV
-9	[SEP]	O	O	O, B-CV, B-LC, B-PS, I-CV
+	text	label	preds
+0	[CLS]	O	O
+1	유	O	B-AM
+2	##충	O	I-AM
+3	##으로	O	O
+4	있	O	O
+5	##는	O	O
+6	기간	O	O
+7	##이	O	O
+8	16	B-DT	B-DT
+9	##일	I-DT	I-DT
+10	정도	I-DT	I-DT
+11	##라는	O	O
+12	점	O	O
+13	##을	O	O
+14	감안	O	O
+15	##하면	O	O
+16	,	O	O
+17	유	O	B-AM
+18	##충	O	I-AM
+19	시기	O	O
+20	##에	O	O
+21	다른	O	O
+22	모기	B-AM	B-AM
+23	유	O	B-AM
+24	##충	O	I-AM
+25	약	B-QT	B-QT
+26	416	I-QT	I-QT
+27	##마리	I-QT	I-QT
+28	##를	O	O
+29	제거	O	O
+30	##하	O	O
+31	##는	O	O
+32	셈	O	O
+33	##이다	O	O
+34	.	O	O
+35	[SEP]	O	O

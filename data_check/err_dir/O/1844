@@ -1,50 +1,23 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-QT
-1	이	O	O	O, B-PS, B-OG, B-CV, B-TM
-2	같	O	O	O, B-CV, B-OG, B-TM, B-PS
-3	##은	O	O	O, B-OG, B-PS, B-LC, B-CV
-4	에너지	O	O	O, B-TR, B-FD, B-TM, B-MT
-5	이용	O	O	O, I-TR, B-TR, B-TM, I-TM
-6	효율	O	O	O, B-TR, I-TR, B-PS, B-TM
-7	##화	O	O	O, I-TR, I-TM, I-PS, I-OG
-8	##로	O	O	O, B-OG, B-LC, B-PS, B-CV
-9	코리아	B-OG	B-OG	B-OG, B-LC, O, B-PS, B-AF
-10	##P	I-OG	I-OG	I-OG, B-OG, O, I-LC, I-AF
-11	##T	I-OG	I-OG	I-OG, O, I-LC, I-AF, B-OG
-12	##G	I-OG	I-OG	I-OG, O, I-LC, I-PS, I-AF
-13	##와	O	O	O, I-OG, I-AF, B-OG, I-QT
-14	K	B-OG	B-OG	B-OG, O, I-OG, B-LC, B-PS
-15	##P	I-OG	I-OG	I-OG, O, I-LC, B-OG, I-AF
-16	##케미칼	I-OG	I-OG	I-OG, O, I-LC, I-AF, B-OG
-17	울산	B-AF	B-AF	B-AF, B-LC, I-OG, I-AF, B-OG
-18	##2	I-AF	I-AF	I-AF, I-LC, I-QT, B-QT, I-OG
-19	##공	I-AF	I-AF	I-AF, I-QT, I-LC, O, I-OG
-20	##장	I-AF	I-AF	I-AF, I-QT, I-LC, O, I-OG
-21	,	O	O	O, I-AF, I-QT, B-OG, I-OG
-22	한솔	B-OG	B-OG	B-OG, O, B-LC, B-PS, B-AF
-23	##E	I-OG	I-OG	I-OG, O, B-OG, I-LC, I-AF
-24	##ME	I-OG	I-OG	I-OG, O, I-LC, I-AF, I-PS
-25	등	O	O	O, I-OG, B-QT, I-QT, B-CV
-26	3	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-OG
-27	##개	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-OG
-28	##사	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-OG
-29	##가	O	O	O, I-QT, B-PS, B-DT, B-OG
-30	각각	O	B-DT	B-DT, O, B-QT, B-EV, I-DT
-31	연간	B-DT	B-DT	B-DT, I-DT, O, I-QT, B-QT
-32	33	B-QT	B-QT	B-QT, I-QT, I-DT, O, B-DT
-33	##억	I-QT	I-QT	I-QT, O, I-DT, B-QT, I-LC
-34	원	I-QT	I-QT	I-QT, O, I-LC, I-DT, B-QT
-35	##의	O	O	O, I-QT, B-CV, B-LC, B-TM
-36	스팀	O	O	O, B-TM, B-TR, B-CV, B-MT
-37	판매	O	O	O, I-TM, I-CV, I-TR, B-CV
-38	##수	O	O	O, I-CV, I-TM, I-LC, I-TR
-39	##익	O	O	O, I-TM, I-LC, I-CV, I-QT
-40	##을	O	O	O, B-CV, B-OG, B-TM, B-LC
-41	올릴	O	O	O, B-TM, B-CV, B-OG, B-LC
-42	수	O	O	O, B-QT, B-TM, B-PS, B-CV
-43	있	O	O	O, B-CV, B-QT, B-TM, I-QT
-44	##게	O	O	O, B-CV, B-QT, B-TM, B-OG
-45	됐	O	O	O, B-CV, B-QT, B-TM, B-OG
-46	##다	O	O	O, B-CV, B-TM, B-QT, B-OG
-47	.	O	O	O, B-OG, B-LC, B-QT, I-OG
-48	[SEP]	O	O	O, B-OG, I-OG, B-LC, B-QT
+	text	label	preds
+0	[CLS]	O	O
+1	아	O	O
+2	또	O	O
+3	한	O	B-QT
+4	번	O	I-QT
+5	그	O	O
+6	민심	O	O
+7	##을	O	O
+8	앞	O	O
+9	##에	O	O
+10	##서	O	O
+11	끌	O	O
+12	##거나	O	O
+13	혹은	O	O
+14	사로잡	O	O
+15	##을	O	O
+16	찬스	O	O
+17	##를	O	O
+18	놓쳤	O	O
+19	##다	O	O
+20	.	O	O
+21	[SEP]	O	O

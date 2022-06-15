@@ -1,17 +1,17 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-AF
-1	네	O	O	O, B-CV, B-TM, B-QT, B-LC
-2	본인	O	O	O, B-CV, B-PS, B-LC, B-TM
-3	##이	O	O	O, B-PS, B-CV, B-LC, B-OG
-4	좋아하	O	O	O, B-CV, B-PS, B-LC, B-OG
-5	##시	O	O	O, B-CV, B-PS, B-LC, I-AF
-6	##는	O	O	O, B-CV, B-PS, B-LC, B-TM
-7	콩	O	B-CV	B-CV, O, B-PT, I-CV, B-MT
-8	##을	O	O	O, I-CV, B-CV, I-OG, I-AF
-9	쓰	O	O	O, B-CV, B-OG, B-PS, B-LC
-10	##시	O	O	O, B-CV, I-CV, I-OG, B-PS
-11	##면	O	O	O, B-CV, B-LC, B-OG, B-PS
-12	좋	O	O	O, B-CV, B-LC, B-OG, B-TM
-13	##은	O	O	O, B-CV, B-OG, I-CV, I-OG
-14	##데	O	O	O, B-CV, B-OG, I-OG, B-LC
-15	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	삼	B-QT	B-OG
+2	##팔	I-QT	I-OG
+3	##륙	I-QT	I-OG
+4	좌파	O	I-OG
+5	막	O	O
+6	뭐	O	O
+7	김대중	B-PS	B-PS
+8	노무현	B-PS	B-PS
+9	막	O	O
+10	이쪽	O	O
+11	##에	O	O
+12	##서	O	O
+13	됐으니	O	O
+14	##까	O	O
+15	[SEP]	O	O

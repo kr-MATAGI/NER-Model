@@ -1,35 +1,28 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	9	B-TI	B-TI	B-TI, B-EV, B-QT, O, I-TI
-2	##회	I-TI	I-TI	I-TI, I-EV, B-TI, I-QT, I-TR
-3	##말	I-TI	I-TI	I-TI, O, I-EV, I-TR, I-QT
-4	##이	O	O	O, I-TI, B-PS, I-EV, I-QT
-5	되	O	O	O, B-OG, B-LC, B-CV, B-PS
-6	##자	O	O	O, B-OG, I-OG, B-PS, I-EV
-7	1	B-TM	B-TM	B-TM, B-CV, B-AF, B-EV, B-QT
-8	##루	I-TM	I-TM	I-TM, I-CV, I-QT, I-AF, I-EV
-9	쪽	O	O	O, I-TM, B-TM, I-QT, I-EV
-10	성남	B-OG	B-OG	B-OG, O, B-LC, I-OG, B-AF
-11	##고	I-OG	I-OG	I-OG, O, I-LC, I-AF, I-EV
-12	응원단	O	O	O, I-OG, B-CV, B-OG, I-AF
-13	##은	O	O	O, I-OG, I-AF, I-CV, B-PS
-14	1970	B-DT	B-DT	B-DT, I-DT, O, B-QT, B-LC
-15	##년	I-DT	I-DT	I-DT, O, I-QT, B-DT, I-PS
-16	##대	I-DT	I-DT	I-DT, O, I-QT, B-DT, I-PS
-17	초반	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-TI
-18	유행	O	O	O, B-FD, B-CV, I-DT, B-AF
-19	##가	O	O	O, I-FD, B-FD, I-AF, I-CV
-20	##인	O	O	O, I-AF, I-CV, I-OG, I-FD
-21	'	O	O	O, B-CV, B-LC, B-TM, B-OG
-22	잘	B-AF	O	O, B-AF, B-PS, B-TM, B-LC
-23	##있	I-AF	O	O, I-AF, I-LC, I-TM, I-PS
-24	##어요	I-AF	O	O, I-AF, I-LC, I-TM, I-PS
-25	'	O	O	O, I-AF, B-CV, I-OG, I-CV
-26	를	O	O	O, B-CV, B-PS, B-LC, B-AF
-27	확성기	O	O	O, B-TM, B-AF, B-CV, B-AM
-28	##로	O	O	O, I-TM, I-CV, I-AF, B-CV
-29	틀	O	O	O, B-LC, B-OG, B-PS, B-AF
-30	##었	O	O	O, B-CV, B-LC, B-OG, I-OG
-31	##다	O	O	O, B-CV, B-LC, B-TM, B-OG
-32	.	O	O	O, B-LC, B-OG, B-CV, B-PS
-33	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-AF
+	text	label	preds
+0	[CLS]	O	O
+1	청자	B-AF	B-AF
+2	##상	I-AF	I-AF
+3	##감	I-AF	I-AF
+4	##국	I-AF	I-AF
+5	##화	I-AF	I-AF
+6	##무늬	I-AF	I-AF
+7	##긴	I-AF	I-AF
+8	##목	I-AF	I-AF
+9	##병	I-AF	I-AF
+10	,	O	O
+11	분	B-AF	B-AF
+12	##청사	I-AF	I-AF
+13	##기	I-AF	I-AF
+14	장군	I-AF	B-CV
+15	등	O	O
+16	소	O	O
+17	##담	O	O
+18	##한	O	O
+19	도자기	O	O
+20	유물	O	O
+21	##들	O	O
+22	##도	O	O
+23	보였	O	O
+24	##다	O	O
+25	.	O	O
+26	[SEP]	O	O

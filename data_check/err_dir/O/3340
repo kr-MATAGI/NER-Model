@@ -1,29 +1,44 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	어미	O	O	O, B-CV, B-FD, B-TR, B-AF
-2	관계	O	O	O, I-CV, I-TR, I-FD, I-AF
-3	하나	B-QT	B-QT	B-QT, O, B-TM, B-DT, B-LC
-4	하나	B-QT	B-QT	B-QT, O, I-QT, B-TM, B-EV
-5	##가	O	O	O, I-QT, B-PS, I-AF, I-OG
-6	국어	O	B-FD	B-FD, O, I-FD, B-CV, B-AF
-7	문법	O	O	O, I-FD, B-FD, I-AF, I-OG
-8	##의	O	O	O, I-FD, I-AF, B-PS, I-OG
-9	핵심	O	O	O, B-FD, B-CV, B-PS, B-TM
-10	##은	O	O	O, B-CV, B-PS, B-LC, B-OG
-11	어미	O	O	O, B-CV, B-FD, B-TR, B-AF
-12	##하고	O	O	O, B-PS, I-CV, I-AF, I-FD
-13	조사	O	O	O, B-CV, B-FD, B-PS, B-AF
-14	##의	O	O	O, B-PS, B-LC, B-CV, B-OG
-15	이	O	O	O, B-PS, B-QT, B-TR, B-LC
-16	~	O	O	O, I-QT, I-PS, B-PS, I-LC
-17	이	O	O	O, B-PS, B-QT, B-TR, B-LC
-18	~	O	O	O, I-QT, I-PS, B-PS, I-LC
-19	어미	O	O	O, B-FD, B-CV, B-TR, B-AF
-20	##에	O	O	O, I-CV, B-CV, I-AF, B-PS
-21	대한	O	O	O, B-LC, B-PS, B-TM, B-CV
-22	조사	O	O	O, B-CV, B-PS, B-LC, B-TM
-23	##가	O	O	O, B-PS, B-LC, B-CV, B-OG
-24	필요	O	O	O, B-CV, B-LC, B-OG, B-PS
-25	##하	O	O	O, B-PS, B-LC, B-CV, B-OG
-26	##다	O	O	O, B-CV, B-OG, B-LC, I-OG
-27	[SEP]	O	O	O, B-CV, B-LC, B-FD, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	그	O	O
+2	##는	O	O
+3	노무현	B-PS	B-PS
+4	정부	B-OG	B-OG
+5	출범	O	O
+6	첫해	B-DT	B-DT
+7	##인	O	O
+8	2003	B-DT	B-DT
+9	##년	I-DT	I-DT
+10	12	I-DT	I-DT
+11	##월	I-DT	I-DT
+12	말	I-DT	I-DT
+13	불법	O	B-EV
+14	대선	O	I-EV
+15	##자	O	I-EV
+16	##금	O	I-EV
+17	사건	O	I-EV
+18	##을	O	O
+19	시작	O	O
+20	##으로	O	O
+21	대통령	B-CV	B-CV
+22	측근	O	O
+23	비리	O	O
+24	특검	O	B-OG
+25	,	O	O
+26	유전	O	O
+27	특검	O	B-OG
+28	등	O	O
+29	10	B-QT	B-QT
+30	##여	I-QT	I-QT
+31	차례	I-QT	I-QT
+32	##에	O	O
+33	걸쳐	O	O
+34	수사	O	O
+35	또는	O	O
+36	내사	O	O
+37	대상	O	O
+38	##에	O	O
+39	올랐	O	O
+40	##다	O	O
+41	.	O	O
+42	[SEP]	O	O

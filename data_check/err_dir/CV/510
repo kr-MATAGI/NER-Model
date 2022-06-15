@@ -1,27 +1,65 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-EV, I-OG, I-CV
-1	보르	B-CV	B-LC	B-LC, B-AF, O, B-OG, B-CV
-2	##도	I-CV	I-LC	I-LC, O, I-AF, I-OG, I-PS
-3	와인	I-CV	B-CV	B-CV, I-CV, I-LC, O, I-AF
-4	두	B-QT	B-QT	B-QT, I-QT, O, I-LC, I-CV
-5	병	I-QT	I-QT	I-QT, O, I-LC, I-AF, I-CV
-6	##을	O	O	O, I-QT, B-CV, I-CV, I-AF
-7	주고	O	O	O, B-CV, B-PS, B-LC, I-QT
-8	그림	O	O	O, B-CV, B-PS, B-LC, B-TM
-9	##을	O	O	O, B-CV, B-PS, B-LC, B-OG
-10	얻	O	O	O, B-CV, B-LC, B-PS, B-TM
-11	##은	O	O	O, B-PS, B-CV, B-LC, B-OG
-12	뒤	O	O	O, B-CV, B-TM, B-PS, B-LC
-13	작가	B-CV	B-CV	B-CV, O, I-CV, B-PS, B-FD
-14	##와	O	O	O, I-CV, B-CV, B-PS, I-EV
-15	마주	O	O	O, B-TM, B-QT, B-CV, B-LC
-16	앉	O	O	O, B-TM, B-LC, B-QT, I-QT
-17	##아	O	O	O, B-PS, B-LC, I-QT, B-QT
-18	와인	B-CV	B-CV	B-CV, O, I-CV, B-PT, B-AF
-19	##을	O	O	O, I-CV, B-CV, I-AF, I-OG
-20	다	O	O	O, B-CV, B-QT, B-TM, B-LC
-21	마셔	O	O	O, B-CV, B-LC, B-TM, I-QT
-22	버렸	O	O	O, B-CV, B-LC, B-TM, B-PS
-23	##다	O	O	O, B-CV, I-EV, B-LC, I-QT
-24	.	O	O	O, B-LC, B-CV, B-PS, I-EV
-25	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	하치	O	O
+2	##장	O	O
+3	업주	B-CV	O
+4	엄	B-PS	B-PS
+5	##모	O	O
+6	씨	O	O
+7	(	O	O
+8	56	B-QT	B-QT
+9	)	O	O
+10	는	O	O
+11	“	O	O
+12	겨울	B-DT	B-DT
+13	##이	O	O
+14	##라	O	O
+15	오늘	B-DT	B-DT
+16	##은	O	O
+17	옷	O	O
+18	##이	O	O
+19	없	O	O
+20	##는	O	O
+21	편인	O	O
+22	##데	O	O
+23	봄	B-DT	B-DT
+24	##가을	I-DT	I-DT
+25	##이나	O	O
+26	이사	O	O
+27	##철	O	O
+28	##에	O	O
+29	##는	O	O
+30	물량	O	O
+31	##이	O	O
+32	쏟아져	O	O
+33	나온다	O	O
+34	”	O	O
+35	며	O	O
+36	“	O	O
+37	강남	B-LC	B-LC
+38	아파트	O	O
+39	##에	O	O
+40	##서	O	O
+41	나온	O	O
+42	헌	O	O
+43	옷	O	O
+44	##은	O	O
+45	바로	O	O
+46	입	O	O
+47	##고	O	O
+48	거리	O	O
+49	##로	O	O
+50	나가	O	O
+51	##도	O	O
+52	촌	O	O
+53	##스럽	O	O
+54	##지	O	O
+55	않	O	O
+56	##다	O	O
+57	”	O	O
+58	고	O	O
+59	말	O	O
+60	##했	O	O
+61	##다	O	O
+62	.	O	O
+63	[SEP]	O	O

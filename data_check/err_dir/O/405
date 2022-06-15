@@ -1,21 +1,42 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, B-CV, I-OG, I-AF
-1	그	O	O	O, B-CV, B-OG, B-TM, B-LC
-2	사람	O	O	O, B-CV, B-PS, I-CV, B-LC
-3	##들이	O	O	O, B-CV, B-PS, B-LC, B-OG
-4	역사	B-FD	O	O, B-FD, B-CV, I-FD, B-TR
-5	흐름	O	O	O, I-FD, I-AF, I-CV, B-CV
-6	속	O	O	O, B-CV, B-PS, B-LC, B-OG
-7	##에	O	O	O, B-CV, B-PS, B-LC, B-OG
-8	서쪽	B-TM	B-TM	B-TM, B-LC, O, B-OG, B-CV
-9	##으로	O	O	O, I-TM, I-AF, I-QT, I-OG
-10	갔	O	O	O, B-CV, B-OG, B-LC, B-PS
-11	##던	O	O	O, B-CV, B-LC, B-PS, B-OG
-12	사람	O	O	O, B-CV, B-PS, I-CV, B-QT
-13	##들이	O	O	O, B-CV, B-PS, I-CV, I-AF
-14	오늘	O	B-DT	B-DT, O, I-DT, B-CV, B-QT
-15	날	O	I-DT	I-DT, O, B-DT, I-QT, I-CV
-16	터키	B-LC	B-LC	B-LC, B-OG, O, I-DT, B-CV
-17	##에	O	O	O, I-LC, I-OG, I-AF, I-CV
-18	##요	O	O	O, B-CV, I-AF, I-OG, B-OG
-19	[SEP]	O	O	O, B-CV, B-LC, I-AF, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	경찰의	O	O
+2	설명	O	O
+3	##을	O	O
+4	종합	O	O
+5	##하면	O	O
+6	,	O	O
+7	서울	O	B-LC
+8	강남	O	O
+9	##경찰	B-OG	O
+10	##서는	O	O
+11	2009	B-DT	B-DT
+12	##년	I-DT	I-DT
+13	12	I-DT	I-DT
+14	##월	I-DT	I-DT
+15	경찰청	B-OG	B-OG
+16	##으로	O	O
+17	##부터	O	O
+18	강남	B-LC	B-LC
+19	지역	O	O
+20	유명	O	O
+21	안마	O	O
+22	##업소	O	O
+23	##들의	O	O
+24	성매매	B-CV	B-CV
+25	및	O	O
+26	수상	O	O
+27	##한	O	O
+28	돈	O	O
+29	##흐	O	O
+30	##름	O	O
+31	##에	O	O
+32	관한	O	O
+33	자료	O	O
+34	##를	O	O
+35	넘겨	O	O
+36	##받	O	O
+37	##았	O	O
+38	##다	O	O
+39	.	O	O
+40	[SEP]	O	O

@@ -1,23 +1,49 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	채용	O	O	O, B-CV, B-TM, B-OG, B-LC
-2	규모	O	O	O, B-CV, B-TM, B-OG, B-LC
-3	역시	O	O	O, B-CV, B-TM, B-OG, B-LC
-4	중앙	B-CV	O	O, B-CV, B-QT, I-CV, B-OG
-5	##직	I-CV	O	O, I-CV, I-OG, B-CV, I-QT
-6	공무원	I-CV	B-CV	B-CV, I-CV, O, I-QT, B-QT
-7	4500	B-QT	B-QT	B-QT, I-QT, I-CV, O, B-DT
-8	##명	I-QT	I-QT	I-QT, O, B-QT, I-CV, I-PS
-9	##을	O	O	O, I-QT, B-CV, I-CV, I-OG
-10	28	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-TI
-11	##75	I-QT	I-QT	I-QT, B-QT, O, I-LC, I-PS
-12	##명	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-13	##까	O	O	O, I-QT, I-OG, B-LC, I-DT
-14	##지	O	O	O, B-QT, I-QT, B-LC, B-OG
-15	줄이	O	O	O, B-CV, B-OG, B-TM, B-QT
-16	##기	O	O	O, B-OG, B-CV, B-LC, B-PS
-17	##로	O	O	O, B-CV, B-OG, I-OG, B-TM
-18	했	O	O	O, B-CV, B-OG, B-LC, B-TM
-19	##다	O	O	O, B-CV, B-TM, I-OG, B-OG
-20	.	O	O	O, B-LC, B-CV, B-OG, B-TM
-21	[SEP]	O	O	O, B-CV, B-LC, B-TM, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	메르스	B-TM	B-TM
+2	감염자	B-CV	B-CV
+3	##가	O	O
+4	단순히	O	O
+5	입원	O	O
+6	##이나	O	O
+7	치료	O	O
+8	,	O	O
+9	역학	O	O
+10	##조사	O	O
+11	등	O	O
+12	##에	O	O
+13	협조	O	O
+14	##하	O	O
+15	##지	O	O
+16	않	O	O
+17	##을	O	O
+18	경우	O	O
+19	##에도	O	O
+20	'	O	O
+21	감염병	B-CV	B-CV
+22	##의	I-CV	I-CV
+23	예방	I-CV	I-CV
+24	및	I-CV	I-CV
+25	관리	I-CV	I-CV
+26	##에	I-CV	I-CV
+27	관한	I-CV	I-CV
+28	법률	I-CV	I-CV
+29	(	O	O
+30	감염병	B-CV	O
+31	예방법	I-CV	O
+32	)	O	O
+33	'	O	O
+34	위반	O	O
+35	혐의	O	O
+36	##로	O	O
+37	300	B-QT	B-QT
+38	##만	I-QT	I-QT
+39	##원	I-QT	I-QT
+40	이하	I-QT	I-QT
+41	벌금형	B-CV	B-CV
+42	##이	O	O
+43	가능	O	O
+44	##하	O	O
+45	##다	O	O
+46	.	O	O
+47	[SEP]	O	O

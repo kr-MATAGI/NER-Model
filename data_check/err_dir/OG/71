@@ -1,31 +1,39 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	요즘	O	O	O, B-LC, B-TM, B-CV, B-PS
-2	전북	B-LC	B-LC	B-LC, B-OG, O, B-PS, B-AF
-3	완주	B-LC	B-LC	B-LC, I-LC, O, B-OG, B-AF
-4	##군	I-LC	I-LC	I-LC, O, B-LC, I-OG, I-AF
-5	구이	B-LC	B-LC	B-LC, I-LC, O, B-OG, B-AF
-6	##면	I-LC	I-LC	I-LC, O, I-AF, I-OG, B-LC
-7	전북	B-OG	B-AF	B-AF, B-OG, B-LC, I-AF, I-LC
-8	##도	I-OG	I-AF	I-AF, I-OG, I-LC, O, B-AF
-9	##립	I-OG	I-AF	I-AF, I-OG, I-LC, O, B-AF
-10	##미술	I-OG	I-AF	I-AF, I-OG, I-LC, O, I-EV
-11	##관	I-OG	I-AF	I-AF, I-OG, O, I-LC, I-EV
-12	##에서	O	O	O, I-AF, I-OG, B-CV, I-EV
-13	일	O	O	O, B-CV, B-TM, I-AF, B-OG
-14	##하	O	O	O, B-CV, B-PS, B-OG, I-AF
-15	##는	O	O	O, B-CV, B-PS, B-TM, B-OG
-16	직원	B-CV	B-CV	B-CV, O, B-TM, I-CV, B-OG
-17	##들	O	O	O, I-CV, I-AF, I-OG, B-CV
-18	##과	O	O	O, B-CV, B-OG, B-TM, B-PS
-19	자원	B-CV	B-CV	B-CV, O, B-OG, B-TM, B-AF
-20	##봉사	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-QT
-21	##자	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-QT
-22	##들	O	O	O, I-CV, I-OG, I-AF, B-CV
-23	##의	O	O	O, B-CV, B-TM, B-PS, B-LC
-24	심정	O	O	O, B-CV, B-TM, B-PS, B-LC
-25	##이	O	O	O, B-PS, B-CV, B-OG, I-AF
-26	그렇	O	O	O, B-CV, B-OG, B-TM, B-LC
-27	##다	O	O	O, B-CV, I-OG, I-AF, B-TM
-28	.	O	O	O, B-LC, B-CV, B-AF, B-PS
-29	[SEP]	O	O	O, B-CV, B-LC, I-AF, B-AF
+	text	label	preds
+0	[CLS]	O	O
+1	또	O	O
+2	토	B-OG	O
+3	##주	I-OG	O
+4	##공	I-OG	O
+5	##은	O	O
+6	수도권	B-LC	B-LC
+7	##에	O	O
+8	##서	O	O
+9	매입	O	O
+10	##한	O	O
+11	78	B-QT	B-QT
+12	##9	I-QT	I-QT
+13	##채	I-QT	I-QT
+14	가운데	O	O
+15	51	B-QT	B-QT
+16	##4	I-QT	I-QT
+17	##채	I-QT	I-QT
+18	(	O	O
+19	65	B-QT	B-QT
+20	.	I-QT	I-QT
+21	1	I-QT	I-QT
+22	%	I-QT	I-QT
+23	)	O	O
+24	를	O	O
+25	실거	O	O
+26	##래	O	O
+27	##가	O	O
+28	수준	O	O
+29	##으로	O	O
+30	매입	O	O
+31	##한	O	O
+32	것	O	O
+33	##으로	O	O
+34	나타났	O	O
+35	##다	O	O
+36	.	O	O
+37	[SEP]	O	O

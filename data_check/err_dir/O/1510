@@ -1,77 +1,24 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	‘	O	O	O, B-OG, B-CV, B-AF, B-LC
-2	우리	B-AF	B-AF	B-AF, B-CV, O, B-OG, B-PS
-3	##프	I-AF	I-AF	I-AF, I-CV, I-OG, O, B-CV
-4	##런	I-AF	I-AF	I-AF, I-CV, I-OG, O, B-CV
-5	##티	I-AF	I-AF	I-AF, I-CV, I-OG, O, B-CV
-6	##어	I-AF	I-AF	I-AF, I-CV, I-OG, O, B-CV
-7	##배	I-AF	I-AF	I-AF, I-CV, I-OG, O, B-CV
-8	##당	I-AF	I-AF	I-AF, I-CV, I-OG, O, B-CV
-9	##주	I-AF	I-AF	I-AF, I-CV, I-OG, O, B-CV
-10	##안	I-AF	I-AF	I-AF, I-CV, I-OG, O, B-CV
-11	##정	I-AF	I-AF	I-AF, I-CV, I-OG, O, I-TM
-12	##채권	I-AF	I-AF	I-AF, I-CV, I-OG, O, B-CV
-13	혼합형	I-AF	I-AF	I-AF, I-CV, O, B-AF, I-OG
-14	(	O	O	O, I-AF, I-CV, I-OG, B-CV
-15	C	O	O	O, B-AF, B-CV, B-OG, B-TM
-16	-	O	I-AF	I-AF, O, I-CV, I-TM, I-OG
-17	d	O	I-AF	I-AF, O, I-CV, I-TM, I-OG
-18	)	O	O	O, I-AF, I-CV, I-OG, I-TM
-19	’	O	O	O, B-CV, B-OG, B-LC, B-PS
-20	은	O	O	O, B-CV, B-PS, B-OG, B-LC
-21	기초	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-OG
-22	##생활	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-TM
-23	##수	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-TM
-24	##급	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-TM
-25	##자	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-TM
-26	,	O	O	O, I-CV, B-CV, I-OG, I-QT
-27	장애인	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-FD
-28	,	O	O	O, I-CV, B-CV, B-PS, B-TM
-29	독립	O	O	O, B-CV, B-LC, B-PS, B-TM
-30	##유	O	O	O, B-CV, I-CV, B-PS, B-LC
-31	##공	O	O	O, I-CV, B-CV, B-PS, B-LC
-32	##자와	O	O	O, I-CV, B-PS, B-CV, I-LC
-33	가족	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-OG
-34	,	O	O	O, I-CV, B-CV, B-PS, B-TM
-35	국가	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-TM
-36	##유	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-TM
-37	##공	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-TM
-38	##자	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-QT
-39	,	O	O	O, I-CV, B-CV, B-PS, I-OG
-40	5	B-EV	B-EV	B-EV, B-QT, B-AF, B-LC, B-TM
-41	·	I-EV	I-EV	I-EV, I-QT, I-TM, I-LC, I-AF
-42	18	I-EV	I-EV	I-EV, I-QT, I-LC, I-AF, I-TM
-43	민주	I-EV	I-EV	I-EV, O, B-EV, I-AF, I-TM
-44	##화	I-EV	I-EV	I-EV, O, I-AF, I-LC, I-TM
-45	##운동	I-EV	I-EV	I-EV, O, I-LC, I-AF, I-TM
-46	부상자	B-CV	B-CV	B-CV, O, I-EV, I-CV, I-AF
-47	,	O	O	O, I-CV, I-EV, B-CV, I-AF
-48	고엽	B-TM	B-TM	B-TM, O, B-AF, B-TR, B-MT
-49	##제	I-TM	I-TM	I-TM, O, I-MT, I-CV, I-AF
-50	후유증	O	O	O, I-TM, I-TR, I-CV, B-CV
-51	환자	B-CV	B-CV	B-CV, O, I-CV, I-TM, B-TM
-52	등	O	O	O, I-CV, B-CV, I-TM, B-TM
-53	##에	O	O	O, B-CV, B-TM, B-PS, B-QT
-54	##게	O	O	O, B-CV, B-TM, B-LC, B-OG
-55	##는	O	O	O, B-CV, I-CV, B-PS, B-TM
-56	펀드	O	O	O, B-CV, I-CV, B-PS, B-LC
-57	총	O	O	O, B-CV, B-QT, I-CV, B-PS
-58	##보	O	O	O, B-CV, I-CV, B-QT, B-PS
-59	##수	O	O	O, I-CV, B-CV, I-QT, B-QT
-60	##인	O	O	O, I-CV, B-CV, B-PS, B-QT
-61	1	B-QT	B-QT	B-QT, O, I-QT, B-LC, B-AF
-62	.	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-63	34	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-OG
-64	%	I-QT	I-QT	I-QT, O, I-LC, I-OG, I-PS
-65	를	O	O	O, I-QT, B-CV, B-QT, I-OG
-66	0	B-QT	B-QT	B-QT, O, I-QT, B-LC, B-DT
-67	.	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-OG
-68	73	I-QT	I-QT	I-QT, B-QT, O, I-LC, I-OG
-69	%	I-QT	I-QT	I-QT, O, I-LC, I-OG, I-PS
-70	로	O	O	O, I-QT, B-CV, I-OG, I-EV
-71	깎	O	O	O, B-QT, B-CV, I-QT, B-TM
-72	##아	O	O	O, I-QT, B-QT, I-CV, B-PS
-73	##준다	O	O	O, B-CV, B-PS, I-QT, B-LC
-74	.	O	O	O, B-CV, B-LC, I-CV, B-PS
-75	[SEP]	O	O	O, B-CV, B-LC, I-CV, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	노르웨이	B-LC	B-LC
+2	테러	O	B-CV
+3	##범	O	I-CV
+4	##이	O	O
+5	구입	O	O
+6	##한	O	O
+7	질	B-MT	B-MT
+8	##산	I-MT	I-MT
+9	##암	I-MT	I-MT
+10	##모	I-MT	I-MT
+11	##늄	I-MT	I-MT
+12	,	O	O
+13	국내	O	O
+14	##서도	O	O
+15	""""	O	O
+16	1	B-QT	B-QT
+17	##병	I-QT	I-QT
+18	1	B-QT	B-QT
+19	##만	I-QT	I-QT
+20	##원	I-QT	I-QT
+21	""""	O	O
+22	[SEP]	O	O

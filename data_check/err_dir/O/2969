@@ -1,19 +1,48 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-AF
-1	우리	O	O	O, B-AF, B-OG, B-LC, B-PS
-2	트로이	B-AF	B-AF	B-AF, B-FD, B-EV, B-LC, B-PS
-3	영화	O	I-AF	I-AF, I-FD, O, I-EV, I-TR
-4	##도	O	O	O, I-AF, I-EV, I-OG, I-FD
-5	나옵니다	O	O	O, B-CV, B-OG, B-LC, B-TM
-6	##만	O	O	O, B-PS, B-LC, B-CV, B-OG
-7	이	O	O	O, B-PS, B-OG, B-LC, B-AF
-8	하인	B-PS	B-PS	B-PS, I-PS, O, B-LC, B-OG
-9	##리히	I-PS	I-PS	I-PS, O, I-OG, I-LC, B-PS
-10	슐	I-PS	I-PS	I-PS, B-PS, O, B-LC, I-LC
-11	##리	I-PS	I-PS	I-PS, O, I-LC, I-OG, B-LC
-12	##만	I-PS	I-PS	I-PS, O, I-LC, I-OG, B-LC
-13	##이	O	O	O, I-PS, B-CV, I-OG, B-LC
-14	##라는	O	O	O, B-CV, B-QT, B-LC, B-PS
-15	학자	B-CV	B-CV	B-CV, O, B-QT, I-CV, B-TM
-16	##도	O	O	O, I-CV, I-QT, I-EV, B-CV
-17	[SEP]	O	O	O, B-CV, B-PS, B-LC, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	해양수산부	B-OG	B-OG
+2	##는	O	O
+3	28	B-DT	B-DT
+4	##일	I-DT	I-DT
+5	밤	B-TI	B-TI
+6	“	O	O
+7	국립	B-OG	B-OG
+8	##과학	I-OG	I-OG
+9	##수사	I-OG	I-OG
+10	##연구원	I-OG	I-OG
+11	##의	O	O
+12	현장	O	O
+13	검증	O	O
+14	결과	O	O
+15	갑판	O	O
+16	위	O	B-TM
+17	##에	O	O
+18	##서	O	O
+19	발견	O	O
+20	##된	O	O
+21	뼛	O	B-TM
+22	##조각	O	I-TM
+23	7	B-QT	B-QT
+24	##점	I-QT	I-QT
+25	##은	O	O
+26	동물	O	O
+27	뼈	B-TM	B-TM
+28	##로	O	O
+29	확인	O	O
+30	##됐	O	O
+31	##다	O	O
+32	”	O	O
+33	며	O	O
+34	“	O	O
+35	돼지	B-AM	B-AM
+36	뼈	B-TM	B-TM
+37	##일	O	O
+38	가능	O	O
+39	##성이	O	O
+40	있	O	O
+41	##다	O	O
+42	”	O	O
+43	밝혔	O	O
+44	##다	O	O
+45	.	O	O
+46	[SEP]	O	O

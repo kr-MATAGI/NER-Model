@@ -1,40 +1,18 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	이탈리아	B-LC	B-LC	B-LC, B-OG, O, B-PS, B-AF
-2	AC	B-OG	B-OG	B-OG, I-OG, O, B-LC, B-AF
-3	밀란	I-OG	I-OG	I-OG, O, I-LC, I-AF, I-EV
-4	##에서	O	O	O, I-OG, B-CV, I-EV, I-AF
-5	뛰	O	O	O, B-CV, B-PS, B-LC, B-OG
-6	##던	O	O	O, B-PS, B-LC, B-DT, B-OG
-7	2007	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-8	##년	I-DT	I-DT	I-DT, O, I-QT, B-DT, I-PS
-9	유럽	B-EV	B-EV	B-EV, B-LC, B-OG, B-AF, O
-10	챔피언	I-EV	I-EV	I-EV, B-EV, I-OG, O, B-OG
-11	##스	I-EV	I-EV	I-EV, I-OG, O, I-LC, I-AF
-12	##리그	I-EV	I-EV	I-EV, I-OG, O, I-LC, I-AF
-13	우승	O	O	O, I-EV, I-OG, I-AF, B-CV
-14	##과	O	O	O, B-OG, B-PS, B-CV, B-LC
-15	득점	B-CV	B-CV	B-CV, O, B-TM, B-AF, B-OG
-16	##왕	I-CV	I-CV	I-CV, O, B-CV, I-TM, I-QT
-17	##을	O	O	O, I-CV, I-QT, I-OG, I-AF
-18	차지	O	O	O, B-CV, B-TM, B-LC, B-OG
-19	##했	O	O	O, B-LC, B-CV, B-PS, B-OG
-20	##고	O	O	O, B-PS, B-LC, B-OG, B-CV
-21	그해	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-22	유럽	B-LC	B-CV	B-CV, B-LC, B-EV, B-OG, O
-23	최우수	B-CV	I-CV	I-CV, B-CV, O, I-EV, I-AF
-24	##선	I-CV	I-CV	I-CV, O, B-CV, I-EV, I-OG
-25	##수	I-CV	I-CV	I-CV, O, B-CV, I-EV, I-OG
-26	##상	I-CV	I-CV	I-CV, O, B-CV, I-EV, I-OG
-27	##과	O	O	O, I-CV, I-OG, I-EV, B-CV
-28	FIFA	B-OG	B-OG	B-OG, B-CV, B-AF, B-EV, B-PS
-29	올해	B-CV	B-CV	B-CV, I-CV, O, B-DT, B-QT
-30	##의	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-QT
-31	선수	I-CV	I-CV	I-CV, B-CV, O, I-OG, I-QT
-32	##상	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-TM
-33	##을	O	O	O, I-CV, I-OG, I-QT, B-CV
-34	석권	O	O	O, B-CV, B-TM, B-LC, B-OG
-35	##했	O	O	O, B-CV, B-PS, B-LC, B-OG
-36	##다	O	O	O, B-CV, B-LC, I-OG, B-PS
-37	.	O	O	O, B-LC, B-PS, B-CV, B-OG
-38	[SEP]	O	O	O, B-CV, B-LC, I-EV, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	‘	O	O
+2	아시아	B-LC	B-OG
+3	가톨릭	B-OG	B-OG
+4	##대	I-OG	I-OG
+5	##학	I-OG	I-OG
+6	협의	O	I-OG
+7	##체	O	I-OG
+8	’	O	O
+9	총회	O	O
+10	개최	O	O
+11	박영	B-PS	B-PS
+12	##식	I-PS	I-PS
+13	가톨릭	B-OG	B-OG
+14	##대	I-OG	I-OG
+15	총장	B-CV	B-CV
+16	[SEP]	O	O

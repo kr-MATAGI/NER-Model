@@ -1,50 +1,26 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-EV, B-CV, I-OG, I-CV
-1	이	O	O	O, B-PS, B-CV, B-OG, B-LC
-2	##들	O	O	O, B-CV, B-PS, B-LC, I-EV
-3	##은	O	O	O, B-CV, B-LC, B-PS, I-EV
-4	A	B-EV	B-EV	B-EV, O, B-OG, B-LC, B-AF
-5	##Y	I-EV	I-EV	I-EV, O, I-LC, I-OG, I-AF
-6	##P	I-EV	I-EV	I-EV, O, I-LC, I-OG, I-AF
-7	##뿐	O	O	O, I-EV, I-OG, I-AF, I-QT
-8	아니	O	O	O, B-LC, B-OG, B-PS, I-EV
-9	##라	O	O	O, B-LC, B-EV, I-EV, B-PS
-10	서울	B-OG	B-EV	B-EV, B-LC, B-OG, B-AF, O
-11	##모	I-OG	I-EV	I-EV, O, I-LC, B-EV, I-OG
-12	##의	I-OG	I-EV	I-EV, O, I-LC, I-OG, I-AF
-13	##유	I-OG	I-EV	I-EV, I-LC, I-AF, I-OG, O
-14	##엔	I-OG	I-EV	I-EV, I-LC, I-AF, I-OG, O
-15	##회의	I-OG	I-EV	I-EV, O, I-LC, I-AF, I-OG
-16	(	O	O	O, I-EV, I-OG, I-AF, I-DT
-17	M	B-OG	B-EV	B-EV, O, B-LC, B-OG, I-EV
-18	##U	I-OG	O	O, I-EV, B-EV, I-LC, I-OG
-19	##N	I-OG	O	O, I-EV, B-EV, I-LC, I-OG
-20	##OS	I-OG	O	O, I-EV, I-LC, I-OG, B-EV
-21	)	O	O	O, I-EV, I-OG, I-DT, B-LC
-22	,	O	O	O, B-LC, B-EV, I-EV, B-PS
-23	국제	B-OG	B-EV	B-EV, O, B-LC, B-OG, I-EV
-24	##모	I-OG	I-EV	I-EV, B-EV, O, I-LC, I-OG
-25	##의	I-OG	I-EV	I-EV, O, I-LC, I-OG, I-AF
-26	##유	I-OG	I-EV	I-EV, I-LC, I-AF, I-OG, O
-27	##엔	I-OG	I-EV	I-EV, I-LC, I-AF, I-OG, O
-28	##회의	I-OG	I-EV	I-EV, O, I-LC, I-AF, I-OG
-29	(	O	O	O, I-EV, I-DT, I-OG, I-AF
-30	TH	O	B-EV	B-EV, O, B-LC, B-OG, I-EV
-31	##IM	O	O	O, I-EV, I-LC, B-EV, I-OG
-32	##U	O	O	O, I-EV, I-LC, B-EV, I-OG
-33	##N	O	O	O, I-EV, I-LC, I-OG, B-EV
-34	)	O	O	O, I-EV, B-LC, I-DT, I-OG
-35	등	O	O	O, B-LC, B-PS, B-EV, I-EV
-36	다양	O	O	O, B-LC, B-EV, B-CV, B-PS
-37	##한	O	O	O, B-LC, B-PS, I-EV, B-EV
-38	모의	O	O	O, B-EV, I-EV, B-CV, B-LC
-39	##회의	O	O	O, I-EV, I-LC, B-EV, I-OG
-40	##에	O	O	O, I-EV, B-CV, B-LC, B-PS
-41	참가	O	O	O, B-CV, B-LC, B-PS, B-OG
-42	경력	O	O	O, B-PS, B-CV, B-LC, B-FD
-43	##이	O	O	O, B-PS, B-CV, B-LC, B-OG
-44	있	O	O	O, B-PS, B-CV, B-LC, B-OG
-45	##는	O	O	O, B-PS, B-LC, B-CV, B-OG
-46	실력파	O	O	O, B-CV, B-PS, B-LC, B-OG
-47	.	O	O	O, B-CV, B-PS, B-OG, B-LC
-48	[SEP]	O	O	O, B-LC, B-EV, B-CV, I-EV
+	text	label	preds
+0	[CLS]	O	O
+1	이와	O	O
+2	관련	O	O
+3	##해	O	O
+4	고용	B-OG	B-OG
+5	##노동	I-OG	I-OG
+6	##부	I-OG	I-OG
+7	성남	I-OG	B-OG
+8	##지	I-OG	I-OG
+9	##청	I-OG	I-OG
+10	관계자	B-CV	B-CV
+11	##는	O	O
+12	“	O	O
+13	임금	O	O
+14	##이	O	O
+15	체불	O	O
+16	##되	O	O
+17	##면	O	O
+18	곧바로	O	O
+19	형사	O	O
+20	사건	O	O
+21	##으로	O	O
+22	된다	O	O
+23	.	O	O
+24	[SEP]	O	O

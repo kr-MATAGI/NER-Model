@@ -1,43 +1,30 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-EV
-1	하지만	O	O	O, B-CV, B-PS, B-LC, B-TM
-2	촬영	O	O	O, B-LC, B-CV, B-FD, B-PS
-3	##이	O	O	O, B-PS, B-LC, B-OG, B-CV
-4	진행	O	O	O, B-LC, B-CV, B-TM, B-OG
-5	##되	O	O	O, B-PS, B-LC, B-OG, B-CV
-6	##면서	O	O	O, B-PS, B-LC, B-CV, B-OG
-7	스크린	B-TM	O	O, B-TM, B-CV, B-TR, B-LC
-8	밖	O	O	O, B-TM, I-TM, B-CV, B-LC
-9	##의	O	O	O, B-PS, B-CV, I-CV, I-TM
-10	아이	O	O	O, B-CV, B-PS, B-AM, B-TM
-11	##들	O	O	O, I-CV, B-PS, I-PS, B-CV
-12	##과	O	O	O, B-PS, B-CV, B-TM, B-LC
-13	##도	O	O	O, B-PS, B-LC, B-CV, B-TM
-14	정이	O	O	O, B-PS, B-CV, B-TM, B-LC
-15	들	O	O	O, B-PS, B-CV, B-OG, B-LC
-16	##었	O	O	O, B-CV, B-PS, I-CV, I-OG
-17	##고	O	O	O, B-CV, B-PS, I-CV, I-AF
-18	,	O	O	O, B-CV, B-PS, B-LC, B-AF
-19	영광	O	B-PS	B-PS, O, B-LC, B-AF, B-EV
-20	##의	O	O	O, I-PS, I-AF, I-LC, I-EV
-21	무대	O	O	O, I-AF, I-EV, B-CV, B-AF
-22	##를	O	O	O, I-AF, I-EV, B-PS, B-CV
-23	보고	O	O	O, B-PS, B-CV, B-LC, B-TM
-24	미소	O	O	O, B-CV, B-TM, B-AM, B-PS
-25	짓	O	O	O, B-PS, B-CV, I-AF, I-CV
-26	##는	O	O	O, B-PS, B-CV, I-AF, B-LC
-27	마지막	O	O	O, B-QT, B-CV, B-AF, B-LC
-28	장면	O	O	O, I-QT, B-CV, B-FD, I-AF
-29	##은	O	O	O, B-CV, B-PS, I-AF, I-QT
-30	두	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-EV
-31	번	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-DT
-32	만	O	I-QT	I-QT, O, I-TI, I-DT, I-LC
-33	##에	O	O	O, I-QT, B-CV, B-PS, I-OG
-34	오케이	O	O	O, B-TM, B-CV, B-QT, B-LC
-35	사인	O	O	O, B-TM, B-QT, B-CV, I-QT
-36	##을	O	O	O, B-CV, I-OG, I-QT, I-CV
-37	받	O	O	O, B-CV, B-PS, B-TM, B-LC
-38	##았	O	O	O, B-CV, B-PS, I-CV, I-OG
-39	##다	O	O	O, B-CV, I-CV, I-OG, I-EV
-40	.	O	O	O, B-CV, B-PS, B-LC, I-AF
-41	[SEP]	O	O	O, B-CV, B-PS, B-LC, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	두꺼비	B-AM	B-AM
+2	##는	O	O
+3	고대	O	B-DT
+4	동아시아	B-LC	B-LC
+5	##에	O	O
+6	##서	O	O
+7	하늘	O	O
+8	##과	O	O
+9	인간	O	O
+10	##을	O	O
+11	잇	O	O
+12	##는	O	O
+13	신령	O	O
+14	##한	O	O
+15	동물	O	O
+16	##로	O	O
+17	숭배	O	O
+18	##되	O	O
+19	##었	O	O
+20	##고	O	O
+21	,	O	O
+22	고구려	B-DT	B-DT
+23	벽화	O	O
+24	##에도	O	O
+25	등장	O	O
+26	##한다	O	O
+27	.	O	O
+28	[SEP]	O	O

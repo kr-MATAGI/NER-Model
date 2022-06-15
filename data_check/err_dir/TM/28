@@ -1,45 +1,22 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-QT, I-CV
-1	그동안	O	O	O, B-CV, B-TM, B-QT, B-LC
-2	여러	O	O	O, B-TM, B-QT, B-CV, B-LC
-3	기기	O	O	O, B-TM, B-CV, I-TM, B-AF
-4	##들	O	O	O, B-CV, B-LC, B-TM, B-PS
-5	##을	O	O	O, B-CV, B-TM, B-LC, B-OG
-6	연결	O	O	O, B-TM, B-CV, B-LC, B-OG
-7	##하	O	O	O, B-LC, B-PS, B-CV, B-TM
-8	##는	O	O	O, B-CV, B-LC, B-TM, B-OG
-9	게	O	O	O, B-PS, B-LC, B-OG, B-CV
-10	어렵	O	O	O, B-CV, B-TM, B-OG, B-LC
-11	##고	O	O	O, B-PS, B-CV, B-TM, B-LC
-12	제어	O	O	O, B-TM, B-CV, I-TM, B-AF
-13	##하	O	O	O, B-TM, B-PS, B-CV, B-LC
-14	##는	O	O	O, B-TM, B-CV, B-LC, B-OG
-15	애플리케이션	O	O	O, B-TM, B-CV, I-TM, B-AF
-16	##도	O	O	O, I-TM, B-TM, B-PS, B-LC
-17	달라	O	O	O, B-TM, B-LC, B-CV, B-OG
-18	대중	O	O	O, B-CV, B-TM, B-LC, B-OG
-19	##화	O	O	O, B-LC, B-CV, B-TM, B-PS
-20	##에	O	O	O, B-CV, B-LC, B-PS, B-TM
-21	어려움	O	O	O, B-TM, B-CV, B-LC, B-OG
-22	##을	O	O	O, B-CV, B-TM, B-OG, B-PS
-23	겪	O	O	O, B-CV, B-TM, B-LC, B-OG
-24	##었	O	O	O, B-CV, B-TM, B-OG, B-LC
-25	##던	O	O	O, B-TM, B-CV, B-OG, B-LC
-26	스마트	B-TM	O	O, B-TM, B-FD, B-TR, B-CV
-27	##홈	I-TM	O	O, I-TM, I-FD, I-OG, I-AF
-28	서비스	I-TM	O	O, I-TM, I-FD, B-TM, B-FD
-29	##가	O	O	O, B-CV, B-PS, I-TM, B-OG
-30	한단	B-QT	B-QT	B-QT, O, B-DT, B-TM, I-QT
-31	##계	I-QT	I-QT	I-QT, O, I-TM, I-EV, I-DT
-32	진	O	O	O, I-QT, B-QT, B-TM, B-OG
-33	##일보	O	O	O, I-QT, I-TM, I-OG, B-QT
-34	##하	O	O	O, B-PS, I-QT, B-LC, B-OG
-35	##는	O	O	O, B-CV, B-OG, B-LC, B-PS
-36	계기	O	O	O, B-CV, B-TM, B-QT, B-LC
-37	##가	O	O	O, B-CV, B-OG, B-LC, B-PS
-38	될	O	O	O, B-CV, B-TM, B-LC, B-QT
-39	것	O	O	O, B-CV, B-TM, B-LC, B-PS
-40	##으로	O	O	O, B-CV, B-TM, B-QT, I-QT
-41	보인다	O	O	O, B-CV, B-TM, B-QT, B-OG
-42	.	O	O	O, B-CV, B-LC, B-TM, B-PS
-43	[SEP]	O	O	O, B-CV, B-TM, B-LC, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	연구원	B-CV	B-CV
+2	컴퓨	B-TM	O
+3	##턴	I-TM	O
+4	##데	O	O
+5	전선	O	O
+6	##이	O	O
+7	없	O	O
+8	##어져	O	O
+9	##가	O	O
+10	찾	O	O
+11	##으	O	O
+12	##러	O	O
+13	갔	O	O
+14	##다는	O	O
+15	##데	O	O
+16	없	O	O
+17	##대	O	O
+18	##요	O	O
+19	.	O	O
+20	[SEP]	O	O

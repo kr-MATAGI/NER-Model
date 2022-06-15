@@ -1,74 +1,41 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	720	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-TI
-2	##만	I-QT	I-QT	I-QT, O, I-PS, I-LC, I-DT
-3	##명	I-QT	I-QT	I-QT, O, I-LC, I-PS, I-DT
-4	##에	O	O	O, I-QT, I-OG, B-CV, I-AF
-5	이르	O	O	O, B-OG, B-LC, B-PS, B-QT
-6	##는	O	O	O, B-LC, B-PS, I-OG, I-QT
-7	유	B-CV	B-CV	B-CV, O, B-OG, B-TM, B-FD
-8	·	I-CV	I-CV	I-CV, O, B-CV, I-QT, I-TM
-9	초	I-CV	I-CV	I-CV, O, B-CV, I-QT, I-TM
-10	·	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-TM
-11	중	I-CV	I-CV	I-CV, O, B-CV, I-QT, I-TM
-12	·	I-CV	I-CV	I-CV, O, B-CV, I-QT, I-TM
-13	고생	I-CV	I-CV	I-CV, O, B-CV, I-QT, I-TM
-14	자녀	B-CV	B-CV	B-CV, I-CV, O, B-FD, I-QT
-15	##를	O	O	O, I-CV, B-CV, I-OG, I-AF
-16	둔	O	O	O, B-PS, B-CV, B-LC, B-QT
-17	학부모	B-CV	B-CV	B-CV, O, I-CV, B-EV, B-TM
-18	1000	B-QT	B-QT	B-QT, I-QT, O, B-DT, I-CV
-19	##만	I-QT	I-QT	I-QT, O, I-PS, I-DT, I-LC
-20	##여	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-21	##명	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-22	##에	O	O	O, I-QT, B-CV, I-CV, B-PS
-23	##게	O	O	O, B-CV, B-LC, I-QT, B-PS
-24	##나	O	O	O, B-PS, B-CV, B-LC, B-EV
-25	교육감	B-EV	B-EV	B-EV, B-CV, O, B-TM, I-EV
-26	선거	I-EV	O	O, I-EV, B-EV, B-CV, I-CV
-27	##가	O	O	O, I-EV, B-PS, I-AF, I-CV
-28	와	O	O	O, B-CV, B-LC, B-PS, B-OG
-29	닿	O	O	O, B-PS, B-LC, B-CV, I-CV
-30	##는	O	O	O, B-PS, B-LC, B-CV, B-OG
-31	현실	O	O	O, B-CV, B-FD, B-LC, B-PS
-32	##이지	O	O	O, B-CV, B-PS, I-CV, B-LC
-33	,	O	O	O, B-CV, B-LC, B-PS, B-OG
-34	자녀	B-CV	B-CV	B-CV, O, B-TM, B-EV, I-CV
-35	다	O	O	O, I-CV, B-CV, B-PS, I-QT
-36	키웠	O	O	O, B-CV, B-PS, B-LC, I-CV
-37	##거나	O	O	O, B-PS, I-CV, I-QT, I-PS
-38	,	O	O	O, B-CV, B-PS, B-LC, B-OG
-39	자녀	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-AF
-40	없	O	O	O, I-CV, B-CV, B-PS, B-QT
-41	##거나	O	O	O, B-PS, I-CV, I-QT, B-CV
-42	,	O	O	O, B-CV, B-PS, B-LC, B-OG
-43	미혼	O	O	O, B-CV, B-PS, B-LC, B-QT
-44	##의	O	O	O, B-PS, I-CV, B-CV, B-LC
-45	유권자	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-TM
-46	##들	O	O	O, I-CV, B-CV, I-AF, I-OG
-47	##한	O	O	O, B-CV, B-PS, B-LC, I-CV
-48	##테	O	O	O, B-PS, I-CV, B-CV, B-LC
-49	##는	O	O	O, B-CV, B-PS, B-LC, B-TM
-50	그	O	O	O, B-CV, B-LC, B-PS, B-TM
-51	얼굴	B-AM	B-AM	B-AM, O, B-CV, B-TM, B-TR
-52	##이	O	O	O, B-PS, I-CV, I-AF, I-PS
-53	그	O	O	O, B-CV, B-PS, B-LC, B-OG
-54	얼굴	B-AM	B-AM	B-AM, O, B-CV, B-TM, B-TR
-55	##이	O	O	O, B-PS, I-CV, I-PS, I-AF
-56	##요	O	O	O, B-PS, B-CV, B-LC, I-CV
-57	,	O	O	O, B-CV, B-PS, B-LC, B-OG
-58	그	O	O	O, B-CV, B-PS, B-LC, B-AF
-59	공약	O	O	O, B-CV, B-FD, B-PS, B-TM
-60	##이	O	O	O, B-PS, B-CV, I-CV, I-AF
-61	그	O	O	O, B-CV, B-PS, B-LC, B-AF
-62	공약	O	O	O, B-CV, B-FD, B-EV, B-TM
-63	##일	O	O	O, B-PS, I-CV, B-CV, I-AF
-64	수	O	O	O, B-PS, B-CV, B-LC, B-OG
-65	##밖	O	O	O, B-CV, B-PS, B-LC, B-TM
-66	##에	O	O	O, B-LC, B-PS, I-AF, B-OG
-67	없	O	O	O, B-CV, B-TM, B-LC, B-PS
-68	##는	O	O	O, B-CV, B-PS, B-LC, I-EV
-69	선거	O	O	O, B-EV, B-CV, B-FD, I-EV
-70	##다	O	O	O, I-EV, I-CV, I-AF, I-OG
-71	.	O	O	O, B-CV, B-PS, B-LC, I-EV
-72	[SEP]	O	O	O, B-CV, B-PS, B-LC, B-FD
+	text	label	preds
+0	[CLS]	O	O
+1	푸르	B-OG	B-OG
+2	##메	I-OG	I-OG
+3	##재단	I-OG	I-OG
+4	홍보	B-CV	B-CV
+5	##대사	I-CV	I-CV
+6	##인	O	O
+7	이지	B-PS	B-PS
+8	##선	I-PS	I-PS
+9	씨	O	O
+10	##는	O	O
+11	지난해	B-DT	B-DT
+12	11	I-DT	I-DT
+13	##월	I-DT	I-DT
+14	미국	B-EV	B-LC
+15	뉴욕	I-EV	B-EV
+16	##마	I-EV	I-EV
+17	##라	I-EV	I-EV
+18	##톤	I-EV	I-EV
+19	##과	O	O
+20	올해	B-DT	B-DT
+21	3	I-DT	I-DT
+22	##월	I-DT	I-DT
+23	서울	B-EV	B-EV
+24	##국	I-EV	I-EV
+25	##제	I-EV	I-EV
+26	##마	I-EV	I-EV
+27	##라	I-EV	I-EV
+28	##톤	I-EV	I-EV
+29	##을	O	O
+30	완주	O	O
+31	##하	O	O
+32	##며	O	O
+33	기부	O	O
+34	##를	O	O
+35	호소	O	O
+36	##했	O	O
+37	##다	O	O
+38	.	O	O
+39	[SEP]	O	O

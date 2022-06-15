@@ -1,54 +1,51 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	음	O	O	O, B-CV, B-FD, B-PS, B-OG
-2	##울	O	O	O, B-PS, B-FD, B-CV, I-CV
-3	##하고	O	O	O, B-PS, B-CV, B-LC, B-OG
-4	다소	O	O	O, B-LC, B-CV, B-PS, B-TM
-5	허무	O	O	O, B-FD, B-CV, B-PS, B-OG
-6	##한	O	O	O, B-PS, B-LC, B-OG, B-CV
-7	그	O	O	O, B-PS, B-CV, B-FD, B-OG
-8	##의	O	O	O, B-PS, B-CV, B-FD, I-OG
-9	책	O	O	O, B-CV, B-FD, B-TM, B-AF
-10	##이	O	O	O, B-PS, B-CV, B-OG, B-LC
-11	가진	O	O	O, B-CV, B-PS, B-LC, B-TM
-12	정서	O	O	O, B-CV, B-PS, B-FD, B-LC
-13	##가	O	O	O, B-PS, B-LC, B-OG, B-CV
-14	‘	O	O	O, B-CV, B-LC, B-PS, B-OG
-15	전력	O	O	O, B-PS, B-CV, B-LC, B-OG
-16	’	O	O	O, B-CV, B-PS, B-OG, B-LC
-17	을	O	O	O, B-PS, B-CV, B-OG, B-LC
-18	약화	O	O	O, B-CV, B-TM, B-PS, B-LC
-19	##시	O	O	O, B-PS, B-LC, B-CV, B-OG
-20	##킬	O	O	O, B-PS, B-LC, B-CV, B-OG
-21	법	O	O	O, B-PS, B-CV, B-LC, B-OG
-22	##도	O	O	O, B-PS, B-LC, I-PS, I-OG
-23	한데	O	O	O, B-PS, B-CV, B-LC, B-TM
-24	,	O	O	O, B-CV, B-LC, B-PS, B-OG
-25	뜻밖	O	O	O, B-CV, B-PS, B-LC, B-TM
-26	##의	O	O	O, B-PS, B-CV, B-OG, B-LC
-27	이유로	O	O	O, B-PS, B-CV, B-LC, B-TM
-28	진중	B-OG	O	O, B-OG, B-AF, B-TM, B-FD
-29	##문고	I-OG	O	O, I-OG, I-AF, I-TM, I-LC
-30	##가	O	O	O, I-OG, I-AF, B-PS, I-QT
-31	오늘날	O	O	O, B-DT, B-LC, B-QT, B-CV
-32	하루	B-PS	B-PS	B-PS, B-AF, O, B-LC, B-OG
-33	##키	I-PS	I-PS	I-PS, I-AF, O, I-LC, I-OG
-34	인기	O	O	O, I-PS, I-AF, B-CV, I-OG
-35	##를	O	O	O, B-CV, B-TM, B-OG, B-LC
-36	높이	O	O	O, B-CV, B-TM, B-LC, B-QT
-37	##는	O	O	O, B-CV, B-PS, B-LC, B-TM
-38	데	O	O	O, B-LC, B-CV, B-PS, B-TM
-39	단단히	O	O	O, B-QT, B-PS, B-CV, B-TM
-40	한몫	O	O	O, B-QT, B-CV, I-QT, B-TM
-41	##했	O	O	O, B-PS, I-QT, B-QT, B-CV
-42	##다는	O	O	O, B-PS, I-QT, B-QT, B-CV
-43	믿	O	O	O, B-TM, B-CV, B-PS, B-OG
-44	##지	O	O	O, I-OG, I-TM, I-CV, I-PS
-45	못할	O	O	O, I-PS, B-PS, I-CV, I-TM
-46	풀이	O	O	O, B-CV, B-PS, B-QT, B-TM
-47	##인	O	O	O, B-PS, I-CV, B-CV, I-QT
-48	것	O	O	O, B-CV, B-PS, B-QT, B-TM
-49	##이	O	O	O, B-PS, B-CV, I-CV, B-QT
-50	##죠	O	O	O, I-CV, B-CV, I-OG, I-QT
-51	.	O	O	O, B-CV, B-LC, B-PS, B-OG
-52	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-FD
+	text	label	preds
+0	[CLS]	O	O
+1	이	B-PS	B-PS
+2	의원	B-CV	B-CV
+3	##은	O	O
+4	오후	B-TI	B-TI
+5	질의	O	O
+6	직전	O	O
+7	의사	O	O
+8	##진	O	O
+9	##행	O	O
+10	발언	O	O
+11	##에	O	O
+12	##서	O	O
+13	“	O	O
+14	정몽구	B-PS	B-PS
+15	현대	O	B-OG
+16	·	O	I-OG
+17	기아차	B-OG	I-OG
+18	,	O	O
+19	손	B-PS	B-PS
+20	##경	I-PS	I-PS
+21	##식	I-PS	I-PS
+22	CJ	O	B-OG
+23	,	O	O
+24	김승	B-PS	B-PS
+25	##연	I-PS	I-PS
+26	한화그룹	B-OG	B-OG
+27	회장	B-CV	B-CV
+28	##은	O	O
+29	병력	O	O
+30	##과	O	O
+31	고령	O	O
+32	##으로	O	O
+33	오래	O	O
+34	있	O	O
+35	##기	O	O
+36	힘들	O	O
+37	##다	O	O
+38	”	O	O
+39	며	O	O
+40	귀가	O	O
+41	##시	O	O
+42	##키	O	O
+43	##자	O	O
+44	##고	O	O
+45	요구	O	O
+46	##했	O	O
+47	##다	O	O
+48	.	O	O
+49	[SEP]	O	O

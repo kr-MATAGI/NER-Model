@@ -1,30 +1,38 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	삼성카드	B-OG	B-OG	B-OG, B-AF, B-TM, B-PS, O
-2	##는	O	O	O, I-OG, I-AF, I-TM, I-EV
-3	휘	B-AF	B-AF	B-AF, B-LC, B-OG, O, B-EV
-4	##닉스	I-AF	I-AF	I-AF, I-LC, O, I-OG, I-EV
-5	##파크	I-AF	I-AF	I-AF, I-LC, O, I-OG, I-EV
-6	스키장	O	I-AF	I-AF, O, I-LC, B-AF, I-OG
-7	##에서	O	O	O, I-AF, I-LC, I-EV, I-OG
-8	삼성카드	B-OG	B-AF	B-AF, B-OG, B-TM, O, B-PS
-9	##를	O	O	O, I-AF, I-OG, I-TM, I-EV
-10	이용	O	O	O, B-CV, B-TM, B-LC, B-OG
-11	##하	O	O	O, B-PS, B-CV, B-LC, B-TM
-12	##는	O	O	O, B-CV, B-PS, B-TM, B-LC
-13	고객	B-CV	B-CV	B-CV, O, B-TM, I-CV, B-OG
-14	##에	O	O	O, I-CV, I-AF, B-CV, I-QT
-15	대해	O	O	O, B-LC, B-QT, B-TM, B-OG
-16	리프트	O	O	O, B-CV, B-TM, B-AF, B-LC
-17	##권	O	O	O, I-CV, I-TM, I-LC, I-AF
-18	등	O	O	O, B-LC, B-TM, B-QT, B-CV
-19	##을	O	O	O, B-CV, B-LC, B-QT, B-TM
-20	최대	O	B-QT	B-QT, O, B-DT, I-QT, B-TI
-21	40	B-QT	B-QT	B-QT, I-QT, O, B-DT, I-LC
-22	%	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-23	까지	O	O	O, I-QT, B-QT, B-LC, B-TM
-24	할인	O	O	O, B-QT, B-TM, B-CV, B-OG
-25	##해	O	O	O, I-QT, B-LC, B-PS, B-QT
-26	준다	O	O	O, B-CV, B-PS, B-LC, B-TM
-27	.	O	O	O, B-LC, B-OG, B-CV, B-PS
-28	[SEP]	O	O	O, B-LC, B-CV, B-TM, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	문재인	B-PS	B-PS
+2	대표	B-CV	B-CV
+3	##가	O	O
+4	수석	B-OG	B-CV
+5	##사	I-OG	I-CV
+6	##무	I-OG	I-CV
+7	##부	I-OG	I-CV
+8	##총장	B-CV	I-CV
+9	##에	O	O
+10	친	O	O
+11	##노	O	O
+12	##계	O	O
+13	김경	B-PS	B-PS
+14	##협	I-PS	I-PS
+15	의원	B-CV	B-CV
+16	##을	O	O
+17	임명	O	O
+18	##하	O	O
+19	##려	O	O
+20	##다	O	O
+21	일부	O	O
+22	최고위	B-CV	B-CV
+23	##원	I-CV	I-CV
+24	##들	O	O
+25	반대	O	O
+26	##로	O	O
+27	두	B-QT	B-QT
+28	차례	I-QT	I-QT
+29	##나	O	O
+30	보류	O	O
+31	##했	O	O
+32	##다는	O	O
+33	것	O	O
+34	##이다	O	O
+35	.	O	O
+36	[SEP]	O	O

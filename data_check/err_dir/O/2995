@@ -1,23 +1,50 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	구	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-2	##십	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
-3	##이	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
-4	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
-5	##도	O	I-DT	I-DT, O, B-DT, I-QT, I-EV
-6	##에	O	O	O, I-DT, I-QT, B-CV, I-EV
-7	태어났	O	O	O, B-CV, B-LC, B-PS, B-OG
-8	##으니	O	O	O, B-PS, B-CV, B-LC, I-CV
-9	##까	O	O	O, B-PS, B-CV, B-OG, B-LC
-10	칠	O	O	O, B-PS, B-QT, B-OG, B-LC
-11	##십	O	O	O, B-PS, B-QT, I-QT, B-LC
-12	세가	O	O	O, B-PS, B-CV, B-QT, B-TM
-13	넘	O	O	O, B-PS, B-CV, B-QT, B-OG
-14	##은	O	O	O, B-PS, B-CV, B-OG, B-LC
-15	때	O	O	O, B-CV, B-PS, I-CV, I-QT
-16	##의	O	O	O, B-CV, B-PS, B-OG, I-AF
-17	나이	O	O	O, B-CV, B-PS, B-QT, B-TM
-18	##에	O	O	O, B-CV, B-OG, B-PS, B-QT
-19	##요	O	O	O, B-CV, B-OG, B-LC, I-OG
-20	.	O	O	O, B-CV, B-PS, B-LC, B-OG
-21	[SEP]	O	O	O, B-CV, B-PS, B-LC, I-QT
+	text	label	preds
+0	[CLS]	O	O
+1	채	B-PS	B-PS
+2	##동	I-PS	I-PS
+3	##욱	I-PS	I-PS
+4	검찰	B-CV	B-CV
+5	##총장	I-CV	I-CV
+6	##은	O	O
+7	취임	O	O
+8	##사	O	O
+9	##에	O	O
+10	##서	O	O
+11	“	O	O
+12	국민	O	B-CV
+13	##이	O	O
+14	지지	O	O
+15	##하	O	O
+16	##는	O	O
+17	방향	O	O
+18	##으로	O	O
+19	특별	O	O
+20	##수사	O	O
+21	체제	O	O
+22	##를	O	O
+23	재편	O	O
+24	##하	O	O
+25	##되	O	O
+26	부패	O	O
+27	##수사	O	O
+28	##의	O	O
+29	공백	O	O
+30	##이	O	O
+31	생기	O	O
+32	##지	O	O
+33	않	O	O
+34	##도록	O	O
+35	면밀	O	O
+36	##한	O	O
+37	설계도	O	O
+38	##를	O	O
+39	그려	O	O
+40	##야	O	O
+41	한다	O	O
+42	”	O	O
+43	고	O	O
+44	말	O	O
+45	##했	O	O
+46	##다	O	O
+47	.	O	O
+48	[SEP]	O	O

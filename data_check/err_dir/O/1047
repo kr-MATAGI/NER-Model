@@ -1,26 +1,41 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	시	O	B-OG	B-OG, O, B-LC, B-PS, B-CV
-2	주요	O	O	O, I-OG, B-TM, B-CV, B-LC
-3	현안	O	O	O, B-CV, B-OG, B-TM, B-LC
-4	##인	O	O	O, B-CV, B-OG, B-PS, B-LC
-5	도시	B-OG	B-OG	B-OG, O, B-AF, B-CV, B-EV
-6	##개발	I-OG	I-OG	I-OG, O, I-CV, I-AF, B-OG
-7	##공사	I-OG	I-OG	I-OG, O, I-AF, I-CV, B-OG
-8	설립	O	O	O, I-OG, I-AF, I-CV, B-CV
-9	##과	O	O	O, B-LC, B-PS, I-OG, B-OG
-10	정자	B-LC	B-LC	B-LC, B-AF, O, B-OG, B-PS
-11	##동	I-LC	I-LC	I-LC, I-AF, O, I-OG, B-LC
-12	공공	O	O	O, B-AF, I-AF, B-CV, I-LC
-13	##청사	O	O	O, I-AF, I-CV, I-LC, I-OG
-14	터	O	O	O, I-AF, I-CV, B-TM, B-CV
-15	매각	O	O	O, B-TM, B-CV, I-CV, B-AM
-16	등	O	O	O, B-CV, B-LC, B-TM, B-OG
-17	##을	O	O	O, B-CV, B-OG, B-LC, B-TM
-18	논의	O	O	O, B-CV, B-LC, B-OG, B-TM
-19	##하	O	O	O, B-LC, B-PS, B-CV, B-OG
-20	##자	O	O	O, B-CV, I-EV, B-PS, B-OG
-21	##는	O	O	O, B-OG, B-PS, I-OG, B-CV
-22	것	O	O	O, B-OG, B-CV, B-PS, B-LC
-23	.	O	O	O, I-OG, B-LC, I-EV, B-CV
-24	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	▷	O	O
+2	##지	B-DT	B-DT
+3	##난	I-DT	I-DT
+4	##해	I-DT	I-DT
+5	50	B-QT	B-QT
+6	##대	I-QT	I-QT
+7	##의	O	O
+8	포스	O	B-OG
+9	##텍	O	I-OG
+10	교수	B-CV	B-CV
+11	##가	O	O
+12	초등학생	B-CV	B-CV
+13	딸아이	O	B-CV
+14	##에	O	O
+15	##게	O	O
+16	욕설	O	O
+17	문자	O	O
+18	##를	O	O
+19	보낸	O	O
+20	남자	O	O
+21	아이	O	O
+22	##를	O	O
+23	학교	O	O
+24	##로	O	O
+25	찾아가	O	O
+26	무릎	B-AM	B-AM
+27	##을	O	O
+28	꿇	O	O
+29	##게	O	O
+30	하고	O	O
+31	폭행	O	O
+32	##한	O	O
+33	사건	O	O
+34	##이	O	O
+35	발생	O	O
+36	##했	O	O
+37	##다	O	O
+38	.	O	O
+39	[SEP]	O	O

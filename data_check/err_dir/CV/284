@@ -1,26 +1,40 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, B-CV, I-OG, I-AF
-1	그냥	O	O	O, B-CV, B-OG, B-LC, B-TM
-2	사실	O	O	O, B-CV, B-PS, B-LC, B-OG
-3	소환	B-CV	O	O, B-CV, B-TM, I-CV, B-LC
-4	##도	O	O	O, I-CV, B-PS, I-EV, I-OG
-5	안	O	O	O, B-CV, B-LC, B-PS, B-QT
-6	해고	O	O	O, B-CV, B-PS, B-LC, I-CV
-7	확인	O	O	O, B-CV, I-CV, B-LC, B-PS
-8	##만	O	O	O, B-PS, B-LC, I-CV, B-CV
-9	해서	O	O	O, B-LC, B-CV, B-PS, B-DT
-10	이	O	O	O, B-TI, B-DT, B-QT, B-LC
-11	시간	O	O	O, I-TI, B-TI, B-CV, I-DT
-12	보낸	O	O	O, I-TI, B-CV, I-DT, B-LC
-13	다음	O	O	O, B-CV, B-PS, B-LC, I-CV
-14	##에	O	O	O, B-CV, B-OG, B-PS, B-LC
-15	이제	O	O	O, B-CV, B-OG, B-TM, B-QT
-16	겨우	O	O	O, B-CV, B-QT, B-TM, B-LC
-17	불러	O	O	O, B-CV, B-LC, B-OG, B-TM
-18	##세	O	O	O, I-CV, B-CV, B-LC, B-PS
-19	##워서	O	O	O, B-CV, I-CV, B-LC, B-PS
-20	하	O	O	O, B-CV, B-OG, B-LC, B-TM
-21	##는	O	O	O, B-CV, B-OG, B-LC, I-CV
-22	거	O	O	O, B-CV, B-OG, B-LC, B-QT
-23	?	O	O	O, B-CV, B-OG, B-PS, B-LC
-24	[SEP]	O	O	O, B-CV, B-LC, B-PS, I-CV
+	text	label	preds
+0	[CLS]	O	O
+1	또	O	O
+2	지난해	B-DT	B-DT
+3	개통	O	O
+4	##한	O	O
+5	경	B-AF	B-AF
+6	##춘	I-AF	I-AF
+7	고속도로	I-AF	I-AF
+8	및	O	O
+9	경	B-AF	B-AF
+10	##춘	I-AF	I-AF
+11	##전	I-AF	I-TM
+12	##철	I-AF	I-TM
+13	복선	O	I-TM
+14	##화	O	I-TM
+15	사업	O	I-TM
+16	완공	O	O
+17	##을	O	O
+18	앞두	O	O
+19	##고	O	O
+20	대학생	B-CV	B-CV
+21	등	O	O
+22	젊은이	O	O
+23	##들	O	O
+24	##을	O	O
+25	겨냥	O	O
+26	##한	O	O
+27	수상	B-CV	O
+28	레포츠	I-CV	O
+29	천국	O	O
+30	##을	O	O
+31	만들	O	O
+32	##어	O	O
+33	가	O	O
+34	##고	O	O
+35	있	O	O
+36	##다	O	O
+37	.	O	O
+38	[SEP]	O	O

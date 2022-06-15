@@ -1,37 +1,27 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	정부	B-OG	B-OG	B-OG, B-AF, O, B-LC, B-PS
-2	##는	O	O	O, I-OG, I-EV, B-CV, I-AF
-3	이	O	O	O, B-OG, B-CV, B-LC, B-PS
-4	##에	O	O	O, B-CV, B-OG, I-OG, I-EV
-5	따라	O	O	O, B-LC, B-OG, B-CV, B-PS
-6	지난	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-7	17	I-DT	I-DT	I-DT, O, B-DT, I-PS, I-EV
-8	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
-9	①	B-QT	B-QT	B-QT, O, I-QT, I-DT, B-EV
-10	##적	O	O	O, B-OG, B-CV, B-EV, I-QT
-11	##대	O	O	O, I-OG, I-EV, I-CV, I-AF
-12	행위	O	O	O, I-EV, I-OG, I-CV, I-AF
-13	중단	O	O	O, I-EV, I-OG, I-CV, I-QT
-14	##을	O	O	O, I-EV, B-PS, B-CV, B-LC
-15	위한	O	O	O, B-EV, B-LC, B-CV, B-DT
-16	군사	O	B-EV	B-EV, O, B-CV, B-OG, I-EV
-17	##회	O	I-EV	I-EV, O, I-OG, B-EV, I-AF
-18	##담	O	I-EV	I-EV, O, I-OG, I-AF, B-EV
-19	##과	O	O	O, I-EV, I-OG, I-AF, B-OG
-20	②	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-EV
-21	##이	B-CV	B-CV	B-CV, O, I-QT, B-EV, B-QT
-22	##산	I-CV	I-CV	I-CV, I-QT, O, I-EV, I-DT
-23	##가족	I-CV	I-CV	I-CV, B-CV, O, I-QT, I-EV
-24	상봉	O	O	O, I-EV, I-CV, B-EV, I-QT
-25	##을	O	O	O, I-EV, I-CV, I-DT, B-PS
-26	위한	O	O	O, B-EV, I-EV, B-LC, B-DT
-27	적십자	B-EV	B-EV	B-EV, O, B-OG, I-EV, B-CV
-28	##회	I-EV	I-EV	I-EV, O, I-OG, I-AF, B-EV
-29	##담	I-EV	I-EV	I-EV, O, I-OG, I-AF, I-LC
-30	##을	O	O	O, I-EV, I-OG, I-AF, B-CV
-31	제안	O	O	O, B-CV, B-OG, B-LC, B-TM
-32	##했	O	O	O, B-CV, B-LC, B-OG, I-OG
-33	##다	O	O	O, B-CV, I-OG, B-LC, B-OG
-34	.	O	O	O, B-LC, B-OG, I-EV, B-CV
-35	[SEP]	O	O	O, I-EV, B-LC, B-CV, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	영화	O	O
+2	##계	O	O
+3	##의	O	O
+4	대표	O	O
+5	##적	O	O
+6	지원자	B-CV	B-CV
+7	##라	O	O
+8	할	O	O
+9	그	O	O
+10	##의	O	O
+11	손	B-AM	B-AM
+12	##을	O	O
+13	반갑	O	O
+14	##게	O	O
+15	맞잡	O	O
+16	##는	O	O
+17	영화	O	B-CV
+18	##인	O	I-CV
+19	##들	O	O
+20	##은	O	O
+21	드물	O	O
+22	##었	O	O
+23	##다	O	O
+24	.	O	O
+25	[SEP]	O	O

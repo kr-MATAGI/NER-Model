@@ -1,50 +1,95 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-EV, B-CV, I-OG, I-CV
-1	<	B-OG	B-OG	B-OG, O, B-AF, I-OG, B-LC
-2	에이	I-OG	I-OG	I-OG, B-OG, O, I-AF, I-EV
-3	##피	I-OG	I-OG	I-OG, O, I-AF, B-OG, I-EV
-4	>	I-OG	I-OG	I-OG, O, I-AF, I-EV, B-OG
-5	(	I-OG	I-OG	I-OG, O, B-OG, I-AF, I-EV
-6	AP	I-OG	I-OG	I-OG, O, B-OG, I-AF, I-EV
-7	)	I-OG	I-OG	I-OG, O, I-AF, I-EV, B-OG
-8	통신	I-OG	I-OG	I-OG, O, I-EV, I-AF, B-OG
-9	등	O	O	O, I-OG, I-AF, I-EV, I-QT
-10	외신	O	O	O, B-CV, B-OG, B-FD, B-AF
-11	##은	O	O	O, B-LC, I-OG, B-CV, B-PS
-12	25	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-LC
-13	##일	I-DT	I-DT	I-DT, O, B-DT, I-PS, I-QT
-14	(	O	O	O, I-DT, B-LC, B-CV, B-OG
-15	현지	O	O	O, B-LC, B-CV, B-OG, B-PS
-16	##시	O	O	O, B-LC, B-CV, B-OG, B-PS
-17	##각	O	O	O, B-LC, B-CV, B-OG, B-PS
-18	)	O	O	O, B-LC, B-OG, B-PS, B-CV
-19	피에르	B-PS	B-LC	B-LC, B-PS, O, B-OG, B-AF
-20	루이	I-PS	I-LC	I-LC, I-PS, B-LC, O, B-PS
-21	##지	I-PS	I-LC	I-LC, I-PS, O, B-LC, I-AF
-22	베르	I-PS	I-LC	I-LC, I-PS, B-LC, O, I-AF
-23	##사	I-PS	I-LC	I-LC, O, I-PS, B-LC, I-AF
-24	##니	I-PS	I-LC	I-LC, O, I-PS, B-LC, I-AF
-25	##의	O	O	O, I-LC, B-LC, I-PS, B-PS
-26	민주당	B-OG	B-OG	B-OG, O, B-LC, B-AF, I-OG
-27	##이	O	O	O, I-OG, I-AF, I-LC, I-EV
-28	전국	O	O	O, B-OG, B-CV, B-EV, B-LC
-29	##단	O	O	O, I-OG, I-LC, I-AF, I-CV
-30	##위	O	O	O, I-OG, I-LC, I-CV, I-TR
-31	비례대표제	B-CV	B-CV	B-CV, O, B-TR, I-CV, B-OG
-32	##가	O	O	O, I-CV, I-OG, I-AF, I-EV
-33	적용	O	O	O, B-CV, B-LC, B-OG, B-PS
-34	##되	O	O	O, B-LC, B-OG, B-PS, B-CV
-35	##는	O	O	O, B-LC, B-OG, B-PS, B-CV
-36	하원	B-OG	B-OG	B-OG, O, B-LC, B-AF, I-OG
-37	##에서	O	O	O, I-OG, I-EV, I-AF, B-CV
-38	1	B-QT	B-QT	B-QT, O, B-EV, I-QT, B-DT
-39	##위	I-QT	I-QT	I-QT, O, I-EV, B-QT, I-LC
-40	##를	O	O	O, I-QT, I-EV, I-OG, I-AF
-41	차지	O	O	O, B-CV, B-OG, B-LC, B-TM
-42	##했	O	O	O, B-CV, B-LC, B-OG, B-PS
-43	##다고	O	O	O, B-LC, B-CV, B-OG, B-QT
-44	보도	O	O	O, B-CV, B-OG, B-LC, B-TM
-45	##했	O	O	O, B-LC, B-OG, B-CV, I-OG
-46	##다	O	O	O, B-LC, B-CV, B-OG, I-OG
-47	.	O	O	O, B-LC, B-OG, B-CV, I-OG
-48	[SEP]	O	O	O, B-LC, B-OG, B-CV, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	이어	O	O
+2	“	O	O
+3	금	B-DT	B-DT
+4	##일	I-DT	I-DT
+5	부처	B-PS	B-PS
+6	##님	I-PS	O
+7	##오	O	O
+8	##심	O	O
+9	##을	O	O
+10	봉	O	O
+11	##축	O	O
+12	##함	O	O
+13	##과	O	O
+14	더불	O	O
+15	##어	O	O
+16	세월	B-EV	B-EV
+17	##호	I-EV	I-EV
+18	참사	I-EV	I-EV
+19	##에	O	O
+20	따른	O	O
+21	모든	O	O
+22	희생자	B-CV	B-CV
+23	##분	O	O
+24	##들이	O	O
+25	영원	O	O
+26	##한	O	O
+27	진리	O	O
+28	##의	O	O
+29	낙	O	O
+30	##을	O	O
+31	누리	O	O
+32	##시	O	O
+33	##기	O	O
+34	##를	O	O
+35	바라	O	O
+36	##는	O	O
+37	마음	O	O
+38	##으로	O	O
+39	산	O	B-CV
+40	##승	O	I-CV
+41	(	O	O
+42	山	O	O
+43	僧	O	O
+44	)	O	O
+45	도	O	O
+46	진리	O	O
+47	##의	O	O
+48	등불	O	O
+49	##을	O	O
+50	하나	B-QT	B-QT
+51	##씩	I-QT	I-QT
+52	선사	O	O
+53	##하	O	O
+54	##고	O	O
+55	##자	O	O
+56	하오	O	O
+57	##니	O	O
+58	,	O	O
+59	모든	O	O
+60	영혼	O	O
+61	##들	O	O
+62	##께	O	O
+63	##서는	O	O
+64	이	O	O
+65	등불	O	O
+66	##을	O	O
+67	가지	O	O
+68	##고	O	O
+69	극락	O	O
+70	##세	O	O
+71	##계	O	O
+72	##에	O	O
+73	왕	O	O
+74	##생	O	O
+75	##하시	O	O
+76	##어	O	O
+77	영원	O	O
+78	##한	O	O
+79	행복	O	O
+80	##을	O	O
+81	누리	O	O
+82	##시	O	O
+83	##기	O	O
+84	##를	O	O
+85	기원	O	O
+86	##드	O	O
+87	##린다	O	O
+88	”	O	O
+89	고	O	O
+90	했	O	O
+91	##다	O	O
+92	.	O	O
+93	[SEP]	O	O

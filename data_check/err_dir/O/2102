@@ -1,74 +1,64 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	권영	B-PS	B-PS	B-PS, B-OG, O, B-LC, I-PS
-2	##길	I-PS	I-PS	I-PS, I-OG, O, I-LC, I-DT
-3	민주	B-OG	B-OG	B-OG, O, I-OG, B-LC, I-PS
-4	##노동	I-OG	I-OG	I-OG, O, I-LC, I-PS, B-OG
-5	##당	I-OG	I-OG	I-OG, O, I-LC, I-PS, I-AF
-6	의원	B-CV	B-CV	B-CV, O, I-OG, I-CV, B-AF
-7	##이	O	O	O, I-CV, B-PS, I-EV, B-CV
-8	25	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-LC
-9	##일	I-DT	I-DT	I-DT, O, B-DT, I-EV, I-PS
-10	진보신	B-OG	B-OG	B-OG, O, B-LC, I-OG, B-PS
-11	##당	I-OG	I-OG	I-OG, O, I-EV, I-LC, I-PS
-12	주최	O	O	O, I-OG, I-EV, B-CV, I-AF
-13	##로	O	O	O, B-LC, B-PS, B-OG, B-CV
-14	열린	O	O	O, B-LC, B-CV, B-OG, B-EV
-15	‘	O	O	O, B-LC, B-CV, B-OG, B-EV
-16	교육	O	B-EV	B-EV, O, B-OG, B-AF, B-LC
-17	##혁명	O	I-EV	I-EV, O, I-OG, I-AF, I-LC
-18	##을	O	I-EV	I-EV, O, I-OG, I-AF, I-LC
-19	위한	O	I-EV	I-EV, O, I-OG, I-AF, I-LC
-20	토론회	O	I-EV	I-EV, O, I-AF, I-OG, I-LC
-21	’	O	O	O, I-EV, I-OG, I-AF, I-DT
-22	에서	O	O	O, B-CV, B-LC, B-OG, B-PS
-23	공개	O	O	O, B-CV, B-LC, B-TM, B-OG
-24	##한	O	O	O, B-PS, B-LC, B-OG, B-CV
-25	자료	O	O	O, B-LC, B-CV, B-TM, B-OG
-26	##를	O	O	O, B-CV, B-LC, B-OG, I-AF
-27	보	O	O	O, B-OG, B-LC, B-CV, B-TM
-28	##면	O	O	O, B-LC, B-OG, I-OG, B-PS
-29	,	O	O	O, B-LC, B-CV, B-OG, B-PS
-30	올해	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-QT
-31	전국	O	O	O, B-LC, I-DT, I-LC, B-OG
-32	30	B-QT	B-QT	B-QT, I-QT, O, B-LC, B-DT
-33	##개	I-QT	I-QT	I-QT, O, I-LC, I-EV, I-DT
-34	외고	O	O	O, I-QT, B-CV, B-OG, B-FD
-35	졸업	O	B-CV	B-CV, O, I-CV, B-TM, B-QT
-36	##생	O	I-CV	I-CV, O, B-CV, I-QT, I-OG
-37	81	B-QT	B-QT	B-QT, I-QT, O, I-CV, B-DT
-38	##62	I-QT	I-QT	I-QT, O, I-LC, I-PS, I-CV
-39	##명	I-QT	I-QT	I-QT, O, I-LC, I-PS, I-EV
-40	가운데	O	O	O, B-TM, B-LC, B-OG, I-QT
-41	대학	O	O	O, B-LC, I-QT, B-FD, B-OG
-42	##에	O	O	O, B-CV, B-PS, B-OG, B-LC
-43	진학	O	O	O, B-CV, B-QT, B-TM, B-LC
-44	##한	O	O	O, B-LC, B-PS, B-QT, B-OG
-45	67	B-QT	B-QT	B-QT, O, I-QT, B-PS, B-DT
-46	##66	I-QT	I-QT	I-QT, O, I-LC, I-PS, I-EV
-47	##명	I-QT	I-QT	I-QT, O, I-LC, I-PS, I-EV
-48	##의	O	O	O, I-QT, B-OG, B-LC, B-CV
-49	25	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-LC
-50	%	I-QT	I-QT	I-QT, O, I-LC, I-OG, I-EV
-51	인	O	O	O, I-QT, B-CV, B-LC, B-PS
-52	168	B-QT	B-QT	B-QT, I-QT, O, B-DT, B-PS
-53	##9	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-54	##명	I-QT	I-QT	I-QT, O, I-LC, I-PS, I-OG
-55	##만	I-QT	I-QT	I-QT, O, I-LC, I-PS, I-DT
-56	##이	O	O	O, I-QT, B-PS, B-LC, B-OG
-57	‘	O	O	O, B-LC, B-OG, B-QT, B-CV
-58	동일	O	O	O, B-LC, B-FD, B-CV, B-TM
-59	##계	O	O	O, B-FD, I-FD, I-LC, B-LC
-60	##열	O	O	O, B-FD, I-FD, I-LC, I-OG
-61	’	O	O	O, B-CV, B-PS, B-LC, B-OG
-62	인	O	O	O, B-LC, B-CV, B-PS, B-OG
-63	어	O	O	O, B-FD, B-LC, B-CV, B-AF
-64	##문	O	O	O, I-FD, I-LC, B-FD, I-OG
-65	##계	O	O	O, I-FD, I-LC, I-OG, B-FD
-66	##열	O	O	O, I-FD, I-LC, I-OG, B-FD
-67	##에	O	O	O, B-CV, I-OG, I-AF, B-PS
-68	진학	O	O	O, B-CV, B-LC, B-TM, B-OG
-69	##했	O	O	O, B-CV, B-PS, B-LC, B-OG
-70	##다	O	O	O, B-CV, B-LC, B-OG, B-TM
-71	.	O	O	O, B-LC, B-OG, B-CV, B-PS
-72	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	이에	O	O
+2	따라	O	O
+3	북한	B-OG	B-LC
+4	##의	O	O
+5	핵과	O	O
+6	미사일	B-AF	B-AF
+7	##을	O	O
+8	최대한	O	O
+9	차단	O	O
+10	·	O	O
+11	억제	O	O
+12	##한다	O	O
+13	##는	O	O
+14	계획	O	O
+15	##에	O	O
+16	따라	O	O
+17	고고	O	O
+18	##도	O	O
+19	무인	B-AF	B-AF
+20	##정	I-AF	I-AF
+21	##찰	I-AF	I-AF
+22	##기	I-AF	I-AF
+23	,	O	O
+24	탄도	O	B-AF
+25	##탄	O	I-AF
+26	조기	O	O
+27	##경	O	O
+28	##보	O	O
+29	레이더	B-AF	B-AF
+30	,	O	O
+31	해상	O	B-AF
+32	##요	O	I-AF
+33	##격	O	I-AF
+34	유도	B-AF	I-AF
+35	##탄	I-AF	I-AF
+36	,	O	O
+37	핵	O	B-AF
+38	##폭	O	O
+39	##발	O	O
+40	때	O	O
+41	발생	O	O
+42	##하	O	O
+43	##는	O	O
+44	전자기	O	B-TM
+45	##펄	O	I-TM
+46	##스	O	I-TM
+47	(	O	I-TM
+48	EM	O	I-TM
+49	##P	O	I-TM
+50	)	O	I-TM
+51	방호	O	I-TM
+52	시스템	O	I-TM
+53	등	O	O
+54	##을	O	O
+55	도입	O	O
+56	##하	O	O
+57	##기	O	O
+58	##로	O	O
+59	했	O	O
+60	##다	O	O
+61	.	O	O
+62	[SEP]	O	O

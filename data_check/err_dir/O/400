@@ -1,59 +1,24 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	주식	O	O	O, B-CV, I-CV, B-AF, B-MT
-2	##이나	O	O	O, I-CV, I-AF, B-PS, B-CV
-3	주가	B-AF	B-AF	B-AF, B-OG, O, B-TM, B-CV
-4	##연	I-AF	I-AF	I-AF, O, I-OG, I-TM, I-CV
-5	##계	I-AF	I-AF	I-AF, O, I-OG, I-TM, I-CV
-6	##증권	I-AF	I-AF	I-AF, O, I-OG, I-TM, I-CV
-7	(	O	O	O, I-AF, I-OG, I-CV, I-TM
-8	ELS	B-AF	B-AF	B-AF, O, B-OG, B-TM, B-CV
-9	)	O	O	O, I-AF, I-OG, I-CV, I-TM
-10	등	O	O	O, B-CV, B-LC, B-PS, B-AF
-11	유가증권	O	O	O, B-CV, B-AF, I-CV, B-TM
-12	##을	O	O	O, I-CV, B-CV, I-AF, B-PS
-13	담보	O	O	O, B-CV, I-CV, B-TM, B-AF
-14	##로	O	O	O, I-CV, B-CV, B-PS, I-AF
-15	한	O	O	O, B-CV, B-PS, B-TM, B-LC
-16	대출	O	O	O, B-CV, I-CV, B-TM, I-TM
-17	서비스	O	O	O, I-CV, I-TM, B-CV, I-AF
-18	##는	O	O	O, I-CV, B-CV, B-LC, B-PS
-19	대부분	O	O	O, B-LC, B-QT, B-TM, B-OG
-20	##의	O	O	O, B-LC, B-OG, B-AF, B-PS
-21	시	O	B-AF	B-AF, B-OG, O, B-LC, B-TM
-22	##엠	O	I-AF	I-AF, O, I-OG, I-LC, I-TM
-23	##에이	O	I-AF	I-AF, O, I-OG, I-LC, I-TM
-24	##에서	O	O	O, I-AF, I-OG, I-TM, I-LC
-25	제공	O	O	O, B-CV, B-TM, B-LC, I-AF
-26	##되	O	O	O, B-PS, B-CV, B-LC, I-AF
-27	##지만	O	O	O, B-QT, B-LC, B-CV, B-TM
-28	,	O	O	O, B-CV, B-LC, B-TM, B-AF
-29	신용	O	O	O, B-CV, B-TM, B-FD, B-AF
-30	##대	O	O	O, I-CV, I-TM, I-AF, B-CV
-31	##출	O	O	O, I-CV, I-TM, I-AF, I-TR
-32	서비스	O	O	O, I-CV, I-TM, B-CV, I-AF
-33	##는	O	O	O, I-CV, B-LC, B-PS, B-CV
-34	현대증권	B-OG	B-OG	B-OG, B-AF, O, B-PS, B-LC
-35	##의	O	O	O, I-OG, I-AF, B-OG, I-PS
-36	‘	O	O	O, B-LC, B-CV, B-AF, B-OG
-37	시	B-AF	B-AF	B-AF, B-OG, O, B-TM, B-LC
-38	##엠	I-AF	I-AF	I-AF, I-OG, B-AF, O, I-TM
-39	##에이	I-AF	I-AF	I-AF, I-OG, O, I-TM, B-AF
-40	-	I-AF	I-AF	I-AF, O, I-OG, I-TM, B-AF
-41	프로	I-AF	I-AF	I-AF, O, I-TM, I-OG, B-AF
-42	’	O	O	O, I-AF, I-OG, I-CV, I-TM
-43	가	O	O	O, B-PS, B-LC, B-OG, I-AF
-44	처음	O	O	O, B-QT, B-CV, B-LC, B-TM
-45	##으로	O	O	O, B-PS, I-QT, B-QT, B-LC
-46	,	O	O	O, B-LC, B-CV, B-OG, B-PS
-47	지난해	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-OG
-48	1	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-49	##월	I-DT	I-DT	I-DT, O, B-DT, I-OG, I-QT
-50	##부터	I-DT	I-DT	I-DT, O, B-DT, I-OG, I-QT
-51	제공	O	O	O, I-DT, B-CV, B-TM, B-LC
-52	##되	O	O	O, B-LC, B-CV, B-PS, I-AF
-53	##고	O	O	O, B-CV, B-PS, B-LC, B-QT
-54	있	O	O	O, B-CV, B-PS, B-QT, B-LC
-55	##다	O	O	O, B-CV, B-TM, B-LC, B-OG
-56	.	O	O	O, B-LC, B-AF, B-CV, B-PS
-57	[SEP]	O	O	O, B-LC, B-CV, B-AF, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	외국	O	O
+2	자본	O	O
+3	##이	O	O
+4	멕시코	O	B-CV
+5	##인	O	I-CV
+6	##들의	O	O
+7	알몸	O	B-AM
+8	##만	O	O
+9	남긴	O	O
+10	채	O	O
+11	모든	O	O
+12	것	O	O
+13	##을	O	O
+14	벗겨	O	O
+15	##간다	O	O
+16	##는	O	O
+17	의미	O	O
+18	##에	O	O
+19	##서	O	O
+20	##다	O	O
+21	.	O	O
+22	[SEP]	O	O

@@ -1,18 +1,18 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-AF
-1	얼굴	B-AM	B-AM	B-AM, O, B-TM, B-TR, B-PS
-2	##이	O	O	O, B-PS, I-AF, I-PS, I-CV
-3	없	O	O	O, B-CV, B-PS, B-TM, I-AF
-4	##는	O	O	O, B-PS, I-AF, B-TM, B-LC
-5	몸	B-AM	B-AM	B-AM, O, I-AM, B-TM, B-PS
-6	##과	O	O	O, I-AF, B-PS, I-AM, I-PS
-7	나무	B-PT	O	O, B-PT, B-AM, I-PT, B-CV
-8	##는	O	O	O, B-PS, I-AF, I-OG, I-PS
-9	세상	O	O	O, B-PS, B-TM, B-LC, B-CV
-10	##으로	O	O	O, B-PS, B-LC, I-AF, B-OG
-11	##부터	O	O	O, B-PS, B-LC, B-OG, B-CV
-12	자유	O	O	O, B-CV, B-PS, B-AF, B-LC
-13	##롭	O	O	O, I-CV, I-PS, I-AF, B-PS
-14	##다	O	O	O, I-AF, I-OG, B-PS, B-CV
-15	.	O	O	O, B-PS, B-LC, I-AF, B-CV
-16	[SEP]	O	O	O, B-PS, B-CV, I-AF, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	얼굴	B-AM	B-AM
+2	##이	O	O
+3	없	O	O
+4	##는	O	O
+5	몸	B-AM	B-AM
+6	##과	O	O
+7	나무	B-PT	O
+8	##는	O	O
+9	세상	O	O
+10	##으로	O	O
+11	##부터	O	O
+12	자유	O	O
+13	##롭	O	O
+14	##다	O	O
+15	.	O	O
+16	[SEP]	O	O

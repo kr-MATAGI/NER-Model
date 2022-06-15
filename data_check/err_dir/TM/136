@@ -1,19 +1,37 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	저	O	O	O, B-CV, B-OG, B-PS, B-QT
-2	##는	O	O	O, B-CV, B-PS, B-OG, I-OG
-3	바깥	B-TM	O	O, B-TM, B-LC, B-CV, B-QT
-4	##에	O	O	O, I-TM, I-QT, B-CV, I-AF
-5	있	O	O	O, B-CV, B-PS, B-QT, I-AF
-6	##을	O	O	O, B-CV, B-PS, B-OG, I-AF
-7	가능	O	O	O, B-CV, B-PS, B-QT, B-TM
-8	##성이	O	O	O, B-PS, B-CV, B-QT, I-AF
-9	더	O	O	O, B-PS, B-CV, B-QT, B-OG
-10	많	O	O	O, B-CV, B-PS, B-QT, B-OG
-11	##았	O	O	O, B-CV, B-PS, B-OG, I-QT
-12	##다고	O	O	O, B-CV, B-PS, I-OG, I-AF
-13	생각	O	O	O, B-CV, B-PS, B-TM, B-OG
-14	##해	O	O	O, B-CV, B-PS, I-CV, I-OG
-15	##요	O	O	O, B-CV, I-OG, B-PS, I-CV
-16	.	O	O	O, B-CV, B-PS, B-LC, B-OG
-17	[SEP]	O	O	O, B-CV, B-PS, I-AF, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	김	B-PS	B-PS
+2	감독	B-CV	B-CV
+3	##은	O	O
+4	“	O	O
+5	0	B-TI	B-TI
+6	.	I-TI	I-TI
+7	01	I-TI	I-TI
+8	##초	I-TI	I-TI
+9	차로	O	O
+10	승부	O	O
+11	##가	O	O
+12	갈리	O	O
+13	##기	O	O
+14	때문	O	O
+15	##에	O	O
+16	컨디션	O	O
+17	조절	O	O
+18	##의	O	O
+19	핵심	O	O
+20	##은	O	O
+21	음식	O	O
+22	”	O	O
+23	이라	O	O
+24	##고	O	O
+25	할	O	O
+26	만큼	O	O
+27	식이	B-TM	O
+28	##요	I-TM	O
+29	##법	I-TM	O
+30	##을	O	O
+31	중요	O	O
+32	##시	O	O
+33	여긴다	O	O
+34	.	O	O
+35	[SEP]	O	O

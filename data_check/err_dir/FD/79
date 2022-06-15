@@ -1,16 +1,21 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-QT
-1	한국사	B-FD	O	O, B-FD, B-LC, B-OG, B-QT
-2	##회	O	O	O, I-FD, I-OG, I-LC, I-AF
-3	##와	O	O	O, B-CV, B-LC, B-PS, B-TM
-4	한국인	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-OG
-5	##에	O	O	O, I-CV, B-CV, I-QT, I-OG
-6	대한	O	O	O, B-LC, B-CV, B-TM, B-OG
-7	조언	O	O	O, B-CV, B-LC, B-TM, B-OG
-8	##을	O	O	O, B-CV, B-PS, B-LC, B-OG
-9	함께	O	O	O, B-CV, B-TM, B-OG, B-QT
-10	담	O	O	O, B-CV, B-LC, B-OG, B-PS
-11	##았	O	O	O, B-CV, B-OG, B-LC, I-OG
-12	##다	O	O	O, B-CV, B-OG, I-OG, B-LC
-13	.	O	O	O, B-CV, B-LC, B-OG, B-PS
-14	[SEP]	O	O	O, B-CV, B-LC, B-FD, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	요즘	O	O
+2	미술	B-FD	O
+3	##계	O	O
+4	##는	O	O
+5	이우	B-PS	B-PS
+6	##환	I-PS	I-PS
+7	화백	B-CV	B-CV
+8	이야기	O	O
+9	##만	O	O
+10	나오	O	O
+11	##면	O	O
+12	자조	O	O
+13	##와	O	O
+14	탄식	O	O
+15	##이	O	O
+16	대세	O	O
+17	##다	O	O
+18	.	O	O
+19	[SEP]	O	O

@@ -1,64 +1,14 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	최재	B-PS	B-PS	B-PS, B-OG, O, B-LC, I-PS
-2	##식	I-PS	I-PS	I-PS, I-OG, O, I-LC, I-DT
-3	울산	B-OG	B-OG	B-OG, B-LC, I-OG, O, I-PS
-4	##과학	I-OG	I-OG	I-OG, I-LC, O, B-OG, I-PS
-5	##기술	I-OG	I-OG	I-OG, I-LC, O, B-OG, I-PS
-6	##원	I-OG	I-OG	I-OG, I-LC, O, I-AF, I-PS
-7	(	O	O	O, I-OG, I-LC, B-CV, I-CV
-8	UN	B-OG	B-OG	B-OG, O, B-LC, I-OG, B-AF
-9	##IST	I-OG	I-OG	I-OG, O, I-LC, B-OG, I-EV
-10	)	O	O	O, I-OG, B-CV, I-CV, I-EV
-11	교수	B-CV	B-CV	B-CV, O, B-OG, I-CV, B-TM
-12	##팀	O	O	O, I-CV, I-OG, I-PS, I-EV
-13	##은	O	O	O, I-OG, I-CV, B-LC, B-PS
-14	주가	O	O	O, B-CV, B-AF, B-LC, B-FD
-15	,	O	O	O, B-LC, B-CV, B-PS, I-AF
-16	환율	O	O	O, B-CV, B-TM, B-FD, B-AF
-17	등	O	O	O, B-LC, B-PS, B-TM, B-CV
-18	시간	O	O	O, B-LC, B-CV, B-TM, B-AF
-19	##에	O	O	O, B-PS, B-LC, B-CV, B-TM
-20	따라	O	O	O, B-LC, B-TM, B-PS, B-OG
-21	변화	O	O	O, B-TM, B-LC, B-CV, B-AF
-22	##하	O	O	O, B-LC, B-PS, B-TM, B-AF
-23	##는	O	O	O, B-TM, B-LC, B-PS, B-AF
-24	다중	O	O	O, B-TM, B-LC, B-QT, B-AF
-25	시계	O	O	O, B-TM, B-LC, B-CV, B-FD
-26	##열	O	O	O, I-TM, I-LC, B-LC, I-AF
-27	데이터	O	O	O, B-LC, B-TM, B-CV, B-PS
-28	##를	O	O	O, B-TM, B-LC, B-CV, B-PS
-29	자동	O	O	O, B-TM, B-CV, B-LC, B-AF
-30	##으로	O	O	O, B-PS, B-TM, I-TM, B-LC
-31	분석	O	O	O, B-TM, B-CV, B-LC, B-PS
-32	##해	O	O	O, B-TM, B-PS, B-LC, B-CV
-33	보고서	O	O	O, B-CV, B-TM, B-AF, B-FD
-34	##를	O	O	O, B-CV, B-TM, I-AF, B-LC
-35	작성	O	O	O, B-TM, B-CV, B-LC, B-AF
-36	##해	O	O	O, B-TM, B-PS, B-LC, B-CV
-37	주	O	O	O, B-TM, B-CV, B-PS, B-AF
-38	##는	O	O	O, B-TM, B-CV, I-TM, B-PS
-39	인공지능	B-FD	B-FD	B-FD, B-TM, B-TR, O, B-CV
-40	(	O	O	O, I-TM, B-TM, I-CV, B-CV
-41	AI	B-FD	B-TM	B-TM, B-FD, B-TR, I-TM, O
-42	)	O	O	O, I-TM, B-TM, I-TR, I-CV
-43	시스템	O	O	O, B-TM, I-TM, B-CV, B-AF
-44	##인	O	O	O, I-TM, B-TM, B-CV, I-CV
-45	‘	O	O	O, B-TM, B-LC, B-CV, B-AF
-46	관계	B-TM	B-TM	B-TM, O, I-TM, B-AF, B-CV
-47	##형	I-TM	I-TM	I-TM, O, I-AF, B-TM, I-TR
-48	자동	I-TM	I-TM	I-TM, O, I-AF, B-TM, I-TR
-49	통계학	I-TM	I-TM	I-TM, B-CV, I-AF, I-CV, I-TR
-50	##자	I-TM	I-TM	I-TM, I-CV, I-AF, O, I-TR
-51	시스템	I-TM	I-TM	I-TM, O, I-AF, I-CV, B-TM
-52	’	O	O	O, I-TM, I-CV, I-AF, B-TM
-53	을	O	O	O, B-CV, B-TM, B-LC, B-AF
-54	개발	O	O	O, B-CV, B-TM, B-LC, B-AF
-55	##했	O	O	O, B-LC, B-PS, B-CV, B-OG
-56	##다고	O	O	O, B-LC, B-OG, B-PS, B-TM
-57	27	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-58	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-59	밝혔	O	O	O, I-DT, B-CV, B-OG, B-TM
-60	##다	O	O	O, B-CV, B-TM, B-LC, B-OG
-61	.	O	O	O, B-TM, B-LC, B-CV, B-AF
-62	[SEP]	O	O	O, B-TM, B-LC, B-CV, B-AF
+	text	label	preds
+0	[CLS]	O	O
+1	왜	O	O
+2	그	O	O
+3	서양	B-LC	B-LC
+4	##에	O	O
+5	##서는	O	O
+6	왜	O	O
+7	그리스	B-DT	B-FD
+8	로마	B-DT	B-FD
+9	신화	B-FD	I-FD
+10	##에	O	O
+11	##서	O	O
+12	[SEP]	O	O

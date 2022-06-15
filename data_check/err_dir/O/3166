@@ -1,31 +1,24 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, I-OG, B-CV, I-AF
-1	그	O	O	O, B-CV, B-LC, B-OG, B-DT
-2	때	O	O	O, B-CV, B-PS, B-FD, I-CV
-3	##는	O	O	O, B-CV, B-PS, B-LC, B-OG
-4	문학	O	B-FD	B-FD, O, I-FD, B-CV, B-AF
-5	##잡	O	O	O, I-FD, I-CV, I-AF, B-FD
-6	##지	O	O	O, I-CV, I-FD, I-AF, I-OG
-7	##두	O	O	O, B-CV, I-AF, B-PS, B-AF
-8	현대	B-FD	B-FD	B-FD, B-AF, O, B-LC, B-OG
-9	##문학	I-FD	I-FD	I-FD, I-AF, O, B-FD, I-OG
-10	##이	O	O	O, I-AF, I-FD, I-OG, I-QT
-11	##래	O	O	O, I-AF, I-OG, B-PS, B-CV
-12	##는	O	O	O, B-CV, B-LC, I-AF, B-PS
-13	##게	O	O	O, B-CV, B-PS, B-LC, B-OG
-14	있	O	O	O, B-CV, B-OG, B-AF, B-PS
-15	##었	O	O	O, B-CV, I-CV, I-AF, B-PS
-16	##고	O	O	O, B-CV, B-LC, B-PS, I-AF
-17	내	O	O	O, B-CV, B-LC, B-PS, I-CV
-18	또	O	O	O, B-CV, B-LC, B-PS, B-OG
-19	저	O	O	O, B-CV, B-PS, B-LC, B-DT
-20	~	O	O	O, I-CV, B-PS, I-DT, B-LC
-21	대학	O	O	O, B-CV, B-FD, B-DT, B-LC
-22	##시	O	O	O, I-DT, B-CV, I-CV, B-DT
-23	##절	O	O	O, I-DT, I-CV, I-OG, I-PS
-24	##까	O	O	O, I-DT, I-CV, I-PS, B-DT
-25	##지	O	O	O, I-DT, I-CV, I-PS, B-DT
-26	보	O	O	O, B-CV, B-PS, B-LC, B-OG
-27	##므	O	O	O, B-PS, B-LC, I-LC, I-CV
-28	##는	O	O	O, I-AF, I-OG, I-CV, I-QT
-29	[SEP]	O	O	O, B-CV, B-LC, I-AF, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	이달	B-DT	B-DT
+2	말	I-DT	I-DT
+3	##쯤	I-DT	I-DT
+4	##엔	O	O
+5	그런	O	O
+6	그	O	O
+7	##의	O	O
+8	노래	O	O
+9	##가	O	O
+10	한	O	O
+11	장의	O	O
+12	CD	O	B-TM
+13	##에	O	O
+14	집약	O	O
+15	##된	O	O
+16	앨범	O	O
+17	##도	O	O
+18	발표	O	O
+19	##된	O	O
+20	##다	O	O
+21	.	O	O
+22	[SEP]	O	O

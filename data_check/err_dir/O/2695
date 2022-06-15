@@ -1,17 +1,88 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	상당히	O	O	O, B-CV, B-LC, B-TM, B-OG
-2	생명력	O	O	O, B-TM, B-LC, B-AF, B-CV
-3	##을	O	O	O, I-AF, B-CV, I-OG, B-PS
-4	갖	O	O	O, B-CV, B-OG, B-LC, B-TM
-5	##고	O	O	O, B-LC, B-PS, B-CV, B-OG
-6	오래	O	O	O, B-CV, B-LC, B-PS, B-TM
-7	살아	O	O	O, B-CV, B-QT, B-TM, B-LC
-8	남	O	O	O, B-CV, B-PS, B-LC, I-CV
-9	##은	O	O	O, B-CV, B-PS, B-LC, B-OG
-10	비	O	B-CV	B-CV, O, B-TM, B-AM, B-AF
-11	##속	O	O	O, I-CV, I-AM, I-TM, B-CV
-12	##어	O	O	O, I-CV, I-AM, I-TM, B-CV
-13	##죠	O	O	O, I-CV, I-TM, I-AF, I-QT
-14	.	O	O	O, B-CV, B-LC, I-CV, B-PS
-15	[SEP]	O	O	O, B-CV, B-LC, I-CV, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	김성	B-PS	B-PS
+2	##칠	I-PS	I-PS
+3	서울대	B-OG	B-OG
+4	사학	O	O
+5	##과	O	O
+6	교수	B-CV	B-CV
+7	##는	O	O
+8	회고록	O	O
+9	##에	O	O
+10	##서	O	O
+11	“	O	O
+12	용산	B-LC	B-LC
+13	##과	O	O
+14	살	B-AM	B-AM
+15	##을	O	O
+16	맞대	O	O
+17	##고	O	O
+18	있	O	O
+19	##는	O	O
+20	해방	B-LC	B-LC
+21	##촌	I-LC	I-LC
+22	사람	O	O
+23	##들	O	O
+24	수천	O	O
+25	##명	O	O
+26	##이	O	O
+27	맹	O	O
+28	##폭	O	O
+29	##을	O	O
+30	입	O	O
+31	##고	O	O
+32	무고	O	O
+33	##하	O	O
+34	##게	O	O
+35	죽	O	O
+36	##었	O	O
+37	##다	O	O
+38	”	O	O
+39	고	O	O
+40	적	O	O
+41	##었	O	O
+42	##고	O	O
+43	,	O	O
+44	소설가	B-CV	B-CV
+45	이범	B-PS	B-PS
+46	##선	I-PS	I-PS
+47	##은	O	O
+48	작품	O	O
+49	<	O	O
+50	오	B-AF	B-AF
+51	##발	I-AF	I-AF
+52	##탄	I-AF	I-AF
+53	>	O	O
+54	(	O	O
+55	1959	B-DT	B-DT
+56	##년	I-DT	I-DT
+57	)	O	O
+58	을	O	O
+59	통해	O	O
+60	용산	B-LC	B-EV
+61	폭격	O	I-EV
+62	##의	O	O
+63	충격	O	O
+64	##을	O	O
+65	이기	O	O
+66	##지	O	O
+67	못하	O	O
+68	##고	O	O
+69	정신	O	B-CV
+70	##이상	O	I-CV
+71	##자	O	I-CV
+72	##가	O	O
+73	된	O	O
+74	주인공	B-CV	B-CV
+75	송	B-PS	B-PS
+76	##철	I-PS	I-PS
+77	##호	I-PS	I-PS
+78	어머니	B-CV	B-CV
+79	##의	O	O
+80	비극	O	O
+81	##을	O	O
+82	고발	O	O
+83	##했	O	O
+84	##다	O	O
+85	.	O	O
+86	[SEP]	O	O

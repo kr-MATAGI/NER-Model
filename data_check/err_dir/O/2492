@@ -1,33 +1,27 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	국군	O	B-OG	B-OG, O, B-CV, B-LC, I-OG
-2	영	O	B-CV	B-CV, O, I-CV, I-OG, B-QT
-3	##관	O	I-CV	I-CV, O, I-OG, I-QT, B-CV
-4	##급	O	O	O, I-CV, I-OG, I-QT, I-TM
-5	장교	B-CV	B-CV	B-CV, I-CV, O, B-QT, I-QT
-6	4	B-QT	B-QT	B-QT, I-QT, O, I-CV, B-DT
-7	##명	I-QT	I-QT	I-QT, O, I-EV, I-CV, I-DT
-8	##이	O	O	O, I-QT, I-EV, B-PS, I-AF
-9	1	B-QT	B-QT	B-QT, B-EV, O, I-QT, B-DT
-10	##차	I-QT	I-QT	I-QT, I-EV, O, I-DT, I-TM
-11	연평	B-EV	B-EV	B-EV, B-LC, I-EV, B-OG, O
-12	##해	I-EV	I-EV	I-EV, O, I-LC, I-QT, B-EV
-13	##전	I-EV	I-EV	I-EV, O, I-LC, I-QT, I-AF
-14	##이	O	O	O, I-EV, B-PS, I-AF, B-CV
-15	있	O	O	O, B-CV, B-OG, I-EV, B-DT
-16	##었	O	O	O, I-EV, B-CV, B-PS, I-DT
-17	##던	O	O	O, B-DT, B-LC, B-CV, B-PS
-18	1999	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-19	##년	I-DT	I-DT	I-DT, O, I-QT, B-DT, I-PS
-20	북한	B-LC	B-LC	B-LC, B-OG, O, B-AF, I-DT
-21	##에	O	O	O, I-LC, I-OG, I-AF, B-CV
-22	납치	O	O	O, B-CV, B-LC, B-TM, I-CV
-23	##됐	O	O	O, I-CV, B-CV, I-AF, B-PS
-24	##다는	O	O	O, B-LC, B-PS, B-CV, B-QT
-25	법정	O	O	O, B-CV, B-OG, B-FD, B-TM
-26	증언	O	O	O, I-CV, B-CV, I-OG, I-AF
-27	##이	O	O	O, B-PS, B-CV, B-OG, B-LC
-28	나왔	O	O	O, B-CV, B-OG, B-LC, B-TM
-29	##다	O	O	O, B-CV, B-LC, I-OG, B-TM
-30	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-31	[SEP]	O	O	O, B-CV, B-LC, B-PS, I-EV
+	text	label	preds
+0	[CLS]	O	O
+1	네	O	O
+2	네	O	O
+3	.	O	O
+4	저희	O	O
+5	##들이	O	O
+6	쭉	O	O
+7	한	O	B-QT
+8	##번	O	I-QT
+9	분석	O	O
+10	한	O	O
+11	##거	O	O
+12	##를	O	O
+13	보	O	O
+14	##면은	O	O
+15	예	O	O
+16	##를	O	O
+17	들어	O	O
+18	그	O	O
+19	사유	O	O
+20	##들이	O	O
+21	이렇	O	O
+22	##습	O	O
+23	##니다	O	O
+24	.	O	O
+25	[SEP]	O	O

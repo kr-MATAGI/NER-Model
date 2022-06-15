@@ -1,61 +1,14 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-QT
-1	‘	O	O	O, B-OG, B-CV, B-LC, B-AF
-2	화가	B-CV	B-CV	B-CV, O, B-AF, B-PS, B-FD
-3	##의	O	O	O, I-AF, I-OG, I-CV, I-PS
-4	빛	O	O	O, I-AF, I-OG, I-PS, B-AF
-5	##이	O	O	O, I-AF, I-OG, I-PS, B-AF
-6	된	O	O	O, I-AF, I-OG, I-PS, B-AF
-7	아내	B-CV	I-AF	I-AF, B-CV, O, B-AF, I-CV
-8	’	O	O	O, I-AF, I-CV, B-CV, I-OG
-9	는	O	O	O, B-CV, B-OG, B-LC, B-PS
-10	함께	O	O	O, B-CV, B-TM, B-LC, B-PS
-11	작품	O	O	O, B-CV, B-FD, B-LC, B-TM
-12	활동	O	O	O, I-CV, B-CV, I-OG, I-EV
-13	##을	O	O	O, B-CV, B-PS, B-OG, B-LC
-14	했	O	O	O, B-CV, B-PS, B-OG, B-TM
-15	##던	O	O	O, B-CV, B-PS, B-LC, B-TM
-16	김기	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-17	##창	I-PS	I-PS	I-PS, O, I-OG, B-PS, I-LC
-18	##과	O	O	O, I-PS, B-CV, B-LC, B-PS
-19	박	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-20	##래	I-PS	I-PS	I-PS, O, I-OG, B-PS, I-LC
-21	##현	I-PS	I-PS	I-PS, O, I-OG, B-PS, I-LC
-22	,	O	O	O, I-PS, B-CV, B-LC, B-OG
-23	화목	O	O	O, B-CV, B-LC, B-TM, B-PS
-24	##한	O	O	O, B-PS, B-LC, B-CV, I-PS
-25	가정	O	O	O, B-CV, B-PS, B-LC, B-FD
-26	##을	O	O	O, B-CV, B-PS, I-CV, B-OG
-27	꾸리	O	O	O, B-CV, B-PS, B-LC, B-TM
-28	##길	O	O	O, B-PS, B-CV, B-LC, B-OG
-29	원했	O	O	O, B-CV, B-PS, B-LC, B-QT
-30	##던	O	O	O, B-CV, B-PS, B-LC, B-OG
-31	박수	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-32	##근	I-PS	I-PS	I-PS, O, I-OG, B-PS, I-LC
-33	##과	O	O	O, I-PS, B-CV, B-PS, B-LC
-34	김복	B-PS	B-PS	B-PS, O, I-PS, B-OG, B-LC
-35	##순	I-PS	I-PS	I-PS, O, I-OG, I-LC, B-PS
-36	,	O	O	O, I-PS, B-CV, B-LC, I-OG
-37	이중섭	B-PS	B-PS	B-PS, O, I-PS, B-OG, B-LC
-38	##과	O	O	O, I-PS, B-CV, I-AF, I-OG
-39	일본인	B-CV	B-CV	B-CV, O, B-LC, B-TM, B-OG
-40	아내	B-CV	B-CV	B-CV, O, I-CV, B-AF, B-FD
-41	김남	B-PS	B-PS	B-PS, O, I-PS, B-OG, B-LC
-42	##덕	I-PS	I-PS	I-PS, O, I-OG, B-PS, I-LC
-43	등	O	O	O, B-CV, I-PS, B-LC, B-QT
-44	한국	B-LC	B-LC	B-LC, O, B-FD, I-LC, B-OG
-45	화가	B-CV	B-CV	B-CV, O, B-FD, I-CV, I-FD
-46	##들	O	O	O, I-CV, B-CV, I-OG, B-PS
-47	##과	O	O	O, B-CV, B-PS, B-LC, B-TM
-48	그	O	O	O, B-CV, B-LC, B-OG, B-TM
-49	아내	B-CV	B-CV	B-CV, O, I-CV, B-AF, B-PS
-50	##들	O	O	O, I-CV, B-CV, I-AF, I-EV
-51	##에	O	O	O, B-CV, B-TM, B-QT, B-LC
-52	대한	O	O	O, B-LC, B-CV, B-TM, B-OG
-53	이야기	O	O	O, B-CV, B-FD, B-TM, B-OG
-54	##를	O	O	O, B-CV, B-OG, B-PS, B-LC
-55	담	O	O	O, B-CV, B-OG, B-FD, B-LC
-56	##았	O	O	O, B-CV, B-FD, B-OG, B-PS
-57	##다	O	O	O, B-CV, B-FD, B-OG, I-OG
-58	.	O	O	O, B-CV, B-PS, B-LC, B-FD
-59	[SEP]	O	O	O, B-CV, B-FD, B-PS, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	네	O	O
+2	돈	O	O
+3	##을	O	O
+4	.	O	O
+5	그래서	O	O
+6	재정	B-CV	O
+7	적자	I-CV	O
+8	##를	O	O
+9	보	O	O
+10	##면은	O	O
+11	아	O	O
+12	[SEP]	O	O

@@ -1,15 +1,56 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-AF
-1	청춘	O	O	O, B-FD, B-EV, B-TM, B-AF
-2	주제	O	O	O, I-FD, I-AF, I-OG, B-FD
-3	책	O	O	O, B-FD, B-CV, B-AF, I-FD
-4	고르	O	O	O, B-CV, I-AF, B-TM, I-OG
-5	##고	O	O	O, B-CV, I-AF, B-TM, I-OG
-6	대형	O	O	O, B-TM, B-CV, B-FD, B-AF
-7	그라	B-FD	B-CV	B-CV, B-FD, O, B-OG, B-AF
-8	##피	I-FD	I-CV	I-CV, I-FD, O, I-OG, I-TM
-9	##티	I-FD	I-CV	I-CV, I-FD, O, I-OG, I-TM
-10	함께	O	O	O, I-CV, I-OG, I-AF, I-TM
-11	만들	O	O	O, B-CV, B-OG, B-TM, I-OG
-12	##어요	O	O	O, B-CV, I-OG, B-OG, I-CV
-13	[SEP]	O	O	O, B-CV, B-TM, I-OG, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	세계	O	O
+2	미술	B-FD	O
+3	##시장	O	O
+4	##에	O	O
+5	##서	O	O
+6	가장	O	O
+7	인기	O	O
+8	##있	O	O
+9	##는	O	O
+10	한국	B-LC	B-LC
+11	출신	O	O
+12	화가	B-CV	B-CV
+13	##로	O	O
+14	평가	O	O
+15	##되	O	O
+16	##며	O	O
+17	평론가	B-CV	B-CV
+18	·	O	O
+19	철학자	B-CV	B-CV
+20	·	O	O
+21	음악	B-CV	B-CV
+22	##애	I-CV	I-CV
+23	##호	I-CV	I-CV
+24	##가	I-CV	I-CV
+25	##라는	O	O
+26	긴	O	O
+27	이력서	O	O
+28	##도	O	O
+29	따라붙	O	O
+30	##는	O	O
+31	이	B-PS	B-PS
+32	##씨	O	O
+33	##는	O	O
+34	자신	O	O
+35	##이	O	O
+36	어떤	O	O
+37	예술가	B-CV	B-CV
+38	##로	O	O
+39	기억	O	O
+40	##되	O	O
+41	##기	O	O
+42	##를	O	O
+43	바라	O	O
+44	##느	O	O
+45	##냐	O	O
+46	##는	O	O
+47	질문	O	O
+48	##에	O	O
+49	이렇게	O	O
+50	답	O	O
+51	##했	O	O
+52	##다	O	O
+53	.	O	O
+54	[SEP]	O	O

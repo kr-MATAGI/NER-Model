@@ -1,59 +1,38 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	특히	O	O	O, B-CV, B-OG, B-TM, B-LC
-2	얼굴	B-AM	B-AM	B-AM, O, B-PS, B-CV, B-TR
-3	##에	O	O	O, B-CV, I-CV, I-AF, I-EV
-4	확대	O	O	O, B-TM, B-TR, B-AF, B-MT
-5	##경	O	O	O, I-TM, I-TR, I-AF, I-MT
-6	##을	O	O	O, I-TM, I-AF, B-CV, I-CV
-7	낀	O	O	O, B-CV, B-PS, B-LC, B-AM
-8	채	O	O	O, B-LC, B-PS, B-TM, B-CV
-9	가로	O	O	O, B-TM, B-QT, B-TR, B-CV
-10	##와	O	O	O, I-TM, I-QT, B-QT, B-TM
-11	세로	O	O	O, B-TM, B-QT, I-TM, I-QT
-12	##가	O	O	O, B-PS, I-QT, I-TM, B-QT
-13	각각	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-CV
-14	5	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-15	##c	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-16	##m	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-17	##인	O	O	O, I-QT, B-TM, B-PS, B-CV
-18	정사	B-TM	B-TM	B-TM, O, B-AF, B-CV, B-QT
-19	##각형	I-TM	I-TM	I-TM, O, B-TM, I-QT, I-AF
-20	은	O	O	O, B-MT, I-TM, B-AF, B-TM
-21	##판	O	O	O, I-TM, I-AF, I-MT, I-CV
-22	##에	O	O	O, I-AF, B-LC, B-PS, I-TM
-23	좁	B-PT	B-PT	B-PT, O, B-AM, B-CV, B-LC
-24	##쌀	I-PT	I-PT	I-PT, O, I-AM, I-CV, B-PT
-25	##보	O	O	O, I-CV, I-PT, I-LC, I-AF
-26	##다	O	O	O, B-AM, B-PS, B-CV, B-QT
-27	작	O	O	O, B-CV, B-QT, B-LC, B-AM
-28	##은	B-MT	O	O, B-LC, B-CV, B-PS, B-QT
-29	은	O	B-MT	B-MT, O, B-PT, B-CV, I-MT
-30	알갱이	O	O	O, I-MT, I-LC, I-AF, I-CV
-31	##를	O	O	O, B-CV, B-PS, B-LC, B-TM
-32	하나하나	O	O	O, B-QT, B-LC, B-TM, B-PS
-33	붙이	O	O	O, B-TM, B-LC, B-CV, B-PS
-34	##는	O	O	O, B-LC, B-PS, B-CV, B-TM
-35	누	O	B-MT	B-MT, O, B-TR, B-FD, B-CV
-36	##금	O	I-MT	I-MT, O, I-TR, I-FD, I-TM
-37	작업	O	O	O, I-TR, I-FD, I-TM, I-EV
-38	##을	O	O	O, B-CV, I-EV, I-AF, I-CV
-39	선보이	O	O	O, B-CV, B-OG, B-LC, B-EV
-40	##자	O	O	O, B-PS, B-CV, B-LC, I-CV
-41	김	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-42	대표	B-CV	B-CV	B-CV, O, I-CV, I-PS, B-AF
-43	##를	O	O	O, I-CV, B-CV, I-AF, I-EV
-44	둘러싼	O	O	O, B-CV, B-TM, B-LC, B-OG
-45	관람객	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-AF
-46	##들	O	O	O, I-CV, B-CV, I-OG, I-EV
-47	##은	O	O	O, B-CV, B-PS, B-TM, B-LC
-48	그	O	O	O, B-CV, B-LC, B-OG, B-TM
-49	섬세	O	O	O, B-CV, B-LC, B-PS, B-TM
-50	##한	O	O	O, B-PS, B-LC, B-OG, B-TM
-51	기술	O	O	O, B-CV, B-LC, B-PS, B-TM
-52	##에	O	O	O, B-CV, B-PS, B-LC, B-OG
-53	놀라	O	O	O, B-CV, B-TM, B-OG, B-LC
-54	##워했	O	O	O, B-CV, I-CV, B-LC, I-OG
-55	##다	O	O	O, B-CV, B-TM, I-EV, B-LC
-56	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-57	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	'	O	O
+2	동무	B-CV	B-CV
+3	따라	O	O
+4	강남	B-LC	B-LC
+5	간다	O	O
+6	'	O	O
+7	는	O	O
+8	속담	O	O
+9	##은	O	O
+10	'	O	O
+11	친구	B-CV	B-CV
+12	따라	O	O
+13	강남	B-LC	B-LC
+14	간다	O	O
+15	'	O	O
+16	가	O	O
+17	되	O	O
+18	##었	O	O
+19	##고	O	O
+20	,	O	O
+21	어깨	O	O
+22	##동	B-CV	O
+23	##무	I-CV	O
+24	##를	O	O
+25	하	O	O
+26	##는	O	O
+27	사람	O	O
+28	##은	O	O
+29	동무	O	B-CV
+30	##가	O	O
+31	아니	O	O
+32	##라	O	O
+33	친구	B-CV	B-CV
+34	##다	O	O
+35	.	O	O
+36	[SEP]	O	O

@@ -1,13 +1,19 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, I-OG, B-CV, I-AF
-1	사	O	O	O, B-QT, B-DT, B-CV, B-PS
-2	사관	O	B-CV	B-CV, O, I-CV, I-QT, B-OG
-3	##이	O	O	O, I-CV, B-PS, I-QT, B-QT
-4	사	O	O	O, B-QT, B-DT, B-PS, B-CV
-5	사관	O	B-CV	B-CV, O, I-CV, I-QT, B-OG
-6	손	B-AM	B-AM	B-AM, O, I-AM, I-CV, B-PS
-7	##에	O	O	O, I-CV, I-QT, I-AF, I-EV
-8	다	O	O	O, B-QT, B-CV, B-PS, B-TM
-9	달렸	O	O	O, B-CV, B-PS, B-OG, B-LC
-10	##네	O	O	O, I-OG, I-AF, I-QT, I-CV
-11	[SEP]	O	O	O, B-PS, B-CV, B-LC, B-QT
+	text	label	preds
+0	[CLS]	O	O
+1	저	O	O
+2	##도	O	O
+3	막	O	O
+4	전	B-CV	B-CV
+5	부치	O	O
+6	##고	O	O
+7	나물	B-CV	B-CV
+8	같	O	O
+9	##은	O	O
+10	거	O	O
+11	제	O	B-CV
+12	##살	O	I-CV
+13	제	O	O
+14	##가	O	O
+15	지내	O	O
+16	##니까	O	O
+17	[SEP]	O	O

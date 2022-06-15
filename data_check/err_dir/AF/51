@@ -1,13 +1,23 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-AF, I-CV, B-CV
-1	감방	B-AF	O	O, B-LC, B-AF, B-CV, B-OG
-2	##에서	O	O	O, I-AF, B-PS, B-CV, I-OG
-3	쓰	O	O	O, B-PS, B-CV, B-AF, B-LC
-4	##는	O	O	O, B-PS, B-CV, I-AF, B-LC
-5	편지	O	O	O, B-CV, B-AF, B-FD, B-TM
-6	##는	O	O	O, I-AF, I-CV, B-CV, I-OG
-7	애절	O	O	O, B-CV, B-AF, B-OG, B-FD
-8	##하	O	O	O, I-AF, B-CV, I-OG, B-PS
-9	##다	O	O	O, B-CV, I-AF, I-OG, B-LC
-10	.	O	O	O, B-CV, B-LC, B-PS, B-AF
-11	[SEP]	O	O	O, B-CV, I-AF, B-AF, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	청와대	B-AF	B-OG
+2	입주	O	O
+3	##하	O	O
+4	##고	O	O
+5	둘째	B-DT	B-DT
+6	##날	I-DT	I-DT
+7	##에	O	O
+8	신	O	O
+9	##은	O	O
+10	통	O	B-AM
+11	##굽	O	I-AM
+12	컨	O	O
+13	##버스	O	O
+14	##화가	O	O
+15	십	B-QT	B-QT
+16	##오	I-QT	I-QT
+17	##만	I-QT	I-QT
+18	원대	I-QT	I-QT
+19	##고	O	O
+20	.	O	O
+21	[SEP]	O	O

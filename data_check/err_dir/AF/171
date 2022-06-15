@@ -1,52 +1,56 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-EV, I-CV, I-OG
-1	양	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
-2	전	O	O	O, I-PS, B-CV, I-OG, B-PS
-3	원장	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-TM
-4	##의	O	O	O, I-CV, B-CV, I-EV, B-PS
-5	'	O	O	O, B-CV, B-LC, B-PS, B-OG
-6	외	O	O	O, B-LC, B-PS, B-CV, B-EV
-7	##풍	O	O	O, I-PS, I-LC, B-PS, I-CV
-8	(	O	O	O, B-PS, B-LC, B-CV, I-CV
-9	外	O	O	O, B-LC, B-PS, B-CV, B-TM
-10	風	O	O	O, B-PS, B-LC, I-PS, I-LC
-11	)	O	O	O, B-PS, B-LC, B-CV, I-PS
-12	'	O	O	O, B-PS, B-CV, B-LC, B-EV
-13	발언	O	O	O, B-CV, B-PS, B-LC, I-CV
-14	##에	O	O	O, B-PS, B-CV, I-CV, B-LC
-15	대해	O	O	O, B-OG, B-LC, B-CV, B-PS
-16	야당	O	O	O, B-CV, B-OG, B-PS, B-LC
-17	##은	O	O	O, B-PS, B-CV, I-OG, I-CV
-18	""""	O	O	O, B-LC, B-CV, B-PS, B-OG
-19	청와대	B-AF	B-OG	B-OG, B-AF, O, B-PS, B-LC
-20	##의	O	O	O, I-OG, I-AF, I-EV, B-PS
-21	감사	O	O	O, B-CV, B-PS, B-EV, B-LC
-22	외압	O	O	O, B-PS, B-CV, B-LC, I-CV
-23	##이	O	O	O, B-PS, B-LC, B-CV, B-OG
-24	있	O	O	O, B-PS, B-CV, B-LC, I-EV
-25	##었	O	O	O, B-PS, B-CV, B-LC, I-EV
-26	##던	O	O	O, B-PS, B-CV, B-LC, I-EV
-27	것	O	O	O, B-PS, B-CV, B-LC, I-EV
-28	""""	O	O	O, B-CV, B-LC, B-PS, B-OG
-29	이라	O	O	O, B-PS, B-CV, B-LC, B-OG
-30	##며	O	O	O, B-CV, B-LC, B-OG, B-PS
-31	쟁점	O	O	O, B-CV, B-LC, B-PS, B-EV
-32	##화	O	O	O, B-PS, I-CV, I-EV, B-LC
-33	##했	O	O	O, B-PS, B-CV, B-LC, B-OG
-34	##고	O	O	O, B-PS, B-LC, B-CV, B-OG
-35	,	O	O	O, B-CV, B-LC, B-OG, B-PS
-36	청와대	B-AF	B-OG	B-OG, B-AF, O, B-PS, B-LC
-37	##는	O	O	O, I-OG, I-AF, I-EV, I-CV
-38	""""	O	O	O, B-CV, B-LC, B-PS, B-OG
-39	외압	O	O	O, B-CV, B-PS, B-LC, B-EV
-40	##은	O	O	O, B-PS, B-LC, B-CV, I-EV
-41	없	O	O	O, B-PS, B-CV, B-LC, I-EV
-42	##었	O	O	O, B-PS, B-CV, B-LC, B-OG
-43	##다	O	O	O, B-PS, B-LC, B-CV, B-OG
-44	""""	O	O	O, B-CV, B-LC, B-PS, B-OG
-45	고	O	O	O, B-CV, B-LC, B-PS, B-OG
-46	반박	O	O	O, B-CV, B-LC, B-OG, B-PS
-47	##했	O	O	O, B-CV, B-LC, B-PS, B-OG
-48	##다	O	O	O, B-CV, B-LC, B-PS, B-OG
-49	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-50	[SEP]	O	O	O, B-CV, B-LC, B-PS, I-EV
+	text	label	preds
+0	[CLS]	O	O
+1	SK	B-OG	B-OG
+2	##텔	I-OG	I-OG
+3	##레	I-OG	I-OG
+4	##콤	I-OG	I-OG
+5	##은	O	O
+6	15	B-DT	B-DT
+7	##일	I-DT	I-DT
+8	중국	B-LC	B-LC
+9	상하이	B-LC	B-LC
+10	(	O	O
+11	上	O	O
+12	海	O	O
+13	)	O	O
+14	에서	O	O
+15	열린	O	O
+16	아시아	B-LC	B-LC
+17	최대	O	O
+18	이동	O	O
+19	##통신	O	O
+20	박람회	O	O
+21	‘	O	O
+22	모바일	B-EV	B-EV
+23	월드	I-EV	I-EV
+24	콩	I-EV	I-EV
+25	##그레	I-EV	I-EV
+26	##스	I-EV	I-EV
+27	(	I-EV	I-EV
+28	MWC	I-EV	I-EV
+29	)	I-EV	I-EV
+30	상하이	I-EV	I-EV
+31	2015	B-DT	B-DT
+32	’	O	O
+33	에서	O	O
+34	중국어	B-CV	B-CV
+35	‘	O	O
+36	라이프	B-OG	O
+37	##웨어	I-OG	O
+38	(	O	O
+39	Life	O	O
+40	##w	O	O
+41	##are	O	O
+42	)	O	O
+43	’	O	O
+44	제품	O	O
+45	브랜드	O	O
+46	##인	O	O
+47	롄	B-AF	O
+48	##유	I-AF	O
+49	##를	O	O
+50	공개	O	O
+51	##했	O	O
+52	##다	O	O
+53	.	O	O
+54	[SEP]	O	O

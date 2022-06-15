@@ -1,26 +1,37 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	근데	O	O	O, B-CV, B-LC, B-OG, B-AF
-2	그동안	O	O	O, B-CV, B-LC, B-OG, B-PS
-3	##에	O	O	O, B-CV, B-PS, B-OG, B-LC
-4	##는	O	O	O, B-CV, B-LC, B-PS, B-OG
-5	사실	O	O	O, B-CV, B-LC, B-PS, B-OG
-6	##은	O	O	O, B-PS, B-CV, B-LC, B-OG
-7	어	O	O	O, B-CV, B-LC, B-PS, B-TM
-8	~	O	O	O, B-CV, B-LC, B-PS, I-CV
-9	이	O	O	O, B-PS, B-AF, B-CV, B-LC
-10	배	B-AF	B-AF	B-AF, O, B-CV, B-AM, B-PS
-11	##의	O	O	O, I-AF, I-CV, B-CV, I-EV
-12	앞부분	B-TM	O	O, B-TM, B-CV, B-AM, B-QT
-13	하고	O	O	O, I-CV, B-PS, I-AF, I-TM
-14	뒷부분	B-TM	O	O, B-TM, B-CV, B-AM, B-QT
-15	##을	O	O	O, B-PS, B-CV, I-CV, I-QT
-16	인제	O	O	O, B-CV, B-LC, B-AF, B-OG
-17	선수	O	B-CV	B-CV, O, B-AF, B-PS, I-CV
-18	선미	O	O	O, B-CV, B-TM, B-AF, I-CV
-19	##라고	O	O	O, I-CV, I-AF, B-PS, B-CV
-20	하	O	O	O, B-CV, B-OG, B-DT, B-LC
-21	##거	O	O	O, B-CV, I-CV, B-PS, B-OG
-22	##든	O	O	O, B-CV, B-LC, B-PS, B-OG
-23	##요	O	O	O, B-LC, B-CV, B-PS, I-AF
-24	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	2005	B-DT	B-DT
+2	##년	I-DT	I-DT
+3	##에	O	O
+4	##는	O	O
+5	만성	O	O
+6	##질	O	O
+7	##환	O	O
+8	##에	O	O
+9	의한	O	O
+10	척	B-TM	B-TM
+11	##수	I-TM	I-TM
+12	출혈	O	I-TM
+13	##로	O	O
+14	하반	B-AM	B-AM
+15	##신	I-AM	I-AM
+16	##을	O	O
+17	못	O	O
+18	쓰	O	O
+19	##게	O	O
+20	된	O	O
+21	여성	O	O
+22	장애인	B-CV	B-CV
+23	강	B-PS	B-PS
+24	##미	I-PS	I-PS
+25	##숙	I-PS	I-PS
+26	(	O	O
+27	42	B-QT	B-QT
+28	)	O	O
+29	씨	O	O
+30	##가	O	O
+31	합류	O	O
+32	##했	O	O
+33	##다	O	O
+34	.	O	O
+35	[SEP]	O	O

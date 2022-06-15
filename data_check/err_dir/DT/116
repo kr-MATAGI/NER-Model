@@ -1,47 +1,58 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	하지만	O	O	O, B-OG, B-CV, B-LC, B-PS
-2	이를	O	O	O, B-CV, B-OG, B-LC, B-EV
-3	‘	O	O	O, B-CV, B-LC, B-PS, B-OG
-4	광부	B-EV	B-CV	B-CV, O, B-EV, B-OG, I-EV
-5	난동	I-EV	O	O, I-EV, B-EV, I-CV, B-CV
-6	##사건	I-EV	O	O, I-EV, B-EV, B-CV, I-OG
-7	’	O	O	O, I-EV, B-PS, B-CV, B-OG
-8	으로	O	O	O, B-PS, B-LC, B-OG, B-CV
-9	규정	O	O	O, B-OG, B-LC, B-CV, B-PS
-10	##한	O	O	O, B-OG, B-PS, B-LC, I-OG
-11	계엄	B-OG	B-OG	B-OG, O, I-OG, B-CV, B-EV
-12	##사	I-OG	I-OG	I-OG, O, B-OG, I-EV, I-CV
-13	##령	I-OG	I-OG	I-OG, O, B-OG, I-EV, I-CV
-14	##부	I-OG	I-OG	I-OG, O, I-EV, I-CV, I-AF
-15	산하	O	O	O, I-OG, B-OG, I-EV, B-CV
-16	합동	O	B-OG	B-OG, O, I-OG, B-CV, B-EV
-17	##수	O	I-OG	I-OG, O, B-OG, I-EV, I-CV
-18	##사	O	I-OG	I-OG, O, B-OG, I-EV, I-CV
-19	##단	O	I-OG	I-OG, O, B-OG, I-EV, I-CV
-20	##은	O	O	O, I-OG, I-EV, B-OG, B-PS
-21	4	B-DT	B-EV	B-EV, B-DT, B-OG, B-LC, O
-22	·	I-DT	I-EV	I-EV, I-DT, I-OG, O, I-QT
-23	24	I-DT	I-EV	I-EV, I-DT, I-OG, I-LC, I-QT
-24	합의	O	O	O, I-EV, I-OG, I-DT, B-OG
-25	##를	O	O	O, I-EV, I-OG, I-AF, I-DT
-26	깨	O	O	O, B-CV, B-LC, B-OG, B-PS
-27	##고	O	O	O, B-PS, B-LC, B-CV, B-OG
-28	불법	O	O	O, B-CV, B-LC, B-PS, B-TM
-29	연행	O	O	O, B-CV, I-CV, B-PS, B-LC
-30	##과	O	O	O, B-PS, B-LC, B-OG, B-CV
-31	무자비	O	O	O, B-CV, B-LC, B-TM, B-OG
-32	##한	O	O	O, B-LC, B-PS, B-CV, B-OG
-33	고문	O	O	O, B-CV, B-TR, B-FD, B-TM
-34	수사	O	O	O, I-CV, B-CV, I-TR, B-TR
-35	끝	O	O	O, B-PS, I-CV, B-LC, B-CV
-36	##에	O	O	O, B-CV, B-PS, B-OG, B-LC
-37	31	B-QT	B-QT	B-QT, O, I-QT, B-PS, B-EV
-38	##명	I-QT	I-QT	I-QT, O, I-LC, I-PS, I-OG
-39	##을	O	O	O, I-QT, B-CV, I-EV, I-OG
-40	구속	O	B-CV	B-CV, O, B-OG, B-TM, I-CV
-41	기소	O	I-CV	I-CV, O, B-CV, I-OG, I-TM
-42	##했	O	O	O, I-CV, I-OG, I-EV, I-QT
-43	##다	O	O	O, B-CV, I-CV, I-OG, B-LC
-44	.	O	O	O, B-LC, B-OG, B-CV, B-PS
-45	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	아가	B-OG	B-OG
+2	##방	I-OG	I-OG
+3	##컴	I-OG	I-OG
+4	##퍼니	I-OG	I-OG
+5	##는	O	O
+6	작년	B-DT	B-DT
+7	한	I-DT	B-DT
+8	해	I-DT	I-DT
+9	동안	I-DT	I-DT
+10	52	B-QT	B-QT
+11	##2	I-QT	I-QT
+12	.	I-QT	I-QT
+13	4	I-QT	I-QT
+14	%	I-QT	I-QT
+15	나	O	O
+16	올랐으며	O	O
+17	보령	B-OG	B-OG
+18	##메	I-OG	I-OG
+19	##디	I-OG	I-OG
+20	##앙스	I-OG	I-OG
+21	(	O	O
+22	42	B-QT	B-QT
+23	##8	I-QT	I-QT
+24	.	I-QT	I-QT
+25	8	I-QT	I-QT
+26	%	I-QT	I-QT
+27	)	O	O
+28	,	O	O
+29	솔	B-OG	B-OG
+30	##고	I-OG	I-OG
+31	##바이	I-OG	I-OG
+32	##오	I-OG	I-OG
+33	(	O	O
+34	187	B-QT	B-QT
+35	.	I-QT	I-QT
+36	88	I-QT	I-QT
+37	%	I-QT	I-QT
+38	)	O	O
+39	,	O	O
+40	동원	B-OG	B-OG
+41	##수	I-OG	I-OG
+42	##산	I-OG	I-OG
+43	(	O	O
+44	148	B-QT	B-QT
+45	.	I-QT	I-QT
+46	2	I-QT	I-QT
+47	%	I-QT	I-QT
+48	)	O	O
+49	등도	O	O
+50	상승	O	O
+51	폭	O	O
+52	##이	O	O
+53	컸	O	O
+54	##다	O	O
+55	.	O	O
+56	[SEP]	O	O

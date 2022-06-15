@@ -1,30 +1,36 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	일반	O	O	O, B-FD, B-OG, B-CV, B-LC
-2	##고	O	O	O, I-OG, I-FD, I-CV, B-FD
-3	·	O	O	O, I-OG, I-FD, I-CV, I-QT
-4	특성	O	O	O, B-FD, I-OG, B-OG, B-CV
-5	##화	O	O	O, I-OG, I-FD, I-CV, B-FD
-6	##고	O	O	O, I-OG, I-FD, I-CV, B-FD
-7	전형	O	O	O, B-CV, I-CV, I-OG, B-TM
-8	##에	O	O	O, B-CV, I-CV, B-OG, B-PS
-9	'	O	O	O, B-CV, B-LC, B-OG, B-TM
-10	사회	B-CV	O	O, B-CV, I-CV, B-PS, B-TR
-11	##적	I-CV	O	O, I-CV, B-CV, I-TR, I-QT
-12	##배	I-CV	O	O, I-CV, B-CV, I-QT, I-TM
-13	##려	I-CV	O	O, I-CV, B-CV, I-QT, I-TM
-14	대상자	I-CV	O	O, I-CV, B-CV, I-QT, B-QT
-15	(	O	O	O, I-CV, B-CV, I-QT, B-QT
-16	사	O	B-CV	B-CV, O, I-CV, B-QT, B-PT
-17	##배	O	I-CV	I-CV, O, B-CV, I-QT, I-TM
-18	##자	O	I-CV	I-CV, O, B-CV, I-QT, I-TM
-19	)	O	O	O, I-CV, B-CV, I-QT, B-PS
-20	전형	O	O	O, I-CV, B-CV, B-QT, B-TM
-21	'	O	O	O, I-CV, B-CV, B-PS, B-LC
-22	도	O	O	O, B-CV, B-LC, B-OG, I-CV
-23	단계	O	O	O, B-CV, B-TM, B-OG, B-LC
-24	##적으로	O	O	O, B-LC, B-PS, B-QT, I-QT
-25	신설	O	O	O, B-CV, B-OG, B-TM, B-LC
-26	##한다	O	O	O, B-OG, B-CV, I-OG, B-PS
-27	.	O	O	O, B-CV, B-LC, I-CV, B-OG
-28	[SEP]	O	O	O, B-CV, I-CV, B-LC, B-FD
+	text	label	preds
+0	[CLS]	O	O
+1	스리랑카	B-LC	B-LC
+2	서북	B-TM	B-TM
+3	##부	I-TM	I-TM
+4	##에	O	O
+5	있	O	O
+6	##는	O	O
+7	마나	B-LC	B-LC
+8	##르	I-LC	I-LC
+9	##는	O	O
+10	타	B-CV	B-CV
+11	##밀	I-CV	I-CV
+12	##족	I-CV	I-CV
+13	##이	O	O
+14	주로	O	O
+15	사	O	O
+16	##는	O	O
+17	지역	O	O
+18	##으로	O	O
+19	,	O	O
+20	힌두교	B-OG	B-OG
+21	·	O	O
+22	가톨릭	B-OG	B-OG
+23	·	O	O
+24	무슬림	B-CV	B-OG
+25	·	O	O
+26	불교	B-OG	B-OG
+27	##가	O	O
+28	공존	O	O
+29	##하	O	O
+30	##는	O	O
+31	곳	O	O
+32	##이다	O	O
+33	.	O	O
+34	[SEP]	O	O

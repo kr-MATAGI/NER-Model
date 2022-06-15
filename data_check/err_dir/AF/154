@@ -1,35 +1,41 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	‘	O	O	O, B-LC, B-OG, B-CV, B-PS
-2	일요일	B-AF	B-DT	B-DT, B-AF, O, B-EV, B-OG
-3	일요일	I-AF	I-AF	I-AF, B-AF, I-DT, B-DT, I-EV
-4	밤	I-AF	I-AF	I-AF, B-AF, B-TI, I-DT, I-EV
-5	##에	I-AF	I-AF	I-AF, O, I-EV, I-OG, I-TI
-6	’	O	O	O, I-AF, I-EV, I-OG, I-DT
-7	를	O	O	O, B-CV, B-OG, B-LC, B-PS
-8	만든	O	O	O, B-LC, B-PS, B-CV, B-OG
-9	송창	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
-10	##의	I-PS	I-PS	I-PS, O, I-OG, I-LC, B-PS
-11	현	O	O	O, I-PS, B-CV, I-OG, B-PS
-12	tvN	B-OG	B-OG	B-OG, B-AF, O, B-PS, B-EV
-13	부사장	B-CV	B-CV	B-CV, O, I-CV, I-OG, B-OG
-14	##은	O	O	O, I-CV, I-OG, B-CV, I-EV
-15	PD	B-CV	B-CV	B-CV, O, B-TM, B-AF, B-OG
-16	##의	O	O	O, I-CV, B-CV, B-PS, I-OG
-17	세	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-EV
-18	가지	I-QT	I-QT	I-QT, O, I-PS, I-EV, I-DT
-19	덕목	O	O	O, I-QT, B-CV, I-CV, B-PS
-20	##을	O	O	O, B-CV, B-PS, B-OG, I-QT
-21	‘	O	O	O, B-CV, B-LC, B-OG, B-PS
-22	창의	O	O	O, B-TM, B-PS, B-CV, B-TR
-23	##성	O	O	O, I-PS, I-TR, I-TM, I-AF
-24	,	O	O	O, B-PS, I-PS, I-AF, B-LC
-25	열정	O	O	O, B-TM, B-PS, B-LC, B-AF
-26	,	O	O	O, B-PS, I-AF, I-PS, B-LC
-27	관계	O	O	O, B-TM, B-PS, B-LC, B-AF
-28	’	O	O	O, B-CV, B-PS, B-OG, I-CV
-29	라고	O	O	O, B-PS, B-CV, B-LC, B-OG
-30	강조	O	O	O, B-CV, B-OG, B-PS, B-TM
-31	##한다	O	O	O, B-CV, B-PS, I-OG, I-CV
-32	.	O	O	O, B-LC, B-PS, B-CV, B-OG
-33	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	노동	B-OG	B-OG
+2	##신문	I-OG	I-OG
+3	##은	O	O
+4	인민군	B-OG	B-OG
+5	대표	B-CV	B-CV
+6	##의	O	O
+7	연설	O	O
+8	##을	O	O
+9	인용	O	O
+10	##해	O	O
+11	“	O	O
+12	대륙	O	B-AF
+13	##간	O	I-AF
+14	탄도	B-AF	I-AF
+15	##미사	I-AF	I-AF
+16	##일	I-AF	I-AF
+17	##을	O	O
+18	비롯	O	O
+19	##한	O	O
+20	각종	O	O
+21	미사일	B-AF	B-AF
+22	##은	O	O
+23	핵탄두	B-AF	B-AF
+24	##를	O	O
+25	장착	O	O
+26	##하	O	O
+27	##고	O	O
+28	대기	O	O
+29	상태	O	O
+30	##에	O	O
+31	있	O	O
+32	##다	O	O
+33	”	O	O
+34	고	O	O
+35	주장	O	O
+36	##했	O	O
+37	##다	O	O
+38	.	O	O
+39	[SEP]	O	O

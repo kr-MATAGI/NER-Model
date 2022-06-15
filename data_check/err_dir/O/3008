@@ -1,25 +1,28 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	조성	B-PS	B-PS	B-PS, B-OG, O, B-LC, I-PS
-2	##일	I-PS	I-PS	I-PS, I-OG, O, I-LC, I-QT
-3	서울대	B-OG	B-OG	B-OG, B-LC, I-OG, I-PS, B-AF
-4	보건	O	O	O, B-OG, I-OG, B-FD, B-CV
-5	##대	O	O	O, I-OG, I-FD, I-AF, I-LC
-6	##학	O	O	O, I-OG, I-FD, I-AF, I-LC
-7	##원	O	O	O, I-OG, I-FD, I-LC, I-AF
-8	교수	B-CV	B-CV	B-CV, O, I-CV, B-AF, B-OG
-9	##는	O	O	O, I-CV, I-OG, I-EV, I-AF
-10	“	O	O	O, B-CV, B-LC, B-TM, B-OG
-11	길거리	O	O	O, B-CV, B-LC, B-AF, B-TM
-12	##에서	O	O	O, B-CV, B-LC, B-AF, I-AF
-13	침	O	B-TM	B-TM, O, B-AM, B-TR, B-CV
-14	##을	O	O	O, I-TM, I-AF, B-CV, I-CV
-15	뱉	O	O	O, B-TM, B-AM, B-CV, B-PS
-16	##는	O	O	O, B-PS, B-CV, B-LC, I-AF
-17	것	O	O	O, B-CV, B-LC, B-TM, B-PS
-18	##은	O	O	O, B-CV, B-LC, B-PS, I-AF
-19	경	O	O	O, B-CV, B-FD, B-OG, B-TM
-20	##범죄	O	O	O, I-CV, B-CV, I-FD, I-OG
-21	##다	O	O	O, I-CV, I-OG, I-QT, I-AF
-22	.	O	O	O, B-LC, B-CV, B-OG, B-PS
-23	[SEP]	O	O	O, B-CV, B-LC, I-AF, B-AF
+	text	label	preds
+0	[CLS]	O	O
+1	이번	O	O
+2	회담	O	O
+3	##에	O	O
+4	##는	O	O
+5	윤병세	B-PS	B-PS
+6	외교부	B-OG	B-OG
+7	장관	B-CV	B-CV
+8	##을	O	O
+9	비롯	O	O
+10	##해	O	O
+11	미	B-LC	B-LC
+12	·	O	O
+13	중	B-LC	B-LC
+14	·	O	O
+15	러	B-LC	B-LC
+16	##의	O	O
+17	외교	O	B-CV
+18	수장	B-CV	I-CV
+19	##이	O	O
+20	모두	O	O
+21	참석	O	O
+22	##할	O	O
+23	예정	O	O
+24	##이다	O	O
+25	.	O	O
+26	[SEP]	O	O

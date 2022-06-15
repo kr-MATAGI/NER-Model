@@ -1,38 +1,44 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-EV, I-CV
-1	국영	O	B-OG	B-OG, O, B-LC, B-AF, B-CV
-2	신화	B-OG	B-OG	B-OG, I-OG, O, B-AF, B-LC
-3	##통신	I-OG	I-OG	I-OG, O, I-AF, I-LC, I-PS
-4	##은	O	O	O, I-OG, I-AF, I-EV, B-CV
-5	논평	O	O	O, B-OG, B-CV, I-OG, B-LC
-6	##에서	O	O	O, I-OG, B-OG, B-LC, B-CV
-7	""""	O	O	O, B-LC, B-CV, B-OG, B-PS
-8	아베	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-9	총리	B-CV	B-CV	B-CV, O, I-PS, I-CV, B-OG
-10	##가	O	O	O, I-CV, I-EV, B-CV, I-OG
-11	공개	O	O	O, B-CV, B-LC, B-TM, B-OG
-12	##적인	O	O	O, B-LC, B-PS, I-EV, B-OG
-13	장	O	O	O, B-LC, B-CV, B-PS, B-EV
-14	##에서	O	O	O, B-PS, B-LC, B-CV, I-EV
-15	(	O	O	O, B-LC, B-PS, B-CV, B-OG
-16	오바마	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-17	대통령	B-CV	B-CV	B-CV, O, I-PS, I-CV, B-EV
-18	##의	O	O	O, I-CV, I-EV, B-CV, I-AF
-19	)	O	O	O, B-LC, B-CV, B-OG, B-PS
-20	일본	B-LC	B-LC	B-LC, B-OG, O, B-PS, B-CV
-21	지지	O	O	O, B-CV, I-LC, B-LC, I-OG
-22	표명	O	O	O, B-CV, B-LC, I-CV, I-OG
-23	##을	O	O	O, B-CV, B-PS, B-LC, B-OG
-24	원했	O	O	O, B-CV, B-LC, B-TM, B-OG
-25	##으나	O	O	O, B-LC, B-PS, B-QT, B-TM
-26	,	O	O	O, B-LC, B-CV, B-OG, B-PS
-27	이뤄지지	O	O	O, B-CV, B-LC, B-QT, B-OG
-28	않	O	O	O, B-LC, B-CV, I-EV, B-TM
-29	##았	O	O	O, B-CV, B-LC, I-EV, I-OG
-30	##다	O	O	O, I-OG, B-CV, B-LC, I-EV
-31	""""	O	O	O, B-CV, B-LC, B-TM, B-OG
-32	고	O	O	O, B-CV, B-OG, B-TM, B-QT
-33	전했	O	O	O, B-OG, B-CV, B-LC, B-QT
-34	##다	O	O	O, B-CV, I-OG, B-LC, B-OG
-35	.	O	O	O, B-LC, B-CV, B-OG, B-PS
-36	[SEP]	O	O	O, B-CV, B-LC, B-OG, I-EV
+	text	label	preds
+0	[CLS]	O	O
+1	양국	O	O
+2	정상	B-CV	B-CV
+3	##은	O	O
+4	유로	B-CV	B-CV
+5	##화	I-CV	I-CV
+6	##를	O	O
+7	사용	O	O
+8	##하	O	O
+9	##는	O	O
+10	17	B-QT	B-QT
+11	##개	I-QT	I-QT
+12	##국	I-QT	I-QT
+13	##의	O	O
+14	재정	O	O
+15	##통	O	O
+16	##합	O	O
+17	##을	O	O
+18	강제	O	O
+19	##하	O	O
+20	##기	O	O
+21	위해	O	O
+22	며칠	O	O
+23	내	O	O
+24	##에	O	O
+25	현	O	O
+26	유럽	B-OG	B-OG
+27	##연합	I-OG	I-OG
+28	(	O	I-OG
+29	EU	B-OG	I-OG
+30	)	O	I-OG
+31	조약	O	I-OG
+32	##에	O	O
+33	대한	O	O
+34	개정안	O	O
+35	##을	O	O
+36	제출	O	O
+37	##한다	O	O
+38	##는	O	O
+39	계획	O	O
+40	##이다	O	O
+41	.	O	O
+42	[SEP]	O	O

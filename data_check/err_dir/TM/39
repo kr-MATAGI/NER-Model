@@ -1,38 +1,30 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-EV, I-CV
-1	그	O	O	O, B-CV, B-OG, B-LC, B-TM
-2	##는	O	O	O, B-CV, B-LC, B-PS, B-TM
-3	고개	B-AM	B-AM	B-AM, O, B-TR, B-PS, I-AM
-4	##를	O	O	O, I-AF, I-CV, I-QT, B-CV
-5	떨구	O	O	O, B-CV, B-TM, B-PS, B-LC
-6	##고	O	O	O, B-PS, B-LC, B-CV, B-TM
-7	시선	O	O	O, B-AM, B-TM, B-PS, B-CV
-8	##을	O	O	O, B-PS, B-TM, B-CV, B-OG
-9	아래	B-TM	O	O, B-TM, B-CV, B-QT, B-TR
-10	##로	O	O	O, I-TM, I-QT, I-CV, I-TR
-11	한	O	O	O, B-QT, B-TM, B-LC, B-PS
-12	채	O	O	O, I-QT, B-PS, B-LC, B-QT
-13	취재진	B-CV	B-CV	B-CV, O, B-OG, B-AF, B-PS
-14	##과	O	O	O, I-CV, B-CV, I-AF, I-OG
-15	눈	B-AM	B-AM	B-AM, O, B-TR, B-PS, I-AM
-16	##을	O	O	O, I-AF, I-QT, I-CV, I-EV
-17	마주치	O	O	O, B-CV, B-TM, B-LC, B-QT
-18	##지	O	O	O, B-PS, B-LC, I-EV, B-QT
-19	않	O	O	O, B-LC, I-EV, B-CV, I-QT
-20	##았	O	O	O, B-CV, B-LC, B-PS, B-TM
-21	##으며	O	O	O, B-CV, B-LC, B-TM, B-PS
-22	,	O	O	O, B-CV, B-LC, B-PS, B-OG
-23	쏟아지	O	O	O, B-CV, B-PS, B-TM, B-LC
-24	##는	O	O	O, B-PS, B-CV, B-TM, B-LC
-25	취재진	B-CV	B-CV	B-CV, O, B-OG, B-AF, B-PS
-26	##의	O	O	O, I-CV, I-AF, B-CV, I-OG
-27	질문	O	O	O, B-CV, B-TM, B-PS, B-LC
-28	##에	O	O	O, B-CV, B-PS, B-TM, B-LC
-29	묵묵	O	O	O, B-CV, B-TM, B-LC, B-PS
-30	##부	O	O	O, B-CV, B-LC, B-TM, B-PS
-31	##답	O	O	O, B-PS, B-LC, I-CV, I-PS
-32	##이	O	O	O, B-PS, B-CV, B-LC, I-AF
-33	##었	O	O	O, B-CV, B-LC, B-PS, I-AF
-34	##다	O	O	O, B-CV, B-LC, B-TM, I-OG
-35	.	O	O	O, B-CV, B-LC, B-PS, B-OG
-36	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	한국	B-LC	B-LC
+2	축구	B-CV	B-CV
+3	사상	O	O
+4	첫	O	O
+5	올림픽	B-EV	B-EV
+6	메달	O	O
+7	획득	O	O
+8	##을	O	O
+9	위해서	O	O
+10	##는	O	O
+11	골	B-TM	O
+12	##결	O	O
+13	##정	O	O
+14	##력	O	O
+15	##을	O	O
+16	높이	O	O
+17	##는	O	O
+18	게	O	O
+19	시급	O	O
+20	##한	O	O
+21	과제	O	O
+22	##로	O	O
+23	떠올랐	O	O
+24	##기	O	O
+25	때문	O	O
+26	##이다	O	O
+27	.	O	O
+28	[SEP]	O	O

@@ -1,26 +1,33 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	뉴스	B-OG	B-OG	B-OG, O, B-PS, B-AF, B-LC
-2	##터	I-OG	I-OG	I-OG, O, B-OG, I-AF, I-PS
-3	##디	I-OG	I-OG	I-OG, O, I-AF, B-OG, I-LC
-4	##의	O	O	O, I-OG, B-PS, B-CV, I-AF
-5	10	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-6	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-7	##의	O	O	O, I-DT, I-AF, B-CV, I-OG
-8	교육	O	O	O, B-CV, B-TM, B-LC, B-FD
-9	노하우	O	O	O, B-CV, B-TM, B-PS, B-LC
-10	##를	O	O	O, B-CV, B-PS, B-TM, B-LC
-11	담아	O	O	O, B-LC, B-PS, B-CV, B-OG
-12	자체	O	O	O, B-CV, B-TM, B-LC, B-OG
-13	##개발	O	O	O, B-TM, B-CV, B-LC, I-TM
-14	##한	O	O	O, B-LC, B-PS, B-CV, B-TM
-15	‘	O	O	O, B-CV, B-OG, B-LC, B-AF
-16	스마일	O	B-TM	B-TM, O, B-AF, B-OG, B-CV
-17	##스터	O	O	O, I-TM, I-AF, I-OG, I-CV
-18	##디	O	O	O, I-TM, I-AF, I-OG, I-CV
-19	’	O	O	O, I-TM, I-AF, I-OG, I-CV
-20	가	O	O	O, B-CV, B-TM, B-PS, B-OG
-21	바로	O	O	O, B-CV, B-TM, B-AF, B-OG
-22	그것	O	O	O, B-TM, B-CV, B-AF, B-LC
-23	.	O	O	O, B-LC, B-TM, B-CV, B-PS
-24	[SEP]	O	O	O, B-CV, B-TM, B-LC, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	예	O	O
+2	생각	O	O
+3	##보	O	O
+4	##다	O	O
+5	사람	O	O
+6	##들이	O	O
+7	이렇게	O	O
+8	생각	O	O
+9	##을	O	O
+10	계속	O	O
+11	하고	O	O
+12	있	O	O
+13	##으니	O	O
+14	##까	O	O
+15	뇌	O	B-TM
+16	##가	O	O
+17	쉴	O	O
+18	시간	O	O
+19	##이	O	O
+20	없	O	O
+21	##다는	O	O
+22	걸로	O	O
+23	결론	O	O
+24	##을	O	O
+25	냈	O	O
+26	##어요	O	O
+27	논문	O	O
+28	##을	O	O
+29	쓸	O	O
+30	때	O	O
+31	[SEP]	O	O

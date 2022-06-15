@@ -1,73 +1,20 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	김대중	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-2	·	O	O	O, I-PS, I-AF, I-OG, B-PS
-3	노무현	B-PS	B-PS	B-PS, O, I-PS, B-OG, B-LC
-4	정부	B-OG	B-OG	B-OG, O, B-AF, B-LC, I-PS
-5	##의	O	O	O, I-OG, I-AF, I-EV, I-PS
-6	사례	O	O	O, B-CV, B-LC, I-EV, B-OG
-7	##에서	O	O	O, B-PS, B-LC, B-OG, B-CV
-8	보	O	O	O, B-PS, B-OG, B-CV, B-TR
-9	##듯	O	O	O, B-PS, I-EV, B-LC, B-OG
-10	“	O	O	O, B-LC, B-CV, B-PS, B-OG
-11	진보	O	O	O, B-TR, B-PS, B-OG, B-LC
-12	##적	O	O	O, I-TR, B-PS, B-TR, I-PS
-13	자유주의	B-TR	B-TR	B-TR, I-TR, O, B-PS, B-TM
-14	##는	O	O	O, I-TR, B-PS, I-QT, I-PS
-15	신자	B-TR	B-TR	B-TR, O, I-TR, B-TM, B-PS
-16	##유	I-TR	I-TR	I-TR, B-TR, O, I-TM, I-PS
-17	##주의	I-TR	I-TR	I-TR, O, B-TR, I-TM, I-QT
-18	(	O	O	O, I-TR, I-QT, I-TM, I-EV
-19	자유	B-TR	O	O, B-TR, B-LC, B-CV, B-PS
-20	##방	I-TR	O	O, I-TR, I-LC, I-CV, B-LC
-21	##임	I-TR	O	O, I-TR, I-LC, I-PS, I-CV
-22	)	O	O	O, B-LC, B-PS, B-CV, I-CV
-23	를	O	O	O, B-LC, B-PS, B-CV, B-OG
-24	넘어서	O	O	O, B-LC, B-PS, B-CV, B-OG
-25	##야	O	O	O, B-LC, B-PS, B-CV, B-OG
-26	하	O	O	O, B-LC, B-PS, B-CV, B-TM
-27	##는	O	O	O, B-LC, B-PS, I-LC, B-TM
-28	과제	O	O	O, B-LC, B-PS, B-CV, I-LC
-29	##는	O	O	O, B-LC, B-PS, B-CV, B-TM
-30	방치	O	O	O, B-LC, B-CV, B-PS, B-OG
-31	##한	O	O	O, B-LC, B-PS, B-OG, B-DT
-32	채	O	O	O, B-LC, B-PS, I-PS, I-LC
-33	,	O	O	O, B-LC, B-PS, B-CV, B-OG
-34	국가	O	O	O, B-CV, B-OG, B-PS, B-LC
-35	##주	O	O	O, I-CV, B-PS, B-CV, I-TR
-36	##도	O	O	O, I-CV, I-TR, I-PS, B-TR
-37	경제	O	O	O, B-CV, I-CV, B-TR, B-FD
-38	##정책	O	O	O, I-CV, I-TR, B-CV, I-FD
-39	·	O	O	O, B-PS, I-CV, B-LC, B-CV
-40	재벌	O	O	O, B-CV, B-TR, B-FD, I-CV
-41	·	O	O	O, I-CV, B-PS, B-LC, I-OG
-42	금융	O	O	O, B-CV, B-LC, B-FD, B-TR
-43	##시장	O	O	O, I-CV, B-CV, I-LC, I-TR
-44	국가	O	O	O, I-CV, B-CV, B-LC, B-PS
-45	##개	O	O	O, I-CV, B-CV, I-TR, B-PS
-46	##입	O	O	O, I-CV, I-TR, I-LC, I-PS
-47	등	O	O	O, B-PS, B-LC, B-CV, B-TM
-48	##으로	O	O	O, B-PS, B-LC, B-CV, B-TM
-49	대표	O	O	O, B-PS, B-LC, B-CV, B-TM
-50	##되	O	O	O, B-PS, B-LC, I-PS, B-OG
-51	##는	O	O	O, B-PS, B-LC, B-TR, I-PS
-52	‘	O	O	O, B-LC, B-PS, B-CV, B-OG
-53	박정희	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-TR
-54	체제	O	O	O, I-PS, B-CV, I-TR, I-CV
-55	’	O	O	O, I-CV, B-PS, I-TR, I-PS
-56	를	O	O	O, B-PS, B-LC, B-CV, B-TR
-57	타파	O	O	O, B-CV, B-LC, B-PS, B-TR
-58	##하	O	O	O, B-PS, B-LC, B-CV, I-PS
-59	##는	O	O	O, B-LC, B-PS, B-CV, I-PS
-60	과제	O	O	O, B-LC, B-PS, B-CV, B-TM
-61	##에	O	O	O, B-PS, B-LC, B-CV, I-LC
-62	##만	O	O	O, B-LC, B-PS, B-CV, B-QT
-63	몰두	O	O	O, B-LC, B-PS, B-CV, B-TM
-64	##했	O	O	O, B-PS, B-LC, B-CV, I-PS
-65	##다	O	O	O, B-PS, B-LC, I-PS, B-CV
-66	”	O	O	O, B-CV, B-PS, B-LC, B-TM
-67	는	O	O	O, B-PS, B-CV, B-TR, B-LC
-68	비판	O	O	O, B-TR, B-CV, B-PS, B-TM
-69	##이다	O	O	O, B-CV, I-CV, B-PS, I-TR
-70	.	O	O	O, B-LC, B-PS, B-CV, B-TR
-71	[SEP]	O	O	O, B-LC, B-CV, B-PS, B-FD
+	text	label	preds
+0	[CLS]	O	O
+1	왜냐면	O	O
+2	북한	B-LC	B-LC
+3	##문	B-FD	B-FD
+4	##학	I-FD	I-FD
+5	##은	O	O
+6	듣	O	O
+7	##는	O	O
+8	걸	O	O
+9	보	O	O
+10	##면	O	O
+11	정말	O	O
+12	개인	B-TR	O
+13	##숭	I-TR	O
+14	##배	I-TR	O
+15	문학	B-FD	B-FD
+16	##인	O	O
+17	##데	O	O
+18	[SEP]	O	O

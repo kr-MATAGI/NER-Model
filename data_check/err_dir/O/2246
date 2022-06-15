@@ -1,39 +1,49 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-EV, I-CV
-1	4	O	O	O, B-QT, B-EV, B-TI, B-DT
-2	##회	O	O	O, I-QT, I-EV, I-TI, I-OG
-3	초가	O	O	O, B-QT, I-QT, B-TI, B-EV
-4	끝난	O	O	O, I-EV, I-QT, B-EV, B-OG
-5	뒤	O	O	O, B-EV, B-CV, B-TI, B-OG
-6	공수	O	O	O, B-CV, B-OG, B-EV, B-PS
-7	교대	O	O	O, I-EV, B-OG, B-PS, B-CV
-8	시간	O	O	O, I-EV, B-PS, B-CV, B-OG
-9	##에	O	O	O, B-CV, I-EV, B-OG, I-OG
-10	장내	O	O	O, B-CV, B-OG, B-TM, B-LC
-11	카메라	B-TM	B-TM	B-TM, B-OG, O, B-AF, I-TM
-12	##가	O	O	O, I-TM, B-PS, I-OG, I-EV
-13	싸이	B-PS	B-PS	B-PS, O, I-PS, B-AF, B-OG
-14	##를	O	O	O, I-PS, B-CV, I-AF, I-OG
-15	비추	O	O	O, B-LC, B-PS, B-CV, B-OG
-16	##자	O	O	O, B-PS, B-LC, B-CV, B-OG
-17	싸이	B-PS	B-PS	B-PS, O, I-PS, B-CV, B-AF
-18	##는	O	O	O, I-PS, B-CV, I-AF, I-OG
-19	젠틀	B-AF	B-AF	B-AF, B-PS, O, B-LC, B-OG
-20	##맨	I-AF	I-AF	I-AF, I-PS, O, I-LC, I-OG
-21	음악	O	O	O, I-AF, I-PS, I-OG, I-LC
-22	##에	O	O	O, I-AF, B-CV, B-LC, I-OG
-23	맞춰	O	O	O, B-LC, B-PS, B-FD, B-CV
-24	‘	O	O	O, B-CV, B-LC, B-OG, B-PS
-25	시	O	B-AF	B-AF, O, B-CV, B-PS, B-FD
-26	##건	O	I-AF	I-AF, O, I-CV, I-PS, I-FD
-27	##방	O	I-AF	I-AF, O, I-CV, I-PS, I-FD
-28	##춤	O	I-AF	I-AF, O, I-CV, I-FD, I-TM
-29	’	O	O	O, I-AF, I-CV, B-CV, I-EV
-30	을	O	O	O, B-CV, I-AF, B-LC, B-PS
-31	춰	O	O	O, B-CV, B-LC, B-PS, B-OG
-32	분위기	O	O	O, B-CV, B-TM, B-QT, B-LC
-33	##를	O	O	O, B-CV, B-OG, B-LC, I-EV
-34	띄웠	O	O	O, B-CV, B-LC, B-OG, B-TM
-35	##다	O	O	O, B-CV, B-LC, I-EV, B-OG
-36	.	O	O	O, B-CV, B-LC, B-PS, B-OG
-37	[SEP]	O	O	O, B-CV, B-LC, B-PS, I-EV
+	text	label	preds
+0	[CLS]	O	O
+1	이	O	O
+2	##를	O	O
+3	위해	O	O
+4	외자	O	O
+5	##운용	O	O
+6	##원	O	O
+7	##은	O	O
+8	지금	O	O
+9	##까	O	O
+10	##지	O	O
+11	투자	O	O
+12	화폐	O	O
+13	##별	O	O
+14	##로	O	O
+15	구성	O	O
+16	##된	O	O
+17	조직	O	O
+18	##을	O	O
+19	글로벌	O	O
+20	정부	B-OG	B-CV
+21	##채	O	I-CV
+22	및	O	O
+23	정부	B-OG	B-CV
+24	##기	O	I-CV
+25	##관	O	I-CV
+26	##채	O	I-CV
+27	,	O	O
+28	글로벌	O	O
+29	회사채	O	O
+30	,	O	O
+31	글로벌	O	O
+32	자산	O	O
+33	##유	O	O
+34	##동	O	O
+35	##화	O	O
+36	등	O	O
+37	상품	O	O
+38	##별	O	O
+39	##로	O	O
+40	개편	O	O
+41	##하	O	O
+42	##기	O	O
+43	##도	O	O
+44	했	O	O
+45	##다	O	O
+46	.	O	O
+47	[SEP]	O	O

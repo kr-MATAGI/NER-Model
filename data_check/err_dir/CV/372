@@ -1,20 +1,54 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	국민	B-CV	B-OG	B-OG, B-CV, O, B-AF, B-PS
-2	##연금	I-CV	I-OG	I-OG, I-CV, O, I-PS, I-AF
-3	등	O	O	O, I-OG, I-CV, I-EV, I-AF
-4	##이	O	O	O, B-PS, B-CV, B-OG, B-LC
-5	사들인	O	O	O, B-CV, B-OG, B-PS, B-LC
-6	대우	B-OG	B-OG	B-OG, O, B-AF, B-LC, B-PS
-7	##조선	I-OG	I-OG	I-OG, O, I-AF, I-LC, I-PS
-8	회사채	O	O	O, I-OG, I-AF, B-AF, B-CV
-9	규모	O	O	O, I-AF, B-CV, B-TM, I-OG
-10	##는	O	O	O, B-CV, B-TM, B-OG, B-LC
-11	97	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-LC
-12	##00	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-13	##억	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-14	##원	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-15	##에	O	O	O, I-QT, I-OG, B-CV, I-AF
-16	이른다	O	O	O, B-CV, B-LC, B-OG, B-TM
-17	.	O	O	O, B-OG, B-LC, B-CV, B-PS
-18	[SEP]	O	O	O, B-CV, B-OG, B-LC, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	프랑스	B-LC	B-OG
+2	##는	O	O
+3	1980	B-DT	B-DT
+4	##년	I-DT	I-DT
+5	##대	I-DT	I-DT
+6	중반	O	I-DT
+7	청년	O	O
+8	##실	O	O
+9	##업	O	O
+10	해소	O	O
+11	##를	O	O
+12	위해	O	O
+13	고령자	B-CV	B-CV
+14	##의	O	O
+15	조기	O	O
+16	##은	O	O
+17	##퇴	O	O
+18	##를	O	O
+19	유도	O	O
+20	##하	O	O
+21	##는	O	O
+22	정책	O	O
+23	##을	O	O
+24	썼	O	O
+25	##으나	O	O
+26	청년	O	O
+27	##고	O	O
+28	##용	O	O
+29	##은	O	O
+30	늘	O	O
+31	##지	O	O
+32	않	O	O
+33	##았	O	O
+34	##고	O	O
+35	그	O	O
+36	대신	O	O
+37	고령자	B-CV	O
+38	##에	O	O
+39	대한	O	O
+40	연금	O	B-CV
+41	##지	O	O
+42	##급	O	O
+43	증가	O	O
+44	등	O	O
+45	사회	O	O
+46	##적	O	O
+47	부담	O	O
+48	##만	O	O
+49	커졌	O	O
+50	##다	O	O
+51	.	O	O
+52	[SEP]	O	O

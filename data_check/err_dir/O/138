@@ -1,35 +1,23 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-EV, I-OG, I-AF
-1	군	B-OG	B-OG	B-OG, O, B-LC, B-CV, B-AF
-2	당국	O	I-OG	I-OG, O, B-OG, I-CV, B-CV
-3	##은	O	O	O, I-OG, B-CV, I-EV, I-CV
-4	함	O	O	O, B-AF, B-LC, B-TM, B-CV
-5	##내	O	O	O, I-AF, I-LC, I-TM, B-TM
-6	##에	O	O	O, B-CV, B-TM, I-AF, B-LC
-7	가스	O	B-MT	B-MT, O, I-MT, B-TM, B-TR
-8	##가	O	O	O, B-PS, I-AF, I-EV, B-CV
-9	축적	O	O	O, B-LC, B-CV, B-TM, B-PS
-10	##돼	O	O	O, B-LC, B-PS, B-CV, I-AF
-11	있	O	O	O, B-PS, B-LC, B-CV, B-TM
-12	##다가	O	O	O, B-TM, B-CV, B-PS, B-LC
-13	폭발	O	O	O, B-TM, B-CV, B-AF, B-LC
-14	##했	O	O	O, B-PS, B-CV, I-EV, I-AF
-15	##을	O	O	O, B-PS, B-CV, B-LC, B-TM
-16	가능	O	O	O, B-CV, B-PS, B-TM, B-LC
-17	##성이	O	O	O, B-PS, B-CV, B-LC, B-TM
-18	있	O	O	O, B-PS, B-CV, B-LC, B-TM
-19	##는	O	O	O, B-PS, B-CV, B-TM, B-LC
-20	것	O	O	O, B-CV, B-PS, B-TM, B-QT
-21	##으로	O	O	O, B-CV, B-PS, I-CV, B-TM
-22	보고	O	O	O, B-CV, B-PS, B-OG, B-TM
-23	정확	O	O	O, B-CV, B-LC, B-TM, B-OG
-24	##한	O	O	O, B-LC, B-PS, B-OG, B-TM
-25	사고	O	O	O, B-CV, B-AF, B-TM, B-OG
-26	경위	O	O	O, B-CV, B-TM, B-LC, B-PS
-27	##를	O	O	O, B-CV, B-LC, B-OG, B-PS
-28	조사	O	O	O, B-CV, B-LC, B-OG, B-TM
-29	##하고	O	O	O, B-CV, B-OG, B-LC, B-TM
-30	있	O	O	O, B-CV, B-OG, B-LC, B-TM
-31	##다	O	O	O, B-CV, I-OG, B-TM, B-LC
-32	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-33	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	국내	O	O
+2	여성	O	O
+3	검	B-CV	B-CV
+4	##도	I-CV	I-CV
+5	##인	O	I-CV
+6	가운데	O	O
+7	최고	O	B-CV
+8	##수	O	I-CV
+9	##인	O	O
+10	6	B-CV	B-CV
+11	##단	I-CV	I-CV
+12	가운데	O	O
+13	한	O	O
+14	사람	O	O
+15	##이	O	O
+16	##기	O	O
+17	##도	O	O
+18	하	O	O
+19	##다	O	O
+20	.	O	O
+21	[SEP]	O	O

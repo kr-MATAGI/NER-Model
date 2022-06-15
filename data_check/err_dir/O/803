@@ -1,39 +1,59 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	답	O	O	O, B-PS, B-QT, B-AF, B-CV
-2	공론	O	B-OG	B-OG, O, I-OG, B-EV, B-AF
-3	##화	O	I-OG	I-OG, O, I-EV, B-OG, I-AF
-4	##위	O	I-OG	I-OG, O, I-EV, I-AF, I-CV
-5	##가	O	O	O, I-OG, B-PS, I-EV, I-AF
-6	시민	B-CV	B-CV	B-CV, O, B-OG, I-CV, B-AF
-7	##배	I-CV	I-CV	I-CV, B-CV, O, I-OG, I-QT
-8	##심	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-QT
-9	##원	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-QT
-10	##단	I-CV	I-CV	I-CV, O, I-OG, B-CV, I-EV
-11	##의	O	O	O, I-CV, B-PS, I-OG, B-LC
-12	결정	O	O	O, B-PS, B-LC, B-OG, B-CV
-13	내용	O	O	O, B-PS, B-LC, B-CV, B-OG
-14	##을	O	O	O, B-PS, B-LC, B-OG, B-CV
-15	정부	B-OG	B-OG	B-OG, O, B-AF, B-LC, B-CV
-16	##에	O	O	O, I-OG, I-EV, I-AF, I-CV
-17	제출	O	O	O, B-LC, B-PS, B-OG, B-CV
-18	##하면	O	O	O, B-OG, B-LC, B-PS, I-OG
-19	,	O	O	O, B-OG, B-LC, B-CV, B-PS
-20	정부	B-OG	B-OG	B-OG, O, B-AF, B-LC, B-CV
-21	##는	O	O	O, I-OG, I-EV, I-AF, B-OG
-22	국무	B-OG	B-OG	B-OG, O, B-AF, B-EV, I-OG
-23	##회의	I-OG	I-OG	I-OG, O, I-EV, I-AF, I-LC
-24	##에서	O	O	O, I-OG, I-EV, B-PS, I-AF
-25	공론	O	B-OG	B-OG, O, B-EV, B-AF, I-OG
-26	##화	O	I-OG	I-OG, O, I-EV, B-OG, I-AF
-27	##위	O	I-OG	I-OG, O, I-EV, I-AF, I-LC
-28	##의	O	O	O, I-OG, I-EV, B-PS, I-AF
-29	권고	O	O	O, B-CV, B-PS, B-LC, B-OG
-30	##안	O	O	O, B-PS, I-CV, I-OG, I-PS
-31	##을	O	O	O, B-CV, B-OG, B-LC, B-PS
-32	심의	O	O	O, B-OG, B-LC, B-CV, B-PS
-33	·	O	O	O, I-OG, I-LC, B-PS, I-AF
-34	의결	O	O	O, B-LC, B-CV, B-PS, B-OG
-35	##한다	O	O	O, B-LC, B-OG, B-PS, I-OG
-36	.	O	O	O, B-LC, B-OG, B-PS, I-OG
-37	[SEP]	O	O	O, B-LC, B-OG, I-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	코너	O	B-PS
+2	##는	O	O
+3	학교	O	O
+4	앞	O	B-TM
+5	##을	O	O
+6	서성	O	O
+7	##이	O	O
+8	##는	O	O
+9	미녀	B-PS	O
+10	라	I-PS	B-PS
+11	##피	I-PS	I-PS
+12	##나	I-PS	I-PS
+13	(	O	O
+14	루시	B-PS	B-PS
+15	보인	I-PS	I-PS
+16	##턴	I-PS	I-PS
+17	)	O	O
+18	에게	O	O
+19	반	O	O
+20	##해	O	O
+21	“	O	O
+22	밴드	O	O
+23	##를	O	O
+24	하	O	O
+25	##는데	O	O
+26	뮤직	O	O
+27	##비	O	O
+28	##디오	O	O
+29	여주인공	O	O
+30	##이	O	O
+31	필요	O	O
+32	##하	O	O
+33	##다	O	O
+34	”	O	O
+35	고	O	O
+36	거짓말	O	O
+37	##하	O	O
+38	##고	O	O
+39	,	O	O
+40	이	O	O
+41	##를	O	O
+42	현실	O	O
+43	##로	O	O
+44	만들	O	O
+45	##기	O	O
+46	위해	O	O
+47	친구	B-CV	B-CV
+48	##들	O	O
+49	##과	O	O
+50	밴드	O	O
+51	##를	O	O
+52	결성	O	O
+53	##하	O	O
+54	##는데	O	O
+55	…	O	O
+56	.	O	O
+57	[SEP]	O	O

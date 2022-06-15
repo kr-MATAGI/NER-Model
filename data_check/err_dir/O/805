@@ -1,26 +1,29 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	유럽	B-LC	B-LC	B-LC, B-OG, O, B-AF, B-PS
-2	국가	O	O	O, I-OG, I-LC, B-OG, B-LC
-3	##들	O	O	O, I-OG, I-LC, I-AF, I-CV
-4	##은	O	O	O, B-CV, B-LC, B-OG, B-TM
-5	상여금	O	O	O, B-CV, B-MT, B-TM, I-CV
-6	,	O	O	O, B-CV, I-CV, B-LC, B-PS
-7	숙식	O	O	O, B-CV, B-TM, B-MT, B-QT
-8	##비	O	O	O, I-CV, I-LC, I-TM, I-AF
-9	,	O	O	O, B-CV, I-CV, B-LC, B-TM
-10	휴가	O	O	O, B-CV, B-TM, B-MT, B-QT
-11	##비	O	O	O, I-CV, I-LC, B-CV, I-AF
-12	,	O	O	O, B-CV, I-CV, B-LC, B-TM
-13	각종	O	O	O, B-CV, B-TM, B-QT, B-LC
-14	수당	O	O	O, B-CV, I-CV, B-QT, B-TM
-15	##까	O	O	O, B-CV, I-CV, B-PS, B-TM
-16	##지	O	O	O, B-CV, B-QT, B-LC, B-TM
-17	포함	O	O	O, B-CV, B-QT, B-TM, B-LC
-18	##해	O	O	O, B-LC, B-PS, B-CV, B-OG
-19	최저임금	O	B-CV	B-CV, O, I-CV, B-OG, B-AF
-20	##을	O	O	O, I-CV, I-OG, B-CV, I-AF
-21	산출	O	O	O, B-CV, B-OG, B-TM, I-CV
-22	##한다	O	O	O, B-CV, B-OG, B-LC, I-OG
-23	.	O	O	O, B-CV, B-LC, B-OG, I-OG
-24	[SEP]	O	O	O, B-CV, B-LC, I-CV, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	김해	B-LC	B-LC
+2	##의	O	O
+3	금관	B-DT	B-DT
+4	##가	I-DT	I-DT
+5	##야	I-DT	I-DT
+6	##뿐	O	O
+7	아니	O	O
+8	##라	O	O
+9	고령	B-LC	B-LC
+10	##의	O	O
+11	대가	B-DT	B-DT
+12	##야	I-DT	I-DT
+13	등	O	O
+14	가야	B-DT	B-OG
+15	##연맹	O	I-OG
+16	##의	O	O
+17	다른	O	O
+18	지역	O	O
+19	##도	O	O
+20	관심	O	O
+21	##을	O	O
+22	가져야	O	O
+23	하고	O	O
+24	##요	O	O
+25	.	O	O
+26	""""	O	O
+27	[SEP]	O	O

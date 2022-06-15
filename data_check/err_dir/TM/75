@@ -1,40 +1,28 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, I-EV, B-CV
-1	주민	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-OG
-2	##들	O	O	O, I-CV, I-OG, I-AF, I-EV
-3	##은	O	O	O, B-CV, B-PS, B-TM, B-OG
-4	재능	O	O	O, B-CV, B-TM, B-TR, B-LC
-5	기부	O	O	O, I-CV, I-TM, B-CV, I-OG
-6	##로	O	O	O, B-PS, I-OG, I-CV, B-LC
-7	‘	O	O	O, B-EV, B-TM, B-LC, B-OG
-8	1	B-TM	B-QT	B-QT, I-QT, B-AF, B-EV, B-TM
-9	##인	I-TM	I-QT	I-QT, I-EV, O, I-AF, I-TM
-10	1	I-TM	I-QT	I-QT, B-QT, I-AF, I-EV, O
-11	##악	I-TM	I-QT	I-QT, O, I-AF, I-EV, I-TM
-12	##기	I-TM	I-QT	I-QT, O, I-AF, I-EV, I-TM
-13	연주	I-TM	O	O, I-QT, I-EV, I-TM, I-AF
-14	’	O	O	O, I-EV, I-OG, I-QT, I-TM
-15	프로젝트	O	O	O, B-TM, B-FD, B-EV, B-CV
-16	##에	O	O	O, I-EV, I-OG, B-CV, B-PS
-17	강사	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-FD
-18	##로	O	O	O, I-CV, B-CV, I-QT, I-EV
-19	동참	O	O	O, B-CV, B-OG, B-LC, B-PS
-20	##했	O	O	O, B-CV, B-PS, B-LC, I-OG
-21	##고	O	O	O, I-OG, B-PS, B-CV, I-AF
-22	,	O	O	O, B-CV, B-PS, B-OG, B-LC
-23	아이	O	O	O, B-CV, B-PS, B-AM, B-TM
-24	##들	O	O	O, I-OG, B-PS, I-PS, I-CV
-25	##은	O	O	O, B-PS, B-CV, I-OG, I-AF
-26	노인	O	O	O, B-CV, B-TM, B-FD, B-LC
-27	##복지	O	O	O, I-CV, I-OG, I-TM, I-LC
-28	##시설	O	O	O, I-OG, I-CV, I-LC, I-AF
-29	공연	O	O	O, B-CV, B-LC, B-TM, B-FD
-30	봉사	O	O	O, B-CV, B-LC, B-TM, I-EV
-31	##활	O	O	O, B-LC, B-CV, I-CV, I-EV
-32	##동	O	O	O, B-LC, B-CV, B-PS, B-TM
-33	##으로	O	O	O, B-CV, B-PS, B-LC, B-OG
-34	화답	O	O	O, B-OG, B-CV, B-LC, B-AF
-35	##했	O	O	O, I-OG, B-CV, I-EV, I-AF
-36	##다	O	O	O, B-CV, I-OG, B-TM, I-EV
-37	.	O	O	O, B-CV, B-LC, B-PS, I-OG
-38	[SEP]	O	O	O, B-CV, I-OG, B-LC, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	그리고	O	O
+2	PC	B-TM	B-TM
+3	,	O	O
+4	스마트폰	B-TM	B-TM
+5	,	O	O
+6	태블릿	B-TM	B-TM
+7	##P	I-TM	I-TM
+8	##C	I-TM	I-TM
+9	등	O	O
+10	기기	O	O
+11	##나	O	O
+12	사파리	B-TM	B-TM
+13	크롬	B-TM	I-TM
+14	등	O	O
+15	웹	B-TM	B-TM
+16	##브라	I-TM	I-TM
+17	##우	I-TM	I-TM
+18	##저	I-TM	I-TM
+19	##도	O	O
+20	따질	O	O
+21	필요	O	O
+22	##가	O	O
+23	없	O	O
+24	##다	O	O
+25	.	O	O
+26	[SEP]	O	O

@@ -1,33 +1,46 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-EV, I-OG
-1	전경련	O	B-OG	B-OG, O, B-PS, B-AF, B-CV
-2	관계자	B-CV	B-CV	B-CV, I-CV, O, I-OG, B-OG
-3	##는	O	O	O, I-CV, I-OG, I-EV, B-CV
-4	“	O	O	O, B-CV, B-OG, B-LC, B-TM
-5	대기	O	O	O, B-CV, B-OG, B-TM, B-FD
-6	##업	O	O	O, I-CV, I-OG, I-TM, I-FD
-7	##들이	O	O	O, B-CV, I-OG, I-CV, B-PS
-8	고용	O	O	O, B-CV, B-TM, B-LC, B-PS
-9	창출	O	O	O, I-CV, I-TM, I-EV, I-OG
-10	##을	O	O	O, B-CV, B-PS, I-CV, I-EV
-11	위해	O	O	O, B-CV, B-LC, B-PS, B-TM
-12	노력	O	O	O, B-CV, B-LC, B-OG, B-TM
-13	##하고	O	O	O, B-CV, B-PS, B-OG, B-LC
-14	있	O	O	O, B-PS, B-CV, B-OG, B-LC
-15	##다는	O	O	O, B-PS, B-CV, B-OG, B-LC
-16	것	O	O	O, B-CV, B-PS, B-OG, B-LC
-17	##을	O	O	O, B-CV, B-PS, B-OG, I-CV
-18	보여	O	O	O, B-CV, B-PS, B-LC, B-OG
-19	##주	O	O	O, B-CV, B-PS, I-CV, I-QT
-20	##려	O	O	O, B-CV, B-PS, B-QT, I-QT
-21	했	O	O	O, B-CV, B-PS, B-OG, B-LC
-22	##던	O	O	O, B-CV, B-PS, B-OG, B-LC
-23	것	O	O	O, B-CV, B-PS, B-OG, B-QT
-24	”	O	O	O, B-CV, I-CV, I-OG, I-EV
-25	이라	O	O	O, B-CV, B-PS, I-CV, B-OG
-26	##고	O	O	O, B-CV, I-CV, B-PS, B-QT
-27	해명	O	O	O, B-CV, B-TM, I-CV, B-OG
-28	##했	O	O	O, B-CV, I-CV, B-PS, I-OG
-29	##다	O	O	O, B-CV, B-PS, B-OG, I-OG
-30	.	O	O	O, B-CV, B-PS, B-LC, B-OG
-31	[SEP]	O	O	O, B-CV, B-PS, I-EV, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	세계	O	O
+2	최대	O	O
+3	87	B-QT	B-QT
+4	##0	I-QT	I-QT
+5	##L	I-QT	I-QT
+6	양	O	O
+7	##문	O	O
+8	##형	O	I-TM
+9	냉장고	B-TM	I-TM
+10	##와	O	O
+11	국내	O	O
+12	최대	O	O
+13	19	B-QT	B-QT
+14	##k	I-QT	I-QT
+15	##g	I-QT	I-QT
+16	건조	O	O
+17	겸	O	O
+18	##용	O	O
+19	드럼	B-TM	B-TM
+20	##세	I-TM	I-TM
+21	##탁	I-TM	I-TM
+22	##기	I-TM	I-TM
+23	등	O	O
+24	프리미엄	O	O
+25	가전	O	O
+26	판매량	O	O
+27	##이	O	O
+28	늘어	O	O
+29	영업	O	O
+30	##이	O	O
+31	##익	O	O
+32	##이	O	O
+33	지난해	B-DT	B-DT
+34	같	O	O
+35	##은	O	O
+36	기간	O	O
+37	##보	O	O
+38	##다	O	O
+39	49	B-QT	B-QT
+40	%	I-QT	I-QT
+41	늘어났	O	O
+42	##다	O	O
+43	.	O	O
+44	[SEP]	O	O

@@ -1,13 +1,34 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-AF
-1	출시	O	O	O, B-CV, B-TM, B-LC, B-AF
-2	앞둔	O	O	O, B-OG, B-LC, B-PS, B-CV
-3	LG	B-OG	B-OG	B-OG, B-AF, O, B-EV, B-LC
-4	G	B-AF	I-AF	I-AF, B-AF, I-OG, B-OG, I-PS
-5	##프로	I-AF	I-AF	I-AF, B-AF, I-OG, I-TM, O
-6	##2	I-AF	I-AF	I-AF, O, I-TM, I-OG, B-AF
-7	##에	O	O	O, I-AF, I-OG, I-TM, I-EV
-8	선	O	O	O, B-TM, B-CV, B-MT, B-LC
-9	##탑	O	O	O, I-CV, I-TM, I-AF, I-LC
-10	##재	O	O	O, I-CV, I-TM, B-MT, I-AF
-11	[SEP]	O	O	O, B-LC, B-TM, B-CV, B-AF
+	text	label	preds
+0	[CLS]	O	O
+1	'	O	O
+2	분	B-AF	B-AF
+3	##더	I-AF	I-AF
+4	##샵	I-AF	I-AF
+5	(	O	O
+6	Bo	B-AF	O
+7	##on	I-AF	O
+8	the	I-AF	O
+9	Sh	I-AF	O
+10	##op	I-AF	O
+11	)	O	O
+12	'	O	O
+13	은	O	O
+14	현대	O	O
+15	##적	O	O
+16	##이	O	O
+17	##고	O	O
+18	아름다운	O	O
+19	창문	O	O
+20	##에	O	O
+21	독창	O	O
+22	##적	O	O
+23	##인	O	O
+24	컬렉션	O	O
+25	##들	O	O
+26	##을	O	O
+27	갖춘	O	O
+28	명품	O	O
+29	매장이	O	O
+30	##다	O	O
+31	.	O	O
+32	[SEP]	O	O

@@ -1,25 +1,15 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	그러나	O	O	O, B-OG, B-CV, B-LC, B-TM
-2	<	O	O	O, B-OG, I-OG, B-LC, B-AF
-3	아	O	B-OG	B-OG, I-OG, O, B-LC, B-AF
-4	##에프	O	I-OG	I-OG, O, B-OG, I-AF, I-LC
-5	##페	O	I-OG	I-OG, O, B-OG, I-AF, I-LC
-6	>	O	O	O, I-OG, B-OG, I-AF, I-EV
-7	는	O	O	O, I-OG, B-OG, B-LC, B-PS
-8	터키	B-LC	B-LC	B-LC, B-OG, O, B-CV, I-LC
-9	관리	O	B-CV	B-CV, O, I-CV, I-OG, B-OG
-10	##의	O	O	O, I-CV, I-OG, B-CV, I-AF
-11	말	O	O	O, B-CV, I-CV, B-LC, B-PS
-12	##을	O	O	O, B-CV, B-OG, B-PS, B-LC
-13	인용	O	O	O, B-CV, B-OG, B-LC, B-TM
-14	##해	O	O	O, B-LC, B-OG, B-PS, B-DT
-15	추락	O	O	O, B-CV, B-AF, B-TM, B-OG
-16	항공기	B-AF	B-AF	B-AF, O, I-AF, B-OG, B-LC
-17	##는	O	O	O, I-AF, I-OG, B-CV, I-EV
-18	무인기	B-AF	B-AF	B-AF, O, I-AF, B-TM, B-LC
-19	##라고	O	O	O, I-AF, I-OG, I-TM, I-EV
-20	전했	O	O	O, B-OG, B-CV, I-OG, B-LC
-21	##다	O	O	O, B-CV, I-OG, B-OG, B-LC
-22	.	O	O	O, B-OG, B-LC, B-CV, B-AF
-23	[SEP]	O	O	O, B-OG, B-LC, B-CV, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	지원	O	O
+2	##관	O	O
+3	##실	O	O
+4	,	O	O
+5	MB	B-PS	B-PS
+6	고교	O	O
+7	##동	O	B-CV
+8	##문	O	I-CV
+9	##들	O	O
+10	뒤	O	O
+11	봐	O	O
+12	##줘	O	O
+13	[SEP]	O	O

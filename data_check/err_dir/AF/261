@@ -1,26 +1,62 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-QT
-1	허영	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-2	##만	I-PS	I-PS	I-PS, O, I-OG, I-LC, B-PS
-3	화백	B-CV	B-CV	B-CV, O, I-PS, I-CV, B-TM
-4	##의	O	O	O, I-CV, I-AF, I-OG, B-CV
-5	‘	O	O	O, B-CV, B-OG, B-LC, B-AF
-6	식	B-AF	O	O, B-AF, B-CV, B-PS, B-OG
-7	##객	I-AF	I-AF	I-AF, O, I-CV, I-PS, I-OG
-8	’	O	O	O, I-AF, I-OG, I-CV, I-PS
-9	에도	O	O	O, B-CV, B-LC, B-OG, I-AF
-10	등장	O	O	O, B-CV, B-OG, B-TM, B-LC
-11	##했	O	O	O, B-CV, B-OG, B-LC, B-PS
-12	##으며	O	O	O, B-CV, B-OG, B-LC, B-TM
-13	뚝배기	O	O	O, B-CV, B-TM, B-AF, B-LC
-14	##가	O	O	O, B-PS, I-AF, I-CV, B-CV
-15	아닌	O	O	O, B-CV, B-OG, B-PS, B-LC
-16	국	O	O	O, B-CV, B-AF, B-TM, B-LC
-17	##그릇	O	O	O, I-CV, I-AF, I-LC, B-CV
-18	##에	O	O	O, I-CV, I-AF, B-PS, B-CV
-19	청국장	B-CV	B-CV	B-CV, O, B-AF, B-PT, B-TM
-20	##을	O	O	O, I-CV, I-AF, B-CV, I-OG
-21	담아	O	O	O, B-CV, B-QT, B-OG, B-TM
-22	준다	O	O	O, B-CV, B-PS, B-OG, I-QT
-23	.	O	O	O, B-CV, B-LC, I-OG, B-OG
-24	[SEP]	O	O	O, B-CV, B-LC, B-OG, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	이	B-PS	B-PS
+2	대통령	B-CV	B-CV
+3	##은	O	O
+4	이날	B-DT	B-DT
+5	청와대	B-AF	B-AF
+6	##에	O	O
+7	##서	O	O
+8	열린	O	O
+9	법무부	B-OG	B-OG
+10	·	O	O
+11	국민	B-OG	B-OG
+12	##권	I-OG	I-OG
+13	##익	I-OG	I-OG
+14	##위원회	I-OG	I-OG
+15	·	O	O
+16	법제	B-OG	B-OG
+17	##처	I-OG	I-OG
+18	##의	O	O
+19	내년도	B-DT	B-DT
+20	업무	O	O
+21	##보	O	O
+22	##고	O	O
+23	##에	O	O
+24	##서	O	O
+25	“	O	O
+26	검찰	B-OG	B-OG
+27	##이	O	O
+28	그동안	O	O
+29	눈	B-AM	B-AM
+30	##에	O	O
+31	보이지	O	O
+32	않	O	O
+33	##아	O	O
+34	##도	O	O
+35	상당히	O	O
+36	긍정	O	O
+37	##적	O	O
+38	##인	O	O
+39	변화	O	O
+40	##를	O	O
+41	일궈	O	O
+42	##낸	O	O
+43	것	O	O
+44	##을	O	O
+45	안다	O	O
+46	”	O	O
+47	며	O	O
+48	이렇게	O	O
+49	말	O	O
+50	##했	O	O
+51	##다고	O	O
+52	김은	B-PS	B-PS
+53	##혜	I-PS	I-PS
+54	청와대	B-AF	B-OG
+55	대변인	B-CV	B-CV
+56	##이	O	O
+57	전했	O	O
+58	##다	O	O
+59	.	O	O
+60	[SEP]	O	O

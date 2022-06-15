@@ -1,33 +1,30 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, B-CV, I-OG, I-AF
-1	3	B-QT	B-EV	B-EV, B-QT, O, B-DT, B-LC
-2	##라	I-QT	I-EV	I-EV, I-QT, O, I-DT, B-EV
-3	##운드	I-QT	I-EV	I-EV, I-QT, O, I-DT, I-OG
-4	##까	O	O	O, I-EV, I-QT, I-DT, B-DT
-5	##지	O	O	O, I-EV, I-DT, B-DT, B-EV
-6	합계	O	O	O, B-EV, B-CV, B-QT, B-LC
-7	10	B-QT	B-QT	B-QT, B-EV, B-TM, O, B-DT
-8	##언	I-QT	I-QT	I-QT, I-EV, I-TM, O, I-AF
-9	##더	I-QT	I-QT	I-QT, I-EV, O, I-TM, I-AF
-10	##파	I-QT	I-QT	I-QT, I-EV, O, I-TM, I-AF
-11	200	B-QT	B-QT	B-QT, I-QT, B-EV, B-DT, O
-12	##타	I-QT	I-QT	I-QT, I-EV, O, I-TM, I-DT
-13	##로	O	O	O, I-QT, B-PS, B-CV, I-EV
-14	공동	B-CV	O	O, B-CV, B-PS, B-OG, B-LC
-15	선두	I-CV	O	O, B-CV, I-CV, B-PS, B-QT
-16	##가	O	O	O, B-PS, I-CV, B-CV, I-PS
-17	된	O	O	O, B-PS, B-CV, B-LC, B-OG
-18	앤서니	O	O	O, B-PS, B-LC, B-CV, B-OG
-19	김은	O	O	O, B-PS, I-PS, B-CV, B-LC
-20	마지막	B-DT	B-DT	B-DT, O, B-QT, I-DT, B-EV
-21	날	I-DT	I-DT	I-DT, O, I-QT, B-DT, I-EV
-22	파란색	B-TM	B-TM	B-TM, O, B-LC, B-CV, B-AF
-23	##을	O	O	O, I-TM, I-CV, I-AF, I-EV
-24	입	O	O	O, B-CV, B-PS, B-LC, I-CV
-25	##겠다	O	O	O, B-CV, I-CV, B-PS, I-AF
-26	##고	O	O	O, B-CV, B-PS, I-CV, B-LC
-27	공언	O	O	O, B-CV, B-PS, B-LC, I-CV
-28	##했	O	O	O, B-PS, B-CV, I-CV, B-LC
-29	##다	O	O	O, B-CV, B-PS, I-CV, B-LC
-30	.	O	O	O, B-PS, B-CV, B-LC, I-CV
-31	[SEP]	O	O	O, B-CV, B-PS, B-LC, I-CV
+	text	label	preds
+0	[CLS]	O	O
+1	아이	O	O
+2	##들이	O	O
+3	학교	O	O
+4	##에	O	O
+5	##서도	O	O
+6	잘	O	O
+7	성장	O	O
+8	##해서	O	O
+9	한	B-QT	O
+10	사회	I-QT	O
+11	##의	O	O
+12	시민	B-CV	B-CV
+13	##이	O	O
+14	되	O	O
+15	##고	O	O
+16	직장	O	O
+17	##을	O	O
+18	다니	O	O
+19	##고	O	O
+20	이	O	O
+21	사회	O	O
+22	##를	O	O
+23	책임지	O	O
+24	##는	O	O
+25	것	O	O
+26	##입니다	O	O
+27	.	O	O
+28	[SEP]	O	O

@@ -1,13 +1,25 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-AF
-1	68	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-2	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-AF
-3	##의	O	O	O, I-DT, I-AF, B-PS, I-OG
-4	나날	O	O	O, B-LC, B-CV, I-AF, B-AF
-5	##들	O	O	O, I-AF, I-OG, I-DT, I-CV
-6	,	O	O	O, B-LC, B-CV, B-OG, B-PS
-7	조선	B-DT	B-LC	B-LC, O, B-OG, B-DT, B-AF
-8	##의	O	O	O, I-LC, I-AF, I-FD, B-LC
-9	일상	O	O	O, B-FD, I-AF, B-CV, I-FD
-10	##사	O	O	O, I-FD, B-FD, I-AF, I-OG
-11	[SEP]	O	O	O, I-AF, B-LC, B-FD, I-FD
+	text	label	preds
+0	[CLS]	O	O
+1	도로	B-CV	B-CV
+2	##명	I-CV	I-CV
+3	##주	I-CV	I-CV
+4	##소	I-CV	I-CV
+5	제도	I-CV	I-CV
+6	##가	O	O
+7	전면	O	O
+8	시행	O	O
+9	##된	O	O
+10	새해	B-DT	B-DT
+11	첫날	I-DT	B-DT
+12	,	O	O
+13	곳곳	O	O
+14	##에	O	O
+15	##서	O	O
+16	혼란	O	O
+17	##스러운	O	O
+18	풍경	O	O
+19	##이	O	O
+20	벌어졌	O	O
+21	##다	O	O
+22	.	O	O
+23	[SEP]	O	O

@@ -1,38 +1,68 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	당	O	O	O, B-OG, B-LC, B-PS, B-TM
-2	안팎	O	O	O, B-TM, B-LC, B-OG, B-CV
-3	##에서	O	O	O, B-PS, B-LC, B-OG, I-OG
-4	자유	B-OG	B-OG	B-OG, O, B-LC, B-PS, I-OG
-5	##한	I-OG	I-OG	I-OG, O, I-LC, I-EV, B-OG
-6	##국	I-OG	I-OG	I-OG, O, I-EV, I-LC, I-AF
-7	##당	I-OG	I-OG	I-OG, O, I-LC, I-EV, I-AF
-8	및	O	O	O, I-OG, I-EV, I-AF, I-QT
-9	국민	B-OG	B-OG	B-OG, O, I-OG, B-AF, B-PS
-10	##의	I-OG	I-OG	I-OG, O, I-LC, I-EV, I-AF
-11	##당	I-OG	I-OG	I-OG, O, I-LC, I-AF, I-EV
-12	##과	O	O	O, I-OG, B-PS, I-EV, B-CV
-13	##의	O	O	O, B-OG, B-LC, B-PS, B-TR
-14	합당	O	O	O, B-TR, B-PS, B-OG, B-EV
-15	##론	O	O	O, I-TR, I-PS, B-TR, I-EV
-16	##이	O	O	O, B-PS, B-OG, B-LC, B-CV
-17	나오	O	O	O, B-CV, B-OG, B-PS, B-LC
-18	##는	O	O	O, B-PS, B-CV, B-OG, I-OG
-19	시점	O	O	O, B-PS, B-CV, B-OG, B-TR
-20	##에서	O	O	O, B-PS, B-LC, B-CV, B-OG
-21	유	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
-22	의원	B-CV	B-CV	B-CV, O, I-PS, I-CV, B-TM
-23	##은	O	O	O, I-CV, I-EV, B-CV, I-QT
-24	다시	O	O	O, B-QT, B-CV, B-PS, B-TR
-25	한	O	O	O, B-QT, B-PS, I-QT, B-TR
-26	번	O	O	O, I-QT, B-PS, B-QT, I-PS
-27	자	B-TR	O	O, B-TR, B-PS, I-TR, I-QT
-28	##강	I-TR	O	O, I-TR, I-PS, B-TR, I-QT
-29	##론	I-TR	O	O, I-TR, I-PS, B-TR, I-QT
-30	##을	O	O	O, I-TR, I-QT, I-EV, B-CV
-31	강조	O	O	O, B-CV, B-OG, B-PS, B-LC
-32	##한	O	O	O, B-PS, B-CV, B-OG, B-LC
-33	것	O	O	O, B-CV, B-OG, B-PS, B-QT
-34	##이다	O	O	O, B-CV, I-OG, I-EV, I-CV
-35	.	O	O	O, B-PS, B-OG, B-LC, B-CV
-36	[SEP]	O	O	O, B-CV, B-PS, B-OG, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	이어	O	O
+2	“	O	O
+3	단일화	O	O
+4	##라는	O	O
+5	것	O	O
+6	##은	O	O
+7	뜻	O	O
+8	##을	O	O
+9	같이	O	O
+10	##하	O	O
+11	##는	O	O
+12	사람	O	O
+13	##들이	O	O
+14	그	O	O
+15	가치	O	O
+16	##를	O	O
+17	연대	O	O
+18	##해서	O	O
+19	같이	O	O
+20	가자	O	O
+21	##는	O	O
+22	의미	O	O
+23	##이	O	O
+24	##기	O	O
+25	때문	O	O
+26	##에	O	O
+27	형식	O	O
+28	##보	O	O
+29	##다는	O	O
+30	내용	O	O
+31	##을	O	O
+32	담	O	O
+33	##는	O	O
+34	얘기	O	O
+35	##를	O	O
+36	하고	O	O
+37	싶	O	O
+38	##다	O	O
+39	”	O	O
+40	며	O	O
+41	“	O	O
+42	(	O	O
+43	보수	B-TR	O
+44	)	O	O
+45	시민	O	O
+46	##단체	O	O
+47	##에	O	O
+48	##서	O	O
+49	원	O	O
+50	##하	O	O
+51	##는	O	O
+52	내용	O	O
+53	##을	O	O
+54	담	O	O
+55	##는	O	O
+56	방법	O	O
+57	##이	O	O
+58	있	O	O
+59	##다	O	O
+60	”	O	O
+61	고	O	O
+62	설명	O	O
+63	##했	O	O
+64	##다	O	O
+65	.	O	O
+66	[SEP]	O	O

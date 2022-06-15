@@ -1,24 +1,25 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-AF
-1	특별	O	O	O, B-CV, B-TM, B-LC, B-OG
-2	##한	O	O	O, B-LC, B-PS, B-OG, B-TM
-3	스트라이커	B-CV	B-CV	B-CV, O, B-TM, B-AF, B-OG
-4	##가	O	O	O, I-CV, I-AF, B-CV, I-OG
-5	없	O	O	O, B-CV, B-TM, B-OG, B-QT
-6	##지만	O	O	O, B-CV, B-OG, B-TM, I-OG
-7	미드필더	B-CV	B-CV	B-CV, O, B-TM, I-CV, B-AF
-8	누구	O	O	O, I-CV, I-AF, B-CV, I-QT
-9	##나	O	O	O, B-PS, B-CV, I-AF, B-TM
-10	골	O	B-TM	B-TM, O, B-CV, I-TM, B-QT
-11	##을	O	O	O, I-TM, I-AF, I-CV, I-QT
-12	넣	O	O	O, B-TM, B-CV, I-TM, B-LC
-13	##는	O	O	O, B-TM, B-CV, I-TM, B-PS
-14	##다는	O	O	O, B-PS, B-TM, I-AF, B-CV
-15	점	O	O	O, B-CV, B-PS, B-LC, B-OG
-16	##도	O	O	O, B-PS, B-CV, B-LC, B-OG
-17	스페인	B-LC	B-LC	B-LC, B-OG, O, B-PS, B-CV
-18	##과	O	O	O, I-OG, I-LC, I-AF, I-CV
-19	같	O	O	O, B-CV, B-LC, I-OG, B-OG
-20	##다	O	O	O, B-CV, I-OG, B-TM, I-AF
-21	.	O	O	O, B-CV, B-LC, B-PS, B-OG
-22	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	다행히	O	O
+2	맨	B-OG	B-OG
+3	##유	I-OG	I-OG
+4	##의	O	O
+5	'	O	O
+6	에이스	O	B-CV
+7	'	O	O
+8	웨인	B-PS	B-PS
+9	루니	I-PS	I-PS
+10	(	O	O
+11	28	B-QT	B-QT
+12	·	O	O
+13	잉글랜드	B-LC	B-LC
+14	)	O	O
+15	가	O	O
+16	축	B-TM	B-TM
+17	##농	I-TM	I-TM
+18	##증	I-TM	I-TM
+19	##으로	O	O
+20	결장	O	O
+21	##한다	O	O
+22	.	O	O
+23	[SEP]	O	O

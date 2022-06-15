@@ -1,72 +1,79 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-EV, I-CV
-1	특히	O	O	O, B-OG, B-CV, B-LC, B-PS
-2	정부	B-OG	B-OG	B-OG, B-LC, O, B-PS, B-CV
-3	##가	O	O	O, I-OG, B-OG, I-EV, B-PS
-4	중국	B-OG	B-OG	B-OG, B-LC, O, I-OG, B-PS
-5	##과	O	O	O, I-OG, I-LC, B-CV, B-OG
-6	‘	O	O	O, B-LC, B-CV, B-OG, B-PS
-7	역사	O	B-FD	B-FD, O, I-FD, B-AF, B-TR
-8	공동	O	O	O, I-FD, I-EV, I-QT, B-FD
-9	연구	O	O	O, B-LC, B-FD, B-OG, B-TM
-10	’	O	O	O, B-CV, B-OG, B-LC, B-PS
-11	를	O	O	O, B-CV, B-LC, B-OG, B-TM
-12	추진	O	O	O, B-OG, B-LC, B-CV, B-TM
-13	##하기	O	O	O, B-LC, B-OG, B-PS, B-CV
-14	##로	O	O	O, B-CV, B-OG, B-PS, B-LC
-15	한	O	O	O, B-OG, B-LC, B-AF, B-CV
-16	것	O	O	O, B-OG, B-CV, B-LC, B-PS
-17	##은	O	O	O, B-OG, B-LC, B-CV, B-PS
-18	,	O	O	O, B-CV, B-OG, B-LC, B-PS
-19	일본	B-OG	B-OG	B-OG, B-LC, O, B-PS, B-TM
-20	##의	O	O	O, I-OG, I-LC, I-EV, B-CV
-21	반발	O	O	O, B-CV, B-LC, B-TM, B-OG
-22	##이	O	O	O, B-PS, B-OG, B-LC, B-CV
-23	예상	O	O	O, B-CV, B-OG, B-PS, B-LC
-24	##될	O	O	O, B-PS, B-LC, B-OG, B-CV
-25	뿐	O	O	O, B-PS, B-LC, B-OG, B-CV
-26	##만	O	O	O, B-LC, B-PS, B-OG, I-OG
-27	아니	O	O	O, B-PS, B-LC, B-OG, B-QT
-28	##라	O	O	O, B-LC, B-OG, B-PS, B-QT
-29	‘	O	O	O, B-LC, B-PS, B-QT, B-OG
-30	한	B-LC	B-OG	B-OG, B-LC, O, B-EV, B-PS
-31	·	I-LC	O	O, I-LC, I-OG, B-PS, I-PS
-32	중	I-LC	B-OG	B-OG, B-LC, O, I-OG, I-LC
-33	대	O	O	O, I-OG, I-LC, I-QT, I-EV
-34	일	O	B-OG	B-OG, B-LC, O, I-OG, I-LC
-35	’	O	O	O, I-OG, I-LC, I-EV, I-QT
-36	의	O	O	O, B-PS, B-LC, B-OG, B-QT
-37	대립	O	O	O, B-CV, B-LC, B-PS, B-TM
-38	구도	O	O	O, B-LC, B-CV, B-PS, B-OG
-39	##를	O	O	O, B-CV, B-OG, B-LC, B-PS
-40	피하	O	O	O, B-LC, B-CV, B-OG, B-PS
-41	##려	O	O	O, B-LC, B-PS, B-OG, B-CV
-42	애써	O	O	O, B-LC, B-OG, B-CV, B-PS
-43	##온	O	O	O, B-LC, B-PS, B-OG, B-CV
-44	미국	B-OG	B-OG	B-OG, B-LC, O, B-PS, I-OG
-45	##을	O	O	O, I-OG, I-LC, B-OG, B-CV
-46	더욱	O	O	O, B-QT, B-OG, B-TM, B-LC
-47	곤혹	O	O	O, B-CV, B-LC, B-OG, B-TM
-48	##스럽	O	O	O, B-LC, B-PS, B-OG, I-OG
-49	##게	O	O	O, B-LC, B-PS, B-OG, B-QT
-50	하	O	O	O, B-LC, B-PS, B-CV, B-OG
-51	##는	O	O	O, B-LC, B-PS, B-CV, B-TM
-52	것	O	O	O, B-LC, B-CV, B-OG, B-PS
-53	##이어	O	O	O, B-CV, B-PS, B-LC, B-OG
-54	##서	O	O	O, B-LC, B-CV, B-OG, B-TM
-55	사태	O	O	O, B-CV, B-OG, B-PS, B-LC
-56	추이	O	O	O, B-LC, B-CV, B-OG, B-PS
-57	##에	O	O	O, B-CV, B-LC, B-OG, B-PS
-58	따라	O	O	O, B-LC, B-OG, B-PS, B-CV
-59	##선	O	O	O, B-LC, B-OG, B-PS, B-CV
-60	상당	O	O	O, B-LC, B-OG, B-CV, B-TM
-61	##한	O	O	O, B-LC, B-OG, B-PS, B-TM
-62	외교	O	O	O, B-LC, B-FD, B-CV, B-OG
-63	##적	O	O	O, B-LC, B-PS, I-LC, B-TM
-64	파장	O	O	O, B-LC, B-TM, B-CV, B-PS
-65	##이	O	O	O, B-PS, B-OG, B-LC, B-CV
-66	불가피	O	O	O, B-OG, B-CV, B-TM, B-PS
-67	##해	O	O	O, B-OG, B-LC, B-PS, B-QT
-68	보인다	O	O	O, B-CV, I-OG, B-TM, B-OG
-69	.	O	O	O, B-LC, B-OG, B-PS, B-CV
-70	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	연구	O	O
+2	##팀	O	O
+3	조사	O	O
+4	결과	O	O
+5	2009	B-DT	B-DT
+6	##년	I-DT	I-DT
+7	신종	B-TM	B-TM
+8	##플	I-TM	I-TM
+9	##루	I-TM	I-TM
+10	(	O	O
+11	H	O	B-TM
+12	##1	O	I-TM
+13	##N	O	I-TM
+14	##1	O	I-TM
+15	)	O	O
+16	감염	O	O
+17	환자	B-CV	B-CV
+18	9	B-QT	B-QT
+19	##명	I-QT	I-QT
+20	##에	O	O
+21	##게	O	O
+22	##서	O	O
+23	발견	O	O
+24	##된	O	O
+25	항체	O	O
+26	##는	O	O
+27	특이	O	O
+28	##하	O	O
+29	##게	O	O
+30	##도	O	O
+31	지난	B-DT	B-DT
+32	10	I-DT	I-DT
+33	##년	I-DT	I-DT
+34	##간	I-DT	I-DT
+35	나타난	O	O
+36	모든	O	O
+37	계절	B-TM	B-TM
+38	##성	I-TM	I-TM
+39	독감	I-TM	I-TM
+40	##바이	I-TM	I-TM
+41	##러스	I-TM	I-TM
+42	##는	O	O
+43	물론	O	O
+44	,	O	O
+45	1918	B-DT	B-DT
+46	##년	I-DT	I-DT
+47	세계	O	O
+48	##를	O	O
+49	휩쓸	O	O
+50	##었	O	O
+51	##던	O	O
+52	스페인	B-LC	B-TM
+53	독감	B-TM	I-TM
+54	##과	O	O
+55	심지어	O	O
+56	조류	B-TM	B-TM
+57	##인	I-TM	I-TM
+58	##플	I-TM	I-TM
+59	##루엔자	I-TM	I-TM
+60	(	I-TM	I-TM
+61	H	I-TM	I-TM
+62	##5	I-TM	I-TM
+63	##N	I-TM	I-TM
+64	##1	I-TM	I-TM
+65	)	I-TM	I-TM
+66	바이러스	I-TM	I-TM
+67	##에	O	O
+68	##까	O	O
+69	##지	O	O
+70	면역	O	O
+71	##반	O	O
+72	##응	O	O
+73	##을	O	O
+74	나타냈	O	O
+75	##다	O	O
+76	.	O	O
+77	[SEP]	O	O

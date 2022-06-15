@@ -1,20 +1,40 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	서울시	B-LC	B-OG	B-OG, B-LC, B-PS, O, B-AF
-2	##가	O	O	O, I-OG, B-OG, I-LC, I-AF
-3	지하철	B-AF	B-AF	B-AF, O, I-AF, B-LC, B-OG
-4	9	B-AF	B-AF	B-AF, I-AF, O, B-LC, B-QT
-5	##호	I-AF	I-AF	I-AF, O, I-QT, I-OG, I-EV
-6	##선	I-AF	I-AF	I-AF, O, I-QT, I-EV, I-OG
-7	3	B-QT	B-QT	B-QT, I-AF, I-QT, B-DT, O
-8	##단	I-QT	I-QT	I-QT, I-AF, I-EV, O, B-QT
-9	##계	I-QT	I-QT	I-QT, O, I-AF, I-EV, I-LC
-10	구간	O	O	O, I-QT, I-AF, I-EV, I-DT
-11	##을	O	O	O, B-LC, B-OG, B-CV, B-TM
-12	내년	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-13	초	I-DT	I-DT	I-DT, O, I-QT, I-PS, I-TI
-14	##에	O	O	O, I-DT, B-CV, B-OG, I-OG
-15	착공	O	O	O, B-LC, B-CV, B-OG, B-AF
-16	##한다	O	O	O, B-LC, B-OG, B-CV, B-AF
-17	.	O	O	O, B-LC, B-OG, B-AF, B-CV
-18	[SEP]	O	O	O, B-LC, B-OG, B-CV, B-AF
+	text	label	preds
+0	[CLS]	O	O
+1	북한	B-LC	B-OG
+2	##의	O	O
+3	핵과	O	O
+4	미사일	O	B-AF
+5	공격	O	O
+6	가능	O	O
+7	##성	O	O
+8	##에	O	O
+9	대해	O	O
+10	미국	O	B-LC
+11	##의	O	O
+12	핵	B-AF	B-AF
+13	##우	O	O
+14	##산	O	O
+15	##과	O	O
+16	재래식	O	O
+17	무기	O	O
+18	,	O	O
+19	미사일	B-AF	B-AF
+20	##방	O	I-AF
+21	##어	O	I-AF
+22	등	O	O
+23	모든	O	O
+24	군사	O	O
+25	##능력	O	O
+26	##을	O	O
+27	동원	O	O
+28	##해	O	O
+29	사전	O	O
+30	##에	O	O
+31	억제	O	O
+32	##하	O	O
+33	##겠다	O	O
+34	##는	O	O
+35	내용	O	O
+36	##이다	O	O
+37	.	O	O
+38	[SEP]	O	O

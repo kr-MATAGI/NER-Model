@@ -1,58 +1,42 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-QT
-1	재판부	O	O	O, B-OG, B-CV, B-PS, I-OG
-2	##는	O	O	O, I-OG, I-CV, B-PS, B-CV
-3	또	O	O	O, B-CV, B-LC, B-PS, B-TM
-4	“	O	O	O, B-CV, B-LC, B-PS, B-OG
-5	부모	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-PS
-6	동의	O	O	O, I-CV, B-CV, B-PS, B-TM
-7	없이	O	O	O, B-PS, B-LC, B-CV, I-CV
-8	미성년자	B-CV	O	O, B-CV, I-CV, B-OG, B-TM
-9	##들	O	O	O, I-CV, B-PS, B-CV, I-OG
-10	##과	O	O	O, B-CV, B-PS, B-TM, B-LC
-11	정보	O	O	O, B-CV, B-TM, B-LC, B-PS
-12	##이	O	O	O, I-CV, B-CV, B-PS, B-LC
-13	##용	O	O	O, I-CV, B-CV, B-PS, I-PS
-14	##계약	O	O	O, I-CV, B-CV, B-PS, B-LC
-15	##을	O	O	O, B-CV, B-PS, B-LC, B-OG
-16	체결	O	O	O, B-CV, B-LC, B-OG, B-PS
-17	##한	O	O	O, B-PS, B-LC, B-CV, B-OG
-18	것	O	O	O, B-CV, B-PS, B-LC, B-OG
-19	##은	O	O	O, B-PS, B-CV, B-LC, B-OG
-20	무효	O	O	O, B-CV, B-PS, I-CV, B-OG
-21	”	O	O	O, I-CV, B-CV, B-PS, I-OG
-22	라는	O	O	O, B-PS, B-CV, B-LC, B-QT
-23	원고	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-OG
-24	주장	O	O	O, I-CV, B-CV, B-PS, B-TM
-25	##도	O	O	O, I-CV, B-PS, B-CV, B-LC
-26	“	O	O	O, B-CV, B-PS, B-LC, B-OG
-27	김	B-PS	B-PS	B-PS, O, B-LC, I-PS, B-OG
-28	##군	I-PS	O	O, I-PS, B-PS, B-CV, I-LC
-29	등	O	O	O, B-PS, I-PS, B-AM, B-CV
-30	##과	O	O	O, B-CV, B-PS, B-TM, I-PS
-31	계약	O	O	O, B-CV, B-OG, B-TM, B-LC
-32	##을	O	O	O, B-CV, B-PS, B-OG, B-LC
-33	맺	O	O	O, B-CV, B-OG, B-PS, B-LC
-34	##은	O	O	O, B-PS, B-CV, B-LC, B-OG
-35	당사자	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-TM
-36	##는	O	O	O, I-CV, B-CV, B-PS, I-OG
-37	에스	B-OG	B-OG	B-OG, O, B-LC, B-PS, B-CV
-38	##케이	I-OG	I-OG	I-OG, O, B-OG, I-LC, I-PS
-39	##텔	I-OG	I-OG	I-OG, O, B-OG, I-LC, I-CV
-40	##레	I-OG	I-OG	I-OG, O, B-OG, I-LC, I-CV
-41	##콤	I-OG	I-OG	I-OG, O, I-LC, B-OG, I-CV
-42	##이	O	O	O, I-OG, B-PS, B-CV, I-CV
-43	아닌	O	O	O, B-PS, B-CV, B-LC, B-OG
-44	정보	O	O	O, B-CV, B-OG, B-TM, B-LC
-45	##제	O	O	O, I-OG, I-CV, B-CV, B-OG
-46	##공업	O	O	O, I-OG, I-CV, I-QT, I-LC
-47	##체	O	O	O, I-OG, I-CV, I-QT, I-LC
-48	”	O	O	O, B-CV, I-OG, B-PS, I-CV
-49	라며	O	O	O, B-LC, B-PS, B-OG, B-CV
-50	받아들이	O	O	O, B-OG, B-CV, B-PS, B-LC
-51	##지	O	O	O, I-OG, B-OG, B-PS, B-CV
-52	않	O	O	O, I-OG, B-OG, B-CV, B-PS
-53	##았	O	O	O, I-OG, B-OG, B-CV, I-CV
-54	##다	O	O	O, I-OG, B-CV, I-CV, B-PS
-55	.	O	O	O, B-CV, B-LC, B-PS, B-OG
-56	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	일본	B-LC	B-LC
+2	##의	O	O
+3	대표	O	O
+4	##적	O	O
+5	##인	O	O
+6	지	B-OG	B-OG
+7	##한	I-OG	I-OG
+8	##파	I-OG	I-OG
+9	언론인	B-CV	B-CV
+10	##인	O	O
+11	와카	B-PS	B-PS
+12	##미야	I-PS	I-PS
+13	요시	I-PS	I-PS
+14	##부	I-PS	I-PS
+15	##미	I-PS	I-PS
+16	(	O	O
+17	若	O	O
+18	宮	O	O
+19	啓	O	O
+20	文	O	O
+21	·	O	O
+22	65	B-QT	B-QT
+23	)	O	O
+24	전	O	O
+25	아사히	B-OG	B-OG
+26	##신문	I-OG	I-OG
+27	주	B-CV	O
+28	##필	I-CV	O
+29	##이	O	O
+30	그	O	O
+31	##의	O	O
+32	경험	O	O
+33	##을	O	O
+34	담아	O	O
+35	책	O	O
+36	##을	O	O
+37	펴냈	O	O
+38	##다	O	O
+39	.	O	O
+40	[SEP]	O	O

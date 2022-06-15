@@ -1,40 +1,34 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	‘	O	O	O, B-LC, B-PS, B-CV, B-OG
-2	투자	O	O	O, B-PS, B-CV, B-LC, I-PS
-3	##의	O	O	O, I-PS, B-PS, I-AF, I-CV
-4	귀	O	O	O, I-PS, B-PS, B-CV, B-AM
-5	##재	O	O	O, I-PS, I-CV, B-PS, I-AF
-6	’	O	O	O, I-PS, B-PS, B-LC, B-DT
-7	‘	O	O	O, B-PS, B-LC, B-CV, B-DT
-8	오마	B-LC	B-PS	B-PS, B-LC, O, B-AF, I-PS
-9	##하	I-LC	I-PS	I-PS, I-LC, O, I-AF, B-PS
-10	##의	O	I-PS	I-PS, O, I-LC, I-AF, B-PS
-11	현인	O	I-PS	I-PS, O, B-PS, B-CV, I-AF
-12	’	O	O	O, I-PS, B-PS, I-CV, B-CV
-13	으로	O	O	O, B-PS, I-PS, B-LC, B-CV
-14	불리	O	O	O, B-PS, I-PS, B-LC, B-CV
-15	##는	O	O	O, I-PS, B-PS, B-LC, I-LC
-16	워런	B-PS	B-PS	B-PS, O, I-PS, B-LC, B-OG
-17	버핏	I-PS	I-PS	I-PS, B-PS, O, I-LC, I-OG
-18	(	O	O	O, I-PS, B-CV, B-LC, I-OG
-19	79	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-LC
-20	)	O	O	O, I-QT, I-DT, I-OG, I-EV
-21	버크	B-OG	B-OG	B-OG, O, B-AF, B-PS, B-LC
-22	##셔	I-OG	I-OG	I-OG, O, I-LC, I-CV, I-AF
-23	##해서	I-OG	I-OG	I-OG, O, I-LC, I-CV, I-AF
-24	##웨이	I-OG	I-OG	I-OG, O, I-LC, I-CV, I-AF
-25	회장	B-CV	B-CV	B-CV, I-OG, O, I-CV, B-PS
-26	##이	O	O	O, I-CV, B-CV, I-OG, I-EV
-27	지난해	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-28	자신	O	O	O, I-DT, B-CV, I-QT, I-EV
-29	##이	O	O	O, B-PS, B-CV, B-LC, B-OG
-30	저지른	O	O	O, B-CV, B-LC, B-PS, B-OG
-31	투자	O	O	O, B-CV, B-TM, B-FD, B-PS
-32	실수	O	O	O, B-CV, I-CV, B-TM, B-PS
-33	##를	O	O	O, B-CV, B-PS, B-OG, I-CV
-34	시인	O	O	O, B-CV, B-LC, B-OG, B-PS
-35	##했	O	O	O, B-CV, B-LC, B-PS, B-OG
-36	##다	O	O	O, B-CV, B-LC, B-OG, B-PS
-37	.	O	O	O, B-PS, B-LC, B-CV, B-OG
-38	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	또	O	O
+2	러시아	B-LC	B-OG
+3	##는	O	O
+4	베트남	B-LC	B-LC
+5	##의	O	O
+6	첫	O	O
+7	핵	O	B-AF
+8	##발전	O	O
+9	##소	O	O
+10	건설	O	O
+11	##을	O	O
+12	돕	O	O
+13	##고	O	O
+14	있	O	O
+15	##고	O	O
+16	헬기	B-AF	B-AF
+17	##도	O	O
+18	함께	O	O
+19	생산	O	O
+20	##하	O	O
+21	##는	O	O
+22	등	O	O
+23	다방면	O	O
+24	##의	O	O
+25	합작	O	O
+26	사업	O	O
+27	##도	O	O
+28	추진	O	O
+29	중이	O	O
+30	##다	O	O
+31	.	O	O
+32	[SEP]	O	O

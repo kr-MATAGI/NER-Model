@@ -1,31 +1,59 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-AF, I-OG, B-CV, I-CV
-1	징	B-AF	B-AF	B-AF, B-OG, O, B-LC, B-PS
-2	##광	I-AF	I-OG	I-OG, I-AF, O, I-LC, I-PS
-3	고속철	I-AF	I-AF	I-AF, B-AF, O, I-OG, I-TM
-4	노선	O	O	O, I-AF, I-OG, B-AF, I-LC
-5	##은	O	O	O, I-AF, B-LC, B-CV, B-OG
-6	베이징	B-LC	B-LC	B-LC, O, B-AF, B-OG, B-PS
-7	,	O	O	O, I-LC, I-AF, B-LC, I-OG
-8	정	B-LC	B-LC	B-LC, O, B-AF, B-OG, B-PS
-9	##저우	I-LC	I-LC	I-LC, O, I-AF, B-LC, I-OG
-10	,	O	O	O, I-LC, B-LC, I-AF, I-OG
-11	우	B-LC	B-LC	B-LC, O, B-AF, B-OG, B-PS
-12	##한	I-LC	I-LC	I-LC, O, I-AF, B-LC, I-OG
-13	,	O	O	O, I-LC, I-AF, B-LC, I-OG
-14	광저우	B-LC	B-LC	B-LC, O, B-AF, B-OG, I-LC
-15	,	O	O	O, I-LC, I-AF, B-LC, I-OG
-16	선전	B-LC	B-LC	B-LC, O, B-AF, B-OG, B-PS
-17	등	O	O	O, I-LC, B-LC, I-AF, B-AF
-18	28	B-QT	B-QT	B-QT, O, I-QT, B-LC, B-DT
-19	##개	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-20	도시	O	O	O, I-QT, I-LC, B-LC, I-AF
-21	,	O	O	O, B-LC, I-LC, I-AF, I-QT
-22	35	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-LC
-23	##개	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-24	역	O	O	O, I-QT, I-LC, B-LC, I-AF
-25	##을	O	O	O, B-LC, I-QT, B-CV, I-AF
-26	경유	O	O	O, B-CV, B-LC, B-TM, B-AF
-27	##한다	O	O	O, B-LC, B-CV, B-OG, B-AF
-28	.	O	O	O, B-LC, B-AF, B-CV, I-AF
-29	[SEP]	O	O	O, B-LC, B-AF, I-AF, I-LC
+	text	label	preds
+0	[CLS]	O	O
+1	70	B-DT	B-DT
+2	~	I-DT	I-DT
+3	80	I-DT	I-DT
+4	##년	I-DT	I-DT
+5	전	I-DT	I-DT
+6	평양	B-LC	B-LC
+7	##과	O	O
+8	평안	B-LC	B-LC
+9	##도	I-LC	I-LC
+10	일대	O	O
+11	##의	O	O
+12	성당	O	O
+13	부근	O	O
+14	##에	O	O
+15	##서	O	O
+16	찍힌	O	O
+17	그	O	O
+18	##들의	O	O
+19	사진	O	O
+20	##은	O	O
+21	시인	B-CV	B-CV
+22	백	B-PS	B-PS
+23	##석	I-PS	I-PS
+24	(	O	O
+25	1912	B-DT	B-DT
+26	~	I-DT	I-DT
+27	1996	I-DT	I-DT
+28	)	O	O
+29	이	O	O
+30	평안	B-LC	B-LC
+31	##도	I-LC	I-LC
+32	사람	O	O
+33	##과	O	O
+34	풍속	O	O
+35	##들	O	O
+36	##에	O	O
+37	대해	O	O
+38	썼	O	O
+39	##던	O	O
+40	‘	O	O
+41	여우	B-AF	O
+42	##난	I-AF	O
+43	##골	I-AF	O
+44	##족	I-AF	O
+45	’	O	O
+46	같	O	O
+47	##은	O	O
+48	여러	O	O
+49	향토	O	O
+50	##시	O	O
+51	##들의	O	O
+52	정경	O	O
+53	그	O	O
+54	자체	O	O
+55	##다	O	O
+56	.	O	O
+57	[SEP]	O	O

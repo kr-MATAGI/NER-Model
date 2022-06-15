@@ -1,48 +1,24 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	간	B-PS	B-PS	B-PS, O, B-LC, B-OG, I-PS
-2	총리	B-CV	B-CV	B-CV, I-PS, O, I-CV, B-OG
-3	주변	O	O	O, B-CV, I-CV, B-PS, B-TM
-4	인사	B-CV	O	O, B-CV, I-CV, B-PS, B-QT
-5	##들	O	O	O, I-CV, B-PS, B-CV, I-OG
-6	##은	O	O	O, B-CV, B-PS, B-LC, B-OG
-7	비록	O	O	O, B-CV, B-LC, B-TM, B-PS
-8	선거	O	O	O, B-CV, B-PS, B-EV, I-EV
-9	##에	O	O	O, B-PS, B-CV, I-EV, B-LC
-10	불리	O	O	O, B-LC, B-CV, B-OG, B-PS
-11	##하	O	O	O, B-PS, B-LC, B-OG, I-PS
-12	##더라	O	O	O, B-PS, B-LC, B-OG, I-OG
-13	##도	O	O	O, B-PS, B-LC, B-OG, B-CV
-14	책임	O	O	O, B-CV, B-PS, B-LC, B-TM
-15	##있	O	O	O, B-PS, B-CV, B-LC, I-CV
-16	##는	O	O	O, B-PS, B-LC, B-CV, B-OG
-17	자세	O	O	O, B-CV, B-PS, B-LC, B-TM
-18	##를	O	O	O, B-PS, B-CV, B-LC, B-OG
-19	보여야	O	O	O, B-PS, B-CV, B-LC, B-OG
-20	하	O	O	O, B-PS, B-CV, B-LC, B-OG
-21	##며	O	O	O, B-LC, B-OG, B-PS, B-CV
-22	,	O	O	O, B-CV, B-LC, B-OG, B-PS
-23	자민	B-OG	B-OG	B-OG, O, B-PS, B-LC, B-CV
-24	##당	I-OG	I-OG	I-OG, O, I-LC, I-PS, I-AF
-25	##이	O	O	O, I-OG, B-PS, B-CV, I-AF
-26	세율	O	O	O, B-CV, B-TM, B-FD, B-LC
-27	인상	O	O	O, B-CV, I-CV, B-TM, B-PS
-28	##을	O	O	O, B-CV, B-PS, B-LC, I-CV
-29	공약	O	O	O, B-CV, B-PS, B-LC, B-TM
-30	##한	O	O	O, B-PS, B-CV, B-LC, B-OG
-31	만큼	O	O	O, B-CV, B-LC, B-PS, B-OG
-32	쟁점	O	O	O, B-CV, B-LC, B-TM, B-PS
-33	##화	O	O	O, B-PS, I-CV, B-LC, B-CV
-34	##는	O	O	O, B-CV, B-LC, B-PS, B-OG
-35	피할	O	O	O, B-CV, B-TM, B-LC, B-PS
-36	수	O	O	O, B-PS, B-LC, B-CV, B-OG
-37	없	O	O	O, B-CV, B-PS, B-TM, B-LC
-38	##다고	O	O	O, B-PS, B-CV, B-LC, B-TM
-39	보	O	O	O, B-CV, B-PS, B-OG, B-QT
-40	##는	O	O	O, B-CV, B-PS, I-OG, I-CV
-41	것	O	O	O, B-CV, B-PS, B-QT, B-TM
-42	##으로	O	O	O, B-CV, I-OG, B-PS, B-TM
-43	알려졌	O	O	O, B-CV, B-LC, B-TM, B-OG
-44	##다	O	O	O, B-CV, B-LC, B-TM, I-OG
-45	.	O	O	O, B-PS, B-CV, B-LC, B-OG
-46	[SEP]	O	O	O, B-CV, B-PS, B-LC, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	미국	B-LC	B-LC
+2	통계청	B-OG	B-OG
+3	##은	O	O
+4	베이비	B-CV	O
+5	부	I-CV	O
+6	##머	I-CV	O
+7	##를	O	O
+8	‘	O	O
+9	합계	O	O
+10	##출산	O	O
+11	##율	O	O
+12	3	O	O
+13	.	O	O
+14	0	O	O
+15	이상인	O	O
+16	세대	O	O
+17	’	O	O
+18	로	O	O
+19	규정	O	O
+20	##한다	O	O
+21	.	O	O
+22	[SEP]	O	O

@@ -1,37 +1,56 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-EV, I-OG
-1	회원	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-OG
-2	##들	O	O	O, I-CV, B-CV, I-EV, I-OG
-3	##과	O	O	O, B-CV, B-PS, B-TM, B-LC
-4	함께	O	O	O, B-CV, B-LC, B-PS, B-TM
-5	각종	O	O	O, B-LC, B-AF, B-CV, B-TM
-6	철도	O	O	O, B-AF, B-LC, B-OG, B-EV
-7	##나	O	O	O, I-AF, I-EV, I-OG, I-LC
-8	지하철	B-AF	B-AF	B-AF, O, I-AF, B-LC, B-OG
-9	시승	O	O	O, I-EV, B-EV, I-AF, B-CV
-10	##회	O	O	O, I-EV, I-AF, I-LC, I-OG
-11	##에	O	O	O, I-EV, B-CV, B-PS, B-LC
-12	참여	O	O	O, B-CV, B-LC, B-PS, B-OG
-13	##하	O	O	O, B-PS, B-LC, B-CV, I-EV
-14	##거나	O	O	O, B-LC, B-CV, B-PS, B-OG
-15	정부	B-OG	B-OG	B-OG, O, B-CV, B-AF, B-LC
-16	##나	O	O	O, I-OG, I-EV, I-AF, I-CV
-17	지자체	O	O	O, B-OG, B-CV, B-LC, I-OG
-18	##가	O	O	O, B-PS, I-OG, B-OG, B-LC
-19	주최	O	O	O, B-CV, B-LC, B-PS, B-TM
-20	##하	O	O	O, B-LC, B-PS, B-CV, B-OG
-21	##는	O	O	O, B-LC, B-CV, B-EV, B-PS
-22	철도	O	O	O, B-AF, B-LC, B-EV, B-OG
-23	관련	O	O	O, I-EV, I-AF, I-TM, I-OG
-24	사업	O	O	O, I-EV, B-EV, I-TM, B-LC
-25	공청회	B-EV	O	O, B-EV, I-EV, B-CV, B-LC
-26	##에	O	O	O, I-EV, B-CV, B-PS, I-DT
-27	시민	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-OG
-28	대표	B-CV	B-CV	B-CV, I-CV, O, I-EV, B-TM
-29	##로	O	O	O, I-CV, B-CV, I-EV, I-QT
-30	참석	O	O	O, B-CV, B-LC, B-PS, B-EV
-31	##하기	O	O	O, B-PS, B-CV, I-CV, B-LC
-32	##도	O	O	O, B-CV, B-LC, B-PS, I-EV
-33	한다	O	O	O, B-CV, B-PS, B-TM, B-LC
-34	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-35	[SEP]	O	O	O, B-CV, B-LC, B-PS, I-EV
+	text	label	preds
+0	[CLS]	O	O
+1	작년	B-DT	B-DT
+2	통진	B-EV	B-OG
+3	##당	I-EV	I-OG
+4	분당	I-EV	O
+5	사태	I-EV	O
+6	##로	O	O
+7	갈라져	O	O
+8	나온	O	O
+9	정의당	B-OG	B-OG
+10	##은	O	O
+11	강령	O	O
+12	##에	O	O
+13	##서	O	O
+14	'	O	O
+15	시민	B-CV	B-CV
+16	##이	O	O
+17	참여	O	O
+18	##하	O	O
+19	##는	O	O
+20	대중	O	O
+21	##적	O	O
+22	진보	O	O
+23	##정	O	O
+24	##당	O	O
+25	##으로	O	O
+26	나아갈	O	O
+27	것	O	O
+28	'	O	O
+29	'	O	O
+30	모든	O	O
+31	사람	O	O
+32	##이	O	O
+33	자유	O	O
+34	##롭	O	O
+35	##고	O	O
+36	평등	O	O
+37	##하	O	O
+38	##며	O	O
+39	더불	O	O
+40	##어	O	O
+41	사	O	O
+42	##는	O	O
+43	세상	O	O
+44	##을	O	O
+45	이	O	O
+46	##룰	O	O
+47	것	O	O
+48	'	O	O
+49	이라	O	O
+50	##고	O	O
+51	밝혔	O	O
+52	##다	O	O
+53	.	O	O
+54	[SEP]	O	O

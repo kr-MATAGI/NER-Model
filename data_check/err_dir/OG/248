@@ -1,15 +1,55 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, I-OG, B-CV, I-AF
-1	교사	B-CV	B-CV	B-CV, O, B-OG, I-CV, B-AF
-2	·	O	O	O, I-CV, I-OG, I-AF, I-QT
-3	교육청	B-OG	O	O, B-OG, B-CV, B-AF, I-OG
-4	·	O	O	O, I-OG, I-CV, I-AF, B-PS
-5	주민	B-CV	B-CV	B-CV, O, B-OG, I-CV, B-TM
-6	밀	O	O	O, I-CV, B-TM, B-PS, B-CV
-7	##고	O	O	O, B-PS, B-LC, I-CV, B-TM
-8	끌	O	O	O, B-LC, B-TM, B-PS, B-CV
-9	##며	O	O	O, B-LC, B-PS, B-TM, B-OG
-10	힘	O	O	O, B-CV, B-LC, B-PS, B-OG
-11	##보	O	O	O, B-CV, B-PS, I-CV, B-OG
-12	##태	O	O	O, B-PS, I-CV, B-LC, I-OG
-13	[SEP]	O	O	O, B-LC, B-CV, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	2009	B-DT	B-DT
+2	##년	I-DT	I-DT
+3	##에	O	O
+4	##는	O	O
+5	녹색	O	O
+6	##경	O	O
+7	##영	O	O
+8	중장	O	O
+9	##기	O	O
+10	로드맵	O	O
+11	##인	O	O
+12	‘	O	O
+13	에코	B-OG	O
+14	매니지먼트	I-OG	O
+15	(	O	O
+16	E	O	O
+17	##co	O	O
+18	-	O	O
+19	Man	O	O
+20	##agement	O	O
+21	2013	B-DT	B-DT
+22	)	O	O
+23	’	O	O
+24	을	O	O
+25	발표	O	O
+26	##하	O	O
+27	##고	O	O
+28	회사	O	O
+29	##의	O	O
+30	경영	O	O
+31	##이	O	O
+32	##념	O	O
+33	##과	O	O
+34	경영	O	O
+35	##원	O	O
+36	##칙	O	O
+37	##에	O	O
+38	근거	O	O
+39	##한	O	O
+40	녹색	B-TM	O
+41	##경	O	O
+42	##영	O	O
+43	가치	O	O
+44	##체	O	O
+45	##계	O	O
+46	##를	O	O
+47	새롭	O	O
+48	##게	O	O
+49	정립	O	O
+50	##했	O	O
+51	##다	O	O
+52	.	O	O
+53	[SEP]	O	O

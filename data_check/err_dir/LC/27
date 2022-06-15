@@ -1,58 +1,59 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-EV, I-CV
-1	또	O	O	O, B-CV, B-OG, B-LC, B-TM
-2	“	O	O	O, B-LC, B-CV, B-OG, B-PS
-3	북한	B-LC	B-LC	B-LC, B-OG, O, B-PS, B-AF
-4	##의	O	O	O, I-OG, I-LC, B-PS, B-LC
-5	핵무기	B-AF	B-AF	B-AF, O, I-AF, B-MT, B-LC
-6	##와	O	O	O, I-AF, I-OG, B-CV, I-PS
-7	탄도	B-AF	B-AF	B-AF, O, I-AF, B-TM, B-LC
-8	##미사	I-AF	I-AF	I-AF, O, B-AF, I-OG, I-TM
-9	##일	I-AF	I-AF	I-AF, O, I-CV, I-OG, I-TM
-10	프로그램	O	O	O, I-AF, I-CV, B-CV, I-LC
-11	##은	O	O	O, B-LC, B-PS, B-OG, I-AF
-12	미국	B-LC	B-OG	B-OG, B-LC, O, B-PS, B-CV
-13	##과	O	O	O, I-OG, I-LC, B-PS, I-AF
-14	동맹국	O	O	O, B-CV, B-OG, B-LC, B-AF
-15	##에	O	O	O, I-OG, B-PS, B-LC, I-CV
-16	큰	O	O	O, B-LC, B-OG, B-CV, B-PS
-17	위협	O	O	O, B-CV, B-LC, B-OG, B-TM
-18	##이	O	O	O, B-PS, B-LC, B-CV, B-OG
-19	되	O	O	O, B-CV, B-LC, B-PS, B-OG
-20	##고	O	O	O, B-PS, B-LC, B-CV, I-OG
-21	있	O	O	O, B-PS, B-LC, B-CV, B-OG
-22	##다	O	O	O, B-PS, B-LC, B-CV, B-OG
-23	”	O	O	O, B-CV, B-LC, B-PS, B-OG
-24	며	O	O	O, B-LC, B-OG, B-CV, B-PS
-25	“	O	O	O, B-LC, B-CV, B-PS, B-OG
-26	주한	B-OG	B-OG	B-OG, O, B-CV, B-AF, B-LC
-27	##미	I-OG	I-OG	I-OG, B-OG, O, I-CV, B-CV
-28	##군	I-OG	I-OG	I-OG, O, I-CV, I-AF, B-OG
-29	##을	O	O	O, I-OG, I-AF, I-CV, I-EV
-30	비롯	O	O	O, B-OG, I-OG, B-LC, B-PS
-31	##한	O	O	O, B-OG, B-LC, B-PS, I-OG
-32	미군	B-OG	B-OG	B-OG, O, I-OG, B-CV, B-LC
-33	##들	O	O	O, I-OG, I-AF, I-CV, I-LC
-34	##은	O	O	O, B-LC, B-OG, B-PS, B-CV
-35	본국	O	O	O, B-LC, B-PS, B-OG, B-CV
-36	##의	O	O	O, B-PS, B-LC, I-LC, B-OG
-37	미국인	B-CV	B-CV	B-CV, O, B-OG, B-TM, I-CV
-38	##과	O	O	O, I-CV, I-OG, I-AF, B-PS
-39	해외	O	O	O, B-LC, B-OG, B-CV, B-PS
-40	##의	O	O	O, B-LC, B-PS, B-OG, I-LC
-41	동맹국	O	O	O, B-CV, B-OG, B-LC, B-AF
-42	##을	O	O	O, I-CV, I-OG, B-PS, B-CV
-43	보호	O	O	O, B-CV, B-LC, B-TM, B-OG
-44	##하기	O	O	O, B-LC, B-PS, B-OG, B-CV
-45	위해	O	O	O, B-LC, B-OG, B-PS, B-TM
-46	헌신	O	O	O, B-LC, B-CV, B-OG, B-PS
-47	##할	O	O	O, B-LC, B-PS, B-CV, B-OG
-48	것	O	O	O, B-CV, B-PS, B-LC, B-OG
-49	”	O	O	O, B-CV, I-OG, B-LC, B-PS
-50	이라	O	O	O, B-CV, B-PS, B-OG, B-LC
-51	##고	O	O	O, B-CV, B-OG, B-LC, I-OG
-52	강조	O	O	O, B-CV, B-OG, B-LC, B-TM
-53	##했	O	O	O, I-OG, B-CV, B-PS, B-LC
-54	##다	O	O	O, B-CV, B-LC, B-OG, B-PS
-55	.	O	O	O, B-LC, B-OG, B-PS, B-CV
-56	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	또	O	O
+2	“	O	O
+3	북한	B-LC	B-OG
+4	##의	O	O
+5	핵무기	B-AF	B-AF
+6	##와	O	O
+7	탄도	B-AF	B-AF
+8	##미사	I-AF	I-AF
+9	##일	I-AF	I-AF
+10	프로그램	O	O
+11	##은	O	O
+12	미국	B-LC	B-LC
+13	##과	O	O
+14	동맹국	O	O
+15	##에	O	O
+16	큰	O	O
+17	위협	O	O
+18	##이	O	O
+19	되	O	O
+20	##고	O	O
+21	있	O	O
+22	##다	O	O
+23	”	O	O
+24	며	O	O
+25	“	O	O
+26	주한	B-OG	B-OG
+27	##미	I-OG	I-OG
+28	##군	I-OG	I-OG
+29	##을	O	O
+30	비롯	O	O
+31	##한	O	O
+32	미군	B-OG	B-OG
+33	##들	O	O
+34	##은	O	O
+35	본국	O	O
+36	##의	O	O
+37	미국인	B-CV	B-CV
+38	##과	O	O
+39	해외	O	O
+40	##의	O	O
+41	동맹국	O	O
+42	##을	O	O
+43	보호	O	O
+44	##하	O	O
+45	##기	O	O
+46	위해	O	O
+47	헌신	O	O
+48	##할	O	O
+49	것	O	O
+50	”	O	O
+51	이라	O	O
+52	##고	O	O
+53	강조	O	O
+54	##했	O	O
+55	##다	O	O
+56	.	O	O
+57	[SEP]	O	O

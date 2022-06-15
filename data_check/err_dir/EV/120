@@ -1,60 +1,52 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-EV, B-CV, I-OG, I-CV
-1	7	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-QT
-2	##일	I-DT	I-DT	I-DT, O, B-DT, I-EV, I-QT
-3	열리	O	O	O, I-DT, B-CV, I-EV, B-OG
-4	##는	O	O	O, B-OG, B-PS, B-LC, B-EV
-5	새	B-OG	B-OG	B-OG, O, I-OG, B-PS, B-LC
-6	##정	I-OG	I-OG	I-OG, O, B-OG, I-EV, I-LC
-7	##치	I-OG	I-OG	I-OG, O, B-OG, I-EV, I-AF
-8	##민주	I-OG	I-OG	I-OG, O, B-OG, I-EV, I-AF
-9	##연합	I-OG	I-OG	I-OG, O, I-EV, B-OG, I-AF
-10	##의	I-OG	O	O, I-OG, I-EV, B-PS, I-AF
-11	차기	B-EV	O	O, B-EV, B-CV, B-PS, B-LC
-12	원내대표	I-EV	B-CV	B-CV, B-EV, I-EV, O, I-CV
-13	경선	I-EV	O	O, I-EV, B-EV, B-CV, I-CV
-14	##은	O	O	O, I-EV, B-PS, B-LC, B-CV
-15	4	B-EV	B-EV	B-EV, B-DT, B-LC, O, B-AF
-16	·	I-EV	I-EV	I-EV, I-QT, O, I-DT, I-LC
-17	29	I-EV	I-EV	I-EV, I-LC, I-QT, I-AF, I-DT
-18	재보	I-EV	I-EV	I-EV, O, B-EV, I-AF, I-QT
-19	##궐	I-EV	I-EV	I-EV, O, I-AF, I-LC, I-QT
-20	선거	I-EV	I-EV	I-EV, O, I-AF, B-EV, I-LC
-21	참패	O	O	O, I-EV, B-CV, I-AF, I-OG
-22	##의	O	O	O, B-OG, B-PS, B-LC, B-CV
-23	원인	O	O	O, B-CV, B-LC, B-OG, B-PS
-24	##으로	O	O	O, B-OG, B-PS, B-CV, B-LC
-25	‘	O	O	O, B-LC, B-PS, B-OG, B-CV
-26	친	O	O	O, B-PS, B-TR, B-CV, B-OG
-27	##노	O	O	O, B-PS, I-PS, B-CV, B-LC
-28	패권	O	B-TR	B-TR, O, I-TR, B-PS, I-PS
-29	##주의	O	I-TR	I-TR, O, B-TR, I-PS, I-FD
-30	’	O	O	O, I-TR, I-EV, B-CV, B-PS
-31	가	O	O	O, B-PS, B-LC, B-OG, B-CV
-32	공개	O	O	O, B-CV, B-LC, B-PS, B-TM
-33	##적으로	O	O	O, B-PS, B-LC, B-CV, B-OG
-34	지목	O	O	O, B-CV, B-LC, B-PS, B-OG
-35	##되	O	O	O, B-PS, B-LC, B-CV, B-OG
-36	##면서	O	O	O, B-LC, B-PS, B-OG, B-CV
-37	당내	O	O	O, B-PS, B-LC, B-CV, B-OG
-38	주류	O	O	O, B-CV, B-PS, B-TR, B-OG
-39	##인	O	O	O, B-PS, B-CV, I-CV, B-LC
-40	‘	O	O	O, B-PS, B-LC, B-OG, B-CV
-41	친문	O	O	O, B-PS, B-CV, B-TR, B-OG
-42	##재	O	O	O, B-PS, I-PS, B-CV, I-CV
-43	##인	O	O	O, I-PS, I-CV, B-PS, I-TR
-44	##계	O	O	O, I-PS, B-PS, I-TR, I-OG
-45	’	O	O	O, B-PS, B-CV, B-LC, B-OG
-46	대	O	O	O, B-PS, B-LC, B-OG, B-CV
-47	비주류	O	O	O, B-CV, B-PS, B-TR, B-OG
-48	후보	B-CV	B-CV	B-CV, O, I-CV, B-EV, B-PS
-49	간	O	O	O, I-CV, B-PS, I-EV, B-CV
-50	##의	O	O	O, B-PS, B-CV, B-LC, B-OG
-51	대결	O	O	O, B-EV, B-CV, B-LC, B-PS
-52	구도	O	O	O, B-CV, B-PS, B-LC, B-EV
-53	##로	O	O	O, B-CV, I-EV, B-OG, B-PS
-54	치러질	O	O	O, B-CV, B-OG, B-LC, B-PS
-55	전망	O	O	O, B-CV, B-OG, B-LC, B-PS
-56	##이다	O	O	O, B-CV, I-EV, B-LC, B-OG
-57	.	O	O	O, B-LC, B-PS, B-OG, B-CV
-58	[SEP]	O	O	O, B-LC, B-CV, B-PS, I-EV
+	text	label	preds
+0	[CLS]	O	O
+1	한편	O	O
+2	‘	O	O
+3	5	B-EV	B-OG
+4	·	I-EV	I-OG
+5	18	I-EV	I-OG
+6	##민	I-EV	I-OG
+7	##중	I-EV	I-OG
+8	##항	I-EV	I-OG
+9	##쟁	I-EV	I-OG
+10	30	O	B-OG
+11	##주	O	I-OG
+12	##년기	O	I-OG
+13	##념	O	I-OG
+14	##행사	O	I-OG
+15	##준	O	I-OG
+16	##비	O	I-OG
+17	##위원회	O	I-OG
+18	’	O	O
+19	는	O	O
+20	이달	O	B-DT
+21	공식	O	O
+22	출범	O	O
+23	##하	O	O
+24	##는	O	O
+25	‘	O	O
+26	30	B-DT	B-DT
+27	##주	I-DT	I-DT
+28	##년	I-DT	I-DT
+29	행사	O	O
+30	##위원회	O	O
+31	’	O	O
+32	에	O	O
+33	전국	O	O
+34	##의	O	O
+35	민주	O	O
+36	##화	O	O
+37	운동	O	O
+38	관련	O	O
+39	단체	O	O
+40	대표	B-CV	B-CV
+41	##들	O	O
+42	##을	O	O
+43	대거	O	O
+44	포함	O	O
+45	##시	O	O
+46	##킬	O	O
+47	계획	O	O
+48	##이다	O	O
+49	.	O	O
+50	[SEP]	O	O

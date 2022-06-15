@@ -1,10 +1,20 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-EV, I-CV, B-CV
-1	우성	B-PS	B-PS	B-PS, O, B-OG, B-LC, B-CV
-2	김종	I-PS	B-PS	B-PS, I-PS, O, B-OG, B-LC
-3	##영	I-PS	I-PS	I-PS, O, I-OG, I-LC, I-QT
-4	‘	O	O	O, B-EV, I-EV, B-LC, B-DT
-5	통찰	O	O	O, B-EV, I-EV, B-CV, B-TM
-6	’	O	O	O, I-EV, I-OG, B-EV, I-DT
-7	전	O	O	O, I-EV, I-OG, B-EV, I-DT
-8	[SEP]	O	O	O, I-EV, I-OG, B-EV, B-CV
+	text	label	preds
+0	[CLS]	O	O
+1	난소	B-TM	B-TM
+2	##암	I-TM	I-TM
+3	이긴	O	O
+4	네덜란드	B-LC	B-LC
+5	뷔	B-PS	B-OG
+6	##스트	I-PS	I-OG
+7	,	O	O
+8	빙	B-CV	O
+9	##속	I-CV	O
+10	3000	B-QT	B-QT
+11	##m	I-QT	I-QT
+12	우승	O	O
+13	통산	O	O
+14	3	B-QT	B-QT
+15	##번	I-QT	I-QT
+16	##째	I-QT	I-QT
+17	金	B-CV	B-CV
+18	[SEP]	O	O

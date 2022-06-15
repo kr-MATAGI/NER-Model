@@ -1,29 +1,31 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	역량	O	O	O, B-CV, B-TM, B-OG, B-LC
-2	##이	O	O	O, B-PS, B-OG, B-CV, B-LC
-3	떨어지	O	O	O, B-CV, B-PS, B-TM, B-LC
-4	##는	O	O	O, B-PS, B-CV, B-LC, B-OG
-5	경찰관	B-CV	B-CV	B-CV, O, B-OG, I-CV, B-AF
-6	##이	O	O	O, I-CV, I-OG, B-PS, I-AF
-7	채용	O	O	O, B-CV, B-TM, B-OG, B-LC
-8	##되	O	O	O, B-PS, B-LC, B-CV, B-OG
-9	##는	O	O	O, B-CV, B-LC, B-TM, B-PS
-10	것	O	O	O, B-CV, B-LC, B-TM, B-OG
-11	##을	O	O	O, B-CV, B-TM, B-OG, B-PS
-12	막	O	O	O, B-CV, B-TM, B-OG, B-PS
-13	##기	O	O	O, B-PS, B-CV, B-OG, B-LC
-14	위해	O	O	O, B-OG, B-CV, B-LC, B-PS
-15	경찰	O	B-OG	B-OG, O, B-CV, B-AF, B-EV
-16	##학교	O	I-OG	I-OG, O, I-AF, I-EV, I-CV
-17	졸업	O	O	O, B-OG, I-OG, B-EV, B-CV
-18	##사정	O	I-OG	I-OG, O, I-EV, I-CV, I-AF
-19	##위원회	O	I-OG	I-OG, O, I-EV, I-CV, I-AF
-20	##를	O	O	O, I-OG, I-EV, I-AF, I-CV
-21	운영	O	O	O, B-CV, B-TM, B-OG, B-LC
-22	##하기	O	O	O, B-CV, B-OG, B-LC, I-OG
-23	##로	O	O	O, B-CV, B-OG, I-OG, B-TM
-24	했	O	O	O, B-CV, B-OG, B-LC, B-TM
-25	##다	O	O	O, B-CV, I-OG, B-OG, B-TM
-26	.	O	O	O, B-LC, B-OG, B-CV, B-PS
-27	[SEP]	O	O	O, B-CV, B-LC, B-OG, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	정현	B-PS	B-PS
+2	##은	O	O
+3	1	B-DT	B-DT
+4	##년	I-DT	I-DT
+5	사이	I-DT	I-DT
+6	랭킹	O	O
+7	##을	O	O
+8	200	B-QT	B-QT
+9	##계	I-QT	I-QT
+10	##단	I-QT	I-QT
+11	넘	O	O
+12	##게	O	O
+13	끌어올렸	O	O
+14	##는데	O	O
+15	최근	O	O
+16	체계	O	O
+17	##적	O	O
+18	##인	O	O
+19	훈련	O	O
+20	##을	O	O
+21	받	O	O
+22	##으며	O	O
+23	키운	O	O
+24	서브	O	B-TM
+25	실력	O	O
+26	덕분	O	O
+27	##이다	O	O
+28	.	O	O
+29	[SEP]	O	O

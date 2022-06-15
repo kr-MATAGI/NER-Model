@@ -1,47 +1,30 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-EV, I-OG, I-CV
-1	인천	B-LC	B-LC	B-LC, O, B-EV, B-OG, B-AF
-2	11	B-QT	B-QT	B-QT, I-QT, I-LC, B-EV, I-EV
-3	##세	I-QT	I-QT	I-QT, I-EV, O, I-LC, I-OG
-4	여아	O	O	O, B-CV, I-QT, I-CV, I-EV
-5	학대	O	O	O, I-CV, B-CV, I-EV, I-TM
-6	,	O	O	O, I-CV, I-EV, B-CV, I-QT
-7	부천	B-LC	B-LC	B-LC, B-EV, O, B-CV, B-OG
-8	초등	B-CV	B-CV	B-CV, I-CV, I-EV, O, B-EV
-9	##생	I-CV	I-CV	I-CV, O, I-EV, B-CV, I-AF
-10	시신	O	I-CV	I-CV, O, B-CV, I-EV, I-AF
-11	훼손	O	I-CV	I-CV, O, I-EV, B-CV, I-TR
-12	살해	O	I-CV	I-CV, O, I-EV, B-CV, I-TR
-13	,	O	O	O, I-CV, I-EV, I-AF, I-OG
-14	그리고	O	O	O, B-CV, B-TM, B-QT, B-LC
-15	부천	B-LC	B-LC	B-LC, B-EV, B-AF, O, B-OG
-16	여중	B-CV	B-CV	B-CV, I-EV, B-EV, O, I-CV
-17	##생	I-CV	I-EV	I-EV, I-CV, O, I-AF, I-TM
-18	백	O	I-EV	I-EV, B-EV, O, B-CV, I-CV
-19	##골	O	I-EV	I-EV, O, I-CV, I-AF, I-TM
-20	시신	O	I-EV	I-EV, O, I-CV, I-AF, I-TM
-21	사건	O	I-EV	I-EV, O, I-AF, I-CV, I-TM
-22	##은	O	O	O, I-EV, I-AF, I-CV, B-CV
-23	학생	B-CV	B-CV	B-CV, O, B-EV, I-CV, B-TM
-24	##의	O	O	O, I-CV, I-EV, B-CV, I-AF
-25	안전	O	O	O, B-LC, B-TM, B-CV, B-PS
-26	##을	O	O	O, B-LC, B-PS, B-CV, B-TM
-27	최일	O	O	O, B-LC, B-TM, B-PS, B-QT
-28	##선	O	O	O, I-LC, B-LC, I-QT, I-PS
-29	##에서	O	O	O, B-LC, B-PS, I-LC, B-QT
-30	책임져야	O	O	O, B-LC, B-TM, B-PS, B-CV
-31	할	O	O	O, B-LC, B-PS, B-TM, B-CV
-32	교육	O	O	O, B-CV, B-LC, B-FD, B-TM
-33	시스템	O	O	O, B-CV, I-CV, B-LC, B-PS
-34	##이	O	O	O, B-PS, B-LC, B-OG, B-CV
-35	망가진	O	O	O, B-LC, B-CV, B-TM, B-PS
-36	현실	O	O	O, B-CV, B-LC, B-TM, B-FD
-37	##을	O	O	O, B-CV, B-LC, B-PS, B-OG
-38	적나라	O	O	O, B-LC, B-CV, B-TM, B-PS
-39	##하	O	O	O, B-LC, B-PS, I-LC, I-QT
-40	##게	O	O	O, B-LC, B-PS, B-OG, I-LC
-41	보여	O	O	O, B-LC, B-QT, B-CV, B-PS
-42	##줬	O	O	O, I-QT, B-LC, I-EV, B-PS
-43	##다	O	O	O, B-CV, B-LC, I-EV, I-QT
-44	.	O	O	O, B-LC, B-PS, B-CV, I-EV
-45	[SEP]	O	O	O, B-LC, B-CV, I-EV, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	단의	O	O
+2	북쪽	B-TM	B-TM
+3	모퉁이	O	O
+4	##에	O	O
+5	##는	O	O
+6	천신	B-CV	O
+7	(	O	O
+8	天	O	O
+9	神	O	O
+10	)	O	O
+11	의	O	O
+12	위	O	O
+13	##패	O	O
+14	##를	O	O
+15	모신	O	O
+16	황	B-AF	O
+17	##궁	I-AF	O
+18	##우	I-AF	O
+19	(	O	O
+20	皇	O	O
+21	[UNK]	O	O
+22	宇	O	O
+23	)	O	O
+24	를	O	O
+25	세웠	O	O
+26	##다	O	O
+27	.	O	O
+28	[SEP]	O	O

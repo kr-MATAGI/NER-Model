@@ -1,44 +1,72 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	입구	O	O	O, B-TM, B-AF, B-CV, B-QT
-2	유리	O	O	O, B-MT, B-AF, B-TM, B-CV
-3	##문	O	O	O, I-AF, I-MT, I-TM, I-EV
-4	##에	O	O	O, B-CV, I-AF, B-OG, B-TM
-5	##는	O	O	O, B-OG, B-CV, B-TM, B-LC
-6	이	O	O	O, B-PS, B-OG, B-AF, B-CV
-7	가게	O	O	O, B-CV, B-OG, I-OG, B-PS
-8	##가	O	O	O, B-OG, B-PS, B-CV, I-OG
-9	지난	B-DT	B-DT	B-DT, O, I-DT, B-OG, B-QT
-10	30	I-DT	I-DT	I-DT, B-DT, O, I-PS, I-QT
-11	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-12	##간	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-13	'	O	O	O, I-DT, B-OG, B-LC, B-CV
-14	미	B-AF	B-OG	B-OG, O, B-AF, B-CV, B-PS
-15	##슐	I-AF	I-OG	I-OG, I-AF, O, I-CV, I-PS
-16	##랭	I-AF	I-OG	I-OG, I-AF, O, I-CV, I-PS
-17	가이드	I-AF	I-OG	I-OG, O, I-AF, I-CV, I-LC
-18	'	O	O	O, I-OG, I-AF, I-CV, B-CV
-19	'	O	O	O, B-OG, B-LC, B-CV, B-TM
-20	자가	B-AF	B-OG	B-OG, O, B-AF, B-PS, B-CV
-21	##트	I-AF	I-OG	I-OG, O, I-AF, I-PS, I-LC
-22	'	O	O	O, I-OG, I-AF, B-CV, I-CV
-23	등	O	O	O, B-OG, B-LC, B-CV, B-TM
-24	세계	O	O	O, B-CV, B-OG, B-LC, B-PS
-25	##적	O	O	O, B-PS, B-LC, I-OG, B-QT
-26	레스토랑	O	O	O, B-CV, B-QT, B-OG, B-PS
-27	평가	O	O	O, B-CV, B-OG, B-PS, I-OG
-28	##업체	O	O	O, I-OG, B-CV, I-CV, B-OG
-29	##로	O	O	O, B-CV, B-OG, B-PS, I-OG
-30	##부터	O	O	O, B-CV, B-LC, B-OG, B-PS
-31	받	O	O	O, B-CV, B-OG, B-TM, B-PS
-32	##은	O	O	O, B-CV, B-OG, B-PS, B-LC
-33	고	O	O	O, B-TM, B-LC, B-CV, B-QT
-34	##득점	O	O	O, B-TM, B-LC, I-QT, B-QT
-35	성적표	O	O	O, B-CV, B-TM, B-OG, B-PS
-36	##들이	O	O	O, B-CV, B-OG, B-TM, B-QT
-37	붙	O	O	O, B-CV, B-TM, B-OG, B-LC
-38	##어	O	O	O, B-CV, B-TM, B-LC, B-QT
-39	있	O	O	O, B-CV, B-TM, B-QT, B-OG
-40	##다	O	O	O, B-CV, B-OG, B-QT, B-TM
-41	.	O	O	O, B-OG, B-LC, B-CV, B-PS
-42	[SEP]	O	O	O, B-CV, B-OG, B-LC, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	브리	B-PS	B-PS
+2	##타	I-PS	I-PS
+3	제	I-PS	I-PS
+4	##에	I-PS	I-PS
+5	##거	I-PS	I-PS
+6	메르세데스	B-OG	B-OG
+7	##벤	I-OG	I-OG
+8	##츠	I-OG	I-OG
+9	##코	I-OG	I-OG
+10	##리아	I-OG	I-OG
+11	대표	B-CV	B-CV
+12	##이	I-CV	I-CV
+13	##사	I-CV	I-CV
+14	사장	B-CV	B-CV
+15	(	O	O
+16	사진	O	O
+17	)	O	O
+18	은	O	O
+19	17	B-DT	B-DT
+20	##일	I-DT	I-DT
+21	서울	B-LC	B-LC
+22	광진구	B-LC	B-LC
+23	워커힐	B-AF	B-AF
+24	##로	I-AF	I-AF
+25	쉐	I-AF	B-AF
+26	##라	I-AF	I-AF
+27	##톤	I-AF	I-AF
+28	##워	I-AF	I-AF
+29	##커	I-AF	I-AF
+30	##힐	I-AF	I-AF
+31	##호텔	I-AF	I-AF
+32	##에	O	O
+33	##서	O	O
+34	기자	B-CV	B-CV
+35	##들	O	O
+36	##과	O	O
+37	만나	O	O
+38	“	O	O
+39	신차	O	O
+40	##를	O	O
+41	내놓	O	O
+42	##으면	O	O
+43	##서	O	O
+44	메르세데스	B-OG	B-OG
+45	##벤	I-OG	I-OG
+46	##츠	I-OG	I-OG
+47	##에	O	O
+48	관심	O	O
+49	##이	O	O
+50	없	O	O
+51	##던	O	O
+52	새로운	O	O
+53	고객	B-CV	B-CV
+54	##들	O	O
+55	##도	O	O
+56	눈	B-AM	B-AM
+57	##을	O	O
+58	돌리	O	O
+59	##기	O	O
+60	시작	O	O
+61	##했	O	O
+62	##다	O	O
+63	”	O	O
+64	며	O	O
+65	이	O	O
+66	##같이	O	O
+67	밝혔	O	O
+68	##다	O	O
+69	.	O	O
+70	[SEP]	O	O

@@ -1,43 +1,32 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	주택	O	O	O, B-LC, B-CV, B-TM, B-AF
-2	##시장	O	O	O, B-LC, B-CV, I-LC, I-EV
-3	침체	O	O	O, B-LC, B-PS, I-EV, B-CV
-4	##에도	O	O	O, B-LC, I-OG, B-OG, I-EV
-5	수도권	B-LC	B-LC	B-LC, O, B-OG, B-TM, B-AF
-6	##에서	O	O	O, I-LC, B-LC, I-OG, I-AF
-7	100	B-QT	B-QT	B-QT, O, I-QT, B-LC, B-DT
-8	##㎡	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-OG
-9	(	O	O	O, I-QT, B-QT, I-LC, I-DT
-10	30	B-QT	B-QT	B-QT, I-QT, O, B-DT, B-LC
-11	##평	I-QT	I-QT	I-QT, O, I-LC, I-TM, B-QT
-12	·	O	O	O, I-QT, B-QT, I-LC, I-TM
-13	이하	O	I-QT	I-QT, O, B-QT, I-LC, I-TM
-14	공급	O	O	O, I-QT, B-LC, B-CV, B-OG
-15	##면적	O	O	O, I-QT, B-QT, B-LC, B-TM
-16	기준	O	O	O, B-QT, B-TM, B-LC, B-PS
-17	)	O	O	O, B-QT, I-QT, B-LC, B-PS
-18	미만	O	O	O, B-QT, I-QT, B-LC, I-LC
-19	##의	O	O	O, I-QT, B-PS, B-QT, I-LC
-20	소형	O	O	O, B-AF, B-TM, B-CV, B-QT
-21	아파트	O	O	O, B-AF, I-AF, B-CV, B-LC
-22	##는	O	O	O, I-AF, B-CV, B-LC, B-OG
-23	올	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-24	상반기	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-25	10	B-QT	B-QT	B-QT, I-QT, I-DT, O, B-DT
-26	%	I-QT	I-QT	I-QT, O, I-DT, I-LC, I-EV
-27	가	O	O	O, I-QT, I-OG, I-EV, I-AF
-28	넘	O	O	O, B-CV, B-LC, B-OG, I-QT
-29	##는	O	O	O, B-LC, B-OG, B-TM, B-PS
-30	상승	O	O	O, B-CV, B-TM, B-QT, I-OG
-31	##률	O	O	O, B-LC, I-OG, I-QT, B-QT
-32	##을	O	O	O, B-CV, I-OG, B-OG, I-AF
-33	기록	O	O	O, B-CV, B-OG, B-LC, B-TM
-34	##한	O	O	O, B-LC, B-OG, B-CV, B-PS
-35	곳	O	O	O, B-AF, B-LC, B-OG, B-CV
-36	##이	O	O	O, B-PS, B-OG, B-CV, B-LC
-37	많	O	O	O, B-CV, B-OG, B-LC, I-OG
-38	##았	O	O	O, B-CV, I-OG, I-AF, B-LC
-39	##다	O	O	O, B-CV, I-OG, B-LC, I-AF
-40	.	O	O	O, B-LC, B-OG, I-OG, B-PS
-41	[SEP]	O	O	O, B-LC, I-OG, B-CV, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	이후	O	O
+2	스마트폰	B-TM	B-TM
+3	강화	O	B-MT
+4	##유리	O	B-MT
+5	코팅	O	O
+6	##사업	O	O
+7	##에	O	O
+8	주력	O	O
+9	##한	O	O
+10	쎄	B-OG	B-OG
+11	##코	I-OG	I-OG
+12	##의	O	O
+13	매출	O	O
+14	##은	O	O
+15	2009	B-DT	B-DT
+16	##년	I-DT	I-DT
+17	6	O	O
+18	##억	O	O
+19	원에	O	O
+20	##서	O	O
+21	지난해	B-DT	B-DT
+22	122	B-QT	B-QT
+23	##억	I-QT	I-QT
+24	원	I-QT	I-QT
+25	##으로	O	O
+26	급성장	O	O
+27	##했	O	O
+28	##다	O	O
+29	.	O	O
+30	[SEP]	O	O

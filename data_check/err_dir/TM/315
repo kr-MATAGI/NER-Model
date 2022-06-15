@@ -1,43 +1,19 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	여기	O	O	O, B-CV, B-TM, B-OG, B-LC
-2	##에	O	O	O, B-LC, B-CV, B-OG, B-TM
-3	파주	B-LC	B-LC	B-LC, O, B-AF, B-CV, B-OG
-4	##점	O	O	O, I-LC, I-AF, B-LC, B-AF
-5	중앙	B-TM	O	O, B-TM, B-LC, I-LC, B-CV
-6	##을	O	O	O, B-LC, B-TM, I-AF, I-TM
-7	가로지르	O	O	O, B-TM, B-LC, B-AF, B-CV
-8	##며	O	O	O, B-LC, B-AF, B-TM, B-PS
-9	흐르	O	O	O, B-LC, B-AF, B-PS, B-TM
-10	##는	O	O	O, B-LC, B-AF, I-AF, B-TM
-11	유수	O	O	O, B-LC, B-AF, B-MT, B-CV
-12	##천	O	O	O, I-LC, I-AF, I-PS, B-LC
-13	주변	O	O	O, B-TM, I-AF, B-LC, I-LC
-14	##을	O	O	O, B-CV, B-OG, B-LC, B-TM
-15	정비	O	O	O, B-CV, B-LC, B-OG, B-TM
-16	##했	O	O	O, B-LC, B-CV, B-PS, B-OG
-17	##고	O	O	O, B-LC, B-CV, B-TM, B-OG
-18	옥상	O	O	O, B-TM, B-CV, B-LC, B-AF
-19	##에	O	O	O, B-CV, B-TM, I-AF, B-LC
-20	##는	O	O	O, B-LC, B-TM, B-CV, B-OG
-21	전망대	O	O	O, B-LC, B-AF, B-CV, B-TM
-22	##를	O	O	O, I-AF, B-CV, I-OG, I-CV
-23	설치	O	O	O, B-CV, B-LC, B-OG, B-TM
-24	##해	O	O	O, B-LC, B-PS, B-OG, I-LC
-25	북한	B-LC	B-LC	B-LC, O, B-OG, B-AF, I-LC
-26	황해	B-LC	B-LC	B-LC, O, I-LC, B-OG, B-AF
-27	지역	O	O	O, I-LC, I-DT, I-AF, B-LC
-28	##부터	O	O	O, B-LC, I-LC, B-PS, B-DT
-29	한강	B-LC	B-LC	B-LC, O, B-OG, B-AF, I-LC
-30	낙	O	O	O, I-LC, I-AF, B-LC, B-CV
-31	##조	O	O	O, I-LC, B-LC, I-AF, I-OG
-32	##까	O	O	O, B-LC, I-LC, B-CV, I-AF
-33	##지	O	O	O, B-LC, B-CV, B-OG, B-TM
-34	볼	O	O	O, B-CV, B-TM, B-LC, B-OG
-35	수	O	O	O, B-CV, B-PS, B-TM, B-LC
-36	있	O	O	O, B-CV, B-LC, B-TM, B-QT
-37	##게	O	O	O, B-LC, B-CV, B-QT, B-OG
-38	했	O	O	O, B-CV, B-OG, B-LC, B-QT
-39	##다	O	O	O, B-CV, I-OG, B-TM, I-QT
-40	.	O	O	O, B-LC, B-CV, B-OG, B-PS
-41	[SEP]	O	O	O, B-LC, B-CV, I-LC, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	•	O	O
+2	한국	B-LC	B-LC
+3	해병	B-OG	B-OG
+4	##도	O	O
+5	3	B-TM	B-QT
+6	##진	I-TM	I-QT
+7	##아웃	I-TM	I-QT
+8	등	O	O
+9	실시	O	O
+10	,	O	O
+11	후진	O	O
+12	##적	O	O
+13	군기	O	O
+14	문화	O	O
+15	없애	O	O
+16	##야	O	O
+17	[SEP]	O	O

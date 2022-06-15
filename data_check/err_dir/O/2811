@@ -1,11 +1,49 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-AF, I-CV
-1	일	B-QT	B-QT	B-QT, O, B-LC, B-AF, B-OG
-2	이	B-QT	B-QT	B-QT, I-QT, O, I-LC, I-AF
-3	삼	B-QT	I-QT	I-QT, B-QT, I-AF, I-LC, B-AF
-4	경비	O	I-QT	I-QT, I-AF, B-AF, B-QT, O
-5	##정	O	I-AF	I-AF, I-QT, O, I-LC, I-OG
-6	##에	O	O	O, I-AF, I-QT, I-OG, I-LC
-7	가	O	O	O, B-CV, B-QT, B-OG, I-AF
-8	##서	O	O	O, B-CV, B-LC, B-QT, B-OG
-9	[SEP]	O	O	O, B-CV, B-LC, B-QT, B-AF
+	text	label	preds
+0	[CLS]	O	O
+1	이후	O	O
+2	인천	B-EV	B-EV
+3	전	I-EV	I-EV
+4	##에	O	O
+5	##서	O	O
+6	시즌	O	O
+7	첫	O	O
+8	골	O	B-TM
+9	##이	O	O
+10	터졌	O	O
+11	##지만	O	O
+12	1	B-QT	B-QT
+13	##대	I-QT	I-QT
+14	##3	I-QT	I-QT
+15	##으로	O	O
+16	패	O	O
+17	##했	O	O
+18	##고	O	O
+19	,	O	O
+20	4	B-DT	B-DT
+21	##월	I-DT	I-DT
+22	30	I-DT	I-DT
+23	##일	I-DT	I-DT
+24	포항	B-EV	B-EV
+25	##전	I-EV	I-EV
+26	##에	O	O
+27	##서	O	O
+28	0	B-QT	B-QT
+29	##대	I-QT	I-QT
+30	##0	I-QT	I-QT
+31	무승부	O	O
+32	##를	O	O
+33	기록	O	O
+34	##하	O	O
+35	##며	O	O
+36	가까스로	O	O
+37	7	B-QT	B-QT
+38	##연	I-QT	I-QT
+39	##패	I-QT	I-QT
+40	##의	O	O
+41	사슬	O	O
+42	##을	O	O
+43	끊	O	O
+44	##었	O	O
+45	##다	O	O
+46	.	O	O
+47	[SEP]	O	O

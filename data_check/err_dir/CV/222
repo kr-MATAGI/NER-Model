@@ -1,50 +1,36 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-EV, I-CV
-1	히어로즈	B-OG	B-OG	B-OG, O, B-LC, B-AF, I-OG
-2	##는	O	O	O, I-OG, B-CV, I-EV, I-AF
-3	목동	B-LC	B-LC	B-LC, O, B-OG, B-AF, B-PS
-4	안방	O	O	O, B-CV, I-LC, B-TM, I-EV
-5	##에서	O	O	O, B-PS, B-CV, B-QT, B-LC
-6	황재균	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
-7	##과	O	O	O, I-PS, B-CV, I-AF, I-OG
-8	강정호	B-PS	B-PS	B-PS, O, I-PS, B-OG, B-LC
-9	,	O	O	O, I-PS, B-CV, I-AF, I-OG
-10	더	B-PS	B-PS	B-PS, O, I-PS, B-OG, B-LC
-11	##그	I-PS	I-PS	I-PS, O, B-PS, I-OG, I-LC
-12	클	I-PS	I-PS	I-PS, B-PS, O, B-LC, I-LC
-13	##락	I-PS	I-PS	I-PS, O, I-LC, B-PS, I-OG
-14	,	O	O	O, I-PS, B-CV, B-LC, I-OG
-15	클리	B-PS	B-PS	B-PS, I-PS, O, B-OG, B-LC
-16	##프	I-PS	I-PS	I-PS, O, B-PS, I-OG, I-LC
-17	브	I-PS	I-PS	I-PS, B-PS, O, B-LC, I-LC
-18	##룸	I-PS	I-PS	I-PS, O, B-PS, I-LC, I-OG
-19	##바	I-PS	I-PS	I-PS, O, I-LC, I-OG, B-PS
-20	##의	O	O	O, I-PS, B-CV, B-LC, B-TM
-21	홈런	B-TM	B-TM	B-TM, O, B-CV, B-QT, B-AF
-22	네	B-QT	B-QT	B-QT, I-QT, I-TM, O, B-TM
-23	방	I-QT	I-QT	I-QT, I-TM, O, I-LC, I-AF
-24	##을	O	O	O, I-QT, I-TM, B-CV, I-AF
-25	앞세워	O	O	O, B-OG, B-LC, B-CV, B-TM
-26	삼성	B-OG	B-OG	B-OG, B-LC, O, I-OG, B-AF
-27	##을	O	O	O, I-OG, B-CV, I-EV, I-CV
-28	9	B-QT	B-QT	B-QT, I-QT, O, B-EV, B-TM
-29	-	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-EV
-30	5	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-31	##로	O	O	O, I-QT, B-CV, I-EV, I-OG
-32	물리치	O	O	O, B-CV, B-EV, B-OG, B-QT
-33	##고	O	O	O, B-CV, B-QT, B-LC, I-EV
-34	1	B-QT	B-QT	B-QT, I-QT, O, B-EV, B-TM
-35	##패	I-QT	I-QT	I-QT, O, I-EV, I-LC, I-TM
-36	뒤	O	O	O, B-TM, I-QT, I-TM, B-LC
-37	4	B-QT	B-QT	B-QT, I-QT, O, B-TM, B-EV
-38	##연	I-QT	I-QT	I-QT, O, I-TM, I-EV, B-QT
-39	##승	I-QT	I-QT	I-QT, O, I-LC, I-EV, I-TM
-40	##을	O	O	O, I-QT, B-CV, I-EV, I-OG
-41	달리	O	O	O, B-CV, B-TM, B-OG, B-LC
-42	##며	O	O	O, B-CV, B-QT, B-LC, B-OG
-43	선두	B-CV	O	O, B-CV, B-TM, B-QT, B-OG
-44	##를	O	O	O, I-CV, I-QT, B-CV, I-OG
-45	지켰	O	O	O, B-CV, B-OG, B-LC, B-QT
-46	##다	O	O	O, B-CV, B-LC, B-QT, B-OG
-47	.	O	O	O, B-CV, B-LC, B-PS, B-OG
-48	[SEP]	O	O	O, B-CV, B-LC, B-TM, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	전날	B-DT	B-DT
+2	의원	O	O
+3	##총	O	O
+4	##회	O	O
+5	##에	O	O
+6	##서도	O	O
+7	전체	O	O
+8	20	B-QT	B-QT
+9	##여	I-QT	I-QT
+10	##명	I-QT	I-QT
+11	##의	O	O
+12	발언	B-CV	O
+13	##자	I-CV	O
+14	가운데	O	O
+15	친	O	O
+16	##박	O	O
+17	##계	O	O
+18	##는	O	O
+19	이우	B-PS	B-PS
+20	##현	I-PS	I-PS
+21	의원	B-CV	B-CV
+22	등	O	O
+23	초	O	O
+24	·	O	O
+25	재선	O	O
+26	4	B-QT	B-QT
+27	##명	I-QT	I-QT
+28	##뿐	O	O
+29	##이	O	O
+30	##었	O	O
+31	##다고	O	O
+32	한다	O	O
+33	.	O	O
+34	[SEP]	O	O

@@ -1,8 +1,9 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, I-OG, B-CV, I-AF
-1	어	O	O	O, B-CV, B-TM, B-OG, B-LC
-2	어떤	O	O	O, B-CV, B-PS, B-LC, B-OG
-3	거	O	O	O, B-CV, B-PS, I-AF, B-AF
-4	배	O	B-AF	B-AF, O, B-AM, B-LC, B-PS
-5	?	O	O	O, I-AF, I-CV, I-LC, I-EV
-6	[SEP]	O	O	O, B-CV, B-LC, I-AF, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	알맹이	O	O
+2	빠진	O	O
+3	'	O	O
+4	野	O	B-OG
+5	혁신안	O	O
+6	'	O	O
+7	[SEP]	O	O

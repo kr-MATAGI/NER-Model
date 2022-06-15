@@ -1,41 +1,49 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	나주	B-LC	B-LC	B-LC, B-OG, O, B-AF, B-PS
-2	노안	B-AF	B-OG	B-OG, I-OG, B-AF, O, B-LC
-3	##성	I-AF	I-OG	I-OG, I-AF, O, B-OG, I-LC
-4	##당	I-AF	I-OG	I-OG, I-AF, O, I-LC, I-PS
-5	이영	B-PS	B-PS	B-PS, O, B-OG, I-PS, I-OG
-6	##선	I-PS	I-PS	I-PS, I-OG, O, I-LC, I-QT
-7	주임	B-CV	B-CV	B-CV, O, B-TM, B-OG, B-AF
-8	##신	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-TM
-9	##부	I-CV	I-CV	I-CV, O, I-OG, B-CV, I-TM
-10	##는	O	O	O, I-CV, I-OG, I-QT, I-EV
-11	“	O	O	O, B-CV, B-TM, B-LC, B-OG
-12	4	B-TM	B-TM	B-TM, I-TM, B-LC, B-TR, B-QT
-13	##대	I-TM	I-TM	I-TM, I-QT, O, I-TR, B-TM
-14	##강	I-TM	I-TM	I-TM, O, I-QT, I-TR, I-LC
-15	사업	I-TM	I-TM	I-TM, O, I-QT, I-TR, I-OG
-16	##으로	O	O	O, I-TM, I-QT, I-AF, I-OG
-17	강	O	O	O, B-LC, I-LC, B-AF, B-OG
-18	##에	O	O	O, I-AF, I-LC, B-PS, B-CV
-19	사	O	O	O, B-AM, B-TM, B-QT, B-PS
-20	##는	O	O	O, B-PS, B-AM, B-TM, B-QT
-21	생명	O	O	O, B-AM, B-CV, B-TM, B-PS
-22	##이	O	O	O, B-PS, B-AM, B-CV, B-TM
-23	죽	O	O	O, B-CV, B-TM, B-QT, I-AF
-24	##으면	O	O	O, B-PS, B-TM, B-CV, I-AF
-25	결국	O	O	O, B-CV, B-TM, B-PS, B-AM
-26	사람	O	O	O, B-AM, B-TM, B-CV, B-PS
-27	##도	O	O	O, B-PS, B-CV, I-AF, B-TM
-28	죽	O	O	O, B-CV, B-TM, B-QT, B-PS
-29	##는	O	O	O, B-CV, B-PS, I-AF, B-TM
-30	것	O	O	O, B-CV, B-PS, I-AF, B-TM
-31	아니	O	O	O, B-CV, B-PS, I-AF, B-TM
-32	##냐	O	O	O, I-AF, I-OG, B-PS, B-CV
-33	”	O	O	O, B-CV, B-TM, I-OG, B-LC
-34	고	O	O	O, B-CV, B-TM, B-LC, B-QT
-35	말	O	O	O, B-CV, B-TM, I-QT, I-CV
-36	##했	O	O	O, B-CV, B-PS, B-TM, B-LC
-37	##다	O	O	O, B-CV, B-TM, B-LC, B-PS
-38	.	O	O	O, B-PS, B-LC, B-CV, B-TM
-39	[SEP]	O	O	O, B-CV, B-TM, B-PS, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	세월	B-AF	B-EV
+2	##호	I-AF	I-EV
+3	침몰	O	I-EV
+4	사고	O	I-EV
+5	21	B-DT	B-DT
+6	##일	I-DT	I-DT
+7	##째	I-DT	I-DT
+8	##인	O	O
+9	6	B-DT	B-DT
+10	##일	I-DT	I-DT
+11	,	O	O
+12	피로	O	O
+13	##가	O	O
+14	누적	O	O
+15	##된	O	O
+16	기존	O	O
+17	민간	O	O
+18	잠수	B-CV	B-CV
+19	##사	I-CV	I-CV
+20	##들의	O	O
+21	대체	O	O
+22	##인	O	O
+23	##력	O	O
+24	##으로	O	O
+25	투입	O	O
+26	##됐	O	O
+27	##던	O	O
+28	잠수	B-CV	B-CV
+29	##사	I-CV	I-CV
+30	이광	B-PS	B-PS
+31	##욱	I-PS	I-PS
+32	(	O	O
+33	53	B-QT	B-QT
+34	)	O	O
+35	씨	O	O
+36	##가	O	O
+37	수색	O	O
+38	##작	O	O
+39	##업	O	O
+40	##에	O	O
+41	참여	O	O
+42	##한	O	O
+43	첫날	B-DT	B-DT
+44	숨졌	O	O
+45	##다	O	O
+46	.	O	O
+47	[SEP]	O	O

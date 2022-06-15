@@ -1,20 +1,48 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	학교	O	B-CV	B-CV, O, B-OG, I-CV, B-FD
-2	##위원	B-CV	I-CV	I-CV, O, B-CV, I-QT, I-OG
-3	##과	O	O	O, I-CV, B-CV, I-QT, I-OG
-4	외부	O	B-CV	B-CV, O, I-CV, B-QT, B-FD
-5	##위원	B-CV	I-CV	I-CV, O, B-CV, I-QT, I-OG
-6	##만	O	O	O, I-CV, I-QT, B-QT, B-PS
-7	참석	O	O	O, B-CV, B-QT, B-PS, B-TM
-8	##한	O	O	O, B-PS, I-QT, B-LC, B-CV
-9	채	O	O	O, B-QT, B-DT, B-LC, B-CV
-10	올해	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-11	예산안	O	O	O, I-DT, B-CV, B-OG, I-QT
-12	##은	O	O	O, B-CV, I-OG, I-CV, I-EV
-13	통과	O	O	O, B-CV, B-OG, B-QT, B-TM
-14	##됐	O	O	O, B-CV, I-OG, B-OG, B-LC
-15	##습	O	O	O, B-CV, B-LC, B-OG, B-QT
-16	##니다	O	O	O, B-CV, B-LC, B-OG, B-QT
-17	.	O	O	O, B-CV, B-LC, I-OG, B-OG
-18	[SEP]	O	O	O, B-CV, I-OG, B-LC, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	대구시	B-OG	B-OG
+2	##는	O	O
+3	이	O	O
+4	같	O	O
+5	##은	O	O
+6	내용	O	O
+7	##을	O	O
+8	담	O	O
+9	##은	O	O
+10	‘	O	O
+11	2020	B-DT	B-DT
+12	대구	B-TM	B-AF
+13	##도	I-TM	I-TM
+14	##시	I-TM	I-TM
+15	##기	I-TM	I-TM
+16	##본	I-TM	I-TM
+17	##계	I-TM	I-TM
+18	##획	I-TM	I-TM
+19	일부	O	I-TM
+20	##변	O	I-TM
+21	##경	O	I-TM
+22	계획안	O	I-TM
+23	’	O	O
+24	을	O	O
+25	마련	O	O
+26	##해	O	O
+27	다음	B-DT	B-DT
+28	달	I-DT	I-DT
+29	10	I-DT	I-DT
+30	##일	I-DT	I-DT
+31	대구	B-AF	B-AF
+32	##문화	I-AF	I-AF
+33	##예술	I-AF	I-AF
+34	##회관	I-AF	I-AF
+35	##에	O	O
+36	##서	O	O
+37	공청회	B-EV	B-EV
+38	##를	O	O
+39	연다	O	O
+40	##고	O	O
+41	21	B-DT	B-DT
+42	##일	I-DT	I-DT
+43	밝혔	O	O
+44	##다	O	O
+45	.	O	O
+46	[SEP]	O	O

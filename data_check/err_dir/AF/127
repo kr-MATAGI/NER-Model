@@ -1,89 +1,40 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-EV
-1	‘	O	O	O, B-CV, B-LC, B-OG, B-PS
-2	아들	B-CV	B-CV	B-CV, O, B-PS, B-OG, B-AF
-3	##아	O	O	O, I-CV, I-AF, I-QT, I-OG
-4	내	O	O	O, B-CV, B-PS, B-LC, B-AM
-5	##가	O	O	O, B-PS, B-AM, B-LC, I-AF
-6	씨	B-PT	B-PT	B-PT, O, B-AM, B-CV, B-LC
-7	없	O	O	O, I-AF, I-PS, I-LC, I-TM
-8	##는	O	O	O, I-AF, B-PS, I-PS, I-LC
-9	수박	B-PT	B-PT	B-PT, O, B-CV, B-AM, I-PT
-10	##이	O	O	O, B-PS, I-AF, B-AM, I-PS
-11	##라	O	O	O, B-PS, B-LC, B-CV, B-QT
-12	##니	O	O	O, B-PS, B-LC, B-AM, I-PS
-13	하늘	O	O	O, B-LC, B-TM, B-AM, B-QT
-14	##이	O	O	O, B-PS, I-LC, I-PS, B-LC
-15	두	B-QT	B-QT	B-QT, O, I-QT, B-TM, B-LC
-16	쪽	I-QT	I-QT	I-QT, O, I-LC, I-PS, I-TM
-17	난다	O	O	O, I-QT, B-PS, I-LC, B-LC
-18	’	O	O	O, B-CV, I-QT, B-LC, B-PS
-19	(	O	O	O, B-CV, B-OG, B-LC, B-PS
-20	‘	O	O	O, B-CV, B-OG, B-LC, B-AF
-21	씨	B-AF	B-PT	B-PT, O, B-AF, B-LC, B-PS
-22	없	I-AF	O	O, I-AF, I-PS, I-LC, I-PT
-23	##는	I-AF	O	O, I-AF, I-PS, I-TM, I-LC
-24	수박	I-AF	B-PT	B-PT, O, I-PT, I-AF, B-AM
-25	’	O	O	O, I-AF, I-CV, B-CV, I-OG
-26	)	O	O	O, B-CV, B-LC, B-OG, B-PS
-27	‘	O	O	O, B-CV, B-LC, B-OG, B-PS
-28	삼	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-LC
-29	##백	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-30	##에	O	O	O, I-QT, I-AF, I-LC, B-PS
-31	삼	B-QT	B-QT	B-QT, I-QT, O, B-DT, B-LC
-32	##십	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-AF
-33	##으로	O	O	O, I-QT, B-PS, I-AF, I-LC
-34	녹	B-LC	B-LC	B-LC, O, B-OG, B-AF, B-PS
-35	##번	I-LC	I-LC	I-LC, O, B-LC, I-AF, I-OG
-36	##동	I-LC	I-LC	I-LC, O, I-AF, I-OG, B-LC
-37	##에	O	O	O, I-LC, I-AF, I-OG, B-LC
-38	가	O	O	O, B-LC, B-AF, B-PS, B-OG
-39	##보	O	O	O, I-AF, B-PS, B-CV, B-LC
-40	##니	O	O	O, B-LC, B-PS, I-AF, I-QT
-41	/	O	O	O, B-LC, B-PS, B-CV, B-TM
-42	동네	O	O	O, B-CV, B-LC, B-AF, B-TM
-43	지하실	O	O	O, B-LC, B-AF, B-CV, B-TM
-44	##로	O	O	O, B-PS, I-AF, B-LC, B-CV
-45	온종일	O	O	O, B-LC, B-QT, B-TM, B-CV
-46	끌려	O	O	O, B-LC, B-AF, B-PS, B-CV
-47	다니	O	O	O, B-LC, B-PS, I-AF, B-AF
-48	##네	O	O	O, I-AF, B-PS, B-LC, I-LC
-49	/	O	O	O, B-LC, B-PS, B-CV, B-TM
-50	이것	O	O	O, B-LC, B-CV, B-PS, B-AF
-51	##은	O	O	O, B-PS, B-LC, B-CV, I-AF
-52	방공	O	O	O, B-AF, B-LC, B-CV, B-PS
-53	##호	O	O	O, I-AF, I-LC, B-AF, B-LC
-54	##가	O	O	O, I-AF, I-LC, B-PS, B-LC
-55	아닌가	O	O	O, I-AF, B-PS, I-LC, B-LC
-56	’	O	O	O, B-CV, B-LC, B-OG, B-PS
-57	(	O	O	O, B-OG, B-CV, B-LC, B-PS
-58	‘	O	O	O, B-OG, B-AF, B-LC, B-CV
-59	300	B-AF	B-QT	B-QT, B-AF, B-TM, B-EV, B-LC
-60	/	I-AF	I-AF	I-AF, I-QT, I-TM, I-LC, I-OG
-61	30	I-AF	I-QT	I-QT, I-AF, I-TM, B-QT, I-OG
-62	’	O	O	O, I-QT, I-AF, I-OG, I-EV
-63	)	O	O	O, B-CV, B-LC, B-OG, B-PS
-64	퍼	O	O	O, B-CV, B-TM, B-PS, B-LC
-65	##주	O	O	O, I-CV, B-CV, I-TM, B-PS
-66	##기	O	O	O, I-CV, B-CV, B-PS, I-QT
-67	##만	O	O	O, I-CV, I-QT, B-PS, I-LC
-68	하	O	O	O, B-CV, B-PS, B-LC, B-TM
-69	##다	O	O	O, B-PS, I-CV, I-QT, B-LC
-70	다친	O	O	O, B-CV, B-TM, B-LC, B-PS
-71	사랑	O	O	O, B-CV, B-PS, B-TM, B-LC
-72	##을	O	O	O, B-PS, B-CV, I-CV, B-LC
-73	외교	O	O	O, B-FD, B-CV, B-LC, B-TR
-74	##에	O	O	O, I-CV, B-PS, B-CV, I-AF
-75	빗	O	O	O, B-LC, B-CV, B-OG, B-FD
-76	##댄	O	O	O, B-LC, B-PS, B-CV, B-FD
-77	‘	O	O	O, B-CV, B-LC, B-OG, B-PS
-78	햇볕	B-CV	O	O, B-CV, B-PS, B-TR, B-AF
-79	##정책	I-CV	O	O, I-CV, I-TR, I-PS, I-AF
-80	’	O	O	O, I-CV, I-AF, I-EV, I-TR
-81	이란	O	O	O, B-FD, B-CV, B-LC, B-PS
-82	노래	O	O	O, B-FD, B-CV, I-FD, B-AF
-83	##도	O	O	O, B-CV, I-AF, B-LC, I-CV
-84	있	O	O	O, B-CV, B-LC, B-OG, B-QT
-85	##다	O	O	O, B-CV, B-LC, B-OG, B-PS
-86	.	O	O	O, B-LC, B-CV, B-PS, B-AF
-87	[SEP]	O	O	O, B-LC, B-CV, B-PS, B-AF
+	text	label	preds
+0	[CLS]	O	O
+1	또	O	O
+2	지난해	B-DT	B-DT
+3	개통	O	O
+4	##한	O	O
+5	경	B-AF	B-AF
+6	##춘	I-AF	I-AF
+7	고속도로	I-AF	I-AF
+8	및	O	O
+9	경	B-AF	B-AF
+10	##춘	I-AF	I-AF
+11	##전	I-AF	I-TM
+12	##철	I-AF	I-TM
+13	복선	O	I-TM
+14	##화	O	I-TM
+15	사업	O	I-TM
+16	완공	O	O
+17	##을	O	O
+18	앞두	O	O
+19	##고	O	O
+20	대학생	B-CV	B-CV
+21	등	O	O
+22	젊은이	O	O
+23	##들	O	O
+24	##을	O	O
+25	겨냥	O	O
+26	##한	O	O
+27	수상	B-CV	O
+28	레포츠	I-CV	O
+29	천국	O	O
+30	##을	O	O
+31	만들	O	O
+32	##어	O	O
+33	가	O	O
+34	##고	O	O
+35	있	O	O
+36	##다	O	O
+37	.	O	O
+38	[SEP]	O	O

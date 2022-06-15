@@ -1,31 +1,48 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-EV, I-OG, I-CV
-1	6	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-TI
-2	##만	I-QT	I-QT	I-QT, O, I-LC, I-EV, I-OG
-3	관중석	O	O	O, I-QT, B-TM, B-CV, B-AF
-4	##은	O	O	O, B-CV, I-CV, I-AF, I-QT
-5	꽉	O	O	O, B-CV, B-TM, B-PS, B-OG
-6	찼	O	O	O, B-PS, B-CV, B-LC, B-OG
-7	##고	O	O	O, I-AF, B-CV, I-CV, I-OG
-8	,	O	O	O, B-CV, B-PS, B-LC, B-OG
-9	관중	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-OG
-10	##은	O	O	O, I-CV, I-AF, B-CV, I-EV
-11	꽃	O	O	O, B-PT, B-CV, B-AF, B-MT
-12	종이	O	O	O, I-CV, I-PT, I-AF, B-PT
-13	##를	O	O	O, B-CV, I-AF, I-CV, B-PS
-14	던지	O	O	O, B-CV, B-PS, B-TM, B-AF
-15	##고	O	O	O, B-PS, B-CV, B-LC, I-AF
-16	노래	O	O	O, B-CV, B-AF, B-FD, B-PS
-17	##를	O	O	O, B-CV, I-AF, B-PS, I-CV
-18	부르	O	O	O, B-CV, B-PS, I-AF, B-LC
-19	##며	O	O	O, B-LC, B-PS, B-CV, B-OG
-20	2	B-TI	B-TI	B-TI, O, B-EV, B-QT, B-LC
-21	##시간	I-TI	I-TI	I-TI, O, B-TI, I-EV, I-TR
-22	내내	O	I-TI	I-TI, O, I-DT, I-TR, I-QT
-23	열광	O	O	O, I-TI, B-CV, B-LC, I-EV
-24	##적	O	O	O, B-LC, B-PS, I-LC, I-AF
-25	분위기	O	O	O, B-CV, B-LC, I-AF, I-QT
-26	##였	O	O	O, B-CV, B-PS, B-OG, B-LC
-27	##다	O	O	O, B-CV, I-EV, I-OG, B-LC
-28	.	O	O	O, B-CV, B-PS, B-LC, I-AF
-29	[SEP]	O	O	O, B-CV, I-AF, B-PS, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	지난달	B-DT	B-DT
+2	조선	O	B-AF
+3	분야	O	O
+4	##에	O	O
+5	##서	O	O
+6	1	B-QT	B-QT
+7	##억	I-QT	I-QT
+8	##60	I-QT	I-QT
+9	##00	I-QT	I-QT
+10	##만	I-QT	I-QT
+11	##달	I-QT	I-QT
+12	##러	I-QT	I-QT
+13	##어	I-QT	I-QT
+14	##치	I-QT	I-QT
+15	,	O	O
+16	자동차	B-AF	B-AF
+17	##에	O	O
+18	##선	O	O
+19	완성	O	O
+20	##차	O	O
+21	2	B-QT	B-QT
+22	##만	I-QT	I-QT
+23	##대	I-QT	I-QT
+24	안팎	I-QT	I-QT
+25	규모	O	O
+26	##인	O	O
+27	2	B-QT	B-QT
+28	##억	I-QT	I-QT
+29	##30	I-QT	I-QT
+30	##00	I-QT	I-QT
+31	##만	I-QT	I-QT
+32	##달	I-QT	I-QT
+33	##러	I-QT	I-QT
+34	##의	O	O
+35	수출	O	O
+36	##이	O	O
+37	연기	O	O
+38	·	O	O
+39	취소	O	O
+40	##된	O	O
+41	것	O	O
+42	##으로	O	O
+43	알려졌	O	O
+44	##다	O	O
+45	.	O	O
+46	[SEP]	O	O

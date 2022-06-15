@@ -1,32 +1,50 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	사고	O	O	O, B-CV, B-TM, I-EV, B-QT
-2	##가	O	O	O, B-PS, B-CV, B-OG, B-LC
-3	날	O	O	O, B-CV, B-PS, B-LC, B-AF
-4	때	O	O	O, B-PS, B-CV, B-QT, B-TM
-5	##만	O	O	O, I-QT, B-PS, I-DT, I-PS
-6	반짝	O	O	O, B-QT, B-PS, B-TM, B-CV
-7	관심	O	O	O, B-CV, I-QT, B-TM, B-QT
-8	##을	O	O	O, B-CV, B-PS, B-TM, B-LC
-9	보였	O	O	O, B-TM, B-CV, B-LC, B-PS
-10	##다가	O	O	O, B-PS, I-QT, B-QT, B-TM
-11	금세	O	O	O, B-TM, B-QT, B-CV, B-PS
-12	잊	O	O	O, B-CV, B-TM, B-PS, I-QT
-13	##는	O	O	O, B-CV, B-PS, B-LC, B-TM
-14	##다면	O	O	O, B-LC, B-PS, B-TM, B-CV
-15	세	B-PS	B-PS	B-PS, B-OG, B-LC, B-EV, O
-16	##림	I-PS	I-PS	I-PS, I-LC, I-OG, I-EV, O
-17	##이	O	I-PS	I-PS, O, I-LC, I-EV, B-PS
-18	##의	O	O	O, I-PS, I-EV, I-OG, I-AF
-19	비극	O	O	O, B-CV, I-EV, B-FD, B-LC
-20	##은	O	O	O, B-CV, B-PS, B-LC, B-OG
-21	영원히	O	O	O, B-CV, B-LC, B-QT, B-TM
-22	반복	O	O	O, B-CV, B-LC, B-TM, I-OG
-23	##될	O	O	O, I-AF, B-PS, I-OG, B-LC
-24	수	O	O	O, I-OG, I-AF, B-PS, B-CV
-25	##밖	O	O	O, B-CV, B-TM, I-OG, B-PS
-26	##에	O	O	O, I-OG, I-AF, B-CV, B-TM
-27	없	O	O	O, B-TM, B-CV, I-OG, B-QT
-28	##다	O	O	O, B-CV, I-OG, B-TM, I-AF
-29	.	O	O	O, B-CV, B-PS, B-LC, I-AF
-30	[SEP]	O	O	O, B-CV, B-LC, B-PS, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	이	O	O
+2	때문	O	O
+3	##에	O	O
+4	당	O	O
+5	일각	O	O
+6	##에	O	O
+7	##선	O	O
+8	'	O	O
+9	성공	O	O
+10	##한	O	O
+11	인생	O	O
+12	'	O	O
+13	'	O	O
+14	엘리트	O	B-CV
+15	코스	O	O
+16	'	O	O
+17	로	O	O
+18	대변	O	O
+19	##되	O	O
+20	##는	O	O
+21	법조	O	O
+22	##출	O	O
+23	##신	O	O
+24	##들이	O	O
+25	너무	O	O
+26	많	O	O
+27	##아	O	O
+28	한나라당	B-OG	B-OG
+29	##이	O	O
+30	'	O	O
+31	부자	B-CV	O
+32	정당	O	O
+33	'	O	O
+34	이미지	O	O
+35	##를	O	O
+36	벗	O	O
+37	##지	O	O
+38	못	O	O
+39	##한다	O	O
+40	##는	O	O
+41	비판	O	O
+42	##이	O	O
+43	나오	O	O
+44	##고	O	O
+45	있	O	O
+46	##다	O	O
+47	.	O	O
+48	[SEP]	O	O

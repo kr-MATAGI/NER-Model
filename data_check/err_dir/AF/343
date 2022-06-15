@@ -1,21 +1,26 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, I-OG, B-CV, I-AF
-1	네	O	O	O, B-PS, B-CV, B-LC, B-QT
-2	##가	O	O	O, B-PS, B-CV, I-QT, B-LC
-3	미디어	B-AF	O	O, B-FD, B-CV, B-TR, B-EV
-4	##비	I-AF	O	O, I-FD, I-CV, I-TR, I-AF
-5	##평	I-AF	O	O, I-CV, I-FD, I-TR, I-AF
-6	##x	O	O	O, I-CV, I-AF, I-FD, I-OG
-7	진행자	B-CV	B-CV	B-CV, O, I-CV, B-FD, B-QT
-8	##야	O	O	O, I-CV, I-QT, I-OG, I-AF
-9	.	O	O	O, I-CV, B-CV, B-PS, I-OG
-10	또	O	O	O, B-PS, B-CV, B-LC, B-QT
-11	네	O	O	O, B-PS, B-CV, B-LC, B-QT
-12	##가	O	O	O, B-PS, B-LC, B-CV, I-AF
-13	이	O	O	O, B-PS, B-CV, B-AF, B-FD
-14	영화	O	O	O, B-FD, B-CV, B-TR, B-AF
-15	비평	O	O	O, I-FD, I-CV, B-FD, I-AF
-16	##을	O	O	O, I-CV, B-CV, I-AF, I-EV
-17	하	O	O	O, B-CV, B-PS, B-TM, B-LC
-18	##는데	O	O	O, B-CV, B-PS, I-AF, B-LC
-19	[SEP]	O	O	O, B-CV, B-PS, B-LC, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	고맙	O	O
+2	##습	O	O
+3	##니다	O	O
+4	네	O	O
+5	.	O	O
+6	장관	B-CV	B-CV
+7	##님	O	O
+8	나오	O	O
+9	##시	O	O
+10	##는	O	O
+11	거	O	O
+12	서	B-AF	O
+13	##편	I-AF	O
+14	##제	I-AF	O
+15	##는	O	O
+16	제	O	O
+17	##가	O	O
+18	지금	O	O
+19	인제	O	O
+20	기억	O	O
+21	##이	O	O
+22	남	O	O
+23	##는데	O	O
+24	[SEP]	O	O

@@ -1,27 +1,48 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	한민	B-PS	B-PS	B-PS, B-OG, O, B-LC, I-PS
-2	##구	I-PS	I-PS	I-PS, O, I-OG, I-LC, B-PS
-3	“	O	O	O, I-PS, I-OG, B-LC, B-CV
-4	한국군	B-OG	B-OG	B-OG, O, B-CV, B-LC, B-AF
-5	주도	O	O	O, I-OG, I-EV, B-CV, I-CV
-6	##로	O	O	O, B-LC, B-PS, B-OG, I-OG
-7	北	B-OG	B-LC	B-LC, B-OG, O, B-EV, B-TM
-8	도발	O	O	O, I-LC, I-OG, I-EV, B-LC
-9	단호	O	O	O, B-LC, B-OG, B-PS, I-LC
-10	대응	O	O	O, B-LC, I-OG, B-OG, I-LC
-11	”	O	O	O, I-OG, B-CV, B-LC, I-EV
-12	…	O	O	O, B-LC, B-PS, B-CV, B-OG
-13	멀	B-PS	B-PS	B-PS, B-LC, O, B-OG, I-PS
-14	##린	I-PS	I-PS	I-PS, O, I-LC, I-OG, B-PS
-15	“	O	O	O, I-PS, I-LC, I-OG, B-CV
-16	자위권	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-AF
-17	##은	O	O	O, I-CV, I-OG, B-CV, I-AF
-18	모든	O	O	O, B-LC, B-OG, B-PS, B-CV
-19	국가	O	O	O, B-CV, B-OG, I-OG, B-LC
-20	##가	O	O	O, B-PS, I-OG, B-CV, B-LC
-21	갖	O	O	O, B-CV, B-LC, B-TM, B-OG
-22	##는	O	O	O, B-CV, B-PS, B-LC, I-CV
-23	권리	O	O	O, B-CV, I-CV, B-PS, B-LC
-24	”	O	O	O, I-CV, B-CV, B-PS, I-OG
-25	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	지난해	B-DT	B-DT
+2	11	I-DT	I-DT
+3	##월	I-DT	I-DT
+4	##10	I-DT	I-DT
+5	##일	I-DT	I-DT
+6	진실	B-OG	O
+7	·	I-OG	O
+8	화해	I-OG	O
+9	##를	I-OG	O
+10	위한	I-OG	O
+11	과거사	I-OG	B-OG
+12	##정리	I-OG	I-OG
+13	##위원회	I-OG	I-OG
+14	##는	O	O
+15	아들	B-CV	B-CV
+16	##이	O	O
+17	간첩	O	O
+18	##사건	O	O
+19	조작	O	O
+20	##에	O	O
+21	나선	O	O
+22	경찰의	O	O
+23	가혹	O	O
+24	##행위	O	O
+25	##로	O	O
+26	사망	O	O
+27	##한	O	O
+28	뒤	O	O
+29	자살	O	O
+30	##로	O	O
+31	위장	O	O
+32	##됐	O	O
+33	##다는	O	O
+34	내용	O	O
+35	##을	O	O
+36	확인	O	O
+37	##하	O	O
+38	##고	O	O
+39	진실	O	O
+40	규명	O	O
+41	결정	O	O
+42	##을	O	O
+43	내렸	O	O
+44	##다	O	O
+45	.	O	O
+46	[SEP]	O	O

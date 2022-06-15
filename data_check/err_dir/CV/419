@@ -1,26 +1,62 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	시민	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-EV
-2	##들이	O	O	O, I-CV, B-CV, B-PS, I-OG
-3	서울시	O	O	O, B-LC, B-CV, B-EV, B-OG
-4	##장	O	B-CV	B-CV, O, I-CV, I-EV, B-LC
-5	##감	O	I-CV	I-CV, O, B-CV, I-EV, I-OG
-6	##으로	O	O	O, I-CV, B-PS, B-LC, B-CV
-7	정치력	O	O	O, B-LC, B-CV, B-FD, B-TR
-8	##이	O	O	O, B-PS, B-LC, B-CV, I-PS
-9	뛰어난	O	O	O, B-CV, B-LC, B-PS, B-TM
-10	인물	O	O	O, B-CV, B-PS, B-LC, I-CV
-11	##보	O	O	O, B-CV, B-LC, B-PS, I-CV
-12	##다는	O	O	O, B-CV, B-LC, B-QT, B-PS
-13	‘	O	O	O, B-CV, B-LC, B-PS, B-OG
-14	일	B-CV	B-CV	B-CV, O, I-CV, B-PS, B-AM
-15	##꾼	I-CV	O	O, I-CV, B-CV, I-AM, I-PS
-16	’	O	O	O, I-CV, B-CV, I-AF, B-PS
-17	을	O	O	O, B-PS, B-CV, B-LC, B-AF
-18	선호	O	O	O, B-CV, B-PS, B-LC, B-TM
-19	##한다	O	O	O, B-PS, B-CV, B-LC, I-CV
-20	##는	O	O	O, B-CV, B-PS, I-CV, I-OG
-21	것	O	O	O, B-CV, B-PS, B-OG, B-TM
-22	##이다	O	O	O, B-CV, I-CV, I-OG, I-QT
-23	.	O	O	O, B-PS, B-LC, B-CV, B-AF
-24	[SEP]	O	O	O, B-CV, B-LC, B-PS, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	이한	B-PS	B-PS
+2	##호	I-PS	I-PS
+3	전	O	O
+4	공군	B-OG	B-OG
+5	##총장	B-CV	B-CV
+6	##은	O	O
+7	12	B-DT	B-DT
+8	##일	I-DT	I-DT
+9	동아일보	B-OG	B-OG
+10	##와	O	O
+11	##의	O	O
+12	통화	O	O
+13	##에	O	O
+14	##서	O	O
+15	“	O	O
+16	최근	O	O
+17	김홍	B-PS	B-PS
+18	##래	I-PS	I-PS
+19	전	O	O
+20	공군	B-OG	B-CV
+21	##총장	B-CV	I-CV
+22	,	O	O
+23	안병	B-PS	B-PS
+24	##태	I-PS	I-PS
+25	전	O	O
+26	해군	B-OG	B-CV
+27	##총장	B-CV	I-CV
+28	등	O	O
+29	역대	O	O
+30	총장	B-CV	B-CV
+31	##들이	O	O
+32	논의	O	O
+33	##한	O	O
+34	결과	O	O
+35	해	B-OG	B-OG
+36	·	I-OG	I-OG
+37	공군	I-OG	I-OG
+38	예비역	B-CV	B-CV
+39	장성	O	O
+40	##들	O	O
+41	##은	O	O
+42	국방	O	O
+43	##개혁	O	O
+44	설명	O	O
+45	##회	O	O
+46	##에	O	O
+47	불참	O	O
+48	##하	O	O
+49	##기	O	O
+50	##로	O	O
+51	결정	O	O
+52	##했	O	O
+53	##다	O	O
+54	”	O	O
+55	고	O	O
+56	말	O	O
+57	##했	O	O
+58	##다	O	O
+59	.	O	O
+60	[SEP]	O	O

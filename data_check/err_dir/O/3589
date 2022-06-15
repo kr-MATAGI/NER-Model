@@ -1,31 +1,30 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-EV, I-OG
-1	""""	O	O	O, B-CV, B-PS, B-LC, B-OG
-2	왕궁	O	O	O, B-AF, B-CV, B-LC, B-PS
-3	##에서	O	O	O, I-AF, B-PS, I-PS, I-LC
-4	거리	O	O	O, B-LC, B-CV, B-QT, B-PS
-5	##로	O	O	O, B-PS, B-LC, I-AF, I-LC
-6	나와	O	O	O, B-PS, B-LC, B-CV, B-AF
-7	취임	O	O	O, B-CV, B-PS, B-EV, B-OG
-8	아홉	O	B-DT	B-DT, I-DT, O, B-QT, B-PS
-9	달	O	I-DT	I-DT, O, B-DT, I-QT, I-PS
-10	만	O	I-DT	I-DT, O, B-DT, I-QT, I-PS
-11	##에	O	O	O, I-DT, B-PS, B-LC, I-EV
-12	이	O	O	O, B-PS, B-EV, B-LC, B-OG
-13	시대	O	O	O, I-PS, B-PS, B-CV, I-DT
-14	의제	O	O	O, B-CV, B-PS, B-LC, B-OG
-15	(	O	O	O, B-PS, B-CV, I-CV, B-LC
-16	議	O	O	O, B-PS, B-LC, B-CV, B-OG
-17	[UNK]	O	O	O, B-PS, B-LC, B-CV, B-OG
-18	)	O	O	O, B-PS, B-LC, B-CV, B-OG
-19	의	O	O	O, B-PS, B-LC, B-OG, B-CV
-20	중심	O	O	O, B-TM, B-CV, B-PS, B-LC
-21	##에	O	O	O, B-PS, B-CV, B-LC, B-OG
-22	섰	O	O	O, B-CV, B-PS, B-LC, B-EV
-23	##다	O	O	O, B-PS, I-CV, I-EV, B-CV
-24	""""	O	O	O, B-CV, B-PS, B-LC, I-EV
-25	고	O	O	O, B-PS, B-CV, B-OG, B-LC
-26	했	O	O	O, B-PS, B-CV, B-OG, B-FD
-27	##다	O	O	O, B-CV, B-PS, I-CV, I-EV
-28	.	O	O	O, B-PS, B-LC, B-CV, B-OG
-29	[SEP]	O	O	O, B-CV, B-PS, B-LC, B-FD
+	text	label	preds
+0	[CLS]	O	O
+1	경찰	B-OG	B-OG
+2	##은	O	O
+3	이날	B-DT	B-DT
+4	김	B-PS	B-PS
+5	전	O	O
+6	지검	B-CV	B-CV
+7	##장	I-CV	I-CV
+8	##에	O	O
+9	대해	O	O
+10	공연	O	B-CV
+11	##음	O	I-CV
+12	##란	O	I-CV
+13	혐의	O	O
+14	##가	O	O
+15	인정	O	O
+16	##된	O	O
+17	##다	O	O
+18	##며	O	O
+19	기소	O	O
+20	의견	O	O
+21	##으로	O	O
+22	검찰	B-OG	B-OG
+23	##에	O	O
+24	송치	O	O
+25	##했	O	O
+26	##다	O	O
+27	.	O	O
+28	[SEP]	O	O

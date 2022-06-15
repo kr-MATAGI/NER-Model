@@ -1,16 +1,26 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	우리	O	O	O, B-CV, B-OG, B-PS, B-LC
-2	##가	O	O	O, B-PS, B-OG, I-OG, B-CV
-3	시민	B-CV	O	O, B-CV, B-OG, B-FD, B-TR
-4	##사회	O	O	O, I-CV, I-OG, I-FD, B-CV
-5	##가	O	O	O, B-PS, I-CV, I-OG, I-AF
-6	항상	O	O	O, B-CV, B-PS, B-LC, B-OG
-7	그런	O	O	O, B-CV, B-OG, B-TM, B-LC
-8	데	O	O	O, B-PS, B-CV, B-LC, B-OG
-9	저	O	O	O, B-CV, B-OG, B-PS, B-LC
-10	간섭	O	O	O, B-CV, B-PS, B-LC, B-TM
-11	##하	O	O	O, B-PS, B-CV, I-CV, B-LC
-12	##는	O	O	O, B-CV, B-PS, B-OG, B-LC
-13	게	O	O	O, B-OG, B-CV, B-LC, B-PS
-14	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	하지	O	O
+2	##만	O	O
+3	실제	O	O
+4	통신사	B-CV	O
+5	##업자	I-CV	O
+6	##의	O	O
+7	주인	B-CV	B-CV
+8	##이	O	O
+9	바뀌	O	O
+10	##려면	O	O
+11	,	O	O
+12	미래	B-OG	B-OG
+13	##창	I-OG	I-OG
+14	##조	I-OG	I-OG
+15	##과학	I-OG	I-OG
+16	##부	I-OG	I-OG
+17	##의	O	O
+18	인가	O	O
+19	##를	O	O
+20	받아	O	O
+21	##야	O	O
+22	한다	O	O
+23	.	O	O
+24	[SEP]	O	O

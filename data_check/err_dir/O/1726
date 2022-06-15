@@ -1,34 +1,47 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	제작진	B-CV	B-CV	B-CV, O, B-OG, B-PS, B-AF
-2	##은	O	O	O, I-CV, B-CV, I-OG, I-EV
-3	결국	O	O	O, B-CV, B-PS, B-OG, B-QT
-4	""""	O	O	O, B-CV, B-PS, B-LC, B-OG
-5	제니	B-PS	B-PS	B-PS, O, I-PS, B-LC, B-OG
-6	##는	O	O	O, I-PS, B-PS, B-CV, I-OG
-7	작가	B-CV	B-CV	B-CV, O, B-PS, I-CV, B-TM
-8	##인	O	O	O, I-CV, B-PS, I-PS, B-CV
-9	스콧	B-PS	B-PS	B-PS, O, I-PS, B-LC, B-OG
-10	##의	O	O	O, I-PS, B-CV, B-PS, I-CV
-11	옛	O	O	O, B-CV, B-PS, B-LC, B-TM
-12	여자	O	O	O, B-CV, I-CV, B-AM, B-PS
-13	##친	O	O	O, I-CV, B-CV, I-PS, B-AM
-14	##구이	O	O	O, I-CV, I-PS, I-AM, B-CV
-15	##고	O	O	O, I-CV, B-PS, I-PS, B-CV
-16	미니	O	B-TM	B-TM, O, B-CV, B-TR, B-AM
-17	##홈	O	I-TM	I-TM, O, B-TM, I-CV, I-TR
-18	##피	O	I-TM	I-TM, O, I-CV, B-TM, I-TR
-19	(	O	O	O, I-TM, I-CV, B-CV, I-OG
-20	face	B-TM	O	O, B-TM, B-OG, I-TM, B-CV
-21	##book	I-TM	I-TM	I-TM, O, I-OG, B-TM, I-CV
-22	)	O	O	O, I-TM, I-OG, I-CV, I-QT
-23	도	O	O	O, B-PS, B-CV, B-LC, B-TM
-24	있	O	O	O, B-CV, B-PS, B-TM, B-QT
-25	##다	O	O	O, B-CV, B-PS, I-CV, I-TM
-26	""""	O	O	O, B-CV, B-TM, B-LC, B-OG
-27	고	O	O	O, B-CV, B-TM, B-LC, B-OG
-28	공개	O	O	O, B-CV, B-TM, B-LC, B-PS
-29	##했	O	O	O, B-CV, B-PS, I-CV, I-OG
-30	##다	O	O	O, B-CV, B-OG, B-TM, B-LC
-31	.	O	O	O, B-CV, B-PS, B-LC, B-TM
-32	[SEP]	O	O	O, B-CV, B-PS, B-TM, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	이런	O	O
+2	노력	O	O
+3	끝	O	O
+4	##에	O	O
+5	후쿠	O	B-OG
+6	##이	O	I-OG
+7	##현	O	I-OG
+8	##은	O	O
+9	지난	O	O
+10	1	O	O
+11	##일로	O	O
+12	예정	O	O
+13	##됐	O	O
+14	##던	O	O
+15	벌	O	O
+16	##채	O	O
+17	##를	O	O
+18	당분간	O	O
+19	연기	O	O
+20	##하	O	O
+21	##고	O	O
+22	마을	O	O
+23	주민	B-CV	B-CV
+24	##과	O	O
+25	지역	O	O
+26	##의	O	O
+27	여론	O	O
+28	##을	O	O
+29	조사	O	O
+30	##하	O	O
+31	##고	O	O
+32	난	O	O
+33	다음	O	O
+34	##에	O	O
+35	보호	O	O
+36	여부	O	O
+37	##를	O	O
+38	결정	O	O
+39	##하	O	O
+40	##기	O	O
+41	##로	O	O
+42	했	O	O
+43	##다	O	O
+44	.	O	O
+45	[SEP]	O	O

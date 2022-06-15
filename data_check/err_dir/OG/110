@@ -1,97 +1,16 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-EV, I-CV, I-OG
-1	백	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
-2	회장	B-CV	B-CV	B-CV, O, I-CV, I-PS, B-TM
-3	##은	O	O	O, I-CV, B-CV, I-EV, I-QT
-4	“	O	O	O, B-CV, B-LC, B-OG, B-QT
-5	61	B-DT	B-DT	B-DT, O, B-EV, B-QT, I-DT
-6	##년	I-DT	I-DT	I-DT, O, I-EV, I-QT, I-PS
-7	마산	B-OG	B-AF	B-AF, B-OG, B-LC, O, B-PS
-8	##고	I-OG	I-AF	I-AF, I-OG, I-LC, O, I-EV
-9	운동장	O	O	O, I-AF, I-LC, B-LC, B-AF
-10	##에서	O	O	O, I-AF, I-EV, I-LC, B-CV
-11	열린	O	O	O, B-CV, B-OG, B-LC, B-QT
-12	‘	O	O	O, B-LC, B-CV, B-OG, B-EV
-13	제	B-QT	B-QT	B-QT, O, B-EV, I-QT, B-OG
-14	##1	I-QT	I-QT	I-QT, B-QT, O, I-EV, I-OG
-15	##회	I-QT	I-QT	I-QT, O, I-EV, I-OG, B-QT
-16	3	B-EV	B-EV	B-EV, I-EV, I-QT, B-DT, O
-17	·	I-EV	I-EV	I-EV, I-QT, O, I-LC, I-DT
-18	15	I-EV	I-EV	I-EV, I-QT, I-LC, O, I-AF
-19	##의	I-EV	I-EV	I-EV, O, I-AF, I-LC, I-QT
-20	##거	I-EV	I-EV	I-EV, O, I-AF, I-LC, I-QT
-21	추도	I-EV	I-EV	I-EV, O, B-EV, I-AF, I-DT
-22	##제	I-EV	I-EV	I-EV, O, I-AF, I-DT, I-LC
-23	’	O	O	O, I-EV, I-DT, I-OG, I-AF
-24	에는	O	O	O, B-CV, B-OG, B-LC, B-PS
-25	장면	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
-26	국무총리	B-CV	B-CV	B-CV, O, I-CV, I-PS, B-OG
-27	##와	O	O	O, I-CV, I-EV, I-OG, B-CV
-28	참	B-CV	B-CV	B-CV, O, B-OG, B-EV, B-FD
-29	##의원	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-QT
-30	·	O	O	O, I-CV, I-OG, I-QT, I-EV
-31	민의	B-OG	B-CV	B-CV, O, B-OG, B-EV, B-QT
-32	##원	I-OG	I-CV	I-CV, O, I-OG, I-QT, I-EV
-33	의장	B-CV	B-CV	B-CV, I-CV, O, I-OG, I-QT
-34	모두	O	O	O, I-CV, B-QT, I-QT, B-CV
-35	##가	O	O	O, B-PS, B-QT, B-OG, B-LC
-36	참석	O	O	O, B-CV, B-PS, B-QT, B-LC
-37	##하	O	O	O, B-PS, B-LC, B-CV, B-OG
-38	##는	O	O	O, B-LC, B-PS, B-QT, B-CV
-39	등	O	O	O, B-LC, B-QT, B-OG, B-PS
-40	3	B-EV	B-EV	B-EV, B-DT, B-LC, B-QT, I-EV
-41	·	I-EV	I-EV	I-EV, I-QT, I-DT, O, I-LC
-42	15	I-EV	I-EV	I-EV, I-QT, I-DT, I-LC, I-AF
-43	##는	O	O	O, I-EV, I-AF, I-QT, I-DT
-44	처음	O	O	O, B-QT, B-OG, B-LC, B-CV
-45	##부터	O	O	O, I-QT, B-PS, I-DT, I-EV
-46	사실상	O	O	O, B-QT, B-CV, B-PS, B-LC
-47	국가	O	O	O, B-EV, B-CV, B-DT, B-FD
-48	##기념	O	O	O, I-EV, I-DT, I-CV, B-DT
-49	##일	O	O	O, I-EV, I-DT, I-CV, I-QT
-50	##이	O	O	O, B-PS, B-OG, I-EV, B-CV
-51	##었	O	O	O, B-CV, B-OG, B-LC, B-PS
-52	##다	O	O	O, B-CV, B-OG, B-LC, B-PS
-53	”	O	O	O, B-CV, B-LC, B-OG, B-PS
-54	며	O	O	O, B-CV, B-LC, B-OG, B-PS
-55	“	O	O	O, B-CV, B-LC, B-OG, B-PS
-56	특히	O	O	O, B-OG, B-CV, B-PS, B-QT
-57	장	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
-58	총리	B-CV	B-CV	B-CV, O, I-CV, I-PS, B-EV
-59	##는	O	O	O, I-CV, I-EV, B-CV, I-QT
-60	추도	O	O	O, B-EV, B-CV, B-FD, B-LC
-61	##사	O	O	O, I-EV, I-FD, I-TR, I-CV
-62	##에서	O	O	O, I-EV, B-CV, B-PS, B-LC
-63	‘	O	O	O, B-LC, B-OG, B-CV, B-PS
-64	3	B-EV	B-EV	B-EV, B-QT, B-LC, B-DT, O
-65	·	I-EV	I-EV	I-EV, I-QT, O, I-DT, I-LC
-66	15	I-EV	I-EV	I-EV, I-QT, I-AF, I-LC, O
-67	##는	O	O	O, I-EV, I-AF, I-QT, I-OG
-68	쓰러져	O	O	O, B-LC, B-TM, B-OG, B-CV
-69	##가	O	O	O, B-PS, B-CV, B-LC, B-TM
-70	##는	O	O	O, B-LC, B-PS, B-OG, B-TM
-71	민주	O	O	O, B-TR, B-CV, B-OG, B-PS
-72	##를	O	O	O, I-OG, I-TR, I-CV, B-PS
-73	바로	O	O	O, B-CV, B-QT, B-TM, B-EV
-74	세우	O	O	O, B-PS, B-CV, B-LC, B-QT
-75	##고	O	O	O, B-PS, B-LC, B-QT, B-OG
-76	제	B-OG	B-QT	B-QT, B-OG, B-CV, B-EV, O
-77	##2	I-OG	I-QT	I-QT, I-OG, B-QT, I-CV, O
-78	##공화국	I-OG	I-QT	I-QT, I-OG, O, I-CV, I-EV
-79	초석	O	O	O, I-QT, B-CV, I-OG, I-EV
-80	##을	O	O	O, B-CV, B-PS, B-OG, B-QT
-81	다진	O	O	O, B-CV, B-QT, B-EV, B-LC
-82	의거	O	O	O, B-EV, B-CV, I-EV, B-LC
-83	’	O	O	O, I-EV, B-CV, B-PS, B-OG
-84	라는	O	O	O, B-PS, B-LC, B-CV, B-QT
-85	평가	O	O	O, B-CV, B-LC, B-PS, I-QT
-86	##를	O	O	O, B-CV, B-PS, B-OG, I-OG
-87	했	O	O	O, B-CV, B-PS, B-OG, B-LC
-88	##다	O	O	O, B-CV, I-CV, B-TM, I-OG
-89	”	O	O	O, B-CV, B-TM, B-LC, B-OG
-90	고	O	O	O, B-CV, B-TM, B-LC, B-QT
-91	말	O	O	O, B-CV, B-TM, B-QT, I-CV
-92	##했	O	O	O, B-CV, B-PS, B-LC, B-OG
-93	##다	O	O	O, B-CV, B-TM, B-LC, B-OG
-94	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-95	[SEP]	O	O	O, B-CV, B-LC, I-EV, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	자	O	O
+2	그러	O	O
+3	##면은	O	O
+4	한겨	B-OG	B-PS
+5	##례	I-OG	I-PS
+6	하	B-PS	B-PS
+7	##호영	I-PS	I-PS
+8	기자	B-CV	B-CV
+9	##와	O	O
+10	함께	O	O
+11	했	O	O
+12	##고	O	O
+13	##요	O	O
+14	[SEP]	O	O

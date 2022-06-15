@@ -1,46 +1,15 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, B-PS, I-CV, I-EV
-1	이씨	O	O	O, B-PS, B-CV, B-QT, I-CV
-2	##는	O	O	O, B-PS, B-CV, I-CV, I-PS
-3	지난	B-DT	B-DT	B-DT, O, B-CV, B-PS, I-DT
-4	3	I-DT	I-DT	I-DT, O, I-PS, I-CV, B-DT
-5	##월	I-DT	I-DT	I-DT, O, I-PS, I-CV, B-DT
-6	충남	B-LC	B-LC	B-LC, O, B-OG, B-PS, I-LC
-7	##과	O	O	O, B-PS, B-CV, I-LC, I-PS
-8	서울	B-LC	B-LC	B-LC, O, B-OG, I-LC, B-PS
-9	##의	O	O	O, B-PS, B-CV, I-LC, I-PS
-10	종합	O	O	O, B-CV, B-PS, B-TM, B-OG
-11	##병원	O	O	O, I-CV, B-CV, B-PS, I-OG
-12	##에서	O	O	O, B-PS, B-CV, I-CV, B-QT
-13	일당	O	O	O, B-PS, B-CV, I-CV, I-PS
-14	##을	O	O	O, B-PS, B-CV, I-PS, I-CV
-15	받	O	O	O, B-PS, B-CV, I-CV, I-PS
-16	##는	O	O	O, B-CV, B-PS, I-CV, I-PS
-17	당직	O	B-CV	B-CV, O, I-CV, B-FD, B-OG
-18	##의사	B-CV	I-CV	I-CV, O, B-CV, I-QT, I-OG
-19	##로	O	O	O, I-CV, B-PS, B-CV, B-QT
-20	근무	O	O	O, B-CV, B-PS, I-CV, B-TM
-21	##하	O	O	O, B-PS, B-CV, I-CV, I-PS
-22	##던	O	O	O, B-PS, B-CV, I-CV, I-PS
-23	중	O	O	O, B-PS, B-CV, I-CV, B-QT
-24	마약	O	O	O, B-TM, B-CV, B-MT, I-TM
-25	##류	O	O	O, I-TM, I-CV, I-PS, I-LC
-26	##로	O	O	O, B-PS, B-CV, I-CV, I-PS
-27	분류	O	O	O, B-PS, B-CV, B-TM, I-CV
-28	##된	O	O	O, B-PS, B-CV, I-CV, I-PS
-29	주사	O	O	O, B-TM, B-CV, B-AM, B-AF
-30	앰	B-TM	B-TM	B-TM, B-AF, O, B-MT, B-CV
-31	##풀	I-TM	I-TM	I-TM, I-AF, O, I-MT, I-CV
-32	9	B-QT	B-QT	B-QT, O, I-TM, I-AF, I-QT
-33	##병	I-QT	I-QT	I-QT, O, I-TM, I-AF, I-CV
-34	##을	O	O	O, B-PS, B-CV, I-QT, I-CV
-35	몰래	O	O	O, B-CV, B-PS, B-QT, I-CV
-36	빼돌린	O	O	O, B-CV, B-PS, B-QT, I-CV
-37	혐의	O	O	O, B-CV, B-PS, I-CV, I-PS
-38	##를	O	O	O, B-PS, B-CV, I-CV, I-PS
-39	받	O	O	O, B-CV, B-PS, I-CV, I-PS
-40	##고	O	O	O, B-PS, B-CV, I-CV, I-PS
-41	있	O	O	O, B-PS, B-CV, I-CV, I-PS
-42	##다	O	O	O, B-PS, B-CV, I-CV, I-PS
-43	.	O	O	O, B-PS, B-CV, I-CV, I-PS
-44	[SEP]	O	O	O, B-PS, B-CV, I-CV, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	우리	O	O
+2	세상	O	O
+3	##을	O	O
+4	한	O	B-QT
+5	##번	O	I-QT
+6	제대로	O	O
+7	바꾸	O	O
+8	##자	O	O
+9	##는	O	O
+10	거	O	O
+11	##죠	O	O
+12	.	O	O
+13	[SEP]	O	O

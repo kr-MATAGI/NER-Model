@@ -1,18 +1,39 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-PS, B-CV, I-CV, I-PS
-1	이씨	O	O	O, B-PS, B-CV, I-CV, I-PS
-2	##는	O	O	O, B-PS, B-CV, I-PS, I-CV
-3	범행	O	O	O, B-CV, B-PS, I-CV, I-PS
-4	4	B-TI	O	O, B-TI, B-EV, B-QT, B-PS
-5	##시간	I-TI	I-TI	I-TI, O, B-TI, I-PS, I-TR
-6	만인	O	O	O, B-PS, B-CV, I-TI, I-PS
-7	17	B-DT	B-DT	B-DT, O, B-PS, B-CV, I-DT
-8	##일	I-DT	I-DT	I-DT, O, I-PS, B-DT, I-CV
-9	새벽	O	B-TI	B-TI, O, I-TI, B-EV, B-LC
-10	경찰	B-OG	B-OG	B-OG, O, B-CV, B-AF, I-OG
-11	##에	O	O	O, B-PS, B-CV, I-OG, I-CV
-12	자수	O	O	O, B-CV, B-PS, I-CV, B-TR
-13	##했	O	O	O, B-PS, B-CV, I-CV, I-PS
-14	##다	O	O	O, B-PS, B-CV, I-PS, I-CV
-15	.	O	O	O, B-PS, B-CV, I-PS, I-CV
-16	[SEP]	O	O	O, B-PS, B-CV, I-CV, I-PS
+	text	label	preds
+0	[CLS]	O	O
+1	대학	O	O
+2	##은	O	O
+3	박사	O	B-CV
+4	##학	O	O
+5	##위	O	O
+6	##를	O	O
+7	줄	O	O
+8	만한	O	O
+9	과제	O	O
+10	##를	O	O
+11	골라	O	O
+12	대학원생	B-CV	B-CV
+13	##들	O	O
+14	##에	O	O
+15	##게	O	O
+16	공지	O	O
+17	##하	O	O
+18	##고	O	O
+19	,	O	O
+20	학생	B-CV	B-CV
+21	##들	O	O
+22	##은	O	O
+23	자신	O	O
+24	##의	O	O
+25	전공	O	O
+26	##과	O	O
+27	관심	O	O
+28	##에	O	O
+29	따라	O	O
+30	적절	O	O
+31	##한	O	O
+32	과제	O	O
+33	##를	O	O
+34	선택	O	O
+35	##한다	O	O
+36	.	O	O
+37	[SEP]	O	O

@@ -1,26 +1,88 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-EV, B-CV, I-OG, I-CV
-1	사고	O	O	O, B-CV, B-EV, I-EV, B-OG
-2	##는	O	O	O, B-CV, I-EV, B-OG, B-PS
-3	지난	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-QT
-4	3	I-DT	I-DT	I-DT, B-DT, O, I-QT, I-PS
-5	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-6	오후	B-TI	B-TI	B-TI, I-TI, I-DT, O, B-EV
-7	6	I-TI	I-TI	I-TI, B-TI, I-DT, I-QT, O
-8	##시	I-TI	I-TI	I-TI, B-TI, O, I-QT, I-TR
-9	38	I-TI	I-TI	I-TI, B-TI, I-QT, O, I-TR
-10	##분	I-TI	I-TI	I-TI, I-QT, O, B-TI, I-TR
-11	##쯤	I-TI	I-TI	I-TI, O, I-QT, I-TR, B-TI
-12	경남	B-LC	B-LC	B-LC, O, B-OG, I-TI, I-LC
-13	창원시	B-LC	B-LC	B-LC, I-LC, O, B-OG, B-AF
-14	마산	B-LC	B-LC	B-LC, I-LC, O, B-OG, B-AF
-15	##회원	I-LC	I-LC	I-LC, O, B-LC, I-AF, I-PS
-16	##구	I-LC	I-LC	I-LC, O, I-AF, B-LC, I-PS
-17	마산	B-LC	B-AF	B-AF, B-LC, I-LC, I-AF, O
-18	##역	I-LC	I-AF	I-AF, I-LC, B-AF, O, I-PS
-19	사거리	B-QT	I-AF	I-AF, I-LC, B-AF, B-QT, O
-20	##에서	O	O	O, I-AF, I-LC, I-QT, I-EV
-21	일어났	O	O	O, B-CV, B-OG, I-EV, B-TM
-22	##다	O	O	O, B-CV, I-EV, B-OG, B-LC
-23	.	O	O	O, B-LC, B-CV, B-OG, I-EV
-24	[SEP]	O	O	O, B-LC, B-CV, I-EV, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	김성	B-PS	B-PS
+2	##칠	I-PS	I-PS
+3	서울대	B-OG	B-OG
+4	사학	O	O
+5	##과	O	O
+6	교수	B-CV	B-CV
+7	##는	O	O
+8	회고록	O	O
+9	##에	O	O
+10	##서	O	O
+11	“	O	O
+12	용산	B-LC	B-LC
+13	##과	O	O
+14	살	B-AM	B-AM
+15	##을	O	O
+16	맞대	O	O
+17	##고	O	O
+18	있	O	O
+19	##는	O	O
+20	해방	B-LC	B-LC
+21	##촌	I-LC	I-LC
+22	사람	O	O
+23	##들	O	O
+24	수천	O	O
+25	##명	O	O
+26	##이	O	O
+27	맹	O	O
+28	##폭	O	O
+29	##을	O	O
+30	입	O	O
+31	##고	O	O
+32	무고	O	O
+33	##하	O	O
+34	##게	O	O
+35	죽	O	O
+36	##었	O	O
+37	##다	O	O
+38	”	O	O
+39	고	O	O
+40	적	O	O
+41	##었	O	O
+42	##고	O	O
+43	,	O	O
+44	소설가	B-CV	B-CV
+45	이범	B-PS	B-PS
+46	##선	I-PS	I-PS
+47	##은	O	O
+48	작품	O	O
+49	<	O	O
+50	오	B-AF	B-AF
+51	##발	I-AF	I-AF
+52	##탄	I-AF	I-AF
+53	>	O	O
+54	(	O	O
+55	1959	B-DT	B-DT
+56	##년	I-DT	I-DT
+57	)	O	O
+58	을	O	O
+59	통해	O	O
+60	용산	B-LC	B-EV
+61	폭격	O	I-EV
+62	##의	O	O
+63	충격	O	O
+64	##을	O	O
+65	이기	O	O
+66	##지	O	O
+67	못하	O	O
+68	##고	O	O
+69	정신	O	B-CV
+70	##이상	O	I-CV
+71	##자	O	I-CV
+72	##가	O	O
+73	된	O	O
+74	주인공	B-CV	B-CV
+75	송	B-PS	B-PS
+76	##철	I-PS	I-PS
+77	##호	I-PS	I-PS
+78	어머니	B-CV	B-CV
+79	##의	O	O
+80	비극	O	O
+81	##을	O	O
+82	고발	O	O
+83	##했	O	O
+84	##다	O	O
+85	.	O	O
+86	[SEP]	O	O

@@ -1,17 +1,8 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	•	O	O	O, B-LC, B-OG, B-PS, B-CV
-2	시민	O	O	O, B-CV, B-OG, B-FD, B-TM
-3	##단체	O	O	O, I-OG, I-CV, I-EV, I-AF
-4	이어	O	O	O, I-OG, B-PS, B-OG, B-LC
-5	반대	O	O	O, B-CV, B-OG, B-TM, B-LC
-6	의견	O	O	O, B-OG, B-CV, B-LC, I-OG
-7	,	O	O	O, B-OG, B-LC, B-CV, B-PS
-8	오늘	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-9	시청	O	O	O, B-AF, B-OG, B-EV, I-AF
-10	##서	O	O	O, I-EV, I-AF, I-OG, I-LC
-11	주민	O	B-CV	B-CV, O, B-EV, I-CV, B-TM
-12	##설	O	O	O, I-EV, I-CV, B-CV, B-EV
-13	##명	O	O	O, I-EV, B-EV, B-CV, B-LC
-14	##회	O	O	O, I-EV, B-LC, B-CV, B-EV
-15	[SEP]	O	O	O, B-LC, B-CV, B-OG, I-EV
+	text	label	preds
+0	[CLS]	O	O
+1	능력자	O	B-CV
+2	##는	O	O
+3	아니	O	O
+4	##고	O	O
+5	그냥	O	O
+6	[SEP]	O	O

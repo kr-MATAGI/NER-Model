@@ -1,25 +1,38 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, I-OG, B-CV, I-AF
-1	아이고	O	O	O, B-CV, B-LC, B-TM, B-DT
-2	굳이	O	O	O, B-CV, B-LC, B-PS, B-OG
-3	사위	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-QT
-4	##감	O	I-CV	I-CV, O, B-CV, I-QT, I-TM
-5	며느리	B-CV	B-CV	B-CV, O, I-CV, B-QT, B-TM
-6	##감	O	I-CV	I-CV, O, B-CV, I-QT, I-TM
-7	반대	O	O	O, I-CV, B-CV, B-TM, I-QT
-8	할	O	O	O, I-CV, B-CV, B-PS, B-OG
-9	필요	O	O	O, B-CV, B-TM, B-QT, B-PS
-10	없	O	O	O, I-CV, B-CV, I-QT, I-AF
-11	##어	O	O	O, B-CV, I-OG, I-QT, I-CV
-12	적당	O	O	O, B-CV, B-PS, B-LC, B-OG
-13	##하니	O	O	O, B-PS, B-CV, I-CV, B-LC
-14	그냥	O	O	O, B-CV, B-QT, B-PS, B-TM
-15	뭐	O	O	O, B-CV, B-TM, I-CV, I-QT
-16	하고	O	O	O, B-CV, B-PS, B-LC, B-QT
-17	그거	O	O	O, B-CV, B-TM, B-LC, B-PS
-18	다	O	O	O, B-CV, B-PS, B-TM, B-LC
-19	맘	O	O	O, B-CV, B-PS, B-TM, B-LC
-20	##에	O	O	O, B-CV, I-CV, B-PS, I-AF
-21	담	O	O	O, B-PS, B-CV, B-LC, B-QT
-22	##고	O	O	O, B-CV, I-CV, I-OG, I-AF
-23	[SEP]	O	O	O, B-CV, B-LC, B-PS, I-CV
+	text	label	preds
+0	[CLS]	O	O
+1	호랑이	B-AM	B-AM
+2	가죽	O	O
+3	##에	O	O
+4	매료	O	O
+5	##된	O	O
+6	일본	B-LC	B-LC
+7	고관	B-CV	B-CV
+8	마	B-PS	B-PS
+9	##에	I-PS	I-PS
+10	##조	I-PS	I-PS
+11	##노	I-PS	I-PS
+12	(	O	O
+13	오스	B-PS	B-PS
+14	##기	I-PS	I-PS
+15	렌	I-PS	I-PS
+16	)	O	O
+17	는	O	O
+18	전리	O	O
+19	##품	O	O
+20	##으로	O	O
+21	대	O	B-AM
+22	##호	O	I-AM
+23	##를	O	O
+24	손	B-AM	B-AM
+25	##에	O	O
+26	넣	O	O
+27	##기	O	O
+28	위해	O	O
+29	군사	O	O
+30	##작전	O	O
+31	##처럼	O	O
+32	사냥	O	O
+33	##에	O	O
+34	나선다	O	O
+35	.	O	O
+36	[SEP]	O	O

@@ -1,35 +1,26 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	전형	O	O	O, B-CV, B-TM, B-LC, B-OG
-2	##적인	O	O	O, B-LC, B-PS, B-CV, B-TM
-3	미국	B-LC	B-LC	B-LC, O, B-OG, B-CV, B-PS
-4	중년	O	O	O, B-CV, B-OG, B-TM, B-PS
-5	여성	O	O	O, B-CV, I-CV, B-PS, B-TM
-6	체형	O	O	O, B-PS, B-CV, B-AM, I-CV
-7	##의	O	O	O, B-PS, I-CV, B-LC, I-PS
-8	오프	B-PS	B-PS	B-PS, O, I-PS, B-LC, B-CV
-9	##라	I-PS	I-PS	I-PS, O, I-LC, B-PS, I-AF
-10	윈	I-PS	I-PS	I-PS, O, B-PS, I-LC, B-LC
-11	##프리	I-PS	I-PS	I-PS, O, I-LC, B-PS, B-LC
-12	##가	O	O	O, I-PS, I-AF, I-LC, B-CV
-13	방송	O	O	O, B-CV, B-LC, B-TM, B-AF
-14	##에	O	O	O, B-CV, B-PS, B-LC, B-AF
-15	토리	B-AF	B-AF	B-AF, B-CV, O, B-PS, B-LC
-16	튜	I-AF	B-CV	B-CV, I-CV, I-AF, O, I-PS
-17	##닉	I-AF	I-CV	I-CV, I-AF, O, I-OG, I-PS
-18	##을	O	O	O, I-CV, I-AF, I-OG, B-CV
-19	입	O	O	O, B-CV, I-CV, I-AF, B-PS
-20	##고	O	O	O, B-PS, B-CV, I-CV, B-LC
-21	나온	O	O	O, B-CV, B-LC, B-PS, B-AF
-22	뒤	O	O	O, B-CV, B-TM, B-PS, B-LC
-23	##부터	O	O	O, B-PS, B-LC, I-DT, B-CV
-24	그녀	O	O	O, B-CV, B-LC, B-OG, B-PS
-25	##의	O	O	O, B-CV, B-PS, I-OG, B-LC
-26	명성	O	O	O, B-CV, B-OG, B-LC, B-TM
-27	##도	O	O	O, B-CV, B-PS, B-OG, B-LC
-28	수직	O	O	O, B-TM, B-QT, B-PS, B-OG
-29	상승	O	O	O, I-QT, B-CV, B-PS, I-OG
-30	##했	O	O	O, B-CV, I-OG, B-PS, B-OG
-31	##다	O	O	O, B-CV, I-OG, B-OG, B-LC
-32	.	O	O	O, B-CV, B-LC, B-PS, B-OG
-33	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	청와대	B-AF	B-OG
+2	회담	O	O
+3	##이	O	O
+4	이뤄질	O	O
+5	경우	O	O
+6	서로	O	O
+7	주고받	O	O
+8	##기	O	O
+9	##를	O	O
+10	통해	O	O
+11	국면	O	O
+12	전환	O	O
+13	##을	O	O
+14	자연	O	O
+15	##스레	O	O
+16	이	O	O
+17	##룰	O	O
+18	수	O	O
+19	있	O	O
+20	##다는	O	O
+21	판단	O	O
+22	##이다	O	O
+23	.	O	O
+24	[SEP]	O	O

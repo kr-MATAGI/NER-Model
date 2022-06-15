@@ -1,33 +1,71 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	이	O	O	O, B-CV, B-PS, B-OG, B-AF
-2	사진	O	O	O, B-CV, B-TM, B-PS, B-QT
-3	##은	O	O	O, B-CV, B-PS, B-OG, B-LC
-4	‘	O	O	O, B-CV, B-OG, B-LC, B-PS
-5	경찰	B-OG	B-OG	B-OG, B-CV, O, B-AF, B-PS
-6	##이	O	O	O, I-OG, B-PS, I-AF, B-CV
-7	김	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-8	후보	B-CV	B-CV	B-CV, O, I-PS, I-CV, B-AF
-9	##의	O	O	O, I-CV, B-CV, B-PS, I-AF
-10	얼굴	B-AM	B-AM	B-AM, O, B-TM, B-TR, B-PS
-11	##에	O	O	O, I-AF, I-QT, I-CV, I-TM
-12	침	O	B-TM	B-TM, O, B-AM, B-TR, B-CV
-13	##을	O	O	O, I-TM, B-PS, B-CV, I-AF
-14	뱉	O	O	O, B-PS, B-TM, B-CV, B-LC
-15	##고	O	O	O, B-PS, B-CV, B-LC, B-TM
-16	주먹	B-AM	B-AM	B-AM, O, B-TM, B-TR, I-AM
-17	##으로	O	O	O, I-QT, I-TM, I-AF, I-CV
-18	내리	O	O	O, B-CV, B-TM, B-LC, B-PS
-19	##쳤	O	O	O, B-CV, B-TM, B-PS, B-LC
-20	##다	O	O	O, B-CV, B-PS, B-OG, B-LC
-21	’	O	O	O, B-CV, B-OG, B-PS, B-LC
-22	는	O	O	O, B-CV, B-PS, B-OG, B-LC
-23	설명	O	O	O, B-CV, B-TM, B-LC, B-PS
-24	##이	O	O	O, B-PS, B-CV, B-OG, B-LC
-25	붙	O	O	O, B-CV, B-LC, B-PS, B-OG
-26	##어	O	O	O, B-CV, B-LC, B-PS, B-OG
-27	급속히	O	O	O, B-TM, B-CV, B-LC, B-QT
-28	퍼졌	O	O	O, B-CV, B-TM, B-LC, B-PS
-29	##다	O	O	O, B-CV, B-TM, I-OG, B-OG
-30	.	O	O	O, B-PS, B-CV, B-LC, B-OG
-31	[SEP]	O	O	O, B-CV, B-PS, B-LC, I-EV
+	text	label	preds
+0	[CLS]	O	O
+1	홍콩	B-LC	B-LC
+2	<	O	O
+3	명	B-OG	B-OG
+4	##보	I-OG	I-OG
+5	>	O	O
+6	의	O	O
+7	고정	O	O
+8	##칼	O	O
+9	##럼	O	O
+10	##인	O	O
+11	‘	O	O
+12	중국	B-LC	B-AF
+13	##평	O	I-AF
+14	##론	O	I-AF
+15	’	O	O
+16	16	O	O
+17	##일치	O	O
+18	##에	O	O
+19	##서	O	O
+20	평론가	B-CV	B-CV
+21	쑨	B-PS	B-PS
+22	##자	I-PS	I-PS
+23	##예	I-PS	I-PS
+24	##는	O	O
+25	“	O	O
+26	김정남	B-PS	B-PS
+27	##을	O	O
+28	죽인	O	O
+29	것	O	O
+30	##은	O	O
+31	김정은	B-PS	B-PS
+32	##의	O	O
+33	중국	B-LC	B-LC
+34	##에	O	O
+35	대한	O	O
+36	보복	O	O
+37	##이	O	O
+38	##며	O	O
+39	,	O	O
+40	중국	B-OG	B-OG
+41	##이	O	O
+42	조선	B-OG	B-LC
+43	(	O	O
+44	북	B-OG	B-LC
+45	)	O	O
+46	에	O	O
+47	개입	O	O
+48	##할	O	O
+49	후	O	O
+50	##환	O	O
+51	##을	O	O
+52	근절	O	O
+53	##했	O	O
+54	##다고	O	O
+55	하	O	O
+56	##는	O	O
+57	건	O	O
+58	과도	O	O
+59	##한	O	O
+60	해석	O	O
+61	”	O	O
+62	이라	O	O
+63	##고	O	O
+64	잘라	O	O
+65	말	O	O
+66	##했	O	O
+67	##다	O	O
+68	.	O	O
+69	[SEP]	O	O

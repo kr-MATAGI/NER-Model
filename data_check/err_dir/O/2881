@@ -1,11 +1,23 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, I-EV, B-CV
-1	말	O	O	O, B-AM, B-TM, B-LC, B-PS
-2	##잔치	O	O	O, B-AM, B-PS, I-AF, I-EV
-3	##로	O	O	O, B-CV, B-PS, B-QT, B-LC
-4	끝난	O	O	O, B-EV, B-CV, B-LC, B-QT
-5	‘	O	O	O, B-CV, B-LC, B-AF, B-OG
-6	버핏	O	B-CV	B-CV, B-AF, O, B-OG, B-TM
-7	##세	O	I-CV	I-CV, I-AF, O, I-OG, I-EV
-8	’	O	O	O, I-CV, I-AF, I-EV, I-OG
-9	[SEP]	O	O	O, B-CV, I-EV, B-LC, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	‘	O	O
+2	천지	B-AF	B-AF
+3	##창	I-AF	I-AF
+4	##조	I-AF	I-AF
+5	’	O	O
+6	,	O	O
+7	‘	O	O
+8	최후	B-AF	B-AF
+9	##의	I-AF	I-AF
+10	심판	I-AF	I-AF
+11	’	O	O
+12	등	O	O
+13	##으로	O	O
+14	르네상스	O	B-DT
+15	전성기	O	O
+16	##를	O	O
+17	연	O	O
+18	천재	O	O
+19	##다	O	O
+20	.	O	O
+21	[SEP]	O	O

@@ -1,17 +1,10 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	이	O	O	O, B-PS, B-OG, B-CV, B-LC
-2	정치	O	B-CV	B-CV, O, B-FD, I-CV, B-OG
-3	지도자	B-CV	I-CV	I-CV, B-CV, O, I-OG, I-EV
-4	##가	O	O	O, I-CV, B-PS, I-OG, B-CV
-5	맨	O	O	O, B-CV, B-TM, B-QT, B-AM
-6	앞	O	O	O, B-TM, I-TM, B-QT, B-CV
-7	##에	O	O	O, I-TM, I-QT, B-CV, I-CV
-8	서서	O	O	O, B-CV, B-LC, B-PS, B-OG
-9	정국	O	O	O, B-CV, B-LC, B-OG, I-EV
-10	##을	O	O	O, B-CV, B-OG, B-LC, B-PS
-11	헤쳐	O	O	O, B-CV, B-OG, B-LC, B-PS
-12	나가	O	O	O, B-CV, B-OG, B-LC, B-PS
-13	##야	O	O	O, B-CV, B-OG, B-LC, B-PS
-14	된다	O	O	O, B-CV, B-OG, B-PS, B-LC
-15	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	사	B-CV	B-CV
+2	##골	I-CV	I-CV
+3	##국	I-CV	I-CV
+4	우	B-CV	O
+5	##족	I-CV	O
+6	사다	O	O
+7	##가	O	O
+8	[SEP]	O	O

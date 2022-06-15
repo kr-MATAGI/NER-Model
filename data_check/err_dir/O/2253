@@ -1,35 +1,32 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-EV, I-CV
-1	1967	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-LC
-2	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-3	##이	O	O	O, I-DT, B-PS, I-OG, I-EV
-4	되	O	O	O, I-DT, B-PS, I-OG, B-OG
-5	##서야	O	O	O, B-OG, B-PS, B-LC, I-DT
-6	이집트	B-OG	B-OG	B-OG, B-LC, O, B-PS, I-OG
-7	##와	O	O	O, I-OG, I-LC, I-AF, B-OG
-8	사우디	B-OG	B-OG	B-OG, B-LC, O, I-OG, B-PS
-9	##가	O	O	O, I-OG, I-LC, B-PS, I-EV
-10	휴전	O	O	O, B-EV, B-CV, B-LC, B-OG
-11	##에	O	O	O, I-EV, I-OG, I-CV, B-PS
-12	들어갔	O	O	O, B-OG, B-CV, B-LC, B-PS
-13	##지만	O	O	O, B-CV, B-LC, I-EV, I-OG
-14	,	O	O	O, B-CV, B-LC, B-OG, B-PS
-15	1970	B-DT	B-DT	B-DT, I-DT, O, B-QT, B-LC
-16	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-17	##까	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-18	##지	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-19	내전	O	O	O, B-EV, B-CV, B-LC, I-EV
-20	##은	O	O	O, I-EV, B-CV, B-PS, B-OG
-21	계속	O	O	O, B-CV, B-OG, B-LC, B-TM
-22	##돼	O	O	O, B-LC, B-OG, B-PS, B-CV
-23	약	B-QT	B-QT	B-QT, O, B-DT, I-QT, B-TI
-24	25	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-DT
-25	##만	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-26	##명	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-27	##의	O	O	O, I-QT, B-CV, B-PS, I-EV
-28	사상자	O	B-CV	B-CV, O, I-CV, B-TM, B-QT
-29	##를	O	O	O, I-CV, I-QT, I-OG, I-EV
-30	냈	O	O	O, B-CV, B-TM, B-OG, B-QT
-31	##다	O	O	O, B-CV, B-LC, I-OG, I-EV
-32	.	O	O	O, B-LC, B-OG, B-CV, B-PS
-33	[SEP]	O	O	O, B-CV, B-LC, B-OG, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	현재	O	O
+2	전국	O	O
+3	147	B-QT	B-QT
+4	##8	I-QT	I-QT
+5	##곳	I-QT	I-QT
+6	##의	O	O
+7	치안	O	B-OG
+8	##센터	O	I-OG
+9	중	O	O
+10	경찰관	B-CV	B-CV
+11	##이	O	O
+12	24	B-TI	B-TI
+13	##시간	I-TI	I-TI
+14	근무	O	O
+15	##하	O	O
+16	##는	O	O
+17	곳	O	O
+18	##은	O	O
+19	501	B-QT	B-QT
+20	##곳	I-QT	I-QT
+21	(	O	O
+22	33	B-QT	B-QT
+23	.	I-QT	I-QT
+24	9	I-QT	I-QT
+25	%	I-QT	I-QT
+26	)	O	O
+27	뿐	O	O
+28	##이다	O	O
+29	.	O	O
+30	[SEP]	O	O

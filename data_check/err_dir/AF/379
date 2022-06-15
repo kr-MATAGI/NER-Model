@@ -1,80 +1,15 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	경기도	B-OG	B-OG	B-OG, B-LC, O, I-OG, B-AF
-2	##박	I-OG	I-OG	I-OG, O, I-LC, B-OG, I-AF
-3	##물	I-OG	I-OG	I-OG, O, I-LC, I-AF, B-OG
-4	##관	I-OG	I-OG	I-OG, O, I-LC, I-AF, B-OG
-5	(	O	O	O, I-OG, I-EV, B-CV, I-CV
-6	관장	B-CV	B-CV	B-CV, O, B-OG, B-TM, B-AF
-7	조	B-PS	B-PS	B-PS, B-OG, O, I-PS, B-LC
-8	##유	I-PS	I-PS	I-PS, I-OG, O, I-LC, B-PS
-9	##전	I-PS	I-PS	I-PS, O, I-OG, I-LC, B-PS
-10	)	O	O	O, I-PS, I-OG, B-LC, B-CV
-11	이	O	O	O, B-OG, B-PS, B-LC, B-CV
-12	남한산성	B-AF	B-OG	B-OG, B-LC, I-OG, O, B-AF
-13	문화	B-OG	I-OG	I-OG, O, B-OG, I-CV, I-LC
-14	##관광	I-OG	I-OG	I-OG, O, I-CV, B-OG, I-EV
-15	##사업	I-OG	I-OG	I-OG, O, B-OG, I-CV, I-QT
-16	##단	I-OG	I-OG	I-OG, O, I-CV, I-QT, B-OG
-17	(	O	O	O, I-OG, I-CV, I-QT, I-EV
-18	단장	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-QT
-19	전	B-OG	B-PS	B-PS, O, B-OG, I-PS, B-LC
-20	##종	I-OG	I-PS	I-PS, O, I-OG, I-LC, B-PS
-21	##덕	I-OG	I-PS	I-PS, O, I-OG, I-LC, B-PS
-22	)	O	O	O, I-PS, I-OG, B-CV, B-LC
-23	과	O	O	O, B-OG, B-CV, B-LC, B-TM
-24	공동	O	O	O, B-OG, B-QT, B-TM, B-CV
-25	기획	O	O	O, B-EV, B-QT, B-CV, I-EV
-26	##해	O	O	O, B-PS, B-LC, I-EV, I-OG
-27	박물관	O	O	O, B-AF, B-LC, B-EV, B-CV
-28	기획	O	O	O, B-LC, B-CV, B-AF, I-EV
-29	##전	O	O	O, I-LC, I-EV, I-AF, B-LC
-30	##시	O	O	O, B-LC, I-LC, I-EV, I-AF
-31	##실	O	O	O, I-LC, B-LC, I-EV, I-AF
-32	##에서	O	O	O, B-LC, B-CV, B-PS, B-QT
-33	열	O	O	O, B-EV, B-LC, B-CV, B-QT
-34	##고	O	O	O, B-EV, I-EV, B-PS, B-LC
-35	있	O	O	O, B-EV, I-EV, B-LC, B-PS
-36	##는	O	O	O, I-EV, B-EV, B-LC, B-CV
-37	특별	O	O	O, B-EV, I-EV, B-CV, B-LC
-38	##전	O	O	O, I-EV, B-EV, I-OG, I-QT
-39	'	O	O	O, I-EV, B-EV, B-LC, B-CV
-40	사람	B-EV	O	O, B-EV, B-AF, B-OG, B-LC
-41	,	I-EV	O	O, I-EV, I-AF, I-OG, I-LC
-42	역사	I-EV	I-EV	I-EV, O, I-AF, I-OG, B-EV
-43	,	I-EV	O	O, I-EV, I-AF, I-OG, I-LC
-44	문화	I-EV	O	O, I-EV, I-AF, I-OG, I-LC
-45	##가	I-EV	O	O, I-EV, I-AF, I-OG, I-LC
-46	살아	I-EV	O	O, I-EV, I-AF, I-OG, I-LC
-47	있	I-EV	O	O, I-EV, I-AF, I-OG, I-LC
-48	##는	I-EV	O	O, I-EV, I-AF, I-OG, I-LC
-49	산성	I-EV	O	O, I-EV, I-AF, B-LC, B-AF
-50	##도	I-EV	O	O, I-EV, I-AF, I-LC, I-OG
-51	##시	I-EV	O	O, I-EV, I-AF, I-LC, I-OG
-52	남한산성	I-EV	B-AF	B-AF, B-LC, I-AF, B-EV, I-EV
-53	'	O	O	O, I-EV, I-AF, I-LC, I-DT
-54	은	O	O	O, B-OG, B-CV, B-LC, I-EV
-55	남한산성	B-AF	B-AF	B-AF, B-LC, O, B-EV, B-OG
-56	##이	O	O	O, I-AF, I-EV, I-LC, I-PS
-57	품	O	O	O, B-LC, B-CV, B-TM, B-PS
-58	##고	O	O	O, B-LC, B-PS, B-CV, B-TM
-59	있	O	O	O, B-LC, B-PS, B-CV, B-TM
-60	##는	O	O	O, B-LC, B-PS, B-CV, B-OG
-61	긴	O	O	O, B-FD, B-LC, B-OG, B-CV
-62	역사	O	O	O, B-FD, B-CV, I-FD, B-TR
-63	##와	O	O	O, B-PS, I-FD, I-OG, I-AF
-64	문화	O	O	O, B-FD, B-CV, B-LC, B-TM
-65	,	O	O	O, B-CV, B-PS, B-LC, B-OG
-66	그	O	O	O, B-CV, B-LC, B-OG, B-FD
-67	속	O	O	O, B-CV, B-LC, B-FD, B-PS
-68	##에서	O	O	O, B-CV, B-LC, B-PS, B-OG
-69	함께	O	O	O, B-CV, B-LC, B-TM, B-PS
-70	##했	O	O	O, B-CV, B-LC, B-PS, B-OG
-71	##던	O	O	O, B-CV, B-LC, B-PS, B-OG
-72	삶	O	O	O, B-CV, B-LC, B-FD, B-EV
-73	##의	O	O	O, B-CV, B-PS, B-LC, B-FD
-74	이야기	O	O	O, B-CV, B-FD, B-LC, B-TM
-75	##를	O	O	O, B-CV, B-LC, B-OG, B-PS
-76	들려준다	O	O	O, B-EV, B-CV, B-LC, B-QT
-77	.	O	O	O, B-LC, I-EV, B-CV, B-PS
-78	[SEP]	O	O	O, B-LC, B-CV, I-EV, B-FD
+	text	label	preds
+0	[CLS]	O	O
+1	[	O	O
+2	횡	B-AF	O
+3	##설	I-AF	O
+4	##수	I-AF	O
+5	##설	I-AF	O
+6	/	O	O
+7	이진	O	B-PS
+8	]	O	O
+9	가짜	O	O
+10	뉴스	O	O
+11	경계	O	O
+12	##령	O	O
+13	[SEP]	O	O

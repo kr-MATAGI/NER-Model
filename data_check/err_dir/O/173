@@ -1,69 +1,20 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-EV, B-CV, I-CV
-1	2002	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-2	##년	I-DT	I-DT	I-DT, O, I-QT, B-DT, I-EV
-3	솔	O	B-LC	B-LC, B-EV, B-AF, O, B-OG
-4	##트	O	I-LC	I-LC, I-EV, I-AF, B-LC, I-PS
-5	##레이크	O	I-LC	I-LC, I-AF, I-EV, B-LC, I-PS
-6	(	O	O	O, I-LC, I-AF, I-EV, I-OG
-7	미국	B-LC	B-LC	B-LC, O, B-OG, I-LC, B-AF
-8	)	O	O	O, I-LC, B-LC, I-AF, I-OG
-9	,	O	O	O, B-CV, B-LC, B-OG, B-PS
-10	2006	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-11	##년	I-DT	I-DT	I-DT, O, I-QT, B-DT, I-PS
-12	토리	B-LC	B-LC	B-LC, B-AF, O, B-EV, B-OG
-13	##노	I-LC	I-LC	I-LC, I-AF, B-LC, I-EV, O
-14	(	O	O	O, I-LC, I-AF, I-EV, I-OG
-15	이탈리아	B-LC	B-LC	B-LC, O, I-LC, B-OG, B-AF
-16	)	O	O	O, I-LC, I-AF, B-LC, I-OG
-17	,	O	O	O, B-LC, B-CV, B-OG, B-PS
-18	2010	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-19	##년	I-DT	I-DT	I-DT, O, I-QT, B-DT, I-PS
-20	밴쿠버	B-LC	B-LC	B-LC, O, B-AF, B-OG, B-EV
-21	(	O	O	O, I-LC, I-DT, I-AF, B-LC
-22	캐나다	B-LC	B-LC	B-LC, O, I-LC, B-OG, B-AF
-23	)	O	O	O, I-LC, B-LC, I-AF, I-OG
-24	,	O	O	O, B-CV, B-LC, B-OG, B-PS
-25	2014	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-26	##년	I-DT	I-DT	I-DT, O, I-QT, B-DT, I-PS
-27	소치	B-LC	B-LC	B-LC, O, B-AF, B-OG, I-LC
-28	(	O	O	O, I-LC, I-DT, I-AF, B-LC
-29	러시아	B-LC	B-LC	B-LC, O, I-LC, B-OG, B-AF
-30	)	O	O	O, I-LC, B-LC, I-OG, I-AF
-31	등	O	O	O, B-LC, B-OG, B-CV, B-PS
-32	그동안	O	O	O, B-LC, B-EV, B-DT, B-OG
-33	동계	B-EV	B-EV	B-EV, O, B-CV, I-EV, B-OG
-34	##올	I-EV	I-EV	I-EV, B-EV, O, I-CV, I-OG
-35	##림픽	I-EV	I-EV	I-EV, O, I-CV, B-EV, I-OG
-36	##이	O	O	O, I-EV, I-OG, B-LC, B-PS
-37	북미	B-LC	B-LC	B-LC, O, B-OG, B-AF, I-LC
-38	##와	O	O	O, I-LC, B-LC, I-AF, I-OG
-39	유럽	B-LC	B-LC	B-LC, O, B-OG, I-LC, B-AF
-40	##을	O	O	O, I-LC, B-LC, I-AF, I-OG
-41	오가	O	O	O, B-LC, B-TM, B-CV, B-AF
-42	##며	O	O	O, B-LC, B-PS, B-OG, B-CV
-43	열린	O	O	O, B-OG, B-CV, B-LC, B-PS
-44	만큼	O	O	O, B-LC, B-OG, B-PS, B-EV
-45	2018	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-LC
-46	##년	I-DT	I-DT	I-DT, O, I-QT, B-DT, I-EV
-47	##에	O	O	O, I-DT, I-EV, B-CV, I-QT
-48	##는	O	O	O, B-LC, B-OG, B-EV, B-CV
-49	아시아	B-LC	B-LC	B-LC, O, B-OG, B-AF, I-LC
-50	대륙	O	O	O, I-LC, B-LC, I-AF, I-OG
-51	##에서	O	O	O, I-LC, B-LC, B-PS, I-AF
-52	올림픽	B-EV	B-EV	B-EV, O, B-CV, I-EV, B-AF
-53	##이	O	O	O, I-EV, I-AF, I-OG, I-CV
-54	개최	O	O	O, B-CV, I-EV, B-OG, B-LC
-55	##될	O	O	O, B-CV, B-OG, B-PS, B-LC
-56	가능	O	O	O, B-CV, B-OG, B-LC, B-QT
-57	##성이	O	O	O, B-OG, B-CV, B-PS, B-LC
-58	높	O	O	O, B-CV, B-OG, B-LC, B-PS
-59	##다는	O	O	O, B-OG, B-LC, B-CV, B-PS
-60	것	O	O	O, B-PS, B-CV, B-OG, B-LC
-61	##이	O	O	O, B-PS, B-OG, B-CV, B-LC
-62	일반	O	O	O, B-CV, B-PS, B-TM, B-LC
-63	##적인	O	O	O, B-LC, B-PS, B-CV, I-QT
-64	전망	O	O	O, B-CV, B-QT, B-TM, B-OG
-65	##이다	O	O	O, B-CV, I-QT, I-CV, I-OG
-66	.	O	O	O, B-LC, B-OG, B-CV, B-PS
-67	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	죽여	O	O
+2	버리	O	O
+3	##겠다	O	O
+4	’	O	O
+5	며	O	O
+6	손바닥	B-AM	B-AM
+7	##으로	O	O
+8	가슴	B-AM	B-AM
+9	##을	O	O
+10	3	B-QT	B-QT
+11	,	O	I-QT
+12	4	B-QT	I-QT
+13	##차례	I-QT	I-QT
+14	밀	O	O
+15	##었	O	O
+16	##다	O	O
+17	.	O	O
+18	[SEP]	O	O

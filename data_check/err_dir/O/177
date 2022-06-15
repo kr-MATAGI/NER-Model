@@ -1,9 +1,33 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-AF, I-CV, B-CV
-1	근까	O	O	O, B-CV, B-AF, B-LC, B-OG
-2	건물	O	O	O, B-AF, B-CV, B-TM, B-LC
-3	앞	O	B-TM	B-TM, O, I-TM, B-CV, B-QT
-4	##을	O	O	O, I-TM, I-AF, I-CV, I-QT
-5	지나갈	O	O	O, B-CV, B-AF, B-TM, I-AF
-6	때	O	O	O, B-CV, I-AF, B-OG, B-AF
-7	[SEP]	O	O	O, B-CV, B-AF, I-AF, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	중	O	O
+2	·	O	O
+3	저	O	O
+4	##준	O	O
+5	##위	O	O
+6	폐기물	O	O
+7	##은	O	O
+8	2008	B-DT	B-DT
+9	##년	I-DT	I-DT
+10	##부터	I-DT	I-DT
+11	건설	O	O
+12	중인	O	O
+13	경주	O	B-LC
+14	방	O	O
+15	##폐	O	O
+16	##장	O	O
+17	##에	O	O
+18	묻	O	O
+19	##을	O	O
+20	예정	O	O
+21	##이	O	O
+22	##라	O	O
+23	이번	O	O
+24	논의	O	O
+25	##에	O	O
+26	##서	O	O
+27	제외	O	O
+28	##됐	O	O
+29	##다	O	O
+30	.	O	O
+31	[SEP]	O	O

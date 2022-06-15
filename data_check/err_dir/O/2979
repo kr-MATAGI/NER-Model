@@ -1,29 +1,55 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-EV, I-CV
-1	이날	B-DT	B-DT	B-DT, O, I-DT, B-LC, B-EV
-2	파나마	B-LC	B-LC	B-LC, B-OG, O, I-DT, B-EV
-3	당국	O	I-OG	I-OG, O, B-OG, I-LC, I-EV
-4	##은	O	O	O, I-OG, I-EV, I-AF, I-LC
-5	청천	B-AF	B-AF	B-AF, B-LC, O, B-OG, B-TM
-6	##강	I-AF	I-AF	I-AF, I-LC, O, B-AF, I-OG
-7	##호	I-AF	I-AF	I-AF, I-LC, O, I-OG, I-TM
-8	##에서	O	O	O, I-AF, I-LC, B-LC, I-OG
-9	무기	O	O	O, B-AF, B-CV, I-AF, B-LC
-10	부품	O	O	O, I-AF, I-CV, B-CV, B-AF
-11	##이	O	O	O, B-PS, I-AF, B-CV, B-LC
-12	들어	O	O	O, B-TM, B-CV, B-QT, B-LC
-13	있	O	O	O, B-TM, B-CV, B-AF, B-PS
-14	##는	O	O	O, B-TM, B-AF, B-CV, B-LC
-15	컨테이너	O	O	O, B-AF, B-TM, B-LC, B-CV
-16	2	B-QT	B-QT	B-QT, O, I-QT, B-TM, B-DT
-17	##개	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-TM
-18	##를	O	O	O, I-QT, I-AF, B-CV, I-OG
-19	추가	O	O	O, B-CV, B-QT, B-TM, B-LC
-20	##로	O	O	O, I-QT, B-LC, I-AF, B-PS
-21	발견	O	O	O, B-CV, B-LC, B-TM, B-OG
-22	##했	O	O	O, B-LC, B-PS, B-OG, B-CV
-23	##다고	O	O	O, B-LC, I-OG, B-CV, B-OG
-24	밝혔	O	O	O, B-CV, B-OG, B-LC, B-TM
-25	##다	O	O	O, B-CV, B-LC, B-OG, I-OG
-26	.	O	O	O, B-LC, B-OG, B-AF, B-PS
-27	[SEP]	O	O	O, B-LC, B-CV, B-AF, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	각	O	O
+2	구간	O	O
+3	##이	O	O
+4	끝	O	O
+5	##날	O	O
+6	때	O	O
+7	##마	O	O
+8	##다	O	O
+9	개인	O	O
+10	##종	O	O
+11	##합	O	O
+12	1	B-QT	B-QT
+13	##위	I-QT	I-QT
+14	##는	O	O
+15	옐로	B-TM	B-TM
+16	,	O	O
+17	산악	O	O
+18	구간	O	O
+19	##은	O	O
+20	레드	B-TM	B-TM
+21	폴	O	B-CV
+22	##카	O	I-CV
+23	닷	O	I-CV
+24	,	O	O
+25	스프	B-CV	B-CV
+26	##린트	I-CV	I-CV
+27	##는	O	O
+28	블루	B-TM	B-OG
+29	,	O	O
+30	23	B-QT	B-QT
+31	##세	I-QT	I-QT
+32	미만	O	I-QT
+33	중	O	O
+34	기록	O	O
+35	##이	O	O
+36	가장	O	O
+37	좋	O	O
+38	##은	O	O
+39	선수	B-CV	B-CV
+40	##는	O	O
+41	화이트	B-TM	B-TM
+42	저지	B-CV	B-CV
+43	##를	O	O
+44	받아	O	O
+45	다음	O	O
+46	구간	O	O
+47	##에	O	O
+48	##서	O	O
+49	입	O	O
+50	##고	O	O
+51	달린다	O	O
+52	.	O	O
+53	[SEP]	O	O

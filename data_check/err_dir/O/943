@@ -1,49 +1,41 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-EV, I-OG, I-CV, B-CV
-1	고	O	O	O, B-PS, B-CV, B-LC, B-QT
-2	김근	B-PS	B-PS	B-PS, B-OG, I-PS, O, B-LC
-3	##태	I-PS	I-PS	I-PS, I-OG, O, I-LC, I-DT
-4	전	O	O	O, I-PS, B-CV, I-OG, I-AF
-5	보건복지부	B-OG	B-OG	B-OG, O, B-AF, B-CV, B-LC
-6	장관	B-CV	B-CV	B-CV, O, I-CV, I-OG, B-OG
-7	##이	O	O	O, I-CV, B-PS, B-CV, I-EV
-8	치안	O	B-OG	B-OG, B-AF, O, B-LC, B-TM
-9	##본부	O	I-OG	I-OG, I-AF, O, I-LC, I-PS
-10	남	B-LC	B-LC	B-LC, B-AF, O, B-OG, I-LC
-11	##영	I-LC	I-LC	I-LC, I-AF, O, I-OG, B-LC
-12	##동	I-LC	I-LC	I-LC, I-AF, O, I-OG, I-PS
-13	대공	O	O	O, B-AF, B-LC, I-LC, B-TM
-14	##분	O	O	O, I-LC, I-AF, I-OG, I-QT
-15	##실	O	O	O, I-LC, I-AF, I-OG, I-QT
-16	##에서	O	O	O, I-AF, I-LC, B-PS, B-LC
-17	22	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-LC
-18	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-AF
-19	동안	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-OG
-20	받	O	O	O, I-DT, B-CV, B-PS, B-LC
-21	##은	O	O	O, B-CV, B-PS, B-LC, B-OG
-22	고문	O	O	O, B-CV, B-TR, B-FD, B-TM
-23	##을	O	O	O, I-CV, B-CV, I-EV, B-PS
-24	바탕	O	O	O, B-LC, B-CV, B-QT, B-TM
-25	##으로	O	O	O, B-PS, B-LC, B-QT, B-OG
-26	한	O	O	O, B-FD, B-QT, B-LC, B-PS
-27	영화	O	O	O, B-FD, I-QT, I-FD, B-CV
-28	<	O	O	O, B-LC, B-CV, B-OG, I-QT
-29	남	B-AF	B-AF	B-AF, B-LC, B-PS, B-EV, I-AF
-30	##영	I-AF	I-AF	I-AF, I-LC, I-PS, I-EV, B-AF
-31	##동	I-AF	I-AF	I-AF, I-LC, I-PS, I-EV, O
-32	1985	I-AF	I-AF	I-AF, I-LC, I-EV, I-PS, B-AF
-33	>	O	O	O, I-AF, I-EV, I-DT, I-QT
-34	(	O	O	O, B-CV, B-OG, B-LC, I-AF
-35	2012	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-36	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-37	)	O	O	O, I-DT, B-CV, I-EV, B-LC
-38	의	O	O	O, B-LC, B-CV, B-OG, B-QT
-39	상영	O	O	O, B-CV, B-LC, B-TM, B-OG
-40	##이	O	O	O, B-PS, B-OG, B-CV, B-LC
-41	끝난	O	O	O, B-CV, B-OG, B-TM, B-LC
-42	순간	O	O	O, B-CV, I-EV, B-LC, B-OG
-43	##이	O	O	O, B-CV, B-PS, B-OG, B-LC
-44	##었	O	O	O, B-CV, B-LC, B-OG, I-EV
-45	##다	O	O	O, B-CV, B-LC, I-EV, B-OG
-46	.	O	O	O, B-LC, B-CV, B-OG, B-PS
-47	[SEP]	O	O	O, B-LC, B-CV, B-OG, I-EV
+	text	label	preds
+0	[CLS]	O	O
+1	그래서	O	O
+2	이제	O	O
+3	태어나	O	O
+4	##면은	O	O
+5	독립운동	O	B-EV
+6	한다고	O	O
+7	세월	O	O
+8	보내	O	O
+9	##지	O	O
+10	않	O	O
+11	##고	O	O
+12	이	O	O
+13	나라	O	O
+14	##에	O	O
+15	##서	O	O
+16	신	O	O
+17	##식	O	O
+18	학문	O	O
+19	##을	O	O
+20	배워	O	O
+21	##서	O	O
+22	못	O	O
+23	##다	O	O
+24	##한	O	O
+25	대장	O	O
+26	##경	O	O
+27	##을	O	O
+28	다	O	O
+29	번역	O	O
+30	##하	O	O
+31	##겠다	O	O
+32	##라고	O	O
+33	이렇게	O	O
+34	유언	O	O
+35	##을	O	O
+36	하세	O	O
+37	##요	O	O
+38	.	O	O
+39	[SEP]	O	O

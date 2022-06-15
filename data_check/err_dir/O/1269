@@ -1,32 +1,35 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	매년	O	O	O, B-DT, I-DT, B-QT, B-OG
-2	봄	B-DT	B-DT	B-DT, I-DT, O, B-EV, B-TI
-3	##마다	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-TI
-4	알레르기	O	B-TM	B-TM, O, I-TM, B-TR, B-CV
-5	증상	O	O	O, I-TM, B-TM, I-TR, I-CV
-6	##이	O	O	O, B-PS, B-CV, B-OG, B-LC
-7	심하	O	O	O, B-CV, B-PS, B-TM, B-OG
-8	##다면	O	O	O, B-TM, B-PS, B-LC, I-CV
-9	꽃가루	O	B-PT	B-PT, O, B-CV, I-PT, B-AM
-10	##가	O	O	O, I-EV, B-PS, I-PS, I-PT
-11	날리	O	O	O, B-PS, B-LC, B-OG, B-PT
-12	##기	O	O	O, B-PS, I-EV, I-PS, I-OG
-13	2	B-DT	B-DT	B-DT, B-QT, I-DT, O, B-EV
-14	,	I-DT	I-DT	I-DT, I-QT, O, B-DT, I-PS
-15	3	I-DT	I-DT	I-DT, I-QT, B-DT, O, I-PS
-16	##주	I-DT	I-DT	I-DT, I-QT, O, B-DT, I-TI
-17	전부	I-DT	I-DT	I-DT, O, I-QT, B-DT, I-TI
-18	##터	I-DT	I-DT	I-DT, O, I-QT, B-DT, I-TI
-19	약물	O	O	O, B-TM, B-CV, I-DT, B-FD
-20	##을	O	O	O, B-CV, I-TM, I-CV, B-LC
-21	써서	O	O	O, B-CV, B-LC, B-OG, B-PS
-22	예방	O	O	O, B-TM, B-CV, B-LC, B-OG
-23	##하	O	O	O, B-PS, B-LC, B-CV, I-CV
-24	##는	O	O	O, B-LC, B-CV, B-PS, B-TM
-25	방법	O	O	O, B-CV, B-LC, B-TM, B-PS
-26	##도	O	O	O, B-CV, B-LC, I-CV, B-TM
-27	있	O	O	O, B-CV, B-TM, B-QT, B-LC
-28	##다	O	O	O, B-CV, I-CV, B-TM, I-AF
-29	.	O	O	O, B-LC, B-CV, B-PS, B-TM
-30	[SEP]	O	O	O, B-CV, B-LC, B-TM, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	따라서	O	O
+2	본격	O	O
+3	##적	O	O
+4	##으로	O	O
+5	운동	O	O
+6	##하	O	O
+7	##기	O	O
+8	전	O	O
+9	##에	O	O
+10	관절	B-TM	B-TM
+11	##을	O	O
+12	움직여	O	O
+13	관절	B-TM	B-TM
+14	막	I-TM	I-TM
+15	,	O	O
+16	힘	B-TM	B-TM
+17	##줄	I-TM	I-TM
+18	,	O	O
+19	근육	B-TM	B-TM
+20	,	O	O
+21	인대	B-TM	B-TM
+22	##를	O	O
+23	서서히	O	O
+24	늘려	O	O
+25	주	O	O
+26	##는	O	O
+27	스트레칭	O	B-CV
+28	##을	O	O
+29	먼저	O	O
+30	해야	O	O
+31	한다	O	O
+32	.	O	O
+33	[SEP]	O	O

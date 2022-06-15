@@ -1,30 +1,18 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-AF
-1	저	O	O	O, B-CV, B-OG, B-LC, B-PS
-2	##는	O	O	O, B-CV, B-PS, B-LC, I-AF
-3	평화	B-AF	B-AF	B-AF, O, B-EV, B-LC, B-CV
-4	##의	I-AF	I-AF	I-AF, O, I-EV, B-AF, I-LC
-5	소녀	I-AF	I-AF	I-AF, O, B-AF, I-EV, I-LC
-6	##상	I-AF	I-AF	I-AF, O, I-EV, I-LC, B-AF
-7	##보	O	O	O, I-AF, I-EV, I-QT, I-DT
-8	##다는	O	O	O, I-AF, I-DT, I-EV, I-QT
-9	사실	O	O	O, B-CV, B-PS, B-OG, B-LC
-10	##은	O	O	O, B-PS, B-CV, B-OG, B-LC
-11	이	O	O	O, B-PS, B-CV, B-QT, B-OG
-12	말	O	O	O, I-QT, B-PS, B-CV, I-AF
-13	##이	O	O	O, B-PS, B-LC, B-OG, B-CV
-14	더	O	O	O, B-PS, B-CV, B-OG, B-LC
-15	위안부	B-AF	B-AF	B-AF, B-CV, O, B-OG, B-EV
-16	소녀	I-AF	B-AF	B-AF, I-AF, O, B-CV, B-LC
-17	##상	I-AF	I-AF	I-AF, O, I-EV, I-LC, I-CV
-18	##이	O	O	O, I-AF, I-EV, B-PS, I-OG
-19	가슴	B-AM	B-AM	B-AM, O, B-TM, B-PS, B-CV
-20	##에	O	O	O, I-AF, I-CV, I-QT, I-EV
-21	더	O	O	O, B-CV, B-OG, B-QT, B-LC
-22	많이	O	O	O, B-CV, B-QT, B-LC, B-OG
-23	와	O	O	O, B-CV, B-LC, B-PS, B-QT
-24	##닿	O	O	O, I-QT, B-LC, B-PS, B-CV
-25	##고	O	O	O, B-CV, B-PS, I-AF, B-LC
-26	그러	O	O	O, B-CV, B-OG, B-TM, B-LC
-27	##는데	O	O	O, B-CV, I-AF, I-OG, B-LC
-28	[SEP]	O	O	O, B-CV, B-LC, B-PS, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	이탈리아	B-LC	B-LC
+2	스포츠카	B-AF	B-AF
+3	브랜드	O	O
+4	##인	O	O
+5	페라리	B-AF	B-OG
+6	##는	O	O
+7	전문	O	O
+8	레이싱	O	O
+9	##팀	O	O
+10	##으로	O	O
+11	혼동	O	O
+12	##될	O	O
+13	정도	O	O
+14	##다	O	O
+15	.	O	O
+16	[SEP]	O	O

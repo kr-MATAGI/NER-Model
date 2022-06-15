@@ -1,36 +1,16 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-EV, I-OG, I-CV
-1	이	O	O	O, B-OG, B-CV, B-PS, B-EV
-2	자리	O	O	O, B-CV, I-EV, B-EV, I-QT
-3	##에	O	O	O, B-CV, I-EV, B-OG, B-PS
-4	##는	O	O	O, B-CV, B-OG, B-LC, B-TM
-5	시드니	B-LC	B-LC	B-LC, O, B-OG, B-AF, B-PS
-6	랜	B-LC	B-LC	B-LC, O, I-LC, B-AF, B-PS
-7	##츠	I-LC	I-LC	I-LC, O, I-AF, I-PS, I-OG
-8	사우스	I-LC	B-LC	B-LC, I-LC, O, B-AF, I-AF
-9	##필드	I-LC	I-LC	I-LC, O, I-AF, B-LC, I-PS
-10	시의	B-CV	B-CV	B-CV, O, I-CV, I-AF, I-LC
-11	##원	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-AF
-12	,	O	O	O, I-CV, I-OG, B-CV, I-QT
-13	미시	B-LC	B-LC	B-LC, O, B-OG, B-EV, B-AF
-14	##간	I-LC	I-LC	I-LC, O, B-LC, I-OG, I-AF
-15	주	I-LC	I-LC	I-LC, O, I-EV, I-OG, I-AF
-16	한국	B-EV	B-EV	B-EV, B-LC, I-EV, I-LC, B-AF
-17	##전쟁	I-EV	I-EV	I-EV, I-LC, O, I-AF, I-TM
-18	참전	O	B-CV	B-CV, O, I-EV, I-CV, B-OG
-19	##용	B-CV	I-CV	I-CV, O, B-CV, I-EV, I-OG
-20	##사	I-CV	I-CV	I-CV, O, I-OG, B-CV, I-EV
-21	,	O	O	O, I-CV, I-OG, B-CV, I-QT
-22	한인	O	B-CV	B-CV, O, B-LC, B-OG, I-CV
-23	##사회	O	O	O, I-CV, I-OG, B-CV, I-FD
-24	인사	O	O	O, B-CV, I-CV, B-FD, B-QT
-25	등	O	O	O, I-CV, B-CV, B-QT, B-TM
-26	150	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-PS
-27	##여	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-28	명	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-29	##이	O	O	O, I-QT, B-CV, B-PS, B-OG
-30	참석	O	O	O, B-CV, B-TM, B-EV, B-OG
-31	##했	O	O	O, I-EV, B-PS, B-CV, B-LC
-32	##다	O	O	O, B-CV, B-OG, B-LC, I-EV
-33	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-34	[SEP]	O	O	O, B-CV, B-LC, I-EV, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	李	B-PS	B-PS
+2	특임	B-CV	B-CV
+3	##장	I-CV	I-CV
+4	##관	I-CV	I-CV
+5	,	O	O
+6	민주	B-OG	B-OG
+7	원내대표	O	I-OG
+8	##단	O	I-OG
+9	##과	O	O
+10	‘	O	O
+11	화기애애	O	O
+12	만찬	O	O
+13	’	O	O
+14	[SEP]	O	O

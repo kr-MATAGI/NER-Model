@@ -1,36 +1,31 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-QT
-1	성동구	B-LC	B-LC	B-LC, O, B-OG, B-AF, B-PS
-2	왕십리	B-LC	B-LC	B-LC, O, I-LC, B-OG, B-AF
-3	##역	I-LC	I-LC	I-LC, O, B-LC, I-AF, I-OG
-4	유세	O	O	O, I-LC, B-CV, B-LC, I-AF
-5	##현	O	O	O, I-LC, B-LC, I-AF, B-PS
-6	##장	O	O	O, I-LC, B-LC, I-AF, I-CV
-7	##에	O	O	O, B-CV, B-PS, I-AF, B-LC
-8	##선	O	O	O, B-PS, B-LC, B-CV, B-OG
-9	오	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-10	후보	B-CV	B-CV	B-CV, O, I-PS, I-CV, I-AF
-11	##의	O	O	O, I-CV, B-CV, I-AF, I-EV
-12	부인	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-OG
-13	##으로	O	O	O, I-CV, B-CV, B-PS, I-AF
-14	연극	B-CV	B-CV	B-CV, B-FD, O, B-LC, B-OG
-15	##연	I-CV	B-CV	B-CV, I-CV, O, I-FD, B-FD
-16	##출	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-FD
-17	##가	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-QT
-18	##인	O	O	O, I-CV, B-PS, B-CV, I-QT
-19	송	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
-20	##현	I-PS	I-PS	I-PS, O, I-OG, B-PS, I-LC
-21	##옥	I-PS	I-PS	I-PS, O, I-OG, I-LC, B-LC
-22	세종	B-OG	B-OG	B-OG, O, B-LC, I-OG, B-AF
-23	##대	I-OG	I-OG	I-OG, O, I-LC, I-PS, I-AF
-24	영화	O	O	O, I-OG, B-CV, B-LC, B-QT
-25	##예술	O	O	O, I-OG, B-LC, I-QT, B-QT
-26	##학	O	O	O, B-LC, B-QT, I-QT, I-OG
-27	##과	O	O	O, I-QT, I-OG, B-QT, B-PS
-28	교수	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-OG
-29	##가	O	O	O, I-CV, B-CV, I-QT, I-OG
-30	합류	O	O	O, B-CV, B-TM, B-OG, B-LC
-31	##했	O	O	O, B-CV, B-OG, B-PS, B-LC
-32	##다	O	O	O, B-CV, I-OG, B-OG, B-LC
-33	.	O	O	O, B-LC, B-PS, B-CV, B-OG
-34	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	그	O	O
+2	사이	O	O
+3	호날두	B-PS	B-PS
+4	##는	O	O
+5	포르투갈	B-OG	B-OG
+6	대표	I-OG	I-OG
+7	##팀	I-OG	I-OG
+8	##을	O	O
+9	월드컵	B-EV	B-EV
+10	본선	B-EV	B-EV
+11	##으로	O	O
+12	이	O	O
+13	##끈	O	O
+14	활약	O	O
+15	등	O	O
+16	##으로	O	O
+17	지난해	B-DT	B-DT
+18	피파	B-OG	B-CV
+19	발	B-CV	I-CV
+20	##롱	I-CV	I-CV
+21	##도르	I-CV	I-CV
+22	##를	O	O
+23	손	B-AM	B-AM
+24	##에	O	O
+25	쥐	O	O
+26	##었	O	O
+27	##다	O	O
+28	.	O	O
+29	[SEP]	O	O

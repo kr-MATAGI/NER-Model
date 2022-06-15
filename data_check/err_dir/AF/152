@@ -1,21 +1,53 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	희귀	O	O	O, B-OG, B-LC, B-TM, B-CV
-2	##성	O	O	O, I-OG, I-LC, I-PS, I-TM
-3	때문	O	O	O, B-PS, I-OG, B-LC, B-CV
-4	##에	O	O	O, B-CV, B-LC, I-OG, B-OG
-5	그간	O	O	O, B-OG, B-LC, B-DT, B-QT
-6	홍	B-AF	B-OG	B-OG, O, B-LC, I-OG, B-AF
-7	##릉	I-AF	I-OG	I-OG, O, I-LC, I-AF, I-PS
-8	##수	I-AF	I-OG	I-OG, O, I-LC, I-AF, I-PS
-9	##목	I-AF	I-OG	I-OG, O, I-LC, I-AF, I-PS
-10	##원	I-AF	I-OG	I-OG, O, I-LC, I-AF, I-PS
-11	대표	B-CV	O	O, B-CV, I-OG, I-CV, B-AF
-12	나무	B-PT	O	O, B-PT, I-PT, I-CV, B-DT
-13	##로	O	O	O, I-CV, I-OG, B-CV, I-AF
-14	손꼽	O	O	O, B-LC, B-CV, B-PS, B-OG
-15	##혀	O	O	O, I-OG, I-LC, I-CV, I-QT
-16	##왔	O	O	O, B-CV, I-QT, I-OG, B-PS
-17	##다	O	O	O, B-CV, B-LC, B-TM, I-OG
-18	.	O	O	O, B-LC, B-OG, I-OG, B-PS
-19	[SEP]	O	O	O, I-OG, B-LC, B-CV, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	조선	B-OG	B-OG
+2	##신	I-OG	I-OG
+3	##보	I-OG	I-OG
+4	##는	O	O
+5	이어	O	O
+6	“	O	O
+7	5	B-DT	B-DT
+8	##년	I-DT	I-DT
+9	##간	I-DT	I-DT
+10	다음	O	O
+11	과제	O	O
+12	##인	O	O
+13	정지	O	B-TM
+14	##위성	B-TM	I-TM
+15	개발	O	O
+16	##에	O	O
+17	착수	O	O
+18	##하	O	O
+19	##며	O	O
+20	‘	O	O
+21	광명	B-TM	B-TM
+22	##성	I-TM	I-TM
+23	##3	B-QT	I-TM
+24	##호	I-QT	I-QT
+25	’	O	O
+26	를	O	O
+27	탑재	O	O
+28	##한	O	O
+29	‘	O	O
+30	은하	B-TM	B-TM
+31	##3	B-QT	B-QT
+32	##호	I-QT	I-QT
+33	’	O	O
+34	보다	O	O
+35	더	O	O
+36	큰	O	O
+37	대형	O	O
+38	운반	O	B-AF
+39	##로	B-AF	I-AF
+40	##켓	I-AF	I-AF
+41	개발	O	O
+42	##이	O	O
+43	시작	O	O
+44	##된	O	O
+45	##다	O	O
+46	”	O	O
+47	고	O	O
+48	덧붙였	O	O
+49	##다	O	O
+50	.	O	O
+51	[SEP]	O	O

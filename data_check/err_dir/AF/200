@@ -1,25 +1,43 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-EV, I-CV
-1	보잉	B-AF	B-AF	B-AF, B-OG, O, B-PS, B-TM
-2	77	I-AF	B-QT	B-QT, I-AF, B-AF, I-OG, I-QT
-3	##7	I-AF	I-QT	I-QT, I-AF, I-OG, I-TM, I-EV
-4	##기	I-AF	I-QT	I-QT, I-AF, I-OG, O, I-EV
-5	8	B-QT	B-QT	B-QT, I-QT, I-AF, O, B-DT
-6	##대	I-QT	I-QT	I-QT, I-AF, O, I-EV, I-LC
-7	##를	O	O	O, I-QT, I-AF, I-EV, B-CV
-8	24	B-QT	B-QT	B-QT, I-QT, O, B-DT, B-EV
-9	##억	I-QT	I-QT	I-QT, O, I-EV, B-QT, I-LC
-10	달러	I-QT	I-QT	I-QT, O, I-LC, I-OG, I-EV
-11	##에	O	O	O, I-QT, I-OG, I-EV, I-AF
-12	싱가포르	B-OG	B-OG	B-OG, B-AF, B-LC, O, I-OG
-13	##에어	I-OG	I-OG	I-OG, I-AF, O, I-LC, B-OG
-14	##라인	I-OG	I-OG	I-OG, O, I-AF, I-LC, I-EV
-15	##에	O	O	O, I-OG, I-AF, I-EV, I-LC
-16	팔	O	O	O, B-CV, B-TM, B-LC, B-QT
-17	##기	O	O	O, B-PS, B-LC, B-OG, B-CV
-18	##로	O	O	O, B-CV, I-OG, I-QT, B-PS
-19	한	O	O	O, B-QT, B-OG, B-PS, B-AF
-20	것	O	O	O, B-CV, B-OG, I-OG, I-EV
-21	##이다	O	O	O, B-CV, B-TM, I-OG, I-EV
-22	.	O	O	O, B-OG, B-LC, B-QT, B-CV
-23	[SEP]	O	O	O, B-OG, B-CV, B-QT, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	또	O	O
+2	F	B-AF	B-AF
+3	-	I-AF	I-AF
+4	35	I-AF	I-AF
+5	##A	I-AF	I-AF
+6	스텔스	B-AF	B-AF
+7	전투기	I-AF	I-AF
+8	도입	O	O
+9	,	O	O
+10	해상	B-AF	B-AF
+11	##작전	I-AF	I-AF
+12	##헬	I-AF	I-AF
+13	##기	I-AF	I-AF
+14	,	O	O
+15	해상	B-AF	B-AF
+16	##초	I-AF	I-AF
+17	##계	I-AF	I-AF
+18	##기	I-AF	I-AF
+19	-	I-AF	B-AF
+20	Ⅱ	I-AF	I-AF
+21	,	O	O
+22	장보고	B-AF	B-TM
+23	-	I-AF	I-TM
+24	Ⅱ	I-AF	I-TM
+25	/	I-AF	I-TM
+26	Ⅲ	I-AF	I-TM
+27	사업	O	I-TM
+28	등	O	O
+29	##에	O	O
+30	2	B-QT	B-QT
+31	##조	I-QT	I-QT
+32	##15	I-QT	I-QT
+33	##4	I-QT	I-QT
+34	##억	I-QT	I-QT
+35	##원	I-QT	I-QT
+36	##이	O	O
+37	반영	O	O
+38	##됐	O	O
+39	##다	O	O
+40	.	O	O
+41	[SEP]	O	O

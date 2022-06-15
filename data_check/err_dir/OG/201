@@ -1,19 +1,29 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, B-CV, I-OG, I-AF
-1	그런	O	O	O, B-CV, B-OG, B-LC, B-PS
-2	뛰어난	O	O	O, B-CV, B-PS, B-QT, B-LC
-3	분	O	O	O, B-PS, B-CV, I-CV, I-PS
-4	##들이	O	O	O, B-PS, B-CV, B-LC, B-OG
-5	엘	B-OG	B-AF	B-AF, B-FD, B-PS, B-OG, B-LC
-6	##쥐	I-OG	I-AF	I-AF, I-FD, I-PS, I-OG, O
-7	##에	O	O	O, I-AF, I-OG, I-PS, I-FD
-8	이케	O	O	O, B-PS, B-LC, B-CV, I-AF
-9	쫙	O	O	O, B-PS, B-LC, B-OG, B-CV
-10	이케	O	O	O, B-PS, B-LC, B-CV, B-OG
-11	역사	O	B-FD	B-FD, O, I-FD, B-AF, B-OG
-12	##에	O	O	O, B-PS, I-AF, B-CV, I-FD
-13	남	O	O	O, B-CV, B-PS, B-LC, B-QT
-14	##는	O	O	O, B-PS, B-CV, B-LC, I-CV
-15	분	O	O	O, B-CV, B-PS, B-QT, B-LC
-16	.	O	O	O, B-CV, B-PS, B-LC, I-CV
-17	[SEP]	O	O	O, B-CV, B-PS, B-LC, B-FD
+	text	label	preds
+0	[CLS]	O	O
+1	주간지	O	O
+2	타임	B-OG	B-OG
+3	등	O	O
+4	##은	O	O
+5	백악관	B-OG	B-AF
+6	브리핑	O	O
+7	##을	O	O
+8	보이콧	O	O
+9	##했	O	O
+10	##고	O	O
+11	,	O	O
+12	백악관	B-OG	B-OG
+13	기자단	O	I-OG
+14	##도	O	O
+15	""""	O	O
+16	공식	O	O
+17	대응	O	O
+18	##에	O	O
+19	나설	O	O
+20	것	O	O
+21	""""	O	O
+22	이라	O	O
+23	##고	O	O
+24	했	O	O
+25	##다	O	O
+26	.	O	O
+27	[SEP]	O	O

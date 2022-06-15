@@ -1,10 +1,26 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, B-CV, I-OG, I-AF
-1	디자이너	O	B-CV	B-CV, O, I-CV, B-TM, B-FD
-2	스케치	O	O	O, I-CV, B-CV, B-FD, B-TM
-3	##를	O	O	O, I-CV, B-CV, I-AF, I-TM
-4	하나	B-QT	B-QT	B-QT, O, B-PS, I-QT, B-TM
-5	해	O	O	O, I-QT, B-CV, I-CV, B-OG
-6	##달	O	O	O, I-QT, B-LC, B-CV, I-LC
-7	##라	O	O	O, I-QT, I-AF, I-OG, B-PS
-8	[SEP]	O	O	O, B-CV, B-LC, B-TM, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	11	B-DT	B-DT
+2	##일	I-DT	I-DT
+3	(	O	O
+4	현지	O	O
+5	시간	O	O
+6	)	O	O
+7	독일	B-LC	B-LC
+8	프랑크푸르트	B-LC	B-LC
+9	##를	O	O
+10	떠나	O	O
+11	인천	B-LC	B-LC
+12	##으로	O	O
+13	향하	O	O
+14	##는	O	O
+15	루프	B-OG	B-OG
+16	##트	I-OG	I-OG
+17	##한	I-OG	I-OG
+18	##자	I-OG	I-OG
+19	LH	B-QT	B-TM
+20	##71	I-QT	I-TM
+21	##2	I-QT	I-TM
+22	##편	O	I-QT
+23	.	O	O
+24	[SEP]	O	O

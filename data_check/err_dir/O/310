@@ -1,9 +1,37 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	바로	O	O	O, B-CV, B-TM, B-OG, B-QT
-2	케이트	O	B-OG	B-OG, B-AF, O, B-CV, B-TM
-3	##웰	O	I-OG	I-OG, I-AF, O, I-CV, I-TM
-4	##브	O	I-OG	I-OG, I-AF, O, I-CV, I-TM
-5	##입니다	O	O	O, I-OG, I-AF, I-CV, I-TM
-6	.	O	O	O, I-OG, I-AF, B-CV, B-TM
-7	[SEP]	O	O	O, B-CV, B-TM, I-AF, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	조형물	O	O
+2	제작	O	O
+3	##은	O	O
+4	서울	B-LC	B-LC
+5	종로구	B-LC	B-LC
+6	주한	B-AF	B-AF
+7	##일	I-AF	I-AF
+8	##본	I-AF	I-AF
+9	##대사	I-AF	I-AF
+10	##관	I-AF	I-AF
+11	앞	O	B-TM
+12	‘	O	O
+13	평화	B-AF	B-AF
+14	##의	I-AF	I-AF
+15	소녀	I-AF	I-AF
+16	##상	I-AF	I-AF
+17	’	O	O
+18	등	O	O
+19	##을	O	O
+20	만든	O	O
+21	김	B-PS	B-PS
+22	##운	I-PS	I-PS
+23	##성	I-PS	I-PS
+24	·	O	O
+25	김	B-PS	B-PS
+26	##서	I-PS	I-PS
+27	##경	I-PS	I-PS
+28	부부	B-CV	B-CV
+29	작가	B-CV	B-CV
+30	##가	O	O
+31	맡	O	O
+32	##는	O	O
+33	##다	O	O
+34	.	O	O
+35	[SEP]	O	O

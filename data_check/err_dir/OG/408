@@ -1,53 +1,18 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	연극	B-FD	B-FD	B-FD, O, I-FD, B-CV, B-OG
-2	##계	O	O	O, I-FD, I-OG, B-PS, B-FD
-3	##의	O	O	O, B-PS, I-PS, I-OG, I-AF
-4	거장	B-CV	B-CV	B-CV, O, B-PS, B-QT, I-CV
-5	이해	B-PS	B-PS	B-PS, I-PS, O, B-OG, B-LC
-6	##랑	I-PS	I-PS	I-PS, O, I-OG, I-LC, I-QT
-7	(	O	O	O, I-PS, B-CV, I-OG, B-LC
-8	1916	B-DT	B-DT	B-DT, B-QT, O, I-DT, B-LC
-9	##∼	I-DT	I-DT	I-DT, O, I-QT, B-DT, I-PS
-10	##19	I-DT	I-DT	I-DT, B-DT, O, I-QT, I-PS
-11	##89	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-12	)	O	O	O, I-DT, B-CV, I-QT, B-LC
-13	,	O	O	O, B-CV, B-LC, B-PS, B-OG
-14	‘	O	O	O, B-CV, B-LC, B-PS, B-OG
-15	영원	B-AF	B-AF	B-AF, B-PS, B-OG, O, B-CV
-16	##한	I-AF	I-AF	I-AF, I-PS, O, I-OG, I-LC
-17	햄릿	I-AF	I-AF	I-AF, I-PS, I-OG, B-AF, I-LC
-18	’	O	O	O, I-AF, I-PS, B-CV, I-OG
-19	김동	B-PS	B-PS	B-PS, B-OG, O, B-LC, I-PS
-20	##원	I-PS	I-PS	I-PS, O, I-OG, I-LC, I-AF
-21	(	O	O	O, I-PS, B-CV, I-OG, B-LC
-22	1916	B-DT	B-DT	B-DT, B-QT, I-DT, O, B-LC
-23	~	I-DT	I-DT	I-DT, O, I-QT, B-DT, I-PS
-24	2006	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-25	)	O	O	O, I-DT, B-CV, I-QT, B-LC
-26	,	O	O	O, B-CV, B-PS, B-LC, B-OG
-27	이원	B-PS	B-PS	B-PS, B-OG, O, B-LC, I-PS
-28	##경	I-PS	I-PS	I-PS, I-OG, O, I-LC, I-QT
-29	(	O	O	O, I-PS, B-CV, I-OG, B-LC
-30	1916	B-DT	B-DT	B-DT, I-DT, B-QT, O, B-LC
-31	~	I-DT	I-DT	I-DT, O, I-QT, B-DT, I-PS
-32	2010	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-33	)	O	O	O, I-DT, B-CV, I-QT, B-LC
-34	선생	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-TM
-35	##이	O	O	O, I-CV, B-PS, B-CV, B-LC
-36	연극	B-OG	B-CV	B-CV, B-FD, O, B-OG, B-EV
-37	##인	I-OG	I-CV	I-CV, O, I-FD, I-OG, B-CV
-38	##아	I-OG	O	O, I-CV, I-OG, I-FD, I-EV
-39	##카	I-OG	O	O, I-OG, I-CV, I-FD, I-EV
-40	##데미	I-OG	O	O, I-OG, I-CV, I-FD, I-EV
-41	강의	O	O	O, B-CV, B-FD, B-LC, B-PS
-42	##를	O	O	O, B-CV, I-CV, B-OG, B-PS
-43	한	O	O	O, B-LC, B-QT, B-CV, B-PS
-44	곳	O	O	O, B-LC, B-CV, I-LC, B-AF
-45	##도	O	O	O, B-LC, B-PS, B-CV, I-LC
-46	바로	O	O	O, B-LC, B-OG, B-TM, B-CV
-47	이	O	O	O, B-AF, B-PS, B-LC, B-TM
-48	극장	O	O	O, B-AF, B-LC, I-AF, B-CV
-49	##이다	O	O	O, I-AF, B-CV, I-CV, B-PS
-50	.	O	O	O, B-LC, B-PS, B-CV, B-OG
-51	[SEP]	O	O	O, B-LC, B-CV, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	최순	B-PS	B-PS
+2	##실	I-PS	I-PS
+3	국정	O	B-EV
+4	##농	O	I-EV
+5	##단	O	I-EV
+6	비호	O	O
+7	및	O	O
+8	특별	B-OG	O
+9	##감	I-OG	O
+10	##찰	I-OG	O
+11	##관	I-OG	O
+12	##실	I-OG	O
+13	해체	O	O
+14	주도	O	O
+15	의혹	O	O
+16	[SEP]	O	O

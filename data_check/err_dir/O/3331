@@ -1,55 +1,45 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-EV, I-OG
-1	특검	O	O	O, B-OG, B-CV, B-PS, I-OG
-2	##팀	O	O	O, I-OG, B-OG, I-CV, B-PS
-3	##은	O	O	O, B-PS, I-OG, B-CV, I-PS
-4	2015	B-DT	B-DT	B-DT, O, I-DT, B-PS, B-LC
-5	##년	I-DT	I-DT	I-DT, O, B-DT, I-PS, I-QT
-6	7	I-DT	I-DT	I-DT, O, B-DT, I-PS, I-OG
-7	##월	I-DT	I-DT	I-DT, O, B-DT, I-PS, I-OG
-8	##25	I-DT	I-DT	I-DT, O, B-DT, I-PS, I-OG
-9	##일	I-DT	I-DT	I-DT, O, B-DT, I-PS, I-OG
-10	이	B-PS	B-PS	B-PS, O, I-PS, B-LC, B-OG
-11	부회장	B-CV	B-CV	B-CV, O, I-PS, I-CV, B-PS
-12	##의	O	O	O, B-PS, I-PS, I-CV, I-EV
-13	박	B-PS	B-PS	B-PS, O, I-PS, B-OG, B-LC
-14	대통령	B-CV	B-CV	B-CV, O, I-PS, I-CV, B-PS
-15	독대	O	O	O, B-PS, I-CV, I-EV, I-PS
-16	##를	O	O	O, B-PS, B-LC, I-PS, B-CV
-17	전후	O	O	O, B-PS, B-CV, B-LC, B-OG
-18	##로	O	O	O, B-PS, I-PS, B-OG, B-LC
-19	그룹	O	O	O, B-OG, B-PS, I-OG, B-LC
-20	미래	O	B-OG	B-OG, O, I-OG, B-AF, B-CV
-21	##전	O	I-OG	I-OG, O, I-CV, B-OG, I-AF
-22	##략	O	I-OG	I-OG, O, B-OG, I-CV, I-AF
-23	##실	O	I-OG	I-OG, O, I-AF, I-CV, I-PS
-24	##이	O	B-PS	B-PS, O, I-PS, I-OG, B-LC
-25	조직	O	O	O, B-PS, I-PS, B-CV, B-LC
-26	##적으로	O	O	O, B-PS, I-PS, B-LC, I-EV
-27	움직여	O	O	O, B-PS, I-PS, B-LC, B-CV
-28	최	B-PS	B-PS	B-PS, O, I-PS, B-LC, B-OG
-29	##씨	O	O	O, I-PS, B-CV, I-EV, I-LC
-30	##에	O	O	O, B-PS, B-CV, B-LC, I-PS
-31	대한	O	O	O, B-PS, B-LC, B-CV, B-OG
-32	지원	O	O	O, B-PS, B-CV, B-LC, B-TM
-33	##을	O	O	O, B-PS, B-LC, B-CV, I-PS
-34	논의	O	O	O, B-PS, B-CV, I-PS, B-LC
-35	##했	O	O	O, B-PS, I-PS, B-LC, B-CV
-36	##고	O	O	O, B-PS, I-PS, B-LC, B-CV
-37	이를	O	O	O, B-PS, B-LC, I-PS, B-CV
-38	이	B-PS	B-PS	B-PS, O, I-PS, B-LC, B-CV
-39	부회장	B-CV	B-CV	B-CV, O, I-CV, I-PS, B-PS
-40	##에	O	O	O, I-CV, B-PS, B-CV, I-EV
-41	##게	O	O	O, B-PS, B-LC, B-CV, B-TM
-42	보고	O	O	O, B-PS, B-CV, B-LC, B-TM
-43	##한	O	O	O, B-PS, I-PS, B-LC, B-CV
-44	정황	O	O	O, B-PS, B-CV, I-PS, I-EV
-45	##을	O	O	O, B-PS, B-CV, I-PS, B-LC
-46	확인	O	O	O, B-PS, B-CV, B-LC, I-PS
-47	##한	O	O	O, B-PS, I-PS, B-LC, B-CV
-48	것	O	O	O, B-PS, B-CV, I-PS, B-LC
-49	##으로	O	O	O, B-PS, B-CV, B-LC, I-PS
-50	알려졌	O	O	O, B-CV, B-LC, B-PS, B-TM
-51	##다	O	O	O, B-CV, B-PS, B-LC, I-CV
-52	.	O	O	O, B-PS, B-LC, B-CV, B-OG
-53	[SEP]	O	O	O, B-PS, B-CV, B-LC, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	경복	B-OG	B-OG
+2	##대	I-OG	I-OG
+3	##는	O	O
+4	수도권	B-LC	B-LC
+5	최대	O	O
+6	##의	O	O
+7	학생	O	B-CV
+8	##복지	O	O
+9	제도	O	O
+10	##를	O	O
+11	운영	O	O
+12	##하	O	O
+13	##고	O	O
+14	있	O	O
+15	##으며	O	O
+16	,	O	O
+17	재학생	B-CV	B-CV
+18	10	B-QT	B-QT
+19	##명	I-QT	I-QT
+20	중	O	O
+21	7	B-QT	B-QT
+22	##명	I-QT	I-QT
+23	##이	O	O
+24	각종	O	O
+25	교내	O	O
+26	##외	O	O
+27	장학금	O	O
+28	(	O	O
+29	총	O	O
+30	178	B-QT	B-QT
+31	##억	I-QT	I-QT
+32	원	I-QT	I-QT
+33	)	O	O
+34	을	O	O
+35	받	O	O
+36	##을	O	O
+37	만큼	O	O
+38	장학금	O	O
+39	##을	O	O
+40	많이	O	O
+41	준다	O	O
+42	.	O	O
+43	[SEP]	O	O

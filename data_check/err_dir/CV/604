@@ -1,34 +1,34 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	20	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-2	##년	I-DT	I-DT	I-DT, B-DT, O, I-QT, I-PS
-3	전	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-4	일본	B-LC	B-LC	B-LC, B-OG, O, I-DT, I-LC
-5	##과	O	O	O, I-LC, I-OG, I-AF, B-LC
-6	스웨덴	B-LC	B-LC	B-LC, B-OG, O, B-AF, B-PS
-7	##의	O	O	O, I-LC, I-OG, I-AF, B-LC
-8	정책	O	O	O, B-CV, B-LC, B-FD, B-PS
-9	##을	O	O	O, B-CV, B-PS, B-LC, B-OG
-10	벤치마킹	O	O	O, B-LC, B-CV, B-TM, B-PS
-11	##해	O	O	O, B-LC, B-PS, B-OG, B-CV
-12	도입	O	O	O, B-CV, B-OG, B-TM, B-LC
-13	##한	O	O	O, B-CV, B-LC, B-PS, B-OG
-14	쓰레기	B-CV	O	O, B-CV, B-TM, I-CV, B-AF
-15	종량	I-CV	O	O, I-CV, B-CV, I-TM, I-AF
-16	##제	I-CV	O	O, I-CV, I-TM, B-CV, I-AF
-17	##는	O	O	O, I-CV, I-TM, I-AF, I-OG
-18	국제	O	O	O, B-CV, I-CV, B-TM, B-LC
-19	##적으로	O	O	O, B-LC, B-CV, B-PS, B-QT
-20	##도	O	O	O, B-LC, B-PS, B-CV, B-OG
-21	높	O	O	O, B-CV, B-LC, B-TM, B-OG
-22	##게	O	O	O, B-PS, B-LC, B-OG, B-CV
-23	평가	O	O	O, B-CV, B-LC, B-TM, B-PS
-24	##되	O	O	O, B-PS, B-CV, B-LC, B-OG
-25	##는	O	O	O, B-CV, B-PS, B-FD, B-LC
-26	환경	O	O	O, B-FD, B-CV, B-TR, B-TM
-27	정책	O	O	O, I-CV, B-CV, B-FD, I-FD
-28	중	O	O	O, B-PS, B-QT, B-CV, I-CV
-29	하나	O	O	O, B-QT, I-QT, B-PS, B-LC
-30	##다	O	O	O, I-QT, B-CV, I-OG, I-CV
-31	.	O	O	O, B-CV, B-LC, B-PS, B-FD
-32	[SEP]	O	O	O, B-CV, B-LC, B-FD, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	서울	B-LC	B-LC
+2	광진구	B-LC	B-LC
+3	##에	O	O
+4	##서	O	O
+5	프랜차이즈	O	O
+6	족발	B-CV	O
+7	##집	O	O
+8	##을	O	O
+9	운영	O	O
+10	##하	O	O
+11	##는	O	O
+12	손	B-PS	B-PS
+13	##준호	I-PS	I-PS
+14	(	O	O
+15	42	B-QT	B-QT
+16	)	O	O
+17	씨	O	O
+18	##의	O	O
+19	한	B-DT	B-DT
+20	##달	I-DT	I-DT
+21	매출	O	O
+22	##은	O	O
+23	1000	B-QT	B-QT
+24	##만	I-QT	I-QT
+25	##원	I-QT	I-QT
+26	##을	O	O
+27	조금	O	O
+28	넘	O	O
+29	##는	O	O
+30	##다	O	O
+31	.	O	O
+32	[SEP]	O	O

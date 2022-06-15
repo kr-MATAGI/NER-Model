@@ -1,57 +1,12 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-EV, I-CV, B-CV
-1	장	O	O	O, B-AF, B-CV, B-AM, B-TM
-2	##독	O	O	O, I-AF, I-CV, I-AM, I-TM
-3	##대	O	O	O, I-AF, I-CV, I-TM, I-AM
-4	##가	O	O	O, I-AF, B-PS, I-PS, I-CV
-5	올	O	O	O, B-PS, B-AM, B-LC, B-PT
-6	##망	O	O	O, I-PS, I-LC, I-AF, I-OG
-7	##졸	O	O	O, I-PS, I-LC, I-AF, I-OG
-8	##망	O	O	O, I-PS, I-LC, I-AF, I-OG
-9	자리	O	O	O, B-CV, B-LC, B-PS, B-AF
-10	잡	O	O	O, B-PS, B-CV, I-AF, B-LC
-11	##은	O	O	O, B-CV, B-LC, B-PS, B-QT
-12	무대	O	O	O, B-AF, B-CV, B-FD, B-EV
-13	##에서	O	O	O, I-AF, I-EV, B-CV, I-CV
-14	##는	O	O	O, B-CV, B-LC, B-PS, B-OG
-15	여자	O	O	O, B-CV, B-LC, B-PS, B-FD
-16	##도	O	O	O, B-PS, B-CV, B-LC, I-AF
-17	배워야	O	O	O, B-CV, B-LC, B-PS, B-AF
-18	한다며	O	O	O, B-LC, B-PS, B-CV, B-OG
-19	딸	B-CV	B-CV	B-CV, O, I-CV, B-AF, B-TM
-20	##도	O	O	O, I-CV, I-AF, B-CV, I-OG
-21	서울	B-LC	B-LC	B-LC, O, B-OG, B-AF, I-LC
-22	##로	O	O	O, I-LC, I-AF, B-LC, I-OG
-23	보내	O	O	O, B-LC, B-CV, B-PS, B-QT
-24	##고	O	O	O, B-PS, B-LC, B-QT, I-QT
-25	,	O	O	O, B-CV, B-PS, B-LC, B-OG
-26	살림	O	O	O, B-CV, B-PS, B-LC, B-TM
-27	##에	O	O	O, B-PS, B-CV, B-LC, B-TM
-28	지쳐	O	O	O, B-LC, B-CV, B-PS, B-TM
-29	홍어	O	B-AM	B-AM, B-CV, B-PT, O, B-TM
-30	껍질	O	O	O, I-CV, I-PT, I-AM, B-PT
-31	##을	O	O	O, I-CV, B-CV, I-AF, I-QT
-32	벗기	O	O	O, B-CV, B-LC, B-PS, I-CV
-33	##지	O	O	O, B-PS, B-CV, B-LC, B-QT
-34	않	O	O	O, B-CV, B-LC, B-PS, I-EV
-35	##고	O	O	O, B-CV, B-LC, B-PS, B-QT
-36	제사	O	O	O, B-CV, B-AF, B-EV, B-FD
-37	##상	O	O	O, I-AF, I-CV, I-EV, I-LC
-38	##에	O	O	O, I-AF, B-CV, I-CV, I-EV
-39	올리	O	O	O, B-CV, B-LC, B-PS, B-QT
-40	##겠다	O	O	O, B-CV, B-PS, B-LC, I-EV
-41	##고	O	O	O, B-CV, B-PS, B-LC, B-QT
-42	선언	O	O	O, B-CV, B-LC, B-PS, B-QT
-43	##하	O	O	O, B-CV, B-PS, B-LC, B-OG
-44	##는	O	O	O, B-CV, B-PS, B-LC, B-QT
-45	엄마	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-TM
-46	##와	O	O	O, I-CV, I-AF, B-CV, I-OG
-47	가족	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-TM
-48	##들	O	O	O, I-CV, I-AF, I-EV, I-OG
-49	##의	O	O	O, B-CV, B-LC, B-PS, B-TM
-50	모습	O	O	O, B-CV, B-LC, B-FD, B-TM
-51	##이	O	O	O, B-PS, B-CV, B-OG, B-LC
-52	펼쳐졌	O	O	O, B-CV, B-FD, B-LC, I-EV
-53	##다	O	O	O, B-CV, I-EV, B-PS, I-OG
-54	.	O	O	O, B-LC, B-CV, B-PS, I-EV
-55	[SEP]	O	O	O, B-CV, B-LC, B-PS, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	그동안	O	O
+2	제	O	O
+3	##가	O	O
+4	연구원	O	B-CV
+5	##에	O	O
+6	x	O	O
+7	뵀	O	O
+8	##었	O	O
+9	##는데	O	O
+10	[SEP]	O	O

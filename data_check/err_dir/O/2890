@@ -1,21 +1,16 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-AF
-1	식사	O	O	O, B-CV, B-TM, I-CV, B-LC
-2	##를	O	O	O, B-CV, B-PS, I-AF, I-CV
-3	할	O	O	O, B-CV, B-TM, B-PS, B-OG
-4	때	O	O	O, B-CV, B-PS, B-TM, B-LC
-5	##는	O	O	O, B-CV, B-TM, B-PS, B-OG
-6	향	O	O	O, B-PT, B-CV, B-PS, B-MT
-7	없	O	O	O, B-CV, I-AF, I-OG, I-CV
-8	##는	O	O	O, B-CV, B-PS, B-LC, B-TM
-9	초	O	B-PT	B-PT, O, B-CV, I-PT, B-MT
-10	##를	O	O	O, I-CV, I-OG, I-AF, B-CV
-11	선택	O	O	O, B-CV, B-QT, B-LC, B-OG
-12	##하	O	O	O, B-CV, B-PS, B-OG, B-LC
-13	##는	O	O	O, B-CV, B-PS, B-OG, B-LC
-14	편	O	O	O, B-CV, B-PS, B-LC, B-OG
-15	##이	O	O	O, B-PS, B-CV, B-OG, B-LC
-16	낫	O	O	O, B-CV, B-LC, B-OG, B-TM
-17	##다	O	O	O, B-CV, I-CV, I-OG, I-AF
-18	.	O	O	O, B-CV, B-LC, B-OG, B-PS
-19	[SEP]	O	O	O, B-CV, I-OG, B-LC, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	특히	O	O
+2	‘	O	O
+3	짠	O	O
+4	##물	O	O
+5	퍼팅	O	B-TM
+6	’	O	O
+7	이	O	O
+8	인상	O	O
+9	##적	O	O
+10	##이	O	O
+11	##었	O	O
+12	##다	O	O
+13	.	O	O
+14	[SEP]	O	O

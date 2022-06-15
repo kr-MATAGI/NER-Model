@@ -1,59 +1,56 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	홍기	B-PS	B-PS	B-PS, B-OG, O, B-LC, I-PS
-2	##택	I-PS	I-PS	I-PS, I-OG, O, I-LC, B-PS
-3	산은	B-OG	B-OG	B-OG, I-OG, O, B-AF, I-PS
-4	##금융	I-OG	I-OG	I-OG, O, I-PS, B-OG, I-AF
-5	##그룹	I-OG	I-OG	I-OG, O, I-AF, I-CV, I-LC
-6	회장	B-CV	B-CV	B-CV, O, I-OG, I-CV, B-AF
-7	##은	O	O	O, I-CV, I-OG, B-CV, I-EV
-8	“	O	O	O, B-CV, B-LC, B-OG, B-PS
-9	내년	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-10	‘	O	O	O, I-DT, B-OG, B-CV, B-PS
-11	통합	O	B-OG	B-OG, O, B-AF, B-EV, B-CV
-12	산은	B-OG	B-OG	B-OG, I-OG, O, B-AF, B-PS
-13	’	O	O	O, I-OG, I-EV, I-AF, I-CV
-14	이	O	O	O, B-PS, B-OG, B-LC, B-AF
-15	출범	O	O	O, B-CV, B-OG, I-OG, B-LC
-16	##하면	O	O	O, B-PS, B-OG, B-LC, I-OG
-17	중소기업	O	O	O, B-OG, B-CV, B-TM, B-LC
-18	및	O	O	O, I-OG, B-CV, B-PS, B-LC
-19	창업	O	O	O, B-CV, B-OG, B-TM, B-FD
-20	##기업	O	O	O, I-OG, I-CV, I-TM, I-LC
-21	지원	O	O	O, B-CV, B-TM, B-PS, I-OG
-22	기능	O	O	O, B-CV, B-LC, B-TM, B-PS
-23	##이	O	O	O, B-PS, B-OG, B-LC, B-CV
-24	더욱	O	O	O, B-QT, B-DT, B-LC, B-TM
-25	강화	O	O	O, B-CV, I-QT, B-OG, B-LC
-26	##될	O	O	O, B-PS, B-LC, I-OG, B-CV
-27	것	O	O	O, B-PS, B-CV, I-OG, B-LC
-28	”	O	O	O, B-CV, B-LC, I-OG, B-PS
-29	이라	O	O	O, B-CV, B-PS, B-OG, B-TM
-30	##며	O	O	O, B-CV, B-LC, B-OG, B-TM
-31	“	O	O	O, B-CV, B-LC, B-PS, B-OG
-32	앞	O	O	O, B-OG, B-LC, B-CV, B-TM
-33	##으로	O	O	O, B-PS, B-LC, I-OG, B-OG
-34	글로벌	O	B-CV	B-CV, O, B-LC, B-AF, B-TM
-35	파트너십	O	I-CV	I-CV, O, B-CV, I-TM, I-AF
-36	펀드	O	I-CV	I-CV, O, I-TM, I-OG, B-CV
-37	조성	O	O	O, I-CV, I-OG, I-TM, I-AF
-38	등	O	O	O, B-LC, B-OG, B-PS, I-OG
-39	##으로	O	O	O, B-LC, B-OG, B-PS, B-TM
-40	벤처	O	O	O, B-CV, B-OG, B-FD, B-TM
-41	##기업	O	O	O, I-OG, I-CV, I-TM, I-LC
-42	##의	O	O	O, I-OG, B-PS, B-LC, I-AF
-43	글로벌	O	O	O, B-LC, B-TM, B-CV, B-OG
-44	##시장	O	O	O, B-LC, I-LC, B-CV, B-TM
-45	진출	O	O	O, B-LC, I-LC, B-TM, B-CV
-46	##도	O	O	O, B-LC, B-CV, B-PS, B-OG
-47	적극	O	O	O, B-TM, B-LC, B-OG, B-CV
-48	지원	O	O	O, B-OG, B-TM, B-CV, B-LC
-49	##할	O	O	O, B-PS, B-LC, B-OG, B-CV
-50	것	O	O	O, B-CV, B-OG, B-LC, B-PS
-51	”	O	O	O, B-CV, B-LC, B-TM, I-OG
-52	이라	O	O	O, B-CV, B-PS, B-OG, B-TM
-53	##고	O	O	O, B-CV, B-TM, I-OG, B-OG
-54	밝혔	O	O	O, B-CV, B-TM, B-OG, B-LC
-55	##다	O	O	O, B-CV, B-TM, B-OG, B-LC
-56	.	O	O	O, B-LC, B-OG, B-CV, B-PS
-57	[SEP]	O	O	O, B-CV, B-LC, B-OG, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	예	O	O
+2	##를	O	O
+3	들어	O	O
+4	1000	B-QT	B-QT
+5	##만	I-QT	I-QT
+6	원	I-QT	I-QT
+7	##을	O	O
+8	갖	O	O
+9	##고	O	O
+10	있	O	O
+11	##는	O	O
+12	기업	O	O
+13	##이	O	O
+14	2000	O	O
+15	##만	O	O
+16	원의	O	O
+17	빚	O	O
+18	##에	O	O
+19	대해	O	O
+20	보증	O	O
+21	##계약	O	O
+22	##을	O	O
+23	할	O	O
+24	때	O	O
+25	과거	O	O
+26	##에	O	O
+27	##는	O	O
+28	연대	O	B-CV
+29	##보증	O	I-CV
+30	##인	O	I-CV
+31	##이	O	O
+32	2000	B-QT	B-QT
+33	##만	I-QT	I-QT
+34	원	I-QT	I-QT
+35	전부	O	O
+36	##에	O	O
+37	대해	O	O
+38	보증	O	O
+39	##을	O	O
+40	서야	O	O
+41	했	O	O
+42	##지만	O	O
+43	내년	B-DT	B-DT
+44	##부터	I-DT	I-DT
+45	##는	O	O
+46	1000	B-QT	B-QT
+47	##만	I-QT	I-QT
+48	원만	I-QT	I-QT
+49	보증	O	O
+50	##을	O	O
+51	서면	O	O
+52	된다	O	O
+53	.	O	O
+54	[SEP]	O	O

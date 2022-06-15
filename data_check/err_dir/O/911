@@ -1,28 +1,33 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	경북	B-LC	B-LC	B-LC, O, B-OG, B-AF, B-PS
-2	김천	B-LC	B-LC	B-LC, O, I-LC, B-OG, B-AF
-3	혁신	O	I-LC	I-LC, O, B-LC, I-OG, I-AF
-4	##도	O	I-LC	I-LC, O, I-OG, B-LC, I-AF
-5	##시	O	I-LC	I-LC, O, I-OG, I-AF, B-LC
-6	이전	O	O	O, I-LC, I-OG, B-OG, B-LC
-7	##기	O	O	O, I-OG, I-LC, I-AF, B-OG
-8	##관	O	O	O, I-OG, I-LC, I-AF, B-LC
-9	가운데	O	O	O, B-TM, B-LC, B-OG, B-QT
-10	처음	O	O	O, B-QT, B-LC, B-OG, B-PS
-11	##으로	O	O	O, B-OG, B-PS, B-LC, I-OG
-12	한국	B-OG	B-OG	B-OG, O, B-LC, I-OG, B-PS
-13	##도로	I-OG	I-OG	I-OG, O, B-OG, I-LC, I-AF
-14	##공사	I-OG	I-OG	I-OG, O, I-LC, I-AF, I-CV
-15	##가	O	O	O, I-OG, I-AF, B-PS, I-EV
-16	20	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-LC
-17	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-18	터	O	O	O, I-DT, B-CV, B-LC, B-TM
-19	매입	O	O	O, B-CV, B-LC, B-OG, B-TM
-20	계약	O	O	O, B-CV, B-LC, B-OG, B-TM
-21	##을	O	O	O, B-CV, I-OG, B-OG, I-CV
-22	체결	O	O	O, B-CV, B-OG, B-LC, B-TM
-23	##했	O	O	O, B-CV, B-LC, B-OG, I-OG
-24	##다	O	O	O, B-CV, B-LC, B-OG, I-OG
-25	.	O	O	O, B-LC, B-OG, B-CV, I-OG
-26	[SEP]	O	O	O, B-LC, B-OG, B-CV, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	노래	O	O
+2	잘	O	O
+3	##하	O	O
+4	##는	O	O
+5	아이돌	O	B-CV
+6	멤버	B-CV	B-CV
+7	##로	O	O
+8	##는	O	O
+9	동방신기	B-PS	B-PS
+10	##를	O	O
+11	떠나	O	O
+12	JY	B-PS	B-PS
+13	##J	I-PS	I-PS
+14	##로	O	O
+15	활동	O	O
+16	##하	O	O
+17	##고	O	O
+18	있	O	O
+19	##는	O	O
+20	김준	B-PS	B-PS
+21	##수	I-PS	I-PS
+22	##가	O	O
+23	13	B-QT	B-QT
+24	##점	I-QT	I-QT
+25	##으로	O	O
+26	1	B-QT	B-QT
+27	##위	I-QT	I-QT
+28	##였	O	O
+29	##다	O	O
+30	.	O	O
+31	[SEP]	O	O

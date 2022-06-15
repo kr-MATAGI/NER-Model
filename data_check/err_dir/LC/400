@@ -1,21 +1,28 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	메이	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
-2	##티	I-PS	I-PS	I-PS, O, I-OG, I-LC, B-PS
-3	##앙	I-PS	I-PS	I-PS, O, I-OG, I-LC, I-CV
-4	##은	O	O	O, I-PS, B-CV, I-OG, I-LC
-5	더듬	O	O	O, B-CV, B-LC, B-AM, B-FD
-6	##거리	O	O	O, I-CV, I-LC, B-PS, I-PS
-7	##는	O	O	O, B-CV, B-LC, B-PS, B-OG
-8	한국	B-LC	O	O, B-LC, B-CV, B-FD, B-PS
-9	##말로	O	O	O, I-CV, I-LC, B-CV, B-FD
-10	“	O	O	O, B-PS, B-LC, B-CV, I-CV
-11	한국	O	B-LC	B-LC, O, B-CV, B-OG, I-LC
-12	사람	O	O	O, I-CV, B-CV, I-LC, B-AM
-13	##들	O	O	O, I-CV, B-PS, I-AF, B-CV
-14	너무	O	O	O, B-CV, B-PS, I-CV, B-OG
-15	착하	O	O	O, B-CV, B-PS, B-LC, I-CV
-16	##고	O	O	O, B-PS, I-CV, B-CV, I-AF
-17	고마워요	O	O	O, B-CV, B-PS, I-CV, B-LC
-18	.	O	O	O, B-CV, B-PS, I-CV, B-LC
-19	[SEP]	O	O	O, B-CV, I-CV, B-LC, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	워싱턴	B-LC	B-OG
+2	##이	O	O
+3	장군	B-CV	B-CV
+4	##들	O	O
+5	##을	O	O
+6	보내	O	O
+7	##지	O	O
+8	못	O	O
+9	##한다	O	O
+10	##면	O	O
+11	우리	O	O
+12	##가	O	O
+13	글로브	B-OG	B-AF
+14	##트로	I-OG	I-AF
+15	##터스	I-OG	I-AF
+16	##를	O	O
+17	보낼	O	O
+18	것	O	O
+19	”	O	O
+20	이라	O	O
+21	##고	O	O
+22	말	O	O
+23	##했	O	O
+24	##다	O	O
+25	.	O	O
+26	[SEP]	O	O

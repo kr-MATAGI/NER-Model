@@ -1,73 +1,40 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	페리	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-2	##는	O	O	O, I-PS, I-OG, B-CV, I-QT
-3	또	O	O	O, B-CV, B-OG, B-LC, B-TM
-4	""""	O	O	O, B-LC, B-CV, B-OG, B-PS
-5	파이	B-OG	B-OG	B-OG, O, B-PS, I-OG, B-LC
-6	##리	I-OG	I-OG	I-OG, O, I-PS, B-OG, I-LC
-7	##츠	I-OG	I-OG	I-OG, O, I-PS, I-LC, I-CV
-8	##가	O	O	O, I-OG, B-PS, I-PS, B-CV
-9	처음	O	O	O, B-CV, B-PS, B-QT, B-LC
-10	강정호	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-AF
-11	##를	O	O	O, I-PS, B-CV, I-OG, I-AF
-12	영입	O	O	O, B-CV, B-OG, B-TM, B-PS
-13	##한다	O	O	O, B-PS, B-OG, B-CV, B-LC
-14	##고	O	O	O, B-CV, B-PS, B-OG, B-LC
-15	했	O	O	O, B-CV, B-OG, B-PS, B-LC
-16	##을	O	O	O, B-CV, B-PS, B-OG, I-CV
-17	때	O	O	O, B-CV, B-PS, B-OG, B-LC
-18	KBO	B-OG	B-OG	B-OG, B-EV, O, B-AF, B-CV
-19	##리그	I-OG	I-OG	I-OG, I-EV, O, I-CV, I-AF
-20	소속	O	O	O, B-CV, I-OG, I-EV, B-PS
-21	타자	B-CV	B-CV	B-CV, O, B-PS, B-AF, I-CV
-22	##가	O	O	O, I-CV, I-EV, B-PS, I-OG
-23	최고	O	O	O, B-CV, B-LC, B-PS, B-TM
-24	레벨	O	O	O, B-LC, B-PS, B-CV, I-QT
-25	##의	O	O	O, B-PS, B-LC, B-OG, B-CV
-26	리그	O	O	O, B-EV, B-LC, I-EV, B-CV
-27	##에서	O	O	O, B-CV, B-PS, B-LC, I-EV
-28	견뎌	O	O	O, B-CV, B-LC, B-PS, B-OG
-29	##내	O	O	O, B-LC, B-PS, B-CV, B-OG
-30	##겠	O	O	O, B-CV, B-PS, B-LC, B-OG
-31	##느	O	O	O, B-PS, B-CV, B-LC, B-OG
-32	##냐	O	O	O, B-PS, B-CV, B-LC, B-OG
-33	##는	O	O	O, B-PS, B-CV, B-LC, B-OG
-34	의구심	O	O	O, B-CV, B-PS, B-TM, B-LC
-35	##이	O	O	O, B-PS, B-CV, B-OG, I-PS
-36	많	O	O	O, B-CV, B-PS, B-OG, B-LC
-37	##았	O	O	O, B-PS, B-OG, B-CV, B-LC
-38	##지만	O	O	O, B-PS, B-CV, B-OG, I-OG
-39	,	O	O	O, B-CV, B-PS, B-LC, B-OG
-40	그	O	O	O, B-PS, B-CV, B-LC, B-OG
-41	##의	O	O	O, B-PS, B-LC, B-CV, I-PS
-42	높	O	O	O, B-TM, B-CV, B-LC, B-PS
-43	##은	O	O	O, B-PS, B-LC, B-TM, B-OG
-44	'	O	O	O, B-CV, B-LC, B-PS, B-OG
-45	레	O	B-TM	B-TM, O, B-AF, B-TR, B-CV
-46	##그	O	I-TM	I-TM, O, I-AF, B-TM, I-TR
-47	킥	O	I-TM	I-TM, O, I-AF, B-TM, I-QT
-48	(	O	O	O, I-TM, I-AF, I-CV, I-QT
-49	le	O	O	O, B-LC, B-TM, B-PS, I-TM
-50	##g	O	O	O, B-LC, B-TM, B-PS, I-TM
-51	k	O	O	O, B-LC, B-TM, B-PS, I-LC
-52	##ick	O	O	O, B-TM, B-LC, I-TM, B-PS
-53	)	O	O	O, B-LC, B-CV, B-PS, I-TM
-54	'	O	O	O, B-PS, B-LC, B-CV, B-TM
-55	은	O	O	O, B-PS, B-LC, B-CV, B-OG
-56	아주	O	O	O, B-CV, B-LC, B-PS, B-TM
-57	높	O	O	O, B-CV, B-LC, B-PS, B-TM
-58	##은	O	O	O, B-PS, B-LC, B-OG, B-CV
-59	생산력	O	O	O, B-TM, B-LC, B-PS, B-CV
-60	##을	O	O	O, B-CV, B-PS, B-OG, B-LC
-61	과시	O	O	O, B-CV, B-PS, B-TM, B-LC
-62	##하고	O	O	O, B-PS, B-CV, B-LC, B-OG
-63	있	O	O	O, B-PS, B-CV, B-LC, B-OG
-64	##다	O	O	O, B-PS, B-CV, I-OG, B-OG
-65	""""	O	O	O, B-CV, B-PS, B-LC, B-OG
-66	고	O	O	O, B-CV, B-TM, B-OG, B-PS
-67	평가	O	O	O, B-CV, B-PS, I-CV, I-QT
-68	##했	O	O	O, B-PS, B-CV, I-CV, B-OG
-69	##다	O	O	O, B-CV, I-OG, I-CV, B-OG
-70	.	O	O	O, B-PS, B-LC, B-CV, B-OG
-71	[SEP]	O	O	O, B-CV, B-PS, B-LC, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	흙	O	O
+2	##판	O	O
+3	##을	O	O
+4	평평	O	O
+5	##하	O	O
+6	##게	O	O
+7	다진	O	O
+8	뒤	O	O
+9	달	B-AF	B-AF
+10	##항	I-AF	I-AF
+11	##아리	I-AF	I-AF
+12	,	O	O
+13	청	B-AF	B-AF
+14	##화	I-AF	I-AF
+15	##백	I-AF	I-AF
+16	##자	I-AF	I-AF
+17	,	O	O
+18	연	O	B-AF
+19	##적	O	I-AF
+20	등	O	O
+21	그림	O	O
+22	##을	O	O
+23	넣	O	O
+24	##을	O	O
+25	부분	O	O
+26	##에	O	O
+27	흙	O	O
+28	##물	O	O
+29	##을	O	O
+30	바르	O	O
+31	##고	O	O
+32	말리	O	O
+33	##기	O	O
+34	##를	O	O
+35	반복	O	O
+36	##한다	O	O
+37	.	O	O
+38	[SEP]	O	O

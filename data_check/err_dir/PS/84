@@ -1,13 +1,38 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, I-EV, I-AF
-1	중도	O	O	O, B-OG, B-TR, B-LC, B-CV
-2	우파	O	O	O, B-OG, B-TR, I-OG, B-CV
-3	피	B-PS	O	O, B-OG, B-LC, B-PS, I-OG
-4	##용	I-PS	O	O, I-OG, I-LC, I-PS, B-LC
-5	##이	O	O	O, I-LC, I-OG, I-PS, I-EV
-6	스캔들	O	O	O, B-EV, I-EV, B-CV, B-LC
-7	##로	O	O	O, I-EV, I-AF, I-OG, I-CV
-8	무너지	O	O	O, B-EV, B-LC, B-OG, B-CV
-9	##며	O	O	O, I-EV, I-OG, B-PS, I-AF
-10	행운	O	O	O, B-OG, B-LC, B-AF, B-CV
-11	[SEP]	O	O	O, I-EV, I-OG, I-AF, B-CV
+	text	label	preds
+0	[CLS]	O	O
+1	폴	B-PS	B-OG
+2	##럭	I-PS	I-OG
+3	##은	O	O
+4	“	O	O
+5	공개	O	O
+6	자료	O	O
+7	##를	O	O
+8	보	O	O
+9	##면	O	O
+10	북한	B-OG	B-OG
+11	##이	O	O
+12	1999	B-DT	B-DT
+13	##년	I-DT	I-DT
+14	##부터	I-DT	I-DT
+15	2003	I-DT	I-DT
+16	##년	I-DT	I-DT
+17	##까	I-DT	I-DT
+18	##지	I-DT	I-DT
+19	많	O	O
+20	##은	O	O
+21	원심	O	O
+22	##분	O	O
+23	##리	O	O
+24	##기	O	O
+25	핵심	O	O
+26	부품	O	O
+27	##을	O	O
+28	수입	O	O
+29	##했	O	O
+30	##다	O	O
+31	”	O	O
+32	고	O	O
+33	했	O	O
+34	##다	O	O
+35	.	O	O
+36	[SEP]	O	O

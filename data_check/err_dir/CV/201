@@ -1,45 +1,12 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	우	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-2	전	O	O	O, I-PS, B-CV, I-OG, I-EV
-3	수석	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-OG
-4	##은	O	O	O, I-CV, B-CV, I-EV, I-OG
-5	이	O	O	O, B-PS, B-OG, B-CV, B-QT
-6	##들	O	O	O, B-PS, B-LC, B-CV, B-QT
-7	문체	B-OG	B-OG	B-OG, O, B-AF, B-CV, B-EV
-8	##부	I-OG	I-OG	I-OG, O, I-EV, I-CV, I-AF
-9	간부	B-CV	B-CV	B-CV, O, I-CV, I-OG, B-TM
-10	중	O	O	O, B-TM, B-QT, I-CV, B-LC
-11	6	B-QT	B-QT	B-QT, O, I-QT, B-EV, B-DT
-12	##명	I-QT	I-QT	I-QT, O, I-EV, I-LC, I-PS
-13	##의	O	O	O, I-QT, B-PS, B-CV, I-EV
-14	인사	B-CV	O	O, B-CV, I-CV, B-FD, B-TM
-15	조처	O	O	O, I-CV, B-CV, B-PS, I-EV
-16	##를	O	O	O, B-PS, B-LC, B-CV, B-DT
-17	김종	B-PS	B-PS	B-PS, B-OG, O, I-PS, B-LC
-18	##덕	I-PS	I-PS	I-PS, O, I-OG, B-PS, I-LC
-19	전	O	O	O, I-PS, I-OG, B-CV, B-LC
-20	문체	B-OG	B-OG	B-OG, O, B-AF, B-LC, B-CV
-21	##부	I-OG	I-OG	I-OG, O, I-CV, I-AF, I-EV
-22	장관	B-CV	B-CV	B-CV, O, I-CV, I-OG, B-TM
-23	##에	O	O	O, I-CV, B-CV, I-OG, I-EV
-24	##게	O	O	O, B-CV, B-LC, B-TM, B-PS
-25	요구	O	O	O, B-CV, B-PS, B-LC, B-OG
-26	##한	O	O	O, B-PS, B-CV, B-LC, I-CV
-27	혐의	O	O	O, B-CV, B-PS, I-CV, B-LC
-28	(	O	O	O, B-CV, B-PS, B-LC, B-OG
-29	직권	O	O	O, B-CV, I-CV, B-TM, B-PT
-30	##남	O	O	O, I-CV, B-CV, I-TM, I-TR
-31	##용	O	O	O, I-CV, B-CV, I-TM, I-OG
-32	)	O	O	O, I-CV, B-CV, B-PS, I-OG
-33	등	O	O	O, B-CV, B-PS, B-LC, B-TM
-34	##으로	O	O	O, B-CV, B-LC, B-OG, B-PS
-35	현재	O	O	O, B-CV, B-LC, B-OG, B-TM
-36	재판	O	O	O, B-CV, B-LC, B-PS, B-OG
-37	##을	O	O	O, B-CV, B-PS, I-CV, B-OG
-38	받	O	O	O, B-CV, B-LC, B-PS, B-TM
-39	##고	O	O	O, B-CV, B-PS, B-LC, B-TM
-40	있	O	O	O, B-CV, B-PS, B-LC, B-OG
-41	##다	O	O	O, B-CV, B-PS, B-LC, B-TM
-42	.	O	O	O, B-CV, B-LC, B-PS, B-OG
-43	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	꿈틀	O	O
+2	##대	O	O
+3	##는	O	O
+4	궤적	O	O
+5	##에	O	O
+6	타자	B-CV	O
+7	‘	O	O
+8	움찔	O	O
+9	’	O	O
+10	[SEP]	O	O

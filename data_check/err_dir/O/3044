@@ -1,50 +1,19 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	공론	O	O	O, B-CV, B-FD, B-PS, B-LC
-2	##화	O	O	O, I-LC, I-TR, I-CV, I-OG
-3	과정	O	O	O, B-PS, I-OG, B-LC, I-EV
-4	##에	O	O	O, B-CV, B-LC, B-OG, B-PS
-5	##선	O	O	O, B-LC, B-CV, B-PS, B-OG
-6	경주	O	B-LC	B-LC, O, B-AF, B-OG, B-EV
-7	방폐	O	O	O, I-LC, I-AF, B-AF, B-CV
-8	##장	O	O	O, I-LC, I-AF, I-CV, B-LC
-9	##처럼	O	O	O, B-LC, B-PS, B-CV, I-AF
-10	특정	O	O	O, B-LC, B-TM, B-CV, B-PS
-11	지역	O	O	O, B-LC, B-PS, B-CV, I-LC
-12	##에	O	O	O, B-PS, B-CV, B-LC, B-TM
-13	모으	O	O	O, B-LC, B-PS, B-CV, B-QT
-14	##는	O	O	O, B-LC, B-PS, B-CV, B-OG
-15	집중	O	O	O, B-PS, B-LC, B-QT, B-CV
-16	##식	O	O	O, B-PS, B-LC, I-LC, I-PS
-17	##으로	O	O	O, B-PS, B-LC, B-CV, B-OG
-18	건설	O	O	O, B-LC, B-CV, B-OG, B-AF
-19	##할	O	O	O, B-PS, B-LC, B-CV, B-AF
-20	##지	O	O	O, B-PS, B-LC, I-LC, B-CV
-21	,	O	O	O, B-LC, B-CV, B-PS, B-TM
-22	현재	O	O	O, B-AF, B-LC, B-TM, B-CV
-23	원전	O	O	O, B-AF, B-LC, B-CV, B-TM
-24	##이	O	O	O, B-PS, B-LC, B-AF, B-CV
-25	있	O	O	O, B-CV, B-LC, B-TM, B-PS
-26	##는	O	O	O, B-LC, B-CV, B-PS, B-TM
-27	부지	O	O	O, B-CV, B-LC, B-PS, B-TM
-28	##마다	O	O	O, B-PS, B-LC, B-CV, B-QT
-29	시설	O	O	O, B-CV, B-LC, B-PS, B-TM
-30	##을	O	O	O, B-CV, B-LC, B-PS, B-OG
-31	짓	O	O	O, B-LC, B-CV, B-PS, B-QT
-32	##는	O	O	O, B-LC, B-PS, B-CV, B-OG
-33	분산	O	O	O, B-PS, B-LC, B-CV, B-QT
-34	##식	O	O	O, B-PS, B-LC, B-CV, I-LC
-35	##을	O	O	O, B-PS, B-LC, B-CV, B-OG
-36	선택	O	O	O, B-LC, B-CV, B-PS, B-OG
-37	##할	O	O	O, B-PS, B-LC, B-CV, B-OG
-38	##지가	O	O	O, B-PS, B-LC, B-CV, B-TM
-39	논의	O	O	O, B-CV, B-TM, B-LC, B-PS
-40	##의	O	O	O, B-PS, B-CV, B-LC, B-OG
-41	핵심	O	O	O, B-CV, B-TM, B-LC, B-QT
-42	##이	O	O	O, B-PS, B-CV, B-OG, B-LC
-43	될	O	O	O, B-CV, B-LC, B-QT, B-TM
-44	것	O	O	O, B-CV, B-PS, B-TM, B-QT
-45	##으로	O	O	O, B-CV, I-CV, B-TM, I-OG
-46	보인다	O	O	O, B-CV, B-TM, B-LC, B-OG
-47	.	O	O	O, B-LC, B-PS, B-CV, B-FD
-48	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-FD
+	text	label	preds
+0	[CLS]	O	O
+1	우리	O	O
+2	트로이	B-AF	B-AF
+3	영화	O	I-FD
+4	##도	O	O
+5	나옵니다	O	O
+6	##만	O	O
+7	이	O	O
+8	하인	B-PS	B-PS
+9	##리히	I-PS	I-PS
+10	슐	I-PS	I-PS
+11	##리	I-PS	I-PS
+12	##만	I-PS	I-PS
+13	##이	O	O
+14	##라는	O	O
+15	학자	B-CV	B-CV
+16	##도	O	O
+17	[SEP]	O	O

@@ -1,33 +1,6 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-AF
-1	평가	O	O	O, B-CV, B-PS, B-LC, B-TM
-2	##가	O	O	O, B-PS, B-OG, B-CV, B-LC
-3	다양	O	O	O, B-PS, B-TM, B-CV, B-LC
-4	##성	O	O	O, I-PS, B-PS, I-TR, I-TM
-5	,	O	O	O, B-PS, B-LC, I-PS, B-CV
-6	종합	O	O	O, B-PS, B-CV, B-TM, B-LC
-7	##적	O	O	O, B-PS, I-PS, B-LC, I-TR
-8	비판	O	O	O, B-PS, B-CV, I-PS, B-TM
-9	,	O	O	O, B-PS, B-LC, B-CV, I-PS
-10	분석	O	O	O, B-CV, B-PS, B-TM, B-TR
-11	##력	O	O	O, B-PS, I-PS, I-CV, I-TR
-12	##을	O	O	O, B-PS, B-CV, B-LC, I-PS
-13	요구	O	O	O, B-PS, B-CV, B-LC, B-OG
-14	##한다	O	O	O, B-PS, I-PS, B-CV, B-LC
-15	##면	O	O	O, B-OG, B-LC, B-PS, B-CV
-16	수업	O	O	O, B-CV, B-LC, B-PS, B-FD
-17	##은	O	O	O, B-PS, B-CV, B-LC, B-OG
-18	교사	O	B-CV	B-CV, O, I-CV, B-FD, B-OG
-19	##주	O	O	O, I-CV, B-PS, B-CV, B-TM
-20	##도	O	O	O, I-CV, I-QT, I-PS, I-TR
-21	##형	O	O	O, I-CV, I-PS, B-PS, I-QT
-22	##에서	O	O	O, B-PS, B-LC, B-CV, B-TM
-23	토의	O	O	O, B-CV, B-TM, B-PS, B-LC
-24	·	O	O	O, B-PS, I-PS, I-AF, I-LC
-25	토론	O	O	O, B-PS, B-TM, B-LC, B-CV
-26	##으로	O	O	O, B-PS, B-LC, B-CV, B-TM
-27	바뀌	O	O	O, B-PS, B-CV, B-LC, B-OG
-28	##어야	O	O	O, B-PS, I-OG, B-LC, B-CV
-29	한다	O	O	O, B-CV, I-OG, B-LC, B-OG
-30	.	O	O	O, B-PS, B-CV, B-LC, B-OG
-31	[SEP]	O	O	O, B-CV, B-PS, B-LC, B-FD
+	text	label	preds
+0	[CLS]	O	O
+1	등	O	B-AM
+2	등	O	B-AM
+3	등	O	O
+4	[SEP]	O	O

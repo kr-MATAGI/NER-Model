@@ -1,42 +1,18 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	기아	B-OG	B-OG	B-OG, O, I-OG, B-AF, B-LC
-2	##자동차	I-OG	I-OG	I-OG, O, B-OG, I-LC, I-AF
-3	##가	O	O	O, I-OG, B-PS, B-OG, B-CV
-4	2006	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-5	##년	I-DT	I-DT	I-DT, O, I-QT, B-DT, I-PS
-6	아우디	B-OG	B-OG	B-OG, B-AF, O, I-OG, B-LC
-7	수석	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-FD
-8	디자이너	B-CV	I-CV	I-CV, B-CV, O, I-OG, I-EV
-9	출신	O	O	O, I-CV, B-CV, I-OG, I-EV
-10	##의	O	O	O, B-PS, B-CV, B-LC, B-QT
-11	피터	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-12	슈	I-PS	I-PS	I-PS, B-PS, O, I-OG, I-QT
-13	##라이	I-PS	I-PS	I-PS, O, I-OG, I-LC, I-QT
-14	##어	I-PS	I-PS	I-PS, O, I-LC, I-QT, I-OG
-15	(	O	O	O, I-PS, B-CV, I-OG, I-QT
-16	Sch	O	O	O, B-PS, B-CV, B-LC, B-AF
-17	##re	O	O	O, B-PS, I-PS, B-LC, I-CV
-18	##ye	O	O	O, B-PS, I-PS, B-LC, I-CV
-19	##r	O	O	O, I-PS, B-PS, I-CV, B-LC
-20	)	O	O	O, B-CV, B-LC, B-PS, I-CV
-21	를	O	O	O, B-CV, B-LC, B-PS, B-TM
-22	데려와	O	O	O, B-CV, B-QT, B-LC, B-OG
-23	단숨에	O	O	O, B-CV, B-PS, B-TM, B-OG
-24	디자인	O	O	O, B-TM, B-FD, B-CV, B-TR
-25	##을	O	O	O, B-CV, B-PS, B-OG, I-CV
-26	업그레이드	O	O	O, B-CV, B-LC, B-TM, B-OG
-27	##한	O	O	O, B-PS, B-OG, B-CV, B-LC
-28	데	O	O	O, B-CV, B-OG, B-LC, B-PS
-29	이어	O	O	O, B-OG, B-LC, I-OG, B-QT
-30	,	O	O	O, B-OG, B-LC, B-CV, B-PS
-31	현대차	B-OG	B-OG	B-OG, O, I-OG, B-AF, B-LC
-32	##도	O	O	O, I-OG, I-AF, B-CV, I-CV
-33	디자인	O	O	O, B-TM, B-FD, B-CV, B-TR
-34	강화	O	O	O, B-CV, I-TM, I-CV, I-QT
-35	##에	O	O	O, B-CV, B-PS, B-OG, B-LC
-36	나선	O	O	O, B-OG, B-CV, B-LC, B-PS
-37	것	O	O	O, B-CV, B-OG, I-OG, B-LC
-38	##이다	O	O	O, B-CV, B-TM, I-OG, B-OG
-39	.	O	O	O, B-LC, B-PS, B-CV, B-OG
-40	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	네	O	O
+2	찔러	O	O
+3	보시	O	O
+4	##고	O	O
+5	약간	O	O
+6	뭐	O	O
+7	생	O	B-CV
+8	##고	B-CV	I-CV
+9	##구	I-CV	I-CV
+10	##마	I-CV	I-CV
+11	##도	O	O
+12	많이	O	O
+13	드	O	O
+14	##시	O	O
+15	##니까	O	O
+16	[SEP]	O	O

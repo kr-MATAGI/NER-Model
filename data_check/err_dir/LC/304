@@ -1,30 +1,20 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, B-CV, I-OG, I-EV
-1	이날	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-LC
-2	벌어진	O	O	O, I-DT, B-CV, I-EV, I-QT
-3	벽화	O	O	O, B-TM, B-CV, B-EV, B-FD
-4	그리	O	O	O, I-TM, I-CV, I-EV, I-FD
-5	##기	O	O	O, I-TM, I-CV, I-EV, I-FD
-6	##는	O	O	O, B-CV, I-EV, B-OG, I-CV
-7	서대문구	B-LC	B-OG	B-OG, B-LC, O, B-PS, B-TM
-8	(	O	O	O, I-OG, I-LC, I-CV, B-CV
-9	구청장	B-CV	B-CV	B-CV, O, B-OG, B-TM, B-AF
-10	현	B-PS	B-PS	B-PS, B-OG, O, B-LC, I-PS
-11	##동	I-PS	I-PS	I-PS, I-OG, O, I-LC, B-PS
-12	##훈	I-PS	I-PS	I-PS, I-OG, O, I-LC, B-PS
-13	)	O	O	O, I-PS, I-OG, B-CV, B-OG
-14	와	O	O	O, B-OG, B-PS, B-CV, B-LC
-15	금호	B-OG	B-OG	B-OG, B-LC, O, B-PS, I-OG
-16	##건설	I-OG	I-OG	I-OG, O, I-LC, I-PS, B-OG
-17	##이	O	O	O, I-OG, B-PS, B-CV, B-OG
-18	마련	O	O	O, B-CV, B-TM, B-OG, B-PS
-19	##한	O	O	O, B-PS, B-CV, B-LC, B-OG
-20	'	O	O	O, B-CV, B-LC, B-TM, B-EV
-21	빛	B-TM	B-TM	B-TM, O, B-LC, B-AF, B-OG
-22	그린	I-TM	I-TM	I-TM, O, I-LC, I-OG, I-AF
-23	어울림	I-TM	I-TM	I-TM, O, I-LC, I-OG, I-AF
-24	마을	I-TM	I-TM	I-TM, O, I-LC, I-OG, I-AF
-25	'	O	O	O, I-TM, I-EV, I-OG, I-CV
-26	프로그램	O	O	O, I-TM, B-CV, I-CV, I-EV
-27	.	O	O	O, I-CV, I-EV, I-OG, B-CV
-28	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	문제	O	O
+2	##의	O	O
+3	광구	O	O
+4	##는	O	O
+5	나이지리아	B-LC	B-LC
+6	심해	O	O
+7	##의	O	O
+8	OP	B-LC	B-TM
+9	##L	I-LC	I-TM
+10	##32	I-LC	I-TM
+11	##1	I-LC	I-TM
+12	,	O	I-TM
+13	32	B-LC	I-TM
+14	##3	I-LC	I-TM
+15	광구	I-LC	I-TM
+16	##다	O	O
+17	.	O	O
+18	[SEP]	O	O

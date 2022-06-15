@@ -1,43 +1,54 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	말	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
-2	##러	I-PS	I-PS	I-PS, O, I-OG, I-LC, B-PS
-3	##는	O	O	O, I-PS, B-CV, I-OG, B-LC
-4	이	O	O	O, B-CV, B-TM, B-FD, B-OG
-5	부분	O	O	O, B-FD, B-CV, I-EV, I-QT
-6	##에서	O	O	O, B-LC, B-PS, B-CV, B-OG
-7	자신	O	O	O, B-FD, B-CV, B-PS, B-LC
-8	##의	O	O	O, B-FD, I-FD, B-PS, I-CV
-9	가곡	B-FD	B-FD	B-FD, O, I-FD, B-CV, B-AF
-10	‘	O	O	O, I-FD, B-FD, B-CV, I-CV
-11	죽	B-AF	B-AF	B-AF, O, I-AF, B-CV, B-PS
-12	##은	I-AF	I-AF	I-AF, O, B-AF, I-LC, I-PS
-13	아이	I-AF	I-AF	I-AF, O, B-AF, I-CV, I-LC
-14	##를	I-AF	I-AF	I-AF, O, I-CV, I-LC, I-EV
-15	그리	I-AF	I-AF	I-AF, O, I-CV, I-LC, I-QT
-16	##는	I-AF	I-AF	I-AF, O, I-CV, I-LC, I-QT
-17	노래	I-AF	I-AF	I-AF, O, I-CV, I-LC, I-QT
-18	’	O	O	O, I-AF, I-CV, I-EV, I-QT
-19	중	O	O	O, B-FD, B-LC, B-QT, B-OG
-20	네	B-QT	B-QT	B-QT, I-QT, O, B-DT, B-EV
-21	##번	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-AF
-22	##째	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-AF
-23	곡	I-QT	O	O, I-QT, B-FD, I-FD, I-LC
-24	‘	O	O	O, B-CV, I-QT, B-FD, B-LC
-25	아이	B-AF	B-AF	B-AF, O, I-AF, B-CV, B-PS
-26	##들	I-AF	I-AF	I-AF, O, B-AF, I-LC, I-PS
-27	##은	I-AF	I-AF	I-AF, O, B-AF, I-CV, I-LC
-28	잠시	I-AF	I-AF	I-AF, O, I-CV, B-AF, I-LC
-29	외출	I-AF	I-AF	I-AF, O, I-CV, I-LC, I-QT
-30	##했	I-AF	I-AF	I-AF, O, I-CV, I-LC, I-QT
-31	##을	I-AF	I-AF	I-AF, O, I-CV, I-LC, I-QT
-32	뿐	I-AF	I-AF	I-AF, O, I-LC, I-CV, I-QT
-33	##이다	I-AF	I-AF	I-AF, O, I-CV, I-QT, I-LC
-34	’	O	O	O, I-AF, I-CV, I-EV, I-QT
-35	에서	O	O	O, B-LC, B-PS, B-CV, B-FD
-36	따온	O	O	O, B-CV, B-LC, B-PS, B-OG
-37	선율	O	O	O, B-FD, B-CV, B-PS, B-AF
-38	##을	O	O	O, B-CV, I-AF, I-CV, I-OG
-39	들려준다	O	O	O, B-CV, B-OG, B-PS, B-FD
-40	.	O	O	O, B-FD, B-CV, B-AF, B-LC
-41	[SEP]	O	O	O, B-FD, B-CV, B-AF, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	타이거	B-PS	B-PS
+2	우즈	I-PS	I-PS
+3	##의	O	O
+4	칩	B-TM	B-TM
+5	##샷	I-TM	I-TM
+6	입	O	I-TM
+7	##스	O	I-TM
+8	(	O	O
+9	y	O	O
+10	##ip	O	O
+11	##s	O	O
+12	·	O	O
+13	샷	B-TM	B-TM
+14	실패	O	O
+15	불안	O	O
+16	증세	O	O
+17	)	O	O
+18	가	O	O
+19	미국	B-LC	B-LC
+20	골프	B-CV	B-CV
+21	채널	O	O
+22	##이	O	O
+23	꼽	O	O
+24	##은	O	O
+25	'	O	O
+26	2015	B-DT	B-DT
+27	##년	I-DT	I-DT
+28	골프	O	B-CV
+29	##계	O	O
+30	##에	O	O
+31	##서	O	O
+32	가장	O	O
+33	놀라운	O	I-AF
+34	뉴스	O	I-AF
+35	10	B-QT	I-AF
+36	(	O	O
+37	Top	B-QT	O
+38	10	I-QT	O
+39	Su	O	O
+40	##r	O	O
+41	##pr	O	O
+42	##ise	O	O
+43	##s	O	O
+44	)	O	O
+45	'	O	O
+46	1	B-QT	B-QT
+47	##위	I-QT	I-QT
+48	##에	O	O
+49	올랐	O	O
+50	##다	O	O
+51	.	O	O
+52	[SEP]	O	O

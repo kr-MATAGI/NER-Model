@@ -1,56 +1,26 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	이번	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-2	컨	I-DT	I-DT	I-DT, B-DT, O, I-EV, B-EV
-3	##페	I-DT	I-DT	I-DT, O, B-DT, I-EV, I-QT
-4	##드	I-DT	I-DT	I-DT, O, B-DT, I-EV, I-QT
-5	##컵	I-DT	I-DT	I-DT, B-DT, O, I-EV, I-QT
-6	때	I-DT	I-DT	I-DT, O, B-DT, I-EV, I-QT
-7	경기장	O	O	O, B-CV, I-DT, B-AF, B-LC
-8	##에	O	O	O, B-CV, I-AF, B-OG, I-CV
-9	##는	O	O	O, B-CV, B-OG, B-LC, B-PS
-10	흑인	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-TM
-11	##과	O	O	O, I-CV, I-OG, B-CV, B-OG
-12	백인	B-CV	B-CV	B-CV, O, B-OG, I-CV, B-TM
-13	##이	O	O	O, I-CV, B-PS, B-CV, I-OG
-14	모두	O	O	O, B-CV, B-PS, B-QT, B-TM
-15	스탠드	O	O	O, B-CV, B-TM, B-AF, B-LC
-16	##를	O	O	O, B-CV, I-CV, B-OG, B-PS
-17	채우	O	O	O, B-CV, B-PS, B-OG, B-LC
-18	##고	O	O	O, B-PS, B-CV, B-OG, B-LC
-19	‘	O	O	O, B-OG, B-CV, B-LC, B-PS
-20	바	B-AF	B-OG	B-OG, B-CV, B-LC, O, B-PS
-21	##파	I-AF	I-CV	I-CV, I-OG, I-LC, O, I-PS
-22	##나	I-AF	I-CV	I-CV, I-OG, I-LC, O, I-PS
-23	바	I-AF	I-OG	I-OG, I-CV, B-CV, I-LC, I-PS
-24	##파	I-AF	I-CV	I-CV, I-OG, I-LC, O, I-PS
-25	##나	I-AF	I-CV	I-CV, I-OG, I-LC, O, I-PS
-26	(	O	O	O, I-OG, I-CV, I-EV, I-LC
-27	B	O	O	O, B-LC, B-PS, B-OG, B-AF
-28	##af	O	O	O, I-LC, B-LC, I-PS, B-PS
-29	##ana	O	O	O, I-LC, B-LC, I-PS, B-PS
-30	B	O	O	O, I-LC, B-LC, I-PS, B-PS
-31	##af	O	O	O, I-LC, B-LC, I-PS, B-PS
-32	##ana	O	O	O, I-LC, I-PS, B-LC, B-PS
-33	·	O	O	O, B-LC, B-OG, B-CV, I-LC
-34	줄	O	O	O, B-CV, B-LC, B-FD, I-CV
-35	##루	O	O	O, I-CV, I-LC, I-FD, I-OG
-36	##어로	O	O	O, I-CV, I-LC, I-FD, I-OG
-37	소년	O	O	O, I-CV, B-CV, I-OG, B-OG
-38	##들	O	O	O, I-CV, I-OG, I-PS, I-AF
-39	,	O	O	O, I-OG, I-CV, B-OG, B-PS
-40	남아공	B-OG	B-OG	B-OG, B-LC, B-CV, B-EV, I-OG
-41	축구	I-OG	I-OG	I-OG, B-CV, B-OG, I-CV, I-LC
-42	대표	I-OG	I-OG	I-OG, I-CV, I-EV, O, I-LC
-43	##팀	I-OG	I-OG	I-OG, I-CV, O, I-EV, I-LC
-44	##을	O	O	O, I-OG, I-CV, I-EV, I-AF
-45	의미	O	O	O, B-CV, I-OG, I-CV, B-LC
-46	)	O	O	O, I-OG, B-OG, B-CV, I-CV
-47	’	O	O	O, B-CV, B-OG, B-PS, I-OG
-48	를	O	O	O, B-CV, B-OG, B-PS, I-OG
-49	응원	O	O	O, B-CV, B-OG, B-AF, B-TM
-50	##했	O	O	O, B-CV, I-CV, I-OG, B-PS
-51	##다	O	O	O, B-CV, I-OG, B-OG, I-CV
-52	.	O	O	O, B-LC, B-OG, B-CV, B-PS
-53	”	O	O	O, B-CV, B-OG, B-LC, B-PS
-54	[SEP]	O	O	O, B-CV, B-LC, B-OG, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	[	O	O
+2	Mon	B-AF	O
+3	##ey	I-AF	O
+4	&	I-AF	O
+5	life	I-AF	O
+6	]	O	O
+7	年	O	O
+8	6	B-QT	B-QT
+9	##∼	I-QT	I-QT
+10	##7	I-QT	I-QT
+11	%	I-QT	I-QT
+12	대	I-QT	I-QT
+13	수익	O	O
+14	기대	O	O
+15	…	O	O
+16	분산	O	O
+17	##투자	O	O
+18	##로	O	O
+19	주식	O	O
+20	##보	O	O
+21	##다	O	O
+22	안정	O	O
+23	##적	O	O
+24	[SEP]	O	O

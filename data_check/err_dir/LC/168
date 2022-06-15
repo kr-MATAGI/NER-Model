@@ -1,37 +1,56 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	6	B-EV	B-EV	B-EV, O, B-OG, B-QT, B-AF
-2	##자	I-EV	I-EV	I-EV, O, B-EV, I-OG, I-QT
-3	##회	I-EV	I-EV	I-EV, O, I-OG, I-AF, I-QT
-4	##담	I-EV	I-EV	I-EV, O, I-OG, I-AF, I-QT
-5	참가국	O	O	O, B-CV, B-OG, B-LC, I-EV
-6	##이	O	O	O, B-PS, I-CV, I-OG, B-CV
-7	##자	O	O	O, B-CV, B-LC, B-PS, B-OG
-8	안보리	B-OG	B-OG	B-OG, O, B-EV, B-AF, B-CV
-9	상임	B-CV	B-CV	B-CV, O, I-CV, I-OG, B-OG
-10	##이	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-QT
-11	##사	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-QT
-12	##국	O	I-CV	I-CV, O, B-CV, I-OG, I-QT
-13	##인	O	O	O, I-CV, B-PS, B-CV, I-OG
-14	러시아	B-LC	B-OG	B-OG, B-LC, O, B-PS, B-CV
-15	##가	O	O	O, I-OG, I-LC, B-PS, I-CV
-16	‘	O	O	O, B-CV, B-LC, B-OG, B-PS
-17	우리	O	O	O, B-LC, B-OG, B-CV, B-PS
-18	##도	O	O	O, B-LC, B-PS, B-OG, B-CV
-19	한반도	B-LC	B-LC	B-LC, O, B-OG, B-EV, I-LC
-20	문제	O	O	O, I-LC, I-EV, I-OG, I-AF
-21	##의	O	O	O, B-CV, B-PS, B-LC, B-OG
-22	중요	O	O	O, B-CV, B-LC, B-OG, B-TM
-23	##한	O	O	O, B-LC, B-PS, B-OG, B-CV
-24	당사국	O	O	O, B-LC, B-CV, B-OG, B-PS
-25	’	O	O	O, B-CV, I-CV, B-PS, I-OG
-26	이란	O	O	O, B-PS, B-LC, B-CV, B-QT
-27	존재감	O	O	O, B-CV, B-TM, B-PS, B-LC
-28	##을	O	O	O, B-CV, B-OG, B-PS, I-CV
-29	드러내	O	O	O, B-CV, B-OG, B-PS, B-LC
-30	##려	O	O	O, B-CV, B-PS, B-QT, B-OG
-31	한	O	O	O, B-CV, B-OG, B-LC, B-PS
-32	것	O	O	O, B-CV, B-OG, B-PS, B-LC
-33	##이다	O	O	O, B-CV, B-TM, B-OG, I-CV
-34	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-35	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	서울대	B-OG	B-OG
+2	##가	O	O
+3	관악	B-LC	B-LC
+4	##캠	O	I-LC
+5	##퍼스	O	I-LC
+6	##에	O	O
+7	신축	O	O
+8	##하	O	O
+9	##는	O	O
+10	치의	B-FD	B-FD
+11	##학	I-FD	I-FD
+12	##대	O	O
+13	##학	O	O
+14	##원	O	O
+15	첨단	B-LC	O
+16	##복	I-LC	O
+17	##합	I-LC	O
+18	##연구	I-LC	O
+19	##단지	I-LC	O
+20	및	O	O
+21	치과	B-FD	B-FD
+22	##병원	O	O
+23	첨단	O	B-AF
+24	##치	B-FD	I-AF
+25	##과	I-FD	I-AF
+26	##의	O	I-AF
+27	##료	O	I-AF
+28	##센터	O	I-AF
+29	##는	O	O
+30	교육	O	O
+31	·	O	O
+32	연구	O	O
+33	##를	O	O
+34	위한	O	O
+35	치과	B-FD	B-FD
+36	##대	O	O
+37	##학	O	O
+38	##원	O	O
+39	##과	O	O
+40	임상	O	O
+41	##실	O	O
+42	##습	O	O
+43	·	O	O
+44	진료	O	O
+45	##를	O	O
+46	위한	O	O
+47	치과	O	B-FD
+48	##병원	O	O
+49	##으로	O	O
+50	이루어져	O	O
+51	있	O	O
+52	##다	O	O
+53	.	O	O
+54	[SEP]	O	O

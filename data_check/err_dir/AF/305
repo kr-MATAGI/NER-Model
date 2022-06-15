@@ -1,14 +1,26 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-AF
-1	셔틀버스	B-AF	O	O, B-AF, B-CV, B-TM, B-OG
-2	##가	O	O	O, I-AF, I-OG, I-EV, I-CV
-3	오	O	O	O, B-AF, B-OG, B-CV, B-PS
-4	##는데	O	O	O, I-AF, I-OG, B-CV, B-LC
-5	안양	B-LC	B-LC	B-LC, O, B-OG, B-PS, B-AF
-6	##이	O	O	O, B-PS, I-LC, I-AF, I-OG
-7	##긴	O	O	O, B-PS, I-AF, I-PS, I-LC
-8	안양	B-LC	B-LC	B-LC, O, B-OG, B-PS, B-AF
-9	##이	O	O	O, I-LC, B-PS, I-AF, I-OG
-10	##야	O	O	O, I-AF, I-OG, I-LC, I-PS
-11	.	O	O	O, B-CV, I-OG, I-AF, B-LC
-12	[SEP]	O	O	O, B-CV, B-LC, B-PS, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	미생	B-AF	O
+2	주제	O	O
+3	##곡	O	O
+4	‘	O	O
+5	날아	B-AF	B-AF
+6	’	O	O
+7	부른	O	O
+8	이승	B-PS	B-PS
+9	##열	I-PS	I-PS
+10	,	O	O
+11	홈	O	O
+12	##리	O	O
+13	##코	O	O
+14	##딩	O	O
+15	##으로	O	O
+16	5	B-QT	B-QT
+17	##집	I-QT	I-QT
+18	‘	O	O
+19	S	B-AF	B-AF
+20	##Y	I-AF	I-AF
+21	##X	I-AF	I-AF
+22	’	O	O
+23	발매	O	O
+24	[SEP]	O	O

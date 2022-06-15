@@ -1,15 +1,33 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-AF
-1	자연환경	O	B-CV	B-CV, O, I-CV, B-OG, B-FD
-2	보존	O	I-CV	I-CV, O, B-CV, I-OG, I-QT
-3	법	O	I-CV	I-CV, O, B-CV, I-OG, I-QT
-4	##에	O	O	O, I-CV, I-OG, B-PS, B-OG
-5	서식	O	O	O, B-OG, B-LC, B-CV, I-OG
-6	##처	O	O	O, I-OG, I-CV, I-LC, B-OG
-7	위원회	O	O	O, I-OG, B-OG, I-CV, I-LC
-8	##가	O	O	O, I-OG, B-PS, B-OG, I-EV
-9	있	O	O	O, B-OG, B-CV, B-LC, B-AF
-10	##습	O	O	O, B-OG, I-OG, B-CV, B-LC
-11	##니다	O	O	O, I-OG, B-CV, B-OG, B-LC
-12	.	O	O	O, B-OG, B-LC, I-OG, B-CV
-13	[SEP]	O	O	O, I-OG, B-OG, B-LC, B-CV
+	text	label	preds
+0	[CLS]	O	O
+1	사립	O	O
+2	##학교	O	O
+3	##에	O	O
+4	##서는	O	O
+5	시도	O	O
+6	##교육	O	B-OG
+7	##청	O	I-OG
+8	##의	O	O
+9	처분	O	O
+10	요구	O	O
+11	##를	O	O
+12	바로	O	O
+13	이행	O	O
+14	##하	O	O
+15	##지	O	O
+16	않	O	O
+17	##고	O	O
+18	시간	O	O
+19	##을	O	O
+20	끄	O	O
+21	##는	O	O
+22	사례	O	O
+23	##도	O	O
+24	많	O	O
+25	##은	O	O
+26	것	O	O
+27	##으로	O	O
+28	나타났	O	O
+29	##다	O	O
+30	.	O	O
+31	[SEP]	O	O

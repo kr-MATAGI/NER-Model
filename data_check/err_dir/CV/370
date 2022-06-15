@@ -1,22 +1,23 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-QT
-1	카다	B-CV	B-PS	B-PS, B-OG, B-LC, O, B-CV
-2	##파	I-CV	I-PS	I-PS, I-OG, I-LC, O, I-CV
-3	##와	O	O	O, I-OG, I-PS, I-AF, I-LC
-4	와	O	B-PS	B-PS, B-OG, B-LC, O, I-PS
-5	##팔	O	I-PS	I-PS, I-OG, I-LC, O, I-CV
-6	##라	O	I-OG	I-OG, I-PS, I-LC, O, I-CV
-7	##의	O	O	O, I-OG, I-PS, I-LC, B-CV
-8	관계	O	O	O, B-OG, B-CV, B-TM, B-LC
-9	##는	O	O	O, B-OG, B-PS, B-CV, B-LC
-10	‘	O	O	O, B-CV, B-PS, B-LC, B-OG
-11	혈	O	O	O, B-CV, B-LC, B-PS, B-AF
-12	##맹	O	O	O, I-CV, I-LC, I-PS, B-PS
-13	’	O	O	O, B-PS, B-CV, I-OG, I-CV
-14	이라	O	O	O, B-PS, B-LC, B-OG, B-QT
-15	##고	O	O	O, B-PS, B-LC, B-QT, B-CV
-16	불릴	O	O	O, B-PS, B-QT, B-CV, B-LC
-17	정도	O	O	O, B-PS, B-CV, B-OG, B-LC
-18	##다	O	O	O, I-OG, B-CV, B-OG, B-PS
-19	.	O	O	O, B-PS, B-LC, B-OG, B-CV
-20	[SEP]	O	O	O, B-CV, B-PS, B-LC, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	딱	O	O
+2	보	O	O
+3	##니까	O	O
+4	아	O	O
+5	이	O	O
+6	기관총	B-AF	B-AF
+7	##의	O	O
+8	멜	B-CV	O
+9	##빵	I-CV	O
+10	##을	O	O
+11	하고	O	O
+12	있	O	O
+13	##는	O	O
+14	게	O	O
+15	거기	O	O
+16	있	O	O
+17	##드래	O	O
+18	##는	O	O
+19	거	O	O
+20	##죠	O	O
+21	[SEP]	O	O

@@ -1,45 +1,32 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	공론	B-OG	B-OG	B-OG, O, B-AF, B-EV, B-CV
-2	##화	I-OG	I-OG	I-OG, O, I-EV, B-OG, I-AF
-3	##위	I-OG	I-OG	I-OG, O, I-EV, I-AF, I-CV
-4	##의	O	O	O, I-OG, B-CV, B-PS, I-EV
-5	역할	O	O	O, B-CV, B-TM, B-OG, B-QT
-6	##은	O	O	O, B-CV, B-OG, B-PS, B-LC
-7	시민	O	B-CV	B-CV, O, B-OG, I-CV, B-TM
-8	##배	O	I-CV	I-CV, O, B-CV, I-OG, I-EV
-9	##심	O	I-CV	I-CV, O, B-CV, I-OG, I-TM
-10	##원	O	I-CV	I-CV, O, B-CV, I-OG, I-TM
-11	##단	O	I-CV	I-CV, O, B-CV, I-OG, I-TM
-12	##을	O	O	O, I-CV, B-CV, I-OG, B-PS
-13	구성	O	O	O, B-CV, B-LC, B-TM, B-OG
-14	##하고	O	O	O, B-PS, B-LC, B-CV, B-OG
-15	그	O	O	O, B-CV, B-LC, B-PS, B-OG
-16	##들이	O	O	O, B-PS, B-LC, B-CV, B-OG
-17	충분	O	O	O, B-LC, B-CV, B-PS, B-TM
-18	##한	O	O	O, B-LC, B-PS, B-TM, B-OG
-19	학습	O	O	O, B-LC, B-CV, B-PS, B-TM
-20	##과	O	O	O, B-PS, B-LC, B-CV, B-OG
-21	토론	O	O	O, B-LC, B-CV, B-PS, B-TM
-22	##을	O	O	O, B-PS, B-CV, B-LC, B-OG
-23	거쳐	O	O	O, B-LC, B-PS, B-CV, B-OG
-24	‘	O	O	O, B-CV, B-LC, B-OG, B-PS
-25	결정	O	O	O, B-CV, B-LC, B-PS, B-TM
-26	’	O	O	O, B-CV, B-PS, B-OG, B-LC
-27	할	O	O	O, B-CV, B-PS, B-LC, B-AF
-28	수	O	O	O, B-PS, B-CV, B-LC, B-OG
-29	있	O	O	O, B-CV, B-PS, B-LC, B-TM
-30	##도록	O	O	O, B-LC, B-PS, B-CV, B-OG
-31	투명	O	O	O, B-TM, B-CV, B-TR, B-PS
-32	##하고	O	O	O, B-PS, B-LC, I-TR, I-TM
-33	공정	O	O	O, B-CV, B-TM, B-LC, B-PS
-34	##한	O	O	O, B-PS, B-LC, B-TM, B-OG
-35	절차	O	O	O, B-CV, B-LC, B-PS, B-TM
-36	##를	O	O	O, B-CV, B-LC, B-OG, B-PS
-37	진행	O	O	O, B-CV, B-LC, B-OG, B-TM
-38	##하	O	O	O, B-PS, B-LC, B-OG, B-CV
-39	##는	O	O	O, B-LC, B-CV, B-OG, B-PS
-40	것	O	O	O, B-CV, B-OG, B-LC, B-PS
-41	##이다	O	O	O, B-CV, I-OG, B-TM, I-CV
-42	.	O	O	O, B-LC, B-PS, B-CV, B-OG
-43	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	특히	O	O
+2	1965	B-DT	B-DT
+3	~	I-DT	I-DT
+4	1967	I-DT	I-DT
+5	##년	I-DT	I-DT
+6	서독	O	B-LC
+7	근로자	B-CV	B-CV
+8	송금	O	O
+9	##액	O	O
+10	규모	O	O
+11	##는	O	O
+12	당시	O	O
+13	우리	O	O
+14	##나라	O	O
+15	수출액	O	O
+16	##의	O	O
+17	1	B-QT	B-QT
+18	.	I-QT	I-QT
+19	6	I-QT	I-QT
+20	~	I-QT	I-QT
+21	1	I-QT	I-QT
+22	.	I-QT	I-QT
+23	9	I-QT	I-QT
+24	%	I-QT	I-QT
+25	에	O	O
+26	해당	O	O
+27	##했	O	O
+28	##다	O	O
+29	.	O	O
+30	[SEP]	O	O

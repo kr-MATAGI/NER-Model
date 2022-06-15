@@ -1,6 +1,58 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, I-AF, B-CV
-1	시댁	B-CV	O	O, B-CV, B-OG, B-LC, B-EV
-2	##과	O	O	O, I-CV, I-OG, I-AF, B-PS
-3	처가	B-CV	O	O, B-CV, B-OG, B-LC, I-CV
-4	[SEP]	O	O	O, I-CV, I-OG, I-AF, B-CV
+	text	label	preds
+0	[CLS]	O	O
+1	중국	O	O
+2	##산	O	O
+3	제품	O	O
+4	##의	O	O
+5	국내	O	O
+6	수입액	O	O
+7	##은	O	O
+8	2000	B-DT	B-DT
+9	##년	I-DT	I-DT
+10	128	B-QT	B-QT
+11	##억	I-QT	I-QT
+12	##달	I-QT	I-QT
+13	##러	I-QT	I-QT
+14	##에	O	O
+15	##서	O	O
+16	2013	B-DT	B-DT
+17	##년	I-DT	I-DT
+18	83	B-QT	B-QT
+19	##1	I-QT	I-QT
+20	##억	I-QT	I-QT
+21	##달	I-QT	I-QT
+22	##러	I-QT	I-QT
+23	##로	O	O
+24	늘	O	O
+25	##었	O	O
+26	##고	O	O
+27	,	O	O
+28	한국	B-LC	B-LC
+29	시장	B-CV	O
+30	내	O	O
+31	중국	O	O
+32	##산	O	O
+33	제품	O	O
+34	##의	O	O
+35	침투	O	O
+36	##율	O	O
+37	##은	O	O
+38	2000	B-DT	B-DT
+39	##년	I-DT	I-DT
+40	2	B-QT	B-QT
+41	.	I-QT	I-QT
+42	6	I-QT	I-QT
+43	%	I-QT	I-QT
+44	에서	O	O
+45	2013	B-DT	B-DT
+46	##년	I-DT	I-DT
+47	6	B-QT	B-QT
+48	%	I-QT	I-QT
+49	로	O	O
+50	크	O	O
+51	##게	O	O
+52	증가	O	O
+53	##했	O	O
+54	##다	O	O
+55	.	O	O
+56	[SEP]	O	O

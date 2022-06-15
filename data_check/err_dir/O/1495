@@ -1,23 +1,21 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	‘	O	O	O, B-PS, B-QT, B-LC, B-CV
-2	제	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-PS
-3	##2	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-4	##의	O	I-QT	I-QT, O, I-PS, B-PS, B-QT
-5	이승우	B-PS	B-PS	B-PS, O, I-PS, B-OG, B-LC
-6	’	O	O	O, I-PS, I-QT, B-CV, I-OG
-7	를	O	O	O, B-CV, B-PS, B-LC, B-OG
-8	국내	O	O	O, B-CV, B-LC, B-PS, B-TM
-9	##에서	O	O	O, B-PS, B-LC, B-CV, B-OG
-10	##도	O	O	O, B-LC, B-PS, B-CV, B-OG
-11	키울	O	O	O, B-CV, B-LC, B-PS, B-OG
-12	수	O	O	O, B-PS, B-LC, B-OG, B-CV
-13	있	O	O	O, B-PS, B-LC, B-CV, B-OG
-14	##는	O	O	O, B-LC, B-PS, B-OG, B-CV
-15	토대	O	O	O, B-CV, B-TM, B-PS, B-OG
-16	##가	O	O	O, B-PS, B-OG, I-OG, B-CV
-17	필요	O	O	O, B-CV, B-OG, B-LC, B-PS
-18	##하	O	O	O, B-PS, I-OG, B-CV, B-OG
-19	##다	O	O	O, B-CV, B-PS, I-OG, B-LC
-20	.	O	O	O, B-LC, B-PS, B-CV, B-OG
-21	[SEP]	O	O	O, B-CV, B-LC, B-PS, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	한	O	O
+2	선대위	O	B-OG
+3	관계자	B-CV	B-CV
+4	##는	O	O
+5	“	O	O
+6	마지막	O	O
+7	순간	O	O
+8	##에	O	O
+9	소위	O	O
+10	‘	O	O
+11	아름다운	O	O
+12	단일화	O	O
+13	’	O	O
+14	가	O	O
+15	된	O	O
+16	셈	O	O
+17	##이다	O	O
+18	.	O	O
+19	[SEP]	O	O

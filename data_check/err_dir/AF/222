@@ -1,59 +1,19 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	후배	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-TM
-2	##가	O	O	O, I-CV, B-PS, B-CV, I-AF
-3	총장	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-TM
-4	##이	O	O	O, I-CV, B-PS, I-OG, B-CV
-5	됐	O	O	O, B-CV, B-PS, B-OG, B-LC
-6	##을	O	O	O, B-CV, B-PS, B-OG, B-LC
-7	경우	O	O	O, B-OG, B-CV, B-PS, B-LC
-8	연수원	O	O	O, B-OG, B-EV, B-CV, B-AF
-9	기수	O	O	O, B-CV, I-CV, B-PS, I-OG
-10	##를	O	O	O, I-CV, I-OG, I-EV, B-PS
-11	기준	O	O	O, B-CV, B-OG, B-PS, B-TM
-12	##으로	O	O	O, B-PS, B-OG, B-LC, B-CV
-13	선배	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-TM
-14	##와	O	O	O, I-CV, B-PS, I-OG, B-CV
-15	동기	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-OG
-16	##들이	O	O	O, I-CV, B-CV, I-OG, I-AF
-17	퇴직	O	O	O, B-CV, B-TM, B-PS, B-LC
-18	##하	O	O	O, B-PS, B-CV, B-OG, B-LC
-19	##는	O	O	O, B-CV, B-PS, B-OG, B-LC
-20	관행	O	O	O, B-CV, B-PS, B-TM, B-OG
-21	##에	O	O	O, B-CV, B-PS, B-OG, I-CV
-22	비춰	O	O	O, B-LC, B-PS, B-OG, B-CV
-23	##볼	O	O	O, B-PS, I-OG, B-LC, I-EV
-24	때	O	O	O, B-PS, B-OG, B-LC, B-CV
-25	큰	O	O	O, B-PS, B-LC, B-OG, B-TM
-26	폭	O	O	O, B-PS, B-OG, B-LC, B-TM
-27	##의	O	O	O, B-PS, B-LC, B-OG, I-EV
-28	세대	O	O	O, B-TR, B-CV, B-PS, B-LC
-29	##교	O	O	O, B-PS, I-EV, I-TR, B-TR
-30	##체	O	O	O, I-TR, I-EV, B-PS, I-PS
-31	##는	O	O	O, B-PS, B-LC, B-OG, I-EV
-32	불가피	O	O	O, B-PS, B-OG, B-LC, B-TM
-33	##하	O	O	O, B-PS, B-OG, B-LC, I-EV
-34	##며	O	O	O, B-OG, B-LC, B-PS, B-CV
-35	이	O	O	O, B-PS, B-LC, B-OG, B-CV
-36	##는	O	O	O, B-PS, B-LC, B-OG, B-CV
-37	자연	O	O	O, B-LC, B-PS, B-OG, B-CV
-38	##스럽	O	O	O, B-PS, B-LC, I-OG, B-OG
-39	##게	O	O	O, B-OG, B-LC, B-PS, I-OG
-40	검찰	B-OG	B-OG	B-OG, B-AF, O, B-CV, B-LC
-41	##조	O	O	O, I-OG, I-AF, I-EV, I-CV
-42	##직	O	O	O, I-OG, I-EV, I-AF, I-CV
-43	##의	O	O	O, B-PS, B-LC, B-OG, I-OG
-44	개혁	O	O	O, B-TR, B-CV, B-PS, B-TM
-45	##으로	O	O	O, B-PS, B-OG, B-LC, B-TM
-46	이어질	O	O	O, B-LC, B-TM, B-PS, B-OG
-47	것	O	O	O, B-PS, B-LC, B-OG, B-CV
-48	##이	O	O	O, B-PS, B-OG, B-CV, B-LC
-49	##라는	O	O	O, B-PS, B-OG, B-LC, I-OG
-50	게	O	O	O, B-PS, B-OG, B-LC, B-TR
-51	청와대	B-AF	B-OG	B-OG, B-AF, O, B-PS, B-LC
-52	측	O	O	O, I-OG, I-AF, I-PS, I-EV
-53	##의	O	O	O, B-PS, B-OG, B-TM, B-CV
-54	시각	O	O	O, B-TR, B-CV, B-PS, B-TM
-55	##이다	O	O	O, B-CV, I-OG, B-TM, I-QT
-56	.	O	O	O, B-PS, B-LC, B-OG, B-CV
-57	[SEP]	O	O	O, B-PS, B-CV, B-LC, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	네	O	O
+2	.	O	O
+3	일단	O	O
+4	우리	O	O
+5	풀어	B-AF	O
+6	##듣	I-AF	O
+7	##는	I-AF	O
+8	문화	I-AF	O
+9	##이	I-AF	O
+10	##야	I-AF	O
+11	##기	I-AF	O
+12	한	B-QT	O
+13	번	I-QT	O
+14	들어가	O	O
+15	볼까요	O	O
+16	?	O	O
+17	[SEP]	O	O

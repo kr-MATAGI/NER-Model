@@ -1,33 +1,16 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	환경	O	O	O, B-CV, B-PS, B-LC, B-TM
-2	문제	O	O	O, I-CV, B-CV, I-EV, B-PS
-3	##와	O	O	O, B-PS, B-CV, I-CV, I-EV
-4	관련	O	O	O, B-PS, B-CV, B-LC, B-OG
-5	##해	O	O	O, B-PS, B-LC, B-OG, I-PS
-6	푸	B-PS	B-PS	B-PS, O, I-PS, B-LC, B-OG
-7	부부	B-CV	B-CV	B-CV, O, I-CV, I-PS, B-TM
-8	##장	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-EV
-9	##도	O	O	O, I-CV, I-EV, I-OG, I-QT
-10	“	O	O	O, B-CV, B-PS, B-LC, B-OG
-11	날	O	O	O, B-DT, B-CV, B-PS, B-LC
-12	##마다	O	O	O, I-DT, B-PS, I-QT, I-PS
-13	일어나	O	O	O, B-CV, B-PS, B-OG, B-QT
-14	##서	O	O	O, B-PS, B-LC, B-CV, B-OG
-15	처음	O	O	O, B-QT, B-CV, B-DT, B-PS
-16	하	O	O	O, B-QT, I-QT, B-CV, B-TM
-17	##는	O	O	O, B-QT, I-QT, B-PS, B-CV
-18	일	O	O	O, B-QT, B-CV, I-QT, B-PS
-19	##이	O	O	O, B-PS, B-OG, B-CV, B-LC
-20	스모	O	B-MT	B-MT, B-TM, O, B-AF, B-LC
-21	##그	O	I-MT	I-MT, I-TM, O, I-EV, I-AF
-22	##가	O	O	O, I-TM, I-AF, I-EV, I-OG
-23	있	O	O	O, B-CV, B-OG, B-LC, B-TM
-24	##는지	O	O	O, B-CV, B-LC, B-PS, B-TM
-25	확인	O	O	O, B-CV, B-TM, B-LC, B-QT
-26	##하	O	O	O, B-CV, B-PS, B-LC, B-OG
-27	##는	O	O	O, B-CV, B-PS, B-LC, B-QT
-28	것	O	O	O, B-CV, B-PS, B-QT, B-LC
-29	##이다	O	O	O, B-CV, I-OG, I-EV, I-QT
-30	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-31	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	은	O	B-MT
+2	##반	O	O
+3	‘	O	O
+4	러시아	B-LC	B-LC
+5	소녀	B-PS	B-PS
+6	##시대	I-PS	I-PS
+7	’	O	O
+8	…	O	O
+9	금	B-CV	B-MT
+10	은	B-CV	B-MT
+11	동	B-CV	B-MT
+12	싹쓸이	O	O
+13	?	O	O
+14	[SEP]	O	O

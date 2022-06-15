@@ -1,48 +1,38 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	이	O	O	O, B-PS, B-OG, B-CV, B-LC
-2	때문	O	O	O, B-PS, B-CV, B-OG, B-LC
-3	##에	O	O	O, B-OG, B-PS, B-CV, I-OG
-4	당	O	O	O, B-OG, I-OG, B-PS, B-CV
-5	일각	O	O	O, B-CV, I-OG, B-PS, B-QT
-6	##에	O	O	O, B-PS, B-CV, B-LC, B-OG
-7	##선	O	O	O, B-PS, B-LC, B-CV, B-OG
-8	'	O	O	O, B-LC, B-CV, B-PS, B-OG
-9	성공	O	O	O, B-CV, B-PS, B-LC, B-EV
-10	##한	O	O	O, B-PS, I-PS, B-LC, B-CV
-11	인생	O	O	O, B-PS, I-PS, B-LC, B-OG
-12	'	O	O	O, B-PS, B-CV, B-LC, B-OG
-13	'	O	O	O, B-PS, B-CV, B-LC, B-OG
-14	엘리트	O	B-CV	B-CV, O, B-OG, B-PS, B-FD
-15	코스	O	O	O, I-CV, B-PS, I-OG, I-PS
-16	'	O	O	O, B-CV, B-PS, I-CV, I-OG
-17	로	O	O	O, B-PS, B-CV, B-LC, B-QT
-18	대변	O	O	O, B-PS, B-LC, B-OG, B-CV
-19	##되	O	O	O, B-PS, B-CV, B-LC, I-PS
-20	##는	O	O	O, B-PS, B-OG, B-CV, B-LC
-21	법조	O	O	O, B-CV, B-FD, B-OG, B-TM
-22	##출	O	O	O, B-CV, I-CV, B-PS, I-OG
-23	##신	O	O	O, I-CV, B-CV, B-PS, I-OG
-24	##들이	O	O	O, B-PS, B-CV, I-CV, B-LC
-25	너무	O	O	O, B-PS, B-CV, B-LC, B-OG
-26	많	O	O	O, B-PS, B-OG, B-QT, B-LC
-27	##아	O	O	O, B-LC, B-PS, B-OG, B-CV
-28	한나라당	B-OG	B-OG	B-OG, B-LC, O, B-PS, B-AF
-29	##이	O	O	O, I-OG, B-PS, I-PS, B-CV
-30	'	O	O	O, B-CV, B-LC, B-PS, B-OG
-31	부자	B-CV	O	O, B-CV, B-PS, B-OG, I-CV
-32	정당	O	O	O, I-CV, B-CV, B-OG, B-PS
-33	'	O	O	O, I-CV, B-CV, B-PS, I-OG
-34	이미지	O	O	O, B-CV, B-PS, B-LC, B-QT
-35	##를	O	O	O, B-CV, B-PS, I-CV, B-LC
-36	벗	O	O	O, B-CV, B-PS, B-TM, B-LC
-37	##지	O	O	O, B-PS, B-CV, B-LC, B-QT
-38	못한다는	O	O	O, B-CV, B-PS, B-LC, B-TM
-39	비판	O	O	O, B-CV, B-PS, B-TM, B-TR
-40	##이	O	O	O, B-PS, B-CV, B-OG, I-CV
-41	나오	O	O	O, B-CV, B-QT, B-OG, B-TM
-42	##고	O	O	O, B-CV, B-PS, I-CV, B-QT
-43	있	O	O	O, B-CV, B-PS, B-LC, B-OG
-44	##다	O	O	O, B-CV, B-PS, I-OG, B-OG
-45	.	O	O	O, B-PS, B-LC, B-CV, B-OG
-46	[SEP]	O	O	O, B-CV, B-PS, B-LC, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	시	B-PS	B-PS
+2	주석	B-CV	B-CV
+3	##은	O	O
+4	“	O	O
+5	우리	O	O
+6	(	O	O
+7	정상	B-CV	O
+8	##들	O	O
+9	)	O	O
+10	는	O	O
+11	다자	O	O
+12	무역	O	O
+13	체계	O	O
+14	##를	O	O
+15	지지	O	O
+16	##하	O	O
+17	##고	O	O
+18	보호	B-TR	B-TR
+19	##무역	I-TR	I-TR
+20	##주의	I-TR	I-TR
+21	##를	O	O
+22	반대	O	O
+23	##한다	O	O
+24	##는	O	O
+25	데	O	O
+26	의견	O	O
+27	##을	O	O
+28	모았	O	O
+29	##다	O	O
+30	”	O	O
+31	고	O	O
+32	설명	O	O
+33	##했	O	O
+34	##다	O	O
+35	.	O	O
+36	[SEP]	O	O

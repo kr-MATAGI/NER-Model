@@ -1,42 +1,23 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-EV, I-CV, I-OG
-1	서브	O	B-EV	B-EV, B-AF, O, B-CV, B-TM
-2	##프라	O	I-EV	I-EV, I-AF, O, I-CV, I-TM
-3	##임	O	I-EV	I-EV, I-AF, O, I-CV, I-TM
-4	모기지	O	I-EV	I-EV, I-AF, O, I-CV, I-TM
-5	사태	O	I-EV	I-EV, O, I-AF, I-CV, I-TM
-6	##는	O	O	O, I-EV, I-AF, I-OG, I-CV
-7	집값	O	O	O, B-CV, B-LC, B-TM, B-AF
-8	상승	O	O	O, I-CV, B-CV, B-PS, I-EV
-9	##에	O	O	O, B-CV, B-PS, B-TM, B-LC
-10	대한	O	O	O, B-LC, B-PS, B-OG, B-TM
-11	잘못	O	O	O, B-CV, B-PS, B-LC, B-TM
-12	##된	O	O	O, B-LC, B-PS, B-CV, B-OG
-13	예측	O	O	O, B-CV, B-LC, B-PS, B-TM
-14	##과	O	O	O, B-PS, B-LC, B-CV, B-OG
-15	부풀려	O	O	O, B-CV, B-PS, B-LC, B-QT
-16	##진	O	O	O, B-CV, B-LC, B-PS, B-TM
-17	신용	O	O	O, B-CV, B-PS, B-FD, B-LC
-18	##평가	O	O	O, I-CV, B-CV, I-TM, I-TR
-19	##의	O	O	O, B-PS, B-LC, B-CV, I-CV
-20	문제	O	O	O, B-CV, B-PS, B-TM, B-QT
-21	##이지	O	O	O, B-PS, B-CV, B-LC, B-EV
-22	모기지	O	O	O, B-CV, B-AF, B-EV, B-TM
-23	##라는	O	O	O, I-CV, I-AF, I-EV, I-TM
-24	금융	O	O	O, B-CV, I-CV, B-AF, B-FD
-25	##제	O	O	O, I-CV, B-CV, I-AF, I-TM
-26	##도	O	O	O, I-CV, I-AF, B-CV, I-TM
-27	자체	O	O	O, I-CV, I-AF, B-PS, I-EV
-28	##의	O	O	O, B-PS, B-LC, B-CV, B-OG
-29	문제	O	O	O, B-CV, B-PS, B-TM, B-FD
-30	##가	O	O	O, B-PS, B-CV, B-LC, B-OG
-31	아니	O	O	O, B-PS, B-CV, B-LC, B-OG
-32	##었	O	O	O, B-CV, B-PS, B-OG, B-LC
-33	##다는	O	O	O, B-PS, B-LC, B-CV, B-OG
-34	게	O	O	O, B-PS, B-OG, B-LC, B-CV
-35	그	O	O	O, B-CV, B-PS, B-FD, B-EV
-36	##의	O	O	O, B-PS, B-CV, I-EV, I-CV
-37	설명	O	O	O, B-CV, B-TR, B-TM, B-FD
-38	##이다	O	O	O, B-CV, I-EV, I-CV, B-PS
-39	.	O	O	O, B-CV, B-PS, B-LC, I-EV
-40	[SEP]	O	O	O, B-CV, B-PS, B-LC, B-FD
+	text	label	preds
+0	[CLS]	O	O
+1	그때	O	O
+2	##마	O	O
+3	##다	O	O
+4	얘기	O	O
+5	##를	O	O
+6	하	O	O
+7	##는	O	O
+8	것	O	O
+9	##이	O	O
+10	사실	O	O
+11	리비아	B-LC	B-LC
+12	##의	O	O
+13	카다피	B-PS	B-PS
+14	정권	O	O
+15	##이	O	O
+16	이천	B-DT	B-DT
+17	##삼	I-DT	I-DT
+18	##년	I-DT	I-DT
+19	##도	O	I-DT
+20	##에	O	O
+21	[SEP]	O	O

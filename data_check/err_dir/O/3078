@@ -1,44 +1,62 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	18	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-LC
-2	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-3	질병관리본부	B-OG	B-OG	B-OG, B-AF, O, B-LC, I-DT
-4	##와	O	O	O, I-OG, B-PS, B-OG, I-AF
-5	이대	B-OG	B-OG	B-OG, B-AF, O, B-LC, I-OG
-6	##목	I-OG	I-OG	I-OG, O, B-OG, I-AF, I-LC
-7	##동	I-OG	I-OG	I-OG, O, I-AF, B-OG, I-LC
-8	##병원	I-OG	I-OG	I-OG, O, B-OG, I-AF, I-LC
-9	##의	O	O	O, I-OG, B-CV, B-PS, I-AF
-10	말	O	O	O, B-AM, B-PS, B-CV, B-TM
-11	##을	O	O	O, B-PS, B-CV, B-OG, B-LC
-12	종합	O	O	O, B-PS, B-CV, B-OG, B-LC
-13	##하면	O	O	O, B-PS, B-OG, B-LC, B-CV
-14	이	O	O	O, B-PS, B-OG, B-LC, B-AF
-15	병원	O	O	O, I-OG, B-OG, B-CV, B-AF
-16	##의	O	O	O, I-OG, B-PS, B-CV, I-AF
-17	신생아	O	O	O, B-AF, B-TM, B-OG, B-CV
-18	중환자실	O	O	O, I-AF, B-AF, I-OG, B-FD
-19	##에서	O	O	O, B-PS, B-CV, I-AF, B-DT
-20	일	O	O	O, B-PS, B-CV, B-QT, B-LC
-21	##하	O	O	O, B-PS, B-LC, B-CV, B-QT
-22	##는	O	O	O, B-PS, B-QT, B-CV, B-LC
-23	한	O	O	O, B-PS, B-QT, B-LC, I-PS
-24	간호사	B-CV	B-CV	B-CV, O, I-QT, I-CV, I-PS
-25	##는	O	O	O, I-CV, I-QT, B-CV, I-EV
-26	지난	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-27	15	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-28	##일	I-DT	I-DT	I-DT, O, B-DT, I-PS, I-QT
-29	정기	O	O	O, B-CV, I-DT, B-EV, B-TM
-30	건강	O	O	O, B-EV, B-CV, B-LC, B-TM
-31	##검	O	O	O, I-EV, B-CV, I-TM, B-LC
-32	##진	O	O	O, I-EV, B-LC, I-TM, B-CV
-33	##에서	O	O	O, B-PS, B-CV, B-LC, B-OG
-34	결핵	O	B-TM	B-TM, O, B-CV, I-TM, B-AF
-35	확진	O	O	O, B-TM, I-TM, B-CV, B-PS
-36	판정	O	O	O, I-TM, B-CV, B-PS, B-TM
-37	##을	O	O	O, B-CV, B-PS, B-OG, I-OG
-38	받	O	O	O, B-PS, B-CV, B-OG, B-LC
-39	##았	O	O	O, B-PS, B-CV, B-LC, B-QT
-40	##다	O	O	O, B-CV, B-PS, B-LC, B-OG
-41	.	O	O	O, B-PS, B-OG, B-LC, B-CV
-42	[SEP]	O	O	O, B-CV, B-PS, B-OG, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	연휴	O	B-DT
+2	##마	O	I-DT
+3	##다	O	I-DT
+4	고	B-AM	B-AM
+5	##슴	I-AM	I-AM
+6	##도	I-AM	I-AM
+7	##치	I-AM	I-AM
+8	##를	O	O
+9	맡	O	O
+10	##아	O	O
+11	##주	O	O
+12	##는	O	O
+13	아르바이트	O	O
+14	##를	O	O
+15	하	O	O
+16	##는	O	O
+17	신지	B-PS	B-PS
+18	##원	I-PS	I-PS
+19	(	O	O
+20	18	B-QT	B-QT
+21	)	O	O
+22	양은	O	O
+23	""""	O	O
+24	이번	B-DT	B-DT
+25	추석	I-DT	I-DT
+26	##에	O	O
+27	##만	O	O
+28	10	B-QT	B-QT
+29	##건	I-QT	I-QT
+30	정도	I-QT	I-QT
+31	문의	O	O
+32	##가	O	O
+33	들어왔	O	O
+34	##다	O	O
+35	""""	O	O
+36	며	O	O
+37	""""	O	O
+38	연휴	O	O
+39	##가	O	O
+40	길	O	O
+41	##어	O	O
+42	##서	O	O
+43	##인지	O	O
+44	다른	O	O
+45	때	O	O
+46	##보	O	O
+47	##다	O	O
+48	문의	O	O
+49	##가	O	O
+50	더	O	O
+51	많	O	O
+52	##은	O	O
+53	편	O	O
+54	""""	O	O
+55	이라	O	O
+56	##고	O	O
+57	했	O	O
+58	##다	O	O
+59	.	O	O
+60	[SEP]	O	O

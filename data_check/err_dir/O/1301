@@ -1,19 +1,13 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-AF
-1	근데	O	O	O, B-OG, B-CV, B-LC, B-TM
-2	공대	O	B-FD	B-FD, O, B-OG, B-CV, I-FD
-3	김장	B-PS	B-PS	B-PS, O, I-PS, B-OG, B-LC
-4	##기	I-PS	I-PS	I-PS, O, I-OG, I-QT, B-PS
-5	선생	B-CV	B-CV	B-CV, O, I-PS, I-CV, B-QT
-6	##이	O	O	O, I-CV, B-PS, I-PS, I-QT
-7	##란	O	O	O, B-QT, B-PS, B-CV, B-LC
-8	분	O	O	O, I-QT, B-PS, B-CV, I-CV
-9	##이	O	O	O, B-PS, B-CV, I-CV, B-OG
-10	왔	O	O	O, B-CV, B-OG, B-AF, B-PS
-11	##어요	O	O	O, I-OG, I-AF, B-CV, I-CV
-12	.	O	O	O, B-CV, B-PS, B-OG, B-LC
-13	컴퓨터	O	O	O, B-OG, B-TM, B-CV, B-LC
-14	##공	O	O	O, I-OG, B-OG, I-QT, B-QT
-15	##학	O	O	O, I-OG, I-QT, I-LC, B-OG
-16	##과	O	O	O, I-OG, I-QT, B-OG, I-LC
-17	[SEP]	O	O	O, I-OG, B-CV, I-QT, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	비아	B-CV	B-TM
+2	##이	I-CV	I-TM
+3	##피	I-CV	I-TM
+4	##중	O	I-TM
+5	##동	O	I-TM
+6	##사업	O	I-TM
+7	##을	O	O
+8	방해	O	O
+9	##하	O	O
+10	##는	O	O
+11	[SEP]	O	O

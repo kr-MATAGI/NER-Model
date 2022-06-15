@@ -1,27 +1,68 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	그런데	O	O	O, B-CV, B-OG, B-LC, B-TM
-2	저	O	O	O, B-CV, B-OG, B-LC, B-PS
-3	##는	O	O	O, B-CV, B-PS, B-LC, I-OG
-4	뭐	O	O	O, B-CV, B-PS, B-TM, B-OG
-5	보수	B-TR	B-TR	B-TR, O, I-TR, B-FD, B-CV
-6	쪽	O	O	O, I-TR, I-OG, I-QT, I-DT
-7	##이	O	O	O, B-PS, B-CV, B-LC, B-OG
-8	지금	O	O	O, B-CV, B-OG, B-QT, B-LC
-9	뭐	O	O	O, B-CV, B-TM, B-PS, B-LC
-10	제	B-QT	B-QT	B-QT, O, I-QT, B-LC, B-CV
-11	##삼	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-OG
-12	지대	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-OG
-13	##다	O	O	O, I-QT, I-LC, I-OG, I-DT
-14	보수	B-TR	O	O, B-TR, B-CV, B-FD, B-OG
-15	##단	O	O	O, B-TR, I-TR, B-QT, I-QT
-16	##일	O	O	O, I-TR, I-QT, B-TR, I-LC
-17	##화	O	O	O, I-TR, I-QT, I-LC, I-OG
-18	##다	O	O	O, I-QT, I-OG, I-CV, B-PS
-19	이야기	O	O	O, B-CV, B-TM, B-LC, B-OG
-20	##되	O	O	O, B-CV, B-LC, B-PS, I-CV
-21	##고	O	O	O, B-CV, B-LC, B-PS, B-TM
-22	있	O	O	O, B-CV, B-LC, B-PS, B-TM
-23	##지마	O	O	O, B-CV, B-PS, B-QT, B-TM
-24	##는	O	O	O, B-CV, B-LC, B-PS, B-OG
-25	[SEP]	O	O	O, B-CV, B-LC, B-TM, B-QT
+	text	label	preds
+0	[CLS]	O	O
+1	미국	B-LC	B-LC
+2	##의	O	O
+3	세기	O	O
+4	##가	O	O
+5	끝	O	O
+6	##났	O	O
+7	##다고	O	O
+8	했	O	O
+9	##을	O	O
+10	때	O	O
+11	콜	B-PS	B-PS
+12	##코	I-PS	I-PS
+13	##는	O	O
+14	<	O	O
+15	위	B-AF	B-OG
+16	##클리	I-AF	I-OG
+17	스탠더드	I-AF	I-OG
+18	>	O	O
+19	를	O	O
+20	운영	O	O
+21	##한	O	O
+22	네오	B-TR	O
+23	##콘	I-TR	O
+24	##의	O	O
+25	이론	B-CV	B-CV
+26	##가	I-CV	I-CV
+27	윌리엄	B-PS	B-PS
+28	크리스	I-PS	I-PS
+29	##톨	I-PS	I-PS
+30	##이나	I-PS	O
+31	로버트	I-PS	B-PS
+32	케이	I-PS	I-PS
+33	##건	I-PS	I-PS
+34	##이	O	O
+35	주도	O	O
+36	##한	O	O
+37	싱크탱크	O	O
+38	‘	O	O
+39	새로운	O	B-TM
+40	미국	B-LC	I-TM
+41	##의	O	I-TM
+42	세기	O	I-TM
+43	##를	O	I-TM
+44	위한	O	I-TM
+45	프로젝트	O	I-TM
+46	’	O	O
+47	(	O	O
+48	Pro	O	O
+49	##ject	O	O
+50	for	O	O
+51	the	O	O
+52	New	O	O
+53	American	O	O
+54	C	O	O
+55	##ent	O	O
+56	##ury	O	O
+57	)	O	O
+58	를	O	O
+59	염두	O	O
+60	##에	O	O
+61	두지	O	O
+62	않	O	O
+63	##았	O	O
+64	##을까	O	O
+65	.	O	O
+66	[SEP]	O	O

@@ -1,24 +1,54 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	그까	O	O	O, B-CV, B-PS, B-LC, B-AF
-2	페미니스트	O	B-CV	B-CV, O, B-AF, B-OG, B-FD
-3	##와	O	O	O, I-AF, I-CV, I-OG, B-AF
-4	자격	O	O	O, I-AF, B-AF, B-CV, I-CV
-5	##이	O	O	O, I-AF, B-PS, I-CV, B-CV
-6	##라는	O	O	O, I-AF, B-CV, I-CV, B-PS
-7	말	O	O	O, B-CV, I-CV, B-AM, I-QT
-8	##은	O	O	O, B-CV, I-CV, B-PS, I-AF
-9	사실	O	O	O, B-CV, B-PS, B-QT, B-OG
-10	그다지	O	O	O, B-CV, B-QT, B-LC, B-TM
-11	어울리	O	O	O, B-CV, B-PS, B-FD, B-LC
-12	##는	O	O	O, B-CV, B-PS, I-AF, I-CV
-13	표현	O	O	O, B-CV, B-FD, I-CV, B-QT
-14	같	O	O	O, B-CV, I-CV, B-QT, I-QT
-15	##아	O	O	O, B-CV, B-QT, I-QT, I-CV
-16	보이	O	O	O, B-CV, B-TM, B-QT, I-QT
-17	##진	O	O	O, B-CV, B-TM, B-LC, B-PS
-18	않	O	O	O, B-CV, I-OG, B-TM, I-CV
-19	##아	O	O	O, B-CV, I-CV, I-OG, B-LC
-20	##요	O	O	O, B-CV, I-OG, I-CV, B-QT
-21	.	O	O	O, B-CV, B-LC, B-PS, I-AF
-22	[SEP]	O	O	O, B-CV, I-AF, B-FD, I-CV
+	text	label	preds
+0	[CLS]	O	O
+1	이	O	O
+2	##운	O	O
+3	##식	O	O
+4	전날	B-DT	B-DT
+5	밤	B-TI	B-TI
+6	대통령	O	B-AF
+7	##궁	O	I-AF
+8	옆	O	B-TM
+9	다르	B-AF	B-AF
+10	##마	I-AF	I-AF
+11	##키	I-AF	I-AF
+12	##트	I-AF	I-AF
+13	##야	I-AF	I-AF
+14	##라마	I-AF	I-AF
+15	##야	I-AF	I-AF
+16	사원	I-AF	I-AF
+17	##에	O	O
+18	진	B-AF	O
+19	##신	I-AF	O
+20	##사리	I-AF	O
+21	##가	O	O
+22	임시	O	O
+23	봉안	O	O
+24	##됐	O	O
+25	##을	O	O
+26	때	O	O
+27	##에	O	O
+28	##는	O	O
+29	진	B-AF	O
+30	##신	I-AF	O
+31	##사리	I-AF	O
+32	##를	O	O
+33	친	O	O
+34	##견	O	O
+35	##하	O	O
+36	##러	O	O
+37	온	O	O
+38	스리랑카	B-LC	B-LC
+39	불교	B-OG	B-OG
+40	신자	O	B-CV
+41	##들	O	O
+42	##로	O	O
+43	사원	O	O
+44	##이	O	O
+45	인산	O	O
+46	##인	O	O
+47	##해	O	O
+48	##를	O	O
+49	이뤘	O	O
+50	##다	O	O
+51	.	O	O
+52	[SEP]	O	O

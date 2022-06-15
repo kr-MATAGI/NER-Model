@@ -1,26 +1,69 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	정부	B-OG	B-OG	B-OG, O, B-PS, B-AF, B-LC
-2	##도	O	O	O, I-OG, I-EV, I-AF, B-CV
-3	다음	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-QT
-4	달	I-DT	I-DT	I-DT, O, I-EV, B-DT, I-QT
-5	G	B-EV	B-EV	B-EV, O, I-EV, B-OG, B-LC
-6	##20	I-EV	I-EV	I-EV, O, I-OG, I-DT, B-EV
-7	정상회의	I-EV	I-EV	I-EV, O, I-OG, I-LC, I-DT
-8	##에서	O	O	O, I-EV, I-OG, I-DT, I-AF
-9	금융	O	O	O, B-LC, B-OG, B-PS, B-CV
-10	##위	O	O	O, B-PS, B-LC, B-CV, B-OG
-11	##기에	O	O	O, B-PS, B-LC, I-PS, B-CV
-12	대한	O	O	O, B-LC, B-PS, B-OG, B-AF
-13	안전	O	O	O, B-LC, B-PS, B-CV, B-AF
-14	##판	O	O	O, B-PS, I-LC, I-CV, B-CV
-15	##인	O	O	O, B-PS, B-LC, B-CV, B-AF
-16	GS	B-TM	B-AF	B-AF, B-OG, O, B-CV, B-LC
-17	##M	I-TM	I-AF	I-AF, I-OG, O, I-CV, I-TM
-18	##을	O	O	O, I-AF, I-OG, I-CV, I-EV
-19	재추진	O	O	O, B-CV, B-LC, B-TM, B-OG
-20	##할	O	O	O, B-LC, B-PS, B-CV, B-OG
-21	방침	O	O	O, B-CV, B-LC, B-OG, B-TM
-22	##이다	O	O	O, B-CV, I-OG, B-TM, B-QT
-23	.	O	O	O, B-LC, B-PS, B-CV, B-OG
-24	[SEP]	O	O	O, B-LC, B-CV, B-PS, I-EV
+	text	label	preds
+0	[CLS]	O	O
+1	글로벌	O	O
+2	색채	O	O
+3	전문	O	O
+4	##기업	O	O
+5	##인	O	O
+6	‘	O	O
+7	팬	B-OG	B-OG
+8	##톤	I-OG	I-OG
+9	’	O	O
+10	은	O	O
+11	시대	O	O
+12	##상	O	O
+13	##을	O	O
+14	반영	O	O
+15	##해	O	O
+16	이듬해	B-DT	B-DT
+17	유행	O	O
+18	##할	O	O
+19	색상	O	O
+20	##을	O	O
+21	미리	O	O
+22	발표	O	O
+23	##하	O	O
+24	##는데	O	O
+25	,	O	O
+26	2016	B-DT	B-DT
+27	##년	I-DT	I-DT
+28	##의	O	O
+29	색	O	O
+30	##으로	O	O
+31	분홍색	B-TM	B-TM
+32	(	O	O
+33	로즈	B-TM	B-AF
+34	##쿼	I-TM	I-AF
+35	##츠	I-TM	I-AF
+36	·	O	O
+37	13	B-AF	B-AF
+38	-	I-AF	I-AF
+39	150	I-AF	I-AF
+40	-	I-AF	I-AF
+41	TC	I-AF	I-AF
+42	##X	I-AF	I-AF
+43	)	O	O
+44	과	O	O
+45	하늘	B-TM	B-TM
+46	##색	I-TM	I-TM
+47	(	O	O
+48	세레	B-TM	B-AF
+49	##니티	I-TM	I-AF
+50	·	O	O
+51	14	B-AF	B-TM
+52	-	I-AF	I-TM
+53	39	I-AF	I-TM
+54	##19	I-AF	I-TM
+55	-	I-AF	I-TM
+56	TC	I-AF	I-TM
+57	##X	I-AF	I-TM
+58	)	O	O
+59	이	O	O
+60	섞인	O	O
+61	조합	O	O
+62	##을	O	O
+63	선정	O	O
+64	##했	O	O
+65	##다	O	O
+66	.	O	O
+67	[SEP]	O	O

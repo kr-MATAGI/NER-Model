@@ -1,34 +1,41 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-AF, I-EV
-1	또	O	O	O, B-LC, B-AF, B-CV, B-TM
-2	국도	B-AF	B-AF	B-AF, O, B-OG, B-LC, I-AF
-3	7	I-AF	I-AF	I-AF, B-AF, B-QT, O, B-LC
-4	##호	I-AF	I-AF	I-AF, I-QT, O, I-EV, B-AF
-5	##선	I-AF	I-AF	I-AF, O, I-QT, I-EV, B-AF
-6	강릉	B-LC	B-LC	B-LC, I-AF, O, B-AF, I-LC
-7	~	O	O	O, I-LC, I-AF, B-LC, I-DT
-8	동해	B-LC	B-LC	B-LC, O, B-AF, B-OG, I-LC
-9	구간	O	O	O, I-LC, I-AF, B-AF, B-LC
-10	##도	O	O	O, I-AF, B-LC, B-AF, I-LC
-11	월	O	O	O, B-TM, B-LC, B-AF, B-CV
-12	##동	O	O	O, I-AF, I-LC, I-TM, I-CV
-13	##장	O	O	O, I-AF, I-LC, I-TM, I-CV
-14	##비	O	O	O, I-AF, I-LC, I-TM, I-CV
-15	##를	O	O	O, I-AF, B-LC, B-CV, I-LC
-16	장착	O	O	O, B-CV, B-LC, B-PS, B-AF
-17	##하	O	O	O, B-LC, B-PS, B-CV, B-OG
-18	##지	O	O	O, B-LC, B-CV, B-PS, I-AF
-19	않	O	O	O, B-LC, B-CV, B-PS, B-AF
-20	##은	O	O	O, B-LC, B-CV, B-AF, B-OG
-21	차량	O	O	O, B-AF, B-CV, I-AF, B-LC
-22	##과	O	O	O, I-AF, B-AF, B-CV, B-TM
-23	대형	B-AF	O	O, B-AF, B-CV, B-TM, B-OG
-24	차량	I-AF	O	O, B-AF, I-AF, B-CV, I-CV
-25	##은	O	O	O, I-AF, B-LC, B-CV, B-TM
-26	진입	O	O	O, B-LC, B-TM, B-CV, B-AF
-27	##이	O	O	O, B-PS, B-LC, B-OG, B-CV
-28	통제	O	O	O, B-CV, B-TM, B-LC, B-AF
-29	##됐	O	O	O, B-CV, B-LC, I-AF, B-OG
-30	##다	O	O	O, B-CV, B-LC, B-OG, B-TM
-31	.	O	O	O, B-LC, B-AF, B-OG, B-CV
-32	[SEP]	O	O	O, B-LC, B-AF, I-AF, B-CV
+	text	label	preds
+0	[CLS]	O	O
+1	매월	O	O
+2	300	O	O
+3	##명	O	O
+4	이상의	O	O
+5	협력	O	O
+6	##사	O	O
+7	직원	B-CV	B-CV
+8	##들이	O	O
+9	롯데	B-AF	B-OG
+10	##인	I-AF	I-OG
+11	##재	I-AF	I-OG
+12	##개발	I-AF	I-OG
+13	##원	I-AF	I-OG
+14	,	O	O
+15	롯데	B-AF	B-OG
+16	##정보	I-AF	I-OG
+17	##통신	I-AF	I-OG
+18	IT	B-AF	B-FD
+19	##교육	I-AF	I-OG
+20	##센터	I-AF	I-OG
+21	,	O	O
+22	롯데호텔	B-OG	B-OG
+23	등	O	O
+24	##에	O	O
+25	##서	O	O
+26	진행	O	O
+27	##되	O	O
+28	##는	O	O
+29	동반성	O	O
+30	##장	O	O
+31	아카데미	O	O
+32	교육	O	O
+33	##을	O	O
+34	받	O	O
+35	##고	O	O
+36	있	O	O
+37	##다	O	O
+38	.	O	O
+39	[SEP]	O	O

@@ -1,30 +1,41 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	부활	O	O	O, B-LC, B-CV, B-PS, B-TM
-2	##의	O	O	O, B-PS, B-LC, I-AF, I-OG
-3	신호탄	O	O	O, B-AF, B-LC, B-PS, B-TM
-4	##을	O	O	O, I-AF, B-CV, B-PS, I-OG
-5	쏜	O	O	O, B-OG, B-PS, B-AF, B-LC
-6	남자	O	O	O, B-OG, B-CV, I-OG, B-LC
-7	쇼트트랙	B-CV	I-OG	I-OG, B-CV, B-OG, O, I-CV
-8	대표	O	I-OG	I-OG, O, I-CV, I-EV, B-OG
-9	##팀	O	I-OG	I-OG, O, I-CV, I-EV, I-AF
-10	맏형	B-CV	B-CV	B-CV, O, I-CV, I-OG, B-PS
-11	이정수	B-PS	B-PS	B-PS, O, I-PS, B-OG, B-CV
-12	(	O	O	O, I-PS, I-OG, B-CV, I-CV
-13	27	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-TM
-14	)	O	O	O, I-QT, I-OG, I-DT, I-EV
-15	의	O	O	O, B-CV, B-LC, B-PS, B-TM
-16	우승	O	O	O, B-CV, B-TM, B-EV, B-PS
-17	소감	O	O	O, B-CV, I-CV, B-PS, I-EV
-18	##은	O	O	O, B-CV, B-PS, B-LC, B-OG
-19	떠난	O	O	O, B-CV, B-PS, B-QT, B-AF
-20	이	O	O	O, B-PS, B-CV, B-AM, B-QT
-21	##들	O	O	O, B-CV, B-PS, I-PS, I-AF
-22	##을	O	O	O, B-CV, B-PS, B-TM, B-QT
-23	위한	O	O	O, B-CV, B-PS, B-LC, B-TM
-24	감사	O	O	O, B-CV, B-PS, I-CV, B-FD
-25	##였	O	O	O, I-CV, B-PS, B-CV, I-AF
-26	##다	O	O	O, B-CV, I-CV, B-LC, B-PS
-27	.	O	O	O, B-CV, B-PS, B-LC, B-OG
-28	[SEP]	O	O	O, B-CV, B-PS, B-LC, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	▶	O	O
+2	##마	B-CV	B-EV
+3	##라	I-CV	I-EV
+4	##톤	I-CV	I-EV
+5	영웅	B-CV	B-CV
+6	황영	B-PS	B-PS
+7	##조	I-PS	I-PS
+8	##는	O	O
+9	1988	B-DT	B-DT
+10	##년	I-DT	I-DT
+11	강릉	B-LC	B-LC
+12	명	B-OG	B-OG
+13	##륜	I-OG	I-OG
+14	##고	I-OG	I-OG
+15	1	B-QT	B-QT
+16	##학	I-QT	I-QT
+17	##년	I-QT	I-QT
+18	때	O	O
+19	##부터	O	O
+20	1996	B-DT	B-DT
+21	##년	I-DT	I-DT
+22	은퇴	O	O
+23	##할	O	O
+24	때	O	O
+25	##까	O	O
+26	##지	O	O
+27	하루	B-DT	B-DT
+28	##도	O	O
+29	거르	O	O
+30	##지	O	O
+31	않	O	O
+32	##고	O	O
+33	훈련	O	O
+34	일기	O	O
+35	##를	O	O
+36	썼	O	O
+37	##다	O	O
+38	.	O	O
+39	[SEP]	O	O

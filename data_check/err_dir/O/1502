@@ -1,23 +1,15 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-EV, I-CV
-1	사우디	B-OG	B-OG	B-OG, B-LC, O, I-OG, B-PS
-2	##의	O	O	O, I-OG, I-LC, I-EV, I-AF
-3	공습	O	O	O, B-LC, B-CV, B-EV, B-TM
-4	중단	O	O	O, I-EV, I-OG, I-AF, I-LC
-5	##이	O	O	O, B-PS, B-LC, B-OG, B-CV
-6	예멘	B-LC	B-LC	B-LC, B-EV, O, B-OG, B-PS
-7	내전	O	I-EV	I-EV, O, I-LC, B-EV, I-AF
-8	##의	O	O	O, I-EV, I-OG, I-LC, I-AF
-9	정치	O	O	O, B-FD, B-LC, B-TM, B-TR
-10	##적	O	O	O, B-LC, B-PS, B-TR, I-TR
-11	해결	O	O	O, B-LC, B-PS, B-OG, B-TM
-12	##을	O	O	O, B-LC, B-PS, B-OG, B-CV
-13	낳	O	O	O, B-LC, B-PS, B-TM, B-QT
-14	##을	O	O	O, B-LC, B-PS, I-LC, B-OG
-15	##지	O	O	O, B-LC, B-PS, B-TM, B-OG
-16	##는	O	O	O, B-LC, B-CV, B-TM, B-OG
-17	회의	O	O	O, B-TM, B-TR, B-FD, B-LC
-18	##적	O	O	O, I-TM, I-PS, I-TR, I-OG
-19	##이다	O	O	O, B-CV, I-OG, I-EV, I-QT
-20	.	O	O	O, B-LC, B-OG, B-PS, B-CV
-21	[SEP]	O	O	O, B-LC, B-CV, B-OG, I-EV
+	text	label	preds
+0	[CLS]	O	O
+1	강원도	B-LC	B-LC
+2	##가	O	O
+3	특히	O	O
+4	날씨	O	O
+5	##가	O	O
+6	영동	B-LC	B-LC
+7	지방	O	I-LC
+8	##에	O	O
+9	비	O	O
+10	##가	O	O
+11	내렸	O	O
+12	##는데	O	O
+13	[SEP]	O	O

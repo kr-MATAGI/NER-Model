@@ -1,23 +1,57 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-AF
-1	자	O	O	O, B-CV, B-PS, B-QT, B-OG
-2	오늘	B-DT	B-DT	B-DT, O, I-DT, B-CV, B-QT
-3	두	B-QT	B-QT	B-QT, I-QT, I-DT, B-DT, B-EV
-4	가지	I-QT	I-QT	I-QT, O, I-DT, I-EV, I-AF
-5	요리	O	O	O, I-QT, B-CV, I-CV, I-AF
-6	.	O	O	O, B-PS, B-CV, I-CV, I-QT
-7	이	O	O	O, B-PS, B-OG, B-CV, B-LC
-8	이혜	B-PS	B-PS	B-PS, I-PS, O, B-OG, B-CV
-9	##정	I-PS	I-PS	I-PS, O, I-OG, B-PS, I-QT
-10	선생	B-CV	B-CV	B-CV, O, I-CV, I-PS, B-QT
-11	##님	I-CV	I-CV	I-CV, O, B-CV, I-QT, I-OG
-12	##표	O	O	O, I-CV, I-AF, I-QT, I-OG
-13	건강식	B-CV	O	O, B-CV, B-TM, B-FD, B-AF
-14	보약	B-TM	B-TM	B-TM, O, B-AF, I-TM, B-CV
-15	밥상	O	O	O, I-TM, I-AF, B-CV, I-CV
-16	##이	O	O	O, I-AF, I-CV, B-CV, I-OG
-17	##었	O	O	O, B-CV, B-OG, I-AF, I-OG
-18	##습	O	O	O, B-CV, B-OG, B-LC, I-AF
-19	##니다	O	O	O, B-CV, B-OG, B-LC, B-TM
-20	.	O	O	O, B-CV, B-LC, B-PS, B-OG
-21	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	진	B-PS	B-PS
+2	##씨	O	O
+3	##와	O	O
+4	함께	O	O
+5	'	O	O
+6	KAIST	B-TM	B-TM
+7	R	I-TM	I-TM
+8	##U	I-TM	I-TM
+9	##N	I-TM	I-TM
+10	프로젝트	I-TM	I-TM
+11	'	O	O
+12	를	O	O
+13	이끄	O	O
+14	##는	O	O
+15	한미	O	B-PS
+16	##숙	O	I-PS
+17	(	O	O
+18	31	B-QT	B-QT
+19	·	O	O
+20	사회	O	B-CV
+21	##적	O	I-CV
+22	기업가	B-CV	I-CV
+23	##과	O	O
+24	##정	O	O
+25	)	O	O
+26	씨	O	O
+27	##는	O	O
+28	""""	O	O
+29	기부	O	O
+30	##의	O	O
+31	목적	O	O
+32	##과	O	O
+33	대상	O	O
+34	##이	O	O
+35	분명	O	O
+36	##했	O	O
+37	##기	O	O
+38	때문	O	O
+39	##에	O	O
+40	많	O	O
+41	##은	O	O
+42	호응	O	O
+43	##을	O	O
+44	얻	O	O
+45	##는	O	O
+46	것	O	O
+47	같	O	O
+48	##다	O	O
+49	""""	O	O
+50	고	O	O
+51	말	O	O
+52	##했	O	O
+53	##다	O	O
+54	.	O	O
+55	[SEP]	O	O

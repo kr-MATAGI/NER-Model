@@ -1,39 +1,20 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	또한	O	O	O, B-TM, B-OG, B-CV, B-AF
-2	클라우드	B-TM	B-TM	B-TM, O, B-CV, B-TR, B-AF
-3	서비스	O	I-TM	I-TM, O, I-CV, I-AF, I-TR
-4	##를	O	O	O, I-TM, I-CV, I-AF, I-OG
-5	먼저	O	O	O, B-TM, B-LC, B-CV, B-OG
-6	내부	O	O	O, B-TM, B-LC, B-CV, B-AF
-7	##에	O	O	O, B-LC, B-CV, B-TM, B-PS
-8	적용	O	O	O, B-LC, B-CV, B-TM, B-OG
-9	##하기	O	O	O, B-LC, B-CV, B-OG, B-PS
-10	위해	O	O	O, B-LC, B-OG, B-CV, B-TM
-11	전체	O	O	O, B-TM, B-AF, B-CV, B-OG
-12	IT	B-FD	B-FD	B-FD, O, B-TR, B-TM, B-CV
-13	장비	O	O	O, I-CV, B-CV, I-AF, I-FD
-14	중	O	O	O, B-TM, B-QT, B-LC, B-OG
-15	80	B-QT	B-QT	B-QT, I-QT, O, B-DT, B-LC
-16	%	I-QT	I-QT	I-QT, O, I-LC, I-DT, I-EV
-17	정도	I-QT	I-QT	I-QT, O, I-LC, I-DT, I-OG
-18	##를	O	O	O, I-QT, B-CV, B-TM, B-LC
-19	2012	B-DT	B-DT	B-DT, I-DT, O, B-QT, B-OG
-20	##년	I-DT	I-DT	I-DT, O, I-QT, B-DT, I-PS
-21	말	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-22	##까	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-23	##지	I-DT	I-DT	I-DT, O, I-QT, B-DT, I-PS
-24	3	B-QT	B-QT	B-QT, I-QT, I-DT, B-DT, B-EV
-25	##단	I-QT	I-QT	I-QT, O, I-DT, I-EV, B-QT
-26	##계	I-QT	I-QT	I-QT, O, I-DT, I-EV, I-LC
-27	##에	O	O	O, I-QT, I-EV, I-OG, B-CV
-28	걸쳐	O	O	O, B-LC, B-OG, B-TM, B-CV
-29	클라우드	B-TM	B-TM	B-TM, O, B-CV, B-AF, B-TR
-30	서비스	O	I-TM	I-TM, O, I-CV, I-AF, I-TR
-31	##로	O	O	O, I-TM, I-CV, I-AF, I-OG
-32	전환	O	O	O, B-CV, B-TM, B-LC, B-OG
-33	##할	O	O	O, B-CV, B-OG, B-LC, B-PS
-34	계획	O	O	O, B-CV, B-TM, B-OG, B-LC
-35	##이다	O	O	O, B-CV, B-TM, B-OG, I-OG
-36	.	O	O	O, B-LC, B-TM, B-CV, B-OG
-37	[SEP]	O	O	O, B-TM, B-LC, B-CV, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	그	O	O
+2	사이	O	O
+3	일본	B-LC	B-OG
+4	##이	O	O
+5	식민	O	O
+6	통치	O	O
+7	##를	O	O
+8	하	O	O
+9	##면	O	O
+10	##서	O	O
+11	이	O	O
+12	잘못	O	O
+13	##된	O	O
+14	역사	O	B-FD
+15	##설	O	O
+16	##명	O	O
+17	##으로	O	O
+18	[SEP]	O	O

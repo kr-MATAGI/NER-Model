@@ -1,41 +1,80 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	이전	O	O	O, B-CV, B-OG, B-LC, B-TM
-2	##에	O	O	O, B-OG, B-PS, B-LC, B-CV
-3	박사	B-OG	B-OG	B-OG, O, B-PS, B-AF, I-OG
-4	##모	I-OG	I-OG	I-OG, O, I-PS, I-AF, I-LC
-5	##와	O	O	O, I-OG, I-AF, I-PS, I-EV
-6	어버이	B-OG	B-OG	B-OG, O, I-OG, B-PS, B-AF
-7	##연합	I-OG	I-OG	I-OG, O, I-PS, I-AF, I-LC
-8	등	O	O	O, I-OG, B-PS, B-OG, B-LC
-9	##이	O	O	O, B-PS, B-OG, B-LC, I-OG
-10	설립	O	O	O, B-OG, B-AF, B-CV, B-LC
-11	##한	O	O	O, B-OG, B-PS, B-LC, I-OG
-12	'	O	O	O, B-OG, B-LC, B-CV, B-PS
-13	대통령	B-OG	B-CV	B-CV, B-OG, B-EV, B-AF, O
-14	탄핵	I-OG	I-OG	I-OG, O, I-EV, B-OG, I-AF
-15	##무	I-OG	I-OG	I-OG, O, I-EV, I-AF, I-CV
-16	##효	I-OG	I-OG	I-OG, O, I-EV, I-AF, I-CV
-17	국민	I-OG	B-OG	B-OG, I-OG, I-EV, O, B-CV
-18	##저	I-OG	I-OG	I-OG, O, I-EV, I-AF, I-CV
-19	##항	I-OG	I-OG	I-OG, O, I-EV, I-AF, I-CV
-20	##총	I-OG	I-OG	I-OG, O, I-EV, I-AF, I-CV
-21	##궐	I-OG	I-OG	I-OG, I-EV, O, I-AF, I-LC
-22	##기	I-OG	I-OG	I-OG, O, I-EV, I-AF, I-LC
-23	운동	I-OG	I-OG	I-OG, O, I-EV, B-OG, I-AF
-24	##본부	I-OG	I-OG	I-OG, O, I-EV, I-AF, I-LC
-25	(	O	O	O, I-OG, I-EV, I-AF, I-CV
-26	탄	B-OG	B-OG	B-OG, O, B-AF, B-LC, B-EV
-27	##기	I-OG	I-OG	I-OG, O, I-AF, I-LC, B-OG
-28	##국	I-OG	I-OG	I-OG, O, I-AF, I-LC, I-PS
-29	)	O	O	O, I-OG, I-AF, I-EV, I-LC
-30	'	O	O	O, B-OG, B-CV, B-LC, B-TM
-31	가	O	O	O, B-PS, B-OG, B-LC, B-AF
-32	전신	O	O	O, B-AM, B-TM, B-CV, B-AF
-33	(	O	O	O, I-CV, I-AF, I-QT, B-CV
-34	前	O	O	O, B-AM, B-PS, B-LC, B-TM
-35	身	O	O	O, B-AM, B-PS, B-LC, B-TM
-36	)	O	O	O, B-CV, B-OG, B-LC, I-AF
-37	이다	O	O	O, B-CV, B-OG, B-LC, B-QT
-38	.	O	O	O, B-OG, B-LC, B-PS, I-OG
-39	[SEP]	O	O	O, B-OG, B-LC, I-OG, B-CV
+	text	label	preds
+0	[CLS]	O	O
+1	소설가	B-CV	B-CV
+2	하	B-PS	B-PS
+3	##성	I-PS	I-PS
+4	##란	I-PS	I-PS
+5	·	O	O
+6	박민	B-PS	B-PS
+7	##규	I-PS	I-PS
+8	·	O	O
+9	조	B-PS	B-PS
+10	##해진	I-PS	I-PS
+11	·	O	O
+12	황정	B-PS	B-PS
+13	##은	I-PS	I-PS
+14	##씨	O	O
+15	등과	O	O
+16	시인	B-CV	B-CV
+17	손	B-PS	B-PS
+18	##택	I-PS	I-PS
+19	##수	I-PS	I-PS
+20	·	O	O
+21	신용	B-PS	B-PS
+22	##목	I-PS	I-PS
+23	·	O	O
+24	문	B-PS	B-PS
+25	##동	I-PS	I-PS
+26	##만	I-PS	I-PS
+27	·	O	O
+28	김선	B-PS	B-PS
+29	##재	I-PS	I-PS
+30	##씨	O	O
+31	등	O	O
+32	문인	B-CV	B-CV
+33	20	B-QT	B-QT
+34	##여	I-QT	I-QT
+35	##명	I-QT	I-QT
+36	##은	O	O
+37	18	B-DT	B-DT
+38	##일	I-DT	I-DT
+39	낮	B-TI	B-TI
+40	손	B-PS	B-PS
+41	##홍	I-PS	I-PS
+42	##규	I-PS	I-PS
+43	##씨	O	O
+44	##를	O	O
+45	소환	O	O
+46	##한	O	O
+47	서울	B-LC	B-LC
+48	남대문	B-OG	B-AF
+49	##경찰	I-OG	I-AF
+50	##서	I-OG	I-AF
+51	앞	B-TM	B-TM
+52	##에	O	O
+53	모여	O	O
+54	‘	O	O
+55	우리	B-AF	O
+56	##는	I-AF	O
+57	정권	I-AF	O
+58	##교	I-AF	O
+59	##체	I-AF	O
+60	##를	I-AF	O
+61	희망	I-AF	O
+62	##했	I-AF	O
+63	##던	I-AF	O
+64	이유로	I-AF	O
+65	돌아가	I-AF	O
+66	##려	I-AF	O
+67	합니다	I-AF	O
+68	’	O	O
+69	라는	O	O
+70	제목	O	O
+71	##의	O	O
+72	성명서	O	O
+73	##를	O	O
+74	발표	O	O
+75	##했	O	O
+76	##다	O	O
+77	.	O	O
+78	[SEP]	O	O

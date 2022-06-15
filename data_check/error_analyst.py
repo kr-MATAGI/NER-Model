@@ -8,6 +8,7 @@ import os
 
 from transformers import AutoModel, AutoTokenizer
 from bert_custom_model import BERT_LSTM_CRF, BERT_POS_LSTM
+from electra_custom_model import ELECTRA_POS_LSTM
 
 from utils.ne_tag_def import ETRI_TAG
 
@@ -15,9 +16,9 @@ from utils.ne_tag_def import ETRI_TAG
 def classify_tag_err():
     start_time = time.time()
 
-    model_path = "./model/klue-bert-base-pos"
-    model = BERT_POS_LSTM.from_pretrained(model_path)
-    tokenizer = AutoTokenizer.from_pretrained("klue/bert-base")
+    model_path = "./model/electra-pos-lstm-crf"
+    model = ELECTRA_POS_LSTM.from_pretrained(model_path)
+    tokenizer = AutoTokenizer.from_pretrained("monologg/koelectra-base-v3-discriminator")
 
     target_ids_data = np.load("./target_data/dev.npy")
     target_seq_len_data = np.load("./target_data/dev_seq_len.npy")
@@ -45,18 +46,17 @@ def classify_tag_err():
             "pos_tag_ids": torch.LongTensor([target_pos_tag_data[data_idx, :]])
         }
 
-        outputs = model(**inputs)
-        loss, logits = outputs[:2]
-        preds = logits.detach().cpu().numpy()
-        candidate_list = np.argsort(-preds, axis=-1)
+        _, outputs = model(**inputs)
+        preds = np.array(outputs)[0]
+        #candidate_list = np.argsort(-preds, axis=-1)
         #sort_preds = [ids_to_tag[x] for x in sort_preds]
-        candidate_list = [[ids_to_tag[i] for i in x] for x in candidate_list[0]]
-        preds = np.argmax(preds, axis=2)[0].tolist()
+        #candidate_list = [[ids_to_tag[i] for i in x] for x in candidate_list[0]]
+        # preds = np.argmax(preds, axis=2)[0].tolist()
 
         labels = target_ids_data[data_idx, :, 1]
         text = tokenizer.convert_ids_to_tokens(inputs["input_ids"][0])
 
-        columns = ["text", "label", "preds", "candidate"]
+        columns = ["text", "label", "preds"]
         rows_list = []
         is_error = False
         err_label_list = []
@@ -64,11 +64,11 @@ def classify_tag_err():
         for p_idx in range(inputs["input_seq_len"]):
             conv_label = ids_to_tag[labels[p_idx]]
             conv_preds = ids_to_tag[preds[p_idx]]
-            concat_candidate = ", ".join(candidate_list[p_idx][:5])
+            #concat_candidate = ", ".join(candidate_list[p_idx][:5])
             if conv_label != conv_preds:
                 err_label_list.append(conv_label.replace("B-", "").replace("I-", ""))
                 is_error = True
-            rows_list.append([text[p_idx], conv_label, conv_preds, concat_candidate])
+            rows_list.append([text[p_idx], conv_label, conv_preds])
         pd_df = pd.DataFrame(rows_list, columns=columns)
 
         if is_error:
@@ -176,8 +176,8 @@ def check_LC_OG_country():
 
 ### MAIN ###
 if "__main__" == __name__:
-    #classify_tag_err()
+    classify_tag_err()
     #check_classify_tag_size("./err_dir")
 
     # LC, OG (북한, 중국 나라명이 LC, OG) 오분류 되는 경우
-    check_LC_OG_country()
+    #check_LC_OG_country()

@@ -1,33 +1,77 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-EV, B-CV, I-OG, I-CV
-1	사고	O	O	O, B-CV, B-AF, B-TM, B-LC
-2	당시	O	O	O, B-CV, I-EV, I-AF, B-PS
-3	##의	O	O	O, B-PS, B-LC, B-CV, B-OG
-4	충격	O	O	O, B-CV, B-LC, B-TM, B-PS
-5	##으로	O	O	O, B-LC, B-CV, B-OG, B-PS
-6	함정	O	B-AF	B-AF, O, B-CV, B-OG, B-LC
-7	내부	O	O	O, B-TM, B-LC, B-AF, I-AF
-8	격	O	O	O, B-TM, B-LC, B-AF, I-TM
-9	##벽	O	O	O, B-LC, I-AF, I-TM, I-LC
-10	##이	O	O	O, B-PS, B-LC, B-OG, B-CV
-11	무너지	O	O	O, B-CV, B-TM, B-LC, B-OG
-12	##고	O	O	O, B-PS, B-CV, B-LC, I-AF
-13	,	O	O	O, B-CV, B-LC, B-TM, B-AF
-14	부유	O	O	O, B-AF, B-LC, B-TM, B-CV
-15	##물	O	O	O, I-AF, I-LC, I-CV, I-TM
-16	##과	O	O	O, B-LC, I-AF, B-PS, B-TM
-17	전선	O	O	O, B-AF, B-LC, B-TM, B-CV
-18	등	O	O	O, I-AF, B-LC, B-CV, B-PS
-19	##이	O	O	O, B-PS, B-LC, B-AF, B-OG
-20	뒤엉	O	O	O, B-LC, B-TM, B-AF, B-CV
-21	##켜	O	O	O, B-LC, I-LC, B-PS, I-AF
-22	수색	O	O	O, B-CV, B-TM, B-LC, B-OG
-23	작업	O	O	O, B-LC, B-CV, I-TM, I-EV
-24	##에	O	O	O, B-CV, B-LC, B-OG, B-PS
-25	어려움	O	O	O, B-CV, B-LC, B-TM, B-OG
-26	##을	O	O	O, B-CV, B-LC, I-AF, I-EV
-27	겪	O	O	O, B-CV, B-LC, B-OG, I-OG
-28	##었	O	O	O, B-CV, B-LC, B-OG, I-EV
-29	##다	O	O	O, B-CV, B-LC, I-EV, I-AF
-30	.	O	O	O, B-LC, B-CV, B-PS, B-AF
-31	[SEP]	O	O	O, B-LC, B-CV, B-AF, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	박	B-PS	B-PS
+2	##씨	O	O
+3	##는	O	O
+4	""""	O	O
+5	내	O	O
+6	##가	O	O
+7	모은	O	O
+8	승차	O	O
+9	##권	O	O
+10	##을	O	O
+11	사람	O	O
+12	##들	O	O
+13	##에	O	O
+14	##게	O	O
+15	나눠	O	O
+16	##주	O	O
+17	##면	O	O
+18	'	O	O
+19	고맙	O	O
+20	##다	O	O
+21	'	O	O
+22	고	O	O
+23	하	O	O
+24	##는데	O	O
+25	그	O	O
+26	말	O	O
+27	##을	O	O
+28	들	O	O
+29	##을	O	O
+30	때	O	O
+31	가장	O	O
+32	큰	O	O
+33	보람	O	O
+34	##을	O	O
+35	느꼈	O	O
+36	##다	O	O
+37	""""	O	O
+38	며	O	O
+39	""""	O	O
+40	힘들	O	O
+41	##게	O	O
+42	모은	O	O
+43	재산	O	O
+44	##도	O	O
+45	1991	B-DT	B-DT
+46	##년	I-DT	I-DT
+47	교통	O	B-OG
+48	##문화	O	I-OG
+49	##의식	O	I-OG
+50	##개혁	O	I-OG
+51	##운동	O	I-OG
+52	##본부	O	I-OG
+53	##를	O	O
+54	만들	O	O
+55	##고	O	O
+56	승차	O	O
+57	##권	O	O
+58	전시회	O	O
+59	등	O	O
+60	문화	O	O
+61	##행사	O	O
+62	##를	O	O
+63	열	O	O
+64	##면	O	O
+65	##서	O	O
+66	다	O	O
+67	써	O	O
+68	##버렸	O	O
+69	##다	O	O
+70	""""	O	O
+71	고	O	O
+72	했	O	O
+73	##다	O	O
+74	.	O	O
+75	[SEP]	O	O

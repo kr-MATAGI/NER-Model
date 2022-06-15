@@ -1,56 +1,12 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-AF, I-CV
-1	서울대	B-OG	B-OG	B-OG, B-LC, B-PS, B-AF, O
-2	##가	O	O	O, I-OG, B-PS, B-OG, I-AF
-3	관악	B-LC	B-LC	B-LC, B-AF, O, B-OG, B-EV
-4	##캠	O	O	O, I-AF, I-LC, I-OG, I-EV
-5	##퍼스	O	O	O, I-AF, I-LC, I-OG, I-EV
-6	##에	O	O	O, I-AF, I-OG, I-LC, I-EV
-7	신축	O	O	O, B-AF, B-OG, B-LC, B-TM
-8	##하	O	O	O, B-AF, B-OG, I-AF, B-LC
-9	##는	O	O	O, B-AF, B-LC, B-OG, B-CV
-10	치	B-FD	B-FD	B-FD, O, B-OG, B-AF, B-CV
-11	##의학	I-FD	I-FD	I-FD, O, I-OG, I-AF, B-FD
-12	##대	O	O	O, I-OG, I-FD, I-AF, I-LC
-13	##학	O	O	O, I-OG, I-AF, I-LC, I-FD
-14	##원	O	O	O, I-OG, I-AF, I-LC, I-FD
-15	첨단	B-LC	B-LC	B-LC, O, B-AF, B-TM, B-OG
-16	##복	I-LC	I-LC	I-LC, O, I-AF, B-LC, I-OG
-17	##합	I-LC	I-LC	I-LC, O, I-AF, I-OG, B-LC
-18	##연구	I-LC	I-LC	I-LC, O, I-AF, I-OG, I-QT
-19	##단지	I-LC	I-LC	I-LC, O, I-AF, I-QT, I-OG
-20	및	O	O	O, I-AF, I-LC, I-OG, B-AF
-21	치과	B-FD	B-FD	B-FD, O, B-OG, B-CV, B-AF
-22	##병원	O	O	O, I-OG, I-FD, I-AF, I-LC
-23	첨단	O	B-AF	B-AF, O, B-OG, B-FD, I-AF
-24	##치	B-FD	I-AF	I-AF, O, I-OG, I-FD, I-LC
-25	##과	I-FD	I-AF	I-AF, O, I-OG, I-FD, I-LC
-26	##의	O	I-AF	I-AF, O, I-OG, I-LC, I-FD
-27	##료	O	I-AF	I-AF, O, I-OG, I-LC, I-FD
-28	##센터	O	I-AF	I-AF, O, I-OG, I-LC, I-QT
-29	##는	O	O	O, I-AF, I-OG, I-EV, B-CV
-30	교육	O	O	O, B-FD, I-AF, B-LC, I-OG
-31	·	O	O	O, I-OG, I-AF, I-LC, I-FD
-32	연구	O	O	O, I-FD, I-OG, I-LC, I-AF
-33	##를	O	O	O, I-OG, I-AF, B-PS, B-CV
-34	위한	O	O	O, B-LC, B-OG, B-AF, B-TM
-35	치과	B-FD	B-FD	B-FD, O, B-OG, B-CV, I-FD
-36	##대	O	O	O, I-OG, I-FD, I-AF, I-CV
-37	##학	O	O	O, I-OG, I-FD, I-AF, I-CV
-38	##원	O	O	O, I-OG, I-FD, I-AF, I-CV
-39	##과	O	O	O, B-AF, B-OG, B-LC, B-TM
-40	임상	O	O	O, B-FD, B-TR, B-CV, B-TM
-41	##실	O	O	O, I-TR, I-FD, I-CV, I-TM
-42	##습	O	O	O, I-TR, I-FD, I-CV, I-TM
-43	·	O	O	O, I-TR, I-FD, I-TM, I-LC
-44	진료	O	O	O, I-TR, I-FD, I-TM, I-CV
-45	##를	O	O	O, B-CV, I-AF, I-OG, B-OG
-46	위한	O	O	O, B-LC, B-OG, B-AF, B-TM
-47	치과	O	B-FD	B-FD, O, B-OG, B-CV, I-FD
-48	##병원	O	O	O, I-OG, I-FD, I-AF, I-CV
-49	##으로	O	O	O, I-OG, B-OG, B-TM, B-CV
-50	이루어져	O	O	O, B-OG, B-TM, B-LC, B-AF
-51	있	O	O	O, B-OG, B-AF, I-OG, B-LC
-52	##다	O	O	O, B-CV, I-OG, I-AF, B-OG
-53	.	O	O	O, B-LC, B-OG, B-AF, B-PS
-54	[SEP]	O	O	O, B-AF, B-LC, B-OG, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	국제법	B-CV	B-CV
+2	##이	O	O
+3	##랄	O	O
+4	##지	O	O
+5	국제	B-FD	O
+6	##정	I-FD	O
+7	##치	I-FD	O
+8	##랄	O	O
+9	##지	O	O
+10	[SEP]	O	O

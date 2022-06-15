@@ -1,40 +1,79 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	또	O	O	O, B-CV, B-OG, B-TM, B-QT
-2	군수	O	O	O, B-CV, B-TM, B-PT, B-OG
-3	##경제	O	O	O, I-CV, I-TM, I-FD, B-CV
-4	##를	O	O	O, I-CV, B-PS, B-CV, I-OG
-5	담당	O	O	O, B-CV, B-TM, B-OG, B-LC
-6	##하	O	O	O, B-PS, B-CV, B-LC, I-CV
-7	##는	O	O	O, B-CV, B-PS, B-LC, B-QT
-8	백	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-9	##세	I-PS	I-PS	I-PS, O, I-OG, B-PS, I-LC
-10	##봉	I-PS	I-PS	I-PS, O, I-OG, B-PS, I-LC
-11	제	B-QT	B-CV	B-CV, B-QT, O, B-OG, B-TM
-12	##2	I-QT	I-CV	I-CV, I-QT, B-CV, O, I-OG
-13	##경제	B-CV	I-CV	I-CV, B-CV, I-QT, O, I-OG
-14	##위원	I-CV	I-CV	I-CV, B-CV, I-QT, O, I-OG
-15	##장	I-CV	I-CV	I-CV, B-CV, I-QT, O, I-OG
-16	##을	O	O	O, I-CV, I-QT, I-OG, B-CV
-17	포함	O	O	O, B-CV, B-QT, B-TM, B-DT
-18	##해	O	O	O, B-PS, B-LC, B-OG, B-QT
-19	세	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-EV
-20	명	I-QT	I-QT	I-QT, O, I-EV, I-LC, I-PS
-21	모두	O	O	O, I-QT, I-EV, I-DT, B-DT
-22	로켓	B-AF	B-AF	B-AF, B-EV, O, B-LC, B-TM
-23	폭발	O	I-EV	I-EV, O, I-AF, I-DT, B-EV
-24	당일	O	O	O, I-EV, I-DT, B-DT, I-AF
-25	열린	O	O	O, B-EV, I-EV, B-DT, B-OG
-26	최고	B-EV	B-EV	B-EV, O, B-OG, I-EV, B-AF
-27	##인	I-EV	I-EV	I-EV, O, I-OG, I-AF, I-DT
-28	##민	I-EV	I-EV	I-EV, O, I-OG, I-AF, I-LC
-29	##회의	I-EV	I-EV	I-EV, O, I-OG, I-AF, I-LC
-30	##에서	O	O	O, I-EV, I-DT, I-OG, I-AF
-31	국방위	B-CV	B-CV	B-CV, O, B-OG, B-TM, B-QT
-32	##원	I-CV	I-CV	I-CV, O, B-CV, I-QT, I-OG
-33	##에	O	O	O, I-CV, I-QT, I-OG, I-EV
-34	유임	O	O	O, B-CV, B-OG, B-QT, B-TM
-35	##됐	O	O	O, B-CV, B-PS, B-OG, I-OG
-36	##다	O	O	O, B-CV, I-OG, B-QT, B-TM
-37	.	O	O	O, B-LC, B-PS, B-CV, B-OG
-38	[SEP]	O	O	O, B-CV, B-LC, B-PS, I-EV
+	text	label	preds
+0	[CLS]	O	O
+1	유기	B-PS	B-PS
+2	##상	I-PS	I-PS
+3	도	B-CV	B-OG
+4	문화	I-CV	B-CV
+5	##관광	I-CV	I-CV
+6	##국장	I-CV	I-CV
+7	##은	O	O
+8	“	O	O
+9	축제	O	O
+10	##기	O	O
+11	##간	O	O
+12	##에	O	O
+13	하루	B-DT	B-DT
+14	평균	O	O
+15	3	B-QT	B-QT
+16	##만	I-QT	I-QT
+17	##명	I-QT	I-QT
+18	##씩	I-QT	I-QT
+19	,	O	O
+20	모두	O	O
+21	21	B-QT	B-QT
+22	##만	I-QT	I-QT
+23	##명	I-QT	I-QT
+24	##이	O	O
+25	방문	O	O
+26	##해	O	O
+27	경제	O	O
+28	##적	O	O
+29	파급	O	O
+30	##효과	O	O
+31	##가	O	O
+32	800	B-QT	B-QT
+33	##억	I-QT	I-QT
+34	##원	I-QT	I-QT
+35	##에	O	O
+36	달	O	O
+37	##할	O	O
+38	것	O	O
+39	##으로	O	O
+40	보인다	O	O
+41	”	O	O
+42	며	O	O
+43	“	O	O
+44	축제	O	O
+45	##가	O	O
+46	성공	O	O
+47	##적	O	O
+48	##으로	O	O
+49	끝	O	O
+50	##나	O	O
+51	##면	O	O
+52	2011	B-DT	B-DT
+53	##년	I-DT	I-DT
+54	##과	O	O
+55	2012	B-DT	B-DT
+56	##년	I-DT	I-DT
+57	##에도	O	O
+58	전북	B-LC	B-LC
+59	##에	O	O
+60	##서	O	O
+61	다시	O	O
+62	개최	O	O
+63	##하	O	O
+64	##기	O	O
+65	##로	O	O
+66	위원회	O	O
+67	##와	O	O
+68	협의	O	O
+69	##했	O	O
+70	##다	O	O
+71	”	O	O
+72	고	O	O
+73	말	O	O
+74	##했	O	O
+75	##다	O	O
+76	.	O	O
+77	[SEP]	O	O

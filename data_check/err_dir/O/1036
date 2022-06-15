@@ -1,43 +1,16 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-AF
-1	트	B-AF	B-AF	B-AF, O, B-FD, I-AF, B-TM
-2	##럼	I-AF	I-AF	I-AF, O, I-FD, B-AF, I-OG
-3	##펫	I-AF	I-AF	I-AF, O, I-FD, I-OG, I-TM
-4	##과	O	O	O, I-AF, I-OG, I-EV, I-QT
-5	트	B-AF	B-AF	B-AF, O, I-AF, B-FD, B-TM
-6	##롬	I-AF	I-AF	I-AF, O, I-TM, I-OG, I-CV
-7	##본	I-AF	I-AF	I-AF, O, I-TM, I-CV, I-OG
-8	,	O	O	O, I-AF, I-OG, I-TM, I-CV
-9	튜	O	O	O, B-CV, B-AF, B-AM, B-LC
-10	##바로	O	O	O, I-AF, B-PS, I-CV, I-LC
-11	이뤄진	O	O	O, B-AF, B-PS, B-TM, B-OG
-12	금관	O	B-AF	B-AF, O, B-FD, I-AF, B-MT
-13	##들	O	O	O, I-AF, I-OG, I-CV, I-EV
-14	##은	O	O	O, B-CV, I-AF, B-LC, B-OG
-15	거칠	O	O	O, B-TM, B-LC, B-CV, B-PS
-16	##게	O	O	O, B-PS, B-LC, I-LC, B-TM
-17	숨	O	O	O, B-TM, B-LC, B-PS, B-AM
-18	##을	O	O	O, B-CV, B-PS, B-LC, B-TM
-19	뿜어내	O	O	O, B-LC, B-AF, B-PS, B-CV
-20	##면서	O	O	O, B-PS, B-LC, B-CV, B-OG
-21	##도	O	O	O, B-PS, B-LC, B-CV, B-OG
-22	고른	O	O	O, B-LC, B-PS, B-TM, B-OG
-23	음	O	O	O, B-PS, B-TM, B-LC, B-CV
-24	##으로	O	O	O, B-PS, B-LC, B-OG, B-CV
-25	공연장	O	O	O, B-CV, B-LC, B-AF, B-TM
-26	##을	O	O	O, B-PS, B-CV, I-AF, B-LC
-27	감싸	O	O	O, B-CV, B-PS, B-LC, B-TM
-28	##며	O	O	O, B-LC, B-CV, B-PS, B-OG
-29	청중	B-CV	B-CV	B-CV, O, B-OG, B-AF, I-CV
-30	##의	O	O	O, I-CV, I-AF, B-CV, I-OG
-31	가슴	B-AM	B-AM	B-AM, O, B-TM, B-TR, B-PS
-32	##을	O	O	O, I-AF, I-QT, B-CV, I-CV
-33	시원	O	O	O, B-TM, B-CV, B-LC, B-QT
-34	##하	O	O	O, B-PS, B-LC, B-TM, B-OG
-35	##게	O	O	O, B-LC, B-QT, B-PS, B-OG
-36	뚫	O	O	O, B-CV, B-QT, B-TM, B-PS
-37	##어	O	O	O, B-PS, B-CV, I-QT, B-LC
-38	##줬	O	O	O, B-CV, B-PS, I-QT, B-LC
-39	##다	O	O	O, B-CV, B-LC, I-QT, I-EV
-40	.	O	O	O, B-LC, B-PS, B-CV, B-AF
-41	[SEP]	O	O	O, B-CV, B-LC, B-PS, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	되게	O	O
+2	피곤	O	O
+3	##한	O	O
+4	할	O	B-CV
+5	##머	O	I-CV
+6	##닌	O	I-CV
+7	##데	O	O
+8	뭔가	O	O
+9	사연	O	O
+10	##이	O	O
+11	숨겨져	O	O
+12	있	O	O
+13	##는	O	O
+14	[SEP]	O	O

@@ -1,29 +1,12 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	보통	O	O	O, B-CV, B-OG, B-TM, B-LC
-2	안전	B-CV	B-CV	B-CV, O, B-OG, I-CV, B-TM
-3	##요	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-QT
-4	##원	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-QT
-5	##들이	O	O	O, I-CV, I-OG, I-QT, B-CV
-6	전시회	O	O	O, B-EV, B-CV, B-AF, B-TM
-7	로고	O	O	O, B-TM, B-CV, B-AF, I-EV
-8	##가	O	O	O, B-PS, B-LC, B-CV, I-AF
-9	새겨진	O	O	O, B-TM, B-LC, B-CV, B-AF
-10	단체	O	O	O, B-CV, B-AF, B-TM, B-EV
-11	티셔츠	B-CV	B-CV	B-CV, O, I-CV, B-AF, B-PT
-12	##를	O	O	O, I-CV, I-AF, B-CV, I-OG
-13	입	O	O	O, B-CV, B-LC, B-TM, B-PS
-14	##고	O	O	O, B-CV, B-PS, B-LC, B-AF
-15	어두운	O	B-TM	B-TM, O, B-LC, B-OG, B-CV
-16	색	O	I-TM	I-TM, O, B-TM, I-QT, I-LC
-17	바지	O	O	O, B-CV, I-CV, I-TM, B-AM
-18	##를	O	O	O, I-CV, B-CV, I-AF, I-OG
-19	입	O	O	O, B-CV, B-LC, B-PS, B-TM
-20	##는	O	O	O, B-CV, I-CV, B-LC, B-PS
-21	것	O	O	O, B-CV, B-LC, B-TM, B-AF
-22	##과	O	O	O, B-CV, I-CV, B-TM, I-AF
-23	##는	O	O	O, B-LC, B-CV, B-OG, B-TM
-24	다르	O	O	O, B-CV, B-LC, B-OG, B-TM
-25	##다	O	O	O, B-CV, I-OG, B-LC, B-TM
-26	.	O	O	O, B-LC, B-CV, B-PS, B-AF
-27	[SEP]	O	O	O, B-CV, B-LC, I-AF, B-AF
+	text	label	preds
+0	[CLS]	O	O
+1	그러니까	O	O
+2	논문	O	O
+3	##일	O	B-QT
+4	반쪽	O	I-QT
+5	밖에	O	O
+6	안	O	O
+7	##되	O	O
+8	##죠	O	O
+9	.	O	O
+10	[SEP]	O	O

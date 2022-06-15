@@ -1,17 +1,41 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	언니	B-CV	B-CV	B-CV, O, B-TM, B-AF, I-CV
-2	만나	O	O	O, I-CV, B-CV, I-AF, I-EV
-3	##러	O	O	O, I-AF, B-LC, I-CV, B-PS
-4	가	O	O	O, B-CV, B-LC, B-TM, B-AF
-5	##겠다	O	O	O, B-CV, B-LC, B-TM, I-AF
-6	##고	O	O	O, B-PS, B-LC, B-CV, I-CV
-7	언니	B-CV	B-CV	B-CV, O, B-TM, B-AF, B-OG
-8	시조	B-CV	B-TM	B-TM, B-TR, B-CV, O, B-EV
-9	##모	I-CV	I-TM	I-TM, I-CV, I-TR, O, I-EV
-10	##상	O	I-TM	I-TM, I-TR, I-CV, O, I-EV
-11	이제	O	O	O, I-TM, I-CV, I-EV, I-QT
-12	당해	O	O	O, B-CV, B-LC, B-TM, B-OG
-13	##갖	O	O	O, I-OG, B-PS, B-CV, I-CV
-14	##고	O	O	O, B-CV, I-OG, I-AF, B-LC
-15	[SEP]	O	O	O, B-CV, B-LC, B-TM, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	특히	O	O
+2	바닥	O	O
+3	표	O	O
+4	##심	O	O
+5	##을	O	O
+6	얻	O	O
+7	##기	O	O
+8	위해	O	O
+9	원내	O	O
+10	·	O	O
+11	원외	O	O
+12	##대표	O	B-CV
+13	,	O	O
+14	자치	O	B-CV
+15	##분	O	I-CV
+16	##권	O	I-CV
+17	##대표	O	B-CV
+18	·	O	O
+19	최고위	B-CV	B-CV
+20	##원	I-CV	I-CV
+21	등	O	O
+22	지도	O	O
+23	##체	O	O
+24	##제	O	O
+25	확대	O	O
+26	##와	O	O
+27	온라인	O	O
+28	플랫폼	O	O
+29	정당	O	O
+30	##을	O	O
+31	통한	O	O
+32	외연	O	O
+33	확장	O	O
+34	##을	O	O
+35	강조	O	O
+36	##했	O	O
+37	##다	O	O
+38	.	O	O
+39	[SEP]	O	O

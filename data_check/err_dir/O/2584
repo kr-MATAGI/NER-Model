@@ -1,26 +1,44 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	저	O	O	O, B-CV, B-OG, B-LC, B-TM
-2	##는	O	O	O, B-CV, B-OG, B-PS, B-LC
-3	정확히	O	O	O, B-CV, B-LC, B-TM, B-OG
-4	얘기	O	O	O, B-CV, B-PS, I-CV, B-LC
-5	##하면	O	O	O, B-CV, B-LC, B-PS, B-OG
-6	소년	B-CV	B-CV	B-CV, O, B-OG, I-CV, B-AF
-7	##법	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-AF
-8	개정	O	O	O, I-CV, B-CV, I-OG, I-EV
-9	##이	O	O	O, B-PS, B-CV, I-CV, B-OG
-10	##라기	O	O	O, B-CV, B-OG, B-PS, B-LC
-11	보다	O	O	O, B-CV, B-PS, B-OG, B-LC
-12	##는	O	O	O, B-CV, B-OG, B-LC, B-PS
-13	형사	O	B-CV	B-CV, O, B-OG, B-TM, B-AF
-14	##미	O	I-CV	I-CV, B-CV, O, I-QT, I-OG
-15	##성	O	I-CV	I-CV, O, B-CV, I-OG, I-QT
-16	##년	O	I-CV	I-CV, O, B-CV, I-OG, I-QT
-17	##자	O	I-CV	I-CV, O, B-CV, I-OG, I-QT
-18	인하	O	O	O, I-CV, B-CV, I-OG, I-QT
-19	어	O	O	O, B-CV, B-TM, B-OG, I-CV
-20	연령	O	O	O, B-CV, B-LC, B-TM, B-OG
-21	낮추	O	O	O, B-CV, I-CV, B-PS, B-OG
-22	##는	O	O	O, B-CV, B-PS, B-OG, B-LC
-23	거	O	O	O, B-CV, B-OG, B-LC, B-PS
-24	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	최	B-PS	B-PS
+2	감독	B-CV	B-CV
+3	##의	O	O
+4	전폭	O	O
+5	##적	O	O
+6	##인	O	O
+7	지지	O	O
+8	아래	O	O
+9	올	B-DT	B-DT
+10	시즌	I-DT	I-DT
+11	25	B-QT	B-QT
+12	##경기	I-QT	I-QT
+13	##에	O	O
+14	출전	O	O
+15	##해	O	O
+16	8	B-QT	B-QT
+17	##골	I-QT	I-QT
+18	2	B-QT	B-QT
+19	##도	I-QT	I-QT
+20	##움	I-QT	I-QT
+21	##을	O	O
+22	기록	O	O
+23	##했	O	O
+24	##고	O	O
+25	주간	O	B-DT
+26	베스트	B-QT	B-QT
+27	##11	I-QT	I-QT
+28	##과	O	O
+29	경기	O	O
+30	최우수	B-CV	B-CV
+31	##선	I-CV	I-CV
+32	##수	I-CV	I-CV
+33	##에도	O	O
+34	각각	B-QT	B-QT
+35	6	I-QT	I-QT
+36	##차례	I-QT	I-QT
+37	##나	O	O
+38	선정	O	O
+39	##됐	O	O
+40	##다	O	O
+41	.	O	O
+42	[SEP]	O	O

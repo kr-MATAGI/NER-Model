@@ -1,23 +1,23 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	이	B-PS	O	O, B-PS, B-OG, B-AF, B-CV
-2	가이드라인	O	O	O, B-CV, B-PS, B-AF, I-CV
-3	##은	O	O	O, I-CV, B-CV, B-PS, I-AF
-4	세계	O	O	O, B-LC, B-CV, B-OG, B-PS
-5	각국	O	O	O, B-LC, B-OG, B-PS, B-CV
-6	##의	O	O	O, B-CV, B-OG, B-PS, B-LC
-7	개인	B-CV	O	O, B-CV, I-CV, B-FD, B-TR
-8	##정보	I-CV	O	O, I-CV, B-CV, I-TR, I-FD
-9	보호	I-CV	O	O, I-CV, B-CV, I-FD, I-TR
-10	법제	I-CV	O	O, I-CV, B-CV, B-FD, I-FD
-11	##와	O	O	O, I-CV, B-CV, B-PS, B-OG
-12	정보	B-FD	O	O, B-FD, B-TR, B-CV, B-OG
-13	##통신	I-FD	O	O, I-FD, I-CV, I-TR, I-OG
-14	정책	O	O	O, I-CV, B-CV, I-FD, B-FD
-15	##의	O	O	O, B-PS, I-CV, B-CV, B-LC
-16	모태	O	O	O, B-CV, B-LC, B-QT, B-TM
-17	##가	O	O	O, B-CV, B-PS, I-OG, I-CV
-18	됐	O	O	O, B-CV, B-LC, B-TM, B-QT
-19	##다	O	O	O, B-CV, B-TM, B-LC, B-OG
-20	.	O	O	O, B-CV, B-LC, B-FD, B-PS
-21	[SEP]	O	O	O, B-CV, B-LC, B-FD, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	[	O	O
+2	최순	B-PS	B-EV
+3	##실	I-PS	I-EV
+4	국정	O	I-EV
+5	##농	O	I-EV
+6	##단	O	I-EV
+7	중간	O	O
+8	점검	O	O
+9	]	O	O
+10	(	O	O
+11	4	B-QT	B-QT
+12	·	O	O
+13	끝	O	O
+14	)	O	O
+15	朴	B-PS	B-PS
+16	대통령	B-CV	B-CV
+17	비선	O	O
+18	##진	O	O
+19	##료	O	O
+20	논란	O	O
+21	[SEP]	O	O

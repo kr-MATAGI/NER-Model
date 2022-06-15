@@ -1,30 +1,53 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	그해	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-2	을사	B-EV	B-OG	B-OG, B-EV, O, B-AF, I-OG
-3	##늑	I-EV	I-OG	I-OG, I-EV, O, I-AF, I-CV
-4	##약	I-EV	I-OG	I-OG, I-EV, O, I-AF, I-CV
-5	##으로	O	O	O, I-OG, I-EV, I-AF, I-CV
-6	조선	B-LC	B-LC	B-LC, B-OG, O, B-PS, B-DT
-7	##의	O	O	O, I-OG, I-LC, I-DT, I-AF
-8	외교	O	B-CV	B-CV, O, I-CV, B-AF, B-TM
-9	##권	O	I-CV	I-CV, O, I-OG, B-CV, I-TM
-10	##을	O	O	O, I-CV, I-OG, B-CV, I-AF
-11	박탈	O	O	O, B-CV, B-LC, B-OG, B-PS
-12	##하고	O	O	O, B-LC, B-PS, B-OG, B-CV
-13	통감	B-OG	B-OG	B-OG, B-AF, O, B-CV, B-EV
-14	##부	I-OG	I-OG	I-OG, O, I-AF, I-CV, I-EV
-15	##를	O	O	O, I-OG, I-AF, I-CV, I-EV
-16	설치	O	O	O, B-OG, B-LC, B-CV, B-PS
-17	##한	O	O	O, B-LC, B-OG, B-PS, I-OG
-18	일본	B-OG	B-LC	B-LC, B-OG, O, B-PS, I-OG
-19	##은	O	O	O, I-OG, I-LC, B-LC, B-OG
-20	사실상	O	O	O, B-LC, B-OG, B-CV, B-PS
-21	조선	B-LC	B-LC	B-LC, B-OG, O, B-PS, B-DT
-22	##을	O	O	O, I-LC, I-OG, I-AF, B-LC
-23	식민지	O	O	O, B-LC, B-OG, B-CV, B-EV
-24	##화	O	O	O, I-LC, B-LC, I-OG, I-EV
-25	##했	O	O	O, B-LC, B-PS, I-LC, B-OG
-26	##다	O	O	O, B-CV, B-LC, I-OG, B-OG
-27	.	O	O	O, B-LC, B-OG, B-PS, B-CV
-28	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	박	B-PS	B-PS
+2	후보	B-CV	B-CV
+3	##는	O	O
+4	서울	B-LC	B-LC
+5	강남구	B-LC	B-LC
+6	코엑스	B-LC	B-LC
+7	##몰	I-LC	I-LC
+8	광장	I-LC	I-LC
+9	유세	O	O
+10	##에	O	O
+11	##서	O	O
+12	“	O	O
+13	당선	O	O
+14	직후	O	O
+15	##부터	O	O
+16	새	O	O
+17	정부	B-OG	B-OG
+18	##가	O	O
+19	출범	O	O
+20	##하	O	O
+21	##기	O	O
+22	##까	O	O
+23	##지	O	O
+24	여야	O	O
+25	지도자	B-CV	B-CV
+26	##가	O	O
+27	만나	O	O
+28	대한민국	B-LC	B-LC
+29	##의	O	O
+30	새	O	O
+31	틀	O	O
+32	##을	O	O
+33	짜	O	O
+34	##기	O	O
+35	위한	O	O
+36	‘	O	O
+37	국가	B-EV	B-CV
+38	##지도	I-EV	I-CV
+39	##자	I-EV	I-CV
+40	연석회의	I-EV	I-EV
+41	’	O	O
+42	를	O	O
+43	제안	O	O
+44	##한다	O	O
+45	”	O	O
+46	고	O	O
+47	말	O	O
+48	##했	O	O
+49	##다	O	O
+50	.	O	O
+51	[SEP]	O	O

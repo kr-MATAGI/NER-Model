@@ -1,44 +1,19 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	신임	O	O	O, B-CV, B-PS, B-OG, B-EV
-2	한은	B-OG	B-OG	B-OG, B-PS, B-AF, B-CV, I-OG
-3	총재	B-CV	B-CV	B-CV, I-CV, I-OG, I-EV, O
-4	##의	O	O	O, I-CV, I-OG, I-EV, B-CV
-5	경제	O	O	O, B-CV, B-FD, B-TR, B-PS
-6	인식	O	O	O, B-PS, I-CV, B-CV, I-OG
-7	##과	O	O	O, B-PS, B-OG, B-CV, B-LC
-8	경기	O	O	O, B-CV, B-FD, B-TR, B-PS
-9	전망	O	O	O, I-CV, B-PS, B-CV, I-TR
-10	,	O	O	O, B-PS, B-CV, B-OG, B-LC
-11	통화	B-CV	O	O, B-CV, I-CV, B-OG, B-FD
-12	##정책	I-CV	O	O, I-CV, B-CV, I-TR, I-OG
-13	방향	O	O	O, I-CV, B-PS, B-CV, I-OG
-14	##이	O	O	O, B-PS, B-OG, B-CV, B-LC
-15	나오	O	O	O, B-CV, B-OG, B-PS, B-TM
-16	##면서	O	O	O, B-CV, B-PS, B-OG, B-LC
-17	시장	O	O	O, B-CV, B-PS, B-OG, B-FD
-18	##에서	O	O	O, B-CV, B-PS, I-CV, B-OG
-19	##는	O	O	O, B-CV, B-PS, B-OG, B-LC
-20	적어도	O	O	O, B-DT, B-QT, B-CV, B-PS
-21	3	B-DT	B-DT	B-DT, I-DT, O, B-QT, B-EV
-22	##분	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-OG
-23	##기	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-OG
-24	##까	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-OG
-25	##지	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-OG
-26	금리	O	O	O, B-CV, I-DT, B-TM, B-OG
-27	##를	O	O	O, B-CV, B-OG, I-CV, B-TM
-28	올리	O	O	O, B-CV, B-OG, B-PS, B-LC
-29	##지	O	O	O, B-CV, B-PS, B-OG, B-LC
-30	않	O	O	O, B-CV, B-PS, B-OG, B-LC
-31	##을	O	O	O, B-CV, B-PS, B-OG, B-LC
-32	것	O	O	O, B-CV, B-PS, B-OG, B-LC
-33	##으로	O	O	O, B-CV, B-PS, B-OG, B-QT
-34	보	O	O	O, B-CV, B-OG, B-PS, B-TM
-35	##는	O	O	O, B-PS, B-CV, B-OG, B-LC
-36	시각	O	O	O, B-CV, B-TR, B-PS, B-TM
-37	##이	O	O	O, B-PS, B-CV, B-OG, I-CV
-38	우세	O	O	O, B-CV, B-OG, B-TM, B-QT
-39	##하	O	O	O, B-PS, I-OG, B-CV, I-CV
-40	##다	O	O	O, B-CV, I-OG, B-OG, B-TM
-41	.	O	O	O, B-CV, B-PS, B-OG, B-LC
-42	[SEP]	O	O	O, B-CV, B-PS, B-OG, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	현지	O	O
+2	##어	O	O
+3	타	B-CV	O
+4	##타	I-CV	O
+5	(	O	O
+6	T	O	O
+7	##ata	O	O
+8	)	O	O
+9	는	O	O
+10	'	O	O
+11	아버지	B-CV	B-CV
+12	'	O	O
+13	를	O	O
+14	뜻	O	O
+15	##한다	O	O
+16	.	O	O
+17	[SEP]	O	O

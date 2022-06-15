@@ -1,41 +1,36 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	‘	O	O	O, B-CV, B-LC, B-OG, B-DT
-2	신창	O	O	O, B-TR, B-PS, B-TM, B-EV
-3	##타이	O	O	O, I-TR, I-AF, I-TM, I-PS
-4	(	O	O	O, I-AF, I-CV, B-CV, I-TR
-5	新	O	O	O, B-LC, B-PS, B-TR, B-DT
-6	常	O	O	O, B-PS, B-LC, B-TR, B-CV
-7	[UNK]	O	O	O, B-PS, B-LC, B-DT, B-CV
-8	)	O	O	O, B-LC, B-CV, B-OG, B-PS
-9	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-10	’	O	O	O, B-CV, B-LC, B-PS, B-OG
-11	2008	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-QT
-12	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
-13	금융	O	B-DT	B-DT, I-DT, O, B-EV, B-AF
-14	##위	O	I-DT	I-DT, O, I-EV, B-DT, I-QT
-15	##기	O	I-DT	I-DT, O, B-DT, I-EV, I-QT
-16	이후	O	I-DT	I-DT, O, I-EV, B-DT, I-QT
-17	세계	O	O	O, B-LC, I-DT, B-CV, B-OG
-18	경제	O	O	O, B-FD, B-LC, B-CV, B-TR
-19	##를	O	O	O, B-CV, B-LC, B-PS, B-OG
-20	일컫	O	O	O, B-CV, B-LC, B-QT, B-TM
-21	##는	O	O	O, B-LC, B-PS, B-CV, B-OG
-22	‘	O	O	O, B-LC, B-CV, B-DT, B-OG
-23	뉴	O	O	O, B-TR, B-PS, B-CV, B-EV
-24	노	O	O	O, I-TR, B-TR, I-EV, I-TM
-25	##멀	O	O	O, I-TR, B-TR, I-TM, I-EV
-26	(	O	O	O, I-TR, I-EV, B-CV, I-CV
-27	New	O	O	O, B-LC, B-PS, B-DT, B-TR
-28	No	O	O	O, B-LC, B-PS, I-DT, B-DT
-29	##r	O	O	O, B-LC, B-PS, B-DT, I-DT
-30	##ma	O	O	O, B-LC, B-PS, I-LC, I-DT
-31	##l	O	O	O, B-LC, I-LC, I-DT, B-PS
-32	)	O	O	O, B-LC, B-CV, B-OG, I-DT
-33	’	O	O	O, B-CV, B-LC, B-PS, B-OG
-34	의	O	O	O, B-LC, B-PS, B-CV, B-OG
-35	중국식	O	O	O, B-CV, B-LC, B-TM, B-TR
-36	표현	O	O	O, I-CV, B-CV, B-QT, B-FD
-37	##이다	O	O	O, I-CV, B-CV, I-QT, B-TM
-38	.	O	O	O, B-LC, B-CV, B-FD, B-PS
-39	[SEP]	O	O	O, B-LC, B-CV, B-FD, B-DT
+	text	label	preds
+0	[CLS]	O	O
+1	청와대	B-AF	B-AF
+2	인근	O	O
+3	구청	O	O
+4	##이나	O	O
+5	주민	O	O
+6	##센터	O	O
+7	##에	O	O
+8	##서도	O	O
+9	조회	O	O
+10	##가	O	O
+11	가능	O	O
+12	##한	O	O
+13	가족	O	B-CV
+14	##부	O	O
+15	##를	O	O
+16	서초구	B-OG	B-OG
+17	##청	I-OG	I-OG
+18	##까	O	O
+19	##지	O	O
+20	찾아와	O	O
+21	조회	O	O
+22	##를	O	O
+23	요청	O	O
+24	##한	O	O
+25	이유	O	O
+26	##가	O	O
+27	석연	O	O
+28	##찮	O	O
+29	##다고	O	O
+30	보고	O	O
+31	있	O	O
+32	##다	O	O
+33	.	O	O
+34	[SEP]	O	O

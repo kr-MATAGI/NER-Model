@@ -1,23 +1,49 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-QT
-1	오	B-QT	B-QT	B-QT, O, B-DT, B-TI, B-EV
-2	##십	I-QT	I-QT	I-QT, O, I-DT, I-EV, I-TI
-3	##여	I-QT	I-QT	I-QT, O, I-DT, B-QT, I-TI
-4	차례	I-QT	I-QT	I-QT, O, I-DT, I-EV, I-TI
-5	말	B-AM	O	O, B-AM, I-QT, B-AF, B-TM
-6	##을	O	O	O, I-AF, B-PS, I-QT, B-AM
-7	휘몰	O	O	O, B-AM, B-PS, B-LC, B-CV
-8	##던	O	O	O, B-PS, B-LC, B-CV, I-PS
-9	남녀	O	O	O, B-CV, B-PS, B-TM, B-LC
-10	##가	O	O	O, B-PS, B-CV, B-LC, B-OG
-11	기사	O	B-CV	B-CV, O, B-AF, I-CV, B-PS
-12	(	O	O	O, I-CV, B-PS, I-AF, B-CV
-13	[UNK]	O	O	O, B-CV, B-LC, B-PS, B-OG
-14	[UNK]	O	O	O, B-CV, B-LC, B-PS, B-OG
-15	)	O	O	O, B-CV, B-LC, B-PS, B-OG
-16	자세	O	O	O, B-CV, B-LC, B-PS, B-TM
-17	##를	O	O	O, B-CV, I-OG, I-CV, I-AF
-18	취했	O	O	O, B-CV, B-LC, B-OG, B-PS
-19	##다	O	O	O, B-CV, I-CV, B-OG, I-OG
-20	.	O	O	O, B-CV, B-LC, B-PS, B-OG
-21	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	문재인	B-PS	B-PS
+2	정부	B-OG	B-OG
+3	##는	O	O
+4	출범	O	O
+5	이후	O	O
+6	‘	O	O
+7	사람	O	O
+8	중심	O	O
+9	경제	O	O
+10	’	O	O
+11	를	O	O
+12	내걸	O	O
+13	##고	O	O
+14	△	O	O
+15	##일	O	O
+16	##자리	O	O
+17	중심	O	O
+18	경제	O	O
+19	△	O	O
+20	##소득	O	O
+21	##주	O	O
+22	##도	O	O
+23	성장	O	O
+24	△	O	O
+25	##혁	O	O
+26	##신	O	O
+27	##성장	O	O
+28	△	O	O
+29	##공	O	O
+30	##정	O	O
+31	경제	O	O
+32	##를	O	O
+33	네	O	B-QT
+34	바퀴	O	I-QT
+35	##로	O	O
+36	삼	O	O
+37	##는	O	O
+38	경제	O	O
+39	패러다임	O	O
+40	##을	O	O
+41	제시	O	O
+42	##한	O	O
+43	바	O	O
+44	있	O	O
+45	##다	O	O
+46	.	O	O
+47	[SEP]	O	O

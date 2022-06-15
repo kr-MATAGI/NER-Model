@@ -1,32 +1,31 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	여수	B-LC	B-LC	B-LC, O, B-OG, B-AF, B-PS
-2	##서	O	O	O, I-LC, I-OG, I-AF, B-OG
-3	원장	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-AF
-4	##이	O	O	O, I-CV, B-PS, I-AF, B-CV
-5	몰	O	O	O, B-AF, I-AF, B-OG, B-CV
-6	##던	O	O	O, I-AF, I-OG, B-AF, I-TM
-7	통학	O	O	O, B-AF, I-AF, B-CV, B-TM
-8	##차	B-AF	O	O, B-AF, I-AF, B-CV, B-PS
-9	…	O	O	O, I-AF, B-LC, I-OG, B-CV
-10	후진	O	O	O, B-TM, B-AF, B-LC, B-CV
-11	##하	O	O	O, I-AF, B-CV, B-PS, B-AF
-12	##다	O	O	O, B-TM, B-PS, I-AF, B-AM
-13	두	B-QT	B-QT	B-QT, O, I-QT, B-PS, B-DT
-14	##살	I-QT	I-QT	I-QT, O, I-LC, I-PS, I-TM
-15	##배기	O	I-QT	I-QT, O, I-LC, I-CV, I-PS
-16	치	O	O	O, B-TM, B-AM, B-CV, B-AF
-17	##어	O	O	O, I-CV, I-TM, I-AM, I-AF
-18	‘	O	O	O, B-CV, I-CV, B-LC, B-DT
-19	세	B-CV	B-CV	B-CV, B-OG, B-AF, O, B-LC
-20	##림	I-CV	I-CV	I-CV, I-OG, O, I-AF, I-PS
-21	##이	I-CV	I-CV	I-CV, I-OG, O, I-AF, I-PS
-22	##법	I-CV	I-CV	I-CV, O, I-OG, I-AF, B-CV
-23	’	O	O	O, I-CV, I-OG, I-EV, I-QT
-24	시행	O	O	O, B-CV, B-LC, I-CV, B-PS
-25	##뒤	O	O	O, B-LC, I-CV, B-PS, I-DT
-26	6	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-EV
-27	##번	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-EV
-28	##째	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-29	사망	O	O	O, B-TM, I-QT, B-CV, B-QT
-30	[SEP]	O	O	O, I-QT, I-CV, B-CV, I-TM
+	text	label	preds
+0	[CLS]	O	O
+1	징	B-AF	O
+2	##광	I-AF	O
+3	고속철	I-AF	B-AF
+4	노선	O	O
+5	##은	O	O
+6	베이징	B-LC	B-LC
+7	,	O	O
+8	정	B-LC	B-LC
+9	##저우	I-LC	I-LC
+10	,	O	O
+11	우	B-LC	B-LC
+12	##한	I-LC	I-LC
+13	,	O	O
+14	광저우	B-LC	B-LC
+15	,	O	O
+16	선전	B-LC	B-LC
+17	등	O	O
+18	28	B-QT	B-QT
+19	##개	I-QT	I-QT
+20	도시	O	O
+21	,	O	O
+22	35	B-QT	B-QT
+23	##개	I-QT	I-QT
+24	역	O	O
+25	##을	O	O
+26	경유	O	O
+27	##한다	O	O
+28	.	O	O
+29	[SEP]	O	O

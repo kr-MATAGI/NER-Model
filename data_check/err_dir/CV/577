@@ -1,45 +1,27 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	이때	O	O	O, B-CV, B-OG, B-LC, B-TM
-2	여배우	O	O	O, B-CV, I-CV, B-OG, B-PS
-3	##들	O	O	O, I-CV, B-CV, I-OG, B-PS
-4	##은	O	O	O, B-CV, B-PS, B-LC, B-TM
-5	마치	O	O	O, B-CV, B-PS, B-LC, B-TM
-6	격투기	O	B-CV	B-CV, O, B-EV, B-FD, B-AF
-7	라운드	O	O	O, B-CV, I-CV, B-PS, I-EV
-8	걸	O	O	O, I-CV, B-CV, B-PS, I-PS
-9	##이	O	O	O, B-PS, B-CV, I-CV, I-PS
-10	##라도	O	O	O, B-PS, I-CV, I-PS, B-CV
-11	되	O	O	O, B-CV, B-PS, B-LC, B-QT
-12	##는	O	O	O, B-PS, B-CV, B-LC, B-TM
-13	양	O	O	O, B-TM, B-PS, B-QT, B-LC
-14	라운드	O	O	O, B-CV, B-QT, B-TM, B-LC
-15	##를	O	O	O, B-PS, B-CV, I-CV, I-QT
-16	바꿔	O	O	O, B-CV, B-TM, B-LC, B-PS
-17	##가	O	O	O, B-PS, B-LC, B-CV, B-QT
-18	##며	O	O	O, B-LC, B-CV, B-PS, B-TM
-19	등장	O	O	O, B-CV, B-TM, B-LC, B-OG
-20	##하고	O	O	O, B-CV, I-CV, I-AF, B-PS
-21	,	O	O	O, B-CV, B-LC, B-PS, B-OG
-22	상대	O	O	O, B-CV, I-CV, B-PS, B-TM
-23	##역	O	O	O, I-CV, B-CV, B-PS, B-QT
-24	##이	O	O	O, B-PS, I-CV, B-CV, B-LC
-25	되	O	O	O, B-CV, B-PS, B-QT, B-TM
-26	##는	O	O	O, B-CV, B-PS, I-CV, B-LC
-27	남	O	B-CV	B-CV, O, B-PS, B-FD, I-CV
-28	##배우	B-CV	I-CV	I-CV, O, B-CV, I-QT, I-OG
-29	##들	O	O	O, I-CV, B-CV, I-OG, I-QT
-30	##은	O	O	O, B-CV, I-CV, B-PS, B-TM
-31	관객	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-FD
-32	##과	O	O	O, I-CV, B-CV, I-AF, I-OG
-33	함께	O	O	O, B-CV, B-TM, B-LC, B-QT
-34	객석	O	O	O, B-TM, B-CV, B-AF, B-LC
-35	##에	O	O	O, B-CV, I-CV, I-AF, B-PS
-36	앉	O	O	O, B-CV, B-TM, B-QT, B-LC
-37	##아	O	O	O, B-CV, B-PS, I-CV, I-QT
-38	있	O	O	O, B-CV, B-PS, B-LC, B-QT
-39	##다	O	O	O, B-CV, B-LC, B-PS, I-QT
-40	등장	O	O	O, B-CV, B-TM, B-LC, B-OG
-41	##한다	O	O	O, B-CV, B-PS, B-LC, I-CV
-42	.	O	O	O, B-CV, B-PS, B-LC, B-TM
-43	[SEP]	O	O	O, B-CV, B-PS, B-LC, I-CV
+	text	label	preds
+0	[CLS]	O	O
+1	또	O	O
+2	수확	O	O
+3	##량	O	O
+4	##을	O	O
+5	늘리	O	O
+6	##려	O	O
+7	벌	B-AM	O
+8	##통	O	O
+9	##을	O	O
+10	옮겨	O	O
+11	다니	O	O
+12	##거나	O	O
+13	벌	B-AM	B-AM
+14	##에	O	O
+15	##게	O	O
+16	설탕	B-CV	B-CV
+17	##물	I-CV	O
+18	##을	O	O
+19	먹이	O	O
+20	##지도	O	O
+21	않	O	O
+22	##아	O	O
+23	##요	O	O
+24	.	O	O
+25	[SEP]	O	O

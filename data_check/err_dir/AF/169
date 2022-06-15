@@ -1,52 +1,34 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	조선	B-OG	B-OG	B-OG, B-AF, O, B-PS, B-LC
-2	##신보	I-OG	I-OG	I-OG, I-AF, O, I-LC, I-PS
-3	##는	O	O	O, I-OG, I-AF, I-EV, I-QT
-4	이어	O	O	O, B-LC, B-OG, B-TM, B-CV
-5	“	O	O	O, B-LC, B-CV, B-OG, B-TM
-6	5	B-DT	B-DT	B-DT, O, I-DT, B-OG, B-LC
-7	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-8	##간	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-9	다음	O	O	O, I-DT, B-TM, B-LC, B-DT
-10	과제	O	O	O, B-LC, I-DT, B-CV, B-PS
-11	##인	O	O	O, B-LC, B-PS, B-TM, B-CV
-12	정지	O	B-TM	B-TM, O, B-TR, I-TM, B-OG
-13	##위성	B-TM	I-TM	I-TM, O, B-TM, I-TR, I-OG
-14	개발	O	O	O, I-TM, B-LC, B-TM, I-QT
-15	##에	O	O	O, B-CV, B-LC, B-OG, B-PS
-16	착수	O	O	O, B-LC, B-TM, B-CV, B-OG
-17	##하	O	O	O, B-LC, B-OG, B-PS, B-CV
-18	##며	O	O	O, B-LC, B-OG, B-TM, B-QT
-19	‘	O	O	O, B-TM, B-LC, B-AF, B-CV
-20	광명	B-TM	B-TM	B-TM, B-AF, O, I-TM, B-LC
-21	##성	I-TM	I-TM	I-TM, I-AF, O, I-TR, I-LC
-22	##3	B-QT	B-QT	B-QT, I-TM, I-AF, I-QT, I-LC
-23	##호	I-QT	I-QT	I-QT, I-AF, I-TM, I-LC, O
-24	’	O	O	O, I-QT, I-AF, I-TM, B-CV
-25	를	O	O	O, B-CV, B-TM, B-LC, B-PS
-26	탑재	O	O	O, B-TM, B-CV, B-LC, B-AF
-27	##한	O	O	O, B-LC, B-PS, B-AF, B-TM
-28	‘	O	O	O, B-AF, B-LC, B-TM, B-CV
-29	은하	B-TM	B-AF	B-AF, B-TM, B-LC, B-QT, O
-30	##3	B-QT	B-QT	B-QT, I-AF, I-QT, I-TM, I-LC
-31	##호	I-QT	I-QT	I-QT, I-AF, I-TM, I-LC, B-QT
-32	’	O	O	O, I-QT, I-AF, I-TM, I-EV
-33	보다	O	O	O, B-QT, B-CV, B-LC, B-TM
-34	더	O	O	O, B-QT, B-TM, B-LC, B-CV
-35	큰	O	O	O, B-TM, B-AF, B-QT, B-LC
-36	대형	O	O	O, B-TM, B-AF, B-AM, B-CV
-37	운반	O	B-AF	B-AF, O, I-AF, B-TM, B-AM
-38	##로	B-AF	I-AF	I-AF, O, B-AF, I-TM, I-CV
-39	##켓	I-AF	I-AF	I-AF, O, I-TM, I-CV, I-AM
-40	개발	O	O	O, I-AF, I-TM, B-TM, B-LC
-41	##이	O	O	O, B-PS, B-LC, B-OG, B-TM
-42	시작	O	O	O, B-TM, B-CV, B-LC, B-OG
-43	##된	O	O	O, B-LC, B-CV, B-OG, B-TM
-44	##다	O	O	O, B-LC, B-CV, B-TM, I-OG
-45	”	O	O	O, B-CV, B-TM, B-LC, B-OG
-46	고	O	O	O, B-CV, B-LC, B-TM, B-OG
-47	덧붙였	O	O	O, B-TM, B-OG, B-CV, B-QT
-48	##다	O	O	O, B-CV, I-OG, B-TM, I-QT
-49	.	O	O	O, B-LC, B-TM, B-OG, B-CV
-50	[SEP]	O	O	O, B-TM, B-LC, B-CV, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	현대	B-OG	B-OG
+2	##는	O	O
+3	대기	O	O
+4	##업	O	O
+5	##이	O	O
+6	##라는	O	O
+7	말	O	O
+8	##이	O	O
+9	무색	O	O
+10	##할	O	O
+11	만큼	O	O
+12	사	O	O
+13	##세	O	O
+14	(	O	O
+15	社	O	O
+16	勢	O	O
+17	)	O	O
+18	가	O	O
+19	위축	O	O
+20	##됐	O	O
+21	##고	O	O
+22	현대차	B-OG	B-OG
+23	##는	O	O
+24	글로벌	O	O
+25	자동차	B-AF	B-OG
+26	##그룹	O	I-OG
+27	##으로	O	O
+28	성장	O	O
+29	##했	O	O
+30	##다	O	O
+31	.	O	O
+32	[SEP]	O	O

@@ -1,9 +1,11 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, I-OG, B-CV, I-AF
-1	어	O	O	O, B-CV, B-LC, B-OG, B-TM
-2	~	O	O	O, B-CV, I-CV, B-LC, B-PS
-3	교육	O	O	O, B-CV, I-CV, B-QT, B-FD
-4	경비	B-CV	O	O, I-CV, B-CV, I-QT, I-FD
-5	보조금	O	B-CV	B-CV, O, I-CV, B-QT, B-AF
-6	##이	O	O	O, I-CV, I-AF, B-CV, B-PS
-7	[SEP]	O	O	O, B-CV, I-CV, B-LC, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	재일	O	B-CV
+2	동포	O	I-CV
+3	##하	O	O
+4	##고	O	O
+5	납부	O	O
+6	거부	O	O
+7	##하	O	O
+8	##고	O	O
+9	[SEP]	O	O

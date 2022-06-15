@@ -1,27 +1,86 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-AF
-1	기업	O	O	O, B-OG, B-CV, B-AF, B-TM
-2	인사	O	B-CV	B-CV, O, I-CV, B-OG, B-FD
-3	##담	B-CV	I-CV	I-CV, B-CV, O, I-OG, I-QT
-4	##당	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-QT
-5	##자	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-QT
-6	##들이	O	O	O, I-CV, B-CV, I-OG, I-QT
-7	구직자	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-TM
-8	##들이	O	O	O, I-CV, B-CV, I-OG, I-AF
-9	낸	O	O	O, B-CV, B-PS, B-AF, B-OG
-10	이력서	O	O	O, B-TM, B-AF, B-CV, B-FD
-11	##를	O	O	O, B-CV, I-AF, I-CV, I-TM
-12	검토	O	O	O, B-CV, B-TM, B-OG, B-LC
-13	##할	O	O	O, B-CV, B-PS, B-OG, B-LC
-14	때	O	O	O, B-CV, B-TM, B-QT, B-LC
-15	가장	O	O	O, B-CV, B-QT, B-TM, B-LC
-16	먼저	O	O	O, B-QT, B-TM, B-CV, I-QT
-17	살펴보	O	O	O, I-QT, B-QT, B-TM, B-CV
-18	##는	O	O	O, B-CV, B-TM, I-QT, B-QT
-19	것	O	O	O, B-CV, B-TM, B-LC, B-PS
-20	##은	O	O	O, B-CV, B-TM, B-LC, B-OG
-21	무엇	O	O	O, B-TM, B-CV, B-QT, B-LC
-22	##일	O	O	O, I-AF, I-CV, B-LC, B-PS
-23	##까	O	O	O, I-AF, B-LC, B-TM, I-QT
-24	?	O	O	O, B-CV, B-OG, B-TM, I-AF
-25	[SEP]	O	O	O, B-CV, B-OG, B-LC, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	'	O	O
+2	과거사	O	O
+3	사건	O	O
+4	부당	O	O
+5	수임	O	O
+6	의혹	O	O
+7	'	O	O
+8	을	O	O
+9	수사	O	O
+10	중인	O	O
+11	서울	B-OG	B-OG
+12	##중	I-OG	I-OG
+13	##앙	I-OG	I-OG
+14	##지	I-OG	I-OG
+15	##검	I-OG	I-OG
+16	특수	O	I-OG
+17	##4	O	O
+18	##부	O	O
+19	(	O	O
+20	부장	B-CV	B-CV
+21	배	B-PS	B-PS
+22	##종	I-PS	I-PS
+23	##혁	I-PS	I-PS
+24	)	O	O
+25	는	O	O
+26	2	B-DT	B-DT
+27	##일	I-DT	I-DT
+28	과거사	B-OG	B-OG
+29	##위원회	I-OG	I-OG
+30	##에	O	O
+31	##서	O	O
+32	조사	B-CV	B-CV
+33	##관	I-CV	I-CV
+34	##으로	O	O
+35	활동	O	O
+36	##하면	O	O
+37	##서	O	O
+38	관여	O	O
+39	##했	O	O
+40	##던	O	O
+41	사건	O	O
+42	##을	O	O
+43	변호사	B-CV	B-CV
+44	##에	O	O
+45	##게	O	O
+46	소개	O	O
+47	##해	O	O
+48	##주	O	O
+49	##고	O	O
+50	금품	O	O
+51	##을	O	O
+52	받	O	O
+53	##은	O	O
+54	혐의	O	O
+55	(	O	O
+56	변호사	B-CV	B-CV
+57	##법	I-CV	I-CV
+58	위반	O	O
+59	등	O	O
+60	)	O	O
+61	로	O	O
+62	노모	O	O
+63	(	O	O
+64	41	B-QT	B-QT
+65	)	O	O
+66	씨	O	O
+67	,	O	O
+68	정모	O	O
+69	(	O	O
+70	51	B-QT	B-QT
+71	)	O	O
+72	씨	O	O
+73	2	B-QT	B-QT
+74	##명	I-QT	I-QT
+75	##에	O	O
+76	대해	O	O
+77	구속	O	O
+78	##영장	O	O
+79	##을	O	O
+80	청구	O	O
+81	##했	O	O
+82	##다	O	O
+83	.	O	O
+84	[SEP]	O	O

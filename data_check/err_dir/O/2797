@@ -1,51 +1,66 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-EV, I-CV, I-OG
-1	에반	B-PS	B-PS	B-PS, B-OG, O, B-LC, I-PS
-2	메	I-PS	I-PS	I-PS, I-OG, O, I-LC, B-PS
-3	##데이	I-PS	I-PS	I-PS, O, I-LC, I-OG, B-LC
-4	##로스	I-PS	I-PS	I-PS, O, I-LC, I-OG, B-LC
-5	백악관	B-OG	B-OG	B-OG, B-AF, B-LC, I-PS, O
-6	아시아	B-LC	B-LC	B-LC, O, I-LC, I-OG, B-OG
-7	##담	O	O	O, I-OG, I-LC, I-AF, I-TM
-8	##당	O	O	O, I-OG, I-LC, I-AF, I-QT
-9	선임	B-CV	B-CV	B-CV, O, B-OG, B-AF, B-FD
-10	##보	I-CV	I-CV	I-CV, B-CV, O, I-OG, I-QT
-11	##좌	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-QT
-12	##관	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-QT
-13	##은	O	O	O, I-CV, I-OG, B-CV, I-EV
-14	수행	O	B-CV	B-CV, O, B-OG, B-EV, B-AF
-15	##기	O	I-CV	I-CV, O, B-CV, I-OG, I-EV
-16	##자	O	I-CV	I-CV, O, I-OG, B-CV, I-EV
-17	##단	O	O	O, I-CV, I-OG, I-EV, I-AF
-18	##과	O	O	O, I-CV, I-OG, I-EV, B-CV
-19	##의	O	O	O, B-CV, I-EV, B-EV, B-LC
-20	회견	O	O	O, B-EV, B-CV, I-EV, B-TM
-21	##에서	O	O	O, I-EV, B-CV, I-CV, I-OG
-22	“	O	O	O, B-CV, B-LC, B-OG, B-PS
-23	우리	O	O	O, B-OG, B-LC, B-CV, B-PS
-24	##는	O	O	O, B-OG, I-OG, B-PS, B-LC
-25	중국	B-LC	B-LC	B-LC, B-OG, O, B-PS, B-TM
-26	때문	O	O	O, I-OG, I-LC, I-AF, I-PS
-27	##에	O	O	O, B-PS, I-OG, I-AF, B-QT
-28	이것	O	O	O, B-CV, B-LC, B-TM, B-QT
-29	##을	O	O	O, B-CV, B-PS, B-OG, B-TM
-30	하	O	O	O, B-CV, B-TM, B-OG, B-LC
-31	##는	O	O	O, B-CV, B-LC, B-PS, B-TM
-32	게	O	O	O, B-CV, B-PS, B-LC, B-OG
-33	아니	O	O	O, B-PS, B-CV, B-LC, B-QT
-34	##다	O	O	O, B-PS, B-CV, B-OG, B-LC
-35	”	O	O	O, B-CV, B-LC, B-OG, B-TM
-36	라며	O	O	O, B-LC, B-TM, B-OG, B-CV
-37	애써	O	O	O, B-LC, B-OG, B-CV, B-PS
-38	중국	B-LC	B-LC	B-LC, B-OG, O, B-PS, B-TM
-39	견제	O	O	O, I-OG, I-LC, B-CV, I-CV
-40	##를	O	O	O, I-OG, B-PS, B-CV, I-EV
-41	위한	O	O	O, B-PS, B-QT, B-CV, B-LC
-42	게	O	O	O, B-PS, B-LC, B-CV, B-OG
-43	아니	O	O	O, B-CV, B-LC, B-PS, B-OG
-44	##라고	O	O	O, B-CV, B-OG, B-LC, B-PS
-45	해명	O	O	O, B-CV, B-TM, B-LC, B-OG
-46	##했	O	O	O, B-CV, B-LC, B-OG, B-PS
-47	##다	O	O	O, B-CV, B-LC, B-OG, I-EV
-48	.	O	O	O, B-LC, B-CV, B-OG, B-PS
-49	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	2001	B-DT	B-DT
+2	##년	I-DT	I-DT
+3	미사일	B-AF	B-AF
+4	지침	O	O
+5	실무	O	O
+6	##협상	O	O
+7	##을	O	O
+8	맡	O	O
+9	##았	O	O
+10	##던	O	O
+11	김	B-PS	B-PS
+12	##국	I-PS	I-PS
+13	##헌	I-PS	I-PS
+14	전	O	O
+15	국방부	B-OG	B-OG
+16	군비	B-CV	B-CV
+17	##통	I-CV	I-CV
+18	##제	I-CV	I-CV
+19	##관	I-CV	I-CV
+20	(	O	O
+21	예비역	O	B-CV
+22	육군	B-OG	B-OG
+23	소장	B-CV	B-CV
+24	)	O	O
+25	은	O	O
+26	""""	O	O
+27	유사시	O	O
+28	우리	O	O
+29	최남	O	B-TM
+30	##단	O	I-TM
+31	지역	O	O
+32	##에	O	O
+33	##서	O	O
+34	북한	B-LC	B-LC
+35	전역	O	O
+36	##을	O	O
+37	사정	O	O
+38	##권	O	O
+39	##에	O	O
+40	넣	O	O
+41	##을	O	O
+42	수	O	O
+43	있	O	O
+44	##도록	O	O
+45	해야	O	O
+46	한다	O	O
+47	""""	O	O
+48	며	O	O
+49	""""	O	O
+50	그러	O	O
+51	##려면	O	O
+52	사정거리	O	O
+53	##를	O	O
+54	1000	B-QT	B-QT
+55	##㎞	I-QT	I-QT
+56	##로	O	O
+57	늘려야	O	O
+58	한다	O	O
+59	""""	O	O
+60	고	O	O
+61	했	O	O
+62	##다	O	O
+63	.	O	O
+64	[SEP]	O	O

@@ -1,55 +1,35 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	아르헨티나	B-OG	B-OG	B-OG, B-LC, B-EV, B-PS, I-OG
-2	축구	I-OG	I-OG	I-OG, B-OG, B-LC, I-LC, I-EV
-3	##협회	I-OG	I-OG	I-OG, O, I-LC, I-EV, B-OG
-4	(	O	O	O, I-OG, B-OG, I-EV, B-PS
-5	AF	B-OG	B-OG	B-OG, O, I-OG, B-LC, B-EV
-6	##A	I-OG	I-OG	I-OG, O, I-LC, I-EV, B-OG
-7	)	O	O	O, I-OG, I-EV, B-OG, I-CV
-8	의	O	O	O, B-OG, I-OG, B-PS, B-CV
-9	호세	B-PS	B-PS	B-PS, O, I-PS, B-OG, B-LC
-10	루이스	I-PS	I-PS	I-PS, O, I-OG, B-PS, I-LC
-11	마이	I-PS	I-PS	I-PS, B-PS, O, I-OG, B-LC
-12	##즈	I-PS	I-PS	I-PS, O, I-OG, I-LC, B-PS
-13	##너	I-PS	I-PS	I-PS, O, I-OG, I-LC, B-PS
-14	실무	O	B-CV	B-CV, O, B-FD, I-CV, B-TM
-15	부회장	B-CV	B-CV	B-CV, I-CV, O, I-QT, B-QT
-16	##은	O	O	O, I-CV, I-QT, B-CV, I-OG
-17	""""	O	O	O, B-CV, B-LC, B-OG, B-PS
-18	한국	B-LC	B-OG	B-OG, B-LC, O, B-PS, B-CV
-19	##은	O	O	O, I-OG, I-LC, B-OG, B-CV
-20	기술	O	O	O, B-CV, B-LC, B-TM, B-PS
-21	##이	O	O	O, B-PS, B-OG, B-CV, B-LC
-22	부족	O	O	O, B-CV, B-PS, B-LC, B-TM
-23	##하	O	O	O, B-PS, B-LC, B-OG, I-OG
-24	##지만	O	O	O, B-PS, I-OG, B-LC, B-OG
-25	어려움	O	O	O, B-CV, B-LC, B-PS, B-OG
-26	##에	O	O	O, B-CV, B-PS, B-OG, B-LC
-27	맞서	O	O	O, B-CV, B-PS, B-LC, B-OG
-28	싸우	O	O	O, B-CV, B-LC, B-OG, B-PS
-29	##는	O	O	O, B-PS, B-CV, B-OG, B-LC
-30	팀	O	O	O, B-CV, B-OG, B-PS, I-OG
-31	""""	O	O	O, B-CV, I-OG, I-CV, B-PS
-32	이라	O	O	O, B-CV, B-OG, B-PS, B-LC
-33	##며	O	O	O, B-CV, B-OG, B-LC, I-OG
-34	""""	O	O	O, B-LC, B-CV, B-OG, B-PS
-35	한국	B-LC	B-OG	B-OG, B-LC, O, B-PS, B-AF
-36	##은	O	O	O, I-OG, B-OG, I-LC, I-PS
-37	유럽	B-OG	B-OG	B-OG, B-LC, I-OG, O, B-PS
-38	##팀	I-OG	I-OG	I-OG, O, I-LC, I-CV, I-EV
-39	##이	O	O	O, I-OG, B-PS, I-AF, I-CV
-40	포기	O	O	O, B-CV, B-TM, I-OG, B-AF
-41	##하	O	O	O, B-CV, B-LC, B-AF, B-OG
-42	##는	O	O	O, B-CV, B-AF, B-LC, B-TM
-43	공	O	B-CV	B-CV, O, B-AF, B-PS, B-PT
-44	##도	O	O	O, I-CV, I-AF, I-EV, B-CV
-45	끝	O	O	O, B-CV, B-TM, B-QT, B-LC
-46	##까	O	O	O, B-LC, B-PS, B-OG, B-TM
-47	##지	O	O	O, B-LC, B-PS, B-OG, B-TM
-48	쫓아가	O	O	O, B-LC, B-TM, B-CV, B-OG
-49	##서	O	O	O, B-LC, B-PS, B-OG, B-CV
-50	살려	O	O	O, B-CV, B-LC, B-TM, B-QT
-51	##낸다	O	O	O, B-LC, B-OG, B-CV, B-PS
-52	.	O	O	O, B-LC, B-OG, B-PS, B-CV
-53	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	9	B-EV	B-EV
+2	·	I-EV	I-EV
+3	11	I-EV	I-EV
+4	테러	I-EV	I-EV
+5	##가	O	O
+6	발생	O	O
+7	##한	O	O
+8	'	O	O
+9	그라운드	B-LC	B-LC
+10	제로	I-LC	I-LC
+11	'	O	O
+12	주변	O	O
+13	##에	O	O
+14	이슬람	B-LC	B-OG
+15	사원	O	O
+16	모스크	O	O
+17	##가	O	O
+18	들어설	O	O
+19	수	O	O
+20	있	O	O
+21	##는지	O	O
+22	##를	O	O
+23	놓	O	O
+24	##고	O	O
+25	##도	O	O
+26	여름	B-DT	B-DT
+27	내내	O	I-DT
+28	논쟁	O	O
+29	##을	O	O
+30	벌였	O	O
+31	##다	O	O
+32	.	O	O
+33	[SEP]	O	O

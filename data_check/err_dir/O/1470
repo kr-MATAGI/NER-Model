@@ -1,21 +1,41 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-AF
-1	“	O	O	O, B-PS, B-CV, B-LC, B-QT
-2	현장	O	O	O, B-PS, B-CV, B-LC, B-AF
-3	소장	O	B-CV	B-CV, O, I-CV, B-PS, B-TM
-4	##의	O	O	O, I-CV, I-AF, I-OG, I-EV
-5	경우	O	O	O, B-CV, B-QT, B-PS, B-OG
-6	50	B-QT	B-QT	B-QT, O, I-QT, B-EV, B-DT
-7	##세	I-QT	I-QT	I-QT, O, I-EV, I-LC, I-OG
-8	##가	O	O	O, I-QT, I-OG, I-EV, B-PS
-9	넘어가	O	O	O, I-QT, B-QT, B-PS, I-OG
-10	##면	O	O	O, I-QT, B-PS, B-OG, B-LC
-11	노인	O	O	O, B-CV, B-FD, B-PS, B-QT
-12	취급	O	O	O, I-QT, B-CV, I-CV, B-TM
-13	##을	O	O	O, B-CV, B-PS, I-OG, I-CV
-14	받	O	O	O, B-CV, B-TM, B-PS, B-LC
-15	##기	O	O	O, B-PS, B-CV, B-TM, I-OG
-16	일쑤	O	O	O, B-CV, B-QT, B-TM, I-OG
-17	##입니다	O	O	O, B-CV, B-LC, B-PS, I-OG
-18	.	O	O	O, B-CV, B-PS, B-LC, B-OG
-19	[SEP]	O	O	O, B-CV, B-PS, B-LC, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	롯데	B-OG	B-OG
+2	##면	I-OG	I-OG
+3	##세	I-OG	I-OG
+4	##점	I-OG	I-OG
+5	##은	O	O
+6	‘	O	O
+7	롯데	B-OG	B-EV
+8	##가	O	I-EV
+9	(	O	I-EV
+10	家	O	I-EV
+11	)	O	I-EV
+12	왕자의	O	I-EV
+13	난	O	I-EV
+14	’	O	O
+15	여파	O	O
+16	##로	O	O
+17	여론	O	O
+18	##이	O	O
+19	곱	O	O
+20	##지	O	O
+21	않	O	O
+22	##았	O	O
+23	##던	O	O
+24	지난해	B-DT	B-DT
+25	11	I-DT	I-DT
+26	##월	I-DT	I-DT
+27	면세점	O	O
+28	특허	B-CV	B-CV
+29	##권	I-CV	I-CV
+30	재	O	O
+31	##승	O	O
+32	##인	O	O
+33	심사	O	O
+34	##를	O	O
+35	받	O	O
+36	##았	O	O
+37	##다	O	O
+38	.	O	O
+39	[SEP]	O	O

@@ -1,71 +1,94 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	국내	O	O	O, B-LC, B-CV, B-TM, B-OG
-2	##에	O	O	O, B-LC, B-CV, B-OG, B-PS
-3	<	O	O	O, B-LC, B-CV, B-OG, B-AF
-4	호	B-AF	B-AF	B-AF, B-PS, B-LC, O, I-AF
-5	##빗	I-AF	I-AF	I-AF, I-PS, O, B-AF, I-LC
-6	…	O	I-AF	I-AF, O, I-PS, I-LC, I-EV
-7	>	O	O	O, I-AF, I-EV, B-CV, I-OG
-8	을	O	O	O, B-LC, B-CV, B-OG, B-PS
-9	배급	O	O	O, B-CV, B-LC, B-OG, B-TM
-10	##하	O	O	O, B-OG, B-LC, B-PS, B-CV
-11	##는	O	O	O, B-OG, B-LC, B-CV, B-PS
-12	워너	B-OG	B-OG	B-OG, O, I-OG, B-AF, B-PS
-13	##브라	I-OG	I-OG	I-OG, O, B-OG, I-AF, I-LC
-14	##더스	I-OG	I-OG	I-OG, O, I-AF, B-OG, I-LC
-15	##코	I-OG	I-OG	I-OG, O, I-AF, B-OG, I-LC
-16	##리아	I-OG	I-OG	I-OG, O, I-AF, I-LC, I-CV
-17	##가	O	O	O, I-OG, B-PS, I-QT, I-AF
-18	최근	O	O	O, B-LC, B-OG, B-CV, B-DT
-19	‘	O	O	O, B-LC, B-OG, B-CV, B-PS
-20	외화	O	O	O, B-CV, B-FD, B-LC, B-EV
-21	부	O	O	O, B-LC, B-PS, I-CV, B-CV
-22	##율	O	O	O, B-LC, I-LC, B-PS, I-OG
-23	’	O	O	O, B-LC, B-OG, B-CV, B-PS
-24	(	O	O	O, B-LC, B-OG, B-CV, B-PS
-25	극장	O	O	O, B-CV, B-LC, B-AF, B-OG
-26	##과	O	O	O, B-LC, I-OG, B-PS, B-CV
-27	배급사	O	O	O, B-CV, B-LC, B-AF, B-TM
-28	사이	O	O	O, B-LC, B-CV, B-TM, B-PS
-29	##의	O	O	O, B-LC, B-PS, B-CV, B-TM
-30	입장권	O	O	O, B-CV, B-TM, B-AF, B-MT
-31	수익	O	O	O, B-CV, I-CV, B-TM, B-QT
-32	분배	O	O	O, B-CV, B-LC, B-TM, B-PS
-33	비율	O	O	O, B-LC, B-QT, B-CV, B-TM
-34	)	O	O	O, B-LC, B-OG, B-CV, B-PS
-35	을	O	O	O, B-LC, B-PS, B-OG, B-CV
-36	기존	O	O	O, B-CV, B-LC, B-QT, B-OG
-37	##보	O	O	O, B-CV, B-PS, B-LC, B-QT
-38	##다	O	O	O, B-LC, B-QT, B-PS, B-CV
-39	10	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-LC
-40	%	I-QT	I-QT	I-QT, O, I-LC, I-OG, I-PS
-41	낮	O	O	O, I-QT, B-QT, B-TM, B-LC
-42	##게	O	O	O, I-QT, B-QT, B-LC, B-PS
-43	조정	O	O	O, I-QT, B-CV, B-LC, B-PS
-44	##한다	O	O	O, B-PS, B-OG, B-LC, B-CV
-45	##는	O	O	O, B-OG, B-PS, B-LC, I-OG
-46	씨	B-OG	B-OG	B-OG, O, I-OG, B-AF, B-LC
-47	##지	I-OG	I-OG	I-OG, O, B-OG, I-AF, I-LC
-48	##브	I-OG	I-OG	I-OG, O, I-AF, B-OG, I-LC
-49	##이	I-OG	I-OG	I-OG, O, I-AF, B-OG, I-LC
-50	(	O	O	O, I-OG, I-AF, I-CV, I-QT
-51	CGV	B-OG	B-OG	B-OG, O, B-AF, I-OG, B-LC
-52	)	O	O	O, I-OG, I-AF, I-CV, I-DT
-53	와	O	O	O, B-OG, I-OG, B-PS, B-LC
-54	롯데시네마	B-OG	B-OG	B-OG, B-AF, O, I-OG, B-LC
-55	##의	O	O	O, I-OG, I-AF, I-DT, B-OG
-56	방침	O	O	O, B-CV, B-LC, B-OG, B-TM
-57	##에	O	O	O, B-CV, B-OG, B-LC, B-PS
-58	반발	O	O	O, B-LC, B-CV, B-TM, B-OG
-59	##해	O	O	O, B-LC, B-CV, B-OG, B-PS
-60	영화	O	O	O, B-FD, B-CV, B-LC, B-TM
-61	배급	O	O	O, B-CV, B-LC, B-TM, B-OG
-62	##을	O	O	O, B-CV, B-OG, B-LC, B-PS
-63	거부	O	O	O, B-CV, B-LC, B-TM, B-OG
-64	##했	O	O	O, B-LC, B-CV, B-PS, B-OG
-65	##기	O	O	O, B-CV, B-LC, B-PS, B-TM
-66	때문	O	O	O, B-CV, B-LC, B-PS, B-TM
-67	##이다	O	O	O, B-CV, B-LC, B-TM, B-OG
-68	.	O	O	O, B-LC, B-OG, B-CV, B-PS
-69	[SEP]	O	O	O, B-LC, B-CV, B-OG, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	나아가	O	O
+2	송	B-AM	B-AM
+3	##충	I-AM	I-AM
+4	##이	I-AM	I-AM
+5	##를	O	O
+6	비료	O	O
+7	##로	O	O
+8	활용	O	O
+9	##하	O	O
+10	##는	O	O
+11	방안	O	O
+12	##을	O	O
+13	강구	O	O
+14	,	O	O
+15	여주	B-LC	B-LC
+16	##군	I-LC	I-LC
+17	##에	O	O
+18	##선	O	O
+19	송	B-AM	B-AM
+20	##충	I-AM	I-AM
+21	##이	I-AM	I-AM
+22	비료	O	O
+23	##가	O	O
+24	다른	O	O
+25	비료	O	O
+26	##보	O	O
+27	##다	O	O
+28	10	B-QT	B-QT
+29	##배	I-QT	I-QT
+30	이상	I-QT	I-QT
+31	효과	O	O
+32	##가	O	O
+33	있	O	O
+34	##음	O	O
+35	##을	O	O
+36	확인	O	O
+37	##했	O	O
+38	##고	O	O
+39	(	O	O
+40	1929	B-DT	B-DT
+41	##년	I-DT	I-DT
+42	7	I-DT	I-DT
+43	##월	I-DT	I-DT
+44	24	I-DT	I-DT
+45	##일	I-DT	I-DT
+46	##자	I-DT	O
+47	)	O	O
+48	,	O	O
+49	경북	B-LC	B-LC
+50	##에	O	O
+51	##선	O	O
+52	송	B-AM	B-AM
+53	##충	I-AM	I-AM
+54	##이	I-AM	I-AM
+55	##를	O	O
+56	솥	B-AF	O
+57	##에	O	O
+58	넣	O	O
+59	##어	O	O
+60	찐	O	O
+61	뒤	O	O
+62	말려	O	O
+63	비료	O	O
+64	##로	O	O
+65	썼	O	O
+66	##더니	O	O
+67	생산	O	O
+68	가격	O	O
+69	##이	O	O
+70	10	B-QT	B-QT
+71	##관	I-QT	I-QT
+72	##당	I-QT	I-QT
+73	1	B-QT	B-QT
+74	##원	I-QT	I-QT
+75	내외	O	I-QT
+76	##에	O	O
+77	불과	O	O
+78	,	O	O
+79	다른	O	O
+80	질소	B-MT	B-MT
+81	##비	O	O
+82	##료	O	O
+83	##에	O	O
+84	비해	O	O
+85	경제	O	O
+86	##성이	O	O
+87	매우	O	O
+88	높	O	O
+89	##았	O	O
+90	##다	O	O
+91	.	O	O
+92	[SEP]	O	O

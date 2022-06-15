@@ -1,21 +1,12 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, I-OG, B-CV, I-EV
-1	아니	O	O	O, B-CV, B-LC, B-OG, B-PS
-2	지금	O	O	O, B-CV, B-OG, B-PS, B-TM
-3	##은	O	O	O, B-CV, B-PS, B-OG, B-LC
-4	저	O	O	O, B-CV, B-OG, B-PS, B-LC
-5	~	O	O	O, B-CV, B-LC, B-PS, I-OG
-6	군대	O	B-OG	B-OG, O, B-AF, B-CV, I-OG
-7	##가	O	O	O, I-OG, I-AF, I-CV, I-EV
-8	그	O	O	O, B-CV, B-OG, I-OG, B-LC
-9	~	O	O	O, B-CV, I-CV, B-LC, I-OG
-10	저것	O	O	O, B-CV, B-LC, B-PS, B-OG
-11	##도	O	O	O, B-PS, B-CV, B-OG, B-LC
-12	줄어들	O	O	O, B-CV, B-OG, B-LC, B-PS
-13	##었	O	O	O, B-CV, B-PS, B-OG, B-LC
-14	##드라	O	O	O, B-CV, B-PS, B-LC, B-OG
-15	언니	B-CV	B-CV	B-CV, O, B-OG, B-AF, B-TM
-16	날짜	O	O	O, I-CV, I-EV, B-CV, I-DT
-17	##도	O	O	O, B-CV, B-PS, I-CV, B-OG
-18	?	O	O	O, B-CV, B-OG, B-LC, B-PS
-19	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	소자	O	O
+2	##본	O	O
+3	창업	O	O
+4	##시장	O	O
+5	##에	O	O
+6	초록	O	B-TM
+7	##바람	O	O
+8	살	O	O
+9	##랑	O	O
+10	[SEP]	O	O

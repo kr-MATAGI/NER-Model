@@ -1,31 +1,13 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-AF, I-CV, B-CV
-1	주말	B-DT	O	O, B-DT, B-CV, I-DT, B-OG
-2	자유	O	O	O, B-CV, B-LC, I-DT, B-PS
-3	##시간	O	O	O, I-AF, I-LC, I-CV, I-OG
-4	##에	O	O	O, I-AF, B-CV, I-OG, B-PS
-5	##는	O	O	O, B-LC, B-CV, B-OG, B-TM
-6	운동	O	O	O, B-CV, B-LC, B-TM, B-AF
-7	##시설	O	O	O, I-AF, I-LC, I-CV, B-LC
-8	##을	O	O	O, B-CV, B-LC, B-PS, B-OG
-9	활용	O	O	O, B-CV, B-LC, B-TM, B-PS
-10	##해	O	O	O, B-LC, B-PS, B-OG, B-TM
-11	체력	O	O	O, B-TM, B-LC, B-PS, B-MT
-12	##과	O	O	O, B-PS, B-LC, I-AF, B-CV
-13	스트레스	O	O	O, B-TM, B-LC, B-PS, B-MT
-14	##를	O	O	O, B-CV, I-AF, B-PS, B-LC
-15	관리	O	O	O, B-CV, B-LC, B-PS, B-OG
-16	##하	O	O	O, B-LC, B-CV, B-PS, B-OG
-17	##며	O	O	O, B-LC, B-CV, B-OG, B-PS
-18	3	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-19	##주	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-20	간격	O	O	O, I-DT, B-QT, B-PS, B-DT
-21	##으로	O	O	O, B-LC, I-DT, B-PS, B-CV
-22	정기	O	O	O, B-CV, B-LC, B-TM, B-AF
-23	##외	O	O	O, B-CV, B-LC, B-TM, I-CV
-24	##출	O	O	O, B-LC, B-CV, I-CV, I-LC
-25	##을	O	O	O, B-CV, I-AF, B-LC, I-CV
-26	실시	O	O	O, B-CV, B-LC, B-OG, B-TM
-27	##한다	O	O	O, B-LC, B-CV, I-OG, B-OG
-28	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-29	[SEP]	O	O	O, B-LC, B-CV, I-AF, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	68	B-DT	B-DT
+2	##년	I-DT	I-DT
+3	##의	O	O
+4	나날	O	O
+5	##들	O	O
+6	,	O	O
+7	조선	B-DT	B-LC
+8	##의	O	O
+9	일상	O	O
+10	##사	O	O
+11	[SEP]	O	O

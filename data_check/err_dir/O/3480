@@ -1,15 +1,62 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-AF
-1	올해	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-2	##는	O	O	O, I-DT, I-QT, I-EV, I-OG
-3	처음	O	O	O, B-QT, B-CV, B-TM, B-OG
-4	##으로	O	O	O, B-QT, B-PS, B-OG, I-QT
-5	5	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-LC
-6	##만	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-EV
-7	##가	O	I-QT	I-QT, O, B-QT, I-LC, I-EV
-8	##구	O	I-QT	I-QT, O, I-LC, I-EV, I-PS
-9	##를	O	O	O, I-QT, I-OG, I-EV, B-CV
-10	넘어선	O	O	O, B-CV, B-OG, I-QT, B-TM
-11	##다	O	O	O, B-CV, I-OG, B-TM, B-OG
-12	.	O	O	O, B-CV, B-OG, B-LC, I-OG
-13	[SEP]	O	O	O, B-CV, B-OG, I-OG, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	에	O	B-MT
+2	##폭	O	I-MT
+3	##시	O	I-MT
+4	절	O	O
+5	##연	O	O
+6	##도	O	O
+7	##료	O	O
+8	,	O	O
+9	전	O	O
+10	##극	O	O
+11	페이스	O	O
+12	##트	O	O
+13	,	O	O
+14	금속	O	B-MT
+15	파우더	O	O
+16	등	O	O
+17	##을	O	O
+18	만들	O	O
+19	##던	O	O
+20	이	O	O
+21	회사	O	O
+22	##는	O	O
+23	직원	B-CV	B-CV
+24	195	B-QT	B-QT
+25	##명	I-QT	I-QT
+26	중	O	O
+27	##에	O	O
+28	연구	O	O
+29	##개발	O	O
+30	(	O	O
+31	R	O	O
+32	&	O	O
+33	D	O	O
+34	)	O	O
+35	인력	O	O
+36	##이	O	O
+37	전체	O	O
+38	##의	O	O
+39	35	B-QT	B-QT
+40	%	I-QT	I-QT
+41	인	O	O
+42	69	B-QT	B-QT
+43	##명	I-QT	I-QT
+44	##으로	O	O
+45	이	O	O
+46	중	O	O
+47	80	B-QT	B-QT
+48	%	I-QT	I-QT
+49	가	O	O
+50	석사	O	B-CV
+51	##급	O	O
+52	인력	O	O
+53	##으로	O	O
+54	구성	O	O
+55	##돼	O	O
+56	있	O	O
+57	##었	O	O
+58	##다	O	O
+59	.	O	O
+60	[SEP]	O	O

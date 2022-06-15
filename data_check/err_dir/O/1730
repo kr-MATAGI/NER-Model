@@ -1,17 +1,43 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	오늘	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-2	아마추어	B-CV	B-CV	B-CV, O, I-DT, B-OG, I-CV
-3	곤충	O	B-AM	B-AM, O, B-TM, B-CV, B-PS
-4	애호가	B-CV	B-CV	B-CV, O, I-CV, B-AM, B-PS
-5	황	B-PS	B-PS	B-PS, O, I-PS, B-OG, B-CV
-6	##의	I-PS	I-PS	I-PS, O, B-PS, I-OG, I-QT
-7	##웅	I-PS	I-PS	I-PS, O, I-LC, I-QT, B-PS
-8	##씨	O	O	O, I-PS, B-CV, I-AF, I-QT
-9	초대	O	O	O, B-CV, B-TM, B-LC, B-OG
-10	##하	O	O	O, B-CV, B-LC, B-PS, I-OG
-11	##겠	O	O	O, B-CV, B-OG, B-LC, B-TM
-12	##습	O	O	O, B-CV, I-OG, B-OG, B-TM
-13	##니다	O	O	O, B-CV, B-OG, B-LC, I-OG
-14	.	O	O	O, B-CV, B-PS, B-LC, B-OG
-15	[SEP]	O	O	O, B-CV, B-OG, B-LC, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	시속	B-QT	B-QT
+2	37	I-QT	I-QT
+3	##㎞	I-QT	I-QT
+4	##이상	I-QT	I-QT
+5	낼	O	O
+6	수	O	O
+7	있	O	O
+8	##고	O	O
+9	,	O	O
+10	지휘관	B-CV	B-CV
+11	##이	O	O
+12	함수	O	B-AF
+13	(	O	O
+14	艦	O	O
+15	首	O	O
+16	)	O	O
+17	어뢰	O	O
+18	##관	O	O
+19	##부터	O	O
+20	함	O	O
+21	##미	O	O
+22	엔진	O	O
+23	##실	O	O
+24	##까	O	O
+25	##지	O	O
+26	한꺼번에	O	O
+27	보	O	O
+28	##면	O	O
+29	##서	O	O
+30	작전	O	O
+31	##할	O	O
+32	수	O	O
+33	있	O	O
+34	##는	O	O
+35	효율	O	O
+36	##적	O	O
+37	##인	O	O
+38	구조	O	O
+39	##다	O	O
+40	.	O	O
+41	[SEP]	O	O

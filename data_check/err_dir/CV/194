@@ -1,23 +1,55 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-AF
-1	또	O	O	O, B-CV, B-OG, B-QT, B-PS
-2	큰	O	B-CV	B-CV, O, B-QT, B-OG, B-AF
-3	##외	B-CV	I-CV	I-CV, B-CV, O, I-QT, I-OG
-4	##숙	I-CV	I-CV	I-CV, B-CV, O, I-QT, I-OG
-5	##모	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-QT
-6	##네	O	O	O, I-CV, I-OG, I-AF, I-QT
-7	집	O	O	O, B-CV, B-AF, I-AF, I-CV
-8	##이어	O	O	O, I-CV, I-AF, B-CV, I-OG
-9	갖	O	O	O, B-OG, B-CV, B-PS, I-OG
-10	##고	O	O	O, B-PS, B-LC, I-AF, B-OG
-11	큰	O	B-CV	B-CV, O, B-OG, B-QT, B-AF
-12	##외	O	I-CV	I-CV, B-CV, O, I-QT, I-OG
-13	##숙	O	I-CV	I-CV, B-CV, O, I-QT, I-OG
-14	##모	O	I-CV	I-CV, O, B-CV, I-OG, I-QT
-15	##가	O	O	O, I-CV, I-OG, I-QT, I-AF
-16	해야	O	O	O, B-CV, B-OG, I-CV, B-TM
-17	될	O	O	O, B-CV, B-OG, I-OG, B-LC
-18	거	O	O	O, B-CV, B-OG, B-PS, B-TM
-19	같	O	O	O, B-CV, B-OG, I-OG, I-AF
-20	##지만	O	O	O, B-CV, I-OG, I-AF, B-OG
-21	[SEP]	O	O	O, B-CV, B-OG, I-AF, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	야스쿠니	B-AF	B-AF
+2	##신	I-AF	I-AF
+3	##사	I-AF	I-AF
+4	##는	O	O
+5	메이지	B-DT	B-DT
+6	##유	I-DT	I-DT
+7	##신	I-DT	I-DT
+8	직후	I-DT	I-DT
+9	##인	O	O
+10	186	B-DT	B-DT
+11	##9	I-DT	I-DT
+12	##년	I-DT	I-DT
+13	막부	B-OG	B-OG
+14	##군	I-OG	I-OG
+15	##과	O	O
+16	##의	O	O
+17	싸움	O	O
+18	##에	O	O
+19	##서	O	O
+20	숨진	O	O
+21	군인	B-CV	B-CV
+22	##들	O	O
+23	##을	O	O
+24	‘	O	O
+25	호국	O	O
+26	##의	O	O
+27	신	O	B-CV
+28	’	O	O
+29	으로	O	O
+30	제사	O	O
+31	지내	O	O
+32	##기	O	O
+33	위해	O	O
+34	건립	O	O
+35	##한	O	O
+36	곳	O	O
+37	##으로	O	O
+38	,	O	O
+39	2	B-QT	B-QT
+40	##차	I-QT	I-QT
+41	세계	B-EV	B-EV
+42	##대	I-EV	I-EV
+43	##전	I-EV	I-EV
+44	당시	O	O
+45	전범	B-CV	O
+46	##도	O	O
+47	추도	O	O
+48	##하	O	O
+49	##고	O	O
+50	있	O	O
+51	##다	O	O
+52	.	O	O
+53	[SEP]	O	O

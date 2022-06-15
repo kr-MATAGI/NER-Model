@@ -1,51 +1,18 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	이와	O	O	O, B-CV, B-TM, B-OG, B-QT
-2	함께	O	O	O, B-CV, B-OG, B-QT, B-TM
-3	매년	O	O	O, B-DT, B-QT, B-CV, B-OG
-4	청년	O	O	O, B-CV, B-OG, B-TM, B-FD
-5	미	O	B-CV	B-CV, O, I-CV, B-PS, I-QT
-6	##취업	O	I-CV	I-CV, O, B-CV, I-OG, I-QT
-7	##자	O	I-CV	I-CV, O, B-CV, I-OG, I-TM
-8	##를	O	O	O, I-CV, B-CV, B-PS, B-QT
-9	기존	O	O	O, B-CV, B-QT, B-TM, B-AF
-10	직원	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-OG
-11	##의	O	O	O, I-CV, B-QT, B-PS, B-CV
-12	3	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-PS
-13	%	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-14	또는	O	O	O, I-QT, B-QT, B-CV, B-PS
-15	5	B-QT	B-QT	B-QT, I-QT, O, B-DT, B-LC
-16	%	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-17	이상	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-18	의무	O	O	O, I-QT, B-CV, B-QT, B-TM
-19	채용	O	O	O, B-CV, I-CV, B-TM, B-QT
-20	##토록	O	O	O, I-CV, B-PS, I-QT, I-TM
-21	하	O	O	O, B-CV, B-PS, B-QT, B-LC
-22	##는	O	O	O, B-CV, B-PS, I-CV, B-OG
-23	청년	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-AF
-24	##고	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-TM
-25	##용	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-TM
-26	##촉	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-TM
-27	##진	I-CV	I-CV	I-CV, O, I-OG, B-CV, I-TM
-28	##법	I-CV	I-CV	I-CV, O, I-OG, B-CV, I-TM
-29	##안	I-CV	I-CV	I-CV, O, I-OG, B-CV, I-AF
-30	##에	O	O	O, I-CV, I-OG, I-AF, B-CV
-31	대해서	O	O	O, B-OG, B-CV, B-LC, B-QT
-32	##도	O	O	O, B-CV, B-OG, B-LC, B-TM
-33	‘	O	O	O, B-CV, B-LC, B-QT, B-OG
-34	부담	O	O	O, B-CV, B-QT, B-PS, B-LC
-35	된다	O	O	O, B-PS, B-QT, B-CV, I-QT
-36	’	O	O	O, B-CV, B-QT, B-PS, I-QT
-37	는	O	O	O, B-QT, B-CV, B-PS, B-TM
-38	응답	O	O	O, B-CV, B-TM, B-PS, B-QT
-39	##이	O	O	O, B-PS, B-CV, B-OG, B-QT
-40	71	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-LC
-41	.	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-42	7	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-43	%	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-44	를	O	O	O, I-QT, I-OG, B-CV, B-OG
-45	차지	O	O	O, B-CV, B-TM, B-QT, B-OG
-46	##했	O	O	O, B-CV, B-TM, I-QT, I-CV
-47	##다	O	O	O, B-CV, B-TM, I-OG, B-QT
-48	.	O	O	O, B-CV, B-LC, B-PS, B-OG
-49	[SEP]	O	O	O, B-CV, B-QT, B-LC, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	어	O	O
+2	내	O	O
+3	##가	O	O
+4	원래	O	O
+5	등산	O	B-CV
+6	하	O	O
+7	##는	O	O
+8	거	O	O
+9	정말	O	O
+10	싫	O	O
+11	##어	O	O
+12	##했	O	O
+13	##거	O	O
+14	##든	O	O
+15	##요	O	O
+16	[SEP]	O	O

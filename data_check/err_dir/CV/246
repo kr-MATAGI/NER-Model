@@ -1,30 +1,39 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-EV, B-CV, I-CV
-1	《	O	O	O, B-LC, B-OG, B-PS, B-DT
-2	“	O	O	O, B-LC, B-PS, B-CV, B-OG
-3	한국인	B-CV	B-CV	B-CV, O, B-OG, I-CV, B-LC
-4	##이	O	O	O, I-CV, B-PS, B-CV, I-AF
-5	하루	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-6	##에	O	O	O, I-DT, I-QT, I-AF, B-CV
-7	먹	O	O	O, B-CV, B-AF, B-LC, B-TM
-8	##는	O	O	O, B-CV, B-AF, B-PS, B-LC
-9	자장면	B-CV	B-CV	B-CV, O, B-AF, I-CV, B-PT
-10	##의	O	O	O, I-CV, I-AF, B-CV, I-EV
-11	면발	B-CV	O	O, B-CV, B-TM, B-AM, B-PT
-12	##을	O	O	O, B-PS, I-CV, I-AF, B-TM
-13	이	O	O	O, B-PS, B-QT, B-OG, B-LC
-14	##으면	O	O	O, I-QT, B-PS, B-LC, I-PS
-15	지구	B-LC	B-LC	B-LC, O, B-OG, B-AF, B-TM
-16	한	B-QT	B-QT	B-QT, O, I-QT, I-LC, B-LC
-17	바퀴	I-QT	I-QT	I-QT, O, I-LC, I-TM, I-TI
-18	반	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-TI
-19	##을	O	O	O, I-QT, B-CV, B-PS, B-LC
-20	돌	O	O	O, B-LC, B-QT, B-TM, B-PS
-21	수	O	O	O, B-PS, B-QT, B-LC, B-OG
-22	있	O	O	O, B-PS, B-QT, B-LC, B-OG
-23	##는	O	O	O, B-PS, B-LC, B-OG, B-CV
-24	길이	O	O	O, B-QT, B-CV, B-PS, B-AF
-25	##다	O	O	O, B-PS, I-AF, B-LC, I-QT
-26	.	O	O	O, B-LC, B-PS, B-CV, B-OG
-27	”	O	O	O, B-LC, B-OG, B-CV, B-PS
-28	[SEP]	O	O	O, B-LC, B-CV, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	계약	O	O
+2	##결	O	O
+3	##혼	O	O
+4	관계	O	O
+5	##의	O	O
+6	커플	B-CV	B-CV
+7	##도	O	O
+8	소득세	B-CV	B-CV
+9	##에	O	O
+10	##서	O	O
+11	일반	O	O
+12	부부	B-CV	B-CV
+13	##와	O	O
+14	같이	O	O
+15	취급	O	O
+16	##됐	O	O
+17	##고	O	O
+18	배우자	B-CV	B-CV
+19	간	O	O
+20	유산	O	B-CV
+21	상속	B-CV	I-CV
+22	##권	I-CV	I-CV
+23	##과	O	O
+24	재산	B-CV	B-CV
+25	##증	I-CV	I-CV
+26	##여	I-CV	I-CV
+27	##권	I-CV	I-CV
+28	,	O	O
+29	사회	O	O
+30	##보	O	O
+31	##장	O	O
+32	혜택	O	O
+33	##도	O	O
+34	주어졌	O	O
+35	##다	O	O
+36	.	O	O
+37	[SEP]	O	O

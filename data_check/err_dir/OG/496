@@ -1,24 +1,41 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-EV, I-CV
-1	하지만	O	O	O, B-OG, B-CV, B-TM, B-LC
-2	영국	B-OG	B-LC	B-LC, B-OG, O, B-PS, I-OG
-3	##이	O	O	O, I-OG, B-PS, B-OG, B-CV
-4	B	B-LC	B-OG	B-OG, B-TM, O, B-AF, B-LC
-5	##V	I-LC	I-OG	I-OG, O, I-TM, I-AF, I-LC
-6	##I	I-LC	I-OG	I-OG, O, I-TM, I-AF, I-LC
-7	##를	O	O	O, I-OG, I-EV, I-AF, I-TM
-8	통해	O	O	O, B-OG, B-CV, B-LC, B-PS
-9	기업	O	O	O, B-CV, B-OG, I-OG, B-PS
-10	##의	O	O	O, I-OG, B-PS, B-CV, I-AF
-11	탈세	O	O	O, B-CV, B-TM, B-TR, B-LC
-12	##를	O	O	O, I-CV, B-PS, B-CV, I-OG
-13	조장	O	O	O, B-CV, I-CV, B-PS, B-TM
-14	##했	O	O	O, B-PS, B-OG, B-LC, B-CV
-15	##다는	O	O	O, B-LC, B-PS, B-OG, B-CV
-16	비판	O	O	O, B-CV, B-OG, B-TM, B-PS
-17	##에	O	O	O, B-CV, I-OG, I-CV, I-EV
-18	직면	O	O	O, B-CV, B-OG, B-TM, B-LC
-19	##했	O	O	O, I-OG, B-LC, B-OG, I-EV
-20	##다	O	O	O, B-CV, I-OG, B-OG, B-LC
-21	.	O	O	O, B-OG, B-CV, B-LC, B-PS
-22	[SEP]	O	O	O, B-CV, B-OG, I-OG, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	미국	B-LC	B-OG
+2	식품	B-OG	I-OG
+3	##의	I-OG	I-OG
+4	##약	I-OG	I-OG
+5	##국	I-OG	I-OG
+6	(	O	O
+7	FDA	B-OG	B-OG
+8	)	O	O
+9	은	O	O
+10	지난	B-DT	B-DT
+11	22	I-DT	I-DT
+12	##일	I-DT	I-DT
+13	유전자	B-TM	B-TM
+14	정보	O	O
+15	분석	O	O
+16	##업체	O	O
+17	##인	O	O
+18	'	O	O
+19	23	B-OG	B-OG
+20	##앤	I-OG	I-OG
+21	##드	I-OG	I-OG
+22	##미	I-OG	I-OG
+23	(	O	O
+24	23	B-OG	B-OG
+25	##and	I-OG	I-OG
+26	##M	I-OG	I-OG
+27	##e	I-OG	I-OG
+28	)	O	O
+29	'	O	O
+30	에	O	O
+31	대해	O	O
+32	영업	O	O
+33	##정지	O	O
+34	명령	O	O
+35	##을	O	O
+36	내렸	O	O
+37	##다	O	O
+38	.	O	O
+39	[SEP]	O	O

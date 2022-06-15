@@ -1,25 +1,16 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	미	O	B-LC	B-LC, O, B-OG, B-CV, B-FD
-2	민	B-PS	B-PS	B-PS, B-OG, I-PS, O, B-LC
-3	##용	I-PS	I-PS	I-PS, O, I-OG, I-LC, B-PS
-4	##태	I-PS	I-PS	I-PS, O, I-OG, I-LC, I-QT
-5	씨	O	O	O, B-CV, I-PS, I-QT, B-LC
-6	번역	O	O	O, B-CV, B-FD, B-LC, B-TM
-7	##이	O	O	O, B-PS, I-CV, B-CV, B-LC
-8	나와	O	O	O, B-CV, B-LC, B-OG, B-TM
-9	있	O	O	O, B-CV, B-LC, B-OG, B-PS
-10	##는	O	O	O, B-CV, B-LC, B-OG, B-PS
-11	게	O	O	O, B-CV, B-LC, B-OG, B-PS
-12	물론	O	O	O, B-LC, B-CV, B-OG, B-TM
-13	있	O	O	O, B-CV, B-LC, B-OG, B-TM
-14	##었	O	O	O, B-CV, B-OG, B-LC, B-PS
-15	##지마	O	O	O, B-CV, B-PS, B-TM, B-LC
-16	##는	O	O	O, B-CV, B-LC, B-OG, B-PS
-17	민	B-PS	B-PS	B-PS, B-OG, O, I-PS, B-LC
-18	##용	I-PS	I-PS	I-PS, O, I-OG, B-PS, I-DT
-19	##태	I-PS	I-PS	I-PS, O, I-OG, B-PS, I-LC
-20	##씨	O	O	O, I-PS, B-CV, I-QT, I-AF
-21	##가	O	O	O, B-LC, B-CV, I-AF, B-PS
-22	.	O	O	O, B-CV, B-LC, B-OG, B-TM
-23	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	내년	B-DT	B-DT
+2	초	I-DT	I-DT
+3	##까	O	I-DT
+4	##진	O	I-DT
+5	10	B-QT	B-QT
+6	##개	I-QT	I-QT
+7	모두	O	O
+8	완성	O	O
+9	##될	O	O
+10	것	O	O
+11	##이다	O	O
+12	.	O	O
+13	”	O	O
+14	[SEP]	O	O

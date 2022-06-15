@@ -1,48 +1,66 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	연말	O	B-DT	B-DT, O, I-DT, B-CV, B-EV
-2	국회	B-OG	B-OG	B-OG, O, B-EV, B-AF, B-DT
-3	때	O	O	O, I-DT, I-OG, I-EV, I-CV
-4	야당	O	O	O, B-OG, I-OG, B-CV, B-PS
-5	##이	O	O	O, B-PS, B-OG, I-OG, B-CV
-6	주도	O	O	O, B-CV, B-PS, B-LC, B-OG
-7	##했	O	O	O, B-PS, B-OG, B-LC, B-CV
-8	##던	O	O	O, B-PS, B-LC, B-OG, B-CV
-9	'	O	O	O, B-CV, B-LC, B-OG, B-PS
-10	폭력	O	O	O, B-OG, B-PS, B-EV, B-CV
-11	##국	O	B-OG	B-OG, O, I-OG, B-EV, B-LC
-12	##회	O	O	O, I-OG, I-EV, B-OG, I-LC
-13	'	O	O	O, I-OG, I-EV, B-CV, B-PS
-14	의	O	O	O, B-PS, B-CV, B-OG, B-LC
-15	문제점	O	O	O, B-CV, B-LC, B-TM, B-PS
-16	##을	O	O	O, B-CV, B-PS, B-LC, B-OG
-17	부각	O	O	O, B-CV, B-LC, B-TM, B-OG
-18	##시	O	O	O, B-LC, B-PS, B-CV, B-OG
-19	##키	O	O	O, B-CV, B-PS, B-LC, B-OG
-20	##고	O	O	O, B-PS, B-CV, B-LC, B-OG
-21	야당	O	O	O, B-CV, B-OG, B-PS, B-TR
-22	##이	O	O	O, B-PS, B-CV, B-OG, B-LC
-23	'	O	O	O, B-CV, B-PS, B-LC, B-OG
-24	MB	O	B-PS	B-PS, O, B-CV, B-EV, B-OG
-25	##악	O	O	O, B-CV, I-PS, I-CV, B-PS
-26	##법	O	O	O, I-CV, B-CV, I-PS, I-TR
-27	'	O	O	O, I-CV, B-PS, B-CV, I-PS
-28	으로	O	O	O, B-PS, B-CV, B-LC, I-CV
-29	주장	O	O	O, B-CV, B-PS, B-TM, B-LC
-30	##하	O	O	O, B-PS, B-CV, B-LC, B-OG
-31	##는	O	O	O, B-PS, B-CV, B-LC, B-OG
-32	쟁점	O	O	O, B-CV, B-TM, B-PS, B-LC
-33	법안	O	O	O, B-CV, I-CV, B-PS, B-LC
-34	##들	O	O	O, B-CV, I-CV, B-PS, B-LC
-35	##의	O	O	O, B-CV, B-LC, B-PS, B-OG
-36	정확	O	O	O, B-CV, B-LC, B-PS, B-OG
-37	##한	O	O	O, B-LC, B-PS, B-OG, I-PS
-38	내용	O	O	O, B-LC, B-CV, B-TM, B-OG
-39	##을	O	O	O, B-CV, B-LC, B-OG, B-PS
-40	알리	O	O	O, B-CV, B-LC, B-PS, B-TM
-41	##겠다	O	O	O, B-CV, B-PS, B-LC, I-CV
-42	##는	O	O	O, B-CV, B-PS, I-CV, B-LC
-43	목적	O	O	O, B-CV, B-PS, B-EV, B-LC
-44	##이다	O	O	O, B-CV, I-EV, I-CV, B-PS
-45	.	O	O	O, B-LC, B-CV, B-OG, B-PS
-46	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	이와	O	O
+2	관련	O	O
+3	,	O	O
+4	한국	B-OG	B-OG
+5	##당	I-OG	I-OG
+6	##은	O	O
+7	당	O	B-OG
+8	윤리	B-OG	I-OG
+9	##위	I-OG	I-OG
+10	##가	O	O
+11	박근혜	B-PS	B-PS
+12	전	O	O
+13	대통령	B-CV	B-CV
+14	'	O	O
+15	탈당	O	O
+16	권유	O	O
+17	'	O	O
+18	징계	O	O
+19	##안	O	O
+20	##을	O	O
+21	처리	O	O
+22	##하면	O	O
+23	바른	B-OG	B-OG
+24	##정	I-OG	I-OG
+25	##당	I-OG	I-OG
+26	통합	O	O
+27	##파	O	O
+28	의원	B-CV	B-CV
+29	5	B-QT	B-QT
+30	~	I-QT	I-QT
+31	6	I-QT	I-QT
+32	##명	I-QT	I-QT
+33	##이	O	O
+34	다음	B-DT	B-DT
+35	주	I-DT	I-DT
+36	중	O	O
+37	선도	O	O
+38	(	O	O
+39	先	O	O
+40	導	O	O
+41	)	O	O
+42	탈당	O	O
+43	##해	O	O
+44	한국	B-OG	B-OG
+45	##당	I-OG	I-OG
+46	##에	O	O
+47	합류	O	O
+48	##하	O	O
+49	##는	O	O
+50	방안	O	O
+51	##을	O	O
+52	통합	O	O
+53	##파	O	O
+54	의원	B-CV	B-CV
+55	##들	O	O
+56	##과	O	O
+57	논의	O	O
+58	중인	O	O
+59	것	O	O
+60	##으로	O	O
+61	알려졌	O	O
+62	##다	O	O
+63	.	O	O
+64	[SEP]	O	O

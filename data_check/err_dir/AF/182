@@ -1,34 +1,17 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	낭만	O	O	O, B-CV, B-PS, B-LC, B-FD
-2	##적인	O	O	O, B-PS, I-PS, B-CV, I-CV
-3	프러	O	O	O, B-CV, B-PS, I-CV, B-TM
-4	##포	O	O	O, I-CV, I-TM, I-AF, I-EV
-5	##즈	O	O	O, I-CV, I-TM, I-AF, I-PS
-6	##를	O	O	O, B-PS, I-CV, I-PS, I-AF
-7	꿈꾸	O	O	O, B-PS, B-CV, I-PS, I-CV
-8	##는	O	O	O, B-PS, B-CV, I-PS, I-CV
-9	웨이트	B-CV	B-CV	B-CV, O, B-PS, I-CV, B-TM
-10	##리스	I-CV	I-CV	I-CV, O, B-CV, I-PS, I-AM
-11	줄리아	B-PS	B-PS	B-PS, O, I-PS, I-CV, B-LC
-12	##가	O	O	O, B-PS, I-PS, B-CV, B-LC
-13	다른	O	O	O, B-PS, B-CV, I-PS, B-QT
-14	남자	O	O	O, B-CV, B-PS, I-CV, I-PS
-15	##와	O	O	O, B-PS, B-CV, I-CV, I-PS
-16	결혼	O	O	O, B-CV, B-PS, I-CV, B-TM
-17	##하기	O	O	O, B-PS, B-CV, I-CV, I-PS
-18	직전	O	O	O, B-PS, B-CV, I-PS, I-CV
-19	웨딩	B-AF	B-CV	B-CV, O, B-PS, B-FD, B-AF
-20	싱어	I-AF	I-CV	I-CV, O, B-CV, I-PS, I-AF
-21	로비	B-PS	B-PS	B-PS, O, I-PS, I-CV, B-LC
-22	##의	O	O	O, I-PS, B-PS, B-CV, I-CV
-23	진심	O	O	O, B-CV, B-PS, B-TM, B-LC
-24	##을	O	O	O, B-CV, B-PS, B-OG, B-LC
-25	발견	O	O	O, B-CV, B-PS, B-QT, B-TM
-26	##하	O	O	O, B-PS, B-CV, B-LC, B-QT
-27	##는	O	O	O, B-PS, B-CV, B-LC, B-FD
-28	로맨틱	B-FD	B-FD	B-FD, O, B-CV, B-TR, I-FD
-29	코미디	I-FD	I-FD	I-FD, O, B-FD, I-TR, I-AF
-30	##다	O	O	O, I-FD, I-OG, I-AF, B-FD
-31	.	O	O	O, B-PS, B-CV, B-FD, B-LC
-32	[SEP]	O	O	O, B-CV, B-PS, B-FD, I-CV
+	text	label	preds
+0	[CLS]	O	O
+1	불꽃놀이	O	O
+2	##가	O	O
+3	아닌	O	O
+4	물	B-AF	O
+5	##꽃	I-AF	O
+6	##놀이	I-AF	O
+7	##로	O	O
+8	말	O	O
+9	##한	O	O
+10	그	O	O
+11	~	O	O
+12	시적	O	O
+13	감성	O	O
+14	##에	O	O
+15	[SEP]	O	O

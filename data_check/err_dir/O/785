@@ -1,14 +1,96 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	물론	O	O	O, B-PS, B-CV, B-QT, B-LC
-2	이	O	B-PS	B-PS, O, B-QT, B-LC, B-TR
-3	기자	B-CV	B-CV	B-CV, O, I-CV, I-PS, B-OG
-4	##님	O	O	O, I-CV, I-QT, I-PS, I-AF
-5	##도	O	O	O, B-PS, B-CV, B-LC, B-QT
-6	이걸	O	O	O, B-CV, B-PS, B-QT, B-OG
-7	쓰	O	O	O, B-PS, B-CV, B-OG, B-QT
-8	##셨	O	O	O, B-PS, B-CV, B-LC, B-QT
-9	##던	O	O	O, B-PS, B-CV, B-LC, B-QT
-10	기자	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-TM
-11	##님	O	O	O, I-CV, I-QT, I-OG, I-AF
-12	[SEP]	O	O	O, B-CV, B-PS, I-CV, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	그렇	O	O
+2	##지만	O	O
+3	국군	B-OG	B-OG
+4	##이	O	O
+5	된	O	O
+6	지	O	O
+7	열흘	B-DT	B-DT
+8	만	I-DT	I-DT
+9	##에	O	O
+10	같	O	O
+11	##은	O	O
+12	귀순	B-CV	B-CV
+13	##장	I-CV	I-CV
+14	##교	I-CV	I-CV
+15	신분	O	O
+16	##으로	O	O
+17	수색	O	B-OG
+18	##대	O	I-OG
+19	##에	O	O
+20	함께	O	O
+21	있	O	O
+22	##던	O	O
+23	김유	B-PS	B-PS
+24	##택	I-PS	I-PS
+25	(	O	O
+26	신의	B-OG	B-OG
+27	##주	I-OG	I-OG
+28	##동	I-OG	I-OG
+29	##중	I-OG	I-OG
+30	동창	B-CV	B-CV
+31	)	O	O
+32	이	O	O
+33	인민군	B-CV	B-OG
+34	##의	O	O
+35	총	B-AF	B-AF
+36	##에	O	O
+37	맞아	O	O
+38	전사	O	O
+39	##하	O	O
+40	##는	O	O
+41	장면	O	O
+42	##을	O	O
+43	목격	O	O
+44	##했	O	O
+45	##을	O	O
+46	때	O	O
+47	,	O	O
+48	또	O	O
+49	닷새	B-DT	B-DT
+50	후	I-DT	I-DT
+51	작전	O	O
+52	##에	O	O
+53	나간	O	O
+54	수색	O	B-OG
+55	##대	O	I-OG
+56	동료	B-CV	B-CV
+57	5	B-QT	B-QT
+58	##명	I-QT	I-QT
+59	##이	O	O
+60	안경	O	O
+61	##과	O	O
+62	신발	O	O
+63	##까	O	O
+64	##지	O	O
+65	벗겨	O	O
+66	##진	O	O
+67	알몸	O	O
+68	시체	O	O
+69	##가	O	O
+70	된	O	O
+71	처참	O	O
+72	##한	O	O
+73	광경	O	O
+74	##을	O	O
+75	봤	O	O
+76	##을	O	O
+77	때	O	O
+78	##에	O	O
+79	##는	O	O
+80	인민군	B-CV	B-OG
+81	##에	O	O
+82	대한	O	O
+83	분노	O	O
+84	##로	O	O
+85	눈	B-AM	B-AM
+86	##이	O	O
+87	뒤집	O	O
+88	##힐	O	O
+89	지경	O	O
+90	##이	O	O
+91	##었	O	O
+92	##다	O	O
+93	.	O	O
+94	[SEP]	O	O

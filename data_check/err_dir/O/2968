@@ -1,19 +1,35 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	그러나	O	O	O, B-CV, B-OG, B-TM, B-LC
-2	국민	B-CV	B-CV	B-CV, O, B-OG, B-PS, B-AF
-3	##의	O	O	O, I-CV, I-OG, B-CV, I-AF
-4	귀	O	B-AM	B-AM, O, B-TM, B-TR, B-PS
-5	##에	O	O	O, I-AF, I-CV, I-EV, I-TM
-6	##는	O	O	O, B-LC, B-CV, B-OG, B-TM
-7	그	O	O	O, B-CV, B-LC, B-OG, B-TM
-8	내용	O	O	O, B-CV, B-TM, B-LC, B-OG
-9	##이	O	O	O, B-PS, B-OG, B-LC, B-CV
-10	좀처럼	O	O	O, B-TM, B-OG, B-LC, B-QT
-11	들어오	O	O	O, B-CV, B-PS, B-LC, B-OG
-12	##지	O	O	O, B-LC, B-CV, I-OG, B-OG
-13	않	O	O	O, B-CV, B-LC, B-TM, B-OG
-14	##았	O	O	O, B-CV, B-LC, I-OG, B-OG
-15	##다	O	O	O, B-CV, I-OG, B-LC, B-OG
-16	.	O	O	O, B-LC, B-CV, B-OG, B-PS
-17	[SEP]	O	O	O, B-CV, B-LC, B-OG, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	각국	O	O
+2	정부	B-OG	B-OG
+3	수장	O	B-CV
+4	##까	O	O
+5	##지	O	O
+6	도청	O	O
+7	##한	O	O
+8	것	O	O
+9	##에	O	O
+10	대해	O	O
+11	미국	B-OG	B-OG
+12	##은	O	O
+13	“	O	O
+14	외국	O	O
+15	정상	O	B-CV
+16	##의	O	O
+17	도청	O	O
+18	##은	O	O
+19	첩보	O	O
+20	활동	O	O
+21	##의	O	O
+22	기본	O	O
+23	”	O	O
+24	이라	O	O
+25	##는	O	O
+26	취지	O	O
+27	##의	O	O
+28	반응	O	O
+29	##을	O	O
+30	보였	O	O
+31	##다	O	O
+32	.	O	O
+33	[SEP]	O	O

@@ -1,28 +1,52 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-EV, I-OG, I-CV
-1	삼성	B-OG	B-OG	B-OG, O, B-PS, B-AF, I-OG
-2	##노조	I-OG	I-OG	I-OG, O, I-AF, B-OG, I-EV
-3	##는	O	O	O, I-OG, I-EV, I-AF, B-CV
-4	이날	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-QT
-5	오후	B-TI	B-TI	B-TI, I-TI, B-EV, I-DT, O
-6	5	I-TI	I-TI	I-TI, B-TI, I-EV, I-DT, O
-7	##시	I-TI	I-TI	I-TI, O, B-TI, I-QT, I-TR
-8	##부터	I-TI	I-TI	I-TI, O, B-TI, I-QT, I-TR
-9	2	B-TI	B-TI	B-TI, I-TI, O, B-EV, B-QT
-10	##시간	I-TI	I-TI	I-TI, B-TI, I-QT, O, I-TR
-11	동안	I-TI	I-TI	I-TI, O, I-TR, I-QT, I-EV
-12	참가자	B-CV	B-CV	B-CV, O, I-TI, I-CV, B-TM
-13	발언	O	O	O, I-CV, I-EV, B-CV, I-AF
-14	##과	O	O	O, B-CV, B-LC, B-OG, B-PS
-15	살	B-FD	O	O, B-AF, B-CV, B-LC, B-PS
-16	##풀이	I-FD	O	O, I-AF, I-LC, I-CV, I-EV
-17	##춤	O	O	O, I-AF, I-LC, I-CV, B-PS
-18	등	O	O	O, B-CV, B-LC, I-AF, I-EV
-19	##으로	O	O	O, B-CV, B-LC, B-OG, B-TM
-20	집회	O	O	O, B-EV, B-CV, I-EV, B-PS
-21	##를	O	O	O, I-EV, B-CV, I-AF, B-OG
-22	진행	O	O	O, B-CV, B-OG, B-LC, I-EV
-23	##했	O	O	O, B-CV, B-OG, B-LC, I-EV
-24	##다	O	O	O, B-CV, B-LC, I-EV, B-OG
-25	.	O	O	O, B-LC, B-OG, B-CV, I-EV
-26	[SEP]	O	O	O, B-CV, I-EV, B-LC, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	그	O	O
+2	##는	O	O
+3	""""	O	O
+4	내년	B-DT	B-DT
+5	코리아	B-EV	B-EV
+6	페스티벌	I-EV	I-EV
+7	##은	O	O
+8	한국	B-LC	B-EV
+9	유물	O	I-EV
+10	전시회	O	I-EV
+11	##를	O	O
+12	크	O	O
+13	##게	O	O
+14	열	O	O
+15	##고	O	O
+16	판소리	B-FD	B-FD
+17	·	O	O
+18	김치	B-CV	B-CV
+19	·	O	O
+20	탈	B-FD	O
+21	##춤	I-FD	O
+22	같	O	O
+23	##은	O	O
+24	한국	B-LC	B-LC
+25	문화	O	O
+26	##를	O	O
+27	소개	O	O
+28	##하	O	O
+29	##는	O	O
+30	등	O	O
+31	독일	B-LC	B-LC
+32	##에	O	O
+33	한국	B-LC	B-LC
+34	##을	O	O
+35	알리	O	O
+36	##는	O	O
+37	축제	O	O
+38	##가	O	O
+39	될	O	O
+40	것	O	O
+41	""""	O	O
+42	이라	O	O
+43	##며	O	O
+44	의	O	O
+45	##욕	O	O
+46	##을	O	O
+47	보였	O	O
+48	##다	O	O
+49	.	O	O
+50	[SEP]	O	O

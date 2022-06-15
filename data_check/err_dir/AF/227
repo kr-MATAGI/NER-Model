@@ -1,43 +1,21 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	행진	O	O	O, B-CV, B-OG, B-AF, B-PS
-2	##대	O	O	O, B-CV, I-CV, B-PS, B-OG
-3	##열	O	O	O, I-CV, I-AF, I-OG, B-PS
-4	##이	O	O	O, B-PS, I-AF, I-OG, I-CV
-5	펜	B-AF	B-OG	B-OG, B-AF, B-LC, B-EV, O
-6	##실	I-AF	I-OG	I-OG, I-AF, I-LC, O, I-EV
-7	##베	I-AF	I-OG	I-OG, I-LC, I-AF, O, I-EV
-8	##니아	I-AF	I-OG	I-OG, I-LC, I-AF, O, I-EV
-9	주립	I-AF	I-OG	I-OG, I-AF, I-LC, O, I-EV
-10	##대	I-AF	I-OG	I-OG, I-AF, O, I-LC, I-EV
-11	##학	I-AF	I-OG	I-OG, I-AF, O, I-LC, I-EV
-12	앞	B-TM	B-TM	B-TM, O, I-TM, I-OG, I-AF
-13	##을	O	O	O, I-TM, I-AF, I-OG, B-TM
-14	지나	O	O	O, B-TM, B-OG, B-LC, B-CV
-15	##면서	O	O	O, B-OG, B-LC, B-CV, B-PS
-16	시위대	O	O	O, B-CV, B-OG, B-PS, B-AF
-17	##들이	O	O	O, I-CV, I-OG, B-PS, I-AF
-18	외치	O	O	O, B-CV, B-TM, B-LC, B-PS
-19	##는	O	O	O, B-CV, B-PS, B-LC, B-OG
-20	“	O	O	O, B-CV, B-LC, B-QT, B-PS
-21	이것	O	O	O, B-PS, B-AF, B-LC, B-OG
-22	##이	O	O	O, B-PS, I-AF, I-PS, I-OG
-23	민주주의	B-TR	B-TR	B-TR, O, I-TR, B-PS, B-CV
-24	##다	O	O	O, I-TR, I-AF, I-PS, I-OG
-25	”	O	O	O, B-CV, B-LC, B-PS, B-QT
-26	,	O	O	O, B-CV, B-LC, B-PS, B-TM
-27	“	O	O	O, B-CV, B-LC, B-QT, B-TM
-28	1	B-QT	B-QT	B-QT, O, I-QT, B-CV, B-EV
-29	##인	I-QT	I-QT	I-QT, O, B-QT, I-EV, I-CV
-30	##1	B-QT	B-QT	B-QT, I-QT, O, B-CV, B-EV
-31	##표	I-QT	I-QT	I-QT, O, I-CV, I-EV, B-QT
-32	”	O	O	O, I-QT, B-CV, I-CV, I-EV
-33	등	O	O	O, B-CV, B-TM, B-QT, B-LC
-34	##의	O	O	O, B-CV, B-PS, B-TM, I-QT
-35	구호	O	O	O, B-CV, B-TM, B-AF, B-FD
-36	소리	O	O	O, B-TM, B-PS, B-CV, B-QT
-37	##가	O	O	O, B-CV, B-PS, B-OG, B-LC
-38	커졌	O	O	O, B-CV, B-TM, B-QT, B-OG
-39	##다	O	O	O, B-CV, B-TM, I-OG, I-CV
-40	.	O	O	O, B-CV, B-LC, B-PS, B-OG
-41	[SEP]	O	O	O, B-CV, B-LC, B-AF, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	영화	O	O
+2	##여서	O	O
+3	약간	O	O
+4	그	O	O
+5	뭐	O	O
+6	##랄	O	O
+7	##까	O	O
+8	아이	O	B-AF
+9	##애	O	I-AF
+10	아이	B-AF	I-AF
+11	캔	I-AF	I-AF
+12	스피	I-AF	I-AF
+13	##크	I-AF	I-AF
+14	##를	O	O
+15	연출	O	O
+16	##한	O	O
+17	것	O	O
+18	##과	O	O
+19	[SEP]	O	O

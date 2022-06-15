@@ -1,64 +1,69 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	서울	B-LC	B-LC	B-LC, O, B-OG, B-AF, B-PS
-2	양천구	B-LC	B-LC	B-LC, I-LC, O, B-OG, B-AF
-3	목동	B-LC	B-LC	B-LC, I-LC, O, B-OG, B-AF
-4	##의	O	O	O, I-LC, B-LC, I-AF, I-OG
-5	V	B-OG	O	O, B-OG, B-TM, B-QT, B-CV
-6	##공	I-OG	O	O, I-OG, B-OG, B-CV, B-QT
-7	##인	I-OG	O	O, I-OG, I-CV, I-QT, B-OG
-8	##중	I-OG	O	O, I-OG, B-OG, B-QT, B-CV
-9	##개	I-OG	O	O, I-OG, I-QT, I-CV, B-OG
-10	##사	I-OG	O	O, I-OG, I-QT, I-CV, B-QT
-11	대표	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-QT
-12	##는	O	O	O, I-CV, I-QT, B-CV, I-EV
-13	“	O	O	O, B-CV, B-LC, B-QT, B-TM
-14	현대	B-AF	B-OG	B-OG, B-AF, O, B-PS, B-TM
-15	##하이	I-AF	I-OG	I-OG, I-AF, B-AF, I-PS, B-OG
-16	##페	I-AF	I-AF	I-AF, I-OG, I-PS, O, I-TM
-17	##리	I-AF	I-AF	I-AF, I-OG, I-PS, O, I-TM
-18	##온	I-AF	I-AF	I-AF, I-OG, I-PS, O, I-TM
-19	전용	O	O	O, I-AF, I-OG, I-TM, B-TM
-20	155	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-LC
-21	.	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-22	58	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-23	##m	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-24	##²	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-25	시가	O	O	O, I-QT, B-QT, B-CV, B-LC
-26	##가	O	O	O, I-QT, B-PS, B-QT, B-OG
-27	15	B-QT	B-QT	B-QT, O, I-QT, B-PS, B-DT
-28	##억	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-29	##50	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-30	##00	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-31	##만	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-32	원	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-33	##이지	O	O	O, I-QT, B-CV, B-TM, B-OG
-34	##만	O	O	O, I-QT, B-LC, B-QT, B-PS
-35	실제	O	O	O, B-QT, B-CV, B-LC, B-TM
-36	거래	O	O	O, B-CV, B-TM, B-LC, B-QT
-37	##는	O	O	O, B-CV, B-LC, B-OG, B-QT
-38	1	B-QT	B-QT	B-QT, O, I-QT, B-PS, B-LC
-39	##억	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-40	원	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-41	##을	O	O	O, I-QT, B-CV, B-TM, B-QT
-42	깎	O	O	O, B-QT, B-CV, I-QT, B-TM
-43	##은	O	O	O, B-QT, B-CV, B-PS, B-LC
-44	14	B-QT	B-QT	B-QT, I-QT, O, B-PS, B-DT
-45	##억	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-46	##50	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-47	##00	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-48	##만	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-49	원	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-50	수준	O	O	O, I-QT, B-CV, I-CV, I-OG
-51	##에서	O	O	O, B-CV, I-QT, B-PS, B-QT
-52	##야	O	O	O, B-QT, B-CV, B-TM, B-PS
-53	이뤄지고	O	O	O, B-CV, B-TM, B-QT, B-OG
-54	있	O	O	O, B-CV, B-QT, B-TM, B-PS
-55	##다	O	O	O, B-CV, I-AF, B-TM, B-QT
-56	”	O	O	O, B-CV, B-TM, B-QT, I-QT
-57	고	O	O	O, B-CV, B-TM, B-QT, B-LC
-58	말	O	O	O, B-CV, B-TM, B-QT, I-QT
-59	##했	O	O	O, B-CV, B-QT, I-QT, B-TM
-60	##다	O	O	O, B-CV, B-TM, B-QT, B-LC
-61	.	O	O	O, B-LC, B-CV, B-PS, B-QT
-62	[SEP]	O	O	O, B-CV, B-LC, B-QT, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	노	B-PS	B-PS
+2	##병	I-PS	I-PS
+3	##용	I-PS	I-PS
+4	롯데마트	B-OG	B-OG
+5	사장	B-CV	B-CV
+6	##은	O	O
+7	중국	B-LC	B-LC
+8	지	B-LC	B-LC
+9	##린	I-LC	I-LC
+10	(	I-LC	I-LC
+11	吉	I-LC	O
+12	林	I-LC	O
+13	)	I-LC	O
+14	성	I-LC	I-LC
+15	창	O	O
+16	##춘	O	O
+17	(	O	O
+18	長	O	O
+19	春	O	O
+20	)	O	O
+21	시에	O	O
+22	##서	O	O
+23	31	B-DT	B-DT
+24	##일	I-DT	I-DT
+25	오픈	O	O
+26	##하	O	O
+27	##는	O	O
+28	글로벌	O	O
+29	200	B-QT	B-QT
+30	##호	I-QT	I-QT
+31	##점	I-QT	I-QT
+32	뤼	O	O
+33	##위	O	O
+34	##안	O	O
+35	(	O	O
+36	[UNK]	O	O
+37	園	O	O
+38	)	O	O
+39	점	O	O
+40	개점	O	O
+41	##식	O	O
+42	##을	O	O
+43	앞두	O	O
+44	##고	O	O
+45	30	B-DT	B-DT
+46	##일	I-DT	I-DT
+47	창	B-LC	B-LC
+48	##춘	I-LC	I-LC
+49	시	I-LC	I-LC
+50	샹	B-OG	B-AF
+51	##그	I-OG	I-AF
+52	##릴라	I-OG	I-AF
+53	호텔	I-OG	I-AF
+54	##에	O	O
+55	##서	O	O
+56	기자	O	O
+57	##간	O	O
+58	##담회	O	O
+59	##를	O	O
+60	열	O	O
+61	##고	O	O
+62	이렇게	O	O
+63	말	O	O
+64	##했	O	O
+65	##다	O	O
+66	.	O	O
+67	[SEP]	O	O

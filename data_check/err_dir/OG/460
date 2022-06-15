@@ -1,55 +1,37 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	이	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-2	국장	B-CV	B-CV	B-CV, O, I-CV, I-PS, B-OG
-3	##은	O	O	O, I-CV, B-CV, I-OG, I-QT
-4	""""	O	O	O, B-CV, B-LC, B-PS, B-OG
-5	구성	B-CV	B-CV	B-CV, O, B-FD, B-OG, I-CV
-6	##작	I-CV	I-CV	I-CV, B-CV, O, I-QT, I-OG
-7	##가	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-QT
-8	9	B-QT	B-QT	B-QT, O, I-QT, I-CV, B-PS
-9	##명	I-QT	I-QT	I-QT, O, I-CV, I-PS, B-QT
-10	##이	O	O	O, I-QT, B-PS, I-PS, B-OG
-11	일방	O	O	O, B-QT, B-PS, B-LC, B-TM
-12	해고	O	O	O, B-CV, I-QT, B-PS, B-QT
-13	##된	O	O	O, B-PS, B-OG, B-LC, B-CV
-14	게	O	O	O, B-PS, B-OG, B-LC, B-CV
-15	아니	O	O	O, B-PS, B-OG, B-CV, B-LC
-16	##라	O	O	O, B-PS, B-OG, B-LC, B-CV
-17	1	B-QT	B-QT	B-QT, O, I-QT, B-PS, B-DT
-18	##명	I-QT	I-QT	I-QT, O, I-PS, I-LC, B-QT
-19	##을	O	O	O, I-QT, B-CV, B-PS, I-OG
-20	그만두	O	O	O, B-CV, B-TM, B-OG, B-QT
-21	##게	O	O	O, B-PS, B-CV, B-OG, B-LC
-22	했으며	O	O	O, B-PS, B-LC, B-CV, B-OG
-23	,	O	O	O, B-PS, B-CV, B-LC, B-OG
-24	동료	B-CV	B-CV	B-CV, O, B-TM, I-CV, B-OG
-25	작가	B-CV	B-CV	B-CV, O, I-CV, B-FD, B-TM
-26	##들이	O	O	O, I-CV, B-CV, B-PS, I-OG
-27	동조	O	O	O, B-CV, B-PS, B-OG, B-TM
-28	##하면	O	O	O, B-PS, B-CV, B-OG, B-LC
-29	##서	O	O	O, B-CV, B-PS, B-OG, B-LC
-30	일	O	O	O, B-OG, B-PS, B-LC, B-QT
-31	##이	O	O	O, B-PS, B-OG, B-CV, B-LC
-32	커졌	O	O	O, B-CV, B-OG, B-PS, B-QT
-33	##다	O	O	O, B-CV, B-PS, I-OG, B-OG
-34	""""	O	O	O, B-CV, B-LC, B-TM, B-PS
-35	며	O	O	O, B-CV, B-OG, B-LC, B-PS
-36	""""	O	O	O, B-CV, B-LC, B-PS, B-TM
-37	사실상	O	O	O, B-PS, B-CV, B-LC, B-OG
-38	피해자	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-PS
-39	##는	O	O	O, I-CV, B-CV, B-PS, I-OG
-40	작가	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-FD
-41	##가	O	O	O, I-CV, B-PS, B-CV, I-OG
-42	아니	O	O	O, B-PS, B-CV, B-OG, B-LC
-43	##고	O	O	O, B-PS, B-LC, B-OG, B-CV
-44	광주	B-LC	B-OG	B-OG, B-LC, O, B-AF, B-PS
-45	##M	B-OG	I-OG	I-OG, B-OG, O, I-LC, I-AF
-46	##BC	I-OG	I-OG	I-OG, O, I-LC, I-AF, I-CV
-47	""""	O	O	O, I-OG, B-CV, I-CV, I-AF
-48	라고	O	O	O, B-CV, B-PS, I-OG, B-LC
-49	주장	O	O	O, B-CV, B-OG, B-TM, B-LC
-50	##했	O	O	O, B-CV, I-CV, B-PS, B-OG
-51	##다	O	O	O, B-CV, I-CV, B-TM, B-PS
-52	.	O	O	O, B-PS, B-CV, B-LC, B-OG
-53	[SEP]	O	O	O, B-CV, B-PS, B-LC, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	검찰청	B-CV	B-CV
+2	##법	I-CV	I-CV
+3	(	O	O
+4	8	B-QT	B-QT
+5	##조	I-QT	I-QT
+6	)	O	O
+7	에	O	O
+8	따르	O	O
+9	##면	O	O
+10	법무부	B-OG	B-OG
+11	##장	B-CV	B-CV
+12	##관	I-CV	I-CV
+13	##이	O	O
+14	구체	O	O
+15	##적	O	O
+16	사건	O	O
+17	##에	O	O
+18	대해선	O	O
+19	검찰	B-OG	B-CV
+20	##총장	B-CV	I-CV
+21	##을	O	O
+22	통해서	O	O
+23	##만	O	O
+24	지휘	O	O
+25	·	O	O
+26	감독	O	O
+27	##할	O	O
+28	수	O	O
+29	있	O	O
+30	##게	O	O
+31	돼	O	O
+32	있	O	O
+33	##다	O	O
+34	.	O	O
+35	[SEP]	O	O

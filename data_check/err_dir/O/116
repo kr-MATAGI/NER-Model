@@ -1,58 +1,18 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-QT
-1	1932	B-DT	B-DT	B-DT, O, B-QT, I-DT, B-LC
-2	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-3	만주	B-LC	B-LC	B-LC, O, B-OG, B-AF, I-DT
-4	하얼빈	B-LC	B-LC	B-LC, O, I-LC, B-OG, B-AF
-5	근교	O	O	O, I-LC, B-LC, B-TM, I-AF
-6	##에	O	O	O, I-LC, B-LC, B-PS, B-CV
-7	세워진	O	O	O, B-OG, B-LC, B-PS, B-CV
-8	73	B-OG	B-OG	B-OG, B-AF, O, I-OG, B-QT
-9	##1	I-OG	I-OG	I-OG, I-AF, I-QT, O, I-EV
-10	##부대	I-OG	I-OG	I-OG, I-AF, I-QT, O, I-EV
-11	##는	O	O	O, I-OG, I-AF, I-QT, I-EV
-12	존재	O	O	O, B-CV, B-LC, B-TM, B-OG
-13	자체	O	O	O, B-PS, B-CV, B-LC, B-QT
-14	##를	O	O	O, B-CV, B-LC, B-PS, B-TM
-15	철저	O	O	O, B-LC, B-CV, B-TM, B-PS
-16	##하	O	O	O, B-LC, B-PS, I-LC, B-OG
-17	##게	O	O	O, B-LC, B-PS, B-OG, I-LC
-18	비밀	O	O	O, B-LC, B-CV, B-TM, B-QT
-19	##에	O	O	O, B-LC, B-CV, B-PS, I-LC
-20	부친	O	O	O, B-LC, B-CV, B-QT, B-PS
-21	채	O	O	O, B-LC, B-PS, B-CV, B-DT
-22	포로	O	B-CV	B-CV, O, I-CV, B-AM, B-AF
-23	##로	O	O	O, I-CV, B-CV, B-PS, B-LC
-24	붙잡	O	O	O, B-CV, B-LC, B-PS, B-QT
-25	##은	O	O	O, B-CV, B-PS, B-LC, B-QT
-26	중국인	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-EV
-27	##과	O	O	O, I-CV, B-CV, I-QT, B-TM
-28	한국인	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-QT
-29	러시아인	B-CV	B-CV	B-CV, I-CV, O, B-TM, I-QT
-30	등	O	O	O, I-CV, B-CV, B-TM, I-QT
-31	##을	O	O	O, B-CV, B-TM, I-CV, B-LC
-32	상대	O	O	O, B-CV, B-LC, B-TM, B-EV
-33	##로	O	O	O, B-LC, B-PS, B-QT, B-CV
-34	각종	O	O	O, B-TM, B-LC, B-QT, B-CV
-35	세균	B-AM	B-AM	B-AM, O, B-TM, B-CV, B-PT
-36	실험	O	O	O, I-EV, B-CV, I-TR, I-QT
-37	##과	O	O	O, B-LC, B-PS, B-CV, B-OG
-38	독	B-MT	B-MT	B-MT, O, B-TM, B-TR, I-MT
-39	##가스	I-MT	I-MT	I-MT, O, B-MT, I-TM, I-TR
-40	실험	O	O	O, I-MT, I-EV, I-TR, I-TM
-41	등	O	O	O, B-CV, B-LC, B-PS, B-TM
-42	##을	O	O	O, B-CV, B-LC, B-OG, B-TM
-43	자행	O	O	O, B-LC, B-CV, B-OG, B-EV
-44	##한	O	O	O, B-LC, B-DT, B-OG, B-EV
-45	일제	B-OG	O	O, B-DT, B-LC, B-EV, B-OG
-46	전쟁	O	O	O, B-FD, I-EV, I-FD, B-EV
-47	##범죄	O	O	O, I-FD, I-EV, I-OG, I-CV
-48	##의	O	O	O, I-EV, B-PS, I-OG, I-FD
-49	대표	O	O	O, B-CV, B-QT, B-PS, B-AM
-50	격	O	O	O, I-CV, I-QT, B-PS, I-PS
-51	##으로	O	O	O, B-PS, I-CV, I-QT, B-CV
-52	지목	O	O	O, B-LC, B-PS, B-OG, B-CV
-53	##된	O	O	O, I-OG, B-PS, I-PS, B-LC
-54	##다	O	O	O, B-CV, I-OG, B-LC, I-QT
-55	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-56	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-FD
+	text	label	preds
+0	[CLS]	O	O
+1	달래	O	B-CV
+2	##서	O	O
+3	먹일	O	O
+4	##려	O	O
+5	##구요	O	O
+6	예	O	O
+7	그	O	O
+8	다음	O	O
+9	##에	O	O
+10	파	B-CV	B-CV
+11	##두	O	I-CV
+12	##요	O	O
+13	준비	O	O
+14	##하시	O	O
+15	##면	O	O
+16	[SEP]	O	O

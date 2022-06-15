@@ -1,18 +1,38 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	저	O	O	O, B-CV, B-OG, B-TM, B-LC
-2	가족	B-CV	B-CV	B-CV, O, I-CV, B-AF, B-OG
-3	구성원	B-CV	O	O, B-CV, I-CV, B-FD, B-TM
-4	##들이	O	O	O, I-CV, B-CV, I-AF, B-PS
-5	같이	O	O	O, B-CV, B-LC, B-TM, B-PS
-6	무슨	O	O	O, B-CV, B-LC, B-PS, B-TM
-7	문화	O	O	O, B-CV, B-FD, B-LC, B-TM
-8	##를	O	O	O, B-CV, I-CV, B-PS, I-AF
-9	가	O	O	O, B-CV, B-LC, B-PS, B-QT
-10	##꿀	O	O	O, I-CV, I-LC, B-LC, I-QT
-11	기회	O	O	O, B-CV, B-QT, B-PS, B-TM
-12	##가	O	O	O, B-PS, I-CV, B-CV, I-AF
-13	없	O	O	O, B-CV, B-TM, B-LC, B-PS
-14	##으니	O	O	O, B-CV, I-CV, B-PS, B-LC
-15	##까	O	O	O, B-CV, B-LC, B-OG, B-PS
-16	[SEP]	O	O	O, B-CV, B-LC, I-CV, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	문재인	B-PS	B-PS
+2	대표	B-CV	B-CV
+3	##가	O	O
+4	수석	B-OG	B-CV
+5	##사	I-OG	I-CV
+6	##무	I-OG	I-CV
+7	##부	I-OG	I-CV
+8	##총장	B-CV	I-CV
+9	##에	O	O
+10	친	O	O
+11	##노	O	O
+12	##계	O	O
+13	김경	B-PS	B-PS
+14	##협	I-PS	I-PS
+15	의원	B-CV	B-CV
+16	##을	O	O
+17	임명	O	O
+18	##하	O	O
+19	##려	O	O
+20	##다	O	O
+21	일부	O	O
+22	최고위	B-CV	B-CV
+23	##원	I-CV	I-CV
+24	##들	O	O
+25	반대	O	O
+26	##로	O	O
+27	두	B-QT	B-QT
+28	차례	I-QT	I-QT
+29	##나	O	O
+30	보류	O	O
+31	##했	O	O
+32	##다는	O	O
+33	것	O	O
+34	##이다	O	O
+35	.	O	O
+36	[SEP]	O	O

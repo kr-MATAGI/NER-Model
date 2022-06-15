@@ -1,29 +1,24 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	10	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-2	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
-3	끝난	O	O	O, I-DT, I-EV, B-EV, B-CV
-4	전국	B-EV	B-EV	B-EV, O, I-EV, B-CV, B-LC
-5	##선	I-EV	I-EV	I-EV, O, B-EV, I-AF, I-DT
-6	##수	I-EV	I-EV	I-EV, O, B-EV, I-AF, I-OG
-7	##권	I-EV	I-EV	I-EV, O, I-AF, B-EV, I-OG
-8	##대	I-EV	I-EV	I-EV, O, I-AF, B-EV, I-OG
-9	##회	I-EV	I-EV	I-EV, O, I-AF, I-OG, B-EV
-10	주니어	I-EV	O	O, B-CV, I-EV, B-TM, B-EV
-11	남자	I-EV	O	O, I-EV, I-CV, I-TM, I-AF
-12	싱글	I-EV	O	O, I-TM, I-CV, I-EV, I-AF
-13	##에서	O	O	O, I-CV, I-EV, I-AF, I-TM
-14	우승	O	O	O, B-CV, B-TM, B-PS, B-LC
-15	##한	O	O	O, B-PS, B-CV, B-OG, B-LC
-16	이동	B-PS	B-PS	B-PS, B-OG, O, B-LC, I-PS
-17	##원	I-PS	I-PS	I-PS, I-OG, I-LC, O, I-QT
-18	(	O	O	O, I-PS, I-OG, B-CV, I-QT
-19	13	B-QT	B-QT	B-QT, B-OG, B-LC, I-QT, O
-20	·	O	O	O, I-QT, I-OG, I-DT, I-LC
-21	과천	B-OG	B-OG	B-OG, B-LC, O, B-PS, B-QT
-22	##초	I-OG	I-OG	I-OG, I-LC, I-QT, O, I-PS
-23	)	O	O	O, I-OG, I-QT, I-LC, B-CV
-24	이	O	O	O, B-PS, B-CV, B-OG, B-LC
-25	주인공	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-PS
-26	.	O	O	O, I-CV, I-OG, I-EV, I-QT
-27	[SEP]	O	O	O, B-CV, B-LC, B-PS, I-CV
+	text	label	preds
+0	[CLS]	O	O
+1	3	B-EV	B-DT
+2	·	I-EV	I-DT
+3	1	I-EV	I-DT
+4	##운동	I-EV	I-DT
+5	즈음	O	I-DT
+6	태어난	O	O
+7	사람	O	O
+8	##이	O	O
+9	쓴	O	O
+10	새	O	O
+11	책	O	O
+12	##을	O	O
+13	보	O	O
+14	##는	O	O
+15	것	O	O
+16	##은	O	O
+17	정말	O	O
+18	드문	O	O
+19	일	O	O
+20	##이다	O	O
+21	.	O	O
+22	[SEP]	O	O

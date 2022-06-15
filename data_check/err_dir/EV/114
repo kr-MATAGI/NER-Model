@@ -1,22 +1,29 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, I-OG, B-CV, I-EV
-1	日	B-LC	B-LC	B-LC, B-OG, O, B-PS, B-AF
-2	자민	B-OG	B-OG	B-OG, I-OG, O, B-LC, B-AF
-3	##당	I-OG	I-OG	I-OG, O, I-LC, I-PS, I-AF
-4	내달	B-DT	B-DT	B-DT, O, I-DT, I-OG, B-LC
-5	참	B-EV	B-CV	B-CV, B-EV, O, B-FD, B-TM
-6	##의원	I-EV	I-CV	I-CV, I-EV, O, B-CV, I-OG
-7	선거	I-EV	O	O, I-EV, B-EV, I-CV, B-CV
-8	공약	O	O	O, I-EV, B-PS, B-CV, I-CV
-9	##에도	O	O	O, B-PS, B-CV, I-EV, B-OG
-10	""""	O	O	O, B-LC, B-CV, B-PS, B-OG
-11	교과서	O	O	O, B-AF, B-CV, B-OG, B-FD
-12	##의	O	O	O, B-PS, I-OG, B-CV, B-LC
-13	이웃	O	O	O, B-CV, B-LC, B-OG, I-CV
-14	##나라	O	O	O, I-CV, I-LC, B-CV, B-LC
-15	배려	O	O	O, I-CV, B-CV, I-LC, I-OG
-16	조항	O	O	O, I-CV, B-CV, I-LC, I-OG
-17	바꾸	O	O	O, I-CV, B-PS, B-CV, B-LC
-18	##겠다	O	O	O, B-CV, B-LC, B-PS, I-CV
-19	""""	O	O	O, B-CV, B-LC, B-PS, B-OG
-20	[SEP]	O	O	O, B-LC, B-CV, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	그	O	O
+2	##는	O	O
+3	지난해	B-DT	B-DT
+4	이스탄불	B-LC	B-LC
+5	##에	O	O
+6	##서	O	O
+7	열린	O	O
+8	‘	O	O
+9	이스탄불	B-LC	B-EV
+10	-	O	I-EV
+11	경주	B-LC	I-EV
+12	세계	B-EV	I-EV
+13	##문화	I-EV	I-EV
+14	##엑스	I-EV	I-EV
+15	##포	I-EV	I-EV
+16	’	O	O
+17	에	O	O
+18	깊	O	O
+19	##은	O	O
+20	인상	O	O
+21	##을	O	O
+22	받	O	O
+23	##았	O	O
+24	##다고	O	O
+25	한다	O	O
+26	.	O	O
+27	[SEP]	O	O

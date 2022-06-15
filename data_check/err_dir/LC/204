@@ -1,25 +1,33 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-QT
-1	한국	B-LC	B-OG	B-OG, B-LC, O, B-PS, B-AF
-2	##은	O	O	O, I-OG, I-LC, B-CV, B-OG
-3	3	B-QT	B-QT	B-QT, O, I-QT, B-TM, B-DT
-4	##승	I-QT	I-QT	I-QT, B-QT, O, I-LC, I-TM
-5	1	I-QT	I-QT	I-QT, B-QT, O, I-LC, I-TM
-6	##무	I-QT	I-QT	I-QT, B-QT, O, I-LC, I-TM
-7	3	I-QT	I-QT	I-QT, B-QT, O, I-LC, I-TM
-8	##패	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-TM
-9	(	O	O	O, I-QT, B-CV, I-OG, I-EV
-10	승점	O	B-QT	B-QT, O, B-TM, B-OG, B-AF
-11	10	B-QT	I-QT	I-QT, B-QT, O, I-TM, I-LC
-12	)	O	O	O, I-QT, I-OG, I-TM, I-CV
-13	로	O	O	O, B-CV, B-OG, B-TM, I-QT
-14	A	O	O	O, B-OG, B-EV, B-TM, B-LC
-15	##조	O	O	O, I-OG, I-EV, I-QT, B-OG
-16	2	B-QT	B-QT	B-QT, O, I-QT, B-TM, B-DT
-17	##위	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-OG
-18	##에	O	O	O, I-QT, I-OG, I-EV, B-CV
-19	올라	O	O	O, B-OG, B-LC, B-CV, B-TM
-20	있	O	O	O, I-OG, I-QT, B-CV, B-PS
-21	##다	O	O	O, B-CV, B-LC, I-OG, B-OG
-22	.	O	O	O, B-LC, B-OG, B-CV, B-TM
-23	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	신규	O	O
+2	건설	O	O
+3	원전	O	O
+4	##이	O	O
+5	동부	B-LC	B-TM
+6	연안	I-LC	O
+7	##에	O	O
+8	집중	O	O
+9	##된	O	O
+10	이유	O	O
+11	##는	O	O
+12	내륙	O	O
+13	##지역	O	O
+14	##에	O	O
+15	##서는	O	O
+16	2015	B-DT	B-DT
+17	##년	I-DT	I-DT
+18	##까	I-DT	I-DT
+19	##지	I-DT	I-DT
+20	신규	O	O
+21	건설	O	O
+22	##을	O	O
+23	중단	O	O
+24	##키	O	O
+25	##로	O	O
+26	했	O	O
+27	##기	O	O
+28	때문	O	O
+29	##이다	O	O
+30	.	O	O
+31	[SEP]	O	O

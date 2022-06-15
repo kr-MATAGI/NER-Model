@@ -1,87 +1,36 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-QT
-1	먼저	O	O	O, B-TM, B-CV, B-QT, B-LC
-2	세입자	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-TM
-3	지원	O	O	O, I-CV, B-CV, B-TM, I-TM
-4	##형	O	O	O, I-CV, I-TM, I-AF, I-OG
-5	##은	O	O	O, I-CV, B-CV, B-LC, B-PS
-6	세입자	B-CV	B-CV	B-CV, O, B-OG, B-TM, I-CV
-7	##가	O	O	O, I-CV, B-PS, B-CV, I-AF
-8	원하	O	O	O, B-LC, B-AF, B-TM, B-CV
-9	##는	O	O	O, B-PS, B-LC, B-CV, B-TM
-10	집	O	O	O, B-CV, B-AF, B-LC, B-TM
-11	##을	O	O	O, B-CV, B-PS, B-OG, B-LC
-12	에스	B-OG	B-OG	B-OG, O, I-OG, B-LC, B-PS
-13	##에이	I-OG	I-OG	I-OG, O, B-OG, I-AF, I-LC
-14	##치	I-OG	I-OG	I-OG, O, B-OG, I-LC, I-AF
-15	(	I-OG	I-OG	I-OG, O, B-OG, I-LC, I-AF
-16	SH	I-OG	I-OG	I-OG, B-OG, O, I-AF, I-EV
-17	)	I-OG	I-OG	I-OG, O, B-OG, I-AF, I-CV
-18	공사	I-OG	I-OG	I-OG, O, B-OG, I-CV, I-QT
-19	##의	O	O	O, I-OG, I-QT, B-TM, I-CV
-20	누리집	O	O	O, B-TM, B-LC, B-CV, B-AF
-21	(	O	O	O, B-LC, B-CV, B-OG, B-PS
-22	i	B-TM	B-TM	B-TM, O, B-QT, B-OG, I-TM
-23	-	I-TM	I-TM	I-TM, O, I-QT, I-OG, B-TM
-24	sh	I-TM	I-TM	I-TM, O, I-QT, I-OG, I-AF
-25	.	I-TM	I-TM	I-TM, O, I-QT, I-OG, I-AF
-26	co	I-TM	I-TM	I-TM, O, I-QT, I-OG, I-AF
-27	.	I-TM	I-TM	I-TM, O, I-QT, I-OG, I-AF
-28	kr	I-TM	I-TM	I-TM, O, I-QT, I-OG, I-AF
-29	)	O	O	O, I-TM, I-OG, I-QT, I-CV
-30	에서	O	O	O, B-LC, B-CV, B-PS, B-OG
-31	신청	O	O	O, B-TM, B-CV, B-LC, B-OG
-32	##하면	O	O	O, B-OG, B-LC, B-CV, B-PS
-33	공사	O	B-OG	B-OG, O, B-CV, I-OG, B-AF
-34	##가	O	O	O, I-OG, B-PS, I-CV, B-CV
-35	세입자	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-TM
-36	대신	O	O	O, I-CV, B-CV, B-TM, B-QT
-37	집	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-OG
-38	##주	I-CV	I-CV	I-CV, O, B-CV, I-TM, I-OG
-39	##인	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-TM
-40	##과	O	O	O, I-CV, B-CV, I-OG, I-QT
-41	전세	O	O	O, B-CV, B-AF, B-TM, B-OG
-42	계약	O	O	O, I-CV, I-AF, B-CV, I-OG
-43	##을	O	O	O, I-CV, B-CV, I-AF, I-OG
-44	맺	O	O	O, B-CV, B-LC, B-OG, B-TM
-45	##은	O	O	O, B-CV, B-LC, B-OG, B-PS
-46	뒤	O	O	O, B-CV, B-TM, B-LC, B-OG
-47	시세	O	O	O, B-CV, B-LC, B-TM, B-QT
-48	##의	O	O	O, B-CV, B-PS, B-LC, B-QT
-49	70	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-LC
-50	%	I-QT	I-QT	I-QT, O, I-LC, I-PS, I-OG
-51	수준	O	O	O, I-QT, B-CV, I-OG, B-TM
-52	##으로	O	O	O, B-CV, B-LC, B-OG, B-PS
-53	세입자	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-TM
-54	##와	O	O	O, I-CV, B-CV, I-OG, I-QT
-55	전전	O	O	O, B-CV, B-TR, B-FD, B-TM
-56	##세	O	O	O, I-CV, I-TR, B-CV, I-AF
-57	계약	O	O	O, I-CV, I-AF, I-TR, B-CV
-58	(	O	O	O, I-CV, B-CV, I-AF, I-OG
-59	전세	O	B-CV	B-CV, O, I-CV, B-TM, B-OG
-60	##권자	O	I-CV	I-CV, O, B-CV, I-TM, I-OG
-61	##가	O	O	O, I-CV, B-PS, B-CV, I-OG
-62	다시	O	O	O, B-CV, B-QT, B-TM, B-AF
-63	전세	O	O	O, B-CV, I-CV, B-AF, B-TM
-64	##를	O	O	O, I-CV, I-AF, B-CV, B-PS
-65	주	O	O	O, B-CV, B-AF, B-PS, B-LC
-66	##는	O	O	O, B-CV, B-LC, B-PS, I-CV
-67	계약	O	O	O, B-CV, I-CV, B-AF, B-LC
-68	)	O	O	O, B-CV, I-CV, B-LC, I-OG
-69	을	O	O	O, B-CV, B-OG, B-LC, B-AF
-70	맺	O	O	O, B-CV, B-OG, B-LC, B-TM
-71	##어	O	O	O, B-LC, B-OG, B-CV, B-PS
-72	나머지	O	O	O, B-QT, B-CV, B-TM, B-LC
-73	30	B-QT	B-QT	B-QT, I-QT, O, B-DT, B-LC
-74	%	I-QT	I-QT	I-QT, O, I-LC, I-PS, I-OG
-75	의	O	O	O, I-QT, B-CV, I-OG, I-EV
-76	보증금	O	O	O, B-CV, B-TM, B-AF, B-MT
-77	부담	O	O	O, B-CV, I-CV, B-TM, B-LC
-78	##을	O	O	O, B-CV, B-OG, B-TM, B-LC
-79	줄여	O	O	O, B-CV, B-LC, B-TM, B-QT
-80	##주	O	O	O, B-CV, B-LC, B-PS, I-QT
-81	##는	O	O	O, B-CV, B-OG, B-TM, B-LC
-82	방식	O	O	O, B-CV, B-TM, B-LC, I-CV
-83	##이다	O	O	O, B-CV, I-CV, B-TM, I-TM
-84	.	O	O	O, B-LC, B-CV, B-OG, B-PS
-85	[SEP]	O	O	O, B-LC, B-CV, B-TM, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	2	B-QT	B-QT
+2	―	I-QT	I-QT
+3	0	I-QT	I-QT
+4	##으로	O	O
+5	앞선	O	O
+6	7	B-EV	B-EV
+7	##회	I-EV	I-EV
+8	##에	O	O
+9	##는	O	O
+10	다시	O	O
+11	탈	B-PS	B-PS
+12	##보트	I-PS	I-PS
+13	##를	O	O
+14	상대	O	O
+15	##로	O	O
+16	오른쪽	B-TM	B-TM
+17	장외	O	O
+18	##로	O	O
+19	향하	O	O
+20	##는	O	O
+21	비	O	B-TM
+22	##거리	O	I-TM
+23	130	B-QT	B-QT
+24	##m	I-QT	I-QT
+25	##의	O	O
+26	시즌	O	O
+27	17	B-QT	B-QT
+28	##호	I-QT	I-QT
+29	홈런	B-TM	B-TM
+30	##을	O	O
+31	때렸	O	O
+32	##다	O	O
+33	.	O	O
+34	[SEP]	O	O

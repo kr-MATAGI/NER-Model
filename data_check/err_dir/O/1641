@@ -1,24 +1,44 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, I-OG, I-EV, B-CV
-1	남북	B-LC	B-EV	B-EV, B-OG, B-LC, O, B-CV
-2	##대	O	I-EV	I-EV, O, B-EV, I-OG, B-CV
-3	##화	O	I-EV	I-EV, O, I-OG, I-AF, I-CV
-4	협상	O	O	O, I-EV, B-EV, I-OG, I-AF
-5	##도	O	O	O, I-EV, I-OG, I-AF, I-CV
-6	보	O	O	O, B-CV, B-OG, B-PS, B-LC
-7	##면	O	O	O, B-PS, I-OG, B-OG, I-AF
-8	좀	O	O	O, B-CV, B-LC, B-OG, B-PS
-9	아주	O	O	O, B-CV, B-PS, B-LC, B-TM
-10	살	O	O	O, B-AM, B-TM, B-PS, B-TR
-11	살	O	O	O, B-AM, I-AM, B-TM, B-PS
-12	##얼	O	O	O, I-AM, B-AM, I-TM, I-PS
-13	##음	O	O	O, I-AM, I-TM, B-AM, I-PS
-14	##판	O	O	O, I-AM, I-TM, B-AM, I-PS
-15	같	O	O	O, I-TM, I-PS, I-QT, I-CV
-16	##으	O	O	O, B-CV, B-PS, I-CV, I-AF
-17	##고	O	O	O, I-AF, B-CV, I-CV, B-PS
-18	말	O	O	O, B-CV, B-AM, B-LC, B-TM
-19	##이	O	O	O, B-PS, I-CV, B-CV, I-AF
-20	##죠	O	O	O, I-OG, I-AF, I-CV, B-CV
-21	?	O	O	O, I-AF, B-CV, I-OG, B-LC
-22	[SEP]	O	O	O, B-CV, B-LC, I-EV, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	지미	B-PS	B-PS
+2	카터	I-PS	I-PS
+3	(	O	O
+4	90	B-QT	B-QT
+5	)	O	O
+6	전	O	O
+7	미국	B-LC	B-LC
+8	대통령	B-CV	B-CV
+9	##은	O	O
+10	미국	B-LC	B-LC
+11	##의	O	O
+12	대북	O	B-CV
+13	경제	O	I-CV
+14	##제	O	I-CV
+15	##재	O	I-CV
+16	##로	O	O
+17	북한	B-LC	B-LC
+18	국민	B-CV	B-CV
+19	##들	O	O
+20	##만	O	O
+21	고통	O	O
+22	##을	O	O
+23	당하	O	O
+24	##고	O	O
+25	있	O	O
+26	##다고	O	O
+27	지적	O	O
+28	##하면	O	O
+29	##서	O	O
+30	오바마	B-PS	B-PS
+31	행정부	B-OG	B-OG
+32	##에	O	O
+33	정책	O	O
+34	전환	O	O
+35	##을	O	O
+36	강하	O	O
+37	##게	O	O
+38	촉구	O	O
+39	##했	O	O
+40	##다	O	O
+41	.	O	O
+42	[SEP]	O	O

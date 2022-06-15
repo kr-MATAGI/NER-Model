@@ -1,73 +1,16 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	하	B-PS	B-PS	B-PS, O, B-OG, B-LC, B-AF
-2	사장	B-CV	B-CV	B-CV, O, I-CV, I-PS, B-TM
-3	##은	O	O	O, I-CV, B-CV, I-EV, I-QT
-4	ICT	B-FD	B-FD	B-FD, O, B-TR, I-FD, B-TM
-5	##노	O	O	O, I-FD, I-TR, I-CV, B-CV
-6	##믹	O	O	O, I-CV, I-TR, I-FD, I-PS
-7	##스	O	O	O, I-CV, I-PS, I-TR, I-OG
-8	사회	O	O	O, I-TR, I-CV, B-FD, I-FD
-9	##의	O	O	O, B-PS, B-LC, B-OG, B-CV
-10	미래	O	O	O, B-FD, B-LC, B-CV, B-TM
-11	##를	O	O	O, B-CV, B-PS, B-OG, B-LC
-12	조명	O	O	O, B-CV, B-LC, B-OG, B-TM
-13	##하	O	O	O, B-PS, B-CV, B-OG, B-LC
-14	##며	O	O	O, B-LC, B-OG, B-CV, B-DT
-15	△	O	O	O, B-LC, B-CV, B-TM, B-QT
-16	##사	B-FD	B-FD	B-FD, O, B-TM, B-TR, B-AF
-17	##물	I-FD	O	O, I-FD, I-TM, B-FD, I-TR
-18	##인	I-FD	I-FD	I-FD, O, I-TM, B-FD, I-TR
-19	##터	I-FD	I-FD	I-FD, O, I-TM, I-TR, B-FD
-20	##넷	I-FD	I-FD	I-FD, O, I-TM, I-TR, B-FD
-21	(	O	O	O, I-TM, I-FD, I-OG, I-AF
-22	IoT	B-FD	O	O, B-FD, B-TM, B-TR, B-AF
-23	·	O	O	O, I-OG, I-FD, I-TM, I-QT
-24	Intern	O	O	O, B-LC, B-PS, B-FD, B-OG
-25	##et	O	O	O, B-LC, I-LC, B-PS, I-OG
-26	of	O	O	O, B-LC, B-PS, I-LC, I-OG
-27	Th	O	O	O, B-LC, I-LC, B-PS, I-OG
-28	##ings	O	O	O, B-LC, I-LC, B-FD, B-PS
-29	)	O	O	O, B-CV, B-LC, I-OG, B-OG
-30	△	O	O	O, B-LC, B-PS, B-CV, B-QT
-31	##빅	O	B-FD	B-FD, O, B-TM, B-TR, B-AF
-32	##데이	O	O	O, I-FD, I-TM, I-TR, I-AF
-33	##터	O	O	O, I-FD, I-TM, I-TR, I-AF
-34	△	O	O	O, I-TM, I-FD, B-LC, B-PS
-35	##인	B-FD	O	O, B-FD, B-TR, B-TM, B-CV
-36	##공	I-FD	O	O, I-FD, I-TR, I-TM, I-CV
-37	##지능	I-FD	O	O, I-FD, I-TR, I-TM, I-LC
-38	△	O	O	O, B-LC, B-PS, B-TM, B-CV
-39	##3	B-QT	B-TM	B-TM, B-QT, B-TR, O, B-AF
-40	##차	I-QT	I-TM	I-TM, I-QT, I-TR, B-TM, O
-41	##원	I-QT	I-TM	I-TM, I-TR, I-QT, O, B-TM
-42	(	O	I-TM	I-TM, B-TM, O, I-TR, I-QT
-43	3	O	I-TM	I-TM, B-TM, I-TR, I-QT, O
-44	##D	O	I-TM	I-TM, I-QT, I-TR, O, B-TM
-45	)	O	I-TM	I-TM, O, B-TM, I-TR, I-QT
-46	프린터	B-TM	I-TM	I-TM, B-TM, O, I-TR, I-QT
-47	등	O	O	O, I-TM, I-QT, I-AF, I-OG
-48	4	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-EV
-49	##대	I-QT	I-QT	I-QT, O, I-TM, I-EV, I-LC
-50	분야	O	O	O, I-QT, B-CV, I-TM, I-EV
-51	##를	O	O	O, B-CV, B-LC, B-OG, B-TM
-52	향후	O	O	O, B-DT, B-PS, B-LC, B-CV
-53	10	B-DT	B-DT	B-DT, I-DT, O, B-PS, B-LC
-54	##년	I-DT	I-DT	I-DT, O, B-DT, I-PS, I-QT
-55	##간	I-DT	I-DT	I-DT, O, B-DT, I-PS, I-QT
-56	가장	O	O	O, I-DT, B-CV, B-LC, B-QT
-57	치열	O	O	O, B-LC, B-CV, B-OG, B-TM
-58	##한	O	O	O, B-LC, B-PS, B-OG, B-TM
-59	경쟁	O	O	O, B-LC, B-CV, B-FD, B-EV
-60	##이	O	O	O, B-PS, B-LC, B-OG, B-CV
-61	벌어질	O	O	O, B-CV, B-LC, B-PS, B-TM
-62	최대	O	O	O, B-CV, B-QT, B-LC, B-TM
-63	격	O	O	O, B-FD, B-LC, B-TM, B-AF
-64	##전	O	O	O, I-FD, I-LC, I-AF, B-FD
-65	산업	O	O	O, B-LC, B-FD, B-CV, B-TM
-66	##으로	O	O	O, B-CV, B-OG, B-LC, B-TM
-67	꼽	O	O	O, B-OG, B-CV, B-LC, B-TM
-68	##았	O	O	O, B-CV, I-CV, I-OG, B-PS
-69	##다	O	O	O, B-CV, B-TM, I-CV, I-OG
-70	.	O	O	O, B-LC, B-CV, B-FD, B-PS
-71	[SEP]	O	O	O, B-LC, B-CV, B-FD, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	자세히	O	O
+2	보	O	O
+3	##니	O	O
+4	입안	O	O
+5	곳곳	O	O
+6	##에	O	O
+7	빨간	O	O
+8	수포	B-TM	O
+9	##가	O	O
+10	있	O	O
+11	##었	O	O
+12	##다	O	O
+13	.	O	O
+14	[SEP]	O	O

@@ -1,22 +1,9 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	포수	B-CV	B-CV	B-CV, O, B-TM, B-AF, B-AM
-2	마스크	B-CV	O	O, B-CV, I-CV, B-TM, I-TM
-3	##를	O	O	O, I-CV, I-AF, I-TM, B-CV
-4	쓴	O	O	O, B-CV, B-PS, B-LC, B-OG
-5	5	B-TI	B-TI	B-TI, B-EV, B-QT, B-TR, B-TM
-6	##회	I-TI	I-TI	I-TI, I-EV, I-QT, B-TI, I-TR
-7	##말	I-TI	I-TI	I-TI, I-EV, I-QT, B-TI, I-TR
-8	수비	B-CV	B-CV	B-CV, O, B-OG, I-CV, I-EV
-9	땐	O	O	O, I-CV, I-EV, I-AF, I-OG
-10	빠른	O	O	O, B-TM, B-CV, B-AF, B-LC
-11	송구	O	B-TM	B-TM, O, I-TM, B-CV, B-QT
-12	##로	O	O	O, I-TM, I-QT, I-CV, I-AF
-13	도루	B-TM	B-TM	B-TM, O, I-TM, B-CV, B-QT
-14	저지	O	I-TM	I-TM, O, B-TM, I-QT, I-CV
-15	##까	O	O	O, I-TM, I-QT, I-CV, I-AF
-16	##지	O	O	O, B-CV, B-OG, B-QT, B-DT
-17	해냈	O	O	O, B-CV, B-TM, B-OG, B-QT
-18	##다	O	O	O, B-CV, B-TM, I-OG, I-CV
-19	.	O	O	O, B-CV, B-TM, B-LC, B-PS
-20	[SEP]	O	O	O, B-CV, B-TM, B-LC, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	새우	B-CV	B-CV
+2	##는	O	O
+3	제	O	O
+4	##가	O	O
+5	밑	O	B-TM
+6	##에	O	O
+7	[SEP]	O	O

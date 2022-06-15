@@ -1,14 +1,25 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, B-CV, I-OG, I-EV
-1	예	O	O	O, B-CV, B-OG, B-TM, B-LC
-2	.	O	O	O, B-PS, B-CV, B-LC, I-CV
-3	김	B-PS	B-PS	B-PS, B-OG, O, B-LC, I-PS
-4	##어	I-PS	I-PS	I-PS, B-PS, I-OG, O, I-LC
-5	##준	I-PS	I-PS	I-PS, O, I-OG, I-LC, B-PS
-6	공장장	B-CV	B-CV	B-CV, O, I-PS, I-CV, B-TM
-7	##에	O	O	O, I-CV, I-AF, I-EV, B-CV
-8	경제	O	B-FD	B-FD, B-CV, O, B-EV, B-TR
-9	선생	B-CV	I-CV	I-CV, B-CV, O, I-FD, I-QT
-10	##님	I-CV	I-CV	I-CV, O, B-CV, I-QT, I-FD
-11	.	O	O	O, I-CV, I-QT, I-OG, B-CV
-12	[SEP]	O	O	O, B-CV, B-LC, I-CV, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	11	B-OG	B-OG
+2	##번	I-OG	I-OG
+3	##가	I-OG	I-OG
+4	##나	O	O
+5	G	B-TM	B-OG
+6	##마켓	I-TM	I-OG
+7	##처럼	O	O
+8	다수	O	O
+9	##의	O	O
+10	상품	O	O
+11	판매자	B-CV	B-CV
+12	##가	O	O
+13	아이템	O	B-OG
+14	##마켓	O	I-OG
+15	##에	O	O
+16	입점	O	O
+17	##해	O	O
+18	제품	O	O
+19	##을	O	O
+20	판매	O	O
+21	##한다	O	O
+22	.	O	O
+23	[SEP]	O	O

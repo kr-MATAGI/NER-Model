@@ -1,31 +1,50 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	유	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
-2	의원	B-CV	B-CV	B-CV, O, I-PS, I-CV, B-TM
-3	부인	B-CV	O	O, B-CV, I-CV, B-TM, B-FD
-4	##에	O	O	O, I-CV, B-CV, B-PS, I-EV
-5	대한	O	O	O, B-LC, B-OG, B-PS, B-CV
-6	강도	O	O	O, B-PS, B-CV, B-LC, B-AF
-7	높	O	O	O, B-LC, B-PS, I-PS, B-CV
-8	##은	O	O	O, B-LC, B-OG, B-PS, B-CV
-9	조사	O	O	O, B-CV, B-LC, B-OG, B-PS
-10	##가	O	O	O, B-PS, B-LC, B-OG, B-CV
-11	진행	O	O	O, B-CV, B-OG, B-LC, B-TM
-12	##되	O	O	O, B-LC, B-CV, B-PS, B-OG
-13	##고	O	O	O, B-CV, B-LC, B-TM, B-PS
-14	있	O	O	O, B-CV, B-LC, B-OG, B-TM
-15	##으며	O	O	O, B-LC, B-CV, B-OG, B-TM
-16	,	O	O	O, B-CV, B-LC, B-OG, B-PS
-17	유	B-PS	B-PS	B-PS, O, B-LC, B-OG, I-PS
-18	의원	B-CV	B-CV	B-CV, O, I-CV, I-PS, B-TM
-19	##에	O	O	O, I-CV, B-CV, I-EV, I-AF
-20	대한	O	O	O, B-LC, B-CV, B-TM, B-OG
-21	조사	O	O	O, B-CV, B-LC, B-OG, B-TM
-22	##도	O	O	O, B-LC, B-CV, B-OG, B-PS
-23	불가피	O	O	O, B-LC, B-CV, B-OG, B-TM
-24	##할	O	O	O, B-LC, B-PS, B-OG, B-CV
-25	것	O	O	O, B-CV, B-LC, B-OG, B-PS
-26	##으로	O	O	O, B-CV, B-LC, B-OG, B-QT
-27	보인다	O	O	O, B-CV, B-OG, B-TM, B-LC
-28	.	O	O	O, B-LC, B-CV, B-OG, B-PS
-29	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	■	O	O
+2	김선	B-PS	B-PS
+3	##빈	I-PS	I-PS
+4	vs	O	O
+5	박	B-PS	B-PS
+6	##건	I-PS	I-PS
+7	##우	I-PS	I-PS
+8	기아	B-OG	B-OG
+9	타선	O	O
+10	##은	O	O
+11	‘	O	O
+12	타격	O	B-CV
+13	##왕	B-CV	I-CV
+14	’	O	O
+15	김선	B-PS	B-PS
+16	##빈	I-PS	I-PS
+17	,	O	O
+18	‘	O	O
+19	호	O	O
+20	##타	O	O
+21	##준	O	O
+22	##족	O	O
+23	’	O	O
+24	로저	O	O
+25	버	O	O
+26	##나	O	O
+27	##디	O	O
+28	##나가	O	O
+29	기회	O	O
+30	##를	O	O
+31	만들	O	O
+32	##면	O	O
+33	최형우	B-PS	B-PS
+34	,	O	O
+35	나지	B-PS	B-PS
+36	##완	I-PS	I-PS
+37	,	O	O
+38	안치	B-PS	B-PS
+39	##홍	I-PS	I-PS
+40	,	O	O
+41	이범	B-PS	B-PS
+42	##호	I-PS	I-PS
+43	등이	O	O
+44	해결사	O	O
+45	##로	O	O
+46	나선다	O	O
+47	.	O	O
+48	[SEP]	O	O

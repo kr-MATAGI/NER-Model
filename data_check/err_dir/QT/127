@@ -1,55 +1,57 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	나머지	O	O	O, B-QT, B-TM, B-CV, B-LC
-2	7500	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-LC
-3	##억	I-QT	I-QT	I-QT, O, I-LC, I-DT, I-PS
-4	##원	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-5	##을	O	O	O, I-QT, B-CV, B-TM, B-OG
-6	지원	O	O	O, B-CV, B-OG, B-TM, B-LC
-7	##하	O	O	O, B-OG, B-PS, B-LC, B-CV
-8	##는	O	O	O, B-CV, B-OG, B-LC, B-TM
-9	‘	O	O	O, B-CV, B-OG, B-LC, B-QT
-10	국가	B-CV	B-CV	B-CV, O, I-CV, B-AF, B-PS
-11	##장	I-CV	I-CV	I-CV, O, B-CV, I-AF, I-TM
-12	##학	I-CV	I-CV	I-CV, O, B-CV, I-TM, I-AF
-13	##금	I-CV	I-CV	I-CV, O, B-CV, I-TM, I-OG
-14	Ⅱ	B-QT	B-QT	B-QT, O, I-CV, I-QT, B-DT
-15	##유	I-QT	I-QT	I-QT, O, I-CV, B-QT, I-LC
-16	##형	I-QT	I-QT	I-QT, O, I-CV, B-QT, I-LC
-17	’	O	O	O, I-QT, I-CV, B-CV, I-OG
-18	은	O	O	O, B-CV, B-OG, B-LC, B-PS
-19	기초	O	B-CV	B-CV, O, I-CV, B-PT, B-QT
-20	##생활	O	I-CV	I-CV, O, B-CV, I-QT, I-TM
-21	##수	O	I-CV	I-CV, O, B-CV, I-QT, I-TM
-22	##급	O	I-CV	I-CV, O, B-CV, I-QT, I-TM
-23	대상자	O	I-CV	I-CV, O, B-CV, I-QT, I-TM
-24	##부터	O	O	O, I-CV, B-PS, B-QT, I-QT
-25	소득	O	O	O, B-QT, B-LC, B-CV, B-TM
-26	하위	B-QT	B-QT	B-QT, O, I-QT, B-TM, B-CV
-27	7	I-QT	B-QT	B-QT, I-QT, O, I-LC, B-DT
-28	##분	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-OG
-29	##위	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-OG
-30	##까	O	O	O, I-QT, B-QT, B-PS, I-DT
-31	##지	O	O	O, B-QT, I-QT, B-PS, B-OG
-32	##의	O	O	O, B-PS, I-QT, B-QT, B-LC
-33	학생	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-AF
-34	##들	O	O	O, I-CV, B-CV, I-QT, I-AF
-35	##을	O	O	O, B-CV, B-TM, B-PS, B-LC
-36	대상	O	O	O, B-CV, B-TM, B-QT, B-LC
-37	##으로	O	O	O, B-PS, B-OG, B-LC, B-CV
-38	하	O	O	O, B-OG, B-LC, B-PS, B-CV
-39	##며	O	O	O, B-LC, B-OG, B-CV, B-TM
-40	,	O	O	O, B-CV, B-OG, B-LC, B-TM
-41	대학	O	O	O, B-OG, B-CV, B-TM, I-OG
-42	##의	O	O	O, B-OG, I-OG, B-LC, B-PS
-43	자구	O	O	O, B-CV, B-OG, B-LC, B-TM
-44	##노	O	O	O, B-OG, B-LC, B-CV, B-PS
-45	##력	O	O	O, B-LC, B-OG, B-PS, I-OG
-46	##에	O	O	O, B-CV, B-LC, B-OG, B-TM
-47	따라	O	O	O, B-LC, B-OG, B-TM, B-PS
-48	차등	O	O	O, B-QT, B-TM, B-LC, B-CV
-49	지원	O	O	O, B-CV, I-QT, I-OG, B-OG
-50	##된	O	O	O, I-OG, B-LC, B-PS, B-OG
-51	##다	O	O	O, B-CV, I-OG, B-OG, B-TM
-52	.	O	O	O, B-LC, B-OG, B-PS, B-CV
-53	[SEP]	O	O	O, B-LC, B-CV, B-OG, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	이날	B-DT	B-DT
+2	신	O	B-TM
+3	##페	O	I-TM
+4	##리오	O	I-TM
+5	방식	O	O
+6	(	O	O
+7	숨	O	O
+8	##은	O	O
+9	12	B-TM	B-TM
+10	##개	I-TM	I-TM
+11	홀	I-TM	I-TM
+12	##에	O	O
+13	개인	O	O
+14	핸디	O	O
+15	##캡	O	O
+16	##을	O	O
+17	부과	O	O
+18	##해	O	O
+19	순위	O	O
+20	##를	O	O
+21	매기	O	O
+22	##는	O	O
+23	것	O	O
+24	)	O	O
+25	으로	O	O
+26	KIA	B-OG	B-OG
+27	박	B-PS	B-PS
+28	##흥	I-PS	I-PS
+29	##식	I-PS	I-PS
+30	코치	B-CV	B-CV
+31	##가	O	O
+32	우승	O	O
+33	(	O	O
+34	네트	O	O
+35	스코어	O	O
+36	70	B-QT	B-QT
+37	.	I-QT	I-QT
+38	6	I-QT	I-QT
+39	##타	I-QT	I-QT
+40	.	O	O
+41	79	B-QT	B-QT
+42	##타	I-QT	I-QT
+43	##에	O	O
+44	핸디	O	B-QT
+45	8	B-QT	I-QT
+46	.	I-QT	I-QT
+47	4	I-QT	I-QT
+48	적용	O	O
+49	)	O	O
+50	을	O	O
+51	차지	O	O
+52	##했	O	O
+53	##다	O	O
+54	.	O	O
+55	[SEP]	O	O

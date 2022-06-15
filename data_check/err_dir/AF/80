@@ -1,12 +1,54 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	일단	O	O	O, B-CV, B-DT, B-OG, B-LC
-2	삼	B-DT	B-DT	B-DT, I-DT, B-LC, O, B-EV
-3	##한	I-DT	I-DT	I-DT, O, B-DT, I-PS, I-LC
-4	##시대	I-DT	I-DT	I-DT, O, B-DT, I-AF, I-LC
-5	##에	O	O	O, I-DT, I-AF, I-EV, I-OG
-6	가야	B-AF	B-DT	B-DT, B-LC, O, B-FD, B-AF
-7	토기	I-AF	O	O, I-AF, B-AF, B-CV, I-DT
-8	##에	O	O	O, I-AF, I-CV, I-DT, B-CV
-9	##는	O	O	O, B-CV, I-AF, B-OG, B-LC
-10	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-DT
+	text	label	preds
+0	[CLS]	O	O
+1	실제	O	O
+2	15	B-DT	B-DT
+3	##일	I-DT	I-DT
+4	국제	O	O
+5	금융	O	O
+6	##시장	O	O
+7	##에	O	O
+8	##서	O	O
+9	일본	B-LC	B-LC
+10	##의	O	O
+11	국가	O	O
+12	##부	O	O
+13	##도	O	O
+14	위험	O	O
+15	##을	O	O
+16	나타내	O	O
+17	##는	O	O
+18	일본	B-LC	B-LC
+19	5	B-DT	B-DT
+20	##년	I-DT	I-DT
+21	만기	O	O
+22	국채	O	O
+23	신용	B-AF	B-AF
+24	##부	I-AF	I-AF
+25	##도	I-AF	I-AF
+26	##스	I-AF	I-AF
+27	##와	I-AF	I-AF
+28	##프	I-AF	I-AF
+29	(	I-AF	O
+30	CD	I-AF	B-AF
+31	##S	I-AF	I-AF
+32	)	I-AF	O
+33	프리미엄	I-AF	O
+34	##이	O	O
+35	18	B-QT	B-QT
+36	##b	I-QT	I-QT
+37	##p	I-QT	I-QT
+38	상승	O	O
+39	##한	O	O
+40	114	B-QT	B-QT
+41	##b	I-QT	I-QT
+42	##p	I-QT	I-QT
+43	##로	O	O
+44	사상	O	O
+45	최고	O	O
+46	##치	O	O
+47	##를	O	O
+48	기록	O	O
+49	##했	O	O
+50	##다	O	O
+51	.	O	O
+52	[SEP]	O	O

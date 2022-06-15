@@ -1,46 +1,14 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	203	B-DT	B-DT	B-DT, I-DT, O, B-QT, B-LC
-2	##5	I-DT	I-DT	I-DT, B-DT, O, I-QT, I-PS
-3	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-4	##까	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-5	##지	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-6	원전	O	O	O, B-AF, B-TM, B-LC, I-DT
-7	##을	O	O	O, B-CV, I-AF, B-OG, B-PS
-8	39	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-EV
-9	##기	I-QT	I-QT	I-QT, O, I-EV, I-LC, B-QT
-10	##가	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-EV
-11	##량	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-EV
-12	##으로	O	O	O, I-QT, B-PS, B-OG, B-CV
-13	늘리	O	O	O, B-LC, B-CV, B-OG, B-PS
-14	##기	O	O	O, B-PS, B-LC, B-OG, B-CV
-15	##로	O	O	O, B-PS, I-PS, B-CV, B-LC
-16	한	O	O	O, B-PS, B-LC, B-OG, B-CV
-17	정부	B-OG	B-OG	B-OG, O, I-OG, B-AF, B-LC
-18	##의	O	O	O, B-PS, I-OG, B-CV, I-PS
-19	증	O	O	O, B-TR, B-CV, B-PS, B-AF
-20	##핵	B-AF	O	O, I-TR, B-TR, B-PS, B-MT
-21	정책	O	O	O, I-CV, I-TR, I-AF, I-TM
-22	(	O	O	O, I-CV, B-CV, I-AF, B-PS
-23	2	B-QT	B-QT	B-QT, O, B-EV, B-DT, I-QT
-24	##차	I-QT	I-QT	I-QT, O, I-EV, I-DT, B-QT
-25	에너지	O	O	O, I-QT, B-CV, B-FD, B-PS
-26	##기	O	O	O, I-CV, I-TR, I-TM, I-AF
-27	##본	O	O	O, I-CV, I-TR, I-AF, I-TM
-28	##계	O	O	O, I-CV, I-TR, I-AF, I-TM
-29	##획	O	O	O, I-CV, I-TR, I-TM, I-AF
-30	)	O	O	O, I-CV, B-CV, I-AF, B-LC
-31	이	O	O	O, B-PS, B-OG, B-LC, B-CV
-32	확정	O	O	O, B-PS, B-CV, B-LC, B-OG
-33	##된	O	O	O, B-PS, B-LC, I-PS, I-CV
-34	이후	O	O	O, B-LC, B-PS, B-CV, B-OG
-35	처음	O	O	O, B-CV, B-QT, B-PS, B-LC
-36	##으로	O	O	O, B-CV, B-PS, B-OG, B-LC
-37	지어	O	O	O, B-CV, B-LC, B-AF, B-TM
-38	##지	O	O	O, B-CV, I-AF, B-TM, B-LC
-39	##는	O	O	O, B-CV, B-TM, B-LC, B-QT
-40	신규	O	O	O, B-AF, B-TM, B-LC, B-CV
-41	원전	O	O	O, B-AF, B-TM, B-LC, B-CV
-42	##이다	O	O	O, I-AF, B-CV, I-CV, I-TM
-43	.	O	O	O, B-LC, B-PS, B-CV, B-OG
-44	[SEP]	O	O	O, B-LC, B-CV, B-PS, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	나와	O	O
+2	창	B-AF	B-OG
+3	##경원	I-AF	I-OG
+4	##의	O	O
+5	사자	B-AM	B-AM
+6	##가	O	O
+7	다를	O	O
+8	게	O	O
+9	뭐	O	O
+10	##요	O	O
+11	.	O	O
+12	[SEP]	O	O

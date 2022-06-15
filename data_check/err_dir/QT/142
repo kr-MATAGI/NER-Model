@@ -1,28 +1,27 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	별도	O	O	O, B-TM, B-CV, B-LC, B-OG
-2	##의	O	O	O, B-CV, B-PS, B-TM, B-LC
-3	이용료	O	O	O, B-CV, B-TM, B-LC, I-CV
-4	##는	O	O	O, B-CV, B-TM, B-OG, B-LC
-5	없	O	O	O, B-CV, B-TM, B-QT, B-LC
-6	##고	O	O	O, B-TM, B-CV, B-PS, B-LC
-7	휴대	B-TM	B-TM	B-TM, O, B-CV, B-TR, I-TM
-8	##전	I-TM	I-TM	I-TM, O, I-CV, B-TM, I-TR
-9	##화	I-TM	I-TM	I-TM, O, I-CV, I-TR, I-QT
-10	통화	O	O	O, I-TM, B-CV, I-CV, I-TR
-11	##요금	O	O	O, B-CV, I-CV, I-TM, I-TR
-12	(	O	O	O, B-CV, B-QT, B-LC, I-CV
-13	초당	B-QT	B-QT	B-QT, O, B-DT, B-TI, B-TM
-14	1	I-QT	B-QT	B-QT, I-QT, O, B-DT, I-DT
-15	.	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-DT
-16	8	I-QT	I-QT	I-QT, B-QT, O, I-LC, I-PS
-17	##원	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-18	)	O	O	O, I-QT, B-CV, I-CV, I-OG
-19	만	O	O	O, B-QT, B-PS, I-QT, B-DT
-20	내면	O	O	O, B-CV, B-QT, B-TM, I-QT
-21	쓸	O	O	O, B-TM, B-CV, B-OG, B-LC
-22	수	O	O	O, B-CV, B-TM, B-PS, B-QT
-23	있	O	O	O, B-CV, B-TM, B-PS, B-QT
-24	##다	O	O	O, B-CV, B-TM, I-CV, B-QT
-25	.	O	O	O, B-CV, B-LC, B-TM, B-PS
-26	[SEP]	O	O	O, B-CV, B-TM, B-LC, B-QT
+	text	label	preds
+0	[CLS]	O	O
+1	두	B-QT	B-QT
+2	기관	I-QT	I-QT
+3	##은	O	O
+4	환승	O	O
+5	##손실	O	O
+6	##금	O	O
+7	가운데	O	O
+8	30	B-QT	B-QT
+9	%	I-QT	I-QT
+10	를	O	O
+11	경기도	B-OG	B-OG
+12	##가	O	O
+13	부담	O	O
+14	##하	O	O
+15	##고	O	O
+16	나머지	O	O
+17	##는	O	O
+18	반반	B-QT	O
+19	##씩	I-QT	O
+20	내기	O	O
+21	##로	O	O
+22	했	O	O
+23	##다	O	O
+24	.	O	O
+25	[SEP]	O	O

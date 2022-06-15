@@ -1,26 +1,42 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	지역	O	O	O, B-LC, B-PS, B-TR, B-OG
-2	##별	O	O	O, I-OG, I-LC, B-PS, I-PS
-3	·	O	O	O, B-PS, B-LC, B-OG, I-OG
-4	계층	O	O	O, B-PS, B-TR, B-LC, B-CV
-5	##별	O	O	O, B-PS, I-PS, B-LC, I-OG
-6	빈부	O	O	O, B-PS, B-TR, B-LC, B-CV
-7	양극	O	O	O, B-PS, B-TR, I-TR, B-CV
-8	##화	O	O	O, I-TR, B-PS, I-PS, I-CV
-9	##의	O	O	O, B-PS, B-LC, I-PS, B-CV
-10	간극	O	O	O, B-PS, B-LC, B-OG, B-CV
-11	##은	O	O	O, B-CV, B-LC, B-PS, B-OG
-12	더	O	O	O, B-CV, B-LC, B-PS, B-OG
-13	심해	O	O	O, B-PS, B-LC, B-CV, B-OG
-14	##져	O	O	O, B-PS, B-LC, B-CV, B-QT
-15	‘	O	O	O, B-LC, B-CV, B-OG, B-PS
-16	두	B-QT	B-QT	B-QT, O, I-QT, B-CV, B-DT
-17	국민	I-QT	I-QT	I-QT, O, B-CV, I-CV, I-EV
-18	##화	I-QT	O	O, I-QT, I-TR, I-CV, I-EV
-19	’	O	O	O, I-QT, I-EV, I-OG, B-CV
-20	가	O	O	O, B-PS, B-OG, B-LC, B-CV
-21	이뤄졌	O	O	O, B-CV, B-OG, B-PS, B-LC
-22	##다	O	O	O, B-CV, I-OG, I-EV, B-PS
-23	.	O	O	O, B-LC, B-PS, B-CV, B-OG
-24	[SEP]	O	O	O, B-LC, B-CV, B-PS, B-FD
+	text	label	preds
+0	[CLS]	O	O
+1	김한길	B-PS	B-PS
+2	대표	B-CV	B-CV
+3	##의	O	O
+4	노	B-PS	B-PS
+5	##웅	I-PS	I-PS
+6	##래	I-PS	I-PS
+7	비서실	B-CV	B-CV
+8	##장	I-CV	I-CV
+9	##은	O	O
+10	""""	O	O
+11	대화	O	O
+12	##의	O	O
+13	원칙	O	O
+14	##을	O	O
+15	밝힌	O	O
+16	것	O	O
+17	##일	O	O
+18	뿐	O	O
+19	아직	O	O
+20	3	B-QT	B-EV
+21	##자	I-QT	I-EV
+22	회담	O	I-EV
+23	##과	O	O
+24	관련	O	O
+25	##해	O	O
+26	구체	O	O
+27	##적	O	O
+28	제안	O	O
+29	##이	O	O
+30	오가	O	O
+31	##진	O	O
+32	않	O	O
+33	##았	O	O
+34	##다	O	O
+35	""""	O	O
+36	고	O	O
+37	했	O	O
+38	##다	O	O
+39	.	O	O
+40	[SEP]	O	O

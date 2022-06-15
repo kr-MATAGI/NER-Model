@@ -1,29 +1,62 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	휴대	B-TM	B-TM	B-TM, O, B-CV, I-TM, B-AF
-2	##전	I-TM	I-TM	I-TM, O, B-TM, I-CV, I-AF
-3	##화	I-TM	I-TM	I-TM, O, I-CV, B-TM, I-AF
-4	한	B-QT	B-QT	B-QT, O, I-TM, I-QT, B-DT
-5	대당	I-QT	I-QT	I-QT, O, I-TM, I-DT, I-EV
-6	평균	O	O	O, I-QT, B-QT, B-DT, I-DT
-7	40	B-QT	B-QT	B-QT, I-QT, O, B-DT, B-PS
-8	##만	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-9	원	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-10	##에	O	O	O, I-QT, B-CV, I-OG, I-CV
-11	이르	O	O	O, B-OG, B-LC, B-TM, B-QT
-12	##는	O	O	O, B-LC, B-OG, B-PS, B-TM
-13	현행	O	O	O, B-TM, B-AF, B-LC, B-CV
-14	단말기	O	O	O, B-TM, B-AF, B-CV, B-LC
-15	보조금	O	B-CV	B-CV, O, I-CV, B-AF, B-PS
-16	##이	O	O	O, I-CV, B-PS, B-CV, I-AF
-17	27	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-PS
-18	##만	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-19	원	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-20	##으로	O	O	O, I-QT, B-CV, B-OG, B-TM
-21	제한	O	O	O, B-CV, B-TM, B-LC, B-OG
-22	##되	O	O	O, B-PS, B-LC, B-CV, B-OG
-23	##기	O	O	O, B-CV, B-PS, B-TM, B-LC
-24	때문	O	O	O, B-CV, B-TM, B-QT, B-LC
-25	##이다	O	O	O, B-CV, B-TM, B-QT, I-CV
-26	.	O	O	O, B-LC, B-TM, B-PS, B-CV
-27	[SEP]	O	O	O, B-CV, B-TM, B-LC, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	오스트리아	B-LC	B-LC
+2	출신	O	O
+3	##의	O	O
+4	페르	B-PS	B-PS
+5	##디	I-PS	I-PS
+6	##난	I-PS	I-PS
+7	##트	I-PS	I-PS
+8	포르쉐	I-PS	I-PS
+9	(	O	O
+10	P	O	B-PS
+11	##ors	O	I-PS
+12	##che	O	I-PS
+13	·	O	O
+14	187	B-DT	B-DT
+15	##5	I-DT	I-DT
+16	~	I-DT	I-DT
+17	1951	I-DT	I-DT
+18	)	O	O
+19	는	O	O
+20	1931	B-DT	B-DT
+21	##년	I-DT	I-DT
+22	포르쉐	B-OG	B-OG
+23	##사	I-OG	I-OG
+24	##를	O	O
+25	설립	O	O
+26	##했	O	O
+27	##고	O	O
+28	1937	B-DT	B-DT
+29	##년	I-DT	I-DT
+30	나치	B-OG	B-OG
+31	독일	B-LC	B-LC
+32	##이	O	O
+33	세운	O	O
+34	회사	O	O
+35	폴크스	B-OG	B-OG
+36	##바겐	I-OG	I-OG
+37	##에	O	O
+38	##서	O	O
+39	국민	B-CV	B-AF
+40	##자동	B-AF	I-AF
+41	##차	I-AF	I-AF
+42	'	O	O
+43	비틀	B-AF	B-AF
+44	'	O	O
+45	을	O	O
+46	설계	O	O
+47	##해	O	O
+48	독일	B-LC	B-LC
+49	자동차	B-AF	B-AF
+50	##업	O	O
+51	##계	O	O
+52	##에	O	O
+53	지대	O	O
+54	##한	O	O
+55	영향	O	O
+56	##을	O	O
+57	끼쳤	O	O
+58	##다	O	O
+59	.	O	O
+60	[SEP]	O	O

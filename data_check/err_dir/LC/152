@@ -1,11 +1,29 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	'	O	O	O, B-CV, B-LC, B-OG, B-DT
-2	조선	B-LC	B-DT	B-DT, O, B-LC, B-AF, B-PS
-3	여인	O	O	O, I-AF, I-PS, I-DT, I-OG
-4	##의	O	O	O, I-AF, I-OG, I-PS, I-CV
-5	생식	B-TM	B-TM	B-TM, B-AM, O, I-AF, B-TR
-6	##기	I-TM	I-TM	I-TM, I-AM, O, I-AF, I-TR
-7	'	O	O	O, I-TM, I-AF, I-CV, I-OG
-8	.	O	O	O, B-OG, B-CV, B-LC, I-OG
-9	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-FD
+	text	label	preds
+0	[CLS]	O	O
+1	오후	B-TI	B-TI
+2	##에	O	O
+3	##는	O	O
+4	명동	B-AF	B-AF
+5	##성	I-AF	I-AF
+6	##당	I-AF	I-AF
+7	##을	O	O
+8	방문	O	O
+9	##한	O	O
+10	뒤	O	O
+11	명동	B-LC	B-LC
+12	##거리	I-LC	O
+13	##에	O	O
+14	##서	O	O
+15	젊	O	O
+16	##은	O	O
+17	##층	O	O
+18	##의	O	O
+19	표	O	O
+20	##심	O	O
+21	잡	O	O
+22	##기에	O	O
+23	주력	O	O
+24	##했	O	O
+25	##다	O	O
+26	.	O	O
+27	[SEP]	O	O

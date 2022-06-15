@@ -1,60 +1,102 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	공천	B-CV	B-CV	B-CV, O, B-OG, I-CV, B-TM
-2	##심	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-QT
-3	##사위	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-QT
-4	##원	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-QT
-5	##으로	O	O	O, I-CV, I-OG, B-PS, B-CV
-6	##는	O	O	O, B-PS, B-CV, B-OG, B-LC
-7	김세	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-8	##연	I-PS	I-PS	I-PS, O, I-OG, I-LC, B-PS
-9	제	B-QT	B-CV	B-CV, B-QT, O, B-OG, B-TM
-10	##1	I-QT	I-CV	I-CV, I-QT, I-OG, O, I-LC
-11	##사	B-CV	I-CV	I-CV, B-CV, I-QT, O, I-OG
-12	##무	I-CV	I-CV	I-CV, I-QT, O, B-CV, I-OG
-13	##부	I-CV	I-CV	I-CV, B-CV, I-QT, O, I-OG
-14	##총장	I-CV	I-CV	I-CV, B-CV, I-QT, O, I-OG
-15	##과	O	O	O, I-CV, I-QT, I-OG, B-CV
-16	전	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
-17	##희	I-PS	I-PS	I-PS, O, I-OG, B-PS, I-LC
-18	##재	I-PS	I-PS	I-PS, O, I-OG, I-LC, B-PS
-19	제	B-QT	B-CV	B-CV, B-QT, O, B-OG, B-LC
-20	##2	I-QT	I-CV	I-CV, I-QT, I-OG, O, I-LC
-21	##사	B-CV	I-CV	I-CV, B-CV, I-QT, O, I-OG
-22	##무	I-CV	I-CV	I-CV, I-QT, B-CV, O, I-OG
-23	##부	I-CV	I-CV	I-CV, B-CV, I-QT, O, I-OG
-24	##총장	I-CV	I-CV	I-CV, B-CV, I-QT, O, I-OG
-25	##이	O	O	O, I-CV, I-QT, B-PS, I-OG
-26	당연	O	O	O, B-CV, B-QT, B-TM, I-CV
-27	##직	O	O	O, I-CV, I-QT, B-CV, I-OG
-28	##으로	O	O	O, I-CV, B-PS, I-QT, I-OG
-29	참여	O	O	O, B-CV, B-PS, B-OG, B-LC
-30	##하고	O	O	O, B-PS, B-CV, B-OG, B-LC
-31	김재원	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
-32	당	O	O	O, B-CV, B-OG, I-PS, B-PS
-33	전략	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-TM
-34	##기획	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-QT
-35	##본부	I-CV	I-CV	I-CV, B-CV, O, I-OG, I-QT
-36	##장	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-QT
-37	,	O	O	O, I-CV, I-OG, I-QT, B-CV
-38	김정	B-PS	B-PS	B-PS, O, B-LC, B-OG, I-PS
-39	전	O	O	O, I-PS, I-OG, I-LC, B-PS
-40	의원	B-CV	B-CV	B-CV, O, I-CV, B-QT, B-TM
-41	,	O	O	O, I-CV, B-CV, I-QT, I-OG
-42	조	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
-43	##은희	I-PS	I-PS	I-PS, O, I-OG, I-LC, B-PS
-44	전	O	O	O, I-PS, B-CV, B-LC, I-OG
-45	서울시	B-LC	B-LC	B-LC, B-OG, O, B-AF, B-PS
-46	정무	B-OG	B-CV	B-CV, O, I-CV, B-LC, B-OG
-47	##부	I-OG	I-CV	I-CV, O, B-CV, I-LC, I-OG
-48	##시장	B-CV	I-CV	I-CV, O, B-CV, I-OG, I-QT
-49	등	O	O	O, I-CV, B-CV, I-QT, B-PS
-50	##이	O	O	O, B-PS, B-CV, B-LC, B-OG
-51	참여	O	O	O, B-CV, B-TM, B-LC, B-OG
-52	##할	O	O	O, B-PS, B-OG, B-CV, B-LC
-53	것	O	O	O, B-CV, B-PS, B-QT, B-OG
-54	##으로	O	O	O, B-CV, B-PS, B-LC, B-OG
-55	알려졌	O	O	O, B-OG, B-CV, B-LC, B-TM
-56	##다	O	O	O, B-CV, B-OG, B-LC, I-OG
-57	.	O	O	O, B-PS, B-LC, B-CV, B-OG
-58	[SEP]	O	O	O, B-PS, B-CV, B-LC, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	이에	O	O
+2	대해	O	O
+3	‘	O	O
+4	한	B-OG	B-OG
+5	-	I-OG	I-OG
+6	미	I-OG	I-OG
+7	자유	I-OG	I-OG
+8	##무역	I-OG	I-OG
+9	##협	I-OG	I-OG
+10	##정	I-OG	I-OG
+11	저지	O	I-OG
+12	범	B-OG	I-OG
+13	##국	I-OG	I-OG
+14	##민	I-OG	I-OG
+15	##운동	I-OG	I-OG
+16	##본부	I-OG	I-OG
+17	’	O	O
+18	는	O	O
+19	성명서	O	O
+20	##를	O	O
+21	내	O	O
+22	##어	O	O
+23	“	O	O
+24	피디	B-AF	B-AF
+25	##수	I-AF	I-AF
+26	##첩	I-AF	I-AF
+27	대법원	B-OG	B-OG
+28	무죄	O	O
+29	판결	O	O
+30	##의	O	O
+31	잉크	O	O
+32	##가	O	O
+33	마르	O	O
+34	##기	O	O
+35	##도	O	O
+36	전	O	O
+37	##에	O	O
+38	또	O	O
+39	##다	O	O
+40	##시	O	O
+41	정책	O	O
+42	##을	O	O
+43	비판	O	O
+44	##한	O	O
+45	언론	O	O
+46	##을	O	O
+47	공무원	B-CV	B-CV
+48	##이	O	O
+49	형사	O	O
+50	##고	O	O
+51	##발	O	O
+52	##했	O	O
+53	##다	O	O
+54	”	O	O
+55	며	O	O
+56	“	O	O
+57	언론	O	O
+58	통제	O	O
+59	수단	O	O
+60	##으로	O	O
+61	공무원	B-CV	B-CV
+62	개인	O	O
+63	##의	O	O
+64	명예훼손	B-CV	B-CV
+65	고소	O	O
+66	##를	O	O
+67	이용	O	O
+68	##하	O	O
+69	##는	O	O
+70	잘못	O	O
+71	##된	O	O
+72	구태	O	O
+73	##가	O	O
+74	되풀이	O	O
+75	##돼	O	O
+76	민주주의	B-TR	B-TR
+77	기본	O	O
+78	##질서	O	O
+79	##인	O	O
+80	건전	O	O
+81	##한	O	O
+82	여론	O	O
+83	형성	O	O
+84	##과	O	O
+85	언론	O	O
+86	자유	O	O
+87	##를	O	O
+88	위협	O	O
+89	##할	O	O
+90	위험	O	O
+91	##이	O	O
+92	크	O	O
+93	##다	O	O
+94	”	O	O
+95	고	O	O
+96	비판	O	O
+97	##했	O	O
+98	##다	O	O
+99	.	O	O
+100	[SEP]	O	O

@@ -1,24 +1,32 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	하	O	O	O, B-CV, B-OG, B-TM, B-LC
-2	.	O	O	O, B-CV, B-LC, B-PS, I-OG
-3	옛날	O	O	O, B-DT, B-CV, B-LC, B-AF
-4	##에	O	O	O, B-PS, B-CV, I-DT, B-OG
-5	티비	B-TM	B-EV	B-EV, B-TM, B-AF, O, B-LC
-6	시사	O	I-EV	I-EV, O, I-AF, B-EV, B-FD
-7	##토	O	I-EV	I-EV, O, I-AF, I-OG, I-FD
-8	##론	O	I-EV	I-EV, O, I-AF, I-OG, I-CV
-9	뭐	O	O	O, I-EV, I-AF, I-OG, I-CV
-10	이런	O	O	O, B-CV, I-EV, B-OG, B-LC
-11	데	O	O	O, B-CV, B-OG, B-LC, B-PS
-12	나왔	O	O	O, B-CV, B-PS, B-OG, B-LC
-13	##을	O	O	O, B-CV, B-PS, B-LC, B-OG
-14	때	O	O	O, B-CV, B-PS, B-QT, B-DT
-15	##보	O	O	O, B-CV, B-PS, B-DT, I-DT
-16	##다	O	O	O, B-CV, B-PS, B-DT, I-DT
-17	더	O	O	O, B-CV, B-LC, B-QT, B-OG
-18	긴장	O	O	O, B-CV, B-EV, B-AF, B-TM
-19	##돼	O	O	O, I-CV, I-AF, I-EV, B-CV
-20	##요	O	O	O, B-CV, B-OG, I-OG, I-AF
-21	.	O	O	O, B-CV, B-LC, B-PS, B-OG
-22	[SEP]	O	O	O, B-CV, B-LC, B-PS, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	비	O	O
+2	##공	O	O
+3	##학	O	O
+4	##계	O	O
+5	##열	O	O
+6	학생	B-CV	B-CV
+7	##들이	O	O
+8	프라임	B-TM	B-TM
+9	##사업	I-TM	I-TM
+10	선정	O	O
+11	##으로	O	O
+12	가장	O	O
+13	크	O	O
+14	##게	O	O
+15	체감	O	O
+16	##할	O	O
+17	변화	O	O
+18	중	O	O
+19	하나	O	B-QT
+20	##는	O	O
+21	바로	O	O
+22	융합	O	O
+23	##형	O	O
+24	교육	O	O
+25	##과	O	O
+26	##정	O	O
+27	강화	O	O
+28	##다	O	O
+29	.	O	O
+30	[SEP]	O	O

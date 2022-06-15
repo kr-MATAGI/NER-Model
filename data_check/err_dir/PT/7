@@ -1,30 +1,22 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, B-CV, I-OG, I-AF
-1	아	O	O	O, B-CV, B-TM, B-OG, B-QT
-2	나	O	O	O, B-CV, B-PS, I-CV, B-TM
-3	##는	O	O	O, B-CV, I-CV, B-PS, B-TM
-4	저기	O	O	O, B-CV, B-TM, B-QT, B-LC
-5	고기	B-CV	B-CV	B-CV, O, B-PT, I-CV, B-AM
-6	##도	O	O	O, I-CV, B-CV, I-AF, I-QT
-7	안	O	O	O, B-QT, B-CV, I-CV, I-QT
-8	사	O	O	O, B-CV, B-QT, I-QT, I-CV
-9	먹	O	O	O, B-CV, I-CV, B-QT, I-QT
-10	##고	O	O	O, B-CV, I-CV, B-PS, I-QT
-11	저기	O	O	O, B-CV, B-TM, B-QT, B-PS
-12	배추	B-PT	B-CV	B-CV, B-PT, O, I-CV, B-AM
-13	##만	O	O	O, I-CV, I-QT, B-QT, I-LC
-14	사	O	O	O, B-CV, B-QT, I-CV, I-QT
-15	먹	O	O	O, B-CV, I-CV, I-QT, B-QT
-16	##을	O	O	O, B-CV, I-CV, B-PS, I-QT
-17	##래	O	O	O, B-CV, I-CV, I-QT, B-PS
-18	하고	O	O	O, B-CV, B-PS, B-TM, B-QT
-19	배추	B-PT	B-CV	B-CV, B-PT, O, I-CV, B-AM
-20	##만	O	O	O, I-CV, I-QT, B-QT, I-DT
-21	사시	O	O	O, B-CV, B-QT, B-PS, I-QT
-22	##는	O	O	O, B-CV, I-CV, I-QT, B-QT
-23	분	O	O	O, B-CV, B-QT, B-PS, I-CV
-24	##도	O	O	O, I-CV, B-CV, I-QT, B-QT
-25	있	O	O	O, B-CV, B-QT, I-CV, B-PS
-26	##잖아요	O	O	O, B-CV, I-CV, I-QT, I-OG
-27	.	O	O	O, B-CV, B-PS, B-QT, B-LC
-28	[SEP]	O	O	O, B-CV, B-TM, B-QT, I-CV
+	text	label	preds
+0	[CLS]	O	O
+1	문제	O	O
+2	##는	O	O
+3	축하	O	O
+4	난	B-PT	O
+5	거부	O	O
+6	##가	O	O
+7	대통령	B-CV	B-CV
+8	##의	O	O
+9	뜻	O	O
+10	##이	O	O
+11	아니	O	O
+12	##라면	O	O
+13	더	O	O
+14	심각	O	O
+15	##하	O	O
+16	##다는	O	O
+17	점	O	O
+18	##이다	O	O
+19	.	O	O
+20	[SEP]	O	O

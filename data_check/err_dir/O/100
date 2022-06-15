@@ -1,56 +1,57 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-EV, I-CV, I-OG
-1	중국	B-LC	B-LC	B-LC, B-OG, O, B-PS, B-AF
-2	당국	O	O	O, I-OG, B-OG, I-LC, B-CV
-3	##은	O	O	O, I-OG, B-CV, B-LC, I-CV
-4	6	B-QT	B-QT	B-QT, O, B-EV, I-QT, B-DT
-5	##차	I-QT	I-QT	I-QT, O, I-EV, I-DT, I-TI
-6	핵실험	O	O	O, I-QT, I-EV, B-LC, B-AF
-7	8	O	B-TI	B-TI, O, B-EV, B-DT, I-TI
-8	##분	O	I-TI	I-TI, O, I-QT, I-EV, I-TR
-9	뒤	O	I-TI	I-TI, O, I-TR, I-QT, I-DT
-10	##에	O	O	O, I-TI, B-LC, I-EV, B-PS
-11	핵실험	O	O	O, B-LC, B-AF, B-CV, B-PS
-12	지역	O	O	O, B-LC, I-LC, B-PS, I-AF
-13	##에서	O	O	O, B-LC, B-PS, B-OG, B-CV
-14	진	O	O	O, B-LC, B-PS, B-AF, B-TM
-15	##앙	O	O	O, I-LC, B-LC, I-PS, I-AF
-16	##이	O	O	O, B-PS, B-LC, I-LC, B-OG
-17	지표	O	O	O, B-LC, B-TM, B-CV, B-AF
-18	##면	O	O	O, I-LC, I-TM, B-LC, B-TM
-19	##인	O	O	O, B-LC, B-PS, I-LC, B-AF
-20	규모	O	B-QT	B-QT, O, B-TM, I-QT, B-TI
-21	4	O	I-QT	I-QT, B-QT, I-LC, I-TM, O
-22	.	O	I-QT	I-QT, O, I-LC, B-QT, I-TM
-23	6	O	I-QT	I-QT, O, I-LC, B-QT, I-AF
-24	##의	O	O	O, I-QT, I-EV, I-AF, B-LC
-25	지진	O	O	O, B-LC, B-TM, B-CV, B-EV
-26	##이	O	O	O, B-PS, B-LC, B-OG, B-CV
-27	발생	O	O	O, B-CV, B-LC, B-OG, B-TM
-28	##했	O	O	O, B-LC, B-CV, B-PS, B-OG
-29	##으며	O	O	O, B-LC, B-CV, B-TM, B-OG
-30	,	O	O	O, B-CV, B-LC, B-OG, B-TM
-31	이	O	O	O, B-LC, B-PS, B-CV, B-EV
-32	지진	O	O	O, B-LC, I-EV, B-CV, B-EV
-33	##은	O	O	O, B-LC, B-CV, I-EV, B-PS
-34	핵	B-AF	B-AF	B-AF, O, B-MT, B-PS, I-AF
-35	##폭	O	O	O, I-AF, I-EV, B-LC, I-LC
-36	##발	O	O	O, I-EV, I-LC, I-AF, B-LC
-37	##이	O	O	O, B-PS, B-LC, B-OG, B-CV
-38	야기	O	O	O, B-CV, B-LC, B-TM, I-EV
-39	##한	O	O	O, B-LC, B-PS, B-OG, B-CV
-40	붕괴	O	O	O, B-LC, B-CV, B-TM, I-EV
-41	##에	O	O	O, B-CV, B-PS, B-LC, I-EV
-42	따른	O	O	O, B-LC, B-TM, B-CV, B-QT
-43	것	O	O	O, B-CV, B-LC, B-PS, B-TM
-44	##으로	O	O	O, B-CV, B-LC, B-PS, B-TM
-45	판단	O	O	O, B-CV, B-LC, B-TM, B-QT
-46	##하고	O	O	O, B-CV, B-LC, B-PS, I-CV
-47	있	O	O	O, B-CV, B-LC, B-TM, B-OG
-48	##는	O	O	O, B-CV, B-LC, B-TM, B-QT
-49	것	O	O	O, B-CV, B-LC, B-PS, B-TM
-50	##으로	O	O	O, B-CV, B-LC, B-TM, I-OG
-51	알려졌	O	O	O, B-CV, B-LC, B-TM, B-OG
-52	##다	O	O	O, B-CV, I-CV, I-OG, B-LC
-53	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-54	[SEP]	O	O	O, B-LC, B-CV, B-PS, I-EV
+	text	label	preds
+0	[CLS]	O	O
+1	지난해	B-DT	B-DT
+2	8	I-DT	I-DT
+3	~	I-DT	I-DT
+4	10	I-DT	I-DT
+5	##월	I-DT	I-DT
+6	학교	O	O
+7	##폭력	O	O
+8	실태	O	O
+9	##조사	O	O
+10	##에	O	O
+11	##서도	O	O
+12	특이	O	O
+13	##한	O	O
+14	점	O	O
+15	##은	O	O
+16	없	O	O
+17	##었	O	O
+18	##으며	O	O
+19	,	O	O
+20	비정규직	B-CV	B-CV
+21	상담	O	B-CV
+22	##사	O	I-CV
+23	##가	O	O
+24	근무	O	O
+25	##하	O	O
+26	##는	O	O
+27	위	O	B-OG
+28	##클	O	I-OG
+29	##래	O	I-OG
+30	##스	O	I-OG
+31	(	O	O
+32	학교	O	O
+33	##상	O	O
+34	##담	O	O
+35	##교	O	O
+36	##실	O	O
+37	)	O	O
+38	등	O	O
+39	##에	O	O
+40	##서	O	O
+41	학교	O	O
+42	##폭력	O	O
+43	등의	O	O
+44	문제	O	O
+45	##로	O	O
+46	상담	O	O
+47	##을	O	O
+48	받	O	O
+49	##은	O	O
+50	적도	O	O
+51	없	O	O
+52	##었	O	O
+53	##다	O	O
+54	.	O	O
+55	[SEP]	O	O

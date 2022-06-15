@@ -1,32 +1,50 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-AF, I-CV
-1	D	B-AF	B-AF	B-AF, O, B-TM, I-AF, B-LC
-2	##F	I-AF	I-AF	I-AF, O, I-TM, B-AF, I-QT
-3	-	I-AF	I-AF	I-AF, O, I-TM, B-AF, I-QT
-4	21	I-AF	I-AF	I-AF, O, I-TM, I-QT, B-AF
-5	##D	I-AF	I-AF	I-AF, O, I-QT, I-TM, B-AF
-6	##는	O	O	O, I-AF, I-TM, I-QT, I-EV
-7	사정	O	O	O, I-AF, B-AF, B-TM, B-LC
-8	##거리	O	O	O, B-QT, I-AF, B-LC, I-LC
-9	2700	B-QT	B-QT	B-QT, I-QT, O, B-DT, B-LC
-10	~	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-DT
-11	3000	I-QT	I-QT	I-QT, B-QT, O, I-LC, I-PS
-12	##㎞	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-13	##인	O	O	O, I-QT, B-PS, B-LC, B-OG
-14	최신	O	O	O, B-CV, B-AF, B-TM, B-LC
-15	##형	O	O	O, I-AF, B-LC, B-PS, B-AF
-16	대	O	B-AF	B-AF, O, B-LC, B-OG, I-AF
-17	##함	O	I-AF	I-AF, O, I-LC, I-OG, B-AF
-18	탄도	B-AF	B-AF	B-AF, I-AF, O, B-TM, B-LC
-19	##미사	I-AF	I-AF	I-AF, O, B-AF, I-TM, I-LC
-20	##일	I-AF	I-AF	I-AF, O, I-TM, B-AF, I-LC
-21	##로	O	O	O, I-AF, I-TM, I-OG, I-EV
-22	항공모함	B-AF	B-AF	B-AF, O, B-LC, I-AF, B-OG
-23	정밀	O	O	O, I-AF, B-TM, B-CV, B-LC
-24	타격	O	O	O, I-AF, B-LC, B-TM, B-CV
-25	##이	O	O	O, B-PS, B-LC, B-OG, B-CV
-26	가능	O	O	O, B-CV, B-LC, B-TM, B-PS
-27	##하	O	O	O, B-LC, B-PS, B-OG, I-AF
-28	##다	O	O	O, B-CV, B-LC, B-TM, I-AF
-29	.	O	O	O, B-AF, B-LC, I-AF, B-PS
-30	[SEP]	O	O	O, B-AF, I-AF, B-LC, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	김	B-PS	B-PS
+2	후보자	B-CV	B-CV
+3	##는	O	O
+4	이날	B-DT	B-DT
+5	청와대	B-OG	B-OG
+6	예비	B-EV	B-EV
+7	##인	I-EV	I-EV
+8	##사	I-EV	I-EV
+9	##청	I-EV	I-EV
+10	##문	I-EV	I-EV
+11	##회	I-EV	I-EV
+12	##에	O	O
+13	##서	O	O
+14	“	O	O
+15	군	O	B-OG
+16	##에	O	O
+17	대한	O	O
+18	정신	O	O
+19	##교육	O	O
+20	##이	O	O
+21	필요	O	O
+22	##하	O	O
+23	##고	O	O
+24	,	O	O
+25	북한	B-OG	B-OG
+26	##이	O	O
+27	도발	O	O
+28	##해	O	O
+29	##오	O	O
+30	##면	O	O
+31	어떤	O	O
+32	경우	O	O
+33	##에도	O	O
+34	강력히	O	O
+35	대처	O	O
+36	##해야	O	O
+37	한다	O	O
+38	”	O	O
+39	고	O	O
+40	말	O	O
+41	##했	O	O
+42	##다고	O	O
+43	참석자	B-CV	B-CV
+44	##들이	O	O
+45	전했	O	O
+46	##다	O	O
+47	.	O	O
+48	[SEP]	O	O

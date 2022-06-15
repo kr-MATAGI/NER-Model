@@ -1,8 +1,32 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-AF, I-OG
-1	양	O	B-AM	B-AM, O, B-CV, B-TM, B-PS
-2	옆구리	B-AM	I-AM	I-AM, B-AM, I-CV, O, I-TM
-3	##에	O	O	O, I-CV, I-TM, I-QT, I-AF
-4	끼	O	O	O, B-CV, B-AM, B-PS, I-CV
-5	##고	O	O	O, I-AF, I-CV, B-CV, I-QT
-6	[SEP]	O	O	O, B-CV, B-LC, I-AF, B-AM
+	text	label	preds
+0	[CLS]	O	O
+1	당시	O	O
+2	38	B-QT	B-QT
+3	##세	I-QT	I-QT
+4	##였	O	O
+5	##던	O	O
+6	리즈	B-PS	B-PS
+7	##는	O	O
+8	12	B-DT	B-DT
+9	##일	I-DT	I-DT
+10	보도	O	O
+11	##된	O	O
+12	뉴욕	B-OG	B-OG
+13	##타임	I-OG	I-OG
+14	##스	I-OG	I-OG
+15	(	O	O
+16	NYT	B-OG	B-OG
+17	)	O	O
+18	인터뷰	O	O
+19	##에	O	O
+20	##서	O	O
+21	“	O	O
+22	트럼프	B-PS	B-PS
+23	##는	O	O
+24	마치	O	O
+25	문어	B-AM	O
+26	같	O	O
+27	##았	O	O
+28	##다	O	O
+29	.	O	O
+30	[SEP]	O	O

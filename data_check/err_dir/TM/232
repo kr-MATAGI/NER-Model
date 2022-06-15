@@ -1,52 +1,30 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	베를린	B-OG	B-EV	B-EV, B-OG, B-LC, B-AF, B-PS
-2	필	I-OG	I-EV	I-EV, I-OG, I-AF, I-LC, I-PS
-3	홈페이지	O	O	O, I-EV, I-OG, I-AF, I-LC
-4	##에	O	O	O, B-CV, B-OG, B-TM, I-EV
-5	마련	O	O	O, B-TM, B-CV, B-LC, B-OG
-6	##된	O	O	O, B-LC, B-PS, B-TM, B-CV
-7	디지털	B-TM	O	O, B-EV, B-TM, B-TR, B-FD
-8	##콘서트	I-TM	O	O, I-EV, I-FD, I-AF, I-TM
-9	(	O	O	O, I-EV, I-OG, I-AF, I-TM
-10	www	B-TM	B-TM	B-TM, O, I-TM, B-QT, B-CV
-11	.	I-TM	I-TM	I-TM, O, I-QT, B-TM, I-AF
-12	d	I-TM	I-TM	I-TM, O, I-QT, B-TM, I-AF
-13	##igital	I-TM	I-TM	I-TM, O, I-QT, B-TM, I-AF
-14	##con	I-TM	I-TM	I-TM, O, I-QT, I-AF, B-TM
-15	##ce	I-TM	I-TM	I-TM, O, I-QT, I-AF, I-OG
-16	##r	I-TM	I-TM	I-TM, O, I-QT, I-AF, I-OG
-17	##th	I-TM	I-TM	I-TM, O, I-QT, I-AF, I-OG
-18	##all	I-TM	I-TM	I-TM, O, I-QT, I-AF, I-OG
-19	.	I-TM	I-TM	I-TM, O, I-QT, I-AF, I-OG
-20	com	I-TM	I-TM	I-TM, O, I-QT, I-AF, I-OG
-21	/	I-TM	I-TM	I-TM, O, I-QT, I-AF, I-OG
-22	en	I-TM	I-TM	I-TM, O, I-QT, I-AF, I-OG
-23	/	I-TM	I-TM	I-TM, O, I-QT, I-AF, I-OG
-24	l	I-TM	I-TM	I-TM, O, I-QT, I-AF, I-OG
-25	##ive	I-TM	I-TM	I-TM, O, I-QT, I-AF, I-OG
-26	)	O	O	O, I-TM, I-QT, I-OG, I-EV
-27	에	O	O	O, B-CV, B-LC, B-OG, B-TM
-28	접속	O	O	O, B-TM, B-CV, B-LC, B-OG
-29	##해	O	O	O, B-LC, B-TM, B-PS, B-CV
-30	9	B-QT	B-QT	B-QT, I-QT, O, B-LC, B-DT
-31	.	I-QT	I-QT	I-QT, O, I-LC, I-TM, I-PS
-32	9	I-QT	I-QT	I-QT, I-LC, B-QT, O, I-PS
-33	##유	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-34	##로	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-OG
-35	(	O	O	O, I-QT, B-CV, I-OG, I-CV
-36	약	B-QT	B-QT	B-QT, I-QT, O, B-DT, B-LC
-37	1	I-QT	I-QT	I-QT, B-QT, O, I-LC, I-DT
-38	##만	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-39	##40	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-40	##00	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-41	##원	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-42	)	O	O	O, I-QT, B-CV, I-OG, I-CV
-43	의	O	O	O, B-CV, B-OG, B-LC, B-TM
-44	티켓	O	O	O, B-CV, B-TM, B-AF, B-FD
-45	##을	O	O	O, B-CV, B-OG, B-TM, I-EV
-46	구매	O	O	O, B-CV, B-TM, B-LC, B-OG
-47	##하면	O	O	O, B-CV, B-TM, B-LC, B-OG
-48	된다	O	O	O, B-CV, B-TM, B-LC, B-OG
-49	.	O	O	O, B-TM, B-LC, B-CV, B-OG
-50	[SEP]	O	O	O, B-TM, B-CV, B-LC, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	이날	B-DT	B-DT
+2	벌어진	O	O
+3	벽화	O	O
+4	그리	O	O
+5	##기	O	O
+6	##는	O	O
+7	서대문구	B-LC	B-OG
+8	(	O	O
+9	구청장	B-CV	B-CV
+10	현	B-PS	B-PS
+11	##동	I-PS	I-PS
+12	##훈	I-PS	I-PS
+13	)	O	O
+14	와	O	O
+15	금호	B-OG	B-OG
+16	##건설	I-OG	I-OG
+17	##이	O	O
+18	마련	O	O
+19	##한	O	O
+20	'	O	O
+21	빛	B-TM	O
+22	그린	I-TM	O
+23	어울림	I-TM	O
+24	마을	I-TM	O
+25	'	O	O
+26	프로그램	O	O
+27	.	O	O
+28	[SEP]	O	O

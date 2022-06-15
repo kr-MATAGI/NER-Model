@@ -1,13 +1,32 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	뭐	O	O	O, B-CV, B-TM, B-OG, I-CV
-2	흰	O	B-CV	B-CV, O, B-AM, B-PT, B-TM
-3	##자	O	I-CV	I-CV, O, I-AM, B-CV, I-PT
-4	노른자	O	O	O, B-CV, I-CV, B-AM, B-TM
-5	구분	O	O	O, I-CV, B-CV, I-QT, I-TM
-6	##이	O	O	O, B-CV, B-PS, B-OG, B-LC
-7	별로	O	O	O, B-CV, B-TM, B-OG, B-LC
-8	없	O	O	O, B-CV, B-TM, I-CV, B-OG
-9	##어요	O	O	O, B-CV, I-CV, B-OG, I-OG
-10	.	O	O	O, B-CV, B-LC, B-OG, B-PS
-11	[SEP]	O	O	O, B-CV, I-AF, I-CV, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	법률	O	B-CV
+2	전문가	B-CV	I-CV
+3	##들	O	O
+4	##은	O	O
+5	“	O	O
+6	집단	O	O
+7	##소송	O	O
+8	##을	O	O
+9	내기	O	O
+10	전	O	O
+11	##에	O	O
+12	소송	O	O
+13	##으로	O	O
+14	제대로	O	O
+15	보상	O	O
+16	받	O	O
+17	##을	O	O
+18	수	O	O
+19	있	O	O
+20	##는지	O	O
+21	##부터	O	O
+22	따져	O	O
+23	##봐야	O	O
+24	한다	O	O
+25	”	O	O
+26	고	O	O
+27	지적	O	O
+28	##한다	O	O
+29	.	O	O
+30	[SEP]	O	O

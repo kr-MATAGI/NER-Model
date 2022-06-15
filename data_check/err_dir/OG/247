@@ -1,36 +1,33 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, I-QT, I-EV
-1	왼손	B-AM	B-AM	B-AM, O, B-TR, B-PS, B-TM
-2	##에	O	O	O, I-QT, I-PS, B-PS, I-AF
-3	다이아몬드	B-MT	B-MT	B-MT, O, B-TM, B-TR, B-PS
-4	약혼	O	O	O, B-CV, B-AM, I-AF, I-CV
-5	##반	O	O	O, I-CV, I-AF, I-AM, I-TM
-6	##지	O	O	O, I-CV, I-AF, I-AM, I-TM
-7	##를	O	O	O, B-PS, I-AF, I-CV, B-AM
-8	낀	O	O	O, B-PS, B-AM, B-CV, B-LC
-9	샤	B-PS	B-PS	B-PS, I-PS, O, B-OG, B-LC
-10	##라	I-PS	I-PS	I-PS, O, I-OG, I-LC, B-PS
-11	##포	I-PS	I-PS	I-PS, O, I-OG, I-LC, B-PS
-12	##바	I-PS	I-PS	I-PS, O, I-OG, I-LC, B-PS
-13	##는	O	O	O, I-PS, I-OG, I-AF, B-CV
-14	“	O	O	O, B-PS, B-CV, B-OG, B-LC
-15	부	B-PS	B-PS	B-PS, O, B-LC, B-OG, I-PS
-16	##야	I-PS	I-PS	I-PS, I-OG, O, I-LC, B-PS
-17	##치	I-PS	I-PS	I-PS, O, I-OG, I-LC, B-PS
-18	##치	I-PS	I-PS	I-PS, O, I-OG, I-LC, B-PS
-19	##가	O	O	O, I-PS, I-OG, B-PS, I-LC
-20	LA	B-OG	B-OG	B-OG, B-LC, B-EV, B-AF, I-OG
-21	레이	I-OG	I-OG	I-OG, I-LC, I-EV, B-OG, I-PS
-22	##커스	I-OG	I-OG	I-OG, I-LC, I-EV, I-AF, I-PS
-23	##에서	O	O	O, I-OG, I-EV, I-LC, I-AF
-24	뉴저지	B-OG	B-LC	B-LC, B-OG, O, B-AF, B-PS
-25	##로	O	O	O, I-LC, I-OG, I-AF, I-PS
-26	옮겨	O	O	O, B-PS, B-CV, B-LC, B-OG
-27	자주	O	O	O, B-CV, I-OG, I-QT, B-OG
-28	보	O	O	O, B-CV, B-PS, B-OG, B-TM
-29	##기	O	O	O, B-PS, B-CV, B-OG, I-OG
-30	힘들	O	O	O, B-CV, I-OG, I-AF, I-QT
-31	##어졌	O	O	O, I-OG, B-CV, I-CV, I-QT
-32	##다	O	O	O, I-OG, B-CV, I-QT, I-CV
-33	.	O	O	O, B-PS, B-CV, I-OG, B-LC
-34	[SEP]	O	O	O, B-PS, B-CV, I-OG, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	피에르	B-OG	B-OG
+2	가	I-OG	I-OG
+3	##니	I-OG	I-OG
+4	##에르	I-OG	I-OG
+5	##는	O	O
+6	세계	O	O
+7	최고	O	O
+8	##의	O	O
+9	레스토랑	O	O
+10	##에	O	O
+11	##만	O	O
+12	주어지	O	O
+13	##는	O	O
+14	미	B-OG	B-CV
+15	##슐	I-OG	I-CV
+16	##랭	I-OG	I-CV
+17	3	B-QT	I-CV
+18	##스타	I-QT	I-CV
+19	##에	O	O
+20	빛나	O	O
+21	##는	O	O
+22	프랑스	B-LC	B-LC
+23	##의	O	O
+24	셰프	B-CV	B-CV
+25	(	O	O
+26	che	O	O
+27	##f	O	O
+28	)	O	O
+29	다	O	O
+30	.	O	O
+31	[SEP]	O	O

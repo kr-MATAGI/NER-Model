@@ -1,30 +1,6 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	캘	B-OG	B-OG	B-OG, O, I-OG, B-LC, B-PS
-2	##러	I-OG	I-OG	I-OG, O, B-OG, I-LC, I-CV
-3	##웨이	I-OG	I-OG	I-OG, O, I-CV, B-OG, I-LC
-4	##골	I-OG	I-OG	I-OG, O, B-OG, I-CV, I-LC
-5	##프	I-OG	I-OG	I-OG, O, I-CV, I-LC, I-QT
-6	##는	O	O	O, I-OG, I-QT, B-CV, I-EV
-7	올	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-8	1	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-9	##월	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-10	이	O	O	O, B-PS, B-AF, I-DT, B-TM
-11	스푼	O	B-CV	B-CV, O, B-AF, B-AM, B-TM
-12	##으로	O	O	O, I-CV, I-AF, B-PS, I-QT
-13	아마추어	B-CV	B-CV	B-CV, B-OG, O, I-CV, B-EV
-14	##가	O	O	O, I-CV, I-OG, I-AF, I-QT
-15	정말	O	O	O, B-QT, B-CV, B-TM, B-OG
-16	300	B-QT	B-QT	B-QT, I-QT, O, B-EV, B-DT
-17	##야	I-QT	I-QT	I-QT, O, I-LC, I-OG, I-EV
-18	##드	I-QT	I-QT	I-QT, O, I-LC, I-OG, B-QT
-19	##를	O	O	O, I-QT, I-OG, I-AF, I-EV
-20	날릴	O	O	O, B-CV, B-TM, B-QT, B-OG
-21	수	O	O	O, B-CV, B-TM, B-OG, B-PS
-22	있	O	O	O, B-CV, B-TM, B-QT, B-OG
-23	##는지	O	O	O, B-CV, B-TM, B-LC, I-OG
-24	실험	O	O	O, B-CV, B-TM, B-QT, B-EV
-25	##했	O	O	O, B-CV, I-EV, I-OG, I-QT
-26	##다	O	O	O, B-CV, B-TM, B-OG, I-OG
-27	.	O	O	O, B-OG, B-LC, B-CV, B-PS
-28	[SEP]	O	O	O, B-CV, B-OG, I-OG, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	아	O	O
+2	샘	O	B-CV
+3	?	O	O
+4	[SEP]	O	O

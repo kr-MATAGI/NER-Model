@@ -1,60 +1,24 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	바르	O	O	O, B-OG, B-LC, B-PS, B-FD
-2	##사의	O	O	O, I-OG, I-PS, B-PS, I-CV
-3	‘	O	O	O, B-PS, I-OG, B-LC, B-OG
-4	마법사	O	B-PS	B-PS, O, B-AM, B-CV, I-PS
-5	’	O	O	O, I-PS, B-PS, B-CV, I-CV
-6	리오	B-PS	B-PS	B-PS, O, I-PS, B-LC, B-OG
-7	##넬	I-PS	I-PS	I-PS, O, B-PS, I-OG, I-LC
-8	메시	I-PS	I-PS	I-PS, B-PS, O, B-LC, I-LC
-9	(	O	O	O, I-PS, B-CV, I-OG, B-LC
-10	25	B-QT	B-QT	B-QT, O, I-QT, B-TM, B-LC
-11	)	O	O	O, I-QT, I-OG, I-DT, I-EV
-12	는	O	O	O, B-CV, B-PS, B-OG, B-LC
-13	이번	O	O	O, B-DT, B-OG, B-EV, B-PS
-14	시즌	O	O	O, I-DT, I-EV, I-OG, I-QT
-15	리그	O	O	O, B-EV, B-OG, I-EV, B-LC
-16	12	B-QT	B-QT	B-QT, O, B-EV, I-QT, B-TM
-17	##경기	I-QT	I-QT	I-QT, I-EV, O, I-TM, I-LC
-18	##에서	O	O	O, I-QT, I-EV, I-DT, B-CV
-19	멀티	B-TM	B-TM	B-TM, O, B-QT, I-TM, B-CV
-20	##골	I-TM	I-TM	I-TM, O, I-QT, B-TM, I-TR
-21	(	O	O	O, I-TM, I-QT, I-CV, I-OG
-22	2	B-QT	B-QT	B-QT, B-TM, O, B-EV, B-AF
-23	##골	I-QT	I-QT	I-QT, I-TM, O, I-AF, I-EV
-24	11	B-QT	B-QT	B-QT, I-QT, B-TM, O, I-TM
-25	##경기	I-QT	I-QT	I-QT, O, I-TM, I-EV, B-QT
-26	·	O	O	O, I-QT, I-EV, I-TM, I-OG
-27	해	B-TM	B-TM	B-TM, O, B-QT, B-AF, B-CV
-28	##트	I-TM	I-TM	I-TM, O, I-QT, B-TM, I-TR
-29	##트릭	I-TM	I-TM	I-TM, O, I-QT, B-TM, I-TR
-30	1	B-QT	B-QT	B-QT, I-TM, I-QT, B-TM, O
-31	##경기	I-QT	I-QT	I-QT, I-TM, O, I-AF, I-EV
-32	)	O	O	O, I-QT, I-TM, I-EV, B-CV
-33	을	O	O	O, B-CV, B-PS, B-OG, B-LC
-34	터뜨리	O	O	O, B-CV, B-PS, B-OG, B-TM
-35	##며	O	O	O, B-LC, B-OG, B-PS, B-CV
-36	팀	O	O	O, B-OG, I-OG, B-CV, B-PS
-37	##의	O	O	O, I-OG, B-PS, B-CV, B-OG
-38	무패	O	O	O, B-TM, B-EV, B-TR, B-CV
-39	행진	O	O	O, I-EV, I-TM, I-TR, I-QT
-40	(	O	O	O, B-CV, I-EV, B-OG, I-OG
-41	16	B-QT	B-QT	B-QT, B-TM, O, B-EV, B-LC
-42	##승	I-QT	I-QT	I-QT, I-TM, B-QT, O, I-LC
-43	1	I-QT	I-QT	I-QT, B-QT, I-TM, O, I-LC
-44	##무	I-QT	I-QT	I-QT, O, I-TM, I-LC, I-EV
-45	·	O	O	O, I-QT, I-EV, I-OG, B-CV
-46	승점	O	B-QT	B-QT, O, B-TM, B-OG, B-AF
-47	49	B-QT	I-QT	I-QT, B-QT, I-TM, O, I-AF
-48	·	O	O	O, I-QT, I-TM, I-OG, I-DT
-49	1	B-QT	B-QT	B-QT, I-QT, O, B-DT, B-TM
-50	##위	I-QT	I-QT	I-QT, O, I-TM, I-LC, I-OG
-51	)	O	O	O, I-QT, I-OG, I-EV, B-CV
-52	을	O	O	O, B-CV, B-OG, B-PS, B-LC
-53	이끌	O	O	O, B-OG, B-CV, B-TM, B-LC
-54	##고	O	O	O, B-PS, B-CV, I-OG, I-QT
-55	있	O	O	O, B-PS, B-CV, I-OG, B-LC
-56	##다	O	O	O, B-CV, I-OG, B-PS, B-OG
-57	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-58	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	어	O	O
+2	##허	O	O
+3	왜	O	O
+4	그	O	O
+5	~	O	O
+6	삐	B-QT	O
+7	그	O	O
+8	그	O	O
+9	그게	O	O
+10	자	O	O
+11	##긴	O	O
+12	막	O	O
+13	잊혀	O	O
+14	##지	O	O
+15	##지	O	O
+16	않	O	O
+17	##는	O	O
+18	##다	O	O
+19	이거	O	O
+20	##야	O	O
+21	.	O	O
+22	[SEP]	O	O

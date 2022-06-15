@@ -1,18 +1,53 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	모두	O	O	O, B-CV, B-QT, B-PS, B-TM
-2	과학	B-FD	B-FD	B-FD, O, I-FD, B-CV, B-OG
-3	및	O	I-FD	I-FD, O, B-FD, I-OG, I-AF
-4	공학	B-FD	I-FD	I-FD, B-FD, O, I-OG, I-AF
-5	박사	B-CV	B-CV	B-CV, O, I-CV, I-FD, B-FD
-6	##인	O	O	O, I-CV, B-CV, B-PS, I-QT
-7	동시	O	O	O, B-CV, B-PS, B-QT, B-TM
-8	##에	O	O	O, B-PS, I-CV, B-CV, I-QT
-9	트리	B-TR	B-TR	B-TR, B-FD, O, I-TR, B-PS
-10	##즈	I-TR	I-TR	I-TR, I-FD, O, B-TR, I-QT
-11	최고	O	O	O, B-CV, I-TR, I-CV, B-QT
-12	##수	O	O	O, I-CV, B-CV, I-QT, B-QT
-13	##들이	O	O	O, I-CV, I-QT, B-CV, B-QT
-14	##다	O	O	O, B-CV, B-TM, I-CV, B-QT
-15	.	O	O	O, B-CV, B-PS, B-FD, I-CV
-16	[SEP]	O	O	O, B-CV, B-PS, I-CV, B-FD
+	text	label	preds
+0	[CLS]	O	O
+1	21	B-DT	B-DT
+2	,	I-DT	I-DT
+3	22	I-DT	I-DT
+4	##일	I-DT	I-DT
+5	경기	B-LC	B-LC
+6	수원	B-LC	B-LC
+7	##의	O	O
+8	경기도	B-AF	B-AF
+9	##문화	I-AF	I-AF
+10	##의	I-AF	I-AF
+11	##전	I-AF	I-AF
+12	##당	I-AF	I-AF
+13	##과	O	O
+14	서울	B-LC	B-LC
+15	롯데	B-AF	B-AF
+16	##콘서트	I-AF	I-AF
+17	##홀	I-AF	I-AF
+18	##에	O	O
+19	##서	O	O
+20	열릴	O	O
+21	경기	B-OG	B-OG
+22	##필	I-OG	I-OG
+23	##하	I-OG	I-OG
+24	##모닉	I-OG	I-OG
+25	오케스트라	B-FD	I-OG
+26	##의	O	O
+27	‘	O	O
+28	한	B-AF	B-AF
+29	##여름	I-AF	I-AF
+30	밤	I-AF	I-AF
+31	##의	I-AF	I-AF
+32	꿈	I-AF	I-AF
+33	’	O	O
+34	에서	O	O
+35	##도	O	O
+36	내	O	O
+37	##레이션	O	O
+38	##을	O	O
+39	위해	O	O
+40	배우	B-CV	B-CV
+41	김석	B-PS	B-PS
+42	##훈	I-PS	I-PS
+43	##과	O	O
+44	이아	B-PS	B-PS
+45	##현	I-PS	I-PS
+46	##이	O	O
+47	무대	O	O
+48	##에	O	O
+49	오른다	O	O
+50	.	O	O
+51	[SEP]	O	O

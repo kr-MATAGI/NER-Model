@@ -1,23 +1,8 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-AF
-1	평택	B-OG	B-OG	B-OG, B-LC, O, B-AF, I-OG
-2	##기지	I-OG	I-OG	I-OG, O, I-LC, I-AF, B-OG
-3	건설	O	O	O, I-OG, I-AF, I-EV, I-LC
-4	##이	O	O	O, B-PS, B-LC, B-CV, B-OG
-5	북쪽	B-OG	B-TM	B-TM, B-LC, B-OG, O, B-AF
-6	##만	O	O	O, I-LC, I-TM, I-QT, I-OG
-7	##을	O	O	O, B-CV, I-QT, B-PS, I-OG
-8	겨냥	O	O	O, B-LC, B-TM, B-PS, B-CV
-9	##한	O	O	O, B-PS, B-LC, B-TM, B-OG
-10	것	O	O	O, B-PS, B-LC, B-CV, B-QT
-11	##이	O	O	O, B-PS, B-CV, B-LC, B-QT
-12	##라고	O	O	O, B-PS, B-QT, I-QT, B-CV
-13	생각	O	O	O, B-CV, B-QT, B-PS, B-TM
-14	##하	O	O	O, B-PS, B-CV, I-CV, I-QT
-15	##는	O	O	O, B-CV, B-PS, B-TM, B-QT
-16	사람	O	O	O, B-CV, B-PS, B-AM, B-TM
-17	##은	O	O	O, B-CV, I-CV, B-PS, I-AF
-18	없	O	O	O, B-CV, B-TM, B-QT, B-PS
-19	##다	O	O	O, B-CV, I-OG, I-CV, I-AF
-20	.	O	O	O, B-PS, B-LC, B-CV, B-TM
-21	[SEP]	O	O	O, B-CV, B-PS, B-LC, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	오스트리아	B-OG	B-LC
+2	##는	O	O
+3	민주주의	B-TR	B-TR
+4	##와	O	O
+5	단결	O	O
+6	[SEP]	O	O

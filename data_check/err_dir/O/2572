@@ -1,35 +1,31 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	기복	O	O	O, B-TR, B-FD, B-OG, B-PS
-2	신앙	O	O	O, I-TR, B-TR, B-FD, I-FD
-3	##에서	O	O	O, I-TR, I-OG, B-PS, B-CV
-4	벗어나	O	O	O, B-CV, B-OG, B-TM, B-PS
-5	##지	O	O	O, B-LC, B-PS, B-CV, I-OG
-6	못하	O	O	O, B-CV, B-LC, B-PS, B-OG
-7	##는	O	O	O, B-LC, B-CV, B-PS, B-OG
-8	미성	O	O	O, B-LC, B-CV, B-OG, B-PS
-9	##숙	O	O	O, I-OG, B-LC, B-PS, B-OG
-10	##한	O	O	O, B-PS, B-LC, B-OG, I-OG
-11	종교	O	O	O, B-FD, B-CV, I-OG, B-OG
-12	##에서	O	O	O, I-OG, B-CV, B-PS, I-CV
-13	##는	O	O	O, B-CV, B-OG, B-PS, B-TM
-14	사람	O	O	O, B-CV, B-TM, B-PS, B-LC
-15	##이	O	O	O, B-PS, B-CV, B-OG, B-LC
-16	고칠	O	O	O, B-CV, B-TM, B-LC, B-PS
-17	수	O	O	O, B-PS, B-TM, B-CV, B-LC
-18	없	O	O	O, B-CV, B-TM, B-LC, B-PS
-19	##는	O	O	O, B-CV, B-PS, B-TM, B-LC
-20	병	O	O	O, B-CV, B-TM, B-PS, B-FD
-21	##을	O	O	O, B-CV, B-PS, B-OG, B-TM
-22	절대	O	B-CV	B-CV, O, I-CV, B-PS, B-QT
-23	##자	O	I-CV	I-CV, O, B-CV, I-QT, I-AM
-24	##는	O	O	O, I-CV, B-PS, I-QT, B-CV
-25	고칠	O	O	O, B-CV, B-TM, B-OG, B-LC
-26	수	O	O	O, B-CV, B-PS, B-LC, B-OG
-27	있	O	O	O, B-CV, B-PS, B-LC, B-QT
-28	##다고	O	O	O, B-CV, B-PS, B-LC, I-AF
-29	믿기	O	O	O, B-CV, B-PS, B-TM, B-QT
-30	쉽	O	O	O, B-CV, B-TM, I-CV, I-OG
-31	##다	O	O	O, B-CV, I-OG, B-TM, I-CV
-32	.	O	O	O, B-CV, B-PS, B-LC, B-OG
-33	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	스	B-AF	B-OG
+2	##부	I-AF	I-OG
+3	##티	I-AF	I-OG
+4	대사	I-AF	I-OG
+5	##원	I-AF	I-OG
+6	주지	B-CV	B-CV
+7	마	B-PS	B-PS
+8	##힌다	I-PS	I-PS
+9	##완	I-PS	I-PS
+10	##사	I-PS	I-PS
+11	스님	B-CV	B-CV
+12	##은	O	O
+13	“	O	O
+14	부처	B-PS	B-PS
+15	##님	I-PS	I-PS
+16	진	O	O
+17	##신	O	O
+18	##사리	O	O
+19	##는	O	O
+20	곧	O	O
+21	부처	B-PS	B-PS
+22	##님	I-PS	I-PS
+23	##의	O	O
+24	육신	O	B-AM
+25	##과	O	O
+26	같	O	O
+27	##다	O	O
+28	.	O	O
+29	[SEP]	O	O

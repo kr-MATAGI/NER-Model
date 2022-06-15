@@ -1,18 +1,16 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	중국	B-OG	B-OG	B-OG, B-LC, O, B-PS, I-OG
-2	##이	O	O	O, I-OG, B-PS, I-AF, I-LC
-3	경제	O	O	O, B-CV, B-FD, B-LC, B-TM
-4	보복	O	O	O, I-LC, I-EV, I-CV, I-AF
-5	##을	O	O	O, B-CV, B-PS, B-LC, B-OG
-6	넘어	O	O	O, B-OG, B-CV, B-LC, B-TM
-7	북한	B-OG	B-LC	B-LC, B-OG, O, B-PS, B-AF
-8	쪽	O	O	O, I-OG, I-LC, I-AF, I-QT
-9	##으로	O	O	O, B-TM, B-LC, B-PS, B-CV
-10	가	O	O	O, B-OG, B-CV, B-QT, B-TM
-11	##버릴	O	O	O, I-QT, I-AF, I-OG, B-CV
-12	수	O	O	O, B-CV, I-QT, B-PS, B-OG
-13	있	O	O	O, B-CV, I-AF, I-QT, I-OG
-14	##다	O	O	O, B-CV, I-OG, I-AF, B-TM
-15	.	O	O	O, B-LC, B-CV, B-OG, B-PS
-16	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	금	B-OG	O
+2	##광	I-OG	O
+3	계획	I-OG	O
+4	##이	O	O
+5	##라고	O	O
+6	하	O	O
+7	##는	O	O
+8	광고	O	O
+9	##회사	O	O
+10	##였	O	O
+11	##습	O	O
+12	##니다	O	O
+13	.	O	O
+14	[SEP]	O	O

@@ -1,36 +1,9 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	박	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-2	##씨	O	O	O, I-PS, B-CV, I-OG, I-AF
-3	##는	O	O	O, B-CV, B-LC, B-TM, I-CV
-4	파라	B-LC	B-LC	B-LC, O, B-OG, B-PS, B-EV
-5	##과이	I-LC	I-LC	I-LC, O, I-OG, B-LC, I-PS
-6	##에서	O	O	O, I-LC, I-OG, B-CV, I-AF
-7	가장	O	O	O, B-CV, B-LC, B-OG, B-PS
-8	역사가	O	O	O, B-OG, B-CV, B-LC, B-FD
-9	긴	O	O	O, B-CV, B-PS, B-LC, B-OG
-10	최대	O	O	O, B-CV, B-QT, B-TM, B-PS
-11	민영	O	O	O, B-OG, B-AF, B-CV, B-LC
-12	##채	O	O	O, I-OG, I-LC, I-AF, I-CV
-13	##널	O	O	O, I-OG, I-LC, I-AF, I-CV
-14	(	O	O	O, B-CV, I-OG, I-CV, B-LC
-15	국영	B-OG	O	O, B-OG, B-AF, B-LC, B-FD
-16	티브이	I-OG	B-TM	B-TM, I-OG, B-OG, O, I-TM
-17	##는	O	O	O, I-OG, I-TM, I-AF, I-QT
-18	올해	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-CV
-19	처음	O	O	O, I-DT, I-QT, B-CV, I-AF
-20	시작	O	O	O, B-CV, B-OG, I-OG, I-QT
-21	##됐	O	O	O, B-CV, I-OG, B-LC, I-AF
-22	##다	O	O	O, B-LC, B-OG, I-OG, B-CV
-23	)	O	O	O, B-CV, B-LC, B-OG, B-PS
-24	인	O	O	O, B-CV, B-PS, B-LC, B-OG
-25	<	O	O	O, B-OG, B-CV, B-LC, B-AF
-26	채널	B-AF	B-OG	B-OG, B-AF, O, B-TM, B-LC
-27	##9	I-AF	I-OG	I-OG, I-AF, O, I-TM, I-LC
-28	>	O	O	O, I-OG, I-AF, B-CV, I-TM
-29	의	O	O	O, B-CV, B-PS, B-LC, B-OG
-30	인기	O	B-CV	B-CV, O, B-PS, B-AF, B-FD
-31	##앵	O	B-CV	B-CV, I-CV, O, I-QT, B-PT
-32	##커	O	I-CV	I-CV, O, B-CV, I-QT, I-OG
-33	.	O	O	O, I-CV, I-OG, B-CV, I-QT
-34	[SEP]	O	O	O, B-CV, B-LC, I-CV, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	허리	O	B-AM
+2	##라인	O	O
+3	##이	O	O
+4	강조	O	O
+5	##되	O	O
+6	##고	O	O
+7	[SEP]	O	O

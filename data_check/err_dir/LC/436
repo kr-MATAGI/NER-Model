@@ -1,21 +1,52 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	사실	O	O	O, B-CV, B-OG, B-PS, B-LC
-2	제	O	O	O, B-CV, B-PS, B-OG, B-LC
-3	##가	O	O	O, B-PS, B-LC, B-CV, B-OG
-4	최근	O	O	O, B-CV, B-LC, B-PS, B-DT
-5	##에	O	O	O, B-CV, B-PS, B-OG, B-LC
-6	느낀	O	O	O, B-CV, B-LC, B-PS, B-OG
-7	건데	O	O	O, B-PS, B-OG, B-CV, B-LC
-8	덕	B-LC	B-LC	B-LC, O, B-OG, B-PS, B-AF
-9	##산	I-LC	I-LC	I-LC, O, B-LC, I-PS, I-AF
-10	##이	O	O	O, I-LC, I-AF, B-PS, I-PS
-11	##라고	O	O	O, B-LC, B-CV, B-OG, I-AF
-12	이제	O	O	O, B-CV, B-LC, B-OG, B-TM
-13	덕	B-LC	B-LC	B-LC, O, B-PS, B-OG, B-AF
-14	##산	I-LC	I-LC	I-LC, O, B-LC, I-PS, I-AF
-15	온천	B-LC	O	O, I-LC, B-LC, I-AF, B-CV
-16	지구	I-LC	O	O, B-LC, I-LC, B-TM, B-CV
-17	##에	O	O	O, I-LC, I-AF, I-CV, I-OG
-18	[UNK]	O	O	O, B-CV, B-LC, B-OG, B-PS
-19	[SEP]	O	O	O, B-CV, B-LC, B-PS, I-LC
+	text	label	preds
+0	[CLS]	O	O
+1	호반	B-OG	B-OG
+2	##건설	I-OG	I-OG
+3	##은	O	O
+4	이달	B-DT	B-DT
+5	경기	B-LC	B-LC
+6	의정부	B-LC	B-LC
+7	##시	I-LC	I-LC
+8	민	B-LC	B-LC
+9	##락	I-LC	I-LC
+10	##2	I-LC	I-LC
+11	##지구	I-LC	I-LC
+12	B	B-LC	B-QT
+13	##2	I-LC	I-QT
+14	##블	I-LC	O
+15	##록	I-LC	O
+16	##에	O	O
+17	‘	O	O
+18	민	B-LC	B-LC
+19	##락	I-LC	I-LC
+20	##2	I-LC	I-LC
+21	##지구	I-LC	I-LC
+22	호반	B-AF	B-AF
+23	##베르	I-AF	I-AF
+24	##디움	I-AF	I-AF
+25	2	B-QT	B-QT
+26	##차	I-QT	I-QT
+27	’	O	O
+28	,	O	O
+29	B	B-LC	B-LC
+30	##12	I-LC	I-LC
+31	##블	I-LC	O
+32	##록	I-LC	O
+33	##에	O	O
+34	‘	O	O
+35	민	B-LC	B-LC
+36	##락	I-LC	I-LC
+37	##2	I-LC	I-LC
+38	##지구	I-LC	I-LC
+39	호반	B-AF	B-AF
+40	##베르	I-AF	I-AF
+41	##디움	I-AF	I-AF
+42	3	B-QT	B-QT
+43	##차	I-QT	I-QT
+44	’	O	O
+45	를	O	O
+46	동시	O	O
+47	분양	O	O
+48	##한다	O	O
+49	.	O	O
+50	[SEP]	O	O

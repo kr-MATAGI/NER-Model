@@ -1,52 +1,9 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-EV, I-OG
-1	조	B-PS	B-PS	B-PS, B-OG, O, I-PS, B-AF
-2	##은	I-PS	I-PS	I-PS, I-OG, O, B-PS, I-LC
-3	##상	I-PS	I-PS	I-PS, I-OG, O, I-LC, I-QT
-4	부동산	B-OG	B-OG	B-OG, O, B-AF, I-OG, B-CV
-5	##써	I-OG	I-OG	I-OG, O, I-AF, B-OG, I-CV
-6	##브	I-OG	I-OG	I-OG, O, I-AF, I-CV, I-LC
-7	부동산	B-CV	O	O, B-AF, I-AF, B-CV, I-OG
-8	##리	I-CV	O	O, I-AF, I-CV, I-OG, I-TM
-9	##서	I-CV	O	O, I-AF, I-CV, I-TM, I-OG
-10	##치	I-CV	O	O, I-AF, I-CV, I-TM, I-OG
-11	##팀	I-CV	B-CV	B-CV, I-CV, O, I-AF, I-TM
-12	##장	I-CV	I-CV	I-CV, O, B-CV, I-AF, I-OG
-13	##은	O	O	O, I-CV, I-AF, I-QT, I-OG
-14	“	O	O	O, B-CV, B-LC, I-CV, B-TM
-15	임금	O	O	O, B-CV, I-CV, B-MT, B-TR
-16	상승	O	O	O, I-CV, B-CV, B-PS, B-LC
-17	##분	O	O	O, I-CV, B-PS, B-CV, I-AF
-18	##과	O	O	O, B-PS, B-LC, B-CV, I-CV
-19	전세금	O	O	O, B-CV, B-AF, B-TM, B-LC
-20	상승	O	O	O, I-CV, B-CV, B-PS, I-AF
-21	##분	O	O	O, I-CV, B-PS, B-CV, I-AF
-22	##을	O	O	O, B-PS, B-CV, I-CV, I-AF
-23	비교	O	O	O, B-CV, B-TM, B-LC, B-OG
-24	##하니	O	O	O, B-CV, B-LC, B-PS, B-TM
-25	임금	O	O	O, B-CV, B-TR, B-MT, I-CV
-26	상승	O	O	O, I-CV, B-PS, B-LC, B-CV
-27	속도	O	O	O, B-LC, B-PS, B-CV, B-AF
-28	##가	O	O	O, B-PS, B-LC, B-CV, B-OG
-29	전세금	O	O	O, B-CV, B-AF, B-TM, B-LC
-30	상승	O	O	O, I-CV, B-LC, B-PS, B-CV
-31	속도	O	O	O, B-LC, B-PS, B-CV, I-AF
-32	##를	O	O	O, B-LC, B-CV, B-TM, B-PS
-33	턱없이	O	O	O, B-LC, B-TM, B-CV, B-OG
-34	못	O	O	O, B-LC, B-TM, B-PS, B-OG
-35	쫓아가	O	O	O, B-LC, B-PS, B-TM, B-OG
-36	##고	O	O	O, B-LC, B-PS, B-CV, B-TM
-37	있	O	O	O, B-LC, B-CV, B-PS, I-QT
-38	##다는	O	O	O, B-LC, B-CV, B-PS, B-TM
-39	점	O	O	O, B-CV, B-LC, B-TM, B-PS
-40	##이	O	O	O, B-PS, B-CV, B-LC, B-OG
-41	확연	O	O	O, B-CV, B-PS, B-LC, B-OG
-42	##하	O	O	O, B-PS, I-OG, B-CV, I-AF
-43	##다	O	O	O, B-CV, I-OG, I-AF, B-PS
-44	”	O	O	O, B-CV, B-TM, B-LC, B-QT
-45	고	O	O	O, B-CV, B-TM, B-FD, B-QT
-46	말	O	O	O, B-CV, B-TM, I-QT, I-CV
-47	##했	O	O	O, B-CV, B-PS, I-CV, I-QT
-48	##다	O	O	O, B-CV, B-TM, B-LC, B-PS
-49	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-50	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	전	B-CV	O
+2	마치	O	O
+3	부치	O	O
+4	##는	O	O
+5	것	O	O
+6	##처럼	O	O
+7	[SEP]	O	O

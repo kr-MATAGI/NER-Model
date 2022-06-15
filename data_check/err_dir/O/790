@@ -1,16 +1,40 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	교육청	O	B-OG	B-OG, O, I-OG, B-CV, B-EV
-2	##은	O	O	O, I-OG, B-CV, I-EV, I-CV
-3	이날	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-4	윤	B-PS	B-PS	B-PS, O, I-PS, B-OG, I-DT
-5	교장	B-CV	B-CV	B-CV, O, I-PS, I-CV, B-OG
-6	##에	O	O	O, I-CV, B-CV, I-EV, I-OG
-7	대한	O	O	O, B-LC, B-CV, B-OG, B-TM
-8	감사	O	O	O, B-CV, B-FD, B-OG, B-LC
-9	##에	O	O	O, I-CV, B-CV, I-OG, B-OG
-10	착수	O	O	O, B-CV, B-OG, B-LC, B-TM
-11	##했	O	O	O, B-CV, B-OG, B-LC, I-OG
-12	##다	O	O	O, B-CV, B-OG, B-LC, I-OG
-13	.	O	O	O, B-OG, B-LC, B-CV, B-PS
-14	[SEP]	O	O	O, B-CV, B-OG, B-LC, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	검찰	B-OG	B-OG
+2	##의	O	O
+3	1	B-QT	B-QT
+4	##차	I-QT	I-QT
+5	수사	O	O
+6	당시	O	O
+7	증거인	O	B-CV
+8	##멸	O	I-CV
+9	교사	O	I-CV
+10	혐의	O	O
+11	##로	O	O
+12	구속	O	B-CV
+13	##기	O	I-CV
+14	##소	O	I-CV
+15	##되	O	O
+16	##면	O	O
+17	##서	O	O
+18	‘	O	O
+19	총대	O	O
+20	##를	O	O
+21	[UNK]	O	O
+22	’	O	O
+23	진	B-PS	B-PS
+24	과장	B-CV	B-CV
+25	##을	O	O
+26	만나	O	O
+27	##기	O	O
+28	위해	O	O
+29	이	B-PS	B-PS
+30	비서관	B-CV	B-CV
+31	##이	O	O
+32	마련	O	O
+33	##한	O	O
+34	자리	O	O
+35	##였	O	O
+36	##다	O	O
+37	.	O	O
+38	[SEP]	O	O

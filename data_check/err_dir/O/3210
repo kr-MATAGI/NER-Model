@@ -1,21 +1,6 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, I-OG, B-CV, I-AF
-1	아니	O	O	O, B-CV, B-PS, B-OG, B-TM
-2	정	O	B-PS	B-PS, O, B-OG, B-LC, I-PS
-3	##환	O	I-PS	I-PS, O, I-OG, B-PS, I-LC
-4	##이	O	O	O, I-PS, B-PS, I-OG, I-AF
-5	아빠	B-CV	B-CV	B-CV, O, B-TM, I-CV, B-AF
-6	##랑	O	O	O, I-CV, I-AF, I-QT, B-CV
-7	이제	O	O	O, B-CV, B-TM, I-CV, B-OG
-8	밥	B-CV	B-CV	B-CV, O, I-CV, B-PT, B-AF
-9	먹	O	O	O, I-CV, I-AF, B-CV, I-EV
-10	##으	O	O	O, B-CV, I-CV, I-AF, B-PS
-11	##러	O	O	O, B-PS, B-CV, B-LC, I-AF
-12	거기	O	O	O, B-CV, B-LC, B-TM, B-OG
-13	여기	O	O	O, B-CV, B-TM, B-LC, B-OG
-14	저기	O	O	O, B-CV, B-TM, B-LC, B-QT
-15	찾아	O	O	O, B-CV, B-TM, B-LC, B-OG
-16	##서	O	O	O, B-CV, B-TM, B-LC, B-PS
-17	올라가	O	O	O, B-CV, B-TM, B-LC, B-OG
-18	##는데	O	O	O, B-CV, I-AF, B-OG, B-PS
-19	[SEP]	O	O	O, B-CV, B-LC, B-TM, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	국회의원	B-CV	B-CV
+2	##직	O	I-CV
+3	다	O	O
+4	[SEP]	O	O

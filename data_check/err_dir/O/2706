@@ -1,31 +1,22 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	결국	O	O	O, B-PS, B-CV, B-QT, B-TM
-2	석	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-3	선장	B-CV	B-CV	B-CV, O, I-PS, I-CV, I-EV
-4	치료	O	O	O, I-CV, B-CV, I-PS, B-TM
-5	##를	O	O	O, B-PS, B-CV, I-PS, B-QT
-6	맡	O	O	O, B-CV, B-PS, B-TM, B-QT
-7	##고	O	O	O, B-PS, B-CV, I-PS, B-QT
-8	있	O	O	O, B-PS, B-CV, I-PS, B-QT
-9	##던	O	O	O, B-PS, I-PS, B-CV, I-CV
-10	이	B-PS	B-PS	B-PS, O, I-PS, B-OG, B-LC
-11	교수	B-CV	B-CV	B-CV, O, I-PS, I-CV, B-PS
-12	##는	O	O	O, I-CV, B-PS, B-CV, I-PS
-13	총알	O	B-AF	B-AF, O, I-AF, B-LC, B-TM
-14	분실	O	O	O, B-CV, I-AF, I-CV, I-TM
-15	##과	O	O	O, B-PS, B-CV, B-TM, B-OG
-16	관련	O	O	O, B-CV, B-TM, B-OG, B-LC
-17	##해	O	O	O, B-CV, B-PS, B-TM, B-LC
-18	경위	O	O	O, B-CV, B-AF, B-TM, B-OG
-19	##서	O	O	O, I-CV, I-AF, B-CV, I-TM
-20	##까	O	O	O, B-PS, B-CV, B-TM, B-QT
-21	##지	O	O	O, B-PS, B-CV, B-QT, B-OG
-22	작성	O	O	O, B-CV, B-PS, B-LC, B-TM
-23	##한	O	O	O, B-PS, B-CV, B-LC, B-QT
-24	것	O	O	O, B-CV, B-PS, B-TM, B-QT
-25	##으로	O	O	O, B-CV, B-TM, B-QT, B-PS
-26	전해졌	O	O	O, B-CV, B-TM, B-OG, B-QT
-27	##다	O	O	O, B-CV, B-TM, I-QT, I-OG
-28	.	O	O	O, B-PS, B-CV, B-LC, B-TM
-29	[SEP]	O	O	O, B-CV, B-PS, B-TM, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	미니	B-AF	B-AF
+2	##밴	I-AF	I-AF
+3	##을	O	O
+4	타고	O	O
+5	1600	B-QT	B-QT
+6	##㎞	I-QT	I-QT
+7	##를	O	O
+8	달려가	O	O
+9	뉴햄프셔	B-LC	B-LC
+10	주	I-LC	I-LC
+11	##에	O	O
+12	##서	O	O
+13	처음	O	O
+14	선거	O	B-EV
+15	##운동	O	I-EV
+16	##을	O	O
+17	했	O	O
+18	##다	O	O
+19	.	O	O
+20	[SEP]	O	O

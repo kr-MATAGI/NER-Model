@@ -1,29 +1,41 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-EV, I-OG, I-CV
-1	스	O	B-EV	B-EV, O, B-OG, B-DT, B-TM
-2	##플릿	O	I-EV	I-EV, O, B-EV, I-OG, I-DT
-3	라운드	O	I-EV	I-EV, O, I-OG, B-EV, I-DT
-4	##에	O	O	O, I-EV, I-OG, I-DT, I-AF
-5	##선	O	O	O, B-EV, B-OG, B-LC, I-EV
-6	그룹	O	B-EV	B-EV, O, B-OG, I-EV, B-CV
-7	A	O	I-EV	I-EV, O, I-OG, B-EV, I-TM
-8	##의	O	O	O, I-EV, I-OG, B-PS, I-AF
-9	서울	B-OG	B-OG	B-OG, B-LC, B-PS, B-AF, O
-10	·	O	O	O, I-OG, I-LC, I-EV, I-AF
-11	수원	B-OG	B-OG	B-OG, B-LC, B-PS, B-AF, O
-12	·	O	O	O, I-OG, I-LC, I-AF, I-EV
-13	전북	B-OG	B-OG	B-OG, B-LC, B-PS, B-AF, O
-14	등	O	O	O, I-OG, I-LC, B-CV, I-AF
-15	강호	O	O	O, B-CV, B-OG, B-LC, B-AF
-16	##들이	O	O	O, I-CV, I-OG, B-CV, B-PS
-17	맞대결	O	O	O, B-EV, B-CV, B-LC, B-TM
-18	##을	O	O	O, I-EV, B-CV, B-OG, B-PS
-19	벌이	O	O	O, B-CV, B-LC, B-OG, B-TM
-20	##면서	O	O	O, B-CV, B-LC, B-OG, B-PS
-21	흥행	O	O	O, B-CV, B-TM, B-LC, B-EV
-22	##몰이	O	O	O, B-CV, I-CV, I-EV, I-OG
-23	##를	O	O	O, B-CV, B-OG, I-OG, B-PS
-24	했	O	O	O, B-CV, B-OG, B-LC, B-PS
-25	##다	O	O	O, B-CV, I-EV, B-LC, I-OG
-26	.	O	O	O, B-LC, B-CV, B-OG, I-EV
-27	[SEP]	O	O	O, B-CV, I-EV, B-LC, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	최근	O	O
+2	유엔	B-OG	B-OG
+3	##의	O	O
+4	아프간	B-EV	B-EV
+5	##전	I-EV	I-EV
+6	보고서	O	O
+7	##는	O	O
+8	1	B-DT	B-DT
+9	##분	I-DT	I-DT
+10	##기	I-DT	I-DT
+11	I	O	B-AF
+12	##ED	O	I-AF
+13	##s	O	I-AF
+14	사용	O	O
+15	##이	O	O
+16	전년	B-DT	B-DT
+17	동기	O	O
+18	##에	O	O
+19	비해	O	O
+20	94	B-QT	B-QT
+21	%	I-QT	I-QT
+22	나	O	O
+23	증가	O	O
+24	##했	O	O
+25	##으며	O	O
+26	,	O	O
+27	이	O	O
+28	##로	O	O
+29	인한	O	O
+30	희생자	B-CV	B-CV
+31	##도	O	O
+32	급증	O	O
+33	##했	O	O
+34	##다고	O	O
+35	말	O	O
+36	##했	O	O
+37	##다	O	O
+38	.	O	O
+39	[SEP]	O	O

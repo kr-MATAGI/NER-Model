@@ -1,15 +1,26 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	근데	O	O	O, B-CV, B-OG, B-PS, B-TM
-2	오	B-OG	B-PS	B-PS, O, B-TR, B-OG, B-AF
-3	##씨	I-OG	O	O, I-PS, I-TR, I-OG, I-CV
-4	##엔	I-OG	O	O, I-PS, I-OG, I-TR, I-CV
-5	게	O	O	O, I-PS, I-TR, I-OG, I-CV
-6	그	O	O	O, B-TI, B-DT, B-LC, B-CV
-7	시간	O	O	O, B-TI, I-TI, B-CV, I-DT
-8	대	O	O	O, I-TI, I-DT, B-TI, I-CV
-9	##에	O	O	O, I-DT, I-TI, I-CV, B-PS
-10	하	O	O	O, B-CV, B-OG, B-LC, B-TM
-11	##는	O	O	O, B-CV, B-OG, B-PS, I-CV
-12	게	O	O	O, B-CV, B-OG, B-PS, B-LC
-13	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	1	B-DT	B-DT
+2	##년	I-DT	I-DT
+3	동안	I-DT	I-DT
+4	이곳	O	O
+5	##에	O	O
+6	##서	O	O
+7	일	O	O
+8	##하	O	O
+9	##던	O	O
+10	그	O	O
+11	##는	O	O
+12	한인	B-CV	O
+13	##센터	O	O
+14	맞은편	O	O
+15	전화	B-OG	O
+16	##국	I-OG	O
+17	##에	O	O
+18	##서	O	O
+19	일	O	O
+20	##하	O	O
+21	##게	O	O
+22	된다	O	O
+23	.	O	O
+24	[SEP]	O	O

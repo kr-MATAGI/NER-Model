@@ -1,15 +1,47 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	그	O	O	O, B-CV, B-OG, B-PS, B-LC
-2	~	O	O	O, B-CV, B-PS, B-LC, I-CV
-3	공안	O	B-OG	B-OG, O, B-CV, B-AF, B-LC
-4	헌법	B-CV	B-CV	B-CV, I-CV, I-OG, B-OG, O
-5	##을	O	O	O, I-CV, I-OG, B-CV, I-AF
-6	담당	O	O	O, B-CV, B-OG, B-TM, B-QT
-7	##했	O	O	O, I-CV, B-PS, B-CV, I-QT
-8	##던	O	O	O, B-CV, B-PS, I-CV, B-OG
-9	그런	O	O	O, B-CV, B-OG, B-PS, B-LC
-10	분	O	O	O, B-CV, B-PS, I-CV, B-OG
-11	##인	O	O	O, B-PS, B-CV, I-CV, B-OG
-12	##데	O	O	O, B-OG, B-CV, B-LC, B-TM
-13	[SEP]	O	O	O, B-CV, B-PS, B-LC, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	국토	B-OG	B-OG
+2	##교통	I-OG	I-OG
+3	##부	I-OG	I-OG
+4	##와	O	O
+5	항공	O	O
+6	##업	O	O
+7	##계	O	O
+8	##에	O	O
+9	따르	O	O
+10	##면	O	O
+11	중국	B-LC	B-LC
+12	민	B-OG	B-OG
+13	##항	I-OG	I-OG
+14	##국	I-OG	I-OG
+15	##은	O	O
+16	아시아	B-OG	B-OG
+17	##나	I-OG	I-OG
+18	진에어	B-OG	B-OG
+19	제주	B-OG	B-OG
+20	##항공	I-OG	I-OG
+21	3	B-QT	B-QT
+22	##개	I-QT	I-QT
+23	##사	I-QT	I-QT
+24	##가	O	O
+25	신청	O	O
+26	##한	O	O
+27	한국	O	B-LC
+28	##행	O	O
+29	부정	O	O
+30	##기	O	O
+31	##편	O	O
+32	##에	O	O
+33	대해	O	O
+34	28	B-DT	B-DT
+35	##일	I-DT	I-DT
+36	밤	B-TI	B-TI
+37	불	O	O
+38	##승	O	O
+39	##인	O	O
+40	통보	O	O
+41	##를	O	O
+42	보냈	O	O
+43	##다	O	O
+44	.	O	O
+45	[SEP]	O	O

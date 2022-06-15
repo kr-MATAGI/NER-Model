@@ -1,37 +1,41 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	한국	B-LC	B-LC	B-LC, B-OG, O, B-PS, B-AF
-2	##의	O	O	O, I-OG, I-LC, I-AF, I-QT
-3	첫	O	O	O, B-QT, B-LC, B-DT, I-QT
-4	남극	O	B-OG	B-OG, B-LC, B-AF, O, I-OG
-5	##기지	O	I-OG	I-OG, O, I-AF, I-LC, B-OG
-6	##인	O	O	O, I-OG, I-AF, I-CV, I-EV
-7	세종	B-AF	B-OG	B-OG, B-AF, O, B-LC, I-OG
-8	##기지	I-AF	I-OG	I-OG, I-AF, O, I-LC, I-PS
-9	##는	O	O	O, I-OG, I-AF, B-CV, I-EV
-10	남극	B-LC	B-LC	B-LC, O, B-OG, B-AF, B-TM
-11	연안	O	O	O, I-LC, B-LC, B-CV, B-TM
-12	##인	O	O	O, I-LC, B-LC, B-PS, I-CV
-13	킹	B-LC	B-LC	B-LC, O, I-LC, B-AF, B-PS
-14	##조	I-LC	I-LC	I-LC, O, I-AF, B-LC, I-PS
-15	##지	I-LC	I-LC	I-LC, O, I-AF, B-LC, I-PS
-16	섬	I-LC	I-LC	I-LC, O, I-AF, B-LC, I-PS
-17	##에	O	O	O, I-LC, B-LC, I-AF, I-QT
-18	있	O	O	O, B-LC, I-LC, B-AF, B-OG
-19	##어	O	O	O, B-LC, I-LC, B-PS, B-TM
-20	남극	B-LC	B-LC	B-LC, O, B-OG, B-AF, I-LC
-21	대륙	O	O	O, I-LC, B-LC, I-AF, I-OG
-22	##의	O	O	O, I-LC, B-LC, I-AF, B-PS
-23	생태계	O	O	O, B-LC, I-LC, B-TM, B-CV
-24	##나	O	O	O, B-LC, B-TM, B-OG, B-CV
-25	빙하	O	O	O, B-LC, B-MT, B-DT, B-PS
-26	연구	O	O	O, I-LC, B-LC, I-DT, I-PS
-27	등	O	O	O, B-LC, B-TM, B-CV, B-OG
-28	##에	O	O	O, B-LC, B-TM, B-OG, B-CV
-29	제약	O	O	O, B-LC, B-TM, B-CV, B-OG
-30	##이	O	O	O, B-PS, B-LC, B-OG, B-CV
-31	있	O	O	O, B-CV, B-OG, B-LC, B-PS
-32	##었	O	O	O, B-CV, B-LC, B-OG, B-PS
-33	##다	O	O	O, B-CV, B-LC, B-TM, I-OG
-34	.	O	O	O, B-LC, I-LC, B-CV, B-OG
-35	[SEP]	O	O	O, B-LC, I-LC, B-CV, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	[	O	O
+2	한겨레	B-OG	B-OG
+3	]	O	O
+4	[	O	O
+5	자치	O	O
+6	##소	O	O
+7	##식	O	O
+8	]	O	O
+9	서울시	B-OG	B-OG
+10	##가	O	O
+11	서초구	B-LC	B-LC
+12	양재동	B-LC	B-LC
+13	##에	O	O
+14	‘	O	O
+15	양재	B-AF	B-AF
+16	R	I-AF	I-AF
+17	&	I-AF	O
+18	CD	I-AF	O
+19	;	I-AF	O
+20	혁신	I-AF	O
+21	허브	I-AF	O
+22	'	O	O
+23	의	O	O
+24	문	O	O
+25	##을	O	O
+26	열	O	O
+27	##고	O	O
+28	인공지능	B-FD	B-FD
+29	(	O	O
+30	AI	B-FD	B-FD
+31	)	O	O
+32	산업	O	O
+33	키우	O	O
+34	##기에	O	O
+35	본격	O	O
+36	나섰	O	O
+37	##다	O	O
+38	.	O	O
+39	[SEP]	O	O

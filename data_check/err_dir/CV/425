@@ -1,29 +1,17 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-AF
-1	하나	B-OG	B-OG	B-OG, O, B-PS, B-AF, B-LC
-2	##금융	I-OG	I-OG	I-OG, O, I-LC, I-AF, B-OG
-3	##의	O	O	O, I-OG, I-AF, I-CV, I-QT
-4	경우	O	O	O, B-CV, B-TM, B-OG, I-OG
-5	,	O	O	O, B-CV, B-OG, B-LC, B-PS
-6	지주	B-CV	O	O, B-CV, B-OG, B-AF, B-FD
-7	##와	O	O	O, I-OG, I-CV, I-AF, B-PS
-8	은행	O	O	O, B-CV, B-OG, B-TM, B-FD
-9	등	O	O	O, I-OG, B-CV, B-PS, B-OG
-10	계열사	O	O	O, B-CV, B-OG, B-TM, B-AF
-11	##를	O	O	O, B-CV, I-OG, B-PS, B-OG
-12	통틀어	O	O	O, B-CV, B-LC, B-OG, B-TM
-13	사외	B-CV	B-CV	B-CV, O, B-OG, B-TM, B-FD
-14	##이	I-CV	I-CV	I-CV, B-CV, O, I-EV, I-OG
-15	##사	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-EV
-16	관련	O	O	O, I-CV, I-OG, B-CV, I-QT
-17	##기	O	O	O, B-CV, I-CV, B-TM, B-OG
-18	##관	O	O	O, B-CV, I-CV, B-TM, B-OG
-19	##에	O	O	O, B-CV, B-LC, B-OG, B-TM
-20	기부	O	O	O, B-CV, B-TM, B-FD, B-OG
-21	##한	O	O	O, B-PS, B-LC, B-OG, B-CV
-22	내역	O	O	O, B-CV, B-TM, B-PS, B-OG
-23	##이	O	O	O, B-PS, B-OG, B-CV, B-LC
-24	없	O	O	O, B-CV, B-OG, B-LC, B-TM
-25	##다	O	O	O, B-CV, I-OG, B-OG, B-TM
-26	.	O	O	O, B-LC, B-OG, B-CV, B-PS
-27	[SEP]	O	O	O, B-CV, B-OG, B-LC, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	양식	O	O
+2	(	O	O
+3	養	O	O
+4	[UNK]	O	O
+5	)	O	O
+6	수산물	B-CV	O
+7	,	O	O
+8	2500	B-DT	B-DT
+9	##년	I-DT	I-DT
+10	만	I-DT	I-DT
+11	##에	O	O
+12	소고기	B-CV	B-CV
+13	생산량	O	O
+14	추월	O	O
+15	[SEP]	O	O

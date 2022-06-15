@@ -1,49 +1,34 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-QT
-1	최경주	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-2	##는	O	O	O, I-PS, B-CV, I-OG, I-EV
-3	자신	O	O	O, B-CV, B-TM, B-PS, B-OG
-4	##의	O	O	O, B-PS, I-OG, B-CV, I-CV
-5	재단	O	O	O, B-CV, I-OG, B-OG, I-CV
-6	##을	O	O	O, B-CV, B-OG, I-OG, B-PS
-7	통해	O	O	O, B-LC, B-TM, B-OG, B-PS
-8	넉넉	O	O	O, B-CV, B-TM, B-LC, B-QT
-9	##지	O	O	O, B-PS, B-LC, I-OG, B-OG
-10	않	O	O	O, B-PS, B-LC, B-CV, B-OG
-11	##은	O	O	O, B-PS, B-LC, B-CV, B-OG
-12	형편	O	O	O, B-CV, B-TM, B-LC, B-PS
-13	##에서	O	O	O, B-PS, B-CV, B-LC, B-TM
-14	골프	B-CV	B-CV	B-CV, O, B-AF, B-TM, B-EV
-15	선수	B-CV	I-CV	I-CV, B-CV, O, I-EV, I-AF
-16	##의	O	O	O, I-CV, I-AF, I-EV, B-PS
-17	꿈	O	O	O, B-CV, B-TM, B-FD, I-CV
-18	##을	O	O	O, B-PS, B-CV, B-OG, B-TM
-19	키우	O	O	O, B-CV, B-PS, B-TM, B-LC
-20	##는	O	O	O, B-PS, B-CV, B-LC, B-QT
-21	중	B-CV	B-CV	B-CV, O, I-CV, B-QT, B-TM
-22	·	I-CV	I-CV	I-CV, O, B-CV, I-QT, I-TM
-23	고생	I-CV	I-CV	I-CV, O, B-CV, I-QT, I-TM
-24	##을	O	O	O, I-CV, B-CV, I-OG, B-PS
-25	매년	O	O	O, B-DT, B-QT, B-PS, B-OG
-26	10	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-PS
-27	##여	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-28	##명	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-29	##씩	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-30	선발	O	O	O, B-CV, I-QT, B-TM, B-OG
-31	##해	O	O	O, B-PS, B-LC, I-QT, I-CV
-32	대회	O	O	O, B-CV, B-EV, I-EV, B-LC
-33	출전	O	O	O, B-CV, B-TM, B-LC, I-CV
-34	비용	O	O	O, B-CV, I-CV, B-TM, B-MT
-35	##과	O	O	O, B-CV, B-PS, B-LC, B-TM
-36	재활	O	O	O, B-CV, B-TM, B-FD, B-LC
-37	의료비	O	O	O, B-CV, I-CV, B-TM, B-QT
-38	,	O	O	O, I-CV, B-CV, B-TM, B-PS
-39	레슨	O	O	O, B-CV, B-TM, B-LC, B-FD
-40	등	O	O	O, B-CV, B-LC, B-OG, B-TM
-41	##을	O	O	O, B-CV, B-OG, B-LC, B-TM
-42	지원	O	O	O, B-CV, B-OG, B-TM, B-LC
-43	##해	O	O	O, I-OG, B-LC, I-CV, B-PS
-44	##왔	O	O	O, I-OG, B-CV, B-LC, B-PS
-45	##다	O	O	O, B-CV, I-OG, B-OG, B-TM
-46	.	O	O	O, B-CV, B-PS, B-LC, B-TM
-47	[SEP]	O	O	O, B-CV, B-PS, B-LC, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	60	B-QT	B-QT
+2	##여대	I-QT	I-QT
+3	##의	O	O
+4	레저	B-CV	B-AF
+5	##카	I-CV	I-AF
+6	##누	I-CV	I-AF
+7	##를	O	O
+8	추가	O	O
+9	구입	O	O
+10	##하	O	O
+11	##고	O	O
+12	,	O	O
+13	관광객	B-CV	B-CV
+14	##의	O	O
+15	단합	O	O
+16	##을	O	O
+17	위한	O	O
+18	10	B-QT	B-QT
+19	##여대	I-QT	I-QT
+20	##의	O	O
+21	드레	B-CV	B-AF
+22	##곤	I-CV	I-AF
+23	보트	I-CV	I-AF
+24	(	O	O
+25	용선	B-CV	O
+26	)	O	O
+27	도	O	O
+28	증	O	O
+29	##선	O	O
+30	##한다	O	O
+31	.	O	O
+32	[SEP]	O	O

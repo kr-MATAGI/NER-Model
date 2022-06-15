@@ -1,46 +1,33 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	원래	O	O	O, B-CV, B-LC, B-TM, B-OG
-2	##는	O	O	O, B-LC, B-CV, B-TM, B-OG
-3	해안	B-LC	O	O, B-LC, I-LC, B-CV, B-TM
-4	(	I-LC	O	O, I-LC, B-LC, I-CV, B-QT
-5	海	I-LC	O	O, I-LC, B-LC, I-QT, B-PS
-6	安	I-LC	O	O, I-LC, B-LC, I-QT, B-PS
-7	)	I-LC	O	O, I-LC, B-LC, I-QT, I-CV
-8	면	I-LC	O	O, I-LC, B-LC, I-QT, I-CV
-9	##이	O	O	O, B-PS, I-LC, B-CV, B-LC
-10	##었	O	O	O, B-LC, B-CV, B-OG, B-PS
-11	##는데	O	O	O, B-LC, B-PS, B-TM, B-CV
-12	뱀	B-AM	B-AM	B-AM, O, B-TM, B-PS, B-AF
-13	##이	O	O	O, B-PS, I-PS, I-AF, B-AM
-14	들끓	O	O	O, B-LC, B-CV, B-TM, B-PS
-15	##는	O	O	O, B-LC, B-CV, B-PS, B-TM
-16	옛	O	O	O, B-CV, B-OG, B-AF, B-LC
-17	##적	O	O	O, I-CV, B-CV, I-AF, I-LC
-18	##에	O	O	O, I-CV, I-AF, B-PS, I-OG
-19	스님	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-QT
-20	한	B-QT	B-QT	B-QT, O, I-QT, I-CV, B-DT
-21	분	I-QT	I-QT	I-QT, O, I-PS, I-CV, I-DT
-22	##이	O	O	O, B-PS, I-QT, I-PS, B-CV
-23	'	O	O	O, B-CV, B-LC, B-QT, I-QT
-24	돼지	B-AM	B-AM	B-AM, O, B-TM, B-PS, B-PT
-25	해	O	O	O, B-LC, I-LC, B-AM, B-TM
-26	(	O	O	O, I-LC, I-AF, B-CV, B-LC
-27	[UNK]	O	O	O, B-LC, B-CV, B-PS, B-TM
-28	)	O	O	O, B-CV, B-LC, B-OG, B-PS
-29	'	O	O	O, B-CV, B-PS, B-OG, B-LC
-30	를	O	O	O, B-PS, B-CV, B-LC, B-OG
-31	지명	O	O	O, B-CV, B-LC, B-TM, B-QT
-32	##에	O	O	O, B-CV, B-LC, B-OG, B-PS
-33	쓰	O	O	O, B-LC, B-CV, B-OG, B-PS
-34	##면	O	O	O, B-PS, B-OG, B-LC, B-TM
-35	뱀	B-AM	B-AM	B-AM, O, B-TM, B-PS, B-LC
-36	##이	O	O	O, B-PS, I-PS, I-AF, B-CV
-37	사라진다	O	O	O, B-CV, B-QT, B-PS, B-LC
-38	##고	O	O	O, B-QT, B-LC, B-PS, B-OG
-39	해서	O	O	O, B-QT, B-PS, B-TM, B-LC
-40	바꿨	O	O	O, B-CV, B-OG, B-LC, B-AF
-41	##다고	O	O	O, B-CV, B-OG, I-OG, I-CV
-42	한다	O	O	O, B-CV, B-TM, B-OG, B-LC
-43	.	O	O	O, B-LC, B-PS, B-CV, I-AF
-44	[SEP]	O	O	O, B-LC, B-CV, B-PS, I-LC
+	text	label	preds
+0	[CLS]	O	O
+1	국군	O	B-OG
+2	영	O	B-CV
+3	##관	O	I-CV
+4	##급	O	I-CV
+5	장교	B-CV	B-CV
+6	4	B-QT	B-QT
+7	##명	I-QT	I-QT
+8	##이	O	O
+9	1	B-QT	B-QT
+10	##차	I-QT	I-QT
+11	연평	B-EV	B-EV
+12	##해	I-EV	I-EV
+13	##전	I-EV	I-EV
+14	##이	O	O
+15	있	O	O
+16	##었	O	O
+17	##던	O	O
+18	1999	B-DT	B-DT
+19	##년	I-DT	I-DT
+20	북한	B-LC	B-OG
+21	##에	O	O
+22	납치	O	O
+23	##됐	O	O
+24	##다는	O	O
+25	법정	O	O
+26	증언	O	O
+27	##이	O	O
+28	나왔	O	O
+29	##다	O	O
+30	.	O	O
+31	[SEP]	O	O

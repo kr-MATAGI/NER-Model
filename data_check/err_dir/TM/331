@@ -1,37 +1,27 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	선진	O	B-OG	B-OG, B-AF, O, B-TM, B-CV
-2	##기술	O	I-OG	I-OG, I-AF, I-TM, O, I-CV
-3	##실	O	I-OG	I-OG, I-AF, I-TM, O, I-CV
-4	##증	O	I-OG	I-OG, I-AF, O, I-TM, I-CV
-5	##기	O	I-OG	I-OG, I-AF, O, I-TM, I-CV
-6	##는	O	O	O, I-OG, I-AF, I-TM, I-CV
-7	레이더	O	B-AF	B-AF, O, B-TM, B-OG, B-LC
-8	##에	O	O	O, I-AF, I-OG, I-TM, I-EV
-9	반사	O	O	O, B-TM, B-LC, B-OG, B-CV
-10	##되	O	O	O, B-LC, B-PS, B-OG, B-TM
-11	##지	O	O	O, B-LC, B-PS, B-TM, B-OG
-12	않	O	O	O, B-LC, B-PS, B-TM, B-CV
-13	##는	O	O	O, B-LC, B-TM, B-PS, B-OG
-14	탄소	B-MT	B-MT	B-MT, O, I-MT, B-CV, B-TM
-15	섬유	I-MT	I-MT	I-MT, B-MT, O, B-PT, I-PT
-16	##의	O	O	O, I-MT, B-MT, I-AF, I-OG
-17	전파	B-TM	O	O, B-TM, B-MT, B-AM, B-AF
-18	##흡	I-TM	O	O, I-MT, I-TM, I-AF, I-TR
-19	##수	I-TM	O	O, I-MT, I-TM, I-AF, I-TR
-20	##제	I-TM	O	O, I-MT, I-TM, I-AF, I-TR
-21	##를	O	O	O, I-TM, I-AF, B-CV, I-CV
-22	사용	O	O	O, B-CV, B-LC, B-OG, B-TM
-23	##해	O	O	O, B-LC, B-PS, B-CV, B-OG
-24	스텔	O	B-AF	B-AF, O, B-OG, B-CV, B-EV
-25	##스	O	I-AF	I-AF, O, I-OG, I-CV, I-EV
-26	성능	O	O	O, I-AF, I-OG, I-EV, I-CV
-27	##을	O	O	O, B-CV, I-AF, B-OG, B-LC
-28	갖춘	O	O	O, B-CV, B-LC, B-PS, B-OG
-29	것	O	O	O, B-CV, B-LC, B-OG, B-PS
-30	##으로	O	O	O, B-CV, B-LC, B-PS, B-OG
-31	알려져	O	O	O, B-LC, B-CV, B-OG, B-TM
-32	있	O	O	O, B-CV, B-LC, I-OG, B-OG
-33	##다	O	O	O, B-CV, B-LC, I-OG, B-TM
-34	.	O	O	O, B-LC, B-OG, B-PS, B-CV
-35	[SEP]	O	O	O, B-LC, B-CV, I-OG, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	‘	O	B-TM
+2	철	B-TM	I-TM
+3	##매	I-TM	I-TM
+4	-	I-TM	I-TM
+5	Ⅱ	I-TM	I-TM
+6	’	O	I-TM
+7	프로젝트	O	I-TM
+8	##는	O	O
+9	도입	O	O
+10	##된	O	O
+11	지	O	O
+12	40	B-DT	B-DT
+13	##년	I-DT	I-DT
+14	##이	O	O
+15	지난	O	O
+16	호크	O	B-AF
+17	미사일	B-AF	I-AF
+18	##을	O	O
+19	대체	O	O
+20	##하	O	O
+21	##는	O	O
+22	사업	O	O
+23	##이다	O	O
+24	.	O	O
+25	[SEP]	O	O

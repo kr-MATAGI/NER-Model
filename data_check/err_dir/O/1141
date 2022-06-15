@@ -1,13 +1,19 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, B-CV, I-OG, I-AF
-1	그니까	O	O	O, B-CV, B-LC, B-OG, B-PS
-2	인제	O	O	O, B-CV, B-LC, B-OG, B-AF
-3	뭐	O	O	O, B-CV, I-CV, I-AF, I-OG
-4	~	O	O	O, B-CV, B-PS, I-CV, B-LC
-5	말	O	O	O, B-CV, B-LC, B-PS, B-OG
-6	##하	O	O	O, B-PS, I-OG, B-LC, I-AF
-7	##자	O	O	O, B-PS, B-LC, B-OG, B-CV
-8	##면	O	O	O, I-OG, B-LC, I-AF, B-CV
-9	기동	O	B-OG	B-OG, O, B-AF, B-CV, B-LC
-10	##대	O	I-OG	I-OG, O, I-AF, I-CV, I-LC
-11	[SEP]	O	O	O, I-OG, I-AF, I-CV, B-CV
+	text	label	preds
+0	[CLS]	O	O
+1	이	O	O
+2	땅	O	O
+3	##의	O	O
+4	곤충	O	B-AM
+5	##을	O	O
+6	연구	O	O
+7	##한	O	O
+8	큰	O	O
+9	학자	B-CV	B-CV
+10	##가	O	O
+11	한	B-QT	B-QT
+12	분	I-QT	I-QT
+13	계셨	O	O
+14	##습	O	O
+15	##니다	O	O
+16	.	O	O
+17	[SEP]	O	O

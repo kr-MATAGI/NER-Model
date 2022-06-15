@@ -1,62 +1,34 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-EV, I-CV, I-OG
-1	한	O	O	O, B-QT, B-PS, B-LC, B-CV
-2	전직	O	O	O, B-CV, B-PS, B-QT, B-EV
-3	경찰관	B-CV	B-CV	B-CV, I-CV, O, B-OG, I-QT
-4	##은	O	O	O, I-CV, I-QT, I-EV, I-OG
-5	“	O	O	O, B-CV, B-LC, B-TM, B-QT
-6	농성	O	O	O, B-CV, B-OG, B-PS, B-AF
-7	시위대	O	O	O, B-OG, B-CV, I-OG, B-AF
-8	##는	O	O	O, I-OG, I-AF, I-CV, B-PS
-9	이미	O	O	O, B-CV, B-TM, B-LC, B-PS
-10	외부	O	O	O, B-TM, B-LC, B-CV, B-TR
-11	##에서	O	O	O, B-LC, B-PS, B-CV, B-TM
-12	일체	O	O	O, B-LC, B-TM, B-QT, B-PS
-13	물품	O	O	O, B-LC, B-CV, B-TM, B-PS
-14	##을	O	O	O, B-CV, B-PS, B-LC, B-TM
-15	공급	O	O	O, B-LC, B-CV, B-TM, B-PS
-16	##받	O	O	O, B-LC, B-PS, B-CV, B-TM
-17	##지	O	O	O, B-CV, B-LC, B-PS, B-TM
-18	못하	O	O	O, B-LC, B-CV, B-PS, B-TM
-19	##도록	O	O	O, B-LC, B-PS, B-TM, B-CV
-20	고립	O	O	O, B-LC, B-TM, B-CV, B-AF
-21	##된	O	O	O, B-LC, B-PS, I-LC, B-CV
-22	상태	O	O	O, B-LC, B-CV, B-TM, B-PS
-23	##였	O	O	O, B-PS, B-CV, B-LC, I-AF
-24	##다	O	O	O, B-CV, B-TM, I-AF, B-LC
-25	”	O	O	O, B-CV, B-LC, B-PS, B-TM
-26	며	O	O	O, B-CV, B-LC, B-TM, B-OG
-27	“	O	O	O, B-CV, B-LC, B-TM, B-QT
-28	시	O	B-AF	B-AF, O, B-OG, I-AF, B-TM
-29	##너	O	I-AF	I-AF, O, I-TM, I-CV, I-OG
-30	##와	O	O	O, I-AF, I-OG, I-EV, I-QT
-31	화염	B-AF	B-AF	B-AF, O, I-AF, B-OG, B-TM
-32	##병	I-AF	I-AF	I-AF, O, I-TM, I-CV, I-OG
-33	등	O	O	O, I-AF, I-EV, I-QT, I-OG
-34	치명	O	O	O, B-CV, B-PS, B-LC, B-AF
-35	##적	O	O	O, I-PS, B-PS, I-LC, B-LC
-36	무기	O	O	O, B-AF, B-CV, B-LC, I-AF
-37	##가	O	O	O, B-PS, I-AF, B-LC, B-CV
-38	떨어지	O	O	O, B-LC, B-CV, B-TM, B-PS
-39	##거나	O	O	O, B-PS, B-LC, B-CV, I-LC
-40	체력	O	O	O, B-LC, B-CV, B-TM, B-PS
-41	##적으로	O	O	O, B-PS, B-LC, B-CV, B-TM
-42	지칠	O	O	O, B-LC, B-PS, B-CV, B-TM
-43	때	O	O	O, B-PS, B-CV, B-LC, I-LC
-44	##까	O	O	O, B-PS, B-LC, I-PS, I-LC
-45	##지	O	O	O, B-PS, B-LC, I-PS, I-TI
-46	기다리	O	O	O, B-LC, B-CV, B-PS, B-TI
-47	##는	O	O	O, B-LC, B-PS, B-CV, I-LC
-48	작전	O	O	O, B-LC, B-CV, B-PS, B-AF
-49	##을	O	O	O, B-CV, B-PS, B-LC, B-TM
-50	고민	O	O	O, B-CV, B-LC, B-TM, B-OG
-51	##했	O	O	O, B-CV, B-PS, B-LC, B-OG
-52	##어야	O	O	O, B-CV, B-TM, B-LC, B-OG
-53	한다	O	O	O, B-CV, B-TM, B-LC, B-OG
-54	”	O	O	O, B-CV, B-TM, B-LC, B-QT
-55	고	O	O	O, B-CV, B-QT, B-TM, B-LC
-56	말	O	O	O, B-CV, B-QT, B-TM, I-QT
-57	##했	O	O	O, B-CV, B-PS, I-EV, I-QT
-58	##다	O	O	O, B-CV, B-TM, B-LC, B-QT
-59	.	O	O	O, B-LC, B-CV, B-PS, B-AF
-60	[SEP]	O	O	O, B-CV, B-LC, B-PS, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	시	B-PS	B-PS
+2	전	O	O
+3	부총리	B-CV	B-CV
+4	##도	O	O
+5	1987	B-DT	B-DT
+6	##년	I-DT	I-DT
+7	덩샤오핑	B-PS	B-PS
+8	등	O	O
+9	원로	O	B-CV
+10	##들이	O	O
+11	후	B-PS	B-PS
+12	전	O	O
+13	총서	B-CV	B-CV
+14	##기	I-CV	I-CV
+15	##를	O	O
+16	실	O	O
+17	##각시	O	O
+18	##킬	O	O
+19	당시	O	O
+20	,	O	O
+21	앞장서	O	O
+22	##서	O	O
+23	반대	O	O
+24	##했	O	O
+25	##다가	O	O
+26	한	O	O
+27	##직	O	O
+28	##으로	O	O
+29	밀려났	O	O
+30	##다	O	O
+31	.	O	O
+32	[SEP]	O	O

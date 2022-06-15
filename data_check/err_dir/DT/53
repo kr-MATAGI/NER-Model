@@ -1,24 +1,56 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-QT
-1	한국	B-EV	B-EV	B-EV, O, B-LC, B-OG, B-AF
-2	##시	I-EV	I-EV	I-EV, O, B-EV, I-OG, I-AF
-3	##리	I-EV	I-EV	I-EV, O, I-OG, B-EV, I-AF
-4	##즈	I-EV	I-EV	I-EV, O, B-EV, I-OG, I-AF
-5	3	B-QT	B-QT	B-QT, I-EV, I-QT, B-EV, B-DT
-6	##연	I-QT	I-QT	I-QT, I-EV, O, I-AF, I-DT
-7	##패	I-QT	I-QT	I-QT, I-EV, O, I-LC, I-TM
-8	##에	O	O	O, I-QT, I-EV, I-OG, I-AF
-9	도전	O	O	O, B-CV, B-OG, B-LC, B-TM
-10	##하	O	O	O, B-OG, B-LC, B-PS, B-CV
-11	##는	O	O	O, B-OG, B-LC, B-CV, B-PS
-12	SK	B-OG	B-OG	B-OG, O, B-LC, B-AF, I-OG
-13	##가	O	O	O, I-OG, I-AF, I-EV, I-CV
-14	전반기	B-DT	O	O, B-DT, B-TI, I-DT, B-EV
-15	##를	O	O	O, I-DT, I-EV, I-OG, B-CV
-16	1	B-QT	B-QT	B-QT, O, I-QT, B-EV, B-DT
-17	##위	I-QT	I-QT	I-QT, O, I-EV, I-OG, I-LC
-18	##로	O	O	O, I-QT, I-EV, I-OG, I-AF
-19	마쳤	O	O	O, B-CV, B-OG, I-QT, B-QT
-20	##다	O	O	O, B-CV, I-OG, B-OG, B-QT
-21	.	O	O	O, B-OG, B-CV, B-LC, B-PS
-22	[SEP]	O	O	O, B-CV, B-OG, I-EV, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	돈	B-PS	B-PS
+2	매	I-PS	I-PS
+3	##팅	I-PS	I-PS
+4	##리	I-PS	I-PS
+5	다저스	B-OG	B-OG
+6	감독	B-CV	B-CV
+7	##은	O	O
+8	""""	O	O
+9	모든	O	O
+10	것	O	O
+11	##이	O	O
+12	이상	O	O
+13	없이	O	O
+14	진행	O	O
+15	##된	O	O
+16	##다면	O	O
+17	류현진	B-PS	B-PS
+18	##은	O	O
+19	이번	B-DT	B-DT
+20	주	I-DT	I-DT
+21	중	I-DT	O
+22	##으로	O	O
+23	라이브	B-TM	B-TM
+24	피칭	I-TM	I-TM
+25	(	O	O
+26	l	O	O
+27	##ive	O	O
+28	p	O	O
+29	##itch	O	O
+30	##ing	O	O
+31	·	O	O
+32	타자	B-CV	B-CV
+33	##들	O	O
+34	##을	O	O
+35	세워	O	O
+36	놓	O	O
+37	##고	O	O
+38	공	B-CV	B-CV
+39	##을	O	O
+40	던지	O	O
+41	##는	O	O
+42	것	O	O
+43	)	O	O
+44	을	O	O
+45	할	O	O
+46	것	O	O
+47	""""	O	O
+48	이라	O	O
+49	##고	O	O
+50	말	O	O
+51	##했	O	O
+52	##다	O	O
+53	.	O	O
+54	[SEP]	O	O

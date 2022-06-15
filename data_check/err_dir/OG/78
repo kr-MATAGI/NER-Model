@@ -1,49 +1,14 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-AF
-1	이라크	B-LC	B-LC	B-LC, B-OG, O, B-PS, B-AF
-2	주둔	O	O	O, I-OG, I-LC, B-OG, I-AF
-3	미군	B-OG	B-OG	B-OG, B-LC, I-OG, O, B-AF
-4	전투	O	O	O, I-OG, B-OG, B-CV, B-AF
-5	##부대	O	O	O, I-OG, I-AF, I-CV, B-OG
-6	##의	O	O	O, I-OG, I-AF, B-LC, B-PS
-7	철수	O	O	O, B-LC, B-CV, B-EV, B-TM
-8	##작전	O	O	O, B-LC, I-LC, I-EV, I-OG
-9	개시	O	O	O, B-LC, B-CV, B-OG, B-PS
-10	##를	O	O	O, B-CV, B-PS, B-OG, B-LC
-11	알리	O	O	O, B-CV, B-LC, B-PS, B-OG
-12	##자	O	O	O, B-LC, B-PS, B-OG, I-OG
-13	미	B-LC	B-LC	B-LC, B-OG, O, B-PS, I-LC
-14	제	B-OG	B-OG	B-OG, B-QT, I-OG, B-LC, O
-15	##2	I-OG	I-QT	I-QT, I-OG, I-LC, I-AF, O
-16	##보	I-OG	I-OG	I-OG, B-OG, O, I-QT, B-CV
-17	##병	I-OG	I-OG	I-OG, O, I-QT, B-OG, I-EV
-18	##사	I-OG	I-OG	I-OG, O, I-QT, B-OG, I-EV
-19	##단	I-OG	I-OG	I-OG, O, I-EV, I-QT, I-AF
-20	제	B-QT	B-QT	B-QT, I-OG, I-QT, O, B-OG
-21	##4	I-QT	I-QT	I-QT, I-OG, O, B-QT, I-LC
-22	스트라이커	B-CV	I-QT	I-QT, B-OG, B-CV, I-OG, O
-23	전투	O	O	O, I-OG, B-OG, I-QT, I-CV
-24	##여	O	I-OG	I-OG, O, I-AF, I-CV, B-OG
-25	##단	O	I-OG	I-OG, O, I-AF, I-CV, I-EV
-26	소속	O	O	O, I-OG, I-AF, B-CV, B-AF
-27	중	O	O	O, B-CV, B-AF, B-OG, B-PS
-28	##무장	O	O	O, I-CV, I-AF, I-OG, I-LC
-29	차량	O	O	O, I-AF, B-AF, I-CV, B-CV
-30	행렬	O	O	O, I-AF, B-AF, B-CV, I-CV
-31	##이	O	O	O, B-LC, B-PS, B-OG, I-AF
-32	어둠	O	O	O, B-LC, B-TM, B-CV, B-TI
-33	##을	O	O	O, B-CV, I-AF, B-LC, I-CV
-34	뚫	O	O	O, B-LC, B-CV, B-TM, B-OG
-35	##고	O	O	O, B-LC, B-PS, B-CV, B-AF
-36	쿠웨이트	B-LC	B-LC	B-LC, O, B-OG, B-AF, I-LC
-37	사막	O	I-LC	I-LC, O, B-LC, I-AF, I-EV
-38	##을	O	O	O, I-LC, I-AF, B-LC, I-OG
-39	향해	O	O	O, B-LC, B-TM, B-CV, B-OG
-40	내달	O	O	O, B-AF, B-LC, B-CV, B-OG
-41	##리	O	O	O, I-AF, B-CV, I-LC, B-LC
-42	##기	O	O	O, I-AF, B-LC, B-CV, B-OG
-43	시작	O	O	O, B-CV, B-LC, I-AF, B-OG
-44	##했	O	O	O, B-CV, B-LC, I-AF, B-OG
-45	##다	O	O	O, B-CV, B-LC, I-AF, B-OG
-46	.	O	O	O, B-LC, B-OG, B-CV, B-PS
-47	[SEP]	O	O	O, B-LC, B-CV, B-OG, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	그	O	O
+2	친구	B-CV	B-CV
+3	##가	O	O
+4	아직	O	O
+5	##까	O	O
+6	##지	O	O
+7	지금	O	O
+8	한국	B-LC	B-OG
+9	노총	B-OG	I-OG
+10	##에	O	O
+11	##서	O	O
+12	[SEP]	O	O

@@ -1,15 +1,57 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, I-OG, B-CV, I-QT
-1	‘	O	O	O, B-CV, B-PS, B-LC, B-OG
-2	종	B-CV	O	O, B-CV, B-PS, B-AF, B-AM
-3	##지기	I-CV	O	O, I-CV, I-PS, B-CV, I-AM
-4	##와	O	O	O, I-CV, B-PS, I-PS, I-AF
-5	부	O	O	O, B-CV, B-PS, I-CV, B-AF
-6	##랑	O	O	O, I-CV, I-PS, B-CV, I-AF
-7	##자	O	O	O, I-CV, B-CV, I-PS, I-AF
-8	##들	O	O	O, I-CV, I-PS, I-AF, B-PS
-9	##의	O	O	O, B-PS, I-PS, I-AF, I-CV
-10	리더	B-CV	B-CV	B-CV, O, B-PS, I-CV, B-AM
-11	.	O	O	O, I-CV, B-PS, I-PS, I-OG
-12	’	O	O	O, B-CV, B-LC, B-PS, B-OG
-13	[SEP]	O	O	O, B-CV, B-PS, B-LC, I-CV
+	text	label	preds
+0	[CLS]	O	O
+1	이	O	O
+2	신문	O	O
+3	##에	O	O
+4	시위	O	O
+5	여대생	O	O
+6	##의	O	O
+7	다리	B-AM	B-AM
+8	##를	O	O
+9	붙잡	O	O
+10	##는	O	O
+11	사진	O	O
+12	##이	O	O
+13	실려	O	O
+14	성추행	B-CV	B-CV
+15	논란	O	O
+16	##에	O	O
+17	휩싸인	O	O
+18	식당	O	O
+19	주인	B-CV	B-CV
+20	레이	B-PS	B-PS
+21	##먼드	I-PS	I-PS
+22	류	I-PS	I-PS
+23	##는	O	O
+24	“	O	O
+25	군중	B-CV	O
+26	##에	O	O
+27	떠밀	O	O
+28	##려	O	O
+29	넘어졌	O	O
+30	##을	O	O
+31	뿐	O	O
+32	”	O	O
+33	이라	O	O
+34	##며	O	O
+35	“	O	O
+36	명예	O	O
+37	##를	O	O
+38	훼손	O	O
+39	##한	O	O
+40	<	O	O
+41	핑	B-OG	B-OG
+42	##궈	I-OG	I-OG
+43	##일보	I-OG	I-OG
+44	>	O	O
+45	를	O	O
+46	고소	O	O
+47	##하	O	O
+48	##겠다	O	O
+49	”	O	O
+50	고	O	O
+51	말	O	O
+52	##했	O	O
+53	##다	O	O
+54	.	O	O
+55	[SEP]	O	O

@@ -1,16 +1,88 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	이거	O	O	O, B-CV, B-OG, B-PS, B-FD
-2	##는	O	O	O, B-CV, B-OG, B-PS, B-LC
-3	진화	O	O	O, B-FD, B-TR, B-CV, B-OG
-4	##에	O	O	O, I-AF, I-OG, B-PS, I-CV
-5	역사	O	B-FD	B-FD, O, B-TR, I-FD, B-AF
-6	없이	O	O	O, I-FD, I-AF, I-OG, I-EV
-7	##는	O	O	O, B-CV, B-OG, B-LC, B-TM
-8	생겨날	O	O	O, B-CV, B-TM, B-OG, B-QT
-9	수	O	O	O, B-CV, B-PS, B-OG, B-LC
-10	없	O	O	O, B-CV, B-TM, B-OG, I-OG
-11	##는	O	O	O, B-CV, B-OG, B-PS, B-LC
-12	[UNK]	O	O	O, B-CV, B-OG, B-PS, B-TM
-13	.	O	O	O, B-CV, B-OG, B-TM, B-LC
-14	[SEP]	O	O	O, B-CV, B-LC, B-OG, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	더불	B-OG	B-OG
+2	##어	I-OG	I-OG
+3	##민주당	I-OG	I-OG
+4	##과	O	O
+5	국민	B-OG	B-OG
+6	##의	I-OG	I-OG
+7	##당	I-OG	I-OG
+8	,	O	O
+9	정의당	B-OG	B-OG
+10	##은	O	O
+11	9	B-DT	B-DT
+12	##일	I-DT	I-DT
+13	국회	B-OG	B-OG
+14	##에	O	O
+15	##서	O	O
+16	3	B-QT	B-QT
+17	##당	I-QT	I-QT
+18	대표	B-CV	B-CV
+19	회동	O	O
+20	##을	O	O
+21	열	O	O
+22	##어	O	O
+23	‘	O	O
+24	국회	B-OG	B-OG
+25	##가	O	O
+26	추천	O	O
+27	##한	O	O
+28	총리	B-CV	B-CV
+29	##에	O	O
+30	##게	O	O
+31	내각	O	O
+32	통할	O	O
+33	##권	O	O
+34	##을	O	O
+35	주	O	O
+36	##겠다	O	O
+37	’	O	O
+38	는	O	O
+39	박	B-PS	B-PS
+40	대통령	B-CV	B-CV
+41	##의	O	O
+42	전날	B-DT	B-DT
+43	제안	O	O
+44	##을	O	O
+45	일축	O	O
+46	##하	O	O
+47	##고	O	O
+48	,	O	O
+49	오	O	B-DT
+50	##는	O	I-DT
+51	주말	O	I-DT
+52	(	O	O
+53	12	B-DT	B-DT
+54	##일	I-DT	I-DT
+55	)	O	O
+56	서울	B-LC	B-LC
+57	광화문	B-LC	B-LC
+58	##광장	I-LC	I-LC
+59	##에	O	O
+60	##서	O	O
+61	시민	O	O
+62	##사회	O	O
+63	##단체	O	O
+64	주도	O	O
+65	##로	O	O
+66	열리	O	O
+67	##는	O	O
+68	‘	O	O
+69	민중	B-EV	B-EV
+70	##총	I-EV	I-EV
+71	##궐기	I-EV	I-EV
+72	##대	I-EV	I-EV
+73	##회	I-EV	I-EV
+74	’	O	O
+75	에	O	O
+76	적극	O	O
+77	참여	O	O
+78	##하	O	O
+79	##기	O	O
+80	##로	O	O
+81	뜻	O	O
+82	##을	O	O
+83	모았	O	O
+84	##다	O	O
+85	.	O	O
+86	[SEP]	O	O

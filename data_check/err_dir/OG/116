@@ -1,27 +1,44 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	신한은행	B-OG	B-OG	B-OG, B-PS, O, B-CV, B-AF
-2	##은	O	O	O, I-OG, I-AF, I-CV, B-CV
-3	작년	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-OG
-4	초	I-DT	I-DT	I-DT, O, I-QT, I-PS, I-OG
-5	환경	O	B-OG	B-OG, O, I-OG, B-CV, B-AF
-6	##재단	O	I-OG	I-OG, O, I-CV, I-EV, B-OG
-7	##의	O	O	O, I-OG, I-EV, B-OG, I-AF
-8	기후	B-OG	B-AF	B-AF, O, B-OG, B-LC, B-EV
-9	##변	I-OG	I-AF	I-AF, O, I-OG, I-LC, I-EV
-10	##화	I-OG	I-AF	I-AF, O, I-OG, I-EV, I-LC
-11	##센터	I-OG	I-AF	I-AF, O, I-OG, I-EV, I-LC
-12	설립	O	O	O, I-AF, I-EV, I-OG, I-TM
-13	##을	O	O	O, I-AF, B-PS, B-OG, I-OG
-14	후원	O	O	O, B-CV, B-OG, B-TM, B-LC
-15	##하면	O	O	O, B-CV, B-LC, B-PS, B-OG
-16	##서	O	O	O, B-CV, B-OG, B-LC, B-PS
-17	환경	O	B-OG	B-OG, O, I-OG, B-CV, B-AF
-18	##재단	O	I-OG	I-OG, O, I-CV, I-EV, B-OG
-19	##의	O	O	O, I-OG, I-AF, I-CV, I-EV
-20	회원	B-CV	B-CV	B-CV, O, B-OG, I-CV, B-AF
-21	##이	O	O	O, I-CV, I-OG, I-AF, I-QT
-22	됐	O	O	O, B-CV, I-OG, B-QT, B-OG
-23	##다	O	O	O, B-CV, I-OG, B-TM, B-OG
-24	.	O	O	O, B-OG, B-PS, B-LC, I-OG
-25	[SEP]	O	O	O, B-OG, I-OG, B-CV, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	수도	O	O
+2	서울	B-LC	B-LC
+3	##을	O	O
+4	대표	O	O
+5	##하	O	O
+6	##는	O	O
+7	미술관	O	O
+8	##이	O	O
+9	리	B-OG	B-OG
+10	##움	I-OG	I-OG
+11	##이	O	O
+12	##라면	O	O
+13	,	O	O
+14	남쪽	B-LC	B-LC
+15	지방	O	O
+16	##을	O	O
+17	대표	O	O
+18	##하	O	O
+19	##는	O	O
+20	박물관	O	O
+21	##은	O	O
+22	제주	B-LC	B-LC
+23	서귀포	B-LC	B-LC
+24	##에	O	O
+25	있	O	O
+26	##는	O	O
+27	본	B-OG	B-AF
+28	##태	I-OG	I-AF
+29	(	I-OG	I-AF
+30	本	I-OG	I-AF
+31	態	I-OG	I-AF
+32	)	I-OG	I-AF
+33	박물관	I-OG	I-AF
+34	##이	O	O
+35	##라는	O	O
+36	생각	O	O
+37	##이	O	O
+38	들	O	O
+39	##었	O	O
+40	##다	O	O
+41	.	O	O
+42	[SEP]	O	O

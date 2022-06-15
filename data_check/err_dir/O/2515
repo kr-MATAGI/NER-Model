@@ -1,40 +1,35 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	그	O	O	O, B-CV, B-OG, B-PS, B-LC
-2	##는	O	O	O, B-CV, B-PS, B-LC, I-EV
-3	“	O	O	O, B-CV, B-LC, B-PS, B-OG
-4	한나라당	B-OG	B-OG	B-OG, O, B-PS, B-LC, B-AF
-5	##은	O	O	O, I-OG, I-EV, I-AF, B-CV
-6	2	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-7	##년	I-DT	I-DT	I-DT, O, I-QT, B-DT, I-PS
-8	,	O	O	O, I-DT, B-CV, B-PS, B-OG
-9	민주당	B-OG	B-OG	B-OG, O, B-PS, B-LC, B-AF
-10	##은	O	O	O, I-OG, B-PS, I-DT, B-CV
-11	6	B-DT	B-DT	B-DT, O, B-QT, I-DT, B-EV
-12	##개	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-13	##월	I-DT	I-DT	I-DT, O, I-QT, B-DT, I-EV
-14	유예	O	O	O, I-DT, B-CV, B-LC, B-PS
-15	##안	O	O	O, I-CV, B-PS, I-DT, B-LC
-16	##을	O	O	O, B-PS, B-LC, B-CV, B-OG
-17	두고	O	O	O, B-LC, B-PS, B-OG, B-CV
-18	시간	O	O	O, B-LC, B-TI, B-OG, B-CV
-19	##을	O	O	O, B-CV, B-LC, B-PS, B-OG
-20	끌	O	O	O, B-LC, B-OG, B-CV, B-PS
-21	것	O	O	O, B-PS, B-LC, B-CV, B-OG
-22	##이	O	O	O, B-PS, B-CV, B-LC, B-OG
-23	아니	O	O	O, B-PS, B-LC, B-CV, B-OG
-24	##라	O	O	O, B-PS, B-LC, B-CV, B-OG
-25	비정규직	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-AF
-26	해고	O	I-CV	I-CV, O, B-CV, I-OG, I-AF
-27	금지법	O	I-CV	I-CV, O, B-CV, I-OG, I-AF
-28	##부터	O	O	O, I-CV, I-QT, I-DT, B-QT
-29	만들	O	O	O, B-LC, B-PS, I-CV, B-CV
-30	##어야	O	O	O, B-PS, B-LC, B-OG, B-CV
-31	한다	O	O	O, B-CV, B-PS, B-LC, B-OG
-32	”	O	O	O, B-CV, B-TM, I-OG, B-LC
-33	고	O	O	O, B-CV, B-LC, B-TM, B-PS
-34	주장	O	O	O, B-CV, B-TM, B-LC, B-PS
-35	##했	O	O	O, B-CV, B-PS, I-CV, B-LC
-36	##다	O	O	O, B-CV, B-PS, B-LC, I-CV
-37	.	O	O	O, B-LC, B-PS, B-CV, B-OG
-38	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	여기	O	O
+2	##에	O	O
+3	카트	O	O
+4	##에	O	O
+5	담긴	O	O
+6	물건	O	O
+7	##의	O	O
+8	무게	O	O
+9	##까	O	O
+10	##지	O	O
+11	동시	O	O
+12	##에	O	O
+13	이겨	O	O
+14	##내	O	O
+15	##야	O	O
+16	하	O	O
+17	##는	O	O
+18	상황	O	O
+19	##이	O	O
+20	되	O	O
+21	##므로	O	O
+22	무릎	B-AM	B-AM
+23	##관	O	B-TM
+24	##절	O	I-TM
+25	##에	O	O
+26	##는	O	O
+27	최악	O	O
+28	##인	O	O
+29	상태	O	O
+30	##가	O	O
+31	된다	O	O
+32	.	O	O
+33	[SEP]	O	O

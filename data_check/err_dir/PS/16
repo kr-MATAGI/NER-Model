@@ -1,20 +1,12 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-EV, I-OG, B-CV, I-CV
-1	이번	O	O	O, B-CV, B-EV, B-TM, B-OG
-2	전시	O	O	O, B-EV, B-FD, B-CV, I-EV
-3	##는	O	O	O, I-EV, B-CV, I-OG, B-PS
-4	아시아	B-LC	B-LC	B-LC, O, B-OG, B-CV, B-PS
-5	최초	O	O	O, B-QT, I-LC, I-QT, B-LC
-6	##로	O	O	O, I-QT, I-OG, I-EV, I-LC
-7	열리	O	O	O, B-CV, B-EV, I-EV, B-PS
-8	##는	O	O	O, B-EV, B-CV, B-LC, I-EV
-9	투	B-PS	B-EV	B-EV, B-CV, B-LC, O, B-AF
-10	##탕	I-PS	I-CV	I-CV, I-EV, I-LC, I-AF, O
-11	##카	I-PS	I-EV	I-EV, I-CV, I-LC, I-AF, O
-12	##멘	I-PS	I-EV	I-EV, I-CV, I-LC, I-AF, I-OG
-13	관련	O	O	O, I-EV, I-OG, I-CV, I-LC
-14	특별	O	O	O, B-EV, I-EV, B-CV, B-LC
-15	##전	O	O	O, I-EV, B-EV, I-CV, I-QT
-16	##이다	O	O	O, I-EV, B-CV, I-OG, I-CV
-17	.	O	O	O, I-EV, B-LC, B-CV, B-PS
-18	[SEP]	O	O	O, I-EV, B-CV, B-LC, B-EV
+	text	label	preds
+0	[CLS]	O	O
+1	메이지	B-PS	B-DT
+2	5	B-DT	I-DT
+3	##년	I-DT	I-DT
+4	##인	O	O
+5	187	B-DT	B-DT
+6	##2	I-DT	I-DT
+7	##년	I-DT	I-DT
+8	##입니다	O	O
+9	.	O	O
+10	[SEP]	O	O

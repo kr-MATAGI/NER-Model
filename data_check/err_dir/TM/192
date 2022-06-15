@@ -1,72 +1,33 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-EV, I-OG
-1	미	B-LC	B-LC	B-LC, B-OG, O, B-PS, B-AF
-2	국무부	B-OG	B-OG	B-OG, I-OG, B-AF, O, B-LC
-3	문서	O	O	O, I-OG, I-AF, B-CV, I-EV
-4	##를	O	O	O, B-CV, B-LC, B-PS, B-OG
-5	발굴	O	O	O, B-CV, B-LC, B-OG, B-TM
-6	##했	O	O	O, B-PS, B-LC, B-OG, B-CV
-7	##던	O	O	O, B-LC, B-PS, B-OG, B-CV
-8	박명	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
-9	##림	I-PS	I-PS	I-PS, O, I-OG, I-LC, B-PS
-10	연세대	B-OG	B-OG	B-OG, B-LC, B-AF, O, I-OG
-11	교수	B-CV	B-CV	B-CV, O, I-CV, I-OG, B-OG
-12	##는	O	O	O, I-CV, I-OG, I-EV, B-CV
-13	17	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-LC
-14	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-15	“	O	O	O, I-DT, B-CV, B-LC, B-OG
-16	이	O	O	O, B-PS, B-CV, B-OG, B-LC
-17	자료	O	O	O, B-LC, B-CV, B-PS, B-AF
-18	##들	O	O	O, B-PS, B-LC, B-CV, B-OG
-19	##은	O	O	O, B-LC, B-CV, B-OG, B-PS
-20	박	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
-21	정권	O	O	O, I-PS, I-OG, B-CV, B-OG
-22	##이	O	O	O, B-PS, B-LC, I-PS, B-OG
-23	겉	O	O	O, B-PS, B-LC, B-CV, B-TM
-24	##으로	O	O	O, B-PS, B-LC, I-PS, B-TR
-25	##는	O	O	O, B-PS, B-LC, B-TM, B-TR
-26	공산	B-TM	O	O, B-TR, B-LC, B-EV, B-CV
-27	##화	I-TM	O	O, I-TR, I-EV, I-LC, I-CV
-28	방지	O	O	O, I-TR, I-EV, I-OG, I-PS
-29	,	O	O	O, B-PS, B-CV, B-LC, B-OG
-30	즉	O	O	O, B-LC, B-CV, B-TM, B-PS
-31	국가	O	O	O, B-CV, B-TR, B-LC, B-PS
-32	##안	O	O	O, I-CV, B-CV, I-TR, B-TR
-33	##보	O	O	O, I-CV, I-TR, I-LC, I-PS
-34	강화	O	O	O, I-CV, I-TR, B-PS, I-OG
-35	##를	O	O	O, B-PS, B-LC, B-CV, B-OG
-36	명분	O	O	O, B-CV, B-PS, B-LC, B-QT
-37	##으로	O	O	O, B-PS, B-CV, B-LC, B-OG
-38	내세웠	O	O	O, B-PS, B-LC, B-CV, B-OG
-39	##지만	O	O	O, B-PS, B-LC, B-CV, B-OG
-40	,	O	O	O, B-CV, B-LC, B-PS, B-OG
-41	실제로	O	O	O, B-PS, B-LC, B-CV, B-TM
-42	##는	O	O	O, B-LC, B-PS, B-OG, B-CV
-43	북한	B-OG	B-OG	B-OG, B-LC, O, B-PS, B-TM
-44	##과	O	O	O, I-OG, I-LC, I-PS, B-PS
-45	내	O	O	O, B-LC, B-CV, B-PS, B-OG
-46	##통	O	O	O, I-LC, I-CV, I-OG, I-PS
-47	##하면	O	O	O, B-LC, B-PS, I-LC, I-PS
-48	##서	O	O	O, B-LC, B-PS, B-CV, I-LC
-49	장기	O	O	O, B-LC, B-TR, B-CV, B-EV
-50	##집	O	O	O, I-TR, I-CV, B-PS, B-TR
-51	##권	O	O	O, I-CV, I-TR, I-PS, I-LC
-52	##을	O	O	O, B-PS, I-PS, B-LC, I-CV
-53	위한	O	O	O, B-LC, B-PS, B-TR, B-OG
-54	유신	O	O	O, B-TR, B-CV, B-OG, B-EV
-55	##체	O	O	O, I-TR, I-CV, I-EV, I-PS
-56	##제	O	O	O, I-TR, I-CV, I-EV, I-PS
-57	##를	O	O	O, B-PS, B-LC, I-CV, I-EV
-58	구축	O	O	O, B-LC, B-CV, B-PS, B-OG
-59	##해	O	O	O, B-PS, B-LC, B-OG, I-LC
-60	나간	O	O	O, B-LC, B-PS, B-CV, B-OG
-61	사실	O	O	O, B-CV, B-PS, B-LC, B-OG
-62	##을	O	O	O, B-CV, B-PS, B-OG, B-LC
-63	보여준다	O	O	O, B-CV, B-PS, B-LC, B-TM
-64	”	O	O	O, B-CV, I-CV, B-TM, I-QT
-65	고	O	O	O, B-CV, B-TM, B-LC, B-QT
-66	말	O	O	O, B-CV, B-TM, I-QT, B-LC
-67	##했	O	O	O, B-CV, B-PS, B-LC, I-OG
-68	##다	O	O	O, B-CV, B-LC, B-TM, B-OG
-69	.	O	O	O, B-LC, B-PS, B-CV, B-OG
-70	[SEP]	O	O	O, B-LC, B-CV, B-PS, I-EV
+	text	label	preds
+0	[CLS]	O	O
+1	이	O	O
+2	##를	O	O
+3	통해	O	O
+4	관련	O	O
+5	기업	O	O
+6	##들	O	O
+7	##과	O	O
+8	기획	O	B-TM
+9	·	O	I-TM
+10	제안	O	I-TM
+11	##형	O	I-TM
+12	해외	B-TM	I-TM
+13	##도	I-TM	I-TM
+14	##시	I-TM	I-TM
+15	##개발	I-TM	I-TM
+16	##사업	I-TM	I-TM
+17	##을	O	O
+18	위한	O	O
+19	시장	O	O
+20	##조사	O	O
+21	및	O	O
+22	사업	O	O
+23	발굴	O	O
+24	등	O	O
+25	##을	O	O
+26	공동	O	O
+27	##으로	O	O
+28	추진	O	O
+29	##한다	O	O
+30	.	O	O
+31	[SEP]	O	O

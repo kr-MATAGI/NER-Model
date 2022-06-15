@@ -1,54 +1,34 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	샌	B-PS	B-PS	B-PS, O, B-LC, B-OG, I-PS
-2	##퍼드	I-PS	I-PS	I-PS, O, I-LC, I-OG, B-PS
-3	지사	O	B-CV	B-CV, O, I-PS, I-CV, B-OG
-4	##는	O	O	O, I-CV, I-OG, I-EV, I-AF
-5	이날	B-DT	B-DT	B-DT, O, I-DT, B-LC, B-EV
-6	오전	B-TI	B-TI	B-TI, I-TI, O, I-DT, B-EV
-7	조지아	B-LC	B-LC	B-LC, O, I-LC, B-OG, B-PS
-8	##주	I-LC	I-LC	I-LC, O, B-LC, I-AF, I-PS
-9	애틀랜타	B-LC	B-LC	B-LC, I-LC, B-AF, O, B-PS
-10	공항	I-LC	I-LC	I-LC, O, I-AF, B-LC, I-OG
-11	##에	O	O	O, I-LC, I-AF, I-OG, B-CV
-12	도착	O	O	O, B-CV, B-LC, B-OG, B-AF
-13	##한	O	O	O, B-LC, B-AF, B-OG, B-PS
-14	부	B-LC	B-LC	B-LC, O, I-LC, B-AF, B-PS
-15	##에	I-LC	I-LC	I-LC, O, B-LC, I-PS, I-AF
-16	##노스	I-LC	I-LC	I-LC, O, B-LC, I-PS, I-AF
-17	##아이	I-LC	I-LC	I-LC, O, B-LC, I-AF, I-PS
-18	##레스	I-LC	I-LC	I-LC, O, B-LC, I-AF, I-PS
-19	##발	O	O	O, I-LC, I-AF, I-OG, B-LC
-20	비행기	B-AF	B-AF	B-AF, O, I-AF, B-LC, B-TM
-21	##에서	O	O	O, I-AF, B-CV, I-OG, I-EV
-22	내리	O	O	O, B-CV, B-AF, B-PS, I-AF
-23	##는	O	O	O, B-CV, B-PS, B-AF, B-LC
-24	모습	O	O	O, B-CV, B-LC, B-OG, B-TM
-25	##이	O	O	O, B-PS, B-LC, B-OG, B-CV
-26	사우스	B-LC	B-LC	B-LC, O, B-OG, I-LC, B-PS
-27	##캐	I-LC	I-LC	I-LC, O, B-LC, I-OG, I-PS
-28	##롤	I-LC	I-LC	I-LC, O, B-LC, I-OG, I-PS
-29	##라이나	I-LC	I-LC	I-LC, O, B-LC, I-OG, I-PS
-30	유력	O	O	O, I-LC, B-CV, B-OG, B-TM
-31	##지	O	O	O, I-OG, I-LC, I-CV, I-AF
-32	<	O	O	O, B-OG, B-LC, B-AF, B-CV
-33	스테이트	B-AF	B-OG	B-OG, B-AF, O, I-OG, B-LC
-34	>	O	O	O, I-OG, I-AF, B-CV, B-OG
-35	취재진	B-CV	B-CV	B-CV, O, B-OG, I-CV, B-AF
-36	##에	O	O	O, I-CV, I-OG, I-AF, B-CV
-37	##게	O	O	O, B-CV, B-TM, B-OG, B-LC
-38	포착	O	O	O, B-TM, B-CV, B-OG, B-LC
-39	##되	O	O	O, B-LC, B-PS, B-CV, B-OG
-40	##자	O	O	O, B-LC, B-PS, B-OG, B-CV
-41	,	O	O	O, B-CV, B-LC, B-OG, B-PS
-42	급하	O	O	O, B-CV, B-LC, B-TM, B-OG
-43	##게	O	O	O, B-LC, B-OG, B-PS, B-CV
-44	기자	O	O	O, B-CV, B-TM, B-FD, B-EV
-45	##회	O	O	O, I-CV, I-EV, B-CV, I-AF
-46	##견	O	O	O, I-CV, I-EV, B-CV, B-LC
-47	##을	O	O	O, B-OG, B-CV, B-LC, B-PS
-48	마련	O	O	O, B-CV, B-OG, B-LC, B-TM
-49	##했	O	O	O, B-CV, B-LC, B-OG, B-PS
-50	##다	O	O	O, B-CV, B-LC, B-OG, I-OG
-51	.	O	O	O, B-LC, B-CV, B-OG, B-PS
-52	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-AF
+	text	label	preds
+0	[CLS]	O	O
+1	사전	O	O
+2	스카우트	O	B-CV
+3	##는	O	O
+4	2000	B-DT	B-DT
+5	##년	I-DT	I-DT
+6	이후	I-DT	I-DT
+7	전면	O	O
+8	금지	O	O
+9	##됐	O	O
+10	##으나	O	O
+11	거액	O	O
+12	##의	O	O
+13	뒷돈	O	O
+14	##이	O	O
+15	오가	O	O
+16	##며	O	O
+17	은밀	O	O
+18	##하	O	O
+19	##게	O	O
+20	진행	O	O
+21	##됐	O	O
+22	##다는	O	O
+23	것	O	O
+24	##이	O	O
+25	배구	B-CV	B-CV
+26	##계	O	O
+27	관계자	B-CV	B-CV
+28	##들의	O	O
+29	증언	O	O
+30	##이다	O	O
+31	.	O	O
+32	[SEP]	O	O

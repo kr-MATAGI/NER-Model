@@ -1,24 +1,23 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-AF
-1	[	O	O	O, B-LC, B-OG, B-PS, B-CV
-2	신나	O	O	O, B-CV, B-PS, B-AF, B-LC
-3	##는	O	O	O, B-PS, I-AF, I-OG, B-LC
-4	공부	O	O	O, B-CV, B-PS, B-OG, B-AF
-5	]	O	O	O, B-PS, I-OG, B-LC, B-OG
-6	교내	O	O	O, B-OG, B-CV, B-FD, B-PS
-7	밴드	O	O	O, I-OG, B-FD, B-PS, B-OG
-8	지휘자	O	B-CV	B-CV, O, I-CV, B-PS, I-PS
-9	…	O	O	O, I-CV, I-OG, I-PS, I-AF
-10	동아리	O	O	O, B-CV, B-OG, B-PS, I-OG
-11	결성	O	O	O, B-PS, B-CV, I-OG, I-CV
-12	-	O	O	O, B-PS, B-LC, I-OG, B-OG
-13	주도	O	O	O, B-CV, B-PS, B-LC, B-TM
-14	…	O	O	O, B-PS, I-CV, I-OG, B-LC
-15	리더십	O	O	O, B-CV, B-PS, B-TM, B-LC
-16	‘	O	O	O, B-PS, B-LC, B-OG, B-CV
-17	길	O	O	O, B-PS, B-AF, B-TM, B-LC
-18	’	O	O	O, B-PS, I-AF, I-CV, B-CV
-19	은	O	O	O, B-PS, B-LC, B-CV, B-OG
-20	많	O	O	O, B-PS, B-CV, B-LC, B-OG
-21	##다	O	O	O, I-OG, B-PS, I-AF, B-LC
-22	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	하지	O	O
+2	##만	O	O
+3	새로	O	O
+4	임명	O	O
+5	##되	O	O
+6	##는	O	O
+7	이	O	O
+8	##들	O	O
+9	부처	O	O
+10	장관	B-CV	B-CV
+11	##들	O	O
+12	##은	O	O
+13	21	O	B-DT
+14	##일치	O	I-DT
+15	월급	O	O
+16	##을	O	O
+17	받	O	O
+18	##게	O	O
+19	된다	O	O
+20	.	O	O
+21	[SEP]	O	O

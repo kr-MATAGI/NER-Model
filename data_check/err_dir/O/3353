@@ -1,37 +1,46 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	그간	O	O	O, B-LC, B-OG, B-DT, B-PS
-2	롯데	B-OG	B-OG	B-OG, O, B-PS, B-LC, I-OG
-3	##그룹	I-OG	I-OG	I-OG, O, B-OG, I-PS, I-EV
-4	인사	O	O	O, B-CV, I-CV, I-OG, B-FD
-5	##는	O	O	O, I-CV, I-OG, I-EV, B-PS
-6	신	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-7	회장	B-CV	B-CV	B-CV, O, I-PS, I-CV, B-EV
-8	##이	O	O	O, I-CV, B-PS, I-PS, I-EV
-9	한국	B-LC	B-LC	B-LC, O, B-OG, B-AF, B-PS
-10	##에서	O	O	O, I-LC, I-AF, B-LC, B-PS
-11	설	O	B-DT	B-DT, O, B-EV, I-DT, B-CV
-12	연휴	O	I-DT	I-DT, O, B-DT, I-EV, B-EV
-13	##를	O	O	O, I-DT, I-EV, B-CV, B-PS
-14	보내	O	O	O, B-LC, B-CV, B-DT, B-OG
-15	##며	O	O	O, B-LC, B-PS, B-DT, I-DT
-16	인사	O	O	O, B-CV, B-EV, B-FD, I-CV
-17	##를	O	O	O, I-CV, I-EV, B-PS, I-OG
-18	확정	O	O	O, B-CV, B-LC, B-OG, B-PS
-19	##하고	O	O	O, B-PS, B-LC, B-DT, B-CV
-20	일본	B-LC	B-LC	B-LC, O, B-OG, B-AF, B-PS
-21	##으로	O	O	O, I-LC, I-AF, I-OG, B-LC
-22	간	O	O	O, B-LC, B-PS, B-CV, B-OG
-23	뒤	O	O	O, B-LC, B-CV, B-PS, I-AF
-24	며칠	O	O	O, B-LC, B-CV, B-PS, B-DT
-25	이내	O	O	O, B-DT, B-PS, I-DT, B-LC
-26	##에	O	O	O, B-CV, B-LC, B-OG, B-TM
-27	발표	O	O	O, B-CV, B-TM, B-LC, B-OG
-28	##된	O	O	O, B-CV, B-LC, B-OG, B-PS
-29	적	O	O	O, B-CV, B-LC, B-OG, B-PS
-30	##이	O	O	O, B-PS, B-CV, B-OG, B-LC
-31	많	O	O	O, B-CV, B-OG, B-LC, B-TM
-32	##았	O	O	O, B-CV, B-OG, B-LC, B-PS
-33	##다	O	O	O, B-CV, I-OG, B-LC, B-TM
-34	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-35	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	또	O	O
+2	유대인	B-CV	B-CV
+3	##들	O	O
+4	##에	O	O
+5	##게	O	O
+6	심한	O	O
+7	고문	O	O
+8	자세	O	O
+9	##를	O	O
+10	몇	O	O
+11	시간	O	O
+12	동안	O	O
+13	취하	O	O
+14	##게	O	O
+15	하고	O	O
+16	,	O	O
+17	개	O	O
+18	##줄	O	O
+19	##로	O	O
+20	때리	O	O
+21	##는	O	O
+22	##가	O	O
+23	하	O	O
+24	##면	O	O
+25	도망가	O	O
+26	##는	O	O
+27	유대인	B-CV	B-CV
+28	##들	O	O
+29	##은	O	O
+30	현장	O	O
+31	##에	O	O
+32	##서	O	O
+33	총	O	B-AF
+34	##으로	O	O
+35	사살	O	O
+36	##한	O	O
+37	혐의	O	O
+38	##도	O	O
+39	받	O	O
+40	##고	O	O
+41	있	O	O
+42	##다	O	O
+43	.	O	O
+44	[SEP]	O	O

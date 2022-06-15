@@ -1,29 +1,61 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-QT, I-CV
-1	항만	B-OG	B-OG	B-OG, O, B-CV, I-OG, B-EV
-2	##공사	I-OG	I-OG	I-OG, O, I-CV, I-EV, B-OG
-3	##는	O	O	O, I-OG, I-EV, I-AF, I-CV
-4	여수	B-OG	B-OG	B-OG, B-LC, O, I-OG, B-PS
-5	##지방	I-OG	I-OG	I-OG, O, B-OG, I-LC, I-EV
-6	##해	I-OG	I-OG	I-OG, O, I-LC, B-OG, I-EV
-7	##양	I-OG	I-OG	I-OG, O, I-LC, B-OG, I-EV
-8	##항	I-OG	I-OG	I-OG, O, I-LC, B-OG, I-EV
-9	##만	I-OG	I-OG	I-OG, O, I-LC, B-OG, I-EV
-10	##청	I-OG	I-OG	I-OG, O, I-LC, I-AF, I-EV
-11	##으로	O	O	O, I-OG, I-AF, I-EV, I-CV
-12	##부터	O	O	O, B-LC, B-OG, B-AF, B-PS
-13	광양제철	B-LC	B-AF	B-AF, B-OG, B-LC, O, B-TM
-14	##부	I-LC	O	O, I-AF, B-AF, I-LC, I-OG
-15	##두	I-LC	O	O, I-AF, I-LC, I-OG, B-AF
-16	##와	O	O	O, I-AF, I-LC, B-LC, I-OG
-17	여수	B-LC	B-LC	B-LC, O, B-AF, B-OG, B-TM
-18	##산	I-LC	O	O, I-LC, I-AF, I-OG, B-LC
-19	##단	I-LC	O	O, I-LC, I-AF, I-OG, I-CV
-20	부두	I-LC	O	O, I-AF, I-LC, B-AF, B-LC
-21	##를	O	O	O, I-AF, I-LC, I-OG, B-LC
-22	넘겨	O	O	O, B-LC, B-CV, B-OG, B-QT
-23	##받	O	O	O, I-OG, B-LC, B-PS, I-QT
-24	##는	O	O	O, B-LC, B-OG, B-CV, B-PS
-25	##다	O	O	O, B-LC, B-OG, B-CV, I-OG
-26	.	O	O	O, B-OG, B-LC, I-OG, B-AF
-27	[SEP]	O	O	O, B-LC, B-OG, I-OG, B-AF
+	text	label	preds
+0	[CLS]	O	O
+1	워싱턴	B-LC	B-LC
+2	##의	O	O
+3	한	O	O
+4	외교	O	O
+5	소식통	O	O
+6	##은	O	O
+7	5	B-DT	B-DT
+8	##일	I-DT	I-DT
+9	“	O	O
+10	미국	B-LC	B-OG
+11	##은	O	O
+12	유엔	B-OG	B-OG
+13	##에	O	O
+14	##서	O	O
+15	대북	O	O
+16	원유	O	B-MT
+17	공급	O	O
+18	중단	O	O
+19	,	O	O
+20	북한	B-LC	B-OG
+21	##의	O	O
+22	석유	O	B-MT
+23	가공	O	O
+24	제품	O	O
+25	수출	O	O
+26	금지	O	O
+27	,	O	O
+28	기존	O	O
+29	북한	B-LC	B-LC
+30	해외	O	O
+31	노동자	B-CV	B-CV
+32	고용	O	O
+33	금지	O	O
+34	등	O	O
+35	3	B-QT	B-QT
+36	##가지	I-QT	I-QT
+37	##를	O	O
+38	새로운	O	O
+39	대북	B-CV	B-CV
+40	##제	I-CV	I-CV
+41	##재	I-CV	I-CV
+42	##에	O	O
+43	포함	O	O
+44	##시	O	O
+45	##켜	O	O
+46	##야	O	O
+47	한다고	O	O
+48	요구	O	O
+49	##했	O	O
+50	##다	O	O
+51	”	O	O
+52	며	O	O
+53	이	O	O
+54	##같이	O	O
+55	말	O	O
+56	##했	O	O
+57	##다	O	O
+58	.	O	O
+59	[SEP]	O	O

@@ -1,12 +1,37 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, I-OG, B-CV, I-EV
-1	“	O	O	O, B-CV, B-PS, B-LC, B-OG
-2	질병관리본부	B-OG	B-OG	B-OG, O, B-AF, B-CV, B-EV
-3	,	O	O	O, I-OG, I-AF, I-EV, I-CV
-4	차관	B-CV	O	O, B-CV, B-QT, B-TM, B-OG
-5	##급	O	O	O, I-CV, I-QT, I-OG, B-QT
-6	##으로	O	O	O, I-QT, I-CV, B-PS, B-QT
-7	격상	O	O	O, B-CV, B-PS, B-QT, I-CV
-8	##해야	O	O	O, B-PS, I-CV, I-PS, I-OG
-9	”	O	O	O, B-CV, B-PS, B-LC, B-OG
-10	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	이	O	O
+2	##들	O	O
+3	조직	O	O
+4	##은	O	O
+5	김정은	B-PS	B-PS
+6	##의	O	O
+7	고모	B-CV	B-CV
+8	##부	I-CV	I-CV
+9	장성택	B-PS	B-PS
+10	##이나	O	O
+11	현영	B-PS	B-PS
+12	##철	I-PS	I-PS
+13	인민	B-CV	B-CV
+14	##무	I-CV	I-CV
+15	##력	I-CV	I-CV
+16	##부	I-CV	I-CV
+17	##장	I-CV	I-CV
+18	처형	B-CV	O
+19	등	O	O
+20	‘	O	O
+21	김정은	B-PS	B-PS
+22	공포	O	O
+23	##통	O	O
+24	##치	O	O
+25	’	O	O
+26	의	O	O
+27	행동	O	O
+28	##대장	O	O
+29	역할	O	O
+30	##을	O	O
+31	해	O	O
+32	왔	O	O
+33	##다	O	O
+34	.	O	O
+35	[SEP]	O	O

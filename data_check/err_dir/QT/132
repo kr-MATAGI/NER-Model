@@ -1,29 +1,55 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-EV, I-OG, B-CV, I-QT
-1	이어	O	O	O, B-LC, B-DT, B-OG, B-QT
-2	28	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-LC
-3	##일	I-DT	I-DT	I-DT, O, B-DT, I-EV, I-QT
-4	미국	B-LC	B-LC	B-LC, O, B-OG, B-AF, I-DT
-5	뉴욕	B-LC	B-LC	B-LC, O, I-LC, B-AF, B-OG
-6	유엔	B-AF	B-AF	B-AF, I-AF, B-OG, B-LC, O
-7	##본부	I-AF	I-AF	I-AF, O, I-LC, I-OG, B-AF
-8	##에서	O	O	O, I-AF, I-EV, I-OG, I-LC
-9	열릴	O	O	O, B-EV, I-EV, B-PS, B-LC
-10	안보리	B-OG	B-EV	B-EV, B-OG, O, I-EV, B-CV
-11	각료	B-OG	I-EV	I-EV, O, B-EV, B-CV, I-OG
-12	##회의	I-OG	I-EV	I-EV, O, I-OG, I-CV, B-EV
-13	##를	O	O	O, I-EV, I-OG, I-AF, I-DT
-14	계기	O	O	O, B-EV, B-LC, I-EV, B-DT
-15	##로	O	O	O, B-EV, B-LC, I-EV, B-PS
-16	3	B-QT	B-EV	B-EV, B-QT, B-CV, I-EV, B-TM
-17	##국	I-QT	I-EV	I-EV, I-QT, I-OG, I-TM, I-CV
-18	외교	B-EV	I-EV	I-EV, B-EV, B-CV, O, I-QT
-19	##장	I-EV	I-EV	I-EV, I-CV, O, I-QT, I-OG
-20	##관	I-EV	I-EV	I-EV, I-CV, I-QT, O, I-OG
-21	회담	I-EV	I-EV	I-EV, O, I-OG, I-QT, I-CV
-22	##도	O	O	O, I-EV, I-OG, I-QT, I-AF
-23	열	O	O	O, B-OG, I-EV, B-EV, B-LC
-24	방침	O	O	O, B-CV, I-EV, B-OG, B-TM
-25	##이다	O	O	O, B-CV, I-EV, B-OG, B-TM
-26	.	O	O	O, B-LC, I-EV, B-EV, B-PS
-27	[SEP]	O	O	O, I-EV, B-LC, B-EV, B-CV
+	text	label	preds
+0	[CLS]	O	O
+1	나머지	O	O
+2	7500	B-QT	B-QT
+3	##억	I-QT	I-QT
+4	##원	I-QT	I-QT
+5	##을	O	O
+6	지원	O	O
+7	##하	O	O
+8	##는	O	O
+9	‘	O	O
+10	국가	B-CV	B-CV
+11	##장	I-CV	I-CV
+12	##학	I-CV	I-CV
+13	##금	I-CV	I-CV
+14	Ⅱ	B-QT	B-QT
+15	##유	I-QT	I-QT
+16	##형	I-QT	I-QT
+17	’	O	O
+18	은	O	O
+19	기초	O	O
+20	##생활	O	O
+21	##수	O	O
+22	##급	O	O
+23	대상자	O	O
+24	##부터	O	O
+25	소득	O	O
+26	하위	B-QT	O
+27	7	I-QT	B-QT
+28	##분	I-QT	I-QT
+29	##위	I-QT	I-QT
+30	##까	O	O
+31	##지	O	O
+32	##의	O	O
+33	학생	B-CV	B-CV
+34	##들	O	O
+35	##을	O	O
+36	대상	O	O
+37	##으로	O	O
+38	하	O	O
+39	##며	O	O
+40	,	O	O
+41	대학	O	O
+42	##의	O	O
+43	자구	O	O
+44	##노	O	O
+45	##력	O	O
+46	##에	O	O
+47	따라	O	O
+48	차등	O	O
+49	지원	O	O
+50	##된	O	O
+51	##다	O	O
+52	.	O	O
+53	[SEP]	O	O

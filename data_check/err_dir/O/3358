@@ -1,16 +1,41 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	일부	O	B-QT	B-QT, O, B-CV, I-QT, B-TM
-2	##를	O	O	O, I-QT, I-CV, B-CV, I-DT
-3	이제	O	O	O, B-CV, B-OG, B-TM, B-PS
-4	제출	O	O	O, B-CV, B-LC, B-OG, B-TM
-5	##하고	O	O	O, B-CV, B-PS, B-LC, B-OG
-6	일부	O	B-QT	B-QT, O, I-QT, B-CV, B-TM
-7	##만	O	O	O, I-QT, B-QT, I-LC, I-CV
-8	노출	O	O	O, I-QT, B-CV, B-TM, B-LC
-9	##된	O	O	O, B-CV, B-OG, B-PS, B-LC
-10	그런	O	O	O, B-CV, B-OG, B-TM, B-LC
-11	상태	O	O	O, B-CV, B-OG, B-TM, B-LC
-12	##입니다	O	O	O, B-CV, B-OG, I-OG, B-LC
-13	.	O	O	O, B-CV, B-LC, B-OG, B-PS
-14	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-QT
+	text	label	preds
+0	[CLS]	O	O
+1	결국	O	O
+2	1945	B-DT	B-DT
+3	##년	I-DT	I-DT
+4	8	I-DT	I-DT
+5	##월	I-DT	I-DT
+6	6	I-DT	I-DT
+7	##일	I-DT	I-DT
+8	히로시마	B-LC	B-LC
+9	##에	O	O
+10	원자	B-AF	B-AF
+11	##폭탄	I-AF	I-AF
+12	'	O	O
+13	리틀	B-AF	B-AF
+14	보이	I-AF	I-AF
+15	'	O	O
+16	가	O	O
+17	투하	O	O
+18	##됐	O	O
+19	##고	O	O
+20	,	O	O
+21	사흘	B-DT	B-DT
+22	뒤	I-DT	I-DT
+23	나가사키	B-LC	B-EV
+24	원폭	O	I-EV
+25	투하	O	O
+26	그리고	O	O
+27	8	B-DT	B-DT
+28	##월	I-DT	I-DT
+29	15	I-DT	I-DT
+30	##일	I-DT	I-DT
+31	일본	B-LC	B-LC
+32	##의	O	O
+33	무조건	O	O
+34	항복	O	O
+35	##으로	O	O
+36	이어졌	O	O
+37	##다	O	O
+38	.	O	O
+39	[SEP]	O	O

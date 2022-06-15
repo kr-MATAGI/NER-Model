@@ -1,40 +1,47 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	또	O	O	O, B-CV, B-OG, B-TM, B-QT
-2	군수	O	O	O, B-CV, B-TM, B-PT, B-OG
-3	##경제	O	O	O, I-CV, I-TM, I-FD, B-CV
-4	##를	O	O	O, I-CV, B-PS, B-CV, I-OG
-5	담당	O	O	O, B-CV, B-TM, B-OG, B-LC
-6	##하	O	O	O, B-PS, B-CV, B-LC, I-CV
-7	##는	O	O	O, B-CV, B-PS, B-LC, B-QT
-8	백	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-9	##세	I-PS	I-PS	I-PS, O, I-OG, B-PS, I-LC
-10	##봉	I-PS	I-PS	I-PS, O, I-OG, B-PS, I-LC
-11	제	B-QT	B-CV	B-CV, B-QT, O, B-OG, B-TM
-12	##2	I-QT	I-CV	I-CV, I-QT, B-CV, O, I-OG
-13	##경제	B-CV	I-CV	I-CV, B-CV, I-QT, O, I-OG
-14	##위원	I-CV	I-CV	I-CV, B-CV, I-QT, O, I-OG
-15	##장	I-CV	I-CV	I-CV, B-CV, I-QT, O, I-OG
-16	##을	O	O	O, I-CV, I-QT, I-OG, B-CV
-17	포함	O	O	O, B-CV, B-QT, B-TM, B-DT
-18	##해	O	O	O, B-PS, B-LC, B-OG, B-QT
-19	세	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-EV
-20	명	I-QT	I-QT	I-QT, O, I-EV, I-LC, I-PS
-21	모두	O	O	O, I-QT, I-EV, I-DT, B-DT
-22	로켓	B-AF	B-AF	B-AF, B-EV, O, B-LC, B-TM
-23	폭발	O	I-EV	I-EV, O, I-AF, I-DT, B-EV
-24	당일	O	O	O, I-EV, I-DT, B-DT, I-AF
-25	열린	O	O	O, B-EV, I-EV, B-DT, B-OG
-26	최고	B-EV	B-EV	B-EV, O, B-OG, I-EV, B-AF
-27	##인	I-EV	I-EV	I-EV, O, I-OG, I-AF, I-DT
-28	##민	I-EV	I-EV	I-EV, O, I-OG, I-AF, I-LC
-29	##회의	I-EV	I-EV	I-EV, O, I-OG, I-AF, I-LC
-30	##에서	O	O	O, I-EV, I-DT, I-OG, I-AF
-31	국방위	B-CV	B-CV	B-CV, O, B-OG, B-TM, B-QT
-32	##원	I-CV	I-CV	I-CV, O, B-CV, I-QT, I-OG
-33	##에	O	O	O, I-CV, I-QT, I-OG, I-EV
-34	유임	O	O	O, B-CV, B-OG, B-QT, B-TM
-35	##됐	O	O	O, B-CV, B-PS, B-OG, I-OG
-36	##다	O	O	O, B-CV, I-OG, B-QT, B-TM
-37	.	O	O	O, B-LC, B-PS, B-CV, B-OG
-38	[SEP]	O	O	O, B-CV, B-LC, B-PS, I-EV
+	text	label	preds
+0	[CLS]	O	O
+1	실제	O	O
+2	5	B-DT	B-DT
+3	##월	I-DT	I-DT
+4	한화	B-OG	B-OG
+5	##건설	I-OG	I-OG
+6	##이	O	O
+7	분양	O	O
+8	##한	O	O
+9	A	B-QT	B-LC
+10	##19	I-QT	I-LC
+11	##블	O	I-LC
+12	##록	O	I-LC
+13	##의	O	O
+14	‘	O	O
+15	한화	B-AF	B-AF
+16	꿈	I-AF	I-AF
+17	##에	I-AF	I-AF
+18	##그	I-AF	I-AF
+19	##린	I-AF	I-AF
+20	더	I-AF	I-AF
+21	##스타	I-AF	I-AF
+22	’	O	O
+23	는	O	O
+24	최고	O	O
+25	8	B-QT	B-QT
+26	대	I-QT	I-QT
+27	1	I-QT	I-QT
+28	##의	O	O
+29	청약	O	O
+30	##경	O	O
+31	##쟁	O	O
+32	##률	O	O
+33	##을	O	O
+34	보이	O	O
+35	##며	O	O
+36	1	B-QT	B-QT
+37	##순위	I-QT	I-QT
+38	청약	O	O
+39	##을	O	O
+40	모두	O	O
+41	마감	O	O
+42	##했	O	O
+43	##다	O	O
+44	.	O	O
+45	[SEP]	O	O

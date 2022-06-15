@@ -1,14 +1,43 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, I-OG, B-CV, I-AF
-1	나중	O	O	O, B-CV, B-TM, B-OG, B-QT
-2	##에	O	O	O, B-CV, B-OG, B-PS, B-TM
-3	##는	O	O	O, B-CV, B-TM, B-OG, B-PS
-4	뇌	B-TM	B-TM	B-TM, O, B-TR, B-LC, B-OG
-5	엠	B-TR	B-TM	B-TM, B-TR, I-TM, O, B-AM
-6	##알	I-TR	I-TM	I-TM, I-TR, O, I-AM, I-QT
-7	##아이	I-TR	I-TM	I-TM, I-TR, O, I-AM, I-AF
-8	##까	O	O	O, I-TM, I-TR, I-AF, I-QT
-9	##지	O	O	O, B-CV, B-OG, B-QT, B-DT
-10	찍	O	O	O, B-CV, B-OG, B-LC, B-PS
-11	##잖아	O	O	O, B-CV, I-OG, I-AF, I-CV
-12	[SEP]	O	O	O, B-CV, B-LC, B-TM, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	두	B-QT	B-QT
+2	당	I-QT	I-QT
+3	##이	O	O
+4	이달	B-DT	B-DT
+5	안	I-DT	I-DT
+6	##으로	O	O
+7	출범	O	O
+8	##시	O	O
+9	##키	O	O
+10	##기	O	O
+11	##로	O	O
+12	했	O	O
+13	##던	O	O
+14	‘	O	O
+15	진보	B-TR	B-OG
+16	##대	O	I-OG
+17	##통	O	I-OG
+18	##합	O	I-OG
+19	##과	O	I-OG
+20	새로운	O	I-OG
+21	진보	B-TR	I-OG
+22	##정	O	I-OG
+23	##당	O	I-OG
+24	건설	O	I-OG
+25	##을	O	I-OG
+26	위한	O	I-OG
+27	진보	B-TR	I-OG
+28	##진	O	I-OG
+29	##영	O	I-OG
+30	대표자	B-CV	I-OG
+31	연석회의	O	I-OG
+32	’	O	O
+33	의	O	O
+34	연내	O	O
+35	구성	O	O
+36	##이	O	O
+37	어려워진	O	O
+38	탓	O	O
+39	##이다	O	O
+40	.	O	O
+41	[SEP]	O	O

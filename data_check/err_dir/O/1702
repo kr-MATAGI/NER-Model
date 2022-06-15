@@ -1,34 +1,14 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	그래서	O	O	O, B-CV, B-OG, B-TM, B-LC
-2	그걸	O	O	O, B-CV, B-TM, B-LC, B-OG
-3	중심	O	O	O, B-CV, B-LC, B-TM, B-QT
-4	##으로	O	O	O, B-LC, B-PS, B-CV, B-OG
-5	한	O	B-QT	B-QT, O, I-QT, B-PS, B-EV
-6	번	O	I-QT	I-QT, O, B-QT, I-LC, I-PS
-7	농업	B-FD	O	O, B-FD, I-QT, I-FD, B-OG
-8	##의	O	O	O, I-QT, I-FD, I-OG, B-PS
-9	새로운	O	O	O, B-LC, B-QT, B-TM, B-PS
-10	생태계	O	O	O, B-LC, B-TM, B-CV, B-QT
-11	##를	O	O	O, B-CV, B-PS, B-LC, I-OG
-12	만들	O	O	O, B-LC, B-CV, B-TM, B-PS
-13	##어	O	O	O, B-LC, B-PS, B-CV, I-LC
-14	보	O	O	O, B-PS, B-LC, B-CV, B-QT
-15	##자	O	O	O, I-QT, B-CV, B-PS, I-CV
-16	하	O	O	O, B-CV, B-PS, B-LC, B-OG
-17	##는	O	O	O, B-PS, B-CV, B-LC, B-OG
-18	것	O	O	O, B-PS, B-CV, B-LC, B-OG
-19	##이	O	O	O, B-PS, B-CV, B-LC, B-OG
-20	인제	O	O	O, B-CV, B-OG, B-LC, B-FD
-21	우리	O	O	O, B-CV, B-OG, B-PS, B-LC
-22	소망	O	O	O, B-CV, B-TM, B-FD, B-AF
-23	##입니다	O	O	O, I-CV, B-CV, I-OG, B-PS
-24	##만	O	O	O, B-CV, B-LC, B-PS, B-TM
-25	##은	O	O	O, B-CV, B-OG, B-LC, B-PS
-26	많	O	O	O, B-CV, B-TM, B-OG, B-LC
-27	##은	O	O	O, B-LC, B-CV, B-PS, B-OG
-28	걸림돌	O	O	O, B-TM, B-CV, B-LC, B-AF
-29	##들이	O	O	O, I-CV, I-AF, B-CV, I-OG
-30	있	O	O	O, B-CV, B-OG, B-LC, B-TM
-31	##죠	O	O	O, B-CV, B-OG, I-OG, I-AF
-32	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	예	O	O
+2	.	O	O
+3	김	B-PS	B-PS
+4	##어	I-PS	I-PS
+5	##준	I-PS	I-PS
+6	공장장	B-CV	B-CV
+7	##에	O	O
+8	경제	O	B-FD
+9	선생	B-CV	B-CV
+10	##님	I-CV	I-CV
+11	.	O	O
+12	[SEP]	O	O

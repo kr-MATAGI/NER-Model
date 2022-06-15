@@ -1,29 +1,16 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-AF
-1	대표자	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-OG
-2	##들	O	O	O, I-CV, I-OG, I-AF, I-QT
-3	가운데	O	O	O, B-TM, B-OG, B-CV, B-LC
-4	##는	O	O	O, B-OG, B-CV, B-PS, B-LC
-5	버락	B-PS	B-PS	B-PS, O, I-PS, B-LC, B-OG
-6	오바마	I-PS	I-PS	I-PS, B-PS, O, I-OG, I-LC
-7	미국	B-LC	B-LC	B-LC, B-OG, I-PS, O, I-LC
-8	대통령	B-CV	B-CV	B-CV, O, I-CV, B-AF, B-TM
-9	##과	O	O	O, I-CV, I-AF, I-OG, B-CV
-10	후진타오	B-PS	B-PS	B-PS, O, I-PS, B-LC, B-OG
-11	중국	B-LC	B-LC	B-LC, B-OG, I-PS, O, I-LC
-12	국가	B-CV	B-CV	B-CV, O, I-CV, B-AF, B-OG
-13	##주	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-AF
-14	##석	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-TM
-15	등	O	O	O, I-CV, B-CV, I-OG, I-QT
-16	42	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-EV
-17	##명	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-18	##의	O	O	O, I-QT, B-PS, I-OG, B-CV
-19	정상급	O	O	O, B-CV, B-OG, B-QT, B-PS
-20	인사	B-CV	O	O, B-CV, I-CV, I-QT, B-QT
-21	##가	O	O	O, I-CV, I-QT, B-CV, B-PS
-22	포함	O	O	O, B-CV, B-TM, B-QT, B-LC
-23	##돼	O	O	O, B-LC, B-PS, B-CV, I-OG
-24	있	O	O	O, B-CV, B-TM, B-PS, I-OG
-25	##다	O	O	O, B-CV, B-TM, B-OG, I-OG
-26	.	O	O	O, B-PS, B-LC, B-OG, B-CV
-27	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	왜	O	O
+2	그거	O	O
+3	##는	O	O
+4	부자	B-CV	O
+5	##는	O	O
+6	부자	B-CV	O
+7	##는	O	O
+8	더	O	O
+9	잘	O	O
+10	교육	O	O
+11	##할	O	O
+12	꺼	O	O
+13	##고	O	O
+14	[SEP]	O	O

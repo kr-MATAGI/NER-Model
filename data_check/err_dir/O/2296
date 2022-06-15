@@ -1,55 +1,56 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-EV, I-OG, B-CV, I-QT
-1	이	O	O	O, B-PS, B-CV, B-OG, B-LC
-2	때문	O	O	O, B-PS, B-LC, B-CV, B-OG
-3	##에	O	O	O, B-LC, B-PS, B-CV, B-OG
-4	2008	B-DT	B-DT	B-DT, O, I-DT, B-LC, B-EV
-5	,	I-DT	O	O, I-DT, B-DT, I-EV, B-PS
-6	2009	I-DT	I-DT	I-DT, B-DT, O, B-LC, B-EV
-7	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-8	휴전	O	O	O, B-CV, B-EV, I-DT, B-LC
-9	이후	O	O	O, I-DT, I-EV, I-CV, I-OG
-10	5	B-DT	B-DT	B-DT, I-DT, O, B-QT, B-EV
-11	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
-12	만	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
-13	##에	O	O	O, I-DT, B-LC, I-EV, B-PS
-14	또	O	O	O, B-LC, B-QT, B-CV, B-PS
-15	##다	O	O	O, B-QT, I-QT, B-LC, I-LC
-16	##시	O	O	O, I-QT, B-QT, I-LC, B-PS
-17	충돌	O	O	O, B-LC, B-CV, B-EV, I-QT
-18	##이	O	O	O, B-PS, B-LC, B-OG, I-EV
-19	일어난	O	O	O, B-LC, B-PS, B-OG, B-CV
-20	것	O	O	O, B-CV, B-LC, B-OG, B-PS
-21	##처럼	O	O	O, B-LC, B-CV, B-PS, B-OG
-22	이번	O	O	O, B-CV, B-EV, B-DT, B-LC
-23	휴전	O	O	O, B-CV, B-EV, B-OG, B-LC
-24	합의	O	O	O, I-EV, I-OG, I-CV, I-AF
-25	##도	O	O	O, I-EV, B-PS, I-OG, B-LC
-26	평화	O	O	O, B-LC, B-TM, B-CV, B-QT
-27	##를	O	O	O, B-PS, B-LC, I-EV, I-QT
-28	향해	O	O	O, B-LC, B-QT, B-TM, B-PS
-29	한	O	B-QT	B-QT, O, I-QT, B-TM, B-PS
-30	걸음	O	I-QT	I-QT, O, I-LC, I-TM, I-PS
-31	다가	O	O	O, I-QT, B-QT, B-LC, B-TM
-32	##선	O	O	O, B-QT, I-QT, B-LC, B-PS
-33	것	O	O	O, I-QT, B-LC, B-PS, B-OG
-34	##처럼	O	O	O, I-QT, B-LC, I-EV, B-PS
-35	보였	O	O	O, B-OG, B-LC, B-CV, B-PS
-36	##지만	O	O	O, B-LC, B-CV, B-PS, B-OG
-37	결과	O	O	O, B-TM, B-CV, B-LC, B-PS
-38	##는	O	O	O, B-LC, B-PS, B-CV, B-OG
-39	항상	O	O	O, B-QT, B-LC, B-TM, B-PS
-40	제자리	O	O	O, B-QT, B-TM, B-LC, B-OG
-41	##일	O	O	O, I-QT, B-PS, B-LC, I-LC
-42	수	O	O	O, B-PS, I-QT, B-LC, B-QT
-43	있	O	O	O, B-PS, B-QT, I-QT, B-LC
-44	##다는	O	O	O, B-LC, B-PS, B-TM, B-OG
-45	비관	O	O	O, B-TR, B-FD, B-TM, B-QT
-46	##적	O	O	O, I-TR, I-QT, I-TM, I-PS
-47	전망	O	O	O, B-TR, I-TR, I-QT, B-QT
-48	##이	O	O	O, B-PS, B-CV, B-OG, I-QT
-49	제기	O	O	O, B-CV, B-TM, B-QT, B-TR
-50	##된	O	O	O, I-OG, I-QT, I-EV, I-CV
-51	##다	O	O	O, B-CV, I-OG, I-EV, I-QT
-52	.	O	O	O, B-LC, B-PS, B-OG, B-CV
-53	[SEP]	O	O	O, B-LC, B-CV, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	G	B-AF	B-AF
+2	##3	I-AF	I-AF
+3	##는	O	O
+4	5	B-QT	B-QT
+5	.	I-QT	I-QT
+6	5	I-QT	I-QT
+7	##인	I-QT	I-QT
+8	##치	I-QT	I-QT
+9	크기	O	O
+10	##의	O	O
+11	Q	B-TM	B-TM
+12	##HD	I-TM	I-TM
+13	디스플레이	O	I-TM
+14	외	O	O
+15	##에도	O	O
+16	퀄컴	B-OG	B-OG
+17	##의	O	O
+18	스냅	B-AF	B-TM
+19	##드래	I-AF	I-TM
+20	##건	I-AF	I-TM
+21	##80	I-AF	I-TM
+22	##1	I-AF	I-TM
+23	프로세서	O	I-TM
+24	##에	O	O
+25	3	B-QT	B-QT
+26	##기	I-QT	I-QT
+27	##가	I-QT	I-QT
+28	##바이트	I-QT	I-QT
+29	(	O	O
+30	GB	O	O
+31	)	O	O
+32	램	B-TM	B-TM
+33	,	O	O
+34	32	B-QT	B-QT
+35	##G	I-QT	I-QT
+36	##B	I-QT	I-QT
+37	##의	O	O
+38	저장	O	O
+39	##공간	O	O
+40	,	O	O
+41	1300	B-QT	B-QT
+42	##만	I-QT	I-QT
+43	화소	I-QT	O
+44	후면	O	B-TM
+45	카메라	B-TM	I-TM
+46	##를	O	O
+47	장착	O	O
+48	##한	O	O
+49	것	O	O
+50	##으로	O	O
+51	알려졌	O	O
+52	##다	O	O
+53	.	O	O
+54	[SEP]	O	O

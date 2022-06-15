@@ -1,17 +1,43 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-AF, I-CV, B-CV
-1	'	O	O	O, B-LC, B-OG, B-AF, B-CV
-2	나비	B-AF	B-AM	B-AM, B-PS, B-AF, O, B-LC
-3	'	O	O	O, I-AF, I-OG, I-PS, I-EV
-4	는	O	O	O, B-OG, B-PS, B-LC, B-CV
-5	안락	O	O	O, B-LC, B-CV, B-TM, B-AF
-6	##한	O	O	O, B-PS, B-LC, B-AF, I-AF
-7	지하	O	O	O, B-TM, B-LC, B-CV, B-AF
-8	라운지	O	O	O, B-CV, B-LC, B-AF, B-TM
-9	##로	O	O	O, B-PS, I-AF, B-LC, B-CV
-10	촛불	O	O	O, B-CV, B-PS, B-AF, B-TM
-11	##이	O	O	O, B-PS, B-OG, B-CV, B-LC
-12	많	O	O	O, B-OG, B-CV, B-LC, B-PS
-13	##다	O	O	O, B-OG, B-CV, B-LC, B-PS
-14	.	O	O	O, B-LC, B-AF, B-OG, B-PS
-15	[SEP]	O	O	O, B-CV, B-LC, B-AF, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	이	O	O
+2	행사	O	O
+3	##는	O	O
+4	2014	B-DT	B-DT
+5	##년	I-DT	I-DT
+6	경북	B-LC	B-LC
+7	-	O	O
+8	산시	B-AF	B-LC
+9	##성	I-AF	I-LC
+10	,	O	O
+11	2015	B-DT	B-DT
+12	##년	I-DT	I-DT
+13	제주	B-LC	B-LC
+14	-	O	O
+15	하이	B-LC	B-LC
+16	##난	I-LC	I-LC
+17	,	O	O
+18	2016	B-DT	B-DT
+19	##년	I-DT	I-DT
+20	충남	B-LC	B-LC
+21	-	O	O
+22	구이	B-LC	B-LC
+23	##저우	I-LC	I-LC
+24	##성	I-LC	I-LC
+25	등	O	O
+26	매년	O	O
+27	도시	O	O
+28	##를	O	O
+29	바꿔	O	O
+30	##가	O	O
+31	##며	O	O
+32	3	B-DT	B-DT
+33	##년	I-DT	I-DT
+34	동안	I-DT	I-DT
+35	꾸준히	O	O
+36	열	O	O
+37	##어	O	O
+38	##왔	O	O
+39	##다	O	O
+40	.	O	O
+41	[SEP]	O	O

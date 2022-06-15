@@ -1,68 +1,31 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, B-CV, I-OG, I-QT
-1	많	O	O	O, B-CV, B-PS, B-LC, B-OG
-2	##은	O	O	O, B-CV, B-PS, B-LC, B-OG
-3	사람	O	O	O, B-CV, B-AM, B-AF, B-PS
-4	##이	O	O	O, B-PS, B-CV, B-AF, B-LC
-5	오가	O	O	O, B-AF, B-LC, B-CV, B-TM
-6	##는	O	O	O, B-LC, B-AF, B-CV, I-AF
-7	서울	B-LC	B-LC	B-LC, O, B-OG, B-AF, I-LC
-8	명동	B-LC	B-LC	B-LC, O, I-LC, B-AF, B-OG
-9	한복	O	O	O, B-TM, B-QT, B-LC, I-LC
-10	##판	O	O	O, I-LC, I-TM, I-QT, I-CV
-11	##을	O	O	O, B-CV, B-LC, B-PS, B-AF
-12	브레이크	O	O	O, B-AF, B-CV, B-TM, B-LC
-13	한번	B-QT	O	O, B-QT, I-QT, B-DT, I-LC
-14	밟	O	O	O, I-QT, I-LC, B-PS, I-CV
-15	##지	O	O	O, B-PS, B-LC, B-DT, I-LC
-16	않	O	O	O, B-LC, B-PS, I-LC, I-DT
-17	##고	O	O	O, B-LC, B-PS, B-CV, B-QT
-18	고속	O	O	O, B-TM, B-AF, B-CV, B-LC
-19	질주	O	O	O, B-AF, B-CV, I-AF, I-CV
-20	##하	O	O	O, B-PS, B-CV, I-AF, B-LC
-21	##는	O	O	O, B-PS, B-CV, B-LC, B-QT
-22	재벌	O	O	O, B-CV, B-QT, B-PS, B-OG
-23	##3	B-QT	B-QT	B-QT, I-QT, O, I-CV, B-DT
-24	##세	I-QT	I-QT	I-QT, O, I-CV, I-PS, I-DT
-25	조	B-PS	B-PS	B-PS, O, I-PS, B-OG, I-QT
-26	##태	I-PS	I-PS	I-PS, O, I-QT, I-OG, B-PS
-27	##오	I-PS	I-PS	I-PS, O, I-OG, I-QT, I-LC
-28	(	O	O	O, I-PS, B-LC, I-OG, I-QT
-29	영화	O	O	O, B-FD, B-LC, B-OG, B-AF
-30	‘	O	O	O, B-LC, B-OG, B-CV, B-AF
-31	베테랑	B-CV	B-AF	B-AF, B-PS, B-LC, B-OG, B-EV
-32	’	O	O	O, I-AF, I-PS, I-EV, I-OG
-33	)	O	O	O, B-LC, B-CV, B-OG, B-PS
-34	나	O	O	O, B-PS, B-LC, B-CV, B-OG
-35	그룹	O	O	O, B-CV, B-PS, B-OG, B-LC
-36	##을	O	O	O, B-PS, I-CV, I-PS, I-OG
-37	독차지	O	O	O, B-PS, B-CV, B-LC, I-CV
-38	##하기	O	O	O, B-PS, I-PS, B-LC, I-CV
-39	위해	O	O	O, B-PS, I-PS, B-LC, B-QT
-40	아버지	B-CV	B-CV	B-CV, O, B-PS, I-CV, B-OG
-41	##의	O	O	O, I-CV, B-PS, B-CV, I-AF
-42	유언	O	O	O, B-CV, B-PS, B-LC, B-QT
-43	##을	O	O	O, B-PS, B-CV, I-CV, B-LC
-44	저버리	O	O	O, B-CV, B-LC, B-PS, B-QT
-45	##고	O	O	O, B-PS, B-LC, B-CV, B-QT
-46	동생	B-CV	B-CV	B-CV, O, B-PS, I-CV, B-AF
-47	한	B-PS	B-PS	B-PS, O, I-PS, B-OG, B-CV
-48	##여	I-PS	I-PS	I-PS, O, I-CV, I-QT, I-OG
-49	##진	I-PS	I-PS	I-PS, O, I-QT, I-CV, I-LC
-50	##을	O	O	O, I-PS, B-CV, B-PS, B-LC
-51	죽이	O	O	O, B-CV, B-QT, B-LC, B-PS
-52	##려	O	O	O, B-PS, I-QT, B-QT, I-CV
-53	하	O	O	O, B-PS, B-CV, B-LC, B-QT
-54	##는	O	O	O, B-PS, B-CV, B-LC, B-QT
-55	한도	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-56	##준	I-PS	I-PS	I-PS, O, I-OG, I-LC, B-PS
-57	(	O	O	O, I-PS, I-OG, B-LC, B-CV
-58	SBS	B-OG	B-OG	B-OG, B-AF, O, B-LC, B-TM
-59	드라마	O	O	O, I-OG, B-FD, I-FD, I-AF
-60	‘	O	O	O, B-LC, B-CV, B-OG, B-DT
-61	용	B-AF	B-AF	B-AF, B-PS, B-LC, B-OG, O
-62	##팔이	I-AF	I-AF	I-AF, I-PS, I-LC, O, I-OG
-63	’	O	O	O, I-AF, I-EV, I-OG, I-PS
-64	)	O	O	O, B-LC, B-CV, B-OG, I-AF
-65	.	O	O	O, B-LC, B-PS, B-CV, B-AF
-66	[SEP]	O	O	O, B-LC, B-CV, B-PS, B-AF
+	text	label	preds
+0	[CLS]	O	O
+1	하지	O	O
+2	##만	O	O
+3	20	B-QT	B-QT
+4	##대	I-QT	I-QT
+5	##의	O	O
+6	손	B-AM	B-AM
+7	##에	O	O
+8	##는	O	O
+9	‘	O	O
+10	신성	O	O
+11	##한	O	O
+12	한	B-QT	O
+13	표	I-QT	I-QT
+14	’	O	O
+15	라는	O	O
+16	이름	O	O
+17	##의	O	O
+18	짱	O	O
+19	##돌	O	O
+20	660	B-QT	B-QT
+21	##만	I-QT	I-QT
+22	개	I-QT	I-QT
+23	##가	O	O
+24	쥐어	O	O
+25	##져	O	O
+26	있	O	O
+27	##다	O	O
+28	.	O	O
+29	[SEP]	O	O

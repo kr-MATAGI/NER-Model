@@ -1,17 +1,33 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	안녕	O	O	O, B-CV, B-TM, B-LC, B-OG
-2	##하	O	O	O, B-PS, I-AF, B-LC, I-OG
-3	##세요	O	O	O, I-AF, I-OG, B-LC, I-QT
-4	서늘	B-AF	B-AF	B-AF, O, B-OG, B-LC, B-PS
-5	##한	I-AF	I-AF	I-AF, O, I-PS, I-OG, I-EV
-6	마음	I-AF	I-AF	I-AF, O, I-PS, I-EV, I-OG
-7	##썰	I-AF	I-AF	I-AF, O, I-EV, I-PS, I-OG
-8	##의	O	O	O, I-AF, I-EV, I-OG, I-CV
-9	서늘	B-PS	B-AF	B-AF, B-PS, I-AF, O, B-LC
-10	##한	I-PS	I-AF	I-AF, I-PS, O, I-LC, I-QT
-11	여름	I-PS	I-AF	I-AF, I-PS, B-AF, I-QT, B-AM
-12	##밤	I-PS	I-AF	I-AF, I-PS, I-QT, I-CV, I-TM
-13	##입니다	O	O	O, I-AF, I-PS, I-QT, I-CV
-14	.	O	O	O, I-AF, B-CV, B-LC, B-PS
-15	[SEP]	O	O	O, B-CV, I-AF, B-LC, B-FD
+	text	label	preds
+0	[CLS]	O	O
+1	1944	B-DT	B-DT
+2	##년	I-DT	I-DT
+3	평양	B-LC	B-LC
+4	##에	O	O
+5	##서	O	O
+6	태어나	O	O
+7	월남	O	O
+8	##한	B-PS	O
+9	한	O	B-PS
+10	전	O	O
+11	총리	B-CV	B-CV
+12	##는	O	O
+13	1974	B-DT	B-DT
+14	##년	I-DT	I-DT
+15	한국	B-OG	B-OG
+16	##크리	I-OG	I-OG
+17	##스	I-OG	I-OG
+18	##천	I-OG	I-OG
+19	##아	I-OG	I-OG
+20	##카	I-OG	I-OG
+21	##데미	I-OG	I-OG
+22	간사	B-CV	B-CV
+23	##로	O	O
+24	여성	O	O
+25	운동	O	O
+26	##에	O	O
+27	뛰어들	O	O
+28	##었	O	O
+29	##다	O	O
+30	.	O	O
+31	[SEP]	O	O

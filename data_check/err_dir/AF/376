@@ -1,21 +1,20 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-EV, I-OG
-1	""""	O	O	O, B-CV, B-LC, B-TM, B-PS
-2	용산	B-EV	B-EV	B-EV, B-LC, O, B-AF, B-OG
-3	##사태	I-EV	I-EV	I-EV, O, I-LC, B-EV, I-AF
-4	확산	O	O	O, I-EV, B-CV, I-OG, I-AF
-5	막	O	O	O, B-CV, B-LC, I-EV, B-OG
-6	##는	O	O	O, B-LC, B-PS, B-CV, B-OG
-7	데	O	O	O, B-LC, B-PS, B-CV, B-OG
-8	군포	O	B-EV	B-EV, B-LC, O, B-AF, B-CV
-9	##살	O	I-EV	I-EV, O, I-AF, I-CV, I-LC
-10	##인	O	I-EV	I-EV, O, I-CV, I-AF, I-TM
-11	활용	O	O	O, I-EV, I-CV, I-AF, B-LC
-12	""""	O	O	O, B-CV, B-PS, B-LC, B-TM
-13	이메일	O	O	O, B-TM, B-LC, B-CV, B-EV
-14	경찰청	B-OG	B-OG	B-OG, B-AF, O, B-LC, B-EV
-15	보낸	O	O	O, I-OG, B-CV, I-EV, I-AF
-16	청와대	B-AF	B-OG	B-OG, B-AF, O, B-LC, B-PS
-17	행정관	B-CV	B-CV	B-CV, O, I-CV, I-AF, I-OG
-18	경고	O	O	O, I-CV, B-CV, I-EV, B-TM
-19	[SEP]	O	O	O, B-CV, B-LC, I-EV, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	실리콘밸리	B-AF	B-LC
+2	본사	I-AF	O
+3	##와	O	O
+4	똑같	O	O
+5	##은	O	O
+6	시설	O	O
+7	##을	O	O
+8	갖췄	O	O
+9	##으며	O	O
+10	,	O	O
+11	직원	B-CV	B-CV
+12	3000	B-QT	B-QT
+13	##명	I-QT	I-QT
+14	##이	O	O
+15	근무	O	O
+16	##한다	O	O
+17	.	O	O
+18	[SEP]	O	O

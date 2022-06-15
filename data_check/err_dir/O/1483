@@ -1,69 +1,22 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	기성	O	O	O, B-CV, B-PS, B-TR, B-OG
-2	##세대	O	O	O, I-CV, B-CV, B-PS, I-OG
-3	##에	O	O	O, B-PS, I-CV, B-CV, I-OG
-4	##겐	O	O	O, B-CV, B-PS, B-LC, I-CV
-5	훈장	O	O	O, B-CV, B-PS, I-CV, B-FD
-6	같	O	O	O, B-PS, I-CV, B-CV, B-LC
-7	##은	O	O	O, B-PS, B-LC, B-CV, B-OG
-8	‘	O	O	O, B-CV, B-PS, B-LC, B-OG
-9	민주	O	O	O, B-TR, B-EV, B-FD, B-CV
-10	##화	O	O	O, I-TR, I-EV, I-FD, I-CV
-11	’	O	O	O, I-EV, B-PS, I-OG, I-TR
-12	가	O	O	O, B-PS, B-LC, B-OG, B-CV
-13	폄	O	O	O, B-TR, B-EV, B-PS, B-CV
-14	##훼	O	O	O, I-EV, I-TR, B-PS, I-LC
-15	##되	O	O	O, B-PS, B-LC, B-CV, I-EV
-16	##고	O	O	O, B-PS, B-CV, B-LC, B-OG
-17	있	O	O	O, B-PS, B-CV, B-LC, I-EV
-18	##다는	O	O	O, B-PS, B-CV, B-LC, I-EV
-19	사실	O	O	O, B-CV, B-PS, B-LC, B-QT
-20	##이	O	O	O, B-PS, B-CV, B-LC, B-OG
-21	알려	O	O	O, B-CV, B-LC, B-PS, B-OG
-22	##지	O	O	O, B-PS, B-CV, B-LC, I-EV
-23	##자	O	O	O, B-PS, B-LC, B-CV, I-OG
-24	곳곳	O	O	O, B-CV, B-TM, B-LC, B-PS
-25	##에서	O	O	O, B-PS, B-LC, B-CV, B-OG
-26	‘	O	O	O, B-LC, B-PS, B-CV, B-OG
-27	요즘	O	O	O, B-PS, B-LC, B-CV, B-TR
-28	세대	O	O	O, B-CV, B-PS, B-LC, B-TR
-29	##는	O	O	O, B-PS, B-LC, B-CV, I-CV
-30	왜	O	O	O, B-PS, B-LC, B-CV, B-OG
-31	이렇게	O	O	O, B-PS, B-LC, B-CV, B-TR
-32	철	O	O	O, B-MT, B-AM, B-TM, B-TR
-33	##이	O	O	O, B-PS, I-PS, B-LC, B-CV
-34	없	O	O	O, B-CV, B-PS, B-LC, I-PS
-35	##느	O	O	O, B-PS, B-LC, B-CV, I-PS
-36	##냐	O	O	O, B-PS, B-LC, I-PS, I-LC
-37	’	O	O	O, B-PS, B-CV, B-LC, B-OG
-38	는	O	O	O, B-PS, B-LC, B-CV, B-TM
-39	개탄	O	O	O, B-CV, B-TR, B-PS, B-LC
-40	##에서	O	O	O, B-PS, I-CV, I-EV, I-TR
-41	##부터	O	O	O, B-PS, B-LC, B-CV, B-QT
-42	“	O	O	O, B-LC, B-CV, B-PS, B-OG
-43	젊	O	O	O, B-CV, B-PS, B-LC, B-TM
-44	##은	O	O	O, B-PS, I-CV, B-LC, B-CV
-45	세대	O	O	O, B-CV, B-PS, I-CV, B-LC
-46	##의	O	O	O, B-PS, B-CV, B-LC, I-CV
-47	역사	O	O	O, B-FD, B-CV, B-TR, I-FD
-48	##인	O	O	O, I-CV, I-FD, I-TR, B-CV
-49	##식	O	O	O, I-CV, I-TR, B-CV, I-FD
-50	##이	O	O	O, B-PS, B-CV, B-LC, B-OG
-51	잘못	O	O	O, B-CV, B-PS, B-LC, B-TM
-52	##됐	O	O	O, B-PS, B-CV, B-LC, B-OG
-53	##으니	O	O	O, B-PS, B-LC, B-CV, B-OG
-54	역사	O	B-FD	B-FD, O, B-TR, I-FD, B-CV
-55	##교육	O	O	O, I-FD, I-CV, I-TR, B-CV
-56	##을	O	O	O, B-CV, I-CV, B-PS, B-LC
-57	강화	O	O	O, B-CV, B-LC, B-PS, B-TM
-58	##해야	O	O	O, B-PS, B-LC, B-CV, B-OG
-59	한다	O	O	O, B-CV, B-PS, B-LC, B-OG
-60	”	O	O	O, B-CV, B-LC, B-PS, B-TM
-61	는	O	O	O, B-CV, B-PS, B-TM, B-LC
-62	얘기	O	O	O, B-CV, I-CV, B-PS, I-QT
-63	##까	O	O	O, B-PS, B-CV, I-CV, B-QT
-64	##지	O	O	O, B-PS, B-QT, B-CV, B-LC
-65	나온다	O	O	O, B-CV, B-PS, B-QT, B-LC
-66	.	O	O	O, B-CV, B-PS, B-LC, I-EV
-67	[SEP]	O	O	O, B-CV, B-LC, B-PS, I-EV
+	text	label	preds
+0	[CLS]	O	O
+1	하지	O	O
+2	##만	O	O
+3	챔피언	B-CV	B-CV
+4	##에	O	O
+5	##게	O	O
+6	주	O	O
+7	##는	O	O
+8	흰색	B-TM	B-TM
+9	재킷	O	B-CV
+10	##의	O	O
+11	주인공	B-CV	B-CV
+12	##은	O	O
+13	김	B-PS	B-PS
+14	##자	I-PS	I-PS
+15	##영	I-PS	I-PS
+16	##이	O	O
+17	##었	O	O
+18	##다	O	O
+19	.	O	O
+20	[SEP]	O	O

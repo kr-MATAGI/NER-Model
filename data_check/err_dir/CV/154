@@ -1,60 +1,40 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	공천	B-CV	B-CV	B-CV, O, B-OG, I-CV, B-TM
-2	##심	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-QT
-3	##사위	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-QT
-4	##원	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-QT
-5	##으로	O	O	O, I-CV, I-OG, B-PS, B-CV
-6	##는	O	O	O, B-PS, B-CV, B-OG, B-LC
-7	김세	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-8	##연	I-PS	I-PS	I-PS, O, I-OG, I-LC, B-PS
-9	제	B-QT	B-CV	B-CV, B-QT, O, B-OG, B-TM
-10	##1	I-QT	I-CV	I-CV, I-QT, I-OG, O, I-LC
-11	##사	B-CV	I-CV	I-CV, B-CV, I-QT, O, I-OG
-12	##무	I-CV	I-CV	I-CV, I-QT, O, B-CV, I-OG
-13	##부	I-CV	I-CV	I-CV, B-CV, I-QT, O, I-OG
-14	##총장	I-CV	I-CV	I-CV, B-CV, I-QT, O, I-OG
-15	##과	O	O	O, I-CV, I-QT, I-OG, B-CV
-16	전	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
-17	##희	I-PS	I-PS	I-PS, O, I-OG, B-PS, I-LC
-18	##재	I-PS	I-PS	I-PS, O, I-OG, I-LC, B-PS
-19	제	B-QT	B-CV	B-CV, B-QT, O, B-OG, B-LC
-20	##2	I-QT	I-CV	I-CV, I-QT, I-OG, O, I-LC
-21	##사	B-CV	I-CV	I-CV, B-CV, I-QT, O, I-OG
-22	##무	I-CV	I-CV	I-CV, I-QT, B-CV, O, I-OG
-23	##부	I-CV	I-CV	I-CV, B-CV, I-QT, O, I-OG
-24	##총장	I-CV	I-CV	I-CV, B-CV, I-QT, O, I-OG
-25	##이	O	O	O, I-CV, I-QT, B-PS, I-OG
-26	당연	O	O	O, B-CV, B-QT, B-TM, I-CV
-27	##직	O	O	O, I-CV, I-QT, B-CV, I-OG
-28	##으로	O	O	O, I-CV, B-PS, I-QT, I-OG
-29	참여	O	O	O, B-CV, B-PS, B-OG, B-LC
-30	##하고	O	O	O, B-PS, B-CV, B-OG, B-LC
-31	김재원	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
-32	당	O	O	O, B-CV, B-OG, I-PS, B-PS
-33	전략	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-TM
-34	##기획	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-QT
-35	##본부	I-CV	I-CV	I-CV, B-CV, O, I-OG, I-QT
-36	##장	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-QT
-37	,	O	O	O, I-CV, I-OG, I-QT, B-CV
-38	김정	B-PS	B-PS	B-PS, O, B-LC, B-OG, I-PS
-39	전	O	O	O, I-PS, I-OG, I-LC, B-PS
-40	의원	B-CV	B-CV	B-CV, O, I-CV, B-QT, B-TM
-41	,	O	O	O, I-CV, B-CV, I-QT, I-OG
-42	조	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
-43	##은희	I-PS	I-PS	I-PS, O, I-OG, I-LC, B-PS
-44	전	O	O	O, I-PS, B-CV, B-LC, I-OG
-45	서울시	B-LC	B-LC	B-LC, B-OG, O, B-AF, B-PS
-46	정무	B-OG	B-CV	B-CV, O, I-CV, B-LC, B-OG
-47	##부	I-OG	I-CV	I-CV, O, B-CV, I-LC, I-OG
-48	##시장	B-CV	I-CV	I-CV, O, B-CV, I-OG, I-QT
-49	등	O	O	O, I-CV, B-CV, I-QT, B-PS
-50	##이	O	O	O, B-PS, B-CV, B-LC, B-OG
-51	참여	O	O	O, B-CV, B-TM, B-LC, B-OG
-52	##할	O	O	O, B-PS, B-OG, B-CV, B-LC
-53	것	O	O	O, B-CV, B-PS, B-QT, B-OG
-54	##으로	O	O	O, B-CV, B-PS, B-LC, B-OG
-55	알려졌	O	O	O, B-OG, B-CV, B-LC, B-TM
-56	##다	O	O	O, B-CV, B-OG, B-LC, I-OG
-57	.	O	O	O, B-PS, B-LC, B-CV, B-OG
-58	[SEP]	O	O	O, B-PS, B-CV, B-LC, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	스마트폰	B-TM	B-TM
+2	##을	O	O
+3	쓰	O	O
+4	##지	O	O
+5	못하	O	O
+6	##는	O	O
+7	'	O	O
+8	왕	B-CV	O
+9	##언	I-CV	B-CV
+10	##니	I-CV	I-CV
+11	'	O	O
+12	에게	O	O
+13	동기	B-CV	B-CV
+14	##들	O	O
+15	##은	O	O
+16	단체	O	O
+17	채팅	O	O
+18	##방	O	O
+19	대신	O	O
+20	따로	O	O
+21	전화	O	O
+22	##해	O	O
+23	학과	O	O
+24	행사	O	O
+25	##를	O	O
+26	알리	O	O
+27	##고	O	O
+28	,	O	O
+29	수업	O	O
+30	내용	O	O
+31	##이	O	O
+32	적힌	O	O
+33	노트	O	O
+34	##를	O	O
+35	건넸	O	O
+36	##다	O	O
+37	.	O	O
+38	[SEP]	O	O

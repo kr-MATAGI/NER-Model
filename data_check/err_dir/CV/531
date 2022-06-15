@@ -1,22 +1,8 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	전태	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
-2	##풍	I-PS	I-PS	I-PS, O, I-OG, B-PS, I-LC
-3	,	O	O	O, I-PS, I-OG, B-CV, I-AF
-4	이제	O	O	O, B-CV, B-PS, B-OG, B-AF
-5	##는	O	O	O, B-PS, B-OG, B-LC, I-AF
-6	오리온스	B-OG	B-OG	B-OG, O, B-AF, B-LC, B-PS
-7	‘	O	O	O, I-OG, I-AF, I-EV, B-CV
-8	태풍	O	O	O, B-AF, B-EV, B-PS, B-OG
-9	’	O	O	O, I-EV, I-AF, I-OG, B-PS
-10	…	O	O	O, B-CV, B-OG, B-LC, B-PS
-11	프로	B-CV	B-CV	B-CV, O, B-TM, B-EV, B-AF
-12	##농	I-CV	I-CV	I-CV, B-CV, O, I-EV, I-TM
-13	##구	I-CV	I-CV	I-CV, O, B-CV, I-EV, I-OG
-14	혼혈	O	O	O, B-CV, I-CV, B-TM, B-FD
-15	##선	B-CV	I-CV	I-CV, B-CV, O, I-EV, I-TM
-16	##수	I-CV	I-CV	I-CV, O, B-CV, I-EV, I-TM
-17	FA	B-CV	B-CV	B-CV, I-CV, O, B-TM, B-EV
-18	향방	O	O	O, I-CV, B-CV, B-TM, I-EV
-19	결정	O	O	O, B-CV, B-TM, B-OG, B-LC
-20	[SEP]	O	O	O, B-CV, B-PS, B-OG, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	네	O	O
+2	버섯	B-CV	O
+3	##잡	I-CV	O
+4	##챕	I-CV	O
+5	##니다	O	O
+6	[SEP]	O	O

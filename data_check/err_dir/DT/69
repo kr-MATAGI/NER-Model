@@ -1,18 +1,56 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, I-EV, B-CV
-1	어렵	O	O	O, B-CV, B-TM, B-LC, B-QT
-2	##게	O	O	O, B-CV, B-PS, B-LC, B-OG
-3	##만	O	O	O, B-PS, B-LC, B-TM, I-QT
-4	느껴졌	O	O	O, B-CV, B-LC, B-TM, B-PS
-5	##던	O	O	O, B-CV, B-LC, B-TM, B-PS
-6	신문	O	O	O, B-TM, B-AF, B-OG, B-CV
-7	##으로	O	O	O, I-TM, I-AF, I-OG, I-EV
-8	즐거운	O	O	O, B-EV, B-LC, B-DT, B-CV
-9	체험	O	O	O, B-EV, I-EV, B-LC, B-CV
-10	활동	O	O	O, I-EV, B-EV, B-LC, B-CV
-11	##을	O	O	O, I-EV, B-CV, I-OG, B-PS
-12	한	B-DT	O	O, B-DT, B-EV, B-LC, B-QT
-13	오늘	I-DT	B-DT	B-DT, I-DT, O, B-QT, B-CV
-14	하루	B-DT	B-DT	B-DT, I-DT, O, B-TI, B-QT
-15	.	O	O	O, I-DT, I-EV, I-QT, B-CV
-16	[SEP]	O	O	O, B-CV, B-LC, I-EV, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	이번	B-DT	B-DT
+2	컨	I-DT	B-DT
+3	##페	I-DT	I-DT
+4	##드	I-DT	I-DT
+5	##컵	I-DT	I-DT
+6	때	I-DT	I-DT
+7	경기장	O	O
+8	##에	O	O
+9	##는	O	O
+10	흑인	B-CV	B-CV
+11	##과	O	O
+12	백인	B-CV	B-CV
+13	##이	O	O
+14	모두	O	O
+15	스탠드	O	B-TM
+16	##를	O	O
+17	채우	O	O
+18	##고	O	O
+19	‘	O	O
+20	바	B-AF	B-OG
+21	##파	I-AF	I-OG
+22	##나	I-AF	I-OG
+23	바	I-AF	I-OG
+24	##파	I-AF	I-OG
+25	##나	I-AF	I-OG
+26	(	O	O
+27	B	O	O
+28	##af	O	O
+29	##ana	O	O
+30	B	O	O
+31	##af	O	O
+32	##ana	O	O
+33	·	O	O
+34	줄	O	O
+35	##루	O	O
+36	##어로	O	O
+37	소년	O	O
+38	##들	O	O
+39	,	O	O
+40	남아공	B-OG	B-OG
+41	축구	I-OG	I-OG
+42	대표	I-OG	I-OG
+43	##팀	I-OG	I-OG
+44	##을	O	O
+45	의미	O	O
+46	)	O	O
+47	’	O	O
+48	를	O	O
+49	응원	O	O
+50	##했	O	O
+51	##다	O	O
+52	.	O	O
+53	”	O	O
+54	[SEP]	O	O

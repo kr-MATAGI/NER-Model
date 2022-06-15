@@ -1,42 +1,40 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-EV, I-QT
-1	맨	B-OG	B-OG	B-OG, B-LC, O, B-PS, B-AF
-2	##유	I-OG	I-OG	I-OG, I-LC, O, I-PS, I-AF
-3	##는	O	O	O, I-OG, I-EV, I-AF, I-QT
-4	2015	B-DT	B-DT	B-DT, I-DT, O, B-QT, B-EV
-5	~	I-DT	I-DT	I-DT, O, I-QT, B-DT, I-PS
-6	16	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-7	시즌	I-DT	I-DT	I-DT, O, I-QT, B-DT, I-OG
-8	자국	O	O	O, B-LC, B-OG, B-EV, B-CV
-9	리그	O	O	O, I-OG, I-EV, B-OG, I-LC
-10	##에서	O	O	O, I-OG, I-EV, I-AF, B-CV
-11	5	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-EV
-12	##위	I-QT	I-QT	I-QT, O, I-EV, I-LC, I-OG
-13	##에	O	O	O, I-QT, I-OG, I-EV, B-CV
-14	그쳐	O	O	O, B-LC, B-QT, B-DT, B-OG
-15	올	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-16	시즌	I-DT	I-DT	I-DT, O, I-QT, B-DT, I-EV
-17	챔피언	B-OG	B-EV	B-EV, B-OG, B-CV, O, I-EV
-18	##스	I-OG	I-EV	I-EV, I-OG, O, I-CV, B-EV
-19	##리그	I-OG	I-EV	I-EV, I-OG, O, I-CV, I-AF
-20	##에	O	O	O, I-EV, I-OG, I-AF, I-QT
-21	나서	O	O	O, B-LC, B-CV, B-OG, B-QT
-22	##지	O	O	O, B-LC, B-PS, B-CV, I-EV
-23	못하	O	O	O, B-CV, B-LC, B-QT, B-PS
-24	##고	O	O	O, B-LC, B-PS, B-CV, B-QT
-25	위상	O	O	O, B-CV, B-LC, B-OG, B-QT
-26	##이	O	O	O, B-PS, B-OG, B-LC, B-CV
-27	한	B-QT	B-QT	B-QT, O, I-QT, B-PS, B-DT
-28	단계	I-QT	I-QT	I-QT, O, I-LC, I-PS, I-OG
-29	낮	O	O	O, I-QT, B-CV, B-QT, B-TM
-30	##은	O	O	O, B-CV, B-OG, B-LC, B-QT
-31	유로	B-EV	B-EV	B-EV, O, B-OG, B-CV, I-EV
-32	##파리	I-EV	I-EV	I-EV, O, I-OG, B-EV, I-AF
-33	##그	I-EV	I-EV	I-EV, O, I-OG, I-AF, I-CV
-34	##를	O	O	O, I-EV, I-OG, I-AF, I-QT
-35	치르	O	O	O, B-CV, B-LC, B-OG, I-EV
-36	##고	O	O	O, B-CV, B-LC, B-QT, B-PS
-37	있	O	O	O, B-CV, B-QT, B-LC, B-OG
-38	##다	O	O	O, B-CV, B-QT, B-LC, I-QT
-39	.	O	O	O, B-LC, B-CV, B-OG, I-EV
-40	[SEP]	O	O	O, B-CV, B-LC, I-EV, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	패밀리	O	O
+2	##레스	O	O
+3	##토	O	O
+4	##랑	O	O
+5	‘	O	O
+6	빕	B-OG	B-OG
+7	##스	I-OG	I-OG
+8	’	O	O
+9	는	O	O
+10	이달	B-DT	B-DT
+11	##부터	I-DT	I-DT
+12	2010	B-DT	B-DT
+13	##년	I-DT	I-DT
+14	월드컵	B-EV	B-EV
+15	##이	O	O
+16	끝	O	O
+17	##나	O	O
+18	##는	O	O
+19	다음	B-DT	B-DT
+20	##달	I-DT	I-DT
+21	27	I-DT	I-DT
+22	##일	I-DT	I-DT
+23	##까	I-DT	I-DT
+24	##지	I-DT	I-DT
+25	‘	O	O
+26	빕	B-OG	B-AF
+27	##스	I-OG	I-AF
+28	코리아	B-LC	I-AF
+29	##파이	O	I-AF
+30	##팅	O	I-AF
+31	세트	O	I-AF
+32	’	O	O
+33	를	O	O
+34	내놓	O	O
+35	##는	O	O
+36	##다	O	O
+37	.	O	O
+38	[SEP]	O	O

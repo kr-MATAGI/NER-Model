@@ -1,40 +1,66 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, I-EV, I-QT
-1	<	O	O	O, B-DT, B-LC, B-CV, B-OG
-2	할리우드	B-AF	B-AF	B-AF, B-LC, B-EV, B-PS, I-AF
-3	엔딩	I-AF	I-AF	I-AF, I-EV, O, I-LC, I-PS
-4	>	O	O	O, I-AF, I-EV, I-DT, I-OG
-5	(	O	O	O, B-DT, B-LC, I-DT, B-CV
-6	2002	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-LC
-7	)	O	O	O, I-DT, I-QT, I-EV, B-CV
-8	이후	O	O	O, I-DT, B-LC, B-DT, B-CV
-9	‘	O	O	O, B-LC, I-DT, B-DT, B-PS
-10	할리우드	B-AF	B-LC	B-LC, O, B-OG, I-LC, B-AF
-11	생활	I-AF	O	O, I-LC, I-OG, I-AF, I-DT
-12	##을	I-AF	O	O, B-LC, B-PS, B-CV, B-OG
-13	끝내	I-AF	O	O, B-PS, B-LC, B-CV, B-DT
-14	##고	I-AF	O	O, B-PS, B-LC, I-DT, B-CV
-15	’	O	O	O, B-LC, B-CV, B-PS, B-DT
-16	주로	O	O	O, B-LC, B-PS, B-CV, B-OG
-17	유럽	B-LC	B-LC	B-LC, O, B-OG, I-LC, B-AF
-18	##에서	O	O	O, I-LC, I-OG, I-AF, B-LC
-19	영화	O	O	O, B-CV, B-FD, B-LC, B-PS
-20	##를	O	O	O, B-CV, B-LC, B-PS, B-OG
-21	찍	O	O	O, B-CV, B-LC, B-PS, B-OG
-22	##고	O	O	O, B-PS, B-LC, B-CV, B-OG
-23	있	O	O	O, B-PS, B-CV, B-LC, B-DT
-24	##는	O	O	O, B-PS, B-CV, B-LC, B-OG
-25	우	B-PS	B-PS	B-PS, O, I-PS, B-OG, B-LC
-26	##디	I-PS	I-PS	I-PS, O, I-OG, B-PS, I-LC
-27	앨런	I-PS	I-PS	I-PS, O, B-PS, I-OG, I-LC
-28	##이	O	O	O, I-PS, B-PS, B-LC, I-LC
-29	이번	O	O	O, B-LC, B-CV, B-OG, B-QT
-30	##에	O	O	O, B-CV, B-LC, B-OG, B-PS
-31	당도	O	O	O, B-LC, B-CV, B-OG, B-QT
-32	##한	O	O	O, B-LC, B-PS, B-OG, B-CV
-33	곳	O	O	O, B-LC, B-CV, B-PS, I-LC
-34	##은	O	O	O, B-LC, B-PS, B-OG, B-CV
-35	스페인	B-LC	B-LC	B-LC, O, B-OG, I-LC, B-AF
-36	바르셀로나	B-LC	B-LC	B-LC, I-LC, O, B-OG, B-AF
-37	.	O	O	O, I-LC, I-AF, I-OG, B-LC
-38	[SEP]	O	O	O, B-LC, B-CV, I-LC, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	‘	O	O
+2	아름다운	B-AF	B-OG
+3	행	I-AF	I-OG
+4	##궁	I-AF	I-OG
+5	##길	I-AF	I-OG
+6	’	O	O
+7	의	O	O
+8	박영	B-PS	B-PS
+9	##환	I-PS	I-PS
+10	(	O	O
+11	52	B-QT	B-QT
+12	)	O	O
+13	회장	B-CV	B-CV
+14	##은	O	O
+15	“	O	O
+16	서울	B-LC	B-LC
+17	인사동	B-LC	B-LC
+18	##은	O	O
+19	중국	O	O
+20	##산	O	O
+21	공예품	O	O
+22	##들이	O	O
+23	가득	O	O
+24	##한	O	O
+25	반면	O	O
+26	이곳	O	O
+27	##은	O	O
+28	작가	B-CV	B-CV
+29	##들이	O	O
+30	직접	O	O
+31	생산	O	O
+32	##한	O	O
+33	작품	O	O
+34	##만	O	O
+35	##을	O	O
+36	내놓	O	O
+37	##고	O	O
+38	값	O	O
+39	##도	O	O
+40	싸	O	O
+41	##다	O	O
+42	”	O	O
+43	며	O	O
+44	“	O	O
+45	지금	O	O
+46	##은	O	O
+47	입주	O	O
+48	희망	O	O
+49	작가	O	B-CV
+50	##들이	O	O
+51	많	O	O
+52	##지만	O	O
+53	받아들일	O	O
+54	틈	O	O
+55	##이	O	O
+56	없	O	O
+57	##다	O	O
+58	”	O	O
+59	고	O	O
+60	말	O	O
+61	##했	O	O
+62	##다	O	O
+63	.	O	O
+64	[SEP]	O	O

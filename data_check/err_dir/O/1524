@@ -1,14 +1,44 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-AF
-1	대부분	O	O	O, B-CV, B-OG, B-QT, B-LC
-2	##의	O	O	O, B-OG, B-PS, B-CV, I-OG
-3	학교	O	O	O, B-OG, I-OG, B-CV, B-AF
-4	##에서	O	O	O, B-CV, B-OG, I-OG, B-PS
-5	이	O	O	O, B-PS, B-OG, B-QT, B-LC
-6	~	O	O	O, I-OG, I-QT, B-CV, B-PS
-7	경영학	O	B-FD	B-FD, O, B-CV, B-OG, I-FD
-8	##과	O	O	O, I-FD, I-OG, I-CV, I-AF
-9	법	O	O	O, B-FD, B-CV, B-OG, B-QT
-10	##과	O	O	O, I-FD, I-OG, B-FD, I-CV
-11	의과	O	O	O, B-FD, B-CV, I-FD, B-OG
-12	[SEP]	O	O	O, I-FD, I-OG, I-CV, B-CV
+	text	label	preds
+0	[CLS]	O	O
+1	[	O	O
+2	유엔	B-OG	B-OG
+3	대북	O	B-CV
+4	##제	O	I-CV
+5	##재	O	I-CV
+6	결의안	O	O
+7	채택	O	O
+8	]	O	O
+9	제재	O	O
+10	대상	O	O
+11	개인	O	O
+12	-	O	O
+13	기관	O	O
+14	60	B-QT	B-QT
+15	##건	I-QT	I-QT
+16	##으로	O	O
+17	확대	O	O
+18	…	O	O
+19	中	B-LC	B-LC
+20	-	O	O
+21	러	B-LC	B-LC
+22	공조	O	O
+23	이끌	O	O
+24	##어	O	O
+25	##낼	O	O
+26	외교	O	O
+27	##력	O	O
+28	급선무	O	O
+29	美	B-LC	B-LC
+30	금융	O	B-CV
+31	##제	O	I-CV
+32	##재	O	I-CV
+33	부차	O	B-CV
+34	##관	O	I-CV
+35	##보	O	I-CV
+36	3	B-DT	B-DT
+37	##월	I-DT	I-DT
+38	첫째	I-DT	I-DT
+39	##주	I-DT	I-DT
+40	##중	I-DT	I-DT
+41	방한	O	O
+42	[SEP]	O	O

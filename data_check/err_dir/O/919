@@ -1,47 +1,19 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-EV, I-CV
-1	쫓겨나	O	O	O, B-CV, B-LC, B-PS, B-TM
-2	##면	O	O	O, B-PS, B-LC, B-QT, B-OG
-3	삶	O	O	O, B-PS, B-LC, B-CV, B-TM
-4	##의	O	O	O, B-PS, B-LC, B-CV, I-AF
-5	터전	O	O	O, B-PS, B-CV, B-LC, B-TM
-6	##이	O	O	O, B-PS, B-OG, B-LC, B-CV
-7	막막	O	O	O, B-PS, B-TM, B-LC, B-OG
-8	##해	O	O	O, B-PS, B-LC, B-OG, I-PS
-9	##지	O	O	O, B-PS, B-CV, B-OG, B-LC
-10	##는	O	O	O, B-PS, B-CV, B-LC, B-OG
-11	주민	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-OG
-12	##들이	O	O	O, I-CV, B-CV, B-PS, I-AF
-13	이주	O	O	O, B-CV, B-LC, B-TM, B-PS
-14	##를	O	O	O, B-PS, B-CV, B-LC, B-TM
-15	거부	O	O	O, B-CV, B-TM, B-LC, B-PS
-16	##하	O	O	O, B-PS, B-LC, B-CV, B-OG
-17	##자	O	O	O, B-PS, B-LC, B-CV, B-TM
-18	,	O	O	O, B-CV, B-LC, B-OG, B-PS
-19	관리	O	B-CV	B-CV, O, I-CV, B-OG, B-TM
-20	##들	O	O	O, I-CV, I-OG, I-QT, I-AF
-21	##은	O	O	O, B-CV, B-LC, B-PS, B-TM
-22	이	O	O	O, B-PS, B-OG, B-LC, B-CV
-23	##들	O	O	O, I-AF, B-LC, B-CV, B-PS
-24	##의	O	O	O, B-LC, B-AF, B-CV, B-PS
-25	수돗물	O	O	O, B-MT, B-TM, B-CV, B-LC
-26	##과	O	O	O, B-LC, B-PS, B-TM, B-CV
-27	전기	O	O	O, B-MT, B-TM, B-CV, B-AF
-28	공급	O	O	O, B-TM, B-LC, I-TM, B-PS
-29	##을	O	O	O, B-TM, B-CV, B-LC, B-PS
-30	끊	O	O	O, B-TM, B-CV, B-LC, B-PS
-31	##고	O	O	O, B-LC, B-PS, B-CV, B-TM
-32	,	O	O	O, B-CV, B-LC, B-PS, B-OG
-33	폭력	O	O	O, B-CV, B-LC, B-TM, B-PS
-34	##을	O	O	O, B-CV, B-LC, B-OG, B-PS
-35	동원	O	O	O, B-LC, B-CV, B-TM, B-OG
-36	##해	O	O	O, B-LC, B-PS, B-OG, B-TM
-37	협박	O	O	O, B-CV, B-LC, B-TM, B-OG
-38	##해	O	O	O, B-LC, B-PS, B-CV, B-OG
-39	온	O	O	O, B-LC, B-CV, B-PS, B-OG
-40	것	O	O	O, B-CV, B-LC, B-TM, B-OG
-41	##으로	O	O	O, B-CV, B-LC, B-TM, B-OG
-42	전해졌	O	O	O, B-LC, B-OG, B-TM, B-CV
-43	##다	O	O	O, B-CV, B-LC, B-TM, I-QT
-44	.	O	O	O, B-LC, B-PS, B-CV, B-OG
-45	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	애기	O	O
+2	얼굴	B-AM	B-AM
+3	##이	O	O
+4	##라도	O	O
+5	멀쩡	O	O
+6	##할	O	O
+7	때	O	O
+8	한	O	B-QT
+9	##번	O	I-QT
+10	봤	O	O
+11	##으면	O	O
+12	좋	O	O
+13	##겠	O	O
+14	##어요	O	O
+15	.	O	O
+16	”	O	O
+17	[SEP]	O	O

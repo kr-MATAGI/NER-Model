@@ -1,75 +1,86 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	이	O	O	O, B-OG, B-PS, B-CV, B-LC
-2	##는	O	O	O, B-CV, B-LC, B-OG, B-PS
-3	지난달	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-OG
-4	29	I-DT	I-DT	I-DT, O, B-DT, I-PS, I-QT
-5	##일	I-DT	I-DT	I-DT, O, B-DT, I-PS, I-OG
-6	윤	B-PS	B-PS	B-PS, B-OG, O, I-PS, B-LC
-7	##면	I-PS	I-PS	I-PS, I-OG, O, B-PS, I-DT
-8	##식	I-PS	I-PS	I-PS, O, I-OG, B-PS, I-LC
-9	한은	B-OG	B-OG	B-OG, B-AF, B-LC, I-PS, O
-10	부총재	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-AF
-11	##보	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-EV
-12	##가	O	O	O, I-CV, I-OG, B-PS, I-EV
-13	한은	B-OG	B-OG	B-OG, B-AF, B-LC, B-PS, O
-14	##이	O	O	O, I-OG, B-PS, I-AF, I-PS
-15	돈	O	O	O, B-CV, B-PS, B-LC, I-OG
-16	##을	O	O	O, B-CV, B-PS, B-OG, B-LC
-17	찍	O	O	O, B-CV, B-PS, B-LC, B-OG
-18	##어	O	O	O, B-PS, B-LC, B-CV, B-OG
-19	##서	O	O	O, B-PS, B-LC, B-OG, B-CV
-20	국책	O	O	O, B-OG, B-CV, B-LC, B-AF
-21	##은행	O	I-OG	I-OG, O, B-OG, I-CV, I-AF
-22	자본	O	O	O, I-OG, B-CV, B-LC, B-TM
-23	##확	O	O	O, I-CV, I-LC, I-OG, I-TM
-24	##충	O	O	O, I-LC, I-CV, I-TM, B-LC
-25	##에	O	O	O, B-PS, B-LC, B-CV, B-OG
-26	나서	O	O	O, B-LC, B-CV, B-OG, B-PS
-27	##달	O	O	O, B-PS, B-LC, B-CV, B-OG
-28	##라는	O	O	O, B-PS, B-LC, B-CV, B-OG
-29	청와대	B-OG	B-OG	B-OG, B-AF, O, B-LC, B-PS
-30	##와	O	O	O, I-OG, I-AF, I-PS, I-EV
-31	정부	B-OG	B-OG	B-OG, B-AF, O, B-LC, I-OG
-32	##의	O	O	O, I-OG, I-AF, I-EV, B-CV
-33	요청	O	O	O, B-CV, B-OG, B-TM, B-LC
-34	##에	O	O	O, B-CV, B-PS, B-OG, I-CV
-35	대해	O	O	O, B-LC, B-PS, B-CV, B-OG
-36	“	O	O	O, B-LC, B-CV, B-PS, B-OG
-37	기본	O	O	O, B-LC, B-PS, B-CV, B-TM
-38	##적으로	O	O	O, B-LC, B-PS, B-OG, B-CV
-39	재정	O	O	O, B-CV, B-TM, B-LC, B-TR
-40	역할	O	O	O, I-CV, I-TM, B-CV, B-PS
-41	”	O	O	O, B-CV, B-PS, B-LC, B-OG
-42	이라	O	O	O, B-PS, B-CV, B-LC, B-OG
-43	##고	O	O	O, B-PS, B-LC, B-CV, B-OG
-44	반박	O	O	O, B-CV, B-LC, B-TM, B-PS
-45	##한	O	O	O, B-PS, B-LC, B-OG, B-CV
-46	뒤	O	O	O, B-LC, B-OG, B-TM, B-CV
-47	청와대	B-OG	B-OG	B-OG, B-AF, O, B-LC, B-PS
-48	##와	O	O	O, I-OG, I-AF, I-EV, I-PS
-49	대립	O	O	O, B-CV, B-LC, B-TM, B-OG
-50	##각	O	O	O, B-PS, B-LC, I-OG, B-OG
-51	##을	O	O	O, B-CV, B-OG, B-PS, B-LC
-52	세우	O	O	O, B-CV, B-LC, B-PS, B-OG
-53	##는	O	O	O, B-PS, B-CV, B-LC, B-OG
-54	것	O	O	O, B-PS, B-CV, B-OG, B-LC
-55	##으로	O	O	O, B-PS, B-CV, B-OG, B-LC
-56	비치	O	O	O, B-PS, B-OG, B-LC, B-CV
-57	##자	O	O	O, B-PS, B-LC, B-OG, I-OG
-58	,	O	O	O, B-CV, B-LC, B-OG, B-PS
-59	한은	B-OG	B-OG	B-OG, B-AF, B-LC, O, B-PS
-60	##이	O	O	O, I-OG, B-PS, I-AF, I-PS
-61	부담	O	O	O, B-CV, B-LC, B-TM, B-PS
-62	##을	O	O	O, B-CV, B-PS, B-OG, B-LC
-63	느껴	O	O	O, B-CV, B-PS, B-LC, B-TM
-64	진화	O	O	O, B-CV, B-LC, B-PS, B-TM
-65	##에	O	O	O, B-CV, B-PS, B-OG, B-LC
-66	나선	O	O	O, B-CV, B-PS, B-OG, B-LC
-67	것	O	O	O, B-CV, B-PS, B-OG, B-LC
-68	##으로	O	O	O, B-CV, B-PS, I-OG, B-LC
-69	풀이	O	O	O, B-CV, B-PS, B-TM, B-OG
-70	##된	O	O	O, I-OG, B-PS, I-EV, I-PS
-71	##다	O	O	O, B-CV, B-LC, I-OG, B-OG
-72	.	O	O	O, B-LC, B-PS, B-CV, B-OG
-73	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	박	B-PS	B-PS
+2	의원	B-CV	B-CV
+3	##은	O	O
+4	이날	B-DT	B-DT
+5	CJ	B-OG	B-OG
+6	##B	I-OG	I-OG
+7	##청	I-OG	I-OG
+8	##주	I-OG	I-OG
+9	##방송	I-OG	I-OG
+10	주최	O	O
+11	##로	O	O
+12	열린	O	O
+13	새	B-OG	B-OG
+14	##누리	I-OG	I-OG
+15	##당	I-OG	I-OG
+16	경선	O	B-EV
+17	후보	B-CV	B-CV
+18	초청	O	O
+19	토론회	O	O
+20	##에	O	O
+21	##서	O	O
+22	“	O	O
+23	(	O	O
+24	기존	O	O
+25	순환	O	O
+26	##출	O	O
+27	##자	O	O
+28	##를	O	O
+29	해소	O	O
+30	##하	O	O
+31	##려면	O	O
+32	)	O	O
+33	일부	O	O
+34	기업	O	O
+35	##은	O	O
+36	10	B-QT	B-QT
+37	##조	I-QT	I-QT
+38	원	I-QT	I-QT
+39	넘	O	O
+40	##게	O	O
+41	써야	O	O
+42	하	O	O
+43	##는데	O	O
+44	,	O	O
+45	그	O	O
+46	##보	O	O
+47	##다는	O	O
+48	오히려	O	O
+49	미래	O	O
+50	성장	O	O
+51	##동	O	O
+52	##력	O	O
+53	##에	O	O
+54	투자	O	O
+55	##하	O	O
+56	##고	O	O
+57	좋	O	O
+58	##은	O	O
+59	일자리	O	O
+60	##를	O	O
+61	만드	O	O
+62	##는	O	O
+63	데	O	O
+64	쓰	O	O
+65	##도록	O	O
+66	유도	O	O
+67	##하	O	O
+68	##는	O	O
+69	게	O	O
+70	좋	O	O
+71	##지	O	O
+72	않	O	O
+73	##겠	O	O
+74	##느	O	O
+75	##냐	O	O
+76	”	O	O
+77	며	O	O
+78	이	O	O
+79	##같이	O	O
+80	말	O	O
+81	##했	O	O
+82	##다	O	O
+83	.	O	O
+84	[SEP]	O	O

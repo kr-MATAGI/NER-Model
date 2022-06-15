@@ -1,51 +1,38 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	‘	O	O	O, B-LC, B-CV, B-OG, B-AF
-2	카	B-AF	B-AF	B-AF, O, B-EV, B-PS, B-LC
-3	##논	I-AF	I-AF	I-AF, O, I-EV, I-FD, I-PS
-4	…	O	I-AF	I-AF, O, I-EV, I-OG, I-CV
-5	’	O	O	O, I-AF, I-EV, I-OG, B-CV
-6	은	O	O	O, B-CV, B-OG, B-LC, B-PS
-7	연극	B-FD	B-FD	B-FD, O, I-FD, B-CV, B-AF
-8	속	O	O	O, I-FD, I-AF, I-OG, I-EV
-9	##에서	O	O	O, B-LC, B-PS, B-CV, B-FD
-10	펼쳐지	O	O	O, B-LC, B-CV, B-PS, B-OG
-11	##는	O	O	O, B-LC, B-PS, B-OG, B-DT
-12	고대	O	O	O, B-DT, B-LC, I-DT, B-FD
-13	그리스	B-LC	B-LC	B-LC, I-DT, B-DT, O, B-FD
-14	##와	O	O	O, I-DT, B-LC, I-LC, B-PS
-15	연극	B-FD	B-FD	B-FD, O, I-FD, B-AF, B-CV
-16	##을	O	O	O, I-FD, I-AF, I-OG, B-PS
-17	만드	O	O	O, B-LC, B-PS, B-OG, B-CV
-18	##는	O	O	O, B-LC, B-PS, B-OG, B-QT
-19	현재	O	O	O, B-LC, B-OG, B-DT, B-QT
-20	##를	O	O	O, B-LC, B-PS, B-CV, B-OG
-21	통해	O	O	O, B-LC, B-OG, B-PS, B-CV
-22	‘	O	O	O, B-LC, B-CV, B-AF, B-PS
-23	안티	B-AF	B-AF	B-AF, B-LC, B-PS, B-EV, B-FD
-24	##고	I-AF	I-AF	I-AF, I-LC, O, I-PS, I-FD
-25	##네	I-AF	I-AF	I-AF, I-LC, O, I-PS, I-FD
-26	’	O	O	O, I-AF, I-EV, I-LC, I-PS
-27	를	O	O	O, B-LC, B-PS, B-CV, I-AF
-28	둘러싼	O	O	O, B-LC, B-TM, B-PS, B-QT
-29	두	O	O	O, B-TM, B-QT, B-PS, B-AM
-30	개의	O	O	O, B-TM, I-QT, I-TM, B-QT
-31	세계	O	O	O, B-LC, I-LC, B-CV, B-PS
-32	##가	O	O	O, B-LC, B-PS, B-OG, I-LC
-33	음악	B-FD	B-FD	B-FD, O, B-TR, I-FD, B-AF
-34	##극	I-FD	I-FD	I-FD, O, B-FD, I-TR, I-AF
-35	카	B-AF	B-AF	B-AF, B-FD, O, B-EV, B-PS
-36	##논	I-AF	I-AF	I-AF, I-FD, O, I-TR, I-EV
-37	##처럼	O	O	O, I-AF, I-EV, I-FD, I-OG
-38	평행	O	O	O, B-TM, B-LC, B-QT, B-TR
-39	##하	O	O	O, B-LC, B-TM, I-LC, B-PS
-40	##게	O	O	O, B-LC, B-TM, I-LC, B-QT
-41	존재	O	O	O, B-LC, B-TM, B-QT, B-CV
-42	##하	O	O	O, B-LC, B-PS, B-TM, B-CV
-43	##는	O	O	O, B-LC, B-CV, B-PS, B-QT
-44	모습	O	O	O, B-CV, B-LC, B-FD, B-TM
-45	##을	O	O	O, B-CV, B-OG, B-PS, I-OG
-46	그렸	O	O	O, B-FD, B-CV, B-LC, B-OG
-47	##다	O	O	O, B-FD, B-CV, I-FD, I-QT
-48	.	O	O	O, B-LC, B-FD, B-CV, B-PS
-49	[SEP]	O	O	O, B-FD, B-LC, B-CV, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	여자	O	O
+2	##부	O	O
+3	서울시	B-OG	B-OG
+4	##청	I-OG	I-OG
+5	##과	O	O
+6	부산시	B-OG	B-OG
+7	##설	I-OG	I-OG
+8	##공단	I-OG	I-OG
+9	##의	O	O
+10	경기	O	O
+11	##로	O	O
+12	막이	O	O
+13	오르	O	O
+14	##는	O	O
+15	2016	B-DT	B-DT
+16	핸드볼	B-EV	B-EV
+17	코리아	I-EV	I-EV
+18	##리그	I-EV	I-EV
+19	##는	O	O
+20	9	B-DT	B-DT
+21	##월	I-DT	I-DT
+22	##26	I-DT	I-DT
+23	##일	I-DT	I-DT
+24	##까	I-DT	I-DT
+25	##지	I-DT	I-DT
+26	남녀	O	O
+27	3	B-QT	B-QT
+28	##라	I-QT	I-QT
+29	##운드	I-QT	I-QT
+30	##씩	O	I-QT
+31	장기	O	O
+32	레이스	O	O
+33	##를	O	O
+34	펼친다	O	O
+35	.	O	O
+36	[SEP]	O	O

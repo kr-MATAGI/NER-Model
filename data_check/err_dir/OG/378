@@ -1,66 +1,57 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-QT
-1	이	O	O	O, B-OG, B-LC, B-PS, B-CV
-2	##에	O	O	O, B-CV, B-OG, B-LC, I-OG
-3	따라	O	O	O, B-LC, B-OG, B-PS, B-CV
-4	북한	B-OG	B-LC	B-LC, B-OG, O, B-PS, B-AF
-5	##의	O	O	O, I-OG, I-LC, B-LC, I-AF
-6	핵	O	B-AF	B-AF, O, I-AF, B-MT, B-PS
-7	##과	O	O	O, I-AF, I-OG, B-TM, B-CV
-8	미사일	B-AF	B-AF	B-AF, O, I-AF, B-MT, B-PS
-9	##을	O	O	O, I-AF, I-OG, B-CV, B-LC
-10	최대한	O	O	O, B-LC, B-TM, B-QT, B-PS
-11	차단	O	O	O, B-TM, B-LC, B-CV, B-PS
-12	·	O	O	O, B-PS, I-LC, B-LC, I-QT
-13	억제	O	O	O, B-LC, B-CV, B-PS, B-TM
-14	##한다	O	O	O, B-LC, B-PS, B-OG, B-CV
-15	##는	O	O	O, B-PS, B-LC, B-OG, B-CV
-16	계획	O	O	O, B-CV, B-PS, B-LC, B-TM
-17	##에	O	O	O, B-CV, B-PS, B-OG, B-LC
-18	따라	O	O	O, B-LC, B-OG, B-PS, B-TM
-19	고고	O	B-AF	B-AF, O, B-LC, B-TM, I-AF
-20	##도	O	I-AF	I-AF, O, I-TM, I-LC, I-OG
-21	무인	B-AF	B-AF	B-AF, I-AF, O, B-CV, B-TM
-22	##정	I-AF	I-AF	I-AF, O, B-AF, I-TM, I-CV
-23	##찰	I-AF	I-AF	I-AF, O, B-AF, I-TM, I-CV
-24	##기	I-AF	I-AF	I-AF, O, I-TM, I-CV, I-QT
-25	,	O	O	O, I-AF, I-CV, I-OG, I-QT
-26	탄도	O	B-AF	B-AF, O, I-AF, B-LC, B-TM
-27	##탄	O	I-AF	I-AF, O, B-AF, I-TM, I-LC
-28	조기	O	O	O, I-AF, I-TM, B-TM, B-CV
-29	##경	O	O	O, I-AF, I-TM, B-TM, I-LC
-30	##보	O	O	O, I-AF, I-TM, I-LC, I-CV
-31	레이더	B-AF	B-AF	B-AF, O, B-TM, I-AF, I-TM
-32	,	O	O	O, I-AF, I-TM, I-QT, I-CV
-33	해상	O	B-AF	B-AF, O, I-AF, B-LC, B-CV
-34	##요	O	I-AF	I-AF, O, B-AF, I-CV, I-LC
-35	##격	O	I-AF	I-AF, O, I-CV, I-LC, I-OG
-36	유도	B-AF	I-AF	I-AF, B-AF, O, I-TM, I-CV
-37	##탄	I-AF	I-AF	I-AF, O, B-AF, I-TM, I-CV
-38	,	O	O	O, I-AF, I-CV, I-QT, I-OG
-39	핵	O	B-AF	B-AF, O, B-MT, I-AF, B-PS
-40	##폭	O	O	O, I-AF, B-CV, I-CV, I-EV
-41	##발	O	O	O, I-AF, I-CV, I-LC, I-EV
-42	때	O	O	O, I-AF, I-LC, I-DT, B-PS
-43	발생	O	O	O, B-TM, B-LC, B-CV, B-OG
-44	##하	O	O	O, B-TM, B-LC, B-OG, B-AF
-45	##는	O	O	O, B-TM, B-AF, B-LC, B-OG
-46	전자	O	B-TM	B-TM, O, B-AF, B-MT, B-TR
-47	##기	O	I-TM	I-TM, O, I-AF, I-MT, I-TR
-48	##펄	O	I-TM	I-TM, O, I-AF, I-MT, I-TR
-49	##스	O	I-TM	I-TM, O, I-AF, I-MT, I-TR
-50	(	O	O	O, I-TM, I-AF, I-QT, B-LC
-51	EM	O	O	O, B-AF, B-TM, B-MT, B-LC
-52	##P	O	O	O, I-TM, I-AF, I-MT, I-TR
-53	)	O	O	O, I-TM, I-AF, I-LC, I-OG
-54	방호	O	O	O, B-TM, B-CV, B-AF, B-MT
-55	시스템	O	O	O, I-TM, I-AF, I-CV, B-TM
-56	등	O	O	O, B-LC, I-TM, B-CV, I-AF
-57	##을	O	O	O, B-CV, B-LC, B-OG, B-TM
-58	도입	O	O	O, B-CV, B-LC, B-OG, B-TM
-59	##하기	O	O	O, B-LC, B-OG, B-CV, B-PS
-60	##로	O	O	O, B-OG, B-CV, I-OG, B-LC
-61	했	O	O	O, B-OG, B-LC, B-CV, B-PS
-62	##다	O	O	O, B-CV, B-LC, B-OG, I-OG
-63	.	O	O	O, B-LC, B-AF, B-PS, B-OG
-64	[SEP]	O	O	O, B-LC, I-AF, B-AF, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	중국	B-LC	B-LC
+2	공산당	B-OG	B-OG
+3	기관지	O	O
+4	인민	B-OG	B-OG
+5	##일보	I-OG	I-OG
+6	##의	O	O
+7	자매	O	O
+8	##지	O	O
+9	환	B-OG	B-OG
+10	##구	I-OG	I-OG
+11	##시	I-OG	I-OG
+12	##보	I-OG	I-OG
+13	(	O	O
+14	環	O	O
+15	球	O	O
+16	時	O	O
+17	報	O	O
+18	)	O	O
+19	는	O	O
+20	사설	O	O
+21	##에	O	O
+22	##서	O	O
+23	""""	O	O
+24	한	B-OG	B-LC
+25	·	O	O
+26	미	B-OG	B-LC
+27	양국	O	O
+28	##이	O	O
+29	전쟁	O	O
+30	##을	O	O
+31	원	O	O
+32	##하	O	O
+33	##는	O	O
+34	것	O	O
+35	##이	O	O
+36	아니	O	O
+37	##라면	O	O
+38	중국	B-OG	B-OG
+39	##이	O	O
+40	제공	O	O
+41	##한	O	O
+42	이번	O	O
+43	기회	O	O
+44	##를	O	O
+45	잡아	O	O
+46	##야	O	O
+47	한다	O	O
+48	""""	O	O
+49	는	O	O
+50	주장	O	O
+51	##을	O	O
+52	폈	O	O
+53	##다	O	O
+54	.	O	O
+55	[SEP]	O	O

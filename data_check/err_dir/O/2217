@@ -1,41 +1,44 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	특히	O	O	O, B-CV, B-OG, B-LC, B-TM
-2	바닥	O	O	O, B-PS, B-TM, B-CV, B-LC
-3	표	O	O	O, B-PS, B-CV, B-LC, B-TM
-4	##심	O	O	O, B-PS, I-PS, I-LC, I-CV
-5	##을	O	O	O, B-CV, B-LC, B-PS, B-OG
-6	얻	O	O	O, B-PS, B-LC, B-CV, B-TM
-7	##기	O	O	O, B-PS, B-LC, B-OG, I-LC
-8	위해	O	O	O, B-LC, B-CV, B-PS, B-OG
-9	원내	O	O	O, B-CV, B-OG, B-EV, B-FD
-10	·	O	O	O, I-CV, B-CV, I-OG, I-EV
-11	원외	O	O	O, B-CV, I-CV, I-OG, I-EV
-12	##대표	O	I-CV	I-CV, B-CV, O, I-OG, I-QT
-13	,	O	O	O, I-CV, B-CV, I-OG, B-PS
-14	자치	O	B-CV	B-CV, O, I-CV, B-OG, B-FD
-15	##분	O	I-CV	I-CV, O, B-CV, I-OG, I-QT
-16	##권	O	I-CV	I-CV, O, B-CV, I-OG, I-QT
-17	##대표	O	I-CV	I-CV, O, B-CV, I-OG, I-QT
-18	·	O	O	O, I-CV, I-OG, I-QT, B-PS
-19	최고위	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-QT
-20	##원	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-QT
-21	등	O	O	O, I-CV, B-PS, B-CV, B-LC
-22	지도	O	O	O, B-CV, B-PS, I-CV, B-TM
-23	##체	O	O	O, I-CV, B-CV, B-PS, I-PS
-24	##제	O	O	O, I-CV, B-CV, B-PS, I-PS
-25	확대	O	O	O, I-CV, B-PS, B-CV, B-LC
-26	##와	O	O	O, B-PS, B-LC, B-CV, B-OG
-27	온라인	O	O	O, B-TM, B-CV, B-LC, B-PS
-28	플랫폼	O	O	O, B-CV, B-TM, I-TM, I-CV
-29	정당	O	O	O, B-OG, I-OG, B-CV, B-PS
-30	##을	O	O	O, I-OG, B-CV, I-CV, B-LC
-31	통한	O	O	O, B-LC, B-CV, B-TM, B-OG
-32	외연	O	O	O, B-TM, B-CV, B-LC, B-PS
-33	확장	O	O	O, B-PS, I-TM, B-LC, I-CV
-34	##을	O	O	O, B-CV, B-PS, B-LC, B-OG
-35	강조	O	O	O, B-CV, B-OG, B-LC, B-TM
-36	##했	O	O	O, B-CV, B-OG, B-PS, B-LC
-37	##다	O	O	O, B-CV, B-OG, B-LC, I-OG
-38	.	O	O	O, B-LC, B-PS, B-CV, B-OG
-39	[SEP]	O	O	O, B-LC, B-CV, B-PS, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	정부	B-OG	B-OG
+2	##는	O	O
+3	지난해	B-DT	B-DT
+4	말	I-DT	I-DT
+5	수출입	O	B-OG
+6	##은행	O	I-OG
+7	##을	O	O
+8	통해	O	O
+9	남북	B-CV	B-CV
+10	##협	I-CV	I-CV
+11	##력	I-CV	I-CV
+12	##기금	I-CV	I-CV
+13	약	B-QT	B-QT
+14	1000	I-QT	I-QT
+15	##억	I-QT	I-QT
+16	원	I-QT	I-QT
+17	##을	O	O
+18	연	O	O
+19	2	O	O
+20	%	O	O
+21	대의	O	O
+22	낮	O	O
+23	##은	O	O
+24	이자	O	O
+25	##를	O	O
+26	받	O	O
+27	##고	O	O
+28	포스코	B-OG	B-OG
+29	등	O	O
+30	3	B-QT	B-QT
+31	##사	I-QT	I-QT
+32	##에	O	O
+33	대출	O	O
+34	##해	O	O
+35	##주	O	O
+36	##기	O	O
+37	##로	O	O
+38	결정	O	O
+39	##했	O	O
+40	##다	O	O
+41	.	O	O
+42	[SEP]	O	O

@@ -1,50 +1,39 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-EV, I-CV
-1	‘	O	O	O, B-OG, B-LC, B-PS, B-CV
-2	인권	B-OG	B-OG	B-OG, O, I-OG, B-CV, B-AF
-3	##친	I-OG	I-OG	I-OG, O, B-OG, I-CV, I-AF
-4	##화	I-OG	I-OG	I-OG, O, I-CV, I-AF, B-OG
-5	##적	I-OG	I-OG	I-OG, O, I-CV, I-AF, B-OG
-6	학교	I-OG	I-OG	I-OG, O, B-OG, I-CV, B-CV
-7	##너	I-OG	I-OG	I-OG, O, B-OG, I-CV, I-AF
-8	##머	I-OG	I-OG	I-OG, O, I-CV, B-OG, I-AF
-9	##운동	I-OG	I-OG	I-OG, O, B-OG, I-CV, I-AF
-10	##본부	I-OG	I-OG	I-OG, O, I-CV, I-AF, B-OG
-11	’	O	O	O, I-OG, B-OG, I-AF, I-CV
-12	는	O	O	O, I-OG, B-OG, B-CV, B-PS
-13	청소년	B-CV	B-CV	B-CV, O, B-OG, B-AF, B-TM
-14	참	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-AF
-15	##정권	I-CV	I-CV	I-CV, O, B-CV, I-TM, I-OG
-16	##에	O	O	O, I-CV, I-OG, B-CV, I-AF
-17	대해	O	O	O, B-LC, B-OG, B-TM, B-CV
-18	목소리	O	O	O, B-CV, B-TM, B-LC, B-OG
-19	##를	O	O	O, B-CV, B-OG, B-PS, B-LC
-20	내	O	O	O, B-LC, B-CV, B-OG, B-PS
-21	##는	O	O	O, B-LC, B-PS, B-CV, B-OG
-22	다양	O	O	O, B-LC, B-CV, B-TM, B-PS
-23	##한	O	O	O, B-LC, B-PS, B-OG, B-TM
-24	활동	O	O	O, B-CV, B-LC, B-OG, B-TM
-25	##을	O	O	O, B-PS, B-OG, B-CV, B-LC
-26	기획	O	O	O, B-OG, B-LC, B-TM, B-CV
-27	##하	O	O	O, B-PS, B-LC, B-OG, B-CV
-28	##며	O	O	O, B-LC, B-PS, B-OG, B-TM
-29	진보	O	B-TR	B-TR, O, I-TR, B-PS, B-TM
-30	,	O	O	O, I-TR, B-PS, I-QT, I-PS
-31	보수	O	B-TR	B-TR, O, I-TR, B-TM, B-PS
-32	성향	O	O	O, I-TR, B-PS, B-CV, I-PS
-33	가리	O	O	O, B-PS, B-LC, B-OG, B-CV
-34	##지	O	O	O, B-LC, B-PS, B-OG, I-PS
-35	않	O	O	O, B-LC, B-PS, B-OG, B-TM
-36	##고	O	O	O, B-LC, B-PS, B-OG, B-TR
-37	청소년	O	O	O, B-CV, B-OG, B-FD, B-TM
-38	##단체	O	O	O, I-CV, I-OG, I-TM, I-QT
-39	다섯	B-QT	B-QT	B-QT, O, I-QT, B-PS, B-LC
-40	곳	I-QT	I-QT	I-QT, O, I-LC, I-OG, I-PS
-41	##에	O	O	O, I-QT, I-OG, B-CV, B-OG
-42	참여	O	O	O, B-OG, B-CV, B-LC, B-TM
-43	제안	O	O	O, B-CV, B-TM, B-OG, B-LC
-44	##을	O	O	O, B-CV, B-OG, B-LC, B-TM
-45	보냈	O	O	O, B-CV, B-OG, B-LC, B-TM
-46	##다	O	O	O, B-CV, I-OG, B-OG, B-LC
-47	.	O	O	O, B-LC, B-OG, B-PS, I-OG
-48	[SEP]	O	O	O, B-LC, B-OG, I-OG, B-CV
+	text	label	preds
+0	[CLS]	O	O
+1	영화	O	O
+2	‘	O	O
+3	내부자	B-AF	B-AF
+4	##들	I-AF	I-AF
+5	’	O	O
+6	에	O	O
+7	나온	O	O
+8	검사	B-CV	B-CV
+9	##의	O	O
+10	대사	O	O
+11	##가	O	O
+12	시사	O	O
+13	##하	O	O
+14	##듯	O	O
+15	검찰	B-OG	B-OG
+16	같	O	O
+17	##은	O	O
+18	조직	O	O
+19	##은	O	O
+20	때로	O	O
+21	맹목	O	O
+22	##적	O	O
+23	충성	O	O
+24	##을	O	O
+25	요구	O	O
+26	##하	O	O
+27	##며	O	O
+28	악역	O	B-CV
+29	##을	O	O
+30	필요	O	O
+31	##로	O	O
+32	하	O	O
+33	##기	O	O
+34	##도	O	O
+35	한다	O	O
+36	.	O	O
+37	[SEP]	O	O

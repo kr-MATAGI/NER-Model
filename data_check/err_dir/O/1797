@@ -1,47 +1,60 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-EV, I-CV
-1	박	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-2	후보	B-CV	B-CV	B-CV, O, I-PS, I-CV, B-AF
-3	##는	O	O	O, I-CV, I-EV, B-CV, I-OG
-4	이날	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-QT
-5	경찰	B-OG	B-OG	B-OG, B-AF, O, B-CV, I-DT
-6	##의	O	O	O, I-OG, I-AF, I-CV, I-EV
-7	지위	O	O	O, B-CV, I-OG, B-TM, B-LC
-8	##와	O	O	O, B-PS, B-LC, B-OG, I-OG
-9	처우	O	O	O, B-CV, B-OG, B-PS, B-EV
-10	개선	O	O	O, B-PS, I-EV, I-OG, B-CV
-11	공약	O	O	O, B-EV, B-CV, B-LC, B-PS
-12	##발	O	O	O, I-EV, I-OG, B-PS, B-CV
-13	##표	O	O	O, I-EV, I-OG, B-PS, B-LC
-14	##회	O	O	O, I-EV, I-OG, B-PS, B-EV
-15	##에서	O	O	O, B-CV, B-LC, I-EV, B-OG
-16	“	O	O	O, B-LC, B-CV, B-OG, B-PS
-17	경찰	B-OG	B-OG	B-OG, O, B-AF, B-CV, B-LC
-18	기본급	O	O	O, B-CV, I-OG, I-CV, I-AF
-19	##을	O	O	O, B-CV, I-CV, B-PS, I-OG
-20	공안	O	B-CV	B-CV, O, B-OG, B-TM, I-CV
-21	##직	O	I-CV	I-CV, O, I-OG, B-CV, I-QT
-22	수준	O	O	O, I-CV, I-QT, I-OG, B-PS
-23	##으로	O	O	O, B-PS, B-LC, B-OG, B-QT
-24	인상	O	O	O, B-CV, B-LC, B-PS, B-TM
-25	##하고	O	O	O, B-LC, B-PS, B-CV, I-CV
-26	휴일	O	O	O, B-TI, B-DT, B-CV, B-EV
-27	·	O	O	O, I-CV, I-DT, I-TI, I-AF
-28	야간	B-TI	O	O, B-TI, I-TI, B-DT, B-CV
-29	근무	O	O	O, B-CV, I-CV, I-TI, I-AF
-30	##수	O	O	O, B-CV, I-CV, B-DT, B-QT
-31	##당	O	O	O, I-CV, I-QT, I-DT, I-LC
-32	단가	O	O	O, B-CV, B-LC, B-PS, B-QT
-33	##를	O	O	O, B-CV, B-TM, B-OG, I-CV
-34	인상	O	O	O, B-CV, B-TM, B-LC, B-OG
-35	##하	O	O	O, B-PS, B-LC, B-CV, B-OG
-36	##겠다	O	O	O, B-CV, B-PS, B-LC, B-OG
-37	”	O	O	O, B-CV, B-LC, B-OG, B-TM
-38	며	O	O	O, B-LC, B-CV, B-OG, B-PS
-39	이	O	O	O, B-PS, B-CV, B-OG, B-TM
-40	##같이	O	O	O, B-CV, B-LC, I-OG, I-EV
-41	약속	O	O	O, B-CV, B-OG, B-LC, B-PS
-42	##했	O	O	O, B-CV, B-PS, B-LC, B-OG
-43	##다	O	O	O, B-CV, B-LC, B-OG, I-EV
-44	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-45	[SEP]	O	O	O, B-CV, B-LC, B-PS, I-EV
+	text	label	preds
+0	[CLS]	O	O
+1	여당	O	O
+2	국회의원	B-CV	B-CV
+3	##이	O	O
+4	##자	O	O
+5	의회	O	B-CV
+6	외교	B-CV	I-CV
+7	##위원	I-CV	I-CV
+8	##장	I-CV	I-CV
+9	##인	O	O
+10	무스	B-PS	B-PS
+11	##타	I-PS	I-PS
+12	##파	I-PS	I-PS
+13	알	I-PS	I-PS
+14	##페	I-PS	I-PS
+15	##키	I-PS	I-PS
+16	##는	O	O
+17	아랍	O	B-LC
+18	##위성	O	B-TM
+19	##방송	O	I-TM
+20	알자	B-OG	B-OG
+21	##지	I-OG	I-OG
+22	##라	I-OG	I-OG
+23	##에	O	O
+24	출연	O	O
+25	,	O	O
+26	""""	O	O
+27	세계	O	O
+28	어느	O	O
+29	곳	O	O
+30	##에	O	O
+31	##서도	O	O
+32	보안	O	O
+33	세력	O	O
+34	##으로	O	O
+35	혁명	O	O
+36	##을	O	O
+37	막	O	O
+38	##을	O	O
+39	수	O	O
+40	없	O	O
+41	##다	O	O
+42	.	O	O
+43	전례	O	O
+44	없	O	O
+45	##는	O	O
+46	개혁	O	O
+47	##이	O	O
+48	필요	O	O
+49	##한	O	O
+50	상황	O	O
+51	""""	O	O
+52	이라	O	O
+53	##고	O	O
+54	말	O	O
+55	##했	O	O
+56	##다	O	O
+57	.	O	O
+58	[SEP]	O	O

@@ -1,54 +1,14 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-EV, I-CV
-1	리버풀	B-OG	B-OG	B-OG, B-LC, B-AF, B-PS, O
-2	응원	O	O	O, B-CV, B-FD, I-AF, I-OG
-3	##가	O	O	O, I-FD, I-AF, B-FD, I-CV
-4	'	O	O	O, B-LC, B-CV, B-PS, B-OG
-5	You	B-AF	O	O, B-AF, B-LC, B-PS, I-AF
-6	'	I-AF	O	O, I-AF, I-LC, I-PS, B-AF
-7	l	I-AF	O	O, I-AF, I-LC, I-PS, I-TM
-8	##l	I-AF	O	O, I-AF, I-LC, I-PS, I-TM
-9	ne	I-AF	O	O, I-AF, I-LC, B-AF, I-PS
-10	##ver	I-AF	O	O, I-AF, I-LC, B-AF, I-PS
-11	w	I-AF	O	O, I-AF, I-LC, B-AF, B-LC
-12	##alk	I-AF	O	O, I-AF, I-LC, B-AF, I-PS
-13	al	I-AF	O	O, I-AF, I-LC, B-AF, I-PS
-14	##one	I-AF	O	O, I-AF, I-LC, B-AF, I-PS
-15	(	O	O	O, I-AF, I-LC, B-CV, I-OG
-16	당신	O	O	O, B-AF, I-AF, B-LC, B-PS
-17	##은	O	O	O, I-AF, I-LC, B-AF, I-PS
-18	결코	O	O	O, I-AF, B-AF, I-LC, I-PS
-19	홀로	O	O	O, I-AF, B-AF, I-LC, I-PS
-20	걷	O	O	O, I-AF, I-LC, B-AF, I-PS
-21	##지	O	O	O, I-AF, I-LC, B-AF, I-PS
-22	않	O	O	O, I-AF, I-LC, B-AF, I-PS
-23	##을	O	O	O, I-AF, I-LC, B-AF, I-PS
-24	거	O	O	O, I-AF, B-AF, I-LC, B-PS
-25	##야	O	O	O, I-AF, I-LC, B-AF, I-PS
-26	)	O	O	O, I-AF, I-LC, I-OG, I-CV
-27	'	O	O	O, B-CV, B-LC, B-OG, I-AF
-28	은	O	O	O, B-CV, B-PS, B-LC, B-OG
-29	팀	O	O	O, B-CV, B-OG, B-PS, I-OG
-30	##과	O	O	O, B-PS, B-CV, B-LC, I-OG
-31	고	O	O	O, B-CV, B-LC, B-OG, B-PS
-32	##락	O	O	O, I-LC, I-OG, I-PS, I-CV
-33	(	O	O	O, I-OG, I-CV, B-CV, I-AF
-34	[UNK]	O	O	O, B-LC, B-CV, B-OG, B-PS
-35	[UNK]	O	O	O, B-LC, B-CV, B-PS, B-OG
-36	)	O	O	O, B-CV, B-LC, B-OG, B-PS
-37	을	O	O	O, B-CV, B-LC, B-PS, B-OG
-38	함께	O	O	O, B-CV, B-LC, B-PS, B-OG
-39	하	O	O	O, B-CV, B-PS, B-LC, B-OG
-40	##겠다	O	O	O, B-CV, B-PS, B-LC, B-FD
-41	##는	O	O	O, B-CV, B-PS, I-CV, B-LC
-42	팬	B-CV	B-CV	B-CV, O, B-OG, B-AF, B-PS
-43	##들	O	O	O, I-CV, I-OG, I-EV, I-AF
-44	##의	O	O	O, B-CV, B-PS, B-LC, B-OG
-45	정신	O	O	O, B-CV, B-FD, B-PS, B-LC
-46	##을	O	O	O, B-CV, B-OG, B-PS, B-LC
-47	담	O	O	O, B-CV, B-PS, B-LC, B-OG
-48	##고	O	O	O, B-CV, B-PS, I-OG, B-FD
-49	있	O	O	O, B-CV, B-FD, B-PS, B-OG
-50	##다	O	O	O, B-CV, I-OG, B-LC, B-OG
-51	.	O	O	O, B-LC, B-PS, B-CV, B-AF
-52	[SEP]	O	O	O, B-CV, B-LC, I-AF, B-FD
+	text	label	preds
+0	[CLS]	O	O
+1	거대	B-AF	O
+2	##한	I-AF	O
+3	신	I-AF	B-CV
+4	,	I-AF	O
+5	우리	I-AF	O
+6	##는	I-AF	O
+7	무엇	I-AF	O
+8	##을	I-AF	O
+9	믿	I-AF	O
+10	##는	I-AF	O
+11	##가	I-AF	O
+12	[SEP]	O	O

@@ -1,21 +1,76 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	지역	O	B-CV	B-CV, O, B-TM, I-CV, B-PT
-2	##인	O	I-CV	I-CV, O, B-CV, I-TM, I-OG
-3	##재	O	I-CV	I-CV, O, B-CV, I-TM, I-OG
-4	할당	O	I-CV	I-CV, O, B-CV, I-TM, I-OG
-5	##제	O	I-CV	I-CV, O, I-TM, I-OG, B-CV
-6	##는	O	O	O, I-CV, I-OG, I-QT, I-TM
-7	문	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-8	대통령	B-CV	B-CV	B-CV, O, I-PS, I-CV, B-OG
-9	##이	O	O	O, I-CV, B-PS, I-PS, B-CV
-10	대선	B-EV	B-EV	B-EV, O, B-CV, B-AF, B-DT
-11	후보	B-CV	B-CV	B-CV, O, I-EV, I-CV, B-PS
-12	시절	O	O	O, I-CV, I-EV, I-DT, B-CV
-13	##부터	O	O	O, I-DT, I-PS, I-CV, B-PS
-14	강조	O	O	O, B-CV, B-OG, B-TM, I-QT
-15	##한	O	O	O, B-PS, B-LC, B-OG, B-CV
-16	사항	O	O	O, B-CV, B-OG, B-PS, B-LC
-17	##이다	O	O	O, B-CV, B-TM, I-CV, B-OG
-18	.	O	O	O, B-PS, B-LC, B-OG, B-CV
-19	[SEP]	O	O	O, B-CV, B-PS, B-LC, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	평소	O	O
+2	'	O	O
+3	단체장	B-CV	B-CV
+4	##의	O	O
+5	정당	B-CV	O
+6	##공	I-CV	O
+7	##천	I-CV	O
+8	제도	I-CV	O
+9	##가	O	O
+10	정치	O	O
+11	##부패	O	O
+12	##의	O	O
+13	온	O	O
+14	##상	O	O
+15	'	O	O
+16	이라	O	O
+17	##는	O	O
+18	지론	O	O
+19	##을	O	O
+20	펼쳐	O	O
+21	##온	O	O
+22	그	O	O
+23	##는	O	O
+24	작년	B-DT	B-DT
+25	##부터	I-DT	I-DT
+26	전국	O	B-OG
+27	시장	B-CV	I-OG
+28	·	O	I-OG
+29	군수	B-CV	I-OG
+30	·	O	I-OG
+31	구청장	B-OG	I-OG
+32	##협	I-OG	I-OG
+33	##의	I-OG	I-OG
+34	##회	I-OG	I-OG
+35	정당	O	O
+36	##공	O	O
+37	##천	O	O
+38	##폐	O	O
+39	##지	O	O
+40	특별	B-CV	B-CV
+41	##위원	I-CV	I-CV
+42	##장	I-CV	I-CV
+43	##과	O	O
+44	'	O	O
+45	기초	B-OG	B-EV
+46	##지방	I-OG	I-EV
+47	##선거	I-OG	I-EV
+48	정당	I-OG	I-OG
+49	##공	I-OG	I-OG
+50	##천	I-OG	I-OG
+51	##폐	I-OG	I-OG
+52	##지	I-OG	I-OG
+53	##를	I-OG	I-OG
+54	위한	I-OG	I-OG
+55	국민	I-OG	I-OG
+56	##운동	I-OG	I-OG
+57	##본부	I-OG	I-OG
+58	'	O	O
+59	상임	B-CV	B-CV
+60	##대표	I-CV	I-CV
+61	##로	O	O
+62	활동	O	O
+63	##하	O	O
+64	##며	O	O
+65	일찌감치	O	O
+66	무소	O	O
+67	##속	O	O
+68	출마	O	O
+69	##를	O	O
+70	선언	O	O
+71	##했	O	O
+72	##다	O	O
+73	.	O	O
+74	[SEP]	O	O

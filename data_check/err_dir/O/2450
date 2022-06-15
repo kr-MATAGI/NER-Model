@@ -1,14 +1,40 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	제	O	O	O, B-CV, B-LC, B-PS, B-OG
-2	##가	O	O	O, B-PS, B-LC, B-CV, B-OG
-3	워	O	B-LC	B-LC, O, B-AF, B-EV, B-OG
-4	##싱	O	I-LC	I-LC, O, I-AF, B-LC, I-EV
-5	워싱턴	B-LC	I-LC	I-LC, B-LC, I-AF, O, I-EV
-6	##에서	O	O	O, I-LC, I-AF, B-LC, I-OG
-7	뉴욕	B-LC	B-LC	B-LC, O, B-AF, I-LC, B-OG
-8	##으로	O	O	O, I-LC, I-AF, I-OG, I-EV
-9	가	O	O	O, B-CV, B-QT, B-LC, B-OG
-10	##서	O	O	O, B-CV, B-LC, I-AF, B-PS
-11	.	O	O	O, B-CV, B-LC, B-OG, B-PS
-12	[SEP]	O	O	O, B-CV, B-LC, B-AF, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	바	O	B-AF
+2	##소	O	I-AF
+3	##는	O	O
+4	항아리	O	O
+5	##를	O	O
+6	뜻	O	O
+7	##하	O	O
+8	##는	O	O
+9	이탈리아	O	O
+10	##어로	O	O
+11	,	O	O
+12	이	O	O
+13	와인	B-CV	B-CV
+14	##의	O	O
+15	병	O	O
+16	라벨	O	O
+17	##에	O	O
+18	##는	O	O
+19	사진	B-CV	B-CV
+20	##작	I-CV	I-CV
+21	##가	I-CV	I-CV
+22	구본	B-PS	B-PS
+23	##창	I-PS	I-PS
+24	##이	O	O
+25	찍	O	O
+26	##은	O	O
+27	조선	B-AF	B-AF
+28	##백	I-AF	I-AF
+29	##자	I-AF	I-AF
+30	달	B-AF	B-AF
+31	##항	I-AF	I-AF
+32	##아리	I-AF	I-AF
+33	작품	O	O
+34	##이	O	O
+35	담겼	O	O
+36	##다	O	O
+37	.	O	O
+38	[SEP]	O	O

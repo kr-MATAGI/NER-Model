@@ -1,15 +1,35 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-AF
-1	[	O	O	O, B-OG, B-LC, B-AF, B-DT
-2	횡	B-AF	B-AF	B-AF, O, B-PS, B-FD, B-OG
-3	##설	I-AF	I-AF	I-AF, O, I-PS, I-TR, I-OG
-4	##수	I-AF	I-AF	I-AF, O, I-TR, I-PS, I-FD
-5	##설	I-AF	I-AF	I-AF, O, I-TR, I-FD, I-PS
-6	/	O	O	O, I-AF, I-OG, B-AF, B-OG
-7	이진	O	B-PS	B-PS, O, B-AF, I-PS, B-OG
-8	]	O	O	O, I-PS, I-AF, I-OG, B-CV
-9	가짜	O	O	O, B-CV, B-TM, B-AF, B-FD
-10	뉴스	O	O	O, I-CV, B-CV, I-AF, I-TM
-11	경계	O	O	O, B-CV, I-CV, B-PS, I-AF
-12	##령	O	O	O, I-CV, I-AF, B-CV, I-OG
-13	[SEP]	O	O	O, B-CV, B-AF, B-LC, I-CV
+	text	label	preds
+0	[CLS]	O	O
+1	서울	B-LC	B-LC
+2	강남	B-LC	B-LC
+3	##권	I-LC	I-LC
+4	##에	O	O
+5	있	O	O
+6	##는	O	O
+7	삼성전자	B-OG	B-OG
+8	##서비스	O	I-OG
+9	협력	O	O
+10	##업체	O	O
+11	노동자	B-CV	B-CV
+12	##는	O	O
+13	23	B-DT	B-DT
+14	##일	I-DT	I-DT
+15	업체	O	O
+16	사장	B-CV	B-CV
+17	##이	O	O
+18	팀장	B-CV	B-CV
+19	##급	I-CV	O
+20	부하	B-CV	B-CV
+21	직원	B-CV	B-CV
+22	##에	O	O
+23	##게	O	O
+24	보낸	O	O
+25	전자	B-TM	B-TM
+26	##우	I-TM	I-TM
+27	##편	I-TM	I-TM
+28	##을	O	O
+29	공개	O	O
+30	##했	O	O
+31	##다	O	O
+32	.	O	O
+33	[SEP]	O	O

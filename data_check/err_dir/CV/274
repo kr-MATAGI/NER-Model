@@ -1,16 +1,9 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-EV, B-CV, I-OG, I-CV
-1	올해	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-2	초	I-DT	I-DT	I-DT, O, I-QT, B-DT, I-EV
-3	환경부	B-OG	B-OG	B-OG, O, B-AF, I-DT, B-EV
-4	##에서	O	O	O, I-OG, I-EV, I-DT, B-CV
-5	기상	B-CV	B-EV	B-EV, O, B-CV, I-EV, B-TM
-6	캐스	I-CV	I-EV	I-EV, I-CV, B-CV, O, I-OG
-7	##터	I-CV	I-CV	I-CV, I-EV, O, I-OG, I-QT
-8	간담회	O	I-EV	I-EV, O, I-CV, B-EV, I-OG
-9	##가	O	O	O, I-EV, I-OG, I-CV, I-AF
-10	열렸	O	O	O, B-EV, B-CV, I-EV, B-OG
-11	##습	O	O	O, I-EV, B-EV, B-CV, B-OG
-12	##니다	O	O	O, B-CV, I-EV, B-EV, B-LC
-13	.	O	O	O, I-EV, B-EV, B-CV, B-LC
-14	[SEP]	O	O	O, I-EV, B-CV, B-EV, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	어	O	O
+2	~	O	O
+3	교육	O	B-CV
+4	경비	B-CV	I-CV
+5	보조금	O	I-CV
+6	##이	O	O
+7	[SEP]	O	O

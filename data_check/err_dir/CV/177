@@ -1,57 +1,30 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-QT
-1	주요	O	O	O, B-TM, B-LC, B-CV, B-OG
-2	참여	O	O	O, B-CV, B-TM, B-OG, B-PS
-3	단체	O	O	O, I-CV, I-OG, B-CV, B-OG
-4	##로	O	O	O, B-OG, B-LC, I-OG, B-PS
-5	##는	O	O	O, B-OG, B-LC, B-CV, B-TM
-6	자유민주	B-OG	B-OG	B-OG, B-AF, O, B-PS, B-CV
-7	##연구원	I-OG	I-OG	I-OG, O, I-AF, I-PS, I-CV
-8	##과	O	O	O, I-OG, I-AF, B-OG, B-PS
-9	헌법	B-CV	B-OG	B-OG, B-CV, O, B-AF, I-OG
-10	##을	O	I-OG	I-OG, O, I-CV, I-AF, I-PS
-11	생각	O	I-OG	I-OG, O, I-CV, I-AF, I-PS
-12	##하	O	I-OG	I-OG, O, I-AF, I-CV, I-PS
-13	##는	O	I-OG	I-OG, O, I-AF, I-CV, I-PS
-14	변호사	B-CV	I-OG	I-OG, B-CV, B-OG, O, I-CV
-15	모임	O	I-OG	I-OG, O, I-CV, I-AF, I-EV
-16	,	O	O	O, I-OG, I-AF, B-PS, B-CV
-17	자유	O	B-OG	B-OG, O, B-LC, B-CV, B-AF
-18	##와	O	I-OG	I-OG, O, I-AF, I-CV, I-LC
-19	통일	O	I-OG	I-OG, O, I-CV, I-AF, I-LC
-20	##을	O	I-OG	I-OG, O, I-AF, I-CV, I-LC
-21	향한	O	I-OG	I-OG, O, I-AF, I-CV, I-LC
-22	변호사	B-CV	I-OG	I-OG, B-CV, B-OG, O, I-CV
-23	연대	O	I-OG	I-OG, O, I-CV, I-AF, I-EV
-24	,	O	O	O, I-OG, I-AF, B-CV, I-CV
-25	한반도	B-LC	B-LC	B-LC, B-OG, O, B-PS, B-AF
-26	인권	O	I-OG	I-OG, B-CV, O, B-OG, I-LC
-27	##과	O	I-OG	I-OG, O, I-CV, I-LC, I-AF
-28	통일	O	I-OG	I-OG, O, I-CV, I-LC, I-AF
-29	##을	O	I-OG	I-OG, O, I-CV, I-AF, I-LC
-30	위한	O	I-OG	I-OG, O, I-CV, I-AF, I-LC
-31	변호사	B-CV	I-OG	I-OG, B-CV, B-OG, O, I-CV
-32	모임	O	I-OG	I-OG, O, I-CV, I-AF, I-EV
-33	,	O	O	O, I-OG, I-AF, B-CV, I-CV
-34	바른	B-OG	B-OG	B-OG, O, B-AF, B-LC, B-PS
-35	##사회	I-OG	I-OG	I-OG, O, I-AF, I-LC, I-CV
-36	##시	I-OG	I-OG	I-OG, O, I-AF, I-LC, I-CV
-37	##민	I-OG	I-OG	I-OG, O, I-AF, I-LC, I-CV
-38	##회의	I-OG	I-OG	I-OG, O, I-AF, I-LC, I-PS
-39	,	O	O	O, I-OG, I-AF, B-CV, I-EV
-40	헌법	B-OG	B-OG	B-OG, B-AF, O, B-PS, I-OG
-41	##수	I-OG	I-OG	I-OG, O, I-AF, B-OG, I-LC
-42	##호	I-OG	I-OG	I-OG, O, I-AF, I-LC, B-OG
-43	##국	I-OG	I-OG	I-OG, O, I-AF, I-LC, B-OG
-44	##민	I-OG	I-OG	I-OG, O, I-AF, I-LC, B-OG
-45	##운동	I-OG	I-OG	I-OG, O, I-AF, I-LC, I-PS
-46	##본부	I-OG	I-OG	I-OG, O, I-AF, I-LC, I-PS
-47	등	O	O	O, I-OG, I-AF, B-CV, B-LC
-48	보수	O	O	O, B-TR, B-TM, B-CV, B-FD
-49	시민	O	O	O, B-CV, I-CV, B-OG, B-TR
-50	##단체	O	O	O, I-CV, I-OG, I-TR, I-TM
-51	##들이	O	O	O, I-OG, I-CV, B-PS, B-CV
-52	있	O	O	O, B-OG, B-CV, B-TM, B-LC
-53	##다	O	O	O, B-CV, B-OG, I-OG, B-TM
-54	.	O	O	O, B-OG, I-OG, B-LC, B-PS
-55	[SEP]	O	O	O, I-OG, B-OG, B-LC, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	1910	B-DT	B-DT
+2	##년	I-DT	I-DT
+3	##경	I-DT	I-DT
+4	건립	O	O
+5	##된	O	O
+6	이	O	O
+7	한옥	B-CV	O
+8	##은	O	O
+9	고종	B-PS	B-PS
+10	##의	O	O
+11	상	B-CV	B-CV
+12	##궁	I-CV	I-CV
+13	출신	O	O
+14	후궁	B-CV	B-CV
+15	엄	B-PS	B-PS
+16	##비	I-PS	I-PS
+17	(	O	O
+18	嚴	O	O
+19	妃	O	O
+20	)	O	O
+21	가	O	O
+22	살	O	O
+23	##던	O	O
+24	곳	O	O
+25	##으로	O	O
+26	전해진다	O	O
+27	.	O	O
+28	[SEP]	O	O

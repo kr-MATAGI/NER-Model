@@ -1,53 +1,11 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	이	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
-2	대통령	B-CV	B-CV	B-CV, I-PS, O, I-CV, B-OG
-3	##이	O	O	O, I-CV, B-PS, I-EV, B-CV
-4	이날	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-QT
-5	문책	O	O	O, B-CV, I-DT, B-EV, B-PS
-6	##성	O	O	O, I-CV, B-PS, I-EV, B-CV
-7	인사	B-CV	O	O, B-CV, I-CV, B-EV, B-FD
-8	##는	O	O	O, I-CV, B-PS, I-EV, B-LC
-9	부인	O	O	O, B-CV, B-PS, B-LC, B-OG
-10	##하면	O	O	O, B-PS, B-LC, B-CV, B-DT
-11	##서	O	O	O, B-LC, B-PS, B-CV, B-OG
-12	“	O	O	O, B-LC, B-PS, B-CV, B-OG
-13	(	O	O	O, B-LC, B-PS, B-CV, B-QT
-14	개각	O	O	O, B-CV, B-EV, B-OG, B-FD
-15	##은	O	O	O, B-PS, I-EV, I-CV, B-LC
-16	)	O	O	O, B-LC, B-PS, B-CV, B-OG
-17	필요	O	O	O, B-PS, B-LC, B-CV, B-TM
-18	##하면	O	O	O, B-PS, B-LC, B-OG, B-TM
-19	언제	O	O	O, B-PS, B-LC, B-TM, B-OG
-20	##든지	O	O	O, B-PS, B-LC, B-QT, B-OG
-21	할	O	O	O, B-PS, B-LC, B-CV, B-OG
-22	수	O	O	O, B-PS, B-LC, B-CV, B-OG
-23	있	O	O	O, B-PS, B-LC, B-CV, B-OG
-24	##다	O	O	O, B-PS, B-LC, B-CV, B-OG
-25	”	O	O	O, B-CV, B-LC, B-OG, B-PS
-26	고	O	O	O, B-PS, B-CV, B-LC, B-OG
-27	밝힌	O	O	O, B-PS, B-CV, B-LC, B-DT
-28	점	O	O	O, B-CV, B-PS, B-LC, B-OG
-29	##에	O	O	O, B-CV, B-PS, B-LC, B-OG
-30	비춰	O	O	O, B-LC, B-PS, B-OG, B-EV
-31	,	O	O	O, B-LC, B-PS, B-DT, B-EV
-32	4	B-DT	B-DT	B-DT, B-EV, B-QT, O, B-LC
-33	·	I-DT	I-DT	I-DT, I-EV, I-QT, O, I-LC
-34	27	I-DT	I-EV	I-EV, I-DT, I-QT, I-LC, O
-35	재보	I-DT	I-EV	I-EV, I-DT, O, I-QT, B-DT
-36	##궐	I-DT	I-EV	I-EV, I-DT, O, I-QT, I-LC
-37	##선거	I-DT	I-DT	I-DT, I-EV, O, I-QT, I-LC
-38	전후	I-DT	I-DT	I-DT, O, I-EV, B-DT, I-QT
-39	일부	O	O	O, I-DT, B-LC, I-EV, B-QT
-40	개각	O	O	O, B-CV, B-EV, B-OG, B-TM
-41	##이	O	O	O, B-PS, I-EV, B-OG, B-LC
-42	이뤄질	O	O	O, B-LC, B-CV, B-OG, B-PS
-43	가능	O	O	O, B-CV, B-LC, B-PS, B-OG
-44	##성	O	O	O, B-PS, B-LC, B-OG, B-CV
-45	##은	O	O	O, B-CV, B-OG, B-LC, B-PS
-46	여전히	O	O	O, B-QT, B-TM, B-CV, B-LC
-47	남아	O	O	O, B-QT, B-TM, B-CV, B-LC
-48	있	O	O	O, I-QT, B-LC, B-CV, B-PS
-49	##다	O	O	O, B-CV, B-LC, B-TM, B-QT
-50	.	O	O	O, B-LC, B-PS, B-CV, B-OG
-51	[SEP]	O	O	O, B-LC, B-CV, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	똑같이	O	O
+2	도마	B-CV	O
+3	##에	O	O
+4	놓	O	O
+5	##고	O	O
+6	썰	O	O
+7	##잖아요	O	O
+8	.	O	O
+9	[SEP]	O	O

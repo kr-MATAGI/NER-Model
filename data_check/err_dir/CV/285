@@ -1,22 +1,24 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, I-OG, B-CV, I-AF
-1	불법	O	O	O, B-CV, I-CV, B-TM, B-AF
-2	스카	B-CV	O	O, I-CV, B-CV, I-TM, I-TR
-3	##웃	I-CV	O	O, I-CV, B-CV, I-TM, I-TR
-4	##제	I-CV	O	O, I-CV, B-CV, I-TM, I-TR
-5	##도	I-CV	O	O, I-CV, B-CV, I-TR, I-TM
-6	##의	O	O	O, I-CV, B-PS, I-OG, I-QT
-7	근절	O	O	O, B-CV, I-CV, B-OG, B-PS
-8	대학	O	O	O, B-CV, B-OG, B-FD, B-LC
-9	어	O	O	O, I-CV, B-CV, I-OG, B-PS
-10	~	O	O	O, I-CV, I-OG, I-LC, B-LC
-11	지도자	B-CV	B-CV	B-CV, O, I-CV, B-PS, B-OG
-12	##들	O	O	O, I-CV, B-CV, I-OG, I-AF
-13	##의	O	O	O, B-CV, B-PS, B-LC, B-OG
-14	이	O	O	O, B-PS, B-CV, B-QT, B-OG
-15	~	O	O	O, I-CV, I-QT, B-CV, I-LC
-16	담합	O	O	O, B-CV, B-TM, B-TR, B-PS
-17	에	O	O	O, I-CV, B-PS, B-LC, B-CV
-18	해소	O	O	O, B-CV, B-PS, I-CV, B-LC
-19	.	O	O	O, B-LC, B-CV, I-OG, B-PS
-20	[SEP]	O	O	O, B-CV, B-LC, B-PS, I-CV
+	text	label	preds
+0	[CLS]	O	O
+1	당신	O	O
+2	##이	O	O
+3	지금	O	O
+4	교도소	O	O
+5	##를	O	O
+6	들어갈	O	O
+7	##래	O	O
+8	아니	O	O
+9	##면	O	O
+10	강제	B-CV	O
+11	##추	I-CV	O
+12	##행	I-CV	O
+13	##을	O	O
+14	했으니	O	O
+15	##까	O	O
+16	보호관	B-CV	B-CV
+17	##찰	I-CV	I-CV
+18	##만	O	O
+19	받	O	O
+20	##을	O	O
+21	##래	O	O
+22	[SEP]	O	O

@@ -1,64 +1,66 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-EV, I-CV, I-OG
-1	한	O	O	O, B-LC, B-OG, B-PS, B-QT
-2	현지	O	O	O, B-LC, I-LC, B-CV, B-PS
-3	주민	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-PS
-4	##은	O	O	O, I-CV, B-CV, I-EV, I-QT
-5	""""	O	O	O, B-CV, B-LC, B-TM, B-OG
-6	주사	B-EV	O	O, B-AF, B-EV, B-TM, B-OG
-7	##기	I-EV	O	O, I-AF, I-EV, I-TM, I-OG
-8	테러	I-EV	O	O, I-EV, B-CV, I-AF, B-PS
-9	피해자	B-CV	B-CV	B-CV, O, I-CV, I-EV, B-PS
-10	##들이	O	O	O, I-CV, I-EV, I-AF, B-CV
-11	병원	O	O	O, B-CV, B-OG, B-TM, B-AF
-12	##으로	O	O	O, B-CV, B-LC, B-PS, B-TM
-13	몰려들	O	O	O, B-LC, B-PS, B-OG, B-CV
-14	##고	O	O	O, B-PS, B-LC, B-QT, B-CV
-15	있	O	O	O, B-PS, B-LC, B-CV, B-QT
-16	##고	O	O	O, B-PS, B-LC, B-CV, B-QT
-17	,	O	O	O, B-LC, B-CV, B-PS, B-OG
-18	한	O	O	O, B-QT, B-PS, B-LC, B-TM
-19	어린이	O	O	O, B-CV, B-AM, I-QT, B-PS
-20	##가	O	O	O, B-PS, B-CV, B-QT, B-LC
-21	주	O	O	O, B-AF, B-LC, B-CV, B-TM
-22	##삿	O	O	O, I-AF, B-AF, B-LC, I-LC
-23	##바	O	O	O, B-AF, I-AF, B-LC, B-AM
-24	##늘	O	O	O, I-AF, I-LC, B-AM, B-LC
-25	##의	O	O	O, I-AF, B-PS, B-AF, B-LC
-26	독	B-MT	O	O, B-TM, B-AF, B-CV, B-MT
-27	##극	I-MT	O	O, I-AF, I-LC, I-CV, I-TM
-28	##물	I-MT	O	O, I-AF, I-LC, I-TM, I-CV
-29	##에	O	O	O, I-AF, B-PS, B-CV, B-TM
-30	의해	O	O	O, B-TM, B-LC, B-CV, B-QT
-31	사망	O	O	O, B-TM, B-CV, B-LC, B-QT
-32	##했	O	O	O, B-PS, B-CV, B-LC, B-TM
-33	##다는	O	O	O, B-LC, B-PS, B-QT, B-CV
-34	미	O	O	O, B-LC, B-PS, B-CV, B-OG
-35	##확	O	O	O, I-LC, I-CV, B-CV, B-LC
-36	##인	O	O	O, I-LC, I-CV, I-AF, B-LC
-37	소문	O	O	O, B-LC, B-CV, B-PS, I-LC
-38	##이	O	O	O, B-PS, B-LC, B-CV, B-OG
-39	나	O	O	O, B-LC, B-CV, B-OG, B-QT
-40	##도	O	O	O, B-LC, B-PS, B-CV, I-LC
-41	##는	O	O	O, B-LC, B-TM, B-PS, B-OG
-42	등	O	O	O, B-LC, B-OG, B-TM, B-PS
-43	시	O	O	O, B-OG, B-LC, I-LC, B-FD
-44	전체	O	O	O, I-LC, I-OG, B-LC, B-QT
-45	##가	O	O	O, B-PS, B-LC, B-OG, B-TM
-46	공황	O	O	O, B-TM, B-LC, B-CV, B-TR
-47	(	O	O	O, I-TM, I-LC, B-PS, B-LC
-48	[UNK]	O	O	O, B-LC, B-PS, B-CV, B-TM
-49	[UNK]	O	O	O, B-LC, B-PS, B-CV, B-TM
-50	)	O	O	O, B-LC, B-PS, B-CV, B-TM
-51	상태	O	O	O, B-LC, B-TM, B-PS, B-CV
-52	##에	O	O	O, B-PS, B-LC, B-CV, B-OG
-53	빠져	O	O	O, B-LC, B-TM, B-OG, B-QT
-54	있	O	O	O, B-LC, B-PS, I-LC, B-QT
-55	##다	O	O	O, B-LC, I-OG, I-LC, I-QT
-56	""""	O	O	O, B-CV, B-LC, B-TM, I-QT
-57	고	O	O	O, B-CV, B-LC, B-QT, B-TM
-58	말	O	O	O, B-CV, B-LC, B-TM, B-QT
-59	##했	O	O	O, B-CV, B-LC, B-PS, I-QT
-60	##다	O	O	O, B-CV, B-LC, B-TM, B-PS
-61	.	O	O	O, B-LC, B-PS, B-CV, B-AF
-62	[SEP]	O	O	O, B-LC, B-CV, B-PS, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	또한	O	O
+2	초대	O	O
+3	##형	O	O
+4	##유	B-AF	O
+5	##조선	I-AF	O
+6	##을	O	O
+7	비롯	O	O
+8	##해	O	O
+9	드릴	B-AF	B-AF
+10	##십	I-AF	I-AF
+11	(	O	O
+12	수심	O	O
+13	##이	O	O
+14	깊	O	O
+15	##거나	O	O
+16	파도	O	O
+17	##가	O	O
+18	심해	O	O
+19	고정	O	O
+20	##된	O	O
+21	구조물	O	O
+22	##을	O	O
+23	설치	O	O
+24	##할	O	O
+25	수	O	O
+26	없	O	O
+27	##는	O	O
+28	해상	O	O
+29	##에	O	O
+30	##서	O	O
+31	원유	B-MT	B-MT
+32	##와	O	O
+33	가스	B-MT	O
+34	시추	O	O
+35	##작	O	O
+36	##업	O	O
+37	##을	O	O
+38	수행	O	O
+39	##할	O	O
+40	수	O	O
+41	있	O	O
+42	##는	O	O
+43	선박	B-AF	B-AF
+44	형태	O	O
+45	##의	O	O
+46	시추	O	O
+47	##설	O	O
+48	##비	O	O
+49	)	O	O
+50	등	O	O
+51	규모	O	O
+52	##가	O	O
+53	큰	O	O
+54	고부	O	O
+55	##가	O	O
+56	##가치	O	O
+57	선박	B-AF	B-AF
+58	건조	O	O
+59	##도	O	O
+60	가능	O	O
+61	##해졌	O	O
+62	##다	O	O
+63	.	O	O
+64	[SEP]	O	O

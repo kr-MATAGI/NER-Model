@@ -1,36 +1,31 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	지난해	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-QT
-2	준우승	O	O	O, B-CV, B-OG, I-DT, B-LC
-3	##팀	O	O	O, I-CV, B-CV, I-OG, I-LC
-4	서울	B-OG	B-OG	B-OG, B-LC, O, I-OG, B-AF
-5	##경	I-OG	I-OG	I-OG, O, I-LC, B-OG, I-AF
-6	##희	I-OG	I-OG	I-OG, O, I-LC, I-CV, I-AF
-7	##고	I-OG	I-OG	I-OG, O, I-LC, I-CV, I-AF
-8	##도	O	O	O, I-OG, I-AF, I-EV, I-QT
-9	광양제철	B-OG	B-OG	B-OG, B-LC, O, I-OG, B-AF
-10	##고	I-OG	I-OG	I-OG, O, I-LC, I-AF, I-QT
-11	##와	O	O	O, I-OG, I-AF, I-QT, I-EV
-12	전후	B-TI	B-TI	B-TI, O, B-QT, B-TM, B-EV
-13	##반	I-TI	I-TI	I-TI, O, I-QT, I-TR, B-TI
-14	2	B-QT	B-QT	B-QT, I-QT, I-TI, B-TI, B-EV
-15	##대	I-QT	I-QT	I-QT, I-TI, I-EV, B-QT, O
-16	##2	I-QT	I-QT	I-QT, B-QT, O, I-LC, I-EV
-17	무승부	B-QT	O	O, I-QT, B-TM, B-CV, B-EV
-18	이후	O	O	O, B-TM, B-LC, B-DT, I-EV
-19	승부차기	B-TM	B-TM	B-TM, O, B-TR, B-CV, I-TM
-20	(	O	O	O, I-TM, I-CV, I-EV, I-QT
-21	4	B-QT	B-QT	B-QT, O, I-QT, B-EV, B-TM
-22	##대	I-QT	I-QT	I-QT, O, B-QT, I-EV, I-TM
-23	##2	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-OG
-24	)	O	O	O, I-QT, I-EV, I-OG, B-CV
-25	승리	O	O	O, B-CV, B-TM, B-OG, B-LC
-26	##로	O	O	O, B-CV, B-LC, B-PS, B-OG
-27	가까스로	O	O	O, B-QT, B-LC, B-EV, B-OG
-28	16	B-EV	B-EV	B-EV, O, B-LC, B-OG, B-AF
-29	##강	I-EV	I-EV	I-EV, O, I-QT, I-LC, B-EV
-30	##에	O	O	O, I-EV, I-AF, I-OG, I-QT
-31	올랐	O	O	O, B-CV, B-OG, I-EV, B-LC
-32	##다	O	O	O, B-CV, B-LC, B-TM, I-EV
-33	.	O	O	O, B-LC, B-OG, B-CV, B-TM
-34	[SEP]	O	O	O, B-CV, B-LC, B-OG, I-EV
+	text	label	preds
+0	[CLS]	O	O
+1	샤	B-PS	B-PS
+2	##라	I-PS	I-PS
+3	##포	I-PS	I-PS
+4	##바	I-PS	I-PS
+5	##의	O	O
+6	3	B-QT	B-EV
+7	##회전	I-QT	I-EV
+8	상대	O	O
+9	##는	O	O
+10	러시아	B-LC	B-LC
+11	모스크바	B-LC	B-LC
+12	태생	O	O
+13	##의	O	O
+14	19	B-QT	B-QT
+15	##살	I-QT	I-QT
+16	신예	O	O
+17	소피아	B-PS	B-PS
+18	케	I-PS	I-PS
+19	##닌	I-PS	I-PS
+20	(	O	O
+21	139	B-QT	B-QT
+22	##위	I-QT	I-QT
+23	·	O	O
+24	미국	B-LC	B-LC
+25	)	O	O
+26	이	O	O
+27	##다	O	O
+28	.	O	O
+29	[SEP]	O	O

@@ -1,47 +1,17 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-EV, I-CV
-1	국민	B-OG	B-OG	B-OG, O, B-PS, B-LC, B-AF
-2	##의	I-OG	I-OG	I-OG, O, I-EV, I-LC, I-AF
-3	##당	I-OG	I-OG	I-OG, O, I-LC, I-EV, I-PS
-4	안철수	B-PS	B-PS	B-PS, O, I-PS, I-OG, B-OG
-5	전	O	O	O, I-PS, I-OG, B-CV, I-EV
-6	대표	B-CV	B-CV	B-CV, O, B-TM, I-CV, B-AF
-7	##의	O	O	O, I-CV, I-EV, B-CV, I-QT
-8	지지율	O	O	O, B-CV, B-TM, B-LC, B-OG
-9	하락	O	O	O, B-PS, B-CV, B-LC, B-TM
-10	##과	O	O	O, B-PS, B-LC, B-OG, B-CV
-11	반기문	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-12	전	O	O	O, I-PS, I-OG, I-EV, B-CV
-13	유엔	B-OG	B-OG	B-OG, B-LC, O, B-AF, B-EV
-14	사무총장	B-CV	B-CV	B-CV, I-CV, O, I-OG, I-EV
-15	##의	O	O	O, I-CV, I-EV, I-OG, B-CV
-16	귀국	O	O	O, B-CV, B-LC, B-OG, B-PS
-17	임박	O	O	O, B-PS, B-LC, B-OG, B-CV
-18	##에	O	O	O, B-PS, B-LC, B-OG, B-CV
-19	맞춰	O	O	O, B-LC, B-PS, B-OG, B-QT
-20	‘	O	O	O, B-LC, B-OG, B-PS, B-CV
-21	제	B-QT	B-QT	B-QT, O, B-LC, B-CV, I-QT
-22	##3	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-OG
-23	##지대	O	I-QT	I-QT, O, I-LC, B-QT, I-OG
-24	##론	O	O	O, I-QT, I-LC, I-TR, I-CV
-25	’	O	O	O, I-QT, B-PS, B-CV, B-LC
-26	이	O	O	O, B-PS, B-OG, B-LC, B-CV
-27	힘	O	O	O, B-LC, B-PS, B-CV, B-OG
-28	##을	O	O	O, B-CV, B-PS, I-OG, B-LC
-29	얻	O	O	O, B-PS, B-LC, B-CV, B-QT
-30	##는	O	O	O, B-PS, B-CV, B-LC, B-OG
-31	것	O	O	O, B-LC, B-CV, B-PS, B-OG
-32	##을	O	O	O, B-PS, B-CV, B-LC, B-OG
-33	사전	O	O	O, B-LC, B-PS, B-TM, B-CV
-34	##에	O	O	O, B-PS, B-LC, B-OG, B-CV
-35	차단	O	O	O, B-LC, B-PS, B-TM, B-CV
-36	##하	O	O	O, B-PS, B-LC, B-CV, B-OG
-37	##겠다	O	O	O, B-CV, B-PS, B-LC, B-OG
-38	##는	O	O	O, B-PS, B-CV, B-LC, B-OG
-39	의도	O	O	O, B-CV, B-PS, B-LC, B-OG
-40	##로	O	O	O, B-PS, I-OG, B-CV, I-QT
-41	풀이	O	O	O, B-PS, B-CV, B-OG, B-LC
-42	##된	O	O	O, I-OG, I-PS, I-EV, I-TR
-43	##다	O	O	O, B-CV, B-LC, I-OG, B-OG
-44	.	O	O	O, B-LC, B-PS, B-OG, B-CV
-45	[SEP]	O	O	O, B-LC, B-PS, B-CV, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	지금	O	O
+2	정국	O	O
+3	##을	O	O
+4	어떻게	O	O
+5	바라보	O	O
+6	##던	O	O
+7	꼭	O	O
+8	한	O	B-QT
+9	##번	O	I-QT
+10	경험	O	O
+11	##해	O	O
+12	봐야	O	O
+13	되	O	O
+14	##고	O	O
+15	[SEP]	O	O

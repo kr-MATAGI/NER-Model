@@ -1,58 +1,8 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	10	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-PS
-2	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-3	전	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-4	##만	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-5	해도	O	O	O, I-DT, B-LC, B-CV, B-OG
-6	크리스마스	B-DT	B-DT	B-DT, O, B-CV, B-EV, B-AF
-7	##철	O	O	O, I-DT, I-EV, I-CV, B-DT
-8	##이	O	O	O, B-PS, I-DT, B-LC, B-OG
-9	되	O	O	O, B-PS, B-LC, B-OG, B-CV
-10	##면	O	O	O, B-PS, B-LC, B-OG, I-OG
-11	국내	O	O	O, B-LC, B-CV, B-OG, B-PS
-12	가수	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-FD
-13	##들이	O	O	O, I-CV, B-PS, B-CV, I-OG
-14	너도나도	O	O	O, B-LC, B-CV, B-PS, B-QT
-15	캐럴	O	O	O, B-FD, B-CV, B-AF, B-EV
-16	##을	O	O	O, I-AF, I-CV, B-PS, B-CV
-17	따로	O	O	O, B-LC, B-QT, B-CV, B-OG
-18	녹음	O	O	O, B-LC, B-CV, B-PS, B-OG
-19	,	O	O	O, B-LC, B-PS, B-CV, B-OG
-20	발표	O	O	O, B-CV, B-LC, B-PS, B-OG
-21	##해	O	O	O, B-LC, B-PS, B-OG, B-CV
-22	인기	O	O	O, B-CV, B-LC, B-TM, B-OG
-23	##를	O	O	O, B-CV, B-LC, B-OG, I-OG
-24	끌	O	O	O, B-LC, B-CV, B-OG, B-PS
-25	##었	O	O	O, B-CV, B-LC, B-OG, B-PS
-26	##지만	O	O	O, B-CV, B-LC, B-PS, B-OG
-27	올해	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-28	음원	O	O	O, I-DT, B-CV, I-QT, B-FD
-29	차트	O	O	O, B-CV, B-TM, B-LC, B-QT
-30	100	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-PS
-31	##위	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-32	##권	I-QT	O	O, I-QT, I-LC, I-CV, I-PS
-33	순위	O	O	O, B-CV, B-TM, I-QT, B-LC
-34	##에	O	O	O, B-CV, B-LC, B-PS, B-QT
-35	진입	O	O	O, B-CV, B-QT, B-LC, B-TM
-36	##한	O	O	O, B-LC, B-PS, B-CV, B-QT
-37	캐럴	O	O	O, B-FD, B-CV, B-AF, B-PS
-38	##은	O	O	O, I-AF, I-CV, B-CV, B-PS
-39	이선	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-40	##균	I-PS	I-PS	I-PS, O, I-OG, B-PS, I-LC
-41	·	O	O	O, I-PS, I-OG, I-AF, I-LC
-42	유진	B-PS	B-PS	B-PS, O, I-PS, B-OG, B-LC
-43	##이	O	O	O, I-PS, B-CV, I-OG, B-PS
-44	함께	O	O	O, B-CV, B-LC, B-QT, B-PS
-45	부른	O	O	O, B-PS, B-LC, B-CV, B-AF
-46	'	O	O	O, B-CV, B-LC, B-QT, B-OG
-47	로맨틱	B-AF	B-AF	B-AF, B-PS, B-LC, B-EV, I-AF
-48	크리스마스	I-AF	I-AF	I-AF, I-PS, B-AF, I-LC, I-OG
-49	'	O	O	O, I-AF, I-EV, I-OG, I-PS
-50	단	O	O	O, B-QT, B-LC, B-CV, I-AF
-51	한	B-QT	B-QT	B-QT, O, I-QT, B-PS, B-LC
-52	곡	I-QT	I-QT	I-QT, O, I-LC, I-PS, I-AF
-53	##뿐	O	O	O, I-QT, B-PS, I-LC, I-PS
-54	##이다	O	O	O, B-CV, I-QT, B-TM, B-OG
-55	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-56	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	원	B-QT	O
+2	,	I-QT	O
+3	투	I-QT	B-QT
+4	…	O	O
+5	""""	O	O
+6	[SEP]	O	O

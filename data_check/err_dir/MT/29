@@ -1,21 +1,35 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	북한	B-LC	B-LC	B-LC, B-OG, O, B-AF, B-PS
-2	##에	O	O	O, I-OG, I-AF, I-LC, B-AF
-3	핵	B-MT	B-AF	B-AF, B-MT, O, I-AF, B-PS
-4	시설	O	O	O, I-AF, I-LC, I-OG, I-CV
-5	##에	O	O	O, I-AF, I-OG, B-CV, B-LC
-6	갱	O	O	O, B-LC, B-AF, B-CV, B-TM
-7	##도	O	O	O, I-AF, I-LC, I-CV, B-LC
-8	자체	O	O	O, B-CV, I-AF, B-LC, B-OG
-9	##가	O	O	O, B-OG, B-LC, B-PS, B-CV
-10	일단	O	O	O, B-CV, B-TM, B-LC, B-OG
-11	구	B-QT	O	O, B-TM, B-QT, B-AF, B-LC
-12	##중	I-QT	O	O, I-TM, I-QT, I-LC, I-AF
-13	차단	O	O	O, I-TM, B-TM, I-QT, B-QT
-14	##문	O	O	O, I-TM, I-QT, I-LC, I-AF
-15	##으로	O	O	O, B-CV, I-TM, I-QT, I-AF
-16	이루어져	O	O	O, B-CV, B-LC, B-TM, B-OG
-17	있	O	O	O, B-CV, B-LC, B-OG, I-AF
-18	##고	O	O	O, B-CV, B-OG, I-AF, B-LC
-19	[SEP]	O	O	O, B-CV, B-LC, B-AF, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	이번	O	O
+2	출장	O	O
+3	##도	O	O
+4	볼리비아	B-LC	B-LC
+5	##에	O	O
+6	##서	O	O
+7	리튬	B-MT	B-MT
+8	##광	I-MT	O
+9	개발	O	O
+10	공동	O	O
+11	##추	O	O
+12	##진	O	O
+13	##을	O	O
+14	위한	O	O
+15	양해각서	B-AF	B-AF
+16	(	O	O
+17	MOU	O	O
+18	)	O	O
+19	를	O	O
+20	체결	O	O
+21	##하	O	O
+22	##고	O	O
+23	2	B-DT	B-DT
+24	##일	I-DT	I-DT
+25	귀국	O	O
+26	##한	O	O
+27	지	O	O
+28	일주일	O	O
+29	##여	O	O
+30	만이	O	O
+31	##다	O	O
+32	.	O	O
+33	[SEP]	O	O

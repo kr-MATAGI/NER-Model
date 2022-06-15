@@ -1,8 +1,47 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	인권	O	B-CV	B-CV, O, I-CV, B-FD, B-TR
-2	##수	O	O	O, I-CV, I-OG, I-AF, B-CV
-3	##준	O	O	O, I-CV, I-OG, I-AF, B-PS
-4	##하고	O	O	O, I-AF, I-OG, B-CV, B-PS
-5	.	O	O	O, B-CV, B-LC, B-OG, B-PS
-6	[SEP]	O	O	O, B-CV, B-LC, I-AF, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	국제	O	O
+2	##신	O	O
+3	##용	O	O
+4	##평가	O	O
+5	##회사	O	O
+6	##인	O	O
+7	피치	B-OG	B-OG
+8	##가	O	O
+9	24	B-DT	B-DT
+10	##일	I-DT	I-DT
+11	신한	B-OG	B-OG
+12	##금융	I-OG	I-OG
+13	##지	I-OG	I-OG
+14	##주	I-OG	I-OG
+15	계열사	O	O
+16	##인	O	O
+17	신한은행	B-OG	B-OG
+18	##과	O	O
+19	신한	B-OG	B-OG
+20	##카드	I-OG	I-OG
+21	,	O	O
+22	제주	B-OG	B-OG
+23	##은행	I-OG	I-OG
+24	##의	O	O
+25	신용	O	O
+26	##등	O	O
+27	##급	O	O
+28	전망	O	O
+29	##을	O	O
+30	‘	O	O
+31	안정	O	O
+32	##적	O	O
+33	’	O	O
+34	에서	O	O
+35	‘	O	O
+36	부정	O	O
+37	##적	O	O
+38	’	O	O
+39	으로	O	O
+40	한	O	B-QT
+41	단계	O	I-QT
+42	낮췄	O	O
+43	##다	O	O
+44	.	O	O
+45	[SEP]	O	O

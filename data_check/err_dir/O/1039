@@ -1,6 +1,34 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, I-AF, I-QT
-1	중	O	B-QT	B-QT, O, B-PS, B-OG, B-CV
-2	이지	O	O	O, I-QT, B-QT, B-PS, I-OG
-3	?	O	O	O, I-QT, I-OG, B-PS, I-CV
-4	[SEP]	O	O	O, B-CV, B-LC, I-QT, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	…	O	O
+2	남의	O	O
+3	작품	O	O
+4	##을	O	O
+5	모방	O	O
+6	##하	O	O
+7	##야	O	O
+8	자기	O	O
+9	##의	O	O
+10	작품	O	O
+11	##을	O	O
+12	만드	O	O
+13	##랴	O	O
+14	##는	O	O
+15	작자	O	B-CV
+16	##의	O	O
+17	희극	O	O
+18	##다운	O	O
+19	비극	O	O
+20	##을	O	O
+21	설	O	O
+22	##어	O	O
+23	##하	O	O
+24	##지	O	O
+25	안	O	O
+26	##을	O	O
+27	수가	O	O
+28	업	O	O
+29	##슴	O	O
+30	##니다	O	O
+31	’	O	O
+32	[SEP]	O	O

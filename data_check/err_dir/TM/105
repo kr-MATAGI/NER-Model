@@ -1,48 +1,13 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	정연	B-PS	B-PS	B-PS, B-OG, O, I-PS, B-LC
-2	##홍	I-PS	I-PS	I-PS, I-OG, O, I-LC, I-QT
-3	[UNK]	O	O	O, I-PS, I-OG, B-OG, B-LC
-4	사장	B-CV	B-CV	B-CV, O, B-TM, B-AF, B-OG
-5	##은	O	O	O, I-CV, I-QT, I-OG, B-CV
-6	""""	O	O	O, B-CV, B-LC, B-TM, B-OG
-7	당시	O	O	O, B-CV, B-TM, B-OG, B-LC
-8	MP	B-TM	B-TM	B-TM, B-AF, B-OG, O, B-CV
-9	##3	I-TM	I-TM	I-TM, I-AF, I-OG, O, I-CV
-10	##플레이	I-TM	I-TM	I-TM, B-TM, O, B-CV, I-AF
-11	##어	I-TM	I-TM	I-TM, I-AF, O, I-CV, I-OG
-12	##에	O	O	O, I-TM, I-AF, I-CV, I-OG
-13	들어가	O	O	O, B-TM, B-CV, B-LC, B-AF
-14	##는	O	O	O, B-TM, B-CV, B-LC, B-AF
-15	오디오	B-TM	O	O, B-TM, B-CV, B-TR, I-TM
-16	##칩	I-TM	O	O, I-TM, B-TM, I-CV, I-TR
-17	기술	O	O	O, I-TM, B-CV, B-TM, I-CV
-18	##을	O	O	O, B-CV, B-OG, I-TM, B-LC
-19	개발	O	O	O, B-CV, B-TM, B-LC, B-OG
-20	##했	O	O	O, B-LC, B-OG, B-PS, B-CV
-21	##는데	O	O	O, B-LC, B-TM, B-CV, B-OG
-22	,	O	O	O, B-LC, B-CV, B-OG, B-TM
-23	전력	O	O	O, B-TM, B-LC, B-CV, B-AF
-24	##소	O	O	O, B-LC, B-TM, I-TM, B-CV
-25	##모	O	O	O, B-LC, B-TM, I-TM, B-PS
-26	##도	O	O	O, B-LC, B-PS, B-TM, B-OG
-27	적	O	O	O, B-LC, B-PS, B-CV, B-TM
-28	##고	O	O	O, B-PS, B-LC, B-TM, B-CV
-29	설계	O	O	O, B-TM, B-LC, B-AF, B-CV
-30	##구조	O	O	O, B-TM, B-LC, I-TM, I-AF
-31	##가	O	O	O, B-PS, B-LC, B-OG, B-TM
-32	특이	O	O	O, B-TM, B-CV, B-LC, B-OG
-33	##해	O	O	O, B-LC, B-OG, B-PS, B-TM
-34	산	B-OG	B-OG	B-OG, O, B-AF, B-PS, B-LC
-35	##요	I-OG	I-OG	I-OG, O, I-AF, I-LC, I-PS
-36	##가	O	O	O, I-OG, I-AF, I-PS, I-QT
-37	채택	O	O	O, B-CV, B-AF, B-TM, B-OG
-38	##했	O	O	O, B-CV, B-OG, B-PS, B-LC
-39	##다	O	O	O, B-CV, B-OG, I-OG, I-AF
-40	""""	O	O	O, B-CV, B-TM, B-LC, I-OG
-41	고	O	O	O, B-CV, B-TM, B-LC, B-QT
-42	설명	O	O	O, B-CV, B-TM, B-LC, I-OG
-43	##했	O	O	O, B-CV, B-LC, I-OG, B-OG
-44	##다	O	O	O, B-CV, B-TM, B-LC, I-OG
-45	.	O	O	O, B-LC, B-CV, B-PS, B-TM
-46	[SEP]	O	O	O, B-LC, B-CV, B-TM, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	근데	O	O
+2	그	O	O
+3	흔히	O	O
+4	말	O	O
+5	##하	O	O
+6	##는	O	O
+7	케이블	O	B-TM
+8	티비	B-TM	I-TM
+9	##에	O	O
+10	##서	O	O
+11	[SEP]	O	O

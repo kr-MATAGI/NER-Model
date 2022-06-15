@@ -1,61 +1,23 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-EV, I-OG, I-CV
-1	정상회의	B-EV	O	O, B-EV, B-LC, I-EV, B-CV
-2	뒤	O	O	O, I-EV, B-EV, B-LC, B-TM
-3	단체	O	O	O, I-EV, B-CV, B-EV, B-TM
-4	##사진	O	O	O, I-EV, I-CV, I-TM, B-CV
-5	##을	O	O	O, B-CV, B-PS, I-EV, B-LC
-6	찍	O	O	O, B-CV, B-LC, B-PS, B-TM
-7	##을	O	O	O, B-CV, B-PS, B-LC, B-OG
-8	때	O	O	O, B-CV, B-PS, B-LC, B-OG
-9	##는	O	O	O, B-CV, B-LC, B-OG, B-PS
-10	앞서	O	O	O, B-LC, B-TM, B-CV, B-AF
-11	걸어가	O	O	O, B-AF, B-LC, B-CV, B-OG
-12	##던	O	O	O, B-PS, B-CV, B-AF, B-LC
-13	두	B-PS	B-PS	B-PS, O, B-LC, I-PS, B-OG
-14	##스코	I-PS	I-PS	I-PS, O, I-LC, B-PS, I-QT
-15	마르코	I-PS	I-PS	I-PS, O, B-PS, I-LC, B-LC
-16	##비치	I-PS	I-PS	I-PS, O, I-LC, B-LC, B-PS
-17	몬테	I-PS	B-LC	B-LC, I-PS, I-LC, O, B-PS
-18	##네	I-PS	I-LC	I-LC, I-PS, B-LC, O, I-OG
-19	##그	I-PS	I-LC	I-LC, I-PS, B-LC, O, I-OG
-20	##로	I-PS	I-LC	I-LC, I-PS, O, B-LC, I-OG
-21	총리	B-CV	B-CV	B-CV, O, I-LC, I-CV, B-AF
-22	##를	O	O	O, I-CV, B-CV, I-LC, I-AF
-23	[UNK]	O	O	O, B-CV, B-LC, B-TM, B-PS
-24	표정	O	O	O, B-CV, B-TM, B-PS, B-LC
-25	##을	O	O	O, B-CV, B-PS, B-OG, B-TM
-26	지으며	O	O	O, B-LC, B-PS, B-TM, B-CV
-27	확	O	O	O, B-LC, B-PS, B-TM, B-QT
-28	밀치	O	O	O, B-CV, B-LC, B-TM, B-PS
-29	##고	O	O	O, B-PS, B-LC, B-CV, B-TM
-30	##는	O	O	O, B-LC, B-CV, B-PS, B-TM
-31	아무	O	O	O, B-LC, B-CV, B-PS, B-TM
-32	일	O	O	O, B-CV, B-LC, B-EV, B-PS
-33	##도	O	O	O, B-PS, B-CV, B-LC, I-EV
-34	없	O	O	O, B-CV, B-PS, B-LC, I-EV
-35	##던	O	O	O, B-CV, B-PS, B-LC, I-EV
-36	것	O	O	O, B-CV, B-PS, B-LC, B-AM
-37	##처럼	O	O	O, B-CV, B-PS, B-LC, B-TM
-38	옷	O	O	O, B-CV, I-CV, B-AM, B-PS
-39	##매	O	O	O, B-CV, I-CV, B-AM, B-PS
-40	##무새	O	O	O, I-CV, B-CV, B-AM, B-PS
-41	##를	O	O	O, B-CV, I-CV, B-TM, B-PS
-42	만지	O	O	O, B-CV, B-PS, B-TM, B-LC
-43	##는	O	O	O, B-CV, B-PS, B-LC, B-TM
-44	모습	O	O	O, B-CV, B-LC, B-TM, B-PS
-45	##이	O	O	O, B-PS, B-LC, B-CV, B-OG
-46	소셜	O	O	O, B-TM, B-CV, B-LC, B-FD
-47	##미디어	O	O	O, I-TM, I-CV, I-LC, I-TR
-48	##를	O	O	O, B-CV, B-LC, B-TM, B-PS
-49	통해	O	O	O, B-LC, B-TM, B-CV, B-OG
-50	퍼지	O	O	O, B-LC, B-CV, B-TM, B-PS
-51	##면서	O	O	O, B-LC, B-CV, B-TM, B-PS
-52	거센	O	O	O, B-LC, B-CV, B-TM, B-PS
-53	비판	O	O	O, B-CV, B-TM, B-LC, B-EV
-54	##을	O	O	O, B-CV, B-OG, I-EV, B-LC
-55	받	O	O	O, B-CV, B-LC, B-TM, B-OG
-56	##았	O	O	O, B-CV, I-EV, B-LC, B-OG
-57	##다	O	O	O, B-CV, I-EV, B-LC, B-TM
-58	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-59	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	클래식	B-FD	B-FD
+2	초보	B-CV	B-CV
+3	##자	I-CV	I-CV
+4	##는	O	O
+5	'	O	O
+6	라	B-PS	B-OG
+7	##흐	I-PS	I-OG
+8	##마니	I-PS	I-PS
+9	##노프	I-PS	I-OG
+10	'	O	O
+11	마니아	B-CV	B-CV
+12	(	O	O
+13	man	O	O
+14	##ia	O	O
+15	)	O	O
+16	는	O	O
+17	'	O	O
+18	조르	O	B-OG
+19	##바	O	I-OG
+20	'	O	O
+21	[SEP]	O	O

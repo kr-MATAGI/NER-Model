@@ -1,51 +1,69 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	그러나	O	O	O, B-CV, B-OG, B-LC, B-TM
-2	대	O	O	O, B-LC, B-CV, B-OG, B-TM
-3	##규모	O	O	O, B-CV, B-LC, B-OG, B-PS
-4	단지	O	O	O, B-PS, B-CV, B-OG, B-LC
-5	공동	O	O	O, B-CV, B-LC, B-PS, B-TM
-6	##관리	O	O	O, B-CV, B-LC, I-OG, I-CV
-7	과정	O	O	O, B-LC, B-CV, B-OG, B-PS
-8	##에서	O	O	O, B-LC, B-OG, B-CV, B-PS
-9	잡음	O	O	O, B-CV, B-TM, B-PS, B-OG
-10	##이	O	O	O, B-PS, B-OG, B-CV, B-LC
-11	생기	O	O	O, B-CV, B-OG, B-PS, B-LC
-12	##자	O	O	O, B-LC, B-OG, B-PS, B-CV
-13	주민	B-CV	B-CV	B-CV, O, B-OG, B-EV, B-PS
-14	##들이	O	O	O, I-CV, I-OG, B-CV, I-EV
-15	감사	O	O	O, B-CV, B-OG, B-PS, B-TM
-16	##를	O	O	O, I-CV, B-PS, I-OG, B-CV
-17	요구	O	O	O, B-CV, B-OG, B-LC, B-PS
-18	##해	O	O	O, B-OG, B-LC, B-PS, B-CV
-19	성남시	B-OG	B-OG	B-OG, B-LC, O, I-OG, B-PS
-20	##는	O	O	O, I-OG, B-OG, I-EV, I-DT
-21	2015	B-DT	B-DT	B-DT, I-DT, O, B-QT, B-LC
-22	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-OG
-23	1	I-DT	I-DT	I-DT, O, B-DT, I-OG, I-QT
-24	##∼	I-DT	I-DT	I-DT, O, B-DT, I-OG, I-QT
-25	##2	I-DT	I-DT	I-DT, O, B-DT, I-OG, I-QT
-26	##월	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-OG
-27	입주자	B-CV	B-CV	B-CV, O, B-EV, B-OG, I-DT
-28	##대표	O	O	O, I-CV, I-EV, B-CV, I-OG
-29	##회의	O	O	O, I-EV, I-OG, I-CV, I-QT
-30	,	O	O	O, I-EV, I-OG, B-LC, I-CV
-31	관리	O	O	O, B-CV, I-CV, B-OG, B-TM
-32	##주	O	O	O, I-CV, B-CV, I-OG, I-QT
-33	##체	O	O	O, I-CV, I-OG, B-CV, I-QT
-34	(	O	O	O, I-CV, B-CV, I-OG, B-LC
-35	관리사	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-OG
-36	##무소	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-QT
-37	##장	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-QT
-38	)	O	O	O, I-CV, I-OG, B-CV, I-QT
-39	,	O	O	O, B-LC, B-OG, B-CV, B-PS
-40	선거관리위원회	O	B-OG	B-OG, O, B-CV, B-AF, B-EV
-41	업무	O	O	O, I-OG, B-CV, I-CV, I-EV
-42	##에	O	O	O, I-CV, B-CV, B-LC, I-OG
-43	대한	O	O	O, B-LC, B-OG, B-CV, B-PS
-44	감사	O	O	O, B-CV, B-OG, B-FD, B-LC
-45	##를	O	O	O, I-CV, I-OG, B-CV, I-EV
-46	벌였	O	O	O, B-CV, B-OG, B-LC, B-TM
-47	##다	O	O	O, B-CV, B-OG, B-LC, I-OG
-48	.	O	O	O, B-LC, B-OG, B-CV, B-PS
-49	[SEP]	O	O	O, B-LC, B-CV, B-OG, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	천막	O	O
+2	철거	O	O
+3	##에	O	O
+4	반발	O	O
+5	##한	O	O
+6	민노총	B-OG	B-OG
+7	공	B-OG	B-OG
+8	##투	I-OG	I-OG
+9	##위	I-OG	I-OG
+10	##는	O	O
+11	이날	B-DT	B-DT
+12	오후	B-TI	B-TI
+13	서울	B-LC	B-LC
+14	종로	B-OG	B-AF
+15	##경찰	I-OG	I-AF
+16	##서	I-OG	I-AF
+17	앞	B-TM	B-TM
+18	##에	O	O
+19	##서	O	O
+20	기자	O	O
+21	##회	O	O
+22	##견	O	O
+23	##을	O	O
+24	열	O	O
+25	##고	O	O
+26	""""	O	O
+27	생존	B-CV	B-CV
+28	##권	I-CV	I-CV
+29	문제	O	O
+30	##를	O	O
+31	해결	O	O
+32	##해	O	O
+33	달라	O	O
+34	##는	O	O
+35	노동자	B-CV	B-CV
+36	##에	O	O
+37	##게	O	O
+38	문재인	B-PS	B-PS
+39	정권	O	O
+40	##은	O	O
+41	강제	O	O
+42	철거	O	O
+43	·	O	O
+44	불법	O	O
+45	연행	O	O
+46	##을	O	O
+47	통해	O	O
+48	생존	B-CV	B-CV
+49	##권	I-CV	I-CV
+50	##을	O	O
+51	말살	O	O
+52	##하	O	O
+53	##고	O	O
+54	정면	O	O
+55	##으로	O	O
+56	총	O	B-AF
+57	##부리	O	O
+58	##를	O	O
+59	겨	O	O
+60	##눴	O	O
+61	##다	O	O
+62	""""	O	O
+63	고	O	O
+64	했	O	O
+65	##다	O	O
+66	.	O	O
+67	[SEP]	O	O

@@ -1,28 +1,28 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	롯데케미칼	B-OG	B-OG	B-OG, O, B-LC, I-OG, B-PS
-2	##은	O	O	O, I-OG, B-CV, I-AF, B-OG
-3	LG	B-OG	B-OG	B-OG, O, I-OG, B-LC, B-PS
-4	##화학	I-OG	I-OG	I-OG, O, B-OG, I-LC, I-PS
-5	##과	O	O	O, I-OG, I-AF, B-CV, I-EV
-6	다른	O	O	O, B-TM, B-LC, B-CV, B-OG
-7	중공	B-TR	B-TR	B-TR, O, B-TM, B-MT, B-OG
-8	##사	I-TR	I-TR	I-TR, O, I-TM, I-MT, I-AM
-9	(	I-TR	O	O, I-TM, I-TR, I-OG, I-EV
-10	H	I-TR	O	O, B-TM, B-LC, B-AF, B-OG
-11	##ollow	I-TR	O	O, B-TM, I-TM, B-PS, B-LC
-12	F	I-TR	O	O, I-TM, B-TM, B-PS, B-LC
-13	##ib	I-TR	O	O, I-TM, B-TM, B-PS, B-LC
-14	##er	I-TR	O	O, I-TM, B-TM, B-LC, I-AF
-15	)	I-TR	O	O, I-TM, B-LC, B-TM, B-CV
-16	방식	I-TR	O	O, B-TM, B-CV, B-TR, I-TM
-17	##을	O	O	O, B-CV, B-OG, B-LC, B-PS
-18	선택	O	O	O, B-CV, B-LC, B-TM, B-OG
-19	##해	O	O	O, B-LC, B-CV, B-OG, B-PS
-20	내년	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-OG
-21	##부터	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-22	양산	O	O	O, I-DT, B-TM, B-CV, I-OG
-23	예정	O	O	O, B-CV, B-TM, B-OG, I-OG
-24	##이다	O	O	O, B-CV, B-TM, B-OG, I-OG
-25	.	O	O	O, B-LC, B-OG, B-TM, B-CV
-26	[SEP]	O	O	O, B-LC, B-TM, B-CV, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	롯데케미칼	B-OG	B-OG
+2	##은	O	O
+3	LG	B-OG	B-OG
+4	##화학	I-OG	I-OG
+5	##과	O	O
+6	다른	O	O
+7	중공	B-TR	O
+8	##사	I-TR	O
+9	(	I-TR	O
+10	H	I-TR	O
+11	##ollow	I-TR	O
+12	F	I-TR	O
+13	##ib	I-TR	O
+14	##er	I-TR	O
+15	)	I-TR	O
+16	방식	I-TR	O
+17	##을	O	O
+18	선택	O	O
+19	##해	O	O
+20	내년	B-DT	B-DT
+21	##부터	I-DT	I-DT
+22	양산	O	O
+23	예정	O	O
+24	##이다	O	O
+25	.	O	O
+26	[SEP]	O	O

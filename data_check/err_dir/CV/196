@@ -1,22 +1,12 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	제	O	O	O, B-CV, B-OG, B-PS, B-LC
-2	##가	O	O	O, B-PS, B-CV, B-OG, B-LC
-3	당시	O	O	O, B-CV, B-PS, B-OG, B-TM
-4	##에	O	O	O, B-CV, B-OG, B-PS, B-LC
-5	그	O	O	O, B-CV, B-OG, B-PS, B-LC
-6	임시	B-CV	O	O, B-CV, B-QT, B-OG, B-DT
-7	계약직	I-CV	B-CV	B-CV, O, I-CV, I-QT, I-OG
-8	##직원	I-CV	B-CV	B-CV, I-CV, O, I-QT, I-OG
-9	##으로	O	O	O, I-CV, B-CV, I-QT, B-PS
-10	한	B-DT	B-DT	B-DT, O, B-QT, I-DT, B-TI
-11	칠	I-DT	I-DT	I-DT, B-DT, I-QT, O, I-PS
-12	##팔	I-DT	I-DT	I-DT, B-DT, I-QT, O, I-PS
-13	개월	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-14	근무	O	O	O, I-DT, B-CV, I-QT, I-EV
-15	##했	O	O	O, B-CV, B-PS, B-OG, I-DT
-16	##거	O	O	O, B-CV, B-PS, B-OG, B-LC
-17	##든	O	O	O, B-CV, B-PS, B-OG, B-LC
-18	##요	O	O	O, B-CV, B-LC, B-PS, I-AF
-19	.	O	O	O, B-CV, B-LC, B-OG, B-PS
-20	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	어머니	B-CV	B-CV
+2	추	B-PS	B-PS
+3	##순	I-PS	I-PS
+4	##영	I-PS	I-PS
+5	서울시	B-LC	B-LC
+6	골	B-CV	B-CV
+7	##볼	I-CV	I-CV
+8	코치	B-CV	I-CV
+9	##의	O	O
+10	[SEP]	O	O

@@ -1,23 +1,30 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-EV, I-CV
-1	개통	O	O	O, B-CV, B-AF, B-TM, B-LC
-2	후	O	O	O, B-PS, B-LC, I-AF, B-OG
-3	규정	O	O	O, B-CV, B-TM, B-LC, B-AF
-4	##속	O	O	O, B-CV, B-LC, B-TM, B-AF
-5	##도	O	O	O, B-LC, B-CV, B-OG, B-TM
-6	등	O	O	O, B-LC, B-TM, B-OG, B-CV
-7	각종	O	O	O, B-TM, B-LC, B-CV, B-QT
-8	정보	O	O	O, B-LC, B-TM, B-CV, B-PS
-9	##와	O	O	O, B-CV, B-OG, B-TM, B-LC
-10	함께	O	O	O, B-TM, B-LC, B-CV, B-OG
-11	터널	O	O	O, B-AF, B-LC, B-TM, B-CV
-12	내부	B-TM	O	O, B-TM, B-LC, B-AF, B-CV
-13	##의	O	O	O, B-LC, B-PS, B-OG, I-AF
-14	수심	O	O	O, B-TM, B-LC, B-CV, B-OG
-15	##도	O	O	O, B-CV, B-LC, B-OG, B-TM
-16	보여준다	O	O	O, B-CV, B-TM, B-PS, B-OG
-17	##고	O	O	O, B-CV, B-OG, I-OG, B-LC
-18	했	O	O	O, B-OG, B-CV, B-TM, B-LC
-19	##다	O	O	O, B-CV, I-OG, I-EV, B-OG
-20	.	O	O	O, B-LC, B-CV, B-OG, B-PS
-21	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	박지성	B-PS	B-PS
+2	##은	O	O
+3	투입	O	O
+4	##되	O	O
+5	##자	O	O
+6	##마자	O	O
+7	특유	O	O
+8	##의	O	O
+9	부지런	O	O
+10	##한	O	O
+11	움직임	O	O
+12	##과	O	O
+13	패스	B-TM	B-TM
+14	플레이	I-TM	O
+15	##로	O	O
+16	맨	B-OG	B-OG
+17	##유	I-OG	I-OG
+18	공격	O	O
+19	##의	O	O
+20	활력	O	O
+21	##소	O	O
+22	구실	O	O
+23	##을	O	O
+24	톡톡히	O	O
+25	했	O	O
+26	##다	O	O
+27	.	O	O
+28	[SEP]	O	O

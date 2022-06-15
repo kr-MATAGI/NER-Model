@@ -1,71 +1,60 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	200	B-QT	B-QT	B-QT, O, B-DT, I-QT, B-EV
-2	##여	I-QT	I-QT	I-QT, O, I-LC, I-EV, I-DT
-3	##쪽	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-4	분량	O	O	O, I-QT, B-TM, B-QT, I-DT
-5	##의	O	O	O, B-PS, B-OG, B-LC, I-QT
-6	이	B-PS	O	O, B-PS, B-CV, B-OG, B-QT
-7	책	O	O	O, B-CV, B-AF, B-PS, B-LC
-8	##은	O	O	O, B-PS, B-LC, B-CV, B-OG
-9	이	O	B-PS	B-PS, O, B-LC, B-OG, I-PS
-10	작가	B-CV	B-CV	B-CV, O, I-CV, I-PS, B-PS
-11	##가	O	O	O, B-PS, I-PS, I-CV, B-LC
-12	1906	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-LC
-13	##년	I-DT	I-DT	I-DT, O, B-DT, I-PS, I-QT
-14	4	I-DT	I-DT	I-DT, O, B-DT, I-PS, I-QT
-15	##월	I-DT	I-DT	I-DT, O, B-DT, I-PS, I-QT
-16	##16	I-DT	I-DT	I-DT, O, B-DT, I-PS, I-QT
-17	##일	I-DT	I-DT	I-DT, O, B-DT, I-PS, I-QT
-18	##부터	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-19	5	I-DT	I-DT	I-DT, O, B-DT, I-PS, I-QT
-20	##월	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-21	##3	I-DT	I-DT	I-DT, O, B-DT, I-PS, I-QT
-22	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-23	##까	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-24	##지	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-25	18	B-DT	B-DT	B-DT, I-DT, O, B-LC, B-QT
-26	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-27	동안	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-28	울산	B-LC	B-LC	B-LC, O, B-OG, I-LC, I-DT
-29	장생	B-LC	B-LC	B-LC, O, I-LC, B-AF, B-OG
-30	##포	I-LC	I-LC	I-LC, O, I-AF, B-LC, I-PS
-31	##에	O	O	O, I-LC, B-LC, B-PS, I-AF
-32	머물	O	O	O, B-LC, B-CV, B-AF, B-PS
-33	##며	O	O	O, B-LC, B-PS, I-LC, I-AF
-34	두	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-LC
-35	차례	I-QT	I-QT	I-QT, O, I-LC, I-PS, I-EV
-36	일본	B-LC	B-LC	B-LC, O, B-OG, I-QT, B-AF
-37	##의	O	O	O, I-LC, I-AF, B-LC, B-AF
-38	고래	B-AF	B-AF	B-AF, B-AM, O, B-LC, B-TM
-39	##잡이	I-AF	I-AF	I-AF, O, B-AF, I-LC, I-CV
-40	##배	I-AF	I-AF	I-AF, O, I-LC, B-AF, I-OG
-41	##를	O	O	O, I-AF, I-LC, B-LC, I-OG
-42	타고	O	O	O, B-LC, B-AF, B-PS, I-AF
-43	바다	O	O	O, B-LC, I-LC, B-TM, B-AF
-44	##로	O	O	O, B-LC, I-LC, B-PS, I-AF
-45	나가	O	O	O, B-LC, B-PS, B-AF, I-LC
-46	##서	O	O	O, B-LC, B-PS, I-LC, B-CV
-47	경험	O	O	O, B-PS, B-LC, B-CV, B-TM
-48	##한	O	O	O, B-PS, B-LC, B-QT, B-OG
-49	일	O	O	O, B-LC, B-TM, B-CV, B-PS
-50	,	O	O	O, B-PS, B-LC, B-CV, B-OG
-51	잡	O	O	O, B-AF, B-PS, B-LC, B-CV
-52	##은	O	O	O, B-PS, B-AF, B-LC, B-CV
-53	고래	B-AM	B-AM	B-AM, O, B-AF, B-TM, B-PS
-54	##의	O	O	O, I-AF, B-PS, I-PS, B-LC
-55	해체	O	O	O, B-LC, B-TM, B-PS, B-CV
-56	과정	O	O	O, B-PS, B-LC, B-TM, B-CV
-57	,	O	O	O, B-PS, B-LC, B-CV, B-OG
-58	장생	B-LC	B-LC	B-LC, O, B-AF, B-OG, B-PS
-59	##포	I-LC	I-LC	I-LC, O, I-AF, B-LC, I-PS
-60	마을	I-LC	I-LC	I-LC, O, B-LC, I-AF, I-QT
-61	##의	O	O	O, I-LC, B-LC, I-AF, B-PS
-62	풍경	O	O	O, B-LC, B-CV, I-LC, B-TM
-63	등	O	O	O, B-PS, B-LC, B-CV, B-TM
-64	##을	O	O	O, B-PS, B-CV, B-LC, B-OG
-65	기록	O	O	O, B-PS, B-CV, B-LC, B-OG
-66	##했	O	O	O, B-PS, B-LC, B-CV, B-OG
-67	##다	O	O	O, B-CV, B-PS, B-LC, B-OG
-68	.	O	O	O, B-LC, B-PS, B-AF, B-CV
-69	[SEP]	O	O	O, B-LC, B-CV, B-PS, I-LC
+	text	label	preds
+0	[CLS]	O	O
+1	이달	B-DT	B-DT
+2	중순	I-DT	I-DT
+3	##부터	I-DT	I-DT
+4	정조	B-PS	B-DT
+5	##때	O	I-DT
+6	체계	O	O
+7	##적	O	O
+8	##으로	O	O
+9	정리	O	O
+10	##된	O	O
+11	민족	O	O
+12	##전	O	O
+13	##통	O	O
+14	무예	O	O
+15	##인	O	O
+16	'	O	O
+17	무예	B-FD	O
+18	##24	I-FD	B-QT
+19	##기	I-FD	I-QT
+20	'	O	O
+21	공연	O	O
+22	##을	O	O
+23	비롯	O	O
+24	##해	O	O
+25	정조	B-PS	B-PS
+26	##의	O	O
+27	친	O	O
+28	##위	O	O
+29	##부대	O	O
+30	##인	O	O
+31	장	B-EV	B-EV
+32	##용	I-EV	I-EV
+33	##영	I-EV	I-EV
+34	(	I-EV	I-EV
+35	壯	I-EV	I-EV
+36	勇	I-EV	O
+37	營	I-EV	I-EV
+38	)	I-EV	I-EV
+39	수위	I-EV	I-EV
+40	##의식	I-EV	I-EV
+41	,	O	O
+42	토요	B-DT	O
+43	##상	O	O
+44	##설	O	O
+45	##공	O	O
+46	##연	O	O
+47	등	O	O
+48	공연	O	O
+49	##프로	O	O
+50	##그램	O	O
+51	##이	O	O
+52	차례	O	O
+53	##로	O	O
+54	시작	O	O
+55	##된	O	O
+56	##다	O	O
+57	.	O	O
+58	[SEP]	O	O

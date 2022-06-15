@@ -1,34 +1,80 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	민주당	B-OG	B-OG	B-OG, O, B-PS, B-LC, B-AF
-2	##도	O	O	O, I-OG, B-CV, I-EV, I-CV
-3	이날	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-QT
-4	이	O	B-PS	B-PS, O, I-PS, B-OG, I-DT
-5	특임	B-CV	B-CV	B-CV, O, I-CV, I-PS, B-OG
-6	##장	I-CV	I-CV	I-CV, O, B-CV, I-PS, I-OG
-7	##관	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-PS
-8	##을	O	O	O, I-CV, B-CV, I-OG, B-PS
-9	공직	B-CV	B-CV	B-CV, O, B-OG, B-AF, I-CV
-10	##선거	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-AF
-11	##법	I-CV	I-CV	I-CV, O, I-OG, B-CV, I-AF
-12	##과	O	O	O, I-CV, I-OG, B-CV, I-AF
-13	국가	B-CV	B-CV	B-CV, O, B-OG, B-AF, I-CV
-14	##공	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-AF
-15	##무원	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-AF
-16	##법	I-CV	I-CV	I-CV, O, I-OG, B-CV, I-AF
-17	위반	O	O	O, I-CV, B-CV, I-OG, B-TM
-18	등	O	O	O, B-PS, I-CV, B-CV, B-LC
-19	##의	O	O	O, B-PS, B-CV, B-LC, B-OG
-20	혐의	O	O	O, B-CV, B-LC, B-PS, B-TM
-21	##로	O	O	O, B-PS, B-LC, B-OG, B-CV
-22	검찰	B-OG	B-OG	B-OG, O, B-AF, B-LC, B-CV
-23	##과	O	O	O, I-OG, B-OG, I-AF, I-CV
-24	중앙선관위	B-OG	B-OG	B-OG, O, B-AF, B-CV, B-LC
-25	##에	O	O	O, I-OG, B-CV, I-EV, I-AF
-26	고발	O	O	O, B-CV, B-LC, B-TM, B-OG
-27	##키	O	O	O, B-PS, B-LC, B-OG, B-DT
-28	##로	O	O	O, B-PS, B-CV, B-LC, B-OG
-29	했	O	O	O, B-CV, B-PS, B-LC, B-OG
-30	##다	O	O	O, B-CV, B-LC, B-PS, B-OG
-31	.	O	O	O, B-LC, B-CV, B-OG, B-PS
-32	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	반면	O	O
+2	사	O	O
+3	##쪽	O	O
+4	##은	O	O
+5	“	O	O
+6	(	O	O
+7	노조	O	O
+8	불신	O	O
+9	##임	O	O
+10	투표	O	O
+11	##는	O	O
+12	)	O	O
+13	급변	O	O
+14	##하	O	O
+15	##는	O	O
+16	미디어	O	O
+17	환경	O	O
+18	속	O	O
+19	##에	O	O
+20	##서	O	O
+21	회사	O	O
+22	##의	O	O
+23	운명	O	O
+24	##은	O	O
+25	나	O	O
+26	몰라	O	O
+27	##라	O	O
+28	하고	O	O
+29	강경	O	O
+30	투쟁	O	O
+31	##을	O	O
+32	하	O	O
+33	##겠다	O	O
+34	##는	O	O
+35	것	O	O
+36	”	O	O
+37	이라	O	O
+38	##며	O	O
+39	“	O	O
+40	투표	O	O
+41	##행위	O	O
+42	##를	O	O
+43	주도	O	O
+44	##하	O	O
+45	##거나	O	O
+46	의도	O	O
+47	##적	O	O
+48	##으로	O	O
+49	사	O	O
+50	##규	O	O
+51	##를	O	O
+52	어기	O	O
+53	##고	O	O
+54	해	O	O
+55	##사	O	O
+56	##행위	O	O
+57	##를	O	O
+58	한	O	O
+59	사원	O	B-CV
+60	##에	O	O
+61	대해선	O	O
+62	단호	O	O
+63	##하	O	O
+64	##고	O	O
+65	엄정	O	O
+66	##한	O	O
+67	책임	O	O
+68	##을	O	O
+69	물	O	O
+70	##을	O	O
+71	것	O	O
+72	”	O	O
+73	이라	O	O
+74	##고	O	O
+75	밝혔	O	O
+76	##다	O	O
+77	.	O	O
+78	[SEP]	O	O

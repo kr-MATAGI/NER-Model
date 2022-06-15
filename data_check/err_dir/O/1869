@@ -1,67 +1,19 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-EV, I-CV, I-OG
-1	미국인	B-CV	B-CV	B-CV, O, I-CV, B-LC, B-TM
-2	재	B-PS	B-PS	B-PS, O, I-PS, B-OG, B-LC
-3	##러드	I-PS	I-PS	I-PS, O, I-OG, B-PS, I-LC
-4	레	I-PS	I-PS	I-PS, O, B-PS, B-LC, I-LC
-5	##니	I-PS	I-PS	I-PS, O, I-LC, I-OG, B-LC
-6	(	O	O	O, I-PS, I-OG, B-CV, B-LC
-7	30	B-QT	B-QT	B-QT, O, I-QT, B-TI, B-DT
-8	)	O	O	O, I-QT, I-OG, I-EV, B-CV
-9	씨	O	O	O, B-CV, I-QT, B-TM, B-PS
-10	##는	O	O	O, B-CV, B-TM, I-EV, I-CV
-11	""""	O	O	O, B-CV, B-LC, B-TM, B-PS
-12	영어	B-CV	B-CV	B-CV, O, B-LC, B-OG, B-TM
-13	##로	O	O	O, I-CV, I-EV, B-CV, I-AF
-14	마치	O	O	O, B-CV, B-PS, B-LC, B-TM
-15	사실	O	O	O, B-CV, B-PS, B-LC, B-AF
-16	##인	O	O	O, B-PS, B-CV, I-AF, B-LC
-17	것	O	O	O, B-PS, B-CV, B-LC, B-OG
-18	##처럼	O	O	O, B-CV, B-PS, B-LC, B-TM
-19	단정	O	O	O, B-CV, B-TM, B-PS, B-LC
-20	##적인	O	O	O, B-PS, B-LC, B-CV, I-CV
-21	표현	O	O	O, B-CV, B-PS, B-LC, B-TM
-22	##을	O	O	O, B-CV, B-PS, B-LC, B-OG
-23	사용	O	O	O, B-CV, B-LC, B-PS, B-TM
-24	##해	O	O	O, B-PS, B-LC, B-CV, B-OG
-25	나	O	O	O, B-CV, B-PS, B-LC, I-AF
-26	##도	O	O	O, B-PS, B-CV, B-LC, B-TM
-27	정말	O	O	O, B-CV, B-TM, B-LC, B-PS
-28	##인	O	O	O, B-PS, B-CV, I-AF, B-AF
-29	줄	O	O	O, B-PS, B-CV, I-AF, B-LC
-30	알	O	O	O, B-CV, B-PS, B-TM, B-OG
-31	##았	O	O	O, B-CV, B-PS, B-OG, B-TM
-32	##다	O	O	O, B-CV, B-PS, B-TM, I-CV
-33	""""	O	O	O, B-CV, B-TM, B-LC, B-PS
-34	며	O	O	O, B-CV, B-LC, B-TM, B-PS
-35	""""	O	O	O, B-CV, B-LC, B-TM, B-PS
-36	한국	O	B-LC	B-LC, O, B-OG, B-FD, B-AF
-37	뉴스	O	O	O, I-LC, I-AF, B-FD, I-FD
-38	##를	O	O	O, B-CV, I-AF, B-PS, B-LC
-39	평소	O	O	O, B-CV, B-TM, B-LC, B-PS
-40	##에	O	O	O, B-CV, B-PS, B-TM, B-LC
-41	보	O	O	O, B-CV, B-TM, B-OG, B-PS
-42	##지	O	O	O, B-PS, B-CV, B-LC, B-TM
-43	못했	O	O	O, B-CV, B-PS, B-LC, B-TM
-44	##던	O	O	O, B-CV, B-PS, B-TM, B-LC
-45	사람	O	O	O, B-CV, B-PS, I-CV, B-TM
-46	##이	O	O	O, B-PS, B-CV, B-LC, I-CV
-47	보	O	O	O, B-CV, B-PS, B-TM, B-LC
-48	##면	O	O	O, B-PS, B-LC, B-CV, B-OG
-49	박	B-PS	B-PS	B-PS, O, I-PS, B-OG, B-LC
-50	전	O	O	O, I-PS, I-AF, B-CV, I-EV
-51	대통령	B-CV	B-CV	B-CV, O, B-AF, I-CV, B-EV
-52	##에	O	O	O, I-CV, I-EV, I-AF, B-CV
-53	대해	O	O	O, B-CV, B-LC, B-TM, B-PS
-54	오해	O	O	O, B-CV, B-TM, B-PS, B-LC
-55	##할	O	O	O, B-PS, B-CV, B-TM, B-LC
-56	소지	O	O	O, B-CV, B-PS, B-TM, B-QT
-57	##가	O	O	O, B-PS, B-CV, I-AF, B-OG
-58	크다	O	O	O, B-CV, B-TM, B-QT, B-PS
-59	""""	O	O	O, B-CV, B-TM, B-LC, I-CV
-60	고	O	O	O, B-CV, B-TM, B-QT, B-LC
-61	말	O	O	O, B-CV, B-TM, B-QT, I-CV
-62	##했	O	O	O, B-CV, B-PS, B-TM, I-CV
-63	##다	O	O	O, B-CV, B-TM, B-PS, B-LC
-64	.	O	O	O, B-CV, B-PS, B-LC, B-TM
-65	[SEP]	O	O	O, B-CV, B-PS, B-LC, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	매년	O	O
+2	예방	O	B-TM
+3	##백	O	I-TM
+4	##신	O	I-TM
+5	##을	O	O
+6	접종	O	O
+7	##하	O	O
+8	##는	O	O
+9	뇌	B-TM	B-TM
+10	##염	I-TM	I-TM
+11	##은	O	O
+12	모기	B-AM	B-AM
+13	##가	O	O
+14	옮긴	O	O
+15	##다	O	O
+16	.	O	O
+17	[SEP]	O	O

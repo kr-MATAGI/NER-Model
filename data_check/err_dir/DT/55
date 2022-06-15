@@ -1,35 +1,38 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, B-PS, I-CV, I-PS
-1	이씨	O	O	O, B-PS, B-CV, I-CV, I-PS
-2	##는	O	O	O, B-PS, B-CV, I-CV, I-PS
-3	'	O	O	O, B-CV, B-PS, I-CV, I-PS
-4	밀수	O	O	O, B-CV, I-CV, B-PS, B-PT
-5	##범	O	O	O, I-CV, B-CV, I-PS, I-QT
-6	'	O	O	O, I-CV, B-PS, B-CV, I-PS
-7	이라	O	O	O, B-PS, B-CV, I-CV, I-PS
-8	##는	O	O	O, B-PS, B-CV, I-CV, I-PS
-9	죄	O	O	O, B-CV, B-PS, I-CV, I-PS
-10	##목	O	O	O, I-CV, I-PS, B-PS, B-CV
-11	##으로	O	O	O, B-PS, B-CV, I-CV, I-PS
-12	전	B-AF	B-AF	B-AF, O, B-OG, B-LC, B-PS
-13	##거리	I-AF	I-AF	I-AF, O, I-LC, I-OG, B-AF
-14	##교	I-AF	I-AF	I-AF, O, I-LC, I-OG, B-AF
-15	##화	I-AF	I-AF	I-AF, O, I-LC, I-OG, I-PS
-16	##소	I-AF	I-AF	I-AF, O, I-LC, I-OG, I-QT
-17	##에서	O	O	O, B-CV, B-PS, I-AF, I-LC
-18	1999	B-DT	B-DT	B-DT, O, I-DT, B-PS, B-CV
-19	##년	I-DT	I-DT	I-DT, O, I-PS, I-CV, B-DT
-20	6	I-DT	I-DT	I-DT, O, I-PS, B-DT, I-CV
-21	##월	I-DT	I-DT	I-DT, O, I-PS, I-CV, B-DT
-22	##부터	I-DT	I-DT	I-DT, O, I-PS, I-CV, B-DT
-23	2001	I-DT	I-DT	I-DT, O, B-DT, I-PS, B-CV
-24	##년	I-DT	I-DT	I-DT, O, I-PS, I-CV, B-DT
-25	1	I-DT	I-DT	I-DT, O, I-PS, B-DT, I-CV
-26	##월	I-DT	I-DT	I-DT, O, I-PS, I-CV, B-CV
-27	##까	I-DT	O	O, I-DT, I-PS, I-CV, B-CV
-28	##지	I-DT	O	O, I-DT, I-PS, I-CV, B-CV
-29	복역	O	O	O, B-CV, B-PS, I-CV, B-FD
-30	##했	O	O	O, B-PS, B-CV, I-CV, I-PS
-31	##다	O	O	O, B-PS, B-CV, I-CV, I-PS
-32	.	O	O	O, B-PS, B-CV, I-CV, I-PS
-33	[SEP]	O	O	O, B-CV, I-CV, B-PS, I-PS
+	text	label	preds
+0	[CLS]	O	O
+1	김광석	B-PS	B-PS
+2	,	O	O
+3	김준	B-PS	B-PS
+4	##수	I-PS	I-PS
+5	,	O	O
+6	장진	B-PS	B-PS
+7	삼	B-QT	O
+8	##총	I-QT	O
+9	##사	I-QT	O
+10	##가	O	O
+11	힘	O	O
+12	##을	O	O
+13	합친	O	O
+14	'	O	O
+15	디	B-AF	B-AF
+16	##셈	I-AF	I-AF
+17	##버	I-AF	I-AF
+18	'	O	O
+19	가	O	O
+20	연말	B-DT	O
+21	공연	O	O
+22	##계	O	O
+23	가장	O	O
+24	뜨거운	O	O
+25	'	O	O
+26	태풍	O	O
+27	'	O	O
+28	의	O	O
+29	조합	O	O
+30	##으로	O	O
+31	인증	O	O
+32	##받	O	O
+33	##았	O	O
+34	##다	O	O
+35	.	O	O
+36	[SEP]	O	O

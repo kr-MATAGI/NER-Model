@@ -1,12 +1,39 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-EV
-1	한국어	B-CV	B-AF	B-AF, B-CV, B-LC, O, B-PS
-2	연어	O	I-AF	I-AF, O, B-AF, I-CV, I-LC
-3	##사전	O	I-AF	I-AF, O, I-CV, I-LC, I-TM
-4	##을	O	O	O, I-AF, I-CV, I-OG, I-TM
-5	만들	O	O	O, B-CV, B-LC, I-AF, B-OG
-6	##어야	O	O	O, B-CV, B-LC, B-OG, B-PS
-7	되	O	O	O, B-CV, B-LC, B-OG, B-TM
-8	##니까	O	O	O, I-OG, B-CV, I-AF, I-CV
-9	.	O	O	O, B-CV, B-LC, B-OG, B-TM
-10	[SEP]	O	O	O, B-CV, B-LC, I-OG, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	생	B-CV	B-CV
+2	##마	I-CV	I-CV
+3	##늘	I-CV	I-CV
+4	##과	O	O
+5	고추	B-CV	B-CV
+6	,	O	O
+7	깻잎	B-CV	B-CV
+8	,	O	O
+9	상추	B-CV	B-CV
+10	등	O	O
+11	##으로	O	O
+12	싸	O	O
+13	##서	O	O
+14	먹	O	O
+15	##기	O	O
+16	##도	O	O
+17	하지	O	O
+18	##만	O	O
+19	양념	B-CV	B-CV
+20	##이	O	O
+21	지나치	O	O
+22	##게	O	O
+23	많	O	O
+24	##으면	O	O
+25	붕	B-CV	B-CV
+26	##장	I-CV	I-CV
+27	##어	I-CV	I-AM
+28	##의	O	O
+29	제	O	O
+30	맛	O	O
+31	##을	O	O
+32	느끼	O	O
+33	##기	O	O
+34	어렵	O	O
+35	##다	O	O
+36	.	O	O
+37	[SEP]	O	O

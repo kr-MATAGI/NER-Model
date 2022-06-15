@@ -1,40 +1,43 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, I-OG, I-EV, B-CV
-1	하지만	O	O	O, B-CV, B-PS, B-OG, B-TM
-2	마흔	B-QT	B-QT	B-QT, O, I-QT, B-PS, B-DT
-3	##두	I-QT	I-QT	I-QT, O, I-EV, B-QT, I-PS
-4	살	I-QT	I-QT	I-QT, O, I-EV, I-LC, I-PS
-5	##이	O	O	O, B-PS, I-QT, B-CV, B-OG
-6	돼서	O	O	O, B-PS, I-PS, I-QT, I-CV
-7	그	O	O	O, B-PS, B-CV, B-LC, B-OG
-8	##가	O	O	O, B-PS, B-LC, B-CV, B-OG
-9	10	B-DT	B-DT	B-DT, O, B-EV, B-PS, I-DT
-10	##년	I-DT	I-DT	I-DT, O, I-EV, B-DT, I-PS
-11	만	I-DT	I-DT	I-DT, O, I-EV, B-DT, I-QT
-12	##에	O	O	O, I-DT, I-EV, I-AF, I-QT
-13	다시	O	O	O, B-CV, B-PS, B-LC, B-TM
-14	메이저	O	O	O, B-EV, B-CV, B-TM, B-LC
-15	대회	O	O	O, I-EV, B-EV, B-CV, I-CV
-16	##인	O	O	O, I-EV, B-PS, B-CV, B-EV
-17	브리티시	B-EV	B-EV	B-EV, B-LC, O, B-OG, B-AF
-18	##오	I-EV	I-EV	I-EV, O, I-LC, I-AF, B-EV
-19	##픈	I-EV	I-EV	I-EV, O, I-LC, I-AF, I-OG
-20	##에서	O	O	O, I-EV, B-CV, I-AF, I-OG
-21	우승	O	O	O, B-CV, I-EV, B-EV, B-TM
-22	##할	O	O	O, B-PS, B-CV, B-LC, B-OG
-23	수	O	O	O, B-PS, B-CV, B-TM, B-QT
-24	있	O	O	O, B-CV, B-PS, B-TM, B-QT
-25	##었	O	O	O, B-CV, B-PS, B-TM, B-LC
-26	##던	O	O	O, B-CV, B-PS, B-TM, B-LC
-27	것	O	O	O, B-CV, B-PS, B-LC, B-OG
-28	##은	O	O	O, B-CV, B-PS, B-LC, B-OG
-29	어쩌면	O	O	O, B-CV, B-PS, B-TM, B-LC
-30	아들	B-CV	B-CV	B-CV, O, B-PS, I-CV, B-TM
-31	벤	O	B-PS	B-PS, O, I-PS, B-LC, B-CV
-32	##의	O	O	O, I-PS, I-OG, I-AF, I-CV
-33	힘	O	O	O, B-TM, B-QT, B-CV, B-PS
-34	##이	O	O	O, B-PS, B-CV, I-CV, I-PS
-35	##었	O	O	O, B-PS, B-CV, I-CV, I-PS
-36	##다	O	O	O, B-CV, I-CV, I-OG, B-PS
-37	.	O	O	O, B-PS, B-CV, B-LC, I-EV
-38	[SEP]	O	O	O, B-CV, B-PS, I-EV, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	1997	B-DT	B-DT
+2	##∼	I-DT	I-DT
+3	##19	I-DT	I-DT
+4	##98	I-DT	I-DT
+5	정규	O	B-EV
+6	##리그	O	I-EV
+7	우승	O	O
+8	##을	O	O
+9	맛	O	O
+10	##본	O	O
+11	그	O	O
+12	##는	O	O
+13	재	B-PS	B-PS
+14	##키	I-PS	I-PS
+15	존스	I-PS	I-PS
+16	,	O	O
+17	로렌	B-PS	B-PS
+18	##조	I-PS	I-PS
+19	홀	I-PS	I-PS
+20	##과	O	O
+21	1999	B-DT	B-DT
+22	##∼	I-DT	I-DT
+23	##20	I-DT	I-DT
+24	##00	I-DT	I-DT
+25	##시	I-DT	I-DT
+26	##즌	I-DT	I-DT
+27	##까	I-DT	I-DT
+28	##지	I-DT	I-DT
+29	현대	B-OG	B-OG
+30	##의	O	O
+31	정규	O	B-EV
+32	##리그	O	I-EV
+33	3	B-QT	B-QT
+34	##연	I-QT	I-QT
+35	##패	I-QT	I-QT
+36	##를	O	O
+37	일	O	O
+38	##궜	O	O
+39	##다	O	O
+40	.	O	O
+41	[SEP]	O	O

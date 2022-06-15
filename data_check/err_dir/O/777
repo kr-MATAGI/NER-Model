@@ -1,56 +1,22 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	코너	O	B-PS	B-PS, O, I-PS, B-CV, B-OG
-2	##는	O	O	O, I-PS, I-OG, I-AF, B-CV
-3	학교	O	O	O, B-OG, B-AF, B-FD, I-OG
-4	앞	O	O	O, B-TM, B-CV, B-LC, I-TM
-5	##을	O	O	O, B-PS, I-TM, B-CV, I-CV
-6	서성	O	O	O, B-PS, B-CV, B-LC, B-AF
-7	##이	O	O	O, B-PS, I-PS, B-CV, B-AM
-8	##는	O	O	O, B-PS, I-PS, B-CV, B-AM
-9	미녀	B-PS	O	O, B-PS, B-CV, I-PS, B-AM
-10	라	I-PS	B-PS	B-PS, O, I-PS, B-LC, B-OG
-11	##피	I-PS	I-PS	I-PS, O, B-PS, I-LC, I-OG
-12	##나	I-PS	I-PS	I-PS, O, I-LC, B-PS, I-OG
-13	(	O	O	O, I-PS, B-CV, B-LC, B-PS
-14	루시	B-PS	B-PS	B-PS, O, I-PS, B-LC, B-OG
-15	보인	I-PS	I-PS	I-PS, O, B-PS, I-LC, I-OG
-16	##턴	I-PS	I-PS	I-PS, O, I-LC, I-OG, I-QT
-17	)	O	O	O, I-PS, B-CV, I-OG, B-LC
-18	에게	O	O	O, B-PS, B-CV, B-TM, B-LC
-19	반해	O	O	O, B-PS, B-LC, B-QT, B-CV
-20	“	O	O	O, B-CV, B-PS, I-QT, B-LC
-21	밴드	O	O	O, B-PS, B-CV, B-OG, B-FD
-22	##를	O	O	O, I-OG, B-PS, I-AF, B-CV
-23	하	O	O	O, B-PS, B-CV, B-LC, B-AF
-24	##는데	O	O	O, B-PS, B-CV, B-LC, I-AF
-25	뮤직	O	O	O, B-FD, B-CV, B-PS, B-AF
-26	##비	O	O	O, I-CV, I-AF, I-OG, I-FD
-27	##디오	O	O	O, I-CV, I-AF, B-PS, B-LC
-28	여주인공	O	O	O, B-CV, B-PS, B-OG, B-AF
-29	##이	O	O	O, B-PS, I-PS, B-CV, B-LC
-30	필요	O	O	O, B-PS, B-CV, I-PS, I-AF
-31	##하	O	O	O, B-PS, I-PS, B-CV, B-LC
-32	##다	O	O	O, B-PS, I-PS, B-CV, I-AF
-33	”	O	O	O, B-CV, B-PS, B-LC, B-QT
-34	고	O	O	O, B-PS, B-CV, B-LC, B-QT
-35	거짓말	O	O	O, B-CV, B-PS, B-LC, B-TM
-36	##하고	O	O	O, B-PS, B-CV, I-CV, I-PS
-37	,	O	O	O, B-CV, B-PS, B-LC, B-OG
-38	이를	O	O	O, B-PS, B-LC, B-CV, B-QT
-39	현실	O	O	O, B-PS, B-FD, B-CV, B-QT
-40	##로	O	O	O, B-PS, I-QT, B-CV, I-CV
-41	만들	O	O	O, B-PS, B-LC, B-CV, B-QT
-42	##기	O	O	O, B-PS, B-CV, B-LC, B-QT
-43	위해	O	O	O, B-CV, B-PS, B-LC, B-TM
-44	친구	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-AF
-45	##들	O	O	O, I-CV, I-OG, B-CV, I-AF
-46	##과	O	O	O, B-CV, B-PS, B-TM, I-CV
-47	밴드	O	O	O, B-CV, B-PS, B-OG, B-AF
-48	##를	O	O	O, I-OG, B-CV, I-CV, I-AF
-49	결성	O	O	O, B-CV, B-OG, I-OG, B-PS
-50	##하	O	O	O, B-PS, B-CV, B-LC, B-OG
-51	##는데	O	O	O, B-PS, B-QT, B-LC, B-OG
-52	…	O	O	O, B-LC, B-QT, B-PS, I-OG
-53	.	O	O	O, B-PS, B-CV, B-LC, I-OG
-54	[SEP]	O	O	O, B-CV, B-PS, B-LC, B-FD
+	text	label	preds
+0	[CLS]	O	O
+1	그래서	O	O
+2	저	O	O
+3	##는	O	O
+4	몇	O	O
+5	십	O	B-DT
+6	##년	O	I-DT
+7	##을	O	O
+8	걸어	O	O
+9	##다녔	O	O
+10	##거	O	O
+11	##든	O	O
+12	##요	O	O
+13	.	O	O
+14	차비	O	O
+15	##가	O	O
+16	없	O	O
+17	##어	O	O
+18	##서	O	O
+19	.	O	O
+20	[SEP]	O	O

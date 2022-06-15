@@ -1,31 +1,56 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-QT
-1	경복	B-OG	B-OG	B-OG, O, B-LC, B-AF, B-PS
-2	##고	I-OG	I-OG	I-OG, O, I-LC, B-OG, I-AF
-3	##와	O	O	O, I-OG, B-PS, I-AF, I-QT
-4	연세대	B-OG	B-OG	B-OG, O, B-LC, B-AF, I-OG
-5	시절	O	O	O, I-OG, I-DT, I-AF, B-CV
-6	최고	O	O	O, B-CV, B-PS, B-LC, B-OG
-7	##의	O	O	O, B-PS, B-LC, B-OG, B-QT
-8	포인트	B-CV	B-CV	B-CV, O, B-TM, B-PS, B-AF
-9	##가드	I-CV	I-CV	I-CV, O, I-TM, B-CV, I-PS
-10	##로	O	O	O, I-CV, B-PS, I-OG, I-QT
-11	주목	O	O	O, B-PS, B-CV, B-LC, B-OG
-12	##받	O	O	O, B-PS, I-PS, I-OG, I-CV
-13	##은	O	O	O, B-PS, B-LC, B-OG, B-CV
-14	유	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-15	감독	B-CV	B-CV	B-CV, O, I-PS, I-CV, B-OG
-16	##은	O	O	O, I-CV, B-CV, I-OG, I-EV
-17	1986	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-18	##년	I-DT	I-DT	I-DT, O, I-QT, B-DT, I-PS
-19	기아	B-OG	B-OG	B-OG, O, I-OG, B-AF, B-LC
-20	##의	O	O	O, I-OG, I-AF, I-CV, I-DT
-21	창단	O	O	O, B-CV, I-CV, B-TM, B-QT
-22	##멤	B-CV	I-CV	I-CV, B-CV, O, I-QT, B-QT
-23	##버	I-CV	I-CV	I-CV, O, B-CV, I-QT, I-TM
-24	##로	O	O	O, I-CV, I-QT, B-CV, I-OG
-25	입단	O	O	O, B-CV, B-PS, B-OG, I-CV
-26	##했	O	O	O, B-CV, B-PS, I-CV, I-OG
-27	##다	O	O	O, B-CV, I-OG, B-LC, B-QT
-28	.	O	O	O, B-PS, B-OG, B-CV, B-LC
-29	[SEP]	O	O	O, B-PS, B-CV, B-OG, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	무소	O	O
+2	##속	O	O
+3	안철수	B-PS	B-PS
+4	대선	B-EV	B-EV
+5	##후	B-CV	B-CV
+6	##보	I-CV	I-CV
+7	##는	O	O
+8	야권	O	B-CV
+9	##후	B-CV	I-CV
+10	##보	I-CV	I-CV
+11	단일화	O	O
+12	협상	O	O
+13	중단	O	O
+14	이틀	B-DT	B-DT
+15	##째	I-DT	I-DT
+16	##인	O	O
+17	15	B-DT	B-DT
+18	##일	I-DT	I-DT
+19	아동	O	O
+20	##센터	O	O
+21	##를	O	O
+22	방문	O	O
+23	##한	O	O
+24	것	O	O
+25	외	O	O
+26	##에	O	O
+27	##는	O	O
+28	외부	O	O
+29	일정	O	O
+30	##을	O	O
+31	잡지	O	O
+32	않	O	O
+33	##은	O	O
+34	채	O	O
+35	언론	O	O
+36	인터뷰	O	O
+37	##를	O	O
+38	하	O	O
+39	##며	O	O
+40	캠프	O	O
+41	주요	O	O
+42	관계자	B-CV	B-CV
+43	##들	O	O
+44	##과	O	O
+45	단일화	O	O
+46	협상	O	O
+47	중단	O	O
+48	대책	O	O
+49	##을	O	O
+50	논의	O	O
+51	##했	O	O
+52	##다	O	O
+53	.	O	O
+54	[SEP]	O	O

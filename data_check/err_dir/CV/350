@@ -1,31 +1,41 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-QT
-1	정현	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-2	##은	O	O	O, I-PS, B-CV, I-OG, I-AF
-3	최근	O	O	O, B-PS, B-CV, B-OG, B-LC
-4	후원	O	O	O, B-CV, B-OG, B-PS, B-LC
-5	기업인	B-CV	O	O, B-CV, I-CV, B-OG, B-PS
-6	삼성증권	B-OG	B-OG	B-OG, B-AF, O, B-LC, B-PS
-7	##에서	O	O	O, I-OG, I-DT, I-CV, I-AF
-8	연	O	O	O, B-DT, B-PS, B-QT, B-CV
-9	3	B-QT	B-QT	B-QT, I-QT, O, B-DT, B-TI
-10	##억	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-DT
-11	##원	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-12	이상	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-13	지원	O	O	O, I-QT, B-CV, B-OG, I-OG
-14	##하	O	O	O, B-PS, B-LC, B-OG, B-CV
-15	##겠다	O	O	O, B-CV, B-PS, B-LC, B-OG
-16	##고	O	O	O, B-PS, B-CV, B-OG, B-LC
-17	나설	O	O	O, B-CV, B-PS, B-LC, B-OG
-18	만큼	O	O	O, B-PS, B-CV, B-OG, B-LC
-19	기대	O	O	O, B-CV, B-PS, B-OG, B-TM
-20	##를	O	O	O, B-PS, B-CV, B-OG, I-OG
-21	한	O	O	O, B-QT, B-PS, B-AM, B-CV
-22	몸	B-AM	B-AM	B-AM, O, I-AM, I-QT, I-PS
-23	##에	O	O	O, I-QT, I-CV, B-CV, I-PS
-24	받	O	O	O, B-PS, B-CV, B-TM, B-OG
-25	##고	O	O	O, B-CV, B-PS, I-QT, I-CV
-26	있	O	O	O, B-CV, B-PS, B-TM, I-OG
-27	##다	O	O	O, B-CV, I-OG, B-PS, I-CV
-28	.	O	O	O, B-CV, B-PS, B-OG, B-LC
-29	[SEP]	O	O	O, B-CV, B-PS, B-OG, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	또	O	O
+2	군수	O	O
+3	##경제	O	O
+4	##를	O	O
+5	담당	O	O
+6	##하	O	O
+7	##는	O	O
+8	백	B-PS	B-PS
+9	##세	I-PS	I-PS
+10	##봉	I-PS	I-PS
+11	제	B-QT	B-CV
+12	##2	I-QT	I-CV
+13	##경제	B-CV	I-CV
+14	##위원	I-CV	I-CV
+15	##장	I-CV	I-CV
+16	##을	O	O
+17	포함	O	O
+18	##해	O	O
+19	세	B-QT	B-QT
+20	명	I-QT	I-QT
+21	모두	O	O
+22	로켓	B-AF	B-AF
+23	폭발	O	O
+24	당일	O	O
+25	열린	O	O
+26	최고	B-EV	B-EV
+27	##인	I-EV	I-EV
+28	##민	I-EV	I-EV
+29	##회의	I-EV	I-EV
+30	##에	O	O
+31	##서	O	O
+32	국방위	B-CV	B-CV
+33	##원	I-CV	I-CV
+34	##에	O	O
+35	유임	O	O
+36	##됐	O	O
+37	##다	O	O
+38	.	O	O
+39	[SEP]	O	O

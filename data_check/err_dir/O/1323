@@ -1,63 +1,42 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-EV, I-CV
-1	민주당	B-OG	B-OG	B-OG, O, B-LC, B-PS, B-AF
-2	##은	O	O	O, I-OG, B-CV, I-EV, I-AF
-3	부진	O	O	O, B-LC, B-CV, B-OG, B-PS
-4	##한	O	O	O, B-PS, B-LC, B-OG, I-DT
-5	2	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-LC
-6	##월	I-DT	I-DT	I-DT, O, B-DT, I-EV, I-PS
-7	국회	B-OG	B-OG	B-OG, B-AF, O, B-EV, B-LC
-8	성과	O	O	O, I-OG, I-EV, I-AF, I-DT
-9	##를	O	O	O, B-PS, B-LC, B-CV, B-OG
-10	여당	O	O	O, B-OG, B-CV, B-PS, B-LC
-11	탓	O	O	O, B-CV, B-PS, B-LC, B-TM
-12	##으로	O	O	O, B-PS, B-LC, B-CV, B-TM
-13	돌리	O	O	O, B-LC, B-PS, B-CV, B-EV
-14	##고	O	O	O, B-PS, B-LC, B-OG, B-CV
-15	있	O	O	O, B-PS, B-OG, B-CV, B-LC
-16	##지만	O	O	O, B-PS, B-LC, B-CV, B-OG
-17	,	O	O	O, B-CV, B-LC, B-OG, B-PS
-18	‘	O	O	O, B-LC, B-PS, B-CV, B-OG
-19	원내	O	O	O, B-OG, B-LC, B-EV, B-FD
-20	1	B-QT	B-QT	B-QT, I-QT, O, B-DT, B-OG
-21	##당	I-QT	I-QT	I-QT, O, I-OG, I-EV, I-LC
-22	##으로	O	O	O, I-QT, B-LC, B-PS, B-CV
-23	##서	O	O	O, B-LC, B-PS, B-CV, B-TM
-24	정치력	O	O	O, B-LC, B-PS, B-CV, B-TM
-25	##을	O	O	O, B-PS, B-LC, B-CV, B-TM
-26	발휘	O	O	O, B-LC, B-CV, B-PS, B-TM
-27	##하	O	O	O, B-PS, B-LC, B-CV, I-PS
-28	##지	O	O	O, B-LC, B-PS, B-CV, B-TM
-29	못하	O	O	O, B-LC, B-PS, B-CV, B-TM
-30	##고	O	O	O, B-LC, B-PS, B-CV, B-TM
-31	있	O	O	O, B-PS, B-LC, B-CV, I-EV
-32	##다	O	O	O, B-PS, B-LC, B-CV, I-OG
-33	’	O	O	O, B-CV, B-PS, B-LC, B-OG
-34	거나	O	O	O, B-PS, B-LC, B-TM, B-OG
-35	‘	O	O	O, B-LC, B-CV, B-PS, B-OG
-36	대선	O	B-EV	B-EV, O, B-CV, B-LC, B-AF
-37	##을	O	O	O, I-EV, B-PS, I-DT, I-CV
-38	의식	O	O	O, B-LC, B-PS, B-CV, I-EV
-39	##해	O	O	O, B-PS, B-LC, B-OG, B-CV
-40	소극	O	O	O, B-LC, B-CV, B-PS, B-EV
-41	##적	O	O	O, B-PS, B-LC, I-PS, I-LC
-42	태도	O	O	O, B-LC, B-CV, B-PS, B-DT
-43	##를	O	O	O, B-CV, B-LC, B-PS, B-OG
-44	취하	O	O	O, B-LC, B-CV, B-PS, B-OG
-45	##는	O	O	O, B-PS, B-LC, B-CV, B-OG
-46	게	O	O	O, B-PS, B-LC, B-CV, B-OG
-47	아니	O	O	O, B-PS, B-LC, B-CV, B-OG
-48	##냐	O	O	O, B-PS, I-PS, I-QT, B-LC
-49	’	O	O	O, B-CV, B-PS, B-LC, B-OG
-50	는	O	O	O, B-PS, B-LC, B-CV, B-OG
-51	비판	O	O	O, B-CV, B-PS, B-LC, B-TM
-52	##에	O	O	O, B-CV, B-PS, B-LC, B-OG
-53	곤혹	O	O	O, B-CV, B-PS, B-LC, B-TM
-54	##스	O	O	O, B-PS, B-LC, I-CV, I-PS
-55	##러워	O	O	O, B-PS, B-LC, I-PS, B-CV
-56	##하	O	O	O, B-PS, B-LC, B-CV, B-OG
-57	##는	O	O	O, B-PS, B-CV, B-LC, I-PS
-58	눈치	O	O	O, B-PS, B-CV, B-LC, B-AM
-59	##다	O	O	O, B-CV, B-PS, B-LC, I-OG
-60	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-61	[SEP]	O	O	O, B-LC, B-CV, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	두산	B-OG	B-OG
+2	##에	O	O
+3	##서	O	O
+4	NC	B-OG	B-OG
+5	##로	O	O
+6	이적	O	O
+7	##한	O	O
+8	이종	B-PS	B-PS
+9	##욱	I-PS	I-PS
+10	##과	O	O
+11	손	B-PS	B-PS
+12	##시	I-PS	I-PS
+13	##헌	I-PS	I-PS
+14	##도	O	O
+15	화려	O	O
+16	##하	O	O
+17	##지	O	O
+18	##는	O	O
+19	않	O	O
+20	##지만	O	O
+21	내실	O	O
+22	있	O	O
+23	##는	O	O
+24	방망이	B-CV	B-CV
+25	##와	O	O
+26	안정	O	O
+27	##된	O	O
+28	수비	O	B-CV
+29	##로	O	O
+30	NC	B-OG	B-OG
+31	##의	O	O
+32	돌풍	O	O
+33	##을	O	O
+34	뒷받침	O	O
+35	##하	O	O
+36	##고	O	O
+37	있	O	O
+38	##다	O	O
+39	.	O	O
+40	[SEP]	O	O

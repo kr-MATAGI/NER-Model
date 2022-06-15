@@ -1,13 +1,24 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	올	O	B-DT	B-DT, O, I-DT, B-QT, B-EV
-2	##시	O	I-DT	I-DT, O, B-DT, I-QT, I-EV
-3	##즌	O	I-DT	I-DT, O, B-DT, I-QT, I-EV
-4	평균	O	O	O, B-TM, I-DT, B-QT, B-CV
-5	##자	O	O	O, B-QT, B-TM, B-CV, B-OG
-6	##책	O	O	O, B-QT, B-TM, I-OG, I-CV
-7	##점	O	O	O, I-OG, B-QT, I-QT, I-TM
-8	상승	O	O	O, B-TM, B-CV, B-LC, B-QT
-9	##도	O	O	O, I-OG, I-CV, I-QT, B-PS
-10	원인	O	O	O, B-CV, B-TM, B-PS, B-QT
-11	[SEP]	O	O	O, B-CV, B-LC, B-TM, I-CV
+	text	label	preds
+0	[CLS]	O	O
+1	“	O	O
+2	이사장	B-CV	B-CV
+3	맡	O	O
+4	##고	O	O
+5	##있	O	O
+6	##는	O	O
+7	한국학	O	B-OG
+8	##술	O	I-OG
+9	硏	O	I-OG
+10	통해	O	O
+11	朴	B-PS	B-PS
+12	,	O	O
+13	기업	O	O
+14	30	B-QT	B-QT
+15	##곳	I-QT	I-QT
+16	##서	O	O
+17	수십억	O	O
+18	받	O	O
+19	##은	O	O
+20	정황	O	O
+21	”	O	O
+22	[SEP]	O	O

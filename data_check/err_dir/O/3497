@@ -1,17 +1,17 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, B-CV, I-OG, I-AF
-1	어	O	O	O, B-CV, B-OG, B-TM, B-LC
-2	~	O	O	O, I-CV, B-CV, B-PS, B-LC
-3	제	O	O	O, B-CV, B-PS, B-LC, B-DT
-4	##가	O	O	O, B-PS, B-CV, B-LC, B-OG
-5	구	O	B-DT	B-DT, O, B-QT, I-DT, B-PS
-6	##십	O	I-DT	I-DT, O, I-QT, B-DT, I-PS
-7	구	B-DT	B-DT	B-DT, I-DT, O, B-QT, I-QT
-8	##십	I-DT	I-DT	I-DT, I-QT, B-DT, O, I-PS
-9	##일	I-DT	I-DT	I-DT, B-DT, I-QT, O, B-QT
-10	년	I-DT	I-DT	I-DT, O, I-QT, B-DT, I-TI
-11	같	O	O	O, I-DT, B-CV, I-QT, B-OG
-12	##애	O	O	O, B-CV, I-CV, I-OG, B-OG
-13	##요	O	O	O, B-CV, I-OG, I-CV, B-LC
-14	.	O	O	O, B-CV, B-LC, I-OG, I-CV
-15	[SEP]	O	O	O, B-CV, B-LC, I-CV, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	내달	B-DT	B-DT
+2	말	I-DT	I-DT
+3	주재	O	O
+4	##키	O	O
+5	##로	O	O
+6	…	O	O
+7	연일	O	O
+8	'	O	O
+9	대선	O	B-EV
+10	주자	O	B-CV
+11	##급	O	O
+12	'	O	O
+13	민생	O	O
+14	행보	O	O
+15	[SEP]	O	O

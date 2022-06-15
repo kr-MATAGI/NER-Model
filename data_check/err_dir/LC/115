@@ -1,45 +1,36 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-QT
-1	지난	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-2	1	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-3	##월	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
-4	1	B-QT	B-QT	B-QT, I-QT, I-DT, O, B-DT
-5	.	I-QT	I-QT	I-QT, O, I-DT, B-QT, I-EV
-6	66	I-QT	I-QT	I-QT, B-QT, O, I-LC, I-DT
-7	%	I-QT	I-QT	I-QT, O, I-LC, I-OG, I-EV
-8	하락	O	O	O, I-QT, B-CV, B-TM, I-OG
-9	##했	O	O	O, B-OG, B-LC, B-CV, B-PS
-10	##던	O	O	O, B-OG, B-LC, B-CV, B-TM
-11	용인시	B-LC	B-OG	B-OG, B-LC, O, B-PS, I-OG
-12	##는	O	O	O, I-OG, I-AF, I-LC, I-EV
-13	지난	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-14	4	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-15	##월	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-16	,	O	O	O, I-DT, B-CV, B-OG, B-LC
-17	올	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-LC
-18	들어	O	O	O, I-DT, I-QT, I-AF, I-OG
-19	처음	O	O	O, B-QT, B-TM, B-CV, B-LC
-20	##으로	O	O	O, B-QT, I-QT, B-PS, B-LC
-21	0	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-LC
-22	.	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-EV
-23	15	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-24	%	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-OG
-25	올랐	O	O	O, I-QT, B-CV, I-OG, I-EV
-26	##고	O	O	O, B-CV, I-QT, B-OG, B-LC
-27	,	O	O	O, B-CV, B-LC, B-OG, B-PS
-28	5	B-DT	B-DT	B-DT, I-DT, O, B-QT, B-LC
-29	##월	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
-30	##에	O	O	O, I-DT, I-OG, I-EV, I-AF
-31	##는	O	O	O, B-CV, B-QT, B-OG, B-LC
-32	0	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-LC
-33	.	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-EV
-34	28	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-OG
-35	%	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-OG
-36	로	O	O	O, I-QT, I-OG, B-OG, I-EV
-37	상승	O	O	O, B-CV, B-TM, B-OG, I-QT
-38	##폭	O	O	O, B-OG, B-TM, I-OG, I-QT
-39	##이	O	O	O, B-PS, B-OG, B-CV, B-LC
-40	커졌	O	O	O, B-CV, B-OG, B-QT, B-TM
-41	##다	O	O	O, B-CV, I-OG, B-TM, I-CV
-42	.	O	O	O, B-LC, B-OG, B-CV, B-PS
-43	[SEP]	O	O	O, B-CV, B-LC, B-OG, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	홍	B-LC	B-LC
+2	##파	I-LC	I-LC
+3	##동	I-LC	I-LC
+4	##과	O	O
+5	하	B-LC	B-LC
+6	##왕	I-LC	I-LC
+7	##십리	I-LC	O
+8	##동	I-LC	I-LC
+9	역시	O	O
+10	각각	O	O
+11	돈의	B-AF	B-LC
+12	##문	I-AF	I-LC
+13	뉴타운	O	O
+14	##과	O	O
+15	왕십리	B-LC	B-LC
+16	뉴타운	O	O
+17	##으로	O	O
+18	지정	O	O
+19	##돼	O	O
+20	철거	O	O
+21	##를	O	O
+22	앞두	O	O
+23	##고	O	O
+24	있	O	O
+25	##거나	O	O
+26	부분	O	O
+27	##적	O	O
+28	##으로	O	O
+29	철거	O	O
+30	##에	O	O
+31	들어갔	O	O
+32	##다	O	O
+33	.	O	O
+34	[SEP]	O	O

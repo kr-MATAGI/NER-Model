@@ -1,29 +1,20 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	그	O	O	O, B-CV, B-OG, B-LC, B-PS
-2	스웨덴	B-LC	B-LC	B-LC, O, B-OG, I-LC, B-AF
-3	##의	O	O	O, I-LC, I-AF, I-OG, I-PS
-4	어느	O	O	O, B-CV, B-PS, B-QT, B-FD
-5	여류	B-CV	O	O, B-CV, B-FD, B-QT, B-OG
-6	작가	I-CV	B-CV	B-CV, I-CV, O, I-QT, I-PS
-7	##가	O	O	O, I-CV, I-QT, B-CV, B-PS
-8	쓰	O	O	O, B-FD, B-CV, B-AF, B-OG
-9	##신	O	O	O, I-AF, B-FD, I-CV, I-OG
-10	건데	O	O	O, B-CV, B-OG, B-PS, B-LC
-11	그	O	O	O, B-LC, B-CV, B-OG, B-AF
-12	히말라야	B-LC	B-LC	B-LC, O, I-LC, B-TM, B-OG
-13	산맥	I-LC	I-LC	I-LC, O, B-LC, I-AF, I-TM
-14	밑	O	O	O, B-TM, I-TM, B-LC, I-LC
-15	##에	O	O	O, I-TM, I-AF, I-OG, I-CV
-16	있	O	O	O, B-CV, B-LC, B-OG, B-TM
-17	##는	O	O	O, B-LC, B-CV, B-OG, B-PS
-18	라	B-LC	B-LC	B-LC, O, I-LC, B-OG, B-AF
-19	##다	I-LC	I-LC	I-LC, O, B-LC, I-AF, I-PS
-20	##크	I-LC	I-LC	I-LC, O, B-LC, I-AF, I-PS
-21	##란	O	I-LC	I-LC, O, B-LC, I-AF, I-QT
-22	지역	O	O	O, I-LC, B-LC, I-QT, I-AF
-23	##의	O	O	O, I-LC, I-AF, I-OG, B-FD
-24	이야기	O	O	O, B-FD, B-CV, B-AF, B-OG
-25	##입니다	O	O	O, I-AF, B-CV, I-OG, I-CV
-26	.	O	O	O, B-LC, B-CV, B-FD, B-AF
-27	[SEP]	O	O	O, B-CV, B-LC, B-FD, B-AF
+	text	label	preds
+0	[CLS]	O	O
+1	시민	O	B-EV
+2	##혁명	O	I-EV
+3	##이	O	O
+4	지금	O	O
+5	일어났	O	O
+6	##다는	O	O
+7	것	O	O
+8	##을	O	O
+9	전혀	O	O
+10	인식	O	O
+11	##하	O	O
+12	##지	O	O
+13	못하	O	O
+14	##고	O	O
+15	있	O	O
+16	##어요	O	O
+17	.	O	O
+18	[SEP]	O	O

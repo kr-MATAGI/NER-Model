@@ -1,51 +1,34 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	한편	O	O	O, B-QT, B-TM, B-OG, B-CV
-2	해양	B-OG	B-OG	B-OG, O, I-OG, B-CV, B-EV
-3	##경	I-OG	I-OG	I-OG, O, B-OG, I-EV, I-CV
-4	##비안	I-OG	I-OG	I-OG, O, I-EV, B-OG, I-CV
-5	##전	I-OG	I-OG	I-OG, O, I-EV, I-CV, B-OG
-6	##본부	I-OG	I-OG	I-OG, O, I-EV, I-CV, B-OG
-7	##는	O	O	O, I-OG, B-OG, I-EV, B-CV
-8	4	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-LC
-9	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-OG
-10	울릉도	B-LC	B-LC	B-LC, O, B-OG, B-AF, I-LC
-11	근	O	O	O, B-LC, I-LC, B-TM, B-AF
-12	##해	O	O	O, I-LC, B-LC, I-AF, I-TM
-13	##에서	O	O	O, B-LC, I-LC, B-CV, B-TM
-14	침수	O	O	O, B-LC, B-TM, B-CV, I-LC
-15	중	O	O	O, B-LC, B-PS, B-OG, B-TM
-16	##이	O	O	O, B-PS, B-LC, B-CV, B-OG
-17	##던	O	O	O, B-LC, B-OG, B-TM, B-PS
-18	북한	B-LC	B-LC	B-LC, O, B-OG, B-AF, B-PS
-19	선박	B-AF	B-AF	B-AF, O, I-AF, B-LC, I-LC
-20	##에서	O	O	O, I-AF, B-CV, B-LC, I-OG
-21	선원	B-CV	B-CV	B-CV, O, B-TM, I-CV, B-AM
-22	5	B-QT	B-QT	B-QT, I-QT, O, B-DT, I-CV
-23	##명	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-24	##을	O	O	O, I-QT, B-CV, I-EV, I-CV
-25	구조	O	O	O, B-CV, B-TM, B-LC, B-QT
-26	##했	O	O	O, B-LC, B-PS, B-OG, B-CV
-27	##으며	O	O	O, B-LC, B-OG, B-TM, B-CV
-28	이	O	O	O, B-TM, B-QT, B-OG, B-PS
-29	##들	O	O	O, B-TM, I-QT, B-PS, B-LC
-30	가운데	O	O	O, B-TM, B-QT, B-LC, B-AM
-31	3	B-QT	B-QT	B-QT, I-QT, O, B-DT, B-TM
-32	##명	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-TM
-33	##이	O	O	O, I-QT, B-PS, B-LC, B-CV
-34	남쪽	B-LC	B-TM	B-TM, B-LC, B-OG, O, B-AF
-35	##으로	O	O	O, I-TM, I-LC, I-OG, I-QT
-36	귀순	O	O	O, B-LC, B-CV, B-TM, B-OG
-37	##하	O	O	O, B-PS, B-LC, I-LC, B-CV
-38	##겠다	O	O	O, B-CV, B-LC, B-PS, B-TM
-39	##는	O	O	O, B-CV, B-TM, B-LC, B-PS
-40	뜻	O	O	O, B-CV, B-TM, B-LC, B-PS
-41	##을	O	O	O, B-CV, B-PS, B-OG, I-AF
-42	나타냈	O	O	O, B-CV, B-LC, B-OG, B-TM
-43	##다고	O	O	O, B-LC, B-OG, B-CV, B-PS
-44	통일부	B-OG	B-OG	B-OG, O, B-LC, B-AF, B-CV
-45	##가	O	O	O, I-OG, I-AF, I-EV, I-CV
-46	밝혔	O	O	O, B-CV, B-OG, B-LC, I-OG
-47	##다	O	O	O, B-CV, B-LC, B-TM, I-OG
-48	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-49	[SEP]	O	O	O, B-LC, B-CV, B-TM, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	정부	B-OG	B-OG
+2	당국자	B-CV	B-CV
+3	##는	O	O
+4	22	B-DT	B-DT
+5	##일	I-DT	I-DT
+6	""""	O	O
+7	북한	B-LC	B-OG
+8	##과	O	O
+9	양자	O	O
+10	접촉	O	O
+11	계획	O	O
+12	##이	O	O
+13	잡힌	O	O
+14	것	O	O
+15	##은	O	O
+16	없	O	O
+17	##지만	O	O
+18	모든	O	O
+19	가능	O	O
+20	##성	O	O
+21	##을	O	O
+22	열	O	O
+23	##어	O	O
+24	##두고	O	O
+25	있	O	O
+26	##다	O	O
+27	""""	O	O
+28	고	O	O
+29	했	O	O
+30	##다	O	O
+31	.	O	O
+32	[SEP]	O	O

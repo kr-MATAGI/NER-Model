@@ -1,18 +1,12 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	물론	O	O	O, B-CV, B-TM, B-PS, B-LC
-2	졸	O	O	O, B-CV, B-PS, B-LC, B-OG
-3	##입	O	O	O, I-PS, I-CV, I-LC, I-AF
-4	뒤	O	O	O, I-PS, I-CV, B-PS, I-AF
-5	##에	O	O	O, B-TM, B-PS, B-LC, B-CV
-6	##는	O	O	O, B-TM, B-LC, B-OG, B-CV
-7	생활	O	B-FD	B-FD, O, B-CV, B-TR, B-OG
-8	##체육	O	I-FD	I-FD, O, I-TR, B-FD, I-CV
-9	2	B-QT	B-QT	B-QT, I-QT, O, I-FD, B-DT
-10	##급	I-QT	I-QT	I-QT, O, I-TM, I-EV, I-AF
-11	지도자	O	B-CV	B-CV, O, I-QT, I-CV, B-TM
-12	자격증	O	O	O, I-CV, I-QT, I-TM, B-CV
-13	##이	O	O	O, B-PS, B-CV, B-OG, I-CV
-14	주어진다	O	O	O, B-CV, B-TM, B-PS, B-OG
-15	.	O	O	O, B-CV, B-PS, B-TM, B-LC
-16	[SEP]	O	O	O, B-CV, B-TM, B-PS, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	""""	O	O
+2	한	O	O
+3	보살	B-CV	B-CV
+4	##님	O	I-CV
+5	##이	O	O
+6	그러	O	O
+7	##셨	O	O
+8	##어요	O	O
+9	.	O	O
+10	[SEP]	O	O

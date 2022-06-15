@@ -1,16 +1,34 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	비정규직	B-CV	B-CV	B-CV, O, B-OG, B-AF, B-TM
-2	##은	O	O	O, I-CV, B-CV, I-AF, I-OG
-3	아무래도	O	O	O, B-CV, B-TM, B-QT, B-DT
-4	기간제	O	B-CV	B-CV, O, B-AF, B-PS, B-OG
-5	근로자	B-CV	B-CV	B-CV, I-CV, O, I-QT, B-DT
-6	##두	O	O	O, I-CV, I-DT, I-AF, I-QT
-7	있	O	O	O, B-CV, B-QT, B-PS, B-TM
-8	##고	O	O	O, B-PS, B-LC, I-QT, I-AF
-9	도급	O	O	O, B-CV, B-OG, B-AF, B-PS
-10	근로자	B-CV	B-CV	B-CV, I-CV, O, I-QT, I-OG
-11	##두	O	O	O, I-CV, I-QT, I-AF, I-EV
-12	이러	O	O	O, B-CV, B-TM, B-LC, B-OG
-13	##니까	O	O	O, B-CV, B-TM, I-AF, I-CV
-14	[SEP]	O	O	O, B-CV, B-LC, B-TM, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	뒤늦	O	O
+2	##은	O	O
+3	감은	O	O
+4	있	O	O
+5	##어도	O	O
+6	화가	B-CV	B-CV
+7	##를	O	O
+8	세계	O	O
+9	##에	O	O
+10	알리	O	O
+11	##기	O	O
+12	위한	O	O
+13	첫	O	O
+14	단계	O	O
+15	##로	O	O
+16	영문	O	B-CV
+17	화	O	O
+18	##집	O	O
+19	##의	O	O
+20	출간	O	O
+21	##을	O	O
+22	기념	O	O
+23	##하	O	O
+24	##는	O	O
+25	전시	O	O
+26	##이	O	O
+27	##기	O	O
+28	##도	O	O
+29	하	O	O
+30	##다	O	O
+31	.	O	O
+32	[SEP]	O	O

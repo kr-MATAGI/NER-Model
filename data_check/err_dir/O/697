@@ -1,47 +1,14 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-QT
-1	그러나	O	O	O, B-TM, B-QT, B-CV, B-OG
-2	어업	O	O	O, B-CV, B-TM, I-CV, B-AM
-3	##보	O	O	O, I-CV, B-CV, I-TM, I-QT
-4	##상	O	O	O, I-CV, I-TM, I-QT, B-CV
-5	##은	O	O	O, I-CV, B-CV, B-PS, I-QT
-6	당초	O	O	O, B-CV, B-OG, B-TM, B-LC
-7	마스터플랜	O	O	O, B-AF, B-TM, B-EV, B-OG
-8	##에서	O	O	O, I-AF, B-CV, B-PS, I-OG
-9	제시	O	O	O, B-OG, B-TM, B-CV, B-LC
-10	##한	O	O	O, B-PS, B-LC, B-OG, B-CV
-11	4	B-LC	B-TM	B-TM, I-TM, B-LC, O, B-QT
-12	##대	I-LC	I-TM	I-TM, O, I-QT, B-TM, I-LC
-13	##강	I-LC	I-TM	I-TM, O, I-QT, B-TM, I-LC
-14	살리	O	I-TM	I-TM, O, I-QT, B-TM, I-LC
-15	##기	O	I-TM	I-TM, O, I-QT, I-AF, I-LC
-16	사업	O	I-TM	I-TM, O, I-QT, I-AF, I-CV
-17	##의	O	O	O, I-TM, I-QT, I-AF, I-OG
-18	토지	O	O	O, B-CV, B-LC, B-FD, B-AF
-19	##보	O	O	O, I-CV, B-CV, I-LC, I-AF
-20	##상	O	O	O, I-CV, B-CV, I-LC, I-TM
-21	##비	O	O	O, I-CV, I-LC, B-CV, I-TM
-22	(	O	O	O, B-CV, B-LC, B-OG, I-CV
-23	1	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-LC
-24	##조	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-25	##50	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-26	##00	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-27	##억	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-28	##원	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-29	)	O	O	O, I-QT, B-CV, I-OG, I-CV
-30	에는	O	O	O, B-LC, B-TM, B-OG, B-QT
-31	제외	O	O	O, B-QT, B-TM, B-LC, B-CV
-32	##된	O	O	O, B-PS, B-LC, I-QT, B-QT
-33	금액	O	O	O, B-QT, B-CV, B-TM, I-QT
-34	##이어	O	O	O, B-CV, B-OG, B-TM, B-LC
-35	##서	O	O	O, B-CV, B-LC, B-TM, B-OG
-36	보상비	O	O	O, B-CV, B-FD, B-TM, B-TR
-37	증가	O	O	O, B-CV, I-CV, B-TM, I-QT
-38	요인	O	O	O, B-CV, B-TM, B-QT, B-LC
-39	##으로	O	O	O, B-CV, B-TM, B-OG, B-LC
-40	작용	O	O	O, B-CV, B-TM, B-QT, B-LC
-41	##할	O	O	O, B-PS, B-CV, B-LC, B-TM
-42	전망	O	O	O, B-CV, B-TM, B-QT, B-LC
-43	##이다	O	O	O, B-CV, B-TM, B-QT, I-QT
-44	.	O	O	O, B-LC, B-TM, B-CV, B-OG
-45	[SEP]	O	O	O, B-LC, B-CV, B-TM, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	고영	B-PS	B-PS
+2	##태	I-PS	I-PS
+3	씨	O	O
+4	##가	O	O
+5	장애인	B-CV	B-OG
+6	연극	O	I-OG
+7	##단	O	I-OG
+8	xxx	O	O
+9	##과	O	O
+10	관련	O	O
+11	##해서	O	O
+12	[SEP]	O	O

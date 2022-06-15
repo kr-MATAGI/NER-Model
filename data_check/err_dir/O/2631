@@ -1,50 +1,45 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-EV, I-OG, I-CV
-1	아베	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-2	총리	B-CV	B-CV	B-CV, O, I-PS, I-CV, B-OG
-3	##는	O	O	O, I-CV, I-EV, B-CV, I-OG
-4	이날	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-QT
-5	저녁	B-TI	B-TI	B-TI, O, I-TI, I-DT, B-EV
-6	기자	O	O	O, I-EV, I-TI, B-CV, B-LC
-7	##회	O	O	O, I-EV, B-LC, B-EV, B-PS
-8	##견	O	O	O, I-EV, B-LC, I-OG, I-LC
-9	##에서	O	O	O, B-LC, I-EV, B-CV, B-OG
-10	“	O	O	O, B-LC, B-OG, B-CV, B-PS
-11	미일	B-LC	B-LC	B-LC, O, B-OG, B-PS, B-CV
-12	동맹	O	O	O, B-OG, B-LC, I-OG, I-LC
-13	##을	O	O	O, I-OG, I-LC, I-CV, I-AF
-14	강화	O	O	O, B-LC, B-OG, B-CV, B-PS
-15	##해	O	O	O, B-LC, B-PS, B-OG, I-LC
-16	억지	O	O	O, B-LC, B-OG, B-CV, I-OG
-17	##력	O	O	O, B-LC, I-LC, I-OG, B-OG
-18	##을	O	O	O, B-CV, B-PS, B-LC, I-OG
-19	높일	O	O	O, B-LC, B-CV, B-PS, B-OG
-20	수	O	O	O, B-LC, B-PS, B-OG, B-CV
-21	있	O	O	O, B-LC, B-CV, B-PS, B-OG
-22	##다	O	O	O, B-PS, B-CV, B-LC, I-OG
-23	”	O	O	O, B-CV, B-LC, B-PS, B-OG
-24	며	O	O	O, B-LC, B-CV, B-OG, B-PS
-25	“	O	O	O, B-CV, B-LC, B-OG, B-PS
-26	전쟁	O	B-CV	B-CV, O, I-CV, B-OG, B-AF
-27	##법	O	I-CV	I-CV, O, B-CV, I-OG, I-AF
-28	##안	O	I-CV	I-CV, O, B-CV, I-OG, I-QT
-29	##이	O	O	O, I-CV, B-PS, I-OG, B-LC
-30	##라고	O	O	O, B-LC, B-PS, B-CV, B-OG
-31	딱지	O	O	O, B-CV, B-LC, B-AF, B-TM
-32	##를	O	O	O, B-CV, B-LC, I-AF, B-OG
-33	붙이	O	O	O, B-CV, B-LC, B-PS, B-OG
-34	##는	O	O	O, B-CV, B-LC, B-OG, B-PS
-35	것	O	O	O, B-CV, B-LC, B-OG, B-PS
-36	##은	O	O	O, B-CV, B-LC, B-OG, B-PS
-37	완전히	O	O	O, B-LC, B-CV, B-OG, B-PS
-38	잘못	O	O	O, B-CV, B-LC, B-PS, B-OG
-39	##된	O	O	O, B-LC, B-PS, B-CV, B-OG
-40	것	O	O	O, B-CV, B-LC, B-PS, B-OG
-41	”	O	O	O, B-CV, B-LC, I-OG, B-TM
-42	이라	O	O	O, B-CV, B-PS, B-LC, B-OG
-43	##고	O	O	O, B-CV, B-LC, B-TM, B-OG
-44	강조	O	O	O, B-CV, B-LC, B-OG, B-TM
-45	##했	O	O	O, B-LC, B-CV, B-PS, I-EV
-46	##다	O	O	O, B-CV, B-LC, I-EV, B-OG
-47	.	O	O	O, B-LC, B-PS, B-CV, B-OG
-48	[SEP]	O	O	O, B-LC, B-CV, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	◆	O	O
+2	##문화	O	O
+3	·	O	O
+4	관광	O	O
+5	분야	O	O
+6	=	O	O
+7	아시아	B-EV	B-EV
+8	##경기	I-EV	I-EV
+9	##대	I-EV	I-EV
+10	##회	I-EV	I-EV
+11	관련	O	O
+12	경기장	O	O
+13	##과	O	O
+14	도로	O	O
+15	건설	O	O
+16	46	B-QT	B-QT
+17	##40	I-QT	I-QT
+18	##억	I-QT	I-QT
+19	##원	I-QT	I-QT
+20	,	O	O
+21	중구	B-LC	B-LC
+22	문화	O	B-AF
+23	##회관	O	I-AF
+24	건립	O	O
+25	36	B-QT	B-QT
+26	##억	I-QT	I-QT
+27	##원	I-QT	I-QT
+28	,	O	O
+29	공공	O	O
+30	도서관	O	O
+31	확충	O	O
+32	140	B-QT	B-QT
+33	##억	I-QT	I-QT
+34	##원	I-QT	I-QT
+35	,	O	O
+36	로봇	B-LC	B-LC
+37	##랜드	I-LC	I-LC
+38	조성	O	O
+39	130	B-QT	B-QT
+40	##억	I-QT	I-QT
+41	##원	I-QT	I-QT
+42	.	O	O
+43	[SEP]	O	O

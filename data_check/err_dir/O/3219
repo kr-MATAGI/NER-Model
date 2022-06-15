@@ -1,56 +1,16 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	대우	B-OG	B-OG	B-OG, O, B-LC, B-AF, B-PS
-2	##조선	I-OG	I-OG	I-OG, O, I-AF, I-LC, I-PS
-3	##은	O	O	O, I-OG, B-CV, I-AF, I-EV
-4	“	O	O	O, B-CV, B-LC, B-OG, I-OG
-5	최근	O	O	O, B-LC, B-CV, B-PS, B-OG
-6	실시	O	O	O, B-LC, B-CV, B-OG, B-PS
-7	##된	O	O	O, B-LC, B-PS, B-OG, B-CV
-8	채권	O	O	O, B-CV, B-OG, B-EV, B-PS
-9	##단	O	O	O, I-OG, I-CV, I-AF, I-EV
-10	실사	O	O	O, B-CV, B-LC, I-OG, B-OG
-11	과정	O	O	O, I-OG, B-CV, I-EV, B-LC
-12	##에서	O	O	O, B-CV, B-PS, B-LC, B-OG
-13	파악	O	O	O, B-CV, B-PS, B-LC, B-OG
-14	##된	O	O	O, B-PS, B-LC, B-OG, B-CV
-15	총	O	O	O, B-CV, B-PS, B-QT, B-OG
-16	##예	O	O	O, B-CV, I-CV, B-PS, B-QT
-17	##정원	O	O	O, I-CV, B-CV, I-QT, B-QT
-18	##가	O	O	O, I-CV, I-QT, B-CV, B-QT
-19	##의	O	O	O, B-PS, I-CV, B-CV, B-LC
-20	추가	O	O	O, B-CV, B-QT, B-PS, B-LC
-21	반영	O	O	O, B-CV, I-CV, B-PS, B-QT
-22	##분	O	O	O, I-CV, B-PS, B-CV, I-QT
-23	##과	O	O	O, B-LC, B-PS, B-CV, B-OG
-24	드릴	O	B-AF	B-AF, O, B-OG, B-TM, B-CV
-25	##십	O	I-AF	I-AF, O, I-TM, I-OG, I-CV
-26	계약	O	O	O, I-AF, I-CV, I-OG, I-EV
-27	해지	O	O	O, I-CV, B-CV, I-AF, I-OG
-28	,	O	O	O, B-LC, B-PS, B-OG, B-CV
-29	장기	O	O	O, B-CV, B-AF, B-TM, B-LC
-30	##매	O	O	O, I-CV, B-CV, I-AF, I-TM
-31	##출	O	O	O, I-CV, I-AF, B-CV, I-TM
-32	##채권	O	O	O, I-CV, I-AF, B-CV, I-TM
-33	##에	O	O	O, I-CV, I-AF, B-CV, B-PS
-34	대한	O	O	O, B-CV, B-LC, B-OG, B-TM
-35	대손	O	O	O, B-CV, I-CV, B-TM, B-MT
-36	##충	O	O	O, I-CV, B-CV, I-AF, I-TM
-37	##당	O	O	O, I-CV, B-CV, I-MT, I-AF
-38	##금	O	O	O, I-CV, I-MT, B-CV, I-AF
-39	등	O	O	O, B-PS, I-CV, B-LC, B-CV
-40	손실	O	O	O, B-CV, B-TM, B-LC, B-QT
-41	##을	O	O	O, B-CV, B-PS, B-OG, I-CV
-42	3	O	O	O, B-PS, B-LC, B-OG, B-CV
-43	##분	O	O	O, B-PS, B-CV, I-QT, I-DT
-44	##기에	O	O	O, B-PS, B-CV, B-LC, B-OG
-45	반영	O	O	O, B-CV, B-LC, B-OG, B-PS
-46	##했	O	O	O, B-PS, B-LC, B-OG, B-CV
-47	##다	O	O	O, B-CV, B-OG, B-LC, I-OG
-48	”	O	O	O, B-CV, B-LC, B-OG, I-OG
-49	고	O	O	O, B-CV, B-LC, B-OG, B-TM
-50	설명	O	O	O, B-CV, B-OG, B-TM, B-LC
-51	##했	O	O	O, B-CV, B-OG, B-LC, I-OG
-52	##다	O	O	O, B-CV, B-OG, B-LC, B-TM
-53	.	O	O	O, B-LC, B-CV, B-OG, B-PS
-54	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	아니	O	O
+2	협박	O	B-CV
+3	##하니	O	O
+4	##까	O	O
+5	줄	O	O
+6	수	O	O
+7	##밖	O	O
+8	##에	O	O
+9	없	O	O
+10	##었	O	O
+11	##다고	O	O
+12	하	O	O
+13	##면	O	O
+14	[SEP]	O	O

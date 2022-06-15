@@ -1,63 +1,29 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-EV, I-OG, I-CV
-1	주	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-2	##펑	I-PS	I-PS	I-PS, O, I-OG, B-PS, I-LC
-3	(	O	O	O, I-PS, I-OG, B-LC, B-CV
-4	[UNK]	O	O	O, B-LC, B-PS, B-CV, B-OG
-5	[UNK]	O	O	O, B-PS, B-LC, B-CV, B-OG
-6	)	O	O	O, B-LC, B-PS, B-OG, B-CV
-7	베이징	B-OG	B-OG	B-OG, B-LC, O, B-AF, B-PS
-8	##대	I-OG	I-OG	I-OG, O, I-LC, I-AF, I-PS
-9	국제	B-OG	O	O, B-OG, B-FD, I-OG, B-CV
-10	##관계	I-OG	O	O, I-OG, I-FD, I-CV, I-AF
-11	##학	I-OG	O	O, I-OG, I-FD, I-CV, I-AF
-12	##원	I-OG	O	O, I-OG, I-FD, I-CV, I-AF
-13	교수	B-CV	B-CV	B-CV, O, I-CV, B-FD, I-OG
-14	##는	O	O	O, I-CV, B-CV, I-EV, I-OG
-15	3	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-16	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-17	동아일보	B-OG	B-OG	B-OG, O, B-AF, I-OG, B-CV
-18	##와	O	O	O, I-OG, I-DT, I-EV, B-CV
-19	##의	O	O	O, B-CV, B-OG, B-LC, B-EV
-20	통화	O	O	O, B-EV, B-CV, B-LC, B-OG
-21	##에서	O	O	O, I-EV, B-CV, B-OG, B-LC
-22	“	O	O	O, B-LC, B-CV, B-OG, B-PS
-23	우	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-24	대표	B-CV	B-CV	B-CV, O, I-PS, I-CV, B-AF
-25	##의	O	O	O, I-CV, I-EV, B-CV, I-AF
-26	방북	O	O	O, B-LC, B-CV, B-EV, B-TM
-27	##은	O	O	O, I-EV, B-LC, B-CV, B-PS
-28	‘	O	O	O, B-LC, B-CV, B-PS, B-OG
-29	설득	O	O	O, B-LC, B-PS, B-CV, B-FD
-30	외교	O	O	O, B-CV, B-FD, B-LC, B-PS
-31	##의	O	O	O, B-PS, B-LC, B-OG, B-CV
-32	길	O	O	O, B-LC, B-PS, B-OG, B-CV
-33	’	O	O	O, B-CV, B-LC, B-PS, B-OG
-34	이	O	O	O, B-PS, B-OG, B-LC, B-CV
-35	될	O	O	O, B-CV, B-LC, B-PS, B-OG
-36	것	O	O	O, B-PS, B-LC, B-CV, B-OG
-37	”	O	O	O, B-CV, B-LC, B-PS, I-EV
-38	이라	O	O	O, B-CV, B-PS, B-OG, B-LC
-39	##며	O	O	O, B-CV, B-LC, B-OG, B-TM
-40	“	O	O	O, B-LC, B-CV, B-OG, B-TM
-41	설득	O	O	O, B-LC, B-CV, B-EV, B-PS
-42	외교	O	O	O, B-CV, B-FD, B-LC, B-OG
-43	##가	O	O	O, B-PS, B-LC, I-EV, B-OG
-44	실패	O	O	O, B-LC, B-CV, B-OG, B-TM
-45	##할	O	O	O, B-LC, B-OG, B-PS, B-CV
-46	경우	O	O	O, B-LC, B-OG, B-CV, B-TM
-47	중국	B-LC	B-LC	B-LC, B-OG, O, B-PS, B-AF
-48	##에도	O	O	O, I-LC, I-OG, I-EV, B-LC
-49	큰	O	O	O, B-LC, B-TM, B-CV, B-OG
-50	영향	O	O	O, B-LC, B-TM, B-CV, B-PS
-51	##을	O	O	O, B-CV, B-PS, B-LC, B-OG
-52	미칠	O	O	O, B-LC, B-PS, B-CV, B-TM
-53	것	O	O	O, B-PS, B-LC, B-CV, B-OG
-54	”	O	O	O, B-CV, B-TM, B-LC, I-EV
-55	이라	O	O	O, B-CV, B-PS, B-LC, B-TM
-56	##고	O	O	O, B-CV, B-TM, B-QT, B-LC
-57	말	O	O	O, B-CV, B-TM, B-LC, B-OG
-58	##했	O	O	O, B-CV, B-PS, B-LC, B-OG
-59	##다	O	O	O, B-CV, B-LC, B-TM, B-OG
-60	.	O	O	O, B-LC, B-PS, B-OG, B-CV
-61	[SEP]	O	O	O, B-LC, B-CV, I-EV, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	어제	O	B-DT
+2	오후	B-TI	B-TI
+3	##에	O	O
+4	국회	B-OG	B-OG
+5	정	B-OG	O
+6	##농	I-OG	O
+7	##관	I-OG	O
+8	##에	O	O
+9	전격	O	O
+10	##적	O	O
+11	##인	O	O
+12	정의당	B-OG	B-OG
+13	심상정	B-PS	B-PS
+14	대표	B-CV	B-CV
+15	##를	O	O
+16	만나	O	O
+17	##고	O	O
+18	바로	O	O
+19	정동	O	O
+20	##관	O	O
+21	##으로	O	O
+22	가	O	O
+23	##버린	O	O
+24	거	O	O
+25	아닙니까	O	O
+26	.	O	O
+27	[SEP]	O	O

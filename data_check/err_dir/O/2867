@@ -1,16 +1,27 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	화성	B-LC	B-LC	B-LC, O, B-MT, B-DT, B-AF
-2	크기	O	O	O, I-LC, I-TM, I-OG, I-AF
-3	##의	O	O	O, B-PS, I-AF, B-TM, I-OG
-4	행성	O	O	O, B-LC, B-AF, I-LC, B-MT
-5	##과	O	O	O, I-AF, B-CV, B-AF, B-TM
-6	부딪쳐	O	O	O, B-TM, B-LC, B-QT, B-CV
-7	한	O	B-QT	B-QT, O, B-DT, B-TM, B-AM
-8	몸	B-AM	I-QT	I-QT, B-AM, O, I-AM, I-DT
-9	##이	O	O	O, I-QT, I-AF, B-PS, I-EV
-10	된	O	O	O, B-QT, B-CV, B-TM, B-LC
-11	것	O	O	O, B-CV, B-PS, B-OG, B-TM
-12	##이다	O	O	O, B-CV, B-TM, I-EV, I-AF
-13	.	O	O	O, B-LC, B-CV, B-PS, B-AF
-14	[SEP]	O	O	O, B-CV, B-LC, B-AF, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	그러나	O	O
+2	서울시	B-OG	B-OG
+3	##교육	I-OG	I-OG
+4	##청	I-OG	I-OG
+5	등	O	O
+6	5	B-QT	B-QT
+7	##개	I-QT	I-QT
+8	교육청	O	B-OG
+9	##은	O	O
+10	올해	B-DT	B-DT
+11	민간	O	O
+12	##업체	O	O
+13	##인	O	O
+14	참	O	B-OG
+15	##교육	O	I-OG
+16	##연수원	O	I-OG
+17	##과	O	O
+18	수의	O	O
+19	##계약	O	O
+20	##을	O	O
+21	체결	O	O
+22	##했	O	O
+23	##다	O	O
+24	.	O	O
+25	[SEP]	O	O

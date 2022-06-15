@@ -1,49 +1,60 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-QT
-1	김현수	B-PS	B-PS	B-PS, B-OG, I-PS, O, B-LC
-2	##의	O	O	O, I-PS, I-OG, B-CV, I-AF
-3	내야	B-TM	B-TM	B-TM, O, B-CV, B-QT, B-TR
-4	##안	I-TM	I-TM	I-TM, O, B-TM, I-QT, I-CV
-5	##타	I-TM	I-TM	I-TM, O, I-QT, B-TM, I-CV
-6	##로	O	O	O, I-TM, I-QT, I-OG, I-AF
-7	3	B-TM	B-TM	B-TM, O, B-CV, B-QT, B-AF
-8	##루	I-TM	I-TM	I-TM, O, I-QT, I-CV, B-TM
-9	##에	O	O	O, I-TM, I-QT, I-AF, I-CV
-10	도착	O	O	O, B-CV, B-OG, B-AF, B-LC
-11	##한	O	O	O, B-PS, B-LC, B-CV, B-OG
-12	조	B-PS	B-PS	B-PS, O, I-PS, B-OG, B-LC
-13	##너	I-PS	I-PS	I-PS, O, I-OG, B-PS, I-LC
-14	##선	I-PS	I-PS	I-PS, O, I-OG, B-PS, I-LC
-15	스코	I-PS	I-PS	I-PS, O, B-PS, I-OG, I-LC
-16	##프	I-PS	I-PS	I-PS, O, I-LC, I-OG, B-PS
-17	##는	O	O	O, I-PS, I-OG, I-LC, B-CV
-18	조이	B-PS	B-PS	B-PS, O, I-PS, B-OG, B-LC
-19	리카	I-PS	I-PS	I-PS, O, B-PS, I-OG, I-LC
-20	##드	I-PS	I-PS	I-PS, O, I-OG, I-LC, B-PS
-21	##의	O	O	O, I-PS, I-OG, B-CV, I-AF
-22	중견수	B-CV	B-CV	B-CV, B-TM, O, B-AF, B-OG
-23	희생	B-TM	B-TM	B-TM, I-TM, O, B-CV, B-QT
-24	##플	I-TM	I-TM	I-TM, O, B-TM, I-QT, I-CV
-25	##라이	I-TM	I-TM	I-TM, O, I-QT, B-TM, I-CV
-26	##로	O	O	O, I-TM, I-QT, I-CV, I-AF
-27	홈	B-TM	O	O, B-TM, B-LC, B-AF, B-CV
-28	##을	O	O	O, I-TM, B-CV, B-TM, I-AF
-29	밟	O	O	O, B-TM, B-LC, B-CV, I-TM
-30	##았	O	O	O, B-CV, I-CV, I-TM, B-PS
-31	##고	O	O	O, B-PS, B-CV, B-LC, B-TM
-32	김현수	B-PS	B-PS	B-PS, B-OG, I-PS, O, B-LC
-33	##도	O	O	O, I-PS, I-OG, I-AF, I-QT
-34	매니	B-PS	B-PS	B-PS, O, I-PS, B-OG, B-LC
-35	마차	I-PS	I-PS	I-PS, O, B-PS, I-OG, I-LC
-36	##도	I-PS	I-PS	I-PS, O, I-LC, I-OG, I-QT
-37	##의	O	O	O, I-PS, I-QT, I-EV, I-OG
-38	2	B-TM	B-TM	B-TM, B-QT, B-EV, B-AF, B-TR
-39	##점	I-TM	I-TM	I-TM, I-QT, I-TR, I-AF, B-TM
-40	홈런	I-TM	I-TM	I-TM, I-QT, B-TM, I-TR, I-AF
-41	때	O	O	O, I-TM, I-QT, I-EV, I-AF
-42	득점	O	O	O, B-TM, B-LC, I-TM, B-QT
-43	##을	O	O	O, B-CV, I-TM, I-AF, I-QT
-44	올렸	O	O	O, B-CV, B-TM, B-QT, B-LC
-45	##다	O	O	O, B-CV, B-TM, B-QT, I-QT
-46	.	O	O	O, B-PS, B-TM, B-LC, B-CV
-47	[SEP]	O	O	O, B-TM, B-CV, B-PS, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	이곳	O	O
+2	##에	O	O
+3	##서	O	O
+4	히트	O	O
+5	##작	O	O
+6	##이	O	O
+7	상영	O	O
+8	##될	O	O
+9	때	O	O
+10	##는	O	O
+11	매표소	O	O
+12	##부터	O	O
+13	시작	O	O
+14	##된	O	O
+15	줄이	O	O
+16	극장	O	O
+17	뒤편	B-TM	O
+18	##으로	O	O
+19	돌아	O	O
+20	필	B-LC	B-LC
+21	##동	I-LC	I-LC
+22	‘	O	O
+23	한국	B-AF	B-AF
+24	##의	I-AF	I-AF
+25	집	I-AF	I-AF
+26	’	O	O
+27	까지	O	O
+28	늘어	O	O
+29	##서	O	O
+30	##거나	O	O
+31	,	O	O
+32	극장	O	O
+33	앞	B-TM	B-TM
+34	지하	O	O
+35	##도	O	O
+36	입구	O	O
+37	##로	O	O
+38	내려가	O	O
+39	왕복	O	O
+40	8	B-QT	B-QT
+41	##차	I-QT	I-QT
+42	##로	I-QT	I-QT
+43	건너편	O	O
+44	극동	B-AF	B-AF
+45	##빌	I-AF	I-AF
+46	##딩	I-AF	I-AF
+47	앞	B-TM	B-TM
+48	지하	O	O
+49	##도	O	O
+50	출구	O	O
+51	##로	O	O
+52	나오	O	O
+53	##기	O	O
+54	##도	O	O
+55	했	O	O
+56	##다	O	O
+57	.	O	O
+58	[SEP]	O	O

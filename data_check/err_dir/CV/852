@@ -1,22 +1,93 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	그렇	O	O	O, B-CV, B-OG, B-TM, B-LC
-2	##죠	O	O	O, B-CV, I-CV, I-OG, I-AF
-3	.	O	O	O, B-CV, B-LC, B-PS, B-OG
-4	근데	O	O	O, B-CV, B-LC, B-OG, B-PS
-5	아마	O	O	O, B-CV, B-PS, B-TM, B-QT
-6	이런	O	O	O, B-CV, B-PS, B-LC, B-TM
-7	경우	O	O	O, B-CV, B-PS, B-OG, I-CV
-8	##를	O	O	O, B-CV, B-PS, I-CV, I-AF
-9	저	O	O	O, B-CV, B-PS, B-OG, B-LC
-10	대표	B-CV	B-CV	B-CV, O, I-CV, B-AF, B-TM
-11	이사	I-CV	B-CV	B-CV, O, I-CV, B-TM, B-FD
-12	비서	B-CV	B-CV	B-CV, O, I-CV, B-FD, B-TM
-13	실	O	O	O, I-CV, I-OG, B-CV, I-AF
-14	저	O	O	O, B-CV, B-PS, B-OG, B-TM
-15	비서	B-CV	B-CV	B-CV, O, I-CV, B-AF, B-TM
-16	정도	O	O	O, I-CV, I-QT, I-OG, B-QT
-17	##라고	O	O	O, I-CV, B-CV, I-QT, B-QT
-18	하	O	O	O, B-CV, B-OG, B-TM, B-QT
-19	##면	O	O	O, B-CV, B-OG, B-LC, I-QT
-20	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	연구소	O	O
+2	##는	O	O
+3	“	O	O
+4	부부	B-CV	B-CV
+5	##의	O	O
+6	나이	O	O
+7	차이	O	O
+8	##에	O	O
+9	따라	O	O
+10	은퇴	O	O
+11	후	O	O
+12	노후	O	O
+13	##기	O	O
+14	##간	O	O
+15	##이	O	O
+16	변하	O	O
+17	##기	O	O
+18	때문	O	O
+19	##에	O	O
+20	필요	O	O
+21	##한	O	O
+22	은퇴	B-CV	O
+23	##자	I-CV	O
+24	##금	I-CV	O
+25	##도	O	O
+26	달라진다	O	O
+27	”	O	O
+28	며	O	O
+29	“	O	O
+30	남편	B-CV	B-CV
+31	##이	O	O
+32	2	B-QT	B-QT
+33	~	I-QT	I-QT
+34	3	I-QT	I-QT
+35	##살	I-QT	I-QT
+36	연상	O	O
+37	##인	O	O
+38	부부	B-CV	B-CV
+39	##를	O	O
+40	가정	O	O
+41	##하	O	O
+42	##고	O	O
+43	아내	B-CV	B-CV
+44	##의	O	O
+45	기대	O	O
+46	##여	O	O
+47	##명	O	O
+48	##만	O	O
+49	##을	O	O
+50	감안	O	O
+51	##하	O	O
+52	##는	O	O
+53	기존	O	O
+54	은퇴	O	O
+55	##설	O	O
+56	##계	O	O
+57	대신	O	O
+58	,	O	O
+59	부부	B-CV	B-CV
+60	##의	O	O
+61	다양	O	O
+62	##한	O	O
+63	나이	O	O
+64	##차	O	O
+65	##를	O	O
+66	반영	O	O
+67	##하	O	O
+68	##고	O	O
+69	부부	B-CV	B-CV
+70	##의	O	O
+71	기대	O	O
+72	##여	O	O
+73	##명	O	O
+74	##에	O	O
+75	바탕	O	O
+76	##을	O	O
+77	둔	O	O
+78	은퇴	O	O
+79	##설	O	O
+80	##계	O	O
+81	##가	O	O
+82	필요	O	O
+83	##하	O	O
+84	##다	O	O
+85	”	O	O
+86	고	O	O
+87	설명	O	O
+88	##했	O	O
+89	##다	O	O
+90	.	O	O
+91	[SEP]	O	O

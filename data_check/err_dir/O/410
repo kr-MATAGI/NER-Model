@@ -1,54 +1,44 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	손연재	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-2	##는	O	O	O, I-PS, B-CV, I-OG, I-AF
-3	현재	O	O	O, B-LC, B-CV, B-OG, B-QT
-4	LG	B-OG	B-OG	B-OG, O, B-AF, B-LC, B-PS
-5	##전자	I-OG	I-OG	I-OG, O, B-OG, I-LC, I-AF
-6	(	O	O	O, I-OG, B-CV, I-QT, I-AF
-7	에어컨	B-TM	B-TM	B-TM, O, B-AF, B-CV, B-OG
-8	)	O	O	O, I-TM, I-OG, I-CV, I-EV
-9	,	O	O	O, B-CV, B-LC, B-OG, B-PS
-10	KCC	B-OG	B-OG	B-OG, O, B-AF, B-PS, I-OG
-11	##건설	I-OG	I-OG	I-OG, O, I-AF, B-OG, I-LC
-12	(	O	O	O, I-OG, I-AF, B-CV, I-CV
-13	아파트	O	O	O, B-AF, B-FD, B-CV, B-TM
-14	)	O	O	O, B-CV, I-AF, I-OG, I-CV
-15	,	O	O	O, B-CV, B-OG, B-LC, B-PS
-16	P	O	B-OG	B-OG, O, B-AF, B-CV, I-OG
-17	&	O	I-OG	I-OG, O, B-OG, I-AF, I-CV
-18	G	O	I-OG	I-OG, O, B-OG, I-AF, I-CV
-19	(	O	O	O, I-OG, I-CV, I-AF, B-CV
-20	생활	O	O	O, B-FD, B-OG, B-AF, B-CV
-21	##용품	O	O	O, I-OG, I-AF, I-FD, I-CV
-22	)	O	O	O, I-OG, I-AF, I-CV, B-CV
-23	등	O	O	O, B-CV, B-LC, B-OG, B-PS
-24	##에	O	O	O, B-CV, B-LC, B-OG, B-PS
-25	출연	O	O	O, B-CV, B-LC, B-TM, B-PS
-26	##하고	O	O	O, B-CV, B-PS, I-CV, B-LC
-27	있	O	O	O, B-CV, B-PS, B-LC, B-OG
-28	##는데	O	O	O, B-CV, B-OG, B-LC, B-PS
-29	,	O	O	O, B-CV, B-LC, B-OG, B-PS
-30	깨끗	O	O	O, B-CV, B-PS, B-LC, B-TM
-31	##한	O	O	O, B-PS, I-PS, B-LC, I-OG
-32	이미지	O	O	O, B-CV, B-PS, B-LC, B-TM
-33	##와	O	O	O, B-CV, B-PS, B-LC, B-TM
-34	어울리	O	O	O, B-CV, B-FD, B-TM, B-LC
-35	##는	O	O	O, B-CV, I-CV, B-FD, B-PS
-36	화장품	O	O	O, B-CV, I-CV, B-FD, B-TM
-37	·	O	O	O, I-CV, B-PS, B-CV, B-LC
-38	의류	O	O	O, B-CV, I-CV, B-TM, B-FD
-39	·	O	O	O, I-CV, B-PS, B-LC, B-CV
-40	비타민	B-CV	B-CV	B-CV, O, B-MT, B-AF, B-PT
-41	음료	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-AF
-42	광고	O	O	O, I-CV, B-CV, B-FD, B-TM
-43	요청	O	O	O, B-CV, I-CV, B-LC, B-TM
-44	##이	O	O	O, B-PS, B-OG, B-CV, B-LC
-45	밀려들	O	O	O, B-CV, B-OG, B-LC, B-PS
-46	##고	O	O	O, B-CV, B-PS, B-LC, B-OG
-47	있	O	O	O, B-CV, B-PS, B-OG, B-LC
-48	##다는	O	O	O, B-OG, I-OG, B-PS, B-LC
-49	것	O	O	O, B-OG, B-CV, B-TM, B-PS
-50	##이다	O	O	O, B-CV, I-OG, I-QT, I-CV
-51	.	O	O	O, B-LC, B-CV, B-OG, B-PS
-52	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	수많	O	O
+2	##은	O	O
+3	가수	O	B-CV
+4	##가	O	O
+5	‘	O	O
+6	유	O	B-AF
+7	레이	O	I-AF
+8	##즈	O	I-AF
+9	미	B-LC	I-AF
+10	업	O	I-AF
+11	’	O	O
+12	을	O	O
+13	불렀	O	O
+14	##지만	O	O
+15	이	O	O
+16	노래	O	O
+17	##를	O	O
+18	여전히	O	O
+19	미국	B-LC	B-LC
+20	##의	O	O
+21	팝	O	B-FD
+22	##페	O	I-FD
+23	##라	O	I-FD
+24	보컬	O	B-CV
+25	조	O	B-PS
+26	##시	O	I-PS
+27	그로	B-PS	I-PS
+28	##번	I-PS	I-PS
+29	(	O	O
+30	32	B-QT	B-QT
+31	)	O	O
+32	의	O	O
+33	것	O	O
+34	##으로	O	O
+35	기억	O	O
+36	##하	O	O
+37	##는	O	O
+38	이가	O	O
+39	많	O	O
+40	##다	O	O
+41	.	O	O
+42	[SEP]	O	O

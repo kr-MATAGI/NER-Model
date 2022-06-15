@@ -1,20 +1,53 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, B-CV, I-OG, I-AF
-1	근까	O	O	O, B-PS, B-DT, B-LC, B-CV
-2	신태	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-3	##일	I-PS	I-PS	I-PS, O, I-OG, I-LC, B-PS
-4	##이	O	O	O, I-PS, B-PS, B-CV, I-AF
-5	그	O	O	O, B-CV, B-LC, B-PS, B-OG
-6	갓	B-PS	B-PS	B-PS, B-CV, O, B-AF, B-OG
-7	##건	I-PS	I-PS	I-PS, I-CV, O, I-OG, I-AF
-8	##배	I-PS	I-PS	I-PS, I-CV, O, I-OG, I-LC
-9	##를	O	O	O, I-PS, I-CV, I-AF, I-OG
-10	뭐	O	O	O, B-CV, I-CV, I-AF, I-OG
-11	~	O	O	O, B-CV, I-CV, B-LC, B-PS
-12	살해	B-CV	O	O, B-CV, I-CV, B-TM, B-FD
-13	##하	O	O	O, I-CV, B-PS, B-CV, B-LC
-14	##겠다	O	O	O, B-CV, I-CV, B-PS, B-QT
-15	##고	O	O	O, B-CV, B-PS, B-LC, I-CV
-16	막	O	O	O, B-CV, B-PS, B-TM, B-LC
-17	쫓아	O	O	O, B-CV, B-LC, B-PS, B-OG
-18	[SEP]	O	O	O, B-CV, I-CV, B-PS, I-QT
+	text	label	preds
+0	[CLS]	O	O
+1	국조	B-OG	B-OG
+2	##특위	I-OG	I-OG
+3	김성태	B-PS	B-PS
+4	위원장	B-CV	B-CV
+5	##은	O	O
+6	브리핑	O	O
+7	##에	O	O
+8	##서	O	O
+9	“	O	O
+10	이른바	O	O
+11	(	O	O
+12	최순	B-PS	B-PS
+13	##실	I-PS	I-PS
+14	등	O	O
+15	)	O	O
+16	‘	O	O
+17	보안	O	O
+18	##손	B-CV	O
+19	##님	I-CV	O
+20	’	O	O
+21	은	O	O
+22	(	O	O
+23	비서실	O	O
+24	소관	O	O
+25	##이지	O	O
+26	)	O	O
+27	자기	O	O
+28	##들	O	O
+29	소관	O	O
+30	##이	O	O
+31	아니	O	O
+32	##라는	O	O
+33	게	O	O
+34	경호	B-OG	O
+35	##실	I-OG	O
+36	##의	O	O
+37	실질	O	O
+38	##적	O	O
+39	입장	O	O
+40	##이	O	O
+41	아닌가	O	O
+42	생각	O	O
+43	##된	O	O
+44	##다	O	O
+45	”	O	O
+46	고	O	O
+47	지적	O	O
+48	##했	O	O
+49	##다	O	O
+50	.	O	O
+51	[SEP]	O	O

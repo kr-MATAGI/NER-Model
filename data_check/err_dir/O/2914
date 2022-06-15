@@ -1,43 +1,22 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-EV, I-CV
-1	해경	B-OG	B-OG	B-OG, O, B-AF, B-CV, B-EV
-2	##청	I-OG	I-OG	I-OG, O, I-AF, B-OG, I-CV
-3	##은	O	O	O, I-OG, I-EV, I-AF, B-CV
-4	지난	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-OG
-5	달	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-OG
-6	27	I-DT	I-DT	I-DT, O, B-DT, I-PS, I-OG
-7	##일	I-DT	I-DT	I-DT, O, B-DT, I-PS, I-OG
-8	여수시	B-LC	B-LC	B-LC, O, B-OG, B-AF, I-LC
-9	만성	B-LC	B-LC	B-LC, O, I-LC, B-AF, B-OG
-10	##리	I-LC	I-LC	I-LC, O, I-AF, B-LC, I-PS
-11	앞	O	B-TM	B-TM, O, I-TM, I-LC, B-LC
-12	해상	O	O	O, B-LC, I-LC, I-TM, B-AF
-13	##에서	O	O	O, I-LC, B-LC, I-AF, I-OG
-14	전국	O	O	O, B-LC, B-PS, B-OG, I-LC
-15	12	B-QT	B-QT	B-QT, O, I-QT, B-LC, B-EV
-16	##개	I-QT	I-QT	I-QT, O, I-LC, I-EV, I-PS
-17	해양경찰	B-OG	B-OG	B-OG, O, B-AF, I-OG, B-CV
-18	##서	I-OG	I-OG	I-OG, O, I-AF, I-CV, I-EV
-19	##에	O	O	O, I-OG, I-AF, I-EV, I-QT
-20	대	O	O	O, B-LC, B-CV, B-OG, B-TM
-21	##규모	O	O	O, B-LC, B-CV, B-PS, B-TM
-22	재난	O	O	O, B-EV, B-CV, B-LC, I-EV
-23	상황	O	O	O, I-EV, B-LC, B-CV, B-EV
-24	##을	O	O	O, B-CV, B-LC, B-OG, B-PS
-25	부여	O	O	O, B-CV, B-LC, B-PS, B-TM
-26	##하고	O	O	O, B-LC, B-CV, B-PS, B-OG
-27	현장	O	O	O, B-LC, B-CV, B-EV, B-PS
-28	##과	O	O	O, B-LC, B-PS, B-OG, B-CV
-29	도상	O	O	O, B-EV, B-LC, B-CV, B-FD
-30	훈련	O	O	O, I-EV, B-CV, B-EV, B-LC
-31	##을	O	O	O, I-EV, B-CV, B-LC, B-PS
-32	하	O	O	O, B-CV, B-LC, B-OG, B-PS
-33	##는	O	O	O, B-LC, B-CV, B-PS, B-OG
-34	방법	O	O	O, B-CV, B-LC, B-TM, B-OG
-35	##으로	O	O	O, B-CV, B-OG, B-LC, B-PS
-36	평가	O	O	O, B-CV, B-LC, B-EV, B-TM
-37	##를	O	O	O, B-CV, B-OG, I-EV, I-OG
-38	했	O	O	O, B-CV, B-OG, B-LC, B-PS
-39	##다	O	O	O, B-CV, B-LC, B-OG, I-OG
-40	.	O	O	O, B-LC, B-CV, B-OG, B-PS
-41	[SEP]	O	O	O, B-LC, B-CV, B-OG, I-EV
+	text	label	preds
+0	[CLS]	O	O
+1	풀타임	O	O
+2	메이저	B-CV	B-CV
+3	##리	I-CV	I-CV
+4	##거	I-CV	I-CV
+5	첫	O	O
+6	해인	O	O
+7	2003	B-DT	B-DT
+8	##년	I-DT	I-DT
+9	9	B-QT	B-QT
+10	##승	I-QT	I-QT
+11	12	I-QT	I-QT
+12	##패	I-QT	I-QT
+13	평균	O	B-QT
+14	##자	O	I-QT
+15	##책	O	I-QT
+16	3	B-QT	B-QT
+17	.	I-QT	I-QT
+18	82	I-QT	I-QT
+19	.	O	O
+20	[SEP]	O	O

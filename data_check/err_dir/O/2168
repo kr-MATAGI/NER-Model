@@ -1,46 +1,33 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	정	B-PS	B-PS	B-PS, B-OG, O, I-PS, B-LC
-2	##삼	I-PS	I-PS	I-PS, I-OG, O, B-PS, I-LC
-3	##현	I-PS	I-PS	I-PS, O, I-OG, I-LC, I-QT
-4	변호사	B-CV	B-CV	B-CV, O, B-OG, I-PS, I-CV
-5	##는	O	O	O, I-CV, I-OG, I-EV, B-CV
-6	“	O	O	O, B-CV, B-LC, B-OG, B-PS
-7	정부	B-OG	B-OG	B-OG, O, B-LC, B-AF, B-PS
-8	##가	O	O	O, I-OG, I-EV, B-PS, B-CV
-9	공무원	B-CV	B-CV	B-CV, O, B-OG, I-CV, B-TM
-10	##을	O	O	O, I-CV, I-OG, B-CV, I-EV
-11	동원	O	O	O, B-CV, B-LC, B-OG, B-TM
-12	##해	O	O	O, B-PS, B-LC, B-OG, B-CV
-13	개인	O	O	O, B-CV, B-PS, B-TM, B-LC
-14	간	O	O	O, B-PS, B-LC, B-TM, B-CV
-15	녹음	O	O	O, B-CV, B-TM, B-LC, B-PS
-16	내용	O	O	O, B-CV, B-PS, B-LC, I-CV
-17	##을	O	O	O, B-PS, B-CV, B-LC, B-OG
-18	(	O	O	O, B-CV, B-LC, B-PS, B-QT
-19	휴	O	O	O, B-TM, B-CV, B-EV, B-LC
-20	##진	O	O	O, I-EV, I-TM, I-CV, I-LC
-21	)	O	O	O, B-PS, B-CV, B-LC, I-EV
-22	증거	O	O	O, B-CV, B-LC, B-TM, B-PS
-23	##로	O	O	O, B-CV, B-PS, B-LC, B-TM
-24	삼	O	O	O, B-LC, B-CV, B-PS, B-TM
-25	##아	O	O	O, B-LC, B-PS, B-CV, B-TM
-26	보고	O	O	O, B-CV, B-TM, B-LC, B-EV
-27	##하	O	O	O, B-PS, B-CV, B-LC, I-EV
-28	##도록	O	O	O, B-CV, B-LC, B-PS, B-TM
-29	한	O	O	O, B-CV, B-OG, B-LC, B-PS
-30	것	O	O	O, B-CV, B-OG, B-LC, B-PS
-31	##은	O	O	O, B-CV, B-LC, B-PS, B-OG
-32	민간인	O	B-CV	B-CV, O, B-QT, I-CV, B-OG
-33	사찰	O	O	O, B-CV, I-CV, B-PS, B-FD
-34	##이나	O	O	O, I-CV, B-PS, B-CV, I-EV
-35	다름없	O	O	O, B-CV, B-PS, B-LC, B-OG
-36	##는	O	O	O, B-PS, I-CV, I-OG, B-LC
-37	행위	O	O	O, B-CV, B-PS, B-QT, I-CV
-38	”	O	O	O, B-CV, I-CV, I-OG, I-QT
-39	라고	O	O	O, B-CV, B-PS, B-TM, B-LC
-40	지적	O	O	O, B-CV, B-TM, B-OG, B-LC
-41	##했	O	O	O, B-CV, I-CV, B-PS, I-OG
-42	##다	O	O	O, B-CV, B-TM, B-QT, I-OG
-43	.	O	O	O, B-CV, B-LC, B-PS, B-OG
-44	[SEP]	O	O	O, B-CV, B-LC, B-PS, I-EV
+	text	label	preds
+0	[CLS]	O	O
+1	그	O	O
+2	다음	O	O
+3	##에	O	O
+4	택배	O	B-CV
+5	이런	O	O
+6	관련	O	O
+7	##된	O	O
+8	부분	O	O
+9	##이	O	O
+10	##고	O	O
+11	최근	O	O
+12	##에	O	O
+13	##는	O	O
+14	소셜	O	O
+15	##커	O	O
+16	##머스	O	O
+17	##와	O	O
+18	관련	O	O
+19	##된	O	O
+20	그런	O	O
+21	부분	O	O
+22	##도	O	O
+23	많이	O	O
+24	증가	O	O
+25	##하	O	O
+26	##고	O	O
+27	있	O	O
+28	##습	O	O
+29	##니다	O	O
+30	.	O	O
+31	[SEP]	O	O

@@ -1,33 +1,45 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	나영	O	B-PS	B-PS, O, B-LC, B-OG, I-PS
-2	##이	O	O	O, I-PS, B-PS, I-LC, I-OG
-3	##는	O	O	O, I-PS, B-PS, B-CV, B-AM
-4	공포	O	O	O, B-TM, B-LC, B-CV, B-PS
-5	##로	O	O	O, B-PS, I-AF, B-AM, I-PS
-6	울부짖	O	O	O, B-TM, B-LC, B-AM, B-CV
-7	##었	O	O	O, B-PS, B-CV, B-AM, B-LC
-8	##겠	O	O	O, B-PS, B-CV, B-AM, B-TM
-9	##지만	O	O	O, B-PS, I-PS, B-CV, I-AF
-10	지	O	O	O, B-LC, B-CV, B-PS, B-AM
-11	##척	O	O	O, I-LC, B-LC, I-PS, I-CV
-12	##에	O	O	O, B-PS, I-LC, I-PS, B-LC
-13	있	O	O	O, B-PS, B-CV, B-TM, B-LC
-14	##었	O	O	O, B-PS, B-CV, B-LC, B-AM
-15	##을	O	O	O, B-PS, B-LC, B-AM, B-TM
-16	세상	O	O	O, B-PS, B-AM, B-CV, B-LC
-17	사람	O	O	O, B-CV, B-PS, B-AM, I-AF
-18	##들	O	O	O, B-PS, B-AM, B-CV, I-AF
-19	##은	O	O	O, B-PS, B-CV, B-AM, I-AF
-20	누구	O	O	O, B-PS, B-CV, B-TM, B-AM
-21	##도	O	O	O, B-PS, B-CV, I-AF, B-TM
-22	도와	O	O	O, B-TM, B-CV, B-QT, B-LC
-23	##주	O	O	O, I-QT, B-PS, B-CV, B-LC
-24	##러	O	O	O, B-LC, B-PS, B-QT, B-TM
-25	오	O	O	O, B-QT, B-PS, B-LC, B-TM
-26	##질	O	O	O, I-QT, B-PS, I-AF, B-CV
-27	않	O	O	O, B-CV, I-AF, B-PS, B-TM
-28	##았	O	O	O, B-CV, B-PS, I-AF, I-OG
-29	##다	O	O	O, B-CV, I-AF, I-OG, I-CV
-30	.	O	O	O, B-PS, B-CV, B-LC, B-AM
-31	[SEP]	O	O	O, B-CV, B-PS, B-LC, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	[	O	O
+2	천안	B-AF	B-EV
+3	##함	I-AF	I-EV
+4	피폭	O	I-EV
+5	침몰	O	I-EV
+6	]	O	O
+7	보복	O	O
+8	##타	O	O
+9	##격	O	O
+10	대신	O	O
+11	'	O	O
+12	低	O	O
+13	강도	O	O
+14	대응	O	O
+15	(	O	O
+16	火	O	O
+17	力	O	O
+18	배제	O	O
+19	##한	O	O
+20	군사	O	O
+21	##적	O	O
+22	조치	O	O
+23	)	O	O
+24	'	O	O
+25	검토	O	O
+26	;	O	O
+27	1976	B-DT	B-DT
+28	##년	I-DT	I-DT
+29	北	B-LC	B-LC
+30	판문점	B-LC	B-LC
+31	도끼	B-AF	I-EV
+32	만행	O	I-EV
+33	땐	O	O
+34	韓	B-LC	B-LC
+35	·	O	O
+36	美	B-LC	B-LC
+37	무력	O	O
+38	시위	O	O
+39	…	O	O
+40	이번	O	O
+41	##엔	O	O
+42	?	O	O
+43	[SEP]	O	O

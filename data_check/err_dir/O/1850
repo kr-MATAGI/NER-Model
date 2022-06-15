@@ -1,88 +1,29 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	17	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-QT
-2	##일	I-DT	I-DT	I-DT, O, B-DT, I-EV, I-PS
-3	서울	B-OG	B-OG	B-OG, B-AF, B-LC, O, B-EV
-4	##중	I-OG	I-OG	I-OG, O, I-AF, I-LC, I-EV
-5	##앙	I-OG	I-OG	I-OG, O, I-AF, I-LC, I-EV
-6	##지	I-OG	I-OG	I-OG, O, I-LC, I-AF, I-EV
-7	##법	I-OG	I-OG	I-OG, O, I-AF, I-LC, I-EV
-8	형사	O	O	O, I-OG, B-TM, B-CV, I-AF
-9	##21	O	O	O, B-QT, B-LC, B-OG, B-TM
-10	##부	O	O	O, I-QT, I-OG, I-LC, B-QT
-11	(	O	O	O, B-PS, B-CV, B-LC, B-OG
-12	재판장	B-CV	B-CV	B-CV, O, B-OG, B-AF, B-TM
-13	이범	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-14	##균	I-PS	I-PS	I-PS, O, I-OG, B-PS, I-LC
-15	)	O	O	O, I-PS, I-OG, B-CV, B-LC
-16	심리	O	O	O, B-CV, B-LC, B-OG, B-TM
-17	##로	O	O	O, B-PS, B-LC, B-OG, B-CV
-18	열린	O	O	O, B-CV, B-OG, B-LC, B-PS
-19	원세훈	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-20	(	O	O	O, I-PS, I-OG, B-CV, I-EV
-21	63	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-TM
-22	)	O	O	O, I-QT, I-DT, I-OG, I-EV
-23	전	O	O	O, B-CV, B-PS, B-LC, B-OG
-24	국정원	B-CV	B-CV	B-CV, O, B-TM, B-OG, B-AF
-25	##장	I-CV	I-CV	I-CV, O, B-CV, I-TM, I-OG
-26	##의	O	O	O, I-CV, B-CV, I-EV, B-PS
-27	대선	B-EV	B-EV	B-EV, O, B-CV, B-AF, B-DT
-28	##개	O	O	O, I-CV, B-CV, I-EV, I-QT
-29	##입	O	O	O, I-CV, B-CV, I-EV, I-OG
-30	혐의	O	O	O, I-CV, B-CV, I-EV, I-OG
-31	재판	O	O	O, I-CV, B-CV, B-PS, B-LC
-32	##에서	O	O	O, B-CV, B-PS, B-LC, I-CV
-33	,	O	O	O, B-CV, B-PS, B-LC, B-OG
-34	증인	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-AF
-35	##으로	O	O	O, I-CV, B-CV, B-PS, I-OG
-36	나온	O	O	O, B-CV, B-OG, B-PS, B-TM
-37	국정원	B-OG	B-OG	B-OG, B-AF, O, B-TM, B-EV
-38	심리전	O	O	O, B-CV, I-OG, B-OG, I-AF
-39	##단	O	O	O, I-OG, I-CV, I-AF, I-LC
-40	트위터	O	B-TM	B-TM, O, B-AF, B-LC, B-OG
-41	##팀	O	O	O, I-TM, I-OG, I-CV, I-AF
-42	직원	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-AF
-43	김	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-44	##아	O	O	O, I-PS, B-CV, I-OG, I-CV
-45	##무	O	O	O, B-QT, B-LC, B-CV, B-TM
-46	##개	O	O	O, B-QT, B-PS, I-QT, B-LC
-47	(	O	O	O, B-CV, B-PS, B-LC, B-QT
-48	59	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-TM
-49	)	O	O	O, I-QT, I-OG, I-DT, I-EV
-50	씨	O	O	O, B-CV, B-PS, B-LC, I-QT
-51	##는	O	O	O, B-CV, B-LC, B-TM, B-PS
-52	자신	O	O	O, B-CV, B-TM, B-PS, B-LC
-53	##이	O	O	O, B-PS, B-CV, B-LC, B-OG
-54	사용	O	O	O, B-TM, B-CV, B-LC, B-AF
-55	##한	O	O	O, B-PS, B-LC, B-CV, B-OG
-56	휴대	B-TM	B-TM	B-TM, O, I-TM, B-CV, B-AF
-57	##전	I-TM	I-TM	I-TM, O, B-TM, I-CV, I-QT
-58	##화	I-TM	I-TM	I-TM, O, I-CV, I-QT, I-OG
-59	##나	O	O	O, I-TM, I-OG, I-AF, I-QT
-60	전자	B-TM	B-TM	B-TM, O, B-CV, I-TM, B-AF
-61	##우	I-TM	I-TM	I-TM, O, B-TM, I-CV, I-TR
-62	##편	I-TM	I-TM	I-TM, O, I-CV, B-TM, I-OG
-63	계정	O	O	O, I-TM, I-CV, I-AF, B-CV
-64	##이	O	O	O, B-PS, B-LC, B-OG, B-CV
-65	맞	O	O	O, B-PS, B-LC, B-CV, B-TM
-66	##는지	O	O	O, B-LC, B-PS, B-TM, B-CV
-67	묻	O	O	O, B-CV, B-PS, B-LC, B-OG
-68	##는	O	O	O, B-PS, B-CV, B-LC, B-OG
-69	기본	O	O	O, B-CV, B-PS, B-LC, B-TM
-70	##적인	O	O	O, B-PS, B-CV, B-LC, B-TM
-71	질문	O	O	O, B-CV, B-PS, B-TM, B-LC
-72	##에	O	O	O, B-CV, B-PS, B-LC, B-OG
-73	##조	O	O	O, B-CV, B-PS, B-LC, B-TM
-74	##차	O	O	O, B-PS, B-CV, B-LC, B-TM
-75	“	O	O	O, B-LC, B-CV, B-PS, B-OG
-76	모르	O	O	O, B-TM, B-PS, B-LC, B-CV
-77	##겠다	O	O	O, B-CV, B-PS, B-TM, B-LC
-78	”	O	O	O, B-CV, B-PS, B-LC, B-TM
-79	며	O	O	O, B-LC, B-PS, B-TM, B-CV
-80	답	O	O	O, B-CV, B-TM, B-LC, B-PS
-81	##을	O	O	O, B-CV, B-PS, B-OG, B-LC
-82	회피	O	O	O, B-TM, B-CV, B-LC, B-QT
-83	##했	O	O	O, B-LC, B-PS, B-CV, B-TM
-84	##다	O	O	O, B-CV, B-LC, B-TM, B-OG
-85	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-86	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	그	O	O
+2	##는	O	O
+3	지난해	B-DT	B-DT
+4	이스탄불	B-LC	B-LC
+5	##에	O	O
+6	##서	O	O
+7	열린	O	O
+8	‘	O	O
+9	이스탄불	B-LC	B-EV
+10	-	O	I-EV
+11	경주	B-LC	I-EV
+12	세계	B-EV	I-EV
+13	##문화	I-EV	I-EV
+14	##엑스	I-EV	I-EV
+15	##포	I-EV	I-EV
+16	’	O	O
+17	에	O	O
+18	깊	O	O
+19	##은	O	O
+20	인상	O	O
+21	##을	O	O
+22	받	O	O
+23	##았	O	O
+24	##다고	O	O
+25	한다	O	O
+26	.	O	O
+27	[SEP]	O	O

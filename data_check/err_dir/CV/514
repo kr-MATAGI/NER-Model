@@ -1,55 +1,27 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-QT
-1	권리	O	O	O, B-CV, B-PS, I-CV, I-OG
-2	항목	O	O	O, B-PS, I-CV, B-CV, I-OG
-3	##에	O	O	O, B-CV, B-OG, I-OG, I-CV
-4	##는	O	O	O, B-CV, B-OG, B-LC, B-PS
-5	인간	O	O	O, B-CV, B-PS, B-LC, B-FD
-6	##으로	O	O	O, B-PS, I-CV, B-CV, B-LC
-7	##서	O	O	O, I-CV, B-PS, B-CV, I-PS
-8	##의	O	O	O, B-PS, I-CV, B-CV, B-LC
-9	존엄	O	O	O, B-CV, I-CV, B-PS, B-TR
-10	##과	O	O	O, B-PS, I-CV, B-LC, B-OG
-11	평등	B-CV	O	O, B-CV, I-CV, B-TR, B-PS
-12	##권	I-CV	O	O, I-CV, I-TR, B-CV, I-PS
-13	##을	O	O	O, I-CV, B-CV, I-OG, B-PS
-14	비롯	O	O	O, B-OG, B-CV, B-LC, B-TM
-15	##해	O	O	O, B-LC, B-PS, B-OG, B-CV
-16	정당	O	O	O, B-CV, B-LC, B-PS, B-FD
-17	##한	O	O	O, B-PS, B-LC, B-CV, I-PS
-18	학업	O	O	O, B-CV, B-LC, B-PS, B-FD
-19	·	O	O	O, B-PS, I-LC, I-CV, I-PS
-20	연구	O	O	O, B-CV, B-LC, B-FD, B-PS
-21	,	O	O	O, B-PS, B-LC, B-CV, B-OG
-22	공정	O	O	O, B-CV, B-PS, B-LC, B-TM
-23	##한	O	O	O, B-PS, B-LC, I-PS, B-CV
-24	평가	O	O	O, B-CV, B-PS, B-LC, I-CV
-25	##와	O	O	O, B-PS, B-LC, B-OG, B-CV
-26	지식	B-CV	B-CV	B-CV, O, B-TM, B-OG, I-CV
-27	##재	I-CV	I-CV	I-CV, O, B-CV, I-TM, I-OG
-28	##산	I-CV	I-CV	I-CV, O, B-CV, I-TM, I-OG
-29	##권	I-CV	I-CV	I-CV, O, I-OG, B-CV, I-TM
-30	,	O	O	O, I-CV, I-OG, B-PS, B-LC
-31	사생활	B-CV	O	O, B-CV, B-TM, I-CV, B-LC
-32	##의	I-CV	O	O, I-CV, I-LC, B-CV, I-PS
-33	자유	I-CV	O	O, I-CV, B-CV, I-LC, I-PS
-34	##와	O	O	O, I-CV, B-PS, B-LC, I-AF
-35	거부	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-AM
-36	##권	I-CV	I-CV	I-CV, O, I-TM, B-CV, I-TR
-37	,	O	O	O, I-CV, B-CV, I-OG, B-PS
-38	건강	O	O	O, B-LC, B-CV, B-PS, B-TM
-39	##한	O	O	O, B-PS, B-LC, I-LC, B-CV
-40	휴식	O	O	O, B-CV, B-LC, I-CV, B-PS
-41	·	O	O	O, I-CV, I-LC, B-PS, I-PS
-42	안전	O	O	O, B-CV, B-LC, I-CV, B-PS
-43	등	O	O	O, B-PS, B-LC, B-OG, B-CV
-44	11	B-QT	B-QT	B-QT, O, I-QT, B-EV, B-TM
-45	##가지	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-46	권리	O	O	O, I-QT, B-CV, I-CV, B-PS
-47	##를	O	O	O, B-CV, B-OG, B-TM, I-QT
-48	두루	O	O	O, B-QT, B-OG, B-CV, B-TM
-49	담	O	O	O, B-CV, B-OG, B-LC, B-PS
-50	##았	O	O	O, B-CV, B-OG, B-LC, B-PS
-51	##다	O	O	O, B-CV, B-OG, I-OG, B-LC
-52	.	O	O	O, B-CV, B-LC, B-PS, B-OG
-53	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	‘	O	O
+2	페트	B-CV	B-AF
+3	##라	I-CV	I-AF
+4	다운	I-CV	I-AF
+5	##재	I-CV	I-AF
+6	##킷	I-CV	I-AF
+7	’	O	O
+8	은	O	O
+9	도심	O	O
+10	패션	O	O
+11	아이템	O	O
+12	##으로	O	O
+13	손색	O	O
+14	##없	O	O
+15	##는	O	O
+16	긴	O	O
+17	기장	O	O
+18	##의	O	O
+19	구스	B-CV	B-CV
+20	다운	I-CV	I-CV
+21	##재	I-CV	I-CV
+22	##킷	I-CV	I-CV
+23	##이다	O	O
+24	.	O	O
+25	[SEP]	O	O

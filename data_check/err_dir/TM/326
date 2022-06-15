@@ -1,67 +1,43 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	유	B-OG	B-OG	B-OG, O, I-OG, B-LC, B-AF
-2	##헤	I-OG	I-OG	I-OG, O, I-LC, B-OG, I-AF
-3	##리티	I-OG	I-OG	I-OG, O, I-LC, I-AF, I-CV
-4	##지	I-OG	I-OG	I-OG, O, I-LC, I-AF, I-CV
-5	##재단	I-OG	I-OG	I-OG, O, I-LC, I-AF, I-CV
-6	##은	O	O	O, I-OG, I-AF, B-CV, I-CV
-7	1941	B-DT	B-DT	B-DT, O, B-QT, I-DT, B-LC
-8	##년	I-DT	I-DT	I-DT, O, I-QT, B-DT, I-PS
-9	세브	B-OG	B-OG	B-OG, O, B-AF, B-LC, I-OG
-10	##란	I-OG	I-OG	I-OG, O, I-AF, I-LC, B-OG
-11	##스	I-OG	I-OG	I-OG, O, I-AF, I-LC, B-OG
-12	##의학	I-OG	I-OG	I-OG, O, I-AF, I-LC, B-OG
-13	##전	I-OG	I-OG	I-OG, O, I-AF, I-LC, B-OG
-14	##문학	I-OG	I-OG	I-OG, O, I-AF, I-LC, B-OG
-15	##교	I-OG	I-OG	I-OG, O, I-AF, I-LC, I-EV
-16	##를	O	O	O, I-OG, I-AF, I-LC, B-CV
-17	나와	O	O	O, B-PS, B-CV, B-LC, B-OG
-18	58	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-TI
-19	##년	I-DT	I-DT	I-DT, O, I-QT, B-DT, I-PS
-20	미국	B-LC	B-LC	B-LC, O, B-OG, B-AF, I-LC
-21	##으로	O	O	O, I-LC, I-AF, I-OG, B-CV
-22	건너간	O	O	O, B-LC, B-CV, B-PS, B-QT
-23	뒤	O	O	O, B-PS, B-LC, B-CV, B-TM
-24	시카고	B-LC	B-LC	B-LC, O, B-OG, B-AF, B-PS
-25	##에서	O	O	O, I-LC, I-OG, I-AF, B-CV
-26	병리	B-CV	B-CV	B-CV, O, B-FD, B-OG, B-TM
-27	##전	I-CV	I-CV	I-CV, B-CV, O, I-QT, I-FD
-28	##문	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-QT
-29	##의	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-QT
-30	##로	O	O	O, I-CV, I-QT, I-OG, B-PS
-31	활동	O	O	O, B-CV, B-LC, B-PS, B-TM
-32	##하	O	O	O, B-PS, B-LC, B-CV, B-OG
-33	##다	O	O	O, B-PS, B-LC, B-QT, B-CV
-34	몇	O	O	O, B-PS, B-LC, B-CV, B-DT
-35	##년	O	O	O, B-PS, I-PS, B-LC, I-DT
-36	전	O	O	O, B-PS, I-PS, I-DT, B-LC
-37	작	O	O	O, B-CV, B-TM, B-QT, B-FD
-38	##고	O	O	O, I-CV, I-OG, I-TM, I-TR
-39	##한	O	O	O, B-PS, I-PS, I-CV, I-OG
-40	,	O	O	O, B-PS, B-CV, B-LC, B-OG
-41	유	B-PS	B-PS	B-PS, O, B-LC, I-PS, B-OG
-42	이사장	B-CV	B-CV	B-CV, O, I-PS, I-CV, B-TM
-43	##의	O	O	O, I-CV, I-PS, I-AF, B-PS
-44	숙부	B-CV	B-CV	B-CV, O, B-TM, B-PS, B-QT
-45	유기	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-46	##진	I-PS	I-PS	I-PS, O, I-OG, I-LC, I-QT
-47	##씨	O	O	O, I-PS, I-OG, B-CV, I-QT
-48	##가	O	O	O, B-PS, B-LC, B-CV, B-OG
-49	2004	B-DT	B-DT	B-DT, O, B-QT, I-DT, B-LC
-50	##년	I-DT	I-DT	I-DT, O, I-QT, B-DT, I-PS
-51	장학	B-TM	O	O, B-TM, B-CV, I-TM, I-DT
-52	·	I-TM	O	O, I-TM, I-CV, I-OG, I-TR
-53	선교	I-TM	O	O, I-TM, I-CV, I-OG, B-TM
-54	·	I-TM	O	O, I-TM, I-CV, I-OG, I-LC
-55	교육	I-TM	O	O, I-TM, I-CV, I-OG, B-TM
-56	·	I-TM	O	O, I-TM, I-CV, I-OG, I-LC
-57	구제	I-TM	O	O, I-TM, I-CV, I-OG, B-TM
-58	##사업	I-TM	O	O, I-TM, I-CV, I-OG, I-TR
-59	##을	O	O	O, I-TM, I-CV, B-CV, B-PS
-60	위해	O	O	O, B-PS, B-LC, B-CV, B-TM
-61	설립	O	O	O, B-OG, B-CV, B-TM, B-LC
-62	##했	O	O	O, B-PS, B-OG, I-OG, B-CV
-63	##다	O	O	O, B-CV, I-OG, B-PS, B-TM
-64	.	O	O	O, B-LC, B-PS, B-CV, B-OG
-65	[SEP]	O	O	O, B-CV, B-LC, B-PS, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	지난해	B-DT	B-DT
+2	세계	O	O
+3	##랭	O	O
+4	##킹	O	O
+5	1	B-QT	B-QT
+6	##위	I-QT	I-QT
+7	제이슨	B-PS	B-PS
+8	데이	I-PS	I-PS
+9	(	O	O
+10	호주	B-LC	B-LC
+11	)	O	O
+12	는	O	O
+13	버디	B-TM	B-TM
+14	8	B-QT	B-QT
+15	##개	I-QT	I-QT
+16	##와	O	O
+17	보	B-TM	B-TM
+18	##기	I-TM	I-TM
+19	2	B-QT	B-QT
+20	##개	I-QT	I-QT
+21	,	O	O
+22	더블	B-TM	B-QT
+23	##보기	I-TM	I-QT
+24	1	B-QT	I-QT
+25	##개	I-QT	I-QT
+26	##로	O	O
+27	4	B-QT	B-QT
+28	##언	I-QT	I-QT
+29	##더	I-QT	I-QT
+30	##파	I-QT	I-QT
+31	68	B-QT	B-QT
+32	##타	I-QT	I-QT
+33	공동	O	O
+34	12	B-QT	B-QT
+35	##위	I-QT	I-QT
+36	##를	O	O
+37	기록	O	O
+38	##했	O	O
+39	##다	O	O
+40	.	O	O
+41	[SEP]	O	O

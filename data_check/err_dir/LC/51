@@ -1,31 +1,58 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-EV, I-OG, I-CV
-1	그	O	O	O, B-CV, B-PS, B-OG, B-LC
-2	##는	O	O	O, B-CV, B-PS, I-EV, B-LC
-3	2014	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-QT
-4	##년	I-DT	I-DT	I-DT, O, I-EV, B-DT, I-QT
-5	브라질	B-LC	B-EV	B-EV, B-LC, O, B-OG, B-AF
-6	대회	O	I-EV	I-EV, O, B-EV, I-DT, I-AF
-7	당시	O	O	O, I-EV, B-EV, B-CV, B-LC
-8	성인	O	O	O, B-EV, I-EV, B-CV, B-LC
-9	월드컵	B-EV	B-EV	B-EV, I-EV, O, B-CV, B-LC
-10	참가	O	O	O, I-EV, I-OG, I-AF, I-CV
-11	##의	O	O	O, B-PS, I-EV, B-LC, B-OG
-12	꿈	O	O	O, B-EV, B-CV, B-LC, B-PS
-13	##을	O	O	O, B-CV, B-PS, I-EV, B-OG
-14	이룰	O	O	O, B-CV, B-PS, B-EV, B-OG
-15	뻔	O	O	O, B-PS, B-CV, I-EV, B-OG
-16	##했	O	O	O, B-CV, B-PS, B-OG, B-LC
-17	##지만	O	O	O, B-PS, B-CV, B-LC, B-TM
-18	오른쪽	B-TM	B-TM	B-TM, O, B-LC, B-CV, B-OG
-19	발목	B-AM	B-AM	B-AM, I-AM, O, I-TM, B-TM
-20	부상	O	O	O, B-TM, I-TM, B-CV, B-LC
-21	##으로	O	O	O, B-PS, B-CV, B-OG, B-LC
-22	대표	O	O	O, B-CV, B-OG, B-AF, B-EV
-23	##팀	O	O	O, I-OG, I-CV, I-EV, I-AF
-24	##에서	O	O	O, B-CV, B-PS, I-OG, B-LC
-25	낙마	O	O	O, B-CV, B-TM, B-OG, B-LC
-26	##했	O	O	O, B-PS, B-CV, B-LC, B-OG
-27	##다	O	O	O, B-CV, B-PS, I-OG, I-EV
-28	.	O	O	O, B-PS, B-CV, B-LC, I-EV
-29	[SEP]	O	O	O, B-CV, I-EV, B-PS, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	이에	O	O
+2	앞서	O	O
+3	지난해	B-DT	B-DT
+4	##에	O	O
+5	##는	O	O
+6	노원구	B-LC	B-LC
+7	월	B-LC	B-AF
+8	##계	I-LC	I-AF
+9	##사	I-LC	I-AF
+10	##슴	I-LC	I-AF
+11	##1	B-QT	B-QT
+12	##과	O	O
+13	중계	B-LC	B-LC
+14	##3	B-QT	B-QT
+15	##단지	I-QT	I-QT
+16	등	O	O
+17	2	B-QT	B-QT
+18	##곳	I-QT	I-QT
+19	,	O	O
+20	올해	B-DT	B-DT
+21	##는	O	O
+22	강서구	B-LC	B-LC
+23	가	B-LC	B-LC
+24	##양	I-LC	I-LC
+25	##4	B-QT	B-QT
+26	,	O	O
+27	가	B-LC	B-LC
+28	##양	I-LC	I-LC
+29	##5	B-QT	B-QT
+30	,	O	O
+31	방화	B-LC	B-AF
+32	##2	B-QT	B-QT
+33	-	I-QT	I-QT
+34	1	I-QT	I-QT
+35	,	O	O
+36	방화	B-LC	B-LC
+37	##11	B-QT	B-QT
+38	,	O	O
+39	노원구	B-LC	B-LC
+40	공	B-LC	B-LC
+41	##릉	I-LC	I-LC
+42	##1	B-QT	B-QT
+43	단지	I-QT	I-QT
+44	등	O	O
+45	5	B-QT	B-QT
+46	##곳	I-QT	I-QT
+47	##에	O	O
+48	태양광	B-TM	B-TM
+49	발전	O	O
+50	##시설	O	O
+51	##이	O	O
+52	설치	O	O
+53	##됐	O	O
+54	##다	O	O
+55	.	O	O
+56	[SEP]	O	O

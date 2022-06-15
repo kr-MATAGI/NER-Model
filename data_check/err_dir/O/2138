@@ -1,43 +1,33 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-EV, I-OG
-1	올해	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-QT
-2	##에	O	O	O, I-DT, I-EV, I-QT, B-CV
-3	##는	O	O	O, B-PS, B-CV, B-LC, B-OG
-4	임	B-PS	B-PS	B-PS, O, B-OG, B-LC, B-CV
-5	##병	I-PS	I-PS	I-PS, O, I-OG, I-LC, B-PS
-6	##진	I-PS	I-PS	I-PS, O, I-LC, I-OG, I-AF
-7	바	B-CV	B-CV	B-CV, O, I-PS, B-PS, B-LC
-8	##텐	I-CV	I-CV	I-CV, I-PS, O, I-LC, B-CV
-9	##더	I-CV	I-CV	I-CV, I-PS, O, I-LC, I-TM
-10	##가	O	O	O, I-CV, I-PS, I-OG, B-PS
-11	국가	B-CV	B-CV	B-CV, O, B-EV, I-CV, B-AF
-12	##대표	I-CV	I-CV	I-CV, O, B-CV, I-EV, I-OG
-13	선발전	O	O	O, B-EV, I-EV, B-CV, I-CV
-14	##인	O	O	O, I-EV, I-CV, B-CV, B-PS
-15	‘	O	O	O, B-CV, B-LC, B-DT, B-OG
-16	디아	B-EV	B-EV	B-EV, B-OG, O, B-LC, B-AF
-17	##지오	I-EV	I-EV	I-EV, I-OG, O, I-AF, I-LC
-18	월드	I-EV	I-EV	I-EV, O, B-EV, I-OG, I-DT
-19	##클	I-EV	I-EV	I-EV, O, I-OG, I-DT, I-AF
-20	##래	I-EV	I-EV	I-EV, O, I-OG, I-AF, I-DT
-21	##스	I-EV	I-EV	I-EV, O, I-OG, I-AF, I-DT
-22	2015	B-DT	B-DT	B-DT, I-EV, I-DT, O, I-AF
-23	코리아	B-EV	B-EV	B-EV, I-EV, B-LC, B-AF, O
-24	파이널	I-EV	I-EV	I-EV, O, B-EV, I-AF, I-LC
-25	’	O	O	O, I-EV, I-DT, I-AF, I-OG
-26	에서	O	O	O, B-CV, I-EV, B-LC, B-PS
-27	우승	O	O	O, B-CV, B-EV, B-LC, B-TM
-28	##해	O	O	O, B-PS, B-LC, B-OG, I-EV
-29	한국	B-LC	B-LC	B-LC, B-OG, B-CV, B-EV, O
-30	대표	B-CV	B-CV	B-CV, O, I-CV, I-EV, I-LC
-31	##로	O	O	O, I-CV, I-EV, I-OG, I-AF
-32	월드	B-CV	B-EV	B-EV, O, B-LC, B-OG, B-CV
-33	##클	I-CV	I-EV	I-EV, O, I-OG, I-LC, B-EV
-34	##래	I-CV	I-EV	I-EV, O, I-OG, I-LC, I-AF
-35	##스	I-CV	I-EV	I-EV, O, I-OG, I-LC, I-AF
-36	대회	O	I-EV	I-EV, O, I-OG, I-LC, B-EV
-37	##에	O	O	O, I-EV, I-OG, I-AF, I-QT
-38	출전	O	O	O, B-CV, B-LC, B-OG, B-TM
-39	##한다	O	O	O, B-CV, B-LC, B-PS, B-OG
-40	.	O	O	O, B-LC, B-CV, B-PS, I-EV
-41	[SEP]	O	O	O, I-EV, B-CV, B-LC, B-EV
+	text	label	preds
+0	[CLS]	O	O
+1	그해	B-DT	B-DT
+2	을	B-EV	B-OG
+3	##사	I-EV	I-OG
+4	##늑	I-EV	I-OG
+5	##약	I-EV	I-OG
+6	##으로	O	O
+7	조선	B-LC	B-LC
+8	##의	O	O
+9	외교	O	B-CV
+10	##권	O	I-CV
+11	##을	O	O
+12	박탈	O	O
+13	##하	O	O
+14	##고	O	O
+15	통감	B-OG	B-OG
+16	##부	I-OG	I-OG
+17	##를	O	O
+18	설치	O	O
+19	##한	O	O
+20	일본	B-OG	B-OG
+21	##은	O	O
+22	사실	O	O
+23	##상	O	O
+24	조선	B-LC	B-LC
+25	##을	O	O
+26	식민지	O	O
+27	##화	O	O
+28	##했	O	O
+29	##다	O	O
+30	.	O	O
+31	[SEP]	O	O

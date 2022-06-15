@@ -1,38 +1,74 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-EV, I-CV
-1	보고서	O	O	O, B-OG, B-AF, B-CV, B-PS
-2	##는	O	O	O, B-OG, I-OG, B-LC, B-PS
-3	한국	B-LC	B-OG	B-OG, B-LC, O, B-PS, B-AF
-4	##에	O	O	O, I-OG, I-LC, B-OG, B-LC
-5	비용	O	O	O, B-LC, B-CV, I-OG, B-OG
-6	분담	O	O	O, B-LC, B-CV, B-OG, B-PS
-7	##을	O	O	O, B-LC, B-PS, B-OG, B-CV
-8	요구	O	O	O, B-CV, B-LC, B-OG, B-TM
-9	##할	O	O	O, B-LC, B-OG, B-PS, B-CV
-10	근거	O	O	O, B-LC, B-CV, B-OG, B-PS
-11	##로	O	O	O, B-LC, B-OG, B-PS, B-TM
-12	괌	O	B-LC	B-LC, B-OG, O, B-PS, B-AF
-13	##의	O	O	O, I-OG, I-LC, B-OG, B-LC
-14	군사력	O	O	O, B-CV, B-LC, B-TM, B-AF
-15	증강	O	O	O, B-LC, B-PS, B-CV, I-CV
-16	##이	O	O	O, B-PS, B-LC, B-OG, B-CV
-17	북한	B-LC	B-OG	B-OG, B-LC, O, B-PS, B-AF
-18	##의	O	O	O, I-OG, I-LC, B-LC, I-AF
-19	핵	B-AF	B-AF	B-AF, O, I-AF, B-MT, B-LC
-20	·	O	O	O, I-AF, I-LC, I-EV, I-CV
-21	미사일	B-AF	B-AF	B-AF, O, I-AF, B-MT, B-LC
-22	위협	O	O	O, I-AF, B-CV, I-EV, I-CV
-23	##에	O	O	O, B-CV, B-LC, B-PS, I-AF
-24	대한	O	O	O, B-LC, B-OG, B-PS, B-CV
-25	대응	O	O	O, B-LC, B-CV, B-PS, B-OG
-26	##의	O	O	O, B-LC, B-PS, B-OG, B-CV
-27	일환	O	O	O, B-LC, B-QT, B-PS, B-CV
-28	##이	O	O	O, B-PS, B-LC, B-OG, B-CV
-29	##라는	O	O	O, B-LC, B-PS, B-OG, B-CV
-30	점	O	O	O, B-CV, B-LC, B-TM, B-PS
-31	##을	O	O	O, B-CV, B-PS, B-LC, B-OG
-32	제시	O	O	O, B-CV, B-LC, B-OG, B-TM
-33	##했	O	O	O, B-LC, B-OG, I-OG, B-CV
-34	##다	O	O	O, I-OG, B-CV, B-OG, B-LC
-35	.	O	O	O, B-LC, B-OG, B-CV, B-PS
-36	[SEP]	O	O	O, B-LC, B-OG, B-CV, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	문	B-PS	B-PS
+2	대통령	B-CV	B-CV
+3	##은	O	O
+4	이날	B-DT	B-DT
+5	청와대	B-LC	B-AF
+6	여	I-LC	B-AF
+7	##민	I-LC	I-AF
+8	##관	I-LC	I-AF
+9	##에	O	O
+10	##서	O	O
+11	수석	B-EV	B-EV
+12	·	I-EV	I-EV
+13	보좌관	I-EV	I-EV
+14	##회의	I-EV	I-EV
+15	##를	O	O
+16	주재	O	O
+17	##하	O	O
+18	##며	O	O
+19	“	O	O
+20	최근	O	O
+21	일부	O	O
+22	공공	O	O
+23	##기	O	O
+24	##관	O	O
+25	##에	O	O
+26	##서	O	O
+27	드러난	O	O
+28	채용	O	O
+29	##비	O	O
+30	##리	O	O
+31	##를	O	O
+32	보	O	O
+33	##면	O	O
+34	공공	O	O
+35	##기	O	O
+36	##관	O	O
+37	##의	O	O
+38	채용	O	O
+39	##비	O	O
+40	##리	O	O
+41	##가	O	O
+42	어쩌다	O	O
+43	##가	O	O
+44	발생	O	O
+45	##하	O	O
+46	##는	O	O
+47	예외	O	O
+48	##적	O	O
+49	##인	O	O
+50	사건	O	O
+51	##이	O	O
+52	아니	O	O
+53	##라	O	O
+54	일상	O	O
+55	##화	O	O
+56	##된	O	O
+57	비리	O	O
+58	##가	O	O
+59	아닌지	O	O
+60	의심	O	O
+61	##이	O	O
+62	될	O	O
+63	정도	O	O
+64	”	O	O
+65	라며	O	O
+66	이	O	O
+67	##같이	O	O
+68	말	O	O
+69	##했	O	O
+70	##다	O	O
+71	.	O	O
+72	[SEP]	O	O

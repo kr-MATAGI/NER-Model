@@ -1,40 +1,83 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	인천시	B-OG	B-OG	B-OG, B-LC, O, B-PS, I-OG
-2	##는	O	O	O, I-OG, B-CV, B-OG, I-EV
-3	제	B-QT	B-QT	B-QT, B-AF, B-TM, B-EV, B-LC
-4	##3	I-QT	I-QT	I-QT, I-AF, I-TM, I-LC, I-OG
-5	##연	B-AF	I-AF	I-AF, B-AF, I-QT, O, B-QT
-6	##륙	I-AF	I-AF	I-AF, I-QT, O, I-LC, B-AF
-7	##교	I-AF	I-AF	I-AF, I-QT, O, I-LC, I-EV
-8	건설	O	O	O, I-AF, I-QT, B-AF, I-TM
-9	##과	O	O	O, I-AF, B-OG, B-CV, B-LC
-10	관련	O	O	O, B-LC, B-OG, B-CV, B-TM
-11	##한	O	O	O, B-LC, B-OG, B-PS, B-TM
-12	타당	O	O	O, B-CV, B-LC, B-TM, B-PS
-13	##성	O	O	O, B-LC, I-CV, I-LC, B-CV
-14	조사	O	O	O, B-CV, B-LC, B-PS, B-TM
-15	##용	O	O	O, B-LC, B-CV, B-PS, I-LC
-16	##역	O	O	O, B-LC, B-CV, B-PS, I-LC
-17	##을	O	O	O, B-CV, B-LC, B-OG, B-PS
-18	시행	O	O	O, B-LC, B-CV, B-OG, B-TM
-19	##해	O	O	O, B-LC, B-PS, B-OG, I-EV
-20	아시아	B-EV	B-EV	B-EV, B-LC, O, B-AF, B-OG
-21	##경기	I-EV	I-EV	I-EV, O, I-LC, I-AF, B-EV
-22	##대	I-EV	I-EV	I-EV, O, I-AF, I-LC, I-OG
-23	##회	I-EV	I-EV	I-EV, O, I-AF, I-LC, I-QT
-24	##가	O	O	O, I-EV, I-AF, I-OG, I-DT
-25	열리	O	O	O, B-CV, I-EV, B-LC, B-DT
-26	##는	O	O	O, B-DT, B-LC, B-PS, B-CV
-27	2014	B-DT	B-DT	B-DT, I-DT, O, B-EV, B-QT
-28	##년	I-DT	I-DT	I-DT, O, I-QT, I-EV, B-DT
-29	##까	I-DT	I-DT	I-DT, O, I-QT, I-EV, B-DT
-30	##지	I-DT	I-DT	I-DT, O, I-QT, I-EV, B-DT
-31	완공	O	O	O, I-DT, B-CV, B-LC, B-TM
-32	##을	O	O	O, B-OG, B-CV, B-LC, B-TM
-33	앞당	O	O	O, B-OG, B-CV, B-LC, B-TM
-34	##길	O	O	O, B-LC, B-OG, B-CV, B-PS
-35	계획	O	O	O, B-CV, B-OG, B-TM, B-LC
-36	##이다	O	O	O, B-CV, B-TM, I-OG, B-OG
-37	.	O	O	O, B-LC, B-OG, B-PS, B-CV
-38	[SEP]	O	O	O, B-LC, B-CV, I-EV, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	전립	B-TM	B-TM
+2	##샘	I-TM	I-TM
+3	자가	O	O
+4	체크	O	O
+5	##는	O	O
+6	△	O	O
+7	##배	O	O
+8	##뇨	O	O
+9	후	O	O
+10	소변	O	O
+11	##이	O	O
+12	남	O	O
+13	##은	O	O
+14	느낌	O	O
+15	##이	O	O
+16	든다	O	O
+17	△	O	O
+18	##소	O	O
+19	##변이	O	O
+20	끊기	O	O
+21	##거나	O	O
+22	가늘	O	O
+23	##게	O	O
+24	나온다	O	O
+25	△	O	O
+26	##소	O	O
+27	##변	O	O
+28	##을	O	O
+29	참	O	O
+30	##기	O	O
+31	##가	O	O
+32	힘들	O	O
+33	##고	O	O
+34	자주	O	O
+35	본다	O	O
+36	△	O	O
+37	##소	O	O
+38	##변이	O	O
+39	마	O	O
+40	##려	O	O
+41	##워	O	O
+42	잠	O	O
+43	##을	O	O
+44	자주	O	O
+45	깬	O	O
+46	##다	O	O
+47	△	O	O
+48	##힘	O	O
+49	##을	O	O
+50	주어	O	O
+51	##야	O	O
+52	소변	O	O
+53	##이	O	O
+54	나온다	O	O
+55	등	O	O
+56	##으로	O	O
+57	해당	O	O
+58	사항	O	O
+59	##이	O	O
+60	있	O	O
+61	##으면	O	O
+62	미리	O	O
+63	보령	B-OG	B-TM
+64	-	O	I-TM
+65	쏘	B-AF	I-TM
+66	##팔	I-AF	I-TM
+67	##메	I-AF	I-TM
+68	##토	I-AF	I-TM
+69	##골	I-AF	I-TM
+70	##드	I-AF	I-TM
+71	##칸	I-AF	I-TM
+72	##을	O	O
+73	섭취	O	O
+74	##하	O	O
+75	##는	O	O
+76	것	O	O
+77	##이	O	O
+78	좋	O	O
+79	##다	O	O
+80	.	O	O
+81	[SEP]	O	O

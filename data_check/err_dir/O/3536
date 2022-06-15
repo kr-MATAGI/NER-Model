@@ -1,35 +1,47 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	그	O	O	O, B-CV, B-OG, B-PS, B-LC
-2	##는	O	O	O, B-CV, B-PS, B-OG, B-TM
-3	하	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
-4	##퍼	I-PS	I-PS	I-PS, O, B-PS, I-OG, I-LC
-5	총리	B-CV	B-CV	B-CV, O, I-PS, B-OG, I-CV
-6	##에	O	O	O, I-CV, I-OG, I-PS, B-CV
-7	대해서	O	O	O, B-CV, B-OG, B-LC, B-PS
-8	##는	O	O	O, B-CV, B-LC, B-OG, B-PS
-9	'	O	O	O, B-CV, B-LC, B-PS, B-OG
-10	절대	O	O	O, B-FD, B-LC, B-AF, B-PS
-11	문학	O	B-FD	B-FD, O, I-FD, B-CV, B-TR
-12	작품	O	O	O, I-FD, B-FD, I-AF, I-OG
-13	##을	O	O	O, I-AF, I-FD, B-CV, B-PS
-14	읽	O	O	O, B-CV, B-PS, B-FD, B-LC
-15	##지	O	O	O, B-PS, B-CV, I-AF, B-QT
-16	않	O	O	O, B-PS, B-CV, B-LC, B-QT
-17	##는	O	O	O, B-PS, B-CV, B-LC, B-QT
-18	사람	O	O	O, I-CV, B-PS, B-CV, B-AM
-19	'	O	O	O, B-CV, B-PS, B-LC, B-TM
-20	'	O	O	O, B-CV, B-LC, B-PS, B-OG
-21	똑똑	O	O	O, B-CV, B-PS, B-FD, B-TM
-22	##하	O	O	O, B-PS, I-PS, I-CV, I-OG
-23	##지만	O	O	O, B-PS, I-PS, I-AF, I-OG
-24	재미없	O	O	O, B-CV, B-TM, I-AF, B-PS
-25	##는	O	O	O, B-PS, B-CV, B-LC, I-AF
-26	사람	O	O	O, B-PS, B-CV, B-AM, I-CV
-27	'	O	O	O, B-CV, B-PS, I-CV, B-LC
-28	으로	O	O	O, B-PS, B-CV, B-LC, B-QT
-29	규정	O	O	O, B-CV, B-PS, B-OG, B-TM
-30	##했	O	O	O, B-CV, B-PS, I-CV, B-OG
-31	##다	O	O	O, B-CV, I-CV, I-OG, B-PS
-32	.	O	O	O, B-CV, B-PS, B-LC, B-FD
-33	[SEP]	O	O	O, B-CV, B-PS, B-LC, B-FD
+	text	label	preds
+0	[CLS]	O	O
+1	도	B-CV	B-CV
+2	##굴	I-CV	I-CV
+3	##꾼	I-CV	I-CV
+4	##에	O	O
+5	##게	O	O
+6	훼손	O	O
+7	##된	O	O
+8	탑	O	O
+9	##을	O	O
+10	수리	O	O
+11	##하	O	O
+12	##던	O	O
+13	당시	O	O
+14	,	O	O
+15	2	B-QT	B-QT
+16	##층	I-QT	I-QT
+17	옥	O	O
+18	##개	O	O
+19	##석	O	O
+20	##을	O	O
+21	들어올리	O	O
+22	##다	O	O
+23	지지	O	O
+24	##하	O	O
+25	##던	O	O
+26	나무	O	O
+27	##기	O	O
+28	##둥이	O	O
+29	부러	O	O
+30	##져	O	O
+31	바닥	O	O
+32	##에	O	O
+33	떨어진	O	O
+34	옥	O	O
+35	##개	O	O
+36	##석	O	O
+37	##의	O	O
+38	서쪽	O	B-TM
+39	모서리	O	O
+40	##가	O	O
+41	부서	O	O
+42	##졌	O	O
+43	##다	O	O
+44	.	O	O
+45	[SEP]	O	O

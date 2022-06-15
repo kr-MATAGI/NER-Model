@@ -1,69 +1,20 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-AF
-1	4	B-DT	B-DT	B-DT, I-DT, O, B-QT, B-EV
-2	##월	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-3	17	I-DT	I-DT	I-DT, B-DT, O, I-QT, I-PS
-4	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-5	##까	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-6	##지	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-7	서울	B-LC	B-LC	B-LC, O, B-OG, I-DT, I-LC
-8	남산	B-AF	B-AF	B-AF, B-LC, O, B-OG, I-AF
-9	##국	I-AF	I-AF	I-AF, I-LC, O, I-OG, B-AF
-10	##악	I-AF	I-AF	I-AF, I-LC, O, I-OG, I-PS
-11	##당	I-AF	I-AF	I-AF, I-LC, O, I-OG, I-PS
-12	##에서	O	O	O, I-AF, I-OG, I-EV, I-LC
-13	공연	O	O	O, B-FD, B-CV, B-LC, B-EV
-14	##되	O	O	O, B-PS, I-AF, B-CV, B-OG
-15	##는	O	O	O, B-OG, B-LC, B-PS, B-CV
-16	극단	O	B-OG	B-OG, O, B-CV, I-OG, B-PS
-17	목화	B-OG	B-OG	B-OG, I-OG, O, B-PS, B-LC
-18	##의	O	O	O, I-OG, I-AF, I-PS, B-PS
-19	‘	O	O	O, B-CV, B-LC, B-AF, B-OG
-20	북	B-AF	B-AF	B-AF, I-AF, B-LC, O, B-PS
-21	##청사	I-AF	I-AF	I-AF, I-PS, O, I-OG, I-LC
-22	##자	I-AF	I-AF	I-AF, I-PS, O, I-LC, I-OG
-23	##야	I-AF	I-AF	I-AF, O, I-PS, I-EV, I-LC
-24	놀	I-AF	I-AF	I-AF, O, I-EV, I-CV, I-PS
-25	##자	I-AF	I-AF	I-AF, O, I-CV, I-EV, I-PS
-26	’	O	O	O, I-AF, I-EV, I-CV, I-OG
-27	와	O	O	O, I-AF, B-OG, B-PS, B-LC
-28	26	B-DT	B-DT	B-DT, I-DT, O, B-QT, B-EV
-29	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-30	##∼	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-AF
-31	##4	I-DT	I-DT	I-DT, B-DT, O, I-AF, I-PS
-32	##월	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-AF
-33	1	I-DT	I-DT	I-DT, B-DT, O, I-QT, I-AF
-34	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-35	서울	B-LC	B-LC	B-LC, O, B-OG, I-DT, I-LC
-36	##과	O	O	O, I-LC, I-AF, B-LC, I-DT
-37	경남	B-LC	B-LC	B-LC, O, B-OG, B-AF, I-LC
-38	통영	B-LC	B-LC	B-LC, I-LC, O, B-OG, B-AF
-39	##에서	O	O	O, I-LC, B-LC, I-AF, I-OG
-40	아시아	B-LC	B-LC	B-LC, O, B-OG, I-LC, B-AF
-41	##지역	O	O	O, I-LC, B-LC, I-PS, I-AF
-42	초연	O	O	O, B-FD, B-CV, B-LC, B-EV
-43	##무대	O	O	O, I-FD, I-LC, I-EV, B-FD
-44	##를	O	O	O, B-CV, I-EV, B-PS, I-AF
-45	갖	O	O	O, B-OG, B-CV, B-AF, B-PS
-46	##는	O	O	O, B-OG, I-OG, B-PS, B-LC
-47	힐	O	B-OG	B-OG, B-PS, I-OG, O, B-AF
-48	##리어	O	I-OG	I-OG, I-PS, O, I-AF, B-OG
-49	##드	O	I-OG	I-OG, I-PS, O, I-AF, B-OG
-50	앙상블	O	I-OG	I-OG, I-PS, O, I-AF, B-OG
-51	##의	O	O	O, I-OG, I-PS, I-AF, B-FD
-52	‘	O	O	O, B-LC, B-CV, B-OG, I-OG
-53	그	B-AF	B-AF	B-AF, O, I-AF, B-CV, B-PS
-54	집	I-AF	I-AF	I-AF, O, B-AF, I-CV, B-CV
-55	##에	I-AF	I-AF	I-AF, O, I-CV, B-AF, I-OG
-56	갔	I-AF	I-AF	I-AF, O, B-AF, I-CV, I-OG
-57	##지만	I-AF	I-AF	I-AF, O, I-CV, B-AF, I-OG
-58	,	I-AF	I-AF	I-AF, O, I-OG, I-CV, B-AF
-59	들어가	I-AF	I-AF	I-AF, O, B-AF, B-CV, I-EV
-60	##지	I-AF	I-AF	I-AF, O, B-AF, I-OG, I-CV
-61	않	I-AF	I-AF	I-AF, O, B-AF, I-LC, I-OG
-62	##았	I-AF	I-AF	I-AF, O, B-AF, I-LC, I-OG
-63	##다	I-AF	I-AF	I-AF, O, I-CV, B-AF, I-OG
-64	’	O	O	O, I-AF, I-EV, I-OG, B-CV
-65	다	O	O	O, I-AF, B-OG, B-CV, B-PS
-66	.	O	O	O, B-AF, B-LC, I-AF, B-OG
-67	[SEP]	O	O	O, I-AF, B-AF, B-LC, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	책임	O	O
+2	##질	O	O
+3	게	O	O
+4	두려워	O	O
+5	정책	O	O
+6	결정	O	O
+7	##을	O	O
+8	꺼리	O	O
+9	##는	O	O
+10	공무원	B-CV	B-CV
+11	##의	O	O
+12	보신	O	B-TR
+13	##주의	O	I-TR
+14	##를	O	O
+15	뜻	O	O
+16	##한다	O	O
+17	.	O	O
+18	[SEP]	O	O

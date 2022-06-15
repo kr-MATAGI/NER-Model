@@ -1,38 +1,37 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	이	O	O	O, B-PS, B-CV, B-OG, B-AF
-2	##들	O	O	O, B-CV, I-AF, B-PS, I-OG
-3	##은	O	O	O, B-CV, B-LC, B-PS, B-TM
-4	각자	O	O	O, B-QT, B-TM, B-LC, B-DT
-5	30	B-QT	B-QT	B-QT, I-QT, O, B-DT, B-PS
-6	##k	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-7	##g	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-8	##의	O	O	O, I-QT, B-PS, B-QT, B-TM
-9	폭탄	O	B-AF	B-AF, O, B-MT, I-AF, B-CV
-10	##을	O	O	O, I-AF, B-CV, I-OG, I-CV
-11	휴대	O	O	O, B-TM, B-LC, B-CV, B-PS
-12	##하고	O	O	O, B-LC, B-PS, B-CV, B-AF
-13	지휘	O	O	O, B-AF, B-LC, B-CV, B-OG
-14	##소	O	O	O, I-AF, I-LC, I-OG, I-CV
-15	##와	O	O	O, I-AF, B-LC, B-AF, B-PS
-16	격	O	O	O, B-AF, B-LC, B-OG, B-CV
-17	##납	O	O	O, I-AF, I-LC, I-OG, I-CV
-18	##고	O	O	O, I-AF, I-LC, I-OG, I-CV
-19	,	O	O	O, I-AF, B-LC, I-LC, B-AF
-20	레이더	O	O	O, B-AF, B-OG, B-CV, B-LC
-21	##기지	O	O	O, I-AF, I-OG, I-LC, I-CV
-22	등	O	O	O, I-AF, B-LC, B-TM, I-OG
-23	핵심	O	O	O, B-LC, B-TM, B-CV, B-AF
-24	시설	O	O	O, B-LC, I-LC, B-CV, I-AF
-25	##을	O	O	O, B-CV, B-LC, B-PS, B-TM
-26	파괴	O	O	O, B-CV, B-LC, B-TM, B-PS
-27	##하	O	O	O, B-LC, B-PS, B-CV, B-TM
-28	##는	O	O	O, B-LC, B-CV, B-PS, B-TM
-29	가상	O	O	O, B-TM, B-CV, B-LC, B-FD
-30	임무	O	O	O, B-LC, I-EV, B-CV, B-PS
-31	##를	O	O	O, B-CV, B-OG, I-EV, B-PS
-32	부여받	O	O	O, B-CV, B-LC, B-TM, B-OG
-33	##았	O	O	O, B-CV, B-LC, B-PS, B-OG
-34	##다	O	O	O, B-CV, B-LC, I-OG, B-PS
-35	.	O	O	O, B-LC, B-AF, B-CV, B-PS
-36	[SEP]	O	O	O, B-LC, B-CV, B-AF, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	예	O	O
+2	,	O	O
+3	전	O	O
+4	너무	O	O
+5	실리	O	O
+6	##적	O	O
+7	##이	O	O
+8	##라	O	O
+9	초	O	B-CV
+10	##딩	O	I-CV
+11	때	O	O
+12	그	O	O
+13	트라우마	B-TM	B-TM
+14	##로	O	O
+15	빈	O	O
+16	##정	O	O
+17	##상	O	O
+18	##해	O	O
+19	급기야	O	O
+20	##는	O	O
+21	한국	O	O
+22	##말로	O	O
+23	먹	O	O
+24	##고사	O	O
+25	##는	O	O
+26	직업	O	O
+27	##을	O	O
+28	끝	O	O
+29	##끝	O	O
+30	##내	O	O
+31	성취	O	O
+32	##했	O	O
+33	##답니다	O	O
+34	.	O	O
+35	[SEP]	O	O

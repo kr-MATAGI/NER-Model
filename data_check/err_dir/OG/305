@@ -1,58 +1,32 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-EV, I-CV
-1	한편	O	O	O, B-QT, B-TM, B-CV, B-OG
-2	충북	B-OG	B-OG	B-OG, O, I-OG, B-LC, B-EV
-3	##참	I-OG	I-OG	I-OG, O, I-LC, I-EV, I-CV
-4	##여	I-OG	I-OG	I-OG, O, I-LC, I-EV, I-CV
-5	##연대	I-OG	I-OG	I-OG, O, I-LC, I-EV, I-CV
-6	##와	O	O	O, I-OG, I-EV, I-AF, I-QT
-7	충북	B-OG	B-OG	B-OG, O, I-OG, B-LC, B-PS
-8	##경	I-OG	I-OG	I-OG, O, I-LC, B-OG, I-EV
-9	##실	I-OG	I-OG	I-OG, O, I-LC, I-EV, I-CV
-10	##련	I-OG	I-OG	I-OG, O, I-LC, I-CV, I-EV
-11	등	O	O	O, I-OG, I-EV, B-CV, I-QT
-12	50	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-OG
-13	##여	I-QT	I-QT	I-QT, O, I-OG, I-LC, I-EV
-14	##개	I-QT	I-QT	I-QT, O, I-LC, I-OG, B-QT
-15	단체	O	O	O, I-QT, B-CV, I-OG, I-EV
-16	##로	O	O	O, I-QT, B-CV, B-OG, I-OG
-17	구성	O	O	O, B-CV, B-OG, B-TM, B-LC
-18	##된	O	O	O, B-OG, I-OG, B-LC, B-PS
-19	'	O	O	O, B-OG, B-CV, B-LC, I-OG
-20	행정	B-OG	O	O, B-OG, B-LC, B-EV, B-AF
-21	##도	I-OG	O	O, I-OG, I-LC, B-OG, I-EV
-22	##시	I-OG	O	O, I-OG, I-LC, I-CV, I-EV
-23	·	I-OG	O	O, I-OG, B-OG, I-LC, I-EV
-24	혁신	I-OG	I-OG	I-OG, O, B-OG, I-LC, I-EV
-25	##도	I-OG	I-OG	I-OG, O, I-LC, B-OG, I-CV
-26	##시	I-OG	I-OG	I-OG, O, I-LC, I-CV, I-EV
-27	무산	I-OG	I-OG	I-OG, O, B-OG, I-EV, I-CV
-28	##저지	I-OG	I-OG	I-OG, O, I-LC, I-CV, I-EV
-29	충북	I-OG	I-OG	I-OG, B-OG, O, B-LC, I-EV
-30	##비	I-OG	I-OG	I-OG, O, I-EV, I-CV, I-LC
-31	##상	I-OG	I-OG	I-OG, O, I-EV, I-CV, B-OG
-32	##대	I-OG	I-OG	I-OG, O, I-EV, I-CV, B-OG
-33	##책	I-OG	I-OG	I-OG, O, I-EV, I-CV, I-LC
-34	##위원회	I-OG	I-OG	I-OG, O, I-EV, I-CV, I-LC
-35	'	O	O	O, I-OG, I-EV, B-OG, B-CV
-36	는	O	O	O, B-OG, I-OG, B-PS, B-CV
-37	26	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-QT
-38	##일	I-DT	I-DT	I-DT, O, B-DT, I-EV, I-PS
-39	오전	B-TI	B-TI	B-TI, I-TI, B-TM, B-EV, B-LC
-40	11	I-TI	I-TI	I-TI, B-TI, I-QT, I-EV, I-LC
-41	##시	I-TI	I-TI	I-TI, I-QT, O, I-LC, I-EV
-42	충북	B-AF	B-AF	B-AF, B-OG, B-LC, I-AF, O
-43	##도	I-AF	I-AF	I-AF, I-OG, B-AF, I-LC, O
-44	##의회	I-AF	I-AF	I-AF, I-OG, I-LC, O, B-AF
-45	앞	B-TM	B-TM	B-TM, O, I-AF, B-TI, B-CV
-46	##에서	O	O	O, I-AF, I-EV, I-TM, B-CV
-47	출범식	O	O	O, B-EV, B-CV, I-EV, B-LC
-48	##을	O	O	O, I-EV, B-CV, I-OG, B-OG
-49	열	O	O	O, B-CV, B-OG, B-LC, B-EV
-50	##고	O	O	O, B-LC, B-OG, B-EV, B-CV
-51	공식	O	O	O, B-EV, B-CV, B-LC, B-OG
-52	활동	O	O	O, I-EV, B-CV, B-LC, B-EV
-53	##에	O	O	O, B-CV, I-EV, B-OG, B-LC
-54	나선다	O	O	O, B-LC, B-OG, B-CV, B-EV
-55	.	O	O	O, B-OG, B-LC, I-OG, I-EV
-56	[SEP]	O	O	O, B-OG, I-OG, B-LC, I-EV
+	text	label	preds
+0	[CLS]	O	O
+1	이	O	O
+2	사진	O	O
+3	##은	O	O
+4	지난	B-DT	B-DT
+5	18	I-DT	I-DT
+6	##일	I-DT	I-DT
+7	재미	B-OG	B-OG
+8	##연합	I-OG	I-OG
+9	감리	I-OG	B-OG
+10	##교회	I-OG	I-OG
+11	김영철	B-PS	B-PS
+12	(	O	O
+13	미국	B-LC	B-LC
+14	캘리포니아	B-LC	B-LC
+15	거주	O	O
+16	)	O	O
+17	목사	B-CV	B-CV
+18	##가	O	O
+19	기념	O	O
+20	##재단	O	O
+21	##으로	O	O
+22	보내온	O	O
+23	편지	O	O
+24	##에	O	O
+25	담겨	O	O
+26	있	O	O
+27	##었	O	O
+28	##다	O	O
+29	.	O	O
+30	[SEP]	O	O

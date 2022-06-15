@@ -1,32 +1,11 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	그런	O	O	O, B-PS, B-CV, B-LC, B-OG
-2	그	O	O	O, B-PS, B-CV, B-OG, B-LC
-3	##가	O	O	O, B-PS, B-CV, B-OG, B-LC
-4	자연	O	O	O, B-TR, B-FD, B-CV, B-PS
-5	치아	B-AM	B-AM	B-AM, O, B-TR, I-AM, I-TR
-6	##에	O	O	O, I-TR, I-TM, I-AF, I-CV
-7	버금가	O	O	O, B-CV, B-LC, B-OG, B-PS
-8	##는	O	O	O, B-PS, B-LC, B-OG, B-CV
-9	건강	O	O	O, B-CV, B-LC, B-TM, B-OG
-10	##한	O	O	O, B-PS, B-TR, B-LC, B-OG
-11	임	B-TR	B-TR	B-TR, O, I-TR, B-TM, B-FD
-12	##플	I-TR	I-TR	I-TR, O, B-TR, I-FD, I-TM
-13	##란트	I-TR	I-TR	I-TR, O, B-TR, I-TM, I-FD
-14	치료	O	I-TR	I-TR, O, B-TR, I-FD, I-TM
-15	##를	O	O	O, I-TR, I-TM, I-AF, I-QT
-16	위해	O	O	O, B-LC, B-CV, B-PS, B-OG
-17	가장	O	O	O, B-CV, B-OG, B-QT, B-TM
-18	공	O	O	O, B-CV, B-TM, B-PS, B-OG
-19	##을	O	O	O, B-CV, B-PS, B-OG, B-TM
-20	들이	O	O	O, B-OG, B-PS, B-CV, B-TM
-21	##는	O	O	O, B-CV, B-OG, B-TM, B-PS
-22	부분	O	O	O, B-CV, B-TM, B-PS, B-OG
-23	##은	O	O	O, B-CV, B-TM, B-LC, B-OG
-24	바로	O	O	O, B-CV, B-TM, B-OG, B-QT
-25	‘	O	O	O, B-CV, B-TM, B-OG, B-LC
-26	설계	O	O	O, B-FD, B-CV, B-TM, B-TR
-27	’	O	O	O, B-CV, B-PS, I-CV, I-OG
-28	다	O	O	O, B-CV, B-TM, B-PS, B-LC
-29	.	O	O	O, B-CV, B-PS, B-LC, B-OG
-30	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-FD
+	text	label	preds
+0	[CLS]	O	O
+1	그런데	O	O
+2	이	O	O
+3	보수	O	B-TR
+4	##의	O	O
+5	이름	O	O
+6	##은	O	O
+7	사실	O	O
+8	##은	O	O
+9	[SEP]	O	O

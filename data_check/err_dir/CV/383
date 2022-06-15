@@ -1,33 +1,56 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-EV, I-OG, B-CV, I-CV
-1	‘	O	O	O, B-EV, B-LC, B-OG, B-CV
-2	난장	B-LC	O	O, B-EV, B-AF, B-CV, B-OG
-3	’	O	O	O, I-EV, I-OG, I-AF, I-LC
-4	에서	O	O	O, I-EV, B-PS, B-OG, B-LC
-5	##는	O	O	O, I-EV, B-OG, B-LC, B-CV
-6	오늘	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-QT
-7	##의	O	O	O, I-DT, I-EV, B-PS, I-QT
-8	삶	O	O	O, I-EV, B-LC, I-OG, B-PS
-9	속	O	O	O, B-LC, B-PS, I-EV, B-CV
-10	##에서	O	O	O, B-LC, B-PS, B-CV, B-OG
-11	평화	O	O	O, B-EV, B-FD, B-LC, I-EV
-12	##와	O	O	O, B-PS, I-OG, B-LC, I-EV
-13	인권	B-CV	O	O, B-CV, B-FD, B-TR, B-OG
-14	##의	O	O	O, I-CV, I-EV, I-OG, B-PS
-15	의미	O	O	O, B-PS, I-EV, B-FD, B-LC
-16	##를	O	O	O, B-PS, B-CV, B-LC, I-EV
-17	찾	O	O	O, B-CV, B-PS, B-LC, B-FD
-18	##는	O	O	O, B-PS, B-CV, B-LC, B-EV
-19	공연	O	O	O, B-EV, I-EV, B-FD, B-CV
-20	##과	O	O	O, I-EV, B-PS, I-OG, B-EV
-21	만	B-OG	O	O, B-EV, B-CV, B-OG, B-LC
-22	##민	I-OG	O	O, I-EV, I-OG, I-CV, I-LC
-23	##공	I-OG	O	O, I-EV, I-OG, I-CV, I-LC
-24	##동	I-OG	O	O, I-EV, I-OG, I-LC, I-AF
-25	##회	I-OG	O	O, I-EV, I-OG, I-LC, I-AF
-26	##가	O	O	O, I-EV, I-OG, B-PS, B-LC
-27	마련	O	O	O, B-EV, B-OG, B-LC, I-EV
-28	##된	O	O	O, I-EV, I-OG, B-EV, B-PS
-29	##다	O	O	O, I-EV, I-OG, B-EV, B-CV
-30	.	O	O	O, I-EV, B-LC, B-CV, B-PS
-31	[SEP]	O	O	O, I-EV, B-CV, B-LC, B-EV
+	text	label	preds
+0	[CLS]	O	O
+1	그	O	O
+2	##는	O	O
+3	이	O	O
+4	자리	O	O
+5	##에	O	O
+6	##서	O	O
+7	“	O	O
+8	학생	B-CV	B-CV
+9	##인	B-CV	I-CV
+10	##권	I-CV	I-CV
+11	##과	O	O
+12	체벌	O	O
+13	##을	O	O
+14	바라보	O	O
+15	##는	O	O
+16	근본	O	O
+17	##적	O	O
+18	##인	O	O
+19	인식	O	O
+20	##의	O	O
+21	전환	O	O
+22	##이	O	O
+23	필요	O	O
+24	##하	O	O
+25	##다	O	O
+26	”	O	O
+27	며	O	O
+28	“	O	O
+29	교육청	O	B-OG
+30	##과	O	O
+31	학교	O	O
+32	,	O	O
+33	교사	B-CV	B-CV
+34	모두	O	O
+35	##의	O	O
+36	노력	O	O
+37	##이	O	O
+38	미흡	O	O
+39	##한	O	O
+40	것	O	O
+41	##에	O	O
+42	대한	O	O
+43	성찰	O	O
+44	##이	O	O
+45	필요	O	O
+46	##하	O	O
+47	##다	O	O
+48	”	O	O
+49	고	O	O
+50	지적	O	O
+51	##했	O	O
+52	##다	O	O
+53	.	O	O
+54	[SEP]	O	O

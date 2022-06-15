@@ -1,20 +1,48 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-EV
-1	그래서	O	O	O, B-CV, B-PS, B-OG, B-LC
-2	문재인	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-3	정부	B-OG	B-OG	B-OG, O, I-OG, B-CV, I-PS
-4	##의	O	O	O, I-OG, B-PS, B-CV, I-PS
-5	소득	O	B-TR	B-TR, O, I-TR, B-CV, B-PS
-6	주도	O	I-TR	I-TR, O, B-TR, I-CV, I-FD
-7	성장	O	I-TR	I-TR, O, I-CV, B-TR, I-TM
-8	##론	O	I-TR	I-TR, O, I-CV, B-TR, I-FD
-9	##은	O	O	O, I-TR, I-QT, I-AF, I-CV
-10	'	O	O	O, B-LC, B-CV, B-PS, B-OG
-11	실험	O	O	O, B-TR, B-FD, B-PS, B-EV
-12	'	O	O	O, I-EV, I-TR, B-PS, I-AF
-13	에	O	O	O, B-PS, B-TR, B-LC, B-OG
-14	비유	O	O	O, B-PS, B-CV, B-OG, B-TR
-15	##된	O	O	O, I-OG, I-EV, B-PS, I-PS
-16	##다	O	O	O, I-OG, B-CV, I-EV, I-QT
-17	.	O	O	O, B-LC, B-PS, B-CV, B-OG
-18	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-FD
+	text	label	preds
+0	[CLS]	O	O
+1	이	B-PS	B-PS
+2	씨	O	O
+3	##는	O	O
+4	경찰	B-OG	B-OG
+5	체포	O	O
+6	직전	O	O
+7	출	O	O
+8	##강	O	O
+9	##하	O	O
+10	##는	O	O
+11	대학	O	O
+12	관계자	B-CV	B-CV
+13	##에	O	O
+14	##게	O	O
+15	“	O	O
+16	딸	B-CV	B-CV
+17	##이	O	O
+18	죽	O	O
+19	##기	O	O
+20	전날	B-DT	B-DT
+21	밤	B-TI	B-TI
+22	가출	O	O
+23	##하	O	O
+24	##고	O	O
+25	돌아와	O	O
+26	밤	B-TI	B-TI
+27	##늦	O	I-TI
+28	##게	O	I-TI
+29	##까	O	I-TI
+30	##지	O	I-TI
+31	식구	B-CV	B-CV
+32	##들	O	O
+33	##끼리	O	O
+34	서로	O	O
+35	부	O	O
+36	##둥	O	O
+37	##켜	O	O
+38	##안	O	O
+39	##고	O	O
+40	울	O	O
+41	##며	O	O
+42	참회	O	O
+43	##했	O	O
+44	##다	O	O
+45	.	O	O
+46	[SEP]	O	O

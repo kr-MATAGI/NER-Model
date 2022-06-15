@@ -1,36 +1,33 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-QT
-1	그러면	O	O	O, B-CV, B-TM, B-OG, B-LC
-2	신청자	B-CV	B-CV	B-CV, O, B-PS, B-AF, I-CV
-3	##의	O	O	O, I-CV, I-AF, I-OG, B-CV
-4	휴대	O	B-TM	B-TM, O, B-CV, B-TR, B-AF
-5	##전	O	I-TM	I-TM, O, I-CV, B-TM, I-TR
-6	##화	O	I-TM	I-TM, O, I-CV, B-TM, I-AF
-7	##번	O	O	O, I-TM, I-CV, I-AF, B-CV
-8	##호	O	O	O, I-TM, I-CV, I-AF, B-CV
-9	##가	O	O	O, B-PS, B-LC, B-OG, B-CV
-10	각	O	O	O, B-OG, B-LC, B-QT, B-TM
-11	금융	O	O	O, B-OG, B-CV, B-AF, B-TM
-12	##회사	O	O	O, I-OG, I-CV, I-AF, I-QT
-13	##로	O	O	O, B-CV, I-OG, B-TM, B-PS
-14	전달	O	O	O, B-CV, B-TM, B-LC, B-QT
-15	##되	O	O	O, B-CV, B-LC, B-PS, I-CV
-16	##고	O	O	O, B-CV, B-LC, B-TM, B-PS
-17	이후	O	O	O, B-CV, B-DT, B-QT, B-LC
-18	##부터	O	O	O, I-DT, I-OG, I-CV, I-QT
-19	##는	O	O	O, B-CV, B-LC, B-OG, B-TM
-20	불	O	O	O, B-TM, B-CV, B-LC, B-QT
-21	##필	O	O	O, B-TM, B-CV, B-QT, B-LC
-22	##요	O	O	O, B-TM, I-TM, I-AF, B-CV
-23	##한	O	O	O, B-TM, B-LC, B-PS, B-QT
-24	전화	O	O	O, B-TM, B-CV, B-QT, I-TM
-25	##와	O	O	O, I-TM, B-CV, I-AF, B-TM
-26	문자	O	O	O, B-TM, B-CV, B-QT, I-TM
-27	##를	O	O	O, B-CV, I-TM, B-TM, I-QT
-28	받	O	O	O, B-CV, B-TM, B-LC, B-OG
-29	##지	O	O	O, B-CV, B-TM, B-OG, B-PS
-30	않	O	O	O, B-CV, B-TM, B-PS, B-QT
-31	##게	O	O	O, B-CV, I-OG, B-TM, I-QT
-32	됩니다	O	O	O, B-CV, B-TM, B-OG, B-LC
-33	.	O	O	O, B-LC, B-CV, B-TM, B-OG
-34	[SEP]	O	O	O, B-CV, B-TM, B-LC, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	동서	O	B-LC
+2	##고	O	I-LC
+3	##금	O	I-LC
+4	##을	O	O
+5	막론	O	O
+6	##하	O	O
+7	##고	O	O
+8	불통	O	O
+9	##을	O	O
+10	지적	O	O
+11	##받	O	O
+12	##지	O	O
+13	않	O	O
+14	##은	O	O
+15	지도자	B-CV	B-CV
+16	##가	O	O
+17	거의	O	O
+18	없	O	O
+19	##다	O	O
+20	해도	O	O
+21	현	O	O
+22	정권	O	O
+23	##의	O	O
+24	불통	O	O
+25	##은	O	O
+26	심각	O	O
+27	##한	O	O
+28	수준	O	O
+29	##이다	O	O
+30	.	O	O
+31	[SEP]	O	O

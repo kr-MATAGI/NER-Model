@@ -1,68 +1,45 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	유흥	O	O	O, B-CV, B-TM, B-FD, B-OG
-2	##업	O	O	O, I-CV, B-CV, I-OG, I-TM
-3	##계	O	O	O, I-CV, B-CV, I-OG, B-PS
-4	관계자	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-OG
-5	##는	O	O	O, I-CV, I-QT, I-OG, I-EV
-6	“	O	O	O, B-CV, B-LC, B-TM, B-OG
-7	외국인	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-LC
-8	##은	O	O	O, I-CV, B-CV, I-EV, I-OG
-9	가격	O	O	O, B-CV, B-TM, B-LC, B-PS
-10	##이	O	O	O, B-PS, B-OG, B-LC, B-CV
-11	다소	O	O	O, B-LC, B-CV, B-TM, B-PS
-12	비싸	O	O	O, B-CV, B-TM, B-LC, B-PS
-13	##더라	O	O	O, B-LC, B-PS, B-TM, B-OG
-14	##도	O	O	O, B-LC, B-PS, B-OG, B-CV
-15	은밀	O	O	O, B-CV, B-TM, B-LC, B-PS
-16	##하고	O	O	O, B-LC, B-PS, B-CV, B-OG
-17	고급	O	O	O, B-CV, B-TM, B-LC, B-PS
-18	##스러운	O	O	O, B-PS, B-LC, I-AF, B-CV
-19	곳	O	O	O, B-CV, B-TM, B-LC, B-PS
-20	##을	O	O	O, B-CV, B-PS, B-LC, B-TM
-21	찾	O	O	O, B-CV, B-PS, B-LC, B-OG
-22	##는	O	O	O, B-CV, B-PS, B-LC, B-TM
-23	편	O	O	O, B-CV, B-TM, B-PS, B-LC
-24	”	O	O	O, B-CV, I-CV, B-TM, I-OG
-25	이라	O	O	O, B-CV, B-PS, B-TM, I-CV
-26	##며	O	O	O, B-CV, B-TM, B-LC, B-OG
-27	“	O	O	O, B-CV, B-LC, B-TM, B-OG
-28	노르웨이	B-CV	B-CV	B-CV, O, B-LC, B-OG, B-TM
-29	##인	I-CV	I-CV	I-CV, O, B-CV, I-LC, I-OG
-30	##의	O	O	O, I-CV, I-OG, I-QT, I-EV
-31	결제	O	O	O, B-TM, B-CV, B-LC, B-OG
-32	##액	O	O	O, I-TM, B-TM, I-OG, B-LC
-33	##이	O	O	O, B-PS, B-OG, B-LC, B-CV
-34	많	O	O	O, B-TM, B-CV, B-OG, B-LC
-35	##은	O	O	O, B-TM, B-OG, B-CV, B-LC
-36	것	O	O	O, B-LC, B-OG, B-TM, B-CV
-37	##은	O	O	O, B-LC, B-OG, B-PS, B-TM
-38	선박	O	B-AF	B-AF, O, B-OG, B-LC, I-AF
-39	해운	O	O	O, I-AF, I-OG, B-OG, B-CV
-40	##회사	O	O	O, I-OG, I-AF, I-CV, B-OG
-41	관계자	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-PT
-42	##들이	O	O	O, I-CV, B-CV, I-AF, I-OG
-43	배	B-AF	B-AF	B-AF, O, B-LC, I-AF, B-OG
-44	##를	O	O	O, I-AF, I-OG, B-CV, I-EV
-45	발주	O	O	O, B-CV, B-LC, B-TM, B-PS
-46	##하	O	O	O, B-LC, B-PS, B-CV, B-OG
-47	##거나	O	O	O, B-LC, B-PS, I-AF, B-CV
-48	계약	O	O	O, B-LC, B-CV, B-TM, B-OG
-49	##하	O	O	O, B-LC, B-PS, B-OG, B-CV
-50	##러	O	O	O, B-LC, B-PS, B-CV, B-TM
-51	한국	B-LC	B-LC	B-LC, O, B-OG, I-LC, B-AF
-52	##을	O	O	O, I-LC, I-AF, B-LC, I-OG
-53	많이	O	O	O, B-LC, B-CV, B-TM, B-OG
-54	찾	O	O	O, B-CV, B-LC, B-PS, B-TM
-55	##기	O	O	O, B-PS, B-LC, B-CV, B-TM
-56	때문	O	O	O, B-PS, B-LC, B-TM, B-QT
-57	##일	O	O	O, B-PS, B-LC, I-LC, I-OG
-58	것	O	O	O, B-PS, B-TM, I-OG, B-CV
-59	”	O	O	O, B-CV, B-TM, B-QT, I-OG
-60	이라	O	O	O, B-CV, B-PS, B-QT, B-TM
-61	##고	O	O	O, B-QT, B-TM, B-CV, I-CV
-62	풀이	O	O	O, B-CV, B-TM, B-QT, I-QT
-63	##했	O	O	O, I-CV, B-CV, I-OG, I-QT
-64	##다	O	O	O, B-CV, B-TM, B-QT, I-OG
-65	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-66	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	미국	B-LC	B-LC
+2	정부	B-OG	B-OG
+3	##는	O	O
+4	25	B-DT	B-DT
+5	##일	I-DT	I-DT
+6	리비아	B-LC	B-LC
+7	##에	O	O
+8	##서	O	O
+9	잔류	O	O
+10	미국인	B-CV	B-CV
+11	##의	O	O
+12	철수	O	O
+13	##가	O	O
+14	사실	O	O
+15	##상	O	O
+16	마무리	O	O
+17	##됨	O	O
+18	##에	O	O
+19	따라	O	O
+20	트리	B-LC	B-LC
+21	##폴리	I-LC	I-LC
+22	##의	O	O
+23	주리	O	B-LC
+24	##비아	O	I-LC
+25	미국	O	B-OG
+26	##대사	O	I-OG
+27	##관	O	I-OG
+28	##을	O	O
+29	폐쇄	O	O
+30	##하	O	O
+31	##고	O	O
+32	리비아	B-LC	B-LC
+33	##에	O	O
+34	대한	O	O
+35	본격	O	O
+36	##적	O	O
+37	##인	O	O
+38	제재	O	O
+39	##에	O	O
+40	나섰	O	O
+41	##다	O	O
+42	.	O	O
+43	[SEP]	O	O

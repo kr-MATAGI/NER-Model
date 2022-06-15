@@ -1,26 +1,13 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, B-CV, I-OG, I-AF
-1	기름	O	O	O, B-CV, B-MT, B-AM, B-AF
-2	때	O	O	O, I-CV, B-MT, I-MT, I-AF
-3	##가	O	O	O, I-AF, I-CV, B-PS, B-CV
-4	끼	O	O	O, B-CV, B-PS, B-LC, I-AF
-5	##어	O	O	O, B-PS, I-AF, B-CV, B-LC
-6	##서	O	O	O, B-CV, B-LC, B-PS, B-TM
-7	피	B-TM	B-TM	B-TM, O, B-TR, I-TM, B-LC
-8	##가	O	O	O, I-TM, I-AF, B-PS, I-QT
-9	잘	O	O	O, B-TM, B-LC, B-CV, B-OG
-10	안	O	O	O, B-TM, B-LC, B-CV, B-PS
-11	지나가	O	O	O, B-CV, B-LC, B-TM, B-PS
-12	##는	O	O	O, B-CV, I-AF, B-LC, B-PS
-13	상태	O	O	O, B-CV, B-TM, B-LC, I-CV
-14	##가	O	O	O, I-OG, B-PS, I-CV, I-AF
-15	될	O	O	O, B-CV, I-OG, I-CV, I-AF
-16	때	O	O	O, B-CV, I-CV, I-OG, I-AF
-17	어	O	O	O, B-CV, B-TM, B-OG, B-LC
-18	~	O	O	O, B-CV, I-CV, B-LC, I-OG
-19	혈압	O	B-TM	B-TM, O, B-TR, B-QT, B-CV
-20	##이	O	O	O, I-TM, I-AF, I-CV, I-OG
-21	올라	O	O	O, B-CV, B-TM, B-OG, B-LC
-22	##갑니다	O	O	O, B-CV, B-OG, B-TM, B-LC
-23	.	O	O	O, B-CV, B-LC, B-PS, B-TM
-24	[SEP]	O	O	O, B-CV, B-LC, B-TM, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	가죽	O	B-AM
+2	##에다	O	O
+3	##가	O	O
+4	쇠	O	O
+5	##사	O	O
+6	##슬	O	O
+7	##이	O	O
+8	##니까	O	O
+9	무거운	O	O
+10	##데	O	O
+11	[SEP]	O	O

@@ -1,33 +1,47 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	행정	B-CV	B-CV	B-CV, O, B-EV, B-OG, B-AF
-2	##장	I-CV	I-CV	I-CV, O, B-CV, I-EV, I-AF
-3	##관	I-CV	I-CV	I-CV, O, I-EV, B-CV, I-OG
-4	선거	O	O	O, I-CV, B-CV, I-EV, B-EV
-5	##안	O	O	O, I-CV, I-EV, I-AF, I-TR
-6	##은	O	O	O, B-CV, I-EV, B-OG, I-CV
-7	70	B-QT	B-QT	B-QT, O, I-QT, B-PS, B-DT
-8	##명	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-9	##의	O	O	O, I-QT, I-OG, B-OG, B-PS
-10	입법	O	B-OG	B-OG, O, B-EV, B-PS, B-LC
-11	##회	O	I-OG	I-OG, O, I-EV, I-PS, I-AF
-12	재	O	O	O, I-OG, B-OG, B-CV, B-PS
-13	##적	O	O	O, I-OG, I-CV, I-LC, I-QT
-14	의원	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-TM
-15	가운데	O	O	O, B-TM, B-QT, B-LC, B-OG
-16	3	B-QT	B-QT	B-QT, I-QT, O, B-TM, B-DT
-17	##분	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-TM
-18	##의	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-OG
-19	2	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-20	##이상	I-QT	I-QT	I-QT, O, I-LC, I-OG, I-PS
-21	##인	O	O	O, I-QT, B-CV, B-PS, B-LC
-22	47	B-QT	B-QT	B-QT, I-QT, O, B-DT, B-LC
-23	##명	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-24	##이	O	O	O, I-QT, B-PS, B-CV, I-EV
-25	동의	O	O	O, B-CV, B-OG, B-AF, B-LC
-26	##해야	O	O	O, I-OG, I-AF, B-PS, B-QT
-27	가결	O	O	O, B-CV, B-OG, B-EV, B-AF
-28	##된	O	O	O, I-OG, I-AF, B-OG, B-PS
-29	##다	O	O	O, B-CV, I-OG, B-OG, I-AF
-30	.	O	O	O, B-OG, B-LC, B-PS, B-CV
-31	[SEP]	O	O	O, B-CV, B-OG, I-OG, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	강	B-PS	B-PS
+2	교수	B-CV	B-CV
+3	##는	O	O
+4	또	O	O
+5	“	O	O
+6	법원장	B-CV	B-CV
+7	월급	O	O
+8	##이	O	O
+9	일반	O	O
+10	판사	B-CV	B-CV
+11	##들	O	O
+12	##과	O	O
+13	크	O	O
+14	##게	O	O
+15	차이	O	O
+16	나지	O	O
+17	않	O	O
+18	##고	O	O
+19	,	O	O
+20	인사	O	B-CV
+21	##권	O	I-CV
+22	없이	O	O
+23	행정	O	O
+24	##업	O	O
+25	##무	O	O
+26	##를	O	O
+27	도맡	O	O
+28	##다	O	O
+29	보	O	O
+30	##니	O	O
+31	법원장	B-CV	B-CV
+32	##이	O	O
+33	되	O	O
+34	##는	O	O
+35	것	O	O
+36	##을	O	O
+37	꺼	O	O
+38	##릴	O	O
+39	정도	O	O
+40	”	O	O
+41	라고	O	O
+42	했	O	O
+43	##다	O	O
+44	.	O	O
+45	[SEP]	O	O

@@ -1,79 +1,9 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	또	O	O	O, B-CV, B-OG, B-LC, B-TM
-2	지난해	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-TI
-3	전반기	B-DT	I-DT	I-DT, O, B-DT, I-QT, B-TI
-4	##에	O	O	O, I-DT, B-CV, I-QT, B-LC
-5	비해	O	O	O, B-LC, B-OG, B-CV, B-TM
-6	해병대	O	B-OG	B-OG, O, B-CV, B-AF, B-EV
-7	내	O	O	O, I-OG, I-EV, B-LC, I-CV
-8	총기	O	O	O, B-AF, B-EV, B-CV, B-LC
-9	##사고	O	O	O, I-EV, I-AF, I-CV, I-TM
-10	##와	O	O	O, I-EV, I-AF, B-PS, B-LC
-11	구타	O	O	O, B-CV, B-TM, B-LC, B-FD
-12	·	O	O	O, I-CV, B-PS, B-LC, B-CV
-13	가혹	O	O	O, B-CV, I-CV, B-TM, B-FD
-14	##행위	O	O	O, I-CV, B-CV, I-TM, I-TR
-15	·	O	O	O, I-CV, B-PS, B-LC, B-CV
-16	성추행	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-FD
-17	등	O	O	O, I-CV, B-CV, I-OG, B-LC
-18	##이	O	O	O, B-PS, B-LC, B-OG, B-CV
-19	166	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-EV
-20	##건	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-21	##에서	O	O	O, I-QT, I-DT, B-PS, I-OG
-22	205	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-EV
-23	##건	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-24	##으로	O	O	O, I-QT, I-EV, B-PS, B-CV
-25	23	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-EV
-26	%	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-27	나	O	O	O, I-QT, I-OG, B-TM, B-OG
-28	증가	O	O	O, B-OG, B-QT, B-TM, B-CV
-29	##한	O	O	O, B-LC, B-PS, B-OG, B-CV
-30	것	O	O	O, B-CV, B-LC, B-OG, B-TM
-31	##과	O	O	O, B-CV, B-OG, B-LC, B-TM
-32	관련	O	O	O, B-OG, B-LC, B-TM, B-CV
-33	,	O	O	O, B-LC, B-OG, B-CV, B-PS
-34	기수	O	O	O, B-CV, B-OG, B-LC, B-TM
-35	##열	O	O	O, I-CV, B-CV, B-PS, B-LC
-36	##외	O	O	O, I-CV, I-LC, I-TM, B-CV
-37	(	O	O	O, I-CV, B-CV, B-LC, B-PS
-38	해병대	O	B-OG	B-OG, O, B-CV, B-EV, B-AF
-39	##식	O	O	O, I-CV, I-OG, B-CV, I-TR
-40	집단	O	O	O, B-CV, I-CV, B-TR, B-TM
-41	##따	O	O	O, I-CV, B-CV, I-TR, I-LC
-42	##돌	O	O	O, I-CV, I-TR, B-CV, I-LC
-43	##림	O	O	O, I-CV, I-TR, I-LC, I-TM
-44	)	O	O	O, I-CV, B-LC, B-CV, B-OG
-45	,	O	O	O, B-LC, B-CV, B-OG, B-PS
-46	호	O	B-CV	B-CV, O, B-OG, I-CV, B-AF
-47	##봉	O	I-CV	I-CV, O, B-CV, I-OG, I-TM
-48	##제	O	I-CV	I-CV, O, B-CV, I-OG, I-TM
-49	(	O	O	O, I-CV, I-OG, B-CV, I-QT
-50	병사	O	B-CV	B-CV, O, B-OG, I-CV, B-AF
-51	계급	O	O	O, I-CV, B-CV, I-OG, B-PS
-52	##별	O	O	O, I-CV, B-CV, I-TR, I-OG
-53	차별	O	O	O, I-CV, B-CV, B-PS, I-TR
-54	행위	O	O	O, I-CV, I-TR, B-CV, I-FD
-55	)	O	O	O, I-CV, B-CV, B-LC, B-OG
-56	등	O	O	O, B-LC, B-CV, B-OG, B-TM
-57	##을	O	O	O, B-CV, B-LC, B-OG, B-TM
-58	없애	O	O	O, B-CV, B-LC, B-OG, B-TM
-59	##고	O	O	O, B-LC, B-PS, B-OG, B-CV
-60	인성	O	O	O, B-CV, B-TM, B-TR, I-CV
-61	(	O	O	O, I-CV, B-CV, B-PS, B-LC
-62	人	O	O	O, B-CV, I-CV, B-LC, B-PS
-63	性	O	O	O, I-CV, B-CV, B-LC, B-PS
-64	)	O	O	O, I-CV, B-CV, B-PS, B-LC
-65	결함	O	O	O, B-CV, I-CV, B-PS, B-AM
-66	##자	O	O	O, I-CV, B-CV, I-TM, I-AM
-67	##의	O	O	O, I-CV, B-CV, B-LC, B-PS
-68	입	O	O	O, B-TM, B-LC, B-CV, B-AM
-69	##영	O	O	O, I-TM, I-LC, I-CV, I-TR
-70	##도	O	O	O, I-LC, B-LC, I-TM, I-CV
-71	차단	O	O	O, B-TM, B-CV, B-QT, B-LC
-72	##키	O	O	O, B-PS, B-LC, I-QT, B-CV
-73	##로	O	O	O, B-OG, B-LC, B-PS, B-CV
-74	했	O	O	O, B-LC, B-CV, B-OG, B-PS
-75	##다	O	O	O, B-CV, B-LC, B-OG, B-TM
-76	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-77	[SEP]	O	O	O, B-LC, B-CV, B-TM, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	최대	O	O
+2	성수기	O	O
+3	여름	B-DT	B-DT
+4	##시	I-DT	O
+5	##즌	I-DT	O
+6	성적표	O	O
+7	[SEP]	O	O

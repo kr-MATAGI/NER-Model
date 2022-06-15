@@ -1,14 +1,44 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-AF
-1	뭐	O	O	O, B-CV, I-OG, I-AF, I-CV
-2	##였	O	O	O, I-OG, B-PS, I-AF, B-CV
-3	##지	O	O	O, I-OG, I-AF, B-PS, I-LC
-4	가족	B-AF	B-CV	B-CV, O, B-AF, B-PS, B-OG
-5	##오	I-AF	O	O, I-CV, I-AF, I-OG, B-AF
-6	##락	I-AF	O	O, I-AF, I-CV, I-OG, I-LC
-7	##관	I-AF	O	O, I-AF, I-OG, I-CV, I-LC
-8	같	O	O	O, I-AF, B-PS, I-QT, I-OG
-9	##은	O	O	O, I-CV, B-CV, I-AF, B-PS
-10	느낌	O	O	O, B-CV, B-PS, B-QT, B-OG
-11	##으로	O	O	O, I-AF, I-OG, B-CV, I-CV
-12	[SEP]	O	O	O, B-CV, I-AF, I-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	입구	O	O
+2	유리	O	O
+3	##문	O	O
+4	##에	O	O
+5	##는	O	O
+6	이	O	O
+7	가게	O	O
+8	##가	O	O
+9	지난	B-DT	B-DT
+10	30	I-DT	I-DT
+11	##년	I-DT	I-DT
+12	##간	I-DT	I-DT
+13	'	O	O
+14	미	B-AF	B-OG
+15	##슐	I-AF	I-OG
+16	##랭	I-AF	I-OG
+17	가이드	I-AF	I-OG
+18	'	O	O
+19	'	O	O
+20	자가	B-AF	B-OG
+21	##트	I-AF	I-OG
+22	'	O	O
+23	등	O	O
+24	세계	O	O
+25	##적	O	O
+26	레스토랑	O	O
+27	평가	O	O
+28	##업체	O	O
+29	##로	O	O
+30	##부터	O	O
+31	받	O	O
+32	##은	O	O
+33	고	O	O
+34	##득점	O	O
+35	성적표	O	O
+36	##들이	O	O
+37	붙	O	O
+38	##어	O	O
+39	있	O	O
+40	##다	O	O
+41	.	O	O
+42	[SEP]	O	O

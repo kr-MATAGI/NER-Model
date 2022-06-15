@@ -1,18 +1,17 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-AF
-1	그까	O	O	O, B-CV, B-LC, B-OG, B-PS
-2	저	O	O	O, B-CV, B-LC, B-PS, B-OG
-3	##두	O	O	O, B-CV, B-DT, I-DT, B-PS
-4	그때	O	O	O, B-CV, B-OG, B-PS, B-LC
-5	정신	B-FD	B-FD	B-FD, B-CV, B-LC, B-TM, B-AF
-6	##과	I-FD	I-FD	I-FD, I-CV, O, B-FD, I-TM
-7	의사	B-CV	I-CV	I-CV, B-CV, I-FD, O, I-QT
-8	선생	B-CV	B-CV	B-CV, I-CV, O, B-FD, B-TM
-9	##님	I-CV	I-CV	I-CV, O, B-CV, I-FD, I-OG
-10	만났	O	O	O, I-CV, B-CV, I-OG, I-EV
-11	##을	O	O	O, I-CV, B-CV, I-OG, I-AF
-12	때	O	O	O, B-CV, B-PS, B-OG, B-QT
-13	말씀	O	O	O, B-CV, B-TM, B-OG, B-LC
-14	드렸	O	O	O, B-CV, B-OG, B-DT, B-TM
-15	##지만	O	O	O, B-CV, B-OG, B-PS, I-AF
-16	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	정말	O	O
+2	그	O	O
+3	~	O	O
+4	이	O	O
+5	~	O	O
+6	가장	O	O
+7	충실	O	O
+8	##한	O	O
+9	그런	O	O
+10	공복	B-CV	O
+11	##들이	O	O
+12	모인	O	O
+13	곳	O	O
+14	##이	O	O
+15	[SEP]	O	O

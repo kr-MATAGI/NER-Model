@@ -1,28 +1,52 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	또	O	O	O, B-CV, B-OG, B-TM, B-LC
-2	인천	B-OG	B-LC	B-LC, O, B-OG, B-AF, B-PS
-3	##국제	I-OG	I-LC	I-LC, O, B-LC, I-AF, I-OG
-4	##공항	I-OG	I-LC	I-LC, O, B-LC, I-AF, I-OG
-5	##과	O	O	O, I-LC, I-AF, B-LC, I-OG
-6	##의	O	O	O, B-LC, I-LC, I-AF, B-CV
-7	지리	O	O	O, B-LC, B-CV, B-TM, B-FD
-8	##적	O	O	O, I-LC, B-LC, I-CV, I-PS
-9	위치	O	O	O, B-LC, B-CV, B-PS, B-TM
-10	##를	O	O	O, B-CV, B-LC, B-OG, I-OG
-11	고려	O	O	O, B-CV, B-LC, B-OG, B-TM
-12	##해	O	O	O, B-LC, B-OG, B-PS, B-CV
-13	아시아	B-LC	B-LC	B-LC, O, B-OG, B-PS, B-AF
-14	허브	O	O	O, B-CV, I-LC, B-LC, B-TM
-15	도시	O	O	O, I-LC, I-CV, B-LC, I-OG
-16	##로	O	O	O, B-LC, I-LC, I-CV, I-OG
-17	##서	O	O	O, B-LC, B-OG, B-CV, B-TM
-18	성장	O	O	O, B-LC, B-CV, B-OG, B-TM
-19	가능	O	O	O, B-LC, B-CV, B-OG, B-TM
-20	##성	O	O	O, B-LC, B-PS, I-OG, I-AF
-21	##을	O	O	O, B-CV, I-OG, B-OG, B-TM
-22	설명	O	O	O, B-CV, B-OG, B-TM, B-LC
-23	##했	O	O	O, B-CV, I-OG, B-OG, I-CV
-24	##다	O	O	O, B-CV, B-OG, B-TM, B-LC
-25	.	O	O	O, B-LC, B-CV, B-OG, B-PS
-26	[SEP]	O	O	O, B-LC, B-CV, B-OG, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	박	B-PS	B-PS
+2	대통령	B-CV	B-CV
+3	##은	O	O
+4	앞서	O	O
+5	“	O	O
+6	(	O	O
+7	북한	B-OG	B-OG
+8	##의	O	O
+9	핵실험	O	O
+10	##은	O	O
+11	)	O	O
+12	김정은	B-PS	B-PS
+13	정권	O	O
+14	##의	O	O
+15	광	O	O
+16	##적	O	O
+17	##인	O	O
+18	무모	O	O
+19	##함	O	O
+20	##을	O	O
+21	증명	O	O
+22	##하	O	O
+23	##는	O	O
+24	것	O	O
+25	”	O	O
+26	이라	O	O
+27	##며	O	O
+28	“	O	O
+29	모든	O	O
+30	수단	O	O
+31	##을	O	O
+32	다	O	O
+33	##해	O	O
+34	북한	B-OG	B-LC
+35	##에	O	O
+36	대한	O	O
+37	압박	O	O
+38	##을	O	O
+39	강화	O	O
+40	##해	O	O
+41	나갈	O	O
+42	것	O	O
+43	”	O	O
+44	이라	O	O
+45	##고	O	O
+46	##도	O	O
+47	밝혔	O	O
+48	##다	O	O
+49	.	O	O
+50	[SEP]	O	O

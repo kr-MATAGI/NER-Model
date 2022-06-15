@@ -1,38 +1,17 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	컴퓨터	B-TM	B-TM	B-TM, O, B-CV, I-TM, B-TR
-2	옆	O	B-TM	B-TM, O, I-TM, B-CV, B-OG
-3	##에	O	O	O, I-TM, B-CV, I-CV, I-OG
-4	알람	O	O	O, B-CV, B-TM, B-LC, B-OG
-5	##을	O	O	O, B-CV, B-OG, B-PS, B-LC
-6	둬	O	O	O, B-LC, B-CV, B-OG, B-PS
-7	사용	O	O	O, B-CV, B-TM, B-LC, B-AF
-8	시간	O	O	O, B-TI, B-CV, B-LC, B-OG
-9	##을	O	O	O, B-CV, B-PS, B-LC, B-OG
-10	알	O	O	O, B-CV, B-TM, B-PS, B-LC
-11	수	O	O	O, B-CV, B-PS, B-LC, B-TM
-12	있	O	O	O, B-CV, B-PS, B-TM, B-LC
-13	##도록	O	O	O, B-LC, B-PS, B-CV, B-TM
-14	하고	O	O	O, B-CV, B-OG, B-PS, B-LC
-15	,	O	O	O, B-CV, B-PS, B-LC, B-OG
-16	아이	O	O	O, B-CV, B-PS, B-TM, B-AM
-17	##가	O	O	O, B-PS, B-CV, I-PS, I-CV
-18	스스로	O	O	O, B-CV, B-PS, B-LC, B-TM
-19	시간	O	O	O, B-TI, B-CV, B-TM, B-OG
-20	조절	O	O	O, I-TI, B-CV, B-PS, B-LC
-21	##을	O	O	O, B-CV, B-PS, B-LC, B-OG
-22	하	O	O	O, B-CV, B-LC, B-PS, B-TM
-23	##는	O	O	O, B-CV, B-PS, B-LC, B-TM
-24	것	O	O	O, B-CV, B-PS, B-LC, B-OG
-25	##을	O	O	O, B-CV, B-PS, B-LC, B-OG
-26	어려워	O	O	O, B-CV, B-PS, B-LC, B-TM
-27	##할	O	O	O, B-CV, B-PS, B-LC, I-CV
-28	경우	O	O	O, B-CV, B-TM, B-QT, B-LC
-29	시간	O	O	O, B-TM, B-CV, B-AF, B-FD
-30	관리	O	O	O, I-TM, I-CV, B-CV, I-AF
-31	소프트웨어	O	O	O, I-TM, B-TM, B-CV, I-CV
-32	##를	O	O	O, I-CV, I-TM, B-CV, I-AF
-33	활용	O	O	O, B-CV, B-TM, B-LC, B-OG
-34	##한다	O	O	O, B-CV, B-PS, I-OG, B-LC
-35	.	O	O	O, B-CV, B-LC, B-PS, B-TM
-36	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	中	B-LC	B-LC
+2	,	O	O
+3	또	O	O
+4	사드	B-AF	B-AF
+5	보복	O	O
+6	…	O	O
+7	1	B-DT	B-DT
+8	##월	I-DT	I-DT
+9	한국	O	B-LC
+10	##행	O	O
+11	부정	O	O
+12	##기	O	O
+13	항공편	O	O
+14	중단	O	O
+15	[SEP]	O	O

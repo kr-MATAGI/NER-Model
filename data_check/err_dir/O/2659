@@ -1,31 +1,14 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	근데	O	O	O, B-CV, B-OG, B-AF, B-TM
-2	그	O	O	O, B-CV, B-OG, B-LC, B-AF
-3	당시	O	O	O, B-CV, B-OG, B-TM, B-PS
-4	##에	O	O	O, B-CV, B-OG, B-PS, B-AF
-5	인쇄	O	O	O, B-CV, B-OG, B-TM, B-AF
-6	##소	O	O	O, I-CV, I-OG, B-CV, I-AF
-7	##들	O	O	O, I-CV, I-OG, B-CV, B-PS
-8	##은	O	O	O, B-CV, B-OG, B-TM, B-LC
-9	전부	O	O	O, B-AF, B-OG, B-CV, B-LC
-10	다	O	O	O, B-AF, B-OG, B-CV, B-TM
-11	성경	O	B-AF	B-AF, O, B-CV, B-TM, B-PS
-12	찍	O	O	O, I-AF, I-OG, B-CV, I-CV
-13	##는	O	O	O, B-CV, B-OG, B-LC, B-TM
-14	인쇄	O	O	O, B-CV, B-OG, B-AF, B-TM
-15	##소	O	O	O, I-CV, I-OG, B-CV, I-AF
-16	##들이	O	O	O, I-CV, I-OG, I-AF, B-PS
-17	제일	O	O	O, B-CV, B-QT, B-LC, B-OG
-18	그	O	O	O, B-CV, B-OG, B-LC, B-PS
-19	수준	O	O	O, B-CV, B-QT, B-OG, B-PS
-20	있	O	O	O, B-CV, B-PS, I-CV, I-OG
-21	##는	O	O	O, B-CV, B-PS, B-OG, B-LC
-22	인쇄	O	O	O, B-CV, B-OG, B-TM, B-AF
-23	##소	O	O	O, I-CV, I-OG, B-CV, I-QT
-24	##였	O	O	O, I-CV, I-OG, B-CV, B-PS
-25	##거	O	O	O, B-CV, B-OG, B-PS, B-LC
-26	##든	O	O	O, B-CV, I-AF, I-OG, B-OG
-27	##요	O	O	O, B-CV, B-LC, I-AF, B-OG
-28	.	O	O	O, B-CV, B-LC, B-OG, B-PS
-29	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-AF
+	text	label	preds
+0	[CLS]	O	O
+1	10	B-QT	B-QT
+2	##년	I-QT	I-QT
+3	##차	I-QT	I-QT
+4	무기	B-CV	B-CV
+5	##계약	I-CV	I-CV
+6	##직	I-CV	I-CV
+7	최저임금	O	B-CV
+8	적용	O	O
+9	‘	O	O
+10	열악	O	O
+11	’	O	O
+12	[SEP]	O	O

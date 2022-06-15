@@ -1,49 +1,55 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-EV, I-CV
-1	회의	O	O	O, B-EV, B-CV, B-PS, B-OG
-2	참석자	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-TM
-3	##들	O	O	O, I-CV, I-EV, I-OG, B-CV
-4	##에	O	O	O, B-CV, B-PS, B-OG, B-TM
-5	따르	O	O	O, B-CV, B-OG, B-PS, B-LC
-6	##면	O	O	O, B-OG, B-LC, B-PS, B-CV
-7	북한	B-LC	B-LC	B-LC, B-OG, O, B-PS, B-AF
-8	##에	O	O	O, I-OG, I-LC, I-AF, I-EV
-9	김정은	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
-10	노동당	B-OG	B-OG	B-OG, O, B-AF, I-PS, I-OG
-11	제	B-QT	B-CV	B-CV, B-QT, O, I-OG, I-CV
-12	##1	I-QT	I-CV	I-CV, I-QT, B-CV, I-OG, O
-13	##비	O	I-CV	I-CV, B-CV, I-QT, O, I-OG
-14	##서	O	I-CV	I-CV, I-QT, B-CV, O, I-OG
-15	체제	O	O	O, I-CV, I-QT, B-CV, I-OG
-16	##가	O	O	O, B-PS, I-CV, I-OG, I-QT
-17	들어섰	O	O	O, B-CV, B-OG, B-LC, B-PS
-18	##기	O	O	O, B-PS, B-CV, B-LC, B-OG
-19	때문	O	O	O, B-LC, B-CV, B-PS, B-OG
-20	##에	O	O	O, B-LC, B-CV, B-OG, B-PS
-21	예전	O	O	O, B-CV, B-LC, B-PS, B-EV
-22	사례	O	O	O, B-CV, B-OG, B-LC, I-EV
-23	##와	O	O	O, B-CV, B-OG, B-LC, B-PS
-24	차이	O	O	O, B-CV, B-LC, B-TM, B-OG
-25	##가	O	O	O, B-PS, B-LC, B-OG, B-CV
-26	있	O	O	O, B-CV, B-LC, B-OG, B-PS
-27	##을	O	O	O, B-CV, B-LC, B-PS, B-OG
-28	수	O	O	O, B-PS, B-LC, B-CV, B-OG
-29	있	O	O	O, B-CV, B-PS, B-LC, B-OG
-30	##다는	O	O	O, B-PS, B-CV, B-LC, B-OG
-31	점	O	O	O, B-CV, B-LC, B-PS, B-TM
-32	##을	O	O	O, B-CV, B-PS, B-OG, B-LC
-33	감안	O	O	O, B-CV, B-LC, B-OG, B-TM
-34	##해	O	O	O, B-LC, B-PS, B-OG, B-CV
-35	여러	O	O	O, B-LC, B-QT, B-TM, B-CV
-36	가지	O	O	O, B-QT, I-QT, B-PS, B-LC
-37	상황	O	O	O, B-CV, I-QT, B-LC, B-TM
-38	##을	O	O	O, B-CV, B-LC, B-OG, B-PS
-39	진지	O	O	O, B-CV, B-LC, B-TM, B-OG
-40	##하	O	O	O, B-LC, B-PS, B-OG, B-CV
-41	##게	O	O	O, B-LC, B-OG, B-CV, B-PS
-42	검토	O	O	O, B-CV, B-LC, B-TM, B-OG
-43	##했	O	O	O, B-CV, B-OG, B-PS, B-LC
-44	##다고	O	O	O, B-CV, I-OG, I-EV, B-OG
-45	한다	O	O	O, B-CV, B-TM, B-LC, B-OG
-46	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-47	[SEP]	O	O	O, B-CV, B-LC, B-PS, I-EV
+	text	label	preds
+0	[CLS]	O	O
+1	'	O	O
+2	응대	O	O
+3	##서	O	O
+4	##행	O	O
+5	##만	O	O
+6	##리	O	O
+7	##인	O	O
+8	(	O	O
+9	應	O	O
+10	待	O	O
+11	西	O	O
+12	行	O	O
+13	萬	O	O
+14	里	O	O
+15	人	O	O
+16	)	O	O
+17	'	O	O
+18	이란	O	O
+19	구절	O	O
+20	##을	O	O
+21	'	O	O
+22	서방	B-LC	O
+23	##에	O	O
+24	땅	O	O
+25	손질	O	O
+26	##하	O	O
+27	##는	O	O
+28	만리	B-QT	O
+29	사람	O	O
+30	##을	O	O
+31	기다리	O	O
+32	##고	O	O
+33	있	O	O
+34	##으리	O	O
+35	'	O	O
+36	로	O	O
+37	옮겼	O	O
+38	##는데	O	O
+39	,	O	O
+40	당시	O	O
+41	##엔	O	O
+42	최	B-PS	B-PS
+43	##광	I-PS	I-PS
+44	##유	I-PS	I-PS
+45	##의	O	O
+46	인물	O	O
+47	정보	O	O
+48	##가	O	O
+49	불명확	O	O
+50	##했	O	O
+51	##다	O	O
+52	.	O	O
+53	[SEP]	O	O

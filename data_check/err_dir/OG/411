@@ -1,33 +1,22 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-AF
-1	―	O	O	O, B-DT, B-LC, I-DT, B-EV
-2	미	B-DT	B-DT	B-DT, I-DT, B-LC, B-EV, O
-3	·	I-DT	I-DT	I-DT, O, B-DT, I-EV, I-QT
-4	중	I-DT	I-DT	I-DT, B-DT, O, I-EV, I-LC
-5	정상	I-DT	I-DT	I-DT, B-DT, O, I-EV, I-QT
-6	##회	I-DT	I-DT	I-DT, O, B-DT, I-EV, I-QT
-7	##담	I-DT	I-DT	I-DT, O, B-DT, I-EV, I-QT
-8	직후	I-DT	I-DT	I-DT, O, B-DT, I-EV, I-QT
-9	호주	B-LC	B-LC	B-LC, O, B-OG, I-DT, I-LC
-10	##로	O	O	O, I-LC, I-AF, B-AF, I-DT
-11	가	O	O	O, B-AF, B-LC, B-OG, I-AF
-12	##던	O	O	O, B-AF, I-AF, B-LC, B-CV
-13	칼빈	B-OG	B-AF	B-AF, I-AF, B-OG, B-PS, O
-14	##슨	I-OG	I-AF	I-AF, I-OG, I-PS, O, I-TM
-15	항	I-OG	B-AF	B-AF, I-AF, O, B-CV, B-TM
-16	##모	I-OG	I-AF	I-AF, O, I-CV, I-TM, I-OG
-17	전단	I-OG	O	O, I-AF, B-AF, B-CV, B-LC
-18	##이	O	O	O, I-AF, B-LC, B-PS, B-OG
-19	한반도	B-LC	B-LC	B-LC, O, B-OG, B-TM, B-AF
-20	인근	O	O	O, B-LC, I-LC, B-TM, B-QT
-21	서태	B-LC	B-LC	B-LC, O, I-LC, B-TM, B-OG
-22	##평	I-LC	I-LC	I-LC, O, B-LC, I-AF, I-TM
-23	##양	I-LC	I-LC	I-LC, O, B-LC, I-AF, I-TM
-24	해역	I-LC	I-LC	I-LC, O, B-LC, I-AF, I-QT
-25	##으로	O	O	O, I-LC, B-LC, I-AF, B-CV
-26	이동	O	O	O, B-LC, B-TM, B-AF, B-OG
-27	배치	O	O	O, B-LC, I-LC, B-AF, B-TM
-28	##됐	O	O	O, B-LC, I-AF, I-LC, I-OG
-29	##다	O	O	O, B-LC, B-CV, I-AF, I-OG
-30	.	O	O	O, B-LC, B-AF, B-OG, B-TM
-31	[SEP]	O	O	O, B-LC, B-AF, I-LC, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	“	O	O
+2	미국	B-OG	B-OG
+3	##은	O	O
+4	한국	B-OG	B-LC
+5	##을	O	O
+6	계속	O	O
+7	방어	O	O
+8	##해	O	O
+9	샌프란시스코	B-LC	B-LC
+10	##를	O	O
+11	위험	O	O
+12	##에	O	O
+13	빠	O	O
+14	##뜨릴	O	O
+15	생각	O	O
+16	##인	O	O
+17	##가	O	O
+18	?	O	O
+19	”	O	O
+20	[SEP]	O	O

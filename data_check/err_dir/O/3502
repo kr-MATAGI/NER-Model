@@ -1,30 +1,35 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	경찰	B-OG	B-OG	B-OG, B-AF, O, B-CV, B-LC
-2	##은	O	O	O, I-OG, B-CV, I-EV, B-OG
-3	이날	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-OG
-4	김	B-PS	B-PS	B-PS, O, B-OG, I-PS, I-DT
-5	전	O	O	O, I-PS, B-CV, I-OG, I-EV
-6	지검	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-OG
-7	##장	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-EV
-8	##에	O	O	O, I-CV, I-OG, I-EV, I-QT
-9	대해	O	O	O, B-LC, B-OG, B-CV, B-TM
-10	공연	O	B-CV	B-CV, O, B-FD, B-TM, B-EV
-11	##음	O	I-CV	I-CV, O, B-CV, I-FD, I-TM
-12	##란	O	O	O, I-CV, I-FD, I-TM, I-TR
-13	혐의	O	O	O, I-CV, B-CV, I-TM, I-OG
-14	##가	O	O	O, B-PS, B-OG, B-LC, B-CV
-15	인정	O	O	O, B-CV, B-OG, B-PS, B-LC
-16	##된	O	O	O, B-PS, B-OG, I-OG, B-LC
-17	##다	O	O	O, B-PS, B-OG, I-OG, B-CV
-18	##며	O	O	O, B-CV, B-PS, B-OG, B-LC
-19	기소	O	O	O, B-CV, I-CV, B-TM, B-OG
-20	의견	O	O	O, I-CV, I-OG, B-PS, B-OG
-21	##으로	O	O	O, B-OG, B-PS, B-CV, B-LC
-22	검찰	B-OG	B-OG	B-OG, B-AF, O, B-LC, B-CV
-23	##에	O	O	O, I-OG, I-AF, B-OG, I-CV
-24	송치	O	O	O, B-OG, B-CV, B-TM, B-LC
-25	##했	O	O	O, I-OG, B-OG, B-CV, B-LC
-26	##다	O	O	O, B-CV, I-OG, B-LC, B-OG
-27	.	O	O	O, B-OG, B-CV, B-LC, B-PS
-28	[SEP]	O	O	O, B-CV, B-OG, B-LC, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	아이	O	O
+2	##를	O	O
+3	한	B-QT	B-QT
+4	##둘	I-QT	I-QT
+5	낳	O	O
+6	##아	O	O
+7	##본	O	O
+8	인도	B-LC	B-LC
+9	시골	O	O
+10	여성	O	O
+11	##들이	O	O
+12	돈	O	O
+13	##을	O	O
+14	받	O	O
+15	##고	O	O
+16	불임	O	O
+17	##부	O	B-CV
+18	##부	O	I-CV
+19	##에	O	O
+20	##게	O	O
+21	자궁	B-TM	B-TM
+22	##을	O	O
+23	빌려	O	O
+24	##주	O	O
+25	##고	O	O
+26	때로	O	O
+27	##는	O	O
+28	난자	B-TM	O
+29	##도	O	O
+30	제공	O	O
+31	##한다	O	O
+32	.	O	O
+33	[SEP]	O	O

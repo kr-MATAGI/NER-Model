@@ -1,33 +1,69 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	이	O	O	O, B-CV, B-LC, B-PS, B-OG
-2	부분	O	O	O, B-CV, B-LC, I-QT, I-DT
-3	##을	O	O	O, B-LC, B-CV, B-PS, B-DT
-4	'	O	O	O, B-LC, B-CV, B-DT, B-PS
-5	비로소	O	O	O, B-LC, B-PS, B-CV, B-DT
-6	제도	O	O	O, B-CV, B-LC, B-PS, I-LC
-7	##가	O	O	O, B-PS, B-LC, I-PS, I-LC
-8	제대로	O	O	O, B-LC, B-CV, B-PS, B-OG
-9	갖춰	O	O	O, B-LC, B-PS, I-LC, B-CV
-10	##졌	O	O	O, B-LC, I-LC, B-PS, I-PS
-11	##기	O	O	O, B-LC, B-PS, I-LC, I-PS
-12	때문	O	O	O, B-LC, B-PS, I-LC, B-CV
-13	##에	O	O	O, B-LC, B-PS, B-OG, B-CV
-14	은	B-DT	B-LC	B-LC, O, B-OG, B-DT, B-CV
-15	##나라	I-DT	I-LC	I-LC, O, I-OG, B-LC, I-PS
-16	##의	O	O	O, I-LC, I-AF, I-PS, I-OG
-17	소박	O	O	O, B-CV, B-LC, I-AF, I-LC
-18	##한	O	O	O, B-LC, I-LC, B-PS, B-CV
-19	문화	O	O	O, B-CV, B-FD, B-LC, I-CV
-20	##가	O	O	O, B-PS, B-LC, B-CV, B-OG
-21	주	B-DT	O	O, B-LC, B-PS, B-DT, B-OG
-22	##나라	I-DT	O	O, I-LC, B-LC, I-PS, I-DT
-23	##에	O	O	O, I-LC, I-PS, B-LC, I-DT
-24	와서	O	O	O, B-LC, B-PS, I-LC, B-CV
-25	훨씬	O	O	O, B-LC, B-OG, B-CV, B-DT
-26	세련	O	O	O, B-CV, B-LC, B-FD, B-OG
-27	##되	O	O	O, B-LC, I-LC, I-CV, I-OG
-28	##어졌	O	O	O, B-LC, B-CV, I-CV, I-OG
-29	##다	O	O	O, B-CV, B-LC, I-CV, I-OG
-30	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-31	[SEP]	O	O	O, B-LC, B-CV, B-PS, I-LC
+	text	label	preds
+0	[CLS]	O	O
+1	1959	B-DT	B-DT
+2	##년	I-DT	I-DT
+3	중국	B-LC	B-LC
+4	##의	O	O
+5	침공	O	O
+6	##으로	O	O
+7	인해	O	O
+8	대부분	O	O
+9	파괴	O	O
+10	##되	O	O
+11	##고	O	O
+12	멸	O	O
+13	##실	O	O
+14	##된	O	O
+15	티베트	B-LC	B-LC
+16	##와	O	O
+17	달리	O	O
+18	,	O	O
+19	옛	O	O
+20	티베트	B-LC	B-LC
+21	##의	O	O
+22	구	B-DT	B-LC
+23	##게	I-DT	I-LC
+24	##왕	I-DT	I-LC
+25	##국	I-DT	I-LC
+26	##이	O	O
+27	##면	O	O
+28	##서도	O	O
+29	2	B-DT	B-DT
+30	##차	I-DT	I-DT
+31	##대	I-DT	I-DT
+32	##전	I-DT	I-DT
+33	이후	I-DT	I-DT
+34	인도	B-LC	B-LC
+35	##땅	O	O
+36	##으로	O	O
+37	남아	O	O
+38	지금	O	O
+39	##까	O	O
+40	##지	O	O
+41	티베트	B-OG	B-OG
+42	불교	I-OG	B-OG
+43	##의	O	O
+44	원형	O	O
+45	##이	O	O
+46	그대로	O	O
+47	보존	O	O
+48	##돼	O	O
+49	있	O	O
+50	##는	O	O
+51	라	B-LC	B-LC
+52	##다	I-LC	I-LC
+53	##크	I-LC	I-LC
+54	##와	O	O
+55	잔	B-LC	B-LC
+56	##스카	I-LC	I-LC
+57	##르	I-LC	I-LC
+58	##는	O	O
+59	인류	O	O
+60	문화	O	O
+61	##의	O	O
+62	보고	O	O
+63	##였	O	O
+64	##습	O	O
+65	##니다	O	O
+66	.	O	O
+67	[SEP]	O	O

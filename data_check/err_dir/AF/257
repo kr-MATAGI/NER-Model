@@ -1,48 +1,23 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-EV, B-CV, I-CV
-1	28	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-QT
-2	##일	I-DT	I-DT	I-DT, O, B-DT, I-EV, I-QT
-3	인천	B-EV	B-EV	B-EV, B-LC, O, I-EV, B-AF
-4	아시아	I-EV	I-EV	I-EV, B-EV, O, B-LC, I-LC
-5	##경기	I-EV	I-EV	I-EV, O, I-LC, I-AF, I-OG
-6	남자	O	O	O, I-EV, B-EV, B-CV, B-LC
-7	축구	B-CV	B-CV	B-CV, I-EV, B-EV, I-CV, O
-8	8	B-EV	B-EV	B-EV, I-EV, O, B-LC, B-CV
-9	##강	I-EV	I-EV	I-EV, O, B-EV, I-AF, I-LC
-10	##전	I-EV	I-EV	I-EV, O, I-AF, I-LC, I-QT
-11	##에서	O	O	O, I-EV, I-AF, I-OG, B-CV
-12	후반	B-TI	B-TI	B-TI, B-EV, O, B-QT, B-TR
-13	종료	O	O	O, I-TI, I-EV, I-QT, B-TI
-14	5	B-TI	B-TI	B-TI, B-EV, I-TI, B-QT, O
-15	##분	I-TI	I-TI	I-TI, I-EV, I-QT, O, I-TR
-16	##을	O	O	O, I-TI, I-EV, I-QT, I-AF
-17	남기	O	O	O, B-QT, I-TI, B-PS, I-QT
-18	##고	O	O	O, B-PS, I-QT, B-LC, I-TI
-19	이종	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
-20	##호	I-PS	I-PS	I-PS, I-OG, O, I-LC, I-QT
-21	##가	O	O	O, I-PS, I-OG, I-AF, B-LC
-22	일본	B-OG	B-LC	B-LC, B-OG, O, B-CV, B-AF
-23	수비수	B-CV	B-CV	B-CV, O, I-CV, B-OG, I-OG
-24	##와	O	O	O, I-CV, I-OG, B-CV, I-AF
-25	부딪쳐	O	O	O, B-TM, B-LC, B-QT, B-CV
-26	쓰러지	O	O	O, B-TM, B-LC, B-OG, B-CV
-27	##자	O	O	O, B-LC, B-PS, B-OG, I-EV
-28	인천	B-LC	B-AF	B-AF, B-LC, B-OG, B-EV, O
-29	문학	B-AF	I-AF	I-AF, B-AF, I-LC, O, B-LC
-30	##경기	I-AF	I-AF	I-AF, I-LC, O, I-PS, I-OG
-31	##장	I-AF	I-AF	I-AF, I-LC, O, I-OG, I-PS
-32	##에	O	O	O, I-AF, I-EV, I-LC, I-OG
-33	모인	O	O	O, B-QT, B-TM, B-CV, B-PS
-34	4	B-QT	B-QT	B-QT, I-QT, O, B-PS, B-DT
-35	##만	I-QT	I-QT	I-QT, I-PS, I-LC, I-EV, O
-36	##32	I-QT	I-QT	I-QT, I-LC, I-PS, O, I-EV
-37	##22	I-QT	I-QT	I-QT, I-LC, I-PS, O, I-EV
-38	##명	I-QT	I-QT	I-QT, O, I-LC, I-PS, I-EV
-39	##의	O	O	O, I-QT, I-EV, B-CV, B-OG
-40	관중	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-OG
-41	##이	O	O	O, I-CV, B-PS, I-EV, I-AF
-42	모두	O	O	O, B-QT, B-TM, B-PS, B-CV
-43	일어났	O	O	O, B-CV, B-TM, B-OG, B-LC
-44	##다	O	O	O, B-CV, B-TM, I-EV, B-LC
-45	.	O	O	O, B-LC, B-PS, B-OG, B-CV
-46	[SEP]	O	O	O, B-LC, B-CV, I-EV, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	미	B-LC	B-LC
+2	국무부	B-OG	B-OG
+3	##는	O	O
+4	이스라엘	B-LC	B-LC
+5	##의	O	O
+6	유엔	B-AF	B-OG
+7	##학교	I-AF	I-OG
+8	포격	O	O
+9	##을	O	O
+10	두고	O	O
+11	3	B-DT	B-DT
+12	##일	I-DT	I-DT
+13	이례	O	O
+14	##적	O	O
+15	##으로	O	O
+16	“	O	O
+17	수치	O	O
+18	##스럽	O	O
+19	##다	O	O
+20	.	O	O
+21	[SEP]	O	O

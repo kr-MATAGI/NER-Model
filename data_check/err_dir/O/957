@@ -1,31 +1,38 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-EV, I-QT
-1	뉴	B-AF	B-AF	B-AF, B-OG, O, B-TM, B-LC
-2	##E	I-AF	I-AF	I-AF, I-OG, O, I-TM, B-AF
-3	##클	I-AF	I-AF	I-AF, I-OG, B-AF, O, I-TM
-4	##래	I-AF	I-AF	I-AF, I-OG, O, I-TM, I-LC
-5	##스	I-AF	I-AF	I-AF, I-OG, O, I-TM, B-AF
-6	카	I-AF	I-AF	I-AF, B-AF, O, I-OG, I-TM
-7	##브리	I-AF	I-AF	I-AF, O, B-AF, I-TM, I-OG
-8	##올	I-AF	I-AF	I-AF, O, I-TM, B-AF, I-CV
-9	##렛	I-AF	I-AF	I-AF, O, I-TM, I-CV, B-AF
-10	##은	O	O	O, I-AF, I-OG, I-TM, I-CV
-11	버튼	O	O	O, B-TM, B-CV, B-LC, B-QT
-12	하나	O	B-QT	B-QT, O, I-QT, B-PS, B-TM
-13	##로	O	O	O, I-QT, I-EV, I-DT, I-AF
-14	20	B-TI	B-TI	B-TI, B-EV, O, B-QT, B-LC
-15	##초	I-TI	I-TI	I-TI, O, I-QT, I-TR, I-EV
-16	안	I-TI	I-TI	I-TI, O, I-TR, I-QT, I-EV
-17	##에	O	O	O, I-TI, I-QT, I-EV, B-TM
-18	개	O	O	O, B-TM, B-QT, B-CV, B-LC
-19	##폐	O	O	O, B-TM, B-PS, I-QT, I-TM
-20	##되	O	O	O, B-PS, B-TM, B-LC, B-CV
-21	##는	O	O	O, B-TM, B-LC, B-CV, B-PS
-22	소프트	O	O	O, B-TM, B-AF, B-MT, B-CV
-23	탑	O	O	O, I-TM, I-AF, B-TM, I-CV
-24	##을	O	O	O, I-TM, I-AF, B-CV, I-CV
-25	탑재	O	O	O, B-TM, B-CV, B-LC, B-AF
-26	##했	O	O	O, B-CV, B-LC, B-OG, B-PS
-27	##다	O	O	O, B-CV, B-OG, B-TM, B-LC
-28	.	O	O	O, B-LC, B-TM, B-AF, B-OG
-29	[SEP]	O	O	O, B-TM, B-LC, B-CV, B-AF
+	text	label	preds
+0	[CLS]	O	O
+1	정주영	B-PS	B-PS
+2	패밀리	O	O
+3	그룹	O	O
+4	중	O	O
+5	현대차	B-OG	B-OG
+6	##와	O	O
+7	마찬가지	O	O
+8	##로	O	O
+9	북한	B-LC	B-LC
+10	##에	O	O
+11	##는	O	O
+12	눈	O	B-AM
+13	##도	O	O
+14	돌리	O	O
+15	##지	O	O
+16	않	O	O
+17	##았	O	O
+18	##던	O	O
+19	현대	B-OG	B-OG
+20	##중	I-OG	I-OG
+21	##공업	I-OG	I-OG
+22	##과	O	O
+23	현대	B-OG	B-OG
+24	##백화점	I-OG	I-OG
+25	역시	O	O
+26	탄탄	O	O
+27	##한	O	O
+28	경영	O	O
+29	##을	O	O
+30	이어	O	O
+31	##가	O	O
+32	##고	O	O
+33	있	O	O
+34	##다	O	O
+35	.	O	O
+36	[SEP]	O	O

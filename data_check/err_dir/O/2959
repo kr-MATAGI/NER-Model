@@ -1,9 +1,60 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	시댁	O	O	O, B-CV, B-OG, B-LC, B-AF
-2	##이	O	O	O, B-PS, I-CV, I-OG, I-AF
-3	##든	O	O	O, B-PS, B-CV, B-LC, B-OG
-4	친정	O	B-CV	B-CV, O, B-OG, B-AF, B-LC
-5	##이	O	O	O, I-CV, B-PS, I-OG, I-EV
-6	##든	O	O	O, B-CV, B-PS, B-LC, B-OG
-7	[SEP]	O	O	O, B-CV, B-PS, B-TM, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	한류	O	O
+2	붐	O	O
+3	##을	O	O
+4	타고	O	O
+5	일본	B-LC	B-LC
+6	##으로	O	O
+7	건너가	O	O
+8	자영업	O	O
+9	##을	O	O
+10	하	O	O
+11	##는	O	O
+12	이른바	O	O
+13	‘	O	O
+14	뉴	O	O
+15	커	O	O
+16	##머	O	O
+17	(	O	O
+18	New	O	O
+19	Com	O	O
+20	##er	O	O
+21	)	O	O
+22	한국인	B-CV	B-CV
+23	’	O	O
+24	들	O	O
+25	##의	O	O
+26	자금	O	O
+27	수요	O	O
+28	##가	O	O
+29	늘	O	O
+30	##면	O	O
+31	##서	O	O
+32	은행	O	O
+33	도쿄	O	B-LC
+34	##지	O	O
+35	##점	O	O
+36	##들이	O	O
+37	‘	O	O
+38	갑	O	O
+39	(	O	O
+40	甲	O	O
+41	)	O	O
+42	질	O	O
+43	’	O	O
+44	을	O	O
+45	할	O	O
+46	수	O	O
+47	있	O	O
+48	##는	O	O
+49	구조	O	O
+50	##와	O	O
+51	무관	O	O
+52	##하	O	O
+53	##지	O	O
+54	않	O	O
+55	##아	O	O
+56	보인다	O	O
+57	.	O	O
+58	[SEP]	O	O

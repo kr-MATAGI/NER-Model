@@ -1,33 +1,14 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-EV, I-OG, B-CV, I-CV
-1	‘	O	O	O, B-EV, B-LC, B-OG, B-CV
-2	난장	B-LC	O	O, B-EV, B-AF, B-CV, B-OG
-3	’	O	O	O, I-EV, I-OG, I-AF, I-LC
-4	에서	O	O	O, I-EV, B-PS, B-OG, B-LC
-5	##는	O	O	O, I-EV, B-OG, B-LC, B-CV
-6	오늘	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-QT
-7	##의	O	O	O, I-DT, I-EV, B-PS, I-QT
-8	삶	O	O	O, I-EV, B-LC, I-OG, B-PS
-9	속	O	O	O, B-LC, B-PS, I-EV, B-CV
-10	##에서	O	O	O, B-LC, B-PS, B-CV, B-OG
-11	평화	O	O	O, B-EV, B-FD, B-LC, I-EV
-12	##와	O	O	O, B-PS, I-OG, B-LC, I-EV
-13	인권	B-CV	O	O, B-CV, B-FD, B-TR, B-OG
-14	##의	O	O	O, I-CV, I-EV, I-OG, B-PS
-15	의미	O	O	O, B-PS, I-EV, B-FD, B-LC
-16	##를	O	O	O, B-PS, B-CV, B-LC, I-EV
-17	찾	O	O	O, B-CV, B-PS, B-LC, B-FD
-18	##는	O	O	O, B-PS, B-CV, B-LC, B-EV
-19	공연	O	O	O, B-EV, I-EV, B-FD, B-CV
-20	##과	O	O	O, I-EV, B-PS, I-OG, B-EV
-21	만	B-OG	O	O, B-EV, B-CV, B-OG, B-LC
-22	##민	I-OG	O	O, I-EV, I-OG, I-CV, I-LC
-23	##공	I-OG	O	O, I-EV, I-OG, I-CV, I-LC
-24	##동	I-OG	O	O, I-EV, I-OG, I-LC, I-AF
-25	##회	I-OG	O	O, I-EV, I-OG, I-LC, I-AF
-26	##가	O	O	O, I-EV, I-OG, B-PS, B-LC
-27	마련	O	O	O, B-EV, B-OG, B-LC, I-EV
-28	##된	O	O	O, I-EV, I-OG, B-EV, B-PS
-29	##다	O	O	O, I-EV, I-OG, B-EV, B-CV
-30	.	O	O	O, I-EV, B-LC, B-CV, B-PS
-31	[SEP]	O	O	O, I-EV, B-CV, B-LC, B-EV
+	text	label	preds
+0	[CLS]	O	O
+1	中	B-OG	B-LC
+2	-	O	O
+3	인도	B-LC	B-OG
+4	“	O	O
+5	국경	O	O
+6	##분	O	O
+7	##쟁	O	O
+8	해법	O	O
+9	조속	O	O
+10	마련	O	O
+11	”	O	O
+12	[SEP]	O	O

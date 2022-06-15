@@ -1,47 +1,45 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	하지만	O	O	O, B-OG, B-CV, B-LC, B-PS
-2	이를	O	O	O, B-CV, B-OG, B-LC, B-EV
-3	‘	O	O	O, B-CV, B-LC, B-PS, B-OG
-4	광부	B-EV	B-CV	B-CV, O, B-EV, B-OG, I-EV
-5	난동	I-EV	O	O, I-EV, B-EV, I-CV, B-CV
-6	##사건	I-EV	O	O, I-EV, B-EV, B-CV, I-OG
-7	’	O	O	O, I-EV, B-PS, B-CV, B-OG
-8	으로	O	O	O, B-PS, B-LC, B-OG, B-CV
-9	규정	O	O	O, B-OG, B-LC, B-CV, B-PS
-10	##한	O	O	O, B-OG, B-PS, B-LC, I-OG
-11	계엄	B-OG	B-OG	B-OG, O, I-OG, B-CV, B-EV
-12	##사	I-OG	I-OG	I-OG, O, B-OG, I-EV, I-CV
-13	##령	I-OG	I-OG	I-OG, O, B-OG, I-EV, I-CV
-14	##부	I-OG	I-OG	I-OG, O, I-EV, I-CV, I-AF
-15	산하	O	O	O, I-OG, B-OG, I-EV, B-CV
-16	합동	O	B-OG	B-OG, O, I-OG, B-CV, B-EV
-17	##수	O	I-OG	I-OG, O, B-OG, I-EV, I-CV
-18	##사	O	I-OG	I-OG, O, B-OG, I-EV, I-CV
-19	##단	O	I-OG	I-OG, O, B-OG, I-EV, I-CV
-20	##은	O	O	O, I-OG, I-EV, B-OG, B-PS
-21	4	B-DT	B-EV	B-EV, B-DT, B-OG, B-LC, O
-22	·	I-DT	I-EV	I-EV, I-DT, I-OG, O, I-QT
-23	24	I-DT	I-EV	I-EV, I-DT, I-OG, I-LC, I-QT
-24	합의	O	O	O, I-EV, I-OG, I-DT, B-OG
-25	##를	O	O	O, I-EV, I-OG, I-AF, I-DT
-26	깨	O	O	O, B-CV, B-LC, B-OG, B-PS
-27	##고	O	O	O, B-PS, B-LC, B-CV, B-OG
-28	불법	O	O	O, B-CV, B-LC, B-PS, B-TM
-29	연행	O	O	O, B-CV, I-CV, B-PS, B-LC
-30	##과	O	O	O, B-PS, B-LC, B-OG, B-CV
-31	무자비	O	O	O, B-CV, B-LC, B-TM, B-OG
-32	##한	O	O	O, B-LC, B-PS, B-CV, B-OG
-33	고문	O	O	O, B-CV, B-TR, B-FD, B-TM
-34	수사	O	O	O, I-CV, B-CV, I-TR, B-TR
-35	끝	O	O	O, B-PS, I-CV, B-LC, B-CV
-36	##에	O	O	O, B-CV, B-PS, B-OG, B-LC
-37	31	B-QT	B-QT	B-QT, O, I-QT, B-PS, B-EV
-38	##명	I-QT	I-QT	I-QT, O, I-LC, I-PS, I-OG
-39	##을	O	O	O, I-QT, B-CV, I-EV, I-OG
-40	구속	O	B-CV	B-CV, O, B-OG, B-TM, I-CV
-41	기소	O	I-CV	I-CV, O, B-CV, I-OG, I-TM
-42	##했	O	O	O, I-CV, I-OG, I-EV, I-QT
-43	##다	O	O	O, B-CV, I-CV, I-OG, B-LC
-44	.	O	O	O, B-LC, B-OG, B-CV, B-PS
-45	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	한	O	O
+2	민간	O	O
+3	에너지	O	O
+4	##업체	O	O
+5	관계자	B-CV	B-CV
+6	##는	O	O
+7	“	O	O
+8	민간	O	O
+9	##이	O	O
+10	참여	O	O
+11	##하	O	O
+12	##는	O	O
+13	전문	O	O
+14	##회사	O	O
+15	##라고	O	O
+16	해도	O	O
+17	결국	O	O
+18	공기업	O	O
+19	##이	O	O
+20	경영	O	O
+21	##권	O	O
+22	##을	O	O
+23	쥐	O	O
+24	##고	O	O
+25	낙하산	B-AF	O
+26	인사	O	B-CV
+27	##를	O	O
+28	내려	O	O
+29	보낼	O	O
+30	통로	O	O
+31	##로	O	O
+32	쓸	O	O
+33	가능	O	O
+34	##성이	O	O
+35	있	O	O
+36	##다	O	O
+37	”	O	O
+38	고	O	O
+39	우려	O	O
+40	##했	O	O
+41	##다	O	O
+42	.	O	O
+43	[SEP]	O	O

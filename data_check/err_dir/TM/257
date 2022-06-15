@@ -1,45 +1,34 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	7	B-DT	B-DT	B-DT, I-DT, O, B-QT, B-OG
-2	##월	I-DT	I-DT	I-DT, B-DT, O, I-QT, I-OG
-3	##부터	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-OG
-4	백	B-TM	B-TM	B-TM, O, I-TM, B-CV, B-TR
-5	##내	I-TM	I-TM	I-TM, O, B-TM, I-QT, I-CV
-6	##장	I-TM	I-TM	I-TM, O, B-TM, I-QT, I-CV
-7	편도	B-TM	B-TM	B-TM, I-TM, O, B-LC, B-CV
-8	맹	B-TM	I-TM	I-TM, B-TM, O, I-TR, B-CV
-9	##장	I-TM	I-TM	I-TM, O, B-TM, I-QT, I-CV
-10	항문	B-TM	B-TM	B-TM, I-TM, O, B-LC, B-CV
-11	탈	O	I-TM	I-TM, B-TM, O, B-CV, I-TR
-12	##장	O	I-TM	I-TM, O, B-TM, I-QT, I-CV
-13	자궁	B-TM	B-TM	B-TM, I-TM, O, B-TR, B-CV
-14	제왕	B-TR	I-TM	I-TM, I-TR, B-TR, O, B-TM
-15	##절	I-TR	I-TR	I-TR, I-TM, O, I-CV, B-TR
-16	##개	I-TR	I-TR	I-TR, I-TM, O, I-CV, I-QT
-17	등	O	O	O, I-TM, I-TR, I-CV, I-QT
-18	7	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-TM
-19	##가지	I-QT	I-QT	I-QT, O, I-TM, I-DT, I-EV
-20	질병	O	O	O, I-QT, I-OG, I-TM, B-TM
-21	##군	O	O	O, I-OG, B-OG, I-TM, I-LC
-22	##의	O	O	O, I-OG, B-CV, B-PS, I-AF
-23	입원	O	O	O, B-CV, B-TM, B-FD, B-TR
-24	수술	O	O	O, I-TR, B-TR, I-FD, I-TM
-25	##에	O	O	O, B-CV, I-CV, I-OG, I-TM
-26	대해	O	O	O, B-LC, B-OG, B-PS, B-TM
-27	종합	O	O	O, B-OG, B-CV, B-FD, B-LC
-28	##병원	O	O	O, I-OG, B-OG, I-AF, B-FD
-29	##과	O	O	O, I-OG, B-LC, B-PS, B-OG
-30	대학	O	O	O, B-OG, B-CV, B-TM, B-FD
-31	##병원	O	O	O, I-OG, B-OG, I-AF, B-CV
-32	##에서	O	O	O, B-CV, I-OG, B-LC, B-PS
-33	##도	O	O	O, B-LC, B-CV, B-TM, B-OG
-34	‘	O	O	O, B-CV, B-LC, B-OG, B-TM
-35	정찰	O	O	O, B-CV, I-CV, B-TM, B-QT
-36	##제	O	O	O, I-CV, I-TM, I-TR, I-QT
-37	’	O	O	O, I-CV, I-QT, B-CV, I-OG
-38	가	O	O	O, B-PS, B-OG, B-LC, B-CV
-39	시행	O	O	O, B-CV, B-OG, B-LC, B-TM
-40	##된	O	O	O, B-CV, I-OG, I-CV, B-LC
-41	##다	O	O	O, B-CV, B-LC, B-OG, B-TM
-42	.	O	O	O, B-TM, B-LC, B-OG, B-CV
-43	[SEP]	O	O	O, B-TM, B-LC, B-CV, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	입	B-AM	B-AM
+2	##으로	O	O
+3	내시경	B-TM	B-TM
+4	##을	O	O
+5	넣	O	O
+6	##은	O	O
+7	뒤	O	O
+8	십	B-TM	B-TM
+9	##이지	I-TM	I-TM
+10	##장	I-TM	I-TM
+11	##을	O	O
+12	거쳐	O	O
+13	담	B-TM	B-TM
+14	##낭	I-TM	I-TM
+15	##에	O	O
+16	들어가	O	O
+17	담	B-TM	B-TM
+18	##석	I-TM	I-TM
+19	##과	O	O
+20	염증	B-TM	O
+21	##으로	O	O
+22	곪	O	O
+23	##은	O	O
+24	담	B-TM	B-TM
+25	##즙	I-TM	I-TM
+26	##을	O	O
+27	빼내	O	O
+28	##는	O	O
+29	방식	O	O
+30	##이다	O	O
+31	.	O	O
+32	[SEP]	O	O

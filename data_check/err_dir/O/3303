@@ -1,12 +1,40 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	이번	O	O	O, B-DT, B-CV, B-QT, I-DT
-2	##에	O	O	O, B-CV, B-PS, I-DT, B-OG
-3	그	O	O	O, B-CV, B-DT, B-OG, B-LC
-4	~	O	O	O, I-DT, B-DT, B-CV, B-LC
-5	추석	B-DT	B-DT	B-DT, O, B-EV, B-CV, I-DT
-6	##연	O	I-DT	I-DT, O, B-DT, I-EV, B-CV
-7	##휴	O	I-DT	I-DT, O, B-DT, I-EV, I-CV
-8	때	O	O	O, I-DT, I-EV, I-CV, B-DT
-9	##도	O	O	O, I-DT, B-DT, I-EV, B-PS
-10	[SEP]	O	O	O, I-DT, B-CV, B-LC, B-DT
+	text	label	preds
+0	[CLS]	O	O
+1	서울	O	B-LC
+2	노원	O	O
+3	##경찰	O	O
+4	##서는	O	O
+5	모임	O	O
+6	##을	O	O
+7	주도	O	O
+8	##한	O	O
+9	김	B-PS	B-PS
+10	##모	O	O
+11	씨	O	O
+12	(	O	O
+13	33	B-QT	B-QT
+14	)	O	O
+15	등	O	O
+16	25	B-QT	B-QT
+17	##명	I-QT	I-QT
+18	##을	O	O
+19	도로	B-CV	B-CV
+20	##교통	I-CV	I-CV
+21	##법	I-CV	I-CV
+22	##상	O	O
+23	공동	O	O
+24	##위	O	O
+25	##험	O	O
+26	##행위	O	O
+27	##로	O	O
+28	불구	O	O
+29	##속	O	O
+30	입건	O	O
+31	##했	O	O
+32	##다고	O	O
+33	27	B-DT	B-DT
+34	##일	I-DT	I-DT
+35	밝혔	O	O
+36	##다	O	O
+37	.	O	O
+38	[SEP]	O	O

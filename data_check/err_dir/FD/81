@@ -1,49 +1,33 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-AF
-1	오래가	B-OG	B-OG	B-OG, O, B-AF, B-CV, B-TM
-2	##게	I-OG	I-OG	I-OG, O, I-AF, I-CV, I-TM
-3	39	B-QT	B-QT	B-QT, I-OG, I-QT, O, I-AF
-4	##곳	I-QT	I-QT	I-QT, I-OG, O, I-EV, I-AF
-5	##은	O	O	O, I-QT, I-OG, B-OG, I-AF
-6	다방	O	O	O, B-CV, B-FD, B-OG, B-LC
-7	,	O	O	O, B-CV, B-LC, B-OG, I-CV
-8	고	B-FD	B-FD	B-FD, O, I-FD, B-TR, B-CV
-9	##미술	I-FD	I-FD	I-FD, O, B-FD, I-OG, I-TR
-10	화랑	O	O	O, I-FD, I-OG, I-CV, B-CV
-11	,	O	O	O, B-CV, B-LC, B-OG, B-TM
-12	떡	O	O	O, B-CV, B-LC, B-TM, B-AF
-13	##집	O	O	O, I-CV, I-OG, B-CV, I-AF
-14	,	O	O	O, B-CV, I-CV, B-LC, B-OG
-15	인장	O	O	O, B-CV, B-LC, B-TM, B-AF
-16	,	O	O	O, I-CV, I-OG, B-CV, I-AF
-17	시계	O	O	O, B-CV, B-TM, B-LC, B-OG
-18	##방	O	O	O, I-CV, I-OG, I-AF, I-LC
-19	,	O	O	O, B-CV, B-LC, B-PS, I-CV
-20	수공	O	O	O, B-CV, B-FD, B-OG, B-TM
-21	##예	O	O	O, I-CV, I-OG, I-FD, I-AF
-22	##점	O	O	O, I-CV, I-OG, I-AF, I-LC
-23	,	O	O	O, B-CV, B-LC, B-PS, B-AF
-24	레코드	B-TM	O	O, B-CV, B-OG, B-TM, B-FD
-25	##점	O	O	O, I-CV, I-OG, I-AF, I-TM
-26	,	O	O	O, B-CV, I-CV, B-PS, B-LC
-27	한	O	O	O, B-CV, B-OG, B-FD, B-TM
-28	##의원	O	O	O, I-CV, I-OG, B-CV, I-AF
-29	등	O	O	O, B-CV, I-CV, B-PS, B-LC
-30	생활	O	O	O, B-FD, B-CV, I-CV, B-AF
-31	##문화	O	O	O, I-CV, I-FD, I-AF, I-OG
-32	##와	O	O	O, B-LC, B-CV, B-PS, B-FD
-33	전통	B-FD	O	O, B-FD, I-FD, B-CV, B-OG
-34	##공	I-FD	O	O, I-FD, B-FD, I-OG, I-CV
-35	##예	I-FD	O	O, I-FD, I-OG, B-FD, I-CV
-36	분야	O	O	O, I-FD, I-OG, B-FD, I-CV
-37	##를	O	O	O, B-CV, I-OG, B-PS, B-TM
-38	중심	O	O	O, B-CV, B-OG, B-TM, B-LC
-39	##으로	O	O	O, B-OG, B-PS, B-LC, B-CV
-40	다양	O	O	O, B-OG, B-LC, B-TM, B-CV
-41	##한	O	O	O, B-OG, B-LC, B-PS, I-OG
-42	업종	O	O	O, B-CV, I-OG, B-OG, B-TM
-43	##이	O	O	O, B-PS, B-OG, B-CV, B-LC
-44	모였	O	O	O, B-CV, B-OG, B-TM, I-OG
-45	##다	O	O	O, I-OG, B-CV, B-OG, I-AF
-46	.	O	O	O, B-CV, B-LC, B-OG, B-FD
-47	[SEP]	O	O	O, B-CV, B-FD, I-OG, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	베르디	B-PS	B-PS
+2	(	O	O
+3	181	B-DT	B-DT
+4	##3	I-DT	I-DT
+5	~	I-DT	I-DT
+6	1901	I-DT	I-DT
+7	)	O	O
+8	의	O	O
+9	유일	O	O
+10	##한	O	O
+11	실내	O	O
+12	##악	O	O
+13	##인	O	O
+14	현악	B-FD	O
+15	4	I-FD	I-FD
+16	##중	I-FD	I-FD
+17	##주	I-FD	I-FD
+18	##를	O	O
+19	24	B-DT	B-DT
+20	##일	I-DT	I-DT
+21	콸	B-OG	I-OG
+22	##라치	I-OG	I-OG
+23	4	I-OG	I-OG
+24	##중	I-OG	I-OG
+25	##주	I-OG	I-OG
+26	##단	I-OG	I-OG
+27	##이	O	O
+28	연주	O	O
+29	##한다	O	O
+30	.	O	O
+31	[SEP]	O	O

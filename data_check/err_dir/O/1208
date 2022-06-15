@@ -1,19 +1,36 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	그	O	O	O, B-CV, B-LC, B-PS, B-OG
-2	변형	B-TR	B-TR	B-TR, O, I-TR, B-PS, B-TM
-3	##주의	I-TR	I-TR	I-TR, O, B-TR, I-FD, I-PS
-4	어	O	O	O, I-TR, I-QT, I-AF, B-CV
-5	영어	B-CV	B-CV	B-CV, O, B-LC, B-OG, B-TM
-6	##로	O	O	O, I-CV, I-AF, I-QT, B-PS
-7	##는	O	O	O, B-PS, B-CV, B-LC, I-AF
-8	트랜스	O	B-TR	B-TR, O, I-TR, B-TM, B-PS
-9	##포	O	I-TR	I-TR, O, B-TR, I-TM, I-FD
-10	##미	O	I-TR	I-TR, O, I-TM, B-TR, I-FD
-11	트랜스	B-TR	B-TR	B-TR, I-TR, O, B-PS, B-TM
-12	##포	I-TR	I-TR	I-TR, O, B-TR, I-TM, I-QT
-13	##미	I-TR	I-TR	I-TR, O, B-TR, I-TM, I-QT
-14	##즘	I-TR	I-TR	I-TR, O, B-TR, I-TM, I-QT
-15	##이	O	O	O, I-TR, I-AF, I-QT, I-TM
-16	##고	O	O	O, B-CV, I-AF, B-LC, B-OG
-17	[SEP]	O	O	O, B-CV, B-LC, B-FD, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	방과	O	O
+2	##후	O	O
+3	원어민	O	B-CV
+4	영어	B-CV	B-CV
+5	수업	O	O
+6	##은	O	O
+7	주	O	O
+8	5	B-QT	B-QT
+9	##회	I-QT	I-QT
+10	50	B-TI	B-TI
+11	##분	I-TI	I-TI
+12	수업	O	O
+13	##이	O	O
+14	월	O	O
+15	10	B-QT	B-QT
+16	##만	I-QT	I-QT
+17	원	I-QT	I-QT
+18	선이	O	O
+19	##지만	O	O
+20	일반	O	O
+21	학원	O	O
+22	##의	O	O
+23	비슷	O	O
+24	##한	O	O
+25	수업	O	O
+26	##은	O	O
+27	5	B-QT	B-QT
+28	##배	I-QT	I-QT
+29	##가	I-QT	I-QT
+30	##량	I-QT	I-QT
+31	비싸	O	O
+32	##다	O	O
+33	.	O	O
+34	[SEP]	O	O

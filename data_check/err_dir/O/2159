@@ -1,58 +1,8 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, B-CV, I-OG, I-AF
-1	우	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-2	수석	B-CV	B-CV	B-CV, O, I-CV, I-PS, B-OG
-3	##의	O	O	O, I-CV, B-CV, I-EV, B-PS
-4	아내	B-CV	B-CV	B-CV, O, I-CV, B-PS, B-OG
-5	##처럼	O	O	O, I-CV, B-CV, B-PS, I-OG
-6	자기	O	O	O, B-CV, B-PS, B-OG, B-LC
-7	소유	O	O	O, B-CV, B-OG, B-TM, B-PS
-8	법인	O	O	O, B-OG, B-CV, I-OG, B-AF
-9	##에	O	O	O, I-OG, I-CV, B-CV, B-PS
-10	돈	O	O	O, B-CV, B-AM, I-CV, B-PS
-11	##을	O	O	O, B-CV, B-PS, B-LC, B-OG
-12	빌려	O	O	O, B-CV, B-LC, B-PS, B-AF
-13	##주	O	O	O, I-CV, B-PS, B-CV, I-LC
-14	##고	O	O	O, B-PS, B-CV, B-LC, I-CV
-15	이	O	O	O, B-PS, B-OG, B-CV, B-LC
-16	돈	O	O	O, B-CV, I-CV, B-LC, B-PS
-17	##의	O	O	O, B-PS, B-LC, B-CV, B-OG
-18	투자	O	O	O, B-CV, B-LC, B-PS, B-TM
-19	등	O	O	O, B-PS, B-LC, B-CV, I-OG
-20	##으로	O	O	O, B-PS, B-LC, B-CV, B-OG
-21	인해	O	O	O, B-LC, B-PS, B-OG, B-TM
-22	법인	O	O	O, B-OG, B-CV, B-AF, B-LC
-23	##의	O	O	O, I-OG, I-CV, B-PS, I-AF
-24	자산	O	O	O, B-TM, B-LC, B-CV, B-QT
-25	(	O	O	O, B-CV, B-PS, I-CV, B-LC
-26	81	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-LC
-27	##억	I-QT	I-QT	I-QT, O, I-LC, I-PS, I-DT
-28	##여	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-29	##원	I-QT	I-QT	I-QT, O, I-LC, I-PS, I-AF
-30	)	O	O	O, I-QT, B-CV, I-OG, I-CV
-31	이	O	O	O, B-PS, B-OG, B-LC, B-CV
-32	늘어나	O	O	O, B-CV, B-PS, B-OG, B-QT
-33	##도	O	O	O, B-PS, I-OG, I-QT, B-LC
-34	법인	O	O	O, B-OG, B-CV, B-AF, B-LC
-35	##에	O	O	O, I-OG, I-CV, B-PS, I-AF
-36	빌려	O	O	O, B-CV, B-PS, B-LC, B-AF
-37	##준	O	O	O, B-PS, I-CV, B-CV, B-LC
-38	돈	O	O	O, B-CV, B-AM, B-QT, B-PS
-39	(	O	O	O, B-CV, B-PS, I-CV, B-LC
-40	75	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-LC
-41	##억	I-QT	I-QT	I-QT, O, I-LC, I-PS, I-DT
-42	##원	I-QT	I-QT	I-QT, O, I-LC, I-PS, I-AF
-43	)	O	O	O, I-QT, I-OG, B-CV, I-AF
-44	만	O	O	O, I-QT, B-QT, B-LC, B-PS
-45	‘	O	O	O, I-QT, B-CV, B-PS, B-LC
-46	사인	O	O	O, B-CV, B-AF, B-DT, B-QT
-47	##간	O	O	O, I-CV, B-CV, I-AF, I-DT
-48	채권	O	I-CV	I-CV, O, B-CV, I-AF, I-OG
-49	’	O	O	O, I-CV, I-AF, I-OG, I-QT
-50	으로	O	O	O, B-PS, B-CV, B-LC, B-OG
-51	기재	O	O	O, B-CV, B-LC, B-PS, B-TM
-52	##될	O	O	O, B-CV, B-PS, B-LC, I-CV
-53	뿐	O	O	O, B-PS, B-LC, B-QT, B-CV
-54	##이다	O	O	O, B-CV, I-QT, I-CV, B-TM
-55	.	O	O	O, B-LC, B-PS, B-CV, B-OG
-56	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	동남아	B-LC	B-LC
+2	##나	O	O
+3	중국	O	B-LC
+4	##요	O	O
+5	##리에	O	O
+6	[SEP]	O	O

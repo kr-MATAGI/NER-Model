@@ -1,37 +1,50 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-EV, I-OG, I-CV
-1	울산	B-OG	B-OG	B-OG, B-LC, B-PS, O, B-AF
-2	현대	I-OG	I-OG	I-OG, I-LC, O, B-OG, I-PS
-3	골키퍼	B-CV	B-CV	B-CV, B-PS, I-OG, O, B-TM
-4	김병	B-PS	B-PS	B-PS, I-PS, B-OG, O, B-CV
-5	##지	I-PS	I-PS	I-PS, I-OG, O, I-QT, I-LC
-6	(	O	O	O, I-PS, I-OG, B-CV, I-QT
-7	46	B-QT	B-QT	B-QT, I-QT, O, B-DT, B-LC
-8	)	O	O	O, I-QT, I-OG, I-EV, I-DT
-9	가	O	O	O, B-CV, B-PS, B-LC, B-OG
-10	하프	B-TI	B-TI	B-TI, O, B-EV, B-TM, B-QT
-11	##타임	I-TI	I-TI	I-TI, O, I-EV, I-TR, I-DT
-12	때	I-TI	O	O, I-TI, I-DT, I-TR, I-EV
-13	은퇴	O	O	O, B-EV, I-EV, B-CV, B-LC
-14	##식	O	O	O, I-EV, I-LC, I-AF, I-TR
-15	##을	O	O	O, I-EV, B-CV, B-OG, I-OG
-16	한	O	O	O, B-LC, B-EV, B-OG, B-CV
-17	울산	B-LC	B-LC	B-LC, B-OG, B-EV, O, B-AF
-18	경기	O	O	O, I-EV, I-LC, I-OG, B-CV
-19	##에서	O	O	O, I-EV, I-OG, B-CV, I-AF
-20	##는	O	O	O, B-CV, B-OG, B-LC, I-EV
-21	울산	B-OG	B-OG	B-OG, B-LC, B-PS, B-AF, O
-22	현대	I-OG	I-OG	I-OG, I-LC, O, I-PS, I-EV
-23	##가	O	O	O, I-OG, I-EV, I-AF, B-CV
-24	포항	B-OG	B-OG	B-OG, B-LC, B-AF, B-PS, B-EV
-25	스틸	I-OG	I-OG	I-OG, I-LC, B-OG, O, I-EV
-26	##러스	I-OG	I-OG	I-OG, I-LC, O, I-PS, I-AF
-27	##를	O	O	O, I-OG, I-EV, B-CV, I-AF
-28	1	B-QT	B-QT	B-QT, I-QT, O, B-TM, B-OG
-29	-	I-QT	I-QT	I-QT, O, I-LC, I-OG, B-QT
-30	0	I-QT	I-QT	I-QT, O, I-LC, I-OG, I-TM
-31	##으로	O	O	O, I-QT, B-CV, I-EV, I-OG
-32	눌렀	O	O	O, B-CV, B-EV, B-LC, B-OG
-33	##다	O	O	O, B-CV, I-EV, B-LC, B-OG
-34	.	O	O	O, B-LC, B-CV, B-OG, I-EV
-35	[SEP]	O	O	O, B-CV, B-LC, I-EV, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	반면	O	O
+2	##에	O	O
+3	일본	B-LC	B-LC
+4	맞벌이	O	O
+5	주부	B-CV	B-CV
+6	##는	O	O
+7	회사	O	O
+8	일	O	O
+9	##에	O	O
+10	5	B-TI	B-TI
+11	.	I-TI	I-TI
+12	3	I-TI	I-TI
+13	##시간	I-TI	I-TI
+14	,	O	O
+15	집안일	O	O
+16	##에	O	O
+17	4	B-TI	B-TI
+18	.	I-TI	I-TI
+19	8	I-TI	I-TI
+20	##시간	I-TI	I-TI
+21	##을	O	O
+22	투입	O	O
+23	##했	O	O
+24	##고	O	O
+25	,	O	O
+26	미국	B-LC	B-LC
+27	##은	O	O
+28	각각	O	B-TI
+29	5	B-TI	I-TI
+30	.	I-TI	I-TI
+31	1	I-TI	I-TI
+32	##시간	I-TI	I-TI
+33	,	O	O
+34	4	B-TI	B-TI
+35	.	I-TI	I-TI
+36	5	I-TI	I-TI
+37	##시간	I-TI	I-TI
+38	##으로	O	O
+39	집안일	O	O
+40	비중	O	O
+41	##이	O	O
+42	이보	O	O
+43	##다	O	O
+44	더	O	O
+45	컸	O	O
+46	##다	O	O
+47	.	O	O
+48	[SEP]	O	O

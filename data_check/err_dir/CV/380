@@ -1,40 +1,21 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	의원	B-CV	B-CV	B-CV, O, B-OG, I-CV, B-TM
-2	##들	O	O	O, I-CV, I-OG, I-QT, B-CV
-3	##은	O	O	O, B-CV, B-TM, B-QT, B-OG
-4	0	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-LC
-5	~	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-DT
-6	5	I-QT	I-QT	I-QT, B-QT, O, I-LC, I-PS
-7	##세	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-8	모두	O	O	O, I-QT, B-QT, B-TM, B-PS
-9	##에	O	O	O, I-QT, B-CV, B-TM, B-PS
-10	보육	O	O	O, B-CV, B-TR, B-MT, B-QT
-11	##료	O	O	O, I-CV, B-CV, I-TR, I-QT
-12	##를	O	O	O, I-CV, B-CV, B-PS, B-QT
-13	지급	O	O	O, B-CV, B-TM, B-QT, B-LC
-14	##하고	O	O	O, B-CV, B-PS, B-LC, I-CV
-15	양육	B-CV	O	O, B-CV, B-TR, B-QT, B-FD
-16	##수	I-CV	O	O, I-CV, B-CV, I-TR, I-AF
-17	##당	I-CV	O	O, I-CV, I-QT, I-TR, B-CV
-18	10	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-PS
-19	##만	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-20	~	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-21	20	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-22	##만	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-23	##원	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-24	##을	O	O	O, I-QT, B-CV, I-CV, I-AF
-25	차등	O	O	O, B-CV, B-QT, B-TM, B-PS
-26	지급	O	O	O, I-QT, B-CV, I-CV, B-PS
-27	##하기	O	O	O, B-PS, B-CV, B-LC, B-OG
-28	##로	O	O	O, B-CV, B-PS, B-OG, B-LC
-29	이미	O	O	O, B-CV, B-TM, B-QT, B-OG
-30	결정	O	O	O, B-CV, B-LC, B-TM, B-QT
-31	##해	O	O	O, B-PS, B-LC, B-CV, B-OG
-32	##놓	O	O	O, B-LC, B-CV, B-PS, I-LC
-33	##은	O	O	O, B-PS, B-CV, B-LC, B-OG
-34	상태	O	O	O, B-CV, B-TM, B-LC, B-OG
-35	##였	O	O	O, B-CV, B-OG, B-LC, B-TM
-36	##다	O	O	O, B-CV, B-TM, I-OG, B-QT
-37	.	O	O	O, B-CV, B-LC, B-PS, B-QT
-38	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-QT
+	text	label	preds
+0	[CLS]	O	O
+1	우리	O	O
+2	이제	O	O
+3	교원	O	B-OG
+4	##에	O	O
+5	##서	O	O
+6	하	O	O
+7	##던	O	O
+8	그	O	O
+9	검사	B-CV	O
+10	##도	O	O
+11	해	O	O
+12	보	O	O
+13	##면은	O	O
+14	그런	O	O
+15	게	O	O
+16	나오	O	O
+17	##더라	O	O
+18	##고	O	O
+19	[SEP]	O	O

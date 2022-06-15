@@ -1,40 +1,39 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-QT
-1	두산	B-OG	B-OG	B-OG, B-LC, O, B-PS, B-AF
-2	##에서	O	O	O, I-OG, I-PS, I-AF, I-DT
-3	NC	B-OG	B-OG	B-OG, O, B-LC, I-OG, B-AF
-4	##로	O	O	O, I-OG, I-AF, I-EV, I-QT
-5	이적	O	O	O, B-CV, B-PS, B-OG, B-TM
-6	##한	O	O	O, B-PS, B-LC, B-CV, I-PS
-7	이종	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-8	##욱	I-PS	I-PS	I-PS, O, I-OG, B-PS, I-LC
-9	##과	O	O	O, I-PS, I-OG, I-AF, B-PS
-10	손	B-PS	B-PS	B-PS, O, I-PS, B-OG, B-LC
-11	##시	I-PS	I-PS	I-PS, O, B-PS, I-OG, I-LC
-12	##헌	I-PS	I-PS	I-PS, O, B-PS, I-OG, I-LC
-13	##도	O	O	O, I-PS, I-OG, I-AF, I-QT
-14	화려	O	O	O, B-CV, B-TM, B-PS, B-LC
-15	##하	O	O	O, B-PS, B-LC, B-OG, I-PS
-16	##지	O	O	O, B-PS, B-LC, I-PS, B-OG
-17	##는	O	O	O, B-LC, I-OG, B-OG, B-PS
-18	않	O	O	O, B-PS, B-LC, B-CV, B-OG
-19	##지만	O	O	O, B-PS, B-OG, B-CV, B-LC
-20	내실	O	O	O, B-CV, B-PS, B-TM, B-QT
-21	있	O	O	O, B-PS, B-TM, B-CV, B-LC
-22	##는	O	O	O, B-PS, B-LC, B-CV, B-OG
-23	방망이	B-CV	B-CV	B-CV, B-AF, O, B-PS, B-TM
-24	##와	O	O	O, I-CV, I-AF, I-OG, I-PS
-25	안정	O	O	O, B-CV, B-TM, B-PS, B-LC
-26	##된	O	O	O, B-PS, B-LC, B-CV, B-TM
-27	수비	O	B-CV	B-CV, O, B-TM, B-FD, B-AF
-28	##로	O	O	O, I-CV, B-PS, I-TM, I-AF
-29	NC	B-OG	B-OG	B-OG, O, B-LC, B-AF, B-EV
-30	##의	O	O	O, I-OG, I-EV, I-AF, I-PS
-31	돌풍	O	O	O, B-CV, I-OG, B-OG, B-TM
-32	##을	O	O	O, B-CV, B-PS, B-OG, B-TM
-33	뒷받침	O	O	O, B-CV, B-PS, B-TM, B-OG
-34	##하고	O	O	O, B-PS, B-CV, B-LC, B-TM
-35	있	O	O	O, B-PS, B-CV, B-OG, B-LC
-36	##다	O	O	O, B-CV, B-PS, I-OG, B-TM
-37	.	O	O	O, B-PS, B-CV, B-LC, B-OG
-38	[SEP]	O	O	O, B-PS, B-CV, I-OG, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	1994	B-DT	B-DT
+2	##년	I-DT	I-DT
+3	미국	B-EV	B-EV
+4	##월드	I-EV	I-EV
+5	##컵	I-EV	I-EV
+6	독일	B-OG	B-OG
+7	##과	O	O
+8	##의	O	O
+9	조별	O	B-EV
+10	예선	B-EV	I-EV
+11	마지막	O	O
+12	경기	O	O
+13	##에	O	O
+14	##선	O	O
+15	경기	O	O
+16	시작	O	O
+17	12	B-TI	B-TI
+18	##분	I-TI	I-TI
+19	만	O	I-TI
+20	##에	O	O
+21	첫	B-QT	B-QT
+22	골	I-QT	I-QT
+23	##을	O	O
+24	내주	O	O
+25	##는	O	O
+26	등	O	O
+27	전반	B-TI	B-TI
+28	##에	O	O
+29	##만	O	O
+30	3	B-QT	B-QT
+31	##골	I-QT	I-QT
+32	##을	O	O
+33	먹	O	O
+34	##었	O	O
+35	##다	O	O
+36	.	O	O
+37	[SEP]	O	O

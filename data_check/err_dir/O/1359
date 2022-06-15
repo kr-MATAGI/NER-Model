@@ -1,51 +1,12 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	2010	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-2	##년	I-DT	I-DT	I-DT, O, I-QT, B-DT, I-EV
-3	밴쿠버	B-EV	B-EV	B-EV, B-LC, O, B-AF, I-EV
-4	겨울	I-EV	I-EV	I-EV, B-EV, O, I-AF, I-LC
-5	##올	I-EV	I-EV	I-EV, O, B-EV, I-AF, I-LC
-6	##림픽	I-EV	I-EV	I-EV, O, I-AF, B-EV, I-CV
-7	##에서	O	O	O, I-EV, I-AF, B-CV, I-OG
-8	##는	O	O	O, B-CV, I-EV, B-TM, B-OG
-9	남자	O	O	O, B-CV, B-TM, B-FD, B-OG
-10	쇼트트랙	B-CV	B-CV	B-CV, O, I-CV, B-PS, B-AF
-11	첫	O	O	O, B-QT, I-CV, B-EV, I-EV
-12	경기	O	O	O, I-QT, B-CV, I-EV, B-EV
-13	##인	O	O	O, I-EV, B-CV, I-QT, I-CV
-14	1500	B-QT	B-QT	B-QT, O, B-EV, I-QT, B-TM
-15	##m	I-QT	I-QT	I-QT, O, I-LC, I-EV, I-TM
-16	결선	O	O	O, B-EV, B-CV, I-EV, I-QT
-17	##에서	O	O	O, I-EV, B-CV, I-QT, I-CV
-18	성시	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-19	##백	I-PS	I-PS	I-PS, O, I-OG, I-LC, B-PS
-20	(	O	O	O, I-PS, I-OG, B-CV, I-QT
-21	27	B-QT	B-QT	B-QT, I-QT, O, B-LC, B-TM
-22	)	O	O	O, I-QT, I-OG, I-EV, B-CV
-23	과	O	O	O, B-CV, B-PS, B-TM, I-QT
-24	2	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-LC
-25	,	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-EV
-26	3	I-QT	I-QT	I-QT, B-QT, O, I-LC, I-TM
-27	##위	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-EV
-28	##를	O	O	O, I-QT, B-CV, I-EV, I-OG
-29	다투	O	O	O, B-CV, B-TM, B-LC, B-PS
-30	##다	O	O	O, B-PS, B-CV, B-TM, B-LC
-31	마지막	O	O	O, B-QT, B-TM, B-AF, B-EV
-32	바퀴	O	I-QT	I-QT, O, I-TM, B-QT, B-TM
-33	##에서	O	O	O, I-QT, I-TM, I-AF, B-CV
-34	추월	O	O	O, B-TM, B-CV, B-AF, B-LC
-35	##하	O	O	O, B-LC, B-PS, I-TM, B-TM
-36	##는	O	O	O, B-CV, B-TM, B-LC, B-PS
-37	과정	O	O	O, B-CV, B-TM, B-PS, B-LC
-38	##에서	O	O	O, B-CV, B-PS, B-TM, B-LC
-39	서로	O	O	O, B-TM, B-CV, B-AF, B-QT
-40	엉	O	O	O, B-TM, B-CV, B-LC, B-AF
-41	##켜	O	O	O, I-TM, I-LC, B-LC, B-TM
-42	함께	O	O	O, B-TM, B-CV, B-QT, B-AF
-43	넘어지	O	O	O, B-TM, B-CV, B-AF, B-LC
-44	##고	O	O	O, I-TM, B-TM, B-CV, I-AF
-45	말	O	O	O, B-TM, B-CV, B-QT, B-LC
-46	##았	O	O	O, B-CV, I-QT, I-CV, I-TM
-47	##다	O	O	O, B-CV, B-TM, B-LC, B-PS
-48	.	O	O	O, B-CV, B-TM, B-LC, B-PS
-49	[SEP]	O	O	O, B-CV, B-TM, B-LC, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	영수	O	B-EV
+2	##회	O	I-EV
+3	##담	O	I-EV
+4	갑자기	O	O
+5	제안	O	O
+6	##하	O	O
+7	##셨	O	O
+8	##잖아요	O	O
+9	.	O	O
+10	[SEP]	O	O

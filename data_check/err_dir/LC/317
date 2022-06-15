@@ -1,16 +1,42 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	그런데	O	O	O, B-CV, B-OG, B-TM, B-LC
-2	북한	B-LC	B-OG	B-OG, B-LC, O, B-PS, B-AF
-3	##의	O	O	O, I-OG, I-LC, I-AF, I-EV
-4	4	B-QT	B-QT	B-QT, B-EV, O, I-QT, B-DT
-5	##차	I-QT	I-QT	I-QT, I-EV, O, I-DT, I-OG
-6	핵실험	O	O	O, I-EV, I-QT, B-EV, B-LC
-7	##이	O	O	O, B-PS, I-EV, I-AF, B-OG
-8	찬물	O	O	O, B-CV, B-PS, B-LC, B-AF
-9	##을	O	O	O, B-CV, I-CV, I-AF, B-OG
-10	끼얹	O	O	O, B-CV, B-PS, B-LC, B-OG
-11	##었	O	O	O, B-CV, I-CV, I-EV, B-LC
-12	##다	O	O	O, B-CV, I-OG, I-EV, B-LC
-13	.	O	O	O, B-CV, B-LC, B-PS, B-OG
-14	[SEP]	O	O	O, B-CV, B-LC, I-EV, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	중국	B-LC	B-LC
+2	외교부	B-OG	B-OG
+3	##는	O	O
+4	14	B-DT	B-DT
+5	##일	I-DT	I-DT
+6	긴급	O	O
+7	성명	O	O
+8	##에	O	O
+9	##서	O	O
+10	“	O	O
+11	중국	B-LC	B-OG
+12	##은	O	O
+13	유엔	B-OG	B-OG
+14	안전	I-OG	I-OG
+15	##보	I-OG	I-OG
+16	##장이	I-OG	I-OG
+17	##사회	I-OG	I-OG
+18	결의	O	O
+19	##를	O	O
+20	위반	O	O
+21	##한	O	O
+22	조선	B-OG	B-OG
+23	##민주	I-OG	I-OG
+24	##주의	I-OG	I-OG
+25	##인	I-OG	I-OG
+26	##민	I-OG	I-OG
+27	##공화국	I-OG	I-OG
+28	##의	O	O
+29	발사	O	O
+30	관련	O	O
+31	움직임	O	O
+32	##에	O	O
+33	반대	O	O
+34	##한다	O	O
+35	”	O	O
+36	고	O	O
+37	밝혔	O	O
+38	##다	O	O
+39	.	O	O
+40	[SEP]	O	O

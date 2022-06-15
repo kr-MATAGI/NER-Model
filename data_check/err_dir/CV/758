@@ -1,39 +1,49 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-EV, I-CV, I-OG
-1	검찰	B-OG	B-OG	B-OG, B-AF, O, B-LC, B-PS
-2	##은	O	O	O, I-OG, B-CV, I-EV, B-OG
-3	오	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-OG
-4	##는	I-DT	I-DT	I-DT, O, B-DT, I-EV, I-QT
-5	18	I-DT	I-DT	I-DT, B-DT, O, I-PS, I-EV
-6	##일	I-DT	I-DT	I-DT, O, B-DT, I-EV, I-QT
-7	오전	B-TI	B-TI	B-TI, O, I-TI, I-DT, B-EV
-8	문	B-PS	B-PS	B-PS, O, I-PS, B-OG, B-LC
-9	##씨	O	O	O, I-PS, B-CV, I-EV, I-AF
-10	##를	O	O	O, B-CV, B-LC, B-TM, B-PS
-11	불러	O	O	O, B-LC, B-OG, B-CV, B-PS
-12	국정원	B-OG	B-OG	B-OG, B-AF, O, I-OG, B-EV
-13	##의	O	O	O, I-OG, I-AF, I-EV, B-CV
-14	이런	O	O	O, B-CV, B-LC, B-OG, B-TM
-15	사이버	O	O	O, B-CV, B-EV, B-LC, B-PS
-16	공작	O	O	O, I-EV, B-CV, B-EV, B-PS
-17	##과	O	O	O, B-CV, I-EV, B-PS, I-CV
-18	관련	O	O	O, B-CV, B-TM, B-LC, B-OG
-19	##해	O	O	O, B-LC, B-OG, B-PS, B-CV
-20	문화	O	O	O, B-FD, I-FD, B-CV, B-OG
-21	·	O	O	O, I-FD, B-FD, I-OG, I-CV
-22	예술	O	O	O, B-FD, I-FD, I-OG, I-CV
-23	##계	O	O	O, I-FD, I-CV, I-OG, B-FD
-24	인사	B-CV	O	O, B-CV, I-CV, B-FD, B-QT
-25	##들	O	O	O, I-CV, B-CV, B-PS, I-QT
-26	##의	O	O	O, B-CV, B-PS, B-LC, B-TM
-27	피해	O	O	O, B-CV, B-TM, B-LC, B-PS
-28	사실	O	O	O, B-CV, B-PS, B-TM, B-LC
-29	##을	O	O	O, B-CV, B-PS, B-LC, B-TM
-30	직접	O	O	O, B-CV, B-LC, B-TM, B-PS
-31	확인	O	O	O, B-CV, B-LC, B-TM, B-PS
-32	##한다	O	O	O, B-LC, B-CV, B-PS, B-OG
-33	##는	O	O	O, B-CV, B-LC, B-OG, B-PS
-34	방침	O	O	O, B-CV, B-LC, B-OG, B-TM
-35	##이다	O	O	O, B-CV, I-EV, B-TM, I-CV
-36	.	O	O	O, B-CV, B-LC, B-PS, B-OG
-37	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-FD
+	text	label	preds
+0	[CLS]	O	O
+1	모	O	O
+2	선임	B-CV	B-CV
+3	##병	I-CV	I-CV
+4	##이	O	O
+5	정	B-PS	B-PS
+6	이병	B-CV	B-CV
+7	##에	O	O
+8	##게	O	O
+9	""""	O	O
+10	제일	O	O
+11	싫	O	O
+12	##어	O	O
+13	##하	O	O
+14	##는	O	O
+15	선임	B-CV	O
+16	""""	O	O
+17	을	O	O
+18	묻	O	O
+19	##고	O	O
+20	##는	O	O
+21	이	O	O
+22	##를	O	O
+23	당사자	B-CV	B-CV
+24	##에	O	O
+25	##게	O	O
+26	전하	O	O
+27	##는	O	O
+28	바람	O	O
+29	##에	O	O
+30	정	B-PS	B-PS
+31	이병	B-CV	B-CV
+32	##이	O	O
+33	여러	O	O
+34	차례	O	O
+35	가슴	B-AM	B-AM
+36	##을	O	O
+37	구타	O	O
+38	##당	O	O
+39	##하	O	O
+40	##는	O	O
+41	일	O	O
+42	##도	O	O
+43	있	O	O
+44	##었	O	O
+45	##다	O	O
+46	.	O	O
+47	[SEP]	O	O

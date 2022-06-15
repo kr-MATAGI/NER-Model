@@ -1,60 +1,31 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	정	B-PS	B-PS	B-PS, B-OG, O, B-AF, B-LC
-2	위원장	B-CV	B-CV	B-CV, I-PS, I-CV, O, B-OG
-3	##은	O	O	O, I-CV, B-CV, I-OG, I-EV
-4	“	O	O	O, B-CV, B-LC, B-OG, B-TM
-5	시	O	O	O, B-TM, B-AF, B-TR, B-CV
-6	##디	O	O	O, I-TM, I-AF, I-TR, I-OG
-7	금리	O	O	O, B-CV, I-TM, I-CV, I-AF
-8	담합	O	O	O, B-CV, B-TM, B-LC, I-CV
-9	##에	O	O	O, I-CV, B-PS, B-CV, B-OG
-10	관련	O	O	O, B-OG, B-LC, B-CV, B-PS
-11	##된	O	O	O, B-OG, B-LC, B-PS, B-CV
-12	국민	B-CV	B-OG	B-OG, B-PS, O, B-LC, I-OG
-13	·	O	O	O, I-OG, I-AF, I-CV, I-LC
-14	케이	B-OG	B-OG	B-OG, O, I-OG, B-LC, B-AF
-15	##비	I-OG	I-OG	I-OG, O, B-OG, I-AF, I-LC
-16	(	I-OG	O	O, I-OG, B-OG, I-LC, I-AF
-17	KEB	I-OG	B-OG	B-OG, I-OG, O, B-LC, B-AF
-18	)	I-OG	I-OG	I-OG, O, I-AF, I-LC, B-OG
-19	하나	I-OG	B-OG	B-OG, I-OG, O, B-LC, B-AF
-20	·	O	O	O, I-OG, I-AF, I-LC, I-CV
-21	우리	B-OG	B-OG	B-OG, I-OG, O, B-LC, B-AF
-22	·	O	O	O, I-OG, I-AF, I-LC, I-CV
-23	농협	B-OG	B-OG	B-OG, I-OG, O, B-AF, B-LC
-24	·	O	O	O, I-OG, I-AF, I-LC, I-CV
-25	에스	B-OG	B-OG	B-OG, O, I-OG, B-AF, B-LC
-26	##시	I-OG	I-OG	I-OG, O, B-OG, I-AF, I-LC
-27	(	I-OG	I-OG	I-OG, O, B-OG, I-AF, I-CV
-28	SC	I-OG	I-OG	I-OG, B-OG, O, B-AF, B-LC
-29	)	I-OG	O	O, I-OG, I-AF, I-CV, I-LC
-30	제일	I-OG	B-OG	B-OG, I-OG, O, B-LC, B-AF
-31	·	O	O	O, I-OG, I-AF, I-LC, I-CV
-32	신한은행	B-OG	B-OG	B-OG, I-OG, O, B-LC, B-AF
-33	등	O	O	O, I-OG, B-CV, I-AF, B-LC
-34	6	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-EV
-35	##개	I-QT	I-QT	I-QT, O, I-LC, I-OG, I-PS
-36	은행	O	O	O, I-QT, B-CV, I-OG, B-OG
-37	##의	O	O	O, B-PS, B-CV, B-LC, B-OG
-38	제재	O	O	O, B-CV, B-OG, B-LC, B-PS
-39	수준	O	O	O, B-CV, I-CV, B-LC, B-PS
-40	##을	O	O	O, B-CV, B-LC, B-OG, B-PS
-41	결정	O	O	O, B-CV, B-LC, B-OG, B-PS
-42	##하기	O	O	O, B-LC, B-CV, B-PS, B-OG
-43	위한	O	O	O, B-LC, B-EV, B-CV, B-OG
-44	전원	O	O	O, B-EV, B-CV, B-LC, B-OG
-45	##회의	O	O	O, I-EV, B-EV, I-OG, B-CV
-46	##를	O	O	O, I-EV, B-CV, B-LC, I-OG
-47	6	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-OG
-48	##월	I-DT	I-DT	I-DT, O, B-DT, I-EV, I-PS
-49	중	I-DT	I-DT	I-DT, O, B-DT, I-EV, I-PS
-50	열	O	O	O, I-DT, B-CV, B-LC, B-OG
-51	예정	O	O	O, B-CV, B-OG, B-LC, B-TM
-52	”	O	O	O, B-CV, I-OG, B-LC, B-TM
-53	이라	O	O	O, B-CV, B-OG, B-PS, B-LC
-54	##고	O	O	O, B-CV, B-QT, B-TM, B-OG
-55	밝혔	O	O	O, B-CV, B-TM, B-OG, B-LC
-56	##다	O	O	O, B-CV, B-TM, B-OG, B-LC
-57	.	O	O	O, B-OG, B-LC, B-CV, B-PS
-58	[SEP]	O	O	O, B-OG, B-CV, B-LC, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	일반	O	O
+2	##고	O	O
+3	·	O	O
+4	특성	O	O
+5	##화	O	O
+6	##고	O	O
+7	전형	O	O
+8	##에	O	O
+9	'	O	O
+10	사회	B-CV	O
+11	##적	I-CV	O
+12	##배	I-CV	O
+13	##려	I-CV	O
+14	대상자	I-CV	O
+15	(	O	O
+16	사	O	B-CV
+17	##배	O	I-CV
+18	##자	O	I-CV
+19	)	O	O
+20	전형	O	O
+21	'	O	O
+22	도	O	O
+23	단계	O	O
+24	##적	O	O
+25	##으로	O	O
+26	신설	O	O
+27	##한다	O	O
+28	.	O	O
+29	[SEP]	O	O

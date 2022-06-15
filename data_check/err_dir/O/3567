@@ -1,30 +1,15 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-EV, I-CV
-1	관심	O	O	O, B-CV, B-OG, B-TM, B-LC
-2	##을	O	O	O, B-CV, B-OG, B-PS, B-LC
-3	모았	O	O	O, B-CV, B-OG, B-LC, B-TM
-4	##던	O	O	O, B-CV, B-LC, B-OG, B-PS
-5	G	B-OG	B-OG	B-OG, O, B-LC, B-AF, I-OG
-6	##2	I-OG	I-OG	I-OG, O, I-LC, I-AF, I-CV
-7	(	O	O	O, I-OG, I-EV, I-CV, I-QT
-8	주요	O	O	O, B-LC, B-QT, B-DT, B-TM
-9	2	B-QT	B-QT	B-QT, I-QT, O, B-DT, B-EV
-10	##개	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-EV
-11	##국	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-EV
-12	)	O	O	O, I-QT, B-CV, B-OG, I-OG
-13	의	O	O	O, B-OG, B-LC, B-CV, B-PS
-14	'	O	O	O, B-LC, B-CV, B-OG, B-DT
-15	퍼스트	O	B-CV	B-CV, O, B-OG, I-CV, B-AF
-16	##레이	O	I-CV	I-CV, O, B-CV, I-OG, I-EV
-17	##디	O	I-CV	I-CV, O, B-CV, I-OG, I-TM
-18	외교	O	O	O, I-CV, B-CV, B-FD, B-LC
-19	'	O	O	O, I-CV, B-PS, B-LC, B-CV
-20	도	O	O	O, B-LC, B-PS, B-OG, B-DT
-21	다음	O	O	O, B-DT, B-LC, B-PS, I-DT
-22	기회	O	O	O, I-DT, B-PS, B-CV, I-EV
-23	##로	O	O	O, B-LC, B-OG, I-DT, B-PS
-24	미뤄	O	O	O, B-LC, B-DT, B-QT, B-OG
-25	##졌	O	O	O, B-CV, B-LC, B-OG, I-EV
-26	##다	O	O	O, B-CV, B-LC, B-OG, I-EV
-27	.	O	O	O, B-LC, B-OG, B-CV, B-PS
-28	[SEP]	O	O	O, B-LC, B-CV, B-OG, I-EV
+	text	label	preds
+0	[CLS]	O	O
+1	올해	B-DT	B-DT
+2	##는	O	O
+3	처음	O	O
+4	##으로	O	O
+5	5	B-QT	B-QT
+6	##만	I-QT	I-QT
+7	##가	O	I-QT
+8	##구	O	I-QT
+9	##를	O	O
+10	넘어선	O	O
+11	##다	O	O
+12	.	O	O
+13	[SEP]	O	O

@@ -1,22 +1,30 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	군	B-CV	B-CV	B-CV, B-OG, O, B-AF, B-LC
-2	가산점	I-CV	I-CV	I-CV, B-CV, O, I-OG, I-AF
-3	##제	I-CV	I-CV	I-CV, O, I-OG, B-CV, I-AF
-4	##도	I-CV	I-CV	I-CV, O, I-OG, B-CV, I-AF
-5	##는	O	O	O, I-CV, I-OG, I-AF, I-EV
-6	이미	O	O	O, B-OG, B-PS, B-LC, B-CV
-7	헌재	B-OG	B-OG	B-OG, O, I-OG, B-AF, B-CV
-8	##에서	O	O	O, I-OG, B-CV, I-AF, I-CV
-9	한	O	B-QT	B-QT, O, I-QT, B-PS, B-CV
-10	번	O	I-QT	I-QT, O, B-QT, I-LC, I-PS
-11	위헌	O	O	O, B-CV, I-QT, I-CV, B-TM
-12	##이	O	O	O, I-CV, B-PS, I-QT, I-PS
-13	##라고	O	O	O, B-PS, B-OG, B-CV, I-CV
-14	판단	O	O	O, B-CV, B-PS, B-OG, B-QT
-15	##을	O	O	O, B-CV, B-OG, I-CV, I-OG
-16	내렸	O	O	O, B-CV, B-OG, B-PS, B-LC
-17	##습	O	O	O, B-CV, B-OG, B-LC, B-QT
-18	##니다	O	O	O, B-CV, B-OG, B-LC, B-QT
-19	.	O	O	O, B-CV, B-OG, B-LC, B-PS
-20	[SEP]	O	O	O, B-CV, B-OG, B-LC, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	과학	O	B-FD
+2	##에	O	O
+3	기반	O	O
+4	##을	O	O
+5	둔	O	O
+6	정책	O	O
+7	##으로	O	O
+8	비용	O	O
+9	절감	O	O
+10	##과	O	O
+11	편의	O	O
+12	##성	O	O
+13	향상	O	O
+14	##이	O	O
+15	##라는	O	O
+16	두	B-QT	B-QT
+17	마리	I-QT	I-QT
+18	토끼	B-AM	B-AM
+19	##를	O	O
+20	모두	O	O
+21	잡	O	O
+22	##으	O	O
+23	##려	O	O
+24	##는	O	O
+25	것	O	O
+26	##이다	O	O
+27	.	O	O
+28	[SEP]	O	O

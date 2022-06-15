@@ -1,60 +1,33 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-EV, B-CV, I-CV, I-OG
-1	이런	O	O	O, B-CV, B-LC, B-TM, B-PS
-2	상황	O	O	O, B-CV, B-LC, B-EV, I-EV
-3	##을	O	O	O, B-CV, B-PS, B-OG, I-EV
-4	의식	O	O	O, B-CV, B-PS, B-LC, B-EV
-5	##한	O	O	O, B-PS, B-LC, B-OG, I-PS
-6	듯	O	O	O, B-PS, B-LC, B-OG, B-CV
-7	최희	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-8	##남	I-PS	I-PS	I-PS, I-OG, O, I-LC, B-PS
-9	기재	B-OG	B-OG	B-OG, O, I-OG, B-AF, B-EV
-10	##부	I-OG	I-OG	I-OG, O, I-EV, I-LC, I-CV
-11	국제	B-CV	B-CV	B-CV, O, I-CV, B-FD, B-OG
-12	##경제	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-EV
-13	##관리	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-EV
-14	##관	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-EV
-15	##은	O	O	O, I-CV, I-OG, I-EV, I-QT
-16	이날	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-QT
-17	미주	B-OG	B-OG	B-OG, B-EV, B-LC, O, I-EV
-18	##개발	I-OG	I-OG	I-OG, I-EV, O, B-OG, I-LC
-19	##은행	I-OG	I-OG	I-OG, I-EV, O, I-LC, I-AF
-20	(	O	O	O, I-EV, I-OG, B-EV, I-DT
-21	ID	B-OG	B-OG	B-OG, O, I-EV, I-OG, B-EV
-22	##B	I-OG	I-OG	I-OG, I-EV, O, B-OG, I-AF
-23	)	O	O	O, I-EV, I-OG, B-EV, I-DT
-24	연차	O	O	O, B-EV, I-EV, B-OG, I-OG
-25	##총	O	O	O, I-EV, I-OG, B-EV, B-OG
-26	##회	O	O	O, I-EV, I-OG, B-EV, I-DT
-27	##가	O	O	O, I-EV, I-OG, B-PS, B-LC
-28	열리	O	O	O, I-EV, B-CV, B-LC, B-EV
-29	##고	O	O	O, B-LC, I-EV, B-PS, B-CV
-30	있	O	O	O, B-LC, I-EV, B-PS, B-EV
-31	##는	O	O	O, B-LC, I-EV, I-LC, B-PS
-32	부산	B-LC	B-LC	B-LC, O, B-AF, B-OG, B-PS
-33	벡스코	B-AF	B-AF	B-AF, I-AF, B-LC, O, B-PS
-34	##에서	O	O	O, I-AF, I-LC, I-EV, B-CV
-35	기자	B-CV	O	O, B-CV, I-CV, B-EV, B-TM
-36	브리핑	O	O	O, I-CV, I-EV, B-CV, B-EV
-37	##을	O	O	O, I-EV, B-CV, I-CV, B-OG
-38	열	O	O	O, B-CV, B-OG, B-EV, B-LC
-39	##어	O	O	O, B-LC, B-OG, B-PS, B-CV
-40	“	O	O	O, B-LC, B-CV, I-EV, B-OG
-41	경제	O	O	O, B-CV, B-LC, I-EV, B-PS
-42	위상	O	O	O, B-CV, I-EV, B-LC, I-OG
-43	##에	O	O	O, B-CV, B-LC, B-PS, B-OG
-44	맞	O	O	O, B-LC, B-CV, B-PS, B-OG
-45	##게	O	O	O, B-LC, B-PS, B-OG, B-TM
-46	최대한	O	O	O, B-LC, B-CV, B-QT, B-TM
-47	지분	O	O	O, B-CV, B-LC, B-TM, B-OG
-48	##을	O	O	O, B-CV, B-OG, B-LC, B-PS
-49	확보	O	O	O, B-CV, B-LC, B-TM, B-PS
-50	##하	O	O	O, B-PS, B-LC, B-OG, B-CV
-51	##겠다	O	O	O, B-CV, B-LC, B-PS, B-OG
-52	”	O	O	O, B-CV, B-LC, B-OG, B-TM
-53	고	O	O	O, B-CV, B-LC, B-PS, B-TM
-54	말	O	O	O, B-CV, B-LC, B-OG, B-EV
-55	##했	O	O	O, B-CV, B-LC, B-PS, B-OG
-56	##다	O	O	O, B-CV, B-LC, I-EV, B-OG
-57	.	O	O	O, B-LC, I-EV, B-PS, B-CV
-58	[SEP]	O	O	O, I-EV, B-LC, B-CV, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	검정	B-TM	B-TM
+2	점퍼	B-CV	B-CV
+3	##에	O	O
+4	줄무늬	B-CV	B-TM
+5	티셔츠	I-CV	B-CV
+6	차림	O	O
+7	##으로	O	O
+8	인근	O	O
+9	금은	O	O
+10	##방	O	O
+11	##에	O	O
+12	##서	O	O
+13	목걸이	O	O
+14	##를	O	O
+15	훔친	O	O
+16	A	O	O
+17	군	O	O
+18	(	O	O
+19	17	B-QT	B-QT
+20	)	O	O
+21	의	O	O
+22	사진	O	O
+23	##과	O	O
+24	같	O	O
+25	##은	O	O
+26	모습	O	O
+27	##이	O	O
+28	##었	O	O
+29	##다	O	O
+30	.	O	O
+31	[SEP]	O	O

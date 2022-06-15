@@ -1,32 +1,24 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	강남	B-LC	B-LC	B-LC, O, B-AF, B-OG, B-PS
-2	~	O	O	O, I-LC, B-LC, I-AF, I-DT
-3	잠실	B-LC	B-LC	B-LC, O, I-LC, B-AF, B-PS
-4	가로수길	B-AF	B-LC	B-LC, I-LC, O, B-AF, I-AF
-5	'	O	O	O, I-LC, B-LC, I-AF, B-PS
-6	모던	B-AF	B-OG	B-OG, B-AF, O, B-CV, B-PS
-7	##밥	I-AF	I-OG	I-OG, O, I-AF, I-LC, I-CV
-8	##상	I-AF	I-OG	I-OG, O, I-AF, I-LC, I-CV
-9	'	O	O	O, I-OG, B-PS, I-AF, B-CV
-10	은	O	O	O, B-PS, B-CV, B-LC, B-OG
-11	소박	O	O	O, B-CV, B-PS, B-LC, B-TM
-12	##하고	O	O	O, B-PS, B-CV, B-LC, B-OG
-13	깔끔	O	O	O, B-CV, B-PS, B-LC, B-TM
-14	##한	O	O	O, B-PS, B-LC, B-CV, B-OG
-15	한정	O	O	O, B-CV, I-CV, B-OG, B-TM
-16	##식	O	O	O, I-CV, B-CV, I-OG, I-TM
-17	##집	O	O	O, I-CV, I-OG, B-CV, I-TM
-18	##으로	O	O	O, B-PS, I-CV, B-CV, B-LC
-19	모	O	O	O, B-PS, B-CV, B-LC, I-PS
-20	가수	B-CV	B-CV	B-CV, O, I-CV, B-PS, I-PS
-21	##의	O	O	O, B-PS, I-CV, I-PS, B-CV
-22	어머니	B-CV	B-CV	B-CV, O, I-CV, B-PS, B-OG
-23	##가	O	O	O, B-PS, I-CV, B-CV, I-PS
-24	운영	O	O	O, B-CV, B-PS, B-LC, I-CV
-25	##한다	O	O	O, B-PS, B-CV, B-LC, I-CV
-26	##고	O	O	O, B-PS, B-CV, B-LC, I-PS
-27	알려졌	O	O	O, B-CV, B-PS, B-LC, B-OG
-28	##다	O	O	O, B-CV, B-PS, I-CV, B-LC
-29	.	O	O	O, B-PS, B-LC, B-CV, B-OG
-30	[SEP]	O	O	O, B-PS, B-CV, B-LC, I-CV
+	text	label	preds
+0	[CLS]	O	O
+1	[	O	O
+2	대구	B-LC	B-LC
+3	·	O	O
+4	경북	B-LC	B-LC
+5	]	O	O
+6	경북	B-LC	B-LC
+7	3	B-QT	B-QT
+8	##대	I-QT	I-QT
+9	문화	O	O
+10	##권	O	O
+11	그림	O	O
+12	##으로	O	O
+13	오정	B-PS	B-PS
+14	##희	I-PS	I-PS
+15	##의	O	O
+16	'	O	O
+17	트라이	B-AF	O
+18	##앵	I-AF	O
+19	##글	I-AF	O
+20	로드	I-AF	O
+21	'	O	O
+22	[SEP]	O	O

@@ -1,13 +1,24 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-QT
-1	맞	O	O	O, B-CV, B-QT, B-EV, B-TM
-2	##상	O	O	O, I-QT, I-CV, I-EV, I-OG
-3	##대	O	O	O, I-QT, I-CV, I-OG, I-EV
-4	케	B-PS	B-PS	B-PS, O, B-AF, B-CV, B-AM
-5	##르	I-PS	I-PS	I-PS, O, I-AF, I-CV, I-LC
-6	##버	I-PS	I-PS	I-PS, O, I-AF, I-CV, I-LC
-7	한수	O	B-QT	B-QT, O, I-QT, I-PS, B-DT
-8	아래	B-TM	O	O, B-TM, B-QT, I-QT, I-TM
-9	평가	O	O	O, I-QT, I-TM, B-CV, I-OG
-10	##돼	O	O	O, I-OG, I-QT, B-CV, I-AF
-11	[SEP]	O	O	O, B-CV, B-QT, I-QT, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	14	B-DT	B-DT
+2	##일	I-DT	I-DT
+3	점심	B-TI	B-TI
+4	##시간	I-TI	I-TI
+5	##을	O	O
+6	10	B-TI	B-TI
+7	##여	I-TI	I-TI
+8	분	I-TI	I-TI
+9	남기	O	O
+10	##고	O	O
+11	도착	O	O
+12	##한	O	O
+13	서울시	B-AF	B-AF
+14	##립	I-AF	I-AF
+15	##미술	I-AF	I-AF
+16	##관	I-AF	I-AF
+17	로비	O	O
+18	황금	O	O
+19	소파	O	O
+20	앞	O	B-TM
+21	.	O	O
+22	[SEP]	O	O

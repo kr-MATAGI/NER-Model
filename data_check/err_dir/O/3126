@@ -1,22 +1,28 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	지난해	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-QT
-2	신인	B-CV	B-EV	B-EV, B-CV, O, I-EV, B-OG
-3	드래프트	O	I-EV	I-EV, O, I-CV, B-EV, I-OG
-4	##에서	O	O	O, I-EV, I-OG, I-CV, I-AF
-5	##는	O	O	O, B-CV, B-OG, B-PS, B-TM
-6	이대	B-PS	B-PS	B-PS, O, I-PS, B-OG, B-LC
-7	##성	I-PS	I-PS	I-PS, O, I-OG, I-LC, B-PS
-8	##을	O	O	O, I-PS, B-CV, I-OG, I-AF
-9	11	B-QT	B-QT	B-QT, O, I-QT, B-CV, B-TM
-10	##순위	I-QT	I-QT	I-QT, O, I-EV, I-TM, I-CV
-11	##로	O	O	O, I-QT, I-OG, I-CV, I-EV
-12	지명	O	O	O, B-CV, B-TM, B-OG, B-QT
-13	##해	O	O	O, B-PS, B-LC, B-CV, I-CV
-14	재	O	O	O, B-CV, B-PS, B-LC, B-TM
-15	##목	O	O	O, I-PS, I-CV, B-PS, I-LC
-16	##으로	O	O	O, B-PS, B-CV, I-CV, I-OG
-17	키웠	O	O	O, B-CV, B-LC, B-PS, B-OG
-18	##다	O	O	O, B-CV, I-OG, I-CV, B-TM
-19	.	O	O	O, B-CV, B-PS, B-LC, B-OG
-20	[SEP]	O	O	O, B-CV, B-PS, B-LC, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	중국	B-LC	B-LC
+2	경제	O	O
+3	##사	O	O
+4	##절	O	O
+5	##단	O	O
+6	##은	O	O
+7	13	B-DT	B-DT
+8	##일	I-DT	I-DT
+9	오후	B-TI	B-TI
+10	양국	O	O
+11	기업	O	O
+12	##들이	O	O
+13	참석	O	O
+14	##하	O	O
+15	##는	O	O
+16	한중	O	B-EV
+17	##비	O	I-EV
+18	##즈	O	I-EV
+19	##니스	O	I-EV
+20	##포	O	I-EV
+21	##럼	O	I-EV
+22	##에	O	O
+23	참석	O	O
+24	##한다	O	O
+25	.	O	O
+26	[SEP]	O	O

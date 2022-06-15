@@ -1,18 +1,51 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	모두	O	O	O, B-CV, B-QT, B-PS, B-TM
-2	과학	B-FD	B-FD	B-FD, O, I-FD, B-CV, B-OG
-3	및	O	I-FD	I-FD, O, B-FD, I-OG, I-AF
-4	공학	B-FD	I-FD	I-FD, B-FD, O, I-OG, I-AF
-5	박사	B-CV	B-CV	B-CV, O, I-CV, I-FD, B-FD
-6	##인	O	O	O, I-CV, B-CV, B-PS, I-QT
-7	동시	O	O	O, B-CV, B-PS, B-QT, B-TM
-8	##에	O	O	O, B-PS, I-CV, B-CV, I-QT
-9	트리	B-TR	B-TR	B-TR, B-FD, O, I-TR, B-PS
-10	##즈	I-TR	I-TR	I-TR, I-FD, O, B-TR, I-QT
-11	최고	O	O	O, B-CV, I-TR, I-CV, B-QT
-12	##수	O	O	O, I-CV, B-CV, I-QT, B-QT
-13	##들이	O	O	O, I-CV, I-QT, B-CV, B-QT
-14	##다	O	O	O, B-CV, B-TM, I-CV, B-QT
-15	.	O	O	O, B-CV, B-PS, B-FD, I-CV
-16	[SEP]	O	O	O, B-CV, B-PS, I-CV, B-FD
+	text	label	preds
+0	[CLS]	O	O
+1	이	B-PS	B-PS
+2	원장	B-CV	B-CV
+3	##은	O	O
+4	대통령	B-CV	B-CV
+5	소속	O	O
+6	국가	B-OG	B-OG
+7	##생명	I-OG	I-OG
+8	##윤	I-OG	I-OG
+9	##리	I-OG	I-OG
+10	##심	I-OG	I-OG
+11	##의	I-OG	I-OG
+12	##위원회	I-OG	I-OG
+13	특별	B-CV	B-CV
+14	##위원	I-CV	I-CV
+15	##장	I-CV	I-CV
+16	##을	O	O
+17	맡	O	O
+18	##아	O	O
+19	수십	O	O
+20	차례	O	O
+21	회의	O	O
+22	##와	O	O
+23	공청회	B-EV	B-EV
+24	##를	O	O
+25	열	O	O
+26	##며	O	O
+27	웰	B-CV	B-CV
+28	##다	I-CV	I-CV
+29	##잉	I-CV	I-CV
+30	##법	I-CV	I-CV
+31	##의	O	O
+32	원형	O	O
+33	##이	O	O
+34	된	O	O
+35	권고	O	O
+36	##안	O	O
+37	##을	O	O
+38	‘	O	O
+39	한	O	B-QT
+40	땀	O	I-QT
+41	한	O	B-QT
+42	땀	O	I-QT
+43	’	O	O
+44	구성	O	O
+45	##해	O	O
+46	나갔	O	O
+47	##다	O	O
+48	.	O	O
+49	[SEP]	O	O

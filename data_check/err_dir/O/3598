@@ -1,20 +1,24 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	""""	O	O	O, B-CV, B-LC, B-TM, B-OG
-2	공	O	B-CV	B-CV, O, B-AF, B-PS, B-AM
-3	##에	O	O	O, I-CV, I-AF, I-OG, I-EV
-4	살짝	O	O	O, B-QT, B-TM, B-LC, B-CV
-5	선	O	O	O, B-TM, B-QT, B-LC, B-CV
-6	그어	O	O	O, I-TM, I-QT, I-CV, I-LC
-7	##놓	O	O	O, I-QT, B-PS, B-CV, B-LC
-8	##으	O	O	O, B-CV, B-PS, B-LC, B-OG
-9	##세요	O	O	O, B-CV, B-LC, B-PS, B-TM
-10	…	O	O	O, B-PS, B-LC, B-CV, B-OG
-11	퍼팅	B-TM	B-TM	B-TM, O, I-TM, B-CV, B-AF
-12	##할	O	O	O, I-TM, I-AF, I-CV, I-OG
-13	때	O	O	O, B-CV, B-TM, B-OG, B-PS
-14	도움	O	O	O, B-TM, B-CV, B-LC, B-QT
-15	##됩	O	O	O, B-CV, B-PS, I-CV, B-LC
-16	##니다	O	O	O, B-CV, I-AF, I-OG, I-CV
-17	""""	O	O	O, B-CV, B-LC, B-TM, B-OG
-18	[SEP]	O	O	O, B-CV, B-LC, B-TM, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	서민	O	B-CV
+2	##전	O	O
+3	##용	O	O
+4	대출	O	O
+5	##상	O	O
+6	##품	O	O
+7	##인	O	O
+8	‘	O	O
+9	햇살	B-AF	B-AF
+10	##론	I-AF	I-AF
+11	’	O	O
+12	의	O	O
+13	대출	O	O
+14	자격	O	O
+15	##이	O	O
+16	강화	O	O
+17	##될	O	O
+18	것	O	O
+19	##으로	O	O
+20	보인다	O	O
+21	.	O	O
+22	[SEP]	O	O

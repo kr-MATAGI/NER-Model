@@ -1,8 +1,19 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	그	O	O	O, B-CV, B-OG, B-TM, I-CV
-2	~	O	O	O, B-CV, B-PS, B-LC, I-CV
-3	정재	B-PS	B-PS	B-PS, O, B-CV, B-OG, B-AF
-4	##님	O	I-PS	I-PS, O, I-CV, I-OG, I-AF
-5	##하고	O	O	O, I-PS, I-CV, I-OG, I-AF
-6	[SEP]	O	O	O, B-CV, B-LC, I-CV, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	영화	O	O
+2	##나	O	O
+3	드라마	O	O
+4	속	O	O
+5	악역	O	B-CV
+6	##인	O	O
+7	이	O	O
+8	##들의	O	O
+9	공통점	O	O
+10	##은	O	O
+11	‘	O	O
+12	사이코	O	O
+13	##패스	O	O
+14	’	O	O
+15	다	O	O
+16	.	O	O
+17	[SEP]	O	O

@@ -1,10 +1,48 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-QT
-1	‘	O	O	O, B-CV, B-LC, B-PS, B-OG
-2	세자	B-CV	B-CV	B-CV, O, B-PS, B-AF, B-OG
-3	’	O	O	O, I-CV, B-CV, I-PS, I-OG
-4	후보	B-CV	O	O, B-CV, B-OG, B-PS, B-AF
-5	##군	O	O	O, I-CV, I-OG, I-PS, B-PS
-6	안	O	O	O, I-CV, I-OG, B-CV, B-TM
-7	보여	O	O	O, I-OG, B-TM, I-TM, I-CV
-8	[SEP]	O	O	O, B-CV, B-PS, B-LC, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	이	B-PS	B-PS
+2	##씨	O	O
+3	##는	O	O
+4	지난	B-DT	B-DT
+5	3	I-DT	I-DT
+6	##월	I-DT	I-DT
+7	충남	B-LC	B-LC
+8	##과	O	O
+9	서울	B-LC	B-LC
+10	##의	O	O
+11	종합	O	O
+12	##병원	O	O
+13	##에	O	O
+14	##서	O	O
+15	일당	O	O
+16	##을	O	O
+17	받	O	O
+18	##는	O	O
+19	당직	O	B-CV
+20	##의사	B-CV	I-CV
+21	##로	O	O
+22	근무	O	O
+23	##하	O	O
+24	##던	O	O
+25	중	O	O
+26	마약	O	O
+27	##류	O	O
+28	##로	O	O
+29	분류	O	O
+30	##된	O	O
+31	주사	O	O
+32	앰	B-TM	B-TM
+33	##풀	I-TM	I-TM
+34	9	B-QT	B-QT
+35	##병	I-QT	I-QT
+36	##을	O	O
+37	몰래	O	O
+38	빼돌린	O	O
+39	혐의	O	O
+40	##를	O	O
+41	받	O	O
+42	##고	O	O
+43	있	O	O
+44	##다	O	O
+45	.	O	O
+46	[SEP]	O	O

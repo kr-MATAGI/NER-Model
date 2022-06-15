@@ -1,33 +1,105 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-EV, I-CV
-1	60	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-EV
-2	##여대	I-QT	I-QT	I-QT, O, I-EV, I-DT, I-LC
-3	##의	O	O	O, I-QT, I-AF, I-OG, I-EV
-4	레저	B-CV	O	O, B-AF, B-CV, B-TM, B-MT
-5	##카	I-CV	O	O, I-AF, I-CV, I-TM, B-AF
-6	##누	I-CV	O	O, I-AF, I-CV, I-TM, I-LC
-7	##를	O	O	O, I-AF, I-CV, I-OG, I-TM
-8	추가	O	O	O, B-LC, B-OG, B-CV, B-AF
-9	구입	O	O	O, B-LC, B-CV, B-OG, B-AF
-10	##하고	O	O	O, B-LC, B-PS, I-AF, B-OG
-11	,	O	O	O, B-CV, B-LC, B-OG, B-AF
-12	관광객	B-CV	B-CV	B-CV, O, B-TM, B-PS, B-QT
-13	##의	O	O	O, I-CV, I-EV, I-OG, I-AF
-14	단합	O	O	O, B-CV, B-LC, B-AF, B-TM
-15	##을	O	O	O, B-PS, B-LC, B-CV, B-OG
-16	위한	O	O	O, B-LC, B-PS, B-OG, B-TM
-17	10	B-QT	B-QT	B-QT, O, I-QT, B-EV, B-OG
-18	##여대	I-QT	I-QT	I-QT, O, I-LC, I-EV, I-PS
-19	##의	O	O	O, I-QT, B-AF, I-AF, I-OG
-20	드레	B-CV	B-AF	B-AF, B-OG, O, B-CV, I-AF
-21	##곤	I-CV	I-AF	I-AF, O, I-OG, I-CV, I-TM
-22	보트	I-CV	I-AF	I-AF, B-AF, O, I-OG, I-CV
-23	(	O	O	O, I-AF, I-OG, I-CV, I-EV
-24	용선	B-CV	O	O, B-AF, B-LC, B-CV, B-TM
-25	)	O	O	O, I-AF, I-OG, B-CV, I-CV
-26	도	O	O	O, B-AF, B-LC, B-OG, B-CV
-27	증	O	O	O, B-AF, B-CV, B-TM, B-LC
-28	##선	O	O	O, I-AF, B-AF, I-LC, I-OG
-29	##한다	O	O	O, I-AF, I-OG, B-LC, B-PS
-30	.	O	O	O, B-LC, B-AF, I-AF, B-OG
-31	[SEP]	O	O	O, B-LC, B-AF, B-CV, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	한국	B-OG	B-OG
+2	##방송	I-OG	I-OG
+3	양대	O	O
+4	노조	O	O
+5	##와	O	O
+6	16	B-QT	B-QT
+7	##개	I-QT	I-QT
+8	직	O	O
+9	##능	O	O
+10	협회	O	O
+11	##는	O	O
+12	임시	O	O
+13	##이	O	O
+14	##사회	O	O
+15	##를	O	O
+16	이틀	B-DT	B-DT
+17	앞둔	O	O
+18	16	B-DT	B-DT
+19	##일	I-DT	I-DT
+20	오후	B-TI	B-TI
+21	서울	B-LC	B-LC
+22	여의도	B-LC	B-LC
+23	한국	B-AF	B-AF
+24	##방송	I-AF	I-AF
+25	신관	O	O
+26	앞	B-TM	B-TM
+27	##에	O	O
+28	##서	O	O
+29	공동	O	O
+30	##기	O	O
+31	##자	O	O
+32	##회	O	O
+33	##견	O	O
+34	##을	O	O
+35	열	O	O
+36	##어	O	O
+37	“	O	O
+38	이사회	O	O
+39	##는	O	O
+40	법	O	O
+41	개정	O	O
+42	이전	O	O
+43	##에	O	O
+44	시민	B-CV	B-CV
+45	·	O	O
+46	언론	O	O
+47	##단체	O	O
+48	등	O	O
+49	##을	O	O
+50	포함	O	O
+51	##한	O	O
+52	국민대	O	O
+53	##표	O	O
+54	##들이	O	O
+55	참여	O	O
+56	##하	O	O
+57	##는	O	O
+58	사장	B-CV	B-OG
+59	##추	O	I-OG
+60	##천	O	I-OG
+61	##위원회	O	I-OG
+62	##를	O	O
+63	구성	O	O
+64	##하	O	O
+65	##고	O	O
+66	,	O	O
+67	이	O	O
+68	위원회	O	O
+69	##가	O	O
+70	추천	O	O
+71	##한	O	O
+72	사장	B-CV	B-CV
+73	후보	B-CV	B-CV
+74	##들	O	O
+75	##을	O	O
+76	‘	O	O
+77	특별	B-CV	B-CV
+78	##다수	I-CV	I-CV
+79	##제	I-CV	I-CV
+80	’	O	O
+81	(	O	O
+82	3	B-QT	B-QT
+83	##분	I-QT	I-QT
+84	##의	I-QT	I-QT
+85	##2	I-QT	I-QT
+86	이상	I-QT	I-QT
+87	찬성	O	O
+88	)	O	O
+89	로	O	O
+90	선출	O	O
+91	##할	O	O
+92	것	O	O
+93	##을	O	O
+94	합의	O	O
+95	##해	O	O
+96	##달라	O	O
+97	”	O	O
+98	고	O	O
+99	제안	O	O
+100	##했	O	O
+101	##다	O	O
+102	.	O	O
+103	[SEP]	O	O

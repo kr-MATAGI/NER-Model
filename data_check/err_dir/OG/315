@@ -1,29 +1,66 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-EV, I-OG, B-CV, I-QT
-1	이어	O	O	O, B-LC, B-DT, B-OG, B-QT
-2	28	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-LC
-3	##일	I-DT	I-DT	I-DT, O, B-DT, I-EV, I-QT
-4	미국	B-LC	B-LC	B-LC, O, B-OG, B-AF, I-DT
-5	뉴욕	B-LC	B-LC	B-LC, O, I-LC, B-AF, B-OG
-6	유엔	B-AF	B-AF	B-AF, I-AF, B-OG, B-LC, O
-7	##본부	I-AF	I-AF	I-AF, O, I-LC, I-OG, B-AF
-8	##에서	O	O	O, I-AF, I-EV, I-OG, I-LC
-9	열릴	O	O	O, B-EV, I-EV, B-PS, B-LC
-10	안보리	B-OG	B-EV	B-EV, B-OG, O, I-EV, B-CV
-11	각료	B-OG	I-EV	I-EV, O, B-EV, B-CV, I-OG
-12	##회의	I-OG	I-EV	I-EV, O, I-OG, I-CV, B-EV
-13	##를	O	O	O, I-EV, I-OG, I-AF, I-DT
-14	계기	O	O	O, B-EV, B-LC, I-EV, B-DT
-15	##로	O	O	O, B-EV, B-LC, I-EV, B-PS
-16	3	B-QT	B-EV	B-EV, B-QT, B-CV, I-EV, B-TM
-17	##국	I-QT	I-EV	I-EV, I-QT, I-OG, I-TM, I-CV
-18	외교	B-EV	I-EV	I-EV, B-EV, B-CV, O, I-QT
-19	##장	I-EV	I-EV	I-EV, I-CV, O, I-QT, I-OG
-20	##관	I-EV	I-EV	I-EV, I-CV, I-QT, O, I-OG
-21	회담	I-EV	I-EV	I-EV, O, I-OG, I-QT, I-CV
-22	##도	O	O	O, I-EV, I-OG, I-QT, I-AF
-23	열	O	O	O, B-OG, I-EV, B-EV, B-LC
-24	방침	O	O	O, B-CV, I-EV, B-OG, B-TM
-25	##이다	O	O	O, B-CV, I-EV, B-OG, B-TM
-26	.	O	O	O, B-LC, I-EV, B-EV, B-PS
-27	[SEP]	O	O	O, I-EV, B-LC, B-EV, B-CV
+	text	label	preds
+0	[CLS]	O	O
+1	인천시	B-OG	B-OG
+2	##는	O	O
+3	8	B-DT	B-DT
+4	##일	I-DT	I-DT
+5	도시	O	O
+6	##축	O	O
+7	##전	O	O
+8	예산	O	O
+9	사용	O	O
+10	내역	O	O
+11	##에	O	O
+12	불	O	O
+13	##투	O	O
+14	##명	O	O
+15	##한	O	O
+16	부분	O	O
+17	##이	O	O
+18	많	O	O
+19	##고	O	O
+20	,	O	O
+21	이	O	O
+22	##를	O	O
+23	시	B-OG	O
+24	차원	O	O
+25	감사	O	O
+26	##로	O	O
+27	##는	O	O
+28	정확히	O	O
+29	밝혀내	O	O
+30	##기	O	O
+31	어렵	O	O
+32	##다는	O	O
+33	판단	O	O
+34	##에	O	O
+35	##서	O	O
+36	감사원	B-OG	B-OG
+37	##이	O	O
+38	도시	O	O
+39	##축	O	O
+40	##전	O	O
+41	전반	O	O
+42	##에	O	O
+43	걸친	O	O
+44	의혹	O	O
+45	##을	O	O
+46	조사	O	O
+47	##해	O	O
+48	달라	O	O
+49	##는	O	O
+50	내용	O	O
+51	##의	O	O
+52	감사	O	O
+53	청구서	O	O
+54	##를	O	O
+55	송	B-PS	B-PS
+56	시장	B-CV	B-CV
+57	이름	O	O
+58	##으로	O	O
+59	냈	O	O
+60	##다고	O	O
+61	밝혔	O	O
+62	##다	O	O
+63	.	O	O
+64	[SEP]	O	O

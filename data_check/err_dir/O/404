@@ -1,37 +1,30 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	혜	O	B-PS	B-PS, O, B-OG, B-AF, I-PS
-2	##문	O	I-PS	I-PS, I-OG, O, I-AF, I-LC
-3	##은	O	O	O, I-PS, I-OG, I-AF, B-CV
-4	""""	O	O	O, B-CV, B-LC, B-TM, B-PS
-5	그림	O	O	O, B-CV, B-AF, B-PS, B-FD
-6	속	O	O	O, B-LC, B-PS, B-CV, B-TM
-7	홍	O	B-PS	B-PS, O, B-AF, B-LC, B-CV
-8	##련	O	I-PS	I-PS, O, I-LC, I-AF, I-OG
-9	##이	O	O	O, I-PS, B-PS, I-AF, I-LC
-10	표본	O	O	O, B-CV, B-PS, B-AF, B-LC
-11	주인	O	B-CV	B-CV, O, I-CV, B-PS, B-AM
-12	##이	O	O	O, B-PS, I-CV, I-PS, B-CV
-13	아니	O	O	O, B-PS, B-CV, B-LC, B-OG
-14	##더라	O	O	O, B-PS, I-PS, I-CV, B-LC
-15	##도	O	O	O, B-PS, B-LC, B-CV, B-OG
-16	일본인	B-CV	B-CV	B-CV, O, B-LC, B-OG, I-CV
-17	##에	O	O	O, I-CV, I-OG, I-AF, I-EV
-18	의해	O	O	O, B-LC, B-OG, B-PS, B-TM
-19	조선	O	B-LC	B-LC, O, B-DT, B-PS, B-AF
-20	여인	O	O	O, B-CV, I-LC, I-AF, I-PS
-21	##이	O	O	O, B-PS, B-CV, I-AF, B-LC
-22	표본	O	O	O, B-CV, B-FD, B-AF, B-LC
-23	##화	O	O	O, I-AF, I-CV, I-FD, I-OG
-24	##됐	O	O	O, B-PS, B-CV, B-LC, I-AF
-25	##다는	O	O	O, B-PS, B-CV, B-LC, B-OG
-26	사실	O	O	O, B-PS, B-CV, B-QT, B-OG
-27	##은	O	O	O, B-PS, B-CV, B-LC, B-OG
-28	변함없	O	O	O, B-CV, B-PS, B-LC, B-QT
-29	##다	O	O	O, B-PS, I-OG, B-CV, I-AF
-30	""""	O	O	O, B-CV, B-TM, B-OG, B-LC
-31	고	O	O	O, B-CV, I-OG, B-PS, B-OG
-32	했	O	O	O, B-CV, B-PS, B-OG, B-FD
-33	##다	O	O	O, B-CV, I-OG, B-PS, I-CV
-34	.	O	O	O, B-PS, B-CV, B-FD, B-LC
-35	[SEP]	O	O	O, B-CV, B-PS, B-FD, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	여름철	B-DT	B-DT
+2	날씨	O	O
+3	탓	O	O
+4	##에	O	O
+5	부진	O	O
+6	##했	O	O
+7	##던	O	O
+8	빙	O	B-CV
+9	##과	O	I-CV
+10	##류	O	I-CV
+11	매출	O	O
+12	##도	O	O
+13	3	B-DT	B-DT
+14	##분	I-DT	I-DT
+15	##기	I-DT	I-DT
+16	들어서	O	O
+17	##는	O	O
+18	지난해	B-DT	B-DT
+19	대비	O	O
+20	5	B-QT	B-QT
+21	.	I-QT	I-QT
+22	6	I-QT	I-QT
+23	%	I-QT	I-QT
+24	늘	O	O
+25	##었	O	O
+26	##다	O	O
+27	.	O	O
+28	[SEP]	O	O

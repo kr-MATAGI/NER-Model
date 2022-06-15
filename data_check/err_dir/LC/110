@@ -1,29 +1,68 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	정보	O	O	O, B-OG, B-LC, B-CV, B-PS
-2	당국	O	O	O, I-OG, B-OG, I-CV, B-CV
-3	##은	O	O	O, I-OG, B-PS, B-CV, B-LC
-4	박근혜	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
-5	대통령	B-CV	B-CV	B-CV, O, I-PS, B-OG, I-CV
-6	##이	O	O	O, I-CV, I-EV, B-PS, I-OG
-7	이날	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-LC
-8	미국	B-LC	B-LC	B-LC, B-OG, O, I-LC, I-DT
-9	##으로	O	O	O, I-LC, I-AF, B-LC, I-OG
-10	출국	O	O	O, B-LC, B-PS, B-CV, I-LC
-11	##한	O	O	O, B-LC, B-PS, I-LC, I-EV
-12	직후	O	O	O, I-DT, B-PS, B-LC, B-OG
-13	북한	B-LC	B-OG	B-OG, B-LC, O, B-PS, B-TM
-14	##이	O	O	O, I-OG, B-PS, I-LC, B-OG
-15	GPS	B-TM	B-TM	B-TM, O, B-TR, B-AF, B-LC
-16	교란	O	O	O, I-TM, I-EV, I-LC, I-CV
-17	##작전	O	O	O, B-LC, B-CV, I-EV, I-LC
-18	##에	O	O	O, B-CV, B-PS, B-LC, I-EV
-19	나선	O	O	O, B-CV, B-LC, B-OG, B-PS
-20	의도	O	O	O, B-CV, B-LC, B-TM, I-CV
-21	##를	O	O	O, B-CV, B-OG, B-PS, B-TM
-22	분석	O	O	O, B-CV, B-LC, B-TM, B-OG
-23	##하고	O	O	O, B-CV, B-TM, B-OG, B-LC
-24	있	O	O	O, B-CV, B-LC, B-OG, B-TM
-25	##다	O	O	O, B-CV, B-LC, I-OG, B-TM
-26	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-27	[SEP]	O	O	O, B-LC, B-CV, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	미국	B-LC	B-LC
+2	##의	O	O
+3	세기	O	O
+4	##가	O	O
+5	끝	O	O
+6	##났	O	O
+7	##다고	O	O
+8	했	O	O
+9	##을	O	O
+10	때	O	O
+11	콜	B-PS	B-PS
+12	##코	I-PS	I-PS
+13	##는	O	O
+14	<	O	O
+15	위	B-AF	B-OG
+16	##클리	I-AF	I-OG
+17	스탠더드	I-AF	I-OG
+18	>	O	O
+19	를	O	O
+20	운영	O	O
+21	##한	O	O
+22	네오	B-TR	O
+23	##콘	I-TR	O
+24	##의	O	O
+25	이론	B-CV	B-CV
+26	##가	I-CV	I-CV
+27	윌리엄	B-PS	B-PS
+28	크리스	I-PS	I-PS
+29	##톨	I-PS	I-PS
+30	##이나	I-PS	O
+31	로버트	I-PS	B-PS
+32	케이	I-PS	I-PS
+33	##건	I-PS	I-PS
+34	##이	O	O
+35	주도	O	O
+36	##한	O	O
+37	싱크탱크	O	O
+38	‘	O	O
+39	새로운	O	B-TM
+40	미국	B-LC	I-TM
+41	##의	O	I-TM
+42	세기	O	I-TM
+43	##를	O	I-TM
+44	위한	O	I-TM
+45	프로젝트	O	I-TM
+46	’	O	O
+47	(	O	O
+48	Pro	O	O
+49	##ject	O	O
+50	for	O	O
+51	the	O	O
+52	New	O	O
+53	American	O	O
+54	C	O	O
+55	##ent	O	O
+56	##ury	O	O
+57	)	O	O
+58	를	O	O
+59	염두	O	O
+60	##에	O	O
+61	두지	O	O
+62	않	O	O
+63	##았	O	O
+64	##을까	O	O
+65	.	O	O
+66	[SEP]	O	O

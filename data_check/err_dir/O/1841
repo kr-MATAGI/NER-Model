@@ -1,30 +1,49 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	""""	O	O	O, B-CV, B-LC, B-TM, B-OG
-2	지상	O	O	O, B-TM, B-LC, B-AF, B-CV
-3	1	B-QT	B-QT	B-QT, I-QT, O, B-DT, B-EV
-4	##층	I-QT	I-QT	I-QT, O, I-EV, I-AF, I-LC
-5	바닥	O	O	O, I-QT, B-TM, B-LC, I-EV
-6	##서	O	O	O, B-TM, B-CV, B-PS, B-LC
-7	용접	O	O	O, B-FD, B-TR, B-CV, B-TM
-8	##작	O	O	O, I-CV, I-OG, I-EV, I-FD
-9	##업	O	O	O, I-OG, I-CV, I-EV, I-AF
-10	지하	O	O	O, B-TM, B-LC, B-CV, B-AF
-11	천장	O	O	O, B-TM, B-CV, B-LC, B-AF
-12	우레	O	B-MT	B-MT, O, I-MT, B-CV, B-TM
-13	##탄	O	I-MT	I-MT, O, B-MT, I-TM, I-PT
-14	과열	O	O	O, B-TM, I-MT, B-CV, B-LC
-15	##돼	O	O	O, B-CV, B-LC, B-TM, B-OG
-16	불	O	O	O, B-TM, B-CV, B-MT, B-AF
-17	""""	O	O	O, I-CV, B-CV, I-TM, I-AF
-18	인화	O	O	O, B-CV, B-TM, B-MT, B-FD
-19	##물	O	O	O, I-CV, I-TM, I-AF, I-LC
-20	##질	O	O	O, I-CV, B-CV, B-LC, I-AF
-21	확인	O	O	O, B-CV, B-LC, B-TM, B-OG
-22	안전	O	O	O, B-CV, B-TM, B-LC, I-CV
-23	##수	O	O	O, B-CV, I-CV, B-LC, I-LC
-24	##칙	O	O	O, I-CV, B-CV, B-LC, I-LC
-25	안	O	O	O, B-CV, B-LC, B-TM, B-OG
-26	##지	O	O	O, B-CV, B-LC, I-CV, B-OG
-27	##켜	O	O	O, B-CV, B-LC, I-CV, B-OG
-28	[SEP]	O	O	O, B-CV, B-LC, B-TM, B-AF
+	text	label	preds
+0	[CLS]	O	O
+1	TV	B-TM	B-TM
+2	##에	O	O
+3	##선	O	O
+4	예상	O	O
+5	밖	O	O
+6	커플	B-CV	B-CV
+7	##의	O	O
+8	동거	O	O
+9	##와	O	O
+10	어머니	B-CV	B-CV
+11	##의	O	O
+12	소개팅	O	O
+13	,	O	O
+14	남자	O	O
+15	##끼리	O	O
+16	떠나	O	O
+17	##는	O	O
+18	여행	O	O
+19	##처럼	O	O
+20	‘	O	O
+21	로맨스	O	B-FD
+22	’	O	O
+23	를	O	O
+24	바탕	O	O
+25	##으로	O	O
+26	이색	O	O
+27	##적	O	O
+28	##인	O	O
+29	시도	O	O
+30	##를	O	O
+31	한	O	O
+32	파일럿	B-CV	O
+33	(	O	O
+34	시험	O	O
+35	)	O	O
+36	예능	O	O
+37	프로그램	O	O
+38	##들이	O	O
+39	시청자	B-CV	B-CV
+40	##의	O	O
+41	선택	O	O
+42	##을	O	O
+43	받	O	O
+44	##았	O	O
+45	##다	O	O
+46	.	O	O
+47	[SEP]	O	O

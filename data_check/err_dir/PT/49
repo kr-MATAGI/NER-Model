@@ -1,33 +1,56 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-AF, I-CV
-1	금산	B-OG	B-OG	B-OG, B-LC, B-PS, O, I-OG
-2	##군	I-OG	I-OG	I-OG, I-LC, O, I-PS, B-OG
-3	##이	O	O	O, I-OG, B-PS, B-OG, B-AF
-4	금산	B-LC	B-LC	B-LC, B-OG, O, B-AF, B-PS
-5	##읍	I-LC	I-LC	I-LC, O, I-AF, I-OG, B-LC
-6	중도	B-LC	B-LC	B-LC, I-LC, O, B-AF, B-OG
-7	##리	I-LC	I-LC	I-LC, O, I-AF, I-PS, B-LC
-8	다락	B-LC	B-LC	B-LC, O, B-AF, I-LC, B-OG
-9	##원	I-LC	I-LC	I-LC, O, I-AF, B-LC, I-PS
-10	##광장	I-LC	I-LC	I-LC, O, I-AF, B-LC, I-PS
-11	##에	O	O	O, I-LC, I-AF, B-AF, B-LC
-12	2	B-QT	B-QT	B-QT, O, I-QT, B-LC, B-DT
-13	##억	I-QT	I-QT	I-QT, I-LC, O, B-QT, I-PS
-14	##여	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-15	##원	I-QT	I-QT	I-QT, O, I-LC, I-PS, I-AF
-16	##을	O	O	O, I-QT, B-CV, B-OG, I-AF
-17	들여	O	O	O, B-AF, B-CV, B-QT, B-LC
-18	세운	O	O	O, B-AF, B-CV, I-AF, B-LC
-19	인삼	B-PT	O	O, B-CV, B-AF, B-PT, B-EV
-20	##조	O	O	O, I-AF, I-CV, I-EV, I-PT
-21	##형	O	O	O, I-AF, I-CV, I-EV, I-LC
-22	##물	O	O	O, I-AF, I-CV, I-EV, I-LC
-23	##은	O	O	O, I-AF, I-EV, I-CV, I-OG
-24	높이	O	O	O, B-QT, B-TM, B-CV, I-AF
-25	##가	O	O	O, B-PS, I-AF, I-QT, B-OG
-26	15	B-QT	B-QT	B-QT, I-QT, O, B-LC, B-PS
-27	##m	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-28	##에	O	O	O, I-QT, I-OG, I-AF, B-CV
-29	이른다	O	O	O, B-LC, I-QT, B-QT, B-OG
-30	.	O	O	O, B-LC, B-AF, I-AF, B-OG
-31	[SEP]	O	O	O, B-LC, I-AF, B-AF, B-CV
+	text	label	preds
+0	[CLS]	O	O
+1	그래서	O	O
+2	벼	B-PT	B-CV
+3	##랄	O	O
+4	##지	O	O
+5	아니	O	O
+6	##면	O	O
+7	쌀	B-CV	B-CV
+8	##이	O	O
+9	##랄	O	O
+10	##지	O	O
+11	그	O	O
+12	위	O	O
+13	##에	O	O
+14	이제	O	O
+15	젓갈	B-CV	B-CV
+16	##류	I-CV	O
+17	##랄	O	O
+18	##지	O	O
+19	뭐	O	O
+20	생선	B-CV	B-CV
+21	##류	I-CV	O
+22	##들	O	O
+23	이런	O	O
+24	걸	O	O
+25	싣	O	O
+26	##고	O	O
+27	올라가	O	O
+28	##던	O	O
+29	배	B-AF	B-AF
+30	##들이	O	O
+31	##기	O	O
+32	때문	O	O
+33	##에	O	O
+34	고려	B-DT	B-DT
+35	##시대	I-DT	I-DT
+36	어떤	O	O
+37	실생활	O	O
+38	이런	O	O
+39	것	O	O
+40	##을	O	O
+41	알	O	O
+42	수	O	O
+43	있	O	O
+44	##는	O	O
+45	중요	O	O
+46	##한	O	O
+47	자료	O	O
+48	##들이	O	O
+49	많이	O	O
+50	남아	O	O
+51	있	O	O
+52	##어	O	O
+53	##서	O	O
+54	[SEP]	O	O

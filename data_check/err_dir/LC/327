@@ -1,30 +1,49 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	오바마	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-2	##는	O	O	O, I-PS, B-CV, I-OG, I-AF
-3	출생	O	O	O, B-CV, B-TM, B-AF, B-FD
-4	##증	O	O	O, I-AF, I-CV, I-TM, B-CV
-5	##명	O	O	O, I-AF, I-CV, I-TM, I-LC
-6	##서	O	O	O, I-AF, I-CV, B-CV, B-PS
-7	##에	O	O	O, B-CV, B-PS, B-OG, I-AF
-8	의해	O	O	O, B-OG, B-LC, B-PS, B-TM
-9	'	O	O	O, B-LC, B-CV, B-PS, B-OG
-10	1961	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-11	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-12	8	I-DT	I-DT	I-DT, B-DT, O, I-QT, I-PS
-13	##월	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-14	4	I-DT	I-DT	I-DT, B-DT, O, I-QT, I-PS
-15	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-OG
-16	하와이	B-LC	B-CV	B-CV, B-LC, O, B-QT, I-DT
-17	##생	O	I-CV	I-CV, O, I-LC, I-QT, I-DT
-18	(	O	O	O, I-CV, I-QT, I-DT, I-EV
-19	生	O	O	O, B-PS, B-LC, B-QT, B-CV
-20	)	O	O	O, B-CV, B-PS, B-LC, I-CV
-21	'	O	O	O, B-CV, B-OG, B-LC, B-PS
-22	임	O	O	O, B-PS, B-CV, B-OG, B-LC
-23	##이	O	O	O, B-PS, B-CV, B-OG, B-LC
-24	입증	O	O	O, B-CV, B-TM, B-OG, B-LC
-25	##됐	O	O	O, B-CV, I-OG, B-PS, I-CV
-26	##다	O	O	O, B-CV, B-LC, I-OG, B-OG
-27	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-28	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	인천	B-LC	B-LC
+2	11	B-QT	B-QT
+3	##세	I-QT	I-QT
+4	여아	O	O
+5	학대	O	O
+6	,	O	O
+7	부천	B-LC	B-LC
+8	초등	B-CV	B-CV
+9	##생	I-CV	I-CV
+10	시신	O	O
+11	훼손	O	O
+12	살해	O	B-CV
+13	,	O	O
+14	그리고	O	O
+15	부천	B-LC	B-EV
+16	여중생	B-CV	I-EV
+17	백	O	I-EV
+18	##골	O	I-EV
+19	시신	O	I-EV
+20	사건	O	I-EV
+21	##은	O	O
+22	학생	B-CV	B-CV
+23	##의	O	O
+24	안전	O	O
+25	##을	O	O
+26	최	O	O
+27	##일	O	O
+28	##선	O	O
+29	##에	O	O
+30	##서	O	O
+31	책임	O	O
+32	##져야	O	O
+33	할	O	O
+34	교육	O	O
+35	시스템	O	O
+36	##이	O	O
+37	망가진	O	O
+38	현실	O	O
+39	##을	O	O
+40	적나라	O	O
+41	##하	O	O
+42	##게	O	O
+43	보여	O	O
+44	##줬	O	O
+45	##다	O	O
+46	.	O	O
+47	[SEP]	O	O

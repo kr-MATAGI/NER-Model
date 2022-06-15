@@ -1,20 +1,64 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	네	O	O	O, B-LC, B-CV, B-TM, B-OG
-2	저	O	O	O, B-CV, B-OG, B-PS, B-AF
-3	##는	O	O	O, B-CV, I-AF, B-LC, B-OG
-4	지금	O	O	O, B-CV, B-OG, B-TM, B-QT
-5	이화	B-AF	B-OG	B-OG, B-AF, B-LC, B-EV, B-PS
-6	##여	I-AF	I-OG	I-OG, I-AF, I-LC, I-EV, I-PS
-7	##자	I-AF	I-OG	I-OG, I-AF, I-LC, I-EV, I-PS
-8	##고	I-AF	I-OG	I-OG, I-AF, I-LC, I-EV, I-PS
-9	##등	I-AF	I-OG	I-OG, I-AF, I-LC, I-EV, I-PS
-10	##학교	I-AF	I-OG	I-OG, I-AF, I-LC, I-EV, I-PS
-11	앞	B-TM	B-TM	B-TM, O, I-TM, I-AF, B-CV
-12	##에	O	O	O, I-TM, I-AF, I-OG, B-CV
-13	나와	O	O	O, B-CV, B-TM, B-LC, B-OG
-14	##있	O	O	O, B-CV, I-AF, I-OG, I-CV
-15	##습	O	O	O, B-CV, B-LC, B-OG, I-AF
-16	##니다	O	O	O, B-CV, B-LC, B-OG, B-TM
-17	.	O	O	O, B-CV, B-LC, B-OG, B-PS
-18	[SEP]	O	O	O, B-CV, B-LC, I-AF, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	현지	O	O
+2	여론	O	O
+3	##조사	O	O
+4	기관	O	O
+5	‘	O	O
+6	프	O	B-OG
+7	##치	O	I-OG
+8	##옴	O	I-OG
+9	’	O	O
+10	의	O	O
+11	발레	B-PS	B-PS
+12	##리	I-PS	I-PS
+13	표	O	I-PS
+14	##도로	O	I-PS
+15	##프	O	I-PS
+16	대표	B-CV	B-CV
+17	##는	O	O
+18	러시아	B-LC	B-LC
+19	통신	O	O
+20	<	O	O
+21	리아	B-AF	B-OG
+22	노보	I-AF	I-OG
+23	##스티	I-AF	I-OG
+24	>	O	O
+25	인터뷰	O	O
+26	##에	O	O
+27	##서	O	O
+28	“	O	O
+29	젊	O	O
+30	##고	O	O
+31	활력	O	O
+32	##이	O	O
+33	넘치	O	O
+34	##는	O	O
+35	프로	B-PS	B-PS
+36	##호	I-PS	I-PS
+37	##로프	I-PS	I-PS
+38	##가	O	O
+39	새로운	O	O
+40	인물	O	O
+41	##과	O	O
+42	변화	O	O
+43	##에	O	O
+44	대한	O	O
+45	요구	O	O
+46	##가	O	O
+47	높	O	O
+48	##아	O	O
+49	##진	O	O
+50	이	O	O
+51	시점	O	O
+52	##에	O	O
+53	잘	O	O
+54	부합	O	O
+55	##한다	O	O
+56	”	O	O
+57	고	O	O
+58	말	O	O
+59	##했	O	O
+60	##다	O	O
+61	.	O	O
+62	[SEP]	O	O

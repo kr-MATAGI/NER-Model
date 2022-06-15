@@ -1,12 +1,44 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-AF
-1	한	B-TI	B-TI	B-TI, O, B-EV, B-QT, I-TI
-2	시	I-TI	I-TI	I-TI, O, B-TI, I-QT, I-EV
-3	시간	O	I-TI	I-TI, O, B-TI, I-QT, I-TR
-4	맞춰	O	O	O, I-TI, I-QT, B-TI, I-EV
-5	갖	O	O	O, B-CV, I-OG, B-LC, B-OG
-6	##고	O	O	O, B-CV, B-LC, B-PS, B-OG
-7	가야	O	O	O, B-CV, B-OG, B-TM, B-LC
-8	되	O	O	O, B-CV, B-OG, I-OG, I-AF
-9	##니까	O	O	O, B-CV, I-OG, I-AF, B-OG
-10	[SEP]	O	O	O, B-CV, B-LC, B-OG, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	이어	O	O
+2	“	O	O
+3	중소기업	O	O
+4	·	O	O
+5	소상	O	B-CV
+6	##공	O	I-CV
+7	##인	O	I-CV
+8	정책	O	O
+9	##의	O	O
+10	효율	O	O
+11	##성	O	O
+12	제고	O	O
+13	##를	O	O
+14	위해	O	O
+15	중견	O	O
+16	##기업	O	O
+17	정책	O	O
+18	##을	O	O
+19	산업	B-OG	B-OG
+20	##통	I-OG	I-OG
+21	##상	I-OG	I-OG
+22	##자원	I-OG	I-OG
+23	##부	I-OG	I-OG
+24	##로	O	O
+25	이관	O	O
+26	##하	O	O
+27	##고	O	O
+28	중소기업청	B-OG	B-OG
+29	##을	O	O
+30	중소기업	B-OG	B-OG
+31	##부	I-OG	I-OG
+32	##로	O	O
+33	승격	O	O
+34	##해야	O	O
+35	한다	O	O
+36	”	O	O
+37	고	O	O
+38	요구	O	O
+39	##했	O	O
+40	##다	O	O
+41	.	O	O
+42	[SEP]	O	O

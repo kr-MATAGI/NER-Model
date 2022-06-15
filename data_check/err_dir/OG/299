@@ -1,29 +1,19 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	한일	B-LC	B-LC	B-LC, B-OG, O, B-PS, B-EV
-2	갈등	O	O	O, I-OG, I-LC, B-CV, I-EV
-3	##의	O	O	O, B-PS, B-CV, B-LC, B-OG
-4	원	O	O	O, B-CV, B-TM, B-LC, B-AF
-5	##흉	O	O	O, I-CV, B-CV, I-LC, I-TM
-6	##으로	O	O	O, B-CV, B-PS, I-CV, B-LC
-7	‘	O	O	O, B-LC, B-CV, B-OG, B-DT
-8	고노	B-EV	B-EV	B-EV, O, B-AF, B-PS, B-LC
-9	담화	I-EV	I-EV	I-EV, O, I-AF, I-DT, I-PS
-10	’	O	O	O, I-EV, I-DT, I-OG, I-AF
-11	를	O	O	O, B-CV, B-OG, B-LC, B-PS
-12	지목	O	O	O, B-CV, B-LC, B-OG, B-TM
-13	##하	O	O	O, B-PS, B-LC, B-CV, B-OG
-14	##는	O	O	O, B-LC, B-PS, B-CV, B-OG
-15	일본	B-LC	B-LC	B-LC, B-OG, O, B-PS, B-CV
-16	우익	B-OG	O	O, B-OG, B-CV, I-OG, B-FD
-17	##들	O	O	O, I-OG, I-CV, I-AF, I-LC
-18	##의	O	O	O, B-CV, B-PS, B-LC, B-TM
-19	주장	O	O	O, B-CV, B-TM, B-OG, B-LC
-20	##과	O	O	O, B-CV, B-LC, B-TM, B-OG
-21	##도	O	O	O, B-LC, B-TM, B-CV, B-OG
-22	닿	O	O	O, B-LC, B-TM, B-OG, B-CV
-23	##아	O	O	O, B-LC, B-PS, I-LC, B-QT
-24	있	O	O	O, B-LC, B-CV, B-PS, I-OG
-25	##다	O	O	O, B-CV, B-LC, I-OG, B-TM
-26	.	O	O	O, B-LC, B-CV, B-OG, B-PS
-27	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	'	O	O
+2	잡	B-OG	B-TM
+3	##월드	I-OG	I-TM
+4	'	O	O
+5	가	O	O
+6	지난	B-DT	B-DT
+7	3	I-DT	I-DT
+8	##일	I-DT	I-DT
+9	개통	O	O
+10	##한	O	O
+11	지	O	O
+12	11	O	O
+13	##일	O	O
+14	만이	O	O
+15	##다	O	O
+16	.	O	O
+17	[SEP]	O	O

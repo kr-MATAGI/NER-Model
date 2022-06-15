@@ -1,46 +1,18 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	그럼	O	O	O, B-CV, B-LC, B-PS, B-TM
-2	오늘	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-CV
-3	##은	O	O	O, I-DT, I-QT, B-CV, B-PS
-4	덕수궁	B-LC	B-LC	B-LC, B-AF, O, B-OG, B-EV
-5	지하	O	O	O, I-LC, B-LC, I-AF, B-AF
-6	##도	O	O	O, I-LC, I-AF, B-LC, I-OG
-7	##에	O	O	O, I-LC, B-PS, B-LC, I-AF
-8	더	O	O	O, B-LC, B-PS, B-CV, B-OG
-9	있	O	O	O, B-LC, B-PS, B-CV, B-QT
-10	##다	O	O	O, B-LC, B-PS, I-LC, I-QT
-11	갈	O	O	O, B-PS, B-CV, B-LC, B-OG
-12	##게요	O	O	O, B-PS, B-CV, I-AF, I-OG
-13	.	O	O	O, B-CV, B-PS, B-LC, I-AF
-14	""""	O	O	O, B-CV, B-PS, B-TM, B-LC
-15	수녀	B-CV	B-CV	B-CV, O, B-OG, I-CV, B-AF
-16	##의	O	O	O, I-CV, B-PS, B-CV, I-OG
-17	말	O	O	O, B-TM, B-PS, B-CV, B-QT
-18	##에	O	O	O, B-PS, B-CV, B-LC, I-CV
-19	그제야	O	O	O, B-TM, B-LC, B-CV, B-PS
-20	환하	O	O	O, B-TM, B-LC, B-PS, B-CV
-21	##게	O	O	O, B-PS, B-LC, B-TM, B-OG
-22	웃	O	O	O, B-PS, B-TM, B-LC, B-CV
-23	##는	O	O	O, B-PS, B-CV, B-LC, B-TM
-24	노숙인	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-TM
-25	##에	O	O	O, I-CV, B-CV, B-PS, I-AF
-26	##게	O	O	O, B-CV, B-PS, B-LC, B-TM
-27	수녀	B-CV	B-CV	B-CV, O, B-OG, I-CV, B-FD
-28	##와	O	O	O, I-CV, B-CV, I-OG, B-PS
-29	함께	O	O	O, B-CV, B-PS, B-OG, B-LC
-30	온	O	O	O, B-PS, B-CV, B-OG, B-LC
-31	수사	O	B-CV	B-CV, O, B-OG, B-FD, I-CV
-32	(	O	O	O, I-CV, I-OG, B-CV, B-PS
-33	修	O	O	O, B-PS, B-CV, B-LC, B-OG
-34	士	O	O	O, B-PS, B-LC, B-CV, B-OG
-35	)	O	O	O, B-PS, B-CV, B-LC, B-OG
-36	가	O	O	O, B-PS, B-CV, B-LC, B-OG
-37	빵	B-CV	B-CV	B-CV, O, B-PT, B-AF, I-CV
-38	##과	O	O	O, I-CV, B-CV, I-AF, I-OG
-39	음료수	B-CV	B-CV	B-CV, O, I-CV, B-PT, B-AF
-40	##를	O	O	O, I-CV, B-CV, I-AF, I-OG
-41	건넸	O	O	O, B-CV, B-OG, B-PS, B-LC
-42	##다	O	O	O, B-CV, B-LC, B-PS, B-TM
-43	.	O	O	O, B-PS, B-LC, B-CV, B-OG
-44	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	같	O	O
+2	##은	O	O
+3	것	O	O
+4	##도	O	O
+5	고	O	B-CV
+6	##갱이	O	I-CV
+7	##로	O	O
+8	##만	O	O
+9	이렇게	O	O
+10	준비	O	O
+11	##했	O	O
+12	##거	O	O
+13	##든	O	O
+14	##요	O	O
+15	?	O	O
+16	[SEP]	O	O

@@ -1,49 +1,51 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-EV, I-OG, I-CV
-1	박수	B-PS	B-PS	B-PS, B-OG, O, B-LC, B-AF
-2	##현	I-PS	I-PS	I-PS, I-OG, O, I-DT, I-LC
-3	청와대	B-AF	B-OG	B-OG, B-AF, O, B-LC, I-OG
-4	대변인	B-CV	B-CV	B-CV, O, I-CV, I-OG, B-OG
-5	##은	O	O	O, I-CV, I-OG, I-EV, I-AF
-6	이날	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-QT
-7	브리핑	O	O	O, I-DT, B-CV, I-EV, B-OG
-8	##에서	O	O	O, I-EV, I-OG, B-LC, I-AF
-9	“	O	O	O, B-LC, B-CV, B-OG, B-PS
-10	3	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-QT
-11	##일	I-DT	I-DT	I-DT, O, B-DT, I-OG, I-QT
-12	민정	O	B-OG	B-OG, O, B-AF, B-CV, I-OG
-13	##비	O	I-OG	I-OG, O, I-AF, I-CV, I-EV
-14	##서관	O	I-OG	I-OG, O, I-AF, I-CV, I-EV
-15	##실	O	I-OG	I-OG, O, I-AF, I-CV, I-LC
-16	공간	O	O	O, I-OG, I-AF, B-TM, B-CV
-17	##을	O	O	O, B-CV, B-TM, B-LC, I-AF
-18	재배치	O	O	O, B-CV, B-TM, B-OG, B-LC
-19	##하	O	O	O, B-PS, B-OG, B-LC, B-CV
-20	##던	O	O	O, B-PS, B-LC, B-OG, B-TM
-21	중	O	O	O, B-LC, B-PS, B-TM, B-QT
-22	한	O	B-QT	B-QT, O, B-TM, B-AF, B-LC
-23	캐	O	I-QT	I-QT, O, B-QT, I-LC, I-AF
-24	##비	O	I-QT	I-QT, O, I-LC, I-AF, I-TM
-25	##닛	O	I-QT	I-QT, O, I-LC, I-AF, I-TM
-26	##에서	O	O	O, I-QT, I-AF, B-PS, B-CV
-27	이전	O	O	O, B-PS, B-OG, B-CV, B-LC
-28	정부	B-OG	B-OG	B-OG, O, B-AF, B-LC, B-EV
-29	민정	O	B-OG	B-OG, O, I-OG, B-AF, B-CV
-30	##비	O	I-OG	I-OG, O, I-AF, I-CV, I-LC
-31	##서관	O	I-OG	I-OG, O, I-AF, I-CV, I-LC
-32	##실	O	I-OG	I-OG, O, I-AF, I-CV, I-LC
-33	##에서	O	O	O, I-OG, I-AF, I-CV, B-PS
-34	생산	O	O	O, B-CV, B-TM, B-LC, I-AF
-35	##한	O	O	O, B-PS, B-LC, B-CV, B-OG
-36	문건	O	O	O, B-CV, B-TM, B-AF, B-LC
-37	##을	O	O	O, B-CV, B-PS, I-AF, B-LC
-38	발견	O	O	O, B-CV, B-TM, B-QT, B-OG
-39	##했	O	O	O, B-CV, B-PS, B-LC, I-AF
-40	##다	O	O	O, B-CV, B-LC, B-PS, I-AF
-41	”	O	O	O, B-CV, B-LC, B-TM, B-PS
-42	고	O	O	O, B-CV, B-LC, B-TM, B-QT
-43	말	O	O	O, B-CV, B-LC, B-TM, I-EV
-44	##했	O	O	O, B-CV, B-LC, B-PS, B-OG
-45	##다	O	O	O, B-CV, B-LC, B-OG, B-TM
-46	.	O	O	O, B-LC, B-OG, B-PS, B-CV
-47	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	또	O	O
+2	인텔	B-TM	B-TM
+3	##리	I-TM	I-TM
+4	##전	I-TM	I-TM
+5	##트	I-TM	I-TM
+6	크루즈	I-TM	I-TM
+7	컨트롤	I-TM	I-TM
+8	##은	O	O
+9	앞	B-TM	O
+10	##차	B-AF	O
+11	##와	O	O
+12	##의	O	O
+13	거리	O	O
+14	##를	O	O
+15	측정	O	O
+16	##해	O	O
+17	차	B-AF	O
+18	간격	O	O
+19	##이	O	O
+20	미리	O	O
+21	지정	O	O
+22	##해	O	O
+23	놓	O	O
+24	##은	O	O
+25	거리	O	O
+26	이하	O	O
+27	##로	O	O
+28	줄어들	O	O
+29	##면	O	O
+30	브레이크	O	O
+31	##를	O	O
+32	밟	O	O
+33	##지	O	O
+34	않	O	O
+35	##아	O	O
+36	##도	O	O
+37	앞	B-TM	O
+38	##차	B-AF	O
+39	##의	O	O
+40	간격	O	O
+41	##을	O	O
+42	일정	O	O
+43	##하	O	O
+44	##게	O	O
+45	유지	O	O
+46	##해	O	O
+47	준다	O	O
+48	.	O	O
+49	[SEP]	O	O

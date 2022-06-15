@@ -1,42 +1,21 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-EV, I-CV
-1	'	O	O	O, B-LC, B-CV, B-OG, B-TM
-2	홍	B-AF	B-AF	B-AF, B-FD, B-PT, B-EV, O
-3	##련	I-AF	I-PT	I-PT, I-AF, I-FD, I-LC, O
-4	##화	I-AF	I-PT	I-PT, I-AF, I-FD, I-LC, O
-5	(	O	O	O, I-AF, I-OG, I-EV, I-LC
-6	[UNK]	O	O	O, B-CV, B-LC, B-TM, B-OG
-7	[UNK]	O	O	O, B-CV, B-LC, B-OG, B-PS
-8	[UNK]	O	O	O, B-LC, B-CV, B-OG, B-PS
-9	)	O	O	O, B-CV, B-LC, B-OG, B-PS
-10	'	O	O	O, B-CV, B-OG, B-TM, B-LC
-11	라는	O	O	O, B-PS, B-LC, B-AF, B-CV
-12	화제	O	O	O, B-CV, B-PS, B-TM, B-LC
-13	(	O	O	O, B-CV, B-LC, B-PS, B-OG
-14	[UNK]	O	O	O, B-LC, B-CV, B-OG, B-PS
-15	[UNK]	O	O	O, B-LC, B-CV, B-PS, B-OG
-16	)	O	O	O, B-CV, B-LC, B-OG, B-PS
-17	가	O	O	O, B-PS, B-OG, B-LC, B-CV
-18	붙	O	O	O, B-CV, B-PS, B-LC, B-TM
-19	##은	O	O	O, B-CV, B-PS, B-LC, B-TM
-20	이	O	O	O, B-PS, B-AF, B-CV, B-LC
-21	그림	O	O	O, B-CV, B-FD, B-AF, B-LC
-22	##은	O	O	O, B-CV, B-LC, I-AF, B-PS
-23	일본	B-LC	B-LC	B-LC, O, B-OG, B-PS, I-LC
-24	나가	B-LC	B-LC	B-LC, I-LC, O, B-OG, B-PS
-25	##노	I-LC	I-LC	I-LC, O, B-LC, I-PS, I-AF
-26	##현	I-LC	I-LC	I-LC, O, I-PS, B-LC, I-AF
-27	마쓰	B-LC	B-OG	B-OG, B-AF, B-LC, I-LC, O
-28	##모토	I-LC	I-OG	I-OG, I-LC, I-AF, O, I-PS
-29	##시	I-LC	I-OG	I-OG, I-AF, I-LC, O, I-PS
-30	시립	O	I-OG	I-OG, I-AF, O, B-OG, B-AF
-31	##박	O	I-OG	I-OG, I-AF, O, I-LC, I-EV
-32	##물	O	I-OG	I-OG, I-AF, O, I-LC, I-EV
-33	##관	O	I-OG	I-OG, I-AF, O, I-LC, I-EV
-34	##이	O	O	O, I-OG, I-AF, B-PS, I-EV
-35	소장	O	O	O, B-CV, B-LC, B-TM, B-AF
-36	##하고	O	O	O, I-AF, B-LC, B-PS, B-CV
-37	있	O	O	O, B-CV, B-LC, B-PS, B-OG
-38	##다	O	O	O, B-CV, B-LC, B-OG, B-TM
-39	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-40	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	특히	O	O
+2	백두산	B-LC	B-LC
+3	##도	O	O
+4	많이	O	O
+5	갔	O	O
+6	##다오	O	O
+7	##시고	O	O
+8	연	O	B-LC
+9	##변	O	I-LC
+10	##지역	O	O
+11	가	O	O
+12	##고	O	O
+13	하	O	O
+14	##면은	O	O
+15	갔	O	O
+16	##다	O	O
+17	오	O	O
+18	##면은	O	O
+19	[SEP]	O	O

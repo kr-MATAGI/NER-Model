@@ -1,15 +1,46 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-AF, I-CV, B-CV
-1	1968	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-2	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-3	개통	O	O	O, I-DT, I-AF, B-CV, I-OG
-4	##된	O	O	O, B-LC, I-AF, B-PS, B-OG
-5	국내	O	O	O, B-LC, B-CV, B-OG, B-TM
-6	최초	O	O	O, B-QT, B-CV, B-AF, B-LC
-7	##의	O	O	O, I-AF, B-PS, B-AF, B-LC
-8	고가	O	O	O, B-AF, B-CV, I-AF, B-LC
-9	##차	O	O	O, B-AF, I-AF, B-CV, B-LC
-10	##도	O	I-AF	I-AF, O, B-AF, I-LC, I-CV
-11	##이다	O	O	O, I-AF, I-OG, I-CV, B-CV
-12	.	O	O	O, I-AF, B-AF, B-LC, B-OG
-13	[SEP]	O	O	O, I-AF, B-AF, B-LC, B-CV
+	text	label	preds
+0	[CLS]	O	O
+1	새	B-OG	B-OG
+2	##누리	I-OG	I-OG
+3	##당	I-OG	I-OG
+4	##이	O	O
+5	16	B-DT	B-DT
+6	##일	I-DT	I-DT
+7	단독	O	O
+8	##으로	O	O
+9	소집	O	O
+10	요구	O	O
+11	##서	O	O
+12	##를	O	O
+13	낸	O	O
+14	‘	O	O
+15	2012	B-DT	B-DT
+16	##년	I-DT	I-DT
+17	결산	O	O
+18	##안	O	O
+19	처리	O	O
+20	##를	O	O
+21	위한	O	O
+22	8	B-DT	B-DT
+23	##월	I-DT	I-DT
+24	임시	O	B-EV
+25	##국	O	I-EV
+26	##회	O	I-EV
+27	’	O	O
+28	에	O	O
+29	민주당	B-OG	B-OG
+30	##이	O	O
+31	참여	O	O
+32	##해	O	O
+33	국회	B-OG	B-OG
+34	##를	O	O
+35	정상	O	O
+36	##화	O	O
+37	##해야	O	O
+38	한다고	O	O
+39	압박	O	O
+40	##한	O	O
+41	것	O	O
+42	##이다	O	O
+43	.	O	O
+44	[SEP]	O	O

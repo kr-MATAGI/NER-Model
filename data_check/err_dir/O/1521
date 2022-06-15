@@ -1,42 +1,16 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-EV, I-CV
-1	현대차	B-OG	B-OG	B-OG, O, I-OG, B-AF, B-PS
-2	##도	O	O	O, I-OG, I-AF, B-CV, I-DT
-3	해치	O	O	O, B-AF, B-TM, B-CV, B-LC
-4	##백	O	O	O, I-AF, I-TM, I-CV, I-LC
-5	스타일	O	O	O, I-TM, I-AF, I-CV, I-LC
-6	##의	O	O	O, B-AF, I-AF, B-PS, B-LC
-7	순수	O	O	O, B-AF, B-TM, I-AF, B-LC
-8	전기차	B-AF	B-AF	B-AF, I-AF, O, B-CV, B-TM
-9	‘	O	O	O, I-AF, B-LC, B-CV, I-DT
-10	i	B-AF	B-AF	B-AF, O, I-AF, B-TM, B-OG
-11	##10	I-AF	I-AF	I-AF, O, I-TM, B-AF, I-OG
-12	EV	I-AF	I-AF	I-AF, O, I-TM, B-AF, I-QT
-13	’	O	O	O, I-AF, I-OG, I-EV, I-TM
-14	와	O	O	O, B-LC, B-OG, B-TM, B-CV
-15	소형	O	B-AF	B-AF, O, B-TM, B-LC, B-OG
-16	하이브리드	B-AF	B-AF	B-AF, I-AF, O, B-TM, B-CV
-17	크로스	B-CV	I-AF	I-AF, B-AF, O, I-TM, I-OG
-18	##오	I-CV	I-AF	I-AF, O, I-TM, B-AF, I-OG
-19	##버	I-CV	I-AF	I-AF, O, I-TM, B-AF, I-OG
-20	##유	I-CV	I-AF	I-AF, O, I-TM, B-AF, I-CV
-21	##틸리티	I-CV	I-AF	I-AF, O, I-TM, B-AF, I-CV
-22	##차	I-CV	I-AF	I-AF, O, I-TM, B-AF, I-CV
-23	##량	I-CV	I-AF	I-AF, O, I-TM, I-CV, I-OG
-24	(	O	O	O, I-AF, I-CV, I-TM, I-OG
-25	CU	O	B-AF	B-AF, O, I-AF, B-OG, B-TM
-26	##V	O	I-AF	I-AF, O, I-OG, I-TM, B-AF
-27	)	O	O	O, I-AF, I-OG, I-TM, I-EV
-28	인	O	O	O, B-LC, B-CV, B-PS, B-TM
-29	‘	O	O	O, B-LC, B-AF, B-CV, B-TM
-30	i	B-AF	B-AF	B-AF, O, I-AF, B-TM, B-OG
-31	##x	I-AF	I-AF	I-AF, O, B-AF, I-TM, I-OG
-32	메트로	I-AF	I-AF	I-AF, O, B-AF, I-TM, I-OG
-33	’	O	O	O, I-AF, I-OG, I-TM, I-EV
-34	등	O	O	O, B-LC, B-OG, B-TM, B-CV
-35	##을	O	O	O, B-LC, B-CV, B-OG, B-TM
-36	공개	O	O	O, B-CV, B-LC, B-OG, B-TM
-37	##했	O	O	O, B-LC, B-OG, I-OG, B-PS
-38	##다	O	O	O, B-LC, B-CV, B-OG, B-PS
-39	.	O	O	O, B-AF, B-LC, B-OG, B-TM
-40	[SEP]	O	O	O, B-AF, B-LC, I-AF, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	대	B-LC	B-LC
+2	##천	I-LC	I-LC
+3	##인	O	O
+4	##데	O	O
+5	애	O	O
+6	##가	O	O
+7	거기	O	O
+8	거기	O	O
+9	조폭	O	B-CV
+10	##이	O	O
+11	있	O	O
+12	##대	O	O
+13	아직	O	O
+14	[SEP]	O	O

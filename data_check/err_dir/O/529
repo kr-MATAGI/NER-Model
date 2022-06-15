@@ -1,67 +1,38 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-EV, B-CV, I-OG, I-CV
-1	인천시	B-OG	B-OG	B-OG, B-LC, O, B-PS, I-OG
-2	##가	O	O	O, I-OG, I-EV, B-PS, I-LC
-3	작년	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-QT
-4	8	I-DT	I-DT	I-DT, O, B-DT, I-EV, I-QT
-5	##월	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
-6	7	I-DT	I-DT	I-DT, O, B-DT, I-PS, I-OG
-7	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-OG
-8	##부터	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-OG
-9	10	I-DT	I-DT	I-DT, O, B-DT, I-OG, I-QT
-10	##월	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-OG
-11	25	I-DT	I-DT	I-DT, O, B-DT, I-OG, I-QT
-12	##일	I-DT	I-DT	I-DT, O, B-DT, I-OG, I-QT
-13	##까	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-OG
-14	##지	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-OG
-15	80	B-DT	B-DT	B-DT, I-DT, O, B-LC, B-EV
-16	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
-17	동안	I-DT	I-DT	I-DT, O, B-DT, I-EV, I-QT
-18	송도	B-LC	B-LC	B-LC, O, B-OG, B-AF, I-LC
-19	##국제	I-LC	I-LC	I-LC, O, B-LC, I-AF, I-OG
-20	##도	I-LC	I-LC	I-LC, O, I-AF, B-LC, I-OG
-21	##시	I-LC	I-LC	I-LC, O, I-AF, B-LC, I-OG
-22	##에서	O	O	O, I-LC, B-LC, I-AF, I-EV
-23	연	O	O	O, B-EV, B-CV, B-LC, I-EV
-24	도시	O	O	O, B-EV, I-EV, B-CV, B-OG
-25	##축	O	O	O, I-EV, I-OG, B-EV, I-AF
-26	##전	O	O	O, I-EV, I-OG, I-AF, B-EV
-27	##은	O	O	O, I-EV, I-OG, B-CV, B-PS
-28	경제자유구역	O	B-LC	B-LC, O, B-OG, I-LC, B-AF
-29	##을	O	O	O, I-LC, I-OG, I-AF, I-EV
-30	중심	O	O	O, B-LC, B-CV, B-TM, B-PS
-31	##으로	O	O	O, B-LC, B-PS, B-OG, B-CV
-32	인천	B-LC	B-LC	B-LC, O, B-OG, B-PS, I-LC
-33	##의	O	O	O, I-LC, I-OG, B-LC, I-AF
-34	잠재력	O	O	O, B-LC, B-CV, I-LC, B-TM
-35	##과	O	O	O, B-PS, B-LC, B-CV, B-OG
-36	가치	O	O	O, B-CV, B-LC, B-TM, B-PS
-37	등	O	O	O, B-LC, B-CV, B-PS, B-TM
-38	##을	O	O	O, B-CV, B-PS, B-LC, B-OG
-39	보여준다	O	O	O, B-EV, B-CV, B-PS, B-LC
-40	##는	O	O	O, B-PS, B-CV, I-EV, B-EV
-41	의도	O	O	O, B-EV, B-CV, I-EV, B-PS
-42	##로	O	O	O, I-EV, B-PS, B-CV, B-EV
-43	기획	O	O	O, B-EV, B-CV, B-OG, B-LC
-44	##됐	O	O	O, I-EV, B-PS, B-LC, B-CV
-45	##으나	O	O	O, B-LC, I-EV, B-PS, B-OG
-46	내용	O	O	O, B-LC, B-CV, B-PS, I-EV
-47	##이	O	O	O, B-PS, B-LC, B-OG, B-CV
-48	부실	O	O	O, B-CV, B-LC, B-TM, B-EV
-49	##한	O	O	O, B-LC, B-OG, B-PS, B-TM
-50	전시	O	O	O, B-LC, B-EV, B-CV, B-FD
-51	##성	O	O	O, I-EV, B-LC, B-PS, I-LC
-52	행사	O	O	O, I-EV, B-CV, B-EV, B-LC
-53	##로	O	O	O, B-LC, B-PS, B-CV, B-OG
-54	예산	O	O	O, B-LC, B-CV, B-TM, B-FD
-55	##만	O	O	O, B-PS, B-LC, I-EV, I-LC
-56	낭비	O	O	O, B-CV, B-LC, B-TM, B-EV
-57	##했	O	O	O, B-LC, B-PS, B-OG, B-CV
-58	##다는	O	O	O, B-LC, B-PS, B-CV, B-OG
-59	비판	O	O	O, B-CV, B-PS, B-LC, B-EV
-60	##도	O	O	O, I-EV, B-CV, B-PS, B-LC
-61	받	O	O	O, B-CV, B-EV, B-LC, B-PS
-62	##았	O	O	O, I-EV, B-CV, B-LC, B-PS
-63	##다	O	O	O, I-EV, B-CV, B-EV, B-LC
-64	.	O	O	O, B-LC, I-EV, B-PS, B-CV
-65	[SEP]	O	O	O, B-LC, I-EV, B-CV, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	올해	B-DT	B-DT
+2	##로	O	O
+3	프로	O	B-CV
+4	사령탑	O	O
+5	두	B-QT	B-QT
+6	번	I-QT	I-QT
+7	##째	I-QT	I-QT
+8	시즌	O	O
+9	##을	O	O
+10	맞	O	O
+11	##는	O	O
+12	김세	B-PS	B-PS
+13	##진	I-PS	I-PS
+14	OK	B-OG	B-OG
+15	##저축	I-OG	I-OG
+16	##은행	I-OG	I-OG
+17	감독	B-CV	B-CV
+18	##은	O	O
+19	좀처럼	O	O
+20	언	O	O
+21	##성	O	O
+22	##을	O	O
+23	높이	O	O
+24	##는	O	O
+25	법	O	O
+26	##이	O	O
+27	없	O	O
+28	##는	O	O
+29	'	O	O
+30	대인	O	O
+31	##배	O	O
+32	'	O	O
+33	스타일	O	O
+34	##이다	O	O
+35	.	O	O
+36	[SEP]	O	O

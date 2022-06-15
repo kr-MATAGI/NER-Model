@@ -1,28 +1,99 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-EV, B-CV, I-CV, I-OG
-1	그	O	O	O, B-CV, B-PS, B-LC, B-EV
-2	##는	O	O	O, B-PS, B-CV, B-LC, I-EV
-3	지난해	B-DT	B-DT	B-DT, O, B-EV, I-DT, B-QT
-4	이스탄불	B-LC	B-LC	B-LC, O, B-AF, B-OG, B-EV
-5	##에서	O	O	O, I-LC, I-EV, I-DT, B-LC
-6	열린	O	O	O, B-EV, B-LC, B-PS, B-CV
-7	‘	O	O	O, B-LC, B-CV, B-EV, B-PS
-8	이스탄불	B-LC	B-EV	B-EV, B-LC, B-AF, B-PS, I-EV
-9	-	O	I-EV	I-EV, O, I-AF, I-LC, I-DT
-10	경주	B-LC	I-EV	I-EV, I-LC, I-AF, B-LC, B-EV
-11	세계	B-EV	I-EV	I-EV, I-AF, O, B-EV, I-LC
-12	##문화	I-EV	I-EV	I-EV, O, I-AF, I-LC, I-TM
-13	##엑스	I-EV	I-EV	I-EV, O, I-AF, I-LC, I-TM
-14	##포	I-EV	I-EV	I-EV, O, I-AF, I-LC, I-TM
-15	’	O	O	O, I-EV, I-AF, I-DT, I-OG
-16	에	O	O	O, B-CV, I-EV, B-LC, B-PS
-17	깊	O	O	O, B-CV, B-LC, B-PS, B-TM
-18	##은	O	O	O, B-LC, B-PS, I-CV, B-CV
-19	인상	O	O	O, B-CV, B-TM, B-LC, B-PS
-20	##을	O	O	O, B-CV, B-PS, I-CV, I-AF
-21	받	O	O	O, B-PS, B-CV, B-LC, B-TM
-22	##았	O	O	O, B-PS, B-CV, B-LC, I-CV
-23	##다고	O	O	O, B-PS, B-LC, B-CV, I-EV
-24	한다	O	O	O, B-CV, B-PS, B-LC, B-EV
-25	.	O	O	O, B-LC, B-PS, B-CV, I-EV
-26	[SEP]	O	O	O, B-LC, B-CV, I-EV, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	29	B-DT	B-DT
+2	##일	I-DT	I-DT
+3	전국	O	O
+4	##의	O	O
+5	17	B-QT	B-QT
+6	##개	I-QT	I-QT
+7	시	O	O
+8	·	O	O
+9	도	O	O
+10	광역	O	B-CV
+11	##단체	O	I-CV
+12	##장	O	I-CV
+13	##들이	O	O
+14	내	O	O
+15	##건	O	O
+16	교통	O	O
+17	##공	O	O
+18	##약	O	O
+19	##을	O	O
+20	보	O	O
+21	##면	O	O
+22	,	O	O
+23	크	O	O
+24	##게	O	O
+25	##는	O	O
+26	무상	O	O
+27	##버스	O	O
+28	도입	O	O
+29	(	O	O
+30	송	B-PS	B-PS
+31	##하	I-PS	I-PS
+32	##진	I-PS	I-PS
+33	·	O	O
+34	전북	B-LC	B-LC
+35	·	O	O
+36	새	B-OG	B-OG
+37	##정	I-OG	I-OG
+38	##치	I-OG	I-OG
+39	##민주	I-OG	I-OG
+40	##연합	I-OG	I-OG
+41	,	O	O
+42	이병	B-PS	B-PS
+43	##훈	I-PS	I-PS
+44	·	O	O
+45	광주	B-LC	B-OG
+46	·	O	O
+47	노동당	B-OG	B-OG
+48	등	O	O
+49	)	O	O
+50	과	O	O
+51	버스	B-CV	B-AF
+52	준공	I-CV	B-CV
+53	##영	I-CV	I-CV
+54	##제	I-CV	I-CV
+55	(	O	O
+56	남경필	B-PS	B-PS
+57	·	O	O
+58	경기	B-LC	B-LC
+59	·	O	O
+60	새	B-OG	B-OG
+61	##누리	I-OG	I-OG
+62	,	O	O
+63	김진표	B-PS	B-PS
+64	·	O	O
+65	경기	B-LC	B-LC
+66	·	O	O
+67	새	B-OG	B-OG
+68	##정	I-OG	I-OG
+69	##치	I-OG	I-OG
+70	##민주	I-OG	I-OG
+71	##연합	I-OG	I-OG
+72	)	O	O
+73	,	O	O
+74	버스	B-CV	B-CV
+75	##공	I-CV	I-CV
+76	##영	I-CV	I-CV
+77	##제	I-CV	I-CV
+78	(	O	O
+79	이낙연	B-PS	B-PS
+80	·	O	O
+81	전남	B-LC	B-LC
+82	·	O	O
+83	새	B-OG	B-OG
+84	##정	I-OG	I-OG
+85	##치	I-OG	I-OG
+86	##민주	I-OG	I-OG
+87	##연합	I-OG	I-OG
+88	)	O	O
+89	의	O	O
+90	임기	O	O
+91	##내	O	O
+92	도입	O	O
+93	##으로	O	O
+94	나눠	O	O
+95	##진다	O	O
+96	.	O	O
+97	[SEP]	O	O

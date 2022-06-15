@@ -1,45 +1,28 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	미국	B-LC	B-LC	B-LC, B-OG, O, B-PS, B-AF
-2	##이	O	O	O, I-OG, B-PS, I-LC, B-OG
-3	현재	O	O	O, B-QT, B-CV, B-LC, B-OG
-4	1	B-QT	B-QT	B-QT, I-QT, O, B-DT, B-EV
-5	.	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-EV
-6	6	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-EV
-7	%	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-EV
-8	성장	O	O	O, I-QT, B-CV, B-OG, B-TM
-9	##에서	O	O	O, B-CV, B-PS, B-TM, B-OG
-10	플러스	O	B-QT	B-QT, O, I-QT, B-DT, B-CV
-11	1	B-QT	I-QT	I-QT, B-QT, O, I-LC, I-DT
-12	.	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-EV
-13	5	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-14	%	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-15	로	O	O	O, I-QT, B-PS, I-EV, B-CV
-16	나갈	O	O	O, B-CV, B-LC, B-OG, B-QT
-17	##지	O	O	O, B-PS, B-LC, B-CV, B-QT
-18	,	O	O	O, B-CV, B-LC, B-OG, B-PS
-19	아니면	O	O	O, B-QT, B-CV, B-LC, B-PS
-20	마이너스	O	B-QT	B-QT, O, I-QT, B-DT, B-EV
-21	1	B-QT	I-QT	I-QT, B-QT, O, I-LC, I-DT
-22	.	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-EV
-23	5	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-24	%	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-25	로	O	O	O, I-QT, I-EV, I-OG, B-PS
-26	나갈	O	O	O, B-CV, B-LC, B-QT, B-OG
-27	##지	O	O	O, B-LC, B-PS, B-TM, B-OG
-28	##는	O	O	O, B-CV, B-LC, B-OG, B-PS
-29	정부	B-OG	B-OG	B-OG, B-LC, O, B-AF, B-CV
-30	##가	O	O	O, I-OG, I-AF, I-EV, B-CV
-31	어떤	O	O	O, B-LC, B-PS, B-CV, B-OG
-32	정책	O	O	O, B-CV, B-PS, B-LC, B-FD
-33	##을	O	O	O, B-CV, B-PS, I-CV, B-LC
-34	취하	O	O	O, B-CV, B-LC, B-PS, B-OG
-35	##느	O	O	O, B-PS, B-LC, B-OG, B-CV
-36	##냐	O	O	O, B-LC, B-PS, B-CV, B-TM
-37	##에	O	O	O, B-CV, B-LC, B-PS, B-TM
-38	달려	O	O	O, B-TM, B-LC, B-CV, B-OG
-39	있	O	O	O, B-CV, B-PS, I-OG, B-LC
-40	##습	O	O	O, B-CV, B-OG, B-LC, B-TM
-41	##니다	O	O	O, B-CV, B-OG, B-LC, B-TM
-42	.	O	O	O, B-LC, B-PS, B-CV, B-OG
-43	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	레이저	O	B-TM
+2	##로	O	O
+3	'	O	O
+4	시원	O	O
+5	##하	O	O
+6	##게	O	O
+7	해준다	O	O
+8	'	O	O
+9	;	O	O
+10	전립선	B-TM	B-TM
+11	##비	I-TM	I-TM
+12	##대	I-TM	I-TM
+13	##증	I-TM	I-TM
+14	새	O	O
+15	##수술	O	O
+16	##법	O	O
+17	'	O	O
+18	홀	B-TR	B-TM
+19	##렙	I-TR	I-TM
+20	'	O	O
+21	…	O	O
+22	하루	B-DT	B-DT
+23	##만	I-DT	I-DT
+24	##에	O	O
+25	퇴원	O	O
+26	[SEP]	O	O

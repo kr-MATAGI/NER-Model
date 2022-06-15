@@ -1,41 +1,25 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-EV, I-OG
-1	전	O	O	O, B-PS, B-OG, B-LC, B-CV
-2	외교	B-OG	O	O, B-OG, B-CV, I-OG, B-FD
-3	##안	I-OG	O	O, I-OG, B-OG, I-CV, I-FD
-4	##보	I-OG	O	O, I-OG, I-FD, I-CV, B-OG
-5	##팀	I-OG	O	O, I-OG, B-OG, I-FD, I-CV
-6	관계자	B-CV	B-CV	B-CV, O, I-CV, I-OG, B-OG
-7	##는	O	O	O, I-CV, I-OG, I-EV, I-QT
-8	“	O	O	O, B-CV, B-LC, B-OG, B-PS
-9	우리	O	O	O, B-OG, B-PS, B-LC, B-CV
-10	군	O	B-OG	B-OG, O, I-OG, B-CV, B-AF
-11	##이	O	O	O, I-OG, B-PS, B-OG, B-CV
-12	이번	O	O	O, B-PS, B-CV, I-OG, B-LC
-13	일	O	O	O, B-EV, B-PS, I-EV, B-CV
-14	##을	O	O	O, B-CV, B-PS, I-EV, B-OG
-15	계기	O	O	O, B-CV, B-PS, B-OG, B-LC
-16	##로	O	O	O, B-PS, B-OG, B-LC, B-CV
-17	사실상	O	O	O, B-LC, B-CV, B-PS, B-OG
-18	미사일	B-AF	B-AF	B-AF, O, B-CV, B-LC, B-OG
-19	##방	I-AF	I-AF	I-AF, O, B-AF, I-CV, B-CV
-20	##어	I-AF	I-AF	I-AF, O, I-CV, I-OG, I-LC
-21	##체	I-AF	O	O, I-AF, I-CV, I-TM, I-LC
-22	##제	I-AF	O	O, I-AF, I-CV, I-TM, I-OG
-23	편입	O	O	O, I-AF, I-CV, I-OG, I-TM
-24	##이	O	O	O, B-PS, B-OG, B-LC, B-CV
-25	가속	O	O	O, B-CV, B-PS, B-LC, B-OG
-26	##화	O	O	O, B-PS, I-OG, B-LC, B-CV
-27	##됐	O	O	O, B-PS, B-CV, B-LC, B-OG
-28	##다고	O	O	O, B-PS, I-OG, B-LC, B-CV
-29	볼	O	O	O, B-PS, B-CV, B-OG, B-TM
-30	수도	O	O	O, B-PS, I-OG, B-CV, I-CV
-31	있	O	O	O, B-PS, I-OG, B-CV, I-QT
-32	##다	O	O	O, I-OG, B-CV, B-PS, B-OG
-33	”	O	O	O, B-CV, B-TM, B-QT, B-LC
-34	고	O	O	O, B-CV, B-QT, B-TM, B-LC
-35	말	O	O	O, B-CV, B-QT, B-TM, I-QT
-36	##했	O	O	O, B-CV, B-PS, I-QT, B-LC
-37	##다	O	O	O, B-CV, B-LC, B-QT, B-PS
-38	.	O	O	O, B-LC, B-PS, B-OG, B-CV
-39	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	주로	O	O
+2	가스	B-MT	O
+3	##사고	O	O
+4	예방	O	O
+5	##을	O	O
+6	위한	O	O
+7	기술	O	O
+8	봉사	O	O
+9	##로	O	O
+10	,	O	O
+11	대표	O	O
+12	##적	O	O
+13	##인	O	O
+14	것	O	O
+15	##이	O	O
+16	가스	O	B-TM
+17	##시설	O	I-TM
+18	무료	O	I-TM
+19	개선	O	I-TM
+20	##사업	O	I-TM
+21	##이다	O	O
+22	.	O	O
+23	[SEP]	O	O

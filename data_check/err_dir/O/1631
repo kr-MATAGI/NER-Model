@@ -1,27 +1,57 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	이런	O	O	O, B-OG, B-CV, B-TM, B-LC
-2	메세	B-AF	O	O, B-TM, B-CV, B-OG, B-TR
-3	##나	I-AF	O	O, I-TM, I-CV, I-OG, I-TR
-4	(	O	O	O, I-TM, I-CV, I-OG, I-TR
-5	사회	O	O	O, I-TM, I-CV, I-OG, B-CV
-6	##공	O	O	O, I-TM, I-CV, I-OG, I-AF
-7	##헌	O	O	O, I-TM, I-CV, I-OG, I-AF
-8	)	O	O	O, I-TM, I-CV, I-OG, I-TR
-9	사업	O	O	O, I-TM, I-CV, I-OG, B-TM
-10	##으로	O	O	O, I-TM, I-CV, I-OG, I-EV
-11	일본	B-OG	B-OG	B-OG, B-LC, O, B-PS, B-EV
-12	##과	O	O	O, I-OG, B-OG, I-LC, B-LC
-13	##의	O	O	O, B-LC, B-OG, B-PS, I-OG
-14	미술	O	B-FD	B-FD, O, I-FD, B-OG, B-TR
-15	교류	O	O	O, I-EV, I-OG, I-FD, B-LC
-16	##에	O	O	O, B-OG, B-LC, B-CV, B-TM
-17	디딤돌	O	O	O, B-LC, B-TM, B-AF, B-QT
-18	##을	O	O	O, B-CV, I-AF, I-OG, I-QT
-19	놓	O	O	O, B-PS, B-LC, B-CV, B-OG
-20	##았	O	O	O, B-PS, B-CV, B-OG, B-LC
-21	##다는	O	O	O, B-PS, B-CV, I-OG, B-OG
-22	평가	O	O	O, B-CV, B-OG, B-PS, I-OG
-23	##다	O	O	O, B-CV, I-OG, B-OG, B-PS
-24	.	O	O	O, B-LC, B-OG, B-CV, B-PS
-25	[SEP]	O	O	O, B-CV, B-LC, B-OG, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	이날	B-DT	B-DT
+2	신	O	B-TM
+3	##페	O	I-TM
+4	##리오	O	I-TM
+5	방식	O	O
+6	(	O	O
+7	숨	O	O
+8	##은	O	O
+9	12	B-TM	B-TM
+10	##개	I-TM	I-TM
+11	홀	I-TM	I-TM
+12	##에	O	O
+13	개인	O	O
+14	핸디	O	O
+15	##캡	O	O
+16	##을	O	O
+17	부과	O	O
+18	##해	O	O
+19	순위	O	O
+20	##를	O	O
+21	매기	O	O
+22	##는	O	O
+23	것	O	O
+24	)	O	O
+25	으로	O	O
+26	KIA	B-OG	B-OG
+27	박	B-PS	B-PS
+28	##흥	I-PS	I-PS
+29	##식	I-PS	I-PS
+30	코치	B-CV	B-CV
+31	##가	O	O
+32	우승	O	O
+33	(	O	O
+34	네트	O	O
+35	스코어	O	O
+36	70	B-QT	B-QT
+37	.	I-QT	I-QT
+38	6	I-QT	I-QT
+39	##타	I-QT	I-QT
+40	.	O	O
+41	79	B-QT	B-QT
+42	##타	I-QT	I-QT
+43	##에	O	O
+44	핸디	O	B-QT
+45	8	B-QT	I-QT
+46	.	I-QT	I-QT
+47	4	I-QT	I-QT
+48	적용	O	O
+49	)	O	O
+50	을	O	O
+51	차지	O	O
+52	##했	O	O
+53	##다	O	O
+54	.	O	O
+55	[SEP]	O	O

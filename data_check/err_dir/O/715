@@ -1,60 +1,81 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	이경	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-2	##수	I-PS	I-PS	I-PS, O, I-OG, B-PS, I-LC
-3	##는	O	O	O, I-PS, I-OG, B-CV, I-QT
-4	프로	B-CV	B-CV	B-CV, O, B-EV, B-OG, B-TM
-5	##배	I-CV	I-CV	I-CV, O, B-CV, I-EV, I-OG
-6	##구	I-CV	I-CV	I-CV, O, I-EV, B-CV, I-OG
-7	V	B-EV	B-EV	B-EV, B-OG, O, B-AF, I-EV
-8	##리그	I-EV	I-EV	I-EV, I-OG, I-CV, O, I-AF
-9	통산	O	O	O, I-EV, I-OG, I-AF, I-CV
-10	득점	O	B-TM	B-TM, O, B-CV, I-TM, B-TR
-11	1	B-QT	B-QT	B-QT, I-QT, O, I-TM, B-TM
-12	##위	I-QT	I-QT	I-QT, O, I-TM, I-LC, B-QT
-13	(	O	O	O, I-QT, I-OG, B-CV, I-EV
-14	38	B-QT	B-QT	B-QT, I-QT, O, B-DT, B-EV
-15	##41	I-QT	I-QT	I-QT, B-QT, O, I-LC, I-EV
-16	##점	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-17	)	O	O	O, I-QT, I-EV, B-CV, I-OG
-18	,	O	O	O, B-PS, B-CV, B-LC, B-OG
-19	공격	O	O	O, B-TM, B-CV, B-TR, B-AF
-20	득점	O	O	O, B-TM, I-TM, B-CV, B-QT
-21	1	B-QT	B-QT	B-QT, I-QT, I-TM, O, B-TM
-22	##위	I-QT	I-QT	I-QT, O, I-TM, I-LC, B-QT
-23	(	O	O	O, I-QT, B-CV, I-OG, I-CV
-24	325	B-QT	B-QT	B-QT, I-QT, O, B-DT, B-LC
-25	##0	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-26	##점	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-27	)	O	O	O, I-QT, B-CV, I-OG, I-EV
-28	등	O	O	O, B-CV, B-PS, B-TM, B-OG
-29	##에	O	O	O, B-CV, B-PS, B-OG, B-LC
-30	이름	O	O	O, B-CV, B-LC, B-PS, B-OG
-31	##을	O	O	O, B-CV, B-OG, B-PS, B-LC
-32	올렸	O	O	O, B-CV, B-LC, B-PS, B-OG
-33	##고	O	O	O, B-LC, B-CV, B-PS, B-OG
-34	,	O	O	O, B-CV, B-LC, B-OG, B-PS
-35	2002	B-DT	B-DT	B-DT, O, B-QT, I-DT, B-EV
-36	부산	B-EV	B-EV	B-EV, I-EV, B-LC, B-AF, B-OG
-37	##아	I-EV	I-EV	I-EV, I-AF, B-EV, I-LC, I-DT
-38	##시안	I-EV	I-EV	I-EV, I-AF, I-LC, I-OG, B-EV
-39	##게임	I-EV	I-EV	I-EV, I-AF, O, I-LC, I-OG
-40	##과	O	O	O, I-EV, I-AF, I-DT, I-OG
-41	2006	B-DT	B-DT	B-DT, O, B-QT, I-DT, B-EV
-42	도하	B-EV	B-EV	B-EV, I-EV, B-LC, B-AF, B-OG
-43	##아	I-EV	I-EV	I-EV, I-AF, B-EV, I-LC, I-OG
-44	##시안	I-EV	I-EV	I-EV, I-AF, I-LC, I-OG, O
-45	##게임	I-EV	I-EV	I-EV, O, I-AF, I-LC, I-OG
-46	##에서	O	O	O, I-EV, I-AF, I-DT, I-OG
-47	##는	O	O	O, B-CV, B-OG, B-LC, B-PS
-48	국가	B-CV	B-CV	B-CV, O, B-OG, B-AF, B-TM
-49	##대표	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-EV
-50	##로	O	O	O, I-CV, I-EV, I-OG, I-QT
-51	나서	O	O	O, B-LC, B-CV, B-OG, B-PS
-52	금메달	B-CV	B-CV	B-CV, O, B-EV, B-TM, B-AF
-53	##을	O	O	O, I-CV, I-EV, I-AF, B-CV
-54	획득	O	O	O, B-CV, B-TM, B-OG, B-LC
-55	##했	O	O	O, B-CV, B-LC, B-OG, B-PS
-56	##다	O	O	O, B-CV, B-LC, B-PS, B-OG
-57	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-58	[SEP]	O	O	O, B-CV, B-LC, B-TM, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	도	B-LC	B-LC
+2	##곡동	I-LC	I-LC
+3	땅	O	O
+4	##에	O	O
+5	대한	O	O
+6	고소	O	O
+7	사건	O	O
+8	##을	O	O
+9	조사	O	O
+10	##한	O	O
+11	서울	B-OG	B-OG
+12	##중	I-OG	I-OG
+13	##앙	I-OG	I-OG
+14	##지	I-OG	I-OG
+15	##검	I-OG	I-OG
+16	##은	O	O
+17	한나라당	B-OG	B-OG
+18	대선	B-EV	B-EV
+19	경선	O	B-EV
+20	##을	O	O
+21	이레	O	O
+22	앞둔	O	O
+23	2007	B-DT	B-DT
+24	##년	I-DT	I-DT
+25	8	I-DT	I-DT
+26	##월	I-DT	I-DT
+27	##13	I-DT	I-DT
+28	##일	I-DT	I-DT
+29	“	O	O
+30	이상	B-PS	B-PS
+31	##은	I-PS	I-PS
+32	##씨	O	O
+33	##가	O	O
+34	갖	O	O
+35	##고	O	O
+36	있	O	O
+37	##던	O	O
+38	도	B-LC	B-LC
+39	##곡동	I-LC	I-LC
+40	땅	O	O
+41	##의	O	O
+42	지분	O	O
+43	##은	O	O
+44	이	B-PS	B-PS
+45	##씨	O	O
+46	##가	O	O
+47	아닌	O	O
+48	제	O	O
+49	##3	O	O
+50	##자의	O	O
+51	차명	O	O
+52	재산	O	O
+53	##으로	O	O
+54	보인다	O	O
+55	”	O	O
+56	면서도	O	O
+57	“	O	O
+58	그	O	O
+59	땅	O	O
+60	##의	O	O
+61	진짜	O	O
+62	주인	O	B-CV
+63	##이	O	O
+64	누군지	O	O
+65	##는	O	O
+66	모른다	O	O
+67	”	O	O
+68	고	O	O
+69	아리	O	O
+70	##송	O	O
+71	##한	O	O
+72	중간	O	O
+73	##수사	O	O
+74	발표	O	O
+75	##를	O	O
+76	했	O	O
+77	##다	O	O
+78	.	O	O
+79	[SEP]	O	O

@@ -1,51 +1,33 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-EV, I-CV
-1	그러나	O	O	O, B-OG, B-CV, B-TM, B-LC
-2	시	B-OG	B-OG	B-OG, O, I-OG, B-CV, B-AF
-3	##는	O	O	O, I-OG, B-CV, I-EV, I-AF
-4	신축	O	O	O, B-TM, B-CV, B-LC, B-TR
-5	대신	O	O	O, B-CV, B-PS, B-TM, B-LC
-6	리모	O	O	O, B-TM, B-TR, B-CV, B-QT
-7	##델	O	O	O, I-TM, I-TR, I-CV, I-QT
-8	##링	O	O	O, I-TR, I-TM, I-CV, I-AF
-9	##을	O	O	O, B-CV, B-OG, B-LC, B-PS
-10	통해	O	O	O, B-OG, B-LC, B-CV, B-TM
-11	구조	O	O	O, B-TM, B-CV, B-LC, B-OG
-12	##적으로	O	O	O, B-LC, B-PS, B-TM, B-OG
-13	취약	O	O	O, B-TM, B-LC, B-CV, B-OG
-14	##한	O	O	O, B-LC, B-PS, B-AF, B-TM
-15	건물	O	O	O, B-AF, B-CV, I-AF, B-TM
-16	##의	O	O	O, I-AF, B-AF, B-CV, B-LC
-17	주요	O	O	O, B-TM, B-LC, B-AF, B-MT
-18	구조	O	O	O, B-TM, B-MT, B-AF, B-CV
-19	##부	O	O	O, I-TM, I-AF, I-LC, I-CV
-20	##를	O	O	O, B-LC, B-TM, B-CV, B-AF
-21	철	O	O	O, B-MT, B-TM, B-TR, B-CV
-22	##골	O	O	O, I-MT, I-TM, B-MT, I-TR
-23	H	O	O	O, B-TM, I-TM, B-MT, I-MT
-24	##빔	O	O	O, I-TM, I-MT, I-TR, B-TM
-25	##과	O	O	O, B-CV, I-TM, B-LC, B-PS
-26	탄소	B-MT	B-MT	B-MT, O, I-MT, B-TM, B-CV
-27	##섬유	I-MT	I-MT	I-MT, O, B-MT, I-TM, I-PT
-28	보강	O	O	O, I-MT, B-MT, I-TM, B-TM
-29	공법	O	O	O, B-CV, B-LC, I-TM, B-MT
-30	##으로	O	O	O, B-LC, B-OG, B-CV, B-TM
-31	안정	O	O	O, B-LC, B-TM, B-OG, B-CV
-32	##화	O	O	O, B-LC, B-PS, I-LC, I-OG
-33	##해	O	O	O, B-LC, B-OG, B-PS, B-CV
-34	건축물	O	O	O, B-AF, B-LC, B-CV, B-TM
-35	##의	O	O	O, I-AF, B-LC, B-CV, B-OG
-36	상태	O	O	O, B-CV, B-LC, B-TM, B-OG
-37	##를	O	O	O, B-CV, B-LC, B-OG, B-TM
-38	D	O	B-QT	B-QT, O, I-QT, B-TM, B-DT
-39	##급	O	I-QT	I-QT, O, I-OG, I-LC, I-TM
-40	##에서	O	O	O, I-QT, B-LC, B-PS, B-QT
-41	C	O	B-QT	B-QT, O, I-QT, B-TM, B-DT
-42	##급	O	I-QT	I-QT, O, I-OG, I-LC, I-TM
-43	##으로	O	O	O, I-QT, B-LC, B-CV, B-TM
-44	향상	O	O	O, B-CV, B-LC, B-TM, B-OG
-45	##시	O	O	O, B-LC, I-OG, I-QT, B-OG
-46	##켰	O	O	O, B-OG, B-CV, B-LC, I-OG
-47	##다	O	O	O, B-CV, B-OG, B-LC, I-OG
-48	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-49	[SEP]	O	O	O, B-LC, B-CV, B-TM, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	그	O	O
+2	##는	O	O
+3	2003	B-DT	B-DT
+4	##년	I-DT	I-DT
+5	영국	B-LC	B-LC
+6	정부	B-OG	B-OG
+7	##로	O	O
+8	##부터	O	O
+9	기사	B-CV	B-CV
+10	작위	O	I-CV
+11	##를	O	O
+12	받	O	O
+13	##았	O	O
+14	##고	O	O
+15	,	O	O
+16	작년	B-DT	B-DT
+17	##엔	O	O
+18	체코	B-LC	B-LC
+19	정부	B-OG	B-OG
+20	##가	O	O
+21	주	O	O
+22	##는	O	O
+23	국가	O	O
+24	최고	O	O
+25	훈장	O	O
+26	##을	O	O
+27	받	O	O
+28	##았	O	O
+29	##다	O	O
+30	.	O	O
+31	[SEP]	O	O

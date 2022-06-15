@@ -1,61 +1,72 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	글로벌	B-EV	B-EV	B-EV, O, B-LC, B-DT, B-OG
-2	금융	I-EV	O	O, I-EV, B-EV, B-CV, I-OG
-3	위기	I-EV	I-EV	I-EV, O, I-OG, B-EV, I-AF
-4	##로	O	O	O, I-EV, I-OG, I-AF, B-PS
-5	세계	O	O	O, B-LC, B-OG, B-EV, B-CV
-6	##경제	O	O	O, I-LC, I-EV, I-FD, I-OG
-7	##의	O	O	O, B-LC, B-PS, I-EV, I-AF
-8	거미줄	O	O	O, B-TM, B-AF, B-LC, B-PS
-9	같	O	O	O, I-AF, I-TM, I-LC, B-LC
-10	##은	O	O	O, B-LC, B-PS, B-OG, B-TM
-11	연관	O	O	O, B-LC, B-CV, B-TM, B-PS
-12	##성이	O	O	O, B-LC, B-PS, B-CV, B-TM
-13	얼마나	O	O	O, B-LC, B-PS, B-OG, B-TM
-14	파괴	O	O	O, B-LC, B-TM, B-PS, B-FD
-15	##적	O	O	O, B-PS, B-LC, I-TR, I-LC
-16	##일	O	O	O, B-PS, B-LC, B-OG, B-CV
-17	수	O	O	O, B-LC, B-PS, B-OG, B-TM
-18	있	O	O	O, B-PS, B-LC, B-CV, B-OG
-19	##는지	O	O	O, B-PS, B-LC, B-CV, B-OG
-20	##가	O	O	O, B-PS, B-LC, B-CV, B-OG
-21	드러난	O	O	O, B-CV, B-LC, B-PS, B-OG
-22	뒤	O	O	O, B-LC, B-CV, B-TM, B-PS
-23	'	O	O	O, B-LC, B-CV, B-PS, B-OG
-24	디	O	O	O, B-TR, B-TM, B-EV, B-CV
-25	##커	O	O	O, I-TR, I-TM, B-TR, I-FD
-26	##플	O	O	O, I-TR, I-TM, I-CV, I-FD
-27	##링	O	O	O, I-TR, I-TM, I-FD, B-TR
-28	(	O	O	O, I-TR, I-TM, B-CV, I-OG
-29	de	O	O	O, B-LC, B-PS, B-TM, B-OG
-30	##co	O	O	O, B-LC, B-PS, I-LC, I-OG
-31	##up	O	O	O, B-LC, B-PS, I-LC, I-OG
-32	##lin	O	O	O, B-LC, I-LC, B-PS, I-OG
-33	##g	O	O	O, I-LC, B-LC, B-PS, I-OG
-34	·	O	O	O, B-CV, B-LC, B-PS, I-OG
-35	탈	O	O	O, B-TR, B-TM, B-PS, I-TR
-36	##동	O	O	O, I-TR, B-TR, I-TM, B-TM
-37	##조	O	O	O, I-TR, I-TM, B-TR, I-PS
-38	##화	O	O	O, I-TR, I-TM, B-TR, I-PS
-39	)	O	O	O, I-TR, I-TM, B-LC, B-CV
-40	'	O	O	O, B-CV, B-LC, B-OG, B-PS
-41	이란	O	O	O, B-CV, B-PS, B-LC, B-TM
-42	말	O	O	O, B-CV, B-FD, I-CV, B-TM
-43	##이	O	O	O, B-PS, B-CV, B-LC, B-OG
-44	사실상	O	O	O, B-CV, B-LC, B-QT, B-TM
-45	사	O	O	O, B-FD, B-CV, B-QT, B-TM
-46	##어	O	O	O, I-FD, I-CV, B-FD, I-QT
-47	(	O	O	O, I-CV, B-CV, I-QT, I-AF
-48	死	O	O	O, B-CV, B-LC, B-QT, B-PS
-49	語	O	O	O, B-LC, B-FD, B-PS, B-QT
-50	)	O	O	O, B-CV, B-LC, I-CV, B-OG
-51	가	O	O	O, B-LC, B-CV, B-PS, B-OG
-52	됐	O	O	O, B-CV, B-LC, B-PS, B-OG
-53	##음	O	O	O, B-CV, B-PS, B-LC, I-CV
-54	##을	O	O	O, B-CV, B-PS, B-OG, B-LC
-55	명심	O	O	O, B-CV, B-LC, B-PS, B-EV
-56	##해야	O	O	O, B-PS, B-LC, I-EV, I-CV
-57	한다	O	O	O, B-LC, B-CV, B-EV, B-OG
-58	.	O	O	O, B-LC, B-PS, I-EV, B-CV
-59	[SEP]	O	O	O, B-LC, B-CV, I-EV, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	2	B-QT	B-QT
+2	##차	I-QT	I-QT
+3	회담	O	O
+4	성사	O	O
+5	##는	O	O
+6	북한	B-OG	B-OG
+7	##이	O	O
+8	1	B-QT	B-QT
+9	##차	I-QT	I-QT
+10	남북	B-EV	B-EV
+11	##회	I-EV	I-EV
+12	##담	I-EV	I-EV
+13	##과	O	O
+14	북	B-EV	B-EV
+15	-	I-EV	I-EV
+16	미	I-EV	B-OG
+17	대화	I-EV	I-EV
+18	##에	O	O
+19	##서	O	O
+20	제기	O	O
+21	##된	O	O
+22	한	B-LC	O
+23	·	O	O
+24	미	B-LC	B-LC
+25	양국	O	O
+26	##의	O	O
+27	‘	O	O
+28	비핵화	O	O
+29	사전	O	O
+30	##조	O	O
+31	##처	O	O
+32	’	O	O
+33	요구	O	O
+34	##에	O	O
+35	대해	O	O
+36	나름	O	O
+37	##의	O	O
+38	답	O	O
+39	##을	O	O
+40	준비	O	O
+41	##했	O	O
+42	##으며	O	O
+43	,	O	O
+44	남북	B-EV	B-EV
+45	##회	I-EV	I-EV
+46	##담	I-EV	I-EV
+47	##을	O	O
+48	거쳐	O	O
+49	2	B-QT	B-QT
+50	##차	I-QT	I-QT
+51	북	B-EV	B-OG
+52	-	I-EV	O
+53	미	I-EV	B-OG
+54	대화	I-EV	O
+55	##에	O	O
+56	나설	O	O
+57	준비	O	O
+58	##가	O	O
+59	됐	O	O
+60	##음	O	O
+61	##을	O	O
+62	알리	O	O
+63	##는	O	O
+64	신호	O	O
+65	##로	O	O
+66	풀이	O	O
+67	##된	O	O
+68	##다	O	O
+69	.	O	O
+70	[SEP]	O	O

@@ -1,35 +1,12 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-EV, I-OG, B-CV, I-CV
-1	뒤늦	O	O	O, B-LC, B-CV, B-PS, B-OG
-2	##은	O	O	O, B-LC, B-PS, B-OG, B-CV
-3	감	O	O	O, B-CV, B-PS, B-LC, B-OG
-4	##은	O	O	O, B-PS, B-LC, B-CV, I-OG
-5	있	O	O	O, B-PS, B-CV, B-LC, B-OG
-6	##어도	O	O	O, B-PS, I-PS, I-OG, I-EV
-7	화가	B-CV	B-CV	B-CV, O, I-CV, B-FD, B-EV
-8	##를	O	O	O, I-CV, I-EV, B-PS, I-OG
-9	세계	O	O	O, B-CV, B-LC, B-OG, B-TM
-10	##에	O	O	O, B-CV, B-LC, B-PS, B-OG
-11	알리	O	O	O, B-LC, B-CV, B-OG, B-PS
-12	##기	O	O	O, B-PS, B-LC, B-OG, B-CV
-13	위한	O	O	O, B-QT, B-LC, B-PS, B-OG
-14	첫	O	O	O, B-QT, B-DT, I-QT, B-LC
-15	단계	O	O	O, I-QT, I-DT, I-EV, B-QT
-16	##로	O	O	O, I-QT, B-PS, B-CV, I-EV
-17	영문	O	B-CV	B-CV, O, B-TM, B-LC, B-FD
-18	화	O	O	O, I-CV, B-AF, B-FD, I-AF
-19	##집	O	O	O, I-AF, I-CV, I-FD, I-LC
-20	##의	O	O	O, I-AF, I-EV, B-LC, B-CV
-21	출간	O	O	O, B-CV, B-LC, B-OG, B-TM
-22	##을	O	O	O, B-CV, B-LC, B-PS, B-OG
-23	기념	O	O	O, B-CV, B-LC, B-EV, B-OG
-24	##하	O	O	O, B-PS, B-CV, B-LC, B-EV
-25	##는	O	O	O, B-CV, B-PS, B-EV, B-LC
-26	전시	O	O	O, B-EV, B-CV, I-EV, B-PS
-27	##이	O	O	O, I-EV, B-PS, B-CV, B-EV
-28	##기	O	O	O, B-PS, I-EV, B-LC, B-EV
-29	##도	O	O	O, I-EV, B-LC, B-EV, B-CV
-30	하	O	O	O, I-EV, B-LC, B-EV, B-PS
-31	##다	O	O	O, I-EV, B-CV, B-EV, I-OG
-32	.	O	O	O, B-LC, I-EV, B-PS, B-CV
-33	[SEP]	O	O	O, I-EV, B-CV, B-LC, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	그게	O	O
+2	약간	O	O
+3	의학	O	O
+4	##적	O	O
+5	##인	O	O
+6	그런	O	O
+7	목걸이	O	B-CV
+8	##래	O	O
+9	.	O	O
+10	[SEP]	O	O

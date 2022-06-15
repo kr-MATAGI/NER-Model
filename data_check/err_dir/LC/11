@@ -1,47 +1,39 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	서영	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
-2	##란	I-PS	I-PS	I-PS, O, I-OG, B-PS, I-LC
-3	##은	O	O	O, I-PS, B-CV, I-OG, B-LC
-4	김정남	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
-5	##을	O	O	O, I-PS, B-CV, I-OG, I-AF
-6	경호	O	O	O, B-CV, B-LC, B-OG, B-PS
-7	##하면	O	O	O, B-PS, I-CV, B-LC, B-CV
-8	##서	O	O	O, B-PS, B-LC, B-CV, B-OG
-9	##도	O	O	O, B-PS, B-LC, B-OG, B-CV
-10	그	O	O	O, B-CV, B-LC, B-PS, B-OG
-11	##의	O	O	O, B-PS, B-LC, B-CV, B-OG
-12	동향	O	O	O, B-LC, B-CV, B-TM, B-PS
-13	##을	O	O	O, B-PS, B-LC, B-OG, B-CV
-14	북한	B-LC	B-OG	B-OG, B-LC, O, B-PS, B-AF
-15	##에	O	O	O, I-OG, I-LC, I-PS, B-CV
-16	보고	O	O	O, B-LC, B-CV, B-TM, B-PS
-17	##하	O	O	O, B-PS, B-LC, B-CV, B-OG
-18	##는	O	O	O, B-PS, B-LC, B-CV, B-OG
-19	역할	O	O	O, B-CV, B-LC, B-PS, B-QT
-20	##을	O	O	O, B-PS, B-CV, B-LC, B-OG
-21	모두	O	O	O, B-QT, B-PS, B-CV, B-LC
-22	수행	O	O	O, B-CV, B-LC, B-PS, B-TM
-23	##했	O	O	O, B-PS, B-CV, B-LC, B-OG
-24	##지만	O	O	O, B-PS, B-LC, B-CV, B-OG
-25	,	O	O	O, B-LC, B-OG, B-CV, B-PS
-26	시간	O	O	O, B-LC, B-OG, B-PS, B-CV
-27	##이	O	O	O, B-PS, B-LC, B-OG, B-CV
-28	지나	O	O	O, B-PS, B-LC, B-CV, I-OG
-29	##면서	O	O	O, B-PS, B-LC, B-OG, B-CV
-30	애정	O	O	O, B-LC, B-PS, B-CV, B-TM
-31	관계	O	O	O, B-PS, B-CV, B-LC, I-CV
-32	##로	O	O	O, B-PS, B-LC, B-CV, B-OG
-33	발전	O	O	O, B-LC, B-CV, B-PS, B-TM
-34	##한	O	O	O, B-PS, B-LC, B-OG, I-OG
-35	것	O	O	O, B-PS, B-LC, B-CV, I-OG
-36	##으로	O	O	O, B-PS, B-LC, B-OG, I-OG
-37	우리	O	O	O, B-OG, B-LC, B-CV, B-PS
-38	정보	O	O	O, B-OG, I-OG, B-CV, B-LC
-39	당국	O	O	O, I-OG, I-CV, B-OG, I-LC
-40	##은	O	O	O, I-OG, B-OG, B-PS, I-CV
-41	보고	O	O	O, B-OG, B-CV, I-OG, B-PS
-42	있	O	O	O, I-OG, B-CV, I-CV, B-OG
-43	##다	O	O	O, B-CV, I-OG, B-LC, B-OG
-44	.	O	O	O, B-PS, B-LC, B-CV, B-OG
-45	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	4	B-DT	B-DT
+2	##월	I-DT	I-DT
+3	##3	I-DT	I-DT
+4	##일	I-DT	I-DT
+5	북한	B-LC	B-LC
+6	##의	O	O
+7	일방	O	O
+8	##적	O	O
+9	##인	O	O
+10	개성	B-LC	B-LC
+11	##공단	I-LC	I-LC
+12	출입	O	O
+13	제한	O	O
+14	##에	O	O
+15	##서	O	O
+16	시작	O	O
+17	##된	O	O
+18	개성	B-LC	B-EV
+19	##공단	I-LC	I-EV
+20	사태	O	I-EV
+21	##는	O	O
+22	5	B-DT	B-DT
+23	##개	I-DT	I-DT
+24	##월	I-DT	I-DT
+25	##여	I-DT	I-DT
+26	만	I-DT	I-DT
+27	##에	O	O
+28	정상	O	O
+29	##화	O	O
+30	궤도	O	O
+31	##에	O	O
+32	올라서	O	O
+33	##게	O	O
+34	됐	O	O
+35	##다	O	O
+36	.	O	O
+37	[SEP]	O	O

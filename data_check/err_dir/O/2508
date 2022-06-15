@@ -1,17 +1,52 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-AF
-1	“	O	O	O, B-CV, B-OG, B-LC, B-TM
-2	이제	O	O	O, B-CV, B-TM, B-OG, B-PS
-3	링	O	B-TM	B-TM, O, B-CV, B-TR, I-TM
-4	##거	O	I-TM	I-TM, O, B-TM, I-QT, I-TR
-5	빼	O	O	O, I-TM, I-OG, I-QT, I-CV
-6	##고	O	O	O, B-PS, I-OG, I-TM, I-AF
-7	재활	O	O	O, B-TM, B-CV, B-TR, B-PS
-8	…	O	O	O, B-PS, I-AF, I-OG, I-TM
-9	빚	O	O	O, B-CV, B-TM, B-AF, B-LC
-10	##더미	O	O	O, I-AF, B-AF, B-CV, I-CV
-11	병실	O	O	O, B-AF, B-CV, B-TM, B-LC
-12	곧	O	O	O, B-LC, I-AF, B-PS, B-TM
-13	탈출	O	O	O, B-CV, B-PS, B-LC, B-AF
-14	”	O	O	O, B-CV, I-AF, I-OG, B-LC
-15	[SEP]	O	O	O, B-CV, B-LC, B-TM, B-AF
+	text	label	preds
+0	[CLS]	O	O
+1	저장	O	O
+2	기술인	O	O
+3	‘	O	O
+4	메탈	B-TR	B-TM
+5	##그라	I-TR	I-TM
+6	##운드	I-TR	I-TM
+7	’	O	O
+8	는	O	O
+9	냉기	O	O
+10	전달	O	O
+11	##과	O	O
+12	보존	O	O
+13	능력	O	O
+14	##이	O	O
+15	뛰어난	O	O
+16	메탈	O	B-MT
+17	소재	O	O
+18	##를	O	O
+19	적용	O	O
+20	##해	O	O
+21	땅	O	O
+22	속	O	O
+23	##에	O	O
+24	보관	O	O
+25	##하	O	O
+26	##는	O	O
+27	것	O	O
+28	##과	O	O
+29	비슷	O	O
+30	##한	O	O
+31	±	B-QT	B-QT
+32	##0	I-QT	I-QT
+33	.	I-QT	I-QT
+34	3	I-QT	I-QT
+35	##℃	I-QT	I-QT
+36	##의	O	O
+37	온도	O	O
+38	##를	O	O
+39	유지	O	O
+40	##하	O	O
+41	##는	O	O
+42	성능	O	O
+43	##으로	O	O
+44	삼성전자	B-OG	B-OG
+45	##만	O	O
+46	##의	O	O
+47	기술	O	O
+48	##이다	O	O
+49	.	O	O
+50	[SEP]	O	O

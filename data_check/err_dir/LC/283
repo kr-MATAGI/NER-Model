@@ -1,8 +1,24 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	이	O	O	O, B-PS, B-OG, B-LC, B-DT
-2	남북	B-LC	B-OG	B-OG, B-LC, O, I-OG, B-PS
-3	관계	O	O	O, I-OG, B-CV, B-OG, I-EV
-4	##는	O	O	O, I-OG, I-EV, B-CV, I-CV
-5	그동안	O	O	O, B-OG, B-CV, B-LC, B-DT
-6	[SEP]	O	O	O, B-CV, B-OG, B-LC, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	[	O	O
+2	2012	B-DT	B-DT
+3	##지구	B-LC	O
+4	##촌	I-LC	O
+5	새	O	O
+6	##권력	O	O
+7	]	O	O
+8	3	B-QT	B-QT
+9	##차례	I-QT	I-QT
+10	美	B-LC	B-LC
+11	대선	B-EV	B-EV
+12	##후	B-CV	B-CV
+13	##보	I-CV	I-CV
+14	TV	B-TM	B-TM
+15	토론	O	O
+16	…	O	O
+17	中	B-LC	B-LC
+18	53	B-QT	B-QT
+19	vs	O	O
+20	日	B-LC	B-LC
+21	0	B-QT	B-QT
+22	[SEP]	O	O

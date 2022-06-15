@@ -1,38 +1,40 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-EV
-1	지멘스	B-OG	B-OG	B-OG, O, B-LC, B-AF, B-PS
-2	##의	O	O	O, I-OG, I-PS, I-AF, B-PS
-3	최고	B-CV	B-CV	B-CV, O, B-PS, B-AF, B-OG
-4	##경영	I-CV	I-CV	I-CV, B-CV, O, I-OG, I-PS
-5	##자	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-PS
-6	(	O	O	O, I-CV, I-OG, B-CV, I-QT
-7	CEO	B-CV	B-CV	B-CV, O, B-PS, B-OG, I-CV
-8	)	O	O	O, I-CV, B-PS, I-OG, I-PS
-9	페	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-10	##터	I-PS	I-PS	I-PS, O, I-OG, B-PS, I-LC
-11	뢰	I-PS	I-PS	I-PS, O, B-PS, I-OG, I-LC
-12	##셔	I-PS	I-PS	I-PS, O, I-OG, I-LC, B-PS
-13	##는	O	O	O, I-PS, I-OG, I-LC, I-AF
-14	독일	B-LC	B-LC	B-LC, B-OG, O, B-AF, B-PS
-15	주간지	O	O	O, I-OG, B-OG, B-AF, I-LC
-16	<	O	O	O, B-OG, I-OG, B-LC, B-AF
-17	슈	B-AF	B-OG	B-OG, B-AF, O, B-PS, I-OG
-18	##피	I-AF	I-OG	I-OG, I-AF, O, I-LC, B-OG
-19	##겔	I-AF	I-OG	I-OG, I-AF, O, I-LC, I-TM
-20	>	O	O	O, I-OG, I-AF, I-CV, B-OG
-21	과	O	O	O, B-OG, I-OG, B-LC, B-CV
-22	##의	O	O	O, I-OG, B-CV, B-OG, B-LC
-23	인터뷰	O	O	O, B-CV, B-OG, B-LC, B-EV
-24	##에서	O	O	O, I-OG, B-OG, B-LC, B-CV
-25	“	O	O	O, B-LC, B-OG, B-CV, B-PS
-26	지멘스	B-OG	B-OG	B-OG, O, B-LC, B-PS, B-AF
-27	##에서	O	O	O, I-OG, I-AF, I-PS, I-LC
-28	원전	O	O	O, B-TM, B-FD, B-AF, B-LC
-29	사업	O	O	O, I-TM, B-TM, B-LC, I-AF
-30	##의	O	O	O, B-PS, B-CV, I-TM, I-AF
-31	역사	O	O	O, B-CV, B-FD, B-LC, B-TM
-32	##는	O	O	O, B-CV, B-PS, B-LC, B-OG
-33	끝났	O	O	O, B-CV, B-TM, B-OG, B-LC
-34	##다	O	O	O, I-OG, B-CV, B-LC, B-PS
-35	.	O	O	O, B-LC, B-OG, B-PS, B-CV
-36	[SEP]	O	O	O, B-LC, B-OG, B-CV, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	연구소	O	O
+2	##와	O	O
+3	불	B-AF	B-OG
+4	##국사	I-AF	I-OG
+5	쪽	O	O
+6	##은	O	O
+7	수습	O	O
+8	##된	O	O
+9	사리	O	O
+10	##들	O	O
+11	##을	O	O
+12	석탑	O	O
+13	##에	O	O
+14	다시	O	O
+15	봉안	O	O
+16	##할	O	O
+17	때	O	O
+18	##까	O	O
+19	##지	O	O
+20	불	B-AF	B-AF
+21	##국사	I-AF	I-AF
+22	무	I-AF	O
+23	##설	I-AF	O
+24	##전	I-AF	O
+25	##에	O	O
+26	모시	O	O
+27	##고	O	O
+28	사리	B-EV	B-EV
+29	##친	I-EV	I-EV
+30	##견	I-EV	I-EV
+31	##법	I-EV	I-EV
+32	##회	I-EV	I-EV
+33	##를	O	O
+34	열	O	O
+35	예정	O	O
+36	##이다	O	O
+37	.	O	O
+38	[SEP]	O	O

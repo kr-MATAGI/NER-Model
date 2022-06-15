@@ -1,83 +1,125 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	김기	B-PS	B-PS	B-PS, B-OG, O, B-LC, I-PS
-2	##문	I-PS	I-PS	I-PS, I-OG, O, I-DT, I-LC
-3	(	O	O	O, I-PS, I-OG, B-LC, B-CV
-4	56	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-LC
-5	)	O	O	O, I-QT, I-DT, I-OG, B-LC
-6	포항	B-OG	B-OG	B-OG, B-LC, O, B-AF, B-EV
-7	##공	I-OG	I-OG	I-OG, I-LC, O, I-AF, I-EV
-8	##대	I-OG	I-OG	I-OG, I-LC, O, I-AF, I-EV
-9	첨단	O	O	O, B-OG, I-OG, B-LC, B-AF
-10	##재료	O	O	O, I-OG, I-LC, I-CV, B-OG
-11	##과학	O	O	O, I-OG, I-LC, I-CV, I-FD
-12	##부	O	O	O, I-OG, I-LC, I-CV, I-FD
-13	교수	B-CV	B-CV	B-CV, O, I-CV, B-OG, I-OG
-14	연구	O	O	O, I-CV, B-OG, B-CV, I-OG
-15	##팀	O	O	O, I-OG, I-CV, B-OG, I-LC
-16	##은	O	O	O, B-PS, B-LC, I-OG, B-OG
-17	19	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-LC
-18	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-19	나노	B-QT	O	O, B-TM, B-TR, B-FD, B-MT
-20	(	O	O	O, I-TM, I-OG, I-QT, I-LC
-21	[UNK]	O	O	O, B-QT, B-LC, I-QT, B-PS
-22	10	B-QT	O	O, B-QT, I-QT, B-DT, B-PS
-23	##억	I-QT	O	O, I-QT, B-QT, I-LC, I-DT
-24	##분	I-QT	O	O, I-QT, B-QT, I-LC, I-DT
-25	##의	I-QT	O	O, I-QT, B-QT, I-LC, B-PS
-26	1	I-QT	O	O, B-QT, I-QT, I-LC, B-PS
-27	##m	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-28	)	O	O	O, I-QT, B-PS, B-LC, B-QT
-29	크기	O	O	O, B-CV, B-TM, B-PS, B-QT
-30	##에	O	O	O, B-PS, B-TM, B-CV, B-QT
-31	호박	B-TM	B-TM	B-TM, B-LC, B-AF, O, B-CV
-32	모양	I-TM	I-TM	I-TM, O, I-QT, B-TM, I-AF
-33	##을	O	O	O, I-TM, I-OG, I-QT, I-CV
-34	한	O	O	O, B-QT, B-PS, B-TM, B-LC
-35	화합물	O	O	O, B-MT, I-MT, B-CV, B-TM
-36	‘	O	O	O, B-MT, B-CV, B-LC, I-MT
-37	쿠	B-MT	B-MT	B-MT, O, B-AF, B-TM, I-MT
-38	##커	I-MT	I-MT	I-MT, O, B-MT, I-TM, I-AF
-39	##비	I-MT	I-MT	I-MT, O, I-TM, I-AF, B-MT
-40	##투	I-MT	I-MT	I-MT, O, I-TM, I-AF, B-MT
-41	##릴	I-MT	I-MT	I-MT, O, I-TM, I-AF, B-MT
-42	’	O	O	O, I-MT, I-AF, I-TM, I-OG
-43	로	O	O	O, B-LC, B-OG, B-PS, B-TM
-44	세포	O	O	O, B-TM, B-AF, B-LC, B-OG
-45	##에서	O	O	O, B-TM, B-LC, I-TM, B-PS
-46	세포	O	O	O, B-TM, B-AF, B-MT, B-LC
-47	##막	O	O	O, I-TM, I-MT, I-AF, I-TR
-48	단백질	B-MT	B-MT	B-MT, I-MT, O, B-TM, I-TM
-49	##을	O	O	O, I-TM, I-AF, B-CV, I-MT
-50	처음	O	O	O, B-QT, B-LC, B-CV, B-TM
-51	분리	O	O	O, B-LC, B-CV, I-QT, B-TM
-52	##하	O	O	O, B-LC, B-PS, B-OG, B-CV
-53	##는	O	O	O, B-LC, B-CV, B-PS, B-OG
-54	데	O	O	O, B-LC, B-OG, B-CV, B-PS
-55	성공	O	O	O, B-LC, B-OG, B-CV, B-TM
-56	##해	O	O	O, B-LC, B-PS, B-OG, I-OG
-57	논문	O	O	O, B-CV, B-LC, B-FD, B-TM
-58	##이	O	O	O, B-LC, B-PS, B-OG, B-DT
-59	국제	O	O	O, B-OG, B-CV, B-AF, B-FD
-60	저널	O	O	O, I-OG, I-AF, B-FD, I-FD
-61	<	O	O	O, B-LC, B-OG, I-OG, B-AF
-62	네이처	B-AF	B-AF	B-AF, B-OG, B-PS, B-LC, O
-63	>	O	O	O, I-OG, I-AF, I-DT, I-EV
-64	자매	O	O	O, B-CV, B-QT, B-TM, B-AF
-65	##지	O	O	O, I-QT, I-CV, I-DT, I-OG
-66	##인	O	O	O, I-DT, B-PS, B-LC, I-QT
-67	<	O	O	O, B-DT, B-OG, B-LC, B-AF
-68	네이처	B-AF	B-AF	B-AF, B-OG, B-PS, O, B-EV
-69	케미	I-AF	I-AF	I-AF, I-OG, O, I-FD, I-EV
-70	##스트	I-AF	I-AF	I-AF, I-OG, O, I-FD, I-EV
-71	##리	I-AF	I-AF	I-AF, I-OG, O, I-FD, I-LC
-72	>	O	O	O, I-OG, I-AF, I-DT, I-EV
-73	20	B-DT	O	O, B-DT, B-QT, B-TI, I-DT
-74	##일치	I-DT	O	O, I-DT, I-QT, B-DT, I-OG
-75	##에	O	O	O, I-DT, B-LC, B-OG, B-DT
-76	실린	O	O	O, B-DT, B-LC, B-OG, B-CV
-77	##다고	O	O	O, B-LC, B-OG, B-CV, I-DT
-78	밝혔	O	O	O, B-OG, B-CV, B-LC, B-DT
-79	##다	O	O	O, B-CV, B-LC, I-OG, B-OG
-80	.	O	O	O, B-LC, B-OG, B-PS, B-CV
-81	[SEP]	O	O	O, B-LC, B-OG, B-CV, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	동아일보	B-OG	B-OG
+2	##가	O	O
+3	8	B-DT	B-DT
+4	##일	I-DT	I-DT
+5	입수	O	O
+6	##한	O	O
+7	환경부	B-OG	B-OG
+8	##와	O	O
+9	국립	B-OG	B-OG
+10	##환경	I-OG	I-OG
+11	##과학	I-OG	I-OG
+12	##원	I-OG	I-OG
+13	##의	O	O
+14	‘	O	O
+15	고농	B-AF	O
+16	##도	I-AF	O
+17	오존	I-AF	O
+18	##발	I-AF	O
+19	##생	I-AF	O
+20	원인	I-AF	O
+21	규명	I-AF	O
+22	##을	I-AF	O
+23	위한	I-AF	O
+24	정밀	I-AF	O
+25	##조사	I-AF	O
+26	결과	I-AF	O
+27	보고서	I-AF	O
+28	’	O	O
+29	에	O	O
+30	따르	O	O
+31	##면	O	O
+32	2001	B-DT	B-DT
+33	##년	I-DT	I-DT
+34	##부터	I-DT	I-DT
+35	2010	I-DT	I-DT
+36	##년	I-DT	I-DT
+37	##까	I-DT	I-DT
+38	##지	I-DT	I-DT
+39	10	B-DT	B-DT
+40	##년	I-DT	I-DT
+41	##간	I-DT	I-DT
+42	여수	B-LC	B-LC
+43	일대	O	O
+44	##에	O	O
+45	##서	O	O
+46	오존	O	B-MT
+47	##농	O	O
+48	##도	O	O
+49	##가	O	O
+50	100	B-QT	B-QT
+51	##pp	I-QT	I-QT
+52	##b	I-QT	I-QT
+53	(	O	O
+54	오염	O	O
+55	##물	O	O
+56	##질	O	O
+57	농도	O	O
+58	단위	O	O
+59	·	O	O
+60	1	B-QT	B-QT
+61	##pp	I-QT	I-QT
+62	##b	I-QT	I-QT
+63	##는	O	O
+64	10	B-QT	B-QT
+65	##억	I-QT	I-QT
+66	분의	I-QT	I-QT
+67	1	I-QT	I-QT
+68	##로	O	O
+69	공기	O	O
+70	1	B-QT	B-QT
+71	##m	I-QT	I-QT
+72	##³	I-QT	I-QT
+73	##에	O	O
+74	오염	O	O
+75	##물	O	O
+76	##질	O	O
+77	1	B-QT	B-QT
+78	##μ	I-QT	I-QT
+79	##L	I-QT	I-QT
+80	·	O	O
+81	마이크로	O	O
+82	##리	O	O
+83	##터	O	O
+84	##가	O	O
+85	들어	O	O
+86	##있	O	O
+87	##는	O	O
+88	것	O	O
+89	)	O	O
+90	가	O	O
+91	넘	O	O
+92	##은	O	O
+93	날	O	O
+94	##을	O	O
+95	분석	O	O
+96	##한	O	O
+97	결과	O	O
+98	2001	B-DT	B-DT
+99	##년	I-DT	I-DT
+100	5	B-DT	B-DT
+101	.	I-DT	I-DT
+102	3	I-DT	I-DT
+103	##일	I-DT	I-DT
+104	,	O	O
+105	2004	B-DT	B-DT
+106	##년	I-DT	I-DT
+107	8	B-DT	B-DT
+108	.	I-DT	I-DT
+109	67	I-DT	I-DT
+110	##일	I-DT	I-DT
+111	,	O	O
+112	2007	B-DT	O
+113	##년	I-DT	I-DT
+114	10	O	O
+115	.	O	O
+116	33	O	O
+117	##일로	O	O
+118	계속	O	O
+119	증가	O	O
+120	##했	O	O
+121	##다	O	O
+122	.	O	O
+123	[SEP]	O	O

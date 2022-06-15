@@ -1,7 +1,51 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	미	O	B-CV	B-CV, O, B-OG, I-CV, B-LC
-2	##음	O	I-CV	I-CV, O, I-OG, B-CV, I-MT
-3	##이나	O	O	O, I-CV, I-OG, I-AF, I-QT
-4	이렇게	O	O	O, B-CV, B-OG, B-LC, B-TM
-5	[SEP]	O	O	O, B-CV, I-CV, B-TM, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	1	B-DT	B-DT
+2	##일	I-DT	I-DT
+3	##부터	I-DT	I-DT
+4	유치	O	O
+5	##권	O	O
+6	##이	O	O
+7	행사	O	O
+8	##되	O	O
+9	##면	O	O
+10	##서	O	O
+11	한	O	B-QT
+12	##번	O	I-QT
+13	공연장	O	O
+14	바깥	O	O
+15	##으로	O	O
+16	나오	O	O
+17	##면	O	O
+18	다시	O	O
+19	들어갈	O	O
+20	수	O	O
+21	없	O	O
+22	##다	O	O
+23	보	O	O
+24	##니	O	O
+25	장유	B-PS	B-PS
+26	##정	I-PS	I-PS
+27	연출가	B-CV	B-CV
+28	##와	O	O
+29	주요	O	O
+30	스태프	B-CV	B-CV
+31	10	B-QT	B-QT
+32	##여	I-QT	I-QT
+33	##명	I-QT	I-QT
+34	##이	O	O
+35	31	B-DT	B-DT
+36	##일	I-DT	I-DT
+37	##부터	I-DT	I-DT
+38	공연장	O	O
+39	안	O	O
+40	##에	O	O
+41	남아	O	O
+42	작품	O	O
+43	준비	O	O
+44	##를	O	O
+45	계속	O	O
+46	##했	O	O
+47	##다	O	O
+48	.	O	O
+49	[SEP]	O	O

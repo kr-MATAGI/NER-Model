@@ -1,35 +1,32 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-EV, I-CV
-1	버거	B-OG	B-OG	B-OG, O, B-PS, I-OG, B-AF
-2	##킹	I-OG	I-OG	I-OG, O, B-OG, I-AF, I-PS
-3	측은	O	O	O, I-OG, B-OG, I-AF, B-CV
-4	본보	B-OG	O	O, B-OG, B-CV, B-AF, B-PS
-5	##의	O	O	O, I-OG, B-OG, B-LC, B-PS
-6	취재	O	O	O, B-OG, B-LC, B-CV, B-TM
-7	사실	O	O	O, B-LC, B-OG, B-CV, I-OG
-8	##을	O	O	O, B-OG, B-LC, B-CV, B-PS
-9	확인	O	O	O, B-OG, B-LC, B-CV, B-PS
-10	##한	O	O	O, B-OG, B-LC, B-PS, I-OG
-11	뒤	O	O	O, B-OG, B-LC, B-CV, B-TM
-12	“	O	O	O, B-LC, B-OG, B-CV, B-PS
-13	앞	O	O	O, B-OG, B-CV, B-LC, B-PS
-14	##으로	O	O	O, B-PS, B-CV, B-LC, B-OG
-15	한정판	O	O	O, B-CV, B-AF, B-TM, B-LC
-16	메뉴	O	O	O, I-CV, B-CV, I-AF, I-EV
-17	##에	O	O	O, I-CV, B-CV, I-AF, I-EV
-18	대해서	O	O	O, B-LC, B-OG, B-CV, B-TM
-19	##도	O	O	O, B-LC, B-OG, B-CV, B-PS
-20	충실히	O	O	O, B-LC, B-CV, B-TM, B-PS
-21	영양	O	O	O, B-TM, B-CV, B-LC, B-MT
-22	##정보	O	O	O, I-CV, I-TM, I-LC, I-TR
-23	##를	O	O	O, B-LC, B-CV, B-OG, B-PS
-24	공개	O	O	O, B-CV, B-LC, B-TM, B-OG
-25	##하	O	O	O, B-LC, B-PS, B-OG, B-CV
-26	##겠다	O	O	O, B-CV, B-LC, B-OG, I-OG
-27	”	O	O	O, B-CV, B-OG, B-LC, B-TM
-28	고	O	O	O, B-OG, B-CV, B-LC, B-TM
-29	전해	O	O	O, B-OG, B-CV, B-LC, B-TM
-30	##왔	O	O	O, I-OG, B-CV, B-LC, B-OG
-31	##다	O	O	O, B-CV, B-OG, I-OG, B-LC
-32	.	O	O	O, B-LC, B-OG, B-CV, B-PS
-33	[SEP]	O	O	O, B-CV, B-LC, B-OG, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	한나라당	B-OG	B-OG
+2	##의	O	O
+3	세종시	B-OG	B-LC
+4	당론	O	O
+5	변경	O	O
+6	전략	O	O
+7	##을	O	O
+8	두고	O	O
+9	친	O	O
+10	##이	O	O
+11	(	O	O
+12	親	O	O
+13	李	O	O
+14	)	O	O
+15	주류	O	O
+16	##계	O	O
+17	사이	O	O
+18	##에	O	O
+19	##서도	O	O
+20	두	B-QT	B-QT
+21	갈래	I-QT	I-QT
+22	##의	O	O
+23	목소리	O	O
+24	##가	O	O
+25	나오	O	O
+26	##고	O	O
+27	있	O	O
+28	##다	O	O
+29	.	O	O
+30	[SEP]	O	O

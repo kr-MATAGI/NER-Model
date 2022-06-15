@@ -1,15 +1,28 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-AF, I-CV
-1	하루	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-LC
-2	##에	O	O	O, I-DT, I-QT, I-OG, I-EV
-3	3	B-QT	B-QT	B-QT, O, B-DT, I-QT, B-TI
-4	##팀	I-QT	I-QT	I-QT, O, I-DT, I-EV, I-OG
-5	##까	O	I-QT	I-QT, O, B-QT, I-DT, I-TI
-6	##지만	O	I-QT	I-QT, O, I-DT, I-TI, B-QT
-7	예약	O	O	O, I-QT, B-CV, B-TM, B-OG
-8	##을	O	O	O, B-CV, B-OG, B-TM, B-PS
-9	받	O	O	O, B-CV, B-OG, B-TM, B-LC
-10	##는	O	O	O, B-CV, B-OG, B-TM, B-AF
-11	##다	O	O	O, B-CV, B-OG, I-OG, B-TM
-12	.	O	O	O, B-CV, B-OG, B-LC, I-OG
-13	[SEP]	O	O	O, B-CV, B-OG, I-OG, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	아워	B-OG	B-OG
+2	##홈	I-OG	I-OG
+3	선	O	B-OG
+4	##농	O	I-OG
+5	등	O	O
+6	##은	O	O
+7	기존	O	O
+8	김치	B-CV	B-CV
+9	##보	O	O
+10	##다	O	O
+11	나트륨	B-MT	B-MT
+12	함량	O	O
+13	##을	O	O
+14	30	B-QT	B-QT
+15	##∼	I-QT	I-QT
+16	##50	I-QT	I-QT
+17	%	I-QT	I-QT
+18	줄인	O	O
+19	저	O	O
+20	##염	O	O
+21	김치	B-CV	B-CV
+22	##를	O	O
+23	내놨	O	O
+24	##다	O	O
+25	.	O	O
+26	[SEP]	O	O

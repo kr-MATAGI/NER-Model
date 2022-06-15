@@ -1,53 +1,69 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-EV, I-CV
-1	서울시	B-LC	B-OG	B-OG, B-LC, O, B-PS, B-AF
-2	##가	O	O	O, I-OG, B-OG, I-LC, B-PS
-3	올해	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-4	상수도	O	O	O, B-AF, B-MT, B-FD, I-DT
-5	요금	O	O	O, I-AF, I-CV, B-CV, I-TM
-6	##을	O	O	O, B-CV, B-TM, B-PS, B-QT
-7	9	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-EV
-8	.	I-QT	I-QT	I-QT, O, B-QT, I-EV, I-LC
-9	6	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-10	%	I-QT	I-QT	I-QT, O, I-LC, I-EV, I-PS
-11	올리	O	O	O, I-QT, B-CV, B-OG, B-LC
-12	##는	O	O	O, B-LC, B-OG, B-CV, B-PS
-13	등	O	O	O, B-LC, B-OG, B-PS, B-TM
-14	최근	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-15	2	I-DT	I-DT	I-DT, B-DT, O, I-QT, I-PS
-16	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-17	동안	I-DT	I-DT	I-DT, O, I-QT, B-DT, I-EV
-18	43	B-QT	B-QT	B-QT, I-QT, I-DT, O, B-DT
-19	##개	I-QT	I-QT	I-QT, O, I-DT, I-EV, I-LC
-20	지자체	O	O	O, B-OG, I-QT, I-OG, B-CV
-21	##가	O	O	O, I-OG, B-PS, B-LC, B-OG
-22	상수도	O	O	O, B-AF, B-MT, B-FD, B-CV
-23	요금	O	O	O, B-CV, I-CV, I-AF, I-TM
-24	##을	O	O	O, B-CV, B-TM, B-PS, B-OG
-25	인상	O	O	O, B-CV, B-TM, B-LC, B-OG
-26	##한	O	O	O, B-PS, B-LC, B-OG, B-CV
-27	바	O	O	O, B-LC, B-OG, B-TM, B-CV
-28	있	O	O	O, B-LC, B-OG, B-PS, B-CV
-29	##어	O	O	O, B-LC, B-OG, B-PS, B-TM
-30	당장	O	O	O, B-LC, B-TM, B-PS, B-QT
-31	소비자	B-CV	B-CV	B-CV, O, B-OG, I-CV, B-PS
-32	물	O	O	O, I-CV, B-MT, I-AF, B-CV
-33	값	O	O	O, I-CV, I-AF, I-TM, I-LC
-34	##이	O	O	O, B-PS, B-LC, B-OG, B-TM
-35	오르	O	O	O, B-TM, B-CV, B-QT, B-LC
-36	##지	O	O	O, B-LC, B-TM, B-PS, B-OG
-37	않	O	O	O, B-LC, B-PS, B-TM, I-OG
-38	##겠	O	O	O, B-LC, B-CV, B-PS, I-AF
-39	##지만	O	O	O, B-LC, B-PS, B-TM, B-CV
-40	향후	O	O	O, B-LC, B-CV, B-TM, B-PS
-41	요금	O	O	O, B-CV, B-TM, B-LC, B-AF
-42	인상	O	O	O, B-TM, B-CV, B-LC, B-PS
-43	압력	O	O	O, B-PS, B-TM, B-CV, B-LC
-44	##으로	O	O	O, B-CV, B-LC, B-OG, B-PS
-45	작용	O	O	O, B-CV, B-LC, B-TM, B-PS
-46	##할	O	O	O, B-PS, B-LC, I-OG, B-CV
-47	수	O	O	O, B-PS, B-LC, B-TM, B-CV
-48	있	O	O	O, B-CV, B-TM, I-OG, B-LC
-49	##다	O	O	O, B-CV, B-TM, B-LC, B-QT
-50	.	O	O	O, B-LC, B-PS, B-OG, B-CV
-51	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	북한	B-LC	B-OG
+2	##이	O	O
+3	이날	B-DT	B-DT
+4	처음	O	O
+5	공개	O	O
+6	##한	O	O
+7	ICBM	B-AF	B-AF
+8	##은	O	O
+9	▲	O	O
+10	##중국	B-LC	B-LC
+11	##에	O	O
+12	##서	O	O
+13	도입	O	O
+14	##한	O	O
+15	바퀴	O	O
+16	16	B-QT	B-QT
+17	##개	I-QT	I-QT
+18	달린	O	O
+19	대형	O	O
+20	이동식	O	O
+21	발사	O	O
+22	차량	O	O
+23	##에	O	O
+24	원통	B-TM	B-TM
+25	##형	I-TM	I-TM
+26	발사	O	O
+27	##관	O	O
+28	##을	O	O
+29	실은	O	O
+30	형태	O	O
+31	▲	O	O
+32	##대	O	O
+33	##형	O	O
+34	트레일러	O	O
+35	##에	O	O
+36	실려	O	O
+37	이동하	O	O
+38	##는	O	O
+39	발사	O	O
+40	##관	O	O
+41	##을	O	O
+42	가진	O	O
+43	형태	O	O
+44	▲	O	O
+45	##무	B-LC	O
+46	##수단	I-LC	O
+47	미사일	B-AF	B-AF
+48	이동식	O	O
+49	발사	O	O
+50	차량	O	O
+51	##에	O	O
+52	기존	O	O
+53	KN	B-AF	B-AF
+54	-	I-AF	I-AF
+55	08	I-AF	I-AF
+56	ICBM	B-AF	B-AF
+57	개조	O	O
+58	##형	O	O
+59	##을	O	O
+60	실은	O	O
+61	형태	O	O
+62	등	O	O
+63	3	B-QT	B-QT
+64	##종	I-QT	I-QT
+65	##이다	O	O
+66	.	O	O
+67	[SEP]	O	O

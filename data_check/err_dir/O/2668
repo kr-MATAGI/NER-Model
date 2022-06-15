@@ -1,13 +1,53 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	위기	O	O	O, B-CV, B-PS, B-AF, B-OG
-2	##의	O	O	O, B-PS, I-AF, I-OG, B-LC
-3	한화	B-OG	B-OG	B-OG, B-LC, O, B-AF, B-PS
-4	‘	O	O	O, I-OG, I-AF, B-CV, I-EV
-5	외	O	B-CV	B-CV, O, B-TM, B-QT, B-PS
-6	##인	O	I-CV	I-CV, O, I-TM, B-CV, I-AM
-7	승부수	O	O	O, I-CV, B-CV, B-PS, B-TM
-8	’	O	O	O, I-CV, B-CV, B-LC, B-OG
-9	통할	O	O	O, B-CV, B-OG, B-LC, B-TM
-10	##까	O	O	O, B-LC, B-OG, I-OG, B-CV
-11	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	이	O	O
+2	##를	O	O
+3	놓	O	O
+4	##고	O	O
+5	인	B-PS	B-PS
+6	위원장	B-CV	B-CV
+7	측	O	O
+8	##에	O	O
+9	##선	O	O
+10	""""	O	O
+11	인적	O	O
+12	쇄신	O	O
+13	##에	O	O
+14	##서	B-PS	O
+15	성과	O	O
+16	##를	O	O
+17	내	O	O
+18	##고	O	O
+19	만나	O	O
+20	##자	O	O
+21	##는	O	O
+22	뜻	O	O
+23	""""	O	O
+24	이라	O	O
+25	##고	O	O
+26	했	O	O
+27	##지만	O	O
+28	,	O	O
+29	서	O	B-PS
+30	의원	B-CV	B-CV
+31	측	O	O
+32	##에	O	O
+33	##선	O	O
+34	""""	O	O
+35	인	B-PS	B-PS
+36	위원장	B-CV	B-CV
+37	행태	O	O
+38	##에	O	O
+39	불만	O	O
+40	##을	O	O
+41	가진	O	O
+42	고문	O	O
+43	##이	O	O
+44	많	O	O
+45	##다	O	O
+46	""""	O	O
+47	고	O	O
+48	했	O	O
+49	##다	O	O
+50	.	O	O
+51	[SEP]	O	O

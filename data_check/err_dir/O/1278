@@ -1,51 +1,12 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, I-OG, B-CV, I-AF
-1	충북	B-LC	B-LC	B-LC, O, B-OG, B-PS, I-LC
-2	음성	B-LC	B-LC	B-LC, O, I-LC, B-OG, B-AF
-3	꽃	B-LC	B-LC	B-LC, O, B-AF, B-PS, B-OG
-4	##동네	I-LC	I-LC	I-LC, O, I-AF, I-OG, I-PS
-5	##에서	O	O	O, I-LC, I-AF, I-OG, B-LC
-6	2	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-LC
-7	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-8	##째	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-9	이곳	O	O	O, I-DT, B-LC, B-CV, I-AF
-10	##을	O	O	O, B-CV, B-LC, B-PS, I-AF
-11	찾	O	O	O, B-PS, B-CV, B-LC, B-OG
-12	##는	O	O	O, B-PS, B-CV, B-LC, B-OG
-13	야	B-PS	B-PS	B-PS, O, I-PS, B-LC, B-OG
-14	##고	I-PS	I-PS	I-PS, O, I-OG, I-LC, B-PS
-15	##보	I-PS	I-PS	I-PS, O, I-LC, I-OG, B-PS
-16	수녀	B-CV	B-CV	B-CV, O, I-PS, B-OG, I-CV
-17	##는	O	O	O, I-CV, I-AF, I-OG, I-PS
-18	매주	O	O	O, B-DT, B-LC, B-PS, B-CV
-19	화요일	B-DT	B-DT	B-DT, I-DT, O, B-QT, B-CV
-20	밤	B-TI	B-TI	B-TI, O, B-LC, I-TI, I-DT
-21	을지로	B-LC	B-LC	B-LC, O, B-AF, I-LC, B-OG
-22	입구	O	O	O, I-LC, I-AF, B-LC, I-DT
-23	~	O	O	O, I-LC, B-LC, I-AF, I-DT
-24	덕수궁	B-LC	B-LC	B-LC, B-AF, O, B-OG, I-LC
-25	지하	O	O	O, I-LC, B-LC, I-AF, B-AF
-26	##도	O	O	O, I-LC, I-AF, B-LC, I-CV
-27	##와	O	O	O, I-LC, B-LC, I-AF, B-PS
-28	서울역	B-LC	B-LC	B-LC, O, B-AF, B-OG, I-LC
-29	,	O	O	O, I-LC, I-AF, B-LC, I-DT
-30	광화문	B-LC	B-LC	B-LC, O, B-AF, I-LC, B-OG
-31	,	O	O	O, I-LC, I-AF, B-LC, I-DT
-32	청계천	B-LC	B-LC	B-LC, O, B-AF, I-LC, B-OG
-33	일대	O	O	O, I-LC, I-AF, B-LC, I-DT
-34	##를	O	O	O, B-LC, B-CV, I-LC, B-PS
-35	순례	O	O	O, B-LC, B-CV, B-AF, B-TM
-36	##하	O	O	O, B-LC, I-LC, B-PS, I-AF
-37	##며	O	O	O, B-LC, B-OG, B-CV, B-PS
-38	노숙인	O	B-CV	B-CV, O, B-OG, I-CV, B-TM
-39	##들	O	O	O, I-CV, I-AF, I-OG, B-CV
-40	##에	O	O	O, B-CV, B-TM, B-LC, B-QT
-41	##게	O	O	O, B-CV, B-TM, B-LC, B-QT
-42	빵	O	B-CV	B-CV, O, I-CV, B-PT, B-AF
-43	##과	O	O	O, I-CV, I-AF, B-CV, I-OG
-44	음료수	B-CV	B-CV	B-CV, O, I-CV, B-AF, B-OG
-45	##를	O	O	O, I-CV, B-CV, I-AF, I-OG
-46	나눠	O	O	O, B-CV, B-TM, B-QT, B-LC
-47	##준다	O	O	O, B-CV, B-PS, B-TM, I-QT
-48	.	O	O	O, B-LC, B-PS, B-CV, B-AF
-49	[SEP]	O	O	O, B-LC, B-CV, I-LC, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	“	O	O
+2	주제	O	O
+3	##어	O	O
+4	##는	O	O
+5	‘	O	O
+6	꽃	O	B-PT
+7	’	O	O
+8	입니다	O	O
+9	.	O	O
+10	[SEP]	O	O

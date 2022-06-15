@@ -1,28 +1,21 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, B-CV, I-OG, I-EV
-1	[	O	O	O, B-LC, B-OG, B-CV, B-PS
-2	김정남	B-PS	B-PS	B-PS, O, B-LC, B-OG, I-PS
-3	피살	O	O	O, I-PS, B-CV, I-EV, I-OG
-4	]	O	O	O, B-LC, B-PS, B-OG, B-CV
-5	하태	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
-6	##경	I-PS	I-PS	I-PS, O, I-OG, I-LC, B-PS
-7	“	O	O	O, I-PS, B-CV, B-LC, I-OG
-8	中	B-LC	B-LC	B-LC, B-OG, O, I-LC, B-CV
-9	-	O	O	O, I-LC, B-LC, I-OG, I-AF
-10	동남아	B-LC	B-LC	B-LC, I-LC, O, B-OG, B-CV
-11	킬러	O	B-CV	B-CV, O, I-CV, B-AF, I-LC
-12	잠입	O	O	O, B-CV, I-CV, B-TM, B-LC
-13	##시	O	O	O, B-LC, B-CV, B-PS, I-CV
-14	##켜	O	O	O, B-LC, B-PS, B-OG, B-CV
-15	2014	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-OG
-16	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-17	##부터	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-18	청	O	O	O, B-LC, B-CV, B-TM, B-EV
-19	##부	O	O	O, I-LC, I-CV, I-TM, I-AF
-20	##암	O	O	O, I-LC, I-CV, I-AF, I-TM
-21	##살	O	O	O, I-LC, I-CV, I-AF, I-TM
-22	##로	O	O	O, I-LC, I-CV, I-AF, I-TM
-23	전략	O	O	O, B-CV, B-LC, B-TM, B-OG
-24	변경	O	O	O, B-CV, B-LC, I-CV, I-AF
-25	”	O	O	O, B-CV, B-LC, B-PS, B-OG
-26	[SEP]	O	O	O, B-LC, B-CV, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	이에	O	O
+2	비해	O	O
+3	여자	O	O
+4	대표	O	O
+5	##팀	O	O
+6	##은	O	O
+7	승승장구	O	O
+8	##하	O	O
+9	##며	O	O
+10	단체전	B-EV	B-EV
+11	금메달	B-CV	B-CV
+12	##을	O	O
+13	목	O	B-AM
+14	##에	O	O
+15	걸	O	O
+16	##었	O	O
+17	##다	O	O
+18	.	O	O
+19	[SEP]	O	O

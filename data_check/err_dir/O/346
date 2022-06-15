@@ -1,27 +1,32 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	[	O	O	O, B-OG, B-LC, B-CV, B-PS
-2	6	B-EV	B-EV	B-EV, O, B-DT, B-LC, B-AF
-3	·	I-EV	I-EV	I-EV, I-DT, O, I-QT, I-AF
-4	2	I-EV	I-EV	I-EV, I-AF, I-DT, I-QT, I-LC
-5	지방	I-EV	I-EV	I-EV, O, B-EV, I-AF, I-DT
-6	##선거	I-EV	I-EV	I-EV, O, I-AF, I-DT, I-QT
-7	]	O	O	O, I-EV, I-AF, I-OG, B-OG
-8	與	O	B-OG	B-OG, O, B-LC, B-PS, B-EV
-9	텃밭	O	O	O, I-OG, B-CV, B-LC, I-EV
-10	경남	B-LC	B-LC	B-LC, B-OG, O, B-AF, B-EV
-11	,	O	O	O, I-OG, I-LC, I-AF, B-OG
-12	예상	O	O	O, B-OG, B-CV, B-LC, B-TM
-13	밖	O	O	O, B-TM, B-LC, B-PS, B-CV
-14	접전	O	O	O, B-OG, B-CV, B-LC, B-TM
-15	;	O	O	O, B-OG, B-LC, B-PS, B-CV
-16	김두관	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
-17	'	O	O	O, I-PS, I-OG, B-CV, I-AF
-18	두각	O	O	O, B-OG, B-LC, B-CV, B-PS
-19	'	O	O	O, B-OG, B-CV, I-OG, B-LC
-20	,	O	O	O, B-OG, B-LC, B-CV, B-PS
-21	한나라	B-OG	B-OG	B-OG, O, B-LC, B-PS, I-OG
-22	'	O	O	O, I-OG, B-CV, I-AF, I-EV
-23	두통	B-TM	B-TM	B-TM, O, B-AF, B-TR, B-QT
-24	'	O	O	O, I-TM, I-OG, I-AF, I-CV
-25	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	사고	O	O
+2	##가	O	O
+3	날	O	O
+4	때	O	O
+5	##만	O	O
+6	반짝	O	O
+7	관심	O	O
+8	##을	O	O
+9	보였	O	O
+10	##다가	O	O
+11	금세	O	O
+12	잊	O	O
+13	##는	O	O
+14	##다면	O	O
+15	세	B-PS	B-PS
+16	##림	I-PS	I-PS
+17	##이	O	I-EV
+18	##의	O	O
+19	비극	O	O
+20	##은	O	O
+21	영원히	O	O
+22	반복	O	O
+23	##될	O	O
+24	수	O	O
+25	##밖	O	O
+26	##에	O	O
+27	없	O	O
+28	##다	O	O
+29	.	O	O
+30	[SEP]	O	O

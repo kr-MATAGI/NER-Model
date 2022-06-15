@@ -1,18 +1,26 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-QT
-1	고양	B-LC	B-LC	B-LC, O, B-OG, B-AF, B-EV
-2	행주	B-AF	B-LC	B-LC, B-EV, B-AF, O, B-PS
-3	##산성	I-AF	I-LC	I-LC, I-EV, I-AF, O, I-PS
-4	달	O	O	O, I-EV, B-EV, B-LC, I-LC
-5	##맞이	O	I-EV	I-EV, O, I-LC, I-AF, I-OG
-6	##는	O	O	O, I-EV, I-AF, I-OG, I-LC
-7	행주	B-AF	B-AF	B-AF, O, B-PT, B-CV, B-LC
-8	##대	I-AF	I-AF	I-AF, O, I-EV, I-PT, I-LC
-9	##첩	I-AF	I-AF	I-AF, O, I-CV, I-EV, I-PT
-10	##비	I-AF	I-AF	I-AF, O, I-EV, I-LC, I-PT
-11	주변	O	O	O, I-AF, I-LC, I-EV, I-QT
-12	##이	O	O	O, B-PS, I-AF, B-OG, B-LC
-13	제격	O	O	O, B-CV, B-LC, B-QT, B-OG
-14	##이다	O	O	O, B-CV, I-CV, I-QT, I-OG
-15	.	O	O	O, B-LC, B-CV, B-OG, B-PS
-16	[SEP]	O	O	O, B-LC, B-CV, I-AF, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	[	O	O
+2	한겨레	B-OG	B-OG
+3	]	O	O
+4	6	B-QT	B-QT
+5	##개	I-QT	I-QT
+6	##관	I-QT	I-QT
+7	·	O	O
+8	77	B-QT	B-QT
+9	##3	I-QT	I-QT
+10	##석	I-QT	I-QT
+11	‘	B-AF	O
+12	씨	I-AF	B-OG
+13	##네	I-AF	I-OG
+14	##큐	I-AF	I-OG
+15	’	I-AF	O
+16	1	I-AF	B-QT
+17	##호	I-AF	I-QT
+18	##점	I-AF	I-QT
+19	…	O	O
+20	경주	B-LC	B-LC
+21	최대	O	O
+22	멀티	O	O
+23	##플렉스	O	O
+24	[SEP]	O	O

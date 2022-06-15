@@ -1,40 +1,18 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-EV, I-CV
-1	윤	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-AF
-2	연출	O	B-CV	B-CV, O, B-FD, I-PS, I-CV
-3	##은	O	O	O, I-CV, I-OG, I-EV, I-AF
-4	이번	O	O	O, B-CV, B-FD, B-EV, I-EV
-5	공연	O	O	O, B-FD, I-EV, B-CV, B-EV
-6	##의	O	O	O, I-EV, I-AF, B-CV, I-OG
-7	한	O	O	O, B-QT, B-TM, B-DT, B-AF
-8	##줄	O	O	O, I-QT, I-TM, I-CV, I-DT
-9	성명	O	O	O, I-QT, B-CV, B-FD, B-OG
-10	##을	O	O	O, B-CV, B-OG, I-OG, I-EV
-11	통해	O	O	O, B-OG, B-CV, B-LC, B-TM
-12	“	O	O	O, B-CV, B-LC, B-PS, B-OG
-13	기록	O	O	O, B-CV, B-LC, B-PS, B-FD
-14	##할	O	O	O, B-PS, I-CV, B-LC, I-AF
-15	자유	O	O	O, B-CV, I-CV, B-PS, B-LC
-16	,	O	O	O, I-CV, B-PS, B-CV, I-OG
-17	기억	O	O	O, B-CV, B-LC, B-PS, B-TM
-18	##할	O	O	O, B-PS, I-CV, I-AF, B-LC
-19	의무	O	O	O, B-CV, I-CV, B-LC, B-PS
-20	##를	O	O	O, I-CV, B-PS, B-CV, B-LC
-21	통제	O	O	O, B-CV, B-LC, B-PS, B-OG
-22	##하	O	O	O, B-PS, B-LC, B-CV, B-OG
-23	##려	O	O	O, B-PS, B-CV, B-LC, B-OG
-24	하	O	O	O, B-CV, B-OG, B-PS, B-LC
-25	##는	O	O	O, B-PS, B-LC, B-CV, B-OG
-26	모든	O	O	O, B-PS, B-LC, B-OG, B-CV
-27	감시	O	O	O, B-CV, B-OG, B-PS, B-LC
-28	##와	O	O	O, B-PS, I-CV, I-OG, B-LC
-29	검열	O	O	O, B-CV, B-OG, B-LC, B-PS
-30	##에	O	O	O, I-CV, I-OG, B-PS, B-CV
-31	반대	O	O	O, B-CV, B-OG, B-TM, B-PS
-32	##한다	O	O	O, B-CV, B-PS, I-OG, B-OG
-33	”	O	O	O, B-CV, B-OG, I-OG, B-LC
-34	고	O	O	O, B-CV, B-LC, B-OG, B-TM
-35	밝혔	O	O	O, B-CV, B-OG, B-LC, I-OG
-36	##다	O	O	O, B-CV, I-OG, I-EV, B-OG
-37	.	O	O	O, B-CV, B-LC, B-PS, B-OG
-38	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	네	O	O
+2	본인	O	O
+3	##이	O	O
+4	좋	O	O
+5	##아	O	O
+6	##하시	O	O
+7	##는	O	O
+8	콩	O	B-CV
+9	##을	O	O
+10	쓰	O	O
+11	##시	O	O
+12	##면	O	O
+13	좋	O	O
+14	##은	O	O
+15	##데	O	O
+16	[SEP]	O	O

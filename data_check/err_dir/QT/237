@@ -1,33 +1,25 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, I-OG, B-CV, I-EV
-1	우리	O	O	O, B-CV, B-OG, B-PS, B-LC
-2	##가	O	O	O, B-PS, B-CV, B-OG, B-LC
-3	정성	O	O	O, B-CV, B-PS, B-LC, B-OG
-4	##을	O	O	O, B-CV, B-PS, B-LC, B-OG
-5	다	O	O	O, B-CV, B-PS, B-LC, B-OG
-6	##했	O	O	O, B-PS, B-CV, B-LC, B-OG
-7	##는데	O	O	O, B-PS, B-CV, B-LC, B-TM
-8	##도	O	O	O, B-PS, B-LC, B-CV, B-OG
-9	아이	O	O	O, B-CV, B-PS, B-AM, B-TM
-10	##가	O	O	O, B-PS, B-CV, B-LC, I-PS
-11	낫	O	O	O, B-CV, B-PS, B-LC, B-TM
-12	##지	O	O	O, B-PS, B-LC, B-CV, B-TM
-13	않	O	O	O, B-PS, B-LC, B-CV, B-TM
-14	##고	O	O	O, B-PS, B-LC, B-CV, B-TM
-15	잘	O	O	O, B-CV, B-LC, B-PS, B-TM
-16	자라	O	O	O, B-PS, B-CV, B-LC, B-TM
-17	##지	O	O	O, B-PS, B-LC, B-CV, B-TM
-18	못한다면	O	O	O, B-CV, B-LC, B-PS, B-TM
-19	그	O	O	O, B-CV, B-LC, B-PS, B-OG
-20	노력	O	O	O, B-CV, B-PS, B-LC, B-OG
-21	##한	O	O	O, B-PS, B-CV, B-LC, B-OG
-22	것	B-QT	O	O, B-PS, B-CV, B-LC, I-CV
-23	가지	I-QT	O	O, B-PS, B-CV, B-LC, B-TM
-24	##고	O	O	O, B-PS, B-LC, B-CV, B-OG
-25	자랑	O	O	O, B-CV, I-CV, B-LC, B-PS
-26	##하	O	O	O, B-PS, I-CV, B-CV, B-LC
-27	##겠	O	O	O, B-CV, I-CV, B-PS, B-LC
-28	##어요	O	O	O, B-CV, I-CV, B-PS, I-OG
-29	?	O	O	O, B-CV, B-PS, I-OG, I-CV
-30	”	O	O	O, B-CV, B-LC, B-PS, B-TM
-31	[SEP]	O	O	O, B-CV, B-PS, B-LC, I-CV
+	text	label	preds
+0	[CLS]	O	O
+1	2008	B-DT	B-DT
+2	##년	I-DT	I-DT
+3	7	B-QT	B-QT
+4	##골	I-QT	I-QT
+5	##3	B-QT	I-QT
+6	##도	I-QT	I-QT
+7	##움	I-QT	I-QT
+8	(	O	O
+9	25	B-QT	B-QT
+10	##경기	I-QT	I-QT
+11	)	O	O
+12	을	O	O
+13	기록	O	O
+14	##하	O	O
+15	##며	O	O
+16	화려	O	O
+17	##하	O	O
+18	##게	O	O
+19	성장	O	O
+20	##했	O	O
+21	##다	O	O
+22	.	O	O
+23	[SEP]	O	O

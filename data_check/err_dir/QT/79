@@ -1,52 +1,51 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	이	O	O	O, B-CV, B-OG, B-PS, B-QT
-2	##들	O	O	O, B-CV, I-OG, I-CV, I-AF
-3	##은	O	O	O, B-CV, B-OG, B-LC, B-TM
-4	치	B-FD	B-FD	B-FD, O, B-OG, B-CV, B-AF
-5	##의학	I-FD	I-FD	I-FD, O, I-OG, B-FD, I-AF
-6	##대	O	O	O, I-OG, I-FD, B-OG, I-EV
-7	##학	O	I-OG	I-OG, O, B-OG, I-FD, I-EV
-8	##원	O	O	O, I-OG, I-EV, I-AF, I-FD
-9	석	B-CV	B-CV	B-CV, O, I-CV, B-FD, B-TM
-10	·	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-FD
-11	박사	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-QT
-12	학위	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-QT
-13	##생	I-CV	I-CV	I-CV, O, B-CV, I-TM, I-OG
-14	##들	O	O	O, I-CV, B-CV, I-OG, I-AF
-15	##에	O	O	O, B-CV, B-TM, B-LC, I-CV
-16	##게	O	O	O, B-CV, B-LC, B-QT, B-TM
-17	석사	O	O	O, B-CV, I-CV, B-FD, B-TM
-18	##학	O	O	O, I-CV, B-QT, B-CV, I-QT
-19	##위	O	O	O, I-CV, I-QT, I-LC, I-TM
-20	##는	O	O	O, I-QT, I-CV, B-CV, B-PS
-21	500	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-CV
-22	##만	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-23	##∼	O	I-QT	I-QT, O, I-LC, B-QT, I-DT
-24	##15	B-QT	I-QT	I-QT, B-QT, O, I-LC, I-DT
-25	##00	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-DT
-26	##만	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-DT
-27	원	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-DT
-28	,	O	O	O, I-QT, B-CV, I-OG, I-CV
-29	박사	B-CV	B-CV	B-CV, O, B-QT, B-TM, B-FD
-30	##학	O	O	O, I-CV, B-QT, B-CV, B-TM
-31	##위	O	O	O, I-QT, I-CV, I-LC, I-TM
-32	##는	O	O	O, I-QT, I-CV, B-PS, B-CV
-33	2000	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-CV
-34	##만	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-35	##∼	O	I-QT	I-QT, O, I-LC, B-QT, I-DT
-36	##35	B-QT	I-QT	I-QT, B-QT, O, I-LC, I-DT
-37	##00	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-38	##만	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-39	원	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-40	##을	O	O	O, I-QT, B-CV, I-OG, I-CV
-41	받	O	O	O, B-CV, I-QT, B-PS, B-TM
-42	##고	O	O	O, B-CV, I-QT, B-PS, I-CV
-43	대	O	O	O, B-CV, B-EV, B-LC, B-PS
-44	##필	O	O	O, I-CV, I-EV, B-CV, I-AF
-45	장사	O	O	O, B-CV, I-CV, I-EV, B-QT
-46	##를	O	O	O, B-CV, I-EV, I-CV, B-OG
-47	했	O	O	O, B-CV, B-OG, B-LC, B-TM
-48	##다	O	O	O, B-CV, I-OG, B-LC, I-CV
-49	.	O	O	O, B-CV, B-LC, B-PS, B-OG
-50	[SEP]	O	O	O, B-CV, B-LC, I-OG, B-QT
+	text	label	preds
+0	[CLS]	O	O
+1	로이터	B-OG	B-OG
+2	##통신	I-OG	I-OG
+3	,	O	O
+4	NHK	B-OG	B-OG
+5	##방송	I-OG	I-OG
+6	등	O	O
+7	##에	O	O
+8	따르	O	O
+9	##면	O	O
+10	안보리	B-OG	B-OG
+11	결의	O	O
+12	##는	O	O
+13	최	B-PS	B-PS
+14	##춘	I-PS	I-PS
+15	##식	I-PS	I-PS
+16	제	B-QT	B-CV
+17	##2	I-QT	I-CV
+18	##자	O	I-CV
+19	##연	O	I-CV
+20	##과학	O	I-CV
+21	##원	O	I-CV
+22	##장	O	I-CV
+23	##을	O	O
+24	비롯	O	O
+25	##해	O	O
+26	개인	O	O
+27	16	B-QT	B-QT
+28	##명	I-QT	I-QT
+29	,	O	O
+30	국가	B-OG	B-OG
+31	##우주	I-OG	I-OG
+32	##개발	I-OG	I-OG
+33	##국	I-OG	I-OG
+34	(	O	O
+35	NA	B-OG	B-OG
+36	##DA	I-OG	I-OG
+37	)	O	O
+38	등	O	O
+39	기관	O	O
+40	12	B-QT	B-QT
+41	##곳	I-QT	I-QT
+42	##을	O	O
+43	제재	O	O
+44	대상	O	O
+45	##에	O	O
+46	올렸	O	O
+47	##다	O	O
+48	.	O	O
+49	[SEP]	O	O

@@ -1,21 +1,21 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-AF
-1	3	B-QT	B-TR	B-TR, B-QT, O, B-TM, B-FD
-2	##D	I-QT	I-TR	I-TR, I-QT, O, I-TM, B-TR
-3	업종	O	O	O, I-QT, I-TR, I-TM, B-CV
-4	중	O	O	O, B-QT, B-PS, B-TM, B-CV
-5	하나	B-QT	B-QT	B-QT, O, I-QT, B-TM, B-PS
-6	##인	O	O	O, I-QT, I-OG, B-PS, B-CV
-7	##데	O	O	O, B-CV, B-OG, I-QT, B-LC
-8	너무나	O	O	O, B-PS, B-LC, B-CV, B-QT
-9	국민	B-CV	B-CV	B-CV, O, B-OG, B-PS, B-EV
-10	눈치	O	O	O, I-CV, I-OG, B-CV, I-AF
-11	보	O	O	O, B-PS, B-LC, B-OG, B-CV
-12	##는	O	O	O, B-PS, B-LC, B-OG, B-CV
-13	것	O	O	O, B-CV, B-LC, B-OG, B-PS
-14	##은	O	O	O, B-CV, B-LC, B-OG, B-PS
-15	지양	O	O	O, B-CV, B-TM, B-LC, B-QT
-16	##해야	O	O	O, B-PS, I-OG, B-LC, I-CV
-17	한다	O	O	O, B-CV, I-OG, B-OG, B-LC
-18	.	O	O	O, B-LC, B-CV, B-OG, B-PS
-19	[SEP]	O	O	O, B-CV, B-LC, B-OG, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	미국	B-LC	B-LC
+2	메이저	B-OG	B-OG
+3	##리그	I-OG	I-OG
+4	##의	O	O
+5	한	B-QT	O
+6	시즌	I-QT	O
+7	최다	O	O
+8	홀드	B-TM	B-TM
+9	##는	O	O
+10	40	B-QT	B-QT
+11	##개	I-QT	I-QT
+12	,	O	O
+13	일본	B-OG	B-LC
+14	##은	O	O
+15	47	B-QT	B-QT
+16	##개	I-QT	I-QT
+17	##다	O	O
+18	.	O	O
+19	[SEP]	O	O

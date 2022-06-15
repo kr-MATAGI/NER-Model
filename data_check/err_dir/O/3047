@@ -1,49 +1,26 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	검찰	B-OG	B-OG	B-OG, O, B-LC, B-AF, B-PS
-2	##이	O	O	O, I-OG, B-PS, B-CV, B-OG
-3	SK	B-OG	B-OG	B-OG, O, B-LC, B-AF, B-EV
-4	계열사	O	O	O, I-OG, I-AF, I-CV, I-EV
-5	자금	O	O	O, B-CV, I-OG, I-CV, B-LC
-6	##을	O	O	O, B-PS, B-CV, B-LC, B-AF
-7	선물	O	O	O, B-CV, B-PS, B-LC, B-AF
-8	##투자	O	O	O, I-CV, B-CV, B-PS, I-LC
-9	##에	O	O	O, B-PS, I-CV, I-PS, I-LC
-10	횡령	O	B-CV	B-CV, O, I-CV, B-TM, B-OG
-11	##한	O	O	O, I-CV, B-PS, B-CV, I-OG
-12	혐의	O	O	O, B-CV, B-PS, I-CV, B-LC
-13	##를	O	O	O, B-CV, B-PS, B-LC, B-OG
-14	받	O	O	O, B-CV, B-PS, B-LC, B-OG
-15	##고	O	O	O, B-PS, B-LC, B-CV, B-OG
-16	있	O	O	O, B-CV, B-PS, B-LC, B-TM
-17	##는	O	O	O, B-PS, B-LC, B-CV, B-OG
-18	최재	B-PS	B-PS	B-PS, B-OG, O, B-LC, I-PS
-19	##원	I-PS	I-PS	I-PS, I-OG, O, B-PS, I-LC
-20	SK	B-OG	B-OG	B-OG, I-OG, I-PS, B-LC, O
-21	##그룹	I-OG	I-OG	I-OG, O, I-PS, I-LC, I-AF
-22	수석	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-AF
-23	##부	I-CV	I-CV	I-CV, B-CV, O, I-OG, I-EV
-24	##회장	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-EV
-25	(	O	O	O, I-CV, I-OG, I-QT, I-EV
-26	사진	O	O	O, B-CV, B-TM, B-LC, B-QT
-27	)	O	O	O, B-CV, B-LC, B-OG, B-PS
-28	에	O	O	O, B-CV, B-PS, B-LC, B-TM
-29	대해	O	O	O, B-LC, B-CV, B-TM, B-PS
-30	사전	O	O	O, B-CV, B-TM, B-AF, B-LC
-31	##구	O	O	O, B-CV, B-AF, I-CV, B-PS
-32	##속	O	O	O, I-CV, I-AF, I-TM, B-CV
-33	##영장	O	O	O, I-CV, I-AF, B-PS, I-TM
-34	##을	O	O	O, B-CV, B-LC, I-AF, I-CV
-35	청구	O	O	O, B-CV, B-LC, B-OG, B-TM
-36	##하기	O	O	O, B-PS, B-LC, B-OG, B-CV
-37	##로	O	O	O, B-CV, B-PS, B-LC, B-OG
-38	내부	O	O	O, B-CV, B-LC, B-TM, B-OG
-39	방침	O	O	O, B-CV, B-LC, B-TM, B-OG
-40	##을	O	O	O, B-CV, B-OG, B-PS, B-LC
-41	정한	O	O	O, B-CV, B-LC, B-OG, B-PS
-42	것	O	O	O, B-CV, B-LC, B-OG, B-PS
-43	##으로	O	O	O, B-CV, B-LC, B-TM, B-PS
-44	전해졌	O	O	O, B-LC, B-CV, B-TM, B-OG
-45	##다	O	O	O, B-CV, B-LC, B-TM, B-OG
-46	.	O	O	O, B-LC, B-PS, B-CV, B-OG
-47	[SEP]	O	O	O, B-LC, B-CV, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	네	O	O
+2	지금	O	O
+3	우리	O	O
+4	연구원	O	B-CV
+5	##에	O	O
+6	##는	O	O
+7	그	O	O
+8	~	O	O
+9	연구	O	O
+10	인력	O	O
+11	및	O	O
+12	행정	O	O
+13	##인	O	O
+14	##력	O	O
+15	##이	O	O
+16	모두	O	O
+17	몇	O	O
+18	명이	O	O
+19	##나	O	O
+20	있	O	O
+21	##습	O	O
+22	##니까	O	O
+23	?	O	O
+24	[SEP]	O	O

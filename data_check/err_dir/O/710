@@ -1,22 +1,29 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	[	O	O	O, B-OG, B-LC, B-PS, B-CV
-2	한겨레	B-OG	B-OG	B-OG, B-LC, O, B-AF, I-OG
-3	]	O	O	O, I-OG, I-AF, I-DT, I-EV
-4	4	B-QT	B-QT	B-QT, O, I-QT, B-EV, B-DT
-5	##명	I-QT	I-QT	I-QT, O, I-EV, I-PS, I-LC
-6	입국	O	O	O, B-LC, I-QT, B-CV, B-TM
-7	…	O	O	O, B-LC, B-OG, B-PS, B-CV
-8	중	O	B-LC	B-LC, B-OG, O, B-PS, B-TM
-9	비	O	O	O, I-LC, B-LC, I-OG, B-CV
-10	##공개	O	O	O, B-LC, B-CV, I-LC, B-TM
-11	요청	O	O	O, B-LC, B-CV, B-OG, B-TM
-12	##에도	O	O	O, B-CV, B-LC, B-OG, I-OG
-13	공개	O	O	O, B-LC, B-CV, B-TM, B-OG
-14	##돼	O	O	O, B-LC, B-OG, B-PS, B-CV
-15	향후	O	O	O, B-LC, B-OG, B-TM, B-CV
-16	협력	O	O	O, B-LC, B-OG, B-CV, B-TM
-17	##제한	O	O	O, I-OG, I-LC, I-CV, I-EV
-18	우려	O	O	O, B-CV, I-OG, B-LC, B-PS
-19	##도	O	O	O, B-LC, B-CV, B-OG, I-OG
-20	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	정경	B-PS	B-PS
+2	##화	I-PS	I-PS
+3	##는	O	O
+4	11	B-DT	B-DT
+5	##월	I-DT	I-DT
+6	##19	I-DT	I-DT
+7	##일	I-DT	I-DT
+8	서울	B-LC	B-LC
+9	서초동	B-LC	B-LC
+10	예술	B-AF	B-AF
+11	##의	I-AF	I-AF
+12	##전	I-AF	I-AF
+13	##당	I-AF	I-AF
+14	콘서트홀	O	O
+15	##에	O	O
+16	##서	O	O
+17	이번	O	O
+18	음반	O	O
+19	##에	O	O
+20	실린	O	O
+21	프로그램	O	O
+22	##으로	O	O
+23	관객	O	B-CV
+24	##과	O	O
+25	만난다	O	O
+26	.	O	O
+27	[SEP]	O	O

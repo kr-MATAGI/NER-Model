@@ -1,22 +1,42 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	그때	O	O	O, B-CV, B-OG, B-PS, B-LC
-2	##마다	O	O	O, B-PS, B-CV, B-OG, B-LC
-3	얘기	O	O	O, B-CV, B-OG, I-OG, B-TM
-4	##를	O	O	O, B-CV, B-OG, B-PS, B-LC
-5	하	O	O	O, B-CV, B-OG, B-PS, B-LC
-6	##는	O	O	O, B-CV, B-OG, B-PS, B-LC
-7	것	O	O	O, B-CV, B-OG, B-LC, B-PS
-8	##이	O	O	O, B-PS, B-OG, B-LC, B-CV
-9	사실	O	O	O, B-PS, B-LC, B-OG, B-CV
-10	리비아	B-LC	B-LC	B-LC, O, B-OG, B-PS, B-AF
-11	##의	O	O	O, I-LC, I-OG, B-PS, I-PS
-12	카다피	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-13	정권	O	O	O, I-PS, B-CV, B-OG, I-OG
-14	##이	O	O	O, I-OG, B-PS, I-PS, B-OG
-15	이천	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-16	##삼	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
-17	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
-18	##도	O	I-DT	I-DT, O, B-DT, I-QT, I-EV
-19	##에	O	O	O, I-DT, I-EV, B-CV, I-OG
-20	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	이	O	O
+2	사리	O	B-AF
+3	##는	O	O
+4	기원전	B-DT	B-DT
+5	2	I-DT	I-DT
+6	##세기	I-DT	I-DT
+7	##경	I-DT	I-DT
+8	스리랑카	B-LC	B-LC
+9	남부	B-TM	B-TM
+10	루	B-LC	B-LC
+11	##후	I-LC	I-LC
+12	##누	I-LC	I-LC
+13	왕국	I-LC	I-DT
+14	초기	O	B-DT
+15	##부터	O	I-DT
+16	전해	O	O
+17	##오	O	O
+18	##는	O	O
+19	것	O	O
+20	##으로	O	O
+21	암	B-LC	B-LC
+22	##바	I-LC	I-LC
+23	##란	I-LC	I-LC
+24	##토	I-LC	I-LC
+25	##타	I-LC	I-LC
+26	지역	O	I-LC
+27	테	B-OG	B-PS
+28	##네	I-OG	I-PS
+29	##콘	I-OG	I-PS
+30	가문	I-OG	O
+31	##에	O	O
+32	##서	O	O
+33	가보	O	O
+34	##로	O	O
+35	보관	O	O
+36	##해	O	O
+37	##왔	O	O
+38	##다	O	O
+39	.	O	O
+40	[SEP]	O	O

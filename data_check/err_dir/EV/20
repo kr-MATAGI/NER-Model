@@ -1,73 +1,9 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-EV, B-CV, I-OG, I-CV
-1	이	O	O	O, B-OG, B-PS, B-TM, B-CV
-2	밖에	O	O	O, B-CV, B-TM, B-LC, B-OG
-3	지역	O	O	O, B-LC, B-CV, B-TM, B-FD
-4	유기농	O	O	O, B-CV, I-CV, B-FD, I-LC
-5	농산물	O	O	O, I-CV, B-CV, I-LC, I-TM
-6	##과	O	O	O, I-CV, B-PS, B-CV, B-LC
-7	먹거리	O	O	O, B-CV, I-CV, B-TM, B-FD
-8	##를	O	O	O, B-CV, B-PS, B-LC, B-TM
-9	판매	O	O	O, B-CV, B-TM, B-LC, B-QT
-10	##하	O	O	O, B-CV, B-LC, B-PS, B-TM
-11	##는	O	O	O, B-CV, B-LC, B-EV, B-TM
-12	푸	O	O	O, B-OG, B-EV, B-CV, B-AF
-13	##릇	O	O	O, I-OG, I-EV, I-AF, I-CV
-14	##푸	O	O	O, I-OG, I-EV, I-AF, I-CV
-15	##릇	O	O	O, I-OG, I-EV, I-AF, I-CV
-16	마켓	O	O	O, I-OG, I-EV, I-AF, I-CV
-17	,	O	O	O, I-OG, I-EV, I-AF, I-CV
-18	재능기부	O	O	O, B-CV, B-TM, B-LC, B-FD
-19	##로	O	O	O, B-CV, B-PS, B-LC, I-EV
-20	진행	O	O	O, B-CV, B-LC, B-TM, B-OG
-21	##되	O	O	O, B-CV, B-LC, B-PS, B-OG
-22	##는	O	O	O, B-CV, B-LC, B-TM, B-OG
-23	야외	O	O	O, B-TM, B-CV, B-QT, B-LC
-24	이발	O	O	O, B-CV, B-OG, B-FD, B-AF
-25	##소	O	O	O, I-CV, I-OG, I-AF, I-LC
-26	,	O	O	O, B-CV, B-LC, B-OG, I-OG
-27	경기	B-OG	B-OG	B-OG, B-AF, B-LC, B-EV, O
-28	##상	I-OG	I-OG	I-OG, I-AF, I-LC, O, I-EV
-29	##상	I-OG	I-OG	I-OG, I-AF, I-LC, O, I-EV
-30	##캠	I-OG	I-OG	I-OG, I-AF, I-LC, O, I-EV
-31	##퍼스	I-OG	I-OG	I-OG, I-AF, I-LC, O, I-EV
-32	숲길	O	O	O, I-AF, I-LC, B-LC, B-AF
-33	##을	O	O	O, I-AF, I-LC, I-OG, B-LC
-34	산책	O	O	O, B-TM, B-LC, B-CV, I-LC
-35	##하고	O	O	O, B-LC, B-CV, B-TM, I-LC
-36	소셜	O	O	O, B-TM, B-CV, I-TM, B-LC
-37	##네트	O	O	O, I-TM, B-TM, I-CV, B-CV
-38	##워크	O	O	O, I-TM, B-TM, I-CV, B-CV
-39	##서비스	O	O	O, I-TM, I-CV, B-TM, I-LC
-40	(	O	O	O, B-CV, B-LC, B-OG, I-CV
-41	SNS	O	O	O, B-TM, B-CV, B-LC, I-TM
-42	)	O	O	O, B-CV, B-LC, I-TM, I-CV
-43	에	O	O	O, B-LC, B-TM, B-CV, B-OG
-44	인증	O	O	O, B-TM, B-LC, B-CV, B-EV
-45	##하	O	O	O, B-LC, B-CV, B-PS, B-TM
-46	##는	O	O	O, B-LC, B-CV, B-TM, B-EV
-47	포	B-EV	O	O, B-EV, B-OG, B-CV, B-AF
-48	##레	I-EV	O	O, I-EV, I-OG, I-CV, I-AF
-49	##포	I-EV	O	O, I-EV, I-OG, I-CV, I-AF
-50	##레	I-EV	O	O, I-EV, I-OG, I-CV, I-AF
-51	런	I-EV	O	O, I-EV, I-OG, I-CV, I-AF
-52	,	O	O	O, I-EV, I-OG, I-AF, I-CV
-53	어린이	B-EV	O	O, B-AF, B-OG, B-TM, B-CV
-54	아나	I-EV	O	O, B-OG, B-CV, B-AF, I-OG
-55	##바다	I-EV	O	O, I-OG, I-AF, I-CV, I-EV
-56	##숍	I-EV	O	O, I-OG, I-AF, I-EV, I-CV
-57	등	O	O	O, I-OG, I-EV, I-AF, I-CV
-58	주민	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-OG
-59	##들이	O	O	O, I-CV, B-CV, I-EV, I-OG
-60	동참	O	O	O, B-CV, B-TM, B-LC, B-OG
-61	##할	O	O	O, B-CV, B-LC, B-PS, B-TM
-62	수	O	O	O, B-CV, B-LC, B-PS, B-TM
-63	있	O	O	O, B-CV, B-LC, B-TM, B-PS
-64	##는	O	O	O, B-CV, B-LC, B-TM, B-OG
-65	행사	O	O	O, B-CV, B-EV, B-TM, I-EV
-66	##도	O	O	O, B-OG, B-CV, B-LC, I-EV
-67	마련	O	O	O, B-OG, B-CV, B-TM, B-LC
-68	##됐	O	O	O, B-CV, B-OG, I-OG, I-EV
-69	##다	O	O	O, B-CV, B-OG, B-TM, I-OG
-70	.	O	O	O, B-LC, B-CV, B-TM, I-EV
-71	[SEP]	O	O	O, B-CV, B-LC, B-TM, I-EV
+	text	label	preds
+0	[CLS]	O	O
+1	팔	B-EV	B-DT
+2	##십	I-EV	I-DT
+3	칠	I-EV	I-DT
+4	##년	I-EV	I-DT
+5	유월	I-EV	B-EV
+6	항쟁	I-EV	I-EV
+7	[SEP]	O	O

@@ -1,19 +1,28 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-EV
-1	佛	O	B-LC	B-LC, B-OG, O, B-PS, B-CV
-2	경찰	B-OG	B-OG	B-OG, I-OG, O, B-CV, B-LC
-3	,	O	O	O, I-OG, I-AF, I-CV, I-EV
-4	15	B-TI	B-TI	B-TI, B-EV, O, B-QT, B-TR
-5	##분	I-TI	I-TI	I-TI, B-TI, O, I-EV, I-TR
-6	간격	O	O	O, I-TI, I-QT, B-LC, B-TM
-7	##으로	O	O	O, B-LC, B-PS, B-OG, B-CV
-8	형제	B-CV	B-CV	B-CV, O, B-AF, B-TM, B-PS
-9	테러	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-AF
-10	##범	I-CV	I-CV	I-CV, O, B-CV, I-TM, I-AM
-11	##과	O	O	O, I-CV, B-CV, I-OG, I-EV
-12	식품	O	O	O, B-CV, B-EV, B-LC, B-TM
-13	##점	O	O	O, I-CV, B-CV, I-EV, I-LC
-14	인질	B-CV	O	O, B-CV, B-EV, I-CV, B-LC
-15	##극	O	O	O, I-CV, I-EV, B-CV, B-EV
-16	진압	O	O	O, I-EV, B-LC, B-CV, B-OG
-17	[SEP]	O	O	O, B-LC, B-CV, I-EV, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	▶	O	O
+2	##강	B-LC	B-LC
+3	##릉	I-LC	I-LC
+4	##을	O	O
+5	커피	B-CV	B-CV
+6	명소	O	O
+7	##로	O	O
+8	만드	O	O
+9	##는	O	O
+10	데	O	O
+11	일조	O	O
+12	##한	O	O
+13	한	O	O
+14	커피	B-CV	O
+15	전문점	O	O
+16	##은	O	O
+17	관광	O	O
+18	코스	O	O
+19	##에도	O	O
+20	들어	O	O
+21	있	O	O
+22	##는	O	O
+23	모양	O	O
+24	##이다	O	O
+25	.	O	O
+26	[SEP]	O	O

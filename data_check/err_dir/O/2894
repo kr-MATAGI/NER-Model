@@ -1,37 +1,36 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-EV, I-QT
-1	초등	O	O	O, B-FD, B-CV, B-OG, B-EV
-2	##수	O	B-FD	B-FD, I-FD, O, I-OG, I-AF
-3	##학	O	I-FD	I-FD, O, B-FD, I-OG, I-AF
-4	단과	O	O	O, B-OG, B-CV, I-OG, I-FD
-5	##반	O	O	O, I-OG, I-CV, I-EV, I-AF
-6	##은	O	O	O, I-OG, B-CV, I-EV, B-OG
-7	학년	O	O	O, B-CV, B-OG, B-TM, B-LC
-8	##에	O	O	O, B-CV, B-PS, I-OG, B-LC
-9	맞춰	O	O	O, B-LC, B-TM, B-PS, B-OG
-10	수업	O	O	O, B-CV, B-LC, B-EV, I-EV
-11	##을	O	O	O, B-CV, B-OG, B-PS, B-LC
-12	진행	O	O	O, B-CV, B-OG, B-TM, B-LC
-13	##하	O	O	O, B-CV, B-LC, B-PS, B-OG
-14	##는	O	O	O, B-LC, B-CV, B-OG, B-QT
-15	‘	O	O	O, B-OG, B-QT, B-LC, B-CV
-16	개념	O	O	O, B-OG, B-EV, B-CV, B-AF
-17	##반	O	O	O, I-OG, I-EV, I-CV, I-AF
-18	’	O	O	O, I-OG, I-EV, I-QT, I-CV
-19	과	O	O	O, B-OG, B-QT, B-AF, B-CV
-20	선행	O	O	O, B-CV, B-EV, B-TM, B-LC
-21	##학습	O	O	O, I-EV, I-CV, I-LC, I-AF
-22	##과	O	O	O, B-PS, I-EV, I-AF, B-CV
-23	심화	O	O	O, B-CV, B-EV, B-TM, B-LC
-24	##문제	O	O	O, I-EV, B-CV, I-CV, I-LC
-25	##를	O	O	O, B-CV, I-EV, I-AF, I-CV
-26	푸	O	O	O, B-CV, B-QT, B-LC, B-TM
-27	##는	O	O	O, B-CV, B-QT, B-LC, B-PS
-28	‘	O	O	O, B-OG, B-QT, B-CV, B-LC
-29	심화	O	O	O, B-OG, B-EV, B-CV, B-AF
-30	##반	O	O	O, I-OG, I-EV, I-CV, I-AF
-31	’	O	O	O, I-OG, I-EV, I-QT, I-CV
-32	으로	O	O	O, B-OG, B-QT, B-CV, B-AF
-33	나뉜다	O	O	O, B-OG, B-TM, B-AF, B-CV
-34	.	O	O	O, I-OG, I-EV, B-CV, I-QT
-35	[SEP]	O	O	O, B-CV, B-OG, I-OG, I-EV
+	text	label	preds
+0	[CLS]	O	O
+1	하지	O	O
+2	##만	O	O
+3	이에	O	O
+4	대해	O	O
+5	당사자	B-CV	B-CV
+6	격인	O	O
+7	미국	B-LC	B-LC
+8	재무	B-OG	B-OG
+9	##부	I-OG	I-OG
+10	##나	O	O
+11	미	B-LC	B-LC
+12	연방	B-OG	B-OG
+13	##준	I-OG	I-OG
+14	##비	I-OG	I-OG
+15	##제	I-OG	I-OG
+16	##도	I-OG	I-OG
+17	##이	I-OG	I-OG
+18	##사회	I-OG	I-OG
+19	(	O	O
+20	FRB	B-OG	B-OG
+21	)	O	O
+22	보다	O	O
+23	아시아	B-LC	B-LC
+24	중앙은행	O	B-OG
+25	##들이	O	O
+26	더	O	O
+27	염려	O	O
+28	##하	O	O
+29	##는	O	O
+30	것	O	O
+31	같	O	O
+32	##다	O	O
+33	.	O	O
+34	[SEP]	O	O

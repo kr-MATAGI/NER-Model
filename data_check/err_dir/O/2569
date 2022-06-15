@@ -1,6 +1,13 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	한인	O	B-CV	B-CV, O, B-EV, B-LC, B-DT
-2	##민	O	O	O, I-CV, I-EV, B-CV, I-DT
-3	##박	O	O	O, I-EV, I-CV, I-DT, I-AF
-4	[SEP]	O	O	O, I-EV, I-CV, I-DT, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	뭐	O	O
+2	다리	O	B-AM
+3	##가	O	O
+4	좀	O	O
+5	더	O	O
+6	멋있	O	O
+7	##어야	O	O
+8	되	O	O
+9	##겠	O	O
+10	##고	O	O
+11	[SEP]	O	O

@@ -1,80 +1,53 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-EV, I-OG, I-CV
-1	알파	B-TM	B-TM	B-TM, O, B-AF, B-LC, I-TM
-2	##고	I-TM	I-TM	I-TM, I-AF, O, I-OG, B-TM
-3	##와	O	O	O, I-TM, I-AF, I-OG, I-EV
-4	대결	O	O	O, B-CV, B-EV, B-LC, B-TM
-5	##을	O	O	O, B-CV, I-EV, B-PS, I-AF
-6	펼칠	O	O	O, B-CV, B-LC, B-PS, B-TM
-7	예정	O	O	O, B-CV, B-PS, B-QT, B-TM
-8	##인	O	O	O, B-PS, B-CV, B-LC, I-PS
-9	이세돌	B-PS	B-PS	B-PS, O, I-PS, B-OG, B-LC
-10	기사	O	B-CV	B-CV, O, I-CV, I-PS, B-AF
-11	##는	O	O	O, I-CV, I-EV, B-CV, I-AF
-12	“	O	O	O, B-CV, B-LC, B-OG, B-PS
-13	컴퓨터	B-TM	B-TM	B-TM, O, B-OG, B-CV, B-AF
-14	##와	O	O	O, I-TM, I-EV, I-AF, I-CV
-15	정상	O	O	O, B-CV, B-PS, B-LC, B-EV
-16	##의	O	O	O, B-PS, I-CV, B-CV, B-LC
-17	인간	O	O	O, B-CV, B-PS, B-QT, B-LC
-18	선수	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-EV
-19	##가	O	O	O, I-CV, B-CV, B-PS, I-EV
-20	벌이	O	O	O, B-CV, B-PS, B-LC, B-TM
-21	##는	O	O	O, B-CV, B-PS, B-LC, B-QT
-22	첫	O	O	O, B-QT, B-EV, B-LC, B-CV
-23	경기	O	O	O, B-CV, B-EV, I-QT, I-EV
-24	##에	O	O	O, I-CV, I-EV, B-PS, B-CV
-25	선택	O	O	O, B-CV, B-LC, B-PS, B-OG
-26	##되	O	O	O, B-PS, B-LC, B-CV, B-OG
-27	##어	O	O	O, B-PS, B-LC, B-CV, B-OG
-28	##서	O	O	O, B-PS, B-LC, B-CV, B-OG
-29	영광	O	O	O, B-CV, B-PS, B-LC, B-EV
-30	##이	O	O	O, B-PS, B-CV, I-CV, I-PS
-31	##라고	O	O	O, B-PS, B-CV, I-AF, B-LC
-32	생각	O	O	O, B-CV, B-PS, B-LC, B-TM
-33	##한다	O	O	O, B-PS, B-CV, B-LC, I-CV
-34	.	O	O	O, B-CV, B-LC, B-PS, B-OG
-35	구글	B-OG	B-OG	B-OG, B-LC, O, B-TM, B-AF
-36	##의	O	O	O, I-OG, I-AF, B-PS, B-CV
-37	인공지능	B-FD	B-FD	B-FD, O, B-TR, I-FD, B-TM
-38	##은	O	O	O, I-FD, B-CV, I-AF, I-OG
-39	놀랍	O	O	O, B-CV, B-PS, B-LC, B-OG
-40	##게	O	O	O, B-PS, B-LC, B-OG, B-CV
-41	강력	O	O	O, B-CV, B-LC, B-TM, B-PS
-42	##하고	O	O	O, B-PS, B-LC, B-OG, B-CV
-43	점점	O	O	O, B-LC, B-CV, B-PS, B-TM
-44	더	O	O	O, B-PS, B-LC, B-CV, B-OG
-45	강력	O	O	O, B-CV, B-LC, B-TM, B-PS
-46	##해	O	O	O, B-PS, B-LC, B-CV, B-OG
-47	##지	O	O	O, B-PS, B-LC, B-CV, I-PS
-48	##리	O	O	O, B-PS, B-CV, B-LC, B-OG
-49	##라고	O	O	O, B-PS, B-CV, B-LC, B-OG
-50	생각	O	O	O, B-CV, B-PS, B-LC, B-TM
-51	##하	O	O	O, B-PS, B-CV, B-LC, B-OG
-52	##지만	O	O	O, B-PS, B-CV, B-LC, B-TM
-53	,	O	O	O, B-CV, B-LC, B-PS, B-OG
-54	적어도	O	O	O, B-CV, B-PS, B-LC, B-QT
-55	이번	O	O	O, B-CV, B-PS, B-LC, I-EV
-56	##에	O	O	O, B-PS, B-CV, B-LC, I-EV
-57	##는	O	O	O, B-PS, B-CV, B-LC, B-OG
-58	내	O	O	O, B-CV, B-PS, B-LC, B-TM
-59	##가	O	O	O, B-PS, B-LC, B-CV, B-OG
-60	이기	O	O	O, B-CV, B-LC, B-PS, B-TM
-61	##리	O	O	O, B-CV, B-PS, B-LC, I-CV
-62	##라고	O	O	O, B-PS, B-CV, B-LC, B-OG
-63	자신	O	O	O, B-CV, B-PS, B-LC, B-TM
-64	##한다	O	O	O, B-PS, B-CV, B-LC, I-AF
-65	”	O	O	O, B-CV, B-LC, B-TM, B-PS
-66	고	O	O	O, B-CV, B-QT, B-LC, B-TM
-67	말	O	O	O, B-CV, B-TM, B-LC, B-QT
-68	##했	O	O	O, B-PS, B-CV, B-LC, I-CV
-69	##다고	O	O	O, B-LC, B-CV, B-PS, B-OG
-70	영국	B-OG	B-OG	B-OG, B-LC, B-EV, B-AF, O
-71	##바	I-OG	I-OG	I-OG, I-EV, B-OG, O, I-AF
-72	##둑	I-OG	I-OG	I-OG, I-EV, O, I-AF, I-CV
-73	##협회	I-OG	I-OG	I-OG, O, I-EV, I-AF, I-CV
-74	##는	O	O	O, I-OG, I-EV, I-AF, I-QT
-75	전했	O	O	O, B-OG, B-CV, I-OG, B-TM
-76	##다	O	O	O, B-CV, I-OG, B-LC, I-EV
-77	.	O	O	O, B-CV, B-LC, B-PS, B-OG
-78	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	■	O	O
+2	신종	B-TM	B-TM
+3	플루	I-TM	I-TM
+4	,	O	O
+5	독성	O	O
+6	##은	O	O
+7	약한	O	O
+8	것	O	O
+9	##으로	O	O
+10	=	O	O
+11	국내	O	O
+12	##에	O	O
+13	##서	O	O
+14	신종	B-TM	B-TM
+15	인플루엔자	I-TM	I-TM
+16	##에	O	O
+17	감염	B-TM	O
+18	##된	O	O
+19	것	O	O
+20	##으로	O	O
+21	확인	O	O
+22	##된	O	O
+23	환자	B-CV	B-CV
+24	1	B-QT	B-QT
+25	##명	I-QT	I-QT
+26	##과	O	O
+27	추정	B-CV	B-CV
+28	##환	I-CV	I-CV
+29	##자	I-CV	I-CV
+30	2	B-QT	B-QT
+31	##명	I-QT	I-QT
+32	##은	O	O
+33	현재	O	O
+34	모두	O	O
+35	기침	O	B-TM
+36	등	O	O
+37	가벼운	O	O
+38	감기	B-TM	B-TM
+39	증상	O	O
+40	##만	O	O
+41	있	O	O
+42	##을	O	O
+43	뿐	O	O
+44	건강	O	O
+45	상태	O	O
+46	##는	O	O
+47	양호	O	O
+48	##하	O	O
+49	##다	O	O
+50	.	O	O
+51	[SEP]	O	O

@@ -1,11 +1,52 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	똑같이	O	O	O, B-CV, B-TM, B-OG, B-QT
-2	도마	B-CV	O	O, B-CV, B-TM, B-AF, B-AM
-3	##에	O	O	O, I-CV, I-AF, I-TM, I-OG
-4	놓	O	O	O, B-CV, B-LC, B-TM, B-PS
-5	##고	O	O	O, B-CV, I-CV, B-PS, I-AF
-6	썰	O	O	O, B-CV, I-CV, B-TM, B-PS
-7	##잖아요	O	O	O, B-CV, I-CV, I-AF, I-OG
-8	.	O	O	O, B-CV, I-CV, B-OG, I-OG
-9	[SEP]	O	O	O, B-CV, B-LC, B-TM, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	이	O	O
+2	##들	O	O
+3	##은	O	O
+4	치의	B-FD	B-FD
+5	##학	I-FD	I-FD
+6	##대	O	O
+7	##학	O	O
+8	##원	O	O
+9	석	B-CV	B-CV
+10	·	I-CV	I-CV
+11	박사	I-CV	I-CV
+12	학위	B-CV	I-CV
+13	##생	I-CV	I-CV
+14	##들	O	O
+15	##에	O	O
+16	##게	O	O
+17	석사	O	B-CV
+18	##학	O	O
+19	##위	O	O
+20	##는	O	O
+21	500	B-QT	B-QT
+22	##만	I-QT	I-QT
+23	##∼	O	I-QT
+24	##15	B-QT	I-QT
+25	##00	I-QT	I-QT
+26	##만	I-QT	I-QT
+27	원	I-QT	I-QT
+28	,	O	O
+29	박사	B-CV	O
+30	##학	O	O
+31	##위	O	O
+32	##는	O	O
+33	2000	B-QT	B-QT
+34	##만	I-QT	I-QT
+35	##∼	O	I-QT
+36	##35	B-QT	I-QT
+37	##00	I-QT	I-QT
+38	##만	I-QT	I-QT
+39	원	I-QT	I-QT
+40	##을	O	O
+41	받	O	O
+42	##고	O	O
+43	대	O	O
+44	##필	O	O
+45	장사	O	O
+46	##를	O	O
+47	했	O	O
+48	##다	O	O
+49	.	O	O
+50	[SEP]	O	O

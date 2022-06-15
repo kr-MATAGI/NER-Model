@@ -1,15 +1,45 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, B-CV, I-OG, I-AF
-1	나와	O	O	O, B-CV, B-LC, B-PS, B-OG
-2	창	B-AF	B-OG	B-OG, B-LC, B-AF, B-PS, O
-3	##경	I-AF	I-OG	I-OG, I-LC, I-AF, O, I-PS
-4	##원	I-AF	I-OG	I-OG, I-LC, I-AF, O, I-PS
-5	##의	O	O	O, I-AF, I-OG, I-LC, I-EV
-6	사자	B-AM	B-AF	B-AF, B-AM, O, I-AF, B-PS
-7	##가	O	O	O, I-AF, I-PS, I-QT, I-OG
-8	다를	O	O	O, B-CV, B-TM, B-QT, B-LC
-9	게	O	O	O, B-OG, B-PS, B-CV, B-LC
-10	뭐	O	O	O, B-CV, B-PS, I-CV, B-OG
-11	##요	O	O	O, B-CV, I-OG, B-LC, I-AF
-12	.	O	O	O, B-CV, B-LC, B-OG, I-OG
-13	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	한	O	O
+2	민간	O	O
+3	에너지	O	O
+4	##업체	O	O
+5	관계자	B-CV	B-CV
+6	##는	O	O
+7	“	O	O
+8	민간	O	O
+9	##이	O	O
+10	참여	O	O
+11	##하	O	O
+12	##는	O	O
+13	전문	O	O
+14	##회사	O	O
+15	##라고	O	O
+16	해도	O	O
+17	결국	O	O
+18	공기업	O	O
+19	##이	O	O
+20	경영	O	O
+21	##권	O	O
+22	##을	O	O
+23	쥐	O	O
+24	##고	O	O
+25	낙하산	B-AF	O
+26	인사	O	B-CV
+27	##를	O	O
+28	내려	O	O
+29	보낼	O	O
+30	통로	O	O
+31	##로	O	O
+32	쓸	O	O
+33	가능	O	O
+34	##성이	O	O
+35	있	O	O
+36	##다	O	O
+37	”	O	O
+38	고	O	O
+39	우려	O	O
+40	##했	O	O
+41	##다	O	O
+42	.	O	O
+43	[SEP]	O	O

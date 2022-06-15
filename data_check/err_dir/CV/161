@@ -1,88 +1,22 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	2011	B-DT	B-DT	B-DT, O, B-QT, I-DT, B-EV
-2	##학년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
-3	##도	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
-4	합격자	B-CV	B-CV	B-CV, O, B-AF, I-CV, B-EV
-5	발표	O	O	O, I-CV, I-EV, I-DT, B-CV
-6	##를	O	O	O, B-OG, B-LC, B-PS, B-CV
-7	하루	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-TI
-8	앞둔	O	O	O, I-DT, B-DT, B-PS, I-EV
-9	2010	B-DT	B-DT	B-DT, I-DT, O, B-QT, B-EV
-10	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-11	11	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-12	##월	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-13	##8	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-14	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-15	작성	O	O	O, I-DT, B-CV, B-LC, B-OG
-16	##된	O	O	O, B-LC, B-PS, B-OG, I-DT
-17	이	O	O	O, B-PS, B-OG, B-LC, B-AF
-18	학교	O	O	O, B-OG, I-OG, B-CV, B-AF
-19	##의	O	O	O, B-OG, B-CV, B-PS, B-LC
-20	‘	O	O	O, B-LC, B-OG, B-CV, B-DT
-21	2011	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-22	##학년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-AF
-23	##도	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-AF
-24	합격자	B-CV	B-CV	B-CV, O, B-AF, I-AF, I-DT
-25	분석	O	O	O, I-AF, I-CV, B-AF, I-TM
-26	##자료	O	O	O, I-AF, I-CV, B-AF, I-TM
-27	’	O	O	O, I-AF, B-CV, I-DT, I-CV
-28	(	O	O	O, B-OG, B-CV, B-LC, B-PS
-29	대외	O	O	O, B-CV, B-LC, B-TM, B-AF
-30	##비	O	O	O, I-CV, I-LC, I-AF, I-FD
-31	)	O	O	O, B-CV, B-LC, B-OG, B-PS
-32	문건	O	O	O, B-CV, B-LC, B-AF, B-TM
-33	##을	O	O	O, B-CV, B-OG, B-LC, B-PS
-34	보	O	O	O, B-OG, B-CV, B-LC, B-TM
-35	##면	O	O	O, B-OG, I-OG, B-LC, B-PS
-36	,	O	O	O, B-CV, B-LC, B-OG, B-PS
-37	‘	O	O	O, B-LC, B-OG, B-CV, B-TM
-38	종합	O	O	O, B-TM, B-LC, B-CV, B-PS
-39	분석	O	O	O, I-TM, I-LC, I-QT, I-OG
-40	및	O	O	O, I-TM, I-OG, B-PS, I-LC
-41	대책	O	O	O, B-LC, B-CV, I-TM, I-LC
-42	’	O	O	O, B-CV, B-OG, B-PS, B-LC
-43	이라	O	O	O, B-CV, B-QT, B-PS, B-LC
-44	##는	O	O	O, B-TM, B-PS, B-LC, B-OG
-45	항목	O	O	O, B-CV, B-TM, B-PS, B-LC
-46	##에서	O	O	O, B-PS, B-OG, B-LC, B-CV
-47	우수	O	O	O, B-CV, B-TM, B-LC, B-QT
-48	학생	B-CV	B-CV	B-CV, I-CV, O, B-TM, B-PT
-49	유치	O	O	O, I-CV, B-CV, I-QT, B-TM
-50	방안	O	O	O, B-LC, B-TM, B-CV, B-PS
-51	##으로	O	O	O, B-LC, B-OG, B-CV, B-PS
-52	‘	O	O	O, B-LC, B-OG, B-CV, B-TM
-53	중	B-QT	B-QT	B-QT, O, B-CV, I-QT, B-TM
-54	##3	I-QT	I-QT	I-QT, O, I-LC, I-TM, I-EV
-55	학생	B-CV	B-CV	B-CV, I-QT, O, I-CV, I-EV
-56	##을	O	O	O, I-CV, I-QT, B-CV, I-EV
-57	위한	O	O	O, B-LC, B-TM, B-PS, B-CV
-58	캠프	O	O	O, B-LC, B-CV, B-TM, B-PS
-59	운영	O	O	O, B-LC, B-PS, B-TM, B-CV
-60	’	O	O	O, B-LC, B-OG, B-CV, B-PS
-61	‘	O	O	O, B-LC, B-CV, B-OG, B-TM
-62	캠프	O	O	O, B-CV, B-LC, B-TM, B-PS
-63	참가자	O	B-CV	B-CV, O, I-CV, B-AF, B-PT
-64	학교장	B-CV	B-CV	B-CV, I-CV, O, B-OG, B-TM
-65	추천	O	O	O, I-CV, B-CV, B-TM, B-LC
-66	(	O	O	O, B-OG, B-LC, B-CV, I-CV
-67	국	B-FD	B-FD	B-FD, O, B-CV, B-EV, B-AF
-68	·	O	O	O, I-FD, I-CV, I-EV, I-QT
-69	영	B-CV	B-FD	B-FD, O, I-FD, B-CV, B-EV
-70	·	O	O	O, I-FD, I-CV, I-QT, I-EV
-71	수	B-FD	B-FD	B-FD, O, I-FD, B-CV, I-CV
-72	성적	O	O	O, I-CV, I-FD, B-CV, I-QT
-73	상위	O	O	O, B-TM, B-LC, B-CV, B-OG
-74	##권	O	O	O, I-LC, B-LC, I-QT, B-PS
-75	)	O	O	O, B-CV, B-LC, B-OG, B-TM
-76	’	O	O	O, B-CV, B-LC, B-OG, B-PS
-77	등	O	O	O, B-LC, B-CV, B-TM, B-PS
-78	##의	O	O	O, B-PS, B-LC, B-CV, B-OG
-79	방안	O	O	O, B-CV, B-LC, B-TM, B-QT
-80	##을	O	O	O, B-OG, B-CV, B-LC, B-PS
-81	제시	O	O	O, B-CV, B-TM, B-LC, B-OG
-82	##하고	O	O	O, B-PS, B-LC, B-CV, B-OG
-83	있	O	O	O, B-CV, B-OG, B-LC, B-PS
-84	##다	O	O	O, B-CV, B-OG, B-LC, B-TM
-85	.	O	O	O, B-LC, B-CV, B-OG, B-PS
-86	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	국정	O	O
+2	##화	O	O
+3	##에	O	O
+4	##서	O	O
+5	특정인	B-CV	O
+6	##의	O	O
+7	위법	O	O
+8	##한	O	O
+9	개입	O	O
+10	##에	O	O
+11	대한	O	O
+12	의혹	O	O
+13	##을	O	O
+14	해명	O	O
+15	##하라	O	O
+16	##고	O	O
+17	하	O	O
+18	##셨	O	O
+19	##는데	O	O
+20	[SEP]	O	O

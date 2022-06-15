@@ -1,52 +1,14 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-EV, I-CV
-1	와이	B-TM	B-TM	B-TM, O, B-CV, I-TM, B-TR
-2	##브	I-TM	I-TM	I-TM, O, B-TM, I-TR, I-AF
-3	##로	I-TM	I-TM	I-TM, O, B-TM, I-AF, I-CV
-4	(	I-TM	O	O, I-TM, B-TM, B-CV, I-CV
-5	무선	I-TM	B-TM	B-TM, O, I-TM, B-TR, B-AF
-6	##광	I-TM	I-TM	I-TM, O, I-TR, B-TM, I-AF
-7	##대	I-TM	I-TM	I-TM, O, I-TR, I-AF, I-OG
-8	##역	I-TM	I-TM	I-TM, O, I-TR, I-AF, I-OG
-9	##통신	I-TM	I-TM	I-TM, O, I-TR, I-AF, I-OG
-10	##망	I-TM	I-TM	I-TM, O, I-TR, I-AF, I-OG
-11	)	I-TM	O	O, I-TM, B-TM, I-AF, I-OG
-12	단말기	I-TM	O	O, B-TM, I-TM, B-CV, B-AF
-13	##에	O	O	O, I-TM, I-AF, B-AF, B-LC
-14	선박	B-AF	B-AF	B-AF, O, B-LC, I-AF, B-OG
-15	##에	O	O	O, I-AF, B-CV, I-OG, I-EV
-16	촘촘	O	O	O, B-TM, B-CV, B-LC, B-OG
-17	##히	O	O	O, B-LC, B-TM, B-PS, B-CV
-18	깔려	O	O	O, B-LC, B-TM, B-AF, B-PS
-19	있	O	O	O, B-TM, B-LC, B-CV, B-PS
-20	##는	O	O	O, B-TM, B-LC, B-CV, B-AF
-21	전력	O	O	O, B-AF, B-TM, B-LC, B-MT
-22	##선	O	O	O, I-AF, I-TM, I-LC, B-AF
-23	##을	O	O	O, I-AF, B-CV, B-TM, I-TM
-24	연결	O	O	O, B-CV, B-TM, B-LC, B-OG
-25	##하	O	O	O, B-PS, B-LC, B-OG, B-CV
-26	##는	O	O	O, B-LC, B-OG, B-CV, B-PS
-27	간단	O	O	O, B-CV, B-TM, B-LC, B-OG
-28	##한	O	O	O, B-LC, B-OG, B-PS, B-TM
-29	'	O	O	O, B-LC, B-CV, B-TM, B-OG
-30	아이디어	O	O	O, B-TM, B-AF, B-LC, B-CV
-31	'	O	O	O, B-CV, B-LC, I-EV, B-TM
-32	로	O	O	O, B-OG, B-PS, B-LC, B-TM
-33	선박	B-AF	B-AF	B-AF, O, B-LC, I-AF, B-OG
-34	어느	O	O	O, I-AF, B-TM, B-LC, I-LC
-35	곳	O	O	O, B-TM, I-LC, I-TM, B-LC
-36	##에서	O	O	O, B-TM, I-TM, B-LC, B-PS
-37	##나	O	O	O, B-TM, B-LC, I-TM, B-CV
-38	무선	O	O	O, B-TM, B-TR, I-TM, B-CV
-39	인터넷	O	O	O, I-TM, B-TM, I-TR, I-QT
-40	##은	O	O	O, I-TM, B-CV, I-QT, B-TM
-41	물론	O	O	O, B-TM, B-QT, B-LC, B-CV
-42	인터넷	O	O	O, B-TM, B-CV, I-TM, B-TR
-43	전화	O	O	O, B-TM, I-TM, B-CV, B-QT
-44	##까	O	O	O, I-TM, I-CV, I-QT, B-CV
-45	##지	O	O	O, B-CV, B-TM, B-LC, B-OG
-46	가능	O	O	O, B-TM, B-CV, B-OG, B-EV
-47	##해졌	O	O	O, I-TM, I-CV, B-CV, I-OG
-48	##다	O	O	O, B-CV, B-TM, I-TM, B-LC
-49	.	O	O	O, B-TM, B-LC, B-CV, B-AF
-50	[SEP]	O	O	O, B-TM, B-LC, B-CV, I-TM
+	text	label	preds
+0	[CLS]	O	O
+1	이래	O	O
+2	##가지	O	O
+3	##고	O	O
+4	우울	B-TM	O
+5	##한	O	O
+6	게	O	O
+7	있	O	O
+8	##거	O	O
+9	##든	O	O
+10	##요	O	O
+11	.	O	O
+12	[SEP]	O	O

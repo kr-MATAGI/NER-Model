@@ -1,40 +1,20 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-EV, I-CV
-1	1	B-QT	B-QT	B-QT, B-EV, O, B-TM, B-DT
-2	##심	I-QT	I-QT	I-QT, I-EV, O, I-TM, I-TR
-3	##에서	O	O	O, I-QT, I-EV, I-OG, I-AF
-4	당선	B-CV	O	O, B-CV, B-PS, B-TM, B-OG
-5	무효	I-CV	O	O, I-CV, B-CV, B-PS, I-TM
-6	##형	I-CV	O	O, I-CV, B-CV, I-TR, I-TM
-7	##이	O	O	O, B-PS, B-OG, I-CV, B-CV
-8	선고	O	O	O, B-CV, B-PS, B-OG, B-LC
-9	##된	O	O	O, B-PS, B-OG, B-LC, B-CV
-10	최	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-11	의원	B-CV	B-CV	B-CV, O, I-PS, I-CV, B-EV
-12	##의	O	O	O, I-CV, I-EV, B-CV, I-AF
-13	2	B-QT	B-QT	B-QT, B-EV, O, B-TM, B-DT
-14	##심	I-QT	I-QT	I-QT, I-EV, O, I-TM, I-DT
-15	선고	O	O	O, I-QT, I-EV, B-CV, I-CV
-16	##를	O	O	O, B-OG, B-CV, B-PS, B-LC
-17	앞두	O	O	O, B-OG, B-CV, B-LC, B-PS
-18	##고	O	O	O, B-OG, B-LC, B-PS, B-CV
-19	한국	B-OG	B-OG	B-OG, O, I-OG, B-LC, B-AF
-20	##관광	I-OG	I-OG	I-OG, O, I-LC, I-AF, B-OG
-21	##협회	I-OG	I-OG	I-OG, O, I-LC, I-AF, I-CV
-22	##가	O	O	O, I-OG, I-AF, B-PS, I-EV
-23	기부	O	O	O, B-CV, B-TM, B-FD, B-TR
-24	##행위	O	O	O, I-CV, I-OG, I-TM, B-PS
-25	##가	O	O	O, B-PS, B-OG, B-LC, B-CV
-26	아니	O	O	O, B-PS, B-OG, B-LC, B-CV
-27	##라는	O	O	O, B-PS, B-LC, B-OG, I-OG
-28	의견	O	O	O, B-CV, B-PS, B-LC, B-OG
-29	##의	O	O	O, B-PS, B-CV, I-OG, B-LC
-30	탄원서	O	O	O, B-CV, B-AF, B-OG, B-LC
-31	##를	O	O	O, B-CV, I-OG, I-AF, I-CV
-32	재판부	O	O	O, B-OG, B-CV, B-LC, B-TM
-33	##에	O	O	O, B-OG, I-OG, B-CV, B-LC
-34	제출	O	O	O, B-CV, B-OG, B-LC, B-EV
-35	##했	O	O	O, B-CV, B-OG, B-LC, I-OG
-36	##다	O	O	O, B-CV, B-LC, B-OG, I-OG
-37	.	O	O	O, B-OG, B-LC, B-CV, B-PS
-38	[SEP]	O	O	O, B-CV, B-OG, B-LC, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	어린	O	O
+2	특히	O	O
+3	청소년	B-CV	B-CV
+4	##들	O	O
+5	남학생	B-CV	O
+6	##들이	O	O
+7	한	B-QT	B-QT
+8	열	I-QT	I-QT
+9	##여	I-QT	I-QT
+10	##덟	I-QT	I-QT
+11	열	B-QT	B-QT
+12	##아	I-QT	I-QT
+13	##홉	I-QT	I-QT
+14	살	I-QT	I-QT
+15	된	O	O
+16	애	O	O
+17	##들이	O	O
+18	[SEP]	O	O

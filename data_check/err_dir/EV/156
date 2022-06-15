@@ -1,40 +1,59 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-EV, B-CV, I-CV
-1	커다란	O	O	O, B-TM, B-CV, B-AF, B-LC
-2	종이	O	O	O, B-CV, B-TM, B-AF, B-MT
-3	##가방	O	O	O, I-CV, I-AF, I-TM, I-EV
-4	##으로	O	O	O, B-PS, I-AF, B-CV, I-CV
-5	옷	O	O	O, B-CV, B-AF, B-TM, B-LC
-6	##을	O	O	O, B-CV, B-PS, I-CV, I-AF
-7	만들	O	O	O, B-CV, B-LC, B-PS, B-TM
-8	##어	O	O	O, B-PS, B-CV, B-LC, I-CV
-9	입	O	O	O, B-CV, B-LC, B-PS, I-CV
-10	##고	O	O	O, B-CV, B-PS, B-LC, B-TM
-11	사진	O	O	O, B-CV, B-TM, B-LC, B-QT
-12	##을	O	O	O, B-CV, B-PS, B-LC, B-OG
-13	찍	O	O	O, B-LC, B-CV, B-PS, B-TM
-14	##어	O	O	O, B-LC, B-TM, B-PS, B-CV
-15	소셜	O	O	O, B-TM, B-CV, B-LC, I-TM
-16	##네트	O	O	O, I-TM, B-TM, I-CV, I-LC
-17	##워크	O	O	O, I-TM, I-CV, B-TM, I-LC
-18	##서비스	O	O	O, I-TM, I-CV, I-LC, I-OG
-19	(	O	O	O, B-CV, B-LC, B-OG, B-PS
-20	SNS	O	O	O, B-TM, B-LC, B-CV, I-TM
-21	)	O	O	O, B-CV, B-LC, B-TM, I-OG
-22	에	O	O	O, B-TM, B-LC, B-CV, B-QT
-23	전송	O	O	O, B-TM, B-LC, B-CV, B-PS
-24	##하	O	O	O, B-LC, B-PS, B-TM, B-CV
-25	##는	O	O	O, B-LC, B-CV, B-TM, B-PS
-26	‘	O	O	O, B-LC, B-CV, B-OG, B-TM
-27	어린이	B-EV	B-EV	B-EV, O, B-TM, B-CV, B-AF
-28	페이퍼	I-EV	I-EV	I-EV, O, B-EV, B-CV, I-TM
-29	##백	I-EV	I-EV	I-EV, O, I-TM, I-CV, I-AF
-30	캐릭터	I-EV	O	O, I-EV, I-TM, B-EV, B-CV
-31	공모전	I-EV	O	O, I-EV, I-TM, B-EV, I-CV
-32	’	O	O	O, I-EV, I-CV, I-TM, I-OG
-33	도	O	O	O, B-LC, B-CV, B-OG, B-TM
-34	함께	O	O	O, B-TM, B-OG, B-LC, B-EV
-35	진행	O	O	O, B-CV, B-TM, I-EV, B-OG
-36	##한다	O	O	O, B-CV, B-PS, B-OG, I-EV
-37	.	O	O	O, B-LC, B-CV, B-TM, I-EV
-38	[SEP]	O	O	O, B-CV, B-LC, B-TM, I-EV
+	text	label	preds
+0	[CLS]	O	O
+1	7	B-EV	B-QT
+2	##회	I-EV	I-QT
+3	이와	B-PS	B-PS
+4	##쿠	I-PS	I-PS
+5	##마	I-PS	I-PS
+6	히사	I-PS	I-PS
+7	##시	I-PS	I-PS
+8	(	O	O
+9	라	B-OG	B-OG
+10	##쿠	I-OG	I-OG
+11	##텐	I-OG	I-OG
+12	)	O	O
+13	,	O	O
+14	8	B-EV	B-QT
+15	##회	I-EV	I-QT
+16	마하	B-PS	B-PS
+17	##라	I-PS	I-PS
+18	다카	I-PS	I-PS
+19	##히로	I-PS	I-PS
+20	(	O	O
+21	소프트	B-OG	B-OG
+22	##뱅	I-OG	I-OG
+23	##크	I-OG	I-OG
+24	)	O	O
+25	,	O	O
+26	9	B-EV	B-QT
+27	##회	I-EV	I-QT
+28	후지	B-PS	B-PS
+29	##카와	I-PS	I-PS
+30	규	I-PS	I-PS
+31	##지	I-PS	I-PS
+32	(	O	O
+33	한신	B-OG	B-OG
+34	)	O	O
+35	가	O	O
+36	1	B-QT	B-QT
+37	##이	I-QT	I-QT
+38	##닝	I-QT	I-QT
+39	##씩	I-QT	I-QT
+40	##을	O	O
+41	맡	O	O
+42	##아	O	O
+43	무실점	B-TM	B-TM
+44	행진	O	O
+45	##을	O	O
+46	이어	O	O
+47	##간	O	O
+48	‘	O	O
+49	짠	O	O
+50	##물	O	O
+51	불펜	B-TM	B-TM
+52	’	O	O
+53	도	O	O
+54	빛났	O	O
+55	##다	O	O
+56	.	O	O
+57	[SEP]	O	O

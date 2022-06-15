@@ -1,35 +1,30 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	아이	O	O	O, B-CV, B-AM, B-TM, B-AF
-2	##를	O	O	O, B-CV, I-CV, B-PS, I-AF
-3	한	B-QT	B-QT	B-QT, O, B-PS, I-QT, B-DT
-4	##둘	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-5	낳	O	O	O, I-QT, B-CV, B-PS, B-LC
-6	##아	O	O	O, B-PS, B-CV, B-LC, I-QT
-7	##본	O	O	O, B-LC, B-PS, I-LC, I-QT
-8	인도	B-LC	B-LC	B-LC, O, B-OG, I-LC, B-AF
-9	시골	O	O	O, B-CV, I-LC, B-LC, B-TM
-10	여성	O	O	O, B-CV, I-CV, I-OG, I-AF
-11	##들이	O	O	O, I-CV, B-PS, B-CV, I-OG
-12	돈	O	O	O, B-CV, B-PS, B-TM, I-CV
-13	##을	O	O	O, B-CV, B-PS, I-CV, B-OG
-14	받	O	O	O, B-CV, B-PS, B-OG, B-LC
-15	##고	O	O	O, B-PS, B-CV, B-LC, B-TM
-16	불임	O	B-CV	B-CV, O, B-TM, B-TR, B-FD
-17	##부	O	B-CV	B-CV, I-CV, O, I-TM, I-QT
-18	##부	O	I-CV	I-CV, O, B-CV, I-TM, I-OG
-19	##에	O	O	O, I-CV, B-CV, I-OG, I-QT
-20	##게	O	O	O, B-CV, B-TM, B-LC, B-QT
-21	자궁	B-TM	B-TM	B-TM, O, B-TR, B-AF, B-AM
-22	##을	O	O	O, I-TM, I-AF, I-CV, B-CV
-23	빌려	O	O	O, B-CV, B-LC, B-PS, B-TM
-24	##주	O	O	O, B-CV, I-CV, B-PS, I-QT
-25	##고	O	O	O, B-PS, B-CV, B-LC, I-AF
-26	때로	O	O	O, B-CV, B-PS, B-TM, B-AF
-27	##는	O	O	O, B-TM, B-LC, B-CV, B-PS
-28	난자	B-TM	B-TM	B-TM, O, B-TR, B-AF, B-LC
-29	##도	O	O	O, I-TM, I-AF, I-CV, I-QT
-30	제공	O	O	O, B-CV, B-LC, B-OG, B-TM
-31	##한다	O	O	O, B-CV, B-LC, B-PS, I-AF
-32	.	O	O	O, B-CV, B-LC, B-PS, I-AF
-33	[SEP]	O	O	O, B-CV, B-LC, B-PS, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	검은	B-TM	B-TM
+2	##색	I-TM	I-TM
+3	뿔	O	B-CV
+4	##테	O	I-CV
+5	안경	O	O
+6	##에	O	O
+7	누	O	O
+8	##런	O	O
+9	수의	O	B-CV
+10	##를	O	O
+11	입	O	O
+12	##은	O	O
+13	지아	O	O
+14	##무	O	O
+15	##개	O	O
+16	(	O	O
+17	19	B-QT	B-QT
+18	)	O	O
+19	군	O	O
+20	##이	O	O
+21	최후	O	O
+22	##진	O	O
+23	##술	O	O
+24	##을	O	O
+25	했	O	O
+26	##다	O	O
+27	.	O	O
+28	[SEP]	O	O

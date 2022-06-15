@@ -1,57 +1,33 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	멕시코	B-LC	B-LC	B-LC, B-OG, O, B-PS, B-AF
-2	##가	O	O	O, I-LC, I-OG, B-LC, I-AF
-3	포함	O	O	O, B-LC, B-CV, B-TM, B-OG
-4	##된	O	O	O, B-LC, B-OG, B-PS, B-CV
-5	남미	O	B-LC	B-LC, O, B-OG, B-AF, B-TM
-6	신흥	O	O	O, B-OG, I-OG, B-LC, I-LC
-7	##국	O	O	O, I-OG, I-LC, I-AF, I-CV
-8	주식	O	O	O, B-CV, I-CV, I-AF, I-OG
-9	##은	O	O	O, I-CV, B-CV, I-AF, I-OG
-10	9	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-LC
-11	.	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-12	82	I-QT	I-QT	I-QT, B-QT, O, I-LC, I-PS
-13	%	I-QT	I-QT	I-QT, O, I-LC, I-PS, I-OG
-14	수익	O	O	O, I-QT, B-CV, B-TM, B-LC
-15	##률	O	O	O, I-QT, I-TM, I-LC, I-OG
-16	##을	O	O	O, B-CV, B-TM, I-OG, B-OG
-17	기록	O	O	O, B-CV, B-TM, B-OG, B-LC
-18	##했	O	O	O, B-CV, B-LC, B-PS, B-OG
-19	##고	O	O	O, B-LC, B-CV, B-OG, B-PS
-20	나이지리아	B-LC	B-LC	B-LC, B-OG, O, I-LC, B-AF
-21	##와	O	O	O, I-LC, I-OG, I-AF, B-LC
-22	남아공	B-LC	B-LC	B-LC, B-OG, O, I-LC, B-AF
-23	##이	O	O	O, I-LC, B-PS, B-LC, I-AF
-24	포함	O	O	O, B-LC, B-CV, B-AF, B-OG
-25	##된	O	O	O, B-LC, B-PS, B-OG, B-AF
-26	글로벌	O	O	O, B-LC, B-OG, B-AF, B-TM
-27	신흥	O	O	O, B-OG, B-LC, I-OG, I-LC
-28	##국	O	O	O, I-OG, I-LC, I-AF, I-CV
-29	,	O	O	O, I-OG, B-CV, I-AF, B-LC
-30	베트남	B-LC	B-LC	B-LC, B-OG, O, I-LC, B-AF
-31	##이	O	O	O, I-LC, B-PS, I-AF, B-LC
-32	포함	O	O	O, B-LC, B-CV, B-OG, B-AF
-33	##된	O	O	O, B-LC, B-OG, B-PS, B-AF
-34	아시아	B-LC	B-LC	B-LC, O, B-OG, B-AF, B-TM
-35	신흥	O	O	O, B-OG, I-OG, B-LC, I-LC
-36	##국	O	O	O, I-OG, I-LC, I-AF, I-CV
-37	펀드	O	O	O, B-CV, I-CV, I-OG, I-AF
-38	##의	O	O	O, I-CV, I-AF, I-OG, B-CV
-39	수익	O	O	O, B-CV, B-TM, B-LC, B-QT
-40	##률	O	O	O, I-AF, I-OG, B-LC, I-QT
-41	##은	O	O	O, B-CV, B-LC, B-TM, B-OG
-42	각각	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-CV
-43	7	I-QT	I-QT	I-QT, B-QT, O, I-LC, I-DT
-44	.	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-45	83	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-46	%	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-47	,	O	O	O, I-QT, B-CV, I-OG, I-AF
-48	8	B-QT	B-QT	B-QT, I-QT, O, B-DT, B-LC
-49	.	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-50	01	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-51	%	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-52	였	O	O	O, I-QT, B-CV, I-OG, B-OG
-53	##다	O	O	O, B-CV, I-QT, B-TM, B-OG
-54	.	O	O	O, B-LC, B-CV, B-OG, B-FD
-55	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-FD
+	text	label	preds
+0	[CLS]	O	O
+1	작전	O	O
+2	##은	O	O
+3	정오	B-TI	B-TI
+4	##께	I-TI	I-TI
+5	끝	O	O
+6	##났	O	O
+7	##지만	O	O
+8	프랑스	B-LC	B-OG
+9	사법	O	I-OG
+10	##당	O	I-OG
+11	##국	O	I-OG
+12	##은	O	O
+13	작전	O	O
+14	종료	O	O
+15	뒤	O	O
+16	아바	B-PS	B-PS
+17	##우드	I-PS	I-PS
+18	##가	O	O
+19	체포	O	O
+20	##됐	O	O
+21	##는지	O	O
+22	##에	O	O
+23	대해서	O	O
+24	##는	O	O
+25	밝히	O	O
+26	##지	O	O
+27	않	O	O
+28	##았	O	O
+29	##다	O	O
+30	.	O	O
+31	[SEP]	O	O

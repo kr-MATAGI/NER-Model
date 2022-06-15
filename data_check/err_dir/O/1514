@@ -1,17 +1,45 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, B-CV, I-OG, I-AF
-1	야	O	O	O, B-CV, B-TM, B-LC, B-PS
-2	나	O	O	O, B-CV, B-OG, B-LC, B-TM
-3	##도	O	O	O, B-CV, B-PS, B-LC, I-AF
-4	인제	O	O	O, B-LC, B-CV, B-PS, B-OG
-5	내일	B-DT	B-DT	B-DT, O, I-DT, B-CV, B-OG
-6	##부	O	I-DT	I-DT, O, B-DT, B-OG, B-TI
-7	##턴	O	I-DT	I-DT, O, B-DT, I-QT, I-CV
-8	긴	O	O	O, B-CV, I-CV, B-TM, B-AM
-9	##팔	O	O	O, I-CV, B-CV, I-TM, I-QT
-10	입	O	O	O, I-CV, B-CV, I-TM, I-QT
-11	##어야	O	O	O, I-CV, B-CV, I-QT, I-OG
-12	되	O	O	O, B-CV, B-OG, I-CV, B-LC
-13	##나	O	O	O, B-CV, I-CV, I-OG, B-TM
-14	보다	O	O	O, B-CV, B-TM, B-LC, B-PS
-15	[SEP]	O	O	O, B-CV, B-LC, B-TM, I-CV
+	text	label	preds
+0	[CLS]	O	O
+1	경기	B-OG	B-OG
+2	##여	I-OG	I-OG
+3	##고	I-OG	I-OG
+4	동창회	O	O
+5	##인	O	O
+6	경운	B-OG	B-OG
+7	##회	I-OG	I-OG
+8	##가	O	O
+9	세운	O	O
+10	박물관	O	O
+11	##에	O	O
+12	##서	O	O
+13	특별	O	O
+14	##전	O	O
+15	##이	O	O
+16	열린다	O	O
+17	##는	O	O
+18	소식	O	O
+19	##을	O	O
+20	듣	O	O
+21	##고	O	O
+22	,	O	O
+23	이	O	B-PS
+24	학교	O	O
+25	36	B-QT	B-QT
+26	##회	I-QT	I-QT
+27	졸업	B-CV	B-CV
+28	##생	I-CV	I-CV
+29	##인	O	O
+30	이	B-PS	B-PS
+31	여사	B-CV	B-CV
+32	##도	O	O
+33	녹	B-CV	O
+34	##원	I-CV	O
+35	##삼	I-CV	O
+36	##과	O	O
+37	당의	B-CV	B-MT
+38	##를	O	O
+39	기증	O	O
+40	##했	O	O
+41	##다	O	O
+42	.	O	O
+43	[SEP]	O	O

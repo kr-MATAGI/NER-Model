@@ -1,12 +1,13 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, I-AF, B-CV
-1	그래서	O	O	O, B-CV, B-OG, B-TM, I-AF
-2	경비	B-CV	O	O, B-CV, B-TM, I-CV, B-MT
-3	##는	O	O	O, I-CV, B-CV, I-AF, I-OG
-4	얼마	O	O	O, B-CV, B-PS, B-TM, B-LC
-5	생각	O	O	O, B-CV, B-PS, B-TM, B-OG
-6	중	O	O	O, B-PS, B-CV, B-LC, I-CV
-7	##이	O	O	O, B-PS, B-CV, B-OG, B-LC
-8	##야	O	O	O, I-OG, I-AF, I-CV, B-OG
-9	?	O	O	O, I-OG, B-CV, I-AF, B-TM
-10	[SEP]	O	O	O, B-CV, B-OG, I-AF, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	'	O	O
+2	콜럼버스	B-PS	B-PS
+3	##의	O	O
+4	달걀	B-CV	I-AF
+5	'	O	O
+6	처럼	O	O
+7	말	O	O
+8	##이	O	O
+9	##죠	O	O
+10	.	O	O
+11	[SEP]	O	O

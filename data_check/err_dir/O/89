@@ -1,16 +1,73 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	우리	O	O	O, B-CV, B-PS, B-OG, B-LC
-2	대중	O	B-CV	B-CV, O, B-PS, I-CV, B-FD
-3	##에	O	O	O, I-CV, I-OG, B-CV, I-EV
-4	##게	O	O	O, B-CV, B-LC, B-PS, B-OG
-5	또	O	O	O, B-CV, B-OG, B-LC, B-QT
-6	큰	O	O	O, B-QT, B-CV, B-PS, B-LC
-7	소득	O	O	O, B-QT, B-CV, B-PS, I-QT
-8	##을	O	O	O, B-CV, I-QT, I-CV, B-PS
-9	주	O	O	O, B-CV, B-PS, B-OG, B-LC
-10	##셨	O	O	O, B-CV, B-PS, I-CV, I-EV
-11	##습	O	O	O, B-CV, I-CV, B-PS, I-EV
-12	##니다	O	O	O, B-CV, B-OG, B-PS, B-LC
-13	.	O	O	O, B-CV, B-PS, B-LC, B-OG
-14	[SEP]	O	O	O, B-CV, B-LC, B-PS, I-CV
+	text	label	preds
+0	[CLS]	O	O
+1	지난달	B-DT	B-DT
+2	말	I-DT	I-DT
+3	승인	O	O
+4	확정	O	O
+5	직후	O	O
+6	새	B-OG	B-OG
+7	##정	I-OG	I-OG
+8	##치	I-OG	I-OG
+9	##연합	I-OG	I-OG
+10	김성수	B-PS	B-PS
+11	대변인	B-CV	B-CV
+12	##은	O	O
+13	""""	O	O
+14	지역	O	O
+15	경제	O	O
+16	##를	O	O
+17	둘러싼	O	O
+18	강원도	B-LC	B-CV
+19	##민	O	I-CV
+20	##의	O	O
+21	걱정	O	O
+22	##과	O	O
+23	이	O	O
+24	##를	O	O
+25	해결	O	O
+26	##해	O	O
+27	##보	O	O
+28	##려	O	O
+29	##는	O	O
+30	지방	O	B-OG
+31	##자치단체	O	I-OG
+32	##의	O	O
+33	노력	O	O
+34	##을	O	O
+35	충분히	O	O
+36	이해	O	O
+37	##한다	O	O
+38	""""	O	O
+39	며	O	O
+40	""""	O	O
+41	그래도	O	O
+42	관광	O	O
+43	##산업	O	O
+44	##과	O	O
+45	환경	O	O
+46	보전	O	O
+47	##이	O	O
+48	조화	O	O
+49	##를	O	O
+50	이루	O	O
+51	##는	O	O
+52	합리	O	O
+53	##적	O	O
+54	방안	O	O
+55	##을	O	O
+56	좀	O	O
+57	더	O	O
+58	찾아	O	O
+59	##봐야	O	O
+60	하지	O	O
+61	않	O	O
+62	##았	O	O
+63	##나	O	O
+64	싶	O	O
+65	##다	O	O
+66	""""	O	O
+67	고	O	O
+68	했	O	O
+69	##다	O	O
+70	.	O	O
+71	[SEP]	O	O

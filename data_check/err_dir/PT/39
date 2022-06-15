@@ -1,9 +1,9 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-AF
-1	부추	B-PT	B-CV	B-CV, O, B-PT, B-AF, B-AM
-2	##개	I-PT	I-CV	I-CV, O, B-CV, I-AF, I-PT
-3	##불이	I-PT	I-CV	I-CV, O, B-CV, I-AF, I-OG
-4	##끼	I-PT	I-CV	I-CV, O, I-AF, I-OG, I-PT
-5	##라	O	O	O, I-CV, I-AF, I-OG, I-QT
-6	##든가	O	O	O, B-CV, I-CV, B-OG, I-AF
-7	[SEP]	O	O	O, B-CV, B-LC, B-OG, I-CV
+	text	label	preds
+0	[CLS]	O	O
+1	부추	B-PT	B-CV
+2	##개	I-PT	I-CV
+3	##불이	I-PT	I-CV
+4	##끼	I-PT	I-CV
+5	##라	O	O
+6	##든가	O	O
+7	[SEP]	O	O

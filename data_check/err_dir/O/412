@@ -1,12 +1,21 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	윤리	O	B-OG	B-OG, O, B-EV, B-CV, B-AF
-2	##위원회	O	I-OG	I-OG, O, I-EV, I-CV, I-AF
-3	소집	O	O	O, I-OG, B-CV, I-EV, I-CV
-4	##하	O	O	O, B-CV, B-PS, B-OG, I-OG
-5	##는	O	O	O, B-CV, B-OG, B-LC, B-TM
-6	##거	O	O	O, B-CV, B-OG, B-PS, B-LC
-7	있	O	O	O, B-CV, B-OG, B-TM, B-LC
-8	##잖아요	O	O	O, B-CV, I-OG, B-OG, I-CV
-9	?	O	O	O, B-CV, B-OG, I-OG, B-LC
-10	[SEP]	O	O	O, B-CV, B-OG, B-LC, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	지사	O	B-CV
+2	##로	O	O
+3	나갔	O	O
+4	##다고	O	O
+5	해서	O	O
+6	밖에	O	O
+7	##서	O	O
+8	자기	O	O
+9	편한	O	O
+10	대로	O	O
+11	얘기	O	O
+12	##한다	O	O
+13	”	O	O
+14	고	O	O
+15	비판	O	O
+16	##했	O	O
+17	##다	O	O
+18	.	O	O
+19	[SEP]	O	O

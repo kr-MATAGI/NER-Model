@@ -1,13 +1,60 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, I-OG, B-CV, I-AF
-1	요새	O	O	O, B-CV, B-PS, I-CV, B-LC
-2	##는	O	O	O, B-CV, B-PS, I-CV, B-OG
-3	데	B-CV	O	O, B-CV, B-PS, B-AM, B-LC
-4	##릴	I-CV	O	O, I-CV, I-PS, I-AM, I-OG
-5	##사위	I-CV	O	O, I-CV, I-PS, I-OG, I-AM
-6	##도	O	O	O, I-CV, I-PS, I-OG, I-QT
-7	어쩐	O	O	O, B-PS, B-CV, I-CV, I-PS
-8	##다	O	O	O, B-PS, I-PS, I-CV, B-CV
-9	바뀌	O	O	O, B-CV, B-PS, B-TM, B-LC
-10	##지만	O	O	O, B-CV, I-OG, B-PS, I-AF
-11	[SEP]	O	O	O, B-CV, B-PS, B-LC, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	군포시	B-LC	B-LC
+2	김덕	B-PS	B-PS
+3	##희	I-PS	I-PS
+4	책	B-CV	B-OG
+5	##읽	I-CV	I-OG
+6	##는	I-CV	I-OG
+7	##사업	I-CV	I-OG
+8	##본부	I-CV	I-OG
+9	##장	I-CV	I-CV
+10	##은	O	O
+11	“	O	O
+12	집	O	O
+13	##에	O	O
+14	##서	O	O
+15	잠자	O	O
+16	##는	O	O
+17	헌	O	O
+18	##책	O	O
+19	##을	O	O
+20	순환	O	O
+21	##시	O	O
+22	##켜	O	O
+23	자발	O	O
+24	##적	O	O
+25	##인	O	O
+26	독서	O	O
+27	##문화	O	O
+28	##를	O	O
+29	만들	O	O
+30	##고	O	O
+31	이	O	O
+32	##를	O	O
+33	바탕	O	O
+34	##으로	O	O
+35	군포	B-LC	B-LC
+36	##의	O	O
+37	헌	B-EV	B-EV
+38	##책	I-EV	I-EV
+39	##방	I-EV	I-EV
+40	축제	I-EV	I-EV
+41	##를	O	O
+42	한국	B-LC	B-LC
+43	##의	O	O
+44	대표	O	O
+45	##적	O	O
+46	책	O	O
+47	축제	O	O
+48	##로	O	O
+49	키워	O	O
+50	##나가	O	O
+51	##겠다	O	O
+52	”	O	O
+53	고	O	O
+54	말	O	O
+55	##했	O	O
+56	##다	O	O
+57	.	O	O
+58	[SEP]	O	O

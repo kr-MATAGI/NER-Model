@@ -1,21 +1,51 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	""""	O	O	O, B-CV, B-LC, B-TM, B-OG
-2	창	B-AF	B-OG	B-OG, B-AF, O, B-LC, B-PS
-3	##경	I-AF	I-OG	I-OG, I-AF, O, I-LC, I-PS
-4	##원	I-AF	I-OG	I-OG, I-AF, I-LC, O, I-PS
-5	사자	B-AM	B-AM	B-AM, O, I-AF, B-AF, I-OG
-6	##와	O	O	O, I-AF, I-OG, I-PS, B-CV
-7	내	O	O	O, B-CV, B-OG, B-PS, B-LC
-8	처지	O	O	O, B-CV, B-OG, B-TM, B-LC
-9	다를	O	O	O, B-CV, B-OG, B-TM, B-PS
-10	게	O	O	O, B-CV, B-PS, B-OG, B-LC
-11	없	O	O	O, B-CV, B-PS, B-OG, I-CV
-12	##다	O	O	O, B-CV, B-PS, B-OG, I-CV
-13	##며	O	O	O, B-CV, B-PS, B-LC, B-TM
-14	토로	O	O	O, B-CV, B-LC, B-TM, B-PS
-15	##하	O	O	O, B-CV, B-PS, I-CV, I-EV
-16	##셨	O	O	O, B-CV, B-PS, I-EV, B-LC
-17	##죠	O	O	O, I-OG, I-EV, I-CV, B-CV
-18	""""	O	O	O, B-CV, B-LC, B-OG, I-EV
-19	[SEP]	O	O	O, B-CV, B-LC, I-EV, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	'	O	O
+2	반지	B-AF	B-AF
+3	##의	I-AF	I-AF
+4	제왕	I-AF	I-PS
+5	'	O	O
+6	피터	B-PS	B-PS
+7	잭슨	I-PS	I-PS
+8	감독	B-CV	B-CV
+9	##의	O	O
+10	회사	O	O
+11	##인	O	O
+12	웨	B-OG	B-OG
+13	##타	I-OG	I-OG
+14	##는	O	O
+15	지난	B-DT	B-DT
+16	2006	I-DT	I-DT
+17	##년	I-DT	I-DT
+18	말	I-DT	I-DT
+19	미국	B-LC	B-LC
+20	##의	O	O
+21	I	B-OG	B-OG
+22	##L	I-OG	I-OG
+23	##M	I-OG	I-OG
+24	,	O	O
+25	소니	B-OG	B-OG
+26	##이	I-OG	I-OG
+27	##미지	I-OG	I-OG
+28	##웍	I-OG	I-OG
+29	##스	I-OG	I-OG
+30	##와	O	O
+31	경쟁	O	O
+32	##해	O	O
+33	아바타	B-AF	B-AF
+34	##의	O	O
+35	CG	B-TR	B-TR
+36	작업	O	O
+37	중	O	O
+38	3	B-QT	B-QT
+39	##분	I-QT	I-QT
+40	##의	I-QT	I-QT
+41	2	I-QT	I-QT
+42	##가	I-QT	I-QT
+43	##량	I-QT	I-QT
+44	##을	O	O
+45	수주	O	O
+46	##했	O	O
+47	##다	O	O
+48	.	O	O
+49	[SEP]	O	O

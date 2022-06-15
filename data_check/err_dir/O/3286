@@ -1,16 +1,25 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	고심	O	O	O, B-CV, B-TM, B-OG, B-LC
-2	끝	O	O	O, B-PS, B-CV, B-OG, I-OG
-3	##에	O	O	O, B-CV, B-PS, B-QT, B-OG
-4	2009	B-DT	B-DT	B-DT, O, B-QT, I-DT, B-EV
-5	시즌	I-DT	I-DT	I-DT, O, I-QT, B-DT, I-EV
-6	뒤	O	I-DT	I-DT, O, I-QT, B-DT, I-EV
-7	육군	B-OG	B-OG	B-OG, O, B-CV, B-AF, I-OG
-8	현역	O	O	O, B-CV, I-CV, I-OG, B-OG
-9	##으로	O	O	O, I-CV, I-OG, B-CV, I-QT
-10	입대	O	O	O, B-CV, B-OG, I-CV, B-FD
-11	##했	O	O	O, I-CV, I-OG, B-CV, B-PS
-12	##다	O	O	O, B-CV, B-TM, I-OG, I-CV
-13	.	O	O	O, B-CV, B-PS, B-OG, B-LC
-14	[SEP]	O	O	O, B-CV, B-PS, B-OG, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	그	O	O
+2	##의	O	O
+3	작품	O	O
+4	##을	O	O
+5	보고	O	O
+6	있	O	O
+7	##노	O	O
+8	##라면	O	O
+9	아늑	O	O
+10	##하	O	O
+11	##고	O	O
+12	포근	O	O
+13	##한	O	O
+14	한국	O	B-LC
+15	산의	O	O
+16	능선	O	O
+17	##이	O	O
+18	오버	O	O
+19	##랩	O	O
+20	##된	O	O
+21	##다	O	O
+22	.	O	O
+23	[SEP]	O	O

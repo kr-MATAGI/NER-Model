@@ -1,18 +1,12 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-AF, I-CV
-1	[	O	O	O, B-OG, B-LC, B-AF, B-CV
-2	횡	O	B-AF	B-AF, O, B-PS, B-FD, I-AF
-3	##설	O	I-AF	I-AF, O, I-PS, I-OG, I-FD
-4	##수	O	I-AF	I-AF, O, I-PS, I-FD, I-OG
-5	##설	O	I-AF	I-AF, O, I-PS, I-FD, I-OG
-6	/	O	O	O, I-AF, I-OG, I-PS, B-PS
-7	민	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-AF
-8	##동	I-PS	I-PS	I-PS, O, I-AF, I-OG, B-PS
-9	##용	I-PS	I-PS	I-PS, O, I-AF, I-OG, I-LC
-10	]	O	O	O, I-PS, I-AF, I-OG, B-LC
-11	폭탄	O	B-CV	B-CV, B-AF, O, B-PT, B-PS
-12	##주	O	I-CV	I-CV, I-AF, O, B-CV, I-PS
-13	마시	O	O	O, I-AF, I-CV, B-PS, B-CV
-14	##는	O	O	O, I-AF, B-PS, B-LC, I-PS
-15	청춘	O	O	O, B-CV, B-AF, B-PS, B-LC
-16	[SEP]	O	O	O, I-AF, B-CV, B-AF, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	‘	O	O
+2	1	B-QT	B-QT
+3	##점	I-QT	I-QT
+4	##차	O	I-QT
+5	시리즈	O	O
+6	’	O	O
+7	였	O	O
+8	##다	O	O
+9	.	O	O
+10	[SEP]	O	O

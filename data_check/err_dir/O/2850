@@ -1,25 +1,26 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-EV, I-CV
-1	초소	O	B-AF	B-AF, O, B-TM, B-OG, B-LC
-2	##형	O	I-AF	I-AF, O, I-TM, I-OG, B-AF
-3	전기차	B-AF	B-AF	B-AF, I-AF, O, I-TM, B-CV
-4	'	O	O	O, I-AF, B-CV, I-CV, I-OG
-5	트위	B-AF	B-AF	B-AF, O, I-AF, B-LC, B-PS
-6	##지	I-AF	I-AF	I-AF, O, I-OG, I-LC, I-PS
-7	'	O	O	O, I-AF, I-OG, I-EV, B-CV
-8	는	O	O	O, B-CV, B-LC, B-OG, I-AF
-9	다음	O	B-DT	B-DT, O, I-DT, B-QT, B-TI
-10	주	O	I-DT	I-DT, O, B-DT, I-QT, I-TI
-11	##쯤	O	I-DT	I-DT, O, B-DT, I-QT, I-TI
-12	사전	O	O	O, B-CV, B-PS, B-EV, B-AF
-13	계약자	O	B-CV	B-CV, O, I-CV, I-QT, B-PS
-14	##들	O	O	O, I-CV, B-CV, I-OG, I-EV
-15	##에	O	O	O, B-CV, B-LC, B-TM, B-OG
-16	##게	O	O	O, B-LC, B-CV, B-TM, B-OG
-17	본격	O	O	O, B-LC, B-CV, B-DT, B-OG
-18	인도	O	O	O, B-LC, B-CV, B-OG, B-TM
-19	##될	O	O	O, B-CV, I-OG, B-LC, B-OG
-20	예정	O	O	O, B-CV, B-OG, B-LC, B-QT
-21	##이다	O	O	O, B-CV, B-OG, B-LC, B-TM
-22	.	O	O	O, B-LC, B-OG, B-CV, B-AF
-23	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-AF
+	text	label	preds
+0	[CLS]	O	O
+1	저	O	O
+2	##는	O	O
+3	절	O	O
+4	##겁	O	O
+5	##게	O	O
+6	먹	O	O
+7	##긴	O	O
+8	하지	O	O
+9	##마	O	O
+10	##는	O	O
+11	스	O	O
+12	그래도	O	O
+13	점심	B-TI	B-TI
+14	때	O	I-TI
+15	##와	O	O
+16	쫌	O	O
+17	다른	O	O
+18	걸	O	O
+19	먹	O	O
+20	##고	O	O
+21	싶	O	O
+22	##었	O	O
+23	##는데	O	O
+24	[SEP]	O	O

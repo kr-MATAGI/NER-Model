@@ -1,31 +1,20 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-EV, I-OG, B-CV, I-CV
-1	23	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-QT
-2	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-3	오전	B-TI	B-TI	B-TI, O, I-TI, B-LC, B-EV
-4	(	O	O	O, I-TI, I-DT, B-LC, I-EV
-5	한국	B-LC	B-LC	B-LC, O, B-OG, B-PS, B-AF
-6	시각	O	O	O, I-LC, B-TI, B-CV, I-TI
-7	)	O	O	O, B-LC, B-OG, B-PS, I-OG
-8	LA	B-OG	B-OG	B-OG, B-LC, B-AF, B-EV, O
-9	다저스	I-OG	I-OG	I-OG, B-OG, I-EV, I-LC, O
-10	##와	O	O	O, I-OG, I-EV, I-AF, B-CV
-11	토론토	B-OG	B-OG	B-OG, B-LC, B-AF, I-OG, B-EV
-12	블루	I-OG	I-OG	I-OG, B-OG, O, I-EV, I-LC
-13	##제이	I-OG	I-OG	I-OG, O, I-EV, I-LC, I-AF
-14	##스	I-OG	I-OG	I-OG, O, I-EV, I-LC, I-AF
-15	##의	O	O	O, I-OG, I-EV, I-AF, B-CV
-16	미	B-LC	B-LC	B-LC, O, B-OG, B-PS, B-EV
-17	프로야구	B-CV	B-CV	B-CV, O, B-OG, B-EV, I-CV
-18	(	O	O	O, I-EV, I-CV, I-OG, B-CV
-19	MLB	B-OG	B-OG	B-OG, B-CV, B-EV, B-AF, O
-20	)	O	O	O, I-EV, I-OG, I-CV, I-DT
-21	경기	O	O	O, B-EV, B-CV, I-EV, B-LC
-22	##가	O	O	O, I-EV, B-PS, B-LC, B-OG
-23	열린	O	O	O, B-LC, B-CV, B-OG, B-DT
-24	캐나다	B-LC	B-LC	B-LC, O, B-OG, B-AF, I-LC
-25	토론토	B-LC	B-AF	B-AF, B-LC, I-AF, I-LC, B-OG
-26	로저스	B-AF	B-AF	B-AF, I-AF, I-LC, O, B-LC
-27	##센터	I-AF	I-AF	I-AF, I-LC, O, I-PS, I-OG
-28	.	O	O	O, I-AF, I-OG, I-LC, I-EV
-29	[SEP]	O	O	O, B-LC, B-CV, B-OG, I-EV
+	text	label	preds
+0	[CLS]	O	O
+1	일본	B-LC	B-OG
+2	##이	O	O
+3	우리	O	O
+4	##보	O	O
+5	##다	O	O
+6	십	B-DT	B-DT
+7	년	I-DT	I-DT
+8	정도	I-DT	I-DT
+9	먼저	O	O
+10	나가	O	O
+11	##고	O	O
+12	있	O	O
+13	##지	O	O
+14	않	O	O
+15	##습	O	O
+16	##니까	O	O
+17	.	O	O
+18	[SEP]	O	O

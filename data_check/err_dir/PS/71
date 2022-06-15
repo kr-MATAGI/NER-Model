@@ -1,61 +1,37 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-EV, I-OG, I-CV
-1	이날	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-CV
-2	[UNK]	O	O	O, I-DT, B-LC, I-LC, B-PS
-3	산업단지	O	O	O, B-LC, I-LC, B-AF, B-PS
-4	##에서	O	O	O, I-LC, B-LC, B-PS, B-CV
-5	##는	O	O	O, B-CV, B-LC, B-OG, B-PS
-6	장	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
-7	회장	B-CV	B-CV	B-CV, O, I-PS, I-CV, B-OG
-8	외	O	O	O, I-CV, I-EV, I-PS, I-QT
-9	##에	O	O	O, B-PS, B-LC, B-OG, B-QT
-10	브라질	B-LC	B-LC	B-LC, B-OG, O, B-PS, B-EV
-11	##의	O	O	O, I-LC, I-OG, I-PS, I-AF
-12	첫	O	O	O, B-QT, B-PS, B-LC, I-QT
-13	여성	O	O	O, I-QT, B-QT, B-CV, I-LC
-14	대통령	B-CV	B-CV	B-CV, O, I-QT, I-CV, B-PS
-15	##인	O	O	O, I-CV, I-QT, B-PS, B-CV
-16	지우	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-17	##마	I-PS	I-PS	I-PS, O, I-OG, I-LC, B-PS
-18	호세	I-PS	I-PS	I-PS, B-PS, O, B-LC, I-LC
-19	##프	I-PS	I-PS	I-PS, O, I-LC, I-OG, B-LC
-20	대통령	B-CV	B-CV	B-CV, O, I-PS, B-OG, I-CV
-21	,	O	O	O, I-CV, B-CV, I-OG, I-QT
-22	무	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
-23	##릴	I-PS	I-PS	I-PS, O, I-OG, I-LC, B-PS
-24	##루	I-PS	I-PS	I-PS, O, I-LC, I-OG, B-PS
-25	페	I-PS	I-PS	I-PS, O, B-PS, I-LC, B-LC
-26	##헤	I-PS	I-PS	I-PS, O, I-LC, I-OG, B-LC
-27	##이	I-PS	I-PS	I-PS, O, I-LC, I-OG, B-LC
-28	##라	I-PS	I-PS	I-PS, O, I-LC, I-OG, B-LC
-29	발레	I-PS	B-OG	B-OG, I-PS, I-OG, B-LC, O
-30	회장	B-CV	B-CV	B-CV, O, I-CV, I-PS, I-OG
-31	등	O	O	O, I-CV, B-CV, I-OG, I-QT
-32	##이	O	O	O, B-CV, B-PS, B-OG, B-LC
-33	참석	O	O	O, B-CV, B-TM, B-LC, B-EV
-34	##한	O	O	O, B-LC, B-PS, B-OG, I-EV
-35	가운데	O	O	O, B-LC, B-TM, B-OG, B-EV
-36	동국제강	B-OG	B-OG	B-OG, O, B-LC, I-OG, B-PS
-37	##과	O	O	O, I-OG, B-PS, B-OG, B-CV
-38	포스코	B-OG	B-OG	B-OG, B-LC, O, I-OG, B-PS
-39	,	O	O	O, I-OG, B-CV, I-AF, I-CV
-40	발레	B-FD	B-OG	B-OG, O, I-OG, B-LC, B-PS
-41	##가	O	O	O, I-OG, B-PS, I-PS, I-AF
-42	합작	O	O	O, B-CV, B-OG, B-TM, B-LC
-43	##해	O	O	O, B-LC, B-PS, B-OG, I-OG
-44	설립	O	O	O, B-LC, B-OG, B-CV, B-TM
-45	##한	O	O	O, B-LC, B-PS, B-OG, I-OG
-46	CS	O	B-OG	B-OG, O, B-AF, B-LC, I-OG
-47	##P	O	I-OG	I-OG, O, I-LC, I-AF, B-OG
-48	##의	O	O	O, I-OG, I-AF, I-LC, I-EV
-49	고로	B-AF	B-AF	B-AF, O, I-AF, B-TM, B-LC
-50	제철소	I-AF	I-AF	I-AF, O, B-AF, I-TM, I-EV
-51	현황	O	O	O, I-AF, I-EV, B-LC, I-OG
-52	보고	O	O	O, B-EV, I-EV, B-LC, B-CV
-53	##식	O	O	O, I-EV, B-EV, B-LC, I-OG
-54	##이	O	O	O, B-PS, B-OG, I-EV, B-CV
-55	열	O	O	O, B-EV, B-CV, B-OG, B-LC
-56	##렀	O	O	O, I-EV, B-LC, B-CV, B-EV
-57	##다	O	O	O, B-CV, I-EV, B-LC, I-OG
-58	.	O	O	O, B-PS, B-LC, B-OG, B-CV
-59	[SEP]	O	O	O, B-LC, B-PS, B-CV, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	시크릿	B-PS	B-AF
+2	##의	O	O
+3	전	O	O
+4	##효	O	O
+5	##성이	O	O
+6	“	O	O
+7	저희	O	O
+8	##는	O	O
+9	개성	O	O
+10	##을	O	O
+11	존중	O	O
+12	##하	O	O
+13	##는	O	O
+14	팀	O	O
+15	##이	O	O
+16	##라	O	O
+17	민주	O	O
+18	##화	O	O
+19	##시	O	O
+20	##키지	O	O
+21	않	O	O
+22	##아	O	O
+23	##요	O	O
+24	”	O	O
+25	라고	O	O
+26	말	O	O
+27	##했	O	O
+28	##다가	O	O
+29	엄청난	O	O
+30	논란	O	O
+31	##이	O	O
+32	일어났	O	O
+33	##다	O	O
+34	.	O	O
+35	[SEP]	O	O

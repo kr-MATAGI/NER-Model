@@ -1,35 +1,23 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	이	O	O	O, B-CV, B-PS, B-OG, B-LC
-2	때문	O	O	O, B-CV, B-PS, B-OG, B-LC
-3	##에	O	O	O, B-CV, B-OG, B-LC, B-PS
-4	계층	O	O	O, B-CV, B-PS, B-LC, B-TM
-5	##적으로	O	O	O, B-PS, B-LC, B-CV, I-OG
-6	##는	O	O	O, B-PS, B-LC, B-CV, B-OG
-7	부자	B-CV	O	O, B-CV, I-CV, B-PS, B-TR
-8	##와	O	O	O, I-CV, B-PS, B-CV, I-OG
-9	가진	O	O	O, B-CV, B-PS, B-TM, B-QT
-10	사람	O	O	O, I-CV, B-CV, B-PS, B-AM
-11	등	O	O	O, B-PS, B-LC, B-CV, B-TM
-12	보수	O	B-TR	B-TR, O, I-TR, B-PS, B-FD
-13	기득	O	O	O, B-CV, I-CV, B-PS, I-TR
-14	##권	O	O	O, I-CV, B-CV, I-TR, I-PS
-15	##층	O	O	O, I-CV, B-CV, I-PS, I-TR
-16	##을	O	O	O, I-CV, B-CV, B-PS, I-OG
-17	,	O	O	O, B-CV, B-LC, B-OG, B-PS
-18	지역	O	O	O, B-LC, B-CV, B-PS, B-QT
-19	##적으로	O	O	O, B-PS, B-LC, B-CV, B-QT
-20	##는	O	O	O, B-LC, B-PS, B-CV, B-OG
-21	영남	B-LC	B-LC	B-LC, O, B-OG, B-AF, B-PS
-22	##을	O	O	O, I-LC, I-AF, I-OG, B-CV
-23	대변	O	O	O, B-CV, B-LC, B-PS, B-TM
-24	##해	O	O	O, B-PS, B-LC, B-CV, B-OG
-25	##왔	O	O	O, B-CV, B-PS, B-LC, B-OG
-26	##다는	O	O	O, B-PS, B-CV, B-LC, B-OG
-27	평가	O	O	O, B-CV, B-PS, B-LC, B-OG
-28	##를	O	O	O, B-CV, B-OG, B-PS, I-OG
-29	받	O	O	O, B-CV, B-OG, B-PS, B-LC
-30	##았	O	O	O, B-CV, B-PS, B-OG, B-LC
-31	##다	O	O	O, B-CV, B-OG, B-PS, B-LC
-32	.	O	O	O, B-CV, B-PS, B-LC, B-OG
-33	[SEP]	O	O	O, B-CV, B-LC, B-PS, I-EV
+	text	label	preds
+0	[CLS]	O	O
+1	통신	O	O
+2	환경	O	O
+3	구축	O	O
+4	##을	O	O
+5	위한	O	O
+6	각종	O	O
+7	아이디어	O	O
+8	##를	O	O
+9	내	O	O
+10	##고	O	O
+11	새로운	O	O
+12	IT	O	B-FD
+13	##기	O	O
+14	##기	O	O
+15	##들	O	O
+16	##도	O	O
+17	개발	O	O
+18	중이	O	O
+19	##다	O	O
+20	.	O	O
+21	[SEP]	O	O

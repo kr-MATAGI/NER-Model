@@ -1,12 +1,20 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	고등어	B-CV	B-AM	B-AM, B-CV, O, B-PT, B-AF
-2	##가	O	O	O, I-CV, I-AF, B-PS, I-PS
-3	됐	O	O	O, B-LC, B-QT, B-PS, B-CV
-4	##든	O	O	O, B-PS, B-LC, I-AF, B-OG
-5	삼	B-CV	B-AM	B-AM, B-CV, B-PT, O, B-TM
-6	##치	I-CV	I-AM	I-AM, I-CV, I-PT, O, I-TM
-7	##가	O	O	O, I-CV, I-AF, I-QT, I-TM
-8	됐	O	O	O, B-LC, B-PS, B-CV, B-QT
-9	##든	O	O	O, B-PS, B-LC, I-AF, I-QT
-10	[SEP]	O	O	O, B-CV, B-PS, B-TM, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	근데	O	O
+2	이런	O	O
+3	생각	O	O
+4	##도	O	O
+5	들어	O	O
+6	##요	O	O
+7	.	O	O
+8	만약	O	O
+9	##에	O	O
+10	인제	O	O
+11	사랑	O	O
+12	##하	O	O
+13	##는	O	O
+14	아이	B-CV	O
+15	##에	O	O
+16	##요	O	O
+17	?	O	O
+18	[SEP]	O	O

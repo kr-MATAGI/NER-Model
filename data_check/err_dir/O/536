@@ -1,24 +1,14 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	소비자	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-AF
-2	##가	O	O	O, I-CV, B-CV, B-PS, I-OG
-3	지갑	O	O	O, B-CV, B-TM, B-AM, I-AF
-4	##을	O	O	O, B-CV, I-AF, I-CV, B-PS
-5	닫	O	O	O, B-CV, B-TM, B-LC, B-PS
-6	##는	O	O	O, B-CV, B-LC, B-TM, B-PS
-7	모습	O	O	O, B-CV, B-TM, B-LC, B-OG
-8	##은	O	O	O, B-CV, B-OG, B-LC, B-PS
-9	패션	O	O	O, B-FD, B-CV, I-FD, B-OG
-10	##의	O	O	O, I-FD, B-FD, I-CV, I-AF
-11	##류	O	O	O, I-FD, I-CV, I-OG, I-AF
-12	분야	O	O	O, I-OG, I-FD, I-CV, I-AF
-13	##에서	O	O	O, B-CV, B-OG, B-LC, B-PS
-14	##도	O	O	O, B-LC, B-CV, B-OG, B-PS
-15	피부	O	B-TM	B-TM, O, B-TR, B-LC, B-AM
-16	##로	O	O	O, I-TM, I-EV, I-OG, I-QT
-17	느낄	O	O	O, B-CV, B-OG, B-LC, B-TM
-18	수	O	O	O, B-OG, B-CV, I-OG, B-PS
-19	있	O	O	O, B-CV, I-OG, B-OG, I-QT
-20	##다	O	O	O, B-CV, I-OG, B-LC, B-OG
-21	.	O	O	O, B-LC, B-CV, B-PS, I-OG
-22	[SEP]	O	O	O, B-CV, B-LC, B-FD, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	근데	O	O
+2	사실	O	O
+3	##은	O	O
+4	그	O	O
+5	폭력	O	B-CV
+6	##가	B-CV	I-CV
+7	##해	I-CV	I-CV
+8	##자	I-CV	I-CV
+9	입장	O	O
+10	##에	O	O
+11	##서는	O	O
+12	[SEP]	O	O

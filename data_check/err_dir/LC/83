@@ -1,30 +1,37 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	SH	B-OG	B-OG	B-OG, O, I-OG, B-PS, B-LC
-2	##공사	I-OG	I-OG	I-OG, O, B-OG, I-AF, I-LC
-3	##는	O	O	O, I-OG, I-AF, I-EV, B-CV
-4	은평	B-LC	B-AF	B-AF, B-LC, O, B-OG, B-EV
-5	##뉴	I-LC	I-AF	I-AF, B-AF, I-LC, O, B-LC
-6	##타운	I-LC	I-AF	I-AF, I-LC, O, I-OG, I-EV
-7	계약자	B-CV	B-CV	B-CV, O, I-AF, I-CV, B-AF
-8	##가	O	O	O, I-CV, I-AF, I-OG, I-EV
-9	분양	O	O	O, B-CV, B-LC, B-PS, B-AF
-10	##가	O	O	O, I-CV, I-AF, I-LC, B-PS
-11	##를	O	O	O, B-CV, B-PS, I-AF, B-LC
-12	일시	O	O	O, B-CV, B-QT, B-TM, B-LC
-13	##에	O	O	O, B-PS, B-CV, B-LC, I-QT
-14	납입	O	O	O, B-CV, B-QT, B-LC, B-PS
-15	##하면	O	O	O, B-LC, B-CV, B-PS, I-QT
-16	최대	O	O	O, B-QT, B-DT, B-CV, I-QT
-17	2	B-QT	B-QT	B-QT, I-QT, O, B-DT, I-LC
-18	##억	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-19	원	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-20	##의	O	O	O, I-QT, B-CV, B-PS, B-OG
-21	할인	O	O	O, B-TM, B-CV, B-QT, I-QT
-22	혜택	O	O	O, I-QT, B-CV, I-OG, I-CV
-23	##을	O	O	O, B-CV, B-OG, B-TM, B-LC
-24	주고	O	O	O, B-CV, B-OG, B-TM, B-PS
-25	있	O	O	O, B-CV, B-OG, B-TM, B-LC
-26	##다	O	O	O, B-CV, B-OG, B-TM, I-OG
-27	.	O	O	O, B-LC, B-OG, B-PS, B-CV
-28	[SEP]	O	O	O, B-LC, B-CV, I-OG, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	러시아	B-LC	B-OG
+2	##는	O	O
+3	1000	B-QT	B-QT
+4	##㎥	I-QT	I-QT
+5	##당	I-QT	I-QT
+6	약	B-QT	B-QT
+7	300	I-QT	I-QT
+8	##달	I-QT	I-QT
+9	##러	I-QT	I-QT
+10	##를	O	O
+11	요구	O	O
+12	##하	O	O
+13	##고	O	O
+14	있	O	O
+15	##고	O	O
+16	,	O	O
+17	중국	B-LC	B-OG
+18	##은	O	O
+19	200	B-QT	B-QT
+20	##달	I-QT	I-QT
+21	##러	I-QT	I-QT
+22	정도	I-QT	I-QT
+23	##를	O	O
+24	제시	O	O
+25	##하	O	O
+26	##고	O	O
+27	있	O	O
+28	##는	O	O
+29	것	O	O
+30	##으로	O	O
+31	알려져	O	O
+32	있	O	O
+33	##다	O	O
+34	.	O	O
+35	[SEP]	O	O

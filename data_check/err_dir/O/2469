@@ -1,60 +1,25 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-QT, I-EV
-1	천재	O	O	O, B-CV, B-PS, B-FD, B-QT
-2	무용	B-CV	B-CV	B-CV, O, I-CV, B-FD, B-PS
-3	##가	I-CV	I-CV	I-CV, O, B-CV, I-FD, I-PS
-4	##로	O	O	O, I-CV, B-PS, I-PS, B-LC
-5	불렸	O	O	O, B-PS, B-LC, I-PS, B-CV
-6	##던	O	O	O, B-PS, B-LC, I-PS, B-CV
-7	[UNK]	O	O	O, B-PS, B-LC, I-PS, B-CV
-8	니	O	O	O, B-PS, I-PS, B-LC, B-OG
-9	##진	O	O	O, I-PS, B-PS, B-LC, I-LC
-10	##스키	O	O	O, I-PS, B-PS, B-LC, I-LC
-11	##가	O	O	O, I-PS, B-PS, B-LC, I-LC
-12	드	B-PS	B-PS	B-PS, O, I-PS, B-LC, B-OG
-13	##뷔	I-PS	I-PS	I-PS, O, I-LC, B-PS, I-OG
-14	##시	I-PS	I-PS	I-PS, O, I-LC, B-PS, I-OG
-15	##의	O	O	O, I-PS, B-LC, B-FD, I-AF
-16	‘	O	O	O, B-LC, B-CV, B-AF, B-FD
-17	목	B-AF	B-AF	B-AF, O, I-AF, B-FD, B-LC
-18	##신	I-AF	I-AF	I-AF, O, B-AF, I-PS, I-LC
-19	##의	I-AF	I-AF	I-AF, O, B-AF, I-PS, I-LC
-20	오후	I-AF	I-AF	I-AF, B-AF, O, I-QT, I-PS
-21	전주	I-AF	I-AF	I-AF, O, B-AF, I-QT, I-LC
-22	##곡	I-AF	I-AF	I-AF, O, I-QT, I-CV, I-FD
-23	’	O	O	O, I-AF, I-EV, I-CV, I-QT
-24	에	O	O	O, B-PS, B-CV, B-LC, I-AF
-25	안무	O	O	O, B-FD, B-CV, B-LC, B-PS
-26	##를	O	O	O, B-PS, B-LC, B-CV, B-OG
-27	붙인	O	O	O, B-PS, B-LC, B-CV, B-OG
-28	12	B-TI	B-TI	B-TI, O, B-QT, B-EV, B-TR
-29	##분	I-TI	I-TI	I-TI, O, I-QT, I-TR, B-TI
-30	길이	O	O	O, I-TI, I-QT, I-TR, I-AF
-31	##의	O	O	O, I-TI, I-QT, B-PS, I-OG
-32	작품	O	O	O, B-FD, B-CV, B-LC, B-PS
-33	##으로	O	O	O, B-PS, B-LC, B-CV, B-OG
-34	,	O	O	O, B-LC, B-PS, B-OG, B-FD
-35	고전	B-FD	B-TR	B-TR, B-FD, O, B-PS, I-TR
-36	##주의	I-FD	I-TR	I-TR, O, I-FD, B-TR, I-PS
-37	발레	B-FD	B-FD	B-FD, I-FD, O, I-TR, B-TR
-38	##의	O	O	O, I-FD, I-TR, B-FD, I-QT
-39	형식	O	O	O, B-TR, B-FD, B-LC, B-TM
-40	##미	O	O	O, I-TR, I-FD, I-LC, I-PS
-41	##를	O	O	O, B-LC, B-PS, B-CV, B-OG
-42	탈피	O	O	O, B-LC, B-CV, B-OG, B-PS
-43	##해	O	O	O, B-LC, B-PS, B-OG, B-FD
-44	새로운	O	O	O, B-FD, B-LC, B-PS, B-OG
-45	무용	O	B-FD	B-FD, O, I-FD, B-TR, B-CV
-46	##의	O	O	O, I-FD, B-PS, I-OG, I-TR
-47	시대	O	O	O, B-PS, B-LC, B-CV, B-OG
-48	##를	O	O	O, B-PS, B-CV, B-LC, B-OG
-49	열	O	O	O, B-LC, B-PS, B-CV, B-OG
-50	##었	O	O	O, B-PS, B-LC, B-CV, B-OG
-51	##다는	O	O	O, B-PS, B-LC, B-OG, B-CV
-52	평가	O	O	O, B-CV, B-PS, B-LC, I-OG
-53	##를	O	O	O, B-CV, B-PS, I-OG, B-LC
-54	받	O	O	O, B-CV, B-PS, B-OG, B-LC
-55	##는	O	O	O, I-OG, B-PS, B-CV, B-LC
-56	##다	O	O	O, B-CV, B-PS, B-LC, I-OG
-57	.	O	O	O, B-LC, B-PS, B-FD, B-CV
-58	[SEP]	O	O	O, B-LC, B-FD, B-PS, B-CV
+	text	label	preds
+0	[CLS]	O	O
+1	이	O	O
+2	##는	O	O
+3	재정	O	O
+4	건전	O	O
+5	##화	O	O
+6	##를	O	O
+7	위해	O	O
+8	소비세	O	B-CV
+9	##율	O	O
+10	##을	O	O
+11	인상	O	O
+12	##하	O	O
+13	##겠다	O	O
+14	##고	O	O
+15	사실	O	O
+16	##상	O	O
+17	공식	O	O
+18	##화	O	O
+19	##한	O	O
+20	것	O	O
+21	##이다	O	O
+22	.	O	O
+23	[SEP]	O	O

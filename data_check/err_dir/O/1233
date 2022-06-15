@@ -1,52 +1,69 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-EV, I-OG
-1	국조	B-OG	B-OG	B-OG, O, B-EV, B-AF, I-OG
-2	##특위	I-OG	I-OG	I-OG, O, I-EV, B-OG, I-AF
-3	김성태	B-PS	B-PS	B-PS, O, I-PS, I-OG, B-OG
-4	위원장	B-CV	B-CV	B-CV, O, I-CV, I-PS, B-OG
-5	##은	O	O	O, I-CV, I-EV, I-OG, B-CV
-6	브리핑	O	O	O, B-EV, B-CV, B-OG, B-TM
-7	##에서	O	O	O, I-EV, B-CV, I-OG, I-CV
-8	“	O	O	O, B-CV, B-LC, B-OG, B-PS
-9	이른바	O	O	O, B-PS, B-CV, B-LC, B-OG
-10	(	O	O	O, B-PS, B-LC, B-CV, B-OG
-11	최순	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-12	##실	I-PS	I-PS	I-PS, O, I-OG, B-PS, I-LC
-13	등	O	O	O, I-PS, B-CV, B-LC, B-PS
-14	)	O	O	O, B-LC, B-CV, B-OG, B-PS
-15	‘	O	O	O, B-LC, B-CV, B-PS, B-OG
-16	보안	O	B-CV	B-CV, O, I-CV, B-AM, B-TM
-17	##손	B-CV	I-CV	I-CV, O, B-CV, I-AM, B-AM
-18	##님	I-CV	O	O, I-CV, B-CV, I-AM, I-TM
-19	’	O	O	O, I-CV, B-PS, B-CV, B-LC
-20	은	O	O	O, B-PS, B-CV, B-LC, B-OG
-21	(	O	O	O, B-CV, B-PS, B-LC, B-OG
-22	비서실	O	O	O, B-OG, B-AF, B-CV, B-FD
-23	소관	O	O	O, B-CV, I-OG, I-CV, I-AF
-24	##이지	O	O	O, B-PS, B-CV, B-LC, B-OG
-25	)	O	O	O, B-LC, B-CV, B-PS, B-OG
-26	자기	O	O	O, B-CV, B-PS, B-OG, B-LC
-27	##들	O	O	O, B-PS, I-OG, B-CV, B-OG
-28	소관	O	O	O, B-CV, B-TM, B-LC, B-OG
-29	##이	O	O	O, B-PS, B-CV, B-OG, B-LC
-30	아니	O	O	O, B-PS, B-CV, B-LC, B-OG
-31	##라는	O	O	O, B-PS, B-OG, B-LC, B-CV
-32	게	O	O	O, B-PS, B-LC, B-OG, B-CV
-33	경호	B-OG	O	O, B-OG, B-CV, B-AF, B-FD
-34	##실	I-OG	O	O, I-OG, I-CV, I-AF, I-LC
-35	##의	O	O	O, I-OG, I-AF, I-CV, B-PS
-36	실질	O	O	O, B-CV, B-LC, B-PS, B-TM
-37	##적	O	O	O, B-PS, B-LC, I-CV, I-PS
-38	입장	O	O	O, B-CV, B-LC, B-PS, B-OG
-39	##이	O	O	O, B-PS, B-CV, B-LC, B-OG
-40	아닌가	O	O	O, B-CV, B-PS, B-LC, B-OG
-41	생각	O	O	O, B-CV, B-OG, B-TM, B-LC
-42	##된	O	O	O, I-OG, B-PS, I-EV, I-CV
-43	##다	O	O	O, B-CV, I-OG, I-EV, B-LC
-44	”	O	O	O, B-CV, B-LC, B-TM, B-OG
-45	고	O	O	O, B-CV, B-LC, B-TM, B-QT
-46	지적	O	O	O, B-CV, B-TM, B-OG, I-CV
-47	##했	O	O	O, B-CV, B-LC, B-PS, B-OG
-48	##다	O	O	O, B-CV, B-LC, B-QT, B-TM
-49	.	O	O	O, B-CV, B-LC, B-PS, B-OG
-50	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	외	O	B-OG
+2	##통	O	I-OG
+3	##위	O	I-OG
+4	##는	O	O
+5	이날	B-DT	B-DT
+6	전체	O	O
+7	##회의	O	O
+8	##를	O	O
+9	열	O	O
+10	##어	O	O
+11	새	B-OG	B-OG
+12	##누리	I-OG	I-OG
+13	##당	I-OG	I-OG
+14	##이	O	O
+15	발의	O	O
+16	##한	O	O
+17	‘	O	O
+18	북한	B-LC	B-LC
+19	##의	O	O
+20	핵실험	O	O
+21	규탄	O	O
+22	및	O	O
+23	핵	B-AF	B-AF
+24	##폐	O	O
+25	##기	O	O
+26	촉구	O	O
+27	결의안	O	O
+28	’	O	O
+29	과	O	O
+30	민주	B-OG	B-OG
+31	##통	I-OG	I-OG
+32	##합	I-OG	I-OG
+33	##당	I-OG	I-OG
+34	##이	O	O
+35	발의	O	O
+36	##한	O	O
+37	‘	O	O
+38	북한	B-LC	B-LC
+39	##의	O	O
+40	핵실험	O	O
+41	규탄	O	O
+42	및	O	O
+43	남북	B-OG	B-OG
+44	##관계	O	O
+45	개선	O	O
+46	촉구	O	O
+47	결의안	O	O
+48	’	O	O
+49	을	O	O
+50	각각	O	O
+51	상정	O	O
+52	##한	O	O
+53	뒤	O	O
+54	여야	O	O
+55	협의	O	O
+56	##로	O	O
+57	합의	O	O
+58	##안	O	O
+59	##을	O	O
+60	만들	O	O
+61	##어	O	O
+62	통과	O	O
+63	##시	O	O
+64	##켰	O	O
+65	##다	O	O
+66	.	O	O
+67	[SEP]	O	O

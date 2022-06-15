@@ -1,45 +1,57 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	국토	B-OG	B-OG	B-OG, B-LC, B-PS, O, B-AF
-2	##교통	I-OG	I-OG	I-OG, B-OG, O, I-QT, I-CV
-3	##부	I-OG	I-OG	I-OG, O, I-QT, I-CV, I-LC
-4	##와	O	O	O, I-OG, I-QT, B-CV, I-AF
-5	케이	B-OG	B-OG	B-OG, I-OG, B-LC, O, B-AF
-6	##이	I-OG	I-OG	I-OG, O, B-OG, I-LC, I-AF
-7	##비	I-OG	I-OG	I-OG, O, I-LC, B-OG, I-AF
-8	(	I-OG	I-OG	I-OG, O, B-OG, I-LC, I-CV
-9	KEB	I-OG	I-OG	I-OG, B-OG, O, I-CV, B-CV
-10	)	I-OG	I-OG	I-OG, O, I-CV, B-OG, I-LC
-11	하나	I-OG	I-OG	I-OG, B-OG, O, B-LC, I-CV
-12	##은행	I-OG	I-OG	I-OG, O, I-LC, B-OG, I-CV
-13	##이	O	O	O, I-OG, B-PS, B-CV, I-AF
-14	문	O	O	O, B-PS, B-LC, B-TM, B-AF
-15	닫	O	O	O, B-CV, B-PS, B-OG, B-AF
-16	##는	O	O	O, B-PS, B-CV, B-OG, B-LC
-17	은행	O	O	O, B-CV, B-OG, B-LC, B-TM
-18	지점	O	O	O, B-CV, B-LC, B-OG, B-AF
-19	19	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-PS
-20	##곳	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-21	##에	O	O	O, I-QT, B-CV, B-TM, I-OG
-22	2017	B-DT	B-DT	B-DT, I-DT, O, B-QT, B-OG
-23	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-24	##까	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-25	##지	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-OG
-26	기업	O	O	O, B-AF, I-AF, B-LC, B-TM
-27	임대	O	O	O, I-AF, B-AF, I-LC, B-TM
-28	##주택	O	O	O, I-AF, I-LC, I-TM, I-CV
-29	(	O	O	O, I-AF, B-CV, B-LC, B-AF
-30	뉴스	B-AF	O	O, B-AF, B-LC, B-TM, B-MT
-31	##테이	I-AF	O	O, I-AF, I-LC, I-TM, I-CV
-32	)	O	O	O, I-AF, I-LC, I-CV, B-LC
-33	57	B-QT	B-QT	B-QT, O, B-DT, I-QT, B-LC
-34	##24	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-AF
-35	##채	I-QT	I-QT	I-QT, O, I-LC, I-AF, B-QT
-36	##를	O	O	O, I-QT, B-CV, I-AF, B-TM
-37	짓	O	O	O, B-AF, B-CV, B-OG, B-LC
-38	##기	O	O	O, B-PS, B-OG, B-LC, B-CV
-39	##로	O	O	O, B-CV, B-OG, B-PS, B-TM
-40	했	O	O	O, B-OG, B-CV, B-LC, B-PS
-41	##다	O	O	O, B-CV, B-LC, B-OG, B-TM
-42	.	O	O	O, B-LC, B-OG, B-CV, B-AF
-43	[SEP]	O	O	O, B-LC, B-OG, B-CV, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	송호	B-PS	B-PS
+2	##창	I-PS	I-PS
+3	당	O	O
+4	전략	B-CV	B-CV
+5	##기획	I-CV	I-CV
+6	##위원	I-CV	I-CV
+7	##장	I-CV	I-CV
+8	##은	O	O
+9	<	O	O
+10	한겨레	B-OG	B-OG
+11	>	O	O
+12	와의	O	O
+13	통화	O	O
+14	##에	O	O
+15	##서	O	O
+16	“	O	O
+17	국정원	B-AF	B-OG
+18	대선	B-EV	B-EV
+19	개입	O	O
+20	##과	O	O
+21	세월	B-EV	B-EV
+22	##호	I-EV	I-EV
+23	참사	I-EV	I-EV
+24	##에	O	O
+25	책임	O	O
+26	##을	O	O
+27	느껴	O	O
+28	##야	O	O
+29	할	O	O
+30	새	B-OG	B-OG
+31	##누리	I-OG	I-OG
+32	##당	I-OG	I-OG
+33	##이	O	O
+34	권	B-PS	B-PS
+35	전	O	O
+36	과장	B-CV	B-CV
+37	##을	O	O
+38	공격	O	O
+39	##하	O	O
+40	##는	O	O
+41	것	O	O
+42	##은	O	O
+43	적	O	O
+44	##반	O	O
+45	##하	O	O
+46	##장	O	O
+47	”	O	O
+48	이라	O	O
+49	##고	O	O
+50	역	O	O
+51	##공	O	O
+52	##했	O	O
+53	##다	O	O
+54	.	O	O
+55	[SEP]	O	O

@@ -1,25 +1,41 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	이스라엘	B-LC	B-OG	B-OG, B-LC, O, B-PS, I-OG
-2	##이	O	O	O, I-OG, I-LC, B-PS, B-OG
-3	과도	O	O	O, B-CV, B-LC, B-OG, I-OG
-4	##한	O	O	O, B-LC, B-OG, B-PS, B-TM
-5	미국	B-LC	B-LC	B-LC, B-OG, O, I-OG, B-CV
-6	의존	O	O	O, I-OG, I-LC, B-CV, I-CV
-7	##에서	O	O	O, B-LC, B-PS, B-CV, B-TM
-8	벗어나	O	O	O, B-CV, B-LC, B-PS, B-TM
-9	##는	O	O	O, B-LC, B-CV, B-OG, B-TM
-10	새로운	O	O	O, B-LC, B-CV, B-OG, B-TM
-11	외교	O	O	O, B-CV, B-FD, B-LC, B-OG
-12	##정책	O	O	O, I-CV, B-CV, I-FD, I-QT
-13	##을	O	O	O, I-CV, B-CV, B-PS, B-OG
-14	구상	O	O	O, B-CV, B-TM, B-OG, B-LC
-15	##하고	O	O	O, B-CV, B-PS, B-LC, B-OG
-16	있	O	O	O, B-CV, B-PS, B-LC, B-OG
-17	##는	O	O	O, B-CV, B-PS, B-LC, B-OG
-18	것	O	O	O, B-CV, B-PS, B-OG, B-LC
-19	##으로	O	O	O, B-CV, I-OG, I-QT, I-CV
-20	밝혀졌	O	O	O, B-LC, B-CV, B-OG, B-PS
-21	##다	O	O	O, B-CV, I-OG, I-QT, I-CV
-22	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-23	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	특수	B-OG	B-OG
+2	##수사	I-OG	I-OG
+3	##과	I-OG	I-OG
+4	##의	O	O
+5	전신	O	O
+6	##인	O	O
+7	이른바	O	O
+8	'	O	O
+9	사직	B-LC	B-OG
+10	##동	I-LC	I-OG
+11	##팀	O	I-OG
+12	(	O	O
+13	경찰청	B-OG	B-OG
+14	조사	O	O
+15	##과	O	O
+16	)	O	O
+17	'	O	O
+18	은	O	O
+19	과거	O	O
+20	김대중	B-PS	B-PS
+21	정부	B-OG	B-OG
+22	시절	O	O
+23	청와대	B-OG	B-AF
+24	##의	O	O
+25	하	O	O
+26	##명	O	O
+27	(	O	O
+28	下	O	O
+29	命	O	O
+30	)	O	O
+31	수사	O	O
+32	##를	O	O
+33	전담	O	O
+34	##한	O	O
+35	바	O	O
+36	있	O	O
+37	##다	O	O
+38	.	O	O
+39	[SEP]	O	O

@@ -1,55 +1,38 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	허	B-LC	B-LC	B-LC, B-AF, O, B-OG, B-CV
-2	##팡	I-LC	I-LC	I-LC, I-AF, O, I-OG, I-CV
-3	##제	I-LC	I-LC	I-LC, I-AF, I-OG, O, I-PS
-4	##에	O	O	O, I-AF, I-LC, I-OG, I-PS
-5	##는	O	O	O, B-LC, I-AF, B-CV, B-OG
-6	우리	O	O	O, B-LC, B-CV, B-DT, B-OG
-7	##로	O	O	O, I-DT, I-LC, B-LC, I-CV
-8	치	O	O	O, B-PS, I-DT, I-PS, B-LC
-9	##면	O	O	O, I-DT, I-PS, B-LC, B-PS
-10	고려	B-DT	B-DT	B-DT, O, I-DT, B-LC, B-PS
-11	때	O	I-DT	I-DT, O, B-DT, I-PS, I-QT
-12	##인	O	O	O, I-DT, B-DT, B-PS, B-LC
-13	남	B-DT	B-DT	B-DT, I-DT, O, B-LC, B-PS
-14	##송	I-DT	I-DT	I-DT, O, I-PS, I-LC, B-DT
-15	시대	I-DT	I-DT	I-DT, O, B-DT, I-PS, I-LC
-16	##의	O	O	O, I-DT, B-LC, B-PS, B-CV
-17	골목길	O	O	O, B-LC, B-AF, B-CV, B-TM
-18	##이	O	O	O, B-PS, B-LC, B-CV, B-OG
-19	여전히	O	O	O, B-LC, B-CV, B-OG, B-QT
-20	남아	O	O	O, B-LC, B-CV, B-QT, B-OG
-21	##있	O	O	O, B-LC, I-AF, B-CV, I-LC
-22	##고	O	O	O, B-LC, B-CV, I-AF, B-OG
-23	,	O	O	O, B-LC, B-CV, B-OG, B-AF
-24	호	B-LC	B-LC	B-LC, B-AF, O, B-OG, B-CV
-25	##젠	I-LC	I-LC	I-LC, I-AF, O, B-LC, I-OG
-26	##지	I-LC	I-LC	I-LC, I-AF, O, I-OG, B-LC
-27	##요	I-LC	I-LC	I-LC, I-AF, O, I-OG, B-LC
-28	##코	I-LC	I-LC	I-LC, I-AF, O, I-OG, B-LC
-29	##초	I-LC	I-LC	I-LC, I-AF, O, I-OG, B-LC
-30	##에	O	O	O, I-LC, I-AF, I-OG, I-CV
-31	##는	O	O	O, B-LC, B-CV, I-AF, I-LC
-32	17	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-LC
-33	##세기	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-34	##부터	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-OG
-35	장사	O	O	O, B-CV, I-CV, I-DT, B-EV
-36	##를	O	O	O, I-CV, B-CV, I-EV, B-PS
-37	시작	O	O	O, B-CV, B-LC, I-CV, B-PS
-38	##한	O	O	O, B-LC, B-CV, B-PS, B-OG
-39	유서	O	O	O, B-CV, B-LC, B-PS, B-OG
-40	깊	O	O	O, B-CV, I-CV, B-PS, I-AF
-41	##은	O	O	O, B-CV, B-LC, I-CV, B-PS
-42	점포	O	O	O, B-CV, B-AF, B-LC, B-FD
-43	##들이	O	O	O, B-CV, I-AF, I-CV, B-LC
-44	골목길	O	O	O, B-CV, B-LC, B-TM, B-AF
-45	##을	O	O	O, B-CV, B-LC, B-OG, B-TM
-46	따라	O	O	O, B-LC, B-OG, B-TM, B-PS
-47	빼곡	O	O	O, B-CV, B-LC, B-OG, B-TM
-48	##히	O	O	O, B-LC, B-OG, B-CV, B-PS
-49	들어서	O	O	O, B-LC, B-CV, B-OG, B-AF
-50	있	O	O	O, B-LC, B-CV, I-AF, B-PS
-51	##다	O	O	O, B-CV, B-LC, I-AF, B-TM
-52	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-53	[SEP]	O	O	O, B-LC, B-CV, I-AF, B-AF
+	text	label	preds
+0	[CLS]	O	O
+1	전	B-PS	B-PS
+2	원장	B-CV	B-CV
+3	##의	O	O
+4	남편	B-CV	B-CV
+5	이	B-PS	B-PS
+6	##씨	O	O
+7	##는	O	O
+8	1980	B-DT	B-DT
+9	~	I-DT	I-DT
+10	2000	I-DT	I-DT
+11	##년	I-DT	I-DT
+12	##대	I-DT	I-DT
+13	한	O	O
+14	시중	O	O
+15	##은행	O	O
+16	##에	O	O
+17	##서	O	O
+18	외환	O	B-CV
+19	딜러	O	I-CV
+20	##로	O	O
+21	일	O	O
+22	##하	O	O
+23	##며	O	O
+24	외환	O	O
+25	##시장	O	O
+26	##을	O	O
+27	풍미	O	O
+28	##했	O	O
+29	##던	O	O
+30	사람	O	O
+31	##으로	O	O
+32	알려져	O	O
+33	있	O	O
+34	##다	O	O
+35	.	O	O
+36	[SEP]	O	O

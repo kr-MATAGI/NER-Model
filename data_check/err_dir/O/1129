@@ -1,90 +1,15 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-QT
-1	장애	O	O	O, B-TM, B-CV, B-TR, B-LC
-2	##를	O	O	O, B-PS, I-CV, I-TM, B-CV
-3	가진	O	O	O, B-PS, B-CV, B-LC, B-TM
-4	부모	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-OG
-5	또는	O	O	O, I-CV, B-CV, I-QT, B-PS
-6	자녀	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-AF
-7	##를	O	O	O, I-CV, B-CV, B-PS, I-AF
-8	부양	O	O	O, B-CV, I-CV, B-PS, B-TM
-9	##하고	O	O	O, B-PS, I-CV, B-CV, B-LC
-10	있	O	O	O, B-PS, B-CV, B-LC, B-QT
-11	##는	O	O	O, B-PS, B-CV, B-LC, B-OG
-12	직원	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-OG
-13	##에	O	O	O, I-CV, I-OG, I-EV, B-CV
-14	##게	O	O	O, B-LC, B-CV, B-OG, B-DT
-15	##는	O	O	O, B-LC, B-OG, B-PS, B-CV
-16	장애	O	B-CV	B-CV, O, B-TM, I-CV, B-FD
-17	##가족	O	I-CV	I-CV, O, B-CV, I-TM, I-OG
-18	##에	O	O	O, I-CV, I-OG, B-CV, I-QT
-19	대하	O	O	O, B-DT, B-QT, B-LC, B-OG
-20	##여	O	O	O, I-DT, B-LC, B-DT, I-QT
-21	매월	O	O	O, B-DT, I-DT, B-QT, B-CV
-22	1	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-CV
-23	##인	I-QT	I-QT	I-QT, O, I-DT, I-LC, B-QT
-24	##당	I-QT	I-QT	I-QT, O, I-LC, I-DT, I-PS
-25	20	B-QT	B-QT	B-QT, I-QT, O, B-DT, B-LC
-26	##만	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-27	원	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-28	##씩	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-29	##의	O	O	O, I-QT, B-PS, B-CV, B-LC
-30	장애	O	O	O, B-CV, B-TM, B-FD, B-QT
-31	보육	O	O	O, I-CV, B-CV, B-QT, B-FD
-32	##수	O	O	O, I-CV, B-CV, I-QT, I-TR
-33	##당	O	O	O, I-CV, B-CV, I-QT, I-TR
-34	##을	O	O	O, B-PS, I-CV, B-CV, B-QT
-35	지급	O	O	O, B-CV, B-QT, B-OG, B-LC
-36	##하	O	O	O, B-PS, B-OG, B-LC, I-DT
-37	##는	O	O	O, B-OG, B-LC, B-PS, B-CV
-38	한편	O	O	O, B-QT, B-LC, B-TM, B-CV
-39	,	O	O	O, B-CV, I-QT, B-PS, B-LC
-40	치솟	O	O	O, B-LC, B-PS, B-CV, B-QT
-41	##는	O	O	O, B-PS, B-LC, B-CV, B-QT
-42	대학	O	O	O, B-CV, B-AF, B-FD, B-PS
-43	##등	O	O	O, I-CV, B-CV, I-AF, B-PS
-44	##록	O	O	O, I-CV, B-CV, I-AF, I-TM
-45	##금	O	O	O, I-CV, I-AF, B-CV, I-TM
-46	##에	O	O	O, B-PS, I-CV, B-CV, B-LC
-47	대한	O	O	O, B-LC, B-PS, B-TM, B-CV
-48	가계부	O	O	O, B-CV, B-TM, B-PS, B-AF
-49	##담	O	O	O, I-CV, B-PS, B-CV, B-TM
-50	##을	O	O	O, B-PS, B-LC, B-CV, B-TM
-51	덜	O	O	O, B-PS, B-LC, B-CV, B-QT
-52	##고	O	O	O, B-PS, B-LC, B-CV, I-PS
-53	##자	O	O	O, I-QT, I-CV, I-PS, B-PS
-54	대학생	B-CV	B-CV	B-CV, O, B-OG, B-TM, I-CV
-55	자녀	B-CV	B-CV	B-CV, I-CV, O, B-TM, B-AF
-56	##에	O	O	O, I-CV, I-OG, B-CV, I-AF
-57	대해서	O	O	O, B-LC, B-OG, B-QT, B-CV
-58	##는	O	O	O, B-LC, B-OG, B-PS, B-TM
-59	인원	O	O	O, B-LC, B-CV, B-TM, B-OG
-60	##제한	O	O	O, B-LC, B-PS, B-TM, B-OG
-61	없이	O	O	O, B-LC, B-CV, B-QT, B-TM
-62	등록금	O	O	O, B-CV, I-CV, B-AF, B-MT
-63	##을	O	O	O, I-CV, B-PS, B-CV, B-QT
-64	지원	O	O	O, B-CV, B-OG, B-TM, B-LC
-65	##하	O	O	O, B-LC, B-OG, B-PS, B-CV
-66	##는	O	O	O, B-LC, B-OG, B-TM, B-CV
-67	등	O	O	O, B-LC, B-TM, B-OG, B-QT
-68	직원	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-OG
-69	##들이	O	O	O, I-CV, B-CV, B-PS, I-AF
-70	걱정	O	O	O, B-CV, B-TM, B-LC, B-PS
-71	##없이	O	O	O, B-PS, B-LC, B-QT, B-CV
-72	맡	O	O	O, B-CV, B-LC, B-TM, B-PS
-73	##은	O	O	O, B-PS, B-LC, B-CV, B-TM
-74	업무	O	O	O, B-CV, B-TM, B-LC, B-EV
-75	##에	O	O	O, B-LC, B-PS, B-CV, I-CV
-76	충실	O	O	O, B-LC, B-CV, B-PS, B-TM
-77	##할	O	O	O, B-PS, B-LC, B-CV, B-OG
-78	수	O	O	O, B-PS, B-LC, B-CV, B-TM
-79	있	O	O	O, B-LC, B-TM, B-CV, B-PS
-80	##도록	O	O	O, B-LC, B-TM, B-OG, B-PS
-81	다방면	O	O	O, B-QT, B-TM, B-LC, B-DT
-82	##으로	O	O	O, B-LC, B-PS, B-OG, B-QT
-83	지원	O	O	O, B-OG, B-TM, B-LC, B-QT
-84	##하고	O	O	O, B-OG, B-LC, I-OG, B-PS
-85	있	O	O	O, B-OG, B-CV, I-OG, B-TM
-86	##다	O	O	O, I-OG, B-CV, B-OG, B-TM
-87	.	O	O	O, B-LC, B-PS, B-CV, B-OG
-88	[SEP]	O	O	O, B-LC, B-CV, B-PS, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	이거	O	O
+2	##를	O	O
+3	이렇게	O	O
+4	제	O	O
+5	##가	O	O
+6	반	O	B-QT
+7	##을	O	O
+8	짤	O	O
+9	##른	O	O
+10	거	O	O
+11	##예	O	O
+12	##요	O	O
+13	[SEP]	O	O

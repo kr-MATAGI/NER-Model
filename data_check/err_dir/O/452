@@ -1,45 +1,40 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	코오롱	B-OG	B-OG	B-OG, O, B-LC, I-OG, B-PS
-2	##인	I-OG	I-OG	I-OG, O, I-LC, B-OG, I-PS
-3	##더스	I-OG	I-OG	I-OG, O, I-LC, I-PS, I-EV
-4	##트리	I-OG	I-OG	I-OG, O, I-LC, I-PS, I-EV
-5	##의	O	O	O, I-OG, B-OG, I-PS, I-CV
-6	스포츠	O	O	O, B-FD, B-CV, B-OG, I-OG
-7	브랜드	O	O	O, I-OG, I-CV, B-CV, I-FD
-8	헤드	O	B-OG	B-OG, B-PS, O, B-AF, I-OG
-9	##가	O	O	O, I-OG, I-PS, I-AF, I-CV
-10	출시	O	O	O, B-CV, I-OG, B-LC, B-TM
-11	##한	O	O	O, B-CV, B-LC, B-PS, B-OG
-12	‘	O	O	O, B-CV, B-LC, B-OG, B-AF
-13	베어	B-AF	B-AF	B-AF, B-CV, B-PS, O, I-AF
-14	##풋	I-AF	I-AF	I-AF, I-CV, B-AF, O, I-PS
-15	트래	I-AF	I-AF	I-AF, B-AF, I-CV, O, B-CV
-16	##블	I-AF	I-AF	I-AF, I-CV, O, B-AF, I-PS
-17	롱	I-AF	I-AF	I-AF, I-CV, B-AF, B-CV, O
-18	패딩	I-AF	I-AF	I-AF, I-CV, B-AF, B-CV, O
-19	##부	I-AF	I-AF	I-AF, I-CV, O, B-AF, B-CV
-20	##츠	I-AF	I-AF	I-AF, I-CV, O, I-PS, I-TM
-21	’	O	O	O, I-AF, I-CV, I-OG, I-EV
-22	는	O	O	O, B-CV, I-AF, B-LC, B-OG
-23	내부	O	O	O, B-TM, B-CV, B-LC, B-AM
-24	##를	O	O	O, B-CV, B-PS, I-TM, B-LC
-25	인조	O	O	O, B-CV, B-MT, B-FD, B-TM
-26	양	O	B-CV	B-CV, O, I-CV, B-PT, B-AM
-27	##털	O	I-CV	I-CV, O, B-CV, I-AM, I-MT
-28	##로	O	O	O, I-CV, I-OG, B-CV, I-AF
-29	처리	O	O	O, B-CV, B-LC, B-OG, B-PS
-30	##해	O	O	O, B-LC, B-PS, B-OG, B-CV
-31	보온성	O	O	O, B-CV, B-TM, B-LC, B-PS
-32	##과	O	O	O, I-CV, B-PS, I-OG, B-CV
-33	함께	O	O	O, B-LC, B-CV, B-TM, B-PS
-34	푹	O	O	O, B-LC, B-CV, B-TM, B-PS
-35	##신	O	O	O, B-LC, B-PS, B-CV, B-TM
-36	##한	O	O	O, B-LC, B-PS, B-CV, B-TM
-37	착	O	O	O, B-CV, B-LC, B-TM, B-PS
-38	##화	O	O	O, B-LC, B-CV, B-PS, I-CV
-39	##감	O	O	O, B-LC, B-PS, B-CV, I-CV
-40	##이	O	O	O, B-PS, B-LC, B-CV, B-OG
-41	돋보인다	O	O	O, B-CV, B-LC, B-OG, B-TM
-42	.	O	O	O, B-LC, B-PS, B-CV, B-OG
-43	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	박	B-PS	B-PS
+2	대통령	B-CV	B-CV
+3	##은	O	O
+4	또	O	O
+5	“	O	O
+6	우리	O	O
+7	##나라	O	O
+8	##가	O	O
+9	2012	B-DT	B-DT
+10	##년	I-DT	I-DT
+11	핵	O	B-EV
+12	##안	O	I-EV
+13	##보	O	I-EV
+14	정상회의	O	I-EV
+15	의장	O	O
+16	##국	O	O
+17	##으로	O	O
+18	##서	O	O
+19	이	O	O
+20	문제	O	O
+21	##의	O	O
+22	중요	O	O
+23	##성	O	O
+24	##을	O	O
+25	강조	O	O
+26	##하	O	O
+27	##고	O	O
+28	그	O	O
+29	비준	O	O
+30	##을	O	O
+31	국제	O	O
+32	##사회	O	O
+33	##에	O	O
+34	약속	O	O
+35	##했	O	O
+36	##다	O	O
+37	.	O	O
+38	[SEP]	O	O

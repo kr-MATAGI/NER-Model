@@ -1,26 +1,43 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	특히	O	O	O, B-TM, B-CV, B-OG, B-LC
-2	1960	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-LC
-3	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-4	##대	I-DT	I-DT	I-DT, O, I-QT, B-DT, I-PS
-5	발광	B-TM	B-TM	B-TM, O, B-CV, B-TR, B-AF
-6	##소	I-TM	I-TM	I-TM, O, B-TM, I-MT, I-TR
-7	##자	I-TM	I-TM	I-TM, O, I-MT, I-CV, I-AF
-8	(	O	O	O, I-TM, I-CV, I-OG, I-AF
-9	LED	O	B-TM	B-TM, O, I-TM, B-AF, B-OG
-10	)	O	O	O, I-TM, I-OG, I-CV, I-AF
-11	등	O	O	O, B-CV, B-LC, B-TM, B-OG
-12	광	O	O	O, B-TM, B-CV, B-AM, B-MT
-13	##원	O	O	O, I-TM, I-CV, I-TR, I-AM
-14	개발	O	O	O, I-TM, B-TM, I-CV, B-CV
-15	##로	O	O	O, B-OG, B-CV, B-LC, B-TM
-16	응용	O	O	O, B-CV, B-TM, B-LC, B-OG
-17	##분	O	O	O, B-OG, B-LC, B-TM, B-CV
-18	##야	O	O	O, B-OG, B-TM, B-LC, B-CV
-19	##가	O	O	O, B-OG, B-PS, B-LC, B-CV
-20	확대	O	O	O, B-TM, B-CV, B-LC, B-OG
-21	##됐	O	O	O, B-CV, I-OG, I-CV, I-AF
-22	##다	O	O	O, B-CV, B-TM, B-LC, I-OG
-23	.	O	O	O, B-LC, B-CV, B-TM, B-OG
-24	[SEP]	O	O	O, B-CV, B-LC, B-TM, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	아울러	O	O
+2	새	B-OG	B-OG
+3	##누리	I-OG	I-OG
+4	##당	I-OG	I-OG
+5	국회	B-OG	B-OG
+6	쇄신	O	I-OG
+7	태	O	I-OG
+8	##스크	O	I-OG
+9	##포스	O	I-OG
+10	(	O	O
+11	TF	O	O
+12	)	O	O
+13	는	O	O
+14	이달	B-DT	B-DT
+15	말	I-DT	I-DT
+16	##까	I-DT	I-DT
+17	##지	I-DT	I-DT
+18	무	O	O
+19	##노동	O	O
+20	무임	O	O
+21	##금	O	O
+22	원칙	O	O
+23	##을	O	O
+24	명문화	O	O
+25	##한	O	O
+26	국회의원	B-CV	B-CV
+27	수당	O	O
+28	등	O	O
+29	##에	O	O
+30	관한	O	O
+31	법	O	O
+32	개정안	O	O
+33	##을	O	O
+34	마련	O	O
+35	##하	O	O
+36	##기	O	O
+37	##로	O	O
+38	했	O	O
+39	##다	O	O
+40	.	O	O
+41	[SEP]	O	O

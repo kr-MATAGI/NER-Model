@@ -1,29 +1,35 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	크레인	O	B-AF	B-AF, O, B-TM, B-LC, B-OG
-2	굉음	O	O	O, I-AF, I-TM, I-EV, B-AF
-3	##과	O	O	O, I-AF, B-CV, I-OG, I-EV
-4	함께	O	O	O, B-TM, B-CV, B-LC, B-OG
-5	가로	B-TM	O	O, B-TM, B-QT, B-AM, B-AF
-6	##세	B-TM	O	O, I-TM, B-QT, B-TM, I-QT
-7	##로	I-TM	O	O, I-TM, I-QT, B-QT, B-TM
-8	2	B-QT	B-QT	B-QT, I-QT, O, I-TM, B-DT
-9	##m	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-TM
-10	##를	O	O	O, I-QT, I-OG, B-CV, I-AF
-11	넘	O	O	O, B-CV, B-TM, B-OG, B-LC
-12	##는	O	O	O, B-QT, B-TM, B-LC, B-OG
-13	6	B-QT	B-QT	B-QT, I-QT, O, B-DT, B-PS
-14	.	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-15	48	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-16	##t	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-17	##의	O	O	O, I-QT, B-CV, I-AF, B-PS
-18	옥	O	O	O, B-AF, B-MT, B-CV, B-AM
-19	##개	O	O	O, I-AF, I-CV, I-AM, I-MT
-20	##석	O	O	O, I-AF, I-CV, I-MT, I-AM
-21	##이	O	O	O, I-AF, B-PS, B-CV, B-LC
-22	들어올	O	O	O, B-TM, B-CV, B-QT, B-LC
-23	##려	O	O	O, B-CV, I-AF, I-QT, I-EV
-24	##졌	O	O	O, B-CV, B-QT, B-TM, I-EV
-25	##다	O	O	O, B-CV, I-EV, B-TM, I-QT
-26	.	O	O	O, B-PS, B-LC, B-CV, B-AF
-27	[SEP]	O	O	O, B-CV, I-AF, B-LC, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	이용자	B-CV	B-CV
+2	##가	O	O
+3	버스	B-AF	B-AF
+4	##나	O	O
+5	지하철	B-AF	B-AF
+6	##을	O	O
+7	탈	O	O
+8	때	O	O
+9	교통카드	B-TM	O
+10	##를	O	O
+11	단말기	O	O
+12	##에	O	O
+13	대면	O	O
+14	거리	O	O
+15	##별	O	O
+16	요금	O	O
+17	##정	O	O
+18	##산	O	O
+19	##을	O	O
+20	위해	O	O
+21	탑승	O	O
+22	##시간	O	O
+23	##과	O	O
+24	위치	O	O
+25	등의	O	O
+26	정보	O	O
+27	##가	O	O
+28	카드	O	O
+29	##에	O	O
+30	담긴	O	O
+31	##다	O	O
+32	.	O	O
+33	[SEP]	O	O

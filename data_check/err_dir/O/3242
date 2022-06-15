@@ -1,41 +1,23 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	최근	O	O	O, B-LC, B-PS, B-DT, B-OG
-2	유엔	B-OG	B-OG	B-OG, O, I-OG, B-PS, B-LC
-3	##의	O	O	O, I-OG, I-DT, B-OG, B-PS
-4	아프간	B-EV	B-EV	B-EV, O, B-LC, B-AF, B-CV
-5	##전	I-EV	I-EV	I-EV, O, I-AF, I-LC, I-FD
-6	보고서	O	O	O, I-AF, I-EV, B-AF, B-CV
-7	##는	O	O	O, I-AF, B-LC, B-CV, B-PS
-8	1	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-9	##분	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
-10	##기	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
-11	I	O	B-AF	B-AF, B-OG, O, B-TM, I-AF
-12	##ED	O	I-AF	I-AF, I-OG, O, I-TM, I-EV
-13	##s	O	I-AF	I-AF, I-OG, O, I-CV, I-TM
-14	사용	O	O	O, I-AF, I-OG, B-CV, I-TM
-15	##이	O	O	O, B-PS, B-OG, B-LC, I-AF
-16	전년	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-17	동기	O	O	O, I-DT, B-CV, I-AF, I-EV
-18	##에	O	O	O, B-CV, I-AF, I-DT, B-LC
-19	비해	O	O	O, B-LC, B-CV, B-TM, B-OG
-20	94	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-LC
-21	%	I-QT	I-QT	I-QT, O, I-DT, I-LC, I-EV
-22	나	O	O	O, I-QT, I-OG, I-EV, B-CV
-23	증가	O	O	O, B-CV, B-TM, B-LC, B-OG
-24	##했	O	O	O, B-PS, B-LC, B-CV, I-OG
-25	##으며	O	O	O, B-LC, B-CV, B-PS, B-TM
-26	,	O	O	O, B-CV, B-LC, B-PS, B-OG
-27	이	O	O	O, B-PS, B-CV, B-LC, B-TM
-28	##로	O	O	O, B-CV, B-PS, B-LC, I-AF
-29	인한	O	O	O, B-CV, B-LC, B-TM, B-PS
-30	희생자	B-CV	B-CV	B-CV, O, B-OG, I-CV, B-AF
-31	##도	O	O	O, I-CV, I-QT, I-EV, I-AF
-32	급증	O	O	O, B-CV, B-TM, B-LC, B-QT
-33	##했	O	O	O, B-PS, B-LC, B-CV, I-AF
-34	##다고	O	O	O, B-LC, B-CV, B-OG, B-PS
-35	말	O	O	O, B-CV, B-TM, B-LC, B-OG
-36	##했	O	O	O, B-CV, B-LC, B-PS, I-OG
-37	##다	O	O	O, B-CV, B-LC, B-TM, B-OG
-38	.	O	O	O, B-LC, B-PS, B-CV, B-OG
-39	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	천안	B-AF	B-AF
+2	##함	I-AF	I-AF
+3	##에	O	O
+4	가해	O	O
+5	##진	O	O
+6	충격	O	O
+7	##은	O	O
+8	일부	O	O
+9	중화	O	B-AF
+10	##기	O	I-AF
+11	##들	O	O
+12	##도	O	O
+13	바닷속	O	O
+14	##으로	O	O
+15	떨어	O	O
+16	##뜨릴	O	O
+17	만큼	O	O
+18	강했	O	O
+19	##다	O	O
+20	.	O	O
+21	[SEP]	O	O

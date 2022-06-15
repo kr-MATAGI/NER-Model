@@ -1,7 +1,32 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	그래서	O	O	O, B-CV, B-TM, B-OG, B-LC
-2	뒤	O	B-TM	B-TM, O, B-CV, B-AM, B-AF
-3	쪽	O	O	O, B-TM, I-TM, B-CV, B-AM
-4	##으로	O	O	O, I-TM, I-OG, I-QT, I-CV
-5	[SEP]	O	O	O, B-CV, B-TM, B-LC, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	이	B-PS	B-PS
+2	부회장	B-CV	B-CV
+3	##의	O	O
+4	선고	O	O
+5	방청	O	O
+6	##석	O	O
+7	경쟁률	O	O
+8	##에	O	O
+9	##서	O	O
+10	드러나	O	O
+11	##듯	O	O
+12	국정	O	B-EV
+13	##농	O	I-EV
+14	##단	O	I-EV
+15	재판	O	O
+16	##에	O	O
+17	대한	O	O
+18	국민	B-CV	B-CV
+19	##들의	O	O
+20	관심	O	O
+21	##은	O	O
+22	지금	O	O
+23	##도	O	O
+24	계속	O	O
+25	##되	O	O
+26	##고	O	O
+27	있	O	O
+28	##다	O	O
+29	.	O	O
+30	[SEP]	O	O

@@ -1,24 +1,27 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	삼성물산	B-OG	B-OG	B-OG, O, B-LC, B-PS, B-AF
-2	사외	O	O	O, B-CV, I-CV, I-OG, B-PS
-3	##이	O	O	O, I-CV, B-CV, I-OG, I-QT
-4	##사인	O	O	O, I-CV, B-CV, B-PS, I-OG
-5	정규	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-6	##재	I-PS	I-PS	I-PS, O, I-OG, I-LC, B-PS
-7	한국	B-OG	B-OG	B-OG, B-LC, O, B-AF, I-OG
-8	##경제	I-OG	I-OG	I-OG, O, I-LC, I-AF, B-OG
-9	##신문	I-OG	I-OG	I-OG, O, I-AF, I-LC, I-CV
-10	주	B-CV	O	O, B-CV, I-CV, I-OG, B-QT
-11	##필	I-CV	O	O, I-CV, B-CV, I-QT, I-TM
-12	##은	O	O	O, I-CV, B-CV, I-QT, I-OG
-13	다음	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-CV
-14	달	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-CV
-15	##까	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-CV
-16	##지만	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-CV
-17	활동	O	O	O, I-DT, B-CV, B-LC, B-TM
-18	##하	O	O	O, B-CV, B-OG, B-LC, B-PS
-19	##게	O	O	O, B-CV, B-OG, B-LC, B-QT
-20	된다	O	O	O, B-CV, B-LC, B-OG, B-QT
-21	.	O	O	O, B-OG, B-CV, B-LC, B-PS
-22	[SEP]	O	O	O, B-CV, B-OG, I-OG, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	기업	O	O
+2	인사	O	B-CV
+3	##담	B-CV	I-CV
+4	##당	I-CV	I-CV
+5	##자	I-CV	I-CV
+6	##들이	O	O
+7	구직자	B-CV	B-CV
+8	##들이	O	O
+9	낸	O	O
+10	이력서	O	O
+11	##를	O	O
+12	검토	O	O
+13	##할	O	O
+14	때	O	O
+15	가장	O	O
+16	먼저	O	O
+17	살펴보	O	O
+18	##는	O	O
+19	것	O	O
+20	##은	O	O
+21	무엇	O	O
+22	##일	O	O
+23	##까	O	O
+24	?	O	O
+25	[SEP]	O	O

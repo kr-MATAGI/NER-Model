@@ -1,27 +1,24 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	'	O	O	O, B-CV, B-LC, B-PS, B-OG
-2	한	B-CV	B-FD	B-FD, O, B-LC, B-CV, B-AF
-3	##어	I-CV	I-FD	I-FD, O, B-FD, I-AF, I-LC
-4	(	O	O	O, I-FD, I-OG, I-AF, I-CV
-5	漢	O	O	O, B-FD, B-LC, B-CV, B-PS
-6	語	O	O	O, B-FD, I-FD, B-LC, B-CV
-7	)	O	O	O, B-CV, I-CV, B-PS, I-OG
-8	에	O	O	O, B-CV, B-PS, B-LC, B-OG
-9	정통	O	O	O, B-CV, B-LC, B-PS, B-OG
-10	##하	O	O	O, B-PS, B-LC, B-CV, I-PS
-11	##며	O	O	O, B-PS, B-LC, B-CV, I-PS
-12	,	O	O	O, B-CV, B-LC, B-PS, B-OG
-13	중국	B-LC	B-FD	B-FD, B-LC, O, B-AF, B-OG
-14	철학	B-FD	I-FD	I-FD, O, B-FD, I-AF, I-LC
-15	##을	O	O	O, I-FD, I-AF, I-OG, B-CV
-16	좋아한다	O	O	O, B-PS, B-CV, B-LC, B-OG
-17	'	O	O	O, B-CV, B-PS, I-CV, B-LC
-18	는	O	O	O, B-PS, B-CV, I-CV, B-LC
-19	설명	O	O	O, B-CV, B-PS, I-CV, B-OG
-20	##도	O	O	O, I-CV, B-CV, B-PS, I-AF
-21	있	O	O	O, B-CV, B-PS, B-QT, B-OG
-22	##었	O	O	O, B-CV, B-PS, I-CV, B-OG
-23	##다	O	O	O, B-CV, I-CV, B-PS, I-OG
-24	.	O	O	O, B-LC, B-CV, B-PS, B-FD
-25	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-FD
+	text	label	preds
+0	[CLS]	O	O
+1	“	O	O
+2	北	B-OG	B-LC
+3	보위	B-OG	B-OG
+4	##부	I-OG	I-OG
+5	-	O	O
+6	조직	O	B-OG
+7	##지도	O	I-OG
+8	##부	O	I-OG
+9	등	O	O
+10	핵심	O	B-CV
+11	##간	B-CV	I-CV
+12	##부	I-CV	I-CV
+13	최소	O	O
+14	5	B-QT	B-QT
+15	##명	I-QT	I-QT
+16	탈	O	O
+17	##북	O	O
+18	-	O	O
+19	한국	B-LC	B-LC
+20	망명	O	O
+21	”	O	O
+22	[SEP]	O	O

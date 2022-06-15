@@ -1,60 +1,70 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	최	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-2	연구원	B-CV	B-CV	B-CV, O, I-CV, I-PS, B-TM
-3	##은	O	O	O, I-CV, B-CV, I-EV, I-OG
-4	“	O	O	O, B-CV, B-TM, B-LC, B-OG
-5	루	B-TM	O	O, B-PS, B-LC, B-TM, B-CV
-6	##미	I-TM	O	O, I-TM, I-PS, I-TR, I-OG
-7	##네	I-TM	O	O, I-TM, I-PS, I-TR, I-OG
-8	##선스	I-TM	O	O, I-TM, I-PS, I-AF, I-LC
-9	자동	I-TM	B-TM	B-TM, O, B-AF, I-TM, B-TR
-10	##분석	I-TM	I-TM	I-TM, O, B-TM, I-TR, I-AF
-11	##기	I-TM	I-TM	I-TM, O, I-AF, I-TR, B-TM
-12	4	B-QT	B-QT	B-QT, I-TM, O, I-QT, B-DT
-13	##대	I-QT	I-QT	I-QT, O, I-TM, I-AF, I-EV
-14	##는	O	O	O, I-QT, I-TM, I-AF, I-EV
-15	각자	O	O	O, B-TM, B-CV, B-LC, B-PS
-16	특성	O	O	O, B-TM, B-CV, B-LC, B-PS
-17	##이	O	O	O, B-PS, B-LC, B-OG, B-CV
-18	달라서	O	O	O, B-CV, B-LC, B-TM, B-PS
-19	거의	O	O	O, B-CV, B-TM, B-PS, B-LC
-20	모든	O	O	O, B-PS, B-QT, B-TM, B-LC
-21	입자	O	O	O, B-TM, I-TM, B-CV, B-AM
-22	##를	O	O	O, I-TM, I-AF, B-CV, B-PS
-23	분석	O	O	O, B-CV, B-TM, B-LC, B-OG
-24	##할	O	O	O, B-PS, B-CV, B-LC, B-OG
-25	수	O	O	O, B-CV, B-PS, B-TM, B-LC
-26	있	O	O	O, B-CV, B-TM, B-PS, B-LC
-27	##다	O	O	O, B-CV, B-TM, I-AF, I-CV
-28	”	O	O	O, B-CV, B-TM, B-OG, B-LC
-29	며	O	O	O, B-CV, B-LC, B-TM, B-OG
-30	“	O	O	O, B-CV, B-LC, B-TM, B-OG
-31	지금	O	O	O, B-CV, B-LC, B-PS, B-OG
-32	##까	O	O	O, B-PS, B-LC, B-CV, B-OG
-33	##지	O	O	O, B-PS, B-LC, I-PS, I-LC
-34	분석	O	O	O, B-CV, B-PS, B-LC, B-TM
-35	결과	O	O	O, B-LC, B-CV, B-PS, B-OG
-36	인류	O	O	O, B-CV, B-LC, B-OG, B-PS
-37	##의	O	O	O, B-PS, B-CV, B-LC, B-OG
-38	지능	O	O	O, B-CV, B-PS, B-TM, B-LC
-39	##은	O	O	O, B-CV, B-PS, B-OG, B-LC
-40	약	B-DT	B-DT	B-DT, O, B-QT, I-DT, B-TI
-41	3	I-DT	I-DT	I-DT, I-QT, B-DT, O, I-TI
-42	##만	I-DT	I-DT	I-DT, I-QT, O, B-DT, I-LC
-43	년	I-DT	I-DT	I-DT, O, I-QT, B-DT, I-TI
-44	전	I-DT	I-DT	I-DT, O, I-QT, B-DT, I-TI
-45	##에	O	O	O, I-DT, B-CV, I-QT, I-EV
-46	시작	O	O	O, B-CV, B-TM, B-OG, B-LC
-47	##된	O	O	O, B-CV, B-PS, B-OG, B-LC
-48	것	O	O	O, B-CV, B-PS, B-OG, B-LC
-49	##으로	O	O	O, B-CV, B-PS, B-OG, B-TM
-50	추정	O	O	O, B-CV, B-TM, B-OG, B-PS
-51	##된	O	O	O, B-PS, B-CV, B-OG, I-OG
-52	##다	O	O	O, B-CV, I-OG, B-OG, B-PS
-53	”	O	O	O, B-CV, B-TM, B-OG, B-LC
-54	고	O	O	O, B-CV, B-TM, B-LC, B-OG
-55	밝혔	O	O	O, B-CV, B-TM, B-OG, I-CV
-56	##다	O	O	O, B-CV, B-TM, I-CV, B-OG
-57	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-58	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	유	B-OG	B-OG
+2	##헤	I-OG	I-OG
+3	##리티	I-OG	I-OG
+4	##지	I-OG	I-OG
+5	##재단	I-OG	I-OG
+6	##은	O	O
+7	1941	B-DT	B-DT
+8	##년	I-DT	I-DT
+9	세브	B-OG	B-OG
+10	##란	I-OG	I-OG
+11	##스	I-OG	I-OG
+12	##의	I-OG	I-OG
+13	##학	I-OG	I-OG
+14	##전	I-OG	I-OG
+15	##문	I-OG	I-OG
+16	##학교	I-OG	I-OG
+17	##를	O	O
+18	나와	O	O
+19	58	B-DT	B-DT
+20	##년	I-DT	I-DT
+21	미국	B-LC	B-LC
+22	##으로	O	O
+23	건너	O	O
+24	##간	O	O
+25	뒤	O	O
+26	시카고	B-LC	B-LC
+27	##에	O	O
+28	##서	O	O
+29	병리	B-CV	B-CV
+30	##전	I-CV	I-CV
+31	##문	I-CV	I-CV
+32	##의	I-CV	I-CV
+33	##로	O	O
+34	활동	O	O
+35	##하	O	O
+36	##다	O	O
+37	몇	O	O
+38	##년	O	O
+39	전	O	O
+40	작	O	O
+41	##고	O	O
+42	##한	O	O
+43	,	O	O
+44	유	B-PS	B-PS
+45	이사장	B-CV	B-CV
+46	##의	O	O
+47	숙부	B-CV	B-CV
+48	유기	B-PS	B-PS
+49	##진	I-PS	I-PS
+50	##씨	O	O
+51	##가	O	O
+52	2004	B-DT	B-DT
+53	##년	I-DT	I-DT
+54	장학	B-TM	O
+55	·	I-TM	O
+56	선교	I-TM	O
+57	·	I-TM	O
+58	교육	I-TM	O
+59	·	I-TM	O
+60	구제	I-TM	O
+61	##사업	I-TM	O
+62	##을	O	O
+63	위해	O	O
+64	설립	O	O
+65	##했	O	O
+66	##다	O	O
+67	.	O	O
+68	[SEP]	O	O

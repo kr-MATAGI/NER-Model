@@ -1,25 +1,19 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	어떻게	O	O	O, B-CV, B-LC, B-TM, B-OG
-2	##든	O	O	O, B-PS, B-LC, B-OG, B-CV
-3	왼손	B-AM	B-AM	B-AM, O, B-TM, B-TR, B-CV
-4	투수	B-CV	B-CV	B-CV, I-CV, O, I-AM, B-AM
-5	##의	O	O	O, I-CV, B-CV, I-AF, I-EV
-6	장점	O	O	O, B-CV, B-TM, I-CV, B-LC
-7	##을	O	O	O, B-CV, B-PS, I-CV, B-LC
-8	살려	O	O	O, B-CV, B-LC, B-TM, B-QT
-9	##보	O	O	O, B-PS, I-QT, B-LC, B-CV
-10	##려고	O	O	O, B-PS, B-LC, I-QT, B-CV
-11	변	O	O	O, B-TM, B-AF, B-CV, B-LC
-12	##칙	O	O	O, I-TM, I-CV, I-LC, I-AF
-13	투구	B-TM	O	O, B-TM, I-TM, B-CV, B-AF
-14	폼	O	O	O, I-TM, B-TM, I-AF, I-CV
-15	##까	O	O	O, I-TM, I-AF, I-CV, B-CV
-16	##지	O	O	O, B-CV, B-OG, B-LC, B-TM
-17	주문	O	O	O, B-CV, B-OG, B-TM, B-LC
-18	##했	O	O	O, B-PS, B-CV, B-OG, B-LC
-19	##던	O	O	O, B-CV, B-OG, B-PS, B-LC
-20	것	O	O	O, B-CV, B-OG, I-OG, B-TM
-21	##이다	O	O	O, B-CV, I-OG, I-CV, B-TM
-22	.	O	O	O, B-CV, B-LC, B-PS, B-TM
-23	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	네	O	O
+2	.	O	O
+3	써	O	O
+4	##실	O	O
+5	때	O	O
+6	안쪽	B-TM	O
+7	##에	O	O
+8	##서	O	O
+9	써	O	O
+10	##시	O	O
+11	##는	O	O
+12	거	O	O
+13	아시	O	O
+14	##네	O	O
+15	##요	O	O
+16	.	O	O
+17	[SEP]	O	O

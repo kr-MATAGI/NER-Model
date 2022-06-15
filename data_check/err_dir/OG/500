@@ -1,18 +1,54 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, I-OG, B-CV, I-AF
-1	최순	B-PS	B-PS	B-PS, B-EV, B-OG, B-LC, O
-2	##실	I-PS	I-PS	I-PS, I-EV, I-OG, I-DT, O
-3	국정	O	O	O, B-EV, I-EV, B-OG, B-CV
-4	##농	O	O	O, I-EV, I-OG, I-CV, I-AF
-5	##단	O	O	O, I-EV, I-OG, I-AF, I-CV
-6	비호	O	O	O, I-EV, B-CV, I-OG, B-PS
-7	및	O	O	O, B-PS, B-LC, B-OG, I-OG
-8	특별	B-OG	O	O, B-OG, B-CV, B-EV, B-LC
-9	##감	I-OG	O	O, I-OG, I-CV, B-OG, B-CV
-10	##찰	I-OG	O	O, I-OG, I-CV, B-OG, B-CV
-11	##관	I-OG	O	O, I-OG, I-CV, B-OG, B-CV
-12	##실	I-OG	O	O, I-OG, I-CV, I-EV, B-OG
-13	해체	O	O	O, I-OG, I-CV, B-CV, B-PS
-14	주도	O	O	O, B-CV, B-PS, B-LC, I-OG
-15	의혹	O	O	O, B-PS, B-LC, B-OG, B-CV
-16	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	신민	B-OG	B-OG
+2	##당	I-OG	I-OG
+3	·	O	O
+4	사회당	B-OG	B-OG
+5	·	O	O
+6	민주	B-OG	B-OG
+7	##좌	I-OG	I-OG
+8	##파	I-OG	I-OG
+9	##당	I-OG	I-OG
+10	##으로	O	O
+11	구성	O	O
+12	##된	O	O
+13	그리스	B-LC	B-LC
+14	연정	B-OG	O
+15	##은	O	O
+16	지난	B-DT	B-DT
+17	23	I-DT	I-DT
+18	##일	I-DT	I-DT
+19	재정	O	O
+20	##적	O	O
+21	##자	O	O
+22	##를	O	O
+23	감축	O	O
+24	##하	O	O
+25	##는	O	O
+26	목표	O	O
+27	시한	O	O
+28	##을	O	O
+29	최소한	O	O
+30	2	B-DT	B-DT
+31	##년	I-DT	I-DT
+32	늘린	O	O
+33	2016	B-DT	B-DT
+34	##년	I-DT	I-DT
+35	##으로	O	O
+36	연장	O	O
+37	##하	O	O
+38	##는	O	O
+39	방안	O	O
+40	등	O	O
+41	##을	O	O
+42	포함	O	O
+43	##한	O	O
+44	정책	O	O
+45	##성	O	O
+46	##명	O	O
+47	##을	O	O
+48	발표	O	O
+49	##했	O	O
+50	##다	O	O
+51	.	O	O
+52	[SEP]	O	O

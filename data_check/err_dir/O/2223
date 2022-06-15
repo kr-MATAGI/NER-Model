@@ -1,35 +1,68 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	경북	B-LC	B-LC	B-LC, O, B-CV, B-OG, B-PS
-2	##도	B-CV	B-CV	B-CV, O, I-CV, I-LC, B-LC
-3	##민	I-CV	I-CV	I-CV, O, I-LC, B-CV, I-OG
-4	##은	O	O	O, I-CV, I-OG, I-EV, I-AF
-5	40	B-QT	B-QT	B-QT, O, I-QT, B-LC, B-DT
-6	.	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-7	6	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-8	%	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-9	,	O	O	O, I-QT, B-CV, I-OG, B-OG
-10	서울시	O	B-LC	B-LC, O, B-CV, B-OG, B-EV
-11	##민	O	O	O, I-CV, I-LC, B-CV, I-OG
-12	##은	O	O	O, I-CV, I-OG, I-EV, B-CV
-13	11	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-LC
-14	.	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-15	6	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-16	%	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-17	,	O	O	O, I-QT, B-CV, I-OG, B-OG
-18	기타	O	O	O, B-LC, B-TM, B-CV, B-QT
-19	지역	O	O	O, B-LC, I-LC, B-CV, I-QT
-20	##은	O	O	O, B-CV, B-OG, B-LC, B-PS
-21	12	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-PS
-22	.	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-23	7	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-24	%	I-QT	I-QT	I-QT, O, I-LC, I-PS, I-OG
-25	가	O	O	O, I-QT, B-CV, I-OG, B-OG
-26	방문	O	O	O, B-CV, B-TM, B-LC, B-AF
-27	관람	O	O	O, B-CV, B-TM, B-LC, B-AF
-28	의사	O	O	O, B-CV, B-LC, B-PS, B-TM
-29	##를	O	O	O, B-CV, I-AF, I-EV, I-CV
-30	보였	O	O	O, B-CV, B-OG, B-TM, B-LC
-31	##다	O	O	O, B-CV, B-TM, B-LC, I-OG
-32	.	O	O	O, B-LC, B-CV, B-OG, B-PS
-33	[SEP]	O	O	O, B-CV, B-LC, B-TM, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	도로	O	O
+2	##와	O	O
+3	인접	O	O
+4	##한	O	O
+5	오피스텔	O	O
+6	##에	O	O
+7	사	O	O
+8	##는	O	O
+9	장기	B-PS	B-PS
+10	##준	I-PS	I-PS
+11	(	O	O
+12	31	B-QT	B-QT
+13	)	O	O
+14	씨	O	O
+15	##는	O	O
+16	""""	O	O
+17	2008	B-DT	B-DT
+18	##년	I-DT	I-DT
+19	처음	O	O
+20	이사	O	O
+21	왔	O	O
+22	##을	O	O
+23	때	O	O
+24	도로	O	O
+25	##가	O	O
+26	주차장	O	O
+27	##으로	O	O
+28	사용	O	O
+29	##되	O	O
+30	##고	O	O
+31	있	O	O
+32	##어	O	O
+33	놀랐	O	O
+34	##다	O	O
+35	""""	O	O
+36	면서	O	O
+37	""""	O	O
+38	공사	O	O
+39	중인	O	O
+40	지하	O	O
+41	##차	O	O
+42	##로	O	O
+43	옆	O	B-TM
+44	##에	O	O
+45	도보	O	O
+46	##가	O	O
+47	있	O	O
+48	##는	O	O
+49	등	O	O
+50	위험	O	O
+51	##한	O	O
+52	것	O	O
+53	##이	O	O
+54	한	B-QT	O
+55	##둘	I-QT	O
+56	##이	O	O
+57	아니	O	O
+58	##었	O	O
+59	##다	O	O
+60	""""	O	O
+61	고	O	O
+62	말	O	O
+63	##했	O	O
+64	##다	O	O
+65	.	O	O
+66	[SEP]	O	O

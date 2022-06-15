@@ -1,21 +1,21 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-EV, I-OG, I-CV
-1	뭐	O	O	O, B-CV, B-TM, B-OG, B-QT
-2	영화	O	O	O, B-FD, B-AF, B-CV, B-LC
-3	속	O	O	O, B-TM, B-FD, B-CV, B-LC
-4	한	O	B-QT	B-QT, O, B-TM, B-TI, I-QT
-5	씬	O	I-QT	I-QT, O, I-LC, I-TM, I-TI
-6	##이	O	O	O, I-QT, B-PS, B-CV, B-LC
-7	여	O	O	O, B-CV, B-TM, B-TR, B-EV
-8	##혐	O	O	O, I-TM, I-CV, I-TR, I-EV
-9	##이	O	O	O, I-CV, I-TM, B-PS, I-EV
-10	아니	O	O	O, B-PS, B-LC, I-EV, I-CV
-11	##냐	O	O	O, B-PS, B-LC, I-QT, B-CV
-12	뭐	O	O	O, B-CV, B-TM, B-LC, B-OG
-13	이런	O	O	O, B-CV, B-TM, B-LC, B-OG
-14	논란	O	O	O, B-CV, B-TM, B-EV, B-TR
-15	##도	O	O	O, I-EV, I-CV, B-CV, B-PS
-16	있	O	O	O, B-CV, B-QT, B-EV, B-OG
-17	##었	O	O	O, B-CV, I-EV, B-OG, B-PS
-18	##고	O	O	O, B-CV, I-EV, B-OG, B-QT
-19	[SEP]	O	O	O, B-CV, B-LC, I-EV, B-FD
+	text	label	preds
+0	[CLS]	O	O
+1	고어	O	B-FD
+2	사전	O	I-AF
+3	##은	O	O
+4	그	O	O
+5	~	O	O
+6	백	B-PS	B-OG
+7	##해	I-PS	I-OG
+8	##파	I-PS	I-OG
+9	군	O	I-OG
+10	##이	O	O
+11	프로그램	O	O
+12	##까	O	O
+13	##지	O	O
+14	만들	O	O
+15	##어	O	O
+16	줘서	O	O
+17	했	O	O
+18	##는데	O	O
+19	[SEP]	O	O

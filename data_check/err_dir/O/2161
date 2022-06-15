@@ -1,73 +1,25 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-EV, I-OG, I-CV
-1	방산	O	O	O, B-CV, B-FD, B-TM, B-OG
-2	비리	O	O	O, B-CV, I-CV, B-PS, B-FD
-3	##가	O	O	O, B-PS, I-CV, B-OG, I-EV
-4	해군	O	B-OG	B-OG, O, B-CV, B-AF, B-EV
-5	##에	O	O	O, I-OG, I-EV, I-CV, I-AF
-6	집중	O	O	O, B-LC, B-PS, B-OG, B-TM
-7	##된	O	O	O, B-OG, B-LC, B-PS, B-CV
-8	이유로	O	O	O, B-OG, B-PS, B-LC, B-CV
-9	합	O	B-OG	B-OG, O, B-CV, I-OG, B-AF
-10	##수단	O	I-OG	I-OG, O, I-CV, B-OG, I-EV
-11	관계자	B-CV	B-CV	B-CV, O, I-CV, I-OG, I-EV
-12	##는	O	O	O, I-CV, I-OG, I-EV, I-QT
-13	""""	O	O	O, B-CV, B-LC, B-TM, B-OG
-14	해군	O	B-OG	B-OG, O, B-AF, B-CV, B-EV
-15	함정	O	B-AF	B-AF, O, I-AF, I-OG, B-CV
-16	##에	O	O	O, I-AF, I-OG, I-EV, B-CV
-17	수백	O	O	O, B-PS, B-LC, B-TM, B-OG
-18	~	O	O	O, B-PS, B-LC, B-OG, B-TM
-19	수천	O	O	O, B-PS, B-LC, B-TM, B-OG
-20	##개	O	O	O, B-PS, B-LC, I-LC, I-QT
-21	장비	O	O	O, B-CV, B-TM, B-AF, B-PS
-22	##가	O	O	O, B-PS, B-LC, B-OG, B-CV
-23	들어가	O	O	O, B-CV, B-LC, B-TM, B-PS
-24	##는데	O	O	O, B-LC, B-PS, B-TM, B-CV
-25	각각	O	O	O, B-LC, B-PS, B-QT, B-TM
-26	납품	O	O	O, B-LC, B-CV, B-PS, B-TM
-27	계약	O	O	O, B-LC, B-CV, B-PS, B-TM
-28	##이	O	O	O, B-PS, B-OG, B-LC, B-CV
-29	이뤄져	O	O	O, B-PS, B-LC, B-OG, B-CV
-30	부정	O	O	O, B-PS, B-CV, B-TM, B-LC
-31	##이	O	O	O, B-PS, B-LC, B-OG, B-CV
-32	개입	O	O	O, B-CV, B-PS, B-LC, B-TM
-33	##할	O	O	O, B-PS, B-LC, B-OG, B-CV
-34	여지	O	O	O, B-PS, B-LC, B-CV, B-TM
-35	##가	O	O	O, B-PS, B-OG, B-CV, B-LC
-36	많	O	O	O, B-CV, B-PS, B-OG, B-LC
-37	##았	O	O	O, B-CV, B-PS, B-OG, B-LC
-38	##다	O	O	O, B-CV, B-PS, I-OG, B-TM
-39	""""	O	O	O, B-CV, B-LC, B-TM, B-PS
-40	며	O	O	O, B-LC, B-CV, B-OG, B-TM
-41	""""	O	O	O, B-CV, B-LC, B-TM, B-PS
-42	같	O	O	O, B-CV, B-PS, B-LC, B-TM
-43	##은	O	O	O, B-PS, B-LC, B-OG, I-OG
-44	함정	O	B-AF	B-AF, O, B-CV, I-AF, B-OG
-45	##에	O	O	O, I-AF, B-CV, I-EV, I-OG
-46	탑승	O	O	O, B-CV, B-AF, B-LC, B-TM
-47	##하면	O	O	O, B-CV, B-PS, B-LC, I-AF
-48	##서	O	O	O, B-CV, B-PS, B-LC, B-TM
-49	생긴	O	O	O, B-PS, B-CV, B-LC, B-TM
-50	끈끈	O	O	O, B-PS, B-CV, B-LC, B-TM
-51	##한	O	O	O, B-PS, B-LC, B-OG, B-CV
-52	선후배	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-TM
-53	문화	O	O	O, I-CV, B-CV, B-PS, B-TM
-54	##가	O	O	O, B-PS, B-LC, B-CV, B-OG
-55	방산	O	O	O, B-CV, B-FD, B-TM, B-EV
-56	비리	O	O	O, B-CV, I-CV, B-FD, B-PS
-57	##라는	O	O	O, I-CV, B-PS, I-EV, B-LC
-58	부작용	O	O	O, B-PS, B-CV, B-LC, B-TM
-59	##으로	O	O	O, B-CV, B-PS, B-TM, B-LC
-60	이어진	O	O	O, B-LC, B-PS, B-TM, B-CV
-61	측면	O	O	O, B-CV, B-PS, B-TM, B-LC
-62	##도	O	O	O, B-PS, B-LC, B-CV, I-QT
-63	있	O	O	O, B-CV, B-PS, B-QT, I-QT
-64	##다	O	O	O, B-CV, B-PS, I-QT, I-OG
-65	""""	O	O	O, B-CV, B-TM, B-LC, B-PS
-66	고	O	O	O, B-CV, B-QT, B-TM, B-PS
-67	설명	O	O	O, B-CV, B-TM, I-QT, B-QT
-68	##했	O	O	O, B-PS, B-CV, I-QT, B-QT
-69	##다	O	O	O, B-CV, B-TM, B-PS, I-EV
-70	.	O	O	O, B-PS, B-LC, B-CV, B-OG
-71	[SEP]	O	O	O, B-CV, B-PS, B-LC, I-EV
+	text	label	preds
+0	[CLS]	O	O
+1	[	O	O
+2	인천	B-LC	B-LC
+3	·	O	O
+4	부천	B-LC	B-LC
+5	]	O	O
+6	부천	B-LC	B-LC
+7	##시	B-CV	B-CV
+8	##민	I-CV	I-CV
+9	6000	B-QT	B-QT
+10	##명	I-QT	I-QT
+11	'	O	O
+12	책	O	B-EV
+13	##읽기	O	I-EV
+14	릴레이	O	I-EV
+15	'	O	O
+16	;	O	O
+17	첫	O	O
+18	참가	O	O
+19	200	B-QT	B-QT
+20	##명	I-QT	I-QT
+21	이달	B-DT	B-DT
+22	모집	O	O
+23	[SEP]	O	O

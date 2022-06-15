@@ -1,20 +1,5 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	도쿄	B-OG	B-OG	B-OG, O, B-LC, B-EV, B-AF
-2	##대	I-OG	I-OG	I-OG, O, I-EV, I-LC, I-AF
-3	야구	O	O	O, B-CV, I-OG, B-TM, B-LC
-4	##부	O	O	O, I-OG, I-CV, I-LC, I-EV
-5	##는	O	O	O, I-OG, I-AF, B-CV, I-CV
-6	서울대	B-OG	B-OG	B-OG, O, B-LC, B-AF, B-PS
-7	##와	O	O	O, I-OG, I-AF, I-CV, B-CV
-8	마찬가지	O	O	O, B-CV, B-OG, I-OG, B-TM
-9	##로	O	O	O, B-OG, B-PS, I-OG, B-LC
-10	체육	O	B-CV	B-CV, O, B-FD, B-OG, B-QT
-11	##특	O	I-CV	I-CV, B-CV, O, I-QT, I-FD
-12	##기	O	I-CV	I-CV, O, B-CV, I-OG, I-QT
-13	##생	O	I-CV	I-CV, O, B-CV, I-OG, I-QT
-14	##이	O	O	O, I-CV, B-PS, B-CV, I-OG
-15	없	O	O	O, B-CV, B-OG, B-TM, B-QT
-16	##다	O	O	O, B-CV, I-OG, B-TM, I-AF
-17	.	O	O	O, B-OG, B-CV, B-PS, B-LC
-18	[SEP]	O	O	O, B-CV, B-OG, I-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	유권자	B-CV	B-OG
+2	정당	O	I-OG
+3	[SEP]	O	O

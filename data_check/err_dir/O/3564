@@ -1,20 +1,31 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-AF
-1	연극	B-FD	B-FD	B-FD, O, I-FD, B-TR, B-CV
-2	##을	O	O	O, I-FD, I-AF, I-EV, I-OG
-3	본	O	O	O, B-PS, B-LC, B-CV, B-TM
-4	뒤	O	O	O, B-TM, B-CV, B-LC, B-PS
-5	,	O	O	O, B-LC, B-CV, B-PS, B-OG
-6	주한	O	O	O, B-AF, B-OG, B-LC, B-CV
-7	일본	B-AF	B-AF	B-AF, I-AF, I-OG, B-OG, O
-8	##대사	I-AF	I-AF	I-AF, I-OG, O, B-AF, I-LC
-9	##관	I-AF	I-AF	I-AF, I-OG, O, I-LC, B-AF
-10	앞	O	B-TM	B-TM, O, I-AF, I-TM, B-CV
-11	소녀	B-AF	B-AF	B-AF, I-AF, O, B-LC, B-TM
-12	##상	I-AF	I-AF	I-AF, O, I-EV, I-LC, I-TM
-13	##이	O	O	O, I-AF, I-EV, B-CV, B-PS
-14	달라	O	O	O, B-CV, B-TM, B-OG, B-LC
-15	보일지	O	O	O, B-CV, B-OG, B-LC, I-OG
-16	모른다	O	O	O, B-CV, B-TM, B-LC, B-OG
-17	.	O	O	O, B-LC, B-CV, B-OG, B-PS
-18	[SEP]	O	O	O, B-CV, B-LC, I-AF, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	(	O	O
+2	선발	O	B-CV
+3	)	O	I-CV
+4	투수	B-CV	I-CV
+5	##에	O	O
+6	이어	O	O
+7	야수	B-CV	B-CV
+8	##가	O	O
+9	검은	O	O
+10	세력	O	O
+11	##의	O	O
+12	숙주	O	O
+13	##로	O	O
+14	포섭	O	O
+15	##됐	O	O
+16	##고	O	O
+17	,	O	O
+18	나중	O	O
+19	##에	O	O
+20	##는	O	O
+21	감독	B-CV	B-CV
+22	##까	O	O
+23	##지	O	O
+24	리스트	O	O
+25	##에	O	O
+26	올랐	O	O
+27	##다	O	O
+28	.	O	O
+29	[SEP]	O	O

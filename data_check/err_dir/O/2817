@@ -1,33 +1,14 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-EV, I-AF, I-OG
-1	건물	O	O	O, B-TM, B-AF, B-LC, B-CV
-2	내부	O	O	O, B-TM, B-LC, B-AF, B-CV
-3	##에	O	O	O, B-TM, B-CV, I-TM, B-LC
-4	##는	O	O	O, B-TM, B-LC, B-CV, B-OG
-5	산산조각	O	O	O, B-TM, B-AF, B-LC, B-MT
-6	##이	O	O	O, B-PS, B-LC, I-AF, I-TM
-7	난	O	O	O, B-PS, B-LC, B-TM, B-CV
-8	유리	O	B-MT	B-MT, O, I-MT, B-TR, B-CV
-9	파편	O	O	O, B-TM, B-MT, I-MT, I-TM
-10	##들이	O	O	O, B-CV, B-LC, B-TM, B-PS
-11	바닥	O	O	O, B-TM, B-LC, B-CV, B-AF
-12	##에	O	O	O, B-TM, B-LC, B-CV, B-PS
-13	깔려	O	O	O, B-LC, B-TM, B-CV, B-AF
-14	##있	O	O	O, B-CV, B-LC, B-PS, B-TM
-15	##었	O	O	O, B-CV, B-LC, B-TM, B-PS
-16	##고	O	O	O, B-TM, B-CV, B-LC, I-AF
-17	,	O	O	O, B-LC, B-TM, B-CV, B-AF
-18	건물	O	O	O, B-TM, B-AF, B-CV, B-LC
-19	내	O	O	O, B-TM, B-LC, B-AF, B-CV
-20	통로	O	O	O, B-TM, B-AF, B-LC, B-CV
-21	벽면	O	O	O, B-TM, B-CV, B-LC, B-AF
-22	곳곳	O	O	O, B-TM, B-CV, B-LC, B-AF
-23	##은	O	O	O, B-LC, B-TM, B-PS, B-CV
-24	[UNK]	O	O	O, B-LC, B-TM, B-CV, B-PS
-25	그을	O	O	O, B-TM, B-LC, B-CV, B-PS
-26	##려	O	O	O, B-LC, B-TM, B-PS, I-LC
-27	있	O	O	O, B-LC, B-CV, B-TM, B-PS
-28	##었	O	O	O, B-CV, B-LC, B-TM, B-PS
-29	##다	O	O	O, B-CV, B-LC, B-TM, I-AF
-30	.	O	O	O, B-LC, B-TM, B-CV, B-AF
-31	[SEP]	O	O	O, B-LC, B-TM, B-CV, B-AF
+	text	label	preds
+0	[CLS]	O	O
+1	그니까	O	O
+2	섬유	O	B-MT
+3	산업	O	O
+4	##은	O	O
+5	지식	B-OG	B-OG
+6	##경제	I-OG	I-OG
+7	##부	I-OG	I-OG
+8	##에	O	O
+9	##서	O	O
+10	하지	O	O
+11	##만	O	O
+12	[SEP]	O	O

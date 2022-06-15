@@ -1,13 +1,29 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	뭐	O	O	O, B-CV, B-OG, B-FD, B-TM
-2	국악	B-FD	B-FD	B-FD, O, I-FD, B-TR, B-CV
-3	이라든지	O	O	O, I-FD, I-AF, I-OG, B-PS
-4	또	O	O	O, B-CV, B-OG, B-LC, B-TM
-5	우리	O	O	O, B-FD, B-CV, B-AF, B-OG
-6	전통	O	B-FD	B-FD, O, B-CV, I-FD, B-AF
-7	미술	B-FD	I-FD	I-FD, B-FD, O, I-AF, I-OG
-8	##이	O	O	O, I-FD, I-AF, I-OG, I-CV
-9	##라	O	O	O, B-CV, B-LC, B-QT, B-PS
-10	##든지	O	O	O, B-CV, B-OG, B-LC, B-PS
-11	[SEP]	O	O	O, B-CV, B-FD, B-LC, B-AF
+	text	label	preds
+0	[CLS]	O	O
+1	현대	O	B-FD
+2	조각	B-FD	I-FD
+3	##에	O	O
+4	##서	O	O
+5	가장	O	O
+6	중요	O	O
+7	##한	O	O
+8	작가	O	B-CV
+9	##들	O	O
+10	##로	O	O
+11	평가	O	O
+12	##받	O	O
+13	##는	O	O
+14	국내외	O	O
+15	조각	O	B-FD
+16	거장	B-CV	B-CV
+17	##들의	O	O
+18	전시회	O	O
+19	##가	O	O
+20	동시	O	O
+21	##에	O	O
+22	열리	O	O
+23	##고	O	O
+24	있	O	O
+25	##다	O	O
+26	.	O	O
+27	[SEP]	O	O

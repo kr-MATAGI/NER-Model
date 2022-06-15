@@ -1,36 +1,58 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	PGA	B-EV	B-EV	B-EV, B-CV, B-OG, I-EV, B-TM
-2	현대	I-EV	I-EV	I-EV, I-OG, B-EV, O, I-TM
-3	토너먼트	I-EV	I-EV	I-EV, O, I-OG, I-TM, B-EV
-4	2	B-EV	B-EV	B-EV, B-QT, I-EV, B-TM, B-AF
-5	##R	I-EV	I-EV	I-EV, I-QT, I-TM, I-AF, I-LC
-6	공동	O	B-CV	B-CV, O, I-EV, I-CV, B-PS
-7	##선	O	I-CV	I-CV, B-CV, O, I-EV, I-PS
-8	##두	O	I-CV	I-CV, O, B-CV, I-TM, I-PS
-9	…	O	O	O, I-CV, I-OG, I-EV, I-QT
-10	이틀	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-QT
-11	##간	I-DT	I-DT	I-DT, O, I-QT, I-EV, I-PS
-12	그린	O	O	O, B-TM, B-LC, B-EV, B-MT
-13	적중	O	O	O, B-TM, I-TM, B-CV, B-LC
-14	##률	O	O	O, B-LC, B-PS, B-TM, B-OG
-15	91	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-LC
-16	%	I-QT	I-QT	I-QT, O, I-PS, I-LC, I-EV
-17	집중력	O	O	O, I-QT, B-PS, B-CV, B-TM
-18	최경주	B-PS	B-PS	B-PS, O, I-PS, B-OG, B-LC
-19	“	O	O	O, I-PS, I-OG, B-CV, I-AF
-20	배상문	B-PS	B-PS	B-PS, O, I-PS, B-LC, B-OG
-21	문제	O	O	O, I-PS, I-OG, I-AF, I-EV
-22	안타깝	O	O	O, B-CV, B-TM, B-OG, I-OG
-23	##지만	O	O	O, I-OG, I-AF, B-CV, B-PS
-24	버티	O	O	O, B-CV, B-TM, B-LC, B-OG
-25	##기	O	O	O, B-PS, B-CV, I-AF, I-QT
-26	##만	O	O	O, B-PS, I-AF, I-QT, B-LC
-27	한다고	O	O	O, B-PS, B-LC, B-CV, B-OG
-28	될	O	O	O, B-CV, B-QT, B-TM, I-AF
-29	일	O	O	O, B-CV, B-QT, B-TM, B-OG
-30	##도	O	O	O, B-CV, I-QT, I-CV, I-AF
-31	아니	O	O	O, B-CV, B-PS, B-LC, I-AF
-32	##다	O	O	O, B-CV, I-OG, I-AF, I-CV
-33	”	O	O	O, B-CV, B-LC, B-OG, B-TM
-34	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	스키	B-AF	B-AF
+2	##점	I-AF	I-AF
+3	##핑	I-AF	I-AF
+4	타워	I-AF	I-AF
+5	##는	O	O
+6	2006	B-DT	B-DT
+7	##년	I-DT	I-DT
+8	9	I-DT	I-DT
+9	##월	I-DT	I-DT
+10	착공	O	O
+11	##해	O	O
+12	2009	B-DT	B-DT
+13	##년	I-DT	I-DT
+14	6	I-DT	I-DT
+15	##월	I-DT	I-DT
+16	준공	O	O
+17	##됐	O	O
+18	##으며	O	O
+19	,	O	O
+20	베이직	B-AF	B-AF
+21	##하우스	I-AF	I-AF
+22	,	O	O
+23	천연	B-AF	B-AF
+24	##잔	I-AF	I-AF
+25	##디	I-AF	I-AF
+26	##축구	I-AF	I-AF
+27	##장	I-AF	I-AF
+28	(	O	O
+29	동계	B-EV	B-AF
+30	##올	I-EV	I-AF
+31	##림픽	I-EV	I-AF
+32	개	O	B-AF
+33	##폐	O	I-AF
+34	##회	O	I-AF
+35	##장	O	I-AF
+36	)	O	O
+37	,	O	O
+38	심판	B-AF	B-AF
+39	##타	I-AF	I-AF
+40	##워	I-AF	I-AF
+41	등과	O	O
+42	함께	O	O
+43	2018	B-DT	B-DT
+44	평창동	B-EV	B-EV
+45	##계	I-EV	I-EV
+46	##올	I-EV	I-EV
+47	##림픽	I-EV	I-EV
+48	##의	O	O
+49	핵심	O	O
+50	##시설	O	O
+51	##이	O	O
+52	될	O	O
+53	예정	O	O
+54	##이다	O	O
+55	.	O	O
+56	[SEP]	O	O

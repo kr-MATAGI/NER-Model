@@ -1,9 +1,38 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	사위	B-CV	B-CV	B-CV, O, B-QT, B-PS, I-CV
-2	##가	O	O	O, I-CV, B-PS, B-CV, I-QT
-3	진성	O	B-LC	B-LC, B-PS, O, B-CV, B-OG
-4	이씨	O	O	O, B-CV, I-CV, I-PS, I-LC
-5	##다	O	O	O, B-CV, I-CV, B-PS, I-PS
-6	.	O	O	O, I-CV, B-PS, B-CV, I-QT
-7	[SEP]	O	O	O, B-CV, B-PS, I-CV, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	한국	B-OG	B-OG
+2	##야	I-OG	I-OG
+3	##구	I-OG	I-OG
+4	##위원회	I-OG	I-OG
+5	(	O	O
+6	KBO	B-OG	B-OG
+7	)	O	O
+8	는	O	O
+9	2013	B-DT	B-DT
+10	##년	I-DT	I-DT
+11	##도	O	I-DT
+12	FA	B-CV	B-CV
+13	자격	O	O
+14	선수	B-CV	B-CV
+15	21	B-QT	B-QT
+16	##명	I-QT	I-QT
+17	가운데	O	O
+18	권리	O	O
+19	##를	O	O
+20	행사	O	O
+21	##하	O	O
+22	##겠다	O	O
+23	##고	O	O
+24	신청	O	O
+25	##한	O	O
+26	선수	B-CV	B-CV
+27	##들의	O	O
+28	명단	O	O
+29	##을	O	O
+30	9	B-DT	B-DT
+31	##일	I-DT	I-DT
+32	공시	O	O
+33	##했	O	O
+34	##다	O	O
+35	.	O	O
+36	[SEP]	O	O

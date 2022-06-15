@@ -1,21 +1,32 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	기본	O	O	O, B-CV, B-PS, B-LC, B-OG
-2	##적으로	O	O	O, B-PS, B-OG, B-LC, B-CV
-3	지난	O	O	O, B-PS, B-DT, B-OG, B-CV
-4	정권	O	O	O, B-CV, B-OG, B-PS, I-DT
-5	##에서	O	O	O, I-OG, I-CV, B-PS, I-DT
-6	워낙	O	O	O, B-LC, B-OG, B-PS, B-CV
-7	##에	O	O	O, B-OG, B-LC, B-PS, B-CV
-8	일본	B-LC	B-OG	B-OG, B-LC, O, B-CV, B-PS
-9	##하고	O	O	O, I-OG, I-LC, I-AF, B-CV
-10	사이	O	O	O, B-LC, B-TM, B-OG, B-PS
-11	##가	O	O	O, B-PS, I-OG, B-OG, B-CV
-12	안	O	O	O, B-LC, B-CV, B-TM, B-QT
-13	좋	O	O	O, B-LC, B-CV, B-PS, B-TM
-14	##았	O	O	O, B-CV, B-OG, B-LC, I-OG
-15	##잖아요	O	O	O, B-CV, B-OG, B-LC, B-PS
-16	우리	O	O	O, B-CV, B-OG, B-LC, B-PS
-17	##가	O	O	O, I-OG, B-PS, I-AF, B-CV
-18	.	O	O	O, B-CV, B-LC, B-OG, B-PS
-19	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	일본	B-LC	B-AF
+2	##서	O	I-AF
+3	##기	O	I-AF
+4	등	O	O
+5	외국	O	O
+6	기록	O	O
+7	##을	O	O
+8	비판	O	O
+9	##적	O	O
+10	##으로	O	O
+11	활용	O	O
+12	##하	O	O
+13	##는	O	O
+14	방법	O	O
+15	##도	O	O
+16	진전	O	O
+17	##됐	O	O
+18	##지만	O	O
+19	고고학	O	O
+20	##적	O	O
+21	발굴	O	O
+22	##과	O	O
+23	활용	O	O
+24	##이	O	O
+25	매우	O	O
+26	중요	O	O
+27	##하	O	O
+28	##다	O	O
+29	.	O	O
+30	[SEP]	O	O

@@ -1,21 +1,21 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	희귀	O	O	O, B-OG, B-LC, B-TM, B-CV
-2	##성	O	O	O, I-OG, I-LC, I-PS, I-TM
-3	때문	O	O	O, B-PS, I-OG, B-LC, B-CV
-4	##에	O	O	O, B-CV, B-LC, I-OG, B-OG
-5	그간	O	O	O, B-OG, B-LC, B-DT, B-QT
-6	홍	B-AF	B-OG	B-OG, O, B-LC, I-OG, B-AF
-7	##릉	I-AF	I-OG	I-OG, O, I-LC, I-AF, I-PS
-8	##수	I-AF	I-OG	I-OG, O, I-LC, I-AF, I-PS
-9	##목	I-AF	I-OG	I-OG, O, I-LC, I-AF, I-PS
-10	##원	I-AF	I-OG	I-OG, O, I-LC, I-AF, I-PS
-11	대표	B-CV	O	O, B-CV, I-OG, I-CV, B-AF
-12	나무	B-PT	O	O, B-PT, I-PT, I-CV, B-DT
-13	##로	O	O	O, I-CV, I-OG, B-CV, I-AF
-14	손꼽	O	O	O, B-LC, B-CV, B-PS, B-OG
-15	##혀	O	O	O, I-OG, I-LC, I-CV, I-QT
-16	##왔	O	O	O, B-CV, I-QT, I-OG, B-PS
-17	##다	O	O	O, B-CV, B-LC, B-TM, I-OG
-18	.	O	O	O, B-LC, B-OG, I-OG, B-PS
-19	[SEP]	O	O	O, I-OG, B-LC, B-CV, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	희귀	O	O
+2	##성	O	O
+3	때문	O	O
+4	##에	O	O
+5	그간	O	O
+6	홍	B-AF	B-OG
+7	##릉	I-AF	I-OG
+8	##수	I-AF	I-OG
+9	##목	I-AF	I-OG
+10	##원	I-AF	I-OG
+11	대표	B-CV	O
+12	나무	B-PT	O
+13	##로	O	O
+14	손꼽	O	O
+15	##혀	O	O
+16	##왔	O	O
+17	##다	O	O
+18	.	O	O
+19	[SEP]	O	O

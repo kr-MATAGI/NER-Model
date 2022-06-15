@@ -1,15 +1,21 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-AF
-1	유럽	B-LC	B-LC	B-LC, B-FD, O, B-AF, B-OG
-2	정치	B-FD	B-FD	B-FD, O, I-FD, I-AF, B-TR
-3	##사상	O	I-FD	I-FD, O, B-FD, I-AF, I-TR
-4	##을	O	O	O, I-FD, I-AF, I-OG, B-CV
-5	전공	O	O	O, B-CV, B-FD, B-LC, B-PS
-6	##하	O	O	O, B-PS, B-LC, B-OG, B-CV
-7	##시	O	O	O, B-CV, B-PS, B-OG, B-QT
-8	##는	O	O	O, B-PS, B-CV, B-LC, B-OG
-9	분	O	O	O, B-CV, B-PS, B-LC, B-QT
-10	##이	O	O	O, B-PS, B-CV, B-OG, B-LC
-11	##시	O	O	O, B-CV, B-PS, B-OG, B-LC
-12	##니까	O	O	O, B-CV, I-OG, I-AF, I-CV
-13	[SEP]	O	O	O, B-CV, B-PS, B-LC, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	그래도	O	O
+2	부자	O	B-CV
+3	증세	O	I-CV
+4	##를	O	O
+5	먼저	O	O
+6	하고	O	O
+7	중산층	O	O
+8	증세	O	O
+9	##는	O	O
+10	나중	O	O
+11	##에	O	O
+12	해야	O	O
+13	하지	O	O
+14	않	O	O
+15	##느	O	O
+16	##냐	O	O
+17	##고	O	O
+18	?	O	O
+19	[SEP]	O	O

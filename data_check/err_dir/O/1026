@@ -1,38 +1,74 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	김	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
-2	씨	O	O	O, I-PS, I-OG, B-CV, I-AF
-3	##와	O	O	O, B-PS, B-CV, B-LC, B-OG
-4	강	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-5	씨	O	O	O, I-PS, B-CV, I-OG, I-QT
-6	##는	O	O	O, B-CV, B-TM, B-LC, B-PS
-7	2	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-LC
-8	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-9	전부	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-10	##터	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-11	지난해	I-DT	I-DT	I-DT, B-DT, O, I-QT, B-CV
-12	9	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-13	##월	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-14	##까	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-15	##지만	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-16	해도	O	O	O, I-DT, B-CV, B-PS, B-OG
-17	김	B-PS	B-PS	B-PS, O, B-OG, B-LC, B-AF
-18	씨	O	O	O, I-AF, I-PS, I-OG, I-LC
-19	공장	O	O	O, B-AF, I-AF, B-LC, B-TM
-20	##에	O	O	O, I-AF, B-CV, B-AF, B-TM
-21	있	O	O	O, B-CV, B-TM, B-QT, B-AF
-22	##는	O	O	O, B-CV, B-TM, B-PS, B-AF
-23	배	O	B-AF	B-AF, O, B-TM, B-CV, B-AM
-24	##전	O	I-AF	I-AF, O, I-TM, I-CV, I-MT
-25	##반	O	I-AF	I-AF, O, I-TM, I-CV, I-MT
-26	##을	O	O	O, I-AF, I-TM, I-CV, B-CV
-27	함께	O	O	O, B-CV, B-TM, B-QT, B-OG
-28	쓰	O	O	O, B-CV, B-TM, B-OG, B-PS
-29	##고	O	O	O, B-PS, B-CV, B-LC, B-TM
-30	전기료	O	O	O, B-CV, B-TM, B-QT, B-LC
-31	##를	O	O	O, B-CV, B-OG, B-TM, B-PS
-32	나눠	O	O	O, B-CV, B-TM, B-OG, B-QT
-33	냈	O	O	O, B-CV, B-OG, B-PS, B-TM
-34	##다	O	O	O, B-CV, B-TM, B-OG, B-PS
-35	.	O	O	O, B-PS, B-LC, B-CV, B-OG
-36	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	지혜	O	B-LC
+2	##로	O	I-LC
+3	##에	O	O
+4	##서는	O	O
+5	역사	O	O
+6	##교	O	O
+7	##실	O	O
+8	,	O	O
+9	지구	B-LC	B-LC
+10	장례식	O	O
+11	퍼포먼스	O	O
+12	,	O	O
+13	책	O	O
+14	읽	O	O
+15	##는	O	O
+16	버스	B-AF	B-AF
+17	타고	O	O
+18	떠나	O	O
+19	##는	O	O
+20	책	O	O
+21	여행	O	O
+22	,	O	O
+23	선사	B-DT	B-DT
+24	##시대	I-DT	I-DT
+25	도구	O	O
+26	체험	O	O
+27	등	O	O
+28	##을	O	O
+29	,	O	O
+30	창의	O	B-LC
+31	##로	O	I-LC
+32	##에	O	O
+33	##서는	O	O
+34	신재	O	O
+35	##생	O	I-FD
+36	##에	O	I-FD
+37	##너지	O	I-FD
+38	체험	O	O
+39	,	O	O
+40	천문	O	O
+41	우주	O	O
+42	체험	O	O
+43	,	O	O
+44	창의	O	O
+45	##적	O	O
+46	수학	B-FD	O
+47	체험	O	O
+48	,	O	O
+49	혈액형	B-TM	B-TM
+50	디	B-TM	B-TM
+51	##엔	I-TM	I-TM
+52	##에이	I-TM	I-TM
+53	(	O	I-TM
+54	DNA	B-TM	I-TM
+55	)	O	O
+56	팔찌	O	O
+57	만들	O	O
+58	##기	O	O
+59	,	O	O
+60	전자	O	B-TM
+61	##키	O	I-TM
+62	##트	O	I-TM
+63	만들	O	O
+64	##기	O	O
+65	등	O	O
+66	##을	O	O
+67	즐길	O	O
+68	수	O	O
+69	있	O	O
+70	##다	O	O
+71	.	O	O
+72	[SEP]	O	O

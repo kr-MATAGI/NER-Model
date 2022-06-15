@@ -1,51 +1,60 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	5	B-TI	B-TI	B-TI, B-EV, B-QT, B-TR, B-TM
-2	##회	I-TI	I-TI	I-TI, I-EV, B-TI, I-QT, I-TR
-3	##말	I-TI	I-TI	I-TI, I-EV, I-QT, I-TR, B-TI
-4	선두	O	B-CV	B-CV, O, B-TM, I-CV, B-AF
-5	##타자	B-CV	I-CV	I-CV, O, B-CV, I-TM, I-AF
-6	유한	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-7	##준	I-PS	I-PS	I-PS, O, I-OG, B-PS, I-LC
-8	##이	O	O	O, I-PS, B-PS, B-CV, I-OG
-9	1	B-TM	B-TM	B-TM, B-QT, O, B-AF, I-TM
-10	##점	I-TM	I-TM	I-TM, I-QT, O, B-TM, I-AF
-11	##홈	I-TM	I-TM	I-TM, I-QT, O, B-TM, I-AF
-12	##런	I-TM	I-TM	I-TM, I-QT, O, I-AF, B-TM
-13	##으로	O	O	O, I-TM, I-QT, I-AF, I-CV
-14	넥센	B-OG	B-OG	B-OG, B-LC, O, B-PS, B-AF
-15	##은	O	O	O, I-OG, B-CV, I-AF, I-QT
-16	5	B-QT	B-QT	B-QT, I-QT, O, B-TM, B-EV
-17	-	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-TM
-18	4	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-19	##로	O	O	O, I-QT, B-CV, I-EV, B-TM
-20	앞서	O	O	O, B-TM, B-CV, B-OG, B-LC
-21	##간	O	O	O, B-LC, B-CV, B-OG, B-PS
-22	뒤	O	O	O, B-TM, B-LC, B-PS, B-OG
-23	계속	O	O	O, B-TM, B-CV, B-LC, B-PS
-24	##해서	O	O	O, B-LC, B-PS, B-OG, B-TM
-25	흔들리	O	O	O, B-TM, B-LC, B-CV, B-OG
-26	##는	O	O	O, B-PS, B-OG, B-LC, B-TM
-27	엘지	B-OG	B-OG	B-OG, O, B-LC, I-OG, B-PS
-28	마운드	B-TM	B-TM	B-TM, O, B-CV, I-OG, B-AF
-29	##를	O	O	O, I-TM, I-OG, I-AF, I-CV
-30	3	B-QT	B-QT	B-QT, B-TM, B-EV, O, B-AF
-31	##안	I-QT	I-QT	I-QT, I-TM, I-EV, O, I-AF
-32	##타	I-QT	I-QT	I-QT, O, I-TM, I-EV, I-AF
-33	등	O	O	O, I-QT, I-TM, I-EV, B-TM
-34	##으로	O	O	O, B-TM, B-PS, B-CV, B-LC
-35	두들겨	O	O	O, B-LC, B-TM, B-QT, B-PS
-36	2	B-QT	B-QT	B-QT, I-QT, O, B-TM, B-EV
-37	##점	I-QT	I-QT	I-QT, O, I-TM, I-LC, I-EV
-38	##을	O	O	O, I-QT, I-EV, B-CV, I-OG
-39	추가	O	O	O, B-CV, B-TM, B-QT, B-LC
-40	##하	O	O	O, B-LC, B-CV, B-TM, B-PS
-41	##며	O	O	O, B-LC, B-QT, B-TM, B-CV
-42	7	B-QT	B-QT	B-QT, I-QT, B-TM, O, B-EV
-43	-	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-TM
-44	4	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-TM
-45	##로	O	O	O, I-QT, I-EV, B-CV, I-OG
-46	달아났	O	O	O, B-CV, B-TM, B-OG, B-LC
-47	##다	O	O	O, B-CV, B-TM, B-LC, I-QT
-48	.	O	O	O, B-LC, B-TM, B-PS, B-CV
-49	[SEP]	O	O	O, B-LC, B-TM, B-CV, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	박선	B-PS	B-PS
+2	##규	I-PS	I-PS
+3	언론	O	B-CV
+4	##2	O	I-CV
+5	##비	B-CV	I-CV
+6	##서관	I-CV	I-CV
+7	##과	O	O
+8	정동	B-PS	B-PS
+9	##기	I-PS	I-PS
+10	민정	B-CV	B-CV
+11	##수	I-CV	I-CV
+12	##석	I-CV	I-CV
+13	##을	O	O
+14	포함	O	O
+15	##한	O	O
+16	7	B-QT	B-QT
+17	##명	I-QT	I-QT
+18	##은	O	O
+19	예금	O	O
+20	증가	O	O
+21	등	O	O
+22	##으로	O	O
+23	1	B-QT	B-QT
+24	##억	I-QT	I-QT
+25	원	I-QT	I-QT
+26	이상	I-QT	I-QT
+27	늘	O	O
+28	##었	O	O
+29	##고	O	O
+30	,	O	O
+31	김태	B-PS	B-PS
+32	##효	I-PS	I-PS
+33	대외	B-CV	B-CV
+34	##전	I-CV	I-CV
+35	##략	I-CV	I-CV
+36	##비	I-CV	I-CV
+37	##서관	I-CV	I-CV
+38	##과	O	O
+39	김은	B-PS	B-PS
+40	##혜	I-PS	I-PS
+41	부대	B-CV	B-CV
+42	##변	I-CV	I-CV
+43	##인	I-CV	I-CV
+44	##을	O	O
+45	비롯	O	O
+46	##한	O	O
+47	6	B-QT	B-QT
+48	##명	I-QT	I-QT
+49	##은	O	O
+50	1	B-QT	B-QT
+51	##억	I-QT	I-QT
+52	원	I-QT	I-QT
+53	이상	I-QT	I-QT
+54	감소	O	O
+55	##했	O	O
+56	##다	O	O
+57	.	O	O
+58	[SEP]	O	O

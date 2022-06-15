@@ -1,54 +1,59 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-AF
-1	루	B-CV	B-CV	B-CV, O, B-AF, B-EV, B-PS
-2	##지	I-CV	I-CV	I-CV, O, I-EV, I-AF, B-CV
-3	소치	B-LC	B-LC	B-LC, O, B-EV, B-AF, I-EV
-4	전	O	O	O, B-CV, B-EV, I-EV, B-FD
-5	##종	O	O	O, I-CV, I-EV, I-AF, B-CV
-6	##목	O	O	O, I-CV, I-EV, I-AF, I-FD
-7	출전	O	O	O, I-CV, I-EV, I-OG, I-AF
-8	여자	O	O	O, B-CV, B-TM, B-EV, B-LC
-9	싱글	O	O	O, B-CV, I-EV, B-FD, B-EV
-10	-	O	O	O, I-EV, I-CV, I-OG, B-PS
-11	남자	O	O	O, B-CV, B-TM, B-QT, B-LC
-12	2	B-QT	B-QT	B-QT, I-QT, O, B-CV, B-DT
-13	##인	I-QT	I-QT	I-QT, O, I-EV, B-QT, I-LC
-14	##승	I-QT	I-QT	I-QT, O, I-EV, I-CV, I-TM
-15	와일드카드	O	B-TM	B-TM, O, B-CV, B-AF, I-TM
-16	…	O	O	O, I-TM, I-CV, I-QT, I-AF
-17	팀	O	O	O, B-CV, B-TM, B-OG, B-EV
-18	계주	O	O	O, B-CV, I-CV, B-TM, B-AF
-19	##는	O	O	O, I-CV, I-EV, I-AF, I-OG
-20	아시아	B-LC	B-LC	B-LC, O, B-OG, B-PS, B-CV
-21	유일	O	O	O, I-LC, B-LC, B-QT, I-OG
-22	##하	O	O	O, B-LC, B-PS, B-OG, I-LC
-23	##게	O	O	O, B-LC, B-OG, B-QT, B-TM
-24	참가	O	O	O, B-CV, B-LC, B-OG, B-TM
-25	봅슬레이	B-CV	B-CV	B-CV, O, B-AF, B-PS, I-CV
-26	##도	O	O	O, I-CV, I-EV, I-OG, I-AF
-27	국제	O	O	O, B-CV, B-LC, B-TM, B-EV
-28	##대	O	O	O, I-EV, B-LC, I-OG, I-CV
-29	##회	O	O	O, I-EV, B-LC, I-LC, I-CV
-30	쾌거	O	O	O, B-EV, B-LC, B-OG, B-CV
-31	아메리카	B-EV	B-EV	B-EV, B-LC, O, B-DT, I-EV
-32	##컵	I-EV	I-EV	I-EV, O, B-EV, I-LC, I-AF
-33	남자	O	O	O, I-EV, B-CV, B-QT, B-TM
-34	2	B-QT	B-QT	B-QT, I-QT, O, B-DT, B-CV
-35	##인	I-QT	I-QT	I-QT, O, I-EV, B-QT, I-LC
-36	##승	I-QT	I-QT	I-QT, O, I-EV, I-TM, I-LC
-37	1	B-QT	B-QT	B-QT, I-QT, O, B-DT, B-EV
-38	,	I-QT	O	O, I-QT, B-QT, I-CV, I-OG
-39	2	I-QT	B-QT	B-QT, I-QT, O, B-CV, B-PS
-40	##위	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-EV
-41	…	O	O	O, I-QT, I-OG, B-CV, I-EV
-42	여자	O	O	O, B-CV, B-TM, B-QT, B-LC
-43	2	B-QT	B-QT	B-QT, O, I-QT, B-CV, B-DT
-44	##인	I-QT	I-QT	I-QT, O, B-QT, I-EV, I-LC
-45	##승	I-QT	I-QT	I-QT, O, I-EV, I-LC, I-TM
-46	등	O	O	O, I-QT, I-EV, B-CV, B-OG
-47	4	B-QT	B-QT	B-QT, O, I-QT, B-EV, B-DT
-48	##팀	I-QT	I-QT	I-QT, O, I-EV, I-OG, I-LC
-49	올림픽	B-EV	B-EV	B-EV, O, I-EV, I-QT, B-DT
-50	갈	O	O	O, I-EV, I-QT, B-CV, I-AF
-51	듯	O	O	O, B-OG, B-LC, I-OG, B-PS
-52	[SEP]	O	O	O, B-CV, B-LC, B-TM, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	김	B-PS	B-PS
+2	수석	B-CV	B-CV
+3	##은	O	O
+4	“	O	O
+5	소득	O	O
+6	##이	O	O
+7	적	O	O
+8	##어	O	O
+9	보험료	B-CV	B-CV
+10	##를	O	O
+11	납부	O	O
+12	##하	O	O
+13	##지	O	O
+14	못하	O	O
+15	##는	O	O
+16	저소득층	O	O
+17	##과	O	O
+18	형편	O	O
+19	##이	O	O
+20	어려워	O	O
+21	보험료	B-CV	B-CV
+22	##를	O	O
+23	장기	O	O
+24	체납	O	O
+25	##한	O	O
+26	분	O	O
+27	##들이	O	O
+28	(	O	O
+29	국민연금	B-CV	B-CV
+30	)	O	O
+31	2000	B-QT	B-QT
+32	##만	I-QT	I-QT
+33	가입자	I-QT	O
+34	중	O	O
+35	500	O	O
+36	##만	O	O
+37	명이	O	O
+38	넘	O	O
+39	##는	O	O
+40	##다	O	O
+41	”	O	O
+42	며	O	O
+43	연금	O	B-CV
+44	사각지대	O	O
+45	해소	O	O
+46	방안	O	O
+47	##을	O	O
+48	먼저	O	O
+49	논의	O	O
+50	##해야	O	O
+51	한다고	O	O
+52	##도	O	O
+53	주장	O	O
+54	##했	O	O
+55	##다	O	O
+56	.	O	O
+57	[SEP]	O	O

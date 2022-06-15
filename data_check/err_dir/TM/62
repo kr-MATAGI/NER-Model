@@ -1,9 +1,45 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-AF
-1	로제	B-TM	B-CV	B-CV, O, B-AF, B-PT, B-OG
-2	##타	I-TM	I-CV	I-CV, O, I-AF, I-OG, B-CV
-3	##와	O	O	O, I-CV, I-AF, I-OG, I-QT
-4	하트	B-TM	B-CV	B-CV, O, B-AF, B-PT, I-CV
-5	외	O	O	O, I-CV, I-AF, I-OG, B-CV
-6	##에도	O	O	O, B-CV, I-CV, B-OG, I-AF
-7	[SEP]	O	O	O, B-CV, B-OG, B-TM, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	그린	B-TM	B-PS
+2	부	B-CV	B-CV
+3	##소	I-CV	I-CV
+4	##장	I-CV	I-CV
+5	##의	O	O
+6	말	O	O
+7	##을	O	O
+8	장	O	O
+9	##황	O	O
+10	##하	O	O
+11	##게	O	O
+12	소개	O	O
+13	##하	O	O
+14	##는	O	O
+15	것	O	O
+16	##은	O	O
+17	그	O	O
+18	##의	O	O
+19	인식	O	O
+20	##이	O	O
+21	워싱턴	B-LC	B-LC
+22	내	O	O
+23	일본	B-LC	B-LC
+24	전문가	B-CV	B-CV
+25	그룹	O	O
+26	##에	O	O
+27	광범위	O	O
+28	##하	O	O
+29	##게	O	O
+30	퍼져	O	O
+31	있	O	O
+32	##다는	O	O
+33	점	O	O
+34	##을	O	O
+35	말	O	O
+36	##하	O	O
+37	##고	O	O
+38	싶	O	O
+39	##어	O	O
+40	##서	O	O
+41	##다	O	O
+42	.	O	O
+43	[SEP]	O	O

@@ -1,82 +1,85 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	스웨덴	B-LC	B-LC	B-LC, B-OG, O, B-PS, B-AF
-2	왕립	B-OG	B-OG	B-OG, I-OG, O, B-LC, B-AF
-3	##과학	I-OG	I-OG	I-OG, O, I-LC, B-OG, I-AF
-4	##한	I-OG	I-OG	I-OG, O, I-LC, B-OG, I-PS
-5	##림	I-OG	I-OG	I-OG, O, I-LC, B-OG, I-PS
-6	##원	I-OG	I-OG	I-OG, O, I-LC, I-PS, I-AF
-7	##은	O	O	O, I-OG, I-QT, I-EV, B-CV
-8	9	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-9	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-10	(	O	O	O, I-DT, B-CV, I-OG, B-LC
-11	현지	O	O	O, B-LC, B-CV, B-OG, B-TM
-12	##시	O	O	O, B-CV, B-OG, B-LC, B-PS
-13	##각	O	O	O, B-CV, B-LC, B-OG, B-PS
-14	)	O	O	O, B-LC, B-OG, B-CV, B-PS
-15	“	O	O	O, B-CV, B-LC, B-OG, B-PS
-16	수상자	B-CV	B-CV	B-CV, O, I-CV, B-AF, B-TM
-17	##들	O	O	O, I-CV, I-EV, I-OG, B-CV
-18	##은	O	O	O, B-CV, B-LC, B-OG, B-PS
-19	양자	O	O	O, B-FD, B-TR, B-TM, B-LC
-20	시스템	O	O	O, I-TM, I-TR, I-FD, I-LC
-21	##을	O	O	O, B-LC, I-EV, B-CV, B-PS
-22	파괴	O	O	O, B-CV, B-LC, B-TM, B-PS
-23	##하	O	O	O, B-LC, B-PS, B-OG, B-CV
-24	##지	O	O	O, B-LC, B-PS, B-QT, B-OG
-25	않	O	O	O, B-LC, B-PS, B-QT, B-TM
-26	##고	O	O	O, B-LC, B-PS, B-TM, B-CV
-27	##도	O	O	O, B-LC, B-PS, B-TM, B-CV
-28	이를	O	O	O, B-CV, B-LC, B-TM, B-PS
-29	측정	O	O	O, B-LC, B-CV, B-TM, B-QT
-30	##하고	O	O	O, B-CV, B-LC, B-PS, I-QT
-31	조작	O	O	O, B-CV, B-LC, B-TM, B-PS
-32	##할	O	O	O, B-LC, B-CV, B-PS, B-OG
-33	수	O	O	O, B-CV, B-LC, B-PS, B-TM
-34	있	O	O	O, B-CV, B-LC, B-PS, B-TM
-35	##는	O	O	O, B-LC, B-CV, B-PS, B-OG
-36	획기	O	O	O, B-CV, B-LC, B-QT, B-TM
-37	##적인	O	O	O, B-LC, B-QT, B-PS, B-CV
-38	실험	O	O	O, B-CV, B-LC, B-TM, B-FD
-39	방법	O	O	O, B-CV, B-LC, I-EV, I-CV
-40	##을	O	O	O, B-CV, B-OG, B-PS, B-LC
-41	고안	O	O	O, B-CV, B-LC, B-TM, B-QT
-42	##해	O	O	O, B-LC, B-PS, B-CV, B-OG
-43	##냈	O	O	O, B-LC, B-CV, B-PS, B-OG
-44	##다	O	O	O, B-CV, B-LC, B-PS, B-OG
-45	”	O	O	O, B-CV, B-LC, B-OG, B-PS
-46	며	O	O	O, B-CV, B-LC, B-OG, B-TM
-47	“	O	O	O, B-CV, B-LC, B-OG, B-PS
-48	이	O	O	O, B-CV, B-PS, B-LC, B-OG
-49	##로	O	O	O, B-CV, B-PS, I-EV, B-LC
-50	인해	O	O	O, B-CV, B-LC, B-OG, B-PS
-51	양자	O	B-FD	B-FD, O, B-TR, B-TM, B-CV
-52	물리학	B-FD	I-FD	I-FD, O, B-FD, I-TR, I-TM
-53	##에	O	O	O, I-FD, I-TR, I-OG, I-AF
-54	기초	O	O	O, B-LC, B-TM, B-CV, B-OG
-55	##한	O	O	O, B-LC, B-PS, B-OG, B-TM
-56	새로운	O	O	O, B-LC, B-CV, B-TM, B-QT
-57	양자	B-TM	B-TM	B-TM, O, B-TR, B-EV, B-AF
-58	##컴	I-TM	I-TM	I-TM, O, B-TM, I-QT, I-TR
-59	##퓨	I-TM	I-TM	I-TM, O, I-QT, B-TM, I-TR
-60	##터	I-TM	I-TM	I-TM, O, I-QT, I-AF, I-OG
-61	개발	O	O	O, I-TM, I-QT, I-OG, I-EV
-62	##의	O	O	O, B-LC, B-CV, B-OG, B-PS
-63	첫발	O	O	O, B-LC, B-CV, B-QT, B-TM
-64	##을	O	O	O, B-CV, B-OG, B-LC, B-PS
-65	내디	O	O	O, B-LC, B-OG, B-CV, B-EV
-66	##딜	O	O	O, B-LC, B-OG, B-CV, B-PS
-67	수	O	O	O, B-LC, B-QT, B-OG, B-TM
-68	있	O	O	O, B-CV, B-QT, B-LC, B-TM
-69	##게	O	O	O, B-CV, B-LC, B-TM, B-QT
-70	됐	O	O	O, B-CV, B-LC, B-PS, B-QT
-71	##다	O	O	O, B-CV, B-PS, B-LC, B-OG
-72	”	O	O	O, B-CV, B-LC, B-TM, B-OG
-73	고	O	O	O, B-LC, B-CV, B-OG, B-TM
-74	수상	O	O	O, B-CV, B-TM, B-LC, B-OG
-75	이유	O	O	O, I-CV, B-CV, B-TM, B-PS
-76	##를	O	O	O, B-CV, B-OG, B-LC, B-TM
-77	밝혔	O	O	O, B-CV, B-LC, B-OG, B-TM
-78	##다	O	O	O, B-CV, I-OG, B-LC, I-EV
-79	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-80	[SEP]	O	O	O, B-LC, B-CV, I-EV, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	스웨덴	B-LC	B-LC
+2	왕립	B-OG	B-OG
+3	##과학	I-OG	I-OG
+4	##한	I-OG	I-OG
+5	##림	I-OG	I-OG
+6	##원	I-OG	I-OG
+7	##은	O	O
+8	9	B-DT	B-DT
+9	##일	I-DT	I-DT
+10	(	O	O
+11	현지	O	O
+12	##시	O	O
+13	##각	O	O
+14	)	O	O
+15	“	O	O
+16	수상자	B-CV	B-CV
+17	##들	O	O
+18	##은	O	O
+19	양자	O	O
+20	시스템	O	O
+21	##을	O	O
+22	파괴	O	O
+23	##하	O	O
+24	##지	O	O
+25	않	O	O
+26	##고	O	O
+27	##도	O	O
+28	이	O	O
+29	##를	O	O
+30	측정	O	O
+31	##하	O	O
+32	##고	O	O
+33	조작	O	O
+34	##할	O	O
+35	수	O	O
+36	있	O	O
+37	##는	O	O
+38	획기	O	O
+39	##적	O	O
+40	##인	O	O
+41	실험	O	O
+42	방법	O	O
+43	##을	O	O
+44	고안	O	O
+45	##해	O	O
+46	##냈	O	O
+47	##다	O	O
+48	”	O	O
+49	며	O	O
+50	“	O	O
+51	이	O	O
+52	##로	O	O
+53	인해	O	O
+54	양자	O	B-FD
+55	물리학	B-FD	I-FD
+56	##에	O	O
+57	기초	O	O
+58	##한	O	O
+59	새로운	O	O
+60	양자	B-TM	B-TM
+61	##컴	I-TM	I-TM
+62	##퓨	I-TM	I-TM
+63	##터	I-TM	I-TM
+64	개발	O	O
+65	##의	O	O
+66	첫발	O	O
+67	##을	O	O
+68	내디	O	O
+69	##딜	O	O
+70	수	O	O
+71	있	O	O
+72	##게	O	O
+73	됐	O	O
+74	##다	O	O
+75	”	O	O
+76	고	O	O
+77	수상	O	O
+78	이유	O	O
+79	##를	O	O
+80	밝혔	O	O
+81	##다	O	O
+82	.	O	O
+83	[SEP]	O	O

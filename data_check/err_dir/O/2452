@@ -1,30 +1,12 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	미군	B-OG	B-OG	B-OG, O, B-CV, B-LC, B-AF
-2	##뿐	O	O	O, I-OG, I-AF, I-CV, I-QT
-3	아니	O	O	O, B-LC, B-PS, B-CV, I-OG
-4	##라	O	O	O, B-LC, B-OG, B-PS, B-CV
-5	독일	B-LC	B-LC	B-LC, B-OG, O, B-AF, B-PS
-6	,	O	O	O, I-LC, I-OG, I-AF, B-LC
-7	프랑스	B-LC	B-LC	B-LC, B-OG, O, B-PS, B-AF
-8	등	O	O	O, I-LC, I-OG, B-LC, I-AF
-9	다국적	O	B-OG	B-OG, O, B-CV, I-OG, B-AF
-10	##군	O	I-OG	I-OG, O, B-OG, I-CV, B-CV
-11	2	B-QT	B-QT	B-QT, O, I-QT, I-OG, B-PS
-12	##만	I-QT	I-QT	I-QT, O, I-OG, B-QT, I-LC
-13	##여	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-14	명	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-15	##이	O	O	O, I-QT, B-PS, B-CV, B-LC
-16	배치	O	O	O, B-CV, B-LC, B-TM, I-QT
-17	##돼	O	O	O, B-LC, B-CV, B-PS, B-OG
-18	상대	O	O	O, B-CV, B-LC, B-TM, B-QT
-19	##적으로	O	O	O, B-LC, B-CV, B-PS, I-AF
-20	가장	O	O	O, B-LC, B-CV, B-QT, B-TM
-21	안전	O	O	O, B-LC, B-CV, B-QT, B-TM
-22	##한	O	O	O, B-LC, B-PS, B-OG, B-QT
-23	지역	O	O	O, B-LC, B-CV, I-LC, B-TM
-24	##인	O	O	O, B-PS, B-LC, B-CV, B-QT
-25	셈	O	O	O, B-CV, B-TM, B-LC, B-OG
-26	##이다	O	O	O, B-CV, I-CV, B-TM, I-OG
-27	.	O	O	O, B-LC, B-CV, B-OG, B-PS
-28	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	name	O	O
+2	##7	O	O
+3	##이	O	O
+4	만나	O	O
+5	##면은	O	O
+6	저녁	B-TI	B-TI
+7	##때	O	I-TI
+8	가	O	O
+9	##고	O	O
+10	[SEP]	O	O

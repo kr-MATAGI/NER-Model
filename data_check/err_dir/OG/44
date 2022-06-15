@@ -1,34 +1,33 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	현재	O	O	O, B-QT, B-CV, B-OG, B-TM
-2	코스피	B-OG	O	O, B-OG, B-CV, B-LC, B-AF
-3	##20	I-OG	O	O, B-QT, I-OG, B-CV, I-CV
-4	##0	I-OG	O	O, I-OG, I-QT, I-CV, I-LC
-5	선물	O	O	O, B-CV, I-CV, I-QT, I-OG
-6	##은	O	O	O, I-CV, I-QT, I-AF, B-CV
-7	1	B-QT	B-QT	B-QT, O, B-DT, I-QT, B-EV
-8	##거래	I-QT	I-QT	I-QT, O, B-QT, I-DT, I-EV
-9	##단	I-QT	I-QT	I-QT, O, B-QT, I-DT, I-OG
-10	##위	I-QT	I-QT	I-QT, O, I-DT, I-OG, I-LC
-11	##가	O	O	O, I-QT, B-PS, B-OG, I-OG
-12	약	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-OG
-13	1	I-QT	I-QT	I-QT, O, B-QT, I-DT, I-LC
-14	##억	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-15	##30	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-16	##00	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-17	##만	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-18	##원	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-19	##이지	O	O	O, I-QT, B-CV, B-PS, B-OG
-20	##만	O	O	O, B-PS, B-CV, B-QT, B-LC
-21	미니	O	O	O, B-CV, B-AF, B-PS, B-TM
-22	선물	O	O	O, B-CV, I-CV, I-AF, B-QT
-23	##은	O	O	O, I-CV, I-AF, B-CV, I-QT
-24	2600	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-PS
-25	##만	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-DT
-26	##원	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-27	수준	O	O	O, I-QT, B-CV, I-OG, B-TM
-28	##으로	O	O	O, B-CV, B-TM, B-OG, I-QT
-29	낮춰	O	O	O, B-QT, B-CV, B-TM, I-QT
-30	##진다	O	O	O, B-CV, I-QT, I-OG, B-QT
-31	.	O	O	O, B-QT, B-LC, B-CV, B-PS
-32	[SEP]	O	O	O, B-CV, B-QT, I-QT, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	여성	B-OG	B-OG
+2	##가족	I-OG	I-OG
+3	##부	I-OG	I-OG
+4	##는	O	O
+5	지난해	B-DT	B-DT
+6	구월	I-DT	I-DT
+7	우리	O	O
+8	사회	O	O
+9	##의	O	O
+10	성	O	O
+11	##차	O	O
+12	##별	O	O
+13	문제	O	O
+14	해결	O	O
+15	##을	O	O
+16	위해	O	O
+17	성	B-OG	O
+18	##평	I-OG	O
+19	##등	I-OG	O
+20	문화	I-OG	O
+21	확산	I-OG	O
+22	태	I-OG	O
+23	##스크	I-OG	O
+24	##포스	I-OG	O
+25	##를	O	O
+26	만들	O	O
+27	##었	O	O
+28	##는데	O	O
+29	##요	O	O
+30	.	O	O
+31	[SEP]	O	O

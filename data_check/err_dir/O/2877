@@ -1,31 +1,40 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	“	O	O	O, B-CV, B-LC, B-PS, B-OG
-2	채색	O	B-FD	B-FD, O, B-TR, B-TM, B-EV
-3	##화	O	I-FD	I-FD, O, I-TR, I-TM, I-OG
-4	##와	O	O	O, I-FD, I-OG, I-AF, I-EV
-5	데	O	O	O, B-FD, B-TR, B-EV, B-TM
-6	##생	O	O	O, I-FD, I-TR, I-TM, I-OG
-7	##을	O	O	O, I-OG, I-EV, I-AF, I-TR
-8	통해	O	O	O, B-PS, B-CV, B-LC, B-OG
-9	자기	O	O	O, B-CV, B-PS, B-AM, B-LC
-10	영혼	O	O	O, B-AM, B-TM, B-LC, B-CV
-11	##을	O	O	O, B-CV, B-PS, I-CV, B-LC
-12	드러내	O	O	O, B-CV, B-PS, B-LC, B-TM
-13	##기	O	O	O, B-PS, B-CV, I-CV, B-LC
-14	##를	O	O	O, B-PS, B-CV, I-AF, I-PS
-15	바라	O	O	O, B-CV, B-PS, B-QT, B-LC
-16	##는	O	O	O, B-PS, B-CV, I-PS, I-CV
-17	사람	O	O	O, B-CV, B-PS, I-CV, B-AM
-18	##은	O	O	O, B-PS, B-CV, I-CV, B-OG
-19	누구	O	O	O, B-PS, B-LC, B-CV, B-OG
-20	##나	O	O	O, B-PS, I-PS, I-OG, I-AF
-21	자동	O	O	O, B-CV, B-PS, B-LC, B-OG
-22	##으로	O	O	O, B-PS, I-PS, I-CV, I-OG
-23	협회	O	O	O, B-CV, B-OG, B-PS, I-OG
-24	##의	O	O	O, I-OG, B-PS, B-CV, I-CV
-25	일원	O	O	O, B-CV, I-CV, B-QT, B-PS
-26	##이다	O	O	O, I-CV, I-OG, B-PS, I-QT
-27	.	O	O	O, B-PS, B-CV, I-CV, B-LC
-28	”	O	O	O, B-CV, B-OG, B-LC, B-PS
-29	[SEP]	O	O	O, B-CV, B-PS, B-LC, I-CV
+	text	label	preds
+0	[CLS]	O	O
+1	블레	B-PS	B-PS
+2	##이	I-PS	I-PS
+3	##저	I-PS	I-PS
+4	##는	O	O
+5	1997	B-DT	B-DT
+6	~	I-DT	I-DT
+7	2013	I-DT	I-DT
+8	##년	I-DT	I-DT
+9	피파	B-OG	B-OG
+10	집행	B-CV	B-CV
+11	##위원	I-CV	I-CV
+12	##이	O	O
+13	##었	O	O
+14	##고	O	O
+15	1990	B-DT	B-DT
+16	~	I-DT	I-DT
+17	2011	I-DT	I-DT
+18	##년	I-DT	I-DT
+19	북	B-OG	B-OG
+20	##중	I-OG	I-OG
+21	##미	I-OG	I-OG
+22	##카	I-OG	I-OG
+23	##리	I-OG	I-OG
+24	##브	I-OG	I-OG
+25	##해	I-OG	I-OG
+26	##축구연맹	I-OG	I-OG
+27	(	O	O
+28	CO	B-OG	B-OG
+29	##NC	I-OG	I-OG
+30	##A	I-OG	I-OG
+31	##F	I-OG	I-OG
+32	)	O	O
+33	사무총장	O	B-CV
+34	##이	O	O
+35	##었	O	O
+36	##다	O	O
+37	.	O	O
+38	[SEP]	O	O

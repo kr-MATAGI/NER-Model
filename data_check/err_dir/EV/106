@@ -1,44 +1,26 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-EV, I-OG, I-CV
-1	30	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-2	##일	I-DT	I-DT	I-DT, O, B-DT, I-EV, I-QT
-3	경기	O	O	O, B-EV, B-CV, I-EV, B-LC
-4	##에서	O	O	O, I-EV, B-CV, B-PS, B-LC
-5	2	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-EV
-6	##만	I-QT	I-QT	I-QT, O, B-QT, I-PS, I-LC
-7	##80	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-8	##00	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-9	##명	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-10	정원	O	O	O, I-QT, B-CV, B-EV, B-TM
-11	##인	O	O	O, B-PS, I-EV, I-CV, B-CV
-12	사직	B-AF	B-AF	B-AF, B-LC, O, B-OG, B-EV
-13	##구장	I-AF	I-AF	I-AF, O, I-LC, I-OG, I-PS
-14	##에	O	O	O, I-AF, I-EV, I-OG, B-CV
-15	2	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-LC
-16	##만	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-17	##67	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-18	##0	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-19	##8	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-20	##명	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-21	##이	O	O	O, I-QT, B-PS, B-CV, B-OG
-22	들어와	O	O	O, B-CV, B-PS, B-OG, B-QT
-23	만	O	O	O, B-QT, B-LC, B-TM, B-EV
-24	##원	O	O	O, I-QT, I-LC, I-TM, I-CV
-25	##에	O	O	O, I-QT, I-OG, B-CV, I-CV
-26	실패	O	O	O, B-CV, B-OG, B-TM, B-LC
-27	##하면	O	O	O, B-CV, B-LC, B-OG, I-EV
-28	##서	O	O	O, B-CV, B-QT, B-LC, B-OG
-29	5	B-DT	B-DT	B-DT, O, B-QT, I-DT, B-EV
-30	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
-31	연속	O	O	O, I-DT, B-EV, I-EV, B-LC
-32	개막전	B-EV	B-EV	B-EV, O, B-CV, I-EV, B-LC
-33	전	I-EV	O	O, I-EV, B-EV, B-CV, I-DT
-34	경기	O	O	O, I-EV, B-EV, B-CV, B-LC
-35	매진	O	O	O, I-EV, B-TM, B-CV, B-LC
-36	기록	O	O	O, B-CV, I-EV, B-LC, B-TM
-37	##은	O	O	O, B-CV, I-EV, B-OG, B-LC
-38	무산	O	O	O, B-CV, B-QT, B-TM, B-EV
-39	##됐	O	O	O, B-CV, I-EV, B-QT, I-OG
-40	##다	O	O	O, B-CV, B-QT, B-TM, I-EV
-41	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-42	[SEP]	O	O	O, B-CV, B-LC, I-EV, B-QT
+	text	label	preds
+0	[CLS]	O	O
+1	'	O	O
+2	9	B-DT	B-EV
+3	·	I-DT	I-EV
+4	15	I-DT	I-EV
+5	'	O	O
+6	는	O	O
+7	전력	O	O
+8	##산업	O	O
+9	관계자	B-CV	B-CV
+10	##들	O	O
+11	##에	O	O
+12	##겐	O	O
+13	'	O	O
+14	9	B-EV	B-DT
+15	·	I-EV	I-DT
+16	11	I-EV	I-DT
+17	'	O	O
+18	만큼	O	O
+19	아찔	O	O
+20	##한	O	O
+21	숫자	O	O
+22	##다	O	O
+23	.	O	O
+24	[SEP]	O	O

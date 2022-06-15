@@ -1,27 +1,43 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	정부	B-OG	B-OG	B-OG, O, B-LC, B-AF, B-PS
-2	##가	O	O	O, I-OG, I-EV, B-CV, B-OG
-3	의료관광	B-EV	B-EV	B-EV, O, B-TM, B-LC, B-CV
-4	##특구	I-EV	I-EV	I-EV, O, I-TM, I-LC, I-OG
-5	조성	I-EV	I-EV	I-EV, O, I-OG, I-TM, I-LC
-6	토론회	I-EV	O	O, I-EV, B-EV, I-OG, I-LC
-7	##를	O	O	O, I-EV, I-OG, I-AF, B-CV
-8	여	O	O	O, B-OG, B-EV, B-CV, B-LC
-9	##는	O	O	O, I-EV, B-LC, B-CV, B-OG
-10	등	O	O	O, B-LC, B-OG, B-EV, B-TM
-11	의료관광	B-TM	O	O, B-TM, I-TM, B-CV, B-TR
-12	사업	I-TM	O	O, I-TM, I-CV, I-TR, I-EV
-13	추진	O	O	O, I-TM, I-OG, I-CV, B-TM
-14	##의	O	O	O, B-PS, B-LC, B-OG, B-CV
-15	‘	O	O	O, B-CV, B-LC, B-OG, B-PS
-16	군	O	O	O, B-LC, B-PS, B-AF, B-CV
-17	##불	O	O	O, B-PS, B-LC, B-PT, I-PS
-18	지피	O	O	O, B-PS, B-LC, B-CV, B-EV
-19	##기	O	O	O, B-LC, B-PS, B-CV, I-EV
-20	’	O	O	O, B-CV, I-EV, B-LC, B-OG
-21	에	O	O	O, B-LC, B-CV, B-OG, B-PS
-22	나섰	O	O	O, B-LC, B-CV, B-OG, B-EV
-23	##다	O	O	O, B-CV, B-LC, I-EV, I-OG
-24	.	O	O	O, B-LC, B-CV, I-EV, B-PS
-25	[SEP]	O	O	O, B-LC, B-CV, I-EV, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	이	O	O
+2	중	O	O
+3	치열	O	O
+4	##한	O	O
+5	경합	O	O
+6	##을	O	O
+7	뚫	O	O
+8	##고	O	O
+9	본선	B-EV	B-EV
+10	##에	O	O
+11	올라온	O	O
+12	51	B-QT	B-QT
+13	##편	I-QT	I-QT
+14	##이	O	O
+15	이번	O	O
+16	행사	O	O
+17	기간	O	O
+18	##에	O	O
+19	B	B-EV	B-OG
+20	##U	I-EV	I-OG
+21	##DI	I-EV	I-OG
+22	홈페이지	O	O
+23	(	O	O
+24	www	B-TM	B-TM
+25	.	I-TM	I-TM
+26	b	I-TM	I-TM
+27	##ud	I-TM	I-TM
+28	##ib	I-TM	I-TM
+29	##ud	I-TM	I-TM
+30	##i	I-TM	I-TM
+31	.	I-TM	I-TM
+32	org	I-TM	I-TM
+33	)	O	O
+34	에서	O	O
+35	온라인	O	O
+36	##으로	O	O
+37	상영	O	O
+38	##된	O	O
+39	##다	O	O
+40	.	O	O
+41	[SEP]	O	O

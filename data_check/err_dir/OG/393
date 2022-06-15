@@ -1,34 +1,76 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-QT
-1	A	B-TM	B-TM	B-TM, B-AF, O, B-OG, B-EV
-2	##38	I-TM	I-TM	I-TM, I-AF, O, I-OG, I-TR
-3	##0	I-TM	I-TM	I-TM, I-AF, O, I-QT, I-OG
-4	##은	O	O	O, I-TM, I-AF, I-OG, I-QT
-5	엔진	B-OG	B-OG	B-OG, O, B-AF, B-LC, B-PS
-6	##얼	I-OG	I-OG	I-OG, O, B-OG, I-AF, I-LC
-7	##라이언스	I-OG	I-OG	I-OG, O, I-AF, I-LC, I-PS
-8	##사	I-OG	O	O, I-OG, B-OG, I-PS, I-AF
-9	##가	O	O	O, I-OG, B-PS, I-AF, B-LC
-10	제작	O	O	O, B-CV, B-LC, B-QT, B-OG
-11	##한	O	O	O, B-LC, B-PS, B-OG, B-CV
-12	엔진	O	B-TM	B-TM, O, B-AF, B-CV, B-MT
-13	##과	O	O	O, I-TM, I-AF, B-CV, B-PS
-14	영국	B-LC	B-LC	B-LC, B-OG, O, B-PS, B-AF
-15	롤	B-OG	B-OG	B-OG, I-OG, O, B-LC, B-PS
-16	##스로	I-OG	I-OG	I-OG, O, I-LC, I-AF, I-PS
-17	##이스	I-OG	I-OG	I-OG, O, I-LC, I-PS, I-AF
-18	##가	O	O	O, I-OG, I-AF, B-PS, I-PS
-19	제작	O	O	O, B-CV, B-LC, B-QT, I-OG
-20	##한	O	O	O, B-PS, B-LC, B-OG, B-CV
-21	엔진	O	B-TM	B-TM, O, B-AF, B-CV, B-MT
-22	등	O	O	O, I-TM, I-AF, B-CV, I-EV
-23	두	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-EV
-24	종류	I-QT	I-QT	I-QT, O, I-EV, I-LC, I-TM
-25	##의	O	O	O, I-QT, I-OG, I-EV, I-AF
-26	엔진	O	B-TM	B-TM, O, B-AF, B-CV, B-MT
-27	##이	O	O	O, I-TM, I-AF, B-PS, B-CV
-28	사용	O	O	O, B-CV, B-TM, B-OG, B-LC
-29	##된	O	O	O, B-CV, I-AF, I-OG, B-LC
-30	##다	O	O	O, B-CV, B-OG, B-TM, I-OG
-31	.	O	O	O, B-OG, B-LC, B-PS, B-CV
-32	[SEP]	O	O	O, B-OG, B-LC, B-CV, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	한편	O	O
+2	창원	B-OG	B-OG
+3	##지	I-OG	I-OG
+4	##법	I-OG	I-OG
+5	밀양	I-OG	B-LC
+6	##지	I-OG	O
+7	##원	I-OG	O
+8	민사	O	O
+9	##부	O	O
+10	(	O	O
+11	재판장	B-CV	B-CV
+12	백	B-PS	B-PS
+13	##태	I-PS	I-PS
+14	##균	I-PS	I-PS
+15	지원	B-CV	B-CV
+16	##장	I-CV	I-CV
+17	)	O	O
+18	는	O	O
+19	이날	B-DT	B-DT
+20	한전	B-OG	B-OG
+21	##이	O	O
+22	주민	B-CV	B-CV
+23	##과	O	O
+24	대책위	O	B-OG
+25	관계자	B-CV	B-CV
+26	등	O	O
+27	25	B-QT	B-QT
+28	##명	I-QT	I-QT
+29	##을	O	O
+30	상대	O	O
+31	##로	O	O
+32	낸	O	O
+33	공사	O	O
+34	##방	O	O
+35	##해	O	O
+36	##금	O	O
+37	##지	O	O
+38	가처분	O	O
+39	신청	O	O
+40	##에	O	O
+41	##서	O	O
+42	‘	O	O
+43	송전탑	O	O
+44	공사	O	O
+45	##는	O	O
+46	공익	O	O
+47	##사업	O	O
+48	##이	O	O
+49	##며	O	O
+50	완공	O	O
+51	##하	O	O
+52	##지	O	O
+53	못	O	O
+54	##할	O	O
+55	경우	O	O
+56	전력	O	O
+57	수급	O	O
+58	##에	O	O
+59	차질	O	O
+60	##이	O	O
+61	우려	O	O
+62	##된	O	O
+63	##다	O	O
+64	’	O	O
+65	며	O	O
+66	한전	O	B-OG
+67	##의	O	O
+68	손	B-AM	B-AM
+69	##을	O	O
+70	들어	O	O
+71	##줬	O	O
+72	##다	O	O
+73	.	O	O
+74	[SEP]	O	O

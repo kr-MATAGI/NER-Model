@@ -1,61 +1,17 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	미국	B-LC	B-LC	B-LC, B-OG, O, B-PS, B-AF
-2	##의	O	O	O, I-LC, B-LC, I-OG, B-PS
-3	환경	O	O	O, B-OG, B-FD, B-CV, B-TR
-4	보호	O	O	O, I-OG, I-CV, I-TR, I-FD
-5	싱크탱크	O	O	O, B-OG, I-OG, B-FD, B-CV
-6	'	O	O	O, I-OG, B-LC, B-OG, B-CV
-7	지구	B-OG	B-OG	B-OG, O, B-AF, I-OG, B-LC
-8	정책	I-OG	I-OG	I-OG, O, I-AF, B-OG, I-EV
-9	연구소	I-OG	I-OG	I-OG, O, I-AF, I-EV, B-OG
-10	(	O	O	O, I-OG, I-AF, I-EV, I-CV
-11	E	O	O	O, B-LC, B-PS, B-OG, B-AF
-12	##art	O	O	O, B-LC, B-PS, B-OG, B-AF
-13	##h	O	O	O, B-LC, B-PS, B-OG, I-LC
-14	Poli	O	O	O, B-LC, B-PS, B-OG, I-LC
-15	##c	O	O	O, B-LC, B-PS, B-OG, I-LC
-16	##y	O	O	O, B-LC, B-PS, B-OG, I-LC
-17	Instit	O	O	O, B-LC, B-PS, B-OG, I-LC
-18	##ute	O	O	O, B-LC, I-LC, I-OG, B-PS
-19	·	O	O	O, B-LC, B-OG, B-CV, B-PS
-20	EP	B-OG	B-OG	B-OG, O, B-AF, B-LC, I-OG
-21	##I	I-OG	I-OG	I-OG, O, I-AF, I-LC, I-EV
-22	)	O	O	O, I-OG, I-AF, I-EV, I-CV
-23	'	O	O	O, B-OG, B-LC, B-CV, B-PS
-24	가	O	O	O, B-OG, B-LC, B-PS, B-CV
-25	최근	O	O	O, B-LC, B-DT, B-CV, B-OG
-26	발표	O	O	O, B-CV, B-LC, B-OG, B-TM
-27	##한	O	O	O, B-LC, B-CV, B-PS, B-OG
-28	자료	O	O	O, B-LC, B-CV, B-OG, B-AF
-29	##에	O	O	O, B-CV, B-OG, B-LC, I-AF
-30	따르	O	O	O, B-CV, B-LC, B-OG, B-TM
-31	##면	O	O	O, B-LC, B-OG, B-PS, B-CV
-32	지난해	B-DT	B-DT	B-DT, O, I-DT, B-LC, B-EV
-33	전	O	O	O, B-LC, I-DT, B-PS, B-OG
-34	세계	O	O	O, B-LC, I-LC, B-PS, B-CV
-35	소고기	B-CV	B-CV	B-CV, O, B-AF, B-PT, B-AM
-36	생산량	O	O	O, I-CV, B-LC, B-CV, I-AF
-37	##은	O	O	O, B-LC, B-OG, B-TM, B-CV
-38	630	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-LC
-39	##0	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-40	##만	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-41	##t	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-42	##인	O	O	O, I-QT, B-LC, B-OG, B-PS
-43	데	O	O	O, B-LC, B-TM, B-OG, B-CV
-44	비해	O	O	O, B-LC, B-CV, B-TM, B-OG
-45	양식	O	B-CV	B-CV, O, B-AM, B-LC, B-AF
-46	어	B-AM	I-CV	I-CV, B-CV, O, I-AM, B-AM
-47	##패	I-AM	I-CV	I-CV, O, I-AM, B-CV, I-TM
-48	##류	I-AM	I-CV	I-CV, O, I-AM, I-TM, I-AF
-49	생산량	O	O	O, I-CV, B-CV, B-LC, I-AF
-50	##은	O	O	O, B-LC, B-OG, B-CV, B-TM
-51	660	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-LC
-52	##0	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-53	##만	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-54	##t	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-55	##이	O	O	O, I-QT, B-OG, B-CV, B-LC
-56	##었	O	O	O, B-CV, B-OG, B-LC, B-TM
-57	##다	O	O	O, B-CV, B-LC, B-OG, B-TM
-58	.	O	O	O, B-LC, B-OG, B-PS, B-CV
-59	[SEP]	O	O	O, B-LC, B-OG, B-CV, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	그런데	O	O
+2	소위	O	O
+3	화이트	O	B-CV
+4	##해	O	I-CV
+5	##커	O	I-CV
+6	##만	O	O
+7	있	O	O
+8	##는	O	O
+9	것	O	O
+10	##은	O	O
+11	아니	O	O
+12	##니까	O	O
+13	##요	O	O
+14	.	O	O
+15	[SEP]	O	O

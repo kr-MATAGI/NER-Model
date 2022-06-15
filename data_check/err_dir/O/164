@@ -1,61 +1,84 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	국립	B-AF	B-OG	B-OG, B-AF, B-EV, O, B-LC
-2	##중	I-AF	I-OG	I-OG, I-AF, O, I-EV, I-LC
-3	##앙	I-AF	I-OG	I-OG, I-AF, O, I-EV, I-LC
-4	##박	I-AF	I-OG	I-OG, I-AF, O, I-EV, I-LC
-5	##물	I-AF	I-OG	I-OG, I-AF, O, I-EV, I-LC
-6	##관	I-AF	I-OG	I-OG, I-AF, O, I-EV, I-LC
-7	소장품	O	O	O, I-AF, B-CV, I-OG, I-EV
-8	##뿐	O	O	O, I-AF, I-OG, B-CV, B-TM
-9	##만	O	O	O, B-LC, B-QT, B-PS, B-TM
-10	아니	O	O	O, B-OG, B-AF, B-LC, B-CV
-11	##라	O	O	O, B-OG, B-LC, B-AF, B-CV
-12	국립	B-AF	B-AF	B-AF, B-OG, O, B-LC, B-EV
-13	##고	I-AF	I-AF	I-AF, I-OG, O, I-LC, I-EV
-14	##궁	I-AF	I-AF	I-AF, I-OG, O, I-LC, I-EV
-15	##박	I-AF	I-AF	I-AF, O, I-OG, I-LC, I-EV
-16	##물	I-AF	I-AF	I-AF, O, I-OG, I-LC, I-EV
-17	##관	I-AF	I-AF	I-AF, O, I-OG, I-LC, I-EV
-18	,	O	O	O, I-AF, I-OG, I-EV, I-LC
-19	삼성	B-OG	B-AF	B-AF, B-OG, B-LC, O, B-EV
-20	미술관	O	I-AF	I-AF, O, I-OG, I-EV, I-LC
-21	리	B-OG	O	O, I-AF, B-AF, I-OG, B-LC
-22	##움	I-OG	O	O, I-AF, I-OG, I-LC, I-PS
-23	,	O	O	O, I-AF, I-OG, I-EV, B-CV
-24	호	B-AF	B-AF	B-AF, B-OG, B-LC, O, B-EV
-25	##림	I-AF	I-AF	I-AF, I-OG, O, I-LC, I-EV
-26	##박	I-AF	I-AF	I-AF, I-OG, O, I-LC, I-EV
-27	##물	I-AF	I-AF	I-AF, I-OG, O, I-LC, I-EV
-28	##관	I-AF	I-AF	I-AF, I-OG, O, I-LC, I-EV
-29	,	O	O	O, I-AF, I-OG, I-EV, I-LC
-30	일본	B-LC	B-LC	B-LC, B-OG, O, B-AF, B-EV
-31	도쿄	B-AF	B-AF	B-AF, B-OG, B-LC, I-AF, I-OG
-32	##국	I-AF	I-AF	I-AF, I-OG, I-LC, O, B-AF
-33	##립	I-AF	I-AF	I-AF, I-OG, O, I-LC, I-EV
-34	##박	I-AF	I-AF	I-AF, I-OG, O, I-LC, I-EV
-35	##물	I-AF	I-AF	I-AF, I-OG, O, I-LC, I-EV
-36	##관	I-AF	I-AF	I-AF, I-OG, O, I-LC, I-EV
-37	,	O	O	O, I-AF, I-OG, I-EV, I-LC
-38	이데	B-AF	B-AF	B-AF, B-OG, O, B-LC, B-PS
-39	##미	I-AF	I-AF	I-AF, I-OG, O, I-LC, I-PS
-40	##쓰	I-AF	I-AF	I-AF, I-OG, O, I-LC, I-EV
-41	##미술	I-AF	I-AF	I-AF, I-OG, O, I-LC, I-EV
-42	##관	I-AF	I-AF	I-AF, I-OG, O, I-LC, I-EV
-43	등	O	O	O, I-AF, I-OG, B-CV, I-LC
-44	##이	O	O	O, B-CV, B-PS, B-OG, B-LC
-45	소장	O	O	O, B-CV, B-TM, B-LC, B-AF
-46	##하고	O	O	O, B-CV, B-PS, B-LC, B-TM
-47	있	O	O	O, B-CV, B-TM, B-LC, B-AF
-48	##는	O	O	O, B-CV, B-LC, B-AF, B-TM
-49	청	B-AF	B-AF	B-AF, O, I-AF, B-MT, B-TM
-50	##화	I-AF	I-AF	I-AF, O, I-TM, I-MT, I-FD
-51	##백	I-AF	I-AF	I-AF, O, I-TM, I-CV, I-QT
-52	##자	I-AF	I-AF	I-AF, O, I-TM, I-QT, I-CV
-53	##가	O	O	O, I-AF, I-QT, I-TM, I-EV
-54	한자	O	O	O, B-QT, B-TM, B-LC, B-CV
-55	##리에	O	O	O, I-QT, B-QT, I-EV, B-TM
-56	모였	O	O	O, B-QT, B-CV, B-LC, B-TM
-57	##다	O	O	O, B-CV, B-LC, I-QT, B-OG
-58	.	O	O	O, B-AF, B-LC, B-OG, B-PS
-59	[SEP]	O	O	O, I-AF, B-AF, B-LC, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	이날	B-DT	B-DT
+2	귀국	O	O
+3	후	O	O
+4	일본	B-LC	B-LC
+5	TV	B-TM	B-TM
+6	##에	O	O
+7	출연	O	O
+8	##한	O	O
+9	아베	B-PS	B-PS
+10	총리	B-CV	B-CV
+11	##는	O	O
+12	""""	O	O
+13	정상	O	B-EV
+14	##회	O	I-EV
+15	##담	O	I-EV
+16	##을	O	O
+17	마치	O	O
+18	##고	O	O
+19	청와대	B-AF	B-OG
+20	##를	O	O
+21	나갈	O	O
+22	때	O	O
+23	(	O	O
+24	박	B-PS	B-PS
+25	대통령	B-CV	B-CV
+26	##이	O	O
+27	)	O	O
+28	'	O	O
+29	이제	O	O
+30	어떻게	O	O
+31	하	O	O
+32	##십니까	O	O
+33	'	O	O
+34	라고	O	O
+35	묻	O	O
+36	##자	O	O
+37	'	O	O
+38	밖에	O	O
+39	야	B-CV	B-CV
+40	##키	I-CV	I-CV
+41	##니	I-CV	I-CV
+42	##쿠	I-CV	I-CV
+43	(	O	O
+44	숯불	O	B-CV
+45	##구이	O	I-CV
+46	)	O	O
+47	를	O	O
+48	먹	O	O
+49	##으	O	O
+50	##러	O	O
+51	간다	O	O
+52	'	O	O
+53	고	O	O
+54	했	O	O
+55	##다	O	O
+56	""""	O	O
+57	며	O	O
+58	""""	O	O
+59	보통	O	O
+60	음식점	O	O
+61	##에	O	O
+62	식사	O	O
+63	##하	O	O
+64	##러	O	O
+65	간다는	O	O
+66	얘기	O	O
+67	##에	O	O
+68	(	O	O
+69	박	B-PS	B-PS
+70	대통령	B-CV	B-CV
+71	##이	O	O
+72	)	O	O
+73	조금	O	O
+74	놀라	O	O
+75	##더라	O	O
+76	""""	O	O
+77	고	O	O
+78	말	O	O
+79	##했	O	O
+80	##다	O	O
+81	.	O	O
+82	[SEP]	O	O

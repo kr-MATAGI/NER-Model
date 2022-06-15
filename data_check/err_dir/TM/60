@@ -1,17 +1,11 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	도서관	O	O	O, B-AF, B-OG, I-AF, B-CV
-2	##에	O	O	O, B-CV, I-AF, I-OG, B-PS
-3	들어서	O	O	O, B-CV, B-PS, B-OG, B-TM
-4	##면	O	O	O, B-PS, B-OG, I-AF, I-OG
-5	'	O	O	O, B-PS, B-CV, B-LC, B-TM
-6	마중	O	B-PS	B-PS, O, B-LC, B-AF, B-OG
-7	##이	O	I-PS	I-PS, O, B-PS, I-LC, I-AF
-8	'	O	O	O, I-PS, B-CV, I-AF, I-OG
-9	라는	O	O	O, B-PS, B-LC, B-OG, B-TM
-10	로봇	B-TM	O	O, B-TM, B-CV, B-AM, B-AF
-11	##이	O	O	O, B-PS, I-TM, I-AF, I-PS
-12	인사	O	O	O, B-CV, B-TM, B-AM, B-PS
-13	##한다	O	O	O, B-PS, I-CV, I-AF, B-CV
-14	.	O	O	O, B-PS, B-CV, B-LC, B-TM
-15	[SEP]	O	O	O, B-CV, B-PS, B-TM, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	유행	O	O
+2	##할	O	O
+3	독감	B-TM	B-AM
+4	##바이	B-AM	I-AM
+5	##러스	I-AM	I-AM
+6	##를	O	O
+7	예측	O	O
+8	##해	O	O
+9	[SEP]	O	O

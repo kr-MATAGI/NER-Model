@@ -1,46 +1,61 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	한은	B-OG	B-OG	B-OG, B-PS, B-LC, O, B-AF
-2	##은	O	O	O, I-OG, B-CV, B-OG, I-AF
-3	23	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-4	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-5	외환	O	O	O, B-CV, B-OG, B-LC, B-EV
-6	##보	O	O	O, I-CV, I-OG, B-CV, I-EV
-7	##유	O	O	O, I-CV, I-OG, B-CV, I-EV
-8	##액	O	O	O, I-CV, I-OG, I-LC, I-PS
-9	##을	O	O	O, I-CV, B-CV, I-OG, B-PS
-10	운용	O	O	O, B-CV, B-OG, B-LC, B-PS
-11	##하	O	O	O, B-CV, B-PS, B-OG, B-LC
-12	##는	O	O	O, B-CV, B-OG, B-LC, B-PS
-13	외자	O	O	O, B-CV, B-OG, B-LC, B-AF
-14	##운용	O	O	O, I-CV, I-OG, B-CV, I-AF
-15	##원	O	O	O, I-CV, I-OG, B-CV, I-AF
-16	##을	O	O	O, I-CV, I-OG, B-CV, I-AF
-17	중심	O	O	O, B-CV, B-LC, B-OG, B-TM
-18	##으로	O	O	O, B-PS, B-LC, B-CV, B-OG
-19	신용	O	O	O, B-CV, B-QT, B-LC, B-FD
-20	##등	O	O	O, I-QT, B-QT, I-OG, I-CV
-21	##급	O	O	O, I-QT, I-OG, B-QT, I-CV
-22	##이	O	O	O, B-PS, B-OG, B-LC, B-CV
-23	A	O	B-QT	B-QT, O, I-QT, B-CV, B-TM
-24	이상	O	I-QT	I-QT, O, B-QT, I-OG, I-TM
-25	##인	O	O	O, I-QT, B-PS, B-OG, B-LC
-26	우량	O	O	O, B-CV, B-OG, B-LC, B-FD
-27	해외	O	O	O, B-OG, B-CV, B-LC, I-OG
-28	##기업	O	O	O, I-OG, I-CV, B-CV, B-OG
-29	##이	O	O	O, B-PS, I-OG, B-CV, I-AF
-30	발행	O	O	O, B-CV, B-LC, B-AF, I-AF
-31	##한	O	O	O, B-LC, B-CV, B-PS, B-OG
-32	회사채	O	O	O, B-CV, B-AF, B-FD, B-MT
-33	##로	O	O	O, I-AF, I-CV, B-CV, B-PS
-34	투자	O	O	O, B-CV, B-LC, B-OG, B-TM
-35	##를	O	O	O, B-CV, B-OG, B-LC, B-PS
-36	확대	O	O	O, B-CV, B-LC, B-OG, B-TM
-37	##할	O	O	O, B-OG, B-LC, B-PS, B-CV
-38	계획	O	O	O, B-CV, B-OG, B-TM, B-LC
-39	##이	O	O	O, B-PS, B-OG, B-CV, B-LC
-40	##라고	O	O	O, B-CV, B-OG, I-OG, B-LC
-41	밝혔	O	O	O, B-CV, B-OG, B-LC, B-TM
-42	##다	O	O	O, B-CV, I-OG, B-LC, B-TM
-43	.	O	O	O, B-LC, B-OG, B-CV, B-PS
-44	[SEP]	O	O	O, B-CV, B-LC, B-OG, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	특히	O	O
+2	폴로	B-AF	B-AF
+3	모델	O	O
+4	##을	O	O
+5	베이스	O	O
+6	##로	O	O
+7	한	O	O
+8	신형	O	O
+9	크로스	B-AF	B-AF
+10	##폴	I-AF	I-AF
+11	##로	I-AF	I-AF
+12	##는	O	O
+13	디젤	B-MT	B-TM
+14	엔진	O	I-TM
+15	##의	O	O
+16	경우	O	O
+17	연료	O	O
+18	##소	O	O
+19	##비	O	O
+20	##효	O	O
+21	##율	O	O
+22	##이	O	O
+23	L	O	O
+24	##당	O	O
+25	23	B-QT	B-QT
+26	.	I-QT	I-QT
+27	3	I-QT	I-QT
+28	##k	I-QT	I-QT
+29	##m	I-QT	I-QT
+30	##에	O	O
+31	이르	O	O
+32	##고	O	O
+33	,	O	O
+34	이산화	B-MT	B-MT
+35	##탄소	I-MT	I-MT
+36	배출	O	O
+37	##량	O	O
+38	##은	O	O
+39	km	O	O
+40	##당	O	O
+41	113	B-QT	B-QT
+42	##g	I-QT	I-QT
+43	##으로	O	O
+44	유럽	B-LC	B-LC
+45	환경	O	O
+46	기준	O	O
+47	##인	O	O
+48	‘	O	O
+49	유로	B-CV	B-CV
+50	5	I-CV	B-QT
+51	##기	I-CV	O
+52	##준	I-CV	O
+53	’	O	O
+54	을	O	O
+55	만족	O	O
+56	##시	O	O
+57	##킨다	O	O
+58	.	O	O
+59	[SEP]	O	O

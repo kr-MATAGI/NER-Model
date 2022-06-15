@@ -1,59 +1,36 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	지난	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-2	2011	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-3	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-4	SBS	B-OG	B-OG	B-OG, B-AF, O, I-OG, I-DT
-5	##와	O	O	O, I-OG, B-OG, I-AF, I-DT
-6	서울대	B-OG	B-OG	B-OG, B-AF, B-LC, B-PS, O
-7	사회	O	B-OG	B-OG, I-OG, O, B-AF, I-AF
-8	##발전	O	I-OG	I-OG, O, I-AF, B-OG, I-CV
-9	##연구소	O	I-OG	I-OG, O, I-AF, I-CV, B-OG
-10	##가	O	O	O, I-OG, B-PS, I-AF, B-OG
-11	230	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-EV
-12	##개	I-QT	I-QT	I-QT, O, I-LC, I-OG, I-DT
-13	지자체	O	O	O, B-OG, I-QT, I-OG, B-CV
-14	##의	O	O	O, I-OG, B-PS, B-LC, B-OG
-15	복지	O	O	O, B-CV, B-FD, B-OG, B-LC
-16	·	O	O	O, I-OG, I-CV, B-PS, I-AF
-17	교육	O	O	O, B-CV, B-FD, B-LC, I-OG
-18	·	O	O	O, I-OG, I-CV, B-PS, I-AF
-19	문화	O	O	O, B-CV, B-FD, I-CV, I-OG
-20	인프라	O	O	O, B-CV, I-CV, B-PS, B-LC
-21	##와	O	O	O, B-OG, B-CV, B-PS, B-LC
-22	출산율	O	O	O, B-CV, B-TM, B-LC, B-TR
-23	,	O	O	O, B-CV, B-PS, B-LC, B-OG
-24	범죄	O	O	O, B-CV, B-TM, B-AF, B-LC
-25	##율	O	O	O, I-AF, I-CV, I-TM, I-OG
-26	등	O	O	O, B-CV, B-LC, B-TM, B-OG
-27	80	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-PS
-28	##여	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-DT
-29	항목	I-QT	I-QT	I-QT, O, I-LC, I-TM, I-PS
-30	##을	O	O	O, I-QT, B-CV, B-OG, I-OG
-31	평가	O	O	O, B-CV, B-OG, B-PS, B-QT
-32	##해	O	O	O, B-PS, B-OG, B-LC, B-CV
-33	매	O	O	O, B-CV, B-OG, B-PS, B-QT
-34	##긴	O	O	O, B-OG, B-CV, B-PS, B-LC
-35	'	O	O	O, B-CV, B-LC, B-OG, B-PS
-36	사회	O	O	O, B-TR, B-FD, B-CV, B-AF
-37	##의	O	O	O, I-TR, I-AF, I-CV, I-FD
-38	질	O	O	O, I-TR, I-AF, B-TR, I-CV
-39	(	O	O	O, B-CV, I-AF, I-CV, B-PS
-40	S	O	O	O, B-TR, B-PS, B-AF, B-FD
-41	##Q	O	O	O, I-TR, I-AF, B-TR, I-TM
-42	)	O	O	O, I-AF, I-OG, I-TM, I-CV
-43	'	O	O	O, B-CV, B-OG, B-TM, B-LC
-44	순위	O	O	O, B-CV, B-OG, B-TM, B-PS
-45	##에서	O	O	O, B-CV, B-OG, B-LC, B-PS
-46	##는	O	O	O, B-LC, B-OG, B-CV, B-TM
-47	전국	O	O	O, B-LC, B-OG, B-CV, B-AF
-48	4	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-LC
-49	##위	I-QT	I-QT	I-QT, O, I-LC, I-EV, I-OG
-50	##를	O	O	O, I-QT, I-OG, I-EV, B-CV
-51	기록	O	O	O, B-CV, B-LC, B-OG, B-TM
-52	##하기	O	O	O, B-LC, B-CV, B-OG, B-TM
-53	##도	O	O	O, B-LC, B-CV, I-OG, B-OG
-54	했	O	O	O, B-CV, B-OG, B-LC, B-TM
-55	##다	O	O	O, B-CV, B-LC, B-TM, B-OG
-56	.	O	O	O, B-LC, B-OG, B-CV, B-PS
-57	[SEP]	O	O	O, B-CV, B-LC, B-OG, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	[	O	O
+2	충청	B-LC	B-LC
+3	]	O	O
+4	전	O	O
+5	세계	O	O
+6	어린	O	O
+7	환경	O	O
+8	영웅	B-CV	B-CV
+9	##들	O	O
+10	대전	B-LC	B-LC
+11	온다	O	O
+12	'	O	O
+13	UN	B-EV	B-OG
+14	##E	I-EV	I-OG
+15	##P	I-EV	I-OG
+16	툰	I-EV	I-OG
+17	##자	I-EV	I-OG
+18	환경	I-EV	O
+19	##회의	I-EV	O
+20	'	O	O
+21	오늘	B-DT	B-DT
+22	개막	O	O
+23	;	O	O
+24	미래	O	O
+25	주역	O	B-CV
+26	기후	O	O
+27	##변	O	O
+28	##화	O	O
+29	토의	O	O
+30	결의안	O	O
+31	덴마크	B-LC	B-OG
+32	총회	O	I-OG
+33	제출	O	O
+34	[SEP]	O	O

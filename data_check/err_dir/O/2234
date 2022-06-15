@@ -1,17 +1,16 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, I-EV, B-CV
-1	:	O	O	O, B-OG, B-AF, B-PS, B-TM
-2	:	O	O	O, I-OG, I-AF, I-PS, B-PS
-3	프라이	O	O	O, B-OG, B-PS, B-TR, B-AF
-4	##카	O	I-OG	I-OG, O, I-AF, I-PS, I-TR
-5	##우	O	O	O, I-OG, I-AF, I-PS, I-TR
-6	##프	O	O	O, I-OG, I-AF, I-PS, I-TR
-7	(	O	O	O, I-OG, I-AF, I-PS, I-EV
-8	Fre	O	O	O, B-PS, B-LC, B-OG, B-AF
-9	##ik	O	O	O, I-PS, I-LC, I-OG, I-AF
-10	##au	O	O	O, I-PS, I-LC, I-OG, B-LC
-11	##f	O	O	O, I-PS, I-LC, I-OG, I-AF
-12	)	O	O	O, I-OG, B-LC, I-AF, B-CV
-13	:	O	O	O, B-OG, B-AF, B-PS, B-CV
-14	:	O	O	O, I-AF, I-OG, I-PS, B-PS
-15	[SEP]	O	O	O, I-AF, I-OG, B-LC, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	양평	B-LC	B-LC
+2	두	O	B-LC
+3	##물	O	I-LC
+4	##머리	O	I-LC
+5	등	O	O
+6	사업	O	O
+7	##지	O	O
+8	20	B-QT	B-QT
+9	##여	I-QT	I-QT
+10	##곳	I-QT	I-QT
+11	##서	O	O
+12	졸속	O	O
+13	조사	O	O
+14	[SEP]	O	O

@@ -1,83 +1,86 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-EV, I-OG
-1	다음	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-QT
-2	달	I-DT	I-DT	I-DT, O, B-DT, I-EV, I-QT
-3	중간	B-EV	B-EV	B-EV, O, B-CV, I-EV, B-LC
-4	##선거	I-EV	I-EV	I-EV, O, B-EV, I-OG, I-AF
-5	##에서	O	O	O, I-EV, B-PS, B-CV, I-OG
-6	결선	B-EV	O	O, B-EV, B-LC, I-EV, B-CV
-7	투표	I-EV	O	O, I-EV, B-EV, I-LC, I-QT
-8	##를	O	O	O, I-EV, I-OG, I-AF, B-PS
-9	치르	O	O	O, B-CV, B-PS, B-LC, B-OG
-10	##는	O	O	O, B-PS, B-LC, B-CV, B-OG
-11	혼다	B-PS	B-PS	B-PS, O, I-PS, B-LC, B-OG
-12	의원	B-CV	B-CV	B-CV, O, I-PS, I-CV, B-OG
-13	##은	O	O	O, I-CV, B-CV, I-EV, I-AF
-14	“	O	O	O, B-CV, B-LC, B-PS, B-TM
-15	경쟁	O	O	O, B-CV, B-PS, B-LC, B-OG
-16	상대	O	O	O, B-CV, B-PS, B-LC, B-OG
-17	(	O	O	O, I-CV, B-PS, B-CV, I-OG
-18	같	O	O	O, B-CV, B-PS, B-LC, B-OG
-19	##은	O	O	O, B-PS, B-OG, B-LC, B-CV
-20	민주당	B-OG	B-OG	B-OG, O, B-PS, I-OG, B-LC
-21	##의	O	O	O, I-OG, B-PS, I-PS, I-AF
-22	로	B-PS	B-PS	B-PS, O, I-PS, B-LC, B-OG
-23	카	I-PS	I-PS	I-PS, B-PS, O, B-LC, I-LC
-24	##나	I-PS	I-PS	I-PS, O, B-PS, I-LC, B-LC
-25	후보	B-CV	B-CV	B-CV, O, I-PS, B-AF, I-CV
-26	)	O	O	O, I-CV, B-CV, I-OG, I-AF
-27	는	O	O	O, B-PS, B-CV, B-LC, B-OG
-28	돈	O	O	O, B-PS, B-CV, B-LC, B-TM
-29	많	O	O	O, B-PS, B-CV, I-CV, B-OG
-30	##은	O	O	O, B-PS, B-CV, B-LC, I-PS
-31	공화	B-CV	B-CV	B-CV, O, B-OG, I-CV, B-FD
-32	##당	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-QT
-33	##원	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-QT
-34	##들	O	O	O, I-CV, I-OG, B-PS, I-QT
-35	##로	O	O	O, B-PS, B-CV, B-LC, I-CV
-36	##부터	O	O	O, B-PS, B-CV, B-LC, B-TM
-37	##도	O	O	O, B-PS, B-CV, B-LC, I-CV
-38	후원	O	O	O, B-CV, B-PS, B-LC, B-TM
-39	##을	O	O	O, B-PS, I-CV, B-CV, B-LC
-40	많이	O	O	O, B-PS, B-LC, B-CV, B-TM
-41	받아	O	O	O, B-PS, B-CV, B-LC, B-TM
-42	선거	O	O	O, B-CV, B-EV, B-PS, I-CV
-43	##자	O	O	O, I-CV, I-EV, I-TR, I-PS
-44	##금	O	O	O, I-CV, I-EV, I-PS, I-TR
-45	##에서	O	O	O, B-PS, B-LC, B-CV, I-CV
-46	나	O	O	O, B-PS, B-CV, B-LC, B-OG
-47	##보	O	O	O, B-PS, B-CV, I-PS, I-CV
-48	##다	O	O	O, B-PS, B-CV, B-LC, I-PS
-49	크	O	O	O, B-PS, B-LC, B-CV, B-OG
-50	##게	O	O	O, B-PS, B-LC, I-PS, B-OG
-51	앞서	O	O	O, B-PS, B-CV, B-LC, B-OG
-52	있	O	O	O, B-PS, B-LC, B-CV, B-OG
-53	##다	O	O	O, B-PS, B-CV, B-LC, I-PS
-54	.	O	O	O, B-PS, B-LC, B-CV, B-OG
-55	유권자	B-CV	B-CV	B-CV, O, I-CV, B-PS, B-TM
-56	##들	O	O	O, I-CV, B-PS, B-CV, I-AF
-57	##에	O	O	O, B-PS, B-CV, B-LC, B-TM
-58	##게	O	O	O, B-CV, B-PS, B-LC, B-TM
-59	나	O	O	O, B-PS, B-CV, B-LC, B-OG
-60	##를	O	O	O, B-PS, B-CV, B-LC, I-PS
-61	선택	O	O	O, B-CV, B-PS, B-LC, B-TM
-62	##하	O	O	O, B-PS, B-LC, B-CV, I-PS
-63	##게	O	O	O, B-PS, B-LC, B-CV, B-TM
-64	하	O	O	O, B-PS, B-LC, B-CV, B-OG
-65	##려면	O	O	O, B-PS, B-LC, B-CV, I-PS
-66	더	O	O	O, B-PS, B-LC, B-CV, B-TM
-67	선명	O	O	O, B-PS, B-CV, B-LC, B-TM
-68	##한	O	O	O, B-PS, B-LC, I-PS, B-CV
-69	선거	O	O	O, B-CV, B-EV, B-FD, B-PS
-70	이슈	O	O	O, B-CV, B-PS, I-EV, B-LC
-71	##가	O	O	O, B-PS, B-LC, B-CV, B-OG
-72	있	O	O	O, B-PS, B-CV, B-LC, B-OG
-73	##어야	O	O	O, B-PS, B-CV, B-LC, I-AF
-74	한다	O	O	O, B-CV, B-LC, B-PS, I-AF
-75	”	O	O	O, B-CV, B-TM, B-LC, B-PS
-76	고	O	O	O, B-CV, B-TM, B-LC, B-QT
-77	말	O	O	O, B-CV, B-TM, I-QT, I-CV
-78	##했	O	O	O, B-CV, B-PS, B-LC, I-CV
-79	##다	O	O	O, B-CV, B-LC, B-TM, B-PS
-80	.	O	O	O, B-PS, B-LC, B-CV, B-OG
-81	[SEP]	O	O	O, B-CV, B-PS, B-LC, I-CV
+	text	label	preds
+0	[CLS]	O	O
+1	폭넓	O	O
+2	##은	O	O
+3	언론	O	O
+4	##계	O	O
+5	인맥	O	O
+6	##으로	O	O
+7	오	B-PS	B-PS
+8	시장	B-CV	B-CV
+9	취임	O	O
+10	이후	O	O
+11	대외	O	O
+12	##적	O	O
+13	##으로	O	O
+14	정치	O	O
+15	##적	O	O
+16	'	O	O
+17	입	B-AM	B-AM
+18	'	O	O
+19	역할	O	O
+20	##을	O	O
+21	했	O	O
+22	##던	O	O
+23	이	B-PS	B-PS
+24	전	O	O
+25	공보	B-CV	B-CV
+26	##특	I-CV	I-CV
+27	##보	I-CV	I-CV
+28	##는	O	O
+29	지난	B-DT	B-DT
+30	2006	I-DT	I-DT
+31	##년	I-DT	I-DT
+32	5	B-DT	B-DT
+33	·	I-DT	I-DT
+34	31	I-DT	I-DT
+35	##지방	I-DT	I-DT
+36	##선거	I-DT	I-DT
+37	때	I-DT	I-DT
+38	한나라당	B-EV	B-OG
+39	경선	I-EV	B-EV
+40	상대	O	O
+41	##였	O	O
+42	##던	O	O
+43	맹	B-PS	B-PS
+44	##형	I-PS	I-PS
+45	##규	I-PS	I-PS
+46	의원	B-CV	B-CV
+47	보좌관	B-CV	B-CV
+48	출신	O	O
+49	##이지	O	O
+50	##만	O	O
+51	,	O	O
+52	본선	B-EV	B-EV
+53	##에	O	O
+54	##서	O	O
+55	오세훈	B-PS	B-PS
+56	후보	B-CV	B-CV
+57	비서실	O	O
+58	부실	B-CV	B-CV
+59	##장	I-CV	I-CV
+60	##에	O	O
+61	발탁	O	O
+62	##됐	O	O
+63	##고	O	O
+64	서울시	B-LC	B-OG
+65	##에	O	O
+66	##서는	O	O
+67	부대	B-CV	B-CV
+68	##변	I-CV	I-CV
+69	##인	I-CV	I-CV
+70	,	O	O
+71	정무	B-CV	B-CV
+72	##특	I-CV	I-CV
+73	##보	I-CV	I-CV
+74	,	O	O
+75	공보	B-CV	B-CV
+76	##특	I-CV	I-CV
+77	##보	I-CV	I-CV
+78	등	O	O
+79	##을	O	O
+80	맡	O	O
+81	##았	O	O
+82	##다	O	O
+83	.	O	O
+84	[SEP]	O	O

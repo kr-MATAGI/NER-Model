@@ -1,16 +1,17 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	테리	O	B-PS	B-PS, I-PS, B-OG, O, B-LC
-2	##사	O	I-PS	I-PS, O, I-OG, B-PS, I-LC
-3	메이	O	I-PS	I-PS, B-PS, O, I-OG, B-LC
-4	정부	B-OG	B-OG	B-OG, O, I-PS, I-OG, B-LC
-5	##에	O	O	O, I-OG, I-AF, B-CV, I-EV
-6	대한	O	O	O, B-LC, B-OG, B-PS, B-CV
-7	비판	O	O	O, B-CV, B-TM, B-PS, B-OG
-8	##도	O	O	O, B-CV, B-PS, B-OG, I-OG
-9	커지	O	O	O, B-CV, B-QT, B-PS, B-OG
-10	##고	O	O	O, I-OG, B-PS, I-QT, B-CV
-11	있	O	O	O, B-CV, B-PS, I-OG, I-QT
-12	##다	O	O	O, B-CV, I-OG, I-QT, B-QT
-13	.	O	O	O, B-CV, B-PS, B-OG, B-LC
-14	[SEP]	O	O	O, B-CV, B-OG, B-PS, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	요즘	O	O
+2	교수	B-CV	B-CV
+3	##님	O	O
+4	##께	O	O
+5	##서는	O	O
+6	이제	O	O
+7	방송	O	B-CV
+8	프로듀서	B-CV	I-CV
+9	##도	O	O
+10	하	O	O
+11	##셨	O	O
+12	##기	O	O
+13	때문	O	O
+14	##에	O	O
+15	[SEP]	O	O

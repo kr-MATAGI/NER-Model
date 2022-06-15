@@ -1,42 +1,12 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-AF, I-CV
-1	스티	O	O	O, B-TM, B-AF, B-CV, B-MT
-2	##어링	O	O	O, I-TM, I-AF, B-TM, I-CV
-3	휠	O	O	O, I-TM, I-AF, B-TM, B-AF
-4	##을	O	O	O, I-AF, I-TM, B-CV, B-PS
-5	주차	O	O	O, B-CV, B-AF, B-TM, B-LC
-6	##할	O	O	O, B-LC, B-PS, B-AF, B-TM
-7	방향	O	O	O, B-TM, B-LC, B-CV, B-AF
-8	##으로	O	O	O, B-PS, B-LC, B-TM, B-OG
-9	완전히	O	O	O, B-LC, B-TM, B-OG, B-PS
-10	틀어	O	O	O, B-TM, B-LC, B-OG, B-AF
-11	후진	O	O	O, B-TM, B-LC, B-AF, B-CV
-12	##한	O	O	O, B-LC, B-PS, B-TM, B-AF
-13	뒤	O	O	O, B-TM, B-LC, B-AF, B-AM
-14	내	O	O	O, B-LC, B-TM, B-AF, B-CV
-15	차	O	B-AF	B-AF, O, I-AF, B-OG, B-CV
-16	##의	O	O	O, I-AF, I-OG, B-CV, I-CV
-17	뒤	O	B-TM	B-TM, O, B-AF, B-CV, B-LC
-18	범퍼	O	O	O, I-TM, I-AF, B-AF, B-TM
-19	##가	O	O	O, I-AF, B-PS, B-LC, I-TM
-20	앞	O	O	O, B-TM, B-LC, B-AF, B-AM
-21	차	O	B-AF	B-AF, O, I-AF, B-OG, B-CV
-22	##의	O	O	O, I-AF, I-OG, B-CV, I-CV
-23	범퍼	O	O	O, B-TM, B-AF, B-MT, B-CV
-24	##를	O	O	O, I-AF, B-CV, B-TM, I-TM
-25	지날	O	O	O, B-CV, B-TM, B-LC, B-OG
-26	때	O	O	O, B-CV, B-PS, B-OG, B-TM
-27	##쯤	O	O	O, B-PS, B-LC, I-AF, B-TM
-28	차선	O	O	O, B-TM, B-LC, B-AF, B-CV
-29	##과	O	O	O, I-AF, B-PS, B-OG, B-CV
-30	차량	O	O	O, B-AF, B-TM, B-CV, B-LC
-31	##의	O	O	O, I-AF, B-TM, B-LC, B-PS
-32	각도	O	O	O, B-TM, B-LC, B-QT, B-OG
-33	##가	O	O	O, B-PS, B-OG, B-LC, B-TM
-34	45	B-QT	B-QT	B-QT, I-QT, O, B-LC, B-TI
-35	##도	I-QT	I-QT	I-QT, O, I-LC, I-OG, I-PS
-36	##가	O	O	O, I-QT, I-OG, I-EV, B-PS
-37	되게	O	O	O, B-QT, B-TM, B-CV, I-QT
-38	만든다	O	O	O, B-CV, B-QT, B-LC, I-QT
-39	.	O	O	O, B-LC, B-TM, B-AF, B-CV
-40	[SEP]	O	O	O, B-LC, B-TM, B-CV, B-AF
+	text	label	preds
+0	[CLS]	O	O
+1	일	O	O
+2	##은	O	O
+3	안	O	O
+4	##하	O	O
+5	##는데	O	O
+6	차	O	B-AF
+7	갖	O	O
+8	##고	O	O
+9	다녀	O	O
+10	[SEP]	O	O

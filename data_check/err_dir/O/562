@@ -1,41 +1,58 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	과학	B-FD	B-TM	B-TM, O, B-AF, B-TR, B-QT
-2	##기술	I-FD	I-TM	I-TM, O, B-TM, I-AF, I-QT
-3	##위성	O	I-TM	I-TM, O, B-TM, I-AF, I-QT
-4	3	B-QT	B-QT	B-QT, I-TM, I-QT, I-AF, O
-5	##호	I-QT	I-QT	I-QT, I-TM, O, I-AF, B-QT
-6	##에	O	O	O, I-QT, I-TM, I-AF, I-OG
-7	민간	O	O	O, B-OG, B-CV, B-LC, B-TM
-8	##기업	O	O	O, I-OG, I-CV, B-CV, I-TM
-9	##이	O	O	O, B-PS, I-OG, I-CV, B-CV
-10	운영	O	O	O, B-CV, B-TM, B-LC, B-OG
-11	##하	O	O	O, B-LC, B-CV, B-PS, B-AF
-12	##는	O	O	O, B-CV, B-TM, B-LC, B-AF
-13	통신	O	B-TM	B-TM, O, B-AF, I-TM, B-TR
-14	##위성	O	I-TM	I-TM, O, B-TM, I-AF, I-TR
-15	##까	O	O	O, I-TM, I-AF, I-QT, I-OG
-16	##지	O	O	O, B-QT, B-OG, B-CV, B-PS
-17	포함	O	O	O, B-QT, B-TM, B-OG, B-CV
-18	##하면	O	O	O, B-QT, I-QT, B-PS, B-LC
-19	10	O	B-QT	B-QT, O, I-QT, B-TM, B-PS
-20	##여	O	I-QT	I-QT, O, B-QT, I-TM, I-LC
-21	기가	O	I-QT	I-QT, O, I-TM, B-QT, I-TR
-22	우주	O	O	O, B-LC, I-QT, I-LC, B-OG
-23	##에서	O	O	O, I-LC, B-LC, I-AF, I-QT
-24	매	O	O	O, B-LC, B-PS, B-OG, I-LC
-25	##초	O	O	O, B-LC, I-LC, B-PS, I-DT
-26	우주	O	O	O, B-LC, B-MT, B-AF, I-LC
-27	##쓰	O	O	O, I-LC, I-AF, I-FD, I-PS
-28	##레기	O	O	O, I-LC, I-AF, I-PS, I-MT
-29	##와	O	O	O, B-LC, I-AF, I-LC, B-TM
-30	##의	O	O	O, B-LC, B-TM, B-CV, B-OG
-31	충돌	O	O	O, B-TM, B-LC, B-CV, B-AF
-32	위험	O	O	O, B-LC, B-TM, B-CV, B-OG
-33	##에	O	O	O, B-CV, B-OG, B-TM, B-LC
-34	노출	O	O	O, B-CV, B-LC, B-OG, B-TM
-35	##돼	O	O	O, B-LC, B-OG, B-CV, I-OG
-36	있	O	O	O, B-CV, B-LC, B-OG, B-TM
-37	##다	O	O	O, B-CV, B-TM, B-LC, B-OG
-38	.	O	O	O, B-LC, B-OG, B-TM, B-PS
-39	[SEP]	O	O	O, B-LC, B-TM, B-CV, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	왕복	O	O
+2	3	B-QT	B-QT
+3	,	I-QT	I-QT
+4	4	I-QT	I-QT
+5	##차	I-QT	I-QT
+6	##로	I-QT	I-QT
+7	도로	O	O
+8	##가	O	O
+9	대부분	O	O
+10	##인	O	O
+11	##데	O	O
+12	1	B-QT	B-QT
+13	##차	I-QT	I-QT
+14	##로	I-QT	I-QT
+15	##를	O	O
+16	막	O	O
+17	##으니	O	O
+18	교통	O	O
+19	##체	O	O
+20	##증	O	O
+21	##이	O	O
+22	훨씬	O	O
+23	심해졌	O	O
+24	##다	O	O
+25	”	O	O
+26	며	O	O
+27	“	O	O
+28	더구나	O	O
+29	130	B-QT	B-QT
+30	##파	I-QT	I-QT
+31	##운드	I-QT	I-QT
+32	(	O	O
+33	약	B-QT	B-QT
+34	23	I-QT	I-QT
+35	##만	I-QT	I-QT
+36	원	I-QT	I-QT
+37	)	O	O
+38	에	O	O
+39	이르	O	O
+40	##는	O	O
+41	올림픽	B-EV	B-EV
+42	라인	O	O
+43	위반	O	O
+44	벌금	O	B-CV
+45	##은	O	O
+46	말	O	O
+47	##도	O	O
+48	안	O	O
+49	된다	O	O
+50	”	O	O
+51	고	O	O
+52	말	O	O
+53	##했	O	O
+54	##다	O	O
+55	.	O	O
+56	[SEP]	O	O

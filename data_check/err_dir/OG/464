@@ -1,55 +1,62 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	중국	B-LC	B-LC	B-LC, B-OG, O, B-PS, I-LC
-2	공산당	B-OG	B-OG	B-OG, I-OG, O, B-LC, B-PS
-3	기관지	O	O	O, I-OG, B-OG, B-CV, I-CV
-4	인민	B-OG	B-OG	B-OG, I-OG, O, B-AF, B-LC
-5	##일보	I-OG	I-OG	I-OG, O, I-LC, I-AF, I-PS
-6	##의	O	O	O, I-OG, I-AF, B-PS, I-LC
-7	자매	O	O	O, B-CV, B-OG, B-AF, B-QT
-8	##지	O	O	O, I-CV, I-OG, I-QT, B-CV
-9	환	B-OG	B-OG	B-OG, O, B-AF, B-PS, B-LC
-10	##구	I-OG	I-OG	I-OG, O, I-AF, I-LC, I-PS
-11	##시	I-OG	I-OG	I-OG, O, I-AF, I-LC, I-PS
-12	##보	I-OG	I-OG	I-OG, O, I-AF, I-LC, I-PS
-13	(	O	O	O, I-OG, I-AF, I-CV, I-LC
-14	[UNK]	O	O	O, B-LC, B-PS, B-CV, B-OG
-15	[UNK]	O	O	O, B-LC, B-PS, B-CV, B-OG
-16	時	O	O	O, B-LC, B-CV, B-PS, B-OG
-17	報	O	O	O, B-CV, B-LC, B-PS, B-OG
-18	)	O	O	O, B-CV, B-LC, B-PS, B-OG
-19	는	O	O	O, B-CV, B-LC, B-OG, B-PS
-20	사설	O	O	O, B-CV, B-AF, B-FD, B-TM
-21	##에서	O	O	O, I-CV, I-AF, I-EV, B-CV
-22	""""	O	O	O, B-LC, B-CV, B-PS, B-OG
-23	한	B-OG	B-LC	B-LC, B-OG, O, B-PS, B-EV
-24	·	O	O	O, I-LC, I-OG, B-LC, I-PS
-25	미	B-OG	B-LC	B-LC, B-OG, O, I-LC, I-OG
-26	양국	O	O	O, I-OG, B-OG, I-LC, B-LC
-27	##이	O	O	O, I-OG, B-LC, B-PS, I-LC
-28	전쟁	O	O	O, B-LC, B-CV, B-EV, B-AF
-29	##을	O	O	O, B-PS, B-CV, B-LC, I-EV
-30	원하	O	O	O, B-LC, B-CV, B-PS, B-OG
-31	##는	O	O	O, B-LC, B-PS, B-OG, B-CV
-32	것	O	O	O, B-LC, B-PS, B-OG, B-CV
-33	##이	O	O	O, B-PS, B-LC, B-OG, B-CV
-34	아니	O	O	O, B-LC, B-PS, B-OG, B-CV
-35	##라면	O	O	O, B-LC, B-OG, B-PS, I-OG
-36	중국	B-OG	B-OG	B-OG, B-LC, O, B-PS, I-OG
-37	##이	O	O	O, I-OG, B-PS, I-LC, I-PS
-38	제공	O	O	O, B-LC, B-CV, B-PS, I-OG
-39	##한	O	O	O, B-LC, B-PS, B-OG, B-CV
-40	이번	O	O	O, B-PS, B-LC, B-CV, B-OG
-41	기회	O	O	O, B-PS, B-CV, B-LC, I-DT
-42	##를	O	O	O, B-CV, B-PS, B-LC, B-OG
-43	잡아	O	O	O, B-CV, B-LC, B-OG, B-PS
-44	##야	O	O	O, B-LC, B-CV, B-PS, B-OG
-45	한다	O	O	O, B-LC, B-PS, B-CV, B-OG
-46	""""	O	O	O, B-CV, B-LC, B-PS, B-OG
-47	는	O	O	O, B-CV, B-PS, B-LC, B-OG
-48	주장	O	O	O, B-CV, B-LC, B-TM, B-PS
-49	##을	O	O	O, B-CV, I-CV, B-PS, B-OG
-50	폈	O	O	O, B-CV, B-LC, B-OG, B-TM
-51	##다	O	O	O, B-CV, B-LC, I-OG, I-CV
-52	.	O	O	O, B-LC, B-PS, B-OG, B-CV
-53	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	윤	B-PS	B-PS
+2	##호	I-PS	I-PS
+3	##진	I-PS	I-PS
+4	##은	O	O
+5	남	B-OG	B-OG
+6	##천	I-OG	I-OG
+7	##강	I-OG	I-OG
+8	##무역	I-OG	I-OG
+9	##회사	I-OG	I-OG
+10	##에	O	O
+11	##서	O	O
+12	우라늄	B-MT	B-MT
+13	농축	O	O
+14	프로그램	O	O
+15	##을	O	O
+16	위해	O	O
+17	필요	O	O
+18	##한	O	O
+19	물자	O	O
+20	##를	O	O
+21	수입	O	O
+22	##하	O	O
+23	##는	O	O
+24	책임	O	O
+25	##을	O	O
+26	맡	O	O
+27	##아	O	O
+28	왔으며	O	O
+29	,	O	O
+30	리	B-PS	B-PS
+31	##홍	I-PS	I-PS
+32	##섭	I-PS	I-PS
+33	##은	O	O
+34	전	O	O
+35	영	B-OG	B-LC
+36	##변	I-OG	I-LC
+37	핵	I-OG	B-AF
+38	##연구소	I-OG	O
+39	소장	B-CV	B-CV
+40	##으로	O	O
+41	무기	O	O
+42	##급	O	O
+43	플루토늄	B-MT	B-MT
+44	생산	O	O
+45	##을	O	O
+46	지원	O	O
+47	##하	O	O
+48	##는	O	O
+49	3	B-QT	B-QT
+50	##개	I-QT	I-QT
+51	핵심	O	O
+52	시설	O	O
+53	##을	O	O
+54	관장	O	O
+55	##하	O	O
+56	##고	O	O
+57	있	O	O
+58	##다	O	O
+59	.	O	O
+60	[SEP]	O	O

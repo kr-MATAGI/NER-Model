@@ -1,56 +1,18 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	이	O	O	O, B-OG, B-CV, B-PS, B-LC
-2	##는	O	O	O, B-OG, B-CV, B-LC, B-PS
-3	카카오	B-OG	B-OG	B-OG, B-LC, B-PS, B-AF, O
-4	##가	O	O	O, I-OG, B-CV, I-PS, B-PS
-5	정보	B-FD	B-FD	B-FD, O, I-FD, B-TM, B-TR
-6	##기술	I-FD	I-FD	I-FD, O, B-FD, I-OG, I-TR
-7	(	O	O	O, I-FD, I-OG, I-CV, B-CV
-8	IT	B-FD	B-FD	B-FD, O, I-FD, B-TM, B-TR
-9	)	O	O	O, I-FD, I-OG, I-CV, I-TM
-10	회사	O	O	O, B-OG, B-CV, I-OG, B-PS
-11	##의	O	O	O, I-OG, B-PS, B-CV, B-OG
-12	본업	O	O	O, B-TM, B-CV, B-LC, B-QT
-13	##인	O	O	O, B-CV, B-LC, B-PS, B-TM
-14	모바일	B-TM	B-TM	B-TM, O, B-TR, I-TM, B-LC
-15	,	O	O	O, I-TM, I-OG, B-CV, I-CV
-16	PC	B-TM	B-TM	B-TM, O, I-TM, B-TR, B-LC
-17	광고	O	O	O, I-TM, B-CV, B-TM, I-CV
-18	등	O	O	O, B-LC, B-PS, B-CV, B-TM
-19	본업	O	O	O, B-CV, B-TM, B-LC, B-QT
-20	경쟁력	O	O	O, B-LC, B-CV, B-TM, B-PS
-21	##을	O	O	O, B-CV, B-LC, B-PS, B-TM
-22	확보	O	O	O, B-LC, B-CV, B-TM, B-OG
-23	##하	O	O	O, B-LC, B-PS, B-CV, B-OG
-24	##지	O	O	O, B-LC, B-PS, B-CV, B-TM
-25	못한	O	O	O, B-LC, B-CV, B-PS, B-TM
-26	채	O	O	O, B-LC, B-TM, B-PS, B-CV
-27	O	O	B-TM	B-TM, O, B-QT, I-TM, B-TR
-28	##2	O	I-TM	I-TM, O, I-QT, I-OG, I-TR
-29	##O	O	I-TM	I-TM, O, I-QT, I-OG, I-TR
-30	(	O	O	O, I-TM, I-QT, I-OG, I-CV
-31	온라인	O	O	O, B-TM, B-LC, I-TM, B-QT
-32	##과	O	O	O, I-TM, B-LC, B-TM, B-PS
-33	오프라인	O	O	O, B-TM, B-LC, I-TM, B-QT
-34	##의	O	O	O, I-TM, B-TM, B-LC, I-LC
-35	연계	O	O	O, B-TM, I-TM, B-LC, B-QT
-36	)	O	O	O, B-CV, I-TM, B-LC, B-PS
-37	같	O	O	O, B-LC, B-TM, B-CV, B-PS
-38	##은	O	O	O, B-LC, B-TM, B-CV, B-PS
-39	신사업	O	O	O, B-TM, B-CV, B-LC, B-TR
-40	##에	O	O	O, B-PS, B-CV, B-LC, I-TM
-41	집중	O	O	O, B-LC, B-CV, B-PS, B-TM
-42	##하고	O	O	O, B-PS, B-LC, B-CV, B-OG
-43	있	O	O	O, B-PS, B-CV, B-LC, B-OG
-44	##다는	O	O	O, B-PS, B-LC, B-CV, B-OG
-45	시장	O	O	O, B-CV, B-OG, B-PS, B-LC
-46	##의	O	O	O, I-CV, B-CV, B-PS, I-OG
-47	비판	O	O	O, B-CV, B-PS, B-OG, B-LC
-48	##을	O	O	O, B-CV, I-CV, B-PS, B-OG
-49	의식	O	O	O, B-CV, B-PS, B-LC, B-OG
-50	##한	O	O	O, B-PS, B-LC, B-OG, B-CV
-51	조치	O	O	O, B-CV, B-PS, B-OG, B-LC
-52	##다	O	O	O, B-CV, B-OG, B-PS, I-OG
-53	.	O	O	O, B-LC, B-CV, B-TM, B-PS
-54	[SEP]	O	O	O, B-CV, B-LC, B-TM, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	그러나	O	O
+2	유로	O	B-CV
+3	##시스	O	O
+4	##템	O	O
+5	##의	O	O
+6	붕괴	O	O
+7	##와	O	O
+8	같	O	O
+9	##은	O	O
+10	그러	O	O
+11	##한	O	O
+12	최악	O	O
+13	상황	O	O
+14	##은	O	O
+15	어	O	O
+16	[SEP]	O	O

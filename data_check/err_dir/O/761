@@ -1,8 +1,36 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-AF
-1	장	O	B-TM	B-TM, O, B-AM, B-CV, B-TR
-2	맛	O	O	O, I-TM, I-CV, I-AF, I-TR
-3	##이	O	O	O, B-CV, B-PS, B-OG, I-AF
-4	좀	O	O	O, B-CV, B-QT, B-TM, B-LC
-5	더	O	O	O, B-QT, B-PS, B-LC, B-OG
-6	[SEP]	O	O	O, B-CV, I-AF, B-LC, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	KT	B-OG	B-OG
+2	&	I-OG	I-OG
+3	G	I-OG	I-OG
+4	##의	O	O
+5	비자	O	O
+6	##금	O	O
+7	조성	O	O
+8	의혹	O	O
+9	##을	O	O
+10	규명	O	O
+11	##하	O	O
+12	##는	O	O
+13	과정	O	O
+14	##에	O	O
+15	##서	O	O
+16	불거진	O	O
+17	이번	O	O
+18	수사	O	O
+19	##에	O	O
+20	##서	O	O
+21	KGC	B-OG	B-OG
+22	##인	I-OG	I-OG
+23	##삼	I-OG	I-OG
+24	##공사	I-OG	I-OG
+25	경영진	O	B-CV
+26	##의	O	O
+27	비리	O	O
+28	##가	O	O
+29	드러난	O	O
+30	건	O	O
+31	처음	O	O
+32	##이다	O	O
+33	.	O	O
+34	[SEP]	O	O

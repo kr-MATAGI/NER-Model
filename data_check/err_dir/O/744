@@ -1,15 +1,16 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	이	O	O	O, B-PS, B-CV, B-OG, B-LC
-2	~	O	O	O, B-CV, B-PS, B-LC, I-QT
-3	입시	O	B-TR	B-TR, O, I-TR, B-PS, B-FD
-4	##주의	O	I-TR	I-TR, O, B-TR, I-FD, I-PS
-5	##에	O	O	O, I-TR, I-EV, I-QT, I-AF
-6	교육	O	O	O, B-FD, B-CV, B-LC, B-TM
-7	##에서	O	O	O, B-CV, I-CV, B-PS, B-LC
-8	이게	O	O	O, B-CV, B-PS, B-LC, B-QT
-9	파생	O	O	O, B-CV, B-TM, B-QT, B-LC
-10	##되	O	O	O, B-CV, B-PS, B-LC, B-QT
-11	##는	O	O	O, B-CV, B-LC, B-OG, B-PS
-12	문제	O	O	O, B-CV, B-QT, B-FD, B-TM
-13	[SEP]	O	O	O, B-CV, B-LC, B-FD, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	그리고	O	O
+2	한시	O	B-TI
+3	##간	O	I-TI
+4	##마	O	I-TI
+5	##다	O	I-TI
+6	체크	O	O
+7	##를	O	O
+8	해서	O	O
+9	그걸	O	O
+10	다	O	O
+11	빼	O	O
+12	##고	O	O
+13	.	O	O
+14	[SEP]	O	O

@@ -1,36 +1,22 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	폰	O	B-OG	B-OG, O, B-PS, B-LC, I-OG
-2	##테	O	I-OG	I-OG, O, I-LC, B-OG, I-PS
-3	##라	O	I-OG	I-OG, O, I-LC, I-PS, I-CV
-4	##와	O	O	O, I-OG, I-PS, I-AF, B-OG
-5	제스	O	B-OG	B-OG, I-OG, O, B-PS, B-LC
-6	##프리	O	I-OG	I-OG, O, I-LC, I-PS, I-AF
-7	##가	O	O	O, I-OG, I-AF, I-QT, B-PS
-8	농가	O	O	O, B-CV, B-TM, B-LC, B-AM
-9	##소득	O	O	O, I-CV, I-LC, I-TM, I-TR
-10	##을	O	O	O, B-CV, I-CV, B-PS, I-AF
-11	잘	O	O	O, B-CV, B-LC, B-OG, B-TM
-12	보장	O	O	O, B-CV, B-LC, B-TM, B-PS
-13	##할	O	O	O, B-PS, B-LC, B-OG, B-CV
-14	수	O	O	O, B-PS, B-CV, B-LC, B-OG
-15	있	O	O	O, B-LC, B-CV, B-PS, B-OG
-16	##도록	O	O	O, B-LC, B-OG, B-PS, B-TM
-17	뉴질랜드	B-LC	B-LC	B-LC, O, B-OG, B-PS, B-AF
-18	정부	B-OG	B-OG	B-OG, O, I-OG, B-CV, B-AF
-19	##는	O	O	O, I-OG, B-CV, I-AF, I-CV
-20	수출	O	O	O, B-CV, B-TM, B-LC, B-AM
-21	##독	O	O	O, I-CV, B-CV, I-TM, I-LC
-22	##점	O	O	O, I-CV, B-CV, I-TM, I-AM
-23	##권	O	O	O, I-CV, B-CV, I-TM, I-LC
-24	##이	O	O	O, I-CV, B-PS, B-CV, B-LC
-25	##란	O	O	O, B-LC, B-PS, B-QT, B-CV
-26	큰	O	O	O, B-CV, B-QT, B-TM, B-LC
-27	힘	O	O	O, B-CV, B-TM, B-QT, B-LC
-28	##을	O	O	O, B-CV, B-PS, B-OG, I-QT
-29	보태	O	O	O, B-CV, B-QT, B-TM, B-PS
-30	##주	O	O	O, B-CV, I-QT, B-PS, I-CV
-31	##었	O	O	O, B-CV, B-LC, B-OG, B-PS
-32	##다	O	O	O, B-CV, I-OG, B-TM, B-LC
-33	.	O	O	O, B-LC, B-OG, B-PS, I-OG
-34	[SEP]	O	O	O, B-LC, I-OG, B-CV, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	주인공	B-CV	B-CV
+2	##은	O	O
+3	준수	O	O
+4	##한	O	O
+5	외모	O	O
+6	##와	O	O
+7	실력	O	O
+8	##을	O	O
+9	갖춘	O	O
+10	지바	O	B-OG
+11	롯데	B-OG	I-OG
+12	##의	O	O
+13	투수	B-CV	B-CV
+14	이대	B-PS	B-PS
+15	##은	I-PS	I-PS
+16	(	O	O
+17	26	B-QT	B-QT
+18	)	O	O
+19	.	O	O
+20	[SEP]	O	O

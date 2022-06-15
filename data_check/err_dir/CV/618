@@ -1,48 +1,32 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-EV, I-CV
-1	FP	B-OG	B-OG	B-OG, O, B-AF, I-OG, B-CV
-2	##는	O	O	O, I-OG, I-AF, I-EV, I-CV
-3	""""	O	O	O, B-CV, B-LC, B-OG, B-PS
-4	납치	B-CV	O	O, B-CV, B-AF, B-EV, B-LC
-5	준비	O	O	O, I-CV, I-EV, B-CV, I-AF
-6	당시	O	O	O, B-CV, B-LC, B-OG, B-PS
-7	교통	O	O	O, B-TM, B-AF, B-CV, B-LC
-8	감시	B-TM	O	O, I-TM, B-TM, I-AF, B-CV
-9	카메라	I-TM	B-TM	B-TM, I-TM, O, B-AF, B-CV
-10	##에	O	O	O, I-TM, I-AF, I-OG, I-QT
-11	CIA	B-OG	B-OG	B-OG, B-AF, O, B-EV, B-LC
-12	승합차	B-AF	B-AF	B-AF, I-AF, O, I-OG, B-CV
-13	##가	O	O	O, I-AF, I-OG, B-PS, I-EV
-14	뚜렷이	O	O	O, B-TM, B-LC, B-QT, B-OG
-15	찍히	O	O	O, B-LC, B-CV, B-PS, B-OG
-16	##기	O	O	O, B-LC, B-PS, B-OG, B-CV
-17	##도	O	O	O, B-LC, B-CV, B-PS, I-QT
-18	했	O	O	O, B-LC, B-OG, B-CV, B-PS
-19	##다	O	O	O, B-CV, B-LC, B-OG, I-OG
-20	""""	O	O	O, B-CV, B-LC, B-OG, B-TM
-21	며	O	O	O, B-OG, B-LC, B-CV, B-DT
-22	""""	O	O	O, B-CV, B-LC, B-OG, B-PS
-23	당시	O	O	O, B-CV, B-OG, B-LC, B-PS
-24	CIA	B-OG	B-OG	B-OG, O, B-AF, B-EV, B-LC
-25	##의	O	O	O, I-OG, I-EV, I-AF, B-PS
-26	밀라노	B-LC	B-LC	B-LC, O, B-OG, B-AF, B-PS
-27	지	B-CV	B-CV	B-CV, O, I-CV, B-AF, B-OG
-28	##국장	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-AF
-29	등	O	O	O, I-CV, B-CV, B-PS, I-EV
-30	22	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-PS
-31	##명	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-32	##이	O	O	O, I-QT, B-PS, B-CV, B-LC
-33	기소	O	O	O, B-CV, B-OG, B-LC, I-CV
-34	##돼	O	O	O, B-PS, I-CV, B-CV, B-LC
-35	유죄	O	O	O, B-CV, B-PS, B-LC, B-OG
-36	선고	O	O	O, I-CV, B-CV, B-PS, I-OG
-37	##를	O	O	O, B-CV, I-CV, B-PS, B-OG
-38	받	O	O	O, B-CV, B-PS, B-LC, B-OG
-39	##았	O	O	O, B-CV, B-PS, B-LC, B-OG
-40	##다	O	O	O, B-CV, B-LC, B-PS, I-OG
-41	""""	O	O	O, B-CV, B-LC, B-TM, B-OG
-42	고	O	O	O, B-CV, B-OG, B-QT, B-TM
-43	전했	O	O	O, B-OG, B-CV, B-QT, B-LC
-44	##다	O	O	O, B-CV, I-OG, I-QT, B-OG
-45	.	O	O	O, B-CV, B-LC, B-PS, B-OG
-46	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	후보	B-CV	O
+2	##군	O	O
+3	##의	O	O
+4	지원서	O	O
+5	##만	O	O
+6	제출	O	O
+7	##된	O	O
+8	상태	O	O
+9	##에	O	O
+10	##서	O	O
+11	가운	O	B-CV
+12	##을	O	O
+13	입	O	O
+14	##은	O	O
+15	의사	B-CV	B-CV
+16	##들이	O	O
+17	이례	O	O
+18	##적	O	O
+19	##으로	O	O
+20	길거리	O	O
+21	##로	O	O
+22	몰려	O	O
+23	나온	O	O
+24	이유	O	O
+25	##는	O	O
+26	무엇	O	O
+27	##일	O	O
+28	##까	O	O
+29	?	O	O
+30	[SEP]	O	O

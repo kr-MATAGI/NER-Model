@@ -1,14 +1,29 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	진입	O	O	O, B-CV, B-TM, I-AF, I-OG
-2	##하기	O	O	O, B-LC, B-CV, B-PS, B-TM
-3	##는	O	O	O, B-CV, B-LC, B-OG, B-TM
-4	여유	O	O	O, B-LC, B-CV, B-TM, B-AF
-5	##가	O	O	O, I-AF, B-PS, I-OG, B-LC
-6	있	O	O	O, B-CV, I-AF, B-LC, B-PS
-7	##지만	O	O	O, B-CV, I-AF, B-LC, B-PS
-8	신	O	B-LC	B-LC, O, B-AF, B-PS, B-OG
-9	##x	O	O	O, I-LC, I-AF, I-OG, B-LC
-10	나들목	O	I-LC	I-LC, O, I-AF, B-LC, I-TM
-11	##에서	O	O	O, I-AF, I-LC, I-OG, I-CV
-12	[SEP]	O	O	O, B-CV, B-LC, I-AF, I-LC
+	text	label	preds
+0	[CLS]	O	O
+1	그	O	O
+2	여행사	O	O
+3	##에	O	O
+4	##서	O	O
+5	이제	O	O
+6	팀장	O	B-CV
+7	##급	O	O
+8	##들	O	O
+9	##로	O	O
+10	해	O	O
+11	가지	O	O
+12	##고	O	O
+13	이제	O	O
+14	그	O	O
+15	항공사	O	O
+16	직원	B-CV	B-CV
+17	##하	O	O
+18	##고	O	O
+19	시모	O	O
+20	##사	O	O
+21	직원	B-CV	B-CV
+22	##하	O	O
+23	##고	O	O
+24	해	O	O
+25	가지	O	O
+26	##고	O	O
+27	[SEP]	O	O

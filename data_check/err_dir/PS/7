@@ -1,20 +1,44 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	본인	O	O	O, B-CV, B-PS, B-OG, B-TM
-2	스스로	O	O	O, B-PS, B-CV, B-QT, B-LC
-3	‘	O	O	O, B-CV, B-LC, B-AF, B-OG
-4	양희	B-PS	B-AF	B-AF, B-PS, B-LC, B-EV, O
-5	##은	I-PS	I-AF	I-AF, I-PS, O, I-LC, I-EV
-6	’	O	O	O, I-AF, I-PS, I-EV, B-CV
-7	을	O	O	O, B-CV, I-AF, B-LC, B-PS
-8	해석	O	O	O, B-CV, B-PS, B-FD, B-QT
-9	##하	O	O	O, B-PS, B-CV, B-LC, I-PS
-10	##는데	O	O	O, B-CV, B-PS, B-LC, B-OG
-11	,	O	O	O, B-CV, B-OG, B-LC, B-PS
-12	그게	O	O	O, B-CV, B-PS, B-LC, B-OG
-13	다	O	O	O, B-PS, B-CV, B-OG, B-LC
-14	훌륭	O	O	O, B-CV, B-PS, B-FD, B-LC
-15	##했	O	O	O, B-CV, I-CV, B-PS, I-OG
-16	##다	O	O	O, B-CV, I-CV, I-OG, B-OG
-17	.	O	O	O, B-CV, B-PS, B-LC, B-OG
-18	[SEP]	O	O	O, B-CV, B-PS, B-FD, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	대한제국	B-LC	B-LC
+2	초대	B-QT	O
+3	황제	B-CV	B-CV
+4	##인	O	O
+5	고종	B-PS	B-PS
+6	##의	O	O
+7	손녀	B-CV	B-CV
+8	(	O	O
+9	옹	B-PS	B-CV
+10	##주	I-PS	I-CV
+11	)	O	O
+12	이해	B-PS	B-PS
+13	##원	I-PS	I-PS
+14	(	O	O
+15	98	B-QT	B-QT
+16	)	O	O
+17	씨	O	O
+18	##가	O	O
+19	과거	O	O
+20	남편	B-CV	B-CV
+21	##이	O	O
+22	가지	O	O
+23	##고	O	O
+24	있	O	O
+25	##었	O	O
+26	##던	O	O
+27	땅	O	O
+28	##의	O	O
+29	보상금	O	O
+30	##을	O	O
+31	돌려	O	O
+32	달라	O	O
+33	##며	O	O
+34	소송	O	O
+35	##을	O	O
+36	냈	O	O
+37	##다가	O	O
+38	패소	O	O
+39	##했	O	O
+40	##다	O	O
+41	.	O	O
+42	[SEP]	O	O

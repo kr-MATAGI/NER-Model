@@ -1,21 +1,54 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	하지만	O	O	O, B-CV, B-OG, B-TM, B-AF
-2	포	B-TM	B-TM	B-TM, O, B-CV, B-AF, B-OG
-3	##백	I-TM	I-TM	I-TM, O, I-CV, I-AF, I-OG
-4	##을	O	O	O, I-TM, I-OG, I-AF, I-CV
-5	구성	O	O	O, B-CV, B-QT, B-PS, B-TM
-6	##하	O	O	O, B-PS, B-CV, B-LC, B-QT
-7	##는	O	O	O, B-CV, B-PS, B-QT, B-TM
-8	선발	O	B-CV	B-CV, O, I-CV, B-TM, B-QT
-9	선수	B-CV	I-CV	I-CV, B-CV, O, I-QT, B-QT
-10	##들	O	O	O, I-CV, I-QT, B-CV, I-AF
-11	##의	O	O	O, B-CV, B-PS, B-TM, B-OG
-12	얼굴	B-AM	B-AM	B-AM, O, B-TR, B-TM, B-PS
-13	##이	O	O	O, B-PS, I-QT, I-AF, I-PS
-14	매번	O	O	O, B-QT, B-PS, B-DT, B-TM
-15	바뀌	O	O	O, B-CV, I-QT, B-PS, B-TM
-16	##었	O	O	O, B-CV, B-PS, I-AF, I-OG
-17	##다	O	O	O, B-CV, I-OG, B-TM, I-AF
-18	.	O	O	O, B-PS, B-CV, B-LC, B-OG
-19	[SEP]	O	O	O, B-CV, B-PS, I-AF, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	토트	O	B-OG
+2	##를	O	O
+3	운영	O	O
+4	##하	O	O
+5	##는	O	O
+6	오디션	B-OG	B-OG
+7	##월드	I-OG	I-OG
+8	##네트	I-OG	I-OG
+9	##워크	I-OG	I-OG
+10	##는	O	O
+11	“	O	O
+12	연예인	B-CV	B-CV
+13	지망	O	O
+14	##생	O	O
+15	##의	O	O
+16	재능	O	O
+17	##을	O	O
+18	체계	O	O
+19	##적	O	O
+20	##으로	O	O
+21	분석	O	O
+22	##해	O	O
+23	##주	O	O
+24	##는	O	O
+25	시스템	O	O
+26	##이	O	O
+27	부족	O	O
+28	##해	O	O
+29	진로	O	O
+30	결정	O	O
+31	##을	O	O
+32	고민	O	O
+33	##하	O	O
+34	##는	O	O
+35	이	O	O
+36	##들이	O	O
+37	많	O	O
+38	##은	O	O
+39	##데	O	O
+40	,	O	O
+41	토트	O	B-OG
+42	##가	O	O
+43	도움	O	O
+44	##이	O	O
+45	될	O	O
+46	것	O	O
+47	”	O	O
+48	이라	O	O
+49	주장	O	O
+50	##합니다	O	O
+51	.	O	O
+52	[SEP]	O	O

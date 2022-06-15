@@ -1,51 +1,46 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-QT
-1	또	O	O	O, B-CV, B-OG, B-LC, B-QT
-2	'	O	O	O, B-LC, B-CV, B-OG, B-PS
-3	정부	O	B-OG	B-OG, O, B-CV, B-AF, B-LC
-4	대표	B-CV	B-CV	B-CV, O, I-CV, I-OG, I-EV
-5	및	O	O	O, I-CV, B-CV, I-OG, B-PS
-6	특별	O	O	O, B-CV, I-CV, B-QT, B-OG
-7	##사	O	O	O, I-CV, B-CV, I-OG, I-QT
-8	##절	O	O	O, I-CV, B-CV, I-OG, I-QT
-9	##의	O	O	O, I-CV, B-CV, I-OG, B-PS
-10	임명	O	O	O, I-CV, B-CV, B-PS, I-OG
-11	##과	O	O	O, I-CV, B-CV, B-PS, I-OG
-12	권한	O	O	O, B-CV, I-CV, I-OG, B-PS
-13	##에	O	O	O, I-CV, B-CV, I-OG, B-PS
-14	관한	O	O	O, I-CV, B-CV, I-OG, I-PS
-15	법률	O	O	O, B-CV, I-CV, B-FD, B-PS
-16	'	O	O	O, I-CV, B-PS, B-CV, B-OG
-17	도	O	O	O, B-LC, B-PS, B-OG, B-CV
-18	개정	O	O	O, B-CV, B-OG, B-LC, B-PS
-19	##돼	O	O	O, B-LC, B-PS, B-OG, I-OG
-20	통상	O	O	O, B-CV, B-EV, B-LC, B-FD
-21	##교섭	O	O	O, I-CV, I-EV, I-LC, I-OG
-22	##과	O	O	O, B-PS, B-LC, I-OG, I-CV
-23	관련	O	O	O, B-LC, B-PS, B-OG, B-CV
-24	##된	O	O	O, B-LC, B-PS, B-OG, B-CV
-25	정부	B-OG	B-OG	B-OG, O, B-AF, B-LC, B-CV
-26	대표	B-CV	B-CV	B-CV, O, I-CV, I-OG, I-EV
-27	##의	O	O	O, I-CV, I-OG, B-CV, I-EV
-28	임명	O	O	O, B-CV, B-PS, B-TM, B-LC
-29	및	O	O	O, B-LC, B-PS, B-OG, B-TM
-30	정부	B-OG	B-OG	B-OG, O, B-AF, B-LC, B-CV
-31	##의	O	O	O, I-OG, B-CV, I-CV, B-PS
-32	지휘	O	O	O, B-CV, I-CV, B-TR, B-TM
-33	·	O	O	O, I-CV, B-CV, I-QT, I-OG
-34	감독	O	O	O, I-CV, B-CV, I-QT, I-TR
-35	권한	O	O	O, I-CV, B-CV, B-QT, B-PS
-36	##의	O	O	O, B-PS, I-CV, B-LC, B-OG
-37	일부	O	O	O, B-QT, I-QT, B-CV, B-LC
-38	##가	O	O	O, I-QT, B-PS, B-LC, B-OG
-39	산업	O	B-OG	B-OG, O, B-AF, B-LC, B-CV
-40	##통	O	I-OG	I-OG, O, B-OG, I-CV, I-LC
-41	##상	O	I-OG	I-OG, O, B-OG, I-CV, I-LC
-42	##자원	O	I-OG	I-OG, O, B-OG, I-CV, I-LC
-43	##부	O	I-OG	I-OG, O, I-CV, I-LC, I-AF
-44	##로	O	O	O, I-OG, I-QT, I-AF, I-EV
-45	이관	O	O	O, B-CV, B-OG, B-TM, B-PS
-46	##된	O	O	O, I-OG, B-PS, B-LC, B-OG
-47	##다	O	O	O, B-CV, B-LC, B-OG, I-OG
-48	.	O	O	O, B-LC, B-OG, B-PS, B-CV
-49	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	그	O	O
+2	##는	O	O
+3	또	O	O
+4	“	O	O
+5	(	O	O
+6	기존	O	O
+7	기능	B-CV	O
+8	##인	I-CV	O
+9	)	O	O
+10	행정	O	O
+11	##심판	O	O
+12	기능	O	O
+13	##은	O	O
+14	권익	O	B-OG
+15	##위	O	I-OG
+16	조직	O	O
+17	##과	O	O
+18	함께	O	O
+19	##하	O	O
+20	##긴	O	O
+21	어렵	O	O
+22	##지	O	O
+23	않	O	O
+24	##나	O	O
+25	생각	O	O
+26	##한다	O	O
+27	”	O	O
+28	며	O	O
+29	권익	O	B-OG
+30	##위	O	I-OG
+31	##가	O	O
+32	행정	O	O
+33	##심판	O	O
+34	기능	O	O
+35	##을	O	O
+36	내놓	O	O
+37	##겠다	O	O
+38	##는	O	O
+39	의지	O	O
+40	##를	O	O
+41	드러냈	O	O
+42	##다	O	O
+43	.	O	O
+44	[SEP]	O	O

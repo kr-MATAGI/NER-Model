@@ -1,21 +1,24 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, B-CV, I-OG, I-EV
-1	우리	O	O	O, B-CV, B-OG, B-PS, B-LC
-2	이제	O	O	O, B-CV, B-OG, B-PS, B-TM
-3	교원	O	B-CV	B-CV, O, B-OG, I-CV, B-QT
-4	##에서	O	O	O, I-CV, I-OG, I-QT, B-CV
-5	하	O	O	O, B-CV, B-TM, B-PS, B-QT
-6	##던	O	O	O, B-CV, B-PS, B-OG, B-LC
-7	그	O	O	O, B-CV, B-OG, B-PS, B-TM
-8	검사	B-CV	B-CV	B-CV, O, I-CV, B-FD, B-OG
-9	##도	O	O	O, I-CV, I-OG, B-CV, I-EV
-10	해	O	O	O, B-CV, B-QT, B-TM, B-OG
-11	보	O	O	O, B-CV, B-PS, B-OG, B-LC
-12	##면	O	O	O, B-PS, B-OG, B-CV, I-OG
-13	##은	O	O	O, B-CV, B-OG, B-PS, B-LC
-14	그런	O	O	O, B-CV, B-OG, B-TM, B-LC
-15	게	O	O	O, B-CV, B-PS, B-OG, B-LC
-16	나오	O	O	O, B-CV, B-OG, B-PS, B-TM
-17	##더라	O	O	O, B-CV, B-PS, I-CV, I-OG
-18	##고	O	O	O, I-OG, I-CV, I-AF, B-CV
-19	[SEP]	O	O	O, B-CV, B-LC, I-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	국내	O	O
+2	팬	B-CV	B-CV
+3	##들	O	O
+4	##은	O	O
+5	‘	O	O
+6	살인	O	B-CV
+7	태클	B-TM	O
+8	’	O	O
+9	이라	O	O
+10	##며	O	O
+11	코	B-PS	B-PS
+12	##글	I-PS	I-PS
+13	##린	I-PS	I-PS
+14	##에	O	O
+15	##게	O	O
+16	비난	O	O
+17	##을	O	O
+18	쏟아	O	O
+19	##냈	O	O
+20	##다	O	O
+21	.	O	O
+22	[SEP]	O	O

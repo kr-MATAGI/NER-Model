@@ -1,19 +1,14 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	동	O	B-AM	B-AM, O, B-TM, B-CV, B-PT
-2	##공	O	I-AM	I-AM, O, I-PT, I-TM, I-CV
-3	##들	O	O	O, I-CV, I-TM, I-AF, I-AM
-4	##을	O	O	O, B-CV, B-TM, B-LC, I-AF
-5	발견	O	O	O, B-CV, B-TM, B-QT, B-LC
-6	못했	O	O	O, B-CV, B-PS, B-LC, B-TM
-7	##다면	O	O	O, B-TM, B-CV, B-LC, B-OG
-8	엄청난	O	O	O, B-CV, B-TM, B-LC, B-OG
-9	재난	O	O	O, B-EV, B-CV, B-TM, I-EV
-10	##이	O	O	O, B-PS, B-CV, B-OG, I-EV
-11	발생	O	O	O, B-CV, B-TM, B-OG, I-EV
-12	##했	O	O	O, B-CV, B-LC, B-PS, I-OG
-13	##을	O	O	O, B-CV, B-TM, B-PS, B-LC
-14	것	O	O	O, B-CV, B-TM, B-PS, B-OG
-15	##이다	O	O	O, B-CV, B-TM, I-AF, I-CV
-16	.	O	O	O, B-CV, B-LC, B-TM, B-PS
-17	[SEP]	O	O	O, B-CV, B-TM, I-EV, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	○	O	O
+2	“	O	O
+3	이순신	B-PS	B-PS
+4	장군	B-CV	B-CV
+5	모자	O	B-CV
+6	##가	O	O
+7	보이	O	O
+8	##면	O	O
+9	타이어	O	O
+10	교체	O	O
+11	”	O	O
+12	[SEP]	O	O

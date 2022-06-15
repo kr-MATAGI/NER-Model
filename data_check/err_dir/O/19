@@ -1,32 +1,68 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-EV, I-OG
-1	전문가	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-TM
-2	##들	O	O	O, I-CV, I-OG, B-CV, I-AF
-3	##은	O	O	O, B-CV, B-TM, B-PS, B-LC
-4	꼼꼼히	O	O	O, B-CV, B-PS, B-LC, B-OG
-5	관리	O	O	O, B-CV, B-LC, B-PS, B-TM
-6	##할	O	O	O, B-PS, B-LC, B-CV, B-TM
-7	인재	O	O	O, B-CV, B-PS, B-TM, I-CV
-8	##가	O	O	O, B-PS, B-CV, I-CV, B-LC
-9	없	O	O	O, B-CV, B-PS, B-TM, B-LC
-10	##는	O	O	O, B-CV, B-PS, B-TM, I-CV
-11	상태	O	O	O, B-CV, B-LC, B-TM, B-PS
-12	##에서	O	O	O, B-CV, B-PS, B-LC, B-OG
-13	진행	O	O	O, B-CV, B-TM, B-LC, B-OG
-14	##해	O	O	O, B-LC, B-PS, B-CV, B-OG
-15	##온	O	O	O, B-LC, B-PS, B-CV, B-TM
-16	무리	O	O	O, B-CV, B-LC, B-TM, B-PS
-17	##한	O	O	O, B-LC, B-PS, B-OG, B-TM
-18	확대	O	O	O, B-CV, B-TM, B-LC, B-OG
-19	전략	O	O	O, B-CV, B-LC, B-TM, I-CV
-20	##도	O	O	O, B-PS, B-LC, B-CV, I-CV
-21	이번	O	O	O, B-CV, B-TM, B-QT, B-EV
-22	사태	O	O	O, B-CV, I-EV, B-EV, B-PS
-23	배경	O	O	O, B-CV, B-TM, B-QT, B-PS
-24	##의	O	O	O, B-PS, B-CV, B-OG, B-LC
-25	하나	O	B-QT	B-QT, O, I-QT, B-PS, B-LC
-26	##라고	O	O	O, I-QT, I-CV, B-PS, I-DT
-27	지적	O	O	O, B-CV, I-QT, B-TM, B-QT
-28	##한다	O	O	O, B-CV, I-QT, I-CV, B-PS
-29	.	O	O	O, B-CV, B-LC, B-PS, B-TM
-30	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	대회	O	O
+2	공식	O	O
+3	누리집	O	O
+4	##인	O	O
+5	‘	O	O
+6	인포	O	O
+7	2010	B-DT	B-DT
+8	광저우	B-EV	B-EV
+9	##아시아	I-EV	I-EV
+10	##경기	I-EV	I-EV
+11	##대	I-EV	I-EV
+12	##회	I-EV	I-EV
+13	’	O	O
+14	에	O	O
+15	선수	B-CV	B-CV
+16	인터뷰	O	O
+17	##를	O	O
+18	올리	O	O
+19	##는	O	O
+20	두	B-LC	B-LC
+21	##바이	I-LC	I-LC
+22	##위	O	I-LC
+23	신화	B-OG	B-OG
+24	##통신	I-OG	I-OG
+25	국제	O	O
+26	##부	O	O
+27	기자	B-CV	B-CV
+28	##는	O	O
+29	경기	O	O
+30	뒤	O	O
+31	감독	B-CV	B-CV
+32	##에	O	O
+33	##게	O	O
+34	“	O	O
+35	그렇게	O	O
+36	때리	O	O
+37	##면	O	O
+38	선수	B-CV	B-CV
+39	##들	O	O
+40	자존심	O	O
+41	##이	O	O
+42	상하	O	O
+43	##는	O	O
+44	게	O	O
+45	아니	O	O
+46	##냐	O	O
+47	”	O	O
+48	고	O	O
+49	물	O	O
+50	##었	O	O
+51	##고	O	O
+52	,	O	O
+53	감독	B-CV	B-CV
+54	##은	O	O
+55	“	O	O
+56	그런	O	O
+57	것	O	O
+58	##들	O	O
+59	선수	B-CV	B-CV
+60	##들	O	O
+61	##은	O	O
+62	생각	O	O
+63	안	O	O
+64	한다	O	O
+65	.	O	O
+66	[SEP]	O	O

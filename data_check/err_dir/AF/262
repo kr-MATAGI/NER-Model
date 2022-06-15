@@ -1,17 +1,34 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-EV, I-CV
-1	국정원	B-AF	B-OG	B-OG, B-AF, B-EV, O, B-FD
-2	사건	O	O	O, I-EV, I-OG, I-AF, I-CV
-3	수사	O	O	O, B-OG, B-CV, I-EV, I-OG
-4	##팀	O	O	O, I-OG, I-CV, B-OG, I-EV
-5	##은	O	O	O, B-CV, I-OG, B-PS, B-LC
-6	항소	O	O	O, B-CV, B-LC, B-TM, B-OG
-7	##를	O	O	O, B-CV, B-PS, I-CV, B-OG
-8	강하	O	O	O, B-CV, B-LC, B-TM, B-OG
-9	##게	O	O	O, I-OG, B-PS, I-CV, I-LC
-10	주장	O	O	O, B-CV, B-LC, B-TM, B-OG
-11	##하고	O	O	O, B-CV, B-LC, B-PS, B-OG
-12	있	O	O	O, B-CV, B-LC, B-OG, B-TM
-13	##다	O	O	O, B-CV, B-LC, B-OG, I-EV
-14	.	O	O	O, B-CV, B-LC, B-OG, B-PS
-15	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	그	O	O
+2	##는	O	O
+3	이어	O	O
+4	천주교	B-OG	B-OG
+5	대전	B-AF	I-OG
+6	##교	I-AF	I-OG
+7	##구	I-AF	I-OG
+8	##청	I-AF	I-OG
+9	##을	O	O
+10	방문	O	O
+11	##해	O	O
+12	유흥	B-PS	B-PS
+13	##식	I-PS	I-PS
+14	주교	B-CV	B-CV
+15	##와	O	O
+16	면담	O	O
+17	##한	O	O
+18	뒤	O	O
+19	공주	B-LC	B-LC
+20	마곡	B-AF	B-AF
+21	##사	I-AF	I-AF
+22	##를	O	O
+23	찾아	O	O
+24	원	B-PS	B-PS
+25	##경	I-PS	I-PS
+26	주지	B-CV	B-CV
+27	스님	B-CV	I-CV
+28	##을	O	O
+29	만났	O	O
+30	##다	O	O
+31	.	O	O
+32	[SEP]	O	O

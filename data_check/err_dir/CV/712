@@ -1,60 +1,9 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	워싱턴	B-LC	B-LC	B-LC, O, B-OG, B-PS, B-AF
-2	##의	O	O	O, I-LC, B-LC, I-OG, B-PS
-3	한	O	O	O, B-LC, B-CV, B-OG, B-QT
-4	외교	O	O	O, B-CV, B-FD, B-OG, I-CV
-5	소식통	O	O	O, B-CV, I-CV, B-PS, B-OG
-6	##은	O	O	O, I-CV, I-OG, B-CV, B-PS
-7	5	B-DT	B-DT	B-DT, O, B-QT, I-DT, B-EV
-8	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-9	“	O	O	O, I-DT, B-LC, B-CV, B-OG
-10	미국	B-LC	B-LC	B-LC, B-OG, O, B-PS, B-TM
-11	##은	O	O	O, I-OG, I-LC, B-OG, B-LC
-12	유엔	B-OG	B-OG	B-OG, B-LC, O, I-OG, B-AF
-13	##에서	O	O	O, I-OG, B-LC, B-OG, B-CV
-14	대북	O	O	O, B-LC, B-CV, B-TM, B-OG
-15	원유	O	B-MT	B-MT, O, I-MT, B-AF, B-CV
-16	공급	O	O	O, B-LC, B-CV, I-CV, I-OG
-17	중단	O	O	O, B-LC, B-TM, B-CV, B-OG
-18	,	O	O	O, B-LC, B-OG, B-PS, B-CV
-19	북한	B-LC	B-LC	B-LC, B-OG, O, B-PS, B-AF
-20	##의	O	O	O, I-OG, I-LC, B-LC, I-AF
-21	석유	O	B-MT	B-MT, O, I-MT, B-AF, B-CV
-22	가공	O	O	O, I-CV, I-AF, I-MT, I-LC
-23	제품	O	O	O, I-CV, I-AF, B-CV, I-TM
-24	수출	O	O	O, B-LC, B-CV, B-TM, B-OG
-25	금지	O	O	O, B-LC, B-CV, B-TM, B-PS
-26	,	O	O	O, B-LC, B-PS, B-OG, B-CV
-27	기존	O	O	O, B-LC, B-CV, B-OG, B-PS
-28	북한	B-LC	B-LC	B-LC, B-OG, O, B-PS, I-LC
-29	해외	O	O	O, B-CV, B-LC, I-LC, I-CV
-30	노동자	B-CV	B-CV	B-CV, O, I-CV, B-FD, B-PT
-31	고용	O	O	O, I-CV, B-CV, B-LC, B-TM
-32	금지	O	O	O, B-CV, B-LC, B-TM, I-CV
-33	등	O	O	O, B-LC, B-OG, B-PS, B-CV
-34	3	B-QT	B-QT	B-QT, O, I-QT, B-EV, B-DT
-35	##가지	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-EV
-36	##를	O	O	O, I-QT, B-LC, B-CV, B-OG
-37	새로운	O	O	O, B-CV, B-OG, B-LC, B-QT
-38	대북	B-CV	O	O, B-CV, I-CV, B-OG, B-FD
-39	##제	I-CV	O	O, I-CV, B-CV, I-OG, I-EV
-40	##재	I-CV	O	O, I-CV, B-CV, I-OG, I-QT
-41	##에	O	O	O, I-CV, B-PS, B-LC, B-CV
-42	포함	O	O	O, B-LC, B-OG, B-CV, B-PS
-43	##시	O	O	O, B-LC, B-OG, B-PS, B-CV
-44	##켜	O	O	O, B-LC, B-OG, B-PS, B-CV
-45	##야	O	O	O, B-LC, B-OG, B-PS, B-CV
-46	한다고	O	O	O, B-LC, B-OG, B-CV, B-PS
-47	요구	O	O	O, B-CV, B-LC, B-OG, B-TM
-48	##했	O	O	O, B-LC, B-OG, B-CV, B-PS
-49	##다	O	O	O, B-LC, B-CV, B-OG, I-OG
-50	”	O	O	O, B-CV, B-LC, B-TM, B-OG
-51	며	O	O	O, B-LC, B-CV, B-TM, B-OG
-52	이	O	O	O, B-PS, B-OG, B-CV, B-TM
-53	##같이	O	O	O, B-CV, B-LC, I-OG, B-TM
-54	말	O	O	O, B-CV, B-LC, B-TM, B-OG
-55	##했	O	O	O, B-LC, B-CV, B-OG, B-PS
-56	##다	O	O	O, B-CV, B-LC, B-TM, B-OG
-57	.	O	O	O, B-LC, B-CV, B-OG, B-PS
-58	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	안희정	B-PS	B-PS
+2	충남	B-CV	B-LC
+3	##지사	I-CV	B-CV
+4	##에	O	O
+5	대해서	O	O
+6	##는	O	O
+7	[SEP]	O	O

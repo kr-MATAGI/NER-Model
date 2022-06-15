@@ -1,59 +1,54 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-EV, I-OG, I-CV, B-CV
-1	1990	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-LC
-2	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-3	##대	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-CV
-4	중반	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-CV
-5	이후	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-CV
-6	북한	B-LC	B-LC	B-LC, B-OG, O, I-DT, B-PS
-7	상황	O	O	O, I-OG, I-LC, I-EV, I-DT
-8	##이	O	O	O, B-PS, B-OG, B-LC, B-CV
-9	급박	O	O	O, B-LC, B-CV, B-OG, B-TM
-10	##하	O	O	O, B-LC, B-PS, B-OG, I-LC
-11	##지	O	O	O, B-LC, B-OG, I-OG, B-PS
-12	않	O	O	O, B-LC, B-OG, B-PS, B-CV
-13	##은	O	O	O, B-LC, B-OG, B-PS, B-CV
-14	적	O	O	O, B-LC, B-PS, B-CV, B-EV
-15	##이	O	O	O, B-PS, I-EV, B-LC, B-CV
-16	없	O	O	O, I-EV, B-LC, B-CV, B-EV
-17	##었	O	O	O, B-LC, B-OG, B-PS, B-CV
-18	##지만	O	O	O, B-LC, B-PS, B-OG, B-CV
-19	미국	B-LC	B-LC	B-LC, B-OG, O, B-PS, I-LC
-20	버락	B-PS	B-PS	B-PS, I-PS, O, B-OG, B-LC
-21	오바마	I-PS	I-PS	I-PS, O, I-LC, B-PS, I-OG
-22	행정부	B-OG	B-OG	B-OG, O, B-CV, I-PS, B-LC
-23	##가	O	O	O, I-OG, B-PS, I-PS, I-EV
-24	들어선	O	O	O, B-PS, B-LC, B-CV, B-EV
-25	2009	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-LC
-26	,	I-DT	O	O, I-DT, I-QT, B-DT, I-EV
-27	2010	I-DT	B-DT	B-DT, I-DT, O, B-QT, B-LC
-28	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-29	##의	O	O	O, I-DT, B-LC, B-PS, B-CV
-30	한반도	B-LC	B-LC	B-LC, O, B-OG, I-LC, B-AF
-31	상황	O	O	O, I-LC, I-EV, B-LC, I-OG
-32	##은	O	O	O, B-LC, B-OG, B-CV, B-PS
-33	장거리	O	B-AF	B-AF, O, B-TM, B-MT, B-LC
-34	로켓	B-AF	I-AF	I-AF, B-AF, O, I-TM, I-EV
-35	발사	O	O	O, I-AF, I-EV, I-TM, I-TR
-36	,	O	O	O, I-EV, I-AF, B-LC, B-PS
-37	핵	B-AF	B-AF	B-AF, O, B-MT, B-TM, I-AF
-38	실험	O	O	O, I-EV, I-AF, I-TR, I-TM
-39	,	O	O	O, I-EV, I-AF, B-LC, B-PS
-40	천안	B-EV	B-EV	B-EV, B-LC, B-AF, B-PS, O
-41	##함	I-EV	I-EV	I-EV, I-AF, I-LC, O, I-PS
-42	폭침	I-EV	I-EV	I-EV, O, I-AF, I-LC, B-EV
-43	,	O	O	O, I-EV, I-AF, I-DT, I-QT
-44	연평도	B-EV	B-EV	B-EV, B-LC, B-AF, O, I-EV
-45	포격	I-EV	I-EV	I-EV, O, I-LC, I-AF, B-EV
-46	##을	O	O	O, I-EV, I-AF, I-DT, I-LC
-47	거치	O	O	O, B-OG, B-LC, B-CV, B-PS
-48	##며	O	O	O, B-LC, B-OG, B-PS, B-CV
-49	긴장	O	O	O, B-CV, B-LC, B-OG, B-PS
-50	##이	O	O	O, B-PS, B-OG, B-LC, B-CV
-51	최고	O	O	O, B-PS, B-QT, B-CV, B-LC
-52	##조	O	O	O, B-PS, I-OG, I-QT, B-LC
-53	##에	O	O	O, I-OG, B-CV, B-OG, B-LC
-54	달했	O	O	O, B-LC, B-OG, B-PS, B-CV
-55	##다	O	O	O, B-CV, B-LC, I-EV, I-OG
-56	.	O	O	O, B-LC, B-PS, B-CV, B-OG
-57	[SEP]	O	O	O, B-LC, B-CV, I-EV, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	지난달	B-DT	B-DT
+2	30	I-DT	I-DT
+3	##일	I-DT	I-DT
+4	확인	O	O
+5	##된	O	O
+6	잭슨	B-PS	B-PS
+7	##의	O	O
+8	유언	O	O
+9	##장	O	O
+10	##은	O	O
+11	2002	B-DT	B-DT
+12	##년	I-DT	I-DT
+13	7	I-DT	I-DT
+14	##월	I-DT	I-DT
+15	7	I-DT	I-DT
+16	##일	I-DT	I-DT
+17	##자	I-DT	O
+18	##로	O	O
+19	작성	O	O
+20	##된	O	O
+21	것	O	O
+22	##으로	O	O
+23	,	O	O
+24	재산	O	O
+25	##의	O	O
+26	40	B-QT	B-QT
+27	%	I-QT	I-QT
+28	는	O	O
+29	어머니	B-CV	B-CV
+30	캐서린	B-PS	B-PS
+31	##에	O	O
+32	##게	O	O
+33	,	O	O
+34	또	O	O
+35	40	B-QT	B-QT
+36	%	I-QT	I-QT
+37	는	O	O
+38	세	B-QT	B-QT
+39	자녀	I-QT	I-QT
+40	##에	O	O
+41	##게	O	O
+42	,	O	O
+43	나머지	O	O
+44	20	B-QT	B-QT
+45	%	I-QT	I-QT
+46	는	O	O
+47	자선	O	O
+48	기관	O	O
+49	##에	O	O
+50	돌아간다	O	O
+51	.	O	O
+52	[SEP]	O	O

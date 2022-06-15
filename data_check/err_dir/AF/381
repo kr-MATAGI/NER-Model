@@ -1,25 +1,9 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	이번	O	O	O, B-DT, B-LC, B-QT, B-AF
-2	마도	B-AF	B-LC	B-LC, B-AF, O, B-EV, B-OG
-3	삼	I-AF	B-QT	B-QT, I-AF, B-AF, I-LC, I-QT
-4	##호	I-AF	I-QT	I-QT, I-AF, I-LC, I-EV, O
-5	##선	I-AF	I-QT	I-QT, I-AF, I-LC, I-EV, O
-6	##은	O	O	O, I-QT, I-AF, I-EV, I-LC
-7	거의	O	O	O, B-CV, B-OG, B-LC, B-QT
-8	완벽	O	O	O, B-CV, B-LC, B-OG, B-TM
-9	##하	O	O	O, B-LC, B-PS, B-OG, B-CV
-10	##게	O	O	O, B-LC, B-OG, B-CV, B-PS
-11	남아	O	O	O, B-CV, B-LC, B-TM, B-QT
-12	있	O	O	O, B-CV, B-LC, B-OG, I-AF
-13	##습	O	O	O, B-CV, B-LC, B-OG, B-PS
-14	##니다	O	O	O, B-CV, B-LC, B-OG, B-PS
-15	그	O	O	O, B-CV, B-LC, B-OG, B-TM
-16	다음	O	O	O, B-CV, B-LC, B-TM, B-PS
-17	##에	O	O	O, B-CV, B-OG, B-LC, B-PS
-18	[UNK]	O	O	O, B-CV, B-LC, B-OG, B-PS
-19	잘	O	O	O, B-CV, B-OG, B-LC, B-TM
-20	남아	O	O	O, B-CV, B-LC, B-TM, B-OG
-21	있	O	O	O, B-CV, B-LC, B-OG, B-PS
-22	##어요	O	O	O, B-CV, B-LC, B-OG, B-PS
-23	[SEP]	O	O	O, B-CV, B-LC, B-OG, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	우린	O	O
+2	공항	B-AF	O
+3	철도	I-AF	B-AF
+4	##를	O	O
+5	안	O	O
+6	타고	O	O
+7	[SEP]	O	O

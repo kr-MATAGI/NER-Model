@@ -1,17 +1,51 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-EV, I-CV
-1	경마	O	B-OG	B-OG, O, B-CV, I-OG, B-EV
-2	##본부	O	I-OG	I-OG, O, I-CV, B-OG, I-EV
-3	##는	O	O	O, I-OG, B-OG, B-TM, I-EV
-4	버스	B-AF	B-AF	B-AF, O, B-OG, I-AF, B-TM
-5	##에	O	O	O, I-AF, I-OG, B-CV, I-EV
-6	파란색	B-TM	B-TM	B-TM, B-LC, O, B-OG, B-CV
-7	우체	O	O	O, I-TM, B-TM, B-CV, B-AF
-8	##통	O	O	O, I-TM, I-AF, I-CV, I-OG
-9	##도	O	O	O, I-AF, I-OG, I-TM, I-CV
-10	설치	O	O	O, B-OG, B-CV, B-TM, B-LC
-11	##할	O	O	O, B-OG, B-LC, B-PS, B-CV
-12	방침	O	O	O, B-OG, B-CV, B-TM, B-LC
-13	##이다	O	O	O, B-CV, I-OG, B-OG, B-TM
-14	.	O	O	O, B-OG, B-LC, B-TM, B-AF
-15	[SEP]	O	O	O, B-OG, B-LC, I-OG, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	이	O	O
+2	기사	O	O
+3	##의	O	O
+4	취재	O	O
+5	##에	O	O
+6	##는	O	O
+7	본보	O	O
+8	대학생	B-CV	B-CV
+9	인턴	B-CV	B-CV
+10	##기	B-CV	I-CV
+11	##자	I-CV	I-CV
+12	김정	B-PS	B-PS
+13	(	O	O
+14	26	B-QT	B-QT
+15	·	O	O
+16	서강대	B-OG	B-OG
+17	중국	O	B-LC
+18	##문화	O	O
+19	##과	O	O
+20	4	B-QT	B-QT
+21	##학	I-QT	I-QT
+22	##년	I-QT	I-QT
+23	)	O	O
+24	,	O	O
+25	송	B-PS	B-PS
+26	##충	I-PS	I-PS
+27	##만	I-PS	I-PS
+28	(	O	O
+29	24	B-QT	B-QT
+30	·	O	O
+31	서울시	B-OG	B-OG
+32	##립	I-OG	I-OG
+33	##대	I-OG	I-OG
+34	도시	O	O
+35	##행정	O	O
+36	##학	O	O
+37	##과	O	O
+38	3	B-QT	B-QT
+39	##학	I-QT	I-QT
+40	##년	I-QT	I-QT
+41	)	O	O
+42	씨	O	O
+43	##가	O	O
+44	참여	O	O
+45	##했	O	O
+46	##습	O	O
+47	##니다	O	O
+48	.	O	O
+49	[SEP]	O	O

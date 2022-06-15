@@ -1,14 +1,43 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-AF
-1	여름	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-2	##에	O	O	O, I-DT, I-QT, I-AF, B-CV
-3	읽	O	O	O, B-CV, B-AF, B-OG, B-LC
-4	##고	O	O	O, I-AF, B-PS, I-OG, B-CV
-5	싶	O	O	O, B-LC, B-PS, B-CV, B-AF
-6	##은	O	O	O, B-CV, I-AF, B-LC, B-PS
-7	‘	O	O	O, B-CV, B-OG, B-LC, B-TM
-8	아찔	O	O	O, B-AF, B-PS, B-LC, I-AF
-9	##한	O	O	O, I-AF, I-PS, I-OG, I-LC
-10	’	O	O	O, I-AF, B-CV, I-OG, B-TM
-11	소설	O	B-FD	B-FD, O, I-FD, B-CV, B-AF
-12	[SEP]	O	O	O, I-FD, I-AF, I-OG, I-CV
+	text	label	preds
+0	[CLS]	O	O
+1	그	O	O
+2	##는	O	O
+3	1960	B-DT	B-DT
+4	~	I-DT	I-DT
+5	70	I-DT	I-DT
+6	##년	I-DT	I-DT
+7	##대	I-DT	I-DT
+8	##엔	O	O
+9	서울	B-LC	B-LC
+10	명동	B-LC	B-LC
+11	##의	O	O
+12	음악	O	O
+13	##다	O	O
+14	##방	O	O
+15	'	O	O
+16	쎄	B-AF	B-OG
+17	##시	I-AF	I-OG
+18	##봉	I-AF	I-OG
+19	'	O	O
+20	을	O	O
+21	중심	O	O
+22	##으로	O	O
+23	활동	O	O
+24	##하	O	O
+25	##며	O	O
+26	송	B-PS	B-PS
+27	##창	I-PS	I-PS
+28	##식	I-PS	I-PS
+29	##과	O	O
+30	트윈	B-PS	B-OG
+31	##폴리오	I-PS	I-OG
+32	##를	O	O
+33	결성	O	O
+34	##해	O	O
+35	청춘	O	O
+36	##스타	O	B-CV
+37	##로	O	O
+38	떠올랐	O	O
+39	##다	O	O
+40	.	O	O
+41	[SEP]	O	O

@@ -1,32 +1,29 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-QT
-1	이후	O	O	O, B-DT, B-LC, B-CV, B-TM
-2	스마트폰	B-TM	B-TM	B-TM, O, B-LC, B-OG, B-TR
-3	강화	O	O	O, B-MT, B-TM, I-TM, I-MT
-4	##유리	O	I-MT	I-MT, O, B-MT, I-TM, I-TR
-5	코팅	O	O	O, I-MT, I-TM, I-TR, B-MT
-6	##사업	O	O	O, I-TM, I-MT, I-TR, I-LC
-7	##에	O	O	O, I-TM, I-OG, B-CV, I-CV
-8	주력	O	O	O, B-LC, B-TM, B-CV, B-OG
-9	##한	O	O	O, B-LC, B-OG, B-PS, I-OG
-10	쎄	B-OG	B-OG	B-OG, O, B-AF, B-PS, I-OG
-11	##코	I-OG	I-OG	I-OG, O, I-AF, B-OG, I-PS
-12	##의	O	O	O, I-OG, I-AF, I-EV, I-CV
-13	매출	O	O	O, B-CV, B-TM, B-LC, B-OG
-14	##은	O	O	O, B-OG, B-CV, B-TM, B-LC
-15	2009	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-16	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-17	6	B-QT	B-QT	B-QT, I-QT, O, I-DT, B-DT
-18	##억	I-QT	I-QT	I-QT, O, I-DT, I-LC, I-EV
-19	원	I-QT	I-QT	I-QT, O, I-LC, I-OG, I-DT
-20	##에서	O	O	O, I-QT, I-DT, I-OG, B-PS
-21	지난해	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-22	122	B-QT	B-QT	B-QT, I-QT, I-DT, O, B-DT
-23	##억	I-QT	I-QT	I-QT, O, I-DT, I-LC, I-EV
-24	원	I-QT	I-QT	I-QT, O, I-LC, I-PS, I-OG
-25	##으로	O	O	O, I-QT, B-OG, B-CV, B-TM
-26	급성장	O	O	O, B-TM, B-CV, B-OG, B-LC
-27	##했	O	O	O, I-OG, B-PS, B-LC, B-OG
-28	##다	O	O	O, B-CV, I-OG, B-TM, B-OG
-29	.	O	O	O, B-LC, B-OG, B-TM, B-CV
-30	[SEP]	O	O	O, B-LC, B-OG, I-OG, B-CV
+	text	label	preds
+0	[CLS]	O	O
+1	맨	O	B-PS
+2	##큐	O	I-PS
+3	교수	B-CV	B-CV
+4	##뿐	O	O
+5	##만	O	O
+6	아니	O	O
+7	##라	O	O
+8	미래	O	O
+9	##를	O	O
+10	단정	O	O
+11	##적	O	O
+12	##으로	O	O
+13	예측	O	O
+14	##했	O	O
+15	##다가	O	O
+16	망신	O	O
+17	##을	O	O
+18	당한	O	O
+19	전문가	B-CV	B-CV
+20	##들	O	O
+21	##은	O	O
+22	수도	O	O
+23	없이	O	O
+24	많	O	O
+25	##다	O	O
+26	.	O	O
+27	[SEP]	O	O

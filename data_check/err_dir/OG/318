@@ -1,16 +1,25 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	현대	B-OG	B-OG	B-OG, O, I-OG, B-AF, B-LC
-2	·	O	I-OG	I-OG, O, I-AF, I-LC, I-CV
-3	기아차	B-OG	I-OG	I-OG, B-OG, O, B-LC, B-AF
-4	“	O	O	O, I-OG, B-CV, I-AF, I-EV
-5	수출	O	O	O, B-LC, B-TM, B-CV, I-OG
-6	-	O	O	O, B-PS, B-LC, I-AF, I-OG
-7	내수	O	O	O, B-LC, B-CV, B-TM, I-AF
-8	##용	O	O	O, I-AF, B-LC, I-LC, B-PS
-9	강판	O	B-MT	B-MT, O, I-MT, B-AF, B-TM
-10	차이	O	O	O, B-CV, I-AF, I-CV, I-TM
-11	없	O	O	O, B-CV, B-LC, B-OG, I-AF
-12	##다	O	O	O, B-CV, I-OG, B-LC, B-OG
-13	”	O	O	O, B-CV, B-LC, B-OG, B-TM
-14	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-AF
+	text	label	preds
+0	[CLS]	O	O
+1	하정	B-PS	B-PS
+2	##민	I-PS	I-PS
+3	국제	B-OG	O
+4	##부	I-OG	O
+5	기자	B-CV	B-CV
+6	##한	B-LC	B-LC
+7	##국	I-LC	I-LC
+8	사회	O	O
+9	##를	O	O
+10	강타	O	O
+11	##한	O	O
+12	단어	O	O
+13	‘	O	O
+14	의리	O	O
+15	’	O	O
+16	는	O	O
+17	이중	O	O
+18	##성	O	O
+19	##을	O	O
+20	지녔	O	O
+21	##다	O	O
+22	.	O	O
+23	[SEP]	O	O

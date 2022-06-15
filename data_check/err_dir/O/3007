@@ -1,32 +1,56 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	이	O	O	O, B-LC, B-PS, B-AF, B-QT
-2	공원	O	O	O, I-LC, B-LC, B-CV, I-AF
-3	##은	O	O	O, B-LC, I-LC, B-CV, B-PS
-4	간	B-EV	B-EV	B-EV, B-LC, B-AF, O, B-PS
-5	##토	I-EV	I-EV	I-EV, I-LC, I-AF, O, I-PS
-6	대지진	I-EV	I-EV	I-EV, O, I-LC, I-AF, I-OG
-7	##의	O	O	O, I-EV, B-LC, I-LC, I-OG
-8	복구	O	O	O, B-LC, B-CV, I-EV, B-EV
-9	작업	O	O	O, B-LC, B-CV, I-LC, I-EV
-10	중	O	O	O, B-LC, B-PS, B-CV, B-OG
-11	하나	O	B-QT	B-QT, O, I-QT, B-PS, B-LC
-12	##로	O	O	O, I-QT, B-PS, B-LC, I-DT
-13	만들	O	O	O, B-LC, B-CV, B-OG, B-AF
-14	##어졌	O	O	O, B-CV, B-LC, B-OG, B-PS
-15	##는데	O	O	O, B-CV, B-LC, B-TM, B-QT
-16	,	O	O	O, B-LC, B-CV, B-PS, B-TM
-17	지진	O	O	O, B-CV, B-LC, B-EV, B-TM
-18	##으로	O	O	O, B-LC, B-PS, B-CV, B-AF
-19	생긴	O	O	O, B-MT, B-LC, B-CV, B-TM
-20	자갈	O	O	O, B-MT, B-PT, B-CV, I-MT
-21	##이나	O	O	O, I-AF, B-LC, B-PS, I-CV
-22	기와	O	O	O, B-MT, B-CV, B-AF, B-PT
-23	##를	O	O	O, I-AF, B-CV, I-CV, B-LC
-24	매립	O	O	O, B-CV, B-LC, B-TM, B-PS
-25	##해	O	O	O, B-LC, B-PS, B-CV, B-QT
-26	만든	O	O	O, B-LC, B-PS, B-CV, I-LC
-27	공원	O	O	O, B-LC, I-LC, B-CV, B-QT
-28	##이다	O	O	O, I-LC, B-CV, I-CV, I-AF
-29	.	O	O	O, B-LC, B-CV, B-PS, B-AF
-30	[SEP]	O	O	O, B-LC, B-CV, B-PS, I-LC
+	text	label	preds
+0	[CLS]	O	O
+1	이	O	O
+2	방송	O	O
+3	##은	O	O
+4	또	O	O
+5	“	O	O
+6	국방부	B-OG	B-OG
+7	##는	O	O
+8	미사일	O	B-AF
+9	방어	O	I-TM
+10	시스템	O	I-TM
+11	##을	O	O
+12	통해	O	O
+13	대륙	B-AF	B-AF
+14	##간	I-AF	I-AF
+15	##탄	I-AF	I-AF
+16	##도	I-AF	I-AF
+17	##미사	I-AF	I-AF
+18	##일	I-AF	I-AF
+19	격추	O	O
+20	결정	O	O
+21	##을	O	O
+22	할	O	O
+23	수도	O	O
+24	있	O	O
+25	##었	O	O
+26	##지만	O	O
+27	미사일	B-AF	B-AF
+28	##이	O	O
+29	북미	B-LC	B-LC
+30	지역	O	O
+31	##에	O	O
+32	위협	O	O
+33	##이	O	O
+34	되	O	O
+35	##지	O	O
+36	않	O	O
+37	##았	O	O
+38	##다고	O	O
+39	판단	O	O
+40	##하	O	O
+41	##고	O	O
+42	격추	O	O
+43	시도	O	O
+44	##를	O	O
+45	하지	O	O
+46	않	O	O
+47	##았	O	O
+48	##다	O	O
+49	”	O	O
+50	고	O	O
+51	전했	O	O
+52	##다	O	O
+53	.	O	O
+54	[SEP]	O	O

@@ -1,32 +1,22 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	퀴	B-PS	B-OG	B-OG, B-PS, O, B-AF, B-LC
-2	##비	I-PS	I-OG	I-OG, I-PS, O, I-AF, I-LC
-3	##에	I-PS	I-OG	I-OG, O, I-PS, I-AF, I-LC
-4	##는	O	O	O, I-OG, I-AF, I-PS, I-EV
-5	구약	B-AF	B-AF	B-AF, B-FD, O, B-EV, B-LC
-6	##성	I-AF	I-AF	I-AF, O, I-FD, I-EV, B-FD
-7	##서	I-AF	I-AF	I-AF, O, I-FD, I-EV, I-OG
-8	##에	O	O	O, I-AF, I-EV, I-OG, B-CV
-9	나오	O	O	O, B-CV, B-OG, B-LC, B-PS
-10	##는	O	O	O, B-CV, B-PS, B-LC, B-OG
-11	‘	O	O	O, B-CV, B-LC, B-OG, B-PS
-12	노아	B-AF	B-AF	B-AF, B-PS, B-LC, B-EV, O
-13	##의	I-AF	I-AF	I-AF, O, I-PS, B-AF, I-EV
-14	방	I-AF	I-AF	I-AF, O, B-AF, I-PS, I-EV
-15	##주	I-AF	I-AF	I-AF, O, I-CV, I-EV, I-PS
-16	’	O	O	O, I-AF, I-EV, I-CV, I-QT
-17	와	O	O	O, B-PS, B-LC, B-OG, I-AF
-18	각종	O	O	O, B-LC, B-CV, B-TM, B-OG
-19	신화	O	B-FD	B-FD, O, B-TR, I-FD, B-AF
-20	##가	O	O	O, B-PS, I-FD, I-AF, I-OG
-21	사실	O	O	O, B-CV, B-FD, B-OG, B-QT
-22	##일	O	O	O, B-PS, I-QT, B-CV, I-OG
-23	수	O	O	O, B-PS, B-OG, B-LC, B-CV
-24	있	O	O	O, B-CV, B-PS, B-OG, B-LC
-25	##다고	O	O	O, B-OG, B-CV, I-OG, B-PS
-26	주장	O	O	O, B-CV, B-OG, B-FD, B-LC
-27	##했	O	O	O, I-OG, B-CV, B-OG, B-PS
-28	##다	O	O	O, B-CV, I-OG, B-OG, B-LC
-29	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-30	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-FD
+	text	label	preds
+0	[CLS]	O	O
+1	이후	O	O
+2	##엔	O	O
+3	광주	B-LC	B-LC
+4	##의	O	O
+5	대표	O	O
+6	##적	O	O
+7	전통	O	O
+8	##시장	O	O
+9	##인	O	O
+10	양동	O	B-LC
+11	##시장	O	I-LC
+12	##을	O	O
+13	찾아	O	O
+14	추석	B-DT	B-DT
+15	민심	O	O
+16	##을	O	O
+17	살폈	O	O
+18	##다	O	O
+19	.	O	O
+20	[SEP]	O	O

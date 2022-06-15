@@ -1,10 +1,31 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	다시	O	O	O, B-CV, B-QT, B-TM, I-CV
-2	한	O	B-QT	B-QT, O, I-QT, B-PS, B-CV
-3	번	O	O	O, I-QT, I-LC, I-CV, I-TI
-4	졸	O	O	O, I-QT, B-CV, B-QT, B-PS
-5	##여	O	O	O, I-QT, I-CV, I-LC, B-PS
-6	가지	O	O	O, B-CV, I-QT, B-PS, B-OG
-7	##고	O	O	O, B-CV, I-OG, I-QT, I-AF
-8	[SEP]	O	O	O, B-CV, B-LC, B-QT, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	경복	B-OG	B-OG
+2	##고	I-OG	I-OG
+3	##와	O	O
+4	연세대	B-OG	B-OG
+5	시절	O	O
+6	최고	O	O
+7	##의	O	O
+8	포인트	B-CV	B-CV
+9	##가드	I-CV	I-CV
+10	##로	O	O
+11	주목	O	O
+12	##받	O	O
+13	##은	O	O
+14	유	B-PS	B-PS
+15	감독	B-CV	B-CV
+16	##은	O	O
+17	1986	B-DT	B-DT
+18	##년	I-DT	I-DT
+19	기아	B-OG	B-OG
+20	##의	O	O
+21	창단	O	B-CV
+22	##멤	B-CV	I-CV
+23	##버	I-CV	I-CV
+24	##로	O	O
+25	입단	O	O
+26	##했	O	O
+27	##다	O	O
+28	.	O	O
+29	[SEP]	O	O

@@ -1,20 +1,20 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-AF, I-CV
-1	꽃	B-PT	O	O, B-PT, B-CV, I-PT, B-AF
-2	##을	O	O	O, I-AF, I-OG, B-PS, I-CV
-3	담	O	O	O, B-TM, B-LC, B-PS, B-CV
-4	##는	O	O	O, B-TM, B-AF, B-CV, I-AF
-5	트렁크	O	O	O, B-TM, B-AF, B-CV, B-QT
-6	,	O	O	O, I-AF, B-CV, B-TM, B-OG
-7	시계	O	O	O, B-CV, B-AF, B-TM, B-OG
-8	##와	O	O	O, I-AF, I-CV, I-OG, I-TM
-9	향수	O	O	O, B-CV, B-TM, B-AF, B-OG
-10	트렁크	O	O	O, B-TM, B-CV, B-AF, I-AF
-11	등	O	O	O, I-AF, B-TM, I-CV, I-TM
-12	가방	O	O	O, B-CV, B-TM, B-AF, B-OG
-13	종류	O	O	O, B-CV, I-AF, I-CV, B-TM
-14	##도	O	O	O, B-CV, B-OG, B-TM, B-LC
-15	많	O	O	O, B-CV, B-TM, B-OG, B-AF
-16	##다	O	O	O, B-CV, I-OG, B-TM, I-AF
-17	.	O	O	O, B-AF, B-CV, B-LC, B-OG
-18	[SEP]	O	O	O, B-CV, B-AF, B-TM, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	꽃	B-PT	O
+2	##을	O	O
+3	담	O	O
+4	##는	O	O
+5	트렁크	O	O
+6	,	O	O
+7	시계	O	O
+8	##와	O	O
+9	향수	O	O
+10	트렁크	O	O
+11	등	O	O
+12	가방	O	O
+13	종류	O	O
+14	##도	O	O
+15	많	O	O
+16	##다	O	O
+17	.	O	O
+18	[SEP]	O	O

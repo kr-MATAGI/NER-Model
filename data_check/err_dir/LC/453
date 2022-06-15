@@ -1,38 +1,43 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	한라산	B-LC	B-LC	B-LC, B-AF, B-PS, B-OG, O
-2	##과	O	O	O, I-AF, I-LC, B-LC, B-CV
-3	성산	B-LC	B-LC	B-LC, B-AF, O, B-PS, B-OG
-4	##일	I-LC	I-LC	I-LC, I-AF, O, B-LC, I-PS
-5	##출	I-LC	I-LC	I-LC, I-AF, O, B-LC, I-PS
-6	##봉	I-LC	I-LC	I-LC, I-AF, O, B-LC, I-PS
-7	,	O	O	O, I-LC, I-AF, B-LC, B-CV
-8	거	B-LC	B-LC	B-LC, B-AF, O, B-PS, I-LC
-9	##문	I-LC	I-LC	I-LC, I-AF, O, B-LC, I-PS
-10	##오	I-LC	I-LC	I-LC, I-AF, O, B-LC, I-PS
-11	##름	I-LC	I-LC	I-LC, I-AF, O, I-PS, B-LC
-12	등	O	O	O, I-LC, B-LC, I-AF, B-AF
-13	세계	O	O	O, B-AF, B-LC, B-TM, B-CV
-14	##자	O	O	O, I-AF, I-LC, B-AF, I-CV
-15	##연	O	O	O, I-AF, I-LC, I-CV, I-TM
-16	##유산	O	O	O, I-AF, I-LC, I-CV, I-TM
-17	##을	O	O	O, I-AF, I-LC, I-CV, B-CV
-18	비롯	O	O	O, B-CV, B-OG, B-LC, B-TM
-19	##해	O	O	O, B-LC, B-OG, B-TM, B-QT
-20	천지	B-LC	B-AF	B-AF, B-LC, B-PS, O, B-EV
-21	##연	I-LC	I-AF	I-AF, I-LC, O, I-PS, B-LC
-22	##폭	I-LC	I-LC	I-LC, I-AF, O, I-PS, I-QT
-23	##포	I-LC	I-LC	I-LC, I-AF, O, I-PS, I-QT
-24	등	O	O	O, I-AF, I-LC, B-LC, I-QT
-25	제주	B-LC	B-LC	B-LC, B-OG, O, B-AF, I-LC
-26	##의	O	O	O, I-LC, I-AF, I-OG, B-LC
-27	주요	O	O	O, B-LC, B-TM, B-QT, B-CV
-28	비	O	O	O, B-LC, B-FD, B-AF, B-CV
-29	##경	O	O	O, I-LC, I-AF, I-FD, I-CV
-30	##과	O	O	O, I-AF, B-LC, B-CV, I-LC
-31	관광지	O	O	O, B-CV, I-LC, B-LC, I-AF
-32	##가	O	O	O, B-CV, B-OG, B-LC, B-PS
-33	등장	O	O	O, B-CV, B-TM, B-LC, B-OG
-34	##한다	O	O	O, B-CV, B-LC, B-OG, B-TM
-35	.	O	O	O, B-LC, B-AF, B-CV, I-AF
-36	[SEP]	O	O	O, B-LC, I-AF, B-AF, I-LC
+	text	label	preds
+0	[CLS]	O	O
+1	8	B-DT	B-DT
+2	##일	I-DT	I-DT
+3	차	B-PS	B-PS
+4	실장	B-CV	B-CV
+5	##과	O	O
+6	마이클	B-PS	B-PS
+7	그린	I-PS	I-PS
+8	(	O	O
+9	Green	O	O
+10	)	O	O
+11	일본	B-CV	B-CV
+12	##실	I-CV	I-CV
+13	##장	I-CV	I-CV
+14	,	O	O
+15	찰스	B-PS	B-PS
+16	프리	I-PS	I-PS
+17	##먼	I-PS	I-PS
+18	(	O	O
+19	Free	O	O
+20	##man	O	O
+21	)	O	O
+22	중국	B-LC	O
+23	##실	O	O
+24	##장이	O	O
+25	조선일보	B-OG	B-OG
+26	초청	O	O
+27	##으로	O	O
+28	한자	O	O
+29	##리에	O	O
+30	모여	O	O
+31	75	B-TI	B-TI
+32	##분	I-TI	I-TI
+33	동안	I-TI	I-TI
+34	특별	O	O
+35	좌	O	O
+36	##담회	O	O
+37	##를	O	O
+38	가졌	O	O
+39	##다	O	O
+40	.	O	O
+41	[SEP]	O	O

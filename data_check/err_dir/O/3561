@@ -1,20 +1,35 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	근데	O	O	O, B-CV, B-OG, B-TM, B-LC
-2	그게	O	O	O, B-CV, B-PS, B-OG, B-LC
-3	로버	O	B-PS	B-PS, O, B-CV, B-LC, B-OG
-4	로버트	B-PS	I-PS	I-PS, B-PS, O, I-LC, B-LC
-5	블라	I-PS	I-PS	I-PS, O, B-PS, I-LC, I-OG
-6	##이	I-PS	O	O, I-PS, B-PS, I-LC, B-LC
-7	##라는	O	O	O, I-PS, B-LC, B-PS, I-LC
-8	미국	B-LC	B-LC	B-LC, O, B-OG, B-FD, B-CV
-9	시인	B-CV	B-CV	B-CV, O, I-CV, B-FD, I-LC
-10	##이	O	O	O, I-CV, B-PS, B-CV, I-QT
-11	번역	O	O	O, B-CV, B-FD, B-TM, B-QT
-12	##을	O	O	O, I-CV, B-CV, I-OG, I-AF
-13	한	O	O	O, B-CV, B-PS, B-OG, B-LC
-14	거	O	O	O, B-CV, B-OG, B-QT, B-PS
-15	##예	O	O	O, B-CV, B-OG, I-OG, I-AF
-16	##요	O	O	O, B-CV, I-OG, B-OG, I-AF
-17	.	O	O	O, B-CV, B-PS, B-LC, I-OG
-18	[SEP]	O	O	O, B-CV, B-PS, I-AF, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	아	B-OG	B-OG
+2	##너	I-OG	I-OG
+3	10	B-DT	B-DT
+4	##주	I-DT	I-DT
+5	##년	I-DT	I-DT
+6	행사장	O	O
+7	##에	O	O
+8	##서	O	O
+9	만났	O	O
+10	##던	O	O
+11	배우	B-CV	B-CV
+12	김보	B-PS	B-PS
+13	##성	I-PS	I-PS
+14	(	O	O
+15	51	B-QT	B-QT
+16	)	O	O
+17	은	O	O
+18	자신	O	O
+19	##을	O	O
+20	'	O	O
+21	나눔	O	B-CV
+22	·	O	I-CV
+23	의리	O	I-CV
+24	계몽	B-CV	I-CV
+25	##운동	I-CV	I-CV
+26	##가	I-CV	I-CV
+27	'	O	O
+28	라고	O	O
+29	소개	O	O
+30	##했	O	O
+31	##다	O	O
+32	.	O	O
+33	[SEP]	O	O

@@ -1,59 +1,18 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	조현	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-2	##오	I-PS	I-PS	I-PS, O, I-OG, I-LC, B-PS
-3	경찰청	B-CV	B-CV	B-CV, O, B-OG, I-CV, B-AF
-4	##장	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-EV
-5	내정자	B-CV	B-CV	B-CV, I-CV, O, I-EV, B-OG
-6	##가	O	O	O, I-CV, I-EV, B-CV, I-OG
-7	올해	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-8	3	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-9	##월	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-10	말	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-11	서울	B-CV	B-CV	B-CV, O, B-OG, B-LC, B-EV
-12	##지방	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-EV
-13	##경찰	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-EV
-14	##청	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-EV
-15	##장	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-EV
-16	자격	O	O	O, I-CV, I-OG, B-CV, I-EV
-17	##으로	O	O	O, B-PS, B-LC, B-CV, B-OG
-18	경찰	B-OG	O	O, B-OG, B-CV, B-AF, B-FD
-19	##간	O	O	O, B-CV, I-CV, I-OG, B-QT
-20	##부들	O	O	O, I-CV, I-OG, I-QT, B-CV
-21	##을	O	O	O, B-CV, I-CV, B-PS, B-TM
-22	대상	O	O	O, B-CV, B-TM, B-EV, B-LC
-23	##으로	O	O	O, B-PS, I-CV, I-EV, B-LC
-24	교육	O	O	O, B-CV, B-LC, B-TM, B-EV
-25	##을	O	O	O, B-CV, B-PS, I-EV, B-OG
-26	하	O	O	O, B-CV, B-LC, B-PS, B-OG
-27	##는	O	O	O, B-CV, B-PS, B-LC, B-OG
-28	과정	O	O	O, B-CV, B-LC, B-TM, B-OG
-29	##에서	O	O	O, B-CV, B-LC, B-PS, B-OG
-30	노무현	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
-31	전	O	O	O, I-PS, I-EV, B-CV, I-AF
-32	대통령	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-TM
-33	##이	O	O	O, I-CV, I-EV, B-CV, B-PS
-34	차명	O	O	O, B-TM, B-CV, B-LC, B-AF
-35	##계	O	O	O, I-TM, B-TM, B-LC, B-CV
-36	##좌	O	O	O, I-TM, I-CV, B-TM, I-LC
-37	##가	O	O	O, B-PS, B-LC, I-TM, B-CV
-38	발견	O	O	O, B-CV, B-TM, B-LC, B-PS
-39	##돼	O	O	O, B-PS, B-LC, B-CV, I-EV
-40	자살	O	O	O, B-TM, B-CV, B-AF, B-EV
-41	##했	O	O	O, I-TM, I-CV, B-PS, I-EV
-42	##다는	O	O	O, B-LC, B-CV, B-PS, B-TM
-43	취지	O	O	O, B-CV, B-TM, B-LC, B-QT
-44	##의	O	O	O, B-PS, I-CV, B-CV, B-LC
-45	발언	O	O	O, B-CV, B-TM, B-LC, B-PS
-46	##을	O	O	O, B-CV, B-PS, B-LC, B-OG
-47	한	O	O	O, B-CV, B-LC, B-PS, B-TM
-48	사실	O	O	O, B-CV, B-LC, B-PS, B-TM
-49	##이	O	O	O, B-PS, B-LC, B-OG, B-CV
-50	13	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-51	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-52	뒤늦	O	O	O, I-DT, B-CV, B-LC, B-TM
-53	##게	O	O	O, B-LC, B-OG, B-PS, I-OG
-54	알려졌	O	O	O, B-CV, B-LC, B-QT, B-TM
-55	##다	O	O	O, B-CV, B-LC, B-TM, B-OG
-56	.	O	O	O, B-LC, B-PS, B-CV, B-OG
-57	[SEP]	O	O	O, B-CV, B-LC, B-PS, I-EV
+	text	label	preds
+0	[CLS]	O	O
+1	“	O	O
+2	남북	B-OG	B-OG
+3	고위급	O	O
+4	접촉	O	O
+5	성사	O	O
+6	##땐	O	O
+7	납	B-CV	B-CV
+8	##북자	I-CV	I-CV
+9	-	O	O
+10	국군	B-OG	B-CV
+11	##포로	B-CV	I-CV
+12	다	O	O
+13	##룰	O	O
+14	것	O	O
+15	”	O	O
+16	[SEP]	O	O

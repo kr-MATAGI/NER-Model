@@ -1,5 +1,31 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-AF
-1	네	O	B-QT	B-QT, O, B-DT, I-QT, B-EV
-2	세대	O	I-QT	I-QT, O, I-EV, I-DT, I-PS
-3	[SEP]	O	O	O, I-QT, B-CV, I-OG, I-EV
+	text	label	preds
+0	[CLS]	O	O
+1	나	O	O
+2	##처럼	O	O
+3	공산당	B-OG	B-OG
+4	##을	O	O
+5	싫	O	O
+6	##어	O	O
+7	##했	O	O
+8	##던	O	O
+9	소대	B-CV	B-CV
+10	##원	I-CV	I-CV
+11	12	B-QT	B-QT
+12	##명	I-QT	I-QT
+13	##을	O	O
+14	데리	O	O
+15	##고	O	O
+16	남쪽	B-TM	B-TM
+17	##을	O	O
+18	향해	O	O
+19	밤	O	B-TI
+20	##길	O	O
+21	##을	O	O
+22	10	B-QT	B-QT
+23	##㎞	I-QT	I-QT
+24	##쯤	I-QT	I-QT
+25	걸	O	O
+26	##었	O	O
+27	##다	O	O
+28	.	O	O
+29	[SEP]	O	O

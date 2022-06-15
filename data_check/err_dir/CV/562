@@ -1,33 +1,32 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	이	O	O	O, B-PS, B-OG, B-CV, B-LC
-2	##는	O	O	O, B-CV, B-OG, B-PS, B-LC
-3	기준	O	O	O, B-CV, B-FD, B-OG, B-PS
-4	##금리	O	O	O, I-CV, B-CV, B-PS, I-TR
-5	##를	O	O	O, B-CV, I-CV, B-PS, B-TM
-6	당분간	O	O	O, B-LC, B-CV, B-PS, B-DT
-7	현	O	O	O, B-PS, B-CV, B-LC, B-QT
-8	수준	O	O	O, B-CV, B-PS, B-QT, B-LC
-9	##으로	O	O	O, B-PS, B-CV, B-LC, B-OG
-10	유지	O	O	O, B-CV, B-LC, B-TM, B-OG
-11	##하면	O	O	O, B-PS, B-LC, B-CV, B-DT
-12	##서	O	O	O, B-LC, B-CV, B-PS, B-TM
-13	경기	O	O	O, B-CV, B-LC, B-TM, B-PS
-14	##를	O	O	O, B-CV, I-CV, B-PS, I-AF
-15	뒷받침	O	O	O, B-CV, B-PS, B-TM, B-LC
-16	##하	O	O	O, B-PS, B-CV, B-LC, B-TM
-17	##는	O	O	O, B-CV, B-PS, B-LC, B-TM
-18	통화	B-CV	O	O, B-CV, I-CV, B-TR, B-FD
-19	##정책	I-CV	O	O, I-CV, B-CV, I-TR, I-TM
-20	##을	O	O	O, I-CV, B-CV, B-PS, I-AF
-21	계속	O	O	O, B-CV, B-LC, B-PS, B-QT
-22	펴	O	O	O, B-CV, B-OG, B-LC, B-PS
-23	##겠다	O	O	O, B-CV, B-PS, B-OG, B-LC
-24	##는	O	O	O, B-CV, B-PS, B-OG, I-OG
-25	뜻	O	O	O, B-CV, B-PS, B-OG, B-TM
-26	##으로	O	O	O, I-OG, B-PS, I-CV, B-CV
-27	풀이	O	O	O, B-CV, B-PS, B-OG, B-TM
-28	##된	O	O	O, I-OG, I-CV, I-EV, B-PS
-29	##다	O	O	O, B-CV, I-OG, B-OG, B-LC
-30	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-31	[SEP]	O	O	O, B-CV, B-LC, B-PS, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	법률	O	B-CV
+2	전문가	B-CV	I-CV
+3	##들	O	O
+4	##은	O	O
+5	“	O	O
+6	집단	O	O
+7	##소송	O	O
+8	##을	O	O
+9	내기	O	O
+10	전	O	O
+11	##에	O	O
+12	소송	O	O
+13	##으로	O	O
+14	제대로	O	O
+15	보상	O	O
+16	받	O	O
+17	##을	O	O
+18	수	O	O
+19	있	O	O
+20	##는지	O	O
+21	##부터	O	O
+22	따져	O	O
+23	##봐야	O	O
+24	한다	O	O
+25	”	O	O
+26	고	O	O
+27	지적	O	O
+28	##한다	O	O
+29	.	O	O
+30	[SEP]	O	O

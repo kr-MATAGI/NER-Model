@@ -1,13 +1,19 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-AF
-1	아	O	O	O, B-CV, B-TM, B-OG, B-QT
-2	이거	O	O	O, B-CV, B-TM, B-OG, B-PS
-3	불고기	B-CV	B-CV	B-CV, O, I-CV, B-AF, B-OG
-4	##가	O	O	O, I-CV, I-AF, B-PS, I-OG
-5	주인공	O	B-CV	B-CV, O, I-CV, B-PS, B-TM
-6	##이	O	O	O, I-CV, B-PS, I-AF, B-CV
-7	아니	O	O	O, B-CV, B-PS, B-OG, B-TM
-8	##라	O	O	O, B-CV, B-PS, B-OG, B-LC
-9	[UNK]	O	O	O, B-CV, B-LC, B-PS, B-OG
-10	.	O	O	O, B-CV, B-OG, B-LC, B-TM
-11	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	佛	O	B-LC
+2	경찰	B-OG	B-OG
+3	,	O	O
+4	15	B-TI	B-TI
+5	##분	I-TI	I-TI
+6	간격	O	O
+7	##으로	O	O
+8	형제	B-CV	B-CV
+9	테러	B-CV	B-CV
+10	##범	I-CV	I-CV
+11	##과	O	O
+12	식품	O	O
+13	##점	O	O
+14	인질	B-CV	O
+15	##극	O	O
+16	진압	O	O
+17	[SEP]	O	O

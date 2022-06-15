@@ -1,30 +1,23 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-EV, I-OG, I-CV
-1	국가	B-OG	B-OG	B-OG, O, B-AF, I-OG, B-EV
-2	##기록	I-OG	I-OG	I-OG, O, B-OG, I-AF, I-EV
-3	##원	I-OG	I-OG	I-OG, O, I-AF, I-EV, I-CV
-4	##에	O	O	O, I-OG, I-AF, I-EV, B-CV
-5	있	O	O	O, B-CV, B-PS, B-TM, B-QT
-6	##는	O	O	O, B-CV, B-PS, B-LC, B-TM
-7	대화	O	O	O, B-AF, B-CV, B-TM, B-PS
-8	##록	O	O	O, I-AF, I-EV, I-CV, I-TM
-9	전문의	O	B-CV	B-CV, O, I-CV, B-OG, B-FD
-10	공개	O	O	O, I-CV, B-CV, I-EV, I-AF
-11	##가	O	O	O, B-PS, B-OG, B-LC, B-CV
-12	이번	O	O	O, B-CV, B-QT, B-TM, B-PS
-13	논란	O	O	O, B-CV, B-EV, B-PS, B-TM
-14	##을	O	O	O, B-CV, B-PS, B-OG, I-EV
-15	말끔히	O	O	O, B-QT, B-TM, B-PS, B-LC
-16	해소	O	O	O, B-CV, B-TM, I-QT, B-OG
-17	##하	O	O	O, B-PS, B-LC, B-CV, B-OG
-18	##지	O	O	O, B-CV, B-LC, B-PS, B-TM
-19	못할	O	O	O, B-CV, B-LC, B-PS, B-TM
-20	것	O	O	O, B-CV, B-PS, B-LC, B-QT
-21	##이	O	O	O, B-PS, B-CV, B-OG, B-LC
-22	##란	O	O	O, B-CV, B-PS, B-TM, B-QT
-23	관측	O	O	O, B-CV, B-TR, B-QT, B-TM
-24	##도	O	O	O, I-QT, I-CV, B-CV, I-EV
-25	있	O	O	O, B-CV, B-QT, B-PS, B-TM
-26	##다	O	O	O, B-CV, I-QT, I-EV, B-PS
-27	.	O	O	O, B-LC, B-PS, B-CV, B-OG
-28	[SEP]	O	O	O, B-CV, I-EV, B-LC, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	사실	O	O
+2	##상	O	O
+3	여권	O	O
+4	후보	B-CV	B-CV
+5	##인	O	O
+6	현	O	B-PS
+7	후보	B-CV	B-CV
+8	쪽	O	O
+9	##은	O	O
+10	전직	O	O
+11	공무원	B-CV	B-CV
+12	출신	O	O
+13	##과	O	O
+14	한나라당	B-OG	B-OG
+15	당원	B-CV	B-CV
+16	##들이	O	O
+17	많	O	O
+18	##았	O	O
+19	##다	O	O
+20	.	O	O
+21	[SEP]	O	O

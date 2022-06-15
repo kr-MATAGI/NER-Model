@@ -1,13 +1,13 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	근데	O	O	O, B-CV, B-TM, B-OG, B-LC
-2	일단	O	O	O, B-CV, B-TM, B-QT, B-OG
-3	유아	B-PS	B-CV	B-CV, O, B-PS, B-LC, B-OG
-4	##인	I-PS	I-CV	I-CV, O, I-PS, I-LC, I-OG
-5	##은	O	O	O, I-CV, I-OG, I-AF, I-EV
-6	영문	B-CV	O	O, B-CV, B-TM, B-FD, B-LC
-7	##명	O	O	O, I-CV, I-TM, I-LC, I-AF
-8	##으로	O	O	O, B-PS, I-CV, B-CV, I-AF
-9	된	O	O	O, B-CV, B-AF, B-TM, B-LC
-10	트위터	B-TM	B-TM	B-TM, O, B-CV, B-AF, B-LC
-11	[SEP]	O	O	O, I-TM, I-AF, I-CV, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	그래서	O	O
+2	지금	O	O
+3	인제	O	O
+4	보	O	O
+5	##면은	O	O
+6	오늘	B-DT	B-DT
+7	뭐	O	O
+8	간장	B-CV	B-CV
+9	양념	I-CV	B-CV
+10	##에	O	O
+11	[SEP]	O	O

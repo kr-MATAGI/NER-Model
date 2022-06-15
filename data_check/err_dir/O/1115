@@ -1,29 +1,18 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-AF
-1	원전	O	O	O, B-AF, B-LC, B-CV, B-PS
-2	##이	O	O	O, B-PS, I-AF, B-LC, B-AF
-3	살아	O	O	O, B-AF, B-LC, B-PS, B-TM
-4	움직이	O	O	O, I-AF, B-PS, B-LC, B-AF
-5	##는	O	O	O, B-PS, I-AF, B-LC, B-AF
-6	원자력	O	O	O, B-AF, B-PS, B-LC, B-CV
-7	##이	O	O	O, B-PS, I-AF, B-AF, B-LC
-8	##라면	O	O	O, I-AF, B-LC, B-PS, I-PS
-9	,	O	O	O, B-CV, B-LC, B-AF, I-AF
-10	방폐	O	O	O, B-AF, B-CV, B-LC, B-PS
-11	##장	O	O	O, I-AF, I-LC, I-CV, B-AF
-12	##은	O	O	O, I-AF, B-LC, B-PS, B-CV
-13	원전	O	O	O, B-AF, B-LC, B-CV, I-AF
-14	##에서	O	O	O, B-CV, I-AF, B-PS, B-LC
-15	사용	O	O	O, B-CV, B-TM, B-PS, B-LC
-16	##한	O	O	O, B-PS, B-CV, B-LC, B-AF
-17	장갑	O	O	O, B-CV, I-CV, B-AM, B-TM
-18	신발	O	B-CV	B-CV, O, I-CV, B-AM, B-TM
-19	옷가지	O	O	O, B-CV, I-CV, B-AM, B-QT
-20	##를	O	O	O, I-CV, B-CV, B-PS, B-TM
-21	처리	O	O	O, B-CV, B-LC, B-PS, B-TM
-22	##하	O	O	O, B-PS, B-LC, B-CV, B-AF
-23	##는	O	O	O, B-LC, B-PS, B-CV, B-AF
-24	무덤	O	O	O, B-AF, B-PS, B-CV, B-LC
-25	##이다	O	O	O, I-AF, I-CV, B-PS, B-CV
-26	.	O	O	O, B-LC, B-PS, B-AF, B-CV
-27	[SEP]	O	O	O, B-CV, I-AF, B-LC, B-AF
+	text	label	preds
+0	[CLS]	O	O
+1	민중	B-FD	B-FD
+2	##미술	I-FD	I-FD
+3	화가	O	B-CV
+4	##들	O	O
+5	##은	O	O
+6	미술	O	O
+7	##의	O	O
+8	사회	O	O
+9	##적	O	O
+10	참여	O	O
+11	##를	O	O
+12	주장	O	O
+13	##했	O	O
+14	##다	O	O
+15	.	O	O
+16	[SEP]	O	O

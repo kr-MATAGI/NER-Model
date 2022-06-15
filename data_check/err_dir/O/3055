@@ -1,21 +1,13 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	지금	O	O	O, B-CV, B-LC, B-PS, B-OG
-2	##까	O	O	O, B-PS, B-CV, B-LC, B-OG
-3	##지	O	O	O, B-PS, B-CV, B-LC, I-AF
-4	무조건	O	O	O, B-CV, B-PS, B-TM, B-LC
-5	더럽	O	O	O, B-CV, B-AM, B-PS, B-TM
-6	##다고	O	O	O, I-CV, B-PS, I-AF, I-PS
-7	욕	O	O	O, B-CV, B-AM, B-TM, B-PS
-8	##하고	O	O	O, B-CV, B-PS, I-CV, I-AF
-9	업	O	O	O, B-CV, B-AM, B-TM, B-PS
-10	##신	O	O	O, I-CV, B-CV, B-AM, I-AM
-11	##여	O	O	O, I-CV, B-CV, I-PS, B-LC
-12	##겼	O	O	O, I-CV, B-CV, B-AM, I-PS
-13	##던	O	O	O, B-CV, I-CV, B-PS, B-TM
-14	한	B-QT	B-QT	B-QT, O, I-QT, B-TM, B-LC
-15	마리	I-QT	I-QT	I-QT, O, I-LC, I-PS, I-TM
-16	##의	O	O	O, I-QT, B-AM, I-AF, B-PS
-17	곤충	O	B-AM	B-AM, O, B-TM, I-AM, B-PS
-18	##을	O	O	O, I-TM, I-QT, I-AF, B-CV
-19	[SEP]	O	O	O, B-CV, B-LC, I-AF, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	이게	O	O
+2	진짜	O	O
+3	한국	B-LC	B-LC
+4	정치	O	B-FD
+5	##에	O	O
+6	선	O	O
+7	##순환	O	O
+8	##이	O	O
+9	일어나	O	O
+10	##고	O	O
+11	[SEP]	O	O

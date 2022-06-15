@@ -1,40 +1,13 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	우	B-PS	B-PS	B-PS, O, B-LC, B-OG, I-PS
-2	##말라	I-PS	I-PS	I-PS, O, I-LC, B-PS, I-OG
-3	후보	B-CV	B-CV	B-CV, O, I-PS, I-CV, B-AF
-4	##의	O	O	O, I-CV, B-CV, I-EV, I-OG
-5	당선	O	O	O, B-CV, B-OG, B-LC, B-TM
-6	##으로	O	O	O, B-PS, B-OG, B-LC, B-CV
-7	페루	B-LC	B-LC	B-LC, B-OG, O, B-PS, B-CV
-8	##는	O	O	O, I-OG, I-LC, I-EV, B-CV
-9	1968	B-DT	B-DT	B-DT, I-DT, O, B-LC, B-QT
-10	##∼	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-11	##19	I-DT	I-DT	I-DT, O, B-DT, I-PS, I-QT
-12	##75	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-13	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-14	집권	O	O	O, I-DT, B-CV, B-PS, B-OG
-15	##한	O	O	O, B-PS, I-PS, B-LC, B-OG
-16	후안	B-PS	B-PS	B-PS, O, I-PS, B-LC, B-OG
-17	벨라	I-PS	I-PS	I-PS, O, B-PS, I-LC, B-LC
-18	##스코	I-PS	I-PS	I-PS, O, I-LC, B-PS, B-LC
-19	##알	I-PS	I-PS	I-PS, O, I-LC, B-PS, B-LC
-20	##바라	I-PS	I-PS	I-PS, O, I-LC, B-PS, B-LC
-21	##도	O	I-PS	I-PS, O, I-LC, B-PS, B-LC
-22	군사	O	O	O, B-CV, I-PS, B-DT, B-OG
-23	##정권	O	O	O, I-PS, I-CV, I-DT, I-OG
-24	이후	O	O	O, I-DT, I-PS, I-CV, I-OG
-25	약	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-LC
-26	36	I-DT	I-DT	I-DT, O, B-DT, I-PS, I-QT
-27	##년	I-DT	I-DT	I-DT, O, B-DT, I-PS, I-QT
-28	만	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-29	##에	O	O	O, I-DT, I-QT, B-OG, I-EV
-30	좌파	B-OG	O	O, B-OG, B-TR, B-CV, B-EV
-31	##정부	I-OG	B-OG	B-OG, O, I-OG, B-CV, B-AF
-32	##를	O	O	O, I-OG, I-CV, I-EV, I-AF
-33	맞이	O	O	O, B-OG, B-CV, I-OG, B-TM
-34	##하	O	O	O, B-OG, B-LC, B-PS, B-CV
-35	##게	O	O	O, B-OG, B-LC, B-QT, B-CV
-36	된다	O	O	O, B-CV, B-QT, B-LC, I-OG
-37	.	O	O	O, B-PS, B-LC, B-OG, B-CV
-38	[SEP]	O	O	O, B-LC, B-PS, B-OG, B-CV
+	text	label	preds
+0	[CLS]	O	O
+1	미	B-OG	B-LC
+2	,	O	O
+3	2	B-EV	B-QT
+4	+	I-EV	I-QT
+5	2	I-EV	I-QT
+6	##회의	I-EV	O
+7	##서	O	O
+8	입법	O	O
+9	노력	O	O
+10	환영	O	O
+11	[SEP]	O	O

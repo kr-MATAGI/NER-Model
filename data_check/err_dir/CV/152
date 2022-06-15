@@ -1,6 +1,28 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, B-CV, I-OG, I-EV
-1	국조	B-CV	O	O, B-DT, B-CV, B-EV, B-OG
-2	##에서	O	O	O, I-DT, I-EV, I-OG, I-CV
-3	이렇게	O	O	O, B-CV, I-EV, B-OG, I-OG
-4	[SEP]	O	O	O, B-CV, B-OG, B-LC, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	주	O	B-CV
+2	5	B-CV	I-CV
+3	##일	I-CV	I-CV
+4	수업	I-CV	I-CV
+5	##제	I-CV	I-CV
+6	,	O	O
+7	재량	O	O
+8	##휴	O	O
+9	##일	O	O
+10	등	O	O
+11	##으로	O	O
+12	연간	B-DT	B-DT
+13	수업	O	O
+14	##일	O	O
+15	##수	O	O
+16	가운데	O	O
+17	15	B-DT	B-DT
+18	##일	I-DT	I-DT
+19	정도	I-DT	I-DT
+20	##가	O	O
+21	이미	O	O
+22	줄어든	O	O
+23	상태	O	O
+24	##다	O	O
+25	.	O	O
+26	[SEP]	O	O

@@ -1,47 +1,17 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-EV, I-CV, I-OG
-1	홍	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
-2	후보	B-CV	B-CV	B-CV, O, I-PS, I-CV, B-EV
-3	##는	O	O	O, I-CV, I-EV, B-CV, I-AF
-4	이날	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-5	“	O	O	O, I-DT, B-CV, I-EV, I-QT
-6	동남	O	O	O, B-LC, B-TM, B-AF, B-OG
-7	##풍	O	O	O, I-LC, I-TM, I-AF, I-OG
-8	##이	O	O	O, B-PS, B-LC, I-AF, I-LC
-9	충청	B-LC	B-LC	B-LC, O, B-OG, B-AF, B-PS
-10	##을	O	O	O, I-LC, I-AF, B-LC, I-OG
-11	거쳐	O	O	O, B-LC, B-OG, B-PS, B-CV
-12	수도권	B-LC	B-LC	B-LC, O, B-OG, B-TM, I-LC
-13	##에	O	O	O, I-LC, I-AF, B-LC, I-EV
-14	상륙	O	O	O, B-LC, B-CV, B-PS, B-TM
-15	##했	O	O	O, B-PS, B-LC, I-EV, B-OG
-16	##다	O	O	O, B-PS, B-CV, B-LC, I-EV
-17	”	O	O	O, B-CV, B-LC, B-PS, B-OG
-18	며	O	O	O, B-LC, B-CV, B-OG, B-PS
-19	“	O	O	O, B-LC, B-CV, B-PS, B-OG
-20	본격	O	O	O, B-EV, B-LC, B-CV, B-PS
-21	##적인	O	O	O, B-EV, I-EV, B-LC, B-PS
-22	선거	B-EV	O	O, B-EV, B-CV, I-EV, B-LC
-23	##운동	I-EV	O	O, I-EV, B-EV, I-CV, I-LC
-24	일주일	B-DT	B-DT	B-DT, O, I-DT, B-EV, I-EV
-25	만	I-DT	I-DT	I-DT, O, B-DT, I-EV, I-QT
-26	##에	O	O	O, I-DT, I-EV, I-QT, B-LC
-27	대역	O	O	O, B-EV, B-LC, B-CV, I-EV
-28	##전	O	O	O, I-EV, B-EV, I-LC, B-LC
-29	##의	O	O	O, I-EV, B-PS, I-OG, B-CV
-30	계기	O	O	O, B-CV, B-EV, B-LC, B-TM
-31	##를	O	O	O, B-CV, I-EV, B-PS, B-OG
-32	마련	O	O	O, B-CV, B-PS, B-LC, B-EV
-33	##했	O	O	O, B-PS, B-CV, B-LC, I-EV
-34	##다	O	O	O, B-PS, B-CV, B-LC, I-EV
-35	”	O	O	O, B-CV, B-LC, B-PS, B-OG
-36	고	O	O	O, B-CV, B-LC, B-PS, B-OG
-37	자평	O	O	O, B-CV, B-LC, B-TM, B-PS
-38	##하	O	O	O, B-PS, B-LC, B-CV, B-OG
-39	##며	O	O	O, B-LC, B-OG, B-CV, B-PS
-40	자신감	O	O	O, B-CV, B-LC, B-TM, B-PS
-41	##을	O	O	O, B-CV, I-OG, I-CV, I-AF
-42	보였	O	O	O, B-CV, B-LC, B-PS, B-OG
-43	##다	O	O	O, B-CV, I-CV, I-EV, B-LC
-44	.	O	O	O, B-LC, B-PS, B-CV, I-EV
-45	[SEP]	O	O	O, B-LC, B-CV, I-EV, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	日	B-LC	B-LC
+2	도쿄	B-EV	B-EV
+3	##도	I-EV	I-OG
+4	##의	I-EV	I-OG
+5	##회	I-EV	I-OG
+6	선거	I-EV	I-EV
+7	自	O	O
+8	民	O	O
+9	黨	O	O
+10	압승	O	O
+11	…	O	O
+12	후보	B-CV	B-CV
+13	전원	O	O
+14	당선	O	O
+15	[SEP]	O	O

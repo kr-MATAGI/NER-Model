@@ -1,19 +1,23 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-EV, I-CV, B-CV
-1	‘	O	O	O, B-LC, B-OG, B-CV, B-PS
-2	마오	B-PS	B-PS	B-PS, B-LC, O, B-EV, B-OG
-3	추모	O	O	O, I-PS, I-EV, I-LC, I-OG
-4	’	O	O	O, I-EV, I-OG, I-PS, B-PS
-5	대	O	O	O, B-PS, B-EV, B-LC, B-OG
-6	‘	O	O	O, B-LC, B-EV, I-EV, B-OG
-7	문	B-EV	B-EV	B-EV, O, I-EV, B-PS, B-AF
-8	##혁	I-EV	I-EV	I-EV, O, I-AF, I-LC, I-PS
-9	반성	O	O	O, I-EV, I-OG, I-AF, I-DT
-10	’	O	O	O, I-EV, B-OG, B-PS, B-LC
-11	…	O	O	O, B-OG, B-LC, B-PS, B-CV
-12	중	O	B-LC	B-LC, B-OG, O, B-PS, B-CV
-13	좌우	O	O	O, B-OG, B-FD, B-TR, I-OG
-14	##파	O	O	O, I-OG, I-LC, I-FD, I-EV
-15	이념	O	O	O, B-LC, B-PS, I-OG, B-OG
-16	격돌	O	O	O, B-OG, B-LC, B-CV, B-EV
-17	[SEP]	O	O	O, B-LC, B-CV, I-EV, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	초인	O	B-CV
+2	##으로	O	O
+3	불릴	O	O
+4	만한	O	O
+5	이	O	O
+6	##들의	O	O
+7	대결	O	O
+8	##은	O	O
+9	역사	O	O
+10	##에	O	O
+11	남	O	O
+12	##을	O	O
+13	명	O	O
+14	##승부	O	O
+15	##라는	O	O
+16	찬사	O	O
+17	##가	O	O
+18	쏟아졌	O	O
+19	##다	O	O
+20	.	O	O
+21	[SEP]	O	O

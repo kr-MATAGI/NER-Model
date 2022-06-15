@@ -1,50 +1,77 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	주민	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-TM
-2	건의	O	O	O, I-CV, B-CV, B-TM, I-EV
-3	##에	O	O	O, B-CV, B-OG, B-PS, B-LC
-4	필요	O	O	O, B-CV, B-LC, B-OG, B-TM
-5	##한	O	O	O, B-LC, B-OG, B-PS, B-CV
-6	서명	O	O	O, B-CV, B-TM, B-FD, B-EV
-7	기준	O	O	O, I-CV, B-CV, B-PS, B-OG
-8	##은	O	O	O, B-CV, B-OG, B-LC, B-PS
-9	투표	B-CV	B-CV	B-CV, O, I-CV, B-QT, B-PT
-10	##권자	I-CV	I-CV	I-CV, O, B-CV, I-QT, I-OG
-11	총수	O	O	O, B-CV, I-CV, B-QT, B-PS
-12	##의	O	O	O, I-CV, B-PS, B-QT, I-QT
-13	50	B-QT	B-QT	B-QT, I-QT, O, B-PS, B-DT
-14	##분	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-15	##의	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-16	1	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-17	이상	I-QT	I-QT	I-QT, O, I-LC, I-PS, I-OG
-18	##으로	O	O	O, I-QT, B-OG, B-CV, I-OG
-19	삼척	O	B-LC	B-LC, B-OG, O, B-AF, B-PS
-20	##시	O	I-LC	I-LC, I-OG, O, I-AF, I-PS
-21	##에서	O	O	O, I-OG, I-LC, I-AF, I-EV
-22	##는	O	O	O, B-CV, B-OG, B-LC, B-TM
-23	총	B-CV	O	O, B-CV, B-QT, B-EV, B-PS
-24	##투	I-CV	O	O, B-CV, I-CV, B-PS, B-QT
-25	##표	I-CV	O	O, I-CV, B-CV, I-QT, I-EV
-26	##권자	I-CV	I-CV	I-CV, O, B-CV, I-QT, I-OG
-27	5	B-QT	B-QT	B-QT, O, I-QT, I-CV, B-PS
-28	##만	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-29	##91	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-30	##87	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-31	##명	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-32	가운데	B-TM	O	O, B-TM, I-QT, B-LC, B-QT
-33	118	B-QT	B-QT	B-QT, I-QT, O, B-DT, B-LC
-34	##3	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-35	##명	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-36	이상	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-37	##의	O	O	O, I-QT, B-CV, B-OG, I-EV
-38	서명	O	O	O, B-CV, B-TM, B-EV, B-FD
-39	##을	O	O	O, B-CV, I-CV, I-EV, B-OG
-40	받	O	O	O, B-LC, B-OG, B-CV, B-TM
-41	##으면	O	O	O, B-LC, B-OG, B-CV, B-PS
-42	건의	O	O	O, B-CV, B-TM, B-LC, B-EV
-43	##가	O	O	O, B-PS, B-OG, B-CV, B-LC
-44	가능	O	O	O, B-CV, B-OG, B-TM, B-LC
-45	##하	O	O	O, B-CV, B-OG, B-LC, I-OG
-46	##다	O	O	O, B-CV, B-TM, B-OG, I-OG
-47	.	O	O	O, B-LC, B-CV, B-OG, B-PS
-48	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	29	B-DT	B-DT
+2	##일	I-DT	I-DT
+3	울산시	B-OG	B-OG
+4	##에	O	O
+5	따르	O	O
+6	##면	O	O
+7	한국	B-OG	B-OG
+8	##산업	I-OG	I-OG
+9	##단지	I-OG	I-OG
+10	##공단	I-OG	I-OG
+11	울산	B-OG	I-OG
+12	##에	I-OG	I-OG
+13	##코	I-OG	I-OG
+14	(	I-OG	I-OG
+15	EC	I-OG	I-OG
+16	##O	I-OG	I-OG
+17	)	I-OG	I-OG
+18	사업단	I-OG	I-OG
+19	##과	O	O
+20	삼성	B-OG	B-OG
+21	##에	I-OG	I-OG
+22	##버	I-OG	I-OG
+23	##랜드	I-OG	I-OG
+24	##가	O	O
+25	공동	O	O
+26	##으로	O	O
+27	120	B-QT	B-QT
+28	##억	I-QT	I-QT
+29	원	I-QT	I-QT
+30	##을	O	O
+31	들여	O	O
+32	설치	O	O
+33	##한	O	O
+34	울산	B-LC	B-LC
+35	##공단	I-LC	I-LC
+36	내	O	O
+37	SK	B-OG	B-OG
+38	##C	I-OG	I-OG
+39	##㈜	I-OG	I-OG
+40	울산	B-AF	B-AF
+41	##공	I-AF	I-AF
+42	##장	I-AF	I-AF
+43	,	O	O
+44	코리아	B-OG	B-OG
+45	##P	I-OG	I-OG
+46	##T	I-OG	I-OG
+47	##G	I-OG	I-OG
+48	##㈜	I-OG	I-OG
+49	,	O	O
+50	㈜	B-OG	B-OG
+51	##K	I-OG	I-OG
+52	##P	I-OG	I-OG
+53	##케미칼	I-OG	I-OG
+54	울산	B-AF	B-AF
+55	##2	I-AF	I-AF
+56	##공	I-AF	I-AF
+57	##장	I-AF	I-AF
+58	,	O	O
+59	한솔	B-OG	B-OG
+60	##EM	I-OG	I-OG
+61	##E	I-OG	I-OG
+62	등	O	O
+63	4	B-QT	B-QT
+64	##개	I-QT	I-QT
+65	기업	O	O
+66	간	O	O
+67	스팀	B-TM	O
+68	네트워크	I-TM	O
+69	시설	O	O
+70	##이	O	O
+71	준공	O	O
+72	##됐	O	O
+73	##다	O	O
+74	.	O	O
+75	[SEP]	O	O

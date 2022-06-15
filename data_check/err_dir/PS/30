@@ -1,35 +1,11 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, I-OG, B-CV, I-EV
-1	최근	O	O	O, B-DT, B-LC, B-OG, B-PS
-2	세종문화회관	B-AF	B-AF	B-AF, B-OG, B-LC, O, B-PS
-3	대	I-AF	O	O, I-AF, I-OG, I-EV, I-LC
-4	##극장	I-AF	O	O, I-AF, I-LC, I-OG, B-LC
-5	##에서	O	O	O, B-PS, B-LC, B-CV, I-AF
-6	개막	O	O	O, B-CV, B-LC, B-OG, B-TM
-7	##해	O	O	O, B-LC, B-PS, B-OG, B-DT
-8	연일	O	O	O, B-LC, B-DT, B-QT, B-CV
-9	매진	O	O	O, B-TM, B-LC, B-CV, B-AF
-10	##행	O	O	O, B-LC, B-TM, B-CV, B-AF
-11	##진	O	O	O, I-LC, B-LC, I-TM, I-OG
-12	##을	O	O	O, B-LC, B-PS, B-OG, B-CV
-13	이어	O	O	O, B-LC, B-OG, B-TM, B-CV
-14	##가	O	O	O, B-LC, B-PS, B-OG, I-OG
-15	##고	O	O	O, B-PS, B-LC, B-CV, B-QT
-16	있	O	O	O, B-CV, B-LC, B-PS, B-OG
-17	##는	O	O	O, B-CV, B-LC, B-OG, B-PS
-18	<	O	O	O, B-CV, B-LC, B-OG, B-AF
-19	모차르트	B-PS	B-AF	B-AF, B-PS, B-LC, O, I-AF
-20	>	O	O	O, I-AF, I-PS, I-EV, I-OG
-21	는	O	O	O, B-CV, B-LC, B-OG, I-AF
-22	대표	O	O	O, B-CV, B-LC, B-PS, B-DT
-23	##적인	O	O	O, B-LC, B-PS, B-DT, B-QT
-24	‘	O	O	O, B-LC, B-CV, B-OG, B-DT
-25	비엔나	B-LC	B-LC	B-LC, O, B-AF, B-PS, B-EV
-26	(	O	O	O, I-LC, I-DT, I-CV, B-CV
-27	오스트리아	B-LC	B-LC	B-LC, I-LC, O, B-FD, B-OG
-28	)	O	O	O, I-LC, I-DT, I-CV, B-CV
-29	뮤지컬	B-FD	B-FD	B-FD, O, I-FD, B-LC, B-CV
-30	’	O	O	O, I-FD, I-CV, I-OG, I-EV
-31	이다	O	O	O, B-CV, B-LC, B-OG, B-PS
-32	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-33	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	○	B-PS	O
+2	예산안	O	O
+3	처리	O	O
+4	##는	O	O
+5	가시	O	O
+6	##밭	O	O
+7	##길	O	O
+8	?	O	O
+9	[SEP]	O	O

@@ -1,43 +1,49 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	6	B-DT	B-DT	B-DT, I-DT, O, B-EV, B-QT
-2	##월	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-3	말	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-4	##로	O	O	O, I-DT, B-CV, I-QT, B-OG
-5	예정	O	O	O, B-CV, B-LC, B-OG, B-TM
-6	##된	O	O	O, B-LC, B-OG, B-PS, B-CV
-7	첨단	O	B-LC	B-LC, O, B-AF, B-TM, B-OG
-8	##의	O	I-LC	I-LC, O, B-LC, I-AF, I-TM
-9	##료	O	I-LC	I-LC, O, I-AF, B-LC, I-TM
-10	##복	O	I-LC	I-LC, O, I-AF, B-LC, I-TM
-11	##합	O	I-LC	I-LC, O, I-AF, I-TM, B-LC
-12	##단지	O	I-LC	I-LC, O, I-AF, I-TM, I-OG
-13	평가	O	O	O, B-LC, I-LC, B-OG, I-OG
-14	범위	O	O	O, B-OG, B-LC, B-CV, I-OG
-15	##가	O	O	O, B-PS, B-OG, B-LC, B-CV
-16	'	O	O	O, B-LC, B-CV, B-OG, B-PS
-17	해당	O	O	O, B-LC, B-OG, B-PS, B-TM
-18	자치	O	O	O, B-OG, B-CV, B-LC, I-OG
-19	##단체	O	O	O, I-OG, B-OG, I-CV, I-LC
-20	'	O	O	O, I-OG, B-CV, B-PS, B-LC
-21	가	O	O	O, B-PS, B-OG, B-LC, B-CV
-22	아닌	O	O	O, B-OG, B-LC, B-PS, B-CV
-23	'	O	O	O, B-LC, B-OG, B-CV, B-PS
-24	해당	O	O	O, B-LC, B-OG, B-PS, B-CV
-25	광역자치단체	O	O	O, B-OG, B-CV, I-OG, B-LC
-26	'	O	O	O, I-OG, B-CV, B-PS, I-CV
-27	로	O	O	O, B-PS, B-LC, B-OG, B-CV
-28	결정	O	O	O, B-OG, B-LC, B-CV, B-PS
-29	##돼	O	O	O, B-LC, B-PS, B-OG, B-CV
-30	원주	B-LC	B-LC	B-LC, B-OG, O, B-AF, B-EV
-31	유치	O	O	O, I-OG, I-LC, I-EV, I-AF
-32	##에	O	O	O, B-CV, B-LC, B-OG, B-TM
-33	긍정	O	O	O, B-TM, B-LC, B-CV, B-OG
-34	##적인	O	O	O, I-QT, I-TM, I-CV, B-PS
-35	효과	O	O	O, B-CV, B-LC, B-TM, B-PS
-36	##가	O	O	O, B-CV, B-OG, B-PS, B-LC
-37	기대	O	O	O, B-CV, B-TM, B-OG, B-QT
-38	##된	O	O	O, I-OG, B-CV, I-QT, I-CV
-39	##다	O	O	O, B-CV, B-TM, B-OG, I-OG
-40	.	O	O	O, B-LC, B-OG, B-PS, B-CV
-41	[SEP]	O	O	O, B-LC, B-CV, B-OG, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	BBC	B-OG	B-OG
+2	##는	O	O
+3	바라	B-PS	B-PS
+4	##크	I-PS	I-PS
+5	장관	B-CV	B-CV
+6	##이	O	O
+7	중국	B-OG	B-LC
+8	군	I-OG	B-OG
+9	(	O	O
+10	軍	O	O
+11	)	O	O
+12	관계자	B-CV	B-CV
+13	##는	O	O
+14	물론	O	O
+15	정부	B-OG	B-OG
+16	고위	O	B-CV
+17	인사	O	I-CV
+18	##와	O	O
+19	만나	O	O
+20	이란	B-LC	B-LC
+21	핵	B-AF	B-AF
+22	##위	O	O
+23	##협	O	O
+24	,	O	O
+25	중동	B-EV	B-EV
+26	##평	I-EV	I-EV
+27	##화	I-EV	I-EV
+28	##협상	I-EV	I-EV
+29	,	O	O
+30	역내	O	O
+31	테러	O	O
+32	문제	O	O
+33	등	O	O
+34	다양	O	O
+35	##한	O	O
+36	문제	O	O
+37	##에	O	O
+38	대해	O	O
+39	논의	O	O
+40	##할	O	O
+41	것	O	O
+42	##이	O	O
+43	##라고	O	O
+44	전했	O	O
+45	##다	O	O
+46	.	O	O
+47	[SEP]	O	O

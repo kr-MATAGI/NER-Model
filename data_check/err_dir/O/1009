@@ -1,19 +1,53 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-AF, I-CV
-1	[	O	O	O, B-OG, B-LC, B-CV, B-PS
-2	커튼	O	O	O, B-AF, B-TM, B-CV, B-PS
-3	뒤	O	O	O, I-AF, I-TM, I-TR, I-FD
-4	정치	O	O	O, B-FD, I-AF, I-FD, B-CV
-5	]	O	O	O, I-AF, I-OG, I-CV, I-EV
-6	울	O	O	O, B-AF, B-LC, B-PS, B-OG
-7	##고	O	O	O, I-AF, I-PS, I-LC, I-OG
-8	##싶	O	O	O, I-AF, I-PS, I-LC, I-OG
-9	##은	O	O	O, I-AF, I-PS, I-LC, I-OG
-10	박지원	B-PS	B-PS	B-PS, I-PS, O, B-OG, B-AF
-11	,	O	O	O, I-PS, I-AF, B-CV, I-OG
-12	뺨	B-AM	B-AM	B-AM, O, B-TR, B-TM, B-PS
-13	때려	O	O	O, I-AF, B-CV, B-LC, I-QT
-14	##준	O	O	O, B-LC, B-PS, B-CV, B-OG
-15	동	O	B-LC	B-LC, O, B-OG, B-AF, B-PS
-16	##교동	O	I-LC	I-LC, O, I-OG, I-AF, B-LC
-17	[SEP]	O	O	O, I-LC, I-AF, I-OG, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	지난해	B-DT	B-DT
+2	1	I-DT	I-DT
+3	##월	I-DT	I-DT
+4	##엔	O	O
+5	일본	B-LC	B-LC
+6	홋카이도	B-LC	B-LC
+7	지역	O	O
+8	##에	O	O
+9	상업	O	O
+10	##용	O	O
+11	최대	O	O
+12	##인	O	O
+13	31	B-QT	B-QT
+14	##M	I-QT	I-QT
+15	##W	I-QT	I-QT
+16	##h	I-QT	I-QT
+17	규모	O	O
+18	##의	O	O
+19	ESS	B-TM	B-TM
+20	배터리	I-TM	I-TM
+21	##를	O	O
+22	공급	O	O
+23	##했	O	O
+24	##고	O	O
+25	아프리카	B-LC	B-LC
+26	레	B-LC	B-LC
+27	##위	I-LC	I-LC
+28	##니	I-LC	I-LC
+29	##옹	I-LC	I-LC
+30	(	O	O
+31	Re	O	O
+32	##un	O	O
+33	##ion	O	O
+34	)	O	O
+35	에	O	O
+36	신재	O	O
+37	##생	O	I-FD
+38	##에	O	I-FD
+39	##너지	O	O
+40	출력	O	O
+41	안정	O	O
+42	##화	O	O
+43	##용	O	O
+44	ESS	B-TM	B-TM
+45	배터리	I-TM	I-TM
+46	##도	O	O
+47	공급	O	O
+48	##했	O	O
+49	##다	O	O
+50	.	O	O
+51	[SEP]	O	O

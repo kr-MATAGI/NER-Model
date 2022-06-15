@@ -1,32 +1,38 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-EV, I-OG, B-CV, I-CV
-1	이	O	O	O, B-PS, B-OG, B-LC, B-TM
-2	밖에	O	O	O, B-CV, I-AF, I-EV, B-QT
-3	##도	O	O	O, B-LC, B-EV, I-EV, B-AF
-4	화성	B-AF	B-AF	B-AF, B-LC, O, B-EV, B-OG
-5	##행	I-AF	I-AF	I-AF, I-LC, O, I-OG, I-EV
-6	##궁	I-AF	I-AF	I-AF, I-LC, O, I-OG, I-EV
-7	##에서	O	O	O, I-AF, I-EV, I-LC, I-OG
-8	##는	O	O	O, I-EV, I-AF, B-LC, B-OG
-9	이달	B-DT	B-DT	B-DT, O, I-DT, B-CV, B-QT
-10	##말	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-11	##부터	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-12	매주	O	O	O, I-DT, B-DT, B-QT, B-CV
-13	토요	B-DT	O	O, B-DT, B-EV, B-CV, B-QT
-14	##상	O	O	O, I-EV, B-EV, B-FD, B-CV
-15	##설	O	O	O, I-EV, I-FD, B-FD, B-EV
-16	##공	O	O	O, I-EV, B-EV, B-FD, I-FD
-17	##연	O	O	O, I-EV, I-FD, B-EV, B-FD
-18	##이	O	O	O, I-EV, B-PS, B-EV, B-CV
-19	오후	B-TI	B-TI	B-TI, B-EV, O, B-QT, B-LC
-20	2	I-TI	I-TI	I-TI, I-EV, B-TI, I-QT, I-TR
-21	##시	I-TI	I-TI	I-TI, I-QT, O, I-EV, I-TR
-22	신	B-AF	B-AF	B-AF, O, B-LC, I-AF, B-PS
-23	##풍	I-AF	I-AF	I-AF, O, I-LC, I-PS, I-OG
-24	##루	I-AF	I-AF	I-AF, O, I-LC, I-PS, I-EV
-25	앞	B-TM	B-TM	B-TM, O, I-AF, I-TM, B-LC
-26	광장	O	O	O, I-LC, I-TM, B-LC, I-AF
-27	##에서	O	O	O, I-LC, I-QT, B-CV, B-LC
-28	열린다	O	O	O, B-CV, B-EV, B-LC, B-AF
-29	.	O	O	O, B-LC, I-EV, B-CV, B-EV
-30	[SEP]	O	O	O, B-LC, I-EV, B-CV, B-EV
+	text	label	preds
+0	[CLS]	O	O
+1	강릉	B-OG	B-OG
+2	##시	I-OG	I-OG
+3	##는	O	O
+4	설	B-DT	B-DT
+5	다음	B-DT	I-DT
+6	##날	I-DT	I-DT
+7	##인	O	O
+8	20	B-DT	B-DT
+9	##일	I-DT	I-DT
+10	오전	B-TI	B-TI
+11	10	I-TI	I-TI
+12	##시	I-TI	I-TI
+13	##부터	I-TI	I-TI
+14	성산	B-LC	B-LC
+15	##면	I-LC	I-LC
+16	위	B-LC	B-LC
+17	##촌	I-LC	I-LC
+18	##리	I-LC	I-LC
+19	마을	O	O
+20	##회관	O	O
+21	##에	O	O
+22	##서	O	O
+23	위	B-LC	B-LC
+24	##촌	I-LC	I-LC
+25	##리	I-LC	I-LC
+26	도배	O	I-EV
+27	##식	O	I-EV
+28	##이	O	O
+29	열린다	O	O
+30	##고	O	O
+31	17	B-DT	B-DT
+32	##일	I-DT	I-DT
+33	밝혔	O	O
+34	##다	O	O
+35	.	O	O
+36	[SEP]	O	O

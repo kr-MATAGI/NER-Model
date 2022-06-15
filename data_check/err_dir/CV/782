@@ -1,24 +1,39 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	예	O	O	O, B-CV, B-OG, B-FD, B-LC
-2	.	O	O	O, B-CV, B-LC, B-PS, I-CV
-3	그	O	O	O, B-CV, B-LC, B-FD, B-OG
-4	인제	O	O	O, B-CV, B-FD, B-LC, B-PS
-5	교원	B-CV	O	O, B-CV, I-CV, B-FD, B-TR
-6	평가	O	O	O, I-CV, B-CV, I-EV, I-TR
-7	같	O	O	O, I-CV, B-CV, I-EV, I-OG
-8	##은	O	O	O, I-CV, B-CV, I-OG, B-PS
-9	경우	O	O	O, B-CV, B-FD, B-PS, B-OG
-10	##도	O	O	O, B-CV, I-CV, B-PS, B-LC
-11	이제	O	O	O, B-CV, B-OG, B-TM, B-LC
-12	좋	O	O	O, B-CV, B-LC, B-TM, B-FD
-13	##은	O	O	O, B-CV, I-CV, B-PS, B-LC
-14	예	O	O	O, B-CV, B-FD, B-LC, B-PS
-15	사례	O	O	O, B-CV, B-FD, B-LC, B-PS
-16	##라고	O	O	O, I-CV, B-CV, B-PS, B-OG
-17	생각	O	O	O, B-CV, B-TM, B-OG, B-LC
-18	##하	O	O	O, B-CV, B-PS, I-CV, B-OG
-19	##는데	O	O	O, B-CV, B-LC, B-OG, B-QT
-20	##요	O	O	O, B-CV, B-LC, B-OG, B-QT
-21	.	O	O	O, B-CV, B-LC, B-PS, I-CV
-22	[SEP]	O	O	O, B-CV, B-FD, B-LC, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	靑	O	B-OG
+2	서	O	O
+3	언론사	O	O
+4	정치	B-CV	O
+5	##부	I-CV	O
+6	##장	I-CV	O
+7	##단	I-CV	O
+8	##과	O	O
+9	만찬	O	O
+10	“	O	O
+11	윤창중	B-PS	B-PS
+12	##이	O	O
+13	그런	O	O
+14	인물	O	O
+15	##이	O	O
+16	##었	O	O
+17	##나	O	O
+18	…	O	O
+19	실망	O	O
+20	수사	O	O
+21	##결	O	O
+22	##과	O	O
+23	봐서	O	O
+24	필요	O	O
+25	##하면	O	O
+26	추가	O	O
+27	조치	O	O
+28	”	O	O
+29	尹	O	B-PS
+30	직권	O	O
+31	##면	O	O
+32	##직	O	O
+33	…	O	O
+34	공무원	B-CV	B-CV
+35	신분	O	O
+36	박탈	O	O
+37	[SEP]	O	O

@@ -1,16 +1,45 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, I-OG, B-CV, I-AF
-1	이런	O	O	O, B-CV, B-LC, B-OG, B-PS
-2	농부	B-CV	B-CV	B-CV, O, B-OG, B-TM, B-AF
-3	##들이	O	O	O, I-CV, I-OG, B-CV, I-AF
-4	대한민국	B-LC	B-LC	B-LC, O, B-OG, B-AF, I-LC
-5	##의	O	O	O, I-LC, I-OG, I-AF, B-LC
-6	많이	O	O	O, B-OG, B-LC, B-CV, I-OG
-7	만들	O	O	O, B-LC, B-CV, B-OG, B-PS
-8	##어졌	O	O	O, B-CV, I-OG, B-LC, B-PS
-9	##을	O	O	O, B-CV, B-OG, B-LC, B-PS
-10	때	O	O	O, B-CV, B-OG, B-PS, B-LC
-11	우리	O	O	O, B-CV, B-OG, B-LC, B-FD
-12	농업	O	B-FD	B-FD, O, B-OG, I-FD, B-CV
-13	##은	O	O	O, I-OG, I-AF, I-FD, I-CV
-14	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	새	B-OG	B-OG
+2	##누리	I-OG	I-OG
+3	##당	I-OG	I-OG
+4	##은	O	O
+5	23	B-DT	B-DT
+6	##일	I-DT	I-DT
+7	국회	B-OG	B-OG
+8	##에	O	O
+9	##서	O	O
+10	열린	O	O
+11	최고위	O	B-EV
+12	##원회	O	I-EV
+13	##의	O	I-EV
+14	비	O	O
+15	##공	O	O
+16	##개	O	O
+17	##회의	O	O
+18	##에	O	O
+19	##서	O	O
+20	부실	O	O
+21	당원	O	B-OG
+22	##협	O	I-OG
+23	##의	O	I-OG
+24	##회	O	I-OG
+25	(	O	O
+26	옛	O	O
+27	지구	B-OG	B-OG
+28	##당	I-OG	I-OG
+29	)	O	O
+30	에	O	O
+31	대한	O	O
+32	위원장	B-CV	B-CV
+33	교체	O	O
+34	방안	O	O
+35	##을	O	O
+36	논의	O	O
+37	##한	O	O
+38	것	O	O
+39	##으로	O	O
+40	알려졌	O	O
+41	##다	O	O
+42	.	O	O
+43	[SEP]	O	O

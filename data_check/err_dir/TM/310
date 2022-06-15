@@ -1,66 +1,23 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	1974	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-2	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-3	1	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-4	##월	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-5	31	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-6	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-7	일기	O	O	O, I-DT, B-CV, B-AF, B-LC
-8	##에	O	O	O, I-AF, I-CV, B-CV, I-DT
-9	##는	O	O	O, B-CV, B-LC, B-OG, B-PS
-10	‘	O	O	O, B-CV, B-LC, B-PS, B-OG
-11	월	O	O	O, B-DT, I-DT, B-CV, B-OG
-12	##말	O	I-DT	I-DT, O, B-DT, I-CV, I-AF
-13	총	O	O	O, I-DT, B-CV, B-QT, B-PS
-14	##지	O	O	O, B-CV, B-PS, I-CV, I-AF
-15	##출	O	O	O, I-CV, B-CV, B-PS, I-AF
-16	##금	O	O	O, B-CV, I-CV, B-PS, I-AF
-17	##액	O	O	O, I-CV, B-PS, I-AF, I-LC
-18	’	O	O	O, B-CV, B-PS, B-LC, B-OG
-19	1	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-PS
-20	##만	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-21	440	I-QT	I-QT	I-QT, B-QT, O, I-LC, I-PS
-22	##원	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-23	##의	O	O	O, I-QT, B-CV, B-PS, B-LC
-24	내역	O	O	O, B-CV, B-TM, B-LC, B-PS
-25	##이	O	O	O, B-PS, B-CV, B-LC, B-OG
-26	옷	O	O	O, B-CV, B-TM, B-AF, B-LC
-27	##값	O	O	O, I-CV, B-CV, I-AF, I-TM
-28	,	O	O	O, B-CV, B-PS, B-LC, B-TM
-29	쌀값	O	O	O, B-CV, B-TM, B-AF, B-LC
-30	,	O	O	O, B-CV, B-PS, I-CV, B-LC
-31	의료비	O	O	O, B-CV, B-TM, B-FD, B-AF
-32	##에서	O	O	O, I-CV, B-PS, B-CV, I-AF
-33	##부터	O	O	O, B-LC, B-CV, B-PS, B-TM
-34	교통비	O	O	O, B-CV, B-TM, B-AF, B-LC
-35	,	O	O	O, I-CV, B-CV, B-PS, B-LC
-36	빨래	O	O	O, B-TM, B-CV, B-LC, B-AF
-37	##줄	O	O	O, I-AF, I-TM, I-CV, I-LC
-38	값	O	O	O, I-AF, I-CV, B-CV, I-LC
-39	,	O	O	O, B-CV, B-LC, B-PS, B-TM
-40	감기	B-TM	B-TM	B-TM, O, B-CV, B-AF, B-TR
-41	##약	I-TM	O	O, I-TM, I-CV, B-TM, I-AF
-42	##값	O	O	O, I-TM, I-CV, I-AF, I-LC
-43	,	O	O	O, B-CV, B-LC, B-PS, B-OG
-44	조합	O	O	O, B-CV, B-TM, B-AF, B-LC
-45	##비	O	O	O, I-CV, I-AF, I-LC, B-CV
-46	,	O	O	O, B-CV, B-PS, B-LC, B-TM
-47	아이	O	O	O, B-CV, B-AM, B-TM, B-AF
-48	용돈	O	O	O, I-CV, B-CV, I-AF, I-TM
-49	##까	O	O	O, B-PS, B-CV, B-TM, B-LC
-50	##지	O	O	O, B-CV, B-LC, B-PS, B-TM
-51	수십	O	O	O, B-PS, B-LC, B-CV, B-TM
-52	가지	O	O	O, B-QT, B-PS, I-QT, B-LC
-53	세	O	O	O, B-QT, B-PS, B-CV, I-QT
-54	##목	O	O	O, I-QT, I-PS, I-LC, I-CV
-55	##으로	O	O	O, I-QT, B-PS, B-CV, B-OG
-56	꼼꼼	O	O	O, B-TM, B-CV, B-LC, B-PS
-57	##하	O	O	O, B-PS, B-LC, B-OG, B-CV
-58	##게	O	O	O, B-LC, B-PS, B-OG, B-CV
-59	기록	O	O	O, B-CV, B-LC, B-TM, B-OG
-60	##돼	O	O	O, B-LC, B-PS, B-CV, I-AF
-61	있	O	O	O, B-CV, B-LC, B-PS, B-OG
-62	##다	O	O	O, B-CV, B-TM, B-LC, I-AF
-63	.	O	O	O, B-LC, B-CV, B-PS, B-AF
-64	[SEP]	O	O	O, B-CV, B-LC, B-AF, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	이렇게	O	O
+2	자신감	O	O
+3	##도	O	O
+4	없	O	O
+5	##는	O	O
+6	정부	B-OG	B-OG
+7	##가	O	O
+8	어떻게	O	O
+9	‘	O	O
+10	신뢰	B-TM	O
+11	프로세스	I-TM	O
+12	’	O	O
+13	는	O	O
+14	추진	O	O
+15	##한다	O	O
+16	##는	O	O
+17	것	O	O
+18	##일	O	O
+19	##까	O	O
+20	.	O	O
+21	[SEP]	O	O

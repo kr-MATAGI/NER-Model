@@ -1,11 +1,59 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-EV, I-OG, I-CV, B-CV
-1	“	O	O	O, B-LC, B-PS, B-CV, B-EV
-2	원내대표	B-EV	B-CV	B-CV, B-EV, O, I-EV, B-AF
-3	선거	I-EV	O	O, I-EV, B-EV, I-CV, B-CV
-4	화합	O	O	O, I-EV, B-PS, B-LC, B-EV
-5	##의	O	O	O, B-PS, I-EV, B-LC, I-OG
-6	장	O	O	O, B-CV, B-EV, B-LC, B-PS
-7	돼야	O	O	O, B-PS, B-LC, I-EV, B-OG
-8	”	O	O	O, B-PS, B-LC, I-EV, B-CV
-9	[SEP]	O	O	O, B-CV, B-LC, B-PS, I-EV
+	text	label	preds
+0	[CLS]	O	O
+1	지난	B-DT	B-DT
+2	18	I-DT	I-DT
+3	##일	I-DT	I-DT
+4	서울	B-LC	B-LC
+5	강남구	B-OG	B-LC
+6	삼성	B-LC	B-LC
+7	##동	I-LC	I-LC
+8	한식	O	B-CV
+9	##집	O	O
+10	##에	O	O
+11	##서	O	O
+12	저녁	O	O
+13	식사	O	O
+14	##를	O	O
+15	하	O	O
+16	##던	O	O
+17	사	O	B-PS
+18	##공	O	I-PS
+19	##일	O	I-PS
+20	(	O	O
+21	司	O	O
+22	空	O	O
+23	[UNK]	O	O
+24	)	O	O
+25	G	B-OG	B-EV
+26	##20	I-OG	I-EV
+27	##정	B-EV	I-EV
+28	##상	I-EV	I-EV
+29	##회의	I-EV	I-EV
+30	한국	B-EV	B-CV
+31	##기획	I-EV	I-CV
+32	##조	I-EV	I-CV
+33	##정	I-EV	I-CV
+34	##위원	I-EV	I-CV
+35	##장	I-EV	I-CV
+36	(	O	O
+37	한국	B-CV	B-CV
+38	##무역	I-CV	I-CV
+39	##협회	I-CV	I-CV
+40	##장	I-CV	I-CV
+41	)	O	O
+42	은	O	O
+43	비서	B-CV	B-CV
+44	##의	O	O
+45	연락	O	O
+46	##을	O	O
+47	받	O	O
+48	##고	O	O
+49	황급	O	O
+50	##하	O	O
+51	##게	O	O
+52	자리	O	O
+53	##를	O	O
+54	떴	O	O
+55	##다	O	O
+56	.	O	O
+57	[SEP]	O	O

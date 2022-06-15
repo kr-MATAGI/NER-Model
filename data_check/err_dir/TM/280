@@ -1,79 +1,48 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	검찰	B-OG	B-OG	B-OG, B-LC, O, B-AF, B-CV
-2	##이	O	O	O, I-OG, B-PS, I-EV, B-CV
-3	서울시	B-EV	B-EV	B-EV, B-LC, B-OG, O, B-AF
-4	공무원	I-EV	I-EV	I-EV, B-CV, B-EV, O, I-CV
-5	간첩	I-EV	I-EV	I-EV, O, B-EV, B-CV, I-CV
-6	##사건	I-EV	I-EV	I-EV, O, I-CV, I-OG, B-EV
-7	피고인	B-CV	B-CV	B-CV, O, I-EV, I-CV, B-OG
-8	유	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-9	##우	I-PS	I-PS	I-PS, O, I-OG, B-PS, I-LC
-10	##성	I-PS	I-PS	I-PS, O, I-OG, I-LC, B-LC
-11	(	O	O	O, I-PS, I-OG, B-CV, B-LC
-12	류	B-PS	B-PS	B-PS, B-OG, O, B-LC, I-PS
-13	##자	I-PS	I-PS	I-PS, O, I-OG, B-PS, I-LC
-14	##강	I-PS	I-PS	I-PS, O, I-OG, I-LC, B-PS
-15	·	O	O	O, I-PS, B-CV, I-OG, B-LC
-16	34	B-QT	B-QT	B-QT, O, I-QT, B-TM, B-DT
-17	)	O	O	O, I-QT, I-DT, I-OG, B-CV
-18	씨	O	O	O, B-CV, B-PS, B-OG, B-LC
-19	##가	O	O	O, B-PS, B-CV, B-OG, B-LC
-20	북한	B-LC	B-LC	B-LC, B-OG, O, B-PS, B-AF
-21	국가	B-OG	B-OG	B-OG, O, I-OG, B-CV, B-AF
-22	##안전	I-OG	I-OG	I-OG, O, B-OG, I-CV, I-LC
-23	##보	I-OG	I-OG	I-OG, O, B-OG, I-CV, I-LC
-24	##위	I-OG	I-OG	I-OG, O, I-CV, B-OG, I-LC
-25	##부	I-OG	I-OG	I-OG, O, I-CV, I-LC, B-OG
-26	##에	O	O	O, I-OG, B-CV, I-CV, B-PS
-27	노트북	B-TM	B-TM	B-TM, O, B-CV, B-AF, B-TR
-28	##컴	B-TM	I-TM	I-TM, B-TM, O, B-CV, I-QT
-29	##퓨	I-TM	I-TM	I-TM, O, I-QT, B-TM, I-CV
-30	##터	I-TM	I-TM	I-TM, O, I-QT, I-CV, I-AF
-31	##를	O	O	O, I-TM, B-CV, I-QT, I-CV
-32	건넨	O	O	O, B-CV, B-PS, B-LC, B-OG
-33	혐의	O	O	O, B-CV, I-CV, B-PS, B-LC
-34	(	O	O	O, I-CV, B-PS, B-CV, B-LC
-35	국가	B-CV	B-CV	B-CV, O, B-OG, B-FD, I-CV
-36	##보	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-FD
-37	##안	I-CV	I-CV	I-CV, O, I-OG, B-CV, I-FD
-38	##법	I-CV	I-CV	I-CV, O, I-OG, B-CV, I-FD
-39	##상	O	O	O, I-CV, I-OG, I-QT, B-PS
-40	편의	O	O	O, B-CV, B-PS, B-LC, B-OG
-41	제공	O	O	O, B-CV, I-CV, B-PS, B-LC
-42	)	O	O	O, B-CV, I-CV, B-PS, B-LC
-43	를	O	O	O, B-CV, B-PS, B-LC, B-OG
-44	뒷받침	O	O	O, B-CV, B-LC, B-PS, B-TM
-45	##할	O	O	O, B-LC, B-PS, B-CV, B-OG
-46	새로운	O	O	O, B-CV, B-LC, B-PS, B-TM
-47	증거	O	O	O, B-CV, B-LC, B-PS, B-TM
-48	##를	O	O	O, B-CV, B-PS, B-OG, B-LC
-49	확보	O	O	O, B-CV, B-LC, B-PS, B-TM
-50	##했	O	O	O, B-PS, B-LC, B-OG, B-CV
-51	##다	O	O	O, B-PS, B-LC, B-CV, B-OG
-52	##며	O	O	O, B-LC, B-PS, B-OG, B-CV
-53	항소심	O	O	O, B-CV, B-OG, B-LC, B-PS
-54	재판부	O	O	O, B-CV, B-OG, I-CV, B-LC
-55	##인	O	O	O, I-CV, B-PS, I-OG, B-CV
-56	서울	B-OG	B-OG	B-OG, B-AF, B-LC, O, B-PS
-57	##고	I-OG	I-OG	I-OG, O, B-OG, I-AF, I-LC
-58	##법	I-OG	I-OG	I-OG, O, I-LC, I-AF, B-OG
-59	형사	O	O	O, I-OG, B-QT, B-TM, B-CV
-60	##7	O	O	O, B-QT, I-QT, B-TM, B-LC
-61	##부	O	O	O, I-QT, B-QT, I-LC, I-OG
-62	(	O	O	O, I-QT, B-CV, B-PS, I-OG
-63	부장	B-CV	B-CV	B-CV, O, B-TM, I-CV, B-OG
-64	##판	I-CV	I-CV	I-CV, B-CV, O, I-OG, I-QT
-65	##사	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-TM
-66	김흥	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-67	##준	I-PS	I-PS	I-PS, O, I-OG, B-PS, I-LC
-68	)	O	O	O, I-PS, I-OG, B-CV, B-LC
-69	에	O	O	O, B-CV, B-LC, B-OG, B-TM
-70	변론	O	O	O, B-CV, B-TM, B-LC, B-OG
-71	재개	O	O	O, B-CV, I-CV, B-TM, I-OG
-72	##를	O	O	O, B-CV, B-OG, B-LC, B-PS
-73	신청	O	O	O, B-CV, B-TM, B-LC, B-OG
-74	##했	O	O	O, B-CV, B-OG, B-LC, B-PS
-75	##다	O	O	O, B-CV, B-LC, B-TM, B-OG
-76	.	O	O	O, B-LC, B-CV, B-OG, B-PS
-77	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	김현수	B-PS	B-PS
+2	##의	O	O
+3	내야	O	O
+4	##안	O	O
+5	##타로	O	O
+6	3	B-TM	B-TM
+7	##루	I-TM	I-TM
+8	##에	O	O
+9	도착	O	O
+10	##한	O	O
+11	조	B-PS	B-PS
+12	##너	I-PS	I-PS
+13	##선	I-PS	I-PS
+14	스코	I-PS	I-PS
+15	##프	I-PS	I-PS
+16	##는	O	O
+17	조이	B-PS	B-PS
+18	리카	I-PS	I-PS
+19	##드	I-PS	I-PS
+20	##의	O	O
+21	중견수	B-CV	B-CV
+22	희생	B-TM	B-TM
+23	##플	I-TM	I-TM
+24	##라이	I-TM	I-TM
+25	##로	O	O
+26	홈	B-TM	O
+27	##을	O	O
+28	밟	O	O
+29	##았	O	O
+30	##고	O	O
+31	김현수	B-PS	B-PS
+32	##도	O	O
+33	매니	B-PS	B-PS
+34	마차	I-PS	I-PS
+35	##도	I-PS	I-PS
+36	##의	O	O
+37	2	B-TM	B-TM
+38	##점	I-TM	I-TM
+39	홈런	I-TM	I-TM
+40	때	O	O
+41	득점	O	O
+42	##을	O	O
+43	올렸	O	O
+44	##다	O	O
+45	.	O	O
+46	[SEP]	O	O

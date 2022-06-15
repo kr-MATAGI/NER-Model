@@ -1,12 +1,29 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	미각	O	O	O, B-TM, B-AM, B-CV, B-PS
-2	안	O	O	O, B-TM, B-PS, B-AM, B-TR
-3	##에서	O	O	O, I-AF, B-PS, I-PS, I-QT
-4	있	O	O	O, B-CV, B-QT, B-TM, B-PS
-5	##는	O	O	O, B-CV, B-PS, B-QT, I-AF
-6	오감	O	B-QT	B-QT, O, B-TM, B-CV, B-PS
-7	##인	O	O	O, I-QT, I-CV, I-EV, I-AF
-8	##데요	O	O	O, B-CV, I-QT, B-OG, B-TM
-9	.	O	O	O, B-CV, B-OG, B-LC, B-TM
-10	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	포탄	B-AF	B-AF
+2	성능	O	O
+3	검사	O	O
+4	안전	O	O
+5	관련	O	O
+6	규정	O	O
+7	##에	O	O
+8	##는	O	O
+9	참가자	B-CV	B-CV
+10	##들이	O	O
+11	방탄	B-CV	B-CV
+12	##복	I-CV	I-CV
+13	##과	O	O
+14	안전	B-CV	B-CV
+15	##모	I-CV	I-CV
+16	,	O	O
+17	안전	O	B-CV
+18	##화	O	I-CV
+19	##를	O	O
+20	착용	O	O
+21	##해야	O	O
+22	한다고	O	O
+23	돼	O	O
+24	있	O	O
+25	##다	O	O
+26	.	O	O
+27	[SEP]	O	O

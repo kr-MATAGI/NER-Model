@@ -1,40 +1,27 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-EV, I-CV
-1	충남	B-OG	B-OG	B-OG, B-LC, O, B-PS, B-EV
-2	##대	I-OG	I-OG	I-OG, I-LC, O, I-PS, I-EV
-3	록	O	B-FD	B-FD, O, I-OG, B-OG, B-AF
-4	##밴드	O	O	O, I-OG, I-FD, I-AF, I-LC
-5	##동아	O	O	O, I-OG, B-OG, I-FD, I-CV
-6	##리	O	O	O, I-OG, B-OG, I-CV, I-FD
-7	'	O	O	O, I-OG, B-OG, B-LC, B-CV
-8	백마	B-PS	B-OG	B-OG, B-PS, B-AF, B-LC, O
-9	##들	I-PS	I-OG	I-OG, I-PS, O, I-LC, I-AF
-10	'	O	O	O, I-OG, I-PS, I-EV, I-AF
-11	,	O	O	O, B-OG, B-LC, I-OG, B-PS
-12	어린이	O	B-OG	B-OG, O, B-CV, B-AF, B-LC
-13	발레단	O	I-OG	I-OG, O, B-OG, B-FD, I-FD
-14	'	O	O	O, I-OG, B-OG, I-EV, I-DT
-15	섀도우	B-OG	B-OG	B-OG, O, B-AF, B-PS, B-LC
-16	##에	I-OG	I-OG	I-OG, O, I-LC, I-AF, I-PS
-17	##뚜	I-OG	I-OG	I-OG, O, I-LC, I-AF, I-PS
-18	##왈	I-OG	I-OG	I-OG, O, I-LC, I-PS, I-AF
-19	##발	I-OG	I-OG	I-OG, O, I-LC, I-PS, I-AF
-20	##레	I-OG	I-OG	I-OG, O, I-LC, I-AF, I-PS
-21	##단	I-OG	I-OG	I-OG, O, I-LC, I-PS, I-AF
-22	'	O	O	O, I-OG, I-AF, I-PS, B-CV
-23	,	O	O	O, B-LC, B-OG, I-OG, B-CV
-24	재즈	B-FD	B-FD	B-FD, O, B-CV, B-AF, B-OG
-25	##댄	I-FD	I-FD	I-FD, O, B-FD, I-OG, I-AF
-26	##스	I-FD	I-FD	I-FD, O, I-OG, B-FD, I-AF
-27	등	O	O	O, I-FD, I-OG, B-CV, I-AF
-28	##의	O	O	O, B-OG, B-CV, B-LC, B-PS
-29	공연	O	O	O, B-EV, B-CV, B-FD, B-LC
-30	##이	O	O	O, B-PS, B-OG, B-CV, I-EV
-31	흥	O	O	O, B-CV, B-LC, I-EV, B-EV
-32	##을	O	O	O, B-CV, I-OG, I-EV, I-AF
-33	돋	O	O	O, B-CV, B-LC, B-PS, B-OG
-34	##울	O	O	O, B-CV, B-LC, B-PS, I-EV
-35	예정	O	O	O, B-CV, B-EV, B-OG, B-LC
-36	##이다	O	O	O, B-CV, I-EV, I-OG, B-OG
-37	.	O	O	O, B-OG, B-LC, I-OG, B-CV
-38	[SEP]	O	O	O, I-OG, B-OG, B-LC, B-CV
+	text	label	preds
+0	[CLS]	O	O
+1	안	B-PS	B-PS
+2	부시장	B-CV	B-CV
+3	##은	O	O
+4	경기도	B-LC	B-LC
+5	대중교통	B-CV	B-CV
+6	##과	I-CV	I-CV
+7	##장	I-CV	I-CV
+8	##과	O	O
+9	경기도	O	B-OG
+10	##의	O	I-OG
+11	##회사	O	I-OG
+12	##무	O	I-OG
+13	##처	O	I-OG
+14	문화	B-CV	B-CV
+15	##공	I-CV	I-CV
+16	##보	I-CV	I-CV
+17	##전	I-CV	I-CV
+18	##문	I-CV	I-CV
+19	##위원	I-CV	I-CV
+20	등	O	O
+21	##을	O	O
+22	지냈	O	O
+23	##다	O	O
+24	.	O	O
+25	[SEP]	O	O

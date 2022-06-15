@@ -1,23 +1,40 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, I-OG, B-CV, I-EV
-1	이날	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-2	##은	O	O	O, I-DT, B-CV, I-QT, I-EV
-3	오릭스	B-OG	B-OG	B-OG, B-LC, O, B-PS, I-OG
-4	##와	O	O	O, I-OG, I-AF, I-CV, B-CV
-5	한국	B-OG	B-OG	B-OG, B-LC, O, I-OG, B-AF
-6	##관광	I-OG	I-OG	I-OG, O, I-LC, B-OG, I-AF
-7	##공사	I-OG	I-OG	I-OG, O, I-LC, I-AF, B-OG
-8	##가	O	O	O, I-OG, I-AF, B-PS, B-CV
-9	함께	O	O	O, B-QT, B-DT, B-OG, B-CV
-10	지정	O	O	O, B-CV, B-OG, B-PS, B-DT
-11	##한	O	O	O, B-PS, B-LC, B-OG, B-DT
-12	'	O	O	O, B-CV, B-DT, B-LC, B-OG
-13	코리안	O	B-DT	B-DT, B-EV, B-LC, B-AF, B-OG
-14	##데이	O	I-DT	I-DT, I-EV, O, I-AF, I-OG
-15	'	O	O	O, I-DT, I-EV, I-OG, I-AF
-16	첫날	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-17	##이	O	O	O, I-DT, I-EV, B-CV, I-QT
-18	##었	O	O	O, B-CV, B-OG, I-OG, B-LC
-19	##다	O	O	O, B-CV, B-OG, B-LC, I-OG
-20	.	O	O	O, B-OG, B-LC, B-CV, B-PS
-21	[SEP]	O	O	O, B-CV, B-OG, B-LC, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	올	B-DT	B-DT
+2	12	I-DT	I-DT
+3	##월	I-DT	I-DT
+4	##로	O	O
+5	예상	O	O
+6	##되	O	O
+7	##는	O	O
+8	전당	O	B-EV
+9	##대	O	I-EV
+10	##회	O	I-EV
+11	##에	O	O
+12	##서	O	O
+13	유력	O	O
+14	##한	O	O
+15	당	O	O
+16	대표	B-CV	B-CV
+17	후보	B-CV	B-CV
+18	##로	O	O
+19	거론	O	O
+20	##되	O	O
+21	##는	O	O
+22	박	B-PS	B-PS
+23	원내대표	B-CV	B-CV
+24	##도	O	O
+25	18	B-QT	B-QT
+26	##대	I-QT	I-QT
+27	총선	B-DT	B-DT
+28	때	I-DT	I-DT
+29	무소	O	O
+30	##속	O	O
+31	##으로	O	O
+32	당선	O	O
+33	##돼	O	O
+34	복당	O	O
+35	##했	O	O
+36	##다	O	O
+37	.	O	O
+38	[SEP]	O	O

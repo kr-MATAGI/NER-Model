@@ -1,49 +1,7 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, I-OG, B-CV, I-EV
-1	""""	O	O	O, B-LC, B-CV, B-PS, B-DT
-2	2012	B-DT	B-DT	B-DT, I-DT, O, B-QT, B-LC
-3	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-4	봄	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-5	##에	O	O	O, I-DT, B-CV, B-LC, I-EV
-6	프랑크푸르트	B-LC	B-LC	B-LC, O, B-OG, B-AF, B-EV
-7	오페라	B-FD	B-FD	B-FD, I-FD, O, I-AF, I-LC
-8	##에서	O	O	O, I-AF, I-FD, I-OG, I-EV
-9	'	O	O	O, B-LC, B-CV, B-OG, B-PS
-10	라	B-AF	B-PS	B-PS, B-AF, B-OG, O, B-LC
-11	##보	I-AF	I-PS	I-PS, I-AF, I-OG, O, B-PS
-12	##엠	I-AF	I-PS	I-PS, I-AF, I-OG, O, I-LC
-13	'	O	O	O, I-AF, I-PS, I-OG, I-EV
-14	을	O	O	O, B-CV, B-LC, B-PS, B-OG
-15	지휘	O	O	O, B-CV, B-FD, B-LC, B-PS
-16	##했	O	O	O, B-PS, B-LC, B-CV, B-OG
-17	##는데	O	O	O, B-PS, B-LC, B-CV, B-OG
-18	,	O	O	O, B-LC, B-CV, B-PS, B-OG
-19	극장	O	O	O, B-CV, B-LC, B-PS, B-OG
-20	##장이	O	O	O, B-PS, B-LC, I-CV, B-CV
-21	매우	O	O	O, B-PS, B-LC, B-CV, B-OG
-22	만족	O	O	O, B-PS, B-LC, B-CV, B-OG
-23	##해하	O	O	O, B-PS, I-PS, B-LC, I-OG
-24	##면서	O	O	O, B-PS, B-LC, I-PS, B-OG
-25	2014	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-LC
-26	##년	I-DT	I-DT	I-DT, O, B-DT, I-PS, I-QT
-27	가을	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-28	##에	O	O	O, I-DT, B-PS, B-CV, B-LC
-29	올라갈	O	O	O, B-PS, B-LC, B-AF, B-OG
-30	벨리	B-PS	B-PS	B-PS, I-PS, O, B-LC, B-AF
-31	##니	I-PS	I-PS	I-PS, O, I-LC, I-AF, I-OG
-32	##의	O	O	O, I-PS, I-AF, B-LC, I-OG
-33	'	O	O	O, B-LC, B-CV, B-FD, B-OG
-34	몽	B-AF	B-AF	B-AF, B-PS, O, I-AF, B-LC
-35	##유	I-AF	I-AF	I-AF, O, I-PS, I-CV, I-EV
-36	##병	I-AF	I-AF	I-AF, O, I-PS, I-CV, I-QT
-37	##의	I-AF	I-AF	I-AF, O, I-PS, I-QT, I-CV
-38	여인	I-AF	I-AF	I-AF, O, I-CV, I-QT, I-PS
-39	'	O	O	O, I-AF, I-CV, I-EV, I-QT
-40	지휘	O	O	O, B-CV, B-FD, B-LC, B-PS
-41	##를	O	O	O, B-PS, B-LC, B-CV, B-OG
-42	즉석	O	O	O, B-LC, B-PS, B-CV, B-OG
-43	##에서	O	O	O, B-PS, B-LC, B-OG, B-CV
-44	맡겼	O	O	O, B-CV, B-PS, B-LC, B-OG
-45	##어요	O	O	O, B-CV, B-PS, B-LC, I-OG
-46	.	O	O	O, B-LC, B-PS, B-CV, B-OG
-47	[SEP]	O	O	O, B-LC, B-CV, B-PS, B-FD
+	text	label	preds
+0	[CLS]	O	O
+1	어	O	O
+2	배	B-AF	B-AM
+3	##가	O	O
+4	좀	O	O
+5	[SEP]	O	O

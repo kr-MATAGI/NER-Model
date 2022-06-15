@@ -1,55 +1,59 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-EV, B-CV, I-CV, I-OG
-1	안	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
-2	후보	B-CV	B-CV	B-CV, O, I-PS, I-CV, B-EV
-3	##는	O	O	O, I-CV, I-EV, B-CV, I-AF
-4	이날	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-LC
-5	서울	B-LC	B-LC	B-LC, O, B-OG, I-DT, I-LC
-6	종로구	B-LC	B-LC	B-LC, O, I-LC, B-OG, B-AF
-7	공평	B-LC	B-LC	B-LC, O, I-LC, B-AF, B-OG
-8	##동	I-LC	I-LC	I-LC, O, I-AF, I-PS, B-LC
-9	캠프	O	O	O, I-LC, B-CV, I-AF, B-AF
-10	##사	O	O	O, I-AF, I-LC, B-AF, B-LC
-11	##무실	O	O	O, I-AF, I-LC, I-CV, B-LC
-12	##에	O	O	O, B-LC, I-AF, B-PS, B-CV
-13	##선	O	O	O, B-LC, B-EV, B-PS, B-CV
-14	‘	O	O	O, B-EV, B-LC, I-EV, B-CV
-15	소통	O	B-EV	B-EV, O, B-OG, I-EV, B-CV
-16	##과	O	I-EV	I-EV, O, I-OG, I-AF, I-LC
-17	참여	O	I-EV	I-EV, O, I-OG, I-AF, I-TM
-18	##를	O	I-EV	I-EV, O, I-OG, I-AF, I-TM
-19	위한	O	I-EV	I-EV, O, I-OG, I-AF, I-TM
-20	정치	O	I-EV	I-EV, O, B-EV, I-OG, I-AF
-21	##혁	O	I-EV	I-EV, O, I-OG, I-AF, I-TM
-22	##신	O	I-EV	I-EV, O, I-OG, I-AF, I-TM
-23	포럼	O	I-EV	I-EV, O, I-OG, I-AF, I-TM
-24	’	O	O	O, I-EV, I-OG, I-AF, I-DT
-25	을	O	O	O, I-EV, B-LC, B-CV, B-PS
-26	주재	O	O	O, B-EV, B-LC, I-EV, B-CV
-27	##하	O	O	O, I-EV, B-PS, B-LC, B-OG
-28	##며	O	O	O, B-LC, B-OG, B-PS, I-EV
-29	“	O	O	O, B-LC, B-CV, I-EV, B-PS
-30	대립	O	O	O, B-FD, B-LC, B-PS, B-TR
-31	##과	O	O	O, B-PS, I-OG, I-AF, I-EV
-32	갈등	O	O	O, B-FD, I-AF, B-PS, I-OG
-33	##의	O	O	O, B-PS, B-LC, I-AF, B-FD
-34	사회	O	O	O, B-FD, B-TR, I-FD, B-CV
-35	##문제	O	O	O, I-FD, I-TR, B-FD, I-AF
-36	##를	O	O	O, B-CV, B-PS, I-EV, B-LC
-37	해결	O	O	O, B-LC, B-CV, B-PS, B-OG
-38	##하기	O	O	O, B-LC, B-PS, B-CV, B-OG
-39	위해	O	O	O, B-LC, B-PS, B-CV, B-OG
-40	정치	O	O	O, B-FD, B-TR, B-EV, B-CV
-41	##개혁	O	O	O, I-FD, I-TR, I-EV, I-LC
-42	##이	O	O	O, B-PS, I-EV, B-LC, B-OG
-43	매우	O	O	O, B-LC, B-OG, B-CV, B-TM
-44	중요	O	O	O, B-LC, B-CV, B-OG, B-FD
-45	##하	O	O	O, B-PS, I-EV, B-LC, I-OG
-46	##다	O	O	O, I-OG, I-EV, B-CV, B-LC
-47	”	O	O	O, B-CV, B-LC, I-EV, B-OG
-48	고	O	O	O, B-CV, B-LC, B-TM, I-EV
-49	말	O	O	O, B-CV, B-LC, I-EV, B-EV
-50	##했	O	O	O, B-CV, B-LC, I-EV, B-PS
-51	##다	O	O	O, B-CV, B-LC, I-EV, B-PS
-52	.	O	O	O, B-LC, I-EV, B-PS, B-CV
-53	[SEP]	O	O	O, B-LC, I-EV, B-CV, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	누리	O	B-OG
+2	知	O	I-OG
+3	봉사	O	I-OG
+4	##단	O	I-OG
+5	##은	O	O
+6	김영	B-PS	B-PS
+7	##표	I-PS	I-PS
+8	사장	B-CV	B-CV
+9	##과	O	O
+10	노조	O	O
+11	##위원	O	O
+12	##장이	O	O
+13	함께	O	O
+14	##하	O	O
+15	##는	O	O
+16	노사	O	B-CV
+17	##공	O	I-CV
+18	##동	O	I-CV
+19	##단	O	I-CV
+20	##장	O	I-CV
+21	##을	O	O
+22	필두	O	O
+23	##로	O	O
+24	본사	O	O
+25	봉사	O	O
+26	##단	O	O
+27	외	O	O
+28	14	B-QT	B-QT
+29	##개	I-QT	I-QT
+30	지역	O	O
+31	##본부	O	O
+32	봉사	O	O
+33	##단	O	O
+34	,	O	O
+35	179	B-QT	B-QT
+36	##개	I-QT	I-QT
+37	지사	O	O
+38	##봉사	O	O
+39	##단	O	O
+40	등이	O	O
+41	전국	O	O
+42	단위	O	O
+43	##의	O	O
+44	네트워크	O	O
+45	##를	O	O
+46	구성	O	O
+47	##해	O	O
+48	지역	O	O
+49	##밀	O	O
+50	##착	O	O
+51	활동	O	O
+52	##을	O	O
+53	진행	O	O
+54	중이	O	O
+55	##다	O	O
+56	.	O	O
+57	[SEP]	O	O

@@ -1,44 +1,71 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-QT
-1	밀	B-PS	B-OG	B-OG, B-LC, B-PS, O, B-CV
-2	##네	I-PS	I-OG	I-OG, I-LC, I-PS, O, I-CV
-3	##르	I-PS	I-OG	I-OG, I-LC, O, I-PS, I-CV
-4	##는	O	O	O, I-OG, I-PS, I-CV, I-EV
-5	마크	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-6	저	I-PS	I-PS	I-PS, O, B-PS, I-OG, I-LC
-7	##커	I-PS	I-PS	I-PS, O, I-LC, I-OG, B-PS
-8	##버그	I-PS	I-PS	I-PS, O, I-LC, I-OG, B-LC
-9	페이스북	B-OG	B-OG	B-OG, B-LC, B-AF, I-PS, O
-10	창업자	B-CV	B-CV	B-CV, O, I-CV, I-OG, B-TM
-11	등	O	O	O, I-CV, B-CV, I-OG, I-QT
-12	##과	O	O	O, B-CV, B-TM, B-LC, B-PS
-13	함께	O	O	O, B-CV, B-LC, B-TM, B-QT
-14	과학	O	O	O, B-FD, I-FD, B-TR, B-CV
-15	##계	O	O	O, I-FD, B-FD, I-CV, I-OG
-16	##의	O	O	O, B-CV, B-PS, B-LC, B-FD
-17	가장	O	O	O, B-CV, B-LC, B-QT, B-PS
-18	큰	O	O	O, B-CV, B-QT, B-PS, B-TM
-19	상	O	O	O, B-CV, I-CV, B-FD, B-PS
-20	##으로	O	O	O, B-CV, B-PS, B-QT, B-LC
-21	떠오른	O	O	O, B-CV, B-QT, B-LC, B-PS
-22	300	B-QT	B-QT	B-QT, I-QT, O, B-DT, B-EV
-23	##만	I-QT	I-QT	I-QT, O, I-LC, I-PS, I-EV
-24	##달	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-25	##러	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-26	상금	O	O	O, B-CV, I-QT, I-CV, B-TM
-27	##의	O	O	O, I-CV, B-CV, B-PS, B-LC
-28	‘	O	B-CV	B-CV, O, I-CV, B-AF, B-PT
-29	브레이크	O	B-CV	B-CV, I-CV, O, B-AF, B-PT
-30	##스	O	I-CV	I-CV, O, B-CV, I-AF, I-TM
-31	##루	O	I-CV	I-CV, O, I-TM, I-AF, B-CV
-32	’	O	I-CV	I-CV, O, I-AF, I-TM, B-CV
-33	상	O	I-CV	I-CV, O, I-TM, I-AF, I-OG
-34	##을	O	O	O, I-CV, B-CV, I-AF, I-OG
-35	만들	O	O	O, B-CV, B-LC, B-QT, B-OG
-36	##어	O	O	O, B-CV, B-PS, B-LC, B-OG
-37	수여	O	O	O, B-CV, I-CV, B-PS, B-TM
-38	##하고	O	O	O, I-CV, B-CV, B-PS, I-OG
-39	있	O	O	O, B-CV, I-CV, B-PS, I-OG
-40	##다	O	O	O, B-CV, I-OG, I-CV, I-QT
-41	.	O	O	O, B-CV, B-PS, B-LC, B-FD
-42	[SEP]	O	O	O, B-CV, B-PS, I-CV, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	▷	O	O
+2	##시	B-PS	B-PS
+3	주석	B-CV	B-CV
+4	미주	B-LC	B-LC
+5	순방	O	O
+6	##의	O	O
+7	피	O	O
+8	##날레	O	O
+9	##인	O	O
+10	7	B-DT	B-DT
+11	,	I-DT	I-DT
+12	8	I-DT	I-DT
+13	##일	I-DT	I-DT
+14	미국	B-LC	B-LC
+15	캘리포니아	B-LC	B-LC
+16	주	I-LC	I-LC
+17	랜	B-AF	B-LC
+18	##초	I-AF	I-LC
+19	##미	I-AF	I-LC
+20	##라지	I-AF	I-LC
+21	##에	O	O
+22	##서	O	O
+23	열린	O	O
+24	미	B-EV	B-EV
+25	##중	I-EV	I-EV
+26	정상	I-EV	I-EV
+27	##회	I-EV	I-EV
+28	##담	I-EV	I-EV
+29	##에	O	O
+30	미셸	B-PS	B-PS
+31	오바마	I-PS	I-PS
+32	여사	B-CV	B-CV
+33	##가	O	O
+34	자녀	B-CV	B-CV
+35	##를	O	O
+36	돌봐	O	O
+37	##야	O	O
+38	한다며	O	O
+39	불참	O	O
+40	##한다	O	O
+41	##는	O	O
+42	소식	O	O
+43	##이	O	O
+44	전해	O	O
+45	##지	O	O
+46	##자	O	O
+47	중국	B-LC	B-LC
+48	온라인	O	O
+49	##은	O	O
+50	‘	O	O
+51	펑	B-PS	B-EV
+52	##리	I-PS	I-EV
+53	##위	I-PS	I-EV
+54	##안	I-PS	I-EV
+55	##의	O	I-EV
+56	아이폰	B-AF	I-EV
+57	##5	I-AF	I-EV
+58	’	O	O
+59	사건	O	O
+60	##에	O	O
+61	이어	O	O
+62	또	O	O
+63	한	O	B-QT
+64	번	O	I-QT
+65	들끓	O	O
+66	##었	O	O
+67	##다	O	O
+68	.	O	O
+69	[SEP]	O	O

@@ -1,27 +1,85 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-AF
-1	미국	B-LC	B-LC	B-LC, O, B-OG, B-AF, B-FD
-2	브랜드	O	O	O, I-OG, I-LC, I-AF, B-OG
-3	키즈	O	O	O, I-OG, B-PS, B-OG, I-AF
-4	##의	O	O	O, I-OG, I-AF, I-PS, I-LC
-5	고객	O	B-CV	B-CV, O, B-OG, B-AF, B-TM
-6	##충	O	O	O, I-CV, I-OG, B-PS, I-AF
-7	##성	O	O	O, I-CV, I-OG, I-TR, B-PS
-8	##도	O	O	O, I-OG, I-TR, I-LC, I-PS
-9	조사	O	O	O, B-CV, B-OG, B-PS, I-OG
-10	##에서	O	O	O, B-CV, B-OG, B-LC, B-PS
-11	현대차	B-OG	B-OG	B-OG, O, B-AF, B-PS, B-LC
-12	##는	O	O	O, I-OG, I-AF, B-CV, I-CV
-13	지난해	B-DT	B-DT	B-DT, O, B-QT, I-DT, B-EV
-14	8	B-QT	B-QT	B-QT, I-QT, I-DT, B-EV, O
-15	##위	I-QT	I-QT	I-QT, O, I-EV, I-DT, I-LC
-16	##에서	O	O	O, I-QT, I-DT, I-AF, I-EV
-17	올해	B-DT	B-DT	B-DT, O, B-QT, I-DT, B-EV
-18	1	B-QT	B-QT	B-QT, I-QT, I-DT, B-EV, O
-19	##위	I-QT	I-QT	I-QT, O, I-EV, I-DT, I-LC
-20	##로	I-QT	O	O, I-QT, I-EV, I-OG, I-AF
-21	등극	O	O	O, B-CV, B-OG, B-TM, B-QT
-22	##했	O	O	O, B-CV, I-OG, B-OG, B-PS
-23	##다	O	O	O, B-CV, I-OG, B-OG, B-QT
-24	.	O	O	O, B-OG, B-LC, B-PS, B-CV
-25	[SEP]	O	O	O, B-OG, B-CV, B-LC, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	경제	B-OG	B-OG
+2	##협	I-OG	I-OG
+3	##력	I-OG	I-OG
+4	##개발	I-OG	I-OG
+5	##기구	I-OG	I-OG
+6	(	O	O
+7	OECD	B-OG	B-OG
+8	)	O	O
+9	는	O	O
+10	지난달	B-DT	B-DT
+11	24	I-DT	I-DT
+12	##일	I-DT	I-DT
+13	발표	O	O
+14	##한	O	O
+15	경제	O	O
+16	##전	O	O
+17	##망	O	O
+18	보고서	O	O
+19	##에	O	O
+20	##서	O	O
+21	“	O	O
+22	올해	B-DT	B-DT
+23	##와	O	O
+24	내년	B-DT	B-DT
+25	회원국	O	O
+26	##의	O	O
+27	잠재성	O	O
+28	##장	O	O
+29	##률	O	O
+30	##이	O	O
+31	0	B-QT	B-QT
+32	.	I-QT	I-QT
+33	6	I-QT	I-QT
+34	~	I-QT	I-QT
+35	1	I-QT	I-QT
+36	.	I-QT	I-QT
+37	0	I-QT	I-QT
+38	%	I-QT	I-QT
+39	포인트	I-QT	I-QT
+40	정도	I-QT	I-QT
+41	낮	O	O
+42	##아지	O	O
+43	##고	O	O
+44	,	O	O
+45	금융	O	B-DT
+46	##위	O	I-DT
+47	##기	O	I-DT
+48	이후	O	I-DT
+49	(	O	O
+50	2011	B-DT	B-DT
+51	~	I-DT	I-DT
+52	2017	I-DT	I-DT
+53	##년	I-DT	I-DT
+54	)	O	O
+55	주요	O	O
+56	선진국	O	O
+57	##들의	O	O
+58	잠재성	O	O
+59	##장	O	O
+60	##률	O	O
+61	##은	O	O
+62	회복세	O	O
+63	##를	O	O
+64	보이	O	O
+65	##겠	O	O
+66	##지만	O	O
+67	위기	O	O
+68	이전	O	O
+69	수준	O	O
+70	##까	O	O
+71	##지	O	O
+72	이르지	O	O
+73	##는	O	O
+74	못	O	O
+75	##할	O	O
+76	것	O	O
+77	”	O	O
+78	이라	O	O
+79	##고	O	O
+80	내다봤	O	O
+81	##다	O	O
+82	.	O	O
+83	[SEP]	O	O

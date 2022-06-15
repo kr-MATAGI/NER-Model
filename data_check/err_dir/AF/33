@@ -1,7 +1,8 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, I-OG, B-CV, I-AF
-1	어	O	O	O, B-CV, B-TM, B-OG, B-LC
-2	배	B-AF	B-AM	B-AM, O, B-PS, B-TM, B-CV
-3	##가	O	O	O, I-AF, I-QT, I-CV, I-PS
-4	좀	O	O	O, B-CV, B-TM, I-AF, B-OG
-5	[SEP]	O	O	O, B-CV, B-LC, B-TM, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	송파구	B-LC	B-LC
+2	##에	O	O
+3	실버	B-AF	O
+4	##케어	I-AF	O
+5	##센터	I-AF	O
+6	[SEP]	O	O

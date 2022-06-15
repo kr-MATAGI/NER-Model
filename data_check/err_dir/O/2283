@@ -1,22 +1,46 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-QT
-1	4	B-EV	B-EV	B-EV, O, B-QT, B-OG, B-LC
-2	##강	I-EV	I-EV	I-EV, I-QT, O, B-EV, I-AF
-3	진출	O	O	O, I-EV, B-CV, I-OG, B-OG
-4	팀	O	O	O, B-OG, B-CV, B-LC, B-TM
-5	중	O	O	O, B-TM, B-LC, B-PS, B-CV
-6	첼시	O	B-OG	B-OG, B-LC, O, B-PS, I-OG
-7	##만	O	O	O, I-OG, I-LC, I-PS, I-AF
-8	빼	O	O	O, B-PS, B-OG, I-OG, B-LC
-9	##고	O	O	O, B-PS, B-LC, B-OG, I-OG
-10	모두	O	O	O, B-QT, B-PS, B-OG, B-LC
-11	챔피언	B-OG	B-EV	B-EV, B-OG, O, B-CV, B-AF
-12	##스	I-OG	I-EV	I-EV, I-OG, O, I-CV, I-AF
-13	##리그	I-OG	I-EV	I-EV, I-OG, O, I-CV, I-AF
-14	우승	O	O	O, I-EV, I-OG, B-CV, I-AF
-15	경험	O	O	O, B-CV, B-TM, I-EV, B-LC
-16	##이	O	O	O, B-PS, B-CV, B-OG, B-LC
-17	있	O	O	O, B-CV, B-TM, I-OG, I-AF
-18	##다	O	O	O, B-CV, B-TM, I-OG, B-QT
-19	.	O	O	O, B-CV, B-LC, B-OG, B-PS
-20	[SEP]	O	O	O, B-CV, B-TM, B-OG, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	정부	B-OG	B-OG
+2	##가	O	O
+3	가뭄	O	O
+4	대책	O	O
+5	##을	O	O
+6	추진	O	O
+7	##하면	O	O
+8	##서	O	O
+9	4	B-LC	B-LC
+10	##대	I-LC	I-LC
+11	##강	I-LC	I-LC
+12	관련	O	O
+13	사업	O	O
+14	##은	O	O
+15	‘	O	O
+16	일사	O	O
+17	##천리	O	O
+18	’	O	O
+19	로	O	O
+20	예산	O	O
+21	##을	O	O
+22	반영	O	O
+23	##한	O	O
+24	반면	O	O
+25	,	O	O
+26	시급	O	O
+27	##한	O	O
+28	상수도	O	B-TM
+29	##관	O	I-TM
+30	보수	O	I-TM
+31	·	O	I-TM
+32	교체	O	I-TM
+33	사업	O	I-TM
+34	##은	O	O
+35	‘	O	O
+36	나	O	O
+37	몰라	O	O
+38	##라	O	O
+39	’	O	O
+40	하고	O	O
+41	있	O	O
+42	##다	O	O
+43	.	O	O
+44	[SEP]	O	O

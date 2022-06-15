@@ -1,36 +1,39 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, I-EV, B-CV
-1	남자	O	O	O, B-EV, B-CV, I-EV, B-OG
-2	사	B-CV	B-CV	B-CV, I-EV, I-CV, O, B-EV
-3	##브르	I-CV	I-CV	I-CV, I-EV, O, I-OG, B-CV
-4	단체전	O	B-EV	B-EV, O, I-EV, B-CV, B-DT
-5	##에서	O	O	O, I-EV, I-CV, I-DT, I-OG
-6	깜짝	O	O	O, B-CV, B-TM, B-QT, B-PS
-7	금메달	B-CV	B-CV	B-CV, O, I-CV, B-AF, B-TM
-8	##을	O	O	O, I-CV, I-EV, B-CV, I-AF
-9	따	O	O	O, B-OG, B-CV, B-PS, B-LC
-10	##는	O	O	O, B-LC, B-CV, B-PS, B-OG
-11	등	O	O	O, B-QT, B-LC, B-TM, B-OG
-12	총	O	O	O, B-QT, B-DT, I-QT, B-TM
-13	6	B-QT	B-QT	B-QT, I-QT, O, B-DT, B-EV
-14	##개	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-15	##의	O	O	O, I-QT, B-PS, B-QT, I-EV
-16	메달	O	O	O, B-CV, B-TM, B-PS, B-EV
-17	##을	O	O	O, B-CV, B-PS, B-OG, B-QT
-18	따낸	O	O	O, B-OG, B-CV, B-EV, B-LC
-19	펜싱	B-CV	B-CV	B-CV, O, B-OG, B-EV, I-CV
-20	선수단	O	O	O, B-CV, I-OG, I-CV, B-OG
-21	##의	O	O	O, I-OG, I-CV, B-PS, B-OG
-22	뒤	O	O	O, B-TM, B-LC, B-OG, B-PS
-23	##에	O	O	O, B-PS, B-OG, B-LC, I-OG
-24	##는	O	O	O, B-OG, B-LC, B-PS, B-CV
-25	SK	B-OG	B-OG	B-OG, B-LC, O, B-PS, B-AF
-26	##텔	I-OG	I-OG	I-OG, O, I-LC, B-OG, I-PS
-27	##레	I-OG	I-OG	I-OG, O, I-LC, B-OG, I-PS
-28	##콤	I-OG	I-OG	I-OG, O, I-LC, I-PS, I-CV
-29	##이	O	O	O, I-OG, B-PS, I-AF, I-PS
-30	있	O	O	O, B-TM, B-LC, B-OG, I-OG
-31	##었	O	O	O, I-OG, B-CV, B-LC, B-PS
-32	##다	O	O	O, B-CV, I-OG, B-LC, B-TM
-33	.	O	O	O, B-PS, B-LC, B-CV, B-OG
-34	[SEP]	O	O	O, B-CV, B-PS, B-LC, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	런던	B-LC	B-LC
+2	동부	B-TM	B-TM
+3	해	B-LC	B-LC
+4	##크	I-LC	I-LC
+5	##니	I-LC	I-LC
+6	지역	O	O
+7	##에	O	O
+8	사	O	O
+9	##는	O	O
+10	마흔	B-QT	B-QT
+11	##다	I-QT	I-QT
+12	##섯	I-QT	I-QT
+13	살	I-QT	I-QT
+14	폴	B-PS	B-PS
+15	##린	I-PS	I-PS
+16	피어	I-PS	I-PS
+17	##스	I-PS	I-PS
+18	##라는	O	O
+19	흑인	B-CV	B-CV
+20	여성	O	O
+21	##이	O	O
+22	후드	B-CV	B-CV
+23	티	I-CV	I-CV
+24	##를	O	O
+25	뒤집어	O	O
+26	##쓴	O	O
+27	동네	O	O
+28	약탈	O	B-CV
+29	##꾼	O	I-CV
+30	##들	O	O
+31	##을	O	O
+32	막	O	O
+33	##고	O	O
+34	나섰	O	O
+35	##다	O	O
+36	.	O	O
+37	[SEP]	O	O

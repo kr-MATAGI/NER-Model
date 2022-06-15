@@ -1,39 +1,20 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	반면	O	O	O, B-CV, B-QT, B-TM, B-LC
-2	서울	B-LC	B-LC	B-LC, B-OG, O, B-AF, B-PS
-3	##의	O	O	O, I-LC, I-OG, I-AF, B-LC
-4	LTV	O	O	O, B-TR, B-CV, B-PS, B-TM
-5	한도	O	O	O, B-PS, I-TR, I-CV, I-PS
-6	##는	O	O	O, B-LC, B-OG, B-PS, B-CV
-7	6	B-DT	B-EV	B-EV, B-DT, O, B-QT, B-LC
-8	·	I-DT	I-EV	I-EV, I-DT, O, I-QT, I-AF
-9	19	I-DT	I-EV	I-EV, I-DT, I-QT, O, I-LC
-10	대책	O	O	O, I-EV, I-DT, I-QT, I-OG
-11	##과	O	O	O, I-EV, I-DT, B-PS, I-AF
-12	8	B-EV	B-EV	B-EV, B-DT, B-QT, O, B-LC
-13	·	I-EV	I-DT	I-DT, I-EV, O, I-QT, I-AF
-14	2	I-EV	I-EV	I-EV, I-DT, I-QT, O, I-OG
-15	대책	I-EV	O	O, I-EV, I-DT, I-QT, I-OG
-16	##이	O	O	O, I-EV, B-PS, I-DT, I-AF
-17	나오	O	O	O, B-CV, B-PS, B-OG, B-DT
-18	##는	O	O	O, B-PS, B-CV, B-LC, B-OG
-19	단	B-DT	O	O, B-PS, B-DT, B-LC, B-CV
-20	40	I-DT	B-DT	B-DT, O, I-DT, B-EV, B-LC
-21	##여	I-DT	I-DT	I-DT, O, B-DT, I-EV, I-QT
-22	##일	I-DT	I-DT	I-DT, O, B-DT, I-EV, I-QT
-23	사이	I-DT	I-DT	I-DT, O, I-EV, I-QT, B-DT
-24	70	B-QT	B-QT	B-QT, I-QT, B-DT, I-DT, O
-25	%	I-QT	I-QT	I-QT, O, I-DT, I-EV, I-LC
-26	에서	O	O	O, I-QT, I-DT, B-PS, B-LC
-27	40	B-QT	B-QT	B-QT, I-QT, O, B-DT, B-EV
-28	%	I-QT	I-QT	I-QT, O, I-EV, I-DT, I-LC
-29	로	O	O	O, I-QT, B-PS, I-EV, B-OG
-30	급	O	O	O, B-LC, B-OG, B-PS, B-TM
-31	##전	O	O	O, B-PS, B-LC, I-LC, I-QT
-32	##직	O	O	O, B-PS, B-LC, I-LC, I-PS
-33	##하	O	O	O, B-LC, B-PS, B-OG, I-LC
-34	##했	O	O	O, B-LC, B-CV, B-OG, I-OG
-35	##다	O	O	O, B-CV, B-TM, B-QT, I-OG
-36	.	O	O	O, B-LC, B-PS, B-CV, B-OG
-37	[SEP]	O	O	O, B-LC, B-CV, B-PS, I-EV
+	text	label	preds
+0	[CLS]	O	O
+1	[	O	O
+2	월	B-DT	B-AF
+3	##요	I-DT	I-AF
+4	##바	B-CV	B-CV
+5	##둑	I-CV	I-CV
+6	]	O	O
+7	""""	O	O
+8	여성	O	O
+9	바둑	B-CV	B-CV
+10	첫	O	O
+11	500	B-QT	B-QT
+12	勝	I-QT	I-QT
+13	절대	O	O
+14	양보	O	O
+15	못	O	O
+16	##해	O	O
+17	""""	O	O
+18	[SEP]	O	O

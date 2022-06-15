@@ -1,17 +1,32 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-EV, B-CV, I-CV
-1	[	O	O	O, B-OG, B-LC, B-DT, B-CV
-2	횡	O	B-AF	B-AF, O, B-FD, B-PS, B-TR
-3	##설	O	I-AF	I-AF, O, I-FD, I-TR, I-PS
-4	##수	O	I-AF	I-AF, O, I-FD, I-TR, I-OG
-5	##설	O	I-AF	I-AF, O, I-FD, I-TR, I-OG
-6	/	O	O	O, I-AF, I-OG, I-EV, B-PS
-7	이진	B-PS	B-PS	B-PS, O, B-OG, B-AF, I-PS
-8	##영	I-PS	I-PS	I-PS, I-AF, O, I-OG, I-LC
-9	]	O	O	O, I-PS, I-AF, I-OG, I-EV
-10	무산	O	O	O, B-EV, B-LC, B-CV, B-OG
-11	##된	O	O	O, B-PS, B-LC, I-EV, I-OG
-12	세기	O	O	O, B-DT, B-PS, B-LC, B-EV
-13	##의	O	O	O, I-DT, I-PS, I-EV, I-AF
-14	만남	O	O	O, B-EV, I-EV, B-CV, B-LC
-15	[SEP]	O	O	O, I-EV, B-LC, B-CV, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	칠판	O	O
+2	앞	O	B-TM
+3	,	O	O
+4	교사	B-CV	B-CV
+5	##의	O	O
+6	자리	O	O
+7	##에	O	O
+8	서서	O	O
+9	지도	O	O
+10	##를	O	O
+11	가리키	O	O
+12	##는	O	O
+13	이	O	O
+14	##는	O	O
+15	교복	B-CV	B-CV
+16	##을	O	O
+17	입	O	O
+18	##은	O	O
+19	1	B-QT	B-QT
+20	##학	I-QT	I-QT
+21	##년	I-QT	I-QT
+22	황의	B-PS	B-PS
+23	##림	I-PS	I-PS
+24	(	O	O
+25	13	B-QT	B-QT
+26	)	O	O
+27	군	O	O
+28	##이다	O	O
+29	.	O	O
+30	[SEP]	O	O

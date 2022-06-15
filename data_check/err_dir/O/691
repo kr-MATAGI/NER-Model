@@ -1,38 +1,50 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-EV, B-CV, I-CV
-1	2	B-EV	B-EV	B-EV, O, B-AF, B-QT, B-CV
-2	##차	I-EV	I-EV	I-EV, O, I-AF, B-EV, I-QT
-3	##전	I-EV	I-EV	I-EV, O, I-AF, I-QT, I-LC
-4	##에서	O	O	O, I-EV, I-AF, I-QT, I-OG
-5	처음	O	O	O, B-CV, B-QT, B-TM, B-OG
-6	진행	O	O	O, B-CV, B-TM, B-OG, I-EV
-7	##된	O	O	O, B-PS, B-LC, B-CV, B-OG
-8	이후	O	O	O, B-LC, B-CV, B-OG, B-PS
-9	모터스	B-CV	B-CV	B-CV, O, B-EV, B-FD, B-AF
-10	##포츠	I-CV	I-CV	I-CV, O, I-EV, B-CV, I-OG
-11	팬	B-CV	B-CV	B-CV, I-CV, O, I-EV, B-TM
-12	##들	O	O	O, I-CV, I-EV, I-OG, B-CV
-13	##의	O	O	O, B-CV, B-PS, B-LC, B-OG
-14	큰	O	O	O, B-CV, B-OG, B-LC, B-TM
-15	관심	O	O	O, B-CV, B-TM, B-LC, B-PS
-16	##을	O	O	O, B-CV, B-PS, B-OG, B-LC
-17	받	O	O	O, B-CV, B-OG, B-LC, B-TM
-18	##은	O	O	O, B-CV, B-OG, B-LC, B-PS
-19	‘	O	O	O, B-CV, B-LC, B-TM, B-EV
-20	나	O	O	O, B-TM, B-EV, B-CV, B-AF
-21	##도	O	O	O, I-TM, I-EV, I-AF, I-CV
-22	레이	O	I-TM	I-TM, O, I-EV, B-CV, I-AF
-23	##서	O	I-TM	I-TM, I-EV, O, I-AF, I-CV
-24	##다	O	O	O, I-TM, I-EV, I-AF, I-CV
-25	’	O	O	O, I-EV, I-TM, I-AF, I-CV
-26	이벤트	O	O	O, B-CV, I-EV, B-TM, I-TM
-27	##는	O	O	O, B-CV, I-EV, B-PS, B-OG
-28	4	B-EV	B-EV	B-EV, O, B-AF, B-QT, B-CV
-29	##차	I-EV	I-EV	I-EV, O, I-AF, I-QT, B-EV
-30	##전	I-EV	I-EV	I-EV, O, I-AF, I-QT, I-LC
-31	##에도	O	O	O, I-EV, I-AF, I-QT, I-DT
-32	계속	O	O	O, B-CV, B-LC, B-TM, B-OG
-33	##해서	O	O	O, B-LC, B-PS, B-OG, B-CV
-34	열린다	O	O	O, B-CV, B-OG, B-TM, B-QT
-35	.	O	O	O, B-CV, B-LC, B-PS, B-OG
-36	[SEP]	O	O	O, B-CV, I-EV, B-LC, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	하지	O	O
+2	##만	O	O
+3	지난해	B-DT	B-DT
+4	##부터	I-DT	I-DT
+5	조연	B-CV	B-CV
+6	##배우	I-CV	I-CV
+7	##로	O	O
+8	TV	B-TM	B-TM
+9	드라마	O	O
+10	##에	O	O
+11	나오	O	O
+12	##기	O	O
+13	시작	O	O
+14	##하	O	O
+15	##더니	O	O
+16	1	B-DT	B-DT
+17	##년	I-DT	I-DT
+18	##도	O	O
+19	채	O	O
+20	되	O	O
+21	##지	O	O
+22	않	O	O
+23	##아	O	O
+24	드라마	O	O
+25	(	O	O
+26	'	O	O
+27	응답	B-AF	B-AF
+28	##하라	I-AF	I-AF
+29	1997	I-AF	I-AF
+30	'	O	O
+31	)	O	O
+32	와	O	O
+33	영화	O	O
+34	(	O	O
+35	'	O	O
+36	노브	B-AF	B-AF
+37	##레	I-AF	I-AF
+38	##싱	I-AF	I-AF
+39	'	O	O
+40	)	O	O
+41	의	O	O
+42	주연	O	B-CV
+43	##을	O	O
+44	맡	O	O
+45	##았	O	O
+46	##다	O	O
+47	.	O	O
+48	[SEP]	O	O

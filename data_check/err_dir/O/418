@@ -1,52 +1,60 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-EV, I-OG
-1	TV	B-TM	B-TM	B-TM, O, B-QT, B-TR, B-OG
-2	화면	O	O	O, I-TM, I-AF, I-QT, I-OG
-3	##에	O	O	O, B-PS, B-CV, B-LC, B-OG
-4	##선	O	O	O, B-PS, B-CV, B-LC, B-TM
-5	장난기	O	O	O, B-PS, B-CV, B-AM, B-TM
-6	많	O	O	O, B-PS, I-PS, B-CV, I-CV
-7	##고	O	O	O, B-PS, B-LC, B-CV, B-OG
-8	활발	O	O	O, B-PS, B-TM, B-CV, B-LC
-9	##한	O	O	O, B-PS, I-PS, B-LC, B-CV
-10	,	O	O	O, B-PS, B-CV, B-LC, B-OG
-11	누구	O	O	O, B-PS, B-CV, B-LC, B-OG
-12	##보	O	O	O, B-PS, B-CV, B-LC, I-PS
-13	##다	O	O	O, B-PS, B-LC, B-CV, B-TM
-14	카메라	B-TM	B-TM	B-TM, O, B-AF, B-CV, B-TR
-15	##가	O	O	O, I-TM, B-PS, I-AF, I-EV
-16	자연	O	O	O, B-PS, B-CV, B-LC, B-FD
-17	##스	O	O	O, B-PS, I-PS, B-LC, B-CV
-18	##러울	O	O	O, B-PS, I-PS, B-LC, B-CV
-19	것	O	O	O, B-PS, B-CV, B-OG, B-LC
-20	같	O	O	O, B-PS, B-CV, B-OG, I-PS
-21	##은	O	O	O, B-PS, B-LC, B-CV, I-PS
-22	그	O	O	O, B-PS, B-CV, B-LC, B-OG
-23	##가	O	O	O, B-PS, B-CV, B-LC, B-OG
-24	자화상	O	B-FD	B-FD, O, B-AF, B-EV, B-TR
-25	사진	O	O	O, I-AF, I-FD, I-OG, I-EV
-26	##관	O	O	O, I-AF, I-OG, I-LC, I-EV
-27	##에	O	O	O, I-AF, B-CV, I-OG, I-EV
-28	들어갔	O	O	O, B-CV, B-PS, B-LC, B-OG
-29	##다	O	O	O, B-PS, B-LC, B-CV, B-QT
-30	나와	O	O	O, B-PS, B-CV, B-LC, B-QT
-31	##선	O	O	O, B-CV, B-PS, B-LC, B-TM
-32	,	O	O	O, B-CV, B-PS, B-LC, B-OG
-33	사진	O	O	O, B-AF, B-CV, B-LC, I-AF
-34	##관	O	O	O, I-AF, I-LC, I-OG, B-AF
-35	주변	O	O	O, B-TM, B-CV, B-LC, I-AF
-36	##을	O	O	O, B-CV, B-PS, B-TM, B-LC
-37	빙빙	O	O	O, B-TM, B-CV, B-LC, B-QT
-38	돌	O	O	O, B-CV, B-LC, B-TM, B-PS
-39	##면서	O	O	O, B-PS, B-CV, B-LC, B-TM
-40	어쩔	O	O	O, B-CV, B-LC, B-PS, B-TM
-41	줄	O	O	O, B-PS, B-CV, B-LC, B-DT
-42	몰라	O	O	O, B-CV, B-PS, B-LC, B-TM
-43	했	O	O	O, B-CV, B-PS, B-LC, B-OG
-44	##다는	O	O	O, B-CV, B-PS, I-CV, I-AF
-45	것	O	O	O, B-PS, B-CV, B-LC, I-EV
-46	##이	O	O	O, B-PS, B-CV, I-EV, I-CV
-47	##었	O	O	O, B-CV, B-PS, I-EV, I-CV
-48	##다	O	O	O, B-CV, I-EV, B-PS, I-CV
-49	.	O	O	O, B-PS, B-CV, B-LC, I-AF
-50	[SEP]	O	O	O, B-CV, B-PS, B-LC, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	주식	O	O
+2	##이나	O	O
+3	주가	B-AF	B-OG
+4	##연	I-AF	I-OG
+5	##계	I-AF	I-OG
+6	##증권	I-AF	I-OG
+7	(	O	O
+8	ELS	B-AF	B-AF
+9	)	O	O
+10	등	O	O
+11	유가증권	O	O
+12	##을	O	O
+13	담보	O	O
+14	##로	O	O
+15	한	O	O
+16	대출	O	O
+17	서비스	O	O
+18	##는	O	O
+19	대부분	O	O
+20	##의	O	O
+21	시	O	B-AF
+22	##엠	O	I-AF
+23	##에이	O	I-AF
+24	##에	O	O
+25	##서	O	O
+26	제공	O	O
+27	##되	O	O
+28	##지만	O	O
+29	,	O	O
+30	신용	O	O
+31	##대	O	O
+32	##출	O	O
+33	서비스	O	O
+34	##는	O	O
+35	현대증권	B-OG	B-OG
+36	##의	O	O
+37	‘	O	O
+38	시	B-AF	B-AF
+39	##엠	I-AF	I-AF
+40	##에이	I-AF	I-AF
+41	-	I-AF	I-AF
+42	프로	I-AF	I-AF
+43	’	O	O
+44	가	O	O
+45	처음	O	O
+46	##으로	O	O
+47	,	O	O
+48	지난해	B-DT	B-DT
+49	1	I-DT	I-DT
+50	##월	I-DT	I-DT
+51	##부터	I-DT	I-DT
+52	제공	O	O
+53	##되	O	O
+54	##고	O	O
+55	있	O	O
+56	##다	O	O
+57	.	O	O
+58	[SEP]	O	O

@@ -1,5 +1,21 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, I-OG, B-CV, I-AF
-1	정말	O	O	O, B-CV, B-TM, B-AF, B-PS
-2	등	O	B-AM	B-AM, O, B-TM, B-CV, B-TR
-3	[SEP]	O	O	O, I-TM, I-CV, B-CV, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	요렇게	O	O
+2	해서	O	O
+3	뚝뚝	O	O
+4	잘라	O	O
+5	##놓	O	O
+6	##는데	O	O
+7	파	O	B-CV
+8	씻	O	O
+9	##을	O	O
+10	때	O	O
+11	요	O	O
+12	아주	O	O
+13	요기	O	O
+14	##를	O	O
+15	잘	O	O
+16	씻	O	O
+17	##어야	O	O
+18	##지	O	O
+19	[SEP]	O	O

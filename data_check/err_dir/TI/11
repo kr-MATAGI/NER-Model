@@ -1,28 +1,30 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	전날	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-QT
-2	특조	B-OG	B-OG	B-OG, O, B-EV, B-CV, I-OG
-3	##위	I-OG	I-OG	I-OG, O, I-EV, I-CV, I-AF
-4	##가	O	O	O, I-OG, I-EV, B-PS, I-DT
-5	“	O	O	O, B-CV, B-LC, B-OG, B-TM
-6	내일	B-TI	B-DT	B-DT, O, I-DT, B-EV, B-CV
-7	오후	I-TI	B-TI	B-TI, I-TI, I-DT, B-EV, O
-8	3	I-TI	I-TI	I-TI, B-TI, I-EV, I-DT, O
-9	##시	I-TI	I-TI	I-TI, O, I-QT, B-TI, I-EV
-10	특조	B-OG	B-OG	B-OG, O, B-AF, B-EV, I-OG
-11	##위	I-OG	I-OG	I-OG, O, I-EV, I-AF, I-CV
-12	위원장	O	O	O, B-CV, B-TM, B-AF, I-OG
-13	##실	O	O	O, I-CV, I-AF, I-LC, I-OG
-14	##로	O	O	O, I-AF, I-QT, B-CV, I-CV
-15	오	O	O	O, B-AF, B-CV, B-PS, B-LC
-16	##시	O	O	O, B-CV, B-PS, B-LC, B-OG
-17	##라	O	O	O, B-CV, B-PS, I-AF, B-LC
-18	”	O	O	O, B-CV, B-TM, B-OG, B-LC
-19	고	O	O	O, B-CV, B-TM, B-LC, B-OG
-20	알려	O	O	O, B-CV, B-LC, B-TM, B-QT
-21	##왔	O	O	O, B-CV, I-CV, B-PS, B-LC
-22	##기	O	O	O, B-CV, B-TM, B-PS, B-LC
-23	때문	O	O	O, B-CV, B-TM, B-PS, B-QT
-24	##이다	O	O	O, B-CV, B-TM, I-OG, B-QT
-25	.	O	O	O, B-LC, B-CV, B-OG, B-PS
-26	[SEP]	O	O	O, B-CV, B-LC, B-OG, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	그리고	O	O
+2	직업	O	O
+3	##의	O	O
+4	세계	O	O
+5	##에	O	O
+6	##서	O	O
+7	기계	O	O
+8	##는	O	O
+9	하루	B-DT	B-TI
+10	##아	B-TI	I-TI
+11	##침	I-TI	I-TI
+12	##에	O	O
+13	,	O	O
+14	모든	O	O
+15	사람	O	O
+16	##을	O	O
+17	대체	O	O
+18	##하	O	O
+19	##는	O	O
+20	형태	O	O
+21	##로	O	O
+22	나타나	O	O
+23	##지	O	O
+24	않	O	O
+25	##습	O	O
+26	##니다	O	O
+27	.	O	O
+28	[SEP]	O	O

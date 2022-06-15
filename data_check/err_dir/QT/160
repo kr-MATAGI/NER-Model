@@ -1,61 +1,11 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-EV, I-OG
-1	김	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
-2	수석	B-CV	B-CV	B-CV, O, I-CV, I-PS, B-TM
-3	##은	O	O	O, I-CV, I-EV, B-CV, I-OG
-4	“	O	O	O, B-CV, B-LC, B-TM, B-PS
-5	소득	O	O	O, B-CV, B-LC, B-TM, B-PS
-6	##이	O	O	O, B-PS, B-LC, B-CV, B-OG
-7	적	O	O	O, B-CV, B-PS, B-LC, B-TM
-8	##어	O	O	O, B-PS, B-LC, B-TM, B-CV
-9	보험료	B-CV	B-CV	B-CV, O, I-CV, B-AF, B-OG
-10	##를	O	O	O, I-CV, B-CV, I-AF, B-PS
-11	납부	O	O	O, B-CV, B-LC, B-TM, B-PS
-12	##하	O	O	O, B-PS, B-LC, B-CV, B-OG
-13	##지	O	O	O, B-PS, B-LC, B-CV, B-TM
-14	못하	O	O	O, B-CV, B-PS, B-LC, B-TM
-15	##는	O	O	O, B-LC, B-CV, B-PS, B-TM
-16	저소득층	O	O	O, B-CV, B-OG, B-LC, B-TM
-17	##과	O	O	O, B-PS, I-CV, B-CV, I-OG
-18	형편	O	O	O, B-CV, B-TM, B-LC, B-PS
-19	##이	O	O	O, B-PS, B-CV, B-LC, B-OG
-20	어려워	O	O	O, B-CV, B-PS, B-LC, B-TM
-21	보험료	B-CV	B-CV	B-CV, O, I-CV, B-AF, B-FD
-22	##를	O	O	O, I-CV, B-CV, B-PS, I-AF
-23	장기	O	O	O, B-CV, B-LC, B-PS, B-QT
-24	체납	O	O	O, B-CV, I-CV, B-PS, B-TM
-25	##한	O	O	O, B-PS, I-CV, B-CV, B-LC
-26	분	O	O	O, B-CV, B-PS, I-CV, B-QT
-27	##들이	O	O	O, B-PS, I-CV, B-QT, B-CV
-28	(	O	O	O, B-CV, B-PS, B-LC, B-OG
-29	국민	B-CV	B-CV	B-CV, B-OG, B-AF, O, B-PS
-30	##연금	I-CV	I-CV	I-CV, I-OG, I-AF, O, B-CV
-31	)	O	O	O, I-CV, I-OG, I-AF, I-EV
-32	2000	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-LC
-33	##만	I-QT	I-QT	I-QT, O, I-LC, I-DT, I-PS
-34	가입자	I-QT	O	O, B-CV, I-QT, I-CV, B-TM
-35	중	O	O	O, B-TM, B-QT, B-LC, B-PS
-36	500	B-QT	B-QT	B-QT, I-QT, O, B-DT, B-PS
-37	##만	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-38	명	I-QT	I-QT	I-QT, O, I-LC, I-PS, I-OG
-39	##이	O	O	O, I-QT, B-PS, B-OG, B-CV
-40	넘	O	O	O, B-CV, B-LC, I-QT, B-PS
-41	##는	O	O	O, B-PS, B-LC, B-CV, B-OG
-42	##다	O	O	O, B-CV, I-QT, B-PS, B-LC
-43	”	O	O	O, B-CV, B-LC, B-PS, B-TM
-44	며	O	O	O, B-CV, B-LC, B-TM, B-PS
-45	연금	O	O	O, B-CV, I-CV, B-AF, B-FD
-46	사각지대	O	O	O, I-CV, B-TM, B-CV, B-LC
-47	해소	O	O	O, I-CV, B-CV, B-LC, B-TM
-48	방안	O	O	O, B-LC, B-CV, B-PS, I-CV
-49	##을	O	O	O, B-CV, B-LC, B-PS, B-OG
-50	먼저	O	O	O, B-CV, B-LC, B-TM, B-QT
-51	논의	O	O	O, B-CV, B-LC, B-TM, B-OG
-52	##해야	O	O	O, B-LC, B-PS, B-OG, B-CV
-53	한다고	O	O	O, B-CV, B-PS, B-LC, B-OG
-54	##도	O	O	O, B-CV, B-PS, B-LC, B-TM
-55	주장	O	O	O, B-CV, I-CV, B-TM, B-PS
-56	##했	O	O	O, I-CV, B-PS, B-CV, I-EV
-57	##다	O	O	O, B-CV, I-CV, B-PS, I-EV
-58	.	O	O	O, B-LC, B-PS, B-CV, B-OG
-59	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	그	O	O
+2	~	O	O
+3	공부	O	O
+4	##만	O	O
+5	한	B-QT	O
+6	사람	I-QT	O
+7	##인	O	O
+8	##데	O	O
+9	[SEP]	O	O

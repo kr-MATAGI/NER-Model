@@ -1,11 +1,28 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	처음	O	O	O, B-QT, B-OG, B-DT, B-PS
-2	##부터	O	O	O, I-QT, I-DT, B-QT, I-OG
-3	대선	O	B-EV	B-EV, O, B-CV, B-AF, B-LC
-4	##후	B-CV	B-CV	B-CV, O, I-CV, I-EV, B-TM
-5	##보	I-CV	I-CV	I-CV, O, B-CV, I-EV, I-TM
-6	##로	O	O	O, I-CV, I-EV, I-QT, I-OG
-7	나서	O	O	O, B-CV, B-OG, B-LC, I-CV
-8	##서	O	O	O, B-OG, B-CV, I-AF, I-OG
-9	[SEP]	O	O	O, B-CV, B-OG, B-LC, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	[	O	O
+2	F	O	O
+3	##ood	O	O
+4	&	O	O
+5	D	O	O
+6	##n	O	I-TM
+7	##ing	O	I-TM
+8	##3	O	I-TM
+9	.	O	I-TM
+10	0	O	I-TM
+11	]	O	O
+12	국경	O	O
+13	초월	O	O
+14	##한	O	O
+15	한국	B-LC	B-LC
+16	##의	O	O
+17	매운맛	O	O
+18	,	O	O
+19	글로벌	O	O
+20	기내	O	O
+21	##식	O	O
+22	‘	O	O
+23	辛	O	O
+24	라면	O	B-CV
+25	’	O	O
+26	[SEP]	O	O

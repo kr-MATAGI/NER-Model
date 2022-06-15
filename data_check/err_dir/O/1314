@@ -1,12 +1,36 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-EV
-1	영수	O	B-EV	B-EV, O, B-OG, B-CV, B-TM
-2	##회	O	I-EV	I-EV, O, I-OG, B-EV, I-CV
-3	##담	O	I-EV	I-EV, O, I-OG, I-CV, I-AF
-4	갑자기	O	O	O, I-EV, I-OG, B-CV, I-AF
-5	제안	O	O	O, B-CV, B-TM, B-OG, B-LC
-6	##하	O	O	O, B-CV, B-PS, B-OG, B-LC
-7	##셨	O	O	O, B-CV, I-OG, I-EV, B-OG
-8	##잖아요	O	O	O, B-CV, I-OG, B-OG, I-EV
-9	.	O	O	O, B-CV, B-OG, B-LC, I-OG
-10	[SEP]	O	O	O, B-CV, B-LC, B-OG, I-EV
+	text	label	preds
+0	[CLS]	O	O
+1	앞서	O	O
+2	전남	B-LC	B-LC
+3	보성	B-LC	B-LC
+4	##역	I-LC	I-LC
+5	##과	O	O
+6	광주	B-LC	B-LC
+7	금남	B-AF	B-AF
+8	##로	I-AF	I-AF
+9	##에	O	O
+10	##서는	O	O
+11	백	B-PS	B-PS
+12	##씨	O	O
+13	##의	O	O
+14	들	O	B-PT
+15	##꽃	O	I-PT
+16	##처럼	O	O
+17	향기	O	O
+18	##로운	O	O
+19	삶	O	O
+20	##을	O	O
+21	기리	O	O
+22	##는	O	O
+23	노	O	B-EV
+24	##제	O	I-EV
+25	##와	O	O
+26	운	O	B-EV
+27	##구	O	I-EV
+28	##행	O	I-EV
+29	##진	O	I-EV
+30	##이	O	O
+31	열렸	O	O
+32	##다	O	O
+33	.	O	O
+34	[SEP]	O	O

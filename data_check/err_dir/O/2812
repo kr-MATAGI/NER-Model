@@ -1,19 +1,68 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, I-OG, B-CV, I-AF
-1	돌아가	O	O	O, B-CV, B-TM, B-PS, B-AF
-2	##면서	O	O	O, B-PS, B-LC, B-QT, I-AF
-3	밥	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-AF
-4	##을	O	O	O, I-CV, B-CV, I-AF, I-QT
-5	한	O	B-QT	B-QT, O, I-QT, B-DT, B-PS
-6	번	O	I-QT	I-QT, O, B-QT, I-LC, I-PS
-7	사	O	O	O, I-QT, B-CV, B-QT, I-CV
-8	##든지	O	O	O, I-QT, B-PS, B-LC, I-LC
-9	걔	O	O	O, B-CV, B-PS, B-TM, B-AF
-10	##는	O	O	O, B-CV, I-CV, B-PS, I-AF
-11	아직	O	O	O, B-CV, B-TM, B-QT, B-LC
-12	그런	O	O	O, B-CV, B-QT, B-TM, B-LC
-13	##게	O	O	O, B-PS, B-CV, B-LC, B-TM
-14	없	O	O	O, B-CV, B-QT, B-PS, B-TM
-15	##더라	O	O	O, B-CV, I-CV, B-PS, B-OG
-16	##구	O	O	O, I-OG, I-AF, I-CV, B-LC
-17	[SEP]	O	O	O, B-CV, B-LC, I-AF, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	중	B-CV	B-CV
+2	·	I-CV	I-CV
+3	고교생	I-CV	I-CV
+4	‘	O	O
+5	일진	O	O
+6	’	O	O
+7	들	O	O
+8	##에	O	O
+9	##게	O	O
+10	강제	O	O
+11	##로	O	O
+12	붕어	B-CV	B-CV
+13	##빵	I-CV	I-CV
+14	노점	O	O
+15	아르바이트	O	O
+16	등	O	O
+17	##을	O	O
+18	시켜	O	O
+19	정기	O	O
+20	##적	O	O
+21	##으로	O	O
+22	상납	O	O
+23	##을	O	O
+24	받	O	O
+25	##고	O	O
+26	금품	O	O
+27	##을	O	O
+28	뜯어	O	O
+29	##온	O	O
+30	조직	O	B-CV
+31	##폭력	O	I-CV
+32	##배	O	I-CV
+33	##들	O	O
+34	##과	O	O
+35	이	O	O
+36	##들	O	O
+37	##에	O	O
+38	##게	O	O
+39	상납	O	O
+40	##하	O	O
+41	##기	O	O
+42	위해	O	O
+43	동료	B-CV	B-CV
+44	학생	B-CV	B-CV
+45	##들	O	O
+46	##을	O	O
+47	괴롭히	O	O
+48	##며	O	O
+49	금품	O	O
+50	##을	O	O
+51	빼앗	O	O
+52	##아	O	O
+53	##온	O	O
+54	‘	O	O
+55	일진	O	O
+56	’	O	O
+57	학생	B-CV	B-CV
+58	##들이	O	O
+59	경찰	B-OG	B-OG
+60	##에	O	O
+61	덜미	O	O
+62	##를	O	O
+63	잡혔	O	O
+64	##다	O	O
+65	.	O	O
+66	[SEP]	O	O

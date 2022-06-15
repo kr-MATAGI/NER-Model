@@ -1,29 +1,45 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	김해	B-LC	B-LC	B-LC, O, B-OG, B-AF, B-DT
-2	##의	O	O	O, I-LC, I-AF, B-LC, I-DT
-3	금관	B-DT	B-DT	B-DT, B-LC, I-DT, B-FD, I-LC
-4	##가	I-DT	I-DT	I-DT, I-LC, I-EV, I-FD, I-QT
-5	##야	I-DT	I-DT	I-DT, I-LC, I-EV, I-QT, I-AF
-6	##뿐	O	O	O, I-DT, I-LC, I-EV, I-QT
-7	아니	O	O	O, B-LC, B-OG, B-PS, B-QT
-8	##라	O	O	O, B-LC, B-PS, B-OG, B-QT
-9	고령	B-LC	B-LC	B-LC, O, B-OG, B-DT, B-AF
-10	##의	O	O	O, I-LC, I-AF, I-DT, I-OG
-11	대가	B-DT	B-DT	B-DT, B-LC, I-LC, I-DT, O
-12	##야	I-DT	I-LC	I-LC, I-DT, O, I-EV, I-AF
-13	등	O	O	O, I-LC, I-DT, B-LC, I-AF
-14	가야	B-DT	B-OG	B-OG, B-DT, B-LC, O, B-FD
-15	##연맹	O	I-OG	I-OG, O, I-EV, I-DT, I-CV
-16	##의	O	O	O, I-OG, I-EV, I-DT, I-AF
-17	다른	O	O	O, B-LC, B-PS, B-OG, B-TM
-18	지역	O	O	O, B-LC, I-LC, B-CV, B-PS
-19	##도	O	O	O, B-LC, B-CV, B-PS, I-LC
-20	관심	O	O	O, B-LC, B-CV, B-TM, B-OG
-21	##을	O	O	O, B-CV, B-OG, B-PS, B-LC
-22	가져야	O	O	O, B-CV, B-LC, B-OG, I-AF
-23	하고	O	O	O, B-CV, B-LC, B-PS, I-CV
-24	##요	O	O	O, B-CV, B-LC, I-OG, I-CV
-25	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-26	""""	O	O	O, B-CV, B-LC, B-TM, B-PS
-27	[SEP]	O	O	O, B-LC, B-CV, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	나	B-PS	B-PS
+2	후보	B-CV	B-CV
+3	쪽	O	O
+4	##은	O	O
+5	50	B-QT	B-QT
+6	##대	I-QT	I-QT
+7	이상	I-QT	I-QT
+8	,	O	O
+9	보수	O	B-TR
+10	지지층	O	O
+11	##을	O	O
+12	투표	O	O
+13	##장	O	O
+14	##으로	O	O
+15	끌어내	O	O
+16	##는	O	O
+17	데	O	O
+18	초점	O	O
+19	##을	O	O
+20	두	O	O
+21	##는	O	O
+22	반면	O	O
+23	,	O	O
+24	박	B-PS	B-PS
+25	후보	B-CV	B-CV
+26	쪽	O	O
+27	##은	O	O
+28	40	B-QT	B-QT
+29	##대	I-QT	I-QT
+30	이하	I-QT	I-QT
+31	,	O	O
+32	중간	O	O
+33	##층	O	O
+34	끌어내	O	O
+35	##기에	O	O
+36	공	O	O
+37	##을	O	O
+38	들이	O	O
+39	##는	O	O
+40	것	O	O
+41	##이다	O	O
+42	.	O	O
+43	[SEP]	O	O

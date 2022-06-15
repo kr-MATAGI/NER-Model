@@ -1,16 +1,41 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	[	O	O	O, B-OG, B-LC, B-PS, B-DT
-2	한겨레	B-OG	B-OG	B-OG, O, B-LC, I-OG, B-AF
-3	]	O	O	O, I-OG, B-OG, I-AF, I-EV
-4	시	O	B-OG	B-OG, O, I-OG, B-CV, B-EV
-5	,	O	O	O, I-OG, I-EV, B-OG, I-CV
-6	체육회	O	O	O, B-OG, I-OG, B-EV, B-CV
-7	부회장	B-CV	B-CV	B-CV, I-CV, O, I-OG, I-EV
-8	부활	O	O	O, I-CV, I-OG, I-EV, B-CV
-9	추진	O	O	O, B-CV, B-LC, B-OG, B-TM
-10	‘	O	O	O, B-CV, B-LC, B-OG, B-PS
-11	뭇	O	O	O, B-CV, B-TM, B-LC, B-AM
-12	##매	O	O	O, I-TM, I-CV, B-LC, B-TM
-13	’	O	O	O, B-CV, B-OG, B-LC, B-PS
-14	[SEP]	O	O	O, B-LC, B-OG, B-CV, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	평소	O	O
+2	고	B-TM	B-TM
+3	##혈	I-TM	I-TM
+4	##압	I-TM	I-TM
+5	##과	O	O
+6	치매	B-TM	B-TM
+7	##를	O	O
+8	앓	O	O
+9	##아	O	O
+10	##온	O	O
+11	것	O	O
+12	##으로	O	O
+13	알려진	O	O
+14	이	O	B-PS
+15	할머니	B-CV	B-CV
+16	##는	O	O
+17	입원	O	O
+18	다음	B-DT	B-DT
+19	##날	I-DT	I-DT
+20	##인	O	O
+21	14	B-DT	B-DT
+22	##일	I-DT	I-DT
+23	오전	B-TI	B-TI
+24	상태	O	O
+25	##가	O	O
+26	위급	O	O
+27	##해	O	O
+28	##져	O	O
+29	중환자실	O	O
+30	##에	O	O
+31	##서	O	O
+32	치료	O	O
+33	##를	O	O
+34	받	O	O
+35	##고	O	O
+36	있	O	O
+37	##다	O	O
+38	.	O	O
+39	[SEP]	O	O

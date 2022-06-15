@@ -1,46 +1,52 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-EV, I-CV
-1	새	B-OG	B-OG	B-OG, O, B-PS, B-LC, B-AF
-2	##누리	I-OG	I-OG	I-OG, O, I-EV, B-OG, I-PS
-3	##당	I-OG	I-OG	I-OG, O, I-EV, I-PS, I-LC
-4	##이	O	O	O, I-OG, B-PS, I-EV, B-CV
-5	16	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-QT
-6	##일	I-DT	I-DT	I-DT, O, B-DT, I-EV, I-QT
-7	단독	O	O	O, I-DT, B-LC, B-OG, B-CV
-8	##으로	O	O	O, B-LC, B-PS, B-OG, I-EV
-9	소집	O	O	O, B-LC, B-OG, B-CV, B-EV
-10	요구	O	O	O, B-LC, B-PS, B-CV, I-EV
-11	##서	O	O	O, B-LC, B-CV, B-PS, I-EV
-12	##를	O	O	O, B-CV, B-PS, B-OG, B-LC
-13	낸	O	O	O, B-LC, B-OG, B-CV, B-EV
-14	‘	O	O	O, B-LC, B-OG, B-CV, B-PS
-15	2012	B-DT	B-DT	B-DT, O, B-EV, I-DT, B-QT
-16	##년	I-DT	I-DT	I-DT, O, I-EV, B-DT, I-OG
-17	결산	O	O	O, I-DT, I-EV, B-CV, I-AF
-18	##안	O	O	O, I-EV, I-OG, I-AF, I-CV
-19	처리	O	O	O, I-EV, I-OG, I-AF, I-CV
-20	##를	O	O	O, I-EV, I-OG, I-AF, B-OG
-21	위한	O	O	O, I-EV, I-OG, B-OG, B-EV
-22	8	B-DT	B-DT	B-DT, B-EV, O, I-EV, I-DT
-23	##월	I-DT	I-DT	I-DT, I-EV, O, I-OG, B-DT
-24	임시	O	O	O, B-EV, B-OG, I-EV, I-OG
-25	##국	O	O	O, I-OG, I-EV, B-OG, B-EV
-26	##회	O	I-OG	I-OG, I-EV, O, B-OG, I-AF
-27	’	O	O	O, I-EV, I-OG, I-DT, I-AF
-28	에	O	O	O, B-OG, B-PS, B-CV, B-LC
-29	민주당	B-OG	B-OG	B-OG, O, B-PS, B-LC, B-AF
-30	##이	O	O	O, I-OG, I-EV, B-PS, B-CV
-31	참여	O	O	O, B-OG, B-LC, B-CV, B-PS
-32	##해	O	O	O, B-LC, B-PS, B-OG, B-CV
-33	국회	B-OG	B-OG	B-OG, O, B-EV, B-AF, B-LC
-34	##를	O	O	O, I-OG, I-EV, I-AF, I-CV
-35	정상	O	O	O, B-LC, B-CV, I-EV, B-EV
-36	##화	O	O	O, B-LC, B-PS, I-LC, I-EV
-37	##해야	O	O	O, B-LC, B-PS, B-OG, I-LC
-38	한다고	O	O	O, B-LC, B-OG, B-PS, B-CV
-39	압박	O	O	O, B-CV, B-LC, B-OG, B-PS
-40	##한	O	O	O, B-PS, B-LC, B-OG, B-CV
-41	것	O	O	O, B-CV, B-OG, B-LC, B-PS
-42	##이다	O	O	O, B-CV, I-OG, I-EV, B-TM
-43	.	O	O	O, B-LC, B-OG, B-PS, B-CV
-44	[SEP]	O	O	O, B-LC, B-OG, B-CV, I-EV
+	text	label	preds
+0	[CLS]	O	O
+1	교육청	B-OG	B-OG
+2	조사	O	O
+3	결과	O	O
+4	,	O	O
+5	계	B-OG	B-OG
+6	##성	I-OG	I-OG
+7	##초	I-OG	I-OG
+8	ㄱ	O	O
+9	##교사	O	B-CV
+10	##는	O	O
+11	담임	O	O
+12	##을	O	O
+13	맡	O	O
+14	##은	O	O
+15	한	O	O
+16	학생	B-CV	B-CV
+17	##의	O	O
+18	학부모	B-CV	B-CV
+19	##한	O	O
+20	##테	O	O
+21	##서	O	O
+22	지난해	B-DT	B-DT
+23	두	B-QT	B-QT
+24	##차례	I-QT	I-QT
+25	##에	O	O
+26	걸쳐	O	O
+27	130	B-QT	B-QT
+28	##만	I-QT	I-QT
+29	##원	I-QT	I-QT
+30	##을	O	O
+31	받	O	O
+32	##았	O	O
+33	##다가	O	O
+34	이후	O	O
+35	학부모	B-CV	B-CV
+36	##와	O	O
+37	갈등	O	O
+38	##을	O	O
+39	빚	O	O
+40	##고	O	O
+41	돈	O	O
+42	##을	O	O
+43	돌려	O	O
+44	##준	O	O
+45	것	O	O
+46	##으로	O	O
+47	드러났	O	O
+48	##다	O	O
+49	.	O	O
+50	[SEP]	O	O

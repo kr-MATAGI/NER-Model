@@ -1,78 +1,37 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-EV, I-CV
-1	공사	O	O	O, B-AF, B-CV, B-LC, B-PS
-2	현장	O	O	O, B-CV, B-LC, B-AF, I-AF
-3	##에서	O	O	O, B-LC, B-CV, B-OG, B-PS
-4	직선	O	O	O, B-QT, B-TM, B-LC, B-AF
-5	##거리	O	O	O, I-QT, B-QT, I-TM, B-TM
-6	##로	O	O	O, I-QT, B-PS, B-LC, B-CV
-7	23	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-LC
-8	##㎞	I-QT	I-QT	I-QT, O, I-LC, I-PS, I-DT
-9	떨어진	O	O	O, I-QT, B-TM, B-LC, B-OG
-10	곳	O	O	O, B-TM, B-LC, B-CV, B-OG
-11	##에	O	O	O, B-CV, B-LC, B-OG, B-PS
-12	있	O	O	O, B-LC, B-OG, B-PS, B-CV
-13	##는	O	O	O, B-LC, B-OG, B-PS, B-CV
-14	하	B-LC	B-OG	B-OG, B-LC, O, B-PS, I-OG
-15	##코	I-LC	I-OG	I-OG, I-LC, O, I-PS, B-LC
-16	##다	I-LC	I-OG	I-OG, I-LC, O, I-PS, B-LC
-17	##테	I-LC	I-OG	I-OG, I-LC, O, I-PS, B-LC
-18	##시	I-LC	I-OG	I-OG, I-LC, O, I-PS, I-AF
-19	##의	O	O	O, I-OG, I-LC, I-PS, I-AF
-20	구도	B-PS	B-PS	B-PS, B-LC, O, B-OG, I-PS
-21	도시	I-PS	I-PS	I-PS, I-LC, O, I-OG, B-PS
-22	##키	I-PS	I-PS	I-PS, I-LC, O, I-OG, B-LC
-23	시장	B-CV	B-CV	B-CV, O, I-PS, I-CV, B-OG
-24	##은	O	O	O, I-CV, I-OG, I-EV, I-AF
-25	1	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-26	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-27	전원	O	B-OG	B-OG, O, B-LC, I-OG, B-PS
-28	##개발	O	I-OG	I-OG, O, I-LC, I-PS, I-AF
-29	쪽	O	O	O, I-OG, I-LC, I-AF, I-PS
-30	##의	O	O	O, I-OG, B-PS, B-CV, B-LC
-31	설명	O	O	O, B-CV, B-TM, B-LC, B-OG
-32	##을	O	O	O, B-CV, B-PS, B-OG, B-LC
-33	듣	O	O	O, B-LC, B-CV, B-PS, B-OG
-34	##고	O	O	O, B-LC, B-PS, B-CV, B-OG
-35	“	O	O	O, B-LC, B-CV, B-PS, B-OG
-36	오마	B-AF	B-AF	B-AF, B-LC, O, B-PS, B-EV
-37	##원	I-AF	I-AF	I-AF, O, I-LC, I-EV, I-PS
-38	##전	I-AF	I-AF	I-AF, O, I-LC, I-EV, I-QT
-39	허가	O	O	O, I-AF, I-EV, B-CV, I-OG
-40	##는	O	O	O, B-LC, B-PS, B-OG, I-AF
-41	후쿠시마	B-DT	B-EV	B-EV, B-LC, B-DT, B-AF, B-PS
-42	원전	I-DT	I-EV	I-EV, I-DT, O, B-EV, I-AF
-43	##사고	I-DT	I-EV	I-EV, I-DT, O, I-AF, I-LC
-44	이전	I-DT	O	O, I-DT, I-EV, I-AF, I-LC
-45	##의	O	O	O, I-DT, I-EV, B-LC, B-PS
-46	‘	O	O	O, B-LC, B-OG, B-CV, B-PS
-47	안전	O	O	O, B-LC, B-CV, B-PS, B-OG
-48	##신	O	O	O, B-LC, B-CV, B-PS, B-FD
-49	##화	O	O	O, B-LC, I-LC, I-CV, I-OG
-50	’	O	O	O, B-CV, B-LC, B-PS, B-OG
-51	에	O	O	O, B-PS, B-LC, B-CV, B-OG
-52	바탕	O	O	O, B-LC, B-CV, B-TM, B-PS
-53	##을	O	O	O, B-PS, B-LC, B-CV, B-OG
-54	둔	O	O	O, B-LC, B-PS, B-OG, B-CV
-55	것	O	O	O, B-LC, B-PS, B-CV, B-OG
-56	”	O	O	O, B-CV, B-LC, B-OG, B-TM
-57	이라	O	O	O, B-PS, B-CV, B-LC, B-OG
-58	##고	O	O	O, B-CV, B-LC, B-OG, B-PS
-59	지적	O	O	O, B-CV, B-LC, B-OG, B-TM
-60	##하고	O	O	O, B-LC, B-CV, B-PS, B-OG
-61	,	O	O	O, B-LC, B-CV, B-OG, B-TM
-62	공사	O	O	O, B-CV, B-LC, B-AF, B-OG
-63	중단	O	O	O, B-CV, B-TM, B-LC, B-PS
-64	##을	O	O	O, B-CV, B-LC, B-OG, B-PS
-65	요구	O	O	O, B-CV, B-LC, B-TM, B-OG
-66	##하	O	O	O, B-LC, B-CV, B-OG, B-PS
-67	##는	O	O	O, B-CV, B-LC, B-TM, B-OG
-68	소송	O	O	O, B-CV, B-LC, B-TM, B-EV
-69	##을	O	O	O, B-CV, B-LC, B-OG, I-CV
-70	내	O	O	O, B-CV, B-LC, B-OG, B-AF
-71	##겠다	O	O	O, B-CV, B-LC, B-OG, B-TM
-72	##고	O	O	O, B-LC, B-CV, B-PS, B-OG
-73	밝혔	O	O	O, B-CV, B-LC, B-OG, B-TM
-74	##다	O	O	O, B-CV, B-LC, B-TM, B-OG
-75	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-76	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	■	O	O
+2	안철수	B-PS	B-PS
+3	,	O	O
+4	19	B-DT	B-DT
+5	##일	I-DT	I-DT
+6	오후	B-TI	B-TI
+7	3	I-TI	I-TI
+8	##시	I-TI	I-TI
+9	구세	B-AF	B-AF
+10	##군	I-AF	I-AF
+11	##아트	I-AF	I-AF
+12	##홀	I-AF	I-AF
+13	##서	O	O
+14	대선	B-EV	B-EV
+15	##출	O	O
+16	##마	O	O
+17	입장	O	O
+18	발표	O	O
+19	安	B-PS	B-PS
+20	,	O	O
+21	文	B-PS	B-PS
+22	후보	B-CV	B-CV
+23	##확	O	O
+24	##정	O	O
+25	바로	O	O
+26	다음	B-DT	B-DT
+27	##날	I-DT	I-DT
+28	‘	O	O
+29	출마	O	O
+30	##선언	O	O
+31	예고	O	O
+32	’	O	O
+33	견제	O	B-TM
+34	##구	O	I-TM
+35	[SEP]	O	O

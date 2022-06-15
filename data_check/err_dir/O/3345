@@ -1,28 +1,16 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-TM
-1	‘	O	B-TM	B-TM, O, B-AF, I-TM, B-LC
-2	철	B-TM	I-TM	I-TM, B-TM, B-AF, O, I-AF
-3	##매	I-TM	I-TM	I-TM, I-AF, O, I-OG, I-LC
-4	-	I-TM	I-TM	I-TM, O, I-AF, I-OG, I-QT
-5	Ⅱ	I-TM	I-TM	I-TM, O, I-AF, I-QT, I-OG
-6	’	O	I-TM	I-TM, O, I-AF, I-OG, I-QT
-7	프로젝트	O	I-TM	I-TM, O, B-TM, I-AF, I-TR
-8	##는	O	O	O, I-TM, I-AF, I-OG, I-QT
-9	도입	O	O	O, B-CV, B-TM, B-OG, B-AF
-10	##된	O	O	O, B-CV, B-OG, B-PS, B-LC
-11	지	O	O	O, B-PS, B-OG, B-CV, B-LC
-12	40	B-DT	B-DT	B-DT, I-DT, O, B-QT, B-LC
-13	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-14	##이	O	O	O, I-DT, B-PS, B-OG, B-CV
-15	지난	O	O	O, B-PS, B-OG, B-CV, B-LC
-16	호	O	B-AF	B-AF, O, B-OG, B-LC, I-AF
-17	##크	O	I-AF	I-AF, O, I-OG, I-TM, B-AF
-18	미사일	B-AF	I-AF	I-AF, B-AF, I-TM, O, I-OG
-19	##을	O	O	O, I-AF, I-TM, I-OG, B-CV
-20	대체	O	O	O, B-TM, B-CV, I-AF, B-OG
-21	##하	O	O	O, B-PS, B-CV, B-TM, B-OG
-22	##는	O	O	O, B-CV, B-TM, B-PS, B-QT
-23	사업	O	O	O, B-TM, B-CV, I-TM, B-LC
-24	##이다	O	O	O, I-TM, B-CV, B-TM, I-CV
-25	.	O	O	O, B-TM, B-LC, B-OG, B-CV
-26	[SEP]	O	O	O, B-TM, I-TM, B-CV, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	우리	O	O
+2	형	O	B-CV
+3	##님	O	I-CV
+4	##이	O	O
+5	아유	O	O
+6	그것	O	O
+7	##도	O	O
+8	벌써	O	O
+9	육	B-QT	B-QT
+10	##십	I-QT	I-QT
+11	##이	O	O
+12	##니	O	O
+13	##깐	O	O
+14	[SEP]	O	O

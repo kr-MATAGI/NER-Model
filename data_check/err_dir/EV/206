@@ -1,41 +1,46 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	또	O	O	O, B-CV, B-TM, B-OG, B-LC
-2	정치	O	O	O, B-CV, B-FD, B-OG, B-PS
-3	##권	O	O	O, I-CV, B-PS, I-OG, B-CV
-4	밖에	O	O	O, B-TM, B-CV, B-PS, B-LC
-5	있	O	O	O, B-PS, B-CV, B-LC, B-OG
-6	##는	O	O	O, B-PS, B-LC, B-CV, B-OG
-7	부산	B-LC	B-LC	B-LC, B-OG, O, B-PS, B-AF
-8	출신	O	O	O, B-CV, I-LC, I-OG, B-PS
-9	조국	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
-10	서울대	B-OG	B-OG	B-OG, B-LC, B-AF, I-PS, I-OG
-11	교수	B-CV	B-CV	B-CV, O, I-CV, B-OG, I-OG
-12	,	O	O	O, I-CV, I-OG, B-CV, I-AF
-13	서울대	B-OG	B-OG	B-OG, B-LC, B-AF, B-PS, O
-14	총학생회	B-CV	B-CV	B-CV, O, I-CV, B-OG, I-OG
-15	##장	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-QT
-16	출신	O	O	O, I-CV, B-CV, I-OG, I-QT
-17	##으로	O	O	O, B-PS, B-CV, B-LC, B-OG
-18	사	B-EV	O	O, B-EV, B-OG, B-CV, B-PS
-19	##노	I-EV	O	O, I-EV, B-EV, I-OG, I-CV
-20	##맹	I-EV	O	O, I-EV, I-OG, B-EV, I-AF
-21	사건	I-EV	O	O, I-EV, I-OG, B-EV, I-AF
-22	##을	O	O	O, I-EV, I-OG, B-CV, I-AF
-23	주도	O	O	O, B-CV, B-TM, B-LC, B-QT
-24	##했	O	O	O, B-CV, B-PS, B-LC, B-OG
-25	##던	O	O	O, B-CV, B-PS, B-LC, B-QT
-26	백	B-PS	B-PS	B-PS, B-OG, O, I-PS, B-LC
-27	##태	I-PS	I-PS	I-PS, B-PS, O, I-OG, I-LC
-28	##웅	I-PS	I-PS	I-PS, O, B-PS, I-OG, I-LC
-29	##씨	O	O	O, I-PS, B-CV, I-QT, I-OG
-30	등	O	O	O, B-CV, B-LC, B-TM, B-PS
-31	##도	O	O	O, B-CV, B-LC, B-PS, B-TM
-32	영입	O	O	O, B-CV, B-TM, B-PS, B-OG
-33	대상	O	O	O, I-CV, B-CV, B-PS, B-LC
-34	##으로	O	O	O, B-CV, B-PS, B-QT, B-OG
-35	거론	O	O	O, B-CV, B-OG, B-TM, B-LC
-36	##된	O	O	O, I-OG, I-CV, I-QT, B-PS
-37	##다	O	O	O, B-CV, I-OG, B-QT, B-TM
-38	.	O	O	O, B-CV, B-PS, B-LC, B-OG
-39	[SEP]	O	O	O, B-CV, B-PS, B-LC, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	정부	B-OG	B-OG
+2	내	O	O
+3	##에	O	O
+4	##서는	O	O
+5	무	B-EV	O
+6	##투	I-EV	O
+7	##가	O	O
+8	정치	O	O
+9	##적	O	O
+10	의미	O	O
+11	##가	O	O
+12	작	O	O
+13	##지	O	O
+14	않	O	O
+15	##은	O	O
+16	행사	O	O
+17	##라	O	O
+18	##서	O	O
+19	황	B-PS	B-PS
+20	권한	B-CV	B-CV
+21	##대	I-CV	I-CV
+22	##행	I-CV	I-CV
+23	##이	O	O
+24	주재	O	O
+25	##하면	O	O
+26	'	O	O
+27	대선	O	B-EV
+28	행보	O	O
+29	'	O	O
+30	라는	O	O
+31	야당	O	O
+32	##의	O	O
+33	비판	O	O
+34	##을	O	O
+35	부를	O	O
+36	수	O	O
+37	있	O	O
+38	##다는	O	O
+39	시각	O	O
+40	##도	O	O
+41	있	O	O
+42	##다	O	O
+43	.	O	O
+44	[SEP]	O	O

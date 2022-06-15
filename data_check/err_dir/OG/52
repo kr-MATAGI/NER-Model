@@ -1,32 +1,32 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	여성	B-OG	B-OG	B-OG, O, B-CV, I-OG, B-LC
-2	##가족	I-OG	I-OG	I-OG, O, B-OG, I-CV, I-EV
-3	##부	I-OG	I-OG	I-OG, O, I-CV, I-EV, I-QT
-4	##는	O	O	O, I-OG, I-EV, B-CV, I-CV
-5	지난해	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-6	구월	I-DT	I-DT	I-DT, O, B-DT, I-QT, B-CV
-7	우리	O	O	O, I-DT, B-LC, B-CV, B-OG
-8	사회	O	O	O, B-CV, B-FD, B-TR, I-CV
-9	##의	O	O	O, B-PS, B-LC, B-CV, I-CV
-10	성	O	O	O, B-CV, B-TR, B-FD, I-CV
-11	##차별	O	O	O, I-CV, I-TR, B-CV, I-FD
-12	문제	O	O	O, I-CV, I-TR, B-CV, I-FD
-13	해결	O	O	O, I-CV, B-CV, B-PS, B-LC
-14	##을	O	O	O, B-CV, B-PS, B-LC, B-OG
-15	위해	O	O	O, B-LC, B-CV, B-OG, B-TM
-16	성	B-OG	O	O, B-CV, B-TR, B-FD, B-TM
-17	##평	I-OG	O	O, I-CV, I-TR, B-CV, I-FD
-18	##등	I-OG	O	O, I-CV, I-TR, B-CV, I-FD
-19	문화	I-OG	O	O, I-CV, I-TR, B-CV, I-TM
-20	확산	I-OG	O	O, I-CV, B-CV, I-TM, I-TR
-21	태	I-OG	O	O, I-CV, B-CV, B-TM, I-TM
-22	##스크	I-OG	O	O, I-CV, I-OG, I-TM, I-LC
-23	##포스	I-OG	O	O, I-OG, I-CV, I-TM, B-CV
-24	##를	O	O	O, B-CV, I-OG, I-CV, B-OG
-25	만들	O	O	O, B-CV, B-OG, B-LC, B-TM
-26	##었	O	O	O, B-CV, I-OG, B-OG, B-LC
-27	##는데	O	O	O, B-CV, B-LC, B-OG, B-QT
-28	##요	O	O	O, B-CV, B-LC, B-OG, B-QT
-29	.	O	O	O, B-CV, B-LC, B-OG, B-PS
-30	[SEP]	O	O	O, B-CV, B-LC, B-OG, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	칠레	B-LC	B-OG
+2	##는	O	O
+3	지난	B-DT	B-DT
+4	7	I-DT	I-DT
+5	##월	I-DT	I-DT
+6	코파	B-OG	B-EV
+7	아메리카	I-OG	I-EV
+8	(	O	O
+9	남미	B-OG	B-EV
+10	##축구	I-OG	I-EV
+11	##선	I-OG	I-EV
+12	##수	I-OG	I-EV
+13	##권	I-OG	I-EV
+14	)	O	O
+15	에서	O	O
+16	우승	O	O
+17	##한	O	O
+18	이후	O	O
+19	지금	O	O
+20	##까	O	O
+21	##지	O	O
+22	뜨거운	O	O
+23	축구	B-CV	B-CV
+24	열기	O	O
+25	##에	O	O
+26	휩싸여	O	O
+27	있	O	O
+28	##다	O	O
+29	.	O	O
+30	[SEP]	O	O

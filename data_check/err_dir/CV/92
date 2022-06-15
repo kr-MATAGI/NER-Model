@@ -1,33 +1,41 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	정치	B-CV	B-CV	B-CV, O, B-OG, I-CV, B-AF
-2	##자	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-AF
-3	##금	I-CV	I-CV	I-CV, O, I-OG, B-CV, I-TM
-4	##법	I-CV	I-CV	I-CV, O, I-OG, B-CV, I-TM
-5	##상	O	O	O, I-CV, I-OG, B-CV, B-PS
-6	피	O	B-CV	B-CV, O, I-CV, B-TM, B-AM
-7	##선거	B-CV	I-CV	I-CV, O, B-CV, I-TM, I-TR
-8	##권	I-CV	I-CV	I-CV, O, B-CV, I-TM, I-TR
-9	박탈	O	O	O, I-CV, B-CV, I-TM, I-AF
-10	및	O	O	O, I-CV, B-PS, B-LC, B-QT
-11	당연	O	O	O, B-CV, I-CV, B-PS, B-FD
-12	##퇴직	O	O	O, I-CV, B-CV, B-PS, I-TR
-13	대상	O	O	O, B-CV, I-CV, B-QT, B-PS
-14	##이	O	O	O, B-PS, B-CV, B-OG, B-LC
-15	되	O	O	O, B-CV, B-QT, B-TM, B-OG
-16	##는	O	O	O, B-CV, B-LC, B-QT, B-OG
-17	'	O	O	O, B-CV, B-LC, B-OG, B-QT
-18	벌금	B-CV	B-CV	B-CV, O, B-TM, I-CV, B-AF
-19	100	B-QT	B-QT	B-QT, I-QT, I-CV, B-DT, O
-20	##만	I-QT	I-QT	I-QT, O, I-CV, I-LC, I-PS
-21	##원	I-QT	I-QT	I-QT, O, I-LC, I-PS, I-AF
-22	이상	I-QT	I-QT	I-QT, O, I-LC, I-PS, I-AF
-23	'	O	O	O, I-QT, B-CV, I-CV, I-AF
-24	보다	O	O	O, B-CV, I-QT, B-TM, B-OG
-25	한참	O	O	O, B-CV, B-TM, B-LC, B-QT
-26	높	O	O	O, B-CV, B-QT, B-TM, B-LC
-27	##은	O	O	O, B-CV, B-PS, B-LC, B-OG
-28	형량	O	O	O, B-CV, B-PS, I-CV, B-QT
-29	##이다	O	O	O, B-CV, I-CV, B-TM, I-QT
-30	.	O	O	O, B-CV, B-LC, I-CV, B-PS
-31	[SEP]	O	O	O, B-CV, B-LC, I-CV, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	온난화	O	O
+2	##의	O	O
+3	주범	B-CV	O
+4	##인	O	O
+5	온실가스	B-MT	B-MT
+6	배출	O	O
+7	##이	O	O
+8	거의	O	O
+9	없	O	O
+10	##는	O	O
+11	데	O	O
+12	##다	O	O
+13	가스	O	O
+14	##나	O	O
+15	석유	B-MT	B-MT
+16	##를	O	O
+17	연료	O	O
+18	##로	O	O
+19	사용	O	O
+20	##하	O	O
+21	##는	O	O
+22	화력	O	O
+23	##발전	O	O
+24	##보	O	O
+25	##다	O	O
+26	전력	O	O
+27	##생	O	O
+28	##산	O	O
+29	##비용	O	O
+30	##이	O	O
+31	획기	O	O
+32	##적	O	O
+33	##으로	O	O
+34	낮	O	O
+35	##기	O	O
+36	때문	O	O
+37	##이다	O	O
+38	.	O	O
+39	[SEP]	O	O

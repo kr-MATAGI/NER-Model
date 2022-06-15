@@ -1,42 +1,15 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	보통	O	O	O, B-CV, B-LC, B-TM, B-OG
-2	##의	O	O	O, B-PS, B-CV, B-LC, B-OG
-3	경우	O	O	O, B-CV, B-LC, B-OG, B-TM
-4	##에	O	O	O, B-PS, B-CV, B-OG, B-LC
-5	외국	O	O	O, B-LC, B-OG, B-CV, B-PS
-6	정부	B-OG	B-OG	B-OG, O, B-LC, B-AF, I-OG
-7	##에서	O	O	O, I-OG, I-AF, I-CV, I-EV
-8	##는	O	O	O, B-CV, B-LC, B-OG, B-TM
-9	어떤	O	O	O, B-LC, B-CV, B-QT, B-TM
-10	것	O	O	O, B-CV, B-QT, B-PS, B-LC
-11	##을	O	O	O, B-CV, B-PS, B-LC, B-OG
-12	자기	O	O	O, B-CV, B-LC, B-PS, B-OG
-13	##들이	O	O	O, B-PS, B-CV, B-LC, B-QT
-14	무상	O	O	O, B-CV, B-QT, B-TM, B-AM
-15	##으로	O	O	O, I-CV, I-QT, B-PS, B-LC
-16	공짜	O	O	O, B-CV, B-QT, B-TM, B-AM
-17	##로	O	O	O, I-QT, I-CV, B-PS, B-LC
-18	한국	B-LC	B-LC	B-LC, B-OG, O, B-PS, B-AF
-19	##정부	B-OG	I-OG	I-OG, B-OG, O, I-LC, B-CV
-20	##로	O	O	O, I-OG, I-AF, I-EV, I-CV
-21	##부터	O	O	O, B-LC, B-QT, B-TM, B-CV
-22	지원	O	O	O, B-CV, B-TM, B-QT, B-LC
-23	##받	O	O	O, B-CV, B-PS, B-LC, I-AF
-24	##을	O	O	O, B-CV, B-LC, B-PS, B-OG
-25	수	O	O	O, B-CV, B-LC, B-PS, B-TM
-26	있	O	O	O, B-CV, B-LC, B-PS, B-TM
-27	##을까	O	O	O, B-CV, B-LC, B-QT, B-PS
-28	##라고	O	O	O, B-CV, B-QT, B-TM, B-LC
-29	하	O	O	O, B-CV, B-TM, B-QT, B-LC
-30	##는	O	O	O, B-CV, B-LC, B-TM, B-PS
-31	아이디어	O	O	O, B-CV, B-QT, B-FD, B-TM
-32	##가	O	O	O, B-PS, B-CV, B-OG, I-AF
-33	특별히	O	O	O, B-QT, B-CV, B-LC, B-TM
-34	많	O	O	O, B-CV, B-QT, B-TM, B-OG
-35	##지	O	O	O, B-CV, I-OG, I-QT, B-QT
-36	않	O	O	O, B-CV, B-LC, B-TM, B-PS
-37	##습	O	O	O, B-CV, I-OG, B-LC, B-OG
-38	##니다	O	O	O, B-CV, B-LC, B-TM, B-OG
-39	.	O	O	O, B-CV, B-LC, B-PS, B-OG
-40	[SEP]	O	O	O, B-CV, B-LC, B-TM, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	하지	O	O
+2	##만	O	O
+3	아르헨티나	B-OG	B-LC
+4	##와	O	O
+5	브라질	B-OG	B-LC
+6	##은	O	O
+7	일찍	O	O
+8	짐	O	O
+9	##을	O	O
+10	쌌	O	O
+11	##다	O	O
+12	.	O	O
+13	[SEP]	O	O

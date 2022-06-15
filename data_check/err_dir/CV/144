@@ -1,36 +1,69 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	인수위	B-OG	B-OG	B-OG, O, B-AF, B-CV, B-EV
-2	##는	O	O	O, I-OG, I-EV, I-AF, B-CV
-3	또	O	O	O, B-OG, B-LC, B-CV, B-PS
-4	대통령	B-CV	B-CV	B-CV, O, B-OG, I-CV, B-PS
-5	##이	O	O	O, B-PS, I-CV, B-CV, I-OG
-6	임명	O	O	O, B-CV, B-PS, I-CV, B-OG
-7	##하	O	O	O, B-PS, B-CV, I-CV, B-OG
-8	##는	O	O	O, B-CV, B-PS, B-LC, B-OG
-9	인사	B-CV	O	O, B-CV, I-CV, B-PS, B-FD
-10	##의	O	O	O, I-CV, B-PS, B-CV, B-LC
-11	공정성	O	O	O, B-CV, B-PS, B-TR, B-TM
-12	##을	O	O	O, B-PS, B-CV, I-CV, I-OG
-13	확보	O	O	O, B-CV, B-LC, B-PS, B-OG
-14	##하기	O	O	O, B-PS, B-LC, B-CV, B-OG
-15	위해	O	O	O, B-LC, B-PS, B-OG, B-CV
-16	비서실	B-CV	B-CV	B-CV, O, B-OG, B-TM, I-CV
-17	##장	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-TM
-18	##을	O	O	O, I-CV, B-CV, B-PS, I-OG
-19	위원장	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-OG
-20	##으로	O	O	O, I-CV, B-PS, B-CV, I-OG
-21	하	O	O	O, B-OG, B-PS, B-LC, B-CV
-22	##는	O	O	O, B-LC, B-OG, B-CV, B-PS
-23	인사	O	B-OG	B-OG, O, B-CV, B-AF, B-EV
-24	##위원회	O	I-OG	I-OG, O, I-AF, I-EV, I-CV
-25	##를	O	O	O, I-OG, I-AF, I-EV, B-PS
-26	청와대	B-OG	B-OG	B-OG, B-AF, O, B-LC, B-PS
-27	##에	O	O	O, I-OG, I-AF, I-EV, B-CV
-28	설치	O	O	O, B-CV, B-OG, B-LC, B-TM
-29	##하기	O	O	O, B-OG, B-LC, B-PS, B-CV
-30	##로	O	O	O, B-OG, B-CV, B-LC, I-OG
-31	했	O	O	O, B-OG, B-LC, B-CV, B-PS
-32	##다	O	O	O, B-CV, I-OG, B-LC, B-OG
-33	.	O	O	O, B-LC, B-PS, B-OG, B-CV
-34	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	27	B-DT	B-DT
+2	##일	I-DT	I-DT
+3	(	O	O
+4	현지	O	O
+5	시간	O	O
+6	)	O	O
+7	워싱턴	B-OG	B-OG
+8	##포스	I-OG	I-OG
+9	##트	I-OG	I-OG
+10	(	O	O
+11	WP	B-OG	B-OG
+12	)	O	O
+13	와	O	O
+14	의회	O	O
+15	##전	O	O
+16	##문	O	O
+17	##지	O	O
+18	‘	O	O
+19	더	B-OG	B-OG
+20	##힐	I-OG	I-OG
+21	’	O	O
+22	등	O	O
+23	##에	O	O
+24	따르	O	O
+25	##면	O	O
+26	미	B-LC	B-LC
+27	상원	B-OG	B-OG
+28	의회	O	O
+29	##에	O	O
+30	##서	O	O
+31	두	B-QT	B-QT
+32	번	I-QT	I-QT
+33	##째	I-QT	I-QT
+34	##로	O	O
+35	표결	O	O
+36	##에	O	O
+37	부쳐	O	O
+38	##진	O	O
+39	‘	O	O
+40	오바마	B-CV	B-CV
+41	##케어	I-CV	I-CV
+42	(	O	O
+43	전국	B-CV	B-CV
+44	##민	I-CV	I-CV
+45	##건	I-CV	I-CV
+46	##강	I-CV	I-CV
+47	##보험	I-CV	I-CV
+48	##법	I-CV	I-CV
+49	·	O	O
+50	AC	B-CV	B-OG
+51	##A	I-CV	I-OG
+52	)	O	O
+53	폐지	O	O
+54	법안	O	O
+55	’	O	O
+56	투표	O	O
+57	때	O	O
+58	매	B-PS	B-PS
+59	##케인	I-PS	I-PS
+60	##은	O	O
+61	반대	O	O
+62	##표	O	O
+63	##를	O	O
+64	던졌	O	O
+65	##다	O	O
+66	.	O	O
+67	[SEP]	O	O

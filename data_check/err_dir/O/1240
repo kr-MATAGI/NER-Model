@@ -1,41 +1,28 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	그러나	O	O	O, B-OG, B-CV, B-LC, B-TM
-2	<	B-OG	B-OG	B-OG, O, I-OG, B-AF, B-LC
-3	로이터	I-OG	I-OG	I-OG, B-OG, O, I-AF, I-EV
-4	>	I-OG	I-OG	I-OG, O, I-AF, I-EV, I-CV
-5	통신	I-OG	I-OG	I-OG, O, I-CV, I-AF, I-EV
-6	##은	O	O	O, I-OG, I-EV, I-AF, I-CV
-7	“	O	O	O, B-LC, B-CV, B-OG, I-OG
-8	미국	B-LC	B-LC	B-LC, B-OG, O, B-PS, B-AF
-9	##의	O	O	O, I-LC, I-OG, B-LC, B-PS
-10	한	O	O	O, B-LC, B-PS, B-QT, B-OG
-11	관리	O	B-CV	B-CV, O, I-CV, I-QT, B-OG
-12	##가	O	O	O, I-CV, B-PS, I-QT, B-LC
-13	피	O	O	O, B-AF, B-LC, B-TM, B-CV
-14	##격	O	O	O, I-AF, I-LC, B-AF, I-CV
-15	비행	O	O	O, B-AF, I-AF, B-LC, B-PS
-16	##체	O	O	O, I-AF, I-LC, B-AF, I-OG
-17	##는	O	O	O, I-AF, B-LC, B-PS, B-CV
-18	러시아	B-LC	B-LC	B-LC, O, B-OG, B-AF, B-PS
-19	무인기	B-AF	B-AF	B-AF, O, I-AF, B-OG, B-LC
-20	##라고	O	O	O, I-AF, I-OG, B-PS, I-LC
-21	의심	O	O	O, B-CV, B-TM, B-PS, B-LC
-22	##한다	O	O	O, B-CV, B-PS, B-LC, I-CV
-23	##고	O	O	O, B-CV, B-LC, B-PS, B-TM
-24	말	O	O	O, B-CV, B-LC, B-TM, B-PS
-25	##했	O	O	O, B-PS, B-CV, B-LC, I-CV
-26	##지만	O	O	O, B-LC, B-CV, B-PS, B-OG
-27	자세	O	O	O, B-LC, B-CV, B-TM, B-PS
-28	##한	O	O	O, B-LC, B-PS, B-OG, B-TM
-29	언급	O	O	O, B-CV, B-LC, B-TM, B-QT
-30	##은	O	O	O, B-LC, B-CV, B-OG, B-PS
-31	거부	O	O	O, B-CV, B-LC, B-TM, B-QT
-32	##했	O	O	O, B-LC, B-CV, B-PS, I-CV
-33	##다	O	O	O, B-CV, B-LC, I-OG, B-OG
-34	”	O	O	O, B-CV, B-LC, B-OG, B-TM
-35	고	O	O	O, B-CV, B-LC, B-QT, B-OG
-36	전했	O	O	O, B-CV, B-OG, B-QT, B-LC
-37	##다	O	O	O, B-CV, I-OG, I-QT, B-LC
-38	.	O	O	O, B-LC, B-CV, B-OG, B-PS
-39	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	구단	O	O
+2	##의	O	O
+3	마이너	B-OG	B-OG
+4	##리그	I-OG	I-OG
+5	##행	O	O
+6	##을	O	O
+7	단호히	O	O
+8	거부	O	O
+9	##하	O	O
+10	##고	O	O
+11	빅	O	B-OG
+12	##리그	O	I-OG
+13	##에	O	O
+14	##서	O	O
+15	버티	O	O
+16	##며	O	O
+17	한	B-QT	O
+18	시즌	I-QT	O
+19	##을	O	O
+20	성공	O	O
+21	##적	O	O
+22	##으로	O	O
+23	보냈	O	O
+24	##다	O	O
+25	.	O	O
+26	[SEP]	O	O

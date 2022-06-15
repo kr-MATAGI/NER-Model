@@ -1,14 +1,42 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, I-OG, B-CV, I-AF
-1	손학규	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
-2	깃발	O	O	O, B-AF, B-CV, I-PS, I-AF
-3	아래	O	O	O, B-TM, B-LC, B-CV, B-AF
-4	이제	O	O	O, B-CV, I-TM, I-AF, B-PS
-5	동지	B-CV	O	O, B-CV, B-OG, B-AF, B-PS
-6	##로	O	O	O, I-CV, I-OG, I-AF, B-PS
-7	행동	O	O	O, B-CV, B-PS, B-LC, I-CV
-8	##할	O	O	O, B-PS, B-CV, I-AF, I-CV
-9	거	O	O	O, B-CV, B-PS, B-OG, B-QT
-10	아닙니까	O	O	O, B-CV, I-OG, B-OG, B-PS
-11	당연히	O	O	O, B-CV, B-OG, I-OG, B-PS
-12	[SEP]	O	O	O, B-CV, B-PS, B-LC, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	교황	B-CV	B-CV
+2	##이	O	O
+3	이번	O	O
+4	방문	O	O
+5	때	O	O
+6	미얀마	B-LC	B-LC
+7	·	O	O
+8	방글라데시	B-LC	B-LC
+9	양국	O	O
+10	사이	O	O
+11	##에	O	O
+12	끼	O	O
+13	##인	O	O
+14	이슬람	B-CV	B-OG
+15	##계	I-CV	O
+16	소수	O	B-CV
+17	##민	O	I-CV
+18	##족	O	I-CV
+19	로	B-CV	B-CV
+20	##힝	I-CV	I-CV
+21	##야	I-CV	I-CV
+22	##족	I-CV	I-CV
+23	(	O	O
+24	族	O	O
+25	)	O	O
+26	박해	O	O
+27	문제	O	O
+28	##를	O	O
+29	언급	O	O
+30	##할	O	O
+31	##지	O	O
+32	##에	O	O
+33	관심	O	O
+34	##이	O	O
+35	쏠리	O	O
+36	##고	O	O
+37	있	O	O
+38	##다	O	O
+39	.	O	O
+40	[SEP]	O	O

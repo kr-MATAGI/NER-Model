@@ -1,11 +1,34 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, I-OG, B-CV, I-AF
-1	name	O	O	O, B-PS, B-LC, B-OG, I-OG
-2	##1	O	O	O, I-OG, B-PS, I-AF, I-PS
-3	##는	O	O	O, B-CV, I-AF, B-AF, B-LC
-4	콘	B-AF	B-CV	B-CV, B-AF, B-PS, B-OG, B-TM
-5	##푸	I-AF	I-AF	I-AF, I-CV, I-OG, I-PS, I-TM
-6	##라이트	I-AF	I-AF	I-AF, I-CV, I-TM, I-OG, I-PS
-7	먹	O	O	O, I-AF, I-CV, I-OG, I-TM
-8	##고	O	O	O, I-AF, I-CV, B-CV, I-OG
-9	[SEP]	O	O	O, B-CV, I-AF, B-TM, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	사고	O	O
+2	##를	O	O
+3	낸	O	O
+4	알	B-AF	B-OG
+5	##페	I-AF	I-OG
+6	##온	I-AF	I-OG
+7	운전자	B-CV	B-CV
+8	원	B-PS	B-PS
+9	##모	O	O
+10	씨	O	O
+11	(	O	O
+12	36	B-QT	B-QT
+13	)	O	O
+14	는	O	O
+15	국내	O	O
+16	한	O	O
+17	자동차	B-AF	B-AF
+18	##업체	O	O
+19	##의	O	O
+20	‘	O	O
+21	잘	O	O
+22	##나가	O	O
+23	##는	O	O
+24	’	O	O
+25	영업	B-CV	B-CV
+26	##사	I-CV	I-CV
+27	##원	I-CV	I-CV
+28	##이	O	O
+29	##었	O	O
+30	##다	O	O
+31	.	O	O
+32	[SEP]	O	O

@@ -1,51 +1,32 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	문재인	B-PS	B-PS	B-PS, B-OG, O, I-PS, B-LC
-2	새	B-OG	B-OG	B-OG, O, I-OG, I-PS, B-AF
-3	##정	I-OG	I-OG	I-OG, O, B-OG, I-EV, I-PS
-4	##치	I-OG	I-OG	I-OG, O, I-EV, I-AF, I-LC
-5	##민주	I-OG	I-OG	I-OG, O, B-OG, I-EV, I-LC
-6	##연합	I-OG	I-OG	I-OG, O, I-LC, I-EV, I-AF
-7	대표	B-CV	B-CV	B-CV, O, I-CV, I-OG, B-PS
-8	##가	O	O	O, I-CV, I-EV, B-PS, I-OG
-9	12	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-10	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-11	‘	O	O	O, I-DT, B-EV, B-LC, B-CV
-12	성완종	B-EV	B-PS	B-PS, B-EV, O, B-AF, I-EV
-13	리스트	I-EV	I-EV	I-EV, O, I-PS, I-AF, B-EV
-14	’	O	O	O, I-EV, B-PS, I-OG, B-LC
-15	파문	O	O	O, I-EV, B-EV, B-PS, B-LC
-16	##과	O	O	O, B-PS, I-EV, B-LC, B-OG
-17	관련	O	O	O, B-LC, B-OG, B-CV, B-PS
-18	##해	O	O	O, B-LC, B-PS, B-OG, I-EV
-19	“	O	O	O, B-LC, B-PS, B-CV, B-EV
-20	(	O	O	O, B-EV, B-PS, B-LC, B-CV
-21	성완종	B-PS	B-PS	B-PS, B-EV, O, I-EV, B-AF
-22	)	O	O	O, I-EV, I-PS, B-EV, B-CV
-23	리스트	O	O	O, I-EV, B-EV, B-CV, B-PS
-24	##에	O	O	O, I-EV, B-PS, B-CV, B-LC
-25	오른	O	O	O, B-PS, B-LC, B-CV, B-OG
-26	주인공	B-CV	B-CV	B-CV, O, I-CV, B-PS, B-EV
-27	##들	O	O	O, I-CV, B-PS, I-EV, B-CV
-28	##은	O	O	O, B-PS, B-CV, B-LC, B-OG
-29	모두	O	O	O, B-PS, B-CV, B-QT, B-LC
-30	직책	O	O	O, B-CV, B-PS, B-TM, B-LC
-31	##을	O	O	O, B-PS, B-CV, B-LC, B-OG
-32	내려놓	O	O	O, B-CV, B-PS, B-LC, B-QT
-33	##아	O	O	O, B-PS, B-LC, B-CV, I-CV
-34	##야	O	O	O, B-PS, B-LC, B-CV, I-OG
-35	한다	O	O	O, B-PS, B-CV, B-LC, B-OG
-36	”	O	O	O, B-CV, B-LC, B-PS, B-OG
-37	며	O	O	O, B-LC, B-PS, B-CV, B-OG
-38	정부	B-OG	B-OG	B-OG, O, B-LC, B-AF, B-PS
-39	##와	O	O	O, I-OG, I-AF, I-EV, I-PS
-40	여당	O	O	O, B-OG, B-CV, I-OG, B-LC
-41	##을	O	O	O, B-CV, B-OG, B-PS, B-LC
-42	정면	O	O	O, B-TM, B-LC, B-QT, B-CV
-43	##으로	O	O	O, B-PS, B-LC, B-OG, B-TM
-44	압박	O	O	O, B-LC, B-TM, B-CV, B-OG
-45	##하고	O	O	O, B-LC, B-PS, B-CV, I-EV
-46	나섰	O	O	O, B-LC, B-CV, B-OG, B-PS
-47	##다	O	O	O, B-LC, B-CV, B-OG, I-EV
-48	.	O	O	O, B-LC, B-PS, B-OG, B-CV
-49	[SEP]	O	O	O, B-LC, B-CV, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	전남	B-OG	B-OG
+2	##대	I-OG	I-OG
+3	컨벤션	O	O
+4	##센터	O	O
+5	용지	O	O
+6	##홀	O	O
+7	##에	O	O
+8	##서는	O	O
+9	이날	B-DT	B-DT
+10	오후	B-TI	B-TI
+11	2	I-TI	I-TI
+12	##시	I-TI	I-TI
+13	'	O	O
+14	1991	B-DT	B-DT
+15	##년	I-DT	I-DT
+16	청춘	B-EV	O
+17	##의	I-EV	O
+18	기억	I-EV	O
+19	'	O	O
+20	이라	O	O
+21	##는	O	O
+22	주제	O	O
+23	##로	O	O
+24	전시회	O	O
+25	##가	O	O
+26	개막	O	O
+27	##됐	O	O
+28	##다	O	O
+29	.	O	O
+30	[SEP]	O	O

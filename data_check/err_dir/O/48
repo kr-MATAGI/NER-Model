@@ -1,7 +1,15 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-AF
-1	그리고	O	O	O, B-CV, B-TM, B-OG, B-LC
-2	이제	O	O	O, B-CV, B-TM, B-OG, B-QT
-3	인	O	B-AF	B-AF, O, B-PS, B-OG, B-CV
-4	##슬	O	I-AF	I-AF, O, I-PS, I-CV, I-TM
-5	[SEP]	O	O	O, I-AF, I-OG, I-CV, I-EV
+	text	label	preds
+0	[CLS]	O	O
+1	응	O	O
+2	했	O	O
+3	##는데	O	O
+4	한국	B-LC	B-FD
+5	영화	O	I-FD
+6	##가	O	O
+7	되게	O	O
+8	많	O	O
+9	##긴	O	O
+10	하	O	O
+11	##더라	O	O
+12	##구요	O	O
+13	[SEP]	O	O

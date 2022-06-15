@@ -1,29 +1,14 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-EV, I-CV
-1	2	B-QT	B-QT	B-QT, O, B-DT, I-QT, B-EV
-2	##만	I-QT	I-QT	I-QT, O, I-LC, I-EV, B-QT
-3	##달	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-EV
-4	##러	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-EV
-5	상당	O	O	O, I-QT, I-DT, I-CV, I-LC
-6	##의	O	O	O, B-LC, B-PS, I-QT, B-OG
-7	‘	O	O	O, B-LC, B-CV, B-AF, B-OG
-8	명작	B-AF	O	O, B-AF, B-CV, B-PS, B-LC
-9	복	I-AF	B-PT	B-PT, B-CV, I-AF, I-CV, O
-10	##분자	I-AF	I-CV	I-CV, I-PT, I-AF, O, B-PT
-11	’	O	O	O, I-CV, I-AF, I-OG, I-EV
-12	는	O	O	O, B-CV, B-OG, B-LC, B-TM
-13	현지	O	O	O, B-LC, B-CV, B-OG, B-TM
-14	유통	O	O	O, B-LC, B-OG, B-CV, I-OG
-15	##업체	O	O	O, I-OG, B-CV, B-OG, I-CV
-16	##를	O	O	O, B-CV, I-OG, B-TM, B-OG
-17	통해서	O	O	O, B-LC, B-CV, B-OG, B-TM
-18	인도	B-LC	B-LC	B-LC, O, B-OG, B-AF, B-TM
-19	10	B-QT	B-QT	B-QT, I-QT, I-LC, B-LC, O
-20	##개	I-QT	I-QT	I-QT, I-LC, O, I-PS, I-AF
-21	지역	O	O	O, I-QT, I-LC, B-LC, B-TM
-22	##에	O	O	O, B-CV, B-LC, I-QT, B-TM
-23	소개	O	O	O, B-CV, B-TM, B-LC, B-OG
-24	##된	O	O	O, B-LC, B-CV, B-OG, I-OG
-25	##다	O	O	O, B-CV, B-OG, B-LC, I-OG
-26	.	O	O	O, B-LC, B-OG, B-CV, B-AF
-27	[SEP]	O	O	O, B-LC, B-CV, B-OG, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	예	O	O
+2	.	O	O
+3	프랑스	B-LC	B-LC
+4	##에	O	O
+5	채널	O	O
+6	##은	O	O
+7	티	B-AF	B-OG
+8	##에프	I-AF	I-OG
+9	##원	I-AF	I-OG
+10	##이	O	O
+11	##라고	O	O
+12	[SEP]	O	O

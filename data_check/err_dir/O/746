@@ -1,57 +1,43 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	보건복지부	B-OG	B-OG	B-OG, O, B-AF, B-LC, B-PS
-2	##는	O	O	O, I-OG, B-OG, I-DT, I-AF
-3	통계청	B-OG	B-OG	B-OG, O, B-AF, I-OG, B-LC
-4	##이	O	O	O, I-OG, B-PS, I-AF, B-CV
-5	최근	O	O	O, B-DT, B-LC, B-CV, B-QT
-6	발표	O	O	O, B-CV, B-OG, B-LC, B-TM
-7	##한	O	O	O, B-PS, B-CV, B-LC, B-OG
-8	‘	O	O	O, B-LC, B-OG, B-CV, B-DT
-9	한국	B-LC	B-AF	B-AF, B-LC, O, B-EV, B-OG
-10	##의	O	I-AF	I-AF, O, I-LC, I-OG, I-EV
-11	사회	O	I-AF	I-AF, O, I-EV, I-OG, I-LC
-12	##동	O	I-AF	I-AF, O, I-EV, I-OG, I-LC
-13	##향	O	I-AF	I-AF, O, I-EV, I-OG, I-LC
-14	2010	B-DT	B-DT	B-DT, I-AF, O, I-DT, B-QT
-15	’	O	O	O, I-DT, I-AF, I-EV, I-QT
-16	조사	O	O	O, B-CV, B-TM, B-LC, B-OG
-17	결과	O	O	O, B-CV, B-OG, B-TM, B-LC
-18	,	O	O	O, B-LC, B-OG, B-CV, B-PS
-19	우리나라	O	O	O, B-LC, B-CV, B-TM, B-OG
-20	14	B-QT	B-QT	B-QT, O, B-DT, I-QT, B-EV
-21	##살	I-QT	I-QT	I-QT, O, I-LC, I-EV, I-DT
-22	이하	I-QT	I-QT	I-QT, O, I-LC, I-EV, I-DT
-23	어린이	O	O	O, I-QT, B-CV, I-OG, I-EV
-24	10	B-QT	B-QT	B-QT, O, B-DT, I-QT, B-EV
-25	##만	I-QT	I-QT	I-QT, O, I-LC, I-DT, I-EV
-26	##명	I-QT	I-QT	I-QT, O, I-LC, I-DT, B-QT
-27	##당	I-QT	I-QT	I-QT, O, I-LC, I-EV, I-DT
-28	안전사고	O	O	O, B-CV, I-QT, B-TM, B-EV
-29	사망자	B-CV	B-CV	B-CV, O, I-CV, B-AF, B-OG
-30	##는	O	O	O, I-CV, B-CV, I-QT, I-EV
-31	1999	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-32	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-33	15	B-QT	B-QT	B-QT, I-QT, I-DT, B-DT, O
-34	.	I-QT	I-QT	I-QT, O, I-DT, I-EV, I-LC
-35	3	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-EV
-36	##명	I-QT	I-QT	I-QT, O, I-LC, I-EV, I-PS
-37	##에서	O	O	O, I-QT, I-DT, I-EV, I-AF
-38	2008	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-39	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-40	6	B-QT	B-QT	B-QT, I-QT, O, I-DT, B-DT
-41	##명	I-QT	I-QT	I-QT, O, I-DT, I-EV, I-LC
-42	##으로	O	O	O, I-QT, B-CV, I-EV, I-OG
-43	크	O	O	O, B-QT, B-TM, B-CV, B-OG
-44	##게	O	O	O, I-QT, B-QT, B-LC, B-TM
-45	준	O	O	O, B-QT, B-TM, B-PS, B-CV
-46	것	O	O	O, I-QT, B-CV, B-PS, I-OG
-47	##으로	O	O	O, B-CV, I-OG, B-TM, B-LC
-48	나타났	O	O	O, B-CV, B-LC, B-OG, B-TM
-49	##다고	O	O	O, B-LC, B-OG, B-CV, I-OG
-50	26	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-51	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-52	밝혔	O	O	O, I-DT, B-CV, B-OG, B-LC
-53	##다	O	O	O, B-CV, B-LC, B-OG, B-TM
-54	.	O	O	O, B-LC, B-OG, B-CV, B-PS
-55	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	이	O	O
+2	##처럼	O	O
+3	‘	O	O
+4	무명	O	O
+5	주연	O	B-CV
+6	-	O	O
+7	유명	O	O
+8	카메	B-CV	B-CV
+9	##오	I-CV	I-CV
+10	’	O	O
+11	로	O	O
+12	주인공	B-CV	B-CV
+13	역	O	O
+14	##을	O	O
+15	바꾸	O	O
+16	##는	O	O
+17	것	O	O
+18	##은	O	O
+19	아니	O	O
+20	##어도	O	O
+21	깜짝	O	O
+22	출연	O	O
+23	##이	O	O
+24	##란	O	O
+25	카메	B-CV	B-CV
+26	##오	I-CV	I-CV
+27	##의	O	O
+28	기본	O	O
+29	##적	O	O
+30	기법	O	O
+31	##을	O	O
+32	쓰	O	O
+33	##는	O	O
+34	광고	O	O
+35	##도	O	O
+36	여럿	O	O
+37	선보였	O	O
+38	##습	O	O
+39	##니다	O	O
+40	.	O	O
+41	[SEP]	O	O

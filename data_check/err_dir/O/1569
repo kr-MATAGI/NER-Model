@@ -1,29 +1,73 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	과학	O	B-FD	B-FD, O, I-FD, B-TR, B-EV
-2	##시간	O	O	O, I-FD, I-EV, I-AF, I-OG
-3	##에	O	O	O, B-CV, I-AF, I-OG, B-PS
-4	배운	O	O	O, B-CV, B-LC, B-PS, B-AF
-5	내용	O	O	O, B-CV, B-LC, B-FD, B-TM
-6	##이	O	O	O, B-PS, B-CV, B-LC, B-OG
-7	잘	O	O	O, B-LC, B-TM, B-PS, B-CV
-8	이해	O	O	O, B-PS, B-CV, B-LC, B-TM
-9	##되	O	O	O, B-PS, B-LC, B-CV, B-TM
-10	##지	O	O	O, B-PS, B-LC, B-CV, B-TM
-11	않	O	O	O, B-LC, B-PS, B-CV, B-TM
-12	##으면	O	O	O, I-OG, B-TM, B-LC, B-CV
-13	서점	O	O	O, B-CV, B-TM, B-LC, B-QT
-14	##에서	O	O	O, B-CV, B-PS, B-LC, B-TM
-15	그	O	O	O, B-CV, B-LC, B-TM, B-OG
-16	단원	O	O	O, B-CV, B-FD, B-AF, B-EV
-17	##에	O	O	O, I-CV, I-AF, B-CV, I-OG
-18	관련	O	O	O, B-CV, B-TM, B-LC, B-QT
-19	##된	O	O	O, B-LC, B-CV, B-PS, B-QT
-20	책	O	O	O, B-CV, B-TM, B-AF, B-LC
-21	##을	O	O	O, B-CV, B-TM, B-LC, I-AF
-22	구해	O	O	O, B-CV, B-QT, B-TM, B-LC
-23	읽	O	O	O, B-CV, B-LC, B-OG, B-QT
-24	##는	O	O	O, B-CV, B-LC, B-TM, B-OG
-25	##다	O	O	O, B-CV, B-TM, I-OG, B-LC
-26	.	O	O	O, B-CV, B-LC, B-PS, B-OG
-27	[SEP]	O	O	O, B-CV, B-LC, I-AF, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	'	O	O
+2	결혼식	O	O
+3	##을	O	O
+4	주관	O	O
+5	##하	O	O
+6	##는	O	O
+7	시민	B-CV	B-CV
+8	진행자	B-CV	B-CV
+9	'	O	O
+10	라는	O	O
+11	뜻	O	O
+12	##으로	O	O
+13	영어	B-CV	B-CV
+14	##로	O	O
+15	##는	O	O
+16	'	O	O
+17	C	O	O
+18	##iv	O	O
+19	##il	O	O
+20	C	O	O
+21	##el	O	O
+22	##eb	O	O
+23	##ran	O	O
+24	##ts	O	O
+25	of	O	O
+26	Mar	O	O
+27	##ri	O	O
+28	##age	O	O
+29	##s	O	O
+30	(	O	O
+31	CC	O	O
+32	##M	O	O
+33	)	O	O
+34	'	O	O
+35	라고	O	O
+36	쓰	O	O
+37	##고	O	O
+38	중국어	B-CV	B-CV
+39	##로	O	O
+40	##는	O	O
+41	'	O	O
+42	혼인	O	O
+43	##감	O	O
+44	##례	O	O
+45	##인	O	O
+46	(	O	O
+47	婚	O	O
+48	[UNK]	O	O
+49	監	O	O
+50	禮	O	O
+51	人	O	O
+52	)	O	O
+53	'	O	O
+54	이라	O	O
+55	부르	O	O
+56	##는	O	O
+57	시민	O	B-CV
+58	##주	O	B-CV
+59	##례	O	I-CV
+60	##는	O	O
+61	2006	B-DT	B-DT
+62	##년	I-DT	I-DT
+63	4	I-DT	I-DT
+64	##월	I-DT	I-DT
+65	21	I-DT	I-DT
+66	##일	I-DT	I-DT
+67	도입	O	O
+68	##됐	O	O
+69	##다	O	O
+70	.	O	O
+71	[SEP]	O	O

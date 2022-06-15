@@ -1,46 +1,49 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-EV, I-OG, I-CV
-1	대구시	B-OG	B-OG	B-OG, B-LC, O, B-PS, B-AF
-2	##는	O	O	O, I-OG, B-CV, I-AF, I-EV
-3	이	O	O	O, B-PS, B-CV, B-OG, B-LC
-4	같	O	O	O, B-CV, B-TM, B-LC, B-OG
-5	##은	O	O	O, B-CV, B-PS, B-LC, B-TM
-6	내용	O	O	O, B-CV, B-LC, B-TM, B-PS
-7	##을	O	O	O, B-CV, B-OG, B-LC, B-PS
-8	담	O	O	O, B-LC, B-CV, B-TM, B-OG
-9	##은	O	O	O, B-LC, B-OG, B-PS, B-CV
-10	‘	O	O	O, B-LC, B-OG, B-CV, B-DT
-11	2020	B-DT	B-DT	B-DT, O, B-QT, I-DT, B-EV
-12	대구	B-TM	B-LC	B-LC, B-AF, B-EV, O, B-PS
-13	##도	I-TM	I-AF	I-AF, O, I-LC, I-EV, I-TM
-14	##시	I-TM	I-AF	I-AF, O, I-LC, I-EV, I-CV
-15	##기	I-TM	I-AF	I-AF, O, I-LC, I-EV, I-TM
-16	##본	I-TM	I-AF	I-AF, O, I-LC, I-TM, I-CV
-17	##계	I-TM	I-AF	I-AF, O, I-LC, I-TM, I-CV
-18	##획	I-TM	I-AF	I-AF, O, I-LC, I-TM, I-CV
-19	일부	O	O	O, I-AF, I-TM, I-CV, I-LC
-20	##변	O	O	O, I-AF, I-CV, I-TM, I-LC
-21	##경	O	O	O, I-AF, I-CV, I-TM, I-LC
-22	계획안	O	O	O, I-AF, I-CV, I-LC, I-TM
-23	’	O	O	O, I-AF, I-CV, I-TM, I-EV
-24	을	O	O	O, B-CV, B-LC, B-OG, B-PS
-25	마련	O	O	O, B-CV, B-OG, B-LC, B-TM
-26	##해	O	O	O, B-LC, B-OG, B-PS, B-CV
-27	다음	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-28	달	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
-29	10	I-DT	I-DT	I-DT, B-DT, O, I-QT, I-AF
-30	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-AF
-31	대구	B-AF	B-AF	B-AF, B-LC, O, I-AF, B-OG
-32	##문화	I-AF	I-AF	I-AF, O, I-LC, I-PS, I-OG
-33	##예술	I-AF	I-AF	I-AF, O, I-LC, I-PS, I-OG
-34	##회관	I-AF	I-AF	I-AF, O, I-LC, I-PS, I-OG
-35	##에서	O	O	O, I-AF, I-EV, B-CV, I-LC
-36	공청회	B-EV	O	O, B-EV, B-CV, I-EV, B-LC
-37	##를	O	O	O, I-EV, I-AF, I-OG, B-CV
-38	연다고	O	O	O, B-CV, B-OG, B-LC, B-AF
-39	21	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-40	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
-41	밝혔	O	O	O, I-DT, B-OG, B-CV, B-LC
-42	##다	O	O	O, B-CV, B-OG, B-LC, B-TM
-43	.	O	O	O, B-LC, B-OG, B-CV, B-PS
-44	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	29	B-DT	B-DT
+2	##일	I-DT	I-DT
+3	오전	B-TI	B-TI
+4	중국	B-LC	B-LC
+5	산시	B-LC	B-LC
+6	(	O	I-LC
+7	陝	O	I-LC
+8	西	O	I-LC
+9	)	O	I-LC
+10	성	O	I-LC
+11	시안	B-LC	B-LC
+12	(	O	I-LC
+13	西	O	I-LC
+14	安	O	I-LC
+15	)	O	I-LC
+16	시	O	I-LC
+17	두	B-LC	O
+18	##취	I-LC	O
+19	(	O	O
+20	杜	O	O
+21	曲	O	O
+22	)	O	O
+23	진에	O	O
+24	##서	O	O
+25	열린	O	O
+26	‘	O	O
+27	한국	B-EV	B-OG
+28	##광	I-EV	I-OG
+29	##복	I-EV	I-OG
+30	##군	I-EV	I-OG
+31	제	I-EV	B-QT
+32	##2	I-EV	I-OG
+33	##지대	I-EV	I-OG
+34	(	I-EV	O
+35	支	I-EV	O
+36	隊	I-EV	O
+37	)	I-EV	O
+38	주둔	I-EV	O
+39	##지	I-EV	O
+40	표	I-EV	O
+41	##석	I-EV	O
+42	제	I-EV	O
+43	##막	I-EV	O
+44	##식	I-EV	O
+45	’	O	O
+46	.	O	O
+47	[SEP]	O	O

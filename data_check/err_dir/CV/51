@@ -1,43 +1,63 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	국제	O	B-OG	B-OG, O, I-OG, B-LC, B-EV
-2	##에너지	O	I-OG	I-OG, O, B-OG, I-EV, I-LC
-3	##기구	O	I-OG	I-OG, O, B-OG, I-EV, I-LC
-4	27	B-QT	B-QT	B-QT, O, I-OG, I-QT, B-EV
-5	##개	I-QT	I-QT	I-QT, O, I-OG, I-EV, I-LC
-6	회원국	B-CV	O	O, B-CV, I-QT, B-OG, I-CV
-7	##이	O	O	O, I-CV, B-PS, I-OG, I-QT
-8	스마트	O	B-TM	B-TM, B-TR, O, B-AF, B-CV
-9	그리드	O	I-TM	I-TM, I-TR, O, I-CV, I-AF
-10	기술	O	O	O, I-TM, I-TR, I-CV, B-CV
-11	및	O	O	O, I-CV, I-TM, B-CV, I-AF
-12	정책	O	O	O, B-CV, B-LC, B-TM, B-FD
-13	개발	O	O	O, B-CV, B-LC, I-CV, B-PS
-14	등	O	O	O, B-LC, B-CV, B-PS, B-OG
-15	##을	O	O	O, B-CV, B-LC, B-OG, B-PS
-16	발표	O	O	O, B-CV, B-LC, B-TM, B-OG
-17	##할	O	O	O, B-CV, B-OG, B-LC, B-PS
-18	예정	O	O	O, B-CV, B-OG, B-LC, B-TM
-19	##이	O	O	O, B-OG, B-CV, B-PS, B-LC
-20	##며	O	O	O, B-OG, B-LC, B-CV, B-QT
-21	포스코	B-OG	B-OG	B-OG, O, B-LC, B-AF, B-PS
-22	##IC	B-FD	I-OG	I-OG, O, B-OG, I-LC, I-AF
-23	##T	I-FD	I-OG	I-OG, O, I-LC, I-AF, I-CV
-24	,	O	O	O, I-OG, I-AF, I-QT, I-CV
-25	삼화	O	B-OG	B-OG, O, B-AF, B-LC, B-PS
-26	##콘	O	I-OG	I-OG, O, B-OG, I-LC, I-AF
-27	##덴	O	I-OG	I-OG, O, I-LC, I-AF, I-CV
-28	##서	O	I-OG	I-OG, O, I-LC, I-AF, I-CV
-29	,	O	O	O, I-OG, I-AF, I-CV, B-CV
-30	이글	O	B-OG	B-OG, O, B-AF, B-LC, B-PS
-31	##루	O	I-OG	I-OG, O, B-OG, I-AF, I-LC
-32	##시	O	I-OG	I-OG, O, B-OG, I-AF, I-LC
-33	##큐	O	I-OG	I-OG, O, I-LC, I-AF, B-OG
-34	##리티	O	I-OG	I-OG, O, I-LC, I-AF, I-CV
-35	등	O	O	O, I-OG, B-CV, I-AF, I-CV
-36	##이	O	O	O, B-CV, B-PS, B-LC, B-OG
-37	주목	O	O	O, B-CV, B-TM, B-OG, B-LC
-38	대상	O	O	O, B-CV, I-CV, B-LC, B-OG
-39	##이다	O	O	O, B-CV, I-OG, I-CV, B-OG
-40	.	O	O	O, B-LC, B-OG, B-CV, I-OG
-41	[SEP]	O	O	O, B-LC, B-CV, B-OG, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	서울	B-OG	B-OG
+2	##중	I-OG	I-OG
+3	##앙	I-OG	I-OG
+4	##지	I-OG	I-OG
+5	##검	I-OG	I-OG
+6	특수	O	I-OG
+7	##2	O	O
+8	##부	O	O
+9	(	O	O
+10	부장	B-CV	O
+11	권오	B-PS	B-PS
+12	##성	I-PS	I-PS
+13	)	O	O
+14	는	O	O
+15	곽	B-PS	B-PS
+16	전	O	O
+17	사장	B-CV	B-CV
+18	##이	O	O
+19	대한	B-OG	B-OG
+20	##통	I-OG	I-OG
+21	##운	I-OG	I-OG
+22	##에	O	O
+23	재직	O	O
+24	##하	O	O
+25	##던	O	O
+26	1999	B-DT	B-DT
+27	~	I-DT	I-DT
+28	2005	I-DT	I-DT
+29	##년	I-DT	I-DT
+30	사이	I-DT	I-DT
+31	##에	O	O
+32	83	B-QT	B-QT
+33	##억	I-QT	I-QT
+34	##원	I-QT	I-QT
+35	##의	O	O
+36	비자	O	O
+37	##금	O	O
+38	##을	O	O
+39	조성	O	O
+40	##한	O	O
+41	사실	O	O
+42	##을	O	O
+43	밝혀내	O	O
+44	##고	O	O
+45	,	O	O
+46	지난달	B-DT	B-DT
+47	24	I-DT	I-DT
+48	##일	I-DT	I-DT
+49	곽	B-PS	B-PS
+50	전	O	O
+51	사장	B-CV	B-CV
+52	##을	O	O
+53	구속	O	B-CV
+54	##기	O	I-CV
+55	##소	O	I-CV
+56	##한	O	O
+57	바	O	O
+58	있	O	O
+59	##다	O	O
+60	.	O	O
+61	[SEP]	O	O

@@ -1,9 +1,27 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	예	O	O	O, B-CV, B-AF, B-OG, B-TM
-2	##를	O	O	O, B-PS, I-AF, B-CV, B-AF
-3	들어서	O	O	O, B-CV, B-PS, I-AF, B-LC
-4	보수	O	B-TR	B-TR, O, I-TR, B-CV, B-FD
-5	##의	O	O	O, I-TR, I-CV, I-AF, I-EV
-6	경우	O	O	O, B-CV, B-OG, B-LC, B-DT
-7	[SEP]	O	O	O, B-CV, I-AF, B-AF, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	그리고	O	O
+2	왼쪽	O	B-TM
+3	위	O	B-TM
+4	##엔	O	O
+5	한눈	O	O
+6	##에도	O	O
+7	돈	O	O
+8	##푼	O	O
+9	##깨	O	O
+10	##나	O	O
+11	있	O	O
+12	##음	O	O
+13	직	O	O
+14	##한	O	O
+15	무리	O	O
+16	##가	O	O
+17	느긋	O	O
+18	##하	O	O
+19	##게	O	O
+20	이	O	O
+21	##를	O	O
+22	감상	O	O
+23	##한다	O	O
+24	.	O	O
+25	[SEP]	O	O

@@ -1,18 +1,9 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	그	O	O	O, B-CV, B-OG, B-TM, B-LC
-2	다음	O	O	O, B-TM, B-CV, B-QT, B-LC
-3	##에	O	O	O, B-CV, B-OG, B-PS, B-TM
-4	그	O	O	O, B-CV, B-TM, B-OG, B-LC
-5	위	B-TM	O	O, B-TM, B-CV, B-TR, B-AM
-6	##에다	O	O	O, I-TM, I-CV, I-QT, I-AF
-7	##가	O	O	O, B-CV, B-OG, B-PS, B-LC
-8	우리	O	O	O, B-CV, B-OG, B-TM, B-QT
-9	##는	O	O	O, B-CV, B-OG, B-TM, I-OG
-10	그걸	O	O	O, B-CV, B-TM, B-LC, B-OG
-11	컴	B-TM	B-TR	B-TR, O, B-TM, B-CV, B-FD
-12	##파	I-TM	I-TR	I-TR, O, I-TM, I-CV, I-QT
-13	##운드	I-TM	I-TR	I-TR, O, I-TM, I-CV, I-QT
-14	레	I-TM	I-TR	I-TR, O, I-TM, I-CV, B-TR
-15	##진	I-TM	I-TR	I-TR, O, I-TM, I-CV, I-QT
-16	[SEP]	O	O	O, I-TM, I-TR, I-CV, I-QT
+	text	label	preds
+0	[CLS]	O	O
+1	그걸	O	O
+2	양쪽	B-TM	O
+3	엄지	B-AM	B-AM
+4	##로	O	O
+5	눌러	O	O
+6	##서	O	O
+7	[SEP]	O	O

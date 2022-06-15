@@ -1,38 +1,60 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-EV, I-CV, B-CV
-1	때	O	O	O, B-PS, B-LC, B-EV, B-OG
-2	##이	O	O	O, B-PS, I-PS, I-EV, B-LC
-3	##른	O	O	O, I-PS, B-PS, I-EV, B-LC
-4	한파	O	O	O, B-EV, B-LC, B-OG, B-CV
-5	##가	O	O	O, I-EV, B-PS, I-OG, B-LC
-6	지나간	O	O	O, B-CV, B-LC, B-OG, B-PS
-7	뒤	O	O	O, B-LC, B-CV, B-EV, B-DT
-8	평년	O	O	O, B-LC, B-CV, B-PS, B-OG
-9	기온	O	O	O, B-LC, I-LC, I-EV, B-PS
-10	##을	O	O	O, B-CV, B-LC, B-PS, B-OG
-11	회복	O	O	O, B-CV, B-LC, B-OG, B-TM
-12	##할	O	O	O, B-PS, B-LC, B-CV, B-OG
-13	것	O	O	O, B-CV, B-PS, B-LC, B-OG
-14	##이	O	O	O, B-PS, B-CV, B-OG, B-LC
-15	##라는	O	O	O, B-PS, B-CV, I-OG, B-OG
-16	예보	O	O	O, B-CV, B-LC, B-OG, B-EV
-17	속	O	O	O, B-LC, B-PS, I-EV, B-CV
-18	##에	O	O	O, B-LC, B-OG, B-PS, B-CV
-19	수도권	B-LC	B-LC	B-LC, O, B-OG, B-TM, B-EV
-20	##의	O	O	O, I-LC, I-EV, B-LC, B-PS
-21	막바지	O	O	O, B-DT, B-EV, B-LC, B-QT
-22	가을	B-DT	B-DT	B-DT, O, B-EV, I-DT, B-TI
-23	##축제	O	O	O, I-EV, I-DT, B-EV, I-QT
-24	##가	O	O	O, I-EV, B-PS, B-LC, I-DT
-25	10	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-QT
-26	##월	I-DT	I-DT	I-DT, O, B-DT, I-EV, I-QT
-27	##의	O	O	O, I-DT, I-EV, B-DT, B-PS
-28	마지막	O	B-DT	B-DT, O, I-DT, B-QT, B-EV
-29	주말	B-DT	I-DT	I-DT, O, B-DT, B-EV, B-CV
-30	##을	O	O	O, I-DT, B-CV, I-EV, B-LC
-31	달	O	O	O, B-LC, B-EV, B-CV, B-PS
-32	##굴	O	O	O, B-LC, B-PS, B-CV, I-EV
-33	전망	O	O	O, B-CV, B-LC, B-OG, B-TM
-34	##이다	O	O	O, B-CV, I-EV, I-OG, B-LC
-35	.	O	O	O, B-LC, B-PS, B-CV, I-EV
-36	[SEP]	O	O	O, B-LC, B-CV, I-EV, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	이달	B-DT	B-DT
+2	중순	I-DT	I-DT
+3	##부터	I-DT	I-DT
+4	정조	B-PS	B-DT
+5	##때	O	I-DT
+6	체계	O	O
+7	##적	O	O
+8	##으로	O	O
+9	정리	O	O
+10	##된	O	O
+11	민족	O	O
+12	##전	O	O
+13	##통	O	O
+14	무예	O	O
+15	##인	O	O
+16	'	O	O
+17	무예	B-FD	O
+18	##24	I-FD	B-QT
+19	##기	I-FD	I-QT
+20	'	O	O
+21	공연	O	O
+22	##을	O	O
+23	비롯	O	O
+24	##해	O	O
+25	정조	B-PS	B-PS
+26	##의	O	O
+27	친	O	O
+28	##위	O	O
+29	##부대	O	O
+30	##인	O	O
+31	장	B-EV	B-EV
+32	##용	I-EV	I-EV
+33	##영	I-EV	I-EV
+34	(	I-EV	I-EV
+35	壯	I-EV	I-EV
+36	勇	I-EV	O
+37	營	I-EV	I-EV
+38	)	I-EV	I-EV
+39	수위	I-EV	I-EV
+40	##의식	I-EV	I-EV
+41	,	O	O
+42	토요	B-DT	O
+43	##상	O	O
+44	##설	O	O
+45	##공	O	O
+46	##연	O	O
+47	등	O	O
+48	공연	O	O
+49	##프로	O	O
+50	##그램	O	O
+51	##이	O	O
+52	차례	O	O
+53	##로	O	O
+54	시작	O	O
+55	##된	O	O
+56	##다	O	O
+57	.	O	O
+58	[SEP]	O	O

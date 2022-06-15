@@ -1,9 +1,56 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	네	O	O	O, B-LC, B-DT, B-CV, B-EV
-2	납세	B-CV	O	O, B-CV, I-CV, B-EV, B-FD
-3	##와	O	O	O, I-CV, I-EV, I-OG, I-AF
-4	관련	O	O	O, B-CV, B-TM, I-CV, B-QT
-5	##돼	O	O	O, B-CV, B-LC, B-OG, B-PS
-6	##서	O	O	O, B-CV, B-LC, B-OG, B-PS
-7	[SEP]	O	O	O, B-CV, B-LC, B-OG, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	이와	O	O
+2	관련	O	O
+3	,	O	O
+4	홍	B-PS	B-PS
+5	전	O	O
+6	지사	B-CV	B-CV
+7	##는	O	O
+8	이날	B-DT	B-DT
+9	미국	B-LC	B-LC
+10	##에	O	O
+11	##서	O	O
+12	페이스북	B-OG	B-OG
+13	##에	O	O
+14	올린	O	O
+15	글	O	O
+16	##에	O	O
+17	##서	O	O
+18	'	O	O
+19	실패	O	O
+20	##한	O	O
+21	보수주의	B-TR	B-TR
+22	정권	O	O
+23	세력	O	O
+24	##의	O	O
+25	잔재	O	O
+26	##들이	O	O
+27	당	O	O
+28	##을	O	O
+29	틀어	O	O
+30	##쥐	O	O
+31	##고	O	O
+32	좌우	O	O
+33	##하	O	O
+34	##고	O	O
+35	있	O	O
+36	##는	O	O
+37	한	O	O
+38	국민	B-CV	B-OG
+39	##은	O	O
+40	한국	B-OG	B-OG
+41	##당	I-OG	I-OG
+42	##을	O	O
+43	버릴	O	O
+44	수	O	O
+45	##밖	O	O
+46	##에	O	O
+47	없	O	O
+48	##다	O	O
+49	'	O	O
+50	고	O	O
+51	했	O	O
+52	##다	O	O
+53	.	O	O
+54	[SEP]	O	O

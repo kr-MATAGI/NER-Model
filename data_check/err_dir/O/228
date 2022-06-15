@@ -1,6 +1,59 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-AF
-1	승자	O	B-CV	B-CV, O, B-PS, I-CV, B-AF
-2	독식	O	O	O, I-CV, B-CV, I-TR, B-TR
-3	사회	O	O	O, B-TR, B-CV, I-CV, B-FD
-4	[SEP]	O	O	O, I-CV, B-CV, I-TR, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	전자	O	O
+2	##업	O	O
+3	##계	O	O
+4	##는	O	O
+5	일본	B-LC	B-LC
+6	부품	O	O
+7	##업체	O	O
+8	##와	O	O
+9	밀접	O	O
+10	##한	O	O
+11	관련	O	O
+12	##이	O	O
+13	있	O	O
+14	##어	O	O
+15	이번	O	O
+16	지진	O	O
+17	##으로	O	O
+18	동반	O	O
+19	타격	O	O
+20	##을	O	O
+21	입	O	O
+22	##을	O	O
+23	가능	O	O
+24	##성	O	O
+25	##과	O	O
+26	,	O	O
+27	반도체	B-TM	B-TM
+28	및	O	O
+29	디스플레이	O	B-TM
+30	분야	O	O
+31	##에	O	O
+32	##서	O	O
+33	세계	O	O
+34	시장	O	O
+35	점유	O	O
+36	##율	O	O
+37	##이	O	O
+38	다소	O	O
+39	오르	O	O
+40	##는	O	O
+41	반사	O	O
+42	##이	O	O
+43	##익	O	O
+44	##을	O	O
+45	누릴	O	O
+46	가능	O	O
+47	##성이	O	O
+48	공존	O	O
+49	##하	O	O
+50	##는	O	O
+51	것	O	O
+52	##으로	O	O
+53	예상	O	O
+54	##했	O	O
+55	##다	O	O
+56	.	O	O
+57	[SEP]	O	O

@@ -1,39 +1,10 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	지난해	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-CV
-2	말	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-3	연락	O	O	O, B-LC, I-DT, B-TM, B-CV
-4	##이	O	O	O, B-PS, B-LC, B-OG, B-CV
-5	끊겼	O	O	O, B-TM, B-CV, B-LC, B-PS
-6	##던	O	O	O, B-LC, B-CV, B-OG, B-TM
-7	홍콩	B-LC	B-LC	B-LC, O, B-OG, B-AF, B-CV
-8	서점	O	O	O, I-LC, I-OG, I-CV, I-AF
-9	관계자	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-QT
-10	##들이	O	O	O, I-CV, I-OG, B-CV, I-QT
-11	잇따라	O	O	O, B-LC, B-OG, B-CV, B-QT
-12	방송	O	O	O, B-CV, B-TM, B-LC, B-OG
-13	##에	O	O	O, B-CV, B-LC, B-OG, B-PS
-14	나와	O	O	O, B-LC, B-CV, B-PS, B-OG
-15	납치	B-CV	O	O, B-CV, B-EV, I-CV, B-LC
-16	##설	O	O	O, I-CV, I-EV, I-AF, I-TR
-17	##을	O	O	O, I-CV, B-CV, B-PS, I-EV
-18	부인	O	O	O, B-CV, B-LC, B-OG, B-TM
-19	##하	O	O	O, B-LC, B-CV, B-PS, B-OG
-20	##며	O	O	O, B-LC, B-CV, B-OG, B-PS
-21	‘	O	O	O, B-CV, B-LC, B-OG, B-PS
-22	비	O	O	O, B-CV, B-LC, B-PS, B-AF
-23	##허가	O	O	O, I-CV, I-LC, B-CV, I-AF
-24	도서	O	O	O, I-CV, B-CV, I-AF, I-LC
-25	’	O	O	O, B-CV, I-CV, B-PS, B-LC
-26	의	O	O	O, B-LC, B-CV, B-PS, B-OG
-27	중국	B-LC	B-LC	B-LC, O, B-OG, B-AF, I-LC
-28	내	O	O	O, I-LC, B-LC, B-TM, I-OG
-29	판매	O	O	O, B-CV, B-LC, I-CV, I-LC
-30	혐의	O	O	O, B-CV, B-LC, I-CV, B-PS
-31	##를	O	O	O, B-CV, B-PS, B-LC, B-OG
-32	인정	O	O	O, B-CV, B-LC, B-OG, B-PS
-33	##하고	O	O	O, B-CV, B-LC, B-PS, I-CV
-34	있	O	O	O, B-CV, B-LC, B-OG, B-PS
-35	##다	O	O	O, B-CV, B-LC, B-OG, I-OG
-36	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-37	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	가정용	O	O
+2	전기료	B-CV	O
+3	##에	O	O
+4	##만	O	O
+5	누진	B-CV	B-CV
+6	##제	I-CV	I-CV
+7	적용	O	O
+8	[SEP]	O	O

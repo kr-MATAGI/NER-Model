@@ -1,36 +1,40 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-EV, I-OG, B-CV, I-QT
-1	자연주의	O	O	O, B-OG, B-FD, B-TR, B-LC
-2	피부	B-TM	O	O, B-TM, B-CV, B-AM, I-TM
-3	##관리	O	O	O, I-TM, I-OG, I-CV, I-AF
-4	##숍	O	O	O, I-OG, I-AF, I-TM, I-LC
-5	‘	O	O	O, B-OG, B-LC, B-AF, I-OG
-6	아로마	B-OG	B-OG	B-OG, B-AF, O, B-TM, B-PS
-7	##러	I-OG	I-OG	I-OG, I-AF, O, I-TM, I-LC
-8	##버스	I-OG	I-OG	I-OG, I-AF, O, I-TM, I-LC
-9	##파	I-OG	I-OG	I-OG, I-AF, O, I-TM, I-LC
-10	’	O	O	O, I-OG, I-AF, I-EV, I-TM
-11	는	O	O	O, B-LC, B-OG, B-AF, B-TM
-12	천연	O	O	O, B-CV, B-FD, B-LC, B-TM
-13	유기농	O	O	O, B-CV, B-FD, I-CV, B-LC
-14	화장품	O	O	O, B-CV, I-CV, I-AF, B-FD
-15	##을	O	O	O, B-CV, I-CV, B-PS, B-LC
-16	이용한	O	O	O, B-CV, B-LC, B-TM, B-OG
-17	피부	B-TM	O	O, B-TM, B-TR, B-AM, B-CV
-18	관리	O	O	O, I-TM, I-TR, I-CV, I-EV
-19	##와	O	O	O, B-CV, I-TM, I-EV, I-OG
-20	함께	O	O	O, B-CV, B-TM, B-EV, B-LC
-21	스파	O	O	O, B-FD, B-TR, B-CV, B-EV
-22	##와	O	O	O, I-EV, B-PS, I-OG, B-CV
-23	아로마	O	O	O, B-FD, B-TR, B-EV, B-CV
-24	##세	O	O	O, I-TR, I-FD, I-EV, I-CV
-25	##러	O	O	O, I-TR, I-EV, I-FD, I-CV
-26	##피	O	O	O, I-TR, I-EV, I-FD, I-CV
-27	##를	O	O	O, I-EV, I-TR, I-OG, I-QT
-28	받	O	O	O, B-CV, B-EV, B-LC, I-EV
-29	##을	O	O	O, B-CV, I-EV, B-PS, B-LC
-30	수	O	O	O, B-PS, B-CV, I-EV, B-QT
-31	있	O	O	O, B-CV, I-EV, B-QT, B-PS
-32	##다	O	O	O, B-CV, B-LC, I-EV, B-TM
-33	.	O	O	O, B-LC, B-CV, B-OG, B-TM
-34	[SEP]	O	O	O, B-CV, B-LC, B-TM, I-EV
+	text	label	preds
+0	[CLS]	O	O
+1	이후	O	O
+2	경복궁	B-AF	B-AF
+3	맞은편	B-TM	O
+4	유리	O	O
+5	##빌	O	O
+6	##딩	O	O
+7	##인	O	O
+8	트윈	B-AF	B-AF
+9	##트리	I-AF	I-AF
+10	(	O	O
+11	2010	B-DT	B-DT
+12	##년	I-DT	I-DT
+13	)	O	O
+14	와	O	O
+15	경남	B-LC	B-LC
+16	남해	B-LC	B-LC
+17	##군	I-LC	I-LC
+18	사우스	B-AF	B-AF
+19	##케이	I-AF	I-AF
+20	##프	I-AF	I-AF
+21	호텔	I-AF	I-AF
+22	(	O	O
+23	2013	B-DT	B-DT
+24	##년	I-DT	I-DT
+25	)	O	O
+26	에	O	O
+27	와이어	O	O
+28	건축	O	O
+29	기술	O	O
+30	##을	O	O
+31	부분	O	O
+32	##적	O	O
+33	##으로	O	O
+34	사용	O	O
+35	##했	O	O
+36	##다	O	O
+37	.	O	O
+38	[SEP]	O	O

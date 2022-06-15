@@ -1,32 +1,29 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-EV, I-OG
-1	최승	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-2	##우	I-PS	I-PS	I-PS, I-OG, O, I-LC, I-QT
-3	예산	B-LC	B-CV	B-CV, O, B-OG, B-LC, B-FD
-4	##군	B-CV	I-CV	I-CV, B-CV, O, I-OG, I-EV
-5	##수	I-CV	I-CV	I-CV, O, I-OG, B-CV, I-EV
-6	##는	O	O	O, I-CV, I-OG, I-EV, I-QT
-7	“	O	O	O, B-CV, B-LC, I-CV, B-TM
-8	몇	O	O	O, B-PS, B-LC, B-CV, B-OG
-9	##백	O	O	O, B-PS, B-LC, B-CV, B-DT
-10	##년	O	O	O, B-LC, B-PS, B-CV, I-PS
-11	##의	O	O	O, B-PS, B-LC, B-OG, B-CV
-12	정체	O	O	O, B-LC, B-CV, B-OG, B-PS
-13	##성	O	O	O, B-PS, B-LC, I-PS, I-LC
-14	##을	O	O	O, B-PS, B-CV, B-LC, I-OG
-15	가진	O	O	O, B-CV, B-PS, B-LC, B-OG
-16	자치	O	O	O, B-OG, B-CV, I-OG, B-AF
-17	##단체	O	O	O, I-OG, I-CV, I-AF, I-LC
-18	##를	O	O	O, I-OG, B-CV, I-AF, I-CV
-19	함부로	O	O	O, B-CV, B-LC, B-TM, B-QT
-20	그렇게	O	O	O, B-CV, B-TM, B-OG, B-LC
-21	해선	O	O	O, B-CV, B-LC, B-TM, B-QT
-22	안	O	O	O, B-CV, B-TM, B-LC, B-OG
-23	된다	O	O	O, B-CV, I-OG, B-TM, I-CV
-24	”	O	O	O, B-CV, B-TM, I-CV, I-EV
-25	고	O	O	O, B-CV, B-TM, B-LC, B-QT
-26	지적	O	O	O, B-CV, I-CV, B-TM, B-LC
-27	##했	O	O	O, B-CV, I-CV, B-PS, B-LC
-28	##다	O	O	O, B-CV, B-TM, B-LC, I-EV
-29	.	O	O	O, B-CV, B-LC, B-PS, B-OG
-30	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	포스코건설	B-OG	B-OG
+2	##은	O	O
+3	6	B-DT	B-DT
+4	##월	I-DT	I-DT
+5	송도	B-LC	B-LC
+6	##국	I-LC	I-LC
+7	##제	I-LC	I-LC
+8	##도	I-LC	I-LC
+9	##시	I-LC	I-LC
+10	R	B-LC	O
+11	##M	I-LC	O
+12	##2	I-LC	O
+13	##블	I-LC	O
+14	##록	I-LC	O
+15	##에	O	O
+16	##서	O	O
+17	‘	O	O
+18	송도	B-LC	B-LC
+19	더샵	B-AF	B-AF
+20	센트럴	I-AF	I-AF
+21	##시티	I-AF	I-AF
+22	’	O	O
+23	를	O	O
+24	분양	O	O
+25	##한다	O	O
+26	.	O	O
+27	[SEP]	O	O

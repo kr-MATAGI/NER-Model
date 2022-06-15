@@ -1,21 +1,50 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, I-OG, B-CV, I-AF
-1	속옷	O	B-CV	B-CV, O, I-CV, B-AM, B-TM
-2	##만	O	O	O, I-CV, B-PS, I-QT, I-AF
-3	입	O	O	O, B-CV, I-CV, B-AM, B-TM
-4	##고	O	O	O, I-CV, B-CV, B-PS, I-AF
-5	침대	O	O	O, B-TM, B-CV, B-AF, B-LC
-6	##에	O	O	O, B-CV, I-AF, B-PS, I-CV
-7	다리	B-AM	B-AM	B-AM, O, B-TM, B-TR, I-AM
-8	##를	O	O	O, I-CV, I-AF, B-CV, I-QT
-9	세우	O	O	O, B-CV, B-TM, B-LC, B-PS
-10	##고	O	O	O, B-CV, B-PS, B-LC, I-AF
-11	표정	O	O	O, B-CV, B-TM, B-LC, I-AF
-12	##없이	O	O	O, B-CV, I-AF, B-LC, B-QT
-13	앉	O	O	O, B-CV, B-TM, B-LC, B-QT
-14	##아	O	O	O, B-CV, I-CV, I-AF, B-PS
-15	있	O	O	O, B-CV, B-LC, B-PS, B-QT
-16	##는	O	O	O, B-CV, I-AF, I-CV, B-PS
-17	여자	O	O	O, B-CV, I-CV, B-TM, I-AF
-18	.	O	O	O, B-CV, I-AF, I-CV, B-LC
-19	[SEP]	O	O	O, B-CV, B-LC, I-AF, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	캠페인	O	O
+2	##의	O	O
+3	실천	O	O
+4	과제	O	O
+5	##는	O	O
+6	△	O	O
+7	##과	O	B-CV
+8	##일	O	I-CV
+9	,	O	O
+10	채소	O	B-CV
+11	많이	O	O
+12	먹	O	O
+13	##기	O	O
+14	△	O	O
+15	##아	O	B-CV
+16	##침	O	I-CV
+17	##밥	O	I-CV
+18	먹	O	O
+19	##기	O	O
+20	△	O	O
+21	##우리	O	O
+22	##가족	B-CV	B-CV
+23	##만	O	O
+24	##의	O	O
+25	텃밭	O	O
+26	가꾸	O	O
+27	##기	O	O
+28	△	O	O
+29	##축	O	O
+30	##산물	O	O
+31	저지	O	O
+32	##방	O	O
+33	부위	O	O
+34	소비	O	O
+35	##하	O	O
+36	##기	O	O
+37	△	O	O
+38	##음	O	O
+39	##식물	O	O
+40	쓰레기	O	O
+41	줄이	O	O
+42	##기	O	O
+43	등	O	O
+44	5	B-QT	B-QT
+45	##가지	I-QT	I-QT
+46	##다	O	O
+47	.	O	O
+48	[SEP]	O	O

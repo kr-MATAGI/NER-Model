@@ -1,34 +1,29 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-EV, I-CV
-1	J	B-AF	B-AF	B-AF, O, B-TM, B-OG, B-EV
-2	##X	I-AF	I-AF	I-AF, O, I-TM, B-AF, I-OG
-3	A	I-AF	I-AF	I-AF, B-AF, O, I-TM, I-EV
-4	##W	I-AF	I-AF	I-AF, O, I-TM, B-AF, I-EV
-5	##D	I-AF	I-AF	I-AF, O, I-TM, B-AF, I-EV
-6	##모	O	I-AF	I-AF, O, I-TM, B-AF, I-EV
-7	##델	O	I-AF	I-AF, O, I-TM, I-EV, I-OG
-8	##에	O	O	O, I-AF, I-TM, I-EV, I-OG
-9	탑재	O	O	O, B-TM, B-CV, B-LC, B-OG
-10	##된	O	O	O, B-TM, B-PS, B-CV, B-LC
-11	전자	O	B-TM	B-TM, O, B-TR, I-TM, B-QT
-12	##제	O	I-TM	I-TM, O, B-TM, I-TR, I-QT
-13	##어	O	I-TM	I-TM, O, I-TR, I-QT, B-TM
-14	##시스	O	I-TM	I-TM, O, I-TR, I-QT, I-OG
-15	##템	O	I-TM	I-TM, O, I-TR, I-QT, I-OG
-16	##은	O	O	O, I-TM, I-OG, I-QT, B-CV
-17	차체	O	O	O, B-AF, B-TM, B-CV, B-LC
-18	##가	O	O	O, I-AF, I-OG, I-TM, B-PS
-19	최적	O	O	O, B-TM, B-LC, B-CV, B-PS
-20	##의	O	O	O, B-LC, B-PS, B-TM, B-CV
-21	접	O	O	O, B-TM, B-AF, B-CV, B-LC
-22	##지	O	O	O, I-TM, I-AF, I-LC, I-CV
-23	##력	O	O	O, I-TM, I-AF, I-LC, B-LC
-24	##을	O	O	O, B-CV, B-LC, B-TM, I-AF
-25	발휘	O	O	O, B-CV, B-LC, B-TM, B-OG
-26	##하	O	O	O, B-LC, B-PS, B-CV, B-TM
-27	##도록	O	O	O, B-CV, B-LC, B-TM, B-OG
-28	돕	O	O	O, B-TM, B-CV, B-LC, B-QT
-29	##는	O	O	O, B-CV, B-TM, B-LC, B-PS
-30	##다	O	O	O, B-CV, B-TM, B-LC, B-OG
-31	.	O	O	O, B-LC, B-TM, B-PS, B-CV
-32	[SEP]	O	O	O, B-TM, B-LC, B-CV, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	현재	O	O
+2	기상	O	O
+3	##센터	O	O
+4	##는	O	O
+5	인공	O	O
+6	##눈	O	O
+7	##을	O	O
+8	만드	O	O
+9	##는	O	O
+10	기상	O	O
+11	##조	O	O
+12	##절	O	O
+13	실험	O	O
+14	##에	O	O
+15	항공기	O	B-AF
+16	실험	O	O
+17	##과	O	O
+18	지상	O	O
+19	실험	O	O
+20	##을	O	O
+21	병행	O	O
+22	##하	O	O
+23	##고	O	O
+24	있	O	O
+25	##다	O	O
+26	.	O	O
+27	[SEP]	O	O

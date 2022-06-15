@@ -1,45 +1,32 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-EV, I-CV
-1	지난달	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-QT
-2	소치	B-EV	B-EV	B-EV, O, I-EV, B-LC, B-AF
-3	겨울	I-EV	I-EV	I-EV, B-EV, O, I-AF, I-DT
-4	##올	I-EV	I-EV	I-EV, O, B-EV, I-AF, I-OG
-5	##림픽	I-EV	I-EV	I-EV, O, B-EV, I-AF, I-OG
-6	##에	O	O	O, I-EV, I-AF, I-OG, I-QT
-7	처음	O	O	O, B-CV, B-QT, B-LC, B-OG
-8	출전	O	O	O, B-CV, B-LC, B-OG, B-PS
-9	##해	O	O	O, B-LC, B-OG, B-PS, B-CV
-10	강호	O	O	O, B-CV, B-OG, B-PS, B-LC
-11	일본	B-LC	B-OG	B-OG, B-LC, I-OG, O, B-PS
-12	##과	O	O	O, I-OG, I-LC, I-CV, B-OG
-13	미국	B-LC	B-OG	B-OG, B-LC, O, B-PS, I-OG
-14	,	O	O	O, I-OG, I-LC, B-CV, I-AF
-15	러시아	B-LC	B-OG	B-OG, B-LC, O, B-PS, I-OG
-16	##를	O	O	O, I-OG, I-LC, B-CV, I-AF
-17	연	O	O	O, B-LC, B-CV, B-EV, B-TM
-18	##파	O	O	O, I-EV, I-LC, I-CV, B-LC
-19	##하	O	O	O, B-LC, B-PS, B-CV, B-OG
-20	##며	O	O	O, B-LC, B-CV, B-OG, B-PS
-21	주목	O	O	O, B-CV, B-TM, B-LC, B-OG
-22	##을	O	O	O, B-CV, B-OG, B-PS, B-LC
-23	끌	O	O	O, B-CV, B-OG, B-LC, B-TM
-24	##었	O	O	O, B-CV, B-OG, B-LC, B-EV
-25	##던	O	O	O, B-CV, B-OG, B-LC, B-EV
-26	컬링	B-CV	B-CV	B-CV, O, B-FD, B-EV, B-OG
-27	##의	O	O	O, I-CV, I-EV, I-OG, I-AF
-28	국내	O	O	O, B-LC, B-CV, B-OG, B-TM
-29	첫	O	O	O, B-LC, B-PS, B-QT, B-CV
-30	국제	O	O	O, B-CV, B-PS, B-LC, B-FD
-31	##규	O	O	O, B-CV, B-PS, I-CV, B-FD
-32	##격	O	O	O, B-PS, I-CV, I-LC, B-LC
-33	전용	O	O	O, B-CV, B-LC, B-PS, B-AF
-34	##경기	O	O	O, B-CV, B-LC, B-PS, B-AF
-35	##장이	O	O	O, B-LC, B-PS, B-AF, B-CV
-36	경기도	B-LC	B-LC	B-LC, B-OG, O, B-PS, B-AF
-37	의정부	B-LC	B-LC	B-LC, I-LC, B-OG, O, B-AF
-38	##시	I-LC	I-LC	I-LC, O, I-OG, B-LC, I-PS
-39	##에	O	O	O, I-LC, I-OG, I-AF, B-LC
-40	세워진	O	O	O, B-AF, B-OG, B-LC, B-CV
-41	##다	O	O	O, I-OG, I-AF, B-CV, B-LC
-42	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-43	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	두	B-QT	B-QT
+2	회사	I-QT	I-QT
+3	##가	O	O
+4	통합	O	O
+5	##하면	O	O
+6	아르	B-OG	B-OG
+7	##셀	I-OG	I-OG
+8	##로	I-OG	I-OG
+9	##미	I-OG	I-OG
+10	##탈	I-OG	I-OG
+11	##과	O	O
+12	허	B-LC	B-OG
+13	##베이	I-LC	I-OG
+14	·	O	O
+15	서	B-LC	B-OG
+16	##우	I-LC	I-OG
+17	##강	I-LC	I-OG
+18	합병	O	O
+19	회사	O	O
+20	##에	O	O
+21	이어	O	O
+22	세계	O	O
+23	3	B-QT	B-QT
+24	##위	I-QT	I-QT
+25	##에	O	O
+26	오르	O	O
+27	##게	O	O
+28	된다	O	O
+29	.	O	O
+30	[SEP]	O	O

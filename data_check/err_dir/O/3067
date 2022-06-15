@@ -1,18 +1,41 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	그러나	O	O	O, B-CV, B-PS, B-LC, B-TM
-2	올해	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-3	##는	O	O	O, I-DT, I-QT, B-CV, I-EV
-4	'	O	O	O, B-CV, B-LC, B-PS, B-OG
-5	완	O	B-TM	B-TM, O, B-QT, B-TR, B-AF
-6	##투	O	I-TM	I-TM, O, I-QT, B-TM, I-TR
-7	##형	O	I-TM	I-TM, O, I-QT, I-TR, I-AF
-8	선발투수	B-CV	B-CV	B-CV, O, I-TM, I-CV, B-TM
-9	'	O	O	O, I-CV, B-CV, I-TM, I-QT
-10	로	O	O	O, B-PS, B-CV, B-LC, B-QT
-11	변신	O	O	O, B-PS, B-CV, B-OG, B-LC
-12	##하고	O	O	O, B-PS, B-CV, B-LC, I-OG
-13	있	O	O	O, B-PS, B-CV, I-OG, B-LC
-14	##다	O	O	O, B-CV, B-PS, I-OG, I-CV
-15	.	O	O	O, B-PS, B-CV, B-LC, B-OG
-16	[SEP]	O	O	O, B-CV, B-PS, B-LC, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	이번	O	O
+2	대회	O	O
+3	##는	O	O
+4	19	B-DT	B-DT
+5	##일	I-DT	I-DT
+6	유럽	B-LC	B-LC
+7	##의	O	O
+8	남쪽	B-TM	B-TM
+9	끝	O	O
+10	##인	O	O
+11	이탈리아	B-LC	B-LC
+12	바리	B-LC	B-LC
+13	##를	O	O
+14	출발	O	O
+15	##해	O	O
+16	오스트리아	B-LC	B-LC
+17	,	O	O
+18	독일	B-LC	B-LC
+19	,	O	O
+20	덴마크	B-LC	B-LC
+21	,	O	O
+22	스웨덴	B-LC	B-LC
+23	,	O	O
+24	핀란드	B-LC	B-LC
+25	##를	O	O
+26	거쳐	O	O
+27	6	B-DT	B-DT
+28	##월	I-DT	I-DT
+29	21	I-DT	I-DT
+30	##일	I-DT	I-DT
+31	노르웨이	B-LC	B-LC
+32	노르	O	B-LC
+33	##카	O	I-LC
+34	##프	O	I-LC
+35	##에	O	O
+36	도착	O	O
+37	##한다	O	O
+38	.	O	O
+39	[SEP]	O	O

@@ -1,40 +1,24 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-AF
-1	점심	O	B-TI	B-TI, O, B-QT, B-EV, B-CV
-2	##시간	O	I-TI	I-TI, O, B-TI, I-TR, I-EV
-3	관람	O	O	O, B-CV, I-CV, I-TI, B-TM
-4	##권	O	O	O, I-CV, I-LC, I-AF, I-TM
-5	##이나	O	O	O, I-CV, B-PS, B-LC, I-AF
-6	상시	O	O	O, B-CV, B-QT, B-TM, B-AF
-7	관람	O	O	O, I-CV, B-CV, I-AF, I-QT
-8	##권	O	O	O, I-CV, I-TM, I-AF, I-LC
-9	(	O	O	O, I-CV, B-CV, B-PS, B-LC
-10	1	B-DT	B-DT	B-DT, O, B-QT, I-DT, B-PS
-11	##개	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-12	##월	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-AF
-13	)	O	O	O, I-DT, B-CV, I-OG, I-QT
-14	,	O	O	O, B-CV, B-LC, B-OG, B-PS
-15	시간	O	O	O, B-CV, B-TM, B-AF, B-QT
-16	##제	O	O	O, I-CV, I-TM, I-AF, I-TR
-17	관람	O	O	O, I-CV, B-CV, B-QT, I-TM
-18	##권	O	O	O, I-CV, I-TM, I-LC, I-AF
-19	(	O	O	O, I-CV, B-CV, B-PS, B-LC
-20	1	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-PS
-21	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-22	)	O	O	O, I-DT, B-CV, I-OG, I-QT
-23	을	O	O	O, B-CV, B-OG, B-LC, B-PS
-24	끊	O	O	O, B-CV, B-LC, B-QT, B-TM
-25	##어	O	O	O, B-PS, B-LC, B-CV, B-QT
-26	산책	O	O	O, B-LC, B-CV, B-TM, B-AM
-27	##하	O	O	O, I-LC, B-PS, I-AF, B-LC
-28	##듯	O	O	O, I-LC, I-AF, B-PS, B-LC
-29	방문	O	O	O, B-CV, B-LC, B-TM, B-AF
-30	##하	O	O	O, B-LC, B-CV, B-PS, B-AF
-31	##는	O	O	O, B-CV, B-LC, B-PS, I-AF
-32	동네	O	O	O, B-CV, B-LC, B-TM, B-AF
-33	주민	B-CV	B-CV	B-CV, O, B-DT, B-TM, B-OG
-34	##도	O	O	O, I-CV, I-QT, I-OG, I-AF
-35	많	O	O	O, B-CV, B-TM, B-QT, B-OG
-36	##다	O	O	O, B-CV, I-OG, I-CV, B-TM
-37	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-38	[SEP]	O	O	O, B-CV, B-LC, I-AF, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	또	O	O
+2	큰	O	O
+3	##외	B-CV	B-CV
+4	##숙	I-CV	I-CV
+5	##모	I-CV	I-CV
+6	##네	O	O
+7	집	O	O
+8	##이	O	O
+9	##어	O	O
+10	갖	O	O
+11	##고	O	O
+12	큰	O	O
+13	##외	O	B-CV
+14	##숙	O	I-CV
+15	##모	O	I-CV
+16	##가	O	O
+17	해야	O	O
+18	될	O	O
+19	거	O	O
+20	같	O	O
+21	##지만	O	O
+22	[SEP]	O	O

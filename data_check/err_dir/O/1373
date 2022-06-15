@@ -1,20 +1,28 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	단순	O	O	O, B-CV, B-PS, B-LC, B-TM
-2	##한	O	O	O, B-PS, B-LC, B-OG, B-TR
-3	음	O	O	O, B-CV, B-OG, B-PS, B-LC
-4	~	O	O	O, I-CV, B-PS, B-LC, I-OG
-5	그	O	O	O, B-CV, B-PS, B-OG, B-TR
-6	~	O	O	O, B-PS, I-CV, B-LC, I-OG
-7	중도	O	B-TR	B-TR, O, I-TR, B-TM, B-OG
-8	##로	O	O	O, I-TR, I-OG, I-QT, I-EV
-9	그	O	O	O, B-CV, B-OG, B-PS, B-LC
-10	~	O	O	O, I-CV, B-CV, B-LC, B-PS
-11	그	O	O	O, B-CV, B-PS, B-OG, B-LC
-12	~	O	O	O, I-CV, B-CV, B-PS, B-LC
-13	저	O	O	O, B-CV, B-PS, B-OG, B-LC
-14	~	O	O	O, I-CV, B-PS, B-LC, B-CV
-15	뭐	O	O	O, B-CV, B-PS, B-OG, B-LC
-16	##랄	O	O	O, B-PS, B-LC, B-CV, I-OG
-17	##까	O	O	O, B-PS, B-LC, I-OG, I-CV
-18	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-FD
+	text	label	preds
+0	[CLS]	O	O
+1	아웃도어	O	B-CV
+2	업체	O	O
+3	##들	O	O
+4	##은	O	O
+5	이런	O	O
+6	분위기	O	O
+7	##를	O	O
+8	타고	O	O
+9	지난해	B-DT	B-DT
+10	사상	O	O
+11	최대	O	O
+12	물량	O	O
+13	##의	O	O
+14	상품	O	O
+15	##을	O	O
+16	제작	O	O
+17	##한	O	O
+18	것	O	O
+19	##으로	O	O
+20	알려	O	O
+21	##지	O	O
+22	##고	O	O
+23	있	O	O
+24	##다	O	O
+25	.	O	O
+26	[SEP]	O	O

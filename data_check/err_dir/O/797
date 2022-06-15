@@ -1,16 +1,67 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-AF
-1	약간	O	O	O, B-QT, B-CV, B-TM, B-DT
-2	두툼	O	O	O, B-CV, B-TM, B-PS, B-QT
-3	##하	O	O	O, B-PS, B-OG, I-OG, B-LC
-4	##게	O	O	O, B-OG, B-TM, B-PS, B-LC
-5	필러	O	B-TM	B-TM, B-TR, O, B-MT, B-AM
-6	##로	O	O	O, I-TM, I-TR, I-QT, I-AF
-7	다시	O	O	O, B-CV, B-TM, B-QT, B-OG
-8	벗겨	O	O	O, B-CV, B-OG, B-QT, B-TM
-9	##내	O	O	O, B-CV, B-OG, I-OG, B-LC
-10	##겠	O	O	O, B-CV, B-OG, B-LC, I-OG
-11	##습	O	O	O, B-CV, I-OG, B-OG, B-LC
-12	##니다	O	O	O, B-CV, B-OG, B-LC, I-OG
-13	.	O	O	O, B-CV, B-LC, B-OG, I-OG
-14	[SEP]	O	O	O, B-CV, I-OG, B-LC, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	2012	B-DT	B-DT
+2	런던	B-EV	B-EV
+3	##올	I-EV	I-EV
+4	##림픽	I-EV	I-EV
+5	##에	O	O
+6	##서	O	O
+7	깜짝	O	O
+8	5	B-QT	B-QT
+9	##위	I-QT	I-QT
+10	##를	O	O
+11	한	O	O
+12	뒤	O	O
+13	##에	O	O
+14	2014	B-DT	B-DT
+15	인천	B-EV	B-EV
+16	##아	I-EV	I-EV
+17	##시안	I-EV	I-EV
+18	##게임	I-EV	I-EV
+19	,	O	O
+20	2014	B-DT	B-DT
+21	리스	B-EV	B-EV
+22	##본	I-EV	I-EV
+23	##체	I-EV	I-EV
+24	##조	I-EV	I-EV
+25	##월드	I-EV	I-EV
+26	##컵	I-EV	I-EV
+27	,	O	O
+28	2013	B-DT	B-DT
+29	타	B-EV	B-EV
+30	##슈	I-EV	I-EV
+31	##켄	I-EV	I-EV
+32	##트	I-EV	I-EV
+33	##아시아	I-EV	I-EV
+34	##선	I-EV	I-EV
+35	##수	I-EV	I-EV
+36	##권	I-EV	I-EV
+37	##대	I-EV	I-EV
+38	##회	I-EV	I-EV
+39	모두	O	O
+40	국내	O	O
+41	체조	O	B-CV
+42	역사	O	O
+43	##상	O	O
+44	‘	O	O
+45	최초	O	O
+46	’	O	O
+47	의	O	O
+48	금메달	B-CV	B-CV
+49	##을	O	O
+50	획득	O	O
+51	##한	O	O
+52	손연재	B-PS	B-PS
+53	##는	O	O
+54	내년	B-DT	B-DT
+55	리우	B-EV	B-EV
+56	##올	I-EV	I-EV
+57	##림픽	I-EV	I-EV
+58	##을	O	O
+59	겨냥	O	O
+60	##하	O	O
+61	##고	O	O
+62	있	O	O
+63	##다	O	O
+64	.	O	O
+65	[SEP]	O	O

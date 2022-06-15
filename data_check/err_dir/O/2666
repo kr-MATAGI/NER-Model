@@ -1,28 +1,38 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-AF
-1	바리스타	B-CV	B-CV	B-CV, O, B-OG, B-PS, B-AF
-2	##는	O	O	O, I-OG, I-CV, B-CV, I-EV
-3	고산	O	O	O, B-LC, I-LC, B-CV, B-OG
-4	##지역	O	O	O, I-LC, B-LC, I-AF, I-OG
-5	##에서	O	O	O, I-LC, B-LC, B-PS, B-CV
-6	나	O	O	O, B-LC, B-PS, B-CV, I-LC
-7	##는	O	O	O, B-LC, B-PS, B-CV, B-TM
-8	귀한	O	O	O, B-CV, B-LC, B-PS, B-AF
-9	원두	O	B-CV	B-CV, O, I-CV, B-PT, B-MT
-10	##를	O	O	O, I-CV, B-CV, B-PS, B-LC
-11	맞춤	O	O	O, B-LC, B-PS, B-CV, B-OG
-12	로스	O	O	O, B-CV, B-LC, B-FD, B-PS
-13	##팅	O	O	O, I-OG, I-CV, I-LC, I-TR
-14	##해	O	O	O, B-LC, B-PS, I-OG, I-LC
-15	커피	B-CV	B-CV	B-CV, O, B-AF, I-CV, B-PT
-16	##의	O	O	O, I-CV, I-OG, I-AF, I-EV
-17	풍미	O	O	O, B-CV, B-TM, B-LC, B-OG
-18	##를	O	O	O, B-CV, B-OG, B-LC, B-PS
-19	살린	O	O	O, B-LC, B-OG, B-CV, B-PS
-20	프리미엄	O	O	O, B-CV, B-OG, B-AF, B-LC
-21	컵	O	B-CV	B-CV, O, B-TM, I-CV, I-TM
-22	커피	B-CV	I-CV	I-CV, O, I-TM, B-CV, I-OG
-23	브랜드	O	O	O, I-CV, I-OG, B-CV, I-TM
-24	##다	O	O	O, I-OG, B-OG, B-CV, I-CV
-25	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-26	[SEP]	O	O	O, B-LC, B-CV, B-OG, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	2000	B-DT	B-DT
+2	##년	I-DT	I-DT
+3	##에	O	O
+4	태어난	O	O
+5	뿌	O	B-AF
+6	##까	O	I-AF
+7	##는	O	O
+8	유럽	B-LC	B-LC
+9	##은	O	O
+10	물론	O	O
+11	세계	O	O
+12	곳곳	O	O
+13	##에	O	O
+14	##서	O	O
+15	,	O	O
+16	일본	B-LC	B-LC
+17	##이	O	O
+18	자랑	O	O
+19	##하	O	O
+20	##는	O	O
+21	캐릭터	O	O
+22	‘	O	O
+23	헬로	O	B-AF
+24	키	O	I-AF
+25	##티	O	I-AF
+26	’	O	O
+27	보다	O	O
+28	더	O	O
+29	인기	O	O
+30	##를	O	O
+31	얻	O	O
+32	##고	O	O
+33	있	O	O
+34	##다	O	O
+35	.	O	O
+36	[SEP]	O	O

@@ -1,40 +1,46 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	그러나	O	O	O, B-OG, B-CV, B-LC, B-PS
-2	최근	O	O	O, B-LC, B-PS, B-OG, B-DT
-3	중국	B-LC	B-LC	B-LC, B-OG, O, I-LC, B-PS
-4	##에	O	O	O, I-OG, I-LC, B-CV, I-AF
-5	##선	O	O	O, B-LC, B-OG, B-PS, B-CV
-6	북한	B-LC	B-OG	B-OG, B-LC, O, B-PS, I-OG
-7	##을	O	O	O, I-OG, I-LC, I-PS, B-OG
-8	‘	O	O	O, B-CV, B-LC, B-OG, B-PS
-9	전략	O	O	O, B-LC, B-PS, B-CV, B-OG
-10	##적	O	O	O, I-PS, B-PS, B-LC, I-CV
-11	부담	O	O	O, B-PS, B-CV, B-LC, B-OG
-12	’	O	O	O, B-PS, B-CV, B-LC, B-OG
-13	으로	O	O	O, B-PS, B-CV, B-LC, B-OG
-14	보	O	O	O, B-PS, B-OG, B-CV, B-LC
-15	##면서	O	O	O, B-LC, B-PS, B-OG, B-CV
-16	한	B-LC	B-OG	B-OG, B-LC, O, B-PS, I-OG
-17	·	O	O	O, I-OG, I-LC, I-PS, I-EV
-18	미	B-LC	B-OG	B-OG, B-LC, I-OG, O, B-PS
-19	##와	O	O	O, I-OG, I-LC, B-CV, I-EV
-20	##의	O	O	O, B-LC, B-PS, I-OG, B-CV
-21	관계	O	O	O, B-CV, B-LC, B-OG, B-PS
-22	개선	O	O	O, B-CV, B-LC, B-PS, I-EV
-23	##을	O	O	O, B-PS, B-CV, B-LC, B-OG
-24	중시	O	O	O, B-CV, B-LC, B-PS, B-OG
-25	##하	O	O	O, B-PS, B-LC, B-OG, B-CV
-26	##는	O	O	O, B-LC, B-PS, B-OG, B-CV
-27	,	O	O	O, B-CV, B-LC, B-OG, B-PS
-28	이른바	O	O	O, B-LC, B-PS, B-OG, B-CV
-29	수정	O	B-TR	B-TR, O, I-TR, B-PS, B-FD
-30	##주의	O	I-TR	I-TR, O, B-TR, I-PS, I-FD
-31	시각	O	O	O, I-TR, B-CV, B-TR, I-QT
-32	##이	O	O	O, B-PS, B-CV, B-OG, B-LC
-33	나오	O	O	O, B-CV, B-OG, B-LC, B-PS
-34	##고	O	O	O, B-CV, I-OG, B-PS, I-CV
-35	있	O	O	O, B-CV, B-OG, B-LC, B-PS
-36	##다	O	O	O, B-CV, B-LC, B-OG, I-OG
-37	.	O	O	O, B-LC, B-PS, B-CV, B-OG
-38	[SEP]	O	O	O, B-LC, B-CV, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	<	B-OG	B-OG
+2	에이	I-OG	I-OG
+3	##피	I-OG	I-OG
+4	>	I-OG	I-OG
+5	(	I-OG	I-OG
+6	AP	I-OG	I-OG
+7	)	I-OG	I-OG
+8	통신	I-OG	I-OG
+9	등	O	O
+10	##은	O	O
+11	21	B-DT	B-DT
+12	##일	I-DT	I-DT
+13	레바논	B-LC	B-LC
+14	시아파	B-OG	B-OG
+15	무장	O	B-OG
+16	##그룹	O	I-OG
+17	헤	B-OG	B-OG
+18	##즈	I-OG	I-OG
+19	##볼	I-OG	I-OG
+20	##라	I-OG	I-OG
+21	##가	O	O
+22	레바논	B-LC	B-LC
+23	##에	O	O
+24	##서	O	O
+25	활동	O	O
+26	##하	O	O
+27	##던	O	O
+28	중앙	B-OG	B-OG
+29	##정보	I-OG	I-OG
+30	##국	I-OG	I-OG
+31	첩보	B-CV	B-CV
+32	##원	I-CV	I-CV
+33	10	B-QT	B-QT
+34	##여	I-QT	I-QT
+35	##명	I-QT	I-QT
+36	##을	O	O
+37	체포	O	O
+38	##했	O	O
+39	##다고	O	O
+40	보도	O	O
+41	##했	O	O
+42	##다	O	O
+43	.	O	O
+44	[SEP]	O	O

@@ -1,29 +1,34 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	집	O	O	O, B-CV, B-AF, B-LC, B-TM
-2	앞	O	O	O, B-TM, B-AM, B-CV, I-TM
-3	물	O	O	O, I-TM, B-AM, B-TM, B-LC
-4	##빠	O	O	O, I-TM, B-LC, B-AM, B-TM
-5	##짐	O	O	O, I-TM, B-LC, I-PS, I-LC
-6	##이	O	O	O, B-PS, B-LC, B-CV, B-TM
-7	좋	O	O	O, B-CV, B-LC, B-TM, B-PS
-8	##은	O	O	O, B-LC, B-CV, B-TM, B-PS
-9	땅	O	O	O, B-CV, B-LC, B-PT, I-LC
-10	##을	O	O	O, B-CV, B-LC, B-PS, B-TM
-11	골라	O	O	O, B-LC, B-CV, B-PS, B-TM
-12	정성껏	O	O	O, B-LC, B-CV, B-TM, B-AF
-13	고추	B-PT	B-PT	B-PT, O, B-CV, I-PT, B-OG
-14	##를	O	O	O, I-CV, I-OG, I-AF, I-EV
-15	심	O	O	O, B-CV, B-PS, B-LC, B-OG
-16	##었	O	O	O, B-CV, B-LC, I-OG, B-OG
-17	##지만	O	O	O, B-LC, B-CV, B-TM, B-QT
-18	,	O	O	O, B-CV, B-LC, B-OG, B-TM
-19	탄	B-TM	O	O, B-AF, B-CV, B-OG, B-PS
-20	##저	I-TM	O	O, I-AF, I-CV, I-OG, I-PS
-21	##병	I-TM	O	O, I-AF, I-CV, I-OG, I-PS
-22	##에	O	O	O, I-AF, I-OG, I-CV, I-QT
-23	전멸	O	O	O, B-TM, B-CV, B-LC, B-QT
-24	##했	O	O	O, I-AF, B-CV, B-LC, I-OG
-25	##다	O	O	O, B-CV, B-LC, I-OG, I-AF
-26	.	O	O	O, B-LC, B-CV, B-PS, B-TM
-27	[SEP]	O	O	O, B-CV, B-LC, B-TM, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	지난해	B-DT	B-DT
+2	홍콩	B-LC	B-LC
+3	영업	O	O
+4	##을	O	O
+5	재개	O	O
+6	##한	O	O
+7	뒤	O	O
+8	싱가포르	B-LC	B-LC
+9	국부	O	O
+10	##펀	O	O
+11	##드로	O	O
+12	##부터	O	O
+13	서울	B-LC	B-OG
+14	##반도	B-TM	I-OG
+15	##체	I-TM	I-OG
+16	유상	O	O
+17	##증	O	O
+18	##자	O	O
+19	자금	O	O
+20	28	B-QT	B-QT
+21	##47	I-QT	I-QT
+22	##억	I-QT	I-QT
+23	원	I-QT	I-QT
+24	##을	O	O
+25	유치	O	O
+26	##하	O	O
+27	##기	O	O
+28	##도	O	O
+29	했	O	O
+30	##다	O	O
+31	.	O	O
+32	[SEP]	O	O

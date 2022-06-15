@@ -1,52 +1,20 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-EV, I-CV, I-OG
-1	조희	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
-2	##연	I-PS	I-PS	I-PS, O, I-OG, I-LC, B-PS
-3	서울	B-LC	B-LC	B-LC, B-CV, O, B-OG, B-AF
-4	##교육	B-CV	B-CV	B-CV, I-CV, O, I-LC, I-AF
-5	##감	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-QT
-6	##은	O	O	O, I-CV, I-OG, I-EV, I-QT
-7	""""	O	O	O, B-CV, B-LC, B-PS, B-TM
-8	제	O	O	O, B-CV, B-PS, B-LC, I-CV
-9	명예	O	O	O, B-CV, B-PS, B-LC, B-TM
-10	##를	O	O	O, B-PS, B-CV, B-LC, I-CV
-11	걸	O	O	O, B-CV, B-LC, B-PS, B-EV
-12	##고	O	O	O, B-PS, B-CV, B-LC, I-PS
-13	고민	O	O	O, B-CV, B-LC, B-PS, B-TM
-14	##을	O	O	O, B-PS, B-CV, B-LC, B-OG
-15	거듭	O	O	O, B-CV, B-PS, B-LC, B-QT
-16	##한	O	O	O, B-PS, B-LC, B-CV, B-OG
-17	최대치	O	O	O, B-PS, B-CV, B-QT, B-LC
-18	##가	O	O	O, B-PS, B-CV, B-LC, B-OG
-19	이것	O	O	O, B-PS, B-QT, B-CV, B-LC
-20	""""	O	O	O, B-CV, B-PS, I-CV, I-QT
-21	이라	O	O	O, B-PS, B-CV, B-LC, I-CV
-22	##며	O	O	O, B-CV, B-LC, I-CV, B-TM
-23	""""	O	O	O, B-LC, B-CV, B-PS, B-OG
-24	교육부	B-OG	B-OG	B-OG, O, B-LC, B-AF, B-EV
-25	##에	O	O	O, I-OG, I-EV, I-DT, B-CV
-26	초등	O	O	O, B-CV, B-FD, B-OG, B-TM
-27	교원	B-CV	O	O, B-CV, I-CV, B-FD, B-QT
-28	감축	O	O	O, I-CV, B-CV, I-OG, I-QT
-29	규모	O	O	O, B-CV, B-TM, B-OG, B-PS
-30	##를	O	O	O, B-CV, B-TM, B-OG, B-LC
-31	완화	O	O	O, B-CV, B-LC, B-TM, B-OG
-32	##해	O	O	O, B-LC, B-PS, B-OG, B-CV
-33	##달	O	O	O, B-PS, B-LC, B-CV, B-OG
-34	##라고	O	O	O, B-LC, B-CV, B-PS, B-OG
-35	요청	O	O	O, B-CV, B-LC, B-TM, B-OG
-36	##했	O	O	O, B-PS, B-LC, B-CV, I-EV
-37	##지만	O	O	O, B-LC, B-PS, B-CV, B-OG
-38	받아들여	O	O	O, B-LC, B-CV, B-OG, B-TM
-39	##지	O	O	O, B-CV, B-LC, I-OG, I-EV
-40	##지	O	O	O, I-OG, I-EV, B-LC, I-LC
-41	않	O	O	O, I-OG, I-EV, B-LC, I-LC
-42	##았	O	O	O, B-CV, B-LC, I-EV, I-OG
-43	##다	O	O	O, B-CV, I-OG, I-EV, B-LC
-44	""""	O	O	O, B-CV, B-LC, B-TM, B-PS
-45	고	O	O	O, B-CV, B-TM, B-LC, B-QT
-46	말	O	O	O, B-CV, B-TM, I-EV, B-QT
-47	##했	O	O	O, B-CV, B-PS, I-EV, B-LC
-48	##다	O	O	O, B-CV, B-LC, B-TM, I-EV
-49	.	O	O	O, B-CV, B-LC, B-PS, B-OG
-50	[SEP]	O	O	O, B-CV, B-LC, B-PS, I-EV
+	text	label	preds
+0	[CLS]	O	O
+1	학교	O	B-CV
+2	##위원	B-CV	I-CV
+3	##과	O	O
+4	외부	O	O
+5	##위원	B-CV	B-CV
+6	##만	O	O
+7	참석	O	O
+8	##한	O	O
+9	채	O	O
+10	올해	B-DT	B-DT
+11	예산안	O	O
+12	##은	O	O
+13	통과	O	O
+14	##됐	O	O
+15	##습	O	O
+16	##니다	O	O
+17	.	O	O
+18	[SEP]	O	O

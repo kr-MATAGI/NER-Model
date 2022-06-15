@@ -1,28 +1,15 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	지난	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-2	2005	I-DT	I-DT	I-DT, B-DT, O, I-QT, I-PS
-3	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-4	시마	B-LC	B-OG	B-OG, B-LC, O, I-OG, I-DT
-5	##네	I-LC	I-OG	I-OG, I-LC, O, B-OG, I-EV
-6	##현	I-LC	I-OG	I-OG, I-LC, O, I-EV, B-OG
-7	##이	O	O	O, I-OG, B-CV, B-PS, I-CV
-8	'	O	O	O, B-CV, B-DT, B-LC, B-QT
-9	다케	B-LC	B-DT	B-DT, B-CV, I-DT, B-LC, B-AF
-10	##시마	I-LC	I-DT	I-DT, I-CV, I-AF, I-LC, I-EV
-11	##의	O	I-DT	I-DT, I-CV, O, I-AF, I-EV
-12	날	O	I-DT	I-DT, I-CV, O, I-EV, I-AF
-13	'	O	O	O, I-CV, I-DT, B-CV, I-EV
-14	조례	O	O	O, B-CV, I-CV, B-FD, B-QT
-15	##를	O	O	O, I-CV, B-CV, I-AF, B-PS
-16	제정	O	O	O, B-CV, B-OG, B-LC, B-PS
-17	##할	O	O	O, B-CV, B-PS, I-CV, B-DT
-18	때	O	O	O, B-CV, B-DT, B-QT, I-DT
-19	##와	O	O	O, B-CV, I-DT, B-DT, B-PS
-20	비교	O	O	O, B-CV, B-TM, B-OG, I-DT
-21	##하면	O	O	O, B-OG, B-PS, B-CV, I-OG
-22	놀라운	O	O	O, B-CV, B-TM, B-LC, B-OG
-23	변화	O	O	O, B-CV, B-OG, B-LC, B-PS
-24	##입니다	O	O	O, B-CV, I-OG, I-CV, I-AF
-25	.	O	O	O, B-CV, B-LC, B-OG, B-DT
-26	[SEP]	O	O	O, B-CV, B-LC, B-OG, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	미	O	B-EV
+2	-	O	I-EV
+3	중	O	I-EV
+4	정상	O	I-EV
+5	##회	O	I-EV
+6	##담	O	I-EV
+7	##서	O	O
+8	무역	O	O
+9	##갈	O	O
+10	##등	O	O
+11	완화	O	O
+12	##로	O	O
+13	[SEP]	O	O

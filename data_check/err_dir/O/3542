@@ -1,23 +1,30 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	곰	B-CV	B-CV	B-CV, B-PT, O, B-AM, I-CV
-2	##취	I-CV	I-CV	I-CV, I-PT, O, I-AM, B-CV
-3	##가	O	O	O, I-CV, I-OG, I-AF, I-QT
-4	이게	O	O	O, B-PS, B-LC, B-CV, B-OG
-5	곰	B-AM	B-AM	B-AM, O, B-CV, B-PS, B-PT
-6	##이	O	O	O, B-PS, I-PS, B-AM, I-CV
-7	겨울	B-DT	B-DT	B-DT, B-CV, O, B-TI, B-LC
-8	##밤	O	B-CV	B-CV, O, I-DT, B-TI, I-CV
-9	겨울	B-DT	B-DT	B-DT, O, I-DT, B-TI, B-CV
-10	겨울	B-DT	B-DT	B-DT, I-DT, O, B-CV, B-TI
-11	##잠	O	O	O, I-DT, B-TI, I-TI, B-CV
-12	자고	O	O	O, B-CV, I-TI, B-TI, I-DT
-13	나서	O	O	O, I-DT, B-PS, I-CV, B-CV
-14	제일	O	O	O, B-CV, B-QT, B-LC, B-TM
-15	처음	O	O	O, B-QT, B-CV, B-TM, I-QT
-16	먹	O	O	O, B-CV, I-QT, I-CV, B-TM
-17	##는	O	O	O, B-CV, I-CV, B-PS, I-QT
-18	채소	B-CV	O	O, B-CV, I-CV, B-TM, B-PT
-19	##랍니다	O	O	O, I-CV, I-OG, B-CV, I-QT
-20	.	O	O	O, B-CV, I-CV, B-PS, B-LC
-21	[SEP]	O	O	O, B-CV, I-CV, B-PS, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	현재	O	O
+2	실업자	O	B-CV
+3	##들의	O	O
+4	평균	O	O
+5	실직	O	O
+6	##기	O	O
+7	##간	O	O
+8	##은	O	O
+9	6	B-DT	B-DT
+10	##개	I-DT	I-DT
+11	##월	I-DT	I-DT
+12	##로	O	O
+13	1982	B-DT	B-DT
+14	##년	I-DT	I-DT
+15	##의	O	O
+16	4	B-DT	B-DT
+17	##개	I-DT	I-DT
+18	##월	I-DT	I-DT
+19	##보	O	O
+20	##다	O	O
+21	두	B-DT	B-DT
+22	달	I-DT	I-DT
+23	##이	O	O
+24	더	O	O
+25	길	O	O
+26	##다	O	O
+27	.	O	O
+28	[SEP]	O	O

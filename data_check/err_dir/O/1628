@@ -1,16 +1,21 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-QT
-1	또	O	O	O, B-CV, B-PS, B-TM, B-OG
-2	형	O	B-CV	B-CV, O, I-CV, B-PS, B-QT
-3	##님	O	I-CV	I-CV, O, B-CV, I-QT, I-PS
-4	같	O	O	O, I-CV, B-PS, I-OG, B-CV
-5	##은	O	O	O, B-PS, I-CV, B-CV, B-LC
-6	선생	B-CV	B-CV	B-CV, O, I-CV, B-QT, B-TM
-7	##님	I-CV	I-CV	I-CV, O, B-CV, I-QT, I-OG
-8	##을	O	O	O, I-CV, I-QT, I-OG, B-CV
-9	만나	O	O	O, B-CV, B-OG, B-TM, B-LC
-10	##봤	O	O	O, I-OG, B-CV, I-QT, B-OG
-11	##습	O	O	O, B-CV, I-OG, B-OG, B-LC
-12	##니다	O	O	O, B-CV, B-OG, B-LC, B-TM
-13	.	O	O	O, B-CV, B-LC, B-PS, B-OG
-14	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	한국	B-LC	B-LC
+2	형법	B-CV	B-CV
+3	198	B-QT	B-QT
+4	##조	I-QT	I-QT
+5	##는	O	O
+6	같	O	O
+7	##은	O	O
+8	범죄	O	O
+9	##를	O	O
+10	10	B-DT	B-DT
+11	##년	I-DT	I-DT
+12	이하	I-DT	I-DT
+13	##의	O	O
+14	징역	O	B-CV
+15	##으로	O	O
+16	처벌	O	O
+17	##한다	O	O
+18	.	O	O
+19	[SEP]	O	O

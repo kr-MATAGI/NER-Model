@@ -1,38 +1,19 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	그	O	O	O, B-CV, B-OG, B-PS, B-LC
-2	##는	O	O	O, B-CV, B-PS, B-OG, B-LC
-3	가	O	O	O, B-AF, B-PS, B-PT, B-AM
-4	##는	O	O	O, I-AF, B-AM, B-PS, I-LC
-5	나무	B-PT	O	O, B-PT, B-MT, B-CV, B-AM
-6	##막	O	O	O, I-PT, B-PT, I-MT, I-AM
-7	##대기	O	O	O, I-PT, B-PT, I-MT, I-CV
-8	##로	O	O	O, B-PS, B-CV, I-AF, I-CV
-9	틀	O	O	O, B-AF, B-CV, B-PT, B-TM
-10	##을	O	O	O, B-PS, I-AF, B-CV, I-CV
-11	만든	O	O	O, B-CV, B-PS, B-OG, B-LC
-12	뒤	O	O	O, B-TM, B-CV, B-PS, B-AM
-13	가	O	O	O, B-AM, B-PS, B-AF, B-CV
-14	##는	O	O	O, B-AM, B-PS, I-AF, I-PS
-15	색	O	O	O, B-AM, B-PT, B-CV, B-TM
-16	##천	O	O	O, I-AM, I-PT, I-CV, I-AF
-17	##을	O	O	O, B-PS, B-AM, I-CV, I-AF
-18	둘	O	O	O, B-QT, B-AM, B-PS, B-CV
-19	##둘	O	O	O, I-QT, B-QT, B-AM, I-LC
-20	말	O	O	O, I-QT, B-QT, B-AM, B-PS
-21	##아	O	O	O, I-QT, B-PS, B-QT, I-LC
-22	##서	O	O	O, I-QT, B-PS, B-LC, B-CV
-23	마치	O	O	O, B-CV, B-PS, B-AF, B-TM
-24	옷	O	O	O, B-CV, I-CV, B-AM, B-PS
-25	##처럼	O	O	O, B-CV, I-CV, B-PS, I-AF
-26	몸	B-AM	B-AM	B-AM, O, B-CV, B-PS, B-TM
-27	##에	O	O	O, I-CV, I-AF, I-QT, B-CV
-28	걸	O	O	O, B-CV, B-LC, B-TM, B-OG
-29	##칠	O	O	O, B-CV, I-AF, B-PS, I-CV
-30	수	O	O	O, B-CV, B-PS, B-LC, B-QT
-31	있	O	O	O, B-CV, B-PS, B-LC, I-AF
-32	##게	O	O	O, B-PS, B-CV, I-OG, B-QT
-33	했	O	O	O, B-CV, B-PS, B-OG, B-LC
-34	##다	O	O	O, B-CV, B-PS, I-OG, I-CV
-35	.	O	O	O, B-PS, B-CV, B-LC, I-AF
-36	[SEP]	O	O	O, B-CV, B-PS, I-AF, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	인삼	B-PT	B-CV
+2	##이	O	O
+3	##에	O	O
+4	##요	O	O
+5	.	O	O
+6	인삼	B-PT	B-CV
+7	##의	O	O
+8	학	O	O
+9	##명	O	O
+10	##이	O	O
+11	##에	O	O
+12	##요	O	O
+13	.	O	O
+14	신생	O	B-AM
+15	##이	O	O
+16	.	O	O
+17	[SEP]	O	O

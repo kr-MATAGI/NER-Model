@@ -1,40 +1,34 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	20	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-PS
-2	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-3	가까이	O	O	O, I-DT, B-PS, B-LC, B-DT
-4	행	B-LC	B-LC	B-LC, O, B-OG, B-AF, B-PS
-5	##당	I-LC	I-LC	I-LC, O, B-LC, I-PS, I-OG
-6	##동	I-LC	I-LC	I-LC, O, I-AF, I-PS, I-OG
-7	##에서	O	O	O, I-LC, B-CV, I-AF, I-OG
-8	마트	O	O	O, B-CV, B-TM, B-QT, I-CV
-9	##를	O	O	O, B-CV, B-PS, B-TM, B-QT
-10	하	O	O	O, B-PS, B-CV, B-QT, B-OG
-11	##는	O	O	O, B-PS, B-CV, B-QT, I-CV
-12	전	B-PS	B-PS	B-PS, O, I-PS, B-LC, B-OG
-13	##아	O	O	O, B-CV, I-PS, I-QT, I-CV
-14	##무	O	O	O, B-QT, B-CV, B-TM, B-PS
-15	##개	O	O	O, I-QT, B-PS, B-QT, I-CV
-16	(	O	O	O, B-CV, I-QT, B-PS, B-QT
-17	46	B-QT	B-QT	B-QT, O, I-QT, B-PS, B-DT
-18	)	O	O	O, I-QT, B-CV, I-OG, I-CV
-19	씨	O	O	O, B-CV, B-PS, B-TM, I-QT
-20	##는	O	O	O, B-CV, B-PS, I-CV, B-TM
-21	이마트	B-OG	B-OG	B-OG, B-LC, B-AF, B-PS, O
-22	##가	O	O	O, I-OG, B-CV, I-AF, B-PS
-23	입점	O	O	O, B-CV, B-TM, I-OG, I-CV
-24	##하면	O	O	O, B-CV, B-PS, I-CV, B-OG
-25	##서	O	O	O, B-CV, B-QT, B-PS, B-TM
-26	하루	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-LC
-27	매출	O	O	O, I-DT, B-CV, I-QT, B-TM
-28	##이	O	O	O, B-PS, B-CV, B-OG, B-TM
-29	반	O	B-QT	B-QT, O, I-QT, B-DT, B-TI
-30	##토	O	I-QT	I-QT, O, B-QT, I-DT, I-LC
-31	##막	O	I-QT	I-QT, O, I-TM, I-EV, I-LC
-32	났	O	O	O, I-QT, B-CV, I-TM, I-OG
-33	##다고	O	O	O, B-CV, I-QT, B-PS, B-QT
-34	말	O	O	O, B-CV, B-TM, I-CV, I-QT
-35	##했	O	O	O, B-CV, I-CV, B-PS, I-QT
-36	##다	O	O	O, B-CV, B-PS, I-CV, B-TM
-37	.	O	O	O, B-CV, B-PS, B-LC, B-OG
-38	[SEP]	O	O	O, B-CV, B-PS, B-LC, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	문화재청	O	B-OG
+2	##은	O	O
+3	조선	O	B-DT
+4	##왕	O	O
+5	##실	O	O
+6	도서	O	O
+7	##가	O	O
+8	무사	O	O
+9	귀환	O	O
+10	##했	O	O
+11	##음	O	O
+12	##을	O	O
+13	알리	O	O
+14	##는	O	O
+15	환수	O	O
+16	고유	O	O
+17	##제	O	O
+18	##를	O	O
+19	오	B-DT	B-DT
+20	##는	I-DT	I-DT
+21	13	I-DT	I-DT
+22	##일	I-DT	I-DT
+23	오전	B-TI	B-TI
+24	11	I-TI	I-TI
+25	##시	I-TI	I-TI
+26	종묘	O	B-AF
+27	정전	O	I-AF
+28	##에	O	O
+29	##서	O	O
+30	연다	O	O
+31	.	O	O
+32	[SEP]	O	O

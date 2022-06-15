@@ -1,17 +1,8 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, I-OG, B-CV, I-AF
-1	우린	O	O	O, B-CV, B-LC, B-PS, B-DT
-2	저	O	O	O, B-CV, B-PS, B-LC, B-DT
-3	~	O	O	O, B-CV, I-CV, I-DT, B-PS
-4	추석	B-DT	B-DT	B-DT, O, B-CV, I-DT, B-QT
-5	때	I-DT	O	O, I-DT, I-CV, I-QT, B-CV
-6	토	B-CV	B-CV	B-CV, O, I-CV, B-AF, B-TM
-7	##란	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-AF
-8	##탕	I-CV	I-CV	I-CV, O, I-OG, B-CV, I-AF
-9	토	B-CV	B-CV	B-CV, I-CV, O, B-FD, B-AF
-10	##란	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-AF
-11	##국	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-AF
-12	끓이	O	O	O, I-CV, B-CV, I-OG, I-AF
-13	##실	O	O	O, I-CV, I-OG, B-CV, B-OG
-14	때	O	O	O, B-CV, I-CV, B-PS, B-OG
-15	[SEP]	O	O	O, B-CV, I-CV, B-LC, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	봄	B-DT	B-CV
+2	##부	B-CV	I-CV
+3	##추	I-CV	I-CV
+4	##죠	O	O
+5	.	O	O
+6	[SEP]	O	O

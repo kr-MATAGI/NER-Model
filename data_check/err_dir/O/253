@@ -1,42 +1,32 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-EV, I-OG, B-CV, I-CV
-1	영국	B-LC	B-LC	B-LC, O, B-OG, B-PS, B-AF
-2	일간	O	O	O, B-OG, B-CV, I-OG, B-LC
-3	가디언	O	B-OG	B-OG, I-OG, B-AF, O, B-PS
-4	##은	O	O	O, I-OG, I-AF, I-EV, I-CV
-5	중국	B-LC	B-LC	B-LC, B-OG, O, B-AF, B-PS
-6	##의	O	O	O, I-LC, I-OG, B-LC, I-AF
-7	인터넷	O	O	O, B-TM, B-CV, B-LC, B-OG
-8	발전	O	O	O, B-LC, B-CV, B-PS, B-OG
-9	##으로	O	O	O, B-PS, B-OG, B-LC, B-CV
-10	당국	O	O	O, B-OG, B-CV, I-OG, B-PS
-11	##이	O	O	O, B-PS, I-OG, I-CV, B-LC
-12	예전	O	O	O, B-CV, B-LC, B-PS, B-OG
-13	##처럼	O	O	O, B-LC, B-CV, B-OG, B-PS
-14	사회	O	O	O, B-CV, B-PS, B-LC, B-FD
-15	##를	O	O	O, B-CV, B-LC, B-PS, B-OG
-16	통제	O	O	O, B-CV, B-LC, B-TM, B-OG
-17	##하기	O	O	O, B-CV, B-LC, B-PS, B-OG
-18	힘든	O	O	O, B-CV, B-LC, B-TM, B-OG
-19	상황	O	O	O, B-CV, B-LC, B-OG, B-TM
-20	##이	O	O	O, B-PS, B-CV, B-OG, B-LC
-21	됐	O	O	O, B-CV, B-LC, B-QT, B-PS
-22	##고	O	O	O, B-CV, I-EV, B-PS, B-LC
-23	이	O	O	O, B-CV, B-PS, B-LC, B-OG
-24	##는	O	O	O, B-CV, B-LC, B-PS, B-OG
-25	시위	O	O	O, B-EV, B-CV, I-EV, B-PS
-26	##가	O	O	O, I-EV, B-PS, B-LC, B-CV
-27	확산	O	O	O, B-CV, B-LC, I-EV, B-PS
-28	##되	O	O	O, B-LC, B-CV, B-PS, B-OG
-29	##기	O	O	O, B-LC, B-CV, B-PS, B-OG
-30	좋	O	O	O, B-LC, B-CV, B-TM, B-OG
-31	##은	O	O	O, B-LC, B-OG, B-PS, B-CV
-32	환경	O	O	O, B-CV, B-LC, B-TM, B-OG
-33	##을	O	O	O, B-CV, B-OG, B-TM, B-LC
-34	만들	O	O	O, B-CV, B-LC, B-QT, B-TM
-35	##었	O	O	O, B-CV, B-PS, B-LC, I-QT
-36	##다고	O	O	O, B-CV, I-OG, I-QT, B-LC
-37	전했	O	O	O, B-OG, B-CV, B-LC, B-TM
-38	##다	O	O	O, B-CV, I-OG, I-EV, B-LC
-39	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-40	[SEP]	O	O	O, B-CV, B-LC, I-EV, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	신용	O	B-CV
+2	##불	O	I-CV
+3	##량	O	I-CV
+4	##자	O	I-CV
+5	상태	O	O
+6	##에	O	O
+7	##서는	O	O
+8	금융	O	O
+9	##기	O	O
+10	##관	O	O
+11	대출	O	O
+12	##은	O	O
+13	물론	O	O
+14	정부	B-OG	B-OG
+15	과제	O	O
+16	등	O	O
+17	##에	O	O
+18	도전	O	O
+19	##할	O	O
+20	수	O	O
+21	있	O	O
+22	##는	O	O
+23	기회	O	O
+24	##가	O	O
+25	없	O	O
+26	##기	O	O
+27	때문	O	O
+28	##이다	O	O
+29	.	O	O
+30	[SEP]	O	O

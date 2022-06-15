@@ -1,16 +1,21 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	미국	B-LC	B-LC	B-LC, B-OG, O, B-CV, B-AF
-2	사회	O	O	O, I-OG, I-LC, I-FD, I-CV
-3	##에	O	O	O, I-OG, I-CV, I-LC, I-EV
-4	양당	O	O	O, B-QT, B-OG, B-DT, B-LC
-5	##간	O	O	O, I-QT, I-DT, I-OG, B-LC
-6	##에	O	O	O, I-QT, I-OG, I-DT, B-LC
-7	또	O	O	O, B-LC, B-CV, B-OG, B-QT
-8	미국	B-LC	B-LC	B-LC, B-OG, O, B-CV, B-PS
-9	그	O	O	O, I-LC, B-CV, I-OG, I-AF
-10	유권자	O	B-CV	B-CV, O, B-OG, I-CV, B-PS
-11	##들	O	O	O, I-CV, I-OG, I-EV, I-AF
-12	사이	O	O	O, B-LC, B-CV, B-TM, B-DT
-13	##에	O	O	O, B-OG, B-CV, B-LC, B-PS
-14	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-FD
+	text	label	preds
+0	[CLS]	O	O
+1	지방	O	O
+2	학생	O	B-CV
+3	,	O	O
+4	여성	O	O
+5	##인	O	O
+6	##력	O	O
+7	,	O	O
+8	장애인	O	B-CV
+9	등	O	O
+10	취약	O	O
+11	계층	O	O
+12	고용	O	O
+13	##을	O	O
+14	큰	O	O
+15	폭	O	O
+16	##으로	O	O
+17	늘린다	O	O
+18	.	O	O
+19	[SEP]	O	O

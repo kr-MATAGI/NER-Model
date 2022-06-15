@@ -1,10 +1,14 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, I-OG, B-CV, I-AF
-1	어	O	O	O, B-CV, B-TM, I-CV, B-OG
-2	~	O	O	O, I-CV, B-CV, I-OG, B-LC
-3	현역	B-CV	O	O, B-CV, B-OG, B-QT, B-FD
-4	##으로	O	O	O, I-CV, I-OG, I-QT, I-AF
-5	다	O	O	O, B-CV, B-QT, B-PS, B-OG
-6	보냈	O	O	O, B-CV, B-PS, I-CV, B-OG
-7	##는데	O	O	O, B-CV, I-CV, I-OG, I-AF
-8	[SEP]	O	O	O, B-CV, B-LC, B-PS, I-CV
+	text	label	preds
+0	[CLS]	O	O
+1	예	O	O
+2	구성	O	O
+3	##이	O	O
+4	돼	O	O
+5	있	O	O
+6	##는데	O	O
+7	그	O	O
+8	~	O	O
+9	공익	O	B-CV
+10	위원	B-CV	I-CV
+11	##은	O	O
+12	[SEP]	O	O

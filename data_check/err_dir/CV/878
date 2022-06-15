@@ -1,21 +1,5 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	환급	B-CV	O	O, B-CV, I-CV, B-TM, B-AF
-2	##가	I-CV	O	O, I-CV, B-CV, I-AF, I-TM
-3	##산	I-CV	O	O, I-CV, B-CV, I-TM, I-OG
-4	##금	I-CV	O	O, I-CV, B-CV, I-TM, I-OG
-5	##이	O	O	O, I-CV, B-PS, B-CV, I-AF
-6	늘어난	O	O	O, B-CV, B-TM, B-OG, B-LC
-7	것	O	O	O, B-CV, B-TM, B-OG, I-OG
-8	##은	O	O	O, B-CV, B-OG, B-TM, B-PS
-9	잘못	O	O	O, B-CV, B-PS, B-TM, B-QT
-10	거둔	O	O	O, B-CV, B-PS, B-TM, I-CV
-11	세금	O	O	O, B-CV, I-CV, B-PS, B-TM
-12	##이	O	O	O, B-PS, I-CV, B-CV, B-OG
-13	많	O	O	O, B-CV, B-TM, B-OG, B-LC
-14	##았	O	O	O, B-CV, I-CV, B-PS, B-OG
-15	##기	O	O	O, B-CV, I-CV, I-AF, B-PS
-16	때문	O	O	O, B-CV, B-PS, B-TM, B-QT
-17	##이다	O	O	O, B-CV, I-CV, B-TM, I-OG
-18	.	O	O	O, B-CV, B-PS, B-TM, B-LC
-19	[SEP]	O	O	O, B-CV, I-AF, B-TM, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	국조	B-CV	O
+2	증인	B-CV	B-CV
+3	[SEP]	O	O

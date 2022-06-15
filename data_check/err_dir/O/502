@@ -1,42 +1,46 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	실제로	O	O	O, B-OG, B-CV, B-LC, B-TM
-2	일본	B-LC	B-LC	B-LC, B-OG, O, B-PS, B-AF
-3	##의	O	O	O, I-LC, I-OG, B-LC, I-AF
-4	대표	O	O	O, B-OG, B-LC, B-CV, B-PS
-5	##적	O	O	O, B-PS, B-LC, I-OG, I-PS
-6	자동차	B-AF	B-AF	B-AF, O, B-OG, I-AF, B-LC
-7	제조사	O	O	O, B-CV, I-OG, B-OG, I-AF
-8	##인	O	O	O, I-OG, I-CV, B-PS, B-CV
-9	도요타	B-OG	B-OG	B-OG, O, I-OG, B-PS, B-AF
-10	##와	O	O	O, I-OG, B-OG, I-AF, I-PS
-11	혼다	O	B-OG	B-OG, O, I-OG, B-AF, B-PS
-12	##도	O	O	O, I-OG, I-AF, B-CV, I-CV
-13	이곳	O	O	O, B-LC, B-AF, B-TM, B-CV
-14	시설	O	O	O, B-LC, B-AF, B-CV, B-MT
-15	##을	O	O	O, B-LC, B-CV, B-PS, B-AF
-16	이용해	O	O	O, B-LC, B-AF, B-OG, B-TM
-17	희	B-MT	B-MT	B-MT, O, I-MT, B-CV, B-TM
-18	##토	I-MT	I-MT	I-MT, O, B-MT, I-TM, I-PT
-19	##류	I-MT	I-MT	I-MT, O, I-TM, B-MT, I-PT
-20	금속	O	B-MT	B-MT, I-MT, O, I-TM, B-TM
-21	사용량	O	O	O, B-CV, B-TM, I-MT, B-MT
-22	##을	O	O	O, B-CV, B-TM, B-QT, B-OG
-23	10	B-QT	B-QT	B-QT, I-QT, O, B-DT, B-TI
-24	##분	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-25	##의	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-26	1	I-QT	I-QT	I-QT, B-QT, O, I-LC, I-PS
-27	##까	O	O	O, I-QT, B-CV, B-TM, I-OG
-28	##지	O	O	O, B-QT, I-QT, B-CV, B-TM
-29	줄인	O	O	O, B-QT, B-CV, B-TM, B-DT
-30	신형	O	O	O, B-TM, B-AF, B-CV, B-LC
-31	전기	O	O	O, B-TM, B-AF, I-TM, I-AF
-32	##엔	O	O	O, I-TM, I-AF, B-TM, B-AF
-33	##진	O	O	O, I-TM, I-AF, B-AF, B-TM
-34	소재	O	O	O, B-MT, B-CV, I-TM, I-AF
-35	##를	O	O	O, B-CV, B-LC, B-OG, I-AF
-36	개발	O	O	O, B-CV, B-LC, B-TM, B-OG
-37	중	O	O	O, B-LC, B-PS, B-OG, B-TM
-38	##이다	O	O	O, B-CV, B-TM, I-OG, B-LC
-39	.	O	O	O, B-LC, B-OG, B-AF, B-CV
-40	[SEP]	O	O	O, B-LC, B-CV, B-TM, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	홍콩	B-LC	B-LC
+2	##의	O	O
+3	인권	O	B-CV
+4	##단체	O	O
+5	회원	B-CV	B-CV
+6	수십	O	O
+7	##명	O	O
+8	##은	O	O
+9	25	B-DT	B-DT
+10	##일	I-DT	I-DT
+11	폭스	B-OG	B-OG
+12	##콘	I-OG	I-OG
+13	지사	O	O
+14	앞	B-TM	B-TM
+15	##에	O	O
+16	##서	O	O
+17	“	O	O
+18	폭스	B-OG	B-OG
+19	##콘	I-OG	I-OG
+20	##에	O	O
+21	##는	O	O
+22	양심	O	O
+23	##이	O	O
+24	없	O	O
+25	##다	O	O
+26	”	O	O
+27	“	O	O
+28	자살	O	O
+29	##은	O	O
+30	우발	O	O
+31	##적	O	O
+32	사고	O	O
+33	##가	O	O
+34	아니	O	O
+35	##다	O	O
+36	”	O	O
+37	라며	O	O
+38	항의	O	O
+39	##시위	O	O
+40	##를	O	O
+41	벌였	O	O
+42	##다	O	O
+43	.	O	O
+44	[SEP]	O	O

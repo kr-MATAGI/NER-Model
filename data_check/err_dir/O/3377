@@ -1,45 +1,55 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	이	O	O	O, B-PS, B-OG, B-CV, B-LC
-2	##에	O	O	O, B-PS, B-CV, B-OG, B-LC
-3	한	B-QT	B-QT	B-QT, O, B-PS, B-TI, B-LC
-4	##분	I-QT	I-QT	I-QT, O, I-PS, I-LC, I-TI
-5	##이	O	B-PS	B-PS, O, I-PS, I-QT, B-LC
-6	할머니	B-CV	B-CV	B-CV, O, I-PS, I-CV, I-QT
-7	##를	O	O	O, I-CV, B-CV, I-QT, I-AF
-8	동행	O	O	O, B-CV, B-OG, B-QT, B-PS
-9	##했	O	O	O, B-PS, B-OG, B-CV, B-LC
-10	##던	O	O	O, B-PS, B-OG, B-CV, I-OG
-11	방송사	O	O	O, B-OG, B-CV, I-OG, B-PS
-12	피디	B-CV	B-CV	B-CV, O, B-PS, B-OG, B-AF
-13	(	O	O	O, I-CV, I-OG, B-CV, I-AF
-14	신안	B-PS	B-PS	B-PS, B-LC, B-OG, O, B-AF
-15	##진	I-PS	I-PS	I-PS, I-OG, I-LC, O, I-AF
-16	)	O	O	O, I-PS, I-OG, I-AF, B-CV
-17	는	O	O	O, B-CV, B-OG, B-LC, B-PS
-18	렌	B-PS	B-PS	B-PS, O, B-LC, I-PS, B-OG
-19	할머니	B-CV	B-CV	B-CV, O, I-PS, I-CV, B-TM
-20	##가	O	O	O, B-PS, I-CV, I-PS, B-CV
-21	거짓말	O	O	O, B-TM, B-CV, B-PS, B-LC
-22	##을	O	O	O, B-PS, B-CV, B-OG, I-PS
-23	하고	O	O	O, B-PS, B-CV, I-PS, B-QT
-24	있	O	O	O, B-PS, B-CV, I-PS, B-LC
-25	##다고	O	O	O, B-PS, B-CV, I-PS, B-OG
-26	의심	O	O	O, B-CV, B-PS, B-TM, B-LC
-27	##하면	O	O	O, B-PS, B-CV, B-LC, I-CV
-28	##서	O	O	O, B-CV, B-PS, B-LC, B-OG
-29	아직	O	O	O, B-PS, B-LC, B-CV, B-QT
-30	남아	O	O	O, B-QT, B-LC, B-CV, B-TM
-31	있	O	O	O, B-PS, B-LC, B-CV, B-QT
-32	##는	O	O	O, B-LC, B-PS, B-CV, B-TM
-33	위안	O	O	O, B-CV, B-AF, B-LC, B-TM
-34	##소	O	O	O, I-AF, I-CV, I-LC, I-TM
-35	현장	O	O	O, I-AF, B-LC, B-PS, I-CV
-36	##에	O	O	O, B-CV, B-PS, B-OG, B-LC
-37	두	B-QT	B-QT	B-QT, O, I-QT, B-CV, B-PS
-38	할머니	I-QT	I-QT	I-QT, O, I-CV, I-PS, B-CV
-39	##를	O	O	O, I-QT, I-CV, B-CV, I-OG
-40	데려	O	O	O, B-CV, B-OG, B-TM, B-LC
-41	##간다	O	O	O, B-CV, B-LC, B-OG, B-PS
-42	.	O	O	O, B-PS, B-LC, B-CV, B-OG
-43	[SEP]	O	O	O, B-CV, B-PS, B-LC, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	현행	O	O
+2	형법	B-CV	B-CV
+3	##은	O	O
+4	하나	O	B-QT
+5	##의	O	O
+6	행위	O	O
+7	##가	O	O
+8	여러	O	O
+9	개의	O	O
+10	죄	O	O
+11	##에	O	O
+12	해당	O	O
+13	##되	O	O
+14	##면	O	O
+15	가장	O	O
+16	중	O	O
+17	##한	O	O
+18	죄	O	O
+19	##에	O	O
+20	맞춰	O	O
+21	처벌	O	O
+22	##하	O	O
+23	##도록	O	O
+24	되	O	O
+25	##어	O	O
+26	있	O	O
+27	##고	O	O
+28	가중	O	O
+29	##처	O	O
+30	##벌	O	O
+31	##도	O	O
+32	제한	O	O
+33	##이	O	O
+34	있	O	O
+35	##어	O	O
+36	세월	B-AF	B-AF
+37	##호	I-AF	I-AF
+38	이준석	B-PS	B-PS
+39	선장	B-CV	B-CV
+40	##의	O	O
+41	경우	O	O
+42	유기	B-CV	B-CV
+43	##징	I-CV	I-CV
+44	##역	I-CV	I-CV
+45	##의	O	O
+46	경우	O	O
+47	45	B-DT	B-DT
+48	##년	I-DT	I-DT
+49	##이	O	O
+50	최대치	O	O
+51	##다	O	O
+52	.	O	O
+53	[SEP]	O	O

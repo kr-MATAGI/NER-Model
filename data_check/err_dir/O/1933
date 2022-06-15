@@ -1,32 +1,44 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	나리	B-PS	B-OG	B-OG, B-PS, B-LC, O, B-AF
-2	##스	I-PS	I-OG	I-OG, O, I-LC, I-PS, I-AF
-3	##는	O	O	O, I-OG, I-AF, I-PS, I-LC
-4	""""	O	O	O, B-CV, B-LC, I-OG, B-OG
-5	우리	O	O	O, B-OG, B-AF, B-CV, B-PS
-6	##는	O	O	O, I-OG, B-CV, I-AF, I-CV
-7	화장품	O	O	O, B-CV, B-LC, B-FD, B-AF
-8	##이	O	O	O, B-PS, B-CV, B-OG, B-LC
-9	아니	O	O	O, B-CV, B-LC, B-OG, B-PS
-10	##라	O	O	O, B-LC, B-CV, B-OG, B-PS
-11	자연	O	O	O, B-LC, B-CV, B-FD, B-TM
-12	친화	O	O	O, B-LC, B-CV, B-PS, I-OG
-13	##적인	O	O	O, B-LC, B-PS, B-CV, B-OG
-14	핀란드	O	B-LC	B-LC, O, B-OG, I-LC, B-PS
-15	##의	O	O	O, I-LC, B-LC, I-AF, I-OG
-16	헤	O	O	O, B-CV, B-LC, B-AF, B-FD
-17	##리티	O	O	O, I-AF, I-CV, I-LC, B-LC
-18	##지	O	O	O, I-AF, I-LC, I-CV, I-OG
-19	(	O	O	O, B-CV, I-AF, B-LC, I-CV
-20	유산	O	O	O, B-CV, B-LC, B-AF, B-FD
-21	)	O	O	O, B-CV, I-AF, I-CV, B-PS
-22	를	O	O	O, B-CV, B-LC, B-OG, B-PS
-23	판매	O	O	O, B-CV, B-LC, B-OG, B-TM
-24	##한다	O	O	O, B-OG, I-OG, B-LC, B-PS
-25	""""	O	O	O, B-CV, I-OG, B-OG, B-LC
-26	고	O	O	O, B-OG, B-CV, I-OG, B-PS
-27	했	O	O	O, B-OG, B-CV, B-PS, B-TM
-28	##다	O	O	O, I-OG, B-CV, B-OG, B-PS
-29	.	O	O	O, B-LC, B-CV, B-OG, B-PS
-30	[SEP]	O	O	O, B-LC, B-CV, B-OG, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	<	O	O
+2	유	B-OG	B-OG
+3	##에스	I-OG	I-OG
+4	##에이	I-OG	I-OG
+5	##투	I-OG	I-OG
+6	##데이	I-OG	I-OG
+7	>	O	O
+8	(	O	O
+9	USA	O	O
+10	To	O	O
+11	##day	O	O
+12	)	O	O
+13	등	O	O
+14	현지	O	O
+15	언론	O	O
+16	##은	O	O
+17	12	B-DT	B-DT
+18	##일	I-DT	I-DT
+19	(	O	O
+20	현지	O	O
+21	##시	O	O
+22	##각	O	O
+23	)	O	O
+24	캘리포니아	B-LC	B-LC
+25	##의	O	O
+26	선구	O	O
+27	##적	O	O
+28	##인	O	O
+29	트랜스	B-CV	B-CV
+30	##젠	I-CV	I-CV
+31	##더	I-CV	I-CV
+32	학생	B-CV	I-CV
+33	보호법	O	I-CV
+34	##을	O	O
+35	둘러싼	O	O
+36	논란	O	O
+37	##을	O	O
+38	보도	O	O
+39	##했	O	O
+40	##다	O	O
+41	.	O	O
+42	[SEP]	O	O

@@ -1,14 +1,14 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-EV, I-CV, B-CV
-1	◇	O	O	O, B-LC, B-OG, B-CV, B-PS
-2	日	B-OG	B-OG	B-OG, B-LC, O, B-TM, B-CV
-3	,	O	O	O, I-OG, I-LC, B-OG, B-LC
-4	미국	B-LC	B-OG	B-OG, B-LC, O, I-OG, B-PS
-5	##도	O	O	O, I-OG, I-LC, I-AF, B-LC
-6	아베	B-CV	B-CV	B-CV, O, B-AF, B-OG, B-PS
-7	##노	I-CV	I-CV	I-CV, O, I-OG, B-CV, I-AF
-8	##믹	I-CV	I-CV	I-CV, O, I-OG, I-AF, B-CV
-9	##스	I-CV	I-CV	I-CV, O, I-OG, I-AF, I-EV
-10	용인	O	O	O, I-CV, I-OG, I-AF, B-CV
-11	주장	O	O	O, B-CV, B-LC, I-CV, B-OG
-12	[SEP]	O	O	O, B-LC, B-OG, B-CV, B-AF
+	text	label	preds
+0	[CLS]	O	O
+1	그	O	O
+2	친구	B-CV	B-CV
+3	##가	O	O
+4	아직	O	O
+5	##까	O	O
+6	##지	O	O
+7	지금	O	O
+8	한국	B-LC	B-OG
+9	노총	B-OG	I-OG
+10	##에	O	O
+11	##서	O	O
+12	[SEP]	O	O

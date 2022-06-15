@@ -1,32 +1,30 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	고인	B-CV	O	O, B-CV, I-CV, B-PS, B-AF
-2	##의	O	O	O, I-CV, B-PS, I-AF, B-CV
-3	유족	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-PS
-4	##과	O	O	O, I-CV, I-OG, B-CV, I-AF
-5	지인	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-OG
-6	##들	O	O	O, I-CV, I-OG, I-AF, B-CV
-7	##은	O	O	O, B-CV, B-LC, B-PS, B-TM
-8	납	O	O	O, B-AF, B-CV, B-LC, B-MT
-9	##골	O	O	O, I-AF, I-LC, I-CV, I-OG
-10	##함	O	O	O, I-AF, I-LC, I-CV, I-OG
-11	##을	O	O	O, I-AF, B-CV, B-LC, B-PS
-12	모신	O	O	O, B-AF, B-LC, B-CV, B-PS
-13	뒤	O	O	O, B-TM, B-LC, B-CV, B-AF
-14	성수	O	O	O, B-MT, B-PT, I-MT, B-CV
-15	##를	O	O	O, I-AF, I-CV, B-CV, I-EV
-16	뿌리	O	O	O, B-PT, B-MT, B-CV, B-PS
-17	##고	O	O	O, B-CV, I-AF, B-PS, B-LC
-18	붉	O	O	O, B-LC, B-CV, B-TM, B-MT
-19	##은	O	O	O, I-LC, I-AF, B-LC, I-CV
-20	흙	O	O	O, B-MT, B-LC, B-PT, I-LC
-21	##을	O	O	O, B-CV, I-AF, I-LC, B-LC
-22	덮	O	O	O, B-CV, B-LC, B-PS, B-TM
-23	##으며	O	O	O, B-LC, B-PS, B-CV, B-TM
-24	눈시울	O	O	O, B-CV, B-LC, B-TM, B-PS
-25	##을	O	O	O, B-CV, I-AF, I-CV, I-OG
-26	붉	O	O	O, B-CV, B-LC, B-PS, B-TM
-27	##혔	O	O	O, B-CV, B-LC, B-PS, I-AF
-28	##다	O	O	O, B-CV, B-LC, I-CV, I-EV
-29	.	O	O	O, B-LC, B-PS, B-CV, I-AF
-30	[SEP]	O	O	O, B-CV, B-LC, I-AF, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	윤	B-PS	B-PS
+2	##덕	I-PS	I-PS
+3	##여	I-PS	I-PS
+4	감독	B-CV	B-CV
+5	##은	O	O
+6	""""	O	O
+7	도전자	B-CV	O
+8	입장	O	O
+9	##에	O	O
+10	##서	O	O
+11	16	B-EV	B-EV
+12	##강	I-EV	I-EV
+13	##을	O	O
+14	넘어	O	O
+15	8	B-EV	B-EV
+16	##강	I-EV	I-EV
+17	진출	O	O
+18	##까	O	O
+19	##지	O	O
+20	노려보	O	O
+21	##겠다	O	O
+22	""""	O	O
+23	고	O	O
+24	말	O	O
+25	##했	O	O
+26	##다	O	O
+27	.	O	O
+28	[SEP]	O	O

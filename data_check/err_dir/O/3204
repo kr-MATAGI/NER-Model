@@ -1,14 +1,36 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	'	O	O	O, B-LC, B-CV, B-EV, B-DT
-2	청와대	B-OG	B-OG	B-OG, B-AF, B-EV, O, B-LC
-3	문건	O	O	O, I-EV, I-AF, I-OG, B-EV
-4	유출	O	O	O, I-EV, I-AF, I-TM, I-CV
-5	'	O	O	O, I-EV, B-PS, B-LC, B-CV
-6	출구	O	O	O, B-LC, B-TM, B-CV, B-PS
-7	##전	O	O	O, B-LC, B-CV, B-PS, I-LC
-8	##략	O	O	O, B-LC, I-LC, B-PS, I-CV
-9	찾	O	O	O, B-CV, B-LC, B-TM, B-OG
-10	##는	O	O	O, B-LC, B-OG, B-PS, B-TM
-11	검찰	O	B-OG	B-OG, B-AF, O, B-CV, B-EV
-12	[SEP]	O	O	O, I-OG, I-EV, I-AF, B-CV
+	text	label	preds
+0	[CLS]	O	O
+1	19	B-QT	B-QT
+2	##대	I-QT	I-QT
+3	대통령	B-EV	B-EV
+4	##선거	I-EV	I-EV
+5	선거	O	B-EV
+6	##운동	O	I-EV
+7	마지막	B-DT	B-DT
+8	##날	I-DT	I-DT
+9	##인	O	O
+10	8	B-DT	B-DT
+11	##일	I-DT	I-DT
+12	낮	B-TI	B-TI
+13	안철수	B-PS	B-PS
+14	국민	B-OG	B-OG
+15	##의	I-OG	I-OG
+16	##당	I-OG	I-OG
+17	후보	B-CV	B-CV
+18	##는	O	O
+19	서울	B-LC	B-LC
+20	광화문	B-LC	B-LC
+21	##광장	I-LC	I-LC
+22	유세	O	O
+23	##에	O	O
+24	##서	O	O
+25	“	O	O
+26	국민	B-CV	B-CV
+27	##의	O	O
+28	손	B-AM	B-AM
+29	##으로	O	O
+30	기적	O	O
+31	##이	O	O
+32	일어난다	O	O
+33	.	O	O
+34	[SEP]	O	O

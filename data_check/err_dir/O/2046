@@ -1,30 +1,20 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	새만금	B-LC	B-TM	B-TM, B-LC, B-OG, B-AF, O
-2	사업	O	I-TM	I-TM, I-LC, O, I-OG, I-AF
-3	##지구	O	I-LC	I-LC, O, I-TM, I-OG, B-LC
-4	##인	O	O	O, I-LC, I-TM, I-AF, B-LC
-5	전북	B-LC	B-LC	B-LC, B-OG, O, B-AF, B-PS
-6	군산	B-LC	B-LC	B-LC, B-OG, I-LC, O, B-AF
-7	##시	I-LC	I-LC	I-LC, O, I-OG, B-LC, I-AF
-8	야	B-LC	B-LC	B-LC, B-AF, O, I-LC, B-OG
-9	##미	I-LC	I-LC	I-LC, I-AF, O, B-LC, I-OG
-10	##도	I-LC	I-LC	I-LC, I-AF, O, B-LC, I-OG
-11	앞	O	B-TM	B-TM, O, I-LC, I-TM, B-LC
-12	바다	O	O	O, B-LC, I-LC, I-AF, I-TM
-13	##에서	O	O	O, B-LC, I-AF, I-LC, B-CV
-14	고려	B-AF	B-FD	B-FD, B-AF, O, B-LC, B-CV
-15	청자	I-AF	I-AF	I-AF, O, I-FD, I-CV, B-CV
-16	##를	O	O	O, I-AF, I-CV, I-OG, I-FD
-17	비롯	O	O	O, B-CV, B-TM, B-LC, B-OG
-18	##한	O	O	O, B-LC, B-OG, B-PS, B-CV
-19	각종	O	O	O, B-CV, B-LC, B-TM, B-QT
-20	옛	O	O	O, B-CV, B-AF, B-DT, B-LC
-21	도자기	O	O	O, B-CV, B-AF, I-AF, I-CV
-22	##들이	O	O	O, I-CV, I-AF, B-CV, I-QT
-23	무더기	O	O	O, B-LC, B-CV, B-TM, B-QT
-24	##로	O	O	O, B-LC, B-CV, B-OG, B-TM
-25	나왔	O	O	O, B-CV, B-LC, B-TM, B-OG
-26	##다	O	O	O, B-LC, B-CV, I-AF, B-TM
-27	.	O	O	O, B-LC, B-CV, B-AF, B-OG
-28	[SEP]	O	O	O, B-LC, B-CV, I-LC, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	삶	O	O
+2	##과	O	O
+3	죽음	O	O
+4	##에	O	O
+5	대한	O	O
+6	고	O	B-PS
+7	##갱	O	I-PS
+8	##의	O	O
+9	처절	O	O
+10	##한	O	O
+11	고뇌	O	O
+12	##가	O	O
+13	전해	O	O
+14	##지기	O	O
+15	때문	O	O
+16	##이다	O	O
+17	.	O	O
+18	[SEP]	O	O

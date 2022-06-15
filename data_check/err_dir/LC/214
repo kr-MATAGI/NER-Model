@@ -1,29 +1,25 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, B-CV, I-OG, I-AF
-1	“	O	O	O, B-PS, B-CV, B-LC, B-FD
-2	고향	O	O	O, B-LC, B-CV, B-PS, B-FD
-3	##을	O	O	O, B-PS, B-CV, I-CV, I-LC
-4	떠나	O	O	O, B-PS, B-CV, B-LC, B-AF
-5	서울	B-LC	B-LC	B-LC, O, B-OG, B-AF, B-PS
-6	강남	B-LC	B-AF	B-AF, B-LC, O, B-OG, B-PS
-7	하우스	O	I-AF	I-AF, O, I-OG, I-LC, I-PS
-8	##에	O	O	O, I-AF, I-OG, I-LC, I-PS
-9	입성	O	O	O, B-CV, B-PS, I-AF, B-LC
-10	##한	O	O	O, B-PS, B-LC, B-CV, B-AF
-11	대	O	O	O, B-PS, I-PS, B-LC, B-CV
-12	##길	O	O	O, I-PS, B-PS, I-AF, I-LC
-13	##이	O	O	O, B-PS, I-PS, B-LC, B-CV
-14	달라지	O	O	O, B-PS, I-PS, B-CV, B-LC
-15	##는	O	O	O, B-PS, I-PS, B-CV, B-LC
-16	모습	O	O	O, B-PS, B-CV, I-PS, B-LC
-17	##을	O	O	O, B-PS, B-CV, I-PS, B-LC
-18	연기	O	O	O, B-CV, B-FD, B-PS, B-LC
-19	##할	O	O	O, B-PS, B-CV, I-CV, I-PS
-20	땐	O	O	O, B-CV, B-PS, B-LC, I-CV
-21	정말	O	O	O, B-CV, B-TM, B-PS, B-OG
-22	신나	O	O	O, B-CV, B-PS, B-LC, B-AF
-23	##더라	O	O	O, B-PS, I-CV, B-CV, I-OG
-24	##고	O	O	O, B-PS, I-CV, I-PS, B-CV
-25	##요	O	O	O, B-PS, I-PS, I-CV, B-CV
-26	.	O	O	O, B-PS, B-CV, B-LC, I-PS
-27	[SEP]	O	O	O, B-PS, B-CV, B-LC, B-FD
+	text	label	preds
+0	[CLS]	O	O
+1	한국	B-LC	B-OG
+2	##은	O	O
+3	3	B-QT	B-QT
+4	##승	I-QT	I-QT
+5	1	I-QT	I-QT
+6	##무	I-QT	I-QT
+7	3	I-QT	I-QT
+8	##패	I-QT	I-QT
+9	(	O	O
+10	승점	O	B-QT
+11	10	B-QT	I-QT
+12	)	O	O
+13	로	O	O
+14	A	O	O
+15	##조	O	O
+16	2	B-QT	B-QT
+17	##위	I-QT	I-QT
+18	##에	O	O
+19	올라	O	O
+20	있	O	O
+21	##다	O	O
+22	.	O	O
+23	[SEP]	O	O

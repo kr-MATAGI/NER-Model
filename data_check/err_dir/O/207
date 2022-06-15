@@ -1,24 +1,57 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-EV, I-QT
-1	1	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-2	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-3	동안	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-4	이곳	O	O	O, I-DT, B-CV, B-LC, B-PS
-5	##에서	O	O	O, B-CV, B-PS, B-LC, B-QT
-6	일	O	O	O, B-CV, B-PS, B-LC, B-OG
-7	##하	O	O	O, B-PS, B-CV, B-OG, B-LC
-8	##던	O	O	O, B-CV, B-PS, B-OG, B-LC
-9	그	O	O	O, B-CV, B-PS, B-OG, B-LC
-10	##는	O	O	O, B-CV, B-LC, B-PS, B-OG
-11	한인	B-CV	B-AF	B-AF, O, B-OG, B-CV, B-LC
-12	##센터	O	I-AF	I-AF, O, I-OG, I-EV, I-CV
-13	맞은편	O	O	O, B-TM, I-TM, B-QT, I-AF
-14	전화	B-OG	O	O, B-TM, B-CV, B-OG, B-LC
-15	##국	I-OG	O	O, I-OG, I-CV, I-TM, I-LC
-16	##에서	O	O	O, I-OG, B-PS, B-CV, I-CV
-17	일	O	O	O, B-CV, B-TM, B-LC, B-OG
-18	##하	O	O	O, B-PS, B-CV, B-OG, B-LC
-19	##게	O	O	O, B-PS, B-CV, B-OG, B-QT
-20	된다	O	O	O, B-CV, B-QT, I-OG, I-QT
-21	.	O	O	O, B-PS, B-LC, B-CV, B-OG
-22	[SEP]	O	O	O, B-CV, B-PS, B-LC, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	또	O	O
+2	다른	O	O
+3	‘	O	O
+4	신	B-PS	B-PS
+5	(	O	O
+6	치	O	B-PS
+7	##용	O	I-PS
+8	)	O	O
+9	의	O	O
+10	남자	O	O
+11	’	O	O
+12	끼리	O	O
+13	맞붙	O	O
+14	##은	O	O
+15	이날	B-DT	B-DT
+16	마지막	O	O
+17	경기	O	O
+18	##에	O	O
+19	##서는	O	O
+20	신영	B-PS	B-PS
+21	##철	I-PS	I-PS
+22	##의	O	O
+23	한국전력	B-OG	B-OG
+24	##이	O	O
+25	최태	B-PS	B-PS
+26	##웅	I-PS	I-PS
+27	##의	O	O
+28	현대캐피탈	B-OG	B-OG
+29	##에	O	O
+30	3	B-QT	B-QT
+31	-	I-QT	I-QT
+32	1	I-QT	I-QT
+33	(	O	O
+34	25	B-QT	B-QT
+35	-	I-QT	I-QT
+36	22	I-QT	I-QT
+37	,	O	O
+38	23	B-QT	B-QT
+39	-	I-QT	I-QT
+40	25	I-QT	I-QT
+41	,	O	O
+42	25	B-QT	B-QT
+43	-	I-QT	I-QT
+44	15	I-QT	I-QT
+45	,	O	O
+46	25	B-QT	B-QT
+47	-	I-QT	I-QT
+48	23	I-QT	I-QT
+49	)	O	O
+50	승리	O	O
+51	##를	O	O
+52	거뒀	O	O
+53	##다	O	O
+54	.	O	O
+55	[SEP]	O	O

@@ -1,35 +1,45 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-EV, I-CV
-1	지방	B-OG	B-OG	B-OG, O, B-CV, B-EV, B-LC
-2	##의회	I-OG	I-OG	I-OG, O, B-OG, I-CV, I-EV
-3	##가	O	O	O, I-OG, B-PS, I-EV, I-CV
-4	자신	O	O	O, B-CV, B-LC, B-PS, B-OG
-5	##의	O	O	O, B-PS, B-LC, B-OG, B-CV
-6	존재감	O	O	O, B-CV, B-LC, B-OG, B-EV
-7	##을	O	O	O, B-CV, B-LC, B-PS, B-OG
-8	가장	O	O	O, B-LC, B-CV, B-OG, B-PS
-9	두드러지	O	O	O, B-LC, B-CV, B-OG, B-PS
-10	##게	O	O	O, B-LC, B-OG, B-PS, B-CV
-11	알린	O	O	O, B-LC, B-CV, B-OG, B-PS
-12	것	O	O	O, B-LC, B-OG, B-PS, B-CV
-13	##은	O	O	O, B-LC, B-OG, B-PS, B-CV
-14	2011	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-15	##년	I-DT	I-DT	I-DT, O, I-PS, B-DT, I-QT
-16	오세훈	B-PS	B-PS	B-PS, O, I-PS, B-OG, B-LC
-17	당시	O	O	O, I-PS, B-CV, I-OG, B-LC
-18	서울시	O	O	O, B-LC, B-OG, B-EV, B-CV
-19	##장	O	O	O, I-LC, I-OG, B-LC, I-EV
-20	##과	O	O	O, I-OG, I-LC, B-LC, I-EV
-21	서울시	B-OG	B-OG	B-OG, O, B-LC, B-AF, I-OG
-22	##의회	I-OG	I-OG	I-OG, O, I-LC, B-OG, I-EV
-23	##의	O	O	O, I-OG, I-EV, B-LC, I-LC
-24	‘	O	O	O, B-LC, B-EV, B-CV, B-OG
-25	전면	O	B-CV	B-CV, O, B-AF, B-QT, B-TM
-26	무상급식	B-CV	B-CV	B-CV, I-CV, O, I-QT, B-OG
-27	’	O	O	O, I-CV, I-EV, I-OG, I-QT
-28	갈등	O	O	O, B-EV, B-LC, B-OG, B-CV
-29	##이	O	O	O, B-PS, B-OG, B-LC, I-EV
-30	##었	O	O	O, B-CV, B-OG, B-LC, B-PS
-31	##다	O	O	O, B-CV, B-LC, I-EV, I-OG
-32	.	O	O	O, B-LC, B-OG, B-CV, B-PS
-33	[SEP]	O	O	O, B-LC, B-CV, B-OG, I-EV
+	text	label	preds
+0	[CLS]	O	O
+1	재정부	B-OG	B-OG
+2	관계자	B-CV	B-CV
+3	##는	O	O
+4	“	O	O
+5	단시간	O	O
+6	근로자	B-CV	B-CV
+7	##에	O	O
+8	대한	O	O
+9	세액	O	B-CV
+10	##공	O	I-CV
+11	##제	O	I-CV
+12	혜택	O	O
+13	##으로	O	O
+14	유연	B-CV	B-CV
+15	##근무	I-CV	I-CV
+16	##제	I-CV	I-CV
+17	##가	O	O
+18	활성	O	O
+19	##화	O	O
+20	##되	O	O
+21	##면	O	O
+22	##서	O	O
+23	고용	O	O
+24	##을	O	O
+25	증대	O	O
+26	##시	O	O
+27	##키	O	O
+28	##는	O	O
+29	효과	O	O
+30	##가	O	O
+31	있	O	O
+32	##을	O	O
+33	것	O	O
+34	##으로	O	O
+35	기대	O	O
+36	##한다	O	O
+37	”	O	O
+38	고	O	O
+39	말	O	O
+40	##했	O	O
+41	##다	O	O
+42	.	O	O
+43	[SEP]	O	O

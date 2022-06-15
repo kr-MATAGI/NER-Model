@@ -1,24 +1,53 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-EV, I-CV
-1	중국	B-LC	B-LC	B-LC, O, B-OG, I-LC, B-AF
-2	시장	O	O	O, I-LC, B-LC, B-CV, I-CV
-3	도입	O	O	O, B-LC, B-CV, I-LC, B-OG
-4	##에	O	O	O, B-OG, B-LC, B-CV, B-PS
-5	앞서	O	O	O, B-OG, B-LC, B-CV, B-TM
-6	작년	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-7	6	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-8	##월	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-9	홍콩	B-LC	B-LC	B-LC, B-OG, O, B-AF, B-EV
-10	플래그	B-LC	O	O, B-CV, I-LC, B-LC, I-AF
-11	##십	I-LC	O	O, I-LC, I-CV, I-AF, I-OG
-12	매장	I-LC	O	O, B-LC, I-LC, I-AF, I-CV
-13	##에	O	O	O, B-LC, B-CV, I-AF, B-OG
-14	설화	B-OG	B-OG	B-OG, B-AF, O, B-PS, B-LC
-15	##수	I-OG	I-OG	I-OG, I-AF, O, I-EV, I-LC
-16	스파	O	I-OG	I-OG, I-AF, O, B-AF, B-OG
-17	##를	O	O	O, I-OG, I-AF, I-EV, I-CV
-18	열	O	O	O, B-OG, B-CV, B-LC, B-TM
-19	##었	O	O	O, B-CV, B-OG, B-LC, I-OG
-20	##다	O	O	O, B-CV, B-OG, B-LC, I-OG
-21	.	O	O	O, B-LC, B-OG, B-CV, B-PS
-22	[SEP]	O	O	O, B-LC, B-OG, B-CV, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	지난해	B-DT	B-DT
+2	##의	O	O
+3	이대호	B-PS	B-PS
+4	(	O	O
+5	오릭스	O	B-OG
+6	)	O	O
+7	만	O	O
+8	한	O	O
+9	초대	O	O
+10	##어	O	O
+11	##급	O	O
+12	##은	O	O
+13	아니	O	O
+14	##지만	O	O
+15	홍성	B-PS	B-PS
+16	##흔	I-PS	I-PS
+17	김주	B-PS	B-PS
+18	##찬	I-PS	I-PS
+19	이진	B-PS	B-PS
+20	##영	I-PS	I-PS
+21	정성	B-PS	B-PS
+22	##훈	I-PS	I-PS
+23	정현	B-PS	B-PS
+24	##욱	I-PS	I-PS
+25	등	O	O
+26	알짜	O	O
+27	##배기	O	O
+28	준	O	O
+29	##척	O	O
+30	##이	O	O
+31	많	O	O
+32	##아	O	O
+33	구단	O	O
+34	##과	O	O
+35	선수	B-CV	B-CV
+36	##들의	O	O
+37	힘	O	O
+38	##겨	O	O
+39	##루	O	O
+40	##기	O	O
+41	##가	O	O
+42	볼	O	O
+43	만	O	O
+44	##할	O	O
+45	것	O	O
+46	##으로	O	O
+47	전망	O	O
+48	##된	O	O
+49	##다	O	O
+50	.	O	O
+51	[SEP]	O	O

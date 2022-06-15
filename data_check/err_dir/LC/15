@@ -1,18 +1,42 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, I-OG, B-CV, I-AF
-1	어디	O	O	O, B-LC, B-TM, B-CV, B-PS
-2	공부	O	O	O, B-CV, B-LC, B-TM, I-AF
-3	##할	O	O	O, B-LC, B-PS, I-AF, B-CV
-4	게	O	O	O, B-PS, B-LC, B-TM, B-CV
-5	없	O	O	O, B-LC, B-PS, B-CV, B-TM
-6	##어	O	O	O, I-AF, B-PS, I-LC, B-LC
-7	##서	O	O	O, B-LC, I-AF, B-PS, I-LC
-8	북한	B-LC	B-FD	B-FD, B-LC, B-AF, O, B-OG
-9	##문학	B-FD	I-FD	I-FD, O, B-FD, I-AF, I-LC
-10	##을	O	O	O, I-FD, I-AF, I-OG, I-QT
-11	공부	O	O	O, B-CV, B-LC, B-PS, B-TM
-12	##하	O	O	O, B-PS, B-LC, B-CV, I-AF
-13	##느	O	O	O, B-PS, B-LC, B-CV, I-AF
-14	##냐	O	O	O, I-AF, B-LC, B-PS, B-CV
-15	.	O	O	O, B-CV, B-LC, B-OG, I-AF
-16	[SEP]	O	O	O, B-CV, B-LC, I-AF, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	'	O	O
+2	아메리칸	B-LC	O
+3	드림	O	O
+4	'	O	O
+5	을	O	O
+6	접어	O	O
+7	##둔	O	O
+8	채	O	O
+9	국내	O	O
+10	##로	O	O
+11	밀려	O	O
+12	##들	O	O
+13	##어	O	O
+14	##와	O	O
+15	'	O	O
+16	국내	O	O
+17	##파	O	O
+18	'	O	O
+19	들	O	O
+20	##과	O	O
+21	일자리	O	O
+22	다툼	O	O
+23	##을	O	O
+24	할	O	O
+25	그	O	O
+26	##들	O	O
+27	##에	O	O
+28	##게	O	O
+29	우리	O	O
+30	정부	B-OG	B-OG
+31	##는	O	O
+32	어떤	O	O
+33	대책	O	O
+34	##을	O	O
+35	갖	O	O
+36	##고	O	O
+37	있	O	O
+38	##을까	O	O
+39	.	O	O
+40	[SEP]	O	O

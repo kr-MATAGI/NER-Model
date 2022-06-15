@@ -1,44 +1,28 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-EV, I-CV, I-OG
-1	전월세	O	B-CV	B-CV, O, I-CV, B-TM, B-OG
-2	상한	O	I-CV	I-CV, O, B-CV, I-OG, I-TM
-3	##제	O	I-CV	I-CV, O, B-CV, I-OG, I-TM
-4	문제	O	O	O, I-CV, I-EV, I-OG, B-CV
-5	##에	O	O	O, B-CV, B-PS, B-OG, B-LC
-6	대해서	O	O	O, B-LC, B-OG, B-CV, B-PS
-7	##는	O	O	O, B-LC, B-CV, B-OG, B-PS
-8	“	O	O	O, B-CV, B-LC, B-PS, B-OG
-9	임대	B-CV	B-CV	B-CV, O, B-AF, I-CV, B-TM
-10	##사업	I-CV	I-CV	I-CV, O, B-CV, I-TM, I-OG
-11	##자	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-TM
-12	등록	O	O	O, I-CV, B-CV, I-OG, I-TM
-13	##제	O	O	O, I-CV, B-CV, I-TR, I-TM
-14	##를	O	O	O, I-CV, B-PS, I-EV, B-CV
-15	먼저	O	O	O, B-CV, B-LC, B-TM, B-OG
-16	정착	O	O	O, B-LC, B-CV, B-PS, B-OG
-17	##시	O	O	O, B-LC, B-PS, I-LC, B-OG
-18	##키	O	O	O, B-LC, B-PS, I-LC, I-PS
-19	##고	O	O	O, B-LC, B-PS, B-OG, I-LC
-20	단계	O	O	O, B-LC, B-PS, B-CV, B-TM
-21	##적으로	O	O	O, B-PS, B-LC, I-LC, I-QT
-22	전월세	O	B-CV	B-CV, O, B-TM, B-OG, B-AF
-23	상한	O	I-CV	I-CV, O, B-CV, I-TM, I-OG
-24	##제	O	I-CV	I-CV, O, B-CV, I-OG, I-TM
-25	##와	O	O	O, I-CV, I-OG, I-AF, B-CV
-26	계약	O	B-CV	B-CV, O, B-OG, I-CV, B-TM
-27	##갱	O	I-CV	I-CV, O, B-CV, I-OG, I-TM
-28	##신	O	I-CV	I-CV, O, B-CV, I-OG, I-TM
-29	##청	O	I-CV	I-CV, O, B-CV, I-OG, I-TM
-30	##구	O	I-CV	I-CV, O, B-CV, I-OG, I-TM
-31	##권	O	I-CV	I-CV, O, I-OG, B-CV, I-TM
-32	##제	O	I-CV	I-CV, O, I-OG, B-CV, I-TM
-33	##를	O	O	O, I-CV, I-OG, I-AF, I-EV
-34	추진	O	O	O, B-CV, B-LC, B-OG, B-TM
-35	##하	O	O	O, B-LC, B-PS, B-OG, B-CV
-36	##겠다	O	O	O, B-CV, B-LC, B-PS, I-OG
-37	”	O	O	O, B-CV, B-TM, B-OG, B-LC
-38	고	O	O	O, B-CV, B-LC, B-OG, B-PS
-39	덧붙였	O	O	O, B-CV, B-TM, B-OG, B-LC
-40	##다	O	O	O, B-CV, I-EV, I-CV, B-PS
-41	.	O	O	O, B-LC, B-PS, B-OG, B-CV
-42	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	국내	O	O
+2	개신교	O	B-OG
+3	사상	O	O
+4	최대	O	O
+5	규모	O	O
+6	##의	O	O
+7	국제	O	O
+8	종교	O	O
+9	##행사	O	O
+10	##로	O	O
+11	해외	O	O
+12	공식	O	O
+13	##대표	O	O
+14	2800	B-QT	B-QT
+15	##여	I-QT	I-QT
+16	명	I-QT	I-QT
+17	,	O	O
+18	국내	O	O
+19	460	O	O
+20	##0	O	O
+21	##여	O	O
+22	명이	O	O
+23	참석	O	O
+24	##한다	O	O
+25	.	O	O
+26	[SEP]	O	O

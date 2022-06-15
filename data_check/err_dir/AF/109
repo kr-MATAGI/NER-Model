@@ -1,27 +1,41 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-AF
-1	H	B-AF	B-AF	B-AF, O, I-AF, B-TM, B-OG
-2	##Q	I-AF	I-AF	I-AF, O, B-AF, I-TM, I-OG
-3	-	I-AF	I-AF	I-AF, O, I-TM, B-AF, I-QT
-4	9	I-AF	I-AF	I-AF, O, I-TM, B-AF, I-QT
-5	미사일	B-AF	I-AF	I-AF, B-AF, O, I-TM, I-QT
-6	##의	O	O	O, I-AF, I-OG, I-TM, I-EV
-7	크기	O	O	O, B-TM, B-OG, B-CV, I-AF
-8	##는	O	O	O, B-TM, B-OG, B-CV, B-LC
-9	12	B-QT	B-QT	B-QT, O, I-QT, B-LC, B-PS
-10	.	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-11	9	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-12	##m	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-13	##로	O	O	O, I-QT, B-OG, I-OG, B-LC
-14	미국	B-LC	B-LC	B-LC, B-OG, O, B-AF, B-PS
-15	##의	O	O	O, I-LC, B-LC, I-AF, I-OG
-16	패트	B-AF	B-AF	B-AF, O, I-AF, B-TM, B-OG
-17	##리	I-AF	I-AF	I-AF, O, B-AF, I-TM, I-OG
-18	##엇	I-AF	I-AF	I-AF, O, B-AF, I-TM, I-QT
-19	미사일	I-AF	I-AF	I-AF, B-AF, O, I-TM, I-QT
-20	##과	O	O	O, I-AF, I-TM, I-OG, I-CV
-21	비슷	O	O	O, B-TM, B-CV, I-AF, B-OG
-22	##하	O	O	O, B-OG, B-CV, B-LC, B-TM
-23	##다	O	O	O, B-CV, B-TM, I-OG, B-LC
-24	.	O	O	O, B-LC, B-OG, B-AF, I-AF
-25	[SEP]	O	O	O, I-AF, B-LC, B-AF, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	<	O	O
+2	할리우드	B-AF	B-AF
+3	엔딩	I-AF	I-AF
+4	>	O	O
+5	(	O	O
+6	2002	B-DT	B-DT
+7	)	O	O
+8	이후	O	O
+9	‘	O	O
+10	할리우드	B-AF	B-LC
+11	생활	I-AF	O
+12	##을	I-AF	O
+13	끝내	I-AF	O
+14	##고	I-AF	O
+15	’	O	O
+16	주로	O	O
+17	유럽	B-LC	B-LC
+18	##에	O	O
+19	##서	O	O
+20	영화	O	O
+21	##를	O	O
+22	찍	O	O
+23	##고	O	O
+24	있	O	O
+25	##는	O	O
+26	우	B-PS	B-PS
+27	##디	I-PS	I-PS
+28	앨런	I-PS	I-PS
+29	##이	O	O
+30	이번	O	O
+31	##에	O	O
+32	당도	O	O
+33	##한	O	O
+34	곳	O	O
+35	##은	O	O
+36	스페인	B-LC	B-LC
+37	바르셀로나	B-LC	B-LC
+38	.	O	O
+39	[SEP]	O	O

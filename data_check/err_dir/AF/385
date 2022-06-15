@@ -1,65 +1,14 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	창문	O	O	O, B-TM, B-CV, B-LC, B-AF
-2	차	O	O	O, B-TM, B-AF, B-LC, B-CV
-3	##양	O	O	O, I-TM, I-AF, I-CV, I-LC
-4	##을	O	O	O, B-PS, B-CV, B-TM, I-AF
-5	여	O	O	O, B-TM, B-CV, B-PS, B-LC
-6	##닫	O	O	O, I-TM, B-TM, B-PS, B-CV
-7	##는	O	O	O, B-TM, B-PS, B-CV, B-LC
-8	장치	O	O	O, B-TM, B-CV, B-PS, I-TM
-9	##에	O	O	O, B-LC, B-CV, B-OG, B-PS
-10	아랍	B-LC	B-LC	B-LC, B-CV, O, B-OG, B-PS
-11	문화	O	O	O, I-CV, I-LC, B-CV, I-OG
-12	##권	O	O	O, I-CV, I-LC, I-OG, I-PS
-13	##의	O	O	O, B-LC, B-PS, I-LC, I-CV
-14	섬세	O	O	O, B-LC, B-PS, B-CV, B-FD
-15	##한	O	O	O, B-LC, B-PS, B-OG, B-CV
-16	전통	O	O	O, B-FD, B-CV, B-LC, B-AF
-17	문양	O	O	O, I-CV, B-FD, I-FD, I-AF
-18	##을	O	O	O, B-CV, B-LC, B-PS, B-OG
-19	응용	O	O	O, B-LC, B-CV, B-OG, B-PS
-20	##한	O	O	O, B-LC, B-PS, B-OG, B-CV
-21	아랍	B-AF	B-OG	B-OG, B-AF, B-LC, O, B-EV
-22	##문화	I-AF	I-OG	I-OG, I-AF, O, I-LC, B-OG
-23	##원	I-AF	I-OG	I-OG, I-AF, O, I-LC, I-EV
-24	,	O	O	O, I-OG, I-AF, I-EV, B-CV
-25	착시	O	O	O, B-TR, B-FD, B-TM, B-PS
-26	현상	O	O	O, I-TR, I-FD, I-TM, I-EV
-27	##을	O	O	O, B-PS, B-CV, I-TR, I-EV
-28	이용해	O	O	O, B-LC, B-CV, B-PS, B-TM
-29	동일	O	O	O, B-LC, B-PS, B-CV, B-AF
-30	평면	O	O	O, B-LC, B-PS, B-TM, B-CV
-31	##에서	O	O	O, B-PS, B-LC, B-CV, B-OG
-32	실상	O	O	O, B-LC, B-PS, B-CV, B-TM
-33	##과	O	O	O, B-PS, B-LC, B-OG, B-CV
-34	허상	O	O	O, B-LC, B-TM, B-PS, B-CV
-35	##을	O	O	O, B-PS, B-CV, B-LC, I-AF
-36	교차	O	O	O, B-LC, B-TM, B-PS, B-CV
-37	##시	O	O	O, B-PS, B-LC, B-CV, B-OG
-38	##킨	O	O	O, B-LC, B-PS, B-OG, B-CV
-39	카르	B-OG	B-OG	B-OG, B-AF, O, B-PS, B-CV
-40	##티	I-OG	I-OG	I-OG, I-AF, O, I-PS, B-OG
-41	##에	I-OG	I-OG	I-OG, I-AF, O, I-PS, I-EV
-42	재단	I-OG	I-OG	I-OG, O, I-AF, I-EV, I-CV
-43	건물	O	O	O, I-AF, I-OG, B-AF, I-EV
-44	등	O	O	O, I-AF, I-OG, B-CV, I-EV
-45	##으로	O	O	O, B-LC, B-OG, B-CV, B-PS
-46	파리	B-LC	B-LC	B-LC, O, B-AF, B-OG, B-EV
-47	##의	O	O	O, I-LC, I-AF, I-OG, B-LC
-48	스카이	O	O	O, B-LC, B-AF, B-TM, B-CV
-49	##라인	O	O	O, I-AF, I-LC, I-CV, I-TM
-50	##에	O	O	O, B-CV, B-LC, I-AF, B-OG
-51	미래	O	O	O, B-FD, B-TR, B-LC, B-CV
-52	##지	O	O	O, B-FD, B-PS, B-TR, B-LC
-53	##향	O	O	O, B-FD, B-TR, B-PS, B-LC
-54	##적	O	O	O, B-PS, B-LC, I-TR, I-PS
-55	이미지	O	O	O, B-CV, B-LC, B-PS, B-FD
-56	##를	O	O	O, B-CV, B-LC, B-OG, B-PS
-57	새겨	O	O	O, B-CV, B-LC, B-OG, B-QT
-58	넣	O	O	O, B-CV, B-LC, B-PS, B-OG
-59	##었	O	O	O, B-CV, B-LC, B-OG, B-PS
-60	##습	O	O	O, B-CV, B-LC, B-OG, B-PS
-61	##니다	O	O	O, B-CV, B-LC, B-OG, I-OG
-62	.	O	O	O, B-LC, B-PS, B-CV, B-FD
-63	[SEP]	O	O	O, B-LC, B-CV, B-PS, B-FD
+	text	label	preds
+0	[CLS]	O	O
+1	그래야	O	O
+2	배	B-AF	B-CV
+3	##를	O	O
+4	만들	O	O
+5	수	O	O
+6	있	O	O
+7	##는	O	O
+8	재	O	O
+9	##목	O	O
+10	##이	O	O
+11	됩니다	O	O
+12	[SEP]	O	O

@@ -1,27 +1,89 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	올	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-2	초	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-3	결혼	O	O	O, B-CV, I-DT, B-TM, I-CV
-4	##을	O	O	O, B-PS, B-CV, B-LC, B-OG
-5	앞둔	O	O	O, B-PS, B-CV, B-LC, B-QT
-6	가구	B-CV	B-CV	B-CV, O, B-FD, I-CV, B-OG
-7	디자이너	I-CV	B-CV	B-CV, I-CV, O, I-QT, I-EV
-8	A	O	O	O, I-CV, B-PS, B-CV, I-EV
-9	##씨	O	O	O, B-CV, I-CV, B-PS, I-QT
-10	##는	O	O	O, B-CV, B-PS, I-CV, B-TM
-11	최근	O	O	O, B-CV, B-TM, B-PS, B-QT
-12	혼수	O	O	O, B-CV, B-TM, B-PS, I-CV
-13	##로	O	O	O, B-CV, B-PS, B-TM, B-LC
-14	마련	O	O	O, B-CV, B-TM, B-PS, B-QT
-15	##할	O	O	O, B-CV, B-PS, B-TM, B-AF
-16	가전제품	O	O	O, B-CV, B-TM, B-QT, B-AF
-17	##을	O	O	O, B-CV, B-PS, B-TM, I-CV
-18	알아보	O	O	O, B-CV, B-TM, B-LC, B-QT
-19	##다	O	O	O, B-CV, B-PS, B-TM, B-LC
-20	적잖이	O	O	O, B-CV, B-TM, B-LC, B-QT
-21	놀랐	O	O	O, B-CV, B-TM, B-QT, B-LC
-22	##다고	O	O	O, B-CV, B-PS, I-CV, B-LC
-23	한다	O	O	O, B-CV, B-TM, B-PS, B-LC
-24	.	O	O	O, B-CV, B-PS, B-LC, B-TM
-25	[SEP]	O	O	O, B-CV, B-PS, B-TM, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	아산	B-OG	B-OG
+2	##정책	I-OG	I-OG
+3	##연구원	I-OG	I-OG
+4	주최	O	O
+5	세미나	O	O
+6	‘	O	O
+7	아산	B-EV	B-EV
+8	##플	I-EV	I-EV
+9	##래	I-EV	I-EV
+10	##넘	I-EV	I-EV
+11	2014	B-DT	B-DT
+12	’	O	O
+13	에	O	O
+14	참석	O	O
+15	##차	O	O
+16	서울	B-LC	B-LC
+17	##에	O	O
+18	온	O	O
+19	진	B-PS	B-PS
+20	부원장	B-CV	B-CV
+21	##은	O	O
+22	“	O	O
+23	만약	O	O
+24	그런	O	O
+25	일	O	O
+26	(	O	O
+27	4	B-QT	B-QT
+28	##차	I-QT	I-QT
+29	핵실험	O	O
+30	)	O	O
+31	이	O	O
+32	생긴다	O	O
+33	##면	O	O
+34	,	O	O
+35	문	O	O
+36	##을	O	O
+37	닫	O	O
+38	##아	O	O
+39	##뒀	O	O
+40	##던	O	O
+41	한	B-OG	B-OG
+42	-	O	O
+43	미	B-OG	B-OG
+44	-	O	O
+45	중	B-OG	B-OG
+46	3	B-CV	B-QT
+47	##자	I-CV	I-QT
+48	##간	I-CV	O
+49	대화	O	O
+50	##를	O	O
+51	시작	O	O
+52	##하	O	O
+53	##게	O	O
+54	될	O	O
+55	것	O	O
+56	”	O	O
+57	이라	O	O
+58	##며	O	O
+59	“	O	O
+60	유엔	B-OG	B-OG
+61	차원	O	O
+62	##의	O	O
+63	가장	O	O
+64	강력	O	O
+65	##한	O	O
+66	경제	O	O
+67	##제	O	O
+68	##재	O	O
+69	강화	O	O
+70	방침	O	O
+71	##에도	O	O
+72	(	O	O
+73	중국	B-LC	B-OG
+74	##은	O	O
+75	)	O	O
+76	동의	O	O
+77	##할	O	O
+78	것	O	O
+79	”	O	O
+80	이라	O	O
+81	##고	O	O
+82	##도	O	O
+83	강조	O	O
+84	##했	O	O
+85	##다	O	O
+86	.	O	O
+87	[SEP]	O	O

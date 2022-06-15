@@ -1,24 +1,32 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-EV, I-CV
-1	북한	B-LC	B-OG	B-OG, B-LC, O, B-PS, B-TM
-2	##의	O	O	O, I-OG, B-OG, I-LC, B-CV
-3	전방	O	O	O, B-QT, B-OG, B-PS, B-LC
-4	##위	O	O	O, I-OG, I-PS, I-QT, I-LC
-5	대화	O	O	O, B-LC, B-CV, I-EV, B-EV
-6	공세	O	O	O, B-LC, I-EV, B-CV, B-OG
-7	##는	O	O	O, B-CV, B-OG, B-LC, I-EV
-8	우선	O	O	O, B-LC, B-CV, B-TM, B-OG
-9	외교	O	O	O, B-LC, B-CV, B-TM, B-OG
-10	##적	O	O	O, B-LC, B-PS, B-TM, B-OG
-11	고립	O	O	O, B-LC, B-CV, B-PS, B-OG
-12	##에서	O	O	O, B-CV, B-PS, B-LC, I-OG
-13	탈피	O	O	O, B-CV, B-LC, B-PS, B-TM
-14	##하기	O	O	O, B-LC, B-PS, B-CV, B-TM
-15	위한	O	O	O, B-PS, B-LC, B-CV, B-TM
-16	것	O	O	O, B-PS, B-LC, B-CV, B-OG
-17	##으로	O	O	O, B-PS, B-CV, B-LC, I-OG
-18	풀이	O	O	O, B-CV, B-LC, B-PS, B-OG
-19	##된	O	O	O, I-OG, I-EV, B-PS, I-QT
-20	##다	O	O	O, B-CV, I-OG, B-LC, I-EV
-21	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-22	[SEP]	O	O	O, B-CV, B-LC, I-EV, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	그	O	O
+2	##는	O	O
+3	2014	B-DT	B-DT
+4	##년	I-DT	I-DT
+5	브라질	B-LC	B-EV
+6	대회	O	I-EV
+7	당시	O	O
+8	성인	O	O
+9	월드컵	B-EV	B-EV
+10	참가	O	O
+11	##의	O	O
+12	꿈	O	O
+13	##을	O	O
+14	이	O	O
+15	##룰	O	O
+16	뻔했	O	O
+17	##지만	O	O
+18	오른쪽	B-TM	B-TM
+19	발목	B-AM	B-AM
+20	부상	O	O
+21	##으로	O	O
+22	대표	O	O
+23	##팀	O	O
+24	##에	O	O
+25	##서	O	O
+26	낙마	O	O
+27	##했	O	O
+28	##다	O	O
+29	.	O	O
+30	[SEP]	O	O

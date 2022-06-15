@@ -1,53 +1,55 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	1998	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-LC
-2	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-3	8	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-4	##월	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-5	‘	O	O	O, I-DT, B-LC, B-CV, B-OG
-6	광명	B-AF	B-TM	B-TM, B-AF, B-LC, B-TR, B-EV
-7	##성	I-AF	I-TM	I-TM, I-AF, I-LC, I-TR, O
-8	1	I-AF	B-QT	B-QT, I-AF, I-TM, I-QT, I-LC
-9	##호	I-AF	I-QT	I-QT, I-AF, I-TM, I-LC, O
-10	’	O	O	O, I-QT, I-AF, I-TM, I-DT
-11	,	O	O	O, B-LC, B-CV, B-PS, B-OG
-12	2009	B-DT	B-DT	B-DT, I-DT, O, B-QT, B-LC
-13	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-14	4	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-15	##월	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-16	‘	O	O	O, I-DT, B-LC, B-DT, B-CV
-17	광명	B-TM	B-TM	B-TM, B-AF, B-LC, B-EV, B-TR
-18	##성	I-TM	I-AF	I-AF, I-TM, I-LC, O, I-TR
-19	2	B-QT	B-QT	B-QT, I-AF, I-TM, I-QT, I-LC
-20	##호	I-QT	I-QT	I-QT, I-AF, I-TM, I-LC, O
-21	’	O	O	O, I-QT, I-AF, I-DT, I-EV
-22	발사	O	O	O, B-CV, B-LC, B-OG, B-PS
-23	때	O	O	O, I-DT, B-PS, B-LC, I-CV
-24	각각	O	O	O, B-LC, B-QT, B-DT, B-OG
-25	쏴	O	O	O, B-LC, B-OG, B-AF, B-TM
-26	올린	O	O	O, B-LC, B-PS, B-OG, B-AF
-27	장거리	O	B-AF	B-AF, O, I-AF, B-TM, B-LC
-28	##로	O	I-AF	I-AF, O, I-TM, B-AF, I-EV
-29	##켓	O	I-AF	I-AF, O, I-TM, I-EV, I-QT
-30	##의	O	O	O, I-AF, I-EV, I-CV, I-OG
-31	1	B-QT	B-QT	B-QT, O, I-QT, B-TM, B-DT
-32	##단	I-QT	I-QT	I-QT, O, I-AF, I-TM, I-EV
-33	추진	O	O	O, B-AF, B-TM, I-QT, I-AF
-34	##체	O	O	O, I-AF, I-TM, I-LC, I-OG
-35	##엔	O	O	O, I-AF, B-TM, B-LC, B-CV
-36	붉은색	B-TM	B-TM	B-TM, O, B-LC, B-CV, B-AF
-37	페인트	O	B-MT	B-MT, O, I-MT, I-TM, B-TM
-38	##로	O	O	O, I-TM, I-AF, I-CV, I-EV
-39	‘	O	O	O, B-LC, B-CV, B-OG, B-PS
-40	조선	B-LC	B-LC	B-LC, O, B-OG, B-PS, B-AF
-41	’	O	O	O, I-LC, I-AF, I-OG, B-CV
-42	이라	O	O	O, B-CV, B-PS, B-LC, I-LC
-43	##는	O	O	O, I-CV, I-AF, B-CV, B-PS
-44	글자	O	O	O, I-CV, B-CV, I-AF, B-AM
-45	##가	O	O	O, B-PS, B-CV, B-LC, B-OG
-46	쓰여	O	O	O, B-CV, B-LC, B-TM, B-QT
-47	있	O	O	O, B-CV, B-LC, B-PS, B-TM
-48	##었	O	O	O, B-CV, B-LC, B-OG, B-TM
-49	##다	O	O	O, B-CV, B-LC, B-TM, B-OG
-50	.	O	O	O, B-LC, B-CV, B-PS, B-AF
-51	[SEP]	O	O	O, B-LC, B-CV, B-AF, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	새	B-OG	B-OG
+2	##누리	I-OG	I-OG
+3	##당	I-OG	I-OG
+4	김무성	B-PS	B-PS
+5	대표	B-CV	B-CV
+6	##는	O	O
+7	26	B-DT	B-DT
+8	##일	I-DT	I-DT
+9	“	O	O
+10	‘	O	O
+11	쇼크	B-TM	O
+12	(	O	O
+13	충격	O	O
+14	)	O	O
+15	’	O	O
+16	없이	O	O
+17	국회	B-CV	B-CV
+18	##선	I-CV	I-CV
+19	##진	I-CV	I-CV
+20	##화	I-CV	I-CV
+21	##법	I-CV	I-CV
+22	##이	O	O
+23	바뀌	O	O
+24	##겠	O	O
+25	##느	O	O
+26	##냐	O	O
+27	”	O	O
+28	며	O	O
+29	“	O	O
+30	4	B-EV	B-EV
+31	·	I-EV	I-EV
+32	13	I-EV	I-EV
+33	##총	I-EV	I-EV
+34	##선	I-EV	I-EV
+35	전	I-EV	I-EV
+36	##에	O	O
+37	반드시	O	O
+38	(	O	O
+39	선진	B-CV	B-CV
+40	##화	I-CV	I-CV
+41	##법	I-CV	I-CV
+42	개정	O	O
+43	##을	O	O
+44	)	O	O
+45	마무리	O	O
+46	짓	O	O
+47	##겠다	O	O
+48	”	O	O
+49	고	O	O
+50	밝혔	O	O
+51	##다	O	O
+52	.	O	O
+53	[SEP]	O	O

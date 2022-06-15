@@ -1,22 +1,28 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	또	O	O	O, B-LC, B-CV, B-OG, B-PS
-2	중국	B-OG	B-LC	B-LC, B-OG, O, B-PS, B-AF
-3	##의	O	O	O, I-LC, B-LC, I-OG, I-AF
-4	중화	B-TR	B-TR	B-TR, O, B-FD, I-TR, B-PS
-5	##주의	I-TR	I-TR	I-TR, I-FD, B-TR, O, I-QT
-6	역사	B-FD	O	O, B-FD, I-FD, I-TR, I-AF
-7	##와	O	O	O, B-CV, I-AF, I-FD, I-TR
-8	##의	O	O	O, B-LC, B-PS, B-OG, B-CV
-9	또	O	O	O, B-LC, B-CV, B-OG, B-PS
-10	우리	O	O	O, B-CV, B-LC, B-PS, B-AM
-11	##의	O	O	O, B-CV, B-PS, B-AM, B-LC
-12	심기	O	O	O, B-AM, B-TM, B-CV, B-LC
-13	##를	O	O	O, B-CV, I-CV, B-PS, I-TM
-14	또	O	O	O, B-CV, B-LC, B-TM, B-OG
-15	건드리	O	O	O, B-CV, B-TM, B-LC, B-PS
-16	##고	O	O	O, B-CV, B-LC, B-PS, B-OG
-17	있	O	O	O, B-CV, B-LC, B-PS, B-OG
-18	##습	O	O	O, B-CV, B-LC, B-OG, B-PS
-19	##니다	O	O	O, B-CV, B-LC, B-OG, B-PS
-20	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	이공	B-FD	O
+2	##계	I-FD	O
+3	우수	O	O
+4	##학	O	O
+5	##과	O	O
+6	등	O	O
+7	‘	B-QT	O
+8	가	I-QT	O
+9	’	I-QT	O
+10	군	I-QT	O
+11	모집	O	O
+12	##인	O	O
+13	##원	O	O
+14	##이	O	O
+15	지난해	B-DT	B-DT
+16	##에	O	O
+17	비해	O	O
+18	크	O	O
+19	##게	O	O
+20	늘어난	O	O
+21	것	O	O
+22	##이	O	O
+23	특징	O	O
+24	##이다	O	O
+25	.	O	O
+26	[SEP]	O	O

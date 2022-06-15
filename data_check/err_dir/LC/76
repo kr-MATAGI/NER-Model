@@ -1,54 +1,19 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-EV, I-OG
-1	14	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-2	##일	I-DT	I-DT	I-DT, O, B-DT, I-PS, I-QT
-3	완	B-LC	B-PS	B-PS, O, B-LC, I-PS, B-OG
-4	##짜	I-LC	I-PS	I-PS, O, I-LC, I-OG, I-AF
-5	##이	I-LC	I-PS	I-PS, O, I-LC, I-OG, B-PS
-6	(	O	O	O, I-PS, I-OG, I-AF, B-LC
-7	[UNK]	O	O	O, B-PS, B-LC, B-OG, B-CV
-8	[UNK]	O	O	O, B-PS, B-LC, B-CV, B-OG
-9	)	O	O	O, B-LC, B-OG, B-PS, B-CV
-10	홍콩	B-AF	B-AF	B-AF, B-LC, B-EV, B-OG, O
-11	##컨	I-AF	I-AF	I-AF, I-LC, B-AF, O, I-OG
-12	##벤션	I-AF	I-AF	I-AF, I-LC, B-AF, O, I-EV
-13	##전	I-AF	I-AF	I-AF, I-LC, O, I-EV, B-AF
-14	##시	I-AF	I-AF	I-AF, I-LC, O, I-OG, I-EV
-15	##센터	I-AF	I-AF	I-AF, I-LC, O, I-OG, I-EV
-16	(	O	O	O, I-AF, I-LC, I-EV, I-OG
-17	H	B-AF	B-AF	B-AF, O, B-LC, B-OG, B-EV
-18	##K	I-AF	I-AF	I-AF, O, I-LC, I-OG, I-EV
-19	##C	I-AF	I-AF	I-AF, O, I-LC, I-OG, I-EV
-20	##EC	I-AF	I-AF	I-AF, O, I-LC, I-OG, I-EV
-21	)	O	O	O, I-AF, I-EV, I-OG, I-LC
-22	1	B-QT	B-QT	B-QT, O, B-TM, B-EV, B-LC
-23	##층	I-QT	I-QT	I-QT, O, I-TM, I-LC, I-EV
-24	부스	O	O	O, I-QT, B-TM, B-CV, B-AF
-25	##에서	O	O	O, B-CV, B-PS, I-AF, B-LC
-26	만난	O	O	O, B-PS, B-CV, B-OG, B-LC
-27	허	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-28	##시	I-PS	I-PS	I-PS, O, I-OG, I-LC, B-PS
-29	##영	I-PS	I-PS	I-PS, O, I-OG, I-LC, B-PS
-30	PK	B-OG	B-OG	B-OG, B-AF, O, I-OG, I-PS
-31	##M	I-OG	I-OG	I-OG, I-AF, O, I-PS, I-EV
-32	##갤	I-OG	I-OG	I-OG, I-AF, O, B-OG, I-EV
-33	##러리	I-OG	I-OG	I-OG, I-AF, O, I-EV, I-LC
-34	디렉터	B-CV	B-CV	B-CV, O, I-CV, I-OG, I-AF
-35	##는	O	O	O, I-CV, I-OG, I-AF, I-EV
-36	“	O	O	O, B-CV, B-LC, B-PS, B-OG
-37	지난해	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-38	##보	O	O	O, I-DT, B-DT, I-QT, I-EV
-39	##다	O	O	O, I-DT, B-DT, B-QT, I-QT
-40	2	B-QT	B-QT	B-QT, I-QT, O, B-DT, B-TI
-41	##배	I-QT	I-QT	I-QT, O, I-DT, I-EV, I-LC
-42	이상	I-QT	I-QT	I-QT, O, I-LC, I-DT, I-PS
-43	북적	O	O	O, I-QT, B-CV, B-TM, B-OG
-44	##거리	O	O	O, B-CV, B-PS, I-AF, B-LC
-45	##는	O	O	O, B-CV, I-AF, B-PS, B-LC
-46	분위기	O	O	O, B-CV, B-PS, B-TM, B-QT
-47	”	O	O	O, B-CV, B-TM, B-PS, B-OG
-48	라고	O	O	O, B-CV, B-OG, B-PS, B-LC
-49	했	O	O	O, B-LC, B-CV, B-PS, B-OG
-50	##다	O	O	O, B-CV, B-LC, B-TM, I-EV
-51	.	O	O	O, B-LC, B-PS, B-OG, B-AF
-52	[SEP]	O	O	O, B-LC, B-CV, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	이때	O	O
+2	##도	O	O
+3	북한	B-LC	B-OG
+4	##은	O	O
+5	""""	O	O
+6	경제	O	O
+7	##가	O	O
+8	도약	O	O
+9	##했	O	O
+10	##다	O	O
+11	""""	O	O
+12	고	O	O
+13	선전	O	O
+14	##했	O	O
+15	##다	O	O
+16	.	O	O
+17	[SEP]	O	O

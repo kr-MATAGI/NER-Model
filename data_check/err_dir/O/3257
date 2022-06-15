@@ -1,56 +1,36 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-EV, I-OG, I-CV
-1	산업	O	B-OG	B-OG, O, I-OG, B-EV, B-CV
-2	##부	O	I-OG	I-OG, O, I-EV, B-OG, I-CV
-3	관계자	B-CV	B-CV	B-CV, O, I-CV, I-OG, I-EV
-4	##는	O	O	O, I-CV, I-OG, I-EV, I-QT
-5	“	O	O	O, B-CV, B-LC, B-TM, B-OG
-6	자원	O	O	O, B-CV, B-LC, B-TM, B-PS
-7	##개발	O	O	O, I-CV, I-LC, B-LC, B-PS
-8	##만	O	O	O, B-PS, B-LC, I-LC, I-QT
-9	해서	O	O	O, B-LC, B-PS, B-OG, B-TM
-10	##는	O	O	O, B-LC, B-TM, B-PS, B-CV
-11	원자재	O	O	O, B-MT, B-CV, B-LC, B-AF
-12	가격	O	O	O, B-CV, I-CV, B-PS, B-LC
-13	하락	O	O	O, B-CV, B-TM, B-LC, B-PS
-14	##에	O	O	O, B-CV, B-LC, B-TM, B-PS
-15	따른	O	O	O, B-LC, B-PS, B-TM, B-OG
-16	리스크	O	O	O, B-LC, B-CV, B-TM, B-PS
-17	##를	O	O	O, B-CV, B-LC, B-OG, B-PS
-18	분산	O	O	O, B-CV, B-LC, B-TM, B-OG
-19	##시	O	O	O, B-LC, B-PS, B-OG, B-CV
-20	##킬	O	O	O, B-LC, B-PS, B-CV, B-OG
-21	수	O	O	O, B-PS, B-CV, B-LC, B-TM
-22	없	O	O	O, B-CV, B-TM, B-LC, B-PS
-23	##다	O	O	O, B-CV, I-OG, B-PS, B-LC
-24	”	O	O	O, B-CV, B-LC, B-TM, B-OG
-25	며	O	O	O, B-LC, B-CV, B-OG, B-TM
-26	“	O	O	O, B-CV, B-LC, B-TM, B-OG
-27	세계	O	O	O, B-LC, B-CV, B-OG, B-PS
-28	##적으로	O	O	O, I-OG, B-LC, B-PS, B-CV
-29	##도	O	O	O, B-LC, B-PS, B-OG, I-OG
-30	주요	O	O	O, B-OG, B-LC, B-TM, B-PS
-31	기업	O	O	O, B-OG, I-OG, B-CV, B-LC
-32	##들	O	O	O, I-OG, B-CV, B-LC, B-PS
-33	##은	O	O	O, B-LC, B-CV, B-OG, B-PS
-34	자원	O	O	O, B-CV, B-LC, B-TM, B-FD
-35	##개발	O	O	O, I-LC, I-CV, B-LC, I-TM
-36	##과	O	O	O, B-PS, B-LC, B-CV, B-OG
-37	유통	O	O	O, B-CV, B-TM, B-LC, I-OG
-38	##을	O	O	O, B-CV, B-LC, B-TM, B-PS
-39	함께	O	O	O, B-TM, B-LC, B-CV, B-QT
-40	진행	O	O	O, B-CV, B-TM, B-LC, B-OG
-41	##하	O	O	O, B-LC, B-PS, B-OG, B-CV
-42	##는	O	O	O, B-LC, B-CV, B-OG, B-PS
-43	것	O	O	O, B-LC, B-CV, B-OG, B-PS
-44	##이	O	O	O, B-PS, B-LC, B-CV, B-OG
-45	일반	O	O	O, B-CV, B-LC, B-TM, B-PS
-46	##적	O	O	O, B-LC, B-PS, I-OG, B-CV
-47	”	O	O	O, B-CV, B-LC, B-TM, I-OG
-48	이라	O	O	O, B-CV, B-PS, B-LC, B-TM
-49	##고	O	O	O, B-CV, B-TM, B-LC, B-QT
-50	설명	O	O	O, B-CV, B-TM, B-LC, B-OG
-51	##했	O	O	O, B-CV, B-LC, B-PS, B-OG
-52	##다	O	O	O, B-CV, B-TM, B-LC, I-EV
-53	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-54	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	장	B-OG	B-OG
+2	##쑤	I-OG	I-OG
+3	##엔	O	I-OG
+4	최	B-PS	B-PS
+5	감독	B-CV	B-CV
+6	외	O	O
+7	##에도	O	O
+8	국가	B-CV	B-CV
+9	##대표	I-CV	I-CV
+10	수비수	B-CV	B-CV
+11	##인	O	O
+12	홍정	B-PS	B-PS
+13	##호	I-PS	I-PS
+14	##가	O	O
+15	지난해	B-DT	B-DT
+16	7	I-DT	I-DT
+17	##월	I-DT	I-DT
+18	독일	B-LC	B-LC
+19	분	B-OG	B-OG
+20	##데스	I-OG	I-OG
+21	##리	I-OG	I-OG
+22	##가	I-OG	I-OG
+23	##에	O	O
+24	##서	O	O
+25	이적	O	O
+26	##해	O	O
+27	주축	O	O
+28	수비수	B-CV	B-CV
+29	##로	O	O
+30	활약	O	O
+31	중이	O	O
+32	##다	O	O
+33	.	O	O
+34	[SEP]	O	O

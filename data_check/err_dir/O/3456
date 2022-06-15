@@ -1,25 +1,39 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	고려대	B-OG	B-OG	B-OG, O, B-LC, B-AF, B-PS
-2	##는	O	O	O, I-OG, B-CV, I-AF, I-QT
-3	유학생	B-CV	B-CV	B-CV, O, B-OG, B-AF, B-EV
-4	인프라	O	O	O, I-CV, B-CV, I-AF, B-PS
-5	확충	O	O	O, I-CV, B-CV, B-PS, B-LC
-6	##을	O	O	O, B-PS, B-CV, I-CV, I-AF
-7	이유로	O	O	O, B-CV, B-PS, B-LC, B-OG
-8	올해	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-9	입학	O	O	O, I-DT, B-CV, I-QT, I-EV
-10	##하	O	O	O, B-CV, B-PS, B-AF, B-OG
-11	##는	O	O	O, B-CV, B-PS, B-AF, B-OG
-12	외국인	O	B-CV	B-CV, O, B-EV, B-LC, B-OG
-13	유학생	B-CV	B-CV	B-CV, O, I-CV, B-EV, B-OG
-14	##의	O	O	O, I-CV, I-EV, B-CV, I-OG
-15	등록금	O	O	O, B-CV, B-TM, I-CV, B-QT
-16	##을	O	O	O, I-CV, B-CV, B-QT, I-QT
-17	오	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-PS
-18	퍼센트	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-DT
-19	올렸	O	O	O, I-QT, B-CV, I-OG, B-OG
-20	##습	O	O	O, B-CV, B-OG, I-QT, B-LC
-21	##니다	O	O	O, B-CV, B-OG, B-LC, B-QT
-22	.	O	O	O, B-CV, B-LC, B-OG, B-PS
-23	[SEP]	O	O	O, B-CV, B-LC, B-OG, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	그간	O	O
+2	롯데	B-OG	B-OG
+3	##그룹	I-OG	I-OG
+4	인사	O	O
+5	##는	O	O
+6	신	B-PS	B-PS
+7	회장	B-CV	B-CV
+8	##이	O	O
+9	한국	B-LC	B-LC
+10	##에	O	O
+11	##서	O	O
+12	설	O	B-DT
+13	연휴	O	O
+14	##를	O	O
+15	보내	O	O
+16	##며	O	O
+17	인사	O	O
+18	##를	O	O
+19	확정	O	O
+20	##하	O	O
+21	##고	O	O
+22	일본	B-LC	B-LC
+23	##으로	O	O
+24	간	O	O
+25	뒤	O	O
+26	며칠	O	O
+27	이내	O	O
+28	##에	O	O
+29	발표	O	O
+30	##된	O	O
+31	적	O	O
+32	##이	O	O
+33	많	O	O
+34	##았	O	O
+35	##다	O	O
+36	.	O	O
+37	[SEP]	O	O

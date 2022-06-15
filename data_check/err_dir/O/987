@@ -1,26 +1,31 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	3	B-QT	B-QT	B-QT, O, I-QT, B-TI, B-TM
-2	##m	I-QT	I-QT	I-QT, O, I-LC, I-TM, I-EV
-3	방수	O	O	O, I-QT, B-TM, B-CV, I-TM
-4	기능	O	O	O, I-TM, I-CV, I-TR, I-EV
-5	##이	O	O	O, B-PS, B-CV, B-OG, I-CV
-6	##기	O	O	O, B-CV, B-PS, B-OG, B-LC
-7	때문	O	O	O, B-CV, B-LC, B-PS, B-OG
-8	##에	O	O	O, B-CV, B-LC, B-OG, B-TM
-9	스킨	O	B-CV	B-CV, O, B-AF, B-EV, B-TM
-10	##스	O	I-CV	I-CV, O, I-AF, I-EV, I-TM
-11	##쿠버	O	I-CV	I-CV, O, I-AF, I-EV, I-TM
-12	##가	O	O	O, I-CV, I-AF, I-EV, I-OG
-13	아닌	O	O	O, B-CV, B-LC, B-OG, B-PS
-14	일반	O	O	O, B-CV, B-LC, B-FD, B-TM
-15	##적인	O	O	O, B-LC, B-CV, I-AF, B-QT
-16	물놀이	O	O	O, B-CV, B-LC, B-EV, B-AF
-17	##에서	O	O	O, B-CV, I-AF, I-CV, I-EV
-18	##는	O	O	O, B-CV, B-LC, B-PS, B-TM
-19	충분	O	O	O, B-CV, B-QT, B-TM, B-LC
-20	##한	O	O	O, B-PS, B-LC, B-CV, B-OG
-21	수준	O	O	O, B-CV, B-QT, B-TM, I-QT
-22	##이다	O	O	O, B-CV, B-TM, B-QT, I-CV
-23	.	O	O	O, B-CV, B-LC, B-PS, I-AF
-24	[SEP]	O	O	O, B-CV, B-LC, I-AF, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	뉴	B-AF	B-AF
+2	##E	I-AF	I-AF
+3	##클	I-AF	I-AF
+4	##래	I-AF	I-AF
+5	##스	I-AF	I-AF
+6	카	I-AF	I-AF
+7	##브리	I-AF	I-AF
+8	##올	I-AF	I-AF
+9	##렛	I-AF	I-AF
+10	##은	O	O
+11	버튼	O	O
+12	하나	O	B-QT
+13	##로	O	O
+14	20	B-TI	B-TI
+15	##초	I-TI	I-TI
+16	안	I-TI	I-TI
+17	##에	O	O
+18	개	O	O
+19	##폐	O	O
+20	##되	O	O
+21	##는	O	O
+22	소프트	O	O
+23	탑	O	O
+24	##을	O	O
+25	탑재	O	O
+26	##했	O	O
+27	##다	O	O
+28	.	O	O
+29	[SEP]	O	O

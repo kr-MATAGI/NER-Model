@@ -1,73 +1,27 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	각각	O	O	O, B-DT, B-QT, B-CV, B-PS
-2	연	O	O	O, B-DT, I-DT, B-PS, B-CV
-3	400	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-PS
-4	##만	I-QT	I-QT	I-QT, O, I-DT, I-LC, I-PS
-5	##원	I-QT	I-QT	I-QT, O, I-LC, I-PS, I-DT
-6	##과	O	O	O, I-QT, I-DT, B-DT, B-PS
-7	700	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-PS
-8	##만	I-QT	I-QT	I-QT, O, I-LC, I-DT, I-PS
-9	##원	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-10	##까	O	O	O, I-QT, I-DT, B-DT, I-PS
-11	##지	O	O	O, I-QT, I-DT, I-PS, B-PS
-12	세액	O	B-CV	B-CV, O, B-TM, I-CV, B-OG
-13	##공	O	O	O, I-CV, B-CV, I-TR, I-TM
-14	##제	O	O	O, I-CV, B-CV, I-TM, I-TR
-15	(	O	O	O, I-CV, I-OG, I-QT, B-CV
-16	연소	O	O	O, B-QT, B-CV, B-PS, B-LC
-17	##득	O	O	O, I-QT, I-CV, B-PS, I-LC
-18	5500	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-PS
-19	##만	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-20	##원	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-21	이하	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-22	##는	O	O	O, I-QT, I-DT, B-PS, I-CV
-23	적립	O	O	O, B-CV, B-TM, B-QT, B-PS
-24	##액	O	O	O, I-CV, I-QT, I-TM, I-LC
-25	##의	O	O	O, B-PS, B-QT, I-CV, B-LC
-26	16	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-PS
-27	.	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-28	5	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-29	%	I-QT	I-QT	I-QT, O, I-LC, I-PS, I-OG
-30	세액	O	O	O, B-CV, I-CV, I-QT, B-TM
-31	##공	O	O	O, I-CV, B-CV, I-TM, I-QT
-32	##제	O	O	O, I-CV, B-CV, I-TM, I-TR
-33	)	O	O	O, I-CV, I-QT, I-OG, B-CV
-34	를	O	O	O, B-CV, B-PS, B-LC, B-QT
-35	받	O	O	O, B-CV, B-PS, B-TM, B-LC
-36	##을	O	O	O, B-PS, B-CV, B-LC, B-TM
-37	수	O	O	O, B-PS, B-LC, B-QT, B-CV
-38	있	O	O	O, B-CV, B-LC, B-PS, B-TM
-39	##는	O	O	O, B-CV, B-LC, B-TM, B-PS
-40	연금	B-CV	B-CV	B-CV, O, B-AF, B-TM, B-OG
-41	##저축	I-CV	I-CV	I-CV, O, I-AF, I-TM, B-CV
-42	##과	O	O	O, I-CV, I-AF, B-CV, I-OG
-43	개인	B-CV	B-CV	B-CV, B-AF, O, B-OG, B-TM
-44	##퇴직	I-CV	I-CV	I-CV, I-AF, O, B-CV, I-OG
-45	##연금	I-CV	I-CV	I-CV, I-AF, O, I-OG, B-CV
-46	(	O	O	O, I-CV, I-AF, I-OG, I-EV
-47	IR	B-CV	B-CV	B-CV, O, B-AF, B-OG, B-TM
-48	##P	I-CV	I-CV	I-CV, O, I-AF, I-OG, I-TM
-49	)	O	O	O, I-CV, I-AF, I-OG, I-EV
-50	에	O	O	O, B-CV, B-LC, B-OG, B-TM
-51	비해	O	O	O, B-CV, B-TM, B-LC, B-OG
-52	세제	O	O	O, B-CV, B-LC, B-PS, B-TM
-53	##혜	O	O	O, I-CV, B-PS, B-CV, B-LC
-54	##택	O	O	O, B-PS, B-LC, I-CV, I-LC
-55	규모	O	O	O, B-LC, B-PS, B-OG, B-TM
-56	##가	O	O	O, B-LC, B-PS, B-OG, B-CV
-57	작	O	O	O, B-LC, B-CV, B-TM, B-PS
-58	##다는	O	O	O, B-LC, B-PS, B-OG, B-CV
-59	점	O	O	O, B-LC, B-CV, B-PS, B-TM
-60	##도	O	O	O, B-PS, B-LC, B-CV, I-QT
-61	가입자	O	O	O, B-CV, B-TM, I-CV, B-AF
-62	증가	O	O	O, I-CV, I-EV, B-CV, I-AF
-63	##가	O	O	O, B-PS, B-OG, B-LC, B-CV
-64	부진	O	O	O, B-CV, B-TM, B-LC, B-OG
-65	##한	O	O	O, B-LC, B-OG, B-PS, B-CV
-66	이유로	O	O	O, B-QT, B-CV, B-LC, B-TM
-67	거론	O	O	O, B-CV, B-LC, B-TM, B-OG
-68	##된	O	O	O, I-OG, B-LC, B-PS, I-QT
-69	##다	O	O	O, B-CV, B-LC, I-OG, B-TM
-70	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-71	[SEP]	O	O	O, B-LC, B-CV, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	합의	O	O
+2	##된	O	O
+3	내용	O	O
+4	##은	O	O
+5	국회	B-OG	B-OG
+6	법제	B-OG	B-OG
+7	##사	I-OG	I-OG
+8	##법	I-OG	I-OG
+9	##위원회	I-OG	I-OG
+10	##의	O	O
+11	법안	O	B-OG
+12	##심	O	I-OG
+13	##사	O	I-OG
+14	##소	O	I-OG
+15	##위	O	I-OG
+16	##와	O	O
+17	본회의	O	O
+18	##를	O	O
+19	거치	O	O
+20	##면	O	O
+21	확정	O	O
+22	##된	O	O
+23	##다	O	O
+24	.	O	O
+25	[SEP]	O	O

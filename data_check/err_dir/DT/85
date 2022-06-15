@@ -1,28 +1,22 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	이제껏	O	O	O, B-DT, B-QT, B-LC, B-OG
-2	국내	O	O	O, B-LC, B-CV, B-OG, B-TM
-3	##에서	O	O	O, B-CV, B-LC, B-PS, B-OG
-4	발견	O	O	O, B-CV, B-TM, B-LC, B-QT
-5	##되	O	O	O, B-PS, B-LC, B-CV, B-QT
-6	##지	O	O	O, B-CV, B-LC, B-PS, B-QT
-7	않	O	O	O, B-CV, B-LC, B-PS, B-TM
-8	##았	O	O	O, B-CV, B-TM, B-LC, B-QT
-9	##던	O	O	O, B-CV, B-TM, B-QT, B-LC
-10	미	O	O	O, B-LC, B-TM, B-CV, B-AF
-11	##기록	O	O	O, I-LC, I-AF, I-CV, I-TM
-12	##생	O	O	O, I-AF, I-LC, I-CV, I-TM
-13	##물	O	O	O, I-LC, I-AF, I-CV, I-TM
-14	중	O	O	O, B-QT, B-TM, B-LC, B-PS
-15	61	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-LC
-16	##종	I-QT	I-QT	I-QT, O, I-LC, I-DT, I-PS
-17	##이	O	O	O, I-QT, B-PS, B-CV, I-EV
-18	작년	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-19	한	I-DT	B-DT	B-DT, I-DT, O, B-QT, B-EV
-20	해	I-DT	I-DT	I-DT, O, I-QT, B-DT, I-EV
-21	동안	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-TI
-22	발견	O	O	O, I-DT, B-CV, I-QT, I-OG
-23	##됐	O	O	O, I-OG, I-AF, B-CV, I-EV
-24	##다	O	O	O, B-CV, I-OG, B-TM, I-AF
-25	.	O	O	O, B-LC, B-CV, B-PS, I-OG
-26	[SEP]	O	O	O, B-CV, B-LC, I-AF, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	www	B-TM	B-TM
+2	.	I-TM	I-TM
+3	un	I-TM	I-TM
+4	##ep	I-TM	I-TM
+5	.	I-TM	I-TM
+6	or	I-TM	I-TM
+7	.	I-TM	I-TM
+8	kr	I-TM	I-TM
+9	/	O	I-TM
+10	2009	B-DT	I-TM
+11	,	O	O
+12	www	B-TM	B-TM
+13	.	I-TM	I-TM
+14	un	I-TM	I-TM
+15	##ep	I-TM	I-TM
+16	.	I-TM	I-TM
+17	or	I-TM	I-TM
+18	.	I-TM	I-TM
+19	kr	I-TM	I-TM
+20	[SEP]	O	O

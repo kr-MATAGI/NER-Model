@@ -1,36 +1,43 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-EV, I-QT
-1	이	O	O	O, B-OG, B-PS, B-CV, B-TM
-2	여파	O	O	O, B-CV, B-OG, B-TM, B-LC
-3	##로	O	O	O, B-OG, B-CV, B-LC, B-PS
-4	교회	O	O	O, B-OG, B-CV, I-OG, B-FD
-5	##는	O	O	O, I-OG, B-CV, B-PS, B-OG
-6	심각	O	O	O, B-CV, B-LC, B-TM, B-OG
-7	##한	O	O	O, B-LC, B-OG, B-PS, B-TM
-8	내홍	O	O	O, B-EV, B-TM, B-OG, B-CV
-9	##에	O	O	O, I-EV, I-OG, B-PS, B-CV
-10	휩싸였	O	O	O, B-OG, B-LC, B-CV, B-TM
-11	##고	O	O	O, I-OG, B-CV, I-EV, B-OG
-12	3	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-PS
-13	##만	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-14	##50	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-15	##00	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-16	##여	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-17	##명	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-18	##이	O	O	O, I-QT, B-PS, B-OG, B-CV
-19	##던	O	O	O, B-OG, B-PS, B-CV, B-QT
-20	출석	O	O	O, B-CV, B-OG, B-PS, B-FD
-21	교인	O	B-CV	B-CV, O, I-CV, B-OG, B-TM
-22	수도	O	O	O, I-CV, B-QT, I-OG, I-QT
-23	3	B-QT	B-QT	B-QT, I-QT, O, B-DT, B-PS
-24	##분	I-QT	I-QT	I-QT, O, B-QT, I-PS, I-LC
-25	##의	I-QT	I-QT	I-QT, B-QT, O, I-LC, I-PS
-26	1	I-QT	I-QT	I-QT, B-QT, O, I-LC, I-PS
-27	##로	O	O	O, I-QT, I-OG, I-EV, B-TM
-28	줄어든	O	O	O, B-CV, B-QT, B-TM, B-OG
-29	것	O	O	O, B-CV, B-TM, I-QT, B-OG
-30	##으로	O	O	O, B-CV, B-TM, I-OG, B-QT
-31	알려졌	O	O	O, B-CV, B-OG, B-TM, B-QT
-32	##다	O	O	O, B-CV, I-OG, B-TM, I-QT
-33	.	O	O	O, B-CV, B-LC, B-OG, B-PS
-34	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	■	O	O
+2	불	O	O
+3	##쏘	O	O
+4	##시	O	O
+5	##개	O	O
+6	같	O	O
+7	##던	O	O
+8	억새	B-PT	B-PT
+9	그러나	O	O
+10	야간	O	B-TI
+11	##에	O	O
+12	2	B-QT	B-QT
+13	##만	I-QT	I-QT
+14	##명	I-QT	I-QT
+15	##이	O	O
+16	산	O	O
+17	##꼭	O	O
+18	##대기	O	O
+19	##에	O	O
+20	##서	O	O
+21	불	O	O
+22	##놀이	O	O
+23	##를	O	O
+24	하	O	O
+25	##는	O	O
+26	것	O	O
+27	자체	O	O
+28	##가	O	O
+29	무모한	O	O
+30	일	O	O
+31	##이	O	O
+32	##었	O	O
+33	##다는	O	O
+34	지적	O	O
+35	##을	O	O
+36	받	O	O
+37	##고	O	O
+38	있	O	O
+39	##다	O	O
+40	.	O	O
+41	[SEP]	O	O

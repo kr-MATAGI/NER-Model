@@ -1,33 +1,17 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	실패	O	O	O, B-CV, B-TM, B-OG, B-LC
-2	사례	O	O	O, B-CV, B-LC, B-TM, B-OG
-3	##로	O	O	O, B-LC, B-CV, B-OG, B-TM
-4	##는	O	O	O, B-LC, B-CV, B-OG, B-TM
-5	인도네시아	B-LC	B-LC	B-LC, B-OG, O, B-AF, B-TM
-6	,	O	O	O, I-LC, I-OG, I-AF, B-CV
-7	러시아	B-LC	B-LC	B-LC, B-OG, O, B-AF, B-TM
-8	,	O	O	O, I-LC, I-OG, I-AF, B-CV
-9	호주	B-LC	B-LC	B-LC, B-OG, O, B-AF, I-LC
-10	,	O	O	O, I-LC, I-AF, I-OG, B-LC
-11	이라크	B-LC	B-LC	B-LC, B-OG, O, B-AF, I-LC
-12	,	O	O	O, I-LC, I-AF, I-OG, B-CV
-13	미국	B-LC	B-LC	B-LC, B-OG, O, B-AF, I-LC
-14	멕시코	B-LC	B-LC	B-LC, I-LC, B-OG, O, B-AF
-15	##만	O	I-LC	I-LC, O, I-OG, B-LC, I-PS
-16	유전	O	O	O, I-LC, B-TM, B-LC, B-TR
-17	##개발	O	O	O, I-LC, I-TM, I-TR, I-AF
-18	탐사	O	O	O, I-TR, I-TM, I-LC, B-LC
-19	등	O	O	O, B-LC, B-CV, B-OG, B-TM
-20	14	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-LC
-21	##개	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-TM
-22	국가	O	O	O, I-QT, B-CV, I-OG, I-CV
-23	##를	O	O	O, B-CV, B-LC, I-CV, B-TM
-24	상대	O	O	O, B-CV, B-LC, B-TM, B-QT
-25	##로	O	O	O, B-PS, B-LC, B-CV, B-OG
-26	한	O	O	O, B-QT, B-CV, B-PS, B-OG
-27	투자	O	O	O, B-CV, B-FD, B-OG, B-PS
-28	##였	O	O	O, B-CV, I-CV, I-OG, I-AF
-29	##다	O	O	O, B-CV, B-TM, B-OG, I-OG
-30	.	O	O	O, B-LC, B-CV, B-OG, B-TM
-31	[SEP]	O	O	O, B-LC, B-CV, B-TM, B-FD
+	text	label	preds
+0	[CLS]	O	O
+1	그르	O	O
+2	##치	O	O
+3	자유	O	O
+4	##롭	O	O
+5	##게	O	O
+6	할	O	O
+7	##라면	O	O
+8	자영업	O	B-CV
+9	##밖	O	O
+10	##에	O	O
+11	더	O	O
+12	있	O	O
+13	##어	O	O
+14	?	O	O
+15	[SEP]	O	O

@@ -1,29 +1,17 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-EV, I-CV, I-OG
-1	대다수	O	O	O, B-QT, B-CV, B-PS, B-OG
-2	청와대	B-AF	B-OG	B-OG, B-AF, O, B-PS, B-LC
-3	관계자	B-CV	B-CV	B-CV, I-CV, O, I-AF, I-OG
-4	##들	O	O	O, I-CV, I-EV, I-OG, I-AF
-5	##은	O	O	O, B-CV, B-TM, B-LC, B-PS
-6	10	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-7	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-8	발생	O	O	O, I-DT, B-CV, I-EV, B-EV
-9	##한	O	O	O, B-PS, B-LC, B-EV, B-OG
-10	윤창	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-11	##중	I-PS	I-PS	I-PS, O, I-OG, B-PS, I-LC
-12	전	O	O	O, I-PS, I-EV, I-OG, I-QT
-13	대변인	B-CV	B-CV	B-CV, O, B-EV, B-TM, I-CV
-14	##의	O	O	O, I-CV, I-EV, B-CV, I-AF
-15	성추행	B-CV	B-CV	B-CV, O, I-CV, B-EV, B-FD
-16	사건	O	O	O, I-EV, I-CV, B-CV, B-EV
-17	##으로	O	O	O, I-EV, B-CV, B-PS, I-CV
-18	'	O	O	O, B-LC, B-CV, B-TM, B-DT
-19	멘	O	O	O, B-TM, B-QT, B-LC, B-CV
-20	##붕	O	O	O, I-TM, I-LC, I-QT, B-TM
-21	'	O	O	O, B-CV, B-PS, B-LC, I-TM
-22	상태	O	O	O, B-TM, B-LC, B-CV, B-QT
-23	##에	O	O	O, B-CV, B-PS, I-EV, B-LC
-24	빠졌	O	O	O, B-LC, B-TM, B-CV, B-OG
-25	##다	O	O	O, B-CV, I-EV, B-LC, B-TM
-26	.	O	O	O, B-LC, B-CV, B-PS, I-EV
-27	[SEP]	O	O	O, B-CV, B-LC, I-EV, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	29	B-DT	B-DT
+2	##일	I-DT	I-DT
+3	오전	B-TI	B-TI
+4	11	I-TI	I-TI
+5	##시	I-TI	I-TI
+6	서울	B-AF	B-OG
+7	##중	I-AF	I-OG
+8	##앙	I-AF	I-OG
+9	##지	I-AF	I-OG
+10	##검	I-AF	I-OG
+11	대회	I-AF	O
+12	##의	I-AF	O
+13	##실	I-AF	O
+14	.	O	O
+15	[SEP]	O	O

@@ -1,56 +1,52 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	이	O	O	O, B-CV, B-PS, B-OG, B-TM
-2	##들이	O	O	O, B-CV, B-PS, B-LC, I-CV
-3	일제	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-LC
-4	##강	I-DT	I-DT	I-DT, O, B-DT, I-EV, I-QT
-5	##점	I-DT	I-DT	I-DT, O, B-DT, I-EV, I-QT
-6	##기	I-DT	I-DT	I-DT, O, B-DT, I-EV, I-QT
-7	민	O	O	O, B-CV, B-OG, I-DT, I-CV
-8	##초	O	O	O, I-CV, B-CV, I-OG, I-DT
-9	##들	O	O	O, I-CV, I-OG, B-CV, I-EV
-10	##의	O	O	O, B-CV, B-FD, B-PS, I-CV
-11	수난	O	O	O, B-FD, B-CV, I-FD, I-CV
-12	##사	O	O	O, B-FD, I-FD, I-CV, I-OG
-13	##를	O	O	O, B-CV, B-PS, B-FD, I-CV
-14	다룬	O	O	O, B-FD, B-OG, B-CV, B-LC
-15	창작	B-FD	B-FD	B-FD, O, I-FD, B-CV, B-AF
-16	뮤지컬	I-FD	I-FD	I-FD, B-FD, O, I-AF, I-OG
-17	'	O	O	O, I-FD, B-CV, I-OG, I-CV
-18	아리랑	B-AF	B-AF	B-AF, B-LC, B-PS, B-EV, O
-19	'	O	O	O, I-AF, I-EV, B-CV, I-LC
-20	에서	O	O	O, B-CV, B-LC, B-PS, B-OG
-21	여주인공	O	O	O, B-CV, B-PS, B-LC, B-FD
-22	수	B-PS	B-PS	B-PS, O, B-LC, I-PS, B-OG
-23	##국	I-PS	I-PS	I-PS, O, I-LC, I-OG, B-PS
-24	역	O	O	O, I-PS, B-CV, I-QT, I-LC
-25	##에	O	O	O, B-CV, B-PS, I-QT, B-QT
-26	더블	O	B-QT	B-QT, O, B-TM, B-CV, B-FD
-27	##캐	O	O	O, I-QT, I-CV, I-TM, I-TR
-28	##스	O	O	O, I-QT, I-CV, B-QT, I-TR
-29	##팅	O	O	O, I-QT, B-QT, I-CV, I-TR
-30	##됐	O	O	O, I-QT, B-PS, B-CV, I-CV
-31	##다는	O	O	O, B-QT, B-PS, B-CV, I-QT
-32	말	O	O	O, B-CV, B-QT, B-TM, I-QT
-33	##을	O	O	O, B-CV, B-PS, B-OG, B-TM
-34	들	O	O	O, B-CV, B-TM, B-OG, B-PS
-35	##었	O	O	O, B-CV, B-PS, I-CV, B-TM
-36	##을	O	O	O, B-CV, B-TM, I-CV, B-OG
-37	때	O	O	O, B-CV, B-PS, B-TM, B-QT
-38	의아	O	O	O, B-CV, B-TM, B-PS, B-QT
-39	##해하	O	O	O, I-CV, B-CV, B-PS, I-QT
-40	##는	O	O	O, B-CV, I-CV, B-PS, B-TM
-41	사람	O	O	O, B-CV, B-TM, B-PS, I-CV
-42	##들이	O	O	O, B-CV, I-CV, B-PS, B-TM
-43	있	O	O	O, B-CV, B-TM, B-QT, B-PS
-44	##었	O	O	O, B-CV, I-CV, B-TM, I-QT
-45	##던	O	O	O, B-CV, B-TM, B-LC, B-QT
-46	것	O	O	O, B-CV, B-TM, B-LC, B-OG
-47	##은	O	O	O, B-CV, B-PS, B-TM, B-LC
-48	이	O	O	O, B-PS, B-CV, B-OG, B-TM
-49	때문	O	O	O, B-CV, B-PS, I-QT, B-TM
-50	##이	O	O	O, B-CV, B-PS, B-LC, B-OG
-51	##었	O	O	O, B-CV, I-CV, B-TM, B-LC
-52	##다	O	O	O, B-CV, B-TM, B-LC, I-CV
-53	.	O	O	O, B-CV, B-LC, B-PS, B-OG
-54	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-FD
+	text	label	preds
+0	[CLS]	O	O
+1	제대	O	B-CV
+2	##군	B-CV	I-CV
+3	##인	I-CV	I-CV
+4	정착	O	O
+5	희망자	O	B-CV
+6	##에	O	O
+7	##게	O	O
+8	##는	O	O
+9	가구	O	O
+10	##당	O	O
+11	500	B-QT	B-QT
+12	##만	I-QT	I-QT
+13	##원	I-QT	I-QT
+14	융자	O	O
+15	##지	O	O
+16	##원	O	O
+17	,	O	O
+18	영농	O	O
+19	##지	O	O
+20	##원	O	O
+21	,	O	O
+22	휴	O	O
+23	##경	O	O
+24	##지	O	O
+25	임대	O	O
+26	등이	O	O
+27	제공	O	O
+28	##되	O	O
+29	##며	O	O
+30	셋째	B-QT	B-QT
+31	아이	O	O
+32	##를	O	O
+33	출산	O	O
+34	##하	O	O
+35	##는	O	O
+36	가정	O	O
+37	##은	O	O
+38	3	B-DT	B-DT
+39	##년	I-DT	I-DT
+40	동안	I-DT	I-DT
+41	매월	O	O
+42	50	B-QT	B-QT
+43	##만	I-QT	I-QT
+44	##원	I-QT	I-QT
+45	##이	O	O
+46	지급	O	O
+47	##된	O	O
+48	##다	O	O
+49	.	O	O
+50	[SEP]	O	O

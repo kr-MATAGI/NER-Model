@@ -1,16 +1,32 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, B-CV, I-OG, I-EV
-1	""""	O	O	O, B-CV, B-LC, B-OG, B-PS
-2	中	O	B-OG	B-OG, B-LC, O, B-CV, B-TM
-3	,	O	O	O, I-OG, I-LC, I-CV, B-CV
-4	북한	B-LC	B-LC	B-LC, B-OG, O, B-PS, B-AF
-5	문제	O	O	O, I-OG, I-LC, I-PS, B-CV
-6	입장	O	O	O, B-CV, B-OG, B-PS, B-LC
-7	변화	O	O	O, B-CV, B-PS, B-LC, B-OG
-8	…	O	O	O, B-LC, B-PS, B-OG, B-CV
-9	빨리	O	O	O, B-LC, B-CV, B-PS, B-OG
-10	시진핑	B-PS	B-PS	B-PS, B-OG, O, B-LC, I-PS
-11	만날	O	O	O, B-CV, I-PS, I-EV, B-LC
-12	것	O	O	O, B-PS, B-CV, I-OG, I-EV
-13	""""	O	O	O, B-CV, B-LC, I-OG, B-PS
-14	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	형사	O	B-OG
+2	##과	O	I-OG
+3	직원	B-CV	B-CV
+4	##은	O	O
+5	""""	O	O
+6	수사	O	B-OG
+7	##과	O	I-OG
+8	##가	O	O
+9	놓친	O	O
+10	걸	O	O
+11	왜	O	O
+12	형사	O	B-OG
+13	##과	O	I-OG
+14	##가	O	O
+15	나서	O	O
+16	##서	O	O
+17	잡아	O	O
+18	##야	O	O
+19	하	O	O
+20	##냐	O	O
+21	""""	O	O
+22	고	O	O
+23	볼	O	O
+24	##멘	O	O
+25	##소리	O	O
+26	##를	O	O
+27	했	O	O
+28	##다	O	O
+29	.	O	O
+30	[SEP]	O	O

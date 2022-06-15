@@ -1,41 +1,15 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	백악관	B-OG	B-OG	B-OG, B-AF, O, B-PS, B-LC
-2	측은	O	O	O, I-OG, I-AF, B-OG, I-EV
-3	“	O	O	O, I-OG, B-CV, B-LC, B-OG
-4	한국	B-OG	B-LC	B-LC, B-OG, O, B-PS, B-AF
-5	##이나	O	O	O, I-OG, I-LC, I-AF, B-CV
-6	북한	B-OG	B-LC	B-LC, B-OG, O, B-PS, B-AF
-7	##에	O	O	O, I-OG, I-LC, I-AF, B-CV
-8	대한	O	O	O, B-LC, B-PS, B-OG, B-TM
-9	질문	O	O	O, B-CV, B-LC, B-TM, B-PS
-10	##을	O	O	O, B-CV, B-OG, B-PS, B-LC
-11	받	O	O	O, B-CV, B-LC, B-OG, B-TM
-12	##지	O	O	O, B-CV, B-PS, B-OG, B-LC
-13	않	O	O	O, B-CV, B-PS, B-LC, B-OG
-14	##았	O	O	O, B-CV, B-OG, B-PS, B-LC
-15	##기	O	O	O, B-CV, B-PS, B-OG, B-TM
-16	때문	O	O	O, B-CV, B-PS, B-TM, B-LC
-17	”	O	O	O, B-CV, B-OG, B-LC, B-PS
-18	이라	O	O	O, B-CV, B-OG, B-PS, B-TM
-19	##며	O	O	O, B-OG, B-LC, B-CV, B-TM
-20	“	O	O	O, B-CV, B-LC, B-OG, B-PS
-21	한국	B-OG	B-LC	B-LC, B-OG, O, B-PS, B-AF
-22	##은	O	O	O, I-OG, I-LC, I-AF, B-CV
-23	여전히	O	O	O, B-CV, B-LC, B-OG, I-OG
-24	더	O	O	O, B-LC, B-CV, B-OG, B-PS
-25	##할	O	O	O, B-LC, B-PS, B-OG, I-OG
-26	나위	O	O	O, B-LC, B-PS, B-OG, I-OG
-27	없이	O	O	O, B-LC, B-PS, B-OG, B-CV
-28	가까운	O	O	O, B-LC, B-OG, B-PS, B-CV
-29	미국	B-OG	B-LC	B-LC, B-OG, O, B-PS, B-AF
-30	##의	O	O	O, I-OG, I-LC, I-PS, I-AF
-31	동맹	O	O	O, B-CV, B-OG, B-LC, B-AF
-32	”	O	O	O, I-CV, I-OG, B-CV, I-AF
-33	이라	O	O	O, B-OG, B-PS, B-CV, B-LC
-34	##고	O	O	O, B-CV, B-OG, I-OG, B-LC
-35	설명	O	O	O, B-CV, B-OG, B-TM, I-OG
-36	##했	O	O	O, B-CV, B-OG, I-OG, B-PS
-37	##다	O	O	O, B-CV, B-OG, I-OG, B-TM
-38	.	O	O	O, B-CV, B-LC, B-OG, B-PS
-39	[SEP]	O	O	O, B-CV, B-LC, B-OG, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	일본	B-OG	B-LC
+2	##에	O	O
+3	그	O	O
+4	워	O	O
+5	##딩	O	O
+6	##을	O	O
+7	보	O	O
+8	##면	O	O
+9	사실	O	O
+10	##은	O	O
+11	다시	O	O
+12	##는	O	O
+13	[SEP]	O	O

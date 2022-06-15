@@ -1,71 +1,46 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	동아일보	B-OG	B-OG	B-OG, B-AF, O, B-PS, B-LC
-2	##는	O	O	O, I-OG, I-AF, B-CV, I-DT
-3	한국	B-OG	B-OG	B-OG, B-LC, O, I-OG, B-PS
-4	##언	I-OG	I-OG	I-OG, O, B-OG, I-LC, I-CV
-5	##론	I-OG	I-OG	I-OG, O, I-LC, B-OG, I-CV
-6	##진흥	I-OG	I-OG	I-OG, O, B-OG, I-LC, I-CV
-7	##재단	I-OG	I-OG	I-OG, O, I-LC, I-CV, I-PS
-8	##의	O	O	O, I-OG, I-CV, B-CV, I-PS
-9	후원	O	O	O, B-CV, B-LC, B-TM, I-OG
-10	##을	O	O	O, I-OG, B-PS, B-LC, B-CV
-11	받아	O	O	O, B-LC, B-PS, B-OG, B-CV
-12	홍보	O	O	O, B-CV, B-OG, B-LC, B-TM
-13	##업체	O	O	O, I-CV, B-CV, I-OG, B-OG
-14	##인	O	O	O, I-CV, B-CV, B-PS, I-OG
-15	미디	B-OG	B-OG	B-OG, O, B-PS, I-OG, B-AF
-16	##컴	I-OG	I-OG	I-OG, O, I-LC, I-AF, I-PS
-17	##과	O	O	O, I-OG, I-CV, I-AF, I-LC
-18	함께	O	O	O, B-LC, B-OG, B-TM, B-CV
-19	전국	O	O	O, B-LC, B-CV, B-PS, B-OG
-20	##적	O	O	O, B-LC, B-PS, I-LC, B-QT
-21	관심	O	O	O, B-LC, B-CV, B-PS, B-TM
-22	##이	O	O	O, B-PS, B-LC, B-OG, B-CV
-23	쏠려	O	O	O, B-LC, B-CV, B-PS, B-TM
-24	있	O	O	O, B-LC, B-PS, B-CV, B-TM
-25	##는	O	O	O, B-LC, B-CV, B-PS, B-OG
-26	종로	B-LC	B-LC	B-LC, O, B-AF, B-PS, B-OG
-27	중구	B-LC	B-LC	B-LC, O, I-LC, B-AF, B-PS
-28	동대문	B-LC	B-LC	B-LC, O, I-LC, B-AF, B-PS
-29	##을	I-LC	O	O, I-LC, B-LC, I-AF, B-PS
-30	도봉	B-LC	B-LC	B-LC, O, B-AF, I-LC, B-PS
-31	##갑	I-LC	I-LC	I-LC, O, I-AF, B-LC, B-QT
-32	은평	B-LC	B-LC	B-LC, O, I-LC, B-AF, B-PS
-33	##을	I-LC	O	O, I-LC, B-LC, I-AF, B-PS
-34	서대문	B-LC	B-LC	B-LC, O, I-LC, B-AF, B-PS
-35	##갑	I-LC	I-LC	I-LC, O, B-QT, B-LC, I-AF
-36	영등포	B-LC	B-LC	B-LC, O, I-LC, B-AF, B-PS
-37	##을	I-LC	O	O, I-LC, B-LC, I-AF, B-PS
-38	동작	B-LC	B-LC	B-LC, O, B-AF, I-LC, B-PS
-39	##을	I-LC	O	O, I-LC, B-LC, I-AF, B-PS
-40	관악	B-LC	B-LC	B-LC, O, B-AF, I-LC, B-PS
-41	##을	I-LC	O	O, I-LC, B-LC, I-AF, B-PS
-42	강남	B-LC	B-LC	B-LC, O, B-AF, I-LC, B-PS
-43	##을	I-LC	O	O, I-LC, I-AF, B-LC, I-PS
-44	등	O	O	O, B-LC, I-LC, B-TM, B-PS
-45	서울	B-LC	B-LC	B-LC, O, B-AF, B-OG, I-LC
-46	10	B-QT	B-QT	B-QT, I-LC, O, B-LC, I-QT
-47	##곳	I-QT	I-QT	I-QT, I-LC, O, I-AF, B-QT
-48	##의	O	O	O, I-QT, B-LC, I-LC, B-PS
-49	여야	O	O	O, B-LC, B-OG, B-CV, B-PS
-50	후보	B-CV	B-CV	B-CV, O, I-CV, B-AF, B-EV
-51	##와	O	O	O, I-CV, I-EV, I-OG, B-CV
-52	관련	O	O	O, B-CV, B-LC, B-TM, B-OG
-53	##된	O	O	O, B-LC, B-OG, B-PS, B-CV
-54	트위터	B-TM	B-TM	B-TM, O, B-LC, B-AF, B-CV
-55	발생	O	O	O, I-TM, I-OG, I-AF, B-CV
-56	추이	O	O	O, B-LC, B-TM, B-CV, B-PS
-57	##를	O	O	O, B-LC, B-CV, B-OG, B-TM
-58	26	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-CV
-59	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-60	##부터	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-CV
-61	29	I-DT	I-DT	I-DT, B-DT, O, I-QT, I-PS
-62	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-OG
-63	##까	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-OG
-64	##지	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-CV
-65	분석	O	O	O, I-DT, B-CV, B-LC, B-OG
-66	##했	O	O	O, B-LC, B-OG, B-CV, I-DT
-67	##다	O	O	O, B-CV, B-LC, B-OG, B-TM
-68	.	O	O	O, B-LC, B-OG, B-PS, B-CV
-69	[SEP]	O	O	O, B-LC, B-CV, B-OG, I-LC
+	text	label	preds
+0	[CLS]	O	O
+1	안성	B-LC	B-LC
+2	##시	I-LC	I-LC
+3	사	B-LC	B-AF
+4	##곡	I-LC	I-AF
+5	##당	I-LC	I-AF
+6	태평	B-AF	B-AF
+7	##무	I-AF	I-AF
+8	전수	I-AF	I-AF
+9	##관	I-AF	I-AF
+10	##에	O	O
+11	##서는	O	O
+12	중요	B-AF	O
+13	##무	I-AF	O
+14	##형	I-AF	O
+15	##문화재	I-AF	O
+16	92	I-AF	B-QT
+17	##호	I-AF	I-AF
+18	##인	O	O
+19	태평	O	O
+20	##무가	O	O
+21	다음	B-DT	B-DT
+22	##달	I-DT	I-DT
+23	17	I-DT	I-DT
+24	##일	I-DT	I-DT
+25	##부터	I-DT	I-DT
+26	매주	O	O
+27	토요일	B-DT	B-DT
+28	무료	O	O
+29	상설	O	O
+30	##공	O	O
+31	##연	O	O
+32	##마당	O	O
+33	##을	O	O
+34	통해	O	O
+35	일반	O	O
+36	시민	B-CV	B-CV
+37	##들	O	O
+38	##에	O	O
+39	##게	O	O
+40	첫선	O	O
+41	##을	O	O
+42	보인다	O	O
+43	.	O	O
+44	[SEP]	O	O

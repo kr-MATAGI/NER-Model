@@ -1,87 +1,13 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	영국	B-LC	B-LC	B-LC, B-OG, O, B-PS, B-AF
-2	##에	O	O	O, I-LC, B-LC, I-OG, I-AF
-3	##선	O	O	O, B-LC, B-PS, B-OG, I-LC
-4	올해	B-DT	B-DT	B-DT, O, I-DT, B-LC, B-QT
-5	초	I-DT	I-DT	I-DT, O, B-DT, I-PS, I-QT
-6	머	B-PS	B-PS	B-PS, I-PS, O, B-OG, B-LC
-7	##빈	I-PS	I-PS	I-PS, O, I-OG, I-DT, I-LC
-8	데이비스	I-PS	I-PS	I-PS, O, B-PS, B-LC, I-OG
-9	전	O	O	O, I-PS, B-CV, B-OG, B-LC
-10	통상	B-CV	B-CV	B-CV, O, I-CV, B-FD, B-OG
-11	##장	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-QT
-12	##관	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-QT
-13	##이	O	O	O, I-CV, B-PS, I-OG, B-CV
-14	이끄	O	O	O, B-OG, B-CV, B-PS, B-LC
-15	##는	O	O	O, B-OG, B-PS, B-LC, I-OG
-16	정부	B-OG	B-OG	B-OG, O, B-CV, B-LC, I-OG
-17	위원회	O	O	O, I-OG, B-OG, I-EV, I-CV
-18	##가	O	O	O, I-OG, B-PS, B-OG, I-EV
-19	‘	O	O	O, B-LC, B-OG, B-CV, B-PS
-20	향후	O	O	O, B-DT, B-PS, I-DT, B-LC
-21	5	B-DT	B-DT	B-DT, I-DT, O, B-LC, B-EV
-22	##년	I-DT	I-DT	I-DT, O, B-DT, I-PS, I-QT
-23	안	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-24	##에	O	O	O, I-DT, B-PS, B-OG, B-LC
-25	이사회	O	O	O, B-CV, B-OG, B-FD, B-TM
-26	##의	O	O	O, B-PS, B-OG, B-CV, B-LC
-27	여성	O	O	O, B-CV, B-TM, B-LC, B-OG
-28	중	O	O	O, B-CV, B-QT, B-PS, B-LC
-29	##역	O	O	O, I-CV, I-QT, I-PS, I-LC
-30	비율	O	O	O, B-LC, B-TM, B-QT, B-PS
-31	##을	O	O	O, B-LC, B-OG, B-PS, B-CV
-32	현재	O	O	O, B-QT, B-LC, B-CV, B-OG
-33	##보	O	O	O, B-PS, B-CV, B-OG, B-QT
-34	##다	O	O	O, B-PS, B-LC, B-QT, B-CV
-35	2	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-LC
-36	##배	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-37	많	O	O	O, I-QT, B-QT, B-OG, B-CV
-38	##은	O	O	O, B-QT, B-LC, B-OG, B-PS
-39	전체	O	O	O, B-QT, B-TM, B-OG, B-CV
-40	25	B-QT	B-QT	B-QT, I-QT, O, B-DT, B-PS
-41	%	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-OG
-42	까지	O	O	O, I-QT, B-OG, B-LC, B-PS
-43	확대	O	O	O, B-LC, B-OG, B-CV, B-PS
-44	##하라	O	O	O, B-PS, B-LC, B-CV, B-OG
-45	’	O	O	O, B-CV, B-OG, B-LC, B-PS
-46	고	O	O	O, B-CV, B-LC, B-OG, B-PS
-47	권고	O	O	O, B-CV, B-LC, B-OG, B-PS
-48	##한	O	O	O, B-OG, B-PS, B-LC, B-CV
-49	뒤	O	O	O, B-LC, B-OG, B-CV, B-PS
-50	,	O	O	O, B-LC, B-OG, B-CV, B-PS
-51	지난	B-DT	B-DT	B-DT, O, I-DT, B-OG, B-LC
-52	6	I-DT	I-DT	I-DT, O, B-DT, I-PS, I-QT
-53	##개	I-DT	I-DT	I-DT, O, B-DT, I-PS, I-QT
-54	##월	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-55	동안	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-56	영국	B-LC	B-LC	B-LC, B-OG, O, B-AF, B-EV
-57	증시	O	O	O, I-LC, I-OG, B-LC, I-AF
-58	(	O	O	O, I-OG, B-LC, I-LC, I-AF
-59	FT	B-AF	B-OG	B-OG, O, B-LC, B-AF, B-EV
-60	##S	I-AF	I-OG	I-OG, O, I-LC, I-AF, I-EV
-61	##E	I-AF	I-OG	I-OG, O, I-LC, I-AF, I-EV
-62	)	O	O	O, I-OG, I-AF, I-LC, I-EV
-63	상장	O	O	O, B-OG, B-LC, B-AF, B-CV
-64	100	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-LC
-65	##대	I-QT	I-QT	I-QT, O, I-LC, I-OG, I-EV
-66	기업	O	O	O, I-QT, B-CV, I-OG, B-OG
-67	##의	O	O	O, B-CV, B-OG, B-LC, B-PS
-68	여성	O	O	O, B-CV, B-TM, B-LC, B-OG
-69	임원	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-OG
-70	비율	O	O	O, I-CV, I-QT, B-TM, B-CV
-71	##은	O	O	O, B-CV, B-OG, B-LC, B-TM
-72	13	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-PS
-73	.	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-74	3	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-75	%	I-QT	I-QT	I-QT, O, I-LC, I-PS, I-OG
-76	에서	O	O	O, I-QT, B-LC, B-PS, B-CV
-77	31	B-QT	B-QT	B-QT, I-QT, O, B-DT, B-LC
-78	%	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-79	로	O	O	O, I-QT, I-OG, B-CV, I-EV
-80	크	O	O	O, B-QT, B-OG, B-CV, B-LC
-81	##게	O	O	O, B-LC, B-OG, B-PS, I-OG
-82	늘어났	O	O	O, B-LC, B-CV, B-OG, B-TM
-83	##다	O	O	O, B-CV, B-OG, B-LC, I-OG
-84	.	O	O	O, B-LC, B-OG, B-CV, B-PS
-85	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	난	B-LC	B-LC
+2	##바	I-LC	I-LC
+3	##역	I-LC	I-LC
+4	##은	O	O
+5	제이	B-AF	B-TM
+6	##알	I-AF	I-TM
+7	##선	I-AF	I-TM
+8	##에다	O	O
+9	##가	O	O
+10	그	O	O
+11	[SEP]	O	O

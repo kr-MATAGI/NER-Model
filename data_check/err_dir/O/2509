@@ -1,25 +1,37 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	우연히	O	O	O, B-CV, B-PS, B-OG, B-TM
-2	밴드	O	B-CV	B-CV, O, B-PS, B-OG, B-AF
-3	##스타	O	I-CV	I-CV, O, B-CV, I-PS, I-OG
-4	##킹	O	I-CV	I-CV, O, I-PS, I-OG, B-CV
-5	##을	O	O	O, I-CV, B-PS, I-OG, I-AF
-6	발견	O	O	O, B-CV, B-TM, B-QT, B-PS
-7	##해	O	O	O, B-PS, I-CV, I-QT, B-LC
-8	입	O	O	O, B-CV, B-PS, B-AM, I-CV
-9	##어	O	O	O, I-CV, B-CV, B-PS, I-QT
-10	##본	O	O	O, B-PS, I-QT, B-CV, I-PS
-11	그	O	O	O, B-CV, B-PS, I-CV, I-AF
-12	##는	O	O	O, B-CV, B-PS, I-AF, I-CV
-13	여자	O	O	O, B-CV, B-AM, B-PS, B-TM
-14	##로	O	O	O, B-PS, B-CV, B-QT, I-AF
-15	##서	O	O	O, B-CV, B-PS, B-LC, B-QT
-16	살아	O	O	O, B-CV, B-QT, B-PS, B-LC
-17	##보기	O	O	O, B-PS, I-QT, B-CV, B-QT
-18	##로	O	O	O, B-CV, B-PS, I-QT, I-CV
-19	결심	O	O	O, B-CV, B-TM, B-QT, B-PS
-20	##했	O	O	O, B-CV, B-PS, I-CV, B-LC
-21	##다	O	O	O, B-CV, I-CV, I-OG, I-AF
-22	.	O	O	O, B-CV, B-PS, B-LC, I-AF
-23	[SEP]	O	O	O, B-CV, B-PS, I-CV, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	가	B-PS	B-PS
+2	##빈	I-PS	I-PS
+3	##은	O	O
+4	24	B-DT	B-DT
+5	##일	I-DT	I-DT
+6	천안	B-LC	B-LC
+7	유관	B-AF	B-AF
+8	##순	I-AF	I-AF
+9	##체육	I-AF	I-AF
+10	##관	I-AF	I-AF
+11	##에	O	O
+12	##서	O	O
+13	열린	O	O
+14	남자	O	O
+15	플레이오프	B-EV	B-EV
+16	2	B-EV	B-EV
+17	##차	I-EV	I-EV
+18	##전	I-EV	I-EV
+19	##에	O	O
+20	##서	O	O
+21	프로	B-CV	B-CV
+22	##배	I-CV	I-CV
+23	##구	I-CV	I-CV
+24	한	O	B-QT
+25	경기	O	I-QT
+26	개인	O	O
+27	최다	O	O
+28	##인	O	O
+29	57	B-QT	B-QT
+30	##점	I-QT	I-QT
+31	##을	O	O
+32	올렸	O	O
+33	##다	O	O
+34	.	O	O
+35	[SEP]	O	O

@@ -1,17 +1,21 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-EV
-1	내달	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-CV
-2	말	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
-3	주재	O	O	O, I-DT, B-CV, B-EV, B-OG
-4	##키	O	O	O, B-LC, B-PS, B-OG, I-EV
-5	##로	O	O	O, B-PS, B-OG, B-CV, B-LC
-6	…	O	O	O, B-OG, B-LC, B-PS, B-CV
-7	연일	O	O	O, B-LC, B-DT, B-PS, B-QT
-8	'	O	O	O, B-LC, B-CV, B-PS, B-OG
-9	대선	O	B-EV	B-EV, O, B-CV, B-AF, B-OG
-10	주자	O	B-CV	B-CV, O, I-CV, I-EV, B-PS
-11	##급	O	O	O, I-CV, I-QT, I-PS, I-EV
-12	'	O	O	O, I-CV, B-PS, I-QT, B-OG
-13	민생	O	O	O, B-LC, B-CV, B-TM, B-OG
-14	행보	O	O	O, B-OG, B-CV, B-LC, B-TM
-15	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	나	O	O
+2	##도	O	O
+3	집	O	O
+4	##에	O	O
+5	젖	O	B-CV
+6	##먹이	O	I-CV
+7	##가	O	O
+8	둘	B-QT	B-QT
+9	있	O	O
+10	##다는	O	O
+11	것	O	O
+12	##이	O	O
+13	떠오르	O	O
+14	##긴	O	O
+15	했	O	O
+16	##지만	O	O
+17	…	O	O
+18	.	O	O
+19	[SEP]	O	O

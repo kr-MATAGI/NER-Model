@@ -1,87 +1,35 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-EV, I-CV, I-OG
-1	김	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
-2	의원	B-CV	B-CV	B-CV, O, I-PS, I-CV, B-OG
-3	##은	O	O	O, I-CV, B-CV, I-EV, I-OG
-4	“	O	O	O, B-CV, B-LC, B-OG, B-TM
-5	병역	B-CV	B-CV	B-CV, O, B-OG, I-CV, B-AF
-6	##세	I-CV	I-CV	I-CV, O, I-OG, I-TM, I-AF
-7	##를	O	O	O, I-CV, I-OG, B-CV, I-EV
-8	부과	O	O	O, B-CV, B-PS, B-LC, I-CV
-9	##해	O	O	O, B-PS, B-LC, B-OG, B-CV
-10	마련	O	O	O, B-CV, B-TM, B-PS, B-LC
-11	##한	O	O	O, B-PS, B-LC, B-CV, B-OG
-12	재원	O	O	O, B-CV, I-CV, B-PS, B-TM
-13	##으로	O	O	O, B-PS, B-LC, B-CV, B-TM
-14	‘	O	O	O, B-CV, B-LC, B-OG, B-PS
-15	안보	O	O	O, B-CV, B-AF, I-CV, B-PS
-16	##평	O	O	O, I-CV, B-CV, I-AF, I-TM
-17	##화기	O	O	O, I-CV, B-CV, I-AF, I-TM
-18	##금	O	O	O, I-CV, I-AF, I-TM, B-CV
-19	’	O	O	O, I-CV, B-PS, B-CV, B-LC
-20	을	O	O	O, B-CV, B-PS, B-LC, B-OG
-21	조성	O	O	O, B-CV, B-PS, B-LC, B-TM
-22	##해	O	O	O, B-PS, B-LC, B-CV, B-OG
-23	사드	B-AF	B-AF	B-AF, O, B-TM, I-AF, B-LC
-24	(	O	O	O, I-AF, I-OG, B-CV, I-EV
-25	THAAD	O	B-AF	B-AF, O, B-TM, I-AF, B-LC
-26	·	O	O	O, I-AF, I-OG, B-CV, I-TM
-27	고고	B-AF	B-AF	B-AF, O, I-AF, B-TM, B-LC
-28	##도	I-AF	I-AF	I-AF, O, B-AF, I-TM, I-OG
-29	##미사	I-AF	I-AF	I-AF, O, B-AF, I-TM, I-QT
-30	##일	I-AF	I-AF	I-AF, O, B-AF, I-QT, I-TM
-31	##방	I-AF	I-AF	I-AF, O, B-AF, I-TM, I-QT
-32	##어	I-AF	I-AF	I-AF, O, B-AF, I-QT, I-TM
-33	##체	I-AF	I-AF	I-AF, O, B-AF, I-QT, I-TM
-34	##계	I-AF	I-AF	I-AF, O, B-AF, I-QT, I-TM
-35	)	O	O	O, I-AF, I-EV, I-CV, I-OG
-36	배치	O	O	O, B-LC, B-CV, B-TM, B-OG
-37	지역	O	O	O, B-LC, B-PS, B-TM, B-CV
-38	같	O	O	O, B-LC, B-PS, B-OG, B-CV
-39	##은	O	O	O, B-LC, B-PS, B-OG, B-CV
-40	군사	O	O	O, B-LC, B-CV, B-TM, B-AF
-41	##시설	O	O	O, I-LC, I-CV, I-AF, B-LC
-42	밀집	O	O	O, B-LC, B-PS, B-TM, B-AF
-43	지역	O	O	O, B-LC, B-CV, B-TM, B-PS
-44	지원	O	O	O, B-LC, B-CV, B-TM, B-PS
-45	##과	O	O	O, B-PS, B-LC, B-CV, B-OG
-46	현역	B-CV	B-CV	B-CV, O, B-OG, B-AF, B-TM
-47	##병	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-EV
-48	복지	O	O	O, I-CV, B-TM, I-TM, B-CV
-49	사업	O	O	O, I-CV, I-TM, B-CV, I-TR
-50	지원	O	O	O, I-CV, B-CV, B-PS, B-LC
-51	##에	O	O	O, B-PS, B-LC, B-CV, B-OG
-52	쓸	O	O	O, B-CV, B-LC, B-TM, B-PS
-53	수	O	O	O, B-PS, B-LC, B-CV, B-OG
-54	있	O	O	O, B-PS, B-CV, B-LC, B-OG
-55	##을	O	O	O, B-LC, B-CV, B-PS, B-OG
-56	것	O	O	O, B-CV, B-PS, B-LC, B-OG
-57	”	O	O	O, B-CV, B-LC, B-PS, B-TM
-58	이라	O	O	O, B-CV, B-PS, B-OG, B-LC
-59	##며	O	O	O, B-CV, B-LC, B-TM, B-OG
-60	“	O	O	O, B-CV, B-LC, B-OG, B-PS
-61	액수	O	O	O, B-CV, B-LC, B-TM, B-OG
-62	##를	O	O	O, B-PS, B-LC, B-CV, B-OG
-63	떠나	O	O	O, B-PS, B-CV, B-LC, B-OG
-64	국방	O	B-CV	B-CV, O, B-OG, B-FD, B-AF
-65	##의	O	O	O, I-CV, I-OG, I-EV, I-AF
-66	의무	O	O	O, I-CV, B-CV, I-EV, I-OG
-67	##를	O	O	O, I-CV, B-PS, B-CV, B-LC
-68	온	O	O	O, B-PS, B-LC, B-CV, B-QT
-69	국민	B-CV	B-CV	B-CV, O, I-CV, B-EV, B-TM
-70	##이	O	O	O, I-CV, B-PS, B-CV, I-EV
-71	다	O	O	O, B-QT, B-PS, B-CV, B-TM
-72	같이	O	O	O, B-CV, B-PS, B-QT, B-TM
-73	진다는	O	O	O, B-CV, B-PS, B-LC, B-QT
-74	데	O	O	O, B-PS, B-LC, B-CV, B-OG
-75	의미	O	O	O, B-CV, B-LC, B-PS, I-QT
-76	##가	O	O	O, B-PS, B-OG, B-CV, B-LC
-77	있	O	O	O, B-CV, B-PS, B-OG, B-LC
-78	##다	O	O	O, B-CV, B-OG, B-LC, B-PS
-79	”	O	O	O, B-CV, B-TM, B-LC, B-OG
-80	고	O	O	O, B-CV, B-TM, B-LC, B-QT
-81	말	O	O	O, B-CV, B-TM, I-QT, I-CV
-82	##했	O	O	O, B-CV, B-PS, B-LC, I-CV
-83	##다	O	O	O, B-CV, B-LC, B-TM, B-OG
-84	.	O	O	O, B-LC, B-PS, B-CV, B-OG
-85	[SEP]	O	O	O, B-CV, B-LC, B-PS, I-EV
+	text	label	preds
+0	[CLS]	O	O
+1	특히	O	O
+2	조	B-PS	B-PS
+3	국장	B-CV	B-CV
+4	##은	O	O
+5	채	B-PS	B-PS
+6	군의	O	O
+7	가족	O	B-CV
+8	##부	O	O
+9	##를	O	O
+10	조회	O	O
+11	##하	O	O
+12	##는	O	O
+13	과정	O	O
+14	##에	O	O
+15	##서	O	O
+16	대법원	B-OG	B-OG
+17	심사	O	O
+18	##와	O	O
+19	승인	O	O
+20	##을	O	O
+21	거치	O	O
+22	##도록	O	O
+23	한	O	O
+24	관련	O	O
+25	법규	O	O
+26	##를	O	O
+27	어긴	O	O
+28	것	O	O
+29	##으로	O	O
+30	나타났	O	O
+31	##다	O	O
+32	.	O	O
+33	[SEP]	O	O

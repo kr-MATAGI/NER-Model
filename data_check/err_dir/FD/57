@@ -1,20 +1,29 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-QT
-1	나란히	O	O	O, B-QT, B-OG, B-LC, B-CV
-2	1	B-QT	B-QT	B-QT, O, B-EV, I-QT, B-AF
-3	##집	I-QT	I-QT	I-QT, O, I-EV, I-OG, I-LC
-4	낸	O	O	O, I-QT, B-CV, B-PS, I-EV
-5	컨트리	B-FD	B-FD	B-FD, O, B-TR, B-TM, B-AF
-6	포크	B-FD	I-FD	I-FD, B-FD, O, I-TR, I-TM
-7	블루스	B-FD	I-FD	I-FD, B-FD, O, I-TR, I-TM
-8	싱어	B-CV	B-CV	B-CV, O, B-FD, B-TM, I-FD
-9	##송	I-CV	I-CV	I-CV, O, B-CV, I-FD, I-TM
-10	##라이터	I-CV	I-CV	I-CV, O, B-CV, I-FD, I-TM
-11	김대중	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-12	-	O	O	O, I-PS, B-CV, B-PS, I-OG
-13	일	B-PS	B-PS	B-PS, O, B-LC, B-OG, I-PS
-14	##두	I-PS	I-PS	I-PS, O, I-LC, I-OG, I-QT
-15	-	O	O	O, I-PS, B-CV, B-LC, I-OG
-16	태	B-PS	B-PS	B-PS, O, I-PS, B-LC, B-OG
-17	##춘	I-PS	I-PS	I-PS, O, I-LC, I-OG, I-QT
-18	[SEP]	O	O	O, I-PS, B-LC, I-OG, B-CV
+	text	label	preds
+0	[CLS]	O	O
+1	■	O	O
+2	가산점	O	O
+3	##도	O	O
+4	따져	O	O
+5	##봐야	O	O
+6	올해	B-DT	B-DT
+7	정시	O	O
+8	##에	O	O
+9	##서	O	O
+10	수리	B-FD	O
+11	‘	B-QT	O
+12	가	I-QT	O
+13	’	I-QT	O
+14	형	I-QT	O
+15	##에	O	O
+16	가산점	O	O
+17	##을	O	O
+18	주	O	O
+19	##는	O	O
+20	대학	O	O
+21	##은	O	O
+22	모두	O	O
+23	125	B-QT	B-QT
+24	##곳	I-QT	I-QT
+25	##이다	O	O
+26	.	O	O
+27	[SEP]	O	O

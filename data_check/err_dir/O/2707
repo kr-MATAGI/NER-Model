@@ -1,42 +1,49 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	7	B-QT	B-QT	B-QT, O, I-QT, B-EV, B-DT
-2	##위	I-QT	I-QT	I-QT, O, I-EV, I-OG, I-DT
-3	엘지	B-OG	B-OG	B-OG, O, I-QT, I-OG, B-LC
-4	##는	O	O	O, I-OG, I-QT, I-EV, B-CV
-5	양상	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-6	##문	I-PS	I-PS	I-PS, O, I-OG, B-PS, I-LC
-7	감독	B-CV	B-CV	B-CV, O, I-PS, I-CV, B-OG
-8	##이	O	O	O, I-CV, B-PS, I-EV, B-CV
-9	취임	O	O	O, B-CV, B-EV, B-PS, B-LC
-10	##한	O	O	O, B-PS, I-EV, I-CV, B-LC
-11	뒤	O	O	O, B-PS, B-LC, B-CV, I-PS
-12	상승	O	O	O, B-LC, B-TM, B-PS, B-OG
-13	##곡	O	O	O, B-LC, B-PS, I-LC, B-TM
-14	##선	O	O	O, B-LC, I-LC, B-PS, I-PS
-15	##을	O	O	O, B-LC, B-PS, B-OG, B-CV
-16	타고	O	O	O, B-LC, B-PS, B-OG, B-AF
-17	있	O	O	O, B-PS, B-LC, B-OG, B-CV
-18	##어	O	O	O, B-PS, B-LC, B-OG, I-OG
-19	후반기	O	B-DT	B-DT, O, B-TI, I-DT, B-QT
-20	모든	O	O	O, I-DT, B-PS, I-QT, I-EV
-21	3	B-QT	B-QT	B-QT, O, B-EV, I-QT, B-TM
-22	##연	I-QT	I-QT	I-QT, O, I-EV, B-QT, I-LC
-23	##전	I-QT	I-QT	I-QT, O, I-EV, I-LC, B-QT
-24	##을	O	O	O, I-QT, I-EV, B-CV, B-PS
-25	위	O	O	O, B-EV, B-TM, B-LC, B-CV
-26	##닝	O	O	O, I-EV, I-TM, B-EV, B-LC
-27	##시	O	O	O, I-EV, B-EV, B-LC, B-TM
-28	##리	O	O	O, I-EV, B-EV, B-LC, I-TM
-29	##즈	O	O	O, I-EV, B-EV, I-TM, B-LC
-30	##로	O	O	O, I-EV, B-PS, I-TM, B-LC
-31	만든다	O	O	O, B-LC, B-EV, B-TM, B-PS
-32	##는	O	O	O, B-PS, B-CV, I-EV, B-LC
-33	각오	O	O	O, B-EV, B-LC, B-CV, I-EV
-34	##로	O	O	O, I-EV, I-OG, B-CV, I-QT
-35	임하	O	O	O, B-CV, B-LC, B-EV, B-OG
-36	##고	O	O	O, B-CV, B-OG, B-LC, B-PS
-37	있	O	O	O, B-CV, B-OG, B-TM, B-LC
-38	##다	O	O	O, B-CV, I-OG, B-QT, B-TM
-39	.	O	O	O, B-LC, B-PS, B-CV, B-OG
-40	[SEP]	O	O	O, B-LC, B-PS, B-CV, I-EV
+	text	label	preds
+0	[CLS]	O	O
+1	이어	O	O
+2	11	B-DT	B-DT
+3	##일	I-DT	I-DT
+4	마	B-LC	B-LC
+5	##로	I-LC	I-LC
+6	##면	I-LC	I-LC
+7	송	B-LC	B-LC
+8	##현	I-LC	I-LC
+9	##리	I-LC	I-LC
+10	한우	O	B-AM
+11	농장	O	O
+12	##에	O	O
+13	##서	O	O
+14	구제역	B-TM	B-TM
+15	##이	O	O
+16	발생	O	O
+17	##하면	O	O
+18	##서	O	O
+19	위험	O	O
+20	지역	O	O
+21	##이	O	O
+22	반경	O	O
+23	460	B-QT	B-QT
+24	##m	I-QT	I-QT
+25	안	O	I-QT
+26	##으로	O	O
+27	좁혀	O	O
+28	##졌	O	O
+29	##지만	O	O
+30	,	O	O
+31	12	B-DT	B-DT
+32	##일	I-DT	I-DT
+33	발생	O	O
+34	##한	O	O
+35	구제역	B-TM	B-TM
+36	##은	O	O
+37	탄	O	B-LC
+38	##부	O	I-LC
+39	##면	O	I-LC
+40	상장	O	B-LC
+41	##리	O	I-LC
+42	##까	O	O
+43	##지	O	O
+44	번졌	O	O
+45	##다	O	O
+46	.	O	O
+47	[SEP]	O	O

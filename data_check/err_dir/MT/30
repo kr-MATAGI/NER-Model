@@ -1,52 +1,21 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	사전	O	O	O, B-LC, B-PS, B-CV, B-DT
-2	##조치	O	O	O, B-LC, B-CV, B-PS, I-LC
-3	##로	O	O	O, B-LC, B-PS, B-OG, B-CV
-4	##는	O	O	O, B-LC, B-OG, B-CV, B-PS
-5	핵무기	B-AF	B-AF	B-AF, O, B-MT, I-AF, B-TM
-6	생산	O	O	O, I-AF, B-LC, I-LC, I-OG
-7	##과	O	O	O, B-LC, B-PS, I-AF, I-LC
-8	실험	O	O	O, B-LC, B-CV, B-TM, B-PS
-9	중단	O	O	O, B-LC, B-CV, B-TM, B-PS
-10	,	O	O	O, B-LC, B-OG, B-PS, B-CV
-11	탄도	B-AF	B-AF	B-AF, O, B-TM, B-LC, I-AF
-12	##미사	I-AF	I-AF	I-AF, O, B-AF, I-TM, I-EV
-13	##일	I-AF	I-AF	I-AF, O, I-EV, I-TM, I-OG
-14	발사	O	O	O, I-AF, I-EV, B-LC, I-TM
-15	중단	O	O	O, B-LC, I-AF, B-CV, B-TM
-16	,	O	O	O, B-LC, B-OG, B-PS, B-CV
-17	국제	B-OG	B-OG	B-OG, O, B-EV, B-LC, I-OG
-18	##원	I-OG	I-OG	I-OG, I-EV, O, I-LC, B-OG
-19	##자	I-OG	I-OG	I-OG, O, I-EV, I-LC, I-AF
-20	##력	I-OG	I-OG	I-OG, O, I-EV, I-LC, I-AF
-21	##기구	I-OG	I-OG	I-OG, O, I-EV, I-LC, I-AF
-22	(	O	O	O, I-OG, I-EV, I-DT, B-CV
-23	IA	B-OG	B-OG	B-OG, I-OG, O, B-EV, I-EV
-24	##EA	I-OG	I-OG	I-OG, O, I-EV, I-LC, I-CV
-25	)	O	O	O, I-OG, I-EV, I-DT, I-CV
-26	조사단	O	O	O, I-OG, B-OG, B-CV, I-CV
-27	##의	O	O	O, I-OG, I-CV, B-LC, I-DT
-28	영변	O	B-LC	B-LC, O, B-AF, B-PS, B-TM
-29	핵	O	B-AF	B-AF, O, I-AF, B-MT, B-LC
-30	##시설	O	O	O, I-AF, I-LC, B-LC, I-CV
-31	복귀	O	O	O, B-LC, I-AF, B-CV, I-LC
-32	,	O	O	O, B-LC, B-OG, B-PS, B-CV
-33	우라늄	B-MT	B-TM	B-TM, O, B-TR, B-MT, B-AF
-34	##농	O	I-TM	I-TM, O, B-TM, I-AF, I-TR
-35	##축	O	I-TM	I-TM, O, I-AF, I-TR, B-TM
-36	##프로	O	I-TM	I-TM, O, I-AF, B-TM, I-QT
-37	##그램	O	I-TM	I-TM, O, I-QT, I-AF, I-TR
-38	(	O	O	O, I-TM, B-LC, I-OG, I-CV
-39	UE	O	B-TM	B-TM, O, I-TM, B-AF, B-QT
-40	##P	O	I-TM	I-TM, O, I-AF, I-QT, I-OG
-41	)	O	O	O, I-TM, I-AF, I-OG, B-LC
-42	시설	O	O	O, B-LC, B-CV, B-AF, B-PS
-43	##에	O	O	O, B-LC, B-CV, B-PS, B-TM
-44	대한	O	O	O, B-LC, B-OG, B-TM, B-PS
-45	조사	O	O	O, B-LC, B-CV, B-PS, B-TM
-46	등	O	O	O, B-LC, B-CV, B-PS, B-OG
-47	##이	O	O	O, B-PS, B-LC, B-OG, B-CV
-48	꼽힌다	O	O	O, B-LC, B-CV, B-OG, B-QT
-49	.	O	O	O, B-LC, B-TM, B-PS, B-OG
-50	[SEP]	O	O	O, B-LC, B-CV, B-TM, B-AF
+	text	label	preds
+0	[CLS]	O	O
+1	북한	B-LC	B-LC
+2	##에	O	O
+3	핵	B-MT	B-AF
+4	시설	O	O
+5	##에	O	O
+6	갱	O	O
+7	##도	O	O
+8	자체	O	O
+9	##가	O	O
+10	일단	O	O
+11	구	B-QT	O
+12	##중	I-QT	O
+13	차단	O	O
+14	##문	O	O
+15	##으로	O	O
+16	이루어져	O	O
+17	있	O	O
+18	##고	O	O
+19	[SEP]	O	O

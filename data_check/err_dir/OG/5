@@ -1,14 +1,23 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	하지만	O	O	O, B-CV, B-OG, B-TM, B-QT
-2	아르헨티나	B-OG	B-LC	B-LC, B-OG, O, B-PS, B-AF
-3	##와	O	O	O, I-OG, I-LC, I-AF, I-PS
-4	브라질	B-OG	B-LC	B-LC, B-OG, O, B-PS, I-OG
-5	##은	O	O	O, I-OG, I-LC, I-AF, B-CV
-6	일찍	O	O	O, B-CV, B-LC, B-TM, B-OG
-7	짐	O	O	O, B-CV, B-TM, B-LC, B-AF
-8	##을	O	O	O, B-CV, B-OG, B-LC, B-PS
-9	쌌	O	O	O, B-CV, B-OG, B-LC, I-OG
-10	##다	O	O	O, B-CV, I-OG, I-CV, B-TM
-11	.	O	O	O, B-CV, B-LC, B-OG, I-OG
-12	[SEP]	O	O	O, B-CV, I-OG, B-LC, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	평택	B-OG	B-OG
+2	##기지	I-OG	I-OG
+3	건설	O	O
+4	##이	O	O
+5	북쪽	B-OG	B-LC
+6	##만	O	O
+7	##을	O	O
+8	겨냥	O	O
+9	##한	O	O
+10	것	O	O
+11	##이	O	O
+12	##라고	O	O
+13	생각	O	O
+14	##하	O	O
+15	##는	O	O
+16	사람	O	O
+17	##은	O	O
+18	없	O	O
+19	##다	O	O
+20	.	O	O
+21	[SEP]	O	O

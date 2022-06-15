@@ -1,45 +1,40 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	오	B-PS	B-PS	B-PS, O, B-LC, B-OG, I-PS
-2	시장	B-CV	B-CV	B-CV, O, I-PS, I-CV, B-OG
-3	##의	O	O	O, I-CV, B-CV, B-PS, I-EV
-4	보좌관	B-CV	B-CV	B-CV, O, B-OG, I-CV, B-PS
-5	출신	O	O	O, I-CV, B-CV, B-PS, I-OG
-6	##인	O	O	O, B-PS, B-CV, B-LC, B-OG
-7	강철	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
-8	##원	I-PS	I-PS	I-PS, O, I-OG, I-LC, B-PS
-9	기획	B-CV	B-CV	B-CV, O, I-CV, B-OG, I-PS
-10	##관	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-TM
-11	##은	O	O	O, I-CV, I-OG, B-CV, I-QT
-12	서울시	B-OG	B-OG	B-OG, B-LC, O, B-AF, B-PS
-13	##의	O	O	O, I-OG, I-LC, I-AF, I-EV
-14	전략	O	O	O, B-CV, B-LC, B-PS, B-TM
-15	##과	O	O	O, B-PS, B-CV, B-OG, B-LC
-16	대외	O	O	O, B-CV, B-TM, I-CV, B-PS
-17	홍보	O	O	O, B-CV, I-CV, B-FD, B-PS
-18	책임자	O	B-CV	B-CV, O, I-CV, B-PS, B-QT
-19	##로	O	O	O, I-CV, B-PS, B-CV, I-QT
-20	,	O	O	O, B-LC, B-OG, B-CV, B-PS
-21	도시	O	O	O, B-LC, B-CV, B-OG, B-PS
-22	##의	O	O	O, I-OG, B-PS, I-LC, I-AF
-23	대외	O	O	O, B-CV, B-TM, B-LC, B-PS
-24	이미지	O	O	O, B-CV, B-PS, I-CV, B-LC
-25	및	O	O	O, B-CV, B-LC, B-PS, B-OG
-26	경쟁력	O	O	O, B-CV, B-LC, B-TM, B-PS
-27	향상	O	O	O, B-CV, B-PS, B-LC, B-TM
-28	##을	O	O	O, B-PS, B-CV, B-LC, B-OG
-29	통해	O	O	O, B-LC, B-PS, B-CV, B-OG
-30	서울	B-LC	B-LC	B-LC, B-OG, O, B-AF, B-PS
-31	##을	O	O	O, I-LC, I-OG, I-AF, I-PS
-32	해외	O	O	O, B-LC, B-CV, B-TM, B-OG
-33	##에	O	O	O, B-CV, B-LC, B-TM, B-PS
-34	홍보	O	O	O, B-CV, B-LC, B-TM, B-PS
-35	##하	O	O	O, B-PS, B-LC, B-CV, B-OG
-36	##는	O	O	O, B-CV, B-PS, B-LC, B-OG
-37	역할	O	O	O, B-CV, B-PS, B-LC, B-TM
-38	##을	O	O	O, B-CV, B-PS, B-OG, I-CV
-39	맡	O	O	O, B-CV, B-PS, B-LC, B-OG
-40	##았	O	O	O, B-CV, B-PS, B-OG, B-LC
-41	##다	O	O	O, B-CV, B-OG, B-PS, I-OG
-42	.	O	O	O, B-PS, B-LC, B-CV, B-OG
-43	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	이	O	O
+2	##들	O	O
+3	##은	O	O
+4	각자	O	O
+5	30	B-QT	B-QT
+6	##k	I-QT	I-QT
+7	##g	I-QT	I-QT
+8	##의	O	O
+9	폭탄	O	B-AF
+10	##을	O	O
+11	휴대	O	O
+12	##하	O	O
+13	##고	O	O
+14	지휘	O	O
+15	##소	O	O
+16	##와	O	O
+17	격	O	O
+18	##납	O	O
+19	##고	O	O
+20	,	O	O
+21	레이더	O	O
+22	##기지	O	O
+23	등	O	O
+24	핵심	O	O
+25	시설	O	O
+26	##을	O	O
+27	파괴	O	O
+28	##하	O	O
+29	##는	O	O
+30	가상	O	O
+31	임무	O	O
+32	##를	O	O
+33	부여	O	O
+34	##받	O	O
+35	##았	O	O
+36	##다	O	O
+37	.	O	O
+38	[SEP]	O	O

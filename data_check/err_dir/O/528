@@ -1,39 +1,57 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	또	O	O	O, B-CV, B-OG, B-TM, B-LC
-2	파주	B-LC	B-LC	B-LC, O, B-OG, B-AF, B-PS
-3	##지역	O	O	O, I-LC, B-LC, I-AF, I-EV
-4	41	B-QT	B-QT	B-QT, O, B-EV, I-QT, B-LC
-5	##개	I-QT	I-QT	I-QT, O, I-EV, I-LC, I-OG
-6	시민	O	O	O, B-CV, I-QT, B-OG, B-FD
-7	##사회	O	O	O, I-CV, I-OG, I-QT, I-EV
-8	##단체	O	O	O, I-OG, I-CV, I-EV, I-QT
-9	##로	O	O	O, I-OG, B-PS, B-OG, B-LC
-10	이뤄진	O	O	O, B-OG, B-LC, B-PS, B-TM
-11	‘	O	O	O, B-OG, B-LC, B-CV, B-PS
-12	이대	B-OG	B-OG	B-OG, I-OG, O, B-EV, B-PS
-13	파주	I-OG	I-OG	I-OG, B-OG, O, I-EV, I-LC
-14	##캠	I-OG	I-OG	I-OG, O, I-EV, B-OG, I-LC
-15	##퍼스	I-OG	I-OG	I-OG, O, I-EV, B-OG, I-AF
-16	포기	O	I-OG	I-OG, O, I-EV, B-OG, I-AF
-17	범	O	I-OG	I-OG, O, B-OG, I-EV, I-AF
-18	##시	O	I-OG	I-OG, O, I-EV, B-OG, I-CV
-19	##민	O	I-OG	I-OG, O, I-EV, I-CV, B-OG
-20	##대	O	I-OG	I-OG, O, I-EV, B-OG, I-CV
-21	##책	O	I-OG	I-OG, O, I-EV, B-OG, I-CV
-22	##위원회	O	I-OG	I-OG, O, I-EV, I-CV, I-AF
-23	’	O	O	O, I-OG, I-EV, B-OG, B-PS
-24	는	O	O	O, B-OG, I-OG, B-CV, B-LC
-25	26	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-OG
-26	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-OG
-27	##부터	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-OG
-28	10	B-QT	B-QT	B-QT, B-EV, O, I-QT, B-TI
-29	##만	I-QT	I-QT	I-QT, O, I-EV, I-TM, I-DT
-30	서명	O	O	O, I-QT, I-EV, B-EV, B-CV
-31	##운동	O	O	O, I-EV, I-QT, I-TM, I-TR
-32	##을	O	O	O, I-EV, I-QT, B-CV, I-TM
-33	시작	O	O	O, B-CV, B-OG, B-TM, I-EV
-34	##했	O	O	O, B-CV, B-OG, B-LC, I-OG
-35	##다	O	O	O, B-CV, B-LC, B-OG, I-OG
-36	.	O	O	O, B-OG, B-LC, I-OG, B-CV
-37	[SEP]	O	O	O, B-OG, B-LC, I-OG, B-CV
+	text	label	preds
+0	[CLS]	O	O
+1	국무	B-OG	B-OG
+2	##조	I-OG	I-OG
+3	##정	I-OG	I-OG
+4	##실	I-OG	I-OG
+5	##은	O	O
+6	지난	B-DT	B-DT
+7	18	I-DT	I-DT
+8	##일	I-DT	I-DT
+9	보도	O	O
+10	설명	O	O
+11	##자	O	O
+12	##료	O	O
+13	##를	O	O
+14	내	O	O
+15	##어	O	O
+16	“	O	O
+17	국방부	B-OG	B-OG
+18	소속	O	O
+19	대	O	B-OG
+20	##테	O	I-OG
+21	##러	O	I-OG
+22	##특	O	I-OG
+23	##공	O	I-OG
+24	##대	O	I-OG
+25	##도	O	O
+26	군인	B-CV	O
+27	것	O	O
+28	##은	O	O
+29	맞	O	O
+30	##지만	O	O
+31	,	O	O
+32	일반	O	O
+33	##적	O	O
+34	##인	O	O
+35	군	B-OG	B-OG
+36	투입	O	O
+37	##이나	O	O
+38	향토	B-CV	B-OG
+39	##예	I-CV	I-OG
+40	##비	I-CV	I-OG
+41	##군	I-CV	I-OG
+42	동원	O	O
+43	##과	O	O
+44	##는	O	O
+45	성격	O	O
+46	##이	O	O
+47	다르	O	O
+48	##다	O	O
+49	”	O	O
+50	고	O	O
+51	주장	O	O
+52	##했	O	O
+53	##다	O	O
+54	.	O	O
+55	[SEP]	O	O

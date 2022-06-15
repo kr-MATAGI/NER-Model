@@ -1,17 +1,9 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	왕조	B-OG	O	O, B-CV, B-PS, B-LC, B-OG
-2	##와	O	O	O, B-PS, I-CV, I-OG, I-AF
-3	다름없	O	O	O, B-CV, B-PS, B-LC, B-OG
-4	##는	O	O	O, B-PS, B-LC, B-OG, B-CV
-5	독재	O	O	O, B-CV, B-PS, B-OG, B-LC
-6	##체	O	O	O, I-CV, I-PS, I-OG, B-CV
-7	##제	O	O	O, I-CV, I-PS, I-OG, B-CV
-8	아래	O	O	O, B-TM, B-LC, B-PS, B-CV
-9	##서	O	O	O, B-PS, B-CV, I-CV, I-PS
-10	##도	O	O	O, B-CV, I-OG, B-PS, B-LC
-11	마찬가지	O	O	O, B-CV, B-LC, B-PS, B-OG
-12	##였	O	O	O, B-CV, B-PS, B-OG, B-LC
-13	##다	O	O	O, B-CV, I-OG, B-LC, B-PS
-14	.	O	O	O, B-CV, B-LC, B-PS, B-OG
-15	[SEP]	O	O	O, B-CV, B-LC, B-PS, I-CV
+	text	label	preds
+0	[CLS]	O	O
+1	세계	B-OG	B-TM
+2	##식	I-OG	I-TM
+3	##량	I-OG	I-TM
+4	##계	I-OG	I-TM
+5	##획	I-OG	I-TM
+6	##의	O	O
+7	[SEP]	O	O

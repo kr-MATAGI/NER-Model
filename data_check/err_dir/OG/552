@@ -1,37 +1,22 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	검찰청	B-CV	B-CV	B-CV, B-OG, O, B-AF, I-CV
-2	##법	I-CV	I-CV	I-CV, O, I-OG, B-CV, I-AF
-3	(	O	O	O, I-CV, I-OG, B-CV, I-QT
-4	8	B-QT	B-QT	B-QT, O, B-DT, B-EV, I-QT
-5	##조	I-QT	I-QT	I-QT, O, I-EV, I-DT, I-PS
-6	)	O	O	O, I-QT, I-OG, I-EV, I-CV
-7	에	O	O	O, B-CV, B-OG, B-LC, B-PS
-8	따르	O	O	O, B-OG, B-LC, B-CV, B-PS
-9	##면	O	O	O, B-OG, B-LC, B-PS, B-CV
-10	법무부	B-OG	B-OG	B-OG, B-CV, B-AF, O, B-PS
-11	##장	B-CV	B-CV	B-CV, I-CV, I-OG, O, B-OG
-12	##관	I-CV	I-CV	I-CV, I-OG, O, B-CV, I-EV
-13	##이	O	O	O, I-CV, B-PS, I-OG, I-EV
-14	구체	O	O	O, B-CV, B-LC, B-PS, B-TM
-15	##적	O	O	O, B-PS, B-LC, I-PS, I-LC
-16	사건	O	O	O, B-CV, B-PS, B-OG, B-LC
-17	##에	O	O	O, B-CV, B-PS, B-LC, B-OG
-18	대해선	O	O	O, B-LC, B-CV, B-OG, B-PS
-19	검찰	B-OG	B-CV	B-CV, B-OG, O, B-AF, B-PS
-20	##총장	B-CV	I-CV	I-CV, B-CV, I-OG, O, I-EV
-21	##을	O	O	O, I-CV, I-OG, I-EV, I-AF
-22	통해서	O	O	O, B-CV, B-LC, B-TM, B-PS
-23	##만	O	O	O, B-PS, B-LC, I-QT, B-TM
-24	지휘	O	O	O, B-CV, B-OG, B-PS, B-TM
-25	·	O	O	O, I-CV, I-PS, I-QT, I-TR
-26	감독	O	O	O, B-CV, I-CV, I-QT, I-TR
-27	##할	O	O	O, I-CV, B-PS, B-CV, B-LC
-28	수	O	O	O, B-CV, B-PS, B-LC, B-TM
-29	있	O	O	O, B-CV, B-PS, B-LC, I-CV
-30	##게	O	O	O, B-CV, I-CV, B-PS, B-LC
-31	돼	O	O	O, B-CV, B-LC, B-TM, B-OG
-32	있	O	O	O, B-CV, I-CV, B-LC, I-OG
-33	##다	O	O	O, B-CV, B-TM, B-LC, B-OG
-34	.	O	O	O, B-CV, B-LC, B-PS, B-OG
-35	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	또	O	O
+2	중국	B-OG	B-LC
+3	##의	O	O
+4	중화	B-TR	B-TR
+5	##주의	I-TR	I-TR
+6	역사	B-FD	B-FD
+7	##와	O	O
+8	##의	O	O
+9	또	O	O
+10	우리	O	O
+11	##의	O	O
+12	심기	O	O
+13	##를	O	O
+14	또	O	O
+15	건드리	O	O
+16	##고	O	O
+17	있	O	O
+18	##습	O	O
+19	##니다	O	O
+20	[SEP]	O	O

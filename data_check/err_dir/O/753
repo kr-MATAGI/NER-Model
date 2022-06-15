@@ -1,38 +1,31 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-QT
-1	결국	O	O	O, B-OG, B-CV, B-QT, B-TM
-2	농림	O	B-OG	B-OG, O, B-AF, B-CV, I-OG
-3	##부	O	I-OG	I-OG, O, I-CV, I-AF, I-EV
-4	##는	O	O	O, I-OG, I-QT, I-AF, I-EV
-5	현재	O	O	O, B-TM, B-QT, B-CV, B-LC
-6	업무	O	O	O, B-CV, B-LC, B-TM, B-OG
-7	##에서	O	O	O, B-LC, B-TM, B-OG, B-PS
-8	수산	O	O	O, B-FD, B-LC, B-CV, B-TM
-9	기능	O	O	O, I-CV, I-TM, B-CV, I-LC
-10	##은	O	O	O, B-PS, B-CV, B-LC, B-TM
-11	부활	O	O	O, B-CV, B-TM, B-QT, B-LC
-12	##하	O	O	O, B-PS, B-OG, B-LC, B-CV
-13	##는	O	O	O, B-OG, B-LC, B-PS, B-CV
-14	해양수산부	B-OG	B-OG	B-OG, O, B-AF, B-LC, I-OG
-15	##로	O	O	O, I-OG, I-AF, I-EV, I-QT
-16	이전	O	O	O, B-CV, B-PS, B-TM, B-LC
-17	##하고	O	O	O, B-PS, B-CV, B-OG, B-LC
-18	,	O	O	O, B-CV, B-LC, B-OG, B-PS
-19	식품	O	O	O, B-CV, B-LC, B-OG, B-TM
-20	안전	O	O	O, I-CV, I-OG, I-LC, I-TM
-21	가운데	O	O	O, B-TM, B-QT, B-LC, B-CV
-22	일부	O	O	O, B-QT, I-QT, B-TM, I-TM
-23	기능	O	O	O, I-QT, B-TM, B-QT, B-CV
-24	##은	O	O	O, I-QT, B-PS, B-CV, B-LC
-25	식	B-OG	B-OG	B-OG, O, B-AF, B-CV, B-EV
-26	##약	I-OG	I-OG	I-OG, O, I-AF, B-OG, I-CV
-27	##처	I-OG	I-OG	I-OG, O, I-AF, I-CV, I-EV
-28	##로	O	O	O, I-OG, I-AF, I-QT, I-EV
-29	이전	O	O	O, B-CV, B-PS, B-TM, B-QT
-30	##하	O	O	O, B-PS, B-CV, B-OG, B-LC
-31	##는	O	O	O, B-CV, B-PS, B-OG, I-OG
-32	모양새	O	O	O, B-CV, B-QT, B-TM, B-OG
-33	##가	O	O	O, B-PS, I-OG, I-QT, B-QT
-34	된다	O	O	O, B-CV, B-QT, B-OG, B-TM
-35	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-36	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	제	B-QT	B-QT
+2	##65	I-QT	I-QT
+3	##회	I-QT	I-QT
+4	황금	B-EV	B-EV
+5	##사자	I-EV	I-EV
+6	##기	I-EV	I-EV
+7	전국	I-EV	I-EV
+8	##고	I-EV	I-EV
+9	##교	I-EV	I-EV
+10	##야	I-EV	I-EV
+11	##구	I-EV	I-EV
+12	##대	I-EV	I-EV
+13	##회	I-EV	I-EV
+14	겸	O	O
+15	첫	O	B-DT
+16	주말	B-EV	I-DT
+17	##리그	I-EV	O
+18	왕	I-EV	B-EV
+19	##중	I-EV	I-EV
+20	##왕	I-EV	I-EV
+21	##전	I-EV	I-EV
+22	4	B-EV	B-EV
+23	##강	I-EV	I-EV
+24	##전	I-EV	I-EV
+25	##이	O	O
+26	열렸	O	O
+27	##다	O	O
+28	.	O	O
+29	[SEP]	O	O

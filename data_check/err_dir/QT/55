@@ -1,24 +1,20 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, B-CV, I-OG, I-AF
-1	그렇게	O	O	O, B-CV, B-QT, B-LC, B-TM
-2	또	O	O	O, B-CV, B-PS, B-QT, B-LC
-3	다시	O	O	O, B-QT, B-PS, I-QT, B-CV
-4	한	B-QT	O	O, B-QT, I-QT, B-PS, B-CV
-5	번	I-QT	O	O, I-QT, B-QT, I-LC, I-PS
-6	가둬	O	O	O, B-CV, I-QT, B-PS, B-OG
-7	##지	O	O	O, I-CV, B-CV, I-QT, B-PS
-8	##는	O	O	O, B-CV, B-PS, I-CV, I-OG
-9	것	O	O	O, B-CV, B-PS, B-LC, B-OG
-10	##은	O	O	O, B-CV, B-PS, B-LC, I-CV
-11	아닌가	O	O	O, B-PS, B-LC, B-CV, B-QT
-12	##하	O	O	O, B-CV, B-PS, B-TM, B-OG
-13	##는	O	O	O, B-CV, B-PS, B-TM, B-OG
-14	생각	O	O	O, B-CV, B-TM, B-QT, B-PS
-15	##이	O	O	O, B-PS, B-CV, I-CV, B-OG
-16	들	O	O	O, B-CV, B-OG, B-TM, B-QT
-17	##었	O	O	O, B-CV, I-CV, I-OG, B-PS
-18	##거	O	O	O, B-CV, B-OG, B-PS, I-CV
-19	##든	O	O	O, B-CV, I-OG, I-AF, I-CV
-20	##요	O	O	O, B-CV, I-OG, I-AF, I-CV
-21	.	O	O	O, B-CV, I-OG, B-LC, I-AF
-22	[SEP]	O	O	O, B-CV, B-PS, B-LC, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	이렇게	O	O
+2	박	B-PS	B-PS
+3	##씨	O	O
+4	##가	O	O
+5	기부	O	O
+6	##해	O	O
+7	##온	O	O
+8	금액	O	O
+9	##이	O	O
+10	총	O	B-QT
+11	8000	B-QT	I-QT
+12	##만	I-QT	I-QT
+13	##원	I-QT	I-QT
+14	##을	O	O
+15	넘어섰	O	O
+16	##다	O	O
+17	.	O	O
+18	[SEP]	O	O

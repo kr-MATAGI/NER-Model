@@ -1,13 +1,25 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, I-AF, B-CV
-1	스톤	O	B-PS	B-PS, B-AF, O, B-AM, B-LC
-2	##이	O	O	O, I-PS, I-AF, B-PS, I-EV
-3	##라는	O	O	O, I-AF, B-PS, B-CV, B-QT
-4	영어	B-CV	B-CV	B-CV, O, B-LC, B-OG, B-TM
-5	##를	O	O	O, I-CV, I-AF, I-OG, I-EV
-6	써	O	O	O, B-CV, B-OG, B-LC, B-PS
-7	주	O	O	O, B-PS, B-CV, B-OG, B-LC
-8	##면	O	O	O, B-PS, B-CV, I-EV, B-OG
-9	되	O	O	O, B-CV, B-OG, I-AF, I-OG
-10	##잖아	O	O	O, B-CV, I-OG, I-AF, I-EV
-11	[SEP]	O	O	O, B-CV, B-PS, I-AF, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	그	O	O
+2	학생	B-CV	B-TM
+3	##언	O	I-TM
+4	##어	O	I-TM
+5	##문화	O	I-TM
+6	##개	O	I-TM
+7	##선	O	I-TM
+8	프로그램	O	I-TM
+9	##이	O	O
+10	실시	O	O
+11	##되	O	O
+12	##고	O	O
+13	있	O	O
+14	##다고	O	O
+15	제	O	O
+16	##가	O	O
+17	들	O	O
+18	##었	O	O
+19	##습	O	O
+20	##니다	O	O
+21	##만	O	O
+22	##은	O	O
+23	[SEP]	O	O

@@ -1,42 +1,37 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	양국	O	O	O, B-LC, B-OG, B-PS, B-CV
-2	정상	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-EV
-3	##은	O	O	O, I-CV, I-OG, I-EV, B-CV
-4	유로	B-CV	B-CV	B-CV, O, B-AF, B-MT, B-OG
-5	##화	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-AF
-6	##를	O	O	O, I-CV, I-OG, I-AF, B-CV
-7	사용	O	O	O, B-CV, B-LC, B-OG, B-PS
-8	##하	O	O	O, B-LC, B-OG, B-PS, B-CV
-9	##는	O	O	O, B-LC, B-OG, B-PS, B-CV
-10	17	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-EV
-11	##개	I-QT	I-QT	I-QT, O, I-EV, I-LC, B-QT
-12	##국	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-EV
-13	##의	O	O	O, I-QT, B-LC, I-OG, B-OG
-14	재정	O	O	O, B-TR, B-CV, B-LC, B-TM
-15	##통	O	O	O, I-TR, I-CV, B-PS, I-PS
-16	##합	O	O	O, I-TR, I-CV, I-OG, I-PS
-17	##을	O	O	O, B-PS, B-LC, B-CV, B-OG
-18	강제	O	O	O, B-LC, B-CV, B-OG, B-PS
-19	##하기	O	O	O, B-LC, B-PS, B-OG, B-CV
-20	위해	O	O	O, B-LC, B-PS, B-OG, B-CV
-21	며칠	O	O	O, B-LC, B-CV, B-OG, B-PS
-22	내	O	O	O, B-PS, B-LC, I-DT, B-OG
-23	##에	O	O	O, B-LC, B-OG, B-PS, B-CV
-24	현	O	O	O, B-OG, B-LC, B-DT, B-CV
-25	유럽연합	B-OG	B-OG	B-OG, I-OG, O, B-EV, B-AF
-26	(	O	I-OG	I-OG, O, I-EV, I-CV, I-AF
-27	EU	B-OG	I-OG	I-OG, B-OG, O, I-EV, B-CV
-28	)	O	O	O, I-OG, I-EV, I-CV, I-AF
-29	조약	O	O	O, I-OG, I-EV, I-CV, B-OG
-30	##에	O	O	O, I-OG, I-CV, I-AF, I-EV
-31	대한	O	O	O, B-LC, B-OG, B-PS, B-TM
-32	개정안	O	O	O, B-CV, B-LC, B-PS, B-OG
-33	##을	O	O	O, B-LC, B-CV, B-OG, B-PS
-34	제출	O	O	O, B-LC, B-CV, B-OG, B-PS
-35	##한다	O	O	O, B-LC, B-PS, B-OG, B-CV
-36	##는	O	O	O, B-LC, B-CV, B-OG, B-PS
-37	계획	O	O	O, B-CV, B-LC, B-OG, B-TM
-38	##이다	O	O	O, B-CV, I-OG, I-EV, B-OG
-39	.	O	O	O, B-LC, B-OG, B-PS, B-CV
-40	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	박	B-PS	B-PS
+2	##씨	O	O
+3	##는	O	O
+4	파라	B-LC	B-LC
+5	##과이	I-LC	I-LC
+6	##에	O	O
+7	##서	O	O
+8	가장	O	O
+9	역사가	O	O
+10	긴	O	O
+11	최대	O	O
+12	민영	O	O
+13	##채	O	O
+14	##널	O	O
+15	(	O	O
+16	국영	B-OG	O
+17	티브이	I-OG	B-TM
+18	##는	O	O
+19	올해	B-DT	B-DT
+20	처음	O	O
+21	시작	O	O
+22	##됐	O	O
+23	##다	O	O
+24	)	O	O
+25	인	O	O
+26	<	O	O
+27	채널	B-AF	B-AF
+28	##9	I-AF	I-AF
+29	>	O	O
+30	의	O	O
+31	인기	O	O
+32	##앵	O	B-CV
+33	##커	O	I-CV
+34	.	O	O
+35	[SEP]	O	O

@@ -1,22 +1,62 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-EV, I-CV, I-OG
-1	어른	O	O	O, B-CV, B-PS, I-CV, B-AM
-2	##들	O	O	O, B-PS, I-CV, B-CV, I-AF
-3	##의	O	O	O, B-PS, B-TM, B-CV, B-LC
-4	안전	O	B-TM	B-TM, O, I-TM, B-CV, B-LC
-5	##불	O	I-TM	I-TM, O, B-TM, I-QT, I-CV
-6	##감	O	I-TM	I-TM, O, B-TM, I-QT, I-CV
-7	##증	O	I-TM	I-TM, O, I-QT, B-TM, I-CV
-8	##이	O	O	O, I-TM, I-OG, I-QT, B-PS
-9	또	O	O	O, B-CV, B-LC, B-QT, B-PS
-10	##다	O	O	O, B-QT, B-LC, B-PS, I-QT
-11	##시	O	O	O, B-PS, I-QT, B-CV, I-AF
-12	어린	O	O	O, B-CV, B-PS, B-TM, B-LC
-13	생명	O	O	O, B-CV, B-AM, I-CV, B-TM
-14	##을	O	O	O, B-CV, I-CV, I-AF, B-PS
-15	앗	O	O	O, B-CV, B-TM, B-LC, B-PS
-16	##아	O	O	O, I-CV, I-OG, I-AF, B-CV
-17	##갔	O	O	O, B-CV, B-LC, I-CV, I-OG
-18	##다	O	O	O, B-CV, B-LC, I-EV, B-PS
-19	.	O	O	O, B-CV, B-PS, B-LC, B-TM
-20	[SEP]	O	O	O, B-CV, B-PS, I-AF, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	김	B-PS	B-PS
+2	전	O	O
+3	이사장	B-CV	B-CV
+4	##은	O	O
+5	1990	B-DT	B-DT
+6	##년	I-DT	I-DT
+7	##대	I-DT	I-DT
+8	후반	I-DT	I-DT
+9	,	O	O
+10	직장	O	O
+11	##과	O	O
+12	지역	O	O
+13	##으로	O	O
+14	나뉘	O	O
+15	##어져	O	O
+16	있	O	O
+17	##던	O	O
+18	의료	O	B-CV
+19	##보험	O	I-CV
+20	##을	O	O
+21	건강	O	B-CV
+22	##보험	O	I-CV
+23	##으로	O	O
+24	통합	O	O
+25	##하	O	O
+26	##는	O	O
+27	방안	O	O
+28	##이	O	O
+29	추진	O	O
+30	##되	O	O
+31	##자	O	O
+32	“	O	O
+33	직장	O	O
+34	##과	O	O
+35	지역	O	O
+36	##의	O	O
+37	건보	O	B-CV
+38	##료	O	I-CV
+39	부과	O	O
+40	방식	O	O
+41	##이	O	O
+42	서로	O	O
+43	다른	O	O
+44	상태	O	O
+45	##에	O	O
+46	##서는	O	O
+47	시기	O	O
+48	##상조	O	O
+49	”	O	O
+50	라며	O	O
+51	강력	O	O
+52	반대	O	O
+53	##하	O	O
+54	##다	O	O
+55	공직	O	O
+56	##을	O	O
+57	떠났	O	O
+58	##다	O	O
+59	.	O	O
+60	[SEP]	O	O

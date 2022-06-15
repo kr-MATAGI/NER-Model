@@ -1,52 +1,48 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-EV, I-CV
-1	한편	O	O	O, B-QT, B-OG, B-CV, B-TM
-2	농	B-OG	B-OG	B-OG, O, I-OG, B-CV, B-EV
-3	##식	I-OG	I-OG	I-OG, O, I-CV, B-OG, I-EV
-4	##품	I-OG	I-OG	I-OG, O, I-CV, I-EV, B-OG
-5	##부	I-OG	I-OG	I-OG, O, I-CV, I-EV, I-QT
-6	##는	O	O	O, I-OG, I-EV, B-CV, I-CV
-7	""""	O	O	O, B-CV, B-LC, B-TM, B-OG
-8	9	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-9	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-10	하루	B-DT	B-DT	B-DT, I-DT, O, B-EV, B-LC
-11	강화군	B-LC	B-LC	B-LC, O, B-OG, I-DT, I-LC
-12	선원	B-LC	B-LC	B-LC, I-LC, O, B-OG, B-AF
-13	##면	I-LC	I-LC	I-LC, O, I-OG, I-AF, B-LC
-14	##의	O	O	O, I-LC, I-AF, I-OG, B-LC
-15	한우	O	B-AM	B-AM, B-CV, O, B-TM, B-AF
-16	농장	O	O	O, I-AF, I-EV, I-CV, B-CV
-17	2	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-TM
-18	##곳	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-TM
-19	##과	O	O	O, I-QT, B-CV, B-OG, I-AF
-20	강화군	B-LC	B-LC	B-LC, O, B-OG, B-AF, B-PS
-21	불	B-LC	B-LC	B-LC, I-LC, O, B-OG, B-AF
-22	##은	I-LC	I-LC	I-LC, O, B-LC, I-OG, I-AF
-23	##면	I-LC	I-LC	I-LC, O, I-OG, I-AF, I-PS
-24	##의	O	O	O, I-LC, I-AF, I-OG, B-LC
-25	돼지	B-AM	B-AM	B-AM, O, B-TM, B-CV, B-PS
-26	농장	O	O	O, I-AF, B-CV, B-LC, I-EV
-27	1	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-LC
-28	##곳	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-AF
-29	등	O	O	O, I-QT, B-TM, B-CV, I-AF
-30	모두	O	O	O, B-QT, B-CV, B-TM, B-OG
-31	3	B-QT	B-QT	B-QT, I-QT, O, B-TM, B-LC
-32	##개	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-33	가축	O	O	O, I-QT, B-CV, I-OG, B-TM
-34	##농	O	O	O, B-CV, I-OG, B-LC, I-AF
-35	##장	O	O	O, I-AF, I-OG, I-LC, B-LC
-36	##에서	O	O	O, B-CV, B-LC, B-TM, B-PS
-37	구제역	B-TM	B-TM	B-TM, O, B-TR, B-CV, B-EV
-38	의심	O	O	O, I-TM, I-EV, I-AF, I-OG
-39	신고	O	O	O, B-CV, B-OG, B-PS, I-OG
-40	##가	O	O	O, B-PS, B-OG, B-CV, B-LC
-41	추가	O	O	O, B-CV, B-OG, B-LC, B-TM
-42	##로	O	O	O, B-CV, B-OG, B-LC, B-TM
-43	들어왔	O	O	O, B-CV, B-OG, B-TM, B-LC
-44	##다	O	O	O, B-CV, I-OG, B-OG, I-AF
-45	""""	O	O	O, B-CV, B-LC, B-TM, B-OG
-46	고	O	O	O, B-CV, B-OG, B-LC, B-TM
-47	밝혔	O	O	O, B-CV, B-OG, B-TM, B-LC
-48	##다	O	O	O, B-CV, B-TM, B-LC, B-OG
-49	.	O	O	O, B-LC, B-OG, B-CV, B-AF
-50	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	승점	O	O
+2	1	B-QT	B-QT
+3	##점	I-QT	I-QT
+4	##만	O	I-QT
+5	##을	O	O
+6	챙긴	O	O
+7	전북	B-OG	B-OG
+8	##은	O	O
+9	승점	O	B-TM
+10	53	B-QT	B-QT
+11	##점	I-QT	I-QT
+12	(	O	O
+13	15	B-QT	B-QT
+14	##승	I-QT	I-QT
+15	##8	I-QT	I-QT
+16	##무	I-QT	I-QT
+17	##7	I-QT	I-QT
+18	##패	I-QT	I-QT
+19	)	O	O
+20	으로	O	O
+21	2	B-QT	B-QT
+22	##위	I-QT	I-QT
+23	##에	O	O
+24	올랐	O	O
+25	##고	O	O
+26	,	O	O
+27	수원	B-OG	B-OG
+28	(	O	O
+29	13	B-QT	B-QT
+30	##승	I-QT	I-QT
+31	##7	I-QT	I-QT
+32	##무	I-QT	I-QT
+33	##9	I-QT	I-QT
+34	##패	I-QT	I-QT
+35	·	O	O
+36	승점	B-QT	B-QT
+37	46	I-QT	I-QT
+38	)	O	O
+39	은	O	O
+40	5	B-QT	B-QT
+41	##위	I-QT	I-QT
+42	##에	O	O
+43	머물렀	O	O
+44	##다	O	O
+45	.	O	O
+46	[SEP]	O	O

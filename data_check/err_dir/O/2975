@@ -1,66 +1,45 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-EV, I-CV, I-OG
-1	박은	B-PS	B-PS	B-PS, B-OG, O, B-LC, I-PS
-2	##식	I-PS	I-PS	I-PS, I-OG, O, I-LC, I-QT
-3	산림청	B-OG	B-OG	B-OG, O, B-AF, I-OG, B-LC
-4	산림	B-CV	B-CV	B-CV, O, B-FD, I-CV, B-OG
-5	##자원	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-FD
-6	##과	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-FD
-7	##장	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-EV
-8	##은	O	O	O, I-CV, I-OG, I-EV, I-QT
-9	“	O	O	O, B-CV, B-LC, B-PS, B-OG
-10	그동안	O	O	O, B-EV, B-LC, B-CV, B-OG
-11	아름다운	O	B-EV	B-EV, O, I-EV, B-TM, B-OG
-12	숲	O	I-EV	I-EV, O, B-EV, I-TM, I-OG
-13	전국	O	I-EV	I-EV, O, B-EV, I-OG, B-LC
-14	##대	O	I-EV	I-EV, O, B-EV, I-OG, I-LC
-15	##회	O	I-EV	I-EV, O, I-OG, B-EV, I-LC
-16	##를	O	O	O, I-EV, I-OG, B-CV, B-PS
-17	통해	O	O	O, B-LC, B-OG, B-PS, I-EV
-18	탄생	O	O	O, B-LC, B-CV, B-TM, B-QT
-19	##한	O	O	O, B-PS, B-LC, B-OG, B-CV
-20	명품	O	O	O, B-LC, B-AF, B-PS, B-CV
-21	숲	O	O	O, B-LC, I-LC, I-AF, B-AF
-22	##은	O	O	O, I-AF, B-LC, B-PS, B-CV
-23	모두	O	O	O, B-QT, B-TM, B-PS, B-LC
-24	136	B-QT	B-QT	B-QT, I-QT, O, B-DT, B-EV
-25	##곳	I-QT	I-QT	I-QT, O, I-LC, I-EV, I-PS
-26	##으로	O	O	O, I-QT, I-EV, B-LC, B-PS
-27	지역	O	O	O, B-LC, B-CV, B-TM, I-QT
-28	##에서	O	O	O, B-LC, B-CV, B-PS, B-TM
-29	꼭	O	O	O, B-CV, B-LC, B-TM, B-QT
-30	찾아	O	O	O, B-LC, B-CV, B-TM, B-QT
-31	##봐야	O	O	O, B-LC, B-CV, B-PS, B-TM
-32	할	O	O	O, B-LC, B-CV, B-PS, B-OG
-33	명소	O	O	O, B-LC, B-CV, B-AF, I-LC
-34	##로	O	O	O, B-CV, B-LC, B-PS, B-OG
-35	자리	O	O	O, B-CV, B-LC, B-TM, B-OG
-36	잡	O	O	O, B-PS, B-LC, B-CV, I-OG
-37	##았	O	O	O, B-LC, B-PS, B-CV, I-EV
-38	##다	O	O	O, B-LC, B-CV, B-PS, B-TM
-39	”	O	O	O, B-CV, B-LC, B-PS, B-TM
-40	며	O	O	O, B-CV, B-LC, B-TM, B-PS
-41	“	O	O	O, B-CV, B-LC, B-PS, B-TM
-42	아름다운	O	O	O, B-LC, B-AF, B-PS, B-TM
-43	숲	O	O	O, B-LC, B-AF, I-LC, I-AF
-44	##을	O	O	O, B-LC, B-CV, B-PS, I-AF
-45	찾아내	O	O	O, B-LC, B-CV, B-PS, B-TM
-46	숲	O	O	O, B-LC, I-LC, B-AF, B-CV
-47	##의	O	O	O, B-LC, B-PS, I-LC, I-AF
-48	소중	O	O	O, B-LC, B-CV, B-OG, B-TM
-49	##함	O	O	O, B-LC, B-PS, I-LC, B-OG
-50	##과	O	O	O, B-PS, B-CV, B-LC, B-OG
-51	가치	O	O	O, B-LC, B-CV, B-TM, B-PS
-52	##를	O	O	O, B-LC, B-CV, B-PS, B-TM
-53	널리	O	O	O, B-CV, B-LC, B-TM, B-PS
-54	알리	O	O	O, B-CV, B-LC, B-TM, B-PS
-55	##고	O	O	O, B-LC, B-PS, B-CV, B-OG
-56	보전	O	O	O, B-LC, B-CV, B-TM, B-PS
-57	##하	O	O	O, B-LC, B-PS, B-CV, B-OG
-58	##겠다	O	O	O, B-CV, B-LC, B-PS, B-TM
-59	”	O	O	O, B-CV, B-LC, B-TM, B-PS
-60	고	O	O	O, B-CV, B-LC, B-TM, B-EV
-61	밝혔	O	O	O, B-CV, B-LC, B-PS, B-TM
-62	##다	O	O	O, B-CV, B-LC, B-TM, I-EV
-63	.	O	O	O, B-LC, B-CV, B-PS, I-EV
-64	[SEP]	O	O	O, B-CV, B-LC, B-PS, I-EV
+	text	label	preds
+0	[CLS]	O	O
+1	해경	B-OG	B-OG
+2	##청	I-OG	I-OG
+3	##은	O	O
+4	지난	B-DT	B-DT
+5	달	I-DT	I-DT
+6	27	I-DT	I-DT
+7	##일	I-DT	I-DT
+8	여수시	B-LC	B-LC
+9	만성	B-LC	B-LC
+10	##리	I-LC	I-LC
+11	앞	O	B-TM
+12	해상	O	O
+13	##에	O	O
+14	##서	O	O
+15	전국	O	O
+16	12	B-QT	B-QT
+17	##개	I-QT	I-QT
+18	해양경찰	B-OG	B-OG
+19	##서	I-OG	I-OG
+20	##에	O	O
+21	대규	O	O
+22	##모	O	O
+23	재난	O	O
+24	상황	O	O
+25	##을	O	O
+26	부여	O	O
+27	##하	O	O
+28	##고	O	O
+29	현장	O	O
+30	##과	O	O
+31	도상	O	O
+32	훈련	O	O
+33	##을	O	O
+34	하	O	O
+35	##는	O	O
+36	방법	O	O
+37	##으로	O	O
+38	평가	O	O
+39	##를	O	O
+40	했	O	O
+41	##다	O	O
+42	.	O	O
+43	[SEP]	O	O

@@ -1,17 +1,70 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	송	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-2	위원장	B-CV	B-CV	B-CV, O, I-PS, I-CV, B-OG
-3	##이	O	O	O, I-CV, B-CV, B-PS, I-AF
-4	지적	O	O	O, B-CV, B-PS, B-OG, I-CV
-5	##한	O	O	O, B-PS, B-CV, B-OG, B-LC
-6	‘	O	O	O, B-CV, B-PS, B-OG, B-LC
-7	유령	O	O	O, B-CV, B-PS, B-TM, B-AF
-8	##당	O	B-CV	B-CV, O, I-CV, B-AM, B-TM
-9	##원	O	I-CV	I-CV, O, B-CV, I-TM, I-QT
-10	’	O	O	O, I-CV, B-CV, B-PS, I-OG
-11	인	O	O	O, B-PS, B-CV, B-QT, I-CV
-12	셈	O	O	O, B-CV, B-TM, B-OG, B-PS
-13	##이다	O	O	O, B-CV, I-CV, I-OG, B-TM
-14	.	O	O	O, B-CV, B-PS, B-LC, B-OG
-15	[SEP]	O	O	O, B-CV, B-PS, I-CV, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	당시	O	O
+2	시	O	B-OG
+3	##교육	O	I-OG
+4	##청	O	I-OG
+5	##은	O	O
+6	“	O	O
+7	창	B-OG	B-OG
+8	##동	I-OG	I-OG
+9	##고	I-OG	I-OG
+10	##는	O	O
+11	3	B-DT	B-DT
+12	##월	I-DT	I-DT
+13	교내	O	O
+14	##에	O	O
+15	##서	O	O
+16	폭력	O	O
+17	##을	O	O
+18	없애	O	O
+19	##자	O	O
+20	##는	O	O
+21	선포	O	O
+22	##식	O	O
+23	##을	O	O
+24	열	O	O
+25	##고	O	O
+26	전교	O	O
+27	##생	O	O
+28	##이	O	O
+29	이	O	O
+30	##를	O	O
+31	지키	O	O
+32	##는	O	O
+33	운동	O	O
+34	##을	O	O
+35	펼쳤	O	O
+36	##다	O	O
+37	”	O	O
+38	며	O	O
+39	“	O	O
+40	캠페인	O	O
+41	##을	O	O
+42	실시	O	O
+43	##한	O	O
+44	결과	O	O
+45	3	B-DT	B-DT
+46	##월	I-DT	I-DT
+47	이후	I-DT	I-DT
+48	단	O	O
+49	한	O	O
+50	건의	O	O
+51	학교	O	O
+52	##폭력	O	O
+53	##과	O	O
+54	흡연	O	O
+55	사례	O	O
+56	##도	O	O
+57	발생	O	O
+58	##하	O	O
+59	##지	O	O
+60	않	O	O
+61	##았	O	O
+62	##다	O	O
+63	”	O	O
+64	고	O	O
+65	밝혔	O	O
+66	##다	O	O
+67	.	O	O
+68	[SEP]	O	O

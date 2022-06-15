@@ -1,43 +1,74 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-EV, I-OG
-1	이	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
-2	후보	B-CV	B-CV	B-CV, O, I-CV, I-PS, B-OG
-3	##측	O	O	O, I-CV, B-PS, B-TM, B-OG
-4	이점	B-PS	B-PS	B-PS, O, B-OG, B-QT, I-PS
-5	##호	I-PS	I-PS	I-PS, O, I-OG, I-QT, I-LC
-6	언론	O	O	O, B-CV, I-CV, B-FD, B-OG
-7	##특	O	I-CV	I-CV, O, B-CV, I-OG, I-QT
-8	##보	O	I-CV	I-CV, O, B-CV, I-OG, I-TM
-9	##는	O	O	O, I-CV, I-QT, I-OG, I-TM
-10	""""	O	O	O, B-CV, B-LC, B-TM, B-PS
-11	집안	O	O	O, B-PS, B-LC, B-CV, B-TM
-12	싸움	O	O	O, B-LC, B-CV, B-PS, I-EV
-13	##을	O	O	O, B-CV, B-PS, B-LC, B-OG
-14	접	O	O	O, B-CV, B-PS, B-LC, B-TM
-15	##고	O	O	O, B-PS, B-LC, B-CV, B-OG
-16	이제	O	O	O, B-PS, B-CV, B-OG, B-LC
-17	##는	O	O	O, B-PS, B-OG, B-LC, B-CV
-18	당	O	O	O, B-PS, B-OG, B-CV, B-QT
-19	후보	B-CV	B-CV	B-CV, O, I-CV, I-PS, I-QT
-20	##를	O	O	O, I-CV, I-OG, I-EV, I-QT
-21	중심	O	O	O, B-CV, B-LC, B-TM, B-PS
-22	##으로	O	O	O, B-PS, B-LC, B-CV, B-OG
-23	결집	O	O	O, B-CV, B-PS, B-LC, B-TM
-24	##하고	O	O	O, B-PS, B-CV, B-LC, B-TM
-25	있	O	O	O, B-CV, B-LC, B-PS, B-OG
-26	##어	O	O	O, B-PS, B-LC, B-OG, B-CV
-27	,	O	O	O, B-LC, B-CV, B-PS, B-OG
-28	조만간	O	O	O, B-PS, B-LC, B-DT, B-QT
-29	그	O	O	O, B-LC, B-PS, B-CV, B-OG
-30	효과	O	O	O, B-LC, B-CV, B-PS, B-TM
-31	##가	O	O	O, B-PS, B-LC, B-CV, B-OG
-32	나타날	O	O	O, B-CV, B-LC, B-PS, B-TM
-33	것	O	O	O, B-CV, B-PS, B-LC, B-OG
-34	""""	O	O	O, B-CV, B-TM, B-LC, I-OG
-35	이라	O	O	O, B-CV, B-PS, B-TM, B-LC
-36	##고	O	O	O, B-CV, B-TM, B-QT, I-QT
-37	말	O	O	O, B-CV, B-TM, I-QT, B-QT
-38	##했	O	O	O, B-CV, B-LC, B-PS, I-QT
-39	##다	O	O	O, B-CV, B-TM, B-LC, B-PS
-40	.	O	O	O, B-LC, B-PS, B-CV, B-OG
-41	[SEP]	O	O	O, B-CV, B-LC, B-PS, I-EV
+	text	label	preds
+0	[CLS]	O	O
+1	김유	B-PS	B-PS
+2	##선	I-PS	I-PS
+3	소장	B-CV	B-CV
+4	##은	O	O
+5	“	O	O
+6	이젠	O	O
+7	주	B-CV	B-CV
+8	5	I-CV	I-CV
+9	##일	I-CV	I-CV
+10	##제	I-CV	I-CV
+11	효과	O	O
+12	##가	O	O
+13	거의	O	O
+14	소진	O	O
+15	##되	O	O
+16	##고	O	O
+17	있	O	O
+18	##으므로	O	O
+19	새로운	O	O
+20	근로	O	O
+21	##시간	O	O
+22	단축	O	O
+23	방안	O	O
+24	##을	O	O
+25	강구	O	O
+26	##해야	O	O
+27	한다	O	O
+28	”	O	O
+29	며	O	O
+30	“	O	O
+31	주	O	B-CV
+32	5	B-DT	I-CV
+33	##일	I-DT	I-CV
+34	##제	O	I-CV
+35	적용	O	O
+36	대상	O	O
+37	##을	O	O
+38	5	B-QT	B-QT
+39	##인	I-QT	I-QT
+40	미만	I-QT	I-QT
+41	사업장	O	O
+42	##으로	O	O
+43	확대	O	O
+44	##하	O	O
+45	##고	O	O
+46	,	O	O
+47	법률	O	O
+48	##상	O	O
+49	주당	O	O
+50	최장	O	O
+51	근로	O	O
+52	##시간	O	O
+53	##인	O	O
+54	52	B-TI	B-TI
+55	##시간	I-TI	I-TI
+56	##을	O	O
+57	넘	O	O
+58	##는	O	O
+59	초과	O	O
+60	##근	O	O
+61	##로	O	O
+62	##를	O	O
+63	제한	O	O
+64	##해야	O	O
+65	한다	O	O
+66	”	O	O
+67	고	O	O
+68	제안	O	O
+69	##했	O	O
+70	##다	O	O
+71	.	O	O
+72	[SEP]	O	O

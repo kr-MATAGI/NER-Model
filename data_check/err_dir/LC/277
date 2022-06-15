@@ -1,63 +1,71 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	여기	O	O	O, B-CV, B-LC, B-OG, B-PS
-2	##에	O	O	O, B-LC, B-CV, B-OG, B-PS
-3	##는	O	O	O, B-LC, B-OG, B-CV, B-PS
-4	베트남	B-LC	B-LC	B-LC, B-OG, B-PS, B-TM, O
-5	필리핀	B-LC	B-LC	B-LC, B-OG, I-LC, B-PS, I-OG
-6	말레이시아	B-LC	B-LC	B-LC, B-OG, I-LC, I-OG, B-PS
-7	브루	B-LC	B-LC	B-LC, B-OG, I-LC, B-PS, I-OG
-8	##나이	I-LC	I-LC	I-LC, I-OG, I-PS, O, B-LC
-9	##와	O	O	O, I-LC, I-OG, B-CV, B-LC
-10	갈등	O	O	O, B-LC, B-CV, B-TM, B-OG
-11	##을	O	O	O, B-CV, B-LC, B-OG, B-PS
-12	빚	O	O	O, B-LC, B-CV, B-OG, B-PS
-13	##고	O	O	O, B-LC, B-CV, B-PS, B-QT
-14	있	O	O	O, B-LC, B-CV, B-PS, B-OG
-15	##는	O	O	O, B-LC, B-CV, B-OG, B-PS
-16	남중국해	B-LC	B-LC	B-LC, B-TM, O, B-AF, B-OG
-17	##의	O	O	O, I-LC, I-AF, B-LC, I-OG
-18	난사	B-LC	O	O, B-LC, B-PS, B-AF, B-OG
-19	(	O	O	O, I-LC, B-LC, I-PS, I-AF
-20	南	O	O	O, B-LC, B-PS, I-LC, B-TM
-21	[UNK]	O	O	O, B-LC, I-LC, B-PS, I-PS
-22	)	O	O	O, B-LC, B-PS, I-LC, I-PS
-23	군	O	O	O, B-AF, B-OG, B-LC, B-CV
-24	##도	O	O	O, I-AF, I-LC, I-OG, B-AF
-25	##와	O	O	O, I-AF, I-OG, I-LC, B-LC
-26	시사	B-LC	O	O, B-LC, B-PS, B-AF, B-OG
-27	(	O	O	O, I-LC, B-LC, I-PS, B-PS
-28	西	O	O	O, B-LC, B-PS, I-LC, B-CV
-29	[UNK]	O	O	O, B-LC, B-PS, I-LC, I-PS
-30	)	O	O	O, B-LC, I-LC, B-PS, I-PS
-31	군	O	O	O, B-AF, B-OG, B-LC, B-CV
-32	##도	O	O	O, I-AF, I-LC, I-OG, B-AF
-33	,	O	O	O, I-AF, I-OG, B-LC, I-LC
-34	일본	B-LC	B-OG	B-OG, B-LC, O, B-PS, B-AF
-35	##과	O	O	O, I-OG, I-LC, B-CV, B-OG
-36	물리	O	O	O, B-LC, B-CV, B-TM, B-PS
-37	##적	O	O	O, B-LC, I-LC, B-PS, I-PS
-38	대결	O	O	O, B-LC, B-CV, B-TM, B-PS
-39	##을	O	O	O, B-LC, B-CV, B-OG, B-PS
-40	벌인	O	O	O, B-LC, B-CV, B-OG, B-TM
-41	[UNK]	O	O	O, B-LC, B-PS, I-LC, B-CV
-42	(	O	O	O, B-LC, B-PS, I-LC, B-CV
-43	[UNK]	O	O	O, B-LC, B-PS, I-LC, B-CV
-44	[UNK]	O	O	O, B-LC, B-PS, I-LC, B-CV
-45	島	O	O	O, B-LC, I-LC, B-PS, B-CV
-46	·	O	O	O, B-LC, B-CV, B-OG, B-PS
-47	일본	B-LC	B-LC	B-LC, O, B-OG, B-AF, B-PS
-48	##명	O	O	O, I-LC, B-LC, B-CV, I-OG
-49	센카쿠	B-LC	B-LC	B-LC, O, B-PS, B-OG, B-AF
-50	·	O	O	O, I-LC, B-LC, I-PS, B-PS
-51	[UNK]	O	O	O, B-LC, I-LC, B-PS, B-CV
-52	[UNK]	O	O	O, B-LC, I-LC, B-PS, B-CV
-53	열도	O	O	O, B-LC, I-LC, B-PS, B-CV
-54	)	O	O	O, B-LC, I-LC, B-CV, B-OG
-55	등	O	O	O, B-LC, B-CV, B-OG, B-PS
-56	##도	O	O	O, B-LC, B-CV, B-OG, B-TM
-57	포함	O	O	O, B-LC, B-QT, B-OG, B-CV
-58	##됐	O	O	O, B-LC, I-OG, B-PS, B-OG
-59	##다	O	O	O, B-CV, B-LC, I-OG, B-OG
-60	.	O	O	O, B-LC, B-PS, B-CV, B-OG
-61	[SEP]	O	O	O, B-LC, B-CV, I-LC, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	윤동	B-PS	B-PS
+2	##주	I-PS	I-PS
+3	##를	O	O
+4	주인공	B-CV	B-CV
+5	삼	O	O
+6	##은	O	O
+7	<	O	O
+8	동	B-AF	B-AF
+9	##주	I-AF	I-AF
+10	>	O	O
+11	(	O	O
+12	이준	B-PS	B-PS
+13	##익	I-PS	I-PS
+14	감독	B-CV	B-CV
+15	)	O	O
+16	,	O	O
+17	고종	B-PS	B-PS
+18	##의	O	O
+19	딸	B-CV	B-CV
+20	##로	O	O
+21	태어나	O	O
+22	일본	B-LC	B-LC
+23	관료	B-CV	B-CV
+24	##와	O	O
+25	정략	O	O
+26	##결	O	O
+27	##혼	O	O
+28	##을	O	O
+29	해야	O	O
+30	했	O	O
+31	##던	O	O
+32	<	O	O
+33	덕	B-AF	B-AF
+34	##혜	I-AF	I-AF
+35	##옹	I-AF	I-AF
+36	##주	I-AF	I-AF
+37	>	O	O
+38	(	O	O
+39	허	B-PS	B-PS
+40	##진	I-PS	I-PS
+41	##호	I-PS	I-PS
+42	감독	B-CV	B-CV
+43	)	O	O
+44	등	O	O
+45	불운	O	O
+46	##했	O	O
+47	##던	O	O
+48	시대	O	O
+49	,	O	O
+50	조선	B-LC	B-DT
+51	##에	O	O
+52	##는	O	O
+53	감독	B-CV	B-CV
+54	##들이	O	O
+55	탐	O	O
+56	##낼	O	O
+57	만한	O	O
+58	이야	O	O
+59	##깃	O	O
+60	##거리	O	O
+61	##를	O	O
+62	지닌	O	O
+63	인물	O	O
+64	##들이	O	O
+65	수두룩	O	O
+66	##했	O	O
+67	##다	O	O
+68	.	O	O
+69	[SEP]	O	O

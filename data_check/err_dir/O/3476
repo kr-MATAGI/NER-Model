@@ -1,46 +1,52 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	천연	O	O	O, B-CV, B-FD, B-LC, B-TM
-2	유기농	O	O	O, B-CV, I-CV, B-FD, I-AF
-3	화장품	O	O	O, I-CV, B-CV, I-AF, B-FD
-4	##을	O	O	O, I-CV, B-CV, B-PS, I-AF
-5	이용한	O	O	O, B-CV, B-LC, B-TM, B-PS
-6	피부	O	O	O, B-TM, B-CV, B-TR, B-AM
-7	##관리	O	O	O, I-TM, I-CV, I-TR, I-LC
-8	##와	O	O	O, I-TM, B-LC, B-PS, B-CV
-9	빛	O	O	O, B-TM, B-LC, B-CV, B-AF
-10	##의	O	O	O, I-TM, I-AF, I-LC, I-OG
-11	색깔	O	O	O, I-TM, I-AF, B-TM, I-LC
-12	##을	O	O	O, B-PS, B-LC, B-TM, B-CV
-13	이용한	O	O	O, B-TM, B-CV, B-LC, B-EV
-14	컬러	O	O	O, B-FD, B-TR, B-CV, B-EV
-15	##세	O	O	O, I-FD, I-TR, B-FD, I-TM
-16	##러	O	O	O, I-FD, I-TR, B-FD, I-CV
-17	##피	O	O	O, I-FD, I-TR, I-CV, I-TM
-18	,	O	O	O, I-FD, I-OG, I-EV, I-CV
-19	그리고	O	O	O, B-CV, B-TM, B-AF, B-OG
-20	아로마	O	O	O, B-CV, B-FD, B-TM, B-MT
-21	향기	O	O	O, I-CV, I-TM, I-AF, I-FD
-22	##와	O	O	O, B-PS, I-AF, I-CV, B-LC
-23	아로마	O	O	O, B-CV, B-MT, B-TM, B-AF
-24	오일	O	O	O, I-CV, B-CV, I-MT, I-TM
-25	##을	O	O	O, I-CV, I-AF, I-TM, B-CV
-26	이용한	O	O	O, B-TM, B-CV, B-LC, B-FD
-27	아로마	O	B-FD	B-FD, O, B-TR, B-CV, B-EV
-28	##세	O	I-FD	I-FD, O, B-FD, I-TR, I-CV
-29	##러	O	I-FD	I-FD, O, I-TR, B-FD, I-CV
-30	##피	O	I-FD	I-FD, O, I-TR, I-CV, I-TM
-31	,	O	O	O, I-FD, I-OG, I-CV, I-EV
-32	음악	O	O	O, B-TM, B-CV, B-FD, B-LC
-33	##을	O	O	O, I-AF, I-TM, B-PS, I-OG
-34	이용한	O	O	O, B-TM, B-FD, B-CV, B-TR
-35	뮤직	O	B-FD	B-FD, O, B-TR, B-CV, I-FD
-36	##세	O	I-FD	I-FD, O, B-FD, I-TR, I-TM
-37	##러	O	I-FD	I-FD, O, I-TR, B-FD, I-CV
-38	##피	O	O	O, I-FD, I-TR, I-CV, I-TM
-39	##가	O	O	O, I-FD, I-OG, B-PS, I-TM
-40	주요	O	O	O, B-TM, B-OG, B-CV, B-AF
-41	서비스	O	O	O, B-CV, B-FD, I-CV, I-FD
-42	##다	O	O	O, B-CV, I-CV, I-OG, B-OG
-43	.	O	O	O, B-FD, B-CV, B-LC, B-TM
-44	[SEP]	O	O	O, B-CV, B-FD, B-TM, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	최근	O	O
+2	자신	O	O
+3	##이	O	O
+4	진행	O	O
+5	##하	O	O
+6	##는	O	O
+7	NBC	O	B-OG
+8	방송	O	O
+9	리얼리티	O	O
+10	##쇼	O	O
+11	'	O	O
+12	어	O	B-AF
+13	##프	O	I-AF
+14	##렌	O	I-AF
+15	##티스	O	I-AF
+16	(	O	O
+17	견	O	O
+18	##습	O	O
+19	##생	O	O
+20	)	O	O
+21	'	O	O
+22	의	O	O
+23	시청	O	O
+24	##률	O	O
+25	##이	O	O
+26	떨어진	O	O
+27	것	O	O
+28	##을	O	O
+29	두고	O	O
+30	과거	O	O
+31	진행자	B-CV	B-CV
+32	##였	O	O
+33	##던	O	O
+34	트럼프	B-PS	B-PS
+35	대통령	B-CV	B-CV
+36	##이	O	O
+37	공개	O	O
+38	##적	O	O
+39	##으로	O	O
+40	비판	O	O
+41	##한	O	O
+42	것	O	O
+43	##에	O	O
+44	대한	O	O
+45	반응	O	O
+46	##이	O	O
+47	##었	O	O
+48	##다	O	O
+49	.	O	O
+50	[SEP]	O	O

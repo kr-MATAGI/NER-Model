@@ -1,14 +1,29 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	대통령	B-EV	B-CV	B-CV, B-EV, O, I-EV, B-TM
-2	선거	I-EV	O	O, I-EV, B-EV, B-CV, I-CV
-3	##에	O	O	O, I-EV, I-CV, B-CV, I-OG
-4	제이	B-PS	B-OG	B-OG, O, B-PS, B-LC, B-CV
-5	##피	I-PS	I-OG	I-OG, O, I-PS, I-LC, I-CV
-6	##가	O	O	O, I-OG, I-PS, I-AF, I-LC
-7	같이	O	O	O, B-CV, B-OG, I-OG, B-TM
-8	합류	O	O	O, B-CV, B-OG, B-LC, B-TM
-9	##를	O	O	O, I-OG, B-OG, B-CV, I-AF
-10	하	O	O	O, B-OG, B-CV, B-LC, B-PS
-11	##면서	O	O	O, B-OG, B-CV, I-OG, B-LC
-12	[SEP]	O	O	O, B-CV, B-OG, I-OG, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	4	B-DT	B-DT
+2	##년	I-DT	I-DT
+3	##마	O	I-DT
+4	##다	O	I-DT
+5	열리	O	O
+6	##는	O	O
+7	FIFA	B-EV	B-OG
+8	(	I-EV	O
+9	국제축구연맹	I-EV	B-OG
+10	)	I-EV	O
+11	여자	I-EV	B-EV
+12	##월드	I-EV	I-EV
+13	##컵	I-EV	I-EV
+14	##은	O	O
+15	세계	O	O
+16	축구	B-CV	B-CV
+17	##의	O	O
+18	'	O	O
+19	여왕	B-CV	B-CV
+20	'	O	O
+21	을	O	O
+22	가리	O	O
+23	##는	O	O
+24	대회	O	O
+25	##다	O	O
+26	.	O	O
+27	[SEP]	O	O

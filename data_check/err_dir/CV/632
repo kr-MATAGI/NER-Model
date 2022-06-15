@@ -1,25 +1,61 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	집회	O	B-CV	B-CV, O, I-CV, B-TM, B-AF
-2	·	O	I-CV	I-CV, O, B-CV, I-TM, I-AF
-3	시위	O	I-CV	I-CV, O, B-CV, I-TM, I-OG
-4	자유	O	I-CV	I-CV, O, B-CV, I-OG, I-TM
-5	보장	O	O	O, I-CV, I-OG, B-CV, I-TM
-6	##을	O	O	O, I-CV, B-PS, B-CV, I-OG
-7	위해	O	O	O, B-CV, B-PS, B-LC, B-TM
-8	집시	B-CV	B-CV	B-CV, O, B-OG, B-AF, I-CV
-9	##법	I-CV	I-CV	I-CV, O, I-OG, B-CV, I-AF
-10	외	O	O	O, I-CV, I-OG, I-AF, B-PS
-11	##에	O	O	O, B-CV, B-OG, B-PS, B-QT
-12	경찰관	B-CV	B-CV	B-CV, O, B-OG, B-AF, I-CV
-13	직무	B-CV	I-CV	I-CV, B-CV, O, I-OG, I-AF
-14	##집행	I-CV	I-CV	I-CV, O, I-OG, B-CV, I-AF
-15	##법	I-CV	I-CV	I-CV, O, I-OG, B-CV, I-AF
-16	##도	O	O	O, I-CV, I-OG, I-AF, I-QT
-17	고쳐야	O	O	O, B-CV, B-OG, I-CV, B-PS
-18	한다는	O	O	O, B-CV, B-OG, B-PS, B-LC
-19	지적	O	O	O, B-CV, B-TM, B-OG, B-PS
-20	##이	O	O	O, B-CV, B-PS, B-OG, B-LC
-21	나온다	O	O	O, B-CV, B-TM, B-OG, B-QT
-22	.	O	O	O, B-PS, B-CV, B-LC, B-OG
-23	[SEP]	O	O	O, B-CV, B-PS, B-LC, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	감염	O	O
+2	경로	O	O
+3	##가	O	O
+4	불	O	O
+5	##확	O	O
+6	##실	O	O
+7	##해	O	O
+8	염려	O	O
+9	##를	O	O
+10	키웠	O	O
+11	##던	O	O
+12	추정	O	B-CV
+13	##환	B-CV	I-CV
+14	##자	I-CV	I-CV
+15	##인	O	O
+16	50	B-QT	B-QT
+17	##대	I-QT	I-QT
+18	남성	O	O
+19	버스	B-AF	B-AF
+20	운전사	B-CV	B-CV
+21	##는	O	O
+22	신종	B-TM	B-TM
+23	플루	I-TM	I-TM
+24	##와	O	O
+25	무관	O	O
+26	##한	O	O
+27	것	O	O
+28	##으로	O	O
+29	밝혀졌	O	O
+30	##지만	O	O
+31	,	O	O
+32	이번	O	O
+33	##엔	O	O
+34	신종	B-TM	B-TM
+35	플루	I-TM	I-TM
+36	확진	O	O
+37	##환	O	O
+38	##자와	O	O
+39	지난	O	B-DT
+40	26	O	I-DT
+41	##일	O	I-DT
+42	같	O	O
+43	##은	O	O
+44	비행기	O	B-AF
+45	##를	O	O
+46	탔	O	O
+47	##던	O	O
+48	한	O	O
+49	여성	O	O
+50	##이	O	O
+51	추정	O	B-CV
+52	##환	B-CV	I-CV
+53	##자	I-CV	I-CV
+54	##로	O	O
+55	판정	O	O
+56	##됐	O	O
+57	##다	O	O
+58	.	O	O
+59	[SEP]	O	O

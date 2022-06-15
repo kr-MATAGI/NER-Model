@@ -1,45 +1,37 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-EV, I-CV
-1	한국	B-OG	B-OG	B-OG, O, B-LC, B-AF, B-EV
-2	##방송	I-OG	I-OG	I-OG, O, I-LC, B-OG, I-EV
-3	이사회	I-OG	O	O, I-OG, B-OG, I-EV, B-CV
-4	##는	O	O	O, I-OG, I-EV, B-CV, I-CV
-5	이날	B-DT	B-DT	B-DT, I-DT, O, B-EV, B-QT
-6	밤	B-TI	B-TI	B-TI, I-TI, O, I-DT, B-EV
-7	야당	O	O	O, B-OG, B-CV, B-PS, B-LC
-8	추천	O	O	O, B-CV, B-PS, B-OG, I-OG
-9	이사	B-CV	B-CV	B-CV, O, I-CV, B-PS, B-OG
-10	##들이	O	O	O, I-CV, B-CV, B-PS, I-OG
-11	19	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-12	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-13	제출	O	O	O, I-DT, B-CV, B-OG, B-LC
-14	##했	O	O	O, B-PS, B-LC, B-OG, B-CV
-15	##던	O	O	O, B-PS, B-LC, B-OG, B-CV
-16	길	B-PS	B-PS	B-PS, O, I-PS, B-LC, B-OG
-17	사장	B-CV	B-CV	B-CV, O, I-PS, I-CV, B-EV
-18	해임	O	O	O, B-CV, I-CV, B-TM, I-EV
-19	제청	O	O	O, B-CV, I-CV, B-PS, B-LC
-20	##안	O	O	O, I-CV, B-PS, I-EV, I-OG
-21	##을	O	O	O, B-CV, B-OG, B-PS, B-LC
-22	논의	O	O	O, B-CV, B-OG, B-LC, B-EV
-23	##했	O	O	O, B-OG, B-PS, B-LC, B-CV
-24	##으나	O	O	O, B-LC, B-PS, B-OG, I-EV
-25	,	O	O	O, B-CV, B-LC, B-OG, I-EV
-26	격	O	O	O, B-EV, B-LC, B-CV, B-PS
-27	##론	O	O	O, I-EV, I-LC, B-LC, B-PS
-28	끝	O	O	O, B-PS, I-EV, B-CV, B-LC
-29	##에	O	O	O, B-LC, B-OG, I-EV, B-CV
-30	오	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-QT
-31	##는	I-DT	I-DT	I-DT, O, B-DT, I-EV, I-QT
-32	26	I-DT	I-DT	I-DT, B-DT, O, I-EV, I-QT
-33	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
-34	회의	O	O	O, I-DT, I-EV, B-EV, I-OG
-35	##에	O	O	O, B-CV, B-OG, I-EV, B-LC
-36	상정	O	O	O, B-LC, B-OG, B-CV, B-EV
-37	##하기	O	O	O, B-OG, B-LC, B-PS, B-CV
-38	##로	O	O	O, B-CV, B-OG, B-LC, B-PS
-39	합의	O	O	O, B-CV, B-OG, B-LC, B-EV
-40	##했	O	O	O, B-OG, B-LC, B-PS, I-OG
-41	##다	O	O	O, B-CV, I-OG, B-OG, B-LC
-42	.	O	O	O, B-LC, B-OG, B-PS, B-CV
-43	[SEP]	O	O	O, B-LC, B-OG, B-CV, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	정부	B-OG	B-OG
+2	##가	O	O
+3	독자	O	O
+4	##적	O	O
+5	##인	O	O
+6	아프가니스탄	B-LC	B-LC
+7	지방	B-OG	I-OG
+8	##재	I-OG	I-OG
+9	##건	I-OG	I-OG
+10	##팀	I-OG	I-OG
+11	(	O	O
+12	PR	B-OG	B-OG
+13	##T	I-OG	I-OG
+14	)	O	O
+15	설치	O	O
+16	지역	O	O
+17	##을	O	O
+18	결정	O	O
+19	##하	O	O
+20	##는	O	O
+21	데	O	O
+22	가장	O	O
+23	중요	O	O
+24	##하	O	O
+25	##게	O	O
+26	고려	O	O
+27	##하	O	O
+28	##는	O	O
+29	요소	O	O
+30	##는	O	O
+31	안전	O	O
+32	문제	O	O
+33	##다	O	O
+34	.	O	O
+35	[SEP]	O	O

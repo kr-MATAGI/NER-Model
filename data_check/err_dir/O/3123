@@ -1,12 +1,51 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-AF
-1	모자	O	O	O, B-CV, B-AM, I-CV, B-AF
-2	##와	O	O	O, I-CV, I-AF, B-PS, I-OG
-3	선글라스	O	O	O, B-CV, I-CV, B-AM, B-TM
-4	##와	O	O	O, I-CV, I-AF, B-PS, B-CV
-5	마스크	O	B-CV	B-CV, O, B-AM, B-TM, I-CV
-6	##를	O	O	O, I-CV, I-AF, B-CV, I-TM
-7	쓰	O	O	O, B-CV, B-LC, B-OG, B-TM
-8	##느	O	O	O, I-AF, B-PS, I-CV, I-OG
-9	##냐	O	O	O, I-AF, B-PS, I-OG, B-CV
-10	[SEP]	O	O	O, B-CV, B-LC, I-AF, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	공론화	O	O
+2	과정	O	O
+3	##에	O	O
+4	##선	O	O
+5	경주	O	B-LC
+6	방	O	O
+7	##폐	O	O
+8	##장	O	O
+9	##처럼	O	O
+10	특정	O	O
+11	지역	O	O
+12	##에	O	O
+13	모으	O	O
+14	##는	O	O
+15	집중	O	O
+16	##식	O	O
+17	##으로	O	O
+18	건설	O	O
+19	##할	O	O
+20	##지	O	O
+21	,	O	O
+22	현재	O	O
+23	원전	O	O
+24	##이	O	O
+25	있	O	O
+26	##는	O	O
+27	부지	O	O
+28	##마	O	O
+29	##다	O	O
+30	시설	O	O
+31	##을	O	O
+32	짓	O	O
+33	##는	O	O
+34	분산	O	O
+35	##식	O	O
+36	##을	O	O
+37	선택	O	O
+38	##할	O	O
+39	##지가	O	O
+40	논의	O	O
+41	##의	O	O
+42	핵심	O	O
+43	##이	O	O
+44	될	O	O
+45	것	O	O
+46	##으로	O	O
+47	보인다	O	O
+48	.	O	O
+49	[SEP]	O	O

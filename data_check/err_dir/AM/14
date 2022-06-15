@@ -1,16 +1,13 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	현재	O	O	O, B-CV, B-TM, B-OG, B-PS
-2	그	O	O	O, B-CV, B-PS, B-OG, B-TM
-3	##가	O	O	O, B-PS, B-CV, B-OG, B-LC
-4	보유	O	O	O, B-CV, B-TM, B-QT, B-PS
-5	##한	O	O	O, B-PS, B-LC, B-TM, B-CV
-6	말	B-AM	O	O, B-AM, B-TM, B-AF, I-AM
-7	##은	O	O	O, I-AF, I-TM, B-PS, B-CV
-8	모두	O	O	O, B-QT, B-PS, B-TM, B-CV
-9	스물	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-PS
-10	##두	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-11	필	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-12	##이다	O	O	O, I-QT, B-CV, B-TM, I-OG
-13	.	O	O	O, B-CV, B-PS, B-TM, I-QT
-14	[SEP]	O	O	O, B-CV, B-TM, B-PS, I-QT
+	text	label	preds
+0	[CLS]	O	O
+1	그	O	O
+2	반	B-PS	B-PS
+3	총장	B-CV	B-CV
+4	##의	O	O
+5	별명	O	O
+6	##이	O	O
+7	무슨	O	O
+8	장어	B-AM	B-CV
+9	##죠	O	O
+10	?	O	O
+11	[SEP]	O	O

@@ -1,29 +1,41 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-EV
-1	그	O	O	O, B-LC, B-PS, B-CV, B-DT
-2	후	O	O	O, B-PS, B-LC, I-DT, B-DT
-3	다	B-PS	B-PS	B-PS, I-PS, O, B-OG, B-LC
-4	##쓰	I-PS	I-PS	I-PS, O, I-OG, B-PS, I-LC
-5	##노	I-PS	I-PS	I-PS, O, I-OG, B-PS, I-LC
-6	회장	B-CV	B-CV	B-CV, O, I-PS, I-CV, B-OG
-7	##은	O	O	O, I-CV, I-PS, I-OG, I-EV
-8	일본	B-LC	B-LC	B-LC, B-OG, O, B-EV, B-AF
-9	장애인	B-CV	B-OG	B-OG, I-OG, B-CV, O, B-EV
-10	카누	B-OG	I-OG	I-OG, B-OG, O, I-EV, B-CV
-11	##협회	I-OG	I-OG	I-OG, O, I-EV, I-CV, I-AF
-12	활동	O	O	O, I-OG, I-EV, I-AF, I-CV
-13	##에	O	O	O, B-CV, B-PS, B-OG, I-OG
-14	참여	O	O	O, B-CV, B-LC, B-OG, B-TM
-15	##하고	O	O	O, B-PS, B-LC, B-CV, B-OG
-16	있	O	O	O, B-PS, B-CV, B-LC, B-OG
-17	##고	O	O	O, B-CV, B-PS, B-LC, B-OG
-18	현재	O	O	O, B-CV, B-PS, B-OG, B-TM
-19	##는	O	O	O, B-PS, B-CV, B-OG, I-OG
-20	고문	B-CV	B-CV	B-CV, O, B-TM, I-CV, B-OG
-21	##을	O	O	O, I-CV, B-CV, I-OG, B-PS
-22	맡	O	O	O, B-CV, B-PS, B-OG, B-LC
-23	##고	O	O	O, B-PS, B-CV, B-OG, B-LC
-24	있	O	O	O, B-CV, B-PS, B-LC, B-OG
-25	##다	O	O	O, B-CV, I-OG, B-PS, B-OG
-26	.	O	O	O, B-PS, B-CV, B-LC, B-OG
-27	[SEP]	O	O	O, B-CV, B-PS, B-LC, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	이와	O	O
+2	동시	O	O
+3	##에	O	O
+4	,	O	O
+5	시위	O	O
+6	군중	O	B-CV
+7	중	O	O
+8	일부	O	O
+9	##가	O	O
+10	경찰	B-OG	B-OG
+11	##을	O	O
+12	밀어내	O	O
+13	##고	O	O
+14	시청	B-LC	B-LC
+15	##역	I-LC	I-LC
+16	7	B-QT	B-QT
+17	##번	I-QT	I-QT
+18	##출	O	I-QT
+19	##구	O	I-QT
+20	앞	O	O
+21	네거	O	O
+22	##리에	O	O
+23	##서	O	O
+24	서울시	B-OG	B-AF
+25	##의	I-OG	I-AF
+26	##회	I-OG	I-AF
+27	앞	O	B-TM
+28	##까	O	O
+29	##지	O	O
+30	태평	B-AF	B-AF
+31	##로	I-AF	I-AF
+32	전	O	O
+33	차로	O	O
+34	##를	O	O
+35	점거	O	O
+36	##했	O	O
+37	##다	O	O
+38	.	O	O
+39	[SEP]	O	O

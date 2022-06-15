@@ -1,43 +1,31 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-QT, I-OG
-1	통계청	B-OG	B-OG	B-OG, O, B-CV, B-AF, B-EV
-2	담당자	B-CV	B-CV	B-CV, I-CV, O, I-OG, B-OG
-3	##는	O	O	O, I-CV, I-OG, I-QT, I-EV
-4	“	O	O	O, B-CV, B-TM, B-LC, I-CV
-5	기념일	O	O	O, B-CV, I-CV, B-TM, B-PS
-6	##이나	O	O	O, B-PS, B-CV, I-CV, I-AF
-7	,	O	O	O, B-CV, B-PS, B-TM, B-LC
-8	축하	O	O	O, B-CV, I-CV, B-TM, B-PS
-9	선물	O	O	O, B-CV, I-CV, B-PS, I-AF
-10	##을	O	O	O, B-CV, B-PS, I-CV, I-AF
-11	할	O	O	O, B-CV, B-PS, B-TM, B-AF
-12	때	O	O	O, B-CV, B-TM, B-PS, B-LC
-13	꽃	B-PT	O	O, B-PT, B-CV, I-PT, B-EV
-14	##보	O	O	O, I-CV, I-OG, I-EV, I-AF
-15	##다는	O	O	O, B-CV, B-TM, B-LC, B-QT
-16	비누	O	O	O, B-CV, B-AF, B-PT, B-TM
-17	,	O	O	O, B-CV, I-CV, B-TM, B-PS
-18	케익	B-CV	B-CV	B-CV, O, B-PT, I-CV, B-AF
-19	,	O	O	O, I-CV, I-AF, B-CV, I-OG
-20	초	O	O	O, B-CV, B-PT, B-AF, B-OG
-21	등	O	O	O, I-CV, B-CV, I-AF, B-PS
-22	보다	O	O	O, B-CV, B-TM, B-PS, B-QT
-23	실용	O	O	O, B-CV, B-TM, B-QT, B-FD
-24	##적인	O	O	O, I-QT, B-QT, B-CV, B-TM
-25	물건	O	O	O, B-CV, B-TM, B-PS, B-QT
-26	##으로	O	O	O, B-PS, B-CV, B-TM, B-LC
-27	대체	O	O	O, B-CV, B-PS, B-TM, B-LC
-28	##되	O	O	O, B-PS, B-CV, B-LC, I-CV
-29	##고	O	O	O, B-PS, B-CV, B-LC, B-QT
-30	있	O	O	O, B-CV, B-PS, B-LC, I-QT
-31	##는	O	O	O, B-PS, B-CV, I-QT, B-TM
-32	것	O	O	O, B-CV, B-PS, I-QT, B-TM
-33	같	O	O	O, I-QT, I-CV, B-CV, I-TM
-34	##다	O	O	O, I-QT, I-CV, I-TM, I-OG
-35	”	O	O	O, B-CV, I-QT, B-TM, B-QT
-36	고	O	O	O, B-CV, B-QT, B-TM, I-QT
-37	말	O	O	O, B-CV, I-QT, B-QT, B-TM
-38	##했	O	O	O, I-QT, I-CV, I-TM, B-CV
-39	##다	O	O	O, B-CV, I-QT, B-TM, B-QT
-40	.	O	O	O, B-CV, B-PS, B-LC, B-TM
-41	[SEP]	O	O	O, B-CV, B-TM, I-AF, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	은	B-PT	B-PT
+2	##목	I-PT	I-PT
+3	##서	I-PT	I-PT
+4	##를	O	O
+5	살펴보	O	O
+6	##던	O	O
+7	유	B-PS	B-PS
+8	교수	B-CV	B-CV
+9	##는	O	O
+10	옆	B-TM	B-TM
+11	##에	O	O
+12	있	O	O
+13	##는	O	O
+14	고사	O	O
+15	직전	O	O
+16	##의	O	O
+17	말라	O	O
+18	##비	O	O
+19	##틀	O	O
+20	##어진	O	O
+21	나무	B-PT	O
+22	한	B-QT	B-QT
+23	그루	I-QT	I-QT
+24	##를	O	O
+25	발견	O	O
+26	##했	O	O
+27	##다	O	O
+28	.	O	O
+29	[SEP]	O	O

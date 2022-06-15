@@ -1,62 +1,21 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	1	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-OG
-2	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-OG
-3	365	I-DT	I-DT	I-DT, B-DT, O, B-QT, B-TI
-4	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-OG
-5	불이	O	O	O, B-MT, B-TM, B-PS, B-AF
-6	꺼지	O	O	O, B-MT, B-PS, B-TM, B-CV
-7	##지	O	O	O, B-PS, I-TM, I-AF, B-TM
-8	않	O	O	O, B-PS, I-AF, I-OG, B-AF
-9	##는	O	O	O, I-AF, I-OG, B-LC, B-PS
-10	연구	O	O	O, B-CV, B-OG, B-FD, B-AF
-11	##센터	O	O	O, I-OG, I-AF, I-LC, I-CV
-12	##는	O	O	O, I-OG, B-OG, B-LC, B-CV
-13	한미	B-OG	B-OG	B-OG, O, B-LC, B-PS, I-OG
-14	##약	I-OG	I-OG	I-OG, O, B-OG, I-LC, I-PS
-15	##품	I-OG	I-OG	I-OG, O, I-LC, I-PS, I-AF
-16	##이	O	O	O, I-OG, B-PS, I-AF, B-CV
-17	지난해	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-18	베	B-OG	B-OG	B-OG, O, B-LC, B-PS, I-OG
-19	##링	I-OG	I-OG	I-OG, O, I-LC, I-PS, I-AF
-20	##거	I-OG	I-OG	I-OG, O, I-LC, I-PS, I-AF
-21	##인	I-OG	I-OG	I-OG, O, I-LC, I-PS, I-AF
-22	##겔	I-OG	I-OG	I-OG, O, I-PS, I-LC, B-OG
-23	##하	I-OG	I-OG	I-OG, O, I-LC, I-PS, I-AF
-24	##임	I-OG	I-OG	I-OG, O, I-LC, I-PS, I-AF
-25	사	B-OG	I-OG	I-OG, B-OG, O, B-LC, I-PS
-26	##노	I-OG	I-OG	I-OG, O, I-LC, I-PS, B-OG
-27	##피	I-OG	I-OG	I-OG, O, I-LC, I-PS, I-AF
-28	얀	B-OG	B-OG	B-OG, I-OG, O, B-LC, B-PS
-29	##센	I-OG	I-OG	I-OG, O, I-LC, I-PS, I-AF
-30	같	O	O	O, I-OG, I-AF, I-LC, I-QT
-31	##은	O	O	O, B-OG, B-LC, I-OG, B-TM
-32	글로벌	O	O	O, B-OG, B-LC, B-CV, B-TM
-33	제약	O	O	O, B-OG, B-CV, B-FD, I-OG
-34	##업체	O	O	O, I-OG, I-CV, I-QT, I-TM
-35	##와	O	O	O, I-OG, B-CV, B-OG, B-LC
-36	약	B-QT	B-QT	B-QT, O, B-DT, I-QT, B-OG
-37	8	I-QT	I-QT	I-QT, B-QT, O, I-LC, I-DT
-38	##조	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-39	원	I-QT	I-QT	I-QT, O, I-LC, I-PS, I-OG
-40	규모	O	O	O, I-QT, B-CV, I-OG, B-TM
-41	##의	O	O	O, B-CV, B-LC, B-OG, B-PS
-42	수출	O	O	O, B-CV, B-LC, B-TM, B-EV
-43	##계약	O	O	O, I-EV, I-TM, I-LC, I-CV
-44	##을	O	O	O, B-CV, I-OG, I-EV, B-OG
-45	잇달	O	O	O, B-LC, B-TM, B-CV, B-OG
-46	##아	O	O	O, B-LC, B-OG, B-PS, B-TM
-47	성사	O	O	O, B-LC, B-CV, B-OG, B-TM
-48	##시	O	O	O, B-LC, B-OG, B-PS, I-OG
-49	##키	O	O	O, B-LC, B-OG, B-PS, B-QT
-50	##는	O	O	O, B-LC, B-QT, B-OG, B-CV
-51	개	O	O	O, B-CV, B-OG, B-QT, B-PS
-52	##가	O	O	O, I-CV, I-OG, I-QT, I-LC
-53	##를	O	O	O, I-CV, I-OG, I-QT, B-CV
-54	올리	O	O	O, B-LC, B-CV, B-OG, B-TM
-55	##게	O	O	O, B-OG, B-LC, B-QT, B-PS
-56	한	O	O	O, B-QT, B-LC, B-PS, B-OG
-57	산실	O	O	O, B-LC, B-CV, B-QT, B-TM
-58	##이다	O	O	O, B-CV, I-QT, I-OG, B-TM
-59	.	O	O	O, B-LC, B-OG, I-OG, B-PS
-60	[SEP]	O	O	O, B-LC, I-OG, B-OG, B-CV
+	text	label	preds
+0	[CLS]	O	O
+1	미국	B-LC	B-LC
+2	메이저	B-OG	B-OG
+3	##리그	I-OG	I-OG
+4	##의	O	O
+5	한	B-QT	O
+6	시즌	I-QT	O
+7	최다	O	O
+8	홀드	B-TM	B-TM
+9	##는	O	O
+10	40	B-QT	B-QT
+11	##개	I-QT	I-QT
+12	,	O	O
+13	일본	B-OG	B-LC
+14	##은	O	O
+15	47	B-QT	B-QT
+16	##개	I-QT	I-QT
+17	##다	O	O
+18	.	O	O
+19	[SEP]	O	O

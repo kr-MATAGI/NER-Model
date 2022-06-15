@@ -1,17 +1,27 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	지금	O	O	O, B-PS, B-CV, B-LC, B-OG
-2	최	O	B-PS	B-PS, O, I-PS, B-LC, B-CV
-3	##x	O	O	O, I-PS, I-CV, I-AF, I-OG
-4	##x	O	O	O, I-PS, B-PS, I-CV, B-CV
-5	간호사	B-CV	B-CV	B-CV, O, I-CV, B-FD, B-PS
-6	##님	O	O	O, I-CV, B-CV, I-AF, I-PS
-7	##은	O	O	O, B-CV, B-PS, B-LC, I-CV
-8	건강	O	O	O, B-CV, B-LC, B-TM, B-PS
-9	##은	O	O	O, B-PS, B-LC, B-CV, I-CV
-10	괜찮	O	O	O, B-CV, B-PS, B-LC, B-OG
-11	##으	O	O	O, B-PS, I-PS, B-LC, I-CV
-12	##신	O	O	O, B-PS, I-PS, B-LC, I-OG
-13	건가요	O	O	O, B-PS, B-CV, B-LC, B-OG
-14	?	O	O	O, B-CV, B-PS, B-LC, B-OG
-15	[SEP]	O	O	O, B-CV, B-PS, B-LC, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	뉴욕	B-LC	B-LC
+2	케네디	B-LC	B-LC
+3	공항	I-LC	I-LC
+4	##과	O	O
+5	뉴	B-LC	B-LC
+6	##어	I-LC	I-LC
+7	##크	I-LC	I-LC
+8	공항	I-LC	I-LC
+9	,	O	O
+10	필라델피아	B-LC	B-LC
+11	국제공항	O	I-LC
+12	##의	O	O
+13	항공편	O	O
+14	##이	O	O
+15	취소	O	O
+16	##되	O	O
+17	##거나	O	O
+18	몇	O	O
+19	시간	O	O
+20	##씩	O	O
+21	지연	O	O
+22	##됐	O	O
+23	##다	O	O
+24	.	O	O
+25	[SEP]	O	O

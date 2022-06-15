@@ -1,27 +1,28 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	유럽	B-CV	B-LC	B-LC, B-OG, B-CV, O, B-AF
-2	##금융	I-CV	I-OG	I-OG, I-CV, O, I-LC, B-CV
-3	안정	I-CV	I-CV	I-CV, I-OG, O, I-LC, I-AF
-4	##화기	I-CV	I-CV	I-CV, I-OG, O, I-AF, I-LC
-5	##구	I-CV	I-CV	I-CV, O, I-OG, I-AF, I-LC
-6	기금	I-CV	I-CV	I-CV, O, I-OG, B-CV, I-AF
-7	##을	O	O	O, I-CV, I-OG, I-AF, I-EV
-8	2	O	O	O, B-PS, B-LC, B-OG, B-AF
-9	##조	O	O	O, B-PS, B-LC, I-AF, I-OG
-10	~	O	O	O, B-PS, I-AF, I-OG, B-LC
-11	3	O	O	O, B-PS, B-LC, B-OG, B-AF
-12	##조	O	O	O, B-PS, B-LC, B-OG, I-PS
-13	##유	O	O	O, B-PS, B-LC, B-TM, B-OG
-14	##로로	O	O	O, B-PS, B-LC, B-OG, B-TM
-15	다시	O	O	O, B-LC, B-PS, B-QT, B-OG
-16	증액	O	O	O, B-LC, B-PS, B-CV, B-OG
-17	##하고	O	O	O, B-PS, B-LC, I-OG, B-CV
-18	권한	O	O	O, B-CV, B-TM, B-LC, B-PS
-19	##도	O	O	O, B-PS, B-CV, B-LC, B-OG
-20	더	O	O	O, B-LC, B-PS, B-CV, B-TM
-21	확대	O	O	O, B-PS, B-LC, B-CV, B-TM
-22	##해야	O	O	O, B-PS, B-LC, B-OG, I-PS
-23	한다	O	O	O, B-CV, B-LC, B-PS, B-OG
-24	.	O	O	O, B-LC, B-PS, B-OG, I-OG
-25	[SEP]	O	O	O, B-LC, B-PS, B-CV, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	유럽	B-CV	B-OG
+2	##금융	I-CV	I-OG
+3	안정	I-CV	I-OG
+4	##화	I-CV	I-OG
+5	##기구	I-CV	I-OG
+6	기금	I-CV	O
+7	##을	O	O
+8	2	O	O
+9	##조	O	O
+10	~	O	O
+11	3	O	O
+12	##조	O	O
+13	##유	O	O
+14	##로로	O	O
+15	다시	O	O
+16	증액	O	O
+17	##하	O	O
+18	##고	O	O
+19	권한	O	O
+20	##도	O	O
+21	더	O	O
+22	확대	O	O
+23	##해야	O	O
+24	한다	O	O
+25	.	O	O
+26	[SEP]	O	O

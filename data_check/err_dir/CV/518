@@ -1,7 +1,54 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	그	O	O	O, B-CV, B-OG, B-TM, B-LC
-2	~	O	O	O, B-CV, I-CV, B-LC, I-AF
-3	바스	B-CV	O	O, B-PS, B-AF, B-LC, B-OG
-4	##크	I-CV	O	O, I-PS, I-AF, I-OG, I-LC
-5	[SEP]	O	O	O, I-AF, I-OG, I-PS, I-CV
+	text	label	preds
+0	[CLS]	O	O
+1	3	B-QT	B-CV
+2	##번	I-QT	I-CV
+3	타자	B-CV	I-CV
+4	카를로스	B-PS	B-PS
+5	곤	I-PS	I-PS
+6	##살	I-PS	I-PS
+7	##레스	I-PS	I-PS
+8	##에	O	O
+9	##게	O	O
+10	체인지	B-TM	B-TM
+11	##업	I-TM	I-TM
+12	##을	O	O
+13	던지	O	O
+14	##다	O	O
+15	불의	O	O
+16	##의	O	O
+17	홈런	B-TM	B-TM
+18	##을	O	O
+19	허용	O	O
+20	##하	O	O
+21	##긴	O	O
+22	했	O	O
+23	##지만	O	O
+24	6	B-EV	B-EV
+25	##회	I-EV	I-EV
+26	##까	O	O
+27	##지	O	O
+28	매	O	O
+29	이닝	O	O
+30	2	B-QT	B-QT
+31	##개	I-QT	I-QT
+32	##씩	I-QT	I-QT
+33	,	O	O
+34	총	O	O
+35	12	B-QT	B-QT
+36	##개	I-QT	I-QT
+37	##의	O	O
+38	삼진	B-TM	B-TM
+39	##을	O	O
+40	잡아내	O	O
+41	‘	O	O
+42	닥터	O	B-PS
+43	K	O	I-PS
+44	’	O	O
+45	로서의	O	O
+46	면모	O	O
+47	##를	O	O
+48	과시	O	O
+49	##했	O	O
+50	##다	O	O
+51	.	O	O
+52	[SEP]	O	O

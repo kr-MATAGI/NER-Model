@@ -1,53 +1,38 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	SK	B-OG	B-OG	B-OG, O, B-LC, B-AF, B-PS
-2	##텔	I-OG	I-OG	I-OG, O, B-OG, I-LC, I-AF
-3	##레	I-OG	I-OG	I-OG, O, I-LC, B-OG, I-AF
-4	##콤	I-OG	I-OG	I-OG, O, I-LC, I-AF, B-OG
-5	##이	O	O	O, I-OG, B-PS, B-CV, I-EV
-6	새	O	O	O, B-AF, B-OG, B-TM, B-PS
-7	중국어	B-CV	B-CV	B-CV, O, B-TM, B-LC, B-EV
-8	브랜드	O	O	O, I-CV, I-AF, B-CV, I-TM
-9	##까	O	O	O, B-CV, B-PS, I-AF, I-CV
-10	##지	O	O	O, B-CV, B-PS, B-OG, B-TM
-11	만든	O	O	O, B-AF, B-CV, B-OG, B-PS
-12	것	O	O	O, B-PS, B-CV, B-OG, B-LC
-13	##은	O	O	O, B-CV, B-PS, B-OG, B-LC
-14	모든	O	O	O, B-TM, B-PS, B-LC, B-QT
-15	것	O	O	O, B-TM, B-PS, B-CV, B-LC
-16	##이	O	O	O, B-PS, B-TM, B-AF, B-LC
-17	연결	O	O	O, B-TM, I-TM, B-PS, B-CV
-18	##되	O	O	O, B-TM, B-PS, I-TM, B-LC
-19	##는	O	O	O, B-TM, B-PS, B-LC, B-AF
-20	사물	B-TM	B-FD	B-FD, O, B-TR, B-TM, I-FD
-21	##인	I-TM	I-FD	I-FD, O, B-FD, I-TM, I-TR
-22	##터	I-TM	I-FD	I-FD, O, B-FD, I-TM, I-TR
-23	##넷	I-TM	I-FD	I-FD, O, B-FD, I-TM, I-TR
-24	(	I-TM	O	O, I-FD, I-OG, I-TM, B-CV
-25	IoT	I-TM	B-FD	B-FD, O, I-FD, B-TR, B-TM
-26	)	I-TM	O	O, I-FD, I-TM, I-AF, I-OG
-27	기기	I-TM	O	O, B-TM, B-CV, B-LC, B-PS
-28	보급	O	O	O, B-CV, B-TM, B-LC, B-OG
-29	##을	O	O	O, B-PS, B-CV, B-TM, B-LC
-30	통해	O	O	O, B-LC, B-PS, B-TM, B-CV
-31	IoT	B-FD	O	O, B-FD, B-TR, I-FD, B-TM
-32	서비스	O	O	O, I-FD, I-TM, I-TR, I-CV
-33	플랫폼	O	O	O, B-CV, B-TM, B-QT, I-CV
-34	기업	O	O	O, B-CV, I-CV, B-OG, B-TM
-35	##으로	O	O	O, B-CV, I-CV, B-PS, B-OG
-36	도약	O	O	O, B-CV, B-PS, B-TM, B-LC
-37	##하	O	O	O, B-PS, B-CV, B-LC, I-CV
-38	##겠다	O	O	O, B-CV, B-PS, B-LC, B-TM
-39	##는	O	O	O, B-PS, B-CV, B-TM, B-LC
-40	의지	O	O	O, B-CV, B-PS, B-TM, B-LC
-41	##를	O	O	O, B-CV, B-PS, I-CV, I-EV
-42	반영	O	O	O, B-PS, B-CV, B-LC, B-TM
-43	##한	O	O	O, B-PS, B-LC, B-CV, B-OG
-44	것	O	O	O, B-PS, B-CV, B-LC, B-OG
-45	##이	O	O	O, B-PS, B-CV, I-PS, B-LC
-46	##라는	O	O	O, B-PS, I-OG, I-PS, B-QT
-47	분석	O	O	O, B-CV, B-PS, B-OG, B-TM
-48	##이	O	O	O, B-PS, B-CV, I-OG, B-OG
-49	나온다	O	O	O, B-CV, B-TM, B-QT, B-PS
-50	.	O	O	O, B-PS, B-LC, B-CV, B-TM
-51	[SEP]	O	O	O, B-CV, B-PS, B-LC, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	이번	O	O
+2	공연	O	O
+3	##의	O	O
+4	연주	O	O
+5	##곡	O	O
+6	##은	O	O
+7	브	B-PS	B-PS
+8	##람	I-PS	I-PS
+9	##스	I-PS	I-PS
+10	교향곡	B-FD	B-FD
+11	2	B-QT	B-QT
+12	##번	I-QT	I-QT
+13	##과	O	O
+14	오페라	B-FD	B-FD
+15	마	B-AF	B-AF
+16	##탄	I-AF	I-AF
+17	##의	I-AF	I-AF
+18	사수	I-AF	I-AF
+19	서	B-FD	I-AF
+20	##곡	I-FD	I-AF
+21	,	O	O
+22	진	B-PS	B-PS
+23	##은	I-PS	I-PS
+24	##숙	I-PS	I-PS
+25	서울시	B-OG	B-OG
+26	##향	I-OG	I-OG
+27	상임	B-CV	B-CV
+28	##작	I-CV	I-CV
+29	##곡	I-CV	I-CV
+30	##가	I-CV	I-CV
+31	##의	O	O
+32	첼로	B-AF	B-AF
+33	협주곡	O	O
+34	##이다	O	O
+35	.	O	O
+36	[SEP]	O	O

@@ -1,55 +1,29 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	재	B-OG	O	O, B-CV, B-TM, B-TR, B-OG
-2	##형	I-OG	O	O, I-CV, I-TM, I-OG, I-AF
-3	##저축	I-OG	O	O, I-CV, I-TM, I-OG, I-AF
-4	##은	O	O	O, I-CV, I-OG, I-AF, I-TM
-5	연	O	O	O, B-LC, B-TM, B-PS, B-AF
-6	2	O	O	O, B-PS, B-LC, B-TM, B-OG
-7	%	O	O	O, B-PS, B-LC, B-TM, B-OG
-8	대의	O	O	O, B-PS, B-LC, B-TM, B-OG
-9	고정	O	O	O, B-TM, B-CV, B-PS, B-LC
-10	##금리	O	O	O, B-CV, B-PS, B-LC, I-CV
-11	##를	O	O	O, B-CV, B-LC, B-OG, B-TM
-12	제공	O	O	O, B-CV, B-LC, B-TM, B-PS
-13	##하	O	O	O, B-PS, B-LC, B-CV, B-TM
-14	##는	O	O	O, B-PS, B-LC, B-TM, B-CV
-15	‘	O	O	O, B-LC, B-OG, B-CV, B-TM
-16	고정	O	O	O, B-TM, B-CV, B-TR, B-AF
-17	##형	O	O	O, I-TM, I-CV, I-TR, I-AF
-18	’	O	O	O, I-OG, I-CV, B-PS, I-TM
-19	과	O	O	O, B-PS, B-LC, B-OG, B-AF
-20	,	O	O	O, B-CV, B-LC, B-OG, B-PS
-21	가입	O	O	O, B-CV, B-TM, B-LC, B-PS
-22	뒤	O	O	O, B-PS, B-LC, B-TM, I-DT
-23	3	B-DT	B-DT	B-DT, O, I-DT, B-LC, B-QT
-24	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-25	동안	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-26	##은	O	O	O, I-DT, B-LC, B-CV, B-OG
-27	연	O	O	O, B-LC, B-TM, B-PS, B-CV
-28	4	O	O	O, B-PS, B-LC, B-TM, B-OG
-29	%	O	O	O, B-PS, B-LC, B-TM, B-OG
-30	대의	O	O	O, B-LC, B-PS, B-TM, B-AF
-31	고정	O	O	O, B-CV, B-TM, B-LC, B-PS
-32	##금리	O	O	O, B-LC, B-PS, B-CV, I-CV
-33	##가	O	O	O, B-PS, B-LC, B-CV, B-OG
-34	적용	O	O	O, B-CV, B-TM, B-LC, B-OG
-35	##되	O	O	O, B-PS, B-LC, B-CV, B-TM
-36	##고	O	O	O, B-LC, B-PS, B-CV, B-TM
-37	이후	O	O	O, B-LC, B-PS, B-TM, B-CV
-38	변동	O	O	O, B-CV, B-LC, B-TM, B-PS
-39	##금리	O	O	O, B-LC, B-PS, B-CV, B-TM
-40	##로	O	O	O, B-CV, B-LC, B-TM, B-OG
-41	바뀌	O	O	O, B-LC, B-CV, B-PS, B-OG
-42	##는	O	O	O, B-LC, B-PS, B-CV, B-TM
-43	‘	O	O	O, B-LC, B-OG, B-CV, B-TM
-44	변동	O	O	O, B-TM, B-TR, B-CV, B-AF
-45	##형	O	O	O, I-TM, I-CV, I-TR, I-AF
-46	(	O	O	O, I-CV, B-CV, I-TM, I-OG
-47	혼합형	O	O	O, B-TM, B-CV, B-TR, B-QT
-48	)	O	O	O, I-CV, I-TM, I-QT, B-CV
-49	’	O	O	O, B-OG, B-CV, B-LC, B-PS
-50	으로	O	O	O, B-OG, B-LC, B-CV, B-PS
-51	나뉜다	O	O	O, B-TM, B-LC, B-OG, B-CV
-52	.	O	O	O, B-LC, B-CV, B-PS, I-AF
-53	[SEP]	O	O	O, B-LC, B-CV, B-TM, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	출판	B-OG	O
+2	##도	I-OG	O
+3	##시	I-OG	O
+4	##문화재	I-OG	O
+5	##단	I-OG	O
+6	##이	O	O
+7	주최	O	O
+8	##하	O	O
+9	##고	O	O
+10	출판	O	O
+11	##도	O	O
+12	##시	O	O
+13	입주	O	O
+14	##사	O	O
+15	##와	O	O
+16	외부	O	O
+17	출판사	O	O
+18	등	O	O
+19	200	B-QT	B-QT
+20	##여	I-QT	I-QT
+21	개	I-QT	I-QT
+22	##사	I-QT	I-QT
+23	##가	O	O
+24	참여	O	O
+25	##한다	O	O
+26	.	O	O
+27	[SEP]	O	O

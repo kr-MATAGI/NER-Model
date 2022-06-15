@@ -1,41 +1,25 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-EV, I-CV
-1	교육	O	B-LC	B-LC, O, B-AF, B-OG, B-TM
-2	##동	O	I-LC	I-LC, O, I-AF, I-OG, B-LC
-3	##에	O	O	O, I-LC, I-AF, I-OG, I-QT
-4	##선	O	O	O, B-LC, B-CV, B-TM, B-OG
-5	'	O	O	O, B-LC, B-CV, B-OG, B-DT
-6	난	B-AF	B-EV	B-EV, B-AF, B-OG, B-TM, B-LC
-7	##중일	I-AF	I-EV	I-EV, I-AF, I-OG, I-TM, I-LC
-8	##기	I-AF	I-EV	I-EV, I-AF, I-OG, I-TM, I-LC
-9	##학교	I-AF	I-EV	I-EV, I-AF, I-OG, I-TM, O
-10	'	O	O	O, I-EV, I-AF, I-OG, I-TM
-11	,	O	O	O, B-LC, B-CV, B-OG, B-TM
-12	'	O	O	O, B-LC, B-CV, B-DT, B-OG
-13	유물	B-AF	B-EV	B-EV, B-AF, B-TM, O, B-OG
-14	##로	I-AF	I-EV	I-EV, I-AF, I-TM, O, I-OG
-15	보	I-AF	I-EV	I-EV, I-AF, I-TM, O, I-OG
-16	##는	I-AF	I-EV	I-EV, I-AF, I-TM, O, I-OG
-17	이순신	I-AF	I-EV	I-EV, I-AF, I-TM, I-PS, I-OG
-18	'	O	O	O, I-EV, I-AF, I-TM, I-OG
-19	,	O	O	O, B-LC, B-CV, B-OG, B-TM
-20	'	O	O	O, B-LC, B-CV, B-OG, B-DT
-21	충무	B-AF	B-EV	B-EV, B-AF, B-PS, B-OG, B-LC
-22	##공	I-AF	I-EV	I-EV, I-AF, I-PS, I-OG, I-LC
-23	찾아	I-AF	I-EV	I-EV, I-AF, I-TM, O, I-OG
-24	떠나	I-AF	I-EV	I-EV, I-AF, O, I-TM, I-OG
-25	##는	I-AF	I-EV	I-EV, I-AF, O, I-TM, I-OG
-26	여행	I-AF	I-EV	I-EV, I-AF, I-TM, O, I-OG
-27	'	O	O	O, I-EV, I-AF, I-TM, I-OG
-28	등	O	O	O, B-LC, B-CV, B-OG, B-TM
-29	다양	O	O	O, B-CV, B-TM, B-OG, B-LC
-30	##한	O	O	O, B-LC, B-OG, B-TM, B-CV
-31	교육	O	O	O, B-CV, B-TM, B-LC, B-EV
-32	##프로	O	O	O, I-EV, I-TM, I-CV, I-LC
-33	##그램	O	O	O, I-EV, I-TM, I-CV, I-LC
-34	##을	O	O	O, B-CV, B-OG, B-LC, B-TM
-35	진행할	O	O	O, B-CV, B-OG, B-TM, B-LC
-36	예정	O	O	O, B-OG, B-CV, B-LC, B-TM
-37	##이다	O	O	O, B-CV, B-OG, B-TM, I-OG
-38	.	O	O	O, B-LC, B-CV, B-TM, B-OG
-39	[SEP]	O	O	O, B-LC, B-CV, B-TM, I-EV
+	text	label	preds
+0	[CLS]	O	O
+1	근데	O	O
+2	세	B-QT	B-QT
+3	발	I-QT	I-QT
+4	##을	O	O
+5	맞	O	O
+6	##고	O	O
+7	죽	O	O
+8	##었	O	O
+9	##다니	O	O
+10	##까	O	O
+11	이게	O	O
+12	어떻게	O	O
+13	자살	O	B-CV
+14	##이	O	O
+15	되	O	O
+16	##냐	O	O
+17	##라고	O	O
+18	하	O	O
+19	##는	O	O
+20	거	O	O
+21	에요	O	O
+22	.	O	O
+23	[SEP]	O	O

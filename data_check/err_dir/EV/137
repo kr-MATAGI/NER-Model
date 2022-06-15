@@ -1,51 +1,52 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	이	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
-2	원장	B-CV	B-CV	B-CV, O, I-PS, I-CV, B-PS
-3	##은	O	O	O, I-CV, B-CV, I-EV, I-OG
-4	대통령	B-CV	B-CV	B-CV, O, B-OG, B-PS, B-EV
-5	소속	O	O	O, I-CV, I-OG, B-PS, B-CV
-6	국가	B-OG	B-OG	B-OG, O, B-EV, B-PS, B-LC
-7	##생명	I-OG	I-OG	I-OG, O, I-EV, B-OG, I-LC
-8	##윤	I-OG	I-OG	I-OG, O, I-EV, B-OG, I-LC
-9	##리	I-OG	I-OG	I-OG, O, I-EV, B-OG, I-LC
-10	##심	I-OG	I-OG	I-OG, O, I-EV, B-OG, I-LC
-11	##의	I-OG	I-OG	I-OG, O, I-EV, B-OG, I-LC
-12	##위원회	I-OG	I-OG	I-OG, O, I-EV, I-LC, I-AF
-13	특별	B-CV	B-CV	B-CV, O, I-CV, I-OG, B-AF
-14	##위원	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-EV
-15	##장	I-CV	I-CV	I-CV, O, I-OG, B-CV, I-TM
-16	##을	O	O	O, I-CV, I-OG, B-CV, B-PS
-17	맡	O	O	O, B-LC, B-CV, B-TM, B-EV
-18	##아	O	O	O, B-LC, B-PS, B-OG, B-CV
-19	수십	O	O	O, B-LC, B-PS, B-CV, B-TM
-20	차례	O	O	O, B-EV, B-LC, B-CV, B-TM
-21	회의	O	O	O, B-EV, I-EV, B-CV, B-LC
-22	##와	O	O	O, I-EV, B-PS, B-LC, B-OG
-23	공청회	B-EV	O	O, B-EV, B-CV, B-LC, B-TM
-24	##를	O	O	O, I-EV, B-CV, I-AF, I-OG
-25	열	O	O	O, B-LC, B-CV, B-OG, B-PS
-26	##며	O	O	O, B-LC, B-PS, B-OG, B-QT
-27	웰	B-CV	B-CV	B-CV, O, B-OG, B-AF, I-CV
-28	##다	I-CV	I-CV	I-CV, O, I-OG, B-CV, I-AF
-29	##잉	I-CV	I-CV	I-CV, O, I-OG, B-CV, I-AF
-30	##법	I-CV	I-CV	I-CV, O, I-OG, B-CV, I-AF
-31	##의	O	O	O, I-CV, B-PS, I-OG, I-AF
-32	원형	O	O	O, B-TM, B-AF, B-QT, B-LC
-33	##이	O	O	O, B-PS, I-AF, B-LC, B-CV
-34	된	O	O	O, B-LC, B-QT, B-TM, B-CV
-35	권고	O	O	O, B-CV, B-TM, B-FD, B-AF
-36	##안	O	O	O, I-CV, I-AF, B-PS, B-CV
-37	##을	O	O	O, B-CV, B-LC, B-PS, B-OG
-38	‘	O	O	O, B-LC, B-CV, B-OG, B-PS
-39	한	O	B-QT	B-QT, O, B-AF, B-TM, B-PS
-40	땀	O	I-QT	I-QT, I-AF, I-TM, I-PS, I-EV
-41	한	O	B-QT	B-QT, B-TM, O, B-AF, B-PS
-42	땀	O	I-QT	I-QT, I-AF, I-TM, O, I-AM
-43	’	O	O	O, I-QT, I-AF, I-EV, I-TM
-44	구성	O	O	O, B-CV, B-TM, B-OG, B-LC
-45	##해	O	O	O, B-OG, B-LC, B-CV, B-PS
-46	나갔	O	O	O, B-CV, B-OG, B-LC, B-TM
-47	##다	O	O	O, B-CV, B-OG, B-LC, B-TM
-48	.	O	O	O, B-LC, B-OG, B-PS, B-CV
-49	[SEP]	O	O	O, B-LC, B-CV, B-OG, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	이	O	O
+2	부문	O	O
+3	종전	O	O
+4	기록	O	O
+5	##인	O	O
+6	1988	B-DT	B-DT
+7	##년	I-DT	I-DT
+8	US	B-EV	B-EV
+9	##오	I-EV	I-EV
+10	##픈	I-EV	I-EV
+11	결승	I-EV	B-EV
+12	##에	O	O
+13	##서	O	O
+14	마츠	B-PS	B-PS
+15	빌	I-PS	I-PS
+16	##란	I-PS	I-PS
+17	##데르	I-PS	I-PS
+18	##가	O	O
+19	이	B-PS	B-PS
+20	##반	I-PS	I-PS
+21	렌	I-PS	I-PS
+22	##들	I-PS	I-PS
+23	##을	O	O
+24	누	O	O
+25	##를	O	O
+26	때	O	O
+27	##의	O	O
+28	4	B-TI	B-TI
+29	##시간	I-TI	I-TI
+30	54	I-TI	I-TI
+31	##분	I-TI	I-TI
+32	##보	O	O
+33	##다	O	O
+34	59	B-TI	B-TI
+35	##분	I-TI	I-TI
+36	##이	O	O
+37	더	O	O
+38	걸렸	O	O
+39	##을	O	O
+40	만큼	O	O
+41	한	O	O
+42	치의	O	O
+43	양보	O	O
+44	##도	O	O
+45	없이	O	O
+46	팽팽	O	O
+47	##했	O	O
+48	##다	O	O
+49	.	O	O
+50	[SEP]	O	O

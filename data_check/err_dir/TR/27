@@ -1,23 +1,33 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-EV
-1	제방	O	O	O, B-TM, B-LC, B-AF, B-CV
-2	##을	O	O	O, B-CV, B-PS, I-AF, B-LC
-3	만들	O	O	O, B-CV, B-LC, B-PS, B-OG
-4	##어	O	O	O, B-PS, B-CV, B-LC, I-LC
-5	##주	O	O	O, B-CV, B-PS, I-DT, I-LC
-6	##니까	O	O	O, B-PS, B-LC, I-DT, I-OG
-7	일	B-TR	B-TR	B-TR, B-QT, B-TM, B-EV, B-LC
-8	##모	I-TR	I-TR	I-TR, I-QT, I-TM, O, I-EV
-9	##작	I-TR	I-QT	I-QT, I-TR, I-TM, O, I-LC
-10	지역	O	O	O, I-QT, I-TM, I-LC, I-TR
-11	##이	O	O	O, B-PS, B-LC, B-OG, B-CV
-12	삼	B-TR	B-QT	B-QT, B-TR, B-TM, B-EV, B-LC
-13	##모	I-TR	I-QT	I-QT, I-TR, I-TM, O, I-EV
-14	##작	I-TR	I-QT	I-QT, I-TM, I-TR, O, I-LC
-15	##으로	O	O	O, I-QT, I-TM, I-TR, I-EV
-16	바뀌	O	O	O, B-LC, B-QT, B-TM, I-QT
-17	##어	O	O	O, B-LC, I-QT, B-PS, B-QT
-18	'	O	O	O, B-CV, B-TM, B-LC, B-QT
-19	버린	O	O	O, B-CV, B-TM, B-QT, B-LC
-20	겁니다	O	O	O, B-CV, I-QT, B-LC, I-OG
-21	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	하버	B-TR	O
+2	-	I-TR	O
+3	보	I-TR	O
+4	##슈	I-TR	O
+5	공정	I-TR	O
+6	##이	O	O
+7	##라	O	O
+8	불리	O	O
+9	##는	O	O
+10	질소	B-MT	B-MT
+11	##비	O	O
+12	##료	O	O
+13	생산	O	O
+14	공정	O	O
+15	덕분	O	O
+16	##에	O	O
+17	식물	O	O
+18	재배	O	O
+19	##와	O	O
+20	동물	O	O
+21	사육	O	O
+22	##의	O	O
+23	효율	O	O
+24	##성	O	O
+25	##은	O	O
+26	극대	O	O
+27	##화	O	O
+28	##됐	O	O
+29	##다	O	O
+30	.	O	O
+31	[SEP]	O	O

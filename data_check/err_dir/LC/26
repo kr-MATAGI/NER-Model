@@ -1,27 +1,27 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	'	O	O	O, B-CV, B-LC, B-PS, B-OG
-2	한	B-CV	B-FD	B-FD, O, B-LC, B-CV, B-AF
-3	##어	I-CV	I-FD	I-FD, O, B-FD, I-AF, I-LC
-4	(	O	O	O, I-FD, I-OG, I-AF, I-CV
-5	漢	O	O	O, B-FD, B-LC, B-CV, B-PS
-6	語	O	O	O, B-FD, I-FD, B-LC, B-CV
-7	)	O	O	O, B-CV, I-CV, B-PS, I-OG
-8	에	O	O	O, B-CV, B-PS, B-LC, B-OG
-9	정통	O	O	O, B-CV, B-LC, B-PS, B-OG
-10	##하	O	O	O, B-PS, B-LC, B-CV, I-PS
-11	##며	O	O	O, B-PS, B-LC, B-CV, I-PS
-12	,	O	O	O, B-CV, B-LC, B-PS, B-OG
-13	중국	B-LC	B-FD	B-FD, B-LC, O, B-AF, B-OG
-14	철학	B-FD	I-FD	I-FD, O, B-FD, I-AF, I-LC
-15	##을	O	O	O, I-FD, I-AF, I-OG, B-CV
-16	좋아한다	O	O	O, B-PS, B-CV, B-LC, B-OG
-17	'	O	O	O, B-CV, B-PS, I-CV, B-LC
-18	는	O	O	O, B-PS, B-CV, I-CV, B-LC
-19	설명	O	O	O, B-CV, B-PS, I-CV, B-OG
-20	##도	O	O	O, I-CV, B-CV, B-PS, I-AF
-21	있	O	O	O, B-CV, B-PS, B-QT, B-OG
-22	##었	O	O	O, B-CV, B-PS, I-CV, B-OG
-23	##다	O	O	O, B-CV, I-CV, B-PS, I-OG
-24	.	O	O	O, B-LC, B-CV, B-PS, B-FD
-25	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-FD
+	text	label	preds
+0	[CLS]	O	O
+1	박태환	B-PS	B-PS
+2	##은	O	O
+3	이날	B-DT	B-DT
+4	오후	B-TI	B-TI
+5	수영장	O	O
+6	##에	O	O
+7	들어가	O	O
+8	##기에	O	O
+9	앞서	O	O
+10	태	B-LC	B-LC
+11	##릉	I-LC	I-LC
+12	선수촌	I-LC	O
+13	근력	O	O
+14	##훈련	O	O
+15	##장	O	O
+16	##인	O	O
+17	월	O	B-AF
+18	##계	O	I-AF
+19	##관	O	I-AF
+20	##을	O	O
+21	찾	O	O
+22	##았	O	O
+23	##다	O	O
+24	.	O	O
+25	[SEP]	O	O

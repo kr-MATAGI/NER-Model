@@ -1,23 +1,25 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-AF
-1	처음	O	O	O, B-CV, B-QT, B-PS, B-TM
-2	만난	O	O	O, B-PS, B-CV, B-QT, I-QT
-3	사장	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-PS
-4	##의	O	O	O, I-CV, B-CV, B-PS, I-AF
-5	말	O	O	O, B-AM, B-PS, B-CV, B-TM
-6	##을	O	O	O, B-PS, B-CV, B-LC, B-TM
-7	곧	O	O	O, B-PS, B-LC, B-TM, B-QT
-8	##이	O	O	O, B-PS, B-LC, I-PS, B-TM
-9	##곧	O	O	O, B-PS, I-PS, B-LC, B-QT
-10	##대로	O	O	O, B-PS, B-LC, I-PS, I-QT
-11	믿	O	O	O, B-PS, B-LC, B-QT, B-CV
-12	##는	O	O	O, B-PS, B-CV, B-LC, B-QT
-13	알바	O	B-CV	B-CV, O, I-CV, B-TM, B-OG
-14	학생	B-CV	B-CV	B-CV, I-CV, O, B-OG, B-TM
-15	##이	O	O	O, I-CV, B-PS, I-OG, I-QT
-16	몇	O	O	O, B-QT, B-PS, B-LC, B-OG
-17	명	O	O	O, I-QT, B-QT, B-PS, B-LC
-18	##이나	O	O	O, B-PS, I-QT, B-OG, B-LC
-19	될까	O	O	O, I-OG, B-QT, I-QT, B-LC
-20	.	O	O	O, B-CV, I-OG, I-QT, B-TM
-21	[SEP]	O	O	O, B-PS, B-CV, B-LC, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	지인	O	B-CV
+2	##의	O	O
+3	추천	O	O
+4	##으로	O	O
+5	모형	O	O
+6	##제	O	O
+7	##작	O	O
+8	##회사	O	O
+9	##에	O	O
+10	취직	O	O
+11	##했	O	O
+12	##는데	O	O
+13	어느새	O	O
+14	10	B-QT	B-QT
+15	##년	I-QT	I-QT
+16	##차	I-QT	I-QT
+17	##가	O	O
+18	훌쩍	O	O
+19	넘	O	O
+20	##었	O	O
+21	##다	O	O
+22	.	O	O
+23	[SEP]	O	O

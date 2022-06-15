@@ -1,40 +1,54 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	흙	O	O	O, B-CV, B-LC, B-TM, B-MT
-2	##판	O	O	O, I-CV, I-LC, I-AF, I-TM
-3	##을	O	O	O, B-CV, B-LC, B-PS, I-AF
-4	평평	O	O	O, B-CV, B-TM, B-LC, B-PS
-5	##하	O	O	O, B-LC, B-PS, I-LC, B-CV
-6	##게	O	O	O, B-LC, B-PS, B-OG, B-CV
-7	다진	O	O	O, B-CV, B-LC, B-OG, B-AF
-8	뒤	O	O	O, B-TM, B-LC, B-CV, B-AF
-9	달	B-AF	B-AF	B-AF, O, B-CV, I-AF, B-LC
-10	##항	I-AF	I-AF	I-AF, O, I-CV, I-LC, I-TM
-11	##아리	I-AF	I-AF	I-AF, O, I-CV, I-LC, I-TM
-12	,	O	O	O, I-AF, I-CV, B-CV, I-EV
-13	청	B-AF	B-AF	B-AF, O, B-CV, I-AF, B-PT
-14	##화	I-AF	I-AF	I-AF, O, I-CV, I-PT, I-LC
-15	##백	I-AF	I-AF	I-AF, O, I-CV, I-LC, I-TM
-16	##자	I-AF	I-AF	I-AF, O, I-CV, I-LC, I-QT
-17	,	O	O	O, I-AF, I-CV, I-EV, B-CV
-18	연	O	B-AF	B-AF, O, B-CV, I-AF, B-PT
-19	##적	O	I-AF	I-AF, O, I-CV, I-LC, I-PT
-20	등	O	O	O, I-AF, B-CV, B-LC, I-CV
-21	그림	O	O	O, B-CV, B-TM, B-LC, I-AF
-22	##을	O	O	O, B-CV, B-PS, B-LC, B-OG
-23	넣	O	O	O, B-CV, B-LC, B-PS, B-TM
-24	##을	O	O	O, B-CV, B-LC, B-AF, B-TM
-25	부분	O	O	O, B-CV, B-LC, B-PS, B-TM
-26	##에	O	O	O, B-CV, B-LC, B-PS, B-TM
-27	흙	O	O	O, B-CV, B-MT, B-LC, B-PS
-28	##물	O	O	O, I-CV, I-LC, B-MT, I-AF
-29	##을	O	O	O, B-CV, B-LC, B-PS, B-OG
-30	바르	O	O	O, B-CV, B-LC, B-PS, B-OG
-31	##고	O	O	O, B-PS, B-LC, B-CV, B-OG
-32	말리	O	O	O, B-LC, B-CV, B-PS, B-OG
-33	##기	O	O	O, B-PS, B-LC, B-CV, B-OG
-34	##를	O	O	O, B-CV, I-OG, B-LC, B-TM
-35	반복	O	O	O, B-CV, B-LC, B-TM, B-OG
-36	##한다	O	O	O, B-LC, B-CV, B-OG, B-PS
-37	.	O	O	O, B-LC, B-CV, B-PS, B-AF
-38	[SEP]	O	O	O, B-LC, B-CV, I-AF, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	2007	B-DT	B-DT
+2	##년	I-DT	I-DT
+3	프랑스	B-LC	B-LC
+4	모델	B-CV	B-CV
+5	이자	B-PS	B-PS
+6	##벨	I-PS	I-PS
+7	카로	I-PS	I-PS
+8	##가	O	O
+9	뼈	B-TM	B-TM
+10	##만	O	O
+11	남	O	O
+12	##은	O	O
+13	앙상	O	O
+14	##한	O	O
+15	모습	O	O
+16	##으로	O	O
+17	거	B-TM	B-TM
+18	##식	I-TM	I-TM
+19	##증	I-TM	I-TM
+20	##의	O	O
+21	위험	O	O
+22	##을	O	O
+23	알리	O	O
+24	##는	O	O
+25	운동	O	O
+26	##을	O	O
+27	시작	O	O
+28	##하면	O	O
+29	##서	O	O
+30	모델	O	B-CV
+31	##업	O	O
+32	##계	O	O
+33	##의	O	O
+34	거	O	B-TM
+35	##식	O	I-TM
+36	##증	O	I-TM
+37	##과	O	O
+38	정신	O	B-TM
+39	질환	O	I-TM
+40	등	O	O
+41	각종	O	O
+42	질병	O	O
+43	문제	O	O
+44	##가	O	O
+45	사회	O	O
+46	##적	O	O
+47	쟁점	O	O
+48	##으로	O	O
+49	불거졌	O	O
+50	##다	O	O
+51	.	O	O
+52	[SEP]	O	O

@@ -1,19 +1,41 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	램	B-PS	B-OG	B-OG, B-AF, B-TM, B-PS, B-LC
-2	##지	I-PS	I-OG	I-OG, I-TM, I-AF, I-PS, I-LC
-3	##는	O	O	O, I-OG, I-AF, I-TM, I-CV
-4	그간	O	O	O, B-CV, B-LC, B-TM, B-OG
-5	엄청난	O	O	O, B-CV, B-TM, B-OG, B-LC
-6	수입	O	O	O, B-CV, B-TM, B-LC, B-QT
-7	##을	O	O	O, B-CV, B-PS, B-OG, B-TM
-8	벌어들	O	O	O, B-CV, B-TM, B-LC, B-OG
-9	##였	O	O	O, B-PS, I-OG, I-CV, B-CV
-10	##고	O	O	O, B-CV, B-PS, I-OG, I-AF
-11	,	O	O	O, B-CV, B-LC, B-PS, B-OG
-12	그만큼	O	O	O, B-CV, B-LC, B-TM, B-PS
-13	써	O	O	O, B-CV, B-TM, B-LC, B-OG
-14	##왔	O	O	O, B-CV, I-CV, I-AF, I-OG
-15	##다	O	O	O, B-CV, B-TM, I-CV, B-LC
-16	.	O	O	O, B-CV, B-LC, B-PS, B-TM
-17	[SEP]	O	O	O, B-CV, B-LC, B-TM, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	알	B-PS	B-PS
+2	##러	I-PS	I-PS
+3	##트	I-PS	I-PS
+4	갈	I-PS	I-PS
+5	##로	I-PS	I-OG
+6	R	B-OG	I-OG
+7	##BS	I-OG	I-OG
+8	유럽	B-LC	B-LC
+9	신용	O	O
+10	##전	O	O
+11	##략	O	O
+12	부문	O	O
+13	대표	B-CV	B-CV
+14	##는	O	O
+15	""""	O	O
+16	그리스	B-LC	B-LC
+17	##의	O	O
+18	반	B-CV	O
+19	##긴	I-CV	O
+20	##축	I-CV	O
+21	##정책	I-CV	O
+22	##은	O	O
+23	마치	O	O
+24	핵	B-AF	B-AF
+25	##폭탄	I-AF	I-AF
+26	같	O	O
+27	##은	O	O
+28	충격	O	O
+29	##이	O	O
+30	될	O	O
+31	것	O	O
+32	""""	O	O
+33	이라	O	O
+34	##고	O	O
+35	말	O	O
+36	##했	O	O
+37	##다	O	O
+38	.	O	O
+39	[SEP]	O	O

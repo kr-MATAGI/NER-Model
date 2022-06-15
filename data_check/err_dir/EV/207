@@ -1,78 +1,27 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-EV, I-OG, B-CV, I-CV
-1	15	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-QT
-2	##일	I-DT	I-DT	I-DT, O, I-EV, I-QT, B-DT
-3	중국	B-LC	B-LC	B-LC, O, B-OG, I-LC, I-DT
-4	광저우	B-LC	B-LC	B-LC, I-LC, O, B-OG, B-AF
-5	##의	O	O	O, I-LC, B-LC, I-AF, I-OG
-6	사자	B-AF	B-AF	B-AF, B-LC, O, B-PS, B-TM
-7	##호	I-AF	I-AF	I-AF, I-LC, O, I-PS, B-AF
-8	##골	I-AF	I-AF	I-AF, I-LC, O, I-PS, I-QT
-9	##프	I-AF	I-AF	I-AF, I-LC, O, I-PS, I-QT
-10	##장	I-AF	I-AF	I-AF, I-LC, O, I-QT, I-PS
-11	(	O	O	O, I-AF, I-LC, I-QT, I-EV
-12	파	B-QT	B-QT	B-QT, B-TM, O, I-QT, B-EV
-13	##72	I-QT	I-QT	I-QT, I-TM, I-LC, O, I-AF
-14	·	O	O	O, I-QT, I-EV, I-AF, I-TM
-15	62	B-QT	B-QT	B-QT, B-TM, O, I-QT, B-EV
-16	##77	I-QT	I-QT	I-QT, I-TM, O, B-QT, I-LC
-17	##야	I-QT	I-QT	I-QT, O, I-TM, I-LC, B-QT
-18	##드	I-QT	I-QT	I-QT, O, I-TM, I-LC, I-AF
-19	)	O	O	O, I-QT, I-EV, I-TM, B-CV
-20	에서	O	O	O, B-CV, B-LC, B-QT, B-PS
-21	끝난	O	O	O, B-EV, B-CV, B-QT, B-LC
-22	현대차	B-OG	B-OG	B-OG, B-EV, B-AF, O, B-PS
-23	중국	B-EV	I-EV	I-EV, B-EV, I-OG, I-AF, B-LC
-24	##여	I-EV	I-EV	I-EV, B-EV, I-AF, O, I-OG
-25	##자	I-EV	I-EV	I-EV, I-AF, O, B-EV, I-OG
-26	##오	I-EV	I-EV	I-EV, I-AF, O, B-EV, I-QT
-27	##픈	I-EV	I-EV	I-EV, I-AF, O, I-QT, B-EV
-28	(	O	O	O, I-EV, I-AF, I-OG, I-DT
-29	총	O	O	O, B-CV, B-QT, B-LC, B-DT
-30	##상	O	O	O, B-CV, I-CV, B-PS, I-EV
-31	##금	O	O	O, I-CV, B-PS, I-LC, B-LC
-32	40	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-EV
-33	##만	I-QT	I-QT	I-QT, O, I-PS, I-LC, I-EV
-34	##달	I-QT	I-QT	I-QT, O, I-LC, I-EV, I-AF
-35	##러	I-QT	I-QT	I-QT, O, I-LC, I-EV, I-TM
-36	)	O	O	O, I-QT, I-EV, I-CV, I-AF
-37	3	B-EV	B-EV	B-EV, B-QT, O, B-DT, B-AF
-38	##라	I-EV	I-EV	I-EV, I-QT, O, B-EV, I-AF
-39	##운드	I-EV	I-EV	I-EV, I-QT, O, I-AF, I-LC
-40	##에서	O	O	O, I-EV, I-QT, I-AF, B-CV
-41	장하	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-AF
-42	##나	I-PS	I-PS	I-PS, O, I-OG, I-LC, I-AF
-43	##는	O	O	O, I-PS, I-OG, I-EV, B-CV
-44	버디	B-TM	B-TM	B-TM, O, B-QT, B-CV, I-TM
-45	3	B-QT	B-QT	B-QT, I-QT, I-TM, B-TM, O
-46	##개	I-QT	I-QT	I-QT, I-TM, O, I-AF, I-EV
-47	,	O	O	O, I-QT, I-TM, I-AF, I-EV
-48	보	B-TM	B-TM	B-TM, B-QT, O, B-CV, I-TM
-49	##기	I-TM	I-TM	I-TM, I-QT, O, B-TM, I-AF
-50	2	B-QT	B-QT	B-QT, I-TM, I-QT, B-TM, O
-51	##개	I-QT	I-QT	I-QT, I-TM, O, I-AF, I-EV
-52	,	O	O	O, I-QT, I-TM, I-AF, I-EV
-53	더블	B-TM	B-TM	B-TM, B-QT, O, B-CV, I-TM
-54	##보기	I-TM	I-TM	I-TM, I-QT, O, B-TM, I-AF
-55	1	B-QT	B-QT	B-QT, I-TM, I-QT, B-TM, O
-56	##개	I-QT	I-QT	I-QT, I-TM, O, I-AF, I-EV
-57	##로	O	O	O, I-QT, I-TM, I-EV, I-AF
-58	1	B-QT	B-QT	B-QT, B-TM, B-EV, O, B-AF
-59	##타	I-QT	I-QT	I-QT, I-TM, I-EV, I-AF, O
-60	##를	O	O	O, I-QT, I-EV, I-TM, I-AF
-61	잃	O	O	O, B-TM, B-CV, B-LC, B-OG
-62	##어	O	O	O, B-LC, B-TM, B-OG, B-CV
-63	최종	O	O	O, B-LC, B-QT, B-TM, B-CV
-64	합계	O	O	O, B-QT, B-TM, B-LC, B-CV
-65	3	B-QT	B-QT	B-QT, B-TM, B-EV, B-AF, B-LC
-66	##언	I-QT	I-QT	I-QT, I-TM, I-EV, I-AF, I-LC
-67	##더	I-QT	I-QT	I-QT, I-TM, I-EV, I-AF, O
-68	##파	I-QT	I-QT	I-QT, I-TM, I-EV, I-AF, O
-69	213	B-QT	B-QT	B-QT, I-QT, I-TM, B-TM, B-EV
-70	##타	I-QT	I-QT	I-QT, I-TM, I-EV, O, I-AF
-71	##를	O	O	O, I-QT, I-TM, I-EV, I-AF
-72	기록	O	O	O, B-CV, B-OG, B-LC, B-TM
-73	##했	O	O	O, B-CV, B-LC, B-OG, B-PS
-74	##다	O	O	O, B-CV, B-LC, B-OG, B-TM
-75	.	O	O	O, B-LC, B-CV, B-PS, B-TM
-76	[SEP]	O	O	O, B-LC, B-CV, I-EV, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	하시모토	B-PS	B-PS
+2	공동	B-CV	B-CV
+3	##대표	I-CV	I-CV
+4	##는	O	O
+5	도의	B-EV	B-CV
+6	##원	I-EV	I-CV
+7	선거	I-EV	I-EV
+8	결과	O	O
+9	##에	O	O
+10	따라	O	O
+11	대표	B-CV	B-CV
+12	##직	I-CV	I-CV
+13	##을	O	O
+14	사퇴	O	O
+15	##할	O	O
+16	가능	O	O
+17	##성	O	O
+18	##도	O	O
+19	시사	O	O
+20	##한	O	O
+21	바	O	O
+22	있	O	O
+23	##다	O	O
+24	.	O	O
+25	[SEP]	O	O

@@ -1,8 +1,23 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	슈퍼	O	O	O, B-CV, B-AF, B-PS, B-OG
-2	##영	O	B-CV	B-CV, I-CV, O, I-AF, I-PS
-3	##웅	O	I-CV	I-CV, O, I-AF, I-PS, B-CV
-4	##들	O	O	O, I-CV, I-AF, I-PS, I-OG
-5	.	O	O	O, I-AF, I-CV, I-OG, I-PS
-6	[SEP]	O	O	O, B-CV, I-AF, B-LC, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	다	O	O
+2	아	O	O
+3	##는	O	O
+4	척	O	O
+5	하고	O	O
+6	가르치	O	O
+7	##지만	O	O
+8	국어	O	B-FD
+9	##의	O	O
+10	주어	O	O
+11	##가	O	O
+12	뭐	O	O
+13	뭐	O	O
+14	뭐	O	O
+15	##여	O	O
+16	난	O	O
+17	잘	O	O
+18	모르	O	O
+19	##겠	O	O
+20	##어	O	O
+21	[SEP]	O	O

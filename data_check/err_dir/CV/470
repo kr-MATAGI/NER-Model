@@ -1,12 +1,35 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-EV, I-CV, B-CV
-1	■	O	O	O, B-LC, B-PS, B-CV, B-OG
-2	10	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-QT
-3	##일	I-DT	I-DT	I-DT, O, I-EV, B-DT, I-QT
-4	크로아티아	B-EV	B-EV	B-EV, O, B-LC, I-EV, B-CV
-5	##전	I-EV	I-EV	I-EV, O, B-EV, I-AF, I-LC
-6	‘	O	O	O, I-EV, I-AF, I-OG, I-DT
-7	키	O	O	O, B-CV, B-AM, B-PS, B-TM
-8	플레이어	B-CV	O	O, B-CV, I-CV, I-PS, B-AM
-9	’	O	O	O, I-CV, B-CV, I-QT, B-PS
-10	[SEP]	O	O	O, B-CV, B-LC, B-PS, I-CV
+	text	label	preds
+0	[CLS]	O	O
+1	기	B-OG	B-OG
+2	##율	I-OG	I-OG
+3	##위	I-OG	I-OG
+4	##는	O	O
+5	'	O	O
+6	고위직	O	O
+7	자녀	B-CV	B-CV
+8	소환	B-CV	O
+9	'	O	O
+10	방안	O	O
+11	##을	O	O
+12	내년	B-DT	B-DT
+13	##에	O	O
+14	##는	O	O
+15	차관	B-CV	B-CV
+16	##급	O	O
+17	이상	O	O
+18	##으로	O	O
+19	,	O	O
+20	2015	B-DT	B-DT
+21	##년	I-DT	I-DT
+22	##에	O	O
+23	##는	O	O
+24	청장	B-CV	B-CV
+25	##급	I-CV	O
+26	이상	O	O
+27	##으로	O	O
+28	확대	O	O
+29	##할	O	O
+30	방침	O	O
+31	##이다	O	O
+32	.	O	O
+33	[SEP]	O	O

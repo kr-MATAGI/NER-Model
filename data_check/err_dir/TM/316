@@ -1,68 +1,29 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	안	B-PS	B-PS	B-PS, B-OG, O, B-LC, B-AF
-2	전	O	O	O, I-PS, I-OG, B-CV, I-EV
-3	대표	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-EV
-4	##는	O	O	O, I-CV, I-EV, B-CV, I-QT
-5	이날	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-QT
-6	페이스북	B-TM	B-OG	B-OG, B-AF, B-LC, B-TM, I-OG
-7	##에서	O	O	O, I-OG, I-DT, I-AF, I-EV
-8	‘	O	O	O, B-LC, B-CV, B-OG, B-PS
-9	세월	B-EV	B-AF	B-AF, B-PS, B-EV, O, B-LC
-10	##호	I-EV	I-AF	I-AF, I-PS, I-EV, O, I-LC
-11	희생자	B-CV	B-CV	B-CV, I-AF, O, I-EV, I-CV
-12	##들	O	O	O, I-AF, I-CV, I-EV, I-OG
-13	##에	O	O	O, I-AF, B-CV, B-PS, I-EV
-14	보내	O	O	O, B-CV, B-PS, B-AF, B-TM
-15	##는	O	O	O, B-PS, I-AF, B-CV, B-AF
-16	편지	O	O	O, B-CV, B-AF, B-TM, I-AF
-17	’	O	O	O, B-CV, I-AF, B-PS, I-CV
-18	를	O	O	O, B-CV, B-LC, B-OG, B-TM
-19	공개	O	O	O, B-CV, B-LC, B-OG, B-TM
-20	##하	O	O	O, B-LC, B-PS, B-OG, B-DT
-21	##며	O	O	O, B-LC, B-OG, B-PS, B-CV
-22	“	O	O	O, B-LC, B-CV, B-OG, B-PS
-23	만	O	O	O, B-PS, B-LC, B-EV, B-DT
-24	##시	O	O	O, B-PS, I-PS, I-LC, B-LC
-25	##지	O	O	O, I-PS, B-PS, I-LC, B-LC
-26	##탄	O	O	O, I-PS, I-LC, B-LC, B-PS
-27	##이지	O	O	O, B-PS, I-PS, B-LC, I-LC
-28	##만	O	O	O, I-PS, B-PS, B-LC, I-LC
-29	이제	O	O	O, B-PS, B-LC, I-PS, B-CV
-30	##부터	O	O	O, B-PS, B-LC, I-PS, I-LC
-31	##라도	O	O	O, B-PS, I-PS, B-LC, I-LC
-32	뿌리	O	O	O, B-PT, B-LC, I-PT, B-OG
-33	##째	O	O	O, I-PS, B-PS, I-LC, B-LC
-34	썩	O	O	O, B-LC, B-CV, B-PS, B-TM
-35	##어	O	O	O, B-LC, B-PS, B-TM, I-LC
-36	있	O	O	O, B-LC, B-PS, B-CV, B-TM
-37	##는	O	O	O, B-LC, B-PS, B-CV, B-OG
-38	대한민국	B-LC	B-LC	B-LC, O, B-OG, I-LC, B-PS
-39	##을	O	O	O, I-LC, I-OG, B-CV, I-AF
-40	바꾸	O	O	O, B-CV, B-LC, B-PS, B-OG
-41	##겠다	O	O	O, B-PS, B-CV, B-LC, I-QT
-42	”	O	O	O, B-CV, B-LC, B-PS, B-OG
-43	며	O	O	O, B-LC, B-CV, B-OG, B-PS
-44	“	O	O	O, B-LC, B-CV, B-PS, B-OG
-45	그것	O	O	O, B-LC, B-CV, B-PS, B-EV
-46	##이	O	O	O, B-PS, B-LC, B-CV, B-OG
-47	여러분	O	O	O, B-CV, B-PS, B-LC, B-QT
-48	##을	O	O	O, B-PS, B-CV, I-CV, B-LC
-49	지켜	O	O	O, B-CV, B-PS, B-LC, B-QT
-50	##주	O	O	O, B-PS, B-LC, B-CV, I-QT
-51	##지	O	O	O, B-PS, B-LC, B-CV, B-QT
-52	못한	O	O	O, B-CV, B-LC, B-PS, B-QT
-53	것	O	O	O, B-CV, B-PS, B-LC, B-QT
-54	##에	O	O	O, B-CV, B-PS, B-LC, B-OG
-55	대한	O	O	O, B-CV, B-PS, B-LC, B-OG
-56	제	O	O	O, B-CV, B-PS, B-LC, I-CV
-57	사과	O	O	O, B-CV, B-PS, B-QT, I-CV
-58	##이	O	O	O, B-PS, I-CV, B-CV, B-LC
-59	##자	O	O	O, B-PS, B-LC, B-CV, I-CV
-60	도리	O	O	O, B-CV, B-PS, B-QT, I-CV
-61	”	O	O	O, I-CV, B-CV, I-QT, B-TM
-62	라고	O	O	O, B-CV, B-LC, B-OG, B-TM
-63	밝혔	O	O	O, B-CV, B-LC, B-OG, B-PS
-64	##다	O	O	O, B-CV, B-LC, B-TM, B-OG
-65	.	O	O	O, B-LC, B-PS, B-CV, B-OG
-66	[SEP]	O	O	O, B-CV, B-LC, B-PS, I-EV
+	text	label	preds
+0	[CLS]	O	O
+1	치매	B-TM	B-OG
+2	##학	O	I-OG
+3	##회	O	I-OG
+4	홍보	B-CV	B-CV
+5	##대사	I-CV	I-CV
+6	배우	B-CV	B-CV
+7	박철	B-PS	B-PS
+8	##민	I-PS	I-PS
+9	,	O	O
+10	10	B-DT	B-DT
+11	##년	I-DT	I-DT
+12	동안	I-DT	I-DT
+13	치매	B-TM	B-TM
+14	걸린	O	O
+15	老	O	B-CV
+16	母	O	I-CV
+17	간병	O	O
+18	…	O	O
+19	4000	B-QT	B-QT
+20	##만	I-QT	I-QT
+21	##원	I-QT	I-QT
+22	기부	O	O
+23	…	O	O
+24	후원	O	O
+25	##기금	O	O
+26	조성	O	O
+27	[SEP]	O	O

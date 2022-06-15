@@ -1,48 +1,10 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-EV, I-OG
-1	하지만	O	O	O, B-CV, B-LC, B-OG, B-TM
-2	한	O	O	O, B-PS, B-QT, B-LC, B-OG
-3	관계자	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-EV
-4	##는	O	O	O, I-CV, I-QT, I-EV, B-CV
-5	“	O	O	O, B-CV, B-LC, B-PS, B-TM
-6	사고	O	O	O, B-CV, B-LC, B-TM, B-PS
-7	원인	O	O	O, B-CV, B-TM, B-LC, B-PS
-8	##은	O	O	O, B-LC, B-PS, B-CV, B-OG
-9	조종사	B-CV	B-CV	B-CV, O, B-OG, I-CV, B-PS
-10	과실	O	O	O, I-CV, B-CV, B-TM, I-EV
-11	##로	O	O	O, B-PS, B-LC, I-EV, B-CV
-12	돌리	O	O	O, B-CV, B-LC, B-PS, B-TM
-13	##고	O	O	O, B-PS, B-LC, B-OG, B-CV
-14	자국	O	O	O, B-LC, B-OG, B-CV, B-PS
-15	기업	O	O	O, B-CV, B-LC, I-CV, I-LC
-16	(	O	O	O, B-CV, B-PS, I-CV, B-LC
-17	보잉	O	B-OG	B-OG, O, B-AF, B-LC, B-PS
-18	)	O	O	O, I-OG, I-AF, I-CV, B-CV
-19	에	O	O	O, B-CV, B-LC, B-PS, B-OG
-20	대해서	O	O	O, B-LC, B-CV, B-OG, B-PS
-21	##는	O	O	O, B-LC, B-CV, B-PS, B-OG
-22	법	O	O	O, B-CV, B-LC, B-OG, B-PS
-23	##적	O	O	O, B-LC, B-PS, B-CV, I-LC
-24	구속력	O	O	O, B-LC, B-CV, B-PS, B-TM
-25	##이	O	O	O, B-PS, B-LC, B-CV, B-OG
-26	없	O	O	O, B-LC, B-CV, B-PS, B-OG
-27	##는	O	O	O, B-LC, B-PS, B-CV, B-OG
-28	권고	O	O	O, B-CV, B-LC, B-PS, B-TM
-29	사항	O	O	O, I-CV, B-CV, B-PS, B-LC
-30	##만	O	O	O, B-LC, B-PS, B-CV, B-DT
-31	내놓	O	O	O, B-CV, B-LC, B-OG, B-PS
-32	##았	O	O	O, B-LC, B-PS, B-CV, B-OG
-33	##다	O	O	O, B-LC, B-CV, B-OG, B-PS
-34	”	O	O	O, B-CV, B-LC, B-PS, B-TM
-35	며	O	O	O, B-LC, B-CV, B-TM, B-OG
-36	‘	O	O	O, B-LC, B-CV, B-PS, B-OG
-37	자국	O	O	O, B-LC, B-PS, B-OG, B-CV
-38	이기주의	B-TR	B-TR	B-TR, O, I-TR, B-TM, B-PS
-39	’	O	O	O, I-TR, I-QT, I-EV, I-TM
-40	라는	O	O	O, B-PS, B-LC, B-CV, B-TM
-41	불만	O	O	O, B-CV, B-TM, B-PS, B-LC
-42	##을	O	O	O, B-CV, I-CV, B-PS, B-TM
-43	드러냈	O	O	O, B-CV, I-CV, B-LC, B-TM
-44	##다	O	O	O, B-CV, I-CV, I-EV, B-TM
-45	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-46	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	온몸	O	B-AM
+2	##으로	O	O
+3	그거	O	O
+4	##를	O	O
+5	감내	O	O
+6	##하	O	O
+7	##고	O	O
+8	[SEP]	O	O

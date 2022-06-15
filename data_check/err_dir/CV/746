@@ -1,30 +1,45 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-AF
-1	후보	B-CV	O	O, B-CV, B-OG, I-CV, B-TM
-2	##군	O	O	O, I-CV, I-OG, B-CV, I-PS
-3	##의	O	O	O, I-CV, I-OG, B-PS, I-AF
-4	지원서	O	O	O, B-CV, B-TM, B-AF, B-OG
-5	##만	O	O	O, B-PS, B-LC, I-AF, I-CV
-6	제출	O	O	O, B-CV, B-LC, B-OG, B-TM
-7	##된	O	O	O, B-PS, B-LC, B-OG, B-CV
-8	상태	O	O	O, B-CV, B-TM, B-LC, B-QT
-9	##에서	O	O	O, B-CV, B-PS, B-LC, B-OG
-10	가운	O	B-CV	B-CV, O, B-AF, B-AM, B-PS
-11	##을	O	O	O, I-CV, I-AF, B-CV, B-PS
-12	입	O	O	O, B-CV, B-PS, I-CV, B-AM
-13	##은	O	O	O, B-PS, B-CV, I-CV, B-LC
-14	의사	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-FD
-15	##들이	O	O	O, I-CV, I-OG, I-QT, I-AF
-16	이례	O	O	O, B-CV, B-LC, B-TM, B-OG
-17	##적으로	O	O	O, B-LC, I-AF, B-PS, I-OG
-18	길거리	O	O	O, B-LC, B-CV, B-TM, B-AF
-19	##로	O	O	O, B-LC, B-CV, B-TM, I-AF
-20	몰려	O	O	O, B-LC, B-CV, B-TM, B-OG
-21	나온	O	O	O, B-LC, B-CV, B-AF, B-OG
-22	이유	O	O	O, B-CV, B-TM, B-LC, B-OG
-23	##는	O	O	O, B-CV, B-LC, B-OG, B-TM
-24	무엇	O	O	O, B-LC, B-TM, B-CV, B-PS
-25	##일	O	O	O, B-PS, B-LC, I-OG, I-AF
-26	##까	O	O	O, B-CV, B-LC, I-OG, B-TM
-27	?	O	O	O, B-CV, B-OG, B-LC, B-TM
-28	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	카이	B-OG	B-OG
+2	##스트	I-OG	I-OG
+3	산업	O	O
+4	##디	O	O
+5	##자	O	O
+6	##인	O	O
+7	##과	O	O
+8	##를	O	O
+9	졸업	O	O
+10	##하	O	O
+11	##고	O	O
+12	글로벌	O	O
+13	컨설팅	O	O
+14	기업인	B-CV	O
+15	매	B-OG	B-OG
+16	##킨	I-OG	I-OG
+17	##지	I-OG	I-OG
+18	##에	O	O
+19	입사	O	O
+20	##한	O	O
+21	그	O	O
+22	##는	O	O
+23	""""	O	O
+24	억대	O	O
+25	연봉	O	O
+26	##을	O	O
+27	받	O	O
+28	##겠다	O	O
+29	""""	O	O
+30	는	O	O
+31	목표	O	O
+32	##를	O	O
+33	불과	O	O
+34	2	B-DT	B-DT
+35	##년	I-DT	I-DT
+36	만	I-DT	I-DT
+37	##에	O	O
+38	이뤘	O	O
+39	##다고	O	O
+40	했	O	O
+41	##다	O	O
+42	.	O	O
+43	[SEP]	O	O

@@ -1,19 +1,62 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	책임질	O	O	O, B-PS, B-LC, B-CV, B-OG
-2	게	O	O	O, B-PS, B-LC, B-OG, B-CV
-3	두려워	O	O	O, B-PS, I-PS, B-CV, B-QT
-4	정책	O	O	O, B-CV, B-LC, B-FD, B-TM
-5	결정	O	O	O, B-CV, B-LC, B-TM, B-PS
-6	##을	O	O	O, B-CV, B-PS, B-OG, B-LC
-7	꺼리	O	O	O, B-CV, B-PS, B-LC, B-OG
-8	##는	O	O	O, B-PS, B-CV, B-LC, B-TM
-9	공무원	B-CV	B-CV	B-CV, O, B-OG, B-AF, I-CV
-10	##의	O	O	O, I-CV, I-OG, B-CV, I-AF
-11	보신	O	B-TR	B-TR, O, I-TR, B-TM, B-PS
-12	##주의	O	I-TR	I-TR, O, B-TR, I-TM, I-PS
-13	##를	O	O	O, I-TR, I-TM, I-AF, I-OG
-14	뜻	O	O	O, B-CV, B-OG, B-LC, B-TM
-15	##한다	O	O	O, B-CV, I-OG, I-CV, B-PS
-16	.	O	O	O, B-CV, B-PS, B-LC, B-OG
-17	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	국립	B-AF	B-OG
+2	##중	I-AF	I-OG
+3	##앙	I-AF	I-OG
+4	##박	I-AF	I-OG
+5	##물	I-AF	I-OG
+6	##관	I-AF	I-OG
+7	소장	O	O
+8	##품	O	O
+9	##뿐	O	O
+10	##만	O	O
+11	아니	O	O
+12	##라	O	O
+13	국립	B-AF	B-OG
+14	##고	I-AF	I-OG
+15	##궁	I-AF	I-OG
+16	##박	I-AF	I-OG
+17	##물	I-AF	I-OG
+18	##관	I-AF	I-OG
+19	,	O	O
+20	삼성	B-OG	B-AF
+21	미술관	O	I-AF
+22	리	B-OG	B-AF
+23	##움	I-OG	I-AF
+24	,	O	O
+25	호	B-AF	B-OG
+26	##림	I-AF	I-OG
+27	##박	I-AF	I-OG
+28	##물	I-AF	I-OG
+29	##관	I-AF	I-OG
+30	,	O	O
+31	일본	B-LC	B-LC
+32	도쿄	B-AF	B-OG
+33	##국	I-AF	I-OG
+34	##립	I-AF	I-OG
+35	##박	I-AF	I-OG
+36	##물	I-AF	I-OG
+37	##관	I-AF	I-OG
+38	,	O	O
+39	이데	B-AF	B-OG
+40	##미	I-AF	I-OG
+41	##쓰	I-AF	I-OG
+42	##미술	I-AF	I-OG
+43	##관	I-AF	I-OG
+44	등이	O	O
+45	소장	O	O
+46	##하	O	O
+47	##고	O	O
+48	있	O	O
+49	##는	O	O
+50	청	B-AF	B-AF
+51	##화	I-AF	I-AF
+52	##백	I-AF	I-AF
+53	##자	I-AF	I-AF
+54	##가	O	O
+55	한자	O	O
+56	##리에	O	O
+57	모였	O	O
+58	##다	O	O
+59	.	O	O
+60	[SEP]	O	O

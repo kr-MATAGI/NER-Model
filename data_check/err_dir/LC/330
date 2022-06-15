@@ -1,15 +1,17 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	북한	B-LC	B-OG	B-OG, B-LC, O, B-PS, B-CV
-2	##하고	O	O	O, I-OG, I-LC, B-OG, I-DT
-3	이렇게	O	O	O, B-CV, B-OG, I-OG, B-LC
-4	상황	O	O	O, B-CV, B-TM, B-LC, B-OG
-5	##을	O	O	O, B-CV, B-OG, I-OG, B-PS
-6	보	O	O	O, B-CV, B-OG, B-LC, B-TM
-7	##면	O	O	O, B-CV, B-OG, B-LC, B-PS
-8	통일	O	O	O, B-CV, B-EV, B-LC, B-TM
-9	##은	O	O	O, I-EV, I-OG, I-CV, B-CV
-10	안	O	O	O, B-CV, B-TM, I-EV, B-LC
-11	되	O	O	O, B-CV, B-OG, B-LC, I-OG
-12	##지만	O	O	O, B-CV, I-OG, B-OG, I-EV
-13	[SEP]	O	O	O, B-CV, B-OG, B-LC, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	영등포	B-LC	B-OG
+2	전화	O	I-OG
+3	##국	O	I-OG
+4	사	O	B-TM
+5	##거	O	I-TM
+6	##기	O	I-TM
+7	##까	O	O
+8	##지	O	O
+9	속도	O	O
+10	##내기	O	O
+11	어렵	O	O
+12	##습	O	O
+13	##니다	O	O
+14	.	O	O
+15	[SEP]	O	O

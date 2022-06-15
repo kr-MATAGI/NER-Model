@@ -1,24 +1,14 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-EV, I-OG, B-CV, I-CV
-1	동래	B-LC	B-LC	B-LC, B-OG, O, B-PS, B-AF
-2	##구	I-LC	I-LC	I-LC, I-OG, O, I-PS, B-LC
-3	국악	O	B-OG	B-OG, I-OG, O, B-AF, B-CV
-4	##관	O	I-OG	I-OG, O, I-AF, I-CV, I-LC
-5	##현	O	I-OG	I-OG, O, I-CV, I-AF, I-EV
-6	##악단	O	I-OG	I-OG, O, I-CV, I-AF, I-EV
-7	##도	O	O	O, I-OG, I-EV, I-AF, I-QT
-8	지난달	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-QT
-9	15	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-10	##일	I-DT	I-DT	I-DT, O, B-DT, I-PS, I-QT
-11	동래	B-AF	B-AF	B-AF, B-LC, O, I-AF, B-OG
-12	##문화회관	I-AF	I-AF	I-AF, O, I-LC, I-PS, I-OG
-13	##에서	O	O	O, I-AF, I-EV, B-EV, I-QT
-14	창단	B-EV	O	O, B-EV, I-EV, B-CV, B-FD
-15	##연	I-EV	O	O, I-EV, B-EV, B-FD, B-CV
-16	##주	I-EV	O	O, I-EV, B-EV, I-OG, I-TR
-17	##회	I-EV	O	O, I-EV, B-EV, I-OG, I-TR
-18	##를	O	O	O, I-EV, B-CV, I-OG, B-OG
-19	가졌	O	O	O, B-CV, B-OG, B-EV, B-LC
-20	##다	O	O	O, I-EV, B-CV, B-LC, I-OG
-21	.	O	O	O, B-LC, I-EV, B-EV, B-OG
-22	[SEP]	O	O	O, I-EV, B-EV, B-LC, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	세종시	B-LC	B-LC
+2	지켜	O	O
+3	##낸	O	O
+4	朴	B-PS	B-PS
+5	대통령	B-CV	B-CV
+6	,	O	O
+7	세종	B-AF	B-AF
+8	##청사	I-AF	I-AF
+9	##서	O	O
+10	송년	B-EV	O
+11	국무회의	I-EV	B-OG
+12	[SEP]	O	O

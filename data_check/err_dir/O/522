@@ -1,35 +1,16 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	이온	O	B-TM	B-TM, O, B-TR, B-AF, B-MT
-2	##엔	O	I-TM	I-TM, O, I-TR, B-TM, I-AF
-3	##진	O	I-TM	I-TM, O, I-TR, I-AF, I-MT
-4	##은	O	O	O, I-TM, I-AF, I-TR, I-OG
-5	이온	O	O	O, B-MT, B-TM, B-TR, B-LC
-6	##을	O	O	O, I-AF, I-TM, B-PS, I-TR
-7	발사	O	O	O, B-PS, I-AF, B-LC, B-TM
-8	##해	O	O	O, B-PS, B-LC, I-AF, B-TM
-9	얻	O	O	O, B-TM, B-PS, B-CV, B-LC
-10	##는	O	O	O, B-PS, B-TM, B-LC, B-CV
-11	추	O	O	O, B-TM, B-AF, B-PS, B-MT
-12	##력	O	O	O, I-TM, I-AF, I-PS, I-LC
-13	##으로	O	O	O, B-PS, B-TM, B-LC, B-OG
-14	우주선	B-AF	B-AF	B-AF, O, B-TM, I-AF, B-OG
-15	##을	O	O	O, I-AF, I-OG, I-TM, B-CV
-16	움직이	O	O	O, B-CV, B-LC, B-TM, B-OG
-17	##며	O	O	O, B-CV, B-LC, B-OG, B-TM
-18	,	O	O	O, B-CV, B-LC, B-OG, B-PS
-19	수년	O	O	O, B-CV, B-LC, B-TM, B-PS
-20	##간	O	O	O, B-PS, B-LC, I-LC, I-DT
-21	빠른	O	O	O, B-LC, B-CV, B-TM, B-OG
-22	속도	O	O	O, B-LC, B-TM, B-CV, B-PS
-23	##를	O	O	O, B-CV, B-LC, B-TM, B-OG
-24	유지	O	O	O, B-CV, B-LC, B-TM, B-OG
-25	##하	O	O	O, B-PS, B-CV, B-LC, B-OG
-26	##는	O	O	O, B-CV, B-PS, B-LC, B-OG
-27	게	O	O	O, B-PS, B-LC, B-CV, B-OG
-28	가장	O	O	O, B-CV, B-QT, B-LC, B-TM
-29	큰	O	O	O, B-CV, B-QT, I-QT, B-PS
-30	장점	O	O	O, B-CV, B-TM, B-QT, B-PS
-31	##이다	O	O	O, B-CV, I-CV, I-QT, B-TM
-32	.	O	O	O, B-LC, B-PS, B-CV, B-AF
-33	[SEP]	O	O	O, B-CV, B-LC, B-TM, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	―	O	O
+2	지방분	O	B-CV
+3	##권	O	I-CV
+4	##에	O	O
+5	대한	O	O
+6	시민	B-CV	B-CV
+7	##들의	O	O
+8	관심	O	O
+9	##도	O	O
+10	높	O	O
+11	##아졌	O	O
+12	##다	O	O
+13	.	O	O
+14	[SEP]	O	O

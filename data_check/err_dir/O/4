@@ -1,16 +1,28 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-AF
-1	[	O	O	O, B-LC, B-OG, B-AF, B-DT
-2	인천	B-LC	B-LC	B-LC, B-OG, O, B-AF, B-PS
-3	/	O	O	O, I-OG, I-LC, I-AF, B-LC
-4	부천	B-LC	B-LC	B-LC, O, B-OG, I-LC, B-PS
-5	]	O	O	O, I-LC, I-OG, B-LC, I-AF
-6	영종	B-LC	B-LC	B-LC, O, B-OG, B-AF, I-LC
-7	##하늘	O	I-LC	I-LC, O, I-OG, B-LC, I-AF
-8	##도	O	I-LC	I-LC, O, I-OG, I-AF, B-LC
-9	##시	O	I-LC	I-LC, O, I-OG, I-AF, I-PS
-10	사업	O	O	O, I-LC, I-OG, B-CV, B-TM
-11	##계약	O	O	O, I-AF, I-OG, I-LC, I-TM
-12	취소	O	O	O, B-CV, B-TM, I-AF, I-OG
-13	잇따라	O	O	O, B-LC, B-OG, B-CV, B-TM
-14	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-AF
+	text	label	preds
+0	[CLS]	O	O
+1	2010	B-DT	B-DT
+2	##년	I-DT	I-DT
+3	3	I-DT	I-DT
+4	##월	I-DT	I-DT
+5	천안	B-EV	B-EV
+6	##함	I-EV	I-EV
+7	폭침	I-EV	I-EV
+8	##사건	I-EV	I-EV
+9	진상	B-OG	B-OG
+10	##조사	I-OG	I-OG
+11	##특위	I-OG	I-OG
+12	##에	O	O
+13	##서도	O	O
+14	국방부	B-OG	B-OG
+15	##를	O	O
+16	가장	O	O
+17	괴롭	O	O
+18	##힌	O	O
+19	저격수	O	B-CV
+20	##가	O	O
+21	바로	O	O
+22	그	O	O
+23	##였	O	O
+24	##다	O	O
+25	.	O	O
+26	[SEP]	O	O

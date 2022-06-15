@@ -1,11 +1,83 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	그런데	O	O	O, B-CV, B-OG, B-TM, B-PS
-2	이	O	O	O, B-PS, B-TR, B-OG, B-CV
-3	보수	O	B-TR	B-TR, O, I-TR, B-PS, B-OG
-4	##의	O	O	O, I-TR, I-OG, I-CV, I-AF
-5	이름	O	O	O, B-CV, B-PS, B-TM, I-CV
-6	##은	O	O	O, B-CV, B-PS, B-LC, B-OG
-7	사실	O	O	O, B-CV, B-TM, B-OG, B-LC
-8	##은	O	O	O, B-CV, B-OG, B-PS, B-LC
-9	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	KBS	B-OG	B-OG
+2	##측	O	O
+3	##은	O	O
+4	""""	O	O
+5	토론	O	O
+6	전반	O	O
+7	##에	O	O
+8	걸쳐	O	O
+9	의원	B-CV	B-CV
+10	##들이	O	O
+11	'	O	O
+12	민주당	B-OG	B-OG
+13	최고위	B-CV	B-CV
+14	##원	I-CV	I-CV
+15	·	O	O
+16	문방	O	B-CV
+17	##위원	O	I-CV
+18	연석회의	B-EV	O
+19	도청	O	O
+20	논란	O	O
+21	'	O	O
+22	등	O	O
+23	##을	O	O
+24	놓	O	O
+25	##고	O	O
+26	설전	O	O
+27	##을	O	O
+28	벌이	O	O
+29	##는	O	O
+30	바람	O	O
+31	##에	O	O
+32	제대로	O	O
+33	시청	O	O
+34	##료	O	O
+35	문제	O	O
+36	##를	O	O
+37	다루	O	O
+38	##기	O	O
+39	어렵	O	O
+40	##게	O	O
+41	되	O	O
+42	##자	O	O
+43	사회	B-CV	B-CV
+44	##자	I-CV	I-CV
+45	##가	O	O
+46	즉석	O	O
+47	##에	O	O
+48	##서	O	O
+49	편성	O	O
+50	책임자	B-CV	B-CV
+51	##에	O	O
+52	##게	O	O
+53	방송	O	O
+54	연장	O	O
+55	가능	O	O
+56	여부	O	O
+57	##를	O	O
+58	물	O	O
+59	##었	O	O
+60	##고	O	O
+61	,	O	O
+62	담당	O	O
+63	PD	B-CV	B-CV
+64	##와	O	O
+65	편성	B-CV	B-CV
+66	##책	I-CV	I-CV
+67	##임자	I-CV	I-CV
+68	##가	O	O
+69	상의	O	O
+70	##해	O	O
+71	연장	O	O
+72	##을	O	O
+73	결정	O	O
+74	##했	O	O
+75	##다	O	O
+76	""""	O	O
+77	고	O	O
+78	밝혔	O	O
+79	##다	O	O
+80	.	O	O
+81	[SEP]	O	O

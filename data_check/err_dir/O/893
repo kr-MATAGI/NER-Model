@@ -1,35 +1,45 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	아	O	O	O, B-FD, B-CV, B-PS, B-OG
-2	##는	O	O	O, B-FD, I-FD, B-CV, B-PS
-3	팝	O	B-FD	B-FD, O, I-FD, B-CV, B-AF
-4	##송이	O	O	O, I-FD, B-FD, I-AF, I-CV
-5	있	O	O	O, B-PS, I-AF, I-FD, B-CV
-6	##느	O	O	O, B-PS, I-AF, B-CV, I-PS
-7	##냐	O	O	O, B-PS, I-PS, B-CV, I-AF
-8	##는	O	O	O, B-CV, B-PS, B-TM, B-LC
-9	질문	O	O	O, B-CV, B-PS, B-TM, B-OG
-10	##에	O	O	O, B-CV, B-PS, I-CV, I-EV
-11	“	O	O	O, B-CV, B-LC, B-PS, B-OG
-12	해피	O	B-AF	B-AF, O, B-CV, B-PS, B-TM
-13	##버스	O	I-AF	I-AF, O, I-CV, B-AF, I-PS
-14	##데이	O	I-AF	I-AF, O, I-CV, I-QT, I-PS
-15	투	O	I-AF	I-AF, O, I-CV, I-QT, B-AF
-16	유	O	I-AF	I-AF, O, I-QT, I-CV, I-TM
-17	(	O	O	O, I-AF, I-CV, I-QT, I-EV
-18	생일	O	O	O, B-CV, B-AF, B-PS, B-OG
-19	축하	O	O	O, I-AF, I-CV, I-OG, I-PS
-20	##합니다	O	O	O, I-AF, I-CV, I-PS, I-OG
-21	)	O	O	O, I-AF, B-CV, I-CV, I-OG
-22	”	O	O	O, B-CV, B-PS, B-LC, B-OG
-23	를	O	O	O, B-PS, B-CV, B-OG, B-AF
-24	불러	O	O	O, B-PS, B-CV, B-OG, B-AF
-25	주위	O	O	O, B-CV, B-TM, B-PS, B-OG
-26	##를	O	O	O, B-CV, B-PS, B-OG, B-LC
-27	민망	O	O	O, B-CV, B-TM, B-LC, B-OG
-28	##하	O	O	O, B-PS, B-CV, I-CV, B-LC
-29	##게	O	O	O, B-PS, I-CV, B-CV, I-OG
-30	했	O	O	O, B-PS, B-CV, B-OG, B-LC
-31	##다	O	O	O, B-PS, B-CV, I-OG, I-CV
-32	.	O	O	O, B-CV, B-PS, B-LC, B-FD
-33	[SEP]	O	O	O, B-CV, B-PS, B-FD, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	함경	B-LC	B-LC
+2	##남도	I-LC	I-LC
+3	신흥	B-LC	B-LC
+4	태생	O	O
+5	##인	O	O
+6	이병	B-PS	B-PS
+7	##돈	I-PS	I-PS
+8	선생	B-CV	B-CV
+9	##은	O	O
+10	1942	B-DT	B-DT
+11	##년	I-DT	I-DT
+12	2	I-DT	I-DT
+13	##월	I-DT	I-DT
+14	광복	B-OG	B-OG
+15	##군	I-OG	I-OG
+16	제	B-OG	B-QT
+17	##2	I-OG	I-QT
+18	##지대	I-OG	O
+19	##에	O	O
+20	입대	O	O
+21	##해	O	O
+22	훈련	O	O
+23	##을	O	O
+24	받	O	O
+25	##았	O	O
+26	##고	O	O
+27	이듬해	B-DT	B-DT
+28	중국	B-LC	B-LC
+29	전시	O	B-OG
+30	##간	O	I-OG
+31	##부	O	I-OG
+32	##훈련	O	I-OG
+33	##단	O	I-OG
+34	##에	O	O
+35	파견	O	O
+36	##돼	O	O
+37	교육	O	O
+38	##을	O	O
+39	받	O	O
+40	##았	O	O
+41	##다	O	O
+42	.	O	O
+43	[SEP]	O	O

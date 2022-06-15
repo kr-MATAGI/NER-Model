@@ -1,32 +1,25 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	누가	O	O	O, B-PS, B-CV, B-LC, B-OG
-2	만드	O	O	O, B-CV, B-LC, B-PS, B-OG
-3	##느	O	O	O, B-PS, B-LC, B-CV, I-OG
-4	##냐	O	O	O, B-PS, B-LC, B-OG, I-OG
-5	##에	O	O	O, B-CV, B-LC, I-OG, B-TM
-6	따라	O	O	O, B-LC, B-TM, B-PS, B-OG
-7	순	O	B-CV	B-CV, O, B-PT, I-CV, B-MT
-8	##무	O	I-CV	I-CV, O, B-CV, I-PT, I-MT
-9	김치	O	I-CV	I-CV, B-CV, O, I-OG, I-AF
-10	맛	O	O	O, I-CV, I-OG, B-CV, I-AF
-11	##이	O	O	O, B-PS, B-OG, B-CV, B-LC
-12	제각각	O	O	O, B-CV, B-TM, B-LC, B-OG
-13	##이	O	O	O, B-PS, B-OG, B-CV, B-LC
-14	##었	O	O	O, B-CV, I-OG, I-AF, B-TM
-15	##고	O	O	O, B-CV, I-OG, B-TM, I-AF
-16	,	O	O	O, B-CV, B-LC, B-TM, B-OG
-17	비닐	O	O	O, B-TM, B-MT, B-CV, B-QT
-18	##팩	O	O	O, I-TM, I-LC, I-AF, I-CV
-19	##에	O	O	O, B-CV, I-TM, B-LC, B-TM
-20	담아	O	O	O, B-LC, B-CV, B-TM, B-QT
-21	팔	O	O	O, B-LC, B-TM, B-CV, B-QT
-22	##아	O	O	O, B-LC, B-PS, B-CV, B-TM
-23	##선	O	O	O, B-LC, B-TM, B-CV, B-PS
-24	경쟁력	O	O	O, B-CV, B-TM, B-LC, B-QT
-25	##이	O	O	O, B-PS, B-OG, B-CV, B-LC
-26	없	O	O	O, B-CV, B-TM, B-QT, I-OG
-27	##었	O	O	O, B-CV, B-TM, I-OG, I-AF
-28	##다	O	O	O, B-CV, B-TM, I-OG, B-LC
-29	.	O	O	O, B-LC, B-CV, B-PS, I-OG
-30	[SEP]	O	O	O, B-CV, B-LC, I-AF, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	이	O	O
+2	한	O	B-QT
+3	글자	O	I-QT
+4	말	O	O
+5	##고	O	O
+6	시인	O	B-CV
+7	##의	O	O
+8	심사	O	O
+9	##를	O	O
+10	집약	O	O
+11	##할	O	O
+12	수	O	O
+13	있	O	O
+14	##는	O	O
+15	시공간	O	O
+16	##이	O	O
+17	어디	O	O
+18	##에	O	O
+19	또	O	O
+20	있	O	O
+21	##을까	O	O
+22	.	O	O
+23	[SEP]	O	O

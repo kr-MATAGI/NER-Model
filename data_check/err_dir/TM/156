@@ -1,52 +1,79 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-QT
-1	건설	O	O	O, B-OG, B-CV, B-FD, B-TM
-2	##회사	O	O	O, I-OG, I-CV, I-AF, B-OG
-3	##에	O	O	O, B-CV, I-OG, B-PS, B-LC
-4	입사	O	O	O, B-CV, B-TM, B-OG, B-LC
-5	##한	O	O	O, B-PS, B-LC, B-OG, B-CV
-6	뒤	O	O	O, B-CV, B-OG, B-TM, B-LC
-7	설계	O	O	O, B-OG, B-CV, B-FD, B-TM
-8	##회사	O	O	O, I-OG, I-CV, I-AF, B-OG
-9	컴퓨터	B-TM	B-TM	B-TM, O, B-AF, B-CV, B-FD
-10	지원	O	O	O, I-TM, B-CV, I-CV, B-TM
-11	##업	O	O	O, B-CV, I-CV, B-LC, B-PS
-12	##무	O	O	O, B-CV, B-LC, I-CV, B-PS
-13	##를	O	O	O, B-CV, B-LC, B-PS, B-OG
-14	거쳐	O	O	O, B-LC, B-OG, B-CV, B-PS
-15	신문	B-TM	O	O, B-OG, B-AF, B-TM, B-CV
-16	데이	I-TM	B-TM	B-TM, O, B-AF, I-TM, I-AF
-17	##타	I-TM	I-TM	I-TM, O, I-AF, I-OG, B-TM
-18	##베이스	I-TM	I-TM	I-TM, O, I-AF, I-OG, B-TM
-19	(	O	O	O, I-TM, I-AF, I-OG, B-CV
-20	KI	B-TM	B-TM	B-TM, O, B-AF, B-OG, B-LC
-21	##N	I-TM	I-TM	I-TM, O, I-AF, I-OG, B-TM
-22	##DS	I-TM	I-TM	I-TM, O, I-AF, I-OG, I-QT
-23	)	O	O	O, I-TM, I-AF, I-OG, I-QT
-24	개발	O	O	O, B-CV, B-LC, B-TM, B-OG
-25	##에	O	O	O, B-CV, B-LC, B-PS, B-OG
-26	참여	O	O	O, B-CV, B-LC, B-OG, B-TM
-27	##했	O	O	O, B-LC, B-PS, B-CV, B-OG
-28	##으며	O	O	O, B-LC, B-CV, B-OG, B-PS
-29	,	O	O	O, B-CV, B-LC, B-OG, B-PS
-30	컴퓨터	B-TM	B-TM	B-TM, O, B-AF, B-FD, B-CV
-31	##와	O	O	O, I-TM, I-OG, I-CV, I-AF
-32	관련	O	O	O, B-CV, B-LC, B-TM, B-OG
-33	##된	O	O	O, B-LC, B-OG, B-CV, B-PS
-34	인공지능	B-FD	B-FD	B-FD, O, I-FD, B-TR, B-TM
-35	·	O	O	O, I-FD, I-OG, I-AF, I-CV
-36	데이터베이스	B-FD	B-TM	B-TM, O, B-AF, B-FD, B-CV
-37	·	O	O	O, I-TM, I-AF, I-OG, I-CV
-38	프로그래밍	B-FD	B-FD	B-FD, O, B-CV, B-TM, B-AF
-39	##언	I-FD	I-FD	I-FD, O, I-CV, B-FD, I-TM
-40	##어	I-FD	I-FD	I-FD, O, I-CV, I-TM, B-FD
-41	·	O	O	O, I-FD, I-CV, I-AF, I-OG
-42	통계학	B-FD	B-FD	B-FD, O, I-FD, B-CV, B-TR
-43	등	O	O	O, I-FD, B-CV, I-CV, I-OG
-44	##의	O	O	O, B-CV, B-LC, B-PS, B-OG
-45	강의	O	O	O, B-CV, B-LC, B-TM, B-FD
-46	##를	O	O	O, B-CV, B-LC, B-PS, I-CV
-47	해왔	O	O	O, B-LC, B-CV, B-PS, B-TM
-48	##다	O	O	O, B-CV, B-LC, B-PS, B-OG
-49	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-50	[SEP]	O	O	O, B-CV, B-LC, B-TM, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	연구	O	O
+2	##팀	O	O
+3	조사	O	O
+4	결과	O	O
+5	2009	B-DT	B-DT
+6	##년	I-DT	I-DT
+7	신종	B-TM	B-TM
+8	##플	I-TM	I-TM
+9	##루	I-TM	I-TM
+10	(	O	O
+11	H	O	B-TM
+12	##1	O	I-TM
+13	##N	O	I-TM
+14	##1	O	I-TM
+15	)	O	O
+16	감염	O	O
+17	환자	B-CV	B-CV
+18	9	B-QT	B-QT
+19	##명	I-QT	I-QT
+20	##에	O	O
+21	##게	O	O
+22	##서	O	O
+23	발견	O	O
+24	##된	O	O
+25	항체	O	O
+26	##는	O	O
+27	특이	O	O
+28	##하	O	O
+29	##게	O	O
+30	##도	O	O
+31	지난	B-DT	B-DT
+32	10	I-DT	I-DT
+33	##년	I-DT	I-DT
+34	##간	I-DT	I-DT
+35	나타난	O	O
+36	모든	O	O
+37	계절	B-TM	B-TM
+38	##성	I-TM	I-TM
+39	독감	I-TM	I-TM
+40	##바이	I-TM	I-TM
+41	##러스	I-TM	I-TM
+42	##는	O	O
+43	물론	O	O
+44	,	O	O
+45	1918	B-DT	B-DT
+46	##년	I-DT	I-DT
+47	세계	O	O
+48	##를	O	O
+49	휩쓸	O	O
+50	##었	O	O
+51	##던	O	O
+52	스페인	B-LC	B-TM
+53	독감	B-TM	I-TM
+54	##과	O	O
+55	심지어	O	O
+56	조류	B-TM	B-TM
+57	##인	I-TM	I-TM
+58	##플	I-TM	I-TM
+59	##루엔자	I-TM	I-TM
+60	(	I-TM	I-TM
+61	H	I-TM	I-TM
+62	##5	I-TM	I-TM
+63	##N	I-TM	I-TM
+64	##1	I-TM	I-TM
+65	)	I-TM	I-TM
+66	바이러스	I-TM	I-TM
+67	##에	O	O
+68	##까	O	O
+69	##지	O	O
+70	면역	O	O
+71	##반	O	O
+72	##응	O	O
+73	##을	O	O
+74	나타냈	O	O
+75	##다	O	O
+76	.	O	O
+77	[SEP]	O	O

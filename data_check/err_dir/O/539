@@ -1,17 +1,35 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-EV, I-CV, B-CV
-1	손학규	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-2	-	O	O	O, I-PS, I-OG, I-EV, B-PS
-3	박지원	B-PS	B-PS	B-PS, I-PS, O, B-OG, B-LC
-4	심야	O	B-TI	B-TI, O, I-PS, I-TI, B-LC
-5	##회	O	O	O, I-EV, B-EV, B-LC, I-TI
-6	##동	O	O	O, I-EV, I-OG, B-LC, I-LC
-7	…	O	O	O, B-LC, I-EV, I-OG, B-OG
-8	‘	O	O	O, B-LC, B-OG, B-CV, B-PS
-9	통합	O	O	O, B-EV, B-OG, B-PS, B-LC
-10	##뒤	O	O	O, I-EV, I-LC, I-PS, I-OG
-11	지도부	O	O	O, B-PS, B-OG, B-CV, B-EV
-12	선출	O	O	O, B-PS, I-EV, B-EV, B-LC
-13	’	O	O	O, I-EV, I-OG, B-PS, B-CV
-14	합의	O	O	O, B-OG, B-LC, B-CV, B-EV
-15	[SEP]	O	O	O, B-LC, B-CV, I-EV, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	이온	O	B-TM
+2	##엔	O	I-TM
+3	##진	O	I-TM
+4	##은	O	O
+5	이온	O	O
+6	##을	O	O
+7	발사	O	O
+8	##해	O	O
+9	얻	O	O
+10	##는	O	O
+11	추	O	O
+12	##력	O	O
+13	##으로	O	O
+14	우주선	B-AF	B-AF
+15	##을	O	O
+16	움직이	O	O
+17	##며	O	O
+18	,	O	O
+19	수년	O	O
+20	##간	O	O
+21	빠른	O	O
+22	속도	O	O
+23	##를	O	O
+24	유지	O	O
+25	##하	O	O
+26	##는	O	O
+27	게	O	O
+28	가장	O	O
+29	큰	O	O
+30	장점	O	O
+31	##이다	O	O
+32	.	O	O
+33	[SEP]	O	O

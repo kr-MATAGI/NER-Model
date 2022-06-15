@@ -1,32 +1,50 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	지난해	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-2	정강	O	B-OG	B-OG, O, B-CV, B-PS, I-OG
-3	##의	O	O	O, I-OG, I-CV, I-DT, B-PS
-4	법인세	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-AF
-5	차감	O	O	O, I-CV, I-OG, I-AF, I-EV
-6	전	O	O	O, B-PS, I-DT, B-LC, I-OG
-7	순이익	O	O	O, B-CV, B-TM, B-QT, B-OG
-8	##은	O	O	O, B-CV, B-OG, I-CV, B-PS
-9	1	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-PS
-10	##억	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-11	##50	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-12	##00	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-13	##여	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-14	##만	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-15	##원	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-16	##이	O	O	O, I-QT, B-PS, B-OG, B-CV
-17	##었	O	O	O, B-CV, B-OG, B-PS, I-QT
-18	##고	O	O	O, B-CV, B-PS, B-OG, B-LC
-19	97	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-PS
-20	##0	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-21	##여	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-22	##만	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-23	##원	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-24	##의	O	O	O, I-QT, B-CV, B-PS, I-AF
-25	법인세	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-AF
-26	##를	O	O	O, I-CV, I-OG, I-AF, B-CV
-27	냈	O	O	O, B-CV, B-OG, B-TM, B-QT
-28	##다	O	O	O, B-CV, B-OG, I-OG, B-TM
-29	.	O	O	O, B-OG, B-LC, B-CV, B-PS
-30	[SEP]	O	O	O, B-CV, B-OG, B-LC, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	""""	O	O
+2	늘	O	O
+3	해	O	O
+4	왔	O	O
+5	##듯	O	O
+6	##이	O	O
+7	도와	O	O
+8	##드	O	O
+9	##렸	O	O
+10	##는데	O	O
+11	'	O	O
+12	구	O	O
+13	…	O	O
+14	세	O	O
+15	…	O	O
+16	쥬	O	O
+17	…	O	O
+18	만	O	O
+19	…	O	O
+20	나	O	O
+21	…	O	O
+22	씀	O	O
+23	…	O	O
+24	미	O	O
+25	…	O	O
+26	(	O	O
+27	구세	O	B-CV
+28	##주	O	I-CV
+29	만났	O	O
+30	##습	O	O
+31	##니다	O	O
+32	)	O	O
+33	'	O	O
+34	라고	O	O
+35	한	B-QT	B-QT
+36	음절	I-QT	I-QT
+37	##씩	O	I-QT
+38	띄	O	O
+39	##엄	O	O
+40	##띄	O	O
+41	##엄	O	O
+42	인사	O	O
+43	##하	O	O
+44	##더	O	O
+45	##군	O	O
+46	##요	O	O
+47	.	O	O
+48	[SEP]	O	O

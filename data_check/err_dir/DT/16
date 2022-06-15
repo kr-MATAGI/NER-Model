@@ -1,46 +1,27 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-EV, I-CV
-1	박선	B-PS	B-PS	B-PS, B-OG, O, B-LC, I-PS
-2	##희	I-PS	I-PS	I-PS, I-OG, O, I-LC, I-QT
-3	상명	B-OG	B-OG	B-OG, O, B-LC, I-OG, I-PS
-4	##대	I-OG	I-OG	I-OG, O, I-LC, I-PS, I-AF
-5	교수	B-CV	B-CV	B-CV, O, I-CV, I-OG, B-TM
-6	##가	O	O	O, I-CV, I-OG, B-CV, I-EV
-7	‘	O	O	O, B-CV, B-LC, B-DT, B-OG
-8	선사	B-DT	B-DT	B-DT, O, B-FD, B-AF, B-LC
-9	및	O	O	O, I-AF, I-DT, I-EV, I-FD
-10	고조선	B-DT	B-DT	B-DT, I-DT, I-AF, O, B-LC
-11	’	O	O	O, I-DT, I-AF, I-EV, B-CV
-12	을	O	O	O, B-CV, B-LC, B-OG, B-PS
-13	주제	O	O	O, B-CV, B-LC, B-TM, B-PS
-14	##로	O	O	O, B-PS, B-LC, B-OG, B-CV
-15	,	O	O	O, B-OG, B-CV, B-PS, B-LC
-16	이재	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
-17	##범	I-PS	I-PS	I-PS, O, I-OG, I-LC, I-QT
-18	경기	B-OG	B-OG	B-OG, O, B-LC, I-OG, B-AF
-19	##대	I-OG	I-OG	I-OG, O, I-LC, I-PS, I-AF
-20	교수	B-CV	B-CV	B-CV, O, I-CV, I-OG, B-TM
-21	##가	O	O	O, I-CV, I-OG, I-EV, B-CV
-22	‘	O	O	O, B-CV, B-LC, B-OG, B-DT
-23	고려	B-DT	B-FD	B-FD, O, B-AF, B-LC, B-DT
-24	및	O	O	O, I-AF, I-FD, I-EV, B-FD
-25	조선사	B-FD	I-FD	I-FD, B-FD, O, I-AF, I-EV
-26	’	O	O	O, I-AF, I-FD, I-EV, I-OG
-27	를	O	O	O, B-CV, B-LC, B-OG, B-PS
-28	,	O	O	O, B-CV, B-OG, B-PS, B-LC
-29	한상	B-PS	B-PS	B-PS, O, B-OG, B-LC, I-PS
-30	##도	I-PS	I-PS	I-PS, O, I-OG, I-LC, I-QT
-31	건국대	B-OG	B-OG	B-OG, B-LC, I-OG, O, I-PS
-32	교수	B-CV	B-CV	B-CV, O, I-CV, I-OG, B-OG
-33	##가	O	O	O, I-CV, I-OG, B-CV, I-EV
-34	‘	O	O	O, B-LC, B-CV, B-DT, B-OG
-35	근현	B-FD	B-FD	B-FD, O, I-FD, B-TR, B-DT
-36	##대사	I-FD	I-FD	I-FD, O, B-FD, I-AF, I-TR
-37	’	O	O	O, I-FD, I-AF, I-OG, I-EV
-38	에	O	O	O, B-CV, B-LC, B-OG, B-TM
-39	관한	O	O	O, B-LC, B-CV, B-TM, B-OG
-40	발표	O	O	O, B-CV, B-FD, B-EV, B-TM
-41	##를	O	O	O, I-EV, B-CV, I-AF, I-CV
-42	한다	O	O	O, B-CV, B-OG, B-TM, B-EV
-43	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-44	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	""""	O	O
+2	9	B-EV	B-EV
+3	·	I-EV	I-DT
+4	11	I-EV	I-DT
+5	다음	B-DT	I-DT
+6	##날	I-DT	I-DT
+7	한국	B-OG	B-LC
+8	##이	O	O
+9	도와	O	O
+10	##주	O	O
+11	##겠다	O	O
+12	했	O	O
+13	##지만	O	O
+14	美	B-LC	B-LC
+15	뿌리	O	O
+16	깊	O	O
+17	##은	O	O
+18	관료	B-TR	B-TR
+19	##주의	I-TR	I-TR
+20	때문	O	O
+21	##에	O	O
+22	시간	O	O
+23	걸려	O	O
+24	""""	O	O
+25	[SEP]	O	O

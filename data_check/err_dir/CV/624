@@ -1,63 +1,6 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	성균관	B-OG	B-OG	B-OG, O, B-LC, B-AF, B-PS
-2	##대	I-OG	I-OG	I-OG, O, I-LC, I-EV, I-AF
-3	학생	B-CV	B-CV	B-CV, O, I-OG, I-CV, I-EV
-4	##들이	O	O	O, I-CV, I-OG, I-EV, B-CV
-5	8	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-LC
-6	##개	I-DT	I-DT	I-DT, O, I-EV, B-DT, I-QT
-7	##월	I-DT	I-DT	I-DT, O, I-EV, B-DT, I-QT
-8	동안	I-DT	I-DT	I-DT, O, I-EV, B-DT, I-QT
-9	마을	O	O	O, B-LC, I-DT, B-TM, B-CV
-10	기초	O	O	O, B-LC, B-CV, B-TM, I-LC
-11	##조사	O	O	O, I-LC, B-LC, I-TM, I-CV
-12	,	O	O	O, B-LC, B-PS, B-OG, B-CV
-13	주민	B-CV	B-CV	B-CV, O, B-TM, B-EV, B-OG
-14	의견	O	O	O, I-CV, B-CV, I-EV, I-TM
-15	수렴	O	O	O, I-CV, B-LC, B-PS, I-LC
-16	##을	O	O	O, B-CV, B-PS, B-OG, B-LC
-17	거쳐	O	O	O, B-LC, B-OG, B-PS, B-CV
-18	내놓	O	O	O, B-CV, B-TM, B-LC, B-OG
-19	##은	O	O	O, B-LC, B-CV, B-OG, B-PS
-20	‘	O	O	O, B-TM, B-LC, B-CV, B-AF
-21	이	B-TM	B-TM	B-TM, B-AF, B-LC, O, B-EV
-22	##심	I-TM	I-TM	I-TM, I-AF, O, I-LC, I-EV
-23	##전	I-TM	I-TM	I-TM, I-AF, O, I-LC, B-TM
-24	##심	I-TM	I-TM	I-TM, I-AF, O, I-LC, I-TR
-25	개봉	I-TM	I-TM	I-TM, I-AF, I-LC, B-TM, B-AF
-26	##3	I-TM	I-TM	I-TM, I-AF, I-LC, I-QT, B-QT
-27	##동	I-TM	I-TM	I-TM, I-AF, I-LC, I-QT, I-OG
-28	이야기	I-TM	I-TM	I-TM, I-AF, O, I-QT, I-LC
-29	’	O	O	O, I-TM, I-AF, I-OG, I-EV
-30	프로젝트	O	O	O, B-TM, I-TM, B-CV, B-LC
-31	##가	O	O	O, B-PS, I-TM, B-OG, I-AF
-32	2012	B-DT	B-DT	B-DT, O, I-DT, B-LC, B-EV
-33	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-34	서울시	B-LC	B-LC	B-LC, B-OG, O, I-DT, B-PS
-35	‘	O	O	O, B-LC, I-LC, I-DT, B-OG
-36	살	B-EV	B-EV	B-EV, O, B-TM, B-OG, B-CV
-37	##기	I-EV	I-EV	I-EV, O, I-TM, I-OG, I-AF
-38	좋	I-EV	I-EV	I-EV, O, I-TM, I-OG, I-AF
-39	##은	I-EV	I-EV	I-EV, O, I-TM, I-OG, I-AF
-40	마을	I-EV	I-EV	I-EV, O, I-TM, I-OG, I-AF
-41	만들	I-EV	I-EV	I-EV, O, I-TM, I-OG, I-AF
-42	##기	I-EV	I-EV	I-EV, O, I-TM, I-OG, I-AF
-43	학생	I-EV	I-EV	I-EV, O, B-EV, B-CV, I-TM
-44	##공	I-EV	I-EV	I-EV, O, I-OG, I-TM, I-CV
-45	##모	I-EV	I-EV	I-EV, O, I-OG, I-TM, I-AF
-46	##전	I-EV	I-EV	I-EV, O, I-OG, I-TM, I-AF
-47	’	O	O	O, I-EV, I-OG, I-AF, I-TM
-48	에서	O	O	O, B-CV, B-LC, B-OG, B-PS
-49	대상	B-CV	O	O, B-CV, B-TM, B-QT, B-EV
-50	##을	O	O	O, I-CV, I-EV, B-CV, I-QT
-51	받	O	O	O, B-CV, B-OG, B-LC, B-EV
-52	##으면서	O	O	O, B-OG, B-CV, B-LC, B-PS
-53	변화	O	O	O, B-CV, B-TM, B-LC, B-OG
-54	##가	O	O	O, B-OG, B-PS, B-LC, B-CV
-55	일어나	O	O	O, B-CV, B-OG, I-OG, B-LC
-56	##기	O	O	O, B-OG, B-CV, B-PS, B-LC
-57	시작	O	O	O, B-CV, B-OG, B-TM, I-OG
-58	##했	O	O	O, B-CV, B-OG, I-OG, B-LC
-59	##다	O	O	O, B-CV, B-TM, I-OG, B-OG
-60	.	O	O	O, B-LC, B-CV, B-OG, I-EV
-61	[SEP]	O	O	O, B-LC, B-CV, I-EV, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	절	O	B-CV
+2	##임	O	I-CV
+3	##배추	B-CV	I-CV
+4	[SEP]	O	O

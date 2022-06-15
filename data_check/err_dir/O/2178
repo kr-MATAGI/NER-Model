@@ -1,67 +1,40 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	이	O	O	O, B-OG, B-PS, B-CV, B-LC
-2	##에	O	O	O, B-OG, B-CV, B-LC, B-PS
-3	대해	O	O	O, B-OG, B-LC, B-PS, B-CV
-4	셰	O	B-PS	B-PS, B-CV, O, B-LC, B-OG
-5	##러	O	I-PS	I-PS, I-CV, O, I-LC, I-OG
-6	본부	B-CV	B-CV	B-CV, I-CV, O, I-PS, I-OG
-7	##장	I-CV	I-CV	I-CV, O, I-OG, I-PS, I-EV
-8	##은	O	O	O, I-CV, I-OG, I-EV, B-CV
-9	쟁점	O	O	O, B-CV, B-OG, B-LC, B-TM
-10	##이	O	O	O, B-PS, B-OG, B-CV, B-LC
-11	된	O	O	O, B-CV, B-OG, B-LC, B-AF
-12	복	O	B-AF	B-AF, O, B-TM, I-AF, B-CV
-13	##좌	O	I-AF	I-AF, O, B-AF, I-TM, I-CV
-14	##기	O	I-AF	I-AF, O, B-AF, I-TM, I-EV
-15	(	O	O	O, I-AF, B-CV, I-CV, I-EV
-16	2	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-PS
-17	##명	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-18	##이	O	O	O, I-QT, B-PS, I-AF, I-PS
-19	타	O	O	O, B-AF, I-AF, B-PS, B-CV
-20	##는	O	O	O, I-AF, B-AF, B-CV, I-OG
-21	전투기	B-AF	B-AF	B-AF, O, I-AF, B-TM, B-CV
-22	)	O	O	O, I-AF, I-EV, I-OG, I-CV
-23	와	O	O	O, B-AF, B-CV, B-OG, B-LC
-24	관련	O	O	O, B-CV, B-OG, B-TM, B-LC
-25	##해	O	O	O, B-LC, B-PS, B-OG, I-DT
-26	“	O	O	O, B-CV, B-LC, B-OG, B-PS
-27	협상	O	O	O, B-OG, B-LC, B-CV, B-PS
-28	과정	O	O	O, I-OG, B-OG, B-PS, B-LC
-29	##에서	O	O	O, B-LC, B-PS, B-OG, B-CV
-30	한국	B-LC	B-LC	B-LC, B-OG, O, B-PS, I-LC
-31	당국	O	O	O, I-OG, B-OG, I-LC, B-CV
-32	##이	O	O	O, I-OG, B-PS, B-OG, B-LC
-33	요구	O	O	O, B-AF, B-LC, B-OG, B-CV
-34	##한	O	O	O, B-LC, B-AF, B-OG, B-PS
-35	복	O	B-AF	B-AF, O, I-AF, B-TM, B-CV
-36	##좌	O	I-AF	I-AF, O, I-TM, B-AF, I-LC
-37	##기	O	I-AF	I-AF, O, B-AF, I-TM, I-EV
-38	대수	O	O	O, I-AF, B-OG, B-LC, B-CV
-39	##가	O	O	O, B-PS, B-OG, B-LC, I-AF
-40	과도	O	O	O, B-OG, B-LC, B-CV, B-PS
-41	##하	O	O	O, B-PS, B-LC, B-OG, B-AF
-42	##다는	O	O	O, B-LC, B-OG, B-PS, I-OG
-43	입장	O	O	O, B-CV, B-LC, B-OG, B-PS
-44	##을	O	O	O, B-CV, B-PS, B-OG, B-LC
-45	밝혀	O	O	O, B-CV, B-LC, B-PS, B-OG
-46	##왔	O	O	O, B-LC, B-PS, B-OG, B-CV
-47	##고	O	O	O, B-LC, B-PS, I-OG, B-OG
-48	,	O	O	O, B-LC, B-CV, B-OG, B-PS
-49	15	B-QT	B-QT	B-QT, O, I-QT, B-EV, B-DT
-50	##대	I-QT	I-QT	I-QT, O, I-EV, I-OG, I-LC
-51	복	O	B-AF	B-AF, O, I-AF, B-TM, I-QT
-52	##좌	O	I-AF	I-AF, O, I-TM, B-AF, I-QT
-53	##기	O	I-AF	I-AF, O, B-AF, I-TM, I-EV
-54	##를	O	O	O, I-AF, B-AF, B-LC, I-OG
-55	약속	O	O	O, B-CV, B-AF, B-LC, B-OG
-56	##한	O	O	O, B-AF, B-LC, B-PS, B-OG
-57	적도	O	O	O, B-AF, B-CV, B-LC, B-PS
-58	없	O	O	O, B-CV, B-LC, B-AF, B-PS
-59	##다	O	O	O, B-CV, B-OG, B-LC, B-PS
-60	”	O	O	O, B-CV, B-OG, B-LC, B-TM
-61	고	O	O	O, B-CV, B-LC, B-OG, B-PS
-62	했	O	O	O, B-OG, B-CV, B-PS, B-LC
-63	##다	O	O	O, B-CV, I-OG, I-QT, B-OG
-64	.	O	O	O, B-LC, B-OG, B-PS, B-AF
-65	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-AF
+	text	label	preds
+0	[CLS]	O	O
+1	진단	O	O
+2	척도	O	O
+3	##에	O	O
+4	대한	O	O
+5	연구	O	O
+6	##는	O	O
+7	성균관	B-OG	B-OG
+8	##대	I-OG	I-OG
+9	심리학	O	O
+10	##과	O	O
+11	최	B-PS	B-PS
+12	##훈	I-PS	I-PS
+13	##석	I-PS	I-PS
+14	교수	B-CV	B-CV
+15	##가	O	O
+16	연구	O	B-CV
+17	##책	O	I-CV
+18	##임자	O	I-CV
+19	##로	O	O
+20	참여	O	O
+21	##했	O	O
+22	##으며	O	O
+23	관련	O	O
+24	내용	O	O
+25	##이	O	O
+26	최근	O	O
+27	한국	B-OG	B-OG
+28	##심	I-OG	I-OG
+29	##리학	I-OG	I-OG
+30	##회	I-OG	I-OG
+31	학회	O	O
+32	##지	O	O
+33	##에	O	O
+34	소개	O	O
+35	##됐	O	O
+36	##다	O	O
+37	.	O	O
+38	[SEP]	O	O

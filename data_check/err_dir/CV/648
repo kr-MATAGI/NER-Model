@@ -1,21 +1,59 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	아	O	O	O, B-CV, B-TM, B-OG, B-LC
-2	지금	O	O	O, B-CV, B-PS, B-OG, B-TM
-3	공천	O	O	O, B-CV, B-PS, B-OG, B-EV
-4	받	O	O	O, I-CV, B-PS, I-OG, B-CV
-5	##은	O	O	O, B-PS, B-CV, I-CV, B-LC
-6	사람	O	O	O, B-CV, B-PS, I-CV, B-QT
-7	##한	O	O	O, B-CV, B-PS, B-LC, I-CV
-8	##테	O	O	O, B-CV, B-PS, B-LC, B-OG
-9	당신	O	O	O, B-CV, B-PS, B-LC, B-QT
-10	최순	B-PS	B-PS	B-PS, O, I-PS, B-OG, B-LC
-11	##실	I-PS	I-PS	I-PS, O, I-OG, B-PS, I-LC
-12	공천	B-CV	O	O, B-CV, B-OG, I-PS, B-LC
-13	받	O	O	O, I-CV, B-CV, B-PS, I-OG
-14	##았	O	O	O, B-PS, B-CV, I-CV, I-OG
-15	##냐	O	O	O, B-PS, B-CV, I-CV, I-AF
-16	##고	O	O	O, B-CV, B-PS, I-CV, I-AF
-17	하	O	O	O, B-CV, B-PS, B-OG, B-TM
-18	##면	O	O	O, B-CV, B-OG, I-OG, B-PS
-19	[SEP]	O	O	O, B-CV, B-PS, B-LC, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	부자	B-CV	O
+2	##는	O	O
+3	시민	B-CV	B-CV
+4	##들	O	O
+5	##을	O	O
+6	영장	O	O
+7	없이	O	O
+8	체포	O	O
+9	##하	O	O
+10	##거나	O	O
+11	재판	O	O
+12	없이	O	O
+13	감옥	O	O
+14	##에	O	O
+15	가	O	O
+16	##둘	O	O
+17	수	O	O
+18	있	O	O
+19	##게	O	O
+20	하	O	O
+21	##는	O	O
+22	비상사태	O	O
+23	##를	O	O
+24	40	B-DT	B-DT
+25	##여	I-DT	I-DT
+26	##년	I-DT	I-DT
+27	##간	I-DT	I-DT
+28	유지	O	O
+29	##하	O	O
+30	##며	O	O
+31	,	O	O
+32	인구	O	O
+33	##의	O	O
+34	약	B-QT	B-QT
+35	1	I-QT	I-QT
+36	%	I-QT	I-QT
+37	를	O	O
+38	비밀	B-CV	O
+39	##경찰	I-CV	B-CV
+40	##로	O	O
+41	만드	O	O
+42	##는	O	O
+43	등	O	O
+44	철저	O	O
+45	##한	O	O
+46	감시	O	O
+47	##시스	O	O
+48	##템	O	O
+49	##으로	O	O
+50	정권	O	O
+51	##을	O	O
+52	유지	O	O
+53	##해	O	O
+54	##왔	O	O
+55	##다	O	O
+56	.	O	O
+57	[SEP]	O	O

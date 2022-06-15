@@ -1,5 +1,28 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-AF
-1	감자	B-CV	B-PT	B-PT, B-CV, O, B-MT, B-AM
-2	##풀	I-CV	I-PT	I-PT, O, I-CV, I-MT, B-PT
-3	[SEP]	O	O	O, I-CV, I-PT, I-OG, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	잘	O	O
+2	띄	O	O
+3	##운	O	O
+4	메	B-CV	B-CV
+5	##주	I-CV	I-CV
+6	##를	O	O
+7	염분	O	O
+8	15	B-QT	B-QT
+9	%	I-QT	I-QT
+10	정도	I-QT	I-QT
+11	##의	O	O
+12	소금	B-CV	B-CV
+13	##물	I-CV	O
+14	##에	O	O
+15	50	B-DT	B-DT
+16	##일	I-DT	I-DT
+17	##쯤	I-DT	I-DT
+18	담가	O	O
+19	##두	O	O
+20	##면	O	O
+21	국물	O	O
+22	##이	O	O
+23	우러	O	O
+24	##난다	O	O
+25	.	O	O
+26	[SEP]	O	O

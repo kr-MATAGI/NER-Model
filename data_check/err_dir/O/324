@@ -1,31 +1,26 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	서울	B-LC	B-LC	B-LC, B-OG, O, B-AF, B-PS
-2	당산	O	B-AF	B-AF, B-LC, O, B-OG, I-AF
-3	##철	O	I-AF	I-AF, B-AF, O, I-OG, I-LC
-4	##교	O	I-AF	I-AF, I-OG, O, I-LC, B-AF
-5	##의	O	O	O, I-AF, I-OG, I-EV, B-CV
-6	대형	O	O	O, B-TM, B-CV, B-FD, B-AF
-7	벽화	O	O	O, B-FD, B-CV, I-AF, B-AF
-8	##와	O	O	O, I-AF, B-PS, B-CV, B-LC
-9	서	O	B-AF	B-AF, O, B-LC, B-PS, I-AF
-10	##소문	O	I-AF	I-AF, O, I-LC, B-AF, I-PS
-11	순교	O	O	O, I-AF, B-AF, I-LC, B-LC
-12	##성	O	O	O, I-AF, I-LC, B-AF, I-CV
-13	##지	O	O	O, I-AF, I-LC, B-AF, I-CV
-14	기념	O	O	O, I-AF, B-AF, I-LC, B-CV
-15	##탑	O	O	O, I-AF, I-LC, B-AF, I-CV
-16	,	O	O	O, I-AF, B-CV, B-LC, B-PS
-17	옛	O	O	O, B-AF, B-LC, B-OG, B-DT
-18	서울역	B-LC	B-LC	B-LC, B-AF, B-OG, O, I-AF
-19	로비	O	O	O, I-AF, B-AF, B-CV, I-LC
-20	천장	O	O	O, B-FD, B-CV, B-TM, B-TR
-21	##화	O	O	O, I-FD, I-AF, I-CV, I-TR
-22	등	O	O	O, B-PS, B-CV, I-AF, B-LC
-23	##이	O	O	O, B-PS, B-LC, B-OG, B-CV
-24	그	O	O	O, B-CV, B-PS, B-FD, B-OG
-25	##의	O	O	O, B-PS, B-CV, B-FD, B-LC
-26	작품	O	O	O, B-CV, B-FD, B-PS, B-OG
-27	##이다	O	O	O, I-CV, B-CV, I-AF, I-OG
-28	.	O	O	O, B-AF, B-LC, B-CV, B-PS
-29	[SEP]	O	O	O, B-AF, B-CV, I-AF, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	헤이	B-CV	B-CV
+2	##즐	I-CV	I-CV
+3	##넛	I-CV	I-CV
+4	같	O	O
+5	##은	O	O
+6	경우	O	O
+7	##는	O	O
+8	백	B-QT	B-QT
+9	##육	I-QT	I-QT
+10	##십	I-QT	I-QT
+11	##도	I-QT	I-QT
+12	##에	O	O
+13	##서	O	O
+14	약	O	O
+15	뭐	O	O
+16	팔	O	B-TI
+17	분에	O	I-TI
+18	##서	O	O
+19	십	B-TI	B-TI
+20	분	I-TI	I-TI
+21	정도	I-TI	I-TI
+22	사이	I-TI	I-TI
+23	##에	O	O
+24	[SEP]	O	O

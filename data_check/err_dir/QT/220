@@ -1,32 +1,35 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-EV
-1	▶	O	O	O, B-LC, B-CV, B-PS, B-DT
-2	##지	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-OG
-3	##난	I-DT	I-DT	I-DT, O, B-DT, I-EV, I-PS
-4	11	I-DT	I-DT	I-DT, B-DT, O, I-PS, I-QT
-5	##월	I-DT	I-DT	I-DT, O, B-DT, I-PS, I-QT
-6	바티칸	B-LC	B-LC	B-LC, O, B-OG, B-AF, I-DT
-7	성	B-LC	B-LC	B-LC, O, I-LC, B-AF, B-PS
-8	##베	I-LC	I-LC	I-LC, O, I-AF, B-LC, I-PS
-9	##드로	I-LC	I-LC	I-LC, O, I-AF, B-LC, I-PS
-10	##광장	I-LC	I-LC	I-LC, O, I-AF, B-LC, I-PS
-11	5	B-QT	B-QT	B-QT, I-LC, O, I-QT, B-LC
-12	##만	I-QT	I-QT	I-QT, I-LC, O, I-PS, I-AF
-13	군중	I-QT	B-CV	B-CV, O, I-QT, I-CV, I-LC
-14	##에	O	O	O, I-CV, I-QT, B-CV, I-AF
-15	##게	O	O	O, B-CV, B-LC, B-TM, B-PS
-16	강	O	O	O, B-CV, B-FD, B-LC, B-PS
-17	##론	O	O	O, I-CV, I-EV, I-FD, I-LC
-18	##하	O	O	O, B-PS, B-CV, B-LC, I-AF
-19	##던	O	O	O, B-PS, B-CV, B-LC, B-OG
-20	교황	B-CV	B-CV	B-CV, O, B-OG, B-PS, B-AF
-21	##이	O	O	O, I-CV, B-CV, I-AF, I-OG
-22	중년	O	O	O, B-CV, B-TM, B-QT, B-PS
-23	남자	O	O	O, I-CV, I-QT, B-CV, I-TM
-24	앞	B-TM	O	O, B-TM, B-LC, B-CV, B-QT
-25	##에	O	O	O, I-TM, I-QT, B-CV, I-CV
-26	멈춰	O	O	O, B-CV, B-TM, B-OG, B-AF
-27	섰	O	O	O, B-CV, B-LC, B-TM, B-OG
-28	##다	O	O	O, B-CV, I-OG, I-CV, I-QT
-29	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-30	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	혼합	O	B-TM
+2	##복	O	I-TM
+3	##식	O	I-TM
+4	##은	O	O
+5	고성	B-PS	B-PS
+6	##현	I-PS	I-PS
+7	-	O	O
+8	하정	B-PS	B-PS
+9	##은	I-PS	I-PS
+10	조	O	O
+11	(	O	O
+12	6	B-QT	B-QT
+13	##위	I-QT	I-QT
+14	)	O	O
+15	가	O	O
+16	버티	O	O
+17	##고	O	O
+18	있	O	O
+19	##지만	O	O
+20	여자	O	O
+21	복식	O	O
+22	##은	O	O
+23	10	B-QT	B-QT
+24	##위	I-QT	I-QT
+25	##권	I-QT	O
+26	내	O	O
+27	##에	O	O
+28	아무	O	O
+29	##도	O	O
+30	없	O	O
+31	##다	O	O
+32	.	O	O
+33	[SEP]	O	O

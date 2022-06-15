@@ -1,15 +1,18 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-AF
-1	다문화	B-CV	O	O, B-CV, B-OG, B-FD, B-PS
-2	##가족	I-CV	B-CV	B-CV, O, I-CV, I-OG, B-QT
-3	##은	O	O	O, I-CV, I-OG, I-AF, B-CV
-4	도시	O	O	O, B-LC, B-FD, B-CV, I-LC
-5	##보	O	O	O, I-LC, B-LC, I-AF, I-CV
-6	##다	O	O	O, B-LC, I-LC, B-CV, B-PS
-7	농촌	O	O	O, B-LC, I-LC, B-FD, B-CV
-8	##에	O	O	O, I-LC, B-LC, I-OG, B-CV
-9	많이	O	O	O, B-LC, B-CV, B-OG, B-TM
-10	거주	O	O	O, B-CV, B-LC, B-TM, B-PS
-11	##한다	O	O	O, I-OG, B-CV, I-AF, B-LC
-12	.	O	O	O, B-LC, B-CV, B-OG, I-OG
-13	[SEP]	O	O	O, B-LC, B-CV, I-AF, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	경찰	B-OG	B-OG
+2	##은	O	O
+3	살해	B-CV	O
+4	장면	O	O
+5	##이	O	O
+6	담긴	O	O
+7	씨씨	B-TM	B-TM
+8	##티	I-TM	I-TM
+9	##비	I-TM	I-TM
+10	영상	O	O
+11	##을	O	O
+12	확보	O	O
+13	##하	O	O
+14	##고	O	O
+15	##도	O	O
+16	[SEP]	O	O

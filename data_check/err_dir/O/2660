@@ -1,35 +1,42 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-EV, I-CV
-1	1	B-TI	B-TI	B-TI, B-QT, O, B-EV, I-TI
-2	##시	I-TI	I-TI	I-TI, B-TI, I-QT, I-EV, O
-3	30	I-TI	I-TI	I-TI, B-TI, I-QT, O, I-TR
-4	##분	I-TI	I-TI	I-TI, O, I-QT, B-TI, I-TR
-5	##부터	I-TI	I-TI	I-TI, O, B-TI, I-QT, I-TR
-6	5	I-TI	I-TI	I-TI, B-TI, I-QT, O, I-TR
-7	##시	I-TI	I-TI	I-TI, O, I-QT, B-TI, I-TR
-8	30	I-TI	I-TI	I-TI, B-TI, O, I-QT, I-TR
-9	##분	I-TI	I-TI	I-TI, O, B-TI, I-QT, I-TR
-10	##까	I-TI	I-TI	I-TI, O, B-TI, I-QT, I-TR
-11	##지	I-TI	I-TI	I-TI, O, I-TR, I-QT, B-TI
-12	올림피아	B-EV	B-EV	B-EV, O, I-EV, B-AF, I-TI
-13	##드	I-EV	I-EV	I-EV, O, I-AF, I-TI, B-EV
-14	시험	I-EV	O	O, I-EV, B-EV, I-AF, I-OG
-15	##을	O	O	O, I-EV, I-AF, I-OG, B-CV
-16	치르	O	O	O, B-CV, B-LC, B-OG, I-EV
-17	##는	O	O	O, B-LC, B-CV, B-OG, B-PS
-18	4	B-TI	B-TI	B-TI, B-EV, O, B-QT, I-TI
-19	##시간	I-TI	I-TI	I-TI, O, I-EV, B-TI, I-QT
-20	내내	O	I-TI	I-TI, O, I-DT, B-TI, I-QT
-21	부모	B-CV	B-CV	B-CV, O, B-OG, I-CV, B-TM
-22	##들	O	O	O, I-CV, I-AF, I-EV, B-CV
-23	##도	O	O	O, B-CV, B-LC, B-TM, B-PS
-24	시험장	O	O	O, B-LC, B-CV, B-AF, B-TM
-25	밖에	O	O	O, B-TM, B-LC, B-CV, B-QT
-26	##서	O	O	O, B-PS, B-CV, B-LC, B-TM
-27	마음	O	O	O, B-TM, B-CV, B-PS, B-AM
-28	##을	O	O	O, B-CV, B-PS, B-OG, B-TM
-29	졸	O	O	O, B-TM, B-CV, B-LC, B-PS
-30	##였	O	O	O, B-CV, B-PS, B-OG, I-AF
-31	##다	O	O	O, B-CV, B-TM, I-AF, I-OG
-32	.	O	O	O, B-LC, B-PS, B-CV, I-EV
-33	[SEP]	O	O	O, B-LC, B-CV, I-EV, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	그	O	O
+2	##가	O	O
+3	본격	O	O
+4	##적	O	O
+5	##으로	O	O
+6	성과	O	O
+7	##를	O	O
+8	보인	O	O
+9	것	O	O
+10	##은	O	O
+11	1998	B-DT	B-DT
+12	##년	I-DT	I-DT
+13	뽕	B-PT	B-PT
+14	##나무	I-PT	I-PT
+15	##의	O	O
+16	어린	O	O
+17	가지	O	B-PT
+18	##에	O	O
+19	##서	O	O
+20	뽑	O	O
+21	##은	O	O
+22	'	O	O
+23	상	O	B-PT
+24	##지	O	I-PT
+25	'	O	O
+26	추출물	O	O
+27	##이	O	O
+28	미백	O	O
+29	기능	O	O
+30	##성	O	O
+31	효과	O	O
+32	##로	O	O
+33	식약청	B-OG	B-OG
+34	인증	O	O
+35	##을	O	O
+36	받	O	O
+37	##으면	O	O
+38	##서	O	O
+39	.	O	O
+40	[SEP]	O	O

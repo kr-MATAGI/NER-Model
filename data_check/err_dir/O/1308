@@ -1,57 +1,10 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	<	O	O	O, B-OG, B-LC, B-AF, B-CV
-2	아사히	B-OG	B-OG	B-OG, I-OG, B-AF, O, B-LC
-3	##신문	I-OG	I-OG	I-OG, O, I-AF, B-OG, I-LC
-4	>	O	O	O, I-OG, I-AF, B-OG, I-CV
-5	은	O	O	O, B-OG, I-OG, B-CV, B-LC
-6	지난	B-DT	B-DT	B-DT, O, I-DT, B-OG, B-QT
-7	8	I-DT	I-DT	I-DT, O, B-DT, I-PS, I-QT
-8	##월	I-DT	I-DT	I-DT, O, B-DT, I-PS, I-QT
-9	초	I-DT	I-DT	I-DT, O, B-DT, I-PS, I-QT
-10	일본군	B-OG	B-OG	B-OG, O, B-LC, I-DT, B-CV
-11	관	O	B-CV	B-CV, O, I-CV, B-OG, I-OG
-12	##헌	O	I-CV	I-CV, O, I-OG, B-CV, I-AF
-13	##이	O	O	O, I-CV, B-PS, I-OG, B-LC
-14	제주도	B-LC	B-LC	B-LC, O, B-OG, B-AF, I-LC
-15	##에서	O	O	O, I-LC, I-AF, B-LC, B-CV
-16	“	O	O	O, B-LC, B-CV, B-PS, B-OG
-17	조선인	B-CV	B-CV	B-CV, O, B-LC, B-PT, B-TM
-18	여성	O	O	O, I-CV, B-CV, I-AF, I-QT
-19	##들	O	O	O, B-CV, B-LC, I-CV, B-PS
-20	##을	O	O	O, B-CV, B-PS, B-LC, B-AM
-21	사냥	O	O	O, B-AM, B-LC, B-CV, B-TM
-22	##하	O	O	O, B-AM, B-PS, I-AF, B-LC
-23	##듯	O	O	O, B-PS, B-LC, I-AF, I-LC
-24	강제	O	O	O, B-LC, B-CV, B-PS, B-TM
-25	##연	O	O	O, B-LC, B-CV, B-PS, B-AM
-26	##행	O	O	O, B-LC, I-LC, B-CV, I-CV
-27	##했	O	O	O, B-PS, B-LC, B-CV, I-LC
-28	##다	O	O	O, B-PS, B-LC, B-CV, B-OG
-29	”	O	O	O, B-CV, B-PS, B-LC, B-OG
-30	는	O	O	O, B-PS, B-CV, B-LC, B-OG
-31	이른바	O	O	O, B-LC, B-CV, B-PS, B-QT
-32	‘	O	O	O, B-LC, B-CV, B-OG, B-PS
-33	요시다	B-PS	B-PS	B-PS, O, B-LC, I-PS, B-OG
-34	증언	O	O	O, I-PS, I-EV, B-CV, I-AF
-35	’	O	O	O, B-LC, B-PS, B-CV, B-OG
-36	을	O	O	O, B-LC, B-CV, B-PS, B-OG
-37	인용	O	O	O, B-CV, B-LC, B-TM, B-OG
-38	##한	O	O	O, B-PS, B-LC, B-CV, B-OG
-39	기사	O	O	O, B-CV, B-TM, B-AF, B-FD
-40	##들이	O	O	O, B-PS, B-CV, I-CV, B-LC
-41	오보	O	O	O, B-CV, B-TM, B-TR, B-QT
-42	##임	O	O	O, I-CV, B-PS, I-TM, I-QT
-43	##을	O	O	O, B-CV, B-OG, B-PS, B-LC
-44	인정	O	O	O, B-CV, B-LC, B-OG, B-TM
-45	##하고	O	O	O, B-LC, B-CV, B-PS, B-OG
-46	해당	O	O	O, B-CV, B-LC, B-OG, B-TM
-47	보도	O	O	O, B-CV, B-AF, B-FD, B-TM
-48	##를	O	O	O, B-CV, B-LC, B-PS, B-OG
-49	취소	O	O	O, B-CV, B-QT, B-OG, B-TM
-50	##한	O	O	O, B-OG, B-LC, B-CV, B-PS
-51	바	O	O	O, B-CV, B-OG, B-LC, B-TM
-52	있	O	O	O, B-CV, B-OG, B-LC, I-OG
-53	##다	O	O	O, B-CV, B-LC, B-OG, I-OG
-54	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-55	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	강기	B-PS	B-PS
+2	##훈	I-PS	I-PS
+3	유서	O	I-EV
+4	##대	O	I-EV
+5	##필	O	I-EV
+6	사건	O	I-EV
+7	##도	O	O
+8	[SEP]	O	O

@@ -1,40 +1,74 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-EV, I-CV, I-OG, B-CV
-1	만	B-PS	B-PS	B-PS, B-LC, O, B-EV, B-DT
-2	##해	I-PS	I-LC	I-LC, I-PS, O, I-EV, I-AF
-3	한용	I-PS	I-PS	I-PS, B-PS, I-LC, O, B-LC
-4	##운	I-PS	I-PS	I-PS, I-LC, O, I-EV, I-AF
-5	선사	B-CV	B-CV	B-CV, O, I-PS, B-FD, B-EV
-6	##의	O	O	O, I-CV, B-CV, I-EV, B-PS
-7	민족	O	O	O, B-FD, B-TR, B-CV, B-PS
-8	##사상	O	O	O, I-FD, I-TR, I-CV, B-FD
-9	##과	O	O	O, B-PS, B-CV, B-LC, B-OG
-10	자유	O	O	O, B-TR, B-CV, B-FD, B-PS
-11	##사상	O	O	O, I-TR, I-CV, I-FD, I-PS
-12	##을	O	O	O, B-CV, I-CV, I-TR, B-PS
-13	선양	O	O	O, B-CV, B-LC, B-PS, B-EV
-14	##하기	O	O	O, B-PS, I-CV, I-EV, B-LC
-15	위한	O	O	O, B-EV, B-LC, B-CV, B-PS
-16	'	O	O	O, B-EV, B-DT, B-LC, B-CV
-17	2011	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-18	만	B-EV	B-EV	B-EV, I-EV, B-LC, O, B-AF
-19	##해	I-EV	I-EV	I-EV, O, I-LC, I-AF, I-OG
-20	##축	I-EV	I-EV	I-EV, O, I-AF, I-LC, I-OG
-21	##전	I-EV	I-EV	I-EV, O, I-AF, I-LC, I-OG
-22	'	O	O	O, I-EV, I-DT, B-LC, B-CV
-23	이	O	O	O, B-PS, B-LC, B-EV, I-EV
-24	11	B-DT	B-DT	B-DT, I-DT, O, B-QT, B-EV
-25	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
-26	##부터	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-27	인제	B-LC	B-LC	B-LC, O, B-AF, B-OG, I-LC
-28	백	B-AF	B-LC	B-LC, B-AF, I-LC, O, B-PS
-29	##담	I-AF	I-LC	I-LC, I-AF, O, I-PS, B-LC
-30	##사	I-AF	I-LC	I-LC, I-AF, O, I-PS, I-OG
-31	만	B-LC	B-LC	B-LC, I-LC, O, I-AF, B-AF
-32	##해	I-LC	I-LC	I-LC, O, I-AF, B-LC, I-PS
-33	##마을	I-LC	I-LC	I-LC, O, I-AF, B-LC, I-PS
-34	일원	O	O	O, I-LC, B-LC, I-QT, B-TM
-35	##에서	O	O	O, B-LC, I-LC, I-QT, B-QT
-36	펼쳐진다	O	O	O, B-LC, B-EV, B-CV, B-PS
-37	.	O	O	O, B-LC, I-EV, B-PS, I-LC
-38	[SEP]	O	O	O, B-LC, I-EV, B-CV, I-LC
+	text	label	preds
+0	[CLS]	O	O
+1	군	B-OG	B-OG
+2	##은	O	O
+3	천안	B-AF	B-AF
+4	##함	I-AF	I-AF
+5	##을	O	O
+6	인양	O	O
+7	##한	O	O
+8	15	B-DT	B-DT
+9	##일	I-DT	I-DT
+10	##부터	I-DT	I-DT
+11	이날	B-DT	B-DT
+12	오전	B-TI	B-TI
+13	##까	I-TI	I-TI
+14	##지	I-TI	I-TI
+15	계속	O	O
+16	##된	O	O
+17	군의	O	O
+18	함	B-AF	O
+19	##미	I-AF	O
+20	내부	O	O
+21	수색	O	O
+22	##작	O	O
+23	##업	O	O
+24	##에도	O	O
+25	불구	O	O
+26	##하	O	O
+27	##고	O	O
+28	이창	B-PS	B-PS
+29	##기	I-PS	I-PS
+30	원사	B-CV	B-CV
+31	,	O	O
+32	최	B-PS	B-PS
+33	##한	I-PS	I-PS
+34	##권	I-PS	I-PS
+35	상사	B-CV	B-CV
+36	,	O	O
+37	박경	B-PS	B-PS
+38	##수	I-PS	I-PS
+39	중사	B-CV	B-CV
+40	,	O	O
+41	박성	B-PS	B-PS
+42	##균	I-PS	I-PS
+43	하사	B-CV	B-CV
+44	,	O	O
+45	박보	B-PS	B-PS
+46	##람	I-PS	I-PS
+47	하사	B-CV	B-CV
+48	,	O	O
+49	장진	B-PS	B-PS
+50	##선	I-PS	I-PS
+51	하사	B-CV	B-CV
+52	,	O	O
+53	강태	B-PS	B-PS
+54	##민	I-PS	I-PS
+55	일병	B-CV	B-CV
+56	,	O	O
+57	정태	B-PS	B-PS
+58	##준	I-PS	I-PS
+59	이병	B-CV	B-CV
+60	등	O	O
+61	8	B-QT	B-QT
+62	##명	I-QT	I-QT
+63	##의	O	O
+64	실종자	O	B-CV
+65	##를	O	O
+66	찾	O	O
+67	##지	O	O
+68	못	O	O
+69	##했	O	O
+70	##다	O	O
+71	.	O	O
+72	[SEP]	O	O

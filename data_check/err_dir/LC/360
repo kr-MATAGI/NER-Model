@@ -1,31 +1,16 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-EV, I-CV
-1	중국	B-OG	B-OG	B-OG, B-LC, O, B-PS, I-OG
-2	##이	O	O	O, I-OG, I-EV, I-LC, B-CV
-3	예선전	B-EV	B-EV	B-EV, O, B-CV, B-LC, B-OG
-4	결과	O	O	O, I-EV, I-OG, B-CV, I-AF
-5	##에	O	O	O, I-EV, B-CV, B-OG, I-OG
-6	환호	O	O	O, B-CV, B-LC, B-AF, B-PS
-7	##하	O	O	O, B-PS, B-LC, B-CV, I-AF
-8	##는	O	O	O, B-CV, B-LC, B-OG, B-PS
-9	것	O	O	O, B-CV, B-OG, B-LC, B-PS
-10	##은	O	O	O, B-CV, B-OG, B-LC, B-PS
-11	최근	O	O	O, B-DT, B-LC, B-OG, I-DT
-12	몇	O	O	O, I-DT, B-PS, B-DT, B-LC
-13	년	O	O	O, I-DT, B-DT, B-LC, B-PS
-14	동안	O	O	O, I-DT, B-DT, B-LC, B-PS
-15	중국	B-LC	B-OG	B-OG, B-LC, O, B-AF, B-EV
-16	축구	B-OG	B-OG	B-OG, I-OG, B-CV, O, B-AF
-17	##대표	I-OG	I-OG	I-OG, O, I-CV, I-EV, I-AF
-18	##팀	I-OG	I-OG	I-OG, O, I-CV, I-EV, I-AF
-19	##의	O	O	O, I-OG, I-EV, I-AF, I-CV
-20	성적	O	O	O, B-CV, B-TM, I-OG, B-LC
-21	##이	O	O	O, B-CV, B-PS, B-OG, B-LC
-22	좋	O	O	O, B-CV, B-LC, B-TM, B-OG
-23	##지	O	O	O, B-CV, B-LC, I-OG, B-PS
-24	못했	O	O	O, B-CV, B-LC, I-OG, B-OG
-25	##기	O	O	O, B-CV, B-TM, I-OG, B-PS
-26	때문	O	O	O, B-CV, B-PS, B-LC, B-TM
-27	##이다	O	O	O, B-CV, I-OG, B-TM, I-EV
-28	.	O	O	O, B-LC, B-OG, B-CV, B-PS
-29	[SEP]	O	O	O, B-CV, B-LC, I-OG, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	북한	B-LC	B-OG
+2	##하	O	O
+3	##고	O	O
+4	이렇게	O	O
+5	상황	O	O
+6	##을	O	O
+7	보	O	O
+8	##면	O	O
+9	통일	O	O
+10	##은	O	O
+11	안	O	O
+12	되	O	O
+13	##지만	O	O
+14	[SEP]	O	O

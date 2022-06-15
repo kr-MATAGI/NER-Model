@@ -1,13 +1,36 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	원래	O	O	O, B-CV, B-TM, B-LC, B-OG
-2	가슴	O	B-AM	B-AM, O, B-TM, B-CV, B-PS
-3	##노	O	O	O, I-TM, I-AM, I-CV, B-TM
-4	##출	O	O	O, I-TM, I-CV, I-AF, I-AM
-5	##에	O	O	O, B-CV, I-AF, I-CV, B-PS
-6	문법	O	O	O, B-CV, B-FD, B-TM, B-LC
-7	##이	O	O	O, B-PS, B-CV, I-AF, I-CV
-8	있	O	O	O, B-CV, B-TM, B-OG, I-AF
-9	##잖아요	O	O	O, B-CV, I-AF, I-CV, I-OG
-10	.	O	O	O, B-CV, B-OG, B-LC, B-TM
-11	[SEP]	O	O	O, B-CV, B-LC, I-AF, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	이번	O	O
+2	연구	O	O
+3	결과	O	O
+4	##는	O	O
+5	22	B-DT	B-DT
+6	##일	I-DT	I-DT
+7	미국	B-LC	B-LC
+8	뉴욕	B-LC	B-LC
+9	##에	O	O
+10	##서	O	O
+11	열린	O	O
+12	‘	O	O
+13	제	B-QT	B-QT
+14	##33	I-QT	I-QT
+15	##회	I-QT	I-QT
+16	국제	O	B-EV
+17	머신	O	I-EV
+18	##러	O	I-EV
+19	##닝	O	I-EV
+20	학술	O	I-EV
+21	##대	O	I-EV
+22	##회	O	I-EV
+23	(	O	O
+24	IC	B-EV	B-EV
+25	##ML	I-EV	I-EV
+26	2016	B-DT	B-DT
+27	)	O	O
+28	’	O	O
+29	에서	O	O
+30	발표	O	O
+31	##됐	O	O
+32	##다	O	O
+33	.	O	O
+34	[SEP]	O	O

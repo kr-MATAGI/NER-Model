@@ -1,53 +1,87 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	윤	B-PS	B-PS	B-PS, B-OG, O, I-PS, B-AF
-2	##여	I-PS	I-PS	I-PS, O, B-PS, I-OG, I-LC
-3	##준	I-PS	I-PS	I-PS, O, I-OG, I-LC, B-PS
-4	##은	O	O	O, I-PS, B-CV, I-OG, B-LC
-5	자신	O	O	O, B-CV, B-PS, B-LC, B-TM
-6	##의	O	O	O, B-PS, B-CV, I-CV, B-LC
-7	책	O	O	O, B-CV, B-LC, B-PS, B-TM
-8	‘	O	O	O, B-CV, B-LC, B-PS, B-OG
-9	대통령	B-CV	B-AF	B-AF, B-CV, B-PS, O, B-EV
-10	##의	O	I-AF	I-AF, O, I-PS, B-AF, I-CV
-11	자격	O	I-AF	I-AF, O, I-PS, I-CV, I-TM
-12	’	O	O	O, I-AF, I-CV, I-EV, I-OG
-13	에서	O	O	O, B-LC, B-PS, B-CV, I-AF
-14	“	O	O	O, B-LC, B-CV, B-PS, B-OG
-15	국가	O	O	O, B-CV, B-OG, B-PS, B-LC
-16	##의	O	O	O, B-PS, I-OG, B-LC, B-OG
-17	흥	O	O	O, B-LC, B-CV, B-PS, B-OG
-18	##망	O	O	O, B-PS, B-LC, B-CV, I-OG
-19	##성	O	O	O, B-LC, B-PS, B-CV, B-TM
-20	##쇠	O	O	O, B-LC, B-PS, B-TM, B-CV
-21	##를	O	O	O, B-PS, B-LC, B-CV, B-OG
-22	좌우	O	O	O, B-TM, B-LC, B-CV, B-PS
-23	##하	O	O	O, B-PS, B-LC, B-TM, B-CV
-24	##는	O	O	O, B-PS, B-LC, B-CV, B-TM
-25	가장	O	O	O, B-CV, B-LC, B-TM, B-QT
-26	결정	O	O	O, B-TM, B-LC, B-PS, B-CV
-27	##적	O	O	O, B-PS, B-LC, I-PS, B-TM
-28	요인	O	O	O, B-CV, B-PS, B-LC, B-TM
-29	##은	O	O	O, B-PS, B-CV, B-LC, B-OG
-30	대통령	B-CV	B-CV	B-CV, O, B-AF, B-PS, B-EV
-31	##의	O	O	O, I-CV, I-AF, B-PS, I-PS
-32	스테이트	O	B-AF	B-AF, O, B-TM, B-PS, B-CV
-33	##크	O	I-AF	I-AF, O, I-TM, I-PS, I-TR
-34	##래프트	O	I-AF	I-AF, O, I-TM, I-TR, I-CV
-35	,	O	O	O, I-AF, I-CV, I-TM, I-OG
-36	즉	O	O	O, B-LC, B-CV, B-TM, B-QT
-37	국가	O	O	O, B-CV, B-OG, B-PS, B-LC
-38	##를	O	O	O, I-OG, B-CV, I-AF, I-CV
-39	운영	O	O	O, B-CV, B-LC, B-TM, B-PS
-40	##하	O	O	O, B-PS, B-LC, B-CV, B-TM
-41	##는	O	O	O, B-LC, B-PS, B-CV, B-TM
-42	자질	O	O	O, B-CV, B-PS, B-LC, B-TM
-43	##과	O	O	O, B-PS, B-LC, B-CV, B-OG
-44	능력	O	O	O, B-PS, B-CV, B-LC, B-TM
-45	”	O	O	O, B-CV, B-LC, B-PS, B-OG
-46	이라	O	O	O, B-PS, B-CV, B-LC, B-OG
-47	##고	O	O	O, B-CV, B-PS, I-CV, B-LC
-48	했	O	O	O, B-CV, B-PS, B-OG, B-LC
-49	##다	O	O	O, B-CV, B-PS, B-LC, I-CV
-50	.	O	O	O, B-LC, B-PS, B-CV, B-OG
-51	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-FD
+	text	label	preds
+0	[CLS]	O	O
+1	국민	B-CV	B-OG
+2	##모	O	I-OG
+3	##임	O	I-OG
+4	신당	B-OG	B-OG
+5	##추	I-OG	I-OG
+6	##진	I-OG	I-OG
+7	##위원회	I-OG	I-OG
+8	오	B-PS	B-PS
+9	##민	I-PS	I-PS
+10	##애	I-PS	I-PS
+11	대변인	B-CV	B-CV
+12	##은	O	O
+13	3	B-DT	B-DT
+14	##일	I-DT	I-DT
+15	“	O	O
+16	4	B-EV	B-EV
+17	·	I-EV	I-EV
+18	29	I-EV	I-EV
+19	보궐	I-EV	I-EV
+20	##선거	I-EV	I-EV
+21	##가	O	O
+22	치러	O	O
+23	##지	O	O
+24	##는	O	O
+25	광주	B-LC	B-LC
+26	서구	B-LC	B-LC
+27	##을	I-LC	I-LC
+28	,	O	O
+29	서울	B-LC	B-LC
+30	관악	B-LC	B-LC
+31	,	O	O
+32	성남	B-LC	B-LC
+33	중원	B-LC	O
+34	세	B-QT	B-QT
+35	지역	I-QT	I-QT
+36	##에	O	O
+37	적합	O	O
+38	##한	O	O
+39	후보자	B-CV	B-CV
+40	##를	O	O
+41	적극	O	O
+42	물색	O	O
+43	##해	O	O
+44	반드시	O	O
+45	당선	O	O
+46	##이	O	O
+47	되	O	O
+48	##도록	O	O
+49	노력	O	O
+50	##하	O	O
+51	##겠다	O	O
+52	”	O	O
+53	며	O	O
+54	“	O	O
+55	정의당	B-OG	B-OG
+56	·	O	O
+57	노동당	B-OG	B-OG
+58	등	O	O
+59	기존	O	O
+60	진보	O	O
+61	##정	O	O
+62	##당	O	O
+63	##과	O	O
+64	신당	O	O
+65	##의	O	O
+66	대의	O	O
+67	##에	O	O
+68	동의	O	O
+69	##하	O	O
+70	##는	O	O
+71	모든	O	O
+72	세력	O	O
+73	##들	O	O
+74	##과	O	O
+75	논의	O	O
+76	##를	O	O
+77	진행	O	O
+78	##하	O	O
+79	##겠다	O	O
+80	”	O	O
+81	고	O	O
+82	밝혔	O	O
+83	##다	O	O
+84	.	O	O
+85	[SEP]	O	O

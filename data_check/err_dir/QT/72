@@ -1,71 +1,55 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	반면	O	O	O, B-CV, B-QT, B-PS, B-TM
-2	1	B-QT	B-EV	B-EV, B-QT, B-AF, B-DT, O
-3	##∼	I-QT	I-EV	I-EV, I-QT, I-AF, I-DT, B-EV
-4	##3	I-QT	I-EV	I-EV, I-QT, I-AF, I-DT, B-EV
-5	##차	I-QT	I-EV	I-EV, I-QT, I-AF, I-DT, I-LC
-6	##전	I-QT	I-EV	I-EV, I-QT, I-AF, O, I-DT
-7	##에서	O	O	O, I-EV, I-QT, I-AF, I-DT
-8	3	B-QT	B-QT	B-QT, B-CV, O, B-OG, B-TM
-9	##번	I-QT	I-QT	I-QT, I-CV, O, I-OG, I-TM
-10	##으로	O	O	O, I-QT, I-CV, B-CV, I-OG
-11	나선	O	O	O, B-OG, B-PS, B-CV, B-LC
-12	전	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-AF
-13	##준	I-PS	I-PS	I-PS, B-PS, O, I-OG, I-LC
-14	##우	I-PS	I-PS	I-PS, O, I-OG, I-LC, B-PS
-15	##는	O	O	O, I-PS, I-OG, I-AF, B-CV
-16	14	B-QT	B-QT	B-QT, O, B-EV, B-TM, B-AF
-17	##타	I-QT	I-QT	I-QT, O, I-EV, I-TM, B-QT
-18	##수	I-QT	I-QT	I-QT, O, I-TM, I-EV, I-LC
-19	6	B-QT	B-QT	B-QT, I-QT, O, B-TM, B-EV
-20	##안	I-QT	I-QT	I-QT, O, I-TM, B-QT, I-EV
-21	##타	I-QT	I-QT	I-QT, O, I-TM, B-QT, I-LC
-22	##로	O	O	O, I-QT, I-EV, B-PS, B-CV
-23	타율	B-QT	B-QT	B-QT, I-QT, O, B-TM, B-DT
-24	0	I-QT	I-QT	I-QT, B-QT, O, I-TM, I-LC
-25	.	I-QT	I-QT	I-QT, O, I-TM, B-QT, I-LC
-26	42	I-QT	I-QT	I-QT, B-QT, O, I-LC, I-TM
-27	##9	I-QT	I-QT	I-QT, O, I-LC, I-TM, B-QT
-28	,	O	O	O, I-QT, B-CV, B-OG, I-OG
-29	5	B-QT	B-CV	B-CV, B-QT, O, B-TM, B-OG
-30	##번	I-QT	I-QT	I-QT, I-CV, O, B-CV, I-TM
-31	지명	B-CV	B-CV	B-CV, I-CV, O, I-QT, B-TM
-32	##타자	I-CV	I-CV	I-CV, O, B-CV, I-QT, I-TM
-33	##로	O	O	O, I-CV, I-QT, B-CV, I-OG
-34	기용	O	O	O, B-OG, B-CV, B-PS, B-LC
-35	##된	O	O	O, B-PS, B-OG, B-LC, B-CV
-36	홍성흔	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-AF
-37	##은	O	O	O, I-PS, I-AF, I-OG, B-CV
-38	11	B-QT	B-QT	B-QT, O, B-TM, B-EV, B-LC
-39	##타	I-QT	I-QT	I-QT, O, I-EV, I-TM, B-QT
-40	##수	I-QT	I-QT	I-QT, O, I-TM, I-EV, I-LC
-41	4	B-QT	B-QT	B-QT, I-QT, O, B-TM, B-EV
-42	##안	I-QT	I-QT	I-QT, O, I-TM, B-QT, I-EV
-43	##타	I-QT	I-QT	I-QT, O, I-TM, I-LC, B-QT
-44	##로	O	O	O, I-QT, I-EV, B-PS, B-CV
-45	타율	B-QT	B-QT	B-QT, I-QT, O, B-TM, B-DT
-46	0	I-QT	I-QT	I-QT, B-QT, O, I-TM, I-LC
-47	.	I-QT	I-QT	I-QT, O, I-TM, I-LC, B-QT
-48	36	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-TM
-49	##4	I-QT	I-QT	I-QT, O, I-LC, I-TM, B-QT
-50	##로	O	O	O, I-QT, B-PS, B-OG, I-EV
-51	방망이	B-CV	B-CV	B-CV, B-AF, O, B-AM, B-TM
-52	##가	O	O	O, I-AF, I-CV, B-PS, B-CV
-53	잘	O	O	O, B-LC, B-TM, B-PS, B-OG
-54	맞	O	O	O, B-LC, B-PS, B-TM, B-OG
-55	##고	O	O	O, B-PS, B-LC, B-TM, I-AF
-56	있	O	O	O, B-PS, B-LC, B-CV, B-OG
-57	##어	O	O	O, B-LC, B-PS, B-OG, B-TM
-58	타	O	O	O, B-TM, B-LC, B-CV, B-AF
-59	##순	O	O	O, I-TM, I-LC, I-CV, B-LC
-60	조정	O	O	O, B-PS, B-LC, I-LC, I-TM
-61	##을	O	O	O, B-PS, B-CV, B-OG, B-LC
-62	생각	O	O	O, B-QT, B-CV, B-TM, B-OG
-63	##해	O	O	O, B-PS, B-LC, B-OG, B-CV
-64	##볼	O	O	O, B-PS, B-LC, B-QT, B-OG
-65	만도	O	O	O, B-QT, B-PS, B-CV, B-DT
-66	했	O	O	O, B-PS, B-QT, B-OG, I-QT
-67	##다	O	O	O, B-CV, I-QT, B-TM, B-LC
-68	.	O	O	O, B-PS, B-LC, B-CV, B-OG
-69	[SEP]	O	O	O, B-PS, B-CV, B-LC, B-QT
+	text	label	preds
+0	[CLS]	O	O
+1	1998	B-DT	B-DT
+2	##년	I-DT	I-DT
+3	8	I-DT	I-DT
+4	##월	I-DT	I-DT
+5	‘	O	O
+6	광명	B-AF	B-TM
+7	##성	I-AF	I-TM
+8	1	I-AF	I-TM
+9	##호	I-AF	I-TM
+10	’	O	O
+11	,	O	O
+12	2009	B-DT	B-DT
+13	##년	I-DT	I-DT
+14	4	I-DT	I-DT
+15	##월	I-DT	I-DT
+16	‘	O	O
+17	광명	B-TM	B-TM
+18	##성	I-TM	I-TM
+19	2	B-QT	I-TM
+20	##호	I-QT	I-TM
+21	’	O	O
+22	발사	O	O
+23	때	O	O
+24	각각	O	O
+25	쏴	O	O
+26	올린	O	O
+27	장거리	O	B-AF
+28	##로	O	I-AF
+29	##켓	O	I-AF
+30	##의	O	O
+31	1	B-QT	B-QT
+32	##단	I-QT	I-QT
+33	추진	O	O
+34	##체	O	O
+35	##엔	O	O
+36	붉	B-TM	B-TM
+37	##은	I-TM	I-TM
+38	##색	I-TM	I-TM
+39	페인트	O	B-MT
+40	##로	O	O
+41	‘	O	O
+42	조선	B-LC	B-LC
+43	’	O	O
+44	이라	O	O
+45	##는	O	O
+46	글자	O	O
+47	##가	O	O
+48	쓰여	O	O
+49	있	O	O
+50	##었	O	O
+51	##다	O	O
+52	.	O	O
+53	[SEP]	O	O

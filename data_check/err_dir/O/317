@@ -1,83 +1,63 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-EV, I-OG, I-CV
-1	이	O	O	O, B-OG, B-CV, B-PS, B-LC
-2	##들	O	O	O, I-OG, B-PS, B-LC, I-EV
-3	##은	O	O	O, B-CV, B-LC, B-OG, B-PS
-4	2001	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-LC
-5	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-6	총무	B-OG	B-OG	B-OG, O, B-CV, B-AF, B-LC
-7	##성	I-OG	I-OG	I-OG, O, I-CV, I-AF, I-LC
-8	,	O	O	O, I-OG, I-AF, I-CV, I-EV
-9	법무	B-OG	B-OG	B-OG, O, B-CV, B-AF, B-FD
-10	##성	I-OG	I-OG	I-OG, O, I-CV, I-AF, I-EV
-11	등	O	O	O, I-OG, I-CV, B-PS, B-LC
-12	다문화	O	O	O, B-CV, B-FD, B-TM, B-OG
-13	관련	O	O	O, B-PS, I-OG, B-OG, B-LC
-14	중앙	O	O	O, B-OG, B-CV, B-LC, I-OG
-15	##부	O	O	O, I-OG, I-LC, B-OG, I-CV
-16	##처	O	O	O, I-OG, I-LC, I-CV, B-OG
-17	##에	O	O	O, B-LC, I-OG, B-CV, B-PS
-18	외국인	B-CV	B-CV	B-CV, O, B-EV, B-OG, I-CV
-19	대책	O	O	O, I-CV, B-CV, I-OG, B-PS
-20	수립	O	O	O, B-CV, B-LC, B-PS, I-CV
-21	##을	O	O	O, B-LC, B-CV, B-OG, B-PS
-22	요구	O	O	O, B-LC, B-CV, B-OG, B-TM
-23	##하	O	O	O, B-LC, B-PS, B-OG, B-CV
-24	##는	O	O	O, B-LC, B-OG, B-CV, B-PS
-25	‘	O	O	O, B-LC, B-OG, B-CV, B-EV
-26	긴급	B-EV	B-EV	B-EV, O, B-OG, B-AF, B-TM
-27	하마	I-EV	I-EV	I-EV, O, B-EV, B-LC, I-AF
-28	##마	I-EV	I-EV	I-EV, O, I-AF, I-OG, I-LC
-29	##쓰	I-EV	I-EV	I-EV, O, I-AF, I-OG, I-LC
-30	선언	I-EV	I-EV	I-EV, O, I-AF, I-OG, I-LC
-31	’	O	O	O, I-EV, I-OG, I-AF, I-DT
-32	을	O	O	O, B-LC, B-OG, B-CV, I-EV
-33	발표	O	O	O, B-OG, B-LC, B-CV, B-EV
-34	##한	O	O	O, B-LC, B-OG, B-PS, B-DT
-35	데	O	O	O, B-OG, B-LC, B-CV, B-DT
-36	이어	O	O	O, B-OG, B-LC, B-DT, B-PS
-37	2008	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-38	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
-39	##에	O	O	O, I-DT, I-EV, B-CV, B-LC
-40	##는	O	O	O, B-LC, B-OG, B-CV, B-PS
-41	이주민	B-CV	B-CV	B-CV, O, B-OG, B-EV, I-CV
-42	##의	O	O	O, I-CV, B-CV, B-LC, I-EV
-43	일본어	B-CV	B-CV	B-CV, O, B-LC, B-TM, B-AF
-44	교육	O	O	O, I-CV, B-CV, B-LC, I-EV
-45	##기	O	O	O, I-CV, B-LC, B-PS, I-LC
-46	##회	O	O	O, B-LC, I-CV, B-CV, B-PS
-47	보장	O	O	O, B-LC, B-CV, B-TM, B-PS
-48	및	O	O	O, B-LC, B-PS, B-OG, B-CV
-49	이주민	B-CV	B-CV	B-CV, O, B-OG, B-EV, I-CV
-50	정책	O	O	O, I-CV, B-CV, I-OG, I-TM
-51	전담	O	O	O, I-CV, I-OG, B-OG, B-CV
-52	부서	O	O	O, I-OG, I-CV, B-CV, B-OG
-53	설치	O	O	O, B-LC, B-CV, B-OG, B-PS
-54	등	O	O	O, B-LC, B-PS, B-OG, B-CV
-55	##을	O	O	O, B-LC, B-OG, B-CV, B-PS
-56	중앙	B-OG	B-OG	B-OG, O, B-AF, B-CV, B-LC
-57	##정부	I-OG	I-OG	I-OG, O, B-OG, I-AF, I-CV
-58	##에	O	O	O, I-OG, I-EV, I-AF, I-CV
-59	요구	O	O	O, B-LC, B-CV, B-OG, B-TM
-60	##하	O	O	O, B-LC, B-PS, B-OG, B-CV
-61	##는	O	O	O, B-LC, B-OG, B-CV, B-EV
-62	‘	O	O	O, B-LC, B-OG, B-CV, B-EV
-63	미	O	B-LC	B-LC, O, B-EV, B-OG, B-AF
-64	##노	O	I-LC	I-LC, O, I-EV, I-AF, I-PS
-65	##카	O	O	O, I-LC, I-AF, I-EV, I-PS
-66	##모	O	I-LC	I-LC, O, I-AF, I-EV, I-PS
-67	(	O	O	O, I-LC, I-EV, B-LC, I-AF
-68	美	O	O	O, B-LC, I-LC, B-PS, B-OG
-69	[UNK]	O	O	O, B-LC, I-LC, B-PS, I-EV
-70	[UNK]	O	O	O, B-LC, I-LC, B-PS, B-OG
-71	[UNK]	O	O	O, B-LC, I-LC, B-PS, B-OG
-72	)	O	O	O, B-LC, I-LC, B-PS, B-EV
-73	도시	O	O	O, B-LC, B-EV, I-LC, B-AF
-74	선언	O	O	O, I-EV, I-LC, B-LC, B-EV
-75	’	O	O	O, I-EV, B-LC, B-CV, B-OG
-76	을	O	O	O, B-LC, B-OG, B-CV, B-PS
-77	발표	O	O	O, B-LC, B-OG, B-CV, B-EV
-78	##했	O	O	O, B-LC, B-OG, B-CV, B-PS
-79	##다	O	O	O, B-CV, B-LC, B-OG, I-OG
-80	.	O	O	O, B-LC, B-OG, B-CV, B-PS
-81	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	친	O	O
+2	(	O	O
+3	親	O	O
+4	)	O	O
+5	이재오	B-PS	B-PS
+6	##계	O	O
+7	##에	O	O
+8	##서는	O	O
+9	이	B-PS	B-PS
+10	##를	O	O
+11	놓	O	O
+12	##고	O	O
+13	""""	O	O
+14	이	O	B-PS
+15	특임	B-CV	B-CV
+16	##장	I-CV	I-CV
+17	##관	I-CV	I-CV
+18	##은	O	O
+19	그	O	O
+20	자리	O	O
+21	##에	O	O
+22	뉴	B-TR	B-TR
+23	##라이트	I-TR	I-TR
+24	핵심	O	O
+25	##인	O	O
+26	TK	B-LC	B-LC
+27	(	O	O
+28	대구	B-LC	B-LC
+29	·	O	O
+30	경북	B-LC	B-LC
+31	)	O	O
+32	출신	O	O
+33	K	O	O
+34	##씨	O	O
+35	##를	O	O
+36	이미	O	O
+37	추천	O	O
+38	##했	O	O
+39	##는데	O	O
+40	임태	B-PS	B-PS
+41	##희	I-PS	I-PS
+42	대통령	B-CV	B-CV
+43	##실	I-CV	I-CV
+44	##장	I-CV	I-CV
+45	##을	O	O
+46	통해	O	O
+47	이상득	B-PS	B-PS
+48	라인	O	O
+49	##이	O	O
+50	이	O	O
+51	##를	O	O
+52	가로	O	O
+53	##챘	O	O
+54	##다	O	O
+55	""""	O	O
+56	고	O	O
+57	하고	O	O
+58	있	O	O
+59	##다	O	O
+60	.	O	O
+61	[SEP]	O	O

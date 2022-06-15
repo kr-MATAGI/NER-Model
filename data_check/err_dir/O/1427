@@ -1,30 +1,95 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-EV, B-CV, I-OG, I-CV
-1	새	O	O	O, B-CV, B-PS, B-DT, B-OG
-2	고객	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-AF
-3	##인	O	O	O, I-CV, B-PS, I-OG, B-CV
-4	세계	O	O	O, B-CV, B-LC, B-OG, B-PS
-5	##적인	O	O	O, B-CV, B-PS, B-QT, I-OG
-6	렌즈	O	O	O, B-TM, B-CV, B-AM, B-AF
-7	제조업	O	O	O, B-CV, B-OG, I-CV, I-OG
-8	##체	O	O	O, I-OG, I-CV, B-CV, B-OG
-9	시바	B-OG	B-OG	B-OG, O, I-OG, B-AF, B-PS
-10	##비전	I-OG	I-OG	I-OG, O, I-AF, I-PS, I-LC
-11	(	O	O	O, I-OG, B-CV, I-AF, I-CV
-12	CI	O	B-OG	B-OG, O, B-AF, B-CV, B-PS
-13	##BA	O	I-OG	I-OG, O, I-AF, I-CV, B-OG
-14	V	O	O	O, I-OG, B-OG, I-AF, B-PS
-15	##ision	O	O	O, I-OG, I-AF, I-PS, B-OG
-16	)	O	O	O, I-OG, B-CV, I-AF, I-CV
-17	을	O	O	O, B-CV, B-PS, B-OG, B-TM
-18	위한	O	O	O, B-EV, B-LC, B-TM, B-QT
-19	회의	O	O	O, B-EV, I-EV, B-CV, B-LC
-20	##가	O	O	O, I-EV, B-PS, B-CV, B-OG
-21	열렸	O	O	O, B-CV, I-EV, B-EV, B-OG
-22	##기	O	O	O, B-CV, I-EV, B-TM, B-PS
-23	때문	O	O	O, B-CV, B-PS, I-EV, B-LC
-24	##이	O	O	O, B-PS, B-CV, I-EV, B-LC
-25	##었	O	O	O, B-CV, I-EV, B-PS, B-LC
-26	##다	O	O	O, B-CV, I-EV, I-OG, B-PS
-27	.	O	O	O, B-LC, B-OG, B-PS, B-CV
-28	[SEP]	O	O	O, B-CV, B-LC, I-EV, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	이어	O	O
+2	“	O	O
+3	금	B-DT	B-DT
+4	##일	I-DT	I-DT
+5	부처	B-PS	B-PS
+6	##님	I-PS	O
+7	##오	O	O
+8	##심	O	O
+9	##을	O	O
+10	봉	O	O
+11	##축	O	O
+12	##함	O	O
+13	##과	O	O
+14	더불	O	O
+15	##어	O	O
+16	세월	B-EV	B-EV
+17	##호	I-EV	I-EV
+18	참사	I-EV	I-EV
+19	##에	O	O
+20	따른	O	O
+21	모든	O	O
+22	희생자	B-CV	B-CV
+23	##분	O	O
+24	##들이	O	O
+25	영원	O	O
+26	##한	O	O
+27	진리	O	O
+28	##의	O	O
+29	낙	O	O
+30	##을	O	O
+31	누리	O	O
+32	##시	O	O
+33	##기	O	O
+34	##를	O	O
+35	바라	O	O
+36	##는	O	O
+37	마음	O	O
+38	##으로	O	O
+39	산	O	B-CV
+40	##승	O	I-CV
+41	(	O	O
+42	山	O	O
+43	僧	O	O
+44	)	O	O
+45	도	O	O
+46	진리	O	O
+47	##의	O	O
+48	등불	O	O
+49	##을	O	O
+50	하나	B-QT	B-QT
+51	##씩	I-QT	I-QT
+52	선사	O	O
+53	##하	O	O
+54	##고	O	O
+55	##자	O	O
+56	하오	O	O
+57	##니	O	O
+58	,	O	O
+59	모든	O	O
+60	영혼	O	O
+61	##들	O	O
+62	##께	O	O
+63	##서는	O	O
+64	이	O	O
+65	등불	O	O
+66	##을	O	O
+67	가지	O	O
+68	##고	O	O
+69	극락	O	O
+70	##세	O	O
+71	##계	O	O
+72	##에	O	O
+73	왕	O	O
+74	##생	O	O
+75	##하시	O	O
+76	##어	O	O
+77	영원	O	O
+78	##한	O	O
+79	행복	O	O
+80	##을	O	O
+81	누리	O	O
+82	##시	O	O
+83	##기	O	O
+84	##를	O	O
+85	기원	O	O
+86	##드	O	O
+87	##린다	O	O
+88	”	O	O
+89	고	O	O
+90	했	O	O
+91	##다	O	O
+92	.	O	O
+93	[SEP]	O	O

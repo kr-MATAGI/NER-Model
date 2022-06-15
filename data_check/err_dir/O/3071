@@ -1,28 +1,83 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	초기	O	O	O, B-CV, B-OG, B-LC, B-DT
-2	##엔	O	O	O, B-CV, B-PS, B-OG, B-LC
-3	녹	O	O	O, B-CV, B-PS, B-MT, B-LC
-4	##인	O	O	O, I-CV, B-PS, I-PS, I-LC
-5	유리	O	B-MT	B-MT, O, I-MT, B-CV, B-PT
-6	##를	O	O	O, I-CV, B-PS, B-CV, I-AF
-7	틀	O	O	O, B-TM, B-CV, B-AF, B-PS
-8	##에	O	O	O, B-PS, I-CV, B-CV, I-PS
-9	붓	O	O	O, B-PS, B-CV, B-LC, B-OG
-10	##거나	O	O	O, B-LC, B-PS, B-CV, I-OG
-11	심	O	O	O, B-PT, B-CV, B-TM, B-PS
-12	주위	O	O	O, B-TM, I-TM, B-AM, I-CV
-13	##에	O	O	O, B-PS, B-TM, B-CV, B-LC
-14	유리	O	B-MT	B-MT, O, B-PT, B-CV, I-MT
-15	##를	O	O	O, I-CV, B-CV, B-PS, I-AF
-16	감	O	O	O, B-CV, B-PS, B-LC, B-PT
-17	##는	O	O	O, B-CV, B-PS, B-LC, I-CV
-18	등	O	O	O, B-CV, B-LC, B-TM, B-PS
-19	##의	O	O	O, B-CV, B-PS, B-LC, B-TM
-20	방식	O	O	O, B-CV, B-TM, B-LC, B-OG
-21	##으로	O	O	O, B-CV, B-PS, B-OG, B-LC
-22	만들	O	O	O, B-CV, B-OG, B-LC, B-PS
-23	##었	O	O	O, B-CV, B-OG, B-LC, B-PS
-24	##다	O	O	O, B-CV, I-OG, I-CV, B-LC
-25	.	O	O	O, B-CV, B-LC, B-PS, B-OG
-26	[SEP]	O	O	O, B-CV, B-LC, B-PS, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	이에	O	O
+2	대해	O	O
+3	배	B-PS	B-PS
+4	팀장	B-CV	B-CV
+5	##은	O	O
+6	“	O	O
+7	내	O	O
+8	##가	O	O
+9	경찰	B-OG	B-OG
+10	##특	O	I-OG
+11	##공	O	I-OG
+12	##대	O	I-OG
+13	시절	O	O
+14	##부터	O	O
+15	폭발물	O	O
+16	##을	O	O
+17	담당	O	O
+18	##해서	O	O
+19	전기	O	O
+20	분야	O	O
+21	##도	O	O
+22	좀	O	O
+23	알	O	O
+24	##기에	O	O
+25	,	O	O
+26	지난해	B-DT	B-DT
+27	초	I-DT	I-DT
+28	##부터	I-DT	I-DT
+29	친구	B-CV	B-CV
+30	신	B-PS	B-PS
+31	##씨	O	O
+32	##의	O	O
+33	소개	O	O
+34	##로	O	O
+35	기술자	B-CV	B-CV
+36	정	B-PS	B-PS
+37	##씨	O	O
+38	##와	O	O
+39	사업자	B-CV	B-CV
+40	이	B-PS	B-PS
+41	##씨	O	O
+42	##를	O	O
+43	만나	O	O
+44	자문	O	O
+45	##을	O	O
+46	해왔	O	O
+47	##다	O	O
+48	”	O	O
+49	며	O	O
+50	“	O	O
+51	상표	O	O
+52	##가	O	O
+53	아닌	O	O
+54	특허	O	O
+55	출원	O	O
+56	##을	O	O
+57	하	O	O
+58	##는	O	O
+59	것	O	O
+60	##으로	O	O
+61	알고	O	O
+62	‘	O	O
+63	내	O	O
+64	이름	O	O
+65	##을	O	O
+66	넣	O	O
+67	##어도	O	O
+68	무방	O	O
+69	##하	O	O
+70	##다	O	O
+71	’	O	O
+72	고	O	O
+73	했	O	O
+74	##다	O	O
+75	”	O	O
+76	고	O	O
+77	말	O	O
+78	##했	O	O
+79	##다	O	O
+80	.	O	O
+81	[SEP]	O	O

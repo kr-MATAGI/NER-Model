@@ -1,13 +1,70 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	청와대	B-AF	B-OG	B-OG, B-AF, O, B-LC, B-PS
-2	곤혹	O	O	O, I-OG, I-AF, B-CV, I-EV
-3	…	O	O	O, I-OG, I-AF, B-CV, I-EV
-4	56	B-QT	B-QT	B-QT, O, I-QT, B-EV, B-DT
-5	%	I-QT	I-QT	I-QT, O, I-EV, I-LC, I-OG
-6	까지	O	O	O, I-QT, I-OG, I-EV, B-PS
-7	오른	O	O	O, B-CV, B-OG, B-TM, B-LC
-8	지지율	O	O	O, B-CV, B-TM, B-OG, B-PS
-9	##에	O	O	O, B-CV, B-OG, I-OG, I-CV
-10	찬물	O	O	O, B-LC, B-OG, B-TM, B-CV
-11	[SEP]	O	O	O, B-CV, B-OG, B-LC, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	SM	B-OG	B-OG
+2	측은	O	O
+3	“	O	O
+4	올해	B-DT	B-DT
+5	빅	O	O
+6	##히트	O	O
+7	##를	O	O
+8	기록	O	O
+9	##한	O	O
+10	소녀	B-PS	B-PS
+11	##시대	I-PS	I-PS
+12	‘	O	O
+13	지	B-AF	B-PS
+14	(	O	O
+15	Ge	O	O
+16	##e	O	O
+17	)	O	O
+18	’	O	O
+19	가	O	O
+20	다른	O	O
+21	방송	O	O
+22	##의	O	O
+23	음악	O	O
+24	순위	O	O
+25	프로	O	O
+26	##에	O	O
+27	##서는	O	O
+28	9	B-DT	B-DT
+29	##주	I-DT	I-DT
+30	연속	O	O
+31	1	B-QT	B-QT
+32	##위	I-QT	I-QT
+33	##를	O	O
+34	하	O	O
+35	##는	O	O
+36	동안	O	O
+37	M	B-OG	B-OG
+38	##net	I-OG	I-OG
+39	##의	O	O
+40	‘	O	O
+41	엠	B-AF	B-AF
+42	##카운	I-AF	I-AF
+43	##트	I-AF	I-AF
+44	##다운	I-AF	I-AF
+45	’	O	O
+46	에서	O	O
+47	##는	O	O
+48	한	B-QT	B-QT
+49	번	I-QT	I-QT
+50	##도	O	O
+51	1	B-QT	B-QT
+52	##위	I-QT	I-QT
+53	##를	O	O
+54	하지	O	O
+55	못	O	O
+56	##했	O	O
+57	##다	O	O
+58	”	O	O
+59	고	O	O
+60	불만	O	O
+61	##을	O	O
+62	털어놓	O	O
+63	##기	O	O
+64	##도	O	O
+65	했	O	O
+66	##다	O	O
+67	.	O	O
+68	[SEP]	O	O

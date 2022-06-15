@@ -1,43 +1,16 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	2002	B-DT	B-DT	B-DT, I-DT, O, B-QT, B-LC
-2	##∼	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-3	##20	I-DT	I-DT	I-DT, O, B-DT, I-PS, I-QT
-4	##11	I-DT	I-DT	I-DT, O, B-DT, I-PS, I-QT
-5	##년	I-DT	I-DT	I-DT, O, B-DT, I-PS, I-QT
-6	CJ	B-OG	B-OG	B-OG, O, B-LC, I-OG, B-PS
-7	##그룹	I-OG	I-OG	I-OG, O, B-OG, I-EV, I-LC
-8	일본	B-LC	B-CV	B-CV, B-LC, O, B-AF, B-OG
-9	##법인	B-CV	I-CV	I-CV, B-CV, O, I-OG, I-LC
-10	##장	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-EV
-11	##을	O	O	O, I-CV, B-PS, B-CV, I-EV
-12	지낸	O	O	O, B-PS, B-CV, B-LC, B-OG
-13	배	B-PS	B-PS	B-PS, B-OG, O, I-PS, B-LC
-14	##모	O	O	O, I-PS, B-PS, B-CV, I-AF
-15	씨	O	O	O, B-PS, B-CV, B-LC, I-PS
-16	(	O	O	O, B-PS, B-CV, B-LC, B-QT
-17	56	B-QT	B-QT	B-QT, O, I-QT, B-TM, B-DT
-18	)	O	O	O, I-QT, B-PS, B-CV, I-PS
-19	가	O	O	O, B-PS, B-CV, B-LC, B-AF
-20	운영	O	O	O, B-CV, B-PS, B-LC, B-TM
-21	##해	O	O	O, B-PS, B-CV, B-LC, B-AF
-22	온	O	O	O, B-PS, B-CV, B-LC, B-TM
-23	것	O	O	O, B-PS, B-CV, B-LC, B-TM
-24	##으로	O	O	O, B-PS, B-CV, B-LC, B-TM
-25	알려진	O	O	O, B-CV, B-PS, B-LC, B-TM
-26	‘	O	O	O, B-OG, B-CV, B-PS, B-LC
-27	팬	B-OG	B-OG	B-OG, B-LC, B-AF, B-TM, B-CV
-28	재팬	I-OG	I-OG	I-OG, I-LC, B-LC, I-AF, O
-29	’	O	O	O, I-OG, I-LC, I-AF, B-CV
-30	은	O	O	O, B-CV, B-PS, B-OG, B-LC
-31	2006	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-LC
-32	##년	I-DT	I-DT	I-DT, O, B-DT, I-PS, I-QT
-33	12	I-DT	I-DT	I-DT, O, B-DT, I-PS, I-QT
-34	##월	I-DT	I-DT	I-DT, O, B-DT, I-PS, I-QT
-35	4	I-DT	I-DT	I-DT, O, B-DT, I-PS, I-QT
-36	##일	I-DT	I-DT	I-DT, O, B-DT, I-PS, I-QT
-37	설립	O	O	O, I-DT, B-CV, B-OG, I-OG
-38	##됐	O	O	O, B-PS, B-CV, B-LC, B-OG
-39	##다	O	O	O, B-CV, B-PS, B-LC, B-OG
-40	.	O	O	O, B-PS, B-LC, B-CV, B-OG
-41	[SEP]	O	O	O, B-PS, B-CV, B-LC, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	비정규직	B-CV	B-CV
+2	##은	O	O
+3	아무래도	O	O
+4	기간제	O	B-CV
+5	근로자	B-CV	B-CV
+6	##두	O	O
+7	있	O	O
+8	##고	O	O
+9	도급	O	B-CV
+10	근로자	B-CV	I-CV
+11	##두	O	O
+12	이러	O	O
+13	##니까	O	O
+14	[SEP]	O	O

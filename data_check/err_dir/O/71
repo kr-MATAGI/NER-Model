@@ -1,33 +1,34 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	중국	B-OG	B-OG	B-OG, B-LC, O, B-PS, B-AF
-2	##이	O	O	O, I-OG, B-PS, B-CV, B-OG
-3	국부	B-CV	B-CV	B-CV, O, B-OG, B-AF, I-CV
-4	##펀	I-CV	I-CV	I-CV, O, I-OG, B-CV, I-AF
-5	##드	I-CV	I-CV	I-CV, O, I-OG, B-CV, I-AF
-6	##를	O	O	O, I-CV, I-OG, B-CV, I-AF
-7	‘	O	O	O, B-CV, B-LC, B-OG, B-PS
-8	구원	O	B-CV	B-CV, O, B-PS, B-AF, B-TM
-9	##투수	O	I-CV	I-CV, O, B-CV, I-PS, I-AF
-10	’	O	O	O, I-CV, B-CV, I-OG, I-QT
-11	로	O	O	O, B-CV, B-OG, B-LC, B-PS
-12	내세워	O	O	O, B-LC, B-OG, B-CV, B-PS
-13	중국	B-LC	B-LC	B-LC, B-OG, O, B-PS, B-AF
-14	4	B-QT	B-QT	B-QT, B-OG, I-QT, O, I-LC
-15	##대	I-QT	I-QT	I-QT, I-OG, O, I-LC, I-EV
-16	##은행	O	O	O, I-OG, I-QT, B-OG, I-AF
-17	##을	O	O	O, I-OG, I-QT, B-CV, I-AF
-18	비롯	O	O	O, B-CV, B-TM, B-OG, B-LC
-19	##해	O	O	O, B-LC, B-OG, B-PS, B-TM
-20	곤경	O	O	O, B-CV, B-TM, B-QT, B-LC
-21	##에	O	O	O, B-CV, B-TM, B-OG, B-LC
-22	처한	O	O	O, B-LC, B-TM, B-CV, B-OG
-23	금융	O	O	O, B-CV, B-TM, B-FD, B-LC
-24	##시스	O	O	O, I-CV, I-TM, I-AF, B-CV
-25	##템	O	O	O, I-CV, I-TM, I-AF, B-LC
-26	구하	O	O	O, B-CV, B-LC, B-TM, B-OG
-27	##기에	O	O	O, B-CV, B-LC, B-TM, B-OG
-28	나섰	O	O	O, B-LC, B-OG, B-CV, B-TM
-29	##다	O	O	O, B-CV, B-LC, B-OG, I-OG
-30	.	O	O	O, B-LC, B-CV, B-OG, B-PS
-31	[SEP]	O	O	O, B-LC, B-CV, B-TM, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	2000	B-DT	B-DT
+2	##년	I-DT	I-DT
+3	섹시	O	O
+4	아이돌	B-CV	B-CV
+5	##로	O	O
+6	인기	O	O
+7	##를	O	O
+8	모았	O	O
+9	##던	O	O
+10	박지	B-PS	B-PS
+11	##윤	I-PS	I-PS
+12	##은	O	O
+13	싱어	B-CV	B-CV
+14	##송	I-CV	I-CV
+15	##라이터	I-CV	I-CV
+16	##로	O	O
+17	변신	O	O
+18	##해	O	O
+19	호평	O	O
+20	##을	O	O
+21	받	O	O
+22	##았	O	O
+23	##지만	O	O
+24	대중	O	B-CV
+25	##의	O	O
+26	호응	O	O
+27	##은	O	O
+28	미미	O	O
+29	##했	O	O
+30	##다	O	O
+31	.	O	O
+32	[SEP]	O	O

@@ -1,21 +1,71 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	이거	O	O	O, B-CV, B-TM, B-LC, B-AF
-2	##는	O	O	O, B-CV, B-TM, B-OG, B-LC
-3	약	O	B-CV	B-CV, O, B-TM, B-OG, B-PT
-4	##과	O	I-CV	I-CV, O, I-TM, B-CV, I-OG
-5	##고	O	O	O, I-CV, I-OG, I-TM, I-AF
-6	사실	O	O	O, B-CV, I-CV, B-TM, B-LC
-7	##은	O	O	O, B-CV, B-PS, B-OG, B-LC
-8	목숨	O	O	O, B-TM, B-AM, B-CV, B-QT
-9	##까	O	O	O, I-TM, I-CV, B-CV, B-PS
-10	##지	O	O	O, B-CV, B-PS, B-TM, B-LC
-11	잃	O	O	O, B-CV, B-TM, B-QT, B-LC
-12	##은	O	O	O, B-CV, B-PS, I-CV, B-LC
-13	경우	O	O	O, B-CV, B-AF, B-TM, B-PS
-14	##의	O	O	O, I-AF, B-CV, B-PS, B-AF
-15	동영상	O	O	O, B-TM, B-CV, B-LC, B-QT
-16	##도	O	O	O, I-CV, I-TM, I-AF, B-CV
-17	우리	O	O	O, B-CV, B-OG, B-QT, B-TM
-18	##는	O	O	O, B-CV, I-OG, B-OG, I-AF
-19	[SEP]	O	O	O, B-CV, B-LC, B-TM, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	질병관리본부	B-OG	B-OG
+2	##는	O	O
+3	최근	O	O
+4	인플루엔자	B-TM	B-TM
+5	의심	O	O
+6	환자	B-CV	B-CV
+7	비율	O	O
+8	##이	O	O
+9	전체	O	O
+10	외래	O	B-CV
+11	##환	O	I-CV
+12	##자	O	I-CV
+13	1000	B-QT	B-QT
+14	##명	I-QT	I-QT
+15	가운데	O	O
+16	23	B-QT	B-QT
+17	##명	I-QT	I-QT
+18	##으로	O	O
+19	지난해	B-DT	B-DT
+20	최고	O	O
+21	##치	O	O
+22	(	O	O
+23	44	B-QT	B-QT
+24	##명	I-QT	I-QT
+25	)	O	O
+26	에	O	O
+27	견줘	O	O
+28	절반	B-QT	B-QT
+29	수준	O	O
+30	##이	O	O
+31	##기	O	O
+32	##는	O	O
+33	하지	O	O
+34	##만	O	O
+35	유행	O	O
+36	수준	O	O
+37	##인	O	O
+38	2	B-QT	B-QT
+39	.	I-QT	I-QT
+40	9	I-QT	I-QT
+41	##명	I-QT	I-QT
+42	##을	O	O
+43	크	O	O
+44	##게	O	O
+45	넘어서	O	O
+46	##고	O	O
+47	있	O	O
+48	##기	O	O
+49	때문	O	O
+50	##에	O	O
+51	확인	O	O
+52	##되	O	O
+53	##지	O	O
+54	않	O	O
+55	##은	O	O
+56	사망자	B-CV	B-CV
+57	##가	O	O
+58	더	O	O
+59	있	O	O
+60	##을	O	O
+61	것	O	O
+62	##으로	O	O
+63	추정	O	O
+64	##하	O	O
+65	##고	O	O
+66	있	O	O
+67	##다	O	O
+68	.	O	O
+69	[SEP]	O	O

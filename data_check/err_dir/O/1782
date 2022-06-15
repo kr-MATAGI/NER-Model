@@ -1,17 +1,40 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	그런데	O	O	O, B-CV, B-TM, B-OG, B-LC
-2	뭐	O	O	O, B-CV, B-TM, B-PS, B-OG
-3	잘	O	O	O, B-CV, B-LC, B-TM, B-PS
-4	아시	O	O	O, B-CV, B-LC, B-TM, B-PS
-5	##겠	O	O	O, B-CV, B-PS, B-LC, I-CV
-6	##지만	O	O	O, B-CV, B-PS, B-LC, I-CV
-7	한약재	O	B-CV	B-CV, O, B-PT, B-OG, I-CV
-8	##를	O	O	O, I-CV, B-CV, I-OG, I-AF
-9	이	O	O	O, B-PS, B-CV, B-OG, B-QT
-10	취급	O	O	O, B-CV, B-OG, I-OG, B-LC
-11	##하	O	O	O, B-CV, B-OG, B-LC, B-PS
-12	##는	O	O	O, B-CV, B-OG, B-LC, I-OG
-13	업체	O	O	O, B-CV, B-OG, B-AF, B-QT
-14	##들이	O	O	O, I-OG, I-CV, B-CV, B-OG
-15	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	이	O	O
+2	제도	O	O
+3	##를	O	O
+4	도입	O	O
+5	##하	O	O
+6	##는	O	O
+7	데	O	O
+8	결정	O	O
+9	##적	O	O
+10	##으로	O	O
+11	기여	O	O
+12	##한	O	O
+13	사람	O	O
+14	##은	O	O
+15	보건복지부	B-OG	B-OG
+16	산하	O	O
+17	##기	O	O
+18	##관	O	O
+19	##인	O	O
+20	한국	B-OG	B-OG
+21	##장	I-OG	I-OG
+22	##애	I-OG	I-OG
+23	##인	I-OG	I-OG
+24	##개발	I-OG	I-OG
+25	##원	I-OG	I-OG
+26	##의	O	O
+27	김상	B-PS	B-PS
+28	##희	I-PS	I-PS
+29	(	O	O
+30	33	B-QT	B-QT
+31	)	O	O
+32	직업	O	B-CV
+33	##재	O	I-CV
+34	##활	O	I-CV
+35	##사	O	I-CV
+36	##다	O	O
+37	.	O	O
+38	[SEP]	O	O

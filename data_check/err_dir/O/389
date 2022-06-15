@@ -1,58 +1,39 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-EV, I-CV
-1	한편	O	O	O, B-QT, B-TM, B-CV, B-LC
-2	‘	O	O	O, B-OG, I-QT, B-LC, B-PS
-3	자원	O	O	O, B-CV, B-LC, B-EV, B-FD
-4	##외	O	O	O, I-CV, B-CV, I-EV, I-FD
-5	##교	O	O	O, I-CV, I-EV, I-FD, I-LC
-6	’	O	O	O, I-CV, B-PS, I-EV, I-OG
-7	비리	O	O	O, B-CV, I-CV, B-FD, B-TM
-8	의혹	O	O	O, I-CV, B-PS, B-CV, I-EV
-9	##을	O	O	O, B-CV, B-PS, B-OG, B-LC
-10	수사	O	O	O, B-OG, B-CV, B-LC, B-PS
-11	##하	O	O	O, B-OG, B-PS, B-LC, I-OG
-12	##는	O	O	O, B-OG, B-LC, B-PS, B-CV
-13	서울	B-OG	B-OG	B-OG, B-LC, B-AF, O, I-OG
-14	##중	I-OG	I-OG	I-OG, O, B-OG, I-LC, I-EV
-15	##앙	I-OG	I-OG	I-OG, O, B-OG, I-EV, I-LC
-16	##지	I-OG	I-OG	I-OG, B-OG, O, I-EV, I-LC
-17	##검	I-OG	I-OG	I-OG, O, B-OG, I-AF, I-EV
-18	특수	O	O	O, I-OG, B-QT, B-TM, B-CV
-19	##1	O	O	O, B-QT, I-QT, I-OG, B-TM
-20	##부	O	O	O, I-QT, B-QT, I-OG, B-TM
-21	(	O	O	O, B-CV, B-OG, B-LC, I-QT
-22	부장	B-CV	B-CV	B-CV, O, B-OG, B-TM, B-AF
-23	임관	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-24	##혁	I-PS	I-PS	I-PS, O, I-OG, I-LC, I-QT
-25	)	O	O	O, I-PS, I-OG, B-OG, B-CV
-26	는	O	O	O, B-OG, B-LC, B-CV, B-TM
-27	캐나다	B-LC	B-LC	B-LC, B-OG, O, B-AF, B-PS
-28	정유	O	B-MT	B-MT, O, I-LC, B-LC, B-OG
-29	##회사	O	O	O, B-CV, I-OG, I-CV, I-LC
-30	하	B-OG	B-OG	B-OG, O, I-OG, B-LC, B-AF
-31	##베스	I-OG	I-OG	I-OG, O, I-LC, I-AF, B-OG
-32	##트	I-OG	I-OG	I-OG, O, I-LC, I-AF, I-CV
-33	##를	O	O	O, I-OG, I-AF, B-CV, I-LC
-34	비싼	O	O	O, B-CV, B-LC, B-TM, B-QT
-35	값	O	O	O, B-QT, B-LC, B-PS, B-TM
-36	##에	O	O	O, B-CV, B-LC, B-OG, B-PS
-37	인수	O	O	O, B-CV, B-LC, B-OG, B-TM
-38	##한	O	O	O, B-PS, B-LC, B-OG, B-CV
-39	의혹	O	O	O, B-CV, B-LC, B-PS, B-OG
-40	##과	O	O	O, B-CV, B-PS, B-OG, B-LC
-41	관련	O	O	O, B-LC, B-CV, B-OG, B-TM
-42	##해	O	O	O, B-LC, B-OG, B-PS, B-CV
-43	이날	B-DT	B-DT	B-DT, O, I-DT, B-CV, B-QT
-44	한국	B-OG	B-OG	B-OG, B-AF, B-LC, O, B-EV
-45	##석	I-OG	I-OG	I-OG, I-AF, I-LC, O, I-EV
-46	##유	I-OG	I-OG	I-OG, I-AF, I-LC, O, I-EV
-47	##공사	I-OG	I-OG	I-OG, I-AF, I-LC, O, I-EV
-48	울산	I-OG	B-AF	B-AF, B-LC, I-AF, I-OG, B-OG
-49	본사	I-OG	I-AF	I-AF, O, I-OG, B-AF, I-LC
-50	사무실	O	O	O, I-AF, B-CV, B-LC, B-AF
-51	##을	O	O	O, I-AF, B-LC, B-CV, B-TM
-52	압수수색	O	O	O, B-CV, B-TM, B-LC, B-AF
-53	##했	O	O	O, B-OG, B-LC, B-PS, B-CV
-54	##다	O	O	O, B-LC, B-CV, B-OG, B-TM
-55	.	O	O	O, B-LC, B-OG, B-PS, B-CV
-56	[SEP]	O	O	O, B-LC, B-OG, B-CV, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	이미	O	O
+2	서	O	B-LC
+3	##호	O	I-LC
+4	##천	O	I-LC
+5	##변	O	I-LC
+6	한	B-AF	B-AF
+7	##마루	I-AF	I-AF
+8	##교	I-AF	I-AF
+9	~	O	O
+10	대	B-AF	B-AF
+11	##월	I-AF	I-AF
+12	##교	I-AF	I-AF
+13	구간	O	O
+14	41	B-QT	B-QT
+15	##4	I-QT	I-QT
+16	##m	I-QT	I-QT
+17	##에	O	O
+18	##는	O	O
+19	매화	B-PT	B-PT
+20	##나무	I-PT	I-PT
+21	·	O	O
+22	왕	B-PT	B-PT
+23	##벚	I-PT	I-PT
+24	##나무	I-PT	I-PT
+25	등	O	O
+26	각종	O	O
+27	나무	O	O
+28	##와	O	O
+29	운동	O	O
+30	##기구	O	O
+31	등	O	O
+32	##을	O	O
+33	설치	O	O
+34	##했	O	O
+35	##다	O	O
+36	.	O	O
+37	[SEP]	O	O

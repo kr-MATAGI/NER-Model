@@ -1,33 +1,29 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-EV, I-OG
-1	권	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-2	씨	O	O	O, I-PS, I-OG, B-CV, I-AF
-3	##는	O	O	O, B-CV, B-TM, I-EV, B-LC
-4	“	O	O	O, B-CV, B-LC, B-PS, B-TM
-5	우리	O	O	O, B-OG, B-LC, B-PS, B-CV
-6	사회	O	O	O, B-CV, I-OG, I-CV, B-PS
-7	##는	O	O	O, B-PS, B-CV, I-CV, I-OG
-8	군복	O	B-CV	B-CV, O, B-AF, B-PS, B-AM
-9	##을	O	O	O, I-CV, I-AF, B-CV, B-PS
-10	입	O	O	O, B-CV, B-PS, B-LC, B-TM
-11	##고	O	O	O, B-PS, B-CV, B-LC, B-QT
-12	눈감	O	O	O, B-CV, B-PS, B-AM, B-LC
-13	##은	O	O	O, B-PS, B-CV, B-LC, B-QT
-14	이	O	O	O, B-PS, B-CV, B-OG, B-LC
-15	##들	O	O	O, B-CV, B-PS, I-AF, I-CV
-16	##에	O	O	O, B-CV, B-PS, B-LC, I-AF
-17	대한	O	O	O, B-LC, B-PS, B-OG, B-CV
-18	존중	O	O	O, B-CV, B-PS, B-LC, B-OG
-19	##과	O	O	O, B-PS, B-CV, B-LC, B-OG
-20	배려	O	O	O, B-CV, B-PS, B-OG, B-LC
-21	##가	O	O	O, B-PS, B-CV, B-LC, B-OG
-22	너무	O	O	O, B-CV, B-PS, B-LC, B-QT
-23	부족	O	O	O, B-CV, B-PS, B-LC, B-OG
-24	##하	O	O	O, B-PS, B-LC, I-OG, B-CV
-25	##다	O	O	O, B-CV, I-OG, B-PS, B-LC
-26	”	O	O	O, B-CV, B-TM, B-LC, B-PS
-27	며	O	O	O, B-CV, B-TM, B-LC, B-PS
-28	안타까워했	O	O	O, B-CV, B-OG, B-PS, B-FD
-29	##다	O	O	O, B-CV, I-CV, B-TM, I-OG
-30	.	O	O	O, B-CV, B-PS, B-LC, B-FD
-31	[SEP]	O	O	O, B-CV, B-PS, B-LC, B-FD
+	text	label	preds
+0	[CLS]	O	O
+1	조	B-PS	B-PS
+2	의원	B-CV	B-CV
+3	##이	O	O
+4	지난해	B-DT	B-DT
+5	국회	B-OG	B-OG
+6	국토	O	B-OG
+7	##교통	O	I-OG
+8	##위원회	O	I-OG
+9	##에	O	O
+10	##서	O	O
+11	삼	B-OG	B-OG
+12	##표	I-OG	I-OG
+13	측	O	O
+14	##에	O	O
+15	유리	O	O
+16	##한	O	O
+17	의정	O	O
+18	활동	O	O
+19	##을	O	O
+20	벌인	O	O
+21	정황	O	O
+22	##도	O	O
+23	확인	O	O
+24	##됐	O	O
+25	##다	O	O
+26	.	O	O
+27	[SEP]	O	O

@@ -1,60 +1,37 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	18	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-LC
-2	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-3	금융	O	O	O, B-OG, B-LC, I-DT, I-OG
-4	##권	O	O	O, I-OG, I-LC, I-AF, I-CV
-5	및	O	O	O, I-OG, B-OG, B-PS, B-LC
-6	나이스	B-OG	B-OG	B-OG, O, B-AF, I-OG, B-LC
-7	##신	I-OG	I-OG	I-OG, O, B-OG, I-AF, I-LC
-8	##용	I-OG	I-OG	I-OG, O, I-LC, I-AF, B-OG
-9	##평가	I-OG	I-OG	I-OG, O, B-OG, I-LC, I-AF
-10	##정보	I-OG	I-OG	I-OG, O, I-LC, I-AF, I-PS
-11	##에	O	O	O, I-OG, I-AF, I-CV, I-QT
-12	따르	O	O	O, B-CV, B-OG, I-OG, B-LC
-13	##면	O	O	O, B-OG, B-LC, B-PS, I-OG
-14	지난해	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-15	12	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-16	##월	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-17	91	B-QT	B-QT	B-QT, I-QT, I-DT, O, B-DT
-18	##만	I-QT	I-QT	I-QT, I-DT, O, I-LC, I-PS
-19	##95	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-20	##70	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-21	##명	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-22	##이	O	O	O, I-QT, B-PS, B-OG, B-CV
-23	##던	O	O	O, B-OG, B-LC, B-TM, I-QT
-24	금융	O	O	O, B-CV, B-OG, B-AF, B-TM
-25	##기	O	O	O, I-OG, I-CV, I-AF, B-CV
-26	##관	O	O	O, I-OG, I-CV, I-AF, B-CV
-27	연체	B-CV	B-CV	B-CV, O, I-CV, B-AF, B-TM
-28	##자	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-AF
-29	##는	O	O	O, I-CV, I-OG, I-AF, B-CV
-30	올해	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-31	6	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-32	##월	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-33	109	B-QT	B-QT	B-QT, I-QT, I-DT, O, B-DT
-34	##만	I-QT	I-QT	I-QT, I-DT, O, I-LC, I-PS
-35	##88	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-36	##78	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-37	##명	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-38	##으로	O	O	O, I-QT, B-CV, I-OG, B-OG
-39	늘어	O	O	O, B-LC, B-DT, B-CV, B-OG
-40	반년	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-41	새	O	I-DT	I-DT, O, I-QT, B-DT, I-EV
-42	17	B-QT	B-QT	B-QT, I-QT, O, B-DT, B-TI
-43	##만	I-QT	I-QT	I-QT, O, B-QT, I-DT, I-LC
-44	##93	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-45	##0	I-QT	I-QT	I-QT, I-LC, B-QT, O, I-PS
-46	##8	I-QT	I-QT	I-QT, I-LC, O, B-QT, I-PS
-47	##명	I-QT	I-QT	I-QT, O, I-LC, I-PS, B-QT
-48	(	O	O	O, I-QT, I-OG, B-CV, I-CV
-49	19	B-QT	B-QT	B-QT, I-QT, O, B-DT, B-OG
-50	.	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-OG
-51	5	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-52	%	I-QT	I-QT	I-QT, O, I-LC, I-OG, I-PS
-53	)	O	O	O, I-QT, I-OG, B-CV, I-EV
-54	증가	O	O	O, B-CV, B-TM, B-OG, B-AF
-55	##했	O	O	O, I-OG, B-CV, I-AF, B-OG
-56	##다	O	O	O, B-CV, I-OG, B-OG, B-LC
-57	.	O	O	O, B-OG, B-LC, B-PS, I-OG
-58	[SEP]	O	O	O, B-OG, B-LC, I-OG, B-CV
+	text	label	preds
+0	[CLS]	O	O
+1	본격	O	O
+2	##적	O	O
+3	##인	O	O
+4	한식	B-CV	B-CV
+5	코스	O	O
+6	##는	O	O
+7	잡	B-CV	B-CV
+8	##채	I-CV	I-CV
+9	##→	O	O
+10	##모	B-CV	B-CV
+11	##둠	I-CV	I-CV
+12	##전	I-CV	I-CV
+13	##→	O	O
+14	##불	B-CV	B-CV
+15	##고기	I-CV	I-CV
+16	##→	O	O
+17	##흰	O	B-CV
+18	쌀	B-CV	I-CV
+19	##밥	I-CV	I-CV
+20	##과	O	O
+21	시금치	B-CV	B-CV
+22	조개	I-CV	I-CV
+23	된장	I-CV	I-CV
+24	##국	I-CV	I-CV
+25	##→	O	O
+26	##인	B-CV	B-CV
+27	##삼	I-CV	I-CV
+28	##캔	I-CV	I-CV
+29	##디	I-CV	I-CV
+30	등의	O	O
+31	순이	O	O
+32	##었	O	O
+33	##다	O	O
+34	.	O	O
+35	[SEP]	O	O

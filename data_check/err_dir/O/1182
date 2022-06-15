@@ -1,35 +1,54 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-AF, I-OG
-1	추웠	O	O	O, B-CV, B-DT, B-LC, B-PS
-2	##던	O	O	O, I-DT, B-CV, B-DT, B-PS
-3	그	O	O	O, B-CV, B-DT, B-LC, B-PS
-4	겨울	B-DT	B-DT	B-DT, O, I-DT, B-CV, B-EV
-5	##날	O	I-DT	I-DT, O, B-DT, I-CV, I-OG
-6	,	O	O	O, I-DT, B-CV, B-PS, B-LC
-7	57	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-EV
-8	##세	I-QT	I-QT	I-QT, O, I-DT, I-EV, I-OG
-9	##의	O	O	O, I-QT, B-PS, I-PS, I-EV
-10	범인	B-CV	B-CV	B-CV, O, B-OG, I-CV, B-PS
-11	##은	O	O	O, I-CV, B-PS, B-CV, I-QT
-12	계단	O	O	O, B-TM, B-LC, B-CV, B-AF
-13	길	O	O	O, B-LC, B-AF, B-TM, B-CV
-14	##을	O	O	O, B-PS, B-CV, B-LC, B-AM
-15	올라온	O	O	O, B-PS, B-CV, B-LC, B-AM
-16	나영	B-PS	B-PS	B-PS, O, I-PS, B-LC, B-CV
-17	##이	O	O	O, I-PS, B-PS, I-LC, B-AM
-18	##를	O	O	O, I-PS, B-AM, B-PS, B-TM
-19	낚아	O	O	O, B-AM, B-LC, B-PS, B-TM
-20	##채	O	O	O, B-LC, I-LC, I-PS, I-CV
-21	골목	O	O	O, B-LC, B-CV, B-TM, B-AF
-22	초입	O	O	O, B-CV, B-AF, B-LC, B-TM
-23	##의	O	O	O, B-AF, I-AF, B-PS, B-CV
-24	교회	O	O	O, B-CV, B-AF, B-FD, B-OG
-25	건물	O	O	O, B-AF, B-CV, I-AF, I-CV
-26	화장실	O	O	O, B-CV, B-AF, B-TM, B-LC
-27	##로	O	O	O, B-CV, B-PS, I-AF, B-LC
-28	끌	O	O	O, B-LC, B-CV, B-PS, B-TM
-29	##고	O	O	O, B-LC, B-PS, B-CV, B-TM
-30	갔	O	O	O, B-CV, B-LC, B-PS, B-QT
-31	##다	O	O	O, B-CV, B-LC, I-AF, B-PS
-32	.	O	O	O, B-LC, B-CV, B-PS, B-AF
-33	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-AF
+	text	label	preds
+0	[CLS]	O	O
+1	교육부	B-OG	B-OG
+2	##는	O	O
+3	일반	O	B-TM
+4	재정	O	I-TM
+5	##지	O	I-TM
+6	##원	O	I-TM
+7	사업	O	I-TM
+8	##과	O	O
+9	특수	O	B-TM
+10	##목	O	I-TM
+11	##적	O	I-TM
+12	재정	O	I-TM
+13	##지	O	I-TM
+14	##원	O	I-TM
+15	사업	O	I-TM
+16	등	O	O
+17	크	O	O
+18	##게	O	O
+19	두	B-QT	B-QT
+20	가지	I-QT	I-QT
+21	##로	O	O
+22	단순	O	O
+23	##화	O	O
+24	##해	O	O
+25	,	O	O
+26	내년	B-DT	B-DT
+27	##에	O	O
+28	자율	O	O
+29	##개	O	O
+30	##선	O	O
+31	##대	O	O
+32	##학	O	O
+33	##으로	O	O
+34	선정	O	O
+35	##된	O	O
+36	대학	O	O
+37	##에	O	O
+38	##는	O	O
+39	2019	B-DT	B-DT
+40	##년	I-DT	I-DT
+41	##부터	I-DT	I-DT
+42	이	O	O
+43	돈	O	O
+44	##을	O	O
+45	지원	O	O
+46	##하	O	O
+47	##기	O	O
+48	##로	O	O
+49	했	O	O
+50	##다	O	O
+51	.	O	O
+52	[SEP]	O	O

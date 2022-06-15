@@ -1,21 +1,23 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	☞	O	O	O, B-LC, B-OG, B-DT, B-TM
-2	양	O	B-CV	B-CV, O, I-CV, B-OG, B-TR
-3	##적	O	I-CV	I-CV, O, B-CV, I-OG, I-TR
-4	완화	O	I-CV	I-CV, O, B-CV, I-OG, I-TR
-5	(	O	O	O, I-CV, I-OG, I-AF, I-EV
-6	[UNK]	O	O	O, B-LC, B-PS, B-CV, B-OG
-7	的	O	O	O, B-LC, B-PS, B-OG, B-CV
-8	[UNK]	O	O	O, B-LC, B-PS, B-CV, B-OG
-9	和	O	O	O, B-LC, B-PS, B-OG, B-CV
-10	·	O	O	O, B-LC, B-PS, B-OG, B-CV
-11	Qu	O	O	O, B-LC, B-PS, B-OG, B-AF
-12	##ant	O	O	O, B-LC, B-PS, B-OG, I-PS
-13	##it	O	O	O, B-LC, B-PS, B-OG, I-PS
-14	##ative	O	O	O, B-LC, B-PS, I-PS, I-LC
-15	E	O	O	O, B-LC, B-PS, B-OG, B-TM
-16	##as	O	O	O, B-LC, B-PS, I-PS, I-LC
-17	##ing	O	O	O, B-LC, B-PS, I-PS, I-LC
-18	)	O	O	O, B-LC, B-CV, B-OG, I-OG
-19	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	구	B-DT	B-DT
+2	##십	I-DT	I-DT
+3	##이	I-DT	I-DT
+4	##년	I-DT	I-DT
+5	##도	O	I-DT
+6	##에	O	O
+7	태어났	O	O
+8	##으니	O	O
+9	##까	O	O
+10	칠	O	O
+11	##십	O	O
+12	세가	O	O
+13	넘	O	O
+14	##은	O	O
+15	때	O	O
+16	##의	O	O
+17	나이	O	O
+18	##에	O	O
+19	##요	O	O
+20	.	O	O
+21	[SEP]	O	O

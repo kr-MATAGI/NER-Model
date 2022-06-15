@@ -1,78 +1,25 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-EV, I-AF
-1	이	O	O	O, B-PS, B-CV, B-LC, B-QT
-2	##에	O	O	O, B-PS, B-CV, I-PS, B-LC
-3	대해	O	O	O, B-PS, B-CV, B-LC, I-PS
-4	정유	O	O	O, B-MT, B-FD, B-OG, B-TM
-5	##회사	O	O	O, I-OG, I-CV, I-MT, I-TM
-6	##에서	O	O	O, B-PS, B-CV, B-QT, I-PS
-7	일	O	O	O, B-PS, B-CV, I-PS, B-QT
-8	##하	O	O	O, B-PS, I-PS, B-CV, B-QT
-9	##는	O	O	O, B-PS, I-PS, B-CV, B-QT
-10	박모	O	O	O, B-PS, I-PS, B-CV, B-QT
-11	(	O	O	O, B-PS, I-PS, B-CV, B-QT
-12	41	B-QT	B-QT	B-QT, O, B-PS, I-QT, B-CV
-13	)	O	O	O, B-PS, I-QT, I-PS, B-CV
-14	씨	O	O	O, B-PS, B-CV, I-PS, I-QT
-15	##는	O	O	O, B-PS, B-CV, I-PS, I-CV
-16	""""	O	O	O, B-PS, B-CV, B-LC, B-QT
-17	가족	B-CV	B-CV	B-CV, O, B-PS, I-CV, B-OG
-18	##들이	O	O	O, B-PS, I-CV, B-CV, I-PS
-19	집	O	O	O, B-PS, B-CV, B-TM, B-LC
-20	##에서	O	O	O, B-PS, B-CV, B-LC, I-PS
-21	빨리	O	O	O, B-PS, B-CV, I-PS, B-LC
-22	들어오	O	O	O, B-PS, B-CV, B-LC, I-PS
-23	##라고	O	O	O, B-PS, I-PS, B-CV, B-LC
-24	닦	O	O	O, B-CV, B-PS, B-LC, B-TM
-25	##달	O	O	O, B-PS, I-PS, I-CV, B-LC
-26	##해	O	O	O, B-PS, B-CV, I-PS, B-LC
-27	##도	O	O	O, B-PS, I-PS, B-CV, B-LC
-28	소주	B-CV	B-CV	B-CV, O, B-AF, B-PT, I-CV
-29	##나	O	O	O, I-CV, B-PS, I-AF, I-PS
-30	맥주	B-CV	B-CV	B-CV, O, B-AF, B-PT, I-CV
-31	##를	O	O	O, I-CV, B-PS, B-CV, I-AF
-32	한잔	O	B-QT	B-QT, O, I-QT, B-CV, B-PS
-33	##씩	O	I-QT	I-QT, O, I-PS, I-LC, B-QT
-34	하고	O	O	O, B-PS, I-QT, B-CV, I-PS
-35	싶	O	O	O, B-PS, B-CV, I-PS, B-LC
-36	##은	O	O	O, B-PS, B-CV, I-PS, B-QT
-37	날	O	O	O, B-PS, B-CV, I-PS, B-LC
-38	##이	O	O	O, B-PS, I-PS, B-CV, B-QT
-39	있	O	O	O, B-PS, I-PS, B-CV, B-QT
-40	##다	O	O	O, B-PS, I-PS, B-CV, I-CV
-41	""""	O	O	O, B-CV, B-PS, B-TM, B-LC
-42	며	O	O	O, B-PS, B-CV, B-LC, I-PS
-43	""""	O	O	O, B-PS, B-CV, B-LC, B-TM
-44	앞	O	O	O, B-CV, B-PS, B-TM, B-LC
-45	##으로	O	O	O, B-PS, B-CV, I-PS, B-LC
-46	거짓말	O	O	O, B-CV, B-TM, B-PS, B-LC
-47	##은	O	O	O, B-PS, B-CV, I-CV, B-LC
-48	할	O	O	O, B-PS, B-CV, B-LC, B-TM
-49	수	O	O	O, B-PS, B-CV, B-LC, B-TM
-50	없	O	O	O, B-PS, B-CV, B-TM, B-LC
-51	##으니	O	O	O, B-PS, B-CV, B-LC, B-TM
-52	솔직	O	O	O, B-CV, B-PS, B-LC, B-TM
-53	##하	O	O	O, B-PS, B-CV, B-LC, I-PS
-54	##게	O	O	O, B-PS, B-CV, B-LC, I-PS
-55	술	O	B-CV	B-CV, O, B-AF, B-PT, I-CV
-56	먹	O	O	O, I-CV, B-PS, B-CV, I-AF
-57	##는	O	O	O, B-PS, B-CV, B-QT, I-CV
-58	##다는	O	O	O, B-PS, B-CV, I-PS, B-QT
-59	얘기	O	O	O, B-CV, B-PS, I-CV, I-PS
-60	##를	O	O	O, B-PS, B-CV, I-PS, B-QT
-61	하고	O	O	O, B-PS, B-CV, B-QT, I-PS
-62	혼	O	O	O, B-CV, B-PS, B-LC, B-TM
-63	##나	O	O	O, B-CV, B-PS, I-CV, B-LC
-64	##는	O	O	O, B-PS, B-CV, I-PS, B-LC
-65	수	O	O	O, B-PS, B-CV, I-PS, B-LC
-66	##밖	O	O	O, B-PS, B-CV, I-PS, B-LC
-67	##에	O	O	O, B-PS, B-CV, I-PS, B-QT
-68	없	O	O	O, B-PS, B-CV, I-PS, B-QT
-69	##겠다	O	O	O, B-PS, B-CV, I-CV, B-QT
-70	""""	O	O	O, B-CV, B-PS, B-TM, B-LC
-71	고	O	O	O, B-PS, B-CV, B-QT, I-CV
-72	말	O	O	O, B-CV, B-PS, B-TM, I-CV
-73	##했	O	O	O, B-PS, B-CV, I-CV, B-QT
-74	##다	O	O	O, B-CV, B-PS, I-CV, B-QT
-75	.	O	O	O, B-PS, B-CV, B-LC, I-CV
-76	[SEP]	O	O	O, B-PS, B-CV, B-LC, I-PS
+	text	label	preds
+0	[CLS]	O	O
+1	뉴욕	B-LC	B-OG
+2	타임스	O	I-OG
+3	##의	O	O
+4	성공	O	O
+5	##에	O	O
+6	힘입	O	O
+7	##어	O	O
+8	온라인	O	O
+9	유료	O	O
+10	##화	O	O
+11	##는	O	O
+12	다른	O	O
+13	미국	B-LC	B-LC
+14	매체	O	O
+15	##들	O	O
+16	##로	O	O
+17	##도	O	O
+18	번지	O	O
+19	##고	O	O
+20	있	O	O
+21	##다	O	O
+22	.	O	O
+23	[SEP]	O	O

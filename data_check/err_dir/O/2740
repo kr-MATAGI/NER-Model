@@ -1,19 +1,22 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-EV, B-CV, I-OG, I-CV
-1	다행히	O	O	O, B-CV, B-TM, B-OG, B-LC
-2	다른	O	O	O, B-AF, B-TM, B-CV, B-LC
-3	열차	O	B-AF	B-AF, O, I-AF, B-OG, B-CV
-4	##에서	O	O	O, I-AF, I-EV, I-OG, B-CV
-5	##는	O	O	O, B-CV, I-AF, B-TM, I-EV
-6	같	O	O	O, B-CV, B-TM, B-LC, B-OG
-7	##은	O	O	O, B-CV, B-PS, B-LC, B-OG
-8	결함	O	O	O, B-CV, B-TM, B-LC, B-PS
-9	##이	O	O	O, B-PS, B-CV, B-OG, B-LC
-10	발견	O	O	O, B-CV, B-TM, B-OG, B-QT
-11	##되	O	O	O, B-CV, B-PS, B-LC, B-OG
-12	##지	O	O	O, B-CV, B-LC, B-PS, B-QT
-13	않	O	O	O, B-CV, I-EV, B-LC, I-OG
-14	##았	O	O	O, B-CV, I-OG, I-EV, B-LC
-15	##다	O	O	O, B-CV, I-EV, B-TM, I-OG
-16	.	O	O	O, B-CV, B-LC, B-PS, B-OG
-17	[SEP]	O	O	O, B-CV, I-EV, B-LC, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	[	O	O
+2	한겨레	B-OG	B-OG
+3	]	O	O
+4	이후	B-PS	B-PS
+5	##락	I-PS	I-PS
+6	중	O	B-CV
+7	##정부	O	I-CV
+8	##장	O	I-CV
+9	-	O	O
+10	북	B-LC	B-LC
+11	인사	O	O
+12	접촉	O	O
+13	‘	O	O
+14	미	B-LC	B-LC
+15	비밀	O	O
+16	##문서	O	O
+17	’	O	O
+18	등	O	O
+19	공개	O	O
+20	[SEP]	O	O

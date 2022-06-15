@@ -1,34 +1,54 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	1997	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-QT
-2	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
-3	12	I-DT	I-DT	I-DT, O, B-DT, I-EV, I-QT
-4	##월	I-DT	I-DT	I-DT, O, I-EV, B-DT, I-QT
-5	채택	O	O	O, I-DT, B-CV, B-LC, I-EV
-6	##된	O	O	O, B-LC, B-OG, B-PS, B-CV
-7	교토	B-EV	B-EV	B-EV, B-OG, O, B-AF, B-PS
-8	##의정	I-EV	I-EV	I-EV, O, I-OG, I-AF, B-EV
-9	##서	I-EV	I-EV	I-EV, O, I-OG, I-AF, I-CV
-10	##는	O	O	O, I-EV, I-OG, I-AF, I-CV
-11	선진국	O	O	O, B-OG, B-CV, B-LC, I-OG
-12	##들이	O	O	O, I-OG, I-CV, B-CV, I-AF
-13	2012	B-DT	B-DT	B-DT, I-DT, O, B-QT, B-EV
-14	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-15	##까	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
-16	##지	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-EV
-17	평균	O	O	O, I-DT, B-QT, B-LC, B-CV
-18	5	B-QT	B-QT	B-QT, I-QT, O, B-DT, B-LC
-19	.	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-EV
-20	2	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-21	%	I-QT	I-QT	I-QT, O, I-LC, I-PS, I-OG
-22	의	O	O	O, I-QT, B-PS, B-LC, B-TM
-23	온실가스	O	B-MT	B-MT, O, I-MT, B-TM, B-AF
-24	##를	O	O	O, I-AF, B-CV, I-CV, I-TM
-25	줄여야	O	O	O, B-CV, B-TM, B-OG, B-LC
-26	한다고	O	O	O, B-CV, B-LC, B-OG, B-PS
-27	규정	O	O	O, B-CV, B-LC, B-OG, B-TM
-28	##하고	O	O	O, B-CV, B-LC, B-PS, B-OG
-29	있	O	O	O, B-CV, B-LC, B-OG, B-PS
-30	##다	O	O	O, B-CV, B-LC, I-OG, B-TM
-31	.	O	O	O, B-LC, B-OG, B-CV, B-PS
-32	[SEP]	O	O	O, B-CV, B-LC, B-OG, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	그	O	O
+2	##는	O	O
+3	“	O	O
+4	깊이	O	O
+5	생각	O	O
+6	##해	O	O
+7	결정	O	O
+8	##할	O	O
+9	일	O	O
+10	##이	O	O
+11	있	O	O
+12	##을	O	O
+13	때	O	O
+14	두	B-QT	B-QT
+15	그림	I-QT	I-QT
+16	사이	O	O
+17	##를	O	O
+18	오가	O	O
+19	##며	O	O
+20	소	O	B-PS
+21	##정	O	I-PS
+22	##의	O	O
+23	선처	O	O
+24	##럼	O	O
+25	날카로운	O	O
+26	결단	O	O
+27	##을	O	O
+28	내릴	O	O
+29	##지	O	O
+30	,	O	O
+31	평온	O	O
+32	##한	O	O
+33	청	O	O
+34	##전	O	O
+35	##의	O	O
+36	그림	O	O
+37	##처럼	O	O
+38	신중	O	O
+39	##하	O	O
+40	##게	O	O
+41	더	O	O
+42	두고	O	O
+43	봐야	O	O
+44	할지	O	O
+45	##를	O	O
+46	고민	O	O
+47	##한다	O	O
+48	”	O	O
+49	고	O	O
+50	들려준다	O	O
+51	.	O	O
+52	[SEP]	O	O

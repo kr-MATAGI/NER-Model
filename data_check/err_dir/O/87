@@ -1,73 +1,56 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	지난달	B-DT	B-DT	B-DT, O, I-DT, B-CV, B-QT
-2	말	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-3	승인	O	O	O, I-DT, B-CV, B-OG, B-LC
-4	확정	O	O	O, B-OG, B-LC, B-PS, B-CV
-5	직후	O	O	O, B-PS, B-OG, B-LC, I-OG
-6	새	B-OG	B-OG	B-OG, O, B-PS, B-AF, I-OG
-7	##정	I-OG	I-OG	I-OG, O, B-OG, I-EV, I-AF
-8	##치	I-OG	I-OG	I-OG, O, B-OG, I-AF, I-EV
-9	##연합	I-OG	I-OG	I-OG, O, I-AF, I-EV, I-PS
-10	김성수	B-PS	B-PS	B-PS, O, I-PS, B-OG, I-OG
-11	대변인	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-AF
-12	##은	O	O	O, I-CV, I-EV, B-CV, I-OG
-13	""""	O	O	O, B-CV, B-LC, B-TM, B-OG
-14	지역	O	O	O, B-CV, B-LC, B-FD, B-PS
-15	경제	O	O	O, B-CV, I-CV, I-OG, I-EV
-16	##를	O	O	O, B-CV, B-PS, B-LC, B-OG
-17	둘러싼	O	O	O, B-LC, B-PS, B-CV, B-OG
-18	강원도	B-LC	B-CV	B-CV, O, B-LC, B-OG, B-EV
-19	##민	O	I-CV	I-CV, O, I-LC, B-CV, I-OG
-20	##의	O	O	O, I-CV, B-PS, I-OG, I-EV
-21	걱정	O	O	O, B-CV, B-PS, B-TM, B-OG
-22	##과	O	O	O, B-PS, B-CV, B-OG, B-LC
-23	이를	O	O	O, B-LC, B-PS, B-CV, B-OG
-24	해결	O	O	O, B-CV, B-LC, B-PS, B-OG
-25	##해	O	O	O, B-PS, B-LC, B-OG, B-CV
-26	##보	O	O	O, B-PS, B-LC, I-LC, I-OG
-27	##려	O	O	O, B-PS, B-LC, B-OG, B-CV
-28	##는	O	O	O, B-PS, B-LC, B-OG, B-CV
-29	지방	O	B-OG	B-OG, O, B-CV, I-OG, B-EV
-30	##자치단체	O	I-OG	I-OG, O, I-CV, B-OG, I-EV
-31	##의	O	O	O, I-OG, B-PS, I-CV, I-EV
-32	노력	O	O	O, B-CV, B-LC, B-OG, B-PS
-33	##을	O	O	O, B-PS, B-CV, B-OG, B-LC
-34	충분히	O	O	O, B-PS, B-CV, B-LC, B-OG
-35	이해	O	O	O, B-PS, B-CV, I-OG, I-CV
-36	##한다	O	O	O, B-PS, I-OG, B-LC, I-PS
-37	""""	O	O	O, B-CV, B-LC, B-PS, B-TM
-38	며	O	O	O, B-LC, B-CV, B-OG, B-PS
-39	""""	O	O	O, B-CV, B-LC, B-TM, B-PS
-40	그래도	O	O	O, B-LC, B-CV, B-PS, B-OG
-41	관광	O	O	O, B-FD, B-CV, B-LC, I-OG
-42	##산업	O	O	O, I-LC, I-FD, I-CV, I-OG
-43	##과	O	O	O, B-PS, B-LC, B-CV, I-OG
-44	환경	O	O	O, B-LC, B-FD, B-CV, B-TM
-45	보전	O	O	O, I-LC, I-OG, I-FD, I-CV
-46	##이	O	O	O, B-PS, B-LC, B-CV, B-OG
-47	조화	O	O	O, B-LC, B-CV, B-PS, B-TM
-48	##를	O	O	O, B-CV, I-OG, B-PS, B-LC
-49	이루	O	O	O, B-LC, B-CV, B-PS, B-OG
-50	##는	O	O	O, B-LC, B-PS, B-CV, B-OG
-51	합리	O	O	O, B-LC, B-CV, B-PS, B-OG
-52	##적	O	O	O, B-LC, B-PS, I-LC, I-PS
-53	방안	O	O	O, B-LC, I-LC, B-CV, B-PS
-54	##을	O	O	O, B-LC, B-CV, B-PS, B-OG
-55	좀	O	O	O, B-LC, B-CV, B-PS, B-OG
-56	더	O	O	O, B-LC, B-PS, B-CV, B-OG
-57	찾아	O	O	O, B-LC, B-CV, B-PS, B-OG
-58	##봐야	O	O	O, B-LC, B-PS, B-OG, B-CV
-59	하	O	O	O, B-LC, B-PS, B-CV, B-OG
-60	##지	O	O	O, B-LC, B-PS, B-CV, I-OG
-61	않	O	O	O, B-LC, B-PS, B-CV, B-OG
-62	##았	O	O	O, B-LC, B-PS, B-CV, B-OG
-63	##나	O	O	O, B-LC, B-PS, I-OG, I-LC
-64	싶	O	O	O, B-LC, B-PS, B-CV, B-TM
-65	##다	O	O	O, B-CV, I-OG, B-OG, B-LC
-66	""""	O	O	O, B-CV, B-LC, B-TM, B-PS
-67	고	O	O	O, B-CV, B-TM, B-LC, B-QT
-68	했	O	O	O, B-CV, B-OG, B-TM, B-LC
-69	##다	O	O	O, B-CV, B-TM, I-EV, B-LC
-70	.	O	O	O, B-LC, B-PS, B-CV, B-OG
-71	[SEP]	O	O	O, B-CV, B-LC, B-PS, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	당시	O	O
+2	탈북자	B-CV	B-CV
+3	##들이	O	O
+4	한국	O	O
+5	##행	O	O
+6	##을	O	O
+7	희망	O	O
+8	##하	O	O
+9	##며	O	O
+10	대거	O	O
+11	베이징	B-LC	B-LC
+12	등의	O	O
+13	한국	B-OG	B-AF
+14	##공	I-OG	I-AF
+15	##관	I-OG	I-AF
+16	##에	O	O
+17	진입	O	O
+18	##하면	O	O
+19	##서	O	O
+20	한	O	B-OG
+21	-	O	O
+22	중	O	B-OG
+23	외교	O	O
+24	마찰	O	O
+25	##이	O	O
+26	빚어졌	O	O
+27	##고	O	O
+28	,	O	O
+29	양국	O	O
+30	##은	O	O
+31	물	O	O
+32	##밑	O	O
+33	접촉	O	O
+34	##을	O	O
+35	통해	O	O
+36	이	O	O
+37	##들의	O	O
+38	제	B-QT	B-QT
+39	##3	I-QT	I-QT
+40	##국	I-QT	I-QT
+41	출국	O	O
+42	##과	O	O
+43	철저	O	O
+44	##한	O	O
+45	비	O	O
+46	##공	O	O
+47	##개	O	O
+48	처리	O	O
+49	##에	O	O
+50	합의	O	O
+51	##했	O	O
+52	##다	O	O
+53	.	O	O
+54	[SEP]	O	O

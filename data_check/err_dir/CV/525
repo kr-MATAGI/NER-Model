@@ -1,17 +1,57 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-AF
-1	양식	O	O	O, B-CV, I-CV, B-AM, B-LC
-2	(	O	O	O, I-CV, B-CV, B-PS, I-LC
-3	[UNK]	O	O	O, B-LC, B-PS, B-CV, I-CV
-4	[UNK]	O	O	O, B-LC, B-CV, B-PS, B-TM
-5	)	O	O	O, B-CV, B-PS, B-LC, I-CV
-6	수산물	B-CV	O	O, B-CV, I-CV, B-AM, B-TM
-7	,	O	O	O, I-CV, B-CV, B-OG, B-PS
-8	2500	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-9	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-10	만	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-11	##에	O	O	O, I-DT, I-AF, I-OG, B-CV
-12	소고기	B-CV	B-CV	B-CV, O, B-PT, B-AM, B-AF
-13	생산량	O	O	O, I-CV, B-CV, B-TM, I-AF
-14	추월	O	O	O, B-TM, B-LC, B-OG, B-CV
-15	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	6	B-DT	B-DT
+2	##일	I-DT	I-DT
+3	(	O	O
+4	현지	O	O
+5	##시	O	O
+6	##각	O	O
+7	)	O	O
+8	프랑스	B-LC	B-LC
+9	대통령	B-CV	B-EV
+10	##선거	O	I-EV
+11	결선	B-EV	B-EV
+12	##투표	I-EV	I-EV
+13	##에	O	O
+14	##서	O	O
+15	51	B-QT	B-QT
+16	.	I-QT	I-QT
+17	62	I-QT	I-QT
+18	%	I-QT	I-QT
+19	를	O	O
+20	득표	O	O
+21	##하	O	O
+22	##며	O	O
+23	17	O	O
+24	##년	O	O
+25	만의	O	O
+26	좌파	O	O
+27	대통령	B-CV	B-CV
+28	##으로	O	O
+29	확정	O	O
+30	##된	O	O
+31	직후	O	O
+32	파리	B-LC	B-LC
+33	바스	B-LC	B-LC
+34	##티	I-LC	I-LC
+35	##유	I-LC	I-LC
+36	광장	I-LC	I-LC
+37	##에	O	O
+38	선	O	O
+39	프랑수아	B-PS	B-PS
+40	올랑드	I-PS	I-PS
+41	당선자	B-CV	B-CV
+42	##의	O	O
+43	일	O	O
+44	##성	O	O
+45	##은	O	O
+46	유럽	B-LC	B-LC
+47	##과	O	O
+48	세계	O	O
+49	##를	O	O
+50	향해	O	O
+51	있	O	O
+52	##었	O	O
+53	##다	O	O
+54	.	O	O
+55	[SEP]	O	O

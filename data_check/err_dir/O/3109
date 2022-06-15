@@ -1,45 +1,21 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-EV, B-CV, I-OG, I-CV
-1	중국	B-LC	B-LC	B-LC, B-OG, O, B-PS, B-AF
-2	은행	O	O	O, B-OG, B-CV, I-OG, I-LC
-3	##들	O	O	O, I-OG, I-CV, I-AF, I-LC
-4	##은	O	O	O, B-LC, B-CV, B-OG, B-PS
-5	이달	B-DT	B-DT	B-DT, O, I-DT, B-LC, B-CV
-6	말	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-7	일본	B-LC	B-LC	B-LC, O, B-OG, I-DT, I-LC
-8	오사카	B-LC	B-LC	B-LC, O, I-LC, B-OG, B-AF
-9	(	O	O	O, I-LC, B-LC, I-AF, I-OG
-10	大	O	O	O, B-LC, B-OG, B-CV, B-TM
-11	[UNK]	O	O	O, B-LC, B-OG, B-CV, B-PS
-12	)	O	O	O, B-LC, B-OG, B-CV, B-PS
-13	에서	O	O	O, B-LC, B-PS, B-CV, B-EV
-14	열리	O	O	O, B-EV, B-LC, B-CV, I-EV
-15	##는	O	O	O, B-EV, B-LC, I-EV, B-CV
-16	국제	O	B-EV	B-EV, O, B-OG, B-CV, B-TM
-17	##금융	O	I-EV	I-EV, O, I-OG, I-TM, I-TR
-18	##거래	O	I-EV	I-EV, O, I-OG, I-TM, I-CV
-19	##표	O	I-EV	I-EV, O, I-OG, I-TM, I-CV
-20	##준	O	I-EV	I-EV, O, I-OG, I-TM, I-TR
-21	##화	O	I-EV	I-EV, O, I-OG, I-TM, I-TR
-22	##네트	O	I-EV	I-EV, O, I-OG, I-TM, I-TR
-23	##워	O	I-EV	I-EV, O, I-OG, I-TM, I-TR
-24	##킹	O	I-EV	I-EV, O, I-OG, I-TM, I-TR
-25	(	O	O	O, I-EV, I-OG, I-TM, I-AF
-26	S	O	O	O, I-EV, B-EV, B-LC, B-PS
-27	##w	O	O	O, I-EV, B-LC, I-LC, B-EV
-28	##if	O	O	O, I-EV, B-LC, I-LC, B-EV
-29	##t	O	O	O, I-EV, B-LC, I-LC, B-EV
-30	)	O	O	O, I-EV, B-LC, B-EV, I-LC
-31	관련	O	O	O, B-EV, I-EV, B-LC, B-CV
-32	회의	O	O	O, I-EV, B-EV, B-LC, B-CV
-33	##에도	O	O	O, I-EV, B-CV, B-LC, I-DT
-34	참석	O	O	O, B-CV, B-LC, B-EV, B-AF
-35	##하	O	O	O, B-LC, B-PS, B-CV, I-EV
-36	##지	O	O	O, B-LC, B-CV, B-QT, B-PS
-37	않	O	O	O, B-LC, B-CV, B-QT, I-EV
-38	##기	O	O	O, B-LC, B-CV, B-QT, B-PS
-39	##로	O	O	O, B-CV, B-LC, B-PS, B-OG
-40	했	O	O	O, B-LC, B-CV, B-OG, B-PS
-41	##다	O	O	O, B-CV, B-LC, B-OG, I-OG
-42	.	O	O	O, B-LC, B-CV, I-EV, B-OG
-43	[SEP]	O	O	O, B-LC, B-CV, I-EV, B-EV
+	text	label	preds
+0	[CLS]	O	O
+1	뉴욕	B-LC	B-LC
+2	##의	O	O
+3	한	O	O
+4	가톨릭	O	B-OG
+5	##교회	O	I-OG
+6	##가	O	O
+7	자산	O	O
+8	##처분	O	O
+9	##을	O	O
+10	위해	O	O
+11	내놓	O	O
+12	##은	O	O
+13	것	O	O
+14	##을	O	O
+15	샀	O	O
+16	##다고	O	O
+17	한다	O	O
+18	.	O	O
+19	[SEP]	O	O

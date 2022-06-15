@@ -1,62 +1,12 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	경찰	B-OG	B-OG	B-OG, O, B-CV, B-AF, B-LC
-2	##에	O	O	O, I-OG, I-CV, I-EV, B-CV
-3	따르	O	O	O, B-PS, B-CV, B-OG, B-LC
-4	##면	O	O	O, B-PS, B-OG, B-LC, B-CV
-5	이	B-PS	B-PS	B-PS, O, I-PS, B-LC, B-OG
-6	씨	O	O	O, I-PS, B-CV, B-PS, I-OG
-7	등	O	O	O, B-PS, B-CV, B-LC, I-PS
-8	##은	O	O	O, B-PS, B-CV, B-LC, B-OG
-9	수리	O	O	O, B-CV, B-PS, B-TM, B-LC
-10	##를	O	O	O, B-PS, B-CV, B-LC, B-OG
-11	맡긴	O	O	O, B-PS, B-CV, B-LC, B-OG
-12	고객	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-PS
-13	##의	O	O	O, I-CV, B-PS, B-CV, I-AF
-14	컴퓨터	B-TM	B-TM	B-TM, O, B-CV, I-TM, B-AF
-15	##에	O	O	O, I-TM, B-CV, I-CV, B-PS
-16	‘	O	O	O, B-CV, B-LC, B-PS, B-OG
-17	컴퓨터	B-TM	B-TM	B-TM, O, B-CV, I-TM, B-AF
-18	부	I-TM	O	O, I-TM, B-TM, I-CV, B-CV
-19	##팅	I-TM	O	O, I-TM, I-CV, I-LC, I-TR
-20	(	I-TM	O	O, I-TM, I-CV, I-LC, B-LC
-21	b	I-TM	O	O, I-TM, B-LC, I-LC, B-TM
-22	##oo	I-TM	O	O, I-TM, I-LC, B-LC, B-TM
-23	##ti	I-TM	O	O, I-TM, I-LC, B-LC, B-TM
-24	##n	I-TM	O	O, I-TM, I-LC, B-LC, B-TM
-25	##g	I-TM	O	O, I-TM, I-LC, I-CV, I-PS
-26	)	I-TM	O	O, I-TM, I-LC, I-CV, I-PS
-27	방해	I-TM	O	O, I-TM, B-CV, I-CV, B-TM
-28	프로그램	I-TM	O	O, I-TM, I-CV, B-CV, B-TM
-29	’	O	O	O, B-CV, B-PS, I-CV, I-TM
-30	을	O	O	O, B-PS, B-CV, B-LC, B-OG
-31	설치	O	O	O, B-CV, B-TM, B-PS, B-LC
-32	##해	O	O	O, B-PS, B-LC, B-CV, I-PS
-33	컴퓨터	B-TM	B-TM	B-TM, O, B-CV, I-TM, B-AF
-34	부	O	O	O, I-TM, B-TM, B-LC, B-CV
-35	##팅	O	O	O, I-TM, B-TM, B-LC, B-CV
-36	##이	O	O	O, B-PS, B-LC, B-OG, B-CV
-37	안	O	O	O, B-CV, B-TM, B-PS, B-LC
-38	되게	O	O	O, B-TM, B-CV, B-LC, B-PS
-39	만든	O	O	O, B-CV, B-PS, B-TM, B-LC
-40	뒤	O	O	O, B-TM, B-CV, B-PS, B-LC
-41	데이터	O	O	O, B-TM, B-CV, B-LC, B-TR
-42	복구	O	O	O, I-CV, I-TM, I-TR, B-CV
-43	##비용	O	O	O, I-CV, B-CV, I-TR, I-TM
-44	##이나	O	O	O, B-PS, B-CV, B-LC, B-TM
-45	하드	B-TM	B-TM	B-TM, O, B-CV, B-AF, I-TM
-46	##디스	I-TM	I-TM	I-TM, O, B-TM, I-AF, I-CV
-47	##크	I-TM	I-TM	I-TM, O, I-CV, I-AF, I-MT
-48	등	O	O	O, I-TM, B-CV, I-AF, I-CV
-49	부품	O	O	O, B-CV, B-MT, B-TM, B-LC
-50	교체	O	O	O, B-CV, I-CV, B-MT, B-LC
-51	##비용	O	O	O, I-CV, B-CV, B-PS, B-LC
-52	##을	O	O	O, B-CV, B-PS, B-LC, B-TM
-53	요구	O	O	O, B-CV, B-PS, B-TM, B-LC
-54	##한	O	O	O, B-PS, B-CV, B-LC, I-PS
-55	것	O	O	O, B-CV, B-PS, I-CV, B-LC
-56	##으로	O	O	O, B-CV, B-PS, I-CV, B-LC
-57	드러났	O	O	O, B-CV, B-PS, B-LC, B-OG
-58	##다	O	O	O, B-CV, I-CV, B-PS, B-LC
-59	.	O	O	O, B-CV, B-LC, B-PS, B-TM
-60	[SEP]	O	O	O, B-CV, B-TM, B-LC, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	○	O	O
+2	재개	B-TM	O
+3	##발	I-TM	O
+4	·	I-TM	O
+5	재건축	I-TM	O
+6	사업	I-TM	O
+7	수익	O	O
+8	##성	O	O
+9	개선	O	O
+10	[SEP]	O	O

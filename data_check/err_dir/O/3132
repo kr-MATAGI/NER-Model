@@ -1,27 +1,22 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, B-CV, I-OG, I-EV
-1	정경	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-2	##화	I-PS	I-PS	I-PS, O, I-OG, B-PS, I-LC
-3	선생	B-CV	B-CV	B-CV, O, I-PS, I-CV, B-TM
-4	##님	I-CV	I-CV	I-CV, O, B-CV, I-PS, I-OG
-5	##을	O	O	O, I-CV, I-OG, I-AF, I-QT
-6	비롯	O	O	O, B-CV, B-LC, B-OG, B-TM
-7	##해	O	O	O, B-LC, B-PS, B-OG, I-OG
-8	대중	O	B-CV	B-CV, O, B-PS, B-OG, I-CV
-9	##들	O	O	O, I-CV, I-OG, B-CV, I-AF
-10	##까	O	O	O, B-CV, B-PS, I-CV, B-LC
-11	##지	O	O	O, B-CV, B-PS, B-LC, B-DT
-12	음악	O	O	O, B-FD, B-CV, B-PS, B-AF
-13	##에	O	O	O, B-CV, B-PS, I-AF, B-LC
-14	귀	B-AM	B-AM	B-AM, O, B-TR, B-TM, B-PS
-15	기울여	O	O	O, B-CV, I-QT, I-AF, I-CV
-16	주	O	O	O, B-PS, B-CV, B-LC, B-OG
-17	##는	O	O	O, B-CV, B-PS, B-OG, I-CV
-18	것	O	O	O, B-CV, B-PS, B-OG, I-CV
-19	같	O	O	O, B-CV, B-PS, I-CV, I-OG
-20	##아	O	O	O, B-PS, B-CV, B-LC, I-OG
-21	기뻐	O	O	O, B-CV, B-OG, B-PS, I-CV
-22	##요	O	O	O, I-CV, I-OG, I-AF, B-CV
-23	.	O	O	O, B-CV, B-PS, B-LC, I-CV
-24	""""	O	O	O, B-CV, B-LC, B-PS, B-TM
-25	[SEP]	O	O	O, B-CV, B-PS, I-CV, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	지금	O	O
+2	##까	O	O
+3	##지	O	O
+4	무조건	O	O
+5	더럽	O	O
+6	##다고	O	O
+7	욕	O	O
+8	##하	O	O
+9	##고	O	O
+10	업	O	O
+11	##신	O	O
+12	##여	O	O
+13	##겼	O	O
+14	##던	O	O
+15	한	B-QT	B-QT
+16	마리	I-QT	I-QT
+17	##의	O	O
+18	곤충	O	B-AM
+19	##을	O	O
+20	[SEP]	O	O

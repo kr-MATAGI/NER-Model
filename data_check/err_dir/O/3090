@@ -1,16 +1,25 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	너무	O	O	O, B-LC, B-CV, B-OG, B-PS
-2	바닷가	O	O	O, B-LC, B-CV, B-TM, I-LC
-3	##에서	O	O	O, B-CV, I-LC, I-CV, B-PS
-4	이제	O	O	O, B-CV, B-LC, B-PS, B-OG
-5	망	O	B-LC	B-LC, O, B-TM, B-AF, B-CV
-6	##망	O	I-LC	I-LC, O, B-LC, I-AF, I-CV
-7	##대	O	I-LC	I-LC, O, B-LC, I-AF, I-TM
-8	##해	O	I-LC	I-LC, O, B-LC, I-AF, I-TM
-9	##에서	O	O	O, I-LC, I-AF, B-LC, B-CV
-10	이제	O	O	O, B-CV, B-OG, B-LC, B-TM
-11	헤매	O	O	O, B-CV, B-LC, B-AF, B-TM
-12	##고	O	O	O, I-AF, B-CV, I-CV, I-OG
-13	.	O	O	O, B-CV, B-LC, B-OG, B-PS
-14	[SEP]	O	O	O, B-CV, B-LC, B-AF, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	집안	O	O
+2	##에	O	O
+3	가사	B-CV	B-CV
+4	##도	I-CV	I-CV
+5	##우	I-CV	I-CV
+6	##미	I-CV	I-CV
+7	##를	O	O
+8	여럿	O	O
+9	두고	O	O
+10	,	O	O
+11	시어머니	B-CV	B-CV
+12	##와	O	O
+13	함께	O	O
+14	셋째	B-QT	B-QT
+15	며느리	B-CV	B-CV
+16	남상	O	B-PS
+17	##미	O	I-PS
+18	##를	O	O
+19	구	O	O
+20	##박	O	O
+21	##한다	O	O
+22	.	O	O
+23	[SEP]	O	O

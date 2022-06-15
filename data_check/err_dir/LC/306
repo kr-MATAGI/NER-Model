@@ -1,14 +1,8 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	제	O	O	O, B-CV, B-LC, B-PS, B-OG
-2	##가	O	O	O, B-PS, B-LC, B-CV, B-OG
-3	워	O	B-LC	B-LC, O, B-AF, B-EV, B-OG
-4	##싱	O	I-LC	I-LC, O, I-AF, B-LC, I-EV
-5	워싱턴	B-LC	I-LC	I-LC, B-LC, I-AF, O, I-EV
-6	##에서	O	O	O, I-LC, I-AF, B-LC, I-OG
-7	뉴욕	B-LC	B-LC	B-LC, O, B-AF, I-LC, B-OG
-8	##으로	O	O	O, I-LC, I-AF, I-OG, I-EV
-9	가	O	O	O, B-CV, B-QT, B-LC, B-OG
-10	##서	O	O	O, B-CV, B-LC, I-AF, B-PS
-11	.	O	O	O, B-CV, B-LC, B-OG, B-PS
-12	[SEP]	O	O	O, B-CV, B-LC, B-AF, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	이	O	O
+2	남북	B-LC	B-OG
+3	관계	O	O
+4	##는	O	O
+5	그동안	O	O
+6	[SEP]	O	O

@@ -1,19 +1,57 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	또	O	O	O, B-CV, B-PS, B-TM, B-QT
-2	뭐	O	O	O, B-CV, B-PS, B-TM, B-QT
-3	제	O	O	O, B-CV, B-PS, B-LC, B-OG
-4	##가	O	O	O, B-PS, B-CV, B-LC, B-QT
-5	한	O	B-QT	B-QT, O, I-QT, B-TM, B-LC
-6	분야	O	I-QT	I-QT, O, I-LC, I-OG, I-TM
-7	##는	O	O	O, I-QT, B-CV, I-OG, I-CV
-8	근까	O	O	O, B-CV, B-DT, B-PS, B-LC
-9	마약	B-TM	B-TM	B-TM, O, B-CV, I-TM, B-MT
-10	자랑	O	O	O, I-TM, I-CV, B-CV, I-AF
-11	##을	O	O	O, B-CV, I-CV, I-AF, B-PS
-12	좀	O	O	O, B-CV, B-QT, B-OG, B-TM
-13	하	O	O	O, B-CV, B-PS, B-LC, B-OG
-14	##면	O	O	O, B-CV, I-CV, B-LC, B-PS
-15	##은	O	O	O, B-CV, B-PS, B-LC, B-OG
-16	##요	O	O	O, B-CV, B-PS, B-LC, B-QT
-17	[SEP]	O	O	O, B-CV, B-PS, B-LC, I-CV
+	text	label	preds
+0	[CLS]	O	O
+1	배	B-PS	B-PS
+2	##해	I-PS	I-PS
+3	##동	I-PS	I-PS
+4	토니	B-OG	B-OG
+5	##모리	I-OG	I-OG
+6	회장	B-CV	B-CV
+7	(	O	O
+8	57	B-QT	B-QT
+9	·	O	O
+10	사진	O	O
+11	)	O	O
+12	은	O	O
+13	“	O	O
+14	이번	O	O
+15	기업	O	O
+16	##공	O	O
+17	##개	O	O
+18	##를	O	O
+19	계기	O	O
+20	##로	O	O
+21	브랜드	O	O
+22	인지도	O	O
+23	##를	O	O
+24	더욱	O	O
+25	높이	O	O
+26	##는	O	O
+27	한편	O	O
+28	해외	O	O
+29	##시장	O	O
+30	##을	O	O
+31	공격	O	O
+32	##적	O	O
+33	##으로	O	O
+34	개척	O	O
+35	##해	O	O
+36	글로벌	O	O
+37	코스	O	B-FD
+38	##메	O	I-FD
+39	##틱	O	I-FD
+40	트렌드	O	O
+41	리더	B-CV	B-CV
+42	##로	O	O
+43	도약	O	O
+44	##할	O	O
+45	계획	O	O
+46	”	O	O
+47	이라	O	O
+48	##며	O	O
+49	이	O	O
+50	##같이	O	O
+51	말	O	O
+52	##했	O	O
+53	##다	O	O
+54	.	O	O
+55	[SEP]	O	O

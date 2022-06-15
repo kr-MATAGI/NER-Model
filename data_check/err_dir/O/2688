@@ -1,10 +1,51 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-AF
-1	보청기	O	B-TM	B-TM, O, B-TR, I-TM, B-CV
-2	하나	B-QT	B-QT	B-QT, O, I-QT, I-TM, B-TM
-3	놔	O	O	O, I-QT, I-TM, I-OG, I-AF
-4	드려야	O	O	O, B-CV, B-PS, B-LC, B-OG
-5	##겠	O	O	O, B-CV, I-OG, B-OG, I-AF
-6	##어요	O	O	O, B-CV, I-OG, I-AF, B-TM
-7	.	O	O	O, B-CV, I-OG, I-AF, B-OG
-8	[SEP]	O	O	O, B-CV, B-TM, B-LC, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	앞	O	O
+2	##으로	O	O
+3	대구시	B-OG	B-OG
+4	##가	O	O
+5	주축	O	O
+6	##이	O	O
+7	돼	O	O
+8	7	B-QT	B-QT
+9	##명	I-QT	I-QT
+10	##의	O	O
+11	대표	B-CV	B-CV
+12	##이	I-CV	I-CV
+13	##사	I-CV	I-CV
+14	추천	O	B-OG
+15	##위원회	O	I-OG
+16	##와	O	O
+17	10	B-QT	B-QT
+18	##명	I-QT	I-QT
+19	##의	O	O
+20	이사	O	B-OG
+21	##추	O	I-OG
+22	##천	O	I-OG
+23	##위원회	O	I-OG
+24	##를	O	O
+25	각각	O	O
+26	구성	O	O
+27	##해	O	O
+28	대표	B-CV	B-CV
+29	##이	I-CV	I-CV
+30	##사	I-CV	I-CV
+31	##를	O	O
+32	공모	O	O
+33	##하	O	O
+34	##고	O	O
+35	,	O	O
+36	이사	B-CV	B-CV
+37	##와	O	O
+38	감사	B-CV	B-CV
+39	##를	O	O
+40	선임	O	O
+41	##해	O	O
+42	이사회	O	O
+43	##를	O	O
+44	구성	O	O
+45	##하	O	O
+46	##게	O	O
+47	된다	O	O
+48	.	O	O
+49	[SEP]	O	O

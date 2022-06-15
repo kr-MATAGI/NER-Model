@@ -1,26 +1,12 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-EV, I-CV
-1	행사장	O	O	O, B-CV, B-TM, B-LC, B-FD
-2	##마다	O	O	O, B-CV, B-LC, B-PS, B-TM
-3	손	O	B-TM	B-TM, O, B-CV, B-AM, B-MT
-4	##소	O	I-TM	I-TM, O, B-TM, I-CV, I-MT
-5	##독	O	I-TM	I-TM, O, I-CV, I-MT, B-TM
-6	##제	O	I-TM	I-TM, O, I-CV, I-MT, I-AF
-7	##와	O	O	O, I-TM, I-AF, B-CV, I-CV
-8	마스크	B-CV	B-CV	B-CV, O, B-TM, B-AM, B-AF
-9	##를	O	O	O, I-CV, I-AF, I-TM, B-CV
-10	비치	O	O	O, B-CV, B-OG, B-TM, B-LC
-11	##했	O	O	O, B-LC, B-PS, B-CV, B-OG
-12	##고	O	O	O, B-LC, B-CV, B-PS, I-AF
-13	야외	O	O	O, B-TM, B-LC, B-CV, B-FD
-14	상영	O	O	O, B-LC, I-LC, B-CV, I-TM
-15	##장	O	O	O, I-LC, I-AF, B-LC, I-EV
-16	##에서	O	O	O, B-LC, B-CV, B-PS, I-AF
-17	##는	O	O	O, B-LC, B-CV, B-TM, B-PS
-18	매일	O	O	O, B-DT, B-LC, B-CV, B-QT
-19	방역	O	O	O, B-TM, B-CV, B-TR, B-FD
-20	##을	O	O	O, I-OG, I-CV, I-EV, B-CV
-21	했	O	O	O, B-CV, B-OG, B-LC, B-PS
-22	##다	O	O	O, B-CV, I-OG, B-LC, I-EV
-23	.	O	O	O, B-LC, B-CV, B-OG, B-TM
-24	[SEP]	O	O	O, B-CV, B-LC, B-TM, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	그러니까	O	O
+2	소위	O	O
+3	생식	O	B-AM
+4	##이	O	O
+5	##란	O	O
+6	것	O	O
+7	##인	O	O
+8	##데	O	O
+9	##요	O	O
+10	[SEP]	O	O

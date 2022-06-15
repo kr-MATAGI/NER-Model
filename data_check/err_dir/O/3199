@@ -1,35 +1,45 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	사용자	B-CV	B-CV	B-CV, O, B-OG, B-PS, I-CV
-2	쪽	O	O	O, I-CV, I-OG, B-PS, B-OG
-3	##도	O	O	O, B-PS, B-CV, B-LC, I-OG
-4	말	O	O	O, B-AM, B-PS, B-LC, B-TM
-5	##로	O	O	O, B-PS, I-PS, I-QT, I-DT
-6	##만	O	O	O, B-PS, B-LC, I-PS, I-QT
-7	고용	O	O	O, B-CV, B-TM, B-LC, B-PS
-8	보장	O	O	O, B-CV, I-CV, B-PS, B-LC
-9	##을	O	O	O, B-PS, B-CV, B-LC, I-CV
-10	약속	O	O	O, B-CV, B-PS, B-LC, I-CV
-11	##할	O	O	O, B-PS, B-CV, B-LC, B-OG
-12	게	O	O	O, B-PS, B-LC, B-CV, B-OG
-13	아니	O	O	O, B-PS, B-CV, B-LC, B-OG
-14	##라	O	O	O, B-PS, B-LC, B-CV, B-OG
-15	,	O	O	O, B-CV, B-OG, B-LC, B-PS
-16	노동자	O	B-CV	B-CV, O, I-CV, B-TM, B-OG
-17	##들	O	O	O, I-CV, B-CV, I-OG, I-EV
-18	##의	O	O	O, B-CV, B-PS, B-TM, B-LC
-19	고용	O	O	O, B-TM, B-CV, B-LC, B-PS
-20	불안	O	O	O, B-PS, B-TM, B-CV, B-LC
-21	##을	O	O	O, B-CV, B-PS, B-TM, I-CV
-22	덜	O	O	O, B-CV, B-PS, B-TM, B-LC
-23	##어	O	O	O, B-PS, B-CV, B-LC, B-TM
-24	줄	O	O	O, B-PS, B-CV, B-TM, B-LC
-25	대안	O	O	O, B-CV, B-TM, B-PS, B-LC
-26	##을	O	O	O, B-CV, B-PS, B-OG, B-LC
-27	내놔	O	O	O, B-CV, B-LC, B-OG, B-PS
-28	##야	O	O	O, B-CV, B-PS, B-LC, B-OG
-29	한다는	O	O	O, B-PS, B-CV, B-OG, B-LC
-30	지적	O	O	O, B-CV, B-TM, B-OG, B-LC
-31	##이다	O	O	O, B-CV, I-CV, I-OG, B-TM
-32	.	O	O	O, B-CV, B-PS, B-LC, B-OG
-33	[SEP]	O	O	O, B-CV, B-PS, B-LC, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	잭슨	O	B-PS
+2	가족의	O	O
+3	변호사	B-CV	B-CV
+4	브라이언	B-PS	B-PS
+5	옥스	O	I-PS
+6	##먼	O	I-PS
+7	(	O	O
+8	O	O	O
+9	##x	O	O
+10	##man	O	O
+11	)	O	O
+12	은	O	O
+13	""""	O	O
+14	엔터	O	O
+15	##테	O	O
+16	##인	O	O
+17	##먼트	O	O
+18	사상	O	O
+19	최대	O	O
+20	인파	O	O
+21	##가	O	O
+22	모일	O	O
+23	것	O	O
+24	""""	O	O
+25	이라	O	O
+26	##며	O	O
+27	""""	O	O
+28	최대	O	O
+29	100	B-QT	B-QT
+30	##만	I-QT	I-QT
+31	##명	I-QT	I-QT
+32	##이	O	O
+33	모여들	O	O
+34	것	O	O
+35	##으로	O	O
+36	보인다	O	O
+37	""""	O	O
+38	고	O	O
+39	말	O	O
+40	##했	O	O
+41	##다	O	O
+42	.	O	O
+43	[SEP]	O	O

@@ -1,8 +1,75 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	네	O	O	O, B-CV, B-QT, B-LC, B-DT
-2	블	B-PS	B-CV	B-CV, B-PS, O, B-AF, B-OG
-3	##블	I-PS	I-CV	I-CV, O, I-PS, I-OG, I-AF
-4	##입니다	O	O	O, I-CV, I-OG, I-AF, I-PS
-5	.	O	O	O, B-CV, I-AF, B-LC, I-OG
-6	[SEP]	O	O	O, B-CV, I-CV, B-LC, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	1985	B-DT	B-DT
+2	##년	I-DT	I-DT
+3	##부터	I-DT	I-DT
+4	자신	O	O
+5	##이	O	O
+6	모신	O	O
+7	성모	O	O
+8	##상	O	O
+9	##이	O	O
+10	눈물	O	O
+11	##을	O	O
+12	흘린	O	O
+13	##다고	O	O
+14	주장	O	O
+15	##하	O	O
+16	##며	O	O
+17	,	O	O
+18	추종	B-CV	B-CV
+19	##자	I-CV	I-CV
+20	##들	O	O
+21	##과	O	O
+22	‘	O	O
+23	마리아	B-PS	B-OG
+24	##와	O	I-OG
+25	구원	O	I-OG
+26	##방	O	I-OG
+27	##주	O	I-OG
+28	##회	O	I-OG
+29	’	O	O
+30	라는	O	O
+31	단체	O	O
+32	##를	O	O
+33	조직	O	O
+34	##해	O	O
+35	전남	B-LC	B-LC
+36	나주	B-LC	B-LC
+37	성모	B-LC	B-LC
+38	##동산	I-LC	I-LC
+39	##에	O	O
+40	##서	O	O
+41	별도	O	O
+42	##의	O	O
+43	기념일	O	O
+44	##을	O	O
+45	정해	O	O
+46	의식	O	O
+47	##을	O	O
+48	거행	O	O
+49	##하	O	O
+50	##며	O	O
+51	기적	O	O
+52	##수	O	O
+53	등	O	O
+54	##으로	O	O
+55	사람	O	O
+56	##들	O	O
+57	##을	O	O
+58	치료	O	O
+59	##해	O	O
+60	##온	O	O
+61	윤	B-PS	B-PS
+62	##율	I-PS	I-PS
+63	##리아	I-PS	I-PS
+64	(	O	O
+65	63	B-QT	B-QT
+66	)	O	O
+67	씨	O	O
+68	##를	O	O
+69	둘러싼	O	O
+70	논쟁	O	O
+71	##이다	O	O
+72	.	O	O
+73	[SEP]	O	O

@@ -1,51 +1,26 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	그동안	O	O	O, B-TM, B-CV, B-LC, B-OG
-2	전자	O	O	O, B-TM, B-CV, B-AF, B-EV
-3	##금융	O	O	O, I-TM, I-CV, I-AF, I-EV
-4	##거래	O	O	O, I-TM, I-CV, I-AF, I-EV
-5	##를	O	O	O, I-TM, I-AF, I-OG, I-EV
-6	할	O	O	O, B-CV, B-PS, B-TM, B-OG
-7	##때	O	O	O, B-CV, I-AF, B-PS, I-OG
-8	##는	O	O	O, B-TM, B-CV, B-OG, B-LC
-9	공인	B-TM	B-TM	B-TM, O, B-CV, B-AF, I-TM
-10	##인	I-TM	I-TM	I-TM, O, I-CV, B-TM, I-AF
-11	##증	I-TM	I-TM	I-TM, O, I-CV, I-AF, I-TR
-12	##서	I-TM	I-TM	I-TM, O, I-CV, I-AF, I-TR
-13	##를	O	O	O, I-TM, I-CV, I-AF, I-OG
-14	사용	O	O	O, B-CV, B-TM, B-LC, B-OG
-15	##해야	O	O	O, B-PS, B-LC, I-AF, B-OG
-16	했	O	O	O, B-CV, B-TM, B-LC, B-OG
-17	##고	O	O	O, B-TM, B-CV, B-PS, I-OG
-18	이를	O	O	O, B-TM, B-CV, B-LC, I-AF
-19	위해서	O	O	O, B-TM, B-CV, B-PS, B-LC
-20	##는	O	O	O, B-TM, B-CV, B-LC, B-OG
-21	액티브	O	B-TM	B-TM, O, B-CV, B-AF, I-TM
-22	##엑스	O	I-TM	I-TM, O, I-CV, I-AF, B-TM
-23	보안	O	O	O, I-TM, B-TM, B-CV, I-CV
-24	##프로	O	O	O, I-TM, I-CV, I-TR, B-CV
-25	##그램	O	O	O, I-TM, I-CV, I-TR, I-AF
-26	##을	O	O	O, I-TM, B-CV, I-CV, B-TM
-27	깔	O	O	O, B-CV, B-TM, B-LC, B-OG
-28	##아	O	O	O, B-CV, B-LC, B-TM, B-PS
-29	##야	O	O	O, B-TM, B-CV, B-LC, B-OG
-30	해	O	O	O, B-LC, B-TM, B-OG, B-CV
-31	소비자	B-CV	B-CV	B-CV, O, B-OG, I-CV, B-TM
-32	##들	O	O	O, I-CV, B-CV, I-OG, I-AF
-33	##의	O	O	O, B-CV, B-LC, B-TM, B-PS
-34	인터넷	O	O	O, B-TM, B-LC, B-CV, I-TM
-35	접근	O	O	O, B-TM, B-CV, I-TM, B-LC
-36	##을	O	O	O, B-CV, B-TM, B-LC, B-PS
-37	어렵	O	O	O, B-TM, B-CV, B-OG, B-LC
-38	##게	O	O	O, B-QT, B-TM, B-PS, B-CV
-39	한다는	O	O	O, B-CV, B-TM, B-LC, B-QT
-40	비판	O	O	O, B-CV, B-TM, B-PS, B-LC
-41	##이	O	O	O, B-PS, B-CV, B-OG, B-LC
-42	끊이	O	O	O, B-CV, B-QT, B-PS, B-OG
-43	##지	O	O	O, I-OG, B-PS, I-QT, I-AF
-44	않	O	O	O, B-PS, B-CV, B-LC, B-OG
-45	##아	O	O	O, B-PS, B-LC, B-CV, I-OG
-46	##왔	O	O	O, B-CV, I-OG, I-QT, B-LC
-47	##다	O	O	O, B-CV, B-TM, B-QT, B-LC
-48	.	O	O	O, B-LC, B-TM, B-CV, B-PS
-49	[SEP]	O	O	O, B-CV, B-TM, B-LC, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	일본	B-LC	B-OG
+2	##은	O	O
+3	그동안	O	O
+4	필리핀	B-LC	B-LC
+5	##에	O	O
+6	40	B-QT	B-QT
+7	##m	I-QT	I-QT
+8	##급	O	I-QT
+9	중형	O	O
+10	순	O	B-AF
+11	##시	O	I-AF
+12	##선	O	I-AF
+13	10	B-QT	B-QT
+14	##척	I-QT	I-QT
+15	##의	O	O
+16	공여	O	O
+17	##를	O	O
+18	결정	O	O
+19	##한	O	O
+20	바	O	O
+21	있	O	O
+22	##다	O	O
+23	.	O	O
+24	[SEP]	O	O

@@ -1,37 +1,13 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	삼성전자	B-OG	B-OG	B-OG, B-LC, B-AF, O, B-PS
-2	##와	O	O	O, I-OG, I-AF, B-CV, B-OG
-3	LG	B-OG	B-OG	B-OG, B-AF, O, B-LC, I-OG
-4	##전자	I-OG	I-OG	I-OG, O, B-OG, I-AF, I-PS
-5	##의	O	O	O, I-OG, I-AF, B-CV, I-QT
-6	선방	B-LC	O	O, B-TM, B-CV, B-LC, B-OG
-7	##에	O	O	O, B-CV, B-PS, B-LC, B-OG
-8	쓴	O	O	O, B-LC, B-CV, B-AM, B-AF
-9	##잔	O	O	O, B-AM, I-LC, I-AF, B-PT
-10	##을	O	O	O, B-CV, I-AF, B-PS, B-OG
-11	마셨	O	O	O, B-CV, B-LC, B-PS, B-OG
-12	##던	O	O	O, B-OG, B-CV, B-LC, B-TM
-13	소니	B-OG	B-OG	B-OG, O, B-LC, B-AF, B-PS
-14	,	O	O	O, I-OG, I-AF, B-CV, I-CV
-15	도시바	B-OG	B-OG	B-OG, O, B-AF, I-OG, B-LC
-16	등	O	O	O, I-OG, I-AF, B-CV, I-QT
-17	9	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-LC
-18	##개	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-DT
-19	일본	B-LC	B-LC	B-LC, B-OG, O, I-QT, B-AF
-20	전자	O	O	O, I-OG, B-OG, B-TM, I-LC
-21	##회사	O	O	O, I-OG, I-LC, I-TM, I-AF
-22	##들	O	O	O, I-OG, I-AF, B-CV, B-PS
-23	##은	O	O	O, B-CV, B-TM, B-QT, B-OG
-24	지난해	B-DT	B-DT	B-DT, O, B-QT, I-DT, B-EV
-25	총	O	O	O, B-QT, I-DT, I-QT, B-DT
-26	2	B-QT	B-QT	B-QT, I-QT, O, B-DT, I-DT
-27	##조	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-DT
-28	##원	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-29	##의	O	O	O, I-QT, B-CV, B-OG, I-AF
-30	손실	O	O	O, B-TM, B-CV, B-QT, I-QT
-31	##을	O	O	O, B-CV, B-OG, I-QT, I-OG
-32	냈	O	O	O, B-CV, B-OG, B-TM, B-QT
-33	##다	O	O	O, B-CV, B-TM, B-QT, I-OG
-34	.	O	O	O, B-LC, B-OG, B-CV, B-PS
-35	[SEP]	O	O	O, B-CV, B-LC, B-OG, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	[	O	O
+2	한겨레	B-OG	B-OG
+3	]	O	O
+4	남중국해	B-LC	B-LC
+5	##서	O	O
+6	중국	B-LC	B-OG
+7	##과	O	O
+8	영토	O	O
+9	##분	O	O
+10	##쟁	O	O
+11	[SEP]	O	O

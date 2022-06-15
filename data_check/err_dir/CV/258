@@ -1,58 +1,90 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	또	O	O	O, B-CV, B-OG, B-TM, B-LC
-2	“	O	O	O, B-CV, B-LC, B-OG, B-TM
-3	책임	B-CV	B-CV	B-CV, O, B-OG, B-AF, B-PS
-4	##총리	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-EV
-5	##는	O	O	O, I-CV, I-OG, I-EV, I-AF
-6	대통령	B-CV	B-CV	B-CV, O, B-OG, B-AF, B-TM
-7	아래	O	O	O, B-TM, I-TM, I-CV, B-CV
-8	##서	O	O	O, I-TM, I-CV, B-PS, I-OG
-9	일정	O	O	O, B-PS, B-LC, B-OG, B-CV
-10	정도	O	O	O, B-PS, I-OG, B-OG, B-LC
-11	##로	O	O	O, B-PS, B-OG, I-OG, B-LC
-12	국무총리	B-CV	B-CV	B-CV, O, B-OG, B-AF, B-TM
-13	##가	O	O	O, I-CV, B-PS, I-OG, I-AF
-14	각료	B-CV	B-CV	B-CV, O, B-TM, I-CV, B-AF
-15	제청	I-CV	O	O, I-CV, B-CV, B-TM, B-QT
-16	##권	I-CV	O	O, I-CV, I-TM, I-TR, I-QT
-17	##을	O	O	O, I-CV, B-CV, B-PS, I-AF
-18	행사	O	O	O, B-CV, B-LC, B-OG, B-PS
-19	##하	O	O	O, B-PS, B-LC, B-OG, B-CV
-20	##는	O	O	O, B-LC, B-PS, B-CV, B-OG
-21	등	O	O	O, B-LC, B-PS, B-OG, B-CV
-22	##의	O	O	O, B-PS, B-LC, B-OG, B-CV
-23	정도	O	O	O, B-PS, B-LC, B-OG, B-CV
-24	##에	O	O	O, B-PS, B-LC, B-CV, B-OG
-25	그치	O	O	O, B-LC, B-PS, B-CV, B-OG
-26	##고	O	O	O, B-PS, B-OG, I-OG, B-LC
-27	,	O	O	O, B-CV, B-OG, B-LC, B-PS
-28	거	O	O	O, B-OG, B-CV, B-LC, B-PS
-29	##국	O	O	O, I-OG, I-CV, I-PS, I-LC
-30	##내	O	O	O, I-OG, B-OG, B-CV, I-CV
-31	##각	O	O	O, I-OG, I-CV, I-PS, I-LC
-32	##은	O	O	O, I-OG, I-CV, B-PS, I-AF
-33	한마디	O	O	O, B-QT, B-PS, I-QT, B-LC
-34	##로	O	O	O, I-QT, B-PS, I-PS, B-QT
-35	말	O	O	O, I-QT, B-PS, B-QT, I-PS
-36	##하면	O	O	O, B-PS, I-QT, I-PS, B-OG
-37	과도	O	O	O, B-OG, B-PS, B-CV, B-LC
-38	내각	O	O	O, B-OG, I-OG, B-CV, I-PS
-39	”	O	O	O, I-OG, I-CV, B-CV, I-EV
-40	이라	O	O	O, B-PS, B-CV, B-OG, B-LC
-41	##면서	O	O	O, B-CV, B-OG, B-LC, B-TM
-42	책임	B-CV	B-CV	B-CV, O, B-OG, B-AF, B-PS
-43	##총리	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-AF
-44	##와	O	O	O, I-CV, I-OG, I-AF, I-EV
-45	거	O	O	O, B-OG, B-CV, B-PS, B-LC
-46	##국	O	O	O, I-OG, I-CV, I-PS, I-AF
-47	##내	O	O	O, I-OG, I-CV, B-CV, B-OG
-48	##각	O	O	O, I-OG, I-CV, I-PS, I-AF
-49	##의	O	O	O, I-OG, B-PS, I-CV, I-AF
-50	차이점	O	O	O, B-CV, B-TM, B-LC, B-OG
-51	##을	O	O	O, B-OG, B-CV, B-LC, B-PS
-52	강조	O	O	O, B-CV, B-OG, B-LC, B-TM
-53	##했	O	O	O, B-CV, B-OG, I-OG, B-LC
-54	##다	O	O	O, B-CV, B-OG, B-LC, I-OG
-55	.	O	O	O, B-LC, B-PS, B-OG, B-CV
-56	[SEP]	O	O	O, B-LC, B-CV, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	연구	O	O
+2	##팀	O	O
+3	##이	O	O
+4	실험	O	O
+5	대상자	O	O
+6	##의	O	O
+7	혈압	O	B-TM
+8	##과	O	O
+9	심혈	B-TM	B-TM
+10	##관	I-TM	I-TM
+11	이상	O	O
+12	여부	O	O
+13	##를	O	O
+14	확인	O	O
+15	##하	O	O
+16	##기	O	O
+17	위해	O	O
+18	족	O	O
+19	##욕	O	O
+20	##을	O	O
+21	하	O	O
+22	##기	O	O
+23	전	O	O
+24	,	O	O
+25	하	O	O
+26	##는	O	O
+27	도중	O	O
+28	,	O	O
+29	끝낸	O	O
+30	후	O	O
+31	##에	O	O
+32	각각	O	O
+33	5	B-TI	B-TI
+34	##분	I-TI	I-TI
+35	##간	I-TI	I-TI
+36	주먹	B-AM	B-AM
+37	##을	O	O
+38	쥐	O	O
+39	##게	O	O
+40	한	O	O
+41	뒤	O	O
+42	혈압	O	B-TM
+43	##이	O	O
+44	얼마나	O	O
+45	올라가	O	O
+46	##는지	O	O
+47	##와	O	O
+48	발	B-TM	B-TR
+49	##살	I-TM	I-TR
+50	##바	I-TM	I-TR
+51	호흡	I-TM	O
+52	(	O	O
+53	특수	O	O
+54	##한	O	O
+55	마우스	B-CV	B-TM
+56	##피스	I-CV	I-TM
+57	##를	O	O
+58	15	B-TI	B-TI
+59	##초	I-TI	I-TI
+60	동안	I-TI	I-TI
+61	세	O	O
+62	##게	O	O
+63	부	O	O
+64	##는	O	O
+65	것	O	O
+66	)	O	O
+67	후	O	O
+68	심	O	O
+69	##박	O	O
+70	##동	O	O
+71	수가	O	O
+72	얼마나	O	O
+73	상승	O	O
+74	##하	O	O
+75	##는지	O	O
+76	##를	O	O
+77	측정	O	O
+78	##했	O	O
+79	##더니	O	O
+80	모두	O	O
+81	별다른	O	O
+82	변화	O	O
+83	##가	O	O
+84	없	O	O
+85	##었	O	O
+86	##다	O	O
+87	.	O	O
+88	[SEP]	O	O

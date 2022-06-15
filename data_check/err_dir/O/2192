@@ -1,12 +1,17 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	체류	O	B-CV	B-CV, O, I-CV, B-PT, B-QT
-2	##자	O	I-CV	I-CV, O, B-CV, I-AM, I-QT
-3	관리	O	O	O, I-CV, B-CV, B-PS, B-OG
-4	##도	O	O	O, I-CV, I-OG, B-CV, I-AF
-5	매우	O	O	O, B-CV, B-OG, B-TM, B-QT
-6	엄격	O	O	O, B-CV, B-OG, B-LC, B-PS
-7	##해진	O	O	O, I-OG, I-CV, B-PS, B-CV
-8	##다	O	O	O, B-CV, I-OG, I-CV, I-AF
-9	.	O	O	O, B-CV, B-LC, B-OG, B-PS
-10	[SEP]	O	O	O, B-CV, B-LC, I-OG, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	황교안	B-PS	B-PS
+2	총리	B-CV	B-CV
+3	##도	O	O
+4	인적	O	O
+5	##쇄	O	O
+6	##신	O	O
+7	대상	O	O
+8	##이지	O	O
+9	대선	O	B-EV
+10	##후	O	B-CV
+11	##보	O	I-CV
+12	##는	O	O
+13	아니	O	O
+14	.	O	O
+15	[SEP]	O	O

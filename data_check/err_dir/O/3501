@@ -1,27 +1,12 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	임	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-2	과장	B-CV	B-CV	B-CV, O, I-CV, I-PS, B-TM
-3	##은	O	O	O, I-CV, B-CV, I-OG, I-EV
-4	17	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-5	##일	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-6	오전	B-TI	B-TI	B-TI, I-TI, O, I-DT, B-EV
-7	1	I-TI	I-TI	I-TI, B-TI, O, I-DT, I-QT
-8	##시	I-TI	I-TI	I-TI, O, B-TI, I-QT, I-TR
-9	##부터	I-TI	I-TI	I-TI, O, B-TI, I-QT, I-TR
-10	3	I-TI	I-TI	I-TI, B-TI, O, I-QT, I-TR
-11	##시	I-TI	I-TI	I-TI, O, B-TI, I-QT, I-TR
-12	사이	O	I-TI	I-TI, O, I-DT, B-TI, I-QT
-13	##에	O	O	O, I-TI, I-QT, B-OG, B-CV
-14	관련	O	O	O, B-CV, B-TM, B-LC, B-OG
-15	자료	O	O	O, B-CV, B-LC, B-TM, B-OG
-16	##를	O	O	O, B-CV, B-OG, B-TM, B-LC
-17	삭제	O	O	O, B-CV, B-TM, B-OG, B-LC
-18	##한	O	O	O, B-CV, B-PS, B-OG, B-LC
-19	것	O	O	O, B-CV, B-OG, B-PS, B-TM
-20	##으로	O	O	O, B-CV, B-OG, I-OG, B-TM
-21	보고	O	O	O, B-CV, B-OG, B-TM, B-LC
-22	##됐	O	O	O, B-CV, I-OG, I-CV, B-OG
-23	##다	O	O	O, B-CV, B-OG, B-LC, I-OG
-24	.	O	O	O, B-LC, B-OG, B-CV, B-PS
-25	[SEP]	O	O	O, B-CV, B-OG, B-LC, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	◆	O	O
+2	##외	O	B-CV
+3	##부인	O	I-CV
+4	##사	O	I-CV
+5	영입	O	O
+6	vs	O	O
+7	내부	O	O
+8	후보	B-CV	B-CV
+9	##론	O	O
+10	[SEP]	O	O

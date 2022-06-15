@@ -1,46 +1,29 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	재즈	O	B-OG	B-OG, O, I-OG, B-PS, B-LC
-2	##사	O	I-OG	I-OG, O, I-LC, B-OG, I-PS
-3	##는	O	O	O, I-OG, B-TM, B-CV, I-QT
-4	현재	O	O	O, B-TM, B-LC, B-CV, B-AF
-5	수면	O	B-TM	B-TM, O, B-TR, I-TM, B-CV
-6	장애	O	I-TM	I-TM, O, I-TR, B-TM, I-CV
-7	치료제	O	O	O, I-TM, I-TR, B-TM, I-CV
-8	시장	O	O	O, B-CV, I-TM, B-LC, B-TM
-9	##에서	O	O	O, B-CV, B-LC, B-PS, B-OG
-10	매년	O	O	O, B-DT, B-QT, B-LC, B-PS
-11	1	B-QT	B-QT	B-QT, I-QT, O, B-DT, B-PS
-12	##조	I-QT	I-QT	I-QT, O, I-LC, I-PS, I-DT
-13	##원	I-QT	I-QT	I-QT, O, I-LC, I-PS, I-DT
-14	이상	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-15	##의	O	O	O, I-QT, B-PS, B-OG, B-LC
-16	매출	O	O	O, B-TM, B-CV, B-LC, B-OG
-17	##을	O	O	O, B-PS, B-CV, B-TM, B-OG
-18	올리	O	O	O, B-TM, B-CV, B-OG, B-LC
-19	##는	O	O	O, B-TM, B-CV, B-OG, B-PS
-20	자이	B-AF	B-TM	B-TM, B-AF, O, B-AM, B-OG
-21	##렘	I-AF	I-TM	I-TM, I-AF, O, I-OG, I-MT
-22	##을	O	O	O, I-TM, I-AF, I-OG, I-CV
-23	판매	O	O	O, B-CV, B-TM, B-OG, B-LC
-24	중	O	O	O, B-OG, B-TM, B-PS, B-LC
-25	##이	O	O	O, B-OG, B-PS, B-CV, B-TM
-26	##며	O	O	O, B-OG, B-TM, B-LC, B-CV
-27	,	O	O	O, B-TM, B-CV, B-OG, B-LC
-28	SK	B-TM	B-MT	B-MT, B-TM, B-AF, B-TR, O
-29	##L	I-TM	I-MT	I-MT, I-TM, I-AF, O, I-TR
-30	-	I-TM	I-MT	I-MT, I-TM, I-AF, O, I-AM
-31	N	I-TM	I-MT	I-MT, I-TM, I-AF, O, I-AM
-32	##0	I-TM	I-MT	I-MT, I-TM, I-AF, O, I-AM
-33	##5	I-TM	I-MT	I-MT, I-TM, I-AF, O, I-AM
-34	##를	O	O	O, I-TM, I-AF, I-MT, I-OG
-35	후속	O	O	O, B-TM, B-CV, I-TM, B-AF
-36	약물	O	O	O, B-TM, B-CV, I-TM, I-CV
-37	##로	O	O	O, B-CV, I-CV, B-LC, I-TM
-38	육성	O	O	O, B-TM, B-CV, B-LC, B-OG
-39	##한다	O	O	O, B-PS, B-OG, B-LC, B-TM
-40	##는	O	O	O, B-TM, B-OG, B-CV, B-PS
-41	계획	O	O	O, B-TM, B-OG, B-CV, I-OG
-42	##이다	O	O	O, I-OG, B-CV, B-TM, B-OG
-43	.	O	O	O, B-TM, B-LC, B-CV, B-OG
-44	[SEP]	O	O	O, B-TM, B-CV, B-LC, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	미국	B-LC	B-LC
+2	브랜드	O	O
+3	키즈	O	O
+4	##의	O	O
+5	고객	O	B-CV
+6	##충	O	O
+7	##성	O	O
+8	##도	O	O
+9	조사	O	O
+10	##에	O	O
+11	##서	O	O
+12	현대차	B-OG	B-OG
+13	##는	O	O
+14	지난해	B-DT	B-DT
+15	8	B-QT	B-QT
+16	##위	I-QT	I-QT
+17	##에	O	O
+18	##서	O	O
+19	올해	B-DT	B-DT
+20	1	B-QT	B-QT
+21	##위	I-QT	I-QT
+22	##로	I-QT	O
+23	등극	O	O
+24	##했	O	O
+25	##다	O	O
+26	.	O	O
+27	[SEP]	O	O

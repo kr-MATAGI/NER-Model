@@ -1,31 +1,22 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	근데	O	O	O, B-CV, B-OG, B-LC, B-PS
-2	사실	O	O	O, B-PS, B-CV, B-LC, B-OG
-3	오드리	O	B-PS	B-PS, O, B-CV, B-LC, B-AF
-4	[UNK]	O	O	O, I-PS, I-CV, B-PS, I-DT
-5	얼굴	B-AM	B-AM	B-AM, O, B-TM, B-CV, B-TR
-6	##이	O	O	O, B-PS, B-CV, I-PS, I-CV
-7	##랑	O	O	O, B-CV, B-PS, B-LC, B-OG
-8	데이비드	B-PS	B-PS	B-PS, O, B-LC, I-PS, B-OG
-9	핸	I-PS	I-PS	I-PS, O, B-PS, I-LC, I-OG
-10	##슨	I-PS	I-PS	I-PS, O, I-LC, B-PS, I-OG
-11	박사	B-CV	B-CV	B-CV, O, I-PS, I-CV, B-OG
-12	##의	O	O	O, I-CV, B-CV, I-AF, B-PS
-13	와이프	B-CV	B-CV	B-CV, O, I-CV, B-PS, B-TM
-14	얼굴	B-AM	B-AM	B-AM, O, B-TM, B-TR, B-CV
-15	##을	O	O	O, I-CV, B-CV, I-AF, I-TM
-16	요	O	O	O, B-CV, B-LC, B-PS, B-OG
-17	합성	O	O	O, B-TR, B-FD, B-CV, I-TR
-18	##해	O	O	O, I-TR, I-CV, I-FD, I-QT
-19	##가지	O	O	O, B-CV, B-LC, B-PS, B-OG
-20	##고	O	O	O, B-PS, B-LC, B-CV, B-OG
-21	저	O	O	O, B-CV, B-LC, B-PS, B-OG
-22	얼굴	B-AM	B-AM	B-AM, O, B-TM, B-TR, B-CV
-23	##을	O	O	O, I-CV, I-AF, B-CV, I-TM
-24	만들	O	O	O, B-CV, B-LC, B-OG, B-TM
-25	##어낸	O	O	O, B-CV, I-CV, B-LC, B-PS
-26	거래	O	O	O, B-CV, B-PS, B-LC, B-OG
-27	##요	O	O	O, B-CV, I-CV, B-LC, I-OG
-28	.	O	O	O, B-CV, B-LC, B-PS, B-OG
-29	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	그래서	O	O
+2	한	B-TI	B-TI
+3	##밤	I-TI	I-TI
+4	##에	O	O
+5	해군	B-OG	B-OG
+6	##의	O	O
+7	잠수	B-CV	B-CV
+8	##사	I-CV	I-CV
+9	하고	O	O
+10	둘	B-QT	B-QT
+11	##이	O	O
+12	짝	O	B-QT
+13	##으로	O	O
+14	이제	O	O
+15	들어간	O	O
+16	거	O	O
+17	##예	O	O
+18	##요	O	O
+19	.	O	O
+20	[SEP]	O	O

@@ -1,55 +1,16 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	이명박	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-2	정부	B-OG	B-OG	B-OG, O, I-OG, I-PS, B-LC
-3	때	O	O	O, I-OG, I-DT, I-PS, B-PS
-4	영향력	O	O	O, B-PS, B-CV, B-LC, B-OG
-5	##이	O	O	O, B-PS, B-OG, B-LC, B-CV
-6	커	O	O	O, B-PS, B-LC, I-PS, B-CV
-7	‘	O	O	O, B-PS, B-LC, B-CV, B-OG
-8	왕	O	B-CV	B-CV, O, B-PS, B-AF, B-OG
-9	##차	O	B-CV	B-CV, I-CV, O, I-PS, B-PS
-10	##관	O	I-CV	I-CV, O, B-CV, I-PS, I-OG
-11	’	O	O	O, I-CV, B-PS, I-PS, I-OG
-12	으로	O	O	O, B-PS, B-LC, B-OG, B-CV
-13	불렸	O	O	O, B-PS, B-CV, B-LC, I-PS
-14	##던	O	O	O, B-PS, B-LC, B-CV, B-OG
-15	박영	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-16	##준	I-PS	I-PS	I-PS, O, I-OG, I-LC, B-PS
-17	(	O	O	O, I-PS, I-OG, B-CV, B-LC
-18	53	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-LC
-19	)	O	O	O, I-QT, I-DT, I-OG, I-PS
-20	전	O	O	O, B-PS, B-CV, B-OG, B-LC
-21	지식	B-OG	B-OG	B-OG, O, B-AF, B-CV, B-LC
-22	##경제	I-OG	I-OG	I-OG, O, I-CV, I-AF, I-EV
-23	##부	I-OG	I-OG	I-OG, O, I-CV, I-AF, I-LC
-24	차관	B-CV	B-CV	B-CV, O, I-CV, I-OG, B-TM
-25	##이	O	O	O, I-CV, B-PS, B-CV, I-OG
-26	지난	O	O	O, B-DT, B-PS, B-LC, B-OG
-27	정권	O	O	O, I-DT, B-PS, I-PS, B-CV
-28	때	O	O	O, B-PS, I-DT, B-CV, I-PS
-29	자원	O	O	O, B-LC, B-CV, B-FD, B-EV
-30	##외	O	O	O, B-LC, B-FD, B-CV, I-LC
-31	##교	O	O	O, I-LC, I-CV, I-FD, I-EV
-32	##의	O	O	O, B-PS, B-LC, B-OG, B-CV
-33	성과	O	O	O, B-CV, B-PS, B-LC, B-TM
-34	##로	O	O	O, B-PS, B-LC, B-CV, B-OG
-35	꼽혔	O	O	O, B-LC, B-PS, B-CV, B-OG
-36	##던	O	O	O, B-LC, B-PS, B-CV, B-OG
-37	아랍에미리트	B-LC	B-LC	B-LC, B-AF, O, B-EV, B-TM
-38	원전	O	O	O, I-AF, I-LC, I-TM, B-AF
-39	공사	O	O	O, I-TM, I-AF, I-EV, I-LC
-40	##와	O	O	O, I-AF, I-EV, I-TM, I-OG
-41	관련	O	O	O, B-CV, B-LC, B-TM, B-OG
-42	##해	O	O	O, B-LC, B-PS, B-OG, B-CV
-43	금품	O	O	O, B-CV, B-TM, B-LC, B-QT
-44	##을	O	O	O, B-CV, B-PS, I-CV, B-LC
-45	받	O	O	O, B-CV, B-PS, B-LC, B-TM
-46	##은	O	O	O, B-CV, B-PS, I-CV, B-LC
-47	혐의	O	O	O, B-CV, B-PS, I-CV, B-LC
-48	##로	O	O	O, B-CV, B-PS, B-LC, B-OG
-49	기소	O	O	O, B-CV, B-OG, B-PS, B-LC
-50	##됐	O	O	O, I-CV, I-OG, B-PS, B-CV
-51	##다	O	O	O, B-CV, B-LC, B-PS, B-OG
-52	.	O	O	O, B-LC, B-PS, B-CV, B-OG
-53	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	캐머런	B-PS	B-PS
+2	총리	B-CV	B-CV
+3	""""	O	O
+4	英	O	B-LC
+5	의료	O	O
+6	##제	O	O
+7	##도	O	O
+8	##의	O	O
+9	끔찍	O	O
+10	##한	O	O
+11	실패	O	O
+12	""""	O	O
+13	사과	O	O
+14	[SEP]	O	O

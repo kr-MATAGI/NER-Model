@@ -1,20 +1,25 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, I-OG, B-CV, I-AF
-1	당시	O	O	O, B-CV, B-PS, B-OG, B-TM
-2	선생	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-AF
-3	##님	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-EV
-4	심정	O	O	O, I-CV, B-CV, B-PS, I-OG
-5	##이	O	O	O, B-PS, B-OG, B-CV, B-LC
-6	한편	O	B-QT	B-QT, O, I-QT, B-CV, B-TM
-7	이해	O	O	O, I-QT, B-PS, I-CV, B-CV
-8	##되	O	O	O, B-PS, I-PS, I-AF, B-CV
-9	##지만	O	O	O, B-PS, I-AF, B-CV, I-PS
-10	저	O	O	O, B-CV, B-PS, B-OG, B-LC
-11	##는	O	O	O, B-CV, B-PS, I-AF, I-OG
-12	그런	O	O	O, B-CV, B-LC, B-OG, B-PS
-13	친구	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-AF
-14	##들이	O	O	O, I-CV, I-AF, B-CV, I-EV
-15	예뻐	O	O	O, B-CV, B-PS, B-OG, I-CV
-16	##요	O	O	O, I-CV, I-OG, B-CV, I-AF
-17	.	O	O	O, B-CV, B-PS, B-LC, I-AF
-18	[SEP]	O	O	O, B-CV, B-PS, I-AF, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	동래	B-LC	B-LC
+2	##구	I-LC	I-LC
+3	국악	O	B-OG
+4	##관	O	I-OG
+5	##현	O	I-OG
+6	##악단	O	I-OG
+7	##도	O	O
+8	지난달	B-DT	B-DT
+9	15	I-DT	I-DT
+10	##일	I-DT	I-DT
+11	동래	B-AF	B-AF
+12	##문화회관	I-AF	I-AF
+13	##에	O	O
+14	##서	O	O
+15	창단	B-EV	O
+16	##연	I-EV	O
+17	##주	I-EV	O
+18	##회	I-EV	O
+19	##를	O	O
+20	가졌	O	O
+21	##다	O	O
+22	.	O	O
+23	[SEP]	O	O

@@ -1,11 +1,11 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	만약	O	O	O, B-CV, B-EV, B-PS, B-AF
-2	##에	O	O	O, I-AF, I-EV, I-OG, B-PS
-3	핵	B-MT	B-AF	B-AF, O, B-MT, I-AF, B-TM
-4	##폭탄	O	I-AF	I-AF, O, B-AF, I-TM, I-QT
-5	##이	O	O	O, I-AF, I-EV, I-OG, B-CV
-6	떨어졌	O	O	O, B-CV, B-OG, I-AF, B-LC
-7	##다	O	O	O, B-CV, I-AF, I-OG, I-EV
-8	.	O	O	O, B-CV, B-PS, B-OG, B-LC
-9	[SEP]	O	O	O, B-CV, I-AF, B-PS, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	만약	O	O
+2	##에	O	O
+3	핵	B-MT	B-AF
+4	##폭탄	O	I-AF
+5	##이	O	O
+6	떨어졌	O	O
+7	##다	O	O
+8	.	O	O
+9	[SEP]	O	O

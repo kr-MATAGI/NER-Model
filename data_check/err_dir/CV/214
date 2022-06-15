@@ -1,22 +1,93 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-AF
-1	그러나	O	O	O, B-CV, B-TM, B-OG, B-LC
-2	어디	O	O	O, B-LC, B-PS, B-AF, B-CV
-3	##든	O	O	O, B-PS, B-LC, B-CV, B-AF
-4	악한	O	O	O, B-CV, B-PS, I-CV, B-AF
-5	(	O	O	O, I-CV, B-PS, B-CV, I-AF
-6	惡	O	O	O, B-PS, B-LC, B-CV, B-TM
-7	漢	O	O	O, B-PS, B-CV, B-LC, I-PS
-8	)	O	O	O, B-PS, B-CV, B-LC, I-CV
-9	만큼	O	O	O, B-PS, B-CV, B-LC, B-AF
-10	의인	B-CV	O	O, B-CV, B-PS, I-CV, B-OG
-11	(	O	O	O, I-CV, B-CV, I-OG, I-AF
-12	義	O	O	O, B-CV, B-PS, B-QT, B-AF
-13	人	O	O	O, I-CV, B-CV, I-PS, B-PS
-14	)	O	O	O, I-CV, B-PS, B-CV, I-OG
-15	은	O	O	O, B-PS, B-LC, B-CV, B-OG
-16	꼭	O	O	O, B-PS, B-QT, B-CV, B-TM
-17	있	O	O	O, B-PS, B-CV, B-AF, B-LC
-18	##다	O	O	O, I-AF, B-CV, I-CV, I-OG
-19	.	O	O	O, B-PS, B-CV, B-LC, I-AF
-20	[SEP]	O	O	O, B-CV, B-PS, B-LC, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	서울	B-OG	B-OG
+2	##중	I-OG	I-OG
+3	##앙	I-OG	I-OG
+4	##지	I-OG	I-OG
+5	##법	I-OG	I-OG
+6	형사	O	O
+7	##25	O	O
+8	##부	O	O
+9	(	O	O
+10	재판장	B-CV	B-CV
+11	위	B-PS	B-PS
+12	##현	I-PS	I-PS
+13	##석	I-PS	I-PS
+14	)	O	O
+15	는	O	O
+16	28	B-DT	B-DT
+17	##일	I-DT	I-DT
+18	주문	O	O
+19	##하	O	O
+20	##지	O	O
+21	않	O	O
+22	##은	O	O
+23	물량	O	O
+24	##을	O	O
+25	강제	O	O
+26	##로	O	O
+27	대리점	B-CV	B-CV
+28	##주	I-CV	I-CV
+29	##들	O	O
+30	##에	O	O
+31	##게	O	O
+32	떠넘기	O	O
+33	##는	O	O
+34	이른바	O	O
+35	‘	O	O
+36	물량	O	O
+37	밀어내	O	O
+38	##기	O	O
+39	’	O	O
+40	를	O	O
+41	한	O	O
+42	혐의	O	O
+43	(	O	O
+44	독점	O	B-CV
+45	##규	O	I-CV
+46	##제	O	I-CV
+47	및	O	I-CV
+48	공정	B-CV	I-CV
+49	##거래	I-CV	I-CV
+50	##에	I-CV	O
+51	관한	I-CV	O
+52	법률	I-CV	O
+53	위반	I-CV	O
+54	등	O	O
+55	)	O	O
+56	로	O	O
+57	기소	O	O
+58	##된	O	O
+59	김	B-PS	B-PS
+60	##웅	I-PS	I-PS
+61	(	O	O
+62	61	B-QT	B-QT
+63	·	O	O
+64	사진	O	O
+65	)	O	O
+66	남양유업	B-OG	B-OG
+67	대표	B-CV	B-CV
+68	##에	O	O
+69	##게	O	O
+70	징역	B-CV	B-CV
+71	1	B-DT	B-DT
+72	##년	I-DT	I-DT
+73	##6	I-DT	I-DT
+74	##월	I-DT	I-DT
+75	##에	O	O
+76	집행유예	B-CV	B-CV
+77	2	B-DT	B-DT
+78	##년	I-DT	I-DT
+79	##을	O	O
+80	선고	O	O
+81	##하	O	O
+82	##고	O	O
+83	사회봉사	B-CV	B-CV
+84	160	B-TI	B-TI
+85	##시간	I-TI	I-TI
+86	##을	O	O
+87	명령	O	O
+88	##했	O	O
+89	##다	O	O
+90	.	O	O
+91	[SEP]	O	O

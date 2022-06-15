@@ -1,48 +1,44 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	인도네시아	B-LC	B-LC	B-LC, B-OG, O, B-PS, B-AF
-2	정부	B-OG	B-OG	B-OG, B-LC, I-OG, O, B-AF
-3	##가	O	O	O, I-OG, B-PS, I-AF, B-OG
-4	잠수함	B-AF	B-AF	B-AF, O, I-AF, B-LC, B-OG
-5	수주	O	O	O, B-CV, I-AF, B-LC, B-PS
-6	경쟁	O	O	O, B-CV, B-LC, B-PS, B-TM
-7	##관계	O	O	O, B-CV, B-PS, B-LC, B-OG
-8	##에	O	O	O, B-PS, B-OG, B-LC, B-CV
-9	있	O	O	O, B-OG, B-PS, B-CV, B-LC
-10	##던	O	O	O, B-OG, B-PS, B-LC, I-OG
-11	프랑스	B-OG	B-OG	B-OG, B-LC, O, I-OG, B-CV
-12	##와	O	O	O, I-OG, B-CV, I-LC, B-OG
-13	##의	O	O	O, B-CV, B-LC, B-OG, B-PS
-14	협상	O	O	O, B-LC, B-CV, B-OG, B-PS
-15	##을	O	O	O, B-PS, B-CV, B-OG, B-LC
-16	파기	O	O	O, B-CV, B-LC, B-OG, B-PS
-17	##해	O	O	O, B-PS, B-LC, B-OG, I-OG
-18	대우	O	O	O, B-OG, B-PS, B-LC, B-AF
-19	##조선	O	O	O, B-PS, I-OG, B-OG, B-LC
-20	##해	O	O	O, B-PS, I-OG, B-LC, B-OG
-21	##양이	O	O	O, B-PS, I-OG, I-PS, B-MT
-22	단독	O	O	O, B-CV, B-QT, B-TM, B-LC
-23	협상	O	B-CV	B-CV, O, I-CV, I-QT, B-QT
-24	##자	O	I-CV	I-CV, O, B-CV, I-QT, I-TM
-25	##가	O	O	O, I-CV, B-PS, I-QT, I-OG
-26	되	O	O	O, B-QT, B-LC, B-OG, B-PS
-27	##면서	O	O	O, B-LC, B-OG, B-CV, B-PS
-28	단일	O	O	O, B-TM, B-QT, B-AF, B-LC
-29	프로젝트	O	O	O, I-TM, B-TM, I-QT, B-LC
-30	##로	O	O	O, B-PS, B-OG, B-LC, I-TM
-31	##는	O	O	O, B-LC, B-OG, B-PS, B-TM
-32	사상	O	O	O, B-LC, B-CV, B-OG, B-TM
-33	최대	O	O	O, B-LC, B-PS, B-OG, B-QT
-34	규모	O	O	O, B-OG, B-TM, B-LC, I-OG
-35	##의	O	O	O, B-LC, B-OG, B-PS, B-TM
-36	방위	O	O	O, B-FD, B-OG, B-TM, B-LC
-37	##산업	O	O	O, I-OG, I-FD, I-LC, I-TM
-38	수출	O	O	O, B-LC, B-TM, B-CV, I-OG
-39	계약	O	O	O, B-LC, B-TM, B-CV, B-OG
-40	##을	O	O	O, B-CV, B-OG, B-TM, B-LC
-41	눈앞	O	O	O, B-TM, B-LC, B-CV, B-QT
-42	##에	O	O	O, B-CV, I-OG, B-OG, B-TM
-43	뒀	O	O	O, B-LC, B-CV, B-QT, B-TM
-44	##다	O	O	O, B-CV, I-OG, I-EV, I-QT
-45	.	O	O	O, B-LC, B-PS, B-OG, B-CV
-46	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	헨리	O	B-PS
+2	밤	O	O
+3	##방	O	O
+4	[UNK]	O	O
+5	인도네시아	B-LC	B-LC
+6	수색	B-CV	B-CV
+7	##구조	I-CV	I-CV
+8	##청	I-CV	I-CV
+9	##장	I-CV	I-CV
+10	##은	O	O
+11	“	O	O
+12	추가	O	O
+13	##로	O	O
+14	수습	O	O
+15	##된	O	O
+16	주검	O	O
+17	중	O	O
+18	1	B-QT	B-QT
+19	##구	I-QT	I-QT
+20	##는	O	O
+21	승무원	B-CV	B-CV
+22	유니폼	B-CV	B-CV
+23	##을	O	O
+24	입	O	O
+25	##은	O	O
+26	여성	O	O
+27	##이	O	O
+28	##며	O	O
+29	,	O	O
+30	2	B-QT	B-QT
+31	##구	I-QT	I-QT
+32	##는	O	O
+33	남성	O	O
+34	##의	O	O
+35	주검	O	O
+36	”	O	O
+37	이라	O	O
+38	##고	O	O
+39	밝혔	O	O
+40	##다	O	O
+41	.	O	O
+42	[SEP]	O	O

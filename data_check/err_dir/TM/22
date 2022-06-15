@@ -1,22 +1,45 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, I-AF, I-EV
-1	‘	O	O	O, B-CV, B-LC, B-PS, B-OG
-2	슈퍼	O	B-EV	B-EV, B-AF, B-PS, O, B-OG
-3	##소닉	O	I-AF	I-AF, I-EV, I-PS, O, I-OG
-4	’	O	O	O, I-EV, I-AF, I-OG, I-PS
-5	이대	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-AF
-6	##형	I-PS	I-PS	I-PS, O, I-OG, I-LC, I-AF
-7	,	O	O	O, I-PS, I-AF, I-OG, B-CV
-8	연장전	B-TI	B-TI	B-TI, O, B-EV, B-QT, B-TM
-9	##의	O	O	O, I-PS, I-AF, B-PS, I-TI
-10	사나이	O	O	O, B-CV, B-PS, I-PS, I-AF
-11	…	O	O	O, I-CV, I-AF, I-PS, B-PS
-12	이틀	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-LC
-13	연속	O	O	O, I-DT, I-QT, I-EV, B-PS
-14	결승	O	O	O, B-TM, B-AF, B-CV, B-EV
-15	##점	O	O	O, I-TM, I-CV, I-AF, I-EV
-16	-	O	O	O, I-TM, I-AF, I-CV, I-EV
-17	끝내	B-TM	O	O, B-TM, B-AF, B-CV, B-QT
-18	##기	I-TM	O	O, I-TM, B-TM, I-AF, I-CV
-19	##타	I-TM	O	O, I-TM, B-TM, I-AF, I-CV
-20	[SEP]	O	O	O, I-TM, I-AF, I-CV, B-CV
+	text	label	preds
+0	[CLS]	O	O
+1	그동안	O	O
+2	여러	O	O
+3	기기	O	O
+4	##들	O	O
+5	##을	O	O
+6	연결	O	O
+7	##하	O	O
+8	##는	O	O
+9	게	O	O
+10	어렵	O	O
+11	##고	O	O
+12	제어	O	O
+13	##하	O	O
+14	##는	O	O
+15	애플리케이션	O	O
+16	##도	O	O
+17	달라	O	O
+18	대중	O	O
+19	##화	O	O
+20	##에	O	O
+21	어려움	O	O
+22	##을	O	O
+23	겪	O	O
+24	##었	O	O
+25	##던	O	O
+26	스마트	B-TM	O
+27	##홈	I-TM	O
+28	서비스	I-TM	O
+29	##가	O	O
+30	한단	B-QT	B-QT
+31	##계	I-QT	I-QT
+32	진	O	O
+33	##일보	O	O
+34	##하	O	O
+35	##는	O	O
+36	계기	O	O
+37	##가	O	O
+38	될	O	O
+39	것	O	O
+40	##으로	O	O
+41	보인다	O	O
+42	.	O	O
+43	[SEP]	O	O

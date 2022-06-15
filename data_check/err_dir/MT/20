@@ -1,64 +1,65 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-AF
-1	산	O	O	O, B-LC, I-LC, B-AF, B-CV
-2	##을	O	O	O, B-CV, I-AF, B-PS, I-LC
-3	오르	O	O	O, B-AF, B-CV, B-LC, B-TM
-4	##는	O	O	O, B-TM, B-LC, B-PS, B-CV
-5	중간	O	O	O, B-TM, B-CV, B-LC, B-QT
-6	##중간	O	O	O, I-TM, B-TM, I-QT, I-CV
-7	##에	O	O	O, I-TM, B-PS, B-LC, B-TM
-8	숨	O	O	O, B-TM, B-AM, B-PS, B-LC
-9	##이	O	O	O, B-PS, B-AM, B-LC, B-TM
-10	찬	O	O	O, B-PS, B-TM, B-AM, B-LC
-11	사람	O	O	O, B-CV, B-AM, B-TM, B-PS
-12	##들	O	O	O, B-PS, I-AF, I-CV, B-CV
-13	##을	O	O	O, B-CV, B-TM, B-PS, B-LC
-14	위해	O	O	O, B-LC, B-TM, B-PS, B-CV
-15	평평	O	O	O, B-TM, B-LC, B-CV, B-AF
-16	##한	O	O	O, B-LC, B-PS, B-TM, B-OG
-17	공간	O	O	O, B-TM, B-LC, B-CV, B-AF
-18	##을	O	O	O, B-CV, B-LC, B-PS, B-OG
-19	만들	O	O	O, B-LC, B-CV, B-PS, B-AF
-20	##어	O	O	O, B-LC, B-PS, B-CV, B-OG
-21	놓	O	O	O, B-LC, B-CV, B-PS, B-OG
-22	##는데	O	O	O, B-LC, B-CV, B-PS, B-TM
-23	막걸리	B-CV	B-CV	B-CV, O, B-PT, B-AF, B-OG
-24	·	O	O	O, I-CV, I-AF, I-OG, I-LC
-25	깨진	O	O	O, B-AF, B-TM, B-CV, B-QT
-26	소주	B-CV	B-CV	B-CV, O, I-CV, B-AF, B-PT
-27	##병	O	O	O, I-CV, I-AF, I-TM, I-QT
-28	·	O	O	O, I-AF, B-LC, B-PS, I-CV
-29	비닐봉	O	O	O, B-TM, B-CV, B-AF, B-LC
-30	##지	O	O	O, I-AF, I-CV, I-TM, I-LC
-31	등	O	O	O, B-LC, B-PS, B-CV, B-TM
-32	##이	O	O	O, B-PS, B-LC, B-CV, B-OG
-33	가장	O	O	O, B-LC, B-CV, B-TM, B-QT
-34	많이	O	O	O, B-LC, B-TM, B-OG, B-QT
-35	발견	O	O	O, B-CV, B-TM, B-LC, B-OG
-36	##되	O	O	O, B-LC, B-PS, I-AF, B-CV
-37	##지만	O	O	O, B-CV, B-LC, B-TM, I-AF
-38	,	O	O	O, B-LC, B-CV, B-OG, B-PS
-39	고무	B-MT	B-MT	B-MT, O, I-MT, B-TM, B-CV
-40	##로	O	O	O, I-MT, I-AF, B-MT, I-CV
-41	된	O	O	O, B-LC, B-TM, B-CV, B-AF
-42	폐기물	O	O	O, B-MT, B-CV, B-TM, B-AF
-43	##이나	O	O	O, B-LC, B-PS, B-AF, B-TM
-44	고철	B-MT	O	O, B-MT, B-CV, B-AF, B-TM
-45	더미	O	O	O, I-AF, B-CV, I-CV, B-LC
-46	##도	O	O	O, B-LC, B-PS, B-CV, B-TM
-47	간혹	O	O	O, B-QT, B-TM, B-LC, B-CV
-48	있	O	O	O, B-LC, B-PS, B-CV, B-AF
-49	##어	O	O	O, B-LC, B-PS, B-CV, B-TM
-50	들	O	O	O, B-LC, B-AF, B-CV, B-PS
-51	##고	O	O	O, B-LC, B-PS, B-AF, I-AF
-52	내려올	O	O	O, B-LC, B-AF, B-CV, B-PS
-53	때	O	O	O, B-PS, B-LC, B-CV, B-OG
-54	어려움	O	O	O, B-LC, B-TM, B-CV, B-OG
-55	##을	O	O	O, B-CV, B-LC, I-AF, B-PS
-56	겪	O	O	O, B-CV, B-LC, B-PS, B-TM
-57	##기	O	O	O, B-LC, B-PS, B-CV, B-OG
-58	##도	O	O	O, B-LC, B-CV, I-LC, B-PS
-59	한다고	O	O	O, B-LC, B-CV, B-PS, I-LC
-60	한다	O	O	O, B-CV, B-LC, B-TM, B-OG
-61	.	O	O	O, B-LC, B-PS, B-AF, B-CV
-62	[SEP]	O	O	O, B-LC, B-CV, B-AF, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	산	O	O
+2	##을	O	O
+3	오르	O	O
+4	##는	O	O
+5	중간	O	O
+6	##중간	O	O
+7	##에	O	O
+8	숨	O	O
+9	##이	O	O
+10	찬	O	O
+11	사람	O	O
+12	##들	O	O
+13	##을	O	O
+14	위해	O	O
+15	평평	O	O
+16	##한	O	O
+17	공간	O	O
+18	##을	O	O
+19	만들	O	O
+20	##어	O	O
+21	놓	O	O
+22	##는데	O	O
+23	막걸리	B-CV	B-CV
+24	·	O	O
+25	깨	O	O
+26	##진	O	O
+27	소주	B-CV	B-CV
+28	##병	O	O
+29	·	O	O
+30	비닐봉	O	O
+31	##지	O	O
+32	등이	O	O
+33	가장	O	O
+34	많이	O	O
+35	발견	O	O
+36	##되	O	O
+37	##지만	O	O
+38	,	O	O
+39	고무	B-MT	B-MT
+40	##로	O	O
+41	된	O	O
+42	폐기물	O	O
+43	##이나	O	O
+44	고철	B-MT	O
+45	더미	O	O
+46	##도	O	O
+47	간혹	O	O
+48	있	O	O
+49	##어	O	O
+50	들	O	O
+51	##고	O	O
+52	내려	O	O
+53	##올	O	O
+54	때	O	O
+55	어려움	O	O
+56	##을	O	O
+57	겪	O	O
+58	##기	O	O
+59	##도	O	O
+60	한다고	O	O
+61	한다	O	O
+62	.	O	O
+63	[SEP]	O	O

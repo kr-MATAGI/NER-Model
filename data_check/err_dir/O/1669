@@ -1,23 +1,48 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-AF
-1	아마	O	O	O, B-CV, B-PS, B-TM, B-OG
-2	나	O	O	O, B-CV, B-PS, B-LC, B-OG
-3	##였	O	O	O, B-CV, B-PS, B-OG, B-LC
-4	##다면	O	O	O, B-CV, B-PS, B-TM, I-CV
-5	“	O	O	O, B-CV, B-LC, B-PS, B-OG
-6	이성	O	B-TR	B-TR, O, B-TM, I-TR, B-CV
-7	##애	O	I-TR	I-TR, O, B-TR, I-CV, I-TM
-8	중심주의	O	I-TR	I-TR, O, B-TR, I-CV, I-TM
-9	사회	O	O	O, I-TR, B-CV, I-CV, B-TR
-10	##가	O	O	O, B-PS, B-CV, I-OG, I-CV
-11	만든	O	O	O, B-CV, B-PS, B-LC, B-OG
-12	편견	O	O	O, B-CV, B-TM, B-PS, B-TR
-13	”	O	O	O, B-CV, I-CV, B-PS, B-TM
-14	이라	O	O	O, B-CV, B-PS, B-TM, I-CV
-15	##며	O	O	O, B-CV, B-TM, I-CV, B-LC
-16	따졌	O	O	O, B-CV, B-TM, B-LC, B-PS
-17	##을	O	O	O, B-CV, I-CV, B-PS, B-TM
-18	거	O	O	O, B-CV, B-PS, B-OG, B-TM
-19	##다	O	O	O, B-CV, I-CV, I-OG, B-TM
-20	.	O	O	O, B-CV, B-PS, B-LC, B-TM
-21	[SEP]	O	O	O, B-CV, I-CV, B-TM, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	김용	B-PS	B-PS
+2	##하	I-PS	I-PS
+3	교수	B-CV	B-CV
+4	##는	O	O
+5	“	O	O
+6	지급	O	O
+7	##률	O	O
+8	1	B-QT	B-QT
+9	.	I-QT	I-QT
+10	7	I-QT	I-QT
+11	%	I-QT	I-QT
+12	는	O	O
+13	국민연금	B-CV	B-CV
+14	지급	O	O
+15	##률	O	O
+16	(	O	O
+17	1	B-QT	B-QT
+18	%	I-QT	I-QT
+19	)	O	O
+20	에다	O	O
+21	퇴직금	O	B-CV
+22	(	O	O
+23	0	B-QT	B-QT
+24	.	I-QT	I-QT
+25	4	I-QT	I-QT
+26	%	I-QT	I-QT
+27	)	O	O
+28	과	O	O
+29	국민연금	B-CV	B-CV
+30	##보	O	O
+31	##다	O	O
+32	높	O	O
+33	##은	O	O
+34	보험료	O	B-CV
+35	(	O	O
+36	0	B-QT	B-QT
+37	.	I-QT	I-QT
+38	3	I-QT	I-QT
+39	%	I-QT	I-QT
+40	)	O	O
+41	가	O	O
+42	반영	O	O
+43	##됐	O	O
+44	##다	O	O
+45	.	O	O
+46	[SEP]	O	O

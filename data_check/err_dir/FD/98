@@ -1,32 +1,71 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	스무	B-FD	B-FD	B-FD, O, B-OG, B-TR, B-AF
-2	##드	I-FD	I-FD	I-FD, I-OG, O, I-TR, I-AF
-3	재즈	I-FD	I-FD	I-FD, B-FD, I-OG, O, I-TR
-4	##를	O	O	O, I-OG, I-FD, I-AF, I-TR
-5	대표	O	O	O, B-CV, B-PS, B-OG, B-LC
-6	##하	O	O	O, B-PS, I-PS, I-CV, I-OG
-7	##는	O	O	O, B-PS, B-CV, I-PS, I-CV
-8	색소폰	B-AF	B-AF	B-AF, B-PS, B-AM, B-TM, O
-9	연주자	B-CV	B-CV	B-CV, I-CV, O, I-AF, I-PS
-10	데이브	B-PS	B-PS	B-PS, O, I-PS, B-OG, B-LC
-11	코	I-PS	I-PS	I-PS, O, B-PS, I-OG, I-LC
-12	##즈	I-PS	I-PS	I-PS, O, I-LC, I-OG, I-QT
-13	##는	O	O	O, I-PS, B-LC, B-CV, I-AF
-14	감미	O	O	O, B-FD, B-CV, B-AF, B-LC
-15	##로운	O	O	O, B-FD, I-AF, B-PS, B-CV
-16	캐럴	B-FD	O	O, B-FD, B-CV, B-AF, B-EV
-17	음반	O	O	O, B-CV, I-AF, I-CV, I-FD
-18	<	O	O	O, B-LC, B-CV, B-AF, B-OG
-19	얼	B-AF	B-AF	B-AF, B-PS, B-LC, I-AF, O
-20	##티	I-AF	I-AF	I-AF, I-PS, B-AF, O, I-LC
-21	##머	I-AF	I-AF	I-AF, I-PS, O, B-AF, I-LC
-22	##트	I-AF	I-AF	I-AF, I-PS, O, I-LC, B-AF
-23	크리스마스	I-AF	I-AF	I-AF, I-PS, B-AF, I-LC, O
-24	>	O	O	O, I-AF, I-EV, I-PS, B-CV
-25	를	O	O	O, B-CV, B-LC, I-AF, B-OG
-26	내놓	O	O	O, B-CV, B-OG, B-LC, B-TM
-27	##았	O	O	O, B-CV, B-LC, B-OG, B-PS
-28	##다	O	O	O, B-CV, B-LC, I-OG, B-OG
-29	.	O	O	O, B-LC, B-PS, B-CV, B-OG
-30	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	스텝	B-CV	B-CV
+2	##이	O	O
+3	##란	O	O
+4	미용	B-FD	O
+5	기술	O	O
+6	##을	O	O
+7	배우	O	O
+8	##기	O	O
+9	위해	O	O
+10	매장	O	O
+11	##에	O	O
+12	##서	O	O
+13	일	O	O
+14	##하	O	O
+15	##는	O	O
+16	비정규직	B-CV	B-CV
+17	인턴	B-CV	B-CV
+18	점원	B-CV	B-CV
+19	##들	O	O
+20	##을	O	O
+21	일컫	O	O
+22	##는	O	O
+23	말	O	O
+24	##로	O	O
+25	,	O	O
+26	보통	O	O
+27	헤어	O	O
+28	##숍	O	O
+29	##은	O	O
+30	정규직	O	B-CV
+31	##인	O	O
+32	‘	O	O
+33	데스크	O	O
+34	’	O	O
+35	(	O	O
+36	점장	B-CV	B-CV
+37	등	O	O
+38	)	O	O
+39	2	B-QT	B-QT
+40	~	I-QT	I-QT
+41	3	I-QT	I-QT
+42	##명	I-QT	I-QT
+43	,	O	O
+44	특수	B-CV	B-CV
+45	##고	I-CV	I-CV
+46	##용	I-CV	I-CV
+47	##노동	I-CV	I-CV
+48	##자	I-CV	I-CV
+49	##인	O	O
+50	‘	O	O
+51	디자이너	B-CV	B-CV
+52	’	O	O
+53	5	B-QT	B-QT
+54	~	I-QT	I-QT
+55	10	I-QT	I-QT
+56	##명	I-QT	I-QT
+57	,	O	O
+58	스텝	B-CV	B-CV
+59	4	B-QT	B-QT
+60	~	I-QT	I-QT
+61	8	I-QT	I-QT
+62	##명	I-QT	I-QT
+63	등	O	O
+64	##으로	O	O
+65	구성	O	O
+66	##된	O	O
+67	##다	O	O
+68	.	O	O
+69	[SEP]	O	O

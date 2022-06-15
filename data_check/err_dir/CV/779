@@ -1,59 +1,25 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	부자	B-CV	O	O, B-CV, I-CV, B-OG, B-PS
-2	##는	O	O	O, I-CV, B-CV, I-OG, B-PS
-3	시민	B-CV	B-CV	B-CV, O, B-OG, I-CV, B-AF
-4	##들	O	O	O, I-CV, I-OG, I-AF, B-CV
-5	##을	O	O	O, B-CV, B-LC, B-TM, B-PS
-6	영장	O	O	O, B-CV, B-AF, B-TM, B-PS
-7	없이	O	O	O, I-CV, I-AF, B-PS, B-LC
-8	체포	O	O	O, B-CV, B-OG, B-LC, B-TM
-9	##하	O	O	O, B-PS, B-LC, I-CV, I-AF
-10	##거나	O	O	O, B-LC, B-PS, B-QT, I-AF
-11	재판	O	O	O, B-CV, B-LC, B-TM, B-PS
-12	없이	O	O	O, B-PS, B-LC, I-CV, B-QT
-13	감옥	O	O	O, B-CV, B-LC, B-AF, B-TM
-14	##에	O	O	O, B-LC, I-AF, I-LC, B-CV
-15	가	O	O	O, B-LC, B-QT, B-CV, B-AF
-16	##둘	O	O	O, I-LC, B-LC, B-QT, I-QT
-17	수	O	O	O, B-LC, B-PS, B-QT, I-QT
-18	있	O	O	O, B-LC, B-CV, B-QT, B-PS
-19	##게	O	O	O, B-LC, B-QT, B-CV, B-PS
-20	하	O	O	O, B-LC, B-CV, B-PS, B-QT
-21	##는	O	O	O, B-CV, B-LC, B-PS, B-QT
-22	비상사태	O	O	O, B-CV, B-EV, B-LC, B-PS
-23	##를	O	O	O, I-CV, B-PS, I-EV, B-CV
-24	40	B-DT	B-DT	B-DT, O, B-QT, I-DT, B-LC
-25	##여	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-26	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-27	##간	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-28	유지	O	O	O, I-DT, B-CV, B-LC, B-OG
-29	##하	O	O	O, B-LC, B-PS, B-OG, B-CV
-30	##며	O	O	O, B-LC, B-CV, B-OG, B-PS
-31	,	O	O	O, B-CV, B-LC, B-OG, B-TM
-32	인구	O	O	O, B-LC, B-CV, B-TM, B-AM
-33	##의	O	O	O, B-QT, B-LC, B-PS, B-TM
-34	약	B-QT	B-QT	B-QT, I-QT, O, B-DT, B-LC
-35	1	I-QT	I-QT	I-QT, B-QT, O, I-LC, I-PS
-36	%	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-37	를	O	O	O, I-QT, B-PS, I-LC, B-LC
-38	비밀	B-CV	O	O, B-OG, B-CV, B-AF, B-FD
-39	##경찰	I-CV	I-OG	I-OG, B-OG, O, B-CV, I-CV
-40	##로	O	O	O, I-OG, I-CV, I-AF, I-QT
-41	만드	O	O	O, B-LC, B-PS, B-CV, B-OG
-42	##는	O	O	O, B-LC, B-CV, B-PS, B-OG
-43	등	O	O	O, B-LC, B-PS, B-CV, B-OG
-44	철저	O	O	O, B-CV, B-LC, B-TM, B-PS
-45	##한	O	O	O, B-LC, B-PS, B-OG, B-TM
-46	감시	O	O	O, B-CV, B-TM, B-LC, B-PS
-47	##시스	O	O	O, I-CV, B-CV, I-TM, B-PS
-48	##템	O	O	O, I-CV, B-CV, B-LC, B-PS
-49	##으로	O	O	O, B-LC, B-PS, B-CV, I-CV
-50	정권	O	O	O, B-CV, B-LC, B-OG, B-PS
-51	##을	O	O	O, B-CV, B-PS, I-CV, I-OG
-52	유지	O	O	O, B-CV, B-LC, B-OG, B-TM
-53	##해	O	O	O, B-LC, B-PS, I-OG, B-CV
-54	##왔	O	O	O, B-LC, I-OG, B-PS, B-CV
-55	##다	O	O	O, B-CV, B-LC, I-OG, B-PS
-56	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-57	[SEP]	O	O	O, B-LC, B-CV, B-PS, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	이순신	B-PS	B-PS
+2	장군	B-CV	B-CV
+3	##과	O	O
+4	수군	B-CV	O
+5	,	O	O
+6	명	B-EV	B-EV
+7	##량	I-EV	I-EV
+8	##해	I-EV	I-EV
+9	##전	I-EV	I-EV
+10	등의	O	O
+11	내용	O	O
+12	##을	O	O
+13	담	O	O
+14	##은	O	O
+15	벽화	O	O
+16	##와	O	O
+17	조각	O	O
+18	작품	O	O
+19	##이	O	O
+20	많	O	O
+21	##다	O	O
+22	.	O	O
+23	[SEP]	O	O

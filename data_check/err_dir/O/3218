@@ -1,39 +1,13 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	의사	O	B-CV	B-CV, O, I-CV, B-OG, B-QT
-2	포함	O	O	O, I-CV, B-CV, I-OG, I-QT
-3	신고	O	O	O, B-CV, I-CV, B-FD, B-PS
-4	의무	B-CV	B-CV	B-CV, O, I-CV, B-PS, B-OG
-5	##자	I-CV	I-CV	I-CV, O, B-CV, I-OG, I-QT
-6	##가	O	O	O, I-CV, I-OG, I-QT, B-PS
-7	전체	O	O	O, B-CV, B-TM, B-QT, B-OG
-8	신고자	B-CV	B-CV	B-CV, O, I-CV, B-TM, B-OG
-9	##에서	O	O	O, I-CV, B-CV, I-QT, B-TM
-10	차지	O	O	O, B-CV, B-TM, B-OG, B-LC
-11	##하	O	O	O, B-OG, B-LC, B-PS, B-CV
-12	##는	O	O	O, B-CV, B-LC, B-OG, B-TM
-13	비율	O	O	O, B-LC, B-OG, B-TM, B-CV
-14	##도	O	O	O, B-CV, B-LC, B-PS, B-OG
-15	우리나라	O	O	O, B-LC, B-CV, B-QT, B-OG
-16	##는	O	O	O, B-CV, B-OG, B-LC, B-TM
-17	34	B-QT	B-QT	B-QT, O, I-QT, B-LC, B-EV
-18	.	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-19	1	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-20	%	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-21	로	O	O	O, I-QT, I-OG, B-OG, B-CV
-22	미국	B-LC	B-LC	B-LC, B-OG, O, B-PS, B-CV
-23	(	O	O	O, I-LC, I-OG, B-CV, I-AF
-24	61	B-QT	B-QT	B-QT, O, I-QT, B-LC, B-DT
-25	.	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-26	6	I-QT	I-QT	I-QT, B-QT, O, I-LC, I-PS
-27	%	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-28	)	O	O	O, I-QT, I-OG, B-CV, I-EV
-29	의	O	O	O, B-CV, B-LC, I-QT, B-OG
-30	절반	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-TM
-31	수준	O	O	O, I-QT, I-OG, I-EV, I-DT
-32	##에	O	O	O, I-QT, B-CV, I-OG, B-OG
-33	불과	O	O	O, B-CV, B-LC, B-QT, B-OG
-34	##하	O	O	O, B-CV, B-OG, B-LC, B-PS
-35	##다	O	O	O, B-CV, B-TM, I-OG, B-OG
-36	.	O	O	O, B-LC, B-OG, B-CV, I-OG
-37	[SEP]	O	O	O, B-LC, B-CV, I-OG, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	본인	O	O
+2	이름	O	O
+3	하루	O	B-DT
+4	##에	O	O
+5	몇	O	O
+6	번	O	O
+7	검색	O	O
+8	##합	O	O
+9	##니까	O	O
+10	?	O	O
+11	[SEP]	O	O

@@ -1,70 +1,62 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	에스	B-OG	B-OG	B-OG, O, B-LC, I-OG, B-PS
-2	##케이	I-OG	I-OG	I-OG, O, B-OG, I-LC, I-PS
-3	(	O	I-OG	I-OG, O, B-OG, I-LC, I-CV
-4	SK	B-OG	I-OG	I-OG, B-OG, O, I-CV, B-CV
-5	)	O	I-OG	I-OG, O, B-OG, I-CV, I-LC
-6	사회	B-OG	I-OG	I-OG, B-OG, O, B-CV, I-CV
-7	##적	I-OG	I-OG	I-OG, O, I-CV, B-OG, I-LC
-8	##기업	I-OG	I-OG	I-OG, O, I-CV, B-OG, B-CV
-9	##지원	I-OG	I-OG	I-OG, O, I-CV, B-OG, B-CV
-10	##사업	I-OG	I-OG	I-OG, O, I-CV, B-OG, B-CV
-11	##단	I-OG	I-OG	I-OG, O, I-CV, B-OG, I-QT
-12	##은	O	O	O, I-OG, I-CV, I-EV, I-QT
-13	지난해	B-DT	B-DT	B-DT, O, I-DT, B-OG, B-QT
-14	11	I-DT	I-DT	I-DT, O, I-OG, B-DT, I-QT
-15	##월	I-DT	I-DT	I-DT, O, I-OG, I-PS, I-QT
-16	누리집	O	O	O, I-DT, B-TM, B-CV, B-LC
-17	(	O	O	O, B-LC, B-OG, B-CV, B-PS
-18	홈페이지	O	O	O, B-TM, B-CV, B-AF, B-OG
-19	)	O	O	O, B-LC, B-OG, B-PS, B-CV
-20	‘	O	O	O, B-LC, B-OG, B-CV, B-TM
-21	세상	B-TM	O	O, B-TM, B-OG, B-AF, B-LC
-22	’	O	O	O, I-OG, I-TM, I-AF, I-EV
-23	의	O	O	O, B-PS, B-LC, B-CV, B-TM
-24	오픈	O	O	O, B-CV, B-TM, B-LC, B-AF
-25	이벤트	O	O	O, I-CV, B-CV, B-FD, I-LC
-26	때	O	O	O, B-PS, B-CV, B-OG, B-LC
-27	사회	O	O	O, B-CV, B-FD, B-OG, B-PS
-28	##적	O	O	O, I-CV, I-OG, I-QT, B-CV
-29	기업	O	O	O, B-CV, I-CV, I-OG, B-OG
-30	##으로	O	O	O, B-PS, I-CV, I-OG, B-LC
-31	아시아	B-LC	B-LC	B-LC, O, B-FD, B-CV, B-OG
-32	퓨전	B-CV	O	O, B-CV, I-CV, B-FD, I-LC
-33	요리	I-CV	O	O, I-CV, I-FD, B-CV, I-OG
-34	##를	O	O	O, I-CV, I-OG, B-CV, I-AF
-35	제공	O	O	O, B-CV, B-OG, B-LC, I-CV
-36	##하	O	O	O, B-CV, B-OG, B-LC, B-PS
-37	##는	O	O	O, B-CV, B-OG, B-LC, I-CV
-38	레스토랑	O	O	O, B-CV, B-OG, I-CV, B-FD
-39	오	B-OG	B-OG	B-OG, O, B-CV, B-PS, B-AF
-40	##요	I-OG	I-OG	I-OG, O, I-CV, I-AF, B-CV
-41	##리	I-OG	I-OG	I-OG, O, I-CV, I-AF, I-QT
-42	##의	O	O	O, I-OG, I-CV, I-AF, B-CV
-43	식사	O	O	O, B-CV, B-TM, B-QT, B-AF
-44	##권	O	O	O, I-CV, I-TM, I-LC, I-AF
-45	,	O	O	O, B-CV, B-LC, B-PS, I-CV
-46	공정	O	O	O, B-CV, B-AF, B-FD, B-LC
-47	##여행	O	O	O, I-CV, I-AF, I-LC, I-OG
-48	상품	O	O	O, I-CV, I-AF, I-LC, I-OG
-49	##을	O	O	O, I-CV, I-AF, B-CV, I-OG
-50	파	O	O	O, B-CV, B-OG, B-LC, B-AF
-51	##는	O	O	O, B-CV, B-OG, I-CV, I-OG
-52	트래	B-OG	B-OG	B-OG, O, B-AF, I-OG, B-PS
-53	##블러	I-OG	I-OG	I-OG, O, I-AF, B-OG, I-LC
-54	##스	I-OG	I-OG	I-OG, O, I-AF, I-LC, B-OG
-55	##맵	I-OG	I-OG	I-OG, O, I-AF, I-LC, I-CV
-56	##의	O	O	O, I-OG, I-AF, B-CV, I-CV
-57	여행	O	O	O, B-CV, B-AF, B-TM, B-QT
-58	##상	O	O	O, I-CV, B-CV, I-AF, I-LC
-59	##품	O	O	O, I-CV, I-AF, B-CV, I-LC
-60	##권	O	O	O, I-CV, I-AF, I-LC, B-CV
-61	##을	O	O	O, I-CV, B-CV, I-AF, B-LC
-62	경품	O	O	O, B-CV, B-TM, B-AF, B-FD
-63	##으로	O	O	O, I-CV, B-OG, B-PS, B-CV
-64	걸	O	O	O, B-CV, B-LC, B-OG, B-PS
-65	##었	O	O	O, B-CV, B-OG, B-PS, I-OG
-66	##다	O	O	O, B-CV, B-OG, I-OG, B-TM
-67	.	O	O	O, B-LC, B-OG, B-CV, B-PS
-68	[SEP]	O	O	O, B-CV, B-LC, B-OG, I-OG
+	text	label	preds
+0	[CLS]	O	O
+1	반도체	B-TM	B-TM
+2	·	O	O
+3	LCD	B-TM	B-TM
+4	주요	O	O
+5	부품	O	O
+6	업체	O	O
+7	에스	B-OG	B-OG
+8	##앤	I-OG	I-OG
+9	##에스	I-OG	I-OG
+10	##텍	I-OG	I-OG
+11	##은	O	O
+12	올	B-DT	B-DT
+13	5	I-DT	I-DT
+14	##월	I-DT	I-DT
+15	일본	B-LC	B-LC
+16	웨이	B-TM	O
+17	##퍼	I-TM	O
+18	(	O	O
+19	반도체	B-TM	B-TM
+20	##의	O	O
+21	원료	O	O
+22	##가	O	O
+23	되	O	O
+24	##는	O	O
+25	실리콘	B-MT	B-MT
+26	덩어리	O	O
+27	##를	O	O
+28	얇	O	O
+29	##게	O	O
+30	잘라	O	O
+31	##낸	O	O
+32	원판	O	O
+33	)	O	O
+34	회사	O	O
+35	##와	O	O
+36	2	B-QT	B-QT
+37	##건	I-QT	I-QT
+38	##의	O	O
+39	특허	O	O
+40	기술	O	O
+41	##에	O	O
+42	대해	O	O
+43	로열티	O	O
+44	##를	O	O
+45	받	O	O
+46	##고	O	O
+47	사용	O	O
+48	##권	O	O
+49	##을	O	O
+50	주	O	O
+51	##는	O	O
+52	내용	O	O
+53	##의	O	O
+54	계약	O	O
+55	##을	O	O
+56	맺	O	O
+57	##었	O	O
+58	##다	O	O
+59	.	O	O
+60	[SEP]	O	O

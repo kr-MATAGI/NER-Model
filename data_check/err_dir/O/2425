@@ -1,62 +1,48 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	로스쿨	B-OG	B-OG	B-OG, B-CV, O, B-AF, B-EV
-2	출신	O	O	O, I-OG, B-CV, I-CV, I-EV
-3	법조인	B-CV	B-CV	B-CV, O, B-OG, I-CV, B-TM
-4	##과	O	O	O, I-CV, I-OG, B-PS, B-CV
-5	로스쿨	B-OG	B-OG	B-OG, B-CV, O, B-AF, B-EV
-6	재학	B-CV	B-CV	B-CV, I-CV, O, I-OG, B-OG
-7	##생	I-CV	I-CV	I-CV, O, I-OG, B-CV, I-QT
-8	등	O	O	O, I-CV, I-OG, B-PS, B-OG
-9	예정	O	O	O, B-OG, B-CV, B-QT, B-PS
-10	##대로	O	O	O, B-PS, B-LC, B-OG, B-DT
-11	2017	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-QT
-12	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-13	사시	B-EV	B-EV	B-EV, O, B-CV, I-EV, B-AF
-14	##를	O	O	O, I-EV, I-AF, I-OG, I-CV
-15	폐지	O	O	O, B-CV, B-OG, I-EV, B-LC
-16	##해야	O	O	O, B-PS, B-OG, B-LC, B-CV
-17	한다는	O	O	O, B-OG, B-PS, B-CV, B-LC
-18	쪽	O	O	O, B-OG, B-CV, B-PS, I-OG
-19	##은	O	O	O, B-CV, B-OG, B-PS, B-TM
-20	""""	O	O	O, B-CV, B-LC, B-TM, B-PS
-21	사시	B-EV	B-EV	B-EV, O, B-CV, B-AF, B-FD
-22	##는	O	O	O, I-EV, I-AF, I-OG, I-CV
-23	합격	O	O	O, B-CV, B-TM, B-OG, B-LC
-24	##률	O	O	O, B-PS, B-LC, B-QT, B-OG
-25	##이	O	O	O, B-PS, B-OG, B-LC, B-CV
-26	4	B-QT	B-QT	B-QT, O, I-QT, B-LC, B-DT
-27	%	I-QT	I-QT	I-QT, O, I-LC, I-PS, I-EV
-28	에	O	O	O, I-QT, I-OG, I-EV, B-CV
-29	불과	O	O	O, B-LC, B-QT, B-PS, B-CV
-30	##한	O	O	O, B-PS, B-LC, B-OG, B-CV
-31	시험	O	O	O, B-EV, B-CV, I-EV, B-PS
-32	##으로	O	O	O, B-PS, B-LC, B-CV, B-OG
-33	'	O	O	O, B-LC, B-CV, B-PS, B-TM
-34	고시	B-EV	B-EV	B-EV, O, B-CV, B-OG, B-AF
-35	낭	O	B-CV	B-CV, O, I-CV, I-EV, B-PS
-36	##인	O	I-CV	I-CV, O, B-CV, I-EV, I-PS
-37	(	O	O	O, I-CV, I-QT, B-PS, B-CV
-38	[UNK]	O	O	O, B-CV, B-LC, B-PS, B-TM
-39	人	O	O	O, B-PS, B-CV, B-LC, I-CV
-40	)	O	O	O, B-CV, B-PS, B-LC, B-OG
-41	'	O	O	O, B-CV, B-LC, B-PS, B-TM
-42	을	O	O	O, B-CV, B-PS, B-LC, B-TM
-43	양산	O	O	O, B-PS, B-LC, B-CV, B-TM
-44	##하고	O	O	O, B-PS, B-CV, B-LC, B-TM
-45	,	O	O	O, B-CV, B-LC, B-PS, B-OG
-46	대학	O	O	O, B-LC, B-OG, B-CV, B-FD
-47	교육	O	O	O, B-LC, B-CV, B-TM, B-PS
-48	##을	O	O	O, B-PS, B-CV, B-LC, B-TM
-49	황폐	O	O	O, B-CV, B-LC, B-TM, B-PS
-50	##화	O	O	O, B-LC, B-PS, B-CV, B-TM
-51	##시	O	O	O, B-PS, B-LC, B-CV, B-OG
-52	##킨	O	O	O, B-PS, B-CV, B-LC, B-OG
-53	주범	O	O	O, B-CV, B-PS, B-TM, I-CV
-54	""""	O	O	O, I-CV, B-CV, I-QT, I-EV
-55	이라	O	O	O, B-PS, B-CV, B-LC, B-TM
-56	##고	O	O	O, B-CV, B-OG, B-TM, B-PS
-57	주장	O	O	O, B-CV, B-TM, B-OG, B-LC
-58	##한다	O	O	O, B-CV, B-PS, I-OG, B-TM
-59	.	O	O	O, B-LC, B-PS, B-CV, B-OG
-60	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	문	B-PS	B-PS
+2	대표	B-CV	B-CV
+3	##와	O	O
+4	안	B-PS	B-PS
+5	의원	B-CV	B-CV
+6	##은	O	O
+7	이날	B-DT	B-DT
+8	오후	B-TI	B-TI
+9	6	I-TI	I-TI
+10	##시	I-TI	I-TI
+11	##부터	I-TI	I-TI
+12	1	B-TI	B-TI
+13	##시간	I-TI	I-TI
+14	##20	I-TI	I-TI
+15	##분	I-TI	I-TI
+16	##가	I-TI	I-TI
+17	##량	I-TI	I-TI
+18	시내	O	O
+19	모	O	O
+20	##처	O	O
+21	##에	O	O
+22	##서	O	O
+23	배석	O	B-CV
+24	##자	O	I-CV
+25	없이	O	O
+26	만나	O	O
+27	격의	O	O
+28	없이	O	O
+29	진지	O	O
+30	##한	O	O
+31	대화	O	O
+32	##를	O	O
+33	나눴	O	O
+34	##다고	O	O
+35	회동	O	O
+36	##이	O	O
+37	끝	O	O
+38	##난	O	O
+39	뒤	O	O
+40	김성수	B-PS	B-PS
+41	대변인	B-CV	B-CV
+42	##이	O	O
+43	전했	O	O
+44	##다	O	O
+45	.	O	O
+46	[SEP]	O	O

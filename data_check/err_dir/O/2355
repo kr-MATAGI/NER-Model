@@ -1,49 +1,16 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	2013	B-DT	B-DT	B-DT, I-DT, O, B-QT, B-OG
-2	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-3	##부터	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-4	강의	O	O	O, B-CV, I-DT, B-LC, B-PS
-5	##한	O	O	O, B-PS, B-CV, B-LC, B-FD
-6	‘	O	O	O, B-CV, B-LC, B-PS, B-DT
-7	분자	O	B-FD	B-FD, O, I-FD, B-CV, B-AF
-8	##요	O	I-FD	I-FD, O, B-FD, I-CV, I-AF
-9	##리학	O	I-FD	I-FD, O, B-FD, I-OG, I-CV
-10	’	O	O	O, B-CV, I-FD, B-PS, B-FD
-11	수업	O	O	O, B-CV, B-PS, B-LC, B-FD
-12	내용	O	O	O, B-CV, B-PS, I-CV, B-LC
-13	##을	O	O	O, B-PS, B-CV, B-LC, B-OG
-14	묶	O	O	O, B-PS, B-LC, B-CV, B-TM
-15	##은	O	O	O, B-PS, B-CV, B-LC, B-OG
-16	이	O	O	O, B-PS, B-CV, B-AF, B-QT
-17	책	O	O	O, B-CV, B-AF, B-TM, B-PS
-18	##은	O	O	O, B-CV, B-OG, B-LC, B-PS
-19	얼핏	O	O	O, B-CV, B-TM, B-QT, B-OG
-20	보	O	O	O, B-OG, B-CV, B-TM, B-LC
-21	##면	O	O	O, B-LC, B-OG, B-PS, B-CV
-22	최근	O	O	O, B-LC, B-CV, B-PS, B-OG
-23	우리	O	O	O, B-LC, B-OG, B-CV, B-PS
-24	사회	O	O	O, B-CV, I-OG, B-FD, B-LC
-25	##의	O	O	O, B-LC, B-CV, B-PS, B-OG
-26	요리	O	O	O, B-CV, B-FD, I-CV, B-LC
-27	붐	O	O	O, I-CV, B-CV, I-AF, B-PS
-28	##에	O	O	O, B-CV, B-PS, B-LC, B-OG
-29	발맞춰	O	O	O, B-LC, B-CV, B-PS, B-OG
-30	과학	O	B-FD	B-FD, O, I-FD, B-TR, B-CV
-31	##에	O	O	O, I-FD, I-AF, I-CV, I-OG
-32	근거	O	O	O, B-CV, B-LC, B-TM, B-PS
-33	##한	O	O	O, B-PS, B-LC, B-CV, B-OG
-34	이야기	O	O	O, B-CV, B-FD, B-LC, B-OG
-35	##를	O	O	O, B-CV, B-PS, B-OG, B-LC
-36	첨가	O	O	O, B-CV, B-LC, B-TM, B-OG
-37	##해	O	O	O, B-PS, B-LC, B-OG, B-CV
-38	엮	O	O	O, B-CV, B-OG, B-LC, B-QT
-39	##은	O	O	O, B-PS, B-LC, B-CV, B-OG
-40	,	O	O	O, B-CV, B-PS, B-LC, B-OG
-41	흔한	O	O	O, B-CV, B-TM, B-QT, B-PS
-42	읽	O	O	O, B-CV, B-FD, B-TM, B-AF
-43	##을거리	O	O	O, I-CV, B-CV, B-FD, I-AF
-44	##로	O	O	O, B-CV, B-TM, B-QT, B-OG
-45	보인다	O	O	O, B-CV, B-TM, B-OG, B-PS
-46	.	O	O	O, B-CV, B-PS, B-LC, B-FD
-47	[SEP]	O	O	O, B-CV, B-FD, B-LC, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	보수	O	B-TR
+2	세력	O	O
+3	##이	O	O
+4	다시	O	O
+5	정권	O	O
+6	##을	O	O
+7	잡	O	O
+8	##겠다	O	O
+9	##고	O	O
+10	나선	O	O
+11	거	O	O
+12	자체	O	O
+13	##가	O	O
+14	[SEP]	O	O

@@ -1,30 +1,51 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-EV, I-CV
-1	조	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-2	내정자	B-CV	B-CV	B-CV, O, I-PS, I-CV, B-EV
-3	##의	O	O	O, I-CV, B-CV, I-EV, I-AF
-4	강연	O	O	O, B-CV, B-TM, B-LC, B-EV
-5	내용	O	O	O, B-CV, B-PS, B-LC, B-TM
-6	##은	O	O	O, B-CV, B-LC, B-OG, B-PS
-7	CD	B-TM	O	O, B-TM, B-QT, B-AF, B-TR
-8	##로	O	O	O, I-TM, I-QT, I-EV, I-OG
-9	제작	O	O	O, B-LC, B-TM, B-OG, B-CV
-10	##돼	O	O	O, B-LC, B-PS, B-OG, I-OG
-11	일선	O	O	O, B-OG, B-LC, B-CV, B-PS
-12	경찰	B-OG	B-OG	B-OG, O, B-AF, B-CV, I-OG
-13	##에	O	O	O, I-OG, I-EV, I-AF, I-QT
-14	교육	O	O	O, B-CV, B-TM, B-LC, B-QT
-15	##용	O	O	O, B-LC, B-PS, I-LC, I-QT
-16	##으로	O	O	O, B-LC, B-PS, B-CV, B-TM
-17	배포	O	O	O, B-LC, B-CV, B-TM, B-OG
-18	##됐	O	O	O, B-LC, B-CV, B-PS, B-OG
-19	##다가	O	O	O, B-LC, B-PS, B-CV, B-OG
-20	다시	O	O	O, B-LC, B-CV, B-TM, B-QT
-21	회수	O	O	O, B-CV, B-LC, B-TM, B-QT
-22	##된	O	O	O, B-LC, B-PS, B-CV, B-OG
-23	것	O	O	O, B-CV, B-LC, B-PS, B-OG
-24	##으로	O	O	O, B-CV, B-LC, B-TM, B-PS
-25	알려졌	O	O	O, B-CV, B-LC, B-OG, B-TM
-26	##다	O	O	O, B-CV, B-LC, I-OG, B-TM
-27	.	O	O	O, B-LC, B-CV, B-OG, B-PS
-28	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	또	O	O
+2	인텔	B-TM	B-TM
+3	##리	I-TM	I-TM
+4	##전	I-TM	I-TM
+5	##트	I-TM	I-TM
+6	크루즈	I-TM	I-TM
+7	컨트롤	I-TM	I-TM
+8	##은	O	O
+9	앞	B-TM	O
+10	##차	B-AF	O
+11	##와	O	O
+12	##의	O	O
+13	거리	O	O
+14	##를	O	O
+15	측정	O	O
+16	##해	O	O
+17	차	B-AF	O
+18	간격	O	O
+19	##이	O	O
+20	미리	O	O
+21	지정	O	O
+22	##해	O	O
+23	놓	O	O
+24	##은	O	O
+25	거리	O	O
+26	이하	O	O
+27	##로	O	O
+28	줄어들	O	O
+29	##면	O	O
+30	브레이크	O	O
+31	##를	O	O
+32	밟	O	O
+33	##지	O	O
+34	않	O	O
+35	##아	O	O
+36	##도	O	O
+37	앞	B-TM	O
+38	##차	B-AF	O
+39	##의	O	O
+40	간격	O	O
+41	##을	O	O
+42	일정	O	O
+43	##하	O	O
+44	##게	O	O
+45	유지	O	O
+46	##해	O	O
+47	준다	O	O
+48	.	O	O
+49	[SEP]	O	O

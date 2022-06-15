@@ -1,29 +1,43 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	김해	B-LC	B-LC	B-LC, O, B-OG, B-AF, B-DT
-2	##의	O	O	O, I-LC, I-AF, B-LC, I-DT
-3	금관	B-DT	B-DT	B-DT, B-LC, I-DT, B-FD, I-LC
-4	##가	I-DT	I-DT	I-DT, I-LC, I-EV, I-FD, I-QT
-5	##야	I-DT	I-DT	I-DT, I-LC, I-EV, I-QT, I-AF
-6	##뿐	O	O	O, I-DT, I-LC, I-EV, I-QT
-7	아니	O	O	O, B-LC, B-OG, B-PS, B-QT
-8	##라	O	O	O, B-LC, B-PS, B-OG, B-QT
-9	고령	B-LC	B-LC	B-LC, O, B-OG, B-DT, B-AF
-10	##의	O	O	O, I-LC, I-AF, I-DT, I-OG
-11	대가	B-DT	B-DT	B-DT, B-LC, I-LC, I-DT, O
-12	##야	I-DT	I-LC	I-LC, I-DT, O, I-EV, I-AF
-13	등	O	O	O, I-LC, I-DT, B-LC, I-AF
-14	가야	B-DT	B-OG	B-OG, B-DT, B-LC, O, B-FD
-15	##연맹	O	I-OG	I-OG, O, I-EV, I-DT, I-CV
-16	##의	O	O	O, I-OG, I-EV, I-DT, I-AF
-17	다른	O	O	O, B-LC, B-PS, B-OG, B-TM
-18	지역	O	O	O, B-LC, I-LC, B-CV, B-PS
-19	##도	O	O	O, B-LC, B-CV, B-PS, I-LC
-20	관심	O	O	O, B-LC, B-CV, B-TM, B-OG
-21	##을	O	O	O, B-CV, B-OG, B-PS, B-LC
-22	가져야	O	O	O, B-CV, B-LC, B-OG, I-AF
-23	하고	O	O	O, B-CV, B-LC, B-PS, I-CV
-24	##요	O	O	O, B-CV, B-LC, I-OG, I-CV
-25	.	O	O	O, B-LC, B-CV, B-PS, B-OG
-26	""""	O	O	O, B-CV, B-LC, B-TM, B-PS
-27	[SEP]	O	O	O, B-LC, B-CV, B-PS, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	이달	B-DT	B-DT
+2	중	I-DT	O
+3	강원도	B-LC	B-LC
+4	##에	O	O
+5	##서는	O	O
+6	명성	B-OG	B-OG
+7	##씨	I-OG	I-OG
+8	##엔	I-OG	I-OG
+9	##아이	I-OG	I-OG
+10	##㈜	I-OG	I-OG
+11	##가	O	O
+12	정선	B-LC	B-LC
+13	##군	I-LC	I-LC
+14	북	B-LC	B-LC
+15	##평	I-LC	I-LC
+16	##면	I-LC	I-LC
+17	문	B-LC	B-LC
+18	##곡리	I-LC	I-LC
+19	일대	O	O
+20	##에	O	O
+21	분양	O	O
+22	##하	O	O
+23	##는	O	O
+24	207	B-QT	B-QT
+25	##가	I-QT	I-QT
+26	##구	I-QT	I-QT
+27	##가	O	O
+28	분양	O	O
+29	##예	O	O
+30	##정	O	O
+31	물량	O	O
+32	##의	O	O
+33	전부	O	O
+34	##인	O	O
+35	것	O	O
+36	##으로	O	O
+37	집계	O	O
+38	##됐	O	O
+39	##다	O	O
+40	.	O	O
+41	[SEP]	O	O

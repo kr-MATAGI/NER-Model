@@ -1,29 +1,30 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	북한	B-OG	B-LC	B-LC, B-OG, O, B-PS, B-AF
-2	미얀마	B-OG	B-LC	B-LC, B-OG, I-OG, I-LC, O
-3	파키스탄	B-LC	B-LC	B-LC, B-OG, I-OG, I-LC, O
-4	등	O	O	O, I-OG, I-LC, I-AF, B-LC
-5	중국	B-LC	B-OG	B-OG, B-LC, O, B-PS, B-AF
-6	##의	O	O	O, I-OG, I-LC, I-AF, I-PS
-7	이른바	O	O	O, B-QT, B-LC, B-PS, B-OG
-8	3	B-QT	B-QT	B-QT, I-QT, O, B-EV, B-DT
-9	##대	I-QT	I-QT	I-QT, O, I-EV, I-LC, I-OG
-10	동맹국	O	O	O, B-CV, B-LC, B-OG, I-QT
-11	중	O	O	O, B-LC, B-TM, B-OG, B-QT
-12	파키스탄	B-LC	B-LC	B-LC, B-OG, O, B-PS, B-AF
-13	##에	O	O	O, I-OG, I-LC, I-AF, I-EV
-14	##만	O	O	O, B-LC, I-LC, B-PS, I-QT
-15	각별	O	O	O, B-LC, B-CV, B-TM, B-OG
-16	##한	O	O	O, B-LC, B-OG, B-PS, B-TM
-17	애정	O	O	O, B-CV, B-LC, B-PS, B-TM
-18	##을	O	O	O, B-CV, B-OG, B-LC, B-PS
-19	표시	O	O	O, B-CV, B-LC, B-PS, B-TM
-20	##한	O	O	O, B-LC, B-PS, B-CV, B-OG
-21	점	O	O	O, B-CV, B-OG, B-LC, B-TM
-22	##이	O	O	O, B-PS, B-CV, B-LC, B-OG
-23	눈길	O	O	O, B-CV, B-TM, B-QT, B-OG
-24	##을	O	O	O, B-CV, I-OG, I-CV, I-AF
-25	끈다	O	O	O, B-CV, B-QT, I-OG, B-LC
-26	.	O	O	O, B-LC, B-CV, B-OG, B-PS
-27	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	<	O	O
+2	뉴욕	B-OG	B-OG
+3	타임스	I-OG	I-OG
+4	>	O	O
+5	는	O	O
+6	미국	B-LC	B-OG
+7	##의	O	O
+8	이날	B-DT	B-DT
+9	공식	O	O
+10	##사	O	O
+11	##과	O	O
+12	##로	O	O
+13	파키스탄	B-LC	B-LC
+14	정부	B-OG	B-OG
+15	##가	O	O
+16	조만간	O	O
+17	다시	O	O
+18	보급	O	O
+19	##로	O	O
+20	##를	O	O
+21	열	O	O
+22	것	O	O
+23	##으로	O	O
+24	보인다고	O	O
+25	전했	O	O
+26	##다	O	O
+27	.	O	O
+28	[SEP]	O	O

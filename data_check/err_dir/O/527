@@ -1,32 +1,36 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-QT
-1	본	O	O	O, B-EV, B-CV, B-LC, B-OG
-2	##안	O	O	O, I-EV, I-CV, B-EV, I-OG
-3	##소송	O	O	O, I-EV, I-CV, I-OG, B-CV
-4	##이	B-PS	B-PS	B-PS, O, I-PS, B-LC, B-OG
-5	남	O	O	O, B-PS, I-PS, I-EV, B-CV
-6	##았	O	O	O, B-PS, I-PS, B-LC, B-CV
-7	##지만	O	O	O, B-PS, I-PS, B-LC, I-EV
-8	이	O	B-PS	B-PS, O, I-PS, B-LC, B-OG
-9	국장	B-CV	B-CV	B-CV, O, I-CV, I-PS, B-TM
-10	##은	O	O	O, I-CV, B-PS, I-PS, B-CV
-11	남	O	O	O, B-PS, B-CV, B-QT, B-LC
-12	##은	O	O	O, B-PS, I-PS, B-LC, B-CV
-13	임기	O	O	O, B-CV, B-PS, I-PS, B-DT
-14	##인	O	O	O, B-PS, I-PS, B-LC, B-CV
-15	올해	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-CV
-16	12	I-DT	I-DT	I-DT, O, B-DT, I-PS, I-QT
-17	##월	I-DT	I-DT	I-DT, O, B-DT, I-PS, I-QT
-18	##까	I-DT	I-DT	I-DT, O, B-DT, I-PS, I-QT
-19	##지	I-DT	I-DT	I-DT, O, B-DT, I-PS, I-QT
-20	편집국장	B-CV	B-CV	B-CV, O, I-CV, I-DT, B-TM
-21	지위	O	O	O, I-CV, B-CV, B-QT, B-TM
-22	##를	O	O	O, B-PS, B-CV, B-TM, I-CV
-23	유지	O	O	O, B-CV, B-PS, B-TM, B-LC
-24	##할	O	O	O, B-PS, B-CV, B-LC, B-OG
-25	가능	O	O	O, B-PS, B-CV, B-QT, B-TM
-26	##성이	O	O	O, B-PS, B-CV, B-QT, B-OG
-27	높	O	O	O, B-CV, B-TM, B-PS, B-QT
-28	##다	O	O	O, B-CV, B-PS, B-TM, B-QT
-29	.	O	O	O, B-PS, B-CV, B-LC, B-OG
-30	[SEP]	O	O	O, B-PS, B-CV, B-LC, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	월성	B-AF	B-LC
+2	발굴	O	O
+3	##은	O	O
+4	1914	B-DT	B-DT
+5	##년	I-DT	I-DT
+6	일제	B-OG	B-OG
+7	##가	O	O
+8	남	O	B-TM
+9	##벽	O	O
+10	부근	O	O
+11	##을	O	O
+12	파헤	O	O
+13	##친	O	O
+14	지	O	O
+15	100	B-DT	B-DT
+16	##년	I-DT	I-DT
+17	만	I-DT	I-DT
+18	##에	O	O
+19	우리	O	O
+20	손	B-AM	B-AM
+21	##으로	O	O
+22	실시	O	O
+23	##한	O	O
+24	최초	O	O
+25	##의	O	O
+26	발굴	O	O
+27	##이	O	O
+28	##라는	O	O
+29	의미	O	O
+30	##가	O	O
+31	크	O	O
+32	##다	O	O
+33	.	O	O
+34	[SEP]	O	O

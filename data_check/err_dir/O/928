@@ -1,17 +1,28 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, I-OG, B-CV, I-AF
-1	호	O	O	O, B-AM, B-PS, B-LC, B-CV
-2	##젓	O	O	O, I-PS, I-LC, I-CV, B-PS
-3	##한	O	O	O, B-PS, B-LC, B-AM, I-PS
-4	[UNK]	O	O	O, B-CV, B-LC, B-PS, B-AM
-5	장	O	B-CV	B-CV, O, I-CV, B-AM, B-TM
-6	##꾼	O	I-CV	I-CV, O, B-CV, I-AM, I-PT
-7	##들	O	O	O, I-CV, I-OG, I-AF, B-PS
-8	사연	O	O	O, B-CV, B-FD, B-LC, B-OG
-9	‘	O	O	O, B-CV, B-OG, B-LC, B-PS
-10	소	O	O	O, B-PS, B-CV, B-AM, B-LC
-11	##곤	O	O	O, I-PS, I-CV, I-LC, I-AM
-12	##소	O	O	O, I-PS, I-CV, B-PS, I-LC
-13	##곤	O	O	O, I-PS, I-CV, I-LC, I-AM
-14	’	O	O	O, I-CV, B-CV, I-PS, I-AF
-15	[SEP]	O	O	O, B-CV, B-LC, B-PS, I-CV
+	text	label	preds
+0	[CLS]	O	O
+1	(	O	O
+2	이상	O	B-PS
+3	##은	O	I-PS
+4	정치	O	O
+5	##부	O	O
+6	출신	O	O
+7	에디터	B-CV	B-CV
+8	한	O	O
+9	명과	O	O
+10	법조	O	O
+11	##팀	O	O
+12	출신	O	O
+13	팀장	B-CV	B-CV
+14	한	O	O
+15	명과	O	O
+16	나눈	O	O
+17	대화	O	O
+18	##를	O	O
+19	섞	O	O
+20	##어	O	O
+21	구성	O	O
+22	##했	O	O
+23	##다	O	O
+24	.	O	O
+25	)	O	O
+26	[SEP]	O	O

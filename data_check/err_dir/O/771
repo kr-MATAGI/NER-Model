@@ -1,11 +1,51 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-AF
-1	저쪽	O	O	O, B-TM, B-LC, B-CV, B-OG
-2	##에	O	O	O, I-AF, I-TM, I-OG, B-PS
-3	양	O	B-TM	B-TM, O, B-CV, B-QT, B-LC
-4	옆	B-TM	I-TM	I-TM, B-TM, O, I-QT, I-CV
-5	##에도	O	O	O, I-TM, I-QT, I-CV, I-OG
-6	산도	O	O	O, B-LC, B-CV, B-AF, B-OG
-7	있	O	O	O, I-AF, B-CV, B-PS, I-CV
-8	##고	O	O	O, I-AF, B-CV, I-OG, I-CV
-9	[SEP]	O	O	O, B-CV, B-TM, B-LC, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	강신	B-PS	B-PS
+2	##명	I-PS	I-PS
+3	경찰청	B-CV	B-CV
+4	##장	I-CV	I-CV
+5	##은	O	O
+6	1	B-DT	B-DT
+7	##일	I-DT	I-DT
+8	기자	O	O
+9	##간	O	O
+10	##담회	O	O
+11	##에	O	O
+12	##서	O	O
+13	“	O	O
+14	영국	B-LC	B-LC
+15	##의	O	O
+16	‘	O	O
+17	클레어	B-CV	B-CV
+18	##법	I-CV	I-CV
+19	’	O	O
+20	처럼	O	O
+21	상대방	O	O
+22	##의	O	O
+23	가정폭력	O	B-CV
+24	범죄	O	O
+25	경력	O	O
+26	##을	O	O
+27	조회	O	O
+28	##할	O	O
+29	수	O	O
+30	있	O	O
+31	##는	O	O
+32	제도	O	O
+33	##적	O	O
+34	##인	O	O
+35	방안	O	O
+36	##을	O	O
+37	강구	O	O
+38	##하	O	O
+39	##겠다	O	O
+40	”	O	O
+41	고	O	O
+42	말	O	O
+43	##하	O	O
+44	##기	O	O
+45	##도	O	O
+46	했	O	O
+47	##다	O	O
+48	.	O	O
+49	[SEP]	O	O

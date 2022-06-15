@@ -1,35 +1,67 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-AF
-1	美	B-OG	B-LC	B-LC, O, B-OG, B-AF, B-TM
-2	워싱턴	B-LC	B-LC	B-LC, I-LC, B-OG, O, B-AF
-3	해양	B-OG	B-OG	B-OG, I-OG, O, B-AF, B-LC
-4	##체	I-OG	I-OG	I-OG, O, I-LC, I-AF, I-EV
-5	##계	I-OG	I-OG	I-OG, O, I-EV, I-LC, I-AF
-6	##사	I-OG	I-OG	I-OG, O, I-EV, I-AF, I-LC
-7	##령	I-OG	I-OG	I-OG, O, I-EV, I-AF, I-LC
-8	##부	I-OG	I-OG	I-OG, O, I-EV, I-LC, I-AF
-9	(	O	O	O, I-OG, I-EV, I-AF, B-CV
-10	NA	O	B-OG	B-OG, O, B-AF, B-LC, I-OG
-11	##V	O	I-OG	I-OG, O, I-EV, I-AF, B-OG
-12	##S	O	I-OG	I-OG, O, I-EV, I-AF, I-LC
-13	##EA	O	I-OG	I-OG, O, I-EV, I-AF, I-LC
-14	-	O	O	O, I-OG, B-LC, I-EV, B-OG
-15	함정	B-AF	B-AF	B-AF, O, I-AF, B-CV, B-LC
-16	·	O	O	O, I-AF, I-OG, I-LC, I-CV
-17	잠수함	B-AF	B-AF	B-AF, O, I-AF, B-LC, B-TM
-18	등	O	O	O, I-AF, B-CV, I-OG, B-LC
-19	건조	O	O	O, B-CV, B-LC, B-TM, B-OG
-20	·	O	O	O, I-CV, I-LC, B-PS, I-OG
-21	보수	O	O	O, I-CV, B-CV, I-TM, B-LC
-22	담당	O	O	O, B-CV, I-CV, B-LC, I-OG
-23	)	O	O	O, B-CV, B-OG, B-PS, B-LC
-24	괴한	O	O	O, B-CV, B-TM, B-EV, I-CV
-25	총기	B-AF	O	O, B-TM, B-CV, B-EV, I-CV
-26	##난	O	O	O, I-TM, I-CV, I-EV, B-CV
-27	##사	O	O	O, I-TM, I-CV, I-EV, I-TR
-28	10	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-EV
-29	##여	I-QT	I-QT	I-QT, O, I-EV, I-TM, B-QT
-30	##명	I-QT	I-QT	I-QT, O, I-EV, I-LC, I-PS
-31	死	O	O	O, I-QT, B-TM, B-CV, B-QT
-32	[UNK]	O	O	O, I-QT, B-LC, B-OG, B-CV
-33	[SEP]	O	O	O, B-LC, B-OG, B-CV, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	80	B-DT	B-DT
+2	##년	I-DT	I-DT
+3	##대	I-DT	I-DT
+4	해직	B-OG	B-OG
+5	##언	I-OG	I-OG
+6	##론	I-OG	I-OG
+7	##인	I-OG	I-OG
+8	##협	I-OG	I-OG
+9	##의	I-OG	I-OG
+10	##회	I-OG	I-OG
+11	##와	O	O
+12	방송	B-OG	B-OG
+13	##기	I-OG	I-OG
+14	##자	I-OG	I-OG
+15	##연합	I-OG	I-OG
+16	##회	I-OG	I-OG
+17	등	O	O
+18	언론	O	O
+19	·	O	O
+20	시민	O	O
+21	##단체	O	O
+22	17	B-QT	B-QT
+23	##곳	I-QT	I-QT
+24	##은	O	O
+25	이날	B-DT	B-DT
+26	목동	B-LC	B-LC
+27	방송	O	B-AF
+28	##회관	O	I-AF
+29	##에	O	O
+30	##서	O	O
+31	기자	O	O
+32	##회	O	O
+33	##견	O	O
+34	##을	O	O
+35	열	O	O
+36	##어	O	O
+37	“	O	O
+38	우편	O	O
+39	##향	O	O
+40	역사관	O	O
+41	##을	O	O
+42	가진	O	O
+43	##데	O	O
+44	##다	O	O
+45	대통령	B-CV	B-CV
+46	측근	O	O
+47	##인	O	O
+48	인사	O	O
+49	##를	O	O
+50	위원장	B-CV	B-CV
+51	##으로	O	O
+52	임명	O	O
+53	##한	O	O
+54	것	O	O
+55	##은	O	O
+56	이명박	B-PS	B-PS
+57	정부	B-OG	B-OG
+58	때	O	O
+59	##도	O	O
+60	없	O	O
+61	##던	O	O
+62	일	O	O
+63	##이다	O	O
+64	.	O	O
+65	[SEP]	O	O

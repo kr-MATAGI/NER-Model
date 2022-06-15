@@ -1,16 +1,39 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-EV, I-OG, B-CV, I-CV
-1	성남	B-OG	B-OG	B-OG, B-LC, O, I-OG, B-PS
-2	##고	I-OG	I-OG	I-OG, O, I-LC, B-OG, I-AF
-3	·	O	O	O, I-OG, I-LC, I-EV, I-AF
-4	상원	B-OG	B-OG	B-OG, I-OG, B-LC, O, B-PS
-5	##고	I-OG	I-OG	I-OG, O, I-LC, B-OG, I-AF
-6	오늘	B-DT	B-DT	B-DT, O, I-OG, I-DT, B-QT
-7	고교	B-EV	B-EV	B-EV, B-CV, O, I-EV, B-TM
-8	##야구	I-EV	I-EV	I-EV, I-CV, O, B-EV, B-CV
-9	##선	I-EV	I-EV	I-EV, I-CV, O, B-CV, B-EV
-10	##수	I-EV	I-EV	I-EV, I-CV, O, I-TM, I-AF
-11	##권	I-EV	I-EV	I-EV, O, I-CV, I-AF, I-OG
-12	결승	I-EV	B-EV	B-EV, I-EV, O, B-CV, B-LC
-13	격돌	O	O	O, I-EV, B-EV, I-OG, I-AF
-14	[SEP]	O	O	O, I-EV, B-OG, B-LC, B-EV
+	text	label	preds
+0	[CLS]	O	O
+1	북한	B-OG	B-OG
+2	##은	O	O
+3	28	B-DT	B-DT
+4	##일	I-DT	I-DT
+5	평양	B-EV	B-LC
+6	경기	I-EV	O
+7	후	I-EV	O
+8	4	B-DT	B-DT
+9	##일	I-DT	I-DT
+10	만	I-DT	I-DT
+11	##에	O	O
+12	서울	B-LC	B-LC
+13	##에	O	O
+14	##서	O	O
+15	경기	O	O
+16	##를	O	O
+17	갖	O	O
+18	##는	O	O
+19	만큼	O	O
+20	후반전	B-TI	B-TI
+21	체력	O	O
+22	저하	O	O
+23	##를	O	O
+24	노려	O	O
+25	##서	O	O
+26	작전	O	O
+27	##을	O	O
+28	짜	O	O
+29	##야	O	O
+30	한다는	O	O
+31	지적도	O	O
+32	나오	O	O
+33	##고	O	O
+34	있	O	O
+35	##다	O	O
+36	.	O	O
+37	[SEP]	O	O

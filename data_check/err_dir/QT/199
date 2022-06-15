@@ -1,11 +1,11 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	팔	B-QT	B-QT	B-QT, O, I-QT, B-DT, B-EV
-2	##십	I-QT	I-QT	I-QT, O, B-QT, I-EV, I-DT
-3	대	I-QT	I-QT	I-QT, O, B-QT, I-EV, I-DT
-4	이	I-QT	B-QT	B-QT, I-QT, O, B-DT, B-EV
-5	##십	I-QT	I-QT	I-QT, O, I-EV, I-DT, B-QT
-6	##이	O	O	O, I-QT, B-PS, B-CV, I-EV
-7	##었	O	O	O, B-CV, B-OG, I-QT, B-TM
-8	##는데	O	O	O, B-CV, B-OG, I-OG, I-AF
-9	[SEP]	O	O	O, B-CV, B-QT, I-QT, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	팔	B-QT	B-QT
+2	##십	I-QT	I-QT
+3	대	I-QT	I-QT
+4	이	I-QT	B-QT
+5	##십	I-QT	I-QT
+6	##이	O	O
+7	##었	O	O
+8	##는데	O	O
+9	[SEP]	O	O

@@ -1,38 +1,27 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-EV, B-CV, I-OG, I-CV
-1	그러나	O	O	O, B-CV, B-LC, B-OG, B-PS
-2	28	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-OG
-3	##일	I-DT	I-DT	I-DT, O, B-DT, I-EV, I-QT
-4	카이로	B-LC	B-LC	B-LC, O, B-OG, B-AF, I-DT
-5	북서	B-TM	B-TM	B-TM, O, B-LC, B-CV, B-AF
-6	##부	I-TM	I-TM	I-TM, O, B-TM, I-LC, I-QT
-7	무한	B-LC	B-LC	B-LC, O, B-OG, I-LC, I-TM
-8	##디	I-LC	I-LC	I-LC, O, B-LC, I-OG, I-AF
-9	##신	I-LC	I-LC	I-LC, O, B-LC, I-OG, I-AF
-10	지구	O	I-LC	I-LC, O, B-LC, I-OG, I-AF
-11	##에	O	O	O, I-LC, I-OG, I-AF, I-QT
-12	최소	O	O	O, B-QT, B-DT, B-CV, B-EV
-13	2	B-QT	B-QT	B-QT, I-QT, O, B-DT, B-PS
-14	##만	I-QT	I-QT	I-QT, O, B-QT, I-LC, I-PS
-15	##명	I-QT	I-QT	I-QT, O, I-LC, B-QT, I-PS
-16	##이	O	O	O, I-QT, B-PS, B-OG, B-CV
-17	모이	O	O	O, B-CV, B-LC, B-OG, B-EV
-18	##는	O	O	O, B-LC, B-CV, B-OG, B-PS
-19	등	O	O	O, B-LC, B-PS, B-OG, B-CV
-20	전국	O	O	O, B-LC, B-PS, I-LC, B-OG
-21	각지	O	O	O, B-LC, I-LC, B-QT, B-CV
-22	##에	O	O	O, B-LC, B-PS, I-LC, I-EV
-23	금	B-DT	B-DT	B-DT, O, B-EV, I-DT, B-CV
-24	##요	I-DT	I-DT	I-DT, O, B-DT, I-EV, I-QT
-25	기도	O	O	O, B-EV, I-EV, I-DT, B-CV
-26	##를	O	O	O, I-EV, B-CV, I-OG, B-PS
-27	마친	O	O	O, B-LC, B-CV, B-PS, B-OG
-28	시민	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-EV
-29	##들이	O	O	O, I-CV, I-EV, I-OG, I-AF
-30	거리	O	O	O, B-CV, B-LC, B-TM, B-AF
-31	##로	O	O	O, B-CV, B-LC, I-AF, B-PS
-32	쏟아져	O	O	O, B-LC, B-CV, B-OG, B-TM
-33	나왔	O	O	O, B-CV, B-LC, B-OG, B-PS
-34	##다	O	O	O, B-CV, I-EV, B-LC, I-OG
-35	.	O	O	O, B-LC, B-PS, B-CV, B-OG
-36	[SEP]	O	O	O, B-LC, B-CV, I-EV, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	서장	B-PS	B-PS
+2	##훈	I-PS	I-PS
+3	##은	O	O
+4	이날	B-DT	B-DT
+5	종료	O	O
+6	28	B-TI	B-TI
+7	##초	I-TI	I-TI
+8	전	I-TI	I-TI
+9	,	O	O
+10	2	B-QT	B-QT
+11	##점	I-QT	I-QT
+12	차	O	O
+13	앞선	O	O
+14	상황	O	O
+15	##에	O	O
+16	##서	O	O
+17	쐐기	O	O
+18	2	B-QT	B-QT
+19	##점	I-QT	I-QT
+20	##포	O	I-QT
+21	##를	O	O
+22	터뜨렸	O	O
+23	##다	O	O
+24	.	O	O
+25	[SEP]	O	O

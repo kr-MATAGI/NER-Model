@@ -1,10 +1,37 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	이	O	O	O, B-PS, B-CV, B-TR, B-LC
-2	~	O	O	O, B-CV, B-PS, I-CV, I-QT
-3	그	O	O	O, B-CV, B-LC, B-PS, B-OG
-4	인권	O	B-CV	B-CV, O, B-FD, I-CV, B-TR
-5	##이나	O	O	O, I-CV, B-CV, I-OG, I-AF
-6	민주	O	O	O, B-TR, B-CV, B-FD, B-PS
-7	##적인	O	O	O, I-TR, I-CV, I-PS, B-TR
-8	[SEP]	O	O	O, B-CV, I-TR, I-CV, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	이	O	O
+2	소재	O	O
+3	##로	O	O
+4	인공	B-TM	B-TM
+5	##근	I-TM	I-TM
+6	##육	I-TM	I-TM
+7	##을	O	O
+8	만들	O	O
+9	##면	O	O
+10	의	O	O
+11	##수	O	O
+12	##나	O	O
+13	의	O	O
+14	##족	O	O
+15	,	O	O
+16	사람	O	O
+17	##처럼	O	O
+18	자연	O	O
+19	##스럽	O	O
+20	##게	O	O
+21	움직이	O	O
+22	##는	O	O
+23	로봇	O	B-TM
+24	##을	O	O
+25	개발	O	O
+26	##하	O	O
+27	##는	O	O
+28	데	O	O
+29	유용	O	O
+30	##할	O	O
+31	것	O	O
+32	##으로	O	O
+33	보인다	O	O
+34	.	O	O
+35	[SEP]	O	O

@@ -1,20 +1,22 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-EV
-1	•	O	O	O, B-OG, B-LC, B-PS, B-DT
-2	민주	B-OG	B-OG	B-OG, O, B-PS, B-LC, I-OG
-3	·	O	I-OG	I-OG, O, I-LC, I-EV, B-OG
-4	선진	B-OG	I-OG	I-OG, B-OG, O, B-PS, B-LC
-5	##당	I-OG	I-OG	I-OG, O, I-LC, B-OG, I-EV
-6	반대	O	O	O, I-OG, B-CV, I-EV, I-AF
-7	표결	O	O	O, B-OG, B-CV, B-LC, B-TM
-8	밝혀	O	O	O, B-LC, B-OG, B-PS, I-OG
-9	…	O	O	O, B-OG, B-LC, B-PS, I-OG
-10	한나라	B-OG	B-OG	B-OG, O, B-LC, B-PS, I-OG
-11	6	B-DT	B-DT	B-DT, I-DT, O, I-OG, B-EV
-12	##월	I-DT	I-DT	I-DT, O, I-OG, I-EV, I-QT
-13	##국	B-OG	B-OG	B-OG, O, B-EV, I-OG, I-EV
-14	##회	I-OG	I-OG	I-OG, I-EV, O, I-DT, I-LC
-15	##로	O	O	O, I-OG, I-EV, I-DT, I-AF
-16	결정	O	O	O, B-CV, B-LC, B-OG, B-TM
-17	미뤄	O	O	O, B-LC, B-OG, B-PS, B-CV
-18	[SEP]	O	O	O, B-LC, B-OG, I-OG, B-CV
+	text	label	preds
+0	[CLS]	O	O
+1	야구	O	B-CV
+2	##계	O	O
+3	##에	O	O
+4	##는	O	O
+5	기교	O	O
+6	##파	O	O
+7	투수	B-CV	B-CV
+8	##들이	O	O
+9	낮	B-TI	B-TI
+10	경기	O	O
+11	##에	O	O
+12	강하	O	O
+13	##다는	O	O
+14	속	O	O
+15	##설	O	O
+16	##이	O	O
+17	있	O	O
+18	##다	O	O
+19	.	O	O
+20	[SEP]	O	O

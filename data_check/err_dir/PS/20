@@ -1,64 +1,20 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-EV, I-OG, I-CV
-1	이란	B-OG	B-OG	B-OG, B-LC, O, B-PS, B-TM
-2	##은	O	O	O, I-OG, I-LC, B-OG, I-EV
-3	미국	B-OG	B-OG	B-OG, B-LC, O, I-OG, B-PS
-4	##의	O	O	O, I-OG, I-LC, I-EV, B-OG
-5	반대	O	O	O, B-LC, B-CV, B-OG, B-EV
-6	##에도	O	O	O, B-LC, I-EV, B-OG, B-CV
-7	불구	O	O	O, B-LC, B-OG, B-EV, B-CV
-8	##하고	O	O	O, B-LC, I-EV, B-PS, B-EV
-9	지난달	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-LC
-10	미사일	B-AF	B-AF	B-AF, O, I-AF, B-EV, B-TM
-11	발사	O	O	O, I-AF, I-EV, I-LC, I-DT
-12	시험	O	O	O, B-LC, I-EV, I-AF, B-PS
-13	##을	O	O	O, B-LC, B-CV, B-OG, B-PS
-14	강행	O	O	O, B-LC, B-CV, B-OG, B-EV
-15	##한	O	O	O, B-LC, B-PS, B-OG, B-CV
-16	데	O	O	O, B-LC, B-CV, B-OG, B-PS
-17	이어	O	O	O, B-LC, B-PS, B-OG, I-EV
-18	17	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-QT
-19	##일	I-DT	I-DT	I-DT, O, B-DT, I-EV, I-QT
-20	테헤란	B-LC	B-LC	B-LC, O, B-OG, B-AF, I-LC
-21	남부	B-TM	B-TM	B-TM, O, B-LC, B-CV, I-TM
-22	이맘	B-PS	B-LC	B-LC, B-PS, B-AF, O, I-LC
-23	호	I-PS	I-LC	I-LC, B-LC, I-PS, I-AF, O
-24	##메이	I-PS	I-LC	I-LC, I-PS, I-AF, O, B-LC
-25	##니	I-PS	I-LC	I-LC, I-PS, I-AF, O, B-LC
-26	묘역	O	I-LC	I-LC, O, I-AF, B-LC, I-PS
-27	##에서	O	O	O, I-LC, I-AF, B-LC, I-EV
-28	열린	O	O	O, B-EV, B-LC, B-CV, B-PS
-29	열병	B-EV	B-EV	B-EV, O, I-EV, B-AF, B-LC
-30	##식	I-EV	I-EV	I-EV, O, I-AF, I-LC, I-OG
-31	##에서	O	O	O, I-EV, I-AF, B-LC, I-DT
-32	러시아	B-LC	B-LC	B-LC, B-OG, O, B-CV, B-FD
-33	##제	O	O	O, I-LC, I-CV, I-AF, I-OG
-34	S	B-AF	B-AF	B-AF, O, I-AF, B-TM, B-OG
-35	-	I-AF	I-AF	I-AF, O, I-TM, I-OG, I-LC
-36	300	I-AF	I-AF	I-AF, O, I-TM, I-QT, I-OG
-37	지대	I-AF	B-AF	B-AF, I-AF, O, B-TM, I-TM
-38	##공	I-AF	I-AF	I-AF, O, B-AF, I-TM, I-QT
-39	##미사	I-AF	I-AF	I-AF, O, B-AF, I-TM, I-QT
-40	##일	I-AF	I-AF	I-AF, O, I-TM, B-AF, I-QT
-41	##을	O	O	O, I-AF, I-EV, I-TM, B-AF
-42	공개	O	O	O, B-LC, B-CV, B-TM, I-AF
-43	##하	O	O	O, B-LC, B-OG, B-PS, B-DT
-44	##는	O	O	O, B-LC, B-OG, B-CV, B-AF
-45	등	O	O	O, B-LC, B-OG, B-TM, B-CV
-46	무력	O	O	O, B-LC, B-EV, B-CV, I-EV
-47	##시위	O	O	O, I-EV, I-LC, B-LC, B-CV
-48	##를	O	O	O, I-EV, B-LC, B-CV, I-OG
-49	벌여	O	O	O, B-LC, B-OG, B-CV, B-TM
-50	주변	O	O	O, B-LC, B-OG, B-CV, B-TM
-51	##국	O	O	O, B-OG, B-LC, I-OG, B-CV
-52	##과	O	O	O, B-LC, B-CV, B-OG, B-PS
-53	##의	O	O	O, B-LC, B-OG, B-CV, B-PS
-54	긴장	O	O	O, B-LC, B-CV, B-OG, B-PS
-55	수위	O	O	O, B-LC, B-PS, B-OG, B-CV
-56	##를	O	O	O, B-CV, B-OG, B-LC, I-OG
-57	높이	O	O	O, B-LC, B-OG, B-CV, B-PS
-58	##고	O	O	O, B-LC, B-PS, B-OG, B-CV
-59	있	O	O	O, B-LC, B-CV, B-PS, B-OG
-60	##다	O	O	O, B-LC, B-PS, B-OG, B-CV
-61	.	O	O	O, B-LC, B-OG, B-PS, B-CV
-62	[SEP]	O	O	O, B-LC, B-CV, I-EV, B-OG
+	text	label	preds
+0	[CLS]	O	O
+1	이번	O	O
+2	전시	O	O
+3	##는	O	O
+4	아시아	B-LC	B-LC
+5	최초	O	O
+6	##로	O	O
+7	열리	O	O
+8	##는	O	O
+9	투	B-PS	B-CV
+10	##탕	I-PS	I-CV
+11	##카	I-PS	I-CV
+12	##멘	I-PS	I-CV
+13	관련	O	O
+14	특별	O	O
+15	##전	O	O
+16	##이다	O	O
+17	.	O	O
+18	[SEP]	O	O

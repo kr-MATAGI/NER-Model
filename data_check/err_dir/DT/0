@@ -1,19 +1,19 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-AF
-1	[	O	O	O, B-LC, B-OG, B-CV, B-PS
-2	수도권	B-LC	B-LC	B-LC, O, B-OG, B-TM, B-AF
-3	##Ⅰ	B-QT	B-QT	B-QT, O, I-LC, I-QT, B-EV
-4	]	O	O	O, I-QT, I-EV, I-DT, B-LC
-5	4	B-DT	B-EV	B-EV, B-DT, O, B-LC, B-AF
-6	·	I-DT	I-EV	I-EV, I-DT, O, I-LC, I-QT
-7	29	I-DT	I-EV	I-EV, I-DT, I-LC, I-AF, I-QT
-8	시흥시	O	I-EV	I-EV, O, B-EV, I-LC, B-LC
-9	##장	O	I-EV	I-EV, O, I-LC, I-AF, B-EV
-10	보궐	B-EV	I-EV	I-EV, B-EV, O, B-LC, I-AF
-11	##선거	I-EV	I-EV	I-EV, O, I-AF, B-EV, I-LC
-12	3	B-QT	B-QT	B-QT, I-EV, B-CV, I-QT, O
-13	##자	I-QT	I-QT	I-QT, I-EV, I-CV, O, I-TM
-14	대결	O	O	O, I-QT, I-EV, B-LC, I-CV
-15	##구	O	O	O, B-LC, B-PS, B-CV, B-OG
-16	##도	O	O	O, I-LC, I-OG, I-EV, I-CV
-17	[SEP]	O	O	O, B-LC, I-EV, B-EV, B-CV
+	text	label	preds
+0	[CLS]	O	O
+1	[	O	O
+2	수도권	B-LC	B-LC
+3	##Ⅰ	B-QT	B-QT
+4	]	O	O
+5	4	B-DT	B-EV
+6	·	I-DT	I-EV
+7	29	I-DT	I-EV
+8	시흥시	O	I-EV
+9	##장	O	I-EV
+10	보궐	B-EV	I-EV
+11	##선거	I-EV	I-EV
+12	3	B-QT	B-QT
+13	##자	I-QT	I-QT
+14	대결	O	O
+15	##구	O	O
+16	##도	O	O
+17	[SEP]	O	O

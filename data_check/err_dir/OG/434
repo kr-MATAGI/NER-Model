@@ -1,13 +1,59 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, B-CV, I-AF
-1	제	B-QT	B-QT	B-QT, B-DT, O, B-CV, I-QT
-2	##2	I-QT	I-QT	I-QT, I-DT, I-EV, I-OG, B-QT
-3	##인	O	I-QT	I-QT, O, I-DT, B-QT, I-CV
-4	##생	O	I-QT	I-QT, O, I-DT, I-EV, I-CV
-5	종합	B-OG	O	O, B-OG, I-OG, I-QT, I-TM
-6	##설	I-OG	O	O, I-OG, B-OG, I-QT, I-TM
-7	##계	I-OG	O	O, I-OG, I-TM, B-OG, I-AF
-8	협동조합	I-OG	O	O, I-OG, B-OG, I-TM, I-AF
-9	##도	O	O	O, I-OG, I-AF, I-CV, I-TM
-10	출범	O	O	O, B-OG, B-CV, B-TM, I-OG
-11	[SEP]	O	O	O, I-OG, B-OG, B-CV, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	베이징	B-LC	B-LC
+2	##과	O	O
+3	다	B-LC	B-LC
+4	##롄	I-LC	I-LC
+5	##의	O	O
+6	정통	O	O
+7	##한	O	O
+8	한	O	O
+9	소식통	O	O
+10	##은	O	O
+11	“	O	O
+12	법원	B-OG	B-OG
+13	##이	O	O
+14	지방	B-OG	B-OG
+15	##정부	I-OG	I-OG
+16	(	O	O
+17	다	B-OG	B-LC
+18	##롄	I-OG	I-LC
+19	시	I-OG	I-LC
+20	)	O	O
+21	에	O	O
+22	문의	O	O
+23	##했	O	O
+24	##지만	O	O
+25	답	O	O
+26	##이	O	O
+27	없	O	O
+28	##다고	O	O
+29	##만	O	O
+30	한다	O	O
+31	”	O	O
+32	면서	O	O
+33	“	O	O
+34	지방	B-OG	B-OG
+35	##정부	I-OG	I-OG
+36	##와	O	O
+37	법원	B-OG	B-OG
+38	##이	O	O
+39	서로	O	O
+40	책임	O	O
+41	##을	O	O
+42	떠넘기	O	O
+43	##고	O	O
+44	있	O	O
+45	##는	O	O
+46	측면	O	O
+47	##이	O	O
+48	없	O	O
+49	##지	O	O
+50	않	O	O
+51	##다	O	O
+52	”	O	O
+53	고	O	O
+54	전했	O	O
+55	##다	O	O
+56	.	O	O
+57	[SEP]	O	O

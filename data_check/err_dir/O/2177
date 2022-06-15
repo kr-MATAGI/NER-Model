@@ -1,40 +1,35 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-AF
-1	기타	B-AF	B-AF	B-AF, O, B-PS, B-AM, B-OG
-2	트리오	O	I-AF	I-AF, B-CV, I-OG, O, I-PS
-3	##를	O	O	O, I-OG, I-AF, I-CV, I-QT
-4	결성	O	O	O, B-CV, B-OG, B-TM, B-LC
-5	##한	O	O	O, B-PS, B-LC, B-CV, B-OG
-6	이유	O	O	O, B-CV, B-TM, B-LC, B-AF
-7	##는	O	O	O, B-CV, B-LC, B-PS, B-OG
-8	어	B-AF	B-AF	B-AF, O, B-FD, B-OG, I-AF
-9	##쿠스	I-AF	I-AF	I-AF, O, I-FD, I-OG, B-AF
-10	##틱	I-AF	I-AF	I-AF, O, I-FD, I-QT, I-OG
-11	기타	I-AF	I-AF	I-AF, O, B-AF, I-QT, I-CV
-12	##를	O	O	O, I-AF, I-OG, I-EV, I-CV
-13	연주	O	O	O, B-CV, B-PS, I-AF, B-FD
-14	##하기	O	O	O, B-CV, B-PS, I-AF, I-EV
-15	위해서	O	O	O, B-PS, B-CV, B-QT, B-LC
-16	##였	O	O	O, B-PS, B-CV, B-LC, B-OG
-17	##는데	O	O	O, B-CV, B-LC, I-AF, B-OG
-18	,	O	O	O, B-CV, B-OG, B-LC, B-PS
-19	더	O	O	O, B-CV, B-OG, B-PS, B-LC
-20	중요	O	O	O, B-CV, B-OG, B-LC, B-TM
-21	##한	O	O	O, B-PS, B-LC, B-OG, B-CV
-22	이유	O	O	O, B-CV, B-TM, B-PS, B-LC
-23	##는	O	O	O, B-CV, B-LC, B-PS, B-OG
-24	플라	B-FD	B-FD	B-FD, B-AF, O, B-CV, I-FD
-25	##멩	I-FD	I-FD	I-FD, I-AF, O, I-CV, B-FD
-26	##코	I-FD	I-FD	I-FD, O, I-AF, I-CV, I-OG
-27	음악	O	O	O, I-FD, B-FD, I-AF, I-OG
-28	##을	O	O	O, I-AF, I-FD, B-CV, I-OG
-29	배워	O	O	O, B-CV, B-LC, B-PS, B-FD
-30	##보	O	O	O, B-PS, B-CV, I-LC, I-QT
-31	##고	O	O	O, B-PS, B-CV, B-LC, I-QT
-32	싶	O	O	O, B-CV, B-PS, B-LC, I-QT
-33	##어	O	O	O, B-PS, I-CV, I-QT, I-LC
-34	##서	O	O	O, B-PS, I-QT, B-QT, B-LC
-35	##였	O	O	O, B-PS, B-LC, B-CV, B-OG
-36	##다	O	O	O, B-CV, I-OG, B-LC, I-AF
-37	.	O	O	O, B-CV, B-LC, B-PS, I-OG
-38	[SEP]	O	O	O, B-CV, I-AF, B-LC, B-FD
+	text	label	preds
+0	[CLS]	O	O
+1	30	B-DT	B-DT
+2	##일	I-DT	I-DT
+3	오전	B-TI	B-TI
+4	4	I-TI	I-TI
+5	##시	I-TI	I-TI
+6	##부터	I-TI	I-TI
+7	10	B-DT	B-DT
+8	##월	I-DT	I-DT
+9	5	I-DT	I-DT
+10	##일	I-DT	I-DT
+11	밤	B-TI	B-TI
+12	12	I-TI	I-TI
+13	##시	I-TI	I-TI
+14	##까	I-TI	I-TI
+15	##지	I-TI	I-TI
+16	개인	O	O
+17	##택시	O	B-AF
+18	부제	O	O
+19	##를	O	O
+20	해제	O	O
+21	##해	O	O
+22	1	O	O
+23	##만	O	O
+24	##50	O	O
+25	##00	O	O
+26	##여	O	O
+27	대가	O	O
+28	추가	O	O
+29	##로	O	O
+30	운행	O	O
+31	##한다	O	O
+32	.	O	O
+33	[SEP]	O	O

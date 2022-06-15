@@ -1,56 +1,41 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-OG, I-EV
-1	작가	O	B-CV	B-CV, O, I-CV, B-FD, B-TM
-2	##의	O	O	O, I-CV, B-CV, B-PS, I-AF
-3	책	O	O	O, B-CV, B-FD, B-TM, I-CV
-4	##을	O	O	O, B-CV, B-PS, I-CV, B-LC
-5	여러	O	O	O, B-QT, B-PS, B-CV, B-LC
-6	권	O	O	O, I-QT, B-QT, B-PS, I-LC
-7	번역	O	O	O, B-CV, I-QT, B-LC, B-FD
-8	##한	O	O	O, B-PS, B-CV, I-CV, B-LC
-9	정영	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-CV
-10	##목	I-PS	I-PS	I-PS, O, I-OG, B-PS, I-LC
-11	##씨	O	O	O, I-PS, B-CV, I-CV, I-OG
-12	##는	O	O	O, B-CV, I-CV, B-TM, B-PS
-13	작가	O	B-CV	B-CV, O, I-CV, B-FD, B-TM
-14	##의	O	O	O, I-CV, B-CV, B-PS, I-EV
-15	글	O	O	O, B-CV, B-FD, B-TM, B-LC
-16	##이	O	O	O, B-PS, B-CV, B-OG, B-LC
-17	이번	O	O	O, B-CV, B-OG, B-PS, B-FD
-18	##에도	O	O	O, B-CV, B-PS, I-CV, B-LC
-19	“	O	O	O, B-CV, B-LC, B-PS, B-OG
-20	문명	O	O	O, B-FD, B-CV, B-LC, I-CV
-21	##과	O	O	O, B-PS, B-CV, B-LC, I-AF
-22	사회	O	O	O, B-FD, B-CV, B-LC, I-CV
-23	##에	O	O	O, B-CV, B-FD, B-PS, I-CV
-24	관한	O	O	O, B-LC, B-PS, B-CV, B-OG
-25	깊	O	O	O, B-PS, B-CV, B-LC, B-FD
-26	##고	O	O	O, B-PS, B-LC, B-CV, B-OG
-27	은근	O	O	O, B-CV, B-LC, B-PS, B-FD
-28	##한	O	O	O, B-PS, B-LC, B-OG, B-CV
-29	통찰	O	O	O, B-CV, B-FD, B-PS, B-LC
-30	,	O	O	O, B-CV, B-PS, B-LC, I-CV
-31	그러나	O	O	O, B-CV, B-PS, B-LC, B-OG
-32	결코	O	O	O, B-CV, B-LC, B-PS, B-OG
-33	개인	O	O	O, B-CV, B-LC, B-PS, B-FD
-34	감정	O	O	O, B-PS, B-LC, B-CV, B-FD
-35	##의	O	O	O, B-PS, B-LC, B-CV, B-OG
-36	미세	O	O	O, B-LC, B-PS, B-CV, B-TM
-37	##한	O	O	O, B-PS, B-LC, B-OG, I-PS
-38	움직임	O	O	O, B-PS, B-LC, B-CV, B-TM
-39	##과	O	O	O, B-PS, B-LC, B-CV, B-TM
-40	따로	O	O	O, B-LC, B-PS, B-TM, B-QT
-41	놀	O	O	O, B-LC, B-PS, B-CV, B-TM
-42	##지	O	O	O, B-LC, B-PS, B-CV, B-TM
-43	않	O	O	O, B-LC, B-PS, B-CV, B-TM
-44	##는	O	O	O, B-LC, B-PS, B-CV, B-OG
-45	통찰	O	O	O, B-CV, B-FD, B-PS, B-LC
-46	##들	O	O	O, B-CV, B-PS, I-CV, B-LC
-47	##에	O	O	O, B-CV, B-PS, B-LC, B-TM
-48	이른다	O	O	O, B-PS, B-CV, B-LC, B-OG
-49	”	O	O	O, B-CV, I-CV, B-TM, B-PS
-50	고	O	O	O, B-CV, B-TM, B-LC, B-QT
-51	평했	O	O	O, B-CV, B-FD, B-QT, B-PS
-52	##다	O	O	O, B-CV, I-CV, B-TM, B-QT
-53	.	O	O	O, B-CV, B-PS, B-LC, B-FD
-54	[SEP]	O	O	O, B-CV, B-FD, B-LC, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	12	B-DT	B-DT
+2	##일	I-DT	I-DT
+3	오전	B-TI	B-TI
+4	6	I-TI	I-TI
+5	##시	I-TI	I-TI
+6	##부터	I-TI	I-TI
+7	반정부	O	B-OG
+8	##군	O	I-OG
+9	##과	O	O
+10	휴전	O	O
+11	##에	O	O
+12	들어가	O	O
+13	##기	O	O
+14	##로	O	O
+15	했	O	O
+16	##던	O	O
+17	시리아	B-LC	B-LC
+18	정부	B-OG	B-OG
+19	##는	O	O
+20	8	B-DT	B-DT
+21	##일	I-DT	I-DT
+22	‘	O	O
+23	반군	O	B-OG
+24	무장	O	O
+25	##해	O	O
+26	##제	O	O
+27	서면	O	O
+28	##보증	O	O
+29	’	O	O
+30	을	O	O
+31	요구	O	O
+32	##하	O	O
+33	##며	O	O
+34	말	O	O
+35	##을	O	O
+36	바꿨	O	O
+37	##다	O	O
+38	.	O	O
+39	[SEP]	O	O

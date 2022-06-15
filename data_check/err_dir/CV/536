@@ -1,8 +1,12 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-EV, I-CV, B-CV
-1	""""	O	O	O, B-CV, B-LC, B-TM, B-OG
-2	함께	O	O	O, B-AF, B-CV, B-PS, B-OG
-3	배우자	B-CV	O	O, B-CV, B-PS, I-CV, B-AF
-4	!	O	O	O, I-CV, I-AF, I-OG, I-EV
-5	""""	O	O	O, B-CV, B-LC, B-TM, I-EV
-6	[SEP]	O	O	O, B-CV, B-LC, B-OG, B-AF
+	text	label	preds
+0	[CLS]	O	O
+1	뭐	O	O
+2	후라이	O	B-CV
+3	##드	O	I-CV
+4	치킨	B-CV	I-CV
+5	같	O	O
+6	##은	O	O
+7	걸	O	O
+8	먹	O	O
+9	##으면	O	O
+10	[SEP]	O	O

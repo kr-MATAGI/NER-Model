@@ -1,18 +1,55 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-AF
-1	[	O	O	O, B-LC, B-OG, B-CV, B-TM
-2	아파트	O	O	O, B-CV, B-AF, B-TM, B-LC
-3	미리	O	O	O, B-TM, B-OG, B-LC, B-AF
-4	##보기	O	O	O, B-LC, I-AF, I-OG, B-OG
-5	]	O	O	O, B-LC, B-PS, B-OG, B-CV
-6	신영	B-OG	B-PS	B-PS, O, B-OG, B-LC, B-AF
-7	‘	O	O	O, I-PS, I-OG, B-LC, I-AF
-8	천안	B-LC	B-LC	B-LC, B-AF, O, B-EV, B-OG
-9	불	B-LC	B-LC	B-LC, B-AF, I-LC, I-AF, O
-10	##당	I-LC	I-LC	I-LC, I-AF, O, I-PS, B-LC
-11	지	B-AF	B-AF	B-AF, I-AF, I-LC, B-LC, O
-12	##웰	I-AF	I-AF	I-AF, I-LC, B-AF, O, I-PS
-13	##시티	I-AF	I-AF	I-AF, B-AF, O, I-LC, I-TM
-14	푸르지오	I-AF	I-AF	I-AF, B-AF, O, I-LC, I-TM
-15	’	O	O	O, I-AF, I-OG, I-EV, I-TM
-16	[SEP]	O	O	O, B-LC, I-AF, B-OG, B-AF
+	text	label	preds
+0	[CLS]	O	O
+1	다수	O	O
+2	유권자	B-CV	B-CV
+3	##들	O	O
+4	##은	O	O
+5	△	O	O
+6	##지역	B-TR	B-TR
+7	##주의	I-TR	I-TR
+8	△	O	O
+9	##남	B-OG	B-LC
+10	##북	I-OG	I-LC
+11	##문제	O	O
+12	△	O	O
+13	##세대	O	O
+14	갈등	O	O
+15	△	O	O
+16	##이	O	O
+17	##념	O	O
+18	##적	O	O
+19	성향	O	O
+20	등	O	O
+21	##에	O	O
+22	대한	O	O
+23	태도	O	O
+24	##를	O	O
+25	통해	O	O
+26	투표	O	O
+27	성향	O	O
+28	##이	O	O
+29	결정	O	O
+30	##되	O	O
+31	##는데	O	O
+32	,	O	O
+33	일시	O	O
+34	##적	O	O
+35	##인	O	O
+36	선거	O	O
+37	이슈	O	O
+38	##만	O	O
+39	물어	O	O
+40	##보	O	O
+41	##면	O	O
+42	잘못	O	O
+43	##된	O	O
+44	예측	O	O
+45	##이	O	O
+46	나오	O	O
+47	##기	O	O
+48	쉽	O	O
+49	##기	O	O
+50	때문	O	O
+51	##이다	O	O
+52	.	O	O
+53	[SEP]	O	O

@@ -1,60 +1,27 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-CV, I-EV, I-OG
-1	김연아	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-2	##는	O	O	O, I-PS, B-CV, I-OG, I-EV
-3	""""	O	O	O, B-CV, B-LC, B-PS, B-TM
-4	어렸	O	O	O, B-PS, B-CV, B-LC, B-TM
-5	##을	O	O	O, B-PS, B-LC, B-CV, I-CV
-6	때	O	O	O, B-PS, B-CV, B-LC, B-TM
-7	##부터	O	O	O, B-PS, I-PS, B-LC, I-QT
-8	밴쿠버	B-EV	B-EV	B-EV, B-LC, O, B-AF, B-PS
-9	##올	I-EV	I-EV	I-EV, B-EV, O, I-AF, I-LC
-10	##림픽	I-EV	I-EV	I-EV, O, B-EV, I-AF, I-LC
-11	##이	O	O	O, I-EV, I-AF, B-PS, I-OG
-12	목표	O	O	O, B-CV, B-TM, B-LC, B-PS
-13	##였	O	O	O, B-PS, B-CV, B-OG, B-LC
-14	##는데	O	O	O, B-PS, B-CV, B-LC, B-QT
-15	,	O	O	O, B-CV, B-PS, B-LC, B-OG
-16	금메달	B-CV	B-CV	B-CV, O, B-AF, B-TM, B-EV
-17	##을	O	O	O, I-CV, I-EV, I-AF, B-CV
-18	따	O	O	O, B-CV, B-PS, B-LC, B-OG
-19	##고	O	O	O, B-PS, B-LC, B-CV, B-OG
-20	허탈	O	O	O, B-TM, B-CV, B-PS, B-LC
-21	##감	O	O	O, B-PS, B-CV, B-LC, I-AF
-22	##이	O	O	O, B-PS, B-CV, B-OG, B-LC
-23	컸	O	O	O, B-CV, B-PS, B-TM, I-AF
-24	##다	O	O	O, B-CV, B-PS, I-CV, I-AF
-25	""""	O	O	O, B-CV, B-PS, B-LC, B-TM
-26	면서	O	O	O, B-CV, B-PS, B-LC, B-OG
-27	""""	O	O	O, B-CV, B-LC, B-PS, B-TM
-28	모든	O	O	O, B-PS, B-QT, B-LC, B-CV
-29	선수	B-CV	B-CV	B-CV, O, I-CV, B-PS, B-EV
-30	##가	O	O	O, I-CV, B-PS, I-EV, I-QT
-31	올림픽	B-EV	B-EV	B-EV, O, B-CV, B-LC, B-DT
-32	##이	O	O	O, I-EV, I-AF, B-PS, I-CV
-33	끝나	O	O	O, B-CV, I-EV, B-PS, B-LC
-34	##면	O	O	O, B-PS, B-CV, B-LC, B-TM
-35	심리	O	O	O, B-CV, B-TM, B-PS, B-LC
-36	##적인	O	O	O, B-PS, B-LC, B-TM, B-QT
-37	공허	O	O	O, B-TM, B-PS, B-CV, B-LC
-38	##함	O	O	O, B-PS, I-PS, I-LC, I-TM
-39	##을	O	O	O, B-CV, B-PS, I-AF, B-LC
-40	느끼	O	O	O, B-CV, B-PS, B-LC, B-TM
-41	##는데	O	O	O, B-PS, B-CV, B-LC, I-AF
-42	저	O	O	O, B-CV, B-PS, B-LC, I-CV
-43	##도	O	O	O, B-PS, B-CV, B-LC, B-TM
-44	그	O	O	O, B-CV, B-PS, B-LC, B-TM
-45	##중	O	O	O, B-PS, B-QT, B-TM, B-CV
-46	하나	O	B-QT	B-QT, O, I-QT, B-PS, B-LC
-47	##였	O	O	O, I-QT, B-PS, I-PS, I-CV
-48	##던	O	O	O, B-PS, B-CV, I-QT, B-LC
-49	것	O	O	O, B-CV, B-PS, B-QT, B-OG
-50	같	O	O	O, B-CV, B-PS, I-CV, I-QT
-51	##다	O	O	O, B-CV, I-CV, B-PS, I-OG
-52	""""	O	O	O, B-CV, B-TM, I-CV, B-LC
-53	고	O	O	O, B-CV, B-PS, B-TM, B-LC
-54	말	O	O	O, B-CV, I-CV, B-TM, B-PS
-55	##했	O	O	O, B-CV, B-PS, I-CV, B-LC
-56	##다	O	O	O, B-CV, B-PS, B-LC, I-CV
-57	.	O	O	O, B-PS, B-CV, B-LC, I-EV
-58	[SEP]	O	O	O, B-CV, B-PS, B-LC, I-EV
+	text	label	preds
+0	[CLS]	O	O
+1	'	O	O
+2	황제	B-CV	B-CV
+3	'	O	O
+4	로저	B-PS	B-PS
+5	페더러	I-PS	I-PS
+6	(	O	O
+7	32	B-QT	B-QT
+8	·	O	O
+9	스위스	B-LC	B-LC
+10	)	O	O
+11	가	O	O
+12	프랑스	B-LC	B-EV
+13	오픈	O	I-EV
+14	테니스	B-CV	B-CV
+15	4	B-EV	B-EV
+16	##강	I-EV	I-EV
+17	문턱	O	O
+18	##을	O	O
+19	넘	O	O
+20	##지	O	O
+21	못	O	O
+22	##했	O	O
+23	##다	O	O
+24	.	O	O
+25	[SEP]	O	O

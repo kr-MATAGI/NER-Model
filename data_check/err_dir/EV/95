@@ -1,10 +1,54 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-CV, I-OG, B-CV, I-EV
-1	뭐	O	O	O, B-CV, I-CV, I-EV, I-OG
-2	~	O	O	O, B-LC, B-CV, I-CV, I-EV
-3	민주	B-EV	O	O, B-TR, B-EV, B-CV, B-FD
-4	##화	I-EV	O	O, I-TR, I-EV, I-CV, I-FD
-5	투쟁	I-EV	O	O, I-EV, I-TR, I-CV, I-AF
-6	뭐	O	O	O, I-EV, I-CV, I-AF, I-OG
-7	~	O	O	O, B-CV, B-LC, I-EV, I-CV
-8	[SEP]	O	O	O, B-CV, B-LC, I-EV, B-FD
+	text	label	preds
+0	[CLS]	O	O
+1	U	B-EV	B-OG
+2	-	I-EV	I-OG
+3	20	I-EV	I-OG
+4	월드컵	I-EV	I-OG
+5	##팀	O	I-OG
+6	세계	O	O
+7	##수	O	O
+8	##준	O	O
+9	이	O	O
+10	##끈	O	O
+11	이광	B-PS	B-PS
+12	##종	I-PS	I-PS
+13	감독	B-CV	B-CV
+14	27	B-DT	B-DT
+15	##일	I-DT	I-DT
+16	##밤	B-TI	I-TI
+17	나이지리아	B-OG	B-OG
+18	##와	O	O
+19	최종	O	O
+20	3	B-EV	B-EV
+21	##차	I-EV	I-EV
+22	##전	I-EV	I-EV
+23	李	B-PS	B-PS
+24	감독	B-CV	B-CV
+25	,	O	O
+26	15	B-QT	B-QT
+27	##세	I-QT	I-QT
+28	이하	I-QT	I-QT
+29	팀	O	O
+30	##부터	O	O
+31	전담	O	O
+32	조련	O	O
+33	…	O	O
+34	공격	O	O
+35	-	O	O
+36	수비	O	B-CV
+37	##라인	O	O
+38	간격	O	O
+39	세밀	O	O
+40	##하	O	O
+41	##게	O	O
+42	유지	O	O
+43	…	O	O
+44	상대	O	O
+45	강한	O	O
+46	압박	O	O
+47	##도	O	O
+48	끄	O	O
+49	##떡	O	O
+50	##없이	O	O
+51	견뎌	O	O
+52	[SEP]	O	O

@@ -1,16 +1,8 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, B-CV, I-CV, I-EV
-1	‘	O	O	O, B-LC, B-CV, B-OG, B-EV
-2	우산	O	B-EV	B-EV, O, B-AF, B-OG, B-LC
-3	##혁명	O	I-EV	I-EV, O, I-AF, I-OG, B-EV
-4	’	O	O	O, I-EV, I-OG, I-AF, B-CV
-5	을	O	O	O, B-CV, B-OG, B-PS, I-EV
-6	바라보	O	O	O, B-LC, B-OG, B-CV, B-TM
-7	##는	O	O	O, B-LC, B-OG, B-PS, B-QT
-8	홍콩	B-LC	B-LC	B-LC, B-OG, O, B-CV, B-AF
-9	##언	O	O	O, I-OG, I-LC, I-CV, I-AF
-10	##론	O	O	O, I-OG, I-CV, I-AF, I-EV
-11	##의	O	O	O, I-OG, I-AF, I-EV, B-PS
-12	두	B-QT	B-QT	B-QT, O, B-EV, I-QT, B-DT
-13	얼굴	I-QT	I-QT	I-QT, O, I-EV, I-AF, I-LC
-14	[SEP]	O	O	O, I-QT, I-EV, I-OG, I-AF
+	text	label	preds
+0	[CLS]	O	O
+1	이거	O	O
+2	##는	O	O
+3	무침	O	B-CV
+4	##이	O	O
+5	##니까	O	O
+6	[SEP]	O	O

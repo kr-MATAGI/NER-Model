@@ -1,48 +1,37 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	“	O	O	O, B-CV, B-LC, B-PS, B-OG
-2	대통령	B-CV	B-CV	B-CV, O, B-OG, B-PS, B-EV
-3	##께	O	O	O, I-CV, I-OG, I-EV, I-AF
-4	##서	O	O	O, B-PS, B-LC, B-OG, B-CV
-5	6	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-OG
-6	##월	I-DT	I-DT	I-DT, O, B-DT, I-EV, I-OG
-7	##25	I-DT	I-DT	I-DT, O, B-DT, I-OG, I-EV
-8	##일	I-DT	I-DT	I-DT, O, B-DT, I-OG, I-EV
-9	국무	B-OG	B-OG	B-OG, O, B-EV, B-AF, I-OG
-10	##회의	I-OG	I-OG	I-OG, O, I-EV, I-AF, I-CV
-11	##에서	O	O	O, I-OG, I-EV, I-AF, I-DT
-12	발언	O	O	O, B-CV, I-OG, I-EV, B-LC
-13	##하	O	O	O, B-PS, B-OG, B-LC, B-CV
-14	##신	O	O	O, B-CV, B-PS, B-OG, B-LC
-15	것	O	O	O, B-CV, B-PS, B-OG, B-LC
-16	##은	O	O	O, B-CV, B-PS, B-LC, B-OG
-17	통상	O	O	O, B-CV, B-PS, B-LC, I-CV
-18	##적으로	O	O	O, B-PS, B-LC, B-CV, B-OG
-19	늘	O	O	O, B-CV, B-PS, B-LC, B-OG
-20	국민	B-CV	B-CV	B-CV, O, B-OG, B-AF, B-TM
-21	삶	O	O	O, I-CV, I-OG, I-EV, I-AF
-22	##을	O	O	O, B-CV, B-PS, I-CV, B-OG
-23	생각	O	O	O, B-CV, B-PS, B-LC, B-TM
-24	##하고	O	O	O, B-PS, B-CV, B-LC, B-OG
-25	국민	B-CV	B-CV	B-CV, O, B-OG, B-AF, B-TM
-26	중심	O	O	O, I-CV, I-OG, I-AF, B-PS
-27	##의	O	O	O, B-PS, B-LC, B-FD, B-CV
-28	정치가	B-CV	O	O, B-FD, B-CV, B-OG, B-LC
-29	돼야	O	O	O, B-PS, B-CV, I-OG, I-CV
-30	한다는	O	O	O, B-PS, B-LC, B-CV, B-OG
-31	대통령	B-CV	B-CV	B-CV, O, B-OG, B-EV, B-PS
-32	나름	O	O	O, I-CV, I-EV, B-CV, I-OG
-33	##의	O	O	O, B-PS, B-LC, B-OG, B-CV
-34	절절	O	O	O, B-PS, B-CV, B-LC, B-OG
-35	##한	O	O	O, B-PS, B-LC, B-OG, B-CV
-36	마음	O	O	O, B-PS, B-CV, B-LC, B-OG
-37	##을	O	O	O, B-CV, B-PS, B-OG, B-LC
-38	표현	O	O	O, B-PS, B-CV, B-LC, B-EV
-39	##한	O	O	O, B-PS, B-LC, B-CV, B-OG
-40	게	O	O	O, B-PS, B-LC, B-CV, B-OG
-41	아닌가	O	O	O, B-PS, B-LC, B-OG, B-CV
-42	생각	O	O	O, B-CV, B-PS, B-OG, B-LC
-43	##합니다	O	O	O, B-PS, I-OG, B-CV, B-LC
-44	.	O	O	O, B-PS, B-LC, B-CV, B-OG
-45	”	O	O	O, B-CV, B-LC, B-PS, B-OG
-46	[SEP]	O	O	O, B-CV, B-LC, B-PS, B-FD
+	text	label	preds
+0	[CLS]	O	O
+1	롯데	B-OG	B-OG
+2	##는	O	O
+3	이대호	B-PS	B-PS
+4	##의	O	O
+5	홈런	B-TM	B-TM
+6	##포	I-TM	I-TM
+7	##가	O	O
+8	침묵	O	O
+9	##하	O	O
+10	##는	O	O
+11	것	O	O
+12	##을	O	O
+13	비롯	O	O
+14	##해	O	O
+15	김주	B-PS	B-PS
+16	##찬	I-PS	I-PS
+17	·	O	O
+18	조성	B-PS	B-PS
+19	##환	I-PS	I-PS
+20	·	O	O
+21	홍성	B-PS	B-PS
+22	##흔	I-PS	I-PS
+23	·	O	O
+24	강민호	B-PS	B-PS
+25	등	O	O
+26	중심	O	B-CV
+27	##타자	B-CV	I-CV
+28	##들이	O	O
+29	동반	O	O
+30	부진	O	O
+31	##에	O	O
+32	빠졌	O	O
+33	##다	O	O
+34	.	O	O
+35	[SEP]	O	O

@@ -1,37 +1,40 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-EV, I-OG, I-CV
-1	우	B-PS	B-PS	B-PS, O, B-OG, I-PS, B-LC
-2	지사	B-CV	B-CV	B-CV, O, I-PS, I-CV, B-AF
-3	##의	O	O	O, I-CV, B-CV, I-EV, I-AF
-4	‘	O	O	O, B-CV, B-LC, B-OG, B-PS
-5	폭	O	B-CV	B-CV, O, B-AF, B-OG, B-PS
-6	##도	O	I-CV	I-CV, O, I-AF, I-OG, I-PS
-7	’	O	O	O, I-CV, I-OG, I-EV, I-AF
-8	관련	O	O	O, B-CV, B-PS, B-LC, I-CV
-9	발언	O	O	O, B-CV, B-PS, B-LC, B-OG
-10	##은	O	O	O, B-OG, B-PS, B-CV, B-LC
-11	당시	O	O	O, B-CV, B-LC, B-OG, B-PS
-12	수많	O	O	O, B-CV, B-LC, B-TM, B-OG
-13	##은	O	O	O, B-PS, B-LC, B-CV, B-OG
-14	살상	O	O	O, B-CV, B-LC, B-PS, B-TM
-15	##을	O	O	O, B-PS, B-CV, B-OG, B-LC
-16	저지른	O	O	O, B-LC, B-CV, B-OG, B-AF
-17	군	O	O	O, B-CV, B-AF, B-OG, B-FD
-18	##경	O	O	O, I-CV, I-OG, I-AF, I-LC
-19	등	O	O	O, B-PS, B-LC, I-OG, I-AF
-20	국가	O	O	O, B-CV, B-FD, I-CV, B-PS
-21	##권력	O	O	O, I-CV, B-CV, B-PS, I-AF
-22	##에	O	O	O, B-PS, B-CV, I-CV, B-LC
-23	면죄부	O	B-AF	B-AF, O, B-MT, B-CV, B-PS
-24	##를	O	O	O, I-AF, B-CV, I-CV, I-EV
-25	주	O	O	O, B-CV, B-PS, B-OG, B-LC
-26	##는	O	O	O, B-PS, B-CV, B-LC, B-QT
-27	뉘앙스	O	O	O, B-PS, B-CV, B-QT, B-LC
-28	##가	O	O	O, B-PS, B-OG, B-LC, I-PS
-29	있	O	O	O, B-PS, B-CV, B-OG, B-LC
-30	##다는	O	O	O, B-PS, B-LC, B-CV, I-QT
-31	지적	O	O	O, B-CV, B-PS, B-LC, B-OG
-32	##이	O	O	O, B-PS, B-CV, B-OG, B-LC
-33	나온다	O	O	O, B-CV, B-PS, B-LC, B-OG
-34	.	O	O	O, B-PS, B-LC, B-CV, B-OG
-35	[SEP]	O	O	O, B-CV, B-PS, B-LC, I-EV
+	text	label	preds
+0	[CLS]	O	O
+1	식약청	B-OG	B-OG
+2	##은	O	O
+3	이번	O	O
+4	조사	O	O
+5	##결	O	O
+6	##과	O	O
+7	##를	O	O
+8	바탕	O	O
+9	##으로	O	O
+10	외식	O	O
+11	음식	O	O
+12	##의	O	O
+13	영양	O	O
+14	##성	O	O
+15	##분	O	O
+16	##을	O	O
+17	정리	O	O
+18	##한	O	O
+19	‘	O	O
+20	외식	O	B-AF
+21	##음	O	I-AF
+22	##식	O	I-AF
+23	영양	O	I-AF
+24	##성	O	I-AF
+25	##분	O	I-AF
+26	자료	O	I-AF
+27	##집	O	I-AF
+28	’	O	O
+29	을	O	O
+30	식약청	B-OG	B-OG
+31	누리집	O	O
+32	##에	O	O
+33	공개	O	O
+34	##할	O	O
+35	계획	O	O
+36	##이다	O	O
+37	.	O	O
+38	[SEP]	O	O

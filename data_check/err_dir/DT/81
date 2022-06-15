@@ -1,25 +1,33 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	""""	O	O	O, B-CV, B-LC, B-TM, B-PS
-2	정치인	B-CV	B-CV	B-CV, O, I-CV, B-OG, B-FD
-3	##이	O	O	O, I-CV, B-PS, I-AF, B-CV
-4	돈	O	O	O, B-CV, B-PS, B-TM, I-AF
-5	받	O	O	O, B-CV, B-PS, I-AF, B-TM
-6	##은	O	O	O, B-PS, B-CV, I-AF, B-LC
-7	게	O	O	O, B-PS, B-CV, B-LC, B-OG
-8	어제	B-DT	B-DT	B-DT, O, I-DT, B-EV, B-QT
-9	##오	B-DT	O	O, B-DT, I-DT, B-EV, B-QT
-10	##늘	I-DT	I-DT	I-DT, O, B-DT, I-EV, I-QT
-11	일인	O	O	O, B-CV, B-QT, B-PS, B-OG
-12	##가	O	O	O, B-PS, I-QT, B-CV, B-QT
-13	""""	O	O	O, B-CV, B-PS, I-CV, I-QT
-14	하	O	O	O, B-PS, B-CV, B-LC, B-TM
-15	##는	O	O	O, B-PS, B-CV, B-LC, B-TM
-16	냉소	O	O	O, B-TR, B-PS, B-FD, B-TM
-17	때문	O	O	O, B-PS, I-TR, I-CV, B-CV
-18	##이	O	O	O, B-PS, B-CV, B-OG, I-CV
-19	##라는	O	O	O, B-PS, B-CV, B-TM, I-CV
-20	분석	O	O	O, B-CV, B-TR, B-TM, B-FD
-21	##이다	O	O	O, I-CV, B-CV, I-TM, I-TR
-22	.	O	O	O, B-CV, B-PS, B-LC, I-CV
-23	[SEP]	O	O	O, B-CV, B-PS, B-LC, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	올림픽	B-EV	B-EV
+2	원년	B-DT	O
+3	##부터	I-DT	O
+4	정식	O	O
+5	종목	O	O
+6	##이	O	O
+7	##었	O	O
+8	##던	O	O
+9	레슬링	B-CV	B-CV
+10	##이	O	O
+11	2013	B-DT	B-DT
+12	##년	I-DT	I-DT
+13	퇴출	O	O
+14	위기	O	O
+15	##에	O	O
+16	몰렸	O	O
+17	##던	O	O
+18	것	O	O
+19	##도	O	O
+20	지루	O	O
+21	##하	O	O
+22	##다는	O	O
+23	비판	O	O
+24	##에	O	O
+25	따른	O	O
+26	것	O	O
+27	##이	O	O
+28	##었	O	O
+29	##다	O	O
+30	.	O	O
+31	[SEP]	O	O

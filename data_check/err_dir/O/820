@@ -1,19 +1,42 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-AF
-1	다만	O	O	O, B-TM, B-CV, B-QT, B-OG
-2	무선	O	B-TM	B-TM, O, B-TR, B-CV, I-TM
-3	##인	O	I-TM	I-TM, O, B-TM, I-TR, I-OG
-4	##터	O	I-TM	I-TM, O, B-TM, I-TR, I-OG
-5	##넷	O	I-TM	I-TM, O, I-TR, I-OG, B-TM
-6	##과	O	O	O, I-TM, I-OG, I-AF, B-CV
-7	휴대	B-TM	B-TM	B-TM, O, B-CV, I-TM, B-OG
-8	##전	I-TM	I-TM	I-TM, O, B-TM, I-CV, I-QT
-9	##화	I-TM	I-TM	I-TM, O, I-CV, I-OG, I-QT
-10	##는	O	O	O, I-TM, I-CV, I-OG, I-AF
-11	가끔	O	O	O, B-TM, B-CV, B-QT, I-TM
-12	끊겨	O	O	O, B-TM, B-CV, B-LC, B-QT
-13	불편	O	O	O, B-CV, B-TM, I-TM, B-OG
-14	##했	O	O	O, B-CV, I-CV, I-OG, I-TM
-15	##다	O	O	O, B-CV, B-TM, I-OG, I-CV
-16	.	O	O	O, B-TM, B-CV, B-LC, I-TM
-17	[SEP]	O	O	O, B-TM, B-CV, I-TM, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	양산	B-LC	B-LC
+2	자택	O	O
+3	##에	O	O
+4	##서	O	O
+5	키우	O	O
+6	##고	O	O
+7	있	O	O
+8	##는	O	O
+9	반려	O	O
+10	##견	O	O
+11	‘	O	O
+12	마루	B-PS	B-PS
+13	’	O	O
+14	‘	O	O
+15	깜	B-PS	B-PS
+16	’	O	O
+17	과	O	O
+18	고양이	B-AM	B-AM
+19	‘	O	O
+20	찡	B-PS	B-PS
+21	##찡	I-PS	I-PS
+22	##이	I-PS	I-PS
+23	’	O	O
+24	‘	O	O
+25	뭉치	B-PS	B-PS
+26	’	O	O
+27	는	O	O
+28	‘	O	O
+29	퍼스트	O	B-CV
+30	펫	O	I-CV
+31	’	O	O
+32	으로	O	O
+33	청와대	B-AF	B-AF
+34	##에	O	O
+35	입성	O	O
+36	##할	O	O
+37	예정	O	O
+38	##이다	O	O
+39	.	O	O
+40	[SEP]	O	O

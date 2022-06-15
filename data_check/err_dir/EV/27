@@ -1,55 +1,38 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-EV, B-CV, I-OG, I-CV
-1	정부	B-OG	B-OG	B-OG, O, B-EV, B-AF, B-LC
-2	당국자	B-CV	B-CV	B-CV, O, I-CV, I-OG, I-EV
-3	##는	O	O	O, I-CV, I-EV, I-OG, I-QT
-4	“	O	O	O, B-CV, B-LC, B-EV, B-QT
-5	2	B-QT	B-QT	B-QT, B-EV, O, B-DT, I-EV
-6	##차	I-QT	I-QT	I-QT, I-EV, O, I-DT, I-OG
-7	회담	O	I-EV	I-EV, O, I-QT, B-EV, I-OG
-8	##에	O	O	O, I-EV, I-OG, I-QT, I-AF
-9	##선	O	O	O, B-LC, B-OG, B-EV, B-PS
-10	1	B-QT	B-QT	B-QT, B-EV, O, I-QT, B-DT
-11	##차	I-QT	I-QT	I-QT, I-EV, O, I-DT, I-OG
-12	남북	B-EV	B-EV	B-EV, I-EV, B-LC, B-OG, O
-13	##회	I-EV	I-EV	I-EV, O, I-OG, B-EV, I-QT
-14	##담	I-EV	I-EV	I-EV, O, I-OG, I-LC, I-AF
-15	##과	O	O	O, I-EV, I-OG, B-LC, I-DT
-16	뉴욕	B-LC	B-LC	B-LC, B-EV, O, B-OG, B-AF
-17	미	B-EV	I-EV	I-EV, B-EV, B-LC, B-OG, I-LC
-18	-	I-EV	I-EV	I-EV, O, I-LC, I-OG, I-AF
-19	북	I-EV	I-EV	I-EV, I-LC, B-LC, I-OG, O
-20	회담	I-EV	I-EV	I-EV, O, I-OG, I-LC, I-AF
-21	##을	O	O	O, I-EV, I-OG, I-AF, B-CV
-22	통해	O	O	O, B-LC, B-OG, B-PS, B-CV
-23	협의	O	O	O, B-LC, B-CV, B-PS, B-OG
-24	##된	O	O	O, B-LC, B-PS, B-CV, B-OG
-25	비핵화	O	O	O, B-CV, B-LC, B-PS, B-TM
-26	사전	O	O	O, B-LC, B-PS, B-CV, B-TM
-27	##조	O	O	O, B-LC, B-CV, B-PS, B-OG
-28	##처	O	O	O, I-LC, B-LC, B-PS, I-CV
-29	##를	O	O	O, B-CV, B-LC, B-PS, B-OG
-30	포함	O	O	O, B-LC, B-CV, B-OG, B-PS
-31	##해	O	O	O, B-LC, B-PS, B-OG, B-CV
-32	비핵화	O	O	O, B-CV, B-LC, B-PS, B-TM
-33	##와	O	O	O, B-CV, B-PS, B-LC, I-CV
-34	관련	O	O	O, B-LC, B-CV, B-TM, B-PS
-35	##한	O	O	O, B-LC, B-PS, B-OG, B-TM
-36	다양	O	O	O, B-LC, B-TM, B-QT, B-CV
-37	##한	O	O	O, B-LC, B-PS, B-OG, B-TM
-38	이슈	O	O	O, B-CV, B-LC, B-PS, B-TM
-39	##들	O	O	O, B-LC, B-CV, B-PS, I-QT
-40	##을	O	O	O, B-CV, B-LC, B-OG, B-TM
-41	포괄	O	O	O, B-LC, B-CV, B-TM, B-PS
-42	##적으로	O	O	O, B-LC, B-PS, I-QT, I-LC
-43	논의	O	O	O, B-CV, B-LC, B-EV, B-TM
-44	##할	O	O	O, B-PS, B-LC, B-CV, B-OG
-45	예정	O	O	O, B-CV, B-EV, B-QT, B-TM
-46	”	O	O	O, B-CV, I-EV, I-OG, B-LC
-47	이라	O	O	O, B-CV, B-OG, B-PS, B-LC
-48	##고	O	O	O, B-CV, B-QT, B-TM, B-LC
-49	말	O	O	O, B-CV, B-QT, B-TM, B-LC
-50	##했	O	O	O, B-CV, I-EV, B-LC, B-PS
-51	##다	O	O	O, B-CV, B-LC, B-TM, I-EV
-52	.	O	O	O, B-LC, B-PS, B-CV, B-OG
-53	[SEP]	O	O	O, B-LC, B-CV, I-EV, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	행정	B-EV	O
+2	##고시	I-EV	O
+3	##에	O	O
+4	합격	O	O
+5	##해	O	O
+6	1981	B-DT	B-DT
+7	##년	I-DT	I-DT
+8	체	B-OG	B-OG
+9	##신	I-OG	I-OG
+10	##부	I-OG	I-OG
+11	##에	O	O
+12	##서	O	O
+13	공직	O	O
+14	##생활	O	O
+15	##을	O	O
+16	시작	O	O
+17	##한	O	O
+18	남궁	B-PS	B-PS
+19	본부	B-CV	B-CV
+20	##장	I-CV	I-CV
+21	##은	O	O
+22	우정	O	O
+23	및	O	O
+24	정보	O	O
+25	##통신	O	O
+26	분야	O	O
+27	##에	O	O
+28	##서	O	O
+29	잔	B-TM	O
+30	##뼈	I-TM	O
+31	##가	O	O
+32	굵	O	O
+33	##었	O	O
+34	##다	O	O
+35	.	O	O
+36	[SEP]	O	O

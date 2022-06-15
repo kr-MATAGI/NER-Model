@@ -1,29 +1,69 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	일본	B-OG	B-OG	B-OG, B-LC, O, B-PS, B-TM
-2	##은	O	O	O, I-OG, I-LC, B-CV, B-OG
-3	이란	B-OG	B-LC	B-LC, B-OG, O, B-PS, I-LC
-4	대신	O	O	O, I-OG, I-LC, B-CV, I-AF
-5	사우디아라비아	B-LC	B-LC	B-LC, B-OG, O, I-LC, B-PS
-6	,	O	O	O, I-OG, I-LC, I-AF, B-CV
-7	아랍에미리트	B-LC	B-LC	B-LC, B-OG, O, I-LC, B-PS
-8	(	O	O	O, I-OG, I-LC, B-CV, I-DT
-9	UAE	O	B-LC	B-LC, B-OG, O, I-LC, B-CV
-10	)	O	O	O, I-OG, I-LC, B-CV, I-CV
-11	등	O	O	O, B-CV, B-LC, B-OG, B-TM
-12	##으로	O	O	O, B-CV, B-LC, B-PS, B-TM
-13	##부터	O	O	O, B-LC, B-CV, B-TM, B-PS
-14	원유	B-MT	B-MT	B-MT, O, I-MT, B-AF, B-TM
-15	##를	O	O	O, I-AF, B-CV, I-CV, I-OG
-16	조달	O	O	O, B-CV, B-TM, B-LC, B-OG
-17	##할	O	O	O, B-LC, B-PS, B-OG, B-CV
-18	수	O	O	O, B-LC, B-CV, B-TM, B-OG
-19	있	O	O	O, B-LC, B-CV, B-TM, B-OG
-20	##을	O	O	O, B-LC, B-CV, B-PS, B-OG
-21	##지	O	O	O, B-CV, B-LC, B-TM, B-PS
-22	타진	O	O	O, B-CV, B-TM, B-LC, B-OG
-23	##하고	O	O	O, B-CV, B-LC, B-TM, I-EV
-24	있	O	O	O, B-CV, B-LC, B-OG, I-OG
-25	##다	O	O	O, B-CV, I-OG, B-LC, B-OG
-26	.	O	O	O, B-LC, B-CV, B-OG, B-TM
-27	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-TM
+	text	label	preds
+0	[CLS]	O	O
+1	한국	B-OG	B-LC
+2	##이	O	O
+3	이번	O	O
+4	회의	O	O
+5	##에	O	O
+6	##서	O	O
+7	중점	O	O
+8	##을	O	O
+9	두고	O	O
+10	전할	O	O
+11	메시지	O	O
+12	##는	O	O
+13	우선	O	O
+14	11	B-DT	B-DT
+15	##월	I-DT	I-DT
+16	서울	B-LC	B-LC
+17	##에	O	O
+18	##서	O	O
+19	열리	O	O
+20	##는	O	O
+21	주요	B-EV	B-EV
+22	20	I-EV	I-EV
+23	##개	I-EV	I-EV
+24	##국	I-EV	I-EV
+25	(	I-EV	I-EV
+26	G	I-EV	I-EV
+27	##20	I-EV	I-EV
+28	)	I-EV	I-EV
+29	정상회의	I-EV	I-EV
+30	##가	O	O
+31	의제	O	O
+32	##로	O	O
+33	삼	O	O
+34	##은	O	O
+35	‘	O	O
+36	성장	O	O
+37	##을	O	O
+38	위한	O	O
+39	개발	O	O
+40	’	O	O
+41	목표	O	O
+42	##가	O	O
+43	빈곤	O	O
+44	##퇴	O	O
+45	##치	O	O
+46	등	O	O
+47	##에	O	O
+48	중점	O	O
+49	##을	O	O
+50	둔	O	O
+51	새	O	O
+52	##천	O	O
+53	##년	O	O
+54	##개발	O	O
+55	##목	O	O
+56	##표	O	O
+57	##와	O	O
+58	상충	O	O
+59	##되	O	O
+60	##지	O	O
+61	않	O	O
+62	##는	O	O
+63	##다는	O	O
+64	점	O	O
+65	##이다	O	O
+66	.	O	O
+67	[SEP]	O	O

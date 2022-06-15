@@ -1,23 +1,22 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, I-OG, I-CV, I-EV, B-CV
-1	2007	B-DT	B-DT	B-DT, O, I-DT, B-QT, B-EV
-2	##년	I-DT	I-DT	I-DT, O, B-DT, I-QT, I-PS
-3	투르	B-EV	B-EV	B-EV, O, I-EV, B-LC, B-CV
-4	드	I-EV	I-EV	I-EV, O, B-EV, I-DT, I-AF
-5	코리아	I-EV	I-EV	I-EV, B-EV, B-LC, I-LC, O
-6	원년	I-EV	O	O, I-EV, B-EV, B-DT, I-DT
-7	대회	I-EV	O	O, I-EV, I-DT, B-EV, I-QT
-8	##에서	O	O	O, I-EV, B-CV, B-PS, I-OG
-9	종합	O	O	O, B-CV, B-PS, B-LC, B-QT
-10	우승	O	O	O, B-CV, B-EV, I-EV, B-PS
-11	##을	O	O	O, B-CV, B-PS, I-EV, B-OG
-12	차지	O	O	O, B-CV, B-OG, B-LC, B-TM
-13	##하	O	O	O, B-PS, B-LC, B-OG, B-CV
-14	##며	O	O	O, B-LC, B-OG, B-PS, B-CV
-15	단숨에	O	O	O, B-PS, B-OG, B-CV, B-QT
-16	스타	B-CV	B-CV	B-CV, O, I-CV, B-PS, B-OG
-17	##로	O	O	O, I-CV, B-PS, I-OG, I-QT
-18	떠올랐	O	O	O, B-PS, B-CV, B-LC, B-OG
-19	##다	O	O	O, B-CV, B-PS, I-CV, I-EV
-20	.	O	O	O, B-PS, B-CV, B-LC, I-EV
-21	[SEP]	O	O	O, B-CV, B-PS, I-EV, B-LC
+	text	label	preds
+0	[CLS]	O	O
+1	그	O	O
+2	##는	O	O
+3	이날	B-DT	B-DT
+4	일행	O	O
+5	9	B-QT	B-QT
+6	##명	I-QT	I-QT
+7	##과	O	O
+8	함께	O	O
+9	1	B-DT	B-DT
+10	##박	I-DT	I-DT
+11	##을	O	O
+12	하	O	O
+13	##며	O	O
+14	산	B-EV	O
+15	##사	I-EV	O
+16	체험	I-EV	O
+17	##을	O	O
+18	한다	O	O
+19	.	O	O
+20	[SEP]	O	O

@@ -1,28 +1,17 @@
-	text	label	preds	candidate
-0	[CLS]	O	O	O, B-CV, I-OG, I-CV, I-EV
-1	검찰	B-OG	B-OG	B-OG, O, B-AF, B-LC, B-PS
-2	##은	O	O	O, I-OG, B-CV, B-OG, I-EV
-3	국회	B-OG	B-OG	B-OG, O, B-AF, B-CV, B-EV
-4	##사	O	I-OG	I-OG, O, I-AF, I-EV, B-OG
-5	##무	O	I-OG	I-OG, O, I-AF, I-EV, I-CV
-6	##처	O	I-OG	I-OG, O, I-AF, I-EV, I-CV
-7	압수수색	O	O	O, B-CV, I-OG, I-EV, B-EV
-8	##을	O	O	O, I-EV, I-OG, I-CV, I-AF
-9	통해	O	O	O, B-PS, B-LC, B-CV, B-OG
-10	조	B-PS	B-PS	B-PS, O, I-PS, B-OG, B-LC
-11	수석	B-CV	B-CV	B-CV, O, I-PS, I-CV, I-AF
-12	##의	O	O	O, I-CV, B-CV, I-EV, I-AF
-13	이메일	O	O	O, B-TM, B-CV, B-LC, B-EV
-14	기록	O	O	O, B-TM, B-CV, B-LC, I-TM
-15	##을	O	O	O, B-CV, B-LC, B-PS, B-OG
-16	입수	O	O	O, B-CV, B-LC, B-TM, B-PS
-17	##해	O	O	O, B-LC, B-PS, B-CV, B-OG
-18	조사	O	O	O, B-CV, B-LC, B-TM, B-OG
-19	중	O	O	O, B-LC, B-CV, B-PS, B-OG
-20	##인	O	O	O, B-PS, B-CV, B-LC, B-OG
-21	것	O	O	O, B-CV, B-LC, B-TM, B-OG
-22	##으로	O	O	O, B-CV, B-LC, B-TM, I-OG
-23	알려졌	O	O	O, B-CV, B-LC, B-OG, B-TM
-24	##다	O	O	O, B-CV, B-LC, I-OG, B-TM
-25	.	O	O	O, B-LC, B-CV, B-OG, B-PS
-26	[SEP]	O	O	O, B-LC, B-CV, B-OG, B-PS
+	text	label	preds
+0	[CLS]	O	O
+1	딱	O	O
+2	한	O	B-QT
+3	번	O	I-QT
+4	하	O	O
+5	##는	O	O
+6	그	O	O
+7	~	O	O
+8	있	O	O
+9	##는	O	O
+10	기회	O	O
+11	##이	O	O
+12	##기	O	O
+13	때문	O	O
+14	##에	O	O
+15	[SEP]	O	O
