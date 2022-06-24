@@ -14,7 +14,7 @@ class ETRI_Parser:
             print(f"[ETRI_Parser][__init__] ERR - NOT Existed: {src_dir}")
         else:
             self.src_dir = src_dir
-            self.data_list = os.listdir(src_dir)
+            self.data_list = [x for x in os.listdir(src_dir) if ".json" in x]
             print(f"[ETRI_Parser][__init__] Total Count: {len(self.data_list)}")
 
     def parse_etri_json(self, src_path: str):
@@ -64,6 +64,7 @@ class ETRI_Parser:
             print(f"[NIKL_Parser][__init__] ERR - Not Exist: {src_path}")
             return
 
+        print(f"[NIKL_Parser][__init__] src_path: {src_path}")
         with open(src_path, mode="r", encoding="utf-8") as src_file:
             src_json = json.load(src_file)
 

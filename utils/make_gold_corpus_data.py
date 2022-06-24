@@ -93,8 +93,8 @@ def make_ne_mp_list(src_pair: Tuple[str, str]):
 
 ### MAIN ###
 if "__main__" == __name__:
-    nx_json_file = ("../data/old_nikl/NXNE1902008030.json", "../data/old_nikl/gold_corpus/NXMP1902008040.json")
-    sx_json_file = ("../data/old_nikl/SXNE1902007240.json", "../data/old_nikl/gold_corpus/SXMP1902008031.json")
+    nx_json_file = ("../data/old_nikl/NXNE2102008030.json", "../data/old_nikl/gold_corpus/NXMP1902008040.json")
+    sx_json_file = ("../data/old_nikl/SXNE2102007240.json", "../data/old_nikl/gold_corpus/SXMP1902008031.json")
 
     nx_res_list = make_ne_mp_list(nx_json_file)
     print(f"nx_res_list.len : {len(nx_res_list)}")

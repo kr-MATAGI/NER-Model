@@ -80,7 +80,7 @@ def error_predict_by_model(sent: str="", tokenizer_name: str="", model_path: str
 if "__main__" == __name__:
     print("[error_model_predict][__main__] __MAIN__")
 
-    target_sent = "히비스커스나 난 이런 걸 챙겨 먹었지 근데 내가 요즘 느껴 정말 영양부족이라는 걸"
+    target_sent = "현재 서울 지하철 1~9호선, 분당선 등 299개 역 승강장 스크린 도어 4840칸에 시가 걸려 있는데, 되레 시와 시민을 멀어지게 하고 있다는 비판이다."
     tokenizer_name = "monologg/koelectra-base-v3-discriminator"
     model_path = "./model/electra-pos-lstm-crf"
     error_predict_by_model(sent=target_sent, tokenizer_name=tokenizer_name, model_path=model_path)

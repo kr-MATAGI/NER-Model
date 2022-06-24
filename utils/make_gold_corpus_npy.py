@@ -437,5 +437,5 @@ if "__main__" == __name__:
 
     # make npy
     #make_pos_tag_npy(tokenizer_name="klue/bert-base", src_list=all_sent_list, max_len=128)
-    make_wordpiece_npy(tokenizer_name="monologg/koelectra-base-v3-discriminator",
+    make_wordpiece_npy(tokenizer_name="klue/bert-base",
                        src_list=all_sent_list, max_len=128)

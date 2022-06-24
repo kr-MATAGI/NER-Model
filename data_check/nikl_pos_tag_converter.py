@@ -88,7 +88,7 @@ if "__main__" == __name__:
                         continue
                 new_morp_list.extend(new_morp_item_list)
         src_list[src_idx].morp_list = new_morp_list
-        print([x.form+"/"+x.label for x in src_list[src_idx].morp_list])
+        #print([x.form+"/"+x.label for x in src_list[src_idx].morp_list])
     # end, src_list loop
 
     # save
