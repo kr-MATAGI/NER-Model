@@ -5,8 +5,8 @@ from builtins import enumerate, str
 import numpy as np
 import torch
 from typing import List
-from eunjeon import Mecab # window
-#from konlpy.tag import Mecab # mac
+#from eunjeon import Mecab # window
+from konlpy.tag import Mecab # mac
 
 from transformers import AutoTokenizer
 from data_def import *
@@ -274,5 +274,5 @@ if "__main__" == __name__:
     all_sent_list = conv_TTA_ne_category(all_sent_list)
 
     # make npy
-    make_npy(mode="old_nikl", tokenizer_name="klue/bert-base", sent_list=all_sent_list,
+    make_npy(mode="old_nikl", tokenizer_name="monologg/koelectra-base-v3-discriminator", sent_list=all_sent_list,
              max_len=128, use_pos=True)

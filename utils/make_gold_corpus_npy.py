@@ -55,6 +55,9 @@ def conv_TTA_ne_category(sent_list: List[Sentence]):
                 conv_type = "MT"
             elif "TM" in lhs_type:
                 conv_type = "TM"
+            else:
+                print(f"What is {lhs_type}")
+                return
 
             if "" == conv_type:
                 print(sent_item.text, "\n", lhs_type)
@@ -437,5 +440,5 @@ if "__main__" == __name__:
 
     # make npy
     #make_pos_tag_npy(tokenizer_name="klue/bert-base", src_list=all_sent_list, max_len=128)
-    make_wordpiece_npy(tokenizer_name="klue/bert-base",
+    make_wordpiece_npy(tokenizer_name="monologg/koelectra-base-v3-discriminator",
                        src_list=all_sent_list, max_len=128)
