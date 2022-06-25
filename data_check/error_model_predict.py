@@ -80,7 +80,7 @@ def error_predict_by_model(sent: str="", tokenizer_name: str="", model_path: str
 if "__main__" == __name__:
     print("[error_model_predict][__main__] __MAIN__")
 
-    target_sent = "현재 서울 지하철 1~9호선, 분당선 등 299개 역 승강장 스크린 도어 4840칸에 시가 걸려 있는데, 되레 시와 시민을 멀어지게 하고 있다는 비판이다."
+    target_sent = "전남 순천 출신인 소 교수가 검찰총장이 되면 노무현 정부 때인 김종빈 전 검찰총장(2005년 4∼10월) 이후 12년 만의 호남 출신 검찰총장이다."
     tokenizer_name = "monologg/koelectra-base-v3-discriminator"
-    model_path = "./model/electra-pos-lstm-crf"
+    model_path = "./model/electra-pos-lstm-crf-new-corpus"
     error_predict_by_model(sent=target_sent, tokenizer_name=tokenizer_name, model_path=model_path)

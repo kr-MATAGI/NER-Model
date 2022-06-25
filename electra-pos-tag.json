@@ -7,7 +7,7 @@
   "test_npy": "./data/npy/old_nikl/128/test.npy",
   "evaluate_test_during_training": false,
   "eval_all_checkpoints": true,
-  "save_optimizer": false,
+  "save_optimizer": true,
   "do_lower_case": false,
   "do_train": true,
   "do_eval": true,
