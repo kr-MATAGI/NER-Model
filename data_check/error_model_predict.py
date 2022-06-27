@@ -80,7 +80,7 @@ def error_predict_by_model(sent: str="", tokenizer_name: str="", model_path: str
 if "__main__" == __name__:
     print("[error_model_predict][__main__] __MAIN__")
 
-    target_sent = "전남 순천 출신인 소 교수가 검찰총장이 되면 노무현 정부 때인 김종빈 전 검찰총장(2005년 4∼10월) 이후 12년 만의 호남 출신 검찰총장이다."
+    target_sent = "미국의 세기가 끝났다고 했을 때 콜코는 <위클리 스탠더드>를 운영한 네오콘의 이론가 윌리엄 크리스톨이나 로버트 케이건이 주도한 싱크탱크 ‘새로운 미국의 세기를 위한 프로젝트’(Project for the New American Century)를 염두에 두지 않았을까."
     tokenizer_name = "monologg/koelectra-base-v3-discriminator"
     model_path = "./model/electra-pos-lstm-crf-new-corpus"
     error_predict_by_model(sent=target_sent, tokenizer_name=tokenizer_name, model_path=model_path)

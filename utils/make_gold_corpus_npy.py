@@ -5,6 +5,7 @@ import pickle
 from builtins import enumerate
 
 import numpy as np
+np.random.seed(42)
 
 from ne_tag_def import ETRI_TAG
 from pos_tag_def import NIKL_POS_TAG
