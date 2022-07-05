@@ -3,7 +3,7 @@ import torch.nn as nn
 import numpy as np
 import pandas as pd
 
-from transformers import AutoModel, AutoConfig, AutoTokenizer, get_linear_schedule_with_warmup
+from transformers import AutoTokenizer
 
 from electra_custom_model import ELECTRA_POS_LSTM
 from utils.ne_tag_def import ETRI_TAG
