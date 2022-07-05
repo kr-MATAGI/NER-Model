@@ -1,4 +1,4 @@
-import os.path
+import os
 
 import torch
 import torch.nn as nn
@@ -10,8 +10,10 @@ from transformers import AutoTokenizer
 from electra_custom_model import ELECTRA_POS_LSTM
 from utils.ne_tag_def import ETRI_TAG
 
-### MAIN ###
-if "__main__" == __name__:
+
+#====================================================
+def compare_models_output():
+#====================================================
     # INIT
     g_err_cnt = 0
 
@@ -36,7 +38,9 @@ if "__main__" == __name__:
 
     # target
     dev_data_size = dev_ids_data.shape[0]
-    target_ne = ["DT", "LC", "MT", "TM", "EV"]
+    # target_ne = ["DT", "LC", "MT", "TM", "EV"]
+    target_ne = ["PS", "OG", "AF", "TI", "CV",
+                 "PT", "QT", "FD", "TR", "AM"]
     target_bio_ne = []
     target_bio_ne.extend(["B-"+ne for ne in target_ne])
     target_bio_ne.extend(["I-"+ne for ne in target_ne])
@@ -107,3 +111,75 @@ if "__main__" == __name__:
 
         for err_idx, err_df in enumerate(g_error_dict[label_key]):
             err_df.to_csv(cmp_dir_path+label_key+"/"+str(err_idx), sep="\t", encoding="utf-8", index=False)
+
+#====================================================
+def check_incorrect_outputs(target_dir: str, target_ne: str):
+#====================================================
+    tsv_file_list = os.listdir(target_dir)
+    print(f"[compare_model_score][check_incorrect_outputs] tsv size: {len(tsv_file_list)}")
+
+    incorrect_count_1: int = 0 # model_1 (preds_1)
+    incorrect_count_2: int = 0 # model_2 (preds_2)
+    diff_count: int = 0 # preds_1 != preds_2
+
+    for tsv_file_name in tsv_file_list:
+        full_path = target_dir+"/"+tsv_file_name
+        tsv_file_contents = pd.read_csv(full_path, sep="\t", encoding="utf-8")
+
+        for idx, row in tsv_file_contents.iterrows():
+            label = row["label"]
+            preds_1 = row["preds_1"]
+            preds_2 = row["preds_2"]
+
+            if target_ne in label:
+                if label != preds_1:
+                    incorrect_count_1 += 1
+                if label != preds_2:
+                    incorrect_count_2 += 1
+                if preds_1 != preds_2:
+                    diff_count += 1
+    print(f"[compare_model_score][check_incorrect_outputs] incorrect_count_1: {incorrect_count_1}")
+    print(f"[compare_model_score][check_incorrect_outputs] incorrect_count_2: {incorrect_count_2}")
+    print(f"[compare_model_score][check_incorrect_outputs] diff_count: {diff_count}")
+
+### MAIN ###
+if "__main__" == __name__:
+    is_write_compare_outputs = True
+    if is_write_compare_outputs:
+        compare_models_output()
+
+    '''
+        @NOTE
+            1. DT
+                - tsv size: 1795
+                - incorrect_count_1: 5526
+                - incorrect_count_2: 195
+                - diff_count: 5463
+            
+            2. EV
+                - tsv size: 226
+                - incorrect_count_1: 391
+                - incorrect_count_2: 80
+                - diff_count: 375
+                
+            3. LC
+                - tsv size: 868
+                - incorrect_count_1: 1641
+                - incorrect_count_2: 217
+                - diff_count: 1596
+                
+            4. MT
+                - tsv size: 83
+                - incorrect_count_1: 101
+                - incorrect_count_2: 12
+                - diff_count: 94
+            
+            5. TM
+                - tsv size: 452
+                - incorrect_count_1: 897
+                - incorrect_count_2: 154
+                - diff_count: 806
+    '''
+    target_ne = "TM"
+    target_dir_path = "./cmp_dir/" + target_ne
+    check_incorrect_outputs(target_dir=target_dir_path, target_ne=target_ne)
