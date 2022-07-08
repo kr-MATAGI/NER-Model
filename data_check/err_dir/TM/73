@@ -1,11 +1,8 @@
 	text	label	preds
 0	[CLS]	O	O
-1	저쪽	O	O
-2	##에	O	O
-3	양	O	B-TM
-4	옆	B-TM	I-TM
-5	##에도	O	O
-6	산도	O	O
-7	있	O	O
-8	##고	O	O
-9	[SEP]	O	O
+1	모바일	B-TM	O
+2	쿠폰	O	O
+3	잔액	O	O
+4	##도	O	O
+5	환불	O	O
+6	[SEP]	O	O

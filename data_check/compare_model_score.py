@@ -38,9 +38,9 @@ def compare_models_output():
 
     # target
     dev_data_size = dev_ids_data.shape[0]
-    # target_ne = ["DT", "LC", "MT", "TM", "EV"]
     target_ne = ["PS", "OG", "AF", "TI", "CV",
-                 "PT", "QT", "FD", "TR", "AM"]
+                 "PT", "QT", "FD", "TR", "AM",
+                 "DT", "LC", "MT", "TM", "EV"]
     target_bio_ne = []
     target_bio_ne.extend(["B-"+ne for ne in target_ne])
     target_bio_ne.extend(["I-"+ne for ne in target_ne])
@@ -131,7 +131,7 @@ def check_incorrect_outputs(target_dir: str, target_ne: str):
             preds_1 = row["preds_1"]
             preds_2 = row["preds_2"]
 
-            if target_ne in label:
+            if target_ne in label and "B-" in label:
                 if label != preds_1:
                     incorrect_count_1 += 1
                 if label != preds_2:
@@ -144,41 +144,101 @@ def check_incorrect_outputs(target_dir: str, target_ne: str):
 
 ### MAIN ###
 if "__main__" == __name__:
-    is_write_compare_outputs = True
+    is_write_compare_outputs = False
     if is_write_compare_outputs:
         compare_models_output()
 
     '''
         @NOTE
-            1. DT
-                - tsv size: 1795
-                - incorrect_count_1: 5526
-                - incorrect_count_2: 195
-                - diff_count: 5463
+            1. PS
+                - tsv size: 1115
+                - incorrect_count_1: 1523
+                - incorrect_count_2: 48
+                - diff_count: 1509
             
-            2. EV
-                - tsv size: 226
-                - incorrect_count_1: 391
-                - incorrect_count_2: 80
-                - diff_count: 375
+            2. LC
+                - tsv size: 98
+                - incorrect_count_1: 107
+                - incorrect_count_2: 6
+                - diff_count: 104
+            
+            3. OG
+                - tsv size: 1074
+                - incorrect_count_1: 1398
+                - incorrect_count_2: 185
+                - diff_count: 1346
+            
+            4. AF
+                - tsv size: 316
+                - incorrect_count_1: 295
+                - incorrect_count_2: 41
+                - diff_count: 269
+            
+            5. DT
+                - tsv size: 144
+                - incorrect_count_1: 167
+                - incorrect_count_2: 16
+                - diff_count: 164
+             
+            6. TI
+                - tsv size: 60
+                - incorrect_count_1: 57
+                - incorrect_count_2: 6
+                - diff_count: 56
                 
-            3. LC
-                - tsv size: 868
-                - incorrect_count_1: 1641
-                - incorrect_count_2: 217
-                - diff_count: 1596
-                
-            4. MT
+            7. CV
+                - tsv size: 823
+                - incorrect_count_1: 685
+                - incorrect_count_2: 125
+                - diff_count: 622
+            
+            8. AM
                 - tsv size: 83
-                - incorrect_count_1: 101
-                - incorrect_count_2: 12
-                - diff_count: 94
+                - incorrect_count_1: 52
+                - incorrect_count_2: 4
+                - diff_count: 50
             
-            5. TM
-                - tsv size: 452
-                - incorrect_count_1: 897
-                - incorrect_count_2: 154
-                - diff_count: 806
+            9. PT
+                - tsv size: 23
+                - incorrect_count_1: 11
+                - incorrect_count_2: 3
+                - diff_count: 10
+                
+            10. QT
+                - tsv size: 392
+                - incorrect_count_1: 520
+                - incorrect_count_2: 66
+                - diff_count: 501
+            
+            11. FD
+                - tsv size: 1234
+                - incorrect_count_1: 54
+                - incorrect_count_2: 23
+                - diff_count: 50
+            
+            12. TR
+                - tsv size: 27
+                - incorrect_count_1: 9
+                - incorrect_count_2: 2
+                - diff_count: 8
+            
+            13. EV
+                - tsv size: 49
+                - incorrect_count_1: 30
+                - incorrect_count_2: 8
+                - diff_count: 27
+            
+            14. MT
+                - tsv size: 19
+                - incorrect_count_1: 15
+                - incorrect_count_2: 1
+                - diff_count: 14
+            
+            15. TM
+                - tsv size: 106
+                - incorrect_count_1: 86
+                - incorrect_count_2: 23
+                - diff_count: 70
     '''
     target_ne = "TM"
     target_dir_path = "./cmp_dir/" + target_ne

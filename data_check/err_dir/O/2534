@@ -1,10 +1,5 @@
 	text	label	preds
 0	[CLS]	O	O
-1	스물	B-QT	B-QT
-2	몇	O	I-QT
-3	살	O	I-QT
-4	밖에	O	O
-5	안	O	O
-6	되	O	O
-7	##는데	O	O
-8	[SEP]	O	O
+1	그릴	O	B-CV
+2	소스	B-CV	I-CV
+3	[SEP]	O	O

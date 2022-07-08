@@ -16,7 +16,8 @@ from utils.ne_tag_def import ETRI_TAG
 def classify_tag_err():
     start_time = time.time()
 
-    model_path = "./model/electra-pos-lstm-crf"
+    # model_path = "./model/electra-pos-lstm-crf"
+    model_path = "./train_model"
     model = ELECTRA_POS_LSTM.from_pretrained(model_path)
     tokenizer = AutoTokenizer.from_pretrained("monologg/koelectra-base-v3-discriminator")
 

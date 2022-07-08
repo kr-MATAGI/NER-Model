@@ -1,5 +1,13 @@
 	text	label	preds
 0	[CLS]	O	O
-1	유권자	B-CV	B-OG
-2	정당	O	I-OG
-3	[SEP]	O	O
+1	BBC	B-OG	B-OG
+2	,	O	O
+3	낸시	B-PS	B-PS
+4	랭	I-PS	I-PS
+5	‘	O	O
+6	팝	B-CV	O
+7	##아트	I-CV	O
+8	공연	O	O
+9	’	O	O
+10	취소	O	O
+11	[SEP]	O	O

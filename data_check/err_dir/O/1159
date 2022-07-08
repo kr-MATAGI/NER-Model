@@ -1,6 +1,10 @@
 	text	label	preds
 0	[CLS]	O	O
-1	근데	O	O
-2	이제	O	O
-3	민주	O	B-OG
-4	[SEP]	O	O
+1	독감	B-TM	B-TR
+2	##예	O	I-TR
+3	##방	O	I-TR
+4	##접	O	I-TR
+5	##종	O	I-TR
+6	##율	O	O
+7	##은	O	O
+8	[SEP]	O	O

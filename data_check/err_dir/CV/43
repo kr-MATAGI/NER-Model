@@ -1,13 +1,6 @@
 	text	label	preds
 0	[CLS]	O	O
-1	이전	O	O
-2	퍼스트	B-CV	O
-3	레이디	I-CV	O
-4	##들	O	O
-5	##과	O	O
-6	달리	O	O
-7	적극	O	O
-8	역할	O	O
-9	##할	O	O
-10	##듯	O	O
-11	[SEP]	O	O
+1	버터	B-CV	B-CV
+2	##기름	I-CV	O
+3	##으로	O	O
+4	[SEP]	O	O

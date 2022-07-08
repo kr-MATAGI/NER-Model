@@ -1,13 +1,6 @@
 	text	label	preds
 0	[CLS]	O	O
-1	근데	O	O
-2	그	O	O
-3	흔히	O	O
-4	말	O	O
-5	##하	O	O
-6	##는	O	O
-7	케이블	O	B-TM
-8	티비	B-TM	I-TM
-9	##에	O	O
-10	##서	O	O
-11	[SEP]	O	O
+1	지	O	B-CV
+2	##즐	O	I-CV
+3	음	O	O
+4	[SEP]	O	O
