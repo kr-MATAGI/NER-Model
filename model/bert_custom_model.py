@@ -7,7 +7,7 @@ from transformers import (
 from torch.nn.utils.rnn import pack_padded_sequence, pad_packed_sequence
 import copy
 
-from crf_layer import CRF
+from model.crf_layer import CRF
 
 #==========================================================================================
 
