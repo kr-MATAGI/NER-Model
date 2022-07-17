@@ -1,12 +1,34 @@
 ## 실험 환경
   <table>
   <th>하이퍼 파라미터</th><th>값</th>
+  <tr>
+    <td>epoch</td><td>10</td>
+  </tr>
+  <tr>
+    <td>형태소 분석 데이터</td><td>국립국어원 형태 분석 말뭉치 (버전 1.0)</td>
+  </tr>
+  <tr>
+    <td>Train Data Size</td><td>260,099 문장</td>
+  </tr>
+  <tr>
+    <td>Dev Data Size</td><td>37,157 문장</td>
+  </tr>
+  <tr>
+    <td>Test Data Size</td><td>74,315 문장</td>
+  </tr>
+  <tr>
+    <td>Train Batch Size</td><td>64</td>
+  </tr>
+  <tr>
+    <td>Dev/Test Batch Size</td><td>128</td>
+  </tr>
+  <tr>
+    <td>Learning Rate</td><td>5e-5</td>
+  </tr>
   </table>
 
 ## 성능 기록
   ### 데이터: 국립국어원 개체명 분석 말뭉치 2019 (문어 200만 어절 / 구어 100만 어절)
-  - max_len: 128
-  - 형태소 분석 정보: 모두의 말뭉치 
   
   <table>
     <th>모델</th><th>f1-score</th>
@@ -29,8 +51,6 @@
   </table>
   
   ### 데이터: 국립국어원 개체명 분석 말뭉치 2020 (문어 200만 어절 /구어 100만 어절)
-  - max_len: 128
-  - 형태소 분석 정보: 모두의 말뭉치 
   
   <table>
   <th>모델</th><th>f1-score</th>
