@@ -1,30 +1,59 @@
-# De-identification-with-NER
-  ## 참조
+## 실험 환경
+  <table>
+  <th>하이퍼 파라미터</th><th>값</th>
+  </table>
+
+## 성능 기록
+  ### 데이터: 국립국어원 개체명 분석 말뭉치 2019 (문어 200만 어절 / 구어 100만 어절)
+  - max_len: 128
+  - 형태소 분석 정보: 모두의 말뭉치 
+  
+  <table>
+    <th>모델</th><th>f1-score</th>
+  <tr>
+    <td>KLUE/BERT-base</td><td>93.154</td>
+  </tr>
+  <tr>
+    <td>KLUE/BERT-base-LSTM(POS)</td><td>93.725</td>
+  </tr>
+  <tr>
+    <td>KLUE/BERT-base-CRF(POS)</td><td>93.825</td>
+  </tr>
+  <tr>
+    <td>KLUE/BERT-base-LSTM(POS)-CRF</td><td>94.019</td>
+  </tr>
+  <tr>
+    <td>monologg/koELECTRA-LSTM(POS)-CRF</td><td>94.264</td>
+  </tr>
+  
+  </table>
+  
+  ### 데이터: 국립국어원 개체명 분석 말뭉치 2020 (문어 200만 어절 /구어 100만 어절)
+  - max_len: 128
+  - 형태소 분석 정보: 모두의 말뭉치 
+  
+  <table>
+  <th>모델</th><th>f1-score</th>
+  <tr>
+    <td>BERT+LSTM(POS)+CRF</td><td>????</td>
+  </tr>
+  <tr>
+    <td>ELECTRA+LSTM(POS)+CRF</td><td>93.927</td>
+  </tr>
+  </table>
+
+# 프로젝트 구현시 참고한 것들...
+## 모델 구현관련 참고
   - [HuggingFace Transformers](https://huggingface.co/docs/transformers/custom_datasets#tok-ner)
   - [ELECTRA+CRF](https://github.com/Hanlard/Electra_CRF_NER)
   - [BERT+CRF](https://github.com/eagle705/pytorch-bert-crf-ner)
   - [linear-chin CRF in pytorch](https://towardsdatascience.com/implementing-a-linear-chain-conditional-random-field-crf-in-pytorch-16b0b9c4b4ea)
-  
- ## WordPiece를 이용해 Dataset의 Label을 만들기 참조
+
+## WordPiece를 이용해 Dataset의 Label을 만들기 참고
   - [HuggingFace](https://huggingface.co/docs/transformers/custom_datasets#tok-ner)
   - [StackExchange](https://datascience.stackexchange.com/questions/69640/what-should-be-the-labels-for-subword-tokens-in-bert-for-ner-task)
   - [git/huggingface/issues](https://github.com/huggingface/transformers/issues/323)
   - [discuss Huggingface](https://discuss.huggingface.co/t/converting-word-level-labels-to-wordpiece-level-for-token-classification/2118/6)   
-   
 
-## baseline 기록
-  - 데이터 : 모두의 말뭉치 2019 (신문/구어 도메인)
-  - max_len : 128
-  - f1 score
-  1. KLUE/BERT-base : 0.9137281805015626
-  2. KLUE/BERT-base-LSTM-CRF : 0.9190899917438767
-  3. KLUE/RoBERTa-base : 0.9183453182723446
-  4. KLUE/RoBERTa-base-LSTM-CRF : 0.918770832382083
-     - RoBERTa + LSTM + CRF는 테스트시 state_dict load해서 해야 된다.
-  5. monologg/KoCharELECTRA-LAN(Bi_LSTM) : 0.9162957815203087
-  6. KLUE/BERT-IDCNN-CRF : 0.9166425426233754
-  
- 
 ## Feature Embedding 참고
-https://jeonghyeokpark.netlify.app/pytorch/2020/12/17/pytorch5.html
-
+  - [임베딩을 합치는 4가지 방법](https://jeonghyeokpark.netlify.app/pytorch/2020/12/17/pytorch5.html)
