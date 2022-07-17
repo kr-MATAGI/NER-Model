@@ -15,7 +15,7 @@ from torch.utils.data import RandomSampler, SequentialSampler, DataLoader, Datas
 from torch.utils.tensorboard import SummaryWriter
 from transformers import ElectraConfig, get_linear_schedule_with_warmup
 
-from electra_custom_model import ELECTRA_POS_LSTM
+from model.electra_custom_model import ELECTRA_POS_LSTM
 
 from tqdm import tqdm
 
