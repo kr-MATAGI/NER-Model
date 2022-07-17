@@ -1,7 +1,7 @@
 {
   "task": "custom",
   "data_dir": "data",
-  "ckpt_dir": "ckpt-roberta-base-pos-rand-2021",
+  "ckpt_dir": "ckpt-bert-base-pos-2020",
   "train_npy": "./data/npy/old_nikl/bert/train.npy",
   "dev_npy": "./data/npy/old_nikl/bert/dev.npy",
   "test_npy": "./data/npy/old_nikl/bert/test.npy",
@@ -22,7 +22,7 @@
   "no_cuda": false,
   "model_type": "klue-berta-base",
   "model_name_or_path": "klue/bert-base",
-  "output_dir": "klue-roberta-base-pos-rand-ckpt-2021",
+  "output_dir": "klue-bert-base-pos-2020",
   "seed": 42,
   "train_batch_size": 64,
   "eval_batch_size": 128,

@@ -296,9 +296,9 @@ def main():
     model.to(args.device)
 
     # load train/dev/test npy
-    train_dataset, train_seq_len, train_pos_tag = load_corpus_npy_datasets(args.train_npy)
-    dev_dataset, dev_seq_len, dev_pos_tag = load_corpus_npy_datasets(args.dev_npy)
-    test_dataset, test_seq_len, test_pos_tag = load_corpus_npy_datasets(args.test_npy)
+    train_dataset, train_seq_len, train_pos_tag = load_corpus_npy_datasets(args.train_npy, mode="train")
+    dev_dataset, dev_seq_len, dev_pos_tag = load_corpus_npy_datasets(args.dev_npy, mode="dev")
+    test_dataset, test_seq_len, test_pos_tag = load_corpus_npy_datasets(args.test_npy, mode="test")
     print(f"train.shape - dataset: {train_dataset.shape}, seq_len: {train_seq_len.shape}, "
           f"pos_tag: {train_pos_tag.shape}")
     print(f"dev.shape - dataset: {dev_dataset.shape}, seq_len: {dev_seq_len.shape}, "
