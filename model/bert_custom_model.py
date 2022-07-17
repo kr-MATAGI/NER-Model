@@ -89,7 +89,7 @@ class BERT_IDCNN_CRF(BertPreTrainedModel):
         self.linear = nn.Linear(config.hidden_size * self.idcnn_nums, config.num_labels)
         self.crf = CRF(num_tags=config.num_labels, batch_first=True)
 
-    def forward(self, input_ids, token_type_ids, attention_mask, labels=None):
+    def forward(self, input_ids, token_type_ids, attention_mask, labels=None, input_seq_len=None, pos_tag_ids=None):
         bert_outputs = self.bert(
             input_ids=input_ids,
             token_type_ids=token_type_ids,

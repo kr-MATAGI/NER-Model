@@ -2,9 +2,9 @@
   "task": "custom",
   "data_dir": "data",
   "ckpt_dir": "ckpt-bert-idcnn-crf",
-  "train_npy": "./data/npy/old_nikl/128/train.npy",
-  "dev_npy": "./data/npy/old_nikl/128/dev.npy",
-  "test_npy": "./data/npy/old_nikl/128/test.npy",
+  "train_npy": "./data/npy/old_nikl/bert/train.npy",
+  "dev_npy": "./data/npy/old_nikl/bert/dev.npy",
+  "test_npy": "./data/npy/old_nikl/bert/test.npy",
   "evaluate_test_during_training": false,
   "eval_all_checkpoints": true,
   "save_optimizer": false,
@@ -26,8 +26,8 @@
   "seed": 42,
   "train_batch_size": 64,
   "eval_batch_size": 128,
-  "logging_steps": 4092,
-  "save_steps": 4092,
+  "logging_steps": 4065,
+  "save_steps": 4065,
   "learning_rate": 5e-5,
   "n_gpu": 1
 }

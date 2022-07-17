@@ -2,14 +2,7 @@ import numpy as np
 import torch
 from torch.utils.data import Dataset
 
-
-### BERT
-
-
-
-
-
-### ELECTRA
+### ELECTRA, BERT
 # electra-pos-lstm
 class NER_POS_Dataset(Dataset):
     def __init__(self, data: np.ndarray, seq_len: np.ndarray, pos_data: np.ndarray):

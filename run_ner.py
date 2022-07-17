@@ -266,7 +266,12 @@ def main():
 
     if user_select > len(NER_MODEL_LIST.keys()):
         user_select = 1
+    if 1 == user_select:
         config_file_path = "./config/electra-pos-tag.json"
+    elif 2 == user_select:
+        config_file_path = "./config/bert-pos-tag.json"
+    elif 3 == user_select:
+        config_file_path = "./config/bert-idcnn-crf.json"
 
     with open(config_file_path) as config_file:
         args = AttrDict(json.load(config_file))
@@ -302,7 +307,7 @@ def main():
           f"pos_tag: {test_pos_tag.shape}")
 
     # make train/dev/test dataset
-    if 1 == user_select:
+    if (1 == user_select) or (2 == user_select) or (3 == user_select):
         train_dataset = NER_POS_Dataset(data=train_dataset, seq_len=train_seq_len, pos_data=train_pos_tag)
         dev_dataset = NER_POS_Dataset(data=dev_dataset, seq_len=dev_seq_len, pos_data=dev_pos_tag)
         test_dataset = NER_POS_Dataset(data=test_dataset, seq_len=test_seq_len, pos_data=test_pos_tag)
