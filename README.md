@@ -1,13 +1,14 @@
 ## 실행 방법
-  1. 전처리된 데이터 압축해제
-  
-    ner_input_data.7z 압축 해제 후 사용할 모델의 config 파일에서 tarin/dev/test npy 경로 설정.
-
-  2. git clone
+ 
+  1. git clone
   
   ```
   git clone https://github.com/kr-MATAGI/NER-Model.git
   ```
+  
+  2. 전처리된 데이터 압축해제
+  
+    ner_input_data.7z 압축 해제 사용할 모델의 config 파일에서 tarin/dev/test npy 경로 설정.
   
   3. run_ner.py
   
