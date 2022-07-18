@@ -1,7 +1,7 @@
 ## 실행 방법
-  1. 전처리된 말뭉치 다운로드
+  1. 전처리된 데이터 압축해제
   
-     [다운로드 링크](http://pnuailab.synology.me:5000/sharing/W7RA7WjKz)
+    ner_input_data.7z 압축 해제 후 사용할 모델의 config 파일에서 tarin/dev/test npy 경로 설정.
 
   2. git clone
   
