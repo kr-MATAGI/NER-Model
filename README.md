@@ -1,9 +1,7 @@
 ## 실행 방법
   1. 전처리된 말뭉치 다운로드
   
-  ```
-  http://pnuailab.synology.me:5000/sharing/W7RA7WjKz
-  ```
+     [다운로드 링크](http://pnuailab.synology.me:5000/sharing/W7RA7WjKz)
 
   2. git clone
   
