@@ -108,7 +108,7 @@
   <table>
   <th>모델</th><th>f1-score</th>
   <tr>
-    <td>BERT+LSTM(POS)+CRF</td><td>????</td>
+    <td>BERT+LSTM(POS)+CRF</td><td>93.831</td>
   </tr>
   <tr>
     <td>ELECTRA+LSTM(POS)+CRF</td><td>93.927</td>
