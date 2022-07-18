@@ -1,17 +1,23 @@
 ## 실행 방법
-  1. git clone
+  1. 전처리된 말뭉치 다운로드
+  
+  ```
+  http://pnuailab.synology.me:5000/sharing/W7RA7WjKz
+  ```
+
+  2. git clone
   
   ```
   git clone https://github.com/kr-MATAGI/NER-Model.git
   ```
   
-  2. run_ner.py
+  3. run_ner.py
   
   ```
   python run_ner.py
   ```
   
-  3. 실험을 진행할 모델 선택
+  4. 실험을 진행할 모델 선택
 
   ![image](https://user-images.githubusercontent.com/30927066/179449109-2d9b661d-859d-44c4-babb-728ca6722421.png)
   
