@@ -8,7 +8,7 @@
   
   2. 전처리된 데이터 압축해제
   
-    ner_input_data.7z 압축 해제 사용할 모델의 config 파일에서 tarin/dev/test npy 경로 설정.
+    ner_input_data.7z 압축 해제  사용할 모델의 config 파일에서 tarin/dev/test npy 경로 설정.
   
   3. run_ner.py
   
