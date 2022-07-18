@@ -1,3 +1,56 @@
+## 실행 방법
+  1. git clone
+  
+  ```
+  git clone https://github.com/kr-MATAGI/NER-Model.git
+  ```
+  
+  2. run_ner.py
+  
+  ```
+  python run_ner.py
+  ```
+  
+  3. 실험을 진행할 모델 선택
+
+  ![image](https://user-images.githubusercontent.com/30927066/179449109-2d9b661d-859d-44c4-babb-728ca6722421.png)
+  
+  ### *Config 파일을 통한 실험환경 설정
+  
+  ```json
+  "task": "custom",
+  "data_dir": "data",
+  "ckpt_dir": "각 훈련 및 테스트별 모델, 결과가 저장될 root 폴더",
+  "train_npy": "훈련 데이터.npy", 
+  "dev_npy": "검증 데이터.npy", 
+  "test_npy": "테스트 데이터.npy", 
+  "evaluate_test_during_training": false,
+  "eval_all_checkpoints": true,
+  "save_optimizer": true,
+  "do_lower_case": false,
+  "do_train": true,
+  "do_eval": true,
+  "max_seq_len": 512,
+  "num_train_epochs": 10,
+  "weight_decay": 0.0,
+  "gradient_accumulation_steps": 1,
+  "adam_epsilon": 1e-8,
+  "warmup_proportion": 0,
+  "max_steps": -1,
+  "max_grad_norm": 1.0,
+  "no_cuda": false,
+  "model_type": "monologg/koelectra-base-v3-discriminator",
+  "model_name_or_path": "monologg/koelectra-base-v3-discriminator",
+  "output_dir": "ckpt_dir내 생성될 폴더 이름",
+  "seed": 42,
+  "train_batch_size": 64,
+  "eval_batch_size": 128,
+  "logging_steps": 4065,
+  "save_steps": 4065,
+  "learning_rate": 5e-5,
+  "n_gpu": 1
+  ```
+
 ## 실험 환경
   <table>
   <th>하이퍼 파라미터</th><th>값</th>
@@ -61,6 +114,9 @@
     <td>ELECTRA+LSTM(POS)+CRF</td><td>93.927</td>
   </tr>
   </table>
+
+## <우리말 샘> 사전 라이센스 관련
+  - [우리말샘 저작권 정책](https://opendict.korean.go.kr/service/copyrightPolicy)
 
 # 프로젝트 구현시 참고한 것들...
 ## 모델 구현관련 참고
