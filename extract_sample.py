@@ -118,19 +118,21 @@ def make_excel_file_using_extract_results(target_ne_dict: Dict[str, List[Sample_
 
         row = 2
         col = 2
-        work_sheet.cell(row, col, value="id")
-        work_sheet.cell(row, col+1, value="sentence")
-        work_sheet.cell(row, col+2, value="ne_text")
-        work_sheet.cell(row, col+3, value="ne_label")
+        work_sheet.cell(row, col, value="domain")
+        work_sheet.cell(row, col+1, value="id")
+        work_sheet.cell(row, col+2, value="sentence")
+        work_sheet.cell(row, col+3, value="ne_text")
+        work_sheet.cell(row, col+4, value="ne_label")
 
         row += 1
         for sp_idx, sample_data in enumerate(sample_list):
-            work_sheet.cell(row, col, value=sample_data.id)
-            work_sheet.cell(row, col+1, value=sample_data.sent)
+            work_sheet.cell(row, col, value=sample_data.src)
+            work_sheet.cell(row, col+1, value=sample_data.id)
+            work_sheet.cell(row, col+2, value=sample_data.sent)
 
             for ne_item in sample_data.ne_list:
-                work_sheet.cell(row, col+2, ne_item.text)
-                work_sheet.cell(row, col+3, ne_item.label)
+                work_sheet.cell(row, col+3, ne_item.text)
+                work_sheet.cell(row, col+4, ne_item.label)
                 row += 1
             row += 1
 
