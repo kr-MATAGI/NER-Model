@@ -144,7 +144,6 @@ def make_excel_file_using_extract_results(target_ne_dict: Dict[str, List[Sample_
     save_path = "./target_samples.xlsx"
     new_wb.save(save_path)
     print(f"[extract_sample][make_excel_file_using_extract_results] Complete - {save_path}")
->>>>>>> 788f334fcd839d2080997de761baabaea715b06e
 
 ### Main
 if "__main__" == __name__:
