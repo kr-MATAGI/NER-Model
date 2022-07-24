@@ -325,8 +325,8 @@ def main():
         if not args.eval_all_checkpoints:
             checkpoints = checkpoints[-1:]
         else:
-            logger.info("transformers.configuration_utils").setLevel(logger.WARN)  # Reduce logging
-            logger.getLogger("transformers.modeling_utils").setLevel(logger.WARN)  # Reduce logging
+            logger.info("transformers.configuration_utils")
+            logger.info("transformers.modeling_utils")
         logger.info("Evaluate the following checkpoints: %s", checkpoints)
 
         for checkpoint in checkpoints:
