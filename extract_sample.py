@@ -2,6 +2,7 @@ import os
 import json
 import copy
 import pandas as pd
+from openpyxl import Workbook
 
 from typing import List
 from dataclasses import dataclass, field
@@ -69,7 +70,12 @@ def extract_ne_samples_from_json(target_path: str, target_ne_list: List[str]):
 #===============================================================
 def make_excel_file_using_extarct_results(data_list: List[Sample_Data]):
 #===============================================================
-    pass
+    # create .xlsx
+    new_xlsx_path = "./extract_samples.xlsx"
+    new_wb = Workbook()
+    new_wb.save(new_xlsx_path)
+
+    # active first sheet
 
 ### Main
 if "__main__" == __name__:
