@@ -1,6 +1,6 @@
 import json
 import os
-
+import platform
 import numpy as np
 
 import glob
@@ -64,33 +64,33 @@ def evaluate(args, model, eval_dataset, mode, global_step=None, train_epoch=0):
                 "input_seq_len": batch["input_seq_len"].to(args.device),
                 "pos_tag_ids": batch["pos_tag_ids"].to(args.device)
             }
-            '''
+
             log_likelihood, outputs = model(**inputs)
             #loss, logits = outputs[:2]
             loss = -1 * log_likelihood
-            '''
-            outputs = model(**inputs)
-            loss = outputs.loss
+
+            # outputs = model(**inputs)
+            # loss = outputs.loss
             eval_loss += loss.mean().item()
 
         nb_eval_steps += 1
         tb_writer.add_scalar("Loss/val_" + str(train_epoch), eval_loss / nb_eval_steps, nb_eval_steps)
         eval_pbar.set_description("Eval Loss - %.04f" % (eval_loss / nb_eval_steps))
 
-        # if preds is None:
-        #     preds = np.array(outputs)
-        #     preds = outputs.logits.detach().cpu().numpy()
-        #     out_label_ids = inputs["labels"].detach().cpu().numpy()
-        # else:
-        #     preds = np.append(preds, np.array(outputs), axis=0)
-        #     out_label_ids = np.append(out_label_ids, inputs["labels"].detach().cpu().numpy(), axis=0)
-
         if preds is None:
+            preds = np.array(outputs)
             preds = outputs.logits.detach().cpu().numpy()
             out_label_ids = inputs["labels"].detach().cpu().numpy()
         else:
-            preds = np.append(preds, outputs.logits.detach().cpu().numpy(), axis=0)
+            preds = np.append(preds, np.array(outputs), axis=0)
             out_label_ids = np.append(out_label_ids, inputs["labels"].detach().cpu().numpy(), axis=0)
+
+        # if preds is None:
+        #     preds = outputs.logits.detach().cpu().numpy()
+        #     out_label_ids = inputs["labels"].detach().cpu().numpy()
+        # else:
+        #     preds = np.append(preds, outputs.logits.detach().cpu().numpy(), axis=0)
+        #     out_label_ids = np.append(out_label_ids, inputs["labels"].detach().cpu().numpy(), axis=0)
 
     logger.info("  Eval End !")
     eval_pbar.close()
@@ -101,7 +101,7 @@ def evaluate(args, model, eval_dataset, mode, global_step=None, train_epoch=0):
     }
 
     # 07.25
-    preds = np.argmax(preds, axis=2)
+    # preds = np.argmax(preds, axis=2)
 
     labels = ETRI_TAG.keys()
     label_map = {i: label for i, label in enumerate(labels)}
@@ -114,8 +114,6 @@ def evaluate(args, model, eval_dataset, mode, global_step=None, train_epoch=0):
     for i in range(out_label_ids.shape[0]):
         for j in range(out_label_ids.shape[1]):
             if out_label_ids[i, j] not in ignore_list:
-                # out_label_list[i].append(label_map[out_label_ids[i][j]])
-                # preds_list[i].append(label_map[preds[i][j]])
                 out_label_list[i].append(label_map[out_label_ids[i][j]])
                 preds_list[i].append(label_map[preds[i][j]])
 
@@ -202,11 +200,10 @@ def train(args, model, train_dataset, dev_dataset):
                 "pos_tag_ids": batch["pos_tag_ids"].to(args.device)
             }
 
-            #loss = model(**inputs)[0]
-            outputs = model(**inputs)
-            loss = outputs.loss
-            # log_likelihood, outputs = model(**inputs)
-            # loss = -1 * log_likelihood
+            log_likelihood, outputs = model(**inputs)
+            loss = -1 * log_likelihood
+            # outputs = model(**inputs)
+            # loss = outputs.loss
 
             if 1 < args.n_gpu:
                 loss = loss.mean()
@@ -289,6 +286,9 @@ def main():
     with open(config_file_path) as config_file:
         args = AttrDict(json.load(config_file))
     args.device = "cuda" if torch.cuda.is_available() else "cpu"
+    if "Darwin" == platform.system() and torch.backends.mps.is_built():
+        args.device = "mps" if torch.backends.mps.is_available() else "cpu"
+
     set_seed(args)
 
     args.output_dir = os.path.join(args.ckpt_dir, args.output_dir)
