@@ -13,11 +13,9 @@ from transformers.file_utils import (
 )
 
 from model.custom_layer import BertEncoder, BertPooler
-from model.crf_layer import CRF
 
 import torch
 import torch.nn as nn
-from torch.nn.utils.rnn import pack_padded_sequence, pad_packed_sequence
 from torch.nn import CrossEntropyLoss, MSELoss
 
 ### Global
@@ -160,10 +158,7 @@ class Custom_Embed_Model(BertPreTrainedModel):
 
         # classifier token
         self.dropout = nn.Dropout(config.hidden_dropout_prob)
-        self.lstm = nn.LSTM(input_size=config.hidden_size, hidden_size=(config.hidden_size // 2), num_layers=1,
-                            dropout=config.hidden_dropout_prob, batch_first=True, bidirectional=True)
-        self.linear = nn.Linear(config.hidden_size, config.num_labels)
-        self.crf = CRF(num_tags=config.num_labels, batch_first=True)
+        self.classifier = nn.Linear(config.hidden_size, config.num_labels)
 
         self.init_weights()
 
@@ -197,8 +192,6 @@ class Custom_Embed_Model(BertPreTrainedModel):
         pos_tag_ids=None,
         labels=None,
         input_seq_len=None,
-        pad_id=0,
-        using_pack_sequence=True,
         head_mask=None,
         inputs_embeds=None,
         encoder_hidden_states=None,
@@ -297,27 +290,32 @@ class Custom_Embed_Model(BertPreTrainedModel):
 
         sequence_output = bert_outputs[0]
         sequence_output = self.dropout(sequence_output)
+        logits = self.classifier(sequence_output)
 
-        seq_len = input_seq_len
-        if using_pack_sequence:
-            pack_padded_output = pack_padded_sequence(sequence_output, seq_len.tolist(),
-                                                      batch_first=True, enforce_sorted=False)
-            lstm_output, hidden = self.lstm(pack_padded_output)
-            lstm_output = pad_packed_sequence(lstm_output, batch_first=True, padding_value=pad_id,
-                                              total_length=self.max_seq_len)[0]
-        else:
-            lstm_output, hidden = self.lstm(sequence_output)
-        emissions = self.linear(lstm_output)
-
-        # crf
+        loss = None
         if labels is not None:
-            log_likelihood, sequence_of_tags = self.crf(emissions=emissions, tags=labels, mask=attention_mask.bool(),
-                                                        reduction="mean"), self.crf.decode(emissions,
-                                                                                           mask=attention_mask.bool())
-            return log_likelihood, sequence_of_tags
-        else:
-            sequence_of_tags = self.crf.decode(emissions, mask=attention_mask.bool())
-            return sequence_of_tags
+            loss_fct = CrossEntropyLoss()
+            # Only keep active parts of the loss
+            if attention_mask is not None:
+                active_loss = attention_mask.view(-1) == 1
+                active_logits = logits.view(-1, self.config.num_labels)
+                active_labels = torch.where(
+                    active_loss, labels.view(-1), torch.tensor(loss_fct.ignore_index).type_as(labels)
+                )
+                loss = loss_fct(active_logits, active_labels)
+            else:
+                loss = loss_fct(logits.view(-1, self.num_labels), labels.view(-1))
+
+        if not return_dict:
+            output = (logits,) + bert_outputs[2:]
+            return ((loss,) + output) if loss is not None else output
+
+        return TokenClassifierOutput(
+            loss=loss,
+            logits=logits,
+            hidden_states=bert_outputs.hidden_states,
+            attentions=bert_outputs.attentions,
+        )
 
 ### Main
 if "__main__" == __name__:
