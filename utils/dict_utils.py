@@ -4,7 +4,7 @@ import os
 import pickle
 import xml.etree.ElementTree as ET
 
-from typing import List
+from typing import List, Dict
 from dataclasses import dataclass, field
 
 ### Data def
@@ -77,17 +77,26 @@ def read_korean_dict_xml(src_dir_path: str):
 #===============================================================
 def make_dict_hash_table(dic_path: str):
 #===============================================================
-    dic_data_list: List[Dict_Item] = []
-    with open(dic_path, mode="rb") as dict_pkl:
-        dic_data_list = pickle.load(dict_pkl)
-        print(f"[dict_utils][make_dict_hash_table] dic_data_list.size: {len(dic_data_list)}")
+    dict_data_list: List[Dict_Item] = []
 
-    for dic_idx, dic_data in enumerate(dic_data_list):
+    # load
+    with open(dic_path, mode="rb") as dict_pkl:
+        dict_data_list = pickle.load(dict_pkl)
+        print(f"[dict_utils][make_dict_hash_table] dic_data_list.size: {len(dict_data_list)}")
+
+    # dict
+    hash_dict: Dict[str, List[Dict_Item]] = {}
+    for dic_idx, dic_data in enumerate(dict_data_list):
         if 0 == (dic_idx % 10000):
             print(f"[dict_utils][make_dict_hash_table] {dic_idx} is processing... {dic_data.word_info.word}")
 
+        first_word = dic_data.word_info.word[0]
+        if first_word in hash_dict.keys():
+            hash_dict[first_word].append(dic_data)
+        else:
+            hash_dict[first_word] = []
 
-
+    return hash_dict
 
 
 ### Main
@@ -103,4 +112,5 @@ if "__main__" == __name__:
             pickle.dump(res_kr_dict_item_list, save_pkl)
             print(f"[dict_utils][__main__] Complete save - {save_path}")
 
-    make_dict_hash_table(dic_path="../우리말샘_dict.pkl")
+    res_hash_dict = make_dict_hash_table(dic_path="../우리말샘_dict.pkl")
+    print(len(res_hash_dict["쟁"]))
