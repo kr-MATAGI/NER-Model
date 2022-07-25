@@ -39,7 +39,7 @@ def read_korean_dict_xml(src_dir_path: str):
     '''
         @NOTE
             989450_1100000.xml 파일의 1474638~9 line에 parse 되지 않는 토큰 있음
-            989450_500000.xml 파일의 1035958~9 line에 parse 되지 않는 토큰 있음
+            989450_550000.xml 파일의 1035958~9 line에 parse 되지 않는 토큰 있음
     '''
     for src_idx, src_dict_xml in enumerate(src_dict_list):
         print(f"[dict_utils][read_korean_dict_xml] {src_idx+1}, {src_dict_xml}")
@@ -76,11 +76,11 @@ def read_korean_dict_xml(src_dir_path: str):
 
 ### Main
 if "__main__" == __name__:
-    dir_path = "../data/dict"
+    dir_path = "../data/dict/우리말샘"
     res_kr_dict_item_list = read_korean_dict_xml(src_dir_path=dir_path)
 
     # save *.pkl
-    save_path = "../kr_dict.pkl"
+    save_path = "../우리말샘_dict.pkl"
     with open(save_path, mode="wb") as save_pkl:
         pickle.dump(res_kr_dict_item_list, save_pkl)
         print(f"[dict_utils][__main__] Complete save - {save_path}")
