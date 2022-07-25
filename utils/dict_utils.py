@@ -74,13 +74,33 @@ def read_korean_dict_xml(src_dir_path: str):
     print(f"[dict_utils][read_korean_dict_xml] total dict item size: {len(ret_kr_dict_item_list)}")
     return ret_kr_dict_item_list
 
+#===============================================================
+def make_dict_hash_table(dic_path: str):
+#===============================================================
+    dic_data_list: List[Dict_Item] = []
+    with open(dic_path, mode="rb") as dict_pkl:
+        dic_data_list = pickle.load(dict_pkl)
+        print(f"[dict_utils][make_dict_hash_table] dic_data_list.size: {len(dic_data_list)}")
+
+    for dic_idx, dic_data in enumerate(dic_data_list):
+        if 0 == (dic_idx % 10000):
+            print(f"[dict_utils][make_dict_hash_table] {dic_idx} is processing... {dic_data.word_info.word}")
+
+
+
+
+
 ### Main
 if "__main__" == __name__:
-    dir_path = "../data/dict/우리말샘"
-    res_kr_dict_item_list = read_korean_dict_xml(src_dir_path=dir_path)
+    is_save_pkl = False
+    if is_save_pkl:
+        dir_path = "../data/dict/우리말샘"
+        res_kr_dict_item_list = read_korean_dict_xml(src_dir_path=dir_path)
 
-    # save *.pkl
-    save_path = "../우리말샘_dict.pkl"
-    with open(save_path, mode="wb") as save_pkl:
-        pickle.dump(res_kr_dict_item_list, save_pkl)
-        print(f"[dict_utils][__main__] Complete save - {save_path}")
+        # save *.pkl
+        save_path = "../우리말샘_dict.pkl"
+        with open(save_path, mode="wb") as save_pkl:
+            pickle.dump(res_kr_dict_item_list, save_pkl)
+            print(f"[dict_utils][__main__] Complete save - {save_path}")
+
+    make_dict_hash_table(dic_path="../우리말샘_dict.pkl")
