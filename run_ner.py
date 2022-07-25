@@ -64,28 +64,33 @@ def evaluate(args, model, eval_dataset, mode, global_step=None, train_epoch=0):
                 "input_seq_len": batch["input_seq_len"].to(args.device),
                 "pos_tag_ids": batch["pos_tag_ids"].to(args.device)
             }
-
+            '''
             log_likelihood, outputs = model(**inputs)
             #loss, logits = outputs[:2]
             loss = -1 * log_likelihood
+            '''
+            outputs = model(**inputs)
+            loss = outputs.loss
             eval_loss += loss.mean().item()
 
         nb_eval_steps += 1
         tb_writer.add_scalar("Loss/val_" + str(train_epoch), eval_loss / nb_eval_steps, nb_eval_steps)
         eval_pbar.set_description("Eval Loss - %.04f" % (eval_loss / nb_eval_steps))
 
-        if preds is None:
-            preds = np.array(outputs)
-            out_label_ids = inputs["labels"].detach().cpu().numpy()
-        else:
-            preds = np.append(preds, np.array(outputs), axis=0)
-            out_label_ids = np.append(out_label_ids, inputs["labels"].detach().cpu().numpy(), axis=0)
         # if preds is None:
-        #     preds = logits.detach().cpu().numpy()
+        #     preds = np.array(outputs)
+        #     preds = outputs.logits.detach().cpu().numpy()
         #     out_label_ids = inputs["labels"].detach().cpu().numpy()
         # else:
-        #     preds = np.append(preds, logits.detach().cpu().numpy(), axis=0)
+        #     preds = np.append(preds, np.array(outputs), axis=0)
         #     out_label_ids = np.append(out_label_ids, inputs["labels"].detach().cpu().numpy(), axis=0)
+
+        if preds is None:
+            preds = outputs.logits.detach().cpu().numpy()
+            out_label_ids = inputs["labels"].detach().cpu().numpy()
+        else:
+            preds = np.append(preds, outputs.logits.detach().cpu().numpy(), axis=0)
+            out_label_ids = np.append(out_label_ids, inputs["labels"].detach().cpu().numpy(), axis=0)
 
     logger.info("  Eval End !")
     eval_pbar.close()
@@ -95,7 +100,8 @@ def evaluate(args, model, eval_dataset, mode, global_step=None, train_epoch=0):
         "loss": eval_loss
     }
 
-    #preds = np.argmax(preds, axis=2)
+    # 07.25
+    preds = np.argmax(preds, axis=2)
 
     labels = ETRI_TAG.keys()
     label_map = {i: label for i, label in enumerate(labels)}
@@ -108,6 +114,8 @@ def evaluate(args, model, eval_dataset, mode, global_step=None, train_epoch=0):
     for i in range(out_label_ids.shape[0]):
         for j in range(out_label_ids.shape[1]):
             if out_label_ids[i, j] not in ignore_list:
+                # out_label_list[i].append(label_map[out_label_ids[i][j]])
+                # preds_list[i].append(label_map[preds[i][j]])
                 out_label_list[i].append(label_map[out_label_ids[i][j]])
                 preds_list[i].append(label_map[preds[i][j]])
 
@@ -195,8 +203,10 @@ def train(args, model, train_dataset, dev_dataset):
             }
 
             #loss = model(**inputs)[0]
-            log_likelihood, outputs = model(**inputs)
-            loss = -1 * log_likelihood
+            outputs = model(**inputs)
+            loss = outputs.loss
+            # log_likelihood, outputs = model(**inputs)
+            # loss = -1 * log_likelihood
 
             if 1 < args.n_gpu:
                 loss = loss.mean()
@@ -259,6 +269,7 @@ def main():
     print(f"1. {NER_MODEL_LIST[0]}")
     print(f"2. {NER_MODEL_LIST[1]}")
     print(f"3. {NER_MODEL_LIST[2]}")
+    print(f"4. {NER_MODEL_LIST[3]}")
     print("=======================================")
     print(">>>> number: ")
     user_select = int(input())
@@ -272,6 +283,8 @@ def main():
         config_file_path = "./config/bert-pos-tag.json"
     elif 3 == user_select:
         config_file_path = "./config/bert-idcnn-crf.json"
+    elif 4 == user_select:
+        config_file_path = "./config/custom-embed-model.json"
 
     with open(config_file_path) as config_file:
         args = AttrDict(json.load(config_file))
@@ -307,10 +320,9 @@ def main():
           f"pos_tag: {test_pos_tag.shape}")
 
     # make train/dev/test dataset
-    if (1 == user_select) or (2 == user_select) or (3 == user_select):
-        train_dataset = NER_POS_Dataset(data=train_dataset, seq_len=train_seq_len, pos_data=train_pos_tag)
-        dev_dataset = NER_POS_Dataset(data=dev_dataset, seq_len=dev_seq_len, pos_data=dev_pos_tag)
-        test_dataset = NER_POS_Dataset(data=test_dataset, seq_len=test_seq_len, pos_data=test_pos_tag)
+    train_dataset = NER_POS_Dataset(data=train_dataset, seq_len=train_seq_len, pos_data=train_pos_tag)
+    dev_dataset = NER_POS_Dataset(data=dev_dataset, seq_len=dev_seq_len, pos_data=dev_pos_tag)
+    test_dataset = NER_POS_Dataset(data=test_dataset, seq_len=test_seq_len, pos_data=test_pos_tag)
 
     if args.do_train:
         global_step, tr_loss = train(args, model, train_dataset, dev_dataset)

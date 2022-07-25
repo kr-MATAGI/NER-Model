@@ -9,6 +9,7 @@ from sklearn import metrics as sklearn_metrics
 # config, model
 from transformers import ElectraConfig, AutoConfig
 from model.electra_custom_model import ELECTRA_POS_LSTM
+from model.custom_embed import Custom_Embed_Model
 from model.bert_custom_model import (
     BERT_POS_LSTM, BERT_IDCNN_CRF
 )
@@ -136,9 +137,15 @@ def load_ner_config_and_model(user_select: int, args, tag_dict):
         config.filter_nums = 64
         config.idcnn_nums = 4
         config.max_len = 128
+    elif 4 == user_select:
+        # CUSTOM EMBED MODEL
+        config = AutoConfig.from_pretrained(args.model_name_or_path,
+                                            num_labels=len(tag_dict.keys()),
+                                            id2label={str(i): label for i, label in enumerate(tag_dict.keys())},
+                                            label2id={label: i for i, label in enumerate(tag_dict.keys())})
+        config.num_pos_labels = 49  # NIKL
 
     # model
-    model = None
     if 1 == user_select:
         # ELECTRA+LSTM(POS)+CRF
         model = ELECTRA_POS_LSTM.from_pretrained(args.model_name_or_path, config=config)
@@ -148,6 +155,9 @@ def load_ner_config_and_model(user_select: int, args, tag_dict):
     elif 3 == user_select:
         # BERT+IDCNN+CRF
         model = BERT_IDCNN_CRF(config=config)
+    elif 4 == user_select:
+        # CUSTOM EMBED MODEL
+        model = Custom_Embed_Model(config=config)
 
     return config, model
 
