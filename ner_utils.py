@@ -2,6 +2,7 @@ import logging
 import numpy as np
 import torch
 import random
+import pickle
 
 from seqeval import metrics as seqeval_metrics
 from sklearn import metrics as sklearn_metrics
@@ -177,5 +178,8 @@ def load_model_checkpoints(user_select, checkpoint):
     elif 3 == user_select:
         # BERT+IDCNN+CRF
         model = BERT_IDCNN_CRF.from_pretrained(checkpoint)
+    elif 4 == user_select:
+        # Custom Embed Model
+        model = Custom_Embed_Model.from_pretrained(checkpoint)
 
     return model

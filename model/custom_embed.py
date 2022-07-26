@@ -304,7 +304,7 @@ class Custom_Embed_Model(BertPreTrainedModel):
                                                       batch_first=True, enforce_sorted=False)
             lstm_output, hidden = self.lstm(pack_padded_output)
             lstm_output = pad_packed_sequence(lstm_output, batch_first=True, padding_value=pad_id,
-                                              total_length=self.max_seq_len)[0]
+                                              total_length=self.config.max_seq_len)[0]
         else:
             lstm_output, hidden = self.lstm(sequence_output)
         emissions = self.linear(lstm_output)

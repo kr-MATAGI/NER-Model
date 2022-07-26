@@ -1,6 +1,7 @@
 import json
 import os
 import platform
+import pickle
 import numpy as np
 
 import glob
@@ -11,11 +12,14 @@ import torch
 from torch.utils.data import RandomSampler, SequentialSampler, DataLoader, Dataset
 from torch.utils.tensorboard import SummaryWriter
 from transformers import get_linear_schedule_with_warmup
+from transformers import AutoTokenizer
 
 from tqdm import tqdm
 
 ### Model
-from ner_def import ETRI_TAG, NER_MODEL_LIST
+from ner_def import (
+    ETRI_TAG, NER_MODEL_LIST,
+)
 from ner_datasets import NER_POS_Dataset
 from ner_utils import (
     init_logger, print_parameters, load_corpus_npy_datasets,
@@ -24,11 +28,15 @@ from ner_utils import (
 )
 
 ### Global variable
+g_user_select = 0
 logger = init_logger()
 
 if not os.path.exists("./logs"):
     os.mkdir("./logs")
 tb_writer = SummaryWriter("./logs")
+
+# Dictionary
+dict_hash_table = None
 
 ### Evaluate
 #===============================================================
@@ -79,7 +87,6 @@ def evaluate(args, model, eval_dataset, mode, global_step=None, train_epoch=0):
 
         if preds is None:
             preds = np.array(outputs)
-            preds = outputs.logits.detach().cpu().numpy()
             out_label_ids = inputs["labels"].detach().cpu().numpy()
         else:
             preds = np.append(preds, np.array(outputs), axis=0)
@@ -200,6 +207,8 @@ def train(args, model, train_dataset, dev_dataset):
                 "pos_tag_ids": batch["pos_tag_ids"].to(args.device)
             }
 
+            # inputs["input_ids"].shape -> [batch_size, max_seq_len]
+
             log_likelihood, outputs = model(**inputs)
             loss = -1 * log_likelihood
             # outputs = model(**inputs)
@@ -269,19 +278,23 @@ def main():
     print(f"4. {NER_MODEL_LIST[3]}")
     print("=======================================")
     print(">>>> number: ")
-    user_select = int(input())
+
+    global g_user_select
+    g_user_select = int(input())
     config_file_path = "./config/electra-pos-tag.json"
 
-    if user_select > len(NER_MODEL_LIST.keys()):
-        user_select = 1
-    if 1 == user_select:
+    if g_user_select > len(NER_MODEL_LIST.keys()):
+        g_user_select = 1
+    if 1 == g_user_select:
         config_file_path = "./config/electra-pos-tag.json"
-    elif 2 == user_select:
+    elif 2 == g_user_select:
         config_file_path = "./config/bert-pos-tag.json"
-    elif 3 == user_select:
+    elif 3 == g_user_select:
         config_file_path = "./config/bert-idcnn-crf.json"
-    elif 4 == user_select:
+    elif 4 == g_user_select:
         config_file_path = "./config/custom-embed-model.json"
+        with open("./우리말샘_dict.pkl", mode="rb") as dict_hash_file:
+            dict_hash_table = pickle.load(dict_hash_file)
 
     with open(config_file_path) as config_file:
         args = AttrDict(json.load(config_file))
@@ -294,7 +307,7 @@ def main():
     args.output_dir = os.path.join(args.ckpt_dir, args.output_dir)
 
     # Config
-    config, model = load_ner_config_and_model(user_select, args, ETRI_TAG)
+    config, model = load_ner_config_and_model(g_user_select, args, ETRI_TAG)
 
     # print config / model
     logger.info(f"[run_ner][__main__] model: {args.model_name_or_path}")
@@ -343,7 +356,7 @@ def main():
 
         for checkpoint in checkpoints:
             global_step = checkpoint.split("-")[-1]
-            model = load_model_checkpoints(user_select, checkpoint)
+            model = load_model_checkpoints(g_user_select, checkpoint)
             model.to(args.device)
             result = evaluate(args, model, test_dataset, mode="test", global_step=global_step)
             result = dict((k + "_{}".format(global_step), v) for k, v in result.items())

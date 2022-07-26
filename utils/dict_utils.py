@@ -1,11 +1,13 @@
 import copy
-import re
 import os
 import pickle
+import numpy as np
 import xml.etree.ElementTree as ET
 
 from typing import List, Dict
 from dataclasses import dataclass, field
+
+from transformers import AutoTokenizer
 
 ### Data def
 @dataclass
@@ -61,7 +63,7 @@ def read_korean_dict_xml(src_dir_path: str):
             sense_info = Sense_Info()
             sense_info_tag = item_tag.find("senseInfo")
             sense_info.sense_no = sense_info_tag.find("sense_no").text
-            if "pos" in sense_info_tag.keys():
+            if None != sense_info_tag.find("pos"):
                 sense_info.pos = sense_info_tag.find("pos").text
             sense_info.type = sense_info_tag.find("type").text
             sense_info.definition = sense_info_tag.find("definition").text
@@ -98,6 +100,63 @@ def make_dict_hash_table(dic_path: str):
 
     return hash_dict
 
+#===============================================================
+def make_dict_boundary_npy(corpus_npy_path: str, dict_hash: Dict[str, Dict_Item], tokenizer_name: str,
+                           mode="train"):
+#===============================================================
+    # init
+    concat_limit = 5
+    max_seq_len = 128
+    tokenizer = AutoTokenizer.from_pretrained(tokenizer_name)
+
+    # load
+    target_npy_file = os.listdir(corpus_npy_path)
+    target_npy_file = [x for x in target_npy_file if mode+".npy" == x][0]
+
+    npy_datasets = np.load(corpus_npy_path+"/"+target_npy_file)
+    print(f"[dict_utils][make_dict_boundary_npy] mode: {mode}, npy.shape: {npy_datasets.shape}")
+
+    for npy_idx, npy_data in enumerate(npy_datasets):
+        input_ids = npy_data[:, 0]
+        end_ids = np.where(input_ids == 3)[0][0]
+
+        decode_sent = tokenizer.decode(input_ids)
+        print(input_ids, end_ids, decode_sent)
+
+        ne_ids = 1
+        for t_idx in range(1, end_ids):
+            is_matching = False
+            concat_word = ""
+            for concat_cnt in range(concat_limit):
+                if end_ids <= (t_idx + concat_cnt):
+                    break
+                add_word = tokenizer.convert_ids_to_tokens([input_ids[t_idx + concat_cnt]])[0]
+                if "##" in add_word:
+                    concat_word += add_word.replace("##", "")
+                else:
+                    if 0 >= len(concat_word) or (add_word in [".", "(", ")", "[", "]", "{", "}", "<", ">"]):
+                        concat_word += add_word
+                    else:
+                        concat_word += " " + add_word
+
+                # search in dict
+                if concat_word[0] in dict_hash.keys():
+                    dict_list: List[Dict_Item] = []
+                    for src_dict_item in dict_hash[concat_word[0]]:
+                        conv_dict_item = copy.deepcopy(src_dict_item)
+                        conv_dict_item.word_info.word = src_dict_item.word_info.word.replace("^", "").replace("-", "")
+                        dict_list.append(conv_dict_item)
+                    for dict_item in dict_list:
+                        if concat_word.replace(" ", "") == dict_item.word_info.word:
+                            is_matching = True
+                            print(concat_word, "\n", dict_item.word_info, "\n", dict_item.sense_info)
+                            input()
+
+    exit()
+
+#===============================================================
+def check_
+#===============================================================
 
 ### Main
 if "__main__" == __name__:
@@ -112,5 +171,12 @@ if "__main__" == __name__:
             pickle.dump(res_kr_dict_item_list, save_pkl)
             print(f"[dict_utils][__main__] Complete save - {save_path}")
 
-    res_hash_dict = make_dict_hash_table(dic_path="../우리말샘_dict.pkl")
-    print(len(res_hash_dict["쟁"]))
+    is_make_npy = False
+    if is_make_npy:
+        res_hash_dict = make_dict_hash_table(dic_path="../우리말샘_dict.pkl")
+        make_dict_boundary_npy(corpus_npy_path="../data/npy/old_nikl/bert", dict_hash=res_hash_dict,
+                               tokenizer_name="klue/bert-base", mode="train")
+        make_dict_boundary_npy(corpus_npy_path="../data/npy/old_nikl/bert", dict_hash=res_hash_dict,
+                               tokenizer_name="klue/bert-base", mode="dev")
+        make_dict_boundary_npy(corpus_npy_path="../data/npy/old_nikl/bert", dict_hash=res_hash_dict,
+                               tokenizer_name="klue/bert-base", mode="test")
