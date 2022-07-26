@@ -154,10 +154,6 @@ def make_dict_boundary_npy(corpus_npy_path: str, dict_hash: Dict[str, Dict_Item]
 
     exit()
 
-#===============================================================
-def check_
-#===============================================================
-
 ### Main
 if "__main__" == __name__:
     is_save_pkl = False

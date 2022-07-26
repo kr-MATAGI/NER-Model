@@ -8,7 +8,7 @@ from typing import List
 #from eunjeon import Mecab # window
 from konlpy.tag import Mecab # mac
 
-from transformers import AutoTokenizer
+from transformers import AutoTokenizer, ElectraTokenizer
 from data_def import *
 from pos_tag_def import MECAB_POS_TAG
 

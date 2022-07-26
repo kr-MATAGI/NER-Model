@@ -1,11 +1,7 @@
 import copy
 import random
-random.seed(42)
-import pickle
-from builtins import enumerate
-
 import numpy as np
-np.random.seed(42)
+import pickle
 
 from ne_tag_def import ETRI_TAG
 from pos_tag_def import NIKL_POS_TAG
@@ -14,6 +10,11 @@ from typing import List, Dict
 from data_def import Sentence, NE, Morp
 
 from transformers import AutoTokenizer
+from dict_utils import Dict_Item, Word_Info, Sense_Info
+
+### global
+random.seed(42)
+np.random.seed(42)
 
 def conv_TTA_ne_category(sent_list: List[Sentence]):
     '''
@@ -128,10 +129,7 @@ def save_npy_dict(npy_dict: Dict[str, List], src_list_len):
     np.save("../data/npy/old_nikl/128/test_pos_tag", test_pos_tag_np)
 
 
-def make_wordpiece_npy(tokenizer_name:str, src_list: List[Sentence], max_len: int=512):
-    '''
-    tokenization base is setence
-    '''
+def make_wordpiece_npy(tokenizer_name:str, src_list: List[Sentence], ex_dictionary: List[Dict_Item], max_len: int=128):
     random.shuffle(src_list)
 
     npy_dict = {
@@ -141,6 +139,7 @@ def make_wordpiece_npy(tokenizer_name:str, src_list: List[Sentence], max_len: in
         "token_type_ids": [],
         "seq_len": [],
         "pos_tag_ids": [],
+        "span_ids": []
     }
     pos_tag2ids = {v: int(k) for k, v in NIKL_POS_TAG.items()}
 
@@ -156,6 +155,7 @@ def make_wordpiece_npy(tokenizer_name:str, src_list: List[Sentence], max_len: in
 
         labels = ["O"] * len(text_tokens)
         pos_tag_ids = []
+        span_ids = []
         for _ in range(len(text_tokens)):
             pos_tag_ids.append(["O"] * 3)
 
@@ -239,6 +239,14 @@ def make_wordpiece_npy(tokenizer_name:str, src_list: List[Sentence], max_len: in
         # for t, l in zip(text_tokens, pos_tag_ids):
         #    print(t, "\t", l)
         # input()
+
+        # span
+        nn_set = ["NNG", "NNP", "NNB", "NP"]
+        target_word = ""
+        print(sent.morp_list)
+        input()
+        for morp_item in sent.morp_list:
+            pass
 
         text_tokens.insert(0, "[CLS]")
         labels.insert(0, "O")
@@ -437,9 +445,14 @@ if "__main__" == __name__:
         all_sent_list = pickle.load(pkl_file)
         print(f"[npy_maker][__main__] all_sent_list size: {len(all_sent_list)}")
     all_sent_list = conv_TTA_ne_category(all_sent_list)
-    print(f"main__: all_sent_list.len: {len(all_sent_list)}") # 371,571
+    print(f"[__main__] all_sent_list.len: {len(all_sent_list)}") # 371,571
 
     # make npy
     #make_pos_tag_npy(tokenizer_name="klue/bert-base", src_list=all_sent_list, max_len=128)
-    make_wordpiece_npy(tokenizer_name="monologg/koelectra-base-v3-discriminator",
-                       src_list=all_sent_list, max_len=128)
+
+    hash_dict = []
+    with open("../우리말샘_dict.pkl", mode="rb") as dict_pkl:
+        hash_dict = pickle.load(dict_pkl)
+        print(f"[__main__] external dict size: {len(hash_dict)}")
+    make_wordpiece_npy(tokenizer_name="klue/bert-base",
+                       src_list=all_sent_list, ex_dictionary=hash_dict, max_len=128)
