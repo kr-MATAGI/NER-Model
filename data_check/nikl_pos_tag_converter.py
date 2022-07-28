@@ -3,12 +3,12 @@ import copy
 from typing import List
 
 from data_def import Sentence, Morp, NE, Word
-from transformers import AutoTokenizer
+from transformers import AutoTokenizer, ElectraTokenizer
 
 ### MAIN ##
 if "__main__" == __name__:
     src_file_path = "../data/pkl/ne_mp_old_nikl.pkl"
-    tokenizer = AutoTokenizer.from_pretrained("klue/bert-base")
+    tokenizer = ElectraTokenizer.from_pretrained("monologg/koelectra-base-v3-discriminator")
     results = { # tag: (word_item, morp_item_list) pair
         "JX": [],
         "EP": [],

@@ -9,8 +9,8 @@ from pos_tag_def import NIKL_POS_TAG
 from typing import List, Dict
 from data_def import Sentence, NE, Morp
 
-from transformers import AutoTokenizer
-from dict_utils import Dict_Item, Word_Info, Sense_Info
+from transformers import AutoTokenizer, ElectraTokenizer
+from dict_utils import Dict_Item, Word_Info, Sense_Info, make_dict_hash_table
 
 ### global
 random.seed(42)
@@ -75,12 +75,14 @@ def save_npy_dict(npy_dict: Dict[str, List], src_list_len):
     npy_dict["token_type_ids"] = np.array(npy_dict["token_type_ids"])
     npy_dict["seq_len"] = np.array(npy_dict["seq_len"])
     npy_dict["pos_tag_ids"] = np.array(npy_dict["pos_tag_ids"])
+    npy_dict["span_ids"] = np.array(npy_dict["span_ids"])
     print(f"input_ids.shape: {npy_dict['input_ids'].shape}")
     print(f"labels.shape: {npy_dict['labels'].shape}")
     print(f"attention_mask.shape: {npy_dict['attention_mask'].shape}")
     print(f"token_type_ids.shape: {npy_dict['token_type_ids'].shape}")
     print(f"seq_len.shape: {npy_dict['seq_len'].shape}")
     print(f"pos_tag_ids.shape: {npy_dict['pos_tag_ids'].shape}")
+    print(f"span_ids.shape: {npy_dict['span_ids'].shape}")
 
     split_size = int(src_list_len * 0.1)
     train_size = split_size * 7
@@ -91,42 +93,53 @@ def save_npy_dict(npy_dict: Dict[str, List], src_list_len):
     train_np = np.stack(train_np, axis=-1)
     train_seq_len_np = npy_dict["seq_len"][:train_size]
     train_pos_tag_np = npy_dict["pos_tag_ids"][:train_size]
+    train_span_ids_np = npy_dict["span_ids"][:train_size]
     print(f"train_np.shape: {train_np.shape}")
     print(f"train_seq_len_np.shape: {train_seq_len_np.shape}")
     print(f"train_pos_tag_ids_np.shape: {train_pos_tag_np.shape}")
+    print(f"train_span_ids_np.shape: {train_span_ids_np.shape}")
 
     dev_np = [npy_dict["input_ids"][train_size:valid_size], npy_dict["labels"][train_size:valid_size],
               npy_dict["attention_mask"][train_size:valid_size], npy_dict["token_type_ids"][train_size:valid_size]]
     dev_np = np.stack(dev_np, axis=-1)
     dev_seq_len_np = npy_dict["seq_len"][train_size:valid_size]
     dev_pos_tag_np = npy_dict["pos_tag_ids"][train_size:valid_size]
+    dev_span_ids_np = npy_dict["span_ids"][train_size:valid_size]
     print(f"dev_np.shape: {dev_np.shape}")
     print(f"dev_seq_len_np.shape: {dev_seq_len_np.shape}")
     print(f"dev_pos_tag_ids_np.shape: {dev_pos_tag_np.shape}")
+    print(f"dev_span_ids_np.shape: {dev_span_ids_np.shape}")
 
     test_np = [npy_dict["input_ids"][valid_size:], npy_dict["labels"][valid_size:],
                npy_dict["attention_mask"][valid_size:], npy_dict["token_type_ids"][valid_size:]]
     test_np = np.stack(test_np, axis=-1)
     test_seq_len_np = npy_dict["seq_len"][valid_size:]
     test_pos_tag_np = npy_dict["pos_tag_ids"][valid_size:]
+    test_span_ids_np = npy_dict["span_ids"][valid_size:]
     print(f"test_np.shape: {test_np.shape}")
     print(f"test_seq_len_np.shape: {test_seq_len_np.shape}")
     print(f"test_pos_tag_ids_np.shape: {test_pos_tag_np.shape}")
+    print(f"test_span_ids_np.shape: {test_span_ids_np.shape}")
 
     # save
-    np.save("../data/npy/old_nikl/128/train", train_np)
-    np.save("../data/npy/old_nikl/128/dev", dev_np)
-    np.save("../data/npy/old_nikl/128/test", test_np)
+    np.save("../data/npy/old_nikl/electra/train", train_np)
+    np.save("../data/npy/old_nikl/electra/dev", dev_np)
+    np.save("../data/npy/old_nikl/electra/test", test_np)
 
     # save seq_len
-    np.save("../data/npy/old_nikl/128/train_seq_len", train_seq_len_np)
-    np.save("../data/npy/old_nikl/128/dev_seq_len", dev_seq_len_np)
-    np.save("../data/npy/old_nikl/128/test_seq_len", test_seq_len_np)
+    np.save("../data/npy/old_nikl/electra/train_seq_len", train_seq_len_np)
+    np.save("../data/npy/old_nikl/electra/dev_seq_len", dev_seq_len_np)
+    np.save("../data/npy/old_nikl/electra/test_seq_len", test_seq_len_np)
 
     # save pos_tag
-    np.save("../data/npy/old_nikl/128/train_pos_tag", train_pos_tag_np)
-    np.save("../data/npy/old_nikl/128/dev_pos_tag", dev_pos_tag_np)
-    np.save("../data/npy/old_nikl/128/test_pos_tag", test_pos_tag_np)
+    np.save("../data/npy/old_nikl/electra/train_pos_tag", train_pos_tag_np)
+    np.save("../data/npy/old_nikl/electra/dev_pos_tag", dev_pos_tag_np)
+    np.save("../data/npy/old_nikl/electra/test_pos_tag", test_pos_tag_np)
+
+    # save span_ids
+    np.save("../data/npy/old_nikl/electra/train_span_ids", train_span_ids_np)
+    np.save("../data/npy/old_nikl/electra/dev_span_ids", dev_span_ids_np)
+    np.save("../data/npy/old_nikl/electra/test_span_ids", test_span_ids_np)
 
 
 def make_wordpiece_npy(tokenizer_name:str, src_list: List[Sentence], ex_dictionary: List[Dict_Item], max_len: int=128):
@@ -143,7 +156,7 @@ def make_wordpiece_npy(tokenizer_name:str, src_list: List[Sentence], ex_dictiona
     }
     pos_tag2ids = {v: int(k) for k, v in NIKL_POS_TAG.items()}
 
-    tokenizer = AutoTokenizer.from_pretrained(tokenizer_name)
+    tokenizer = ElectraTokenizer.from_pretrained(tokenizer_name)
     for proc_idx, sent in enumerate(src_list):
         if 0 == (proc_idx % 1000):
             print(f"{proc_idx} Processing... {sent.text}")
@@ -158,6 +171,7 @@ def make_wordpiece_npy(tokenizer_name:str, src_list: List[Sentence], ex_dictiona
         span_ids = []
         for _ in range(len(text_tokens)):
             pos_tag_ids.append(["O"] * 3)
+            span_ids.append(0)
 
         # NE
         start_idx = 0
@@ -241,38 +255,97 @@ def make_wordpiece_npy(tokenizer_name:str, src_list: List[Sentence], ex_dictiona
         # input()
 
         # span
-        nn_set = ["NNG", "NNP", "NNB", "NP"]
-        target_word = ""
-        print(sent.morp_list)
-        input()
+        # print(sent.text)
+        # print(text_tokens)
+        nn_pos_list = ["NNG", "NNP"] # "NNB", "NP"
+        pre_pos_list = ["MMA", "VA", "ETM"]
+        post_pos_list = ["XSN"]
+        find_word_list = [] # 사전에서 찾은 것들
+        candi_list = []
         for morp_item in sent.morp_list:
-            pass
+            # print(morp_item.form, morp_item.label)
+
+            if (morp_item.label in nn_pos_list) or (morp_item.label in post_pos_list):
+                candi_list.append(morp_item.form)
+                concat_cadi = "".join(candi_list)
+                if concat_cadi[0] in ex_dictionary.keys():
+                    dict_item_list = ex_dictionary[concat_cadi[0]]
+                    dict_item_list = [x.word_info.word for x in dict_item_list if x.sense_info.pos == "명사"]
+                    if concat_cadi in dict_item_list:
+                        find_word_list.append(concat_cadi)
+            elif morp_item.label in pre_pos_list:
+                # 현재 label은 보통 명사 앞에 붙기 때문에 현재 넣은거 검색하고 새로 넣음
+                concat_cadi = "".join(candi_list)
+                if (0 < len(concat_cadi)) and (concat_cadi[0] in ex_dictionary.keys()):
+                    dict_item_list = ex_dictionary[concat_cadi[0]]
+                    dict_item_list = [x.word_info.word for x in dict_item_list if x.sense_info.pos == "명사"]
+                    if (concat_cadi in dict_item_list) and (concat_cadi not in find_word_list):
+                        find_word_list.append(concat_cadi)
+                candi_list.clear()
+                candi_list.append(morp_item.form)
+            else:
+                candi_list.clear()
+        # print(find_word_list)
+
+        # 찾은 사전 단어들에 대한 범위 지정
+        span_num = 1 # special token is '0'
+        for t_idx in range(0, len(text_tokens)):
+            is_find = False
+            for find_word in find_word_list:
+                find_word_tokens = tokenizer.tokenize(find_word)
+                find_word_tokens = [x.replace("##", "") for x in find_word_tokens]
+                if len(text_tokens) < t_idx+len(find_word_tokens):
+                    continue
+                curr_token = text_tokens[t_idx:t_idx + len(find_word_tokens)]
+                curr_token = [x.replace("##", "") for x in curr_token]
+                if curr_token == find_word_tokens:
+                    # print("1 ", curr_token)
+                    # print("2 ", find_word_tokens)
+                    is_find = True
+                    for s_idx in range(t_idx, t_idx + len(curr_token)):
+                        # print(text_tokens[s_idx], span_num)
+                        span_ids[s_idx] = span_num
+            if not is_find:
+                if 0 == span_ids[t_idx]:
+                    span_ids[t_idx] = span_num
+                    span_num += 1
+            else:
+                span_num += 1
+        # print(span_ids)
+        # print(len(text_tokens))
+        # print(len(span_ids))
+        # input()
 
         text_tokens.insert(0, "[CLS]")
         labels.insert(0, "O")
         pos_tag_ids.insert(0, (["O"] * 3))
+        span_ids.insert(0, 0)
 
         valid_len = 0
         if max_len <= len(text_tokens):
             text_tokens = text_tokens[:max_len - 1]
             labels = labels[:max_len - 1]
             pos_tag_ids = pos_tag_ids[:max_len - 1]
+            span_ids = span_ids[:max_len - 1]
 
             text_tokens.append("[SEP]")
             labels.append("O")
             pos_tag_ids.append((["O"] * 3))
+            span_ids.append(0)
 
             valid_len = max_len
         else:
             text_tokens.append("[SEP]")
             labels.append("O")
             pos_tag_ids.append((["O"] * 3))
+            span_ids.append(0)
 
             valid_len = len(text_tokens)
             text_tokens = text_tokens + ["[PAD]"] * (max_len - valid_len)
             labels = labels + ["O"] * (max_len - valid_len)
             for _ in range(max_len - valid_len):
                 pos_tag_ids.append((["O"] * 3))
+                span_ids.append(0)
 
         attention_mask = ([1] * valid_len) + ([0] * (max_len - valid_len))
         token_type_ids = [0] * max_len
@@ -297,6 +370,9 @@ def make_wordpiece_npy(tokenizer_name:str, src_list: List[Sentence], ex_dictiona
 
         # add pos tag info
         npy_dict["pos_tag_ids"].append(pos_tag_ids)
+
+        # add span ids
+        npy_dict["span_ids"].append(span_ids)
 
         # save
     save_npy_dict(npy_dict, src_list_len=len(src_list))
@@ -450,9 +526,6 @@ if "__main__" == __name__:
     # make npy
     #make_pos_tag_npy(tokenizer_name="klue/bert-base", src_list=all_sent_list, max_len=128)
 
-    hash_dict = []
-    with open("../우리말샘_dict.pkl", mode="rb") as dict_pkl:
-        hash_dict = pickle.load(dict_pkl)
-        print(f"[__main__] external dict size: {len(hash_dict)}")
-    make_wordpiece_npy(tokenizer_name="klue/bert-base",
+    hash_dict = make_dict_hash_table(dic_path="../우리말샘_dict.pkl")
+    make_wordpiece_npy(tokenizer_name="monologg/koelectra-base-v3-discriminator",
                        src_list=all_sent_list, ex_dictionary=hash_dict, max_len=128)

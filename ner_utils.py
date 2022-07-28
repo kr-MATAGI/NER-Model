@@ -3,6 +3,7 @@ import numpy as np
 import torch
 import random
 import pickle
+import os
 
 from seqeval import metrics as seqeval_metrics
 from sklearn import metrics as sklearn_metrics
@@ -14,6 +15,7 @@ from model.custom_embed import Custom_Embed_Model
 from model.bert_custom_model import (
     BERT_POS_LSTM, BERT_IDCNN_CRF
 )
+from model.el_custom_embed import Custom_Electra_Model
 
 #===============================================================
 def print_parameters(args, logger):
@@ -61,8 +63,18 @@ def load_corpus_npy_datasets(src_path: str, mode: str="train"):
     dataset_npy = np.load(src_path)
     seq_len_npy = np.load("/".join(src_path.split("/")[:-1]) + "/" + mode + "_seq_len.npy")
     pos_tag_npy = np.load("/".join(src_path.split("/")[:-1]) + "/" + mode + "_pos_tag.npy")
+    span_id_npy = np.load("/".join(src_path.split("/")[:-1]) + "/" + mode + "_span_ids.npy")
+    new_span_id_npy = []
+    for item in span_id_npy:
+        item_len = len(item)
+        if 128 > item_len:
+            new_item = item + [0] * (128 - item_len)
+            new_span_id_npy.append(new_item)
+        else:
+            new_span_id_npy.append(item)
+    new_span_id_npy = np.array(new_span_id_npy)
 
-    return dataset_npy, seq_len_npy, pos_tag_npy
+    return dataset_npy, seq_len_npy, pos_tag_npy, new_span_id_npy
 
 #===============================================================
 def init_logger():
@@ -146,6 +158,13 @@ def load_ner_config_and_model(user_select: int, args, tag_dict):
                                             label2id={label: i for i, label in enumerate(tag_dict.keys())})
         config.num_pos_labels = 49  # NIKL
         config.max_seq_len = 128
+    elif 5 == user_select:
+        config = ElectraConfig.from_pretrained(args.model_name_or_path,
+                                            num_labels=len(tag_dict.keys()),
+                                            id2label={str(i): label for i, label in enumerate(tag_dict.keys())},
+                                            label2id={label: i for i, label in enumerate(tag_dict.keys())})
+        config.num_pos_labels = 49  # NIKL
+        config.max_seq_len = 128
 
     # model
     if 1 == user_select:
@@ -160,6 +179,8 @@ def load_ner_config_and_model(user_select: int, args, tag_dict):
     elif 4 == user_select:
         # CUSTOM EMBED MODEL
         model = Custom_Embed_Model(config=config)
+    elif 5 == user_select:
+        model = Custom_Electra_Model(config=config)
 
     return config, model
 
@@ -179,7 +200,28 @@ def load_model_checkpoints(user_select, checkpoint):
         # BERT+IDCNN+CRF
         model = BERT_IDCNN_CRF.from_pretrained(checkpoint)
     elif 4 == user_select:
-        # Custom Embed Model
+        # Custom Embed Model (BERT)
         model = Custom_Embed_Model.from_pretrained(checkpoint)
+    elif 5 == user_select:
+        model = Custom_Electra_Model.from_pretrained(checkpoint)
 
     return model
+
+### TEST
+if "__main__" == __name__:
+    test_1 = False
+    if test_1:
+        test_np_load = np.load("./data/npy/old_nikl/electra/train_span_ids.npy", allow_pickle=True)
+        print(test_np_load.dtype)
+    test_2 = True
+    if test_2:
+        dict_items = []
+        from utils.dict_utils import Dict_Item, Word_Info, Sense_Info
+        with open("./우리말샘_dict.pkl", mode="rb") as load_pkl:
+            dict_items = pickle.load(load_pkl)
+            print(f"total_size: {len(dict_items)}")
+        cnt = 0
+        for item in dict_items:
+            if "명사" == item.sense_info.pos:
+                cnt += 1
+        print(f"pos.n: {cnt}")

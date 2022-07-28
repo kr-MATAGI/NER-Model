@@ -89,10 +89,13 @@ class Custom_Embedding(nn.Module):
         self.position_embeddings = nn.Embedding(config.max_position_embeddings, config.hidden_size)
         self.token_type_embeddings = nn.Embedding(config.type_vocab_size, config.hidden_size)
 
+        # add span embedding - 22.07.27
+        self.span_embedding = nn.Embedding(config.max_seq_len, config.hidden_size)
+
         # add pos embedding
-        self.pos_tag_embeddings_1 = nn.Embedding(config.num_pos_labels, config.hidden_size)
-        self.pos_tag_embeddings_2 = nn.Embedding(config.num_pos_labels, config.hidden_size)
-        self.pos_tag_embeddings_3 = nn.Embedding(config.num_pos_labels, config.hidden_size)
+        # self.pos_tag_embeddings_1 = nn.Embedding(config.num_pos_labels, config.hidden_size)
+        # self.pos_tag_embeddings_2 = nn.Embedding(config.num_pos_labels, config.hidden_size)
+        # self.pos_tag_embeddings_3 = nn.Embedding(config.num_pos_labels, config.hidden_size)
 
         self.LayerNorm = nn.LayerNorm(config.hidden_size, eps=config.layer_norm_eps)
         self.dropout = nn.Dropout(config.hidden_dropout_prob)
@@ -104,7 +107,7 @@ class Custom_Embedding(nn.Module):
     def forward(
             self,
             input_ids=None, token_type_ids=None,
-            position_ids=None, inputs_embeds=None, pos_tag_ids=None,
+            position_ids=None, inputs_embeds=None, pos_tag_ids=None, span_ids=None,
             past_key_values_length=0
     ):
         if input_ids is not None:
@@ -125,16 +128,19 @@ class Custom_Embedding(nn.Module):
         token_type_embeddings = self.token_type_embeddings(token_type_ids)
 
         # add pos embedding
-        pos_tag_1 = pos_tag_ids[:, :, 0] # [batch_size, seq_len]
-        pos_tag_2 = pos_tag_ids[:, :, 1] # [batch_size, seq_len]
-        pos_tag_3 = pos_tag_ids[:, :, 2] # [batch_size, seq_len]
+        # pos_tag_1 = pos_tag_ids[:, :, 0] # [batch_size, seq_len]
+        # pos_tag_2 = pos_tag_ids[:, :, 1] # [batch_size, seq_len]
+        # pos_tag_3 = pos_tag_ids[:, :, 2] # [batch_size, seq_len]
 
-        pos_tag_embeddings_1 = self.pos_tag_embeddings_1(pos_tag_1)
-        pos_tag_embeddings_2 = self.pos_tag_embeddings_2(pos_tag_2)
-        pos_tag_embeddings_3 = self.pos_tag_embeddings_3(pos_tag_3)
-        sum_pos_tag = pos_tag_embeddings_1 + pos_tag_embeddings_2 + pos_tag_embeddings_3
+        # pos_tag_embeddings_1 = self.pos_tag_embeddings_1(pos_tag_1)
+        # pos_tag_embeddings_2 = self.pos_tag_embeddings_2(pos_tag_2)
+        # pos_tag_embeddings_3 = self.pos_tag_embeddings_3(pos_tag_3)
+        # sum_pos_tag = pos_tag_embeddings_1 + pos_tag_embeddings_2 + pos_tag_embeddings_3
 
-        embeddings = inputs_embeds + token_type_embeddings + sum_pos_tag
+        # add span ids
+        span_embed = self.span_embedding(span_ids)
+
+        embeddings = inputs_embeds + token_type_embeddings + span_embed
         if self.position_embedding_type == "absolute":
             position_embeddings = self.position_embeddings(position_ids)
             embeddings += position_embeddings
@@ -158,11 +164,20 @@ class Custom_Embed_Model(BertPreTrainedModel):
 
         self.pooler = BertPooler(config) if add_pooling_layer else None
 
-        # classifier token
+        ### classifier token
+        self.num_pos_labels = config.num_pos_labels
+        self.pos_embed_out_dim = 100
+
+        # pos embed
+        self.pos_embedding_1 = nn.Embedding(self.num_pos_labels, self.pos_embed_out_dim)
+        self.pos_embedding_2 = nn.Embedding(self.num_pos_labels, self.pos_embed_out_dim)
+        self.pos_embedding_3 = nn.Embedding(self.num_pos_labels, self.pos_embed_out_dim)
+
+        self.lstm = nn.LSTM(input_size=config.hidden_size + (self.pos_embed_out_dim * 3),
+                            hidden_size=config.hidden_size + (self.pos_embed_out_dim * 3),
+                            num_layers=1, batch_first=True, dropout=0.3)
         self.dropout = nn.Dropout(config.hidden_dropout_prob)
-        self.lstm = nn.LSTM(input_size=config.hidden_size, hidden_size=(config.hidden_size // 2), num_layers=1,
-                            dropout=config.hidden_dropout_prob, batch_first=True, bidirectional=True)
-        self.linear = nn.Linear(config.hidden_size, config.num_labels)
+        self.linear = nn.Linear(config.hidden_size + (self.pos_embed_out_dim * 3), config.num_labels)
         self.crf = CRF(num_tags=config.num_labels, batch_first=True)
 
         self.init_weights()
@@ -195,6 +210,7 @@ class Custom_Embed_Model(BertPreTrainedModel):
         token_type_ids=None,
         position_ids=None,
         pos_tag_ids=None,
+        span_ids=None,
         labels=None,
         input_seq_len=None,
         pad_id=0,
@@ -267,7 +283,7 @@ class Custom_Embed_Model(BertPreTrainedModel):
                     position_ids=position_ids,
                     token_type_ids=token_type_ids,
                     inputs_embeds=inputs_embeds,
-                    pos_tag_ids=pos_tag_ids,
+                    span_ids=span_ids,
                     past_key_values_length=past_key_values_length,
         )
         encoder_outputs = self.encoder(
@@ -295,19 +311,24 @@ class Custom_Embed_Model(BertPreTrainedModel):
             cross_attentions=encoder_outputs.cross_attentions,
         )
 
+        # pos embedding
+        # pos_tag_ids : [batch_size, seq_len, num_pos_tags]
+        pos_tag_1 = pos_tag_ids[:, :, 0]  # [batch_size, seq_len]
+        pos_tag_2 = pos_tag_ids[:, :, 1]  # [batch_size, seq_len]
+        pos_tag_3 = pos_tag_ids[:, :, 2]  # [batch_size, seq_len]
+
+        pos_embed_1 = self.pos_embedding_1(pos_tag_1)  # [batch_size, seq_len, pos_tag_embed]
+        pos_embed_2 = self.pos_embedding_2(pos_tag_2)  # [batch_size, seq_len, pos_tag_embed]
+        pos_embed_3 = self.pos_embedding_3(pos_tag_3)  # [batch_size, seq_len, pos_tag_embed]
+
         sequence_output = bert_outputs[0]
         sequence_output = self.dropout(sequence_output)
 
-        seq_len = input_seq_len
-        if using_pack_sequence:
-            pack_padded_output = pack_padded_sequence(sequence_output, seq_len.tolist(),
-                                                      batch_first=True, enforce_sorted=False)
-            lstm_output, hidden = self.lstm(pack_padded_output)
-            lstm_output = pad_packed_sequence(lstm_output, batch_first=True, padding_value=pad_id,
-                                              total_length=self.config.max_seq_len)[0]
-        else:
-            lstm_output, hidden = self.lstm(sequence_output)
-        emissions = self.linear(lstm_output)
+        concat_embed = torch.concat([pos_embed_1, pos_embed_2, pos_embed_3], dim=-1)
+        concat_embed = torch.concat([sequence_output, concat_embed], dim=-1)
+        lstm_out, _ = self.lstm(concat_embed)  # [batch_size, seq_len, hidden_size]
+        lstm_out = self.dropout(lstm_out)
+        emissions = self.linear(lstm_out)
 
         # crf
         if labels is not None:

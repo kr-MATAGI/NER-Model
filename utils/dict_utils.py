@@ -55,7 +55,7 @@ def read_korean_dict_xml(src_dir_path: str):
             # word info
             word_info = Word_Info()
             word_info_tag = item_tag.find("wordInfo")
-            word_info.word = word_info_tag.find("word").text
+            word_info.word = word_info_tag.find("word").text.replace("^", "").replace("-", "")
             word_info.word_unit = word_info_tag.find("word_unit").text
             word_info.word_type = word_info_tag.find("word_type").text
 
@@ -156,7 +156,7 @@ def make_dict_boundary_npy(corpus_npy_path: str, dict_hash: Dict[str, Dict_Item]
 
 ### Main
 if "__main__" == __name__:
-    is_save_pkl = False
+    is_save_pkl = True
     if is_save_pkl:
         dir_path = "../data/dict/우리말샘"
         res_kr_dict_item_list = read_korean_dict_xml(src_dir_path=dir_path)

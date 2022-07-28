@@ -70,7 +70,8 @@ def evaluate(args, model, eval_dataset, mode, global_step=None, train_epoch=0):
                 "token_type_ids": batch["token_type_ids"].to(args.device),
                 "labels": batch["labels"].to(args.device),
                 "input_seq_len": batch["input_seq_len"].to(args.device),
-                "pos_tag_ids": batch["pos_tag_ids"].to(args.device)
+                "pos_tag_ids": batch["pos_tag_ids"].to(args.device),
+                "span_ids": batch["span_ids"].to(args.device)
             }
 
             log_likelihood, outputs = model(**inputs)
@@ -204,7 +205,8 @@ def train(args, model, train_dataset, dev_dataset):
                 "token_type_ids": batch["token_type_ids"].to(args.device),
                 "labels": batch["labels"].to(args.device),
                 "input_seq_len": batch["input_seq_len"].to(args.device),
-                "pos_tag_ids": batch["pos_tag_ids"].to(args.device)
+                "pos_tag_ids": batch["pos_tag_ids"].to(args.device),
+                "span_ids": batch["span_ids"].to(args.device)
             }
 
             # inputs["input_ids"].shape -> [batch_size, max_seq_len]
@@ -276,6 +278,7 @@ def main():
     print(f"2. {NER_MODEL_LIST[1]}")
     print(f"3. {NER_MODEL_LIST[2]}")
     print(f"4. {NER_MODEL_LIST[3]}")
+    print(f"5. {NER_MODEL_LIST[4]}")
     print("=======================================")
     print(">>>> number: ")
 
@@ -293,8 +296,8 @@ def main():
         config_file_path = "./config/bert-idcnn-crf.json"
     elif 4 == g_user_select:
         config_file_path = "./config/custom-embed-model.json"
-        with open("./우리말샘_dict.pkl", mode="rb") as dict_hash_file:
-            dict_hash_table = pickle.load(dict_hash_file)
+    elif 5 == g_user_select:
+        config_file_path = "./config/electra-custom_embed-model.json"
 
     with open(config_file_path) as config_file:
         args = AttrDict(json.load(config_file))
@@ -322,20 +325,23 @@ def main():
     model.to(args.device)
 
     # load train/dev/test npy
-    train_dataset, train_seq_len, train_pos_tag = load_corpus_npy_datasets(args.train_npy, mode="train")
-    dev_dataset, dev_seq_len, dev_pos_tag = load_corpus_npy_datasets(args.dev_npy, mode="dev")
-    test_dataset, test_seq_len, test_pos_tag = load_corpus_npy_datasets(args.test_npy, mode="test")
+    train_dataset, train_seq_len, train_pos_tag, train_span_ids = load_corpus_npy_datasets(args.train_npy, mode="train")
+    dev_dataset, dev_seq_len, dev_pos_tag, dev_span_ids = load_corpus_npy_datasets(args.dev_npy, mode="dev")
+    test_dataset, test_seq_len, test_pos_tag, test_span_ids = load_corpus_npy_datasets(args.test_npy, mode="test")
     print(f"train.shape - dataset: {train_dataset.shape}, seq_len: {train_seq_len.shape}, "
-          f"pos_tag: {train_pos_tag.shape}")
+          f"pos_tag: {train_pos_tag.shape}, span_ids: {train_span_ids.shape}")
     print(f"dev.shape - dataset: {dev_dataset.shape}, seq_len: {dev_seq_len.shape}, "
-          f"pos_tag: {dev_pos_tag.shape}")
+          f"pos_tag: {dev_pos_tag.shape}, span_ids: {dev_span_ids.shape}")
     print(f"test.shape - dataset: {test_dataset.shape}, seq_len: {test_seq_len.shape}, "
-          f"pos_tag: {test_pos_tag.shape}")
+          f"pos_tag: {test_pos_tag.shape}, span_ids: {test_span_ids.shape}")
 
     # make train/dev/test dataset
-    train_dataset = NER_POS_Dataset(data=train_dataset, seq_len=train_seq_len, pos_data=train_pos_tag)
-    dev_dataset = NER_POS_Dataset(data=dev_dataset, seq_len=dev_seq_len, pos_data=dev_pos_tag)
-    test_dataset = NER_POS_Dataset(data=test_dataset, seq_len=test_seq_len, pos_data=test_pos_tag)
+    train_dataset = NER_POS_Dataset(data=train_dataset, seq_len=train_seq_len,
+                                    pos_data=train_pos_tag, span_ids=train_span_ids)
+    dev_dataset = NER_POS_Dataset(data=dev_dataset, seq_len=dev_seq_len,
+                                  pos_data=dev_pos_tag, span_ids=dev_span_ids)
+    test_dataset = NER_POS_Dataset(data=test_dataset, seq_len=test_seq_len,
+                                   pos_data=test_pos_tag, span_ids=test_span_ids)
 
     if args.do_train:
         global_step, tr_loss = train(args, model, train_dataset, dev_dataset)
