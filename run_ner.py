@@ -20,7 +20,7 @@ from tqdm import tqdm
 from ner_def import (
     ETRI_TAG, NER_MODEL_LIST,
 )
-from ner_datasets import NER_POS_Dataset
+from ner_datasets import NER_POS_Dataset, NER_Eojeol_Datasets
 from ner_utils import (
     init_logger, print_parameters, load_corpus_npy_datasets,
     set_seed, show_ner_report, f1_pre_rec, load_ner_config_and_model,
@@ -290,8 +290,7 @@ def main():
     print(f"3. {NER_MODEL_LIST[2]}")
     print(f"4. {NER_MODEL_LIST[3]}")
     print(f"5. {NER_MODEL_LIST[4]}")
-    print(f"6. {NER_MODEL_LIST[5]}")
-    print(f"7. {NER_MODEL_LIST[6]}")
+    print(f"6. {NER_MODEL_LIST[6]}")
     print("=======================================")
     print(">>>> number: ")
 
@@ -310,9 +309,9 @@ def main():
     elif 4 == g_user_select:
         config_file_path = "./config/custom-embed-model.json"
     elif 5 == g_user_select:
-        config_file_path = "./config/electra-custom_embed-model.json"
+        config_file_path = "config/electra-custom-embed-model.json"
     elif 6 == g_user_select:
-        config_file_path = "./config/electra-custom_embed-model.json"
+        config_file_path = "config/electra-eojeol-model.json"
 
     with open(config_file_path) as config_file:
         args = AttrDict(json.load(config_file))
@@ -340,23 +339,35 @@ def main():
     model.to(args.device)
 
     # load train/dev/test npy
-    train_dataset, train_seq_len, train_pos_tag, train_span_ids = load_corpus_npy_datasets(args.train_npy, mode="train")
-    dev_dataset, dev_seq_len, dev_pos_tag, dev_span_ids = load_corpus_npy_datasets(args.dev_npy, mode="dev")
-    test_dataset, test_seq_len, test_pos_tag, test_span_ids = load_corpus_npy_datasets(args.test_npy, mode="test")
+    train_dataset, train_seq_len, train_pos_tag, train_labels, train_eojeol_ids = \
+        load_corpus_npy_datasets(args.train_npy, mode="train")
+    dev_dataset, dev_seq_len, dev_pos_tag, dev_labels, dev_eojeol_ids = \
+        load_corpus_npy_datasets(args.dev_npy, mode="dev")
+    test_dataset, test_seq_len, test_pos_tag, test_labels, test_eojeol_ids = \
+        load_corpus_npy_datasets(args.test_npy, mode="test")
+
     print(f"train.shape - dataset: {train_dataset.shape}, seq_len: {train_seq_len.shape}, "
-          f"pos_tag: {train_pos_tag.shape}, span_ids: {train_span_ids.shape}")
+          f"pos_tag: {train_pos_tag.shape}, labels: {train_labels.shape}, eojeol_ids: {train_eojeol_ids.shape}")
     print(f"dev.shape - dataset: {dev_dataset.shape}, seq_len: {dev_seq_len.shape}, "
-          f"pos_tag: {dev_pos_tag.shape}, span_ids: {dev_span_ids.shape}")
+          f"pos_tag: {dev_pos_tag.shape}, labels: {dev_labels.shape}, eojeol_ids: {dev_eojeol_ids.shape}")
     print(f"test.shape - dataset: {test_dataset.shape}, seq_len: {test_seq_len.shape}, "
-          f"pos_tag: {test_pos_tag.shape}, span_ids: {test_span_ids.shape}")
+          f"pos_tag: {test_pos_tag.shape}, labels: {test_labels.shape}, eojeol_ids: {test_eojeol_ids.shape}")
 
     # make train/dev/test dataset
-    train_dataset = NER_POS_Dataset(data=train_dataset, seq_len=train_seq_len,
-                                    pos_data=train_pos_tag, span_ids=train_span_ids)
-    dev_dataset = NER_POS_Dataset(data=dev_dataset, seq_len=dev_seq_len,
-                                  pos_data=dev_pos_tag, span_ids=dev_span_ids)
-    test_dataset = NER_POS_Dataset(data=test_dataset, seq_len=test_seq_len,
-                                   pos_data=test_pos_tag, span_ids=test_span_ids)
+    if 6 == g_user_select:
+        train_dataset = NER_Eojeol_Datasets(token_data=train_dataset, labels=train_labels,
+                                            pos_tag_ids=train_pos_tag, token_seq_len=train_seq_len,
+                                            eojeol_ids=train_eojeol_ids)
+        dev_datasets = NER_Eojeol_Datasets(token_data=dev_dataset, labels=dev_labels,
+                                           pos_tag_ids=dev_pos_tag, token_seq_len=dev_seq_len,
+                                           eojeol_ids=dev_eojeol_ids)
+        test_datasets = NER_Eojeol_Datasets(token_data=test_dataset, labels=test_labels,
+                                            pos_tag_ids=test_pos_tag, token_seq_len=test_seq_len,
+                                            eojeol_ids=test_eojeol_ids)
+    else:
+        train_dataset = NER_POS_Dataset(data=train_dataset, seq_len=train_seq_len, pos_data=train_pos_tag)
+        dev_dataset = NER_POS_Dataset(data=dev_dataset, seq_len=dev_seq_len, pos_data=dev_pos_tag)
+        test_dataset = NER_POS_Dataset(data=test_dataset, seq_len=test_seq_len, pos_data=test_pos_tag)
 
     if args.do_train:
         global_step, tr_loss = train(args, model, train_dataset, dev_dataset)

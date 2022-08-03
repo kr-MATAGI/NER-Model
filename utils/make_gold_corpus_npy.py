@@ -598,7 +598,7 @@ def make_eojeol_datasets_npy(tokenizer_name: str, src_list: List[Sentence],
                     break
                 else:
                     for _ in range(len(word_token_pos[1])):
-                        labels_ids.append("O")
+                        labels_ids.append(ETRI_TAG["O"])
         labels_ids_diff_len = len(text_tokens) - len(labels_ids)
         labels_ids.extend(["O" for _ in range(labels_ids_diff_len)])
 
@@ -799,9 +799,9 @@ def save_eojeol_npy_dict(npy_dict: Dict[str, List], src_list_len):
     np.save(root_path+"/test_seq_len", test_seq_len_np)
 
     # save pos_tag_ids
-    np.save(root_path+"/train_pos_tag_ids", train_pos_tag_np)
-    np.save(root_path+"/dev_pos_tag_ids", dev_pos_tag_np)
-    np.save(root_path+"/test_pos_tag_ids", test_pos_tag_np)
+    np.save(root_path+"/train_pos_tag", train_pos_tag_np)
+    np.save(root_path+"/dev_pos_tag", dev_pos_tag_np)
+    np.save(root_path+"/test_pos_tag", test_pos_tag_np)
 
     # save eojeol_ids
     np.save(root_path+"/train_eojeol_ids", train_eojeol_ids_np)

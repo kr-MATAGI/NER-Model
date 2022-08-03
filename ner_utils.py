@@ -62,21 +62,19 @@ def print_parameters(args, logger):
 #===============================================================
 def load_corpus_npy_datasets(src_path: str, mode: str="train"):
 #===============================================================
-    dataset_npy = np.load(src_path)
-    seq_len_npy = np.load("/".join(src_path.split("/")[:-1]) + "/" + mode + "_seq_len.npy")
-    pos_tag_npy = np.load("/".join(src_path.split("/")[:-1]) + "/" + mode + "_pos_tag.npy")
-    span_id_npy = np.load("/".join(src_path.split("/")[:-1]) + "/" + mode + "_span_ids.npy")
-    new_span_id_npy = []
-    for item in span_id_npy:
-        item_len = len(item)
-        if 128 > item_len:
-            new_item = item + [0] * (128 - item_len)
-            new_span_id_npy.append(new_item)
-        else:
-            new_span_id_npy.append(item)
-    new_span_id_npy = np.array(new_span_id_npy)
+    dataset_npy = seq_len_npy = pos_tag_npy = labels_npy = eojeol_ids = None
+    root_path = "/".join(src_path.split("/")[:-1]) + "/" + mode
 
-    return dataset_npy, seq_len_npy, pos_tag_npy, new_span_id_npy
+    dataset_npy = np.load(src_path)
+    seq_len_npy = np.load(root_path + "_seq_len.npy")
+    pos_tag_npy = np.load(root_path + "_pos_tag.npy")
+
+    if os.path.exists(root_path + "_labels.npy"):
+        labels_npy = np.load(root_path + "_labels.npy")
+    if os.path.exists(root_path + "_eojeol_ids.npy"):
+        eojeol_ids = np.load(root_path + "_eojeol_ids.npy")
+
+    return dataset_npy, seq_len_npy, pos_tag_npy, labels_npy, eojeol_ids
 
 #===============================================================
 def init_logger():
@@ -119,7 +117,6 @@ def f1_pre_rec(labels, preds, is_ner=True):
 def show_ner_report(labels, preds):
 #===============================================================
     return seqeval_metrics.classification_report(labels, preds)
-
 
 #===============================================================
 def load_ner_config_and_model(user_select: int, args, tag_dict):
@@ -172,13 +169,7 @@ def load_ner_config_and_model(user_select: int, args, tag_dict):
                                                num_labels=len(tag_dict.keys()),
                                                id2label={str(i): label for i, label in enumerate(tag_dict.keys())},
                                                label2id={label: i for i, label in enumerate(tag_dict.keys())})
-        config.num_pos_labels = 49  # NIKL
-        config.max_seq_len = 128
-    elif 7 == user_select:
-        config = ElectraConfig.from_pretrained(args.model_name_or_path,
-                                               num_labels=len(tag_dict.keys()),
-                                               id2label={str(i): label for i, label in enumerate(tag_dict.keys())},
-                                               label2id={label: i for i, label in enumerate(tag_dict.keys())})
+        config.model_name = "monologg/koelectra-base-v3-discriminator"
         config.num_pos_labels = 49  # NIKL
         config.max_seq_len = 128
 
@@ -198,9 +189,7 @@ def load_ner_config_and_model(user_select: int, args, tag_dict):
     elif 5 == user_select:
         model = Custom_Electra_Model(config=config)
     elif 6 == user_select:
-        model = Electra_Trans_Model(config=config)
-    elif 7 == user_select:
-        # ELECTRA
+        # Electra base
         model = Eojeol_Embed_Model(config=config)
 
     return config, model
