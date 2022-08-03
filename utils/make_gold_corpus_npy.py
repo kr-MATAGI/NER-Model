@@ -708,9 +708,6 @@ def make_eojeol_datasets_npy(tokenizer_name: str, src_list: List[Sentence],
         npy_dict["pos_tag_ids"].append(pos_tag_ids)
         npy_dict["eojeol_ids"].append(eojeol_boundary_list)
 
-        print(labels_ids)
-        input()
-
     # save npy_dict
     save_eojeol_npy_dict(npy_dict, len(src_list))
 
