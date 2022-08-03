@@ -653,16 +653,11 @@ def make_eojeol_datasets_npy(tokenizer_name: str, src_list: List[Sentence],
         text_tokens.append("[SEP]")
         if max_len < len(text_tokens):
             text_tokens = text_tokens[:max_len-1]
-            labels_ids = labels_ids[:max_len-1]
-
             text_tokens.append("[SEP]")
-            # labels_ids.append("O")
             valid_token_len = max_len
         else:
-            # labels_ids.append("O")
             valid_token_len = len(text_tokens)
             text_tokens += ["[PAD]"] * (max_len - valid_token_len)
-            # labels_ids += ["O"] * (max_len - valid_token_len)
 
         attention_mask = ([1] * valid_token_len) + ([0] * (max_len - valid_token_len))
         token_type_ids = [0] * max_len
@@ -670,8 +665,11 @@ def make_eojeol_datasets_npy(tokenizer_name: str, src_list: List[Sentence],
 
         # 어절 단위
         # label_ids
+        valid_eojeol_len = 0
+        labels_ids.insert(0, ETRI_TAG["O"])
         if eojeol_max_len < len(labels_ids):
-            labels_ids = labels_ids[:eojeol_max_len]
+            labels_ids = labels_ids[:eojeol_max_len-1]
+            labels_ids.append(ETRI_TAG["O"])
         else:
             labels_ids_size = len(labels_ids)
             for _ in range(eojeol_max_len - labels_ids_size):
@@ -709,7 +707,7 @@ def make_eojeol_datasets_npy(tokenizer_name: str, src_list: List[Sentence],
         npy_dict["input_ids"].append(input_ids)
         npy_dict["attention_mask"].append(attention_mask)
         npy_dict["token_type_ids"].append(token_type_ids)
-        npy_dict["seq_len"].append(valid_token_len)
+        npy_dict["seq_len"].append(valid_eojeol_len) # eojeol !
         npy_dict["labels"].append(labels_ids)
         npy_dict["pos_tag_ids"].append(pos_tag_ids)
         npy_dict["eojeol_ids"].append(eojeol_boundary_list)

@@ -65,11 +65,24 @@ class Eojeol_Embed_Model(ElectraPreTrainedModel):
                                                               d_hid=config.hidden_size,
                                                               n_head=8, n_layers=3, dropout=0.33)
 
-        # encoder
-        # self.encoder = nn.LSTM()
+        # LSTM Encoder
+        self.encoder = nn.LSTM(
+            input_size=config.hidden_size // 2,
+            hidden_size=config.hidden_size,
+            num_layers=1,
+            batch_first=True,
+            bidirectional=True,
+            dropout=0.33
+        )
 
-        # decoder
-        # self.decoder = nn.LSTM()
+        # LSTM Decoder
+        self.decoder = nn.LSTM(
+            input_size=config.hidden_size,
+            hidden_size=config.hidden_size,
+            num_layers=1,
+            batch_first=True,
+            dropout=0.33
+        )
 
         # Classifier
         self.classifier = nn.Linear(d_model_size, config.num_labels)
@@ -165,20 +178,14 @@ class Eojeol_Embed_Model(ElectraPreTrainedModel):
         # forward to transformer
         trans_outputs = self.transformer_encoder(eojeol_tensor)
 
-        # classifier
-        logits = self.classifier(trans_outputs)
+        # LSTM Encoder
+        packed_outputs = pack_padded_sequence(trans_outputs, token_seq_len)
+
 
         loss = None
         if labels is not None:
-            #print("AAAAAA :", labels.shape) # [55, 100]
-            #print("BBBBBB :", labels.shape) # [55, 50]
-            #print("CCCCCC :", logits.shape) # [55, 50, 31]
-            #print("DDDDDD :", logits.view(-1, self.num_ne_labels).shape) # [2750, 31]
-            #print("EEEEEE :", labels.reshape(-1).shape) # [2750]
             loss_fct = nn.CrossEntropyLoss()
-            loss = loss_fct(logits.view(-1, self.num_ne_labels), labels.reshape(-1))
+            loss = loss_fct(logits.view(-1, self.num_ne_labels), labels.view(-1))
 
-        return TokenClassifierOutput(
-            loss=loss,
-            logits=logits
-        )
+        output = (logits, )
+        return ((loss, ) + output) if loss is not None else output
