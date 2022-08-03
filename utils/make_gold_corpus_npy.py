@@ -550,7 +550,7 @@ def make_pos_tag_npy(tokenizer_name: str, src_list: List[Sentence], max_len: int
 ####
 
 def make_eojeol_datasets_npy(tokenizer_name: str, src_list: List[Sentence],
-                             max_len: int=128, eojeol_max_len: int=100):
+                             max_len: int=128, eojeol_max_len: int=50):
     random.shuffle(src_list)
 
     npy_dict = {
@@ -678,17 +678,23 @@ def make_eojeol_datasets_npy(tokenizer_name: str, src_list: List[Sentence],
                 labels_ids.append(ETRI_TAG["O"])
 
         # pos_tag_ids
+        pos_tag_ids.insert(0, [pos_tag2ids["O"]] * 10) # [CLS]
         if eojeol_max_len < len(pos_tag_ids):
-            pos_tag_ids = pos_tag_ids[:eojeol_max_len]
+            pos_tag_ids = pos_tag_ids[:eojeol_max_len-1]
+            pos_tag_ids.append([pos_tag2ids["O"]] * 10) # [SEP]
         else:
+            # pos_tag_ids.append([pos_tag2ids["O"]] * 10)  # [SEP]
             pos_tag_ids_size = len(pos_tag_ids)
             for _ in range(eojeol_max_len - pos_tag_ids_size):
                 pos_tag_ids.append([pos_tag2ids["O"]] * 10)
 
         # eojeol_ids
+        eojeol_boundary_list.insert(0, 1) # [CLS]
         if eojeol_max_len < len(eojeol_boundary_list):
-            eojeol_boundary_list = eojeol_boundary_list[:eojeol_max_len]
+            eojeol_boundary_list = eojeol_boundary_list[:eojeol_max_len-1]
+            eojeol_boundary_list.append(1) # [SEP]
         else:
+            # eojeol_boundary_list.append(1) # [SEP]
             eojeol_boundary_size = len(eojeol_boundary_list)
             eojeol_boundary_list += [0] * (eojeol_max_len - eojeol_boundary_size)
 

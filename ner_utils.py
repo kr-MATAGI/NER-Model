@@ -215,9 +215,7 @@ def load_model_checkpoints(user_select, checkpoint):
     elif 5 == user_select:
         model = Custom_Electra_Model.from_pretrained(checkpoint)
     elif 6 == user_select:
-        model = Electra_Trans_Model.from_pretrained(checkpoint)
-    elif 7 == user_select:
-        # Electra base
+        # Electra Base
         model = Eojeol_Embed_Model.from_pretrained(checkpoint)
 
     return model

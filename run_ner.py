@@ -69,9 +69,9 @@ def evaluate(args, model, eval_dataset, mode, global_step=None, train_epoch=0):
                 "attention_mask": batch["attention_mask"].to(args.device),
                 "token_type_ids": batch["token_type_ids"].to(args.device),
                 "labels": batch["labels"].to(args.device),
-                "input_seq_len": batch["input_seq_len"].to(args.device),
+                "token_seq_len": batch["token_seq_len"].to(args.device),
                 "pos_tag_ids": batch["pos_tag_ids"].to(args.device),
-                "span_ids": batch["span_ids"].to(args.device)
+                "eojeol_ids": batch["eojeol_ids"].to(args.device)
             }
 
             if 6 == g_user_select:
@@ -211,9 +211,9 @@ def train(args, model, train_dataset, dev_dataset):
                 "attention_mask": batch["attention_mask"].to(args.device),
                 "token_type_ids": batch["token_type_ids"].to(args.device),
                 "labels": batch["labels"].to(args.device),
-                "input_seq_len": batch["input_seq_len"].to(args.device),
+                "token_seq_len": batch["token_seq_len"].to(args.device),
                 "pos_tag_ids": batch["pos_tag_ids"].to(args.device),
-                "span_ids": batch["span_ids"].to(args.device)
+                "eojeol_ids": batch["eojeol_ids"].to(args.device)
             }
 
             # inputs["input_ids"].shape -> [batch_size, max_seq_len]
@@ -358,12 +358,12 @@ def main():
         train_dataset = NER_Eojeol_Datasets(token_data=train_dataset, labels=train_labels,
                                             pos_tag_ids=train_pos_tag, token_seq_len=train_seq_len,
                                             eojeol_ids=train_eojeol_ids)
-        dev_datasets = NER_Eojeol_Datasets(token_data=dev_dataset, labels=dev_labels,
-                                           pos_tag_ids=dev_pos_tag, token_seq_len=dev_seq_len,
-                                           eojeol_ids=dev_eojeol_ids)
-        test_datasets = NER_Eojeol_Datasets(token_data=test_dataset, labels=test_labels,
-                                            pos_tag_ids=test_pos_tag, token_seq_len=test_seq_len,
-                                            eojeol_ids=test_eojeol_ids)
+        dev_dataset = NER_Eojeol_Datasets(token_data=dev_dataset, labels=dev_labels,
+                                          pos_tag_ids=dev_pos_tag, token_seq_len=dev_seq_len,
+                                          eojeol_ids=dev_eojeol_ids)
+        test_dataset = NER_Eojeol_Datasets(token_data=test_dataset, labels=test_labels,
+                                           pos_tag_ids=test_pos_tag, token_seq_len=test_seq_len,
+                                           eojeol_ids=test_eojeol_ids)
     else:
         train_dataset = NER_POS_Dataset(data=train_dataset, seq_len=train_seq_len, pos_data=train_pos_tag)
         dev_dataset = NER_POS_Dataset(data=dev_dataset, seq_len=dev_seq_len, pos_data=dev_pos_tag)
