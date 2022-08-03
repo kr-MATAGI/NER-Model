@@ -600,7 +600,7 @@ def make_eojeol_datasets_npy(tokenizer_name: str, src_list: List[Sentence],
                     for _ in range(len(word_token_pos[1])):
                         labels_ids.append(ETRI_TAG["O"])
         labels_ids_diff_len = len(text_tokens) - len(labels_ids)
-        labels_ids.extend(["O" for _ in range(labels_ids_diff_len)])
+        labels_ids.extend([ETRI_TAG["O"] for _ in range(labels_ids_diff_len)])
 
         # For Test
         # print(src_item.ne_list)
@@ -707,6 +707,9 @@ def make_eojeol_datasets_npy(tokenizer_name: str, src_list: List[Sentence],
         npy_dict["labels"].append(labels_ids)
         npy_dict["pos_tag_ids"].append(pos_tag_ids)
         npy_dict["eojeol_ids"].append(eojeol_boundary_list)
+
+        print(labels_ids)
+        input()
 
     # save npy_dict
     save_eojeol_npy_dict(npy_dict, len(src_list))
