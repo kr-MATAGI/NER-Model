@@ -156,6 +156,7 @@ def evaluate(args, model, eval_dataset, mode, global_step=None, train_epoch=0):
 #===============================================================
 def train(args, model, train_dataset, dev_dataset):
 #===============================================================
+    # torch.autograd.set_detect_anomaly(True)
     train_data_len = len(train_dataset)
 
     if args.max_steps > 0:

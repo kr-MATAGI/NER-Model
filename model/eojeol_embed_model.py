@@ -8,6 +8,7 @@ from torch.nn import TransformerEncoder, TransformerEncoderLayer
 from transformers import ElectraModel, ElectraPreTrainedModel
 from transformers.modeling_outputs import TokenClassifierOutput
 
+from torch.nn.utils.rnn import pack_padded_sequence, pad_packed_sequence
 
 #===============================================================
 class Eojeol_Transformer_Encoder(nn.Module):
@@ -64,6 +65,12 @@ class Eojeol_Embed_Model(ElectraPreTrainedModel):
                                                               d_hid=config.hidden_size,
                                                               n_head=8, n_layers=3, dropout=0.33)
 
+        # encoder
+        # self.encoder = nn.LSTM()
+
+        # decoder
+        # self.decoder = nn.LSTM()
+
         # Classifier
         self.classifier = nn.Linear(d_model_size, config.num_labels)
 
@@ -106,6 +113,7 @@ class Eojeol_Embed_Model(ElectraPreTrainedModel):
 
                 slice_eojeol_hidden = last_hidden[batch_idx][token_idx:token_end_idx]
                 eojeol_hidden = slice_eojeol_hidden.mean(dim=0).detach().cpu()
+                eojeol_hidden = torch.nan_to_num(eojeol_hidden)
 
                 # [eojeol_seq_len, embed_out]
                 eojeol_pos_embed_1 = self.eojeol_pos_embedding_1(eojoel_pos_tag_1[batch_idx][eojeol_idx])
