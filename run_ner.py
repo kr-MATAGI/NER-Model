@@ -74,9 +74,14 @@ def evaluate(args, model, eval_dataset, mode, global_step=None, train_epoch=0):
                 "span_ids": batch["span_ids"].to(args.device)
             }
 
-            log_likelihood, outputs = model(**inputs)
-            #loss, logits = outputs[:2]
-            loss = -1 * log_likelihood
+            if 6 == g_user_select:
+                model_outputs = model(**inputs)
+                loss = model_outputs.loss
+                outputs = model_outputs.logits
+            else:
+                log_likelihood, outputs = model(**inputs)
+                #loss, logits = outputs[:2]
+                loss = -1 * log_likelihood
 
             # outputs = model(**inputs)
             # loss = outputs.loss
@@ -87,10 +92,12 @@ def evaluate(args, model, eval_dataset, mode, global_step=None, train_epoch=0):
         eval_pbar.set_description("Eval Loss - %.04f" % (eval_loss / nb_eval_steps))
 
         if preds is None:
-            preds = np.array(outputs)
+            # preds = np.array(outputs)
+            preds = outputs.detach().cpu().numpy()
             out_label_ids = inputs["labels"].detach().cpu().numpy()
         else:
-            preds = np.append(preds, np.array(outputs), axis=0)
+            # preds = np.append(preds, np.array(outputs), axis=0)
+            preds = np.append(preds, outputs.detach().cpu().numpy(), axis=0)
             out_label_ids = np.append(out_label_ids, inputs["labels"].detach().cpu().numpy(), axis=0)
 
         # if preds is None:
@@ -109,7 +116,7 @@ def evaluate(args, model, eval_dataset, mode, global_step=None, train_epoch=0):
     }
 
     # 07.25
-    # preds = np.argmax(preds, axis=2)
+    preds = np.argmax(preds, axis=-1)
 
     labels = ETRI_TAG.keys()
     label_map = {i: label for i, label in enumerate(labels)}
@@ -210,9 +217,13 @@ def train(args, model, train_dataset, dev_dataset):
             }
 
             # inputs["input_ids"].shape -> [batch_size, max_seq_len]
-
-            log_likelihood, outputs = model(**inputs)
-            loss = -1 * log_likelihood
+            if 6 == g_user_select:
+                model_outputs = model(**inputs)
+                loss = model_outputs.loss
+                logits = model_outputs.logits
+            else:
+                log_likelihood, outputs = model(**inputs)
+                loss = -1 * log_likelihood
             # outputs = model(**inputs)
             # loss = outputs.loss
 
@@ -279,6 +290,8 @@ def main():
     print(f"3. {NER_MODEL_LIST[2]}")
     print(f"4. {NER_MODEL_LIST[3]}")
     print(f"5. {NER_MODEL_LIST[4]}")
+    print(f"6. {NER_MODEL_LIST[5]}")
+    print(f"7. {NER_MODEL_LIST[6]}")
     print("=======================================")
     print(">>>> number: ")
 
@@ -297,6 +310,8 @@ def main():
     elif 4 == g_user_select:
         config_file_path = "./config/custom-embed-model.json"
     elif 5 == g_user_select:
+        config_file_path = "./config/electra-custom_embed-model.json"
+    elif 6 == g_user_select:
         config_file_path = "./config/electra-custom_embed-model.json"
 
     with open(config_file_path) as config_file:

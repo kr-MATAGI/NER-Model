@@ -16,6 +16,8 @@ from model.bert_custom_model import (
     BERT_POS_LSTM, BERT_IDCNN_CRF
 )
 from model.el_custom_embed import Custom_Electra_Model
+from model.transformer_model import Electra_Trans_Model
+from model.eojeol_embed_model import Eojeol_Embed_Model
 
 #===============================================================
 def print_parameters(args, logger):
@@ -165,6 +167,20 @@ def load_ner_config_and_model(user_select: int, args, tag_dict):
                                             label2id={label: i for i, label in enumerate(tag_dict.keys())})
         config.num_pos_labels = 49  # NIKL
         config.max_seq_len = 128
+    elif 6 == user_select:
+        config = ElectraConfig.from_pretrained(args.model_name_or_path,
+                                               num_labels=len(tag_dict.keys()),
+                                               id2label={str(i): label for i, label in enumerate(tag_dict.keys())},
+                                               label2id={label: i for i, label in enumerate(tag_dict.keys())})
+        config.num_pos_labels = 49  # NIKL
+        config.max_seq_len = 128
+    elif 7 == user_select:
+        config = ElectraConfig.from_pretrained(args.model_name_or_path,
+                                               num_labels=len(tag_dict.keys()),
+                                               id2label={str(i): label for i, label in enumerate(tag_dict.keys())},
+                                               label2id={label: i for i, label in enumerate(tag_dict.keys())})
+        config.num_pos_labels = 49  # NIKL
+        config.max_seq_len = 128
 
     # model
     if 1 == user_select:
@@ -181,6 +197,11 @@ def load_ner_config_and_model(user_select: int, args, tag_dict):
         model = Custom_Embed_Model(config=config)
     elif 5 == user_select:
         model = Custom_Electra_Model(config=config)
+    elif 6 == user_select:
+        model = Electra_Trans_Model(config=config)
+    elif 7 == user_select:
+        # ELECTRA
+        model = Eojeol_Embed_Model(config=config)
 
     return config, model
 
@@ -204,6 +225,11 @@ def load_model_checkpoints(user_select, checkpoint):
         model = Custom_Embed_Model.from_pretrained(checkpoint)
     elif 5 == user_select:
         model = Custom_Electra_Model.from_pretrained(checkpoint)
+    elif 6 == user_select:
+        model = Electra_Trans_Model.from_pretrained(checkpoint)
+    elif 7 == user_select:
+        # Electra base
+        model = Eojeol_Embed_Model.from_pretrained(checkpoint)
 
     return model
 
