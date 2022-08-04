@@ -182,17 +182,18 @@ class Eojeol_Embed_Model(ElectraPreTrainedModel):
         trans_outputs = self.transformer_encoder(eojeol_tensor)
 
         # LSTM Encoder
-        print("AAAAAAAA")
-        print(token_seq_len)
-        print(token_seq_len.shape)
         # token_seq_len.shape : [batch_size]
-        packed_outputs = pack_padded_sequence(trans_outputs, token_seq_len, batch_first=True)
+        # packed_outputs = pack_padded_sequence(trans_outputs, token_seq_len, batch_first=True)
 
+        # Classifier
+        logits = self.classifier(trans_outputs)  # [batch_size, seq_len, num_labels]
 
-        # loss = None
-        # if labels is not None:
-        #     loss_fct = nn.CrossEntropyLoss()
-        #     loss = loss_fct(logits.view(-1, self.num_ne_labels), labels.view(-1))
-        #
-        # output = (logits, )
-        # return ((loss, ) + output) if loss is not None else output
+        loss = None
+        if labels is not None:
+            loss_fct = nn.CrossEntropyLoss()
+            loss = loss_fct(logits.view(-1, self.num_ne_labels), labels.view(-1))
+
+        return TokenClassifierOutput(
+            loss=loss,
+            logits=logits
+        )
