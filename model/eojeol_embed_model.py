@@ -136,7 +136,7 @@ class Eojeol_Embed_Model(ElectraPreTrainedModel):
                 token_size = token_end_idx - token_idx + 1
                 sum_eojeol_hidden = last_hidden[batch_idx][token_idx:token_end_idx] # [batch_size, word_token(가변), hidden_size]
                 sum_eojeol_hidden = torch.sum(sum_eojeol_hidden, dim=0)
-                sum_eojeol_hidden = (sum_eojeol_hidden / token_size)
+                sum_eojeol_hidden = (sum_eojeol_hidden / token_size).detach().cpu()
 
                 # [1536]
                 # concat_eojeol_hidden = torch.concat([pre_eojeol_hidden, last_eojeol_hidden], dim=-1).detach().cpu()
