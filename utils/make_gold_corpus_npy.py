@@ -627,7 +627,7 @@ def make_eojeol_datasets_npy(tokenizer_name: str, src_list: List[Sentence],
         valid_token_len = 0
         text_tokens.insert(0, "[CLS]")
         text_tokens.append("[SEP]")
-        if max_len < len(text_tokens):
+        if max_len <= len(text_tokens):
             text_tokens = text_tokens[:max_len-1]
             text_tokens.append("[SEP]")
             valid_token_len = max_len
@@ -643,7 +643,7 @@ def make_eojeol_datasets_npy(tokenizer_name: str, src_list: List[Sentence],
         # label_ids
         valid_eojeol_len = 0
         labels_ids.insert(0, ETRI_TAG["O"])
-        if eojeol_max_len < len(labels_ids):
+        if eojeol_max_len <= len(labels_ids):
             labels_ids = labels_ids[:eojeol_max_len-1]
             labels_ids.append(ETRI_TAG["O"])
             valid_eojeol_len = eojeol_max_len
@@ -655,7 +655,7 @@ def make_eojeol_datasets_npy(tokenizer_name: str, src_list: List[Sentence],
 
         # pos_tag_ids
         pos_tag_ids.insert(0, [pos_tag2ids["O"]] * 10) # [CLS]
-        if eojeol_max_len < len(pos_tag_ids):
+        if eojeol_max_len <= len(pos_tag_ids):
             pos_tag_ids = pos_tag_ids[:eojeol_max_len-1]
             pos_tag_ids.append([pos_tag2ids["O"]] * 10) # [SEP]
         else:
@@ -667,7 +667,7 @@ def make_eojeol_datasets_npy(tokenizer_name: str, src_list: List[Sentence],
         # eojeol_ids
         eojeol_boundary_list.insert(0, 1) # [CLS]
         eojeol_boundary_list.append(1)  # [SEP]
-        if eojeol_max_len < len(eojeol_boundary_list):
+        if eojeol_max_len <= len(eojeol_boundary_list):
             eojeol_boundary_list = eojeol_boundary_list[:eojeol_max_len-1]
             eojeol_boundary_list.append(1) # [SEP]
         else:

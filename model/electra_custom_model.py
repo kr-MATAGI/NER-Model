@@ -314,13 +314,6 @@ class ELECTRA_POS_LSTM(ElectraPreTrainedModel):
             sequence_of_tags = self.crf.decode(logits)
             return sequence_of_tags
 
-        loss = None
-        if labels is not None:
-            loss_fct = nn.CrossEntropyLoss()
-            loss = loss_fct(logits.view(-1, self.num_labels), labels.view(-1))
-
-        output = (logits,) + outputs[2:]
-        return ((loss,) + output) if loss is not None else output
 #================================================================================================================
 
 ### TEST ###

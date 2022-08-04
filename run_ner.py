@@ -92,20 +92,12 @@ def evaluate(args, model, eval_dataset, mode, global_step=None, train_epoch=0):
         eval_pbar.set_description("Eval Loss - %.04f" % (eval_loss / nb_eval_steps))
 
         if preds is None:
-            # preds = np.array(outputs)
+            #preds = np.array(outputs)
             preds = outputs.detach().cpu().numpy()
             out_label_ids = inputs["labels"].detach().cpu().numpy()
         else:
-            # preds = np.append(preds, np.array(outputs), axis=0)
             preds = np.append(preds, outputs.detach().cpu().numpy(), axis=0)
             out_label_ids = np.append(out_label_ids, inputs["labels"].detach().cpu().numpy(), axis=0)
-
-        # if preds is None:
-        #     preds = outputs.logits.detach().cpu().numpy()
-        #     out_label_ids = inputs["labels"].detach().cpu().numpy()
-        # else:
-        #     preds = np.append(preds, outputs.logits.detach().cpu().numpy(), axis=0)
-        #     out_label_ids = np.append(out_label_ids, inputs["labels"].detach().cpu().numpy(), axis=0)
 
     logger.info("  Eval End !")
     eval_pbar.close()

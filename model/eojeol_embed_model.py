@@ -50,13 +50,11 @@ class Eojeol_Embed_Model(ElectraPreTrainedModel):
         self.num_ne_labels = config.num_labels
         self.num_pos_labels = config.num_pos_labels
         self.pos_embed_out_dim = 256
+        self.dropout_rate = 0.33
 
         # structure
         self.electra = ElectraModel.from_pretrained(config.model_name, config=config)
-        classifier_dropout = (
-            config.classifier_dropout if config.classifier_dropout is not None else config.hidden_dropout_prob
-        )
-        self.dropout = nn.Dropout(classifier_dropout)
+        self.dropout = nn.Dropout(self.dropout_rate)
 
         # POS
         self.eojeol_pos_embedding_1 = nn.Embedding(self.num_pos_labels, self.pos_embed_out_dim)
@@ -65,11 +63,12 @@ class Eojeol_Embed_Model(ElectraPreTrainedModel):
         # self.eojeol_pos_embedding_4 = nn.Embedding(self.num_pos_labels, self.pos_embed_out_dim)
 
         # Transformer Encoder
-        d_model_size = (config.hidden_size * 2) + (self.pos_embed_out_dim * 3)
-        self.transformer_encoder = Eojeol_Transformer_Encoder(d_model=d_model_size,
+        self.d_model_size = (config.hidden_size * 2) + (self.pos_embed_out_dim * 3) # [2304]
+        self.transformer_encoder = Eojeol_Transformer_Encoder(d_model=self.d_model_size,
                                                               d_hid=config.hidden_size,
-                                                              n_head=8, n_layers=3, dropout=0.33,)
+                                                              n_head=8, n_layers=3, dropout=0.33)
 
+        '''
         # LSTM Encoder
         self.encoder = nn.LSTM(
             input_size=d_model_size,
@@ -89,9 +88,10 @@ class Eojeol_Embed_Model(ElectraPreTrainedModel):
             batch_first=True,
             dropout=0.33
         )
+        '''
 
         # Classifier
-        self.linear = nn.Linear(config.hidden_size, config.num_labels)
+        self.linear = nn.Linear(self.d_model_size, config.num_labels)
 
         # Initialize weights and apply final processing
         self.post_init()
@@ -127,7 +127,9 @@ class Eojeol_Embed_Model(ElectraPreTrainedModel):
             for eojeol_idx, eojeol_bound in enumerate(eojeol_ids[batch_idx]):
                 if 0 == eojeol_bound:
                     break
-                token_end_idx = token_idx + eojeol_bound
+                token_end_idx = token_idx + eojeol_bound.item()
+                if max_seq_len <= token_end_idx:
+                    token_end_idx = max_seq_len-1
 
                 pre_eojeol_hidden = last_hidden[batch_idx][token_idx]
                 last_eojeol_hidden = last_hidden[batch_idx][token_end_idx]
@@ -185,16 +187,18 @@ class Eojeol_Embed_Model(ElectraPreTrainedModel):
                                                  eojeol_ids=eojeol_ids)
 
         # forward to transformer
-        # [batch_size, eojeol_len, 1168]
+        # [batch_size, eojeol_len, 2304]
         trans_outputs = self.transformer_encoder(eojeol_tensor)
+        trans_outputs = self.dropout(trans_outputs)
 
+        '''
         # LSTM Encoder
         # token_seq_len.shape : [batch_size]
         packed_outputs = pack_padded_sequence(trans_outputs, token_seq_len.tolist(),
                                               batch_first=True, enforce_sorted=False)
         encoder_outputs, hn = self.encoder(packed_outputs) # [64, 49, 768]
         encoder_outputs, outputs_len = pad_packed_sequence(encoder_outputs, batch_first=True)
-
+        
         # LSTM Decoder
         src_encoding = self.src_dense(encoder_outputs[:, 1:]) # [64, 38, 768]
         src_encoding = F.elu(src_encoding) # [64, 38, 768]
@@ -204,14 +208,15 @@ class Eojeol_Embed_Model(ElectraPreTrainedModel):
         # [64, 38, 768]
         decoder_outputs, outputs_len = pad_packed_sequence(decoder_outputs, batch_first=True, padding_value=0)
         decoder_outputs = self.dropout(decoder_outputs.transpose(1, 2)).transpose(1, 2)
+        '''
 
         # Classifier
-        logits = self.linear(decoder_outputs)  # [batch_size, seq_len, num_labels]
+        logits = self.linear(trans_outputs)  # [batch_size, seq_len, num_labels]
 
         loss = None
         if labels is not None:
-            logits_len = logits.shape[1]
-            labels = labels[:, :logits_len]
+            # logits_len = logits.shape[1]
+            # labels = labels[:, :logits_len]
             loss_fct = nn.CrossEntropyLoss()
             loss = loss_fct(logits.view(-1, self.num_ne_labels), labels.contiguous().view(-1))
 
@@ -219,5 +224,3 @@ class Eojeol_Embed_Model(ElectraPreTrainedModel):
             loss=loss,
             logits=logits,
         )
-
-        return
