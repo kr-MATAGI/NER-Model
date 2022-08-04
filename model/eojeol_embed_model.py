@@ -143,7 +143,7 @@ class Eojeol_Embed_Model(ElectraPreTrainedModel):
 
                 # update token start idx
                 token_idx = token_end_idx
-            print(len(eojeol_hidden_list))
+            
             # 어절 길이 맞추기 (기준 max_output_eojeol_len)
             new_tensor = np.vstack(eojeol_hidden_list)
             if max_eojeol_len < new_tensor.shape[0]:
