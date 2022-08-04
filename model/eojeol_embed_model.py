@@ -13,10 +13,21 @@ from torch.nn.utils.rnn import pack_padded_sequence, pad_packed_sequence
 #===============================================================
 class Eojeol_Transformer_Encoder(nn.Module):
 #===============================================================
-    def __init__(self, d_model: int, n_head: int, d_hid: int, n_layers: int, dropout: float = 0.3):
+    def __init__(self, d_model: int, n_head: int, d_hid: int, n_layers: int, dropout: float = 0.33):
         super().__init__()
         self.model_type = "Transformer"
-        encoder_layers = TransformerEncoderLayer(d_model, n_head, d_hid, dropout)
+
+        '''
+            d_model: input features 개수
+            n_head: multiheadattetntion head 개수
+            d_hid: the dimension of the feedforward network model (default=2048)
+        '''
+        encoder_layers = TransformerEncoderLayer(d_model=d_model,
+                                                 nhead=n_head,
+                                                 dim_feedforward=d_hid,
+                                                 dropout=dropout,
+                                                 batch_first=True
+                                                 )
         self.transformer_encoder = TransformerEncoder(encoder_layers, n_layers)
 
     def init_weights(self) -> None:
@@ -24,13 +35,6 @@ class Eojeol_Transformer_Encoder(nn.Module):
         self.encoder.weight.data.uniform_(-init_range, init_range)
 
     def forward(self, src: torch.Tensor) -> torch.Tensor:
-        """
-            Args:
-                src: Tensor, shape [seq_len, batch_size]
-
-            Returns:
-                output Tensor of shape [seq_len, batch_size, ntoken]
-        """
         output = self.transformer_encoder(src)
         return output
 
@@ -63,7 +67,7 @@ class Eojeol_Embed_Model(ElectraPreTrainedModel):
         d_model_size = config.hidden_size + (self.pos_embed_out_dim * 4)
         self.transformer_encoder = Eojeol_Transformer_Encoder(d_model=d_model_size,
                                                               d_hid=config.hidden_size,
-                                                              n_head=8, n_layers=3, dropout=0.33)
+                                                              n_head=8, n_layers=3, dropout=0.33,)
 
         # LSTM Encoder
         self.encoder = nn.LSTM(
@@ -96,8 +100,7 @@ class Eojeol_Embed_Model(ElectraPreTrainedModel):
             token_seq_len,
             pos_ids,
             eojeol_ids,
-            max_input_eojeol_len=100,
-            max_output_eojeol_len=50
+            max_eojeol_len=50
     ) -> torch.Tensor:
         '''
               last_hidden.shape: [batch_size, token_seq_len, hidden_size]
@@ -108,7 +111,7 @@ class Eojeol_Embed_Model(ElectraPreTrainedModel):
 
         batch_size, max_seq_len, hidden_size = last_hidden.size()
         device = last_hidden.device
-        new_all_batch_tensor = torch.zeros(batch_size, max_output_eojeol_len, hidden_size + (self.pos_embed_out_dim * 4))
+        new_all_batch_tensor = torch.zeros(batch_size, max_eojeol_len, hidden_size + (self.pos_embed_out_dim * 4))
 
         eojoel_pos_tag_1 = pos_ids[:, :, 0] # [batch_size, eojeol_seq_len]
         eojoel_pos_tag_2 = pos_ids[:, :, 1] # [batch_size, eojeol_seq_len]
@@ -126,7 +129,7 @@ class Eojeol_Embed_Model(ElectraPreTrainedModel):
 
                 slice_eojeol_hidden = last_hidden[batch_idx][token_idx:token_end_idx]
                 eojeol_hidden = slice_eojeol_hidden.mean(dim=0).detach().cpu()
-                eojeol_hidden = torch.nan_to_num(eojeol_hidden)
+                eojeol_hidden = torch.nan_to_num(eojeol_hidden) # 이거 없어도 loss nan 안되야함
 
                 # [eojeol_seq_len, embed_out]
                 eojeol_pos_embed_1 = self.eojeol_pos_embedding_1(eojoel_pos_tag_1[batch_idx][eojeol_idx])
@@ -140,13 +143,13 @@ class Eojeol_Embed_Model(ElectraPreTrainedModel):
 
                 # update token start idx
                 token_idx = token_end_idx
-
+            print(len(eojeol_hidden_list))
             # 어절 길이 맞추기 (기준 max_output_eojeol_len)
             new_tensor = np.vstack(eojeol_hidden_list)
-            if max_output_eojeol_len < new_tensor.shape[0]:
-                new_tensor = new_tensor[:max_output_eojeol_len, :]
+            if max_eojeol_len < new_tensor.shape[0]:
+                new_tensor = new_tensor[:max_eojeol_len, :]
             else:
-                diff_size = max_output_eojeol_len - new_tensor.shape[0]
+                diff_size = max_eojeol_len - new_tensor.shape[0]
                 hidden_size = new_tensor.shape[1]
                 for _ in range(diff_size):
                     new_tensor = np.vstack([new_tensor, [0] * hidden_size])
@@ -171,21 +174,25 @@ class Eojeol_Embed_Model(ElectraPreTrainedModel):
 
         # make eojeol embedding
         eojeol_tensor = self._make_eojeol_tensor(last_hidden=el_last_hidden,
-                                                       token_seq_len=token_seq_len,
-                                                       pos_ids=pos_tag_ids,
-                                                       eojeol_ids=eojeol_ids)
+                                                 token_seq_len=token_seq_len,
+                                                 pos_ids=pos_tag_ids,
+                                                 eojeol_ids=eojeol_ids)
 
         # forward to transformer
         trans_outputs = self.transformer_encoder(eojeol_tensor)
 
         # LSTM Encoder
-        packed_outputs = pack_padded_sequence(trans_outputs, token_seq_len)
+        print("AAAAAAAA")
+        print(token_seq_len)
+        print(token_seq_len.shape)
+        # token_seq_len.shape : [batch_size]
+        packed_outputs = pack_padded_sequence(trans_outputs, token_seq_len, batch_first=True)
 
 
-        loss = None
-        if labels is not None:
-            loss_fct = nn.CrossEntropyLoss()
-            loss = loss_fct(logits.view(-1, self.num_ne_labels), labels.view(-1))
-
-        output = (logits, )
-        return ((loss, ) + output) if loss is not None else output
+        # loss = None
+        # if labels is not None:
+        #     loss_fct = nn.CrossEntropyLoss()
+        #     loss = loss_fct(logits.view(-1, self.num_ne_labels), labels.view(-1))
+        #
+        # output = (logits, )
+        # return ((loss, ) + output) if loss is not None else output

@@ -550,7 +550,7 @@ def make_pos_tag_npy(tokenizer_name: str, src_list: List[Sentence], max_len: int
 ####
 
 def make_eojeol_datasets_npy(tokenizer_name: str, src_list: List[Sentence],
-                             max_len: int=128, eojeol_max_len: int=50):
+                             max_len: int=128, eojeol_max_len: int=50, debug_mode: bool=False):
     random.shuffle(src_list)
 
     npy_dict = {
@@ -578,37 +578,26 @@ def make_eojeol_datasets_npy(tokenizer_name: str, src_list: List[Sentence],
             word_tokens_pos_pair_list.append((word_item.form, form_tokens, (word_item.begin, word_item.end)))
 
         # make NE labels
-        labels_ids = []
-        last_pos = -1
-        # print(src_item.ne_list)
-        for ne_idx, ne_item in enumerate(src_item.ne_list):
-            is_B_tag = True
-            for wtp_idx, word_token_pos in enumerate(word_tokens_pos_pair_list):
-                if last_pos >= wtp_idx:
-                    continue
-                if (ne_item.begin <= word_token_pos[-1][0]) and (ne_item.end <= word_token_pos[-1][1]):
-                    # print(ne_item, word_token_pos)
-                    for label_idx in range(len(word_token_pos[1])):
-                        if 0 == label_idx and is_B_tag:
-                            labels_ids.append(ETRI_TAG["B-" + ne_item.type])
-                            is_B_tag = False
-                        else:
-                            labels_ids.append(ETRI_TAG["I-" + ne_item.type])
-                    last_pos = wtp_idx
+        labels_ids = [ETRI_TAG["O"]] * len(word_tokens_pos_pair_list)
+        b_check_use_eojeol = [False for _ in range(len(word_tokens_pos_pair_list))]
+        is_B_tag = True  # BIO 중 B-[tag]
+        for wtp_idx, word_token_pos in enumerate(word_tokens_pos_pair_list):
+            if b_check_use_eojeol[wtp_idx]:  # 이미 사용한 어절
+                continue
+            for ne_idx, ne_item in enumerate(src_item.ne_list):
+                if word_token_pos[-1][1] < ne_item.end: # 현재 어절보다 뒤에 있는 개체명
+                    break
+                if ne_item.begin >= word_token_pos[-1][0] and ne_item.end <= word_token_pos[-1][1]:
+                    b_check_use_eojeol[wtp_idx] = True
+                    # 개체명 범위에 포함되는 경우
+                    if is_B_tag:
+                        labels_ids[wtp_idx] = ETRI_TAG["B-"+ne_item.type]
+                        is_B_tag = False
+                    else:
+                        labels_ids[wtp_idx] = ETRI_TAG["I-"+ne_item.type]
                     break
                 else:
-                    for _ in range(len(word_token_pos[1])):
-                        labels_ids.append(ETRI_TAG["O"])
-        labels_ids_diff_len = len(text_tokens) - len(labels_ids)
-        labels_ids.extend([ETRI_TAG["O"] for _ in range(labels_ids_diff_len)])
-
-        # For Test
-        # print(src_item.ne_list)
-        # print(len(text_tokens))
-        # print(len(labels_ids))
-        # for a, b in zip(text_tokens, labels_ids):
-        #     print(a, b)
-        # input()
+                    is_B_tag = True
 
         # POS
         pos_tag_ids = [] # [[POS, * 4]]
@@ -627,29 +616,16 @@ def make_eojeol_datasets_npy(tokenizer_name: str, src_list: List[Sentence],
         # last word_id
         pos_tag_ids.append(copy.deepcopy(cur_pos_tag))
 
-        # Test
-        # print(src_item.text)
-        # print(word_tokens_pos_pair_list)
-        # for a in src_item.morp_list:
-        #     print(a)
-        # for a in pos_tag_ids:
-        #     print(a)
-        # print(text_tokens)
-        # input()
-
         # eojeol boundary
         eojeol_boundary_list: List[int] = []
         for wtp_ids, wtp_item in enumerate(word_tokens_pos_pair_list):
             token_size = len(wtp_item[1])
             eojeol_boundary_list.append(token_size)
 
-        # Test
-        # print(text_tokens)
-        # print(eojeol_boundary_list)
-
         # Sequence Length
         # 토큰 단위
         valid_token_len = 0
+        text_tokens.insert(0, "[CLS]")
         text_tokens.append("[SEP]")
         if max_len < len(text_tokens):
             text_tokens = text_tokens[:max_len-1]
@@ -670,8 +646,10 @@ def make_eojeol_datasets_npy(tokenizer_name: str, src_list: List[Sentence],
         if eojeol_max_len < len(labels_ids):
             labels_ids = labels_ids[:eojeol_max_len-1]
             labels_ids.append(ETRI_TAG["O"])
+            valid_eojeol_len = eojeol_max_len
         else:
             labels_ids_size = len(labels_ids)
+            valid_eojeol_len = labels_ids_size + 1 # + [SEP]
             for _ in range(eojeol_max_len - labels_ids_size):
                 labels_ids.append(ETRI_TAG["O"])
 
@@ -688,11 +666,11 @@ def make_eojeol_datasets_npy(tokenizer_name: str, src_list: List[Sentence],
 
         # eojeol_ids
         eojeol_boundary_list.insert(0, 1) # [CLS]
+        eojeol_boundary_list.append(1)  # [SEP]
         if eojeol_max_len < len(eojeol_boundary_list):
             eojeol_boundary_list = eojeol_boundary_list[:eojeol_max_len-1]
             eojeol_boundary_list.append(1) # [SEP]
         else:
-            # eojeol_boundary_list.append(1) # [SEP]
             eojeol_boundary_size = len(eojeol_boundary_list)
             eojeol_boundary_list += [0] * (eojeol_max_len - eojeol_boundary_size)
 
@@ -711,6 +689,22 @@ def make_eojeol_datasets_npy(tokenizer_name: str, src_list: List[Sentence],
         npy_dict["labels"].append(labels_ids)
         npy_dict["pos_tag_ids"].append(pos_tag_ids)
         npy_dict["eojeol_ids"].append(eojeol_boundary_list)
+
+        # debug_mode
+        if debug_mode:
+            print("Unit: WordPiece Token")
+            print(f"text_tokens: {text_tokens}")
+            for ii, am, tti in zip(input_ids, attention_mask, token_type_ids):
+                print(ii, am, tti)
+            print("Unit: Eojeol")
+            print(f"seq_len: {valid_eojeol_len} : {len(word_tokens_pos_pair_list)}")
+            print(f"label_ids.len: {len(labels_ids)}, pos_tag_ids.len: {len(pos_tag_ids)}")
+            print(f"{word_tokens_pos_pair_list}")
+            print(f"NE: {src_item.ne_list}")
+            print(f"eojeol boundary: {eojeol_boundary_list}")
+            for la, pti in zip(labels_ids, pos_tag_ids):
+                print(la, pti)
+            input()
 
     # save npy_dict
     save_eojeol_npy_dict(npy_dict, len(src_list))
@@ -830,4 +824,4 @@ if "__main__" == __name__:
     # make_wordpiece_npy(tokenizer_name="monologg/koelectra-base-v3-discriminator",
     #                    src_list=all_sent_list, max_len=128)
     make_eojeol_datasets_npy(tokenizer_name="monologg/koelectra-base-v3-discriminator",
-                             src_list=all_sent_list, max_len=128)
+                             src_list=all_sent_list, max_len=128, debug_mode=False)
