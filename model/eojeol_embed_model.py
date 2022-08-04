@@ -2,6 +2,7 @@ import torch
 import copy
 import math
 import torch.nn as nn
+import torch.nn.functional as F
 import numpy as np
 
 from torch.nn import TransformerEncoder, TransformerEncoderLayer
@@ -48,7 +49,7 @@ class Eojeol_Embed_Model(ElectraPreTrainedModel):
         self.max_seq_len = config.max_seq_len
         self.num_ne_labels = config.num_labels
         self.num_pos_labels = config.num_pos_labels
-        self.pos_embed_out_dim = 100
+        self.pos_embed_out_dim = 256
 
         # structure
         self.electra = ElectraModel.from_pretrained(config.model_name, config=config)
@@ -61,18 +62,18 @@ class Eojeol_Embed_Model(ElectraPreTrainedModel):
         self.eojeol_pos_embedding_1 = nn.Embedding(self.num_pos_labels, self.pos_embed_out_dim)
         self.eojeol_pos_embedding_2 = nn.Embedding(self.num_pos_labels, self.pos_embed_out_dim)
         self.eojeol_pos_embedding_3 = nn.Embedding(self.num_pos_labels, self.pos_embed_out_dim)
-        self.eojeol_pos_embedding_4 = nn.Embedding(self.num_pos_labels, self.pos_embed_out_dim)
+        # self.eojeol_pos_embedding_4 = nn.Embedding(self.num_pos_labels, self.pos_embed_out_dim)
 
         # Transformer Encoder
-        d_model_size = config.hidden_size + (self.pos_embed_out_dim * 4)
+        d_model_size = (config.hidden_size * 2) + (self.pos_embed_out_dim * 3)
         self.transformer_encoder = Eojeol_Transformer_Encoder(d_model=d_model_size,
                                                               d_hid=config.hidden_size,
                                                               n_head=8, n_layers=3, dropout=0.33,)
 
         # LSTM Encoder
         self.encoder = nn.LSTM(
-            input_size=config.hidden_size // 2,
-            hidden_size=config.hidden_size,
+            input_size=d_model_size,
+            hidden_size=config.hidden_size, # // 2),
             num_layers=1,
             batch_first=True,
             bidirectional=True,
@@ -80,6 +81,7 @@ class Eojeol_Embed_Model(ElectraPreTrainedModel):
         )
 
         # LSTM Decoder
+        self.src_dense = nn.Linear(config.hidden_size * 2, config.hidden_size)
         self.decoder = nn.LSTM(
             input_size=config.hidden_size,
             hidden_size=config.hidden_size,
@@ -89,7 +91,7 @@ class Eojeol_Embed_Model(ElectraPreTrainedModel):
         )
 
         # Classifier
-        self.classifier = nn.Linear(d_model_size, config.num_labels)
+        self.linear = nn.Linear(config.hidden_size, config.num_labels)
 
         # Initialize weights and apply final processing
         self.post_init()
@@ -111,12 +113,12 @@ class Eojeol_Embed_Model(ElectraPreTrainedModel):
 
         batch_size, max_seq_len, hidden_size = last_hidden.size()
         device = last_hidden.device
-        new_all_batch_tensor = torch.zeros(batch_size, max_eojeol_len, hidden_size + (self.pos_embed_out_dim * 4))
+        new_all_batch_tensor = torch.zeros(batch_size, max_eojeol_len, (hidden_size * 2) + (self.pos_embed_out_dim * 3))
 
-        eojoel_pos_tag_1 = pos_ids[:, :, 0] # [batch_size, eojeol_seq_len]
-        eojoel_pos_tag_2 = pos_ids[:, :, 1] # [batch_size, eojeol_seq_len]
-        eojoel_pos_tag_3 = pos_ids[:, :, 2] # [batch_size, eojeol_seq_len]
-        eojoel_pos_tag_4 = pos_ids[:, :, 3] # [batch_size, eojeol_seq_len]
+        eojoel_pos_tag_1 = pos_ids[:, :, 0] # [batch_size, eojeol_seq_len, 1]
+        eojoel_pos_tag_2 = pos_ids[:, :, 1] # [batch_size, eojeol_seq_len, 1]
+        eojoel_pos_tag_3 = pos_ids[:, :, 2] # [batch_size, eojeol_seq_len, 1]
+        # eojoel_pos_tag_4 = pos_ids[:, :, 3] # [batch_size, eojeol_seq_len, 1]
 
         for batch_idx in range(batch_size):
             eojeol_hidden_list = []
@@ -127,23 +129,27 @@ class Eojeol_Embed_Model(ElectraPreTrainedModel):
                     break
                 token_end_idx = token_idx + eojeol_bound
 
-                slice_eojeol_hidden = last_hidden[batch_idx][token_idx:token_end_idx]
-                eojeol_hidden = slice_eojeol_hidden.mean(dim=0).detach().cpu()
-                eojeol_hidden = torch.nan_to_num(eojeol_hidden) # 이거 없어도 loss nan 안되야함
+                pre_eojeol_hidden = last_hidden[batch_idx][token_idx]
+                last_eojeol_hidden = last_hidden[batch_idx][token_end_idx]
+
+                # [1536]
+                concat_eojeol_hidden = torch.concat([pre_eojeol_hidden, last_eojeol_hidden], dim=-1).detach().cpu()
 
                 # [eojeol_seq_len, embed_out]
                 eojeol_pos_embed_1 = self.eojeol_pos_embedding_1(eojoel_pos_tag_1[batch_idx][eojeol_idx])
                 eojeol_pos_embed_2 = self.eojeol_pos_embedding_2(eojoel_pos_tag_2[batch_idx][eojeol_idx])
                 eojeol_pos_embed_3 = self.eojeol_pos_embedding_3(eojoel_pos_tag_3[batch_idx][eojeol_idx])
-                eojeol_pos_embed_4 = self.eojeol_pos_embedding_4(eojoel_pos_tag_4[batch_idx][eojeol_idx])
+                # eojeol_pos_embed_4 = self.eojeol_pos_embedding_4(eojoel_pos_tag_4[batch_idx][eojeol_idx])
                 eojeol_pos_concat = torch.concat([eojeol_pos_embed_1, eojeol_pos_embed_2,
-                                                  eojeol_pos_embed_3, eojeol_pos_embed_4], dim=-1).detach().cpu()
-                eojeol_hidden = torch.concat([eojeol_hidden, eojeol_pos_concat], dim=-1)
+                                                  eojeol_pos_embed_3], dim=-1).detach().cpu()
+
+                # [2304]
+                eojeol_hidden = torch.concat([concat_eojeol_hidden, eojeol_pos_concat], dim=-1)
                 eojeol_hidden_list.append(eojeol_hidden)
 
                 # update token start idx
                 token_idx = token_end_idx
-            
+
             # 어절 길이 맞추기 (기준 max_output_eojeol_len)
             new_tensor = np.vstack(eojeol_hidden_list)
             if max_eojeol_len < new_tensor.shape[0]:
@@ -179,21 +185,39 @@ class Eojeol_Embed_Model(ElectraPreTrainedModel):
                                                  eojeol_ids=eojeol_ids)
 
         # forward to transformer
+        # [batch_size, eojeol_len, 1168]
         trans_outputs = self.transformer_encoder(eojeol_tensor)
 
         # LSTM Encoder
         # token_seq_len.shape : [batch_size]
-        # packed_outputs = pack_padded_sequence(trans_outputs, token_seq_len, batch_first=True)
+        packed_outputs = pack_padded_sequence(trans_outputs, token_seq_len.tolist(),
+                                              batch_first=True, enforce_sorted=False)
+        encoder_outputs, hn = self.encoder(packed_outputs) # [64, 49, 768]
+        encoder_outputs, outputs_len = pad_packed_sequence(encoder_outputs, batch_first=True)
+
+        # LSTM Decoder
+        src_encoding = self.src_dense(encoder_outputs[:, 1:]) # [64, 38, 768]
+        src_encoding = F.elu(src_encoding) # [64, 38, 768]
+        sent_len = [i - 1 for i in outputs_len]
+        packed_outputs = pack_padded_sequence(src_encoding, sent_len, batch_first=True, enforce_sorted=False)
+        decoder_outputs, _ = self.decoder(packed_outputs)
+        # [64, 38, 768]
+        decoder_outputs, outputs_len = pad_packed_sequence(decoder_outputs, batch_first=True, padding_value=0)
+        decoder_outputs = self.dropout(decoder_outputs.transpose(1, 2)).transpose(1, 2)
 
         # Classifier
-        logits = self.classifier(trans_outputs)  # [batch_size, seq_len, num_labels]
+        logits = self.linear(decoder_outputs)  # [batch_size, seq_len, num_labels]
 
         loss = None
         if labels is not None:
+            logits_len = logits.shape[1]
+            labels = labels[:, :logits_len]
             loss_fct = nn.CrossEntropyLoss()
-            loss = loss_fct(logits.view(-1, self.num_ne_labels), labels.view(-1))
+            loss = loss_fct(logits.view(-1, self.num_ne_labels), labels.contiguous().view(-1))
 
         return TokenClassifierOutput(
             loss=loss,
-            logits=logits
+            logits=logits,
         )
+
+        return
