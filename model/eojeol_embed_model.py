@@ -63,7 +63,7 @@ class Eojeol_Embed_Model(ElectraPreTrainedModel):
         # self.eojeol_pos_embedding_4 = nn.Embedding(self.num_pos_labels, self.pos_embed_out_dim)
 
         # Transformer Encoder
-        self.d_model_size = (config.hidden_size * 2) + (self.pos_embed_out_dim * 3) # [2304]
+        self.d_model_size = config.hidden_size + (self.pos_embed_out_dim * 3) # [1536]
         self.transformer_encoder = Eojeol_Transformer_Encoder(d_model=self.d_model_size,
                                                               d_hid=config.hidden_size,
                                                               n_head=8, n_layers=3, dropout=0.33)
@@ -113,7 +113,7 @@ class Eojeol_Embed_Model(ElectraPreTrainedModel):
 
         batch_size, max_seq_len, hidden_size = last_hidden.size()
         device = last_hidden.device
-        new_all_batch_tensor = torch.zeros(batch_size, max_eojeol_len, (hidden_size * 2) + (self.pos_embed_out_dim * 3))
+        new_all_batch_tensor = torch.zeros(batch_size, max_eojeol_len, hidden_size + (self.pos_embed_out_dim * 3))
 
         eojoel_pos_tag_1 = pos_ids[:, :, 0] # [batch_size, eojeol_seq_len, 1]
         eojoel_pos_tag_2 = pos_ids[:, :, 1] # [batch_size, eojeol_seq_len, 1]
@@ -131,11 +131,15 @@ class Eojeol_Embed_Model(ElectraPreTrainedModel):
                 if max_seq_len <= token_end_idx:
                     token_end_idx = max_seq_len-1
 
-                pre_eojeol_hidden = last_hidden[batch_idx][token_idx]
-                last_eojeol_hidden = last_hidden[batch_idx][token_end_idx]
+                # pre_eojeol_hidden = last_hidden[batch_idx][token_idx]
+                # last_eojeol_hidden = last_hidden[batch_idx][token_end_idx]
+                token_size = token_end_idx - token_idx + 1
+                sum_eojeol_hidden = last_hidden[batch_idx][token_idx:token_end_idx] # [batch_size, word_token(가변), hidden_size]
+                sum_eojeol_hidden = torch.sum(sum_eojeol_hidden, dim=0)
+                sum_eojeol_hidden = (sum_eojeol_hidden / token_size)
 
                 # [1536]
-                concat_eojeol_hidden = torch.concat([pre_eojeol_hidden, last_eojeol_hidden], dim=-1).detach().cpu()
+                # concat_eojeol_hidden = torch.concat([pre_eojeol_hidden, last_eojeol_hidden], dim=-1).detach().cpu()
 
                 # [eojeol_seq_len, embed_out]
                 eojeol_pos_embed_1 = self.eojeol_pos_embedding_1(eojoel_pos_tag_1[batch_idx][eojeol_idx])
@@ -145,8 +149,9 @@ class Eojeol_Embed_Model(ElectraPreTrainedModel):
                 eojeol_pos_concat = torch.concat([eojeol_pos_embed_1, eojeol_pos_embed_2,
                                                   eojeol_pos_embed_3], dim=-1).detach().cpu()
 
-                # [2304]
-                eojeol_hidden = torch.concat([concat_eojeol_hidden, eojeol_pos_concat], dim=-1)
+                # [1536]
+                # eojeol_hidden = torch.concat([concat_eojeol_hidden, eojeol_pos_concat], dim=-1)
+                eojeol_hidden = torch.concat([sum_eojeol_hidden, eojeol_pos_concat], dim=-1)
                 eojeol_hidden_list.append(eojeol_hidden)
 
                 # update token start idx

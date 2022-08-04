@@ -77,12 +77,12 @@ def read_korean_dict_xml(src_dir_path: str):
     return ret_kr_dict_item_list
 
 #===============================================================
-def make_dict_hash_table(dic_path: str):
+def make_dict_hash_table(dict_path: str):
 #===============================================================
     dict_data_list: List[Dict_Item] = []
 
     # load
-    with open(dic_path, mode="rb") as dict_pkl:
+    with open(dict_path, mode="rb") as dict_pkl:
         dict_data_list = pickle.load(dict_pkl)
         print(f"[dict_utils][make_dict_hash_table] dic_data_list.size: {len(dict_data_list)}")
 
