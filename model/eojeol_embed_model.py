@@ -17,18 +17,19 @@ class Eojeol_Transformer_Encoder(nn.Module):
     def __init__(self, d_model: int, n_head: int, d_hid: int, n_layers: int, dropout: float = 0.33):
         super().__init__()
         self.model_type = "Transformer"
+        self.d_model = d_model
 
         '''
             d_model: input features 개수
             n_head: multiheadattetntion head 개수
             d_hid: the dimension of the feedforward network model (default=2048)
         '''
+        self.pos_encoder = PositionalEncoding(d_model, dropout)
         encoder_layers = TransformerEncoderLayer(d_model=d_model,
                                                  nhead=n_head,
                                                  dim_feedforward=d_hid,
                                                  dropout=dropout,
-                                                 batch_first=True
-                                                 )
+                                                 batch_first=True)
         self.transformer_encoder = TransformerEncoder(encoder_layers, n_layers)
 
     def init_weights(self) -> None:
@@ -36,8 +37,31 @@ class Eojeol_Transformer_Encoder(nn.Module):
         self.encoder.weight.data.uniform_(-init_range, init_range)
 
     def forward(self, src: torch.Tensor) -> torch.Tensor:
-        output = self.transformer_encoder(src)
-        return output
+        src = self.transformer_encoder(src) * math.sqrt(self.d_model)
+        src = self.pos_encoder(src)
+        return src
+
+#===============================================================
+class PositionalEncoding(nn.Module):
+#===============================================================
+    def __init__(self, d_model, dropout=0.1, max_len=5000):
+        super(PositionalEncoding, self).__init__()
+        self.dropout = nn.Dropout(p=dropout)
+
+        # Compute the positional encodings once in log space.
+        pe = torch.zeros(max_len, d_model)
+        position = torch.arange(0, max_len).unsqueeze(1)
+        div_term = torch.exp(torch.arange(0, d_model, 2) *
+                             -(math.log(10000.0) / d_model))
+        pe[:, 0::2] = torch.sin(position * div_term)
+        pe[:, 1::2] = torch.cos(position * div_term)
+        pe = pe.unsqueeze(0)
+        self.register_buffer('pe', pe)
+
+    def forward(self, x):
+        x = x + self.pe[:, :x.size(1)]
+        return self.dropout(x)
+
 
 #===============================================================
 class Eojeol_Embed_Model(ElectraPreTrainedModel):
@@ -64,14 +88,12 @@ class Eojeol_Embed_Model(ElectraPreTrainedModel):
 
         # Transformer Encoder
         self.d_model_size = config.hidden_size + (self.pos_embed_out_dim * 3) # [1536]
-        self.transformer_encoder = Eojeol_Transformer_Encoder(d_model=self.d_model_size,
-                                                              d_hid=config.hidden_size,
-                                                              n_head=8, n_layers=3, dropout=0.33)
-
-        '''
+        # self.transformer_encoder = Eojeol_Transformer_Encoder(d_model=self.d_model_size,
+        #                                                       d_hid=config.hidden_size,
+        #                                                       n_head=8, n_layers=3, dropout=0.33)
         # LSTM Encoder
         self.encoder = nn.LSTM(
-            input_size=d_model_size,
+            input_size=self.d_model_size,
             hidden_size=config.hidden_size, # // 2),
             num_layers=1,
             batch_first=True,
@@ -79,6 +101,7 @@ class Eojeol_Embed_Model(ElectraPreTrainedModel):
             dropout=0.33
         )
 
+        '''
         # LSTM Decoder
         self.src_dense = nn.Linear(config.hidden_size * 2, config.hidden_size)
         self.decoder = nn.LSTM(
@@ -195,25 +218,6 @@ class Eojeol_Embed_Model(ElectraPreTrainedModel):
         # [batch_size, eojeol_len, 2304]
         trans_outputs = self.transformer_encoder(eojeol_tensor)
         trans_outputs = self.dropout(trans_outputs)
-
-        '''
-        # LSTM Encoder
-        # token_seq_len.shape : [batch_size]
-        packed_outputs = pack_padded_sequence(trans_outputs, token_seq_len.tolist(),
-                                              batch_first=True, enforce_sorted=False)
-        encoder_outputs, hn = self.encoder(packed_outputs) # [64, 49, 768]
-        encoder_outputs, outputs_len = pad_packed_sequence(encoder_outputs, batch_first=True)
-        
-        # LSTM Decoder
-        src_encoding = self.src_dense(encoder_outputs[:, 1:]) # [64, 38, 768]
-        src_encoding = F.elu(src_encoding) # [64, 38, 768]
-        sent_len = [i - 1 for i in outputs_len]
-        packed_outputs = pack_padded_sequence(src_encoding, sent_len, batch_first=True, enforce_sorted=False)
-        decoder_outputs, _ = self.decoder(packed_outputs)
-        # [64, 38, 768]
-        decoder_outputs, outputs_len = pad_packed_sequence(decoder_outputs, batch_first=True, padding_value=0)
-        decoder_outputs = self.dropout(decoder_outputs.transpose(1, 2)).transpose(1, 2)
-        '''
 
         # Classifier
         logits = self.linear(trans_outputs)  # [batch_size, seq_len, num_labels]
