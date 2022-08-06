@@ -88,13 +88,18 @@ class Eojeol_Embed_Model(ElectraPreTrainedModel):
 
         # Transformer Encoder
         self.d_model_size = config.hidden_size + (self.pos_embed_out_dim * 3) # [768 + 128 * 3]
-        # * 3]
         self.transformer_encoder = Eojeol_Transformer_Encoder(d_model=self.d_model_size,
                                                               d_hid=config.hidden_size,
                                                               n_head=8, n_layers=3, dropout=0.33)
 
+        # LSTM
+        self.lstm = nn.LSTM(input_size=self.d_model_size,
+                            hidden_size=config.hidden_size // 2,
+                            num_layers=1, dropout=0.33,
+                            batch_first=True, bidirectional=True)
+
         # Classifier
-        self.linear = nn.Linear(self.d_model_size, config.num_labels)
+        self.linear = nn.Linear(config.hidden_size, config.num_labels)
 
         # Initialize weights and apply final processing
         self.post_init()
@@ -198,6 +203,9 @@ class Eojeol_Embed_Model(ElectraPreTrainedModel):
         # [batch_size, eojeol_len, 2304]
         trans_outputs = self.transformer_encoder(eojeol_tensor)
         trans_outputs = self.dropout(trans_outputs)
+
+        # lstm
+        trans_outputs, _ = self.lstm(trans_outputs)
 
         # Classifier
         logits = self.linear(trans_outputs)  # [batch_size, seq_len, num_labels]

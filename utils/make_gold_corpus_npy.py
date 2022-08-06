@@ -535,13 +535,15 @@ def make_eojeol_datasets_npy(tokenizer_name: str, src_list: List[Sentence], ex_d
         # Test
         # if "29·미국·사진" not in src_item.text:
         #     continue
+        is_stop = False
 
         if 0 == (proc_idx % 1000):
             print(f"{proc_idx} Processing... {src_item.text}")
 
         # make (word, token, pos) pair
         text_tokens = []
-        word_tokens_pos_pair_list: List[Tuple[str, List[str], Tuple[int, int]]] = [] # [(word, [tokens], (begin, end))]
+        # [(word, [tokens], (begin, end))]
+        word_tokens_pos_pair_list: List[Tuple[str, List[str], Tuple[int, int]]] = []
         for word_idx, word_item in enumerate(src_item.word_list):
             if "·" in word_item.form:
                 split_form = word_item.form.split("·")
@@ -583,10 +585,21 @@ def make_eojeol_datasets_npy(tokenizer_name: str, src_list: List[Sentence], ex_d
                 text_tokens.extend(form_tokens)
                 word_tokens_pos_pair_list.append((word_item.form, form_tokens, (word_item.begin, word_item.end)))
 
+        # split (.+), ~, ·
+        # [(word, [tokens], (begin, end))]
+        new_word_tokens_pos_pair_list: List[Tuple[str, List[str], Tuple[int, int]]] = []
+        for wtpp_idx, wtpp_item in enumerate(word_tokens_pos_pair_list):
+            pass
+
         # make NE labels
         labels_ids = [ETRI_TAG["O"]] * len(word_tokens_pos_pair_list)
         b_check_use_eojeol = [False for _ in range(len(word_tokens_pos_pair_list))]
         for ne_idx, ne_item in enumerate(src_item.ne_list):
+            if ne_item.type == "FD":
+                print(word_tokens_pos_pair_list)
+                print("AAAAA", ne_item)
+                # print(src_item.ne_list)
+                is_stop = True
             ne_item_split_eojeol = ne_item.text.split(" ")
             ne_eojeol_size = len(ne_item_split_eojeol)
             target_index_pair = () # (begin, end)
@@ -774,7 +787,8 @@ def make_eojeol_datasets_npy(tokenizer_name: str, src_list: List[Sentence], ex_d
         npy_dict["eojeol_ids"].append(eojeol_boundary_list)
 
         # debug_mode
-        if debug_mode:
+        if debug_mode and is_stop:
+            is_stop = False
             # compare - 전체 문장 vs 어절 붙이기
             one_sent_tokenized = tokenizer.tokenize(src_item.text)
             print(one_sent_tokenized)
@@ -784,8 +798,8 @@ def make_eojeol_datasets_npy(tokenizer_name: str, src_list: List[Sentence], ex_d
 
             print("Unit: WordPiece Token")
             print(f"text_tokens: {text_tokens}")
-            for ii, am, tti in zip(input_ids, attention_mask, token_type_ids):
-                print(ii, tokenizer.convert_ids_to_tokens([ii]), am, tti)
+            # for ii, am, tti in zip(input_ids, attention_mask, token_type_ids):
+            #     print(ii, tokenizer.convert_ids_to_tokens([ii]), am, tti)
             print("Unit: Eojeol")
             print(f"seq_len: {valid_eojeol_len} : {len(word_tokens_pos_pair_list)}")
             print(f"label_ids.len: {len(labels_ids)}, pos_tag_ids.len: {len(pos_tag_ids)}")
@@ -801,6 +815,7 @@ def make_eojeol_datasets_npy(tokenizer_name: str, src_list: List[Sentence], ex_d
             debug_pos_tag_ids = [[pos_ids2tag[x] for x in pos_tag_item] for pos_tag_item in pos_tag_ids]
             for wtpp, la, pti in zip(temp_word_tokens_pos_pair_list, labels_ids, debug_pos_tag_ids):
                 print(wtpp[0], ne_ids2tag[la], pti)
+
             input()
 
     # save npy_dict
@@ -927,4 +942,4 @@ if "__main__" == __name__:
     #                    src_list=all_sent_list, max_len=128, is_use_dict=True, debug_mode=False)
 
     make_eojeol_datasets_npy(tokenizer_name="monologg/koelectra-base-v3-discriminator", ex_dictionary=hash_dict,
-                             src_list=all_sent_list, max_len=128, debug_mode=False, is_use_dict=False)
+                             src_list=all_sent_list, max_len=128, debug_mode=True, is_use_dict=False)
