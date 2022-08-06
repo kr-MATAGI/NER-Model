@@ -74,14 +74,14 @@ def evaluate(args, model, eval_dataset, mode, global_step=None, train_epoch=0):
                 "eojeol_ids": batch["eojeol_ids"].to(args.device)
             }
 
-            if 6 == g_user_select:
-                model_outputs = model(**inputs)
-                loss = model_outputs.loss
-                outputs = model_outputs.logits
-            else:
-                log_likelihood, outputs = model(**inputs)
-                #loss, logits = outputs[:2]
-                loss = -1 * log_likelihood
+            # if 6 == g_user_select:
+            #     model_outputs = model(**inputs)
+            #     loss = model_outputs.loss
+            #     outputs = model_outputs.logits
+            # else:
+            log_likelihood, outputs = model(**inputs)
+            #loss, logits = outputs[:2]
+            loss = -1 * log_likelihood
 
             # outputs = model(**inputs)
             # loss = outputs.loss
@@ -91,20 +91,20 @@ def evaluate(args, model, eval_dataset, mode, global_step=None, train_epoch=0):
         tb_writer.add_scalar("Loss/val_" + str(train_epoch), eval_loss / nb_eval_steps, nb_eval_steps)
         eval_pbar.set_description("Eval Loss - %.04f" % (eval_loss / nb_eval_steps))
 
-        # if preds is None:
-        #     preds = np.array(outputs)
-        #     out_label_ids = inputs["labels"].detach().cpu().numpy()
-        # else:
-        #     preds = np.append(preds, np.array(outputs), axis=0)
-        #     out_label_ids = np.append(out_label_ids, inputs["labels"].detach().cpu().numpy(), axis=0)
-
         if preds is None:
-            #preds = np.array(outputs)
-            preds = outputs.detach().cpu().numpy()
+            preds = np.array(outputs)
             out_label_ids = inputs["labels"].detach().cpu().numpy()
         else:
-            preds = np.append(preds, outputs.detach().cpu().numpy(), axis=0)
+            preds = np.append(preds, np.array(outputs), axis=0)
             out_label_ids = np.append(out_label_ids, inputs["labels"].detach().cpu().numpy(), axis=0)
+
+        # if preds is None:
+        #     #preds = np.array(outputs)
+        #     preds = outputs.detach().cpu().numpy()
+        #     out_label_ids = inputs["labels"].detach().cpu().numpy()
+        # else:
+        #     preds = np.append(preds, outputs.detach().cpu().numpy(), axis=0)
+        #     out_label_ids = np.append(out_label_ids, inputs["labels"].detach().cpu().numpy(), axis=0)
 
     logger.info("  Eval End !")
     eval_pbar.close()
@@ -115,7 +115,7 @@ def evaluate(args, model, eval_dataset, mode, global_step=None, train_epoch=0):
     }
 
     # CRF 안쓴다면 사용
-    preds = np.argmax(preds, axis=-1)
+    # preds = np.argmax(preds, axis=-1)
 
     labels = ETRI_TAG.keys()
     label_map = {i: label for i, label in enumerate(labels)}
@@ -217,13 +217,13 @@ def train(args, model, train_dataset, dev_dataset):
             }
 
             # inputs["input_ids"].shape -> [batch_size, max_seq_len]
-            if 6 == g_user_select:
-                model_outputs = model(**inputs)
-                loss = model_outputs.loss
-                logits = model_outputs.logits
-            else:
-                log_likelihood, outputs = model(**inputs)
-                loss = -1 * log_likelihood
+            # if 6 == g_user_select:
+            #     model_outputs = model(**inputs)
+            #     loss = model_outputs.loss
+            #     logits = model_outputs.logits
+            # else:
+            log_likelihood, outputs = model(**inputs)
+            loss = -1 * log_likelihood
             # outputs = model(**inputs)
             # loss = outputs.loss
 

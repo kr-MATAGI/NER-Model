@@ -10,6 +10,7 @@ from transformers import ElectraModel, ElectraPreTrainedModel
 from transformers.modeling_outputs import TokenClassifierOutput
 
 from torch.nn.utils.rnn import pack_padded_sequence, pad_packed_sequence
+from model.crf_layer import CRF
 
 #===============================================================
 class Eojeol_Transformer_Encoder(nn.Module):
@@ -90,16 +91,13 @@ class Eojeol_Embed_Model(ElectraPreTrainedModel):
         self.d_model_size = config.hidden_size + (self.pos_embed_out_dim * 3) # [768 + 128 * 3]
         self.transformer_encoder = Eojeol_Transformer_Encoder(d_model=self.d_model_size,
                                                               d_hid=config.hidden_size,
-                                                              n_head=8, n_layers=3, dropout=0.33)
-
-        # LSTM
-        self.lstm = nn.LSTM(input_size=self.d_model_size,
-                            hidden_size=config.hidden_size // 2,
-                            num_layers=1, dropout=0.33,
-                            batch_first=True, bidirectional=True)
+                                                              n_head=8, n_layers=1, dropout=0.33)
 
         # Classifier
-        self.linear = nn.Linear(config.hidden_size, config.num_labels)
+        self.linear = nn.Linear(self.d_model_size, config.num_labels)
+
+        # CRF
+        self.crf = CRF(num_tags=config.num_labels, batch_first=True)
 
         # Initialize weights and apply final processing
         self.post_init()
@@ -126,7 +124,6 @@ class Eojeol_Embed_Model(ElectraPreTrainedModel):
         eojoel_pos_tag_1 = pos_ids[:, :, 0] # [batch_size, eojeol_seq_len, 1]
         eojoel_pos_tag_2 = pos_ids[:, :, 1] # [batch_size, eojeol_seq_len, 1]
         eojoel_pos_tag_3 = pos_ids[:, :, 2] # [batch_size, eojeol_seq_len, 1]
-        # eojoel_pos_tag_4 = pos_ids[:, :, 3] # [batch_size, eojeol_seq_len, 1]
 
         for batch_idx in range(batch_size):
             eojeol_hidden_list = []
@@ -136,29 +133,18 @@ class Eojeol_Embed_Model(ElectraPreTrainedModel):
                 if 0 == eojeol_bound:
                     break
                 token_end_idx = token_idx + eojeol_bound.item()
-                # if max_seq_len <= token_end_idx: # 이거 없어야됨
-                #     token_end_idx = max_seq_len-1
 
-                # pre_eojeol_hidden = last_hidden[batch_idx][token_idx]
-                # last_eojeol_hidden = last_hidden[batch_idx][token_end_idx]
-                # token_size = token_end_idx - token_idx + 1
                 sum_eojeol_hidden = last_hidden[batch_idx][token_idx:token_end_idx] # [batch_size, word_token(가변), hidden_size]
                 sum_eojeol_hidden = torch.sum(sum_eojeol_hidden, dim=0).detach().cpu()
-                # sum_eojeol_hidden = (sum_eojeol_hidden / token_size).detach().cpu()
-
-                # [1536]
-                # concat_eojeol_hidden = torch.concat([pre_eojeol_hidden, last_eojeol_hidden], dim=-1).detach().cpu()
 
                 # [eojeol_seq_len, embed_out]
                 eojeol_pos_embed_1 = self.eojeol_pos_embedding_1(eojoel_pos_tag_1[batch_idx][eojeol_idx])
                 eojeol_pos_embed_2 = self.eojeol_pos_embedding_2(eojoel_pos_tag_2[batch_idx][eojeol_idx])
                 eojeol_pos_embed_3 = self.eojeol_pos_embedding_3(eojoel_pos_tag_3[batch_idx][eojeol_idx])
-                # eojeol_pos_embed_4 = self.eojeol_pos_embedding_4(eojoel_pos_tag_4[batch_idx][eojeol_idx])
                 eojeol_pos_concat = torch.concat([eojeol_pos_embed_1, eojeol_pos_embed_2,
                                                   eojeol_pos_embed_3], dim=-1).detach().cpu()
 
                 # [1536]
-                # eojeol_hidden = torch.concat([concat_eojeol_hidden, eojeol_pos_concat], dim=-1)
                 eojeol_hidden = torch.concat([sum_eojeol_hidden, eojeol_pos_concat], dim=-1)
                 eojeol_hidden_list.append(eojeol_hidden)
 
@@ -204,20 +190,14 @@ class Eojeol_Embed_Model(ElectraPreTrainedModel):
         trans_outputs = self.transformer_encoder(eojeol_tensor)
         trans_outputs = self.dropout(trans_outputs)
 
-        # lstm
-        trans_outputs, _ = self.lstm(trans_outputs)
-
         # Classifier
         logits = self.linear(trans_outputs)  # [batch_size, seq_len, num_labels]
 
-        loss = None
+        # CRF
         if labels is not None:
-            # logits_len = logits.shape[1]
-            # labels = labels[:, :logits_len]
-            loss_fct = nn.CrossEntropyLoss()
-            loss = loss_fct(logits.view(-1, self.num_ne_labels), labels.contiguous().view(-1))
-
-        return TokenClassifierOutput(
-            loss=loss,
-            logits=logits,
-        )
+            log_likelihood, sequence_of_tags = self.crf(emissions=logits, tags=labels, reduction="mean"), \
+                                               self.crf.decode(logits)
+            return log_likelihood, sequence_of_tags
+        else:
+            sequence_of_tags = self.crf.decode(logits)
+            return sequence_of_tags
