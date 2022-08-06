@@ -1,3 +1,4 @@
+import re
 import copy
 import random
 import numpy as np
@@ -130,8 +131,11 @@ def save_npy_dict(npy_dict: Dict[str, List], src_list_len):
     print(f"dev_pos_tag_ids_np.shape: {dev_pos_tag_np.shape}")
 
     # Test
-    test_np = [npy_dict["input_ids"][valid_size:], npy_dict["labels"][valid_size:],
-               npy_dict["attention_mask"][valid_size:], npy_dict["token_type_ids"][valid_size:]]
+    test_np = [
+        npy_dict["input_ids"][valid_size:],
+        npy_dict["attention_mask"][valid_size:],
+        npy_dict["token_type_ids"][valid_size:]
+    ]
     test_np = np.stack(test_np, axis=-1)
     print(f"test_np.shape: {test_np.shape}")
 
@@ -523,9 +527,15 @@ def make_eojeol_datasets_npy(tokenizer_name: str, src_list: List[Sentence], ex_d
         "span_ids": [], # for token_type_ids (bert segment embedding)
     }
     pos_tag2ids = {v: int(k) for k, v in NIKL_POS_TAG.items()}
+    pos_ids2tag = {k: v for k, v in NIKL_POS_TAG.items()}
+    ne_ids2tag = {v: k for k, v in ETRI_TAG.items()}
 
     tokenizer = ElectraTokenizer.from_pretrained(tokenizer_name)
     for proc_idx, src_item in enumerate(src_list):
+        # Test
+        # if "전창수" not in src_item.text:
+        #     continue
+
         if 0 == (proc_idx % 1000):
             print(f"{proc_idx} Processing... {src_item.text}")
 
@@ -533,31 +543,53 @@ def make_eojeol_datasets_npy(tokenizer_name: str, src_list: List[Sentence], ex_d
         text_tokens = []
         word_tokens_pos_pair_list: List[Tuple[str, List[str], Tuple[int, int]]] = [] # [(word, [tokens], (begin, end))]
         for word_idx, word_item in enumerate(src_item.word_list):
-            form_tokens = tokenizer.tokenize(word_item.form)
-            text_tokens.extend(form_tokens)
-            word_tokens_pos_pair_list.append((word_item.form, form_tokens, (word_item.begin, word_item.end)))
+            if re.search(r"\([^)]+\)", word_item.form) or re.search(r"[가-힣]+~[가-힣]+", word_item.form):
+                if re.search(r"\([^)]+\)", word_item.form):
+                    bracket_open_idx = word_item.form.find("(")
+                if re.search(r"[가-힣]+\~[가-힣]+", word_item.form):
+                    # e.g. 임진강역~평화누리공원까지
+                    bracket_open_idx = word_item.form.find("~")
+
+                # lhs
+                lhs_word_form = word_item.form[:bracket_open_idx+1]
+                lhs_form_tokens = tokenizer.tokenize(lhs_word_form)
+                lhs_begin = word_item.begin
+                lhs_end = lhs_begin + bracket_open_idx + 1
+                word_tokens_pos_pair_list.append((lhs_word_form, lhs_form_tokens, (lhs_begin, lhs_end)))
+
+                # rhs
+                rhs_word_form = word_item.form[bracket_open_idx+1:]
+                rhs_form_tokens = tokenizer.tokenize(rhs_word_form)
+                rhs_begin = lhs_begin + bracket_open_idx + 2
+                rhs_end = word_item.end
+                word_tokens_pos_pair_list.append((rhs_word_form, rhs_form_tokens, (rhs_begin, rhs_end)))
+            else:
+                form_tokens = tokenizer.tokenize(word_item.form)
+                text_tokens.extend(form_tokens)
+                word_tokens_pos_pair_list.append((word_item.form, form_tokens, (word_item.begin, word_item.end)))
 
         # make NE labels
         labels_ids = [ETRI_TAG["O"]] * len(word_tokens_pos_pair_list)
         b_check_use_eojeol = [False for _ in range(len(word_tokens_pos_pair_list))]
-        is_B_tag = True  # BIO 중 B-[tag]
-        for wtp_idx, word_token_pos in enumerate(word_tokens_pos_pair_list):
-            if b_check_use_eojeol[wtp_idx]:  # 이미 사용한 어절
+        for ne_idx, ne_item in enumerate(src_item.ne_list):
+            ne_item_split_eojeol = ne_item.text.split(" ")
+            ne_eojeol_size = len(ne_item_split_eojeol)
+            target_index_pair = () # (begin, end)
+            for wtp_idx, wtp_item in enumerate(word_tokens_pos_pair_list):
+                if b_check_use_eojeol[wtp_idx]:
+                    continue
+                concat_wtp = [x[0] for x in word_tokens_pos_pair_list[wtp_idx:wtp_idx+ne_eojeol_size]]
+                if " ".join(ne_item_split_eojeol) in " ".join(concat_wtp):
+                    target_index_pair = (wtp_idx, wtp_idx+ne_eojeol_size)
+                    break
+            if 0 >= len(target_index_pair):
                 continue
-            for ne_idx, ne_item in enumerate(src_item.ne_list):
-                if word_token_pos[-1][1] < ne_item.end: # 현재 어절보다 뒤에 있는 개체명
-                    break
-                if ne_item.begin >= word_token_pos[-1][0] and ne_item.end <= word_token_pos[-1][1]:
-                    b_check_use_eojeol[wtp_idx] = True
-                    # 개체명 범위에 포함되는 경우
-                    if is_B_tag:
-                        labels_ids[wtp_idx] = ETRI_TAG["B-"+ne_item.type]
-                        is_B_tag = False
-                    else:
-                        labels_ids[wtp_idx] = ETRI_TAG["I-"+ne_item.type]
-                    break
+            for bio_idx in range(target_index_pair[0], target_index_pair[1]):
+                b_check_use_eojeol[bio_idx] = True
+                if bio_idx == target_index_pair[0]:
+                    labels_ids[bio_idx] = ETRI_TAG["B-" + ne_item.type]
                 else:
-                    is_B_tag = True
+                    labels_ids[bio_idx] = ETRI_TAG["I-" + ne_item.type]
 
         # POS
         pos_tag_ids = [] # [[POS, * 4]]
@@ -583,77 +615,82 @@ def make_eojeol_datasets_npy(tokenizer_name: str, src_list: List[Sentence], ex_d
             eojeol_boundary_list.append(token_size)
 
         # span_ids
-        span_ids = []
-        for _ in range(len(text_tokens)):
-            span_ids.append(0)
+        if is_use_dict:
+            span_ids = []
+            for _ in range(len(text_tokens)):
+                span_ids.append(0)
 
-        nn_pos_list = ["NNG", "NNP"]  # "NNB", "NP"
-        pre_pos_list = ["MMA", "VA", "ETM"]
-        post_pos_list = ["XSN"]
-        find_word_list = []  # 사전에서 찾은 것들
-        candi_list = []
-        for morp_idx in range(len(src_item.morp_list)):
-            # print(morp_item.form, morp_item.label)
-            for sec_morp_idx in range(morp_idx, len(src_item.morp_list)):
-                if (src_item.morp_list[sec_morp_idx].label in nn_pos_list) or \
-                        (src_item.morp_list[sec_morp_idx] in post_pos_list):
-                    candi_list.append(src_item.morp_list[sec_morp_idx].form)
-                    concat_cadi = "".join(candi_list)
-                    if concat_cadi[0] in ex_dictionary.keys():
-                        dict_item_list = ex_dictionary[concat_cadi[0]]
-                        dict_item_list = [x.word_info.word for x in dict_item_list]# if x.sense_info.pos == "명사"]
-                        if concat_cadi in dict_item_list:
-                            find_word_list.append(concat_cadi)
-                elif src_item.morp_list[sec_morp_idx].label in pre_pos_list:
-                    # 현재 label은 보통 명사 앞에 붙기 때문에 현재 넣은거 검색하고 새로 넣음
-                    concat_cadi = "".join(candi_list)
-                    if (0 < len(concat_cadi)) and (concat_cadi[0] in ex_dictionary.keys()):
-                        dict_item_list = ex_dictionary[concat_cadi[0]]
-                        dict_item_list = [x.word_info.word for x in dict_item_list]# if x.sense_info.pos == "명사"]
-                        if (concat_cadi in dict_item_list) and (concat_cadi not in find_word_list):
-                            find_word_list.append(concat_cadi)
-                    candi_list.clear()
-                    candi_list.append(morp_item.form)
-                else:
-                    candi_list.clear()
-        find_word_list = list(set(find_word_list))
-        # print(find_word_list)
+            nn_pos_list = ["NNG", "NNP"]  # "NNB", "NP"
+            pre_pos_list = ["MMA", "VA", "ETM"]
+            post_pos_list = ["XSN"]
+            find_word_list = []  # 사전에서 찾은 것들
+            candi_list = []
+            for morp_idx in range(len(src_item.morp_list)):
+                # print(morp_item.form, morp_item.label)
+                for sec_morp_idx in range(morp_idx, len(src_item.morp_list)):
+                    if (src_item.morp_list[sec_morp_idx].label in nn_pos_list) or \
+                            (src_item.morp_list[sec_morp_idx] in post_pos_list):
+                        candi_list.append(src_item.morp_list[sec_morp_idx].form)
+                        concat_cadi = "".join(candi_list)
+                        if concat_cadi[0] in ex_dictionary.keys():
+                            dict_item_list = ex_dictionary[concat_cadi[0]]
+                            dict_item_list = [x.word_info.word for x in dict_item_list]# if x.sense_info.pos == "명사"]
+                            if concat_cadi in dict_item_list:
+                                find_word_list.append(concat_cadi)
+                    elif src_item.morp_list[sec_morp_idx].label in pre_pos_list:
+                        # 현재 label은 보통 명사 앞에 붙기 때문에 현재 넣은거 검색하고 새로 넣음
+                        concat_cadi = "".join(candi_list)
+                        if (0 < len(concat_cadi)) and (concat_cadi[0] in ex_dictionary.keys()):
+                            dict_item_list = ex_dictionary[concat_cadi[0]]
+                            dict_item_list = [x.word_info.word for x in dict_item_list]# if x.sense_info.pos == "명사"]
+                            if (concat_cadi in dict_item_list) and (concat_cadi not in find_word_list):
+                                find_word_list.append(concat_cadi)
+                        candi_list.clear()
+                        candi_list.append(morp_item.form)
+                    else:
+                        candi_list.clear()
+            find_word_list = list(set(find_word_list))
+            # print(find_word_list)
 
-        # 찾은 사전 단어들에 대한 범위 지정
-        span_num = 1
-        for t_idx in range(0, len(text_tokens)):
-            for find_word in find_word_list:
-                find_word_tokens = tokenizer.tokenize(find_word)
-                find_word_tokens = [x.replace("##", "") for x in find_word_tokens]
-                if len(text_tokens) < t_idx + len(find_word_tokens):
-                    continue
-                curr_token = text_tokens[t_idx:t_idx + len(find_word_tokens)]
-                curr_token = [x.replace("##", "") for x in curr_token]
-                if curr_token == find_word_tokens:
-                    # print(curr_token, find_word_tokens)
-                    for s_idx in range(t_idx, t_idx + len(curr_token)):
-                        # print(text_tokens[s_idx], span_num)
-                        if (t_idx == s_idx) or (s_idx == (t_idx + len(curr_token) - 1)):
-                            # 보르 ##도 와인 -> [1, 0, 1]
-                            span_ids[s_idx] = span_num
+            # 찾은 사전 단어들에 대한 범위 지정
+            span_num = 1
+            for t_idx in range(0, len(text_tokens)):
+                for find_word in find_word_list:
+                    find_word_tokens = tokenizer.tokenize(find_word)
+                    find_word_tokens = [x.replace("##", "") for x in find_word_tokens]
+                    if len(text_tokens) < t_idx + len(find_word_tokens):
+                        continue
+                    curr_token = text_tokens[t_idx:t_idx + len(find_word_tokens)]
+                    curr_token = [x.replace("##", "") for x in curr_token]
+                    if curr_token == find_word_tokens:
+                        # print(curr_token, find_word_tokens)
+                        for s_idx in range(t_idx, t_idx + len(curr_token)):
+                            # print(text_tokens[s_idx], span_num)
+                            if (t_idx == s_idx) or (s_idx == (t_idx + len(curr_token) - 1)):
+                                # 보르 ##도 와인 -> [1, 0, 1]
+                                span_ids[s_idx] = span_num
 
         # Sequence Length
         # 토큰 단위
         valid_token_len = 0
         text_tokens.insert(0, "[CLS]")
-        span_ids.insert(0, 0) # [CLS]
         text_tokens.append("[SEP]")
-        span_ids.append(0) # [SEP]
+        if is_use_dict:
+            span_ids.insert(0, 0)  # [CLS]
+            span_ids.append(0) # [SEP]
+
         if max_len <= len(text_tokens):
             text_tokens = text_tokens[:max_len-1]
-            span_ids = span_ids[:max_len-1]
             text_tokens.append("[SEP]")
-            span_ids.append("[SEP]")
+            if is_use_dict:
+                span_ids = span_ids[:max_len - 1]
+                span_ids.append("[SEP]")
             valid_token_len = max_len
         else:
             valid_token_len = len(text_tokens)
             text_tokens += ["[PAD]"] * (max_len - valid_token_len)
-            span_ids += [0] * (max_len - valid_token_len)
+            if is_use_dict:
+                span_ids += [0] * (max_len - valid_token_len)
 
         attention_mask = ([1] * valid_token_len) + ([0] * (max_len - valid_token_len))
         token_type_ids = [0] * max_len
@@ -665,23 +702,24 @@ def make_eojeol_datasets_npy(tokenizer_name: str, src_list: List[Sentence], ex_d
         # label_ids
         valid_eojeol_len = 0
         labels_ids.insert(0, ETRI_TAG["O"])
+        labels_ids.append(ETRI_TAG["O"])
         if eojeol_max_len <= len(labels_ids):
             labels_ids = labels_ids[:eojeol_max_len-1]
             labels_ids.append(ETRI_TAG["O"])
             valid_eojeol_len = eojeol_max_len
         else:
             labels_ids_size = len(labels_ids)
-            valid_eojeol_len = labels_ids_size + 1 # + [SEP]
+            valid_eojeol_len = labels_ids_size
             for _ in range(eojeol_max_len - labels_ids_size):
                 labels_ids.append(ETRI_TAG["O"])
 
         # pos_tag_ids
         pos_tag_ids.insert(0, [pos_tag2ids["O"]] * 10) # [CLS]
+        pos_tag_ids.append([pos_tag2ids["O"]] * 10)  # [SEP]
         if eojeol_max_len <= len(pos_tag_ids):
             pos_tag_ids = pos_tag_ids[:eojeol_max_len-1]
-            pos_tag_ids.append([pos_tag2ids["O"]] * 10) # [SEP]
+            pos_tag_ids.append([pos_tag2ids["O"]] * 10)  # [SEP]
         else:
-            # pos_tag_ids.append([pos_tag2ids["O"]] * 10)  # [SEP]
             pos_tag_ids_size = len(pos_tag_ids)
             for _ in range(eojeol_max_len - pos_tag_ids_size):
                 pos_tag_ids.append([pos_tag2ids["O"]] * 10)
@@ -730,8 +768,14 @@ def make_eojeol_datasets_npy(tokenizer_name: str, src_list: List[Sentence], ex_d
             print(f"NE: {src_item.ne_list}")
             print(f"Morp: {src_item.morp_list}")
             print(f"eojeol boundary: {eojeol_boundary_list}")
-            for la, pti in zip(labels_ids, pos_tag_ids):
-                print(la, pti)
+            # [(word, [tokens], (begin, end))]
+            temp_word_tokens_pos_pair_list = copy.deepcopy(word_tokens_pos_pair_list)
+            temp_word_tokens_pos_pair_list.insert(0, ["[CLS]", ["[CLS]", (0, 0)]])
+            temp_word_tokens_pos_pair_list.append(["[SEP]", ["[SEP]", (len(temp_word_tokens_pos_pair_list)+1,
+                                                                       len(temp_word_tokens_pos_pair_list)+1)]])
+            debug_pos_tag_ids = [[pos_ids2tag[x] for x in pos_tag_item] for pos_tag_item in pos_tag_ids]
+            for wtpp, la, pti in zip(temp_word_tokens_pos_pair_list, labels_ids, debug_pos_tag_ids):
+                print(wtpp[0], ne_ids2tag[la], pti)
             input()
 
     # save npy_dict
@@ -841,7 +885,8 @@ if "__main__" == __name__:
     print("NPY MAKER !")
 
     all_sent_list = []
-    with open("../data/pkl/merge_ne_mp_old_nikl.pkl", mode="rb") as pkl_file:
+    # with open("../data/pkl/merge_ne_mp_old_nikl.pkl", mode="rb") as pkl_file:
+    with open("../data/pkl/ne_mp_old_nikl.pkl", mode="rb") as pkl_file:
         all_sent_list = pickle.load(pkl_file)
         print(f"[make_gold_corpus_npy][__main__] all_sent_list size: {len(all_sent_list)}")
     all_sent_list = conv_TTA_ne_category(all_sent_list)
@@ -849,12 +894,12 @@ if "__main__" == __name__:
 
     # make npy
     #make_pos_tag_npy(tokenizer_name="klue/bert-base", src_list=all_sent_list, max_len=128)
-    is_use_external_dict = True
-    hash_dict = False
+    is_use_external_dict = False
+    hash_dict = None
     if is_use_external_dict:
         hash_dict = make_dict_hash_table(dict_path="../우리말샘_dict.pkl")
-    make_wordpiece_npy(tokenizer_name="monologg/koelectra-base-v3-discriminator", ex_dictionary=hash_dict,
-                       src_list=all_sent_list, max_len=128, is_use_dict=True, debug_mode=False)
+    # make_wordpiece_npy(tokenizer_name="monologg/koelectra-base-v3-discriminator", ex_dictionary=hash_dict,
+    #                    src_list=all_sent_list, max_len=128, is_use_dict=True, debug_mode=False)
 
-    # make_eojeol_datasets_npy(tokenizer_name="monologg/koelectra-base-v3-discriminator", ex_dictionary=hash_dict,
-    #                          src_list=all_sent_list, max_len=128, debug_mode=True, is_use_dict=False)
+    make_eojeol_datasets_npy(tokenizer_name="monologg/koelectra-base-v3-discriminator", ex_dictionary=hash_dict,
+                             src_list=all_sent_list, max_len=128, debug_mode=False, is_use_dict=False)

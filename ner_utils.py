@@ -62,7 +62,7 @@ def print_parameters(args, logger):
 #===============================================================
 def load_corpus_npy_datasets(src_path: str, mode: str="train"):
 #===============================================================
-    dataset_npy = seq_len_npy = pos_tag_npy = labels_npy = None #eojeol_ids = None
+    dataset_npy = seq_len_npy = pos_tag_npy = labels_npy = eojeol_ids = None
     root_path = "/".join(src_path.split("/")[:-1]) + "/" + mode
 
     dataset_npy = np.load(src_path)
@@ -74,7 +74,7 @@ def load_corpus_npy_datasets(src_path: str, mode: str="train"):
     if os.path.exists(root_path + "_eojeol_ids.npy"):
         eojeol_ids = np.load(root_path + "_eojeol_ids.npy")
 
-    return dataset_npy, seq_len_npy, pos_tag_npy, labels_npy #, eojeol_ids
+    return dataset_npy, seq_len_npy, pos_tag_npy, labels_npy, eojeol_ids
 
 #===============================================================
 def init_logger():

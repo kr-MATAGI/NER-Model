@@ -1,7 +1,7 @@
 {
   "task": "custom",
   "data_dir": "data",
-  "ckpt_dir": "ckpt-electra-eojeol-embed",
+  "ckpt_dir": "ckpt-electra-eojeol-embed_08_06",
   "train_npy": "./data/npy/old_nikl/eojeol_electra/train.npy",
   "dev_npy": "./data/npy/old_nikl/eojeol_electra/dev.npy",
   "test_npy": "./data/npy/old_nikl/eojeol_electra/test.npy",
@@ -22,7 +22,7 @@
   "no_cuda": false,
   "model_type": "monologg/koelectra-base-v3-discriminator",
   "model_name_or_path": "monologg/koelectra-base-v3-discriminator",
-  "output_dir": "klue-electra-eojeol-embed",
+  "output_dir": "klue-electra-eojeol-embed_08_06",
   "seed": 42,
   "train_batch_size": 64,
   "eval_batch_size": 128,

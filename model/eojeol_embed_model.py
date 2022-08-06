@@ -73,7 +73,7 @@ class Eojeol_Embed_Model(ElectraPreTrainedModel):
         self.max_seq_len = config.max_seq_len
         self.num_ne_labels = config.num_labels
         self.num_pos_labels = config.num_pos_labels
-        self.pos_embed_out_dim = 256
+        self.pos_embed_out_dim = 128
         self.dropout_rate = 0.33
 
         # structure
@@ -87,31 +87,11 @@ class Eojeol_Embed_Model(ElectraPreTrainedModel):
         # self.eojeol_pos_embedding_4 = nn.Embedding(self.num_pos_labels, self.pos_embed_out_dim)
 
         # Transformer Encoder
-        self.d_model_size = config.hidden_size + (self.pos_embed_out_dim * 3) # [1536]
-        # self.transformer_encoder = Eojeol_Transformer_Encoder(d_model=self.d_model_size,
-        #                                                       d_hid=config.hidden_size,
-        #                                                       n_head=8, n_layers=3, dropout=0.33)
-        # LSTM Encoder
-        self.encoder = nn.LSTM(
-            input_size=self.d_model_size,
-            hidden_size=config.hidden_size, # // 2),
-            num_layers=1,
-            batch_first=True,
-            bidirectional=True,
-            dropout=0.33
-        )
-
-        '''
-        # LSTM Decoder
-        self.src_dense = nn.Linear(config.hidden_size * 2, config.hidden_size)
-        self.decoder = nn.LSTM(
-            input_size=config.hidden_size,
-            hidden_size=config.hidden_size,
-            num_layers=1,
-            batch_first=True,
-            dropout=0.33
-        )
-        '''
+        self.d_model_size = config.hidden_size + (self.pos_embed_out_dim * 3) # [768 + 128 * 3]
+        # * 3]
+        self.transformer_encoder = Eojeol_Transformer_Encoder(d_model=self.d_model_size,
+                                                              d_hid=config.hidden_size,
+                                                              n_head=8, n_layers=3, dropout=0.33)
 
         # Classifier
         self.linear = nn.Linear(self.d_model_size, config.num_labels)
@@ -151,15 +131,15 @@ class Eojeol_Embed_Model(ElectraPreTrainedModel):
                 if 0 == eojeol_bound:
                     break
                 token_end_idx = token_idx + eojeol_bound.item()
-                if max_seq_len <= token_end_idx:
-                    token_end_idx = max_seq_len-1
+                # if max_seq_len <= token_end_idx: # 이거 없어야됨
+                #     token_end_idx = max_seq_len-1
 
                 # pre_eojeol_hidden = last_hidden[batch_idx][token_idx]
                 # last_eojeol_hidden = last_hidden[batch_idx][token_end_idx]
-                token_size = token_end_idx - token_idx + 1
+                # token_size = token_end_idx - token_idx + 1
                 sum_eojeol_hidden = last_hidden[batch_idx][token_idx:token_end_idx] # [batch_size, word_token(가변), hidden_size]
-                sum_eojeol_hidden = torch.sum(sum_eojeol_hidden, dim=0)
-                sum_eojeol_hidden = (sum_eojeol_hidden / token_size).detach().cpu()
+                sum_eojeol_hidden = torch.sum(sum_eojeol_hidden, dim=0).detach().cpu()
+                # sum_eojeol_hidden = (sum_eojeol_hidden / token_size).detach().cpu()
 
                 # [1536]
                 # concat_eojeol_hidden = torch.concat([pre_eojeol_hidden, last_eojeol_hidden], dim=-1).detach().cpu()

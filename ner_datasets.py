@@ -14,8 +14,6 @@ class NER_POS_Dataset(Dataset):
         self.input_seq_len = seq_len
         self.labels = labels
 
-        print(self.token_type_ids)
-
         self.input_ids = torch.tensor(self.input_ids, dtype=torch.long)
         self.attention_mask = torch.tensor(self.attention_mask, dtype=torch.long)
         self.token_type_ids = torch.tensor(self.token_type_ids, dtype=torch.long)
@@ -32,7 +30,7 @@ class NER_POS_Dataset(Dataset):
             "attention_mask": self.attention_mask[idx],
             "token_type_ids": self.token_type_ids[idx],
             "labels": self.labels[idx],
-            "input_seq_len": self.input_seq_len[idx],
+            "token_seq_len": self.input_seq_len[idx],
             "pos_tag_ids": self.pos_tag[idx],
         }
 

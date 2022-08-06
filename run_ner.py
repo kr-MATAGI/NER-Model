@@ -91,6 +91,13 @@ def evaluate(args, model, eval_dataset, mode, global_step=None, train_epoch=0):
         tb_writer.add_scalar("Loss/val_" + str(train_epoch), eval_loss / nb_eval_steps, nb_eval_steps)
         eval_pbar.set_description("Eval Loss - %.04f" % (eval_loss / nb_eval_steps))
 
+        # if preds is None:
+        #     preds = np.array(outputs)
+        #     out_label_ids = inputs["labels"].detach().cpu().numpy()
+        # else:
+        #     preds = np.append(preds, np.array(outputs), axis=0)
+        #     out_label_ids = np.append(out_label_ids, inputs["labels"].detach().cpu().numpy(), axis=0)
+
         if preds is None:
             #preds = np.array(outputs)
             preds = outputs.detach().cpu().numpy()
@@ -107,7 +114,7 @@ def evaluate(args, model, eval_dataset, mode, global_step=None, train_epoch=0):
         "loss": eval_loss
     }
 
-    # 07.25
+    # CRF 안쓴다면 사용
     preds = np.argmax(preds, axis=-1)
 
     labels = ETRI_TAG.keys()
@@ -332,23 +339,22 @@ def main():
     model.to(args.device)
 
     # load train/dev/test npy
-    train_dataset, train_seq_len, train_pos_tag, train_labels = \
+    train_dataset, train_seq_len, train_pos_tag, train_labels, train_eojeol_ids = \
         load_corpus_npy_datasets(args.train_npy, mode="train")
-    dev_dataset, dev_seq_len, dev_pos_tag, dev_labels = \
+    dev_dataset, dev_seq_len, dev_pos_tag, dev_labels, dev_eojeol_ids = \
         load_corpus_npy_datasets(args.dev_npy, mode="dev")
-    test_dataset, test_seq_len, test_pos_tag, test_labels = \
+    test_dataset, test_seq_len, test_pos_tag, test_labels, test_eojeol_ids = \
         load_corpus_npy_datasets(args.test_npy, mode="test")
 
     print(f"train.shape - dataset: {train_dataset.shape}, seq_len: {train_seq_len.shape}, "
-          f"pos_tag: {train_pos_tag.shape}, labels: {train_labels.shape}") #, eojeol_ids: {train_eojeol_ids.shape}")
+          f"pos_tag: {train_pos_tag.shape}, labels: {train_labels.shape}, eojeol_ids: {train_eojeol_ids.shape}")
     print(f"dev.shape - dataset: {dev_dataset.shape}, seq_len: {dev_seq_len.shape}, "
-          f"pos_tag: {dev_pos_tag.shape}, labels: {dev_labels.shape}") #, eojeol_ids: {dev_eojeol_ids.shape}")
+          f"pos_tag: {dev_pos_tag.shape}, labels: {dev_labels.shape}, eojeol_ids: {dev_eojeol_ids.shape}")
     print(f"test.shape - dataset: {test_dataset.shape}, seq_len: {test_seq_len.shape}, "
-          f"pos_tag: {test_pos_tag.shape}, labels: {test_labels.shape}") #, eojeol_ids: {test_eojeol_ids.shape}")
+          f"pos_tag: {test_pos_tag.shape}, labels: {test_labels.shape}, eojeol_ids: {test_eojeol_ids.shape}")
 
     # make train/dev/test dataset
     if 6 == g_user_select:
-        train_eojeol_ids = dev_eojeol_ids = test_eojeol_ids = None
         train_dataset = NER_Eojeol_Datasets(token_data=train_dataset, labels=train_labels,
                                             pos_tag_ids=train_pos_tag, token_seq_len=train_seq_len,
                                             eojeol_ids=train_eojeol_ids)
