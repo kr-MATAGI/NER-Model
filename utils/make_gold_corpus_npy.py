@@ -533,7 +533,7 @@ def make_eojeol_datasets_npy(tokenizer_name: str, src_list: List[Sentence], ex_d
     tokenizer = ElectraTokenizer.from_pretrained(tokenizer_name)
     for proc_idx, src_item in enumerate(src_list):
         # Test
-        # if "전창수" not in src_item.text:
+        # if "29·미국·사진" not in src_item.text:
         #     continue
 
         if 0 == (proc_idx % 1000):
@@ -543,7 +543,19 @@ def make_eojeol_datasets_npy(tokenizer_name: str, src_list: List[Sentence], ex_d
         text_tokens = []
         word_tokens_pos_pair_list: List[Tuple[str, List[str], Tuple[int, int]]] = [] # [(word, [tokens], (begin, end))]
         for word_idx, word_item in enumerate(src_item.word_list):
-            if re.search(r"\([^)]+\)", word_item.form) or re.search(r"[가-힣]+~[가-힣]+", word_item.form):
+            if "·" in word_item.form:
+                split_form = word_item.form.split("·")
+                new_begin = word_item.begin
+                for sp_idx, sp_item in enumerate(split_form):
+                    conv_sp_item = copy.deepcopy(sp_item)
+                    if sp_idx != len(split_form) - 1:
+                        conv_sp_item += "·"
+                    sp_item_tokens = tokenizer.tokenize(conv_sp_item)
+                    new_end = new_begin + len(list(conv_sp_item))
+                    word_tokens_pos_pair_list.append((conv_sp_item, sp_item_tokens, (new_begin, new_end)))
+                    new_begin = new_end + 1
+                    text_tokens.extend(sp_item_tokens)
+            elif re.search(r"\([^)]+\)", word_item.form) or re.search(r"[가-힣]+~[가-힣]+", word_item.form):
                 if re.search(r"\([^)]+\)", word_item.form):
                     bracket_open_idx = word_item.form.find("(")
                 if re.search(r"[가-힣]+\~[가-힣]+", word_item.form):
@@ -563,6 +575,9 @@ def make_eojeol_datasets_npy(tokenizer_name: str, src_list: List[Sentence], ex_d
                 rhs_begin = lhs_begin + bracket_open_idx + 2
                 rhs_end = word_item.end
                 word_tokens_pos_pair_list.append((rhs_word_form, rhs_form_tokens, (rhs_begin, rhs_end)))
+
+                text_tokens.extend(lhs_form_tokens)
+                text_tokens.extend(rhs_form_tokens)
             else:
                 form_tokens = tokenizer.tokenize(word_item.form)
                 text_tokens.extend(form_tokens)
@@ -579,10 +594,18 @@ def make_eojeol_datasets_npy(tokenizer_name: str, src_list: List[Sentence], ex_d
                 if b_check_use_eojeol[wtp_idx]:
                     continue
                 concat_wtp = [x[0] for x in word_tokens_pos_pair_list[wtp_idx:wtp_idx+ne_eojeol_size]]
+                # print(" ".join(ne_item_split_eojeol), " ".join(concat_wtp), " ".join(ne_item_split_eojeol) in " ".join(concat_wtp))
                 if " ".join(ne_item_split_eojeol) in " ".join(concat_wtp):
                     target_index_pair = (wtp_idx, wtp_idx+ne_eojeol_size)
                     break
             if 0 >= len(target_index_pair):
+                # if 0 < len(src_item.ne_list):
+                    # print(src_item.text)
+                    # print(word_tokens_pos_pair_list)
+                    # print(text_tokens)
+                    # for a in src_item.ne_list:
+                    #     print(a)
+                    # input()
                 continue
             for bio_idx in range(target_index_pair[0], target_index_pair[1]):
                 b_check_use_eojeol[bio_idx] = True
@@ -756,6 +779,8 @@ def make_eojeol_datasets_npy(tokenizer_name: str, src_list: List[Sentence], ex_d
             one_sent_tokenized = tokenizer.tokenize(src_item.text)
             print(one_sent_tokenized)
             print(text_tokens)
+            print("WORD: ")
+            print(src_item.word_list)
 
             print("Unit: WordPiece Token")
             print(f"text_tokens: {text_tokens}")
