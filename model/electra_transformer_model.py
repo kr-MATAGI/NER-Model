@@ -53,7 +53,7 @@ class ELECTRA_Graph_Model(ElectraPreTrainedModel):
         # CRF
         self.crf = CRF(num_tags=config.num_labels, batch_first=True)
 
-        self.pos_init()
+        self.post_init()
 
     def _make_one_hot_embedding(
             self,
