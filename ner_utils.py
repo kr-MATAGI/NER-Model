@@ -11,6 +11,7 @@ from sklearn import metrics as sklearn_metrics
 # config, model
 from transformers import ElectraConfig, AutoConfig
 from model.electra_custom_model import ELECTRA_POS_LSTM
+from model.electra_transformer_model import ELECTRA_Graph_Model
 from model.custom_embed import Custom_Embed_Model
 from model.bert_custom_model import (
     BERT_POS_LSTM, BERT_IDCNN_CRF
@@ -132,6 +133,7 @@ def load_ner_config_and_model(user_select: int, args, tag_dict):
                                                id2label={str(i): label for i, label in enumerate(tag_dict.keys())},
                                                label2id={label: i for i, label in enumerate(tag_dict.keys())})
         config.num_pos_labels = 49  # 국립국어원 형태 분석 말뭉치
+        config.max_seq_len = 128
     elif 2 == user_select:
         # BERT+LSTM(POS)+CRF
         config = AutoConfig.from_pretrained(args.model_name_or_path,
@@ -176,7 +178,7 @@ def load_ner_config_and_model(user_select: int, args, tag_dict):
     # model
     if 1 == user_select:
         # ELECTRA+LSTM(POS)+CRF
-        model = ELECTRA_POS_LSTM.from_pretrained(args.model_name_or_path, config=config)
+        model = ELECTRA_Graph_Model.from_pretrained(args.model_name_or_path, config=config)
     elif 2 == user_select:
         # BERT+LSTM(POS)+CRF
         model = BERT_POS_LSTM.from_pretrained(args.model_name_or_path, config=config)
