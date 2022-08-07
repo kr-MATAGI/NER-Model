@@ -535,7 +535,6 @@ def make_eojeol_datasets_npy(tokenizer_name: str, src_list: List[Sentence], ex_d
         # Test
         # if "29·미국·사진" not in src_item.text:
         #     continue
-        is_stop = False
 
         if 0 == (proc_idx % 1000):
             print(f"{proc_idx} Processing... {src_item.text}")
@@ -588,18 +587,13 @@ def make_eojeol_datasets_npy(tokenizer_name: str, src_list: List[Sentence], ex_d
         # split (.+), ~, ·
         # [(word, [tokens], (begin, end))]
         new_word_tokens_pos_pair_list: List[Tuple[str, List[str], Tuple[int, int]]] = []
-        for wtpp_idx, wtpp_item in enumerate(word_tokens_pos_pair_list):
-            pass
+        # for wtpp_idx, wtpp_item in enumerate(word_tokens_pos_pair_list):
+        #     pass
 
         # make NE labels
         labels_ids = [ETRI_TAG["O"]] * len(word_tokens_pos_pair_list)
         b_check_use_eojeol = [False for _ in range(len(word_tokens_pos_pair_list))]
         for ne_idx, ne_item in enumerate(src_item.ne_list):
-            if ne_item.type == "FD":
-                print(word_tokens_pos_pair_list)
-                print("AAAAA", ne_item)
-                # print(src_item.ne_list)
-                is_stop = True
             ne_item_split_eojeol = ne_item.text.split(" ")
             ne_eojeol_size = len(ne_item_split_eojeol)
             target_index_pair = () # (begin, end)
@@ -787,8 +781,7 @@ def make_eojeol_datasets_npy(tokenizer_name: str, src_list: List[Sentence], ex_d
         npy_dict["eojeol_ids"].append(eojeol_boundary_list)
 
         # debug_mode
-        if debug_mode and is_stop:
-            is_stop = False
+        if debug_mode:
             # compare - 전체 문장 vs 어절 붙이기
             one_sent_tokenized = tokenizer.tokenize(src_item.text)
             print(one_sent_tokenized)
