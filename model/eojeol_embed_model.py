@@ -5,12 +5,15 @@ import torch.nn as nn
 import torch.nn.functional as F
 import numpy as np
 
+from typing import Tuple
+
 from torch.nn import TransformerEncoder, TransformerEncoderLayer
 from transformers import ElectraModel, ElectraPreTrainedModel
 from transformers.modeling_outputs import TokenClassifierOutput
 
 from torch.nn.utils.rnn import pack_padded_sequence, pad_packed_sequence
 from model.crf_layer import CRF
+from model.modeling_bert2 import Encoder
 
 #===============================================================
 class Eojeol_Transformer_Encoder(nn.Module):
@@ -25,7 +28,7 @@ class Eojeol_Transformer_Encoder(nn.Module):
             n_head: multiheadattetntion head 개수
             d_hid: the dimension of the feedforward network model (default=2048)
         '''
-        self.pos_encoder = PositionalEncoding(d_model, dropout)
+        # self.pos_encoder = PositionalEncoding(d_model, dropout)
         encoder_layers = TransformerEncoderLayer(d_model=d_model,
                                                  nhead=n_head,
                                                  dim_feedforward=d_hid,
@@ -39,7 +42,7 @@ class Eojeol_Transformer_Encoder(nn.Module):
 
     def forward(self, src: torch.Tensor) -> torch.Tensor:
         src = self.transformer_encoder(src) * math.sqrt(self.d_model)
-        src = self.pos_encoder(src)
+        # src = self.pos_encoder(src)
         return src
 
 #===============================================================
@@ -71,11 +74,22 @@ class Eojeol_Embed_Model(ElectraPreTrainedModel):
         # init
         super().__init__(config)
         self.config = config
+
         self.max_seq_len = config.max_seq_len
         self.num_ne_labels = config.num_labels
         self.num_pos_labels = config.num_pos_labels
         self.pos_embed_out_dim = 128
         self.dropout_rate = 0.33
+
+        # for encoder
+        self.d_model_size = config.hidden_size + (self.pos_embed_out_dim * 3)  # [768 + 128 * 3] = 1152
+        self.enc_config = copy.deepcopy(config)
+        self.enc_config.num_hidden_layers = 4
+        self.enc_config.hidden_size = self.d_model_size
+        self.enc_config.ff_dim = self.d_model_size
+        self.enc_config.act_fn = "gelu"
+        self.enc_config.dropout_prob = 0.1
+        self.enc_config.num_heads = 8  # origin 12
 
         # structure
         self.electra = ElectraModel.from_pretrained(config.model_name, config=config)
@@ -88,10 +102,7 @@ class Eojeol_Embed_Model(ElectraPreTrainedModel):
         # self.eojeol_pos_embedding_4 = nn.Embedding(self.num_pos_labels, self.pos_embed_out_dim)
 
         # Transformer Encoder
-        self.d_model_size = config.hidden_size + (self.pos_embed_out_dim * 3) # [768 + 128 * 3]
-        self.transformer_encoder = Eojeol_Transformer_Encoder(d_model=self.d_model_size,
-                                                              d_hid=config.hidden_size,
-                                                              n_head=8, n_layers=1, dropout=0.33)
+        self.encoder = Encoder(self.enc_config)
 
         # Classifier
         self.linear = nn.Linear(self.d_model_size, config.num_labels)
@@ -108,7 +119,7 @@ class Eojeol_Embed_Model(ElectraPreTrainedModel):
             pos_ids,
             eojeol_ids,
             max_eojeol_len=25
-    ) -> torch.Tensor:
+    ) -> Tuple[torch.Tensor, torch.Tensor]:
         '''
               last_hidden.shape: [batch_size, token_seq_len, hidden_size]
               token_seq_len: [batch_size, ]
@@ -120,6 +131,7 @@ class Eojeol_Embed_Model(ElectraPreTrainedModel):
         batch_size, max_seq_len, hidden_size = last_hidden.size()
         device = last_hidden.device
         new_all_batch_tensor = torch.zeros(batch_size, max_eojeol_len, hidden_size + (self.pos_embed_out_dim * 3))
+        all_eojeol_attention_mask = torch.zeros(batch_size, max_eojeol_len)
 
         # [ This, O, O, ... ], [ O, This, O, ... ], [ O, O, This, ...]
         eojeol_pos_1 = pos_ids[:, :, 0] # [64, 25]
@@ -130,10 +142,13 @@ class Eojeol_Embed_Model(ElectraPreTrainedModel):
             sent_eojeol_tensor = torch.zeros(max_eojeol_len, hidden_size + (self.pos_embed_out_dim * 3))
             start_idx = 0
 
+            valid_eojeol_cnt = 0
             for eojeol_idx, eojeol_token_cnt in enumerate(eojeol_ids[batch_idx]):
                 if 0 == eojeol_token_cnt:
                     break
                 cpu_token_cnt = eojeol_token_cnt.detach().cpu().item()
+                valid_eojeol_cnt += 1
+
                 end_idx = start_idx + cpu_token_cnt
 
                 sum_eojeol_hidden = last_hidden[batch_idx][start_idx:end_idx]
@@ -151,8 +166,12 @@ class Eojeol_Embed_Model(ElectraPreTrainedModel):
                 start_idx = end_idx
             # end, eojeol loop
             new_all_batch_tensor[batch_idx] = sent_eojeol_tensor
+            eojeol_attention_mask = torch.zeros(max_eojeol_len)
+            for i in range(valid_eojeol_cnt):
+                eojeol_attention_mask[i] = 1
+            all_eojeol_attention_mask[batch_idx] = eojeol_attention_mask
         #end, batch_loop
-        return new_all_batch_tensor.to(device)
+        return new_all_batch_tensor.to(device), all_eojeol_attention_mask.to(device)
 
     def forward(
             self,
@@ -168,14 +187,19 @@ class Eojeol_Embed_Model(ElectraPreTrainedModel):
         el_last_hidden = electra_outputs.last_hidden_state
 
         # make eojeol embedding
-        eojeol_tensor = self._make_eojeol_tensor(last_hidden=el_last_hidden,
-                                                 pos_ids=pos_tag_ids,
-                                                 eojeol_ids=eojeol_ids)
+        # eojeol_tensor : [64, 25, 1152]
+        # eojeol_attention_mask : [64, 25]
+        eojeol_tensor, eojeol_attention_mask = self._make_eojeol_tensor(last_hidden=el_last_hidden,
+                                                                        pos_ids=pos_tag_ids,
+                                                                        eojeol_ids=eojeol_ids)
 
         # forward to transformer
         # [batch_size, eojeol_len, 2304]
-        trans_outputs = self.transformer_encoder(eojeol_tensor)
-        trans_outputs = self.dropout(trans_outputs)
+        # trans_outputs = self.transformer_encoder(eojeol_tensor)
+        eojeol_attention_mask = eojeol_attention_mask.unsqueeze(1).unsqueeze(2) # [64, 1, 1, 25]
+        enc_outputs = self.encoder(eojeol_tensor, eojeol_attention_mask)
+        enc_outputs = enc_outputs[-1]
+        trans_outputs = self.dropout(enc_outputs)
 
         # Classifier
         logits = self.linear(trans_outputs)  # [batch_size, seq_len, num_labels]
