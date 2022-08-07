@@ -121,16 +121,10 @@ class Eojeol_Embed_Model(ElectraPreTrainedModel):
         device = last_hidden.device
         new_all_batch_tensor = torch.zeros(batch_size, max_eojeol_len, hidden_size + (self.pos_embed_out_dim * 3))
 
-<<<<<<< HEAD
         # [ This, O, O, ... ], [ O, This, O, ... ], [ O, O, This, ...]
         eojeol_pos_1 = pos_ids[:, :, 0] # [64, 25]
         eojeol_pos_2 = pos_ids[:, :, 1]
         eojeol_pos_3 = pos_ids[:, :, 2]
-=======
-        eojoel_pos_tag_1 = pos_ids[:, :, 0] # [batch_size, eojeol_seq_len, 1]
-        eojoel_pos_tag_2 = pos_ids[:, :, 1] # [batch_size, eojeol_seq_len, 1]
-        eojoel_pos_tag_3 = pos_ids[:, :, 2] # [batch_size, eojeol_seq_len, 1]
->>>>>>> 1f38f3235ea47ab456bd61edc58765868b2ae4c8
 
         for batch_idx in range(batch_size):
             sent_eojeol_tensor = torch.zeros(max_eojeol_len, hidden_size + (self.pos_embed_out_dim * 3))
@@ -139,7 +133,6 @@ class Eojeol_Embed_Model(ElectraPreTrainedModel):
             for eojeol_idx, eojeol_token_cnt in enumerate(eojeol_ids[batch_idx]):
                 if 0 == eojeol_token_cnt:
                     break
-<<<<<<< HEAD
                 cpu_token_cnt = eojeol_token_cnt.detach().cpu().item()
                 end_idx = start_idx + cpu_token_cnt
 
@@ -160,41 +153,6 @@ class Eojeol_Embed_Model(ElectraPreTrainedModel):
             new_all_batch_tensor[batch_idx] = sent_eojeol_tensor
         #end, batch_loop
         return new_all_batch_tensor.to(device)
-=======
-                token_end_idx = token_idx + eojeol_bound.item()
-
-                sum_eojeol_hidden = last_hidden[batch_idx][token_idx:token_end_idx] # [batch_size, word_token(가변), hidden_size]
-                sum_eojeol_hidden = torch.sum(sum_eojeol_hidden, dim=0).detach().cpu()
-
-                # [eojeol_seq_len, embed_out]
-                eojeol_pos_embed_1 = self.eojeol_pos_embedding_1(eojoel_pos_tag_1[batch_idx][eojeol_idx])
-                eojeol_pos_embed_2 = self.eojeol_pos_embedding_2(eojoel_pos_tag_2[batch_idx][eojeol_idx])
-                eojeol_pos_embed_3 = self.eojeol_pos_embedding_3(eojoel_pos_tag_3[batch_idx][eojeol_idx])
-                eojeol_pos_concat = torch.concat([eojeol_pos_embed_1, eojeol_pos_embed_2,
-                                                  eojeol_pos_embed_3], dim=-1).detach().cpu()
-
-                # [1536]
-                eojeol_hidden = torch.concat([sum_eojeol_hidden, eojeol_pos_concat], dim=-1)
-                eojeol_hidden_list.append(eojeol_hidden)
-
-                # update token start idx
-                token_idx = token_end_idx
-
-            # 어절 길이 맞추기 (기준 max_output_eojeol_len)
-            new_tensor = np.vstack(eojeol_hidden_list)
-            if max_eojeol_len < new_tensor.shape[0]:
-                new_tensor = new_tensor[:max_eojeol_len, :]
-            else:
-                diff_size = max_eojeol_len - new_tensor.shape[0]
-                hidden_size = new_tensor.shape[1]
-                for _ in range(diff_size):
-                    new_tensor = np.vstack([new_tensor, [0] * hidden_size])
-            new_tensor = torch.from_numpy(new_tensor)
-            new_all_batch_tensor[batch_idx] = new_tensor
-
-        new_all_batch_tensor = new_all_batch_tensor.to(device)
-        return new_all_batch_tensor
->>>>>>> 1f38f3235ea47ab456bd61edc58765868b2ae4c8
 
     def forward(
             self,
