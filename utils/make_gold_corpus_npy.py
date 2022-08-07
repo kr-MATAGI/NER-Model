@@ -513,7 +513,7 @@ def make_pos_tag_npy(tokenizer_name: str, src_list: List[Sentence], max_len: int
 ####
 
 def make_eojeol_datasets_npy(tokenizer_name: str, src_list: List[Sentence], ex_dictionary: List[Dict_Item],
-                             max_len: int=128, eojeol_max_len: int=50, is_use_dict: bool=False, debug_mode: bool=False):
+                             max_len: int=128, eojeol_max_len: int=25, is_use_dict: bool=False, debug_mode: bool=False):
     random.shuffle(src_list)
 
     npy_dict = {
@@ -541,7 +541,8 @@ def make_eojeol_datasets_npy(tokenizer_name: str, src_list: List[Sentence], ex_d
 
         # make (word, token, pos) pair
         text_tokens = []
-        word_tokens_pos_pair_list: List[Tuple[str, List[str], Tuple[int, int]]] = [] # [(word, [tokens], (begin, end))]
+        # [(word, [tokens], (begin, end))]
+        word_tokens_pos_pair_list: List[Tuple[str, List[str], Tuple[int, int]]] = []
         for word_idx, word_item in enumerate(src_item.word_list):
             if "·" in word_item.form:
                 split_form = word_item.form.split("·")
@@ -582,6 +583,12 @@ def make_eojeol_datasets_npy(tokenizer_name: str, src_list: List[Sentence], ex_d
                 form_tokens = tokenizer.tokenize(word_item.form)
                 text_tokens.extend(form_tokens)
                 word_tokens_pos_pair_list.append((word_item.form, form_tokens, (word_item.begin, word_item.end)))
+
+        # split (.+), ~, ·
+        # [(word, [tokens], (begin, end))]
+        new_word_tokens_pos_pair_list: List[Tuple[str, List[str], Tuple[int, int]]] = []
+        for wtpp_idx, wtpp_item in enumerate(word_tokens_pos_pair_list):
+            pass
 
         # make NE labels
         labels_ids = [ETRI_TAG["O"]] * len(word_tokens_pos_pair_list)
@@ -784,8 +791,8 @@ def make_eojeol_datasets_npy(tokenizer_name: str, src_list: List[Sentence], ex_d
 
             print("Unit: WordPiece Token")
             print(f"text_tokens: {text_tokens}")
-            for ii, am, tti in zip(input_ids, attention_mask, token_type_ids):
-                print(ii, tokenizer.convert_ids_to_tokens([ii]), am, tti)
+            # for ii, am, tti in zip(input_ids, attention_mask, token_type_ids):
+            #     print(ii, tokenizer.convert_ids_to_tokens([ii]), am, tti)
             print("Unit: Eojeol")
             print(f"seq_len: {valid_eojeol_len} : {len(word_tokens_pos_pair_list)}")
             print(f"label_ids.len: {len(labels_ids)}, pos_tag_ids.len: {len(pos_tag_ids)}")
@@ -801,6 +808,7 @@ def make_eojeol_datasets_npy(tokenizer_name: str, src_list: List[Sentence], ex_d
             debug_pos_tag_ids = [[pos_ids2tag[x] for x in pos_tag_item] for pos_tag_item in pos_tag_ids]
             for wtpp, la, pti in zip(temp_word_tokens_pos_pair_list, labels_ids, debug_pos_tag_ids):
                 print(wtpp[0], ne_ids2tag[la], pti)
+
             input()
 
     # save npy_dict
