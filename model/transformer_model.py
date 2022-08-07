@@ -99,8 +99,6 @@ class Electra_Trans_Model(ElectraPreTrainedModel):
         trans_outputs = self.dropout(trans_outputs)
         logits = self.classifier(trans_outputs) # [batch_size, seq_len, num_labels]
 
-
-
         loss = None
         if labels is not None:
             loss_fct = nn.CrossEntropyLoss()

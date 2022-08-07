@@ -513,7 +513,7 @@ def make_pos_tag_npy(tokenizer_name: str, src_list: List[Sentence], max_len: int
 ####
 
 def make_eojeol_datasets_npy(tokenizer_name: str, src_list: List[Sentence], ex_dictionary: List[Dict_Item],
-                             max_len: int=128, eojeol_max_len: int=25, is_use_dict: bool=False, debug_mode: bool=False):
+                             max_len: int=128, eojeol_max_len: int=50, is_use_dict: bool=False, debug_mode: bool=False):
     random.shuffle(src_list)
 
     npy_dict = {
@@ -935,4 +935,4 @@ if "__main__" == __name__:
     #                    src_list=all_sent_list, max_len=128, is_use_dict=True, debug_mode=False)
 
     make_eojeol_datasets_npy(tokenizer_name="monologg/koelectra-base-v3-discriminator", ex_dictionary=hash_dict,
-                             src_list=all_sent_list, max_len=128, debug_mode=True, is_use_dict=False)
+                             src_list=all_sent_list, max_len=128, debug_mode=False, is_use_dict=False)

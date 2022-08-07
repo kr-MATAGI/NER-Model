@@ -46,28 +46,6 @@ class Eojeol_Transformer_Encoder(nn.Module):
         return src
 
 #===============================================================
-class PositionalEncoding(nn.Module):
-#===============================================================
-    def __init__(self, d_model, dropout=0.1, max_len=5000):
-        super(PositionalEncoding, self).__init__()
-        self.dropout = nn.Dropout(p=dropout)
-
-        # Compute the positional encodings once in log space.
-        pe = torch.zeros(max_len, d_model)
-        position = torch.arange(0, max_len).unsqueeze(1)
-        div_term = torch.exp(torch.arange(0, d_model, 2) *
-                             -(math.log(10000.0) / d_model))
-        pe[:, 0::2] = torch.sin(position * div_term)
-        pe[:, 1::2] = torch.cos(position * div_term)
-        pe = pe.unsqueeze(0)
-        self.register_buffer('pe', pe)
-
-    def forward(self, x):
-        x = x + self.pe[:, :x.size(1)]
-        return self.dropout(x)
-
-
-#===============================================================
 class Eojeol_Embed_Model(ElectraPreTrainedModel):
 #===============================================================
     def __init__(self, config):
@@ -80,6 +58,7 @@ class Eojeol_Embed_Model(ElectraPreTrainedModel):
         self.num_pos_labels = config.num_pos_labels
         self.pos_embed_out_dim = 128
         self.dropout_rate = 0.33
+        self.max_eojeol_len = 50
 
         # for encoder
         self.d_model_size = config.hidden_size + (self.pos_embed_out_dim * 3)  # [768 + 128 * 3] = 1152
@@ -89,7 +68,7 @@ class Eojeol_Embed_Model(ElectraPreTrainedModel):
         self.enc_config.ff_dim = self.d_model_size
         self.enc_config.act_fn = "gelu"
         self.enc_config.dropout_prob = 0.1
-        self.enc_config.num_heads = 8  # origin 12
+        self.enc_config.num_heads = 12  # origin 12
 
         # structure
         self.electra = ElectraModel.from_pretrained(config.model_name, config=config)
@@ -100,6 +79,9 @@ class Eojeol_Embed_Model(ElectraPreTrainedModel):
         self.eojeol_pos_embedding_2 = nn.Embedding(self.num_pos_labels, self.pos_embed_out_dim)
         self.eojeol_pos_embedding_3 = nn.Embedding(self.num_pos_labels, self.pos_embed_out_dim)
         # self.eojeol_pos_embedding_4 = nn.Embedding(self.num_pos_labels, self.pos_embed_out_dim)
+
+        # One-Hot Embed
+        self.one_hot_embedding = nn.Embedding(self.max_seq_len, self.max_eojeol_len)
 
         # Transformer Encoder
         self.encoder = Encoder(self.enc_config)
@@ -113,12 +95,42 @@ class Eojeol_Embed_Model(ElectraPreTrainedModel):
         # Initialize weights and apply final processing
         self.post_init()
 
+    def _make_ont_hot_embeddig(
+            self,
+            last_hidden,
+            eojeol_ids,
+    ):
+        # [64, 128, 768]
+        batch_size, max_seq_len, hidden_size = last_hidden.size()
+        device = last_hidden.device
+        new_eojeol_info_matrix = torch.zeros(batch_size, max_seq_len, dtype=torch.long)
+
+        for batch_idx in range(batch_size):
+            cur_idx = 0
+            eojeol_info_matrix = torch.zeros(max_seq_len, dtype=torch.long)
+            for eojeol_idx, eojeol_tok_cnt in enumerate(eojeol_ids[batch_idx]):
+                tok_cnt = eojeol_tok_cnt.detach().cpu().item()
+                if 0 == tok_cnt:
+                    break
+                for _ in range(tok_cnt):
+                    if max_seq_len <= cur_idx:
+                        break
+                    eojeol_info_matrix[cur_idx] = eojeol_idx
+                    cur_idx += 1
+            new_eojeol_info_matrix[batch_idx] = eojeol_info_matrix
+
+        new_eojeol_info_matrix = new_eojeol_info_matrix.to(device)
+        one_hot_emb = self.one_hot_embedding(new_eojeol_info_matrix)
+
+        return one_hot_emb
+
     def _make_eojeol_tensor(
             self,
             last_hidden,
             pos_ids,
             eojeol_ids,
-            max_eojeol_len=25
+            one_hot_embed,
+            max_eojeol_len=50
     ) -> Tuple[torch.Tensor, torch.Tensor]:
         '''
               last_hidden.shape: [batch_size, token_seq_len, hidden_size]
@@ -130,48 +142,39 @@ class Eojeol_Embed_Model(ElectraPreTrainedModel):
         # [64, 128, 768]
         batch_size, max_seq_len, hidden_size = last_hidden.size()
         device = last_hidden.device
-        new_all_batch_tensor = torch.zeros(batch_size, max_eojeol_len, hidden_size + (self.pos_embed_out_dim * 3))
         all_eojeol_attention_mask = torch.zeros(batch_size, max_eojeol_len)
 
+        # matmul
+        # one_hot_embed.shape : [64, 50, 128]
+        # last_hidden.shape : [64, 128, 768]
+        matmul_out_embed = one_hot_embed @ last_hidden # [64, 50, 768]
+
         # [ This, O, O, ... ], [ O, This, O, ... ], [ O, O, This, ...]
-        eojeol_pos_1 = pos_ids[:, :, 0] # [64, 25]
+        eojeol_pos_1 = pos_ids[:, :, 0] # [64, eojeol_max_len]
         eojeol_pos_2 = pos_ids[:, :, 1]
         eojeol_pos_3 = pos_ids[:, :, 2]
 
-        for batch_idx in range(batch_size):
-            sent_eojeol_tensor = torch.zeros(max_eojeol_len, hidden_size + (self.pos_embed_out_dim * 3))
-            start_idx = 0
+        eojeol_pos_1 = self.eojeol_pos_embedding_1(eojeol_pos_1) # [batch_size, eojeol_max_len, pos_embed]
+        eojeol_pos_2 = self.eojeol_pos_embedding_1(eojeol_pos_2)
+        eojeol_pos_3 = self.eojeol_pos_embedding_1(eojeol_pos_3)
+        concat_eojeol_pos_embed = torch.concat([eojeol_pos_1, eojeol_pos_2, eojeol_pos_3], dim=-1)
+        # [batch_size, max_eojeol_len, hidd_size + (pos_embed * 3)]
+        matmul_out_embed = torch.concat([matmul_out_embed, concat_eojeol_pos_embed], dim=-1)
 
+        for batch_idx in range(batch_size):
             valid_eojeol_cnt = 0
             for eojeol_idx, eojeol_token_cnt in enumerate(eojeol_ids[batch_idx]):
                 if 0 == eojeol_token_cnt:
                     break
-                cpu_token_cnt = eojeol_token_cnt.detach().cpu().item()
                 valid_eojeol_cnt += 1
 
-                end_idx = start_idx + cpu_token_cnt
-
-                sum_eojeol_hidden = last_hidden[batch_idx][start_idx:end_idx]
-                sum_eojeol_hidden = torch.sum(sum_eojeol_hidden, dim=0).detach().cpu()
-                sum_eojeol_hidden = sum_eojeol_hidden / cpu_token_cnt
-
-                eojeol_pos_embed_1 = self.eojeol_pos_embedding_1(eojeol_pos_1[batch_idx][eojeol_idx])
-                eojeol_pos_embed_2 = self.eojeol_pos_embedding_2(eojeol_pos_2[batch_idx][eojeol_idx])
-                eojeol_pos_embed_3 = self.eojeol_pos_embedding_3(eojeol_pos_3[batch_idx][eojeol_idx])
-                concat_eojeol_pos_embed = torch.concat([eojeol_pos_embed_1, eojeol_pos_embed_2,
-                                                        eojeol_pos_embed_3], dim=-1).detach().cpu()
-                sum_eojeol_hidden = torch.concat([sum_eojeol_hidden, concat_eojeol_pos_embed], dim=-1)
-                sent_eojeol_tensor[eojeol_idx] = sum_eojeol_hidden
-
-                start_idx = end_idx
             # end, eojeol loop
-            new_all_batch_tensor[batch_idx] = sent_eojeol_tensor
             eojeol_attention_mask = torch.zeros(max_eojeol_len)
             for i in range(valid_eojeol_cnt):
                 eojeol_attention_mask[i] = 1
             all_eojeol_attention_mask[batch_idx] = eojeol_attention_mask
         #end, batch_loop
-        return new_all_batch_tensor.to(device), all_eojeol_attention_mask.to(device)
+        return matmul_out_embed, all_eojeol_attention_mask.to(device)
 
     def forward(
             self,
@@ -186,17 +189,19 @@ class Eojeol_Embed_Model(ElectraPreTrainedModel):
 
         el_last_hidden = electra_outputs.last_hidden_state
 
-        # make eojeol embedding
-        # eojeol_tensor : [64, 25, 1152]
-        # eojeol_attention_mask : [64, 25]
+        # one-hot embed : [batch_size, max_seq_len, max_eojeol_len]
+        one_hot_embed = self._make_ont_hot_embeddig(last_hidden=el_last_hidden,
+                                                    eojeol_ids=eojeol_ids)
+
+        # matmul one_hot @ plm outputs
+        one_hot_embed = one_hot_embed.transpose(1, 2)
         eojeol_tensor, eojeol_attention_mask = self._make_eojeol_tensor(last_hidden=el_last_hidden,
                                                                         pos_ids=pos_tag_ids,
-                                                                        eojeol_ids=eojeol_ids)
+                                                                        eojeol_ids=eojeol_ids,
+                                                                        one_hot_embed=one_hot_embed,
+                                                                        max_eojeol_len=self.max_eojeol_len)
 
-        # forward to transformer
-        # [batch_size, eojeol_len, 2304]
-        # trans_outputs = self.transformer_encoder(eojeol_tensor)
-        eojeol_attention_mask = eojeol_attention_mask.unsqueeze(1).unsqueeze(2) # [64, 1, 1, 25]
+        eojeol_attention_mask = eojeol_attention_mask.unsqueeze(1).unsqueeze(2) # [64, 1, 1, max_eojeol_len]
         enc_outputs = self.encoder(eojeol_tensor, eojeol_attention_mask)
         enc_outputs = enc_outputs[-1]
         trans_outputs = self.dropout(enc_outputs)
