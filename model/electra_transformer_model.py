@@ -48,7 +48,7 @@ class ELECTRA_Graph_Model(ElectraPreTrainedModel):
         self.encoder = Encoder(self.enc_config)
 
         # Classifier
-        self.linear = nn.Linear(self.d_model_size, config.num_labels)
+        self.linear = nn.Linear(self.concat_info_tensor_size, config.num_labels)
 
         # CRF
         self.crf = CRF(num_tags=config.num_labels, batch_first=True)
