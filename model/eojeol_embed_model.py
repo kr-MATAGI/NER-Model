@@ -202,6 +202,9 @@ class Eojeol_Embed_Model(ElectraPreTrainedModel):
                                                                         max_eojeol_len=self.max_eojeol_len)
 
         eojeol_attention_mask = eojeol_attention_mask.unsqueeze(1).unsqueeze(2) # [64, 1, 1, max_eojeol_len]
+        eojeol_attention_mask = eojeol_attention_mask.to(dtype=next(self.parameters()).dtype) # fp16 compatibility
+        eojeol_attention_mask = (1.0 - eojeol_attention_mask) * -10000.0
+
         enc_outputs = self.encoder(eojeol_tensor, eojeol_attention_mask)
         enc_outputs = enc_outputs[-1]
         trans_outputs = self.dropout(enc_outputs)
