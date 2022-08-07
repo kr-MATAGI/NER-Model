@@ -22,6 +22,7 @@ class ELECTRA_Graph_Model(ElectraPreTrainedModel):
         self.dropout_rate = 0.33
 
         # for encoder
+        self.linear_output_dim_before_trans = 1024
         # [768 + 128 * 3 + 128] = 1152 + 128
         self.concat_info_tensor_size = config.hidden_size + (self.pos_embed_out_dim * 3) + self.max_seq_len
         self.enc_config = copy.deepcopy(config)
@@ -41,8 +42,7 @@ class ELECTRA_Graph_Model(ElectraPreTrainedModel):
         self.dropout = nn.Dropout(0.3)
 
         # FFN
-        self.linear_output_dim = 1024
-        self.ffn_1 = nn.Linear(self.concat_info_tensor_size, self.linear_output_dim)
+        self.ffn_1 = nn.Linear(self.concat_info_tensor_size, self.linear_output_dim_before_trans)
 
         # Transformer
         self.encoder = Encoder(self.enc_config)
@@ -120,7 +120,8 @@ class ELECTRA_Graph_Model(ElectraPreTrainedModel):
         extend_attention_mask = extend_attention_mask.to(dtype=next(self.parameters()).dtype) # fp16 compatibility
         extend_attention_mask = (1.0 - extend_attention_mask) * -10000.0
 
-        enc_outputs = self.encoder(concat_all_embed, extend_attention_mask)
+        compress_all_embed = self.ffn_1(concat_all_embed)
+        enc_outputs = self.encoder(compress_all_embed, extend_attention_mask)
         enc_outputs = enc_outputs[-1]
         enc_outputs = self.dropout(enc_outputs)
 
