@@ -75,7 +75,8 @@ def evaluate(args, model, eval_dataset, mode, global_step=None, train_epoch=0):
                 "labels": batch["labels"].to(args.device),
                 "token_seq_len": batch["token_seq_len"].to(args.device),
                 "pos_tag_ids": batch["pos_tag_ids"].to(args.device),
-                "eojeol_ids": batch["eojeol_ids"].to(args.device)
+                "eojeol_ids": batch["eojeol_ids"].to(args.device),
+                "entity_ids": batch["entity_ids"].to(args.device)
             }
 
             # if 6 == g_user_select:
@@ -216,7 +217,8 @@ def train(args, model, train_dataset, dev_dataset):
                 "labels": batch["labels"].to(args.device),
                 "token_seq_len": batch["token_seq_len"].to(args.device),
                 "pos_tag_ids": batch["pos_tag_ids"].to(args.device),
-                "eojeol_ids": batch["eojeol_ids"].to(args.device)
+                "eojeol_ids": batch["eojeol_ids"].to(args.device),
+                "entity_ids": batch["entity_ids"].to(args.device)
             }
 
             # inputs["input_ids"].shape -> [batch_size, max_seq_len]
@@ -342,11 +344,11 @@ def main():
     model.to(args.device)
 
     # load train/dev/test npy
-    train_dataset, train_token_seq_len, train_pos_tag, train_labels, train_eojeol_ids = \
+    train_dataset, train_token_seq_len, train_pos_tag, train_labels, train_eojeol_ids, train_entity_ids = \
         load_corpus_npy_datasets(args.train_npy, mode="train")
-    dev_dataset, dev_token_seq_len, dev_pos_tag, dev_labels, dev_eojeol_ids = \
+    dev_dataset, dev_token_seq_len, dev_pos_tag, dev_labels, dev_eojeol_ids, dev_entity_ids = \
         load_corpus_npy_datasets(args.dev_npy, mode="dev")
-    test_dataset, test_token_seq_len, test_pos_tag, test_labels, test_eojeol_ids = \
+    test_dataset, test_token_seq_len, test_pos_tag, test_labels, test_eojeol_ids, test_entity_ids = \
         load_corpus_npy_datasets(args.test_npy, mode="test")
 
     print(f"train.shape - dataset: {train_dataset.shape}, token_seq_len: {train_token_seq_len.shape}, "
@@ -355,6 +357,7 @@ def main():
           f"pos_tag: {dev_pos_tag.shape}, labels: {dev_labels.shape}, eojeol_ids: {dev_eojeol_ids.shape}")
     print(f"test.shape - dataset: {test_dataset.shape}, token_seq_len: {test_token_seq_len.shape}, "
           f"pos_tag: {test_pos_tag.shape}, labels: {test_labels.shape}, eojeol_ids: {test_eojeol_ids.shape}")
+    print(f"entitty_ids - train: {train_entity_ids.shape}, dev: {dev_entity_ids.shape}, test: {test_entity_ids.shape}")
 
     # make train/dev/test dataset
     if 5 == g_user_select:
@@ -369,11 +372,11 @@ def main():
                                            eojeol_ids=test_eojeol_ids)
     else:
         train_dataset = NER_POS_Dataset(data=train_dataset, labels=train_labels, toekn_seq_len=train_token_seq_len,
-                                        pos_tag_ids=train_pos_tag, eojeol_ids=train_eojeol_ids)
+                                        pos_tag_ids=train_pos_tag, eojeol_ids=train_eojeol_ids, entity_ids=train_entity_ids)
         dev_dataset = NER_POS_Dataset(data=dev_dataset, labels=dev_labels, toekn_seq_len=dev_token_seq_len,
-                                      pos_tag_ids=dev_pos_tag, eojeol_ids=dev_eojeol_ids)
+                                      pos_tag_ids=dev_pos_tag, eojeol_ids=dev_eojeol_ids, entity_ids=dev_entity_ids)
         test_dataset = NER_POS_Dataset(data=test_dataset, labels=test_labels, toekn_seq_len=test_token_seq_len,
-                                       pos_tag_ids=test_pos_tag, eojeol_ids=test_eojeol_ids)
+                                       pos_tag_ids=test_pos_tag, eojeol_ids=test_eojeol_ids, entity_ids=test_eojeol_ids)
 
     if args.do_train:
         global_step, tr_loss = train(args, model, train_dataset, dev_dataset)

@@ -29,8 +29,8 @@ class Electra_Addi_Feature_Model(ElectraPreTrainedModel):
         self.num_pos_labels = config.num_pos_labels
 
         self.pos_embed_dim = 128
-        self.entity_embed_dim = 128
-        self.ffn_1 = 1024
+        self.entity_embed_dim = 120
+        # self.ffn_1 = 1024
 
         self.dropout_rate = 0.1
 
@@ -108,7 +108,7 @@ class Electra_Addi_Feature_Model(ElectraPreTrainedModel):
 
         # All Features Concat
         concat_pos_embed = torch.concat([pos_embed_1, pos_embed_2, pos_embed_3], dim=-1)
-        # [64, 128, 1202]
+        # [64, 128, 1202], [64, 128, 1328]
         concat_all_embed = torch.concat([plm_last_hidden, concat_pos_embed,
                                          eojeol_embed, entity_embed], dim=-1)
 

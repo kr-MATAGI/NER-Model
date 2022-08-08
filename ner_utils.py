@@ -65,9 +65,9 @@ def load_corpus_npy_datasets(src_path: str, mode: str="train"):
     pos_tag_npy = np.load(root_path + "_pos_tag.npy")
     labels_npy = np.load(root_path + "_labels.npy")
     eojeol_ids = np.load(root_path + "_eojeol_ids.npy")
-    # entity_ids = np.load(root_path + "_enttiy_ids.npy")
+    entity_ids = np.load(root_path + "_entity_ids.npy")
 
-    return dataset_npy, token_seq_len, pos_tag_npy, labels_npy, eojeol_ids
+    return dataset_npy, token_seq_len, pos_tag_npy, labels_npy, eojeol_ids, entity_ids
 
 #===============================================================
 def init_logger():
