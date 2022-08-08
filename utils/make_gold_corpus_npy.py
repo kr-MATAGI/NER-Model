@@ -918,8 +918,8 @@ if "__main__" == __name__:
     print("NPY MAKER !")
 
     all_sent_list = []
-    # with open("../data/pkl/merge_ne_mp_old_nikl.pkl", mode="rb") as pkl_file:
-    with open("../data/pkl/ne_mp_old_nikl.pkl", mode="rb") as pkl_file:
+    with open("../data/pkl/merge_ne_mp_old_nikl.pkl", mode="rb") as pkl_file:
+    # with open("../data/pkl/ne_mp_old_nikl.pkl", mode="rb") as pkl_file:
         all_sent_list = pickle.load(pkl_file)
         print(f"[make_gold_corpus_npy][__main__] all_sent_list size: {len(all_sent_list)}")
     all_sent_list = conv_TTA_ne_category(all_sent_list)
@@ -931,8 +931,8 @@ if "__main__" == __name__:
     hash_dict = None
     if is_use_external_dict:
         hash_dict = make_dict_hash_table(dict_path="../우리말샘_dict.pkl")
-    # make_wordpiece_npy(tokenizer_name="monologg/koelectra-base-v3-discriminator", ex_dictionary=hash_dict,
-    #                    src_list=all_sent_list, max_len=128, is_use_dict=True, debug_mode=False)
+    make_wordpiece_npy(tokenizer_name="monologg/koelectra-base-v3-discriminator", ex_dictionary=hash_dict,
+                       src_list=all_sent_list, max_len=128, is_use_dict=False, debug_mode=False)
 
-    make_eojeol_datasets_npy(tokenizer_name="monologg/koelectra-base-v3-discriminator", ex_dictionary=hash_dict,
-                             src_list=all_sent_list, max_len=128, debug_mode=False, is_use_dict=False)
+    # make_eojeol_datasets_npy(tokenizer_name="monologg/koelectra-base-v3-discriminator", ex_dictionary=hash_dict,
+    #                          src_list=all_sent_list, max_len=128, debug_mode=False, is_use_dict=False)
