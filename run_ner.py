@@ -332,10 +332,10 @@ def main():
     print_parameters(args, logger)
 
     # GPU or CPU
-    if 1 < torch.cuda.device_count():
-        logger.info(f"Let's use {torch.cuda.device_count()} GPUs!")
-        args.n_gpu = torch.cuda.device_count()
-        model = torch.nn.DataParallel(model)
+    # if 1 < torch.cuda.device_count():
+    #     logger.info(f"Let's use {torch.cuda.device_count()} GPUs!")
+    #     args.n_gpu = torch.cuda.device_count()
+    #     model = torch.nn.DataParallel(model)
     model.to(args.device)
 
     # load train/dev/test npy
