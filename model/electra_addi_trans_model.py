@@ -29,12 +29,13 @@ class Electra_Addi_Feature_Model(ElectraPreTrainedModel):
         self.num_pos_labels = config.num_pos_labels
 
         self.pos_embed_dim = 128
-        self.entity_embed_idm = 128
+        self.entity_embed_dim = 128
+        self.ffn_1 = 1024
 
         self.dropout_rate = 0.1
 
         # for Transformer Encoder Config
-        self.d_model_size = config.hidden_size + (self.pos_embed_dim * 3) + self.max_eojeol_len
+        self.d_model_size = config.hidden_size + (self.pos_embed_dim * 3) + self.max_eojeol_len + self.entity_embed_dim
         self.t_enc_config = copy.deepcopy(config)
         self.t_enc_config.num_hidden_layers = 4
         self.t_enc_config.hidden_size = self.d_model_size
@@ -54,6 +55,9 @@ class Electra_Addi_Feature_Model(ElectraPreTrainedModel):
 
         # Eojeol Boundary Embedding
         self.eojeol_embedding = nn.Embedding(self.max_seq_len, self.max_eojeol_len)
+
+        # Entity Embedding
+        self.entity_embedding = nn.Embedding(self.max_seq_len, self.entity_embed_dim)
 
         # FFN_1
         # self.ffn_1 = nn.Linear()
@@ -99,10 +103,14 @@ class Electra_Addi_Feature_Model(ElectraPreTrainedModel):
         # [batch_size, max_seq_len, max_eojeol_len]
         eojeol_embed = self.eojeol_embedding(eojeol_ids)
 
+        # Entity
+        entity_embed = self.entity_embedding(entity_ids)
+
         # All Features Concat
         concat_pos_embed = torch.concat([pos_embed_1, pos_embed_2, pos_embed_3], dim=-1)
         # [64, 128, 1202]
-        concat_all_embed = torch.concat([plm_last_hidden, concat_pos_embed, eojeol_embed], dim=-1)
+        concat_all_embed = torch.concat([plm_last_hidden, concat_pos_embed,
+                                         eojeol_embed, entity_embed], dim=-1)
 
         # Transformer Encoder
         extend_attention_mask = attention_mask.unsqueeze(1).unsqueeze(2)

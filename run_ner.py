@@ -134,7 +134,6 @@ def evaluate(args, model, eval_dataset, mode, global_step=None, train_epoch=0):
             if out_label_ids[i, j] not in ignore_list:
                 out_label_list[i].append(label_map[out_label_ids[i][j]])
                 preds_list[i].append(label_map[preds[i][j]])
-
     result = f1_pre_rec(out_label_list, preds_list, is_ner=True)
     results.update(result)
 
