@@ -11,14 +11,9 @@ from sklearn import metrics as sklearn_metrics
 # config, model
 from transformers import ElectraConfig, AutoConfig, AutoModelForTokenClassification, ElectraForTokenClassification
 from model.electra_custom_model import ELECTRA_POS_LSTM
-from model.electra_transformer_model import ELECTRA_Graph_Model
-from model.custom_embed import Custom_Embed_Model
-from model.bert_custom_model import (
-    BERT_POS_LSTM, BERT_IDCNN_CRF
-)
-from model.el_custom_embed import Custom_Electra_Model
-from model.transformer_model import Electra_Trans_Model
+from model.bert_custom_model import BERT_POS_LSTM
 from model.eojeol_embed_model import Eojeol_Embed_Model
+from model.electra_addi_trans_model import Electra_Addi_Feature_Model
 
 #===============================================================
 def print_parameters(args, logger):
@@ -63,19 +58,16 @@ def print_parameters(args, logger):
 #===============================================================
 def load_corpus_npy_datasets(src_path: str, mode: str="train"):
 #===============================================================
-    dataset_npy = seq_len_npy = pos_tag_npy = labels_npy = eojeol_ids = None
     root_path = "/".join(src_path.split("/")[:-1]) + "/" + mode
 
     dataset_npy = np.load(src_path)
-    seq_len_npy = np.load(root_path + "_seq_len.npy")
+    token_seq_len = np.load(root_path + "_token_seq_len.npy")
     pos_tag_npy = np.load(root_path + "_pos_tag.npy")
+    labels_npy = np.load(root_path + "_labels.npy")
+    eojeol_ids = np.load(root_path + "_eojeol_ids.npy")
+    # entity_ids = np.load(root_path + "_enttiy_ids.npy")
 
-    if os.path.exists(root_path + "_labels.npy"):
-        labels_npy = np.load(root_path + "_labels.npy")
-    if os.path.exists(root_path + "_eojeol_ids.npy"):
-        eojeol_ids = np.load(root_path + "_eojeol_ids.npy")
-
-    return dataset_npy, seq_len_npy, pos_tag_npy, labels_npy, eojeol_ids
+    return dataset_npy, token_seq_len, pos_tag_npy, labels_npy, eojeol_ids
 
 #===============================================================
 def init_logger():
@@ -163,9 +155,17 @@ def load_ner_config_and_model(user_select: int, args, tag_dict):
                                                num_labels=len(tag_dict.keys()),
                                                id2label={str(i): label for i, label in enumerate(tag_dict.keys())},
                                                label2id={label: i for i, label in enumerate(tag_dict.keys())})
-        config.model_name = "monologg/koelectra-base-v3-discriminator"
-        config.num_pos_labels = 49  # NIKL
+        config.num_pos_labels = 49  # NIKLm
         config.max_seq_len = 128
+    elif 6 == user_select:
+        # ELECTRA + ALL FEATURES (POS, Eojeol, Entity) -> Transformer + CRF
+        config = ElectraConfig.from_pretrained(args.model_name_or_path,
+                                               num_labels=len(tag_dict.keys()),
+                                               id2label={str(i): label for i, label in enumerate(tag_dict.keys())},
+                                               label2id={label: i for i, label in enumerate(tag_dict.keys())})
+        config.num_pos_labels = 49  # NIKLm
+        config.max_seq_len = 128
+        config.max_eojeol_len = 48
 
     # model
     if 1 == user_select:
@@ -183,6 +183,9 @@ def load_ner_config_and_model(user_select: int, args, tag_dict):
     elif 5 == user_select:
         # ELECTRA + Eojeol Embedding -> Transformer + CRF
         model = Eojeol_Embed_Model(config=config)
+    elif 6 == user_select:
+        # ELECTRA + ALL FEATURES (POS, Eojeol, Entity) -> Transformer + CRF
+        model = Electra_Addi_Feature_Model(config=config)
 
     return config, model
 
@@ -206,24 +209,12 @@ def load_model_checkpoints(user_select, checkpoint):
     elif 5 == user_select:
         # ELECTRA + Eojeol Embedding -> Transformer + CRF
         model = Eojeol_Embed_Model.from_pretrained(checkpoint)
+    elif 6 == user_select:
+        # ELECTRA + ALL FEATURES (POS, Eojeol, Entity) -> Transformer + CRF
+        model = Electra_Addi_Feature_Model.from_pretrained(checkpoint)
 
     return model
 
 ### TEST
 if "__main__" == __name__:
-    test_1 = False
-    if test_1:
-        test_np_load = np.load("./data/npy/old_nikl/electra/train_span_ids.npy", allow_pickle=True)
-        print(test_np_load.dtype)
-    test_2 = True
-    if test_2:
-        dict_items = []
-        from utils.dict_utils import Dict_Item, Word_Info, Sense_Info
-        with open("./우리말샘_dict.pkl", mode="rb") as load_pkl:
-            dict_items = pickle.load(load_pkl)
-            print(f"total_size: {len(dict_items)}")
-        cnt = 0
-        for item in dict_items:
-            if "명사" == item.sense_info.pos:
-                cnt += 1
-        print(f"pos.n: {cnt}")
+    print("[ner_utils][__main__]")

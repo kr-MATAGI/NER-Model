@@ -71,24 +71,24 @@ def conv_TTA_ne_category(sent_list: List[Sentence]):
 def save_npy_dict(npy_dict: Dict[str, List], src_list_len):
     # convert list to numpy
     print(f"[make_gold_corpus_npy][save_npy_dict] Keys - {npy_dict.keys()}")
-    if "input_ids" in npy_dict.keys():
-        npy_dict["input_ids"] = np.array(npy_dict["input_ids"])
-        print(f"input_ids.shape: {npy_dict['input_ids'].shape}")
-    if "labels" in npy_dict.keys():
-        npy_dict["labels"] = np.array(npy_dict["labels"])
-        print(f"labels.shape: {npy_dict['labels'].shape}")
-    if "attention_mask" in npy_dict.keys():
-        npy_dict["attention_mask"] = np.array(npy_dict["attention_mask"])
-        print(f"attention_mask.shape: {npy_dict['attention_mask'].shape}")
-    if "token_type_ids" in npy_dict.keys():
-        npy_dict["token_type_ids"] = np.array(npy_dict["token_type_ids"])
-        print(f"token_type_ids.shape: {npy_dict['token_type_ids'].shape}")
-    if "seq_len" in npy_dict.keys():
-        npy_dict["seq_len"] = np.array(npy_dict["seq_len"])
-        print(f"seq_len.shape: {npy_dict['seq_len'].shape}")
-    if "pos_tag_ids" in npy_dict.keys():
-        npy_dict["pos_tag_ids"] = np.array(npy_dict["pos_tag_ids"])
-        print(f"pos_tag_ids.shape: {npy_dict['pos_tag_ids'].shape}")
+
+    npy_dict["input_ids"] = np.array(npy_dict["input_ids"])
+    npy_dict["attention_mask"] = np.array(npy_dict["attention_mask"])
+    npy_dict["token_type_ids"] = np.array(npy_dict["token_type_ids"])
+    npy_dict["labels"] = np.array(npy_dict["labels"])
+    npy_dict["token_seq_len"] = np.array(npy_dict["token_seq_len"])
+    npy_dict["eojeol_ids"] = np.array(npy_dict["eojeol_ids"])
+    # npy_dict["entity_ids"] = np.array(npy_dict["entity_ids"])
+    npy_dict["pos_tag_ids"] = np.array(npy_dict["pos_tag_ids"])
+
+    print(f"input_ids.shape: {npy_dict['input_ids'].shape}")
+    print(f"attention_mask.shape: {npy_dict['attention_mask'].shape}")
+    print(f"token_type_ids.shape: {npy_dict['token_type_ids'].shape}")
+    print(f"labels.shape: {npy_dict['labels'].shape}")
+    print(f"token_seq_len.shape: {npy_dict['token_seq_len'].shape}")
+    print(f"eojeol_ids.shape: {npy_dict['eojeol_ids'].shape}")
+    # print(f"entity_ids.shape: {npy_dict['entity_ids'].shape}")
+    print(f"pos_tag_ids.shape: {npy_dict['pos_tag_ids'].shape}")
 
     split_size = int(src_list_len * 0.1)
     train_size = split_size * 7
@@ -101,15 +101,17 @@ def save_npy_dict(npy_dict: Dict[str, List], src_list_len):
         npy_dict["token_type_ids"][:train_size]
     ]
     train_np = np.stack(train_np, axis=-1)
-    print(f"train_np.shape: {train_np.shape}")
-
     train_labels = npy_dict["labels"][:train_size]
-    print(f"train_labels.shape: {train_labels.shape}")
-
-    train_seq_len_np = npy_dict["seq_len"][:train_size]
-    print(f"train_seq_len.shape: {train_seq_len_np.shape}")
-
+    train_token_seq_len_np = npy_dict["token_seq_len"][:train_size]
+    train_eojeol_ids_np = npy_dict["eojeol_ids"][:train_size]
+    # train_entity_ids_np = npy_dict["entity_ids"][:train_size]
     train_pos_tag_np = npy_dict["pos_tag_ids"][:train_size]
+
+    print(f"train_np.shape: {train_np.shape}")
+    print(f"train_labels.shape: {train_labels.shape}")
+    print(f"train_token_seq_len_np.shape: {train_token_seq_len_np.shape}")
+    print(f"train_eojeol_ids_np.shape: {train_eojeol_ids_np.shape}")
+    # print(f"train_entity_ids_np.shape: {train_entity_ids_np.shape}")
     print(f"train_pos_tag_ids_np.shape: {train_pos_tag_np.shape}")
 
     # Dev
@@ -119,15 +121,17 @@ def save_npy_dict(npy_dict: Dict[str, List], src_list_len):
         npy_dict["token_type_ids"][train_size:valid_size]
     ]
     dev_np = np.stack(dev_np, axis=-1)
-    print(f"dev_np.shape: {dev_np.shape}")
-
     dev_labels_np = npy_dict["labels"][train_size:valid_size]
-    print(f"dev_labels_np.shape: {dev_labels_np.shape}")
-
-    dev_seq_len_np = npy_dict["seq_len"][train_size:valid_size]
-    print(f"dev_seq_len_np.shape: {dev_seq_len_np.shape}")
-
+    dev_token_seq_len_np = npy_dict["token_seq_len"][train_size:valid_size]
+    dev_eojeol_ids_np = npy_dict["eojeol_ids"][train_size:valid_size]
+    # dev_entity_ids_np = npy_dict["entity_ids"][train_size:valid_size]
     dev_pos_tag_np = npy_dict["pos_tag_ids"][train_size:valid_size]
+
+    print(f"dev_np.shape: {dev_np.shape}")
+    print(f"dev_labels_np.shape: {dev_labels_np.shape}")
+    print(f"dev_token_seq_len_np.shape: {dev_token_seq_len_np.shape}")
+    print(f"dev_eojeol_ids_np.shape: {dev_eojeol_ids_np.shape}")
+    # print(f"dev_entity_ids_np.shape: {dev_entity_ids_np.shape}")
     print(f"dev_pos_tag_ids_np.shape: {dev_pos_tag_np.shape}")
 
     # Test
@@ -137,15 +141,17 @@ def save_npy_dict(npy_dict: Dict[str, List], src_list_len):
         npy_dict["token_type_ids"][valid_size:]
     ]
     test_np = np.stack(test_np, axis=-1)
-    print(f"test_np.shape: {test_np.shape}")
-
     test_labels_np = npy_dict["labels"][valid_size:]
-    print(f"test_labels_np.shape: {test_labels_np.shape}")
-
-    test_seq_len_np = npy_dict["seq_len"][valid_size:]
-    print(f"test_seq_len_np.shape: {test_seq_len_np.shape}")
-
+    test_token_seq_len_np = npy_dict["token_seq_len"][valid_size:]
+    test_eojeol_ids_np = npy_dict["eojeol_ids"][valid_size:]
+    # test_entity_ids_np = npy_dict["entity_ids"][valid_size:]
     test_pos_tag_np = npy_dict["pos_tag_ids"][valid_size:]
+
+    print(f"test_np.shape: {test_np.shape}")
+    print(f"test_labels_np.shape: {test_labels_np.shape}")
+    print(f"test_token_seq_len_np.shape: {test_token_seq_len_np.shape}")
+    print(f"test_eojeol_ids_np.shape: {test_eojeol_ids_np.shape}")
+    # print(f"test_entity_ids_np.shape: {test_entity_ids_np.shape}")
     print(f"test_pos_tag_ids_np.shape: {test_pos_tag_np.shape}")
 
     # save input_ids, attention_mask, token_type_ids
@@ -158,10 +164,15 @@ def save_npy_dict(npy_dict: Dict[str, List], src_list_len):
     np.save("../data/npy/old_nikl/electra/dev_labels", dev_labels_np)
     np.save("../data/npy/old_nikl/electra/test_labels", test_labels_np)
 
-    # save seq_len
-    np.save("../data/npy/old_nikl/electra/train_seq_len", train_seq_len_np)
-    np.save("../data/npy/old_nikl/electra/dev_seq_len", dev_seq_len_np)
-    np.save("../data/npy/old_nikl/electra/test_seq_len", test_seq_len_np)
+    # save token_seq_len
+    np.save("../data/npy/old_nikl/electra/train_token_seq_len", train_token_seq_len_np)
+    np.save("../data/npy/old_nikl/electra/dev_token_seq_len", dev_token_seq_len_np)
+    np.save("../data/npy/old_nikl/electra/test_token_seq_len", test_token_seq_len_np)
+
+    # save eojeol_ids
+    np.save("../data/npy/old_nikl/electra/train_eojeol_ids", train_eojeol_ids_np)
+    np.save("../data/npy/old_nikl/electra/dev_eojeol_ids", dev_eojeol_ids_np)
+    np.save("../data/npy/old_nikl/electra/test_eojeol_ids", test_eojeol_ids_np)
 
     # save pos_tag
     np.save("../data/npy/old_nikl/electra/train_pos_tag", train_pos_tag_np)
@@ -174,29 +185,42 @@ def make_wordpiece_npy(tokenizer_name:str, src_list: List[Sentence], ex_dictiona
 
     npy_dict = {
         "input_ids": [],
-        "labels": [],
         "attention_mask": [],
         "token_type_ids": [],
-        "seq_len": [],
+        "labels": [],
+        "token_seq_len": [],
+        "eojeol_ids": [],
+        "entity_ids": [],
         "pos_tag_ids": [],
+        # "korlex_ids": [],
     }
     pos_tag2ids = {v: int(k) for k, v in NIKL_POS_TAG.items()}
+    pos_ids2tag = {k: v for k, v in NIKL_POS_TAG.items()}
     ne_ids2tag = {v: k for k, v in ETRI_TAG.items()}
 
     tokenizer = ElectraTokenizer.from_pretrained(tokenizer_name)
-    for proc_idx, sent in enumerate(src_list):
+    for proc_idx, src_item in enumerate(src_list):
         if 0 == (proc_idx % 1000):
-            print(f"{proc_idx} Processing... {sent.text}")
-        text_tokens = tokenizer.tokenize(sent.text)
+            print(f"{proc_idx} Processing... {src_item.text}")
+        text_tokens = []
+
+        # make (word, token, pos) pair
+        # [(word, [tokens], (begin, end))]
+        word_tokens_pos_pair_list: List[Tuple[str, List[str], Tuple[int, int]]] = []
+        for word_idx, word_item in enumerate(src_item.word_list):
+            form_tokens = tokenizer.tokenize(word_item.form)
+            text_tokens.extend(form_tokens)
+            word_tokens_pos_pair_list.append((word_item.form, form_tokens, (word_item.begin, word_item.end)))
 
         labels = ["O"] * len(text_tokens)
+        eojeol_ids = [0] * len(text_tokens)
         pos_tag_ids = []
         for _ in range(len(text_tokens)):
             pos_tag_ids.append(["O"] * 3)
 
         # NE
         start_idx = 0
-        for ne_item in sent.ne_list:
+        for ne_item in src_item.ne_list:
             is_find = False
             for s_idx in range(start_idx, len(text_tokens)):
                 if is_find:
@@ -216,11 +240,11 @@ def make_wordpiece_npy(tokenizer_name:str, src_list: List[Sentence], ex_dictiona
                         is_find = True
                         start_idx = s_idx + word_cnt
                         break
-        ## end, ne_item loop
+        ## end, NE loop
 
         # Morp
         start_idx = 0
-        for morp_item in sent.morp_list:
+        for morp_item in src_item.morp_list:
             is_find = False
             split_morp_label_item = morp_item.label.split("+")
 
@@ -245,6 +269,16 @@ def make_wordpiece_npy(tokenizer_name:str, src_list: List[Sentence], ex_dictiona
                                     pos_tag_ids[p_idx][sp_idx] = "O"
                         is_find = True
                         break
+        # end, Morp Loop
+
+        # Eojeol Loop
+        add_idx = 0
+        for eojeol_idx, wtp_item in enumerate(word_tokens_pos_pair_list):
+            wtp_token_size = len(wtp_item[1])
+            for _ in range(wtp_token_size):
+                eojeol_ids[add_idx] = eojeol_idx + 1
+                add_idx += 1
+        # end, Eojeol_ids Loop
 
         # span
         if is_use_dict:
@@ -258,18 +292,18 @@ def make_wordpiece_npy(tokenizer_name:str, src_list: List[Sentence], ex_dictiona
 
             find_word_list = []  # 사전에서 찾은 것들
             candi_list = []
-            for morp_idx in range(len(sent.morp_list)):
-                for sec_morp_idx in range(morp_idx, len(sent.morp_list)):
-                    if (sent.morp_list[sec_morp_idx].label in nn_pos_list) or \
-                            (sent.morp_list[sec_morp_idx] in post_pos_list):
-                        candi_list.append(sent.morp_list[sec_morp_idx].form)
+            for morp_idx in range(len(src_item.morp_list)):
+                for sec_morp_idx in range(morp_idx, len(src_item.morp_list)):
+                    if (src_item.morp_list[sec_morp_idx].label in nn_pos_list) or \
+                            (src_item.morp_list[sec_morp_idx] in post_pos_list):
+                        candi_list.append(src_item.morp_list[sec_morp_idx].form)
                         concat_cadi = "".join(candi_list)
                         if concat_cadi[0] in ex_dictionary.keys():
                             dict_item_list = ex_dictionary[concat_cadi[0]]
                             dict_item_list = [x.word_info.word for x in dict_item_list]# if x.sense_info.pos == "명사"]
                             if concat_cadi in dict_item_list:
                                 find_word_list.append(concat_cadi)
-                    elif sent.morp_list[sec_morp_idx].label in pre_pos_list:
+                    elif src_item.morp_list[sec_morp_idx].label in pre_pos_list:
                         # 현재 label은 보통 명사 앞에 붙기 때문에 현재 넣은거 검색하고 새로 넣음
                         concat_cadi = "".join(candi_list)
                         if (0 < len(concat_cadi)) and (concat_cadi[0] in ex_dictionary.keys()):
@@ -303,6 +337,7 @@ def make_wordpiece_npy(tokenizer_name:str, src_list: List[Sentence], ex_dictiona
         text_tokens.insert(0, "[CLS]")
         labels.insert(0, "O")
         pos_tag_ids.insert(0, (["O"] * 3))
+        eojeol_ids.insert(0, 0)
 
         if is_use_dict:
             span_ids.insert(0, 0)
@@ -312,12 +347,14 @@ def make_wordpiece_npy(tokenizer_name:str, src_list: List[Sentence], ex_dictiona
             text_tokens = text_tokens[:max_len - 1]
             labels = labels[:max_len - 1]
             pos_tag_ids = pos_tag_ids[:max_len - 1]
+            eojeol_ids = eojeol_ids[:max_len - 1]
             if is_use_dict:
                 span_ids = span_ids[:max_len - 1]
 
             text_tokens.append("[SEP]")
             labels.append("O")
             pos_tag_ids.append((["O"] * 3))
+            eojeol_ids.append(0)
             if is_use_dict:
                 span_ids.append(0)
 
@@ -326,12 +363,14 @@ def make_wordpiece_npy(tokenizer_name:str, src_list: List[Sentence], ex_dictiona
             text_tokens.append("[SEP]")
             labels.append("O")
             pos_tag_ids.append((["O"] * 3))
+            eojeol_ids.append(0)
             if is_use_dict:
                 span_ids.append(0)
 
             valid_len = len(text_tokens)
             text_tokens = text_tokens + ["[PAD]"] * (max_len - valid_len)
             labels = labels + ["O"] * (max_len - valid_len)
+            eojeol_ids = eojeol_ids + [0] * (max_len - valid_len)
             for _ in range(max_len - valid_len):
                 pos_tag_ids.append((["O"] * 3))
                 if is_use_dict:
@@ -349,29 +388,41 @@ def make_wordpiece_npy(tokenizer_name:str, src_list: List[Sentence], ex_dictiona
         assert len(attention_mask) == max_len, f"{attention_mask} + {len(attention_mask)}"
         assert len(token_type_ids) == max_len, f"{token_type_ids} + {len(token_type_ids)}"
         assert len(pos_tag_ids) == max_len, f"{pos_tag_ids} + {len(pos_tag_ids)}"
+        assert len(eojeol_ids) == max_len, f"{eojeol_ids} + {len(eojeol_ids)}"
         if is_use_dict:
             assert len(span_ids) == max_len, f"{span_ids} + {len(span_ids)}"
             token_type_ids = span_ids
 
         npy_dict["input_ids"].append(input_ids)
-        npy_dict["labels"].append(labels)
         npy_dict["attention_mask"].append(attention_mask)
         npy_dict["token_type_ids"].append(token_type_ids)
+        npy_dict["labels"].append(labels)
 
-        # for pack_padded_sequence
-        npy_dict["seq_len"].append(valid_len)
+        # token_seq_len
+        npy_dict["token_seq_len"].append(valid_len)
 
-        # add pos tag info
+        # eojeol_ids
+        npy_dict["eojeol_ids"].append(eojeol_ids)
+
+        # entity_ids
+        # npy_dict["entity_ids"].append(entity_ids)
+
+        # pos_tag_ids
         npy_dict["pos_tag_ids"].append(pos_tag_ids)
+
+        # korlex_ids
+        # npy_dict["korlex_ids"].append(korlex_ids)
 
         if debug_mode:
             print(f"Sent: ")
-            print(text_tokens)
+            print("Origin Sent Tokens: ", tokenizer.tokenize(src_item.text))
+            print("Eojeol Sent Tokens: ", text_tokens)
+            print(word_tokens_pos_pair_list)
             print(f"Sequence length: {valid_len}\n")
-            print(f"NE: {sent.ne_list}\n")
-            print(f"Morp: {sent.morp_list}\n")
-            for ii, am, tti, label, pti in zip(input_ids, attention_mask, token_type_ids, labels, pos_tag_ids):
-                print(ii, tokenizer.convert_ids_to_tokens([ii]), ne_ids2tag[label], am, tti, pti)
+            print(f"NE: {src_item.ne_list}\n")
+            print(f"Morp: {src_item.morp_list}\n")
+            for ii, am, tti, label, pti, ej in zip(input_ids, attention_mask, token_type_ids, labels, pos_tag_ids, eojeol_ids):
+                print(ii, tokenizer.convert_ids_to_tokens([ii]), ne_ids2tag[label], am, tti, pti, ej)
             input()
 
         # save

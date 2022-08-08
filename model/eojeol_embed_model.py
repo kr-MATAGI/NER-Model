@@ -7,43 +7,10 @@ import numpy as np
 
 from typing import Tuple
 
-from torch.nn import TransformerEncoder, TransformerEncoderLayer
 from transformers import ElectraModel, ElectraPreTrainedModel
-from transformers.modeling_outputs import TokenClassifierOutput
 
-from torch.nn.utils.rnn import pack_padded_sequence, pad_packed_sequence
 from model.crf_layer import CRF
 from model.modeling_bert2 import Encoder
-
-#===============================================================
-class Eojeol_Transformer_Encoder(nn.Module):
-#===============================================================
-    def __init__(self, d_model: int, n_head: int, d_hid: int, n_layers: int, dropout: float = 0.33):
-        super().__init__()
-        self.model_type = "Transformer"
-        self.d_model = d_model
-
-        '''
-            d_model: input features 개수
-            n_head: multiheadattetntion head 개수
-            d_hid: the dimension of the feedforward network model (default=2048)
-        '''
-        # self.pos_encoder = PositionalEncoding(d_model, dropout)
-        encoder_layers = TransformerEncoderLayer(d_model=d_model,
-                                                 nhead=n_head,
-                                                 dim_feedforward=d_hid,
-                                                 dropout=dropout,
-                                                 batch_first=True)
-        self.transformer_encoder = TransformerEncoder(encoder_layers, n_layers)
-
-    def init_weights(self) -> None:
-        init_range = 0.1
-        self.encoder.weight.data.uniform_(-init_range, init_range)
-
-    def forward(self, src: torch.Tensor) -> torch.Tensor:
-        src = self.transformer_encoder(src) * math.sqrt(self.d_model)
-        # src = self.pos_encoder(src)
-        return src
 
 #===============================================================
 class Eojeol_Embed_Model(ElectraPreTrainedModel):

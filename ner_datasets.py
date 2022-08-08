@@ -6,20 +6,28 @@ from torch.utils.data import Dataset
 #===============================================================
 class NER_POS_Dataset(Dataset):
 #===============================================================
-    def __init__(self, data: np.ndarray, labels: np.ndarray, seq_len: np.ndarray, pos_data: np.ndarray):
+    def __init__(
+            self,
+            data: np.ndarray, labels: np.ndarray,
+            toekn_seq_len: np.ndarray, pos_tag_ids: np.ndarray,
+            eojeol_ids: np.ndarray
+    ):
         self.input_ids = data[:][:, :, 0]
         self.attention_mask = data[:][:, :, 1]
         self.token_type_ids = data[:][:, :, 2]
-        self.pos_tag = pos_data
-        self.input_seq_len = seq_len
         self.labels = labels
+        self.token_seq_len = toekn_seq_len
+        self.pos_tag_ids = pos_tag_ids
+        self.eojeol_ids = eojeol_ids
+
 
         self.input_ids = torch.tensor(self.input_ids, dtype=torch.long)
         self.attention_mask = torch.tensor(self.attention_mask, dtype=torch.long)
         self.token_type_ids = torch.tensor(self.token_type_ids, dtype=torch.long)
         self.labels = torch.tensor(self.labels, dtype=torch.long)
-        self.input_seq_len = torch.tensor(self.input_seq_len, dtype=torch.long)
-        self.pos_tag = torch.tensor(self.pos_tag, dtype=torch.long)
+        self.token_seq_len = torch.tensor(self.token_seq_len, dtype=torch.long)
+        self.pos_tag_ids = torch.tensor(self.pos_tag_ids, dtype=torch.long)
+        self.eojeol_ids = torch.tensor(self.eojeol_ids, dtype=torch.long)
 
     def __len__(self):
         return len(self.input_ids)
@@ -30,8 +38,9 @@ class NER_POS_Dataset(Dataset):
             "attention_mask": self.attention_mask[idx],
             "token_type_ids": self.token_type_ids[idx],
             "labels": self.labels[idx],
-            "token_seq_len": self.input_seq_len[idx],
-            "pos_tag_ids": self.pos_tag[idx],
+            "token_seq_len": self.token_seq_len[idx],
+            "pos_tag_ids": self.pos_tag_ids[idx],
+            "eojeol_ids": self.eojeol_ids[idx]
         }
 
         return items
