@@ -290,7 +290,6 @@ def main():
     print(f"3. {NER_MODEL_LIST[2]}")
     print(f"4. {NER_MODEL_LIST[3]}")
     print(f"5. {NER_MODEL_LIST[4]}")
-    print(f"6. {NER_MODEL_LIST[6]}")
     print("=======================================")
     print(">>>> number: ")
 
@@ -301,16 +300,14 @@ def main():
     if g_user_select > len(NER_MODEL_LIST.keys()):
         g_user_select = 1
     if 1 == g_user_select:
-        config_file_path = "./config/electra-pos-tag.json"
+        config_file_path = "./config/bert-base.json"
     elif 2 == g_user_select:
-        config_file_path = "./config/bert-pos-tag.json"
+        config_file_path = "./config/electra-base.json"
     elif 3 == g_user_select:
-        config_file_path = "./config/bert-idcnn-crf.json"
+        config_file_path = "./config/bert-lstm-crf.json"
     elif 4 == g_user_select:
-        config_file_path = "./config/custom-embed-model.json"
+        config_file_path = "./config/electra-lstm-crf.json"
     elif 5 == g_user_select:
-        config_file_path = "config/electra-custom-embed-model.json"
-    elif 6 == g_user_select:
         config_file_path = "config/electra-eojeol-model.json"
 
     with open(config_file_path) as config_file:
@@ -354,7 +351,7 @@ def main():
           f"pos_tag: {test_pos_tag.shape}, labels: {test_labels.shape}, eojeol_ids: {test_eojeol_ids.shape}")
 
     # make train/dev/test dataset
-    if 6 == g_user_select:
+    if 5 == g_user_select:
         train_dataset = NER_Eojeol_Datasets(token_data=train_dataset, labels=train_labels,
                                             pos_tag_ids=train_pos_tag, token_seq_len=train_seq_len,
                                             eojeol_ids=train_eojeol_ids)
