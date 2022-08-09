@@ -16,9 +16,9 @@ from transformers import AutoTokenizer
 
 from tqdm import tqdm
 
-# os.environ['CUDA_LAUNCH_BLOCKING'] = "1"
-# os.environ["CUDA_DEVICE_ORDER"]="PCI_BUS_ID"  # Arrange GPU devices starting from 0
-# os.environ["CUDA_VISIBLE_DEVICES"]= "2,3"
+os.environ['CUDA_LAUNCH_BLOCKING'] = "1"
+os.environ["CUDA_DEVICE_ORDER"]="PCI_BUS_ID"  # Arrange GPU devices starting from 0
+os.environ["CUDA_VISIBLE_DEVICES"]= "2,3"
 
 ### Model
 from ner_def import (
