@@ -78,8 +78,10 @@ def evaluate(args, model, eval_dataset, mode, global_step=None, train_epoch=0):
                 # "entity_ids": batch["entity_ids"].to(args.device)
             }
 
-            log_likelihood, outputs = model(**inputs)
-            loss = -1 * log_likelihood
+            # log_likelihood, outputs = model(**inputs)
+            # loss = -1 * log_likelihood
+            outputs = model(**inputs)
+            loss, logits = outputs[:2]
 
             eval_loss += loss.mean().item()
 
@@ -204,8 +206,10 @@ def train(args, model, train_dataset, dev_dataset):
                 # "entity_ids": batch["entity_ids"].to(args.device)
             }
 
-            log_likelihood, outputs = model(**inputs)
-            loss = -1 * log_likelihood
+            # log_likelihood, outputs = model(**inputs)
+            # loss = -1 * log_likelihood
+            outputs = model(**inputs)
+            loss = outputs[0]
 
             if 1 < args.n_gpu:
                 loss = loss.mean()
