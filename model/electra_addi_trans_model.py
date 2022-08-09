@@ -102,7 +102,6 @@ class Electra_Addi_Feature_Model(ElectraPreTrainedModel):
         # Eojeol
         # [batch_size, max_seq_len, max_eojeol_len]
         eojeol_embed = self.eojeol_embedding(eojeol_ids)
-        empty_eojeol_embed = torch.zeros_like(eojeol_embed)
 
         # Entity
         # entity_embed = self.entity_embedding(entity_ids)
@@ -110,7 +109,7 @@ class Electra_Addi_Feature_Model(ElectraPreTrainedModel):
         # All Features Concat
         concat_pos_embed = torch.concat([pos_embed_1, pos_embed_2, pos_embed_3], dim=-1)
         # [64, 128, 1202], [64, 128, 1328]
-        concat_all_embed = torch.concat([plm_last_hidden, concat_pos_embed, empty_eojeol_embed], dim=-1)
+        concat_all_embed = torch.concat([plm_last_hidden, concat_pos_embed, eojeol_embed], dim=-1)
 
         # Transformer Encoder
         extend_attention_mask = attention_mask.unsqueeze(1).unsqueeze(2)
