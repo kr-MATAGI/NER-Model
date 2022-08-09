@@ -103,11 +103,6 @@ class Electra_Addi_Feature_Model(ElectraPreTrainedModel):
         # [batch_size, max_seq_len, max_eojeol_len]
         eojeol_embed = self.eojeol_embedding(eojeol_ids)
         empty_eojeol_embed = torch.zeros_like(eojeol_embed)
-        print("AAAAA")
-        print(empty_eojeol_embed)
-        print(eojeol_embed.shape, empty_eojeol_embed)
-        input()
-
 
         # Entity
         # entity_embed = self.entity_embedding(entity_ids)
