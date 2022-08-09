@@ -286,7 +286,7 @@ class ELECTRA_POS_LSTM(ElectraPreTrainedModel):
         # entity
         self.entity_embedding = nn.Embedding(self.max_seq_len, self.entity_embed_out_dim)
 
-        self.lstm_dim_size = config.hidden_size + (self.pos_embed_out_dim * 3) + self.max_eojeol_len + self.entity_embedding
+        self.lstm_dim_size = config.hidden_size + (self.pos_embed_out_dim * 3) + self.max_eojeol_len + self.entity_embed_out_dim
         self.lstm = nn.LSTM(input_size=self.lstm_dim_size, hidden_size=self.lstm_dim_size,
                             num_layers=1, batch_first=True, dropout=self.dropout_rate)
         self.dropout = nn.Dropout(self.dropout_rate)
