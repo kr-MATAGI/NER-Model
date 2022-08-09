@@ -284,9 +284,9 @@ class ELECTRA_POS_LSTM(ElectraPreTrainedModel):
         self.eojeol_embedding = nn.Embedding(self.max_seq_len, self.max_eojeol_len)
 
         # entity
-        # self.entity_embedding = nn.Embedding(self.max_seq_len, self.entity_embed_out_dim)
+        self.entity_embedding = nn.Embedding(self.max_seq_len, self.entity_embed_out_dim)
 
-        self.lstm_dim_size = config.hidden_size + (self.pos_embed_out_dim * 3)# + self.max_eojeol_len + self.entity_embed_out_dim
+        self.lstm_dim_size = config.hidden_size + (self.pos_embed_out_dim * 3) + self.max_eojeol_len + self.entity_embed_out_dim
         self.lstm = nn.LSTM(input_size=self.lstm_dim_size, hidden_size=self.lstm_dim_size,
                             num_layers=1, batch_first=True, dropout=self.dropout_rate)
         self.dropout = nn.Dropout(self.dropout_rate)
@@ -314,7 +314,7 @@ class ELECTRA_POS_LSTM(ElectraPreTrainedModel):
         eojeol_embed = self.eojeol_embedding(eojeol_ids)
 
         # entity
-        # entity_embed = self.entity_embedding(entity_ids)
+        entity_embed = self.entity_embedding(entity_ids)
 
         outputs = self.electra(input_ids=input_ids,
                                attention_mask=attention_mask,
@@ -324,7 +324,7 @@ class ELECTRA_POS_LSTM(ElectraPreTrainedModel):
 
         concat_pos_embed = torch.concat([pos_embed_1, pos_embed_2, pos_embed_3], dim=-1)
         concat_embed = torch.concat([sequence_output, concat_pos_embed], dim=-1)
-        # concat_embed = torch.concat([concat_embed, eojeol_embed, entity_embed], dim=-1)
+        concat_embed = torch.concat([concat_embed, eojeol_embed, entity_embed], dim=-1)
         lstm_out, _ = self.lstm(concat_embed) # [batch_size, seq_len, hidden_size]
         lstm_out = self.dropout(lstm_out)
         logits = self.classifier(lstm_out) # [128, 128, 31]
