@@ -82,8 +82,6 @@ def evaluate(args, model, eval_dataset, mode, global_step=None, train_epoch=0):
             log_likelihood, outputs = model(**inputs)
             loss = -1 * log_likelihood
 
-            # outputs = model(**inputs)
-            # loss = outputs.loss
             eval_loss += loss.mean().item()
 
         nb_eval_steps += 1
@@ -96,14 +94,6 @@ def evaluate(args, model, eval_dataset, mode, global_step=None, train_epoch=0):
         else:
             preds = np.append(preds, np.array(outputs), axis=0)
             out_label_ids = np.append(out_label_ids, inputs["labels"].detach().cpu().numpy(), axis=0)
-
-        # if preds is None:
-        #     #preds = np.array(outputs)
-        #     preds = outputs.detach().cpu().numpy()
-        #     out_label_ids = inputs["labels"].detach().cpu().numpy()
-        # else:
-        #     preds = np.append(preds, outputs.detach().cpu().numpy(), axis=0)
-        #     out_label_ids = np.append(out_label_ids, inputs["labels"].detach().cpu().numpy(), axis=0)
 
     logger.info("  Eval End !")
     eval_pbar.close()
