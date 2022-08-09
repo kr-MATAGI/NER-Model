@@ -322,8 +322,8 @@ class ELECTRA_POS_LSTM(ElectraPreTrainedModel):
 
         sequence_output = outputs.last_hidden_state # [batch_size, seq_len, hidden_size]
 
-        concat_embed = torch.concat([pos_embed_1, pos_embed_2, pos_embed_3], dim=-1)
-        concat_embed = torch.concat([sequence_output, concat_embed], dim=-1)
+        concat_pos_embed = torch.concat([pos_embed_1, pos_embed_2, pos_embed_3], dim=-1)
+        concat_embed = torch.concat([sequence_output, concat_pos_embed], dim=-1)
         # concat_embed = torch.concat([concat_embed, eojeol_embed, entity_embed], dim=-1)
         lstm_out, _ = self.lstm(concat_embed) # [batch_size, seq_len, hidden_size]
         lstm_out = self.dropout(lstm_out)
