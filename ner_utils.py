@@ -176,7 +176,7 @@ def load_ner_config_and_model(user_select: int, args, tag_dict):
         model = ElectraForTokenClassification.from_pretrained(args.model_name_or_path, config=config)
     elif 3 == user_select:
         # BERT+LSTM(POS)+CRF
-        model = BERT_POS_LSTM(config=config)
+        model = BERT_POS_LSTM.from_pretrained(args.model_name_or_path, config=config)
     elif 4 == user_select:
         # ELECTRA+LSTM(POS)+CRF
         model = ELECTRA_POS_LSTM.from_pretrained(args.model_name_or_path, config=config)

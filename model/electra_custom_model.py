@@ -296,7 +296,7 @@ class ELECTRA_POS_LSTM(ElectraPreTrainedModel):
         self.post_init()
 
     def forward(self,
-                input_ids, attention_mask, token_type_ids,
+                input_ids, token_type_ids, attention_mask,
                 token_seq_len=None, labels=None, pos_tag_ids=None,
                 eojeol_ids=None, entity_ids=None
     ):
@@ -332,7 +332,7 @@ class ELECTRA_POS_LSTM(ElectraPreTrainedModel):
         # crf
         if labels is not None:
             log_likelihood, sequence_of_tags = self.crf(emissions=logits, tags=labels, mask=attention_mask.bool(),
-                                                        reduction="mean"), self.crf.decode(logits, mask=attention_mask.bool())
+                                                        reduction="mean"), self.crf.decode(logits),# mask=attention_mask.bool())
             return log_likelihood, sequence_of_tags
         else:
             sequence_of_tags = self.crf.decode(logits)

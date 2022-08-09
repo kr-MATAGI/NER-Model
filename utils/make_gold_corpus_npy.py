@@ -155,24 +155,25 @@ def save_npy_dict(npy_dict: Dict[str, List], src_list_len):
     print(f"test_pos_tag_ids_np.shape: {test_pos_tag_np.shape}")
 
     # save input_ids, attention_mask, token_type_ids
-    np.save("../data/npy/old_nikl/electra/train", train_np)
-    np.save("../data/npy/old_nikl/electra/dev", dev_np)
-    np.save("../data/npy/old_nikl/electra/test", test_np)
+    root_path = "../data/npy/old_nikl/bert"
+    np.save(root_path + "/train", train_np)
+    np.save(root_path + "/dev", dev_np)
+    np.save(root_path + "/test", test_np)
 
     # save labels
-    np.save("../data/npy/old_nikl/electra/train_labels", train_labels)
-    np.save("../data/npy/old_nikl/electra/dev_labels", dev_labels_np)
-    np.save("../data/npy/old_nikl/electra/test_labels", test_labels_np)
+    np.save(root_path + "/train_labels", train_labels)
+    np.save(root_path + "/dev_labels", dev_labels_np)
+    np.save(root_path + "/test_labels", test_labels_np)
 
     # save token_seq_len
-    np.save("../data/npy/old_nikl/electra/train_token_seq_len", train_token_seq_len_np)
-    np.save("../data/npy/old_nikl/electra/dev_token_seq_len", dev_token_seq_len_np)
-    np.save("../data/npy/old_nikl/electra/test_token_seq_len", test_token_seq_len_np)
+    np.save(root_path + "/train_token_seq_len", train_token_seq_len_np)
+    np.save(root_path + "/dev_token_seq_len", dev_token_seq_len_np)
+    np.save(root_path + "/test_token_seq_len", test_token_seq_len_np)
 
     # save eojeol_ids
-    np.save("../data/npy/old_nikl/electra/train_eojeol_ids", train_eojeol_ids_np)
-    np.save("../data/npy/old_nikl/electra/dev_eojeol_ids", dev_eojeol_ids_np)
-    np.save("../data/npy/old_nikl/electra/test_eojeol_ids", test_eojeol_ids_np)
+    np.save(root_path + "/train_eojeol_ids", train_eojeol_ids_np)
+    np.save(root_path + "/dev_eojeol_ids", dev_eojeol_ids_np)
+    np.save(root_path + "/test_eojeol_ids", test_eojeol_ids_np)
 
     # save entity_ids
     # np.save("../data/npy/old_nikl/electra/train_entity_ids", train_entity_ids_np)
@@ -180,9 +181,9 @@ def save_npy_dict(npy_dict: Dict[str, List], src_list_len):
     # np.save("../data/npy/old_nikl/electra/test_entity_ids", test_entity_ids_np)
 
     # save pos_tag
-    np.save("../data/npy/old_nikl/electra/train_pos_tag", train_pos_tag_np)
-    np.save("../data/npy/old_nikl/electra/dev_pos_tag", dev_pos_tag_np)
-    np.save("../data/npy/old_nikl/electra/test_pos_tag", test_pos_tag_np)
+    np.save(root_path + "/train_pos_tag", train_pos_tag_np)
+    np.save(root_path + "/dev_pos_tag", dev_pos_tag_np)
+    np.save(root_path + "/test_pos_tag", test_pos_tag_np)
 
 def make_wordpiece_npy(tokenizer_name:str, src_list: List[Sentence], ex_dictionary: List[Dict_Item] = None,
                        max_len: int=128, is_use_dict: bool=False, debug_mode: bool=False):
@@ -201,7 +202,7 @@ def make_wordpiece_npy(tokenizer_name:str, src_list: List[Sentence], ex_dictiona
     pos_tag2ids = {v: int(k) for k, v in NIKL_POS_TAG.items()}
     ne_ids2tag = {v: k for k, v in ETRI_TAG.items()}
 
-    tokenizer = ElectraTokenizer.from_pretrained(tokenizer_name)
+    tokenizer = AutoTokenizer.from_pretrained(tokenizer_name)
     for proc_idx, src_item in enumerate(src_list):
         if 0 == (proc_idx % 1000):
             print(f"{proc_idx} Processing... {src_item.text}")
@@ -985,7 +986,7 @@ if "__main__" == __name__:
     hash_dict = None
     if is_use_external_dict:
         hash_dict = make_dict_hash_table(dict_path="../우리말샘_dict.pkl")
-    make_wordpiece_npy(tokenizer_name="monologg/koelectra-base-v3-discriminator", ex_dictionary=hash_dict,
+    make_wordpiece_npy(tokenizer_name="klue/bert-base", ex_dictionary=hash_dict,
                        src_list=all_sent_list, max_len=128, is_use_dict=False, debug_mode=False)
 
     # make_eojeol_datasets_npy(tokenizer_name="monologg/koelectra-base-v3-discriminator", ex_dictionary=hash_dict,

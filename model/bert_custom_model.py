@@ -146,7 +146,8 @@ class BERT_POS_LSTM(BertPreTrainedModel):
 
         self.post_init()
 
-    def forward(self, input_ids, attention_mask, token_type_ids, pos_tag_ids, input_seq_len=None, labels=None):
+    def forward(self, input_ids, attention_mask, token_type_ids, pos_tag_ids, input_seq_len=None, labels=None,
+                token_seq_len=None, eojeol_ids=None, entity_ids=None):
         # pos embedding
         # pos_tag_ids : [batch_size, seq_len, num_pos_tags]
         pos_tag_1 = pos_tag_ids[:, :, 0] # [batch_size, seq_len]
@@ -171,7 +172,7 @@ class BERT_POS_LSTM(BertPreTrainedModel):
         # crf
         if labels is not None:
             log_likelihood, sequence_of_tags = self.crf(emissions=logits, tags=labels, mask=attention_mask.bool(),
-                                                        reduction="mean"), self.crf.decode(logits, mask=attention_mask.bool())
+                                                        reduction="mean"), self.crf.decode(logits) #mask=attention_mask.byte())
             return log_likelihood, sequence_of_tags
         else:
             sequence_of_tags = self.crf.decode(logits)
