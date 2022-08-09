@@ -179,13 +179,13 @@ def load_ner_config_and_model(user_select: int, args, tag_dict):
         model = BERT_POS_LSTM(config=config)
     elif 4 == user_select:
         # ELECTRA+LSTM(POS)+CRF
-        model = ELECTRA_POS_LSTM(config=config)
+        model = ELECTRA_POS_LSTM.from_pretrained(args.model_name_or_path, config=config)
     elif 5 == user_select:
         # ELECTRA + Eojeol Embedding -> Transformer + CRF
-        model = Eojeol_Embed_Model(config=config)
+        model = Eojeol_Embed_Model.from_pretrained(args.model_name_or_path, config=config)
     elif 6 == user_select:
         # ELECTRA + ALL FEATURES (POS, Eojeol, Entity) -> Transformer + CRF
-        model = Electra_Addi_Feature_Model(config=config)
+        model = Electra_Addi_Feature_Model.from_pretrained(args.model_name_or_path, config=config)
 
     return config, model
 

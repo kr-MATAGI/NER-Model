@@ -12,7 +12,6 @@ import torch
 from torch.utils.data import RandomSampler, SequentialSampler, DataLoader, Dataset
 from torch.utils.tensorboard import SummaryWriter
 from transformers import get_linear_schedule_with_warmup
-from transformers import AutoTokenizer
 
 from tqdm import tqdm
 
@@ -73,10 +72,10 @@ def evaluate(args, model, eval_dataset, mode, global_step=None, train_epoch=0):
                 "attention_mask": batch["attention_mask"].to(args.device),
                 "token_type_ids": batch["token_type_ids"].to(args.device),
                 "labels": batch["labels"].to(args.device),
-                # "token_seq_len": batch["token_seq_len"].to(args.device),
+                "token_seq_len": batch["token_seq_len"].to(args.device),
                 "pos_tag_ids": batch["pos_tag_ids"].to(args.device),
-                # "eojeol_ids": batch["eojeol_ids"].to(args.device),
-                # "entity_ids": batch["entity_ids"].to(args.device)
+                "eojeol_ids": batch["eojeol_ids"].to(args.device),
+                "entity_ids": batch["entity_ids"].to(args.device)
             }
 
             log_likelihood, outputs = model(**inputs)
@@ -205,16 +204,8 @@ def train(args, model, train_dataset, dev_dataset):
                 "entity_ids": batch["entity_ids"].to(args.device)
             }
 
-            # inputs["input_ids"].shape -> [batch_size, max_seq_len]
-            # if 6 == g_user_select:
-            #     model_outputs = model(**inputs)
-            #     loss = model_outputs.loss
-            #     logits = model_outputs.logits
-            # else:
             log_likelihood, outputs = model(**inputs)
             loss = -1 * log_likelihood
-            # outputs = model(**inputs)
-            # loss = outputs.loss
 
             if 1 < args.n_gpu:
                 loss = loss.mean()

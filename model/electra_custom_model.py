@@ -255,7 +255,7 @@ class ELECTRA_LSTM_LAN(ElectraPreTrainedModel):
 class ELECTRA_POS_LSTM(ElectraPreTrainedModel):
     def __init__(self, config):
         super(ELECTRA_POS_LSTM, self).__init__(config)
-        self.max_seq_len = 128
+        self.max_seq_len = config.max_seq_len
         self.max_eojeol_len = 48
 
         self.num_labels = config.num_labels
