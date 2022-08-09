@@ -175,9 +175,9 @@ def save_npy_dict(npy_dict: Dict[str, List], src_list_len):
     np.save("../data/npy/old_nikl/electra/test_eojeol_ids", test_eojeol_ids_np)
 
     # save entity_ids
-    np.save("../data/npy/old_nikl/electra/train_entity_ids", train_entity_ids_np)
-    np.save("../data/npy/old_nikl/electra/dev_entity_ids", dev_entity_ids_np)
-    np.save("../data/npy/old_nikl/electra/test_entity_ids", test_entity_ids_np)
+    # np.save("../data/npy/old_nikl/electra/train_entity_ids", train_entity_ids_np)
+    # np.save("../data/npy/old_nikl/electra/dev_entity_ids", dev_entity_ids_np)
+    # np.save("../data/npy/old_nikl/electra/test_entity_ids", test_entity_ids_np)
 
     # save pos_tag
     np.save("../data/npy/old_nikl/electra/train_pos_tag", train_pos_tag_np)
@@ -197,24 +197,21 @@ def make_wordpiece_npy(tokenizer_name:str, src_list: List[Sentence], ex_dictiona
         "eojeol_ids": [],
         "entity_ids": [],
         "pos_tag_ids": [],
-        # "korlex_ids": [],
     }
     pos_tag2ids = {v: int(k) for k, v in NIKL_POS_TAG.items()}
-    pos_ids2tag = {k: v for k, v in NIKL_POS_TAG.items()}
     ne_ids2tag = {v: k for k, v in ETRI_TAG.items()}
 
     tokenizer = ElectraTokenizer.from_pretrained(tokenizer_name)
     for proc_idx, src_item in enumerate(src_list):
         if 0 == (proc_idx % 1000):
             print(f"{proc_idx} Processing... {src_item.text}")
-        text_tokens = []
+        text_tokens = tokenizer.tokenize(src_item.text)
 
         # make (word, token, pos) pair
         # [(word, [tokens], (begin, end))]
         word_tokens_pos_pair_list: List[Tuple[str, List[str], Tuple[int, int]]] = []
         for word_idx, word_item in enumerate(src_item.word_list):
             form_tokens = tokenizer.tokenize(word_item.form)
-            text_tokens.extend(form_tokens)
             word_tokens_pos_pair_list.append((word_item.form, form_tokens, (word_item.begin, word_item.end)))
 
         labels = ["O"] * len(text_tokens)
@@ -984,12 +981,12 @@ if "__main__" == __name__:
 
     # make npy
     #make_pos_tag_npy(tokenizer_name="klue/bert-base", src_list=all_sent_list, max_len=128)
-    is_use_external_dict = True
+    is_use_external_dict = False
     hash_dict = None
     if is_use_external_dict:
         hash_dict = make_dict_hash_table(dict_path="../우리말샘_dict.pkl")
     make_wordpiece_npy(tokenizer_name="monologg/koelectra-base-v3-discriminator", ex_dictionary=hash_dict,
-                       src_list=all_sent_list, max_len=128, is_use_dict=True, debug_mode=False)
+                       src_list=all_sent_list, max_len=128, is_use_dict=False, debug_mode=False)
 
     # make_eojeol_datasets_npy(tokenizer_name="monologg/koelectra-base-v3-discriminator", ex_dictionary=hash_dict,
     #                          src_list=all_sent_list, max_len=128, debug_mode=False, is_use_dict=False)
