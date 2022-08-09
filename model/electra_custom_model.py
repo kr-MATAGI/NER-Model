@@ -260,10 +260,10 @@ class ELECTRA_POS_LSTM(ElectraPreTrainedModel):
 
         self.num_labels = config.num_labels
         self.num_pos_labels = config.num_pos_labels
-        self.pos_embed_out_dim = 128
+        self.pos_embed_out_dim = 100
         self.entity_embed_out_dim = 128
 
-        self.dropout_rate = 0.1
+        self.dropout_rate = 0.3
 
         # pos tag embedding
         self.pos_embedding_1 = nn.Embedding(self.num_pos_labels, self.pos_embed_out_dim)
