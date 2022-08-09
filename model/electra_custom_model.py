@@ -281,7 +281,7 @@ class ELECTRA_POS_LSTM(ElectraPreTrainedModel):
         self.electra = ElectraModel.from_pretrained("monologg/koelectra-base-v3-discriminator", config=config)
 
         # eojeol
-        # self.eojeol_embedding = nn.Embedding(self.max_seq_len, self.max_eojeol_len)
+        self.eojeol_embedding = nn.Embedding(self.max_seq_len, self.max_eojeol_len)
 
         # entity
         # self.entity_embedding = nn.Embedding(self.max_seq_len, self.entity_embed_out_dim)
@@ -311,7 +311,7 @@ class ELECTRA_POS_LSTM(ElectraPreTrainedModel):
         pos_embed_3 = self.pos_embedding_3(pos_tag_3)  # [batch_size, seq_len, pos_tag_embed]
 
         # eojeol
-        # eojeol_embed = self.eojeol_embedding(eojeol_ids)
+        eojeol_embed = self.eojeol_embedding(eojeol_ids)
 
         # entity
         # entity_embed = self.entity_embedding(entity_ids)
