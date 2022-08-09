@@ -105,7 +105,7 @@ def evaluate(args, model, eval_dataset, mode, global_step=None, train_epoch=0):
     }
 
     # CRF 안쓴다면 사용
-    # preds = np.argmax(preds, axis=-1)
+    preds = np.argmax(preds, axis=-1)
 
     labels = ETRI_TAG.keys()
     label_map = {i: label for i, label in enumerate(labels)}
