@@ -35,7 +35,7 @@ class Electra_Addi_Feature_Model(ElectraPreTrainedModel):
         self.dropout_rate = 0.1
 
         # for Transformer Encoder Config
-        self.d_model_size = config.hidden_size + (self.pos_embed_dim * 3) + self.max_eojeol_len + self.entity_embed_dim
+        self.d_model_size = config.hidden_size + (self.pos_embed_dim * 3) + self.max_eojeol_len
         self.t_enc_config = copy.deepcopy(config)
         self.t_enc_config.num_hidden_layers = 4
         self.t_enc_config.hidden_size = self.d_model_size
