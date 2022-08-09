@@ -16,9 +16,9 @@ from transformers import AutoTokenizer
 
 from tqdm import tqdm
 
-os.environ['CUDA_LAUNCH_BLOCKING'] = "1"
-os.environ["CUDA_DEVICE_ORDER"]="PCI_BUS_ID"  # Arrange GPU devices starting from 0
-os.environ["CUDA_VISIBLE_DEVICES"]= "2,3"
+# os.environ['CUDA_LAUNCH_BLOCKING'] = "1"
+# os.environ["CUDA_DEVICE_ORDER"]="PCI_BUS_ID"  # Arrange GPU devices starting from 0
+# os.environ["CUDA_VISIBLE_DEVICES"]= "2,3"
 
 ### Model
 from ner_def import (
@@ -79,13 +79,7 @@ def evaluate(args, model, eval_dataset, mode, global_step=None, train_epoch=0):
                 "entity_ids": batch["entity_ids"].to(args.device)
             }
 
-            # if 6 == g_user_select:
-            #     model_outputs = model(**inputs)
-            #     loss = model_outputs.loss
-            #     outputs = model_outputs.logits
-            # else:
             log_likelihood, outputs = model(**inputs)
-            #loss, logits = outputs[:2]
             loss = -1 * log_likelihood
 
             # outputs = model(**inputs)
@@ -101,6 +95,7 @@ def evaluate(args, model, eval_dataset, mode, global_step=None, train_epoch=0):
             out_label_ids = inputs["labels"].detach().cpu().numpy()
         else:
             preds = np.append(preds, np.array(outputs), axis=0)
+            print("AAAAA: ", np.array(outputs).shape)
             out_label_ids = np.append(out_label_ids, inputs["labels"].detach().cpu().numpy(), axis=0)
 
         # if preds is None:
