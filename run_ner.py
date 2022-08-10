@@ -72,16 +72,16 @@ def evaluate(args, model, eval_dataset, mode, global_step=None, train_epoch=0):
                 "attention_mask": batch["attention_mask"].to(args.device),
                 "token_type_ids": batch["token_type_ids"].to(args.device),
                 "labels": batch["labels"].to(args.device),
-                # "token_seq_len": batch["token_seq_len"].to(args.device),
-                # "pos_tag_ids": batch["pos_tag_ids"].to(args.device),
-                # "eojeol_ids": batch["eojeol_ids"].to(args.device),
-                # "entity_ids": batch["entity_ids"].to(args.device)
+                "token_seq_len": batch["token_seq_len"].to(args.device),
+                "pos_tag_ids": batch["pos_tag_ids"].to(args.device),
+                "eojeol_ids": batch["eojeol_ids"].to(args.device),
+                "entity_ids": batch["entity_ids"].to(args.device)
             }
 
-            # log_likelihood, outputs = model(**inputs)
-            # loss = -1 * log_likelihood
-            outputs = model(**inputs)
-            loss, logits = outputs[:2]
+            log_likelihood, outputs = model(**inputs)
+            loss = -1 * log_likelihood
+            # outputs = model(**inputs)
+            # loss, logits = outputs[:2]
 
             eval_loss += loss.mean().item()
 
@@ -90,19 +90,19 @@ def evaluate(args, model, eval_dataset, mode, global_step=None, train_epoch=0):
         eval_pbar.set_description("Eval Loss - %.04f" % (eval_loss / nb_eval_steps))
 
         # Not CRF
-        if preds is None:
-            preds = logits.detach().cpu().numpy()
-            out_label_ids = inputs["labels"].detach().cpu().numpy()
-        else:
-            preds = np.append(preds, logits.detach().cpu().numpy(), axis=0)
-            out_label_ids = np.append(out_label_ids, inputs["labels"].detach().cpu().numpy(), axis=0)
-
         # if preds is None:
-        #     preds = np.array(outputs)
+        #     preds = logits.detach().cpu().numpy()
         #     out_label_ids = inputs["labels"].detach().cpu().numpy()
         # else:
-        #     preds = np.append(preds, np.array(outputs), axis=0)
+        #     preds = np.append(preds, logits.detach().cpu().numpy(), axis=0)
         #     out_label_ids = np.append(out_label_ids, inputs["labels"].detach().cpu().numpy(), axis=0)
+
+        if preds is None:
+            preds = np.array(outputs)
+            out_label_ids = inputs["labels"].detach().cpu().numpy()
+        else:
+            preds = np.append(preds, np.array(outputs), axis=0)
+            out_label_ids = np.append(out_label_ids, inputs["labels"].detach().cpu().numpy(), axis=0)
 
     logger.info("  Eval End !")
     eval_pbar.close()
@@ -208,16 +208,16 @@ def train(args, model, train_dataset, dev_dataset):
                 "attention_mask": batch["attention_mask"].to(args.device),
                 "token_type_ids": batch["token_type_ids"].to(args.device),
                 "labels": batch["labels"].to(args.device),
-                # "token_seq_len": batch["token_seq_len"].to(args.device),
-                # "pos_tag_ids": batch["pos_tag_ids"].to(args.device),
-                # "eojeol_ids": batch["eojeol_ids"].to(args.device),
-                # "entity_ids": batch["entity_ids"].to(args.device)
+                "token_seq_len": batch["token_seq_len"].to(args.device),
+                "pos_tag_ids": batch["pos_tag_ids"].to(args.device),
+                "eojeol_ids": batch["eojeol_ids"].to(args.device),
+                "entity_ids": batch["entity_ids"].to(args.device)
             }
 
-            # log_likelihood, outputs = model(**inputs)
-            # loss = -1 * log_likelihood
-            outputs = model(**inputs)
-            loss = outputs[0]
+            log_likelihood, outputs = model(**inputs)
+            loss = -1 * log_likelihood
+            # outputs = model(**inputs)
+            # loss = outputs[0]
 
             if 1 < args.n_gpu:
                 loss = loss.mean()
