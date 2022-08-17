@@ -5,7 +5,7 @@
     {
        "date": "yyyy-mm-dd_hh:mm:ss.msec",
        "sentences": [
-        {"id": "sha256 or integer", "text": "str"}
+        {"id": "str or integer", "text": "str"}
        ]
     }
   ```
