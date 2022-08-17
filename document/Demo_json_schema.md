@@ -1,5 +1,5 @@
 ## JSON Schema For Demo
-  1. Request (Demo Web to API)
+  1. Request (Demo to API)
 
   ```json
     {
