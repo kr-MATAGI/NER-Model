@@ -75,7 +75,7 @@ def evaluate(args, model, eval_dataset, mode, global_step=None, train_epoch=0):
                 "token_seq_len": batch["token_seq_len"].to(args.device),
                 "pos_tag_ids": batch["pos_tag_ids"].to(args.device),
                 "eojeol_ids": batch["eojeol_ids"].to(args.device),
-                "entity_ids": batch["entity_ids"].to(args.device)
+                # "entity_ids": batch["entity_ids"].to(args.device)
             }
 
             log_likelihood, outputs = model(**inputs)
@@ -211,7 +211,7 @@ def train(args, model, train_dataset, dev_dataset):
                 "token_seq_len": batch["token_seq_len"].to(args.device),
                 "pos_tag_ids": batch["pos_tag_ids"].to(args.device),
                 "eojeol_ids": batch["eojeol_ids"].to(args.device),
-                "entity_ids": batch["entity_ids"].to(args.device)
+                # "entity_ids": batch["entity_ids"].to(args.device)
             }
 
             log_likelihood, outputs = model(**inputs)

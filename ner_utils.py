@@ -155,6 +155,7 @@ def load_ner_config_and_model(user_select: int, args, tag_dict):
                                                num_labels=len(tag_dict.keys()),
                                                id2label={str(i): label for i, label in enumerate(tag_dict.keys())},
                                                label2id={label: i for i, label in enumerate(tag_dict.keys())})
+        config.model_name = args.model_name_or_path
         config.num_pos_labels = 49  # NIKLm
         config.max_seq_len = 128
     elif 6 == user_select:
