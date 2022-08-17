@@ -1,5 +1,5 @@
 ## JSON Schema For Demo
-  1. Request (Demo to API)
+  1. Request
 
   ```json
     {
@@ -10,7 +10,7 @@
     }
   ```
   
-  2. Response (API to Demo)
+  2. Response
   
   ```json
     {
