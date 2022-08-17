@@ -19,7 +19,7 @@
         "id": "str", 
         "text": "str",
         "ne": [
-          {"word": "str", "label": "str", "begin": "int", "end": "int"}
+          {"word": "str", "label": "str", "begin": "integer", "end": "integer"}
         ]
       }]
     }
