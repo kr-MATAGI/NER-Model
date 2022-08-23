@@ -1,7 +1,5 @@
 import json
 import os
-import platform
-import pickle
 import numpy as np
 
 import glob
@@ -9,15 +7,11 @@ import re
 from attrdict import AttrDict
 
 import torch
-from torch.utils.data import RandomSampler, SequentialSampler, DataLoader, Dataset
+from torch.utils.data import RandomSampler, SequentialSampler, DataLoader
 from torch.utils.tensorboard import SummaryWriter
 from transformers import get_linear_schedule_with_warmup
 
 from tqdm import tqdm
-
-# os.environ['CUDA_LAUNCH_BLOCKING'] = "1"
-# os.environ["CUDA_DEVICE_ORDER"]="PCI_BUS_ID"  # Arrange GPU devices starting from 0
-# os.environ["CUDA_VISIBLE_DEVICES"]= "2,3"
 
 ### Model
 from ner_def import (
@@ -32,6 +26,7 @@ from ner_utils import (
 
 ### Global variable
 g_user_select = 0
+g_use_crf = True
 logger = init_logger()
 
 if not os.path.exists("./logs"):
@@ -328,11 +323,11 @@ def main():
     model.to(args.device)
 
     # load train/dev/test npy
-    train_npy, train_token_seq_len, train_pos_tag, train_labels, train_eojeol_ids, train_entity_ids = \
+    train_npy, train_token_seq_len, train_pos_tag, train_labels, train_eojeol_ids = \
         load_corpus_npy_datasets(args.train_npy, mode="train")
-    dev_npy, dev_token_seq_len, dev_pos_tag, dev_labels, dev_eojeol_ids, dev_entity_ids = \
+    dev_npy, dev_token_seq_len, dev_pos_tag, dev_labels, dev_eojeol_ids = \
         load_corpus_npy_datasets(args.dev_npy, mode="dev")
-    test_npy, test_token_seq_len, test_pos_tag, test_labels, test_eojeol_ids, test_entity_ids = \
+    test_npy, test_token_seq_len, test_pos_tag, test_labels, test_eojeol_ids = \
         load_corpus_npy_datasets(args.test_npy, mode="test")
 
     print(f"train.shape - dataset: {train_npy.shape}, token_seq_len: {train_token_seq_len.shape}, "
@@ -341,7 +336,7 @@ def main():
           f"pos_tag: {dev_pos_tag.shape}, labels: {dev_labels.shape}, eojeol_ids: {dev_eojeol_ids.shape}")
     print(f"test.shape - dataset: {test_npy.shape}, token_seq_len: {test_token_seq_len.shape}, "
           f"pos_tag: {test_pos_tag.shape}, labels: {test_labels.shape}, eojeol_ids: {test_eojeol_ids.shape}")
-    print(f"entitty_ids - train: {train_entity_ids.shape}, dev: {dev_entity_ids.shape}, test: {test_entity_ids.shape}")
+    #print(f"entitty_ids - train: {train_entity_ids.shape}, dev: {dev_entity_ids.shape}, test: {test_entity_ids.shape}")
 
     # make train/dev/test dataset
     if 5 == g_user_select:

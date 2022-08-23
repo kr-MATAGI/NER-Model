@@ -140,7 +140,7 @@ class Encoder(nn.Module):
         return all_encoder_layers
 
 
-class Config(object):
+class Enc_Config(object):
     def __init__(self,
                  vocab_size_or_config_json_file,
                  act_fn="gelu",
@@ -175,7 +175,7 @@ class Config(object):
 
     @classmethod
     def from_dict(cls, json_object):
-        config = Config(vocab_size_or_config_json_file=-1)
+        config = Enc_Config(vocab_size_or_config_json_file=-1)
         for key, value in json_object.items():
             config.__dict__[key] = value
         return config
@@ -231,69 +231,12 @@ class Embeddings(nn.Module):
 
         return embeddings
 
-
-class PredictionHeadTransform(nn.Module):  #
-    def __init__(self, config):
-        super(PredictionHeadTransform, self).__init__()
-        self.dense = Linear(config.hidden_size, config.hidden_size)
-        self.act_fn = ACT2FN[config.act_fn]
-        self.LayerNorm = LayerNorm(config.hidden_size, eps=1e-12)
-
-    def forward(self, hidden_states):
-        hidden_states = self.dense(hidden_states)
-        hidden_states = self.act_fn(hidden_states)
-        hidden_states = self.LayerNorm(hidden_states)
-        return hidden_states
-
-
-class LMPredictionHead(nn.Module):  #
-    def __init__(self, config, embedding_weights):
-        super(LMPredictionHead, self).__init__()
-        self.transform = PredictionHeadTransform(config)
-        self.decoder = Linear(embedding_weights.size(1),
-                              embedding_weights.size(0),
-                              bias=False)
-        self.decoder.weight = embedding_weights
-        self.bias = nn.Parameter(torch.zeros(embedding_weights.size(0)))
-
-    def forward(self, hidden_states):
-        hidden_states = self.transform(hidden_states)
-        hidden_states = self.decoder(hidden_states) + self.bias
-        return hidden_states
-
-
-class PreTrainingHeads(nn.Module):  #
-    def __init__(self, config, embedding_weights):
-        super(PreTrainingHeads, self).__init__()
-        self.predictions = LMPredictionHead(config, embedding_weights)
-
-    def forward(self, sequence_output):
-        prediction_scores = self.predictions(sequence_output)
-
-        return prediction_scores
-
-
-class Pooler(nn.Module):
-    def __init__(self, config):
-        super(Pooler, self).__init__()
-        self.dense = Linear(config.hidden_size, config.hidden_size)
-        self.activation = nn.Tanh()
-
-    def forward(self, hidden_states):
-        # We "pool" the model by simply taking the hidden state corresponding
-        # to the first token.
-        first_token_tensor = hidden_states[:, 0]
-        pooled_output = self.dense(first_token_tensor)
-        pooled_output = self.activation(pooled_output)
-        return pooled_output
-
-
 class Model(nn.Module):
     def __init__(self, config):
         super(Model, self).__init__()
         self.embeddings = Embeddings(config)
         self.encoder = Encoder(config)
-        self.pooler = Pooler(config)
+        #self.pooler = Pooler(config)
 
     def forward(self, input_ids, token_type_ids=None, attention_mask=None):
         if attention_mask is None:
@@ -317,96 +260,3 @@ class Model(nn.Module):
         pooled_output3 = self.pooler(sequence_output3)
 
         return sequence_output1, sequence_output2, sequence_output3, pooled_output1, pooled_output2, pooled_output3
-
-
-class PreTraining(nn.Module):
-    def __init__(self, config):
-        super(PreTraining, self).__init__()
-        self.bert = Model(config)
-        self.cls = PreTrainingHeads(config, self.bert.embeddings.word_embeddings.weight)
-        self.vocab_size = config.vocab_size
-
-    def forward(self, input_ids, attention_mask=None, masked_lm_labels=None):
-        sequence_output = self.bert(input_ids, attention_mask)
-        prediction_scores = self.cls(sequence_output)
-
-        if masked_lm_labels is not None:
-            loss_fct = CrossEntropyLoss(ignore_index=-1)
-            masked_lm_loss = loss_fct(prediction_scores.view(-1, self.vocab_size), masked_lm_labels.view(-1))
-            return masked_lm_loss
-        else:
-            return prediction_scores
-
-
-class QuestionAnswering(nn.Module):
-    def __init__(self, config):
-        super(QuestionAnswering, self).__init__()
-        self.bert = Model(config)
-        # TODO check with Google if it's normal there is no dropout on the token classifier of SQuAD in the TF version
-        # self.dropout = nn.Dropout(config.hidden_dropout_prob)
-        config.num_hidden_layers = 4
-        config.hidden_size = 768
-        config.ff_dim = 768 * 4
-
-        self.additional_layer1 = Encoder(config)
-        #self.additional_layer2 = Encoder(config)
-
-        self.qa_hidden1 = Linear(768, 768)
-        self.qa_hidden2 = Linear(768, 512)
-        self.qa_hidden3 = Linear(512, 256)
-
-        self.qa_outputs = Linear(256, 2)
-
-        self.sigmoid = torch.nn.Sigmoid()
-        self.softmax = torch.nn.Softmax(dim=1)
-
-        self.dropout = Dropout(config.dropout_prob)
-
-    def forward(self, input_ids, token_type_ids=None, attention_mask=None, start_positions=None, end_positions=None,
-                ve_value=None):
-        extended_attention_mask = attention_mask.unsqueeze(1).unsqueeze(2)
-        extended_attention_mask = extended_attention_mask.to(dtype=next(self.parameters()).dtype)  # fp16 compatibility
-        # extended_attention_mask = extended_attention_mask.to(torch.float32)
-        extended_attention_mask = (1.0 - extended_attention_mask) * -10000.0
-
-        sequence_output1, sequence_output2, sequence_output3, pooled_output1, pooled_output2, pooled_output3\
-            = self.bert(input_ids, token_type_ids, attention_mask)
-
-        sequence_output = torch.cat([sequence_output1, sequence_output2, sequence_output3], dim=2)
-
-        encoded_layers = self.additional_layer1(sequence_output, extended_attention_mask)
-        sequence_output = encoded_layers[-1]
-
-        sequence_output = self.dropout(gelu(self.qa_hidden1(sequence_output)))
-        sequence_output = self.dropout(gelu(self.qa_hidden2(sequence_output)))
-        sequence_output = self.qa_hidden3(sequence_output)
-
-        logits = self.qa_outputs(sequence_output)
-        start_logits, end_logits = logits.split(1, dim=-1)
-        start_logits = start_logits.squeeze(-1)
-        end_logits = end_logits.squeeze(-1)
-
-        if start_positions is not None and end_positions is not None:
-            # If we are on multi-GPU, split add a dimension
-            if len(start_positions.size()) > 1:
-                start_positions = start_positions.squeeze(-1)
-            if len(end_positions.size()) > 1:
-                end_positions = end_positions.squeeze(-1)
-            # sometimes the start/end positions are outside our model inputs, we ignore these terms
-            ignored_index = start_logits.size(1)
-            start_positions.clamp_(0, ignored_index)
-            end_positions.clamp_(0, ignored_index)
-
-            loss_fct = CrossEntropyLoss(ignore_index=ignored_index)
-            loss_mse = MSELoss()
-
-            start_loss = loss_fct(start_logits, start_positions)
-            end_loss = loss_fct(end_logits, end_positions)
-
-            total_loss = (start_loss + end_loss) / 2
-            return total_loss
-        else:
-            #start_logits = self.softmax(start_logits)
-            #end_logits = self.softmax(end_logits)
-
-            return start_logits, end_logits

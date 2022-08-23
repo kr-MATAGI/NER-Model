@@ -16,9 +16,7 @@ from model.modeling_bert2 import Encoder
 #===============================================================
 class Electra_Addi_Feature_Model(ElectraPreTrainedModel):
 #===============================================================
-    #===================================
     def __init__(self, config):
-    #===================================
         # init
         super(Electra_Addi_Feature_Model, self).__init__(config)
 
@@ -76,9 +74,7 @@ class Electra_Addi_Feature_Model(ElectraPreTrainedModel):
         # Initialize weights and apply final processing
         self.post_init()
 
-    #===================================
     def _make_eojeol_entity_embed(self, eojeol_ids, entity_ids):
-    #===================================
         batch_size, seq_len = eojeol_ids.size() # [64, 128]
 
         device = eojeol_ids.device

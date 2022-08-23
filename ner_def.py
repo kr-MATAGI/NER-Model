@@ -1,6 +1,3 @@
-from dataclasses import dataclass, field
-from typing import List
-
 ### NE Tag Set
 ETRI_TAG = {
     "O": 0,

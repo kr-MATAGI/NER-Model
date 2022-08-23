@@ -6,7 +6,6 @@ import torch.nn.functional as F
 import numpy as np
 
 from typing import Tuple
-
 from transformers import ElectraModel, ElectraPreTrainedModel
 
 from model.crf_layer import CRF
@@ -112,9 +111,9 @@ class Eojeol_Embed_Model(ElectraPreTrainedModel):
         all_eojeol_attention_mask = torch.zeros(batch_size, max_eojeol_len)
 
         # matmul
-        # one_hot_embed.shape : [64, 50, 128]
-        # last_hidden.shape : [64, 128, 768]
-        matmul_out_embed = one_hot_embed @ last_hidden # [64, 50, 768]
+        # one_hot_embed.shape : [64, 50, 128] = [batch, max_eojeol_len, max_seq_len]
+        # last_hidden.shape : [64, 128, 768] = [batch, max_seq_len, hidden]
+        matmul_out_embed = one_hot_embed @ last_hidden # [64, 50, 768] = [batch, max_eojeol, hidden]
 
         # [ This, O, O, ... ], [ O, This, O, ... ], [ O, O, This, ...]
         eojeol_pos_1 = pos_ids[:, :, 0] # [64, eojeol_max_len]
@@ -161,11 +160,11 @@ class Eojeol_Embed_Model(ElectraPreTrainedModel):
                                                     eojeol_ids=eojeol_ids)
 
         # matmul one_hot @ plm outputs
-        one_hot_embed = one_hot_embed.transpose(1, 2)
+        one_hot_embed_t = one_hot_embed.transpose(1, 2)
         eojeol_tensor, eojeol_attention_mask = self._make_eojeol_tensor(last_hidden=el_last_hidden,
                                                                         pos_ids=pos_tag_ids,
                                                                         eojeol_ids=eojeol_ids,
-                                                                        one_hot_embed=one_hot_embed,
+                                                                        one_hot_embed=one_hot_embed_t,
                                                                         max_eojeol_len=self.max_eojeol_len)
 
         eojeol_attention_mask = eojeol_attention_mask.unsqueeze(1).unsqueeze(2) # [64, 1, 1, max_eojeol_len]
@@ -173,7 +172,11 @@ class Eojeol_Embed_Model(ElectraPreTrainedModel):
         eojeol_attention_mask = (1.0 - eojeol_attention_mask) * -10000.0
 
         enc_outputs = self.encoder(eojeol_tensor, eojeol_attention_mask)
-        enc_outputs = enc_outputs[-1]
+        enc_outputs = enc_outputs[-1] # [batch, max_eojeol_len, hidden]
+
+        # 어절->Wordpiece
+        enc_outputs = one_hot_embed @ enc_outputs
+
         trans_outputs = self.dropout(enc_outputs)
 
         # Classifier

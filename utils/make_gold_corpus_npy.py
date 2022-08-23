@@ -11,7 +11,7 @@ from typing import List, Dict, Tuple
 from data_def import Sentence, NE, Morp
 
 from transformers import AutoTokenizer, ElectraTokenizer
-from dict_utils import Dict_Item, Word_Info, Sense_Info, make_dict_hash_table
+from dict_utils import Dict_Item, make_dict_hash_table
 
 ### global
 random.seed(42)
