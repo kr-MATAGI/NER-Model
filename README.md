@@ -1,60 +1,39 @@
-## 실행 방법
- 
-  1. git clone
-  
-  ```
-  git clone https://github.com/kr-MATAGI/NER-Model.git
-  ```
-  
-  2. 전처리된 데이터 압축해제
-  
-    ner_input_data.7z 압축 해제  사용할 모델의 config 파일에서 tarin/dev/test npy 경로 설정.
-  
-  3. run_ner.py
-  
-  ```
-  python run_ner.py
-  ```
-  
-  4. 실험을 진행할 모델 선택
+# NER-Model (한국어 개체명 인식 모델)
 
-  ![image](https://user-images.githubusercontent.com/30927066/179449109-2d9b661d-859d-44c4-babb-728ca6722421.png)
-  
-  ### *Config 파일을 통한 실험환경 설정
-  
-  ```json
-  "task": "custom",
-  "data_dir": "data",
-  "ckpt_dir": "각 훈련 및 테스트별 모델, 결과가 저장될 root 폴더",
-  "train_npy": "훈련 데이터.npy", 
-  "dev_npy": "검증 데이터.npy", 
-  "test_npy": "테스트 데이터.npy", 
-  "evaluate_test_during_training": false,
-  "eval_all_checkpoints": true,
-  "save_optimizer": true,
-  "do_lower_case": false,
-  "do_train": true,
-  "do_eval": true,
-  "max_seq_len": 512,
-  "num_train_epochs": 10,
-  "weight_decay": 0.0,
-  "gradient_accumulation_steps": 1,
-  "adam_epsilon": 1e-8,
-  "warmup_proportion": 0,
-  "max_steps": -1,
-  "max_grad_norm": 1.0,
-  "no_cuda": false,
-  "model_type": "monologg/koelectra-base-v3-discriminator",
-  "model_name_or_path": "monologg/koelectra-base-v3-discriminator",
-  "output_dir": "ckpt_dir내 생성될 폴더 이름",
-  "seed": 42,
-  "train_batch_size": 64,
-  "eval_batch_size": 128,
-  "logging_steps": 4065,
-  "save_steps": 4065,
-  "learning_rate": 5e-5,
-  "n_gpu": 1
-  ```
+## 프로젝트 소개
+이 프로젝트는 한국어 텍스트에서 개체명(Named Entity)을 인식하는 딥러닝 모델을 구현한 것입니다. BERT, ELECTRA 등의 사전학습 모델을 기반으로 하며, LSTM과 CRF 레이어를 추가하여 성능을 향상시켰습니다.
+
+## 주요 기능
+- 한국어 텍스트의 개체명 인식
+- 다양한 모델 구조 지원 (BERT, ELECTRA + LSTM, CRF)
+- 형태소 분석 정보를 활용한 성능 개선
+- 국립국어원 개체명 분석 말뭉치 데이터셋 지원
+
+## 설치 방법
+
+### 1. 저장소 클론
+```bash
+git clone https://github.com/kr-MATAGI/NER-Model.git
+cd NER-Model
+```
+
+### 2. 가상환경 설정 및 의존성 설치
+```bash
+python -m venv venv
+source venv/bin/activate  # Windows: venv\Scripts\activate
+pip install -r requirements.txt
+```
+
+### 3. 데이터 준비
+- ner_input_data.7z 압축 파일을 해제
+- 사용할 모델의 config 파일에서 train/dev/test npy 경로 설정
+
+## 사용 방법
+
+### 1. 모델 학습 및 평가
+```bash
+python run_ner.py
+```
 
 ## 실험 환경
   <table>
@@ -138,3 +117,28 @@
 
 ## Feature Embedding 참고
   - [임베딩을 합치는 4가지 방법](https://jeonghyeokpark.netlify.app/pytorch/2020/12/17/pytorch5.html)
+
+## 프로젝트 구조
+```
+NER-Model/
+├── config/           # 모델 설정 파일
+├── data/            # 데이터셋 저장 디렉토리
+├── model/           # 모델 구현 파일
+├── utils/           # 유틸리티 함수
+├── ner_def.py       # 개체명 정의
+├── ner_utils.py     # NER 관련 유틸리티
+├── run_ner.py       # 메인 실행 파일
+└── requirements.txt # 의존성 목록
+```
+
+## 개발 환경
+- Python 3.7+
+- PyTorch 1.10.0
+- Transformers 4.16.2
+- CUDA 11.3 (GPU 사용시)
+
+## 라이센스
+- 이 프로젝트는 MIT 라이센스를 따릅니다.
+- 우리말샘 사전 데이터는 [우리말샘 저작권 정책](https://opendict.korean.go.kr/service/copyrightPolicy)을 따릅니다.
+
+## 참고 문헌
